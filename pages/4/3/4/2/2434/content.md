@@ -22,13 +22,13 @@ This entry here is about the definition of $(2|1)$-dimensional [[super-cobordism
 
 Previous:
 
-  * [[Axiomatic field theories and their motivation from topology]]
+ * [[Axiomatic field theories and their motivation from topology]]
 
-  * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+ * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
-  * [[(2,1)-dimensional Euclidean field theories and tmf]]
+ * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
-  * [[bordism categories following Stolz-Teichner]]
+ * [[bordism categories following Stolz-Teichner]]
 
 
 #Contents#
@@ -386,7 +386,7 @@ $$
 
 where $e^{-t H}$ is "trace class" in the non-standard sense described above in that it makes the above diagram commute.
 
-So everything as known from standard [[quantum mechanics textbooks]], except that we don't use the full [[Hilbert space]] of states, but just the [[Frechet space]] of smooth functions.
+So everything as known from standard [[quantum mechanics]] textbooks, except that we don't use the full [[Hilbert space]] of states, but just the [[Frechet space]] of smooth functions.
 
 ## explicit description of $E Bord_{2}$ ##
 
@@ -503,3 +503,6 @@ $$
   \alpha^* T  = T
   \,.
 $$
+
+
+[[!redirects (2,1)-dimensional Euclidean field theories]]
