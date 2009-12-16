@@ -16,3 +16,5 @@ An amusing discussion on the differences between schemes and varieties can be fo
 [[!redirects quasiaffine varieties]]
 [[!redirects quasiprojective variety]]
 [[!redirects quasiprojective varieties]]
+[[!redirects variety]]
+[[!redirects varieties]]
