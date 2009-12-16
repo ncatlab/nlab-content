@@ -29,3 +29,6 @@ Given a [[lattice]] $L$ and two elements $x$ and $y$ of $L$, a __relative comple
 The term _Boolean ring_ is sometimes used for something like a [[Boolean algebra]] in which there may be no [[top]] element (and therefore no complements) but still relative complements; compare the notions of _ring_ vs _algebra_ at [[sigma-algebra]].
 
 This includes the previous examples; the [[power set]] of $X$ is a [[Boolean algebra]], while the class of all sets is (in this sense) a Boolean ring.
+
+
+[[!redirects set difference]]
