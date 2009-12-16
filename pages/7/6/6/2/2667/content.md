@@ -82,7 +82,7 @@ where $\lambda$ is indexed over Young diagrams and $V_\lambda$ is the correspond
 
 $$\bigoplus_{\lambda'} V_{\lambda'}$$ 
 
-where this time $\lambda'$ ranges over $n$-box [[Young tableaux]], and $V_\lambda'$ represents the irreducible subrepresentation attached to $\lambda$.  
+where this time $\lambda'$ ranges over $n$-box [[Young tableau]]x, and $V_\lambda'$ represents the irreducible subrepresentation attached to $\lambda$.  
 
 This group algebra lives as a [[monoid]] in the symmetric monoidal category of finite-dimensional rational spaces $FinVect_{\mathbb{Q}}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
 
