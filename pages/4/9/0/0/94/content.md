@@ -1,4 +1,6 @@
 <div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+***
 [[!include higher algebra - contents]]
 </div>
 
