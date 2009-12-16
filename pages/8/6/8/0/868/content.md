@@ -41,5 +41,8 @@ In [[classical mathematics]], the distinction between total orders and linear or
 For more, including why linear orders are more often useful in constructive mathematics, see [[linear order]].
 
 
+[[!redirects total orders]]
 [[!redirects toset]]
+[[!redirects tosets]]
 [[!redirects totally ordered set]]
+[[!redirects totally ordered sets]]
