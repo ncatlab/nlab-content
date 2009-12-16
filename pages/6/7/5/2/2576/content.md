@@ -95,7 +95,7 @@ We will not worry about the second concern and address the first by replacing th
 $$
 G: \mathrm{DSch} / X^{op} \to \mathrm{TopAb}
 $$ 
-such that composition with the forgetful functor $F: \mathrm{TopAb} \to \mathrm{Top}$ is representable (up to weak equivalence) by an object which is [[flat]] over $X$.
+such that composition with the forgetful functor $F: \mathrm{TopAb} \to \mathrm{Top}$ is representable (up to weak equivalence) by an object which is [[flat object|flat]] over $X$.
 
 
 **Examples**
