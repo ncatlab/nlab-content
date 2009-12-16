@@ -14,7 +14,7 @@ Here on the right what is means is the diagram in the modular tensor category ma
 
 In the description of 2-dimensional [[conformal field theory]] in the [[FFRS-formalism]] it is manifestly this kind of modular diagram that encodes the torus partition function of the CFT. This explains the relevance of modular tensor categories in the description of [[conformal field theory]].
 
-Since 2-dimensional conformal field theory is related by [[quantum holography]] to 3-dimensional [[TQFT]], modular tensor categories also play a role there, which was in fact understood before the full application in conformal field theory was: in the [[[Reshetikhin-Turaev model]].
+Since 2-dimensional conformal field theory is related by [[quantum holography]] to 3-dimensional [[TQFT]], modular tensor categories also play a role there, which was in fact understood before the full application in conformal field theory was: in the [[Reshetikhin-Turaev model]].
 
 
 ## Definition ##
@@ -23,7 +23,7 @@ A **modular tensor category** is a [[category]] with the following long list of 
 
 >needs to be put in more coherent form, just a stub
 
-* it is an [[abelian category]], $\mathbb{C}$-linear (i.e. $Vect_{\mathbb{C}}$ [[enriched category]]), [[semisimple category]] [[monoidal catgeory|tensor category]]
+* it is an [[abelian category]], $\mathbb{C}$-linear (i.e. $Vect_{\mathbb{C}}$ [[enriched category]]), [[semisimple category]] [[monoidal category|tensor category]]
 
 * the tensor unit is a simple object, $I$ 
   a finite set of representatives of isomorphism classes of simple objects
