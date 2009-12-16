@@ -1,12 +1,18 @@
+
+
 <div class="rightHandSide toc">
 [[!include cohomology - contents]]
+***
+[[!include infinity-Lie theory - contents]]
 </div>
+
+
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Definition
 
 The abelian cohomology of a [[Lie algebra]] $\mathfrak{g}$ is the [[chain homology and cohomology|cochain cohomology]] of its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$. See also [[nonabelian Lie algebra cohomology]]. 
 
@@ -17,9 +23,11 @@ $$
   \,.
 $$
 
-#Extensions#
+See also [[nonabelian Lie algebra cohomology]].
+
+## Extensions
  
-every Lie algebra degree $n$ cocycle $\mu$ gives rise to an extension
+Every Lie algebra degree $n$ cocycle $\mu$ gives rise to an extension
 
 $$
   b^{n-2} \mathfrak{u}(1) \to \mathfrak{g}_{\mu}
@@ -28,23 +36,23 @@ $$
 
 of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].
 
-## ordinary Lie algebras ##
+### Ordinary Lie algebras 
 
 * [[String Lie 2-algebra]]
 
 
-## super Lie algebras ##
+### Super Lie algebras 
 
 * [[supergravity Lie 3-algebra]]
 
 * C. Weibel, _An introduction to homological algebra_ (Cambridge studies in advanced mathematics 38, 1994), chapter 7: Lie algebra homology and cohomology
 
-#References#
+## References
 
-## ordinary Lie algebras ##
+### Ordinary Lie algebras
 
 * [Springer online enc:Lie algebra cohomology](http://eom.springer.de/C/c023140.htm)
 
-## super Lie algebras ##
+### Super Lie algebras
 
 * J. A. de Azc&#225;rraga and P. K. Townsend, _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
