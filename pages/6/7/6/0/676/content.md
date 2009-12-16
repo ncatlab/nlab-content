@@ -43,7 +43,7 @@
     * [[Dijkgraaf-Witten theory]]
 * [[string theory|String Theory]]
 
-  * [[brane|Branes]], [[BPS-state]]
+  * [[brane|Branes]], [[BPS-state]], [[Berkovits superstring]]
 * [[gnarly problems in physics|Gnarly problems in physics]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
