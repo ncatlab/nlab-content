@@ -1,6 +1,3 @@
-[[!redirects basic ideas of moduli stacks of curves and Gromov-Witten theory]]
-
-
 
 +-- {: .standout}
 
@@ -312,7 +309,7 @@ There should be a virtual fundamental class $[\bar M_{g,n}(x,\beta)]^{virtual}$ 
 
 This [[virtual fundamental class]] in algebraic geometry was constructed by Behrend-Fantechi; in symplectic geometry it was done by Li-Tian.
 
-Why do we want to use a "virtual" fundamental class? Because \bar M_{g,n}(x,\beta) is not smooth, the actual fundamental class may not behave very well. **NEEDS ELUCIDATION -- it would be nice if someone could give a more complete explanation of why we need a _[[virtual_ fundamental class]]**
+Why do we want to use a "virtual" fundamental class? Because \bar M_{g,n}(x,\beta) is not smooth, the actual fundamental class may not behave very well. **NEEDS ELUCIDATION -- it would be nice if someone could give a more complete explanation of why we need a _[[virtual fundamental class|virtual]]_ fundamental class**
 
 
 
@@ -384,7 +381,7 @@ $$
    }
   $$
 
-where the bottom right iso uses the [[Künneth formula]]
+where the bottom right iso uses the [[Kunneth formula|Künneth formula]]
 
 here $\Delta_a$ is a homogeneous basis of $H^\bullet(X)$
 
@@ -430,3 +427,10 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
 * Sheldon Katz, _Enumerative geometry and string theory_, Student Math. Library __32__. IAS/Park City AMS & IAS 2006. xiv+206 pp.
 
 * Eleny-Nicoleta Ionel, Thomas H. Parker, _Relative Gromov-Witten invariants_, Ann. of Math. (2) 157 (2003), no. 1, 45--96 ([doi](http://dx.doi.org/10.4007/annals.2003.157.45)).
+
+
+[[!redirects basic ideas of moduli stacks of curves and Gromov–Witten theory]]
+[[!redirects basic ideas of moduli stacks of curves and Gromov--Witten theory]]
+[[!redirects basic ideas of moduli stacks of curves and Gromov-Witten invariants]]
+[[!redirects basic ideas of moduli stacks of curves and Gromov–Witten invariants]]
+[[!redirects basic ideas of moduli stacks of curves and Gromov--Witten invariants]]
