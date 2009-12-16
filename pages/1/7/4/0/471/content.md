@@ -625,4 +625,6 @@ My understanding is that Todd is going to write an entry on the Trimble definiti
 
 =--
 
+
 [[!redirects interval objects]]
+[[!redirects simplex in a lined topos]]
