@@ -1,4 +1,4 @@
-The Hamiltonian of a [[dynamic system]] is the sum of the kinetic and potential energy:
+The Hamiltonian of a [[dynamical system]] is the sum of the kinetic and potential energy:
 \[ H = T + V. \]
 
 Knowing only $H$ as a function on [[phase space]] (so as a function of [[position]] $q^i$ and [[momentum]] $p_i$), we can derive other quantities as functions on phase space.  In particular, we have:
