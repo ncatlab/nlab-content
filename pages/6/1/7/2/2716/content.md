@@ -1,33 +1,37 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 An _$n$-symplectic manifold_ is to an ordinary [[symplectic manifold]] as an [[L-infinity algebroid|Lie n-algebroid]] is to an ordinary [[manifold]].
 
-#Definition#
+## Definition
 
 Traditionally, $n$-symplectic manifolds are thought of as [[supermanifold]]s with extra structure. More particularly, as [[NQ-supermanifold]]s with extra structure. 
 
 One can argue that a more conceptual way to talk about them is in terms of [[Lie ∞-algebroid]]s. Technically it means precisely the same thing, but amplifying the [[Lie theory]] context should be helpful.
 
-## in supermanifold language ##
+### In supermanifold language 
 
 An $n$-symplectic manifold is a [[NQ-supermanifold]] $X$ with an  $\mathbb{N}$-graded symplectic form $\omega$ of grading-degree $n$.
 
 So $\omega$ is a closed nondegenerate [[super differential form]] that respects the $\mathbb{N}$-refined grading of the underlying $\mathbb{Z}_2$-garded [[supermanifold]] as indicated.
 
-## in $\infty$-Lie algebroid language ##
+### In $\infty$-Lie algebroid language 
 
 An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped with a choice of binary degree $(n+2)$ [[invariant polynomial]] $\omega \in inv(\mathcal{a})$. More on this is at [[schreiber:symplectic ∞-Lie algebroid]].
 
 
 
-#Examples#
+## Examples
 
-## $n=0$: symplectic manifold ## 
+### $n=0$: symplectic manifold
 
 In [[NQ-supermanifold]] language:
 
@@ -39,19 +43,19 @@ A $0$-symplectic manifold is an ordinary [[symplectic manifold]].
 
 =--
 
-## $n=1$: Poisson manifold ## 
+### $n=1$: Poisson manifold 
 
 A $1$-symplectic manifold is, as a 1-[[Lie algebroid]], necessarily a [[Poisson Lie algebroid]]. As such it is equivalently encoded in an ordinary [[Poisson manifold]].
 
 Regarded as a [[Lie algebroid]], it should by [[Lie integration]] integrate to a [[Lie groupoid]] with extra structure. These are the [[symplectic groupoid]]s.
 
-## $n=2$: Courant algebroid ## 
+### $n=2$: Courant algebroid
 
 A $2$-symplectic manifold encodes and is encoded by the structure of a [[Courant algebroid]].
 
 Recall from the discussion there that one incarnation of this [[Courant algebroid]] is as a [[L-infinity algebra|Lie 3-algebra]]. If the base manifold is a point, then this is the [[String Lie 2-algebra]].
 
-# relation to multisymplectic geometry #
+## Relation to multisymplectic geometry
 
 There is also the closely related notion  of [[multisymplectic geometry]]. See 
 
@@ -64,7 +68,7 @@ An article with more details on this:
 * [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_ ([pdf](http://math.ucr.edu/~chris/2plectic-algebroid_DRAFT.pdf)).
 
 
-#References#
+## References
 
 The notion originates somewhere in the school of [[Alan Weinstein]]'s school of [[higher category theory|higher categorial]] [[symplectic geometry]]. The first published appearance of the notion at least for $0 \leq n \leq 3$ is
 
