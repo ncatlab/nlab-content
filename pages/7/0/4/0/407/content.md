@@ -2,6 +2,9 @@
 
 The **globe category** $G$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[globe|globes]].
 
+It may also be called the [[globular category]], although that term has other interpretations.
+
+
 #Definition#
 
 The **globe category** $G$ is
@@ -31,8 +34,10 @@ $$
   \,.
 $$
 
+
 #Remarks#
 
 * The globe category is used to define [[globular set|globular sets]].
+
 
 category: category
