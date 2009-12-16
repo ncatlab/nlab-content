@@ -1,8 +1,13 @@
-#Idea#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
+## Idea
 
 For $X$ a smooth space, there are useful refinements of the [[fundamental groupoid]] $\Pi_1(X)$ which remember more than just the homotopy class of paths, i.e. whose morphisms are (piecewise, say) smooth paths in $X$ modulo an equivalence relation still strong enough to induce a groupoid structure, but weaker than dividing out homotopies relative to endpoints.
 
-#Definition#
+## Definition
 
 Let $X$ be a smooth [[manifold]].
 
@@ -49,7 +54,7 @@ There are various generalizations of the path groupoid to [[n-groupoids]] and [[
 
 * [[path ∞-groupoid]] .
 
-#Remarks#
+## Remarks
 
 If $G$ is a Lie group, then internal (i.e. smooth) functors from the path groupoid to the one-object Lie groupoid corresponding to $G$ are in bijection to $Lie(G)$-valued differential forms on $X$. With gauge transformations regarded as morphisms between Lie-algebra values differential forms, this extends naturally to an equivalence of categories
 $$
