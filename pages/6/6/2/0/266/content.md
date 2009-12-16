@@ -73,7 +73,7 @@ In particular, the _global_ definition of Kan extension is a direct generalizati
 
 
 
-##Definitions#
+##Definitions
 
 We give the following three definitions, which are equivalent in good situations
 
@@ -135,7 +135,7 @@ $$
 i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
 
 
-### Local: in terms of universal natural transformations ##
+### Local: in terms of universal natural transformations 
 
 The above global definition _implies_ the following property:
 
@@ -167,7 +167,7 @@ While this property is implied by the above global definition, it does not itsel
 =--
 
 
-### Local: pointwise in terms of weighted (co)limits ##
+### Local: pointwise in terms of weighted (co)limits {#byColimits}
 
 We give now a list of ways to express the Kan extension of a functor in terms of [[weighted limit|weighted]] [[limit|(co)limit]]s. These definitions apply in particular in the case that of $V$-[[enriched category theory]] for $V$ a [[closed monoidal category|closed]] [[symmetric monoidal category]].
 
@@ -184,7 +184,7 @@ $$
   \,.
 $$
 
-### Local: pointwise in terms of (co)ends ###
+### Local: pointwise in terms of (co)ends {#byCoends}
 
 If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
 
@@ -208,7 +208,7 @@ $$
   \,.
 $$
 
-### Local: in terms of (co)limits over comma-categories ###
+### Local: in terms of (co)limits over comma-categories 
 
 
 In the special case that $V = Set$, and only then, there is an expression of the Kan extension as a (co)limit over a [[comma category]].
@@ -248,7 +248,7 @@ Kan extensions that are computed by limits and colimits are sometimes called **p
 
 
 
-### in $(\infty,1)$-categories #
+### in $(\infty,1)$-categories 
 
 The global definition of Kan extensions for
 $(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interpreted essentially verbatim in the context of [[(infinity,1)-category|(infinity,1)-categories]] using the corresponding notion of [[limit in quasi-categories]].
@@ -256,7 +256,7 @@ $(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interp
 Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215)  of [[Higher Topos Theory|HTT]].
 
 
-##Examples#
+## Examples
 
 * For $C' = $ the [[point]], the right Kan extension of $F$ is the [[limit]] of $F$, $Ran F \simeq \lim F$ and the left Kan extension is the [[colimit]] $Lan F \simeq colim F$.
 
@@ -264,7 +264,7 @@ Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/060
 
 * see also [[examples of Kan extensions]]
 
-### restriction and extension of sheaves ###
+### Restriction and extension of sheaves 
 
 For more on the following see also 
 
@@ -280,7 +280,7 @@ which is a sheaf and one can analyze this construction to show that $f^{-1}$ is 
 
 
 
-##Remark on terminology: pushforward vs. pullback#
+## Remark on terminology: pushforward vs. pullback
 
 Generally, for $p : C \to C'$ a [[functor]], the induced functor on [[functor category|functor categories]]
 $$
@@ -323,7 +323,7 @@ It is however noteworthy that also the opposite perspective does occur in geomet
 This means that whether or not Kan extension corresponds geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
 
 
-##References#
+## References
 
 See for instance section 2.3 in 
 
