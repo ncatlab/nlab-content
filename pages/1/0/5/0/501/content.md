@@ -34,7 +34,7 @@ The above definition of "finite," and hence all the above definitions except for
 
 ## Challenge: Finiteness predicatively without infinity
 
-_Toby_: Can you think of a way to define these notions of finite without a set of truth values and without a natural numbers object? Equivalently, can you define them in an arbitrary [[locally cartesian closed category|locally cartesian closed]] [[pretopos]]?  (Use the axiom of [[subobject collection]] if necessary.)
+_Toby_: Can you think of a way to define these notions of finite without a set of truth values and without a natural numbers object? Equivalently, can you define them in an arbitrary [[locally cartesian closed category|locally cartesian closed]] [[pretopos]]?  (Use the axiom of [[subset collection|subobject collection]] if necessary.)
 
 
 ## Finite objects in a topos
