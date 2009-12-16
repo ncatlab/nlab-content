@@ -135,7 +135,7 @@ A probably incomplete list is:
 * [[foundations|Foundations]] of mathematics building on categories, for instance [[topos theory]].
 * Abstract [[geometry]], including [[algebraic geometry]] on the level of schemes and above, categorical [[noncommutative geometry]], different categorifications of [[differential geometry]], etc. 
 * [[categorical quantization|Categorical quantization]] (in mathematics).
-* [[applied category theory|Applied category theory]]. Especially to mathematical [[physics]], [[computer science]] and [[dynamic system]]s (categorical dynamics).
+* [[applied category theory|Applied category theory]]. Especially to mathematical [[physics]], [[computer science]] and [[dynamical system]]s (categorical dynamics).
 
 Most of these include some [[higher category theory]].
 
