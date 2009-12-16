@@ -353,3 +353,4 @@ See also
 
 
 [[!redirects Kan extensions]]
+[[!redirects kan extension]]
