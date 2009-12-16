@@ -1,3 +1,2 @@
-See [[Karoubian category]].
-
-category: delete
+&lt; [[pseudo-abelian category]]
+[[!redirects pseudo-abelian category -- history]]
