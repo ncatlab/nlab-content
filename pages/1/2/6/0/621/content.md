@@ -1,3 +1,10 @@
+# Traces
+* tic
+{: toc}
+
+
+## Definition
+
 If $a$ is a [[dualizable object]] in a [[symmetric monoidal category]] $C$, there is a notion of the _trace_ of an [[endomorphism]] $f:a \to a$, which reproduces the ordinary notion of trace of a linear map of finite dimensional vector spaces for the case that $C = Vect$.
 
 The idea of the trace operation is easily seen in [[string diagram]] notation: essentially one takes the endomorphism 
@@ -39,7 +46,8 @@ This definition makes sense in any [[braided monoidal category]], but often in n
 
 The trace of the identity $1_a:a \to a$ is called the **dimension** or [[Euler characteristic]] of $a$.
 
-#Examples#
+
+## Examples
 
 * $C = Vect$ with its standard monoidal structure ([[tensor product]] of vector spaces): in this case tr(f) is the usual trace of a linear map;
 
@@ -50,7 +58,13 @@ The trace of the identity $1_a:a \to a$ is called the **dimension** or [[Euler c
  
 * $C = Span(Grpd)$: this reproduces the notion of trace of a linear map within the interpretation of spans of groupoids as linear maps in the context of [[groupoidification]] and [[geometric function theory]], made explicit at [[span trace]]
 
-#References#
+
+## Categorification
+
+See [[trace of a category]]
+
+
+## References
 
 * Joyal, Street, and Verity, _Traced Monoidal Categories_  
 * Dold, Albrecht and Puppe, Dieter, _Duality, trace, and transfer_
