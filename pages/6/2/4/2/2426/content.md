@@ -9,5 +9,7 @@ A _Riemannian manifold_ is a [[manifold]] equipped with a [[Riemannian metric]].
 
 * There is a refinement of topological [[cobordism category|cobordism categories]] to one of [[Riemannian cobordism]]s.
 
+* See also the [[Myers–Steenrod theorem]].
+
 
 [[!redirects Riemannian manifolds]]
