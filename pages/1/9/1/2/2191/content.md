@@ -14,3 +14,4 @@ The notion of $C$-action (hence a $C$-actegory) is easily extendable to [[bicate
 
 * Z. &#352;koda, _Distributive laws for actions of monoidal categories_, [arxiv:0406310](http://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arxiv:0707.1609](http://arxiv.org/abs/0707.1609)
 
+If an actegory is like a [[module]], then a _[[biactegory]]_ is like a [[bimodule]].
