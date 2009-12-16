@@ -19,3 +19,5 @@ The general picture of actions, coset spaces, compatibility with localizations, 
 The analogous results for the case of multiparametric $GL_{P,Q}(n)$ can be reduced to the one-parametric case using the twisting due Artin and Tate, and reinterpreted for a usage in quantum minor calculations in
 
 * Zoran &#352;koda, _A simple algorithm for extending the identities for quantum minors to the multiparametric case_ [arXiv;0801.4965](http://arxiv.org/abs/0801.4965). 
+
+See also [[Gauss decomposition]].
