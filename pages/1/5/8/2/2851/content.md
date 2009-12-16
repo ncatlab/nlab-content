@@ -9,3 +9,5 @@ If $B$ is a subgroup of lower triangular matrices, then for the fixed $w$, the e
 Gauss decomposition can be generalized to the matrices with noncommutative entries and there are explicit formulas involving [[quasideterminants]], and in the case of quantum linear groups in terms of quantum minors. 
 
 Remark. The upper conventions are more from mathematical physics literature. The lowest weight representations have often positive energy, what is normal requirement there and the lower triangular matrices are used to act on the lowest weight vector. In mathematical community, one prefers to talk about upper triangular matrices forming Borel subgroup and about the decomposition $LDU$ and $LA$ where $A$ is upper triangular and act on heighest weight representations instead.
+
+See also [[quantum Gauss decomposition]].
