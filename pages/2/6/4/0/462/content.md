@@ -75,7 +75,7 @@ $$
   \,.
 $$
 
-This is to be read as a vast generalization of ordinary matrix multiplication, to which it reduces in the case that all spaces here are finite sets and all functions are ordinary functions on finite sets with values in some field.  One step higher this gives [[Fourier?Moukai transformation|Fourier-Moukai transformations]] etc.
+This is to be read as a vast generalization of ordinary matrix multiplication, to which it reduces in the case that all spaces here are finite sets and all functions are ordinary functions on finite sets with values in some field.  One step higher this gives [[Fourier-Mukai transformation|Fourier?Mukai transformations]] etc.
 
 
 ## Relation to Hochschild (co)homology ##
@@ -110,7 +110,7 @@ The expression on the right is known as the higher [[trace]] of the [[monoidal (
 
 ### Realization in terms of derived $\infty$-stacks on the algebraic site ###
 
-Aspects of geometric function theory have a long history in the context of [[sheaf|sheaves]] and [[stack|stacks]] over algebraic [[site]]s. The [[Fourier?Mukai transform|Fourier-Mukai transform]] is a classical example of a pull-tensor-push operation in a context where the object $C(X)$ of generalized functions on a space $X$ is taken to be $D(X)$, the [[derived category]] of [[coherent sheaf|coherent sheaves]] on $X$.
+Aspects of geometric function theory have a long history in the context of [[sheaf|sheaves]] and [[stack|stacks]] over algebraic [[site]]s. The [[Fourier-Mukai transformation|Fourier?Mukai transform]] is a classical example of a pull-tensor-push operation in a context where the object $C(X)$ of generalized functions on a space $X$ is taken to be $D(X)$, the [[derived category]] of [[coherent sheaf|coherent sheaves]] on $X$.
 
 A general proof of the above item 2 in the context of generalized functions modeled by the [[derived category]] $D(X)$ has been given in 
 
