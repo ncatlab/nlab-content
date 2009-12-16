@@ -1,3 +1,2 @@
-See [[groupoid]].
-
-category: delete
+&lt; [[groupoids]]
+[[!redirects groupoids -- history]]
