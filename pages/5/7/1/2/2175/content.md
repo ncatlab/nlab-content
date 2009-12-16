@@ -58,7 +58,7 @@
 
 * [[Charles Sanders Peirce]]
 * [[precursors]]
-* [syntax, semantics, pragmatics](http://ncatlab.org/nlab/revision/syntax%2C+semantics%2C+pragmatics/1)
+* [syntax, semantics, pragmatics](http://ncatlab.org/nlab/revision/syntax%2C+semantics%2C+pragmatics+>+history/1)
 
 # Utilities #
 
