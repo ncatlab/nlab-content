@@ -1,11 +1,16 @@
 
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 
 
-#In a lined topos#
+## In a lined topos
 
 +-- {: .query}
 
@@ -20,7 +25,7 @@ Then for $n \in \mathbb{N}$ the _orthogonal group_ $O(n)$ is the subgroup of the
 
 
 
-# Whitehead tower and higher orientation structures#
+## Whitehead tower and higher orientation structures
 
 The [[Whitehead tower]] of the orthogonal group plays an important role in applications related to [[quantum physics]]. 
 
