@@ -1,10 +1,18 @@
-#Definition: Stacky Lie groupoid#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition: Stacky Lie groupoid
 
 A _stacky Lie groupoid_ (in contrast to a [[Lie groupoid]]) is an [[internal category|internal groupoid]] in the category of [[differentiable stack|differentiable stacks]], such that the space of objects is an ordinary [[manifold]].
 
 Notice that differentiable stacks are equivalent to Lie groupoids modulo [[homotopy theory|Morita equivalence]].
 
-#Literature#
+## Literature
 
 Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Chenchang Zhu](http://chenchangzhu.blogspot.com/) and collaborators.
 
@@ -18,6 +26,6 @@ Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Ch
 
  * C. Z.,  _$n$-Groupoids and stacky groupoids_ ([arXiv](http://arxiv.org/abs/0801.2057)) 
 
-#Further resources#
+## Further resources
 
-* $n$-Caf&#233; blog discussion about this is [here](http://golem.ph.utexas.edu/category/2008/12/zhu_on_lies_second_theorem_for.html).
+* $n$-Caf&eacute; blog discussion about this is [here](http://golem.ph.utexas.edu/category/2008/12/zhu_on_lies_second_theorem_for.html).
