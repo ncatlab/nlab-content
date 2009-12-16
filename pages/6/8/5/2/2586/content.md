@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
 The __spin group__ $Spin(n)$ is the [[universal covering space]] of the [[special orthogonal group]] $SO(n)$. By the usual arguments it inherits a group structure for which the operations are smooth and so is a [[Lie group]] like $SO(n)$.
 
 The spin group is one element in the [[Whitehead tower]] of $O(n)$, which starts out like
