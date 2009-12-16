@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
 #Contents#
 
 * automatic table of contents
@@ -86,7 +91,7 @@ In one incarnation or other the String Lie 2-algebra has been considered in lite
 
 After its relation to the [[String Lie 2-group]] under [[Lie integration]] was established by  in
 
-* Andr&#233; Henriques, _Integrating $L_\infty$-algebras_
+* Andr&eacute; Henriques, _Integrating $L_\infty$-algebras_
 
 and 
 
