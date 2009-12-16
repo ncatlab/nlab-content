@@ -1,7 +1,7 @@
 
 In [[electromagnetism]] the [[electromagnetic field]] is modeled by a degree 2 [[differential cohomology|differential cocycle]] $\hat F \in H(X, \mathbb{Z}(2)_D^\infty)$ (see [[Deligne cohomology]]) with curvature characteristic 2-form $F \in \Omega^2(X)$.
 
-With $\star$ denoting the [[Hodge star operator]] with respect to the corresponding pseudo-Riemannian metric on $X$, the right hand of
+With $\star$ denoting the [[Hodge star]] operator with respect to the corresponding pseudo-Riemannian metric on $X$, the right hand of
 
 $$
   d \star F = j_{el} \in \Omega^3(X)
