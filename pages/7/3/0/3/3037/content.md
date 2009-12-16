@@ -1,0 +1,12 @@
+__Predicate logic__, also called __$1$st-order logic__, is the usual sort of [[logic]] used in the [[foundations of mathematics]].  In contrast to [[0th-order logic]], we allow for variables in [[predicates]] bound by [[quantification|quantifiers]].  However, in contrast to [[higher-order logic]], we do not allow variables that stand for predicates themselves.
+
+A __predicate calculus__ is simply a system for describing and working with predicate logic.  The precise form of such a calculus (and hence of the logic itself) depends on whether one is using [[classical logic]], [[intuitionistic logic]], [[linear logic]], etc; see those articles for details.
+
+For many (perhaps most?) authors, predicate logic is really __predicate logic with [[equality]]__.  However, some forms of predicate logic do not include an equality primitive, such as [[FOLDS]] (in whose name 'FOL' stands for 'first-order logic').  In some first-order theories, such as [[ZFC]], equality can be defined and so is not needed in the logic itself.
+
+
+[[!redirects predicate calculus]]
+[[!redirects 1st-order logic]]
+[[!redirects first-order logic]]
+[[!redirects 1st order logic]]
+[[!redirects first order logic]]
