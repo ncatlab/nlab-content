@@ -1,3 +1,2 @@
-See [[over category]].
-
-category: redirect
+&lt; [[slice category]]
+[[!redirects slice category -- hstory]]
