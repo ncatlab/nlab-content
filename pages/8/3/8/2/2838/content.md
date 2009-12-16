@@ -141,7 +141,7 @@ Note that the map $\Omega(Y) \to \Omega(X)$ must be the preimage half of a [[geo
 
 Ionads have been introduced and studied in 
 
-*  [[Richard Garner]], _Ionads: a generalisation of the notion of topological space_, ([web](http://www.dpmms.cam.ac.uk/~rhgg2/Ionads/Ionads.html), [pdf](http://www.dpmms.cam.ac.uk/~rhgg2/Ionads/Ionads.pdf))
+*  [[Richard Garner]], _Ionads: a generalisation of the notion of topological space_, ([web](http://www.dpmms.cam.ac.uk/~rhgg2/Ionads/Ionads.html), [arXiv](http://arxiv.org/abs/0912.1415))
 
 Some basic aspects of the theory are developed there, and applications to [[topology]], [[logic]] and [[geometry]] are discussed. 
 
