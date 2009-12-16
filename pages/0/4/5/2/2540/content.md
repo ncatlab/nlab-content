@@ -1,1 +1,1 @@
-&lt; [[infinitesimal singular simplicial complex]]
+&lt; [[infinitesimal neighbour]]
