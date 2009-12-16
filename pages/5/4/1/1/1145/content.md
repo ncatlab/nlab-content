@@ -4,6 +4,10 @@
 
 * [[foundations|Structural Foundations]]
 
+  * [[set theory]]
+
+    * [[structural set theory]]
+
   * [[category theory]]
     * [[Categories and Sheaves]]
     * [[topos theory]]
@@ -49,7 +53,5 @@
   * [[infinity-Lie theory - contents|higher Lie theory]]
 
 * [[discrete mathematics]]
-
-  * [[set theory]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
