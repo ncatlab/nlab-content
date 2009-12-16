@@ -1,5 +1,3 @@
-[[!redirects co-H-object]]
-[[!redirects cogroup]]
 
 #Cogroup objects#
 * automatic table of contents goes here
@@ -73,3 +71,9 @@ Of course, there is nothing special about groups here.  The same definition work
 6. This extends further: any category with a [[faithful functor]] to $\operatorname{Set}$ which preserves an [[initial object]] will have no non-trivial cogroup objects.  In particular, the category [[Top]] of *unbased* topological spaces has only the [[empty space]] as a cogroup object.
 
 7. The case of cogroups, and some other co-things, in certain other varieties of algebras has been extensively studied by Bergman and Hausknecht in _Co-groups and co-rings in categories of associative rings_, (MR1387111)
+
+
+[[!redirects co-H-object]]
+[[!redirects cogroup object]]
+[[!redirects co-group object]]
+[[!redirects co-group]]
