@@ -1,3 +1,2 @@
-See [[under category]].
-
-category: delete
+&lt; [[coslice category]]
+[[!redirects coslice category -- history]]
