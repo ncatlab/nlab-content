@@ -23,3 +23,6 @@ For a modern example of this kind, with only $1$ stalk, consider the nonarchimed
 * M. Kashiwara, P. Shapira: Categories and sheaves, Springer 2006 
 
 * S. MacLane, I. Moerdijk: Sheaves in geometry and logic, Springer 1992 
+
+
+[[!redirects germs]]
