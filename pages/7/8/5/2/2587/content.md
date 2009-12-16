@@ -154,7 +154,7 @@ If one considers passing to the (free) [[loop space]] of spacetime and then doin
 
 # generalization to other groups #
 
-One may consider the universal 3-connected cover of any general [[compact space|compact]], [[simple Lie group|simple]] and [[simply connected]]  [[Lie group]] $G$, in complete analogy to the case $G = Spin(n)$. Accordingly one speaks of string-groups $String_G$.
+One may consider the universal 3-connected cover of any general [[compact space|compact]], [[simple Lie group|simple]] and [[simply connected space|simply connected]] [[Lie group]] $G$, in complete analogy to the case $G = Spin(n)$. Accordingly one speaks of string-groups $String_G$.
 
 Of these the case $G = $ [[E8]] is the other one relevant in [[string theory]]: see [[Green-Schwarz mechanism]].
 
