@@ -1,1 +1,1 @@
-&lt; [[relation]]
+&lt; [[relation theory]]
