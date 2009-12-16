@@ -1,13 +1,21 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
 
 > [[Urs Schreiber]]: this is not in the literature
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The smooth $Fivebrane(n)$ 6-group is to the [[string 2-group]] as the [[topological group|topological]] [[fivebrane group]] is to the [[topological group|topological]] [[string group]].
 
 The motivation and background described at [[string 2-group]] applies to the fivebrane 6-group with [[string structure]] everywhere replaced by [[fivebrane structure]].
 
-#Definition#
+## Definition
 
 In a [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]] $\mathbf{H}$ with $\mathbf{B}String(n)$ denoting the [[delooping]] of the [[string 2-group]], there is canonically (up to equivalence) a morphism
 
