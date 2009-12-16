@@ -1,6 +1,6 @@
 #Idea#
 
-A _formal scheme_ is a ringed space which is (typically) not an algebraic [[scheme]]. It is instead an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
+A _formal scheme_ is a [[ringed space]] which is (typically) not an algebraic [[scheme]]. It is instead an enlarged version of a scheme including an infinitesimal neighborhood, which is expressed in terms of structure sheaves which are closer to sheaves of completions like formal power series rings rather than the polynomial rings.
 
 #Motivation#
 
