@@ -1,8 +1,13 @@
-#Contents#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
 
+
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
+## Idea
 
 An _orbifold_ is a [[differentiable stack]] which may be presented by a proper &#233;tale [[Lie groupoid]]. [[Morita equivalence|Morita equivalent]] Lie groupoids give rise to the same orbifold. One can consider a [[bicategory]] of proper &#233;tale Lie groupoids and the orbifolds will be the objects of certain bicategorical [[localization]] of this bicategory (a result of Moerdijk and Pronk). 
 
