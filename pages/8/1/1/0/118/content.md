@@ -1,3 +1,2 @@
-See [[skeleton]].
-
-category: redirect
+&lt; [[skeletal]]
+[[!redirects skeletal -- history]]
