@@ -65,7 +65,7 @@
 
 * [[model structure on chain complexes|on chain complexes]]
 
-* [[model structure on dg-algebras|on dg-algebras]] and on [[model structure on cosimplicial rings|on cosimplicial rings]] (related by [[monoidal Dold-Kan correspondence]])
+* [[model structure on dg-algebras|on dg-algebras]]/[[model structure on dg-coalgebras|on dg-coalgebras]] and on [[model structure on cosimplicial rings|on cosimplicial rings]] (related by [[monoidal Dold-Kan correspondence]])
 
 * [[Theta space|on (n,r)-categories]]
 
