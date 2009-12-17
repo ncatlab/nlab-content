@@ -1,12 +1,18 @@
 This is about a famous theorem from
 
-* Jean Benabou, Jacques Roubaud, _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98
+* [[Jean Benabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98
 
   >_Zoran_: a file with my few years old English translation will be posted and linked in few days or weeks
 
-relating [[descent]] via [[Grothendieck fibration|fibered categories]] to monadic descent. 
+relating [[descent]] via [[Grothendieck fibration|fibered categories]] to [[monadic descent]]. 
 
-By definition, a functor $P:F\to A$ is a [[Grothendieck opfibration]] if $P^{op}:F^{op}\to A^{op}$ is a [[Grothendieck fibration]], and a functor $P:F\to A$ is a __bifibration__ if $P$ is both a Grothendieck opfibration and fibration (no additional compatibility asked!). Thus we can talk about [[cartesian morphism|cartesian]] and [[cocartesian morphism|cocartesian]] arrows in $F$.
+#Contents#
+* automatic table of contennts goes here
+{:toc}
+
+## Context
+
+By definition, a functor $P:F\to A$ is a [[Grothendieck opfibration]] if $P^{op}:F^{op}\to A^{op}$ is a [[Grothendieck fibration]], and a functor $P:F\to A$ is a __[[bifibration]]__ if $P$ is both a Grothendieck opfibration and fibration (no additional compatibility asked!). Thus we can talk about [[cartesian morphism|cartesian]] and [[cocartesian morphism|cocartesian]] arrows in $F$.
 
 In a bifibered category, automatically for any morphism $a:A_1\to A_0$ in the base, the "inverse image" (or "pullback" or "restriction") functor $a^*:F(A_0)\to F(A_1)$ is right adjoint to the "pushforward" functor $a_!:F(A_1)\to F(A_0)$; with unit $\eta^a : Id_{F(A_1)} \to a^* a_!$ and counit $\epsilon^a : a_! a^* \to Id_{F(A_0)}$.
 
@@ -43,9 +49,24 @@ $$
 
 One checks that an invertible morphism $\phi\colon a_1^*(M_1)\to a_2^*(M_1)$ satisfies the cocycle equation (making it into a [[descent]] datum) iff $K^a(\phi)$ is an action of $\mathbf{T}^a$ on $M_1$, and similarly for the unitality axiom.
 
-Denote by $Desc(a)$ the category of descent data for the fibration $P$ along the morphism $a$; it comes with canonical functors $\Psi^a\colon F(A_0)\to Desc(a)$ and $U^a\colon Desc(a)\to F(A_1)$.
+## The theorem
 
-Finally, the __Benabou--Roubaud theorem__ asserts that this induces an [[equivalence of categories]] between $Desc(a)$ and $F^a$.  In addition, this equivalence satisfies some naturality properties, including that it commutes appropriately with the canonical functors to the fibers $F(A_0)$ and $F(A_1)$. Combining this theorem with Beck's [[monadicity theorem]], it becomes a practical tool for establishing a descent property in bifibrations, with variants in some other setups (to be covered later).
+Denote by $Desc(a)$ the category of [[descent]] data for the fibration $P$ along the morphism $a$; it comes with canonical functors 
+
+$$
+  \Psi^a\colon F(A_0)\to Desc(a)
+$$ 
+
+and 
+
+$$
+  U^a\colon Desc(a)\to F(A_1)
+  \,.
+$$
+
+The __Benabou--Roubaud theorem__ asserts that this induces an [[equivalence of categories]] between $Desc(a)$ and $F^a$.  
+
+In addition, this equivalence satisfies some naturality properties, including that it commutes appropriately with the canonical functors to the fibers $F(A_0)$ and $F(A_1)$. Combining this theorem with Beck's [[monadicity theorem]], it becomes a practical tool for establishing a descent property in bifibrations, with variants in some other setups (to be covered later).
 
 There are several characterizations of a Beck-Chevalley property for bifibrations:
 
