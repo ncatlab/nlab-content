@@ -17,3 +17,7 @@ use both expressions in my writings and every day usage.
 
 [[Mike Shulman|Mike]]: I see the point.  Also, for instance, a [[symmetric spectrum]] is a particular sort of symmetric space, i.e. a symmetric object in spaces in this sense.  So I'm okay with "symmetric set" as a name for this page.
 =--
+
+See also [[symmetric comonad]]. 
+
+[[!redirects symmetric simplicial set]]
