@@ -409,8 +409,131 @@ Translating these diagrams into forumas using the _convention LB_ as described a
 
 =--
 
+### Homotopies between 2-cocycles {#Homotopy2Cocycle}
 
-## Nonabelian Lia algebra cohomology
+
+Given two 2-cocycles
+
+$$
+  (\psi_1, \chi_1), (\psi_2, \chi_2)
+  : 
+  \mathbf{B}G
+  \to 
+  \mathbf{B}AUT(K)
+$$
+
+a homotopy (coboundary) between them is a [[transfor|transformation]]
+
+$$
+  \lambda : (\psi_1, \chi_1) \Rightarrow (\psi_2, \chi_2)
+  \,.
+$$
+
+Its components 
+
+$$
+  \lambda
+  : 
+  (\bullet \stackrel{g}{\to} \bullet)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+   \array{
+     \bullet &\stackrel{\psi_1(g)}{\to}& \bullet
+     \\
+     {}^{\mathllap{\lambda(\bullet)}}
+     \downarrow &{}^{\mathllap{\lambda(g)}}\swArrow& 
+     \downarrow^{\mathrlap{\lambda(\bullet)}}
+     \\
+     \bullet &\stackrel{\psi_2(g)}{\to}& \bullet 
+   }
+  \right)
+$$
+
+are given in terms of group elements by 
+
+* $\lambda(\bullet) \in Aut(K)$
+
+* $\{\lambda(g) \in K | g \in G\}$
+
+such that
+
+\[
+  \lambda(\bullet) \psi_1(g)
+  =
+  Ad(\lambda(g)) \psi_2(g) \lambda(\bullet)
+  \,.
+\]
+
+The naturality condition on this datat is that 
+for all $g_1, g_2 \in G$ we have
+
+$$
+  \array{
+    && \bullet
+    \\
+    & {}^{\mathllap{\psi_1(g_1)}}\nearrow 
+    &\Downarrow^{\chi_1(g_1,g_2)}& 
+    \searrow^{\mathrlap{\psi_1(g_2)}}
+    \\
+    \bullet &&\stackrel{\psi_1(g_2 g_1)}{\to}&& \bullet
+    \\
+    {}^{\mathllap{\lambda(\bullet)}}\downarrow &&
+    {}^{\mathllap{\lambda(g_1, g_2)}}\swArrow
+    && 
+    \downarrow^{\mathrlap{\lambda(\bullet)}}
+    \\
+    \bullet
+    &&\stackrel{\psi_2(g_2 g_1)}{\to}&&
+    \bullet
+  }
+  \;\;\;\;\;\;\;\;
+  =
+  \;\;\;\;\;\;\;\;
+  \array{
+    & {}^{\mathllap{\psi_1(g_1)}}\nearrow
+    &\downarrow& \searrow^{\mathrlap{\psi_1(g_1)}}
+    \\
+    \downarrow 
+    &{}^{\lambda(g_2)}\swArrow
+     &
+     \downarrow^{\mathrlap{\lambda(\bullet)}}
+    &{}^{\lambda(g_2)}\swArrow& 
+    \downarrow
+    \\
+    {}^{\mathllap{\lambda(\bullet)}}\downarrow
+     & 
+     {}^{\mathllap{\psi_2(g_1)}}
+     \nearrow &
+     \Downarrow^{\chi_2(g_1,g_2)}
+     & \searrow^{\mathrlap{\psi_2(g_2)}}
+     &
+     \downarrow^{\mathrlap{\lambda(\bullet)}}
+    \\
+    \bullet &&\stackrel{\psi_2(g2 g_1)}{\to}&&
+    \bullet
+  }
+$$
+
+In terms of the _conventionl LB_ at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules), this is equivalent to the equation
+
+\[
+  \label{homotopy}
+  \lambda(g_2 g_1) \; 
+  \rho(\lambda(\bullet))(\chi_1(g_1,g_2))
+  =
+  \chi_2(g_1, g_2) 
+  \;
+  \rho(\psi_1(g_2))(\lambda(g_2))  
+  \;
+  \lambda(g_2)
+  \,.
+\]
+
+Compare this to the discussion of [2-coboundaries of extensions](http://ncatlab.org/nlab/show/group+extension#2Coboundaries) at [[group extension]].
+
+## Nonabelian Lie algebra cohomology
 
 When the groups in question are [[Lie group]]s, there is an [[infinitesimal object|infinitesimal]] version of nonabelian group cohomology:
 
