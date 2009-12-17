@@ -16,7 +16,7 @@
 
 While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevalley-Eilenberg complex]], some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something that is action of another Lie algebra up to an inner automorphism. 
 
-For example the problem of extensions of Lie algebras by nonabelian Lie algebras leads to 1,2,3 nonabelian cocycles; 2-cocycles are analogues of factor systems.
+For example the problem of extensions of Lie algebras by nonabelian Lie algebras leads to 1,2,3 nonabelian cocycles; 2-cocycles are analogues of [[group extension|factor systems]].
 
 ## Nonabelian 2-cocycles
 
@@ -36,7 +36,7 @@ where $a,b\in B$ and $ad_{\mathfrak{k}}:\mathfrak{k}\to Int(\mathfrak{k})$ is th
 
 ## Schreier's theory for Lie algebras
 
-[[Otto Schreier]] (1926) and Eilenberg-Mac Lane (late 1940-s) developed a theory of nonabelian [[group extension|extensions of abstract groups]] leading to the low dimensional nonabelian group cohomology. For Lie algebras, the theory can be developed in the same manner. One tries to classify extensions of Lie algebras
+[[Otto Schreier]] (1926) and Eilenberg-Mac Lane (late 1940-s) developed a theory of nonabelian [[group extension|extensions of abstract groups]] leading to the low dimensional nonabelian group cohomology. For Lie algebras, the theory can be developed in the same manner. One tries to classify [[Lie algebra extension|extensions of Lie algebras]]
 
 $$ 0\to \mathfrak{k}
 \overset{i}\to \mathfrak{g}\overset{p}\to\mathfrak{b}\to 0$$
