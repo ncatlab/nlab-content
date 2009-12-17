@@ -63,18 +63,25 @@ Then
 
 In addition to the problem of extensions, nonabelian 2-cocycles appear in a more general problem of liftings of Lie algebras. 
 
-## Abstract definition
+## Abstract definition {#AbstractDefinition}
 
-The above definition of nonabelian Lie algebra cocycles is the image of the story of [[nonabelian group cohomology]] under Lie differentiation.
+We claim that the above definition of nonabelian Lie algebra cocycles may be understood naturally in terms of the general notion of [[cohomology]] and in particular is the image of the story of [[nonabelian group cohomology]] under Lie differentiation:
+
++-- {: .standout}
+
+The following observation is not in the literature.
+
+=--
 
 
 
-Theorem
++-- {: .un_prop}
+###### Proposition
 
-Let $\infty Lie$ be the $(\infty,1)$-category of L-infinity algebras.
-Let $\mathfrak{g}, \mathfrak{k}$ be Lie algebras. Then the
-degree nonabelian Lie algebra cohomology of $\mathfrak{g}$ with coefficients
-in $\mathfrak{k}$ is
+Let $\infty Lie$ be the [[(∞,1)-category]] of [[L-∞-algebra]]s.
+Let $\mathfrak{g}, \mathfrak{k}$ be [[Lie algebra]]s. Then the
+degree 2 nonabelian Lie algebra cohomology of $\mathfrak{g}$ with coefficients
+in $\mathfrak{k}$ is 
 
 $$
   H^2_{nonab}(\mathfrak{g}, \mathfrak{k})
@@ -104,6 +111,7 @@ More in detail:
       \\
       \mathfrak{g}
       &\Downarrow^{\eta}&
+      Der(\mathfrak{k})
       \\
       & \searrow\nearrow^{\mathrlap{(\psi_2,\chi_2)}}
     }
@@ -112,7 +120,11 @@ More in detail:
   and this correspondence is precise if we take the homotopy to be
   induced from the "standard [[cylinder object]]", described below.
 
-Proof.
+=--
+
+
++-- {: .proof}
+###### Proof
 
 Checking this is a straightforward matter of unwinding the definitions
 of morphisms of $L_\infty$-algebras.
@@ -244,7 +256,7 @@ $$
   \array{
     \omega(\chi([-,-],-))
     =
-    \omega(\rho(\psi(-)(\xi(-,-))))
+    \omega(\rho(\psi(-)(\chi(-,-))))
     &\stackrel{(\psi^*, \chi^*)}{\leftarrow}& \omega(\rho(-)(-)))
     \\
     \uparrow^{d_\mathfrak{g} = [-,-]^*} && \uparrow^{\mathrlap{d_{\delta}}}
@@ -259,7 +271,7 @@ $$
 Since this has to hold for all $\omega$, we get the first part of the cocycle condition:
 
 $$
-  \xi([-,-],-) = \rho(\psi(-)\chi(-,-))
+  \chi([-,-],-) = \rho(\psi(-)\chi(-,-))
 $$
 
 (both sides here regarded as elements of a graded Grassmann algebra as indicated above,
@@ -332,7 +344,7 @@ $$
   \array{
     CE(\mathfrak{g})
     \\
-    \downarrow & \nearrow^{\mathrlap{(\psi_1^*, \chi_1^*)}}
+    \downarrow & \nwarrow^{\mathrlap{(\psi_1^*, \chi_1^*)}}
     \\
     C^\bullet(\Delta^1)\otimes CE(\mathfrak{g})
     &\stackrel{\eta}{\leftarrow}&
@@ -345,6 +357,9 @@ $$
 $$
 
 along the above lines.
+
+=--
+
 
 ## References
 
