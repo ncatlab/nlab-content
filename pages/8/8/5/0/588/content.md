@@ -1,3 +1,2 @@
-See [[total order]].
-
-category: redirect
+&lt; [[totally ordered set]]
+[[!redirects totally ordered set -- history]]
