@@ -1,3 +1,2 @@
-See [[constructive mathematics]].
-
-category: redirect
+&lt; [[constructivism]]
+[[!redirects constructivism -- history]]
