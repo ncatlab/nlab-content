@@ -12,20 +12,28 @@ relating [[descent]] via [[Grothendieck fibration|fibered categories]] to [[mona
 
 ## Context
 
-By definition, a functor $P:F\to A$ is a [[Grothendieck opfibration]] if $P^{op}:F^{op}\to A^{op}$ is a [[Grothendieck fibration]], and a functor $P:F\to A$ is a __[[bifibration]]__ if $P$ is both a Grothendieck opfibration and fibration (no additional compatibility asked!). Thus we can talk about [[cartesian morphism|cartesian]] and [[cocartesian morphism|cocartesian]] arrows in $F$.
+A [[functor]] $P : F\to A$ is a [[Grothendieck opfibration]] if $P^{op}:F^{op}\to A^{op}$ is a [[Grothendieck fibration]], and a functor $P:F\to A$ is a __[[bifibration]]__ if $P$ is both a Grothendieck opfibration and fibration (no additional compatibility asked!). Thus we can talk about [[cartesian morphism|cartesian]] and [[cocartesian morphism|cocartesian]] arrows in $F$.
 
-In a bifibered category, automatically for any morphism $a:A_1\to A_0$ in the base, the "inverse image" (or "pullback" or "restriction") functor $a^*:F(A_0)\to F(A_1)$ is right adjoint to the "pushforward" functor $a_!:F(A_1)\to F(A_0)$; with unit $\eta^a : Id_{F(A_1)} \to a^* a_!$ and counit $\epsilon^a : a_! a^* \to Id_{F(A_0)}$.
+In a bifibered category, automatically for any morphism $a:A_1\to A_0$ in the base, the "inverse image" (or "pullback" or "restriction") functor $a^*:F(A_0)\to F(A_1)$ is [[right adjoint]] to the "pushforward" functor $a_!:F(A_1)\to F(A_0)$; with unit $\eta^a : Id_{F(A_1)} \to a^* a_!$ and counit $\epsilon^a : a_! a^* \to Id_{F(A_0)}$.
 
 (Note that in [[topos theory]] and [[algebraic geometry]], functors $a^*$ called "[[inverse images]]" usually have *right* adjoints $a_*$.  This situation can be reconciled with the setup of bifibrations either by taking fiberwise opposites, so that left and right adjoints are switched, or by taking opposites of both the base and total categories, so that the direct and inverse images are switched.  However, there are also many bifibrations arising in other contexts in which $a^*$ has both a left adjoint $a_!$ *and* a right adjoint $a_*$, although the latter cannot then be described cleanly in fibrational terms.)
 
 The [[adjunction]] $a_!\dashv a^*$ generates a [[monad]] $\mathbf{T}^a=(T^a,\mu^a,\eta^a)$ in the usual way: the functor is $T^a = a^* a_!\colon  F(A_1)\to F(A_1)$, the multiplication is $\mu^a = a^* \epsilon^a a_!\colon  T^a \circ T^a \to T^a$, and the unit is just the unit of the adjunction.  Denote by $F^a$ the [[Eilenberg–Moore category]] $F(A_1)^{\mathbf{T}^a}$ of modules (algebras) over the monad $\mathbf{T}^a$, with canonical forgetful functor $U^{\mathbf{T}} \colon  F^a \to F(A_1)$ and canonical comparison functor $\Phi^a : F(A_0) \to F^a$.
 
 Now we assume that $A$ has [[pullbacks]], and that $P$ satisfies what is nowadays called the **Beck--Chevalley property**, namely that for each commutative square
-$$\array{
-N_0 \stackrel{\chi'}\leftarrow & N_1\\
-^{k_0}\downarrow& \downarrow^{k_1}\\
-M_0\stackrel{\chi}\leftarrow & M_1
-}$$
+
+$$
+  \array{
+    N_0 & \stackrel{\chi'}\leftarrow & N_1
+     \\
+     {}^{\mathllap{k_0}}\downarrow 
+     && 
+     \downarrow^{\mathrlap{k_1}}
+     \\
+     M_0 &\stackrel{\chi}\leftarrow & M_1
+  }
+$$
+
 in $F$ such that its image in $A$ is a [[pullback]] square, if $\chi$ and $\chi'$ are cartesian then $k_1$ is cocartesian.
 
 +--{: .query}
@@ -35,9 +43,19 @@ Zoran: I have to think, I got rusty in these issues.
 =--
 
 An equivalent way to state the condition is that for any pullback square
-$$\array{x & \overset{a}{\to} & y\\
-  ^c\downarrow && \downarrow^d\\
-  z& \underset{b}{\to} & w}$$
+
+$$
+  \array{
+    x & \overset{a}{\to} & y
+    \\
+    {}^{\mathllap{c}} \downarrow 
+    && 
+   \downarrow^{\mathrlap{d}}
+   \\
+   z & \underset{b}{\to} & w
+  }
+$$
+
 in $A$, the canonical transformation $c_! a^* \to b^* d_!$ is an isomorphism.   In the Benabou--Roubaud paper this is called the *Chevalley property* and said to make $P$ into a *Chevalley functor*.
 
 
@@ -47,7 +65,8 @@ $$
 K^a: Hom_{F(A_2)}(a_1^*(M_1),a_2^*(M_1))\to Hom_{F(A_1)}(T^a(M_1),M_1).
 $$ 
 
-One checks that an invertible morphism $\phi\colon a_1^*(M_1)\to a_2^*(M_1)$ satisfies the cocycle equation (making it into a [[descent]] datum) iff $K^a(\phi)$ is an action of $\mathbf{T}^a$ on $M_1$, and similarly for the unitality axiom.
+One checks that an invertible morphism $\phi\colon a_1^*(M_1)\to a_2^*(M_1)$ satisfies the cocycle equation 
+(making it into a [[descent]] datum) iff $K^a(\phi)$ is an action of $\mathbf{T}^a$ on $M_1$, and similarly for the unitality axiom.
 
 ## The theorem
 
