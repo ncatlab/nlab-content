@@ -1,3 +1,2 @@
-See [[Day convolution]]
-
-category: redirect
+&lt; [[day convolution]]
+[[!redirects day convolution -- history]]
