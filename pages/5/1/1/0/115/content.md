@@ -1,3 +1,2 @@
-See [[hom-set]].
-
-category: redirect
+&lt; [[homset]]
+[[!redirects homset -- history]]
