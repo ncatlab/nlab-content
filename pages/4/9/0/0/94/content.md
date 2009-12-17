@@ -61,7 +61,8 @@ But the point is that it does not _just_ fail: it fails by the speccific homtopy
 
 ### Reformulation in terms of semifree differential coalgebra ###
 
-A little later it was realized that the above huge sum expressions can very neatly be equivalently encoded as follows:
+A little later it was realized that the above huge sum expressions above just expresses the fact that the differential $D$ in a semifree [[dg-coalgebra]] squares to 0, $D^2 = 0$:
+
 
 An **$L_\infty$-algebra** is 
 
@@ -132,6 +133,14 @@ $$
   \right)
   \,.
 $$
+
+So in conclusion we have:
+
++-- {: .standout}
+
+An $L_\infty$-algebra is a [[dg-coalgebra]] whose underlying [[coalgebra]] is cofree and concentrated in negative degree.
+
+=--
 
 
 ### Reformulation in terms of semifree differential algebra ###
