@@ -1,3 +1,2 @@
-See [[Isbell envelope]]
-
-category: redirect
+&lt; [[generalized object]]
+[[!redirects generalized object -- history]]
