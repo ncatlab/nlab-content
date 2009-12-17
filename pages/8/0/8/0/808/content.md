@@ -10,4 +10,6 @@ A **connection** can mean
 
 * [[Hurewicz connection]]
 
+* [[connection for a coring]]
+
 [[!redirects connections]]
