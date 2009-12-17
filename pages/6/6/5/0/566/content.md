@@ -1,3 +1,2 @@
-See [[dualizing object]].
-
-category: redirect
+&lt; [[ambimorphic object]]
+[[!redirects ambimorphic object -- history]]
