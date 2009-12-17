@@ -49,4 +49,9 @@ In fact, by a result in
 
 A special case of this construction is when $g = 1\otimes_R 1$ and $C$ is the [[Sweedler coring]] for a $k$-algebra extension $R\to S$. The dga obtained is the classical Amitsur complex $\Omega(S/R)$ for that extension; for this reason the complex $\Omega C = \Omega(C,g)$ above for any coring $C$ and semi-grouplike $g$ is sometimes said to be an _[[Amitsur complex]]_. 
 
+* T. Brzezi&#324;ski, R. Wisbauer, Corings and comodules, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+
+* C. Menini, D. &#350;tefan, Descent theory and Amitsur cohomology of triples, 
+J. Algebra 266 (2003), no. 1, 261--304. 
+
 [[!redirects group-like element]]
