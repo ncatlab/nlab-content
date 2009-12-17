@@ -11,6 +11,7 @@
 * automatic table of contents
 {:toc}
 
+
 ## Idea
 
 While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevalley-Eilenberg complex]], some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something that is action of another Lie algebra up to an inner automorphism. 
@@ -363,12 +364,9 @@ along the above lines.
 
 ## References
 
-* Hochschild, _Lie algebra kernels and cohomology_
+* G. Hochschild, _Lie algebra kernels and cohomology_, Amer. J. Math. __76__, n.3 (1954) 698--716.
 
-
-## References
-
-The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg-MacLane work on group extension till nowdays. Here is a recent online account emphasising parallels with differential geometry:
+The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg-MacLane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with differential geometry:
 
 *  Dmitri Alekseevsky, Peter W. Michor, Wolfgang Ruppert, Extensions of Lie algebras
 [math.DG/0005042](http://arxiv.org/abs/math/0005042)
