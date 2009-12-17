@@ -53,7 +53,7 @@ There are several characterizations of a Beck-Chevalley property for bifibration
 ###### Proposition
 (Du&#353;ko Pavlovi&#263;, in Category theory Como 1990, LNM 1488, Springer 1991)
 
-Let $p: F\to B$ be a bifibration, $Q = (f,g,s,t)$ a square in $B$ such that $f\circ g = s\circ t$, and $\Theta = (\phi, \gamma, \sigma, \theta)$ a square in $F$ such that $\phi\circ\gamma=\sigma\circ\theta$, with $p(phi)=f$, $p(\gamma)=g$, $p(\sigma)=s$ and $p(\theta)=t$. The following conditions are equivalent:
+Let $p: F\to B$ be a bifibration, $Q = (f,g,s,t)$ a square in $B$ such that $f\circ g = s\circ t$, and $\Theta = (\phi, \gamma, \sigma, \theta)$ a square in $F$ such that $\phi\circ\gamma=\sigma\circ\theta$, with $p(\phi)=f$, $p(\gamma)=g$, $p(\sigma)=s$ and $p(\theta)=t$. The following conditions are equivalent:
 
 a) if $\theta$ and $\phi$ are cartesian and if $\sigma$ is cocartesian *then* $\gamma$ must be cocartesian;
 
