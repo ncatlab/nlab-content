@@ -1,3 +1,2 @@
-See [[(infinity,1)-category]].
-
-category: redirect
+&lt; [[infinity comma one category]]
+[[!redirects infinity comma one category -- history]]
