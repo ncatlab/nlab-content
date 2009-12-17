@@ -1,3 +1,2 @@
-See [[superdifferential form]].
-
-category: redirect
+&lt; [[differential forms on supermanifolds]]
+[[!redirects differential forms on supermanifolds -- history]]
