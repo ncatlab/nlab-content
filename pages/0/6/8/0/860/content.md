@@ -1,3 +1,2 @@
-See [[preorder]].
-
-category: redirect
+&lt; [[proset]]
+[[!redirects proset -- history]]
