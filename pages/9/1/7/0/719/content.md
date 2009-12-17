@@ -1,3 +1,2 @@
-See [[thin element]].
-
-category: redirect
+&lt; [[thin]]
+[[!redirects thin -- history]]
