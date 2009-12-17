@@ -5,3 +5,5 @@ James Dolan lives in Riverside, California and works on mathematics.  He has a [
 
 
 category: people
+
+[[!redirects Jim Dolan]]
