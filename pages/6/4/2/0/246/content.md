@@ -1,3 +1,2 @@
-See [[infinity-topos]].
-
-category: redirect
+&lt; [[infinity topos]]
+[[!redirects infinity topos -- history]]
