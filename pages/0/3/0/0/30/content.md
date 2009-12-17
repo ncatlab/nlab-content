@@ -1,3 +1,2 @@
-See [[spaceoid]].
-
-category: redirect
+&lt; [[spaceoids]]
+[[!redirects spaceoids -- history]]
