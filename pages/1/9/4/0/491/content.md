@@ -1,3 +1,2 @@
-See [[finite mathematics]].
-
-category: redirect
+&lt; [[finitism]]
+[[!redirects finitism -- history]]
