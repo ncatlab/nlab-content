@@ -18,11 +18,12 @@ Another problem is that the family of all cocovers by flat  localizations (even 
 
 For the purposes of the descent for modules over rings, comonads can be replaced by [[corings]]. Alternatively the descent data can be represented by connections for the Amitsur complex. Symmetries are important in that analysis.
 
-* P. Nuss
+* P. Nuss, Noncommutative descent and non-abelian cohomology,  $K$-Theory  12  (1997),  no. 1, 23--74. 
 
-* Brzezinski-Wisbauer
+* T. Brzezi&#324;ski, R. Wisbauer, Corings and comodules, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
 
-* Menini-Stefan 
+* C. Menini, D. &#350;tefan, Descent theory and Amitsur cohomology of triples, 
+J. Algebra 266 (2003), no. 1, 261--304. 
 
 #Galois descent#
 
