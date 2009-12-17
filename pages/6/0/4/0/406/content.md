@@ -1,3 +1,2 @@
-See [[finitely complete category]].
-
-category: redirect
+&lt; [[lex category]]
+[[!redirects lex category -- history]]
