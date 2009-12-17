@@ -13,7 +13,9 @@ Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morp
 
 As a side note, we say that $\phi$ is _weakly cartesian_ if it has the property described above only when $g$ is an identity.  One can prove that $p$ is a fibration if and only if firstly, it has the above property with "cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  In a fibration, every weakly cartesian arrow is cartesian, but this is not true in general.  Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.
 
-We say that $p$ is an **opfibration** if $p^{op}:E^{op}\to B^{op}$ is a fibration.  Grothendieck originally called these "cofibrations," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].  (Unfortunately, however, using the internal notion of fibration in a 2-category mentioned below, opfibrations are fibrations in the 2-cell dual $Cat^{co}$ while the fibrations in the 1-cell dual $Cat^{op}$ are more deserving of the name "cofibration.")
+We say that $p$ is an **opfibration** if $p^{op}:E^{op}\to B^{op}$ is a fibration.  Functors that are both fibrations as well as opfibrations are called **[[bifibration]]s**.
+
+Grothendieck originally called these "cofibrations," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].  (Unfortunately, however, using the internal notion of fibration in a 2-category mentioned below, opfibrations are fibrations in the 2-cell dual $Cat^{co}$ while the fibrations in the 1-cell dual $Cat^{op}$ are more deserving of the name "cofibration.")
 
 A square
 $$\array{E' & \to & E \\ \downarrow && \downarrow \\ B' &\to  & B}$$
