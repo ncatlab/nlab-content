@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -234,7 +238,7 @@ This is for instance proposition 8.4.3 in the lecture notes cited below.
 
 A useful discussion of of the model structure on dendroidal sets is section 8 of
 
-* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , notes typed by Javier Guiti&#233;rrez on lectures given at the Barcelona workshop on _Homotopy theory and higher categories_ (2008) (to appear in print soon)
+* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , notes typed by Javier Guiti&eacute;rrez on lectures given at the Barcelona workshop on _Homotopy theory and higher categories_ (2008) (to appear in print soon)
 
 The model structure was originally given in 
 
