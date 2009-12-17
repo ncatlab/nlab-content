@@ -1,3 +1,2 @@
-See [[filtered category]].
-
-category: redirect
+&lt; [[filtrant category]]
+[[!redirects filtrant category -- history]]
