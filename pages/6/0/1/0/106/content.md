@@ -1,3 +1,2 @@
-See [[semi-strict infinity-category]].
-
-category: redirect
+&lt; [[semi-strict]]
+[[!redirects semi-strict -- history]]
