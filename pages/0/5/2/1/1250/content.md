@@ -1,3 +1,2 @@
-See [[element in an abelian category]].
-
-category: redirect
+&lt; [[element of an abelian category]]
+[[!redirects element of an abelian category -- history]]
