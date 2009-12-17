@@ -1,3 +1,2 @@
-See [[locally small category]].
-
-category: redirect
+&lt; [[locally small]]
+[[!redirects locally small -- history]]
