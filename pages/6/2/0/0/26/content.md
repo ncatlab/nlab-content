@@ -1,3 +1,2 @@
-See [[horizontal categorification]].
-
-category: redirect
+&lt; [[oidification]]
+[[!redirects oidification -- history]]
