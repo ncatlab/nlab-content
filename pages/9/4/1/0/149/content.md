@@ -1,3 +1,2 @@
-See [[Lie infinity-groupoid]].
-
-category: redirect
+&lt; [[infinity-Lie-groupoid]]
+[[!redirects infinity-Lie-groupoid -- history]]
