@@ -2,7 +2,7 @@
 
 The [[quasicoherent sheaves]] have natural analogues in some formalisms of [[noncommutative algebraic geometry]]. The Zariski open sets generalize to some nice class of flat localizations, and then one can consider faithfully flat descent. However the analogues of a cover and sheaf condition are more subtle.
 
-Let $A$ be an [[abelian category]] and ${B_\lambda}_{\lambda\in Lambda}$ a finite family of abelian categories; and $Q^*_\lambda : A\to B_\lambda$ exact localization functors having fully faithful right adjoints $Q_{\lambda *}:B_\lambda\to A$. We say that the family ${Q_{lambda *}}_{\lambda\in\Lambda}$ is conservative if a morphism in $A$ is invertible iff $Q_{\lambda *}(f)$ is invertible for each $\lambda$. 
+Let $A$ be an [[abelian category]] and $\{B_\lambda\}_{\lambda\in\Lambda}$ a finite family of abelian categories; and $Q^*_\lambda : A\to B_\lambda$ exact localization functors having fully faithful right adjoints $Q_{\lambda *}:B_\lambda\to A$. We say that the family ${Q_{\lambda *}}_{\lambda\in\Lambda}$ is conservative if a morphism in $A$ is invertible iff $Q_{\lambda *}(f)$ is invertible for each $\lambda$. 
 
 There is a standard way to construct a [[comonad]] $G$ on the product category $\prod_\lambda B_\lambda$. Under the conditions of a comonadic version of Barr's monadicity theorem one can reconstruct $A$ as the category equivalent to the category of $G$-comodules. 
 
