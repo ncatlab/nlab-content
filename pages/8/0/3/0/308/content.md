@@ -1,3 +1,2 @@
-See [[representable functor]].
-
-category: redirect
+&lt; [[representable]]
+[[!redirects representable -- history]]
