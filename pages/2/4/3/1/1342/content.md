@@ -4,7 +4,7 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
 In its more specific meaning _descent_ is the study of generalizations of the [[sheaf]] condition on [[presheaf|presheaves]] to presheaves with values in [[higher category theory|higher categories]]. Those higher presheaves that satisfy descent are called [[infinity-stack]]s.
 
@@ -39,7 +39,7 @@ And this is the form of the [[local object]]-condition which is usually called *
 
 
 
-# Descent for ordinary sheaves#
+## Descent for ordinary sheaves
 
 Descent is best understood as a direct generalization of the  situation for 0-stacks, i.e. ordinary sheaves, which we briefly  recall in a language suitable for the following generalization.
 
@@ -103,7 +103,7 @@ This is the form of the condition that is most commonly called the _descent cond
 
 
 
-# Descent for simplicial presheaves #
+## Descent for simplicial presheaves 
 
 For more references and background on the following see [[descent for simplicial presheaves]].
 
@@ -277,7 +277,7 @@ $$
 
 
 
-# Descent for strict $\omega$-groupoid valued presheaves #
+## Descent for strict $\omega$-groupoid valued presheaves 
 
 While simplicial sets are a very convenient model for general reasoning about higher weak categories and [[∞-groupoids]], often concrete computations in particular with $(\infty)$-groupoids are more convenient in the context of more strictified models. 
 
@@ -450,7 +450,7 @@ which identifies the different gluing 1-isomorphisms.
 And so on.
 
 
-## Gluing for ordinary stacks ##
+### Gluing for ordinary stacks 
 
 The article 
 
@@ -458,7 +458,7 @@ The article
 
 spells out how the familiar formulation of the descent condition for ordinary [[stacks]] is equivalent to the corresponding descent condition for simplicial presheaves, duscussed above.
 
-#Codescent#
+## Codescent
 
 Sometimes one wishes to compute the descent objects for presheaves of the form
 
@@ -502,30 +502,9 @@ $$
 
 This way the descent for $[B(-),A]$ on the object $U = colim^\Delta U_\bullet$ is reexpressed as descent for $A$ of the $B$-modified object $colim^\Delta B(Y_\bullet)$. Following Street, this we may call the **codescent** object, as it co-represents descent.
 
-## Examples ##
+## Monadic descent
 
-For $Str \omega Grpd$-valued presheaves on $S = Diff$, the codescent objects for  $B = P_1(-)$ -- the [[path groupoid]] -- and $B = P_2(-)$, the _path 2-groupoid_ are described and discussed [here](http://arxiv.org/abs/0705.0452) and [here](http://arxiv.org/abs/0808.1923).
-
-It turns out that for $U_\bullet \to X$ a cover, the canonical morphism
-
-$$
-  Codesc(U_\bullet, P_1(-)) \to P_1(X)
-$$
-
-is an equivalence, as is
-
-$$
-  Codesc(U_\bullet, P_2(-)) \to P_2(X)
-  \,.
-$$
-
-This should presumeably be read as saying that $P_n(-)$ _satisfies codescent_ and is hence an _$n$-costack_. 
-
-This statement is closely related to the [[higher homotopy van Kampen theorem]], which essentially asserts that $\Pi_n$ satisfies even a strict form of codescent.
-
-For blog discussion about this see
-
-* [Codescent and the van Kampen theorem](http://golem.ph.utexas.edu/category/2008/10/codescent_and_the_van_kempen_t.html)
+In some context the descent condion may algebraically be encoded in an [[adjunction]]. This leads to the notion of [[monadic descent]]. See there for more details.
 
 
 [[!redirects descent and codescent]]
