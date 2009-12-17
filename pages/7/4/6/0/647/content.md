@@ -1,3 +1,2 @@
-See [[crossed square]].
-
-category: redirect
+&lt; [[crossed squares]]
+[[!redirects crossed squares -- history]]
