@@ -1,3 +1,2 @@
-See [[bi-brane]].
-
-category: redirect
+&lt; [[bi-branes]]
+[[!redirects bi-branes -- history]]
