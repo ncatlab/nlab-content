@@ -78,6 +78,12 @@ with equality if and only if $u$ and $v$ are collinear.
 
 +-- {: .query}
 I removed the square roots here, since there doesn\'t seem to be much point to them if you\'re not going to connect with a metric.  (On the other hand, surely even an elementary treatment of Hilbert spaces may deign to mention the geometric concept of distance?  It\'s one thing to not assume a knowledge of metric spaces, but it\'s another thing to refuse to even mention norms.)  ---Toby
+
+As you can (probably) tell, I'm making this up as I go along!  I've not decided yet whether to allow distances or not, so at the moment I'm avoiding them if possible.  Part of my goal is to avoid overwhelming the "reader" with notation just for the sake of it.  So I may well implicitly use the norm as $\langle v, v\rangle$ but without introducing the $\|v\|$ notation.  But although I expect I'll be the main contributor here, I don't particularly want to be so I'm more than happy for others to weigh in with their opinions on what an "elementary treatment" would look like.  If I disagree then it'll force me to think carefully _why_ I disagree and that can only improve things.
+
+Pondering a little more, I think that I'm avoiding distance not because I don't think it belongs in an elementary treatment - as you imply, what could be more simple to understand than distance? - but because it's a way of keeping metric spaces at bay: once I start talking about distances then it'll be easy to talk about metrics and the like.
+
+I think you're right about the square roots, by the way.  ---Andrew
 =--
 
 +-- {: .proof}
