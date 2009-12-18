@@ -13,7 +13,7 @@ Algebraic theories (finitary or otherwise) can also be understood through [[mona
 
 Here is the connection between the logical and categorial descriptions, based on [Johnstone][], &#167;&#167;3.7&8.  Say that a category $C$ is:
 
-* _algebraic_ if it is given by a monad on the category of (small) sets;
+* _[[algebraic category|algebraic]]_ if it is given by a monad on the category of (small) sets;
 * _small algebraic_ if it is given by a (small) set of operation symbols and equations;
 * _large algebraic_ if it is given by a (possibly proper) class of operation symbols and equations.
 
