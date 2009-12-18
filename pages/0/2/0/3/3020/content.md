@@ -193,9 +193,9 @@ Now let $I = (3 , b_2 , b_4 )$ and consider the Hopf algebroid $(B/I , \Gamma_B 
 
 **Theorem.** The edge homomorphism $\pi_* tmf_{(3)} \to \{Modular Forms\}_{(3)}$ has 
 
-1. Cokernel given by $\mathbb{Z}/3 [\Delta^n]$ for $n \ge 0$ and not divisble by 3;
+1. Cokernel given by $\mathbb{Z}/3\mathbb{Z} [\Delta^n]$ for $n \ge 0$ and not divisble by 3;
 
-1. Kernel consisting a copy of $\bbZ/3$ in degrees 3,10,13,20,27,30,37,40 modulo 72.  This is the 3-torsion in $\pi_* tmf$.
+1. Kernel consisting a copy of $\mathbb{Z}/3\mathbb{Z}$ in degrees 3,10,13,20,27,30,37,40 modulo 72.  This is the 3-torsion in $\pi_* tmf$.
 
 
 For more see
