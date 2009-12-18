@@ -1,3 +1,10 @@
+# Banach algebras
+* tic
+{: toc}
+
+
+## Definitions
+
 An associative unital Banach algebra is [[monoid object]] in the category of [[Banach space]]s.  However, Banach algebras are not usually assumed to be unital, making them [[semigroup]] objects (or even [[magma]] objects if not assumed to be associative).
 
 This means a Banach space $A$ equipped with a multiplication map
@@ -11,7 +18,7 @@ where $a \cdot b = m(a, b)$.
 Of course, in the non-unital case, one can always formally adjoin a unit $e$, forming the Banach algebra $A \oplus \langle{e}\rangle$ where $\|e\| = 1$.
 
 
-## Examples ##
+## Examples
 
 * A standard example is $L^1(\mathbb{R}, \mu)$, where $\mu$ is Lebesgue measure, and where the multiplication is taken to be convolution. This lacks a unit for the multiplication, since there is no $L^1$ function $e(x)$ that represents the Dirac functional 
 $$f \mapsto f(0) = \int e(x)f(x) d\mu$$ 
@@ -26,3 +33,6 @@ on continuous functions $f: X \to \mathbb{C}$. One can generalize this example i
 * The [[normed division algebra]]s are (possibly nonassiociative) Banach algebras that are also [[division algebra]]s.
 
 * The only Banach algebra (over $\mathbb{C}$) which is a [[field]] is $\mathbb{C}$ itself, by the [[Gel'fand–Mazur theorem]].
+
+
+[[!redirects Banach algebras]]
