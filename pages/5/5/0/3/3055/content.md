@@ -1,17 +1,340 @@
-Let $C$ be a [[category]] and $Arr(C)= C^2$ the corresponding [[arrow category]]: the objects in $Arr(C)$ are morphisms in $C$ and the morphisms $(f:x'\to x')\to (g:y\to y')$ in $Arr(C)$ are the commutative squares of the form 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Definition
+
+For $C$ any [[category]], there is a [[functor]]
+
+$$
+  t : [I,C] \to C
+  \,,
+$$
+
+from the [[arrow category]] $[I,C] = Arr(C)$ that sends each [[morphism]] $(c_1 \stackrel{f}{\to} c_2) \in [I,C]$ to its codomain $c_2$.
+
+This functor is always a [[Grothendieck fibration|opfibration]]. It corresponds under the [[Grothendieck construction]] to the [[pseudofunctor]]
+
+$$
+  C/(-) : C \to Cat
+$$
+
+that sends each object $c \in C$ to the [[overcategory]] $C/c$.
+
+If $C$ has all [[pullback]]s, then the functor is in addition a [[Grothendieck fibration|fibration]], hence a [[bifibration]]. 
+Traditionally, though, its fibered aspect is emphasised (and it even motivates the notion of cartesianess for categories over categories).  A right adjoint $u_*$ of $u^*$ exists for every morphism $u$ in $C$ iff C is a [[locally cartesian closed category]].
+
+This functor $cod : [I,C] \to C$ is called the **codomain fibration** of $C$.
+
+Some say **basic fibration** or **self-indexing** or the **fundamental fibration** --- anything with so many names must be important! 
+
+If instead of the codomain the domain is used, one obtains the dual notion: [[domain cofibration]]. 
+
+## Details
+
+### The arrow category
+
+Recal from the discussion at [[arrow category]] that the objects in $Arr(C)$ are morphisms in $C$ and the morphisms $(f:x_1\to x_2)\to (g: y_1\to y_2)$ in $Arr(C)$ are the commutative squares in $C$ of the form 
 
 $$\array{
-x &\stackrel{v}\to& y\\
-\downarrow\mathrlap{f} &&\downarrow\mathrlap{g}\\
-x' &\stackrel{u}\to& y'
+    x_1 &\stackrel{v}\to& y_1
+    \\
+    \downarrow\mathrlap{f} 
+    &&
+   \downarrow\mathrlap{g}
+   \\
+   x_2 &\stackrel{u}\to& y_2
 }$$
 
 with the obvious composition. 
 
-There is a [[functor]] $cod:Arr(C)\to C$ given on objects by the codomain (= target) map, and on morphisms it gives the lower arrow of the commutative square. This functor is in fact a [[Grothendieck fibration|fibered category]] in the sense of Grothendieck, whose inverse image functor $u^*(g)$ amounts to the usual pullback of $g$ along $u$ in $C$. The fiber over an object $c$ in $C$ is the [[overcategory]] $C/c$. This fibered category is called the **codomain fibration** over $C$ (some say the *basic fibration* or the *self-indexing* or the *fundamental fibration* --- anything with so many names must be important!). 
+### The functor
 
-The inverse image functor $u^*$ has a *left* adjoint, namely a postcomposition functor $u_!: f\mapsto u\circ f$. Thus the codomain fibration is in fact a [[bifibration]], though traditionally its fibered aspect is emphasised (and it even motivates the notion of cartesianess for categories over categories).  A right adjoint $u_*$ of $u^*$ exists for every morphism $u$ in $C$ iff C is a [[locally cartesian closed category]].
+The [[functor]] $ cod : Arr(C)\to C$ is given on objects by the codomain (= target) map, and on morphisms it gives the lower arrow of the commutative square. 
+
+$$
+  cod : 
+  \;\;
+  \left(
+  \array{
+    x_1 &\stackrel{v}\to& y_1
+    \\
+    \downarrow\mathrlap{f} 
+    &&
+   \downarrow\mathrlap{g}
+   \\
+   x_2 &\stackrel{u}\to& y_2
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  (x_2 \stackrel{u}\to y_2)
+  \,.
+$$
+
+If we write $[I,C]$ for the [[arrow category]], where $I$ is the [[interval category]] $I = \{a \to b\}$, then this functor is the [[hom-functor]] applied to the inclusion $\iota_1 : {b} \to \{a \to b\}$
+
+$$
+  cod = Hom_C(\iota_1, -) : [I,C] \to [{*}, C] = C
+  \,.
+$$
+
+
+### The op-cartesian lifts
+
+That the functor $cod : [I,C] \to C$ is an [[Grothendieck fibration|opfibration]] means that for each object $\hat c_1 \to c_1$ of $[I,C]$, each morphism $c_1 \stackrel{f}{\to} c_2$ in $C$ has a lift to a morphism
+
+$$
+  \array{
+     \hat c_1 &\to& ??
+     \\
+     \downarrow && \downarrow
+     \\
+     c_1 &\to& c_2
+  }
+$$
+
+in $[I,C]$ that is a [[cartesian morphism|opcartesian morphism]].
+
+Such a lift is given by
+
+$$
+  \array{
+     \hat c_1 &\stackrel{Id}{\to}& \hat c
+     \\
+     \downarrow && \downarrow
+     \\
+     c_1 &\to& c_2
+  }
+  \,.
+$$
+
+For given any commuting triangle 
+
+$$
+  \array{
+     && c_2
+     \\
+     & \nearrow && \searrow
+     \\
+     c_1 &&\to&& c_3
+  }
+$$
+
+in $C$, and any lift
+
+$$
+  \array{
+    \hat c_1 &\to& d 
+    \\
+    \downarrow && \downarrow
+    \\
+    c_1 &\to& c_3
+  }
+$$
+
+of $c_1 \to c_3$, there is the unique lift
+
+$$
+  \array{
+    \hat c_1 &\to& d
+    \\
+    \downarrow && \downarrow
+    \\
+    c_2 &\to& c_3
+  }
+$$
+
+such that
+
+$$
+  \left(
+  \array{
+    \hat c_1 &\stackrel{Id}{\to}& \hat c_1
+    &\to& d
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    c_1 &\to& c_2 &\to& c_3
+  }
+  \right)
+  \;\;\;
+  = 
+  \;\;\;
+  \array{
+    \hat c_1 
+    &\to& d
+    \\
+    \downarrow && \downarrow
+    \\
+    c_1 &\to& c_3
+  }  
+  \,.
+$$
+
+### The cartesian lifts
+
+If $C$ has [[pullback]]s, then $cod : [I,C] \to C$ is in addition a [[Grothendieck fibration|fibered category]] in the sense of Grothendieck:
+
+for every object $\hat c_2 \to c_2$ in $[I,C]$, the cartesian lift of a morphism $c_1 \to c_2$ in $C$ is given by the morphism
+
+$$
+  \array{
+    c_1 \times_{c_2} \hat c_2 &\to& \hat c_2
+    \\
+    \downarrow && \downarrow
+    \\
+    c_1 &\to& c_2
+  }
+  \,.
+$$ 
+
+Because for 
+
+$$
+  \array{
+     && c_3
+     \\
+     & \swarrow && \searrow
+     \\
+     c_1 &&\to&& c_2
+  }
+$$
+
+any commuting trigangle in $C$, and for
+
+$$
+  \array{
+    d &\to& \hat c_2
+    \\
+    \downarrow && \downarrow
+    \\
+    c_3 &\to& c_2
+  }
+$$
+
+any lift of $c_3 \to c_2$ in $[I,C]$, which by the commutativity of the triangle we may write as
+
+$$
+  \array{
+    d &\to& &\to& \hat c_2
+    \\
+    \downarrow && && \downarrow
+    \\
+    c_3 &\to& c_1 &\to& c_2
+  }
+$$
+
+there is, precisely by the universal property of the [[pullback]], a unique morphism, $d\to c_1 \times_{c_2} \hat c_2$ in $C$ such that this factors as
+
+
+$$
+  \array{
+    d &\to& c_1 \times_{c_2} \hat c_2 &\to& \hat c_2
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    c_3 &\to& c_1 &\to& c_2
+  }
+  \,.
+$$
+
+### Direct image operation
+
+Recall that in an  [[Grothendieck fibration|opfibration]] $p : E\to B$ , the _direct image_ $f_*$ of an object $e \in E$ along a morphism $p(e) \to d$ is the codomain $f_*(e)$ of [[generalized the|the]] cartesian lift $\hat f : e \to f_* e$ of $f$.
+
+By the above discussion this means that in the codomain opfibration $cod : [I,C] \to C$ the direct image of an object $\hat c_1 \to c_1$ in $[I,C]$ along some morphism $f : c_1 \to c_2$ is the composite morphism $\hat c_1 \to c_1 \to c_2$ in $C$, regarded as an object in $[I,C]$: this yields the functor
+
+$$
+  f_* : C/{c_1} \to C/{c_2}
+$$
+
+of [[overcategory|overcategories]] obained by postcomposition with $f$.
+
+
+### Inverse image operation
+
+Recall that in an  [[Grothendieck fibration|fibration]] $p : E\to B$ , the _inverse image_ $f^*$ of an object $e \in E$ along a morphism $d \to p(e) $ is the domain $f^*(e)$ of [[generalized the|the]] cartesian lift $\hat f : f^* e \to e$ of $f$.
+
+By the above discussion this means that in the codomain fibration $cod : [I,C] \to C$ the inverse image of an object $\hat c_2 \to c_2$ in $[I,C]$ along some morphism $f : c_1 \to c_2$ is the morophism out of the [[pullback]] $f^* c_2 = c_1 \times_{c_2} \hat c_2 \to c_1$ in $C$, regarded as an object in $[I,C]$: this yields the functor
+
+$$
+  C/{c_1} \leftarrow C/{c_2} : f^*
+$$
+
+of [[overcategory|overcategories]] obained by pullback.
+
+
+### Adjointness of direct and inverse image
+
+For every morphism $f : c_1 \to c_2$ in $C$, the direct and inverse image functors are a pair of [[adjoint functor]]s
+
+$$
+  f_* : C/{c_1} \to C/{c_2} : f^*
+$$
+
+with $f_*$ [[left adjoint]] and $f^*$ [[right adjoint]], $f_* \dashv f^*$.
+
+By the above discussion, the adjunction isomorphism
+
+$$
+  Hom_{C_2}(f_* \hat c_1, \hat c_2)
+  \simeq
+  Hom_{C_1}(\hat c_1, f^*\hat c_2)  
+$$
+
+is given by the universal property of the [[pullback]] operation, which says that morphisms
+
+$$
+  (f_* \hat c_1 \to \hat c_2)
+  =
+  \left(
+  \array{
+    \hat c_1 &\to& \hat c_2
+    \\
+    \downarrow && \downarrow
+    \\
+    c_1 &\to& c_2
+  }
+  \right)
+$$
+
+factor uniquely through the [[pullback]]
+
+$$
+  \left(
+  \array{
+    \hat c_1 &\to& c_1 \times_{c_2} \hat c_2 &\to& \hat c_2
+    \\
+    &\searrow & \downarrow && \downarrow
+    \\
+    && c_1 &\to& c_2
+  }
+  \right)
+$$
+
+and hence uniquely correspond to morphisms
+
+$$
+  (\hat c_1 \to f^* \hat c_2)
+  =
+  \left(
+  \array{
+    \hat c_1 &\to& c_1 \times_{c_2} \hat c_2
+    \\
+    \downarrow && \downarrow
+    \\
+    c_1 &\to& c_2
+  }
+  \right)
+  \,.
+$$
+
+
+## Categorification
 
 A categorification in dimension 2 is a codomain 2-fibration, whose main example is $Cat^2$ over $Cat$.
 
-For a dual notion see [[domain cofibration]]. 
