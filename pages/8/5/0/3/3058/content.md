@@ -10,7 +10,7 @@ With Zisman he introduced a general localization method in homotopy theory (see 
 
 In later part of his mathematical career, Gabriel worked on representation theory of finite-dimensional associative algebras and quivers, where he found some of the basic theorems. 
 
-Some of the nlab entries related to Gabriel's work include [[Gabriel filter]], [[Gabriel composition of filters]], [[Gabriel multiplication]] and we mention here and there Gabriel localization, Gabriel spectrum of indecomposable injectives, Gabriel-Popescu embedding theorem, Gabriel-Rosenberg theorem, Gabriel-Zisman localization and Gabriel's property (sup) in the theory of abelian categories.
+Some of the nlab entries related to Gabriel's work include [[Gabriel filter]], [[Gabriel composition of filters]], [[Gabriel multiplication]] and we mention here and there Gabriel localization, Gabriel spectrum of indecomposable injectives, Gabriel-Popescu embedding theorem, Gabriel-Rosenberg [[reconstruction theorem]], Gabriel-Zisman localization and Gabriel's property (sup) in the theory of abelian categories.
 
 Students of Gabriel include Bernhard Keller. 
 
