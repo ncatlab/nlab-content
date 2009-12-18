@@ -3,8 +3,11 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-##Bar  and cobar constructions
+## Bar  and cobar constructions
 
 * There is a brief entry at [[bar construction]] together with a blog link
 
@@ -31,7 +34,7 @@ Going the other way, we start with a [[differential graded algebra]] and use 'co
 
 These topologically motivated constructions can be applied in much greater generality as we will see both here and elsewhere:
 
-##The Bar construction
+## The Bar construction
 
 (due originally Eilenberg-MacLane) Remeber this goes from 'algebras' to Hopf algebras in general.
 
@@ -47,7 +50,7 @@ I have tried to motivate this a bit above. This needs more filling in (and also 
 =--
 
 
-##Definition
+## Definition
 
 Let $(A,d,\varepsilon) $ be a commutative, augmented differential $\mathbb{Z}$-graded algebra, $d(A_n)\subseteq A_{n-1}$, $\overline{A} = Ker \varepsilon$.  
 
@@ -143,7 +146,7 @@ $$F : DGC_0\to  \varepsilon DGA.$$
 +-- {: .num_theorem #}
 ###### Proposition
 
-(Husemoller-Moore-Stasheff)
+(Husemoller-Moore-[[Jim Stasheff|Stasheff]])
 
 $B$ is right adjoint to $F$.
 
@@ -165,9 +168,9 @@ These latter morphisms are defined by
 * $\hat{\beta} : (C,\partial) \to (T(\overline{sT(s^{-1}\overline{C}}),D)$ is the unique lifting of 
 $$C\to s^{-1}\overline{C} \to \overline{T(s^{-1}\overline{C})}\to \overline{sT(s^{-1}\overline{C})}.$$
 
-##References
+## References
 
-The source used for this lexicon was 
+The source used for the above was 
 
 D. Tanr&#233;, _Homotopie rationnelle: Mod&#232;les de Chen, Quillen, Sullivan_, Lecture Notes in Maths No. 1025, Springer, 1983.
 
