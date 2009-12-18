@@ -362,7 +362,7 @@ The full proof is given at [[Verity on descent for strict omega-groupoid valued 
 
 =--
 
-# Descent in terms of gluing conditions #
+## Descent in terms of gluing conditions
 
 We unwrap the expression 
 
