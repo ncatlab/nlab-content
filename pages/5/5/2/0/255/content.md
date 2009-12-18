@@ -1,10 +1,11 @@
 #Contents#
 
-* It said "Tacit"!  So I took it. 
+#Contents#
+* automatic table of contents goes here
 {:toc}
 
 
-##Idea##
+##Idea
 
 A _monad_ abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of [[extra structure]] on an object of a category.
 
@@ -13,7 +14,7 @@ Classically, if $\mathbf{T}$ is an algebraic theory (e.g. the theory of groups),
 To capture the theory fully, we need to include a little more data: a natural map $\eta_X : X \to T X$ recording how each $a \in X$ gives a trivial term $a$, and a map $\mu_X:T T X \to T X$ recording how further terms built from terms are already present as terms in $T X$.  The axioms satisfied by these maps turn out to have a striking formal relation to the axioms for a [[monoid]].
 
 
-##Definition##
+##Definition
 
 A _monad_ on a category $C$ consists of
 
@@ -28,7 +29,7 @@ A _monad_ on a category $C$ consists of
 This generalises evidently from categories to the objects of any [[bicategory]].  If $\mathcal{B}$ is a bicategory, a monad on an object $C$ of $\mathcal{B}$ consists of a 1-cell $T: C \to C$ together with 2-cells $\eta, \mu$ satisfying axioms as before.
 
 
-###In string diagrams###
+###In string diagrams
 
 These data and axioms can be expressed graphically in string diagrams.  The data $C \stackrel{T}{\to} C$, $1_C \stackrel{\eta}{\Rightarrow} T$, $T \circ T \stackrel{\mu}{\Rightarrow} T$ appear as:
 
@@ -43,14 +44,14 @@ The axioms $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$ and $\mu 
 [[monad-axioms-unlabeled.png:pic]]
 
 
-### As monoids ###
+### As monoids
 
 The name "monad" and the terms "unit", "multiplication" and "associativity" come from a clear analogy with [[monoids]].  Indeed, one can define a monad on an object $C$ of a [[bicategory]] $\mathcal{B}$ as just a monoid in its endomorphism category $\mathcal{B}(C,C)$.
 
 Alternatively, monads can be taken as more fundamental, and a monoid in a [[monoidal category]] $C$ can be defined as a monad _in_ $C$, viewing $C$ as a one-object bicategory.
 
 
-### As lax functors ###
+### As lax functors 
 
 Yet another definition, slick and mysterious:
 
@@ -69,14 +70,14 @@ Among higher-category theorists, it's tempting to suggest that this is the most 
 =--
 
 
-##Remarks##
+##Remarks
 
 * Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$).  In even older literature, they are also referred to as **standard constructions**, from Beck's discovery of them as a unifying description of the constructions of various homology theories.
 
 * We can picture a monad in $B$ as an image of the [[oriental|third oriental]] in $B$. See the remarks at [[monoidal category]].
 
 
-## Examples ##
+## Examples 
 
 Monads on [[partial order|posets]] are particularly simple.  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
 
@@ -85,7 +86,7 @@ Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Se
 An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
 
-##Algebras/modules over a monad##
+## Algebras/modules over a monad {#Algebras}
 
 Given that a monad in a bicategory $\mathcal{B}$ is nothing but a [[monoid]] in a hom-category $\mathcal{B}(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a monoidal category, however, since it need not live in $\mathcal{B}(a,a)$ but can be in $\mathcal{B}(b,a)$ (for left modules) or $\mathcal{B}(a,c)$ (for right modules).
 
@@ -94,19 +95,24 @@ In a $Cat$-like bicategory, left modules over a monad are usually called _algebr
 Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
 
 
-## $(\infty,1)$-Monads
+## Monads in higher category theory
+
 
 There is a [[vertical categorification]] of mondas  to [[(∞,1)-category|(∞,1)-categories]] in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
 
-## Related entries #
+## Related entries 
 
 * [[strong monad]]
 
+* [[bar construction]]
 
-##References##
+* [[monadic descent]]
+
+
+## References
 
 Five short videotaped lectures:
 
