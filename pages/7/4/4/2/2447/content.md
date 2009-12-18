@@ -16,7 +16,7 @@ On the other hand the family of all cocovers (conservative families) by flat loc
 
 Another problem is that the family of all cocovers by flat  localizations (even for the categories of modules) is typically not a Grothendieck cotopology: in the dual language of topologies the stability axiom fails, even if one modifies the notion of the pullback form categorical product to the dual of the operation of meet for torsion theories. In terms of torsion theories, this stems from the fact that the lattice of torsion theories is not a distributive lattice. 
 
-* Z. &#352;koda, _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, <a href="http:arxiv.org/abs/math.QA/0403276">math.QA/0403276</a>.
+* Z. &#352;koda, _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
 
 ## Flat descent for modules over rings
 
