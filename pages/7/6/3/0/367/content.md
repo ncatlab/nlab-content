@@ -34,6 +34,8 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in a category of simplicial objects is a [[bisimplicial object]].
 
+* The [[bar construction]] produces a simplicial object from a [[monad]] and an algebra over that monad.
+
 [[!redirects simplicial objects]]
 [[!redirects cosimplicial object]]
 [[!redirects cosimplicial objects]]
