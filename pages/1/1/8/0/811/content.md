@@ -1,11 +1,16 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea 
 
 An **$n$-fibration** is the version of a [[Grothendieck fibration]] appropriate for $n$-[[n-category|categories]].
 
 The idea is that a functor $p:E\to B$ between $n$-categories is an $n$-fibration if the assignation $x\mapsto E_x = p^{-1}(x)$ of an object $x\in B$ to its fiber can be made into a (contravariant) functor from $B$ to the $(n+1)$-category $n Cat$.
 
 
-# Definition #
+## Definition 
 
 (This definition is schematic, and needs to be adapted to be made precise for any particular definition of $n$-category.)
 
@@ -48,7 +53,7 @@ is a morphism of $(n-1)$-fibrations.
 =--
 
 
-# Remarks
+## Remarks
 
 * The definition is recursive in $n$, but if we unravel it, it makes perfect sense for $n=\omega$.
 
@@ -67,7 +72,7 @@ is a morphism of $(n-1)$-fibrations.
 * Likewise, when $n=2$ this is a weakened version of Hermida's definition of 2-fibration.
 
 
-# From fibrations to functors
+## From fibrations to functors
 
 If $p:E\to B$ is an $n$-fibration, we define a functor (or '$n$-pseudofunctor') from $B$ to $n Cat$ as follows.  (Like the above definition, this is only a schematic sketch.)
 
@@ -83,8 +88,12 @@ Note that the functor we obtain is "totally contravariant:" it is contravariant 
 
 One expects that in this way, the $(n+1)$-category of fibered $n$-categories over $B$ is equivalent to the $(n+1)$-category of functors $B\to n Cat$.  The inverse should be a generalization of the [[Grothendieck construction]], which is known only for $n=2$.
 
+## Related concepts
 
-# References #
+A notion of fibration of [[(∞,1)-category|(∞,1)-categories]] exists in terms of [[Cartesian fibration]]s of [[simplicial set]]s.
+
+
+## References 
 
 [Claudio Hermida](http://maggie.cs.queensu.ca/chermida) introduced 2-fibrations in:
 
@@ -101,7 +110,7 @@ A definition for strict $n$-categories due to Hermida is unpublished, but it is 
 * [D. Bourn](http://www-lmpa.univ-littoral.fr/~bourn), 
 Pseudo functors and non abelian weak equivalences, in "Categorical algebra and its applications", Springer LNM 1348 (1988), 55--70.
 
-# Discussion #
+## Discussion 
 
 This was at [[fibered n category]]:
 
