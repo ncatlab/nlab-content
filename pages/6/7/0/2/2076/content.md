@@ -1,6 +1,6 @@
 This is about a famous theorem from
 
-* [[Jean Benabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98
+* [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98
 
   >_Zoran_: a file with my few years old English translation will be posted and linked in few days or weeks
 
@@ -56,7 +56,7 @@ $$
   }
 $$
 
-in $A$, the canonical transformation $c_! a^* \to b^* d_!$ is an isomorphism.   In the Benabou--Roubaud paper this is called the *Chevalley property* and said to make $P$ into a *Chevalley functor*.
+in $A$, the canonical transformation $c_! a^* \to b^* d_!$ is an isomorphism.   In the B&#233;nabou--Roubaud paper this is called the *Chevalley property* and said to make $P$ into a *Chevalley functor*.
 
 
 Denote by $A_2 :=A_1\times_{A_0}A_1$ the pullback of $a$ along itself, with the canonical projections $a_1,a_2\colon A_2\to A_1$.  Now consider the lift of the cartesian square defining $A_2$ to $F$ in such a way that $a_1$ is lifted to a cartesian arrow, $a_2$ to a cocartesian arrow, and $a$ to a cocartesian arrow.  Then by the universality there is a lift of $a$ completing the square, and by the Beck--Chevalley property it is cartesian. Together with the isomorphism given by adjunction this gives a morphism
@@ -83,7 +83,7 @@ $$
   \,.
 $$
 
-The __Benabou--Roubaud theorem__ asserts that this induces an [[equivalence of categories]] between $Desc(a)$ and $F^a$.  
+The __B&#233;nabou--Roubaud theorem__ asserts that this induces an [[equivalence of categories]] between $Desc(a)$ and $F^a$.  
 
 In addition, this equivalence satisfies some naturality properties, including that it commutes appropriately with the canonical functors to the fibers $F(A_0)$ and $F(A_1)$. Combining this theorem with Beck's [[monadicity theorem]], it becomes a practical tool for establishing a descent property in bifibrations, with variants in some other setups (to be covered later).
 
@@ -110,3 +110,6 @@ d) $f^*\circ s_! \cong g_! \circ t^*$.
 
 [[!redirects Benabou–Roubaud theorem]]
 [[!redirects Benabou--Roubaud theorem]]
+[[!redirects Bénabou-Roubaud theorem]]
+[[!redirects Bénabou–Roubaud theorem]]
+[[!redirects Bénabou--Roubaud theorem]]
