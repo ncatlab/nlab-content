@@ -9,15 +9,16 @@ A locally compact space is a space such that every point has a neighborhood base
 
 Note: as observed in the discussion at [[compact space]], many authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples. 
 
+
 ## Examples ## 
 
 1. Clearly, any [[discrete space]] is locally compact. 
 
-1. An open subspace of a compact space is locally compact. In fact, every locally compact space $X$ arises in this way, since it can be considered an open space in its one-point compactification $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the complement of a compact subset $K \subseteq X$). 
+1. An [[open subspace]] of a compact Hausdorff space is locally compact. In fact, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$ (where the open neighborhoods of the adjoined point $\infty$ are precisely those of the form $K^c \sqcup \{\infty\}$, where $K^c$ is the complement of a compact subset $K \subseteq X$). 
 
-1. The reals, complexes, and $\mathfrak{p}$-adic completions of [[algebraic number field]]s (with respect to a prime ideal $\mathfrak{p}$ in the ring of integers) are locally compact. In characteristic $p$, the field of Laurent series $\mathbb{F}_q((t))$ over a finite field with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called "local fields". 
+1. The reals, complexes, and $\mathfrak{p}$-adic completions of [[algebraic number field]]s (with respect to a prime ideal $\mathfrak{p}$ in the ring of integers) are locally compact. In characteristic $p$, the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a finite field with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called [[local field]]s. 
 
-1. Finite products of locally compact spaces are locally compact. Closed subspaces of locally compact spaces are locally compact. (Hence locally compact spaces form a [[finitely complete category]].) 
+1. Finite products of locally compact spaces are locally compact. [[closed subspace|Closed subspaces]] of locally compact spaces are locally compact. (Hence locally compact spaces form a [[finitely complete category]].) 
 
 1. Topological [[manifold]]s (including "pathological examples" like [[long line]]s), being locally homeomorphic to $\mathbb{R}^n$, are locally compact. 
 
@@ -41,7 +42,7 @@ Locally compact spaces are closed under [[coproduct]]s in $Top$. They do not adm
 
 ## Further properties #
 
-Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever they are also [[second countable space|second countable]].
+Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever they are also [[second-countable space|second-countable]].
 
 
 [[!redirects locally compact Hausdorff space]]
