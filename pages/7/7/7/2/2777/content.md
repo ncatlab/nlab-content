@@ -41,9 +41,8 @@ $$
 for the [[(∞,1)-category]] of grouplike $\mathbb{E}[k]$-monoid objects.
 
 
-### Main result: $k$-fold delooping, monoidalness and $\mathbb{E}[k]$-action {#MainResult}
-
-> There\'s a bug affecting this header; I wrote Jacques.  ---Toby
+### Main result: $k$-fold delooping, monoidalness and $\mathbb{E}[k]$-action###
+{: #MainResult}
 
 The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence betwen [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
 
