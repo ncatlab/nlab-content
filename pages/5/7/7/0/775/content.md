@@ -1,4 +1,9 @@
-# Definition and notation #
+# Commutative squares
+* tic
+{: toc}
+
+
+## Definition and notation
 
 Let $C$ be a [[category]]. A **square** of morphisms of $C$  consists of objects $X,Y,Z,W$ of $C$ and morphisms $x:X \to Z, y: X \to Y, x': Y \to W, y': Z \to W$. This is often pictured as a square 
 $$\array{& X & {\to}^x & Z & \\
@@ -10,7 +15,8 @@ The square is **commutative** if $y'x=x'y$.
 
 The class of commutative  squares in $C$ is written $\square C$.
 
-# Structure #
+
+## Structure
 
 This class has partial compositions $\circ_1$ and $\circ_2$ which are vertical and horizontal: 
 $$  \array{ \bullet & {\to} & \bullet & \\
@@ -29,7 +35,8 @@ One can also form _multiple compositions_ $[a_{ij}]$ of arrays $(a_{ij})$, $i=1,
 
 _any composition of commutative squares is commutative._
 
-# Applications #
+
+## Applications
 
 Let $2$ denote the [[walking arrow]]: the category with two objects $0,1$ and one arrow $0 \to 1$. This has the structure of [[cocategory]]. Then the class of commutative squares in $C$  can also be described as $Cat(2 \times 2, C)$.  
 
@@ -40,3 +47,6 @@ $$Cat(E \times D, C) \cong (E, CAT(D,C)),$$
 which thus states that the category of (small if you like!) categories is [[cartesian closed category|cartesian closed]].
 
 The commutative squares serve as the morphisms in the [[arrow category]] of $C$, which is the functor category $CAT(2,C)$.
+
+
+[[!redirects commutative squares]]
