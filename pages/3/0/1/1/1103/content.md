@@ -42,9 +42,6 @@ This implies that a dg-algebra is, more concretely, a graded algebra $A$ equippe
 
   $d (a \cdot b) = (d a) \cdot b + (-1)^k a \cdot (d b)$.   
 
-A more detailed disucssion of this is at
-
-* [[differential graded algebra]].
 
 ### Detailed component definition
 
@@ -252,7 +249,6 @@ For some special algebras this is true. For example, the dual of symmetric algeb
 
 
 [[!redirects differential graded algebras]]
-
 [[!redirects differential graded module]]
 [[!redirects chain algebra]]
 [[!redirects cochain algebra]]
