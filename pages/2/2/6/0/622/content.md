@@ -17,11 +17,12 @@ My professional homepage is <http://www.math.ntnu.no/~stacey>, which has details
 
 ### Pages I'm Particularly Interested In ###
 
-The following is a partial list of pages that are closely related to my research.
+The following is a partial list of pages that are closely related to my research and mathematical interests and that I'm actively involved in developing.
 
 * [[Froelicher space|Frölicher spaces]]
 * [[Isbell envelope]]
 * [[Tall-Wraith monoid]]
 * [[an elementary treatment of Hilbert spaces]]
+* [[algebraic theories in functional analysis]]
 
 category: people
