@@ -5,7 +5,7 @@
 
 ## Idea
 
-A Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[Cech nerve]] of a [[cover]].
+A Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[Čech nerve]] of a [[cover]].
 
 ## Definition
 
@@ -84,7 +84,7 @@ $$
   \,.
 $$
 
-The morphism $\pi$ induces its augmented [[Cech nerve]]
+The morphism $\pi$ induces its augmented [[Čech nerve]]
 
 $$
   \left(
@@ -285,7 +285,7 @@ The further cocycle condition on $g$ similarly translates into the condition tha
 
 ### Relation to monadic descent
 
-This [[coring]]-formulation of [[descent]] may be understood as special case of [[monadic descent]]. See also the discussion at [[Benabou-Roubaud theorem]].
+This [[coring]]-formulation of [[descent]] may be understood as special case of [[monadic descent]]. See also the discussion at [[Bénabou–Roubaud theorem]].
 
 ## Relation to ring extensions
 
