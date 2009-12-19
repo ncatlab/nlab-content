@@ -138,7 +138,7 @@ The functions
 
 $$g_{\alpha \beta}: U_\alpha \cap U_\beta \to GL(\mathbb{R}^n)$$
 
-satisfy Cech 1-cocycle relations
+satisfy &#268;ech 1-cocycle relations
 
 $$g_{\alpha \gamma} = g_{\beta\gamma} \circ g_{\alpha\beta}: U_{\alpha} \cap U_\beta \cap U_\gamma \to GL(\mathbb{R}^n)$$
 
@@ -150,11 +150,13 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 ##Generalizations##
 
 * [[generalized smooth space]]
+
 * [[differentiable stack]]
+
 * [[derived smooth manifold]]
 
 * [[supermanifold]]
 
-  * [[Euclidean supermanifold]] (notice that the definition of that is very much alonmg the lines of the Klein-program-style definition above).
+  * [[Euclidean supermanifold]] (notice that the definition of that is very much along the lines of the Klein-program-style definition above).
 
 [[!redirects manifolds]]
