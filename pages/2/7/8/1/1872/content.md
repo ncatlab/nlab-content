@@ -6,7 +6,7 @@ It is modeled by a cocycle $\hat F \in \mathbf{H}(X,\bar \mathbf{B}U(n))$ in dif
 
 This is usually represented by a [[vector bundle]] [[connection on a bundle|with connection]]. 
 
-As a [[nonabelian cohomology|nonabelian]] [[Cech cohomology|Cech cocycle]] the Yang-Mills field on a space $X$ is represented by
+As a [[nonabelian cohomology|nonabelian]] [[Čech cohomology|Čech cocycle]] the Yang-Mills field on a space $X$ is represented by
 
 * a [[cover]] $\{U_i \to X\}$
 
