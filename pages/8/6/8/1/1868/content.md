@@ -91,7 +91,7 @@ $$
 
 This then says that $c$-twisted $\mathbf{B}\hat G$-cocycles are precisely those $\mathbf{B}(A \to \hat G)$-cocycles whose projection to an $\mathbf{B}(A\to 1)$-cocycle is the prescribed twisting cocycle $c$.
 
-We may consider a [[Cech cohomology|Cech cocycle]] relative to a cover $\{U_i \to X\}$, i.e. an [[anafunctor]] 
+We may consider a [[Čech cohomology|Čech cocycle]] relative to a cover $\{U_i \to X\}$, i.e. an [[anafunctor]] 
 
 $$
   \array{
@@ -104,7 +104,7 @@ $$
   }
 $$
 
-out of a [[Cech nerve]] $C(U)$ and notice that the functor $\hat g_{tw}$ is an assignment
+out of a [[Čech nerve]] $C(U)$ and notice that the functor $\hat g_{tw}$ is an assignment
 
 $$
   \hat g_{tw}
