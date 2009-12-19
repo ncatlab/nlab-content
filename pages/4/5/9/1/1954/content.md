@@ -5,20 +5,20 @@ The notion of _Ehresmann connection_ describes a [[connection on a bundle|connec
 
 (Or rather, in the original formulation, it describes it equivalently in terms of the horizontal subbundle $H := ker A \subset T P$ of the [[tangent bundle]] of $P$ of vectors on which $A$ vanishes, see below.) 
 
-This can be understood as the special case of [[schreiber:Differential Nonabelian Cohomology|nonabelian differential G-cocycle]] -- namely a cocycle with values in the [[groupoid of Lie-algebra valued forms]] $\bar \mathbf{B} G $ -- in [[Cech cohomology]] using the "canonical" [[Cech cover]] 
+This can be understood as the special case of [[schreiber:Differential Nonabelian Cohomology|nonabelian differential G-cocycle]] -- namely a cocycle with values in the [[groupoid of Lie-algebra valued forms]] $\bar \mathbf{B} G $ -- in [[Čech cohomology]] using the "canonical" [[Čech cover]] 
 
 $$\cdots \to P \times_X P \simeq P \times G \stackrel{\to}{\to} P
 $$ 
 
 that comes from the total space surjection $p : P \to X$ of the [[bundle]] itself.
 
-By the general mechanism of nonabelian [[Cech cohomology]] this means that a $\bar \mathbf{B}G$-valued cocycle with respect to this cover is
+By the general mechanism of nonabelian [[Čech cohomology]] this means that a $\bar \mathbf{B}G$-valued cocycle with respect to this cover is
 
 * a morphism $A : P \to \bar \mathbf{B}G$ : this is precisely given by the 1-form $A \in \Omega^1(P,Lie(G))$;
 
 * a tranformation $g : p_1^*A \to p_2^*A$ that restricts to the $\mathbf{B}G$-cocycle of the underlying $G$-bundle.
 
-Since $P \times_X P \simeq P \times G$ one may differentiate this transformation $g$ at the identity element of $G$. It is an exercise to check that this differential version of the Cech cocycle condition yields the following two conditions on $A$
+Since $P \times_X P \simeq P \times G$ one may differentiate this transformation $g$ at the identity element of $G$. It is an exercise to check that this differential version of the &#268;ech cocycle condition yields the following two conditions on $A$
 
 1. **first Ehresmann condition** -- restricted to the fibers, i.e. pulled back along $\array{G &\stackrel{i_x}{\to}& P \\ \downarrow && \downarrow \\ {*} &\stackrel{x}{\to}& X}$ it becomes the canonical left-invariant $Lie(G)$-valued 1-form $\theta \in \Omega^1(G,Lie(G))$ on $G$
 
