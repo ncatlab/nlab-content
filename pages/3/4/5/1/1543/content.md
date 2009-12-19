@@ -176,7 +176,7 @@ The claim is that
    \to X
   $$
 
-* and it exhibits $P \times G^{\times (n-1)}$ as the [[groupoid object in an (∞,1)-category]] being the [[Cech nerve]] of $P \to X$:
+* and it exhibits $P \times G^{\times (n-1)}$ as the [[groupoid object in an (∞,1)-category]] being the [[?ech nerve]] of $P \to X$:
 
   $$
   \array{
@@ -272,9 +272,9 @@ $$
   }
 $$
 
-in [[Cech cohomology]] coming from some [[cover]] $\{U_i \to X\}$ of $X$.
+in [[?ech cohomology]] coming from some [[cover]] $\{U_i \to X\}$ of $X$.
 
-The [[Cech nerve]] $C(U)$ has
+The [[?ech nerve]] $C(U)$ has
 
 * objects = $\{(x,i) | x \in U_i\}$
 
@@ -286,7 +286,7 @@ $$
   g : ((x,i) \to (x,j)) \mapsto (\bullet \stackrel{g_{i j}(x)}{\to}\bullet )
 $$
 
-for $g_{i j} \in Functions(U_{i j}, G)$ as described in detail at [[Cech cohomology]].
+for $g_{i j} \in Functions(U_{i j}, G)$ as described in detail at [[?ech cohomology]].
 
 With $\mathbf{E}G = \{g \stackrel{h}{\to} g h | g,h \in G \}$ the fibrant replacement of the point, which we shall find it helpful to think of as given by
 
