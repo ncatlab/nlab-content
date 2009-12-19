@@ -224,7 +224,7 @@ Such objects are called [[∞-stack]]s on $\mathcal{G}$. The [[(∞,1)-category]
 
 A supposedly pedagogical discussion of the general philosophy of [[∞-stacks]] as probebable spaces is at [[motivation for sheaves, cohomology and higher stacks]].
 
-The [[∞-stack]]s on $\mathcal{G}$ that are used in the following are those that satisfy [[descent]] on [[Cech cover]]s. But we will see [[(∞,1)-topos]]es of [[∞-stack]]s that may satisfy different descent conditions, in particular with respect to [[hypercover]]s. Every [[∞-stack]] [[(∞,1)-topos]] has a [[hypercompletion]] to one of this form.
+The [[∞-stack]]s on $\mathcal{G}$ that are used in the following are those that satisfy [[descent]] on [[?ech cover]]s. But we will see [[(∞,1)-topos]]es of [[∞-stack]]s that may satisfy different descent conditions, in particular with respect to [[hypercover]]s. Every [[∞-stack]] [[(∞,1)-topos]] has a [[hypercompletion]] to one of this form.
 
 For concretely working with [[hypercomplete (∞,1)-topos]]es it is often useful to use [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model structure on simplicial presheaves]].
 
