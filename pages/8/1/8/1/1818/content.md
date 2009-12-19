@@ -6,7 +6,7 @@ Now dualise ... .  Replace cohomology by homotopy $[A,-]$, but although there wi
 
 There is another problem, coherence!  $\check{C}(X,-)$ is a pro-object in the homotopy category of simplicial sets, not in the category of simplicial sets itself.  It is a homotopy coherent system, but the choices of covering refinement maps cause the problem.  
 
-We are very near the topics discussed in [[shape theory]], [[Cech methods]] and [[strong shape theory]] (when that has been written!).
+We are very near the topics discussed in [[shape theory]], [[Čech methods]] and [[strong shape theory]] (when that has been written!).
 One interpretation of &#268;ech homotopy is shape theory, but that does not usually handle the 'homotopy is dual to cohomology' idea so this will need more work here.
 
 ##Handling the problem of coherence##
