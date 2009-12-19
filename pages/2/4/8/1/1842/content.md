@@ -5,7 +5,7 @@
 
 Integral cohomology or "ordinary cohomology" is the ordinary version of [[generalized (Eilenberg-Steenrod) cohomology]], the one that is represented by the [[Eilenberg-MacLane spectrum]].
 
-Integral cohomology is best known maybe in its incarnation as [[singular cohomology]] or [[Cech cohomology]] with coefficients in the integers.
+Integral cohomology is best known maybe in its incarnation as [[singular cohomology]] or [[Čech cohomology]] with coefficients in the integers.
 
 #Geometric models#
 
