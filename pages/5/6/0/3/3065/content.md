@@ -1,5 +1,5 @@
 
+A __simply connected space__ is a [[connected space]] whose [[fundamental group]] is [[trivial group|trivial]].
 
-A [[topological space]] for which the first [[homotopy group]] is trivial.
 
 [[!redirects simply connected]]
