@@ -1,4 +1,4 @@
-A _&#268;ech cover_ is a [[Cech nerve|Čech nerve]] $C(U)$ that comes from a [[cover]] $U \to X$.
+A _&#268;ech cover_ is a [[Čech nerve]] $C(U)$ that comes from a [[cover]] $U \to X$.
 
 # Definition #
 
@@ -6,7 +6,7 @@ Let $C$ be a [[site]] and $\{U_i \to X\}$ a covering [[sieve]]. Write $U = \sqcu
 
 Write $X$ for $Y(X)$, for short.
 
-Then the [[Cech nerve|Čech nerve]] $C(U)$ of $U \to X$ in $PSh(C)$, i.e. the [[simplicial presheaf]]
+Then the [[Čech nerve]] $C(U)$ of $U \to X$ in $PSh(C)$, i.e. the [[simplicial presheaf]]
 
 $$
   \cdots
@@ -57,7 +57,7 @@ But by the very definition of $\pi_0(C(U))$ the morphism
 $C(U) \to \pi_0(C(U))$ is a bijection on $\pi_0$.
 
 Over each test domain $V$ the [[simplicial set]]
-$C(U)(V)$ is just the [[nerve]] of the [[Cech groupoid]]
+$C(U)(V)$ is just the [[nerve]] of the [[Cech groupoid|Čech groupoid]]
 $$
    \left(
      C(V,U)\times_{C(V,U \times_X U)}
@@ -81,7 +81,7 @@ See also for instance lemma 3.3.5 in
 +-- {: .un_prop}
 ###### Proposition
 
-Every Cech cover 
+Every &#268;ech cover 
 
 $$
   C(U) \to X
