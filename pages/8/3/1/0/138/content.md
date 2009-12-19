@@ -6,9 +6,9 @@ In particular, for $C = {*}$ the [[point]] hypercovers are hypercovers of [[simp
 
 So a hypercover is a morphism $Y \to X$ of [[simplicial presheaf|simplicial presheaves]] (thought of a [[model category|models]] for [[∞-stacks]] and hence for [[motivation for sheaves, cohomology and higher stacks|generalized spaces]]) that exhibits $Y$ as a possibly big "puffed-up" version of $X$.
 
-The term hypercover is to be read in contrast with the term [[Cech cover]] of which it is, in general, a generalization.  If all hypercovers are [[Cech covers]] one deals with the [[Cech model structure on simplicial presheaves]]. The [[hom-sets]] in the corresponding [[homotopy category]] are then [[Cech cohomology]].
+The term hypercover is to be read in contrast with the term [[?ech cover]] of which it is, in general, a generalization.  If all hypercovers are [[?ech covers]] one deals with the [[?ech model structure on simplicial presheaves]]. The [[hom-sets]] in the corresponding [[homotopy category]] are then [[?ech cohomology]].
 
-More generally in the standard [[local model structure on simplicial presheaves]] hypercovers are the local ([[stalk]]wise if the [[sheaf]] [[topos]] $Sh(C)$ has [[point of a topos|enough points]]) weak equivalences (local acyclic fibrations), of which there are more than [[Cech covers]]. One also speaks of the _hypercompletion_ of the Cech model. 
+More generally in the standard [[local model structure on simplicial presheaves]] hypercovers are the local ([[stalk]]wise if the [[sheaf]] [[topos]] $Sh(C)$ has [[point of a topos|enough points]]) weak equivalences (local acyclic fibrations), of which there are more than [[?ech covers]]. One also speaks of the _hypercompletion_ of the &#268;ech model. 
 
 Generally, [[cohomology]] defined in terms of the [[(∞,1)-topos]] [[presentable (infinity,1)-category|presented]] by the hypercompleted [[local model structure on simplicial presheaves]] has been regarded as the "right" notion of cohomology. In particular that coincides with standard [[abelian sheaf cohomology]] when restricted to the abelian case.
 
@@ -16,7 +16,7 @@ On the other hand, more rencently in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-it is argued that the [[(∞,1)-topos]] coming from just localizing at [[Cech covers]] is in fact better behaved in many respects.
+it is argued that the [[(∞,1)-topos]] coming from just localizing at [[?ech covers]] is in fact better behaved in many respects.
 
 #Origin of the term#
 
