@@ -246,12 +246,12 @@ $$
 
 ### Direct image operation
 
-Recall that in an  [[Grothendieck fibration|opfibration]] $p : E\to B$ , the _direct image_ $f_*$ of an object $e \in E$ along a morphism $p(e) \to d$ is the codomain $f_*(e)$ of [[generalized the|the]] cartesian lift $\hat f : e \to f_* e$ of $f$.
+Recall that in an  [[Grothendieck fibration|opfibration]] $p : E\to B$ , the _direct image_ $f_!$ of an object $e \in E$ along a morphism $p(e) \to d$ is the codomain $f_!(e)$ of [[generalized the|the]] cartesian lift $\hat f : e \to f_! e$ of $f$.
 
 By the above discussion this means that in the codomain opfibration $cod : [I,C] \to C$ the direct image of an object $\hat c_1 \to c_1$ in $[I,C]$ along some morphism $f : c_1 \to c_2$ is the composite morphism $\hat c_1 \to c_1 \to c_2$ in $C$, regarded as an object in $[I,C]$: this yields the functor
 
 $$
-  f_* : C/{c_1} \to C/{c_2}
+  f_! : C/{c_1} \to C/{c_2}
 $$
 
 of [[overcategory|overcategories]] obained by postcomposition with $f$.
@@ -261,7 +261,7 @@ of [[overcategory|overcategories]] obained by postcomposition with $f$.
 
 Recall that in an  [[Grothendieck fibration|fibration]] $p : E\to B$ , the _inverse image_ $f^*$ of an object $e \in E$ along a morphism $d \to p(e) $ is the domain $f^*(e)$ of [[generalized the|the]] cartesian lift $\hat f : f^* e \to e$ of $f$.
 
-By the above discussion this means that in the codomain fibration $cod : [I,C] \to C$ the inverse image of an object $\hat c_2 \to c_2$ in $[I,C]$ along some morphism $f : c_1 \to c_2$ is the morophism out of the [[pullback]] $f^* c_2 = c_1 \times_{c_2} \hat c_2 \to c_1$ in $C$, regarded as an object in $[I,C]$: this yields the functor
+By the above discussion this means that in the codomain fibration $cod : [I,C] \to C$ the inverse image of an object $\hat c_2 \to c_2$ in $[I,C]$ along some morphism $f : c_1 \to c_2$ is the morphism out of the [[pullback]] $f^* c_2 = c_1 \times_{c_2} \hat c_2 \to c_1$ in $C$, regarded as an object in $[I,C]$: this yields the functor
 
 $$
   C/{c_1} \leftarrow C/{c_2} : f^*
@@ -275,15 +275,15 @@ of [[overcategory|overcategories]] obained by pullback.
 For every morphism $f : c_1 \to c_2$ in $C$, the direct and inverse image functors are a pair of [[adjoint functor]]s
 
 $$
-  f_* : C/{c_1} \to C/{c_2} : f^*
+  f_! : C/{c_1} \to C/{c_2} : f^*
 $$
 
-with $f_*$ [[left adjoint]] and $f^*$ [[right adjoint]], $f_* \dashv f^*$.
+with $f_!$ [[left adjoint]] and $f^*$ [[right adjoint]], $f_! \dashv f^*$.
 
 By the above discussion, the adjunction isomorphism
 
 $$
-  Hom_{C_2}(f_* \hat c_1, \hat c_2)
+  Hom_{C_2}(f_! \hat c_1, \hat c_2)
   \simeq
   Hom_{C_1}(\hat c_1, f^*\hat c_2)  
 $$
@@ -291,7 +291,7 @@ $$
 is given by the universal property of the [[pullback]] operation, which says that morphisms
 
 $$
-  (f_* \hat c_1 \to \hat c_2)
+  (f_! \hat c_1 \to \hat c_2)
   =
   \left(
   \array{
