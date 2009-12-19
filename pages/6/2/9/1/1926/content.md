@@ -278,10 +278,10 @@ such that
   $$
     C(\pi) : C(V) \to C(W)
   $$
-  is an [[effective epimorphism]] in $T$, i.e. its [[Cech nerve]]
+  is an [[effective epimorphism]] in $T$, i.e. its [[?ech nerve]]
   is a [[simplicial resolution]] of $C(W)$:
   $$
-    Cech(C(\pi)) \stackrel{\simeq}{\to} C(W)
+    \mathop{&#x010C;ech}(C(\pi)) \stackrel{\simeq}{\to} C(W)
     \,.
   $$
 
