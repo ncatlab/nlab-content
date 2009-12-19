@@ -21,9 +21,9 @@ and we ask whether $U$ is a [[monadic functor]].
 
 ## Details
 
-In more detail, the adjunction, $F\dashv U$ with unit $\eta:1_B \to U \circ F$ and counit $\epsilon: F \circ U\to 1_A$, induces the [[monad]] $\mathbf{T}= (T,\mu,\eta)$ in $B$ via $T:=U F$, $\mu:=U\epsilon F:U F U F\to U F$ with unit $\eta$. The monad $\mathbf{T}$ generates the [[Eilenberg–Moore category]] $B^{\mathbf{T}}$ of modules (= algebras) over $\mathbf{T}$, that is the pairs $(M,\nu)$ where $M\in Ob(B)$ and $\nu:T M\to M$ satisfies the action axioms $T(\nu)\circ \nu= \nu_T \circ\nu$ and $\nu\circ\eta_M=id_M$. There is a **comparison functor** 
+In more detail, the adjunction, $F\dashv U$ with unit $\eta:1_B \to U \circ F$ and counit $\epsilon: F \circ U\to 1_A$, induces the [[monad]] $\mathbf{T}= (T,\mu,\eta)$ in $B$ via $T\coloneqq U F$, $\mu\coloneqq U\epsilon F:U F U F\to U F$ with unit $\eta$. The monad $\mathbf{T}$ generates the [[Eilenberg–Moore category]] $B^{\mathbf{T}}$ of modules (= algebras) over $\mathbf{T}$, that is the pairs $(M,\nu)$ where $M\in Ob(B)$ and $\nu:T M\to M$ satisfies the action axioms $T(\nu)\circ \nu= \nu_T \circ\nu$ and $\nu\circ\eta_M=id_M$. There is a **comparison functor** 
 
-$$ K : A\to B^{\mathbf{T}}, \,\,\,\, K(N) := (U(N),U(\epsilon_N)). $$
+$$ K : A\to B^{\mathbf{T}}, \,\,\,\, K(N) \coloneqq  (U(N),U(\epsilon_N)). $$
 
 We say that the functor $U$ is [[monadic functor|monadic]] or more informally that $A$ is monadic over $B$ if the comparison functor is an [[equivalence of categories]]. Sometimes one is interested in a weaker condition: whether the comparison functor is [[fully faithful functor|fully faithful]]. 
 
@@ -41,7 +41,7 @@ We should now see that some instances of categories of [[descent]] data are cano
 
 ### Monadic descent for codomain fibrations {#ForCodomainFibs}
 
-One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s. Accordingly, monadic descent applied to codomain fibrations archetypically exhibits the nature of mondadic descent. We therefore spell out this example is some detail.
+One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s. Accordingly, monadic descent applied to codomain fibrations archetypically exhibits the nature of monadic descent. We therefore spell out this example is some detail.
 
 Other examples of monadic descent often find a useful interpretation when relating them back to monadic descent for codomain fibrations. For instance the (co)monadic descent for [[Sweedler coring]]s, discussed below, finds a natural geometric interpretion this way (as discussed in detail there).
 
