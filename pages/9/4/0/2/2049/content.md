@@ -153,7 +153,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         6.  [[normal locale]]
         7.  localic [[Tychonoff embedding theorem]]
     2.  The Stone--&#268;ech compactification
-        1.  [[Stone-Cech compactification|Stone–?ech compactification]]
+        1.  [[Stone–?ech compactification]]
         2.  [[completely regular ideal]], [[regular ideal]]
         3.  [[completely regular filter]]
         4.  [[Wallman base]], [[Wallman compactification]]
