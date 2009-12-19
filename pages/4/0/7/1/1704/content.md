@@ -37,7 +37,7 @@ $$
   \,.
 $$
 
-Conversely, for $G \in \mathbf{H}$ we say an object $\mathbf{B}G$ is a [[delooping]] of $\mathbf{H}$ if it has an essentially unique point and if $G \simeq \Omega \mathbf{B}G$. We call $G$ an **$\infty$-group**. More in detail, its structure as a [[groupoid object in an (∞,1)-category|group object in an (∞,1)-category]] is exhibited by the [[Cech nerve]] 
+Conversely, for $G \in \mathbf{H}$ we say an object $\mathbf{B}G$ is a [[delooping]] of $\mathbf{H}$ if it has an essentially unique point and if $G \simeq \Omega \mathbf{B}G$. We call $G$ an **$\infty$-group**. More in detail, its structure as a [[groupoid object in an (∞,1)-category|group object in an (∞,1)-category]] is exhibited by the [[?ech nerve]] 
 
 $$
  \left(
