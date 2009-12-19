@@ -363,11 +363,11 @@ low dimensional proofs have obvious generalizations.
 
 # Examples #
 
-As described in smoe detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[Cech cohomology|Cech]]-Deligne-cocycle, i.e. a [[Cech cohomology|Cech cocycle]] representative with values in the Deligne complex.
+As described in smoe detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[Čech cohomology|Čech]]--Deligne cocycle, i.e. a [[Čech cohomology|Čech cocycle]] representative with values in the Deligne complex.
 
 * Degree 2 Deligne cohomology classifies $U(1)$-[[principal bundle]]s [[connection on a bundle|with connection]]. The Deligne complex $\bar \mathbf{B}U(1)$ in this case coincides with the [[groupoid of Lie-algebra valued forms]] for the Lie algebra of $U(1)$.
 
-  * In physics the [[electromagnetic field]] is modeled by a degree 2 Deligne cocycle. See there for a derivation of [[Cech cohomology|Cech]]-Deligne cohomology from physical input.
+  * In physics the [[electromagnetic field]] is modeled by a degree 2 Deligne cocycle. See there for a derivation of [[Čech cohomology|Čech]]--Deligne cohomology from physical input.
 
 * Degree 3 Deligne cohomology classifies [[bundle gerbe]]s with connection.
 
