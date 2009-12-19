@@ -31,7 +31,7 @@ $$
  \cdots C_2 \stackrel{\to}{\stackrel{\to}{\to}} C_1 \stackrel{\to}{\to} C_0
 $$
 
-being **effective** means that it is the [[Cech nerve]] 
+being **effective** means that it is the [[?ech nerve]] 
 
 $$
  \cdots 
@@ -74,7 +74,7 @@ satisfying some conditions that make it look like the [[nerve]] of an [[internal
 Such a groupoid object with $C_0 = {*}$ is a group object.
 
 
-If $C$ is the [[Cech nerve]] of a morphism $C_0 \to C_{-1}$  
+If $C$ is the [[?ech nerve]] of a morphism $C_0 \to C_{-1}$  
 then the groupoid object is [[delooping|deloopable]] in the groupoid sense.
 
 If furthermore the morphism $C_0 \to C_{-1}$ is the colimit $C_{-1} = colim_i C_i$ 
