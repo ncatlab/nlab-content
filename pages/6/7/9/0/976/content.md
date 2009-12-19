@@ -4,7 +4,7 @@ While [[homotopy theory]] is suitable for the study of (locally) good [[topologi
 
 The shape theory has been first introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Borsuk.html) in the 1960s. The modern version of shape theory is developed in terms of inverse systems ([[pro-object]]s) introduced in this setup by S. Marde&#353;i&#263;, J. Segal and independently, by Tim Porter (thesis, 1971). 
 
-Shape theory is a '[[Cech methods|Čech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology.
+Shape theory is a '[[Čech methods|Čech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology.
 
 
 For many applications one needs more refined invariants which build up [[strong shape theory]], while sometimes more crude versions may be useful, for example the recent theory of [[coarse shape]]. In fact, the origins of both shape theory and strong shape theory go back further to work by [Lefshetz](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Lefschetz.html) and his student, D. Christie (thesis plus article, D.E. Christie, _Net homotopy for compacta_,  Trans. Amer. Math. Soc., 56 (1944) 275--308). Christie considered a 2-truncated form of strong shape theory, categorically this corresponds to a lax or op-lax 2-categorical version of shape theory.
@@ -14,7 +14,7 @@ M. Batanin further elucidated strong shape theory from a categorical and 2-categ
 
 The strong shape theory of compact spaces is related to certain constructions on the corresponding (commutative) $C^*$-algebras of functions.  This is related to the algebraic K-theory of such commutative $C^*$-algebras.  Extensions to non-commutative $C^*$-algebras have been made.
 
-As shape theory is a [[Cech methods|Čech homotopy theory]], what is the corresponding construction for strong shape. The answer is Steenrod--Sitnikov homology and this is discussed in Marde&#353;i&#263;'s book, Strong Shape and Homology, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.
+As shape theory is a [[Čech methods|Čech homotopy theory]], what is the corresponding construction for strong shape. The answer is Steenrod--Sitnikov homology and this is discussed in Marde&#353;i&#263;'s book, Strong Shape and Homology, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.
 
 #Abstract shape category#
 
