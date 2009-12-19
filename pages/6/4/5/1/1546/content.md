@@ -9,9 +9,36 @@
 
 ## Idea
 
-The Atiyah Lie groupoid of a $G$-[[principal bundle]] is the [[Lie groupoid]] whose objects are the fibers of the bundle, and whose morphisms are the $G$-equivariant morphisms between the fibers.
+The **Atiyah Lie groupoid** $At(P)$ of a $G$-[[principal bundle]] $P \to X$ is the [[Lie groupoid]] whose objects are the fibers of the bundle, and whose morphisms are the $G$-equivariant morphisms between the fibers. Schematically:
+
+$$
+  At(P)
+  = 
+  \left\{
+     P_x \stackrel{\alpha}{\to} P_y
+     | x,y \in X
+  \right\}
+  \,.
+$$
+
+Its [[Lie algebroid]] is the [[Atiyah Lie algebroid]] $at(P)$ of $P$.
+
+Both the Atiyah Lie groupoid and its Lie algebroid are used to characterize and are characterized [[connection on a bundle|connections]] on $P$.
+
+
+
 
 ## Definition
+
+As generally for every [[Lie algebroid]], there are different [[Lie groupoid]]s [[Lie integration|integrating]] the [[Atiyah Lie algebroid]]. We describe two of them.
+
+The Aityah Lie algebroid $at(P)$ of the [[principal bundle]] $P \to X$ comes canonically with a morphism $at(X) \to T X$ to the [[tangent Lie algebroid]].
+
+The simplest [[Lie integration]] of the tangent Lie algebroid is the [[codiscrete groupoid]] $X \times X$ of $X$. On the other hand, the universal integration is the [[fundamental groupoid]] $\Pi(X)$ (both coincide precisey if $X$ is a [[simply connected space]]). 
+
+Accordingly, there is a version of the Atiyah Lie groupoid over $X \times X$, and a richer version over $\Pi(X)$. 
+
+### Over the pair groupoid
 
 For $G$ a Lie group and $P \to X$ a $G$-principal bundle, the **Atiyah groupoid** $At(P)$ -- also called the **gauge groupoid** or **transport groupoid** -- of $P$ is the [[Lie groupoid]] with
 
@@ -119,6 +146,11 @@ To get non-flat connections in the literature one often sees discussed splitting
 
 One can describe non-flat connections without leaving the context of Lie algebroids by passing to higher Lie algebroids, namely $L_\infty$-[[L-infinity-algebroid|algebroids]].
 
+### Over the path $\infty$-groupoid
+
+...
+
+
 ## References
 
 ...
@@ -128,6 +160,5 @@ some related blog discussion is at
 * [n-Transport and Higher Schreier Theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html)
 
 
+
 [[!redirects Atiyah Lie-groupoid]]
-[[!redirects Atiyah Lie-algebroid]]
-[[!redirects Atiyah Lie algebroid]]
