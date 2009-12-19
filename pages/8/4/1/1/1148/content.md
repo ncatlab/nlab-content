@@ -237,6 +237,6 @@ Its discussion in the more general [[nonabelian cohomology]] and [[infinity-stac
 
 * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
-A discussion of the [[Cech cohomology]] description of sheaf cohomology along the above lines is in
+A discussion of the [[Čech cohomology]] description of sheaf cohomology along the above lines is in
 
-* Tibor Beke, _Higher Cech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
+* Tibor Beke, _Higher &#268;ech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
