@@ -316,7 +316,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[groupoid object in an (∞,1)-category]]
 
-  * [[Cech nerve]]
+  * [[?ech nerve]]
 
   * [[effective epimorphism]]
 
@@ -381,7 +381,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[nonabelian cohomology]]
 
-  * [[Cech cohomology]]
+  * [[?ech cohomology]]
 
   * [[fibration sequence]]
 
