@@ -10,14 +10,14 @@
 ## Idea ##
 
 
-&#268;ech cohomology is the [[cohomology]] theory of the [[(infinity,1)-topos]] of [[infinity-stack]] that are [[localization of an (infinity,1)-category|localized]] not with respect to all [[hypercovers]] but only with respect to all [[Cech covers]].
+&#268;ech cohomology is the [[cohomology]] theory of the [[(infinity,1)-topos]] of [[infinity-stack]] that are [[localization of an (infinity,1)-category|localized]] not with respect to all [[hypercovers]] but only with respect to all [[Čech covers]].
 
-The former is the [[hypercompletion]] of the Cech model, which for instance includes ordinary [[abelian sheaf cohomology]].
+The former is the [[hypercompletion]] of the &#268;ech model, which for instance includes ordinary [[abelian sheaf cohomology]].
 Traditionally this is what what people were interested in. From the point of view of the [[hypercompletion]]
 &#268;ech cohomology is more an algorithm for computing hypercohomology in special cases (see [[Čech methods]]) than 
 a cohomology theory in itself.
 
-On the other hand, in section 6.5.4 of [[Higher Topos Theory|HTT]] it is argued that Cech cohomology is the better behaved cohomology theory after all (see references below).
+On the other hand, in section 6.5.4 of [[Higher Topos Theory|HTT]] it is argued that &#268;ech cohomology is the better behaved cohomology theory after all (see references below).
 
 From the discussion at [[abelian sheaf cohomology]] we know that the right derived functor definition computes the hom-set in the [[homotopy category of an (infinity,1)-category|homotopy category]] of an [[(infinity,1)-topos]] $\mathbf{H}$ that may alternatively be computed as a colimit over resolutions of the domain object
 
@@ -31,17 +31,17 @@ $$
 
 where the colimit is over all acyclic fibrations $Y \stackrel{\in W \cap }{\to} X$ in an appropriate [[model category]] $C_H$ that [[presentable (infinity,1)-category|presents]] $\mathbf{H}$. For $\mathbf{H}$ an [[infinity-stack]] [[(infinity,1)-topos]] this $C_H$ is a [[model structure on simplicial presheaves]] and the acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ for $X$ an ordinary space are the [[hypercovers]].
 
-Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[Cech cover|Čech covers]]. The resulting formula
+Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[Čech covers]]. The resulting formula
 
 $$
   H(X,A)
-  = colim_{Y \stackrel{Cech cover}{\to} X} 
+  = colim_{Y \stackrel{\mathop{&#x010C;ech} cover}{\to} X} 
   C_H(Y,A)/_{homotopy}
 $$
 
 is then called the formula for **&#268;ech cohomology** on $X$ with values in $A$.
 
-Here a [[Cech cover|Čech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[Čech nerve]] simplicial presheaf
+Here a [[Čech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[Čech nerve]] simplicial presheaf
 
 $$
  \begin{aligned}
@@ -61,11 +61,11 @@ See [[descent for simplicial presheaves]] for more on the manipulations involved
 
 To amplify, a general [[hypercover]] would start in degree 0 with a $U$ as above, but then in the next degree would have a cover $V \to U \times_X U$ of the fiber product, and so on, each fiber product in turn being covered by another space.
 
-If $Y$ is not simply a [[Cech cover|Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
+If $Y$ is not simply a [[Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
 
 
 
-## General ("nonabelian") Cech cohomology ##
+## General ("nonabelian") &#268;ech cohomology ##
 
 We start with describing the general " _nonabelian_ " &#268;ech cohomology (compare the terminology and remarks at [[cohomology]] and [[nonabelian cohomology]]), i.e. the plain unwrapping of the above definition, before assuming that our coefficient object is [[abelian sheaf cohomology|abelian]] and before applying the [[Moore complex]] functor that sends the following simplicial computation to the maybe more familiar one in [[chain complexes]].
 
@@ -416,7 +416,7 @@ Remembering that the &#268;ech cohomology is the colimit over refinement of cove
 (as above) classies $G$-[[principal bundles]]
 
 $$
-  colim_{U \stackrel{Cech cover}{\to} X}
+  colim_{U \stackrel{\mathop{&#x010C;ech} cover}{\to} X}
   SSh(C(U), \mathbf{B}G)/_{homtopy}
   \simeq
   G Bund(X)/_\sim
@@ -508,9 +508,9 @@ this is the nonabelian cohomology classifying
 [[gerbes]].
 
 
-## Abelian Cech cohomology ##
+## Abelian &#268;ech cohomology ##
 
-In much of the literature _Cech cohomology_ denotes exclusively the abelian case, which we now describe.
+In much of the literature _&#268;ech cohomology_ denotes exclusively the abelian case, which we now describe.
 
 In the special case that the coefficient [[simplicial presheaf]] $A$ is in the image of the [[nerve]] operation 
 
@@ -518,23 +518,23 @@ $$
   N : Ch_+ \to sAb \to SSet
 $$
 
-on [[chain complexes]] with values in [[simplicial sets]] that happen to be abelian [[simplicial groups]], the computation of Cech cocycles may be entirely pulled back to the world of [[homological algebra]] by making use of the [[Dold-Kan correspondence]] that provides an [[adjoint equivalence]] between simplicial sets with values in abelian groups and non-negatively graded chain complexes.
+on [[chain complexes]] with values in [[simplicial sets]] that happen to be abelian [[simplicial groups]], the computation of &#268;ech cocycles may be entirely pulled back to the world of [[homological algebra]] by making use of the [[Dold-Kan correspondence]] that provides an [[adjoint equivalence]] between simplicial sets with values in abelian groups and non-negatively graded chain complexes.
 
-**Remark** The following derivation of abelian Cech cohomology from nonabelian Cech cohomology restricted to nerves of chain complexes needs of the [[Dold-Kan correspondence]] only that it is an [[adjunction]], not that it is an [[adjoint equivalence]]. 
+**Remark** The following derivation of abelian &#268;ech cohomology from nonabelian &#268;ech cohomology restricted to nerves of chain complexes needs of the [[Dold-Kan correspondence]] only that it is an [[adjunction]], not that it is an [[adjoint equivalence]]. 
 
 The following structure arises, 
-when one computes Cech cohomology in this context,
+when one computes &#268;ech cohomology in this context,
 as shown below.
 
 +-- {: .un_defn}
-###### Cech complex
+###### &#268;ech complex
 
 Let $\{U_i \to X\}$ be a collection of open subsets
 of $X$
 and let $A_\bullet$ be a sheaf with coefficients
 in non-negatively graded chain complexes $Ch_+$.
 
-Then define the **Cech chain complex** $C(U,A_\bullet)$ 
+Then define the **&#268;ech chain complex** $C(U,A_\bullet)$ 
 of $A_\bullet$ relative to $U$ by
 
 $$
@@ -561,7 +561,7 @@ where on the right we sum over all components of $a$ obtained by discarding one 
 
 =--
 
-**Remark** When $A_\bullet$ is not concentrated in a single degree, the above is often called the **Cech hypercomplex** and its cohomology is called **Cech hypercohomology**.
+**Remark** When $A_\bullet$ is not concentrated in a single degree, the above is often called the **&#268;ech hypercomplex** and its cohomology is called **&#268;ech hypercohomology**.
 
 
 As the following derivation will show, this complex encodes a linearization of the simplicial nonabelian cocycle depicted above. It may be helpful to keep the following pictures in mind to match the signs to the orientations of simplices.
@@ -612,16 +612,16 @@ complex $A_\bullet$ to simplices .
 
 
 +-- {: .un_prop }
-###### Proposition (abelian Cech cohomology)
+###### Proposition (abelian &#268;ech cohomology)
 
 Let $A_\bullet$ be a sheaf with values in $Ch_+$
 and write $N(A_\bullet)$ for the corresponding
 simplicial sheaf under the [[nerve]] operation
 of the [[Dold-Kan correspondence]].
 
-Then the general (nonabelian) Cech cohomology
+Then the general (nonabelian) &#268;ech cohomology
 of $N(A_\bullet)$ as defined above coincides
-with the cohomology of the Cech complex of
+with the cohomology of the &#268;ech complex of
 $A_\bullet$:
 
 $$
@@ -643,10 +643,10 @@ on the right to the
 free abelian chain complex operation 
 $C_bullet(F(C(U)))$
 on the 
-[[Cech cover]] simplicial sheaf $C(U)$ and then 
+[[Čech cover]] simplicial sheaf $C(U)$ and then 
 use the [[Yoneda lemma]] to evaluate $A_\bullet$
 on $N_\bullet(F(C(U)))$. The result is the 
-Cech complex of $A_\bullet$. 
+&#268;ech complex of $A_\bullet$. 
 Cocycles and homotopies/coboundaries
 are in bijection on both sides.
 
@@ -654,10 +654,10 @@ Spelled out in full detail this looks a bit more lengthy,
 but is nothing but this simple idea.
 
 Before starting the computation notice the following
-observation on the image of the [[Cech cover]]
+observation on the image of the [[Čech cover]]
 $C(U)$ under the [[Dold-Kan correspondence]]:
 
-For $Y = C(U)$ a [[Cech cover]] on a sieve 
+For $Y = C(U)$ a [[Čech cover]] on a sieve 
 $\{U_i \to X\}_{i \in I}$, and for $W$ any test object,
 the non-degenerate $n$-simplices in $C(U)(W)$ are the
 
@@ -748,7 +748,7 @@ Here
 
 * this finally allows to apply the [[Yoneda lemma]] in step eight
 
-* and in step nine, by inspection, one notices that the result thus obtained is the set of 0-cycles in the Cech complex $C(U,A_\bullet)$ as previously defined.
+* and in step nine, by inspection, one notices that the result thus obtained is the set of 0-cycles in the &#268;ech complex $C(U,A_\bullet)$ as previously defined.
 
 An entirely analogous argument shows that dividing out homotopies is respected. 
 
@@ -797,15 +797,15 @@ To see that one just needs to observe that the normalized [[Moore complex]] of t
 
 =--
 
-### Relation of abelian Cech cohomology to abelian sheaf cohomology ###
+### Relation of abelian &#268;ech cohomology to abelian sheaf cohomology ###
 
 For $A$ a complex of sheaves, there is a canonical morphism
 
 $$
-  H_{Cech}(X,A) \to H(X,A)
+  \check{H}(X,A) \to H(X,A)
 $$
 
-from the Cech cohomology to the full (hypercompleted) cohomology, which is [[abelian sheaf cohomology]] in the case that $A$ is in the image of the [[Dold-Kan correspondence|Dold-Kan map]] from [[chain complexes]]. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Cech covers]] into all [[hypercovers]].
+from the &#268;ech cohomology to the full (hypercompleted) cohomology, which is [[abelian sheaf cohomology]] in the case that $A$ is in the image of the [[Dold-Kan correspondence|Dold-Kan map]] from [[chain complexes]]. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Čech covers]] into all [[hypercovers]].
 
 +-- {: .un_theorem }
 ###### Theorem 
@@ -813,10 +813,10 @@ from the Cech cohomology to the full (hypercompleted) cohomology, which is [[abe
 If $X$ is a [[paracompact space]] the canonical morphism
 
 $$
-  H_{Cech}(X,A) \to H(X,A)
+  \check{H}(X,A) \to H(X,A)
 $$
 
-from Cech cohomology to [[abelian sheaf cohomology]] is an isomorphism from every $A \in Sh(X, Ch_+)$.
+from &#268;ech cohomology to [[abelian sheaf cohomology]] is an isomorphism from every $A \in Sh(X, Ch_+)$.
 
 =--
 
@@ -829,7 +829,7 @@ Recalled as theorem 1.3.13 in
 
 =--
 
-When $X$ is not paracompact, we still have the following condition under which Cech cohomology computes [[abelian sheaf cohomology]]-.
+When $X$ is not paracompact, we still have the following condition under which &#268;ech cohomology computes [[abelian sheaf cohomology]]-.
 
 
 For $A$ a complex of sheaves, there is a canonical morphism
@@ -838,7 +838,7 @@ $$
   H_0(C(U,A)_\bullet) \to H(X,A)
 $$
 
-from the cohomology of the Cech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Cech covers]] into all [[hypercovers]].
+from the cohomology of the &#268;ech complex with respect to a cover $U$ with coefficients in $A$ to the [[abelian sheaf cohomology]] of $X$ with values in $A$. Using the description of abelian sheaf cohomology in terms of morphisms out of hypercovers described at the beginning of this entry, this morphism is the obvious one coming from the inclusion of [[Čech covers]] into all [[hypercovers]].
 
 +-- {: .un_theorem }
 ###### Theorem 
@@ -865,7 +865,7 @@ is an [[isomorphism]].
 +-- {: .proof}
 ###### Proof
 
-One considers the spectral sequence associated with the Cech double complex. Details are on page 28 of
+One considers the spectral sequence associated with the &#268;ech double complex. Details are on page 28 of
 
 * Brylinski, _Loop spaces, characteristic classes and geometric quantization_ 
 
@@ -876,7 +876,7 @@ One considers the spectral sequence associated with the Cech double complex. Det
 
 ### Examples ###
 
-We now list examples for abelian Cech cohomology expressed in terms of the Cech complex described above.
+We now list examples for abelian &#268;ech cohomology expressed in terms of the &#268;ech complex described above.
 
 
 
@@ -903,13 +903,13 @@ $$
   \,.
 $$
 
-So given a cover $\{U_i \to X\}$ a Cech cocycle is a collection
+So given a cover $\{U_i \to X\}$ a &#268;ech cocycle is a collection
 
 $$
   c = ( \{g_{i j} \in U(1)[1](U_{i j})\}|_{i,j})
 $$
 
-such that the Cech differential evaluated on it
+such that the &#268;ech differential evaluated on it
 
 $$
   \begin{aligned}
@@ -935,7 +935,7 @@ $$
 $$
 
 on $U_{i j k}$ as before in the nonabelian case of
-Cech cocycles for
+&#268;ech cocycles for
 $U(1)$-[[principal bundles]].
 
 Here and from now on we shall notationally suppress the restriction maps $(-)|_{U_{i_0, i_1, \cdots, i_n}}$
@@ -945,9 +945,9 @@ as they are unambiguously obviuous in every case.
 #### Line bundle gerbes ####
 
 Similarly by shifting $U(1)$ ever higher in chain degree,
-one finds Cech cocycles for [[bundle gerbes]], bundle 2-gerbes, etc.
+one finds &#268;ech cocycles for [[bundle gerbes]], bundle 2-gerbes, etc.
 
-A Cech cocycle for 
+A &#268;ech cocycle for 
 
 $$
   U(1)[2]
@@ -976,7 +976,7 @@ $$
 
 
 
-#### Cech-Deligne cohomology ####
+#### &#268;ech-Deligne cohomology ####
 
 When refining the complexes of sheaves $U(1)[n]$
 to the [[Deligne cohomology|Deligne complex]]
@@ -985,9 +985,9 @@ $$
   U(1)[n] \hookrightarrow \mathbb{Z}(n+1)_D^\infty
 $$
 
-and then evaluating Cech cohomology with coefficients
+and then evaluating &#268;ech cohomology with coefficients
 in the Deligne complex, we obtain the formulas for
-Cech-Deligne cohomology.
+&#268;ech-Deligne cohomology.
 
 
 
@@ -1008,7 +1008,7 @@ Cech-Deligne cohomology.
   Such cocycles classify $U(1)$-[[principal bundles]]
   with [[connection on a bundle|connection]].
 
-  These $n=1$ Cech-Deligne cocycles appear naturally in the study of the [[electromagnetic field]].
+  These $n=1$ &#268;ech-Deligne cocycles appear naturally in the study of the [[electromagnetic field]].
 
 * For $n = 2$ a cocycle is a collection
   $$
@@ -1037,22 +1037,22 @@ Cech-Deligne cohomology.
 
 ##References##
 
-A discussion of Cech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Cech cover]] and [[hypercover]] is
+A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Čech cover]] and [[hypercover]] is
 
 * Tibor Beke, _Higher &#268;ech theory_ ([journal](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
 
-Abelian Cech cohomology is discussed in some detail in section I.3 of 
+Abelian &#268;ech cohomology is discussed in some detail in section I.3 of 
 
 * Brylinski, _Loop spaces, characteristic classes and geometric quantization_ 
 
 
-A discussion of the [[model structure on simplicial presheaves]] with an eye towards the distinction between Cech and hyperlocalization is in 
+A discussion of the [[model structure on simplicial presheaves]] with an eye towards the distinction between &#268;ech and hyperlocalization is in 
 
 * Daniel Dugger, _Sheaves and Homotopy theory_ ([web](http://math.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 (But beware that, while providing useful insights, these are unfinished abandoned notes that seem to have some gaps right at this point.)
 
-A long list of reasons why higher Cech cohomology might 
+A long list of reasons why higher &#268;ech cohomology might 
 is after all better behaved than its [[hypercompletion]] where a cycle is with respect to an arbitrary [[hypercover]] is in section 6.5.4, **Descent versus Hyperdescent** of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
