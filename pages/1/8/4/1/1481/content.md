@@ -221,7 +221,7 @@ $$
   \,.
 $$
 
-Or if $X = C(Y)$ is realized as the [[Cech nerve]] of some [[Cech cover]] $(U = \coprod_i U_i) \to Y$ then $\Pi(X)$ is generated from paths $(\gamma,i) : (y_1,i) \to (y_2,i)$ in $U_i$ for all $i$ and transitions $(y,i) \to (y,j)$ for all $y \in U_i \cap U_j$ subject to the condition
+Or if $X = C(Y)$ is realized as the [[?ech nerve]] of some [[?ech cover]] $(U = \coprod_i U_i) \to Y$ then $\Pi(X)$ is generated from paths $(\gamma,i) : (y_1,i) \to (y_2,i)$ in $U_i$ for all $i$ and transitions $(y,i) \to (y,j)$ for all $y \in U_i \cap U_j$ subject to the condition
 
 $$
   \array{
@@ -535,8 +535,7 @@ $$
   }
 $$
 
-<img src="http://latex.codecogs.com/gif.latex?$$ \xymatrix@R=23pt@C=12pt{ E_\Sigma \ar[rr]^{E_\mathrm{out}} \ar[dd]_{E_\mathrm{in}} \ar[ddr]  E_{\Sigma_{\mathrm{out}}} \ar[ddr] \\ \\ E_{\mathrm{in}} \ar[ddr]  [\Sigma,X] \ar[dd]^{\mathrm{in}} \ar[rr]^{\mathrm{out}} \ar[ddrr]  [\Sigma_{\mathrm{out}},X] \ar[dd] \ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}} \\ \\  [\Sigma_{\mathrm{in}},X] \ar[rr] \ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}  \mathrm{Bord}(X) \ar[ddrr]|{\exp(S_\nabla)} \\ \\  V } $$" title="$$ \xymatrix@R=23pt@C=12pt{ E_\Sigma \ar[rr]^{E_\mathrm{out}} \ar[dd]_{E_\mathrm{in}} \ar[ddr] E_{\Sigma_{\mathrm{out}}} \ar[ddr] \\ \\ E_{\mathrm{in}} \ar[ddr]  [\Sigma,X] \ar[dd]^{\mathrm{in}} \ar[rr]^{\mathrm{out}} \ar[ddrr] [\Sigma_{\mathrm{out}},X] \ar[dd] \ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}} \\ \\ [\Sigma_{\mathrm{in}},X] \ar[rr] \ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}  \mathrm{Bord}(X) \ar[ddrr]|{\exp(S_\nabla)} \\ \\  V } $$" />
-
+<a href="http://www.codecogs.com/eqnedit.php?latex=$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$"><img src="http://latex.codecogs.com/gif.latex?$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$" title="$$ \xymatrix@R=23pt@C=12pt{ &amp;E_\Sigma \ar[rr]^{E_\mathrm{out}} \ar[dd]_{E_\mathrm{in}} \ar[ddr] &amp;&amp; E_{\Sigma_{\mathrm{out}}} \ar[ddr] \\ \\ &amp;E_{\mathrm{in}} \ar[ddr] &amp; [\Sigma,X] \ar[dd]^{\mathrm{in}} \ar[rr]^{\mathrm{out}} \ar[ddrr] &amp;&amp; [\Sigma_{\mathrm{out}},X] \ar[dd] \ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}} \\ \\ &amp;&amp; [\Sigma_{\mathrm{in}},X] \ar[rr] \ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}} &amp;&amp; \mathrm{Bord}(X) \ar[ddrr]|{\exp(S_\nabla)} \\ \\ &amp;&amp;&amp;&amp; &amp;&amp; V } $$" /></a>
 
 **definition** the "quantum propagation along $\Sigma$" is the functor of [[geometric function object]]s
 
