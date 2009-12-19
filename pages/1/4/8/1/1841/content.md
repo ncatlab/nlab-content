@@ -81,7 +81,7 @@ $$
   (A_i, \lambda_{i j})
 $$   
 
-is a [[Cech cohomology|Cech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[differential cohomology|projection to deRham cohomology]] is the given Maxwell 2-form.
+is a [[?ech cohomology|?ech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[differential cohomology|projection to deRham cohomology]] is the given Maxwell 2-form.
 
 
 The following describes more physical and historical details behind this argument.
