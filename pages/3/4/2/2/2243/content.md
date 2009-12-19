@@ -31,7 +31,13 @@
 
 * [[nonabelian cohomology]]
 
+  * [[nonabelian groupoid cohomology]]
+
+    * [[nonabelian group cohomology]]
+
   * [[principal bundle]]
+
+    * [[Atiyah Lie groupoid]]
 
   * [[principal 2-bundle]]/[[gerbe]]
 
