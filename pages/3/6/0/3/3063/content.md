@@ -47,7 +47,7 @@ The **inner automorphism 2-group** $INN(G)$ of $G$ is the [[strict 2-group]]
 Equivalently, this is the [[action groupoid]]
 
 $$
-  INN(G) = G//G =: \mathbf{E}G
+  INN(G) = G//G \eqqcolon \mathbf{E}G
 $$
 
 of $G$ acting on itself.
@@ -75,7 +75,7 @@ In fact, we may think of $INN(G)$ as the [[generalized universal bundle|universa
 To emphasize this we also write
 
 $$
-  \mathbf{E}G := INN(G)
+  \mathbf{E}G \coloneqq INN(G)
   \,.
 $$
 
