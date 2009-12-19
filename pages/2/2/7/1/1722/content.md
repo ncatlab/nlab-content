@@ -8,7 +8,7 @@ Recall that [[principal bundle]]s are classified by [[nonabelian cohomology]] in
 
 A central motivation for the introduction of the notion of [[gerbe]] was to find an analog of this statement for [[nonabelian cohomology]] in degree 2.
 
-The basic theorem of Giraud's theory of [[gerbe]]s says that in the sense of [[gerbe (as a stack)]], gerbes $G$-gerbes are classified by [[nonabelian cohomology]] (usually realized as nonabelian [[Cech cohomology]], see there for more details) with coefficients in the [[strict 2-group]] $AUT(G) = Aut_{Grpd}(\mathbf{B}G)$.
+The basic theorem of Giraud's theory of [[gerbe]]s says that in the sense of [[gerbe (as a stack)]], gerbes $G$-gerbes are classified by [[nonabelian cohomology]] (usually realized as nonabelian [[Čech cohomology]], see there for more details) with coefficients in the [[strict 2-group]] $AUT(G) = Aut_{Grpd}(\mathbf{B}G)$.
 
 #References#
 
@@ -24,7 +24,7 @@ Or
 
 * Ieke Moerdijk _Introduction to the language of gerbes and stacks_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0212/0212266v1.pdf)) 
 
-discusses the Cech-cocycle description of gerbes from page 16 on, and the classification theorem appears as theorem 3.1 on p. 21.
+discusses the &#268;ech-cocycle description of gerbes from page 16 on, and the classification theorem appears as theorem 3.1 on p. 21.
 
 The statement is originally due to Giraud's work 
 
@@ -48,9 +48,9 @@ This recalls the theorem in question on slide 10.
 
 Finally, gerbes, in as far as they are nonabelian, are really objects associated to [[principal 2-bundle]]s. The cocycle description of principal 2-bundles is more transparent, conceptually,  as it is the 2-bundle that is associated by abstract nonsense to the 2-cocycle, whereas the gerbe comes from that only after some fiddling (see [[gerbe (general idea)]]).
 
-Accordingly, the nonabelian Cech cocycles in question here are discussed at length and in detail in the literature on [[principal 2-bundle]]s by Toby Bartels, Igor Bakovi&#263; and Christoph Wockel. 
+Accordingly, the nonabelian &#268;ech cocycles in question here are discussed at length and in detail in the literature on [[principal 2-bundle]]s by Toby Bartels, Igor Bakovi&#263; and Christoph Wockel. 
 
-Nonabelian Cech cocycles as therefore are naturally expressed $n$-functors out of Cech $n$-groupoids.
+Nonabelian &#268;ech cocycles as therefore are naturally expressed $n$-functors out of &#268;ech $n$-groupoids.
 
 This is described in some detail for instance in 
 
