@@ -14,7 +14,7 @@ This has been abstracted and extended to [[homotopy]] and also in the direction 
 
 
 
-The term '[[Cech nerve|nerve of a covering]]' has been used from the  late 
+The term '[[Čech nerve|nerve of a covering]]' has been used from the  late 
 1920s for a  construction that starts with a space and an open cover of it and builds a [[simplicial complex]]. 
 Historically these data were organizes as a  [[simplicial complex]], rather than a [[simplicial set]]. The idea had been parallely worked out by &#268;ech and P.S. Aleksandrov
 so one often talks about Aleksandrov--&#268;ech (co)homology. There was an alternative approach described by Vietoris (1927), which led to what is known as [[Vietoris homology]]  There are separate entries in nlab for [[Cech homology|Čech homology]]
