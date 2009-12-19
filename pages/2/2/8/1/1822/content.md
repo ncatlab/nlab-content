@@ -1,6 +1,6 @@
 ##Idea##
 
-In the 1920s homology and cohomology were known for simplicial complexes and there were attempts to extend the definitions to first of all compact metric spaces and then more general spaces.  [[Leopold Vietoris]] (1927) came up with a construction and then shortly after Alexandrov and &#268;ech gave a different one involving [[Cech nerve|the nerve that now bears Čech's name]]. The input of the  two methods is the same, we have a space $X$ and an open cover $\mathcal{U}$ of $X$.
+In the 1920s homology and cohomology were known for simplicial complexes and there were attempts to extend the definitions to first of all compact metric spaces and then more general spaces.  [[Leopold Vietoris]] (1927) came up with a construction and then shortly after Alexandrov and &#268;ech gave a different one involving [[Čech nerve|the nerve that now bears Čech's name]]. The input of the  two methods is the same, we have a space $X$ and an open cover $\mathcal{U}$ of $X$.
 
 It was noted that all the calculations of Vietoris homology gave the same answer as  &#268;ech homology.  In 1952, C. H. Dowker showed why.  His [[Dowker's theorem|result]] is a beautiful mix of  abstraction and concrete explicit calculation (and is not that well known unfortunately). 
 
