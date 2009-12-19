@@ -90,7 +90,7 @@ for the fibered product $U_I$ corresponding to the cover $\{ U_i \to N\}$ of an 
 
 Applying $\pi_*$ to the cofiber sequence we obtain an exact couple and hence a spectral sequence with 
 $$ E^1_{t,s} = \pi_{t-s} F_s \Rightarrow \lim_n \pi_{t-s} \mathrm{Tot}^n X  = \pi_{t-s} \mathrm{Tot} X = \pi_{t-s} \mathbf{O} (N). $$ 
-Note that $\pi_{t-s} F_s$ is the Cech complex of the cover, so the $E^2$-page calculates Cech cohomology.  If we choose an affine cover, hence acyclic and $\lim^1 =0$, then 
+Note that $\pi_{t-s} F_s$ is the &#268;ech complex of the cover, so the $E^2$-page calculates &#268;ech cohomology.  If we choose an affine cover, hence acyclic and $\lim^1 =0$, then 
 $$E^2_{t,s} \Rightarrow H^s (N, \pi_t \mathbf{O}) .$$
 
 
