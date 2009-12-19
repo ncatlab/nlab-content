@@ -56,6 +56,6 @@ Examples of such constructions exist, but are rarely thought of (or even recogni
    * [[generalized (Eilenberg-Steenrod) homotopy]]
    * abelian cosheaf homotopy
    * nonabelian homotopy
-   * [[Cech homotopy]]
+   * [[Čech homotopy]]
    * differential homotopy
    * twisted homotopy
