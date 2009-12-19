@@ -42,7 +42,7 @@ In terms of the local trivialization data, there are **transition functions**
 
 $$(U_\alpha \cap U_\beta) \times V \overset{\phi_\beta \circ \phi_{\alpha}^{-1}}{\to} (U_\alpha \cap U_\beta) \times V: (x, v) \mapsto (x, g_{\alpha\beta}(x)(v)),$$ 
 
-where the $g_{\alpha\beta}(x)$ are linear [[automorphisms]] of $V$ and satisfy the Cech 1-cocycle conditions:
+where the $g_{\alpha\beta}(x)$ are linear [[automorphisms]] of $V$ and satisfy the &#268;ech 1-cocycle conditions:
 
 $$g_{\beta\gamma} \circ g_{\alpha\beta} = g_{\alpha\gamma} \qquad g_{\alpha\alpha} = id$$ 
 
