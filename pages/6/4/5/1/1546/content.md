@@ -7,6 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
 The **Atiyah Lie groupoid** $At(P)$ of a $G$-[[principal bundle]] $P \to X$ is the [[Lie groupoid]] whose objects are the fibers of the bundle, and whose morphisms are the $G$-equivariant morphisms between the fibers. Schematically:
@@ -23,8 +24,7 @@ $$
 
 Its [[Lie algebroid]] is the [[Atiyah Lie algebroid]] $at(P)$ of $P$.
 
-Both the Atiyah Lie groupoid and its Lie algebroid are used to characterize and are characterized [[connection on a bundle|connections]] on $P$.
-
+Both the Atiyah Lie groupoid and its Lie algebroid are used to characterize and are characterized by [[connection on a bundle|connections]] on $P$.
 
 
 
@@ -163,7 +163,7 @@ Write $\Pi(X)$ for the [[path ∞-groupoid]] of $X$. For the present purpose of 
 A $G$-[[principal bundle]] $P \to X$ is classified by a morphism $g : X \to \mathbf{B}G$.
 
 Putting a [[connection on a bundle|connection]] on $P$ give a parallel transport morphism $\Pi(X)  \to \mathbf{B}INN(G)$
-into the [[inner automorphism 2-group]] of $G$, which fits intoa diagram
+into the [[inner automorphism 2-group]] of $G$, which fits into a diagram
 
 $$
   \array{
