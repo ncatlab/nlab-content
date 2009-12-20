@@ -23,12 +23,12 @@ $$
   \,.
 $$
 
-If these structure morphisms are [[isomorphism]]s then $F$ is called a **strong monoidal functor**. If they are even identities it is called a **strict monoidal functor**. In contrast to this, a strong monoidal functor may also be called a **weak monoidal functor**.  The general situation is also called, for emphasis, a **lax monoidal functor**.
+If these structure morphisms are [[isomorphism]]s then $F$ is called a **strong monoidal functor**. If they are even identities it is called a **strict monoidal functor**. In contrast to this, a strong monoidal functor may also be called a **weak monoidal functor**.  Sometimes the plain term "monoidal functor" is used to mean a *strong* monoidal functor, in which case the general situation is called a **lax monoidal functor**.
 
 Lax monoidal functors send [[monoid]]s to monoids.
 
 
-## Comonoidal functors
+## Colax monoidal functors
 
 A __[[colax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
 
