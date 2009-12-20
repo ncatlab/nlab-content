@@ -83,7 +83,7 @@ There is a [[strict 2-category]] BrMonCat with:
 * [[braided monoidal functor|braided monoidal functors]] as morphisms, 
 * [[braided monoidal natural transformation|braided monoidal natural transformations]] as 2-morphisms.
 
-A braided monoidal category is equivalent to a monoidal category object in the 2-category of monoidal categories --- or in other words, a [[pseudomonad]] in this 2-category.  This result probably goes back to Joyal and Street.
+A braided monoidal category is equivalent to a monoidal-category object (that is, a [[pseudomonoid]]) in the monoidal 2-category of monoidal categories.  This result probably goes back to Joyal and Street.
 
 +--{.query}
 Reference, anyone?
