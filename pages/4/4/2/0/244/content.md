@@ -85,6 +85,7 @@ And lastly, we demand that
 $$ B_{y,x} B_{x,y} = 1_{x \otimes y} . $$
 (The definition of [[braided monoidal category]] has _two_ hexagon identities, but either one implies the other given this equation.)
 
+
 ## Basic facts
 
 There is a [[strict 2-category]] SymmMonCat with:
@@ -99,6 +100,7 @@ Details are in examples 1.2.3 and 1.2.4 of
 
 * [[Jacob Lurie]], $\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]
 
+
 ## Examples 
 
 * Every [[cartesian monoidal category]] is necessarily symmetric monoidal, due to the essential uniqueness of the categorical [[product]]. This includes cases such as [[Set]], [[Cat]].
@@ -107,9 +109,10 @@ Details are in examples 1.2.3 and 1.2.4 of
 
 * The category of $\mathbb{Z}_2$-[[graded vector space]]s, on the other hand, has two different symmetric monoidal extensions of the standard [[tensor product]] monoidal structure. One is the trivial one from above, the other is the one that induces a a sign when two odd-graded vectors $v$ and $w$ are passed past each other : $v \otimes w \mapsto - w \otimes v$. This non-trivial symmetric monoidal structure on $Vect[\mathbb[Z}_2]$ defines the symmetric monoidal category of [[super vector space]]s.
 
+
 ## References
 
-For definitions of symmetric monoidal categories, symmetric monoidal functors and symmetric monoidal natural transformations, see:
+For definitions of symmetric monoidal categories, [[symmetric monoidal functor]]s and [[symmetric monoidal natural transformation]]s, see:
 
 * [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
 
