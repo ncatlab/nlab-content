@@ -1,8 +1,12 @@
-# Definition 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition 
 
 A **weak limit** for a diagram in a [[category]] is a [[cone]] over that diagram which satisfies the existence property of a [[limit]] but not necessarily the uniqueness.
 
-# Examples
+## Examples
 
 A **weak [[pullback]]** of a [[cospan]] $A\overset{f}{\to} C \overset{g}{\leftarrow} B$ consists of a commutative square
 \[\array{ P & \overset{p}{\to} & A\\
@@ -16,9 +20,9 @@ there exists a morphism $h:X\to P$, not necessarily unique, such that $x = h p$ 
 
 Every [[inhabited set]] is a weak [[terminal object]] in [[Set]], since there always exists a [[function]] from any [[set]] to any inhabited set.  But only a [[singleton]] is a terminal object.
 
-# Projective objects and exact completion #
+## Projective objects and exact completion 
 
-In any category with finite limits and [[projective object|enough projectives]], the full subcategory of projective objects has weak finite limits.  For example, given a cospan $A\overset{f}{\to} C \overset{g}{\leftarrow} B$ of projective objects, let $P\to A\times_C B$ be a projective cover of the actual pullback; then any square
+In any category with finite limits and [[projective object|enough projectives]], the full [[subcategory]] of [[projective object]]s has weak finite limits.  For example, given a cospan $A\overset{f}{\to} C \overset{g}{\leftarrow} B$ of projective objects, let $P\to A\times_C B$ be a projective cover of the actual pullback; then any square
 \[\array{ X & \overset{x}{\to} & A\\
   ^y \downarrow && \downarrow ^f\\
   B & \overset{g}{\to} & C}\]
@@ -26,7 +30,7 @@ with $X$ projective induces a morphism $X\to A\times_C B$, which lifts to a morp
 
 Conversely, from any category with weak finite limits one can construct an [[exact category|exact completion]] in which the original category sits as the projective objects, and the exact categories constructible in this way are precisely those having enough projectives.
 
-# Weak limits and homotopy limits #
+## Weak limits and homotopy limits 
 
 Unlike usages of 'weak' in terms like [[weak n-category]], a weak limit is not be like a [[homotopy limit]] or a [[2-limit]], which satisfy uniqueness (as well as existence) albeit only up to higher [[homotopy|homotopies]] or [[weak equivalence|equivalences]].
 
