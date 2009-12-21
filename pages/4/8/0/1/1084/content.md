@@ -11,6 +11,8 @@
 
 The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a particular [[model category]] representative of the [[homotopy fiber|homotopy cofiber]] of $f$, also called the homotopy cokernel of $f$ or _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$. 
 
+The dual notion is that of [[mapping cocone]].
+
 
 #Definition#
 
