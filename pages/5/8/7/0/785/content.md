@@ -1,6 +1,13 @@
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
+
+
 
 
 ## Idea 
@@ -101,7 +108,7 @@ is a homotopy pullback square if the induced morphism from $W$ to the strict hom
 
 ## Fibration sequences 
 
-Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fibration sequence]]s and [[loop object]]s.
+Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fibration sequence]]s and [[loop space object]]s.
 
 
 
