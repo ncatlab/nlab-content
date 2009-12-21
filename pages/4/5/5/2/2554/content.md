@@ -31,6 +31,8 @@
 
   * [[path object]]
 
+  * [[mapping cocone]]
+
   * [[generalized universal bundle|universal bundle]]
 
 * [[interval object]]
