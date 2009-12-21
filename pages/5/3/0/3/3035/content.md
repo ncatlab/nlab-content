@@ -44,7 +44,7 @@
 
 * [[Atiyah Lie groupoid]]
 
-* [[schreiber:path ∞-groupoid|path ∞-groupoid]]
+* [[path ∞-groupoid]]
 
   * [[path groupoid]]
 
