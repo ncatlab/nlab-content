@@ -2,10 +2,13 @@
 [[!include homotopy - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea
 
-Universal bundles are intermediate steps in the computation of [[homotopy fibers]] as [[mapping cone|cones]] are intermedite steps in the computation of [[homotopy cofibers]].
+Universal bundles -- or [[mapping cocylinder]]s -- are intermediate steps in the computation of [[homotopy fibers]], dual to the that way [[mapping cone]] are intermedite steps in the computation of [[homotopy cofibers]].
 
 It is familiar from topology that one can form the path fibration $P X \to X$ of a [[topological space]]. This can be understood as an example of a general construction where one computes [[homotopy pullbacks]] of the [[point]] -- or, if things are not [[groupoid]]al, [[comma objects]].
 
@@ -27,7 +30,7 @@ See also
 
 * [[principal infinity-bundle]]
 
-#Definition#
+## Definition
 
 Let $C$ be a [[closed monoidal category]] with [[interval object]] $I$. Then for any [[pointed object]] $pt \stackrel{pt_B}{\to}B$ in $C$ the **generalized universal $B$-bundle** is (if it exists) the morphism
 
@@ -110,13 +113,13 @@ $$
 
 is exact in that $i$ is the kernel of $p$ in the sense of kernels of morphisms of [[pointed objects]] (see there).
 
-#Examples#
+## Examples
 
-## Groupoid incarnations of universal principal bundles ##
+### Groupoid incarnations of universal principal bundles
 
 In (higher) categorical contexts, take the interval object to the the interval category $I := \{a \to b\}$. Then
 
-### Ordinary $G$-principal bundles ###
+#### Ordinary $G$-principal bundles
 
 For $C =$ [[Cat]], $B := \mathbf{B}G$ a one-object groupoid corresponding to a group $G$ with the unique point, $\mathbf{E}_{pt} \mathbf{B}G = \mathbf{E}G = G//G$ is the [[action groupoid]] of $G$ acting on itself. The sequence of groupoids is
 $$
@@ -175,7 +178,7 @@ In fact that horizontal morphism is an acyclic fibration in the [[folk model str
 
 This is recalled in the following reference.
 
-### $G$-principal 2-bundles
+#### $G$-principal 2-bundles
 
 For $C = 2Cat$, strict 2-categories , $B := \mathbf{B}G$ a strict one-object 2-groupoid corresponding to a strict [[2-group]] $G$ with the unique point, $\mathbf{E}_{pt} \mathbf{B}G = \mathbf{E}G$ was described under the name $INN(G)$ in
 
@@ -201,7 +204,7 @@ The way this works is indicated briefly in the last section of Roberts-Schreiber
 * Urs Schreiber: [[2bundrecon.pdf:file]]
 
 
-## Universal $n$-category bundles: $n$-subobject classifiers ##
+### Universal $n$-category bundles: $n$-subobject classifiers 
 
 One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n Cat$ yields the [[subobject classifiers]] of higher [[topos|toposes]]:
 
@@ -225,7 +228,7 @@ The discussion there becomes more manifestly one of bundles if one regards all m
 
 There is a well-understood version of this for $n = (\infty,1)$, i.e. for [[(infinity,1)-category|(∞,1)-categories]]. This is described at [[universal fibration of (∞,1)-categories]].
 
-## Action groupoids as generalized bundles ##
+### Action groupoids as generalized bundles 
 
 A morphism $\rho : B \to F$ 
 to a  [[pointed object]] $F$ (needs not be a basepoint preserving morphism!) can be regarded as a _representation_ of $B$ on the point of $F$. The pullback of the universal $F$-bundle along this morphism 
