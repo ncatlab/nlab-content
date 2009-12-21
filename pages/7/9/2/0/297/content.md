@@ -172,6 +172,12 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
 
 * etc.
 
+## Further related entries
+
+* [[TQFT]]
+
+* [[0-dimensional TQFT]]
+
 
 [[!redirects FQFTs]]
 [[!redirects Functorial quantum field theory]]
