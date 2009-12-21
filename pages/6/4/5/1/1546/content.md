@@ -502,9 +502,9 @@ Using this, we find the [[pullback]] 2-groupoid $\Pi(Y) \times_{\mathbf{B}AUT(K)
       {}^{\mathllap{b_2}}\swArrow& \downarrow
       \\
       \downarrow 
-      & {}^{\mathllap{Ad(tra_{\nabla}(p_1))}}
+      & {}^{\mathclap{Ad(tra_{\nabla}(p_1))}}
        \nearrow &\Downarrow^{\mathrlap{tra_\nabla(\Sigma)}}
-      & \searrow^{\mathrlap{Ad(tra_\nabla(p_2))}}
+      & \searrow^{\mathclap{Ad(tra_\nabla(p_2))}}
       & \downarrow
       \\
       \bullet && \stackrel{}{\to}
@@ -551,6 +551,7 @@ Using this, we find the [[pullback]] 2-groupoid $\Pi(Y) \times_{\mathbf{B}AUT(K)
     }
     \,.
   $$
+
 
 **The identification with the groupoid $(P \times_G Aut(G)) // At(P)$**
 
