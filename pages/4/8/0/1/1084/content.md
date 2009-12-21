@@ -1,6 +1,10 @@
 <div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+***
 [[!include homotopy - contents]]
 </div>
+
+
 
 
 #Contents#
