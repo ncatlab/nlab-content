@@ -157,6 +157,8 @@ We discuss the Atiyah Lie groupoid along the lines of [[nonabelian groupoid coho
 Write $\mathbf{B}G$ for the [[delooping]] of $G$.
 Write $\Pi(X)$ for the [[path ∞-groupoid]] of $X$. For the present purpose of Atiyah 1-groupoids this may be taken to be simply the [[path n-groupoid|path 2-groupoid]].
 
+
+
 +-- {: .un_prop}
 ###### Claim
 
