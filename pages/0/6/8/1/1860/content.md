@@ -1,4 +1,12 @@
-#Idea#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The path [[∞-groupoid]] $\Pi(X)$ of a [[generalized smooth space]] $X$ is a smooth version of the [[fundamental ∞-groupoid]] of $X$. Its [[coskeleton|truncations]] to lower categorical degree yield
 
@@ -6,7 +14,7 @@ The path [[∞-groupoid]] $\Pi(X)$ of a [[generalized smooth space]] $X$ is a sm
 
 * [[path n-groupoids]].
 
-# Definition #
+## Definition 
 
 One way to define a path [[∞-groupoid]] in terms of [[Kan complexes]] is to let 
 
@@ -41,12 +49,12 @@ $$
 which can be thought of as having in degree $k$ _piecewise smooth_ $k$-dimensional paths.
 
 
-# Connections #
+## Connections 
 
 Functors out of the [[path groupoid]] and [[path n-groupoid]] represent [[connection on a bundle|connections]] and higher connectios. Discussion of this for the path $\infty$-groupoid is [[schreiber:Differential Nonabelian Cohomology|here]].
 
 
-# References #
+## References 
 
 A more detailed account is at 
 
