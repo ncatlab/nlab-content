@@ -1,4 +1,14 @@
-# Idea #
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-category]].  There are three notable changes when passing from ordinary 1-limits to 2-limits:
 
@@ -9,12 +19,12 @@ A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-categ
 1. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and [[bicategory|weakly]] true otherwise), Cat-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve 2-cells as well as 1-cells.
 
 
-# $2$-colimits
+## $2$-colimits
 
 Everything below applies dually to __$2$-colimits__, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
 
 
-# Strictness and terminology #
+## Strictness and terminology 
 
 In a [[strict 2-category]], one can also consider [[strict 2-limit|strict 2-limits]], which are precisely Cat-weighted limits in the sense of ordinary [[enriched category]] theory.  In a strict 2-category these "strict" limits are often technically useful in constructing the "up-to-isomorphism" 2-limits we consider here.  See [[strict 2-limit]] for details.
 
@@ -23,7 +33,7 @@ When we know we are working in a (weak) 2-category, the only type of limit that 
 Unfortunately, we probably shouldn't use "weak limit" to emphasize the "up-to-isomorphism" nature of these limits, because that also has the [[weak limit|completely unrelated meaning]] of an object in a 1-category satisfying the existence, but not the uniqueness property of an ordinary limit.
 
 
-# Examples #
+## Examples 
 
 Any ordinary type of limit can be "2-ified" by boosting its ordinary universal property up to a 2-categorical one.  In the following examples we work in a 2-category $K$.
 
@@ -48,7 +58,7 @@ There are also various important types of 2-limits that involve 2-cells in the d
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.  Of particular importance is the case when $C$ is the [[walking arrow]] $\mathbf{2}$.
 
 
-# Lax limits #
+## Lax limits 
 
 A **lax limit** is like a 2-limit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  The lax limit of one diagram can always be converted to an ordinary 2-limit by changing the weight.
 
@@ -61,12 +71,12 @@ A **lax limit** is like a 2-limit, except that the triangles in the definition o
 Note that lax pullbacks are _not_ the same as comma objects.  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
 
 
-# Finite Limits #
+## Finite Limits 
 
 A 2-limit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense.  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
 
 
-# References #
+## References 
 
 * Street, "Limits indexed by category-valued 2-functors"
 
