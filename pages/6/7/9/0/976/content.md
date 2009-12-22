@@ -26,12 +26,15 @@ This was developed further by Bourn and Cordier, and a strong shape version was 
 
 
 #References#
+
+See also $n$lab entries [[shape fibration]]...and references 
+
 * D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
 * J.T. Lisica and S. Marde&#353;i&#263;, Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
 * J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008). 
-* S. Marde&#353;i&#263; and J. Segal, (1982) Shape Theory, North 
+* S. Marde&#353;i&#263;, J. Segal, (1982) Shape Theory, North 
 Holland. 
-* S. Marde&#353;i&#263;, Strong Shape and Homology, Springer monographs in mathematics, Springer-Verlag. 
+* [[Sibe Mardesic|S. Mardešić]], Strong Shape and Homology, Springer monographs in mathematics, Springer-Verlag. 
 * D.  Bourn and J.-M. Cordier, [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
 * M. A. Batanin, [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 * (more)
