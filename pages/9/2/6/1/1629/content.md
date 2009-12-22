@@ -12,3 +12,7 @@ The term 'homeomorphism' is also applied to isomorphisms in categories that gene
 [[!redirects homœomorphisms]]
 [[!redirects homoeomorphism]]
 [[!redirects homoeomorphisms]]
+
+[[!redirects homeomorphic]]
+[[!redirects homœomorphic]]
+[[!redirects homoeomorphic]]
