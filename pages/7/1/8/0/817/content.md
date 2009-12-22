@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 In the context of $V$-[[enriched category theory]], for 
 $
@@ -7,7 +11,7 @@ $
 two $V$-[[enriched functor]]s between $V$-[[enriched category|enriched categories]], the collection of [[natural transformation]]s from $F$ to $G$ can also be given the structure of an object in $V$, so that the [[functor category]], denoted $[C,D]$ in the enriched context, is itself a $V$-enriched category.
 
 
-#Definition#
+## Definition
 
 For $C$ and $D$ $V$-enriched categories, there is a $V$-[[enriched category]] denoted $[C,D]$ whose
 
@@ -54,9 +58,9 @@ equalizes the two maps appearing in the [[equalizer]] definition of the [[end]].
 For $V = $[[Set]], so that $V$-enriched categories are just ordinary [[locally small category|locally small categories]], the $V$-enriched functor category coincides with the ordinary [[functor category]]. (See the examples below.)
 =--
 
-#Examples#
+## Examples
 
-## ordinary functor categories ##
+### Ordinary functor categories
 
 To understand the role of the [[end]] here, it is useful to spell this out for the case where $V =$ [[Set]], where we are dealing with ordinary [[locally small category|locally small]] categories.
 
@@ -110,7 +114,7 @@ $$
 commutes. Evidently, this means that the elements $\eta$ of the [[end]] $\int_{c \in C} D(F(c), G(c))$ are precisely the [[natural transformation]]s between $F$ and $G$.
 
 
-#References#
+## References
 
 See [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)
 of the standard
