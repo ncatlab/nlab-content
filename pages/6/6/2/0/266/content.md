@@ -141,7 +141,7 @@ i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$. Similarly, rig
 
 ### Local: in terms of universal natural transformations 
 
-The above global definition _implies_ the following property:
+The above global definition implies the following property by the usual logic of adjoints and universal arrows:
 
 [[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
 
@@ -152,13 +152,21 @@ $F \Rightarrow p^* G$ factors uniquely through $\eta_F$ as
 
 <center markdown="1">[[kan-1.png:pic]]</center>
 
+This simply says that $\eta_F : F \to p^* Lan F$ is universal from $F$ to $p^*$ in the category $[C, D]$.
+
 Similarly for the right Kan extension, with the direction of the natural transformations reversed:
 
 <center markdown="1">[[kan-2.png:pic]]</center>
 
-It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$. 
+In other words, $\epsilon_F : p^* Ran F \to F$ is universal from $p^*$ to $F$.
 
-This version of the definition clearly makes sense in any [[2-category]].
+By the usual reasoning (see e.g. [[Categories Work]], chapter IV, theorem 2), if these universal arrows exist for every $F$ then they can be organised into a left (right) adjoint $Lan_p$ ($Ran_p$) to $p^*$.
+
+It is clear that the definition in this form makes sense in every [[2-category]]. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.
+
+
++--{: .query}
+This was here:
 
 +-- {: .un_remark}
 ###### Warning
@@ -166,8 +174,9 @@ This version of the definition clearly makes sense in any [[2-category]].
 While this property is implied by the above global definition, it does not itself imply the global definition. For emphasis this definition here is sometimes called a **weak Kan extension** instead. See also the comment in the following section.
 =--
 
-+--{: .query}
 [[Mike Shulman]]: Wait, what?  It looks to me like this version of the definition is exactly equivalent to what is called the "global" definition above, though both are weaker than the ones below that use pointwise colimits.  Am I missing something?
+
+[[Finn Lawler]]:  Well, if the $\eta_F$ exist for all $F$ then of course they are equivalent.  I've put that in, and edited the 'warning' below.
 =--
 
 
@@ -240,10 +249,10 @@ Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[comma category|comma categories
 +-- {: .un_remark}
 ###### Warning
 
-Note, however, that _not_ all _weak Kan extensions_ (in the universal-transformation sense defined above) are computed in this way, and weak Kan extensions can exist even when $D$ does not admit very many limits.  For instance, the weak Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
+Note, however, that not all Kan extensions (in the universal-transformation sense defined above) are computed as weighted (co)limits, and they can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
 =--
 
-Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
+Kan extensions that _are_ computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
 
 
