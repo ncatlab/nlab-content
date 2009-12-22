@@ -1,9 +1,9 @@
 (this is a stub yet)
 
-A shape fibration is an adaptation of the notion of [[Hurewicz fibration]] from the setup of homotopy theory to the shape theory (of locally compact metrisable spaces). 
+A shape fibration is an adaptation of the notion of [[Hurewicz fibration]] from the setup of [[homotopy theory]] to [[shape theory]] (of [[locally compact space|locally compact]] [[metric space|metrisable spaces]]). 
 
 A map between metric [[compactum|compacta]] $p : E\to B$ is called a 
-**shape fibration**, provided it is induced by a level map $p : E\to B$ of ANR-sequenees satisfying the **approximate homotopy lifting property** with respect to any metric space $X$ and the lifting index, and lifting mesh do 
+**shape fibration**, provided it is induced by a level map $p : E\to B$ of ANR-sequences satisfying the **approximate homotopy lifting property** with respect to any metric space $X$ and the lifting index, and lifting mesh do 
 not depend on $X$. 
 
 If, more generally, $E$ and $B$ are locally compact metric spaces. A 
