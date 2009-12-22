@@ -32,4 +32,4 @@
 * [[homotopy pullback]]
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/infinity-limit+-+contents)</div>
+<div markdown="1">[Edit this sidebar](/nlab/edit/infinity-limits+-+contents)</div>
