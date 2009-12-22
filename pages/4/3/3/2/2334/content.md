@@ -6,7 +6,7 @@ This entry is about the inner workings of a web-based program that generates com
 
 In this section, I'll explain coproducts by showing you a program that implements the categorical coproduct of sets. We programmers live our working lives surrounded by data structures and subroutines, entities that become as concrete to us &#8212; as "thing-like", as "manipulable" &#8212; as teacups and bricks. So if I can implement some categorical calculations as programs, I hope it will give them a sense of reality that the maths alone might lack. This way of explaining category theory isn't new, actually: it's the idea behind the following book, which implements categorical constructions in the programming language ML:
 
-* [_Computational Category Theory_](http://www.cs.man.ac.uk/~david/categories/book/book.pdf), by [David Rydeheard](http://www.cs.man.ac.uk/~david/) and [Rod Burstall](http://www.dcs.ed.ac.uk/home/rb/).
+* [_Computational Category Theory_]( http://www.cs.manchester.ac.uk/~david/categories/book/book.pdf), by [David Rydeheard](http://www.cs.manchester.ac.uk/~david/) and [Rod Burstall](http://www.dcs.ed.ac.uk/home/rb/).
 
 ## Preliminaries: functional programming in Python 3.0 ##
 
