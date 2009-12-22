@@ -10,4 +10,7 @@ Most of Sibe Marde&#353;i&#263;'s important works are related to [[shape theory]
 
 * HAZU page [Akademik Sibe Marde&#353;i&#263;](http://www.hazu.hr/Akademici/SMardesic.html), in Croatian.
 
+
+category: people
+
 [[!redirects Sibe Mardešić]]
