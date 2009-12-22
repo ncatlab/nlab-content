@@ -4,11 +4,12 @@
 [[!include differential graded objects - contents]]
 </div>
 
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 As with many other parts of [[homotopy theory]] one can view _rational homotopy theory_ in two ways:
 
@@ -30,70 +31,130 @@ In these ways, rational homotopy theory connects and unifies two large areas of 
 
 Moreover, via the [[homotopy hypothesis]] the study of [[topological space]]s is connected to that of [[infinity-groupoid]]s, so that rational homotopy theory induces a bridge between [[infinity-groupoid]]s and [[differential graded algebra]]. It was observed essentially by Ezra Getzler that this bridge is nothing but higher [[Lie theory]] of [[L-infinity-algebra]]s.
 
-#Details#
+## Details
 
-...
+### Rational homotopy type
 
-
-#Related entries#
-
-
-The following entries provide definitions of basic concepts in differential graded algebra:
-
-* [[differential graded vector space]]
-
-* [[differential graded algebra]]
-
-  * [[differential graded coalgebra]]
-
-  * [[differential graded Lie algebra]]
-
-  * [[differential graded Hopf algebra]]
-
-  * [[differential graded algebras and differential graded Lie alg|differential graded algebras and differential graded Lie algebras - relationship]]
-
-* [[twisting cochain]]
-
-* [[twisted tensor product]]
-
-* [[bar and cobar construction]]
-
-* [[differential forms on simplices]]
-
-The following entries discuss many of these differential algebraic structures from the [[Lie theory|Lie theoretic]] perspective, which, recall, is one perspective on what rational homotopy theory is all about:
-
-* [[Lie theory]]
-
-  * [[Lie's three theorems]]
-
-  * [[Lie integration]]
-
-  * [[Lie theory for stacky Lie groupoids]]
-
-* [[Lie infinity-algebroid]]
-
-  * [[NQ-supermanifold]]
-
-  * [[L-infinity-algebra]]
-
-  * [[Lie algebroid]]
-
-  * [[n-Lie algebra]]
-
-  * [[Lie infinity-algebroid representation]]
-
-  * [[Courant algebroid]]
-
-    * [[Lie bialgebroid]]
+> ... weak equivalences those morphisms in [[Top]] that induce isomorphisms on rationalized [[homotopy group]]s ... 
 
 
-#References#
+### Differential forms on topological spaces {#FormsOnTopSpaces}
+
+A central tool in the study of rational topological spaces is an assignment that sends each [[topological space]]/[[simplicial set]] $X$ to a [[dg-algebra]] $\Omega^\bullet_{poly}(X)$ that behaves like the [[deRham complex|deRham dg-algebra]] of a smooth [[manifold]]. Instead of consisting of smooth [[differential form]]s, $\Omega^\bullet_{poly}(X)$ consists of _piecewise linear polynomial differential forms_ , in a way described in detail now.
+
+The construction of $\Omega^\bullet_{poly}$ is a special case of the following general construction:
+
+#### Differential forms on presheaves {#FormsOnPresheaves}
+
+Let $C$ be any [[small category]], write $PSh(C) = [C^{op}, Set]$ for its category of [[presheaf|presheaves]] and let
+
+$$
+  \Omega^\bullet_C : C^{op} \to dgAlg
+$$
+
+be _any_ functor to the category of [[dg-algebra]]s. Following the logic of [[space and quantity]], we may think of the objects of $C$ as being _test spaces_ and the functor $\Omega^\bullet_C$ as assigning to each test space its [[deRham complex|deRham dg-algebra]].
+
+An example of this construction that is natural from the point of view of [[differential geometry]] appears in the study of [[diffeological space]]s, where $C$ is some subcategory of the category [[Diff]] of smooth [[manifold]]s, and $\Omega^\bullet_C$ is the restriction of the ordinary assignment of [[differential form]]s to this. But in the application to topological spaces, in the following, we need a choice for $C$ and $\Omega^\bullet_C$ that is non-standard from the point of view of [[differential geometry]]. Still, it follows the same general pattern.
+
+After postcomposing with the [[forgetful functor]] that sends each [[dg-algebra]] to its underlying [[set]], the functor $\Omega^\bullet_C$ becomes itself a [[presheaf]] on $C$. For $X \in PSh(C)$ any other presheaf, we extend the notation and write 
+
+$$
+  \Omega^\bullet_C(X) := Hom_{PSh(C)}(X, \Omega^\bullet_C)
+$$
+
+for the [[hom-set]] of presheaves. One checks that this set naturally inherits the structure of a [[dg-algebra]] itself, where all operations are given by applying "pointwise" for each $p : U \to X$ with $U \in C$ the operations in $\Omega^\bullet_C(U)$. This way we get a functor
+
+$$
+  \Omega^\bullet_C : PSh(C) \to dgAlg^{op}
+$$
+
+to the [[opposite category]] of that of [[dg-algebra]]s. We may think of $\Omega^\bullet_C(X)$ as the deRham complex of the presheaf $X$ as seen by the functor $\Omega^\bullet_C : C \to dgAlg^{op}$.
+
+By [[category theory|general abstract nonsense]] this functor has a [[right adjoint]] $K_C : dgAlg^{op} \to PSh(C)$, that sends a dg-algebra $A$ to the [[presheaf]]
+
+$$
+  K_C(A) : U \mapsto Hom_{dgAlg}(\Omega^\bullet_C(U), A)
+  \,.
+$$
+
+The [[adjunction]]
+
+$$
+  \Omega^\bullet_C : PSh(C) \stackrel{\leftarrow}{\to} : dgAlg^{op} : K_C
+$$
+
+is an example for the adjunctionn induced from a [[dualizing object]].
+
+
+
+#### Piecewise linear differential forms
+
+For the purpose of rational homotopy theory, consider the following special case of the [above general discussion](#FormsOnPresheaves) of differential forms on presheaves.
+
+Recall that by the [[homotopy hypothesis]] theorem, [[Top]] is equivalent to [[SSet]]. In the sense of [[space and quantity]], a [[simplicial set]] is a "generalized space modeled on the [[simplex category]]": a [[presheaf]] on $\Delta$.
+
+Therefore set in the above $C := \Delta$. 
+
+Now, a simplicial set has no smooth structure in terms of which one could define differential forms globally, but of course each abstract  $k$-[[simplex]] $\Delta[k]$ may be regarded as the standard $k$-simplex $\Delta^k_{Diff}$ in [[Diff]], and as such it supports smooth differential forms $\Omega^\bullet_{deRham}(\Delta^k_{Diff})$.
+
+The functor $\Omega^\bullet_{deRham}( \Delta_{Diff}^{(-)} ) : \Delta^{op} \to dgAlg$ obtained this way is _almost_ the one that -- after fed into the above procedure -- is used in rational homotopy theory.
+
+The only difference is that for the purposes needed here, it is useful to cut down the smooth differential forms to something smaller. Let $\Omega^\bullet_{poly}(\Delta^k_{Diff})$ be the [[dg-algebra]] of **polynomial differential forms** on the standard $k$-simplex. Notice that this recovers all differential forms after tensoring with smooth functions:
+
+$$
+  \Omega^\bullet(\Delta^k_{Diff}) =
+  C^\infty(\Delta^k_{Diff}) \otimes_{\Omega^0_{poly}(\Delta^k_{Diff})} \Omega^\bullet_{poly}(\Delta^k_{Diff})
+  \,.
+$$
+
+For more details see
+
+* [[differential forms on simplices]].
+
+So we have a functor $\Omega^\bullet_{polynomial} : \Delta \to dgAlg^{op}$. Feeding that into the [above general machinery](#FormsOnPresheaves) produces a pair of [[adjoint functor]]s
+
+$$
+  \Omega^\bullet_{poly} : SSet \stackrel{\leftarrow}{\to} dgAlg^{op} : 
+  K_{poly}
+  \,.
+$$
+
+
++-- {: .un_theorem}
+###### Theorem
+
+This is a [[Quillen adjunction]] with respect to the standard [[model structure on simplicial sets]] on the left, and the standard [[model structure on dg-algebras]] on the right.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The original proof in the literature is apparently the one in section 8 of
+
+* Bousfield, Gugenheim, _On PL deRham theory and rational homotopy type_ , emoirs of the AMS, vol. 179 (1976)
+
+A review is on [page 9](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604/0604626v2.pdf#page=9)
+
+of
+
+* [[Kathryn Hess]], _Rartional homotopy theory: A brief introduction_ ([pdf](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604/0604626v2.pdf))
+
+=--
+
+
+### Sullivan models
+
+> for the moment, see the section on [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
+
+
+## References
 
 
 
 A useful introduction to rational homotopy theory is
 
-* Kathryn Hess, _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
 A standard textbook is
 
@@ -103,16 +164,13 @@ A standard textbook is
 
 Early original articles include:
 
-* D. Quillen, _Rational homotopy theory_, Ann. of Math., (2) 90 (1969), 205-295.  ([pdf](http://www.jstor.org/stable/1970725))
+* [[Daniel Quillen]], _Rational homotopy theory_, Ann. of Math., (2) 90 (1969), 205-295.  ([pdf](http://www.jstor.org/stable/1970725))
 
-* D. Sullivan, _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
+* [[Dennis Sullivan]], _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
 
 The relation to Lie theory was made fully explicit in:
 
-* E. Getzler, _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv](http://arxiv.org/abs/math.AT/0404003))
+* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv](http://arxiv.org/abs/math.AT/0404003))
 
 
-Related blog discussion includes
-
-* _On Lie $N$-tegration and Rational Homotopy Theory_ ([blog](http://golem.ph.utexas.edu/category/2007/10/on_lie_ntegration.html))
