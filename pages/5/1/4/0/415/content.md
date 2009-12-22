@@ -1,4 +1,9 @@
-# Definition #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition 
 
 Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].  In a $V$-[[enriched category]] $C$, the **copower** of an object $x\in C$ by an object $k\in V$ is an object $k\odot x \in C$ with a [[natural isomorphism]]
 
@@ -8,7 +13,7 @@ $$
 
 where $C(-,-)$ is the $V$-valued hom of $C$ and $V(-,-)$ is the internal-hom of $V$.
 
-# Remarks #
+## Remarks 
 
 * In the $V$-category $V$, the copower is just the tensor product of $V$.
 
