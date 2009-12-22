@@ -27,7 +27,7 @@ This was developed further by Bourn and Cordier, and a strong shape version was 
 
 #References#
 
-See also $n$lab entries [[shape fibration]]...and references 
+See also $n$lab entries [[shape fibration]], [[approximate fibration]]...and references 
 
 * D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
 * J.T. Lisica and S. Marde&#353;i&#263;, Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
