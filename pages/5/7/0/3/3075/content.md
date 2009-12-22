@@ -13,7 +13,7 @@
 
 ## Idea
 
-The _mapping cocone_ of a morphism $f : A \to C$, with $C$ a [[pointed object]], is a particular [[model category]] realization of the [[homotopy fiber]] of $f$, i.e. of the [[homotopy pullback]]
+The _mapping cocone_, also called the _mapping path space_, of a morphism $f : A \to C$, with $C$ a [[pointed object]], is a particular [[model category]] realization of the [[homotopy fiber]] of $f$, i.e. of the [[homotopy pullback]]
 
 $$
   \array{
