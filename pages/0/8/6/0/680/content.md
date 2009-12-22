@@ -65,6 +65,12 @@ These functors respect the standard weak equivalences with respect to the standa
 
 =--
 
+**Note:** Given a simplicial object $G$ in an abelian category, the normalized Moore complex $N_\bullet(G)$ defined above is naturally isomorphic to another chain complex $C_\bullet(G)/D_\bullet(G)$ formed as follows.  First define the **alternating face map complex**, denoted $C_\bullet(G)$, by setting $C_n(G) = G_n$ and letting the differential $\partial$ be given by
+  $$
+    \partial = \sum_{i = 0}^n (-1)^i d_i
+  $$
+Then define $C_\bullet(G) / D_\bullet(G)$ to be the quotient of $C_\bullet(G)$ by the subcomplex $D_\bullet(G)$ where $D_n(G)$ consists of simplices in the image of a degeneracy map.  $C_\bullet(G) / D_\bullet(G)$ is sometimes called the **normalized chain complex** of the simplicial object $G$, and it is probably more familiar to many people.  One advantage of the normalized Moore complex is that it also plays an important role in the _nonabelian_ context.  For more details, see the entry [[Moore complex]].
+
 +-- {: .num_theorem }
 ###### Theorem (Kan)
 
@@ -84,13 +90,13 @@ $$
 =--
 
 Before proving this, 
-first briefly recall the definition of the (normalized) [[Moore complex]]:
+first briefly recall an alternate, but naturally isomorphic, construction of the normalized [[Moore complex]] of a simplicial abelian group.
 
 +-- {: .un_defn}
 ###### Definition
 
 For $A = (A_n)$ 
-a simplicial abelian group, its **[[Moore complex]]** is
+a simplicial abelian group, its **alternating face complex** is
 
 $$
   C_\bullet(A) = 
@@ -104,7 +110,7 @@ $$
 
 where the $d_i$ are the [[simplicial set|face maps]] of $A$.
 
-The **degenerate Moore complex** $D_\bullet(A)$
+The **degenerate complex** $D_\bullet(A)$
 of $A$ is the full subcomplex generated from [[simplicial set|degenerate elements]] 
 
 $$
@@ -189,13 +195,13 @@ which is again a combination of elements in the image of the degeneracy maps.
 +-- {: .num_lemma }
 ###### Lemma
 
-The [[Moore complex]] splits as
+There is a splitting
 
 $$
   C_\bullet(A) \simeq N_\bullet(A) \oplus D_\bullet(A)
 $$
 
-where the first summand is the [[Moore complex|normalized Moore complex]].
+where the first summand is naturally isomorphic to the [[Moore complex|normalized Moore complex]].
 
 =--
 
@@ -209,8 +215,7 @@ $$
   N_\bullet(A) \hookrightarrow C_\bullet(A)
 $$
 
-is a [[model structure on chain complexes|homotopy equivalence]], i.e.
-the complex $D_\bullet(X)$ is null-homotopic.
+is a [[model structure on chain complexes|homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is null-homotopic.
 
 =--
 
