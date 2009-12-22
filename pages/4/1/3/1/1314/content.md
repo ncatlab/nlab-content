@@ -2,20 +2,18 @@
 [[!include differential graded objects - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ##Idea 
 
-This is the first of a series developing the theory of:
 
-###Differential forms on polyhedra and simplicial sets _&#224; l&#224;_ Sullivan-Thom-Whitney, 
+Following ideas of Thom and Whitney, [[Dennis Sullivan]] -- in his work on [[rational homotopy theory]] -- defined an algebra of [[differential form]]s on a [[polyhedron]]. 
 
-(which has been adapted from Halperin, (see references))
+## Definition: differential forms on $\mathbf{\Delta}^n$
 
-Following ideas of Thom and Whitney, Denis Sullivan defined an algebra of differential forms on a polyhedron. The following is the first of three linked entries dealing with that the initial part of his theory.
-
-
-##Differential forms on $\mathbf{\Delta}^n$##
-
-Recall that $\mathbf{\Delta}^n \subset \mathbb{R}^{n+1}$ is specified by 
+Recall that the standard [[topological space|topological]] $n$-[[simplex]]  $\mathbf{\Delta}^n \subset \mathbb{R}^{n+1}$ is specified by 
 
 $$\mathbf{\Delta}^n = \left\{\sum^n_0 t_i\mathbf{v}_i \Big| 0\leq t_i\leq 1; \sum^n_0 t_1 =1\right\},$$
 
@@ -88,3 +86,14 @@ This in turn used ideas from
 
 * Dennis Sullivan, 
 _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1977__47__269_0))
+
+## Discussion
+
+Originally [[Tim Porter]] started this entry with the following words:
+
+This is the first of a series developing the theory of:
+** Differential forms on polyhedra and simplicial sets _&#224; l&#224;_ 
+Sullivan-Thom-Whitney** (which has been adapted from Halperin, 
+(see references)). The following is the first of three 
+linked entries dealing with that the initial part of his theory.
+
