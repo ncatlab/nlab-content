@@ -1,4 +1,9 @@
-# Definition #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition 
 
 Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].  In a $V$-[[enriched category]] $C$, the **power** of an object $y\in C$ by an object $k\in V$ is an object $\pitchfork(k,y) \in C$ with a [[natural isomorphism]]
 
@@ -8,7 +13,7 @@ $$
 
 where $C(-,-)$ is the $V$-valued hom of $C$ and $V(-,-)$ is the internal-hom of $V$.
 
-# Remarks #
+## Remarks 
 
 * In the $V$-category $V$, the power is just the internal-hom of $V$.
 
