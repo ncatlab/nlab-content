@@ -126,7 +126,7 @@ As discussed at [[adjoint functor]], it is possible that these adjoints do not e
 $$
 Hom_{[C,D]}(F,p^*(-))\cong Hom_{[C',D]}(Lan_p\,F,-),
 $$
-i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.  As for adjoints and limits, this yields a 'local' definition of weak extensions by the usual logic of representable functors:
+i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.  As for adjoints and limits, this yields a 'local' definition of Kan extensions by the usual logic of representable functors:
 
 [[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
 
