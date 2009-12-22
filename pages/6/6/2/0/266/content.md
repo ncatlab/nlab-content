@@ -68,31 +68,20 @@ $$
 $$
 
 
-
-## Local vs global ##
-
-As for the definition of [[limit]] (and [[homotopy limit]]) and induced from the _local_ definition of [[adjoint functor]]s, there is a _local_ definition of what Kan extension means, which applies to every single functor, and there is a _global_ definition, which applies to the category of all functors. If the local Kan extension of every single functor exists for some category, then both definitions coincide. 
-
-In particular, the _global_ definition of Kan extension is a direct generalization of the _global_ definition of [[limit]].
-
-
-
 ##Definitions
 
-We give the following three definitions, which are equivalent in good situations
+There are two definitions of Kan extensions, which are equivalent in good situations, when both forms exist (but see [below](#pointwiseVsWeak) for when they don't):
 
-* local definitions
+* ('weak') Kan extensions, defined as adjoints to or universal transformations to/from pullback of functor categories, and
 
-  * Kan extension in terms of a universal natural transformation;
+* ('pointwise') Kan extensions, defined in terms of weighted (co)limits.
 
-  * Kan extension in terms of weighted (co)limits.
+Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
-* global definition
-
-  * Kan extension as the adjoint to pullback of functor categories;
+To disambiguate, this entry uses both terms 'weak' and 'pointwise'.
 
 
-### Global: adjoint to pullback of functor categories ##
+### Weak Kan extensions ##
 
 The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
 $$
@@ -119,6 +108,8 @@ _Eric_: It looks like Zoran changed it from $p^*$ to $p_*$ on March 26, 2009 in 
 _[[Eric]]_: I see that Goldblatt uses $F_\bullet$, which might help explain the change.
 =--
 
+As for the definition of [[limit]] (and [[homotopy limit]]) and induced from the _local_ definition of [[adjoint functor]]s, there is a _local_ definition of what Kan extension means, which applies to every single functor, and there is a _global_ definition, which applies to the category of all functors. If the local Kan extension of every single functor exists for some category, then both definitions coincide.  In particular, the _global_ definition of Kan extension is a direct generalization of the _global_ definition of [[limit]].
+
 The [[adjoint functor|left adjoint]] to $p^*$ is **left Kan extension** along $p$ of functors
 $$
   Lan = Lan_p : [C,D] \to [C',D]
@@ -136,12 +127,7 @@ As discussed at [[adjoint functor]], it is possible that these adjoints do not e
 $$
 Hom_{[C,D]}(F,p^*(-))\cong Hom_{[C',D]}(Lan_p\,F,-),
 $$
-i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
-
-
-### Local: in terms of universal natural transformations 
-
-The above global definition implies the following property by the usual logic of adjoints and universal arrows:
+i.e. a (co)representation of the functor $Hom_{[C,D]}(F,p^*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.  As for adjoints and limits, this yields a 'local' definition of weak extensions by the usual logic of representable functors:
 
 [[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$. 
 
@@ -152,15 +138,11 @@ $F \Rightarrow p^* G$ factors uniquely through $\eta_F$ as
 
 <center markdown="1">[[kan-1.png:pic]]</center>
 
-This simply says that $\eta_F : F \to p^* Lan F$ is universal from $F$ to $p^*$ in the category $[C, D]$.
-
 Similarly for the right Kan extension, with the direction of the natural transformations reversed:
 
 <center markdown="1">[[kan-2.png:pic]]</center>
 
-In other words, $\epsilon_F : p^* Ran F \to F$ is universal from $p^*$ to $F$.
-
-By the usual reasoning (see e.g. [[Categories Work]], chapter IV, theorem 2), if these universal arrows exist for every $F$ then they can be organised into a left (right) adjoint $Lan_p$ ($Ran_p$) to $p^*$.
+By the usual reasoning (see e.g. [[Categories Work]], chapter IV, theorem 2), if these representations exist for every $F$ then they can be organised into a left (right) adjoint $Lan_p$ ($Ran_p$) to $p^*$.
 
 It is clear that the definition in this form makes sense in every [[2-category]]. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.
 
@@ -180,7 +162,7 @@ While this property is implied by the above global definition, it does not itsel
 =--
 
 
-### Local: pointwise in terms of weighted (co)limits {#byColimits}
+### Pointwise Kan extensions {#byColimits}
 
 We give now a list of ways to express the Kan extension of a functor in terms of [[weighted limit|weighted]] [[limit|(co)limit]]s. These definitions apply in particular in the case that of $V$-[[enriched category theory]] for $V$ a [[closed monoidal category|closed]] [[symmetric monoidal category]].
 
@@ -197,7 +179,7 @@ $$
   \,.
 $$
 
-### Local: pointwise in terms of (co)ends {#byCoends}
+#### in terms of (co)ends {#byCoends}
 
 If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
 
@@ -221,10 +203,7 @@ $$
   \,.
 $$
 
-### Local: in terms of (co)limits over comma-categories 
-
-
-In the special case that $V = Set$, and only then, there is an expression of the Kan extension as a (co)limit over a [[comma category]].
+In the special case that $V = Set$, and only then, there is an expression of a weighted (co)limit and hence a Kan extension as a (co)limit over a [[comma category]].
 
 The right Kan extension of a functor of ordinary categories is given by the [[limit]]
 
@@ -247,13 +226,11 @@ Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[comma category|comma categories
 
 
 +-- {: .un_remark}
-###### Warning
+###### Warning   {#pointwiseVsWeak}
 
-Note, however, that not all Kan extensions (in the universal-transformation sense defined above) are computed as weighted (co)limits, and they can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
+Note, however, that not all _weak_ Kan extensions (in the universal-transformation sense defined above) are _pointwise_ Kan extensions, i.e. computed as weighted (co)limits, and they can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
+
 =--
-
-Kan extensions that _are_ computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
-
 
 
 
