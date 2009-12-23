@@ -2,16 +2,21 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+
+## Idea
 
 For $G$ a [[group]], a $G$-principal [[bundle]] over a space $X$ is another space $P$ sitting over $X$ by a map $P \to X$ such together with an [[action]] of $G$ on the space $P$, such that each fiber $P_x$ of $P$ over any $x \in X$ is a $G$-[[torsor]], so it looks like $G$ once we identify one of the elements of $P_x$ with the identity element in $G$. 
 
-#Definition#
+## Definition
 
 Let $G$ be a ([[group object|topological, smooth, ?]]) [[group]] and $X$ a ([[topological space|topological]], [[manifold|smooth]], ...) space.
 
-## ordinary definition ##
+
+### Ordinary definition
 
 The **trivial $G$-principal bundle** on $X$ is the space $G \times X$ with the projection map $X \times G \to X$ and the action of $G$ on $X \times G$ by (say, right) multiplication of $G$ on itself.
 
@@ -28,7 +33,8 @@ $$
   }
 $$
 
-## the stack of principal bundles ##
+
+#### The stack of principal bundles
 
 The [[groupoid]] of $G$-principal bundles on $X$ is denoted 
 
@@ -47,7 +53,7 @@ $$
 The local construction of $G$-principal bundles above ensures precisely that this satisfies [[descent]] and is hence a [[stack]].
 
 
-## in terms of fiber sequences ##
+### In terms of fiber sequences 
 
 This indicates the more fundamental way to _define_ $G$-principal bundles in the first place:
  
@@ -58,7 +64,7 @@ $$
   \,.
 $$
 
-This perspective in turn is by general abstract nonsense equivalent to the following useful description:
+This perspective in turn is by [[category theory|general abstract nonsense]] equivalent to the following useful description:
 
 Let $H$ be the suitable [[(∞,1)-topos]] internal to which one looks at $G$-principal bundles. For instance for topological bundles this would be [[Top]]. For smooth bundles it would be the [[(∞,1)-category of (∞,1)-sheaves]] on [[Diff]], etc. 
 
@@ -95,7 +101,7 @@ $$
 
 So every $G$-principal bundle $P \to X$ is the pullback along a classifying map $X \to \mathbf{B}G$ (in the right $(\infty,1)$-categorical context, otherwise a span such as an [[anafunctor]]) of the universal $G$-principal bundle.
 
-## the $G$-action from the homotopy pullback ##
+#### The $G$-action from the homotopy pullback
 
 
 Given the definition of the bundle $P$ in terms of a [[homotopy pullback]] of ${*} \to \mathbf{B}G$ we re-obtain the $G$-[[action]] on $P$ as follows 
@@ -256,7 +262,9 @@ is an [[isomorphism]].
 
 We now unwrap the first statement in gory detail to make clear that this abstract nonsense does reproduce the familiar definition of the action of $G$ on $P$.
 
-### unwinding this abstract nonsense ###
+
+
+#### Unwinding this abstract nonsense
 
 We now rederive the [[action]] $\rho$ of $G$ on $P$ given just the classifying map $X \to \mathbf{B} G$ by spelling out the details implied by the above nonsense.
 
@@ -495,6 +503,32 @@ $$
 $$
 
 But this is manifestly the right (being both: from the right and correct :-) [[action]] $\rho : P \times G \to G$ of $G$ on $P$.
+
+
+## Examples
+
+A standard example of a nontrivial principal bundle is the [[Hopf fibration]] $S^3 \to S^2$, which has the structure of an $S^1$-principal bundle in [[topological space]]s.
+
+Generally, if we accept that we have a large supply of conttinuous maps between [[topological space]]s, we obtain a $G$-principal bundle $f^* \mathcal{E}G \to X$ on a space $X$ for each continuous map $f : X \to \mathcal{B}G$ to the [[classifying space]] of $G$, by [[pullback]] of the [[generalized universal bundle|universal bundle]] $\mathcal{E}G \to \mathcal{B}G$ along $f$.
+
+
+## Higher generalizations
+
+In [[higher category theory]] the notion of principal bundle has various [[vertical categorification]]s. See
+
+* [[principal 2-bundle]]
+
+* [[gerbe]]
+
+* [[principal ∞-bundle]]
+
+
+## Gauge theory
+
+In [[physics]], principal bundles [[connection on a bundle|with connection]] and their higher categorical analogs model [[gauge field]]s. 
+
+In fact, the history of the development of the theory of principal bunles and gauge theory is closely related. In the early 1930s Dirac and Hopf independently introduced $U(1)$-principal bundles: Dirac, somewhat implicitly, in his study of the [[electromagnetic field]] as a background for [[quantum mechanics]], Hopf in terms of the fibration named after him. However, from there it took apparently many years for the first publication to appear that explicitly states that these two considerations are aspects of the same phenomenon.
+
 
 
 [[!redirects principal bundles]]
