@@ -107,7 +107,7 @@ For the case of a relation from $X$ to $Y$ without $X = Y$, see under the cograp
 The __graph__ of a [[relation]] of arbitrary arity is similarly a subset of an arbitrary [[cartesian product]]; see [[relation theory]] for more on this.
 
 
-## Cograph of a function ##
+## Cograph of a function ##  {#cograph}
 
 [[Bill Lawvere]] has also considered the __cograph__ of a function, which is dually a [[quotient set]] of the [[disjoint union]] $X \uplus Y$; $a$ is identified with $b$ if $f(a) = b$ (and additional identifications may follow).  However it may make more sense to define the cograph to be a quotient [[poset]] of (the discrete poset) $X \uplus Y$; we declare $a \lt b$ if $f(a) = b$ (and *no* additional relationships follow).  By regarding again a set as a [[0-category]], the latter notion of cograph is a special case of the notion of [[cograph of a functor]], as follows:
 
