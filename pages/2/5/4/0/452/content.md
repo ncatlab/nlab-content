@@ -1,22 +1,27 @@
 #Content#
-
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 A _crossed module_  (of groups) is:
+
+* from the [[nPOV]]: a convenient way to encode a [[strict 2-group]] $G$ in terms of a morphism of two ordinary [[group]]s $\partial : G_2 \to G_1$.
+
+From other points of view it is:
+
 *  like the inclusion of a [[normal subgroup]], but isn\'t an inclusion in general;
 *  like a [[module]] with a twisted 'multiplication';
 *  like the action of automorphisms on a group;
 *  a [[crossed complex]] concentrated in degrees $1$ and $2$;
 *  a nonabelian [[chain complex|chain-complex]];
-*  an incarnation of a strict [[2-group]];
-*  [[Moore complex]]es of certain [[simplicial group]]s.
+*  a [[Moore complex]] of certain [[simplicial group]]s.
 
 Historically they were the first example of [[higher dimensional algebra]] to be studied.
 
-#Definition#
+## Definition
+
+### Diagrammatic definition
 
 A **crossed module** is
 
@@ -57,10 +62,9 @@ $$
 $$
 commute.
 
-##Notation#
 We may use the notation $(G_2,G_1,\delta)$, for this if the action is fairly obvious, including an explicit [[action]], $(G_2,G_1,\delta,\alpha)$, if there is a risk of confusion.
  
-##Definition in terms of equations#
+### Definition in terms of equations
 
 The two [[diagram]]s can be translated into equations, which may often be helpful.
 
@@ -73,7 +77,19 @@ $${}^{\delta(g_2)}g^\prime_2 = g_2g^\prime_2g_2^{-1}.$$
 
 This equation is known as the **Peiffer rule** in the literature.
 
-#Examples#
+### Morphisms {#Morphisms} 
+
+For $G$ and $H$ two [[strict 2-group]]s coming from crossed modules $[G]$ and $H$, a morphism of strict 2-groups $f : G \to H$, and hence a morphism of crossed modules $[f] : [G] \to H$ is a [[2-functor]]
+
+$$
+  \mathbf{B}f : \mathbf{B}G \to \mathbf{B}H
+$$
+
+between the corresponding [[delooping]] [[2-groupoid]]s. Expressing this in terms of a diagram of the ordinary groups appearing in $[G]$ and $[H]$ yields a diagram called a [[butterfly]]. See there for more details.
+
+
+
+## Examples
 
 * For $H$ any group, its [[automorphism]] crossed module is $AUT(H) := (G_2 = H, G_1 = Aut(H), \delta = Ad, \alpha = Id)$; under the equivalence of crossed modules with strict [[2-group]]s this corresponds to the 2-group $Aut_{Grpd}(\mathbf{B}H)$ of [[automorphism]]s in the category [[Grpd]] of [[groupoid]]s on the one-object [[groupoid]] $\mathbf{B}H$ corresponding to the group $H$.
 
@@ -105,7 +121,7 @@ their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a
 crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
 
 
-# Related concepts #
+## Related concepts 
 
 For crossed complexes of [[Lie group]]s there is the corresponding infinitesimal version: 
 
