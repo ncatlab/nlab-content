@@ -47,7 +47,7 @@ The various notions of **group cohomology** are special cases of this:
 
   Details on this case are at [[nonabelian group cohomology]]
 
-* **Group cohomology with coefficients in a nontrivial module** is in turn the following special case and variation of nonabelian group cohomology:
+* **Group cohomology with coefficients in a nontrivial module** is in turn [[twisted cohomology]] version of [[nonabelian group cohomology]]:
 
   * let $A := \mathbf{B}^n_\rho K$ be a [[strict ∞-groupoid]] coming from a [[crossed complex]] of the form 
 
@@ -58,36 +58,27 @@ The various notions of **group cohomology** are special cases of this:
     with the abelian group $K$ in degree $n$ and for 
 
     $$
-      \rho : \mathbf{B}G \to \mathbf{B}Aut(K)
+      \rho : G \to Aut(K)
     $$ 
 
     the [[action]] of $G$ on $K$ required by the structure of a [[crossed complex]];
 
-  then consider the $\infty$-groupoid $\mathbf{H}^{\rho}(\mathbf{B}G, \mathbf{B}^n_G )$ induced by the [[fibration sequence|homotopy fiber]] of the canonical projection morphism $\mathbf{B}^n_\rho K \to \mathbf{B} G$
+  The $n$th group cohomology of $G$ with coefficients in the module $(K, \rho)$ is the connected components of the $\infty$-groupoid of [[section]]s $\sigma$
 
   $$
     \array{
-      \mathbf{H}^\rho(\mathbf{B}G, \matbf{B}^n K) &\to& {*}
+      && \mathbf{B}^n_\rho K 
       \\
-      \downarrow && 
-      \downarrow^{\mathrlap{const_{Id_{\mathbf{B}G}}}}
+      & {}^{\sigma}\nearrow & \downarrow
       \\
-      \mathbf{H}(\mathbf{B}G, \mathbf{B}^n K)
+      \mathbf{B}G
       &\to&
-      \mathbf{H}(\mathbf{B}G, \mathbf{B}G)
+      \mathbf{B}G
     }
     \,.
   $$
 
-  The $n$th group cohomology of $G$ with coefficients in the module $(K, \rho)$ is the cohomology classes of that $\infty$-groupoid:
-
-  $$
-    H_{Grp}^n(G,(K,\rho)) =
-    \pi_o \mathbf{H}^\rho(\mathbf{B}G, \mathbf{B}^n K)
-    \,.
-  $$
-
-  This is an example of [[twisted cohomology]]: group cohomoloyg with coefficients in a nontrivial module is group cohomology _twisted by_ the [[action]] morphism $\rho : \mathbf{B}G \to \mathbf{B}Aut(K)$.
+  This is an example of [[twisted cohomology]], as explained there.
 
 ## Examples
 
@@ -100,7 +91,7 @@ So one possibility is to model $Ho_{\infty Grpd}$ in this case as the [[homotopy
 
 This is, more or less implicitly, the route taken in chapter 12 of
 
-* R. Brown, P. Higgins, R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
+* [[Ronnie Brown]], [[Phil Higgins]], R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
 
 Since every $\infty$-groupoid is fibrant, this model category category of strict $\infty$-groupoids is in fact a [[category of fibrant objects]] and hence the [[hom-set]]s in its [[homotopy category]] may be computed as [[colimit]]s over $\infty$-[[anafunctor]]s, namely 
 
