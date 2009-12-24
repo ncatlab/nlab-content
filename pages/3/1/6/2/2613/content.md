@@ -21,11 +21,43 @@ The definition of cobordism, and the category nCob of closed oriented $(n-1)$-ma
 
 ##### Friday, October 9 --- Julie Bergner, Topological field theories
 
+The basics of symmetric monoidal categories and functors and the definition of topological field theory.
+
+* [Notes](http://math.ucr.edu/~alex/cobordism_lecture3.pdf) by [[Alex Hoffnung]].
+* [Blog entry](http://golem.ph.utexas.edu/category/2009/11/cobordism_and_topological_fiel_1.html)
+
 ##### Friday, October 16 --- Chris Carlson, Topological field theories in low dimensions
+
+Introduces 2-dimensional topological field theories and commutative Frobenius algebras.
+
+* [Notes](http://math.ucr.edu/~alex/cobordism_lecture4.pdf) by [[Alex Hoffnung]].
+* [Blog entry](http://golem.ph.utexas.edu/category/2009/12/cobordism_and_topological_fiel_2.html)
 
 ##### Friday, October 23 --- A short history of the interaction between quantum field theory and topology
 
+Today's story should involve lots of people, but the stars are Sir Michael Atiyah and Edward Witten. It begins with a paper Witten wrote in 1982, called "Supersymmetry and Morse Theory". In this paper, Witten shows how to use 'supersymmetric quantum mechanics' to compute the de Rham cohomology of a compact manifold, $M$, via Morse theory. This was perhaps the first instance of using quantum theory to find topological invariants.
+
+* [Notes](http://math.ucr.edu/~alex/cobordism_lecture5.pdf) by [[John Huerta]].
+* [Blog entry](http://golem.ph.utexas.edu/category/2009/12/cobordism_and_topological_fiel_3.html)
+
 ##### Friday, October 30 --- Julie Bergner, 2-Extended topological field theories
 
+A sketch of a $2$-extended TFT illustrated by chopping up manifolds into pieces and considering the problems encountered when one considers TFT's of dimension higher than $2$.
+
+* [Notes](http://math.ucr.edu/~alex/cobordism_lecture6_7.pdf) by [[Alex Hoffnung]].
+* [Blog entry](http://golem.ph.utexas.edu/category/2009/12/cobordism_and_topological_fiel_4.html)
+* (These are notes for both October 30 and November 6)
+
+##### Friday, November 6 --- Julie Bergner, 2-Extended topological field theories and 2-categories
+
+Introduces $2$-categories of cobordisms and suggests the need for $(\infty,2)$-categories and gives a definition for extended  $\mathit{C}$-valued TFT's.
+
+##### Friday, November 13 --- John Baez, Cobordism bicategories
+
+##### Friday, November 20 --- Julie Bergner, Framings, dualizable objects, and the statement of the cobordism hypothesis
+
+##### Friday, December 4 --- Julie Bergner, $(\infty,n)$-categories and diffeomorphisms
+
+All pictures were drawn by [[Christopher Walker]].  Otherwise these notes are mostly the unpolished version from seminar.
 
 [[!redirects UC Riverside Seminar on Cobordisms and Topological Field Theories]]
