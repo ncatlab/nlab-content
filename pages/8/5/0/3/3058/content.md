@@ -12,9 +12,9 @@ In later part of his mathematical career, Gabriel worked on representation theor
 
 Some of the nlab entries related to Gabriel's work include [[Gabriel filter]], [[Gabriel composition of filters]], [[Gabriel multiplication]] and we mention here and there Gabriel localization, Gabriel spectrum of indecomposable injectives, Gabriel--Popescu embedding theorem, Gabriel--Rosenberg [[reconstruction theorem]], Gabriel--Zisman localization and Gabriel's property (sup) in the theory of abelian categories.
 
-Students of Gabriel include Bernhard Keller. Gabriel has also an important work in pure category theory 
+Students of Gabriel include Bernhard Keller. Gabriel has also an important work in pure [[category theory]] on [[locally presentable categories]]: 
 
-* P. Gabriel, F. Ulmer, Lokal prasentierbare Kategorien
+* P. Gabriel, F. Ulmer, Lokal pr&#228;sentierbare Kategorien
 
 
 [[!redirects Gabriel]]
