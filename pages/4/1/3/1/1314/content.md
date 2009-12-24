@@ -100,3 +100,5 @@ linked entries dealing with that the initial part of his theory.
 ***
 
 [[Eric]]: There are many additional references to existing literature that might be of interest here for applications, but I don't have time to list them. A good start would be Dodziuk and a google search on "Whitney Forms" including higher order Whitney forms.
+
+It would also be great if we could discuss the "de Rham map" and the "Whitney map" (see [String Coffee Table](http://golem.ph.utexas.edu/string/archives/000298.html#c000624))
