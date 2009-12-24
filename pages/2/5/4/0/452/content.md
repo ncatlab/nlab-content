@@ -85,7 +85,7 @@ $$
   \mathbf{B}f : \mathbf{B}G \to \mathbf{B}H
 $$
 
-between the corresponding [[delooping]] [[2-groupoid]]s. Expressing this in terms of a diagram of the ordinary groups appearing in $[G]$ and $[H]$ yields a diagram called a [[butterfly]]. See there for more details.
+between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing this in terms of a diagram of the ordinary groups appearing in $[G]$ and $[H]$ yields a diagram called a [[butterfly]]. See there for more details.
 
 
 
