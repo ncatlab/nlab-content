@@ -27,14 +27,14 @@ Other examples include formal physical models.
 
 ### Higher and generalized gauge theories 
 
-The above examples of gauge fields consisted of cocycles in degree 1 [[differential cohomology]].
+The above examples of gauge fields consisted of cocycles in degree-$1$ [[differential cohomology]].
 
 More generally, a _higher gauge theory_ is a [[quantum field 
 theory]] whose field configurations are cocycles in more general [[differential cohomology]], for instance higher degree [[Deligne cohomology|Deligne cocycles]] or more generally cocycles in other differential refinements, such as in differential [[K-theory]].
 
 This generalization does contain experimentally visible physics such as
 
-* The [[magnetic current]] in [[electromagnetism]] is a [[bundle gerbe|bundle gerbe with connection]], a [[Deligne cohomology|Deligne cocycle]] refining a cocycle in degree 3 [[Eilenberg-MacLane spectrum|Eilenberg-MacLane cohomology]]: the _magnetic charge_ .
+* The [[magnetic current]] in [[electromagnetism]] is a [[bundle gerbe|bundle gerbe with connection]], a [[Deligne cohomology|Deligne cocycle]] refining a cocycle in degree-$3$ [[Eilenberg-MacLane spectrum|Eilenberg-MacLane cohomology]]: the _magnetic charge_ .
 
 But a whoe tower of higher and generalized gauge theories became visible with the study of higher [[supergravity]] theories,
 
@@ -85,7 +85,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[electromagnetic field]]
 
-  * cocycle in degree 2 [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
+  * cocycle in degree-$2$ [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
 
     * naturally/historically realized in terms of Maxwell-Dirac presentation as a cocycle in [[?ech cohomology|?ech]]--[[Deligne cohomology|Deligne]] cocycle
       $$
@@ -104,7 +104,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[Kalb-Ramond field]]
 
-  * cocycle in degree 3 [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
+  * cocycle in degree-$3$ [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
 
     * naturally/historically realized in terms of 
 
@@ -122,7 +122,7 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[supergravity C-field]]
 
-  * cocycle in degree 4 [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
+  * cocycle in degree-$4$ [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
 
     * naturally/historically realized in terms of as a cocycle in [[?ech cohomology|?ech]]--[[Deligne cohomology|Deligne]] cocycle
       $$
