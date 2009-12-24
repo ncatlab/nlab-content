@@ -149,9 +149,9 @@ In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ w
 
 ### In terms of (co)monadic descent {#ComonadicDescent}
 
-This [[coring]]-formulation of [[descent]] may be understood as special case of co[[monadic descent]] (see also the discussion at [[Bénabou–Roubaud theorem]]). We spell this out in detail:
+This [[coring]]-formulation of [[descent]] may be understood as special case of [[comonadic descent]] (see also the discussion at [[Bénabou–Roubaud theorem]]). We spell this out in detail:
 
-the [[bifibration]] in question is 
+The [[bifibration]] in question is 
 
 $$
   p : Mod \to Rings
@@ -159,7 +159,7 @@ $$
 
 that sends an object in the category of modules to the ring that it is a module over.
 
-a descent datum for a morphism $f : R \to S$ with respect to this bifibration is a (co)algebra object over the co[[monad]] $f_* f^*$ induced by this morphism. We have that
+A descent datum for a morphism $f : R \to S$ with respect to this bifibration is a (co)algebra object over the co[[monad]] $f_* f^*$ induced by this morphism. We have that
 
 * the morphism $f_*$ sends an $R$-module $N$ to the $S$-module $N \otimes_R S$;
 
