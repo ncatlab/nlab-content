@@ -335,6 +335,14 @@ $$
   \,.
 $$
 
+If $C$ is a [[model category]], and $u:c\to d$ a morphism in $C$, we can consider the induced model structure on the overcategories $C/c$, and $C/d$. The adjoint pair
+
+$$
+   u_! : C/c \leftrightarrows  C/d : u^*
+$$
+
+is then a Quillen pair. 
+
 ## Monadic descent
 
 Since the codomain fibration $cod : [I,C] \to C$ is a [[bifibration]] when $C$ has all [[pullback]]s, there is a notion of [[monadic descent]] in this case. Details on this are at [monadic descent for codomain fibrations](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
