@@ -67,3 +67,39 @@ This result is especially interesting because sheaves and stacks for the extensi
 # References
 
 * Chapter 1 of [[David Roberts]]' [[davidroberts:HomePage|thesis]] uses superextensive sites in the study of [[anafunctors]].
+
+# Discussion
+
+The following discussion (originally at [[extensive category]]) resulted in the terminology "superextensive site."
+
++--{.query}
+
+Now you can tell me if you like my terminology. &#8212;Toby
+
+Hmm, I'm not sure.  This sort of thing does seem to crop up a lot and  it might be nice to have a name for it.  On the other hand, "extensive site" could potentially be misinterpreted as meaning either "any site whose underlying category is extensive," or "an extensive category equipped with its extensive coverage," instead of what you want, which is "an extensive category equipped with a coverage that _includes_ its extensive coverage." -Mike
+
+_Toby_: I\'m of the school that believes that when you pile on adjectives, they are allowed to interact to produce additional requirements of compatibility. (Take 'closed monoidal category' for a pretty extreme example.) One can say 'trivial extensive site' for an extensive category equipped with the coverage of coproduct inclusions.
+
+It\'s hard to use Google to determine if 'extensive site' already has a meaning.
+
+_Mike_: I would argue that in "closed monoidal category" the adjective "closed" modifies "monoidal category" rather than simply "category."  However, I don't dispute the general principle.  I think there is more potential for confusion with "extensive site" than there is with "closed monoidal category," however, but as I said I'm ambivalent at the moment.
+
+_Toby_: And similarly, 'extensive' modifies 'site', not 'category' (which doesn\'t actually appear, so this practice can only be more justified). (^_^)
+
+_Mike_: I am now firmly convinced that we should _not_ use "extensive site" for this, because it seems to be an otherwise universal convention that the same adjective is applied to the coverage and the site.  For example, in A2.1.11(b) the Elephant uses "coherent site" for "coherent category equipped with its coherent coverage," without even formally defining "coherent site" (only "coherent coverage").  And I believe algebraic geometers speak of "the Zariski site" or "the etale site" meaning some appropriate category equipped with the Zariski coverage or the etale coverage.  So I believe "extensive site" should really mean "an extensive category equipped with its extensive coverage."
+
+_Toby_: And here I was thinking that I should complain about this very language! I don\'t know about coherent sites, but certainly there are plenty of extensive sites (in the general sense) that aren\'t extensive sites (in the restricted sense), including what is arguably the original large site ($\Top$). If you *want* the restricted sense, then you only have to add an adjective ('trivial'), but what do you do if you want the general sense?
+
+But perhaps you have an answer for that?
+
+_Mike_: You can certainly complain about it, but I think it one of those numerous examples of well-established terminology that is suboptimal, but not bad enough to be worth trying to change.  Changing any piece of terminology is hard enough, and insisting that everyone change the words they are using for familiar concepts is part of what originally gave category theory a bad name in the U.S., and has resulted in at least one unreadable book which might otherwise have been quite good.  Also, as Jaap van Oosten pointed out in the introduction to his book "Realizability," the only thing worse than bad terminology is continually changing terminology.  I'm glad that "triple" was changed to "monad," because "triple" was truly a horrible term, but the fact that it was changed still makes it more difficult to read old papers.  So I think we need to pick and choose our terminological battles very carefully.
+
+One can, of course, always say "a site whose underlying category is extensive."  By analogy with "subcanonical coverage" (= contained in the canonical coverage) one might also say "superextensive coverage."  And despite how common such sites may be, it's not immediately clear to me how important it is to identify them.
+
+_Toby_: They\'re important for a paper that I\'m working on with John, if only to link to previous work. But 'superextensive site' will do.
+
+_Mike_: Okay, I changed the text.  If we're agreed on that terminology, we could probably remove this discussion.  Or maybe we should collect all our past terminological arguments on one page, so that people who are interested can see what we went through?
+
+_Toby_: Should we create a page [[terminological disputes]] (for archiving only, with a note of the relevant original page if anyone wants to reopen discussion) or use (or ask for) a Caf&#233; post. The former is more convenient, the latter arguably more proper.
+
+=--
