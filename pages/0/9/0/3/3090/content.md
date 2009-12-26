@@ -1,6 +1,1 @@
-A **Serre fibration** is a map of topological spaces
-that has the [[right lifting property]] with respect to all inclusions of the form $i : D^n \hookrightarrow D^n \times I$ that include the $n$-disc as $D^n \times \{0\}$.  
----
-&lt;http://mathoverflow.net/questions/37608/how-to-prove-that-a-map-is-a-serre-fibration>
-
-nLab page on [[nlab:Serre fibration]]
+A **Serre fibration** is a [[continuous map]] that has the [[right lifting property]] with respect to all inclusions of the form $i : \Delta_n \hookrightarrow \Delta_n \times I$ that include the standard $n$-[[simplex]] $\Delta_n$ as $\Delta_n \times \{0\}$.  
