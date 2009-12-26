@@ -13,7 +13,7 @@ Philosophically, [[model category|model structures]] allow one to localize a cat
 
 All of these model structures exist not only on the category of all topological spaces, but also on most [[nice category of spaces|nice categories]] of spaces.  Using a nice category instead is sometimes important, such as if we want the model structure to be [[monoidal model category|monoidal]].
 
-#Model Structure 1#
+#Quillen Model Structure#
 
 The first, and most prevalent, model structure has $W$ the class of weak homotopy equivalences. The fibrations $F$ are the **[[Serre fibration]]s**, maps which have the right lifting property with respect to all inclusions of the form $i_0 : D^n \hookrightarrow D^n \times I$ that include the $n$-disc as $D^n \times \{0\}$.
 
@@ -23,7 +23,7 @@ This model structure is [[Quillen equivalence|Quillen equivalent]] to the classi
 
 This model structure is sometimes called the "Quillen" model structure or $q$-model structure.
 
-#Model Structure 2#
+#Hurewicz (or Str&#248;m) Model Structure#
 
 A second model structure has $W$ the class of homotopy equivalences and $F$ the class of **[[Hurewicz fibration]]s**, which are defined to be maps that have the right lifting property with respect to _all_ inclusions $i_0 : A \hookrightarrow A \times I$ for any topological space $A$. The cofibrations are determined by these classes and are called the **closed [[Hurewicz cofibration]]s**.
 
