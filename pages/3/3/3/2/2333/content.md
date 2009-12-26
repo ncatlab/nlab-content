@@ -46,7 +46,7 @@ The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(a,b) = a \vee b = a 
 
 There is a nice abstract converse to the example of a convex subset of an affine space.  A convex space is __cancellative__ if $a = b$ whenever $c_p(a,c) = c_p(b,c)$ for some $c$ and $p \gt 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
 +-- {: .un_theorem}
-###### Theorem
+###### Theorem (Thm 2 in the paper by Stone)
 
 A convex space is cancellative if and only if it is isomorphic (as a convex space) to a convex subset of some real affine space.
 =--
@@ -61,6 +61,8 @@ _Toby_:  The last example in the list above: $\{0,1\}$ with $c_p(a,b) = a \vee b
 [[John Baez]]: Could someone provide a proof or reference to the above theorem?
 
 _Toby_:  _HAF_ cites Romanowska & Smith (added to the references below, but I haven\'t read it).
+
+[[Tobias Fritz]]: reference added.
 =--
 
 
@@ -73,6 +75,8 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 *  Romanowska, Smith, Or&#322;owska; Abstract barycentric algebras; [pdf](http://staff.science.uva.nl/~gfontain/tacl09-abstracts/tacl2009_submission_48.pdf).  This generalises from $[0,1]$ to an arbitrary $L \Pi$-algebra ($L$ for '&#321;ukasiewicz', $\Pi$ for 'product', so think of $[0,1]$ as a space of fuzzy truth values).
 
 *  Romanowska & Smith (1985); Modal Theory: An Algebraic Approach to Order, Geometry, and Convexity; Res. Exp. Math. 9; Heldermann-Verlag, Berlin, 1985.
+
+* Marshall Harvey Stone, Postulates for the barycentric calculus. Ann. Mat. Pura. Appl. (4), 29:25&#8211;30, 1949.
 
 * Tobias Fritz, Convex spaces I: definition and examples. 
 [[arXiv](http://arxiv.org/abs/0903.5522)]
