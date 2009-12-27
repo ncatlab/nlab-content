@@ -7,11 +7,11 @@
 
 The definition of a [[category]] effectively enforces an ordering on the "0-faces" -- the source and target objects -- of every 1-cell (every morphism). In many cases this is essential, in that there is no way to regard the generic morphism $a \stackrel{f}{\to} b$ in the generic category as a morphism from $b$ to $a$ instead.
 
-But there are many categories for which this is not the case, where every morphism naturally only comes with the information of an unordered pair $\{a,b \}$ of objects, without any prejudice on which is to be regarded as source and which as target. An important general example is
+But there are many categories for which this is not the case, where every morphism naturally only comes with the information of an unordered pair $\{a,b \}$ of objects, without any prejudice on which is to be regarded as source and which as target. An important general example is:
 
 * the category $Spans(C)$ of [[span|spans]] in a category $C$ with pullbacks, or [[duality|dually]], the category $CoSpans(C)$ of [[cospan|cospans]] in a category $C$ with pushouts.
 
-More concrete examples are
+More concrete examples are:
 
 * categories of [[cobordism]]s (but notice that cobordisms are naturally regarded as [[cospan]]s which makes this a special case of the above example);
 
@@ -19,11 +19,9 @@ More concrete examples are
 
 A _dagger structure_ on a category is extra structure which encodes the idea of _removing_ the ordering information on the 0-faces of 1-cells in a category: it is is a contravariant functor which sends every morphism $f : a \to b$ to a morphims going the other way, $f^\dagger : b \to a$.
 
-
 The notation and terminology here is motivated from the example [[Hilb]] of Hilbert spaces, where $f^\dagger$ is traditionally the notion for the adjoint of a linear map $f$.  The canonical dagger-structure on [[Hilb]] and on [[nCob]] is crucial in [[FQFT|quantum field theory]] where it is used to encode the idea of **unitarity**:
 
 a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor $n Cob \to Hilb$ which respects the dagger-structure on both sides.
-
 
 ## Definition
 
@@ -33,6 +31,7 @@ $$
 $$
 which is the identity on objects, and which satisfies $\dagger \circ \dagger = \mathrm{id}_C$.
 
+Note that regarded as an extra structure on categories, a dagger structure is [[evil]], since it imposes equations on objects.
 
 ## Examples
 
@@ -62,12 +61,18 @@ and further abstracted in:
 
 * P. Selinger, Dagger compact closed categories and completely positive maps, _Proceedings of the 3rd International Workshop on Quantum Programming Languages_, Chicago, June 30&#8211;July 1, 2005. [web](http://www.mscs.dal.ca/~selinger/papers.html#dagger)
 
+The importance of $\dagger$-categories in quantum theory is discussed here:
+
+* J. Baez, Quantum quandaries: a category-theoretic perspective, in _Structural Foundations of Quantum Gravity_, eds. Steven French, Dean Rickles and Juha Saatsi, Oxford U. Press, 2006, pp. 240--265.  See especially Section 3: The $\star$-category of Hilbert spaces.  ([web](http://math.ucr.edu/home/baez/quantum/node3.html))
+
+Note that in older literature, the term "$\star$-category"  or "star-category" is sometimes used instead of $\dagger$-category.
+
 Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modular tensor category|modular tensor categories]], play an important role in topological quantum field theory and the theory of quantum groups:
 
 * Jurg Fr&#246;hlich and Thomas Kerler, _Quantum Groups, Quantum Categories, and Quantum Field Theory_, Springer Lecture Notes in Mathematics 1542, Springer-Verlag, Berlin, 1991. 
 
 * Bojko Bakalov and Alexander Kirillov, Jr., _Lectures on Tensor Categories and Modular Functors_, American Mathematical Society, Providence, Rhode Island, 2001.
-[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)
+([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
 
 [[!redirects dagger-categories]]
