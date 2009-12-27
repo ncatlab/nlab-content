@@ -7,6 +7,8 @@ Models include
 * the definition in terms of [[n-fold Segal space]]s;
 * a definition in terms of scaled simplicial sets, following Verity's [[simplicial model for weak omega-categories]] by Jacob Lurie (see reference below)
 
+See also the list of all definitions of higher categories at [[n-category]].
+
 
 ##References#
 
