@@ -39,12 +39,21 @@ See also
 * [[(∞,1)-category]]
 * [[(∞,2)-category]]
 * etc ...
-* [[∞-category]] = $(\infty,\infty)$-category
+* [[∞-category]] = $(\infty,\infty)$-category.
+
+In addition,
+* [[(n,r)-category|(m,n)-categories]] can be obtained as particular $(\infty,n)$-categories whose $k$-cells are trivial for $k\gt m$.
+* In particular, [[n-categories]] = $(n,n)$-categories can be so obtained. 
+
+
+## Definitions
+
+A list of known definitions of $n$-category, which should include all definitions of $(\infty,n)$-category as well, can be found at the page [[n-category]].  Note that some of these definitions (in particular, the "inductive" ones) only work for $n\lt \infty$.
 
 
 ## Examples ##
 
-The motivating example for $(\infty,n)$-categories is the [[(∞,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
+One motivating example for $(\infty,n)$-categories is the [[(∞,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
 
 
 [[!redirects (infinity,r)-category]]
