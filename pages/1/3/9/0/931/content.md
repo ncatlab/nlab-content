@@ -34,4 +34,10 @@ is an isomorphism.  In addition we require that there exists a family of local s
 ## Example## 
 The canonical example is the [[trivial torsor]] over a [[sheaf]] of groups, $G$.
 
+## References ##
+
+For elementary examples of torsors, see:
+
+* John Baez, Torsors made easy.  ([web](http://math.ucr.edu/home/baez/torsors.html))
+
 [[!redirects torsors]]
