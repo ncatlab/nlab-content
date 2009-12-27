@@ -1,4 +1,4 @@
-The [[Kan complex]] definition of [[∞-groupoid]] may be [[internalization|internalized]] to a more general categories. Namely:
+The [[Kan complex]] definition of [[∞-groupoid]] may be [[internalization|internalized]] to more general categories. Namely:
 
 *  We can define a [[simplicial object]] $X$ in any [[category]] $C$;
 *  If $C$ has enough [[limits]], then we can define the object $X^{\Lambda^n_k}$ of $k$-horns of $n$-simplices of $X$ as a certain limit of the $X_m$ for $m \lt n$.
@@ -18,7 +18,7 @@ _Toby_:  That sounds right, so I put it in.  But we still need to check that fin
 
 A classical example consists of the __topological $\infty$-groupoids__. The [[nerve]] construction makes a topological $\infty$-groupoid from a [[topological groupoid]]. This is actually a characterization of topological groupoids among topological categories.
 
-In particular, if $G$ is a [[topological group]], then $N(\mathbf{B}G)$ is a topological $\infty$-groupoid. This is relevant to the construction of the [[classifying space]]s for continuous [[principal bundle]]s.
+In particular, if $G$ is a [[topological group]], then $N(\mathbf{B}G)$ is a topological $\infty$-groupoid. This is relevant to the construction of the [[classifying spaces]] for continuous [[principal bundles]].
 
 Another classical example consists of the [[∞-Lie groupoids]].
 
