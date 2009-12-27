@@ -1,0 +1,1 @@
+The category $n Cob$ has $(n-1)$-dimensional compact oriented manifolds as objects and $n$-dimensional oriented [[cobordism|cobordisms]] between these as morphisms.   It plays a fundamental role in [[TQFT]].
