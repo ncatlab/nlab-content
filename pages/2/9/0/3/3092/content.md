@@ -1,6 +1,19 @@
-Cellular sets provide yet another approach to higher categories and abstract study of homotopy types, for example in Joyal's approach to higher quasicategories, which are a variety of $(\infty,n)$-categories. See also [[Theta-category]]. 
 
-* A. Joyal, Disks, duality and $\theta$-categories, preprint (1997).
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+A _cellular set_ is a [[presheaf]] on a [[Theta-category]] (disk category), similar to how a [[simplicial set]] is a presheaf on the [[simplex category]].
+
+Cellular sets provide one approach to [[higher category theory|higher categories]] and abstract study of [[homotopy n-type|homotopy type]]s, for example in Joyal's approach to higher [[quasi-category|quasicategories]], which are a variety of [[(∞,n)-category|(∞,n)-categories]]. 
+
+One detailed development of a model of [[(∞,n)-category|(∞,n)-categories]] in terms of presheaves on disk categories is the notion of [[Theta space]].
+
+## References
+
+* [[Andre Joyal]], _Disks, duality and $\theta$-categories_ , preprint (1997).
 
 * Mihaly Makkai, Marek Zawadowski, Duality for simple $\omega$-categories and disks, Theory and Applications of Categories, Vol. 8, 2001, No. 7, pp 114-243, [link](http://www.tac.mta.ca/tac/volumes/8/n7/8-07abs.html)
 
