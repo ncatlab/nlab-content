@@ -1,3 +1,4 @@
+#Contents#
 * toc
 {: toc}
 
@@ -7,11 +8,11 @@ A _regular category_ is a [[finitely complete category]] which admits a good not
 
 A category $C$ is **regular** if 
 
-* It is finitely complete; 
+* It is [[finitely complete category|finitely complete]]; 
 
 * The [[kernel pair]] $p_1, p_2: e \,\rightrightarrows\, d$ of any $f: d \to c$ admits a [[coequalizer]];  and
 
-* The pullback of a regular epi along any map is a regular epi.
+* The [[pullback]] of a [[regular epimorphism]] along any morphism is again a regular epimorphism.
 
 Here the "kernel pair" is the parallel pair of projection maps coming out of a pullback $e$ of the diagram 
 
