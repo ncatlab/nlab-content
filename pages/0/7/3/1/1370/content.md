@@ -10,6 +10,8 @@ Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du 
 
 * A. Joyal, M. Tierney, _On the theory of path groupoids_,  J. Pure Appl. Algebra __149__  (2000),  no. 1, 69--100, <a href="http://dx.doi.org/10.1016/S0022-4049(98)00164-9">doi</a>
 
+* A. Joyal, R. Street, _Pullbacks equivalent to pseudopullbacks_, Cahiers topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 34 (1993) 153-156; [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_2_153_0) MR94a:18004.
+
 * A. Joyal, M. Tierney, _Strong stacks and classifying spaces_,  Category theory (Como, 1990),  213--236, Lecture Notes in Math. __1488__, Springer 1991. 
 
 * A. Joyal, R. Street, _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991. 
