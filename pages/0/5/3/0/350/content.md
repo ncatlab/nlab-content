@@ -97,3 +97,4 @@ the notion of sheaves in section V.3, the sheafification functor in section V.3 
 [[!redirects sheafification in a Lawvere–Tierney topos]]
 [[!redirects Lawvere–Tierney topology]]
 [[!redirects Lawvere--Tierney topology]]
+[[!redirects Lawvere-Tierney topologies]]
