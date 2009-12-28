@@ -65,10 +65,15 @@ A well developed case is that of [[(∞,1)-topos]]es.
 
 #References#
 
+* P. Johnstone, _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+
+* R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983).
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]]
 
-* [[Peter Johnstone]], [[Elephant|Sketches of an Elephant: A Topos Theory Compendium]]
+* [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
+
+* R. Street, _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
 
 
 [[!redirects topoi]]
