@@ -24,7 +24,7 @@ $$
   \,.
 $$
 
-## Weak colimit interpretation ##
+## Weak colimit interpretation {#WeakColimit}
 
 Apparently for $C$ a [[groupoid]] the 
 category algebra of $C$ is the [[weak limit|weak colimit]] over $C$ of the functor $C \to Vect\text{-}Mod$
