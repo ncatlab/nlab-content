@@ -200,7 +200,7 @@ are sets of generating cofibrations and acyclic cofibrations, respectively, exhi
 =--
 
 
-## Commutative vs. non-commutative dg-algebras
+## Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
 
 +-- {: .un_prop }
 ###### Observation
