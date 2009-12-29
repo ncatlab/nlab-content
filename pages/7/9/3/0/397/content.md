@@ -63,6 +63,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[John Baez]]
 * [[John Cook]]
 * [[Jon Awbrey]]
+* [[Jon Phillips]]
 * [[Jonas Frey]]
 * [[Josep Elgueta]]
 * [[Kareem|Kareem Carr]]
