@@ -8,7 +8,7 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 The _infinitesimal singular simplicial complex_ of a [[space]] $X$ in a [[smooth topos]] $(\mathcal{T},R)$ is the infinitesimal analogue of the singular simplicial complex $X^{\Delta_R^\bullet}$ (see [[interval object]]) that in degree $k$ is the space of $k$-simplices $\Delta^k_R \to X$ in $X$: the infinitesimal singular simplicial complex has in degree $k$ the [[infinitesimal space|infinitesimal]] $k$-simplices in $X$.
 
@@ -18,7 +18,7 @@ A similar but different notion is described at [[infinitesimal interval object]]
 
 
 
-# Definition #
+## Definition 
 
 The basic definition applies to spaces of the form $R^n$ and is generalized from there to spaces that "locally look like" $R^n$ in one way or other.
 
@@ -58,7 +58,7 @@ This naturally forms a [[simplicial object]] $X^{\Delta_{inf}^{bullet}} : \Delta
 This is the infinitesimal simplicial singular complex of $R^n$.
 
 
-## in smooth loci ##
+### In smooth loci 
 
 >**warning** this section is as such not drawn from the literature, it seems
 
@@ -117,7 +117,7 @@ $$
 =--
 
 
-### examples ###
+#### Examples 
 
 Consider the circle $S^1$ regarded as the [[smooth locus]] $S^1 = \{(x, y) \in R^2 | x^2 + y^2 = 1\}$.
 
@@ -148,11 +148,11 @@ $$
 
 for some fixed $\delta \in D$.
 
-## in formal manifolds ##
+### In formal manifolds
 
 >use that each manifold is locally isomorphic to an $R^n$ and that the neighbourhood relation only needs an infinitesimal neighbourhood. Proceed locally as above and then patch. See references below.
 
-# inclusion into the finite singular simplicial complex #
+## Inclusion into the finite singular simplicial complex {#InclusionIntoFinPaths}
 
 The [[lined topos]] $(\mathcal{T}, R)$ also comes canonically for every object $X \in \mathcal{T}$ with the finite singular simplicial complex $\Pi(X) : [n] \mapsto X^{R^n}$ induced from regarding
 
@@ -223,7 +223,7 @@ For instance
 =--
 
 
-#Related concepts#
+## Related concepts
 
 The collection of first order infinitesimal neighbours of a space $X$ arranges itself into the [[schreiber:infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$. Various concepts derive from this one:
 
@@ -235,7 +235,7 @@ A [[deRham space]] is the colimit over a $\Pi^{inf}(X)$.
 
 
 
-# References #
+## References 
 
 In the language of [[synthetic differential geometry]] the infinitesimal singular complex for "formal manifolds" (internally defined manifolds with an infinitesimal thickening to all orderes) is described in
 
@@ -267,7 +267,7 @@ There is also
 * Kumpera, Spencer, _Lie Equations_ , Annals of Math. Studies 73 (1973)
 
 
-## In nonstandard analysis ##
+### In nonstandard analysis 
 
 There is also a version of the infinitesimal singular simplicial context in the context of [[nonstandard analysis]]. See
 
