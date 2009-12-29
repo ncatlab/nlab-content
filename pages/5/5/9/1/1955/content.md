@@ -2,7 +2,18 @@ Given a morphism of [[commutative unital rings]] $f:R\to S$, the __module of K&#
 
 $$Der_R(S,f_*(-)) : S-Mod\to Set : M\mapsto Der_R(S,f_* M)$$
 
-where $f_*:S-Mod\to R-Mod$ is the restriction of scalars. In other words,  $Der_R(S,f_*M)\cong Hom_S(\Omega^1_{S/R},M)$. Let $I$ be the augmentation ideal, i.e. the kernel of the multiplication map
+where $f_*:S-Mod\to R-Mod$ is the restriction of scalars. In other words,  $Der_R(S,f_*M)\cong Hom_S(\Omega^1_{S/R},M)$. In a diagram: for every $R$-derivation $X\colon S \to M$ there is a unique morphism (of $S$-modules) $\mu\colon \Omega^1_{S/R} \to M$ making the following diagram commute:
+
+$$
+\array{
+S&\overset{X}\to     & M\\
+ & \underset{D}\searr&\uparrow \mu\\
+ &                   & \Omega^1_{S/R}
+}
+$$
+
+
+Let $I$ be the augmentation ideal, i.e. the kernel of the multiplication map
 
 $$ I := Ker(m:S\otimes_R S\to S)$$
 
