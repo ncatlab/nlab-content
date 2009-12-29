@@ -17,7 +17,7 @@ A __model category__ (sometimes called a _Quillen model category_ or a _closed m
 
 So, what is a model category?  For starters, it is a category equipped with three classes of morphisms, each closed under composition: [[weak equivalences]], [[fibrations]] and [[cofibration|cofibrations]]:
 
-* The weak equivalences play the role of 'homotopy equivalences' or something a bit more general.  Already in the case of [[topological space|topological spaces]], it is useful to say that two spaces have the same [[homotopy type]] if there is a map from one to the other that induces isomorphisms on homotopy groups for any choice of basepoint in the first spaces.  These maps are more general than homotopy equivalences, and they are called 'weak equivalences'.
+* The weak equivalences play the role of 'homotopy equivalences' or something a bit more general.  Already in the case of [[topological space|topological spaces]], it is useful to say that two spaces have the same [[homotopy type]] if there is a map from one to the other that induces isomorphisms on homotopy groups for any choice of basepoint in the first space.  These maps are more general than homotopy equivalences, so they are called 'weak equivalences'.
 
 * The fibrations play the role of 'nice surjections'.  For example, in the category of [[topological spaces]] with its usual model structure, a locally trivial fiber bundle is typically a fibration.
 
@@ -146,7 +146,7 @@ Recent review:
 
 A nice first introduction:
 
-* Dwyer, Spalinski, _Homotopy theories and model categories_ [pdf](http://hopf.math.purdue.edu/Dwyer-Spalinski/theories.pdf)
+* Dwyer, Spalinski, _Homotopy theories and model categories_ ([pdf](http://hopf.math.purdue.edu/Dwyer-Spalinski/theories.pdf))
 
 Monographs: 
 
