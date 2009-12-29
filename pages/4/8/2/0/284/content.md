@@ -28,6 +28,10 @@ For a discussion of the motivation and purpose of $(\infty,1)$-categories see [[
 
 #Definitions#
 
+There are a number of different ways to make the idea of an $(\infty,1)$-category precise, including [[quasi-categories]], [[simplicial set|simplicially]] [[enriched categories]], topologically enriched categories, [[Segal categories]], [[complete Segal spaces]], and $A_\infty$-[[A-infinity categories|categories]] (most of which can be done either simplicially or topologically).  Additionally, any notion of [[∞-category]] can be specialized to a notion of $(\infty,1)$-category by simply requiring all $n$-cells for $n\gt 1$ to be invertible.
+
+Unlike the case for general notions of $n$-category, almost all the definitions of $(\infty,1)$-category are known to form [[model categories]] that are [[Quillen equivalence|Quillen equivalent]].  See also [[n-category]] for a summary of the state of the art about definitions of $n$-category and comparisons between them.
+
 ## quasi-categories ##
 
 We start with the definition of "$(\infty,1)$-category" that was promoted by [[Andre Joyal]] as a good model for the theory. This goes back to Boardman-Vogt.
@@ -69,17 +73,15 @@ Similarly, [[Andre Joyal]] and [[Jacob Lurie]] have shown that all other constru
 
 ## model categories ##
 
-At the very beginning, a [[model category]] was understood as a "model for the category [[Top]] of topological spaces": some [[category]] with extra [[stuff, structure, property|structure and property]] which allows to perform all operations familiar of the [[homotopy theory]] of [[topological spaces]].
+At the very beginning, a [[model category]] was understood as a "model for the category [[Top]] of topological spaces," or more precisely [[homotopy types]]: some [[category]] with extra [[stuff, structure, property|structure and properties]] which allows one to perform all operations familiar of the [[homotopy theory]] of [[topological spaces]].
 
 As mentioned above, from the point of view of [[(∞,1)-categories]], [[Top]] may naturally be regarded an as [[(∞,1)-category]] and is in fact the archetypical example, analogous to how [[Set]] is the archetypical examples of an ordinary [[category]].
 
-This indicates that, more generally, a [[model category]] should actually be a means to model (i.e. encode) in 1-categorical terms an $(\infty,1)$-category.
-
-This indeed turns out to be true: there is a precise sense in which every [[model category]] [[presentable (infinity,1)-category|presents]] an $(\infty,1)$-category:
+This indicates that, more generally, a [[model category]] should actually be a means to model (i.e. encode) in 1-categorical terms an $(\infty,1)$-category.  This indeed turns out to be true: there is a precise sense in which every [[model category]] [[presentable (infinity,1)-category|presents]] an $(\infty,1)$-category.
 
 * given a model category $A$;
 
-* it bcomes canonically an [[SimpSet|SSet]]-[[enriched category]] making it a [[simplicial model category]] $\mathbf{A}$;
+* it becomes canonically an [[SimpSet|SSet]]-[[enriched category]] making it a [[simplicial model category]] $\mathbf{A}$;
 
 * the full [[SimpSet|SSet]]-[[subcategory]] $\mathbf{A}^\circ$ on the fibrant-cofibrant objects of $\mathbf{A}$ happens to be [[Kan complex]]-[[enriched category|enriched]];
 
@@ -87,11 +89,12 @@ This indeed turns out to be true: there is a precise sense in which every [[mode
 
 With the relation between [[simplicial object in Cat|simplical categories]] and [[quasi-category|quasi-categories]] via [[homotopy coherent nerve]] understood, we shall here often not distinguish between $\mathbf{A}^\circ$ and $N(\mathbf{A}^\circ)$ as the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model category]] $A$.
 
-
 The following analogy (appearing in this way on [p. 44 of Ben-Zvi/Nadler07](http://arxiv.org/PS_cache/arxiv/pdf/0706/0706.0322v1.pdf#page=44)) might illustrate how model categories, $(\infty,1)$-categories and homotopy categories relate
 
 : model category &rarr; $(\infty,1)$-category &rarr; homotopy category
 : vector space with basis &rarr; vector space &rarr; dimension of vector space
+
+Note, though, that not every $(\infty,1)$-category can be presented by a model category: only those that are [[locally presentable (∞,1)-category|locally presentable]].
 
 
 ## $Top$-, $Kan$- and simplicially enriched categories ##
@@ -147,19 +150,24 @@ Other models for $(\infty,1)$-categories are
 
  * [[complete Segal spaces]].
  
-A complete Segal space may be thought of as a category which is
+These notions can be thought of as categories which are
 _weakly_ enriched in topological spaces/simplicial sets/Kan complexes,
 where the definition of "weak" makes use of the notion of [[homotopy]]
 and [[homotopy limit]] in [[Top]] or [[SimpSet|SSet]].
+
+(Actually, complete Segal spaces are actualy more like [[internal categories]] in spaces which satisfy an extra "completeness" condition specifying that the extra data are redundant.  But including this extra data turns out to be technically convenient in many ways.)
 
 This construction principle in particular lends itself
 to iteration and hence to an inductive definition of 
 [[(∞,n)-category]].
 
 
+## $A_\infty$-categories
+
+An $A_\infty$-[[A-infinity category|category]] can also be thought of as a category "weakly enriched" in spaces (i.e. $\infty$-groupoids), except that in contrast to the Segal approaches the "weakness" is specified [[algebraic definition of higher category|algebraically]] and parametrized by an [[operad]].  This approach can be generalized to the [[Trimble n-category|Trimble]] definition of $n$-category or $(\infty,n)$-category.
+
+
 #References#
-
-
 
 A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
 
