@@ -10,6 +10,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 #Idea#
 
 A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing [[homotopy theory]].    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
@@ -22,7 +23,7 @@ So, what is a model category?  For starters, it is a category equipped with thre
 
 * The cofibrations play the role of 'nice inclusions'.  For example, in the category of [[topological spaces]] with its usual model structure, an [[NDR pair]] is typically a cofibration.  
 
-A bit more technically: we can define an [[(∞,1)-category]] starting from any [[category with weak equivalences]].  The idea is that this (∞,1)-category keeps track of objects in our original category, morphisms between objects, homotopies between maps, homotopies between homotopies, and so on, _ad infinitum_.  However, the extra structure of a model category makes it easier to work with this (∞,1)-category   We can obtain this (∞,1)-category in various ways, including [[simplicial localization]].    We say this [[(∞,1)-category]] is _modeled_ by the model category, and that the objects of the model category are _models_ for the objects of this $(\infty,1)$-category.
+A bit more technically: we can define an [[(∞,1)-category]] starting from any [[category with weak equivalences]].  The idea is that this (∞,1)-category keeps track of objects in our original category, morphisms between objects, homotopies between maps, homotopies between homotopies, and so on, _ad infinitum_.  However, the extra structure of a model category makes it easier to work with this (∞,1)-category.  We can obtain this (∞,1)-category in various ways, including [[simplicial localization]].    We say this [[(∞,1)-category]] is _modeled_ by the model category, and that the objects of the model category are _models_ for the objects of this $(\infty,1)$-category.
 
 In this sense model categories are 'models for [[homotopy theory]]' or 'categories of models for homotopy theory'.  (The latter sense was the one intended by Quillen, but the former is also a useful way to think.)
 
@@ -56,11 +57,13 @@ There are several notions of [[category with weak equivalences]] with similar bu
 
 There is also a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
 
+
 #Notes#
 
 * Some authors, notably Mark Hovey, require that the factorizations given by (ii) are actually _functorial_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
 
 * As a consequence of the above definition, the classes $C, F,$ and $W$ are all closed under retracts and composition and contain the isomorphisms of $K$. This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
+
 
 #Examples#
 
@@ -94,7 +97,7 @@ Of interest to category theorists is that many notions of [[higher category theo
 
 Model categories have successfully been used to compare many different notions of [[(∞,1)-category]].  The following definitions of $(\infty,1)$-category all form Quillen equivalent model categories:
 
-* [[model structure on simplicially enriched categories|simplicially enriched categories]]
+* [[simplicially enriched categories]]
 * [[quasi-categories]] (via the Joyal [[model structure on simplicial sets]])
 * [[Segal categories]]
 * [[complete Segal spaces]]
@@ -115,7 +118,6 @@ The _parameterized_ version of the model structure on simplicial sets is a
 * [[model structure on simplicial sheaves]] or
 
 which serves as a [[models for infinity-stack (infinity,1)-toposes|model for ∞-stack (∞,1)-toposes]] (for [[hypercomplete (∞,1)-topos]]es, more precisely).
-
 
 ## Functor and localized model structures
 
@@ -160,6 +162,7 @@ for errata and more.
 For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of $(\infty,1)$-[[(infinity,1)-category|categories]] see Appendix A.2 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
 
 [[!redirects model categories]]
 [[!redirects model structure]]
