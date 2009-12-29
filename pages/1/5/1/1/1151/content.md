@@ -24,6 +24,16 @@ $$
   \,.
 $$
 
+
++-- {: .standout}
+
+**Slogan.**
+
+Thousands of definitions of notions of cohomology and its variants. From the [[nPOV]], just a single concept: an [[derived hom space|∞-categorical hom-space]]. 
+
+=--
+
+
 This is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A := K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
 
 $$
