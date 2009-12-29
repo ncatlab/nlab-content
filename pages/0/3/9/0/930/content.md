@@ -4,12 +4,13 @@ Let $H$ be a $k$-[[bialgebra|bialgebra]] and $E$, say, a right $H$-comodule alge
 
 The subalgebra $U = E^{\mathrm{co}H}$ of $H$-coinvariants in $E$ consists of all $u\in E$ such that $\rho(u)=u\otimes 1$.
 
-The $k$-algebra extension $U\hookrightarrow E$ is __Hopf--Galois__ over $H$ if the natural map $E\otimes_U E\to E\otimes H$ given by the $k$-linear extension of the formula $e\otimes e'\mapsto (e\otimes_k 1)\rho(e')$ is a bijection (hence a $k$-module isomorphism). 
+The $k$-algebra **extension** $U\hookrightarrow E$ is __Hopf--Galois__ over $H$ if the natural map $E\otimes_U E\to E\otimes H$ given by the $k$-linear extension of the formula $e\otimes e'\mapsto (e\otimes_k 1)\rho(e')$ is a bijection (hence a $k$-module isomorphism). 
 
+A **Hopf-Galois object** over a $k$-bialgebra $H$ is any Hopf-Galois extension $k\hookrightarrow E$ over $H$ of the ground field (or ring) $k$. It is a dual (and noncommutative) analogue to a torsor over a point. 
 
 ##Classical Galois extensions as a special case##
 
-If $k\subset U=E^G$, $E$ is a [[field]], $G$ a finite group and $H = (k[G])^*$ is the dual [[Hopf algebra]] to the [[group algebra]] of $G$, then $E^G\hookrightarrow E$ is (classically) a [[Galois extension]] iff it is a $H$-Hopf--Galois extension, where the coaction of $H$ is induced by the action of $k[G]$, hence of $G$. One uses the Dedekind lemma on independence of automorphisms to prove this equivalence. It is possible however that $E^G\subset E$ is not (classically) Galois, but it is $K$-Hopf--Galois for some Hopf algebra $K\neq (k[G])^*$. 
+If $k\subset U=E^G$, $k,E$ are [[field]]s, $G$ a finite group and $H = (k[G])^*$ is the dual [[Hopf algebra]] to the [[group algebra]] of $G$, then $E^G\hookrightarrow E$ is (classically) a [[Galois extension]] iff it is a $H$-Hopf--Galois extension, where the coaction of $H$ is induced by the action of $k[G]$, hence of $G$. One uses the Dedekind lemma on independence of automorphisms to prove this equivalence. It is possible however that $E^G\subset E$ is not (classically) Galois, but it is $K$-Hopf--Galois for some Hopf algebra $K\neq (k[G])^*$. 
 
 
 ##Role in geometry##
