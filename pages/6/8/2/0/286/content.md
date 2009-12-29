@@ -38,9 +38,9 @@ It is evil to state that two morphisms in a $2$-[[2-category|category]] are equa
 Defining higher categorial structures using such evil equalities tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[Gray-category]] and [[model category]] for examples of this in action.
 
 
-## Evil in quantum theory
+### Evil in quantum theory
 
-The concept of [[dagger-category|†-category]] is important in topological quantum field theory and quantum computation.  A **$\dagger$-category** is a category $C$ with a functor
+The concept of [[dagger-category|†-category]] is important in [[topological quantum field theory]] and [[quantum computation]].  A **[[†-category]]** is a category $C$ with a functor
 
 $$F: C \to C^{op} $$
 
