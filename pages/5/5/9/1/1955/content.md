@@ -13,7 +13,7 @@ S&\overset{X}\to     & M\\
 $$
 
 
-Let $I$ be the augmentation ideal, i.e. the kernel of the multiplication map
+Let $I$ be the [[augmentation ideal]], i.e. the kernel of the multiplication map
 
 $$ I := Ker(m:S\otimes_R S\to S)$$
 
@@ -22,7 +22,8 @@ given by $d s = [1\otimes s - s\otimes 1]$.
 
 If $R$ is in charectaristic zero, one introduces K&#228;hler $p$-forms, which are elements of the $p$-th [[exterior power]] $\Omega^p_{S/R}:=\Lambda_R^p \Omega^1_{S/R}$. The module of K&#228;hler differentials readily generalizes as a sheaf of K&#228;hler differentials for a separated morphism $f:X\to Y$ of (commutative) [[schemes]], namely it is the pullback along the embedding of the ideal sheaf of the [[diagonal subobject|diagonal subscheme]] $X\hookrightarrow X\times_Y X$.
 
-Compare the role of [[universal differential envelope]] and [[Amitsur complex]] for  analogous constructions in the noncommutative case. The appropriate extension of the module of relative K&#228;hler differentials to the derived setting is the [[cotangent complex]] of Grothendieck-Illusie. 
+Compare the role of [[universal differential envelope]] and [[Amitsur complex]] for  analogous constructions in the noncommutative case. The appropriate extension of the module of relative K&#228;hler differentials to the derived setting is the [[cotangent complex]] of Grothendieck--Illusie. 
+
 
 [[!redirects Kahler differential]]
 [[!redirects Kahler differentials]]
