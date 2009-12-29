@@ -42,7 +42,7 @@ Some categorically-oriented articles discussing torsors are
 * D. H. Van Osdol, Principal homogeneous objects as representable functors.
 Cahiers Topologie G&#233;om. Diff&#233;rentielle 18 (1977), no. 3, 271--289, [numdam](http://www.numdam.org/item?id=CTGDC_1977__18_3_271_0).
 
-*  K. T. S. Mohapeloa, A $2$-colimit characterization of internal categories of torsors. J. Pure Appl. Algebra 71 (1991), no. 1, 75--91, [doi](http://dx.doi.org/10.1016/0022-4049(91)90041-Y). 
+*  K. T. S. Mohapeloa, A $2$-colimit characterization of internal categories of torsors. J. Pure Appl. Algebra 71 (1991), no. 1, 75--91, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990041-Y). 
 
 * Thomas Booker, Ross Street, Torsors, herds and flocks, [arXiv:0912.4551](http://arxiv.org/abs/0912.4551)
 
