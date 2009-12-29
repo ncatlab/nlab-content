@@ -4,11 +4,11 @@ Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du 
 
 * A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc.  __51__  (1984),  no. 309, vii+71 pp.
 
-* A. Joyal, _Quasi-categories and Kan complexes_, (in Special volume celebrating the 70th birthday of Prof. Max Kelly) J. Pure Appl. Algebra  __175__ (2002),  no. 1-3, 207--222 (<a href="http://dx.doi.org/10.1016/S0022-4049(02)00135-4">doi</a>).
+* A. Joyal, _Quasi-categories and Kan complexes_, (in Special volume celebrating the 70th birthday of Prof. Max Kelly) J. Pure Appl. Algebra  __175__ (2002),  no. 1-3, 207--222 ([doi](http://dx.doi.org/10.1016/S0022-4049%2802%2900135-4)).
 
 * A. Joyal, M. Tierney, _Quasi-categories vs Segal spaces_, Categories in algebra, geometry and mathematical physics,  277--326, Contemp. Math. __431__, Amer. Math. Soc., Providence, RI, 2007. [math.AT/0607820](http://arxiv.org/abs/math.AT/0607820).
 
-* A. Joyal, M. Tierney, _On the theory of path groupoids_,  J. Pure Appl. Algebra __149__  (2000),  no. 1, 69--100, <a href="http://dx.doi.org/10.1016/S0022-4049(98)00164-9">doi</a>
+* A. Joyal, M. Tierney, _On the theory of path groupoids_,  J. Pure Appl. Algebra __149__  (2000),  no. 1, 69--100, [doi](http://dx.doi.org/10.1016/S0022-4049%2898%2900164-9)
 
 * A. Joyal, R. Street, _Pullbacks equivalent to pseudopullbacks_, Cahiers topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 34 (1993) 153-156; [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_2_153_0) MR94a:18004.
 
@@ -16,7 +16,7 @@ Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du 
 
 * A. Joyal, R. Street, _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991. 
 
-* A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, <a href="http://dx.doi.org/10.1016/0001-8708(91)90003-P">doi</a>; _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, <a href="http://dx.doi.org/10.1016/0022-4049(91)90039-5">doi</a>; _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, <a href="http://dx.doi.org/10.1006/aima.1993.1055">doi</a>.
+* A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, [doi](http://dx.doi.org/10.1006/aima.1993.1055).
 
 * A. Joyal, R. Street, D. Verity, _Traced monoidal categories_.  Math. Proc. Cambridge Philos. Soc.  __119__  (1996),  no. 3, 447--468. 
 
@@ -30,4 +30,7 @@ Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du 
 
 * A. Joyal, A letter to Grothendieck, April 1983 (contains a Quillen model structure on simplicial presheaves). 
 
+
 category: people
+
+[[!redirects André Joyal]]
