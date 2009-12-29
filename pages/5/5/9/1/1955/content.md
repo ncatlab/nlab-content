@@ -15,4 +15,4 @@ Compare the role of [[universal differential envelope]] and [[Amitsur complex]] 
 
 [[!redirects Kahler differential]]
 [[!redirects Kahler differentials]]
-[[!redirects K&#228;hler differentials]
+[[!redirects Kähler differentials]]
