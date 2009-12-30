@@ -72,19 +72,19 @@ The search for $\infty$-stacks probably began with [[Alexander Grothendieck]] in
 
 The notion of $\infty$-stacks can be set up in various notions of $\infty$-categories. [[Andre Joyal]], Jardine, [[Bertrand Toen]] and others have developed the theory of $\infty$-stacks in the context of [[simplicial presheaf|simplicial presheaves]] and also in [[Segal category|Segal categories]].
 
-* B. To&#235;n, G. Vezzosi, _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005), no. 2, 257--372, [doi](http://dx.doi.org/10.1016/j.aim.2004.05.004), _Homotopical Algebraic Geometry II: geometric stacks and applications_, [math.AG/0404373](http://front.math.ucdavis.edu/0404.5373)
+* [[Bertrand Toën]], G. Vezzosi; _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005), no. 2, 257--372, [doi](http://dx.doi.org/10.1016/j.aim.2004.05.004), _Homotopical Algebraic Geometry II: geometric stacks and applications_, [math.AG/0404373](http://front.math.ucdavis.edu/0404.5373)
 
-* B. To&#235;n, G. Vezzosi, _Segal topoi and stacks over Segal categories_, [math.AG/0212330](http://arxiv.org/abs/math.AG/0212330). 
+* [[Bertrand Toën]], G. Vezzosi; _Segal topoi and stacks over Segal categories_, [math.AG/0212330](http://arxiv.org/abs/math.AG/0212330). 
 
-* [[Bertrand Toen]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504)).
+* [[Bertrand Toën]]; _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504)).
 
 This concerns $\infty$-stacks with values in [[∞-groupoids]], i.e. $(\infty,0)$-categories. More generally [[descent]] conditions for $n$-stacks and $(\infty,n)$-stacks with values in [[(infinity,n)-category|(∞,n)-categories]] have been earlier discussed in
 
-* [[Andre Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs_ ([arXiv](http://arxiv.org/abs/math/9807049))
+* [[Andre Hirschowitz]], [[Carlos Simpson]]; _Descente pour les $n$-champs_ ([arXiv](http://arxiv.org/abs/math/9807049))
 
 All this has been embedded into a coherent global theory in the setting of [[quasicategory|quasicategories]] in
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]]; [[Higher Topos Theory]]
 
 
 [[!redirects infinity-stacks]]
