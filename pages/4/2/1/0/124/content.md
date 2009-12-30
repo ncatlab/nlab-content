@@ -6,9 +6,9 @@
 * autamatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
-A topos is a [[category]] that resembles the category of sets and functions enough that we can use it as a 'universe' to do ordinary mathematics in.  Ordinary mathematical reasoning (with some restrictions) suffices to prove results [[internalisation|internal]] to any topos.
+A topos is a [[category]] that resembles the category [[Set]] of sets and functions enough that we can use it as a 'universe' to do ordinary mathematics in.  Ordinary mathematical reasoning (with some restrictions) suffices to prove results [[internalisation|internal]] to any topos.
 
 A topos in this sense is sometimes called an __elementary topos__ or a __Lawvere--Tierney topos__ to distinguish it from the original but more specific [[Grothendieck topos]].
 
@@ -17,7 +17,7 @@ For a longer introduction, try:
 * John Baez, [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
 
 
-# Definition #
+## Definition 
 
 A quick formal definition is that an **(elementary) topos** is a category which
 
@@ -40,7 +40,7 @@ In a way, however, these concise definitions can be misleading, because a topos 
 The last two imply that it has an [[internal logic]] that resembles ordinary mathematical reasoning, and the presence of exponentials and power objects means that this logic is [[higher order logic|higher order]].
 
 
-# Reasoning in a topos #
+## Reasoning in a topos 
 
 Any result in ordinary mathematics whose proof is [[finite mathematics|finitist]] and [[constructive mathematics|constructive]] automatically holds in any topos.  If you remove the restriction that the proof be finitist, then the result holds in any topos with a [[natural numbers object]]; if you remove the restrictions that the proof be constructive, then the result holds in any [[boolean topos]].  On the other hand, if you add the restriction that the proof be predicative in the weaker sense used by constructivists, then the result may fail in some toposes but holds in any $\Pi$-[[Pi-pretopos|pretopos]]; if you add the restriction that the proof by predicative in a stronger sense, then the result holds in any [[Heyting pretopos]].
 
@@ -48,7 +48,19 @@ Therefore, one can prove results in toposes and similar categories by reasoning,
 
 For more on this idea, see [[internal logic]].
 
-# Special classes #
+## Examples {#Examples}
+
+* The archetypical topos is [[Set]]. Notice that this happens to be a [[Grothendieck topos]]: this is the [[category of sheaves]] on the [[point]].
+
+* For $C$ any [[site]], the [[category of sheaves]] $Sh(C)$ is a [[Grothendieck topos]]. Notice that this in particular includes the case where the [[Grothendieck topology]] is the trivial one, so that also all categories of [[presheaf|presheaves]] are toposes.
+
+* This includes examples that as the catgeory $G Set$ of [[set]]s equipped with the [[action]] of a [[group]] $G$: this is the topos of presheaves on the category $\mathbf{B}G$ which is the [[delooping]] [[groupoid]] of $G$.
+
+* A standard example of a topos that is not a Grothendieck topos is...
+
+
+
+### Special classes 
 
 For various applications one uses toposes that have [[stuff, structure, property|extra structure or properties]].
 
@@ -57,7 +69,7 @@ For various applications one uses toposes that have [[stuff, structure, property
 * In the [[foundations]] of mathematics, one often studies [[well-pointed toposes]], especially models of [[ETCS]] as potential replacements for the category [[Set]].
 
 
-# Higher toposes # 
+## Higher toposes 
 
 The analogs of topos theory in [[higher category theory]] is [[higher topos theory]]. 
 
