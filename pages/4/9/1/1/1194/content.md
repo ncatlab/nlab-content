@@ -140,4 +140,6 @@ Blog discussions about the difference between type theory and set theory:
 
 
 [[!redirects dependent type theory]]
+[[!redirects dependent type]]
+[[!redirects dependent types]]
 [[!redirects type theories]]
