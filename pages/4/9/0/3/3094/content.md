@@ -7,7 +7,7 @@ A property of topological spaces is said to be **hereditary** if its satisfactio
 
 There is also a notion of a [[Grothendieck topology]] induced along a [[functor]] from a Grothendieck topology on another category (actually the input can be a somewhat more general [[coverage]], then the topology induced along the [[identity functor]] will serve as a sort of a completion). (this will be explained later).
 
-A topology may be induced by more than a [[function]] other than a subset inclusion, or indeed by a family of functions out of $Y$ (not necessarily all with the same [[target]]). However, the term 'induced topology' is often (usually?) restricted to subspaces; the general concept is called a [[weak topology]].  (This construction can be done in any [[topological concrete category]].)  The dual construction (involving functions to $Y$) is a [[strong topology]]; an example is the [[quotient topology]] on a [[quotient space]].
+A topology may be induced by more than a [[function]] other than a subset inclusion, or indeed by a family of functions out of $Y$ (not necessarily all with the same [[target]]). However, the term 'induced topology' is often (usually?) restricted to subspaces; the general concept is called a [[weak topology]].  (This construction can be done in any [[topological concrete category]]; in this generality it is often called an [[initial structure]] for a [[sink|source]].)  The dual construction (involving functions to $Y$) is a [[strong topology]] (or [[final structure]] for a [[sink]]); an example is the [[quotient topology]] on a [[quotient space]].
 
 
 [[!redirects subspace topology]]
