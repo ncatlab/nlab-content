@@ -24,7 +24,7 @@ The Weil algebra of a [[Lie algebra]] $\mathfrak{g}$ is the
    (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])
   $$
 
-* and equipped with a [[derivation]] $d : W(\mathvrak{g}) \to W(\mathfrak{g})$ that makes this a [[dg-algebra]], defined by the fact that on $\mathfrak{g}^*$ it acts as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ plus the degree shift morphism $\mathfrak{g}^* \to \mathfrak{g}^*$.
+* and equipped with a [[derivation]] $d : W(\mathfrak{g}) \to W(\mathfrak{g})$ that makes this a [[dg-algebra]], defined by the fact that on $\mathfrak{g}^*$ it acts as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ plus the degree shift morphism $\mathfrak{g}^* \to \mathfrak{g}^*$.
 
 This Weil algebra has trivial [[chain homology and cohomology|cohomology]] and sits in a sequence
 
