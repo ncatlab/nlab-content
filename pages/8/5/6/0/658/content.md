@@ -144,6 +144,32 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 ***
 
+## Notation ## {#notation}
+
+Profunctors are often notated with a slashed or barred arrow, as in $C &#x21F8; D$.  It is not always obvious how to draw this character, so here are some hints.
+
+* On the nLab (or anywhere on the web, really), it can be found using a Unicode entity: `&#x21F8;`
+
+* In LaTeX, one can use `\nrightarrow` in a pinch, but a nice-looking extensible barred arrow command can also be produced with the following preamble code (modified from amsmath's `\xrightarrow`):
+
+      \makeatletter
+      \def\slashedarrowfill@#1#2#3#4#5{%
+        $\m@th\thickmuskip0mu\medmuskip\thickmuskip\thinmuskip\thickmuskip
+         \relax#5#1\mkern-7mu%
+         \cleaders\hbox{$#5\mkern-2mu#2\mkern-2mu$}\hfill
+         \mathclap{#3}\mathclap{#2}%
+         \cleaders\hbox{$#5\mkern-2mu#2\mkern-2mu$}\hfill
+         \mkern-7mu#4$%
+      }
+      \def\rightslashedarrowfill@{%
+        \slashedarrowfill@\relbar\relbar\mapstochar\rightarrow}
+      \newcommand\xslashedrightarrow[2][]{%
+        \ext@arrow 0055{\rightslashedarrowfill@}{#1}{#2}}
+      \makeatother
+
+* In Xypic, a barred arrow can be produced with `\ar[r]|-@{|}`.
+
+
 ## Discussion ##
 
 On a previous version of this entry with opposite convention on where to put the ${}^{op}$ [[Todd Trimble|Todd]] has remarked
