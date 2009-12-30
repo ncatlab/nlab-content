@@ -153,6 +153,7 @@ The definition of the categories $\Theta_n$ goes back to [[Andre Joyal]] who als
 The note on the $(n+1,k+1)$-$\Theta$-space of all $(n,k)$-$\Theta$-spaces comes from communication with [[Charles Rezk]] [here](http://mathoverflow.net/questions/5867/n1-r1-theta-space-of-n-r-theta-spaces).
 
 
+[[!redirects Theta space]]
 [[!redirects Theta-Space]]
 [[!redirects ? Space]]
 [[!redirects ∞-Space]]
