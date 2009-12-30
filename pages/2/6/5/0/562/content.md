@@ -15,6 +15,8 @@ There is an [[equivalence of categories|equivalence]] of [[strict 2-category|2-c
 By the way, this sort of thing (by which I mean, the cohomology class that classifies some categorical structure arising as the trace of a coherence isomorphism) happens in lots of other places too.  For instance, a [[2-group]] is classified by a group $G$, an abelian group $H$, an action of $G$ on $H$, and an element in $H^3(G;H)$.  If you replace a 2-group by a [[skeleton|skeletal]] one, then $G$ is the group of objects (which is strictly associative and unital, by skeletality), $H$ is the group of endomorphisms of the unit, and the action is defined by "whiskering".  The cohomology class comes from the [[associator]] isomorphism, which can (and often must) still be nontrivial even though the multiplication is "strictly associative" at the level of objects (by skeletality).
 
 _Toby_:  So the multiplication is strictly associative, but the $2$-group itself is not a strict $2$-group, since it uses a different associator than the identity.  As in the example of the pseudofunctor from $Z_2$ to $Cat$, there is some additional structure here which is not trivial, even though it seems like it could be.
+
+[[Sridhar Ramesh]]: Ah, of course, that's what I was missing. Thanks, both of you; that clears it all up.
 =--
 
 # Definition #
