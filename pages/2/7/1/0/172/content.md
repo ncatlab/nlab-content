@@ -10,10 +10,9 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
-The notion of $\infty$-stack is the $\infty$-[[vertical categorification|categorification]] of [[sheaf]] and [[stack]]. Where a sheaf is a [[presheaf]] with values in [[Set]] that satisfies the sheaf condition,
-an [[higher category theory|∞-category]]-valued ([[pseudofunctor|pseudo]])[[presheaf]] is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[cover]] or [[hypercover]] $Y^\bullet \to X$: if the canonical morphism
+The notion of $\infty$-stack is the $\infty$-[[vertical categorification|categorification]] of [[sheaf]] and [[stack]]. Where a sheaf is a [[presheaf]] with values in [[Set]] that satisfies the sheaf condition, an [[higher category theory|∞-category]]-valued ([[pseudofunctor|pseudo]])[[presheaf]] is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[cover]] or [[hypercover]] $Y^\bullet \to X$: if the canonical morphism
 
 $$
   \mathbf{A}(X) \to
@@ -24,9 +23,9 @@ is an equivalence. This is the _descent condition_.
 
 One important motivation for $\infty$-stacks is that they generalize the notion of [[Grothendieck topos]] from [[category theory|1-categorical]] to [[higher category theory|higher categorical context]].
 
-This is a central [[motivation for sheaves, cohomology and higher stacks|motivation for considering higher stacks]]. 
+This is a central [[motivation for sheaves, cohomology and higher stacks|motivation for considering higher stacks]]. They may also be thought of as [[internal ∞-groupoid]]s in a [[Grothendieck topos|sheaf topos]].
 
-# Definition #
+## Definition 
 
 A well developed theory exists for $\infty$-stacks that are sheaves with values in [[∞-groupoids]]. given that ordinary sheaves may be thought of as sheaves of [[0-category|0-categories]] and that $\infty$-groupoid-values sheaves may be thought of as sheaves of [[(infinity,0)-category|(∞,0)-categories]], these may be called [[(infinity,1)-sheaf|(∞,1)-sheaves]]. In the case that these $\infty$-groupoids have vanishing [[homotopy groups]] above some degree $n$, these are sometimes also called [[sheaves of n-types|sheaf of n-types]].
 
@@ -54,17 +53,18 @@ This allows to regard various old technical results in a new conceptual light an
 
 In particular this implies that the old definition of [[abelian sheaf cohomology]] is secretly the computation of [[∞-stackification]] for $\infty$-stacks that are in the image of the [[Dold-Kan correspondence|Dold-Kan embedding]] of [[chain complex]]es of sheaves into [[simplicial presheaves|simplicial sheaves]].
 
-## Derived $\infty$-stacks ##
+### Derived $\infty$-stacks
 
 Notice that an $\infty$-stack is a [[(∞,1)-presheaf]] for which not only the codomain is an [[(∞,1)-category]], but where also the domain, the [[site]], may be an [[(∞,1)-category]].
 
 To emphasize that one considers $\infty$-stacks on higher categorical sites one speaks of [[derived stacks]].
 
-## Higher $\infty$-stacks ##
+### Higher $\infty$-stacks 
 
 The above concerns $\infty$-stacks with values in [[∞-groupoids]], i.e, [[(∞,0)-category|(∞,0)-categories]]. More generally there should be notions of $\infty$-stacks with values in  [[(n,r)-category|(n,r)-categories]]. These are expected to be modeled by the [[model structure on homotopical presheaves]] with values in the category of [[Theta spaces]].
 
-#References#
+
+## References
 
 The study of $\infty$-stacks is known in parts as the study of [[nonabelian cohomology]]. See there for further references.
 
