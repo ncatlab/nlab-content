@@ -1,0 +1,5 @@
+**Whitehead product** is certain bilinear operation taking as input two classes $\alpha\in\pi_r(X),\beta\in\pi_s(X)$ in homotopy groups of a pointed [[CW-complex]] $X$ and producing a third class $[\alpha,\beta]_{Wh}\in\pi_{r+s-1}(X)$; this operation satisfying a graded Jacobi identity (the conventions on the signs are not uniform in the literature). 
+
+There is also a **generalized Whitehead product** where we can take more general homotopy classes $\alpha\in [S^\cdot Y,X]$, $\beta\in [S^\cdot Z,X]$ to produce a class $[\alpha,\beta]_{Wh}\in[Y\star Z,X]$. Here $S^\cdot$ denotes the reduced suspension operation on pointed spaces and $\star$ denotes the [[join of spaces|join]] of CW-complexes. Notice that $pt\star Z = C^\cdot(Z)$ and the reduced cone of a point is $C^\cdot(pt)=S^1$. Thus for $Y=Z=pt$ the generalized Whitehead product reduced to the usual Whitehead product.
+
+See [wikipedia](http://en.wikipedia.org/wiki/Whitehead_product)
