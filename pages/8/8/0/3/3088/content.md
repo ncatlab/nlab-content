@@ -60,13 +60,9 @@ There are various ([[Quillen equivalence|Quillen equivalent]]) [[model category]
 
 ### Comparison {#Comparison}
 
-The two definitions are *not* equivalent.  Consider, for instance, a Grothendieck topos $C = Sh(S)$ and an [[internal groupoid]] in $C$, i.e. a sheaf of groupoids on $S$, but which is not a [[stack]].  Then the [[nerve]] of this internal groupoid will satisfy the Kan conditions in the sense of the first definition (by repeating the usual proof that the nerve of a groupoid is a Kan complex in the internal logic), but it will not be fibrant as a simplicial sheaf (since it is not a stack).
+The two definitions are *not* equivalent even when $C$ is a Grothendieck topos; the second is strictly stronger.  Consider, for instance, a Grothendieck topos $C = Sh(S)$ and an [[internal groupoid]] in $C$, i.e. a sheaf of groupoids on $S$, but which is not a [[stack]].  Then the [[nerve]] of this internal groupoid will satisfy the Kan conditions in the sense of the first definition (by repeating the usual proof that the nerve of a groupoid is a Kan complex in the internal logic), but it will not be fibrant as a simplicial sheaf (since it is not a stack).
 
-+--{: .query}
-[[Mike Shulman]]: I'm guessing that the converse is true, though: that every fibrant simplicial sheaf satisfies the Kan conditions in the internal logic.  But I don't know enough about the model structures on simplicial sheaves to prove that.
-
-[[Urs Schreiber]]: yes, should be true. I typed the argument in the following:
-=--
+On the other hand, it is true that every fibrant simplicial sheaf satisfies the Kan conditions in the internal logic, by the following argument:
 
 1. The fibrant objects in any local [[model structure on simplicial sheaves]] in particular have the property that they are sheaves with values in Kan complexes.
 
@@ -87,6 +83,8 @@ So also the fibrant objects in $Sh(S,SSet)_{inj,proj}^{loc}$ are in particular K
    $$
 
 Therefore fibrant $X \in Sh(S,SSet)$ have the property that for all $n, k$ the canonical morphism $X_n \to X^{\Lambda_k[n]}$ is a surjection when pulled back to any representable $U \to X$. In particular, the morphism is a [[stalk]]wise epimorphism, hence an [[epimorphism]] of sheaves.
+
+Note that the local model structure on simplicial sheaves also contains information about the *cofibrant* objects, which (it can be argued) are necessary to get the right notion of *morphism* between "internal $\infty$-groupoids."  Every Kan complex in $Set$ is cofibrant, but the same cannot be expected to be true everywhere, and in general a (weak) "internal $\infty$-functor" should be expected to be a map out of a cofibrant replacement.
 
 ## Examples
 
