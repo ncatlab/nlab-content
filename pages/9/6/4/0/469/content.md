@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 A closed monoidal category is a [[monoidal category]] that is also a [[closed category]], in a compatible way.
 
 
