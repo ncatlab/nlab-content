@@ -146,11 +146,13 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 ## Notation ## {#notation}
 
-Profunctors are often notated with a slashed or barred arrow, as in $C &#x21F8; D$.  It is not always obvious how to draw this character, so here are some hints.
+Profunctors are often notated with a slashed or barred arrow, as in $C &#x21F8; D$, which is U+21F8 in Unicode.  It is not always obvious how to draw this character, so here are some hints.
 
-* On the nLab (or anywhere on the web, really), it can be found using a Unicode entity: `&#x21F8;`
+* On the nLab (or anywhere that accepts SGML character entities, including raw HTML on the web), it can be found using a Unicode entity:
 
-* In LaTeX, one can use `\nrightarrow` in a pinch, but a nice-looking extensible barred arrow command can also be produced with the following preamble code (modified from amsmath's `\xrightarrow`):
+      &#x21F8;
+
+* In LaTeX, one can use `\nrightarrow` (producing '$\nrightarrow$') in a pinch, but a nice-looking extensible barred arrow command can also be produced with the following preamble code (modified from amsmath's `\xrightarrow`):
 
       \makeatletter
       \def\slashedarrowfill@#1#2#3#4#5{%
@@ -167,7 +169,9 @@ Profunctors are often notated with a slashed or barred arrow, as in $C &#x21F8; 
         \ext@arrow 0055{\rightslashedarrowfill@}{#1}{#2}}
       \makeatother
 
-* In Xypic, a barred arrow can be produced with `\ar[r]|-@{|}`.
+* In Xypic, a barred arrow (to the right, in this example) can be produced with
+
+      \ar[r]|-@{|}
 
 
 ## Discussion ##
@@ -179,6 +183,7 @@ _Todd_: There is an inevitable debate here about whether one should use $C^{op} 
 
 [[Mike Shulman|Mike]]: My convention is $D^{op}\otimes C$.  I agree with your reasoning for why $D$ should be contravariant; I like to put it first because in the hom-functor $C(-,-)$ the contravariant variable appears first.
 =--
+
 
 [[!redirects profunctor]]
 [[!redirects profunctors]]
