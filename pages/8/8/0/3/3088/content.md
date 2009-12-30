@@ -30,14 +30,35 @@ $$
 
 There are various ([[Quillen equivalence|Quillen equivalent]]) [[model category]] structures on the categories of simplicial sheaves or presheaves on a small site; see [[model structure on simplicial presheaves]] and [[model structure on simplicial sheaves]] for more.  An $\infty$-groupoid in $C$ may be taken to be a fibrant object with respect to one of these model category structures.
 
-### Comparison
+### Comparison {#Comparison}
 
 The two definitions are *not* equivalent.  Consider, for instance, a Grothendieck topos $C = Sh(S)$ and an [[internal groupoid]] in $C$, i.e. a sheaf of groupoids on $S$, but which is not a [[stack]].  Then the [[nerve]] of this internal groupoid will satisfy the Kan conditions in the sense of the first definition (by repeating the usual proof that the nerve of a groupoid is a Kan complex in the internal logic), but it will not be fibrant as a simplicial sheaf (since it is not a stack).
 
 +--{: .query}
 [[Mike Shulman]]: I'm guessing that the converse is true, though: that every fibrant simplicial sheaf satisfies the Kan conditions in the internal logic.  But I don't know enough about the model structures on simplicial sheaves to prove that.
+
+[[Urs Schreiber]]: yes, should be true. I typed the argument in the following:
 =--
 
+1. The fibrant objects in any local [[model structure on simplicial sheaves]] in particular have the property that they are sheaves with values in Kan complexes.
+
+   Here a reminder on why this is so. The local [[model structure on simplicial sheaves|model structures on simplicial sheaves]] are left [[Bousfield localization]]s of the injective or projective [[global model structure on functors]]. So their fibrant objects are in particular fibrant in $[S^{op},SSet]_{proj/inj}$. The fibrant objects in $[S^{op}, SSet]_{proj}$ are (by definition of projective fibrations) precisely the objectwise Kan complexes. The fibrant objects in $[S^{op},SSet]_{inj}$ are less, but still contained in the collection of objectwise Kan complexes.
+So also the fibrant objects in $Sh(S,SSet)_{inj,proj}^{loc}$ are in particular Kan complex valued sheaves (that in addition satisfy a [[descent]] condition).
+
+1. The [[weighted limit]]s over simplicial sheaves, or analogously the [[power]]ing of $Sh(S,SSet)$ over [[SSet]] works objectwise, so that for $X \in Sh(S,SSet)$ we have
+
+   $$
+     X^{\Lambda_k[n]} : U \mapsto SSet(\Lambda_k[n],X(U))
+   $$
+
+   and of course
+
+   $$
+     X_n = X^{\Delta[n]} : U \mapsto SSet(\Delta[n],X(U)) = X(U)_n
+     \,.
+   $$
+
+Therefore fibrant $X \in Sh(S,SSet)$ have the property that for all $n, k$ the canonical morphism $X_n \to X^{\Lambda_k[n]}$ is a surjection when pulled back to any representable $U \to X$. In particular, the morphism is a [[stalk]]wise epimorphism, hence an [[epimorphism]] of sheaves.
 
 ## Examples
 
