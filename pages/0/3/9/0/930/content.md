@@ -1,3 +1,8 @@
+# Hopf--Galois extensions
+* tic
+{: toc}
+
+
 ##Definition##
 
 Let $H$ be a $k$-[[bialgebra|bialgebra]] and $E$, say, a right $H$-comodule algebra (i.e. a [[monoid]] in the category of right $H$-[[comodule]]s) with coaction $\rho:E\to E\otimes H$.
@@ -6,7 +11,8 @@ The subalgebra $U = E^{\mathrm{co}H}$ of $H$-coinvariants in $E$ consists of all
 
 The $k$-algebra **extension** $U\hookrightarrow E$ is __Hopf--Galois__ over $H$ if the natural map $E\otimes_U E\to E\otimes H$ given by the $k$-linear extension of the formula $e\otimes e'\mapsto (e\otimes_k 1)\rho(e')$ is a bijection (hence a $k$-module isomorphism). 
 
-A **Hopf-Galois object** over a $k$-bialgebra $H$ is any Hopf-Galois extension $k\hookrightarrow E$ over $H$ of the ground field (or ring) $k$. It is a dual (and noncommutative) analogue to a torsor over a point. 
+A **Hopf--Galois object** over a $k$-bialgebra $H$ is any Hopf-Galois extension $k\hookrightarrow E$ over $H$ of the ground field (or ring) $k$. It is a dual (and noncommutative) analogue to a torsor over a point. 
+
 
 ##Classical Galois extensions as a special case##
 
