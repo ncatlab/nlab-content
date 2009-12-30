@@ -10,12 +10,51 @@
 
 ## Idea
 
-In as much as a [[Chevalley-Eilenberg algebra]] of a Lie $\infty$-[[Lie infinity-algebroid|algebroid]] is the algebra of functions on an [[NQ-supermanifold]] $\mathbf{X}$, the **Weil algebra** is the algebra of functions on the [[shifted tangent bundle]] $T[1] \mathbf{X}$.
+Ordinarily one speaks of the Weil algebra of a [[Lie algebra]] $\mathfrak{g}$. We briefly recall this concept and then observe its [[abstract nonsense]] meaning from the [[nPOV]] as a [[mapping cone]].
 
-Over a [[contractible space|contractible]] base space the Weil algebra may also be understood as the [[mapping cone]] of the identity on the [[Chevalley-Eilenberg algebra]].
+### Weil algebra of a Lie algebra 
+
+
+The Weil algebra of a [[Lie algebra]] $\mathfrak{g}$ is the 
+
+* the graded [[Grassmann algebra]] generated from the dual [[vector space]] $\mathfrak{g}^*$ together with another copy of $\mathfrak{g}^*$ shifted in degree
+
+  $$
+    W(\mathfrak{g}) := \wedge^\bullet 
+   (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])
+  $$
+
+* and equipped with a [[derivation]] $d : W(\mathvrak{g}) \to W(\mathfrak{g})$ that makes this a [[dg-algebra]], defined by the fact that on $\mathfrak{g}^*$ it acts as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ plus the degree shift morphism $\mathfrak{g}^* \to \mathfrak{g}^*$.
+
+This Weil algebra has trivial [[chain homology and cohomology|cohomology]] and sits in a sequence
+
+$$
+  CE(\mathfrak{g}) \leftarrow W(\mathfrak{g})
+  \leftarrow inv(\mathfrak{g})
+$$
+
+with the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ and its algebra of [[invariant polynomial]]s on $\mathfrak{g}$. This may be understood as a model for the sequence of algebras of differential forms on the [[generalized universal bundle|universal G-bundle]]
+
+$$
+  G \to \mathcal{E}G \to \mathcal{B}G
+  \,.
+$$
+
+As such, the Weil algebra plays a crucial role in the study of the [[Lie algebra cohomology]] of $\mathfrak{g}$.
+
+### General interpretation as a mapping cone
+
+We observe that the Weil [[dg-algebra]] $W(\mathfrak{g})$ defined this way is the [[mapping cone]] object of the identity morphism on the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ in the [[model structure on dg-algebras]] $dgAlg^{op}$.
+
+Another way to say this is: in as much as a [[Chevalley-Eilenberg algebra]] of a Lie $\infty$-[[Lie infinity-algebroid|algebroid]] is the algebra of functions on an [[NQ-supermanifold]] $\mathbf{X}$, the **Weil algebra** is the algebra of functions on the [[shifted tangent bundle]] $T[1] \mathbf{X}$.
 
 One can also understand this as generalizing the notion of [[superdifferential form]] from ordinary [[supermanifold]]s to [[NQ-supermanifolds]].
 
+### Weil algebra of an $L_\infty$-algebra
+
+Since every [[L-infinity-algebra]] $\mathfrak{g}$ is equally defined by its [[Chevalley-Eilenberg algebra]], the interpretation of the Weil algebra as a mapping cone gives a definition of Weil algebras of $L_\infty$-algebras. And of [[L-infinity-algebroid]]s.
+
+...
 
 ## Definition
 
