@@ -19,3 +19,6 @@ $$ \array {
 } $$
 
 Confusingly, this dual concept is called a __source__ from $Y$ in $C$, even though the term 'source' has another meaning, one which we just used in the definition!  One can of course say 'domain' instead of 'source' for this other meaning, but that leads to [[domain|other confusions]].  Or one can say 'cosink' for a source in the sense dual to a sink, since a source from $Y$ in $C$ is the same as a sink to $Y$ in the [[opposite category]] $C^{\mathrm{op}}$.
+
+
+[[!redirects cosink]]
