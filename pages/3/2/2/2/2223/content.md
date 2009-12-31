@@ -5,3 +5,6 @@ A subgroup $N$ is normal iff the [[partition]] of the group into left *cosets* o
 A normal subgroup is a [[normal subobject]] of a group in the [[Grp|category of groups]]: the more general notion of 'normal subobject' makes sense in [[semiabelian category|semiabelian categories]] and some other setups. If we consider a group as a special case of an $\Omega$-[[Omega-group|group]], then a normal subgroup corresponds to an [[ideal of an Omega-group|ideal]]. 
 
 Of course, every subgroup of an [[abelian group]] is normal.  
+
+
+[[!redirects normal subgroups]]
