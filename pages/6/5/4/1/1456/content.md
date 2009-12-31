@@ -4,4 +4,7 @@ By the [[microcosm principle]], in order to define monoid objects in $C$, $C$ it
 
 Compare to a [[group object]], which in contrast can only be defined using finite [[product]]s, rather than an arbitrary monoidal structure on the category $C$.
 
+
 [[!redirects monoid objects]]
+[[!redirects internal monoid]]
+[[!redirects internal monoids]]
