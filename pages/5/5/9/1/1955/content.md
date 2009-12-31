@@ -3,6 +3,10 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+The point of K&#228;hler differentials is a [[universal property|universality property]]: if $X:A\to M$ is any [[derivation]] from a [[Ring|commutative unital ring]] $A$ to an $A$-[[module]] $M$, then there is a unique $A$-module morphism $\mu:\Omega_K(A)\to M$ such that $X(a)=\mu(d a)$, and conversely, for each $A$-module morphism $\mu:\Omega_K(A)\to M$ there is a derivation from $A$ to $M$, satisfying that relation.
+
 ## Definition
 
 Given a [[morphism]] of [[commutative unital rings]] $f:R\to S$, the __module of K&#228;hler differentials__ is the $S$-[[module]] $\Omega^1_{S/R}$ corepresenting the functor
@@ -36,6 +40,10 @@ Similarly, if $R$ is in characteristic zero, one introduces **K&#228;hler $p$-fo
 
 Compare the role of [[universal differential envelope]] and [[Amitsur complex]] for  analogous constructions in the noncommutative case. The appropriate extension of the module of relative K&#228;hler differentials to the derived setting is the [[cotangent complex]] of Grothendieck--Illusie. 
 
+## Reference
+
+* This Week's Finds in Mathematical Physics ([Week 287](http://math.ucr.edu/home/baez/week287.html))
+  * See also the discussion at the n-Cafe ([Summary](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_48.html#c030626))
 
 [[!redirects Kahler differential]]
 [[!redirects Kahler differentials]]
