@@ -9,6 +9,9 @@
 [[Eric]]: Good idea, but maybe too much for any one person, so if you find your blog listed here, please provide a note about it. Note: I added a blurb to the _The n-Category Caf&#233;_ for a sample.
 =--
 
+# Math Overflow #
+
+[Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
 
 # Mathematics Blogs #
 
@@ -218,8 +221,6 @@ http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.htm
 # Other Resources #
 
 * Luca Trevisan's [LaTeX to Wordpress converter](http://lucatrevisan.wordpress.com/latex-to-wordpress)
-
-* The nascent [mathoverflow.net](http://mathoverflow.net/), a site for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
 
 * This nifty [script] (http://www.junkdrawerblog.com/2008/01/cant-read-light-text-on-dark-backgrounds.html) fixes the eyestrain caused by poorly designed blog [contrasts](http://blog.teleonetics.com/2008/02/28/concept-identity-vs-concept-similarity-2/). 15 seconds to install, works for Firefox only. 
 
