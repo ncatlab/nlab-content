@@ -8,3 +8,4 @@ The __core__ of an $n$-[[n-category|category]] is the $n$-[[n-groupoid|groupoid]
 
 
 [[!redirects underlying groupoid]]
+[[!redirects cores]]
