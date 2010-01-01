@@ -26,6 +26,9 @@ $$
 
 of [[L-∞-algebra]]s to the [[strict Lie 2-algebra]] of derivations of $\mathfrak{k}$.
 
+A generalization (indeed a [[horizontal categorification]]) is [[nonabelian Lie algebroid cohomology]].
+
+
 ## Nonabelian 2-cocycles
 
 Let $F$ be a field. **Lie algebra factor system** (or a **nonabelian 2-cocycle**) on a $F$-Lie algebra $\mathfrak{b}$ with coefficients in $F$-Lie algebra $\mathfrak{k}$ is a pair $(\chi,\psi)$ where $\chi: \mathfrak{b}\wedge \mathfrak{b}\to\mathfrak{k}$ and $\psi:\mathfrak{b}\to Der(\mathfrak{k})$ are $F$-linear maps satisfying
@@ -44,6 +47,7 @@ $$
 $$
 
 where $a,b\in B$ and $ad_{\mathfrak{k}}:\mathfrak{k}\to Int(\mathfrak{k})$ is the canonical map into inner automorphisms $k\mapsto [k,]$. 
+
 
 ## Schreier's theory for Lie algebras
 
@@ -74,6 +78,7 @@ Then
 (iii) If the 2-cocycle is obtained from a Lie algebra extension $0\to \mathfrak{k}\overset{i_0}\to \mathfrak{g}_0\overset{p_0}\to\mathfrak{b}\to 0$ and an arbitrary $F$-linear section $\sigma_0$ of $p_0$, then the map $can_\sigma:\mathfrak{g}_0\to\mathfrak{g}$ given by $g\mapsto (p(g),-\sigma(p(g))+g)$ is well-defined and a Lie algebra isomorphism such that $can_\sigma\circ i_0=i$, $p_0=p\circ can_\sigma$, hence the two extensions are isomorphic. 
 
 In addition to the problem of extensions, nonabelian 2-cocycles appear in a more general problem of liftings of Lie algebras. 
+
 
 ## Abstract definition {#AbstractDefinition}
 
@@ -384,18 +389,15 @@ There is a slight gap here, concerning the fact that $CE(Der(\mathfrak{k}))$ may
 =--
 
 
-
 ## References
 
 * G. Hochschild, _Lie algebra kernels and cohomology_, Amer. J. Math. __76__, n.3 (1954) 698--716.
 
-The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg-MacLane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with differential geometry:
+The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg--Mac Lane work on group extension, among first by Hochschild and then by many others till nowdays. Here is a recent online account emphasising parallels with differential geometry:
 
 *  Dmitri Alekseevsky, Peter W. Michor, Wolfgang Ruppert, Extensions of Lie algebras
 [math.DG/0005042](http://arxiv.org/abs/math/0005042)
 
-More conceptual picture is in a work of Danny Stevenson which extends also to its categorification, extensions of Lie 2-algebras. See
+A more conceptual picture is in a work of [[Danny Stevenson]] which extends also to its [[categorification]], extensions of [[Lie 2-algebra]]s. See
 
 * Danny Stevenson, Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
-
-A generalization is [[nonabelian Lie algebroid cohomology]].
