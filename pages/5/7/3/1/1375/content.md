@@ -37,17 +37,16 @@ $$
   \,.
 $$
 
-A spectrum object is
+A prespectrum object is
 
-* a **spectrum below $n$** of $\beta_m$ is an equivalence for all $m \leq n$;
+* a **spectrum object** if $\beta_m$ is an equivalence for all for all $m \in \mathbb{Z}$ (a spectrum below $n$, if $\beta_m$ is an equivalence for all $m \leq n$);
 
-* a **suspension spectrum above $n$** if $\alpha_m$ is an equivalence for all $m \geq n$
+* a **suspension spectrum** if $\alpha_m$ is an equivalence for all $m \in \mathbb{Z}$ (a suspension spectrum above $n$, if $\alpha_m$ is an equivalence for all $m \geq n$).
 
-* a **spectrum object** if it is a spectrum object below $n$ for all $n \in \mathbb{Z}$.
 
 One writes
 
-* $Sp(C)$ for the full sub-$(\infty,1)$-category on spectrum objects in $C$;
+* $Sp(C)$ for the full sub-$(\infty,1)$-category of $Fun(\mathbb{Z} \times \mathbb{Z},C)$ on spectrum objects in $C$;
 
 * $Stab(C) := Sp(C_*)$ -- the **stabilization of $C$** for the $(\infty,1)$-category of spectrum objects in the $(\infty,1)$-category $C_*$ of [[pointed object]]s of $C$.
 
