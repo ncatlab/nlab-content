@@ -1,0 +1,67 @@
+# Idea
+
+The **folk model structure** on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[folk model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors.
+
+On this page we give a concise construction of the folk model structure, as well as two variants that make sense in the absence of the full [[axiom of choice]].
+
+* toc
+{:toc}
+
+## The classical version
+
+For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small categories]] and [[functors]].  We write $C_0$ for the set of objects of a small category $C$.  Define a functor to be:
+
+* a [[weak equivalence]] if it is an [[equivalence of categories]], or equivalently if it is [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]].
+
+* a [[cofibration]] if it is injective on objects.
+
+* a [[fibration]] if it is an [[isofibration]].
+
+We claim that this defines a model structure.  It is easy to verify that the weak equivalences satisfy the [[2-out-of-3 property]]; thus it remains to show that (acyclic cofibrations, fibrations) and (cofibrations, acyclic fibrations) are [[weak factorization systems]].
+
+Suppose given a square
+$$\array{A & \overset{f}{\to} & C\\
+  ^i\downarrow && \downarrow^p\\
+  B& \underset{g}{\to} & D}$$
+in which $i$ is a cofibration and $p$ a fibration.
+
+Suppose first that $p$ is acyclic.  It is easy to see that the acyclic fibrations are precisely the equivalences of categories that are surjective on objects.  Thus, since (mono, epi) is a [[weak factorization system on Set]], we can define $h_0\colon B_0\to C_0$ filling the square, and then full-faithfulness of $p$ gives a unique definition of $h$ on arrows.
+
+Now suppose that $i$ is acyclic, so that $i_0 \colon A_0 \to B_0$ is injective.  Since $i$ is essentially surjective, we can choose, for each $b\in B_0 \setminus A_0$, an isomorphism $\phi_b\colon i(a_b) \cong b$.  We then have $g(\phi_b)\colon p(f(a_b)) = g(i(a_b)) \cong g(b)$, so since $p$ is an isofibration, we can also choose, for each $b\in B_0$, an isomorphism $\psi_b\colon f(a_b) \cong c_b$ such that $p(\psi_b) = g(\phi_b)$.  Define $h_0\colon B_0\to C_0$ to be $f_0$ on the image of $i_0$ and to take $b\in B_0 \setminus A_0$ to $c_b$.  We can define $h$ on arrows by composing with the isomorphisms $\psi$ to make it a lifting.
+
+It remains to prove the factorization axioms.  Suppose given a functor $f\colon A\to B$.  First, define $C_0 = A_0 + B_0$, and make $C$ into a category in the unique way such that the map $C\to B$ induced by $f$ and $1_B$ is fully faithful.  Since it is surjective on objects, it is an acyclic fibration, and clearly the induced map $A\to C$ is injective on objects, i.e. a cofibration.
+
+Next, define $D$ to be the category of triples $(a,b,\phi)$ where $\phi\colon f(a)\cong b$ is an isomorphism in $B$.  In other words, it is the [[comma object|strict iso-comma category]] $(f/_\cong 1_b)$.  The projection $D\to B$ is easily shown to be an isofibration, while the functor $A\to D$ defined by $a \mapsto (a, f(a), 1_{f(a)})$ is an injective equivalence.
+
+This completes the proof.  Note that the two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[natural weak factorization system]]s produced from Richard Garner's modified small object argument).
+
+
+## Without choice
+
+In the absence of the axiom of choice, one must distinguish between *strong equivalences of categories*, which come with an inverse up to isomorphism, and *weak equivalences of categories*, which are merely fully faithful and essentially surjective on objects.  Since weak equivalences of categories still "preserve all categorical information," we might hope to find a model structure on $Cat$ whose weak equivalences are the *weak* equivalences of categories.  The notion of [[anafunctor]] also suggests such an approach, since an anafunctor (the "right" replacement for a functor in the absence of choice) is a particular sort of [[generalized morphism]]: a span $A\leftarrow F \to B$ of functors in which $F\to A$ is a surjective equivalence.
+
+If there is to be such a model structure, however, then since generalized morphisms between fibrant-and-cofibrant objects are all represented by ordinary ones, there must exist "cofibrant categories" and "fibrant categories" such that every anafunctor between fibrant-and-cofibrant categories is equivalent to an honest functor, and every category can be replaced by a fibrant and cofibrant one.  It seems unlikely that this would be true without *any* choice-like axioms, but notably weaker axioms than full AC do suffice.
+
+
+### The projective model structure
+
+For the existence of the model structure in this case, we assume [[COSHEP]], aka the "presentation axiom," namely that the category [[Set]] has enough [[projective objects]].  Define a functor $f\colon A\to B$ to be:
+
+* a [[weak equivalence]] if it is a weak equivalence of categories, i.e. [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective on objects]].
+
+* a [[cofibration]] if it is injective on objects, and $B_0\setminus f(A_0)$ is a projective object in $Set$.
+
+* a [[fibration]] if it is an [[isofibration]].
+
+As before, the acyclic fibrations are precisely the weak equivalences that are literally surjective on objects.  Now recall that assuming COSHEP, (monics with projective complement, epics) is a [[weak factorization system on Set]].  This supplies the lifting of cofibrations against acyclic fibrations.  Likewise, the factorization of $f\colon A\to B$ into a cofibration followed by an acyclic fibration is given by first factoring $f_0$ as $A_0 \to A_0 + B_0' \to B_0$, where $B_0'\to B_0$ is a projective cover.
+
+The other factorization works exactly as before, while for lifting acyclic cofibrations against fibrations, we notice that in the original proof, we only needed to apply choice for sets indexed by $B_0\setminus i(A_0)$, which we have assumed to be projective when $i\colon A\to B$ is a cofibration.
+
+Weak equivalences of categories are easily seen to satisfy the 2-out-of-3 property, so we have a model category.  Note that all categories are fibrant in this model structure, while the cofibrant categories are those whose set of objects is projective.
+
+The existence of this model structure implies, in particular, that under COSHEP the category $Ana(C,D)$ is essentially small, being in fact equivalent to the category $Fun(C',D)$ of ordinary functors where $C'$ is a cofibrant replacement for $C$.
+
+
+### The injective model structure
+
+Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's axiom of *small cardinality selection* sufficient for the existence of an "injective" model structure on Cat?
