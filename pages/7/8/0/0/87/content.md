@@ -1,3 +1,6 @@
+* toc
+{: toc}
+
 #Idea#
 
 **Anafunctors** are the proper notion of morphism to use between categories in a context where the [[axiom of choice]] fails. Functors, as normally defined, are really not the correct concept.
@@ -19,6 +22,8 @@ An anafunctor $F$ is __saturated__ if, whenever $F(x) \cong y$, $F_s(x) = y$ for
 
 Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be the set of objects in $C$. That every anafunctor is equivalent to a functor is equivalent to the axiom of choice, in which case the inclusion of functors into anafunctors is in fact an equivalence of categories. But if you ignore functors and deal only with anafunctors (or saturated anafunctors), then the theory is entirely [[constructive mathematics|constructive]] (without using the axiom of choice or even excluded middle). Theorems that classically required choice now don\'t require choice (and indeed become constructive) with anafunctors. Thus, anafunctors (or even saturated anafunctors) are the correct notion to use if you are a constructivist (at least as long as you [[foundations|found]] mathematics on some sort of [[set theory]] at all); but they are also often the correct notion to use in [[internal category]] theory.
 
+Categories, anafunctors, and a suitably defined notion of [[natural transformation]] between them form a 2-category $Cat_{ana}$, which admits a functor from $Cat$ that is not, in the absence of choice, an equivalence.  An internal [[equivalence]] in this 2-category is called an **anaequivalence**.
+
 
 #Definition (internal)#
 
@@ -29,13 +34,7 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 * every isomorphism is a cover,
 * covers are closed under composition,
 * any [[pullback]] of a cover exists and is a cover ([[pullback stability]]),
-* every cover is the [[quotient object]] of its [[kernel pair]] (equivalently, every cover is a [[regular epimorphism]]).
-
-+--{: .query}
-_David R_ says: aren't these two conditions  only equivalent if the category has pullbacks? That is what it says at [[regular epimorphism]]. A map being the quotient of its kernel pair is an effective epimorphism, is it not?
-
-_Mike_: I think it only <del>says</del> said that at regular epimorphism because <del>whoever wrote that sentence</del> I wasn't thinking about the case of categories that have _particular_ pullbacks but not all pullbacks.
-=--
+* every cover is the [[quotient object]] of its [[kernel pair]], i.e. is an [[effective epimorphism]].  (Since all pullbacks of covers exist, this is equivalent to saying that every cover is a [[regular epimorphism]].)
 
 Note that these are precisely the axioms saying that the singleton families $\{p:V\to U\}$ where $p$ is a cover form a [[subcanonical coverage|subcanonical]] [[Grothendieck pretopology]].  One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.
 
@@ -48,7 +47,7 @@ $$\array{F_1 & \to & C_1 \\ \downarrow && \downarrow \\ F_0\times F_0&   \to & C
 
 Note that assuming $F_0\to C_0$ is a cover, so is $F_0\times F_0\to C_0\times C_0$ (it is a composition of pullbacks of $F_0\to C_0$); thus the above pullback always exists.
 
-By the remarks above, if $S$ is [[Set]] and "cover" means "[[surjection]]" (an example where the covers are the regular epimorphisms), then we recover the original external notion of ([[small category|small]]) anafunctor.
+By the remarks above, if $S$ is [[Set]] and "cover" means "[[surjection]]" (an example where the covers are the regular epimorphisms), then we recover the original external notion of ([[small category|small]]) anafunctor.  An anafunctor, defined in this way, is saturated just when the map $core(F) \to core(C\times D)$ of [[cores]] is an [[isofibration]], and is an anaequivalence just when $F\to D$ is also a surjective equivalence.  (For [[Lie groupoid]]s, these are the [[Morita equivalence]]s.)
 
 If $C\leftarrow F \to D$ and $C\leftarrow G \to D$ are internal anafunctors, we define a __natural transformation__ between them to be a natural transformation between the two induced internal natural transformations $F\times_C G \to D$.  We can then prove that internal categories, anafunctors, and natural transformations form a [[bicategory]].  (Interestingly, you may need the axiom of choice in the [[metalogic]] to conclude this, depending on whether there is a natural way to choose the necessary pullbacks; else you get an [[anabicategory]], which is Makkai\'s version of a bicategory to be used in the absence of choice.)
 
@@ -66,24 +65,30 @@ In Section 1.1.5 of [HGT I][], the following additional axiom was assumed on the
 This is not needed for anafunctors but is used to relate descent to bundles (and then to $2$-bundles).
 
 
-
-
-
 #Homotopy-theoretic interpretation#
 
-Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a [[weak equivalence]] but an acyclic fibration.
+Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a [[weak equivalence]] but an acyclic fibration.  However, it appears that the folk model structure on Cat only exists (with its weak equivalences being the fully faithful and essentially surjective maps) under the assumption of some choice---though full AC is not needed, [[COSHEP]] suffices.
 
-More generally, it is proven in [EKV 2004][] that if $S$ has a Grothendieck coverage, then under suitable additional conditions on $S$, there is a [[model category|model structure]] on the category $Cat(S)$ of internal categories in $S$ relative to that coverage.  The internal anafunctors relative to the given coverage, as defined above, can then once again be identified with the spans whose first leg is an acyclic fibration.
+More generally, it is proven in [EKV 2004][] that if $S$ has a Grothendieck coverage, then under suitable additional conditions on $S$ (and, of course, the axiom of choice assumed external to $S$), there is a [[model category|model structure]] on the category $Cat(S)$ of internal categories in $S$ relative to that coverage.  The internal anafunctors relative to the given coverage, as defined above, can then once again be identified with the spans whose first leg is an acyclic fibration.
 
-An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
-(For [[Lie groupoid]]s, these are the [[Morita equivalence]]s).
+Since all objects in the folk model structure on Cat are fibrant, according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization, i.e. they represent all morphisms in the [[homotopy category]] $Ho(Cat)$.
 
-If we restrict from categories to groupoids, then according to the [[folk model structure|groupoid folk model structure]] by Brown-Golasinski all objects are _fibrant_ and then according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization of $Groupoids$ in that they represent all morphisms in the [[homotopy category]] $Ho(Groupoids)$.
-
-By the general idea of [[homotopical cohomology theory]]
+If we specialize to groupoids, with their folk model structure by Brown-Golasinski, then by the general idea of [[homotopical cohomology theory]]
 this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent|codescent]] such homotopical cocycles are related to [[descent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
 
-##Generalizations##
+
+# Questions of size #
+
+In general, it seems that even if $C$ and $D$ are [[small categories]], then the category $Ana(C,D)$ of anafunctors from $C$ to $D$ is not necessarily even essentially small, and thus the 2-category $Cat_{ana}$ of categories and anafunctors is not [[cartesian closed category|cartesian closed]].
+
+This is true, however, under the assumption of COSHEP, since in that case (as above) anafunctors represent maps in $Ho(Cat)$, which is locally small by general model category theory.  More specifically, under COSHEP every anafunctor $C\leftarrow F \to D$ is equivalent to one where the set of objects of $F$ is $C'_0$, where $C'_0\to C_0$ is a projective cover of the set $C_0$ of objects of $C$.  Moreover, COSHEP is stronger than necessary for this; all that is really needed is that for any set $X$, the full subcategory of $Set/X$ consisting of surjections has a [[weakly initial set]].  (COSHEP implies that it has a weakly initial *object*, namely a projective cover of $X$.)
+
+In Makkai's paper referenced below, he proves that $Ana(C,D)$ is small under the assumption of what he calls the *small cardinality selection axiom*, which in turn follows from Blass' axiom of *small violations of choice*.  It is not obvious, however, what the [[structural set theory|structural]] counterparts of these axioms might be, or whether they are related to COSHEP.
+
+
+#Generalizations#
+
+## Higher versions ##
 
 Since the [[folk model structure]] on $Cat$ extends to $\omega$-[[strict omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, strict $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding $\omega$-[[schreiber:omega-anafunctors|anafunctors] between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
 
@@ -102,7 +107,7 @@ _Mathieu says:_ I don't see that (or something like that) on that page, but satu
 
 _Urs says:_ I haven't checked the details. But he is looking at derived homs of crossed complexes. By general nonsense these derived hom should be given by homs out of cofibrant replacements. This is another way of talking about the anafunctor picture. Somebody should check the details.
 
-[[Tim Porter|Tim]]: Noohi has pointed out to me a slip in his HHA article in which he gives an 'algebraic' description of weak map (and thus of anafunctor) between the crossed modules corresponding to the 2-groups.  He has posted a corrected version on the archive (<http://arxiv.org/abs/math/0506313v3>, but make sure you get version 3).
+[[Tim Porter|Tim]]: Noohi has pointed out to me a slip in his HHA article in which he gives an 'algebraic' description of weak map (and thus of anafunctor) between the crossed modules corresponding to the 2-groups.  He has posted a corrected version on the archive (&lt;http://arxiv.org/abs/math/0506313v3>, but make sure you get version 3).
 =--
 # References
 
