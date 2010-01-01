@@ -36,7 +36,7 @@ We can replace the ring $A$ more generally by  a [[morphism]] of [[commutative u
 
 $$Der_R(S,f_*(-)) : S Mod\to Set : M\mapsto Der_R(S,f_* M)$$
 
-that assigns to every $S$-[[module]] $M$ the [[set]] of [[derivation]]s on $S$ with values in the (bi)module $f_* M$, where $f_*:S Mod\to R Mod$ is the restriction of scalars. 
+that assigns to every $S$-[[module]] $M$ the [[set]] of [[derivations]] on $S$ with values in the (bi)module $f_* M$, where $f_*:S Mod\to R Mod$ is the restriction of scalars. 
 
 In other words,  $Der_R(S,f_*M)\cong Hom_S(\Omega^1_{S/R},M)$. In a diagram: for every $R$-derivation $X\colon S \to M$ there is a unique morphism (of $S$-modules) $\mu\colon \Omega^1_{S/R} \to M$ making the following diagram commute:
 
@@ -68,7 +68,7 @@ Compare the role of [[universal differential envelope]] and [[Amitsur complex]] 
 
 ## Relation to ordinary forms
 
-Since there are only finite sums in the module of K&#228;hler differentials, the usual $d f=f' d t$ works only if $f$ is a finite polynomial in $t$, say, if $A$ is $C^\infty(\mathbb{R})$ ([[smooth map]]s) or $\mathbb{R}[\![t]\!]$ ([[power series]]). For example, let $f = t^n$ then
+Since there are only finite sums in the module of K&#228;hler differentials, the usual $d f=f' d t$ works only if $f$ is a finite polynomial in $t$, say, if $A$ is $C^\infty(\mathbb{R})$ ([[smooth map|smooth maps]]) or $\mathbb{R}[\![t]\!]$ ([[power series]]). For example, let $f = t^n$ then
 
 $$\begin{aligned}
 d f &= 
