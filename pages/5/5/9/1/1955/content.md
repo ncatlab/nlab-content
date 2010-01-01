@@ -104,6 +104,9 @@ in case $M$ is free, in particular if $M=A$. This is equivalent to the fact that
 
    * See also the discussion at the n-Cafe ([Summary](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_48.html#c030626))
 
+* [The module of K&#228;hler differentials](http://ocw.mit.edu/NR/rdonlyres/Mathematics/18-726Spring-2009/8C4F62C5-7AE2-482B-9643-890EE76499F5/0/MIT18_726s09_lec13_differentials.pdf)
+
+   * MIT OpenCourseWare: 18.726 Algebraic Geometry, Spring 2009
 
 [[!redirects Kahler differential]]
 [[!redirects Kahler differentials]]
