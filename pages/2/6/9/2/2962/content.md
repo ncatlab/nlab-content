@@ -397,3 +397,5 @@ The notation above is from personal notes of Z. &#352;koda (1997). A systematic 
 More conceptual picture is in a work of Danny Stevenson which extends also to its categorification, extensions of Lie 2-algebras. See
 
 * Danny Stevenson, Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
+
+A generalization is [[nonabelian Lie algebroid cohomology]].
