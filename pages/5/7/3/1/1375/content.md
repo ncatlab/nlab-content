@@ -7,7 +7,7 @@ For $C$ an [[(infinity,1)-category]], a **prespectrum object**  of $C$ is
 
 * such that for all integers $i \neq j$ we have $X(i,j) = 0$ a [[zero object]] of $C$
 
-Notice that this definition is highly redundant. The point is that writing $X[n] := X(n,n)$ a spectrum object is for all $n \in \mathbb{Z}$ a (homotopy) commuting diagram
+Notice that this definition is highly redundant. The point is that writing $X[n] \coloneqq X(n,n)$ a spectrum object is for all $n \in \mathbb{Z}$ a (homotopy) commuting diagram
 
 $$
   \array{
@@ -39,16 +39,16 @@ $$
 
 A prespectrum object is
 
-* a **spectrum object** if $\beta_m$ is an equivalence for all for all $m \in \mathbb{Z}$ (a spectrum below $n$, if $\beta_m$ is an equivalence for all $m \leq n$);
+* a **spectrum object** if $\beta_m$ is an equivalence for all for all $m \in \mathbb{Z}$ (a __spectrum below $n$__, if $\beta_m$ is an equivalence for all $m \leq n$);
 
-* a **suspension spectrum** if $\alpha_m$ is an equivalence for all $m \in \mathbb{Z}$ (a suspension spectrum above $n$, if $\alpha_m$ is an equivalence for all $m \geq n$).
+* a **suspension spectrum** if $\alpha_m$ is an equivalence for all $m \in \mathbb{Z}$ (a __suspension spectrum above $n$__, if $\alpha_m$ is an equivalence for all $m \geq n$).
 
 
 One writes
 
 * $Sp(C)$ for the full sub-$(\infty,1)$-category of $Fun(\mathbb{Z} \times \mathbb{Z},C)$ on spectrum objects in $C$;
 
-* $Stab(C) := Sp(C_*)$ -- the **stabilization of $C$** for the $(\infty,1)$-category of spectrum objects in the $(\infty,1)$-category $C_*$ of [[pointed object]]s of $C$.
+* $Stab(C) \coloneqq Sp(C_*)$ -- the **stabilization of $C$** for the $(\infty,1)$-category of spectrum objects in the $(\infty,1)$-category $C_*$ of [[pointed object]]s of $C$.
 
 #Properties#
 
