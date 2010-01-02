@@ -52,7 +52,7 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * The assertion that $Set$ has a [[generic proof]], or equivalently that the [[free exact completion]] $Set_{ex/lex}$ of $Set$ is a [[topos]], appears also to be a weaker form of AC.  A still weaker statement is that $Set_{ex/lex}$ is [[well-powered category|well-powered]].
 
-* Many applications of choice in [[logic]], [[topology]], and [[algebra]] require only the [[ultrafilter principle]].
+* Many applications of choice in [[logic]], [[topology]], and [[algebra]] require only the [[ultrafilter principle]], or equivalently the *Boolean prime ideal theorem*.
 
 The axiom of choice can also be strengthened in a few ways.
 
@@ -72,6 +72,7 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 ## References
 
 [[HAF|Eric Schechter's analysis book]] surveys several variants of AC and its negation with a view to applications of analysis, including this nice picture:
+
 ![xxx](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/acchart.gif)
 
 
