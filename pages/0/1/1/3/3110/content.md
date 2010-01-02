@@ -1,4 +1,4 @@
-# Idea
+# The folk model structure on $Cat$
 
 The **folk model structure** on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[folk model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors.
 
@@ -7,9 +7,10 @@ On this page we give a concise construction of the folk model structure, as well
 * toc
 {:toc}
 
+
 ## The classical version
 
-For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small categories]] and [[functors]].  We write $C_0$ for the set of objects of a small category $C$.  Define a functor to be:
+For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small categories]] and [[functors]], and our categories are all [[strict categories]] as in ordinary set-theoretic [[foundations]].  We write $C_0$ for the set of objects of a small category $C$.  Define a functor to be:
 
 * a [[weak equivalence]] if it is an [[equivalence of categories]], or equivalently if it is [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]].
 
@@ -59,9 +60,9 @@ The other factorization works exactly as before, while for lifting acyclic cofib
 
 Weak equivalences of categories are easily seen to satisfy the 2-out-of-3 property, so we have a model category.  Note that all categories are fibrant in this model structure, while the cofibrant categories are those whose set of objects is projective.
 
-The existence of this model structure implies, in particular, that under COSHEP the category $Ana(C,D)$ is essentially small, being in fact equivalent to the category $Fun(C',D)$ of ordinary functors where $C'$ is a cofibrant replacement for $C$.
+The existence of this model structure implies, in particular, that under COSHEP the category $Ana(C,D)$ is [[essentially small category|essentially small]], being in fact equivalent to the category $Fun(C',D)$ of ordinary functors where $C'$ is a cofibrant replacement for $C$.
 
 
 ### The injective model structure
 
-Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's axiom of *small cardinality selection* sufficient for the existence of an "injective" model structure on Cat?
+Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's axiom of *small cardinality selection* (which Makkai uses, instead of COSHEP, to prove that $Ana(C,D)$ is essentially small) sufficient for the existence of an "injective" model structure on Cat?
