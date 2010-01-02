@@ -30,7 +30,7 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 * When the full axiom of choice it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A\to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A\to B$ splitting).
 
-* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.  One good example is the axiom of _[[countable choice]]_, which says that the set $\mathbb{N}$ of [[natural number]]s is projective.  A stronger version is the axiom of [[dependent choice]].
+* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, such as [[countable choice]], [[dependent choice]], and [[COSHEP]], are often (if not usually) accepted by constructivists.
 
 
 ## Equivalents 
@@ -39,7 +39,23 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 
 * The [[well-ordering theorem]] (that any set can be [[well-order|well-ordered]]),
 * [[Zorn's lemma]],
-* that ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system]] in [[Set]].
+* that ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system on Set]].
+
+## Variants
+
+There are a number of weaker axioms which are implied by the full axiom of choice.  Some of these are valid or accepted more generally than the full AC, and/or suffice for some of the usual applications of choice.
+
+* The axiom of [[countable choice]] says that the set $\mathbb{N}$ of [[natural number]]s is projective.  This suffices for many of the usual applications of choice in analysis.
+
+* The axiom of [[dependent choice]] strengthens countable choice by allowing the set of possible choices for $n+1$ to depend on the choice made for $n$.
+
+* The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This is sufficient for the existence of projective resolutions and cofibrant replacements.  For example, see the [[folk model structure on Cat]].
+
+The axiom of choice can also be strengthened in a few ways.
+
+* While the ordinary axiom of choice says that any surjection of sets is split, the *axiom of global choice* says that this is also true for any surjection of [[proper classes]].  (Making this precise requires a bit of work.)  It is equivalent to the existence of a well-ordering of the class of all sets.
+
+* One can also postulate a [[choice operator]], which gives a *specified* way to choose an element from any nonempty set.  This implies global choice, and conversely a choice operator can be defined from any well-ordering of the class of all sets.
 
 
 ## See also
