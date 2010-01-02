@@ -119,7 +119,7 @@ Many categorical properties of interest are preserved by one or more of the regu
 
 * If $C$ is lextensive with coequalizers (or "quasi-coequalizers") and a [[strong-subobject classifier]], then so is $C_{reg/lex}$ (Menni 2000).  It follows that if $C$ is a lextensive [[quasitopos]], then so is $C_{reg/lex}$.  For each lextensive quasitopos $C$ we thus obtain a sequence $C$, $C_{reg}$, $(C_{reg})_{reg}$, ... of lextensive quasitopoi, which in general does not stabilize.
 
-* $C_{ex/lex}$ is an [[elementary topos]] iff $C$ has weak dependent products and a *generic proof*, meaning a map $\theta\colon \Theta \to \Lambda$ such that for every map $f\colon Y\to X$, there exists some $\nu\colon X\to \Lambda$ such that each of $f$ and $\nu^*\theta$ factor through each other (Menni 2000).  Note that if $C$ is a topos satisfying the axiom of choice, then its subobject classifier is a generic proof, since then every map $f$ is factored through by its image.  It follows that if $C$ is a topos satisfying AC, then $C_{ex/lex}$ is a topos---but we already knew that, because in that case $C_{ex/lex}$ is equivalent to $C$.
+* $C_{ex/lex}$ is an [[elementary topos]] iff $C$ has weak dependent products and a [[generic proof]] (Menni 2000).  Note that if $C$ is a topos satisfying the axiom of choice, then its subobject classifier is a generic proof.  It follows that in this case $C_{ex/lex}$ is a topos---but we already knew that, because $C_{ex/lex}$ is equivalent to $C$ for such a $C$.
 
 * If $C$ is regular, locally cartesian closed, and has a *generic mono*, i.e. a monomorphism $\tau\colon \Upsilon\to \Lambda$ such that every monomorphism is a pullback of $\tau$ (not necessarily uniquely), then $C_{ex/reg}$ is a topos (Menni 2000).
 
@@ -173,6 +173,7 @@ On the other hand, some properties are *not* preserved by the completions.
 [[!redirects regular or exact completion]]
 [[!redirects regular and exact completion]]
 [[!redirects exact completion]]
+[[!redirects free exact completion]]
 [[!redirects ex/lex completion]]
 [[!redirects ex/reg completion]]
 [[!redirects reg/lex completion]]
