@@ -13,8 +13,17 @@ have left adjoints, and in fact are [[monadic adjunction|(2-)monadic]].  Their l
 
 In the third case the 2-monad is [[idempotent monad|idempotent]], so the left adjoint can properly be called a [[completion]], while in the first two cases, the 2-monad is only [[lax-idempotent monad|lax-idempotent]], so the left adjoint should technically be called a [[free completion]].  However, the phrases *regular completion* and *exact completion* are also commonly used for the first two cases.  To disambiguate the second and third cases the phrases *ex/lex completion* and *ex/reg completion* are also used, and so by analogy the first case is called *reg/lex completion*.
 
-In fact, the reg/lex and ex/lex completion can be applied to a category that merely has [[weak finite limits]], although in this case the sense in which the construction is "free" is more complicated.
+In fact, the reg/lex and ex/lex completion can be applied to a category that merely has [[weak finite limits]], although in this case the sense in which the construction is "free" is more complicated. 
 
++--{.query} 
+
+[[Todd Trimble]]: Hi Mike. Thanks very much for writing this article. Could you clarify for me your use of parentheticals below in the case of reg/lex completion? I am guessing that all parentheticals like "(weak)" can be safely ignored in the case where $C$ is actually finitely complete (as opposed to weakly finitely complete), so that, for example, the objects of $C_{reg/lex}$ can in that case be taken to be pairs $(c, e)$ where $e$ is a kernel pair of a morphism $f: c \to d$, and morphisms $(c, e) \to (c', e')$ are morphisms $c \to c'$ which respect the equivalence relations. 
+
+If my guess is correct, I think I might have found it easier to read if the finitely complete case were run through first, followed by discussion of what modifications are to be made in the case of weak finite completeness, rather than discussing the two cases simultaneously using parentheticals. 
+
+Also, I wasn't able to find under Properties something about the reg/lex completion I was expecting or hoping to find. (My immediate interest in this is the example of equilogical spaces as regular completion of $Top$.) Is there supposed to be a property along the lines that the regular completion is cartesian closed if $C$ has weak exponentials, and locally cartesian closed if $C$ has weak dependent products? (I don't have ready access to the literature, so these should be treated as guesses.)
+
+=--
 
 # Constructions
 
