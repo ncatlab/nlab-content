@@ -71,12 +71,75 @@ As remarked in the discussion below, equality of objects is all over the place i
 _Toby_:  I agree, the concept is not really evil, although you have clarified the ideas for me, so that now I think that I can write a good note to the mailing list.  (In particular, the idea that a dagger structure is analogous to the property of being a groupoid, only slightly harder to grok since it is not a property-like structure, was helpful.)
 
 If you specify a functor $\dagger\colon C^{op} \to C$ and ask whether it is a dagger structure, that is (taken literally) an evil question; you can ask instead whether it is naturall isomorphic to a dagger structure.  But the concept of dagger structure is not itself evil, if broken down a little.
+
+[[Peter Selinger]]: what you have shown here is a special case of the fact that dagger structure is reflected by full and faithful functors. Specifically, given $F\colon C\to D$ full and faithful, and a dagger structure on $D$, you can define a dagger structure on $C$ by the equation $F(f^\dagger) = (F(f))^\dagger$. This obviously uniquely determines $f^\dagger$, because $F$ is full and faithful.
+It is also the unique dagger structure on $C$ such that $F$ becomes a dagger functor. It's almost trivial to verify that this is indeed a dagger structure. 
+
+It coincides with what Mike Shulman has defined, showing in particular that his definition is independent of $G$, $\eta$, and $\epsilon$. Moreover, the definition is _not_ invariant under natural isomorphism of $F$; given a different $F'$ naturally isomorphic to $F$, this will in general induce a different dagger structure on $C$. Also, $G$ will not be a dagger functor with respect to the structure Mike defined.
+
+To me, the facts listed in the last paragraph are good indication that Mike's notion is not the right notion of "transporting structure along an equivalence". I would expect both $F$ and $G$ to respect the transported structure. I would even go as far as requiring $\eta$ and $\epsilon$ to be dagger natural transformations w.r.t. the transported structure. (A dagger natural transformation is one that is componentwise unitary). 
+
+I proposed a formal definition of "transporting structure along an equivalence" on the categories list. It works for any 2-functor between 2-categories.
+
+[[Peter Selinger]]: Here is another view of dagger categories.  What makes
+some people uneasy about the dagger structure is
+that it runs counter to the usual categorical intuition that all
+information is contained in the morphisms. Or more precisely, that all
+information about an object $A$ is contained in the natural family of
+hom-sets $(X,A)$. So in ordinary category theory, we consider two objects
+$A$, $B$ "the same" if they have "the same" generalized points, i.e., if
+the contravariant representable functors $(X,A)$ and $(X,B)$ are naturally
+isomorpic.
+
+<pre>
+                      nat. isomorphism
+              (X,A) --------------------> (X,B)
+</pre>
+
+Alternatively, one can say that $A$ and $B$ are the same if the covariant
+representable functors are naturally isomorphic. 
+
+<pre>
+                      nat. isomorphism
+              (A,X) --------------------> (B,X)
+</pre>
+
+Of course, by the Yoneda Lemma, both conditions are equivalent to an
+isomorphism between $A$ and $B$, and therefore to each other. But that is
+just a lucky simplification.
+
+In dagger categories, the hom-sets are also equipped with
+distinguished bijections $\dagger\colon(X,A)\to (A,X)$. It therefore makes sense
+to say that, for two objects to be "really" the same, not only should
+one have natural isomorphisms such as above, but further that the
+diagram should commute:
+
+<pre>
+                      nat. isomorphism
+              (X,A) --------------------> (X,B)
+                |                           |
+        dagger  |                           | dagger
+                v     nat. isomorphism      v
+              (A,X) --------------------> (B,X)
+</pre>
+
+In general, an isomorphism $f \colon A \to B$ will induce natural isomorphisms
+$(X,A) \to (X,B)$ and $(A,X) \to (B,X)$ that do _not_ make the diagram
+commute. It makes the diagram commute if and only if for all $g\in(X,A)$, $g^\dagger \circ f^{-1} = (f \circ g)^\dagger$, in other words, if and
+only if $f$ is unitary. This is why unitary isomorphisms are the "real" isomorphisms of dagger categories, and unitary natural transformations are the "real" natural transformations of dagger categories. They preserve and transport everything.
+
+All this indicates to me that dagger is a primitive operation (like
+composition). In this respect I completely agree with Toby. As a primitive operation, dagger must be included in the definition of primitive
+concepts, such as equivalence. And primitive operations (like
+composition) are allowed to talk about objects and be strict.
+
+If someone knows how to wiki-ize the above diagrams, please feel free.
 =--
 
 
 ## Discussion
 
-There's been a lot of discussion of this on the $n$-Category Caf&#233; --- someone find it and cite it!
+There's been a lot of discussion of this on the $n$-Category Caf&eacute; --- someone find it and cite it!
 
 
 +-- {: .query}
