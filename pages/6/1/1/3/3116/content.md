@@ -1,3 +1,5 @@
+[[!redirects fermat theory]]
+
 A 'Fermat theory' is an [[algebraic theory]] that extends the usual theory of [[commutative rings]] by permitting differentiation.  The idea of a Fermat theory seems to have been invented by Anders Kock.  But as the name suggests, it has its roots in an old observation of Fermat.  Namely: if $f : \mathbb{R} \to \mathbb{R}$ is a smooth function, then
 
 $$f (x+y) = f(x) + y \tilde{f}(x,y) $$
