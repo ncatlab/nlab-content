@@ -123,7 +123,7 @@ $$ d : A \to \Omega^1(A) $$
 
 given by 
 
-$$ df (X) = X(f)$$
+$$ d f (X) = X(f)$$
 
 for $X \in Der(A)$.
 
@@ -151,6 +151,9 @@ but not in the K&#228;hler differentials $\Omega^1_K(A)$.
 However, one can show that when $M$ is a free $A$-module, any derivation $X: A \to M$ not only factors through $\Omega^1_K(A)$ (as guaranteed by the universal property of
 K&#228;hler differentials), but also $\Omega^1(A)$.
 
++-- {: .query}
+[[Eric]]: Does this universal property mean that there is some diagram in some category for which the K&#228;hler differentials can be thought of as a (co)limit?
+=--
 
 ## References
 
