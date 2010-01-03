@@ -4,7 +4,7 @@
 
 ## Idea
 
-For $C$ an ordinary [[category]] and $c \in C$ an [[object]] of $C$, the ordinary [[over category]] $C\downarrow c$ satisfies the universal property that for any other category $C'$ there is a natural bijection of hom-sets
+For $C$ an ordinary [[category]] and $c \in C$ an [[object]] of $C$, the ordinary [[over category]] $C\downarrow c$ satisfies the universal property that for any other category $C'$ there is a natural equivalence of categories
 
 $$
   Hom(C',C\downarrow c) \simeq
@@ -15,7 +15,7 @@ where
 
 * $C' \star \{\top\}$ denotes the category $C'$ with a freely adjoined [[terminal object]] $\top$;
 
-* $Hom_{c}(\cdots)$ denotes the subset of functors which send $\top$ to $c$.
+* $Hom_{c}(C' \star \{\top\}, C)$ denotes the category of pairs $(F,\gamma)$, where $F: C' \star \{\top\}\to C$ is a functor and $\gamma:F(\top)\to c$ is an isomorphism in $C$.
 
 The idea of the definition of [[over category]] in the context of [[quasi-category|quasi-categories]] is to mimic this universal property. This relies crucially on generalizing the construction $C' \star \{\top\}$ to the context of quasi-categories, in terms of the [[join of quasi-categories]].
 
