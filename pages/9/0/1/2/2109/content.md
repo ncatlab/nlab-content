@@ -111,9 +111,9 @@ $$\array{A & \overset{U_A}{\to} & A\\
   $$
 such that the composites
 $$\array{A & \overset{U_A}{\to} & A\\
+  ^{f}\downarrow &\Downarrow & \downarrow^{id}\\
+  B & \overset{B(f,1)}{\to} & A\\
   ^{id}\downarrow &\Downarrow & \downarrow^{f}\\
-  A & \overset{B(1,f)}{\to} & B\\
-  ^f\downarrow &\Downarrow & \downarrow^{id}\\
   B & \underset{U_B}{\to} & B} \qquad\text{and}\quad
 \array{A & \overset{U_A}{\to} & A\\
   ^{id}\downarrow &\Downarrow & \downarrow^{f}\\
