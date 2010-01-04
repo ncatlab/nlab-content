@@ -1,10 +1,13 @@
-[[!redirects fermat theory]]
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ## Idea ##
 
 A 'Fermat theory' is a [[Lawvere theory]] that extends the usual theory of [[commutative rings]] by permitting differentiation.  
 
-The idea of a Fermat theory seems to have been invented by Anders Kock.  But as the name suggests, it has its roots in an old observation of Fermat.  Namely: if $f : \mathbb{R} \to \mathbb{R}$ is a smooth function, then
+The idea of a Fermat theory seems to have been invented by [[Anders Kock]].  But as the name suggests, it has its roots in an old observation of Fermat.  Namely: if $f : \mathbb{R} \to \mathbb{R}$ is a smooth function, then
 
 $$f (x+y) = f(x) + y \tilde{f}(x,y) $$
 
@@ -86,10 +89,12 @@ Anyway, the point of this theorem is that it gives us a version of [[Kähler dif
 
 This material is a summary of the following talk:
 
-* Anders Kock, K&#228;hler differentials for Fermat theories,  _Fields Workshop on Smooth Structures in Logic, Category Theory and Physics_, May 1, 2009, University of Ottawa.  ([abstract](http://aix1.uottawa.ca/~scpsg/Fields09/smooth.abstracts.html))
+* [[Anders Kock]], K&#228;hler differentials for Fermat theories,  _Fields Workshop on Smooth Structures in Logic, Category Theory and Physics_, May 1, 2009, University of Ottawa.  ([abstract](http://aix1.uottawa.ca/~scpsg/Fields09/smooth.abstracts.html))
 
 For more, see:
 
-* Alexander Hoffnung, Smooth Structure in Ottawa II.  ([blog entry](http://golem.ph.utexas.edu/category/2009/05/smooth_structures_in_ottawa_ii.html#c030745))
+* [[Alex Hoffnung]], Smooth Structure in Ottawa II.  ([blog entry](http://golem.ph.utexas.edu/category/2009/05/smooth_structures_in_ottawa_ii.html#c030745))
 
 and the comments on this blog entry.
+
+[[!redirects fermat theory]]
