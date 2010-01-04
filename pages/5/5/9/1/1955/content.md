@@ -4,13 +4,13 @@
 {:toc}
 
 
-## Idea ##
+## Idea
 
 We may define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  When $A$ is an algebra of smooth functions on some space you know and love, K&#228;hler differentials tend to act roughly like 1-forms on this space.  Indeed, when $A$ consists of the algebraic functions on an affine [[algebraic variety]], K&#228;hler differentials are often taken as a _definition_ of 1-forms.  When $A$ consists of smooth functions on a manifold, the K&#228;hler differentials do not agree with the ordinary smooth 1-forms on this manifold.  However, there is a map from the K&#228;hler differentials to the ordinary 1-forms.
 
 Conceptually, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$. 
 
-## Definition ##
+## Definition 
 
 Suppose $A$ is a [[commutative algebra]] over a field $k$.   We may define K&#228;hler differentials either by an explicit construction or by a universal property. In fact there are two explicit constructions.
 
@@ -51,7 +51,9 @@ $$
 We say that $X$ **factors through** $d$.
 
 
-## Generalization ##
+## Generalizations
+
+### Relative version
 
 We can replace the commutative algebra $A$ more generally by  a [[morphism]] of [[commutative unital rings]] $f:R\to S$. Then the __module of K&#228;hler differentials__ is the $S$-[[module]] $\Omega^1_K(S/R)$ corepresenting the functor
 
@@ -82,7 +84,13 @@ Furthermore, if $R$ is in characteristic zero, one may introduce **K&#228;hler $
 
 Compare the role of [[universal differential envelope]] and [[Amitsur complex]] for  analogous constructions in the noncommutative case. The appropriate extension of the module of relative K&#228;hler differentials to the derived setting is the [[cotangent complex]] of Grothendieck--Illusie. 
 
-## Relation to ordinary forms ##
+### Higher categorical version
+
+The generalization of K&#228;hler differentials from [[algebra]] to [[higher algebra]] is given by the notion of [[cotangent complex]] and its generalizations. For more on this see [[Deformation Theory]].
+
+## Relation to ordinary forms 
+
+We discuss how K&#228;hler differential forms relate to the ordinary notion of [[differential form]]s.
 
 Since there are only finite sums in the module of K&#228;hler differentials, the usual $d f=f' d t$ works only if $f$ is a finite polynomial in $t$, say, if $A$ is $C^\infty(\mathbb{R})$ ([[smooth map|smooth maps]]) or $\mathbb{R}[\![t]\!]$ ([[power series]]). For example, let $f = t^n$ then
 
@@ -192,6 +200,10 @@ See also the discussion at the $n$-Caf&#233;:
 *  Blog discussion of Week 287.  ([Summary](http://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_48.html#c030626))
 
 * [The module of K&#228;hler differentials](http://ocw.mit.edu/NR/rdonlyres/Mathematics/18-726Spring-2009/8C4F62C5-7AE2-482B-9643-890EE76499F5/0/MIT18_726s09_lec13_differentials.pdf), MIT OpenCourseWare: 18.726 Algebraic Geometry, Spring 2009.
+
+A detailed discussion of K&#228;hler differentials and their generalization from [[algebra]] to [[higher algebra]] is in 
+
+* [[Jacob Lurie]], [[Deformation Theory]]
 
     
 [[!redirects Kahler differential]]
