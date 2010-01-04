@@ -32,6 +32,12 @@
   the new version differs from the previous one by embedding the theory of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]] into a theory of [[(∞,1)-operad]]s.
 
 
+* [[Deformation Theory]] ([arXiv](http://arxiv.org/abs/0709.3091))
+
+  on the notions of [[Kähler differential]] and [[cotangent complex]] 
+  and their generalization from the ordinary context of [[algebra]] to that of [[higher algebra]].
+
+
 * [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
 
   * on [[structured (∞,1)-topos]]es and [[generalized scheme]]s
