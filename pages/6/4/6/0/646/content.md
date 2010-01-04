@@ -70,6 +70,10 @@ The use of crossed modules of groupoids and their [[classifying space]] for the 
 
 It is sensible to regard [[crossed complex|crossed complexes]] as giving a _linear_ model of homotopy types. These crossed complexes are equivalent to [[strict omega-groupoid|strict globular]] $\infty$-groupoids. Although these are restricted model of homotopy types, they are convenient in many aspects, because of the many analogies with the familiar [[chain complex]]es. 
 
++-- {: .query}
+[[John Baez]]: Can I get someone to start a page called [[homotopy type]], which says what a 'homotopy type' is?  The concept is mentioned in the previous paragraph, but not defined.   A cheap solution is to allow $n = \infty$ in the definition of homotopy $n$-type.
+=--
+
 Crossed complexes capture operations of the fundamental groupoid, but not quadratic information such as Whitehead products (for dimensions $\gt 1$). However one can define $n$-fold crossed complexes inductively as crossed complexes internal to $(n-1)$-fold crossed complexes. So one can give the 
 
 *(Conjecture) double crossed complexes capture the quadratic information on homotopy types, triple crossed complexes capture the cubic information, etc., etc. 
