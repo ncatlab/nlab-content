@@ -43,7 +43,7 @@ $$
     \\
     X &\stackrel{i_0}{\to}& Cyl(X)
     \\
-    \downarrow && && \downarrow
+    \downarrow && &\searrow & \downarrow
     \\
     {*} &\to& &\to& coker(f) 
   }
