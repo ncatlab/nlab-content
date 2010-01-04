@@ -7,6 +7,84 @@
 
 ...
 
+### Modules, derivations and K&#228;hler differentials {#Modules}
+
+We describe some aspects of the canonical [[bifibration]] of ring modules in a way that nicely organizes all the concepts [[module]], [[derivation]], [[Kähler differential]] in a single picture that lends itself to [[vertical categorification]]. (Following [[Deformation Theory|DefTheory]].)
+
+With [[Ring]] denoting the [[category]] of (commutative, unital) [[rings]], write 
+
+$$
+  p : Mod \to Ring
+$$ 
+
+for the [[bifibration]] of [[module]]s over [[ring]]s: objects of $Mod$ are pairs consisting of a ring $R$ an an $R$-[[module]] $N$, and morphism $(R_1,N_1) \to (R_2, N_2)$ are pairs consisting of a ring homomorphism $f : R_1 \to R_2$ and a morphism $F : N_1 \to N_2 \otimes_f R_2$ of $R_2$-modules.
+
+(Recall for instance from the discussion at [[Sweedler coring]]) 
+that this bifibration is a way to think of the [[stack]] of algebraic [[vector bundle]]s.)
+
+But there is also another functor $G : Mod \to Ring$ of interest: for $N$ any $R$-module, we may form the ring $G(N) := R \oplus N$ called the **square 0-extension** of $R$, in which multiplication is given by
+
+$$
+  (r_1,n_1) \cdot (r_2, n_2) := (r_1 r_2, n_1 r_2 + n_2 r_1
+  \,.
+$$
+
+Moreover, there is a [[natural transformation|natural]] morphism of rings $G(N) \to R$ given by sending $(r,n) \mapsto r$. A [[section]] $v : R \to G(n)$ of this morphism is precisely a [[derivation]] of $R$ with values in the module $N$.
+
+This may be organized into a single functor
+
+$$
+   Mod \to [I,Ring]
+$$
+
+into the [[arrow category]] of [[Ring]], that sends to the $R$-module $N$ to the morphism $G(N) \to R$. The original bifibration factors through this morphism by the right endpoint evaluation
+
+$$
+  \array{
+    Mod &&\stackrel{p}{\to}&& Ring
+    \\
+    & \searrow && \nearrow_{\mathrlap{d_1}}
+    \\
+    && [I,Ring]
+  }
+  \,.
+$$
+
+Finally notice that the [[functor]] $G$ has a [[left adjoint|left]] [[adjoint functor]]
+
+$$
+  \Omega : Ring \to Mod
+$$
+
+that sends a ring $R$ to the $R$-module $\Omega_K(R)$ of [[Kähler differential]]s, i.e. to the module that encodes the [[cotangent bundle]].
+
+
+
+### Cotangent complex
+
+The above situation generalizes from the category [[Ring]] to an arbitrary [[(∞,1)-category]] $C$ by replacing the [[bifibration]] $Mod \to Ring$ by the [[stabilization]] $T_C \to C$ of the [[codomain fibration]] of $C$: the [[tangent (∞,1)-category]] of $C$.
+
+The projection $p : T_C \to C$ still has a [[left adjoint]]
+
+$$
+  \Omega : C \to T_C
+$$
+
+called the [[cotangent complex]] functor for $C$. It still has the special property, as in the motivating example above, that it is also a [[section]] of the tangent propjection, i.e. that 
+
+$$
+  C \stackrel{\Omega}{\to} T_C \stackrel{p}{\to} C
+$$
+
+is the identity [[(∞,1)-functor]].
+
+
+
+### Further catergorification
+
+...
+
+
 ## Related entries
 
 * [[cotangent complex]]
