@@ -1,5 +1,20 @@
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+</div>
 
-#Definition#
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+Every [[(∞,1)-category]] with finite [[limit]]s has a [[stabilization]] to a [[stable (∞,1)-category]] $Stab(C)$. This stabilization may be defined by abstract properties, but it may also be constructed explicitly as the category of **spectrum object**s in $C$.
+
+In the special case that $C = $ [[Top]], as spectrum object in $C$ is just an ordinary [[spectrum]]. There is an evident generalization of the notion of spectrum from [[Top]] to any $(\infty,1)$-category $C$ with finite limits: a spectrum object $X_\bullet$ is essentially a list of [[pointed object]]s $X_i$ together with equivalences $X \to \Omega X_{i+1}$, from every object in the list to the [[loop space object]] of its successor. 
+
+## Definition
 
 For $C$ an [[(infinity,1)-category]], a **prespectrum object**  of $C$ is 
 
@@ -50,16 +65,16 @@ One writes
 
 * $Stab(C) \coloneqq Sp(C_*)$ -- the **stabilization of $C$** for the $(\infty,1)$-category of spectrum objects in the $(\infty,1)$-category $C_*$ of [[pointed object]]s of $C$.
 
-#Properties#
+## Properties
 
 * If $C$ is a pointed $(\infty,1)$-category with finite [[limit in quasi-categories|limits]], then $Sp(C)$ is a [[stable (infinity,1)-category]].
 
-#Examples#
+## Examples
 
 For $C = Top$, $Stab(C)$ is the $(\infty,1)$-category version of the classical stable homotopy category of spaces: the [[stable (infinity,1)-category of spectra]].
 
 
-#References#
+## References
 
 section 8 of
 
