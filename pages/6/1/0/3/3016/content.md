@@ -55,6 +55,31 @@ This construction is probably literally _unthinkable_ without adopting the $n$-p
 
 Thousands of definitions of notions of cohomology and its variants. From the nPOV, just a single concept: an [[derived hom space|∞-categorical hom-space]]. See [[cohomology]].
 
+### In homotopy theory {#InHomotopyTheory}
+
+The study of [[homotopy theory]] originated in the study of categories such as those of [[topological space]]s and other objects such as [[chain complex]]es whose [[morphism]]s were known do admit a notion of [[homotopy]]. Historically, in a sequence of steps formalisms were proposed that would organize the rich interesting structure found in such situations. As a first approximation the notion of [[homotopy category]] and [[derived category]] was introduced in order to deal with structures "up to homotopy". But it was clear that the [[homotopy category]] captured only a very small part of the interesting information. Quillen introduced the notion of [[model category]] as a formalization of the full structure, and this formalization turned out to yield a powerful theory that today provides a powerful toolset for dealing with homotopy theoretic situations.
+
+But also the notion of model category was seen to not be the full answer. For instance a model category in a sense retains _too much_ non-intrinsic information. Equivalence classes of model categories under [[Quillen equivalence]] are a more intrinsic characterization of a given [[homotopy theory]]. But this means that one needs some [[higher category theory|higher categorical]] notion for the collection of all model categories. This problem came to be known as the search for the **homotopy theory of homotopy theories**.
+
+Recently, this problem was fully solved and homotopy theory fully understood as the special case of [[higher category theory]] that deals with [[(∞,1)-category|(∞,1)-categories]]:
+
+* the notion of [[model category]], in particular when refined to that of a [[simplicial model category]] serves as a [[presentable (infinity,1)-category|presentation]] of the notion of [[(∞,1)-category]];
+
+* the "homotopy theory of homotopy theories" is accordingly the [[(∞,1)-category of (∞,1)-categories]] $(\infty,1)Cat$;
+
+  better yet: there is an [[(∞,n)-category|(∞,2)-category]] of all $(\infty,1)$-categories;
+
+* in $(\infty,1)Cat$ two $(\infty,1)$-categories presented by model categories are equivalent precisely if the presenting model categories may be connected by a zig-zag sequence of [[Quillen equivalence]]s;
+
+* all "homotopy"-constructions in model category theory, such as [[homotopy limit]]s, [[mapping cone]]s etc. are _tools for constructing_ the corresponding higher categorical intrinsic notions, such as [[limit in a quasi-category|limit in an (∞,1)-category]].
+
+* all variant notions find their intrinsic higher categorical interpretation this way: for instance [[stable homotopy theory]] is the study of [[stable (∞,1)-category|stable (∞,1)-categories]];
+
+* the [[homotopy category]] of a [[model category]] is simply the [[decategorification]] of the corresponding $(\infty,1)$-category to just a [[1-category]];
+
+* and for instance the notion of homotopy category of a stable $(\infty,1)$-category reproduces the notion of [[triangulated category]], thus incorporating also a large toolset from [[homological algebra]] into the picture.
+
+
 ### In logic
 
 ...
