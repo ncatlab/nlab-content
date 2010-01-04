@@ -40,3 +40,4 @@ Some concepts in analysis can be extended from $\mathbb{R}$ to $\mathbb{D}$, but
 [[!redirects dual numbers]]
 [[!redirects dual number system]]
 [[!redirects parabolic complex number]]
+[[!redirects ring of dual numbers]]
