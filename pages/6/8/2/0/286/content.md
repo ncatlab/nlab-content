@@ -91,18 +91,12 @@ $A$, $B$ "the same" if they have "the same" generalized points, i.e., if
 the contravariant representable functors $(X,A)$ and $(X,B)$ are naturally
 isomorpic.
 
-<pre>
-                      nat. isomorphism
-              (X,A) --------------------> (X,B)
-</pre>
+$$ (X,A) \overset{nat.\;isomorphism}\to (X,B) $$
 
 Alternatively, one can say that $A$ and $B$ are the same if the covariant
 representable functors are naturally isomorphic. 
 
-<pre>
-                      nat. isomorphism
-              (A,X) --------------------> (B,X)
-</pre>
+$$ (A,X) \overset{nat.\;isomorphism}\to (B,X) $$
 
 Of course, by the Yoneda Lemma, both conditions are equivalent to an
 isomorphism between $A$ and $B$, and therefore to each other. But that is
@@ -114,14 +108,11 @@ to say that, for two objects to be "really" the same, not only should
 one have natural isomorphisms such as above, but further that the
 diagram should commute:
 
-<pre>
-                      nat. isomorphism
-              (X,A) --------------------> (X,B)
-                |                           |
-        dagger  |                           | dagger
-                v     nat. isomorphism      v
-              (A,X) --------------------> (B,X)
-</pre>
+$$ \array {
+   (X,A)              & \overset{nat.\;isomorphism}\to & (X,B) \\
+   \dagger \downarrow &                                & \downarrow \dagger \\
+   (A,X)              & \overset{nat.\;isomorphism}\to & (B,X)
+} $$
 
 In general, an isomorphism $f \colon A \to B$ will induce natural isomorphisms
 $(X,A) \to (X,B)$ and $(A,X) \to (B,X)$ that do _not_ make the diagram
@@ -134,12 +125,14 @@ concepts, such as equivalence. And primitive operations (like
 composition) are allowed to talk about objects and be strict.
 
 If someone knows how to wiki-ize the above diagrams, please feel free.
+
+_Toby_:  I did the diagrams a bit, but I don\'t have any more time for a complete reply tonight.
 =--
 
 
 ## Discussion
 
-There's been a lot of discussion of this on the $n$-Category Caf&eacute; --- someone find it and cite it!
+There's been a lot of discussion of this on the $n$-Category Caf&#233; --- someone find it and cite it!
 
 
 +-- {: .query}
