@@ -269,7 +269,7 @@ Notice that the theorem just mentions plain combinatorial model categories, not 
 +-- {: .un_corollary }
 ###### Corollary 
 
-Every combintorial model category is [[Quillen equivalence|Quillen equivalent]] to one which is
+Every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to one which is
 
 * a [[simplicial model category]]
 
