@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -228,7 +233,7 @@ or
 
 A link for discussion and a list of source material for  'd&#233;rivateurs' can be found at
 
-* A. Grothendieck,  [Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)
+* A. Grothendieck,  [Les D&eacute;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)
 
 This includes copies of the first thirteen chapters of a 2000 page manuscript of Grothendieck. 
 
