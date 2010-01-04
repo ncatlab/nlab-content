@@ -44,6 +44,8 @@ Here is where I develop revisions of nLab entries which (from my point of view) 
 
 Currently revising:
 
+* [[domenicofiorenza:over quasi-category|over quasi-category]]
+
 * [[domenicofiorenza:limit|limit]]
 
 
