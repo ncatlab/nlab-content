@@ -9,3 +9,7 @@ If $C^{op}$ is well-powered, we say that $C$ is **well-copowered** (although "co
 A well-powered category with binary [[product|products]] is always [[locally small category|locally small]], since morphisms $f: A \to B$ can be identified with particular subobjects of $A \times B$ (their [[graph]]s).
 
 Conversely, any locally small category with a [[subobject classifier]] must obviously be well-powered.  In particular, a [[topos]] is locally small if and only if it is well-powered.
+
+There are interesting conditions and applications of the preorder on the sets of subobjects in well-powered categories, cf. e.g. [[property sup]]. 
+
+[[!redirects well powered category]]
