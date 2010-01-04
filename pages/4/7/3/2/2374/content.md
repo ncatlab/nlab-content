@@ -6,6 +6,18 @@
 
 #Contents
 
+* [[loop space object]]
+
+* [[suspension object]]
+
+* [[stable (∞,1)-category]]
+
+  * [[stabilization]]
+
+    * [[spectrum object]]
+
+  * [[triangulated category]]
+
 * [[stable (∞,1)-category of spectra]]
 
   * [[spectrum]]
