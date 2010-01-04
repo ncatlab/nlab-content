@@ -86,7 +86,7 @@ Compare the role of [[universal differential envelope]] and [[Amitsur complex]] 
 
 ### Higher categorical version
 
-The generalization of K&#228;hler differentials from [[algebra]] to [[higher algebra]] is given by the notion of [[cotangent complex]] and its generalizations. For more on this see [[Deformation Theory]].
+The generalization of K&#228;hler differentials from [[algebra]] to [[higher algebra]] is given by the notion of [[cotangent complex]] and its generalizations. For more on this see [[deformation theory]]. 
 
 ## Relation to ordinary forms 
 
