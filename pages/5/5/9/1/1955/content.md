@@ -6,13 +6,7 @@
 
 ## Idea ##
 
-We may define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  When $A$ is an algebra of functions on some space, K&#228;hler differentials tend to act roughly like 1-forms on this space.  
-
-+-- {: .query}
-[[Maarten]]: $A$ is always the algebra of functions of a space, the affine scheme of $A$. 
-=--
-
- When $A$ consists of the algebraic functions on an affine [[algebraic variety]], K&#228;hler differentials are often taken as a _definition_ of 1-forms.  When $A$ consists of smooth functions on a manifold, the K&#228;hler differentials do not agree with the ordinary smooth 1-forms on this manifold.  However, there is a map from the K&#228;hler differentials to the ordinary 1-forms.
+We may define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  When $A$ is an algebra of smooth functions on some space you know and love, K&#228;hler differentials tend to act roughly like 1-forms on this space.  Indeed, when $A$ consists of the algebraic functions on an affine [[algebraic variety]], K&#228;hler differentials are often taken as a _definition_ of 1-forms.  When $A$ consists of smooth functions on a manifold, the K&#228;hler differentials do not agree with the ordinary smooth 1-forms on this manifold.  However, there is a map from the K&#228;hler differentials to the ordinary 1-forms.
 
 Conceptually, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$. 
 
@@ -153,12 +147,36 @@ $$ j: \Omega^1_K(A) \to \Omega^1(A) $$
 
 In the case when $A = C^\infty(M)$ this map is onto but typically not one-to-one, as witnessed by the fact that
 $d e^t = e^t d t$ in the ordinary 1-forms $\Omega^1(A)$
-but not in the K&#228;hler differentials $\Omega^1_K(A)$.  
-However, one can show that when $M$ is a free $A$-module, any derivation $X: A \to M$ not only factors through $\Omega^1_K(A)$ (as guaranteed by the universal property of
+but not in the K&#228;hler differentials $\Omega^1_K(A)$.  However, one can show that when $M$ is a free $A$-module, any derivation $X: A \to M$ not only factors through $\Omega^1_K(A)$ (as guaranteed by the universal property of
 K&#228;hler differentials), but also $\Omega^1(A)$.
 
 +-- {: .query}
 [[Eric]]: Does this universal property mean that there is some diagram in some category for which the K&#228;hler differentials can be thought of as a (co)limit?
+
+[[John Baez]]: Yeah, take the category all $A$ modules $M$ equipped with a derivation $X : A \to M$, and take the diagram which consists of every object in this category and every morphism, and take the colimit of that, and you'll get $\Omega^1_K(A)$.  
+
+But this is just a cutesy way to say that $\Omega^1_K(A)$ is the [[initial object]] of this category.  
+
+And _this_, in turn, is just a cutesy way to say that there is a derivation 
+
+$$d : A \to \Omega^1_K(A), $$
+
+such that if $X:A\to M$ is also a derivation, then there exists a unique $A$-module morphism 
+
+$$\mu_X:\Omega_K^1(A)\to M$$
+
+such that the following diagram commutes:
+
+$$
+\array{
+A&\overset{X}\to     & M\\
+ & \underset{d}\searr&\uparrow \mu_X\\
+ &                   & \Omega_K^1{A}
+}
+$$
+
+All this is general abstract nonsense, nothing special to this example!  Any universal property involving maps out of an object says that object is initial in some category --- and that, in turn, is equivalent to saying that object is the colimit of the enormous diagram consisting of all objects of the same kind!  There's a lot less here than meets the eye.
+
 =--
 
 ## References
