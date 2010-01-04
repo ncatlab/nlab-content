@@ -127,6 +127,8 @@ composition) are allowed to talk about objects and be strict.
 If someone knows how to wiki-ize the above diagrams, please feel free.
 
 _Toby_:  I did the diagrams a bit, but I don\'t have any more time for a complete reply tonight.
+
+[[Mike Shulman]]: Okay, you are right.  "Transporting along an equivalence" should mean that the forgetful functor is an equiv-fibration, i.e. lifts entire adjoint equivalences rather than merely functors that happen to be equivalences.  I think I disagree, however, that primitive operations (in something that we want to think of as a kind of category theory) should be freely allowed to talk about objects and be strict; I think they should also be formulated in a dependent type theory that only uses equality of objects as a typing assertion.  Dagger categories also satisfy this property.
 =--
 
 
