@@ -48,7 +48,7 @@ This observation is usually the starting point for realizing that differential g
 In all notions of [[generalized smooth space]]s all pullbacks do exist. But they may still not be the "right" pullbacks. For instance cohomology of pullback objects may not have the expected properties. This is solved by passing to smooth [[derived stack]]s, such as [[derived smooth manifold]]s.
 
 
-Recent developments in [[higher category theory]], such as the concept of higher [[Structured Spaces]] based on [[Higher Topos Theory]], put all these notions of generalized geometries into a unified picture of [[higher geometry]] that realizes old ideas about how category theory provides a languge for [[space and quantity]] in great detail and powerful generality and sheds new light on old [[classical mathematics|classical]] problems such the description of the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli stack of derived elliptic curves]] and the construction of the [[tmf]] [[spectrum]] from it.
+Recent developments in [[higher category theory]], such as the concept of higher [[Structured Spaces]] based on [[Higher Topos Theory]], put all these notions of generalized geometries into a unified picture of [[higher geometry]] that realizes old ideas about how category theory provides a language for [[space and quantity]] in great detail and powerful generality and sheds new light on old [[classical mathematics|classical]] problems such the description of the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli stack of derived elliptic curves]] and the construction of the [[tmf]] [[spectrum]] from it.
 This construction is probably literally _unthinkable_ without adopting the $n$-point of view when approaching it. Using this point of view, the general strategy for approaching it however becomes naturally evident.
 
 ### In cohomology
@@ -82,6 +82,7 @@ Recently, this problem was fully solved and homotopy theory fully understood as 
 
 ### In logic
 
+* In Martin-L&#246;f type theory, from a type $A$ and elements $a, b \in A$, we construct a new type $Id(a, b)$ whose elements are to be thought of as proofs that $a$ and $b$ are propositionally equal. The type-theoretic functions $1 \to Id(a, a)$, $Id(b, c) \times Id(a, b) \to Id(a, c)$ and $Id(a, b) \to Id(b, a)$ express the reflexivity, transitivity and symmetry of propositional equality. The type $A$ may be thought of as a [[groupoid]], but only by quotienting out by equations expressing associativity. As with the homotopy theoretic case, it makes sense not to do so. Then the type $A$ may be thought of as an [[∞-groupoid]].
 ...
 
 ### In your favorite topic
