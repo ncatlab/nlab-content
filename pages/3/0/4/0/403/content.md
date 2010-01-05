@@ -6,6 +6,8 @@ The notion of a [[category]] can be formulated [[internalization|internal]] to a
  
  * Lie groups are groups _internal to (smooth) [[manifold]]s_.
 
+There is a more general notion of an [[internal category in a monoidal category]], where the pullbacks are replaced by cotensor products.
+
 #Definition#
 
 Let $A$ be any category. A **category internal to $A$** consists of 
