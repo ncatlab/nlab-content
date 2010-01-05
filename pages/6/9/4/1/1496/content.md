@@ -62,7 +62,7 @@ In this case, we say that $f$ is **bounded**.  (In [[constructive mathematics]],
 
 The bounded linear maps from $V$ to $W$ themselves form a pseudonormed vector space $\mathcal{B}(V,W)$.  This will be a Banach space if (and, except for degenerate cases of $V$, only if) $W$ is a Banach space.  In this way, the category $Ban$ of Banach spaces is a [[closed category]] with $\mathbb{R}$ as the unit.
 
-The clever reader will note that we have not yet defined $Ban$ as a category!  Na&#239;vely, one might accept all bounded linear maps between Banach spaces as morphisms, but this doesn\'t give a good notion of [[isomorphism]].  Instead, we take a morphism to be a **short** linear map: a linear map $f$ such that $\|f\| \leq 1$.  Then the isomorphisms are the (surjective) linear isometries.
+The clever reader will note that we have not yet defined $Ban$ as a category!  Na&#239;vely, one might accept all bounded linear maps between Banach spaces as morphisms, but in certain contexts this doesn\'t give a good notion of [[isomorphism]].  Instead, we take a morphism to be a **short** linear map: a linear map $f$ such that $\|f\| \leq 1$.  Then the isomorphisms are the (surjective) linear isometries.
 
 Note that this makes the 'underlying set' (in the sense of $Ban$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
 $$ Hom_Ban(\mathbb{R},V) \cong \{ v \;|\; \|v\| \leq 1 \} $$
