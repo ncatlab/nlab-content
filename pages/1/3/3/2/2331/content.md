@@ -3,13 +3,90 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea
+## Idea {#Idea}
 
-...
+Deformation theory studies problems of extending structures to _[[infinitesimal object|infinitesimal]]_ extensions of their domains.
+
+A typical problem in deformation theory has the structure that 
+
+* a [[morphism]] $f : X \to Y$ of certain [[space]]s is given, 
+
+* and [[infinitesimal object|infinitesimal]] thickenings $\tilde X$ and $\tilde Y$ of $X$ and $Y$ are prescribed, with injection morphisms $X \to \tilde X$ and $Y \to \tilde Y$
+
+and asks whether a bottom horizontal morphism $\tilde f$ in the diagram
+
+$$
+  \array{
+    X &\stackrel{f}{\to}& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    \tilde X &\stackrel{\tilde f}{\to}& \tilde Y
+  }
+$$
+
+may be found. This morphism $\tilde f$ would be called an _infinitesimal deformation_ of $f$.
+
+In other words:
+
++-- {: .standout}
+
+Deformation theory studies the **obstruction theory** of extensions to **infinitesimal** thickenings.
+
+=--
+
+A typical example of an _infinitesimal thickening_ is a _square-0-extension_ of a [[ring]]:
+
+let $R$ be a [[ring]], to be though of as the ring of functions on the [[space]] $X$ in the above diagram. Let furthermore $N$ be an $R$-module, to be thought of as the $R$-modules of [[section]]s of a [[vector bundle]] over $X$.
+
+Then consider the new ring, whose underlying group is the [[direct sum]] $R \oplus N$, equipped with the product structure
+
+$$
+  (r_1, n_1) \cdot (r_2, n_2) = (r_1 r_2, r_1 n_2 + n_2 r_1)
+  \,.
+$$
+
+This is the **square 0-extension** of $R$ by $N$. It should be thought of as the algebra of functions that consists of elements of $R$ and  $N$, where the elements in $N$ are thought of as functions with values in [[infinitesimal object|infinitesimal quantities]], so that their wouldd-be product "$n_1 \cdot n_2$" vanishes.
+
+So the ring $R \oplus N$ may be thought of as the ring of functions on the infinitesimal extension $\tilde X$ of $X$, which is the space obtained by adding to $X$ all the _vectors of infinitesimal length_ in the vector bundle over $X$.
+
+There is a canonical ring homomorphism $R\oplus N \to R$ that is the identity on $R$ and $0$ on $N$. This is to be thought of as the pullback of functions on spaces along the inclusion of spaces $X \to \tilde X$ (which in turn may be thought of as the 0-[[section]] of the vector bundle on $X$).
+
+Similarly, let $R_2$ be another ring with module $N_2$ and square-0 extension $R_2 \oplus N_2$, though of, respectively, as the ring of functions on a space $Y$, the module of sections of a vector bundle on $Y$ and thering of functions on the space of infinitesimal vectors of this vector bundle.
+
+In terms of these function rings, a morphism $f : X \to Y$ of spaces corresponds to a ring homomorphism $R_1 \leftarrow R_2 : f^*$. Hence we have a situation
+
+$$
+  \array{
+    R_1 &\stackrel{f^*}{\leftarrow}& R_2
+    \\
+    \uparrow && \uparrow
+    \\
+    R_1 \oplus N_1 && R_2 \oplus N_2
+  }
+  \,.
+$$
+
+The obvious obstruction problem now is whether we can **deform** $f^*$ to a morphism $R_1 \oplus N_1 \leftarrow R_2 \oplus N_2 : \tilde f^*$ of rings, such that we get a commuting diagram
+
+$$
+  \array{
+    R_1 &\stackrel{f^*}{\leftarrow}& R_2
+    \\
+    \uparrow && \uparrow
+    \\
+    R_1 \oplus N_1 &\stackrel{\tilde f^*}{\leftarrow}& R_2 \oplus N_2
+  }
+  \,.
+$$
+
+The obstruction to the existence of such lifts is measured by [[cohomology]] with coefficients in the [[cotangent complex]] of $R_1$. 
+
+This is the archetypical problem that deformation theory deals with. As always, after studying this a bit it turns out that in order to obtain a good theory, one needs to adopt the [[nPOV]]. Problems as above may be stated in the [[category]] [[Ring]] of rings, but they may have good answers only in [[vertical categorification|categorifications]] of this for instance to the [[(∞,1)-category]] of [[E-∞-ring]]s.
 
 ### Modules, derivations and K&#228;hler differentials {#Modules}
 
-We describe some aspects of the canonical [[bifibration]] of ring modules in a way that nicely organizes all the concepts [[module]], [[derivation]], [[Kähler differential]] in a single picture that lends itself to [[vertical categorification]]. (Following [[Deformation Theory|DefTheory]].)
+In order to better see the structure of the above archetypical problem of defomration theory, we describe some aspects of the canonical [[bifibration]] of ring modules in a way that nicely organizes all the concepts [[module]], [[derivation]], [[Kähler differential]] in a single picture that lends itself to [[vertical categorification]]. (Following [[Deformation Theory|DefTheory]].)
 
 With [[Ring]] denoting the [[category]] of (commutative, unital) [[rings]], write 
 
