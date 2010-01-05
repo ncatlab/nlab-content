@@ -62,7 +62,7 @@ that sends a ring $R$ to the $R$-module $\Omega_K(R)$ of [[Kähler differentials
 
 ### Cotangent complex
 
-The above situation generalizes from the category [[Ring]] to an arbitrary [[(∞,1)-category]] $C$ by replacing the [[bifibration]] $Mod \to Ring$ by the [[stabilization]] $T_C \to C$ of the [[codomain fibration]] of $C$: the [[tangent (∞,1)-category]] of $C$.
+The above situation generalizes from the category [[Ring]] to an arbitrary presentable [[(∞,1)-category]] $C$ by replacing the [[bifibration]] $Mod \to Ring$ by the [[stabilization]] $T_C \to C$ of the [[codomain fibration]] of $C$: the [[tangent (∞,1)-category]] of $C$.
 
 The projection $p : T_C \to C$ still has a [[left adjoint]]
 
@@ -80,7 +80,7 @@ is the identity [[(∞,1)-functor]].
 
 
 
-### Further catergorification
+### Further categorification
 
 ...
 
