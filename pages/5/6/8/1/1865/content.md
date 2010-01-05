@@ -1,5 +1,9 @@
 
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 As every [[generalized (Eilenberg-Steenrod) cohomology]] theory, [[K-theory]] has a refinement to [[differential cohomology]].
 
@@ -7,13 +11,13 @@ In as far as we can think of cocycles in [[K-theory]] as represented by [[vector
 
 There are various different models that differ in the concrete realization of these cocycles.
 
-# The Simons-Sullivan model #
+## The Simons-Sullivan model 
 
 This section discusses the model presented in
 
 * James Simon, Dennis Sullivan, _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
 
-## Idea ##
+### Idea 
 
 In the Simons-Sullivan model cocycles in differential K-theory are represented by ordinary [[vector bundle]]s [[connection on a bundle|with connection]]. The crucial ingredient is that two connections on a vector bundle are taken to be the same representative of a differential K-cocycle if they are related by a [[concordance]] such that the corresponding [[Chern-Simons form]] is exact.
 
@@ -27,7 +31,7 @@ $$
 
 **Definition**
 
-The **Chern character** of $\nabla$ is the inhomogeneous differential form
+The **[[Chern character]]** of $\nabla$ is the inhomogeneous differential form
 
 $$
  ch(\nabla) := \sum_{j \in \mathbb{N}}
@@ -94,7 +98,7 @@ Moreover...
 
 
 
-# The Bunke-Schick model #
+## The Bunke-Schick model 
 
 Bunke and Schick in a series of articles developed a model of differential K-theory in terms of bundles of Dirac operator... ...
 
@@ -104,6 +108,6 @@ Bunke and Schick in a series of articles developed a model of differential K-the
 (...)
 
 
-# Examples #
+## Examples 
 
 * In [[gauge theory]] gauge fields are modeled by cocycles in [[differential cohomology]]. The field modeled by differential K-theory is the [[RR-field]]. 
