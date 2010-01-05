@@ -31,7 +31,7 @@ In other words:
 
 +-- {: .standout}
 
-Deformation theory studies the **obstruction theory** of extensions to **infinitesimal** thickenings.
+Formal deformation theory studies the **obstruction theory** of extensions to **infinitesimal** thickenings.
 
 =--
 
@@ -86,7 +86,7 @@ This is the archetypical problem that deformation theory deals with. As always, 
 
 ### Modules, derivations and K&#228;hler differentials {#Modules}
 
-In order to better see the structure of the above archetypical problem of defomration theory, we describe some aspects of the canonical [[bifibration]] of ring modules in a way that nicely organizes all the concepts [[module]], [[derivation]], [[Kähler differential]] in a single picture that lends itself to [[vertical categorification]]. (Following [[Deformation Theory|DefTheory]].)
+In order to better see the structure of the above archetypical problem of deformation theory, we describe some aspects of the canonical [[bifibration]] of ring modules in a way that nicely organizes all the concepts [[module]], [[derivation]], [[Kähler differential]] in a single picture that lends itself to [[vertical categorification]]. (Following [[Deformation Theory|DefTheory]].)
 
 With [[Ring]] denoting the [[category]] of (commutative, unital) [[rings]], write 
 
@@ -139,6 +139,8 @@ that sends a ring $R$ to the $R$-module $\Omega_K(R)$ of [[Kähler differentials
 
 ### Cotangent complex
 
+Using the module of K&#228;hler differentials is not appropriate in general; instead we need to take its derived version. To talk about the nonabelian derived functors, Quillen introduced a model category structure on the category of simplicial commutative rings. Given a morphism $f: A\to B$ of rings, which makes $B$ an $A$-algebra, the category $AbGr(A-Alg/B)$ of abelian group objects in the slice category $A$-$Alg/B$ of $A$-algebras over $B$ is equivalent both to the category of $B$-modules and the trivial (= square zero) extensions of $A$ by $B$-modules. In particular we can consider the forgetful functor $AbGr(A-Alg/B)\to A-Alg/B$ which has a left adjoint $Ab_{B/A} : A-Alg/B\to AbGr(A-Alg/B)\cong {}_B Mod$. All said is true for simplicial commutative rings as well. Now the **relative cotangent complex** $L_{B/A}$ is the value on $B$ of the left [[derived functor]] $\mathbb{L} Ab_{B/A}(B)$. Regarding that the left adjoint at the nonderived level (and for usual rings) can be expressed via K&#228;hler differentials, this explains the phrase "derived version of the module K&#228;hler differentials". 
+
 The above situation generalizes from the category [[Ring]] to an arbitrary presentable [[(∞,1)-category]] $C$ by replacing the [[bifibration]] $Mod \to Ring$ by the [[stabilization]] $T_C \to C$ of the [[codomain fibration]] of $C$: the [[tangent (∞,1)-category]] of $C$.
 
 The projection $p : T_C \to C$ still has a [[left adjoint]]
@@ -147,15 +149,13 @@ $$
   \Omega : C \to T_C
 $$
 
-called the [[cotangent complex]] functor for $C$. It still has the special property, as in the motivating example above, that it is also a [[section]] of the tangent propjection, i.e. that 
+for which a representative which is also a section (in a strict sense) of $p$ may be taken; any such representative is called the [[cotangent complex]] functor for $C$. The special property section property, like in the motivating example above, says that the composition 
 
 $$
   C \stackrel{\Omega}{\to} T_C \stackrel{p}{\to} C
 $$
 
 is the identity [[(∞,1)-functor]].
-
-
 
 ### Further categorification
 
