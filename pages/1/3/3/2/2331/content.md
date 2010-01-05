@@ -17,15 +17,15 @@ $$
   p : Mod \to Ring
 $$ 
 
-for the [[bifibration]] of [[module]]s over [[ring]]s: objects of $Mod$ are pairs consisting of a ring $R$ an an $R$-[[module]] $N$, and morphism $(R_1,N_1) \to (R_2, N_2)$ are pairs consisting of a ring homomorphism $f : R_1 \to R_2$ and a morphism $F : N_1 \to N_2 \otimes_f R_2$ of $R_2$-modules.
+for the [[bifibration]] of [[modules]] over [[rings]]: objects of $Mod$ are pairs consisting of a ring $R$ an an $R$-[[module]] $N$, and morphism $(R_1,N_1) \to (R_2, N_2)$ are pairs consisting of a ring homomorphism $f : R_1 \to R_2$ and a morphism $F : N_1 \to N_2 \otimes_f R_2$ of $R_2$-modules.
 
 (Recall for instance from the discussion at [[Sweedler coring]]) 
-that this bifibration is a way to think of the [[stack]] of algebraic [[vector bundle]]s.)
+that this bifibration is a way to think of the [[stack]] of algebraic [[vector bundles]].)
 
 But there is also another functor $G : Mod \to Ring$ of interest: for $N$ any $R$-module, we may form the ring $G(N) := R \oplus N$ called the **square 0-extension** of $R$, in which multiplication is given by
 
 $$
-  (r_1,n_1) \cdot (r_2, n_2) := (r_1 r_2, n_1 r_2 + n_2 r_1
+  (r_1,n_1) \cdot (r_2, n_2) := (r_1 r_2, n_1 r_2 + n_2 r_1)
   \,.
 $$
 
@@ -56,7 +56,7 @@ $$
   \Omega : Ring \to Mod
 $$
 
-that sends a ring $R$ to the $R$-module $\Omega_K(R)$ of [[Kähler differential]]s, i.e. to the module that encodes the [[cotangent bundle]].
+that sends a ring $R$ to the $R$-module $\Omega_K(R)$ of [[Kähler differentials]], i.e. to the module that encodes the [[cotangent bundle]].
 
 
 
@@ -97,7 +97,7 @@ is the identity [[(∞,1)-functor]].
 
 * [[formal smoothness]]. 
 
-Deformation problems are often phrased in terms of [[differential graded Lie algebra]]s.
+Deformation problems are often phrased in terms of [[differential graded Lie algebras]].
 
 ## References
 
