@@ -79,8 +79,13 @@ Recently, this problem was fully solved and homotopy theory fully understood as 
 
 * and for instance the notion of homotopy category of a stable $(\infty,1)$-category reproduces the notion of [[triangulated category]], thus incorporating also a large toolset from [[homological algebra]] into the picture.
 
+### In deformation theory {#DeformationTheory}
 
-### In logic
+In deformation theory it was early on recognized that for a good theory the notion of [[Kähler differential]]s has to be generalized to the notion of [[cotangent complex]]. With the advent of the study of derived [[moduli space]]s, such as the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli space of derived elliptic curves]], this needed to be further generalized to notions of cotangent complexes not just of [[ring]]s, but of [[E-∞-ring]]s. 
+
+It turns out that all these concepts are special cases of a construction obtained from a simple higher categorical notion, that of [[left adjoint]] [[section]]s of a [[tangent (∞,1)-category]]. 
+
+### In logic {#Logic}
 
 * In Martin-L&#246;f type theory, from a type $A$ and elements $a, b \in A$, we construct a new type $Id(a, b)$ whose elements are to be thought of as proofs that $a$ and $b$ are propositionally equal. The type-theoretic functions $1 \to Id(a, a)$, $Id(b, c) \times Id(a, b) \to Id(a, c)$ and $Id(a, b) \to Id(b, a)$ express the reflexivity, transitivity and symmetry of propositional equality. The type $A$ may be thought of as a [[groupoid]], but only by quotienting out by equations expressing associativity. As with the homotopy theoretic case, it makes sense not to do so. Then the type $A$ may be thought of as an [[∞-groupoid]].
 ...
