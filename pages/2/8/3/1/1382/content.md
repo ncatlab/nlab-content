@@ -12,10 +12,14 @@ An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category]] for th
 
 This means that an $E_\infty$-ring is an [[A-∞ ring]] that is commutative up to coherent higher homotopies.
 
-Equivalently $E_\infty$-rings may be modeled as ordinary commutative [[monoid]]s with respect to the [[symmetric monoidal smash product of spectra]].
+Equivalently $E_\infty$-rings may be modeled as ordinary commutative [[monoids]] with respect to the [[symmetric monoidal smash product of spectra]].
 
 $E_\infty$-rings are the analoge in [[higher algebra]] of the commutative [[rings]] in ordinary [[algebra]].
 
 [[!redirects E-∞ ring]]
 [[!redirects E-infinity ring]]
 [[!redirects E-∞-ring]]
+[[!redirects E-infinity-rings]]
+[[!redirects E-∞ rings]]
+[[!redirects E-infinity rings]]
+[[!redirects E-∞-rings]]
