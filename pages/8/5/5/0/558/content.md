@@ -1,4 +1,8 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 The _homotopy hypothesis_ states that [[n-groupoid]]s are combinatorial models for [[homotopy n-type]]s. As a slogan:
 
@@ -30,14 +34,14 @@ The requirement to satisfy the homotopy hypothesis is one thing that forces us o
 In analogy to the homotopy hypothesis, there are also attempts to relate general [[infinity-category|infinity-categories]] which need not be groupoidal to [[directed space]]s, in which a morphism which is not invertible would model a path in the space that can only be traversed in one direction.
 
 
-# The meaning of "models" #
+## The meaning of "models" 
 
 One has to be careful, in stating the homotopy hypothesis, to specify what one means by "models."  The usual, unstated, implication is that the notion of _equivalence_ of $n$-groupoids used to model $n$-types is the appropriate *$n$-category-theoretic* notion of [[equivalence of categories|equivalence]].  It is in this way that, for instance, it is known that 1-groupoids model 1-types; to be precise, the 2-category of groupoids, functors, and natural transformations is equivalent to the 2-category of 1-types, continuous maps, and homotopy classes of homotopies.
 
 The reason this is important to specify is that there are other notions of equivalence on categorical structures which model homotopy types in other ways.  For example, if we declare a functor between categories to be a weak equivalence iff its [[nerve]] is a weak equivalence of [[simplicial set]]s, then _all_ homotopy types can be modeled by 1-categories in this way; see the [[Thomason model structure]] for 1-categories.
 
 
-# The $n$-fold case #
+## The $n$-fold case 
 
 It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all homotopy $n$-types.  
 
@@ -69,15 +73,15 @@ The purpose of 1. is to be able to calculate some homotopical information. The p
 
 Trying to be more explicit about some colimits of certain higher groupoids has yielded some interesting algebraic constructions, for which some examples required computational group theory!
 
-#References#
+## References
 
-* John Baez, _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
+* [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-* Ronnie Brown, _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See there for further references. )
+* [[Ronnie Brown]], _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See there for further references. )
 
-# Discussion #
+## Discussion 
 
-## Why Seek Other Models for Homotopy Types? ##
+### Why Seek Other Models for Homotopy Types?
 
 _[[Tim Porter|Tim]]_: I would like to pose a question on the Homotopy Hypothesis.  Playing devil's advocate for the moment, since Kan complexes, and simplicially enriched categories, both satisfy the homotopy hypothesis, why bother to search for other models?  That is a bit severe of course so a more 'constructive' form of the question is what criteria should we be looking to be satisfied so as to say that a model of homotopy types is a good one?  (Perhaps things like that the basic homotopy operations, such as Whitehead or Samelson products, should have clear formulations and clear interpretations.  The higher operations could then be gradually required.  The relation between obstructions to interchange laws (interchangeator!) and the low dimensional Whitehead products are 'clear' even if not that immediately evident in most writing on the subject (and I include my own in that!), but in higher dimensions .... ?
 
