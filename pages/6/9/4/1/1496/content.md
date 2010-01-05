@@ -46,8 +46,8 @@ Thus a Banach space may equivalently be defined as a vector space equipped with 
 
 If $V$ and $W$ are pseudonormed vector spaces, then the **norm** of a linear function $f: V \to W$ may be defined in either of these equivalent ways:
 
-*  $ \|f\| = \inf \{ \|f v\| \;|\; \|v\| \leq 1 \} $;
-*  $ \|f\| = \sup \{ r \;|\; \forall{v},\; \|f v\| \leq r \|v\| \} $.
+*  $ \|f\| = \sup \{ \|f v\| \;|\; \|v\| \leq 1 \} $;
+*  $ \|f\| = \inf \{ r \;|\; \forall{v},\; \|f v\| \leq r \|v\| \} $.
 
 (Some other forms are sometimes seen, but these may break down in degenerate cases.)
 
