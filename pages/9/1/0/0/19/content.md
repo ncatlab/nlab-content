@@ -268,7 +268,7 @@ Lawvere pointed out that set theory is axiomatized by a binary membership relati
 
 The process of going from sets to categories is a special case of [[categorification]] and the reverse process is a special case of [[decategorification]].
 
-For a philosophical consideration of foundations covering and comparing sets, structuralism [a la Bourbaki?] and categories, see the article
+For a philosophical consideration of foundations covering and comparing sets, structuralism (a la Bourbaki?) and categories, see the article
 
 * Sets, categories and structuralism - Costas Drossos
 
@@ -383,7 +383,7 @@ And i still wonder how the composition of a category looks like in this presheaf
 
 _Todd_: Don't worry, I didn't see you as opposing me. I agree with you that someone should have used the word "small" when talking about categories as simplicial sets. 
 
-The truncated simplicial sets you're considering have been considered; the level at which you truncated (I'll say "2-skeletal" since you truncated so as to leave the parts in dimension up to 2) is certainly sufficient to encode the <i>data</i> of a category via the evident 2-skeletal nerve. [1-skeletal simplicial sets are reflexive directed graphs, and for those things the 1-skeletal nerve functor is just the forgetful functor from categories to reflexive directed graphs.] 
+The truncated simplicial sets you're considering have been considered; the level at which you truncated (I'll say "2-skeletal" since you truncated so as to leave the parts in dimension up to 2) is certainly sufficient to encode the <i>data</i> of a category via the evident 2-skeletal nerve. (1-skeletal simplicial sets are reflexive directed graphs, and for those things the 1-skeletal nerve functor is just the forgetful functor from categories to reflexive directed graphs.)
 
 To answer your last question: composition in the category is modeled in the nerve by the "middle" face operator 
 $$C_2 = C_1 \times_{C_0} C_1 \to C_1$$ 
