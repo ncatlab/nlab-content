@@ -5,7 +5,7 @@
 
 ## Idea {#Idea}
 
-Deformation theory studies problems of extending structures to _[[infinitesimal object|infinitesimal]]_ extensions of their domains.
+Deformation theory studies problems of extending structures to  extensions of their domains. Formal deformation theory, is the part where the extensions are _[[infinitesimal object|infinitesimal]]_.
 
 A typical problem in deformation theory has the structure that 
 
@@ -161,22 +161,9 @@ is the identity [[(∞,1)-functor]].
 
 ...
 
+## Related entries and references 
 
-## Related entries
-
-* [[cotangent complex]]
-
-* [[Maurer-Cartan equation]]
-
-* [[derived algebraic geometry]]
-
-* [[formal scheme]]
-
-* [[formal smoothness]]. 
-
-Deformation problems are often phrased in terms of [[differential graded Lie algebras]].
-
-## References
+Related $n$lab entries include [[cotangent complex]], [[Maurer-Cartan equation]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. Deformation problems are often phrased in terms of [[differential graded Lie algebras]], and, more generally, [[L-infinity algebras]]. 
 
 * Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, _Deformation theory of objects in homotopy and derived categories_ 
    * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
