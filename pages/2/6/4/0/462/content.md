@@ -1,9 +1,13 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 **Geometric function theory** 
 considers notions of higher generalized functions on higher generalized spaces (such as on [[groupoid]]s, on [[Lie groupoid|orbifolds]] and more generally on [[infinity-stack homotopically|infinity-stacks]]) such that all suitably generalized linear maps between the monoidal $\infty$-structures of functions on two spaces arise from a higher analog of plain matrix multiplication, namely from a _pull-tensor-push_ operation in the given $\infty$-context.
 
-## Motivating toy example: matrices ##
+### Motivating toy example: matrices
 
 The motivating toy example is that where all spaces in question are just _finite sets_ and functions are just maps from finite sets to a given [[ground field]]: for $X$ a finite set the collection of functions $C(X)$ on $X$ is canonically identified with the vector space spanned by the elements of $X$. Moreover, for two finite sets $X_1$ and $X_2$ functions on the [[product]] set $X_1 \times X_2$ are canonically identified with $|X_1| \times |X_2|$-matrices 
 $$
@@ -39,7 +43,7 @@ where
 * $\int_{pr_2}$ is the push-forward of field-valued functions along $pr_2$, i.e. the operation which integrates (a finite sum in this toy example) a function on $X_1 \times X_2$ over $X_1$ to a function on $X_2$.
 
 
-## groupoidification ##
+### Groupoidification 
 
 A closely related situation is considered in the context of [[groupoidification]], where the aim is to encode not only the operation of matrix multiplication geometrically in the above sense, but also the very notion of a function itself. 
 
@@ -51,7 +55,7 @@ Related toy examples of the general pattern are [[group]] algebras regarded as [
 
 
 
-## General $\infty$-categorical / homotopical setup ##
+### General $\infty$-categorical / homotopical setup 
 
 In full generality the idea of _geometric function theory_ is to replace in the above toy example all finite sets with generalized higher spaces in the form of [[∞-stack]]s and to realize a useful notion of higher "functions" $C(X)$, such that $C(X)$ is a [[monoidal (∞,1)-category]] in a suitable sense and behaves as expected under [[homotopy pullback]] and push-forward operations.
 
@@ -78,7 +82,7 @@ $$
 This is to be read as a vast generalization of ordinary matrix multiplication, to which it reduces in the case that all spaces here are finite sets and all functions are ordinary functions on finite sets with values in some field.  One step higher this gives [[Fourier-Mukai transformation|Fourier?Mukai transformations]] etc.
 
 
-## Relation to Hochschild (co)homology ##
+### Relation to Hochschild (co)homology 
 
 A particularly interesting application of items 1) and 2) above is to the case where the pullback diagram of generalized spaces in question is simply
 
@@ -108,7 +112,7 @@ $$
 The expression on the right is known as the higher [[trace]] of the [[monoidal (∞,1)-category]] $C(X)$, which is the higher [[Hochschild homology]] of $C(X)$. (See next subsection for concrete realizations).
 
 
-### Realization in terms of derived $\infty$-stacks on the algebraic site ###
+#### Realization in terms of derived $\infty$-stacks on the algebraic site
 
 Aspects of geometric function theory have a long history in the context of [[sheaf|sheaves]] and [[stack|stacks]] over algebraic [[site]]s. The [[Fourier-Mukai transformation|Fourier?Mukai transform]] is a classical example of a pull-tensor-push operation in a context where the object $C(X)$ of generalized functions on a space $X$ is taken to be $D(X)$, the [[derived category]] of [[coherent sheaf|coherent sheaves]] on $X$.
 
@@ -130,17 +134,17 @@ A detailed entry on this is at
 * [[geometric ∞-function theory]]
 
 
-## further examples ##
+### Further examples
 
 Further discussion of realizations of geometric function objects is at
 
 * [[examples for geometric function objects]]
 
-# Remarks #
+## Remarks 
 
 Closely related to the spans appearing in geometric function theory is the notion of [[bi-brane]].
 
-#Further references#
+## Further references
 
 [[David Ben-Zvi]] kindly wrote an expositional piece on geometric function theory for the $n$-Category Caf&#233; ([blog entry](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html)):
 
