@@ -32,7 +32,7 @@ A **modular tensor category** is a [[category]] with the following long list of 
 
 * [[braided monoidal category]]
 
-* [[ribbon category], in particular objects have duals
+* [[ribbon category]], in particular objects have duals
 
 * **modularity** a non-degeneracy condition on the braiding given by an isomorphism of algebras
   $$
