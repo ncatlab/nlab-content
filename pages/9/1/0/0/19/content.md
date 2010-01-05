@@ -204,6 +204,14 @@ _Rafael_: I don't see a problem with it. Since there are many equalities in cate
 * (Red herring principle if you like it)
 
 _Toby_:  OK, here are more principles.
+
+
+_Rafael_: Just a few things, the Yoneda lemma is a theorem and not a principle, therefore if it should be mentioned here (i think it defenetly should), it should be directly after the main principle, or in a separate chapter. But i think i get your idea; to include main theorems also. Then the heading need to be changed.
+
+I am not sure where you are heading with other principles (except the microcosm principle) but they are related to: exactness hypothesis, stabilization hypothesis, tangle hypothesis, cobordism hypothesis, extended TQFT hypothesis and the primacy of the point hypothesis. They are all related to higher categories which i have so far avoided in this page. To expand the whole page to higher categories would make it very intransparant. Why only mention it here? Then note that as soon as categorists have agreed what the definition of a weak higher category is, the hypotheses will not be principles but conjectures and theorems.
+
+The dualities deserve a whole section (for completeness), or a separate page.
+
 =--
 
 According to Kapranov and Voevodsky, the main principle of category theory is this:
