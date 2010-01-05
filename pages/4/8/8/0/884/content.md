@@ -37,10 +37,10 @@ and $F$ induces an equivalence of [[homotopy category|homotopy categories]]
 
 $$Ho(\mathbf{Spaces}) \simeq Ho(\mathbf{A}).$$
 
-[Here $\mathbf{Spaces}$ is a category, perhaps of topological spaces such as
+(Here $\mathbf{Spaces}$ is a category, perhaps of topological spaces such as
 polyhedra or CW-complexes, but it may be larger than this and may contain the
 sort of 'generalised space', [[topos]], etc., used in other contexts such as algebraic
-geometry, and, of course, $\infty$-[[infinity-groupoid|groupoids]].]
+geometry, and, of course, $\infty$-[[infinity-groupoid|groupoids]].)
 
 #More recent developments
 
