@@ -51,6 +51,56 @@ For example, in $Hilb$, there are many invertible linear operators, but only tho
 The unitary isomorphisms form a [[groupoid]], which may be regarded as the _[[core]]_ of the $\dagger$-category.
 
 
+## Model structure on dagger-categories {#ModelStructure}
+
+> the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
+
+Consider dagger-categories from the point of view of [[homotopy theory]].
+
+Recall that the category [[Cat]] of [[small category|small categories]] naturally admits the [[model category]] structure called the [[folk model structure on Cat]].
+
+The category of small dagger categories $DCat$ also admits
+a "natural" [[model category]] structure: 
+
+* dagger functor $f:A \to $ is a weak equivalence iff it is 
+
+  * [[full and faithful functor|full and faithful]];
+
+  * and unitary surjective, meaning that every object of $B$ is unitary isomorphic to an object in the image of the functor $f$;
+
+* the cofibrations and the trivial fibrations are as in [[folk model structure on Cat|Cat]];
+
+* fibrations are the unitary isofibration: maps having the [[right lifting property]] for unitary isomorphisms.
+
+The [[forgetful functor]] $DCat \to Cat$ is a [[right adjoint]]
+but it is not a [[Quillen adjunction|right Quillen functor]] with respect to the natural model structures on these categories.
+In other words the forgetful functor $DCat\to Cat$ is wrong.
+This may explains why a dagger category cannot be
+regarded as a category equipped a homotopy invariant structure, as discussed in more detail in the example sections of the entry [[evil]].
+
+
+But he notion of dagger category is perfectly reasonable
+from an homotopy theoretic point of view. This is because the model category $DCat$ is a [[combinatorial model category]].
+It follows, by a general result, that the notion of
+of dagger category is homotopy essentially algebraic
+There a homotopy limit sketch whose category of models (in spaces)
+is [[Quillen equivlence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
+
+
+##  $(\infty,1)$-dagger-categories {##oo1Version}
+
+
+> the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
+
+
+There should be a notion of dagger [[quasi-category]].
+
+A dagger [[simplicial set]] can be defined to be a simplicial set $X$ equipped with an involutive [[isomorphism]] $\dagger :X\to X^{op}$ which is the identity on 0-cells.
+The category of dagger simplicial sets (and dagger preserving maps)
+is the category of [[presheaf|presheaves]] on the category whose objects are the ordinals $[n]$, but where the maps $[m]\to [n]$ are order reversing or preserving.
+
+
+
 ## References
 
 The concept of $\dagger$-category is discussed here:
