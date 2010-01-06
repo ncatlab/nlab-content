@@ -65,9 +65,26 @@ $\pi_0(Cograph(f))$ of this category.
 
 ## Cographs of functors between 1-categories ##
 
-For $f : C \to D$ an ordinary  [[functor]], 
-the full category $cograph(f)$ is what is denoted $C \star^f D$ in section 2.3.1
-_Correspondences_ in 
+For $f : C \to D$ an ordinary  [[functor]], $cograph(f)$ is the category with $Obj(cograph(f)) = Obj(C) \coprod Obj(D)$ and with
+
+$$
+  Hom_{cograph(f)}(x,y) = 
+  \left\{
+    \array{
+      Hom_C(x,y) & if x,y \in C
+      \\
+      Hom_D(x,y) & if x,y \in D
+      \\
+      Hom_D(f(x),y) & if x \in C ,y \in D
+      \\
+      \emptyset & if x \in D ,y \in C
+    }
+  \right.
+$$ 
+
+with composition defined as induced from $C$, from $D$, and from the action of $f$.  This is a special case of the [[cograph of a profunctor]], specialized to the representable [[profunctor]] $D(f-,-)$.
+
+This cograph is denoted $C \star^f D$ in section 2.3.1 (_Correspondences_) in 
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
@@ -79,19 +96,19 @@ below.
 ### Adjoint functors in terms of cographs ###
 
 As emphasized in the beginning of section 5.2 there, cographs of functors may be used to characterize
-[[adjoint functors]].
+[[adjoint functors]].  This is just one way of stating the characterization of adjoints in terms of [[profunctors]] (which in turn makes sense in any [[2-category equipped with proarrows]]).
 
 +-- {: .un_prop }
 ###### Proposition
 
-Two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functors]] precisely if their cographs (modulo the obvious passage to [[opposite categories]]) are isomorphic under $C$ and $D$:
+Two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functors]] precisely if $cograph(L)$ and $cograph(R^{op})^{op}$ are isomorphic under $C$ and $D$:
 
 $$
   (L \dashv R) \Leftrightarrow 
   (cograph(L) \cong cograph(R^{op})^{op})
 $$
 
-where the isomorphism is in the co-slice category $(C\sqcup D)/Cat$.
+where the isomorphism is in the [[co-slice category]] $(C\sqcup D)/Cat$.
 =--
 
 More precisely, there is a bijection between adjunctions $L\dashv R$ and isomorphisms as above.
@@ -133,18 +150,18 @@ $$
   \right.
 $$ 
 
-Evidently these categories are isomorphic precisely if for all $x \in C, y \in D$ we have
+Evidently these categories are isomorphic under $C$ and $D$ precisely if for all $x \in C, y \in D$ we have
 
 $$
   Hom_D(L(x),y) \cong Hom_C(x,R(y))
   \,.
 $$
 
-Such a natural isomorphism is precisely the structure of an adjunction $L\dashv R$.  (It is natural because the isomorphism is an isomorphism of categories, and the functoriality of $Hom_D(L(-),-)$ and $Hom_C(-,R(-))$ is encoded by composition in the cograph.)
+naturally in $x$ and $y$.  It is natural because the isomorphism is an isomorphism of categories, and the functoriality of $Hom_D(L(-),-)$ and $Hom_C(-,R(-))$ is encoded by composition in the cograph.  Of course, such a natural isomorphism is precisely the structure of an adjunction $L\dashv R$.
 
 =--
 
-Note that under the identification of [[profunctors]] with *codiscrete cofibrations* in $Cat$, the cograph of a functor is the profunctor associated to it (and the cograph $cograph(R^{op})^{op}$ is the *other* profunctor associated to it).
+Note also that just as $cograph(L)$ is the cograph of the profunctor $D(L-,-)$, also $cograph(R^{op})^{op}$ is the cograph of the profunctor $C(-,R-)$.  Thus, this theorem can be viewed as one way of stating the characterization of adjunctions in terms of homsets, as can be [formulated](http://ncatlab.org/nlab/show/2-category+equipped+with+proarrows#HomsetAdjn) in terms of profunctors in any 2-category equipped with proarrows.
 
 
 ## Cographs of functors between $(\infty,1)$-categories ##
