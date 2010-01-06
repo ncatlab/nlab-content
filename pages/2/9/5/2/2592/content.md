@@ -9,8 +9,15 @@
 {:toc}
 
 
+## Definition
 
-## In a lined topos
+For $n \in \mathbb{N}$ the **orthogonal group** is the group of [[isometry|isometries]] of a real $n$-dimensional [[Hilbert space]].
+
+This is canonically isomorphic to the group of $n \times n$ orthogonal matrices.
+
+The analog for complex Hilbert spaces is the [[unitary group]].
+
+### In a lined topos
 
 +-- {: .query}
 
