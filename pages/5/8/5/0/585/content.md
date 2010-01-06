@@ -269,7 +269,7 @@ and so the terminal $E$-coalgebra is the category $Trimble(\omega)Cat$ as descri
 
 $$\Pi_\omega: Top \to Trimble(\omega)Cat$$ 
 
-## Category theory for Trimble $n$-categories 
+## Category theory for Trimble $n$-categories {#CatTheory}
 
 
 +-- {: .query}
