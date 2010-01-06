@@ -182,7 +182,7 @@ Some related concepts include:
 
 We now give a few examples of how to do category theory internal to a proarrow equipment.
 
-### Homset definition of adjunctions
+### Homset definition of adjunctions {#HomsetAdjn}
 
 We start with this: two (vertical) arrows $f\colon A\to B$ and $g\colon B\to A$ are adjoint (in $\mathcal{V}(\underline{X})$) if and only if we have an isomorphism $B(f,1)\cong A(1,g)$.  Why?  Well, an adjunction $f\dashv g$ comes with a unit and a counit, which (expressed in $\underline{X}$) are of the form
 $$\array{A & \overset{U_A}{\to} & A\\
