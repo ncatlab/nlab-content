@@ -38,9 +38,12 @@ the nPOV asserts that
 
 ## Examples
 
+The following is a (incomplete) list of examples of topics for which the $n$POV has proven to be a useful perspective. 
+
+
 ### In geometry
 
-For instance, the field of [[differential geometry]] has long managed to avoid the change to an $n$-point of view that had been found to be unavoidable, natural and fruitful in algebraic geometry long ago. But more recently -- not the least due to the recognition of differential [[higher geometry|higher geometric]] structures in the physics of [[gauge theory]] and [[supergravity]] (such as that of [[orbifold]]s and [[orientifold]]s, of smooth [[gerbe]]s and smooth [[principal ∞-bundle]]s) -- [[sheaf and topos theory|sheaf and topos theoretic]] concepts, such as [[synthetic differential geometry]], [[diffeological space]]s and [[differentiable stack]]s are gaining wider recognition and appreciation. 
+The field of [[differential geometry]] has long managed to avoid the change to an $n$-point of view that had been found to be unavoidable, natural and fruitful in algebraic geometry long ago. But more recently -- not the least due to the recognition of differential [[higher geometry|higher geometric]] structures in the physics of [[gauge theory]] and [[supergravity]] (such as that of [[orbifold]]s and [[orientifold]]s, of smooth [[gerbe]]s and smooth [[principal ∞-bundle]]s) -- [[sheaf and topos theory|sheaf and topos theoretic]] concepts, such as [[synthetic differential geometry]], [[diffeological space]]s and [[differentiable stack]]s are gaining wider recognition and appreciation. 
 
 For instance the ordinary category [[Diff]] of smooth [[manifold]]s fails to have all [[pullback]]s, it only has pullbacks along [[transversal map]]s.
 This observation is usually the starting point for realizing that differential geometry is in need of a bit of [[category theory]] in the form of [[higher geometry]]. 
