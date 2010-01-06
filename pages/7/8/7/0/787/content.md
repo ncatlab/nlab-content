@@ -116,6 +116,8 @@ The relation between the two different Lie-alebroid-like  definition of Courant 
 
 * [[Dmitry Roytenberg]], _On weak Lie 2-algebras_ ([arXiv](http://arxiv.org/abs/0712.3461))
 
+Chris Rogers paper discusses 2-plectic manifolds, manifolds with nondegenerate closed 3 forms and shows that they are related to a special class of Courant algebroids, those that are exact.
 
+* [[Chris Rogers]] _Courant algebroids from categorified symplectic geometry_, <a href="http://front.math.ucdavis.edu/1001.0040">arXiv:1001.0040v1 [math-ph]</a>
 
 [[!redirects Courant Lie algebroid]]
