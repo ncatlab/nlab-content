@@ -96,10 +96,20 @@ It appears as [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/math/pdf/06
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] 
 
+
+[[!redirects limit in a quasi-category]]
 [[!redirects colimit in a quasi-category]]
 [[!redirects limit in quasi-categories]]
 [[!redirects limits in quasi-categories]]
 [[!redirects colimit in quasi-categories]]
 [[!redirects colimits in quasi-categories]]
+[[!redirects limit in a quasicategory]]
+[[!redirects colimit in a quasicategory]]
+[[!redirects limit in quasicategories]]
+[[!redirects limits in quasicategories]]
+[[!redirects colimit in quasicategories]]
+[[!redirects colimits in quasicategories]]
 [[!redirects (infinity,1)-limit]]
 [[!redirects (infinity,1)-colimit]]
+[[!redirects (infinity,1)-limits]]
+[[!redirects (infinity,1)-colimits]]
