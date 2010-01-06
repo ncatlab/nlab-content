@@ -50,6 +50,10 @@
 
   on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
 
+* _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf))
+
+   on [[(∞,1)-category|(∞,1)-categories]] of [[(∞,n)-category|(∞,n)-categories]] and [[Goodwillie calculus]]
+
 * _$\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
   on little cubes [[(∞,1)-operad]]s
