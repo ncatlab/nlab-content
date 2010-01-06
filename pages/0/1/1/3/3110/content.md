@@ -1,4 +1,8 @@
-# The folk model structure on $Cat$
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## The folk model structure on $Cat$
 
 The **folk model structure** on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[folk model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors.
 
@@ -8,7 +12,7 @@ On this page we give a concise construction of the folk model structure, as well
 {:toc}
 
 
-## The classical version
+### The classical version
 
 For purposes of this page, [[Cat]] will denote the [[1-category]] of [[small categories]] and [[functors]], and our categories are all [[strict categories]] as in ordinary set-theoretic [[foundations]].  We write $C_0$ for the set of objects of a small category $C$.  Define a functor to be:
 
@@ -37,14 +41,14 @@ Next, define $D$ to be the category of triples $(a,b,\phi)$ where $\phi\colon f(
 This completes the proof.  Note that the two factorizations constructed above are in fact functorial.  This model structure is easily seen to be [[cofibrantly generated model category|cofibrantly generated]], although the above factorizations are not those constructed from the [[small object argument]] (though they are closely related to the [[natural weak factorization system]]s produced from Richard Garner's modified small object argument).
 
 
-## Without choice
+### Without choice
 
 In the absence of the axiom of choice, one must distinguish between *strong equivalences of categories*, which come with an inverse up to isomorphism, and *weak equivalences of categories*, which are merely fully faithful and essentially surjective on objects.  Since weak equivalences of categories still "preserve all categorical information," we might hope to find a model structure on $Cat$ whose weak equivalences are the *weak* equivalences of categories.  The notion of [[anafunctor]] also suggests such an approach, since an anafunctor (the "right" replacement for a functor in the absence of choice) is a particular sort of [[generalized morphism]]: a span $A\leftarrow F \to B$ of functors in which $F\to A$ is a surjective equivalence.
 
 If there is to be such a model structure, however, then since generalized morphisms between fibrant-and-cofibrant objects are all represented by ordinary ones, there must exist "cofibrant categories" and "fibrant categories" such that every anafunctor between fibrant-and-cofibrant categories is equivalent to an honest functor, and every category can be replaced by a fibrant and cofibrant one.  It seems unlikely that this would be true without *any* choice-like axioms, but notably weaker axioms than full AC do suffice.
 
 
-### The projective model structure
+#### The projective model structure
 
 For the existence of the model structure in this case, we assume [[COSHEP]], aka the "presentation axiom," namely that the category [[Set]] has enough [[projective objects]].  Define a functor $f\colon A\to B$ to be:
 
@@ -63,6 +67,6 @@ Weak equivalences of categories are easily seen to satisfy the 2-out-of-3 proper
 The existence of this model structure implies, in particular, that under COSHEP the category $Ana(C,D)$ is [[essentially small category|essentially small]], being in fact equivalent to the category $Fun(C',D)$ of ordinary functors where $C'$ is a cofibrant replacement for $C$.
 
 
-### The injective model structure
+#### The injective model structure
 
 Is there a dual model structure in which all categories are cofibrant?  This seemingly has to do with [[stack]] completion: the fibrant objects would be *stacks* for the [[regular coverage]] of $Set$.  (Without AC, not all small categories are stacks.)  Is Makkai's [[axiom of small cardinality selection]] (which he uses, instead of COSHEP, to prove that $Ana(C,D)$ is essentially small) sufficient for the existence of an "injective" model structure on Cat?
