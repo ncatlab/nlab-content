@@ -34,6 +34,8 @@ $$
 
 ## Examples
 
+### Lifting 1-gerbes
+
 In the literature the following simplest case of the general situation is usually considered exclusively:
 
 for $G$ an ordinary [[group]] and 
@@ -70,4 +72,8 @@ $$
 $$
 
 This $L$ is the line bundle ingredient in the lifting bundle gerbe. There is canocically a multiplication map that completes the definition.
+
+### Lifting 2-gerbes
+
+The archetypical example of a lifting 2-gerbe is a [[Chern-Simons gerbe]].
 
