@@ -5,9 +5,45 @@
 {: toc}
 
 
+## Idea {#Idea}
+
+A quasicoherent sheaf is a [[sheaf]] of [[module]]s  over the [[structure sheaf]] of a [[space]] that is _locally presentable_ in that it is locally the [[cokernel]] of a morphism of [[free module]]s.
+
+For comparison, recall that a [[vector bundle]] on a [[space]] may equivalently be encoded in terms of its [[sheaf]] of [[section]]s. This is a sheaf of [[module]]s over the [[structure sheaf]] of the space. But it is a very special such sheaf, notably in that it locally takes values in [[free module]]s, due to the local triviality of vector bundles.
+
+This extra condition on sheaves of sections of vector bundles makes the collection of sheaves of modules that arise as sections of vector bundles ill-behaved under general constructions. In particular, the category of such sheaves is not an [[abelian category]]. The notion of quasicoherent sheaf is a more general notion of sheaves of modules, that has better abstract properties. 
+
+There are several different but equivalent ways to define and think about quasicoherent sheaves. 
+
+A very concrete definition characterizes quasicoherent sheaves as those that are, while not locally free, locally the the [[cokernel]] of a morphism of free module sheaves. This is the definition given in the section
+
+* [As locally presentable modules](#LocPres)
+
+below. It makes very manifest how passing from vector bundles to quasicoherent sheaves adds in the [[cokernel]]s that are missing in the category of [[vector bundle]]s.
+
+But it turns out that there is a more abstract, more [[sheaf and topos theory|sheaf theoretic]] reformulation of this definition: if we think of the underlying [[space]] as a ([[presheaf|pre]])[[sheaf]] (as motivated at [[motivation for sheaves, cohomology and higher stacks]]) we find that a quasicoherent sheaf on a space is given by an assignment of a module to each plot, such that the pullback of these modules is given, up to coherent isomorphism, by tensoring over the corresponding rings. This is described in detail in the section
+
+* [As sheaves over Aff/X](#AsSheaves).
+
+
+The tensoring operation appearing here is that defining the pullback operations in the [[stack]] that classifies the canonical [[bifibration]] of [[module]]s over rings. In view of this, one finds that this definition, in turn, is equivalent to a very fundamental definition:
+
+with $QC := (-)Mod : Ring \to Cat$ the functor that sends a ring to its category of modules, one finds that the category of quasicoherent sheaves on a [[space]] $X$ is simply the [[hom-object]]
+
+$$
+  QC(X) := Hom(X,QC)
+$$
+
+in the corresponding 2-category of category-valued (pre)sheaves, i.e (pre)[[stack]]s. This is the perspective described in [As hom objects](AsCocycles) below.
+
+This definition, finally, provides a powerful [[nPOV]] on quasicoherent sheaves: all notions involved, sheaf, stack, morphism of stacks, have natural, immediate and well understood generalizations to [[higher category theory]]. Therefore this last definition immediately generalizes to a definition of quasicoherent $\infty$-sheaves or "derived" quasicoherent sheaves, such as they appear for instance in [[geometric ∞-function theory]]. This is discussed in the section 
+
+* [Higher quasicoherent sheaves](#Higher).
+
+
 ## Definition
 
-### As locally presentable $\mathcal{O}_X$-modules 
+### As locally presentable modules {#LocPres}
 
 Given a [[ringed space]] $(X,O_X)$ a __quasicoherent sheaf of $O_X$-modules__ is a sheaf $\mathcal{M}$ of $O_X$-modules such that there is a cover $\{U_\alpha\}_{\alpha\in A}$ of $X$ by open sets such that for every $\alpha$ there exist $I_\alpha$ and $J_\alpha$ and an exact sequence of sheaves of $O_X$-modules of the form
 $$
@@ -20,7 +56,10 @@ which should be viewed as a local presentation of $\mathcal{M}$. If $I_\alpha, J
 Replacing covers by open sets, by covers of a terminal object in a site, the definition extends to [[ringed site]]s with a terminal object; the restrictions of $O_X$-modules should be replaced by pullbacks.
 There are generalizations for [[algebraic stack]]s, ind-schemes, diagrams of schemes (for example [configuration schemes](http://arxiv.org/abs/math/0012061) of V. Lunts, obtained by gluing along closed embeddings of schemes; simplicial schemes) and so on. 
 
-### As sheaves on $Aff/X$ {#CoolDefinition}
+
+
+
+### As sheaves on $Aff/X$ {#AsSheaves}
 
 There is an equivalent reformulation of the above in terms of [[sheaf|sheaves]] of $\mathcal{O}$-modules on the [[site]] $Aff/X$ of [[affine scheme]]s over $X$.
 
@@ -37,20 +76,254 @@ $$
   \,.
 $$
 
-Then: a quasicoherent sheaf on $(X, \mathcal{O}_X)$ is a [[sheaf]] of $\mathcal{O}_X$-modules on $Aff/X$  such that for each morphism $f$ as above the morphism
+Then: a quasicoherent sheaf on $(X, \mathcal{O}_X)$ is a [[sheaf]] $N$ of $\mathcal{O}_X$-[[module]]s on $Aff/X$  such that for each morphism $f$ as above the restriction morphism
 
 $$
-  f^* \mathcal{M}(a) \simeq
-  B \otimes_A \mathcal{M}(a)
-  \to 
-  \mathcal{M}(b)
+  N(f) : N(b) \to N(a)
 $$
 
-is an [[isomorphism]]. See
+extends to an [[isomorphism]]
+
+$$
+  N(b) \otimes_{f^*} A \stackrel{\simeq}{\to} N(a)
+$$
+
+of $A$-[[module]]s.
+
+For a very explicit statement of this see for instance [page 13](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.5130v1.pdf#page=13) of 
+
+* [[Paul Goerss]], _Topological modular forms (aftern Hopkins, Miller, and Lurie)_ ([arXiv](http://arxiv.org/abs/0910.5130))
+
+See also
 
 * D. Orlov, _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
-**Remark** This definition has a straightforward generalization to various [[higher category theory|higher categorical]] setups, such as [[derived scheme]]s and other [[generalized scheme]]s. See [[geometric infinity-function theory]] for a detailed discussion of properties of "derived quasicoherent sheaves".
+
+
+### As homs into the stack of modules {#AsCocycles}
+
+The above definition may be further re-interpreted as follows.
+
++-- {: .un_prop }
+###### Propsition
+
+On the [[site]] $Ring^{op}$, let 
+
+$$
+  QC : Ring \to Cat
+$$
+
+$$
+  (Spec R_1 \stackrel{f}{\to} Spec R_2)
+  \mapsto (R_1 Mod \stackrel{- \otimes_{f^*}}{\to} R_2 Mod)
+$$
+
+be the 
+functor ([[stack]]) classifying the canonical [[bifibration]] of [[module]]s $Mod \to Ring$. Its right [[Kan extension]]
+through the 2-Yoneda embedding 
+$Y : Ring^{op} \hookrightarrow [Ring,Cat]$ is given on a 
+presheaf $X : Ring \to Set$ by the [[hom-object]]
+
+$$
+  QC(X) := (Ran_Y QC)(X) := [Ring,Cat](X,QC)
+  \,.
+$$
+
+When $X$ is the functor [[representable functor|represented]] by
+a scheme, then $QC(X)$ is the category of quasicoherent sheaves on
+$X$, as defined above.
+
+=--
+
+We now explain the above statement in detail and thereby prove it.
+
+
+Let $C = $[[Ring]]${}^{op}$ be the category of (commutative, unital) [[ring]]s.
+For $R$ a [[ring]] write $Spec R$ for it regarded as an object of $R^{op}$.
+For $f : Spec(R_2) \to Spec(R_1)$ a morphism in $Ring^{op}$ we write 
+$f^* : R_1 \to R_2$ for the corresponding ring homomorphism.
+
+Consider the [[2-category]] of (pre)[[stack]]s on 
+$C$. The canonical [[module]] [[bifibration]] $p : Mod \to Ring$
+of the category of modules over all rings is the one corresponding to the (pre)stack $QC \in [C^{op},Cat]$
+
+that is given on objects by the assignment
+
+$$
+  QC : Spec R \mapsto R Mod
+$$
+
+and on morphisms by
+
+$$
+  QC : (Spec R_1 \stackrel{f}{\to} Spec R_2) \mapsto 
+     R_1 Mod \stackrel{-\otimes_{f^*} R_2}{\to} R_2 Mod
+  \,,
+$$
+
+where on the right we have the functor that sends any $R_1$-module $N$ to the 
+[[tensor product]] over $R_1$ with the $R_1$-$R_2$-[[bimodule]] given by
+$R_2$ with its canonical right $R_2$-action and with the left $R_1$-action
+induced by the ring homomorphism $f^*$.
+
+One may think of this as the stack of generalized algebraic vector bundles:
+
+the operation $- \otimes_{f^*} R_2 : R_1 Mod \to R_2 Mod$ corresponds to the
+[[pullback]] of [[bundle]]s along a morphism of the underlying spaces.
+(See for instance 
+the discussion of [[monadic descent]] at [[Sweedler coring]] for more on this.)
+  
+We may [[Kan extension|right Kan extend]] the 2-functor $QC : Ring^{op} \to Cat$
+through the [[Yoneda embedding]] $Ring^{op} \hookrightarrow [Ring,Cat]$
+to get a definition of $QC$ on arbitrary [[presheaf|presheaves]]. 
+
+$$
+  \array{
+    Ring^{op} &\stackrel{QC}{\to}& Cat^{op}
+    \\
+    {}^{Y}\downarrow & \nearrow_{\mathrlap{Ran_Y QC}}
+    \\
+    [Ring,Cat]    
+  }
+  \,.
+$$
+
+Consider $X \in [C^{op},Set]$ any ([[presheaf|pre]])[[sheaf]] on $C$.
+This may be the presheaf [[representable functor|represented]]
+by a [[scheme]], but for the purposes of the definition of $QC$ it may be much more generally any presheaf.
+
+By the general formula for [[Kan extension]] in terms of a [[weighted limit]] given by an [[end]]
+we have
+
+$$
+  Ran_Y QC : X \mapsto \int_{R \in Ring} ([Ring,Cat]^{op}(X,Y(R)))^{QC(R)}
+$$
+
+which using the [[Yoneda lemma]] is
+
+$$
+  \cdots = \int_{R \in Ring} [Ring,Cat](X(R), QC(R))
+  \,.
+$$
+
+This is the [[end]]-formula for the [[hom-object]] in an [[enriched functor category]]
+$[C^{op},Cat]$,
+hence this is nothing but the category of (pseudo)[[natural transformation]]s between
+the 2-functor $X$ and the 2-functor $QC$.
+
+We write for short
+
+$$
+  QC(X) := (Ran_Y QC)(X) := [C^{op},Cat](X,QC)
+  \,.
+$$
+
+This definition of "generalized vector bundles" on arbitrary presheaves is
+entirely analogous to the definition of differential forms on arbitrary
+presheaves, that is discussed in some detail for instance in the entry on
+[[rational homotopy theory]].
+
+We claim that the category $QC(X)$ is the category of quasicoherent sheaves on
+$X$ as defined by other means above, whenever that other definition applies to $X$.
+
+To see this, straightforwardly unwrap the definition: 
+an object $N$ in $QC(X) = [C^{op},Cat](X,QC)$
+is a [[transfor|pseudonatural transformation]] of 2-functors $N : X \to QC$,
+where $X$ is regarded as a 2-functor by the canonical embedding 
+$disc : Set \hookrightarrow Cat$ that regards a [[set]] as a [[discrete category]].
+
+The components of $N$ are
+
+* for each $Spec R \in Ring^{op}$ a [[functor]] $N|_{Spec R} : X(R) \to QC(R) = R Mod$:
+
+  this functor picks one $R$-module $N(r) \in R Mod$ for each plot $(r : Spec R \to X) \in X(Spec R)$;
+  
+* for each morphism $f : Spec A \to Spec B$ 
+  a pseudonaturality square
+
+  $$
+    \array{
+      X(Spec B) 
+         &\stackrel{X(f)}{\to}& 
+      X(Spec A)
+      \\
+      {}^{\mathllap{N|_{Spec B}}}\downarrow 
+      &{}^{\Gamma(f)}\swArrow_{\simeq}& 
+      \downarrow^{\mathrlap{N|_{Spec A}}}
+      \\
+      B Mod &\underset{- \otimes_{f^*} A}{\to}& A Mod
+    }
+  $$
+  
+  in [[Cat]]. This unwraps to the following data:
+
+  * the component functors $N|_{Spec A}$ provide an
+    assignment $a \mapsto N(a)$ of modules $N(a)$ to each 
+    plot $(a : Spec A \to X) \in X(Spec A)$;
+
+  * these assignments form a presheaf on the [[overcategory]] 
+    $Aff/X$ by taking the restriction morphism
+    
+    $$
+      N(f) : N(b) \to N(a)
+    $$
+
+    to be that underlying the components of the 
+    natural isomorphism in the above diagram
+
+    $$
+      N(b)\otimes_{f^*} A \stackrel{\simeq}{\to} N(a)
+      \,,
+    $$
+
+    i.e. the restriction of this morphism to $(n,1)$.
+
+This way, the transformation $N : X \to QC$ defines 
+manifestly a quasicoherent sheaf on $Aff/X$ in the sense of the
+definition in the above section [As sheaves on Aff/X](#AsSheaves). Conversely, every quasicoherent sheaf according to that definition gives rise to a transformation $N : X \to QC$ under this prescription.
+
+
+  
+  
+### Higher/derived quasicoherent sheaves {#Higher}
+
+
+The advantage of the last definition above is that it is the most
+[[category theory|general abstract]] one. As such it lends itself
+to straightforward generalization to various [[higher category theory|higher categorical]] setups, such as [[derived scheme]]s and other [[generalized scheme]]s. 
+
+For instance the notion of
+quasicoherent sheaves generalized to [[derived stack]]s on the
+site of [[simplicial ring]]s as described at
+[[geometric ∞-function theory]] is obtained, we claim, 
+simply by taking 
+$QC : SRing \to (\infty,1)Cat$ to be the functor that assigns the
+[[(∞,1)-category]] for modules over a simplicial ring to any
+simplicial ring, and then setting for any derived stack $X$
+
+$$
+  QC(X) := Hom(X,QC)
+  \,.
+$$
+
+Moreover, using the theorem described at [[tangent (∞,1)-category]],
+that the [[bifibration]] of modules over simplicial rings is nothing
+but the [[tangent (∞,1)-category]] of $SRing$, one sees that 
+all this is a special case of an even much more general abstract nonsense:
+
+for any [[(∞,1)-category]] [[site]] $C$ whatsoever, we have
+the [[tangent (∞,1)-category]] fibration $T_C \to C$. With the [[(∞,1)-functor]] classifying it denoted 
+$QC : C^{op} \to (\infty,1)Cat$ we may adopt for any 
+[[∞-stack]] $X : C^{op} \to \infty Grpd$ the definition
+
+$$
+  QX(X) := [C^{op},\infty Grpd](X,QC)
+$$
+
+as a definition of generalized $\infty$-vector bundles on $X$. This is considered further at [[schreiber:∞-vector bundle]].
+
+
+
 
 
 ## Properties 
