@@ -11,7 +11,7 @@ See also [[topology]].
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
 * [[derived algebraic geometry]], [[derived smooth manifold]]
 * [[noncommutative geometry]]
-* [[noncommutative algebraic geometry]], [[noncommutative scheme]]
+* [[noncommutative algebraic geometry]], [[noncommutative scheme]], [[noncommutative thin scheme]]
 * [[algebraic geometry]], [[analytic geometry]], book entry [[EGA]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
 * [[open subscheme]], [[closed subscheme]]
