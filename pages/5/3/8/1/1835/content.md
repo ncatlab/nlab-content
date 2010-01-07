@@ -1,4 +1,3 @@
-
 #Contents#
 
 * automatic table of contents goes here
@@ -61,9 +60,9 @@ $$
   \,.
 $$
 
-This identifies schemes with those presheaves on $[[CRing]]${}^{op}$ that satisfy
+This identifies schemes with those presheaves on [[CRing]]${}^{op}$ that satisfy
 
-(i) [[sheaf|sheaves]] with respect to the Zariski [[Grothendieck topology]] on [[CRing]]${}^{op}$;
+(i) [[sheaf|sheaves]] with respect to the Zariski [[Grothendieck topology]] on $CRing^{op}$;
 
 (ii) have a cover by Zariski open immersions of [[affine scheme]]s in the category of presheaves over $Aff$.
 
