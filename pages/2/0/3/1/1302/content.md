@@ -278,7 +278,53 @@ This way, the transformation $N : X \to QC$ defines
 manifestly a quasicoherent sheaf on $Aff/X$ in the sense of the
 definition in the above section [As sheaves on Aff/X](#AsSheaves). Conversely, every quasicoherent sheaf according to that definition gives rise to a transformation $N : X \to QC$ under this prescription.
 
-The [[fibered category]] of $O_X$-modules can be replaced by a more general fibered category $\pi: \mathcal{F}\to\mathcal{B}$. Then the __category of quasicoherent modules in__ this __fibered category__ is the category opposite to the category of cartesian sections of $\pi$. This viewpoint is used by Rosenberg-Kontsevich in their preprint on noncommutative stacks ([dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333)).
+
+
+### As cartesian morphisms of fibrations {#AsFibHoms}
+
+By the equivalence between [[pseudofunctor]]s $Ring \to Cat$
+and [[Grothendieck fibration]]s $F \to Ring^{op}$ induced by the
+[[Grothendieck construction]], the above may equivalently be
+reformualted as follows.
+
+
+Recall from the discussion at [[Grothendieck fibration]] that the equivalence in question is between the following two [[bicategory|bicategories]]:
+
+* on the one hand the bicategory whose objects are [[pseudofunctors]]
+  $Ring \to Cat$, whose morphisms are pseudonatural 
+  transformations, and whose 2-morphisms are modifications of these
+
+* on the other hand the bicategory whose objects are [[Grothendieck fibration]]s $F \to Ring^{op}$, whose morphism are **cartesian functors**
+
+  $$
+    \array{
+      F_1 &&\to&& F_2
+      \\
+      & \searrow && \swarrow
+      \\
+      && Ring^{op}
+    }
+  $$
+
+  and whose 2-morphisms are [[natural transformation]]s between these.  
+
+Recall furthermore that for $X : Ring \to Cat$ an ordinary [[presheaf]], i.e. a pseudofunctor that factors through an ordinary functor $Ring \to Set$ via the inclusion $Set \to Cat$, the [[Grothendieck fibration]] associated with $X$ is the [[category of elements]] $Ring^{op}/X$ of $X$.
+
+Recall furthermore that by definition, the pseudofunctor $QC : Ring Cat$ is the one corresponding to the [[Grothendieck fibration]] $Mod^{op} \to Ring^{op}$.
+
+Therefore, by the above equivalence of 2-categories, we find that the category of functors $[Ring,Cat](X,QC)$ is equivalent to the category of cartesian functors over $Ring^{Op}$, $CartFunc_E(Ring^{op}/X,Mod^{op})$
+
+$$
+  QC(X) \simeq [Ring,Cat](X,QX) \simeq CartFunc(Ring^{op}/X, Mod^{op})
+  \,.
+$$
+
+In this form quasicoherent sheaves on $X$ are conceived for instance in paragraph 1.1.5 of
+
+* [[Maxim Kontsevich]], [[Alexander Rosenberg]], _Noncommutative stacks_ ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333))
+
+
+Here, as in the above discussion, the [[fibered category]] of modules can be replaced by a more general fibered category $\pi: \mathcal{F}\to\mathcal{B}$. Then the __category of quasicoherent modules in__ this __fibered category__ is the category opposite to the category of cartesian sections of $\pi$. This viewpoint is used by Rosenberg-Kontsevich in their preprint on noncommutative stacks ([dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333)).
 
 Given a category $\mathrm{Aff}$ of affine schemes (opposite to the category of rings) equipped with some [[subcanonical coverage|subcanonical pretopology]] one considers the [[stack]] of $O$-modules over $\mathrm{Aff}$: the fiber over a ring $R$, it assigns the category $Qcoh(\mathrm{Spec}\,R)$. Now given any stack on a subcanonical site, one defines the fiber over a sheaf on it so that the fiber over a representable sheaf is equivalent to the fiber over its representing object. There is a canonical way to do this (will write later about it -- Zoran); this is in particular a source of a definition $Qcoh$ on an ind-scheme. On ind-schemes Beilinson and Drinfel'd in
 
