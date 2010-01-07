@@ -48,6 +48,8 @@ Bell, J. L., 1993a. 'Hilbert's epsilon-operator and classical logic', Journal of
 Bell, J. L., 1993b. 'Hilbert's epsilon operator in intuitionistic type theories', Mathematical Logic Quarterly 39:323-337
 
 Meyer Viol, W., 1995a. 'A proof-theoretic treatment of assignments', Bulletin of the IGPL, 3:223-243
+
+_Toby_:  Thanks, Harry!  Now I just have to find these journals at the library.
 =--
 
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\varepsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
