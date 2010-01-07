@@ -14,7 +14,7 @@ See also [[topology]].
 * [[noncommutative algebraic geometry]], [[noncommutative scheme]], [[noncommutative thin scheme]]
 * [[algebraic geometry]], [[analytic geometry]], book entry [[EGA]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
-* [[open subscheme]], [[closed subscheme]]
+* [[open subscheme]], [[closed subscheme]], [[configuration scheme]]
 * [[formal scheme]], [[formal group scheme]], [[formal group law]], [[algebraic group]]
 * [[spectrum (geometry)]]
 * [[algebraic variety]], [[normal variety]], [[Kähler manifold]], [[hyperplane line bundle]]
