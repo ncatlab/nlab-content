@@ -78,6 +78,7 @@ many variables, is the free $\lambda$-ring on one generator.
 * John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
 * Hazewinkel, [Witt vectors](http://arxiv.org/abs/0804.3888).
 * Donald Knutson, $\lambda$-Rings and the Representation Theory of the Symmetric Group, Lecture Notes in Mathematics, Vol. 308, Springer, Berlin, 1973.
+* [concretenonsense blog](http://concretenonsense.wordpress.com/2009/07/23/lambda-rings)
 
 THERE IS A SCHOOL/CONFERENCE IN LEIDEN ON FROBENIUS LIFTS AND LAMBDA RINGS 5-10. October 2009 featuring 
 
