@@ -147,7 +147,7 @@ These are not set in stone, but we\'re following them for now. Changing page tit
 
 # Special Typesetting Features #
 
-##How to leave comments and questions##
+##How to leave comments and questions## {#query}
 
 If you want to make a comment or question about a page without changing its main content, then edit the page and put your comment or question in a __query block__ as shown in this example:
 
