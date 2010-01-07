@@ -115,3 +115,7 @@ _Toby_:  I accept it as a terminological convention for naming foundational theo
 
 [[!redirects SEAR+?]]
 [[!redirects SEAR+?]]
+[[!redirects SEAR+epsilon]]
+[[!redirects SEAR ?]]
+[[!redirects SEAR ?]]
+[[!redirects SEAR epsilon]]
