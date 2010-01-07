@@ -9,13 +9,13 @@
 
 A quasicoherent sheaf is a [[sheaf]] of [[module]]s  over the [[structure sheaf]] of a [[space]] that is _locally presentable_ in that it is locally the [[cokernel]] of a morphism of [[free module]]s.
 
-For comparison, recall that a [[vector bundle]] on a [[space]] may equivalently be encoded in terms of its [[sheaf]] of [[section]]s. This is a sheaf of [[module]]s over the [[structure sheaf]] of the space. But it is a very special such sheaf, notably in that it locally takes values in [[free module]]s, due to the local triviality of vector bundles.
+For comparison, recall that a [[vector bundle]] on a [[space]] may equivalently be encoded in terms of its [[sheaf]] of [[section]]s. This is a sheaf of [[module]]s over the [[structure sheaf]] $O$ of the space. But it is a very special such sheaf, notably locally free sheaf of $O$-modules of finite rank.
 
-This extra condition on sheaves of sections of vector bundles makes the collection of sheaves of modules that arise as sections of vector bundles ill-behaved under general constructions. In particular, the category of such sheaves is not an [[abelian category]]. The notion of quasicoherent sheaf is a more general notion of sheaves of modules, that has better abstract properties. 
+This extra condition makes the category of vector bundles too small to be closed under various natural operations like kernels, direct images and alike. In particular, it is not an [[abelian category]]. The category of all $O$-modules and specially its full subcategory of quasicoherent sheaves of $O$-modules are better in that respect. 
 
 There are several different but equivalent ways to define and think about quasicoherent sheaves. 
 
-A very concrete definition characterizes quasicoherent sheaves as those that are, while not locally free, locally the the [[cokernel]] of a morphism of free module sheaves. This is the definition given in the section
+A very concrete definition characterizes quasicoherent sheaves as those that are, while not locally free, locally the [[cokernel]] of a morphism of free module sheaves. This is the definition given in the section
 
 * [As locally presentable modules](#LocPres)
 
@@ -105,9 +105,9 @@ See also
 The above definition may be further re-interpreted as follows.
 
 +-- {: .un_prop }
-###### Propsition
+###### Proposition
 
-On the [[site]] $Ring^{op}$, let 
+On the [[site]] $Aff = CRing^{op}$, let 
 
 $$
   QC : Ring \to Cat
@@ -115,7 +115,7 @@ $$
 
 $$
   (Spec R_1 \stackrel{f}{\to} Spec R_2)
-  \mapsto (R_1 Mod \stackrel{- \otimes_{f^*}}{\to} R_2 Mod)
+  \mapsto (R_1 Mod \stackrel{- \otimes_{f}}{\to} R_2 Mod)
 $$
 
 be the 
@@ -140,14 +140,10 @@ We now explain the above statement in detail and thereby prove it.
 
 Let $C = $[[Ring]]${}^{op}$ be the category of (commutative, unital) [[ring]]s.
 For $R$ a [[ring]] write $Spec R$ for it regarded as an object of $R^{op}$.
-For $f : Spec(R_2) \to Spec(R_1)$ a morphism in $Ring^{op}$ we write 
-$f^* : R_1 \to R_2$ for the corresponding ring homomorphism.
+For $Spec f = f^{op} : Spec(R_2) \to Spec(R_1)$ a morphism in $Ring^{op}$ corresponding to the map $f : R_1 \to R_2$ of commutative rings.
 
 Consider the [[2-category]] of (pre)[[stack]]s on 
-$C$. The canonical [[module]] [[bifibration]] $p : Mod \to Ring$
-of the category of modules over all rings is the one corresponding to the (pre)stack $QC \in [C^{op},Cat]$
-
-that is given on objects by the assignment
+$C$. The canonical [[module]] [[bifibration]] $p : Mod \to Ring$ of the category of modules over all rings is the bifibration whose fibered part corresponds to the (pre)stack $QC \in [C^{op},Cat]$ given on objects by 
 
 $$
   QC : Spec R \mapsto R Mod
@@ -157,18 +153,18 @@ and on morphisms by
 
 $$
   QC : (Spec R_1 \stackrel{f}{\to} Spec R_2) \mapsto 
-     R_1 Mod \stackrel{-\otimes_{f^*} R_2}{\to} R_2 Mod
+     R_1 Mod \stackrel{-\otimes_{f} R_2}{\to} R_2 Mod
   \,,
 $$
 
 where on the right we have the functor that sends any $R_1$-module $N$ to the 
 [[tensor product]] over $R_1$ with the $R_1$-$R_2$-[[bimodule]] given by
 $R_2$ with its canonical right $R_2$-action and with the left $R_1$-action
-induced by the ring homomorphism $f^*$.
+induced by the ring homomorphism $f$.
 
 One may think of this as the stack of generalized algebraic vector bundles:
 
-the operation $- \otimes_{f^*} R_2 : R_1 Mod \to R_2 Mod$ corresponds to the
+the operation $- \otimes_{f} R_2 : R_1 Mod \to R_2 Mod$ corresponds to the
 [[pullback]] of [[bundle]]s along a morphism of the underlying spaces.
 (See for instance 
 the discussion of [[monadic descent]] at [[Sweedler coring]] for more on this.)
@@ -282,15 +278,18 @@ This way, the transformation $N : X \to QC$ defines
 manifestly a quasicoherent sheaf on $Aff/X$ in the sense of the
 definition in the above section [As sheaves on Aff/X](#AsSheaves). Conversely, every quasicoherent sheaf according to that definition gives rise to a transformation $N : X \to QC$ under this prescription.
 
+The [[fibered category]] of $O_X$-modules can be replaced by a more general fibered category $\pi: \mathcal{F}\to\mathcal{B}$. Then the __category of quasicoherent modules in__ this __fibered category__ is the category opposite to the category of cartesian sections of $\pi$. This viewpoint is used by Rosenberg-Kontsevich in their preprint on noncommutative stacks ([dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333)).
 
+Given a category $\mathrm{Aff}$ of affine schemes (opposite to the category of rings) equipped with some [[subcanonical coverage|subcanonical pretopology]] one considers the [[stack]] of $O$-modules over $\mathrm{Aff}$: the fiber over a ring $R$, it assigns the category $Qcoh(\mathrm{Spec}\,R)$. Now given any stack on a subcanonical site, one defines the fiber over a sheaf on it so that the fiber over a representable sheaf is equivalent to the fiber over its representing object. There is a canonical way to do this (will write later about it -- Zoran); this is in particular a source of a definition $Qcoh$ on an ind-scheme. On ind-schemes Beilinson and Drinfel'd in
+
+* A. Beilinson, V. Drinfel'd, _Quantization of Hitchin's integrable system and Hecke eigensheaves on Hitchin system_, preliminary version ([pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
+
+consider two variants: a less important variant of quasicoherent $O_X^p$-modules (existing in bigger generality) and more delicate variant of quasicoherent $O^!_X$-modules defined for "reasonable ind-schemes"; one of the differences is which functors play the role of pullbacks.  In particular, these notions apply for a rather general variant of the category of formal schemes.
   
   
-### Higher/derived quasicoherent sheaves {#Higher}
+### Quasicoherent modules in higher/derived context {#Higher}
 
-
-The advantage of the last definition above is that it is the most
-[[category theory|general abstract]] one. As such it lends itself
-to straightforward generalization to various [[higher category theory|higher categorical]] setups, such as [[derived scheme]]s and other [[generalized scheme]]s. 
+The last definition has a  straightforward generalization to various [[higher category theory|higher categorical]] setups, such as [[derived scheme]]s and other [[generalized scheme]]s. 
 
 For instance the notion of
 quasicoherent sheaves generalized to [[derived stack]]s on the
@@ -337,14 +336,6 @@ the localization of the category of graded $A$-modules by the subcategory of mod
 ### The category of quasicoherent sheaves 
 
 In the case of general (commutative) schemes, every presheaf of $O_X$-modules which is quasicoherent in the sense of having local presentation as above, is in fact a sheaf. It is known that the category of quasicoherent sheaves of $O_X$-modules over any [[quasicompact]] quasiseparated scheme is a [[Grothendieck category]] and in particular has enough [[injective object]]s.
-
-The [[fibered category]] of $O_X$-modules can be replaced by a more general fibered category $\pi: \mathcal{F}\to\mathcal{B}$. Then the __category of quasicoherent modules in__ this __fibered category__ is the category opposite to the category of cartesian sections of $\pi$. This viewpoint is used by Rosenberg-Kontsevich in their preprint on noncommutative stacks ([dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333)).
-
-Given a category $\mathrm{Aff}$ of affine schemes (opposite to the category of rings) equipped with some [[subcanonical coverage|subcanonical pretopology]] one considers the [[stack]] of $O$-modules over $\mathrm{Aff}$: the fiber over a ring $R$, it assigns the category $Qcoh(\mathrm{Spec}\,R)$. Now given any stack on a subcanonical site, one defines the fiber over a sheaf on it so that the fiber over a representable sheaf is equivalent to the fiber over its representing object. There is a canonical way to do this (will write later about it -- Zoran); this is in particular a source of a definition $Qcoh$ on an ind-scheme. On ind-schemes Beilinson and Drinfel'd in
-
-* A. Beilinson, V. Drinfel'd, _Quantization of Hitchin's integrable system and Hecke eigensheaves on Hitchin system_, preliminary version ([pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
-
-consider two variants: a less important variant of quasicoherent $O_X^p$-modules (existing in bigger generality) and more delicate variant of quasicoherent $O^!_X$-modules defined for "reasonable ind-schemes"; one of the differences is which functors play the role of pullbacks.  In particular, these notions apply for a rather general variant of the category of formal schemes.
 
 [[!redirects quasicoherent sheaves]]
 [[!redirects quasicoherent module]]
