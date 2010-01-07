@@ -98,9 +98,9 @@ For a very explicit statement of this see for instance [page 13](http://arxiv.or
 
 * [[Paul Goerss]], _Topological modular forms (aftern Hopkins, Miller, and Lurie)_ ([arXiv](http://arxiv.org/abs/0910.5130))
 
-See also
+See also a very precise and detailed treatment in 
 
-* D. Orlov, _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
+* [[Dmitri Orlov]], _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
 
 
