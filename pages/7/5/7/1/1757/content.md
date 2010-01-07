@@ -1,8 +1,15 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-Recall that an [[Eilenberg?Mac Lane space]] is a special [[object]] in the [[(∞,1)-topos]] [[Top]] of [[topological spaces]].
+## Idea
 
-This has an analog in arbitrary $(\infty,1)$-[[(infinity,1)-topos|toposes]] (of $\infty$-[[infinity-stack|stacks]]). The standard [[model category|model]] for these Eilenberg--Mac Lane objects are nothing but the familiar Eilenberg--Mac Lane _[[sheaf|sheaves]]_ of fame in [[abelian sheaf cohomology]].
+The notion of _Eilenberg-MacLane object_ in an [[(∞,1)-topos]] or [[stable (∞,1)-category]] generalizes the notion of [[Eilenberg-MacLane space]] from the [[(∞,1)-topos]] [[Top]] of [[topological space]]s or the [[stable (∞,1)-category]] of [[spectrum|spectra]]:
+
+it is an object $\mathbf{B}^n A$ obtained from an abelian [[group object]] $A$ by [[delooping]] that $n$ times.
+
+
+The standard [[model category|model]] for these Eilenberg--Mac Lane objects are nothing but the familiar Eilenberg--Mac Lane _[[sheaf|sheaves]]_ of fame in [[abelian sheaf cohomology]].
 
 For recall that every $(\infty,1)$-[[(infinity,1)-topos|topos]] is [[presentable (infinity,1)-category|presented]] by a [[model structure on simplicial presheaves|model category of simplicial sheaves]].
 
@@ -22,7 +29,7 @@ and these to the corresponding constant simplicial sheaves (on whatever [[site]]
 
 Regarding the simplicial sheaf $K(A,n)$ as an object of the $(\infty,1)$-[[(infinity,1)-topos|topos]] [[presentable (infinity,1)-category|presented]] by the given [[model structure on simplicial presheaves|model structure on simplicial sheaves]] means regarding them as the $\infty$-[[infinity-stack|stacks]] that they correspond to under $\infty$-[[infinity-stackification|stackification]]. These are then the **Eilenberg--Mac Lane object**s in our [[(∞,1)-topos]].
 
-#Cohomology#
+## Cohomology
 
 From the general nonsense at [[cohomology]] and comparing with the case [[Eilenberg?Mac Lane space]]s, we see that for $\mathbf{H}$ our $(\infty,1)$-[[(infinity,1)-topos|topos]], for $H$ its [[homotopy category of an (infinity,1)-category|homotopy category]] and for $X \in \mathbf{H}$ any object, the "ordinary" degree $n$-[[cohomology]] of $X$ is
 
@@ -31,7 +38,7 @@ $$
   \,.
 $$
 
-#References#
+## References
 
 top of page 4 of
 
