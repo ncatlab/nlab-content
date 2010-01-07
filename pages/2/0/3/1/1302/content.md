@@ -9,7 +9,7 @@
 
 A quasicoherent sheaf is a [[sheaf]] of [[module]]s  over the [[structure sheaf]] of a [[space]] that is _locally presentable_ in that it is locally the [[cokernel]] of a morphism of [[free module]]s.
 
-For comparison, recall that a [[vector bundle]] on a [[space]] may equivalently be encoded in terms of its [[sheaf]] of [[section]]s. This is a sheaf of [[module]]s over the [[structure sheaf]] $O$ of the space. But it is a very special such sheaf, notably locally free sheaf of $O$-modules of finite rank.
+For comparison, recall that a [[vector bundle]] on a [[space]] may equivalently be encoded in terms of its [[sheaf]] of [[section]]s. This is a sheaf of [[module]]s over the [[structure sheaf]] $O$ of the space. But it is a very special such sheaf, notably it is a locally free sheaf of $O$-modules of finite rank.
 
 This extra condition makes the category of vector bundles too small to be closed under various natural operations like kernels, direct images and alike. In particular, it is not an [[abelian category]]. The category of all $O$-modules and specially its full subcategory of quasicoherent sheaves of $O$-modules are better in that respect. 
 
@@ -34,7 +34,11 @@ $$
   QC(X) := Hom(X,QC)
 $$
 
-in the corresponding 2-category of category-valued (pre)sheaves, i.e (pre)[[stack]]s. This is the perspective described in [As hom objects](AsCocycles) below.
+in the corresponding 2-category of category-valued (pre)sheaves, i.e (pre)[[stack]]s. This is the perspective described in 
+
+* [As hom objects](AsCocycles) 
+
+below.
 
 This definition, finally, provides a powerful [[nPOV]] on quasicoherent sheaves: all notions involved, sheaf, stack, morphism of stacks, have natural, immediate and well understood generalizations to [[higher category theory]]. Therefore this last definition immediately generalizes to a definition of quasicoherent $\infty$-sheaves or "derived" quasicoherent sheaves, such as they appear for instance in [[geometric ∞-function theory]]. This is discussed in the section 
 
