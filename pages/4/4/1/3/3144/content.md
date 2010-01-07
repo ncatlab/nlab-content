@@ -13,5 +13,5 @@ There is an evident notion of [[(infinity,1)-category]] of [[module]]s over a si
 
 ## In higher geometry
 
-Simplicial rings are one notion of [[vertical categorification]] of [[rings]], another generalizations are [[E-infinity-ring]]s. As such, simplicial rings come with their notion of [[higher geometry]], in particular their notion of [[derived scheme]]s, [[derived stack]]s and [[quasicoherent sheaf|quasicogerent sheaves]]. An application of this appears for instance in [[geometric infinity-function theory]].
+Simplicial rings are one notion of [[vertical categorification]] of [[rings]], another generalization is [[E-infinity-ring]]s. As such, simplicial rings come with their notion of [[higher geometry]], in particular their notion of [[derived scheme]]s, [[derived stack]]s and [[quasicoherent sheaf|quasicoherent sheaves]]. An application of this appears for instance in [[geometric infinity-function theory]].
 
