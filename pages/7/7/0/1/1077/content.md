@@ -1,3 +1,6 @@
+* toc
+{: toc}
+
 # Idea #
 
 A _biproduct_ in a [[category]] $C$ is an operation that is both a [[product]] and a [[coproduct]].  Finite biproducts are best known from [[additive category|additive categories]] and their generalisations.
@@ -46,9 +49,18 @@ _Toby_:  If it helps, here is a bit more on that subject, which I wrote at [[dir
 _Toby_:  Yes, that\'s what I had in mind.  (Although you could also do a more local version, letting the requirement that the index set be discrete and the requirement the hom-sets be enriched over $Set_part$ meet halfway, if you see what I mean.)
 =--
 
+# Semiadditive categories #
+
+A category $C$ with all finite biproducts is called a **semiadditive category**.  More precisely, this means that $C$ has all finite products and coproducts, that the unique map $0\to 1$ is an isomorphism (hence $C$ has a zero object), and that the canonical maps $c_1 \sqcup c_2 \to c_1 \times c_2$ defined above are isomorphisms.
+
+Amusingly, for $C$ to be semiadditive, it actually suffices to assume that $C$ has finite products and coproducts and that there exists *any* [[natural transformation|natural]] family of isomorphisms $c_1 \sqcup c_2 \cong c_1 \times c_2$ --- not necessarily the canonical maps constructed above.  A proof can be found in
+
+* Stephen Lack, "Non-canonical isomorphisms", [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
+
+
 # Biproducts imply enrichment #
 
-A category with all finite biproducts is automatically [[enriched category|enriched]] over the [[monoidal category]] of abelian [[monoids]] with the usual [[tensor product]], as follows.
+A semiadditive category is automatically [[enriched category|enriched]] over the [[monoidal category]] of abelian [[monoids]] with the usual [[tensor product]], as follows.
 
 Given two morphisms $f, g: a \to b$ in $C$, let their sum $f + g: a \to b$ be
 $$ a \to a \times a \cong a \oplus a \overset{f \oplus g}{\to} b \oplus b \cong b \sqcup b \to b .$$
@@ -67,3 +79,7 @@ Conversely, if $C$ is already known to be enriched over abelian monoids, then a 
 For categories enriched over [[suplattices]], this extends to all small biproducts, with the condition $n_1 p_1 + n_2 p_2 = 1_{c_1\oplus c_2}$ replaced by $\bigvee_{i} n_i p_i = 1_{\bigoplus_i c_i}$.  In particular, the category of suplattices has all small biproducts.
 
 [[!redirects biproducts]]
+[[!redirects semiadditive category]]
+[[!redirects semiadditive categories]]
+[[!redirects semi-additive category]]
+[[!redirects semi-additive categories]]
