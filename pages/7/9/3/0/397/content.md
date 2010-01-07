@@ -49,7 +49,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Gordon Royle]]
 * [[Greg Egan]]
 * [[Hanno Becker]]
-* [[Harry Gindi]] (anonymously)
+* [[Harry|Harry Gindi]]
 * [[Hugh Thomas]]
 * [[Ivo]]
 * [[jdthomas|J. D. Thomas]]
