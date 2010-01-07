@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 For $G$ a [[Lie group]], its [[delooping]] $\mathbf{B}G$ is a smooth [[groupoid]], which we may think of as a [[groupoid]] [[internal category|internal to]] [[smooth spaces]].
 
@@ -11,7 +15,7 @@ Let $g := Lie(G)$ be the [[Lie algebra]] of $G$.
 The _groupoid of $g$-valued differential forms_ , denoted here $\bar \mathbf{B}G$, is the refinement of $\mathbf{B}G$ in [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]].
 
 
-# Definition #
+## Definition 
 
 +-- {: .un_defn}
 ###### Definition
@@ -37,7 +41,7 @@ Here $\bar \theta$ is the right invariant canonical $g$-valued 1-form on $G$. A 
 =--
 
 
-# Differential nonabelian cohomology #
+## Differential nonabelian cohomology 
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -54,7 +58,7 @@ $$
 =--
 
 
-# Remarks #
+## Remarks 
 
 * There is the obvious projection
   $$
@@ -71,9 +75,9 @@ For $G = U(n)$ these differential cocycles model the [[Yang-Mills field]] in phy
   * This corresponds to the [[electromagnetic field]].
 
 
-#References#
+## References
 
-The idea goes back to John Baez. For a detailed history see the discussion at [[schreiber:Differential Nonabelian Cohomology]].
+The idea goes back to [[John Baez]]. For a detailed history see the discussion at [[schreiber:Differential Nonabelian Cohomology]].
 
 The details are in
 
