@@ -39,7 +39,7 @@ $$
 In the case that $E = KU$ is the [[K-theory]] spectrum, this morphism is classically known as the **Chern character**. Generalizing from this example, the term "Chern character" is sometimes used also for the general case.
 
 
-## For vector bundles and K-theory
+## For vector bundles and K-theory {#KTheory}
 
 The classical theory of the Chern character applies to the [[spectrum]] of complex [[K-theory]], $E = KU$.
 
@@ -59,7 +59,9 @@ where
 
 * $\nabla$ is any chosen [[connection on a bundle|connection]] on the vector bundle;
 
-* $F = F_\nabla \in \Omega^2(X,End(V))$ is the [[curvature]] of this connection.
+* $F = F_\nabla \in \Omega^2(X,End(V))$ is the [[curvature]] of this connection;
+
+* $k_j \in \mathbb{R}$ are normalization constants, $k_j = \frac{1}{j!} \left( \frac{1}{2\pi i}\right)^j$.
 
 ## General theory
 
