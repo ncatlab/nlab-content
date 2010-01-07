@@ -122,11 +122,7 @@ $$
   \mapsto (R_1 Mod \stackrel{- \otimes_{f}}{\to} R_2 Mod)
 $$
 
-be the 
-functor ([[stack]]) classifying the canonical [[bifibration]] of [[module]]s $Mod \to Ring$. Its right [[Kan extension]]
-through the 2-Yoneda embedding 
-$Y : Ring^{op} \hookrightarrow [Ring,Cat]$ is given on a 
-presheaf $X : Ring \to Set$ by the [[hom-object]]
+be the (pseudo)functor ([[stack]]) corresponding to the canonical [[Grothendieck fibration]] of [[module]]s $Mod \to Ring$. Its right [[Kan extension]] through the 2-Yoneda embedding  $Y : Ring^{op} \hookrightarrow [Ring,Cat]$ is given on a presheaf $X : Ring \to Set$ by the [[hom-object]]
 
 $$
   QC(X) := (Ran_Y QC)(X) := [Ring,Cat](X,QC)
@@ -255,7 +251,7 @@ The components of $N$ are
     }
   $$
   
-  in [[Cat]]. This unwraps to the following data:
+  in [[Cat]] (these are subject to coherence conditions). This unwraps to the following data:
 
   * the component functors $N|_{Spec A}$ provide an
     assignment $a \mapsto N(a)$ of modules $N(a)$ to each 
@@ -314,7 +310,7 @@ that the [[bifibration]] of modules over simplicial rings is nothing
 but the [[tangent (∞,1)-category]] of $SRing$, one sees that 
 all this is a special case of an even much more general abstract nonsense:
 
-for any [[(∞,1)-category]] [[site]] $C$ whatsoever, we have
+for any presentable [[(∞,1)-category]] [[site]] $C$ whatsoever, we have
 the [[tangent (∞,1)-category]] fibration $T_C \to C$. With the [[(∞,1)-functor]] classifying it denoted 
 $QC : C^{op} \to (\infty,1)Cat$ we may adopt for any 
 [[∞-stack]] $X : C^{op} \to \infty Grpd$ the definition
