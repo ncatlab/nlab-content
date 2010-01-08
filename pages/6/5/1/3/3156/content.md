@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ##Basic idea##
 
 **Natural weak factorization systems** (NWFS) are algebraizations of [[weak factorization system]]s (WFS). The elements in the left and right classes of morphisms are replaced by coalgebras and algebras, respectively, for a certain [[comonad]] and [[monad]] on the [[arrow category]]. This comonad and monad also determine the functorial factorization and give natural coalgebra and algebra structures to the left and right factors.
