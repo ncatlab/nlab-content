@@ -9,3 +9,6 @@ He is one of the pioneers of the modern emerging framework which unites in a cat
 * A. Bondal and D. Orlov, ""Reconstruction of a variety from the derived category and groups of autoequivalences"", Compositio Math., 125 (2001), 327&#8211;344 [DOI: 10.1023/A:1002470302976] 
 
 * V. A. Lunts, D. O. Orlov, _Uniqueness of enhancement for triangulated categories_, [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
+
+
+category: people
