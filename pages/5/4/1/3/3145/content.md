@@ -1,6 +1,6 @@
 
 * [website](http://www.harvardscience.harvard.edu/directory/researchers/michael-j-hopkins)
 
-categoy: people
+category: people
 
 [[!redirects Michael Hopkins]]
