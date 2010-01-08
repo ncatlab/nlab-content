@@ -42,6 +42,8 @@ is a weak equivalence.
 
 ### Left proper model categories
 
+* every model category in which all objects are cofibrant is left proper;
+
 * the left [[Bousfield localization]] of every left proper [[combinatorial model category]] at a set of morphisms is again left proper.
 
 * every full subcategory on cofibrant objects
