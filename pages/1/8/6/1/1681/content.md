@@ -1,3 +1,13 @@
+If $G$ is a group and $n \geq 1$ then an **Eilenberg--Mac Lane space** $K(G,n)$ is a connected space  with its only non-trivial homotopy group being $G$ in dimension $n$, thus $G$ must necessarily be abelian for $n \geq 2$. 
+
+The construction of such a space can be given for $n \geq 2$ using the standard [[Dold-Kan correspondence]] between chain complexes and simplicial abelian groups: let $C(G,n)$ be the chain complex which is $G$ in dimension $n$ and trivial elsewhere; the geometric realisation of the corresponding simplicial abelian group is then a $K(G,n)$. 
+
+We can include the case $n=1$ when $G$ may be nonabelian, by regarding $C(G,n)$ as a [[crossed complex]]. Its [[classifying space]] $B(C(G,n))$ is then a $K(G,n)$. (This also includes the case $n=0$ when $G$ is just a set!) This method also allows for the construction of $K(M,n;G,1)$ where $G$ is a group, or groupoid,  and $M$ is a $G$-module. This gives a space with $\pi_1 =G$, $\pi_n=M$ all other homotopy trivial, and with the given operation of $\pi_1$ on $\pi_n$. 
+
+
+***
+
+
 #Idea#
 
 An _Eilenberg--Mac Lane space_ is a connected [[topological space]] with nontrivial [[homotopy groups]] only in a single degree.
@@ -39,7 +49,7 @@ Therefore Eilenberg--Mac Lane spaces constitute a [[spectrum]]: the [[Eilenberg?
 
 One common use of Eilenberg--Mac Lane spaces is as coefficient objects for "ordinary" [[cohomology]].
 
-The $n$th "ordinary" [[cohomology]]_ of a [[topological space]] $X$ with coefficients in $G$ (when $n=1$) or $A$ (generally) is the collection of [[homotopy]] classes of maps from $X$ into $K(G,1)$ or $K(A,n)$, respectively:
+The $n$th "ordinary" [[cohomology]] of a [[topological space]] $X$ with coefficients in $G$ (when $n=1$) or $A$ (generally) is the collection of [[homotopy]] classes of maps from $X$ into $K(G,1)$ or $K(A,n)$, respectively:
 
 $$
   H^1(X,G) = Ho_{Top}(X, K(G,1)) = Ho_{\infty Grpd}(X, \mathbf{B} G)
@@ -59,6 +69,7 @@ Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most fam
 The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in [[Top]].
 
 
+[[!redirects Eilenberg-MacLane space]]
 [[!redirects Eilenberg--MacLane space]]
 [[!redirects Eilenberg?MacLane space]]
 [[!redirects Eilenberg-Mac Lane space]]
