@@ -1,18 +1,13 @@
-If $G$ is a group and $n \geq 1$ then an **Eilenberg--Mac Lane space** $K(G,n)$ is a connected space  with its only non-trivial homotopy group being $G$ in dimension $n$, thus $G$ must necessarily be abelian for $n \geq 2$. 
 
-The construction of such a space can be given for $n \geq 2$ using the standard [[Dold-Kan correspondence]] between chain complexes and simplicial abelian groups: let $C(G,n)$ be the chain complex which is $G$ in dimension $n$ and trivial elsewhere; the geometric realisation of the corresponding simplicial abelian group is then a $K(G,n)$. 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-We can include the case $n=1$ when $G$ may be nonabelian, by regarding $C(G,n)$ as a [[crossed complex]]. Its [[classifying space]] $B(C(G,n))$ is then a $K(G,n)$. (This also includes the case $n=0$ when $G$ is just a set!) This method also allows for the construction of $K(M,n;G,1)$ where $G$ is a group, or groupoid,  and $M$ is a $G$-module. This gives a space with $\pi_1 =G$, $\pi_n=M$ all other homotopy trivial, and with the given operation of $\pi_1$ on $\pi_n$. 
-
-
-***
-
-
-#Idea#
+## Idea
 
 An _Eilenberg--Mac Lane space_ is a connected [[topological space]] with nontrivial [[homotopy groups]] only in a single degree.
 
-#Definition#
+## Definition
 
 For $G$ a [[group]], the Eilenberg--Mac Lane space $K(G,1)$ is the image under the [[homotopy hypothesis]] [[Quillen equivalence]] $|-| : \infty Grpd \to Top$ of the one-object groupoid $\mathbf{B}G$ whose [[hom-set]] is $G$:
 
@@ -20,6 +15,13 @@ $$
   K(G,1) = | \mathbf{B} G |
   \,.
 $$
+
+If $G$ is a group and $n \geq 1$ then an **Eilenberg--Mac Lane space** $K(G,n)$ is a connected space  with its only non-trivial homotopy group being $G$ in dimension $n$, thus $G$ must necessarily be abelian for $n \geq 2$. 
+
+The construction of such a space can be given for $n \geq 2$ using the standard [[Dold-Kan correspondence]] between chain complexes and simplicial abelian groups: let $C(G,n)$ be the chain complex which is $G$ in dimension $n$ and trivial elsewhere; the geometric realisation of the corresponding simplicial abelian group is then a $K(G,n)$. 
+
+We can include the case $n=1$ when $G$ may be nonabelian, by regarding $C(G,n)$ as a [[crossed complex]]. Its [[classifying space]] $B(C(G,n))$ is then a $K(G,n)$. (This also includes the case $n=0$ when $G$ is just a set!) This method also allows for the construction of $K(M,n;G,1)$ where $G$ is a group, or groupoid,  and $M$ is a $G$-module. This gives a space with $\pi_1 =G$, $\pi_n=M$ all other homotopy trivial, and with the given operation of $\pi_1$ on $\pi_n$. 
+
 
 For $A$ an abelian group, the Eilenberg--Mac Lane space $K(A,n)$ is the image of the [[∞-groupoid]] $\mathbf{B}^n A$ that is the [[strict ∞-groupoid]] given by the [[crossed complex]] $[\mathbf{B}^n A]$ that is trivial everywhhere except in degree $n$, where it is $A$:
 
@@ -45,7 +47,10 @@ $$
 
 Therefore Eilenberg--Mac Lane spaces constitute a [[spectrum]]: the [[Eilenberg?Mac Lane spectrum]].
 
-# Cohomology #
+
+
+
+## Cohomology 
 
 One common use of Eilenberg--Mac Lane spaces is as coefficient objects for "ordinary" [[cohomology]].
 
@@ -64,7 +69,7 @@ Here on the right $Ho_{Top}$ and $Ho_{\infty Grpd}$ denotes the [[homotopy categ
 
 Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most familiar) example of [[nonabelian cohomology]]. Nonabelian cohomology in higher degrees is obtained by replacing here the coefficient $\infty$-groupoids of the simple for $\mathbf{B}^n A$ with more general $\infty$-groupoids.
 
-#Generalizations#
+## Generalizations
 
 The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in [[Top]].
 
