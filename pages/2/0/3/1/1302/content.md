@@ -102,7 +102,21 @@ See also a very precise and detailed treatment in
 
 * [[Dmitri Orlov]], _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
+###Direct definition for presheaves of sets on $Aff$
 
+Let $Aff = CRing^{op}$; recall the fibered category $Mod\to CRing^{op}$ where for each $f:A\to B$ in $CRing$ the inverse image functor is $f^*=B\otimes_A - :{}_A Mod\to {}_B Mod$. Then the identity functor $CRing\to CRing$ can be interpreted as the presheaf of rings and is denoted by $O$ (the "structure sheaf"). An $O$-module is a presheaf of $O$-modules. Usually some Grothendieck topology is given and one asks for sheaves in fact. We can Yoneda extend $O$-modules to presheaves. We now define quasicoherent sheaves of $O$-modules on an arbitrary presheaf $X$ on $Aff$, viewed as a covariant functor on $CRing$. 
+
+A **quasicoherent sheaf of $O$-modules** on $X$ is a rule assigning to any $\phi\in X(A)$ an $A$-module $M_\phi = M_{A,\phi}$ and to any morphism $f:A\to B$ in $CRing$ an isomorphism $\theta_{f,\phi}:f^*(M_\phi)\to M_{X(f)(\phi)}$ such that for any composable pair $A\stackrel{f}\to B\stackrel{g}\to C$ and any $\phi\in X(A)$ the cocycle condition 
+
+$$
+\theta_{g\circ f,\phi}\circ \alpha_{fg} = \theta_{g,X(f)(\phi)}\circ g^*(\theta_{f,\phi})\colon g^* f^*(M_\phi)\to M_{X(g\circ f)(\phi)}
+$$
+
+holds, where $\alpha_{fg}:g^* f^*(M_\phi)\to (g\circ f)^*(M_\phi)$ is the canonical isomorphism which is part of the data of the (covariant) pseudofunctor $A\to {}_A Mod$, $f\mapsto f^*$.
+
+Notice that if $X = h^C = h_{Spec C}$ is (co)representable presheaf, then $\phi\in [A,X]_{Pshv(Aff)}=[C,A]_{CRing}$ is the same as a morphism $\phi^{op}:C\to A$ of rings; restricting the quasicoherent sheaf to $Spec A$ along $\phi:Spec A\to X$ and taking the global sections over $A$, would give the $A$-module $M_\phi$.
+
+Clearly, $Aff$ and $O$ can be much generalized. For example, rings may be noncommutative or one can take category opposite to the category of monads in $Set$ and an arbitrary (not identity) presheaf $D$ of monads in $Set$; the extension of scalars for monads gives an inverse image functor for Eilenberg-Moore categories. Durov's construction of quasicoherent sheaves for monads in $Set$ is an example where commutative algebraic monads are used; the theory of quasicoherent sheaves of $D$-modules ("$O$-modules with integrable connection") is another. Instead setups involving operads, higher operads and alike can be used as well; commutativity condition is useful if one wants a monoidal category of quasicoherent sheaves.
 
 ### As homs into the stack of modules {#AsCocycles}
 
@@ -114,18 +128,18 @@ The above definition may be further re-interpreted as follows.
 On the [[site]] $Aff = CRing^{op}$, let 
 
 $$
-  QC : Ring \to Cat
+  QC : CRing \to Cat
 $$
 
 $$
-  (Spec R_1 \stackrel{f}{\to} Spec R_2)
-  \mapsto (R_1 Mod \stackrel{- \otimes_{f}}{\to} R_2 Mod)
+  (Spec S_ \stackrel{f^{op}}{\to} Spec R)
+  \mapsto (R Mod \stackrel{S \otimes_{f} -}{\to} S Mod)
 $$
 
-be the (pseudo)functor ([[stack]]) corresponding to the canonical [[Grothendieck fibration]] of [[module]]s $Mod \to Ring$. Its right [[Kan extension]] through the 2-Yoneda embedding  $Y : Ring^{op} \hookrightarrow [Ring,Cat]$ is given on a presheaf $X : Ring \to Set$ by the [[hom-object]]
+be the (pseudo)functor ([[stack]]) corresponding to the canonical [[Grothendieck fibration]] of [[module]]s $Mod \to CRing$. Its right [[Kan extension]] through the 2-Yoneda embedding  $Y : CRing^{op} \hookrightarrow [CRing,Cat]$ is given on a presheaf $X : CRing \to Set$ by the [[hom-object]]
 
 $$
-  QC(X) := (Ran_Y QC)(X) := [Ring,Cat](X,QC)
+  QC(X) := (Ran_Y QC)(X) := [CRing,Cat](X,QC)
   \,.
 $$
 
@@ -140,7 +154,7 @@ We now explain the above statement in detail and thereby prove it.
 
 Let $C = $[[Ring]]${}^{op}$ be the category of (commutative, unital) [[ring]]s.
 For $R$ a [[ring]] write $Spec R$ for it regarded as an object of $R^{op}$.
-For $Spec f = f^{op} : Spec(R_2) \to Spec(R_1)$ a morphism in $Ring^{op}$ corresponding to the map $f : R_1 \to R_2$ of commutative rings.
+For $Spec f = f^{op} : Spec(S) \to Spec(R)$ a morphism in $Ring^{op}$ corresponding to the map $f : R \to S$ of commutative rings.
 
 Consider the [[2-category]] of (pre)[[stack]]s on 
 $C$. The canonical [[module]] [[bifibration]] $p : Mod \to Ring$ of the category of modules over all rings is the bifibration whose fibered part corresponds to the (pre)stack $QC \in [C^{op},Cat]$ given on objects by 
@@ -152,34 +166,31 @@ $$
 and on morphisms by
 
 $$
-  QC : (Spec R_1 \stackrel{f}{\to} Spec R_2) \mapsto 
-     R_1 Mod \stackrel{-\otimes_{f} R_2}{\to} R_2 Mod
+  QC : (Spec S \stackrel{f}{\to} Spec R) \mapsto 
+     R Mod \stackrel{S\otimes_{f} }{\to} S Mod
   \,,
 $$
 
-where on the right we have the functor that sends any $R_1$-module $N$ to the 
-[[tensor product]] over $R_1$ with the $R_1$-$R_2$-[[bimodule]] given by
-$R_2$ with its canonical right $R_2$-action and with the left $R_1$-action
-induced by the ring homomorphism $f$.
+where on the right we have the functor that sends any $R$-module $N$ to the 
+[[tensor product]] over $S$ with the $R$-$S$-[[bimodule]]
+$S = {}_S S_R$ with its canonical right $R$-action and with the left $S$-action induced by the ring homomorphism $f$.
 
 One may think of this as the stack of generalized algebraic vector bundles:
 
-the operation $- \otimes_{f} R_2 : R_1 Mod \to R_2 Mod$ corresponds to the
+the operation $S \otimes_{f} - : R Mod \to S Mod$ corresponds to the
 [[pullback]] of [[bundle]]s along a morphism of the underlying spaces.
-(See for instance 
-the discussion of [[monadic descent]] at [[Sweedler coring]] for more on this.)
+(See for instance the discussion of [[monadic descent]] at [[Sweedler coring]] for more on this.)
   
-We may [[Kan extension|right Kan extend]] the 2-functor $QC : Ring^{op} \to Cat$
-through the [[Yoneda embedding]] $Ring^{op} \hookrightarrow [Ring,Cat]$
+We may [[Kan extension|right Kan extend]] the 2-functor $QC : CRing^{op} \to Cat$ through the [[Yoneda embedding]] $Ring^{op} \hookrightarrow [CRing,Cat]$
 to get a definition of $QC$ on arbitrary [[presheaf|presheaves]]. 
 
 $$
   \array{
-    Ring^{op} &\stackrel{QC}{\to}& Cat^{op}
+    CRing^{op} &\stackrel{QC}{\to}& Cat^{op}
     \\
     {}^{Y}\downarrow & \nearrow_{\mathrlap{Ran_Y QC}}
     \\
-    [Ring,Cat]    
+    [CRing,Cat]    
   }
   \,.
 $$
@@ -198,7 +209,7 @@ $$
 which using the [[Yoneda lemma]] is
 
 $$
-  \cdots = \int_{R \in Ring} [Ring,Cat](X(R), QC(R))
+  \cdots = \int_{R \in CRing} [CRing,Cat](X(R), QC(R))
   \,.
 $$
 
