@@ -4,11 +4,15 @@
 
 * [[(n,r)-category]]
 
+  * [[Theta-space]]
+
   * [[∞-category]]/[[∞-category]]
 
   * [[(∞,n)-category]]
 
     * [[n-fold complete Segal space]]
+
+  * [[(∞,2)-category]]
 
   * [[(∞,1)-category]]
 
