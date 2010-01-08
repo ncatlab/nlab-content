@@ -1,1 +1,1 @@
-Hi! I'm John Huerta. More to come later... you can find my principal homepage [here](http://math.ucr.edu/~huerta).
+Hi, I'll put some stuff here soon! For now, see my [webpage](http://math.ucr.edu/~huerta).
