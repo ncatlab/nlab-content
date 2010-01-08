@@ -9,6 +9,11 @@
 
 ## Idea
 
+A [[group object]] in an ordinary [[category]] $C$ with [[pullback]]s is [[internalization|internal]] [[group]]. More generally, there is the notion of an [[internal groupoid]] in a category $C$.
+
+By the logic of [[vertical categorification]], an **internal $\infty$-group** or **[[internal ∞-groupoid]]** may be defined as a group(oid) object internal to an [[(∞,1)-category]] $C$ with pullbacks. As described there, in full generality this involves not only a weakening of the usual associativity and unit laws up to [[homotopy]], but requires specification of coherence laws of these homotopies up to higher homotopy, and so on.
+
+
 A _group object_ in an [[(∞,1)-category]] generalizes and unifies two familiar concepts:
 
 * it is the generalization of [[Jim Stasheff|Stasheff]] $A_\infty$-[[A-infinity-space|space]] from [[Top]] to more general [[∞-stack]] [[(∞,1)-topoi]]: an object that comes equipped with an associative and invertible [[monoid]] structure, up to coherent [[homotopy]];
@@ -60,7 +65,7 @@ Notice that one of the four characterizing properties of an [[(∞,1)-topos]] is
 
 In section 6.1.2 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 a notion of [[groupoid]] object [[internalization|internal]] to an [[(∞,1)-category]] $\mathbf{C}$ is defined
 as [[homotopy]]-[[simplicial object]] in $\mathbf{C}$ given by an [[(∞,1)-functor]]
