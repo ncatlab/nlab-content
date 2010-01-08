@@ -4,7 +4,7 @@
 
 ## Idea
 
-The notion of _Eilenberg-MacLane object_ in an [[(∞,1)-topos]] or [[stable (∞,1)-category]] generalizes the notion of [[Eilenberg-MacLane space]] from the [[(∞,1)-topos]] [[Top]] of [[topological space]]s or the [[stable (∞,1)-category]] of [[spectrum|spectra]]:
+The notion of _Eilenberg--Mac Lane object_ in an [[(∞,1)-topos]] or [[stable (∞,1)-category]] generalizes the notion of [[Eilenberg?Mac Lane space]] from the [[(∞,1)-topos]] [[Top]] of [[topological space]]s or the [[stable (∞,1)-category]] of [[spectrum|spectra]]:
 
 it is an object $\mathbf{B}^n A$ obtained from an abelian [[group object]] $A$ by [[delooping]] that $n$ times.
 
@@ -45,6 +45,7 @@ top of page 4 of
 * Jardine, _Fields Lectures: Simplicial Presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
 
+[[!redirects Eilenberg-MacLane object]]
 [[!redirects Eilenberg?MacLane object]]
 [[!redirects Eilenberg--MacLane object]]
 [[!redirects Eilenberg-Mac Lane object]]
