@@ -46,7 +46,7 @@ $$
   \,.
 $$
 
-This is the **square 0-extension** of $R$ by $N$. It should be thought of as the algebra of functions that consists of elements of $R$ and  $N$, where the elements in $N$ are thought of as functions with values in [[infinitesimal object|infinitesimal quantities]], so that their wouldd-be product "$n_1 \cdot n_2$" vanishes.
+This is the **square 0-extension** of $R$ by $N$. It should be thought of as the algebra of functions that consists of elements of $R$ and  $N$, where the elements in $N$ are thought of as functions with values in [[infinitesimal object|infinitesimal quantities]], so that their would-be product "$n_1 \cdot n_2$" vanishes.
 
 So the ring $R \oplus N$ may be thought of as the ring of functions on the infinitesimal extension $\tilde X$ of $X$, which is the space obtained by adding to $X$ all the _vectors of infinitesimal length_ in the vector bundle over $X$.
 
@@ -161,25 +161,47 @@ is the identity [[(∞,1)-functor]].
 
 ...
 
-## Related entries and references 
+## Related entries 
 
 Related $n$lab entries include [[cotangent complex]], [[Maurer-Cartan equation]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. Deformation problems are often phrased in terms of [[differential graded Lie algebras]], and, more generally, [[L-infinity algebras]]. 
+
+## References
+
+### History
+
+* C. Doran, [Deformation Theory: An Historical Annotated
+Bibliography](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)
+
+### Lectures
+
+
+* [[Yan Soibelman]], _Lectures on deformation theory and mirror symmetry_ ([ps](http://www.math.ksu.edu/~soibel/ipam-final.ps))
+
+* L. Illusie, _Complexe cotangent et d&#233;formations I_, Lec. Notes Math. __239__, Springer 1971, xv+355 pp.; _II_, LNM __283__, Springer 1972. vii+304 xv+355 pp. 
+
+* [[Alexander Grothendieck]], _Cat&#233;gories cofibr&#233;es additives et complexe cotangent relatif_, Lecture Notes in Mathematics 79
+
+
+### Textbooks {#Textbooks}
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Deformation theory I_ ([ps](http://www.math.ksu.edu/~soibel/Book-vol1.ps))
+
+* E. Sernesi, _Deformations of algebraic schemes_
+Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e:14011)
+
+
+### Further publications
 
 * Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, _Deformation theory of objects in homotopy and derived categories_ 
    * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
    * _II: pro-representability of the deformation functor_ [arXiv:math/0702839](http://arxiv.org/abs/math/0702839);
    * _III: abelian categories_ [arXiv:math/0702840](http://arxiv.org/abs/math/0702840)
 
-* E. Sernesi, _Deformations of algebraic schemes_
-Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e:14011)
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241)
 
 * Wikipedia: [deformation theory](http://en.wikipedia.org/wiki/Deformation_theory), [cotangent complex] (http://en.wikipedia.org/wiki/Cotangent_complex)
 
-* A. Grothendieck, _Cat&#233;gories cofibr&#233;es additives et complexe cotangent relatif_, Lecture Notes in Mathematics 79
-
-* L. Illusie, _Complexe cotangent et d&#233;formations I_, Lec. Notes Math. __239__, Springer 1971, xv+355 pp.; _II_, LNM __283__, Springer 1972. vii+304 xv+355 pp. 
 
 * Kai Behrend, B. Fantechi, _The intrinsic normal cone_, Invent. Math. __128__ (1997), no. 1, 45--88, MR1437495 (98e:14022) [arXiv:alg-geom/9601010](http://arxiv.org/abs/alg-geom/9601010)
 
@@ -192,13 +214,16 @@ __253__, n. 1, 25--62 (2006) [doi:10.1007/s00209-005-0875-9](http://dx.doi.org/1
 
 * M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
 
-* [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091))
 
 * W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
 
-* [[Yan Soibelman]], _Lectures on deformation theory and mirror symmetry_ ([ps](http://www.math.ksu.edu/~soibel/ipam-final.ps))
 
 * B. Mazur, _Perturbations, Deformations, and Variations (and "Near-misses") in Geometry, Physics, and Number Theory_, [BAMS 41(3), 307-336](http://www.ams.org/bull/2004-41-03/S0273-0979-04-01024-9/S0273-0979-04-01024-9.pdf)
 
-* C. Doran, [Deformation Theory: An Historical Annotated
-Bibliography](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)
+### Generalizations
+
+In 
+
+* [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091))
+
+a very setup for deformation theory over any [[(∞,1)-category]] is described. Then as an application the deformation theory of [[E-∞-ring]]s is developed.
