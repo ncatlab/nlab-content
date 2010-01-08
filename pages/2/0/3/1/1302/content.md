@@ -21,12 +21,15 @@ A very concrete definition characterizes quasicoherent sheaves as those that are
 
 below. It makes very manifest how passing from vector bundles to quasicoherent sheaves adds in the [[cokernel]]s that are missing in the category of [[vector bundle]]s.
 
-But it turns out that there is a more abstract, more [[sheaf and topos theory|sheaf theoretic]] reformulation of this definition: if we think of the underlying [[space]] as a ([[presheaf|pre]])[[sheaf]] (as motivated at [[motivation for sheaves, cohomology and higher stacks]]) we find that a quasicoherent sheaf on a space is given by an assignment of a module to each plot, such that the pullback of these modules is given, up to coherent isomorphism, by tensoring over the corresponding rings. This is described in detail in the section
+But it turns out that there is a more abstract, more [[sheaf and topos theory|sheaf theoretic]] reformulation of this definition: if we think of the underlying [[space]] as a ([[presheaf|pre]])[[sheaf]] (as motivated at [[motivation for sheaves, cohomology and higher stacks]]) we find that a quasicoherent sheaf on a space is given by an assignment of a module to each plot, such that the pullback of these modules is given, up to coherent isomorphism, by tensoring over the corresponding rings. This is described in the section
 
 * [As sheaves over Aff/X](#AsSheaves).
 
+and in more details in the section
 
-The tensoring operation appearing here is that defining the pullback operations in the [[stack]] that classifies the canonical [[bifibration]] of [[module]]s over rings. In view of this, one finds that this definition, in turn, is equivalent to a very fundamental definition:
+* [Definition on sheaves over Add](AsSheavesII).
+
+The tensoring operation appearing here is that defining the pullback operations in the [[stack]] that classifies the canonical [[bifibration]] $Mod \to CRing$ of [[module]]s over rings. In view of this, one finds that this definition, in turn, is equivalent to a very fundamental definition:
 
 with $QC := (-)Mod : Ring \to Cat$ the functor that sends a ring to its category of modules, one finds that the category of quasicoherent sheaves on a [[space]] $X$ is simply the [[hom-object]]
 
@@ -38,7 +41,9 @@ in the corresponding 2-category of category-valued (pre)sheaves, i.e (pre)[[stac
 
 * [As hom objects](AsCocycles) 
 
-below.
+below. By the equivalence between [[Grothendieck fibration]]s and [[pseudofunctor]]s this in turn is directly equivalent to the identification of $QC(X)$ with the catgeory of cartesian functors between the [[category of elements]] of $X$ and $Mod$. This is described in 
+
+* [As cartesian morphisms of fibered categories](AsFibHoms)
 
 This definition, finally, provides a powerful [[nPOV]] on quasicoherent sheaves: all notions involved, sheaf, stack, morphism of stacks, have natural, immediate and well understood generalizations to [[higher category theory]]. Therefore this last definition immediately generalizes to a definition of quasicoherent $\infty$-sheaves or "derived" quasicoherent sheaves, such as they appear for instance in [[geometric ∞-function theory]]. This is discussed in the section 
 
@@ -102,7 +107,10 @@ See also a very precise and detailed treatment in
 
 * [[Dmitri Orlov]], _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
-###Direct definition for presheaves of sets on $Aff$
+
+###Direct definition for presheaves of sets on Aff {#AsSheavesII} 
+
+Here is a more detailed way to say again what the above paragraph said.
 
 Let $Aff = CRing^{op}$; recall the fibered category $Mod\to CRing^{op}$ where for each $f:A\to B$ in $CRing$ the inverse image functor is $f^*=B\otimes_A - :{}_A Mod\to {}_B Mod$. Then the identity functor $CRing\to CRing$ can be interpreted as the presheaf of rings and is denoted by $O$ (the "structure sheaf"). An $O$-module is a presheaf of $O$-modules. Usually some Grothendieck topology is given and one asks for sheaves in fact. We can Yoneda extend $O$-modules to presheaves. We now define quasicoherent sheaves of $O$-modules on an arbitrary presheaf $X$ on $Aff$, viewed as a covariant functor on $CRing$. 
 
@@ -284,6 +292,20 @@ The components of $N$ are
     $$
 
     i.e. the restriction of this morphism to $(n,1)$.
+
+* for each tuple of composable morphisms 
+
+  $$
+    \array{
+      && Spec B
+      \\
+      & {}^f\nearrow && \searrow^g
+      \\
+      Spec A &&\to&& Spec C
+    }
+  $$
+
+  a pseudo-naturality prism equation relating, $N(f)$, $N(g)$ and $N(g\circ g)$.  The present author is too lazy to write out the diagram in detail, but it is of precisely the kind described in great detail for instance in the entry on [[group cohomology]]. Under the above identification, this yields the cocycle condition mentioned  in the above definitions.
 
 This way, the transformation $N : X \to QC$ defines 
 manifestly a quasicoherent sheaf on $Aff/X$ in the sense of the
