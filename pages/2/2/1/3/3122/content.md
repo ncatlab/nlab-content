@@ -1,3 +1,4 @@
+[[!redirects free construction]]
 
 
 ## Idea
