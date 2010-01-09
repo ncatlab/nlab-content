@@ -39,11 +39,11 @@ $$
 
 in the corresponding 2-category of category-valued (pre)sheaves, i.e (pre)[[stack]]s. This is the perspective described in 
 
-* [As hom objects](AsCocycles) 
+* [As hom objects](#AsCocycles) 
 
 below. By the equivalence between [[Grothendieck fibration]]s and [[pseudofunctor]]s this in turn is directly equivalent to the identification of $QC(X)$ with the catgeory of cartesian functors between the [[category of elements]] of $X$ and $Mod$. This is described in 
 
-* [As cartesian morphisms of fibered categories](AsFibHoms)
+* [As cartesian morphisms of fibered categories](#AsFibHoms)
 
 This definition, finally, provides a powerful [[nPOV]] on quasicoherent sheaves: all notions involved, sheaf, stack, morphism of stacks, have natural, immediate and well understood generalizations to [[higher category theory]]. Therefore this last definition immediately generalizes to a definition of quasicoherent $\infty$-sheaves or "derived" quasicoherent sheaves, such as they appear for instance in [[geometric ∞-function theory]]. This is discussed in the section 
 
