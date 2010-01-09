@@ -1,20 +1,19 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Definition ##
 
-Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **distributor** or **profunctor** or **[[bimodule|(bi)module]]** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
+Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **profunctor** or **[[bimodule|(bi)module]]** or **distributor** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
 
 $$
   F : C &#8696; D : C\otimes D^{op} \to V
   \,.
 $$
 
-Such distributors are composed by using a [[end|coend]] to "trace out" the middle variable:
+Such profunctors are composed by using a [[end|coend]] to "trace out" the middle variable:
 
-for $F : C &#8696; D$ and $G : D &#8696; E$ distributors, their composite  $G \circ F: C &#8696; E$ is defined to be
+for $F : C &#8696; D$ and $G : D &#8696; E$ profunctors, their composite  $G \circ F: C &#8696; E$ is defined to be
 
 $$
   G \circ F := \int^{d \in D} F(-,d)\otimes G(d,-)
@@ -25,7 +24,7 @@ This yields a [[bicategory]] $V\Mod$ with
 
 * objects are $V$-enriched categories;
 
-* morphisms are distributors with the above composition;
+* morphisms are profunctors with the above composition;
 
 * 2-morphisms are natural transformations.
 
@@ -47,7 +46,7 @@ $$
 
 This may be thought of as a consequence of the [[co-Yoneda lemma]] (and hence, of course, of the [[Yoneda lemma]]) which says that every presheaf is colimit over [[representable functor|representables]], i.e. over objects in the image of the [[Yoneda embedding]] $Y : C \to PSh(C)$. This immediate implies that a colimit-preserving functor on $PSh(C)$ is already determined by its restriction along $Y$ to $C$.
 
-Now, distributors $C \otimes D^{op} \to V$ are [[adjunct]] to functors $C \to [D^{op}, V] \simeq PSh(D)$. Hence by the above, distributors are equivalent to colimit-preserving functors
+Now, profunctors $C \otimes D^{op} \to V$ are [[adjunct]] to functors $C \to [D^{op}, V] \simeq PSh(D)$. Hence by the above, profunctors are equivalent to colimit-preserving functors
 
 $$
   PSh(C) \to PSh(D)
@@ -87,7 +86,7 @@ $$
 
 ## Remarks ##
 
-* Every ordinary $V$-functor $f : C \to D$ yields a distributor $\hat F : C &#8696; D$ which is 
+* Every ordinary $V$-functor $f : C \to D$ yields a profunctor $\hat F : C &#8696; D$ which is 
 the [[adjunct]] of the postcomposition 
 $$
   C \stackrel{f}{\to} D \stackrel{Y}{\to} [D^{op},V]
@@ -128,11 +127,11 @@ Some exposition at
 
 * John Baez, _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
 
-The common generalization of [[bimodules]] and [[spans]] in terms of distributors has been discussed on the blog at
+The common generalization of [[bimodules]] and [[spans]] in terms of profunctors has been discussed on the blog at
 
 * John Baez, _Bimodules versus spans_ ([blog](http://golem.ph.utexas.edu/category/2008/08/bimodules_versus_spans.html))
 
-There is a discussion of distributors in the recently republished:
+There is a discussion of profunctors in the recently republished:
 
 * J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
@@ -179,12 +178,12 @@ Profunctors are often notated with a slashed or barred arrow, as in $C &#x21F8; 
 On a previous version of this entry with opposite convention on where to put the ${}^{op}$ [[Todd Trimble|Todd]] has remarked
 
 +--{.query}
-_Todd_: There is an inevitable debate here about whether one should use $C^{op} \otimes D \to V$ or $C \otimes D^{op} \to V$. My own convention is to use the latter. For example, every functor $C \to D$ yields a distributor by composition with the Yoneda embedding on $D$. 
+_Todd_: There is an inevitable debate here about whether one should use $C^{op} \otimes D \to V$ or $C \otimes D^{op} \to V$. My own convention is to use the latter. For example, every functor $C \to D$ yields a profunctor by composition with the Yoneda embedding on $D$. 
 
 [[Mike Shulman|Mike]]: My convention is $D^{op}\otimes C$.  I agree with your reasoning for why $D$ should be contravariant; I like to put it first because in the hom-functor $C(-,-)$ the contravariant variable appears first.
 =--
 
 
-[[!redirects profunctor]]
 [[!redirects profunctors]]
+[[!redirects distributor]]
 [[!redirects distributors]]
