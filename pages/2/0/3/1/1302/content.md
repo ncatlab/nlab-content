@@ -427,6 +427,12 @@ the localization of the category of graded $A$-modules by the subcategory of mod
 
 In the case of general (commutative) schemes, every presheaf of $O_X$-modules which is quasicoherent in the sense of having local presentation as above, is in fact a sheaf. It is known that the category of quasicoherent sheaves of $O_X$-modules over any [[quasicompact]] quasiseparated scheme is a [[Grothendieck category]] and in particular has enough [[injective object]]s.
 
+## Related concepts
+
+### D-Modules
+
+The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasicoherent sheaves on the corresponding [[deRham space]].
+
 [[!redirects quasicoherent sheaves]]
 [[!redirects quasicoherent module]]
 [[!redirects quasicoherent modules]]
