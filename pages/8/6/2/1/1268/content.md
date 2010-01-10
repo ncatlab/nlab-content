@@ -18,7 +18,7 @@ Remembering, from this discussion there, that
 
 * a quasicoherent sheaf on $dR(X)$ is a generalization of a [[vector bundle]] on $X$;
 
-* a vector bundle with a flat [[connection on a bundle|connection]] is an [[equivariant cohomology|equivarint]] vector bundle on the infinitesimal path $\infty$-groupoid $\Pi^{inf}$ of $X$
+* a vector bundle with a flat [[connection on a bundle|connection]] is an [[equivariant cohomology|equivariant]] vector bundle on the infinitesimal path $\infty$-groupoid $\Pi^{inf}$ of $X$
 
 this shows pretty manifestly how D-modules are "sheaves of modules with flat connection", as described more below.
 
@@ -39,14 +39,12 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 =--
 
-## Related entries
+## References and related entries
 
-D-modules are closely related to
+Related $n$lab entries include [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]].
 
-* [[local systems]]
-
-## References
-
+* A. Beilinson, I. N. Bernstein, _A proof of Jantzen conjecture_, Adv. in Soviet Math. 16, Part 1 (1993), 1-50. MR95a:22022
+* S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
 * Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf)
 * Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf)
 * Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
