@@ -107,7 +107,11 @@ For more on this see also section 2.3 of [SchwedeSchipley](http://arxiv.org/abs/
 
 The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in
 
-* Marcelo Aguiar and Swapneel Mahajan, _Coxeter Groups and Hopf Algebras_ Fields Institute Monographs, vol. 23
+* Marcelo Aguiar, Swapneel Mahajan, _Coxeter Groups and Hopf Algebras_ Fields Institute Monographs, vol. 23 [pdf](http://www.math.tamu.edu/~maguiar/monograph.pdf)
+
+and with more details in
+
+* Marcelo Aguiar, Swapneel Mahajan, _Monoidal functors, species and Hopf algebras_, [pdf, over 6 Mb](http://www.math.tamu.edu/~maguiar/a.pdf) version June 18, 2009, 672 pages.
 
 =--
 
