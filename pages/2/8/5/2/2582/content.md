@@ -136,7 +136,7 @@ The object space of $\Pi_n(X)$ is just $X$, and so there is an inclusion $X \hoo
 Given a basepoint $x\in X$, we can form the tangent $n$-groupoid $T_x \Pi_n(X)$, which is equivalent to the trivial $n$-groupoid $*$ (even as a _topological_ $n$-groupoid), and gives us what should be in any sensible definition a fibration $T_x\Pi_n(X) \to \Pi_n(X)$. 
 Pull back this fibration to $X$, and call the resulting thing $X^{(n)}$. It is fairly easy to see that $X^{(n)}$ is a topological $(n-1)$-groupoid over $X$. This then should be the $n$-connected cover of $X$. For $n=1$ this is precisely the classical construction of the universal covering space of a pointed space. For $n=2$ this is treated in
 
-*  D.M. Roberts, Fundamental bigroupoids and 2-covering spaces, PhD thesis, in preparation
+*  D.M. Roberts, Fundamental bigroupoids and 2-covering spaces, PhD thesis, available [[davidroberts:HomePage|here]]
 
 and the two-dimensional homotopical tools developed there can be used to show that $X^{(2)}$ is 2-connected.
 
