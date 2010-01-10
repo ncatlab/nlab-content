@@ -30,7 +30,7 @@ If an accessible category in addition has all (small) [[colimit]]s (or, equivale
 +-- {: .un_prop}
 ###### Proposition 
 
-A [[small category]] is accessible precisely if it is [[idempotent complete]].
+A [[small category]] is accessible precisely if it is [[idempotent complete category|idempotent complete]].
 
 =--
 
