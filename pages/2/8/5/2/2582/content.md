@@ -39,7 +39,7 @@ $$
     \\
     \downarrow && \downarrow^{[x]}
     \\
-    X &\to& G_0
+    X &\to& \pi_0(X)
   }
 $$
 
