@@ -50,6 +50,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Greg Egan]]
 * [[Hanno Becker]]
 * [[Harry|Harry Gindi]]
+* [[Herman Stel]]
 * [[Hugh Thomas]]
 * [[Ivo]]
 * [[jdthomas|J. D. Thomas]]
