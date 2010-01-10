@@ -47,19 +47,19 @@ is just an ordinary [[pullback]] and in fact $X\langle 0 \rangle$ is just the pa
 
 Remark: It is not entirely unreasonable to notice at this step that instead of the set $\pi_0(X)$ we could use here just $\{0,1\}$ and send each point in the path connected component  of $x$ to 1 and all others to 0. Then ${*} \stackrel{1}{\hookrightarrow} \{0,1\}$ is the [[subobject classifier]] in [[Set]] and co-killing the 0-th homotopy "group" is the same as taking the [[subobject]] classified by the characteristic connected-component map $X \to \mathbb{Z}_2$.
 
-Next let $\pi_1(X,x)$ be the first [[homotopy group]] of $X$ at $x$ and $\mathcal{B} \pi_1(X,x)$ its [[delooping]]. There is then naturally a map $X \to \mathcal{B} \pi_1(X)$ and the [[homotopy fiber]]
+Next let $\pi_1(X\langle 0\rangle,x)$ be the first [[homotopy group]] of $X\langle 0\rangle$ at $x$ and $\mathcal{B} \pi_1(X\langle 0\rangle,x)$ its [[delooping]]. There is then naturally a map $X\langle 0\rangle \to \mathcal{B} \pi_1(X\langle 0\rangle)$ and the [[homotopy fiber]]
 
 $$
   \array{
-    \hat X &\to& {*}
+    X\langle 1\rangle &\to& {*}
     \\
     \downarrow && \downarrow
     \\
-    X &\to& \mathcal{B} \pi_1(X,x)
+    X\langle 0\rangle &\to& \mathcal{B} \pi_1(X\langle 0\rangle,x)
   }
 $$
 
-is the [[universal cover]] (universal 1-connected cover) of $X$.
+is the [[universal cover]] (universal 1-connected cover) of $X\langle 0\rangle$.
 
 And so on. 
 
