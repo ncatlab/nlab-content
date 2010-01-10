@@ -99,24 +99,128 @@ $$
 are _$K$-$L$-[[bimodule]]s_, also known as _profunctors_ or _[[distributor]]s_ from $K$ to $L$.
 
 
-### In terms of stabilized overcategories
 
-...
+### In terms of stabilized overcategories {#DefWithOCat}
+
+
+
+**Proposition** Let $R \in CRing$ be a commutative [[ring]]. Then there is a canonical [[equivalence of categories|equivalence]] between the [[category]] $R Mod$ of $R$-modules and the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] of $CRing$ over $R$
+
+$$
+  R Mod \simeq Ab(CRing/R)
+  \,.
+$$
+
+**Proof**
+
+The unit of the abelian group object in $CRing/R$ is a diagram
+
+$$
+  \array{
+     R &&\to&& K
+     \\
+     & {}_{\mathllap{Id}}\searrow && \swarrow^{\mathrlap{p}}
+     \\
+     && R
+  }
+  \,.
+$$
+
+This diagram identifies $K$ with a ring of the form $R \oplus ker(p)$ in which for $r \in R$ and $n \in ker(p)$ we have $r\cdot n \in ker(p)$. 
+
+The cartesian product in the overcategory then amounts to addition of this extra summand, so that the group operation yields a morphism
+
+$$
+  \array{
+     (R \oplus N \oplus N) &&\to&& (R \oplus N)
+     \\
+     & \searrow && \swarrow^{\mathrlap{p}}
+     \\
+     && R
+  }
+  \,.
+$$
+
+This makes...
 
 
 ## Examples
 
-### Modules over rings
+### Modules over rings {#Rings}
 
-Recalling that a [[ring]] $R$ is a [[monoid]] in the category [[Ab]] of abelian groups, hence equivalently a one-object $Ab$-enriched category $\mathbf{B}R$,
-a module $M$ over a $R$ is a module in [[Ab]] in the above sense, hence in particular
-an $Ab$-functor 
-$$   
-  M: \mathbf{B}R \to Ab 
+A [[ring]] is a [[monoid]] in [[Ab]]. Hence a module over a ring is first of all an [[object]] $N$ in [[Ab]], hence an abelian group. Moreover, it is equipped with a [[morphism]]
+
+$$
+  \alpha : R \otimes N \to N
+$$ 
+
+in [[Ab]]. On the left we have the [[tensor product]] of abelian groups. So this is a morphism that sends
+
+$$
+  (r,n ) \mapsto r n
+$$
+
+such that
+
+$$
+  (r, n_1 + n_2) \mapsto r n_1 + r n_2
+$$
+
+and
+
+$$
+  (r_1 + r_2, n) \mapsto r_1 n + r_2 n
   \,.
 $$
 
-The category $R Mod$ has $R$-modules as objects and $R$-module homomorphisms as morphisms.  More abstractly, this is the [[enriched category|enriched]] [[functor category]] $[R,Ab]$ (see [page 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of Kelly's book.)
+Moreover, this morphism respects the monoid structure on $R$, in that the diagram
+
+$$
+  \array{
+     R \otimes R \otimes N 
+     &\stackrel{\cdot_R \otimes Id_N}{\to}& R \otimes N
+     \\
+     {}^{\mathllap{Id_R \otimes \alpha}}\downarrow 
+     && 
+     \downarrow^{\mathrlap{alpha}}
+     \\
+     R \otimes N &\to& N 
+  }
+$$
+
+commutes. In formulas this means that 
+
+$$
+  (r_1 \cdot r_2) n = r_1 (r_2 n)
+  \,.
+$$
+
+Finally the unit axioms says that the identity element of $R$ acts as the identity on $N$.
+
+Saying the same fully in terms of [[enriched category theory]]:
+
+Write $\mathbf{B}R$ for the [[An]]-[[enriched category]] with a single object and $R = \mathbf{B}A(\bullet, \bullet)$.
+A module $N$ is an $Ab$-functor 
+$$   
+  N : \mathbf{B}R \to Ab 
+  \,.
+$$
+
+The category $R Mod$ has $R$-modules as objects and $R$-module homomorphisms as morphisms.  More abstractly, this is the [[Ab]]-[[enriched functor category]] $[\mathbf{B}R,Ab]$.
+
+
+### Modules over simplicial rings {#SimpRings}
+
+Let $sAlg_k$ (or $sAlg$ for short) be the [[(∞,1)-category]] of commutative [[simplicial ring|simplicial algebras]] over a base field $k$. 
+
+For $A \in sAlg_k$ there is generally a functor
+
+$$
+  A Mod \to Stab(sAlg_k/A)
+$$
+
+from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of the [[overcategory]] of $sAlg$. But in general this functor is neither [[essentially surjective functor|essentially surjective]] nor [[full functor|full]]. If however $k$ has characteristic 0, then this is an equivalence.
+
 
 ## Related concepts
 
@@ -164,6 +268,13 @@ By the above discussion, this procedure yieelds the expected notions of modules 
 _Toby_:  One problem is that this mixes with the conventions that one adopts for [[composition]].  What one person thinks is left multiplication, another will think is right multiplication.  I would rather talk about left/right modules for monoids or rings, then talk about covariant/contravariant functors from categories or additive categories.
 
 =--
+
+
+## References
+
+The observation that the category of modules over a ring $R$ is equivalent to the category of abelian group objects in the overcategory $CRing/R$ is originally due to Quillen:
+
+* Quillen, _..._, (...)
 
 
 [[!redirects modules]]
