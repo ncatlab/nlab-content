@@ -167,19 +167,30 @@ Related $n$lab entries include [[cotangent complex]], [[Maurer-Cartan equation]]
 
 ## References
 
-* C. Doran, [Deformation Theory: An Historical Annotated
-Bibliography](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)
+* M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
+
+* [homepage](http://math.stanford.edu/~vakil/727) of Ravi Vakil's graduate Stanford class on deformation theory and moduli spaces
+
+* E. Sernesi, _An overview of classical deformation theory_, [pdf](http://www.iasbs.ac.ir/faculty/varsaie/sernesi.pdf)
+
+
+In
+
+* [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091))
+
+a very setup for deformation theory over any [[(∞,1)-category]] is described. Then as an application the deformation theory of [[E-∞-ring]]s is developed.
 
 * [[Yan Soibelman]], _Lectures on deformation theory and mirror symmetry_ ([ps](http://www.math.ksu.edu/~soibel/ipam-final.ps))
+
+* M. Kontsevich, _Topics in deformation theory_ (A rough write up of a Berkeley course, early 90-s), [ps](www.math.uchicago.edu/~mitya/langlands/kontsdef.ps)
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Deformation theory I_ ([ps](http://www.math.ksu.edu/~soibel/Book-vol1.ps)); _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241) -- two parts of large unfinished books on the subject
 
 * L. Illusie, _Complexe cotangent et d&#233;formations I_, Lec. Notes Math. __239__, Springer 1971, xv+355 pp.; _II_, LNM __283__, Springer 1972. vii+304 xv+355 pp. 
 
 * [[Alexander Grothendieck]], _Cat&#233;gories cofibr&#233;es additives et complexe cotangent relatif_, Lecture Notes in Mathematics 79
 
-
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Deformation theory I_ ([ps](http://www.math.ksu.edu/~soibel/Book-vol1.ps))
-
-* E. Sernesi, _Deformations of algebraic schemes_
+* E. Sernesi, _Deformations of algebraic schemes_ (monograph)
 Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e:14011)
 
 * Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, _Deformation theory of objects in homotopy and derived categories_ 
@@ -187,11 +198,9 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e
    * _II: pro-representability of the deformation functor_ [arXiv:math/0702839](http://arxiv.org/abs/math/0702839);
    * _III: abelian categories_ [arXiv:math/0702840](http://arxiv.org/abs/math/0702840)
 
-
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241)
-
 * Wikipedia: [deformation theory](http://en.wikipedia.org/wiki/Deformation_theory), [cotangent complex] (http://en.wikipedia.org/wiki/Cotangent_complex)
 
+* C. Doran, [Deformation theory: a historical annotated bibliography](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)
 
 * Kai Behrend, B. Fantechi, _The intrinsic normal cone_, Invent. Math. __128__ (1997), no. 1, 45--88, MR1437495 (98e:14022) [arXiv:alg-geom/9601010](http://arxiv.org/abs/alg-geom/9601010)
 
@@ -202,16 +211,18 @@ __253__, n. 1, 25--62 (2006) [doi:10.1007/s00209-005-0875-9](http://dx.doi.org/1
 
 * S. Merkulov, B. Vallette, _Deformation theory of properads_, [arXiv:0707.0889](http://arxiv.org/abs/0707.0889)
 
-* M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
-
-
 * W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
 
+* B. Mazur, _Perturbations, deformations, and variations (and "Near-misses") in Geometry, Physics, and Number Theory_, [BAMS 41(3), 307-336](http://www.ams.org/bull/2004-41-03/S0273-0979-04-01024-9/S0273-0979-04-01024-9.pdf)
 
-* B. Mazur, _Perturbations, Deformations, and Variations (and "Near-misses") in Geometry, Physics, and Number Theory_, [BAMS 41(3), 307-336](http://www.ams.org/bull/2004-41-03/S0273-0979-04-01024-9/S0273-0979-04-01024-9.pdf)
+* M. Artin, _Deformations of singularities_, TATA Lecture Notes vol. 54.
 
-In 
+* M. Artin, _Versal deformations and Algebraic stacks_, Invent. Math. 1974
 
-* [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091))
+* Kodaira K., Nirenberg L., Spencer D.C. _On the existence of deformation of complex analytic structures_, Ann. Math. 68, 450-459 (1958). 
 
-a very setup for deformation theory over any [[(∞,1)-category]] is described. Then as an application the deformation theory of [[E-∞-ring]]s is developed.
+* Kodaira K., Spencer D.C. _On deformation of complex analytic structures_, I II, Ann. Math. 67, 328-466 (1958). 
+
+* M. Schlessinger, _Functors of Artin rings_, Trans. AMS 130, 208-222 (1968) -- this was a groundbreaking article at the time, still much cited. 
+
+* B. Osserman, _Deformation theory and moduli in algebraic geometry_, [pdf](http://www.msri.org/people/members/defthy07/lectures/brian.pdf)
