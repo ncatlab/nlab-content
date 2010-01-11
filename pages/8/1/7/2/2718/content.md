@@ -1,3 +1,4 @@
+Pavol &#352;evera is a mathematical physicist from Bratislava.
 
 * [website](http://fyzikus.fmph.uniba.sk/typo/index.php?id=433)
 
