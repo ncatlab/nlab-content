@@ -2,8 +2,7 @@
 
 **[[cohomology]]**
 
-
-## Contents ##
+* [[cocycle]]
 
 ### special and general types ###
 
