@@ -7,7 +7,7 @@
 
 Anafunctors were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
 
-More generally, an ordinary anafunctor may be regarded as a [[cocycle]] in the context of [[Cat]] equipped with the [[folk model structure on Cat]]. Internal anafunctors are in this sense [[cocycle]]s in more general [[(infinity,1)-topos]]es of [[internal infinity-groupoid]]s.
+More generally, an ordinary anafunctor may be regarded as a [[cocycle]] in the context of [[Cat]] equipped with the [[folk model structure on Cat]]. Internal anafunctors are in this sense [[cocycle]]s in more general [[homotopical category|homotopical categories]] of [[internal groupoid]]s, and, more generally, $\infty$-anafunctors are cocycles in  [[(∞,1)-topos]]es of [[internal ∞-groupoid]]s.
 
 #Definition (external)#
 
