@@ -24,7 +24,7 @@ Apart from this direct generalization, there are two distinct and separately imp
 
 * modules may usefully be thought of in terms of [[abelian category|abelianization]]/[[stabilization]] of [[overcategory|overcategories]].
 
-#### Modules for monoids in 2-catgeories: algebras over monads {#MonadAlgs}
+#### Modules for monoids in 2-categories: algebras over monads {#MonadAlgs}
 
 The notion of [[monoid]] generalizes straightforwardly from
 monoids in a [[monoidal category]] to monoids in a [[2-category]]:
@@ -33,14 +33,7 @@ for the [[2-category]] [[Cat]], and more generally for arbitrary
 
 A module over a monad is defined essentially exactly as that 
 of module over a monoid. For historical reasons, a module over
-a monad is called an _algebra over a monad_ . This is slightly
-unfortunate from the perspective of monads as monoids, but 
-historically due to the fact that modules for [[monad]]s on 
-[[Set]] that come from the [[adjunction]] formed by a 
-[[forgetful functor]] and its [[left adjoint]] [[free functor]]
-happen to be certain [[monoid]] objects in [[Set]].
-
-
+a monad is called an _algebra over a monad_, because the algebras in the sense of [[universal algebra]] can be obtained as algebras/modules over a [[finitary monad]] in $Set$: the modules for a free algebra monad (for certain kind of algebras) on [[Set]], which are the composition of the free alegbra functor and its [[right adjoint]] forgetful functor are exactly algebras of that type. Modules over a fixed monad (in $Cat$) are the objects of the [[Eilenberg-Moore category]] of the monad; in arbitrary bicategory, this category generalized to Eilenberg-Moore objects which may or may not exist. 
 
 #### Enriched presheaves
 
