@@ -53,6 +53,7 @@ We say that $X$ **factors through** $d$.
 
 ## Generalizations
 
+
 ### Relative version
 
 We can replace the commutative algebra $A$ more generally by  a [[morphism]] of [[commutative unital rings]] $f:R\to S$. Then the __module of K&#228;hler differentials__ is the $S$-[[module]] $\Omega^1_K(S/R)$ corepresenting the functor
@@ -84,9 +85,12 @@ Furthermore, if $R$ is in characteristic zero, one may introduce **K&#228;hler $
 
 Compare the role of [[universal differential envelope]] and [[Amitsur complex]] for  analogous constructions in the noncommutative case. The appropriate extension of the module of relative K&#228;hler differentials to the derived setting is the [[cotangent complex]] of Grothendieck--Illusie. 
 
-### Higher categorical version
+### Abstract-nonsense and higher categorical version
 
-The generalization of K&#228;hler differentials from [[algebra]] to [[higher algebra]] is given by the notion of [[cotangent complex]] and its generalizations. For more on this see [[deformation theory]]. 
+The generalization of K&#228;hler differentials from [[algebra]] to [[higher algebra]] is given by the notion of [[cotangent complex]] and its generalizations, which are defined in very general terms by sections of the [[tangent (infinity,1)-category]]. For more on this see [[deformation theory]]. 
+
+This yields a very general notion of K&#228;hler differentials.
+For instance if [[ring]]s are replaced by algebras over a [[Fermat theory]] $T$, such as [[generalized smooth algebra|C-infinity rings]], then there is a notion of [K&#228;hler differentials for T-algebras](http://ncatlab.org/nlab/show/Fermat+theory#K%C3%A4hlerDiffs). (The derivation of this from the very-general-abstract-nonsense will be given elsewhere.)
 
 ## Relation to ordinary forms 
 
