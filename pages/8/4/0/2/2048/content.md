@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _coherent sheaf_ is a geometric globalization of the notion of [[coherent module]].
+A _coherent sheaf of modules_ is a geometric globalization of the notion of [[coherent module]].
 
 
 ## Definition
@@ -38,7 +38,7 @@ A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
 
 Every finitely presented $\mathcal{O}$-module is finitely generated. 
 
-* __[[quasicoherent sheaf|quasi coherent]]__ if it is _locally_   -- on a cover $\{U_i\}$ -- _presentable_ in that ther are [[exact sequence]]s
+* __[[quasicoherent sheaf|quasi coherent]]__ if it is _locally_   -- on a cover $\{U_i\}$ -- _presentable_, i.e. for each $i$ there is an [[exact sequence]]s
 
   $$
     \mathcal{O}^{I_i}|_{U_i} \to \mathcal{O}^{J_i}|_{U_i}
@@ -46,7 +46,7 @@ Every finitely presented $\mathcal{O}$-module is finitely generated.
     \to 0
   $$
 
-  where $I_i$ and $J_i$ may be infinite, i.e. of $\mathcal{E}$ is locally the [[cokernel]] of [[free module]]s. For more see [[quasicoherent sheaf]].
+where $I_i$ and $J_i$ may be infinite, i.e. of $\mathcal{E}$ is locally the [[cokernel]] of [[free module]]s. For more see [[quasicoherent sheaf]].
 
 ## Properties
 
@@ -58,5 +58,19 @@ $$
 0\to \mathcal{E}\to\mathcal{E}'\to \mathcal{E}''\to 0
 $$
 are coherent then so is the third. All this holds even if $\mathcal{O}$ is a sheaf of noncommutative [[rings]]. For commutative $\mathcal{O}$, the inner hom $Hom_{\mathcal{O}}(\mathcal{E},\mathcal{F})$ in the category of sheaves of $\mathcal{O}$-modules is coherent if $\mathcal{E},\mathcal{F}$ are coherent. 
+
+A theorem of Serre says that the category of coherent sheaves over a projective variety of the form $Proj R$ where $R$ is a graded commutative Noetherian ring is equivalent to the localization of the category of finitely generated graded $R$-modules modulo its ("torsion") subcategory of (finitely generated graded) $R$-modules of finite length. 
+
+##References
+
+* J-P. Serre, _Faisceaux alg&#233;briques coh&#233;rents_, Ann. of Math. (2) __61__,  (1955) 197--278, [doi](http://dx.doi.org/10.2307/1969915).
+
+* H. Grauert, R. Reinhold, _Coherent analytic sheaves_, Grundlehren der Math. Wissenschaften __265__, Springer 1984. xviii+249 pp.
+
+* M. M. [[Kapranov]], _On the derived categories of coherent sheaves on some homogeneous spaces_,  Invent. Math.  92  (1988),  no. 3, 479--508, [doi](http://mathscinet.mpim-bonn.mpg.de/leavingmsn?url=http://dx.doi.org/10.1007/BF01393744). 
+
+* D. O. Orlov, _Derived categories of coherent sheaves and equivalences between them_ (Russian)  Uspekhi Mat. Nauk  58  (2003),  no. 3(351), 89--172;  transl. in  Russian Math. Surveys  58  (2003),  no. 3, 511--591 
+
+* V. D. Golovin, _Homology of analytic sheaves and duality theorems_, Contemporary Soviet Mathematics (1989) viii+210 pp. transl. from Russian original &#1043;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1090;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1076;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074;&#1077;&#1085;&#1086;&#1089;&#1090;&#1080;, Moskva, Nauka 1986. (192 pp.)
 
 [[!redirects coherent sheaves]]
