@@ -58,6 +58,10 @@ On the other hand, the aim is to keep iTeX as close as possible to standard LaTe
 
 * Two-character relations.  In LaTeX, two neighbouring relation symbols are combined into one relation symbol.  Thus `$y := f(x)$` becomes $y \mathrel{:=} f(x)$, while `$y = -f(x)$` becomes $y = -f(x)$ because a minus sign is a unary operator instead of a binary relation.  Since MathML doesn\'t know the difference between unary operators and binary relations, it is inconvenient for iTeX to do this, so `$y := f(x)$` comes out as $y := f(x)$ instead.  The __safe__ syntax is `$y \mathrel{:=} f(x)$`, which produces $y \mathrel{:=} f(x)$.  However, in many cases, there is a combined command that you can use.  In this case, `$y \coloneqq f(x)$` produces $y \coloneqq f(x)$.  This method is better when [available](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html); even in LaTeX, it will adjust the vertical positioning a bit to look nice.
 
+* Non-ascii characters.  iTeX is designed only to parse the mathematical sections of any page and so it assumes that any strange characters will be generated via iTeX commands such as `\infty` instead of being directly input as ?.  iTeX actually takes an extreme view on this and will not parse mathematics if it includes non-ascii characters.  In ordinary mathematics this should not be a problem since one should use the iTeX commands themselves to produce such characters.  Where it can be a problem is in `\text` commands embedded in mathematics because these are **still** parsed by iTeX even though it does nothing with them.  Thus `\text{?}` is not a legal construct and will simply produce $\text{?}$.  Since iTeX does not allow nesting, the construction `\text{$\infty$}` will not work.  There are two possibilities:
+   1. Break the `\text` command: `\text{in~}\infty{-categories}` produces $\text{in}\;\infty{-categories}$ (note the forced space, simple whitespace there will not work).
+   2. Use **numbered** entities: `\text{in ∞-categories` produces $\text{in ∞-categories}$.  Named entities will not work here as they get converted to unicode internally before being sent to the iTeX parser.
+
 ## HTML, XML, etc.
 
 ### How do I get accented characters?
@@ -79,10 +83,10 @@ You can use HTML/XML/SGML [character entity references](http://www.w3schools.com
   1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
   1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
 
-* __NB.__  Depending on your font settings, the less ordinary symbols may look better if you enclose them in a TeX + \text wrapper.  Cf and Contrast:
+* __NB.__  Depending on your font settings, the less ordinary symbols may look better if you use "iTeX + \text + numerical entity".  Compare and contrast:
   1. direct : `&#8472;` or <code>&amp;weierp;</code> or `&#x2118;` &rarr; '&#8472;'
-  1. TeX : <code>$&amp;weierp;$</code> or `$&#x2118;$` (but not `$&#8472;$`) &rarr; '$&#x2118;$'
-  1. TeX + \text : `$\text{&#8472;}$` or <code>$\text{&amp;weierp;}$</code> or `$\text{&#x2118;}$` &rarr; '$\text{&#8472;}$'
+  1. iTeX : `$&#x2118;$` (but not `$&#8472;$` or <code>$&amp;weierp;$</code>) &rarr; '$&#x2118;$'
+  1. iTeX + \text + numerical entity: `$\text{&#x2118;}$` &rarr; '$\text{&#x2118;}$'
 
 ## _n_-Lab Specifics
 
@@ -108,5 +112,17 @@ If about something mathematical then try to convince [[John Baez|John]], [[Urs S
 
 Some users have personal areas of the _n_-Lab where they can have password protected pages and do work without fitting it into the rest of _n_-Lab.  If you would like to have such an area, ask the [[nlabmeta:steering committee|steering committee]].
 
+### I got "Access denied" when editing a page.
+
+The _n_-Lab has a spam filter that checks your IP against a blacklist.  The blacklists used are maintained by [spamcop.net](http://www.spamcop.net/) and [spamhaus.org](http://www.spamhaus.org/).  IPs are added to these lists if they are detected doing things usually associated with computers infected with viruses.  There are instructions on the webpages for finding out if your IP has been added to these lists and what to do to remove your IP from them.  Three things to point our are:
+   1. The _n_-Lab cannot remove your IP from the list, you have to do that yourself.
+   2. The _n_-Lab is not going to remove its spam protection.
+   3. If you got your IP dynamically (e.g. using some wireless providers) it is entirely possible that it is not your computer that was behaving badly but a previous one using the same IP.  A quick workaround is to disconnect from the network and try reconnecting (sometimes you have to wait a bit before reconnecting to get a new IP).  Of course, you should ensure that your virus software is up to date.
+
+### I got "Internal application error" when doing something.
+
+Sometimes something doesn't work quite right with the software and it bails out.  If you think that you were doing something that should work, please log the error message at the [n-Forum](http://www.math.ntnu.no/~stacey/nForum).  The more information that you log, the easier it is for us to debug.  Useful information is: your IP, the time and date, and the URL that you were trying to access.
+
+There is actually more information contained in the HTML source of the error message ("view source"): some errors can be down to malformed input when editing a page and that can help you fix it yourself.
 
 category:meta
