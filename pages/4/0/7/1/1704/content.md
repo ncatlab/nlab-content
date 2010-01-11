@@ -68,7 +68,7 @@ of ${*} \to \mathbf{B}G$.
 
 ## $G$-principal $\infty$-bundles ##
 
-By the general reasoning discussed at [[cohomology]], a cocycle for nonabelian $G$-cohomology on $X \in \mathbf{H}$ is just a morphism $g : X \to \mathbf{B}G$ in $\mathbf{H}$. 
+By the general reasoning discussed at [[cohomology]], a [[cocycle]] for $G$-[[nonabelian cohomology]] on $X \in \mathbf{H}$ is just a morphism $g : X \to \mathbf{B}G$ in $\mathbf{H}$. 
 
 To this is canonically associated its [[homotopy fiber]]
 
