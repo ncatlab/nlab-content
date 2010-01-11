@@ -6,6 +6,8 @@
 
 The _Karoubi envelope_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].  It is the [[Set]]-enriched version of [[Cauchy completion]].
 
+A category in which all idempotents split is called *Karoubi complete* or *Cauchy complete* or *idempotent-complete*.  Thus, the Karoubi envelope is a [[completion]] operation into such categories.
+
 ## Definition ## 
 
 Let $C$ be a [[category]]. We give an elementary construction of the __Karoubi envelope__ $\bar{C}$ which formally splits [[idempotents]] in $C$. 
@@ -62,3 +64,8 @@ The Karoubi envelope for the additive case (see also [[additive envelope]]) is c
 
 * Dror Bar-Natan, Scott Morrison, _The Karoubi envelope and Lee's degeneration of Khovanov homology_ ([arXiv](http://arxiv.org/abs/math/0606542))
 
+
+[[!redirects Karoubi completion]]
+[[!redirects Karoubi complete category]]
+[[!redirects idempotent-complete category]]
+[[!redirects idempotent complete category]]
