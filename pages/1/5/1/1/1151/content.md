@@ -76,7 +76,7 @@ Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\m
 
 More precisely:
 
-* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **cocycles** on $X$ with values in $A$;
+* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **[[cocycle]]s** on $X$ with coefficients in $A$;
 
 * the [[k-morphisms]] in $\mathbf{H}(X,A)$ for $k \gt 0$ are the **coboundaries**;
 
