@@ -6,6 +6,8 @@ Pavol &#352;evera is a mathematical physicist from Bratislava.
 
 * [[n-symplectic manifold]]
 
+  * [[Courant algebroid]]
+
 * [[Lie infinity-algebroid]]
 
 category: people
