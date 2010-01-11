@@ -5,7 +5,7 @@
 
 ## Idea ##
 
-A __dual number__ is given by an expression of the form $a + \epsilon b$, where $a$ and $b$ are [[real numbers]] and $\epsilon^2 = 0$ (but $\epsilon \ne 0$).  The set of dual numbers is a [[topological vector space]] and a [[commutative algebra]] over the real numbers
+A __dual number__ is given by an expression of the form $a + \epsilon b$, where $a$ and $b$ are [[real numbers]] in $\mathbb{R}$ or more generally elements in any [[ring]] -- and $\epsilon^2 = 0$ (but $\epsilon \ne 0$).  The set of dual numbers is a [[topological vector space]] and a [[commutative algebra]] over the real numbers.
 
 
 ## Interpretations ##
@@ -20,6 +20,7 @@ This can be thought of as:
 *  the parabolic $2$-dimensional algebra of [[hypercomplex number]]s;
 *  the algebra of functions on the [[infinitesimal object|infinitesimal interval]] in [[synthetic differential geometry]].
 * if $\epsilon$ is regarded as being of degree 1 and $\mathbb{R} \oplus \epsilon \mathbb{R}$ is regarded accordingly as a [[superalgebra]] then this is the algebra of functions on the [[odd line]] $\mathbb{R}^{0|1}$.
+* the square-0-extension corresponding to the $\mathbb{R}$-[[module]] (see there) given by $\mathbb{R}$ itself.
 
 We think of $\mathbb{R}$ as a [[subset]] of $\mathbb{D}$ by identifying $a$ with $a + 0 \epsilon$.
 
