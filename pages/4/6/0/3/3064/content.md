@@ -10,7 +10,7 @@
 
 ## Idea
 
-Nonabelian groupoid cohomology is the [[nonabelian cohomology]] of [[groupoid]]s. 
+Nonabelian [[groupoid cohomology]] is the [[nonabelian cohomology]] of [[groupoid]]s. 
 
 This generalizes [[nonabelian group cohomology]], which is the special case of nonabelian group cohomology for [[groupoid]]s that are [[delooping]]s $\mathbf{B}G$ of groups $G$.
 
