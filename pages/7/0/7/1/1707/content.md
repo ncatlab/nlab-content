@@ -10,7 +10,7 @@
 
 As described at [[cohomology]], a notion of [[cohomology]] exists for every [[(infinity,1)-topos]] $\mathbf{H}$: for $X$ and $A$ two objects of $\mathbf{H}$, 
 
-* an $A$-valued cocycle on $X$ is an object in the [[∞-groupoid]] $\mathbf{H}(X,A)$;
+* an $A$-valued [[cocycle]] on $X$ is an object in the [[∞-groupoid]] $\mathbf{H}(X,A)$;
 
 * a coboundary between two such cocycles is a morphism in $\mathbf{H}(X,A)$
 
