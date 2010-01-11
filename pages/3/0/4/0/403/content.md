@@ -1,4 +1,8 @@
-#Internal Categories and Groupoids#
+#Contents#
+* automatic table of contents
+{:toc}
+
+## Idea
 
 The notion of a [[category]] can be formulated [[internalization|internal]] to any other category with enough [[pullback|pullbacks]]. By regarding [[group|groups]] as one-object [[groupoid|groupoids]], this generalizes the familiar way in which, for instance
 
@@ -8,7 +12,7 @@ The notion of a [[category]] can be formulated [[internalization|internal]] to a
 
 There is a more general notion of an [[internal category in a monoidal category]], where the pullbacks are replaced by cotensor products.
 
-#Definition#
+##Definition
 
 Let $A$ be any category. A **category internal to $A$** consists of 
 
@@ -124,25 +128,21 @@ A [[groupoid]] internal to $A$ is all of the above
      }
    $$
 
-+--{: .query}
-I think things are mutliply inconsistent in this entry.
-I do not want to change as I do not know what the intentional notation to start with was. If $p_1; s = p_2; t$ that mean that target is read at the left-hand side (composition as o, not as ;), while the diagrams before that suggest left to right composition. Then finally the diagram for groupoids has $s$ both for source and inverse, and there is only for right inverse, and one should also check convention, once it is decided above.-Zoran
-
-You\'re right; I think that I caught all of the inconsistencies now.  Incidentally, one needs only inverses on one side (as long as *all* such inverses exist), although it\'s probably best to put both in the definition.  (For groupoids, one also needs only identities on that same side too!  [This proof](http://en.wikipedia.org/wiki/Elementary_group_theory#Alternative_Axioms) generalises.)  ---Toby
-=--
 
 
-#Terminology#
+##Terminology
 
  * $C_0$ is the "object of objects"; $C_1$ is the "object of morphisms", for instance for $A = Top$ $C_0$ is the "space of objects" and $C_1$ the "space of morphisms".
 
-#Example: Small categories#
+## Examples
+
+### Small categories
 
 A [[small category]] is a category internal to [[Set]].
 
 In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is Cartesian product.
 
-#Further Examples#
+### Further Examples
 
 * A small [[cocategory]] is a category internal to $Set^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
@@ -151,11 +151,12 @@ In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the 
 * A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
 * Historically, the motivating example was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
 
-#Functors#
+## Functors
 
 Functors between internal categories are defined in a similar fashion. See [[functor]].  But if the ambient category does not satisfy the [[axiom of choice]] it is often better to use [[anafunctor|anafunctors]] instead.
 
-#Internal nerve#
+## Internal nerve
+
 The idea of the nerve of a small category can be generalised to give an *internal nerve* construction. Recall (from [[nerve]]), the basic idea is that, for a small category, $D$, its nerve, $N(D)$, is a simplicial set whose set of $n$-simplices is the set of sequences of composable morphisms of length $n$ in $D$. This set can be given by a (multiple) pullback of copies of $D_1$.  That description will carry across to give a nerve construction for an internal category.  
 
 If $C$ is an internal category in some category $A$, (which thus has, at least, the pullbacks required for the constructions to make sense),its nerve $N(C)$ (or if more precision is needed $N_{int}(C)$, or similar) is the [[simplicial object]] in $A$ with 
@@ -169,11 +170,19 @@ and so on.  Face and degeneracy morphisms are induced from the structural moprhi
 
 Internal functors between internal categories induce simplicial morphisms between the corresponding nerves.
 
-###Example###
+###Example
 A 2-group is an internal category in [[Grp]] and so has an internal nerve, which is a simplicial object in [[Grp]], that is  a [[simplicial group]].  If the 2-group corresponds to a [[crossed module]],$(C\stackrel{\delta}{\to}P)$, then the simplicial group nerve of $(C\stackrel{\delta}{\to}P)$ has [[Moore complex]] having $P$ in dimension 0, and $C$ in dimension 1, with the trivial group in all other dimensions. The only possible non-trivial boundary map from dimension 1 to dimension 0 is then the boundary $\delta$ of the crossed module. 
 
+## Higher internal category
 
-#Literature#
+One can also look at this in [[higher category theory]] and consider internal [[n-category|n-categories]]. See
+
+* [[internal infinity-groupoid]].
+
+
+
+
+## Literature
 
 [...]
 
@@ -183,7 +192,19 @@ Baez & Crans, _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/
 
 [...]
 
-#Discussion#
+## Discussion
+
+Previous versions of this entry led to the following discussions
+
++--{: .query}
+I think things are mutliply inconsistent in this entry.
+I do not want to change as I do not know what the intentional notation to start with was. If $p_1; s = p_2; t$ that mean that target is read at the left-hand side (composition as o, not as ;), while the diagrams before that suggest left to right composition. Then finally the diagram for groupoids has $s$ both for source and inverse, and there is only for right inverse, and one should also check convention, once it is decided above.-Zoran
+
+You\'re right; I think that I caught all of the inconsistencies now.  Incidentally, one needs only inverses on one side (as long as *all* such inverses exist), although it\'s probably best to put both in the definition.  (For groupoids, one also needs only identities on that same side too!  [This proof](http://en.wikipedia.org/wiki/Elementary_group_theory#Alternative_Axioms) generalises.)  ---Toby
+=--
+
+
++--{: .query}
 
 Question: I've looked at the definition of category in $A$ for a while and still haven't been able to absorb it. Could we walk through an explicit example, e.g. "This is exactly what $C_0$ is, this is exactly what $C_1$ is, this is exactly what $s,t,i$ are, and this is how it relates to the more familiar context"? For example, an [[algebra]] is a monoid in $Vect$. I'll try to step through it myself, but it will probably need some correcting. - [[Eric Forgy|Eric]]
 
@@ -200,6 +221,7 @@ _[[Eric Forgy|Eric]]_: Ok. Duh. It is pretty obvious for Set EXCEPT for pullback
 _[[Tim Porter|Tim]]_: If I remember rightly the important case is when trying to work on 'smooth categories', that is, general internal categories in a category of smooth manifolds.  Unless you take care with the source and target maps, the pullback giving the space of composible pairs of arrows may not be a manifold. (I remember something like this being the case in Pradines work in the area.) The point is then that one works with internal categories with extra conditions on $s$ and $t$ to ensure the pullback is there when you need it.
 
 _[[Toby Bartels|Toby]]_: Usually in the theory of Lie groupoids, they require $s$ and $t$ to be submersions, which guarantees that the pullback of *any* map along them exists.
+=--
 
 
 [[!redirects internal groupoid]]
