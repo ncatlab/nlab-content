@@ -1,18 +1,22 @@
 #Idea#
 
-[[triangulated category|Triangulated categories]] arise as [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[stable (infinity,1)-category|stable (infinity,1)-categories]].
+[[triangulated category|Triangulated categories]] are a bit rough sort of a localization, and lack some naturally expected properties, for example the functoriality of the cones. Therefore, it has been a wish since 1960s to replace or repair them with a more coherent structure. 
+
+Good candidates at present are $A_\infty$-categories, $dg$-categories and stable $(\infty,1)$-categories. In practice the triangulated categories are still used to an extent so one likes to have both the full structure and the underlying truncation which exists as a triangulated category in all three cases. 
+
+It is known that all 3 approaches give the same result over a field of characteristics zero. The dg-enhancement is most documented and studied in genuine applications so far and is the first historically understood. 
+
+Triangulated categories may arise as [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[stable (infinity,1)-category|stable (infinity,1)-categories]]. 
 
 An _enhancement_ of a triangulated category to a
-([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] is a way to retain the information in the [[stable (infinity,1)-category]].
-
-So enhanced triangulated categories are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(infinity,1)-categories]].
+([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] may be, in characteristics zero, considered as a way to retain the information in the [[stable (infinity,1)-category]]. Therefore in that case, the enhanced triangulated categories are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(infinity,1)-categories]].
 
 
 #Details#
 
 It is well-known that the concept of a [[triangulated category]] is suffering many deficiencies for the purposes of [[homological algebra]], geometry and topology; and even categorical properties like the non-functoriality of the cones.  For that reason, Bondal and Kapranov in
 
-*  A. I. Bondal, M. M. Kapranov, Enhanced triangulated categories, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
+*  A. I. Bondal, M. M. Kapranov, &#1054;&#1089;&#1085;&#1072;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1090;&#1088;&#1080;&#1072;&#1085;&#1075;&#1091;&#1083;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1077; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1080;, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=sm&paperid=1196&what=fullt&option_lang=rus) (Russian); Engl. transl. _Enhanced triangulated categories_, USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
 
 introduce a notion of dg-enhancement of a triangulated category. 
 
