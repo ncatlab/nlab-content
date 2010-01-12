@@ -79,7 +79,7 @@ In this model of nonstandard analysis a version of the transfer principle (in te
 
 There is a realization of aspects of nonstandard analysis in some models of [[synthetic differential geometry]]. The basic mechanism is indicated at [[smooth natural numbers]]:
 
-in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized element]]s $\rho \in R$ defined on the "domain of definition" $\mazthbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
+in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized element]]s $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
 
 Very roughly, this is the mechanism by which aspects of nonstandard analysis are realized in such [[topos]]es. For details see chapter 6 of
 
