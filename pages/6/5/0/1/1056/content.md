@@ -23,19 +23,19 @@ This is remarkable, in that it says that every [[homotopy n-type|homotopy type]]
 In fact, every cofibrant object in this structure is a [[poset]]. Since every object in a model category is weakly equivalent to a cofibrant one, this means that even the [[nerve]]s of just posets are sufficient to model all homotopy types.
 
 
-This is a rather curious aspect of the Thomas model on [[Cat]]: it does not really have anything intrisically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. It particular, it does not see the [[equivalence of categories|equivalences of categories]]. 
+This is a rather curious aspect of the Thomason model on [[Cat]]: it does not really have anything intrisically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. It particular, it does not see the [[equivalence of categories|equivalences of categories]]. 
 There is a _different_ model structure on [[Cat]] in which weak equivalences are the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the [[folk model structure on Cat]].
 
 ## References
 
 The original reference is
 
-* R. W. Thomason, _Cat as a closed model category_ .
-Cahiers Topologie G&#233;om. Diff&#233;rentielle 21 (1980), no. 3, 305--324. MR0591388 (82b:18005) <a href="http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_3_305_0">numdam scan</a>
+* R. W. Thomason, _Cat as a closed model category_,
+Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) <a href="http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_3_305_0">numdam scan</a>
 
 A correction to this article was made in
 
-* [[Denis-Charles Cisinski]], _Les morphisme de Dwyer ne sont pas stables par r&eacute;tractes_ Cahier de topologie et g&eacute;ometrie diff&eacute;rrentielle cat&eacute;goriques (1999).
+* [[Denis-Charles Cisinski]], _Les morphisme de Dwyer ne sont pas stables par r&eacute;tractes_, Cahiers Topologie et G&eacute;om. Diff&eacute;rrentielle Cat&eacute;goriques, **40** no. 3 (1999), pp. 227--231. ([Numdam](http://www.numdam.org/item?id=CTGDC_1999__40_3_227_0))
 
 There it was clarified that every cofibrant object in the Thomason model structure is a [[poset]]. 
 
