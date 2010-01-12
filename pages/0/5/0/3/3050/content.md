@@ -6,11 +6,11 @@
 
 ## Idea
 
-Monadic descent is a way to encode [[descent]] using algebraic tools, notably [[monad]]s and related structures from [[universal algebra]].
+Monadic descent is a way to encode [[descent]] of [[fibered category|fibered categories]] (equivalently, by the [[Grothendieck construction]], of [[pseudofunctor]]s) that have the special property that they are [[bifibration]]s, using algebraic tools, notably [[monad]]s and related structures from [[universal algebra]]:
 
-1-categorical [[descent]] can be formulated in several ways; the most traditional is due [[Alexander Grothendieck|Grothendieck]] via [[Grothendieck fibration|fibered categories]] $E \to B$ or equivalently [[pseudofunctor]]s. 
+a [[bifibration]] $E \to B$ comes naturally equipped not only with a notion of pullback, but also of pushforward. Combined these provide pull-push-[[monad]]s they may be used to encode the [[descent]] property of the fibration.
 
-**Monadic descent** focuses on a situation in which a morphism $f : b_1 \to b_2$ in the base $B$ induces an [[adjunction]] $F\dashv U$ where 
+A morphism $f : b_1 \to b_2$ in the base $B$ induces an [[adjunction]] $F\dashv U$ where 
 
 $$
   F \;:\; E_{b_1} =: A\leftrightarrow B := E_{b_2} \;:\; U
@@ -18,10 +18,15 @@ $$
 
 and we ask whether $U$ is a [[monadic functor]]. 
 
+This is the original description of [[descent]] of presheaves with values in 1-categories due to [[Alexander Grothendieck]].
+
+The archetypical and motivating example is that of the bifibration $Mod \to Ring$ of [[module]]s over [[Ring]]s.
+
+
 
 ## Details {#Details}
 
-The adjunction, $F\dashv U$ with unit $\eta:1_B \to U \circ F$ and counit $\epsilon: F \circ U\to 1_A$, induces the [[monad]] $\mathbf{T}= (T,\mu,\eta)$ in $B$ via $T\coloneqq U F$, $\mu\coloneqq U\epsilon F:U F U F\to U F$ with unit $\eta$. The monad $\mathbf{T}$ generates the [[Eilenberg–Moore category]] $B^{\mathbf{T}}$ of modules (= algebras) over $\mathbf{T}$, that is the pairs $(M,\nu)$ where $M\in Ob(B)$ and $\nu:T M\to M$ satisfies the action axioms $T(\nu)\circ \nu= \nu_T \circ\nu$ and $\nu\circ\eta_M=id_M$. 
+The adjunction, $F\dashv U$ with unit $\eta:1_B \to U \circ F$ and counit $\epsilon: F \circ U\to 1_A$, induces the [[monad]] $\mathbf{T}= (T,\mu,\eta)$ in $B$ via $T\coloneqq U F$, $\mu\coloneqq U\epsilon F:U F U F\to U F$ with unit $\eta$. The monad $\mathbf{T}$ generates the [[Eilenberg?Moore category]] $B^{\mathbf{T}}$ of modules (= algebras) over $\mathbf{T}$, that is the pairs $(M,\nu)$ where $M\in Ob(B)$ and $\nu:T M\to M$ satisfies the action axioms $T(\nu)\circ \nu= \nu_T \circ\nu$ and $\nu\circ\eta_M=id_M$. 
 
 We think of this data as follows:
 
@@ -42,9 +47,9 @@ We say that the functor $U$ is [[monadic functor|monadic]] or more informally th
 
 The main theorem is Beck's [[monadicity theorem]].
 
-Given a Grothendieck [[bifibration]] $p:E\to B$ and a morphism $f:b\to b'$ in the base category $B$, one can choose a [[direct image]] $f_!:E_b\to E_{b'}$ and an [[inverse image]] functor $f^*:E_{b'}\to E_b$, which form an [[adjunction]] $f_!\dashv f^*$. Under some conditions (see the [[Bénabou–Roubaud theorem]]), the morphism $f$ is an effective descent morphism (with respect to $p$ as a [[fibered category]]) iff the comparison functor for the [[monad]] induced by the adjunction $f_!\dashv f^*$ is monadic. 
+Given a Grothendieck [[bifibration]] $p:E\to B$ and a morphism $f:b\to b'$ in the base category $B$, one can choose a [[direct image]] $f_!:E_b\to E_{b'}$ and an [[inverse image]] functor $f^*:E_{b'}\to E_b$, which form an [[adjunction]] $f_!\dashv f^*$. Under some conditions (see the [[Bénabou?Roubaud theorem]]), the morphism $f$ is an effective descent morphism (with respect to $p$ as a [[fibered category]]) iff the comparison functor for the [[monad]] induced by the adjunction $f_!\dashv f^*$ is monadic. 
 
-We should now see that some instances of categories of [[descent]] data are canonically equivalent to and can be reexpressed via [[Eilenberg-Moore category|Eilenberg–Moore categories]] of monads, or dually comonads. 
+We should now see that some instances of categories of [[descent]] data are canonically equivalent to and can be reexpressed via [[Eilenberg-Moore category|Eilenberg?Moore categories]] of monads, or dually comonads. 
 
 
 ## Examples
@@ -83,7 +88,7 @@ On the other hand, as we will see in detail below, if we take a principal bundle
 
 * first push it forward in this generalized sense to an object $P \to Z$ in the [[overcategory]] $Top/Z$
 
-* and **then** pull back the result of that again along $X \to Z$ the result, while still not a principal bundle, is the total space $P$ of the bundle pulled back to the first term in the [[Čech nerve]] of $f : X \to Z$. This pullback is of central interest in the description of the geometric [[descent]] property of the bundle. 
+* and **then** pull back the result of that again along $X \to Z$ the result, while still not a principal bundle, is the total space $P$ of the bundle pulled back to the first term in the [[?ech nerve]] of $f : X \to Z$. This pullback is of central interest in the description of the geometric [[descent]] property of the bundle. 
 
 But the composite operation of pushforward of overcategories
 
@@ -191,7 +196,7 @@ The object $T P \in [I,C]_Y$ is given by
     }
   $$
 
-  which is the first term in the [[Čech nerve]] of $\pi$. So the total pullback is the pullback $P$ to $Y\times_X Y$:
+  which is the first term in the [[?ech nerve]] of $\pi$. So the total pullback is the pullback $P$ to $Y\times_X Y$:
 
   $$
     \array{
@@ -340,4 +345,11 @@ Comonadic descent for this bifibration (equivalently monadic descent for its for
 Another example is in [[zoranskoda:gluing categories from localizations|gluing categories from localizations]]. 
 
 
+## Higher category theoretical version
+
+All the ingredients of monadic descent generalize from [[category theory]] to [[higher category theory]]. Accordingly, one may consider [[higher monadic descent]] that relates to [[∞-stack]]s as monadic descent relates to [[stack]]s. For more on this see
+
+* [[higher monadic descent]].
+
 [[!redirects comonadic descent]]
+
