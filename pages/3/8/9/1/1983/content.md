@@ -30,7 +30,7 @@ The following tabulates various models for [[smooth topos]]es and lists their pr
 +-- {: .un_defn}
 ###### Definition
 
-$\mathcal{Z} := Sh_{fin-open}(\mathbb{L})$ is the [[category of sheaves]] on the [[site]] $\mathbb{L}$ of [[smooth locus|smooth loci]] with [[cover]]ing [[sieve]]s given by finite open covers (...explain...).
+$\mathcal{Z} := Sh_{fin-open}(\mathbb{L})$ is the [[category of sheaves]] on the entire [[site]] $\mathbb{L}$ of [[smooth locus|smooth loci]] with [[cover]]ing [[sieve]]s given by finite open covers (...explain...).
 
 =--
 
@@ -38,7 +38,7 @@ $\mathcal{Z} := Sh_{fin-open}(\mathbb{L})$ is the [[category of sheaves]] on the
 ###### Proposition
 **(properties)**
 
-For the [[topos]] $\mathbb{Z}$ the following is true.
+For the [[topos]] $\mathcal{Z}$ the following is true.
 
 * the [[Grothendieck topology]] is [[subcanonical coverage|subcanonical]]
 
@@ -53,6 +53,34 @@ For the [[topos]] $\mathbb{Z}$ the following is true.
 * the [[integration axiom]] holds
   
   (chapter VI, 1.10)
+
+* it models [[nonstandard analysis]] in that
+
+  * since the topology is subcanonical, in particular the
+    [[smooth locus]] 
+    $\ell(C^\infty(\mathbb{R}-{0})/(f|germ_0(f) = 0))$ 
+    of the ring of restrictions of germs at 0 to $\mathbb{R}-{0}$
+    is an object: the object of **invertible infinitesimals**.
+
+  * due the conditions that covers are finite, 
+    the [[smooth locus]] $N := \ell C^\infty(\mathbb{N})$
+    does not coincide with the [[natural numbers object]]
+    of the topos: this _object of smooth natural numbers_ 
+    contains the standard natural numbers and in addition contains
+    infinitely large numbers.
+
+    In fact the [[natural numbers object]] 
+    (the [[sheafification]] of the [[presheaf]] constant on 
+    $\mathbb{N} \in Set$) is the [[sheaf]]
+    that assigns to the smooth locus 
+    $\ell C^\infty(\mathbb{R}^n)/I$ the locally constant and
+    _bounded_ functions to $\mathbb{N}$ from the zero-sets
+    of finitely generated subideals of $I$, with two such
+    functions taken to be the same if they agree on the 
+    zero-set of a subideal containing both subideals
+
+    (chapter VI, 1.6)
+
 
 =--
 
