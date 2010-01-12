@@ -25,11 +25,13 @@ is discussing a 2-categorical version of Beck-Chevalley condition needed to comp
 
 A comprehensive treatment in the context of [[(∞,1)-category]]-theory,  general theory of [[(∞,1)-monad]]s and their [[monadicity theorem]] is in
 
-* [[Jacob Lurie]], _Noncommutative algebra_, [math.CT/0702299](http://arxiv.org/abs/math/0702299), Section 3.
+* [[Jacob Lurie]], _Derived algebraic geometry II: Noncommutative algebra_, [math.CT/0702299](http://arxiv.org/abs/math/0702299), Section 3.
 
-Unfortunately, [[Maxim Kontsevich|Kontsevich]]'s [[monadicity theorem]] (July 2004) in the setup of [[A-infinity category|A-∞-categories]] is still unpublished. The [[triangulated category|triangulated]] version is in Rosenberg's lectures
+Unfortunately, [[Maxim Kontsevich|Kontsevich]]'s [[monadicity theorem]] (July 2004) which is in the setup of [[A-infinity category|A-∞-categories]], still remains unpublished. The [[triangulated category|triangulated]] version is in Rosenberg's lectures
 
 * [[Alexander Rosenberg|A. L. Rosenberg]], _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3589), page 36-37.
+
+Its proof is based on [[Verdier's abelianization functor]]. 
 
 A proposal for a formulation of monadic descent for [[simplicially enriched category|simplicially enriched categories]] is in
 
