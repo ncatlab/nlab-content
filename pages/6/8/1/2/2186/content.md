@@ -53,7 +53,7 @@ which makes $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$ a [[monotone function]]
 
 * An element $\delta\in{}^*\mathbb{R}$ such that $^* 0\lt\delta$ is called a __positive number__ .  
 
-* An element $\delta$ such that for all positive $r\in \mathbb{R}$ we have  $\delta\lt{}^* r$ is called an __infinitesimal number__. 
+* An element $\delta$ such that for all positive $r\in \mathbb{R}$ we have  $ -{}^* r \lt  \delta\lt{}^* r$ is called an __infinitesimal number__. 
 
 Unlike in the real numbers, positive infinitesimal numbers exist: for example the class $f_F$ where $f:n\mapsto 1/n$ is such and $g_F$ for $g:n\mapsto 1/n^2$ is a different one. 
 
@@ -117,7 +117,7 @@ Very roughly, this is the mechanism by which aspects of nonstandard analysis are
 
 The _generic non-standard natural number_ is the [[generalized element]] of $N$ on the domain of definition $\ell C^\infty(\mathbb{N})/{NullTail}$, where $NullTail$ is the ideal of sequences of real numbers that vanish above some integer, given by the canonical injection $\ell C^\infty(\mathbb{N})/NullTail \to N$ that is dual to the canonical projection of the ring onto its quotient.
 
-The ring $C^\infty(\mathbb{N})/NullTail$ here is a quotient ring of sequences as above, where two sequences are identified if they agree above some integer. So $\ell C^\infty(\mathbb{N})/NullTail$ is the [[smooth locus]] whose function algebra is a nonstandard extension of $\mathbb{R}$.
+The ring $C^\infty(\mathbb{N})/NullTail$ here is a quotient ring of sequences as above, where two sequences are identified if they agree above some integer. So $\ell C^\infty(\mathbb{N})/NullTail$ is the [[smooth locus]] whose function algebra is similar to a nonstandard extension of $\mathbb{R}$.
 
 
 For details see chapter VI of
