@@ -20,13 +20,12 @@ There are also 2-monads that specify [[property-like structure]].  For instance,
 
 # References
 
-* R. Blackwell, G. M. Kelly, and A. J. Power, Two-dimensional monad theory, Jour. Pure Appl. Algebra 59 (1989), 1--41
-* F. Marmolejo, Doctrines whose structure forms a fully faithful adjoint string, Theory and Applications of Categories 3 (1997), 23--44. &lt;http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html>
-* [[Steve Lack|S. Lack]], A coherent approach to pseudomonads, Adv. Math. 152 (2000), 179--202. &lt;http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz>
-* G.M. Kelly and S. Lack, On property-like structures, Theory and Applications of Categories 3 (1997) 213--250.  &lt;http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html>
-* S. Lack, Codescent objects and coherence.  JPAA 175 (2002), 223--241.
-
-
+* R. Blackwell, G. M. Kelly, and A. J. Power, _Two-dimensional monad theory_, Jour. Pure Appl. Algebra 59 (1989), 1--41
+* F. Marmolejo, _Doctrines whose structure forms a fully faithful adjoint string_, Theory and Applications of Categories 3 (1997), 23--44. &lt;http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html>
+* [[Steve Lack|S. Lack]], _A coherent approach to pseudomonads_, Adv. Math. 152 (2000), 179--202. &lt;http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz>
+* G.M. Kelly and S. Lack, _On property-like structures_, Theory and Applications of Categories 3 (1997) 213--250.  &lt;http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html>
+* S. Lack, _Codescent objects and coherence_, JPAA 175 (2002), 223--241.
+* I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra 173 (2002), no. 3, 293--313. 
 [[!redirects strict 2-monad]]
 [[!redirects weak 2-monad]]
 [[!redirects pseudo monad]]
