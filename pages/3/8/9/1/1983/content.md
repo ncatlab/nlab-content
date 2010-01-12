@@ -114,9 +114,24 @@ For the [[topos]] $\mathcal{Z}$ the following is true.
 
   * since the topology is subcanonical, in particular the
     [[smooth locus]] 
-    $\ell(C^\infty(\mathbb{R}-{0})/(f|germ_0(f) = 0))$ 
-    of the ring of restrictions of germs at 0 to $\mathbb{R}-{0}$
+    $\mathbb{I} := \ell(C^\infty(\mathbb{R}-{0})/(f|germ_0(f) 
+      = 0))
+    $ 
+    of the ring of restrictions of [[germ]]s of functions 
+    at 0 to $\mathbb{R}-{0}$
     is an object: the object of **invertible infinitesimals**.
+
+    However, even though this object exists, in the 
+    [[intuitionistic logic|intuitionistic]] 
+    [[internal logic]] of the topos one cannot prove that there
+    are any infinitesimal _elements_ : all one can prove is
+    that it is false that there are no elements: 
+    $\not \not \exists x : x \in \mathbb{I}$. 
+
+    (chapter VI, section 1.8)
+
+    This changes when one refines to the topos $\mathcal{B}$,
+    discussed below (section VI.5).
 
   * due the conditions that covers are finite, 
     the [[smooth locus]] $N := \ell C^\infty(\mathbb{N})$
@@ -145,13 +160,24 @@ For the [[topos]] $\mathcal{Z}$ the following is true.
 
 ## the topos $\mathcal{B}$ ##
 
+The [[smooth topos]] $\mathcal{B}$ may be motivated as a slight
+refinement of the topos $\mathcal{Z}$ designed such that in the [[internal logic]] of $\mathcal{B}$ it does become true that for $\mathbb{I}$ the object of invertible infinitesimals, we have $\exists x : x \in \mathbb{I}$, internally.
 
 +-- {: .un_defn}
 ###### Definition
 **(chapter VI, 5.1)**
 
-$\mathcal{B} := Sh_{fin-open/proj}(\mathbb{L})$ is the [[category of sheaves]] on the [[site]] $\mathbb{L}$ of [[smooth locus|smooth loci]] with [[cover]]ing [[sieve]]s given by finite open covers together with projections $\ell A \times \ell B \to \ell A$.
+$\mathcal{B} := Sh_{fin-open/proj}(\mathbb{L})$ is the [[category of sheaves]] on the [[site]] $\mathbb{L}$ of [[smooth locus|smooth loci]] with [[cover]]ing [[sieve]]s given by 
+
+* finite open covers as above for $\mathbb{Z}$
+
+* and in addition letting projections $\ell A \times \ell B \to \ell A$ out of [[product]]s in $\mathbb{L}$ (for $B \neq 0 $ if $A \neq 0$) be singleton covers.
+
+
 =--
+
+(This is not a [[Grothendieck topology]], as it is not closed under composition, but still a [[coverage]].)
+
 
 +-- {: .um_prop}
 ###### Proposition
