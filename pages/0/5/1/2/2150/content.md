@@ -12,4 +12,6 @@ According to Voisin:
 :A fine sheaf $\mathcal{F}$ over $X$ is a sheaf of $\mathcal{A}$-modules, where $\mathcal{A}$ is a sheaf of rings such that, for every open cover $U_i$ of $X$, there is a partition of unity $1 = \sum f_i$ (where the sum is locally finite) subordinate to this covering.
 
 A technical point: I infer from context that, for Voisin, being subordinate to $U_i$ means that, for each $U_i$, there is an open set $V_i$ such that $X = U_i \cup V_i$ and $f|_{V_i}=0$. This is slightly stronger than requiring that $f|_{X \setminus U_i} =0$. When working on a regular (T3) space, I believe that, if partitions of unity exist in the weaker sense, than they also exist in the stronger sense.
+
+Zoran: paracompact Hausdorff space is automatically normal (Dieudonne's theorem) so *a fortiori* $T_3$. A partition of unity subordinate to the covering means as usual that for each $i$ there is $j$ such that $supp f_i \subset U_j$. Thanks for the other correction. 
 =--
