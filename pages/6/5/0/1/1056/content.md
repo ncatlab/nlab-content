@@ -15,7 +15,9 @@ It turns out the Thomason model structure on [[Cat]] is [[Quillen equivalence|Qu
 
 This is remarkable, in that it says that every [[homotopy n-type|homotopy type]], i. e. every weak equivalence class of $\infty$-groupoids, is obtained by $\infty$-groupoidifying just categories.
 
-In fact, Thomason claimed that cofibrant objects in his structure are [[poset]]s, which would mean that even just posets are already sufficient to model all homotopy types via Kan fibrant replacement of their nerves. However, apparently somebody observed some problem with Thomasson's original claim to this effect. [[Urs Schreiber|I]] am not sure what the status of the claim is.
+In fact, Thomason claimed that cofibrant objects in his structure are [[poset]]s, which would mean that even just posets are already sufficient to model all homotopy types via Kan fibrant replacement of their nerves. 
+
+> However, apparently somebody observed some problem with Thomason's original claim to this effect. [[Urs Schreiber|I]] am not sure what the status of the claim is.
 
 There is also a model structure on [[Cat]] in which weak equivalences are the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from). This is called the [[folk model structure on Cat]].
 
