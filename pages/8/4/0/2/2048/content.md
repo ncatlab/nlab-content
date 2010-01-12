@@ -67,9 +67,9 @@ A theorem of Serre says that the category of coherent sheaves over a projective 
 
 * H. Grauert, R. Reinhold, _Coherent analytic sheaves_, Grundlehren der Math. Wissenschaften __265__, Springer 1984. xviii+249 pp.
 
-* M. M. [[Kapranov]], _On the derived categories of coherent sheaves on some homogeneous spaces_,  Invent. Math.  92  (1988),  no. 3, 479--508, [doi](http://mathscinet.mpim-bonn.mpg.de/leavingmsn?url=http://dx.doi.org/10.1007/BF01393744). 
+* M. M. [[Kapranov]], _On the derived categories of coherent sheaves on some homogeneous spaces_,  Invent. Math.  92  (1988),  no. 3, 479--508, [doi](http://dx.doi.org/10.1007/BF01393744). 
 
-* D. O. Orlov, _Derived categories of coherent sheaves and equivalences between them_ (Russian)  Uspekhi Mat. Nauk  58  (2003),  no. 3(351), 89--172;  transl. in  Russian Math. Surveys  58  (2003),  no. 3, 511--591 
+* D. O. Orlov, _&#1055;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1085;&#1099;&#1077; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1080; &#1082;&#1086;&#1075;&#1077;&#1088;&#1077;&#1085;&#1090;&#1085;&#1099;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1101;&#1082;&#1074;&#1080;&#1074;&#1072;&#1083;&#1077;&#1085;&#1090;&#1085;&#1086;&#1089;&#1090;&#1080; &#1084;&#1077;&#1078;&#1076;&#1091; &#1085;&#1080;&#1084;&#1080;_ ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=629&what=fullt&option_lang=rus), Russian)  Uspekhi Mat. Nauk  58  (2003),  no. 3(351), 89--172;  Engl. transl. _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys  58  (2003),  no. 3, 511--591.
 
 * V. D. Golovin, _Homology of analytic sheaves and duality theorems_, Contemporary Soviet Mathematics (1989) viii+210 pp. transl. from Russian original &#1043;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1090;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1076;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074;&#1077;&#1085;&#1086;&#1089;&#1090;&#1080;, Moskva, Nauka 1986. (192 pp.)
 
