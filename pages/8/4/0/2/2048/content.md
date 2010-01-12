@@ -36,17 +36,17 @@ A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
 
   with $p$ and $n$ finite. 
 
-Every finitely presented $\mathcal{O}$-module is finitely generated. 
+  Every finitely presented $\mathcal{O}$-module is finitely generated. 
 
 * __[[quasicoherent sheaf|quasi coherent]]__ if it is _locally_   -- on a cover $\{U_i\}$ -- _presentable_, i.e. for each $i$ there is an [[exact sequence]]s
 
   $$
     \mathcal{O}^{I_i}|_{U_i} \to \mathcal{O}^{J_i}|_{U_i}
     \to \mathcal{E}|_{U_i}
-    \to 0
+    \to 0\,,
   $$
 
-where $I_i$ and $J_i$ may be infinite, i.e. of $\mathcal{E}$ is locally the [[cokernel]] of [[free module]]s. For more see [[quasicoherent sheaf]].
+  where $I_i$ and $J_i$ may be infinite, i.e. of $\mathcal{E}$ is locally the [[cokernel]] of [[free module]]s. For more see [[quasicoherent sheaf]].
 
 ## Properties
 
