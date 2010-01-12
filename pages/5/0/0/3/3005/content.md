@@ -27,7 +27,7 @@ where a parallel pair $f,g : a \rightarrow b$ is __reflexive__ if $f$ and $g$ ha
 
 ## In $(\infty,1)$-categories
 
-There is a version of the monadicity theorem for [[(∞,1)-category|(∞,1)-categories]] in [section 3.4](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=107) of
+There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 3.4](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=107) of
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
@@ -36,6 +36,7 @@ There is a version of the monadicity theorem for [[(∞,1)-category|(∞,1)-cate
 The monadicity theorem plays a central role in [[monadic descent]].
 
 
+[[!redirects Barr-Beck theorem]]
 [[!redirects Beck's monadicity theorem]]
 [[!redirects Beck's monadicity theorem]]
 [[!redirects Beck's theorem]]
