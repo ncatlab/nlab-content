@@ -2,24 +2,43 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated; moreover not only the field of [[real number]]s, but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]). 
 
 See also [[nonstandard analysis in topology]].
 
 
-##Motivation##
+## Motivation
 
 At its beginning, infinitesimal calculus was developed nonrigorously, though many interesting arguments and formal manipulations were found. Cauchy and Weierstra&#223; introduced the $\epsilon$-$\delta$ approach, which enabled modern rigorous [[analysis]], but sometimes this method is cumbersome. For example, sometimes one needs to work with several infinitesimal levels or kinds of continuity in the same problem, and finding estimates may be very cumbersome. One would like to introduce infinitesimal quantities as additional elements of the sets of usual ('standard') quantities. Several related rigorous frameworks appeared under the name of __nonstandard analysis__, since the first such discovered by Abraham Robinson. Most often, approaches using [[ultrafilters]], certain classes called [[internal set]]s and using [[topos theory]] enable the foundation of nonstandard analysis. Many properties and theorems from ordinary mathematics imply new statements of nonstandard analysis; the mechanism is the so-called __transfer principle__, which can be required axiomatically without respect to a particular model of nonstandard analysis. 
 
 
-##An approach via ultrafilters##
+## Models
+
+### An approach via ultrafilters
 
 Assuming the [[axiom of choice]] (whose full strength is not necessary), there exists a free (= not containing finite subsets) [[ultrafilter]] $F$ on the set of [[natural numbers]] $\mathbb{N}=\{1,2,3,\ldots\}$, and such ultrafilters are in $1$--$1$ correspondence with finitely additive [[measure]]s on $\mathbb{N}$ (using the [[power set|algebra of all subsets]]) taking values in the two element set $\{0,1\}$.
 
 
-Fix a free ultrafilter on $\mathbb{N}$, and consider the set of all [[sequences]] of real numbers, $\mathbb{R}^{\mathbb{N}}$. We write $f\sim_F g$ if the set $\{i\in\mathbb{N}|f(i)=g(i)\}$ belongs to $F$; these are precisely the sequences which are equal almost everywhere with respect to the associated measure. The relation $\sim_F$ is an [[equivalence relation] and ${}^*\mathbb{R} := \mathbb{R}^{\mathbb{N}}/{\sim_F}$ is a __nonstandard extension__ of $\mathbb{R}$, whose elements are sometimes called **hyperreal numbers**. This is a special case of the [[ultraproduct]] construction in [[model theory]]. Given $f\in \mathbb{R}^{\mathbb{N}}$, we write $f_F$ for its equivalence class in ${}^*\mathbb{R}$. In particular, given any real number $r\in \mathbb{R}$ the image $^* r :=(i\mapsto r)_F$ of the constant sequence $(r,r,r,\ldots)$ is an element in $^*\mathbb{R}$ and this gives an [[injection]] $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$. 
+Fix a free ultrafilter $F$ on $\mathbb{N}$, and consider the set of all [[sequences]] of real numbers, $\mathbb{R}^{\mathbb{N}}$. So an element in here is a sequence
+
+$$
+  a = (a_0, a_1, a_2, \cdots)
+$$
+
+of real numbers.
+
+We write $f\sim_F g$ if the set $\{i\in\mathbb{N}|f(i)=g(i)\}$ belongs to $F$; these are precisely the sequences which are equal almost everywhere with respect to the associated measure. The relation $\sim_F$ is an [[equivalence relation] and ${}^*\mathbb{R} := \mathbb{R}^{\mathbb{N}}/{\sim_F}$ is a __nonstandard extension__ of $\mathbb{R}$, whose elements are sometimes called **hyperreal numbers**. 
+
+This is a special case of the [[ultraproduct]] construction in [[model theory]]. Given $f\in \mathbb{R}^{\mathbb{N}}$, we write $f_F$ for its equivalence class in ${}^*\mathbb{R}$. In particular, given any real number $r\in \mathbb{R}$ the image $^* r :=(i\mapsto r)_F$ of the constant sequence 
+
+$$
+  r = (r,r,r, \cdots )
+  \,.
+$$
+
+is an element in $^*\mathbb{R}$ and this gives an [[injection]] $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$. 
 
 
 $^*\mathbb{R}$ is equipped with a linear ordering given by
@@ -56,6 +75,19 @@ a subset $E\subset\mathbb{R}$ is open iff $\mu(r)\subset{}^*E$ for all $r\in E$;
 
 In this model of nonstandard analysis a version of the transfer principle (in terms of certain formal language $L(\mathbb{R})$) is established as a corollary of a general theorem on ultraproducts due Jerzy &#321;o&#347;.  
 
+### Topos-theoretic models {#ToposModels}
+
+There is a realization of aspects of nonstandard analysis in some models of [[synthetic differential geometry]]. The basic mechanism is indicated at [[smooth natural numbers]]:
+
+in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized element]]s $\rho \in R$ defined on the "domain of definition" $\mazthbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
+
+Very roughly, this is the mechanism by which aspects of nonstandard analysis are realized in such [[topos]]es. For details see chapter 6 of
+
+* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
+
+
+
+
 #References#
 
 * Sergio Albeverio, Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Academic Press 1986 (there is also a Dover 2009 edition and a 1990 Russian translation)
@@ -64,6 +96,3 @@ In this model of nonstandard analysis a version of the transfer principle (in te
 
 * Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analy), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduc), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson)
 
-There is a realizatiion of aspects of nonstandard analysis in some models of [[synthetic differential geometry]]. See chapter 6 of
-
-* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
