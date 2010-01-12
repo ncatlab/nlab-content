@@ -223,7 +223,7 @@ This is a timeline of category theory and related mathematics.  For discussion a
 |1989| |Hans Baues| |Influential book: [[Algebraic homotopy]]|
 |1989| |[[Michael Makkai]]-Robert Par&#233;| |[[Accessible category|Accessible categories]]: Categories with a "good" set of [[Generator_(category_theory)|generators]] allowing to manipulate [[large category|large categories]] as if they were [[small category|small categories]], without the fear of encountering any set-theoretic paradoxes. [[locally presentable category|Locally presentable categories]] are complete accessible categories. Accessible categories are the categories of models of [[Sketch (category theory)|sketches]]. The name comes from that these categories are accessible as models of sketches|
 |1989| |[[Edward Witten]]| |[[Witten functional integral]] formalism and [[Witten invariant]]s for manifolds|
-|1990| | Alexei Bondal-Mikhail Kapranov| |[[enhanced triangulated categories|Enhanced triangulated categories]]|
+|1990| | Alexei Bondal-[[Mikhail Kapranov]]| |[[enhanced triangulated categories|Enhanced triangulated categories]]|
 |1990| |[[Peter Freyd]]| |[[Allegory (category theory)|Allegories (category theory)]]: An abstraction of the [[category of sets and relations]] as morphisms, it bears the same resemblance to binary relations as categories do to functions and sets. It is a category in which one has in addition to composition a unary operation reciprocation R&#176; and a partial binary operation intersection R &#8745; S, like in the category of sets with relations as morphisms (instead of functions) for which a number of axioms are required. It generalizes the [[relation algebra]] to relations between different sorts.|
 |1990| |[[Nicolai Reshetikhin]]-[[Vladimir Turaev]]-[[Edward Witten]]| |[[Reshetikhin-Turaev-Witten invariant]]s of knots from [[modular tensor category|modular tensor categories]] of representations of [[quantum group]]s|
 |1990| |Cartier et al.| |[[Grothendieck Festschrift]] in 3 volumes with historical contributions including Thomason-Troubaugh article on algebraic K-theory; [[Deligne: Categories Tannakiennes]]  and Breen's "Bitorseurs et cohomologie nonabeliennes"|
@@ -308,6 +308,7 @@ This is a timeline of category theory and related mathematics.  For discussion a
 |2007| |[[Dennis Gaitsgory]]-[[Jacob Lurie]]| |Presents a derived version of the geometric [[Satake equivalence]] and formulates a geometric [[Langlands duality]] for [[quantum group]]s.  The geometric Satake equivalence realized the category of representations of the [[Langlands dual group]] <sup>L</sup>G in terms of spherical [[perverse sheaves]] (or [[D-module]]s) on the affine [[Grassmannian]] Gr<sub>G</sub>=G((t))/G<nowiki>[[t]]</nowiki> of the original group G|
 |2008| |[[Bruce Bartlett]]| |Primacy of the point hypothesis: An n-dimensional unitary extended TQFT is completely described by the n-Hilbert space it assigns to a point. This is a reformulation of the [[cobordism hypothesis]]|
 |2008| |[[Ieke Moerdijk]]-[[Clemens Berger]]| |Extends and improved the definition of [[Reedy category]] to become invariant under [[equivalence of categories]]|
+|2008| |[[Valery Lunts]]-[[Dmitri Orlov]]| |The derived categories of coherent sheaves on quasiprojective varieties have unique [[enhanced triangulated category|dg-enhancements]]|
 |2008| |Mike Hopkins-[[Jacob Lurie]]| |
 [[On the Classification of Topological Field Theories|Detailed outline of proof of]] [[John Baez|Baez]]-[[James Dolan|Dolan]] [[generalized tangle hypothesis|tangle hypothesis]] and [[John Baez|Baez]]-[[James Dolan|Dolan]] [[cobordism hypothesis]] which classify [[FQFT|extended TQFT]] in all dimensions|
 
@@ -333,7 +334,7 @@ Rafael: Zoran &#352;koda, you have to be more precise.
 Koszul resolutions of what?
 Notion of exactness for what?
 
-Zoran: he does one VERY complex calculation in which he masterly uses constructions involving organizational principles as above, without modern words and general definitions. The article is reproduced in the book Gelfand, Kapranov, Zelevinsky which is about the current state of the art in similar computations and which can explain more. 
+Zoran: he does one VERY complex calculation in which he masterly uses constructions involving organizational principles as above, without modern words and general definitions. The article is reproduced in the book Gel'fand, [[Kapranov]], Zelevinsky which is about the current state of the art in similar computations and which can explain more. 
 =--
 
 +-- {: .query}
