@@ -4,7 +4,7 @@
 
 ## Idea
 
-Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated; moreover not only the field of [[real number]]s, but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]). 
+Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated (and must be).  Moreover, not only the field of [[real number]]s, but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]).
 
 See also [[nonstandard analysis in topology]].
 
@@ -31,7 +31,9 @@ of real numbers.
 
 We write $f\sim_F g$ if the set $\{i\in\mathbb{N}|f(i)=g(i)\}$ belongs to $F$; these are precisely the sequences which are equal almost everywhere with respect to the associated measure. The relation $\sim_F$ is an [[equivalence relation] and ${}^*\mathbb{R} := \mathbb{R}^{\mathbb{N}}/{\sim_F}$ is a __nonstandard extension__ of $\mathbb{R}$, whose elements are sometimes called **hyperreal numbers**. 
 
-This is a special case of the [[ultraproduct]] construction in [[model theory]]. Given $f\in \mathbb{R}^{\mathbb{N}}$, we write $f_F$ for its equivalence class in ${}^*\mathbb{R}$. In particular, given any real number $r\in \mathbb{R}$ the image $^* r :=(i\mapsto r)_F$ of the constant sequence 
+(This is a special case of the [[ultraproduct]] construction in [[model theory]].  In fact, we could have started with an ultrafilter on any set, not just $\mathbb{N}$.  Such more general ultraproducts are necessary in order to obtain more refined models of nonstandard analysis satisfying stronger "saturation" principles.)
+
+Given $f\in \mathbb{R}^{\mathbb{N}}$, we write $f_F$ for its equivalence class in ${}^*\mathbb{R}$. In particular, given any real number $r\in \mathbb{R}$ the image $^* r :=(i\mapsto r)_F$ of the constant sequence 
 
 $$
   r = (r,r,r, \cdots )
@@ -50,7 +52,7 @@ $$
 which makes $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$ a [[monotone function]]. An element $\delta\in{}^*\mathbb{R}$ such that $^* 0\lt\delta$ is called a __positive number__; an element $\delta$ such that $^* r\lt\delta\lt{}^* r$ for all $r\in \mathbb{R}$ such that $r\gt 0$ is called an __infinitesimal number__. Unlike in the real numbers, positive infinitesimal numbers exist: for example the class $f_F$ where $f:n\mapsto 1/n$ is such and $g_F$ for $g:n\mapsto 1/n^2$ is a different one. 
 
 
-Let $n$ be a nonnegative integer and $u:\mathbb{R}^n\to\mathbb{R}$ a function. Then there is nonstandard extension $^* u:({}^*\mathbb{R})^n\to{}^*\mathbb{R}$ of $f$; it is defined by
+Let $n$ be a nonnegative integer and $u:\mathbb{R}^n\to\mathbb{R}$ a function. Then there is a nonstandard extension $^* u:({}^*\mathbb{R})^n\to{}^*\mathbb{R}$ of $f$; it is defined by
 
 $$
 ^*u(f^1_F,\ldots, f^n_F) = g \;\Leftrightarrow\; \{i\in\mathbb{N}| u(f^1(i),\ldots,f^n(i))=g(i) \}\in F.
@@ -73,19 +75,40 @@ Conversely, an element $x\in{}^*\mathbb{R}$ is __finite__ if $|x|\lt {}^* r$ for
 a subset $E\subset\mathbb{R}$ is open iff $\mu(r)\subset{}^*E$ for all $r\in E$; $E$ is closed iff $st(x)\in E$ for all finite $x\in{}^* E$; and $E$ is [[compact space|compact]] iff, for all $x\in{}^* E$, $x$ is finite and $st(x)\in E$. 
 
 
-In this model of nonstandard analysis a version of the transfer principle (in terms of certain formal language $L(\mathbb{R})$) is established as a corollary of a general theorem on ultraproducts due Jerzy &#321;o&#347;.  
+In this model of nonstandard analysis, the [[transfer principle]] is a corollary of a general theorem on ultraproducts due Jerzy &#321;o&#347;.  It can be stated in terms of a certain formal language $L(\mathbb{R})$ of the real numbers.  We can also extend this model to ultrapowers of larger sets, not just $\mathbb{R}$ itself, with a corresponding extension of the language.  In the limit where we reach an entire "universe" of mathematics, this leads to the topos-theoretic filterquotient and sheaf models below.
 
-### Topos-theoretic models {#ToposModels}
 
-There is a realization of aspects of nonstandard analysis in some models of [[synthetic differential geometry]]. The basic mechanism is indicated at [[smooth natural numbers]]:
+### Filterquotients of topoi
 
-in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized element]]s $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
+The ultrapower construction above can be performed in the general context of [[topos]] theory.  From any topos $\mathcal{E}$ and any filter $\Phi$ of [[subterminal objects]] in $\mathcal{E}$, one can construct a topos $\mathcal{E}/\Phi$, the [[filterquotient]] of $\mathcal{E}$ by $\Phi$.  There is a [[logical functor]] $\mathcal{E} \to \mathcal{E}/\Phi$.
 
-Very roughly, this is the mechanism by which aspects of nonstandard analysis are realized in such [[topos]]es. For details see chapter 6 of
+If $\mathcal{E} = Set / \mathbb{N}$, then any filter on $\mathbb{N}$ gives a filter of subterminals in $\mathcal{E}$,  whose corresponding filterquotient corresponds to the above construction.  The composite functor
+$$ Set \to Set/\mathbb{N} \to (Set/\mathbb{N})/\Phi $$
+might be written $^*(-)$.  If $\Phi$ is an ultrafilter, then $(Set/\mathbb{N})/\Phi$ is a two-valued topos, whose [[internal logic]] is essentially that of the ultrafilter model described above.  In particular, the global elements of $^*\mathbb{R}$, as an object of this topos, are precisely the "hyperreal numbers" described above.
+
+In this context, the [[transfer principle]] is the fact that the functor $^*(-)$ is both [[logical functor|logical]] and [[conservative functor|conservative]], and hence it both preserves and reflects the truth of formulas in the internal languages.
+
+
+### Sheaves on the topos of filters
+
+A different topos-theoretic construction is to consider the topos of sheaves on a category of filters.  This topos models the [[internal set]] theory of Nelson, a more axiomatic approach to nonstandard analysis.
+
+
+### in Synthetic Differential Geometry {#ToposModels}
+
+A few aspects of nonstandard analysis can be realized in some models of [[synthetic differential geometry]].  Most of the infinitesimals considered there are nilpotent, hence not invertible, but there are some models that do contain invertible infinitesimals and hence also 'infinite' numbers.  The transfer principle is not, in general, valid, but in some cases a version of it can be proven applying only to statements of a very limit form, and a few of the ideas of nonstandard analysis can sometimes be carried over.
+
+An intuitive idea for the relationship is indicated at [[smooth natural numbers]].  Namely, in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized element]]s $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
+
+Very roughly, this is the mechanism by which aspects of nonstandard analysis are realized in such [[topos]]es.
+
++--{: .query}
+[[Mike Shulman]]: I don't think it's as simple as that.  I mean, already in $Set$ the object $\mathbb{R}$ has generalized elements on the domain of definition $\mathbb{N}$, which are also sequences of real numbers.  So if there's any nonstandard analysis to be recovered here, there has to be more to it than that.
+=--
+
+For details see chapter 6 of
 
 * [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
-
-
 
 
 #References#
