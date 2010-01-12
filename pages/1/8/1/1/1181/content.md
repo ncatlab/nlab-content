@@ -78,6 +78,12 @@ this diagram commutes, so that $f = f(0) \circ !$ by the uniqueness clause in th
 To be filled in. For a topos in which there is an isomorphism $\alpha: F(X) \to X$, it should be possible to construct a natural numbers object as the intersection of all $F$-subalgebras of $(X, \alpha)$. On the other hand, there are no nontrivial subalgebras of any such algebra satisfying condition 2. 
 =--
 
+## Examples
+
+In any [[Grothendieck topos]] $E = Sh(C)$ the natural numbers object is given by the constant [[sheaf]] on the [[set]] of ordinary natural numbers, i.e. by the [[sheafification]] of the [[presheaf]] $C^{op} \to Set$ that is constant on the set $\mathbb{N}$.
+
+There are interesting cases in which such sheaf toposes contain objects that look like they ought to be natural numbers objects but do not satisfy the above axioms: for instance some of the models described at [[Models for Smooth Infinitesimal Analysis]] are sheaf toposes that contain besides the standard natural number object a larger ofject of _smooth natural numbers_ that also "contain infinite natural numbers" and in fact provide a model for aspects of [[nonstandard analysis]].
+
 
 [[!redirects natural numbers objects]]
 [[!redirects natural number object]]
