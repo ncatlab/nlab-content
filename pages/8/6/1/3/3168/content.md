@@ -2,9 +2,11 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
 The notion of _inhabited object_ in a general [[topos]] is a generalization of the notion of [[inhabited set]] from the archetypal topos [[Set]].
+
 
 ## Definition
 
@@ -18,20 +20,21 @@ This is equivalent to saying that the unique map $X \to 1$ is an [[epimorphism]]
 
 On the other hand, $X$ is said to be **externally** or **globally inhabited** if there exists a morphism $1\to X$, i.e. a [[global element]].  Every globally inhabited object is internally inhabited, since every [[split epimorphism]] is a regular epimorphism.  The converse is true if $1$ is [[projective object|projective]], as is the case in a [[well-pointed topos]] (such as [[Set]]).
 
-Some sources use "$X$ is inhabited" to mean that $X$ has a global element, which is not expressible in the internal language.  Others use the term "inhabited" only internally.  Regardless, a [[pointed object]] always means one _equipped with_ a global element $1\to X$, whether interpreted internally or externally.
+Some sources use "$X$ is inhabited" in the global sense, which is not expressible in the internal language.  Others use the term "inhabited" only internally.  Regardless, a [[pointed object]] always means one _equipped with_ a global element $1\to X$, whether interpreted internally or externally.
 
 
 ## Examples
 
 For [[Grothendieck topos|sheaf toposes]] with [[point of a topos|enough points]], in which epimorphisms are [[stalk]]wise epimorphisms, an object is (internally) inhabited if the [[germ]] of $X$ over every [[stalk]] is an [[inhabited set]].
 
-One situation where this plays a role is in the study of certain [[smooth topos]]es with objects $\mathbb{I}$ of _invertible infinitesimals_ . There is an immediate definition of such a topos, the topos called $\matcal{Z}$ at [[Models for Smooth Infinitesimal Analysis]], for which this object exists, but is not inhabited. Only the weaker internal statement $\not \not \exists x \in \mathbb{I}$ is true.
+One situation where this plays a role is in the study of certain [[smooth topos]]es with objects $\mathbb{I}$ of _invertible infinitesimals_ . There is an immediate definition of such a topos, the topos called $\mathcal{Z}$ at [[Models for Smooth Infinitesimal Analysis]], for which this object exists, but is not inhabited. Only the weaker internal statement $\not \not \exists x \in \mathbb{I}$ is true.
 
 But for some useful constructions in these toposes, such as for giving an internal definition of [[distribution]]s as genuine functions (internally), it is desirable to have $\mathbb{I}$ be inhabited. In the above situation this is achieved by [[forcing]] the existence of invertible infinitesimal elements. The result is the refined topos denoted $\mathcal{B}$ at [[Models for Smooth Infinitesimal Analysis]].
 
+
 ## Discussion##
 
-While writing this page, we had the following discussion about whether or not "$X$ is inhabited" in a topos should mean that $X$ has a [[global element]].
+While writing this page, we had the following discussion about whether or not "$X$ is inhabited" in a topos should be interpreted internally or externally, before deciding that we should mention both.
 
 +--{.query}
 
@@ -70,6 +73,7 @@ _Mike_: Does that mean you might be satisfied with the way it's written now?  (I
 _Toby_: Yes, I\'m happy now for now.
 
 =--
+
 
 [[!redirects well-supported object]]
 [[!redirects well-supported objects]]
