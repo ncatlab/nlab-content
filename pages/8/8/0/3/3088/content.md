@@ -25,11 +25,11 @@ For various applications somewhat stricter or at least more rigidified models fo
 
 Notice from the discussion there that these two aspects may and often do interplay: simplicial sets internal to [[Grothendieck topos|sheaf topos]]es may be used to [[presentable (infinity,1)-category|present]] [[(∞,1)-category|(∞,1)-categories]] inside of which one may be interested in $\infty$-groupoid objects in the first sense. For instance a Lie $\infty$-group object is usefully thought of as a _group object_ internal to the [[(∞,1)-topos]] presented by [[model structure on simplicial presheaves|a model of simplicial sets in]] the [[category of sheaves]] on [[Diff]].
 
-Finally, a simplified version of [[∞-groupoid]] is often sufficient and useful: that given by [[strict omega-groupoid|strict ∞-groupoid]]s, equivalently [[crossed complexes]]. These may be straightforwardly [[internalization|internalized]] in any ordinary categoy with [[pullback]]s. This is discussed in
+Finally, a simplified version of [[∞-groupoid]] is often sufficient and useful: that given by [[strict omega-groupoid|strict ∞-groupoid]]s, equivalently [[crossed complexes]]. These may be straightforwardly [[internalization|internalized]] in any ordinary category with [[pullback]]s. This is discussed in
 
 * [Internal strict $\infty$-groupoids](#Strict)
 
-Under the internal [[omega-nerve]] operatiion this will embed into the definition of Kan complexes in an ordinary category mentioned before. Even if one is interested just in strict $\infty$-groupoids, this embedding is useful in order to understand what the right notion of morphisms between these objects is, and what the extra [[descent]] conditions are that a proper internal formulation turns out to require on top of the conditions known from the external formulation (all this is discussed below). For that purpose [[Dominic Verity]]'s theorem described at
+Under the internal [[omega-nerve]] operation this will embed into the definition of Kan complexes in an ordinary category mentioned before. Even if one is interested just in strict $\infty$-groupoids, this embedding is useful in order to understand what the right notion of morphisms between these objects is, and what the extra [[descent]] conditions are that a proper internal formulation turns out to require on top of the conditions known from the external formulation (all this is discussed below). For that purpose [[Dominic Verity]]'s theorem described at
 
 * [[Verity on descent for strict omega-groupoid valued presheaves]]
 
@@ -144,3 +144,4 @@ Here are some examples of internal $\infty$-groupoids according to the first def
 [[!redirects infinity-groupoid object]]
 [[!redirects ∞-groupoid object]]
 [[!redirects internal Kan complex]]
+[[!redirects internal-infinity groupoids]]
