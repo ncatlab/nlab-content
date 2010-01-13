@@ -72,7 +72,7 @@ The standard reference for functor of points approach to schemes is
 
 #Generalizations#
 
-In [[algebraic geometry]] this is a basic object of study, since the revolution of [[Grothendieck]]. There are generalizations like __relative schemes__ (which are just objects in a [[slice category]] $Scheme/S$), relative schemes in [[noncommutative algebraic geometry]] introduced by A. Rosenberg in terms of categories and covers defined using pairs of [[adjoint functors]], the generalized schemes of [[Nikolai Durov]], the [[algebraic stack]]s of [[Deligne-Mumford stack|Deligne-Mumford]] and Artin, the dg-schemes of Kapranov, the [[derived scheme]]s of [[Jacob Lurie]], the higher [[algebraic stack]]s of [[Bertrand Toen|Toën]]--Vezzosi, almost schemes (Ofer Gabber and Lorenzo Ramero), formal schemes (Cartier--Grothendieck), [[locally affine spaces]] in the fpqc, fppf or &#233;tale topology (Grothendieck), [[algebraic spaces]], etc. 
+In [[algebraic geometry]] this is a basic object of study, since the revolution of [[Grothendieck]]. There are generalizations like [[relative schemes]] (which are just objects in a [[slice category]] $Scheme/S$), relative schemes in [[noncommutative algebraic geometry]] introduced by A. Rosenberg in terms of categories and covers defined using pairs of [[adjoint functors]], the generalized schemes of [[Nikolai Durov]], the [[algebraic stack]]s of [[Deligne-Mumford stack|Deligne-Mumford]] and Artin, the dg-schemes of Kapranov, the [[derived scheme]]s of [[Jacob Lurie]], the higher [[algebraic stack]]s of [[Bertrand Toen|Toën]]--Vezzosi, almost schemes (Ofer Gabber and Lorenzo Ramero), formal schemes (Cartier--Grothendieck), [[locally affine spaces]] in the fpqc, fppf or &#233;tale topology (Grothendieck), [[algebraic spaces]], etc. 
 
 See also [wikipedia](http://en.wikipedia.org/wiki/Scheme_%28mathematics%29). [[EGA]] says prescheme, for what we call algebraic scheme, and says scheme for what we call [[separated scheme]].
 
@@ -86,5 +86,3 @@ A useful quick introduction that presents the concept in the light of its higher
 [[!redirects schemes]]
 [[!redirects algebraic scheme]]
 [[!redirects algebraic schemes]]
-[[!redirects relative scheme]]
-[[!redirects relative schemes]]
