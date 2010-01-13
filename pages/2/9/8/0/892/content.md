@@ -10,6 +10,9 @@ in the usual arithmetic of [[cardinal numbers]].
 
 Power sets live in the category [[Set]].  Given an object $S$ of any [[category]], one can similarly form a poset of [[subobjects]] of $S$; the category is called [[well-powered category|well-powered]] when this poset is [[small category|small]].  One also has an internal notion of power set (a [[power object]]) in a [[topos]].
 
+
 category: foundational axiom
 
 [[!redirects power sets]]
+[[!redirects power type]]
+[[!redirects power types]]
