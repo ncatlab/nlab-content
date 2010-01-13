@@ -4,21 +4,21 @@
 
 ## Idea
 
-Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated (and must be).  Moreover, not only the field of [[real number]]s, but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]).
+Nonstandard analysis is a rich formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal objects]]. In fact, not only infinitesimal but also infinitely large can be accomodated (and must be).  Moreover, not only the field of [[real numbers]], but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]).
 
 See also [[nonstandard analysis in topology]].
 
 
 ## Motivation
 
-At its beginning, infinitesimal calculus was developed nonrigorously, though many interesting arguments and formal manipulations were found. Cauchy and Weierstra&#223; introduced the $\epsilon$-$\delta$ approach, which enabled modern rigorous [[analysis]], but sometimes this method is cumbersome. For example, sometimes one needs to work with several infinitesimal levels or kinds of continuity in the same problem, and finding estimates may be very cumbersome. One would like to introduce infinitesimal quantities as additional elements of the sets of usual ('standard') quantities. Several related rigorous frameworks appeared under the name of __nonstandard analysis__, since the first such discovered by Abraham Robinson. Most often, approaches using [[ultrafilters]], certain classes called [[internal set]]s and using [[topos theory]] enable the foundation of nonstandard analysis. Many properties and theorems from ordinary mathematics imply new statements of nonstandard analysis; the mechanism is the so-called __transfer principle__, which can be required axiomatically without respect to a particular model of nonstandard analysis. 
+At its beginning, infinitesimal calculus was developed nonrigorously, though many interesting arguments and formal manipulations were found. Cauchy and Weierstra&#223; introduced the $\epsilon$-$\delta$ approach, which enabled modern rigorous [[analysis]], but sometimes this method is cumbersome. For example, sometimes one needs to work with several infinitesimal levels or kinds of continuity in the same problem, and finding estimates may be very cumbersome. One would like to introduce infinitesimal quantities as additional elements of the sets of usual ('standard') quantities. Several related rigorous frameworks appeared under the name of __nonstandard analysis__, since the first such discovered by Abraham Robinson. Most often, approaches using [[ultrafilters]], certain classes called [[internal sets]] and using [[topos theory]] enable the foundation of nonstandard analysis. Many properties and theorems from ordinary mathematics imply new statements of nonstandard analysis; the mechanism is the so-called __transfer principle__, which can be required axiomatically without respect to a particular model of nonstandard analysis. 
 
 
 ## Models
 
 ### An approach via ultrafilters
 
-Assuming the [[axiom of choice]] (whose full strength is not necessary), there exists a free (= not containing finite subsets) [[ultrafilter]] $F$ on the set of [[natural numbers]] $\mathbb{N}=\{1,2,3,\ldots\}$, and such ultrafilters are in $1$--$1$ correspondence with finitely additive [[measure]]s on $\mathbb{N}$ (using the [[power set|algebra of all subsets]]) taking values in the two element set $\{0,1\}$.
+Assuming the [[axiom of choice]] (whose full strength is not necessary), there exists a free (= not containing finite subsets) [[ultrafilter]] $F$ on the set of [[natural numbers]] $\mathbb{N}=\{1,2,3,\ldots\}$, and such ultrafilters are in $1$--$1$ correspondence with finitely additive [[measures]] on $\mathbb{N}$ (using the [[power set|algebra of all subsets]]) taking values in the two element set $\{0,1\}$.
 
 
 Fix a free ultrafilter $F$ on $\mathbb{N}$, and consider the set of all [[sequences]] of real numbers, $\mathbb{R}^{\mathbb{N}}$. So an element in here is a sequence
@@ -104,7 +104,7 @@ A different topos-theoretic construction is to consider the topos of sheaves on 
 
 A few aspects of nonstandard analysis can be realized in some models of [[synthetic differential geometry]].  Most of the infinitesimals considered there are nilpotent, hence not invertible, but there are some models that do contain invertible infinitesimals and hence also 'infinite' numbers.  The transfer principle is not, in general, valid, but in some cases a version of it can be proven applying only to statements of a very limit form, and a few of the ideas of nonstandard analysis can sometimes be carried over.
 
-An intuitive idea for the relationship is indicated at [[smooth natural numbers]].  Namely, in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized element]]s $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
+An intuitive idea for the relationship is indicated at [[smooth natural numbers]].  Namely, in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized elements]] $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
 
 Very roughly, this is the mechanism by which aspects of nonstandard analysis are realized in such [[topos]]es.
 
