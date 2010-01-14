@@ -182,12 +182,14 @@ This means that if $N$ is a module of $T(n)$ and $\delta : T(n) \to N$ is a deri
  
 The point of this theorem is that it gives us a version of [[Kähler differentials]] for $T(n)$. 
 
-We may think of an element  $(f_i) \in \prod_{i = 1}^{n}  T(n)$ as the K&#228;hler differential 1-form $f_1 d x^1 + f_2 d x^2 + \cdots + f_n d x^n$ and of the derivation $d := \langle \partial_1, \dots, \partial_n \rangle$ as the operation
+We may think of an element  $(f_i) \in \prod_{i = 1}^{n}  T(n)$ as the [[Kähler differential]] 1-form $f_1 d x^1 + f_2 d x^2 + \cdots + f_n d x^n$ and of the derivation $d := \langle \partial_1, \dots, \partial_n \rangle$ as the operation
 
 $$
   d  : f \mapsto \sum_i \frac{\partial f_i}{ \partial x^i} d x^i
   \,.
 $$
+
+Indeed, when the Fermat theory is that of [[generalized smooth algebra|C-infinity rings]], then this notion of K&#228;hler differentials does coincide with the ordinary notion of smooth [[differential form|1-form]]. The same is not true, in general, if one instead forms ring-theoretic K&#228;hler differentials. 
 
 
 ##References
