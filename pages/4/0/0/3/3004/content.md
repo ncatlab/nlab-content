@@ -14,6 +14,7 @@ The notion of *geometric theory* has many different incarnations.  A few are:
 
 The equivalence of these statements involves some serious proofs, including [[Giraud's theorem]] characterizing Grothendieck topoi.
 
+
 # Logical definition
 
 In logical terms, a geometric theory fits into a hierarchy of theories that can be interpreted in the [[internal logic]] of a hierarchy of categories.  Since [[predicates]] in the internal logic are represented by [[subobjects]], in order to interpret any connective or quantifier in the internal logic, one needs a corresponding operation on subobjects to exist in the category in question, and be well-behaved.  For instance:
@@ -36,13 +37,14 @@ The interpretation of arbitrary uses of $\Rightarrow$ and $\forall$ requires a [
 
 By the usual syntactic constructions (see [[internal logic]] and [[context]]), any geometric theory $T$ generates a "free geometric category containing a model of that theory," also known as its *syntactic category* $G_T$.  This syntactic category $G_T$ has the universal property that for any other geometric category $G'$, geometric functors $G_T \to G'$ are equivalent to $T$-models in $G'$.
 
+
 # Examples
 
 * Any finitary [[algebraic theory]] is, in particular, a cartesian theory, and hence geometric.  This includes [[monoids]], [[groups]], [[abelian groups]], [[rings]], [[commutative rings]], etc.
 
-* The theory of [[categories]] is not finitary-algebraic, but it is cartesian, and hence geometric.
+* The theory of ([[strict category|strict]]) [[categories]] is not finitary-algebraic, but it is cartesian, and hence geometric; this generalises to (finitary) [[essentially algebraic theories]].
 
-* The theory of torsion-free abelian groups is also cartesian, being obtained from the theory of abelian groups by the addition of the sequents $(n\cdot x = 0) \vdash (x = 0)$ for all $n\in \mathbb{N}$.
+* The theory of [[torsion]]-free abelian groups is also cartesian, being obtained from the theory of abelian groups by the addition of the sequents $(n\cdot x = 0) \vdash (x = 0)$ for all $n\in \mathbb{N}$.
 
 * The theory of [[local rings]] is a coherent theory, being obtained from the theory of commutative rings by adding the sequent $ (0 = 1) \vdash \bot $, for nontriviality, and
   $$\exists z. ((x+y)z = 1) \vdash (\exists z.(x z = 1) \vee \exists z.(y z = 1))$$
@@ -54,7 +56,7 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 * The theory of [[torsion]] abelian groups is geometric but not coherent; it can be obtained from the theory of abelian groups by adding the sequent
   $$ \top \vdash \bigvee_{n\gt 1} (n \cdot x = 0) $$
-  asserting that for each $x$, either $x=0$ or $x+x=0$ or $x+x+x=0$ or ....  Similarly, the theory of fields of finite characteristic is geometric but not coherent.
+  asserting that for each $x$, either $x=0$ or $x+x=0$ or $x+x+x=0$ or ....  Similarly, the theory of fields of finite [[characteristic]] is geometric but not coherent.
 
 * The theory of a [[real number]] is geometric.  This is a [[propositional logic|propositional]] theory, having no sorts, and having one relation symbol "$p\lt x\lt q$" for each pair of rational numbers $p\lt q$.  Its axioms are:
   - If $\max(p_1,p_2) \lt \min(q_1,q_2)$, then if $p_1\lt x\lt q_1$  and $p_2\lt x\lt q_2$, then $\max(p_1,p_2)\lt x\lt \min(q_1,q_2)$.  Otherwise, if $p_1\lt x\lt q_1$  and $p_2\lt x\lt q_2$ then $\bot$.
@@ -62,7 +64,17 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
   - If $p\lt x\lt q$, then $\bigvee_{p\lt p'\lt q'\lt q} (p' \lt x\lt q')$.
   - Always $\bigvee_{p\lt q} (p\lt x\lt q)$.
 
-  The classifying topos of this theory is the topos of [[sheaves]] on the [[real numbers]].
+  The [[classifying topos]] of this theory is the topos of [[sheaves]] on the [[real numbers]].
+
+
+* The theory of a [[finite set]] is geometric.  It has a single axiom, which is the disjunction of the following countably infinitely many statements:
+
+  * $\top \vdash_x \bot$,
+  * $\top \vdash_{x,y} x = y$,
+  * $\top \vdash_{x,y,z} x = y \;\vee\; x = z \;\vee\; y = z$,
+  * etc.
+
+  (In the constructive logic, this is the most general notion of finite set: a subfinitely indexed set, or $\tilde{K}$-finite set.  Stronger notions of finite set are not geometric, since they require [[negation]] in the conclusion.)
 
 
 # Other characterizations
