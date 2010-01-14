@@ -21,7 +21,7 @@ $$ Hom_C(F(-),-), Hom_D(-,U(-)): C^op \times D \to Set .$$
 
 Given categories $C$ and $D$ and a functor $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with [[natural transformation]]s
 $$ \iota: id_C \to F ; U,\; \epsilon: U ; F \to id_D $$
-satisfying certain [[triangle identities]].
+(where $F;U$ etc gives the [[composite]] in the forwards, anti-Leibniz order) satisfying certain [[triangle identities]].
 
 Given a [[2-category]] $\mathcal{B}$, objects $C$ and $D$ of $\mathcal{B}$, and a morphism $U: C \to D$ in $\mathcal{B}$, a __left adjoint__ of $U$ is a morphism $F: D \to C$ with $2$-morphisms
 $$ \iota: id_C \to F ; U,\; \epsilon: U ; F \to id_D $$
