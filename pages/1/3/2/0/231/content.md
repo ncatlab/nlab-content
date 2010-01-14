@@ -32,7 +32,7 @@ $$  \rho_x : x \otimes 1 \to x $$
 called the **right unitor**, which must make two diagrams commute: the **pentagon**:
 
 +--{: style="text-align:center"}
-[[!include monoidal category/pentagon]]
+[[!include monoidal category > pentagon]]
 =--
 
 and the **triangle**:
@@ -199,7 +199,7 @@ See the picture of the [[oriental|first five orientals]]. We can read off the ab
 $$
 \array{\arrayopts{\rowalign{center}}
 \array{\begin{svg}
-[[!include monoidal category/pentagonator]]
+[[!include monoidal category > pentagonator]]
 \end{svg}}
 }
 $$
