@@ -37,7 +37,7 @@ $$ B_{x,y} : x \otimes y \to y \otimes x $$
 called the **braiding**.  We then demand that the associator obey the **pentagon identity**, which says this diagram commutes:
 
 +--{: style="text-align:center"}
-[[!include monoidal category/pentagon]]
+[[!include monoidal category > pentagon]]
 =--
 
 We demand that the associator and unitors  obey the **triangle identity**, which says this diagram commutes:
