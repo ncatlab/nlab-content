@@ -22,3 +22,5 @@ form $\forall x:N.\exists y:N.F(x,y)$.  Roughly speaking,
 classical logic can be just as 'constructive' as
 intuitionistic logic as far as proving the totality of
 functions is concerned.
+
+[[!redirects constructive logic]]
