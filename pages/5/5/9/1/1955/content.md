@@ -6,7 +6,9 @@
 
 ## Idea
 
-We may define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  When $A$ is an algebra of smooth functions on some space you know and love, K&#228;hler differentials tend to act roughly like 1-forms on this space.  Indeed, when $A$ consists of the algebraic functions on an affine [[algebraic variety]], K&#228;hler differentials are often taken as a _definition_ of 1-forms.  When $A$ consists of smooth functions on a manifold, the K&#228;hler differentials do not agree with the ordinary smooth 1-forms on this manifold.  However, there is a map from the K&#228;hler differentials to the ordinary 1-forms.
+We may define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  When $A = C^\infty(X)$ is an algebra of smooth functions on some space $X$ you know and love, ring theoretic K&#228;hler differentials tend to act roughly like 1-forms on this space.  Indeed, when $A$ consists of the algebraic functions on an affine [[algebraic variety]], K&#228;hler differentials are often taken as a _definition_ of 1-forms.  When $A$ consists of smooth functions on a manifold, the _ring theoretic_ K&#228;hler differentials do _not_ agree with the ordinary smooth [[differential form|1-form]]s on this manifold.  However, there is a map from the K&#228;hler differentials to the ordinary 1-forms.
+
+But the algebra of smooth functions is not just a [[ring]], but a [[generalized smooth algebra|C-infinity ring]]. The K&#228;hler differentials of $C^\infty(X)$ in the $C^\infty$-ring theoretic sense do agree with the standard [[differential form|1-form]]s on $X$. This is described at [[Fermat theory]].
 
 Conceptually, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$. 
 
