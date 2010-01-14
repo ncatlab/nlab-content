@@ -20,7 +20,7 @@ We also present two other proofs: a modernized version of Euclid's original proo
 
 The essence of [Euclid's proof](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.  Euclid himself would not have used numerical values like this, and they are not a part of the proof; they're merely a short-hand that allows the reader to see at a glance the relationships between angles that the original proof established by routine methods.
 
-[[!include pentagon decagon hexagon identity/Euclid]]
+[[!include pentagon decagon hexagon identity > Euclid]]
 
 The line segment $A B$ is one edge of a pentagon inscribed in a circle centred at $F$, and $A K$ and $K B$ are edges of a decagon inscribed in the same circle.  Note that while $A B$ is bisected by $H$ and $A K$ is bisected by $L$, the point $N$ is _not_ a point of bisection of $A H$.
 
@@ -39,7 +39,7 @@ Euclid's proof is quick but somewhat mysterious.  Here is another, perhaps simpl
 
 ##Golden triangle lemma##
 
-[[!include pentagon decagon hexagon identity/golden triangle]]
+[[!include pentagon decagon hexagon identity > golden triangle]]
 
 The lemma states that in any isosceles triangle with angles of 72&#176;, 36&#176; and 72&#176;, the ratio of the long sides of the triangle to its base is $\Phi$, the golden ratio, which is defined as the unique positive solution of the equation:
 
@@ -59,7 +59,7 @@ This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoy
 
 ##Proof using the golden triangle lemma##
 
-[[!include pentagon decagon hexagon identity/golden ratio]]
+[[!include pentagon decagon hexagon identity > golden ratio]]
 
 By the golden triangle lemma for isosceles triangles with angles of 36&#176;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $P N Q$, we have $2b=t/\Phi$.  So the product of $r$ and $2b$ is $t^2$.
 
@@ -76,7 +76,7 @@ Now if we subtract a single $t^2$, the light blue rectangle, we're left with a s
 
 While the construction above is straightforward, it's also possible to present an equivalent result that explicitly gives us right triangles with the pentagon edge as their hypotenuse and the hexagon and decagon edges as their other sides.
 
-[[!include pentagon decagon hexagon identity/pythagorean identity]]
+[[!include pentagon decagon hexagon identity > pythagorean identity]]
 
 The diagram above is similar to one used in a common proof of Pythagoras's Theorem, but here we use it to establish the value of the square of the hypotenuse of a right triangle with sides $r$ and $t$, i.e. the hexagon edge and the decagon edge.
 
@@ -92,11 +92,11 @@ $$\Phi^2+\frac{1}{\Phi^2}=3$$
 
 which can also be verified algebraically from the defining equation for $\Phi$.  We can see this identity a bit more clearly if we remove the leftmost rectangle from the construction, slide the rightmost one down to eliminate the overlap, and take out the overall factor of $t$ from all the sides.  We then have:
 
-[[!include pentagon decagon hexagon identity/golden ratio identity]]
+[[!include pentagon decagon hexagon identity > golden ratio identity]]
 
 We can also construct a diagram that explicitly shows that the square of the diagonal of a rectangle of dimensions $\Phi$ by $\frac{1}{\Phi}$ is $3$.
 
-[[!include pentagon decagon hexagon identity/golden ratio identity pythagorean]]
+[[!include pentagon decagon hexagon identity > golden ratio identity pythagorean]]
 
 Here each red triangle has area $\frac{1}{2}$, so along with the light green unit square the total area is $3$.
 
@@ -104,7 +104,7 @@ Here each red triangle has area $\frac{1}{2}$, so along with the light green uni
 
 Suppose we take **three congruent rectangles**, and assemble them symmetrically so that their _long_ edges are all mutually orthogonal, and their _short_ edges are all mutually orthogonal.  Like this:
 
-[[!include pentagon decagon hexagon identity/skinny duads]]
+[[!include pentagon decagon hexagon identity > skinny duads]]
 
 We then join up the corners to make an icosahedron, as in the diagram above.  Eight faces of this icosahedron (the ones centred on the diagonals of the eight "octants" into which the space here is divided) will _always_ be congruent and equilateral; that's guaranteed by the construction, whatever the precise ratio of the side lengths of the rectangles.  The other twelve faces will be isosceles triangles, all congruent to each other.
 
@@ -112,13 +112,13 @@ In terms of edges, there are two congruent sets:  the six edges that correspond 
 
 Now, it's clear that by making the rectangles long and skinny, we can make the isosceles triangles as long and skinny as we like.  But what about making them short and squat?  How far can we go in that direction?
 
-[[!include pentagon decagon hexagon identity/square duads]]
+[[!include pentagon decagon hexagon identity > square duads]]
 
 If we make the three rectangles into squares, as above, the isosceles triangles have two 45&#176; angles.  So between this extreme, and the long-and-skinny extreme, it's clear that we can choose _some_ intermediate degree of skinniness for the rectangles that will turn the 12 isosceles triangles into equilateral triangles.
 
 So, a _regular_ icosahedron must exist, and it will have six edges that form three mutually orthogonal pairs.
 
-[[!include pentagon decagon hexagon identity/duads]]
+[[!include pentagon decagon hexagon identity > duads]]
 
 (The argument we've just given implicity uses the [[intermediate value theorem]] and would not have been used by Euclid, although Archimedes might have attempted it.  An alternative that avoids using the intermediate value theorem is given at the end of the proof.)
 
@@ -126,7 +126,7 @@ We will set the short side of the rectangles to $1$, and for now we will call th
 
 In the figure below we project everything into the plane of one of the rectangles.  Where two vertices are projected to the same point in the diagram, a circle is drawn around the point.
 
-[[!include pentagon decagon hexagon identity/icosahedron]]
+[[!include pentagon decagon hexagon identity > icosahedron]]
 
 The five vertices of the icosahedron that project onto the line segment $A P R$ will form a regular pentagon, the edges of which are also edges of the icosahedron.  $A P R$ is a straight line because the pentagon is a planar figure, as it must be if it forms the base of a pentagonal pyramid with five congruent equilateral triangles as its other faces.  The point $C$ is produced by dropping a perpendicular line from the apex, $B$, of this pentagonal pyramid, to its base.
 
@@ -136,7 +136,7 @@ The five vertices that project onto the line segment $Z S Q$ will form another p
 
 These two pentagons are shown in the diagram below.
 
-[[!include pentagon decagon hexagon identity/icosahedron triangles]]
+[[!include pentagon decagon hexagon identity > icosahedron triangles]]
 
 If we draw a line perpendicular to the planes of the two pentagons, from a vertex in one plane, $A$, to the point directly below it on the other plane, $V$, the length of that perpendicular, $A V$, will be equal to the common radius of the pentagons, $A C$.  Now, $A V$ is one side of a right triangle whose hypotenuse is an icosahedral edge, $A Q$ (congruent to the edges of the pentagons), and whose third side, $Q V$, is one edge of a decagon inscribed in the same circle as the lower pentagon.  The decagon edge arises because the two pentagons are rotated relative to each other by an angle of 36&#176;, the angle between vertices in a decagon.
 
@@ -152,7 +152,7 @@ Finally, suppose we wish to avoid using the intermediate value theorem.  To do t
 
 One approach we could take is to set $x=\Phi$, and directly calculate the length of an edge of our icosahedron that doesn't lie on one of the rectangles.  If this length is $1$ -- matching the edges that _do_ lie on the rectangles -- the icosahedron will be regular.
 
-[[!include pentagon decagon hexagon identity/pythagorean icosahedron]]
+[[!include pentagon decagon hexagon identity > pythagorean icosahedron]]
 
 As the diagram above shows, this isn't too hard; with the help of a re-scaled version of the diagram we used to demonstrate the identity $\Phi^2+\frac{1}{\Phi^2}=3$, we can see that ${A Q}^2=\frac{3}{4}$, and, since the vertices that project to $Q$ are a distance of $\frac{1}{2}$ out of the plane, the squared length of the edge that projects to $A Q$ will be $1$.
 
@@ -160,7 +160,7 @@ But if this is a little too close to resorting to algebra, we can take a more ge
 
 If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
 
-[[!include pentagon decagon hexagon identity/irregular icosahedron]]
+[[!include pentagon decagon hexagon identity > irregular icosahedron]]
 
 In order to make $A P R$ into a straight line -- which amounts to making the pentagon of vertices that project onto $A P R$ into a planar figure -- we need to satisfy:
 
@@ -170,15 +170,15 @@ This is just the defining equation for the golden ratio, $\Phi$.  So we need to 
 
 Next, we note that the golden triangle lemma can be used to establish that in the figure below, the larger of the two golden triangles here associated with a regular pentagon is $\Phi$ times larger than the smaller one (because the long edge of the smaller triangle is congruent to the small edge of the larger triangle).  This means the _height_ of a regular pentagon, measured from one edge, is $\Phi$ times the height of an adjacent vertex.
 
-[[!include pentagon decagon hexagon identity/pentagon heights]]
+[[!include pentagon decagon hexagon identity > pentagon heights]]
 
 The same lemma also shows that the _width_ of a regular pentagon, measured parallel to one edge, is $\Phi$ times its edge length.
 
-[[!include pentagon decagon hexagon identity/pentagon width]]
+[[!include pentagon decagon hexagon identity > pentagon width]]
 
 Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.
 
-[[!include pentagon decagon hexagon identity/icosahedron pentagon]]
+[[!include pentagon decagon hexagon identity > icosahedron pentagon]]
 
 For example, the two such pentagons that project onto $B P S Z R$ must also be planar.  But since they're planar, their projection here will preserve the ratio between the perpendicular distance from $P S$ to the vertex that projects to $R$ and the perpendicular distance from $P S$ to the vertices that project to $Z$ and $B$.  The projections of these distances are just $\frac{x}{2}$ and $\frac{1}{2}$ respectively, so our choice of $x=\Phi$ makes their ratio equal to $\Phi$.
 
@@ -186,7 +186,7 @@ Furthermore, the lengths of the line segments projecting to $B Z$ and $P S$ will
 
 But we've established that both these ratios are $\Phi$ for a _regular_ pentagon, and the pentagons projecting to $B P S Z R$ are already so symmetrical (with at least four congruent edges, and mirror symmetry in the perpendicular bisector of the fifth edge) that if they share both ratios, they too must be regular.
 
-[[!include pentagon decagon hexagon identity/regular pentagon]]
+[[!include pentagon decagon hexagon identity > regular pentagon]]
 
 That's probably intuitively obvious, but we can make it a bit more explicit.  In the diagram above, the blue pentagon shares one edge with the regular, black pentagon, and has also been constrained to have the same width and height ratios.  The height ratio fixes $\frac{J K}{G H}=\Phi$ and the width ratio fixes $\frac{F L}{E F}=\Phi$, which means the two yellow triangles are similar, which in turn fixes $\frac{F K}{F H}=\Phi=\frac{F K'}{F H'}$.
 
