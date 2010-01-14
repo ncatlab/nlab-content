@@ -40,11 +40,7 @@ Moreover, via the [[homotopy hypothesis]] the study of [[topological space]]s is
 > ... weak equivalences those morphisms in [[Top]] that induce isomorphisms on rationalized [[homotopy group]]s ... 
 
 
-### Lie theoretic models for rational homotopy types
-
-+-- {: .query}
-This section is by Urs, written on the Forum [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=633&page=1#Item_2).  (This is just for the history; anybody can delete this box now.)
-=--
+### Lie theoretic models for rational homotopy types {#LieModels}
 
 There are two main approaches in rational homotopy theory for encoding rational homotopy
 types in terms of [[Lie theory|Lie theoretic data]]:
@@ -86,14 +82,16 @@ and may be strictified to a [[dg-Lie algebra]], and this is equivalent to
 the dg-Lie algebra obtained from Quillen's construction.
 
 
-### Differential forms on topological spaces {#FormsOnTopSpaces}
+### Sullivan approach
+
+#### Differential forms on topological spaces {#FormsOnTopSpaces}
 
 A central tool in the study of rational topological spaces is an assignment that sends each [[topological space]]/[[simplicial set]] $X$ to a [[dg-algebra]] $\Omega^\bullet_{poly}(X)$ that behaves like the [[deRham complex|deRham dg-algebra]] of a smooth [[manifold]]. Instead of consisting of smooth [[differential form]]s, $\Omega^\bullet_{poly}(X)$ consists of _piecewise linear polynomial differential forms_ , in a way described in detail now.
 
 The construction of $\Omega^\bullet_{poly}$ is a special case of the following general construction:
 
 
-#### Differential forms on presheaves {#FormsOnPresheaves}
+##### Differential forms on presheaves {#FormsOnPresheaves}
 
 Let $C$ be any [[small category]], write $PSh(C) = [C^{op}, Set]$ for its category of [[presheaf|presheaves]] and let
 
@@ -135,7 +133,7 @@ $$
 is an example for the adjunctionn induced from a [[dualizing object]].
 
 
-#### Piecewise linear differential forms
+##### Piecewise linear differential forms
 
 For the purpose of rational homotopy theory, consider the following special case of the [above general discussion](#FormsOnPresheaves) of differential forms on presheaves.
 
@@ -191,17 +189,61 @@ of
 =--
 
 
-### Sullivan models
+#### Sullivan models
 
 > for the moment, see the section on [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
 
+### Quillen approach
+
+The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]]s, take one from a [[n-connected|1-connected]] raional space $X$ to a [[dg-Lie algebra]].
+
+One starts with the [[fundamental infinity-groupoid|singular simplicial set]]
+
+$$
+  S(X)
+$$
+ 
+
+and throws away all the simplices except the basepoint in degrees 0 and 1.  You one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor) to $S(X)$, obtaing an honest [[simplicial group]]
+
+$$
+  G S(X).
+$$
+
+Then one takes the group ring
+
+$$
+  \mathbb{Q}[G S(X)]
+$$
+
+and completes it with respect to powers of its augmentation ideal, obtaining a "reduced, complete simplicial [[Hopf algebra]]",
+
+$$
+  \hat \mathbb{Q}[G S(X)], 
+$$
+
+which happens to be cocommutative, since the group ring is cocommutative. Taking degreewise [[primitive element|primitives]]s, one then gets a reduced simplicial Lie algebra
+
+$$
+  Prim(\hat \mathbb{Q}[G  S(X)]).
+$$
+
+At the next stage, the [[Moore complex|normalized chains functor]] is applied, to get Quillen's [[dg-Lie algebra]] model of $X$:
+
+$$
+  N^\bullet(Prim(\hat \mathbb{Q}[G S(X)])).
+$$
+
+Finally, to get a a cocommutative dg [[coalgebra]] model for $X$, one uses a slight generalization of a functor first defined by Koszul for computing the homology of a Lie algebra, which always gives rise to a cocommutative dg coalgebra.
+
+
+One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. [[distribution]]s supported at the identity, completed. The topological analog of distributions is chains (dual to functions=cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements. 
 
 ## References
 
 A useful introduction to rational homotopy theory is
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
-
 
 A standard textbook is
 
@@ -215,8 +257,9 @@ Early original articles include:
 * [[Dennis Sullivan]], _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
 
-The relation to Lie theory was made fully explicit in:
+More on the relation to Lie theory is in:
 
 * [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv](http://arxiv.org/abs/math.AT/0404003))
 
 
+The above description of the Quillen approach draws on blog comments by [[Kathryn Hess]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c030961) and by [[David Ben-Zvi]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c031038).
