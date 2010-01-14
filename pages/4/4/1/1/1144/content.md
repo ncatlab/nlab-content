@@ -193,9 +193,10 @@ of
 
 > for the moment, see the section on [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
 
+
 ### Quillen approach
 
-The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]]s, take one from a [[n-connected|1-connected]] raional space $X$ to a [[dg-Lie algebra]].
+The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]], take one from a [[n-connected space|1-connected]] rational space $X$ to a [[dg-Lie algebra]].
 
 One starts with the [[fundamental infinity-groupoid|singular simplicial set]]
 
@@ -204,13 +205,13 @@ $$
 $$
  
 
-and throws away all the simplices except the basepoint in degrees 0 and 1.  You one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor) to $S(X)$, obtaing an honest [[simplicial group]]
+and throws away all the simplices except the basepoint in degrees $0$ and $1$.  Then one applies the Kan loop group functor (the simplicial analogue of the based [[loop space]] functor) to $S(X)$, obtaing an honest [[simplicial group]]
 
 $$
   G S(X).
 $$
 
-Then one takes the group ring
+Then one takes the [[group ring]]
 
 $$
   \mathbb{Q}[G S(X)]
@@ -237,7 +238,8 @@ $$
 Finally, to get a a cocommutative dg [[coalgebra]] model for $X$, one uses a slight generalization of a functor first defined by Koszul for computing the homology of a Lie algebra, which always gives rise to a cocommutative dg coalgebra.
 
 
-One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. [[distribution]]s supported at the identity, completed. The topological analog of distributions is chains (dual to functions=cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements. 
+One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. the algebra of [[distribution]]s supported at the identity, completed. The topological analog of distributions are chains (dual to functions = cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements. 
+
 
 ## References
 
