@@ -46,7 +46,6 @@ Other descriptions of higher categories of cobordisms are
 
 * Eugenia Cheng and Nick Gurski, _Toward an $n$-category of cobordisms_ , Theory and Applications of Categories 18 (2007), 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
 
-[[Note on Formatting|?]]
 
 [[!redirects (∞,n)-category of cobordisms]]
 
