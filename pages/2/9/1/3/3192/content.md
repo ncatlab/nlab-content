@@ -4,8 +4,8 @@ $$
 ind F = dim ker F - dim coker F = dim ker F - codim im F
 $$
 
-A characterization: a bounded linear operator $F:B_1\to B_2$ between Banach spaces is Fredholm iff it there is an operator $T:B_2\to B_1$ which is its inverse up to a [[compact operator]], i.e. $FT - Id_{B_2}$ and $TF-Id_{B_1}$ are compact operators. 
+A characterization: a bounded linear operator $F:B_1\to B_2$ between Banach spaces is Fredholm iff it there is an operator $T:B_2\to B_1$ which is its inverse up to a [[compact operator]], i.e. $F T - Id_{B_2}$ and $T F - Id_{B_1}$ are compact operators. 
 
-Elliptic operators on compact manifolds are naturally Fredholm, when understood between the appropriate [[Sobolev spaces]].
+[[elliptic orperator|Elliptic operators]] on compact manifolds are naturally Fredholm, when understood between the appropriate [[Sobolev spaces]].
 
 * [wikipedia:Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)
