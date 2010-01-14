@@ -38,7 +38,7 @@ The relationships between (some) of the categories can be sumarised by the follo
 
 $$
 \begin{svg}
-[[!include generalized smooth space/relationships]]
+[[!include generalized smooth space > relationships]]
 \end{svg}
 $$
 
