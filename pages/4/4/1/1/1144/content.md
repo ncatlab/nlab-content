@@ -9,6 +9,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
 As with many other parts of [[homotopy theory]] one can view _rational homotopy theory_ in two ways:
@@ -31,11 +32,58 @@ In these ways, rational homotopy theory connects and unifies two large areas of 
 
 Moreover, via the [[homotopy hypothesis]] the study of [[topological space]]s is connected to that of [[infinity-groupoid]]s, so that rational homotopy theory induces a bridge between [[infinity-groupoid]]s and [[differential graded algebra]]. It was observed essentially by Ezra Getzler that this bridge is nothing but higher [[Lie theory]] of [[L-infinity-algebra]]s.
 
+
 ## Details
 
-### Rational homotopy type
+### Rational homotopy types
 
 > ... weak equivalences those morphisms in [[Top]] that induce isomorphisms on rationalized [[homotopy group]]s ... 
+
+
+### Lie theoretic models for rational homotopy types
+
++-- {: .query}
+This section is by Urs, written on the Forum [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=633&page=1#Item_2).  (This is just for the history; anybody can delete this box now.)
+=--
+
+There are two main approaches in rational homotopy theory for encoding rational homotopy
+types in terms of [[Lie theory|Lie theoretic data]]:
+
+1. In the **Sullivan approach** a 1-connected rational space,
+in its incarnation as a [[simplicial set]],
+is turned into something like a piecewise smooth space by [[nerve and realization|realizing]]
+each abstract $n$-[[simplex]] by the standard $n$-simplex in $\mathbb{R}^n$; and
+then a [[dg-algebra]] of [[differential form]]s on this piecewise smooth space
+is formed by taking on each simplex the dg-algebra of ordinary rational polynomial
+forms and gluing these dg-algebras all together.
+
+   This goes back to
+
+   * [[Dennis Sullivan]], _Infinitesimal computations in topology_ .
+
+1. In the **Quillen approach** the [[loop space]] of the rational space/simplicial set is formed
+and its [[H-space]] structure strictified to a [[simplicial group]], of which
+then a [[dg-Lie algebra]] (a strict [[L-infinity-algebra]]) is formed by
+mimicking the construction of the Lie algebra of a [[Lie group]] from the
+[[primitive element]]s of its completed [[group ring]]: the group ring of the
+simplicial group here is a simplicial ring, whose degreewise primitive elements
+hence yield a simplicial Lie algebra. The [[Moore complex]] functor maps this
+to the [[dg-Lie algebra]] functor that models the rational homotopy type in the
+Quillen approach.
+
+   This goes back to
+
+   * [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics,
+Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295
+([JSTOR](http://www.jstor.org/stable/1970725))
+
+The connection between these two appoaches is discussed in
+
+* Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
+
+the Sullivan dg-algebra of forms is dual to an [[L-infinity algebra]]
+and may be strictified to a [[dg-Lie algebra]], and this is equivalent to
+the dg-Lie algebra obtained from Quillen's construction.
 
 
 ### Differential forms on topological spaces {#FormsOnTopSpaces}
@@ -43,6 +91,7 @@ Moreover, via the [[homotopy hypothesis]] the study of [[topological space]]s is
 A central tool in the study of rational topological spaces is an assignment that sends each [[topological space]]/[[simplicial set]] $X$ to a [[dg-algebra]] $\Omega^\bullet_{poly}(X)$ that behaves like the [[deRham complex|deRham dg-algebra]] of a smooth [[manifold]]. Instead of consisting of smooth [[differential form]]s, $\Omega^\bullet_{poly}(X)$ consists of _piecewise linear polynomial differential forms_ , in a way described in detail now.
 
 The construction of $\Omega^\bullet_{poly}$ is a special case of the following general construction:
+
 
 #### Differential forms on presheaves {#FormsOnPresheaves}
 
@@ -84,7 +133,6 @@ $$
 $$
 
 is an example for the adjunctionn induced from a [[dualizing object]].
-
 
 
 #### Piecewise linear differential forms
@@ -138,7 +186,7 @@ A review is on [page 9](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604
 
 of
 
-* [[Kathryn Hess]], _Rartional homotopy theory: A brief introduction_ ([pdf](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604/0604626v2.pdf))
+* [[Kathryn Hess]], _Rational homotopy theory: A brief introduction_ ([pdf](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604/0604626v2.pdf))
 
 =--
 
@@ -150,14 +198,12 @@ of
 
 ## References
 
-
-
 A useful introduction to rational homotopy theory is
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
-A standard textbook is
 
+A standard textbook is
 
 * Y. F&#233;lix, S. Halperin and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
