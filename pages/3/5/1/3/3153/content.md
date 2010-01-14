@@ -1,4 +1,4 @@
-Configuration schemes are a generalization of schemes, which are obtained via formal gluing of usual schemes along closed embeddings. In fact, the categories of [[quasicoherent sheaves]] are glued. Standard cohomology theory and the study of coherent sheaves extend to them. The configuration schemes are thought of to provide a nonclassical type of resolution of singularities, and can be a part of a categorical version of resolution of singularities.  
+Configuration schemes are a generalization of [[schemes]] which are obtained via formal gluing of the usual schemes along closed embeddings. In fact, the categories of [[quasicoherent sheaves]] are glued. Standard [[cohomology theory]] and the study of [[coherent sheaves]] extend to them. Configuration schemes were thought of to provide a nonclassical type of resolution of [[singularity|singularities]], and they can be a part of a categorical version of resolution of singularities.  
 
 Valery A. Lunts, _Coherent sheaves on configuration schemes_, [math.AG/0012061](http://arxiv.org/abs/math/0012061)
 
