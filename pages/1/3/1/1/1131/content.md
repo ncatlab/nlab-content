@@ -180,4 +180,9 @@ $$L\star L' = \mathbb{L}(V\oplus V')/{I,I'}.$$
 
 The differential on $L\star L'$ is the unique Lie algebra derivation extending $\partial$ and $\partial'$.
 
+
 [[!redirects differential graded Lie algebras]]
+[[!redirects dg-Lie algebra]]
+[[!redirects Lie dg-algebra]]
+[[!redirects dg-Lie algebras]]
+[[!redirects Lie dg-algebras]]
