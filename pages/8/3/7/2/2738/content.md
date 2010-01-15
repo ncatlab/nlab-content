@@ -380,7 +380,10 @@ into a [[simplicial model category]] and a [[monoidal model category]], respecti
 
 A good survey of the theory as developed currently is
 
-* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , notes typed by Javier Guiti&#233;rrez on lectures given at the Barcelona workshop on _Homotopy theory and higher categories_ (2008) (to appear in print soon)
+* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , lectures given at the Barcelona workshop on _[Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)_ (2008) ([preliminary writeup](http://www.crm.cat/HigherCategories/hc1.pdf))
+
+An expanded and polished version has meanwhile been written up by Javier Guiti&#233;rrez and should appear in print soon. An electronic copy is probably available on request.
+
 
 The PhD thesis that gave the original definition of dendroidal sets is:
 
@@ -396,7 +399,7 @@ A discussion of inner Kan complexes (see also [[model structure on dendroidal se
 
 Here two blog entries with some summaries and pointers to the literature
 
-* [Dendroidal sets and infinity-operad](http://golem.ph.utexas.edu/category/2009/02/dendroidal_sets.html)
+* [Dendroidal sets and infinity-operads](http://golem.ph.utexas.edu/category/2009/02/dendroidal_sets.html)
 
 * [Moerdijk on infinity-operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
 
