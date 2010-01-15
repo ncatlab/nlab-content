@@ -240,7 +240,7 @@ since this will indicate to everyone looking just at your source code what the c
 
 It is also important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would be double linked).
 
-## How to draw commutative diagrams and pictures
+## How to draw commutative diagrams and pictures {#diagrams}
 
 The itex syntax accepted by the nlab doesn't understand the syntax of any diagram-drawing package akin to xypic or tikz.  (Many of us would love to improve matters; see the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=2), and chime in if you have any suggestions.)  At present there are basically three ways to make diagrams: hack it together with arrays, include an image file, or include SVG.
 
