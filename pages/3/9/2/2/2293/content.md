@@ -11,12 +11,6 @@
 * automatic table of conteents goes here
 {:toc}
 
-+-- {: .query}
-
-[[Zoran Skoda]]: I worked very hard on parts of this entry and the bibliography. It was a TEXT, planned and created with this in mind. Now it has very arbitrary table of contents on the right hand side. Why not having simple one single LINK to the higher geometry contents page and who subscribes to it can follow it. If something is created as a TEXT it should be respected and not made into web-noise with content free table of links or adevrtisements. I support creating tabels of links and myself have done several of them. But if some page is already created and matured as a TEXT and hours are put into this, I do not like hijacking it for mixing it with table of contents. Lets have just link to toc, who likes it can folow it, and the look and size of the page does not change. Specially for printing. If I do a contribution in a format which I like, then up to additions, enw paragraphs, minor chanes, comments, linguistics corrections and alike by improvers and intelligent colleagues, I expect it to stay with some form-preserving features as an asset to a future, as a piece of work which I will find here after 30 years in traceably similar form. If you guys plan to change to nlabXP and nlabVista and so on in future, unlike LaTeX which was having similar ouput in 1990 as it has today, then it is not my choice and it makes me unhappy.
-
-=--
-
 
 # Idea #
 
@@ -42,7 +36,7 @@ Sometimes, but not always getting rid of limitations coming from 1-categorical t
 
 ## "derived" in the second sense versus "$\infty$-"
 
-The adjective "derived" means pretty much the same as the "$\infty$-" in [[∞-category]]. It stems from the use of "derived" as in [[derived category]] and [[derived functor]]. But incidentally, derived algebraic geometry is honestly [[higher category theory|higher catgeorical]], whereas derived categories and derived functors are really more like 1-categorical shadows of higher categorical structures, as described in detail at [[homotopy category]].
+The adjective "derived" means pretty much the same as the "$\infty$-" in [[∞-category]]. It stems from the use of "derived" as in [[derived category]] and [[derived functor]]. But incidentally, derived algebraic geometry is honestly [[higher category theory|higher categorical]], whereas derived categories and derived functors are really more like 1-categorical shadows of higher categorical structures, as described in detail at [[homotopy category]].
 
 There is no really systematic rule to the use of the word "derived" here. For instance [[derived stack]] has become the standard term for the general version of the notion of [[∞-stack]], but [[Higher Topos Theory]] is not called "derived topos theory".
 
