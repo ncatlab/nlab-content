@@ -84,7 +84,7 @@ $$ \array { \star \\ \uparrow \\ \empty } $$
 Notice that $\empty$ is an immediate subgraph, so we can write $\empty \in \star$.
 
 Then the two most obvious ways of representing the ordinal $2$ as a pure set, namely $2_Z = \{\star\}$ and $2_N = \{\empty, \star\}$, can be drawn as follows:
-$$ \array { 2_Z \\ \uparrow \\ \star \\ \uparrow \\ \empty } \quad \quad \quad \quad \array { 
+$$ \array { 2_Z \\ \uparrow \\ \star \\ \uparrow \\ \empty } \quad \quad \quad \quad \array {
        &          & 2_N \\
        & \nearrow &     & \nwarrow \\
 \empty &          &     &          & \star    \\
@@ -103,30 +103,21 @@ $$ \array {
 } $$
 Of course, as a graph this is isomorphic to $\{\empty, \star\}$, and hence should represent the same pure set.
 
-These sets are all well-founded.  A non-well-founded set can be represented by an infinite picture; here is $\bullet = \{\bullet\}$:
+These sets are all well-founded.  A non-well-founded set can be represented either by an infinite picture, or by a picture with loops.  Here is an infinite picture of $\bullet = \{\bullet\}$:
 $$ \array { \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \vdots } $$
-Looking at the unique immediate subgraph, we verify that $\bullet \in \bullet$.  Note that $\bullet$ can also be represented by the finite graph with one node that is a child of itself.
-
-Of course, a well-founded [[infinite set]] also has an infinite picture, but there are no infinite paths.  Here is $\omega_N$, the set of von Neumann [[natural numbers]]:
+and here is a finite picture:
 $$ \array {
-        &          &          & \omega_N \\
-        & \nearrow & \nearrow &          & \nwarrow & \cdots \\
-\empty  & \star    &          &          &          & 2_N      & \cdots \\
-        & \uparrow &          &          & \nearrow & \uparrow & \cdots \\
-        & \empty   &          & \empty   &          & \star    & \cdots \\
-        &          &          &          &          & \uparrow & \cdots \\
-        &          &          &          &          & \empty   & \cdots \\
-        &          &          &          &          &          & \vdots
+           & \bullet \\
+/          &         & \nwarrow \\
+\backslash &         & /        \\
 } $$
-So we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
-
-By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\prec$ is [[decidable subset|decidable]].  The relationship between these two facts and the no-infinite-path formulation of well-foundedness is a form of [[Konig's lemma|Kőnig's Lemma]].
+In both cases, the unique immediate subgraphs verify that $\bullet \in \bullet$.
 
 
 ## Ambiguities ##
 
 APGs are sufficient to describe all pure sets, but multiple APGs, even non-isomorphic ones, can represent the "same" pure set.  Firstly, we have so far not eliminated the possibility of duplicate branches.  For instance, the pure set $2_Z$ can also be represented as $\{\star, \star\}$:
-$$ \array { 
+$$ \array {
          &          & 2_Z \\
          & \nearrow &     & \nwarrow \\
 \star    &          &     &          & \star    \\
@@ -148,7 +139,7 @@ $$ \array {
 \uparrow & \nwarrow \\
 |        &          & \star    \\
 |        & \nearrow &  \\
-\empty   &          & 
+\empty   &          &
 } $$
 The issue here is that the "same" pure set can occur in more than one place in the membership hierarchy of a pure set, and we have to choose whether or not to identify them in the graph.  There are three solutions to this problem:
 
@@ -170,18 +161,44 @@ An pointed graph is a **tree** if every node admits a *unique* path to the root.
 
 A tree may or may not be well-founded.  Note, though, that in a tree, the [[opposite relation]] $\leftarrow$ is automatically well-founded: each node has a unique [[natural number]] *height*, namely the length of its unique path to the root, so well-foundedness of $\mathbb{N}$ implies well-foundedness of $\leftarrow$.
 
-It now makes sense to define a *pure set* to be a **rigid accessible pointed tree**.  The idea is that two such trees represent the same pure set iff they are isomorphic.   We define "membership" $G\in H$ between such trees to mean that $G$ is isomorphic to some immediate subtree of $H$ (that is, a tree $H/z$ where $z$ is a child of the root of $H$).
+It now makes sense to define a *pure set* to be a *rigid accessible pointed tree*.  The idea is that two such trees represent the same pure set iff they are isomorphic.   We define "membership" $G\in H$ between such trees to mean that $G$ is isomorphic to some immediate subtree of $H$ (that is, a tree $H/z$ where $z$ is a child of the root of $H$).
 
-One can then prove the various axioms of material set theory from these definitions.  Specifically, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{BZC}^-$ (which is __[[ZFC]]__ with only bounded separation and no axioms of [[axiom of replacement|replacement]] or [[axiom of foundation|foundation]]) holds for rigid trees, while $\mathbf{BZC}$ ($\mathbf{BZC}^-$ together with foundation) holds for well-founded rigid trees.  Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and $\mathbf{BZC}^-$, since these definitions involve only function-sets and not power-sets.  Likewise, we can strengthen both sides with axioms of replacement, collection, or separation, or by adding [[Grothendieck universes]].
+For example, the tree representation of $2_N$ is the one we gave first:
+$$\array {
+       &          & 2_N \\
+       & \nearrow &     & \nwarrow \\
+\empty &          &     &          & \star    \\
+       &          &     &          & \uparrow \\
+       &          &     &          & \empty
+}
+$$
+and the tree representation of $\bullet = \{\bullet\}$ is the infinite path:
+$$ \array { \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \vdots .} $$
+Of course, a well-founded [[infinite set]] also has an infinite picture, but there are no infinite paths.  Here is $\omega_N$, the set of von Neumann [[natural numbers]]:
+$$ \array {
+        &          &          & \omega_N \\
+        & \nearrow & \nearrow &          & \nwarrow & \cdots \\
+\empty  & \star    &          &          &          & 2_N      & \cdots \\
+        & \uparrow &          &          & \nearrow & \uparrow & \cdots \\
+        & \empty   &          & \empty   &          & \star    & \cdots \\
+        &          &          &          &          & \uparrow & \cdots \\
+        &          &          &          &          & \empty   & \cdots \\
+        &          &          &          &          &          & \vdots
+} $$
+So we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
+
+A tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\to$ is [[decidable subset|decidable]].  The relationship between these two facts and the no-infinite-path formulation of well-foundedness is a form of [[Konig's lemma|Kőnig's Lemma]].
+
+Given these definitions, one can prove the various axioms of material set theory.  Specifically, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{BZC}^-$ (which is __[[ZFC]]__ with only bounded separation and no axioms of [[axiom of replacement|replacement]] or [[axiom of foundation|foundation]]) holds for rigid trees, while $\mathbf{BZC}$ ($\mathbf{BZC}^-$ together with foundation) holds for well-founded rigid trees.  Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and $\mathbf{BZC}^-$, since these definitions involve only function-sets and not power-sets.  Likewise, we can strengthen both sides with axioms of replacement, collection, or separation, or by adding [[Grothendieck universes]].
 
 The argument for the [[axiom of extensionality]] is perhaps the most interesting; it goes as follows.  If each immediate subtree $G/x$ of $G$ is isomorphic to an immediate subtree $H/y$ of $H$ and conversely, then $y$ and $x$ are mutually uniquely determined by rigidity, so we have a bijection between the children of the roots of $G$ and of $H$.  Since the isomorphisms $G/x \cong H/y$ are also unique, again by rigidity, and each $G/x$ is disjoint from $G/x'$ for $x\neq x'$, by the tree property, we can piece together these isomorphisms to define an isomorphism $G\cong H$.  (In particular, the uniqueness of all these isomorphisms means that the [[axiom of choice]] is not needed.)
 
 (Note, though, that this is only the "weak" version of extensionality.  This is sufficient for well-founded sets, but we may need to strengthen rigidity somehow to obtain stronger notions of [[extensional relation|extensionality]], which are generally more appropriate for ill-founded sets.)
 
 
-## Bisimulations ##
+## Extensional graphs ##
 
-We now consider the *third* solution to the ambiguity problem: defining a looser notion of equivalence between APGs.
+The "tree" representation can be thought of as an _unwrapped_ picture; we now consider a _wrapped_ picture in which there is no duplication at all.  The natural way to ensure this is to require our graphs to be [[extensional relation|extensional]].  For well-founded graphs, this is easy: a well-founded graph is *extensional* if for any nodes $x$ and $y$ such that for all $z$, we have $z\to x$ iff $z\to y$, then necessarily $x=y$.  For non-well-founded graphs, we need the notion of "strong extensionality" defined as follows.
 
 +-- {: .un_defn}
 ###### Definition
@@ -190,66 +207,27 @@ If $G$ and $H$ are graphs, a **bisimulation** from $G$ to $H$ is a binary relati
 * For any $a\to x$, there is some $b\in H$ with $b\to y$ and $a\sim b$, and
 * For any $b\to y$, there is some $a\in G$ with $a\to x$ and $a\sim b$.
 
-Two APGs $G$ and $H$ are **equivalent** if there is a bisimulation $\sim$ from $G$ to $H$ such that $\top\sim\top$.
+A graph $G$ is **extensional** if the largest bisimulation from $G$ to $G$ is the identity.
 =--
 
-The idea is that a bisimulation identifies pairs of nodes which "represent the same pure set."  This interpretation is consistent, since if $\sim$ is a bisimulation from $G$ to $H$ such that $x\sim y$, then the APGs $G/x$ and $H/y$ are equivalent.
+The idea is that a bisimulation identifies pairs of nodes which "represent the same pure set."  One can show that a well-founded graph is extensional in this sense iff it is extensional in the weaker sense given above.  Note also that any extensional APG is necessarily rigid, since any isomorphism $G/x \cong G/y$ induces a bisimulation.
 
-We can now define a *pure set* to be an APG, with *equality* represented by *equivalence* in the above sense.  Unsurprisingly, we define "membership" $G\in H$ to mean that $G$ is equivalent to some immediate subgraph of $H$.  One can again prove the various axioms of material set theory with these definitions.  In this case, we obtain the *strong* notion of [[extensional relation|extensionality]] (which is equivalent to the weak one for well-founded sets).
+Thus, it also makes sense to define a *pure set* to be an *extensional APG*.  Two such APGs represent the same set iff they are isomorphic, and we define membership in the same way: $G\in H$ if $G\cong H/x$ for some child $x$ of the root of $H$.  Of course, one can again prove the axioms of material set theory from this definition.  If we restrict to well-founded extensional APGs, we get the axiom of foundation, while if we allow all extensional APGs, we get the axiom af anti-foundation (along with its strong version of the axiom of extensionality).  Note that this definition is not predicative, since the notion of extensionality involves quantification over bisimulations, which are relations, i.e. subsets.  Thus, it requires either powersets or an [[axiom of separation]].
 
-This definition is not predicative, since the notions of equivalence and membership involve quantification over bisimulations, which are relations, i.e. subsets---thus it requires either powersets or an [[axiom of separation]].
-
-+--{: .query}
-[[Mike Shulman]]: Here is where I left off reorganizing.
-=--
-
-## Reflexive-transitive closures as graphs ##
-
-The picture above may be seen as an _unwrapped_ representation; there is also a _wrapped_ picture.
-
-In this representation, a pure set is an _extensional accessible graph_, again possibly a _well-founded_ one.  Again, we will define this in several stages:
-*  A __[[graph|directed graph]]__ again consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; again, $i$ is a __child__ of $j$ is $i \to j$.
-*  Now instead of forming the quiver of paths, we simply form the [[transitive closure]] $\to^*$ of $\to$.  That is, we only care whether there exists a path, not which paths there are.
-*  A graph is __accessible__ (technically, _directed accessible pointed_) if it is equipped with a __root__ node $r$ that is a [[top]] of $\to^*$ (meaning that every node has a path to the root).
-*  A graph is __extensional__ if $\to$ is an [[extensional relation]]; this is probably the most complicated part.
-*  A graph is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded for an accessible graph).
-
-These subsidiary notions are also needed:
-*  Two graphs are __equivalent__ if there exists a graph isomorphism between them; for extensional graphs, such an isomorphism must be unique.
-*  An accessible graph $X$ is an __immediate subgraph__ of an accessible graph $Y$ if $X$ is isomorphic to the $\to^*$-downset of one of the children of the root in $Y$; for extensional graphs, this can again happen only in one way.
-
-In this picture, the nodes are precisely the elements of the reflexive-[[transitive closure]] of the pure set, and the relation $\to$ on them is precisely the membership relation $\in$.
-
-
-### Examples ###
-
-Again, the root represents the pure set itself, the root\'s children are its elements, and so on.  Now, however, there is no more branching than necessary and no repetition whatsoever among the identities of the nodes.
-
-Again $\empty = \{ \}$ consists of nothing but the root:
-$$ \empty $$
-
-The set $\star = \{\empty\}$ still the empty set attached to the root:
-$$ \array { \star \\ \uparrow \\ \empty } $$
-Again $\empty$ is an immediate subgraph, so we can write $\empty \in \star$.
-
-Even $2_Z = \{\star\}$ looks the same as before, but now $2_N = \{\empty, \star\}$ looks different:
-$$ \array { 2_Z \\ \uparrow \\ \star \\ \uparrow \\ \empty } \quad \quad \quad \quad \array { 
-2_N         \\
-\uparrow    & \nwarrow \\
-|           &          & \star    \\
-|           & \nearrow \\
-\empty
+For example, the extensional representation of $2_N$ is this one:
+$$ \array {
+2_N \\
+\uparrow & \nwarrow \\
+|        &          & \star    \\
+|        & \nearrow &  \\
+\empty   &          &
 } $$
-Looking at immediate subgraphs, again $\star \in 2_Z$, $\empty \in 2_N$, and $\star \in 2_N$.
-
-The non-well-founded set $\bullet = \{\bullet\}$ consists of a loop:
+while the extensional representation of $\bullet = \{\bullet \}$ is the loop:
 $$ \array {
            & \bullet \\
 /          &         & \nwarrow \\
 \backslash &         & /        \\
 } $$
-As the root is a child of itself, the entire subgraph is an immediate subgraph of itself, so $\bullet \in \bullet$.
-
 Finally, here is the set $\omega_N$ of von Neumann [[natural numbers]]:
 $$ \array {
          &            & \omega_N \\
@@ -262,13 +240,43 @@ $$ \array {
 } $$
 Again we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
 
-Now an extensional accessible graph models a [[hereditarily finite set]] iff the graph itself is finite and $\prec$ is decidable.
+Now an extensional accessible graph models a [[hereditarily finite set]] iff the graph itself is finite and $\to$ is decidable.
 
 
-## Relation between these ##
+## Equivalence ##
 
-Peter Aczel\'s general model of a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a rigid one), nor need it be extensional.  One can make such a graph extensional by identifying nodes to make the extensional quotient as explained at [[extensional relation]].  Then one can unwrap this extensional graph into a rigid tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
+Finally, we consider the third solution to the ambiguity problem, and its relation to the first two: defining a looser notion of equivalence between APGs.  Recall the notion of bisimulation.  We say that two APGs $G$ and $H$ are **equivalent** if there is a bisimulation $\sim$ from $G$ to $H$ such that $\top\sim\top$.  Note that if $\sim$ is a bisimulation from $G$ to $H$ such that $x\sim y$, then the APGs $G/x$ and $H/y$ are equivalent; this justifies the interpretation of a bisimulation.
 
+We can now define a *pure set* to be an APG, with *equality* represented by *equivalence* in the above sense.  Likewise, we define "membership" $G\in H$ to mean that $G$ is *equivalent* to some immediate subgraph of $H$.  One can again prove the various axioms of material set theory with these definitions (either using well-founded APGs or arbitrary ones).  As with extensional APGs, in this case we obtain the *strong* notion of [[extensional relation|extensionality]] (which is equivalent to the weak one for well-founded sets).  This definition is also not predicative.
+
+The relationship of this approach to the previous ones is as follows.
+
+1. Every APG is equivalent to an extensional one.  Namely, let $\approx$ be the maximal bisimulation on $G$ (the union of all bisimulations); it is an equivalence relation, and its quotient $G/\approx$ inherits the structure of an extensional APG which is equivalent to $G$.  This is the *extensional quotient*; see [[extensional relation]].
+
+1. Two extensional APGs are equivalent iff they are isomorphic.  For if $\sim$ is a bisimulation from $G$ to $H$, then defining $x\approx y$ in $G$ if there exists a node $z$ in $H$ with $x\sim z$ and $y\sim z$ gives a bisimulation on $G$, which must be the identity, and similarly for $H$; hence $\sim$ must in fact be a bijection.  Thus, the notion of "pure set" obtained from "extensional APGs and isomorphism" is the same as that obtained from "arbitrary APGs and equivalence."
+
+1. Every APG is equivalent to one that is a tree, its "unwrapping".  The nodes of the tree can be taken to be the finite paths $x_n \to \dots \to x_0 = \top$ ending at the root, with any "one-level extension" $x_{n+1} \to x_n \to \dots \to \top$ being a child of $x_n \to \dots\to \top$.  The bisimulation relates each path $x_n \to \dots\to \top$ to its initial node $x_n$.
+
+1. Moreover, every APG is equivalent to a *rigid* accessible pointed tree.  The key here is to first take the extensional quotient, then perform the above "unwrapping" construction: the unwrapping of any extensional graph will always be rigid.
+
+1. Two well-founded rigid accessible pointed trees are equivalent iff they are isomorphic.  For if $\sim$ is a bisimulation from $G$ to $H$, we can prove by well-founded induction that whenever $x\sim y$, then $\sim$ is a bijection between the children of $x$ and of $y$.  For assume that all the children of $x$ and $y$ have this property.  Then if we have $x_1 \to x$ and $x_2\to x$ with $x_1 \sim y$ and $x_2 \sim y$, then by hypothesis $\sim$ is a bijection between $G/x_1$ and $H/y$, and between $G/x_2$ and $H/y$, hence we have $G/x_1 \cong G/x_2$; thus by rigidity $x_1=x_2$.  Therefore, $\sim$ itself is a bijection.
+
+In order to extend this last result to non-well-founded trees, we need a stronger notion of rigidity.  For example, the following two trees are equivalent but not isomorphic, yet both are rigid.
+
+$$ \array{ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \vdots }
+\quad\quad\quad\quad
+\array{
+       &          &          &          & \bullet \\
+       &          &          & \nearrow &         & \nwarrow\\
+       &          & \bullet  &          &         &          & \bullet\\
+       & \nearrow &          &          &         & \nearrow &         & \nwarrow\\
+\udots &          &          &          & \bullet &          &         &          & \bullet\\
+       &          &          & \nearrow &         &          &         & \nearrow &         & \nwarrow\\
+       &          & \udots   &          &         &          & \udots  &          &         &          & \ddots
+}
+$$
+
+In conclusion, there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible pointed graph will represent a pure set one way or another.
 
 # References #
 
