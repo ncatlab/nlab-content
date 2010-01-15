@@ -40,3 +40,4 @@ There is a bit of related stuff at [[net]] too, by the way.  I ought to get my o
 
 [[!redirects sequences]]
 [[!redirects infinite sequence]]
+[[!redirects infinite sequences]]
