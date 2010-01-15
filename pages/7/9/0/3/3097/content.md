@@ -26,4 +26,4 @@ In that vein, I just introduced the term 'punny', although it is a clich&#233;.
 
 [[!redirects pun title]]
 
-category: references
+category: reference
