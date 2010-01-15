@@ -193,7 +193,7 @@ Given these definitions, one can prove the various axioms of material set theory
 
 The argument for the [[axiom of extensionality]] is perhaps the most interesting; it goes as follows.  If each immediate subtree $G/x$ of $G$ is isomorphic to an immediate subtree $H/y$ of $H$ and conversely, then $y$ and $x$ are mutually uniquely determined by rigidity, so we have a bijection between the children of the roots of $G$ and of $H$.  Since the isomorphisms $G/x \cong H/y$ are also unique, again by rigidity, and each $G/x$ is disjoint from $G/x'$ for $x\neq x'$, by the tree property, we can piece together these isomorphisms to define an isomorphism $G\cong H$.  (In particular, the uniqueness of all these isomorphisms means that the [[axiom of choice]] is not needed.)
 
-(Note, though, that this is only the "weak" version of extensionality.  This is sufficient for well-founded sets, but we may need to strengthen rigidity somehow to obtain stronger notions of [[extensional relation|extensionality]], which are generally more appropriate for ill-founded sets.)
+(Note, though, that this is only the "weak" version of extensionality.  This is sufficient for well-founded sets, but we may need to strengthen rigidity somehow to obtain stronger notions of [[extensional relation|extensionality]], which are generally more appropriate for ill-founded sets.  More precisely, the well-founded rigid trees model the usual axioms of extensionality and foundation, while arbitrary rigid trees model not Aczel's axiom of anti-foundation AFA, but its "Scott" variant, SAFA.)
 
 
 ## Extensional graphs ##
@@ -212,7 +212,7 @@ A graph $G$ is **extensional** if the largest bisimulation from $G$ to $G$ is th
 
 The idea is that a bisimulation identifies pairs of nodes which "represent the same pure set."  One can show that a well-founded graph is extensional in this sense iff it is extensional in the weaker sense given above.  Note also that any extensional APG is necessarily rigid, since any isomorphism $G/x \cong G/y$ induces a bisimulation.
 
-Thus, it also makes sense to define a *pure set* to be an *extensional APG*.  Two such APGs represent the same set iff they are isomorphic, and we define membership in the same way: $G\in H$ if $G\cong H/x$ for some child $x$ of the root of $H$.  Of course, one can again prove the axioms of material set theory from this definition.  If we restrict to well-founded extensional APGs, we get the axiom of foundation, while if we allow all extensional APGs, we get the axiom af anti-foundation (along with its strong version of the axiom of extensionality).  Note that this definition is not predicative, since the notion of extensionality involves quantification over bisimulations, which are relations, i.e. subsets.  Thus, it requires either powersets or an [[axiom of separation]].
+Thus, it also makes sense to define a *pure set* to be an *extensional APG*.  Two such APGs represent the same set iff they are isomorphic, and we define membership in the same way: $G\in H$ if $G\cong H/x$ for some child $x$ of the root of $H$.  Of course, one can again prove the axioms of material set theory from this definition.  If we restrict to well-founded extensional APGs, we get the axiom of foundation, while if we allow all extensional APGs, we get Aczel's axiom af anti-foundation (along with its strong version of the axiom of extensionality).  Note that this definition is not predicative, since the notion of extensionality involves quantification over bisimulations, which are relations, i.e. subsets.  Thus, it requires either powersets or an [[axiom of separation]].
 
 For example, the extensional representation of $2_N$ is this one:
 $$ \array {
@@ -261,7 +261,7 @@ The relationship of this approach to the previous ones is as follows.
 
 1. Two well-founded rigid accessible pointed trees are equivalent iff they are isomorphic.  For if $\sim$ is a bisimulation from $G$ to $H$, we can prove by well-founded induction that whenever $x\sim y$, then $\sim$ is a bijection between the children of $x$ and of $y$.  For assume that all the children of $x$ and $y$ have this property.  Then if we have $x_1 \to x$ and $x_2\to x$ with $x_1 \sim y$ and $x_2 \sim y$, then by hypothesis $\sim$ is a bijection between $G/x_1$ and $H/y$, and between $G/x_2$ and $H/y$, hence we have $G/x_1 \cong G/x_2$; thus by rigidity $x_1=x_2$.  Therefore, $\sim$ itself is a bijection.
 
-In order to extend this last result to non-well-founded trees, we need a stronger notion of rigidity.  For example, the following two trees are equivalent but not isomorphic, yet both are rigid.
+In order to extend this last result to non-well-founded trees, we would need to use a stronger notion of rigidity.  (This makes sense since SAFA is incompatible with AFA.  We could expect to be able to use "Scott-extensionality" in place of extensionality to obtain a theory equivalent to that of rigid trees.)  For example, the following two ill-founded trees are equivalent but not isomorphic, yet both are rigid.
 
 $$ \array{ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \vdots }
 \quad\quad\quad\quad
@@ -276,11 +276,10 @@ $$ \array{ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \vdots }
 }
 $$
 
-In conclusion, there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible pointed graph will represent a pure set one way or another.
+In conclusion, there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible pointed graph will represent a pure set one way or another.  For well-founded sets, the two extreme ways are equivalent, but for ill-founded sets the choice between them can make a difference (and in fact, there are a number of other possible variants, corresponding to the spectrum of anti-foundation axioms discussed by Aczel).
 
 # References #
 
 *  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
-
 
 [[!redirects pure sets]]
