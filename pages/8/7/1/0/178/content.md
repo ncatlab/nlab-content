@@ -20,3 +20,4 @@ A systematic setup is proposed at [[schreiber:∞-Lie theory]].
 [[!redirects Lie ∞-groupoids]]
 [[!redirects ∞-Lie groupoid]]
 [[!redirects ∞-Lie groupoids]]
+[[!redirects Lie-infinity-groupoid]]
