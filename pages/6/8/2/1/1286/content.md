@@ -1,8 +1,13 @@
-#Idea#
 
-A _derived stack_ is an [[(infinity,1)-sheaf]] whose domain is not a [[1-category]].
+#Contents#
+* automatic table of contents
+{:toc}
 
-One says _derived stack_ in order to distinguish from the traditional notion of [[infinity-stack]] which is an [[(infinity,1)-sheaf]] whose domain is still a 1-categorical [[site]].
+## Idea 
+
+A _derived stack_ is an [[∞-stack]] -- an [[(∞,1)-sheaf]] -- whose domain is not a [[1-category]] but more generally an [[(∞,1)-category]].
+
+One says _derived stack_ in order to distinguish from the traditional notion of [[∞-stack]] which is an [[(∞,1)-sheaf]] whose domain is still a 1-categorical [[site]].
 
 For recall that a [[sheaf]] is a [[functor]] $F : C^{op} \to Set$ satisfying some [[descent]]-condition.
 So there are two steps in which the notion of [[sheaf]] may be [[vertical categorification|categorified]]:
@@ -16,7 +21,7 @@ But there is no natural reason why the domain should in general remain a 1-categ
 
 In practice one often looks at the model of derived stacks obtained from generalizing the theory of [[simplicial presheaf|simplicial presheaves]]: so a derived pre-stack is often modeled as a [[SSet]]-[[enriched category theory|enriched]] functor $F : C^{op} \to SSet$ from an [[SSet]]-enriched category to $SSet$.
 
-## Central motivation: derived stacks have good limits ##
+## Central motivation: derived stacks have good limits
 
 One general idea for the use of higher and derived stacks is that
 
@@ -41,16 +46,20 @@ A detailed illustration and motivation of the need of these "good limits" that d
   * David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf)
 
 
-#Examples#
+## Examples
 
-* passing from [[sheaf|sheaves]] or [[infinity-stack]]s on the domain [[CRing]] of commutative rings to the [[simplicially enriched category]] (hence an [[(infinity,1)-category]]) $SimpCRing$ of simplicial commutative rings corresponds, under the [[Dold-Kan correspondence]] to passing from spaces with an ordinary function algebra to spaces with a [[differential graded algebra]] as a function algebra. These are generalized [[NQ-supermanifolds]] (...more details and context should go here ...)
+* passing from [[sheaf|sheaves]] or [[∞-stack]]s on the domain [[CRing]] of commutative rings to the [[simplicially enriched category]] (hence an [[(infinity,1)-category]]) $SimpCRing$ of [[simplicial ring|simplicial commutative rings]] corresponds, under the [[Dold-Kan correspondence]] to passing from spaces with an ordinary function algebra to spaces with a [[differential graded algebra]] as a function algebra. 
 
-
-#References#
+## References
 
 An overview is provided in 
 
 * B. To&#235;n;  _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
+
+A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
+
+* [[Bertrand Toen]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
+
 
 Details modeled on [[simplicially enriched category|simplicial categories]] have been developed in the series of articles by To&#235;n and Vezossi.
 
