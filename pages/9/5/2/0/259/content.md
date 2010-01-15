@@ -85,7 +85,7 @@ Math. Proc. Cambridge Philos. Soc., 100, (1986), 65&#8211;90,
 
 it was shown that this homotopy coherent nerve was a quasi-category if the simplicial enrichment was by Kan complexes.
  
-Their importance as a basis for [[category theory]] has been emphasized in the work by Joyal
+Their importance as a basis for [[category theory]] has been emphasized in the work by [[André Joyal]]
 
 * A. Joyal, _Quasi-categories and Kan complexes_, J. Pure Appl. Algebra, 175 (2002), 207-222.
 
