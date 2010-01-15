@@ -89,13 +89,13 @@ Their importance as a basis for [[category theory]] has been emphasized in the w
 
 * A. Joyal, _Quasi-categories and Kan complexes_, J. Pure Appl. Algebra, 175 (2002), 207-222.
 
-* A. Joyal, _Simplicial categories vs quasi-categories_, in preparation.
+For several years Joyal has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive writup of lecture notes does:
 
-Jacob Lurie developed the theory of quasi-categories in
+* [[Andre Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
 
-in order to discuss the theory of [[(∞,1)-topos]]es of [[∞-stack]]s.
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 
 
