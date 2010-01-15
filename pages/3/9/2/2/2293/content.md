@@ -129,6 +129,11 @@ Then the major systematic work is
 * Bertrand To&#235;n, Gabriele Vezzosi, _From HAG to DAG: derived moduli stacks_, in Axiomatic, enriched and motivic homotopy theory, 173--216,
 NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer Acad. Publ., Dordrecht, 2004, [math.AG/0210407](http://arxiv.org/abs/math/0210407).
 
+A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
+
+* [[Bertrand Toen]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
+
+
 The theory of derived algebraic geometry in the second sense is given yet another general framework in 
 
 * [[Jacob Lurie]], _[[structured (∞,1)-topos|Structured Spaces]] 
