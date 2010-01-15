@@ -67,16 +67,6 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
   The [[classifying topos]] of this theory is the topos of [[sheaves]] on the [[real numbers]].
 
 
-* The theory of a [[finite set]] is geometric.  It has a single axiom, which is the disjunction of the following countably infinitely many statements:
-
-  * $\top \vdash_x \bot$,
-  * $\top \vdash_{x,y} x = y$,
-  * $\top \vdash_{x,y,z} x = y \;\vee\; x = z \;\vee\; y = z$,
-  * etc.
-
-  (In the constructive logic, this is the most general notion of finite set: a subfinitely indexed set, or $\tilde{K}$-finite set.  Stronger notions of finite set are not geometric, since they require [[negation]] in the conclusion.)
-
-
 # Other characterizations
 
 ## From logic to geometry
