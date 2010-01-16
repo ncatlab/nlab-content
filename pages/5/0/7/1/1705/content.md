@@ -36,3 +36,6 @@ Hammock localization is described in Section 4.1 there.
 A useful quick collection of facts can be found at the beginning of Section 2 in the following paper:
 
 * Clark Barwick, _On (enriched) Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
+[[!redirects Dwyer-Kan localization]]
+[[!redirects Hammock-Localization]]
