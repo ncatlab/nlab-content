@@ -100,33 +100,14 @@ In this context, the [[transfer principle]] is the fact that the functor $^*(-)$
 A different topos-theoretic construction is to consider the topos of sheaves on a category of filters.  This topos models the [[internal set]] theory of Nelson, a more axiomatic approach to nonstandard analysis.
 
 
-### In Synthetic Differential Geometry {#ToposModels}
+## Relationship to other types of infinitesimal {#ToposModels}
 
-A few aspects of nonstandard analysis can be realized in some models of [[synthetic differential geometry]].  Most of the infinitesimals considered there are nilpotent, hence not invertible, but there are some models that do contain invertible infinitesimals and hence also 'infinite' numbers.  The transfer principle is not, in general, valid, but in some cases a version of it can be proven applying only to statements of a very limited form, and a few of the ideas of nonstandard analysis can sometimes be carried over.
+There are other ways of realizing the notion of [[infinitesimal number]] precisely, such as [[synthetic differential geometry]] and the [[surreal number]]s.  Neither seem to be very closely related to NSA---the techniques and flavor of each subject are quite different.  However, some things can be said.
 
-Two models with invertible infinitesimals are the [[smooth topos]]es called $\mathcal{Z}$ and $\mathcal{B}$ in
+* While the most common infinitesimals appearing in SDG are [[nilpotent]], in contrast to those of NSA which are invertible, some models of SDG do contain invertible infinitesimals; see [here](http://ncatlab.org/nlab/show/infinitesimal+number#NSAvsSDG).
 
-* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
+* Since the surreal numbers are the universally embedding ordered field, any field of hyperreals can be embedded in the surreals.  However, such embeddings don't seem very useful, since they don't preserve any of the important structure of the hyperreals (such as the transfer principle).
 
-These are related to the smooth topos called $\mathcal{G}$ there, which has nilpotent but no invertible infinintesimal, by a transfer theorem (chapter VII, section 4) valid for all [[coherent formula]]s.
-
-An idea for the relationship at the level of models is indicated at [[smooth natural numbers]].  Namely, in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized elements]] $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
-
-Very roughly, this is the mechanism by which aspects of nonstandard analysis are realized in such [[topos]]es.
-
-+--{: .query}
-[[Mike Shulman]]: I don't think it's as simple as that.  I mean, already in $Set$ the object $\mathbb{R}$ has generalized elements on the domain of definition $\mathbb{N}$, which are also sequences of real numbers.  So if there's any nonstandard analysis to be recovered here, there has to be more to it than that.
-
-[[Urs Schreiber]]: yes, there should be more. Here is a bit more:
-
-=--
-
-The _generic non-standard natural number_ is the [[generalized element]] of $N$ on the domain of definition $\ell C^\infty(\mathbb{N})/{NullTail}$, where $NullTail$ is the ideal of sequences of real numbers that vanish above some integer, given by the canonical injection $\ell C^\infty(\mathbb{N})/NullTail \to N$ that is dual to the canonical projection of the ring onto its quotient.
-
-The ring $C^\infty(\mathbb{N})/NullTail$ here is a quotient ring of sequences as above, where two sequences are identified if they agree above some integer. So $\ell C^\infty(\mathbb{N})/NullTail$ is the [[smooth locus]] whose function algebra is similar to a nonstandard extension of $\mathbb{R}$.
-
-
-The generic non-standard natural number is discussed on page 252 of the above book.
 
 #References#
 
@@ -136,3 +117,8 @@ The generic non-standard natural number is discussed on page 252 of the above bo
 
 * Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analysis), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduct), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson)
 
+[[!redirects hyperreal]]
+[[!redirects hyperreal number]]
+[[!redirects hyperreals]]
+[[!redirects hyperreal numbers]]
+[[!redirects NSA]]
