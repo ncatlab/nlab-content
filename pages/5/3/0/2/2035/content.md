@@ -20,3 +20,4 @@ The structure rings of classical [[algebraic variety|algebraic varieties]] are f
 [[!redirects nilpotent Lie algebras]]
 [[!redirects Engel's Lie algebras]]
 [[!redirects Levitskii radicals]]
+[[!redirects nilpotent]]
