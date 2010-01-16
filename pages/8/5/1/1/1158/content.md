@@ -1,4 +1,12 @@
-#Idea#
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc} 
+
+## Idea
 
 The standard _Deligne complex_ (of [[abelian sheaf cohomology|abelian sheaves]]) is under the [[Dold-Kan correspondence]] the sheaf of
 [[n-groupoid]]s of smooth [[n-functor]]s from the [[path n-groupoid]] to the $n$-fold [[delooping]] $\mathbf{B}^n U(1)$:
@@ -38,7 +46,7 @@ classifies line $(n-2)$-gerbes with connection.
 Accordingly, the _Deligne complex_ of sheaves $\mathbb{Z}(n)^\infty_D$
 is a complex of sheaves of differential forms.
 
-#Definition#
+## Definition
 
 +-- {: .un_defn}
 ###### Definition
@@ -140,7 +148,7 @@ $$
 Here the notation on the right is motivated from the discussion at the end of [[motivation for sheaves, cohomology and higher stacks]].
 
 
-# Characteristic classes of Deligne cocycles #
+## Characteristic classes of Deligne cocycles 
 
 There are two natural morphisms of abelian [[cohomology group]]s out of Deligne cohomology:
 
@@ -287,7 +295,7 @@ is the cohomology of a homotopy pullback diagram, i.e. satisfies the axioms desc
 =--
 
 
-#Interpretation in terms of parallel transport#
+## Interpretation in terms of parallel transport
 
 There is a natural way to understand the Deligne complex of sheaves as a sheaf which assigns to each patch the Lie $n$-groupoid of smooth parallel transport $n$-functors. This perspective is helpful for understanding how Deligne cohomology relates to the bigger picture of [[differential cohomology]].
 
@@ -361,7 +369,7 @@ For higher $n$ there is as yet no detailed proof in the literature, but the
 low dimensional proofs have obvious generalizations.
 
 
-# Examples #
+## Examples 
 
 As described in smoe detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[Čech cohomology|Čech]]--Deligne cocycle, i.e. a [[Čech cohomology|Čech cocycle]] representative with values in the Deligne complex.
 
@@ -378,7 +386,7 @@ As described in smoe detail at [[electromagnetic field]] in abelian higher [[gau
   * In formal high energy physics degree 4 Deligne classes model the [[supergravity C-field]].
 
 
-#References#
+## References
 
 A standard textbook reference is section 5 of
 
