@@ -35,6 +35,6 @@ which considers the [[?ech cover]]-localization assuming $V$ to be [[monoidal ca
 
 * [[Joseph Ayoub]], _Les six op&eacute;ration de Grothendieck et le formalisme des cycles &eacute;vanescents dans le monde motivic_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/THESE.PDF)) 
 
-which apparently does the [[hypercover]] [[descent]] and without assuming $V$ to be be monoidal.
+which apparently does the [[hypercover]] [[descent]] and without assuming $V$ to be monoidal.
 
 Much of this was kindly pointed out by [[Denis-Charles Cisinski]] in discussion [here](http://mathoverflow.net/questions/5808/local-joyal-simplicial-presheaves).
