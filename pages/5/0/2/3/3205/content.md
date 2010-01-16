@@ -33,3 +33,6 @@ Before rushing into the creation of **CatLab**, it is the purpose of this page t
 * [itex Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
 * [[FAQ]]
 * [The nLab in the eyes of others](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=548)
+
+
+category: meta
