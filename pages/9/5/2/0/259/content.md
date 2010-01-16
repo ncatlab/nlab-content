@@ -8,14 +8,14 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
 The notion of quasi-category is a [[geometric definition of higher category]] that relaxes the [[Kan complex|Kan condition]] on a simplicial set.
 
 Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞-groupoid]] -- also called an [[(∞,0)-category]] --  a [[quasi-category]] is a model in terms of [[simplicial set]]s of an [[(∞,1)-category]].
 
 
-#Definition#
+## Definition
 
 
 A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
@@ -29,7 +29,7 @@ Would we apply the lifting condition on all but three of the indicies... and if 
 
 =--
 
-#Remarks#
+## Remarks
 
 * Compare with the definition of a [[Kan complex]] in which _all_ horns are required to have fillers: a quasi-category is a structure slightly weaker than a Kan complex. Indeed, while we can think of a Kan complex as an [[∞-groupoid]] (that is an $(\infty,0)$-category), in which _all_ morphisms are [[equivalence]]s, a quasi-category is a model for an [[(∞,1)-category]], in which only all [[k-morphism]]s for $k \geq 2$ are required to be [[equivalence]]s.  
 
@@ -37,7 +37,7 @@ Would we apply the lifting condition on all but three of the indicies... and if 
 
 * The [[nerve]] of an ordinary [[category]] is always a quasi-category, while the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid].  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
 
-## higher associahedra in quasi-categories ##
+### Higher associahedra in quasi-categories
 
 While the geometric definition of [[(∞,1)-category]] in terms of quasi-categories eleganty captures all the higher categorical data automatically, it may be of interest in applications to explicitly extract the associators and higher associators encoded by this structure, that would show up any any algebraic definition of the same categorical structure. 
 
@@ -46,7 +46,7 @@ For a discussion of this see
 * [[Emily Riehl]], _Associativity data in an $(\infty,1)$-category_ ([pdf](http://math.uchicago.edu/~eriehl/associativity.pdf) [blog](http://golem.ph.utexas.edu/category/2009/10/associativity_data_in_an_1cate.html))
 
 
-# Constructions in quasi-categories #
+## Constructions in quasi-categories 
 
 The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of [[category theory]] have natural analogs in the context of quasi-categories. See for instance
 
@@ -59,7 +59,7 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 * [[join of quasi-categories]]
 
 
-#References#
+## References
 
 Quasi-categories have originally been defined in
 
@@ -97,6 +97,11 @@ Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
+The relation between [[quasi-category|quasi-categories]] and [[simplicially enriched categories]] was discussed in detail in 
+
+* [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
+
+* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
 
 
 [[!redirects quasi-categories]]
