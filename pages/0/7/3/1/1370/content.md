@@ -34,3 +34,4 @@ Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du 
 category: people
 
 [[!redirects André Joyal]]
+[[!redirects joyal]]
