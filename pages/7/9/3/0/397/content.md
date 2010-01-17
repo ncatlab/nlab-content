@@ -85,6 +85,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Noah Snyder]]
 * [[Noam Zeilberger]]
 * [[Omar Antolín-Camarena]]
+* [[ouijaa]]
 * [[Owen Biesel]]
 * [[Patrick Schultz]]
 * [[Peter Arndt]]
