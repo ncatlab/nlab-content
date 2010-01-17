@@ -48,7 +48,11 @@ _identity_ of $a$.
 ## Notation
 
 The set $C_0$ of objects of a category $C$ is often denoted $Ob(C)$.
-But we shall often write $a\in C$ instead of writing $a\in Ob(C)$;
+But we shall often write $a\in C$ instead of $a\in Ob(C)$;
+the set $C(a,b)$ is often denoted $hom_C(a,b)$, or just $hom(a,b)$
+if the context is clear. A morphism $f:a\to a$ is said to be
+an _endomorphism_ of the object $a$. The composition law
+gives the set $hom(a,a)$ the structure of a monoid.
 
 ## Size issues 
 
@@ -94,26 +98,44 @@ These classic examples are the original motivation for the term "category": all 
 * **Poset** A [[partial order|poset]] can be thought of as a category with its elements as objects and one morphism in each $hom(x,y)$ if $x$ is less than or equal to $y$, but none otherwise.  
 
 
-* **Monoid** More generally, a [[monoid]] is a category with a single object. In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
+* **Monoid** A category with a single object $\star$
+is a monoid $Hom(\star,\star)$.
+In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
 
 
 ## Definition
 
 * A morphism $f:a\to b$ is a category is said to be _inversible_ ,
-or that it is an _isomorphism_ if there exists a morphism $h:b\to a$ such that $h f=1_a$ and $f h=1_b$, in which
-case $h$ is said to be the _inverse_ of $f$ and we write $g=f^{-1}$
-(the inverse of a morphism is unique when it exists).  The composite
+or to be an _isomorphism_ if there exists a morphism $h:b\to a$ such that $h f=1_a$ and $f h=1_b$, in which
+case $h$ is said to be the _inverse_ of $f$ and we write $h=f^{-1}$
+(the inverse is unique when it exists).  The composite
 of two isomorphisms $f: a \to b$ and $g:b\to c$
-is an isomorphism and we have $(g f)^{-1}=g^{-1}f^{-1}$.    
+is an isomorphism and we have $(g f)^{-1}=f^{-1}g^{-1}$.    
 
-* A _groupoid_ is a category in which every morphism is inverible.
+* A _groupoid_ is a category in which every morphism is inversible.
 
 
 ## Examples
 
+* A map $f:S\to T$ in the category [[Set]] invertible iff it is
+_bijective_. 
 
-* **Group** A [[group]] is just a category where there's one object and all the morphisms have inverses - we call the morphisms "elements" of the group.  This may seem weird, but it's actually a very useful viewpoint. Here's another way to say it: _A group is a [[groupoid]] with a single object_.
+* An isomorphism in the category [[Top]] is said to be a _homeomorphism_.
 
+* The isomorphisms of a category $C$ are closed under composition.
+They form a category $Iso(C)$ having the same objects as $C$. The
+category $Iso(C)$ is a groupoid. 
+
+
+
+* **Group** A [[group]] is a groupoid with a single object.
+In fact, groupoids are the [[horizontal categorification|many object version]] of groups.
+
+
+
+## Definition
+
+* 
 
 ##Reference
 
