@@ -1,6 +1,11 @@
-# Idea #
+# Doctrines
+* table of contents
+{: toc}
 
-A **doctrine**, as the word was originally used by [[Jon Beck]], is a [[vertical categorification|categorification]] of a "theory."  Thus, a doctrine could also reasonably be called a "2-theory."
+
+## Idea
+
+A **doctrine**, as the word was originally used by [[Jon Beck]], is a [[vertical categorification|categorification]] of a "[[theory]]".  Thus, a doctrine could also reasonably be called a "2-theory."
 
 Here we are using the word "theory" in a vague non-precise sense.  For instance, there is a theory of [[group]]s, a theory of [[abelian group]]s, a theory of [[commutative ring]]s, and so on.  Likewise, there is a doctrine of [[monoidal categories]], a doctrine of [[cartesian monoidal category|categories with finite product]]s, a doctrine of [[rig category|rig categories]], and so on.
 
@@ -10,7 +15,8 @@ Moreover, in general there is a "free" category containing a model of some given
 
 For this to make sense, whatever a doctrine is, it must in particular induce a 2-category of its models.  Or, at least, of its models in [[Cat]], which is so far all that we have talked about.  But one can also imagine considering 2-theories as objects of some 3-theory, and so on.  (Unfortunately this approach involves us in an infinite regress when we look for a formal definition!)
 
-# Definitions
+
+## Definitions
 
 A number of people, starting with Lawvere, have defined "doctrine" to mean [[2-monad]] (particularly a 2-monad on $Cat$).  This may seem reasonable, since all the examples of doctrines we considered above are, in fact, (the algebras for) some 2-monad on $Cat$.  However, it is not really correct.  At a lower level, the "theories" considered above of which a doctrine is supposed to be a categorification are also _not_ the same as [[monad]]s.
 
@@ -18,6 +24,7 @@ In particular, the morphisms between such theories are not all representable by 
 
 (other possible definitions...?)
 
-# References
+
+## References
 
 * [Algebraic Geometry for Category Theorists (blog post)](http://golem.ph.utexas.edu/category/2009/06/algebraic_geometry_for_categor.html)
