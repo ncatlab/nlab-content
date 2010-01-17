@@ -9,7 +9,7 @@
 
 ## Idea
 
-In every [[smooth topos]] there is a notion of [[infinitesimal object]] and of [[infinitesimal number]].  The most common such infinitesimal numbers are [[nilpotent]], but in some special smooth toposes, there is in addition a notion of _invertible infinitesimal_.  In these toposes there is likewise an object of _smooth natural numbers_, which contains _infinite_ or _[[nonstandard natural number]]s_ (and whose inverses are invertible infinitesimals).
+In every [[smooth topos]] there is a notion of [[infinitesimal object]] and of [[infinitesimal number]].  The most common such infinitesimal numbers are [[nilpotent]], but in some special smooth toposes, there is in addition a notion of _invertible infinitesimal_.  In these toposes there is likewise an object of _smooth natural numbers_, which contains _infinite_ or _[[nonstandard number|nonstandard natural numbers]]_ (and whose inverses are invertible infinitesimals).
 
 Some examples of such smooth toposes are discussed at [[Models for Smooth Infinitesimal Analysis]].
 
@@ -36,7 +36,7 @@ In such a case there are two objects in $\mathcal{T}$ that both look like they s
 
    this is the [[sheafification]] of the [[presheaf]] that is constant on the set $\mathbb{N}$. A morphism into this presheaf is a _constant_ $\mathbb{N}$-valued function. And since we are sheafifying, by assumption, with respect to _finite_ covers, a morphism from a set into its sheafification is a function into $\mathbb{N}$ that is constant on each patch of a _finite_ cover of that set and hence is a _bounded_ $\mathbb{N}$-valued function.
 
-The unbounded functions thus represent [[infinite number|infinite]] or [[nonstandard natural number|non-standard]] "smooth natural numbers."  In particular, a [[generalized element]] $n \in \Delta(\mathbb{N})$ with domain of definition $\mathbb{N}$ (regarded as an object of $\mathcal{T}$) is a _bounded_ sequence of integers, whereas a similarly defined [[generalized element]] $\nu \in N$ is a possibly _unbounded_ sequence of integers.  This is intuitively similar to the unbounded sequences of numbers that represent infinitely large numbers in the ultrafilter approach to [[nonstandard analysis]] (a different way of making [[infinitesimal numbers]] precise).
+The unbounded functions thus represent [[infinite number|infinite]] or [[nonstandard number|non-standard]] "smooth natural numbers."  In particular, a [[generalized element]] $n \in \Delta(\mathbb{N})$ with domain of definition $\mathbb{N}$ (regarded as an object of $\mathcal{T}$) is a _bounded_ sequence of integers, whereas a similarly defined [[generalized element]] $\nu \in N$ is a possibly _unbounded_ sequence of integers.  This is intuitively similar to the unbounded sequences of numbers that represent infinitely large numbers in the ultrafilter approach to [[nonstandard analysis]] (a different way of making [[infinitesimal numbers]] precise).
 
 
 ## The generic nonstandard number
