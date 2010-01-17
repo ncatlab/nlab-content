@@ -132,7 +132,7 @@ $$
    &\stackrel{\stackrel{\;\;\;\;\;lex\;\;\;\;\;\;}{\leftarrow}}  
   {\hookrightarrow}&
      PSh_{(\infty,1)}(C)
-    && \text{abstract nonsense def of (∞,1)-topos}
+    && \text{abstract nonsense def of (\infty,1)-topos}
     \\
     \uparrow^{\simeq} &&
     \uparrow^{\simeq}
