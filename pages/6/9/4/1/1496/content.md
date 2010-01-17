@@ -1,6 +1,22 @@
+# Banach spaces
+* table of contents
+{: toc}
+
+
 ## Idea
 
-A Banach space is both a [[vector space]] and a [[metric space]], in a compatible way.  In finite dimensions, every $n$-dimensional real Banach space is linearly homeomorphic (though not linearly isometric!) to $\mathbb{R}^n$, which is quite familiar; difficulties and interest arise either when we consider finite-dimensional Banach spaces up to (near-)isometry, or when we look at infinite-dimensional examples.  Examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
+A Banach space is both a [[vector space]] and a [[metric space]], in a compatible way.  In finite dimensions, every $n$-dimensional real Banach space may be described (up to linear isometry, the usual sort of [[isomorphism]]) as the [[Cartesian space]] $\mathbb{R}^n$ equipped with the $p$-norm for $1 \leq p \leq \infty$:
+
+$$ \|(x_1,\ldots,x_n)\|_p \coloneqq \root p {\sum_{i = 1}^n |x_i|^p} $$
+
+(or $\|(x_1,\ldots,x_n)\|_\infty \coloneqq \max_i |x_i|$ for $p = \infty$).
+
+This is a familiar space to most people, and even the unusual norms (the usual Euclidean norm corresponds to $p = 2$) are easy to visualise.  When we look at infinite-dimensional examples, however, things become trickier.  Common examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
+
++-- {: .query}
+Yemon, I don\'t want you to think that I\'m trying to pull rank (as an established Lab contributor) on you as I edit what you\'ve edited here.  So please do edit further (or make a comment like this one) as you like.  ---[[Toby Bartels]]
+=--
+
 
 ## Definitions
 
@@ -26,6 +42,7 @@ Then a **Banach space** is simply a vector space equipped with a complete norm. 
 $$ \left\| \sum_{i=1}^\infty v_i \right\| \leq \sum_{i=1}^\infty \|v_i\| ,$$
 with the left-hand side guaranteed to exist if the right-hand side exists as a finite real number (but the left-hand side may exist even if the right-hand side diverges, the usual distinction between absolute and conditional convergence).
 
+
 ### Banach spaces as metric spaces
 
 The three axioms for a pseudonorm are very similar to the three axioms for a pseudo[[metric space|metric]].
@@ -41,6 +58,7 @@ Thus pseudonorms correspond precisely to homogeneous pseudometrics.
 Similarly, norms correspond to homogenous metrics and complete norms correspond to complete homogeneous metrics.  Indeed, (eq:Cauchy) says that the sequence of partial sums is a [[Cauchy sequence]], while (eq:converge) says that the sequence of partial sums converges to $S$.
 
 Thus a Banach space may equivalently be defined as a vector space equipped with a complete homogeneous metric.  Actually, one usually sees a sort of hybrid approach: a Banach space is a normed vector space whose corresponding metric is complete.
+
 
 ### Morphisms of Banach spaces
 
@@ -62,11 +80,12 @@ In this case, we say that $f$ is **bounded**.  (In [[constructive mathematics]],
 
 The bounded linear maps from $V$ to $W$ themselves form a pseudonormed vector space $\mathcal{B}(V,W)$.  This will be a Banach space if (and, except for degenerate cases of $V$, only if) $W$ is a Banach space.  In this way, the category $Ban$ of Banach spaces is a [[closed category]] with $\mathbb{R}$ as the unit.
 
-The clever reader will note that we have not yet defined $Ban$ as a category!  Na&#239;vely, one might accept all bounded linear maps between Banach spaces as morphisms, but in certain contexts this doesn\'t give a good notion of [[isomorphism]].  Instead, we take a morphism to be a **short** linear map: a linear map $f$ such that $\|f\| \leq 1$.  Then the isomorphisms are the (surjective) linear isometries.
+The clever reader will note that we have not yet defined $Ban$ as a category!  Na&#239;vely, one might accept all bounded linear maps between Banach spaces as morphisms, but in the usual context this doesn\'t give the usual notion of [[isomorphism]].  Instead, we take a morphism to be a **short** linear map: a linear map $f$ such that $\|f\| \leq 1$.  Then the isomorphisms are the (surjective) linear isometries.
 
 Note that this makes the 'underlying set' (in the sense of $Ban$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
 $$ Hom_Ban(\mathbb{R},V) \cong \{ v \;|\; \|v\| \leq 1 \} $$
 rather than the set of all vectors in $V$ (the underlying set of $V$ as a vector space).
+
 
 ## Examples
 
@@ -85,6 +104,7 @@ Many examples of Banach spaces are parametrised by an exponent $1 \leq p \leq \i
    $$ \|f\|_p = \root p {\int |f|^p} $$
    exists as a finite real number.  (Again, the only question is whether the integral converges.  And again $p = \infty$ is a limit, with the result that $\|f\|_\infty$ is the essential supremum of $|f|$.)  As such, $\mathcal{L}^p(X)$ is a complete pseudonormed vector space; but we identify functions that are equal almost everywhere to make it into a Banach space.  (This example includes the previous examples, for $X$ a set with counting measure.)
 *  Any [[Hilbert space]] is Banach space; this includes all of the above examples for $p = 2$.
+
 
 ## Categorial operations on Banach spaces
 
