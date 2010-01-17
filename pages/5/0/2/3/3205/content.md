@@ -22,7 +22,72 @@ After being reassured that there was no need to learn MathML (**CatLab** would b
 
 Before rushing into the creation of **CatLab**, it is the purpose of this page to serve as a seed for its creation. The virtual ribbon cutting should be orchestrated by an active member of the **Category Theory Mailing List** and this page may serve as something of a **CatLab** sandbox to help potential  contributors get familiar with the possibilities.
 
+
+
 ##Discussion
+
+>I warmly thank the $n$Lab community for their generous response to my suggestion. I am presently very short of time, but I will try to spend some learning the wiki-art during the next few weeks. The CatLab is an offspring of the nLab, not yet fully shaped and not yet born. Like every child, he has no shame in feeding to the breast of his mother. It will probably cannibalise the nLab a lot! I will do a lot of cutting and pasting, this is how I can learn quickly. I hope I will not mess things up! I apologise for the temporary disorganitation (posted by AJ). 
+
+
+
+[[!include contents]]
+
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+***
+[[!include physicscontents]]
+</div>
+
+
+**Welcome!**
+
+This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Category Theory]]_ --- branching out from the nLab. 
+We think of this wiki as our **lab book** that we happen to keep lying around openly.  
+
++-- {: .standout}
+
+The **purpose of the CatLab** is not to make polished expositions of material; that is a happy by-product. The purpose is to provide a public place where people can make notes about category theory.
+
+We all make notes as we read papers, read books and doodle on pads of paper. The CatLab is somewhere to put all those notes, and, incidentally, to make them available to others. Others might read them and add or polish them. But even if they don't, it is still easier to link from them to other notes that you've made.
+
+=--
+
+This site started operation only a few days ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
+
+* See [[About]] for some ideas of what the CatLab is trying to be, and of what it is not.
+
+* See the [[HowTo]]-page to get started if you want to contribute.
+
+* See [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) to get an idea of recent activity and to log your own changes to the CatLab.
+
+* There is a [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum) (imaginatively called the $n$-Forum) for $n$Lab-related discussion
+but we may eventually have a CatForum if God permits.
+
+  * at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) we log our latest activity on the $n$Lab
+
+  * We also keep having constitutive discussions there. See for instance
+
+    [What is the scope of the nLab? Particularly original research?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=59)
+
+    which is where the above description of the $n$lab as a lab book came from.
+
+* Distilled wisdom from the various discussions is starting to appear on the [[FAQ]].
+
++-- {: .standout}
+
+**Software requirements**
+
+The CatLab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display this automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
+
+Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the CatLab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
+
+=--
+
+The CatLab is a community undertaking. But for all matters that do require that the CatLab is represented to the outside by an official decision-taking body, we have the [[Catlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the CatLab"._ But the steering committee is the closest approximation to a body being in charge that we have.
+
+
+category: meta
+
 
 ## Definition
 
@@ -218,3 +283,4 @@ The functors between two categories $C$ and $D$ form themselves a category, the 
 
 
 category: meta
+
