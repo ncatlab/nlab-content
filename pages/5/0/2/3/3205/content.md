@@ -7,6 +7,8 @@
 
 [[Urs Schreiber]]: I added the code that induces the production of the above automatic table of contents (see the source code). Looking at it may help to organize the content of the (long) entry a bit.
 
+_[[Toby Bartels]]_ writes: Then I organised the sections a bit, so perhaps it looks nicer now.  But we are fast reaching the point (if we are not already there) that this working example no longer fits on one page, so if you want to keep going, Andr&#233;, then you should probable return to [the discussion on the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=548) and suggest that the steering committee create a CatLab web now.
+
 =--
 
 ##Idea
@@ -45,14 +47,12 @@ Before rushing into the creation of **CatLab**, it is the purpose of this page t
 
 <div class="rightHandSide toc">
 [[!include mathematicscontents]]
-***
-[[!include physicscontents]]
 </div>
 
 
-**Welcome!**
+## Welcome! ##
 
-This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Category Theory]]_ --- branching out from the nLab. 
+This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[category theory|Category Theory]]_ --- branching out from the nLab. 
 We think of this wiki as our **lab book** that we happen to keep lying around openly.  
 
 +-- {: .standout}
@@ -65,7 +65,7 @@ We all make notes as we read papers, read books and doodle on pads of paper. The
 
 This site started operation only a few days ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
 
-* See [[About]] for some ideas of what the CatLab is trying to be, and of what it is not.
+* See [[About]] for some ideas of what the $n$Lab is trying to be, and of what it is not.
 
 * See the [[HowTo]]-page to get started if you want to contribute.
 
@@ -94,13 +94,12 @@ Notice that **you don't need to know any MathML**. Only your browser does. You w
 
 =--
 
-The CatLab is a community undertaking. But for all matters that do require that the CatLab is represented to the outside by an official decision-taking body, we have the [[Catlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the CatLab"._ But the steering committee is the closest approximation to a body being in charge that we have.
+The CatLab is a community undertaking. But for all matters that do require that the CatLab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|nLab steering committee]]. _Nobody "is in charge of the CatLab"._ But the steering committee is the closest approximation to a body being in charge that we have.
 
 
-category: meta
+## Categories
 
-
-## Definition
+### Definition
 
 A _category_ $C$ consists of 
 
@@ -120,8 +119,9 @@ _identity_ of $a$.
   * ( _associativity law_) $h (g f)=(h g) f$ for every triple of arrows $f:a\to b$, $g:b\to c$ and $h:c\to d$;
 
   * (the _left and right unit laws_) $1_b f=f 1_a =f$ for every arrow $f:a\to b$.
+=--
 
-## Notation
+### Notation
 
 The set $C_0$ of objects of a category $C$ is often denoted $Ob(C)$.
 But we shall often write $a\in C$ instead of $a\in Ob(C)$;
@@ -130,7 +130,7 @@ if the context is clear. A morphism $f:a\to a$ is said to be
 an _endomorphism_ of the object $a$. The composition law
 gives the set $hom(a,a)$ the structure of a monoid.
 
-## Size issues 
+### Size issues 
 
 The sets involved in the definition of a category can be small or 
 large. A category $C$ is said to be _[[locally small category|locally small]]_ if the set 
@@ -138,7 +138,7 @@ $C(a,b)$ is small for every pair of objects $a,b\in C$.
 A category $C$ is said to be _[[small category|small]]_ if it is locally small and its set of objects $Ob(C)$ is small.
 A category is said to be _[[large category|large]]_ if it is not small. 
 
-## Examples
+### Examples
 
 * We shall denote by [[Set]], the _[[Set|category of small sets]]_: an object of this category is a small set $S$ and an arrow $S\to T$ is a map $f:S\to T$; Composition of arrows is defined by composing the maps, and the units
 arrows are the identity maps. The category $Set$ is large but locally small.
@@ -179,7 +179,9 @@ is a monoid $Hom(\star,\star)$.
 In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
 
 
-## Definition
+## Isomorphisms
+
+### Definition
 
 * A morphism $f:a\to b$ is a category is said to be _inversible_ ,
 or to be an _isomorphism_ if there exists a morphism $h:b\to a$ such that $h f=1_a$ and $f h=1_b$, in which
@@ -191,7 +193,7 @@ is an isomorphism and we have $(g f)^{-1}=f^{-1}g^{-1}$.
 * A _groupoid_ is a category in which every morphism is inversible.
 
 
-## Examples
+### Examples
 
 * In the category of sets [[Set]], a map $f:S\to T$ is invertible iff it is
 _bijective_. 
@@ -207,8 +209,9 @@ category $Iso(C)$ is a groupoid.
 In fact, groupoids are the [[horizontal categorification|many object version]] of groups.
 
 
+## Duality
 
-## Definition
+### Definition
 
 * The _opposite_ of a category $C$ is the cateory $C^o$ obtained
 by formally reversing the direction of the arrows of $C$. 
@@ -221,8 +224,9 @@ the composite of $g^o\in C(c^o,b^o)$ with $f^o\in C(b^o,a^o)$ is defined
 to be the arrow $(g f)^o\in C^o(c^o,a^o)$. Thus $f^o g^o:=(g f)^o$.
 
 
+## Functors
 
-##Definition##
+### Definition
 
 A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphism]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
 
@@ -230,13 +234,9 @@ A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each 
 
 * $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
 
-## Examples
+### Examples
 
-
-##Examples ## 
-
-
-### morphisms of monoids and groups ###
+#### morphisms of monoids and groups
 
 For $A,B$ [[monoid]]s or $G, H$ [[group]]s, let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding obe-object [[category|categories]] (as described at [[delooping]]). Then functors
 
@@ -253,7 +253,7 @@ $$
 are canonically in bijection with group homomorphisms $G \to H$.
 
 
-### Representations ###
+#### Representations
 
 With $\mathbf{B}G$ as above, functors on $\mathbf{B}G$ with values in [[Vect]] are the same as linear [[representation]]s of the [[group]] $G$. In fact, we have a canonical isomorphism of categories
 
@@ -266,7 +266,7 @@ of the [[functor category]] with the representation category.
 
 
 
-## Special properties ##
+### Special properties ##
 
 Functors with special properties are important in applications. See for instance
 
@@ -280,11 +280,12 @@ Functors with special properties are important in applications. See for instance
 
 * [[essentially surjective functor]]
 
-##Definition##
+### Functor categories
 
 The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
-##Reference
+
+## References
 
 * [[HowTo]]
 * [[Sandbox]]
