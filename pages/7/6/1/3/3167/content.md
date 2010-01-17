@@ -9,7 +9,7 @@
 
 ## Idea
 
-In every [[smooth topos]] there is a notion of [[infinitesimal object]] and of [[infinitesimal number]].  The most common such infinitesimal numbers are [[nilpotent]], but in some special smooth toposes, there is in addition a notion of _invertible infinitesimal_.  In these toposes there is likewise an object of _smooth natural numbers_, which contains _infinite_ or _[[nonstandard natural numbers]]_ (and whose inverses are invertible infinitesimals).
+In every [[smooth topos]] there is a notion of [[infinitesimal object]] and of [[infinitesimal number]].  The most common such infinitesimal numbers are [[nilpotent]], but in some special smooth toposes, there is in addition a notion of _invertible infinitesimal_.  In these toposes there is likewise an object of _smooth natural numbers_, which contains _infinite_ or _[[nonstandard natural number]]s_ (and whose inverses are invertible infinitesimals).
 
 Some examples of such smooth toposes are discussed at [[Models for Smooth Infinitesimal Analysis]].
 
