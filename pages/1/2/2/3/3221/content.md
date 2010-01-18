@@ -1,10 +1,19 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 There are two different theorems of the same intuitive spirit so they are commonly called the **Serre-Swan theorem**:
 
-1) **Serre's theorem**: let $R$ be a commmutative unital Noetherian ring (in particular, the coordinate ring of an affine variety over a field), then the category of finitely-generated <em>projective</em> $R$-modules is equivalent to the category of algebraic vector bundles (= locally free sheaves of $O$-modules of constant finite rank) on Spec R.
+1) **Serre's theorem**: let $R$ be a commmutative unital [[Noetherian ring]] (in particular, the coordinate ring of an [[affine variety]] over a [[field]]), then the [[category]] of finitely-generated <em>projective</em> $R$-[[module]]s is equivalent to the category of [[algebraic vector bundle]]s (= locally free [[sheaf|sheaves]] of $O$-[[module]]s of constant finite rank) on $Spec R$.
 
-2) **Swan's theorem**: Given a Hausdorff compact space $X$, the category of finitely generated projective $C(X)$-modules is equivalent to the category of (finite-dimensional) vector bundles on $X$. 
+2) **Swan's theorem**: Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the category of finitely generated projective $C(X)$-modules is equivalent to the category of (finite-dimensional) [[vector bundle]]s on $X$. 
 
-These theorems are important as they help extending the topological K-theory as a special cases of algebraic K-theory, as well as to motivate an approach to vector bundles in [[noncommutative geometry]].
+These theorems are important as they help extending the [[topological K-theory]] as a special cases of [[algebraic K-theory]], as well as to motivate an approach to vector bundles in [[noncommutative geometry]].
+
+## References
 
 * J-P. Serre, _Faisceaux algebriques coherents_, Annals of Mathematics 61 (2): 197&#8211;278 (1955)
 
