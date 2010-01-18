@@ -107,11 +107,12 @@ A _category_ $C$ consists of
 
 * for each pair of objects $a,b\in C_0$, a set $C(a,b)$ of _[[morphisms]]_ (or _arrows_) $a\to b$; when the context is clear, we write $f:a\to b$ to indicate that $f\in C(a,b)$;
 
-* for each triples of objects $a,b,c\in C_0$, a [[composition|composition law]] $C(b,c)\times C(a,b)\to C(a,c)$; when the context is clear, we write
+* for each triples of objects $a,b,c\in C_0$, a _[[composition|composition law]]_ $C(b,c)\times C(a,b)\to C(a,c)$; when the context is clear, we write
  $g f:a\to c$ for the composite of $f:a\to b$ with $g:b\to c$;
 
-* for each objet $a\in C_0$, an arrow $1_a:a\to a$ called the _unit_ or the
-_identity_ of $a$.
+* for each objet $a\in C_0$, an arrow $1_a:a\to a$ called the 
+_unit_ or the
+_[[identity morphism|identity morphism]]_ of $a$.
 
 
 * such that the following properties are satisfied:
@@ -127,7 +128,7 @@ The set $C_0$ of objects of a category $C$ is often denoted $Ob(C)$.
 But we shall often write $a\in C$ instead of $a\in Ob(C)$;
 the set $C(a,b)$ is often denoted $hom_C(a,b)$, or just $hom(a,b)$
 if the context is clear. A morphism $f:a\to a$ is said to be
-an _endomorphism_ of the object $a$. The composition law
+an _[[endomorphism|endomorphism]]_ of the object $a$. The composition law
 gives the set $hom(a,a)$ the structure of a monoid.
 
 ### Size issues 
@@ -140,8 +141,8 @@ A category is said to be _[[large category|large]]_ if it is not small.
 
 ### Examples
 
-* We shall denote by [[Set]], the _[[Set|category of small sets]]_: an object of this category is a small set $S$ and an arrow $S\to T$ is a map $f:S\to T$; Composition of arrows is defined by composing the maps, and the units
-arrows are the identity maps. The category $Set$ is large but locally small.
+* We shall denote by [[Set]], the _[[Set|category of small sets]]_: an object of this category is a small set $S$ and an arrow $S\to T$ is a map $f:S\to T$; composition of arrows is defined by composing the maps, and the units
+arrows are the identity maps. The category [[Set]] is large but locally small.
 
 
 * Let $R$ be a ring. We shall denote by $Mat(R)$ the 
@@ -152,12 +153,6 @@ the unit of $n$ is the $n\times n$ unit matrix. The category $Mat(R)$
 is small.
 
 
-* Let $R$ be a ring. We shall denote by $Mat(R)$ the 
-_category of matrices with coefficients in_ $R$; an object of this category is a natural number $n\geq 0$ and a morphism $m\to n$
-is a $n\times m$ matrix with coefficients in $R$; the composite of
-a matrix $A:m\to n$ with a matrix $B:n\to p$ is their product $B A:m\to p$;
-the unit of $n$ is the $n\times n$ unit matrix. The category $Mat(R)$
-is small.
 
 * [[Grp]] - [[group]]s as objects, homomorphisms as morphisms.
 
@@ -167,6 +162,8 @@ is small.
 
 
 * [[Ring]] - [[ring]]s as objects, ring homomorphisms as morphisms.
+
+* [[KVect]] - [[K-vector space]]s as objects, $K$-linear maps as morphisms.
  
 These classic examples are the original motivation for the term "category": all of the above categories encapsulate one "kind of mathematical structure".  These are often called "concrete" categories (that term also has a [[concrete category|technical definition]] that these examples all satisfy).  
 
@@ -184,41 +181,56 @@ It is sometime useful to distinguish between a monoid $M$ and the
 associated category with a single object by denoting the latter $\mathbf{B}M$.
 The category $\mathbf{B}M$ is often called the _classifying category_ of $M$.
 
-## Isomorphisms
+* The [[simplicial category]] $\Delta$ has objects the ordered sets
+$[n]=\{0,\ldots,n\}$ for $n\geq 0$, and for morphisms the order
+preserving maps $[n]\to [m]$.
+
+
+## Isomorphisms, Groupoids
 
 ### Definition
 
 * A morphism $f:a\to b$ is a category is said to be _inversible_ ,
-or to be an _isomorphism_ if there exists a morphism $h:b\to a$ such that $h f=1_a$ and $f h=1_b$, in which
+or to be an _[[isomorphism|isomorphism]]_
+if there exists a morphism $h:b\to a$ such that $h f=1_a$ and $f h=1_b$, in which
 case $h$ is said to be the _inverse_ of $f$ and we write $h=f^{-1}$
 (the inverse is unique when it exists).  The composite
 of two isomorphisms $f: a \to b$ and $g:b\to c$
-is an isomorphism and we have $(g f)^{-1}=f^{-1}g^{-1}$.    
+is an isomorphism and we have $(g f)^{-1}=f^{-1}g^{-1}$. 
+An endomorphism is said to be an
+_[[automorphism|automorphism]]_
+if it invertible 
+The set of automorphism of an object $a$ has the 
+structure of a group called the _group of automorphisms_ of $a$.   
 
-* A _groupoid_ is a category in which every morphism is inversible.
+* A _[[groupoid|groupoid]]_ is a category in which every morphism is inversible.
 
 
 ### Examples
 
-* In the category of sets [[Set]], a map $f:S\to T$ is invertible iff it is
+* A map $f:S\to T$ in the category of sets [[Set]] is invertible iff it is
 _bijective_. 
 
-* In the category [[Top]], an isomorphism is said to be a _homeomorphism_.
+* An isomorphism in the category [[Top]] is said to be a _homeomorphism_.
 
-* The isomorphisms of a category $C$ are closed under composition.
-They form a category $Iso(C)$ having the same objects as $C$. The
-category $Iso(C)$ is a groupoid. 
+* Every type of mathematical structure carries
+a notion of isomorphism. Hence the collection of all structures
+of a given type form a groupoid. 
+
+* The isomorphisms in a category $C$ form a groupoid $Iso(C)$ 
+having the same objects as $C$.
 
 
 * **Group** A [[group]] is a groupoid with a single object.
+The classifying category of a group $G$ is a groupoid
+with a single object $\mathbf{B}G$.
 In fact, groupoids are the [[horizontal categorification|many object version]] of groups.
 
 
 ## Duality
 
 ### Definition
-
-* The _opposite_ of a category $C$ is the cateory $C^o$ obtained
+The _opposite_ of a category $C$ is the category $C^o$ obtained
 by formally reversing the direction of the arrows of $C$. 
 It is sometime useful to make a distinction between the objects
 of $C$ and of $C^o$ by denoting $a^o\in C^o$ the object which corresponds
@@ -233,61 +245,115 @@ to be the arrow $(g f)^o\in C^o(c^o,a^o)$. Thus $f^o g^o:=(g f)^o$.
 
 ### Definition
 
-A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphism]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
+A _[[functor|functor]]_  $F$ from a category $C$ to a category $D$ is a map sending each object $x \in C$ to an object $F(x) \in D$ and each morphism $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
 
 * $F$ preserves [[composition]]: $F(f g) = F(f) F(g)$ whenever the left-hand side is well-defined,
 
 * $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
 
+The composite of two functors $F:C\to D$ and $G:D\to E$ is a functor
+$GF:C\to E$. There is also an 
+_[[identity functor|identity functor]]_ $I_C:C\to C$
+for every category $C$.
+
+* We shall denote by [[Cat]], the _[[Cat|category of small categories]]_: an object of this category is a small category $C$ and an arrow $C\to D$ is a 
+functor $F:C\to D$; composition of arrows is defined by composing the 
+functors, and the units are the identity functors. The category [[Cat]] is large but locally small.
+
+* A functor $F:C\to D$ induces an opposite functor $F^o:C^o\to D^o$
+if we put $F^o(a^o)=F(a)^o$ and $F^o(f^o)=F(f)^o$ for every object $a\in C$
+and arrow $f\in C$.
+
+* A _contravariant_ functor $C\to D$ between two categories $C$ and $D$
+is defined to be a functor $C^o\to D$. 
+
+
+
 ### Examples
 
-#### morphisms of monoids and groups
+* A [[forgetful functor]] is a functor which is defined by 'forgetting' something. For example, the forgetful functor from Grp to Set forgets the group structure of a group, remembering only the underlying set.
+Another example is the functor from the category of rings Ring to the category of monoids Mon which forgets the additive structure of the ring but
+remember its multiplicative structure.
 
-For $A,B$ [[monoid]]s or $G, H$ [[group]]s, let $\mathbf{B}A, \mathbf{B}B$, $\mathbf{B}G$, $\mathbf{B}H$ be the corresponding obe-object [[category|categories]] (as described at [[delooping]]). Then functors
+* The integral _homology functor_ $H_n: Top \to Ab$ associates to a topological space $X$ its integral [[homology]] groups of degree $n\geq 0$. 
 
-$$
-  \mathbf{B}A \to \mathbf{B}B
-$$
+* The free group functor $F: Set \to Grp$ associates to a set $X$
+the group $F(X)$ freely  generated by $X$.
 
-are canonically in bijection with monoid homomorphisms $A \to B$ and accordingly functors
-
-$$
-  \mathbf{B}G \to \mathbf{B}H
-$$
-
-are canonically in bijection with group homomorphisms $G \to H$.
+*  A [[simplicial set]] is defined to be a functor $X:\Delta^o\to Sets$.
 
 
-#### Representations
-
-With $\mathbf{B}G$ as above, functors on $\mathbf{B}G$ with values in [[Vect]] are the same as linear [[representation]]s of the [[group]] $G$. In fact, we have a canonical isomorphism of categories
-
-$$
-  Funct(\mathbf{B}G, Vect) \simeq Rep(G)
-$$
-
-of the [[functor category]] with the representation category.
-
+* If $G$ is a group and $KVect$ is the category of $K$-vector spaces over a field $K$, then a functor $BG\to KVect$ is the same thing as a $K$-linear [[representation]] of $G$. 
 
 
 
 ### Special properties ##
 
-Functors with special properties are important in applications. See for instance
+Functors with special properties are important in applications. 
+A functor $F:C\to D$ is said to be
+
+* [[full functor|full]] if the map $C(a,b)\to D(F a,F b)$ induced by $F$ is surjective for every pair of objects $a,b\in C$;
+
+* [[faithful functor|faithful]] if the map $C(a,b)\to D(F a,F b)$ is injective
+for every pair of objects $a,b\in C$;
+
+
+* [[fully faithful functor|fully faithful]] if the map $C(a,b)\to D(F a,F b)$ is bijective for every pair of objects $a,b\in C$;
+
+
+* [[essentially surjective functor|essentially surjective]] if for every object $y\in D$ there exists an object $x\in C$ together with an isomorphism 
+$F(x)\to y$;
+
+* [[equivalence]] if it is fully faithful and essentially surjective;
+
+ 
+
+A functor $F:C\to D$ is an [[isomorphism]] iff it is fully faithful and the map $Ob(C)\to Ob(D)$ induced by $F$ is bijective. 
+
+### Natural transformations
+
+The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. More precisely,
+given two two functors $F, G:C \to D,$ a _natural transformation_ $\alpha:F \to G$ assigns to every [[object]] $x\in C$ a [[morphism]] 
+$\alpha_x:F(x) \to G(x)$ in $D$ 
+such that for any morphism $f:x \to y$ in $C$, 
+the following diagram commutes in $D$:
+
+\[ 
+  \array{ 
+    F(x) 
+    & 
+    \stackrel{F(f)}{\to} 
+    & 
+    F(y) 
+    \\ 
+    \alpha_x\downarrow 
+    && 
+    \downarrow \alpha_y 
+    \\ G(x) 
+    & 
+    \stackrel{G(f)}{\to} & G(y) 
+  }
+  \,. 
+\] 
+
+The composite of a natural transformation $\alpha:F\to G$
+with a natural transformation $\beta:G\to H$ (between functors $C\to D$)
+is the natural transformation $\beta \alpha:F\to H$ defined by
+putting $(\beta\alpha)_x=\beta_{x}\alpha_x$.
+
+The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. 
+
+
+* A _map_ of simplicial sets $f:X\to Y$  is defined to be a
+natural transformation between the functors $X,Y:\Delta^o\to Set$. 
+ 
 
 
 
-* [[full functor]]
+* If $G$ is a group and $KVect$ is the category of $K$-vector spaces over a field $K$, then the functor category $[BG,KVect]$ is isomorphic to the category 
+of a $K$-linear [[representation]]s of $G$. 
 
-* [[faithful functor]]
 
-* [[fully faithful functor]]
-
-* [[essentially surjective functor]]
-
-### Functor categories
-
-The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
 
 ## References
