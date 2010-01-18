@@ -1,5 +1,6 @@
 banerjeeATmathDOTjhuDOTedu
 
-*[website](http://www.math.jhu.edu/~banerjee)
+* [website](http://www.math.jhu.edu/~banerjee)
+
 
 category: people
