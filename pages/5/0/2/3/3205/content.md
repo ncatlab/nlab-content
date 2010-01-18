@@ -176,10 +176,15 @@ These classic examples are the original motivation for the term "category": all 
 * **Poset** A [[partial order|poset]] can be thought of as a category with its elements as objects and one morphism in each $hom(x,y)$ if $x$ is less than or equal to $y$, but none otherwise.  
 
 
-* **Monoid** A category with a single object $\star$
-is a monoid $Hom(\star,\star)$.
+* **Monoid** From a category $C$ with a single object $a$
+we obtain a monoid $C(a,a)$. Conversely, from any monoid $M$
+we can create a category $C$ with a single object $\star$ by putting 
+$C(\star,\star):=M$. This shows that the notion of monoid is essentially
+equivalent to that of a category with a single object. 
 In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
-
+It is sometime useful to distinguish between a monoid $M$ and the
+associated category with a single object by denoting the latter $\mathbf{B}M$.
+The category $\mathbf{B}M$ is often called the _classifying category_ of $M$.
 
 ## Isomorphisms
 
