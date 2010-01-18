@@ -4,7 +4,8 @@ Since all the topos structure follows from having [[finite limits]] and [[power 
 
 In particular, a logical functor preserves the truth of all sentences in the [[internal logic]].  If it is moreover [[conservative functor|conservative]], then it also *reflects* the truth of such sentences.  For example, the [[transfer principle]] of [[nonstandard analysis]] can be stated as the fact that a certain functor is logical and conservative.
 
-The difference between geometric and logical functors between toposes is, in a certain sense, a [[categorification]] of the difference between a homomorphism of [[frames]] and a homomorphism of [[Heyting algebras]].  When the latter are [[complete lattice|complete]], these are the same objects with the same [[isomorphisms]] but different morphisms.  (One might argue, though, that while frame homomorphisms are a natural categorification of geometric functors, a better categorification of Heyting algebra homomorphisms would be [[Heyting functors]].)
+The difference between geometric and logical functors between toposes is, in a certain sense, a [[categorification]] of the difference between a homomorphism of [[frames]] and a homomorphism of [[Heyting algebras]].  When the latter are [[complete lattice|complete]], these are the same objects with the same [[isomorphisms]] but different morphisms.  However, while frame homomorphisms are a natural categorification of geometric functors, a more precise categorification of Heyting algebra homomorphisms would be [[Heyting functors]], which preserve the internal first-order logic, but not the higher-order logic as logical functors do.
+
 
 [[!redirects logical functor]]
 [[!redirects logical functors]]
