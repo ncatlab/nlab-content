@@ -9,3 +9,6 @@ Essentially algebraic theories can be understood through [[category theory]] at 
 As the domains of the operations are given by the solutions to equations, they may be understood using the notion of [[equalizer]].  So, just as a Lawvere theory is defined using a category with finite [[product]]s, an essentially algebraic theory is defined using a category with finite [[limit|limits]] &#8212; or in other words, finite products and also equalizers (from which all other finite limits, including [[pullback]]s, may be derived).
 
 *Please add a formal definition and more information on how we actually use essentially algebraic theories to describe essentially algebraic mathematical structures!*
+
+
+[[!redirects essentially algebraic theories]]
