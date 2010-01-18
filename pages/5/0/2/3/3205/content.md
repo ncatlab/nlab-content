@@ -11,6 +11,8 @@ _[[Toby Bartels]]_ writes: Then I organised the sections a bit, so perhaps it lo
 
 [[Eric]]: I don't see any rush to create CatLab right away. If a spurious page or two is created here to help Andr&#233; get the hang of things, no harm will be done. Like his comment below (copied from the forum), let's relax and let the natural course develop. Think of it as a [Lamaze period](http://en.wikipedia.org/wiki/Lamaze_technique) :)
 
+_Toby_:  As long as Andr&#233; is writing, I'm willing to facilitate it wherever he wants.
+
 =--
 
 ##Idea
