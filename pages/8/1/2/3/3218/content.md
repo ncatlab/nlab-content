@@ -1,0 +1,5 @@
+Let $p:V\to M$ be a smooth vector bundle. Any smooth family of $k$-dimensional subspaces $W_m\subset p^{-1}(m)$ where $m\in M$ is called a distribution of $k$-dimensional subpaces in $V\to M$. If $V = TM$ is the tangent bundle of $M$ then we talk about distributions of tangent vectors. A distribution of [[tangent vectors]] is called integrable if the Lie bracket of its sections is **involutive**, i.e. if $X,Y: M\to W\subset TM$ are two sections (vector fields belonging to the distribution) of $W\to M$ then the bracket $[X,Y]$ of these vector fields is also a section of $W$: $[X,Y]\in W$. 
+
+A basic result on integrability is the Frobenius theorem ([wikipedia](http://en.wikipedia.org/wiki/Frobenius_theorem_%28differential_topology%29)) which relates involutivity to the integrability in the sense of partial differential equations. An examples are complex analytic manifolds which correspond exactly to complex manifolds with integrable almost complex structure. [[Courant algebroid]]s are a quite general tool to express the inetgrability of geometric structure including these as special cases.   
+
+[[!redirects integrable distributions]]
