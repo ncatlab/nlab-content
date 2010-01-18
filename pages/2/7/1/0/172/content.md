@@ -64,9 +64,11 @@ To emphasize that one considers $\infty$-stacks on higher categorical sites one 
 
 The above concerns $\infty$-stacks with values in [[∞-groupoids]], i.e, [[(∞,0)-category|(∞,0)-categories]]. More generally there should be notions of $\infty$-stacks with values in  [[(n,r)-category|(n,r)-categories]]. These are expected to be modeled by the [[model structure on homotopical presheaves]] with values in the category of [[Theta spaces]].
 
+
 ### Quasicoherent $\infty$-stacks
 
-An archetypical class of examples of $\infty$-stacks are [[quasicoherent ∞-stack]]s of [[module]]s, being the [[vertical categorification|categorification]] of the notion of [[quasicoherent sheaf]]. By their nature these are really $(\infty,1)$-stacks in that they take valus not in [[∞-groupoid]]s but in [[(∞,1)-categories]], but often onyl their [[∞-groupoid]]al [[core]] is considered.
+An archetypical class of examples of $\infty$-stacks are [[quasicoherent ∞-stack]]s of [[module]]s, being the [[vertical categorification|categorification]] of the notion of [[quasicoherent sheaf]]. By their nature these are really $(\infty,1)$-stacks in that they take values not in [[∞-groupoid]]s but in [[(∞,1)-categories]], but often only their [[∞-groupoid]]al [[core]] is considered.
+
 
 ## References
 
