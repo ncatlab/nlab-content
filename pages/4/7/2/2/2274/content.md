@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 A _Grothendieck connection_ $\nabla$ is a way to encode the parallel transport of a _flat_ [[connection on a bundle|connection]] along [[infinitesimal object|infinitesimal]] paths.
 
@@ -18,7 +18,7 @@ Here $\Pi^{inf}(X)$ is effectively the [[infinitesimal singular simplicial compl
 This was originally considered by [[Alexander Grothendieck|Grothendieck]] for [[scheme]]s in the context of [[algebraic geometry]] for the case that $A$ is a 1-[[groupoid]] -- but the generalization to [[∞-groupoid]]s in [[synthetic differential geometry]] is immediate.
 
 
-#Details#
+## Details
 
 In his study of [[crystalline cohomology]], [[Alexander Grothendieck|Grothendieck]] has noticed that flat [[connection on a bundle|connection]]s correspond to the [[descent]] data for [[deRham complex|deRham]] descent; he called them the costratification of the $n$-th order if one considers the $n$-the infinitesimal neighborhoods. 
 
@@ -60,11 +60,11 @@ The constructions can be almost literally transferred to the [[synthetic differe
 More recently, some partial generalizations were found in the purely algebraic framework. One could take any [[coring]] (or even an additive [[comonad]]) with a [[grouplike element]] and define corresponding connections and descent data and generalize the correspondence found by Grothendieck (see [[semi-free dga]] and Menini-Stefan reference below).
 
 
-#related entries#
+## Related entries
 
 See also [[deRham space]].
 
-#Literature#
+## Literature
 
 * A. Grothendieck, _Crystals and the de Rham cohomology of schemes_, p. 306--358 of _Dix exposes sur la cohomologie des schemas_, North Holland, Amsterdam, 1968.
 
