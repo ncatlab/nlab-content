@@ -39,11 +39,11 @@ A detailed illustration and motivation of the need of these "good limits" that d
 
 * in the introductory section of 
 
-  * [[Jacob Lurie]], [Structured Spaces](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf)
+  * [[Jacob Lurie]], _[[Structured Spaces]]_
 
 * in the introductory section of 
 
-  * David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf)
+  * David Spivak, _[Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf)_
 
 
 ## Examples
@@ -54,7 +54,7 @@ A detailed illustration and motivation of the need of these "good limits" that d
 
 An overview is provided in 
 
-* B. To&#235;n;  _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
+* [[Bertrand Toen]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
 
 A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
 
@@ -65,35 +65,35 @@ Details modeled on [[simplicially enriched category|simplicial categories]] have
 
 This article generalizes the notion of [[site]] and [[model structure on simplicial presheaves]] from 1-categorical sites to [[simplicially enriched category|simplicial sites]] and hence to a [[model structure on SSet-enriched presheaves]]:
 
-* B. To&#235;n, G. Vezzosi, _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math.AG/0207028))
+* [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math.AG/0207028))
 
 Of central interest in derived algebraic geometry is the simplicial site of _simplicial algebras_, which generalizes the familiar site of algebra used in algebraic geometry. This is introduced and studied in
 
-* B. To&#235;n, G. Vezzosi, _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math.AG/0404373))
+* [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math.AG/0404373))
 
 Further developments in this direction are in
 
-* B. To&#235;n, G. Vezzosi, _From HAG to DAG: derived moduli stacks_ in Axiomatic, enriched
+* [[Bertrand Toen]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_ in Axiomatic, enriched
 and motivic homotopy theory, 173&#8211;216, NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer
 Acad. Publ., Dordrecht, 2004. ([arXiv](http://arxiv.org/abs/math.AG/0210407))
 
 
 The unifying picture, in particular independent of the choice of model for the [[(infinity,1)-category|(infinity,1)-categories]] is presented in
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 Derived ($\infty$-)stacks are currently mostly, maybe exclusively, studied on algebraic sites $S$, where the category $S^{op} := $ [[Alg]] is replaced with a category of "$\infty$-algebras" of sorts. The theory of these $\infty$-algebras is described in great detail in
 
 
-* Jacob Lurie, [[higher algebra|Noncommutative and Commutative algebra]]
+* [[Jacob Lurie]], [[higher algebra|Noncommutative and Commutative algebra]]
 
 Concretely the need for the site of simplicial ring objects is discussed in the introduction of 
 
-* [[Jacob Lurie]], [Structured Spaces](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf)
+* [[Jacob Lurie]], _[[Structured Spaces]]_
 
 and in the introduction of
 
-* David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf).
+* [[David Spivak]], [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf).
 
 
 The proof that [[simplicial object|simplicial]] [[algebra]]s are Quillen equivalent of [[differential graded algebra]]s -- so that derived stacks on simplicial algebras are the same as derived stacks on DGAs -- is in
