@@ -20,3 +20,7 @@ These theorems are important as they help extending the [[topological K-theory]]
 * R. G. Swan, _Vector bundles and projective modules", Trans. AMS __105__ (2): 264&#8211;277 (1962)
 
 * [[Max Karoubi]], _$K$-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften, Band __226__, Springer 1978. xviii+308 pp. 
+
+
+[[!redirects Serre–Swan theorem]]
+[[!redirects Serre--Swan theorem]]
