@@ -6,5 +6,7 @@ His interests include [[Lie groupoids]], [[Lie algebroids]], Hopf algebroids, [[
 
 category: people
 
+[[!redirects Janez Mrcun]]
+
 
 
