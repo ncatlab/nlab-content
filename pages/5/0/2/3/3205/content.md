@@ -9,6 +9,8 @@
 
 _[[Toby Bartels]]_ writes: Then I organised the sections a bit, so perhaps it looks nicer now.  But we are fast reaching the point (if we are not already there) that this working example no longer fits on one page, so if you want to keep going, Andr&#233;, then you should probable return to [the discussion on the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=548) and suggest that the steering committee create a CatLab web now.
 
+[[Eric]]: I don't see any rush to create CatLab right away. If a spurious page or two is created here to help Andr&#233; get the hang of things, no harm will be done. Like his comment below (copied from the forum), let's relax and let the natural course develop. Think of it as a [Lamaze period](http://en.wikipedia.org/wiki/Lamaze_technique) :)
+
 =--
 
 ##Idea
@@ -39,9 +41,9 @@ Before rushing into the creation of **CatLab**, it is the purpose of this page t
 
 ##Discussion
 
->I warmly thank the $n$Lab community for their generous response to my suggestion. I am presently very short of time, but I will try to spend some learning the wiki-art during the next few weeks. The CatLab is an offspring of the nLab, not yet fully shaped and not yet born. Like every child, he has no shame in feeding to the breast of his mother. It will probably cannibalise the nLab a lot! I will do a lot of cutting and pasting, this is how I can learn quickly. I hope I will not mess things up! I apologise for the temporary disorganitation (posted by AJ). 
+[[André]]: I warmly thank the $n$Lab community for their generous response to my suggestion. I am presently very short of time, but I will try to spend some learning the wiki-art during the next few weeks. The CatLab is an offspring of the nLab, not yet fully shaped and not yet born. Like every child, he has no shame in feeding to the breast of his mother. It will probably cannibalise the nLab a lot! I will do a lot of cutting and pasting, this is how I can learn quickly. I hope I will not mess things up! I apologise for the temporary disorganitation (posted by AJ). 
 
-
+[[Eric]]: No worries and no rush. It's great to see how this material springing here and I'm sure **CatLab** will be ready for launch very soon. If you have questions, feel free to ask them either here or the forum. Since we're getting the hang of the wiki, my suggestion is to ask technical questions here. The answers will likely end up being added to [[HowTo]] and the [[FAQ]]. Cheers!
 
 [[!include contents]]
 
@@ -289,6 +291,7 @@ The functors between two categories $C$ and $D$ form themselves a category, the 
 
 * [[HowTo]]
 * [[Sandbox]]
+* Testing new page for Andr&#233;: [[CatLab Sandbox]] (just click this and it will create a new page for you)
 * [itex Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
 * [[FAQ]]
 * [The nLab in the eyes of others](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=548)
