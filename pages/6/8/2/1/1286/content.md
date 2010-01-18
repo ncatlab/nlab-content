@@ -54,26 +54,26 @@ A detailed illustration and motivation of the need of these "good limits" that d
 
 An overview is provided in 
 
-* [[Bertrand Toen]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
+* [[Bertrand Toën]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
 
 A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
 
-* [[Bertrand Toen]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
+* [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
 
 
 Details modeled on [[simplicially enriched category|simplicial categories]] have been developed in the series of articles by To&#235;n and Vezossi.
 
 This article generalizes the notion of [[site]] and [[model structure on simplicial presheaves]] from 1-categorical sites to [[simplicially enriched category|simplicial sites]] and hence to a [[model structure on SSet-enriched presheaves]]:
 
-* [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math.AG/0207028))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math.AG/0207028))
 
 Of central interest in derived algebraic geometry is the simplicial site of _simplicial algebras_, which generalizes the familiar site of algebra used in algebraic geometry. This is introduced and studied in
 
-* [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math.AG/0404373))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math.AG/0404373))
 
 Further developments in this direction are in
 
-* [[Bertrand Toen]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_ in Axiomatic, enriched
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _From HAG to DAG: derived moduli stacks_ in Axiomatic, enriched
 and motivic homotopy theory, 173&#8211;216, NATO Sci. Ser. II Math. Phys. Chem., 131, Kluwer
 Acad. Publ., Dordrecht, 2004. ([arXiv](http://arxiv.org/abs/math.AG/0210407))
 
