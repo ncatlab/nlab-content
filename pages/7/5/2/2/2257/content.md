@@ -1,5 +1,6 @@
+**Ieke Moerdijk** is a professor of mathematics in Utrecht, with main interests in [[sheaf]] and [[topos theory]], [[descent]] and [[cohomology]], [[synthetic differential geometry]], [[operads]], [[groupoids]], [[stacks]] and [[orbifolds]], [[Lie groupoids]] and foliations, and abstract homotopy theory (Quillen [[model categories]]). 
 
-* [website](http://www.math.uu.nl/people/moerdijk/)
+* [website](http://www.math.uu.nl/people/moerdijk/), [wikipedia](http://en.wikipedia.org/wiki/Ieke_Moerdijk), [GQT:researchers](http://www.gqt.nl/members.php)
 
 ## books with table of contents and links on the $n$Lab ##
 
@@ -13,7 +14,7 @@
 
 __Other books__ by Moerdijk include  
 
-* (with Janez Mr&#269;un) _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics, 91. Cambridge University Press, Cambridge, 2003. x+173 pp. ISBN: 0-521-83197-0
+* (with [[Janez Mrčun]]) _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics, 91. Cambridge University Press, Cambridge, 2003. x+173 pp. ISBN: 0-521-83197-0
 
 * _Classifying spaces and classifying topoi_, Lecture Notes in Mathematics __1616__, Springer 1995. vi+94 pp. ISBN: 3-540-60319-0
 
