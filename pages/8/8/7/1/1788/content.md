@@ -7,24 +7,7 @@ The sandbox had gotten a little full, making it hard to use as a sandbox.  So [[
 ***
 
 
-# Contents
-* tic
-{: toc}
-
-
-## Linking to this heading is a crapshoot
-
-(blah, blah, blah)
-
-
-## Linking to this heading is a sure thing {#sure}
-
-(blah, blah, blah)
-
-$\check{S}evera$
-S&#711;evera
-
-$\sslash$
+[[tobybartels:preset]], [[tobybartels:set]]
 
 
 category: meta
