@@ -62,4 +62,3 @@ The claim now is that this presheaf is indeed an [[∞-stack]] on the [[model si
 
 This is [theorem 1.3.7.2](http://arxiv.org/PS_cache/math/pdf/0404/0404373v7.pdf#page=96) in [ToVeII](http://arxiv.org/abs/math/0404373).
 
-[[!redirects quasicoherent ∞-stack]]
