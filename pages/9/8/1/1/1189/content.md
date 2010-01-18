@@ -2,4 +2,4 @@ In material [[set theory]], a [[pure set]] $S$ is called __transitive__ if $a\in
 
 Transitive sets are a natural place to look for [[inner model]]s of material set theory: that is, sets $S$ such that $S$ together with the restriction of $\in$ to $S$ satisfies some or all of the axioms of set theory.  Similarly, they may be used to model [[pure set]]s in structural [[set theory]] through the notion of a set equipped with an [[extensional relation]].
 
-Assuming enough set-theoretic axioms (far less than [[ZFC]] suffices), every pure set $x$ is contained in a least transitive pure set, called its **transitive closure**.  This can be defined as the set of all $y$ such that there is a chain $y = x_n \in \cdots \in x_0 = x$ for some $n$.
+Assuming enough set-theoretic axioms (far less than [[ZFC]] suffices), every pure set $x$ is contained in a least transitive pure set, called its **transitive closure**.  This can be defined as the set of all $y$ such that there is a chain $y = x_n \in \cdots \in x_0 = x$ for some [[natural number]] $n$.
