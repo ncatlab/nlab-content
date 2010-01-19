@@ -25,7 +25,9 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 #Examples
 
 
-* The [[geometric realization]] of any [[simplicial set]] is a CW-complex. 
+* The [[geometric realization]] of any locally finite [[simplicial set]] is a CW-complex. 
+
+  * J. Milnor, _The geometric realization of a semi-simplicial complex_, Annals of Mathematics, 2nd Ser., __65__, n. 2. (Mar., 1957), pp. 357-362; [pdf](http://www.math.binghamton.edu/dwyer/Milnor-GeomReal.pdf)
 
   * In particular in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
 
