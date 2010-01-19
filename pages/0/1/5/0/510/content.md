@@ -6,7 +6,7 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 A [[topological space|topological]] spectrum is an object in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that "stabilizes" the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]]: the [[stable (∞,1)-category of spectra]].
 
@@ -62,17 +62,17 @@ $$
 
 So it is the homologically nontrivial parts of the chain complexes in negative degree that corresponds to the non-connectiveness of a spectrum.
 
-# Definition #
+## Definition 
 
 There are many "models" for spectra, all of which present the same homotopy theory (and in fact, nearly all of them are [[Quillen equivalence|Quillen equivalent]] [[model category|model categories]]).  
 
-## $\Omega$-spectra #
+### $\Omega$-spectra 
 
 One fairly simple, and quite useful, approach is to define a spectrum $E$ to be a [[sequence]] of [[pointed object|based]] spaces $E_n$, for all natural numbers $n$, together with isomorphisms $E_n \cong \Omega E_{n+1}$, where $\Omega$ denotes the based [[loop space]].  The idea is that $E_0$ contains the information of $E$ in dimensions $k\ge 0$, $E_1$ contains the information of $E$ in $k\ge -1$ (but shifted up by one, so that it is modeled by the $\ge 0$ information in the space $E_1$), and so on.
 
 This is called an **$\Omega$-spectrum**.
 
-## Coordinate-free spectrum ##
+### Coordinate-free spectrum 
 
 A definition of spectrum consisting of spaces indexed by index sets less "coordinatized" than the integers is a 
 
@@ -80,24 +80,26 @@ A definition of spectrum consisting of spaces indexed by index sets less "coordi
 
 See there for details.
 
-## combinatorial definition ##
+### Combinatorial definition
 
 There might be a type of categorical structure related to a spectrum in the same way that $\infty$-categories are related to $\infty$-groupoids.  In other words, it would contain $k$-cells for all integers $k$, not necessarily invertible.  Some people have called this conjectural object a **$Z$-category**.   "Connective" $Z$-categories could perhaps then be identified with stably monoidal $\infty$-categories.
 
 One realization of this kind of idea is the notion of [[combinatorial spectrum]].
 
 
-#Remarks#
+## Remarks
 
 * In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(∞,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (∞,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(∞,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$, and doing this to the category $Top_*$ of [[pointed object|pointed]] spaces yields $Sp(Top)$.
 
-#Examples of spectra#
+## Examples of spectra
 
 * [[Eilenberg-MacLane spectrum]]
 
 * [[K-theory spectrum]]
 
 * [[tmf]]
+
+* [[complex cobordism spectrum]]
 
 
 
