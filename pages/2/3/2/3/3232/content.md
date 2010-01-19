@@ -57,6 +57,8 @@ $$ \array {
 $$
 commute.
 
+In particular, every module (algebra) over a monad has an underlying structure of an [[algebra over an endofunctor|algebra over the underlying endofunctor]].
+
 $T$-algebras can also be defined as left [[modules]] over $T$ _qua_ monoid in $End(C)$.  There the object $A$ is represented by the constant endofunctor at $A$.
 
 The [[Eilenberg-Moore category]] of $T$ is the category of these algebras.  It has a universal property that allows the notion of
