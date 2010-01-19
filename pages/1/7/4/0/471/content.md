@@ -638,18 +638,30 @@ $$
 
 to $T_1$ corresponds to the map $[0,3] \to [0,3]$ that is the composite of the map $(-)/3 : [0,3] \to [0,1]$ with the above map $[0,1] \to [0,3]$.
 
-
-
 Now for $X \in C$ any object, we obtain the planar [[dendroidal set]]
 
 $$
-  \Pi(X) : T \mapsto Hom_C( \Omega^p_C[T], X )
+  Paths X : T \mapsto Hom_C( \Omega^p_C[T], X )
   \,.
 $$
 
 It assigns to any tree with $n$ leaves the hom-set  $Hom(I^{\vee n},X)$. This we can think of as the set of standard parameterized paths of parameter length $n$ in $X$. The action of tree morphisms $T_1 \to T_2$ on these sets is the _reparameterization_ of these paths as encoded in the tree structure. 
 
-In particular, we have the dendroidal set $\Pi(I)$ of the interval object itself. This is something like the [[little cubes operad|little 1-cubes]] operad as seen by $I$. 
+In particular, we have the dendroidal set $Paths(I)$ of the interval object itself. This is something like the [[little cubes operad|little 1-cubes]] operad as seen by $I$. 
+
+I think for every $X$ there is an evident morphism of dendroidal sets
+
+$$
+  Paths X \to Paths I
+  \,.
+$$
+
+The component over the tree $T$ sends all of $(Paths X)(T) = Hom_C(I^{\vee n},X)$ to ....
+
+For $X$ a [[pointed object]], there is the sub-dendroidal set $\Omega X \subset Paths X$ of paths whose endpoints map to the basepoint.
+
+
+
 
 
 ## Homtopy localization induced from an interval 
