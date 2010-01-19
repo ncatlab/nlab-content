@@ -4,7 +4,7 @@ The conjecture is open still stated by Keller in 1939. There were many failed at
 
 * A. van den Essen, [Jacobian conjecture](http://eom.springer.de/J/j120010.htm), Springer Online Encyclopedia of Mathematics
 
-* A. van den Essen, _Polynomial automorphisms and the Jacobian conjecture_, [pdf](www.emis.de/journals/SC/1997/2/pdf/smf_sem-cong_2_55-81.pdf), Alg&#232;bre non commutative, groupes quantiques et invariants (Reims, 1995),  55--81, S&#233;min. Congr., 2, Soc. Math. France, Paris, 1997. 
+* A. van den Essen, _Polynomial automorphisms and the Jacobian conjecture_, [pdf](http://www.emis.de/journals/SC/1997/2/pdf/smf_sem-cong_2_55-81.pdf), Alg&#232;bre non commutative, groupes quantiques et invariants (Reims, 1995),  55--81, S&#233;min. Congr., 2, Soc. Math. France, Paris, 1997. 
 
 * Arno van den Essen, _Polynomial automorphisms and the Jacobian conjecture_, Progress in Mathematics, 190. Birkh&#228;user Verlag, Basel, 2000. xviii+329 pp. ISBN: 3-7643-6350-9
 
