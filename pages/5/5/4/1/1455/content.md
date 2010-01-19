@@ -2,9 +2,10 @@ For a [[category]] $C$ and [[endofunctor]] $F$, an __algebra__ of $F$ is an obje
 
 The dual concept is a [[coalgebra for an endofunctor]].
 
-If the endofunctor has the structure of a monad, then a [[module over a monad|modules over the monad]] have in particular the structure of an algebra over its underlying endofunctor. 
+If the endofunctor $F$ has the structure of a [[monad]], then an [[algebra over a monad|algebra]] (aka module) over that monad is an algebra for $F$ that satisfies an additional associativity property.
 
-See also [[initial algebra]]. 
+An [[initial object]] in the category of algebras for $F$ is an [[initial algebra]] of $F$. 
+
 
 [[!redirects algebra of an endofunctor]]
 [[!redirects algebra of a functor]]
