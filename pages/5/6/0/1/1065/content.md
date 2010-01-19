@@ -3,9 +3,10 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea ##
 
-From a modern perspective, homological algebra is the study of algebraic objects, (such as groups, rings or Lie algebras, or sheaves of such objects), by 'resolving them', replacing them by  more [[stable infinity-category|stable objects]] whose [[homotopy category of an (infinity,1)-category|homotopy category]] is the [[derived category]] of an [[abelian category]]. 
+From a modern perspective, homological algebra is the study of algebraic objects, (such as groups, rings or Lie algebras, or sheaves of such objects), by 'resolving them', replacing them by more [[stable infinity-category|stable objects]] whose [[homotopy category of an (infinity,1)-category|homotopy category]] is the [[derived category]] of an [[abelian category]]. 
 
 Functors between the original algebraic objects lead to [[derived functor]]s between the [[homotopy category|homotopy categories]], and much effort is devoted to the study of those derived functors, and the interpretation of their properties in terms of structure  of the original algebraic objects.
 
@@ -13,12 +14,13 @@ There are variants of the above idea that handle more non-linear phenomena.  The
 
 Homological algebra thus studies, in particular, the [[homology]] of [[chain complex]]es in [[abelian category|abelian categories]] -- therefore the name.
 
-One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is a derived category with strcuture of a [[triangulated category]]. Perhaps the better contexts are frameworks in which higher coherences are better taken care of, like the A-infinity categories, DG-categories and stable infinity categories. There are enriched versions of derived category which have any of the 3 mentioned higher structures. For the corresponding [[stable infinity-category]], the derived category is just the [[homotopy category of an (infinity,1)-category|homotopy category]]. It may be possibly enriched by derived Kan extensions as in the theory of [[derivateur|dérivateurs]].
+One of the most refined 1-categorical approximations to the context in which such [[chain complex]]es live is a derived category with the structure of a [[triangulated category]]. Perhaps better contexts are frameworks in which higher coherences are better taken care of, like $A_\infty$-[[A-infinity-category|categories]], [[dg-category|DG-categories]] and [[stable ∞-categories]]. There are enriched versions of derived categories which have any of the 3 mentioned higher structures. For the corresponding [[stable ∞-category]], the derived category is just the [[homotopy category of an (infinity,1)-category|homotopy category]]. It may be possibly enriched by derived Kan extensions as in the theory of [[derivateur|dérivateurs]].
 
 
 ## Entries on concepts in homological algebra ##
 
 * [[additive and abelian categories]], [[chain complex]], [[derived category]], [[triangulated category]], [[A-infinity category]], [[differential graded category]], [[stable infinity-category]], [[projective object]], [[derived functor]], [[injective object]]
+
 
 ## References ##
 
@@ -29,6 +31,7 @@ One of the most refined 1-categorical approximations to the right context in whi
 * H. Cartan, S. Eilenberg, _Homological algebra_, Princeton Univ. Press 1956.
 
 * M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
+
 * S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
 
 * [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
@@ -38,6 +41,7 @@ One of the most refined 1-categorical approximations to the right context in whi
 * A. Grothendieck, _Sur quelques points d'alg&#232;bre homologique_, [[Tohoku]], [part1](http://projecteuclid.org/euclid.tmj/1178244774), [part2](http://projecteuclid.org/euclid.tmj/1178244774)
 
 * Charles Weibel, _A history of homological algebra_, [dvi](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
+
 
 ## Discussion ##
 
