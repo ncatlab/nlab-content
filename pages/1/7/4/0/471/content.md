@@ -548,6 +548,12 @@ Note that these face maps are to be thought of as maps into 3-simplices sitting 
 
 ### Fundamental little 1-cubes space induced from an interval {#Dendroidal}
 
++-- {: .query}
+
+[[Urs Schreiber]]: something I am thinking about...
+
+=--
+
 The following is supposed to give an [[(∞,1)-operad]]ic incarnation of the notion of fundamental $\infty$-groupoid induced from an interval object. It should resemble a _geometric operadic_ version of the _algebraic operadic_ version described further above.
 
 Let $\Omega^p$ be the category of planar [[tree]]s, so that a [[presheaf]] on $\Omega^p$ is a planar [[dendroidal set]]. 
@@ -642,6 +648,8 @@ $$
 $$
 
 It assigns to any tree with $n$ leaves the hom-set  $Hom(I^{\vee n},X)$. This we can think of as the set of standard parameterized paths of parameter length $n$ in $X$. The action of tree morphisms $T_1 \to T_2$ on these sets is the _reparameterization_ of these paths as encoded in the tree structure. 
+
+In particular, we have the dendroidal set $\Pi(I)$ of the interval object itself. This is something like the [[little cubes operad|little 1-cubes]] operad as seen by $I$. 
 
 
 ## Homtopy localization induced from an interval 
