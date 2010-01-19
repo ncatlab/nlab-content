@@ -4,9 +4,12 @@ I often seem to have strong feelings about terminology.  But I have been known t
 
 [Personal area](http://ncatlab.org/michaelshulman/show/HomePage)
 
+For my own reference: some pages that I'm planning to do some work on:
+* [[theory]]
+* [[lax 2-adjunction]]
+* [[coherent formula]]
 
 category: people
-
 
 [[!redirects MikeShulman]]
 [[!redirects Michael Shulman]]
