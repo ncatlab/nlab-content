@@ -1,8 +1,17 @@
-#Idea#
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 For various constructions in [[stable homotopy theory]] -- such as notably that of the
 [[symmetric monoidal smash product of spectra]] -- it is necessary to use a model
-for objects in the [[stable (infinity,1)-category of spectra]]
+for objects in the [[stable (∞,1)-category of spectra]]
 and the [[stable homotopy category]] more refined than that given by 
 $\Omega$-[[spectrum|spectra]]. The notion of _coordinate-free spectrum_ is such
 a refinement.
@@ -12,7 +21,7 @@ the integers $\mathbb{Z}$, a coordinate free spectrum is a collection of
 [[topological space]]s index by all finite dimensional subspaces of
 a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
 
-#Definition#
+## Definition
 
 Let $U$ be a real inner product [[vector space]] isomorphic to the [[direct sum]]
 $\mathbb{R}^\infty$ of countably many copies of the [[real line]] $\mathbb{R}$.
@@ -44,7 +53,7 @@ a [[homeomorphism]] of pointed [[topological space]]s
 =--
 
   
-# References #
+## References 
 
 * A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ 
 ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
