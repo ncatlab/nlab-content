@@ -2,13 +2,16 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-
+## Definition
 
 _Complex cobordism cohomology theory_, denoted $M U$, is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. 
 
 Its representing [[spectrum]], also denoted $M U$
-is the [[spectrum]] is in degree $2 n$ given by
+is the [[spectrum]] is in degree $2 n$ given by the [[Thom space]] of the [[vector bundle]] that is  [[associated bundle|associated]] by the defining [[representation]] of the [[unitary group]] $U(n)$ on $\mathbb{C}^n$ to the [[generalized universal bundle|universtal]] $U(n)$-[[principal bundle]]:
 
 $$
   M U(2n) = Thom
@@ -38,10 +41,12 @@ $$
 
 this is the universal even periodic cohomology theory with orientation
 
-The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universsal coefficient ring for [[formal group law]]s.
+The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal coefficient ring for [[formal group law]]s.
 
-#Related entries#
+## Related entries
 
 for further context see the discussion at
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
+
+[[!redirects complex cobordism spectrum]]
