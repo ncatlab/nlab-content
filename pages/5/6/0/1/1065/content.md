@@ -13,26 +13,31 @@ There are variants of the above idea that handle more non-linear phenomena.  The
 
 Homological algebra thus studies, in particular, the [[homology]] of [[chain complex]]es in [[abelian category|abelian categories]] -- therefore the name.
 
-One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is axiomatized by the structure of a [[triangulated category]]. Perhaps the better context however is the corresponding [[stable infinity-category]], of which the triangulated category in question is just the [[homotopy category of an (infinity,1)-category|homotopy category]] possibly enriched by derived Kan extensions as in the theory of [[derivateur|dérivateurs]].
+One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is a derived category with strcuture of a [[triangulated category]]. Perhaps the better contexts are frameworks in which higher coherences are better taken care of, like the A-infinity categories, DG-categories and stable infinity categories. There are enriched versions of derived category which have any of the 3 mentioned higher structures. For the corresponding [[stable infinity-category]], the derived category is just the [[homotopy category of an (infinity,1)-category|homotopy category]]. It may be possibly enriched by derived Kan extensions as in the theory of [[derivateur|dérivateurs]].
 
 
 ## Entries on concepts in homological algebra ##
 
-* [[additive and abelian categories]]
-
-* [[chain complex]]
-
-* [[derived category]]
-
-* [[triangulated category]]
- 
+* [[additive and abelian categories]], [[chain complex]], [[derived category]], [[triangulated category]], [[A-infinity category]], [[differential graded category]], [[stable infinity-category]], [[projective object]], [[derived functor]], [[injective object]]
 
 ## References ##
 
 * [[Charles Weibel]], _Homological algebra_
 
-* [[Jacob Lurie]], [[Stable Infinity-Categories]]
+* I. Bucur, A. Deleanu, _Introduction to the theory of categories and functors_, 1968
 
+* H. Cartan, S. Eilenberg, _Homological algebra_, Princeton Univ. Press 1956.
+
+* M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
+* S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
+
+* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
+
+* Springer Online Encyclopeadia of Mathematics: [homological algebra](http://eom.springer.de/H/h047710.htm)
+
+* A. Grothendieck, _Sur quelques points d'alg&#232;bre homologique_, [[Tohoku]], [part1](http://projecteuclid.org/euclid.tmj/1178244774), [part2](http://projecteuclid.org/euclid.tmj/1178244774)
+
+* Charles Weibel, _A history of homological algebra_, [dvi](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
 
 ## Discussion ##
 
