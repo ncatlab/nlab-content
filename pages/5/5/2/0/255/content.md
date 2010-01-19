@@ -127,6 +127,4 @@ Book (recall that monads are also called 'triples'):
 * [[Michael Barr]] and [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
 
 
-[[!redirects algebra of a monad]]
-[[!redirects algebra over a monad]]
 [[!redirects monads]]
