@@ -532,7 +532,7 @@ Then for low $n \in \mathbb{N}$ the above construction yields this
   ###### Exercise
   Insert the analog of the above discussion here
   and upload a nice graphics that shows the standard cube and how the
-  cosimplicial object $\Delta_I$ picks a solid tetarhedron inside it.
+  cosimplicial object $\Delta_I$ picks a solid tetrahedron inside it.
   =--
 
 As a start, we can illustrate how there are 6 3-simplices sitting inside each 3-cube.
@@ -544,6 +544,104 @@ Once you see how the 3-simplices sit inside the 3-cube, the facemaps can be illu
 <img src="http://ncatlab.org/nlab/files/3simplex_facemaps.jpg" width = "550"/>
 
 Note that these face maps are to be thought of as maps into 3-simplices sitting inside a 3-cube.
+
+
+### Fundamental little 1-cubes space induced from an interval {#Dendroidal}
+
+The following is supposed to give an [[(∞,1)-operad]]ic incarnation of the notion of fundamental $\infty$-groupoid induced from an interval object. It should resemble a _geometric operadic_ version of the _algebraic operadic_ version described further above.
+
+Let $\Omega^p$ be the category of planar [[tree]]s, so that a [[presheaf]] on $\Omega^p$ is a planar [[dendroidal set]]. 
+
+Given an interval object ${*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*}$ in a category $C$, assume one isomorphism 
+$\phi_n \in [I,I^{\vee n}]$ for each $n$ has been chosen.
+
+
+Then there is a planar co-dendroidal object $\Omega^p_C : \Omega^p \to C$ in $C$ given by:
+
+* a tree $T$ with $n$ leaves is sent to $I^{\vee n}$ 
+
+  (we think of the
+  $k$-th copy of $I$ here as being associated to the $k$th 
+  leaf of the planar tree);
+
+* every degeneracy map 
+  is sent to the corresponding identity morphism
+
+  (this corresponds to the fact that the co-dendroidal object encodes
+  no nontrivial unary (co)operations, only the $(n \gt 1)$-ary
+  operations encoded nontrivial infomation);
+
+* an _outer face map_ on an $n$-ary vertex is the identity on all 
+  copies of $I$ corresponding to the unaffected leaves and is 
+  $\phi_n$ on the affected leaf;
+
+* an _inner face map_ that contracts a $k_1$-ary vertex with 
+  a $k_2$-ary one is the identity on all unaffected leaces and is 
+  on the affected leaves the composition 
+
+  $$
+    I^{\vee (k_1+k_2)}
+    \stackrel{\phi_{k_1+k_2}^{-1}}{\to}
+    I
+    \stackrel{\phi_{k_1}}{\to}
+    I^{\vee k_1}
+    \stackrel{(Id, \cdots, Id,\phi_{k_2},Id, \cdots, Id )}{\to}
+    I^{\vee (k_1+k_2)}
+    \,.
+  $$
+
+**Example**. In [[Top]] with $I = [0,1]$ the standard interval, 
+and $I^{\vee n} = [0,n]$ let $\phi_n : [0,1] \to [0,n]$ be the map
+given by multiplication of real numbers by $n$.
+
+Then for the planar tree $T_1$ given by
+
+$$
+  T_1 = 
+  \left[
+    \array{
+      \searrow && \swarrow
+      \\
+      & \bullet 
+      \\
+      && \searrow && \swarrow
+      \\
+      &&& \bullet
+      \\
+      &&& \downarrow
+    }
+  \right]
+$$ 
+
+the inclusion of the tree $\left[\downarrow\right]$ into $T$ given by identifying it with its root is sent to the map $f : [0,1] \to [0,3]$ that is the composite of the map $(-)\cdot 2 : [0,1] \to [0,2]$ wth the map $h : [0,2] \to [0,3]$ that is multiplication by two on $[0,1]$ and addition by 1 on $[1,2]$.
+
+On the other hand the inner face map from
+
+$$
+  T_2 =
+  \left[
+    \array{
+      \searrow & \downarrow & \swarrow
+      \\
+      & \bullet
+      \\
+      & \downarrow   
+    }
+  \right]
+$$
+
+to $T_1$ corresponds to the map $[0,3] \to [0,3]$ that is the composite of the map $(-)/3 : [0,3] \to [0,1]$ with the above map $[0,1] \to [0,3]$.
+
+
+
+Now for $X \in C$ any object, we obtain the planar [[dendroidal set]]
+
+$$
+  \Pi(X) : T \mapsto Hom_C( \Omega^p_C[T], X )
+  \,.
+$$
+
+It assigns to any tree with $n$ leaves the hom-set  $Hom(I^{\vee n},X)$. This we can think of as the set of standard parameterized paths of parameter length $n$ in $X$. The action of tree morphisms $T_1 \to T_2$ on these sets is the _reparameterization_ of these paths as encoded in the tree structure. 
 
 
 ## Homtopy localization induced from an interval 
