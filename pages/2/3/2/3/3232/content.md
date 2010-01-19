@@ -30,6 +30,8 @@ $$
 $$
 commutes.
 
+A **morphism** of left $t$-modules $(x,\lambda) \to (x',\lambda')$ is given by a 2-cell $\alpha : x \Rightarrow x'$ such that $\lambda' \circ t\alpha = \alpha \circ \lambda$.  Similarly, a morphism of right $t$-modules $(y,\rho) \to (y',\rho')$ is $\beta : y \Rightarrow y'$ such that $\rho' \circ \alpha s = \alpha \circ \rho$.  A morphism of bimodules $(x,\lambda,\rho) \to (x',\lambda',\rho')$ is given by $\alpha : x \Rightarrow x'$ that is a morphism of both left and right modules.
+
 ### Algebras for monads in Cat
 
 If $K = Cat$ and $(T,\eta,\mu)$ is a monad on a category $C$, then a left $T$-module $A : 1 \to C$, where $1$ is the [[terminal category]], is usually called a **$T$-algebra**: it is given by an object $A \in C$ together with a morphism $\alpha : T A \to A$, such that
@@ -54,6 +56,9 @@ The [[Eilenberg-Moore category]] of $T$ is the category of these algebras.  It h
 _Eilenberg--Moore object_ to be defined in any bicategory.
 
 
+## Tensor product
+
+...
 
 
 
