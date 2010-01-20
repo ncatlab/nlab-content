@@ -15,6 +15,10 @@ $$
 
 is the standard [[affine line]] in $C$.
 
+## Examples
+
+One example of $\mathbb{A}^1$-homotopy theory appears in [[motivic cohomology]]. See there for more details.
+
 ## References
 
 For more on the general procedure see [[homotopy localization]].
