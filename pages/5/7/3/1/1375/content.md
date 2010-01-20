@@ -12,7 +12,7 @@
 
 Every [[(∞,1)-category]] with finite [[limit]]s has a [[stabilization]] to a [[stable (∞,1)-category]] $Stab(C)$. This stabilization may be defined by abstract properties, but it may also be constructed explicitly as the category of **spectrum object**s in $C$.
 
-In the special case that $C = $ [[Top]], as spectrum object in $C$ is just an ordinary [[spectrum]]. There is an evident generalization of the notion of spectrum from [[Top]] to any $(\infty,1)$-category $C$ with finite limits: a spectrum object $X_\bullet$ is essentially a list of [[pointed object]]s $X_i$ together with equivalences $X \to \Omega X_{i+1}$, from every object in the list to the [[loop space object]] of its successor. 
+In the special case that $C = $ [[Top]], a spectrum object in $C$ is just an ordinary [[spectrum]]. There is an evident generalization of the notion of spectrum from [[Top]] to any $(\infty,1)$-category $C$ with finite limits: a spectrum object $X_\bullet$ is essentially a list of [[pointed object]]s $X_i$ together with equivalences $X \to \Omega X_{i+1}$, from every object in the list to the [[loop space object]] of its successor. 
 
 ## Definition
 
