@@ -40,9 +40,47 @@ Motivic cohomology computes certain derived hom-sets in the [[motive|category of
 This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=121) of [MaVoWe](http://math.rutgers.edu/~weibel/motiviclectures.html). See [prop 14.16](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=126).
 
 
-## References ##
+### References ##
 
 * [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
+
+## Homotopy stabilization of the $(\infty,1)$-topos on $Nis$ {#InfStackDef}
+
+There is another approach to defining motivic cohomology, directly as the [[cohomology]] inside a [[(∞,1)-topos]].
+
+Write 
+
+* $Nis$ for the [[Nisnevich site]]
+
+* $\mathbf{H}_{Nis}$ for the [[(∞,1)-topos]] of [[∞-stack]]s on $Nis$;
+
+* $\mathbf{H}_{Nis}^{I}$ for its [[homotopy localization]], its 
+  [[A1-homotopy theory]];
+
+* $Stab(\mathbf{H}_{Nis}^I)$ for the [[stabilization]] of 
+  $\mathbf{H}_{Nis}^I$. This is 
+  the [[stable (∞,1)-category]] of [[spectrum object]]s 
+  in $\mathbf{H}_{Nis}^I$.
+
+Then motivic [[cohomology]], and motivic [[homotopy]] are just given by connected components of [[derived hom space|(∞,1)-categorical hom-space]]s in $Stab(\mathbf{H}_{Nis}^I)$.
+
+There is a standard way to _present_ all this structure:
+
+* as described at [[models for ∞-stack (∞,1)-toposes]], the standard way to [[presentable (∞,1)-category|present]] $\mathbf{H}_{Nis}$ is in terms of the [[model structure on simplicial presheaves]] on $Nis$
+
+* then the [[homotopy localization]] is modeled by 
+  the corresponding [[Bousfield localization of model categories|left Bousfield localization]] of this model structure;
+
+* and finally the [[stabilization]] may be modeled by further Bousfield
+  localization at all suspension morphism  $T \wedge X \to X$ for $T$ 
+  a suitable model of the circle and $\wedge$ the internal 
+  [[smash product]].
+
+
+A concise overview of the constructions and definitions just outlined is in
+
+* Jardine, _Motivic spaces and the motivic stable catgeory_ 
+  ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf))
 
 
 [[!redirects motivic complex]]
