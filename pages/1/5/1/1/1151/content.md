@@ -54,13 +54,21 @@ Therein Brown considers a slightly simplified version of the [[model structure o
 
 One can then understand various "cohomology theories" as nothing but tools for _computing_ $\pi_0 \mathbf{H}(X,A)$ using the known presentations of [[(∞,1)-categorical hom-space]]s: for instance [[?ech cohomology]] computes this spaces by finding cofibrant models for $X$, called [[?ech nerve]]s. Dual to that, most texts on [[abelian sheaf cohomology]] find fibrant models for $A$: called injective resolutions.
 
-In other words, abelian sheaf cohomology is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]], [[etale cohomology]] or [[motivic cohomology]].
+In other words, [[abelian sheaf cohomology]] is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]], [[etale cohomology]], ... 
 
 But this also shows that abelian sheaf cohomology itself is just a very special case of cohomology in an $\infty$-stack $(\infty,1)$-topos: the highly abelian case. For coefficient objects $A \in \mathbf{H}$ that are not maximally abelian (not degreewise in the image of the [[Dold-Kan correspondence]]) the cohomology of an $\infty$-stack topos is a [[nonabelian cohomology]], one that classifies [[principal bundle]]s, nonabelian [[gerbe]]s, [[principal 2-bundle]]s and indeed [[principal ∞-bundle]]s.
 
 And this in turn includes various other notions as special cases. For instance [[group cohomology]] is nothing but the cohomology in $\mathbf{H} = $ [[∞Grpd]] on objects $X = \mathbf{B}G$ that are [[delooping]]s of [[group]]s. And what is called _nonabelian group cohomology_ is nothing but the general case of this where there is no restriction on the coefficient object $A$. Here we can once again replace $\infty Grpd$ -- which is the $(\infty,1)$-topos of $\infty$-stacks on the point -- by a more general $\infty$-stack $\infty$-topos. For instance if we take the underlying [[site]] to be [[Diff]], the category of smooth [[manifold]]s, then the objects of $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ are [[Lie ∞-groupoid]]s. Their cohomology is generalized group cohomology that knows about smooth structure: _smooth group cohomology_ . In this context for instance one can give cohomological interpretations of smooth realizations of the [[string 2-group]] or the [[fivebrane 6-group]].
 
-There are some slight variations on the theme that cohomology is all about connected components of hom-spaces in [[(∞,1)-topos]]es: by looking at [[pullback]]s of such hom-spaces instead, one finds all variants of [[twisted cohomology]]. From there, one finds abelian [[differential cohomology]]. And then [[schreiber:Differential Nonabelian Cohomology|nonabelian differential cohomology]].
+Starting with an unconstrained (unstable) [[(∞,1)-topos]] $\mathbf{H}$, one can systematically find its _abelian_ content by considering objects that are components of [[spectrum object]]s in $\mathbf{H}$. These form the [[stabilization]] of $\mathbf{H}$ to a [[stable (∞,1)-category]]. 
+
+From this point of view one finds notably [[motivic cohomology]] and motivic [[homotopy]] in terms of connected components of [[derived hom space|(∞,1)-categorical hom spaces]] between stable objects in the $(∞,1)$-topos of $\infty$-stacks on the [[Nisnevich site]].
+
+More precisely, this involves one more restriction that is often considered: the restriction to objects that are [[local object]]s with respect to some version of [[A1-homotopy theory|A1-homotopy]]. These form the [[homotopy localization]] of the $(infty,1)$-topos. 
+
+As a noteworthy example of this, the internal cohomology of the $(\infty,1)$-topos of $\infty$-stacks on the [[site]] [[Top]] (topological $\infty$-stacks) restricted to homotopy local objects turns out to be just the ordinary cohomology in [[Top]]. This is described in more detail at [[topological ∞-groupoid]].
+
+There are some slight variations on the theme that cohomology is all about connected components of hom-spaces in [[(∞,1)-topos]]es: by looking at [[homotopy fiber]]s of such  [[derived hom space|(∞,1)-categorical hom-spaces]] instead, one finds all variants of [[twisted cohomology]]. From there, one finds abelian [[differential cohomology]]. And then [[schreiber:Differential Nonabelian Cohomology|differential differential cohomology]].
 
 A non-technical account of some concepts in cohomology from this perspective is at 
 
@@ -174,7 +182,7 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
     * [[etale cohomology]]
 
-    * [[motivic cohomology]]
+  * [[motivic cohomology]]
 
   * [[nonabelian cohomology]]
 
