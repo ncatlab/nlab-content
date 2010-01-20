@@ -52,3 +52,4 @@ for further context see the discussion at
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
 
 [[!redirects complex cobordism spectrum]]
+[[!redirects complex cobordism]]
