@@ -10,7 +10,14 @@ A _[[Top|topological]] [[∞-groupoid]]_ is an [[internal ∞-groupoid]] in [[To
 
 ## Homotopy invariance and topological spaces
 
-A central result about [[∞-stack]]s on [[Top]] is that the sub-[[(∞,1)-topos]] of homotopy invariant objects is equivalent to [[Top]] itself. A nice discussion of this is in
+A central result about the [[(∞,1)-topos]] $Sh_{(\infty,1)}(Top)$ [[∞-stack]]s on [[Top]] is that the [[homotopy localization]] is equivalent to [[Top]] itself
+
+$$
+  Sh_{(\infty,1)}(Top)^I \simeq Top
+  \,.
+$$
+
+A discussion of this is in (nice but not quite finished)
 
 * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
