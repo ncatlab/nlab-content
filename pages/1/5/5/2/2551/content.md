@@ -30,3 +30,5 @@ $$
 * Taking $C =$ [[Top]] and the [[interval object]] $I$ to be the standard topological interval $I = [0,1]$, the homotopy localization of $\infty$-stacks on $Top$ is equivalent to the [[(∞,1)-category]] [[Top]] itself again. For more on this see the discussion and references at [[topological ∞-groupoid]].
 
 * Taking $C = $ $Sch/S$ the category of [[relative scheme]]s over a [[Noetherian scheme]] $S$ and taking $I = \mathbb{A}^1$ the [[affine line]], the study of the corresponding homotopy localization is called [[A1 homotopy theory]].
+
+* A homotopy localization of the [[(∞,1)-topos]] of [[∞-stack]]s on the [[Nisnevich site]] is used in [[motivic cohomology]]. See there for more details.
