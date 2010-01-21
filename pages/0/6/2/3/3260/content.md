@@ -21,7 +21,7 @@ A $G$-[[homotopy]]  between $G$-maps $f,g$ is a $G$-map $X \times I \to Y$ where
 
 Consider the subcategory of $G$-[[CW-complex]]es and make it a [[category with weak equivalences]] using the $G$- [[homotopy equivalence]]s with the above definition. Then the corresponding [[homotopy category]] $G\mathcal{T}$ is the $G$-**equivariant homotopy category**.
 
-Alternatively, let $O_G$ be the [[orbit category]] of $G$. Let $SPSh(O_G)$ be the category of [[simplicial presheaf|simplicial presheaves]] on $O_G$. Use the global (objectwise) weak equivalences to make this a [[category with weak equivalence]]s. Write $Ho(SPSh(O_G)_{glob})$ for the corresponding [[homotopy category]].
+Alternatively, let $O_G$ be the [[orbit category]] of $G$. Let $SPSh(O_G)$ be the category of [[simplicial presheaf|simplicial presheaves]] on $O_G$. Use the global (objectwise) weak equivalences to make this a [[category with weak equivalences]]. Write $Ho(SPSh(O_G)_{glob})$ for the corresponding [[homotopy category]].
 
 Equivalently, this is the homotopy category of the projective or injective [[model structure on simplicial presheaves]].
 
@@ -33,7 +33,7 @@ $$
   G \mathcal{T} \to Ho(SPSh(O_G)_{glob})
 $$
 
-that sends a $G$-space to the presheaf that it representes is an [[equivalence of categories]].
+that sends a $G$-space to the presheaf that it represents is an [[equivalence of categories]].
 
 
 
