@@ -7,7 +7,7 @@ An $\infty$-groupoid -- equivalently an [[(∞,0)-category]] is an [[∞-categor
 
 #Models#
 
-Familiar models for the catgeory [[∞-Grpd]] of _weak_ $\infty$-groupoids are 
+Familiar models for the category [[∞-Grpd]] of _weak_ $\infty$-groupoids are 
 
 * [[simplicial sets]] equipped with the standard [[model structure on simplicial sets]];
 
