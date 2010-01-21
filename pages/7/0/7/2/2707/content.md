@@ -61,7 +61,7 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 
 Correspondences are interesting in [[noncommutative geometry]] of the [[operator algebra]] flavour. For example, KK-groups are in fact themselves sort of correspondences; Connes and Skandalis had an early reference very much paralleling some ideas from the algebraic world. More recently, motives in the operator algebraic setup have been approached by Connes, Marcolli and others. 
 
-In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories, Kontsevich proposed a theory of [[noncommutative motive]]s. 
+In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories, Kontsevich proposed a theory of [[noncommutative motive]]s. There is now already a more general setup (than Kontsevich's) due Cisinski and Tabuada (see Refs.).
 
 In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rigid analytic geometry]], $A^1$-homotopy theory is replaced by $B^1$-homotopy theory and the appropriate analogue of the Voevodsky's category of mixed motives has been constructed; the construction follows the same basic pattern. 
 
@@ -70,7 +70,7 @@ In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rig
 
 A modern introduction to Voevodsky's theory is
 
-* A. Beilinson, V. Vologodsky, _A DG guide to Voevodsky's motives_, [math.AG/0604004](http://de.arxiv.org/abs/math/0604004)
+* [[Alexander Beilinson|A. Beilinson]], V. Vologodsky, _A DG guide to Voevodsky's motives_, [math.AG/0604004](http://de.arxiv.org/abs/math/0604004)
 
 Some pretty useful comments on motives are at this MathOverflow thead:
 
@@ -91,5 +91,11 @@ There is also
 * Florence Lecomte, Nathalie Wach, _R&#233;alisations des complexes motiviques de Voevodsky_ ([arxiv:0911.5611](http://de.arxiv.org/abs/0911.5611))
 
 * Marc Levine, _Smooth motives_, [arxiv:0807.2265](http://arxiv.org/abs/0807.2265)
+
+Some most recent generalizations of the theory, using derivators and similar techniques, are in
+
+* D-C. Cisinski, F. D&#233;glise, _Triangulated categories of mixed motives_, [arxiv/0912.2110](http://arxiv.org/abs/0912.2110)
+
+* D-C. Cisinski, G. Tabuada, _Symmetric monoidal structure on Non-commutative motives_, [arxiv/1001.0228](http://arxiv.org/abs/1001.0228)
 
 [[!redirects category of motives]]
