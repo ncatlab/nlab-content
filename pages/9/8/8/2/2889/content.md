@@ -76,12 +76,21 @@ There is a standard way to _present_ all this structure:
   a suitable model of the circle and $\wedge$ the internal 
   [[smash product]].
 
+### References
 
-A concise overview of the constructions and definitions just outlined is in
+A concise overview of the constructions and definitions just outlined above is in
 
 * Jardine, _Motivic spaces and the motivic stable catgeory_ 
   ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf))
 
+More details on the [[Nisnevich site]], the [[model structure on simplicial presheaves]] on it and its [[homotopy localization]] to [[A1-homotopy theory]] is in [section 3](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=60) of
+
+* [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_ ,  K-theory, 0305 ([web](http://www.math.uiuc.edu/K-theory/0305/) [pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
+
+
+## Further references
+
+* [[Eric Friedlander]], _[Algebraic Cycles and algebraic K-theory, II](http://www.math.northwestern.edu/~eric/lectures/)_ ([lecture 6 (pdf)](http://www.math.northwestern.edu/~eric/lectures/ihp/ihplec6.pdf))
 
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
