@@ -64,7 +64,7 @@ There is a standard way to _present_ all this structure:
 
 A concise overview of the constructions and definitions just outlined above is in
 
-* Jardine, _Motivic spaces and the motivic stable catgeory_ 
+* J. F. Jardine, _Motivic spaces and the motivic stable category_ 
   ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf))
 
 More details on the [[Nisnevich site]], the [[model structure on simplicial presheaves]] on it and its [[homotopy localization]] to [[A1-homotopy theory]] is in [section 3](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=60) of
@@ -161,13 +161,13 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 
 * [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
 
-
-
-
-
 ## Further references
 
 * [[Eric Friedlander]], _[Algebraic Cycles and algebraic K-theory, II](http://www.math.northwestern.edu/~eric/lectures/)_ ([lecture 6 (pdf)](http://www.math.northwestern.edu/~eric/lectures/ihp/ihplec6.pdf))
+
+* J. F. Jardine, _Motivic symmetric spectra_, Doc. Math. 5 (2000), 445--553
+
+* [[Sasha Beilinson|A. Be?linson]], R. MacPherson, V. Schechtman, _Notes on motivic cohomology_,  Duke Math. J.  54  (1987),  no. 2, 679--710; [doi](http://dx.doi.org/10.1215/S0012-7094-87-05430-5).
 
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
