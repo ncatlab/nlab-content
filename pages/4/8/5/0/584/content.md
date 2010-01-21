@@ -4,7 +4,9 @@
 
 </div>
 
-
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ## Idea
 
@@ -44,11 +46,47 @@ Let's first do this for composition in one direction, as in an ordinary 1-catego
 
 consider a [[manifold]] $X \hookrightarrow V \times \mathbb{R}$ embedded in a [[vector space]] of the form $V \times \mathbb{R}$. We can think of this as a manifold canonically equipped with a coordinate function $\phi : X \hookrightarrow V \times \mathbb{R} \to \mathbb{R}$ that measures the "height" or maybe better the "length" of the embedded manifold. 
 
-We can pick a bunch of numbers $\{t_i \in \mathbb{R}\}$ and think of these as marking a bunch of slices of $X$, the preimages $\phi^{-1}(t_i)$. We can think of these slices as being the $(n-1)$-dimensional boundary manifolds at which a sequence of manifolds have been glued together to produce $X$. 
+We can pick a bunch of numbers $\{t_j \in \mathbb{R}\}$ and think of these as marking a bunch of slices of $X$, the preimages $\phi^{-1}(t_j)$. We can think of these slices as being the $(n-1)$-dimensional boundary manifolds at which a sequence of manifolds have been glued together to produce $X$. 
 
-In this way an embedded manifold $X \hookrightarrow V \times \mathbb{R} $ and a set of $k$-numbers $\{t_i\}$ ...
+> (there is an obvious picture to be drawn and uploaded here, maybe somebody finds the time and energy)
 
+In this way an embedded manifold $X \hookrightarrow V \times \mathbb{R} $ and a set of $k$-numbers $\{t_i\}$ may represent an element in the space of sequences of composable cobordisms. To make this work as expected, the markings on $X$ may not be too irregular, so we should impose some conditions on what qualifies as a marked manifold. The precise statement is given further below.
 
+The collection of these tuples, consisting of an embedded manifold $X \hookrightarrow V \times \mathbb{R}$ and a collection of $k$ numbers $\{t_i \in \mathbb{R}\}$ naturally form a [[simplicial set]], which is like the [[nerve]] of the 1-category of $n$-dimensional cobordisms under composition in one direction.
+
+To generalize this from just a 1-categorical structure to an $n$-categorical structure, we simply take a manifold $X$ as before, but now draw markings on it in $n$ transversal directions, thereby putting a kind of grid on it that subdivides the manifold into cubical slices. A manifold with such subdivision on it may then be regarded as giving an element in the space of $n$-dimensional pasting diagrams in an $n$-fold category.
+
+To formalize this more general case, we embed $X$ not just into a $V \times \mathbb{R}$, but a $V \times \mathbb{R}^n$. This then provides us with $n$ different coodinate functions $\phi_i : X \hookrightarrow V \times \mathbb{R}^n \stackrel{p_i}{\to} \mathbb{R}$ on $X$, each running along one of the directions in which we may think of $X$ as having been glued from smaller manifolds.
+
+A collection of markings indicating such gluing is now a collection of numbers $\{t_j^1\}, \;\{t_j^2\}, \; \cdots \{t_j^n\}$, one for each of these directions.
+
+For each direction this yields a [[simplicial set]] of such structures, to be thought of as the [[nerve]] of the category of cobordisms under composition in one of these directions. Taken together this is an $n$-fold simplicial set
+
+$$
+  \Delta^{op} \times \Delta^{op} \times \cdots \times \Delta^{op}
+  \to Set
+$$
+
+which is like the nerve of an $n$-fold category of cobordisms. 
+
+When suitable regularity conditions are imposed on this data, there is naturally a [[topology]] on each of these sets of embedded marked cobordisms, that makes this into an $n$-fold simplicial [[topological space]]
+
+$$
+  \Delta^{op} \times \Delta^{op} \times \cdots \times \Delta^{op}
+  \to Top
+  \,.
+$$
+
+To get rid of the dependence of this construction on $V$, we can let $V$ "grow arbitrarily large" by taking the [[colimit]] of the above $n$-fold cosimplicial spaces as $V$ ranges over the finite dimensional subspaces of $\mathbb{R}^\infty$.
+
+The resulting $n$-fold simplicial topological space obtained by this colimit then is essentially the [[(∞,n)-category]] $Bord_n$ that we are after. It turns out that it actually is an $n$-fold Segal soace. We just formally _complete_ it to an [[n-fold complete Segal space]]
+
+$$
+  Bord_n : (\Delta^{op})^n \to Top
+  \,.
+$$
+
+This, then, is a model for the [[(∞,n)-category]] of extended $n$-dimensional cobordisms.
 
 
 ## References
@@ -63,11 +101,11 @@ A detailed construction of the [[(n,r)-category|(2,2)-category]] of cobordisms i
 
 * [[Chris Schommer-Pries]], [[2-category of 2-dimensional cobordisms]] .
 
-Other descriptions of higher categories of cobordisms are
+Other discussions of higher categories of cobordisms are
 
 * [[Marco Grandis]], _[[Cospans in Algebraic Topology]]_
 
-* Eugenia Cheng and Nick Gurski, _Toward an $n$-category of cobordisms_ , Theory and Applications of Categories 18 (2007), 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+* [[Eugenia Cheng]] and [[Nick Gurski]], _Toward an $n$-category of cobordisms_ , Theory and Applications of Categories 18 (2007), 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
 
 
 [[!redirects (∞,n)-category of cobordisms]]
