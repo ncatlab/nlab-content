@@ -4,6 +4,8 @@
 
 * [[model structure on dendroidal sets]]
 
+* [[motivic cohomology]]
+
 * [[category of motives]]
 
 category: people
