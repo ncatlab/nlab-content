@@ -10,6 +10,8 @@ There are now modern generalizations to many variables due Aomoto and another va
 
 * A. Varchenko, _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. 
 
+* V. Tarasov, A. Varchenko, _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp.
+
 Online entries/resources on hypergeometric function:
 
 * at Wolframworld: [hypergeometric function](http://mathworld.wolfram.com/HypergeometricFunction.html), [confluent hypergeometric functon of the first kind](http://mathworld.wolfram.com/ConfluentHypergeometricFunctionoftheFirstKind.html), [confluent hypergeometric functon of the second kind](http://mathworld.wolfram.com/ConfluentHypergeometricFunctionoftheSecondKind.html), [[generalized hypergeometric function](http://mathworld.wolfram.com/GeneralizedHypergeometricFunction.html), [$q$-hypergeometric function](http://mathworld.wolfram.com/q-HypergeometricFunction.html), [regularized hypergeometric function](http://mathworld.wolfram.com/RegularizedHypergeometricFunction.html)
