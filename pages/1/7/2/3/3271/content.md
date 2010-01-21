@@ -1,4 +1,4 @@
-**Victor Ginzburg** is a professor of mathematics at the University of Chicago. His thesis in Moscow was under Kirillov. His main interests are [[representation theory]], especially geometric representation theory, including more recently [[noncommutative algebraic geometry]]. 
+**Victor Ginzburg** is a professor of mathematics at the University of Chicago. His thesis in Moscow was under [[Alexandre Kirillov]]. His main interests are [[representation theory]], especially [[geometric representation theory]], including more recently [[noncommutative algebraic geometry]]. 
 
 Warning: there is another mathematician (global analysis, [[symplectic geometry]]), **Viktor** Ginzburg (note the English spelling).
 
