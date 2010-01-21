@@ -24,6 +24,16 @@ The _Nisnevich site_ relative to a [[scheme]] $S$ is the [[site]] given by
 
 ## References
 
-For instance the beginning of
+A quick overview is at the beginning of  the talk slides
 
-* Jardine, _Motivic spaces and the motivic stable category_ ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf))
+* Jardine, _Motivic spaces and the motivic stable category_ ([pdf](http://www.aimath.org/WWN/motivesdessins/motivic.pdf)) .
+
+A detailed discussion is in [section 3.1.1](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=61) of
+
+* [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_ ,  K-theory, 0305 ([web](http://www.math.uiuc.edu/K-theory/0305/) [pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
+
+or in the lecture notes
+
+* [[Eric Friedlander]], _[Algebraic Cycles and algebraic K-theory, II](http://www.math.northwestern.edu/~eric/lectures/)_ ([lecture 6 (pdf)](http://www.math.northwestern.edu/~eric/lectures/ihp/ihplec6.pdf))
+
+[[!redirects Nisnevich topology]]
