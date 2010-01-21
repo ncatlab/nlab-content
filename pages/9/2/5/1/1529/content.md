@@ -85,7 +85,7 @@ This means:
 
 #Examples#
 
-##ordinary catgeory of elements##
+##ordinary category of elements##
 
 For $D = $ [[Set]] and $pt_{Set} = {*}$
 the above reproduces the notion of [[category of elements]]#
