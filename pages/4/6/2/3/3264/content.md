@@ -20,5 +20,7 @@ His other works concentrated on motives, [[differential graded category|DG-categ
 
 * A. A. Beilinson, J. Bernstein, P. Deligne _Faisceaux pervers_, Ast&#233;risque __100__(1980).
 
+* A. Beilinson, [[Victor Ginzburg|V. Ginzburg]], _[[wall crossing|Wall-crossing]] functors and $D$-modules_, Representation Theory __3__ (electronic), 1--31 (1999)
+
 [[!redirects Beilinson]]
 [[!redirects Sasha Beilinson]]
