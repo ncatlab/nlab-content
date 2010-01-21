@@ -136,9 +136,9 @@ $$
 
 * For $C$ the category of finitely presented objects of some equationally defined structure, $ind\text{-}C$ is the category of all these structures.
 
-  * The catgeory [[Grp]] of groups is the ind-category of the category of finitely generated groups.
+  * The category [[Grp]] of groups is the ind-category of the category of finitely generated groups.
 
-    * The catgeory [[Ab]] of abelian groups is the ind-category of the category of finitely generated abelian groups.
+    * The category [[Ab]] of abelian groups is the ind-category of the category of finitely generated abelian groups.
 
 
 # Properties #
