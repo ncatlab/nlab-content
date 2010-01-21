@@ -16,4 +16,7 @@ Selected links and papers:
 
 * S. Evens, I. Mirkovi&#263;, _Characteristic cycles for the loop Grassmannian and nilpotent orbits_,  Duke Math. J. __97__  (1999),  no. 1, 109--126, [doi](http://dx.doi.org/10.1215/S0012-7094-99-09705-3)
 
+
 category: people
+
+[[!redirects Ivan Mirković]]
