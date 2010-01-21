@@ -41,7 +41,7 @@ in the corresponding 2-category of category-valued (pre)sheaves, i.e (pre)[[stac
 
 * [As hom objects](#AsCocycles) 
 
-below. By the equivalence between [[Grothendieck fibration]]s and [[pseudofunctor]]s this in turn is directly equivalent to the identification of $QC(X)$ with the catgeory of cartesian functors between the [[category of elements]] of $X$ and $Mod$. This is described in 
+below. By the equivalence between [[Grothendieck fibration]]s and [[pseudofunctor]]s this in turn is directly equivalent to the identification of $QC(X)$ with the category of cartesian functors between the [[category of elements]] of $X$ and $Mod$. This is described in 
 
 * [As cartesian morphisms of fibered categories](#AsFibHoms)
 
