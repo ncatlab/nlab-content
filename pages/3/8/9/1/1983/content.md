@@ -15,7 +15,7 @@ about models of [[smooth topos]]es for [[synthetic differential geometry]] that 
 
 # Summary #
 
-The book discusses the construction and the properties of [[smooth topos]]es $(\mathcal{T},R)$ that model the axioms of [[synthetic differential geometry]] and are _well-adapted_ to [[differential geometry]] in that there is a [[full and faithful functor]] $Diff \to \mathcal{T}$ embedding the [[category]] [[Diff]] of smooth [[manifold]]s into the more general catgeory $\mathcal{T}$.
+The book discusses the construction and the properties of [[smooth topos]]es $(\mathcal{T},R)$ that model the axioms of [[synthetic differential geometry]] and are _well-adapted_ to [[differential geometry]] in that there is a [[full and faithful functor]] $Diff \to \mathcal{T}$ embedding the [[category]] [[Diff]] of smooth [[manifold]]s into the more general category $\mathcal{T}$.
 
 All models are obtained as [[category of sheaves|categories of sheaves]] on [[site]]s whose underlying category is a [[subcategory]] of that of [[smooth loci]].
 
