@@ -72,7 +72,7 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 ## Related concepts ##
 
-* There is a notion of generalized cohomology induced from homotopy theory: [[homotopical cohomology theory]].
+* [[equivariant homotopy theory]]
 
 * The [[model structure on crossed complexes]] gives an alternative approach to $\infty$-[[infinity-groupoid|groupoids]].
 
