@@ -8,7 +8,7 @@
 
 ## Idea
 
-If in the context of [[stable homotopy theory]] the [[topological space]]s and [[spectra]] are equipped with the [[action]] of a [[topological group]] $G$ the theory refines to a _$G$-equivariant_ version.
+If in the context of [[stable homotopy theory]] the [[topological space]]s and [[spectra]] are equipped with an [[action]] of a [[topological group]] $G$ the theory refines to a _$G$-equivariant_ version. This is to [[equivariant homotopy theory]] (roughly) as [[stable homotopy theory]] is to [[homotopy theory]].
 
 ## Basic definitions
 
@@ -41,9 +41,15 @@ a morphism $f$ of $G$-spectra is a **weak equivalence of $G$-spectra** if for ev
 
 This may be expressed directly in terms of the notion of **homotopy group of a $G$-spectrum**: this is ...
 
+## Topological Mackey-functors
 
+> ... see the references below, for the moment...
 
 ## References
 
 * [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+The characterization of $G$-equivariant functors in terms of topological Mackey-functors is discussed in example 3.4 (i) of
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
 
