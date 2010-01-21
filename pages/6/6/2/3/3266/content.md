@@ -1,6 +1,6 @@
-**Geometric representation theory** studies representations (of various symmetry objects like [[algebraic group|algebraic groups]], Hecke algebras, [[quantum groups]], quivers etc.) realizing them by geometric means, e.g. by geometrically defined actions, as sections of various bundles or sheaves, [[D-modules]], perverse sheaves and so on. Typically the underlying spaces for sheaves involved are Grassmanians, [[flag variety|flag varieties]], configuration spaces and alike. Another important tool are cohomological vanishing theorems in appropriate context. Some historical landmarks are [[Borel-Weil theorem]], Borel-Weil-Bott theorem, [[BBDG decomposition theorem]], Beilinson-Bernstein localization theorem, Lusztig conjectures. 
+**Geometric representation theory** studies representations (of various symmetry objects like [[algebraic group|algebraic groups]], [[Hecke algebra]]s, [[quantum groups]], [[quiver]]s etc.) realizing them by geometric means, e.g. by geometrically defined [[actions]], as sections of various [[bundles]] or [[sheaves]], [[D-modules]], [[perverse sheaf|perverse sheaves]] and so on. Typically the underlying spaces for the sheaves involved are [[Grassmanian]]s, [[flag variety|flag varieties]], [[configuration space]]s and the like. Another important tool are cohomological vanishing theorems in appropriate contexts. Some historical landmarks are the [[Borel-Weil theorem]], the [[Borel-Weil-Bott theorem]], the [[BBDG decomposition theorem]], the [[Beilinson-Bernstein localization theorem]] and the [[Lusztig conjecture]]s. 
 
-* A. Beilinson, J. Bernstein, _Localisations de $\mathfrak{g}$&#8211;modules_, C. R. Acad. Sci. Paris 292 (1981), 15&#8211;18.
+* A. Beilinson, J. Bernstein, _Localisations de $\mathfrak{g}$&#8211;modules_, C. R. Acad. Sci. Paris 292 (1981), 15--18.
 
 * N. Chriss, V. Ginzburg, _Representation theory and complex geometry_, book
 
@@ -15,4 +15,4 @@
 * M.Kashiwara, W.Schmid, _Quasi-equivariant D-modules, equivariant
 derived category, and representations of reductive Lie groups_, Lie Theory
 and Geometry, in Honor of Bertram Kostant, Progress in Mathematics,
-Birkh&#228;user, 1994, pp. 457&#8211;-488.
+Birkh&#228;user, 1994, pp. 457--488.
