@@ -165,7 +165,7 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 
 * J. F. Jardine, _Motivic symmetric spectra_, Doc. Math. 5 (2000), 445--553
 
-* [[Sasha Beilinson|A. Be?linson]], R. MacPherson, V. Schechtman, _Notes on motivic cohomology_,  Duke Math. J.  54  (1987),  no. 2, 679--710; [doi](http://dx.doi.org/10.1215/S0012-7094-87-05430-5).
+* [[Alexander Beilinson|A. Be?linson]], R. MacPherson, V. Schechtman, _Notes on motivic cohomology_,  Duke Math. J.  54  (1987),  no. 2, 679--710; [doi](http://dx.doi.org/10.1215/S0012-7094-87-05430-5).
 
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
