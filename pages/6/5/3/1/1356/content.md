@@ -1,6 +1,6 @@
 a "simplicial weak $\omega$-category" can be used to mean two different things:
 
-* a [[simplicial object]] in some catgeory of weak [[omega-category|∞-categories]];
+* a [[simplicial object]] in some category of weak [[omega-category|∞-categories]];
 
 * a [[simplicial model for weak ∞-categories]].
 
