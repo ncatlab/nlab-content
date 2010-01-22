@@ -18,7 +18,7 @@ Depending on taste and application, certain smooth [[quotient object|quotient ob
 
 ## Details on the smooth structures
 
-The [[Fréchet manifold]] structure of $L X$ agrees with the [[diffeological space|diffeology]] on $L X$ in the following sense.
+The [[Frechet manifold|Fréchet manifold]] structure of $L X$ agrees with the [[diffeological space|diffeology]] on $L X$ in the following sense.
 
 There is a [[functor]]
 
@@ -26,7 +26,7 @@ $$
   F: Frech \to Diff
 $$
 
-from [[Fréchet manifold]]s to [[diffeological space]]s defined in the same way as the well-known functor from smooth [[manifold]]s to [[diffeological space]]s: a plot is precisely a smooth map $c : U \to L X$, where $U$ is an object in the domain category, e.g. an open subset of some $\mathbb{R}^n$.
+from [[Frechet manifold|Fréchet manifold]]s to [[diffeological space]]s defined in the same way as the well-known functor from smooth [[manifold]]s to [[diffeological space]]s: a plot is precisely a smooth map $c : U \to L X$, where $U$ is an object in the domain category, e.g. an open subset of some $\mathbb{R}^n$.
 
 (Notice that a theorem of M. Losik says that the functor F is [[full and faithful functor|full and faithful]], just like that including manifolds into diffeological spaces!)
 
