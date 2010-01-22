@@ -39,5 +39,8 @@ monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;
 
 * D. Joyce, Y. Song, _A theory of generalized Donaldson-Thomas invariants_,  [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
 
+
 [[!redirects BPS state]]
+[[!redirects BPS states]]
 [[!redirects BPS-states]]
+[[!redirects BPS-state]]
