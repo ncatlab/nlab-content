@@ -16,6 +16,6 @@ The combinatorics of hypersimplices extends the combinatorics of distinguished t
 
 * A. [[Beilinson]], J. Bernstein, P. Deligne, _Faisceaux pervers_, Ast&#233;risque __100__ (1982). MR 86g:32015 (diagrams in Rem. 1.1.14 are hypersimplices)
 
-* [[Georges Maltsiniotis]], _Cat&#233;gories triangul&#233;es sup&#233;rieures_, Pr&#233;-preprint [ps](http://people.math.jussieu.fr/~maltsin/ps/triansup.ps)(2005)
+* [[Georges Maltsiniotis]], _Cat&#233;gories triangul&#233;es sup&#233;rieures_, Pr&#233;-preprint [ps](http://people.math.jussieu.fr/~maltsin/ps/triansup.ps) (2005)
 
 * [[Jacob Lurie]], _Derived Algebraic Geometry I: Stable $\infty$-Categories_, ([arXiv](http://www.arXiv.org/abs/math.CT/0608228), [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
