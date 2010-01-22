@@ -30,11 +30,11 @@ The [[homotopy category]] of a stable $\infty$-category is a [[triangulated cate
 
 The relation between triangulated categories and stable $\infty$-categories has apparently been clear to some experts, but a comprehensive discussion appeared only more recently in the first part of Jacob Lurie's PhD thesis
 
-* Jacob Lurie, _Stable $\infty$-Categories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
+* [[Jacob Lurie]], _Stable $\infty$-Categories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
 
-building on the general theory of [[(infinity,1)-category|(infinity,1)-categories]] as developed in his book
+building on the general theory of [[(infinity,1)-category|(∞,1)-categories]] as developed in the book
 
-* Jacob Lurie, [[Higher Topos Theory]].
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_.
 
 
 ## Definition
@@ -148,14 +148,17 @@ Moreover, every [[derived category]] of an [[abelian category]] is the triangula
 Hence stable homotopy theory and homological algebra are both special cases of the theory of stable $(\infty,1)$-categories.
 
 
-## Alternative models  {#alternativemodels}
+## Models  {#alternativemodels}
 
-Stable $(\infty,1)$-categories are equivalent to
+In direct analogy to how a general [[(∞,1)-category]] may be [[presentable (∞,1)-category|presented]] by [[model category]], a stable $(\infty,1)$-categories may be presented by a
 
-* $\Leftrightarrow$ [[stable model category]]
+* [[stable model category]].
 
-* $\Leftrightarrow$ [[pre-triangulated spectral category]]
+Or a
 
+* [[pre-triangulated spectral category]].
+
+There are further variants and special cases of these models.
 The following three concepts are equivalent to each other and special cases of the above models, or equivalent in characteristic 0.
 
 * [[pretriangulated dg-category]]
@@ -175,6 +178,56 @@ A [[triangulated category]] linear over a field $k$ can canonically be refined t
 If $k$ has characteristic 0, then all these three concepts become equivalent.
 
 
+
+
+## Stabilization and localization of presheaf $(\infty,1)$-categories {#StabGiraud}
+
+Let $C$ and $D$ be [[(infinity,1)-category|(∞,1)-categories]] and
+$Func(C,D)$ the [[(∞,1)-category of (∞,1)-functors]] between them.
+
+Its [[stabilization]] is equivalent to the functor category into the stabilization of $C$:
+
+$$
+  Stab(Func(C,D)) \simeq Func(C,Stab(D))
+  \,.
+$$
+
+In particular, in the case $D = $ [[∞Grpd]] for which 
+$Func(C, D) = Func(C, \infty Grpd) =: PSh_{(\infty,1)}(C)$ 
+is the [[(∞,1)-category of (∞,1)-presheaves]] we have with
+$Stab(\infty Grpd) = Sp$ (the [[stable (∞,1)-category of spectra]]) that
+
+$$
+  Stab(PSh_{(\infty,1)}(C)) \simeq Func(C,Sp)
+  \,.
+$$
+
+This is [StabCat, example 10.13]() .
+
+
+**Proposition** **("stable Giraud theorem")**
+ 
+Every stable and [[presentable (∞,1)-category]] $C$ is equivalent to an
+(accessible) left-exact [[localization of an (∞,1)-category|localization of]] a stabilized $(\infty,1)$presheaf $(\infty,1)$-category: there exists a small $(\infty,1)$-category $E$ and an adjunction
+
+$$
+  C \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
+  Stab(PSh(E)) \simeq Func(E,Sp)
+  \,.
+$$
+
+This is [StabCat prop 15.9]().
+
+This is the stable analog of the statement that every 
+[[(∞,1)-category of (∞,1)-sheaves]] is a left exact localization of
+an $(\infty,1)$-category of presheaves.
+
+
+In terms of ([[stable model category|stable]]) [[model category|model categories]], something like an analog of this statement is theorem 3.3.3 in 
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
+
+
 ## Warning on terminology 
 
 A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  A connection between the terms is that the $(\infty,1)$-category of [[spectrum|spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or $E_\infty$-[[E-infinity-space|spaces]].
@@ -184,17 +237,11 @@ A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-ca
 
 The canonical reference is of course
 
-* [[Jacob Lurie]], [[Stable Infinity-Categories]]
-
-This claims that
-
->most of the results presented here are well-known to experts
-
-but is certainly the only comprehensive source for these results.
+* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
 
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each are these seminar notes:
 
-* S. Schwede, _Enhancements of triangulated categories_ ([pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf))
+* [[Stefan Schwede]], _Enhancements of triangulated categories_ ([pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf))
 
 [[!redirects stable (infinity,1)-categories]]
 [[!redirects stable (∞,1)-category]]
