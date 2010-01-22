@@ -7,16 +7,16 @@
 
 The smooth loop space of a smooth [[manifold]], say $M$, is the [[space]] of smooth maps from the circle, $S^1$, to $M$.  It naturally carries the structure of a [[diffeological space]] or [[Frolicher space]] and can be given compatibly the structure of an infinite dimensional [[Frechet manifold|Fréchet manifold]].
 
-By extending the idea of a manifold to that of a [[generalized smooth space]], smooth loop spaces can be viewed as the result of applying the [[internal hom]]-functor $[-,-] : SmoothSpace^{op} \times SmoothSpace \to SmoothSpace$ with the circle as the source:
+By extending the idea of a manifold to that of a [[generalized smooth space]], smooth loop spaces can be viewed as the result of applying the [[internal hom]]-functor $[-,-] : Sh(CartSp)^{op} \times Sh(CartSp) \to Sh(CartSp)$ in the [[category of sheaves]] on the [[site]] [[CartSp]] with the circle as the source:
 
 $$
-  LoopSpace(X) = [S^1, X]
+  L X = [S^1, X]
   \,.
 $$
 
 Depending on taste and application, certain smooth [[quotient object|quotient object]]s of this free loop space may be and are often considered. 
 
-## Details on the smooth structures
+## Details on the smooth structures {#SmoothStruc}
 
 The [[Frechet manifold|Fréchet manifold]] structure of $L X$ agrees with the [[diffeological space|diffeology]] on $L X$ in the following sense.
 
@@ -154,7 +154,7 @@ $$
 
 which is the smooth subspace of the smooth space of morphisms in $\mathcal{P}_1(X)$ of those morphisms that start and end at $x$.
 
-When unwarpping what all this means, one sees that the object $LoopSpace_x(x) \in Sh_{(\infty,1)}(Diff)$ that we obtain this way is nothing but the image under the embedding $Sh(Diff) \hookrightarrow Sh_{(\infty,1)}(X)$ of ordinary [[sheaf|sheaves]] into $\infty$-stacks of some [[quotient object|quotient]] of the [[internal hom]] $[I,X]$ in the [[closed monoidal structure on sheaves]]. Being an internal hom of representables, this is a [[concrete sheaf]] and as such it is precisely the smooth loop space regarded as a [[diffeological space]].
+When unwarpping what all this means, one sees that the object $LoopSpace_x(x) \in Sh_{(\infty,1)}(CartSp)$ that we obtain this way is nothing but the image under the embedding $Sh(CartSp) \hookrightarrow Sh_{(\infty,1)}(CartSp)$ of ordinary [[sheaf|sheaves]] into $\infty$-stacks of some [[quotient object|quotient]] of the [[internal hom]] $[I,X]$ in the [[closed monoidal structure on sheaves]]. Being an internal hom of representables, this is a [[concrete sheaf]] and as such it is precisely the smooth loop space regarded as a [[diffeological space]].
 
 ## References
 
