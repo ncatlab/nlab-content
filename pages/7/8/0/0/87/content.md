@@ -20,7 +20,7 @@ For instance the functor $C(U) \to X$ from a [[Cech nerve|Cech groupoid]] associ
 
 There is a standard way to deal with such situations where we are faced with a category -- here the category $Cat(\mathcal{E})$ of categories internal to $\mathcal{E}$ -- some of whose morphisms look like they ought to have inverses, but do not: we call these would-be invertible morphisms _weak equivalences_ such that our category becomes a [[category with weak equivalences]] or a [[homotopical category]]. Then we pass to the corresponding [[homotopy category]]: the universal "improvement" of our category such that all the would-be invertible morphism do become invertible.
 
-Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally [[k-surjective functor|k-surjective]] for all $k$. It turns out that this choice of weak equivalences is particularly well-behved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f : C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
+Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally [[k-surjective functor|k-surjective]] for all $k$. It turns out that this choice of weak equivalences is particularly well-behaved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [[internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f : C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
 
 $$
   \array{
@@ -164,21 +164,20 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 The term "anafunctor" was intrroduced by Michael Makkai in
 
 
-* Makkai, [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) (first explicit formulation of anafunctors)
-
+* Makkai, [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) 
 
 The popularity of the term was notably pushed by [[Toby Bartels]], who considered [[internalization]]s of Makkai's definition in
 
 * [[Toby Bartels]], _Higher Gauge Theory I: 2-Bundles_  ([arXiv:math.CT/0410328](http://arxiv.org/abs/math.CT/0410328))
 {#HGT1}
 
-A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into acoount is
+A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into account is
 
 * [[David Roberts]], _Internal categories and anafunctors_ (PhD thesis, chapter I) ([pdf](http://ncatlab.org/davidroberts/files/internal_cats_and_anafunctors.pdf))
 
 Since anafunctors are a special case of a more general concept, they, or the general theory applying to them, has been considered under different terms elsewhere. 
 
-The general question of [[model category]] strcutures on categories of [[internal category|internal categories]] is discussed in 
+The general question of [[model category]] structures on categories of [[internal category|internal categories]] is discussed in 
 
 * T. Everaert, R.W. Kieboom and T. Van der Linden , _Model structures for homotopy of internal categories_  TAC,  Vol. 15, CT2004, No. 3, pp 66-94. ([web](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html) ([pdf](http://www.tac.mta.ca/tac/volumes/15/3/15-03.pdf)))
 {#EKV}
