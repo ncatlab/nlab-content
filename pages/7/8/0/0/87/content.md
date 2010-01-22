@@ -1,15 +1,62 @@
 * toc
 {: toc}
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-**Anafunctors** are the proper notion of morphism to use between categories in a context where the [[axiom of choice]] fails. Functors, as normally defined, are really not the correct concept.
 
-Anafunctors were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
 
-More generally, an ordinary anafunctor may be regarded as a [[cocycle]] in the context of [[Cat]] equipped with the [[folk model structure on Cat]]. Internal anafunctors are in this sense [[cocycle]]s in more general [[homotopical category|homotopical categories]] of [[internal groupoid]]s, and, more generally, $\infty$-anafunctors are cocycles in  [[(∞,1)-topos]]es of [[internal ∞-groupoid]]s.
+## Idea
 
-#Definition (external)#
+A basic fact in ordinary [[category theory]] is that a [[functor]] $f : C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g : D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- precisely if it is an [[essentially surjective functor|essentially surjective]] [[full and faithful functor]].
+
+But this statement does crucially depend on the [[axiom of choice]]: the functor $g$ is obtained by _choosing_  for each [[object]] $d \in D$ an object $c \in C$ such that $f(c) \simeq d$. 
+
+The notion of _anafunctor_ , introduced by Makkai, is a modification of the notion of _functor_ such that even in the absence of the axiom of choice, the statement remains true that an anafunctor is an [[equivalence of categories]] precisely if it is essentially surjective and full and faithful.
+
+Since questions concerning the axiom of choice tend to look a bit esoteric to those not actively interested in questions of [[foundations]], it is helpful to think of this more generally in terms of [[internal category]] theory, where the concept is of independent use and in fact well known by other names than "anafunctor":
+
+consider some ambient category $\mathcal{E}$ [[internalization|internal]] to which we want to do category theory. A good example to keep in mind is the category [[Top]] of [[topological space]]s. The axiom of choice does fail in [[Top]], but for a very non-esoteric reason: in the simple sense that not every continous [[epimorphism]] $P \to X$ between topological spaces has a _continuous_ [[section]].
+
+Then it may easily happen that an internal functor $f : C \to D$ between [[internal category|internal categories]] in $\mathcal{E}$ (for instance between topological categories) is [[k-surjective functor|k-surjective]] for all $k$, but still does not admit a weak inverse in $\mathcal{E}$. 
+For instance the functor $C(U) \to X$ from a [[Cech nerve|Cech groupoid]] associated to an open [[cover]] $U = \coprod_i U_i$ of a [[topological space]] $X$ is [[k-surjective functor|k-surjective]] for all $k$ in $\mathcal{E} = Top$, but in general does not admit a weak inverse, simply because the continuous function $\coprod_i U_i \to X$ does not have a continuous section, unless one of the $U_i$ is already equal to $X$. Entirely analogously, Makkai considered $\mathcal{E} = Set_{\not C}$ to be the category [[Set]] of [[set]]s without the [[axiom of choice]], where the same may happen: not every [[k-surjective functor]] for all $k$ has a weak inverse.
+
+There is a standard way to deal with such situations where we are faced with a category -- here the category $Cat(\mathcal{E})$ of categories internal to $\mathcal{E}$ -- some of whose morphisms look like they ought to have inverses, but do not: we call these would-be invertible morphisms _weak equivalences_ such that our category becomes a [[category with weak equivalences]] or a [[homotopical category]]. Then we pass to the corresponding [[homotopy category]]: the universal "improvement" of our category such that all the would-be invertible morphism do become invertible.
+
+Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally [[k-surjective functor|k-surjective]] for all $k$. It turns out that this choice of weak equivalences is particularly well-behved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f : C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
+
+$$
+  \array{
+    \hat C &\stackrel{\hat f}{\to}& D
+    \\
+    \downarrow^{\mathrlap{\in W}}
+    \\
+    C
+  }
+  \,,
+$$
+
+where the left leg is a weak equivalence., hence for us: where the left leg is an internal functor that is $k$-surjective for all $k$.  (This is the beginning of the construction of the [[Dwyer-Kan localization]] at our chosen weak equivalences.)
+
+For the case $\mathcal{E} = Top$ such a span is a morphism out of a _Cech cover_ . For instance for $C = X$ a topological space regarded as a topological category, for $G$ a [[topological group]] and $D = \mathbf{B}G$ its [[delooping]] one-object topological groupoid, such a span is a [[Cech cohomology|Cech cocycle]] on $X$ with values in $G$.
+
+And finally: for the case that $\mathcal{E} = Set_{\not C}$ is the category of sets without the axiom of choice, such a span is an **anafunctor** : a functor $\hat C \to C$ that is is surjective on objects and [[full and faithful functor|full and faithful]], together with a functor $\hat C \to D$ out of the "resolution" of $C$.
+
+So one can understand ordinary anafunctors as follows:
+
+1. first we consider that the [[axiom of choice]] may fail, 
+   which makes previously invertible functors  non-invertible;
+   
+1. then we universally _force_ the now non-invertible functors 
+   to become invertible after all,
+   by throwing in formal inverses for them.
+   
+   
+Under the name anafunctors these concepts were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
+
+
+## Definition (external)
 
 Given categories $C$ and $D$, an __anafunctor__ $F: C \to D$ consists of:
 
@@ -27,7 +74,7 @@ Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be
 Categories, anafunctors, and a suitably defined notion of [[ananatural transformation]] between them form a [[bicategory]] $Cat_{ana}$, which admits a functor from the [[strict 2-category]] $Str Cat$ of [[strict categories]], functors and natural transformations; this functor is not, in the absence of choice, an equivalence.  An internal [[equivalence]] in this 2-category is called an **anaequivalence**.  While most mathematicians will identify $Cat_{ana}$ and $Str Cat$ as [[Cat]], the $2$-categories of categories, mathematicians who doubt the axiom of choice will distinguish them (and may use the term '$Cat$' for either).
 
 
-#Definition (internal)#
+## Definition (internal)
 
 Given an anafunctor $F:C\to D$ as above, we can construct a new category $\overline{F}$ whose objects are the specifications of $F$ and whose morphisms from $s$ to $t$ are the morphisms from $\sigma(s)$ to $\sigma(t)$ in $C$.  Then the projection $\overline{F}\to C$ is a (weak) [[equivalence of categories]] which is surjective on objects, and the rest of the data of $F$ is encapsulated in a functor $\overline{F}\to D$.  Conversely, from any span $C \leftarrow E \to D$ such that $E\to C$ is a surjective equivalence we can reconstruct an anafunctor whose specifications are the objects of $E$.  Thus, anafunctors $C\to D$ can be identified with such spans.  (We can also construct an anafunctor when $E \to C$ is merely an equivalence, but using a much larger class of specifications.)
 
@@ -67,7 +114,7 @@ In Section 1.1.5 of [HGT I][], the following additional axiom was assumed on the
 This is not needed for anafunctors but is used to relate descent to bundles (and then to $2$-bundles).
 
 
-#Homotopy-theoretic interpretation#
+## Homotopy-theoretic interpretation
 
 Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a [[weak equivalence]] but an acyclic fibration.  However, it appears that the folk model structure on Cat only exists (with its weak equivalences being the fully faithful and essentially surjective maps) under the assumption of some choice---though full AC is not needed, [[COSHEP]] suffices.
 
@@ -79,7 +126,7 @@ If we specialize to groupoids, with their folk model structure by Brown-Golasins
 this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent|codescent]] such homotopical cocycles are related to [[descent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
 
 
-# Questions of size #
+## Questions of size 
 
 In general, it seems that even if $C$ and $D$ are [[small categories]], then the category $Ana(C,D)$ of anafunctors from $C$ to $D$ is not necessarily even essentially small, and thus the 2-category $Cat_{ana}$ of categories and anafunctors is not [[cartesian closed category|cartesian closed]].
 
@@ -90,15 +137,15 @@ COSHEP is actually stronger than necessary for this; all that is really needed i
 In Makkai's paper referenced below, he proves that $Ana(C,D)$ is small under the assumption of what he calls the *small cardinality selection axiom*, which in turn follows from Blass' axiom of *small violations of choice*.  It is not obvious, however, what the [[structural set theory|structural]] counterparts of these axioms might be, or whether they are related to the axioms mentioned above.   They carry the same feel that "choice is violated only in a small way," but the proof presented there is an "injective" approach, in that the set of possibilities for the objects of $F$ is constructed mainly from $D$, rather than purely from $C$ as in the "projective" approach above using COSHEP or its relatives.
 
 
-#Generalizations#
+## Generalizations
 
-## Higher versions ##
+### Higher versions 
 
 Since the [[folk model structure]] on $Cat$ extends to $\omega$-[[strict omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, strict $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding $\omega$-[[schreiber:omega-anafunctors|anafunctors] between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
 
 More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. See [[schreiber:omega-anafunctor]].
 
-## Additive version ##
+### Additive version
 
 The notion of abelian [[butterfly]] introduced by Behrang Noohi [Weak maps of 2-groups](http://arxiv.org/abs/math.CT/0506313) is the additive version of the notion of (saturated) anafunctor: the equivalence between, on the one hand, internal groupoids and internal functors and, on the other hand, arrows and commutative squares in an abelian category extends to an equivalence between saturated anafunctors and butterflies.
 
@@ -113,26 +160,43 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 
 [[Tim Porter|Tim]]: Noohi has pointed out to me a slip in his HHA article in which he gives an 'algebraic' description of weak map (and thus of anafunctor) between the crossed modules corresponding to the 2-groups.  He has posted a corrected version on the archive (&lt;http://arxiv.org/abs/math/0506313v3>, but make sure you get version 3).
 =--
-# References
 
-* [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) (first explicit formulation of anafunctors)
+## References
 
-* [Higher gauge theory I: 2-Bundles][HGT I] (first explicit formulation of internal anafunctors)
-
-* [Local Transition of Transport, Anafunctors and Descent of n-Functors](http://golem.ph.utexas.edu/category/2006/12/local_transition_of_transport.html) (first explicit formulation of $n$-anafunctors)
-
-* [Model structures for homotopy of internal categories][EKV 2004]
+The term "anafunctor" was intrroduced by Michael Makkai in
 
 
-[EKV 2004]: http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html
-[HGT I]: http://arxiv.org/abs/math.CT/0410328
-
-#Discussion#
-
-The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors. 
+* Makkai, [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) (first explicit formulation of anafunctors)
 
 
-David Roberts says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
+The popularity of the term was notably pushed by [[Toby Bartels]], who considered [[internalization]]s of Makkai's definition in
+
+* [[Toby Bartels]], _2-Bundles_  ([arXiv:math.CT/0410328](http://arxiv.org/abs/math.CT/0410328))
+
+A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into acoount is
+
+* [[David Roberts]], _Internal categories and anafunctors_ (PhD thesis, chapter I) ([pdf](http://ncatlab.org/davidroberts/files/internal_cats_and_anafunctors.pdf))
+
+Since anafunctors are a special case of a more general concept, they, or the general theory applying to them, has been considered under different terms elsewhere. 
+
+The general question of [[model category]] strcutures on categories of [[internal category|internal categories]] is discussed in 
+
+* T. Everaert, R.W. Kieboom and T. Van der Linden , _Model structures for homotopy of internal categories_  TAC,  Vol. 15, CT2004, No. 3, pp 66-94. ([web](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html) ([pdf](http://www.tac.mta.ca/tac/volumes/15/3/15-03.pdf)))
+
+Closely related, still a bit more general, are the considerations in
+
+* Jardine, _Cocycle categories_ K-theory 0782 ([web](http://www.math.uiuc.edu/K-theory/0782/)) ([pdf](http://www.math.uiuc.edu/K-theory/0782/coc-cat3.pdf))
+
+
+## Discussion
+
+
++-- {: .query}
+
+
+>The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors. 
+
+[[David Roberts]] says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
 
 DR says: Well I suppose we could follow Makkai's philosophy twice and have a composition anafunctor (in the original sense) for composing anafunctors (in the internal sense) and end up with an anabicategory.
 
@@ -147,5 +211,8 @@ _David R_: After some thought, one could do without _the_ identity anafunctor, a
 _Toby_: You only get an anabicategory anyway, because of the choice of pullbacks (unless the structure of the coverage fixes these, as can be done in $Set$).
 
 Anafunctors really should make sense in any [[site]] whatsoever (as long as we can compose ananatural transformations, which I guess we can if the site is subcanonical).  The trick of getting away with single maps (as one can do, for example, in a superextensive site) is not really necessary.  In fact, using a coverage makes the definitions, while more complicated, really look more natural in topological categories.
+
+=--
+
 
 [[!redirects anafunctors]]
