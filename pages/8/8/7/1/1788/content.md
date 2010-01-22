@@ -7,8 +7,7 @@ The sandbox had gotten a little full, making it hard to use as a sandbox.  So [[
 ***
 
 
-[[tobybartels:preset]], [[tobybartels:set]]
-
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
 
 category: meta
 
