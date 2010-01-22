@@ -35,7 +35,7 @@ $$
   x s & \underset{\rho}{\to} & x
 }
 $$
-commutes.
+commutes.  Such a bimodule may be written as $x : s &#8696; t$.
 
 A **morphism** of left $t$-modules $(x,\lambda) \to (x',\lambda')$ is given by a 2-cell $\alpha : x \Rightarrow x'$ such that $\lambda' \circ t\alpha = \alpha \circ \lambda$.  Similarly, a morphism of right $t$-modules $(y,\rho) \to (y',\rho')$ is $\beta : y \Rightarrow y'$ such that $\rho' \circ \alpha s = \alpha \circ \rho$.  A morphism of bimodules $(x,\lambda,\rho) \to (x',\lambda',\rho')$ is given by $\alpha : x \Rightarrow x'$ that is a morphism of both left and right modules.
 
@@ -57,7 +57,7 @@ $$ \array {
 $$
 commute.
 
-In particular, every module (algebra) over a monad has an underlying structure of an [[algebra over an endofunctor|algebra over the underlying endofunctor]].
+In particular, every algebra in this sense over a monad $(T,\eta,\mu)$ has the structure of an [[algebra over an endofunctor|algebra over the underlying endofunctor]] $T$.
 
 $T$-algebras can also be defined as left [[modules]] over $T$ _qua_ monoid in $End(C)$.  There the object $A$ is represented by the constant endofunctor at $A$.
 
@@ -67,8 +67,21 @@ _Eilenberg--Moore object_ to be defined in any bicategory.
 
 ## Tensor product
 
-...
+Given bimodules $x' : r &#8696; s$ and $x : s &#8696; t$, where $r,s,t$ are monads on $c,b,a$ respectively, we may be able to form the **tensor product** $x \otimes_s x' : r &#8696; t$ just as in the case of bimodules over rings.  If the hom-categories of the bicategory $K$ have [[coequalizer]]s that are preserved by composition on both sides, then the tensor product is given by the coequalizer in $K(c,a)$
+$$
+\array{
+  x s x' & \overset{\to}{\to} & x x' & \to x \otimes_s x'
+}
+$$
+where the parallel arrows are the two induced actions $\rho x'$ and $x \lambda$ on $s$.  It is straightforward, though a little tedious, to show that this is an $r,t$-bimodule, the conditions following from those on $x,x'$ together with the fact that coequalizers are [[epimorphism]]s and that (because of the condition on $K$) whiskering one coequalizer diagram on either side results in another.
 
+If $K$ satisfies the above conditions then there is a bicategory $Mod(K)$ consisting of monads, bimodules and bimodule morphisms in $K$.
+
+### Example
+
+If $K = Span(Set)$, the bicategory of [[span]]s of sets, then a monad in $K$ is precisely a small category.  Then $Mod(K) = Prof$, the category of small categories, [[profunctor]]s and natural transformations.
+
+More generally, $Mod(Span(C))$ for $C$ any category with pullbacks consists of [[internal category|internal categories]] in $C$, together with [[internal profunctor|internal profunctors]] between them and transformations between those.
 
 
 [[!redirects module of a monad]]
