@@ -10,7 +10,7 @@ In geometric models, like variants of the [[superstring theory]], it is very imp
 
 Several mathematical theories in [[geometry]] are interpreted as counting BPS-states in the sense of integration on appropriate compactification of the moduli space of BPS-states in a related physical model attached to the underlying geometry: most notably the Gromov--Witten invariants, Donaldson--Thomas invariants and the Thomas--Pandharipande invariants; all the three seem to be deeply interrelated though they are defined in rather very different terms. The compactification of the moduli space involves various stability conditions. 
 
-*  J. A. Harvey, G. Moore, _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://dx.doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](http://arxiv.org/abs/hep-th/9510182)
+*  J. A. Harvey, G. W. Moore, _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://dx.doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](http://arxiv.org/abs/hep-th/9510182); _On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](http://dx.doi.org/10.1007/s002200050461), [hep-th/9609017](http://arxiv.org/abs/hep-th/9609017).
 
 * (E. B. Bogomolnyj) &#1045;. &#1041;. &#1041;&#1086;&#1075;&#1086;&#1084;&#1086;&#1083;&#1100;&#1085;&#1080;&#1081;, _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454
 
