@@ -37,6 +37,19 @@ A non-technical introduction to some concepts in cohomology from this perspectiv
 
 * [[motivation for sheaves, cohomology and higher stacks]].
 
+The following section 
+
+* [Overview](#Overview)
+
+gives a tour through the zoo of cohomology theories traditionally known, indicating how they all fit into this picture. Then the section
+
+* [Definition](#Definition)
+
+gives the very general formal definition and discusses very general properties of and constructions in cohomology theory, such as the terminology of _cocycles_ and _coboundaries_ of _objects classified_ by cohomology, of _characteristic classes_ of these objects, and so on.
+
+
+
+## Tour through notions of cohomology {#Overview}
 
 The statement of this slogan is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A := K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
 
@@ -54,7 +67,7 @@ Indeed, it turns out that an old result from the 1960s, **Verdier's hypercoverin
 
 * Ken Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]].
 
-Therein Brown considers a slightly simplified version of the [[model structure on simplicial presheaves]] -- which today is known to be one of the standard [[models for ∞-stack (∞,1)-toposes]] $\mathbf{H}$ -- rederives Verdier's hypercovering theorem and shows that ordinary [[abelian sheaf cohomology]] is indeed nothing but $\pi_0 \mathbf{H}(X,A)$ in such an [[(∞,1)-topos]], for the special case that the [[simplicial presheaf]] $A$ happens to be objectwise in the image of the [[Dold-Kan correspondence]], i.e. for the special case that $A$ is a _maximally abelian_ [[∞-stack]].
+Therein Brown considers essnetially the [[model structure on simplicial presheaves]] -- which today is known to be one of the standard [[models for ∞-stack (∞,1)-toposes]] $\mathbf{H}$ -- rederives Verdier's hypercovering theorem and shows that ordinary [[abelian sheaf cohomology]] is indeed nothing but $\pi_0 \mathbf{H}(X,A)$ in such an [[(∞,1)-topos]], for the special case that the [[simplicial presheaf]] $A$ happens to be objectwise in the image of the [[Dold-Kan correspondence]], i.e. for the special case that $A$ is a _maximally abelian_ [[∞-stack]].
 
 One can then understand various "cohomology theories" as nothing but tools for _computing_ $\pi_0 \mathbf{H}(X,A)$ using the known presentations of [[(∞,1)-categorical hom-space]]s: for instance [[?ech cohomology]] computes these spaces by finding cofibrant models for the domain $X$, called [[?ech nerve]]s. Dual to that, most texts on [[abelian sheaf cohomology]] find fibrant models for the codomain $A$: called injective resolutions. Both algorithms in the end compute the same intrinsically defined $(\infty,1)$-categorical hom-space.
 
@@ -85,33 +98,209 @@ By generalizing the notion of [[Chern character]] to richer $(\infty,1)$-toposes
 
 
 
-## Definition ##
+## Definition {#Definition}
 
-### General (or "nonabelian" or "unstable") cohomology ###
+We give now the very general definition of cohomology and describe very general properties of and very general constructions in cohomology theory. 
 
-Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $\mathbf{H}(X,A)$ (an [[∞-groupoid]]).
+### General definition
+
+Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ we have the [[derived hom-space|(∞,1)-categorical hom-space]] $\mathbf{H}(X,A)$ -- an [[∞-groupoid]]. For $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, its set of connected components is $\pi_0 \mathbf{H}(X,A) = Ho_{\mathbf{H}}(X,A)$.
+
+* The [[objects]] $ (c : X \to A) \in \mathbf{H}(X,A)$ are 
+  called **[[cocycle]]s** on $X$ with coefficients in $A$;
+
+* if $A$ is understood to be equipped with the structure ${*} \to A$ of 
+  a [[pointed object]], then the cocycle $X \to {*} \to A$ is the
+  **trivial cocycle** $c_{triv}$;
+
+* the [[morphism]]s $\lambda : c_1 \to c_2$ in $\mathbf{H}(X,A)$ are the
+  **coboundaries**. Two cocycles connected by a coboundary 
+  are **cohomologoues**. (More specifically, a cocycle cohomologous to the
+  trivial cocycle is called a coboundary.)
+
+* the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ of 
+  cohomologous are the **cohomology classes**;
+
+* the set of cohomology classes is the $A$-**cohomology set**
+
+  $$
+    H(X,A) := Ho_{\mathbf{H}}(X,A) = \pi_0 \mathbf{H}(X,A)
+  $$
+
+  of $X$.
+
+* for $c \in \mathbf{H}(X,A)$ a cocycle on $X$ and 
+  $k \in \mathbf{H}(A,B)$ a cocycle on $A$, the class of the composite
+  cocycle
+  
+  $$
+     [k(c)] := [X \stackrel{c}{\to} A \stackrel{k}{\to} B] \in H(X,B)
+  $$
+
+  is the **[[characteristic class]]** of $c$ with respect to $k$.
+
+**Remark** Notice that there is **no notion of cochain** in this general setup. What are called _cochains_ are specifically components of certain specific [[model category|models]] for $\mathbf{H}(X,A)$. More on this in the section on [abelian cohomology](#abelian) below.
+
+### Objects classified by cohomology
+
+For $g : X \to A$ a cocycle, one says that its [[homotopy fiber]] $P \to X$ is the object **classified by the cohomology class*.
+
+Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc. If the domain object $X$ itself is a [[group object in an (infinity,1)-category|group object]], then $P \to X$ is a [[group extension]]. For that reason in abelian cohomology $\mathbf{H}(X,A)$ is often denoted $Ext(X,A)$ and a cocycle is called an [[Ext-functor]].
+
+Let $A \to B$ be a $B$-valued cocycle on $A$.
+The [[characteristic class]] of an object $P \to X$ classified by a cocycle $X \to A$ is then the composite cocycle $X\to A \to B$. 
 
 
-More precisely:
 
-* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **[[cocycle]]s** on $X$ with coefficients in $A$;
 
-* the [[k-morphisms]] in $\mathbf{H}(X,A)$ for $k \gt 0$ are the **coboundaries**;
 
-* the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ are the **cohomology classes**.
+### Extra structure on cohomology
 
-Hence for $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, the _cohomology set_ with coefficients in $A$ is
+#### Cohomology groups
 
-$$
-  H(X,A) := Ho_{\mathbf{H}}(X,A)
-  \,.
-$$
+If $A$ happens to be a 
+  [[group object in an (infinity,1)-category|group object]] 
+  in $\mathbf{H}$ then this set is naturally equipped with the
+  structure of a [[group]] itself and then $H(X,A)$ is called the
+  $A$-**[[cohomology group]]* of $X$.
 
-This is itself a group -- the [[cohomology group]] -- if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
+#### Abelian cohomology {#abelian}
 
-### What this mean in more detail ###
+Often $A$ is assumed to be a component of a [[spectrum object]]
+  in $\mathbf{H}$. In this case cohomology with coefficient in $A$
+  is **abelian cohomology**. For emphasis, when this assumption is
+  dropped one speaks of **[[nonabelian cohomology]]** or more precisely:
+  _not-necessarily abelian cohomology_ .
 
-Or, in the language of self-described 'old farts' such as [[Jim Stasheff]]:
+#### Gradings
+
+The grading one usually sees on cohomology classes is in the above definition entirely encoded in the [[higher category theory|categorical degree]] of the coefficient object. The cohomology $H(X,A)$ is the usual degree $0$ cohomology with coefficients in $A$. Cohomology of other degree can be obtained by looping or delooping the coefficients $A$. For example, if $A$ is a 0-type which is $n$-times de-loopable to an $n$-[[homotopy n-type|type]] $B^n A$, then degree $n$ cohomology with coefficients in $A$ is cohomology with coefficients in $\mathbf{B}^n A$: $H^n(X,A) := H(X, \mathbf{B}^n A)$. Similarly, looping can be used to define negative cohomology.
+
+### Variants
+
+#### Twisted cohomology
+
+Given $A \in \mathbf{H}$ an object and $k : A \to B$ cocycle on $A$, classifying its [[homotopy fiber]] $C \to A$, the $A$-cohomology with specified $B$-[[characteristic class]] $[k]$ is $k$-**twised $C$-cohomology.
+
+For the moment see
+
+* [[twisted cohomology]]
+
+
+
+#### Differential cohomology
+
+A special type [[characteristic class]] is the [[Chern character]].
+The [[twisted cohomology]] with respect to the Chern character is **differential cohomology**.
+
+* [[differential cohomology|differential abelian cohomology]] 
+
+* [schreiber:differential nonabelian cohomology]]
+
+#### Equivariant cohomology
+
+Various related but different variations of cohomology are obtained by domain objects, or coefficient objects or both with [[action groupoid]]s of [[action]]s  by some [[group object in an (infinity,1)-category|group object]], or by more general groupoids ("[[orbifold]]s").
+
+For the moment see
+
+* [[equivariant cohomology]].
+
+
+### Homotopy
+
+By abstract [[duality]], cohomology is dual to [[homotopy (as an operation)]]:
+
+the cohomology _of_ $X$ with coefficients in $A$ is the [[homotopy]] of $A$ with co-coefficients in $X$.
+
+Notably, when $\mathbf{H}$ is a [[lined topos]] there is for 
+each $n \in \mathbb{N}$ a [[sphere object]] $S^n$ in $\mathbf{H}$.
+
+For any $A \in \mathbf{H}$ the set $H(S^n, A)$ is equivalently
+
+1. the $A$-cohomology of $S^n$.
+
+2. the $n$th homotopy group of $A$.
+
+One could argue that a more suitable term for cohomology is [[cohomotopy]]. Unfortunately, of course, this term is traditonally used only for a very special case of what it should mean generally...
+
+
+
+
+
+## Examples ##
+
+### Long list of examples
+
+Classes of special cases of cohomologies with their own entries include
+
+* [[chain homology and cohomology]]
+
+* [[groupoid cohomology]]
+
+  * [[group cohomology]]
+
+  * [[nonabelian group cohomology]]
+
+  * [[cohomology of a category]]
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
+  * [[integral cohomology]]
+
+  * [[K-theory]]
+  
+  * [[elliptic cohomology]]
+  
+  * [[tmf]]
+
+  * [[complex cobordism cohomology theory|complex cobordism]]
+
+* [[abelian sheaf cohomology]]
+
+  * [[Deligne cohomology]]
+
+    * [[de Rham cohomology]]
+
+  * [[etale cohomology]]
+
+* [[motivic cohomology]]
+
+* [[nonabelian cohomology]]
+
+  * [[principal bundle]]
+
+  * [[gerbe]]/[[principal 2-bundle]]
+
+  * [[principal ∞-bundle]]
+ 
+  * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
+
+* [[?ech cohomology]]
+
+* [[twisted cohomology]]
+
+* [[equivariant cohomology]]
+
+* [[differential cohomology]]
+
+  * [[schreiber:differential nonabelian cohomology]]
+
+
+### Cohomology in $Top$
+
+The archetypical example for [[nonabelian cohomology]] theory is the [[(∞,1)-topos]] $H = $ [[Top]], the [[(∞,1)-category]] of [[topological spaces]]. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $n \gt 1$ this special case happens to be actually abelian.
+ For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an $n$-type, $H(X,A)$ is topological degree-$n$ [[nonabelian cohomology]].
+
+* The archetypical example for abelian cohomology theory is the [[stable (∞,1)-topos]] $H = $ [[Spec]], the [[stable (∞,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology". 
+
+  * "ordinary" cohomology is cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]
+
+  * K-theory is cohomology with coefficients in the [[K-theory spectrum]]
+
+  * elliptic cohomology is somehow subsumes by cohomology with coefficients in [[tmf]].
+
+
+> some left-over material, to be merged...
 
 > Ordinary nonabelian cohomology in degree 1 of a 'nice' topological space $X$ with values in a discrete (and possibly nonabelian) group $G$ can be defined as  the pointed set of homotopy classes of maps of topological spaces from $X$ into the classifying space $B G$. The content of *nonabelian cohomology* is the generalization of this statement to cohomology in higher degree. The content of general  nonabelian *differential* cohomology is moreover the generalization of nonabelian cohomology to generalized spaces with extra structure, in particular with smooth structure.
 
@@ -129,107 +318,19 @@ $$
 $$
 >is the $G$-principal bundle classified by the cocycle $g$.
 
-+-- {: .query}
-Jim, I\'ve formatted this as if it were a quotation, since it looks like you pasted some LaTeX code from a longer article.  Remove the `>`s if you don\'t like that.  ---Toby
-
-=--
-
-
-### relation to homotopy ###
-
-By abstract [[duality]], cohomology is dual to [[homotopy (as an operation)]].
-
-The cohomology _of_ $X$ with coefficients in $A$ is the [[homotopy]] of $A$ with co-coefficients in $X$.
-
-Therefore a more suitable term would be [[cohomotopy]].
-
-## objects classified by cohomology classes ##
-
-For $g : X \to A$ a cocycle, one says that its [[fibration sequence|homotopy fiber]] $P \to X$ is the
-object **classified by the cohomology class*.
-
-Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc.
-
-### Remarks ###
-
-* Notice that this definition is in a way the very point of the notion of [[(∞,1)-topos]]: an [[(∞,1)-topos]] is supposed to be an [[(∞,1)-category]] which behaves structurally exactly like the [[(∞,1)-category]] [[Top]] of [[topological spaces]]. Since cohomology of topological spaces is nothing but homotopy classes of maps between topological spaces, the analogous statement should be true in a general [[(∞,1)-topos]]. This is what the above definition asserts.
-
-## Remarks ##
-
-### Grading ###
-
-Notice that the grading one usually sees on cohomology classes is in the above definition entirely encoded in the [[higher category theory|categorical degree]] of the coefficient object. The cohomology $H(X,A)$ is the usual degree $0$ cohomology with coefficients in $A$. Cohomology of other degree can be obtained by looping or delooping the coefficients $A$. For example, if $A$ is a 0-type which is $n$-times de-loopable to an $n$-[[homotopy n-type|type]] $B^n A$, then degree $n$ cohomology with coefficients in $A$ is cohomology with coefficients in $\mathbf{B}^n A$: $H^n(X,A) := H(X, \mathbf{B}^n A)$. Similarly, looping can be used to define negative cohomology.
-
-## Examples ##
-
-* classes of special cases of cohomologies with their own entries include
-
-  * [[chain homology and cohomology]]
-
-  * [[groupoid cohomology]]
-
-    * [[group cohomology]]
-
-    * [[nonabelian group cohomology]]
-
-    * [[cohomology of a category]]
-
-  * [[generalized (Eilenberg-Steenrod) cohomology]]
-
-    * [[integral cohomology]]
-
-    * [[K-theory]]
-  
-    * [[elliptic cohomology]]
-  
-    * [[tmf]]
-
-    * [[complex cobordism cohomology theory|complex cobordism]]
-
-  * [[abelian sheaf cohomology]]
-
-    * [[Deligne cohomology]]
-
-    * [[etale cohomology]]
-
-  * [[motivic cohomology]]
-
-  * [[nonabelian cohomology]]
-
-    * [[principal bundle]]
-
-    * [[gerbe]]/[[principal 2-bundle]]
-
-    * [[principal ∞-bundle]]
- 
-    * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
-
-  * [[?ech cohomology]]
-
-  * [[twisted cohomology]]
-
-  * [[equivariant cohomology]]
-
-  * [[differential cohomology]]
-
-    * [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]]
 
 
 
 
-* The archetypical example for [[nonabelian cohomology]] theory is the [[(∞,1)-topos]] $H = $ [[Top]], the [[(∞,1)-category]] of [[topological spaces]]. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $n \gt 1$ this special case happens to be actually abelian.
- For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an $n$-type, $H(X,A)$ is topological degree-$n$ [[nonabelian cohomology]].
 
-* The archetypical example for abelian cohomology theory is the [[stable (∞,1)-topos]] $H = $ [[Spec]], the [[stable (∞,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology". 
 
-  * "ordinary" cohomology is cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]
+### $(\infty,1)$-Sheaf-cohomology / $\infty$-stack-cohomology
 
-  * K-theory is cohomology with coefficients in the [[K-theory spectrum]]
+A Grothendieck--Rezk--Lurie [[(∞,1)-topos]] is an [[(∞,1)-category of (∞,1)-sheaves]]. Its objects are often called [[∞-stacks]] or
+[[derived stack]]s.
 
-  * elliptic cohomology is somehow subsumes by cohomology with coefficients in [[tmf]].
 
-* Objects in general nonabelian cohomology are usually called [[∞-stacks]] are 
-[[(∞,1)-sheaves]], since every Grothendieck--Rezk--Lurie [[(∞,1)-topos]] arises as a [[(∞,1)-category of (∞,1)-sheaves]].
+#### Abelian sheaf cohomology
 
 * [[abelian sheaf cohomology|Abelian sheaf cohomology]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(∞,1)-topos]] of $\infty$-stacks which take values in [[∞-groupoids]] which, under the [[Dold-Kan correspondence]] come from [[chain complexes]].
 
@@ -245,13 +346,50 @@ Several familiar "cohomology theories" are not so much genuine cohomology theori
 Zoran: I am not happy with this assertion. First of all the notion of the derived functor is fundamental and it makes sense even in setups when the injective resolutions do not exist. Abelian sheaf cohomology IS a derived functor of the global sections functor, not a specific technique to computing it. On the other hand, the injective resolutions ARE a specific technique to compute the derived functor. It is also not clear in this entry if it is about sheaves on topological spaces or on sites or some more general setup. 
 =--
 
-* [[monadic cohomology|Monadic cohomology]], like [[?ech cohomology]], is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar constructions]]...
+#### Motivic cohomology
 
-* Differential cohomology theories are effectively the cohomology theories of [[fundamental ∞-groupoids]]. 
+For the moment see
+
+* [[motivic cohomology]]
+
+
+## Tools for computing cohomology
+
+Various notions called "cohomology" in the literature are not
+so much specific examples of cohomology theories 
+(specific choices of ambient [[(∞,1)-topos]]es) as rather
+specific _tools_ or _algorithms_ for constructing 
+$\mathbf{H}(X,A)$.
+
+### Cech cohomology
+
+For the moment see
+
+* [[?ech cohomology]]
+
+### $Ext$-functor and derived global-sections functor
+
+Using a [[model category]] [[presentable (infinity,1)-category|presentation]] for $\mathbf{H}$ one can
+compute $\mathbf{H}(X,A)$ using the [[derived functor]] of the
+[[hom-functor]]: called the [[Ext-functor]].
+
+Specifically for the [[model structure on simplicial sheaves]]
+and $X$ [[representable functor|representable]], one has
+by [[Yoneda lemma]] that $Hom(X,A) \simeq A(X)$ which is often
+written as $\simeq \Gamma(A,X)$ and called the _global section functor_
+$\Gamma(A,-)$ applied to $X$. Accordingly its [[derived functor]]
+is another way to think of $\mathbf{H}(X,A)$.
+
+
+
+### Monadic cohomology
+
+* [[monadic descent|Monadic cohomology]], like [[?ech cohomology]], is a way to compute [[cocycle]]s using tools from [[universal algebra]] in general and the theory of [[monad]]s in particular in the presence of extra 
+
 
 ## History and references ##
 
-This general perspective on cohomology was established 35 years ago in
+The general perspective on cohomology was essentially established 35 years ago in
 
 * Kenneth Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]] 
 
@@ -301,9 +439,6 @@ A discussion of cohomology in the general sense discussed above, using tools of 
 
 * [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
 
-## Related blog entries ##
-
-* David Corfield, [Cohomology and Homotopy](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html)
 
 
 ## Discussion ##
