@@ -36,9 +36,13 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
    * A more elementary writeup by Charles Rezk can be found [here](http://www.math.uiuc.edu/~rezk/cat-ho.dvi).
    * A general internal version relative to a Grothendieck [[coverage]] can be found [here](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html).
    * A brief summary, together with a generalization when one assumes only weaker versions of the [[axiom of choice]], can be found at [[folk model structure on Cat]].
-* The folk model structures for 2-categories and bicategories are due to Steve Lack.
+* The "folk" model structures for 2-categories and bicategories are due to Steve Lack.
    * _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
    * _A Quillen Model Structure for Biategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
+
+* For $n=3$, [[Gray-categories]]:
+
+   * _A Quillen model structure for Gray-categories_, [arxiv:1001.2366](http://arxiv.org/abs/1001.2366)
 
 * for $n = \omega$: 
 
