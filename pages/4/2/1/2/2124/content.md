@@ -33,7 +33,11 @@ monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;
 
 * Tom Bridgeland, _Stability conditions on triangulated categories_, Ann. of Math. 166 (2007) 317&#8211;345,[math.AG/0212237](http://arxiv.org/abs/math/0212237)
 
-* Maxim Kontsevich, Yan Soibelman, _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
+
+* M. Kontsevich, Y. Soibelman, _Motivic Donaldson-Thomas invariants: summary of results_, [arxiv/0910.4315](http://arxiv.org/abs/0910.4315)
+
+* D. Joyce, Y. Song, _A theory of generalized Donaldson-Thomas invariants_,  [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
 
 [[!redirects BPS state]]
 [[!redirects BPS-states]]
