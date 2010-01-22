@@ -15,7 +15,7 @@ $$
 which is left [[exact functor|exact]] [[left adjoint]] to the [[full and faithful functor|full and faithful]] inclusion
 
 $$
-  PSh(S) \hookrightarrow Sh(S)
+  Sh(S) \hookrightarrow PSh(S)
   \,.
 $$
 
