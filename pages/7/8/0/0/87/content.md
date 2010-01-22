@@ -1,10 +1,6 @@
-* toc
-{: toc}
-
-#Contents#
+# Anafunctors
 * automatic table of contents goes here
 {:toc}
-
 
 
 ## Idea
@@ -56,11 +52,13 @@ So one can understand ordinary anafunctors as follows:
 Under the name anafunctors these concepts were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
 
 
-## Definition (external)
+## Definition
 
-Given categories $C$ and $D$, an __anafunctor__ $F: C \to D$ consists of:
+Given categories $C$ and $D$, an __anafunctor__ $F\colon C \to D$ may be rather slickly defined as a [[span]] of ordinary ([[strict functor|strict]]) [[functors]] $C \leftarrow {|F|} \rightarrow D$ (where $|F|$ is some category), with the property that the functor ${|F|} \to C$ is both [[faithful functor|faithful]] and (strictly!) surjective on both objects and morphisms (therefore both [[full functor|full]] and [[essentially surjective functor|essentially surjective on objects]]).  It is also possible to define an anafunctor as a span in which the functor ${|F|} \to C$ is merely a [[equivalence of categories|weak equivalence]] (that is, faithful, full, and essentially surjective on objects), although that is slightly more complicated to work with.
 
-* a set $|F|$ of _specifications_ of $F$;
+In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
+
+* a set $|F|$ of _specifications_ of $F$ (which corresponds to the set of objects of the category $|F|$ that appears the slick definition above);
 * maps $\sigma: |F| \to C$ and $\tau: |F| \to D$ (taking values in objects). Given $x: C$ and $y: D$, we say that $y$ is a _specified value_ of $F$ at $x$ if, for some $s: |F|$, $x = \sigma(s)$ and $y = \tau(s)$; in this case, $s$ _specifies_ $y$ as a value of $F$ at $x$, and we write $F_s(x) = y$. We say that $y$ is a _value_ of $F$ at $x$ if $y$ is isomorphic (in $D$) to some specified value of $F$ at $x$; we write $F(x) \cong y$. (There is no notion of *the* value of $F$ at $x$, and $F(x) = y$ is meaningless.);
 * for each $s, t: |F|$ and morphism $f: \sigma(s) \to \sigma(t)$ in $C$, a morphism $F_{s,t}(f): \tau(s) \to \tau(t)$ in $D$. Similarly to the above, we can define whether a given morphism $g$ in $D$ is a _specified value_ of $F$ at a given morphism $f$ in $C$ or whether $g$ is (merely) a _value_ of $F$ at $f$. (Again, there is no notion of *the* value of $F$ at $f$.);
 * $\sigma$ is a surjective function. Thus, $F$ has *some* value at any given object or morphism of $C$. (In the [[internalization|internalized]] case, this requirement can become quite complicated; for example, internal to [[manifold]]s, one requires a surjective submersion.);
@@ -74,7 +72,7 @@ Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be
 Categories, anafunctors, and a suitably defined notion of [[ananatural transformation]] between them form a [[bicategory]] $Cat_{ana}$, which admits a functor from the [[strict 2-category]] $Str Cat$ of [[strict categories]], functors and natural transformations; this functor is not, in the absence of choice, an equivalence.  An internal [[equivalence]] in this 2-category is called an **anaequivalence**.  While most mathematicians will identify $Cat_{ana}$ and $Str Cat$ as [[Cat]], the $2$-categories of categories, mathematicians who doubt the axiom of choice will distinguish them (and may use the term '$Cat$' for either).
 
 
-## Definition (internal)
+## Internal anafunctors
 
 Given an anafunctor $F:C\to D$ as above, we can construct a new category $\overline{F}$ whose objects are the specifications of $F$ and whose morphisms from $s$ to $t$ are the morphisms from $\sigma(s)$ to $\sigma(t)$ in $C$.  Then the projection $\overline{F}\to C$ is a (weak) [[equivalence of categories]] which is surjective on objects, and the rest of the data of $F$ is encapsulated in a functor $\overline{F}\to D$.  Conversely, from any span $C \leftarrow E \to D$ such that $E\to C$ is a surjective equivalence we can reconstruct an anafunctor whose specifications are the objects of $E$.  Thus, anafunctors $C\to D$ can be identified with such spans.  (We can also construct an anafunctor when $E \to C$ is merely an equivalence, but using a much larger class of specifications.)
 
@@ -105,9 +103,9 @@ The role of the assumptions about covers is:
 * Identity maps must be covers in order to have identity anafunctors (and more generally, for every functor to give rise to an anafunctor).
 * To compose anafunctors by pullback, the pullbacks of covers must exist and be covers, and covers must be closed under composition.
 * To define $F \times_C G$ and obtain a notion of natural transformation, we again need covers to have pullbacks.
-* To define composition of natural transformations between anafunctors, we need covers to be effective; see diagram (118) in [HGT I][].
+* To define composition of natural transformations between anafunctors, we need covers to be effective; see diagram (118) in [HGT1](#HGT1).
 
-In Section 1.1.5 of [HGT I][], the following additional axiom was assumed on the class of covers:
+In Section 1.1.5 of [HGT1](#HGT1), the following additional axiom was assumed on the class of covers:
 
 * every [[congruence]] involving a cover has a quotient object which is a cover.
 
@@ -118,7 +116,7 @@ This is not needed for anafunctors but is used to relate descent to bundles (and
 
 Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a [[weak equivalence]] but an acyclic fibration.  However, it appears that the folk model structure on Cat only exists (with its weak equivalences being the fully faithful and essentially surjective maps) under the assumption of some choice---though full AC is not needed, [[COSHEP]] suffices.
 
-More generally, it is proven in [EKV 2004][] that if $S$ has a Grothendieck coverage, then under suitable additional conditions on $S$ (and, of course, the axiom of choice assumed external to $S$), there is a [[model category|model structure]] on the category $Cat(S)$ of internal categories in $S$ relative to that coverage.  The internal anafunctors relative to the given coverage, as defined above, can then once again be identified with the spans whose first leg is an acyclic fibration.
+More generally, it is proven in [EKV](#EKV) that if $S$ has a Grothendieck coverage, then under suitable additional conditions on $S$ (and, of course, the axiom of choice assumed external to $S$), there is a [[model category|model structure]] on the category $Cat(S)$ of internal categories in $S$ relative to that coverage.  The internal anafunctors relative to the given coverage, as defined above, can then once again be identified with the spans whose first leg is an acyclic fibration.
 
 Since all objects in the folk model structure on Cat are fibrant, according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization, i.e. they represent all morphisms in the [[homotopy category]] $Ho(Cat)$.
 
@@ -171,7 +169,8 @@ The term "anafunctor" was intrroduced by Michael Makkai in
 
 The popularity of the term was notably pushed by [[Toby Bartels]], who considered [[internalization]]s of Makkai's definition in
 
-* [[Toby Bartels]], _2-Bundles_  ([arXiv:math.CT/0410328](http://arxiv.org/abs/math.CT/0410328))
+* [[Toby Bartels]], _Higher Gauge Theory I: 2-Bundles_  ([arXiv:math.CT/0410328](http://arxiv.org/abs/math.CT/0410328))
+{#HGT1}
 
 A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into acoount is
 
@@ -182,6 +181,7 @@ Since anafunctors are a special case of a more general concept, they, or the gen
 The general question of [[model category]] strcutures on categories of [[internal category|internal categories]] is discussed in 
 
 * T. Everaert, R.W. Kieboom and T. Van der Linden , _Model structures for homotopy of internal categories_  TAC,  Vol. 15, CT2004, No. 3, pp 66-94. ([web](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html) ([pdf](http://www.tac.mta.ca/tac/volumes/15/3/15-03.pdf)))
+{#EKV}
 
 Closely related, still a bit more general, are the considerations in
 
@@ -190,11 +190,9 @@ Closely related, still a bit more general, are the considerations in
 
 ## Discussion
 
+The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors.
 
 +-- {: .query}
-
-
->The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors. 
 
 [[David Roberts]] says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
 
