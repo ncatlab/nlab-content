@@ -8,14 +8,14 @@
 {: toc}
 
 
-##Idea##
+## Idea
 
 In the [[(∞,1)-topos]] [[Top]] the construction of a [[loop space]] of a given [[topological space]] is familiar.
 
 This construction may be generalized to any other [[(∞,1)-topos]] and in fact to any other [[(∞,1)-category]] with [[homotopy pullbacks]].
 
 
-## Definition ##
+## Definition
 
 Loop space objects are defined in any [[(∞,1)-category]] $\mathbf{C}$ with [[homotopy pullbacks]]: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
 
@@ -31,7 +31,7 @@ $$
 $$
 
 
-### Remarks ###
+### Remarks
 
 See also 
 
@@ -42,13 +42,13 @@ See also
 * [[stable (∞,1)-category]]
 
 
-##Explicit constructions##
+## Explicit constructions
 
 Usually the [[(∞,1)-category]] in question is [[presentable (infinity,1)-category|presented]] by concrete 1-categorical data, such as that of a [[model category]]. In that case the above [[homotopy pullback]] has various realizations as an ordinary [[pullback]].
 
 Notably it may be expressed using [[path objects]] which may come from [[interval objects]]. Even if the context is not (or not manifestly) that of a [[homotopical category]], an [[interval object]] may still exist and may be used as indicated in the following to construct loop space objects.
 
-###Free loop space objects###
+### Free loop space objects
 
 In a category with [[interval object]] the 
 **free loop space object** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
@@ -98,7 +98,7 @@ $$
 $$
 
 
-###Based loop space objects###
+### Based loop space objects
 
 If $B$ is a [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ then the **based loop space object** of $B$ is the pullback $\Omega_{pt} B$ in
 
@@ -115,7 +115,7 @@ $$
   \,.
 $$
 
-####Remarks
+#### Remarks
 
 * $\Omega_{pt}B$ is the fiber of the [[generalized universal bundle]] $\mathbf{E}_{pt}B \to B$.
 
@@ -133,7 +133,7 @@ $$
 
 
 
-##Remarks##
+## Remarks
 
 * The loop space object $B$ can be regarded as the homotopy trace on the identity span on $B$, as described at [[span trace]].
 
@@ -141,9 +141,11 @@ $$
 
 * In a [[generalized smooth space|suitable extension]] of $\operatorname{Diff}$, this construction does **not** give the usual _smooth_ loop space (free or based).  It gives the space of paths with coincident endpoints rather than the space of smooth maps from the circle.  Thus the [[smooth loop space]] is not a loop space object.
 
-##Examples##
+## Examples
 
-* Let $C =$ [[Top]] with the standard [[interval object]]. Then for $B= X$ a topological space $\Lambda B = \Lambda X$ is the ordinary free loop space of $X$.
+* Let $C =$ [[Top]] with the standard [[interval object]]. Then for $B= X$ a topological space $\Lambda B = \Lambda X$ is the ordinary free [[loop space]] of $X$.
+
+  The generalization of this to _smooth_ spaces is discussed at [[smooth loop space]].
 
 * Let $C = $ [[Grpd]] with the standard interval object $I = \{a \stackrel{\simeq}{\to} b\}$ and let $\mathbf{B}G$ be the one-object groupoid corresponding to a group $G$, then
 $$
