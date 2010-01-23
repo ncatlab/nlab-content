@@ -10,17 +10,50 @@
 
 ## Idea
 
-Equivariant cohomology is [[cohomology]] of objects on which a [[group]] acts that takes the group action into account. There are differing ways of making this precise.
+Equivariant cohomology is [[cohomology]] of objects on which a [[group]] acts that takes the group action into account. 
 
-## Borel equivariant cohomology
+There is some flexibility in interpreting precisely what this should mean, and accordingly there are various different flavors of equivariant cohomology theory, all closely related, but different.
 
-We first state the [[category theory|general nonsense]] definition of _equivariant cohomology_ and then derive from it the more concrete formulations that are traditionally given in the literature.
+Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] inside which we consider [[cohomology]], as described there. Let $G$ be a [[groupoid object in an (infinity,1)-category|group object]] in $\mathbf{H}$ and let $X \in \mathbf{H}$ be an object equipped with an [[action]] of $G$.
+
+1. **Borel equivariant cohomology** We can form the [[action groupoid]] $X//G \in \mathbf{H}$ of the [[action]] of $G$ on $X$: the weak quotient of the action. Then for any coefficient object $A$ we may think of the [[cohomology]] of $X//G$ as being the $G$-equivariant cohomology of $X$. This definition is known _Borel equivariant cohomology_
+
+   $$
+     H_{Borel}(X,A) := \pi_0 \mathbf{H}(X//G, A)
+     \,,
+   $$ 
+
+   This notion of equivariant cohomology captures notably the standard notion of equivariant $K$-[[principal bundle]]s for $A = \mathbf{B}K$ the [[delooping]] of the structure group $K$. If $X = {*}$ is the [[point]], then this reduces to the definition of [[group cohomology]] of the group $G$. Group cohomology is the Borel-equivariant cohomology of the point.
+
+   This is described below in the section [Borel equivariant cohomology](#Borel).
+
+1. **Equivariant multiplicative cohomology** For cohomology in $\mathbf{H} = Top$ with coefficient objects components of an [[E-∞-ring]] spectrum $E$ -- a [[multiplicative cohomology theory]] -- one finds that there is a _refinement_ of Borel equivariant cohomology that is of interest. 
+
+   This is described below in the section [Multiplicative equivariant cohomology](#Multiplicative).
+
+
+1. **Bredon equivariant cohomology** For $G$ a [[Lie group]], besides the [[action groupoid]]s of the form $X//G$, the group $G$ determines canonically its [[orbit category]] $O_G$. The [[(∞,1)-topos]] 
+ 
+   $$
+     \mathbf{H} = PSh_{(\infty,1)}(O_G)
+   $$ 
+
+   of [[(∞,1)-presheaf|(∞,1)-presheaves]] on $O_G$ has as objects [[topological space]]s/[[simplicial set]]s with a $G$-[[action]], whose [[homotopy n-type|homotopy type]] is determined on the subspaces of fixed points under the action of all closed [[subgroup]]s $K \subset G$. _[[Bredon cohomology]]_ is the [[cohomology]] inside this [[[?,1]-topos]]. This is the kind of equivariant cohomology used mostly in [[equivariant stable homotopy theory]].
+
+   This is described below in the section [Bedon equivariant cohomology](#Bredon).
+
+
+## Borel equivariant cohomology {#Borel}
+
+We first state the [[category theory|general abstract]] definition of _equivariant cohomology_ and then derive from it the more concrete formulations that are traditionally given in the literature.
 
 +-- {: .standout}
 
-Essentially, Borel equivariant cohomology is the [[cohomology]] of [[groupoid]]s.
+Essentially, Borel equivariant cohomology is the [[cohomology]] of [[action groupoid]]s.
 
 =--
+
+For standard [[cohomology]] in the [[(∞,1)-topos]] $\mathbf{H} =$ [[Top]] these [[action groupoid]]s of a [[group]] $G$ acting on a [[topological space]] $X$ are traditionally known as the [[Borel construction]] $\mathcal{E}G \times_G X$.
 
 Recall from the discussion at [[cohomology]] that in full generality we have a notion of cohomology of an object $X$ with coefficients in an object $A$ whenever $X$ and $A$ are objects of some [[(∞,1)-topos]] $\mathbf{H}$. The cohomology set $H(X,A)$ is the set of connected components in the [[hom-object]] [[∞-groupoid]] of maps from $X$ to $A$: $H(X,A) = \pi_0 \mathbf{H}(X,A)$.
 
@@ -53,6 +86,9 @@ $$
 i.e. a lift of $c$ through the projection $\mathbf{H}(X,A) \to \mathbf{H}(X_0,A)$.
 
 =--
+
+
+
 
 ### Examples 
 
@@ -92,12 +128,41 @@ This is therefore an example of equivariance which is not with respect to a glob
 
 When pairing equivariant cohomology with other variants of cohomology such as [[twisted cohomology]] or [[differential cohomology]] one has to exercise a bit of care as to what it really is that one wants to consider. A discussion of this is (beginning to appear) at [[schreiber:differential equivariant cohomology]].
 
-## Bredon equivariant cohomology
+
+## Equivariant abelian multiplicative cohomology {#Multiplicative}
+
+A refinemnet of Borel equivariant cohomology. For the moment see
+
+* [Equivariant multiplicative cohomology](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+A-equivariant+cohomology#equivariant_cohomology_3)
 
 
-See
+
+## Bredon equivariant cohomology {#Bredon}
+
+See also
 
 * [[Bredon cohomology]]
+
+### Preliminary remarks
+
+According to the [[nPOV]] on [[cohomology]], if $X$ and $A$ are objects in an [[(∞,1)-topos]], the 0th cohomology $H^0(X;A)$ is $\pi_0(Map(X,A))$, while if $A$ is a [[groupoid object in an (∞,1)-category|group object]], then $H^1(X;A)= \pi_0(Map(X,B A))$.  More generally, if $A$ is $n$ times [[delooping|deloopable]], then $H^n(X;A) = \pi_0(Map(X, B^n A)$.  In [[Top]], this gives you the usual notions if $A$ is a (discrete) group, and in general, $H^1(X;A)$ classifies [[principal ∞-bundle]]s in whatever [[(∞,1)-topos]].
+
+Now consider the $(\infty,1)$-topos $G Top$ of $G$-equivariant spaces, which can also be described as the [[(∞,1)-presheaf|(∞,1)-presheaves]] on the [[orbit category]] of $G$.  For any other group $\Pi$ there is a notion of a principal $(G,\Pi)$-bundle (where $G$ is the group of equivariance, and $\Pi$ is the structure group of the bundle), and these are classified by maps into a classifying $G$-space $B_G \Pi$.  So the principal $(G,\Pi)$-bundles over $X$ can be called $H^0(X;B_G \Pi)$.  If we had something of which $B_G \Pi$ was a [[delooping]], we could call the principal $(G,\Pi)$-bundles "$H^1(X;?)$", but there does not seem to be such a thing.  It seem sthat $B_G \Pi$ is not connected, in the sense that ${*}\to B_G \Pi$ is not an [[effective epimorphism9] and thus $B_G \Pi$ is not the quotient of a [[groupoid object in an (∞,1)-topos]] in $G Top$.
+
+### $G$-equivariant spectra
+
+If we have an object $A$ of our $(\infty,1)$-topos that can be delooped infinitely many times, then we can define $H^n(X;A)$ for any integer $n$ by looking at all the spaces $\Omega^{-n} A = B^n A$.  These integer-graded [[cohomology group]]s are closely connected to each other, e.g. they often have [[cup product]]s or [[Steenrod square]]s or [[Poincare duality]], so it makes sense to consider them all together as a _[[cohomology theory]]_ .  We then are motivated to put together all of the objects $\{B^n A\}$ into a [[spectrum object]], a single object which encodes all of the cohomology groups of the theory.  A general spectrum is a sequence of objects $\{E_n\}$ such that $E_n \simeq \Omega E_{n+1}$; the stronger requirement that $E_{n+1} \simeq B E_n$ restricts us to "connective" spectra, those that can be produced by successively delooping a single object of the $(\infty,1)$-topos.  In [[Top]], the most "basic" spectra are the [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] produced from the input of an ordinary abelian group.
+
+Now we can do all of this in $G Top$, and the resulting notion of spectrum is called a **naive $G$-spectrum**: a sequence of $G$-spaces $\{E_n\}$ with $E_n \simeq \Omega E_{n+1}$.  Any naive $G$-spectrum represents a cohomology theory on $G$-spaces.  The most "basic" of these are "Eilenberg-Mac Lane $G$-spectra" produced from **coefficient systems**, i.e. abelian-group-valued presheaves on the  [[orbit category]].  The cohomology theory represented by such an Eilenberg-Mac Lane $G$-spectrum is called an (integer-graded) [[Bredon cohomology]] theory.
+
+It turns out, though, that the cohomology theories arising in this way are kind of weird.  For instance, when one calculates with them, one sees [[torsion]] popping up in odd places where one wouldn't expect it.  It would also be nice to have a [[Poincare duality]] theorem for $G$-manifolds, but that fails with these theories.  The solution people have come up with is to widen the notion of "[[loop space object|looping]]" and "[[delooping]]" and thereby the grading: 
+
+instead of just looking at $\Omega^n = Map(S^n, -)$, we look at $\Omega^V = Map(S^V,-)$, where $V$ is a finite-dimensional [[representation]] of $G$ and $S^V$ is its [[one-point compactification]].  Now if $A$ is a $G$-space that can be [[delooping|delooped]] "$V$ times," we can define $H^V(X;A) = \pi_0(Map(X,\Omega^{-V} A)$.  If $A$ can be delooped $V$ times for all representations $V$, then our integer-graded cohomology theory can be expanded to an **$RO(G)$-graded cohomology theory**, with cohomology groups $H^\alpha(X;A)$ for all formal differences of representations $\alpha = V - W$.  The corresponding notion of spectrum is a **genuine $G$-spectrum**, which consists of spaces $E_V$ for all representations $V$ such that $E_V \simeq \Omega^{W-V} E_W$.  A naive Eilenberg-Mac Lane $G$-spectrum can be extended to a genuine one precisely when the coefficient system it came from can be extended to a [[Mackey functor]], and in this case we get an **$RO(G)$-graded Bredon cohomology theory** .
+
+$RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-graded theory.  For instance, the torsion that popped up in odd places before can now be seen as arising by "shifting" of something in the cohomology of a point in an "off-integer dimension," which was invisible to the integer-graded theory.  Also there is a [[Poincare duality]] for $G$-manifolds: if $M$ is a $G$-manifold, then we can embed it in a representation $V$ (generally not a trivial one!) and by [[Thom space]] arguments, obtain a Poincare duality theorem involving a dimension shift of $\alpha$, where $\alpha$ is generally not an integer (and, apparently, not even uniquely determined by $M$!).  Unfortunately, however, $RO(G)$-graded Bredon cohomology is kind of hard to compute.
+
+
+
 
 ## References
 
@@ -106,3 +171,5 @@ See
 * [[Peter May]], _Equivariant homotopy and cohomology theory_ ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
 * B. Guillou, _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
+
+Parts of the above material is taken from a blog discussion between [[Mike Shulman|Mike]] and [[Urs Schreiber|Urs]] [here](http://golem.ph.utexas.edu/category/2010/01/the_sacred_and_the_profane.html#c031280).
