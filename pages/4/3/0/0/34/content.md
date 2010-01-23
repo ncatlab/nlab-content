@@ -10,7 +10,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Higher category theory studies the generalization of [[∞-groupoid]]s  -- and hence, via the [[homotopy hypothesis]], of [[topological space]]s -- to that of [[directed space]]s and their _combinatorial or algebraic models_ . It is to the theory of [[∞-groupoid]]s as [[category theory]] is to the theory of [[groupoids]] (and hence of [[groups]]).
 
@@ -46,20 +46,20 @@ Another approach to handle the geometric definition of higher categories is a re
 
 Finally, a large supply of further models exists for [[(∞,1)-category|(∞,1)-categories]] in terms of [[enriched category theory]]. [[simplicial model category|Simplicially enriched model categories]] are a highly-developed toolkit for handling [[presentable (infinity,1)-category|presentable (∞,1)-categories]]. [[pretriangulated dg-category|Pretriangulated dg-enriched categories]] and [[A-infinity category|A-∞ categories]] are a comparably highly developed toolkit for handling [[stable (∞,1)-category|stable (∞,1)-categories]].
 
-# Applications of higher category theory #
+## Applications of higher category theory 
 
-## extended cobordisms ##
+### extended cobordisms 
 
 One major application of higher category theory and to a large extent a driving force in developing it has been [[FQFT|extended functorial quantum field theory]]. This has recently led to what may become one of the central theorems of higher category theory, the proof of the [[cobordism hypothesis]]. This roughly characterizes the [[(∞,n)-category of cobordisms]] $Bord_n$ as the free [[(∞,n)-category]] with duals on a single generator.
 
 Since it is [thought](http://golem.ph.utexas.edu/category/2008/02/new_hire_at_ucr.html#c016709) that $Bord_n$ for $n = \infty$ is essentially the [[complex cobordism cohomology theory|cobordism spectrum]], this indicates a useful way in which higher category theory subsumes and refines [[stable homotopy theory]].
 
 
-#Development of higher category theory#
+## Development of higher category theory
 
 Higher category theory is still very much in the making. 
 
-#Definitions#
+## Definitions
 
 * [[(n,r)-category]]
 
@@ -96,12 +96,12 @@ Higher category theory is still very much in the making.
     * [[pretriangulated dg-category]]
 
 
-#Patterns in higher categories#
+## Patterns in higher categories
 
 Higher categories with special properties reproduce a multitude of concepts. One finds a [[periodic table]] of higher categories which lists these special cases.
 
 
-# 1-Categorical aspects of higher category theory #
+## 1-Categorical aspects of higher category theory 
 
 There are two major _1-categorical_ tools for _implicitly_ handling higher categories: 
 
@@ -114,7 +114,7 @@ The consistent combination of these two is
 * [[homotopy coherent category theory]] or [[enriched homotopy theory]].
 
 
-#Literature#
+## Literature
 
 For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
 
@@ -127,7 +127,7 @@ Computer Science vol. 1290, Springer, Berlin, 1997.
 
 For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
 
-* Eugenia Cheng and Aaron Lauda, [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.dpmms.cam.ac.uk/~elgc2/guidebook/).
+* [[Eugenia Cheng]] and [[Aaron Lauda]], [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.dpmms.cam.ac.uk/~elgc2/guidebook/).
 
 [[Tom Leinster]] has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
 
@@ -135,13 +135,17 @@ For a free introductory text on $n$-categories that's <i>full of pictures</i>, t
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
+A grand pciture of the theory of higher categories is drawn in 
+
+* [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([pdf](http://hal.archives-ouvertes.fr/docs/00/44/98/26/PDF/main.pdf))
+
 Another collection of discussions of definitions of higher categories is given at
 
-* [[John Baez]], Peter May [[Approaching Higher Category Theory]]
+* [[John Baez]], [[Peter May]] [[Approaching Higher Category Theory]]
 
 A brief useful survey of approaches to the definition of higher categories is provided by the set of slides
 
-* Andr&eacute; Joyal, [[Tim Porter]], Peter May, _Weak categories_ ([pdf](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
+* [[Andre Joyal]], [[Tim Porter]], [[Peter May]], _Weak categories_ ([pdf](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
 
 The theory of [[quasi-categories]] as [[(∞,1)-categories]] has reached a point where it is well developed and being applied to a wealth of problems with
 
@@ -155,38 +159,3 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 
 
 
-#Entries on Higher Category Theory#
-* [[(-1)-category]]
-* [[2-morphism]]
-* [[(∞,1)-category]]
-* [[∞-groupoid]]
-* [[∞-stack]]
-* [[∞-stack homotopically]]
-* [[∞-category]]
-* [[∞-groupoid]]
-* [[adjunction]]
-* [[bicategory]]
-* [[category]]
-* [[Crans-Gray tensor product]]
-* [[crossed complex]]
-* [[cube category]]
-* [[cubical set]]
-* [[differential graded category]]
-* [[directed n-graph]]
-* [[double category]]
-* [[enhanced triangulated category]]
-* [[geometric definition of higher category]]
-* [[geometric shapes for higher structures]]
-* [[globular set]]
-* [[Gray tensor product]]
-* [[Higher Topos Theory]]
-* [[k-surjective functor]]
-* [[periodic table]]
-* [[quasi-category]]
-* [[Segal category]]
-* [[simplex category]]
-* [[simplicial set]]
-* [[strict ∞-category]]
-* [[strict ∞-groupoid]]
-* [[triangulated category]]
-* [[vertical categorification]]
