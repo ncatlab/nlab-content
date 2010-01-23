@@ -2,9 +2,11 @@
 [[!include higher algebra - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-
-#Idea#
+## Idea
 
 Recall that a [[monoid]] object or algebra object in a [[monoidal category]] $C$ is the same as a lax monoidal functor
 
@@ -16,7 +18,7 @@ $$
 This definition generalized to [[monoidal (infinity,1)-category|monoidal (∞,1)-categories]] and defines algebra objects for these.
 
 
-#Definition#
+## Definition
 
 For $C$ a [[monoidal (infinity,1)-category|monoidal (∞,1)-category]] with monoidal structure determined by the [[(∞,1)-functor]] 
 
@@ -30,12 +32,12 @@ $$
   N(\Delta)^{op} \to C^\otimes
 $$
 
-#Examples#
+## Examples
 
 * An algebra object in the [[stable (infinity,1)-category of spectra]] is an [[A-infinity ring|A-∞ ring]]. If it is a commutative monoid, it is an [[E-infinity ring|E-∞ ring]].
 
 
-#References#
+## References
 
 definition 1.1.14 in
 
