@@ -81,7 +81,7 @@ If $K$ satisfies the above conditions then there is a bicategory $Mod(K)$ consis
 
 If $K = Span(Set)$, the bicategory of [[span]]s of sets, then a monad in $K$ is precisely a small category.  Then $Mod(K) = Prof$, the category of small categories, [[profunctor]]s and natural transformations.
 
-More generally, $Mod(Span(C))$ for $C$ any category with pullbacks consists of [[internal category|internal categories]] in $C$, together with [[internal profunctor|internal profunctors]] between them and transformations between those.
+More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullbacks that preserve them, consists of [[internal category|internal categories]] in $C$, together with [[internal profunctor|internal profunctors]] between them and transformations between those.
 
 
 [[!redirects module of a monad]]
