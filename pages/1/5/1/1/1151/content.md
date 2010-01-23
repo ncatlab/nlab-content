@@ -282,6 +282,8 @@ Classes of special cases of cohomologies with their own entries include
  
   * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
 
+* [[Hochschild cohomology]]
+
 * [[?ech cohomology]]
 
 * [[twisted cohomology]]
@@ -358,6 +360,13 @@ Zoran: I am not happy with this assertion. First of all the notion of the derive
 For the moment see
 
 * [[motivic cohomology]]
+
+#### Hochschild cohomology
+
+For the moment see
+
+* [[Hochschild cohomology]]
+
 
 
 ## Tools for computing cohomology
