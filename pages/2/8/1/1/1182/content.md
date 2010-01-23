@@ -14,9 +14,9 @@ This entry is about the work by David Ben-Zvi, John Francis and David Nadler on 
 
 So far this work is presented in the two articles
 
-* **IntTrans** David Ben-Zvi, John Francis, David Nadler, _Integral transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
+* **IntTrans** [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
 
-* **CharTheo** David Ben-Zvi, David Nadler, _The Character Theory of a Complex Group_ ([arXiv](http://arxiv.org/abs/0904.1247))
+* **CharTheo** [[David Ben-Zvi]], [[David Nadler]], _The Character Theory of a Complex Group_ ([arXiv](http://arxiv.org/abs/0904.1247))
 
 
 
