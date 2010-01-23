@@ -3,7 +3,15 @@
 * [website](http://math.unice.fr/~carlos/)
 
 
-#related $n$Lab entries#
+#Contents#
+* automatic toc goes here
+{:toc}
+
+## Books
+
+* [[Homotopy Theory of Higher Categories]] on [[higher category theory]]
+
+## related $n$Lab entries
 
 * [[Simpson's conjecture]]
 
@@ -17,7 +25,7 @@
 
 * [[infinity-stack]]
 
-#Simpson on descent#
+## Simpson on descent
 
 In January 2009 Carlos Simpson wrote the following short note
 
@@ -26,7 +34,7 @@ In January 2009 Carlos Simpson wrote the following short note
 The following reproduces the text unabridged, but equipped with hyperlinks on keywords to $n$Lab entries as far as existent.
 
 
-## Descent ##
+### Descent 
 
 The notion of [[descent]], piecing together a global picture out of local pieces and glueing data, permeates Grothendieck's work. The history of this idea dates to the middle ages with mapmakers drawing an ever more precise picture of the world, as modern terminology of "[[atlas]]es" and "[[chart]]s" reminds us. It is crucial to the notion of [[cohomology]], where we first meet higher glueing data.
 
