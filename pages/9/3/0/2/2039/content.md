@@ -17,6 +17,8 @@ $$
 
 from the [[orbit category]] of $G$ into [[Ab]].
 
+More details are for the moment at [[equivariant cohomology]] in the section [Bredon equivariant cohomology](http://ncatlab.org/nlab/show/equivariant+cohomology#Bredon).
+
 
 ## References
 
