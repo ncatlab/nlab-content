@@ -52,6 +52,8 @@
 
     * [[Fivebrane structure]]
 
+* [[Hochschild cohomology]]
+
 * [[?ech cohomology]]
 
 ### variants ###
