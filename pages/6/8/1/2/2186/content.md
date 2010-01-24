@@ -97,7 +97,12 @@ In this context, the [[transfer principle]] is the fact that the functor $^*(-)$
 
 ### Sheaves on the topos of filters
 
-A different topos-theoretic construction is to consider the topos of sheaves on a category of filters.  This topos models the [[internal set]] theory of Nelson, a more axiomatic approach to nonstandard analysis.
+A different topos-theoretic construction is to consider the topos of sheaves on a category of filters.  This topos models the [[internal set]] theory of Nelson, a more axiomatic approach to nonstandard analysis.  References:
+
+* Moerdijk, "A model for intuitionistic non-standard arithmetic"
+* Palmgren, "A sheaf-theoretic foundation for nonstandard analysis"
+* Palmgren, "A constructive approach to nonstandard analysis"
+* Jonas Eliasson, "Ultrapowers as Sheaves on a Category of Ultrafilters"
 
 
 ## Relationship to other types of infinitesimal {#ToposModels}
