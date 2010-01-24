@@ -1,3 +1,9 @@
+> This page need to be seriously rewritten, see "Oops" and "Oops 2" below.
+
+Oops 2... _Category with involution_ is differently defined by [Springer](http://eom.springer.de/C/c020780.htm) and [Wikipedia](http://en.wikipedia.org/wiki/Dagger_category). Need to bring that to order.
+
+Oops... I found that my notion of _partially ordered category with inverses_ is the same (oh, well, except of requiring that even isomorphism is unitary) as the known notion of _category with involution_ (see http://eom.springer.de/C/c020780.htm) Oh, well, with the additional requirement that the involution preserves the order. The conclusion: this page should be rewritten in order to mirror the customary terminology instead of my unnecessary neologisms. Sorry me.
+
 _Partially ordered category_ is a category together with [[partial order]]ing $\subseteq$ of its morphisms such that
 $$ f_1 \subseteq f_2 \;\wedge\; g_1 \subseteq g_2 \;\Rightarrow\; g_1 \circ f_1 \subseteq g_2 \circ f_2 $$
 for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that the composites above are defined.
