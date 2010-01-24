@@ -2,6 +2,9 @@
 * tic
 {: toc}
 
+## Terminology and wording
+
+> In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_, but [some sources](http://eom.springer.de/C/c020780.htm) require for a category with involution additional conditions namely a partial order on the set of morphisms and that the order is compatible with the composition of morphisms. We need to come to agreement about terminology.
 
 ## Idea
 
