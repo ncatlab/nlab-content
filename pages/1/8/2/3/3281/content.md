@@ -28,7 +28,34 @@ A **stable model category** $C$ is
 
 ## Properties
 
-...
+
+**Proposition**
+
+Let $C$ be a _stable model category_ that is in addition
+
+* a [[simplicial model category]];
+
+* a [[cofibrantly generated model category]];
+
+* a [[proper model category]];
+
+* with a [[set]] $S$ of [[compact object|compact]] generators;
+
+then there is a chain of [[SSet]] [[Quillen equivalence]]s 
+linking $C$ to the the [[spectrum]]-[[enriched functor category]] 
+
+$$
+  C \simeq Sp Cat(\mathcal{E}(S), Sp)
+$$
+
+equipped with the [[global model structure on functors]],
+where $\mathcal{E}(S)$ is the $Sp$-[[enriched category]] given by...
+  
+This is theorem 3.3.3 in [ClassStabMod](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf).
+
+
+**Remark** Notice the similarity (but superficial difference: $SSet$/$Sp$-enrichment localization/no-localization) to the **stable Giraud theorem** discussed at [[stable (∞,1)-category]].
+
 
 ## References
 
