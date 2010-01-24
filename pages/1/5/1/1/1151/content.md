@@ -7,7 +7,7 @@
 </div>
 
 #Contents#
-* tic
+* automatic table of contents goes here
 {:toc}
 
 
@@ -45,9 +45,21 @@ gives a tour through the zoo of cohomology theories traditionally known, indicat
 
 * [Definition](#Definition)
 
-gives the very general formal definition and discusses very general properties of and constructions in cohomology theory, such as the terminology of _cocycles_ and _coboundaries_ of _objects classified_ by cohomology, of _characteristic classes_ of these objects, and so on.
+gives the very general formal definition and discusses very general properties of and constructions in cohomology theory, such as the terminology of _[[cocycle]]s_ and _coboundaries_ of _[[principal ∞-bundle|objects classified]]_ by cohomology, of _[[characteristic class]]es_ of these objects, and so on. In particular the section
 
+* [Extra structure on cohomology](#ExtraStruc)
 
+describes addtition [[stuff, structure, property]] that may be present for certain choices of coefficient objects -- such as _gradings_ , group and ring-structures --_ and aspects of which are in different parts of the traditional literature often _required_ (differently) on cohomology.
+
+The straightforward definition of cohomology in terms of mapping spaces in an [[(∞,1)-topos]] has some slight, but similarly straightforward, variants, notably that of _twisted cohomology_ (which includes other cases such as [[differential cohomology]]) and of [[equivariant cohomology]] (with its different flavors such as Borel-equivariant and [[Bredon cohomology]]). These are discussed in the section
+
+* [Variants](#Variants)
+
+before the next main section 
+
+* [Examples](#Examples)
+
+then starts going through concrete examples in detail. The reader uneasy with the abstract generality of our perspective is advised to skip ahead to this section and find from a long list of examples discussed his or her favorite traditional notion of cohomology and how it fits into the general structure. 
 
 ## Tour through notions of cohomology {#Overview}
 
@@ -104,7 +116,7 @@ We give now the very general definition of cohomology and describe very general 
 
 ### General definition
 
-Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ we have the [[derived hom-space|(∞,1)-categorical hom-space]] $\mathbf{H}(X,A)$ -- an [[∞-groupoid]]. For $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, its set of connected components is $\pi_0 \mathbf{H}(X,A) = Ho_{\mathbf{H}}(X,A)$.
+Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ we have the [[derived hom space|(∞,1)-categorical hom-space]] $\mathbf{H}(X,A)$ -- an [[∞-groupoid]]. For $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, its set of connected components is $\pi_0 \mathbf{H}(X,A) = Ho_{\mathbf{H}}(X,A)$.
 
 * The [[objects]] $ (c : X \to A) \in \mathbf{H}(X,A)$ are 
   called **[[cocycle]]s** on $X$ with coefficients in $A$;
@@ -145,17 +157,28 @@ Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\m
 
 For $g : X \to A$ a cocycle, one says that its [[homotopy fiber]] $P \to X$ is the object **classified by the cohomology class*.
 
-Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc. If the domain object $X$ itself is a [[group object in an (infinity,1)-category|group object]], then $P \to X$ is a [[group extension]]. For that reason in abelian cohomology $\mathbf{H}(X,A)$ is often denoted $Ext(X,A)$ and a cocycle is called an [[Ext functor]].
+Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc. If the domain object $X$ itself is a [[groupoid object in an (infinity,1)-category|group object]], then $P \to X$ is a [[group extension]]. For that reason in abelian cohomology $\mathbf{H}(X,A)$ is often denoted $Ext(X,A)$ and a [[cocycle]] is then called an [[Ext functor|Ext]].
 
-Let $A \to B$ be a $B$-valued cocycle on $A$.
-The [[characteristic class]] of an object $P \to X$ classified by a cocycle $X \to A$ is then the composite cocycle $X\to A \to B$. 
+### Characteristic classes
+
+For $A \in \mathbf{H}$ some coefficient object and $\{c_n : A \to E_n\}$ a collection of [[cocycle]]s on the coefficient object with values in objects $E_n \in \mathbf{H}$ -- typically chosen to be [[Eilenberg-MacLane object]]s -- composition of morphism in $\mathbf{H}$ induces a map of cohomology [[∞-groupoid]]s
+
+$$
+  c_n : \mathbf{H}(X,A) \to \mathbf{H}(X,E_n)
+$$
+
+and hence of cohomology classes
+
+$$
+  c_n : H(X,A) \to H(X,E_n)
+$$
+
+that sends each $A$-cocycle $g$ to its **characteristic class** $c_n(g)$. Typically, for $P \to X$ is the [[principal ∞-bundle]] clasified by $g$ one speaks of the characteristic class $c_n(P)$ of this principal $\infty$-bundle.
 
 
+### Extra structure on cohomology {#ExtraStruc}
 
-
-
-### Extra structure on cohomology
-
+Extra [[stuff, structure, property]] on the coefficient object $A$ will induce corresponding stuff, structure or property on the cohomology sets $H(X,A)$.
 
 #### Gradings {#Grading}
 
@@ -190,23 +213,31 @@ This means that all the non-positive degree cohomology identifies with the [[sim
 
 #### Abelian cohomology {#abelian}
 
-Often the coefficient object $A$ is assumed to be a component of a [[spectrum object]]. If so, all its [[delooping]]s $\mathbf{B}^n A$ exists and the collection of degree $n$-cohomology for all $n$ typically satisfies some properties under [[cup product]] or [[Poincare duality]].
+Often the coefficient object $A \in \mathbf{H}$ for cohomology is taken to be indefinitely [[delooping|deloopable]] -- an $\infty$-[[loop space object]] -- or, more generally, a component of a [[spectrum object]] in the [[stabilization]] $Stab(\mathbf{H})$ of the [[(∞,1)-topos]] $\mathbf{H}$ to a [[stable (∞,1)-category]].
 
 In terms of the [[stabilization]] [[adjunction]]
 
 $$
-  \mathbf{H} \stackrel{\stackrel{\Sigma^\infty}{\leftarrow}}{\underset{\Omega^\infty}{\to}}
+  \mathbf{H} \stackrel{\stackrel{\Omega^\infty}{\leftarrow}}{\underset{\Sigma^\infty}{\to}}
   Stab(\mathbf{H})
 $$
 
-that connects the [[(∞,1)-topos]] $\mathbf{H}$ to its universal [[stabilization]] to a  [[stable (∞,1)-category]] we may consider for each coefficient object $A$ the $\mathbb{Z}$-graded  sequence of cohomolgy
+this means that $A$ is of the form 
 
 $$
-  H^n(X,A) := \pi_0 \mathbf{H}(X, \Sigma^\infty \circ \Sigma^n \circ \Omega^\infty A)
-  \,.
+  A = E_n := \Omega^\infty \circ \Sigma^n E
 $$
 
-This collection is usually called a [[cohomology theory]] proper, associated to the [[spectrum object]] $\Omega^\infty A$ (which is just $A$ itself if $A$ is already stable). In $\mathbf{H} = $ [[Top]] this is known as [[generalized (Eilenberg-Steenrod) cohomology]]. Notice that this "generalized" cohomology is a very special case of the general notion of cohomology.
+for some [[spectrum object]] $E$.
+
+One single such spectrum object this way yields a $\mathbb{Z}$-graded tower of cohomologies
+
+$$
+  H^n(X, E) := \pi_0 \mathbf{H}(X, \Omega^\infty \Sigma^n E)
+$$
+
+which taken together, denoted $H^\bullet(X,E)$ is called a [[cohomology theory]]. For the case that $\mathbf{H} =$ [[Top]] this special case of cohomology is called [[generalized (Eilenberg-Steenrod) cohomology]].
+
 
 #### Cohomology groups and rings {#CohomGroup}
 
@@ -217,13 +248,13 @@ $A$-**[[cohomology group]]** of $X$.
 
 This is in particular necessarily the case if $A$ is a component of a [[spectrum object]] in abelian cohomology, i.e. of the form $\Sigma^\infty \Sigma^n \circ \Omega^\infty A$.
 
-If the corresponding [[spectrum object]] $\Omega^\infty A$ in addition carries the structure of a [[ring]] -- in which case it is a [[ring spectrum]] or [[E-∞ ring]], then the cohomology groups
+If the corresponding [[spectrum object]] $\Omega^\infty A$ in addition carries the structure of a [[ring]] -- in which case it is a [[ring spectrum]] or [[E-∞ ring]], then we speak of a [[multiplicative cohomology theory]] and the [[cohomology group]]s
 $H^\bullet(X,A)$ form a graded [[ring]], the **cohomology ring** of $X$ with coefficients in $A$.
 
 
 
 
-### Variants
+### Variants {#Variants}
 
 #### Twisted cohomology
 
@@ -246,11 +277,13 @@ The [[twisted cohomology]] with respect to the Chern character is **differential
 
 #### Equivariant cohomology
 
-Various related but different variations of cohomology are obtained by domain objects, or coefficient objects or both with [[action groupoid]]s of [[action]]s  by some [[group object in an (infinity,1)-category|group object]], or by more general groupoids ("[[orbifold]]s").
+Various related but different variations of cohomology are obtained by domain objects, or coefficient objects or both with [[action groupoid]]s of [[action]]s  by some [[groupoid object in an (infinity,1)-category|group object]], or by more general groupoids ("[[orbifold]]s").
 
 For the moment see
 
-* [[equivariant cohomology]].
+* [[equivariant cohomology]]
+
+for more details.
 
 #### Relative cohomology
 
@@ -280,7 +313,7 @@ One could argue that a more suitable term for cohomology is [[cohomotopy]]. Unfo
 
 
 
-## Examples ##
+## Examples {#Examples}
 
 ### Long list of examples
 
