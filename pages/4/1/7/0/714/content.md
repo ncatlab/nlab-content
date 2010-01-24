@@ -65,7 +65,7 @@ Recall that the category [[Cat]] of [[small category|small categories]] naturall
 The category of small dagger categories $DCat$ also admits
 a "natural" [[model category]] structure: 
 
-* dagger functor $f:A \to $ is a weak equivalence iff it is 
+* dagger functor $f:A \to B$ is a weak equivalence iff it is 
 
   * [[full and faithful functor|full and faithful]];
 
@@ -88,7 +88,7 @@ This may explains why a dagger category cannot be
 regarded as a category equipped a homotopy invariant structure, as discussed in more detail in the example sections of the entry [[evil]].
 
 
-But he notion of dagger category is perfectly reasonable
+But the notion of dagger category is perfectly reasonable
 from an homotopy theoretic point of view. This is because the model category $DCat$ is a [[combinatorial model category]].
 It follows, by a general result, that the notion of
 of dagger category is homotopy essentially algebraic
