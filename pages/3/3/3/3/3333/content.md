@@ -7,7 +7,7 @@
 
 ## Definition
 
-In an [[(∞,1)-category]] $C$, for $X \in C$ an [[object]], its **free loop space object** $\mathcall{L}X$ is the $(\infty,1)$-[[pullback]]
+In an [[(∞,1)-category]] $C$, for $X \in C$ an [[object]], its **free loop space object** $\mathcal{L}X$ is the $(\infty,1)$-[[pullback]]
 
 $$
   \array{
