@@ -8,3 +8,6 @@
 * [[Hochschild cohomology]]
 
 * [[geometric ∞-function theory]]
+
+
+category: people
