@@ -34,7 +34,7 @@ then this has geometric interpretations. Notably
   tends to be like the algebra of [[derivation]]s $Der(A)$ of $A$, 
   and hence something like the [[vector field]]s on $X$.
 
-The seminal [[Hochschild-Kostant-Rosenberg theorem]] states that under suitable conditions on $A$, these statements become exactly true.    
+The seminal [[Hochschild-Kostant-Rosenberg theorem]] states that under suitable [[smooth scheme|smoothness]] conditions on $A$, these statements become exactly true.    
  
 Notice that differential forms are objects in [[de Rham cohomology]] but 
 are still computed by the Hochschild _homology_ of $A$. 
