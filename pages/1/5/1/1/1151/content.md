@@ -228,7 +228,7 @@ $$
   A = E_n := \Omega^\infty \circ \Sigma^n E
 $$
 
-for some [[spectrum object]] $E$.
+for some [[spectrum object]] $E$, and some [[integer]] $n$ (not necessarily a [[natural number]]).
 
 One single such spectrum object this way yields a $\mathbb{Z}$-graded tower of cohomologies
 
@@ -243,12 +243,12 @@ which taken together, denoted $H^\bullet(X,E)$ is called a [[cohomology theory]]
 
 If $A$ happens to be a 
 [[groupoid object in an (infinity,1)-category|group object]] 
-in $\mathbf{H}$ then the cohomology _set_ naturally inherits the structure of a [[group]] and then $H(X,A)$ is called the
-$A$-**[[cohomology group]]** of $X$. 
+in $\mathbf{H}$ then the cohomology _set_ naturally inherits the structure of a [[group]] and then $H(X;A)$ is called the
+$A$-**[[cohomology group]]** of $X$.  If $A$ is at least an $E_2$ object, then $H(X;A)$ is abelian.
 
-This is in particular necessarily the case if $A$ is a component of a [[spectrum object]] in abelian cohomology, i.e. of the form $\Sigma^\infty \Sigma^n \circ \Omega^\infty A$.
+This is in particular necessarily the case if $A$ is a component of a [[spectrum object]] in abelian cohomology in the sense described above, i.e. of the form $\Omega^\infty \Sigma^n A'$.
 
-If the corresponding [[spectrum object]] $\Omega^\infty A$ in addition carries the structure of a [[ring]] -- in which case it is a [[ring spectrum]] or [[E-∞ ring]], then we speak of a [[multiplicative cohomology theory]] and the [[cohomology group]]s
+If the corresponding [[spectrum object]] $A'$ in addition carries the structure of a [[ring]] &#8212; in which case it is a [[ring spectrum]] or [[E-∞ ring]] &#8212; then we speak of a [[multiplicative cohomology theory]] and the [[cohomology group]]s
 $H^\bullet(X,A)$ form a graded [[ring]], the **cohomology ring** of $X$ with coefficients in $A$.
 
 
