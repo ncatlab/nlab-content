@@ -13,7 +13,7 @@ In as far as we may think of [[simplicial set]]s having some suitable properties
 Technically, the terminology comes from the fact that with respect to the standard [[model structure on simplicial sets]] the [[Kan complex]]es are precisely the fibrant objects.
 
 
-There are several methods to actually construct the Kan fibrant replacement. One convenient one, called the Ex-functor -- described below -- constructs an $\infty$-groupoid from (the nerve of) an $\infty$-category $C$ by
+There are several methods to actually construct the Kan fibrant replacement. One convenient one, called the $Ex$ functor -- described below -- constructs an $\infty$-groupoid from (the nerve of) an $\infty$-category $C$ by
 
 - taking its 1-morphisms to be ([[cospan|co]])[[span]]s in $C$;
 
@@ -23,7 +23,7 @@ There are several methods to actually construct the Kan fibrant replacement. One
 
 - etc. 
 
-# Ex-functor #
+# $Ex$ functor #
 
 
 For $\Delta[k]$ the simplicial $k$-[[simplex]] let $sd \Delta[k]$ be its _barycentric subdivision_: this is the simplicial set that is the [[nerve]] of the [[poset]] of non-degenerate sub-simplicies in $\Delta[k]$.
