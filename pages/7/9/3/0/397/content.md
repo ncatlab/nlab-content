@@ -115,6 +115,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Tim Silverman]]
 * [[Toby Bartels]]
 * [[Todd Trimble]]
+* [[Tim van Beek]]
 * [[Tom Ellis]]
 * [[Tom Hirschowitz]]
 * [[Tom Leinster]]
