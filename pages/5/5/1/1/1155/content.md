@@ -1,8 +1,17 @@
-#Idea#
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _combinatorial spectrum_ is to a [[spectrum]] of [[topological space]]s as a [[simplicial set]] is to a [[topological space]]: it is a graded set that behaves like a set of simplices constituting a space, where the special property is that the simplices are not just in non-negative degree $n \in \mathbb{N}$ but in all integral degrees $n \in \mathbb{Z}$.
 
-#Definition#
+## Definition
 
 A **combinatorial spectrum** is 
 
@@ -20,7 +29,7 @@ A **combinatorial spectrum** is
 
   * each simplex has only finitely many faces different from the point of $E_{n-1}$: i.e. for every $x \in E_n$ there are only finitely many $i \in \mathbb{N}$ for which $d_i(x)$ is not the point.
 
-#Examples#
+## Examples
 
 The standard [[simplicial set]]s corresponding to the standard [[simplex|simplices]] have their analogs for simplicial spectra. . The difference is that regarded as a spectrum the $k$-simplex may sit in any degree $n \in \mathbb{N}$, not necessarily in degree $k$.
 
@@ -75,7 +84,7 @@ Part II, section 7 of
 
 ***
 
-#Discussion#
+## Discussion
 
 A previous version of this entry triggered the following discussion:
 
