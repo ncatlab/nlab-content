@@ -71,26 +71,26 @@ $$
    \,.
 $$  
  
-Then still a little later, it was understood that this is just the ordinary tensor product in the [[symmetric monoidal (infinity,1)-category]] of chain complexes. If this
+Then still a little later, it was understood that this is just the ordinary tensor product in the [[symmetric monoidal (∞,1)-category]] of [[chain complex]]es. If this
 is understood, we can just write again simply 
 $$
   C_\bullet(M,A) := N \otimes_{A \otimes A^{op}} A
   \,.
 $$
 
-This, generally, is the definition of the Hochschild cohomology object
+This, generally, is the definition of the Hochschild homology object
 of any bimodule over an [[monoid in a monoidal (∞,1)-category]]. Of special interest is the case where $N = A$. In this case this object is also called the ("$(\infty,1)$-" or "derived-")**center** of $A$:
   
 $$
   Z(A) := A \otimes_{A \otimes A^{op}} A
 $$
  
-In parallel to this formal understanding of Hochschild cohomology, its
+In parallel to this formal understanding of Hochschild homology, its
 conceptual meaning has been better understood: from staring at the explicit description of $C_\bullet(N,A)$ one sees that it has something to do with [[loop space object]]s: a chain in $C_n(N,A)$ is usefully thought of as  a circle with $n$ marked points. One of these points is labeled $N$, the  other are labeled $A$. The [[differential]] on $C_\bullet(N,A)$ acts by taking tensor products over $A$ separately of all neighbour pairs of
 bimodules sitting on this circle, and taking the alternating sum of this
 as a collection of such circles with $(n-1)$ marked points.
  
-A fully geometric understanding of these was given by Ben-Zvi/Nadler/Francis in their work on [[geometric ∞-function theory]]. This we unify now with our [[nPOV]]-perspective on [[cohomology]] in order to give the following [[nPOV]]-perspective on Hochschild cohomology, proper. 
+A fully geometric understanding of these was given by Ben-Zvi/Nadler/Francis in their work on [[derived stack|derived]] [[loop space object]]s and their [[geometric ∞-function theory]]. This we unify now with our [[nPOV]]-perspective on [[cohomology]] in order to give the following [[nPOV]]-perspective on Hochschild cohomology, proper. 
 
  
 ### The $n$POV on Hochschild cohomology {#nPOV}
@@ -245,13 +245,15 @@ $$
 
 ### Differential forms and Hochschild (co)homolology
 
-The above identifies Hochschild homology objects of function algebras with function algebras on a [[free loop space object]]. If one adds to this the observation that for a sufficiently wel behaved ordinary space regarded as [[derived stack]] its free loop space object is essentially its [[de Rham space]], one recovers from a [[higher geometry]] picture the stamenet of the Hochschild-Kostant-Rosenberg theorem mentioned above. Details are in
+The above identifies Hochschild homology objects of function algebras with function algebras on a [[free loop space object]]. If one adds to this the observation that for a sufficiently wel behaved ordinary space regarded as [[derived stack]] its free loop space object is essentially the formal dual of the algebra of [[Kähler differential]] forms, one recovers from a [[higher geometry]] picture the stamenet of the Hochschild-Kostant-Rosenberg theorem mentioned above. Details are in
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
 
 * [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
 
+Notice that the function algebra on the derived loop space is just the differential forms as a graded algebra, without the differential. The differential itself comes from the $S^1$-action on the loop space.
 
+> ...details later... but see the above references...
 
 
 
@@ -276,9 +278,13 @@ in chapter 4 of
  
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
  
-The $(\infty,1)$-categorical picture with its relation to 
-[[geometric infinity-function theory]] is discussed in
- 
+The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop space object]]s and their [[geometric ∞-function theory]] is discussed in
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Langlands Parameters_ ([arXiv:0706.0322](http://arxiv.org/abs/0706.0322))
+
+* [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
+
+
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157])
  
