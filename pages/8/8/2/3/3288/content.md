@@ -62,10 +62,10 @@ A **local addition** on $M$ is a smooth map $\eta \colon T M \to M$ such that
 2. there exists an open neighbourhood, say $V$, of the diagonal in $M \times M$ such that the map $\pi \times \eta \colon T M \to M \times M$ is a diffeomorphism onto $V$.
 =--
 
-In \ref{km} (&#167;42.4), the above is called a globally defined local addition but the
+In [KM &#167;42.4](#km), the above is called a globally defined local addition but the
 difference is not important for us. It can even be useful to replace the tangent bundle by an arbitrary vector bundle (which must, a
 fortiori, be isomorphic to the tangent bundle). The following result is
-contained in the discussion following the definition of a local addition in \ref{km} (&#167;42.4):
+contained in the discussion following the definition of a local addition in [KM &#167;42.4](#km):
 
 +-- {: .num_prop #locaddadmit}
 ###### Proposition
@@ -343,13 +343,13 @@ When unwrapping what all this means, one sees that the object $LoopSpace_x(x) \i
 
 A general standard reference on generalized smooth spaces is
 
-* Kriegl and Michor, _A Convenient Setting of Global Analysis_ {: #km}
+* Kriegl and Michor, _A Convenient Setting of Global Analysis_ {#km}
 
-The structure of loop spaces as Fr&#233;chet manifolds is covered in chapter 42 of \ref{km} and in various other articles, many of which cover extensions of the basic construction to other mapping spaces.  In particular,
+The structure of loop spaces as Fr&#233;chet manifolds is covered in chapter 42 of [KM](#km) and in various other articles, many of which cover extensions of the basic construction to other mapping spaces.  In particular,
 
 * Michor, _Manifolds of differentiable mappings_ [MR583436 (83g:58009)](http://www.ams.org/mathscinet-getitem?mr=583436)
 * Michor, _A convenient setting for differential geometry and global analysis (I and II)_ [MR764972 (86g:58014a)](http://www.ams.org/mathscinet-getitem?mr=764972)
-* [[Andrew Stacey]], _The Differential Topology of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Seminars/diffloop.html) (Note: this was designed as an "easy reader" version of \ref{km})
+* [[Andrew Stacey]], _The Differential Topology of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Seminars/diffloop.html) (Note: this was designed as an "easy reader" version of [KM](#km))
 * [[Andrew Stacey]], _Constructing Smooth Manifolds of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Research/Papers/smooth.html)
 
 Concretely for the question discussed here some useful statements are collected in
