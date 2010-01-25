@@ -23,7 +23,7 @@ At this time, a systematic and comprehensive $n$-categorical formulation of fund
 
 Given the current evidence there is some reason to expect that eventually [[higher category theory]] in general and [[(∞,n)-category]] theory in particular will find its role as the natural language for [[quantum field theory]] and all that entails in much the same way as, for instance, in the past
 
-* [[differential geometry]] turned out to be the natural language for [[electromagvnetic field|Maxwell theory]] and [[gravity|Einstein gravity]];
+* [[differential geometry]] turned out to be the natural language for [[electromagnetic field|Maxwell theory]] and [[gravity|Einstein gravity]];
 
 * [[symplectic geometry]] turned out to be the natural language for [[Hamiltonian mechanics]];
 
