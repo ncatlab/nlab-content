@@ -11,7 +11,7 @@ However, not every transformation that appears naturally is given by a natural t
 
 Arguably, the general coherent (and non-[[evil]]) notion is very similar to a natural transformation but involves only the [[isomorphisms]] in one of the two relevant categories (the [[source]] category).  [[Jim Dolan]] has suggested the term 'canonical' in this respect.  Thus every natural transformation is canonical, but not every canonical transformation is natural.
 
-Another term for canonical transformations is 'core-natural', which is justified by [the first alternative characterisation](#asNatural) below.
+Another term for canonical transformations is 'core-natural', which is justified by [the first alternative characterisation](#asNatural) below.  To avoid confusion with [[canonical coordinate transformation]]s, one can also use 'canonical map' or 'canonical morphism'.
 
 
 ## Warnings
@@ -88,3 +88,8 @@ The notion for higher functors makes a prominent appearance in [[Chris Schommer-
 
 
 [[!redirects canonical transformations]]
+
+[[!redirects canonical map]]
+[[!redirects canonical morphism]]
+
+[[!redirects core-natural transformation]]
