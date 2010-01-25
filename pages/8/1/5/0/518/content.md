@@ -1,18 +1,16 @@
-* Kenneth S. Brown, _[[BrownAbstractHomotopyTheory.pdf:file]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 
+This entry is about the article
 
-Generalized [[homotopical cohomology theory]] of [[sheaf|sheaves]] with values in a [[model category]] is naturally formulated in terms of morphisms in the [[homotopy category]] of a suitable [[homotopical category]] of sheaves, as indicated at [[infinity-stack homotopically]]. Typically the weak equivalences in this homotopical category are _locally_ the weak equivalences in the target category such that the category of sheaves is not quite or not easily turned into a [[model category]]. Still, it is often a [[category of fibrant objects]] which is like a model category without any assumption on cofibrations but with the assumption that all objects are fibrant.
+* Kenneth S. Brown, _[[BrownAbstractHomotopyTheory.pdf:file]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 .
 
-The article introduces this concept of [[category of fibrant objects]], establishes the crucial structures available in such a category (notably the _factorization lemma_ and the characterization of the homotopy category by one-step spans) and then studies the cohomology of sheaves with coefficients in combinatorial [[spectrum|spectra]].
+Brown was a student of [[Dan Quillen]]. He expands in this article work from his thesis on a notion of [[homotopical category]] -- called a [[category of fibrant objects]] -- with a bit less structure than that of a full [[model category]], which he uses to study "generalized [[abelian sheaf cohomology]]": 
 
-This work by K. Brown later led to [[Andre Joyal]] and Jardine's construction of the [[model structure on simplicial presheaves]]. This [[presentable (infinity,1)-category|presentation]] of an [[(infinity,1)-category of (infinity,1)-sheaves]] is therefore sometimes called the _Brown-Joyal-Jardine model_ (for instance in [[Higher Topos Theory|HTT]]). 
+from the [[nPOV]] on [[cohomology]] he studies precisely the cohomology within [[∞-stack]] [[(∞,1)-topos]]es and, in the second part of the article, that in [[(∞,1)-category|(∞,1)-categories]] of [[(∞,1)-sheaf|(∞,1)-sheaves]] of [[spectrum|spectra]].
 
-#Related entries#
+As such, this article is a forunner of the development of the full [[model category]] structures built for the purpose of [[models for ∞-stack (∞,1)-toposes|modelling ∞-stack (∞,1)-toposes]]: the [[model structure on simplicial presheaves|model structure on simplicial (pre)sheaves]] as first defined by [[Andre Joyal]] in his letter to Grothendieck and then later generalized from simplicial sheaves to [[simplicial presheaf|simplicial presheaves]] and developed in great detail by Jardine (in its injective version) and [[Dan Dugger]] (in its projective version). 
 
-* for details of the [[homotopy coherent category theory|homotopical]] tool used by Brown see [[category of fibrant objects]]
+[[combinatorial model category|Dugger's theorem]] that every [[combinatorial model category]] is a left [[Bousfield localization of model categories|Bousfield localization]] of the projective global [[model structure on simplicial presheaves]] was finally understood by [[Jacob Lurie]] in the book [[Higher Topos Theory]] to be the [[model category]]-theoretic version of the intrinsic [[higher category theory]] statement that every [[presentable (∞,1)-category]] is the left [[localization of an (∞,1)-category]] of an [[(∞,1)-category of (∞,1)-presheaves]], and that the left _exact_ such localizations are precisely the [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] -- the [[∞-stack]] [[(∞,1)-topos]]es.
 
-* for details on his main result about ordinary sheaf cohomology see [[abelian sheaf cohomology]]
-
-* for the definition of his model for [[spectrum]] see [[combinatorial spectrum]]
+But the [[homotopy category of an (∞,1)-category|homotopy category]] of these [[(∞,1)-topos]]es -- that category which remembers just the [[∞-stack]] [[cohomology]] classes, and not the [[cocycle]]s -- is precisely what Kenneth Brown constructed, studied and identified correctly in its nature back then in 1973.
 
 
 category: reference
