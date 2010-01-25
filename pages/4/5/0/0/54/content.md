@@ -19,15 +19,15 @@ I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathem
 
 # my research {#myresearch}
 
-My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With co-editors we are currently producing a book that should give a good overview of modern insights into the abstract nonsense structure of the universe:
+My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With co-editors we are currently producing a book that should give a good overview of modern insights into the [[category theory|general abstract nonsense]] structure of the universe:
 
 * [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]
 
 This is the kind of stuff that I am thinking about.
 
-Something like a personal research wiki with more information on my personal research is beginning to develop at
+Something like a personal research [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my personal research is beginning to develop at
 
-* [my personal web within the nLab](http://ncatlab.org/schreiber/show/HomePage).
+* [[schreiber:HomePage|my personal web within the nLab]]
 
 More concretely, my **research interest** is in understanding the [[higher geometry|higher]] [[differential geometry|differential geometric]] and [[category theory|categorical]] structures underlying what should be called [[schreiber:differential nonabelian cohomology]]: the theory of [[connection on a bundle|connections]] on [[principal bundle|principal bundles]] and their generalization to [[gerbe]]s and [[principal ∞-bundle]]s. 
 
