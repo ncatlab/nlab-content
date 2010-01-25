@@ -64,5 +64,5 @@ Here is a blog post inspired by the above discussion:
 It discusses these concepts in the context of the programming language Haskell.
 
 
-
 [[!redirects dinaturality]]
+[[!redirects dinatural transformations]]
