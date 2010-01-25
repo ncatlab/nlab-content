@@ -38,9 +38,9 @@ Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] inside which we consider [[coh
      \mathbf{H} = PSh_{(\infty,1)}(O_G)
    $$ 
 
-   of [[(∞,1)-presheaf|(∞,1)-presheaves]] on $O_G$ has as objects [[topological space]]s/[[simplicial set]]s with a $G$-[[action]], whose [[homotopy n-type|homotopy type]] is determined on the subspaces of fixed points under the action of all closed [[subgroup]]s $K \subset G$. _[[Bredon cohomology]]_ is the [[cohomology]] inside this [[[?,1]-topos]]. This is the kind of equivariant cohomology used mostly in [[equivariant stable homotopy theory]].
+   of [[(∞,1)-presheaf|(∞,1)-presheaves]] on $O_G$ has as objects [[topological space]]s/[[simplicial set]]s with a $G$-[[action]], whose [[homotopy n-type|homotopy type]] is determined on the subspaces of fixed points under the action of all closed [[subgroup]]s $K \subset G$.   Integer-graded _[[Bredon cohomology]]_ is the (abelian) [[cohomology]] inside this [[(∞,1)-topos]].  It can also be generalized to $RO(G)$-graded Bredon cohomology.  This is the kind of equivariant cohomology used mostly in [[equivariant stable homotopy theory]].
 
-   This is described below in the section [Bedon equivariant cohomology](#Bredon).
+   This is described below in the section [Bredon equivariant cohomology](#Bredon).
 
 
 ## Borel equivariant cohomology {#Borel}
@@ -147,7 +147,7 @@ See also
 
 According to the [[nPOV]] on [[cohomology]], if $X$ and $A$ are objects in an [[(∞,1)-topos]], the 0th cohomology $H^0(X;A)$ is $\pi_0(Map(X,A))$, while if $A$ is a [[groupoid object in an (∞,1)-category|group object]], then $H^1(X;A)= \pi_0(Map(X,B A))$.  More generally, if $A$ is $n$ times [[delooping|deloopable]], then $H^n(X;A) = \pi_0(Map(X, B^n A)$.  In [[Top]], this gives you the usual notions if $A$ is a (discrete) group, and in general, $H^1(X;A)$ classifies [[principal ∞-bundle]]s in whatever [[(∞,1)-topos]].
 
-Now consider the $(\infty,1)$-topos $G Top$ of $G$-equivariant spaces, which can also be described as the [[(∞,1)-presheaf|(∞,1)-presheaves]] on the [[orbit category]] of $G$.  For any other group $\Pi$ there is a notion of a principal $(G,\Pi)$-bundle (where $G$ is the group of equivariance, and $\Pi$ is the structure group of the bundle), and these are classified by maps into a classifying $G$-space $B_G \Pi$.  So the principal $(G,\Pi)$-bundles over $X$ can be called $H^0(X;B_G \Pi)$.  If we had something of which $B_G \Pi$ was a [[delooping]], we could call the principal $(G,\Pi)$-bundles "$H^1(X;?)$", but there does not seem to be such a thing.  It seem sthat $B_G \Pi$ is not connected, in the sense that ${*}\to B_G \Pi$ is not an [[effective epimorphism9] and thus $B_G \Pi$ is not the quotient of a [[groupoid object in an (∞,1)-topos]] in $G Top$.
+Now consider the $(\infty,1)$-topos $G Top$ of $G$-equivariant spaces, which can also be described as the [[(∞,1)-presheaf|(∞,1)-presheaves]] on the [[orbit category]] of $G$.  For any other group $\Pi$ there is a notion of a principal $(G,\Pi)$-bundle (where $G$ is the group of equivariance, and $\Pi$ is the structure group of the bundle), and these are classified by maps into a classifying $G$-space $B_G \Pi$.  So the principal $(G,\Pi)$-bundles over $X$ can be called $H^0(X;B_G \Pi)$.  If we had something of which $B_G \Pi$ was a [[delooping]], we could call the principal $(G,\Pi)$-bundles "$H^1(X;?)$", but there does not seem to be such a thing.  It seem sthat $B_G \Pi$ is not connected, in the sense that ${*}\to B_G \Pi$ is not an [[effective epimorphism9] and thus $B_G \Pi$ is not the quotient of a [[groupoid object in an (∞,1)-category|group object]] in $G Top$.
 
 ### $G$-equivariant spectra
 
