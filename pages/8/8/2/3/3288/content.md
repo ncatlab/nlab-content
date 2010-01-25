@@ -343,7 +343,8 @@ When unwrapping what all this means, one sees that the object $LoopSpace_x(x) \i
 
 A general standard reference on generalized smooth spaces is
 
-* Kriegl and Michor, _A Convenient Setting of Global Analysis_ {#km}
+* Kriegl and Michor, _A Convenient Setting of Global Analysis_
+{#km}
 
 The structure of loop spaces as Fr&#233;chet manifolds is covered in chapter 42 of [KM](#km) and in various other articles, many of which cover extensions of the basic construction to other mapping spaces.  In particular,
 
