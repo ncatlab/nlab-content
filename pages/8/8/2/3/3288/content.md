@@ -36,7 +36,7 @@ $$
   L X = [S^1,X] : U \mapsto Hom_{Sh(CartSp)}(S^1 \times Y(U), X)
 $$
 
-(whery $Y$ denotes the [[Yoneda embedding]]).
+(where $Y$ denotes the [[Yoneda embedding]]).
 
 This means that a map $c : U \to L X$ is a plot if and only if the associated map $U \times S^1 \to X$ is smooth. The second diffeology is the one obtained from the functor $F$.
 
@@ -46,6 +46,189 @@ A pedestrian's proof of this is in [Lemma A.1.7](http://arxiv.org/PS_cache/arxiv
 
 * [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
 
+## As a Fr&#233;chet Manifold
+
+In this section, we will describe the structure of a loop space as a Fr&#233;chet manifold in detail.  The construction is quite standard, and a partial list of references and further reading can be found at the end of this page.
+
+We start with a smooth manifold, $M$, of dimension $n$.  Note that here manifolds definitely do not have a boundary.  For simplicity, we assume that it is orientable.  The point of this assumption is that it allows us to identify the model space of $L M$ with the Fr&#233;chet space $L \mathbb{R}^n = C^\infty (S^1, \mathbb{R}^n)$.  In the unorientable case, some components would have this as model space whereas others would have a _twisted_ version of this space.
+
+The key piece of structure needed on $M$ is that of a **local addition**.  Again for simplicity, we give a slightly stricter definition than is required.
+
++-- {: .num_defn #locadd}
+###### Definition
+A **local addition** on $M$ is a smooth map $\eta \colon T M \to M$ such that
+
+1. The composition of $\eta$ with the zero section is the identity on $M$, and
+2. there exists an open neighbourhood, say $V$, of the diagonal in $M \times M$ such that the map $\pi \times \eta \colon T M \to M \times M$ is a diffeomorphism onto $V$.
+=--
+
+In \ref{km} (&#167;42.4), the above is called a globally defined local addition but the
+difference is not important for us. It can even be useful to replace the tangent bundle by an arbitrary vector bundle (which must, a
+fortiori, be isomorphic to the tangent bundle). The following result is
+contained in the discussion following the definition of a local addition in \ref{km} (&#167;42.4):
+
++-- {: .num_prop #locaddadmit}
+###### Proposition
+Any finite dimensional manifold without boundary admits a
+local addition.
+=--
+
++-- {: .proof}   
+###### Proof
+Without going into great detail, the essentials of the proof are that the
+exponential map coming from a Riemannian structure almost defines a local
+addition except that the domain of the diffeomorphism is not the whole tangent
+space (except in a few simple cases) but a neighbourhood of the zero section. The
+proof is completed by exhibiting a smooth fibre-preserving embedding of the
+total space of the tangent bundle into the domain of the diffeomorphism. The
+composition of this with the exponential map is the required local addition.
+=--
+
+Let $\eta \colon T M \to M$ be a local addition on $M$.  Let $V \subseteq M \times M$ be the image of the map $\pi \times \eta \colon T M \to M \times M$.  Although (as yet) we know nothing about the topologies of $L T M$ or of $L V$, we can at least say that the looped map, $(\pi \times \eta)^L \colon L T M \to L V$, is a bijection.
+
++-- {: .num_lemma #lemcharts}
+###### Lemma
+Let $\alpha \in L M$.  Define the set $U_\alpha \subseteq L M$ by:
+
+$$
+U_\alpha \coloneq \{ \beta \in L M : (\alpha, \beta) \in L V\}.
+$$
+
+Then the preimage of $\{\alpha\} \times U_\alpha$ under $(\pi \times \eta)^L$ is naturally identified with $\Gamma_{S^1}(\alpha^* T M)$.  In particular, the zero section of $\alpha^* T M$ maps to $(\alpha, \alpha) \in \{\alpha\} \times U_\alpha$.
+=--
+
++-- {: .proof}
+###### Proof
+We claim that there is a diagram:
+
+$$
+\begin{matrix}
+L T M &\overset{(\pi \times \eta)^L}{\to} & L V \\
+\uparrow & & \uparrow\mathrlap{\beta \mapsto (\alpha,\beta)} \\
+\Gamma_{S^1}(\alpha^* T M) & & U_\alpha
+\end{matrix}
+$$
+
+such that the bijection at the top takes the image of the left-hand vertical map to the image of the right-hand one.  Both of the vertical maps are injective - the right-hand one obviously so, we shall investigate the left-hand one in a moment - and thus the bijection $(\pi \times \eta)^L$ induces a bijection from the lower-left to the lower-right.
+
+The left-hand vertical map, $\Gamma_{S^1}(\alpha^* T M) \to L T M$, is defined as follows: the total space of $\alpha^* T M$ is:
+
+$$
+\big\{(t, v) \in S^1 \times T M : \alpha(t) = \pi(v) \big\}.
+$$
+
+It is an embedded submanifold of $S^1 \times T M$.  Therefore, a map into $\alpha^* T M$ is smooth if and only if the compositions with the projections to $S^1$ and to $T M$ are smooth.  Now a map $S^1 \to \alpha^* T M$ is a section if and only if it projects to the identity on $S^1$.  Therefore, there is a bijection (of sets):
+
+$$
+\begin{aligned}
+\Gamma_{S^1}(\alpha^* T M) &\cong \big\{ \beta \in L T M : (t, \beta(t)) \in \alpha^* T M\; \text{for all}\; t \in S^1\big\} \\
+ &\cong \big\{ \beta \in L T M : \alpha(t) = \pi \beta(t) \text{for all}\; t \in S^1\big\} \\
+ &\cong \big\{ \beta \in L T M : \pi^L \beta = \alpha \big\} &\eqcolon L_\alpha T M
+\end{aligned}
+$$
+
+In particular, the map $\Gamma_{S^1}(\alpha^* T M) \to L T M$ is injective.
+
+We apply $(\pi \times \eta)^L$ to the defining condition for $L_\alpha T M$ and see that $L_\alpha T M$ is the preimage under this map of everything of the form $(\alpha, \gamma)$ in $L V$.  By construction, $\gamma \in L M$ is such that $(\alpha, \gamma) \in L V$ if and only if $\gamma \in U_\alpha$.  Hence $(\pi \times \eta)^L$ identifies $L_\alpha T M$ with $\{\alpha\} \times U_\alpha$.
+
+Finally, note that the zero section of $\alpha^* T M$ maps to the image of $\alpha$ under the zero section of $T M$.  Since $\eta$ composed with the zero section of $T M$ is the identity on $M$, the image under the zero section of $\alpha^* T M$ in $V$ is $(\alpha, \alpha)$ as required.
+=--
+
+The resulting map, let us write it $\Psi_\alpha \colon \Gamma_{S^1}(\alpha^* T M) \to U_\alpha$, has the following concrete description.  Let $\beta \colon S^1 \to \alpha^* T M$ be a section and let $\tilde{\beta} \colon S^1 \to T M$ be the corresponding loop in $T M$ (so that $\beta(t) = (t, \tilde{\beta}(t))$ when viewing $\alpha^* T M$ as a submanifold of $S^1 \times T M$).  Then $(\pi \times \eta)^L (\tilde{\beta}) = (\alpha, \eta^L (\tilde{\beta}))$ so $\Psi_\alpha(\beta) = \eta^L (\tilde{\beta})$.
+
+As we have assumed $M$ to be orientable, $\alpha^* T M$ can be trivialised.  A smooth such trivialisation defines a linear homeomorphism $\Gamma_{S^1}(\alpha^* T M) \cong L \mathbb{R}^n$.  We use this to impose a smooth structure on $\Gamma_{S^1}(\alpha^* T M)$, noting that any two such trivialisations induce the same structure.
+
+To investigate the transition functions, we need two loops.  In fact, let's have two of everything.
+
++-- {: .num_proposition #transition}
+###### Proposition
+Let $\eta_1, \eta_2 \colon T M \to M$ be local additions with corresponding neighbourhoods $V_1$, $V_2$ of the diagonal in $M \times M$.  Let $\alpha_1$, $\alpha_2$ be smooth loops in $M$.  Let $\Psi_1 \colon \Gamma_{S^1}(\alpha_1^* T M) \to U_1$ and  $\Psi_2 \colon \Gamma_{S^1}(\alpha_2^* T M) \to U_2$ be the corresponding maps defined as above.
+
+The transition function:
+
+$$
+\Psi_{1 2} \coloneqq \Psi_1^{-1} \Psi_2 \colon \Psi_1^{-1}(U_1 \cap U_2) \to \Psi_2^{-1}(U_1 \cap U_2)
+$$
+
+is a diffeomorphism.
+=--
+
++-- {: .proof}
+###### Proof
+We start by characterising the space $\Psi_1^{-1}(U_1 \cap U_2)$ within $\Gamma_{S^1}(\alpha_1^* T M)$.
+Let $W_{1 2} \subseteq \alpha_1^* T M$ be the set:
+$$
+\big\{ (t,v) \in \alpha_1^* T M : (\alpha_2(t), \eta_1(v)) \in V_2\big\}.
+$$
+
+Note that this is open in $\alpha_1^* T M$ as it is the preimage of the open set $V_2$ by the continuous map $\alpha_2 \times \eta_1$.
+
+Let $\gamma \in \Gamma_{S^1}(\alpha_1^* T M)$ and let $\tilde{\gamma} \in L T M$ be the image of $\gamma$ (so that $\gamma(t) = (t, \tilde{\gamma}(t))$.  Then $\gamma(t) \in W_{1 2}$ for all $t$ if and only if $(\alpha_2(t), \eta_1(\tilde{\gamma}(t))) \in V_2$ for all $t$.  That is to say, if and only if $(\alpha_2, \eta_1^L(\tilde{\gamma})) \in L V_2$.  This is precisely the condition that $\eta_1^L(\tilde{\gamma}) \in U_2$.  Since $\eta_1^L(\tilde{\gamma}) = \Psi_1(\gamma)$, we see that $\gamma$ takes values in $W_{1 2}$ if and only if $\Psi_1(\gamma) \in U_2$.  Since $\operatorname{Im} \Psi_1 = U_1$, we conclude that $\Gamma_{S^1}(W_{1 2}) = \Psi_1^{-1}(U_1 \cap U_2)$.
+
+Let us define $W_{2 1} \subseteq \alpha_2^* T M$ similarly.  The idea of the proof that $\Phi_{1 2}$ is a diffeomorphism is to show that it is induced by a diffeomorphism $W_{1 2} \cong W_{2 1}$.
+
+Let $\theta_1 \colon W_{1 2} \to T M$ be the map:
+$$
+\theta_1(t,v) = (\pi \times \eta_2)^{-1}(\alpha_2(t), \eta_1(v)).
+$$
+The definition of $W_{1 2}$ ensures that $(\alpha_2(t) ,\eta_1(v)) \in V_2$ for $(t,v) \in W_{1 2}$ and this is the image of $\pi \times \eta_2$.  Hence $\theta_1$ is well-defined.  Define $\theta_2 \colon W_{2 1} \to T M$ similarly.  These are both smooth maps.
+
+Notice that $\pi(\pi \times \eta_i)^{-1} \colon V_i \subseteq M \times M \to M$ is the projection on to the first factor and $\eta_i(\pi \times \eta_i)^{-1} \colon V_i \to M$ is the projection on to the second.  Thus $\pi \theta_1(t,v) = \alpha_2(t)$.  Hence $\theta_1 \colon W_{1 2} \to T M$ is such that $(t, \theta_1(t,v)) \in \alpha_2^* T M$ for all $(t,v) \in W_{1 2}$.  Then:
+
+$$
+(\alpha_1(t), \eta_2(\theta_1(t,v))) = (\alpha_1(t), \eta_1(v)) \in V_1
+$$
+
+so $(t, \theta_1(t,v)) \in W_{2 1}$.  Hence we have a map $\phi_{1 2} \colon W_{1 2} \to W_{2 1}$ given by:
+
+$$
+\phi_{1 2}(t, v) = (t, \theta_1(t,v)).
+$$
+
+Similarly we have a map $\phi_{2 1} \colon W_{2 1} \to W_{1 2}$.  These are both smooth since the composition with the inclusion into $S^1 \times T M$ is smooth.
+
+Consider the composition $\phi_{2 1}\phi_{1 2}(t,v)$.  Expanding this out yields:
+
+$$
+\begin{aligned}
+\phi_{2 1} \phi_{1 2}(t,v) &= \phi_{2 1}(t, \theta_1(t,v))\\
+&=(t, \theta_2(t,\theta_1(t,v))) \\
+&=(t, (\pi \times \eta_1)^{-1}(\alpha_1(t), \eta_2(\theta_1(t,v)))) \\
+&= (t, (\pi \times \eta_1)^{-1}(\alpha_1(t), \eta_1(v))) \\
+&= (t, (\pi \times \eta_1)^{-1}(\pi(v), \eta_1(v))) \\
+&= (t,v)
+\end{aligned}
+$$
+
+The penultimate line is because $(t,v) \in \alpha_1^* T M$ so $\pi(v) = \alpha_1(t)$.  Hence $\phi_{2 1}$ is the inverse of $\phi_{1 2}$ and so $\phi_{1 2}$ is a diffeomorphism.  Thus the map $\phi_{1 2}^L$ is a diffeomorphism from $\Psi_1^{-1}(U_1 \cap U_2)$ to $\Psi_2^{-1}(U_1 \cap U_2)$.  We just need to show that this is the transition function.  To do this, we show that $\Psi_2 \psi_{1 2}^L = \Psi_2 \Phi_{1 2}$.  The right-hand side is, by definition, $\Psi_1$ which satisfies:
+
+$$
+\Psi_1(\gamma)(t) = \eta_1(\tilde{\gamma})(t).
+$$
+
+On the other side,
+
+$$
+\begin{aligned}
+\phi_{1 2}^L (\gamma)(t) &= \phi_{1 2}(\gamma(t)) \\
+= (t, \theta_1(t, \tilde{\gamma}(t))) \\
+= (t, (\pi \times \eta_2)^{-1}(\alpha_2(t), \eta_1(\tilde{\gamma}(t)))).
+\end{aligned}
+$$
+
+Hence
+
+$$
+\Psi_2 \phi_{1 2}^L(\gamma)(t) = \eta_2(\pi \times \eta_2)^{-1}(\alpha_2(t), \eta_1(\tilde{\gamma}(t))) = \eta_1(\tilde{\gamma})(t).
+$$
+
+Thus $\phi_{1 2}^L = \Phi_{1 2}$ and so the transition functions are diffeomorphisms.
+=--
+
++-- {: .num_remark #extension}
+###### Remark
+This construction easily generalises quite widely.  Very little of the  structure of $S^1$ was used at all: that mainly came in in the smooth structure of $L \mathbb{R}^n$.  The key structure of $M$ was the local addition and thus one could regard this as a construction of [[locally additive spaces]].  For more on the possible extensions, see the references.
+=--
 
 ## As the loop space object of the smooth path groupoid {#AsLoopObj}
 
@@ -116,7 +299,7 @@ And indeed, whenever the underlying [[topos]] of [[space]]s that we are looking 
 
 ### The concrete definition
 
-So for $X$ a smooth [[manifold]], regarded as a representable object in the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[Lie ∞-groupoid]]s we have now that the homotopy pullback of any point ${*} \to X \hookrightarrow \Pi(X)$ aqlong itself in the [[schreiber:path ∞-groupoid]] $\Pi(X)$ does indeed produce the expected [[Lie ∞-groupoid]] $\Omega_x X$  in 
+So for $X$ a smooth [[manifold]], regarded as a representable object in the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[Lie ∞-groupoid]]s we have now that the homotopy pullback of any point ${*} \to X \hookrightarrow \Pi(X)$ along itself in the [[schreiber:path ∞-groupoid]] $\Pi(X)$ does indeed produce the expected [[Lie ∞-groupoid]] $\Omega_x X$  in 
 
 $$
   \array{
@@ -138,7 +321,7 @@ whose
 
 * etc;
 
-Here we want not the full loop [[∞-groupoid]], but just some sort of truncation to a [[0-category|0-groupoid]] just of loops. There are several choices for how exatly to do this, depending on which higher morphisms we just discard, and which we use to identify 1-morphisms. Whatever we do, we end up with some notion of smooth [[path groupoid]] $\mathcal{P}_1(X)$ of $X$, whose 1-morphisms are certain smooth quotient space of the smooth space of 1-morphisms in $\Pi(X)$.
+Here we want not the full loop [[∞-groupoid]], but just some sort of truncation to a [[0-category|0-groupoid]] just of loops. There are several choices for how exactly to do this, depending on which higher morphisms we just discard, and which we use to identify 1-morphisms. Whatever we do, we end up with some notion of smooth [[path groupoid]] $\mathcal{P}_1(X)$ of $X$, whose 1-morphisms are certain smooth quotient space of the smooth space of 1-morphisms in $\Pi(X)$.
 
 Then, accordingly, forming the [[loop space object]] of this [[path groupoid]] $\mathcal{P}_1(X)$ yields the smooth space $LoopSpace(X)$
 
@@ -154,15 +337,22 @@ $$
 
 which is the smooth subspace of the smooth space of morphisms in $\mathcal{P}_1(X)$ of those morphisms that start and end at $x$.
 
-When unwarpping what all this means, one sees that the object $LoopSpace_x(x) \in Sh_{(\infty,1)}(CartSp)$ that we obtain this way is nothing but the image under the embedding $Sh(CartSp) \hookrightarrow Sh_{(\infty,1)}(CartSp)$ of ordinary [[sheaf|sheaves]] into $\infty$-stacks of some [[quotient object|quotient]] of the [[internal hom]] $[I,X]$ in the [[closed monoidal structure on sheaves]]. Being an internal hom of representables, this is a [[concrete sheaf]] and as such it is precisely the smooth loop space regarded as a [[diffeological space]].
+When unwrapping what all this means, one sees that the object $LoopSpace_x(x) \in Sh_{(\infty,1)}(CartSp)$ that we obtain this way is nothing but the image under the embedding $Sh(CartSp) \hookrightarrow Sh_{(\infty,1)}(CartSp)$ of ordinary [[sheaf|sheaves]] into $\infty$-stacks of some [[quotient object|quotient]] of the [[internal hom]] $[I,X]$ in the [[closed monoidal structure on sheaves]]. Being an internal hom of representables, this is a [[concrete sheaf]] and as such it is precisely the smooth loop space regarded as a [[diffeological space]].
 
 ## References
 
 A general standard reference on generalized smooth spaces is
 
-* Kriegl and Michor, _A Convenient Setting of Global Analysis_ 
+* Kriegl and Michor, _A Convenient Setting of Global Analysis_ {: #km}
 
-Concretely for the question discussed here some useful statements are collcted in
+The structure of loop spaces as Fr&#233;chet manifolds is covered in chapter 42 of \ref{km} and in various other articles, many of which cover extensions of the basic construction to other mapping spaces.  In particular,
+
+* Michor, _Manifolds of differentiable mappings_ [MR583436 (83g:58009)](http://www.ams.org/mathscinet-getitem?mr=583436)
+* Michor, _A convenient setting for differential geometry and global analysis (I and II)_ [MR764972 (86g:58014a)](http://www.ams.org/mathscinet-getitem?mr=764972)
+* [[Andrew Stacey]], _The Differential Topology of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Seminars/diffloop.html) (Note: this was designed as an "easy reader" version of \ref{km})
+* [[Andrew Stacey]], _Constructing Smooth Manifolds of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Research/Papers/smooth.html)
+
+Concretely for the question discussed here some useful statements are collected in
 
 * [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
 
