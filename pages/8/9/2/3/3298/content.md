@@ -11,6 +11,16 @@
  
 ## Idea
 
+From the [[nPOV]] on [[cohomology]], the notion of Hochschild cohomology is the following.
+
++-- {: .standout}
+
+Hochschild cohomology or [[cyclic cohomology]] is the [[cohomology]] $\mathbf{H}(\mathcal{L}X,C)$ of [[free loop space object]]s $\mathcal{L}C$ in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$ with coefficients in [[quasicoherent ∞-stack|quasicoherent ∞-stacks of modules]] $C$. 
+
+=--
+
+After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild cohomology.
+
 Hochschild homology and cohomology are characteristic objects associated to  a [[bimodule]] $N$ over a [[monoid]] $A$, in a context where $A$ is really to be thought of as a [[algebra in an (infinity,1)-category|monoid in an monoidal (∞,1)-category]].
 
 If the [[monoid]] in  question plays the role of an _algebra of functions_ on a [[space]] $X$, $A = C(X)$,
