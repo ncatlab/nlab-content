@@ -4,4 +4,4 @@ See [Generalized Continuity](http://www.mathematics21.org/binaries/continuousnes
 
 **TODO: Put reference to this entry into the table of content.**
 
-See also [[partially ordered category]].
+See also [[partially ordered dagger category]].
