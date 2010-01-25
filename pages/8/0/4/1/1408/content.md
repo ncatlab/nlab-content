@@ -124,6 +124,11 @@ An **admissablility structure** on an $(\infty,1)$-category $V$ is a [[Grothendi
 An $(\infty,1)$-category $V$ equipped with an admissablility structure is a **geometry** if it is essentially small, admits finite limits and is idempotent complete.
 =--
 
++--{: .query}
+[[Mike Shulman]]: What does "idempotent complete" mean for an $(\infty,1)$-category?  Any 1-category with finite limits is automatically idempotent complete, but I assume from the way this is phrased that that is no longer true for $(\infty,1)$-categories?
+=--
+
+
 +-- {: .un_defn}
 ###### Definition ([StrSh, def 1.2.8](http://arxiv.org/abs/0905.0459))
 
@@ -147,9 +152,12 @@ Write $StrSh(S,V) \subset Func(V,Sh(S))$ for the full subcategory of such morphi
 
 +-- {: .un_remark}
 ###### Remark
-Notice that in words following the above introduction this just says that we require that for every open subset $U$ of our space $X$, very function $f : U \to v$ on $U$ with values in $v$ can be built from a suitable collection of functions $f_i : U \to u_i$ if the $u_i$ cover  the codomain $v$.
+Notice that in words following the above introduction this just says that we require that for every open subset $U$ of our space $X$, every function $f : U \to v$ on $U$ with values in $v$ can be built from a suitable collection of functions $f_i : U \to u_i$ if the $u_i$ cover the codomain $v$.
 =--
 
++--{: .query}
+[[Mike Shulman]]: That doesn't make sense to me.  I haven't read StrSh myself yet, but just looking at this, it seems ridiculous to say that every function $U\to v$ comes from a collection of functions $U\to u_i$, if the "cover" $(u_i \to v)$ is anything like the "covers" that I am used to thinking about.
+=--
 
 
 
@@ -186,6 +194,10 @@ $$
   O_X : (Ring^{fin})^{op} \to [Op(X)^{op}, Set]
   \,.
 $$
+
++--{: .query}
+[[Mike Shulman]]: What is the admissibility structure on $(Ring^{fin})^{op}$ in this example?  It seems to me like you would want to consider only functions preserving finite limits, since that would amount to treating $(Ring^{fin})^{op}$ as the syntactic category of the theory of rings and you would recover the usual notion of a ring object in $Sh(X)$.  But preserving finite limits doesn't seem to be a property that could be specified by an admissibility structure.
+=--
 
 
 ## derived ringed spaces ##
