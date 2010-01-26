@@ -447,17 +447,28 @@ The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$
 
 #References#
 
-This definition was introduced in 
+A standard textbook reference is chapter 1 of
 
-* Ieke Moerdijk and Gonzalo E. Reyes, [[Models for Smooth Infinitesimal Analysis]] Springer (1991)
+* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
-Chpater I deals with generalized smooth algebras, where they are called **$C^\infty$-rings**.
-
-See also
+The concept was introduced in
 
 * Lawvere, _Categorical dynamics_ in _Topos theoretic methods in geometry_, volume 30 of _Various Publ. Ser._, pages 1-28, Aarhus Univ. (1997)
 
+but examples of the concept are older. A discussion from the point of view of [[functional analysis]] is in 
 
-A brief but useful review is also on p. 3 of
+* G. Kainz, A. Kriegl, P. Michor, _$C^\infty$-algebras from the functional analytic view point_ Journal of pure and applied algebra 46 (1987) ([pdf](http://www.mat.univie.ac.at/~michor/c-oo-alg.pdf))
+
+A first develoment of Lawvere's ideas is
+
+* E. Dubuc, _$C^\infty$-schemes_ Amer. J. Math. 103 (1981) .
+
+Similar discussion is in
+
+* [[Dominic Joyce]], _Algebraic geometry over $C^\infty$-rings_ ([arXiv:1001.0023](http://arxiv.org/abs/1001.0023))
+
+A brief but useful review and further context is also on p. 3 of
 
 * David Spivak, _Quasi-Smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf)) <- link is broken.
+
+See also the references at [[Fermat theory]], of which $C^\infty$-rings are a sepcial case. And the references at [[smooth locus]], the formal dual of a $C^\infty$-ring.
