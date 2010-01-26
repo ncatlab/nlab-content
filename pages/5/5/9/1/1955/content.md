@@ -25,11 +25,11 @@ This shows that the concrete algebraic construction  of K&#228;hler differential
 
 ### The correct definition of the notion of _module_ ...
 
-In fact, already the definition of [[module]] has to be freed from it concrete realization in the context of ordinary rings, to its true. What this is has been established long in
+In fact, already the definition of [[module]] has to be freed from it concrete realization in the context of ordinary rings, to exhibit its true nature. What this is has been established long ago in
 
 * Dan Quillen, _Homotopical algebra_
 
-and is discussed in more detail in the entry [[module]]: Quillen noticed that the [[category]] $R Mod$ of modules over an ordinary commutative ring $R$ is canonically [[equivalence of categories|equivalent]] to the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] $CRing/R$ of all rings, over the given ring $R$:
+and in Jon Beck's thesis, and is discussed in more detail in the entry [[module]]: Beck and Quillen noticed that the [[category]] $R Mod$ of modules over an ordinary commutative ring $R$ is canonically [[equivalence of categories|equivalent]] to the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] $CRing/R$ of all rings, over the given ring $R$:
 
 $$
   R Mod \simeq Ab(CRing/R)
@@ -107,7 +107,7 @@ completely arbitrary [[category]].
 
 By allowing $C$ -- the collection of test 
 spaces -- to be a general [[(∞,1)-category]], the above 
-story give the following completely general [[nPOV]]
+story gives the following completely general [[nPOV]]
 on the nature of K&#228;hler differentials:
 
 +-- {: .standout}
