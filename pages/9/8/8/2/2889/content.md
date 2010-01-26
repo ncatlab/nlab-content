@@ -21,7 +21,7 @@ Several different realizations of this hypothetical cohomology theory have been 
      \,.
    $$
 
-    More precisely, the full $\mathbf{H}_{Nis}$ knows about what would be called the [[nonabelian cohomology]] generalization of motivic cohomology: motivic cohomology proper is the special case of this where coefficient objects $A$ are taken to be [[spectrum object]]s and taken to be [[A1-homotopy theory|A1-homotopy invariant]]. 
+    More precisely, the full $\mathbf{H}_{Nis}$ knows about what would be called the [[nonabelian cohomology]] generalization of motivic cohomology: motivic cohomology proper is the special case of this where coefficient objects $A$ are taken to be [[spectrum object]]s with respect to the [[Tate sphere]] built from $\mathbb{A}^1$ and taken to be [[A1-homotopy theory|A1-homotopy invariant]]. 
 
    This is described in the section [Homtopy stabilization of the (∞,1)-topos on Nis](#InfStackDef) below.
 
@@ -39,12 +39,11 @@ Write
 * $\mathbf{H}_{Nis}^{I}$ for its [[homotopy localization]], its 
   [[A1-homotopy theory]];
 
-* $Stab(\mathbf{H}_{Nis}^I)$ for the [[stabilization]] of 
-  $\mathbf{H}_{Nis}^I$. This is 
-  the [[stable (∞,1)-category]] of [[spectrum object]]s 
-  in $\mathbf{H}_{Nis}^I$.
+* $Stab_T(\mathbf{H}_{Nis}^I)$ for the geometric [[stabilization]] of 
+  $\mathbf{H}_{Nis}^I$ at the [[Tate sphere]]s. This 
+  produces the $T$-[[spectrum object]]s in $\mathbf{H}_{Nis}$.
 
-Then motivic [[cohomology]], and motivic [[homotopy]] are given by connected components of [[derived hom space|(∞,1)-categorical hom-space]]s in $Stab(\mathbf{H}_{Nis}^I)$.
+Then motivic [[cohomology]], and motivic [[homotopy]] are given by connected components of [[derived hom space|(∞,1)-categorical hom-space]]s in $Stab_T(\mathbf{H}_{Nis}^I)$.
 
 There is a standard way to _[[presentable (∞,1)-category|present]]_ all this structure:
 
@@ -54,7 +53,8 @@ There is a standard way to _[[presentable (∞,1)-category|present]]_ all this s
   the corresponding [[Bousfield localization of model categories|left Bousfield localization]] of this model structure;
 
 * and finally the [[stabilization]] may be modeled by further Bousfield
-  localization at all suspension morphism  $T \wedge X \to X$ for $T$ 
+  localization at all suspension morphism  $T \wedge X \to X$ for  
+  $T = \mathbb{A}^1/(\mathbb{A}^1-{0})$ 
   a suitable model of the circle and $\wedge$ the internal 
   [[smash product]].
 
