@@ -19,7 +19,7 @@ I have my PhD in theoretical [[physics]]. Have been a postdoc in math and mathem
 
 # my research {#myresearch}
 
-My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With co-editors we are currently producing a book that should give a good overview of modern insights into the [[category theory|general abstract nonsense]] structure of the universe:
+My research has to a large extent been motivated by thinking about mathematical model building in theoretical physics. With co-editors we are currently producing a book that should give a good sense of modern insights into the [[category theory|general abstract nonsense]] structure of the universe:
 
 * [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]
 
