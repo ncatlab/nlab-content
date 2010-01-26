@@ -126,6 +126,8 @@ An $(\infty,1)$-category $V$ equipped with an admissablility structure is a **ge
 
 +--{: .query}
 [[Mike Shulman]]: What does "idempotent complete" mean for an $(\infty,1)$-category?  Any 1-category with finite limits is automatically idempotent complete, but I assume from the way this is phrased that that is no longer true for $(\infty,1)$-categories?
+
+[[Zoran ?koda]]: see Higher Topos Theory 4.4.5. This involves structure rather than just being a property.
 =--
 
 
