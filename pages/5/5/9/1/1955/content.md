@@ -19,7 +19,7 @@ below.
 
 The definition, concrete as it is, applies of course also to function rings on spaces not modeled on $CRing^{op}$, such as rings $C^\infty(X)$ of smooth functions on a smooth [[manifold]]. One might expect that the module of K&#228;hler differentials $\Omega_K(Spec C^\infty(X))$ of $C^\infty(X)$, regarded as an ordinary [[ring]], does reproduce the familiar notion of smooth [[differential form]]s on a [[manifold]]. But it does not. This is discussed in the section
 
-* [Over smooth rings regarded as ordinary rings](SmoothOrPlain).
+* [Over smooth rings regarded as ordinary rings](#SmoothOrPlain).
 
 This shows that the concrete algebraic construction  of K&#228;hler differential forms over plain rings, traditionally thought of as their very definition, does in fact not correctly capture their nature. There is another definition -- obtained from the [[nPOV]] -- which does capture the situation correctly:
 
@@ -229,8 +229,7 @@ We have seen that we define K&#228;hler differentials $\Omega^1_K(A)$ for any [[
 
 The following special case deserves special attention:
 
-The algebra $A = C^\infty(X)$ of smooth functions on some smooth space $X$ (a smooth [[manifold]] or a [[generalized smooth space]]) is in particular a commutative algebra. So one might think that its K&#228;hler differentials form the ordinary [[differential form]]s on $X$.
--- in analogy to the case when $A$ consists of the algebraic functions on an affine [[algebraic variety]] in which case K&#228;hler differentials are often taken as a _definition_ of 1-forms.  
+The algebra $A = C^\infty(X)$ of smooth functions on some smooth space $X$ (a smooth [[manifold]] or a [[generalized smooth space]]) is in particular a commutative algebra. So one might think that its K&#228;hler differentials form the ordinary [[differential form]]s on $X$ -- in analogy to the case when $A$ consists of the algebraic functions on an affine [[algebraic variety]] in which case K&#228;hler differentials are often taken as a _definition_ of 1-forms.  
 
 #### The problem and its solution
 
@@ -365,7 +364,7 @@ in the entry on [[Fermat theory]].
 ### Over general monoids 
 
 An ordinary (commutative) [[ring]] is precisely a comutative  [[monoid]] in the [[category]] $Ab$ of abelian [[group]]s. 
-The case of K&#228;hler differentials over ordinary rings discussed [above](OrdinaryRings) may therefore be thought of as the case where the category of test objects is taken to be
+The case of K&#228;hler differentials over ordinary rings discussed [above](#OrdinaryRings) may therefore be thought of as the case where the category of test objects is taken to be
 
 $$
   C = (CMon(Ab))^{op}
@@ -381,7 +380,7 @@ $$
 
 In practice $K$ is usually required to be an [[abelian category]], but our definitions so far are general enough not to be concerned about this:
 
-for any such $K$ fixed we follow the [general definition](AbstractDef), consider the [[functor]]
+for any such $K$ fixed we follow the [general definition](#AbstractDef), consider the [[functor]]
 
 $$
   p : Mod := Ab([I,CMon(K)^{op}]) \to CMon(K)^{op}
