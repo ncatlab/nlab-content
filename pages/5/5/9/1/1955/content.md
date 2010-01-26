@@ -6,13 +6,110 @@
 
 ## Idea
 
-We may define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  When $A = C^\infty(X)$ is an algebra of smooth functions on some space $X$ you know and love, ring theoretic K&#228;hler differentials tend to act roughly like 1-forms on this space.  Indeed, when $A$ consists of the algebraic functions on an affine [[algebraic variety]], K&#228;hler differentials are often taken as a _definition_ of 1-forms.  When $A$ consists of smooth functions on a manifold, the _ring theoretic_ K&#228;hler differentials do _not_ agree with the ordinary smooth [[differential form|1-form]]s on this manifold.  However, there is a map from the K&#228;hler differentials to the ordinary 1-forms.
+The notion of _K&#228;hler differential_ is a very general way to encode a notion of [[differential form]]: something that is dual to a [[derivation]] or [[vector field]].
 
-But the algebra of smooth functions is not just a [[ring]], but a [[generalized smooth algebra|C-infinity ring]]. The K&#228;hler differentials of $C^\infty(X)$ in the $C^\infty$-ring theoretic sense do agree with the standard [[differential form|1-form]]s on $X$. This is described at [[Fermat theory]].
+K&#228;hler differentials are traditionally conceived in terms of an algebraic construction of a certain [[module]] $\Omega_K^1(Spec R)$ on a given ordinary [[ring]] $R$. On [[space]]s modeled on (in the sense described at [[space]]) the [[site]] $CRing^{op}$, such as [[varieties]], [[scheme]]s, [[algebraic space]]s, [[Deligne-Mumford stack]]s, this produces the correct notion of [[differential form]] in this context. This is the case discussed in the section
+
+* [Over ordinary rings](#OrdinaryRings)
+
+below.
+
+The definition, concrete as it is, applies of course also to function rings on spaces not modeled on $CRing^{op}$, such as rings $C^\infty(X)$ of smooth functions on a [[manifold]]. One might expect that the module of K&#228;hler differentials $\Omega_K(Spec C^\infty(X))$ of $C^\infty(X)$, regarded as an ordinary [[ring]], does reproduce the familiar notion of smooth [[differential form]]s on a [[manifold]]. But it does not. This is discussed in the section
+
+* [Over smooth rings regarded as ordinary rings](SmoothOrPlain).
+
+This shows that the concrete algebraic construction  of K&#228;hler differential forms over plain rings, traditionally thought of as their very definition, does in fact not correctly capture their nature. There is another definition -- obtained from the [[nPOV]] -- which does capture the situation correctly:
+
+in fact, already the definition of [[module]] has to be freed from it concrete realization in the context of ordinary rings, to its true. What this is has been established long in
+
+* Dan Quillen, _Homotopical algebra_
+
+and is discussed in more detail in the entry [[module]]: Quillen noticed that the [[category]] $R Mod$ of modules over an ordinary commutative ring $R$ is canonically [[equivalence of categories|equivalent]] to the category $Ab(CRing/R)$ of abelian [[group object]]s in the [[overcategory]] $CRing/R$ of all rings, over the given ring $R$:
+
+$$
+  R Mod \simeq Ab(CRing/R)
+  \,.
+$$
+
+Under this equivalence an $R$-module $N$ is sent to the square-0-extension ring $R \oplus N$ that is canonically equipped with a ring homomorphism $R \oplus N \to R$ and with a unital and associative and commutative product operation
+
+$$
+  (R \oplus N) \times_R (R \oplus N) \to (R \oplus N)
+$$
+
+$$
+  ((r, n_1), (r,n_2)) \mapsto (r, n_1 + n_2)
+$$
+
+that makes it first an object in the [[overcategory]] $CRing/R$ and in there an abelian group object, hence an object in $Ab(CRing/R)$.
+
+Conversely, every module arises this way, up to [[isomorphism]]. So this gives an equivalent way of defining modules over rings.
+
+And this is the right definition. Notably, this definition does not assume anything about the ring $R$. It does not even assume that $R$ is a ring at all! It could be anything.
+
+Concretely: for $C$ _any_ category of test objects -- so that we may think of objects in the [[opposite category]] $C^{op}$ as function rings on the  test objects $C$ -- we may define the category of _module_ s over an object $R \in C^{op}$ by the above equation:
+
+$$
+  R Mod := Ab(C^{op}/R)
+  \,.
+$$
+
+Notice that this is now a definition. And that $R$ could be anything, and the definition still makes sense.
+
+The category of all modules over _all_ possible objects $R$ is then nothing but the [[codomain fibration]]
+
+$$  
+  Mod_C := Ab([I,C^{op}]) \stackrel{p_C}{\to} C^{op}
+$$
+
+where fiberwise (over $C^{op}$) we form abelian group objects. 
+
+This turns out to be the correct [[category theory|category theoretic]] definition of [[module]] (as discussed there). In fact, this is is the special case of the [[higher category theory|higher categorical]] definition that works for $C$ any [[(∞,1)-category]]. In that case the construction $Ab(C^{op}/R)$ of abelian group objects in the [[overcategory]] is generalized (straightforwardly! and in fact even more elegantly) to the notion of [[tangent (∞,1)-category]].
+
+One then finds that with this correct notion of [[module]] in hand, all the other concepts of [[deformation theory]], notably those of [[derivation]]s and of K&#228;hler differentials follow immeediately:
+
+1. given an $R$-module $N$ regarded as an object $p_N : R \oplus N \to R$; the **[[derivation]]s** on $R$ with coefficients in $N$ are precisely the [[section]]s $\delta : R \to R \oplus N$ of $p_N$.
+
+1. The assignment $Spec R \mapsto \Omega_K(Spec R)$ of modules of **K&#228;hler differential**s is the assignment universal with respect to derivations, which means that
+
+   $$
+     \Omega_K : C^{op} \to Mod_C
+   $$
+
+   is the 
+   [[left adjoint]] to the above projection $p_C : Mod_C \to C^{op}$:
+
+   this means that every [[derivation]] $\delta : R \to \mathcal{N}$
+   (being a [[section]] in $C$ of the module which is the overcategory
+   element $\mathcal{N} \to R$) is identified conversely with a 
+   morphism $\Omega_K(R) \to \mathcal{N}$ in the category of
+   abelian [[group object]]s in the [[overcategory]]
+   $C^{op}/R$:
+
+   $$
+      Hom_{Ab(C^{op}/R)}(Omega_K(R), \mathcal{N}) 
+      \simeq
+      Hom_{C^{op}}(R, \mathcal{N})
+   $$
+
+
+## General definition 
+
+
+> under construction
+
+....
+
+....
 
 Conceptually, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$. 
 
-## Definition 
+
+
+## Specific definitions 
+
+
+### Over ordinary rings {#OrdinaryRings}
 
 Suppose $A$ is a [[commutative algebra]] over a field $k$.   We may define K&#228;hler differentials either by an explicit construction or by a universal property. In fact there are two explicit constructions.
 
@@ -52,11 +149,7 @@ $$
 
 We say that $X$ **factors through** $d$.
 
-
-## Generalizations
-
-
-### Relative version
+#### Relative version
 
 We can replace the commutative algebra $A$ more generally by  a [[morphism]] of [[commutative unital rings]] $f:R\to S$. Then the __module of K&#228;hler differentials__ is the $S$-[[module]] $\Omega^1_K(S/R)$ corepresenting the functor
 
@@ -76,25 +169,44 @@ $$
 
 This framework also gives another construction of the module of K&#228;hler differentials, instead of the generators and relations definition given above.
 
-Let $I$ be the [[augmentation ideal]], i.e. the kernel of the multiplication map
+Let $I$ be the [[augmentation ideal]], i.e. the [[kernel]] of the multiplication map
 
 $$ I := Ker(m:S\otimes_R S\to S)$$
 
 Then $\Omega^1_K_{S/R}= I/I^2$ and there is a canonical induced map $d: S\to \Omega^1_{S/R}$
 given by $d s = [1\otimes s - s\otimes 1]$. 
 
+#### Higher degree K&#228;hler forms
+
 Furthermore, if $R$ is in characteristic zero, one may introduce **K&#228;hler $p$-forms** , which are elements of the $p$-th [[exterior power]] $\Omega^p_K_{S/R}:=\Lambda_R^p \Omega^1_K_{S/R}$. The [[module]] of K&#228;hler differentials readily generalizes as a [[sheaf]] of K&#228;hler differentials for a separated morphism $f:X\to Y$ of (commutative) [[schemes]], namely it is the [[pullback]] along the embedding of the ideal sheaf of the [[diagonal subobject|diagonal subscheme]] $X\hookrightarrow X\times_Y X$.
 
 Compare the role of [[universal differential envelope]] and [[Amitsur complex]] for  analogous constructions in the noncommutative case. The appropriate extension of the module of relative K&#228;hler differentials to the derived setting is the [[cotangent complex]] of Grothendieck--Illusie. 
 
-### Abstract-nonsense and higher categorical version
 
-The generalization of K&#228;hler differentials from [[algebra]] to [[higher algebra]] is given by the notion of [[cotangent complex]] and its generalizations, which are defined in very general terms by sections of the [[tangent (infinity,1)-category]]. For more on this see [[deformation theory]]. 
+### Over smooth rings regarded as ordinary rings {#SmoothOrPlain}
 
-This yields a very general notion of K&#228;hler differentials.
-For instance if [[ring]]s are replaced by algebras over a [[Fermat theory]] $T$, such as [[generalized smooth algebra|C-infinity rings]], then there is a notion of [K&#228;hler differentials for T-algebras](http://ncatlab.org/nlab/show/Fermat+theory#K%C3%A4hlerDiffs). (The derivation of this from the very-general-abstract-nonsense will be given elsewhere.)
+We have seen that we define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  
 
-## Relation to ordinary forms 
+The following special case deserves special attention:
+
+The algebra $A = C^\infty(X)$ of smooth functions on some smooth space $X$ (a smooth [[manifold]] or a [[generalized smooth space]]) is in particular a commutative algebra. So one might think that its K&#228;hler differentials form the ordinary [[differential form]]s on $X$.
+-- in analogy to the case when $A$ consists of the algebraic functions on an affine [[algebraic variety]] in which case K&#228;hler differentials are often taken as a _definition_ of 1-forms.  
+
+#### The problem and its solution
+
+However, when $A = C^\infty(X)$ consists of smooth functions on a manifold, the _ring theoretic_ K&#228;hler differentials do _not_ agree with the ordinary smooth [[differential form|1-form]]s on this manifold! (Unless $X$ is, for instance, the [[point]], of course). 
+However, there is a canonical map from the K&#228;hler differentials to the ordinary 1-forms.
+
+But there is a solution to this, and an explanation for why something goes wrong:
+
+Smooth spaces such as [[manifold]]s are _not_ modeled on the category $C =$ [[CRing]]${}^{op}$, as [[varieties]] are. Instead, they are modeled on the category $C = \mathbb{L}$ of [[smooth loci]], which is $= C^\infty Ring^{op}$ the opposite of the category of [[generalized smooth algebra|C-infinity rings]].
+
+In particular, the algebra $A = C^\infty(X)$ of smooth functions on a [[manifold]] carries naturally the structure of such a $C^\infty$-ring. This does have "underlying" it the ordinary commuttative ring of functions that forget the $C^\infty$-ring structure, but forgetting this structure is precisely what makes the definition of K&#228;hler differentials fail to reproduce that of ordinary smooth 1-forms.
+
+If we do regard $C^\infty(X)$ as a [[generalized smooth algebra|C-infinity ring]], the its K&#228;hler differentials do agree with ordinary 1-forms on $X$.
+
+
+#### Detailed comparison
 
 We discuss how K&#228;hler differential forms relate to the ordinary notion of [[differential form]]s.
 
@@ -194,6 +306,23 @@ All this is general abstract nonsense, nothing special to this example!  Any uni
 [[Eric]]: Thank you! That actually makes a little sense to me. As trivial as it may seem, the fact that I was even able to ask this question represents tremendous progress :)
 
 =--
+
+
+
+
+
+
+### Over smooth rings {#CooCase}
+
+A _$C^\infty$-ring_ (see [[generalized smooth algebra]]) is a ring that remembers that it carries extra smooth structure akin to the smooth structure carried by a ring of smooth functions on a smooth [[manifold]].
+
+For the moment, this case is described in detail
+in the entry on [[Fermat theory]].
+
+
+
+
+
 
 ## References
 
