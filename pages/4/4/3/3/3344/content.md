@@ -22,3 +22,5 @@ Then one proceeds with $\mathcal{A}$-sets.
 If $\mathcal{A}$ is a test category and $\mathcal{C}$ any small category whose classifying space is contractible (which may or may not be a test category itself), then their cartesian product $\mathcal{A}\times\mathcal{C}$ is a test category. 
 
 * J. F. Jardine, _Categorical homotopy theory_, Homot. Homol. Appl. __8__ (1), 2006, pp.71&#8211;144, [pdf](http://www.intlpress.com/HHA/v8/n1/a3/v8n1a3.pdf)
+
+* D-C. Cisinski, [[joyalscatlab:Les préfaisceaux comme type d'homotopie]], Asterisque __308__.
