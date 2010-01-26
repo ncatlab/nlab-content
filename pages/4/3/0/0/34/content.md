@@ -129,7 +129,7 @@ Computer Science vol. 1290, Springer, Berlin, 1997.
 
 For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
 
-* [[Eugenia Cheng]] and [[Aaron Lauda]], [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.dpmms.cam.ac.uk/~elgc2/guidebook/).
+* [[Eugenia Cheng]] and [[Aaron Lauda]], [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.cheng.staff.shef.ac.uk/guidebook/).
 
 [[Tom Leinster]] has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
 
