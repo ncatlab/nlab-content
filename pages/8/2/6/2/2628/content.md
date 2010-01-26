@@ -253,3 +253,6 @@ In principle closely related is the discussion of a deRham theorem for [[∞-sta
 though a simplicial deRham complex is only somewhat implicit in that article.
 
 > A related discussion is at [[schreiber:deRham theorem for ∞-Lie groupoids]]s
+
+
+[[!redirects simplicial deRham complex]]
