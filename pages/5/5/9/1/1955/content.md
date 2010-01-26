@@ -4,9 +4,12 @@
 {:toc}
 
 
-## Idea
+## Idea and definition
 
 The notion of _K&#228;hler differential_ is a very general way to encode a notion of [[differential form]]: something that is dual to a [[derivation]] or [[vector field]].
+
+
+### The ordinary definition and its insufficiency
 
 K&#228;hler differentials are traditionally conceived in terms of an algebraic construction of a certain [[module]] $\Omega_K^1(Spec R)$ on a given ordinary [[ring]] $R$. On [[space]]s modeled on (in the sense described at [[space]]) the [[site]] $CRing^{op}$, such as [[varieties]], [[scheme]]s, [[algebraic space]]s, [[Deligne-Mumford stack]]s, this produces the correct notion of [[differential form]] in this context. This is the case discussed in the section
 
@@ -20,7 +23,9 @@ The definition, concrete as it is, applies of course also to function rings on s
 
 This shows that the concrete algebraic construction  of K&#228;hler differential forms over plain rings, traditionally thought of as their very definition, does in fact not correctly capture their nature. There is another definition -- obtained from the [[nPOV]] -- which does capture the situation correctly:
 
-in fact, already the definition of [[module]] has to be freed from it concrete realization in the context of ordinary rings, to its true. What this is has been established long in
+### The correct definition of the notion of _module_ ...
+
+In fact, already the definition of [[module]] has to be freed from it concrete realization in the context of ordinary rings, to its true. What this is has been established long in
 
 * Dan Quillen, _Homotopical algebra_
 
@@ -66,7 +71,9 @@ where fiberwise (over $C^{op}$) we form abelian group objects.
 
 This turns out to be the correct [[category theory|category theoretic]] definition of [[module]] (as discussed there). In fact, this is is the special case of the [[higher category theory|higher categorical]] definition that works for $C$ any [[(∞,1)-category]]. In that case the construction $Ab(C^{op}/R)$ of abelian group objects in the [[overcategory]] is generalized (straightforwardly! and in fact even more elegantly) to the notion of [[tangent (∞,1)-category]].
 
-One then finds that with this correct notion of [[module]] in hand, all the other concepts of [[deformation theory]], notably those of [[derivation]]s and of K&#228;hler differentials follow immeediately:
+### ... and the correct definition of _derivations_ and _K&#228;hler modules_ {#AbstractDef}
+
+With the above correct notion of [[module]] in hand, all the other concepts of [[deformation theory]], notably those of [[derivation]]s and of K&#228;hler differentials follow straightforwardly
 
 1. given an $R$-module $N$ regarded as an object $p_N : R \oplus N \to R$; the **[[derivation]]s** on $R$ with coefficients in $N$ are precisely the [[section]]s $\delta : R \to R \oplus N$ of $p_N$.
 
@@ -87,29 +94,62 @@ One then finds that with this correct notion of [[module]] in hand, all the othe
    $C^{op}/R$:
 
    $$
-      Hom_{Ab(C^{op}/R)}(Omega_K(R), \mathcal{N}) 
+      Hom_{Mod_C}(Omega_K(R), \mathcal{N}) 
       \simeq
       Hom_{C^{op}}(R, \mathcal{N})
+      \,.
    $$
 
+Notice that in all of the above now, $C$ is still a
+completely arbitrary [[category]].
 
-## General definition 
+### The fully general definition
 
+By allowing $C$ -- the collection of test 
+spaces -- to be a general [[(∞,1)-category]], the above 
+story give the following completely general [[nPOV]]
+on the nature of K&#228;hler differentials:
 
-> under construction
++-- {: .standout}
 
-....
+For $C$ any [[(∞,1)-category]] of test spaces, write
+$p_{C^{op}} : Mod := T_{C^{op}} \to C^{op}$ for the 
+[[tangent (∞,1)-category]] of its [[opposite category]]. 
 
-....
+1. the fiber of $Mod \to C^{op}$ over $R \in C^{op}$ is 
+   the [[(∞,1)-category]] $R Mod$ of [[module]]s over $R$;
 
-Conceptually, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$. 
+1. for $(p_{\mathcal{N}} : \mathcal{N} \to R) \in R Mod$,
+   a [[derivation]] on $R$ with coefficients in $\mathcal{N}$
+   is a [[section]] $\delta : R \to \mathcal{N}$ of $p_{\mathcal{N}}$.
 
+1. The assignment of **modules of K&#228;hler differentials** or
+   **cotangent complexes** is the [[left adjoint]]
 
+   $$
+     \Omega_K : C^{op} \to Mod
+   $$
+
+   of the [[tangent (∞,1)-category]] projection $p_{C^{op}}$.
+
+   Its value $\Omega_R(R)$ on an object $R \in C^{op}$ is the
+   module of K&#228;hler differentials on $Spec R \in C$.
+
+=--
+ 
 
 ## Specific definitions 
 
+We spell out very concretely definitions of K&#228;hler differentials
+for special concrete choices of base category $C$
+as special cases of the above general story. We start with the
+familiar cases and then work our way up to more general or richer
+cases.
 
 ### Over ordinary rings {#OrdinaryRings}
+
+In terms of the above discussion, we now take $C = CRing^{op}$ to be the [[opposite category]] of the category of ordinary (commutative unital) [[ring]]. In fact without changing anything of the discusson we may assume that the ring $R$ in question is equipped with a rink homomorphism $k \to R$ from a [[ring]] or [[field]] $k$. This makes $R$ a $k$-[[algebra]], and we shall often speak of algebras in the following, where we could just as well speak of rings.
+
 
 Suppose $A$ is a [[commutative algebra]] over a field $k$.   We may define K&#228;hler differentials either by an explicit construction or by a universal property. In fact there are two explicit constructions.
 
@@ -316,15 +356,74 @@ All this is general abstract nonsense, nothing special to this example!  Any uni
 
 A _$C^\infty$-ring_ (see [[generalized smooth algebra]]) is a ring that remembers that it carries extra smooth structure akin to the smooth structure carried by a ring of smooth functions on a smooth [[manifold]].
 
+If we take a smooth function ring $C^\infty(X)$, regard it as a $C^\infty$-ring and then determine its module of K&#228;hler differentials with respect to the category $C = \mathbb{L} = C^\infty Ring^{op}$, we do recover the ordinary notion of smooth [[differential form]]s.
+
 For the moment, this case is described in detail
 in the entry on [[Fermat theory]].
 
 
+### Over general monoids 
+
+An ordinary (commutative) [[ring]] is precisely a comutative  [[monoid]] in the [[category]] $Ab$ of abelian [[group]]s. 
+The case of K&#228;hler differentials over ordinary rings discussed [above](OrdinaryRings) may therefore be thought of as the case where the category of test objects is taken to be
+
+$$
+  C = (CMon(Ab))^{op}
+  \,.
+$$
+
+This has an evident generalization: we may replace here $Ab$ with _any_ category $K$ and consider
+
+$$
+  C = (CMon(K))^{op}
+  \,.
+$$
+
+In practice $K$ is usually required to be an [[abelian category]], but our definitions so far are general enough not to be concerned about this:
+
+for any such $K$ fixed we follow the [general definition](AbstractDef), consider the [[functor]]
+
+$$
+  p : Mod := Ab([I,CMon(K)^{op}]) \to CMon(K)^{op}
+$$
+
+and define the assignment of **K&#228;hler differentials**
+
+$$
+  \Omega_K : CMon(K)^{op} \to Ab([I,CMon(K)^{op}])
+$$
+
+to be the [[left adjoint]] of this functor.
+
+For this to make good sense, everything here should be regarded as taking place in [[(∞,1)-categories]], typically [[model category|modeled]] by the [[simplicial ring|model structure on simplicial rings]].
+
+Then one finds that for $C = sCRing^{op}$ the corresponding 
+notion of module [[(∞,1)-category]] reproduces the 
+[[derived category]] of ordinary ring modules.
+This is Example 8.6. in
+
+* [[Jacob Lurie]], _Stable $\infty$-categories_ .
+
+
+
+#### Over simplicial rings
+
+If in the above setup we choose $K = sAb = [\Delta^{op}, Ab]$ the category of abelian [[simplicial group]]s, then $Mon(K)$ is the category of [[simplicial ring]]s. The category $Mon(K)^{op}$, regarded as a higher category, is the site used in [[higher geometry]] in place of $CRing^{}$
+
+
+## Leftover material
+
+> where would the following paragraph fit??
+
+> Conceptually, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$. 
 
 
 
 
 ## References
+
+
+### On smooth rings regarded as ordinary rings
 
 For a proof that every derivation of $A = C^\infty(\mathbb{R})$ comes from a smooth vector field on the real line, and an extensive discussion of K&#228;hler differentials versus ordinary 1-forms, see:
 
@@ -336,9 +435,11 @@ See also the discussion at the $n$-Caf&#233;:
 
 * [The module of K&#228;hler differentials](http://ocw.mit.edu/NR/rdonlyres/Mathematics/18-726Spring-2009/8C4F62C5-7AE2-482B-9643-890EE76499F5/0/MIT18_726s09_lec13_differentials.pdf), MIT OpenCourseWare: 18.726 Algebraic Geometry, Spring 2009.
 
+### On the fully general case
+
 A detailed discussion of K&#228;hler differentials and their generalization from [[algebra]] to [[higher algebra]] is in 
 
-* [[Jacob Lurie]], [[Deformation Theory]]
+* [[Jacob Lurie]], _[[Deformation Theory]]_
 
     
 [[!redirects Kahler differential]]
