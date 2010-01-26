@@ -11,13 +11,13 @@ The notion of _K&#228;hler differential_ is a very general way to encode a notio
 
 ### The ordinary definition and its insufficiency
 
-K&#228;hler differentials are traditionally conceived in terms of an algebraic construction of a certain [[module]] $\Omega_K^1(Spec R)$ on a given ordinary [[ring]] $R$. On [[space]]s modeled on (in the sense described at [[space]]) the [[site]] $CRing^{op}$, such as [[varieties]], [[scheme]]s, [[algebraic space]]s, [[Deligne-Mumford stack]]s, this produces the correct notion of [[differential form]] in this context. This is the case discussed in the section
+K&#228;hler differentials are traditionally conceived in terms of an algebraic construction of a certain [[module]] $\Omega_K^1(Spec R)$ on a given ordinary [[ring]] $R$. On [[space]]s modeled (in the sense described at [[space]]) on the [[site]] [[CRing]]$^{op}$, such as [[varieties]], [[scheme]]s, [[algebraic space]]s, [[Deligne-Mumford stack]]s, this produces the correct notion of [[differential form]] in this context. This is the case discussed in the section
 
 * [Over ordinary rings](#OrdinaryRings)
 
 below.
 
-The definition, concrete as it is, applies of course also to function rings on spaces not modeled on $CRing^{op}$, such as rings $C^\infty(X)$ of smooth functions on a [[manifold]]. One might expect that the module of K&#228;hler differentials $\Omega_K(Spec C^\infty(X))$ of $C^\infty(X)$, regarded as an ordinary [[ring]], does reproduce the familiar notion of smooth [[differential form]]s on a [[manifold]]. But it does not. This is discussed in the section
+The definition, concrete as it is, applies of course also to function rings on spaces not modeled on $CRing^{op}$, such as rings $C^\infty(X)$ of smooth functions on a smooth [[manifold]]. One might expect that the module of K&#228;hler differentials $\Omega_K(Spec C^\infty(X))$ of $C^\infty(X)$, regarded as an ordinary [[ring]], does reproduce the familiar notion of smooth [[differential form]]s on a [[manifold]]. But it does not. This is discussed in the section
 
 * [Over smooth rings regarded as ordinary rings](SmoothOrPlain).
 
@@ -148,7 +148,7 @@ cases.
 
 ### Over ordinary rings {#OrdinaryRings}
 
-In terms of the above discussion, we now take $C = CRing^{op}$ to be the [[opposite category]] of the category of ordinary (commutative unital) [[ring]]. In fact without changing anything of the discusson we may assume that the ring $R$ in question is equipped with a rink homomorphism $k \to R$ from a [[ring]] or [[field]] $k$. This makes $R$ a $k$-[[algebra]], and we shall often speak of algebras in the following, where we could just as well speak of rings.
+In terms of the above discussion, we now take $C = CRing^{op}$ to be the [[opposite category]] of the category of ordinary (commutative unital) [[ring]]. In fact without changing anything of the discusson we may assume that the ring $R$ in question is equipped with a ring homomorphism $k \to R$ from a [[ring]] or [[field]] $k$. This makes $R$ a $k$-[[algebra]], and we shall often speak of algebras in the following, where we could just as well speak of rings.
 
 
 Suppose $A$ is a [[commutative algebra]] over a field $k$.   We may define K&#228;hler differentials either by an explicit construction or by a universal property. In fact there are two explicit constructions.
