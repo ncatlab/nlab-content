@@ -53,6 +53,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 ## References
 
+* [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_ ([pdf](http://math.uchicago.edu/~bohmann/basicequivnotions.pdf))
+
 * [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 The characterization of $G$-equivariant functors in terms of topological Mackey-functors is discussed in example 3.4 (i) of
