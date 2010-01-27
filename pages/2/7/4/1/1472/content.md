@@ -164,9 +164,9 @@ The following book-to-be aims to give picture of the present state of the art of
 
 First sketches of the idea that [[path integral]] [[quantization]] may have a formalization in terms of [[higher category theory]] appeared in
 
-* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115)
+* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
-and its companing paper
+and its companing (coming? companion?) paper
 
 * [[Dan Freed]], ...
 
