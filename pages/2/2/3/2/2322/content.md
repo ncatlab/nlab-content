@@ -2,9 +2,10 @@
 [[!include (infinity,1)-topos - contents]]
 </div>
 
-A crucial ingredient in a [[topos]] is a [[subobject classifier]]. That this has to do with [[subobject]] turns out to the a coincidence of low dimensions. As discussed at [[stuff, structure, property]], the classifying object in [[higher topos theory]] classify more general morphisms.
 
-When one passes all the way to $\infty$-toposes, there should be objects that classify _all_ morphisms. This is made precise in the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]].
+A crucial ingredient in a [[topos]] is a [[subobject classifier]]. That this has to do with [[subobjects]] turns out to the a coincidence of low dimensions. As discussed at [[stuff, structure, property]], the classifying objects in [[higher topos theory]] classify more general morphisms.
+
+When one passes all the way to $\infty$-toposes, there should be objects that classify _all_ morphisms. This is made precise in the context of [[(∞,1)-topos]] [[higher topos theory|theory]].
 
 One way to characterize an [[(∞,1)-topos]] is as 
 
