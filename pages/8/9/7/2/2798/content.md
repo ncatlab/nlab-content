@@ -167,6 +167,8 @@ This is prop. 2.6 in [CisMoe](http://arxiv.org/abs/0902.1954).
 
 =--
 
+Together with the fact that $i^*: dSet \to SSet$ is a right Quillen functor (with respect to the Joyal [[model structure on simplicial sets]]) this also imples that $dSet$ is an $SSet_{Joyal}$ [[enriched model category]].
+
 The [[cofibrantly generated model category|generating cofibrations]] $I$ are the boundary inclusion of [[tree]]s
 
 $$
