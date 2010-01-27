@@ -13,7 +13,7 @@ $$
   0
 $$
 
-of the [[super Poincare Lie algebra]] $\mathfrak{so}(10,1)$ in 10+1 dimensions induced by a [[Lie algebra cohomology|super Lie algebra 4-cocycle]] $\mu_4$.
+of the [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$ in 10+1 dimensions induced by a [[Lie algebra cohomology|super Lie algebra 4-cocycle]] $\mu_4$.
 
 This is the same mechanism by which the [[String Lie 2-algebra]] is a shifted central extensiono of $\mathfrak{so}(n)$.
 
