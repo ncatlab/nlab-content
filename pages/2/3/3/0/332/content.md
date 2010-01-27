@@ -18,6 +18,7 @@ See also [[topology]].
 * [[formal scheme]], [[formal group scheme]], [[formal group law]], [[algebraic group]]
 * [[spectrum (geometry)]]
 * [[algebraic variety]], [[normal variety]], [[Kähler manifold]], [[hyperplane line bundle]]
+* [[hyperplane section theorem]], [[BBDG decomposition theorem]]
 * [[algebraic space]], [[algebraic stack]], [[diffiety]]
 * [[quasicoherent sheaf]], [[coherent sheaf]], [[relative scheme]]
 * [[smooth scheme]], [[smooth morphism of schemes]], [[etale morphism]], [[formally smooth morphism]]
