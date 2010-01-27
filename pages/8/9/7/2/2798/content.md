@@ -148,7 +148,7 @@ On the category of [[dendroidal set]]s let
 +-- {: .un_theorem }
 ###### Theorem
 
-The above choices of cofibrations, fibrations and weak equivalences equips the category of dendroidal with the structure of a [[model category]]. This model structure is
+The above choices of cofibrations, fibrations and weak equivalences equips the category $dSet$ of dendroidal sets with the structure of a [[model category]]. This model structure is
 
 * a left [[proper model category]]
 
