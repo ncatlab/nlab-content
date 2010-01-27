@@ -1,3 +1,9 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea and Definition
+
 In [[logic]], the **context** of an assertion (or judgement) consists of all of the assumptions that are made when that assertion to claimed be valid; whether an assertion is in fact valid (or even meaningful) may depend on the context.
 
 Generally, a context is thought of as relative to some underlying logical theory.  This underlying theory will contain most of the assumptions of what constitutes validity; the context of an assertion in this theory will then include only those extra assumptions that may be used by that assertion.  (On the other hand, one could also think of the entire base theory as part of the context.)
@@ -22,7 +28,7 @@ However, these versions involve $\forall$ and $\Rightarrow$, while the previous 
 
 Even if one is completely uninterested in [[internalization]] or weak logics, a basic familiarity with contexts may help drive home a point that is important throughout reasoning:  **What you can state and prove depends on your assumptions.**
 
-# The category of contexts
+## The category of contexts
 
 The morphisms between contexts are **substitutions**, or **interpretations**.  Such a morphism from the context $\Gamma$ to the context $\Delta$ consists of a way of fulfilling the assumptions required by $\Delta$ by appropriately interpreting those provided by $\Gamma$, generally by substituting terms available in $\Gamma$ for variables needed in $\Delta$ and proving whatever is necessary from the assumptions at hand.
 
@@ -84,15 +90,16 @@ As for the code that hides finitely presented groups in this category of context
 [[Mike Shulman|Mike]]: It's true in the generality of any finite-limit theory.  (And, presumably, there are infinitary generalizations.)  There's some general discussion in the [[Elephant]].
 =--
 
-# Display morphisms
+## Display morphisms
 
 ...
 
-# References
+## References
+
 * [[Practical Foundations]], Chapter VIII
 * The [[Elephant]], Section D4.4
 
-# Discussion
+## Discussion
 
 The following discussion was initiated by a previous version of the above entry which referred to "cartesian multicategories" rather than finitely complete categories.
 
