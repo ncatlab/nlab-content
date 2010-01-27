@@ -122,15 +122,14 @@ which builds based loops on $X$ from two consecutive paths, the first starting a
 
 ### Categorical circle action
 
-If in addition $C$ has $(\infty,1)$-[[pushout]]s, then a [[point]] $x : {*} \to \mathcal{L}X$ of the free loop space object is (by definition of limit) the same thing as a map from the [[pushout]] ${*} \leftarrow {*}\coprod{*}\to{*}$ to $X$. 
+If in addition $C$ has $(\infty,1)$-[[pushout]]s, then a [[point]] $x : {*} \to \mathcal{L}X$ of the free loop space object is (by definition of limit) the same thing as a map from the [[pushout]]   
 
 $$
   S^1_{C} := \lim_\to \left( 
    {*} \leftarrow {*}\coprod{*}\to{*} \right)
-  \,.
+  \,
 $$
-
-A map $S^1_C \to X$ out of this is, by the nature of [[homotopy pullback|homotopy pushout]]s, two points $x_1 , x_2 : {*} \to X$ and two(!) homotopies 
+to $X$. A map $S^1_C \to X$ out of this is, by the nature of [[homotopy pullback|homotopy pushout]]s, two points $x_1 , x_2 : {*} \to X$ and two(!) homotopies 
 
 $$
   \left(
@@ -266,13 +265,13 @@ now identifying also the two actions from the left, so that  $G\backslash\backsl
 
 To see better what this is, we pass to an equivalent smaller groupoid (the [[homotopy pullback]] is defined, of course, only up to weak equivalence). Notice that every morphism 
 $(g_1,g_2) \stackrel{h_1,h_2}{\to} (g'_1, g'_2)$ 
-in $G\backslash\backslash (G\timees G)//G$ corresponding to a [[natural transformation]]
+in $G\backslash\backslash (G\times G)//G$ corresponding to a [[natural transformation]]
 
 $$
   \array{
      \bullet &\stackrel{(g_1,g_2)}{\to}& \bullet
      \\
-     {}^{\mathllap{(h_1,h_1}}\downarrow && \downarrow^{\mathrlap{(h_2,h_2)}}
+     {}^{\mathllap{(h_1,h_1)}}\downarrow && \downarrow^{\mathrlap{(h_2,h_2)}}
      \\
      \bullet &\stackrel{(h_1^{-1} g_1 h_2, h_1^{-1} g_2 h_2)}{\to}
      & \bullet
@@ -286,17 +285,17 @@ $$
   \array{
      \bullet &\stackrel{(g_1,g_2)}{\to}& \bullet
      \\
-     {}^{\mathllap{(e,e}}\downarrow 
+     {}^{\mathllap{(e,e)}}\downarrow 
      && \downarrow^{\mathrlap{(g_2^{-1}, g_2^{-1})}}
      \\
      \bullet &\stackrel{(g_1 g_2^{-1}, e)}{\to}& \bullet
      \\
-     {}^{\mathllap{(h_1,h_1}}\downarrow 
+     {}^{\mathllap{(h_1,h_1)}}\downarrow 
      && \downarrow^{\mathrlap{(h_1,h_1)}}
      \\
      \bullet &\stackrel{(h_1^{-1}(g_1 g_2^{-1})h_1, e)}{\to}& \bullet
      \\
-     {}^{\mathllap{(e,e}}\downarrow 
+     {}^{\mathllap{(e,e)}}\downarrow 
      && \downarrow^{\mathrlap{(g'_2,g'_2)}}
      \\
      \bullet &\stackrel{(h_1^{-1}(g_1 g_2^{-1})h_1 g'_2, g'_2)}{\to}& \bullet
