@@ -6,7 +6,7 @@ Let $X$ be an [[algebraic variety|algebraic subvariety]] of complex projective s
 Then the $i$-th [[relative cohomology]] $H_i(X,X\cap H) = 0$ for $i\lt n$. 
 =--
 
-There is a related deeper theorem, also due Lefschetz, the [[hard Lefschetz theorem]]. 
+There is a related deeper theorem, also due to Lefschetz, the [[hard Lefschetz theorem]]. 
 
 There is also a version of the quantum hyperplane section theorem due to Y.-P. Lee, where the cohomology is replaced by the quantum cohomology. 
 
