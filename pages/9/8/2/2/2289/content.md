@@ -50,7 +50,7 @@ The central theorem is
 
 1. Partial surveys
 
-   These links point to pages that contain notes on aspects of the theory that are in the style of and originate from [a seminar on A Survey of Elliptic Cohomology](http://nd.edu/~rgrady/seminar.html):
+   These links point to pages that contain notes on aspects of the theory that are in the style of and originate from [a seminar on A Survey of Elliptic Cohomology](http://nd.edu/~rgrady/elliptic_seminar.html):
 
    1. [[A Survey of Eilliptic Cohomology - cohomology theories]]
 
