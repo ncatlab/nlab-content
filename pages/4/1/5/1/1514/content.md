@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Path integral in quantum mechanics#
+## Path integral in quantum mechanics
 
 A simple form of the path integral is realized in [[quantum mechanics]], where it was originally dreamed up by [[Richard Feynman]] and then made precise using the [[Feynman-Kac formula]].  Most calculations in practice are still done using [[perturbation theory]].
 
@@ -30,7 +30,7 @@ where $S(q)$ is the [[action]] functional.
 Is there an easy way to see how the Hamiltonian transforms into the Lagrangian in the exponent?
 =--
 
-## References ##
+## References 
 
 For simple systems like particles propagating on a [[Riemannian manifold]] and charged under a [[gauge field]] given by a [[connection on a bundle]] the path integral can be made pretty much rigorous
 
@@ -41,7 +41,7 @@ Zoran: usually the QUADRATIC Hamiltonians are the ones for which the integral is
 =--
 
 
-#The path integral in the bigger picture#
+## The path integral in the bigger picture
 
 Ours is the age whose central fundamental theoretical physics question is: 
 
@@ -84,7 +84,9 @@ More recently, one sees attempts to formalize this observation of Freed's, notab
 
 * and something similar or is indicated in section 3 and section 6 of
 
-  * Freed, Hopkins, Lurie, Teleman, _Topological QFT from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731))
+  * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
+
+
 
 based on material (on categories of "families") in _[[On the Classification of Topological Field Theories]]_ . 
 
