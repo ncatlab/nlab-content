@@ -65,6 +65,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Jocelyn Paine]]
 * [[John Baez]]
 * [[John Cook]]
+* [[John Huerta]]
 * [[Jon Awbrey]]
 * [[Jon Phillips]]
 * [[Jonas Frey]]
