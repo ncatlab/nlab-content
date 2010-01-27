@@ -63,6 +63,23 @@ Recall that every natural transformation between functors from $C$ to $D$ is giv
 In a similar vein, a canonical transformation between functors from $\tilde{C}$ to $D$ is given by a functor from $\tilde{C}$ to $Arr D$.  As such, a canonical transformation is the general coherent notion of an operation from an object of $C$ to a morphism of $D$.
 
 
+## Canonical morphisms
+
+The notion of canonical transformation can be applied to single morphisms.  Given functors $F,G\colon C \to D$ as before and any object $x$ of $C$, a morphism from $F(x)$ to $G(x)$ is __canonical__ (with respect to the data $x,F,G$) if it forms a canonical morphism from the restricted functors $F|_x, G|_x\colon Aut_C(x) \to D$, where $Aut_C(x)$ is the [[automorphism group]] of $x$ in $C$, thought of (via [[delooping]]) as a category with one object.
+
+In more elementary terms, the morphism $h\colon F(x) \to G(x)$ is canonical if, given any automorphism $u\colon x \to x$, the diagram
+
+$$ \array {
+   F(x)            & \overset{h}\to  & G(x) \\
+   F(u) \downarrow &                 & \downarrow G(u) \\
+   F(x)            & \underset{h}\to & G(x)
+} $$
+
+commutes.
+
+Of course, a canonical transformation from $F$ to $G$ defines a canonical morphism from $F(x)$ to $G(x)$ for every object $x$ of $C$.  Conversely, if there exists at least one canonical morphism from $F(x)$ to $G(x)$ for every object $x$ of $C$, then there is a canonical transformation from $F$ to $G$, assuming the [[axiom of choice]].
+
+
 ## Examples
 
 Of course, any [[natural transformation]] is canonical.  A [[dinatural transformation]] (such as an [[extranatural transformation]]) can also be interpreted as a special kind of canonical transformation between functors defined on the core.  Below, we will look at examples that are not natural in any of these ways.
