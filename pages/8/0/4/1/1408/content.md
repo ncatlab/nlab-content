@@ -133,34 +133,170 @@ An $(\infty,1)$-category $V$ equipped with an admissablility structure is a **ge
 
 +-- {: .un_defn}
 ###### Definition ([StrSh, def 1.2.8](http://arxiv.org/abs/0905.0459))
+**(structure sheaf)**
 
+Let $\mathcal{G}$ be a geometry and $\mathcal{X}$ an $(\infty,1)$-topos
 An [[(∞,1)-functor]]
 
 $$
-  O_X : V \to Sh(S)
+  O_X : \mathcal{G} \to \mathcal{X}
 $$
 
-is a $V$-**structure** on $Sh(S)$ or 
-$V$-**[[structure sheaf]]** on $S$ if it respects gluing in $V$ in that for $\{u_i \to v\}_i$ a collection of admissable morphisms in $V$ that generates a covering [[sieve]], the induced map
+is a $\mathcal{G}$-**structure** on $\mathcal{X}$ or 
+$\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if 
 
-$$
-  \coprod_i O_X(u_i) \to O_X(v)
-$$
+* it is a left exact functor;
 
-is an [[effective epimorphism]] in $Sh(S)$.
+* it respects gluing in $\mathcal{G}$ in that 
+  for $\{U_i \to V\}_i$ 
+  a covering [[sieve]] consisting of admissible morphism, 
+  the induced morphism
+
+  $$
+    \coprod_i O_X(U_i) \to O_X(V)
+  $$
+
+  is an [[effective epimorphism]] in $\mathcal{X}$.
+
 =--
 
-Write $StrSh(S,V) \subset Func(V,Sh(S))$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
+Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
-+-- {: .un_remark}
-###### Remark
-Notice that in words following the above introduction this just says that we require that for every open subset $U$ of our space $X$, every function $f : U \to v$ on $U$ with values in $v$ can be built from a suitable collection of functions $f_i : U \to u_i$ if the $u_i$ cover the codomain $v$.
-=--
 
 +--{: .query}
-[[Mike Shulman]]: That doesn't make sense to me.  I haven't read StrSh myself yet, but just looking at this, it seems ridiculous to say that every function $U\to v$ comes from a collection of functions $U\to u_i$, if the "cover" $(u_i \to v)$ is anything like the "covers" that I am used to thinking about.
+
+[[Urs Schreiber]]: second attempt to illustrate what this means:
+
 =--
 
++-- {: .un_example}
+###### Examples
+
+1. Consider $X$ an ordinary [[topological space]] and
+   $Sh(X)$ the ordinary [[category of sheaves]] on its 
+   [[category of open subsets]]. Let $\mathcal{G} = Top$
+   be some [[small category|small]] version of [[Top]]
+   with its usual [[Grothendieck topology]] with covering
+   families being open covers. Consider the functor
+
+   $$
+     O_X : Top \to Sh(X)
+   $$
+
+   that sends a topological space $V$ to the sheaf of continuous
+   functions with values in $V$:
+
+   $$
+     O_X(V) : U \mapsto C(U,V) = Hom_{Top}(U,V)
+     \,.
+   $$
+
+   This functor clearly respects [[limit]]s, just by the
+   general property of the hom. The gluing condition says that
+   for $V_1, V_2 \subset V$ an open cover of $V$ by two patches, 
+   the morphism of sheaves
+
+   $$
+     O_X(V_1) \coprod O_X(V_2) \to O_X(V)
+   $$
+
+   is an [[epimorphism]] of sheaves. This means that 
+   for each point $x \in X$ the map of [[stalk]]s
+
+   $$
+     O_X(V_1)_x \coprod O_X(V_2)_x \to O_X(V)_x
+   $$
+   
+   is an epimorphism of sets. But this just says that given
+   any function $f : U_x \to V$ on a neighbourhood $U_x$ of $x$, 
+   there is a smaller neighbourhood $V_x \subset U_x$ such that 
+   the restriction $f|_{V_x}$ factors either through $V_1$ or
+   through $V_1$. This is clearly the case by the fact that $V_1,V_2$
+   form an opeen cover. (A neighbourhood  of $f(x) \in V$ exists which
+   is contained in $V_1$ or in $V_2$, so take its preimage under
+   $f$ as $U_x$).
+
+
+2. [StrSh, remark 2.5.11](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=71) 
+
+   Let $X$ be a topological space as before, but consider now the
+   geometry $\mathcal{G} = CRing^{op}$ to be the opposite category of
+   commutative [[ring]]s, where a covering family of 
+   $Spec R \in CRing^{op}$ is a family of maos of the form
+   $R \to R[\frac{1}{r_i}]$ with $\{r_i \in R\}_i$ generating the unit
+   ideal in $R$. So we think of $Spec R[\frac{1}{r_i}]$ as 
+   an the open subset of $Spec R$ on wich the function $r_i$
+   does not vanish, and a covering family we think of as an open 
+   cover by such open subsets, in direct analogy to the above example.
+ 
+   Now given a sheaf of rings 
+
+   $$
+     \bar O_X \in Sh(X,CRing)
+   $$
+
+   on $X$ (making $X$ a [[ringed space]]), which we 
+   may regard as the functor
+
+   $$
+     O_X : CRing^{op} \to Sh(X)
+   $$
+
+   that it [[representable functor|represents]]
+
+   $$
+     O_X(Spec R) : U \mapsto  
+                   Hom_{CRing^{op}}(\bar O_X(U), Spec R)
+                           = Hom_{CRing}(R, \bar O_X(U))
+   $$
+
+   we check what 
+   conditions this has to satisfy to qualify as a 
+   structure sheaf in the above sense.
+
+   The condition that
+
+   $$
+     \coprod_i O_X(Spec R[\frac{1}{r_i}])
+     \to Spec R
+   $$
+
+   is an epimorphism of sheaves again means that it is [[stalk]]wise
+   an epimorphism of sets. Now, a ring homomorphism 
+   $R[\frac{1}{r_i}] \to \bar O_X(U)$ is given by
+   a ring homomorphism $f : R \to O_X(U)$ such that $f(r_i)$ is
+   invertible in $O_X(U)$. (We think of this as the pullback of
+   functions on $Spec R$ to functions on $U$ by a map $U \to Spec R$
+   that lands only in the open subset where the functoin $r_i$ is 
+   non-vanishing).
+
+   So the condition that the above is an epimorphism on small enough
+   $U$ says that for every ring homomorphism $\phi : R \to \bar O_X(U)$
+   the value of $\phi$ on at least one of the $r_i$ is invertible 
+   element in $O_X(U)$. 
+
+   Thinking of this dually this is just the same kind of statement as
+   in the first example, really. But now we can say this more 
+   algebraically: 
+
+   by assumption there is a linear combination of the $r_i$ to the
+   identity in $R$
+
+   $$
+     1 = \sum_i \alpha_i r_i
+   $$
+
+   in $R$ (the partition of unity of functions on $Spec R$) 
+   and hence $\sum_i \alpha_i \phi(r_1) = 1$ in $(O_X)_x$
+   That for this invertible finite sum at least one of the
+   summands is invertible is the condition that $(O_X)_x$ is
+   a _local ring_ .
+
+   So [[ringed space]] has a structure sheaf in the above sense
+   if it is a [[locally ringed space]].
+   
+   
+=--
 
 
 
