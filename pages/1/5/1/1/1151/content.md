@@ -213,7 +213,7 @@ $$
 
 This means that all the non-positive degree cohomology identifies with the [[simplicial homotopy group|homotopy group]]s of the [[∞-groupoid]] $\mathbf{H}(X,A)$. 
 
-##### Bigrading
+##### Bigrading {#BiGrading}
 
 If the underlying [[topos]] of $\mathbf{H}$ is a [[lined topos]], the line object $I$ canonically has the structure of an [[interval object]] and induces a [[cosimplicial object]] $\Delta_I : \Delta \to \mathbf{H}$ of _geometric_ $n$-simplices in addition to the _categorical_ standard cellular simplices. Accordingly there are then two differnt loop objects, 
 
@@ -221,7 +221,7 @@ If the underlying [[topos]] of $\mathbf{H}$ is a [[lined topos]], the line objec
 
 * the **geometric 1-sphere** $S^1_I = \Delta_I^1/ \partial \Delta_I^1$.
 
-The notion of [[loop space object]] and of [[delooping]] have _geometric_ analogs in this case and a so a second integer grading is induced on cohomology, now coming from the geometric loops.
+The notion of [[loop space object]] and of [[delooping]] have _geometric_ analogs in this case and so a second integer grading is induced on cohomology, now coming from the geometric loops.
 Both gradings may be considered at once, which makes the cohomology theory bigraded:
 
 $$
@@ -229,7 +229,7 @@ $$
   \,.
 $$
 
-This bigrading is traditionally considered in [[motivic cohomology]] where the line object is that of [[A1-homotopy theory]], but the general construction depneds only on the presence of a line object.
+This bigrading is traditionally considered in [[motivic cohomology]] where the line object is that of [[A1-homotopy theory]], but the general construction depends only on the presence and choice of an [[interval object]].
 
 +-- {: .query}
 
@@ -272,7 +272,7 @@ $$
   \,.
 $$
 
-This is notably the standard case in [[Bredon cohomology|Bredon]] [[equivariant cohomology]] used in [[equivariant stable homotopy theory]], where the $V$ are one-point compactifications of linear [[representation]] spaces of a [[group]] $G$.
+This is notably the standard case in [[Bredon cohomology|Bredon]] [[equivariant cohomology]] used in [[equivariant stable homotopy theory]], where the $S^V$ are one-point compactifications of [[representation]] [[vector space]]s of a [[group]] $G$.
 
 +-- {: .query}
 
