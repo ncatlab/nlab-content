@@ -2,6 +2,8 @@
 [[!include stable homotopy theory - contents]]
 </div>
 
+> under construction
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -41,11 +43,15 @@ a morphism $f$ of $G$-spectra is a **weak equivalence of $G$-spectra** if for ev
 
 This may be expressed directly in terms of the notion of **homotopy group of a $G$-spectrum**: this is ...
 
+
+
+
 ## Topological Mackey-functors
 
 > ... see the references below, for the moment...
 
 * [[Mackey functor]]
+
 
 ## Equivariant cohomology
 
