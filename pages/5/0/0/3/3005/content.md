@@ -3,9 +3,10 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Statement
 
-__Beck's monadicity theorem__ states that a [[functor]] $U : D \rightarrow C$ is [[monadic]] if and only if
+__Beck's monadicity theorem__ (or _tripleability theorem_) states that a [[functor]] $U : D \rightarrow C$ is [[monadic]] (tripleable) if and only if
 
 1. $U$ has a [[left adjoint]]
 2. $U$ reflects [[isomorphisms]]
@@ -25,11 +26,13 @@ The __crude monadicity theorem__ states that a functor $U : D \rightarrow C$ is 
 
 where a parallel pair $f,g : a \rightarrow b$ is __reflexive__ if $f$ and $g$ have a common [[section]].  This sufficient, but not necessary, condition is sometimes easier to verify in practice.
 
+
 ## In $(\infty,1)$-categories
 
 There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 3.4](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=107) of
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
+
 
 ## Applications
 
@@ -37,9 +40,15 @@ The monadicity theorem plays a central role in [[monadic descent]].
 
 
 [[!redirects Barr-Beck theorem]]
+[[!redirects monadicity theorem]]
 [[!redirects Beck's monadicity theorem]]
 [[!redirects Beck's monadicity theorem]]
-[[!redirects Beck's theorem]]
 [[!redirects Beck monadicity theorem]]
 [[!redirects tripleability theorem]]
+[[!redirects Beck's tripleability theorem]]
+[[!redirects Beck's tripleability theorem]]
+[[!redirects Beck tripleability theorem]]
+[[!redirects Beck's theorem]]
+[[!redirects Beck's theorem]]
+[[!redirects Beck theorem]]
 [[!redirects crude monadicity theorem]]
