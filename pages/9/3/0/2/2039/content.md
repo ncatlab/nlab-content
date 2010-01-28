@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
