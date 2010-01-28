@@ -4,3 +4,6 @@
 ## related $n$Lab entries
 
 * [[equivariant homotopy theory]]
+
+
+category: people
