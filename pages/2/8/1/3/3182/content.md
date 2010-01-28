@@ -28,7 +28,7 @@ A discussion of this is in (the nice but not quite finished)
 
 In fact, this is true even for [[Lie ∞-groupoid]]s, i.e. [[∞-stack]]s on [[Diff]]: the homotopy invariant ones model plain [[topological space]]s.
 
-This provides a useful resolution of [[topological space]]s that often helps to disentangle the twoo different roles played by a topological space: on the one hand as a model for an [[∞-groupoid]], in the other as a [[locale]].
+This provides a useful resolution of [[topological space]]s that often helps to disentangle the two different roles played by a topological space: on the one hand as a model for an [[∞-groupoid]], in the other as a [[locale]].
 
 
 ### Details
