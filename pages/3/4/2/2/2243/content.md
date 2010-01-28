@@ -54,11 +54,17 @@
 
 * [[Hochschild cohomology]]
 
+  * [[cyclic cohomology]]
+
 * [[?ech cohomology]]
 
 ### variants ###
 
 * [[equivariant cohomology]]
+
+  * [[equivariant homotopy theory]]
+
+  * [[Bredon cohomology]]
 
   * [[group cohomology]]
 
