@@ -17,3 +17,5 @@ The category of sober spaces is [[reflective subcategory|reflective]] in the cat
 Any nontrivial indiscrete space is not sober, since it is not $T_0$. More interestingly, the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the closure of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties.
 
 The [[Alexandrov topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words with the "extends" preorder), then the soberification of its Alexandrov topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words.
+
+[[!redirects sober spaces]]
