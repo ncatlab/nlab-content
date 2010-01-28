@@ -543,7 +543,7 @@ so much specific examples of cohomology theories
 specific _tools_ or _algorithms_ for constructing 
 $\mathbf{H}(X,A)$.
 
-### Cech cohomology
+### &#268;ech cohomology
 
 For the moment see
 
