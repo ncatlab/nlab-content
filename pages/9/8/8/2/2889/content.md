@@ -68,7 +68,36 @@ More details on the [[Nisnevich site]], the [[model structure on simplicial pres
 
 * [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_ ,  K-theory, 0305 ([web](http://www.math.uiuc.edu/K-theory/0305/) [pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
 
-### Chow groups as cohomology with coefficients in Eilenberg-MacLane objects {#ChowGroupsAsInfStackCohomology}
+### Grading and bigrading
+
+
+The [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(Nis)$ naturally is a [[lined topos]] with line object $\mathbb{A}^1$ that considered in [[A1-homotopy theory]].
+ 
+Accordingly, by the general reasoning discussed at [Cohomology -- Gradings](http://ncatlab.org/nlab/show/cohomology#Grading), in $\mathbf{H}$ there are two kinds of 1-spheres
+
+* the **categorical 1-sphere** $S^1 = \Delta^1/\partial \Delta^1$;
+
+* the **geometric 1-sphere** $S^1_{\mathbb{A}^1} := \mathbb{G}_m$ (the multiplicative group inside $\mathbb{A}^1$);
+
+whose [[smash product]] is called 
+
+* the **Tate sphere** $T := \mathbb{P}^1 := S^1 \wedge S^1_{\mathbb{A}^1}$
+
+and which induce a **[bigrading on cohomology](http://ncatlab.org/nlab/show/cohomology#BiGrading):
+
+$$
+  H^{p,q}(X, A) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{\mathbb{A}^1}^{q} A)
+  \,.
+$$
+
+For instance for $A = H(\mathbb{Z})$ the [[Eilenberg-MacLane object]] (discussed more in detail below), one writes
+
+$$
+  H^{p,q}(X, \mathbb{Z}) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{\mathbb{A}^1}^{q} H(\mathbb{Z}))
+  \,.
+$$
+
+### Chow groups as motivic cohomology with coefficients in Eilenberg-MacLane objects {#ChowGroupsAsInfStackCohomology}
 
 In any [[(∞,1)-topos]] $\mathbf{H}$, the most important notion of [[cohomology]] is that with coefficients in the corresponding 
 [[Eilenberg-MacLane object]]s $K(A,n)$
@@ -83,17 +112,16 @@ For instance in [[Top]] this gives the
 
 In the [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}_{Nis}$ cohomology with  coefficients in the corresponding [[Eilenberg-MacLane object]]s identifies with the notion of [[Chow group]]s.
 
-> the following paragraphs are due to [[Denis-Charles Cisinski]],
-  taken from [this MathOverflow thead](http://mathoverflow.net/questions/2520/homotopy-theory-of-schemes-examples).
+> the following paragraphs are due to [[Denis-Charles Cisinski]], taken from [this MathOverflow thead](http://mathoverflow.net/questions/2520/homotopy-theory-of-schemes-examples).
 
 To keep things simple, let us assume we work over a [[perfect field]]. The easiest part of motivic cohomology which we can get is the [[Picard group]] (i.e. the [[Chow group]] in degree 2). This works essentially like in [[Top]]: in the [[model structure on simplicial presheaves|(model) category of simplicial Nisnevich sheaves]] (over smooth $k$-schemes), the classifying space of the multiplicative group $\mathbb{G}_m := \mathbb{A}^1 - \{0\}$  has the $\mathbb{A}^1$-[[homotopy n-type|homotopy type]] of the infinite dimensional projective space. 
 
 Moreover, as the Picard group is homotopy invariant for regular schemes (semi-normal is even enough), the fact that $H^1(X,\mathbb{G}_m) = Pic(X)$ reads as
 
 $$
-  \pi_0 \mathbb{H}_{Nis}(X,\mathbf{B} \mathbb{G}_m)
+  \pi_0 \mathbf{H}_{Nis}(X,\mathbf{B} \mathbb{G}_m)
   = 
-  Ho(SSh(Nis))(X, \mathbb{B} \mathbf{B} \mathbb{G}_m)
+  Ho_{SSh(Nis)}(X,  \mathbf{B} \mathbb{G}_m)
   =
   Pic(X)
   = 
@@ -109,7 +137,7 @@ In general, we denote by $K(\mathbb{Z}(n),2n)$ the $n$-th motivic
 $$
   \pi_0 \mathbf{H}(\Sigma^i X , K(\mathbb{Z}(n)), 2n))
   =
-  Ho(SSh(Nis))(\Sigma^i X , K(\mathbb{Z}(n)), 2n))
+  Ho_{SSh(Nis)}(\Sigma^i X , K(\mathbb{Z}(n)), 2n))
   = 
   H^{2n -i}(X, \mathbb{Z}(n))
   \,.
@@ -180,6 +208,8 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 * J. F. Jardine, _Motivic symmetric spectra_, Doc. Math. 5 (2000), 445--553
 
 * [[Alexander Beilinson|A. Be?linson]], R. MacPherson, V. Schechtman, _Notes on motivic cohomology_,  Duke Math. J.  54  (1987),  no. 2, 679--710; [doi](http://dx.doi.org/10.1215/S0012-7094-87-05430-5).
+
+* [[Vladimir Voevodsky]], [[Pierre Deligne]], _Lectures on motivic cohomology 2000/2001_ ([web](http://www.math.uiuc.edu/K-theory/0527/))
 
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
