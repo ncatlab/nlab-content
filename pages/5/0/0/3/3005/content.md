@@ -14,7 +14,7 @@ __Beck's monadicity theorem__ (or _tripleability theorem_) states that a [[funct
 
 A [[parallel pair]] $f,g : a \rightarrow b$ in $D$ is **$U$-split** if there is a diagram in $C$: 
 
-$$U a \;\underoverset{U f}{U g}{\rightrightarrows}\; b \;\overset{h}{\rightarrow}\; c$$
+$$U a \;\underoverset{U f}{U g}{\rightrightarrows}\; U b \;\overset{h}{\rightarrow}\; c$$
 
 where $h$ has a [[section]] $s$ and $U f$ has a section $t$ such that $U g \cdot t = s \cdot h$.  This implies that the arrow $h$ is necessarily a coequalizer of $U f$ and $U g$.  To say that $U$ *creates coequalizers of $U$-split pairs* is to say that for any such $U$-split pair, there exists a coequalizer $e$ of $f,g$ in $D$ such that $U e$ is isomorphic to $h$.
 
