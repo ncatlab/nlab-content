@@ -221,6 +221,8 @@ If the underlying [[topos]] of $\mathbf{H}$ is a [[lined topos]], the line objec
 
 * the **geometric 1-sphere** $S^1_I = \Delta_I^1/ \partial \Delta_I^1$.
 
+> (Warning: one has to be careful with different ways how to interpret $\Delta_I^1/ \partial \Delta_I^1$. More later. See the example of [[motivic cohomology]].)
+
 The notion of [[loop space object]] and of [[delooping]] have _geometric_ analogs in this case and so a second integer grading is induced on cohomology, now coming from the geometric loops.
 Both gradings may be considered at once, which makes the cohomology theory bigraded:
 
@@ -230,38 +232,6 @@ $$
 $$
 
 This bigrading is traditionally considered in [[motivic cohomology]] where the line object is that of [[A1-homotopy theory]], but the general construction depends only on the presence and choice of an [[interval object]].
-
-+-- {: .query}
-
-[[Urs Schreiber]]: I am thinking there should be a useful way to look at this in the following way.
-
-from the line object $I$ we may form the [[schreiber:path ∞-groupoid]] $\Pi(A) = \lim_\to [\Delta_I^\bullet,A]$ of any object $X$, which contains all the information about all the geometric paths and loops in $A$. In particular _it's_ ordinary categorical loop space object 
-
-$$
-  \array{
-    \Omega_{*} \Pi(A) &\to& {*}
-    \\
-    \downarrow && \downarrow
-    \\
-    {*} &\to& \Pi(A)
-  }
-$$
-
-is _something like_ $\Omega^1 \Omega^1_I X$, as its 0-cells are generated from the categorical and the geometric loops in $A$.
-
-So I am wondering if not a particularly natural notion of cohomology in the presence of a geometric line would be given by looking at $\mathbf{H}(X, \Omega^\infty \Sigma^p \Sigma^\infty \Pi(A))$.
-
-In particular, might we get a canonical [[Chern character]] this way in any lined [[(∞,1)-topos]]? What, for instance, is the cocycle given by the canonical morphism 
-
-$$
-  A \to \Omega^\infty\Sigma^\infty\Pi(A)
-$$
-
-that is the [[adjunct]] to $\Sigma^\infty(A \hookrightarrow \Pi(A))$ the stabilization of the constant-path inclusion.
-
-For instance in the [[(∞,1)-topos]] $\mathbf{H}$ of [[∞-stack]]s on [[Diff]] or [[smooth loci]] with $U \in \mathbf{H}$ the smooth version f the [[unitary group]], we'd expect a smooth [[Chern character]] with values in all the  _geometric_ homtopy groups $[S^n_I,\mathbf{B}U]$ (the categorical homotopy groups won't see what they see for the topological version of $\mathcal{B}U$!) I am wondering if that might be encoded in $\Omega^\infty \Sigma^\infty \Pi(\mathbf{B}U)$. But I don't know. I am just thinking that it must be some very canonical construction involving $I$, and this is of the right form and about as canonical as it gets.
-
-=--
 
 ##### Exotic grading
 
