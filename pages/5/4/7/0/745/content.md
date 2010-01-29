@@ -25,9 +25,9 @@ $$
     &&
     \downarrow^{\alpha_2}
     \\
-    f(d_1)
+    g(d_1)
     &\stackrel{g(\gamma)}{\to}&
-    f(d_2)    
+    g(d_2)    
     \\
     \\
     (c_1,d_1, \alpha_1)
