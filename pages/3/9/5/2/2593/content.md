@@ -34,7 +34,9 @@ $$
   \to \mathfrak{g}
 $$
 
-of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].
+of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].   This is [[Theorem 55](http://arxiv.org/PS_cache/math/pdf/0307/0307263v6.pdf#page=42)] here:
+
+* John Baez and Alissa Crans, Higher-Dimensional Algebra VI: Lie 2-Algebras, Theory and Applications of Categories 12 (2004), 492-528.  [arXiv](http://arxiv.org/abs/math.QA/0307263)
 
 ### Ordinary Lie algebras 
 
