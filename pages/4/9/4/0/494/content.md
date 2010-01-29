@@ -203,7 +203,9 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
   * $L$ is an [[equivalence of categories|equivalence]];
 
-  * $R$ is an [[equivalence of categories|equivalence]];
+  * $R$ is an [[equivalence of categories|equivalence]].
+
+* $L$ [[preserved limit|preserves]] all [[colimits]] that may exist in $C$, while $R$ preserves all [[limits]] in $D$.  For a partial converse, see the [[adjoint functor theorem]].
 
 
 #Videos#
