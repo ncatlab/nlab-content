@@ -95,32 +95,43 @@ Stated as theorem VI.6.3 in [EqHoCo](http://www.math.rochester.edu/u/faculty/dou
 
 ### $(\infty,1)$-category of $G$-equivariant spaces {#InfGTop}
 
-We may naturally enhance the [[homotopical category]] $G Top_{loc}$ from above to an [[(∞,1)-category]] whose [[homotopy category of an (∞,1)-category]] coincides with the [[homotopy category]] of $G Top_{loc}$, by systematically using the geometric line object.
+At [[topological ∞-groupoid]] it is discussed that the category [[Top]] of [[topological space]]s may be understood as the [[localization of an (∞,1)-category]] $Sh_{(\infty,1)}(Top)$ [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]] on $Top$, at the collection of morphisms of the form $\{X \times I \to X\}$ with $I$ the real line.
 
-Start with the category $G Top_{cof}$ of CW-complexes equipped with an action by a finite group and equivariant continuos maps as morphisms. 
+The analogous statement is true for $G$-spaces: the equivariant homotopy category is the [[homotopy localization]] of the category of $\infty$-stacks on $G Top$.  
 
-Equip this category with the line object $I = \mathbb{R}$ thought of as a $G$-space by taking the $G$-action to be trivial. Using the two canonical points $({*} \stackrel{0}{\to} I \stackrel{1}{\leftarrow} {*})$ this becomes an [[interval object]]. As discussed there, from this is induced a [[cosimplicial object]]
+More in detail: let $G Top$ be the [[site]] whose objects are $G$-spaces that admit $G$-equivariant open covers, morphisms are $G$-equivariant maps and morphism $Y \to X$ is in the [[coverage]] if it admits a $G$-equivariant splitting over such $G$-equivariant open covers.
+
+
+Write
 
 $$
-  \Delta_I : \Delta \to G Top_{cof}
+  sSh(G Top)_{loc}
+$$
+
+for the corresponding [[hypercompletion|hypercomplete]] local [[model structure on simplicial sheaves]]. 
+
+Let $I$ be the unit interval, the standard [[interval object]] in [[Top]], equipped with the trivial $G$-action, regarded as an object of $G Top$ and hence in $sSh(G Top)$.
+
+
+Write 
+
+$$
+  sSh(G Top)_{loc}^I  \stackrel{\leftarrow}{\to}
+  sSh(G Top)_{loc}
+$$
+
+for the left [[Bousfield localization of model categories|Bousfield localization]] at thecollection of morphisms $\{X \stackrel{Id \times 0}{\to} X \times I\}$.
+
+Then the [[homotopy category]] of $sSh(G Top)_{loc}^I$ is the equivariant homotopy category described above
+
+$$  
+  Ho(sSh(G Top)_{loc}^{I}) \simeq G Top_{loc}
   \,.
 $$
 
-In degree $k$ this is $I^k = \mathbb{R}^k$ (equipped with the trivial $G$-action), but with face maps such that the standard topological  $k$-simplex is cut out inside $\mathbb{R}^k$.
+This is [exaple 3, page 50](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf) of
 
-Using this we make $G Top_{cof}$ into a [[Kan complex]]-[[enriched category]], hence an [[(∞,1)-category]], by taking the [[SSet]]-[[hom object]] to be
-
-$$
-  G Top_{cof} (X,Y) :=
-  Hom_{G Top_{cof}}(X \times \Delta_I^\bullet, Y)
-  \in SSet
-  \,.
-$$
-
-The [[homotopy category|homotopy category of an (∞,1)-category]] of this the category $Ho(G Top_{cof})$ whose objects are those of $G Top_{cof}$ and whose morphisms are equivalence classes of morphisms in there, with two taken to be equivalent if they are related by an $I$-homotopy.
-
-Since $G$ acts trivially on $I$, an $I$-homotopy is the standard notion of homotopy used in $G$-[[equivariant homotopy theory]]. So $Ho(G Top_{cof})$ is the standard equivariant homotopy category.
-
+* Morel, Voevosky, _$A^1$-homtopy theory of schemes_ ([pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
 
 
 ## In more general model categories
