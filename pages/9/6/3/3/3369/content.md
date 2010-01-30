@@ -46,7 +46,7 @@ are described the following two [[(∞,n)-category|(∞,n)-categories]]
 * for $C$ any [[(∞,n)-category]] the [[(∞,n)-category]] $Fam_n(C)$
   whose 
 
-  * [[object]]s are [[∞-groupoid]]s $P$ equipped with functors $F_P : \to C$ 
+  * [[object]]s are [[∞-groupoid]]s $P$ equipped with functors $F_P :P \to C$ 
 
   * [[morphism]]s are [[span]]s of [[∞-groupoid]]s with [[natural transformation]]s between the corresponding functors ([[bi-brane]]s)
 
@@ -279,7 +279,7 @@ Certainly, this system of component morphisms is reminiscent of the [[bi-brane]]
 
 might the Freed-Hopkins-Lurie-Teleman quantization prescription as indicated above maybe be regarded as a way to construct the "universal" extension $Z$ of $\exp(S_\nabla(-)) : Bord_n(X) \to n Vect$ along the projection $Bord_n(X) \to Bord_n$ ?
 
-
+[[Domenico Fiorenza]]: I like this point of view a lot. It seems to me that considering $Bord_n(X)$ alone, however, is a bit restrictive with respect to FHLT construction (at least how it is presented above). Namely, I'd find closer to the FHLT construction to consider a 'colimit of spans' $(\infty,n)$-category $T_n$ with functors $\exp(S(-)):T_n\to n Vect$ and $\pi:T_n\to Bord_n$, and to wonder how the Kan extension $Z: Bord_n\to n Vect$ of $\exp(S(-))$ along $\pi$ is related to FHLT receipt. Then the sigma-model $Bord_n(X)$ should be a particularly natural and interesting example of this general construction. 
 =--
 
 category: reference
