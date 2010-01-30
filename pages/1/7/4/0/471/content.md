@@ -582,7 +582,7 @@ Then there is a planar co-dendroidal object $\Omega^p_C : \Omega^p \to C$ in $C$
   $\phi_n$ on the affected leaf;
 
 * an _inner face map_ that contracts a $k_1$-ary vertex with 
-  a $k_2$-ary one is the identity on all unaffected leaces and is 
+  a $k_2$-ary one is the identity on all unaffected leaves and is 
   on the affected leaves the composition 
 
   $$
