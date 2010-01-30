@@ -45,9 +45,9 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
     4.  [[free lattice|Free lattices]]
         1.  [[directed poset]], [[directed join]]
         2.  (none)
-        3.  [[complete lattice]]
+        3.  [[suplattice]], [[complete lattice]]
         4.  [[complete Boolean algebra]]; $Semi Lat$ is monadic
-        5.  $Comp Semi Lat$ is monadic
+        5.  $Sup Lat$ is monadic
         6.  $Lat$ is monadic
         7.  $Comp Lat$ is not monadic
         8.  $Dist Lat$ is monadic
