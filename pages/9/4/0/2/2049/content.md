@@ -46,14 +46,14 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         1.  [[directed poset]], [[directed join]]
         2.  (none)
         3.  [[suplattice]], [[complete lattice]]
-        4.  [[complete Boolean algebra]]; $Semi Lat$ is monadic
-        5.  $Sup Lat$ is monadic
-        6.  $Lat$ is monadic
-        7.  $Comp Lat$ is not monadic
-        8.  $Dist Lat$ is monadic
-        9.  $Bool Alg$ is monadic
-        10. $Comp Bool Alg$ is not monadic
-        11. $Heyt Alg$ is monadic
+        4.  [[complete Boolean algebra]]; [[SemiLat]] is monadic
+        5.  [[SupLat]] is monadic
+        6.  [[Lat]] is monadic
+        7.  [[CompLat]] is not monadic
+        8.  [[DistLat]] is monadic
+        9.  [[BoolAlg]] is monadic
+        10. [[CompBoolAlg]] is not monadic
+        11. [[HeytAlg]] is monadic
 2.  Introduction to locales
 
     1.  Frames and locales
