@@ -13,6 +13,9 @@ Power sets live in the category [[Set]].  Given an object $S$ of any [[category]
 
 category: foundational axiom
 
+[[!redirects power set]]
 [[!redirects power sets]]
 [[!redirects power type]]
 [[!redirects power types]]
+[[!redirects powerset]]
+[[!redirects powersets]]
