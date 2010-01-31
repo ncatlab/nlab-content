@@ -76,3 +76,6 @@ _Mike_: Re: subgroups, point taken; non-pseudomonic subcategories do happen.  I 
 _Toby_: For what it\'s worth, I would be happy with that.
 
 =--
+
+
+[[!redirects subcategories]]
