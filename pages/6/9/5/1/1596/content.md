@@ -41,4 +41,8 @@ _Toby_:  Not every concept of $n$-category even has a concept of equivalence of 
 Zoran, you might also want to address these issues at [[equivalence]].
 =--
 
+
+[[!redirects replete subcategory]]
+[[!redirects replete subcategories]]
+
 [[!redirects replete image]]
