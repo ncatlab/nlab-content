@@ -4,7 +4,7 @@ Using [[derived algebraic geometry]] Maxim Kontsevich embeds the search for moti
 
 # References #
 
-* online video of M.K. talk at the conference on 61-th birthday of Deligne, at IAS Princeton. 
+* online video of M.K. talk at the conference on 61st birthday of Deligne, at IAS Princeton. 
 
 * M.V. Bondarko, Differential graded motives: weight complex, weight filtrations and spectral sequences for realizations; Voevodsky vs. Hanamura, [arXiv:math.AG/0601713](http://arxiv.org/abs/math.AG/0601713)
 
