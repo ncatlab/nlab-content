@@ -20,6 +20,8 @@ $$a \wedge b \leq c \qquad iff \qquad a \leq \neg b \vee c$$
 
 Any [[lattice]] homomorphism automatically preserves $\neg$ and is therefore a Boolean algebra homomorphism.
 
+Boolean algebras and Boolean algebra homomorphisms form a [[concrete category]] [[BoolAlg]].
+
 
 [[!redirects Boolean lattice]]
 [[!redirects boolean algebra]]
