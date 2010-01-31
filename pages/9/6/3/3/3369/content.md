@@ -123,7 +123,7 @@ as given by homming a [[cobordism]] [[cospan]] of the form
 
 $$
   \array{
-    && \Sigma_{in} \times I
+    && \Sigma \times I
     \\
     & \nearrow && \nwarrow
     \\
@@ -136,7 +136,7 @@ into $X$ to produce a [[span]] of path and configuration spaces
 
 $$
   \array{
-    && [\Sigma_{in} \times I,X]
+    && [\Sigma \times I,X]
     \\
     & \swarrow && \searrow
     \\
@@ -154,7 +154,7 @@ $$
     \\
     [\Sigma_{in},X] &&&& [\Sigma_{out},X]
     \\
-    & {}_{\mathllap{[\Sigma_{in},\nabla]}}\searrow && \swarrow
+    & \searrow && \swarrow
     \\
     && C
    }
