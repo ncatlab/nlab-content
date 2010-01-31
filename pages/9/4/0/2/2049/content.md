@@ -42,18 +42,18 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         7.  [[variety of algebras]]
         8.  [[algebraic category]], [[equationally presentable category]]
         9.  [[filtered category]], [[filtered colimit]], [[finitary functor]]
-    4.  [[free lattice|Free lattices]]
+    4.  Free lattices
         1.  [[directed poset]], [[directed join]]
         2.  (none)
         3.  [[suplattice]], [[complete lattice]]
-        4.  [[complete Boolean algebra]]; [[SemiLat]] is monadic
-        5.  [[SupLat]] is monadic
-        6.  [[Lat]] is monadic
-        7.  [[CompLat]] is not monadic
-        8.  [[DistLat]] is monadic
-        9.  [[BoolAlg]] is monadic
-        10. [[CompBoolAlg]] is not monadic
-        11. [[HeytAlg]] is monadic
+        4.  [[complete Boolean algebra]]; [[SemiLat]]
+        5.  [[SupLat]]
+        6.  [[Lat]]
+        7.  [[CompLat]]
+        8.  [[DistLat]]
+        9.  [[BoolAlg]]
+        10. [[CompBoolAlg]]
+        11. [[HeytAlg]]
 2.  Introduction to locales
 
     1.  Frames and locales
