@@ -10,6 +10,6 @@ Using [[derived algebraic geometry]] Maxim Kontsevich embeds the search for moti
 
 * A. Beilinson, V. Vologodsky, A DG guide to Voevodsky's motives, [arXiv:math.KT/0604004](http://arxiv.org/abs/math/0604004)
 
-* S. Mahanta, Noncommutative geometry in the framework of differential graded categories ([arXiv:0805.1628](http://arxiv.org/abs/0805.1628)
+* S. Mahanta, Noncommutative geometry in the framework of differential graded categories, [arXiv:0805.1628](http://arxiv.org/abs/0805.1628)
 
 * Maxim Kontsevich, Yan Soibelman, Stability structures, motivic Donaldson-Thomas invariants and cluster transformations, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
