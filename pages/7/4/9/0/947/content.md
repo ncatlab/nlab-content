@@ -15,5 +15,9 @@ In another direction, the __complement__ of a [[complemented subobject]] $S$ of 
 The complement of a [[truth value]] (seen as a subset of the [[point]]) is called its _[[negation]]_.
 
 
+[[!redirects complement]]
 [[!redirects complements]]
+[[!redirects complementation]]
+
 [[!redirects pseudocomplement]]
+[[!redirects pseudocomplements]]
