@@ -28,6 +28,8 @@ Note that such a homomorphism is necessarily a [[monotone function]], but the co
 
 Thus, a semilattice is a poset with [[property-like structure]].
 
+Semilattices and semilattice homomorphims form a [[concrete category]] [[SemiLat]].
+
 
 [[!redirects meet-semilattice]]
 [[!redirects join-semilattice]]
