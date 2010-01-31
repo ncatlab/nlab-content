@@ -5,7 +5,7 @@
 
 ## Idea
 
-If $J\colon I \to C$ is a [[diagram]] and $x$ is its [[limit]] in $C$, then we may na&#239;vely say that this limit is _preserved_ by a [[functor]] $F\colon C \to D$ if $F(x)$ is the limit of the [[composite]] diagram $I \overset{J}\to C \overset{F}\to D$.  However, it is not enough to state this at the level of objects; we also need to impose some coherence conditions, preserving the entire universal [[cone]].
+If $J\colon I \to C$ is a [[diagram]] and $x$ is its [[limit]] in $C$, then we may na&#239;vely say that this limit is _preserved_ by a [[functor]] $F\colon C \to D$ if $F(x)$ is the limit of the [[composite]] diagram $I \overset{J}\to C \overset{F}\to D$.  However, it is not enough to state this at the level of objects; we also need to impose some coherence conditions, preserving the entire universal [[cone]].  Furthermore, we can use a trick involving the [[Yoneda embedding]] to get a meaningful condition even if $J$ has no limit in $C$ at all.
 
 
 ## Definitions
@@ -28,17 +28,22 @@ Let $I$ be the category $\mathbf{2}$, so that $J$ picks out two objects $a$ and 
 A functor that preserves all small limits in $C$ that exist is __[[continuous functor]]__.  Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
 
 
+## Preserveration of weighted limits
+
+Analogously, an [[enriched functor]] between [[enriched categories]] may preserve [[weighted limits]].  Are there any tricky points that we should mention?
+
+
 ## Preservation of limits that don\'t exist
 
-Sometimes we want to say that a functor $F$ preserves a class of limits without assuming that these limits exist.  We could interpret this to mean that $F$ preserves all those limits in the class that happen to exist, but this might be a very weak condition.
+Sometimes we want to say that a functor $F\colon C \to D$ preserves a limit that does not actually exist in $C$.  For instance, a __finitely continuous functor__ is usually defined as one that preserves all finite limits.  If $C$ is a [[finitely complete category]], then this is fine; such a functor is called __[[left exact functor|left exact]]__.  But what if $C$ does not have all finite limits?
 
-Alternatively, we could use the [[Yoneda lemma]] (assuming that the categories are [[locally small category|locally small]]) to interpret it as saying that the functor $- \otimes F\colon [C^\op,Set] \to [D^\op,Set]$ (the left [[Kan extension]] of the composite $C \to D \hookrightarrow [D^\op,Set]$ along the Yoneda embedding $C\hookrightarrow [C^\op,Set]$) preserves all the relevant limits.  Note that all small limits exist in the [[presheaf category]] $[C^\op,Set]$, and that the Yoneda embedding preserves and reflects all limits.  Therefore, if $C$ and $D$ do have the relevant limits, this condition is equivalent to asking that $F$ preserve them in the ordinary sense.
+If $C$ and $D$ are [[locally small category|locally small]], then we can use the [[Yoneda lemma]] to turn the question into one involving categories that *do* have the required limits (and in fact have all limits), the [[presheaf categories]] $[C^op,Set]$ and $[D^op,Set]$.  (For colimits, use $[C,Set]$ and $[D,Set]$; for $V$-enriched categories, use $[C^op,V]$ and $[D^op,V]$, which will work if $V$ is complete.)
 
-For example, a [[flat functor]] is one which preserves all finite limits in this generalised sense.
+The left [[Kan extension]] of the composite $C \overset{F}\to D \overset{Yon}\hookrightarrow [D^\op,Set]$ along the [[Yoneda embedding]] $C \overset{Yon}\hookrightarrow [C^\op,Set]$ (which always exists) is a functor from $[C^op,Set]$ to $[D^op,Set]$, which may be written as $- \otimes F$ (alluding to the [[bimodule]] nature of [[profunctors]]).  A diagram $J\colon I \to C$ becomes a diagram $I \overset{J}\to C \overset{Yon}\hookrightarrow [C^op,Set]$ in $[C^op,Set]$, where it has a limit.  If $- \otimes F$ preserves this limit, then we say that $F$ __preserves__ the hypothetical limit of $J$.
 
-+-- {: .query}
-This is still a little vague, but I\'m not certain what is exactly the right way to say it.
-=--
+Since the Yoneda embedding preserves and [[reflected limit|reflects]] all limits, if $J$ has a limit in $C$, then this condition is equivalent to the condition that $F$ preserve it in the ordinary sense, but in general it is stronger than requiring that $F$ preserve the limit only if it exists in $C$.
+
+Finishing the motivating example, a __[[flat functor]]__ may be defined as one that preserves all finite limits, whether or not they exist.
 
 
 [[!redirects preserved limit]]
