@@ -69,15 +69,10 @@ $$
 
 A condition entirely analogous to the [[Kan fibration]] condition on [[Kan complex|Kan simplicial sets]] leads to the notion of **Kan combinatorial spectrum**.
 
-+--{: .query}
-If Kan simplicial sets work as a model for $\mathbf{N}$-groupoids, then does this mean that Kan spectricial sets work as a model for $\mathbf{Z}$-groupoids?   ---[[Toby Bartels]]
-
-_Mike_: Presumably, if we knew what a Z-groupoid was.
-=--
 
 ## Relationship to other spectra
 
-From the perspective of a combinatorial spectrum, an "intuitive spectrum" is supposed to be some sort of space-like object having "cells in all integer dimensions," while a "space" (or simplicial set) has cells only in nonnegative dimensions.  The traditional definitions of spectra approximate this intuition by using a *sequence* of spaces $\{E_n\}$ with amps $E_n \to \Omega E_{n+1}$ or $\Sigma E_n \to E_{n+1}$, where we think of the space $E_n$ as being "shifted down by $n$ dimensions."  Thus, for instance, the $(-2)$-cells of the spectrum can come from 0-cells of $E_2$, or 1-cells in $E_3$, or 2-cells in $E_4$, etc.  The structure maps $\Sigma E_n \to E_{n+1}$ support this intuition, since the suspension $\Sigma$ shifts things up by one dimension; thus it maps the $k$-cells of $E_n$ into the $k+1$-cells of $E_{n+1}$.
+From the perspective of a combinatorial spectrum, an "intuitive spectrum" is supposed to be some sort of space-like object having "cells in all integer dimensions," while a "space" (or simplicial set) has cells only in nonnegative dimensions.  The traditional definitions of spectra approximate this intuition by using a *sequence* of spaces $\{E_n\}$ with maps $E_n \to \Omega E_{n+1}$ or $\Sigma E_n \to E_{n+1}$, where we think of the space $E_n$ as being "shifted down by $n$ dimensions."  Thus, for instance, the $(-2)$-cells of the spectrum can come from 0-cells of $E_2$, or 1-cells in $E_3$, or 2-cells in $E_4$, etc.  The structure maps $\Sigma E_n \to E_{n+1}$ support this intuition, since the suspension $\Sigma$ shifts things up by one dimension; thus it maps the $k$-cells of $E_n$ into the $k+1$-cells of $E_{n+1}$.
 
 In fact, this can be made precise: starting from a spectrum of simplicial sets, in the sense of a sequence of spaces with maps $\Sigma E_n \to E_{n+1}$, one can construct a combinatorial spectrum by "piecing together" the cells in all dimensions.  This construction can be found in Kan's original article; it provides an equivalence of [[homotopy theories]] between combinatorial spectra and ordinary spectra built from simplicial sets.
 
