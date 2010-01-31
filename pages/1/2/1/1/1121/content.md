@@ -4,4 +4,8 @@ A wide subcategory is also called a **lluf subcategory** ("lluf" being "[[full s
 
 Note that this is an [[evil]] condition (on top of whatever evil is in the term 'subcategory').  To fix this, let an **essentially wide subcategory** contain at least one object from each isomorphism class of objects; that is, its inclusion functor is [[essentially surjective functor|essentially surjective on objects]].
 
+
+[[!redirects wide subcategory]]
+[[!redirects wide subcategories]]
 [[!redirects lluf subcategory]]
+[[!redirects lluf subcategories]]
