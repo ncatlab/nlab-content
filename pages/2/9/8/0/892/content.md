@@ -1,6 +1,6 @@
 Given a [[set]] $S$, the __power set__ of $S$ is the set $\mathcal{P}S$ of all [[subsets]] of $S$.  Equivalently, it is the set $\TV^S$ of all [[functions]] from $S$ to the set $\TV$ of [[truth values]].  This is often written $2^S$, since there are (at least in [[classical logic]]) exactly $2$ truth values.
 
-One generally needs a specific axiom in the [[foundations]] of mathematics to ensure the existence of power sets.  In [[predicative mathematics]] the existence of power sets (along with other "impredicative" axioms) is not accepted.  One can use power sets to construct [[function sets]]; the converse also works using [[excluded middle]] (or anything else that will guarantee the existence of the set of truth values).  In particular, power sets exist in any theory containing excluded middle and function sets; thus predicative theories which include function sets must also be [[constructive mathematics|constructive]].
+One generally needs a specific axiom in the [[foundations]] of mathematics to ensure the existence of power sets.  In [[predicative mathematics]] the existence of power sets (along with other "impredicative" axioms) is not accepted.  One can use power sets to construct [[function sets]]; the converse also works using [[excluded middle]] (or anything else that will guarantee the existence of the set of truth values).  In particular, power sets exist in any theory containing excluded middle and function sets; thus predicative theories which include function sets must also be [[constructive mathematics|constructive]].  Note that we can still speak of a power set as a [[proper class]], sometimes called a __power class__.
 
 The power set $\mathcal{P}S$ is in fact a [[partial order|poset]] ordered by containment: $A$ precedes $B$ means that $A$ is a [[subset]] of $B$ ($A \subseteq B$).
 
@@ -15,7 +15,9 @@ category: foundational axiom
 
 [[!redirects power set]]
 [[!redirects power sets]]
-[[!redirects power type]]
-[[!redirects power types]]
 [[!redirects powerset]]
 [[!redirects powersets]]
+[[!redirects power class]]
+[[!redirects power classes]]
+[[!redirects power type]]
+[[!redirects power types]]
