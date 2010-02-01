@@ -2,7 +2,7 @@ Given a commutative [[field]] $k$, the **general linear group** $GL(n,k)$ (or $G
 
 One can in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]. 
 
-See also [[orthogonal group]].
+See also [[orthogonal group]]; [[unitary group]].
 
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear group]]s. 
 
