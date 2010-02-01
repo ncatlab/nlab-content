@@ -78,3 +78,6 @@ A survey of the general theory, also of its history, is
 The definition of the symmetric monoidal category of spectra itself is compiled in the seminar notes
 
 * [[Sander Kupers]], [[SymmetricSpectra.pdf:file]]
+
+
+[[!redirects symmetric spectrum]]
