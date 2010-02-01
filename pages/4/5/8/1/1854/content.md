@@ -33,7 +33,7 @@ $$
 In other words, we want the commutator $[g,a']=d\omega'$.
 We obtain an $A$-bimodule. The coproduct on $Ag\oplus\Omega^1 A$ is $\Delta(a g)=a g\otimes g$ and $\Delta(\omega)=
 g\otimes\omega+\omega\otimes g- d\omega$.
-The two operations are mutual inverses (see [lectures](http://www.newton.ac.uk/programmes/NCG/seminars/080411301.pdf) by Brzezinski).
+The two operations are mutual inverses (see [lectures](http://www.newton.ac.uk/programmes/NCG/seminars/080411301.pdf) by Brzezinski or the arxiv version [math/0608170](http://arxiv.org/abs/math/0608170)).
 
 Moreover [[connection for coring|flat connections]] for a semi-free dga are in $1$-$1$ correspondence with the comodules over the corresponding coring with a group-like element.
 
