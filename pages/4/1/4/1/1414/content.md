@@ -57,7 +57,7 @@ Some minutes later!  Does this read well now?
 
 * the composition operation is induced by 'composition of the corresponding paths' and thus essentially by union of the sets involved.
 
-##Remark:## 
+**Remark:**
 
 in case you are wondering why we did not just say $P(i,j)$ was the poset of subsets of the set of elements between $i$ and $j$, it is because of the composition.  Of course, it can be done but looks more messy.
 
@@ -121,6 +121,12 @@ For $C$ a [[simplicially enriched category]], the **homotopy coherent nerve**  $
 *  Any 2-category gives a simplcially enriched category using the embedding of $Cat$ into $SSet$ via the usual nerve functor. The homotopy coherent nerve of a 2-category consideed in this way is, sometimes, called the [[geometric nerve]] of the 2-category. The [[Duskin nerve]] of a bicategory is an extension of this construction. 
 
    A particular case of this nerve is the nerve of a [[2-group]] considered as a 2-category.
+
+## Relation to quasi-categories
+
+The homotopy coherent nerve extends to a [[Quillen equivalence]] between the [[Joyal model structure]] $sSet_{Joyal}$ that models [[quasi-categories]] and the [[model structure on sSet-categories]].
+
+See [[relation between quasi-categories and simplicial categories]] for details.
 
 ##References##
 
