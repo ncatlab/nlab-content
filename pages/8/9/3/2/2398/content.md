@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The deRham theorem asserts that the [[deRham cohomology]] $H^n_{dR}(X)$ of a smooth [[manifold]] $X$ (without boundary) is isomorphic to the "ordinary" $\mathbb{R}$-valued cohomology, i.e. the singular or &#268;ech cohomology with real coefficients $H^n(X, \mathbb{R})$. The theorem has several dozens of different proofs. For example in &#268;ech approach one can make a double complex whose first row is the &#268;ech complex of a covering and first column is the de Rham complex and other entries are mixed and use spectral sequence argument (see the textbook of Bott and Tu, or the geometry lectures book by Postnikov, semester III). 
  
@@ -62,10 +66,12 @@ $$
 
 ...
 
-#References#
+## References
 
 A useful exposition is this:
 
 * Arne Lorenz, _Abstract deRham theorem_ ([pdf slides](http://wwwb.math.rwth-aachen.de/~arne/Talks/deRham.pdf))
 
 ...
+
+[[!redirects deRham theorem]]
