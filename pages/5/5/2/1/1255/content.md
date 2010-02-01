@@ -1,2 +1,1 @@
-for the time being see [[universal construction]]
-
+&lt; [[universal property]]
