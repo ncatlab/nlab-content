@@ -51,6 +51,7 @@ In a topos, there are both "external" and "internal" versions of all the above n
 
 [[!redirects finite sets]]
 [[!redirects K-finite set]]
+[[!redirects Kuratowski-finite set]]
 [[!redirects Kuratowski finite set]]
 [[!redirects finitely indexed set]]
 [[!redirects subfinite set]]
