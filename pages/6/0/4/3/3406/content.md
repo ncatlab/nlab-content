@@ -1,8 +1,5 @@
 __$Comp Lat$__ is the [[category]] whose [[objects]] are [[complete lattices]] and whose [[morphisms]] are complete lattice [[homomorphisms]], that is [[functions]] which preserve all [[joins]] and [[meets]] (including the [[bottom]] and [[top]] elements).  $Comp Lat$ is a [[subcategory]] of [[Pos]].
 
-
-## Properties
-
 $Comp Lat$ is given by a [[variety of algebras]], or equivalently by an [[algebraic theory]], so it is an [[equationally presented category]]; however, it requires operations of arbitrarily large arity.  In fact, it is *not* a [[monadic category]] (over [[Set]]), because it lacks some [[free objects]].  Specifically, the __free complete lattice__ on a [[set]] $X$, while it exists (by general abstract nonsense) as a [[class]], is small only if $X$ has at most $2$ elements (in which case it is finite and equals the [[free lattice]] on $X$).
 
 
