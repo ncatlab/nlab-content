@@ -63,12 +63,13 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 Quasi-categories have originally been defined in
 
-* J.M. Boardman and R.M. Vogt, _Homotopy invariant algebraic structures on topological
-spaces_, Lecture Notes in Mathematics, Vol. 347. Springer-Verlag, 1973._
+* [[Michael Boardman]], [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological
+spaces_, Lecture Notes in Mathematics, Vol. 347. Springer-Verlag, 1973.
 
-They occured as  weak Kan complexes in 
 
-* R. Vogt, _Homotopy limits and colimits_, Math. Z., 134, (1973), 11&#8211;52.
+They occured as  [[weak Kan complex]]es in 
+
+* [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., 134, (1973), 11&#8211;52.
 
 Vogt's main theorem involved a category of [[homotopy coherent diagram|homotopy coherent diagrams]] defined on a topologically enriched category and showed it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
 
@@ -80,7 +81,7 @@ G&#233;om. Diff., 23, (1982), 93 &#8211;112,
 
 defined a [[homotopy coherent nerve]] of any [[simplicially enriched category]], which generalised the [[nerve]] of an ordinary category. In 
 
-* J.-M. Cordier and T. Porter, _Vogt's theorem on categories of homotopy coherent diagrams_, 
+* J.-M. Cordier and [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, 
 Math. Proc. Cambridge Philos. Soc., 100, (1986), 65&#8211;90, 
 
 it was shown that this homotopy coherent nerve was a quasi-category if the simplicial enrichment was by Kan complexes.
