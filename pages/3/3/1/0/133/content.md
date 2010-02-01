@@ -35,12 +35,13 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 ## Equivalents 
 
-The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction requires [[excluded middle]]):
+The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction requires [[excluded middle]]).  This is a *very* short list; much longer lists can be found elsewhere, such as at [Wikipedia](http://en.wikipedia.org/wiki/Axiom_of_choice#Equivalents).  Some of the statements on this list, though, may be of interest to nLabbers but are not commonly mentioned as equivalents of choice.
 
 * The [[well-ordering theorem]] (that any set can be [[well-order|well-ordered]]),
 * [[Zorn's lemma]],
-* that ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system on Set]].
-
+* That ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system on Set]].
+* That [[Set]] is equivalent to its own [[free exact completion]].
+* That there exists a [[group]] structure on every inhabited set (see [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
 
 ## Variants
 
