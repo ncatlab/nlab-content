@@ -77,6 +77,8 @@
 
 * [[Theta space|on (n,r)-categories]]
 
+  * [[model structure on quasi-categories|on quasi-categories]]
+
   * [[folk model structure|on strict ∞-categories/strict ∞-groupoids]]
 
 
