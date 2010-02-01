@@ -1,9 +1,22 @@
-The join of simplicial sets extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance, the description and discussion in Spanier's classical text(page 109 and then pages 114 -116) on Algebraic Topology. For instance, given a simplicial complex $K$, the join of a point with $K$ will be a cone on $K$ and the join of a two point space $2$ with $K$ will be the [[suspension]] of $K$. 
 
-The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category, $\Delta_a$, of finite ordinals (including the empty one).  Recall
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The **join** $S \star T$ of two [[simplicial set]]s $S$ and $T$ is a new simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. 
+
+Notably when $S = \Delta^0$ is the [[point]], this join is a genuine [[cone]] over $T$. Or if $S = 2$ is the two-point space, the join is the [[suspension]] of $T$.
+
+If the simplicial sets in question are [[quasi-categories]] the notion of join on them produces the notion of [[join of quasi-categories]] that underlies many constructions in [[higher category theory]] such as the definition of [[limit in a quasi-category]].
+
+The join of [[simplicial set]]s extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance the description and discussion in Spanier's classical text (page 109 and then pages 114 -116) on Algebraic Topology. 
+
+The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category, $\Delta_a$, of finite ordinals (including the empty one).  
 
 
-#Definition#
+## Definition
 
 The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite totally ordered sets. 
 
@@ -37,7 +50,7 @@ $$
   \,.
 $$
 
-##Extension to a closed monoidal structure##
+### Extension to a closed monoidal structure
 
 This join tensor product forms part of a [[closed monoidal category|closed monoidal structure]] on the category of
 augmented simplicial sets, [[ASSet]] $ := Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
@@ -45,7 +58,7 @@ $$[X, Y ]_n =ASS(X; Dec^{n+1}Y )\,,$$
 where $Dec$ is the [[decalage]] functor.
 
 
-##Join of non-augmented simplicial sets##
+### Join of non-augmented simplicial sets
 
 The **join** of two ordinary (not augmented) [[simplicial set]]s $S$ and $S'$ is the join of their _trivial augmentation_ ($S_{-1} = S'_{-1} = pt$). This yields
 
@@ -61,7 +74,7 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 * [[Jacob Lurie]], [[Higher Topos Theory]] 
 
 
-##Some history## 
+## Some history
 
 (please augment this?)
 
@@ -73,7 +86,7 @@ University of Wales Bangor, (see also the reference below and the Menagerie note
 but was there ascribed to Jack Duskin and Don van Osdol in some unpublished notes.  The main ideas were derived there from earlier work by Bill Lawvere.
 
 
-#References#
+## References
 
 * P. J. Ehlers and [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44
 ([arXiv](http://arxiv.org/abs/math.CT/9904039)) .
