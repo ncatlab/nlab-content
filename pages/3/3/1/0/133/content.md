@@ -43,17 +43,20 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * That [[Set]] is equivalent to its own [[free exact completion]].
 * That there exists a [[group]] structure on every inhabited set (see [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
 
+
 ## Variants
 
 There are a number of weaker axioms which are implied by the full axiom of choice.  Some of these are valid or accepted more generally than the full AC, and/or suffice for some of the usual applications of choice.
 
 * Many applications of choice in [[logic]], [[topology]], and [[algebra]] require only the [[ultrafilter principle]], or equivalently the *Boolean prime ideal theorem*.
 
+* From the perspective of [[constructive mathematics]], the principle of [[excluded middle]] (EM) may be seen as a form of the axiom of choice; EM is equivalent to the statement that every [[Kuratowski-finite set]] is projective.
+
 * The axioms of [[countable choice]] (CC) and [[dependent choice]] (DC) suffice for many of the usual applications of choice in the analysis of [[separable space]]s.  CC states that the set $\mathbb{N}$ of [[natural number]]s is projective.  DC strenghtens CC by allowing the set of possible choices for $n+1$ to depend on the choice made for $n$.
 
 * The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This implies CC and DD, and is moreover sufficient for the existence of [[projective resolution]]s and cofibrant replacements, as well as the usual theorems in algebra that (for example) [[Mod]] has enough projectives.  For example, see the [[folk model structure on Cat]].
 
-* The [[axiom of small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some choice set $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, it implies the existence of (at least some) [[injective resolution]]s, and together with COSHEP it implies full AC.
+* The [[axiom of small violations of choice]] (SVC) asserts there is a set $S$ such that every set is a [[subquotient]] of $C\times S$ for some choice set $C$.  Intuitively, this says that the failure of AC is parametrized by a single set.  It can be regarded as a "dual" of COSHEP, since it deals with choice sets rather than projective ones, it implies the existence of (at least some) [[injective resolution]]s, and together with COSHEP and EM it implies full AC.
 
 * The [[axiom of multiple choice]] should eventually be mentioned too.
 
