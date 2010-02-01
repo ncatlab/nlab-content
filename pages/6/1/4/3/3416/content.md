@@ -1,4 +1,4 @@
-__$Frm$__ is the [[category]] whose [[objects]] are [[frames]] and whose [[morphisms]] are frame [[homomorphisms]], that is [[functions]] which preserve all [[joins]] (including the [[bottom element]]) and finitary [[meets]] (equivalently, binary meets and the [[top element]]).  $Frm$ is a [[subcategory]] of [[Pos]], in fact a [[replete subcategory]] of both [[DistLat]] and [[SupLat]].
+__$Frm$__ is the [[category]] whose [[objects]] are [[frames]] and whose [[morphisms]] are frame [[homomorphisms]], that is [[lattice]] homomorphisms that preserve [[directed joins]] (and thus all joins).  $Frm$ is a [[subcategory]] of [[Pos]], in fact a [[replete subcategory]] of both [[DistLat]] and [[SupLat]].
 
 The [[opposite category]] of $Frm$ is the category [[Loc]] of [[locales]]; this is an example of the duality between [[space and quantity]].
 
