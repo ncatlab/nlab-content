@@ -57,9 +57,12 @@ Some minutes later!  Does this read well now?
 
 * the composition operation is induced by 'composition of the corresponding paths' and thus essentially by union of the sets involved.
 
-**Remark:**
++-- {: .un_remark}
+###### Remark
 
 in case you are wondering why we did not just say $P(i,j)$ was the poset of subsets of the set of elements between $i$ and $j$, it is because of the composition.  Of course, it can be done but looks more messy.
+=--
+
 
 ##Example and (hopefully) explanation##
 
