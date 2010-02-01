@@ -233,7 +233,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[limit in a quasi-category|limits of (∞,1)-categories]]
 
-##4 Limits and Colimits##
+##4 Limits and Colimits {#Limits}
 
 * [[homotopy limit]]
 
