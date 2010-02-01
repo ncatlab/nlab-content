@@ -169,6 +169,128 @@ $$
 on $\mathcal{L}X$. When $C=$ [[Top]] this action is the usual _rotation of the loops_ in $X$.
 
 
+#### Details {#DetailsCircAct}
+
+Here is what this categorical circle action looks like in more detail:
+
+
+> [[Urs Schreiber]]: not clear yet how useful the following is for the above...
+
+we use the [[delooping]] [[groupoid]] $\mathbf{B}\mathbb{Z}$ of the additive [[group]] $\mathbb{Z}$ of integers for simplicity, as a model for $S^1_C$. The [[automorphism]]s of this object form the [automorphism 2-group](http://ncatlab.org/nlab/show/2-group#automorphism_2groups_8)
+
+$$
+  Aut_C(\mathbf{B}\mathbb{Z}) = AUT(\mathbf{B}\mathbb{Z})
+$$
+
+whose objects are invertible functors $\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}$ and whose morphisms are [[natural transformation]]s between these. The invertible functors come from group automorphisms, hence from multiplication by integers
+
+$$
+  [n] : \mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}
+$$
+
+$$
+  (\bullet \stackrel{k}{\to} \bullet) \mapsto (\bullet \stackrel{n \cdot k}{\to} \bullet).
+$$
+
+Natural transformations between two such automorphisms are given by a component $\ell \in \mathbb{Z}$ such that all diagrams
+
+$$
+  \array{
+    \bullet &\stackrel{\ell}{\to}& \bullet
+    \\
+    {}^{\mathllap{n\cdot k}}\downarrow && \downarrow^{\mathrlap{n' \cdot k}}
+    \\
+    \bullet &\stackrel{\ell}{\to}& \bullet    
+  }
+$$
+
+commute in $\mathbf{B}\mathbb{Z}$. This can happen only for $n = n'$, but then it happens for arbitrary $\ell$. In other words we have
+
+$$
+  AUT(\mathbf{B}\mathbb{Z}) \simeq \coprod_{n \in \mathbb{Z}} \mathbf{B}\mathbb{Z}
+  \,.
+$$
+
+The object $[n]$ in this [[2-group]] corresponds to the diffeomorphism of the circle onto itself that fixes the basepoint and has winding number $n$. The transformation $\ell$ corresponds then to a rotation of the basepoint by $\ell$ full loops.
+
+Notably for $n = 1$ and $k = 1$ we may think of the diagram
+
+$$
+  \array{
+    \bullet &\stackrel{\ell}{\to}& \bullet
+    \\
+    {}^{\mathllap{1}}\downarrow && \downarrow^{\mathrlap{1}}
+    \\
+    \bullet &\stackrel{\ell}{\to}& \bullet    
+  }
+$$
+
+as depicting the unit loop around the circle (on the left, say) and the result of translating its basepoint $\ell$-times around the circle (the rest of the diagram). Of course since we are using a model of $S^1_C$ with a single object here, every rotation of the loop is a full circle rotation, which is a bit hard to see.
+
+> Exercise: spell out the above discussion analogously for the equivalent model given by the [[fundamental groupoid]] $\Pi_1(S^1)$ of the standard circle. The is the groupoid with $S^1_{Top}$ as its set of objects homotopy classes of paths in the circle as morphisms. In this model things look more like one might expect from a circle action. Notice that $\mathbf{B}\mathbb{Z}$ is the [[skeleton]] of $\Pi_1(S^1)$.
+
+Consider for instance $X = \mathbf{B}G$ such that $\mathcal{L}X = G//_{Ad}G$ (as discussed in detail below). Then a morphism $(g \stackrel{h}{\to} Ad_h a)$ in $G//G$ corresponds to a natural transformation
+
+$$
+  \array{
+    & \nearrow \searrow^{\mathrlap{g}}
+    \\
+    \mathbf{B}\mathbb{Z}
+    &\Downarrow^{h}&
+    \mathbf{B}G
+    \\
+    & \searrow \nearrow_{\mathrlap{Ad_h g}}
+  }
+  \,.
+$$
+
+Precomposing this with the automorphism $\ell$ of the objec $[n]$ in $AUT(\mathbf{B}\mathbb{Z})$
+
+$$
+  \array{
+    & \nearrow \searrow^{\mathrlap{n}}
+    \\
+    \mathbf{B}\mathbb{Z}
+    &\Downarrow^{\ell}&
+    \mathbf{B}\mathbb{Z}
+    \\
+    & \searrow \nearrow_{\mathrlap{n}}
+  }
+$$
+
+produces the new transformation
+
+$$
+  \array{
+    & \nearrow \searrow^{\mathrlap{n}} && \nearrow \searrow^{\mathrlap{g}}
+    \\
+    \mathbf{B}\mathbb{Z}
+    &\Downarrow^{\ell}&
+    \mathbf{B}\mathbb{Z}
+    &\Downarrow^{h}&
+    \mathbf{B}G
+    \\
+    & \searrow \nearrow_{\mathrlap{n}} && \searrow \nearrow_{\mathrlap{Ad_h g}}
+  }
+  \,.
+$$
+
+By the rules of horizontal composition of [[natural transformation]]s, this is the transformation whose component naturality square on $(\bullet \stackrel{1}{\to} \bullet)$ in $\mathbf{B}\mathbb{Z}$ is the diagram
+
+$$
+  \array{
+    \bullet &\stackrel{g^\ell}{\to}& \bullet &\stackrel{h}{\to}&\bullet
+    \\
+    {}^{\mathllap{g^{n}}}\downarrow && {}^{g^n}\downarrow && \downarrow^{\mathrlap{Ad_h g^n}}
+   \\
+    \bullet &\underset{g^\ell}{\to}& \bullet &\underset{h}{\to}&\bullet
+  }
+$$
+
+in $\mathbf{B}\mathbb{Z}$, hence the morphism $(g^n \stackrel{g^{\ell} h}{\to} Ad_h g^n)$ in $G//G$.
+
+
+
 ### Hochschild cohomology and cyclic cohomology
 
 [[quasicoherent ∞-stack]]s on $\mathcal{L}X$ form the [[Hochschild cohomology|Hochschild homology]] object of $X$ (if the axioms of [[geometric function theory]] are met) as described there. The circle acton on $\mathcal{L}X$ induces differentials on these.
