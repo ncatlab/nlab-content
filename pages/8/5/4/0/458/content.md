@@ -21,11 +21,11 @@ Another advantage of locales is that they are better-behaved than topological sp
 
 A **[[frame]]** $A$ is a [[partial order|poset]] with all [[join|joins]] and all finite [[meet|meets]] which satisfies the _infinite distributive law_:
 $$ x \wedge (\bigvee_i y_i) = \bigvee_i (x\wedge y_i).$$
-A **frame homomorphism** $\phi: A\to B$ is a function which preserves finite meets and arbitrary joins.
+A **frame homomorphism** $\phi: A\to B$ is a function which preserves finite meets and arbitrary joins.  Frames and frame homomorphisms form a [[category]] [[Frm]].
 
-By the [[adjoint functor theorem]] for posets, a frame also has all meets, but a frame homomorphism need not preserve them.  Again by the AFT, a frame is automatically a [[Heyting algebra]], but again a frame homomorphism need not preserve the Heyting implication.
+Note: By the [[adjoint functor theorem]] (AFT) for posets, a frame also has all meets, but a frame homomorphism need not preserve them.  Again by the AFT, a frame is automatically a [[Heyting algebra]], but again a frame homomorphism need not preserve the [[Heyting implication]].
 
-The [[category]] of **locales** is the [[opposite category|opposite]] of the category of frames.  That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
+The category [[Loc]] of **locales** is the [[opposite category|opposite]] of the category of frames.  That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
 
 ## Relation to topological spaces ##
