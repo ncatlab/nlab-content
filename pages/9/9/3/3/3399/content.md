@@ -24,6 +24,15 @@ A [[topological space]] (or [[locale]]) $X$ is [[compact space|compact]] if and 
 [[Directed colimits]] and [[filtered colimits]] are two slightly different [[categorifications]] of directed joins.
 
 
+## DCPOs
+
+A poset which has all directed joins is called a __directed-complete partial order__, or __[[dcpo]]__.  The [[homomorphisms]] of DCPOs are those [[functions]] that preserve directed joins; these are also called __Scott-continuous__ because they are precisely the [[continuous maps]] relative to the [[Scott topology]] on the DCPOs.
+
+A __pointed dcpo__ is a DCPO with a [[bottom element]] (which is rather more specific than a [[pointed object]] in the category of DCPOs).
+
+DCPOs are studied widely in [[domain theory]].
+
+
 [[!redirects directed join]]
 [[!redirects directed meet]]
 [[!redirects codirected meet]]
