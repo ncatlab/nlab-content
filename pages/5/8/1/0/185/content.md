@@ -473,8 +473,11 @@ See also the references at [[Fermat theory]], of which $C^\infty$-rings are a se
 And the references at [[super smooth topos]], which involves generalizations of $C^\infty$-rings to [[supergeometry]].
 
 
+[[!redirects generalized smooth algebra]]
 [[!redirects generalized smooth algebras]]
 [[!redirects C-infinity-ring]]
 [[!redirects C-infinity ring]]
+[[!redirects C-infinity-rings]]
+[[!redirects C-infinity rings]]
 [[!redirects smooth algebra]]
 [[!redirects smooth algebras]]
