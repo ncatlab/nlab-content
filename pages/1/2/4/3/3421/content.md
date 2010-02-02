@@ -34,8 +34,9 @@ This entry surveys the _category theory of $(\infty,1)$-categories_ .
 
 * [[(∞,1)-category of (∞,1)-presheaves]]
 
-* [[nLab:terminal object in a quasi-category]]
+* [[opposite quasi-category]]
 
+* [[nLab:terminal object in a quasi-category]]
 
 
 
