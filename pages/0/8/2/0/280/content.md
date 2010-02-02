@@ -1,9 +1,13 @@
-#Definition#
+# Actions
+* table of contents
+{: toc}
 
+
+## Idea
 
 There are various variants of the notion of something _acting_ on something else. They are all closely related.
 
-For an entity $K$ to be able to act on anything else in the first place, $K$ needs to have some notion of composition or product with itself. Quite generally this is modeled by realizing $K$ as an [[n-category]] of sorts. In particular, if $K$ is a monoidal entity with a product $K \otimes K \to K$ there is usually a one-object category $\mathbf{B} K$ which encodes the same information.
+For an entity $K$ to be able to act on anything else in the first place, $K$ needs to have some notion of composition or product with itself. Quite generally this is modeled by realizing $K$ as an [[n-category]] of sorts. In particular, if $K$ is a monoidal entity with a product $K \otimes K \to K$ there is usually a [[delooping]] $\mathbf{B} K$ which encodes the same information.
 
 From this perspective one fundamental way to realize an action of some entity $K$ on some entity in the [[category]] or [[n-category]] $C$ is an ($n$-)functor
 
@@ -16,11 +20,12 @@ $$
 $$
 
 
-Here the collection $\sqcup_{k \in Obj(k)} \rho(k)$ of objects in $C$ in the image of objects of $K$ is "what $K$ is acting on" and the images of the morphisms in $K$ under $\rho$ produce the action itself.
+Here the collection $\coprod_{k \in Obj(k)} \rho(k)$ of objects in $C$ in the image of objects of $K$ is "what $K$ is acting on" and the images of the morphisms in $K$ under $\rho$ produce the action itself.
 
-##Action of a group ##
 
-An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[group homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the [[automorphism group]] of $x$.  
+## Actions of a group
+
+An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[representation]] of $G$ on $x$, that is a group [[homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the [[automorphism group]] of $x$.  
 
 
 As indicated above, a more sophisticated but equivalent definition treats the group $G$ as a category denoted $\mathbf{B} G$ with one object, say $*$.  Then an _action_ of $G$ in the category $C$ is just a [[functor]] 
@@ -28,7 +33,7 @@ $$\rho : \mathbf{B} G \to C.$$
 Here the object $x$ of the previous definition is just $\rho(*)$. 
 
 
-## Action of a monoid ##
+## Actions of a monoid
 
 More generally we can define an _action_ of a [[monoid]] $M$ in the category $C$ to be a functor
 $$\rho: \mathbf{B} M \to C $$
@@ -36,7 +41,7 @@ where $\mathbf{B} M$ is (again) $M$ regarded as a one-object category.
 
 The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^{\mathbf{B} M}$.
 
-## Action of a category ##
+## Actions of a category
 
 One can also define an [[action of a category on a set|action of a category]] $D$ on the category $C$ as a functor from $C$ to $D$, but usually one just calls this a [[functor]].
 
@@ -49,4 +54,6 @@ Yes, I think certainly all those types of action should eventually be described 
 
 =--
 
+
+[[!redirects action]]
 [[!redirects actions]]
