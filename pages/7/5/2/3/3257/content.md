@@ -1,73 +1,20 @@
-# Canonical transformations
+# Canonical morphisms
 * table of contents
 {: toc}
 
 
 ## Idea
 
-The concept of [[natural transformation]], besides being the natural notion of [[morphism]] in a [[functor category]], was also an attempt by Eilenberg and Mac Lane (as founders of [[category theory]]) to make precise the term 'natural'.  For example, there is a map from a [[vector space]] $V$ to its double dual $V^{**}$ given by a natural transformation between the [[identity functor]] and double dual functors on $Vect$, and this map seems natural in that it can be described in very general way; other terms that one might use besides 'natural' are 'canonical', 'basis/coordinate--free/independent', and 'generally covariant'.  On the other hand, none of the maps from $V$ to $V^*$ in the general case (although there are many) seem particularly natural, and there is no natural transformation from the identity functor to the single dual functor.
+A canonical morphism is a [[morphism]] which is equivariant under an [[automorphism group]], with [[actions]] mediated by two [[functors]].  It may be seen as a [[natural transformation]] in a particular context.  Conversely, canonical morphisms can be combined into a notion of transformation more general than a natural transformation, although this also may be seen as a natural transformation in a particular context.
 
-However, not every transformation that appears naturally is given by a natural transformation, at least not involving the obvious categories.  Besides natural transformations, we have [[dinatural transformations]] (including [[extranatural transformations]]), and there are constructions that are neither natural nor dinatural.
+This usage of the word 'canonical' is due to [[Jim Dolan]].  In general, this term is often used in mathematics to mean that the result of a construction may be specified using only the data at hand, without making arbitrary choices.  The idea behind using the word here is, roughly, that only canonical morphisms may be specified (in the situations in which they appear) without [[evil]].  (Both avoiding arbitrary choices and avoiding evil are related to avoiding the [[axiom of choice]], but that does not seem to be directly relevant.)
 
-Arguably, the general coherent (and non-[[evil]]) notion is very similar to a natural transformation but involves only the [[isomorphisms]] in one of the two relevant categories (the [[source]] category).  [[Jim Dolan]] has suggested the term 'canonical' in this respect.  Thus every natural transformation is canonical, but not every canonical transformation is natural.
-
-Another term for canonical transformations is 'core-natural', which is justified by [the first alternative characterisation](#asNatural) below.  To avoid confusion with [[canonical coordinate transformation]]s, one can also use 'canonical map' or 'canonical morphism'.
+Arguably, 'natural' would be a better term for this intuition, but canonical morphisms are more general than the natural transformations that appear in the same contexts, so that word is taken.  Another possible term is 'core-natural' or 'groupoid-natural', since (as will be seen below) canonical morphisms may be interpreted as natural transformations between functors restricted to the [[core]] (underlying [[groupoid]]) of a given category.  The terms 'basis/coordinate--free/invariant' and 'generally covariant' also capture the same intuition, although these tend to be restricted to certain disciplines (linear algebra, geometry, physics).
 
 
-## Warnings
+## Definitions
 
-This formalisation is far from accepted, even the regulars on this wiki.  There is nothing wrong with the definition itself; the question is whether anything like this really captures the meaning of 'canonical'.
-
-Some arguments for this terminology may be found in the examples below, as well as in the Usenet thread in the references.
-
-Do not confuse these with the [[canonical coordinate transformation]]s in [[symplectic geometry]] and [[Hamiltonian mechanics]].
-
-
-## Definition
-
-Given [[categories]] $C$ and $D$ and [[functors]] $F\colon C \to D$ and $G\colon C \to D$, a __canonical transformation__ $\eta\colon F \to G$ consists of a family of [[morphisms]] of $D$ indexed by the [[objects]] of $C$:
-
-$$ \eta(x)\colon F(x) \to G(x) ,\;\;\; x\colon C ,$$
-
-such that the following diagram commutes for every [[isomorphism] in $C$:
-
-$$ \array {
-   F(x)            & \overset{\eta(x)}\to  & G(x) \\
-   F(u) \downarrow &                       & \downarrow G(u) \\
-   F(y)            & \underset{\eta(y)}\to & G(y)
-},\;\;\; u\colon x \overset{\sim}\to y\colon C .$$
-
-Note that, while $u$ must be an isomorphism, $\eta(x)$ need not be.
-
-Although above we have required $F,G$ to be functors on all of $C$, they are only ever applied to isomorphisms; thus, the definition still makes sense if $F,G$ are defined only on the [[core]] of $C$.
-
-
-## Alternative charactersiations
-
-### As natural transformations
-{#asNatural}
-
-A canonical transformation can be understood as a special kind of natural transformation.  Given $F, G\colon C \to D$ as in the definition, we can restrict $F$ and $G$ to the [[core]] (underlying groupoid) $\tilde{C}$ of $C$ to produce $\tilde{F}, \tilde{G}\colon \tilde{C} \to D$.  Then a canonical transformation from $F$ to $G$ is precisely a natural transformation from $\tilde{F}$ to $\tilde{G}$.  For this reason, canonical transformations may also be described as 'core-natural'.
-
-In particular, if $C$ is already a [[groupoid]], then every canonical transformation between functors out of $C$ is natural.
-
-If we extend the definition of canonical transformation to allow $F,G$ to be defined originally only on the core of $C$, then there is no need for the term 'canonical transformation' at all; we simply have a natural transformation from $F$ to $G$.
-
-Accordingly, the main use of the term 'canonical' (as opposed to 'natural') is when $F,G$ are *not* explicitly given.  Instead, we may say that a certain expression for a morphism in $D$, involving a variable for an object in $C$, is 'canonical' in that variable, as a weaker condition than saying that the expression is 'natural' in that variable.
-
-
-### As functors
-
-Recall that every natural transformation between functors from $C$ to $D$ is given by a [[functor]] from $C$ to the [[arrow category]] $Arr D$; indeed, a functor $C \to Arr D$ specifies both the natural transformation and the functors that it goes between.
-
-In a similar vein, a canonical transformation between functors from $\tilde{C}$ to $D$ is given by a functor from $\tilde{C}$ to $Arr D$.  As such, a canonical transformation is the general coherent notion of an operation from an object of $C$ to a morphism of $D$.
-
-
-## Canonical morphisms
-
-The notion of canonical transformation can be applied to single morphisms.  Given functors $F,G\colon C \to D$ as before and any object $x$ of $C$, a morphism from $F(x)$ to $G(x)$ is __canonical__ (with respect to the data $x,F,G$) if it forms a canonical morphism from the restricted functors $F|_x, G|_x\colon Aut_C(x) \to D$, where $Aut_C(x)$ is the [[automorphism group]] of $x$ in $C$, thought of (via [[delooping]]) as a category with one object.
-
-In more elementary terms, the morphism $h\colon F(x) \to G(x)$ is canonical if, given any automorphism $u\colon x \to x$, the diagram
+Given [[categories]] $C$ and $D$, [[functors]] $F, G\colon C \to D$, and an [[object]] $x$ of $C$, a __canonical morphism__ from $F(x)$ to $G(x)$ is a [[morphism]] $h\colon F(x) \to G(x)$ in $D$ such that the diagram
 
 $$ \array {
    F(x)            & \overset{h}\to  & G(x) \\
@@ -75,9 +22,34 @@ $$ \array {
    F(x)            & \underset{h}\to & G(x)
 } $$
 
-commutes.
+commutes for any [[automorphism]] $u$ of $x$ in $C$.
 
-Of course, a canonical transformation from $F$ to $G$ defines a canonical morphism from $F(x)$ to $G(x)$ for every object $x$ of $C$.  Conversely, if there exists at least one canonical morphism from $F(x)$ to $G(x)$ for every object $x$ of $C$, then there is a canonical transformation from $F$ to $G$, assuming the [[axiom of choice]].
+As $F$ and $G$ are only ever applied to [[isomorphisms]], this definition makes sense even when they are defined only on the [[core]] of $C$.  In fact, as they are applied only to $x$ and its automorphisms, the definition makes sense when they are defined only on the $Aut_C(x)$, the [[automorphism group]] of $x$ in $C$.  In that case, $F$ and $G$ are [[representations]] of $Aut_C(x)$ in $D$, and a canonical morphism is precisely an [[intertwiner]] between these representations.
+
+In the other direction, we can consider a family of canonical morphisms, one for each object of $C$, which are coherent in the sense that
+
+$$ \array {
+   F(x)            & \overset{h_x}\to  & G(x) \\
+   F(u) \downarrow &                   & \downarrow G(u) \\
+   F(y)            & \underset{h_y}\to & G(y)
+} $$
+
+commutes for every [[isomorphism]] $u\colon x \to y$ in $C$.  Such a family may be called a __canonical transformation__ from $F$ to $G$, although this should not be confused with a [[canonical coordinate transformation]].  Note that every natural isomorphism is canonical, but not conversely.  The main use of having a term like 'canonical' at all is to say that an expression for a morphism in $D$, involving a variable for an object in $C$, is 'canonical' in that variable, as a weaker condition than saying that the expression is 'natural' in that variable.
+
+By the [[axiom of choice]], if there exists a canonical morphism from $F(x)$ to $G(x)$ for every object $x$, then there exists a canonical transformation from $F$ to $G$ (the converse is obvious).  Actually, this does not require the full axiom of choice; it uses only ... (that groupoid-relevant version, I need to find its name).
+
+
+## Alternative characterisations
+{#asNatural}
+
+As remarked above, [[intertwiner|intertwiners]] between [[representations]] of [[groups]] may be seen as canonical morphisms between functors defined on (the [[delooping]] of) a group.  Conversely, we may *define* a canonical morphism from $F(x)$ to $G(x)$ to be an intertwiner between the restrictions of $F$ and $G$ to the [[automorphism group]] of $x$, thought of as representations of that group.
+
+Simlarly, we may *define* a canonical transformation from $F$ to $G$ to be a [[natural transformation]] between the restrictions of $F$ and $G$ to the [[core]] $\tilde{C}$ of $C$.  This is the origin of the alternative term 'core-natural transformation'.
+
+Finally, we note that just as every natural transformation between functors $F,G\colon C \to D$ defines a [[functor]] from $C$ to the [[arrow category]] $Arr D$ (and conversely), so a canonical transformation between such functors defines a functor from $\tilde{C}$ to $Arr D$ (and conversely if we allow the functors to be defined only on isomorphisms).
+
+
+***
 
 
 ## Examples
@@ -104,9 +76,15 @@ The notion for higher functors makes a prominent appearance in [[Chris Schommer-
 * [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
 
 
+[[!redirects canonical transformation]]
 [[!redirects canonical transformations]]
 
 [[!redirects canonical map]]
+[[!redirects canonical maps]]
 [[!redirects canonical morphism]]
+[[!redirects canonical morphisms]]
 
 [[!redirects core-natural transformation]]
+[[!redirects core-natural transformations]]
+[[!redirects groupoid-natural transformation]]
+[[!redirects groupoid-natural transformations]]
