@@ -427,33 +427,50 @@ The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$
 =--
 
 
-## References
+## References {#References}
 
 A standard textbook reference is chapter 1 of
 
 * [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
-The concept was introduced in
+The concept of $C^\infty$-rings in particular and that of [[synthetic differential geometry]] in general was introduced in
 
-* Lawvere, _Categorical dynamics_ in _Topos theoretic methods in geometry_, volume 30 of _Various Publ. Ser._, pages 1-28, Aarhus Univ. (1997)
+* [[Bill Lawvere]], _Categorical dynamics_ 
+
+  in [[Anders Kock]] (eds.) _Topos theoretic methods in geometry_, volume 30 of _Various Publ. Ser._, pages 1-28, Aarhus Univ. (1997)
 
 but examples of the concept are older. A discussion from the point of view of [[functional analysis]] is in 
 
-* G. Kainz, A. Kriegl, P. Michor, _$C^\infty$-algebras from the functional analytic view point_ Journal of pure and applied algebra 46 (1987) ([pdf](http://www.mat.univie.ac.at/~michor/c-oo-alg.pdf))
+* G. Kainz, A. Kriegl, [[Peter Michor]], _$C^\infty$-algebras from the functional analytic view point_ Journal of pure and applied algebra 46 (1987) ([pdf](http://www.mat.univie.ac.at/~michor/c-oo-alg.pdf))
 
-A first develoment of Lawvere's ideas is
+A characterization of those $C^\infty$-rings that are algebras of smooth functions on some smooth [[manifold]] is given in 
 
-* E. Dubuc, _$C^\infty$-schemes_ Amer. J. Math. 103 (1981) .
+* [[Peter Michor]], [[Jiri Vanzura]], _Characterizing algebras of $C^\infty$-functions on manifolds_ ([pdf](http://www.emis.de/journals/CMUC/pdf/cmuc9603/michor.pdf))
 
-Similar discussion is in
+Lawvere's ideas were later developed by [[Eduardo Dubuc]], [[Anders Kock]], [[Gonzalo Reyes]], and [[Gavin Wraith]]. 
+
+Synthetic spaces locally isomorphic to smooth loci were discussed in
+
+* [[Eduardo Dubuc]], _$C^\infty$-schemes_ Amer. J. Math. 103 (1981) ([pdf](http://www.math.ist.utl.pt/~jroquet/Dubuc.pdf) [JSTOR](http://www.jstor.org/stable/select/2374046)).
+
+and more recently in
 
 * [[Dominic Joyce]], _Algebraic geometry over $C^\infty$-rings_ ([arXiv:1001.0023](http://arxiv.org/abs/1001.0023))
 
-A brief but useful review and further context is also on p. 3 of
 
-* [[David Spivak]], _Quasi-Smooth derived manifolds_ ([pdf](http://www.uoregon.edu/~dspivak/thesis2.pdf))
+The [[higher geometry]] generalization to a theory of [[derived smooth manifold]]s -- [[space]]s with [[structure sheaf]] taking values in [[simplicial C∞-ring]]s -- was initiated in
+
+* [[David Spivak]], _Quasi-Smooth derived manifolds_ 
+  ([pdf of original version](http://www.uoregon.edu/~dspivak/thesis2.pdf), [arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
+
+based on the general machinery of [[structured (∞,1)-topos]]es in
+
+* [[Jacob Lurie]], _[[Structured Spaces]]_
+
+where this is briefly mentioned in the very last paragraph.
 
 See also the references at [[Fermat theory]], of which $C^\infty$-rings are a sepcial case. And the references at [[smooth locus]], the formal dual of a $C^\infty$-ring.
+And the references at [[super smooth topos]], which involves generalizations of $C^\infty$-rings to [[supergeometry]].
 
 
 [[!redirects generalized smooth algebras]]
