@@ -73,7 +73,6 @@ They occured as  [[weak Kan complex]]es in
 
 Vogt's main theorem involved a category of [[homotopy coherent diagram|homotopy coherent diagrams]] defined on a topologically enriched category and showed it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
 
-
 Cordier in
 
 * J.-M. Cordier, _Sur la notion de diagramme homotopiquement coh&#233;rent_, Cahiers de Top. 
@@ -85,8 +84,14 @@ defined a [[homotopy coherent nerve]] of any [[simplicially enriched category]],
 Math. Proc. Cambridge Philos. Soc., 100, (1986), 65&#8211;90, 
 
 it was shown that this homotopy coherent nerve was a quasi-category if the simplicial enrichment was by Kan complexes.
+
+A systematic study of SSet-enriched categories in this context is in
+
+* J-M Cordier, [[Tim Porter]] _Homotopy coherent category theory_ Trans. Amer. Math. Soc. 349
+(1997), no. 1, 1-54. ([pdf](http://www.ams.org/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+
  
-Their importance as a basis for [[category theory]] has been emphasized in the work by [[André Joyal]]
+The importance of quasi-categories as a basis for [[category theory]] has been particularly emphasized in the work by [[André Joyal]]
 
 * [[André Joyal]], _Quasi-categories and Kan complexes_, J. Pure Appl. Algebra, 175 (2002), 207-222.
 
