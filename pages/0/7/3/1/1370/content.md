@@ -1,5 +1,7 @@
 Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du Qu&#233;bec &#224; Montr&#233;al. His wide mathematical work, is mainly in [[category theory]], [[topos]] theory and abstract [[homotopy theory]]. His works include a wide generalization of [[Galois theory]] with M. Tierney, the combinatorial ideas of "Joyal's [[species]]", the discovery of Kripke-Joyal semantics, a series of works (mainly with [[Ross Street]]) about (braided, tortile etc.) [[monoidal category|monoidal categories]] prompted partly by methods and motivation in theoretical physics, much of his work for about last 30 years centered on developing the theory of [[quasicategory|quasicategories]], after the first ideas of Boardman and Vogt. In 1980-s Joyal has invented a Quillen [[model category]] [[model structure on simplicial sets|structure on the category of simplicial sets]] (and [[model structure on simplicial presheaves|categories of simplicial presheaves]]). Joyal and J. Kock more recently proved [[Simpson's conjecture]] (on higher categories via weak units) in categorical dimension 3. 
 
+Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new project at [[joyalscatlab:HomePage|joyalscatlab]].
+
 [webpage](http://www.professeurs.uqam.ca/pages/joyal.andre.htm), [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Joyal)
 
 * A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc.  __51__  (1984),  no. 309, vii+71 pp.
