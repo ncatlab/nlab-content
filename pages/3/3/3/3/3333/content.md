@@ -154,19 +154,21 @@ $$
   Maps_C(S^1_{C},X) : U \mapsto C(S^1_C \times U, X)
 $$
 
-on $C$. The natural [[action]] of $S^1_{C}$ on itself induces the **categorical circle action**
-
+on $C$. The natural [[action]] of the monoid $End_C(S^1_{C})$ on $S^1_{C}$ itself induces an action 
 $$
-  S^1_C \times Maps_C(S^1_{C},X) \to Maps_C(S^1_{C},X)
+  End_C(S^1_{C}) \times Maps_C(S^1_{C},X) \to Maps_C(S^1_{C},X)
 $$
-
-which again by Yoneda gives an action
-
+and, assuming $C$ is closed, again by Yoneda this gives an action
 $$
-  S^1_C \times \mathcal{L}X \to \mathcal{L}X
+  End_C(S^1_{C}) \times \mathcal{L}X \to \mathcal{L}X.
 $$
+Since the action of $End_C(S^1_{C})$ on $\mathcal{L}X$ is just precomposition with a morphism, one sees that if $f:X\to Y$ is a morphism in $C$, then the induced morphism $\mathcal{L}f:\mathcal{L}X\to\mathcal{L}Y$ is $End_C(S^1_{C})$-equivariant.
 
-on $\mathcal{L}X$. When $C=$ [[Top]] this action is the usual _rotation of the loops_ in $X$.
+Restriction to the subgroup $Aut_{0,C}(S^1_C)\subseteq End_C(S^1_{C})$ consisting of automorphisms of $S^1_C$ homotopy equivalent to the identity, gives the **categorical circle action**
+$$
+  Aut_{0,C}(S^1_C) \times \mathcal{L}X \to \mathcal{L}X
+$$
+on $\mathcal{L}X$. When $C=$ [[Top]] this action is the usual _rotation of the loops_ in $X$; indeed, the connected component of the identity in the group of topological automorphisms of $S^1$ is homotopically equivalent to the subgroup of rigid rotations.
 
 
 #### Details {#DetailsCircAct}
@@ -176,20 +178,19 @@ Here is what this categorical circle action looks like in more detail:
 
 > [[Urs Schreiber]]: not clear yet how useful the following is for the above...
 
-we use the [[delooping]] [[groupoid]] $\mathbf{B}\mathbb{Z}$ of the additive [[group]] $\mathbb{Z}$ of integers for simplicity, as a model for $S^1_C$. The [[automorphism]]s of this object form the [automorphism 2-group](http://ncatlab.org/nlab/show/2-group#automorphism_2groups_8)
-
+we use the [[delooping]] [[groupoid]] $\mathbf{B}\mathbb{Z}$ of the additive [[group]] $\mathbb{Z}$ of integers for simplicity, as a model for $S^1_C$. The [[endomorphism]]s of this object form the category
 $$
-  Aut_C(\mathbf{B}\mathbb{Z}) = AUT(\mathbf{B}\mathbb{Z})
-$$
-
-whose objects are invertible functors $\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}$ and whose morphisms are [[natural transformation]]s between these. The invertible functors come from group automorphisms, hence from multiplication by $\pm 1$
-
-$$
-  [\pm 1] : \mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}
+  END(\mathbf{B}\mathbb{Z})
 $$
 
+whose objects are functors $\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}$ and whose morphisms are [[natural transformation]]s between these. The functors come from group homomorphisms, hence from multiplication by $n\in\mathbb{Z}$
+
 $$
-  (\bullet \stackrel{k}{\to} \bullet) \mapsto (\bullet \stackrel{\pm k}{\to} \bullet).
+  [n] : \mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}
+$$
+
+$$
+  (\bullet \stackrel{k}{\to} \bullet) \mapsto (\bullet \stackrel{n\cdot k}{\to} \bullet).
 $$
 
 Natural transformations between two such automorphisms are given by a component $\ell \in \mathbb{Z}$ such that all diagrams
@@ -204,14 +205,19 @@ $$
   }
 $$
 
-commute in $\mathbf{B}\mathbb{Z}$, where $n,n'\in\{\pm 1\}$. This can happen only for $n = n'$, but then it happens for arbitrary $\ell$. In other words we have
+commute in $\mathbf{B}\mathbb{Z}$. This can happen only for $n = n'$, but then it happens for arbitrary $\ell$. In other words we have
 
 $$
-  AUT(\mathbf{B}\mathbb{Z}) \simeq \mathbf{B}\mathbb{Z} \coprod \mathbf{B} \mathbb{Z}
+  END(\mathbf{B}\mathbb{Z}) \simeq \coprod_{\mathbb{Z}}\mathbf{B}\mathbb{Z}
+  \,.
+$$
+and 
+$$
+AUT_0(\mathbf{B}\mathbb{Z}) \simeq \mathbf{B}\mathbb{Z}
   \,.
 $$
 
-The object $[n]$ in this [[2-group]] corresponds to the diffeomorphism of the circle onto itself that fixes the basepoint and has winding number $n \in \{\pm 1\}$. The transformation $\ell$ corresponds then to a rigid rotation of the loop by $\ell$ full circles
+The object $[n]$ corresponds to the self-mapping of the circle onto itself that fixes the basepoint and has winding number $n\in\mathbb{Z}$. The transformation $\ell$ corresponds then to a rigid rotation of the loop by $\ell$ full circles
 
 Notably for $n = 1$ and $k = 1$ we may think of the diagram
 
@@ -251,7 +257,7 @@ $$
   \,.
 $$
 
-Precomposing this with the automorphism $\ell$ of the objec $[n]$ in $AUT(\mathbf{B}\mathbb{Z})$
+Precomposing this with the automorphism $\ell$ of the object $[n]$ in $END(\mathbf{B}\mathbb{Z})$
 
 $$
   \array{
@@ -294,7 +300,10 @@ $$
   }
 $$
 
-in $\mathbf{B}\mathbb{Z}$, hence the morphism $(g^n \stackrel{g^{\ell} h}{\to} Ad_h g^n)$ in $G//G$.
+in $\mathbf{B}\mathbb{Z}$, hence the morphism $(g^n \stackrel{g^{\ell} h}{\to} Ad_h g^n)$ in $G//_{Ad}G$. In particular, the categorical circle action is 
+$$
+\ell:(g \stackrel{h}{\to} Ad_h g)\mapsto (g \stackrel{g^{\ell} h}{\to} Ad_h g).
+$$ 
 
 
 
