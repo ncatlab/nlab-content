@@ -185,7 +185,7 @@ $$
 whose objects are invertible functors $\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}$ and whose morphisms are [[natural transformation]]s between these. The invertible functors come from group automorphisms, hence from multiplication by $\pm 1$
 
 $$
-  [n] : \mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}
+  [\pm 1] : \mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}
 $$
 
 $$
@@ -204,7 +204,7 @@ $$
   }
 $$
 
-commute in $\mathbf{B}\mathbb{Z}$. This can happen only for $n = n'$, but then it happens for arbitrary $\ell$. In other words we have
+commute in $\mathbf{B}\mathbb{Z}$, where $n,n'\in\{\pm 1\}$. This can happen only for $n = n'$, but then it happens for arbitrary $\ell$. In other words we have
 
 $$
   AUT(\mathbf{B}\mathbb{Z}) \simeq \mathbf{B}\mathbb{Z} \coprod \mathbf{B} \mathbb{Z}
