@@ -28,6 +28,9 @@ Some or all of these have analogs in [[higher category theory]], notably in [[(â
 
 [[!redirects universal construction]]
 [[!redirects universal constructions]]
+[[!redirects universal mapping]]
+[[!redirects universal mappings]]
+
 [[!redirects universal property]]
 [[!redirects universal properties]]
 [[!redirects universal mapping property]]
