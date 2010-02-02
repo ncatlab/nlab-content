@@ -4,7 +4,7 @@
 
 ## Idea
 
-For $C$ an ordinary [[category]] and $c \in C$ an [[object]] of $C$, the ordinary [[over category]] $C\downarrow c$ satisfies the universal property that for any other category $C'$ there is a natural equivalence of categories
+For $C$ an ordinary [[category]] and $c \in C$ an [[object]] of $C$, the ordinary [[over category]] $C\downarrow c$ satisfies the universal property that for any other category $C'$ there is a natural [[equivalence of categories]]
 
 $$
   Hom(C',C\downarrow c) \simeq
