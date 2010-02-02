@@ -41,7 +41,7 @@ This entry surveys the _category theory of $(\infty,1)$-categories_ .
 
 ## Universal constructions {#UniversalConstructions}
 
-The [[universal construction]]s of [[category theory]] generalize, with unique existence of universal morphisms replaced by the requirement of a _contractible space_ of universal morphisms.
+The [[universal construction]]s of [[category theory]] generalize, with unique existence of universal morphisms replaced by the requirement of a _[[contractible space]]_ of universal morphisms.
 
 * [[limit in a quasi-category]]
 
