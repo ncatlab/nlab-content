@@ -2,7 +2,15 @@
 
 Mostowski's lemma can be proven in [[ZF]] set theory using the [[axiom of replacement]] and [[axiom of separation]].  In set theories that are not powerful enough to prove the lemma, it can be adopted as a separate axiom; in this case it is sometimes called **Mostowski's principle**.
 
+
 category: foundational axiom
 
+[[!redirects Mostowski's collapsing lemma]]
 [[!redirects Mostowski's lemma]]
 [[!redirects Mostowski's principle]]
+[[!redirects Mostowski's collapsing lemma]]
+[[!redirects Mostowski's lemma]]
+[[!redirects Mostowski's principle]]
+[[!redirects Mostowski collapsing lemma]]
+[[!redirects Mostowski lemma]]
+[[!redirects Mostowski principle]]
