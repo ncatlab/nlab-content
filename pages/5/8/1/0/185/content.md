@@ -447,7 +447,11 @@ A characterization of those $C^\infty$-rings that are algebras of smooth functio
 
 * [[Peter Michor]], [[Jiri Vanzura]], _Characterizing algebras of $C^\infty$-functions on manifolds_ ([pdf](http://www.emis.de/journals/CMUC/pdf/cmuc9603/michor.pdf))
 
-Lawvere's ideas were later developed by [[Eduardo Dubuc]], [[Anders Kock]], [[Gonzalo Reyes]], and [[Gavin Wraith]]. 
+Lawvere's ideas were later developed by [[Eduardo Dubuc]], [[Anders Kock]], [[Ieke Moerdijk]], [[Gonzalo Reyes]], and [[Gavin Wraith]]. 
+
+Studies of the properties of $C^\infty$-rings include 
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[RingsOfSmoothFunctionsI.pdf:file]]_ , Journal of Algebra 99 (1986)
 
 Synthetic spaces locally isomorphic to smooth loci were discussed in
 
