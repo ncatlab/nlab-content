@@ -1,7 +1,11 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
-For any category $S$ with pullbacks, it is easy to define the notion of [[internal category|category]] in $S$, and the definition of an internal [[functor]] between such is similarly straightforward.  But it is not so obvious how to define [[presheaf|presheaves]] on internal categories, because they must land in the ambient category $S$.
+For any [[category]] $S$ with pullbacks, it is easy to define the notion of [[internal category|category in]] $S$, and the definition of an internal [[functor]] between such is similarly straightforward.  But it is not so obvious how to define [[presheaf|presheaves]] on internal categories, because they must land in the ambient category $S$.
 
 The solution lies in thinking of presheaves on an ordinary category $C$, and more generally [[profunctor]]s $C &#8696; D$, as giving sets equipped with an _action_ of the arrows of $C,D$, i.e. as their [[category of elements|categories of elements]].
 
