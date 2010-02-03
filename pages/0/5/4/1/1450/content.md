@@ -101,14 +101,16 @@ The idea of axiomaizing [[differential geometry]] using [[topos]] theory origina
 
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
-* E. Dubuc, _Sur la mod&egrave;le de la g&eacute;ometrie diff&eacute;rrentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. XX-3 (1979)
+* [[Eduardo Dubuc]], _Sur la mod&egrave;le de la g&eacute;ometrie diff&eacute;rrentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. XX-3 (1979)
+
+These models are constructed in terms of [[sheaf]] [[topos]]es on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C∞-ring]]s. See there for a detailed list of references.
 
 
 ### Books
 
 The textbooks by [[Anders Kock]]
 
-*  [[Anders Kock]], _Synthetic Differential Geometry_, (pdf link missing)
+*  [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
 *  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
@@ -116,7 +118,7 @@ develop in great detail the theory of [[differential geometry]] using using the 
 
 Somewat complementary to that, the book
 
-* [Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ 
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ 
 
 focuses on concrete constructions of well-adapted models using the technology of [[generalized smooth algebra]]s ($C^\infty$-rings). 
 
