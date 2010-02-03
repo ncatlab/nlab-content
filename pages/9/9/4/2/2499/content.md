@@ -1,7 +1,11 @@
 
 <div class="rightHandSide toc">
+[[!include physicscontents]]
+***
 [[!include supergeometry - contents]]
 </div>
+
+
 
 
 #Contents#
