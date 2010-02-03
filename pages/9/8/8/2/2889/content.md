@@ -86,7 +86,7 @@ whose [[smash product]] is called
 (e.g. [MoVo98, p. 79](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=79)) and which induce a **[bigrading on cohomology](http://ncatlab.org/nlab/show/cohomology#BiGrading):
 
 $$
-  H^{p,q}(X, A) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{\mathbb{A}^1}^{q} A)
+  H^{p,q}(X, A) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{t}^{q} A)
   \,.
 $$
 
