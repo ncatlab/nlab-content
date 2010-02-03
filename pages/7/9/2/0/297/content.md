@@ -95,11 +95,11 @@ More recently, Mike Hopkins and Jacob Lurie claimed
 ([Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
 to have found a complete coherent formalization of topological extended FQFT in the context of [[(infinity,1)-category|(infinity,n)-categories]] using an [[(infinity,n)-category of cobordisms]]. This is described in 
 
-* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]] 
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ 
 
-A very detailed account of this for the 2-dimensional case is presented in
+An explicit account of this for the 2-dimensional case is presented in
 
-* Chris Schommer-Pries, _The Classification of Two-Dimensional Extended Topological Field Theories_, PhD thesis, Berkeley, 2009 ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/my-web-documents/Schommer-Pries-Thesis-5-12-09.pdf?attredirects=0))
+* [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_, PhD thesis, Berkeley, 2009 ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/my-web-documents/Schommer-Pries-Thesis-5-12-09.pdf?attredirects=0))
 
 see also 
 
@@ -111,13 +111,13 @@ see also
 
 In this context Dan Freed is picking up again his old work on higher algebraic structures in quantum field theory, as described in
 
-* Daniel S. Freed, _Quantum Groups from Path Integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
+* [[Dan Freed]], _Quantum Groups from Path Integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
 
-* Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
+* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
 where he argued that and how the path integral should assign $n$-categorical objects to domains of codimension $n$, and is re-expressing this in the $\infty$-functorial context.  (Freed speaks of _multi-tiered_ QFT instead of extended QFT.) 
 
-* Daniel S. Freed, _Remarks on Chern-Simons Theory_ ([arXiv](http://arxiv.org/abs/0808.2507)).
+* [[Dan Freed]], _Remarks on Chern-Simons Theory_ ([arXiv](http://arxiv.org/abs/0808.2507)).
 
 Freed's ideas on how an extended or multi-tiered QFT arises from a path integral coming from a given background field were further formalized in the context of "finite" QFTs in
 
@@ -140,15 +140,8 @@ which realizes $\sigma$-models by homming [[cobordism]] [[cospan]]s into the tot
 
 A similar approach to bring the old work by Dan Freed mentioned above in contact with the picture of extended functorial QFT and the Baez-Dolan-Lurie structure theorem is
 
-* Daniel S. Freed, Michael J. Hopkins, Jacob Lurie, Constantin Teleman, _Topological Quantum Field Theories from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731)).
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ 
 
-A related discussion concerning the construction of an extended FQFT from a higher categorical background field in the context of [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is proposed in 
-
-* [[schreiber:Nonabelian cocycles and their sigma model QFTs]]. 
-
-A discussion of the relation between extended _FQFT_ and [[AQFT]] with further references is in
-
-* Urs Schreiber, _AQFT from $n$-functorial QFT_ ([arXiv](http://arxiv.org/abs/0806.1079)).
 
 ## Super QFT
 
