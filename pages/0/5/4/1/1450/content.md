@@ -105,6 +105,15 @@ The first model for the axioms presented there served to demonstrate that the th
 
 These models are constructed in terms of [[sheaf]] [[topos]]es on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C∞-ring]]s. See there for a detailed list of references.
 
+Transcipts or notes of further talks by Bill Lawvere on the subject are
+
+* [[Bill Lawvere]], _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+
+  (on the description of [[differential equation]]s in terms of synthetic differential geometry)
+
+* [[Bill Lawvere]], _Outline of synthetic differential geometry_ , seminar notes (1998) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/SDG_Outline.pdf))
+
+
 
 ### Books
 
