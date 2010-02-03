@@ -1,10 +1,21 @@
-###Historical Idea (with pedagogic overtones)###
 
-####Representing Groups####
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-The notion of a group of 'operators' was already being used in about 1832 in work by Galois, and others, but there was not a definition of an abstract group until 40 years later when Cayley wrote:
+## Idea
 
-_A group is defined by the law of composition of its members._ 
+The notion of _representation_ is closely related to, or even identical, to that of [[action]]: something that has a notion of composition is _represented_ on something else that has a notion of composition. In this generality _representation_ is just another word for [[functor]]. But in practice the term _representation_ is typically used when very specific functors are considered, notably those that represent a [[group]] by linear endomorphisms of a [[vector space]]. 
+
+This is originally the topic of what is called [[representation theory]], but also the typical tools in representation theory these days involve vast generalizations of the notion of a linear representation of a group. For instance one studies [[D-module]]s on [[action groupoid]]s $G //_{Ad}G$ and things like that. This may be thought of as studying representations with values in [[schreiber:∞-vector bundle|∞-vector space]]s.
+
+###Historical Idea (with pedagogic overtones)
+
+####Representing Groups
+
+The notion of a [[group]] of 'operators' was already being used in about 1832 in work by Galois, and others, but there was not a definition of an abstract group until 40 years later when Cayley wrote:
+
+> _A group is defined by the law of composition of its members._ 
 
 (see the article on [The abstract group concept](http://www-history.mcs.st-and.ac.uk/HistTopics/Abstract_groups.html) in the St Andrews History of Mathematics archive.) Groups as well behaved sets of functions were beginning to be well understood and used, for instance in Klein's work on geometry. Cayley proved that every finite group could be realised as a group of permutations. The theory of representations grew from that.
 
@@ -21,9 +32,7 @@ As you would expect, we can generalise and categorify this basic idea in several
 We can think of $G$ as a groupoid, $\mathbf{B}G$, (the [[delooping]] of $G$), and then a linear representation / action will be a functor from $BG$ to $Vect$, the category of vector spaces over $K$.  We could replace $G$ by a general groupoid, or a general category, but then a representation of that is the same as a diagram of that 'shape' in $Vect$. We could replace $Vect$ by another more general category, or higher category, but if we are thinking of diagrams as representations, perhaps we should not totally forget that the term 'representation' did mean a process whereby the perhaps abstract 'syntactical' objects of the category gain a 'semantic' meaning, as 'operations' of some type, and which in turn, can be usefully used to gain information on the inherent structure. 
 
 
-
-
-###General form###
+## General definition
 
 In a rather general form, we therefore have a __representation__ of a category $C$ in a category $D$ is simply a [[functor]] $F\colon C \to D$.  Similarly, an __intertwiner__ between representations is simply a [[natural transformation]] between functors when they are being thought of as representations.
 
