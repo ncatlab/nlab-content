@@ -1,11 +1,38 @@
-In a rather general form, a __representation__ of a category $C$ in category $D$ is simply a [[functor]] $F\colon C \to D$.  Similarly, an __intertwiner__ between representations is simply a [[natural transformation]] between functors when they are being thought of as representations.
+###Historical Idea (with pedagogic overtones)###
+
+####Representing Groups####
+
+The notion of a group of 'operators' was already being used in about 1832 in work by Galois, and others, but there was not a definition of an abstract group until 40 years later when Cayley wrote:
+
+_A group is defined by the law of composition of its members._ 
+
+(see the article on [The abstract group concept](http://www-history.mcs.st-and.ac.uk/HistTopics/Abstract_groups.html) in the St Andrews History of Mathematics archive.) Groups as well behaved sets of functions were beginning to be well understood and used, for instance in Klein's work on geometry. Cayley proved that every finite group could be realised as a group of permutations. The theory of representations grew from that.
+
+An abstract group could be studied by mapping it into a group of permutations or of invertible matrices, as then you could bring techniques form one area of mathematics (linear algebra) to the assistance of another, the Theory of Abstract Groups. This was exploited fully by Frobenius, Burnside, Schur and later Bauer.
+
+That is one theme: you take an abstract algebraic thing and study it by mapping it into a similar structure which you think you know more about!
+
+This also uses another basic idea from the start of group theory.  The earlier pioneers thought of groups as groups of 'operators', but that means they have to operate on something. To make things more explicit, let $G$ be a finite group then we know there are homomorphisms from $G$ into $S_n$. (We could take $n$ to be the order of the group and use Cayley's theorem but we do not assume that is the case.) If we look at such a homomorphism we get an [[action]] of $G$ on an $n$-element set.
+
+Similarly if we take a homomorphism from $G$ into a group of invertible matrices $Gl_n(K)$, for $K$ a field, say, then we get a linear action of $G$ on the vector space, $K^n$.
+
+As you would expect, we can generalise and categorify this basic idea in several useful ways.
+
+We can think of $G$ as a groupoid, $\mathbf{B}G$, (the [[delooping]] of $G$), and then a linear representation / action will be a functor from $BG$ to $Vect$, the category of vector spaces over $K$.  We could replace $G$ by a general groupoid, or a general category, but then a representation of that is the same as a diagram of that 'shape' in $Vect$. We could replace $Vect$ by another more general category, or higher category, but if we are thinking of diagrams as representations, perhaps we should not totally forget that the term 'representation' did mean a process whereby the perhaps abstract 'syntactical' objects of the category gain a 'semantic' meaning, as 'operations' of some type, and which in turn, can be usefully used to gain information on the inherent structure. 
+
+
+
+
+###General form###
+
+In a rather general form, we therefore have a __representation__ of a category $C$ in a category $D$ is simply a [[functor]] $F\colon C \to D$.  Similarly, an __intertwiner__ between representations is simply a [[natural transformation]] between functors when they are being thought of as representations.
 
 The term 'representation' is most often used when one or more of the following conditions apply:
 *  $D$ is the category $k$-[[Vect]] of vector spaces over some [[field]] $k$; one then has a __$k$-linear representation__.
 *  $C$ is the [[delooping]] of a [[group]]; one then has a __group representation__ in $D$.  Such a representation gives us a specific object $V$ of $D$; we say that we have a representation of $G$ on $V$.
 *  $C$ is the [[free category]] on a [[quiver]]; one then has a __quiver representation__.
 
-The classical [[representation theory]] of groups is about representations of (topological, smooth etc.) groups on (topological) vector spaces, that is when the first two conditions apply. 
+The classical [[representation theory]] of groups is about representations of (finite, topological, smooth etc.) groups on (topological) vector spaces, that is when the first two conditions apply. 
 
 +-- {: .query}
 I don\'t agree with this $D \coloneqq Aut(V)$ business.  A $k$-linear representation of a group $G$ is a functor from $\mathbf{B}G$ to $k Vect$, period.  Because $\mathbf{B}G$ has one object (or is pointed), we can pick out an object $V$ of $k Vect$, and it was remiss of me not to mention this (and the language '*on* $V$' vs '*in* $D$'.  But we usually don\'t want $D$ to actually *be* $Aut(V)$ instead of $k Vect$; when doing representation theory, we fix $G$ and fix $k$ (or fix $D$ in some other way), but we don\'t fix $V$.  ---Toby
