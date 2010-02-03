@@ -9,11 +9,11 @@
 {:toc}
 
 
-# Idea #
+## Idea 
 
 The [[space]]s of relevance in many applications -- notably in those related to [[physics]] -- crucially carry more structure than plain [[nLab:topological space|topological space]], they carry certain _geometric_ structure, specified by local model spaces.
 
-## geometries ##
+### Geometries 
 
 This may be formalized by fixing an [[(∞,1)-category]]
 $\mathcal{G}$ whose objects we think of as **loci** -- test spaces with which all spaces with $\mathcal{G}$-geometry structure may be probed -- and whose morphisms we think of maps between loci that respect the geometric structure in question.
@@ -49,12 +49,9 @@ where
   
 * $Sch(\mathcal{G})$ are the **$\mathcal{G}$-[[generalized scheme]]s**: those $\mathcal{G}$-structured spaces that are not only probeable by object of $\mathcal{G}$, but are **locally [[nLab:isomorphism|isomorphic]] to objects in $\mathcal{G}$**.
 
-## noncommutative geometries? ##  
-
-Other shades of structures spaces in this hierarchy may be conceivable. For instance the [[stable (∞,1)-category|stable (∞,1)-categories]] that are used in [[noncommutative algebraic geometry]]  -- and there usually modeled in terms of [[triangulated category|triangulated categories]] -- should be on a similar conceptual footing as the petit $(\infty,1)$-toposes above: collections of generalized sheaves that characterize in their totality a certain geometric space.
   
 
-## Structured $(\infty,1)$-toposes ##
+### Structured $(\infty,1)$-toposes 
 
 
 A [[structured (∞,1)-topos]] $T \simeq Sh_\infty(S)$ is 
@@ -97,9 +94,9 @@ topology: $G$ is to be thought of as a category of co-test spaces that are
 topological spaces equipped with extra geometrical structure.
 
 
-# Definition #
+## Definition 
 
-## geometry ##
+### Geometry {#Geometry}
 
 +-- {: .un_remark}
 ###### Summary 
@@ -174,7 +171,7 @@ geometry by regarding it as a discrete geometry in the above way.
 
 
 
-## pregeometry ##
+### Pregeometry {#Pregeometry}
 
 +-- {: .un_defn}
 ###### Definition (pregeometry, [[Structured Spaces|StSp]], 3.1.1)
@@ -206,7 +203,7 @@ pregeometries.
 
 
 
-### smooth morphisms ###
+#### Smooth morphisms
 
 +-- {: .un_defn}
 ###### Definition (smooth morphism, [[Structured Spaces]], 3.1.7)
@@ -255,7 +252,7 @@ admissible morphisms as injections of open subsets.
 
 
 
-## structured $(\infty,1)$-topos ##
+### Structured $(\infty,1)$-topos {#StructTop}
 
 +-- {: .un_defn}
 ###### Definition (geometry structure on an $(\infty,1)$-topos, [[Structured Spaces|StSp]], 1.2.8)
@@ -270,7 +267,7 @@ $$
 
 such that
 
-* $C(-)$ is left [[exact functor|exact]] (preserves finite [[limit]]]s);
+* $C(-)$ is left [[exact functor|exact]] (preserves finite [[limit]]s);
 
 * $C(-)$ satisfies [[codescent]] (the dual notion of [[descent]]): 
   for $\pi : (V = \coprod_i V_i) \to W$ any 
@@ -364,21 +361,21 @@ $$
 
 
 
-# Examples #
+## Examples 
 
-## Deligne-Mumford stacks ##
+### Deligne-Mumford stacks 
 
 There is a geometry $\mathcal{G} = \mathcal{G}_{et}(k)$, the _etale geometry_, such that $\mathcal{G}$-[[generalized scheme]]s that are [[n-localic (∞,1)-topos|1-localic]] are precisely [[Deligne-Mumford stack]]s. See there for more details.
 
-## derived smooth manifolds ##
+### Derived smooth manifolds 
 
 There should be a geometry $\mathcal{G}$ such that $\mathcal{G}$-[[generalized scheme]]s are precisely [[derived smooth manifold]]s.
 
-# References #
+## References 
 
 The general theory is developed in
 
-* **StrSh** [[Jacob Lurie]], [[Structured Spaces]]
+* **StrSh** [[Jacob Lurie]], _[[Structured Spaces]]_
 
 The definition of a **geometry** $\mathcal{G}$ is def. 1.2.5.
 
@@ -405,10 +402,9 @@ $$
 
 is the topic of section 2.4, theorem 2.4.1
 
-The special case of "smoothly structured spaces" called [[derived smooth manifold]] is 
-discussed in 
+The special case of "smoothly structured spaces" called [[derived smooth manifold]] is  discussed in 
 
-* [[David Spivak]], _Derived smooth manifolds_ PhD thesis ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
+* [[David Spivak]], _Derived smooth manifolds_ PhD thesis ([original version pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf) [arXiv:0810.5174](http://arxiv.org/abs/0810.5174)) 
 
 Apart from looking at the special case this article also contains useful introduction
 and details on the general case.
