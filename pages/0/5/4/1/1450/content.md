@@ -83,13 +83,52 @@ The notion of synthetic differential geometry extends to the context of [[superg
 * [[synthetic differential supergeometry]].
 
 
-## Related entries
+## Constructions in synthetic differential geometry {#Constructions}
 
-* [[infinitesimal singular simplicial complex]]
+### Tangent bundle
 
-  * [[differential forms in synthetic differential geometry]]
+The [[tangent bundle]] of an object $X$ in a [[smooth topos]] is just the [[exponential object]] $T X := X^D$. The unique inclusion ${*} \to D$ induces a canonical projection $T X \to X$. A [[section]] $X \to T X$ of that projection is a [[tangent vector]] on $X$. Its [[adjunct]] is a morphism $D \to X^X$ that sends the unique point of $D$ to the identity $Id_X \in X^X$.
 
-  * [[Chevalley-Eilenberg algebra in synthetic differential geomet|Chevalley-Eilenberg algebra in synthetic differential geometry]]
+### Differential equation
+
+A [[differential equation]] is an extension problem in a [[smooth topos]] along a morphism that includes an [[infinitesimal object]] into another object.
+
+For instance the ordinary first order homogeneous differential equationn that aks the derivative of a functor $f : X \to A$ along a [[vector field]] $v : D \to X^X$ to be given by a specified map $\alpha X \to T A$ is given by a diagram of the form
+
+$$
+  \array{
+    D &\stackrel{v}{\to}& X^X
+    \\
+    {}^{\mathllap{\alpha}}\downarrow & \swarrow_{\mathrlap{f}}
+    \\
+    A^X
+  }
+  \,,
+$$
+
+where we have freely identified morphisms with their [[adjunct]]s. See [[differential equation]] for details.
+
+
+### Differential forms
+
+A [[differential form|differential 1-form]] is a morphism $\omega : T X \to R$ that is "fiberwise linear". One elegant way to say this is obtained by considering all higher differential forms at once:
+
+for a sufficiently well behaved object $X$ in a [[smooth topos]], there is the [[simplicial object]] which is the [[infinitesimal singular simplicial complex]] $X^{(\Delta^\bullet_{inf})}$ of $X$. Taking functions on this procudes the [[cosimplicial algebra]] $Hom(X^{\Delta^\bullet_{inf}}, R)$. Its [[Moore complex|normalized Moore cochain complex]] is isomorphic to the [[de Rham complex|de Rham dg-algebra]] of differential forms on $X$:
+
+$$
+  N^\bullet(Hom(X^{(\Delta^{inf}_\bullet)}),R)
+  =
+  \Omega^\bullet_{dR}(X)
+  \,.
+$$
+
+This is discussed at
+
+* [[differential forms in synthetic differential geometry]]
+
+and
+
+* [[Chevalley-Eilenberg algebra in synthetic differential geomet|Chevalley-Eilenberg algebra in synthetic differential geometry]].
 
 
 ## References
@@ -125,7 +164,7 @@ The textbooks by [[Anders Kock]]
 
 develop in great detail the theory of [[differential geometry]] using using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comoprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
 
-Somewat complementary to that, the book
+Somewhat complementary to that, the book
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ 
 
