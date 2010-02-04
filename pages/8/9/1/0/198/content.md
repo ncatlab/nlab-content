@@ -5,13 +5,14 @@
 
 ## Idea
 
-The notion of _representation_ is closely related to, or even identical, to that of [[action]]: something that has a notion of composition is _represented_ on something else that has a notion of composition. In this generality _representation_ is just another word for [[functor]]. But in practice the term _representation_ is typically used when very specific functors are considered, notably those that represent a [[group]] by linear endomorphisms of a [[vector space]]. 
+The notion of _representation_ is closely related to, or even identical, to that of [[action]]: some object $C$ that has a notion of [[composition]] is _represented_ on some object $D$ that has a notion of composition. In this generality _representation_ is just another word for [[functor]] (or potentially $\infty$-[[infinity-functor|functor]]). But in practice the term _representation_ is typically used in the context of [[representation theory]], where attempt to study $C$ in terms of its representations in $D$, where $D$ is typically rather more familiar.
 
-This is originally the topic of what is called [[representation theory]], but also the typical tools in representation theory these days involve vast generalizations of the notion of a linear representation of a group. For instance one studies [[D-module]]s on [[action groupoid]]s $G //_{Ad}G$ and things like that. This may be thought of as studying representations with values in [[schreiber:∞-vector bundle|∞-vector space]]s.
+Most specifically, one studies representations of a [[group]] by linear endomorphisms of a [[vector space]]; that is, $C$ is (the [[delooping]] of) a group and $D$ is [[Vect]].  However, the typical tools in representation theory these days involve vast generalizations of the notion of a linear representation of a group; for instance, one studies [[D-module]]s on [[action groupoid]]s $G //_{Ad}G$ and things like that. This may be thought of as studying representations with values in [[schreiber:∞-vector bundle|∞-vector space]]s.
 
-###Historical Idea (with pedagogic overtones)
 
-####Representing Groups
+##Historical Idea (with pedagogic overtones)
+
+###Representing Groups
 
 The notion of a [[group]] of 'operators' was already being used in about 1832 in work by Galois, and others, but there was not a definition of an abstract group until 40 years later when Cayley wrote:
 
@@ -29,7 +30,7 @@ Similarly if we take a homomorphism from $G$ into a group of invertible matrices
 
 As you would expect, we can generalise and categorify this basic idea in several useful ways.
 
-We can think of $G$ as a groupoid, $\mathbf{B}G$, (the [[delooping]] of $G$), and then a linear representation / action will be a functor from $BG$ to $Vect$, the category of vector spaces over $K$.  We could replace $G$ by a general groupoid, or a general category, but then a representation of that is the same as a diagram of that 'shape' in $Vect$. We could replace $Vect$ by another more general category, or higher category, but if we are thinking of diagrams as representations, perhaps we should not totally forget that the term 'representation' did mean a process whereby the perhaps abstract 'syntactical' objects of the category gain a 'semantic' meaning, as 'operations' of some type, and which in turn, can be usefully used to gain information on the inherent structure. 
+We can think of $G$ as a groupoid, $\mathbf{B}G$, (the [[delooping]] of $G$), and then a linear representation / action will be a functor from $\mathbf{B}G$ to $Vect$, the category of vector spaces over $K$.  We could replace $G$ by a general groupoid, or a general category, but then a representation of that is the same as a diagram of that 'shape' in $Vect$. We could replace $Vect$ by another more general category, or higher category, but if we are thinking of diagrams as representations, perhaps we should not totally forget that the term 'representation' did mean a process whereby the perhaps abstract 'syntactical' objects of the category gain a 'semantic' meaning, as 'operations' of some type, and which in turn, can be usefully used to gain information on the inherent structure. 
 
 
 ## General definition
