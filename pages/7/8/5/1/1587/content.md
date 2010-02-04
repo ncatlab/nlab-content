@@ -1,6 +1,9 @@
-[[!redirects wrapping space]]
-[[!redirects wrapping space]]
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 A **covering space** (or **wrapping space**) is a [[bundle]] $p: E \to B$ in [[Top]] which is locally trivial and with [[discrete space|discrete]] fiber. That is, a map $p: E \to B$ is a covering space over $B$ if for each point $x \in B$, there exists an open neighborhood $U$ of $x$ **evenly covered** by $p$: the [[pullback]] of $p$ over $U$ is isomorphic to a product bundle with discrete fiber $E_x = p^{-1}(x)$: 
 
@@ -14,7 +17,7 @@ U \times E_x & \cong & p^{-1}(U) & \to & E\\
 
 Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$. These can be put together to form a [[replete subcategory|replete]], [[wide subcategory|wide]] subcategory $Cov$ of $Top$, so that $Cov/B$ is an [[over category]], just as the notation suggests.
 
-## Remarks ##
+### Remarks
 
 * Different points in $B$ may have non-isomorphic fibers. However, if open sets $U$ and $V$ are evenly covered by $p: E \to B$ and have nonempty intersection, then there are canonical identifications 
 $$E_x \cong E_z \cong E_y$$ 
@@ -24,7 +27,7 @@ between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. If $B$ i
 
 * The terms "covering space" and "covering projection", while traditional, are certainly not optimal: they mislead by being too close to (open) "[[cover|coverings]]". [[James Dolan]] has suggested "wrapping space" as an alternative (as in the image of thread wrapping around a spool, to evoke the archetypal example of a covering projection, $p: \mathbb{R} \to S^1: x \mapsto \exp(i x)$). 
 
-## Fundamental theorem of covering spaces ## 
+## Fundamental theorem of covering spaces
 
 The connection between covering spaces over $B$ and the [[fundamental group]] $\pi_1(B)$ (for $B$ a [[connected space]]) is very old and runs very deep. An updated account involves shifting attention to [[representation]]s of the [[fundamental groupoid]] $\Pi_1(B)$ (regardless of connectedness); we give a brief outline of the theory here. 
 
@@ -134,7 +137,7 @@ $$Fiber(p: E \to B)(b) = (Cov/B)(\tilde{B}_b, p)$$
 and this forces its left adjoint to be given by the tensor product construction described above. 
 =--
 
-## Special case: the universal covering space ##  
+## Special case: the universal covering space 
 
 As a special case, consider the [[permutation representation]] $\Pi_1(B) \to Set$ given by the discrete fibration 
 
@@ -264,4 +267,15 @@ $$
 or equivalently the slice $Obj(G)\downarrow id_G$ for an internal groupoid $G$ (internal in $Top$, but extensions to other categories work too). The tangent groupoid at a point $g$ is just the subgroupoid of this gotten by pulling back $TG \to Obj(G)$ along the inclusion $\{g\} \to Obj(G)$. I hadn't thought about applying this construction to my personal universal covering space recipe, so maybe we need to take the discrete topology on $Obj(G)$. That's what your pullback square above seems to indicate. Urs' and my paper [arXiv:0708.1741] has stuff on tangent groupoids for anyone who interested in pitching in.
 =--
 
+## Reference
+
+An account of the traditional way to think of the construction of the universal covering space is 
+
+* [[Karl Dahlke]], _Covering spaces, Building a universal cover_ , [Math Reference Project](http://www.mathreference.com/) ([webpage](http://www.mathreference.com/at-cov,build.html))
+
+
+
+[[!redirects covering spaces]]
+[[!redirects wrapping space]]
+[[!redirects wrapping spaces]]
 
