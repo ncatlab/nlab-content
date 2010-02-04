@@ -1,22 +1,36 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
+
 Sometimes for categories having some fixed property and/or structure, one can produce a recipe which gives (up to suitable equivalence) all the examples (and nothing else). 
 
 There are several typical classes of reconstruction theorems (which are all to some extent related).
 
-__Tannakian reconstruction theorems__ reconstruct an algebraic symmetry object (group, [[groupoid]], [[gerbe]], [[Hopf algebra]], Hopf algebroid) from the monoidal category of representations of that object (typically rigid and symmetric or braided). The correspondence between the symmetry object and the corresponding category of representations is called Tannaka duality.
-Examples include classical Tannaka theorem and Krein theorem, Doplicher--Roberts reconstruction theorem in physics, Woronowicz's Tannaka duality for compact matrix pseudogroups, Saavedra-Rivano and Deligne reconstruction theorems for neutral and mixed Tannakian categories, Ulrich's reconstruction theorem, reconstruction theorems of Majid, Nori Tannakian theorem, Grothendieck's version of Galois group in algebraic geometry and so on. The notion of the fiber functor (due Grothendieck) is central to these considerations. 
+## Tannakian reconstruction theorems 
 
-__Reconstruction theorems for schemes__ (or varieties only) reconstruct a [[scheme]] (variety) out of the category of quasicoherent or only coherent sheaves (or a [[derived category]] version of them). In that class one can find Gabriel--Rosenberg theorem, Bondal--Orlov theorem, reconstruction theorems of [P. Balmer](http://www.math.ucla.edu/~balmer) and of [G. Garkusha](http://www-maths.swan.ac.uk/staff/gg) and so on. There is also a class of reconstructions where for some derived categories a realization as derived categories of representation of quivers can be reconstructed.
+These theorems reconstruct an algebraic symmetry object ([[group]], [[groupoid]], [[gerbe]], [[Hopf algebra]], Hopf algebroid) from the [[monoidal category]] of [[representation]]s of that object (typically rigid and [[symmetric monoidal category|symmetric]] or [[braided monoidal category|braided]]). The correspondence between the symmetry object and the corresponding [[category of representations]] is called **Tannaka duality**.
+
+Examples include classical Tannaka theorem and Krein theorem, Doplicher-Roberts reconstruction theorem in physics, Woronowicz's Tannaka duality for compact matrix pseudogroups, Saavedra-Rivano and Deligne reconstruction theorems for neutral and mixed Tannakian categories, Ulrich's reconstruction theorem, reconstruction theorems of Majid, Nori Tannakian theorem, Grothendieck's version of Galois group in algebraic geometry and so on. The notion of the fiber functor (due Grothendieck) is central to these considerations. 
+
+## Reconstruction theorems for schemes
+
+These theorems for schemes (or varieties only) reconstruct a [[scheme]] (variety) out of the category of quasicoherent or only coherent sheaves (or a [[derived category]] version of them). In that class one can find Gabriel--Rosenberg theorem, Bondal--Orlov theorem, reconstruction theorems of [P. Balmer](http://www.math.ucla.edu/~balmer) and of [G. Garkusha](http://www-maths.swan.ac.uk/staff/gg) and so on. There is also a class of reconstructions where for some derived categories a realization as derived categories of representation of quivers can be reconstructed.
 
 There is a large class of __abelian reconstruction theorems__, for example the Gabriel--Popescu theorem. In _topos theory_ the __Giraud theorem__ is also a reconstruction theorem (of a site out of a topos, though a nonuniqueness of the resulting site is involved, not affecting cohomology, hence, according to Grothendieck, nonessential). 
+
+## Lawvere's reconstruction theorem
 
 __[[Lawvere's reconstruction theorem]]__ reconstructs a Lawvere theory $C$ from its category of finitely generated free models. 
 
 Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. Barr embedding theorem and Freyd--Mitchell embedding theorem. 
 
 
-##References##
+##References
 
-* Andr&#233; Joyal, Ross Street, [An introduction to Tannaka duality and quantum groups](http://www.maths.mq.edu.au/~street/CT90Como.pdf), in Part II of _Category Theory, Proceedings, Como 1990_, eds. A. Carboni, M. C. Pedicchio and G. Rosolini,  Lec. Notes in Mathematics __1488__, Springer, Berlin, 1991, pp. 411&#8211;492 [doi:10.1007/BFb0084207](http://dx.doi.org/10.1007/BFb0084207).
+* [[André Joyal]], [[Ross Street]], [An introduction to Tannaka duality and quantum groups](http://www.maths.mq.edu.au/~street/CT90Como.pdf), in Part II of _Category Theory, Proceedings, Como 1990_, eds. A. Carboni, M. C. Pedicchio and G. Rosolini,  Lec. Notes in Mathematics __1488__, Springer, Berlin, 1991, pp. 411&#8211;492 [doi:10.1007/BFb0084207](http://dx.doi.org/10.1007/BFb0084207).
 
 * P. Deligne, [[Catégories Tannakiennes]], [[Grothendieck Festschrift]], vol. II,  Birkh&#228;user Progress in Math. 87 (1990) pp.111--195.
 
@@ -65,3 +79,7 @@ Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma 
 
 [[!redirects reconstruction theorems]]
 [[!redirects reconstruction]]
+
+[[!redirects Tannakian reconstruction]]
+[[!redirects Tannakian reconstruction theorem]]
+[[!redirects Tannakian reconstruction theorems]]
