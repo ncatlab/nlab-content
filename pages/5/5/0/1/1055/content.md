@@ -15,7 +15,13 @@ The set of sections of $p$ over $U$ is denoted by $\Gamma_U p = (\Gamma p)(U) = 
 
 If $P:Open(X)^{op}\to Set$ is a sheaf, then one sometimes calls the total space $E(P)$ of the &#233;tal&#233; space $L(P) = (E(P)\to B)$ the 'space of the sheaf' $P$, having in mind the adjoint equivalence above.  (This is also called the __sheaf space__ or the __display space__; compare also a [[display morphism]] of [[contexts]].)  The associated sheaf functor $a:PShv_B\to Shv_B\hookrightarrow PShv_B$ decomposes as $a = \Gamma\circ L$, and $a$ may be considered as an endofunctor part of an [[idempotent monad]] in $PShv_B$ whose corresponding [[reflective subcategory]] is $Shv_B$.
 
-Every [[covering space]] (even in the more general sense not requiring any connectedness axiom) is &#233;tal&#233; but not vice versa: for a covering space the inverse image of some open set in the base $B$ needs to be, by the definition, a disjoint union of homeomorphic open sets in $E$; however the 'size' of the neighborhoods over various $e$ in the same stalk required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set. 
+### Relation to covering spaces
+
+Every [[covering space]] (even in the more general sense not requiring any connectedness axiom) is &#233;tal&#233; but not vice versa: 
+
+* for a covering space the inverse image of some open set in the base $B$ needs to be, by the definition, a disjoint union of homeomorphic open sets in $E$; however the 'size' of the neighborhoods over various $e$ in the same stalk required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set, if there are infinitely many points in the stalk.
+
+* even if the the stalks of the etale space are finite, it need not be locally trivial. For instance the disjoint union $\coprod_i Ui$ of a collecton of open subsets of a space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is etale, but does not have a typical fiber: the fiber over a given point has cardinality the number of open sets $U_i$ that contain this particular point.
 
 
 ## Grammar note
