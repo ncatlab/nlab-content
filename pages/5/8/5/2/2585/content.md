@@ -75,33 +75,52 @@ section 6.5.1 of
 
 ### Idea
 
-The idea for detecting the _geometric_ homotopy groups of an object $X$ in an $(\infty,1)$-topos $\mathbf{H}$ is to observe the behaviour of [[local system]]s on $X$, equivalently of _flat_ [[principal ∞-bundle]]s, equivalently of [[locally constant ∞-stack]]s.
 
-Think about this in the case of ordinary [[Grothendieck topos|sheaf topos]]es, first: a locally constant sheaf with finite fibers on a topological space $X$ is the same as a covering space of $X$. An [[associated bundle]] to a $\pi_1(X)$-[[principal bundle]].
-As such it necessarily has a flat [[connection on a bundle|connection]]. Fixing any point $x \in X$, [[parallel transport]] along paths starting and ending at $x$, representing elements in the ordinary first [[homotopy group]] of $X$, gives an [[action]] of $\pi_1(X)$ on the [[fiber]] over $x$.
+For $X$ a connected [[topological space]], the following notions are equivalent:
 
-But conversely, if one knows _all_ finite local systems/finite locally constant sheaves/finite covering space on $X$, then one can reconstruct the homotopy group $\pi_1(X)$ from that. This is much as in the Tannakian [[reconstruction theorem]]:
+* a finite covering space $P \to X$;
 
-the [[forgetful functor]] 
+* a [[locally constant sheaf]] or [[local system]] on $X$ with finite fibers (the sheaf of sections of some $P$);
+
+* a [[bundle]] of finite sets [[associated bundle|associated]] to the universal $\pi_1(X,x)$-[[principal bundle]] on $X$, for $\pi_1(X,x)$ the first [[homotopy group]] of $X$ at some chosen basepoint $x$;
+
+* a [[functor]] $\mathbf{B} \pi_1(X,x) \to FinSet$, with $\mathbf{B} \pi_1(X,x)$ the [[delooping]] [[groupoid]],which exhibits the unique flat [[connection on a bundle|connection]] on the [[bundle]] $P$.
+
+
+The last formulation makes it most manifest that the collection of all these things, in whichever incarnation, form the [[representation category]]
 
 $$
-  x_* : Loc(X) \to FinSet
+  Rep(\pi_1(X,x))_{f} = Func(\mathbf{B}\pi_1(X,x), FinSet)
 $$
 
-that sends a locally constant sheaf on $X$ to its fiber over the point $x$ has as [[automorphism]]s the group $\pi_1(X)$, we have a group homomorphism
+of the [[group]] $\pi_1(X,x)$ on finite sets. But for representation categories [[Tannakian reconstruction theorems]] hold, which say that we may recover the group being represented essentially as the group of [[automorphism]]s of the forgetful functor
 
 $$
-  \pi_1(X,x) \simeq Aut(x_+)
+  F : Rep(\pi_1(X,x))_{f} \to FinSet
   \,.
 $$
 
-In fact, this _is_ the reconstruction theorem for groups: we know that 
+So we may turn this around: we may start with the notion of [[local system]] on $X$, and then read off from the category of all of these the first fundamental group of $X$.
+
+The choice of basepoint here of course plays no intrinsic role. A bit more elegantly we can instead use the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ (which then no longer needs to be assumed to be connected) and locally constant sheaves with finite fibers as functors/representations in
 
 $$
-  Loc(X) \simeq Func(\mathbf{B}\pi_1(X,x),FinSet)
+  Loc(X) = Rep(\Pi_1(X))_f = Func(\Pi_1(X), FinSet)
+  \,.
 $$
 
-so this statement reconstructs a group from its [[representation category]].
+And conversely, given just the notion of $Loc(-)$, we may again _define_ $\Pi_1(-)$ as the groupoid that co-represents $Loc$. This is useful, because the notion of [[locally constant sheaf]] $Loc(-)$ is canonically given over every object $X$ in every [[topos]]. So this provides a way to define $\Pi_1(X)$ for every such object.
+
+And this has an evident [[vertical categorification]]: 
+
+in an [[(∞,1)-topos]] for every object $X$ there is an [[(∞,1)-category]] $Loc(X)$ of [[locally constant ∞-stack]]s on $X$. The [[fundamental ∞-groupoid]] of $X$ may then be defined as the [[∞-groupoid]] such that 
+
+$$
+  Loc(X) \simeq [\Pi(X), \infty Grpd]
+  \,.
+$$
+
+
 
 ### For 1-toposes
 
