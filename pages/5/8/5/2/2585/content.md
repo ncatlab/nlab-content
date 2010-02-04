@@ -8,7 +8,7 @@
 In the [[(∞,1)-topos]] [[Top]] to every object -- every [[topological space]] -- $X$ is associated 
 the set $\pi_0(X)$ of connected components and the [[homotopy group]]s $\pi_n(X,x)$ for $x \in X$ and $n \in \mathbb{N}$, $n\gt 0$.
 
-By the general logic of [[space]], we may think of the objects in an arbitrary [[∞-stack]] [[(∞,1)-topos]] as generalized spaces of sorts. Accordingly, there there is a notion of homotopy group of an $\infty$-stack.
+By the general logic of [[space]], we may think of the objects in an arbitrary [[∞-stack]] [[(∞,1)-topos]] as generalized spaces of sorts. Accordingly, there is a notion of **homotopy groups of an $\infty$-stack** .
 
 But care has to be taken. It turns out that there are actually _two_ different notions of homotopy groups in an arbitrary $(\infty,1)$-topos, two notions that accidentally coincide for [[Top]]:
 
@@ -16,7 +16,7 @@ But care has to be taken. It turns out that there are actually _two_ different n
 
   every $(\infty,1)$-topos $\mathbf{H}$ is [[power]]ed over [[∞Grpd]] [[model structure on simplicial sets|usually modeled]] as [[SSet]], hence for every object $X \in \mathbf{H}$ there is the **categorical $n$-sphere object** $X^{S^n_c}$, where $S^n_c = \Delta^n/\partial \Delta^n$. 
 
-* there should be a notion of **geometric homotopy group**, ...
+* there should be a notion of **geometric homotopy group**, induced from the [[monodromy]] of [[locally constant ∞-stack]]s on objects $X \in \mathbf{H}$.
 
 For instance let $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ be the $(\infty,1)$-topos of [[Lie ∞-groupoid]]s. An ordinary smooth [[manifold]] $X$ is represented in $\mathbf{H}$ by a [[sheaf]] of [[set]]s on [[Diff]]. This has no higher nontrivial categorical homotopy groups -- $\pi_{n \gt 0}^{cat}(X) = 0$ -- reflecting the fact regarded as a smooth [[∞-groupoid]], $X$ is a categorically [[discrete groupoid]].
 
@@ -124,17 +124,16 @@ In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental 
 Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
 
 
+### Examples
 
-### For 1-toposes
+#### For 1-toposes
 
-...
-
-section 8.4 of
+The general idea is that of [[Grothendieck's Galois theory]] The general construction of the first geometric homotopy group of objects in a [[Grothendieck topos]] is in section 8.4 of
 
 * [[Peter Johnstone]], _Topos theory_ 
 
 
-### For the $(\infty,1)$-topos $Top$
+#### For the $(\infty,1)$-topos $Top$
 
 ...
 
