@@ -1,6 +1,10 @@
-#Definition#
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-Recall that a [[point of a topos|point]] $x$ of a [[topos]] $E$ is a geometric morphism 
+## Definition
+
+Recall that a [[point of a topos|point]] $x$ of a [[topos]] $E$ is a [[geometric morphism]] 
 
 $$
   x : Set \to E
@@ -10,7 +14,7 @@ $$
 The **stalk** at $x$ of an object $e \in E$ is the image of $e$ under the corresponding [[inverse image]] morphism
 
 $$
-  x^* : E \to set
+  x^* : E \to Set
 $$
 
 i.e.
@@ -20,7 +24,7 @@ $$
   \,.
 $$
 
-## Special case of sheaf topoi ##
+### Special case of sheaf topoi 
 
 If $E$ is the [[category of sheaves]] on the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$
 
@@ -62,7 +66,7 @@ By the general definition of colimits in [[Set]] described at [[limits and colim
 
 for $F = C(-)$ a sheaf of functions on $X$, such an equivalence class, hence such an element in a stalk of $F$ is called a function **germ**.
 
-### testing sheaf morphisms on stalks ###
+#### Testing sheaf morphisms on stalks
 
 For $E = Sh(X)$ a topos of sheaves on a topological space (or generally if the topos $E$ has "[[point of a topos|enough points]]"), the bahaviour of morphisms $f : A \to B$ in $E$ can be tested on stalks
 
@@ -87,7 +91,7 @@ The statement for isomorphisms follows from the identification of sheaves with [
 
 =--
 
-### Example ###
+#### Example
 
 Let $X$ be a smooth manifold and let $\Omega^n(X)$ and $Z^{n+1}(X)$ be the sheaves of differential $n$-forms and that of _closed_ differential $(n+1)$-forms on $X$, respectively, for some $n \in \mathbb{N}$. Let
 
