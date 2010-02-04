@@ -488,11 +488,11 @@ One finds that a &#268;ech-cocycle now is
     \cdot
     f_{i j k}|_{U_{i j k l}}
     =
-    \alpha(g_{i j}|_{U_{i j k l}})(f_{j k l})
-    \cdot
-    f_{i j k}|_{U_{i j k l}}
-  $$
-
+f_{i j l}|_{U_{i j k l}}
+\cdot
+    \alpha(g_{i j}|_{U_{i j k l}})(f_{j k l}|_{U_{i j k l}}),
+    $$
+where $\alpha:G_1\to Aut(G_2)$ is the homomorphism associated with the crossed-module description of the 2-group.
 This is a **nonabelian &#268;ech 2-cocycle**.
 
 Reading off the formulas for the coboundaries is
