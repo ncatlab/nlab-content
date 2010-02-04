@@ -7,7 +7,7 @@ Bertrand To&euml;n is a mathematician at the University of Toulouse. He works on
 
 #Related $n$Lab entries#
 
-* [[∞-stack]], [[derived stack]]
+* [[∞-stack]], [[derived stack]], [[locally constant ∞-stack]]
 
 * [[model structure on SSet-enriched presheaves]]
 
