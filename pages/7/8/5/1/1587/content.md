@@ -27,7 +27,14 @@ between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. If $B$ i
 
 * The terms "covering space" and "covering projection", while traditional, are certainly not optimal: they mislead by being too close to (open) "[[cover|coverings]]". [[James Dolan]] has suggested "wrapping space" as an alternative (as in the image of thread wrapping around a spool, to evoke the archetypal example of a covering projection, $p: \mathbb{R} \to S^1: x \mapsto \exp(i x)$). 
 
-* Every covering space (even in the more general sense not requiring any connectedness axiom) is an [[etale space]] but not vice versa: for a covering space the inverse image of some open set in the base $B$ needs to be, by the definition, a disjoint union of homeomorphic open sets in $E$; however the 'size' of the neighborhoods over various $e$ in the same [[stalk]] required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set.
+### Relation to etale spaces
+
+Every covering space (even in the more general sense not requiring any connectedness axiom) is an [[etale space]], but not vice versa: 
+
+* for a covering space the inverse image of some open set in the base $B$ needs to be, by the definition, a disjoint union of homeomorphic open sets in $E$; however the 'size' of the neighborhoods over various $e$ in the same stalk required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set, if there are infinitely many points in the stalk.
+
+* even if the the stalks of the etale space are finite, it need not be locally trivial. For instance the disjoint union $\coprod_i Ui$ of a collecton of open subsets of a space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is etale, but does not have a typical fiber: the fiber over a given point has cardinality the number of open sets $U_i$ that contain this particular point.
+
 
 ## Fundamental theorem of covering spaces
 
