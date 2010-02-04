@@ -76,16 +76,15 @@ section 6.5.1 of
 ### Idea
 
 
-For $X$ a connected [[topological space]], the following notions are equivalent:
+For $X$ a connected [[topological space]], the following notions are essentially equivalent:
 
-* a finite covering space $P \to X$;
+* a [[covering space]] $P \to X$;
 
 * a [[locally constant sheaf]] or [[local system]] on $X$ with finite fibers (the sheaf of sections of some $P$);
 
 * a [[bundle]] of finite sets [[associated bundle|associated]] to the universal $\pi_1(X,x)$-[[principal bundle]] on $X$, for $\pi_1(X,x)$ the first [[homotopy group]] of $X$ at some chosen basepoint $x$;
 
 * a [[functor]] $\mathbf{B} \pi_1(X,x) \to FinSet$, with $\mathbf{B} \pi_1(X,x)$ the [[delooping]] [[groupoid]],which exhibits the unique flat [[connection on a bundle|connection]] on the [[bundle]] $P$.
-
 
 The last formulation makes it most manifest that the collection of all these things, in whichever incarnation, form the [[representation category]]
 
@@ -134,6 +133,8 @@ section 8.4 of
 ### For the $(\infty,1)$-topos $Top$
 
 ...
+
+* [[Pietro Polesello]] and [[Ingo Waschkies]], _Higher monodromy_ , Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150 ([pdf](http://www.intlpress.com/HHA/v7/n1/a7/pdf)) 
 
 * [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
 
