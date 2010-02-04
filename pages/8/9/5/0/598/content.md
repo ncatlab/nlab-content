@@ -70,7 +70,7 @@ Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$
 
 1. if $0\lt k \lt n$: 
 
-   * Let $w_0 = s_0 y_0$ and $w_i = w_{i-1}(s_i d_i w_{i-1})^{-1}s_i y_i$ for $i = 0, \ldots, k-1$, then take $w_n = w_{k-1}(s_{n-1}d_nw_{k-1})^{-1}s_{n-1}y_n$, and finally a downwards induction given by $w_i = w_{i+1}(s_{i-1}d_iw_{i+1})^{-1}s_{i-1}y_i$, for $i = n, \ldots, k+1$, then $w_{k+1}$ gives $d_iw_{k+1} = y_i$ for $i \neq k$;
+   * Let $w_0 = s_0 y_0$ and $w_i = w_{i-1}(s_i d_i w_{i-1})^{-1}s_i y_i$ for $i = 0, \ldots, k-1$, then take $w_n = w_{k-1}(s_{n-1}d_nw_{k-1})^{-1}s_{n-1}y_n$, and finally a downwards induction given by $w_i = w_{i+1}(s_{i-1}d_{i}w_{i+1})^{-1}s_{i-1}y_i$, for $i = n, \ldots, k+1$, then $w_{k+1}$ gives $d_{i}w_{k+1} = y_i$ for $i \neq k$;
 
 
 3. if $k=n$: 
@@ -191,6 +191,5 @@ The theorem that every simplicial group is a Kan complex is originally due to
 
 * J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
 
-[[Note on Formatting|?]]
 
 [[!redirects simplicial groups]]
