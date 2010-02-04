@@ -27,6 +27,8 @@ between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. If $B$ i
 
 * The terms "covering space" and "covering projection", while traditional, are certainly not optimal: they mislead by being too close to (open) "[[cover|coverings]]". [[James Dolan]] has suggested "wrapping space" as an alternative (as in the image of thread wrapping around a spool, to evoke the archetypal example of a covering projection, $p: \mathbb{R} \to S^1: x \mapsto \exp(i x)$). 
 
+* Every covering space (even in the more general sense not requiring any connectedness axiom) is an [[etale space]] but not vice versa: for a covering space the inverse image of some open set in the base $B$ needs to be, by the definition, a disjoint union of homeomorphic open sets in $E$; however the 'size' of the neighborhoods over various $e$ in the same [[stalk]] required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set.
+
 ## Fundamental theorem of covering spaces
 
 The connection between covering spaces over $B$ and the [[fundamental group]] $\pi_1(B)$ (for $B$ a [[connected space]]) is very old and runs very deep. An updated account involves shifting attention to [[representation]]s of the [[fundamental groupoid]] $\Pi_1(B)$ (regardless of connectedness); we give a brief outline of the theory here. 
