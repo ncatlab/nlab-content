@@ -93,7 +93,7 @@ We start with a 'geometric' definition and then give the [[sheaf]]-theoretic one
 
 ### Geometric definition ##
 
-A **local system** on a topological space $X$ with coefficients in a category $A$ is a functor
+A **local system** on a topological space $X$ with coefficients in a category $A$ is a [[functor]]
 
 $$
   tra : \Pi_1(X) \to A
@@ -129,23 +129,23 @@ Some of the relationships with cohomology and sheaves are explored in various pa
 
 #### Higher categorical geometric definition
 
-For any notion of [[fundamental infinity-groupoid]] there is a corresponding notion of higher local system.
+For any notion of [[fundamental ∞-groupoid]] there is a corresponding notion of higher local system.
 
-R. Brown and P. Higgins have discussed local systems for the [[fundamental infinity-groupoid]] $\Pi(X)$ realized as a  [[infinity-groupoid|strict infinity-groupoid]]. Since strict $\infty$-groupoids are equivalent to [[crossed complex]]es, in this context a higher local system 
+R. Brown and P. Higgins have discussed local systems for the [[fundamental ∞-groupoid]] $\Pi(X)$ realized as a  [[infinity-groupoid|strict ∞-groupoid]]. Since strict $\infty$-groupoids are equivalent to [[crossed complex]]es, in this context a higher local system 
 $\Pi(X) \to A$
 may be realized as a morphism of [[crossed complex]]es.
 
 See
 
-* R. Brown, P.J. Higgins, _Crossed complexes and chain complexes with operators_ Math. Proc. Camb. Phil. Soc., 107 (1990) 33-57.
+* [[Ronnie Brown]], P.J. Higgins, _Crossed complexes and chain complexes with operators_ Math. Proc. Camb. Phil. Soc., 107 (1990) 33-57.
 
 * R. Brown, P.J Higgins, _The classifying space of a crossed
 complex_, Math. Proc. Camb. Phil. Soc., 110 (1991) 95-120.
 
-A categorification of local systems to (a bit nontrivial) notion of locally constant stacks is given in 
+A categorification of local systems to (a bit nontrivial) notion of [[locally constant stack]]s is given in 
 
-* P. Polesselo, I. Waschkies, Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
-[arXiv](http://arxiv.org/abs/math/0407507)
+* [[Pietro Polesselo]], [[Ingo Waschkies]], Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
+[arXiv:0407507](http://arxiv.org/abs/math/0407507)
 
 There is an another direction of categorifications of local systems (where roughly speaking the base is categorified) considered by M. Hopkins (unpublished). 
 
@@ -163,8 +163,11 @@ There is a very close relationship between this notion and sheaf theory. Locally
 +-- {: .un_defn}
 ###### Definition
 
-A **local system** is a locally constant [[sheaf]] on a [[topological space]] $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. 
+A **local system** is a [[locally constant sheaf]] on a [[topological space]] $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. 
+
 =--
+
+> well, in some areas it is assumed to take values in vector spaces, in other not 
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -210,17 +213,74 @@ A blog exposition of some aspects of local system is developed here:
 
 ***
 
-## Discussion
 
-I ([[Urs Schreiber|Urs]]) moved the discussion here, not (at all) to indicate that it is over, but in order that we better see the structure of the entry that we are developing here.
+## A general picture {#nPOV}
 
 +-- {: .query}
+
+[[Urs Schreiber]]: I find the above entry so far a bit of a mess. It is lacking a good [[nPOV]] elegant global picture from which all the details then drop out automatically. Here is a proposal for what that could be.
+
+=--
+
+We try to give the general abstract [[nPOV]] on local systems.
+
+In the context of a given [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(X)$ of [[∞-stack]]s on $C$, whose objects we think of as [[space]]s, for every [[object]] $X \in \mathbf{H}$ and [[pointed object]]$(* \to A) \in \mathbf{H}$,  a [[morphism]] $X \to A$ is a [[cocycle]] that [[homotopy fiber|classifies]] an $A$-[[principal ∞-bundle]] $P \to X$ over $X$.
+
+A **local system** is the special case of this where, equivalently, 
+
+* the [[principal ∞-bundle]] $P$ is like a [[covering space]] for $X$;
+
+* the coefficient object $A$ is a [[constant ∞-stack]] on $C$ -- $A = LConst \mathcal{A}$ for some $\mathcal{A} \in \infty Grpd$;
+
+* the [[homotopy fiber|classifying]] [[cocycle]] $X \to A$ exhibits an $\mathcal{A}$-valued [[locally constant ∞-stack]] on $X$.
+
+Here a [[constant ∞-stack]] $A$ is an object in the image of
+
+$$
+  LConst : \infty Grpd \simeq PSh_{(\infty,1)}(*)
+  \stackrel{const}{\to}
+  PSh_{(\infty,1)}(C)
+  \stackrel{L}{\to}
+  Sh_{(\infty,1)}(X)
+  \,,
+$$
+
+where $L$ is [[∞-stackification]]. If this has a [[left adjoint]] $\Pi \dashv LConst$ then $\Pi(X)$ is the bare geometric [[schreiber:path ∞-groupoid]] of $X$, and by the [[adjunction]] we have that $(A = LConst \mathcal{A})$-local systems are equivalent to [[(∞,1)-functor|∞-functors]] $\Pi(X) \to \mathcal{A}$:
+
+$$
+  Loc(X,A) = \mathbf{H}(X,A) \simeq \infty Grpd(\Pi(X), \mathcal{A})
+  \,.
+$$
+
+With this the fourth characterization of an $\mathcal{A}$-valued local system on $X$ is:
+
+* a [[representation]] of the [[schreiber:path ∞-groupoid]] $\Pi(X)$ on $\mathcal{A}$.
+
+In the special case that $\mathcal{A} = Core{\infty FinGrpd}$ is the [[core]] of the [[(∞,1)-category]] of finite [[∞-groupoid]]s, $\mathcal{A}$-valued local systems on $X$ are precisely genuine [[locally constant ∞-stack]]s on $X$. Conversely,we may think of a local system as a generalization of a locally constant $\infty$-stack, which may take values in something richer than just finite $\infty$-groupoids.
+
+
+### References
+
+A comparatively clear-sighted description of the situation along the above lines is that in 
+
+* [[Pietro Polesselo]], [[Ingo Waschkies]], Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;
+[arXiv:0407507](http://arxiv.org/abs/math/0407507)
+
+for [[locally constant stack]]s on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
+
+## Discussion
+
+
+This here is an old discussion on some previous version of the entry.
+
++-- {: .query}
+
 
   [[Urs Schreiber|Urs]]: I am hoping that maybe David Speyer, whose expositional blog entry is linked to below, or maybe somebody else would enjoy filling in some material here.
 
  [[Bruce Bartlett|Bruce]]: Could it perhaps be "On a  topological space (why do we need _connected_?) this is the same as a sheaf of _flat_ sections of a finite-dimensional vector _bundle_ equipped with flat connection;". I guess by "flat connection" in this general topological context we would mean simply a functor from the homotopy groupoid to the category of vector spaces?
 
-[[Zoran Škoda]]: connected because otherwise you do not have 
+[[Zoran ?koda]]: connected because otherwise you do not have 
 even the same dimension of the typical stalk of teh lcoally constant sheaf. Maybe there is a fancy wording with groupoids avoiding this, but when you have a representation on a single space, you need connectedness. 
 
 [[Ronnie Brown]] I do not have time to write more tonight but mention that there is a section of the paper 
