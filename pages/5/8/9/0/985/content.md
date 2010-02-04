@@ -37,7 +37,7 @@ It is not obvious, but a strict epimorphism is an epimorphism.
 
 In what follows, Let $C$ be a [[category]] and $F:C \to Set$ a [[functor]]. The axioms presented here are as in
 
-* [[Eduardo Dubuc]] and C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
+* [[Eduardo Dubuc]], C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
 
 Some terminology: $X\in C$ is called _finite_ if $F(X)$ is a finite [[set]]. Let $\int_F C$ denote the [[category of elements]] of $F$, in which an object $(X,a)$ is called finite if $X$ is finite.
 
@@ -71,6 +71,15 @@ The constructon for general [[topos]]es is described in section 8.4 of
 
 * [[Peter Johnstone]], _Topos theory_ , Academic Press (1977)
 
+* J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics _40_, Bombay, 1967. iv+176+iv pp. 
+
+The following generalization is in the setting of [[locales]]. 
+
+* A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
+
+A modern approach from classical via Grothnedieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
+
+* F. Borceux, G. Janelidze, _Galois theories_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
 
 [[!redirects Grothendieck Galois theory]]
 [[!redirects Grothendieck's Galois theory]]
