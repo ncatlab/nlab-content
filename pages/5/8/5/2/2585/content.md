@@ -71,53 +71,56 @@ section 6.5.1 of
 
 
 
-## Geometric homotopy groups
+## Geometric homotopy groups {#Geometric}
 
 ### Idea
 
+Let $C$ be some [[site]] and let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-topos]] of [[∞-stack]]s over $C$. We think of objects $X \in \mathbf{H}$ as generalized [[space]]s modeled on $C$.
 
-For $X$ a connected [[topological space]], the following notions are essentially equivalent:
-
-* a [[covering space]] $P \to X$;
-
-* a [[locally constant sheaf]] or [[local system]] on $X$ with finite fibers (the sheaf of sections of some $P$);
-
-* a [[bundle]] of finite sets [[associated bundle|associated]] to the universal $\pi_1(X,x)$-[[principal bundle]] on $X$, for $\pi_1(X,x)$ the first [[homotopy group]] of $X$ at some chosen basepoint $x$;
-
-* a [[functor]] $\mathbf{B} \pi_1(X,x) \to FinSet$, with $\mathbf{B} \pi_1(X,x)$ the [[delooping]] [[groupoid]],which exhibits the unique flat [[connection on a bundle|connection]] on the [[bundle]] $P$.
-
-The last formulation makes it most manifest that the collection of all these things, in whichever incarnation, form the [[representation category]]
+We have a squence of [[adjunction]]s
 
 $$
-  Rep(\pi_1(X,x))_{f} = Func(\mathbf{B}\pi_1(X,x), FinSet)
+  Sh_{(\infty,1)}(C)
+  \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  PSh_{(\infty,1)}(C)
+  \stackrel{\overset{const}{\leftarrow}}{\to}
+  PSh_{(\infty,1)}(*)
+  =
+  \infty Grpd 
+  :
+  LConst
 $$
 
-of the [[group]] $\pi_1(X,x)$ on finite sets. But for representation categories [[Tannakian reconstruction theorems]] hold, which say that we may recover the group being represented essentially as the group of [[automorphism]]s of the forgetful functor
+where on the left we have the defining adjunction of the [[(∞,1)-category of (∞,1)-sheaves]] -- $L$ is [[∞-stackification]] -- and on the right the [[geometric morphism]] that is induced from the canonical morphism of [[site]]s $C \to {*}$ (to the [[terminal object|terminal]] site).
+
+The [[constant ∞-stack]] $\infty FinBund := LConf(Core(\infty FinGrpd)) \in \mathbf{H}$ is the classifying stack for [[locally constant ∞-stack]]s on objects $X \in \mathbf{H}$. We write
 
 $$
-  F : Rep(\pi_1(X,x))_{f} \to FinSet
+  \infty FinBund(X) := \mathbf{H}(X,\infty FinBund)
+$$ 
+
+for the $\infty$-groupoid of [[locally constant ∞-stack]]s on $X$.
+
+If the [[left adjoint]] $LConst$ is also a [[right adjoint]] 
+
+$$
+  (\Pi \dashv LConst)
+  :
+  Sh_{(\infty,1)}(C)
+  \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Pi}{\to}}
+  \infty Grpd   
+$$
+
+then we have from the [[adjunction]] that locally constant $\infty$-stacks on $X$ are equivalently given by [[(∞,1)-functor|∞-functors]] from the [[∞-groupoid]] $\Pi(X)$ to $\infty FinGrpd$:
+
+$$
+  \infty FinBund(X) \simeq Func(\Pi(X),\infty FinGrpd)
   \,.
 $$
 
-So we may turn this around: we may start with the notion of [[local system]] on $X$, and then read off from the category of all of these the first fundamental group of $X$.
+In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental ∞-groupoid]] $\Pi(X)$ of a [[topological space]] $X$. Accordingly here in a general $(\infty,1)$-topos $\mathbf{H}$ we may think of the functor $\Pi : \mathbf{H} \to \infty Grpd$ as giving for each generalized [[space]] its geometry [[schreiber:path ∞-groupoid]] of geometric paths in it.
 
-The choice of basepoint here of course plays no intrinsic role. A bit more elegantly we can instead use the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ (which then no longer needs to be assumed to be connected) and locally constant sheaves with finite fibers as functors/representations in
-
-$$
-  Loc(X) = Rep(\Pi_1(X))_f = Func(\Pi_1(X), FinSet)
-  \,.
-$$
-
-And conversely, given just the notion of $Loc(-)$, we may again _define_ $\Pi_1(-)$ as the groupoid that co-represents $Loc$. This is useful, because the notion of [[locally constant sheaf]] $Loc(-)$ is canonically given over every object $X$ in every [[topos]]. So this provides a way to define $\Pi_1(X)$ for every such object.
-
-And this has an evident [[vertical categorification]]: 
-
-in an [[(∞,1)-topos]] for every object $X$ there is an [[(∞,1)-category]] $Loc(X)$ of [[locally constant ∞-stack]]s on $X$. The [[fundamental ∞-groupoid]] of $X$ may then be defined as the [[∞-groupoid]] such that 
-
-$$
-  Loc(X) \simeq [\Pi(X), \infty Grpd]
-  \,.
-$$
+Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
 
 
 
