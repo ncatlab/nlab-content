@@ -8,10 +8,12 @@ There is a weaker notion of a formally &#233;tale morphism. A morphism is **form
 
 &#201;tale morphisms are used to define small and big [[etale site|étale sites]] and [[étale cohomology]]. &#201;tale topology has similar cohomological properties to complex [[analytic topology]], and in particular it is much finer for cohomological purposes than the [[Zariski topology]]. 
 
-A smooth map of schemes is &#233;tale iff there is an &#233;tale cover of the base  scheme by [[open subschemes]] such that the pullback of the projection to each of them is an open local isomorphism of locally ringed spaces (and in particular, the pullback of the projection morphism is an [[étale morphism|étale map]] of the corresponding underlying topological spaces). This disjointness picture of &#233;tale covers make them suitable for having nontrivial cohomology in situations where Zariski covers give vanishing cohomology.
+A smooth map of schemes is &#233;tale iff there is an &#233;tale cover of the base  scheme by [[open subschemes]] such that the pullback of the projection to each of them is an open local isomorphism of [[locally ringed spaces]] (and in particular, the pullback of the projection morphism is an [[étalé space|étale map]] of the corresponding underlying topological spaces). This disjointness picture of &#233;tale covers make them suitable for having nontrivial cohomology in situations where Zariski covers give vanishing cohomology.
 
-[[!redirects etale morphism of schemes]]
+
+[[!redirects etale morphism]]
 [[!redirects étale morphism]]
+[[!redirects etale morphism of schemes]]
 [[!redirects étale morphism of schemes]]
 [[!redirects formally etale morphism]]
 [[!redirects formally étale morphism]]
