@@ -21,7 +21,7 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 
 * for a covering space the inverse image of some open set in the base $B$ needs to be, by the definition, a disjoint union of homeomorphic open sets in $E$; however the 'size' of the neighborhoods over various $e$ in the same stalk required in the definition of &#233;tal&#233; space may differ, hence the intersection of their projections does not need to be an open set, if there are infinitely many points in the stalk.
 
-* even if the the stalks of the etale space are finite, it need not be locally trivial. For instance the disjoint union $\coprod_i Ui$ of a collecton of open subsets of a space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is etale, but does not have a typical fiber: the fiber over a given point has cardinality the number of open sets $U_i$ that contain this particular point.
+* even if the the stalks of the &#233;tal&#233; space are finite, it need not be locally trivial. For instance the disjoint union $\coprod_i Ui$ of a collecton of open subsets of a space $X$ with the obvious projection $(\coprod_i U_i) \to X$ is &#233;tale, but does not have a typical fiber: the fiber over a given point has cardinality the number of open sets $U_i$ that contain this particular point.
 
 
 ## Grammar note
@@ -48,9 +48,15 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 * [Further reference](http://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling)
 
 
+[[!redirects etale space]]
 [[!redirects etale spaces]]
 [[!redirects étalé space]]
+[[!redirects étalé spaces]]
 [[!redirects étale space]]
+[[!redirects étale spaces]]
 [[!redirects espace étalé]]
+[[!redirects espaces étalés]]
 [[!redirects sheaf space]]
+[[!redirects sheaf spaces]]
 [[!redirects display space]]
+[[!redirects display spaces]]
