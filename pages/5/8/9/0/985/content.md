@@ -86,9 +86,9 @@ The following generalization is in the setting of [[locales]].
 
 * [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
 
-A modern approach from classical via Grothnedieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
+A modern approach from classical via Grothendieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
 
-* F. Borceux, G. Janelidze, _Galois theories_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
+* F. Borceux, G. Janelidze, _[[Galois theories]]_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
 
 [[!redirects Grothendieck Galois theory]]
 [[!redirects Grothendieck's Galois theory]]
