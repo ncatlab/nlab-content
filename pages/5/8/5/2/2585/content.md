@@ -128,9 +128,17 @@ Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ 
 
 #### Geometric homotopy groups of objects in a 1-topos
 
-The general idea is that of [[Grothendieck's Galois theory]] The general construction of the first geometric homotopy group of objects in a [[Grothendieck topos]] is in section 8.4 of
+The general idea is that of 
 
-* [[Peter Johnstone]], _Topos theory_ 
+* [[Grothendieck's Galois theory]]. 
+
+A discussion of of how this produces first homotopy groups of a 1-[[topos]] is at
+
+* [[fundamental group of a topos]].
+
+The general construction of the first geometric homotopy group of objects in a [[Grothendieck topos]] is for instance in section 8.4 of
+
+* [[Peter Johnstone]], _Topos theory_ .
 
 
 #### Homotopy groups from locally constant 1- and 2-stacks on a topological space
