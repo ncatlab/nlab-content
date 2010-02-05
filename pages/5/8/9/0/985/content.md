@@ -87,10 +87,13 @@ $$
 
 (factorizing a profinite-space version of the representable functor $Hom_K(-,L)$).  
 
-## Galois theorem for topoi
+## Galois theorem for locales and topoi
 
 Let $E$ be a Grothendieck topos. Then there exist an open [[localic groupoid]] $G$ such that $E$ is equivalent to the category of &#233;tale presheaves over $G$. 
 
+This is a variant of the theorem in the setting of [[locales]] from 
+
+* [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
 
 ## References
 The original development of the theory by [[Grothendieck]]  is in [[SGA1]]. (This is a good source to look at, but can be hard going due partially to its age.)
@@ -109,10 +112,6 @@ The construction for general [[topos]]es is described in section 8.4 of
 * [[Peter Johnstone]], _Topos theory_ , Academic Press (1977)
 
 * J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics _40_, Bombay, 1967. iv+176+iv pp. 
-
-The following generalization is in the setting of [[locales]]. 
-
-* [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
 
 A modern approach from classical via Grothendieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
 
