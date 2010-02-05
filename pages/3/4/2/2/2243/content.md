@@ -44,6 +44,10 @@
 
   * [[principal ∞-bundle]]
 
+  * [[locally constant ∞-stack|covering ∞-bundle]]/[[local system]]
+
+  * [[schreiber:∞-vector bundle]]
+
   * [[quantum anomaly]]
 
     * [[Spin structure]]
