@@ -87,6 +87,10 @@ $$
 
 (factorizing a profinite-space version of the representable functor $Hom_K(-,L)$).  
 
+## Galois theorem for topoi
+
+Let $E$ be a Grothendieck topos. Then there exist an open [[localic groupoid]] $G$ such that $E$ is equivalent to the category of &#233;tale presheaves over $G$. 
+
 
 ## References
 The original development of the theory by [[Grothendieck]]  is in [[SGA1]]. (This is a good source to look at, but can be hard going due partially to its age.)
