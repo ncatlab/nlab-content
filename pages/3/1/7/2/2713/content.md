@@ -98,7 +98,7 @@ A series of blog posts looking at spectral triples from the perspective of [[FQF
 
 Articles on spectral triples from superstrings/2d super [[conformal field theory]]:
 
-* Sebastiano Carpi, Robin Hillier, Yasuyuki Kawahigashi and Roberto Longo, _Spectral Triples and the Super-Virasoro Algebra_ Communications in Mathematical Physics, Volume 295, Number 1 / April 2010 ([pdf](http://www.springerlink.com/content/316wx4r4x885172w/fulltext.pdf))
+* Sebastiano Carpi, Robin Hillier, Yasuyuki Kawahigashi and Roberto Longo, _Spectral Triples and the Super-Virasoro Algebra_ Communications in Mathematical Physics, Volume 295, Number 1 / April 2010 ([Springer pdf](http://www.springerlink.com/content/316wx4r4x885172w/fulltext.pdf))
 
 
 ## von Neumann spectral triples ##
