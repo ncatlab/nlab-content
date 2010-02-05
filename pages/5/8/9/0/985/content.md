@@ -65,6 +65,28 @@ It follows from the axioms that $F$ is a [[pro-representable functor]]. The [[au
 
 There are several modifications one can make the above. In the case that $C$ is the category of covering spaces of a nice enough space, the functor $F$ is [[representable functor|representable]] by the [[universal covering space]], and so there is a 'representable' version of the above, not needing to utilise profinite groups. One can also consider just the connected-objects version, and end up with an equivalence to the category of _transitive_ $\pi$-sets.
 
+## The classical case of fields
+
+Even for the classical case of the inclusion of fields, Grothendieck's Galois theorem gives more general statement than the previously known. This is the Grothendieck's version of the Galois correspondence theorem for fields:
+
+Let $K \subset L$ be a finite dimensional Galois extension of fields. Let $Gal[L : K]$ denote the group of $K$-automorphisms of $L$ and $Gal [L : K]-finSet$ the category of finite $Gal[L : K]$-sets. By $SplitfinAlg_K(L)$ denote the finite dimensional $K$-algebras which are split over $L$; here $L$ itself is an object. Consider the representable functor $h_L = Hom_K(-,L):SplitfinAlg_K(L)\to Set$. It takes values in the subcategory of finite sets and it comes with a canonical $Gal[L : K]$-action. In other words, this functor factors through $Gal [L : K]-finSet$. Moreover, the corresponding functor 
+
+$$
+SplitfinAlg_K(L)\to Gal [L : K]-finSet
+$$ 
+
+is an equivalence of categories. 
+
+There is an infinitary version as well, generalizing the classical Galois theorem on infinitary Galois extensions. 
+
+Thus let $K\subset L$ be an arbitrary Galois extension. Now $Gal[L:K]$ denotes the profinite Galois group and $Gal[L:K]-profinSpace$ the category or profinite $Gal[L:K]$-spaces. $SplitAlg_K(L)$ denotes the category of $K$-algebras split over $L$ (possible infinite-dimensional). Then there is a canonical antiequivalence of categories
+
+$$
+SplitAlg_K(L)\to Gal [L : K]-profinSpace
+$$
+
+(factorizing a profinite-space version of the representable functor $Hom_K(-,L)$).  
+
 
 ## References
 
