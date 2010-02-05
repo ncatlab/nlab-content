@@ -96,13 +96,13 @@ This is a variant of the theorem in the setting of [[locales]] from
 * [[Andre Joyal]], M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc. 51 (1984), no. 309, vii+71 pp. 
 
 ## References
-The original development of the theory by [[Grothendieck]]  is in [[SGA1]]. (This is a good source to look at, but can be hard going due partially to its age.)
+The original development of the theory by [[Grothendieck]]  is in [[SGA1]]. 
 
 A more recent treatment can be found in
 
 * [[Eduardo Dubuc]] and C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
 
-Basic intuition is explained in a section in
+Basic intuition is explained in 
 
 * Pierre Cartier, _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
 
