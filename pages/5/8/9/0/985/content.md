@@ -118,6 +118,8 @@ A modern approach from classical via Grothendieck up to [[categorical Galois the
 
 * F. Borceux, G. Janelidze, _[[Galois theories]]_, Cambridge Studies in Adv. Math. __72__, 2001. xiv+341 pp.
 
+The application of a general Tannakian theorem of Saavaedra Rivano, as corrected by Deligne, to the "differential Galois theory" for differential instead of algebraic equation is in the last chapter of Deligne's [[Catégories Tannakiennes]].
+
 [[!redirects Grothendieck Galois theory]]
 [[!redirects Grothendieck's Galois theory]]
 [[!redirects Grothendieck-Galois theory]]
