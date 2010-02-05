@@ -7,7 +7,7 @@ I can't seem to get the caret to work, having tried the usual LaTeX command, and
 
 [[Tim Porter|Tim]]:  Three points: (i) I suggest a hat $\hat{G}$ as notation for completion, (ii) in taking limits you have to specify in what category your are living at that instant!  Here it is not the limit in the category of groups that has to be taken but withing the category of topological groups, so you have to consider each finte group as a discrete topological group.  Because of this (iii) the actual entry on [[profinite group]] takes one to be a [[pro-object]] in the category of finite groups. (The way to handle this may need to be discussed to get consensus on which we all like best.)
 
-I am not sure what name the SGA1 type fundamental group should be called. I do not particularly like the one you use below.
+I am not sure what name the [[SGA1]] type fundamental group should be called. I do not particularly like the one you use below.
 
 [[David Roberts]]: This was a knock-together job, I must admit. Actually I think the SGA1 fundamental group is called the algebraic fundamental group - in the case of schemes its also called the etale fundamental group, but I personally think 'algebraic' would fit better in this example - it is changed!
 
