@@ -1,26 +1,15 @@
-This entry is on the book __Galois Theories__ by [[Francis Borceux]] and [[George Janelidze]]. 
+This entry is about the monograph
+
+* [[Francis Borceux]], [[George Janelidze]], __Galois Theories__, Cambridge Studies in Advanced Mathematics __72__, Cambridge University Press, 2001. 
 
 +-- {: .query}
 (Initially it will be in the form of a book review. The initial version is an edited and adapted version of a review of the book by [[Tim Porter]] that appeared in Proceedings of the Edinburgh Mathematical Society (Series 2)  (2002), 45 : 761-762. When the entry has been influenced by other sources, please remove this box) 
 =--
 
-The developments  that lead to this book are due to some deeply based analogies
-between some initially very different looking mathematical theories, one in algebra, 
-another in topology.
+The developments  that lead to this book are due to some deeply based analogies between some initially very different looking mathematical theories, one in algebra, another in topology.
 
-Galois originally developed the some of elements of what was to become Galois theory in 
-an attempt to understand polynomial equations, continuing work of Abel and others.  In modern language, working
-over a base field,  $K$, a field extension $K\subset L$ is a Galois extension
-when every element of $L$ is the root of a polynomial in $K[X]$, which factors 
-in $L[X]$ into linear factors and all of whose roots are simple.  The group
-$Gal[L:K]$ of this extension is the group of field automorphisms of
-$L$ which fix all elements of $K$ and the classical Galois theorem asserts
-that when $L$, considered as a $K$-vector space, is finite dimensional, the
-subgroups $G\subseteq Gal[L:K]$ of the Galois group classify the
-intermediate field extensions $K\subseteq M\subseteq L$.  The themes to note
-in this classical theory are (i) splitting into simpler structures, (ii)
-groups of automorphisms and (iii) intermediate structures classified by
-subgroups.
+Galois originally developed the some of elements of what was to become Galois theory in an attempt to understand polynomial equations, continuing work of Abel and others.  In modern language, working
+over a base field,  $K$, a field extension $K\subset L$ is a Galois extension when every element of $L$ is the root of a polynomial in $K[X]$, which factors  in $L[X]$ into linear factors and all of whose roots are simple.  The group $Gal[L:K]$ of this extension is the group of field automorphisms of $L$ which fix all elements of $K$ and the classical Galois theorem asserts that when $L$, considered as a $K$-vector space, is finite dimensional, the subgroups $G\subseteq Gal[L:K]$ of the Galois group classify the intermediate field extensions $K\subseteq M\subseteq L$.  The themes to note in this classical theory are (i) splitting into simpler structures, (ii) groups of automorphisms and (iii) intermediate structures classified by subgroups.
 
 
 The second theory is that of [[covering space|covering spaces]] in topology.  A covering map
@@ -96,25 +85,22 @@ research.
 It introduces many deep important 
 concepts of algebra and category theory, introduces, motivates and uses in an
 interesting way.  As one would expect, this means that the later chapters are sometimes much 
-harder going than the earlier ones, but the writing and structure of the book
-is such that the transition is fairly gradual.  
+harder going than the earlier ones, but the writing and structure of the book is such that the transition is fairly gradual.  
 
 Some researchers will probably feel that some of the exercises should have been worked out in detail, but given the starting assumptions of the authors, and the reasonably good set of references, there were bound to be such omissions.
 
 
 ## References ##
 
-* [[SGA1]]
+* $n$lab entries [[categorical Galois theory]], [[Grothendieck's Galois theory]]
 
-* R and A. Douady, Alg&#232;bre et th&#233;ories galoisiennes,
+* Grothendieck et al., [[SGA1]]
+
+* R and A. Douady, _Alg&#232;bre et th&#233;ories galoisiennes_,
   Fernand Nathan, 1977.
 
-
-
-* A.R.Magid,  The separable Galois theory of commutative rings,
+* A.R.Magid,  _The separable Galois theory of commutative rings_,
   Marcel Dekker, 1974.
-
-
 
 
 category: reference
