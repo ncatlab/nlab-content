@@ -15,13 +15,17 @@ which is one of the overall historical heights of the (quality content of the) p
 
 * F. W. Lawvere, _Intrinsic co-Heyting boundaries and the Leibniz rule in certain toposes_,  279--281
 
-* [[joyalscatlab:Dusko Pavlovic|Duško Pavlović]], _Categorical interpolation: descent and the [[Beck-Chevalley condition]] without direct images_,  306--325 ($n$lab remark: logics point of view).
+* [[joyalscatlab:Dusko Pavlovic|Duško Pavlović]], _Categorical interpolation: descent and the [[Beck-Chevalley condition]] without direct images_,  306--325 ($n$lab remark: important clarification of the subject from logics point of view).
 
 * A. J. Power, _An $n$-categorical pasting theorem_,  326--358
 
+* G. E. Reyes, H. Zolfaghari, _Topos-theoretic approaches to modality_,  359--378
+
+* S. H. Schanuel, _Negative sets have Euler characteristic and dimension_, 379--385
+
 * M. Thi&#233;baud, _Modular categories_,  386--400
 
-* G. E. Reyes, H. Zolfaghari, _Topos-theoretic approaches to modality_,  359--378
+* J. J. C. Vermeulen, _Some constructive results related to compactness and the (strong) Hausdorff property for locales_,  401--409
 
 * A. Joyal, R. Street, _An introduction to Tannaka duality and [[quantum groups]]_, 413&#8211;492
 
