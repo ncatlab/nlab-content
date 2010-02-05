@@ -5,6 +5,8 @@
 
 ## Idea
 
+For a sufficiently nice topological space, the fundamental group at a point can be reconstructed as a group of deck transformations of the [[universal covering space]], which is the same as the automorphisms of the fiber over that point of the projection map. The deck transformations are monodromies induced by loops at the base point; intuitively they can be taken infinitesimally, and viewed as symmetries of the point. The functor which assigns to a point the fiber functor over it, generalizes to fiber functors in Tannakian formalism of Grothendieck which defines in more general setups the fundamental groupoid as the group of automorphisms of the appropriate fiber functor. See also [[fundamental group of a topos]]. 
+
 Grothendieck's [[Galois theory]] was constructed in order to define for [[scheme]]s an analogue of the familiar correspondence
 
 : [[covering space]]s of $X$ : $\pi_1(X)$[[action|-sets]]
@@ -64,7 +66,12 @@ There are several modifications one can make the above. In the case that $C$ is 
 
 ## References
 
+
 * [[Eduardo Dubuc]] and C. S. de la Vega _On the Galois theory on Grothendieck_, Bol. Acad. Nac. Cienc. (Cordoba) **65** (2000) 111--136. [arXiv](http://arxiv.org/abs/math.CT/0009145)
+
+Basic intuition is explained in a section in
+
+* Pierre Cartier, _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
 
 
 The construction for general [[topos]]es is described in section 8.4 of
