@@ -59,7 +59,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
     1.  Frames and locales
         1.  [[frame]], [[locale]], [[subframe]]
         2.  [[free frame]]
-        3.  [[point]] (of a locale), [[completely prime filter]], [[prime element]]
+        3.  [[point of a locale]], [[completely prime filter]], [[prime element]]
         4.  adjunction between $Loc$ and $Top$
         5.  [[atom]], [[spatial locale]]
         6.  [[irreducible closed subspace]], [[sober space]]
