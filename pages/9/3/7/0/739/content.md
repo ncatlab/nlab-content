@@ -38,7 +38,7 @@ Berlin.
 
 For the connections with, amongst other things, Galois theory from a categorical viewpoint:
 
-* [[Francis Borceux]], [[George Janelidze]], __[[Galois Theories]]__, Cambridge Studies in Advanced Mathematics __72__, Cambridge University Press, 2001.
+* [[Francis Borceux]], [[George Janelidze]], _[[Galois Theories]]_, Cambridge Studies in Advanced Mathematics __72__, Cambridge University Press, 2001.
 
 For the corresponding 'analytic theory' see:
 
