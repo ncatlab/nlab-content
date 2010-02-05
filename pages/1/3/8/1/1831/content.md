@@ -54,10 +54,9 @@ This is proposition 2.4.2.3 in [[Higher Topos Theory|HTT]].
 
 
 +-- {: .un_prop}
-###### Proposition
-**(ovber $\infty$-groupoids)**
+###### Proposition (over $\infty$-groupoids)
 
-Let $p : X \to S$ be a morphism of [[simolicual set]]s where $S$ is a [[Kan complex]]. Then the following are equivalent:
+Let $p : X \to S$ be a morphism of [[simplicial set]]s where $S$ is a [[Kan complex]]. Then the following are equivalent:
 
 1. $p$ is a Cartesian fibration
 
