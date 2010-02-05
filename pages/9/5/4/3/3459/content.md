@@ -1,8 +1,5 @@
-The initials 'SGA1' refer to the seminar notes from the Groethndieck seminar (1960-61) at the I.H.E.S., Bures-sur-Yvette. 
+The initials 'SGA I' (or in more modern times 'SGA1') refer to the seminar notes from the [[Grothendieck]] seminar (1960-61) at the [IH&#201;S](http://www.ihes.fr), Bures-sur-Yvette. 
 
+* A. Grothendieck, M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ (SGA I), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203); published  version Documents Math&#233;matiques __3__, Soci&#233;t&#233; Math&#233;matique de France, Paris 2003)
 
-* A. Grothendieck, 2003, Revetements  &#233;tales et groupe fondamental (SGA 1), Documents 
-Math&#233;matiques (Paris), 3, Soci&#233;t&#233; Math&#233;matique de France, Paris, s&#233;minaire de g&#233;om&#233;trie 
-alg&#233;brique du Bois Marie 1960&#8211;61. Directed by A. Grothendieck, With two papers by M. 
-Raynaud, Updated and annotated reprint of the 1971 original Lecture Notes in Math., 224, 
-Springer, Berlin.
+[[!redirects SGA I]]
