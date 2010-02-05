@@ -3,7 +3,7 @@ This entry is about (the legendary conference Como 1990 and) the excellent proce
 * Category theory (Como, 1990), 213&#8211;236, Lecture Notes in Math. __1488__, Springer 1991.
 
 
-which is one of the overall historical heights of the (quality content of the) proceedings within the tradition of conferences in pure category theory. Now it is even hard to find the publisher for the contemporary category conference proceedings...
+which is one of the overall historical heights of the (quality content of the) proceedings within the tradition of conferences in pure [[category theory]]. Now it is even hard to find a publisher for contemporary category conference proceedings...
 
 *Some* of the articles from Como mentioned in the lab or relevant
 
@@ -15,7 +15,7 @@ which is one of the overall historical heights of the (quality content of the) p
 
 * F. W. Lawvere, _Intrinsic co-Heyting boundaries and the Leibniz rule in certain toposes_,  279--281
 
-* [[joyalscatlab:Dusko Pavlovic|Duško Pavlović]], _Categorical interpolation: descent and the [[Beck-Chevalley condition]] without direct images_,  306--325 ($n$lab remark: important clarification of the subject from logics point of view).
+* [[Dusko Pavlovic|Duško Pavlović]], _Categorical interpolation: descent and the [[Beck-Chevalley condition]] without direct images_,  306--325 ($n$lab remark: important clarification of the subject from logics point of view).
 
 * A. J. Power, _An $n$-categorical pasting theorem_,  326--358
 
@@ -32,3 +32,6 @@ which is one of the overall historical heights of the (quality content of the) p
 ...
 
 About the geographic place see wikipedia: [Como](http://en.wikipedia.org/wiki/Como) and the conference centre : [Villa Olmo](http://en.wikipedia.org/wiki/Villa_Olmo).
+
+
+category: reference
