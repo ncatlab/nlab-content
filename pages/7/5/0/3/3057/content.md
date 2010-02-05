@@ -10,7 +10,7 @@ Zoran: sorry there is indeed an error there, but I will not yet erase it, as the
 
 Its restriction to the sub-2-category $Fib$ of fibered categories is then also a Grothendieck 2-fibration $Fib\to Cat$ which has been studied by [[Claudio Hermida]]. 
 
-* A. Grothendieck, M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ (SGA I), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203))
+* A. Grothendieck, M. Raynaud et al. _Rev&#234;tements &#233;tales et groupe fondamental_ ([[SGA1|SGA I]]), Lecture Notes in Mathematics __224__, Springer 1971 (retyped as [math.AG/0206203](http://arxiv.org/abs/math/0206203))
 
 * C. Hermida, _Some properties of $Fib$ as a fibred 2-category_, Journal of Pure and Applied Algebra __134__ (1), 83--109, 1999 (earlier draft version can be found at [jpaa.ps.gz](http://maggie.cs.queensu.ca/chermida/papers/jpaa.ps.gz))
 
