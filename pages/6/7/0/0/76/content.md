@@ -10,21 +10,24 @@
 
 ## Idea ##
 
-In the modern perspective (or at least, the perspective considered here) **homotopy theory** is the theory of $(\infty,1)$-[[(infinity,1)-category|categories]]: those $\infty$-[[infinity-category|categories]] in which all $k$-morphisms for $k \gt 1$ are invertible.
+In the modern perspective (or at least, from the [[nPOV]]) **homotopy theory** is the [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]]: those $\infty$-[[infinity-category|categories]] in which all [[k-morphism]]s for $k \gt 1$ are invertible.
 
-The archetypical example is the $(\infty,1)$ category $Top$ of (suitably well-behaved...) topological spaces: objects are topological spaces, morphisms are continuous maps between these, 2-morphisms are homotopies of such maps, and $k$-morphisms are higher order homotopies of homotopies.  If "suitably well-behaved" means at least of the homotopy type of CW complexes, then this $(\infty,1)$-category is (expected to be) equivalent to the $(\infty,1)$-category of $\infty$-[[infinity-groupoid|groupoids]].
+The archetypical example is the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoids]], just as [[Set]] is the archetypical 1-[[category]].
+
+Historically,  the motivating example had been $(\infty,1)$ category [[Top]] of (suitably well-behaved...) [[topological space]]s: objects are topological spaces, morphisms are continuous maps between these, 2-morphisms are [[homotopy|homotopies]] of such maps, and [[k-morphism]]s are higher order homotopies of homotopies.  If "suitably well-behaved" means at least of the [[homotopy type]] of [[CW-complex]]es, then this $(\infty,1)$-category is _equivalent_ to [[? Grpd]]. One may think of the notion of [[∞-groupoid]] as being the _intrinsic_ notion, which has various realizations useful in computations, such as [[topological space]]s or [[simplicial set]]. 
 
 ## Presentations ##
 
-A convenient, powerful, and traditional way to deal with $(\infty,1)$-categories is to "present" them by 1-categories with specified classes of morphisms called _[[weak equivalence|weak equivalences]]_.  The idea is as follows.  Given a category $C$ with a class $W$ of weak equivalences, we can form its **homotopy category** or **category of fractions** $C[W^{-1}]$ by adjoining formal inverses to all the morphisms in $W$.  The "$(\infty,1)$-category presented by $(C,W)$" can be thought of as the result of regarding $C$ as an $\infty$-category with only identity $k$-cells for $k\gt 1$, then adjoining formal inverses to morphisms in $W$ in the $\infty$-categorical sense; that is, making them into [[equivalence|equivalences]] rather than isomorphisms.  It is remarkable that most $(\infty,1)$-categories that arise in mathematics can be presented in this way.
+A convenient, powerful, and traditional way to deal with $(\infty,1)$-categories is to "present" them by 1-categories with specified classes of morphisms called _[[weak equivalence|weak equivalences]]_ : a [[category with weak equivalences]] or [[homotopical category]].  The idea is as follows.  Given a category $C$ with a class $W$ of weak equivalences, we can form its **[[homotopy category]]** or **[[calculus of fractions|category of fractions]]** $C[W^{-1}]$ by adjoining formal inverses to all the morphisms in $W$.  The [[simplicial localization|(∞,1)-category presented by]] $(C,W)$" can be thought of as the result of regarding $C$ as an $\infty$-category with only identity $k$-cells for $k\gt 1$, then adjoining formal inverses to morphisms in $W$ in the $\infty$-categorical sense; that is, making them into [[equivalence|equivalences]] rather than isomorphisms.  It is remarkable that most $(\infty,1)$-categories that arise in mathematics can be presented in this way.
 
-As with presentations of groups and other algebraic structures, very different presentations can give rise to equivalent $(\infty,1)$-categories.  For example, several different presentations of the $(\infty,1)$-category of $\infty$-groupoids are:
+As with presentations of [[group]]s and other algebraic structures, very different presentations can give rise to equivalent $(\infty,1)$-categories.  For example, several different presentations of the $(\infty,1)$-category of $\infty$-groupoids are:
 
- * $C=$ CW-complexes, $W=$ homotopy equivalences
- * $C=$ topological spaces, $W=$ weak homotopy equivalences
- * $C=$ Kan complexes, $W=$ simplicial homotopy equivalences
- * $C=$ simplicial sets, $W=$ weak homotopy equivalences
- * $C=$ small categories, $W=$ functors whose nerves are weak homotopy equivalences.
+ * $C=$ [[CW-complex]]es, $W=$ [[homotopy equivalence]]s - see [[model structure on topological spaces]]
+ * $C=$ [[topological space]]s, $W=$ [[weak homotopy equivalence]]s
+ * $C=$ [[Kan complex]]es, $W=$ simplicial homotopy equivalences
+ * $C=$ [[simplicial set]]s, $W=$ weak homotopy equivalences - see [[model structure on simplicial sets]]
+ * $C=$ [[small category|small categories]], $W=$ functors whose nerves are weak homotopy equivalences -- see [[Thomason model structure]].
+
 
 The latter three can hence be regarded as providing "combinatorial models" for the homotopy theory of topological spaces.
 
