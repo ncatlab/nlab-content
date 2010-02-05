@@ -47,16 +47,74 @@ really deep! The story of how the deep connections between them became apparent 
 quite long and here is not the place to explore it in any detail.  It involves 
 function spaces and Riemann surfaces as well as a lot else that is central to
 modern pure maths (if you want a good source for the
-theory see the beautiful book \cite{douady^2} by Douady and Douady. The
-present book traces a greatly extended mathematical path beyond that
-semi-classical link between Galois theory and coverings, but starts at an
+theory see the beautiful book (see below) by Douady and Douady. 
+
+Borceux and Janleidze's book, _Galois theories_, traces a greatly extended mathematical path beyond that
+semi-classical link between Galois theory and coverings, but starts at a fairly
 elementary beginning. It describes classical Galois theory, then turns to its
-extension to infinitary field extensions, to \'etale algebras that became the
+extension to infinitary field extensions, to &#233;tale algebras that became the
 foundation for the work of
 Grothendieck on the fundamental group of schemes ([[SGA1]]). This was 
-at the same time Galois theory and covering space theory although for spaces
+at the same time Galois theory and covering space theory, although for spaces
 for which there was no question of being able to define a fundamental group
-using paths.
+using paths. (This idea was funcdamental in Grothendieck's later attempts to develop a higher dimensional version of this Poincar&#233;-Galois theory in his manuscript, [[Pursuing Stacks]].
+
+This  book explores the connections between these theories, 
+searching for further cases of the general 'scenario' and tries to strip back the
+superficial structure to reveal aspects of what are the essential features of
+all these theories.
+
+The book assumes a certain
+knowledge of algebra and general topology, together with some familiarity with 
+the __elementary__ language of category theory (categories, functors, natural
+transformations, limits and adjoint functors).  Its starts
+with a short trip through the theory of field extensions, then goes on to look 
+at Grothendieck's extension of this to algebras.  
+
+Chapter 3 handles infinitary Galois theory.  Here [[profinite space|profinite spaces]] and
+[[profinite group|profinite groups]] are introduced.  They are also useful in the following chapter
+where the extension of Galois theory to commutative rings (due to Magid,
+see reference below) is treated.    The [[Pierce
+spectrum]] and [[Stone duality]] are handled clearly and simply laying the base for
+Magid's profinite Galois groupoid. 
+
+
+With that first layer of categorical abstraction (Janelidze's abstract
+categorical Galois theory) in place, other applications can be explored.
+Given the introduction to the area in this review, it may seem strange that
+covering maps are only introduced in Chapter 6, but here they can be very neatly
+described and handled, beautifully illustrating and enriching the earlier
+abstraction.
+
+The final chapter describes one of the most important recent advances in topos 
+theory, giving an introduction to the Joyal~-~Tierney classification of
+Grothendieck toposes as sheaves on localic groupoids.  The book ends with a
+look at other directions the theory has taken beyond those handled in detail.
+This section is particularly valuable as it should set the scene for future
+research.
+
+It introduces many deep important 
+concepts of algebra and category theory, introduces, motivates and uses in an
+interesting way.  As one would expect, this means that the later chapters are sometimes much 
+harder going than the earlier ones, but the writing and structure of the book
+is such that the transition is fairly gradual.  
+
+Some researchers will probably feel that some of the exercises should have been worked out in detail, but given the starting assumptions of the authors, and the reasonably good set of references, there were bound to be such omissions.
+
+
+## References ##
+
+* [[SGA1]]
+
+* R and A. Douady, Alg&#232;bre et th&#233;ories galoisiennes,
+  Fernand Nathan, 1977.
+
+
+
+* A.R.Magid,  The separable Galois theory of commutative rings,
+  Marcel Dekker, 1974.
+
+
 
 
 category: reference
