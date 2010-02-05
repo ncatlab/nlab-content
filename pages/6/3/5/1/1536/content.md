@@ -2,7 +2,7 @@
 * automatic table of contents
 {:toc}
 
-# Idea #
+## Idea 
 
 In any context it is of interest to ask which kind of [[morphisms]] $p : C \to D$ arise as [[pullbacks]] along a classifying morphism $S_p : D \to U$ to some universal object $U$ of some universal morphism $p_{univ} : \hat U \to U$.
 
@@ -10,7 +10,7 @@ The Grothendieck construction describes this in the context of [[Cat]]: a morphi
 
 The reconstruction of $p$ from the pseudofunctor $S_p$ is the Grothendieck construction.
 
-# Definition #
+## Definition 
 
 Let for the time being [[Grpd]] be the 1-category of [[groupoids]] and [[functors]] between them.
 
@@ -49,12 +49,13 @@ $$
 $$
 
 
-## Generalizations ##
+### Generalizations 
 
-### $n = 0$ ###
+#### $n = 0$ 
+
 The analog of the Grothendieck construction one categorical dimension down is the [[category of elements]] of a [[presheaf]].
 
-### $n = (\infty,1)$  ###
+#### $n = (\infty,1)$  {#(oo1)case}
 
 The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-categories]] is described at [[Cartesian fibration]] and at [[universal fibration of (∞,1)-categories]]. 
 
