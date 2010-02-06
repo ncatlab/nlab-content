@@ -13,11 +13,13 @@
 
 ## Idea
 
-[[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] [[models for ∞-stack (∞,1)-toposes]] (precisely for the [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es). 
+[[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] are [[models for ∞-stack (∞,1)-toposes]] (precisely for the [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es). 
 
 +--{.query} 
 
 _Todd_: I'm having trouble parsing this. Is this supposed to be a sentence, or a noun phrase, or what? 
+
+_Toby_:  I added what I think was the missing copula.  I can\'t vouch for the accuracy of the resulting sentence, but it seems to fit Urs\'s programme.
 
 =--
 
