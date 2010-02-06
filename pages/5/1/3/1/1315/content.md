@@ -77,3 +77,4 @@ See also
 
 
 [[!redirects path groupoids]]
+[[!redirects path goupoid]]
