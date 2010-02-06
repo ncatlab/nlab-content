@@ -25,6 +25,7 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 
 
 ## Grammar note
+{#grammar}
 
 In French, the verb '&#233;taler' means, roughly, to spread out; '-er' becomes '-&#233;' to make a past participle.  So an 'espace &#233;tal&#233;' is a space that has been spread out over $B$.  On the other hand, '&#233;tale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  So a 'fonction &#233;tale' is a slack function, one which is kind of a homeomorphism, but perhaps only locally. 
 
