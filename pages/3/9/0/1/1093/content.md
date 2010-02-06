@@ -1,8 +1,13 @@
-This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. This entry here is to be compared with the entry [[(∞,1)-category of (∞,1)-sheaves]] of which it is the 1-categorical shadow. An exposition is at [[models for ∞-stack (∞,1)-toposes]].
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
+
+
+## Idea
+
+This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. This entry here is to be compared with the entry [[(∞,1)-category of (∞,1)-sheaves]] of which it is the 1-categorical shadow. An exposition is at [[models for ∞-stack (∞,1)-toposes]].
+
 
 ## Definition
 
@@ -32,7 +37,7 @@ $$
 
 * also the converse is true: for every [[exact functor|left exaxt]] functor $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[adjoint functor|left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology 
 
-* Categories of sheaves are examples of [[category|categories]] that are [[topos]]es: they are the [[Grothendieck topos]]es characterized among all toposes as those satisgying [[Grothendieck topos|Giraud's axioms]].
+* Categories of sheaves are examples of [[category|categories]] that are [[topos]]es: they are the [[Grothendieck topos]]es characterized among all toposes as those satisfying [[Grothendieck topos|Giraud's axioms]].
 
 
 ## References
@@ -62,5 +67,6 @@ The entirely analogous story in the wider context of [[(infinity,1)-category|(in
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 For more on this see [[(∞,1)-category of (∞,1)-sheaves]] and [[models for ∞-stack (∞,1)-toposes]].
+
 
 [[!redirects sheaf category]]
