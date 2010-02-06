@@ -5,9 +5,20 @@
 
 ## Definition
 
-A **constant sheaf** is a [[sheaf]] that is [[isomorphism|isomorphic]] to the [[sheafification]] of a constant [[presheaf]] (a constant [[functor]]).
+A **constant sheaf** is a [[sheaf]] (on some [[site]] C) that is [[isomorphism|isomorphic]] to the [[sheafification]] of a constant [[presheaf]] (a constant [[functor]]).
 
-This notion sits in a hierarchy of related notions:
+Together with the [[global section]] functor, the constant sheaf functor is a [[geometric morphism]]
+
+$$
+  \Gamma : Sh(C) \stackrel{\leftarrow}{\to} Set : const
+$$
+
+from the [[Grothendieck topos|sheaf topos]] to the [[topos]] [[Set]].
+
+
+## Generalizations
+
+The notion of constant sheaf sits in a hierarchy of related notions:
 
 * A section of a constant sheaf is a [[locally constant function]]. 
 
