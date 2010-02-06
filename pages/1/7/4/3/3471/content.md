@@ -6,7 +6,12 @@
 
 ## Idea
 
+A __global section__ of a [[bundle]] $E \overset{p}\to B$ is simply a [[section]] of $p$, that is a map $s\colon B \to E$ such that $p \circ s = \id_B$.  The adjective 'global' here is used to distinguish from a *generalised* section over some subspace $U \hookrightarrow B$ (which is a section of the map to $U$ from the [[pullback]]).
+
+Compare the notion of [[global point]], which is really the special case when $B$ is a [[terminal object]] (where the generalised section corresponds to a [[generalised element]]).  On the other hand, a global section of $E \overset{p}\to B$ in $\mathcal{C}$ *is* simply a global point in the [[slice category]] $\mathcal{C}/B$.
+
 ...
+
 
 ## Of objects in a topos
 
