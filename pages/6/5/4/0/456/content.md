@@ -164,6 +164,15 @@ $$
 
 is a geometric morphism.
 
+### Sheafification
+
+A [[category of sheaves]] is a [[geometric embedding]] into a presheaf topos
+
+$$
+  Sh(C) \hookrightarrow PSh(C)
+  \,.
+$$
+
 
 ### Geometric morphisms of sheaf topoi 
 
