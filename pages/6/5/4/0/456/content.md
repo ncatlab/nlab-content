@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 For $X$ and $Y$ [[topological spaces]], a continuous map $X \to Y$ induces (in particular) two [[functors]]
 
@@ -27,7 +27,7 @@ Another motivation of the concept comes from the the fact that a [[functor]] suc
 
 
 
-#Definition#
+## Definition
 
 If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functors]] $(f^*,f_*)$
 $$
@@ -42,12 +42,12 @@ such that the left adjoint $f^*:F \to E$ preserves finite [[limits]].
 
 
 
-#Remarks#
+## Remarks
 
 * Since [[Grothendieck topos|Grothendieck toposes]] satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small colimits must have a right adjoint.  Therefore, a geometric morphism between Grothendieck toposes could equivalently be defined as a functor preserving finite limits and all small colimits.
 
 
-#Surjections and embeddings#
+## Surjections and embeddings
 
 A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful functor|faithful]].  It is an **[[geometric embedding|embedding]]** if $f_*$ is [[full and faithful functor|fully faithful]].
 
@@ -72,11 +72,90 @@ where $E_G$ is the category of coalgebras for a finite-limit-preserving [[comona
 
 Every geometric morphism $f:E\to F$ factors, uniquely up to equivalence, as a surjection followed by an embedding.  There are two ways to produce this factorization: either construct $E_G$ where $G= f^*f_*$ is the comonad induced by the adjunction $f^*\dashv f_*$, or construct $Sh_j(F)$ where $j$ is the smallest Lawvere-Tierney topology on $F$ such that $f$ factors through $Sh_j(F)$.  In fact, surjections and embeddings form a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi.
 
-#Examples#
+## Examples {#Examples}
 
-* For $E$ any [[topos]] and $k : B \to A$ any morphism in $E$ there is the [[base change|change-of-base]] functor of [[over category|over categories]] 
+### Global sections and constant sheaves
+
+For every topos $E$, there is a geometric morphism
+
 $$
-  k^* (E/A) \to (E/B)
+  \Gamma : E  \stackrel{\leftarrow}{\to} Set : const
+$$
+
+called the [[global section]]s functor. It is given by the [[hom-set]] out of the [[terminal object]]
+
+$$
+  \Gamma(-) = Hom_E({*}, -)
+$$
+
+and hence assigns to each object $A\in E$ its set of [[global element]]s $\Gamma(A) = Hom_E(*,A)$. If $E$ is a [[Grothendieck topos]] then one thinks of $A$ as a [[sheaf]] and of $\Gamma(A)$ as its set of **global sections**.
+
+The [[left adjoint]] $const : Set \to E$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
+
+$$
+  \otimes : Set \times E \to E
+$$
+
+applied to the [[terminal object]]
+
+$$
+  const = (-)\otimes {*} : Set \to E
+$$
+
+which sends a set $S$ to the [[coproduct]] of $|S|$ copies of the terminal object
+
+$$
+  S \otimes {*} = \coprod_{s \in S} {*}
+  \,.
+$$
+
+This is called the **constant object** of $E$ on the set $S$. Notably when $E$ is a [[Grothendieck topos|sheaf topos]] this is the **[[constant sheaf]]** on $S$. 
+
+The [[left adjoint]]ness is just the defining property of the [[copower|tensoring]]
+
+$$
+  Hom_E(const S, A) \simeq Hom_E(S \otimes {*},A)
+  \simeq
+  Hom_{Set}(S, Hom_E(*,A))
+  \,.
+$$
+
+This left adjoint preserves [[product]]s, using that colimits in a  topos are stable by base change (see [[commutativity of limits and colimits]])
+
+$$
+   \left( \coprod_{s_1 \in S_1} *\right)
+   \times
+   \left( \coprod_{s_2 \in S_2} *\right)
+   =
+   \coprod_{s_1 \in S_1}  \left(* \times \left( \coprod_{s_2 \in S_2} *\right)\right)
+   =
+   \coprod_{s_1 \in S_1}  \left( \coprod_{s_2 \in S_2} *\right)
+   =
+   \coprod_{s_1 \in S_1} \coprod_{s_2 \in S_2} *
+   =
+   \coprod_{s \in S_1 \times S_2} *
+$$
+
+and it preserves [[equalizer]]s and therefore [[limit]]s. So it is let exact and we do have a geometric morphism.
+
+
+
+### Point of a topos
+
+For $E$ a topos, a geometric morphism 
+
+$$
+  x : Set \to E
+$$
+
+is called a [[point of a topos]].
+
+
+### Change-of-base
+
+For $E$ any [[topos]] and $k : B \to A$ any morphism in $E$ there is the [[base change|change-of-base]] functor of [[over category|over categories]] 
+$$
+  k^* : (E/A) \to (E/B)
 $$
 by [[pullback]]. As described at [[dependent product]] this functor has both a [[left adjoint]] $\coprod_k : E/B \to E/A$ as well as a [[right adjoint]] $\prod_k : E/A \to E/B$.  Therefore
 $$
@@ -86,7 +165,7 @@ $$
 is a geometric morphism.
 
 
-# Geometric morphisms of sheaf topoi #
+### Geometric morphisms of sheaf topoi 
 
 For $X$ a [[topological space]], write $Sh(X) := Sh(Op(X))$ as usual for the [[topos]] given by the [[category of sheaves]] on the [[category of open subsets]] $Op(X)$ with the standard [[coverage]]
 
@@ -124,7 +203,7 @@ That the induced pair $(f^*, f_*)$ forms a geometric morphism is (or should even
 
 We now show that the map is a bijection, i.e. that every geometric morphism of sheaf toposes arises this way from a continuous function. We follow page 348 of
 
-* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]].
+* MacLane-Moerdijk, _[[Sheaves in Geometry and Logic]]_ .
 
 One reconstructs the continuous map $f : X \to Y$ from a geometric morphism $f : Sh(X) \to Sh(Y)$ as follows.
 
@@ -190,11 +269,11 @@ The points $x \in X$ of the topological space $X$ are in canonical bijection wit
 
 =--
 
-#References#
+## References
 
 Geometric morphisms are the topic of section VII of
 
-* Saunders MacLane and Ieke Moerdijk, [[Sheaves in Geometry and Logic]].
+* [[Saunders MacLane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ .
 
 Embeddings and surjections are discussed in section VII.4.
 
