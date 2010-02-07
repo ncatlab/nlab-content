@@ -12,6 +12,7 @@ Compare the notion of [[global point]], which is really the special case when $B
 
 ...
 
+More generally, the functor of global sections is the direct image functor into the terminal object (in some category of "spaces", e.g. for $S$-schemes, direct image functor into the base scheme $S$). 
 
 ## Of objects in a topos
 
