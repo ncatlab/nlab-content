@@ -8,7 +8,6 @@ In the UK, there are several universities that do not have mathematics departmen
 
 
 
-
 =--
 
 I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 7 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between lax methods and homotopy coherence.  
@@ -36,3 +35,4 @@ category: people
 [[!redirects Tim Portr]]
 [[!redirects Tim  Porter]]
 [[!redirects Tim porter]]
+[[!redirects  Tim Porter]]
