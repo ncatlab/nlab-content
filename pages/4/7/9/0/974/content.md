@@ -91,9 +91,25 @@ The locally $\kappa$-presentable categories for $\kappa = \aleph_0$.
 
   * every [[set]] is the [[directed colimit]] over the [[poset]] of all its finite [[subset]]s.
 
-  * a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are $\aleph_0$-compact.
+  * a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are $\aleph_0$-compact. 
 
-* Analogously categories such as [[Grp]] are locally finitely presentable.
++--{.query} 
+
+_Todd_: Isn't any functor category $Set^C$, $C$ small, locally finitely presentable? It is equivalent to the category of finite-limit-preserving functors $Lex(C) \to Set$, where $Lex(C)$ is the free finite limit completion of $C$; then use the theorem cited above from Adamek-Rosicky. 
+
+This subsumes three of the four examples under locally presentable category. 
+
+=--
+
+* Analogously categories such as [[Grp]] are locally finitely presentable. 
+
++--{.query} 
+
+_Todd_: More precisely, it should be noted that any category of algebras of a Lawvere theory $T$ is locally finitely presentable, being equivalent to the category of finite-limit-preserving functors $C \to Set$ where $C$ is opposite to the category of finitely presented $T$-algebras. 
+
+=-- 
+
+* The category of coalgebras over a field $k$ is locally finitely presentable; similarly the category of commutative coalgebras over $k$ is locally finitely presentable. 
 
 * a [[poset]], regarded as a category, is locally finitely presentable if it is a complete [[lattice]] which is algebraic (each element is a directed [[join]] of finite elements).
 
@@ -114,6 +130,12 @@ The locally $\kappa$-presentable categories for $\kappa = \aleph_0$.
 * the category $dSet$ of [[dendroidal set]]s.
 
 * for $C$ a [[small category]] the [[functor category]] $Funct(C,SSet)$ of [[simplicial presheaf|simplicial presheaves]]. 
+
++--{.query} 
+
+_Todd_: See also the first of the two query boxes above. Some questions: is true (or even obvious) that if $A$ is locally presentable and $C$ is small, then $A^C$ is locally presentable? Similar question, replacing "locally presentable" by "locally finitely presentable". Finally, if $B$ is locally presentable and if $i: A \to B$ is a reflective subcategory, is $A$ also locally presentable? Some of this may be addressed in Adamek-Rosicky, but I don't have that book and have never read it (this will be rectified soon), so I'm going off the seat of my pants in some of these queries. 
+
+=--
 
 ### Combinatorial model categories ###
 
