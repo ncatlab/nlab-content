@@ -10,9 +10,8 @@ A __global section__ of a [[bundle]] $E \overset{p}\to B$ is simply a [[section]
 
 Compare the notion of [[global point]], which is really the special case when $B$ is a [[terminal object]] (where the generalised section corresponds to a [[generalised element]]).  On the other hand, a global section of $E \overset{p}\to B$ in $\mathcal{C}$ *is* simply a global point in the [[slice category]] $\mathcal{C}/B$.
 
-...
+More generally, the [[functor]] of global sections is the [[direct image functor]] into the terminal object (in some category of "[[spaces]]", e.g. for $S$-[[relative scheme|schemes]], direct image functor into the base scheme $S$). 
 
-More generally, the functor of global sections is the direct image functor into the terminal object (in some category of "spaces", e.g. for $S$-schemes, direct image functor into the base scheme $S$). 
 
 ## Of objects in a topos
 
