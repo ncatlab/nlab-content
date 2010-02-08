@@ -13,15 +13,8 @@
 
 ## Idea
 
-[[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] are [[models for ∞-stack (∞,1)-toposes]] (precisely for the [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es). 
+[[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] [[presentable (∞,1)-category|present]] [[(∞,1)-category of (∞,1)-presheaves|(∞,1)-categories of (∞,1)-presheaves]] and [[localization of an (∞,1)-category|localizations of these]], such as notably the left exact localizations that are [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]]: these model structures are [[models for ∞-stack (∞,1)-toposes]].
 
-+--{.query} 
-
-_Todd_: I'm having trouble parsing this. Is this supposed to be a sentence, or a noun phrase, or what? 
-
-_Toby_:  I added what I think was the missing copula.  I can\'t vouch for the accuracy of the resulting sentence, but it seems to fit Urs\'s programme.
-
-=--
 
 Recall that
 
@@ -40,7 +33,7 @@ $$
 
 -- the category of [[simplicial presheaf|simplicial presheaves]] .
 
-Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and A. Joyal and then developed in detail by Jardine.
+Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and [[Andre Joyal]] and then developed in detail by Jardine.
 
 Notice that when regarded as a presentation of an [[(∞,1)-sheaf]], i.e. of an [[∞-stack]], a simplicial presheaf -- being an ordinary functor instead of a [[pseudofunctor]] -- corresponds to a [[rectified ∞-stack]]. It might therefore seem that a model given by simplicial presheaves is too restrictive to capture the full expected flexibility of a notion of [[∞-stack]].
 But this is not so. 
