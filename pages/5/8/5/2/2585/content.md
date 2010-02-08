@@ -172,7 +172,7 @@ This case is discussed in
 
 We indicate briefly how the results stated in this article fit into the general abstract picture as indicated above:
 
-The authors consider locally constant 1-stacks and 2-stacks on sites of open subsets of [[topological space]]s.
+The authors consider locally constant 1-stacks and 2-stacks on sites of open subsets of sufficiently nice [[topological space]]s.
 
 Prop. 1.1.9 gives the [[adjunction]]
 
@@ -205,7 +205,39 @@ now with the [[path n-groupoid|path 2-groupoid]] operation (locally) left adjoin
 #### Homotopy groups from locally constant $\infty$-stacks on topological spaces {#ooStackOnTopSpace}
 
 
-A discussion of locally constant $\infty$-stacks over [[topological space]]s is in
+ Let $X$ be a sufficiently nice ([[paracompact space|paracompact]]) [[topological space]]. The canonical map $X \to {*}$ induces the [[geometric morphism]]
+
+$$
+  Sh_{(\infty,1)}(X) \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
+$$
+
+where the [[right adjoint]] $\Gamma$ is taking [[global section]]s and the [[left adjoint]] is forming the [[constant ∞-stack]] on an $\infty$-groupoid $K$. If $K = Core (\infty Grpd)$ then $LConst_K$ is the [[constant ∞-stack]] of [[locally constant ∞-stack]]s on a given [[∞-groupoid]] and we write
+
+$$
+  LConst(X) := Sh_{(\infty,1)}(X, LConst_{\infty Grpd})
+$$
+
+for the $\infty$-groupoid of locally constant $\infty$-stacks on $X$.
+
+
+
++-- {: .un_theorem}
+###### Claim
+
+Write $ \Pi(X) := Sing X$ for the [[fundamental ∞-groupoid]] of $X$.  Then for every $K \in \infty Grpd$ there is an equivalence of $\infty$-groupoids
+
+$$
+  LConst(X) \simeq \infty Grpd(\Pi(X), K)
+  \,.
+$$
+
+=--
+
+> [[Urs Schreiber]]: I think this is proven in the literature, if maybe slightly implicitly so. I'll now go through the available references to discuss this.
+
+
+After old ideas by [[Alexander Grothendieck]] from [[Pursuing Stacks]], it seems that the first explcit formalization and proof of this statement is given in 
 
 * [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
 
@@ -217,7 +249,7 @@ $$
 
 of [[locally constant ∞-stack]]s on $X$ and [[Kan fibration]]s over the [[fundamental ∞-groupoid]] $\Pi(X) = Sing(X)$.
 
-But by the right Quillen functor $Id : sSet_{Quillen} \to sSet_{Joyal}$ from the Quillen [[model structure on simplicial sets]] to the [[Joyal model structure on simplicial sets]] every Kan fibration is a categorical fibration and every categorical fibration over a [[Kan complex]] is a [[Cartesian fibration]] (as discussed there) and a coCartesian fibration. Finally, by the [[Grothendieck construction|(∞,1)-Grothendieck construction]], these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$.
+By the right Quillen functor $Id : sSet_{Quillen} \to sSet_{Joyal}$ from the Quillen [[model structure on simplicial sets]] to the [[Joyal model structure on simplicial sets]] every Kan fibration is a categorical fibration and every categorical fibration over a [[Kan complex]] is a [[Cartesian fibration]] (as discussed there) and a coCartesian fibration. Finally, by the [[Grothendieck construction|(∞,1)-Grothendieck construction]], these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$.
 
 In total this means that via the [[Grothendieck construction]] To&#235;n's result does actually produce an equivalence
 
@@ -233,6 +265,37 @@ Very similar statements are discussed in
 and, building on that, in example 1.8 of
 
 * [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
+
+
+A variant of this statement -- more general in one respect, less general in another -- appears in 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+as [theorem 7.1.0.1](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=545). 
+
+There it is shown that for any $K \in \infty Grpd$ there is a bijection of homotopy sets of morphisms
+
+$$
+  \pi_0 Top(X, |K|) \simeq \pi_0(p_* p^* K)
+  \,,
+$$
+
+where $(p^* \dashv p_*) : Sh_{(\infty,1)}(X) \to \infty Grpd$ is the geometric morphism we denoted $(LConst \dashv \Gamma)$ above. 
+
+If we also rewrite the left using [[homotopy hypothesis|the equivalence]] of $Top$ with $sSet$, this reads
+
+$$
+  \pi_0 \infty Grpd(\Pi(X), K) \simeq \pi_0(\Gamma LConst_K)
+  = \pi_0 Sh_{(\infty,1)}(X,LConst_K)
+  \,, 
+$$
+
+For $K = \infty Grpd$ this is the $\pi_0$-[[decategorification]] of the above statement.
+
+
+
+
+
 
 
 [[!redirects homotopy group of an infinity-stack]]
