@@ -16,7 +16,13 @@ $$
 
 be the standard simplicial $n$-[[simplex]] in [[SimpSet]].
 
-Then, for each $i$, $0 \leq i \leq n$, we can form, within $\Delta[n] $, a subsimplicial set, $\Lambda^i[n]$, called the **$(n,i)$-horn** or **$(n,i)$-box**, by discarding the top dimensional non-degenerate $n$-simplex (given by the identity map on $[n]$) and its $i^{th}$ face.  We must also discard all the degeneracies of those simplices.
+Then, for each $i$, $0 \leq i \leq n$, we can form, within $\Delta[n] $, a subsimplicial set, $\Lambda^i[n]$, called the **$(n,i)$-horn** or **$(n,i)$-box**, by discarding the top dimensional non-degenerate $n$-simplex (given by the identity map on $[n]$) and its $i^{th}$ face.  We must also discard all the degeneracies of those simplices. 
+
++--{.query} 
+
+_Todd_: I prefer to say it this way: a horn is the union of all faces but one. Since unions in a presheaf topos such as $SimpSet$ are calculated objectwise, it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image. 
+
+=--
 
 The horn $\Lambda^k[n]$ is an **outer horn** if $k = 0$ or $k = n$.
 
