@@ -2,7 +2,31 @@
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
 
+***
 
+Here's a little experiment with the totally awesome all-new, all-singing, all-dancing WYSIWYG SVG editor from the totally awesome all-new, all-singing, all-dancing WYSIWIG Jacques Distler:
+
+<svg width="640" height="480" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+   <path fill="#000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+  <marker refX="2" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_bk" viewBox="0 0 10 10">
+   <path fill="#000" d="m10,0l-10,5l10,5l-5,-5l5,-5z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_1" y2="96" x2="366" y1="98" x1="66"/>
+  <line fill="none" stroke-width="5" stroke="#000000" id="svg_2" y2="98" x2="360" y1="99" x1="360"/>
+  <text transform="rotate(-13.0693, 41.5, 108)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_3" y="117" x="41">A</text>
+  <text transform="rotate(12.0948, 386.5, 108)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_4" y="117" x="387">B</text>
+  <text transform="rotate(179.415, 205.5, 141)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_5" y="150" x="206">F</text>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_6" y2="120" x2="67" y1="120" x1="367"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_7" y="85" x="206">G</text>
+ </g>
+</svg>
 ***
 
 ## XYPic diagrams using CodeCogs
@@ -65,4 +89,4 @@ category: meta
 [[!redirects nitwits]]
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
-[[!redirects שנה טובה]]
+[[!redirects &#1513;&#1504;&#1492; &#1496;&#1493;&#1489;&#1492;]
