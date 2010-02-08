@@ -215,7 +215,7 @@ $$
 where the [[right adjoint]] $\Gamma$ is taking [[global section]]s and the [[left adjoint]] is forming the [[constant ∞-stack]] on an $\infty$-groupoid $K$. If $K = Core (\infty Grpd)$ then $LConst_K$ is the [[constant ∞-stack]] of [[locally constant ∞-stack]]s on a given [[∞-groupoid]] and we write
 
 $$
-  LConst(X) := Sh_{(\infty,1)}(X, LConst_{\infty Grpd})
+  LConst(X) := Sh_{(\infty,1)}(X, LConst_{\infty Grpd})= \Gamma LConst_{\infty Grpd}
 $$
 
 for the $\infty$-groupoid of locally constant $\infty$-stacks on $X$.
