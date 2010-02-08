@@ -212,7 +212,7 @@ $$
   \infty Grpd
 $$
 
-where the [[right adjoint]] $\Gamma$ is taking [[global section]]s and the [[left adjoint]] is forming the [[constant ∞-stack]] on an $\infty$-groupoid $K$. If $K = Core (\infty Grpd)$ then $LConst_K$ is the [[constant ∞-stack]] of [[locally constant ∞-stack]]s on a given [[∞-groupoid]] and we write
+where the [[right adjoint]] $\Gamma$ is taking [[global section]]s and the [[left adjoint]] is forming the [[constant ∞-stack]] on an $\infty$-groupoid $K$. If $K = Core (\infty Grpd)$ then $LConst_K$ is the [[constant ∞-stack]] of [[locally constant ∞-stack]]s and we write
 
 $$
   LConst(X) := Sh_{(\infty,1)}(X, LConst_{\infty Grpd})= \Gamma LConst_{\infty Grpd}
@@ -220,15 +220,15 @@ $$
 
 for the $\infty$-groupoid of locally constant $\infty$-stacks on $X$.
 
-
+Write $ \Pi(X) := Sing X$ for the [[fundamental ∞-groupoid]] of $X$.
 
 +-- {: .un_theorem}
 ###### Claim
 
-Write $ \Pi(X) := Sing X$ for the [[fundamental ∞-groupoid]] of $X$.  Then for every $K \in \infty Grpd$ there is an equivalence of $\infty$-groupoids
+There is an equivalence of $\infty$-groupoids
 
 $$
-  LConst(X) \simeq \infty Grpd(\Pi(X), K)
+  LConst(X) \simeq \infty Grpd(\Pi(X), \infty Grpd)
   \,.
 $$
 
@@ -237,7 +237,7 @@ $$
 > [[Urs Schreiber]]: I think this is proven in the literature, if maybe slightly implicitly so. I'll now go through the available references to discuss this.
 
 
-After old ideas by [[Alexander Grothendieck]] from [[Pursuing Stacks]], it seems that the first explcit formalization and proof of this statement is given in 
+After old ideas by [[Alexander Grothendieck]] from [[Pursuing Stacks]], it seems that the first explicit formalization and proof of this statement is given in 
 
 * [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
 
@@ -290,7 +290,7 @@ $$
   \,, 
 $$
 
-For $K = \infty Grpd$ this is the $\pi_0$-[[decategorification]] of the above statement.
+For $K = Core(\infty Grpd)$ this is the $\pi_0$-[[decategorification]] of the above statement.
 
 
 
