@@ -12,7 +12,12 @@ Frequently one is especially interested in pretoposes having additional properti
 
 * A _Heyting pretopos_, is a pretopos which is also a [[Heyting category]]; a _Boolean pretopos_ is a pretopos which is also a [[Boolean category]].  These are suitable as frameworks for [[predicative mathematics]], respectively with [[intuitionistic logic|intuitionistic]] or [[classical logic|classical]] logic.
 * A _$\Pi$-pretopos_ is a pretopos which is also a [[locally cartesian closed category]].  A $\Pi$-pretopos is automatically a Heyting pretopos.
-* A _$W$-pretopos_ is a pretopos which has (locally) [[inductive object]]s (initial [[algebra for an endofunctor|algebras]] for [[polynomial]] [[endofunctor]]s), most famously a [[natural numbers object]].
+* A _$W$-pretopos_ is a pretopos which has (locally) [[W-type|inductive object]]s ([[initial algebra|initial]] [[algebra for an endofunctor|algebras]] for [[polynomial endofunctor]]s), most famously a [[natural numbers object]].
+
+  +--{: .query}
+  [[Mike Shulman]]: In a non-$\Pi$ pretopos, does "polynomial endofunctor" just mean the more naive sense of a functor that "looks like a polynomial" constructed from $\times$ and $+$?  If that's so, then it's not clear to me that a $\Pi$-pretopos which is also a $W$-pretopos is in fact a $\Pi$-$W$-pretopos, since the latter requires initial algebras for polynomial endofunctors in the "internal" sense using dependent products.  But I don't know how to define any more general notion of polynomial endofunctor without having dependent products.
+  =--
+
 * A _$\Pi$-$W$-pretopos_ is of course a pretopos that has both $\Pi$ and $W$; these are widely studied as frameworks for [[predicative mathematics]] in the weaker constructive sense.
 * A _topos_ is a pretopos that has [[power object]]s.  A topos is automatically a $\Pi$-pretopos; conversely, a $\Pi$-pretopos is a topos iff it has a [[subobject classifier]], and a Boolean $\Pi$-pretopos is always a topos.
 * A _$W$-topos_ is of course a topos that has $W$; it is sufficient that the topos have a [[natural numbers object]] (see van den Berg & Moerdijk), so this is often called a _topos with NNO_.  These are widely studied as frameworks for (non-predicative) [[constructive mathematics]], while a [[Boolean topos|Boolean]] $W$-topos is a framework for ordinary [[classical mathematics]] without the [[axiom of choice]].
