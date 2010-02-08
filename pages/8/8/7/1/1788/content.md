@@ -2,6 +2,15 @@
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
 
+
+***
+
+Click on the following links to jump to an anchor point.
+
+* [jump to the first anchor point](http://ncatlab.org/nlab/show/Sandbox#anchor1)
+
+* [jump to the second anchor point](http://ncatlab.org/nlab/show/Sandbox#anotheranchor)
+
 ***
 
 Here's a little experiment with the totally awesome all-new, all-singing, all-dancing WYSIWYG SVG editor from the totally awesome all-new, all-singing, all-dancing WYSIWIG Jacques Distler:
@@ -72,6 +81,70 @@ X&\cong&S^{\Delta^1}_f &\to &Y^{\Delta^1}&\to& S^{\Delta^1}&
 * $\mathcal{A}$
 
 
+{#anchor1} Here is anchor point number 1!
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+a
+
+
+{#anotheranchor} Here is the second anchor point.
+
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+
+b
 category: meta
 
 [[!redirects Symbol Sandbox]]
