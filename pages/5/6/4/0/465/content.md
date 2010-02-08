@@ -3,7 +3,7 @@
 {:toc}
 
 
-## Definition ##
+## Definition 
 
 A **regular epimorphism** is a [[morphism]] $f : c \to d$ (in a given [[category]]) that is the [[coequalizer]] of _some_ parallel pair of morphisms, i.e. if there exists _some_ [[colimit]] diagram of the form
 
@@ -23,21 +23,23 @@ Although the definition doesn\'t state so explicitly, it is true that any regula
 * In the category of [[monoid]]s, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.
 
 
-## In the context of higher category theory ##
+## In the context of higher category theory {#HigherCat}
 
 Comparing the above to the defintion of [[effective epimorphism]], we propose the following definition in an [[(∞,1)-category]]:  
 
 A __regular epimorphism__ $f : c \to d$ in an [[(∞,1)-category]] $C$ is a morphism with a [[simplicial resolution]]:
 
-one for which a [[colimit in a quasi-category|colimit diagram]]
+one for which there exists a functor $c : \Delta^{op} \to C$, such that $f$  is the [[colimit in a quasi-category|colimiting cocone]]
 
 $$
   \cdots c_2 \stackrel{\to}{\stackrel{\to}{\to}} c_1 \stackrel{\to}{\to} c \stackrel{f}{\to} d
 $$
 
-exist.
+over this diagram.
 
 This is a morphism such that for all objects $e \in C$ the induced morphism $f^* : C(d,e) \to C(c,e)$ is a [[regular monomorphism]] in the [[(∞,1)-category]] [[∞Grpd]].
+
+Compare this to the stronger notion of an [effective ∞-epimorphism](http://ncatlab.org/nlab/show/effective+epimorphism#HigherCat).
 
 **Warning**. Such a morphism may fail to satisfy some condition for being a plain _epimorphism_ in an [[(∞,1)-category]] that you might think of. The idea is that there may not be a good notion of epimorphism in an [[(∞,1)-category]] apart from regular epimorphism.
 
