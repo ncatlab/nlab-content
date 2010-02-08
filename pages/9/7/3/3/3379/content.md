@@ -1,8 +1,10 @@
+# Idempotent adjunctions
+
 * table of contents
 {: toc}
 
 
-# Definition
+## Definition
 
 Let $F: C \rightleftarrows D : G$ be an [[adjunction]] with unit $\eta$ and counit $\varepsilon$.  Then the following conditions are equivalent:
 
@@ -23,10 +25,16 @@ When these conditions hold, the adjunction is said to be **idempotent**.  It the
 Note that if an idempotent adjunction is [[monadic adjunction|monadic]], then (up to equivalence) it consists of the inclusion and reflection of a [[reflective subcategory]] (i.e. the algebras for an [[idempotent monad]]).  Dually, if it is comonadic, it consists of the inclusion and coreflection of a coreflective subcategory.  Thus, the primary interest in isolating the notion of *idempotent adjunction* is when considering adjunctions which are neither monadic nor comonadic.
 
 
-# Examples
+## Examples
 
 * Any adjunction between [[posets]] is idempotent.  This is a central fact in the theory of [[Galois connections]].  Thus, in a sense, *non-idempotent* adjunctions are an important new idea arising by the "groupoidal" form of [[vertical categorification]].
 
 * The "frame of opens" and "space of points" functors between [[topological spaces]] and [[locales]] form an idempotent adjunction.  The resulting equivalence of categories is between [[sober spaces]] (which are reflective in [[Top]]) and spatial locales (which are coreflective in [[Loc]]).
 
+* For any [[topological space]] $X$, there is an idempotent adjunction between the category $[O(X)^{\op}, Set]$ of [[presheaves]] on $X$ and the category $Top/X$ of spaces over $X$ (the right adjoint gives the presheaf of [[sections]] of a space over $X$).  The resulting equivalence of categories is between [[sheaves]] considered as presheaves satisfying descent, or considered as &#233;tal&#233; spaces.  See [this blog post](http://golem.ph.utexas.edu/category/2010/02/sheaves_do_not_belong_to_algeb.html).
+
 * The [[material-structural adjunction]] between [[material set theory|material set theories]] and [[structural set theory|structural set theories]] is idempotent.  The fixed categories consist of the models satisfying appropriate versions of the [[axiom of foundation]] or anti-foundation.
+
+## References
+
+??
