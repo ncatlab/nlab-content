@@ -39,6 +39,8 @@ One caveat: if you want to use references to numbered definitions and theorems a
 
 This only works with anchors produced in definitions and similar.  So \ref{anotheranchor} doesn't work.
 
+Linking to anchors in other pages is something that maybe ought to go in the HowTo, but perhaps not in [this section](HowTo#svgedit).
+
 ***
 
 Here's a little experiment with the totally awesome all-new, all-singing, all-dancing WYSIWYG SVG editor from the totally awesome all-new, all-singing, all-dancing WYSIWIG Jacques Distler:
