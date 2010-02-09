@@ -222,7 +222,35 @@ produces
 :  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
 
 
-##How to add an automatically generated table of contents##
+## How to make links to subsections of a page ##
+
+When you create a section header, you can add an HTML anchor tag to it with the following syntax:
+
+     ## Heading {#anchorname}
+
+Then you can make a link to it, from that page or from another one, with the syntax:
+
+     [a link](/nlab/show/some+page#anchorname)
+
+When you write a numbered theorem, you can also simultaneously create an anchor by writing:
+
+     +-- {: .num_theorem #theoremname}
+     ###### Theorem
+     ...
+     =--
+
+And then you can link to it in the same way:
+
+     [see this theorem](/nlab/show/some+page#theoremname)
+
+When you link to a theorem on the *same* page, however, it's better to use the syntax:
+
+     see Theorem \ref{theoremname}
+
+(which inserts the number, as well as creates a hyperlink) since that will also work properly when the page is exported to LaTeX.
+
+
+## How to add an automatically generated table of contents ##
 
 Insert the symbols
 
@@ -385,4 +413,4 @@ Here are some useful specifics:
 
 * [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
 
-category: m
+category: meta
