@@ -62,9 +62,9 @@ This is theorem _xyz_ in _AdRo_ .
 
 =--
 
-This proposition extrapolates part of the Gabriel-Ulmer duality (see below), which concerns locally finitely presentable categories: 
+This proposition extrapolates part of the Gabriel--Ulmer duality (see below), which concerns locally finitely presentable categories: 
 
-+-- {: un_prop} 
++-- {: .un_prop} 
 
 ###### Proposition (as finite limit sketches) 
 
@@ -72,7 +72,7 @@ Every locally finitely presentable category $A$ is equivalent to the category of
 
 =--
 
-### Gabriel-Ulmer duality 
+### Gabriel--Ulmer duality 
 
 Let $Lex$ denote the [[2-category]] of small finitely complete categories, finitely continuous (i.e., finite limit preserving) functors, and [[natural transformation]]s between them. 
 
@@ -80,7 +80,7 @@ Let $LFP$ denote the 2-category of locally presentable categories, [[right adjoi
 
 +-- {: .un_prop} 
 
-###### Theorem (Gabriel-Ulmer duality) 
+###### Theorem (Gabriel--Ulmer duality) 
 
 There is a contravariant biequivalence 
 
@@ -125,7 +125,7 @@ The locally $\kappa$-presentable categories for $\kappa = \aleph_0$.
 
   * a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are $\aleph_0$-compact. 
 
-* More generally, by Gabriel-Ulmer duality, $Set^C$ is locally finitely presentable if $C$ is small. For, the finite limit completion of $C$, $Lex(C)$, is also small, and $Set^C$ is equivalent to the category of finitely continuous functors $Lex(C) \to Set$. 
+* More generally, by Gabriel--Ulmer duality, $Set^C$ is locally finitely presentable if $C$ is small. For, the finite limit completion of $C$, $Lex(C)$, is also small, and $Set^C$ is equivalent to the category of finitely continuous functors $Lex(C) \to Set$. 
 
 * More generally still, if $A$ is locally finitely presentable and $C$ is small, then $A^C$ is locally finitely presentable. 
 
