@@ -177,12 +177,14 @@ $$
 ### Geometric morphisms of sheaf topoi 
 {#sheaftopoi}
 
-For $X$ a [[topological space]], write $Sh(X) := Sh(Op(X))$ as usual for the [[topos]] given by the [[category of sheaves]] on the [[category of open subsets]] $Op(X)$ with the standard [[coverage]]
+Geometric morphisms between [[localic topoi]] are equivalent to [[continuous maps]] of [[locales]], which in turn are equivalent to continuous maps of [[topological spaces]] if you restrict to [[sober spaces]].
+
+Unrolling this: For $X$ a [[topological space]], write $Sh(X) := Sh(Op(X))$ as usual for the [[topos]] given by the [[category of sheaves]] on the [[category of open subsets]] $Op(X)$ with the standard [[coverage]]
 
 +-- {: .un_lemma}
 ###### Lemma
 
-For every continuous map $f : X \to Y$ of [[Hausdorff space|Hausdorff]] [[topological spaces]] with the induced [[functor]] $f^{-1} : Op(Y) \to Op(X)$ of [[sites]], the [[direct image]]
+For every continuous map $f : X \to Y$ of [[sober space|sober]] [[topological spaces]] with the induced [[functor]] $f^{-1} : Op(Y) \to Op(X)$ of [[sites]], the [[direct image]]
 
 $$
   f_* : Sh(X) \to Sh(Y)
@@ -246,7 +248,7 @@ $$
   \,.
 $$
 
-This yields a well defined function for the following reasons:
+This yields a well defined function for the following reasons (which for the moment we spell out in the case where $Y$ is [[Hausdorff space|Hausdorff]], although the result should hold ---and furthermore, hold [[constructive mathematics|constructively]]--- whenever $Y$ is sober):
 
 * there is at most one $y$ satisfying this equation: if $y_1 \neq y_2$ both satisfy it, there are, by assumption of $Y$ being [[Hausdorff space|Hausdorff]], neighbourhoods $V_1 \ni y_1$ and $V_2 \ni y_2$ such that (using that $f^*$ preserves limits hence intersections) $f^*(V_1) \cap f^*(V_2) = f^*(V_1 \cap V_2) = \emptyset$, which contradicts the assumption.
 
@@ -256,6 +258,8 @@ This yields a well defined function for the following reasons:
 Am I right that what we are really need of our space here is not necessarily that it be Hausdorff but simply that it be [[sober space|sober]]?  (Then the nonconstructive aspects of the argument ---which is what made me look at this--- come in only because the theorem that a Hausdorff space must be sober is not constructively valid.)  ---Toby
 
 [[Mike Shulman]]: Yes, that's exactly right.  All the complication defining $\bar f$ above is just an unrolled way of saying that geometric morphisms between [[locale|localic]] topoi are equivalent to continuous maps of locales, which are equivalent to continuous functions if you have sober spaces.  I think that should be clarified.
+
+_Toby_:  OK, I added a paragraph at the beginning of the example to clarify this.  I still need to rewrite the argument immediately above to apply to sober spaces.  (Everything else seems to go through exactly the same.)
 =--
 
 So our function $\bar f : X \to Y$ is well defined and satisfies $\bar f^{-1}(U_Y) = f^*(U_Y)$ for every open set $U_Y \in Obj(Op(Y))$. In particular it is therefore a continuous map.
@@ -284,6 +288,7 @@ $$
 The points $x \in X$ of the topological space $X$ are in canonical bijection with the points of $Sh(X)$ in the sense of [[point of a topos]].
 
 =--
+
 
 ## References
 
