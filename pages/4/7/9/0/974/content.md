@@ -13,6 +13,8 @@ A locally presentable category is one where every [[object]] is a [[colimit]] ov
 
 ## Definition ##
 
+There are many equivalent definitions of locally presentable categories.  The following is one of the most intuitive.
+
 +-- {: .un_defn}
 ###### Definition (locally presentable category)
 
@@ -22,31 +24,27 @@ A [[category]] $C$ is called **locally presentable** if
 
 * it has all small [[colimit]]s;
 
-* there exists a [[set]] $S$ (not a proper [[class]]) of [[object]]s that generates $C$ under colimits
-
-  (every object may be written as a colimit over a diagram with objects in $S$)
+* there exists a [[set]] $S$ (not a proper [[class]]) of [[object]]s that generates $C$ under colimits (in the sense that every object of $C$ may be written as a colimit over a diagram with objects in $S$); and
 
 * every object is a [[small object]].
-
 =--
 
-More specifically
-
+Since a small object is one which is $\kappa$-[[compact object|compact]] for some $\kappa$, and any $\kappa$-compact object is also $\lambda$-compact for any $\lambda\gt\kappa$, it follows that there exists some $\kappa$ such that every object of the colimit-generating set $S$ is $\kappa$-compact.  This provides a "stratification" of the class of locally presentable categories, as follows.
 
 +-- {: .un_defn}
-###### Definition ($\kappa$-locally presentable category)
+###### Definition (locally $\kappa$-presentable category)
 
-For $\kappa$ a [[cardinal number|regular cardinal]], a **locally $\kappa$-presentable category** is defined like a presentable category, only that every object is required to be a $\kappa$-[[compact object]].
+For $\kappa$ a [[cardinal number|regular cardinal]], a **locally $\kappa$-presentable category** is a locally presentable category such that the colimit-generating set $S$ may be taken to consist of $\kappa$-compact objects.
 
 =--
 
-So a locally presentable category is one which is locally $\kappa$-presentable for some regular cardinal $\kappa$.
+Thus, a locally presentable category is one which is locally $\kappa$-presentable for some regular cardinal $\kappa$ (hence also for every $\lambda\gt\kappa$).  In fact, in this case the fourth condition is redundant; once we know that there is a colimit-generating set consisting of $\kappa$-compact objects, it follows automatically that every object is $\lambda$-compact for some $\lambda$ (though there is no uniform upper bound on the required size of $\lambda$).  Moreover, colimit-generation is also stronger than necessary; it suffices to have a [[strong generator]] consisting of small objects.
 
 A locally $(\kappa = \aleph_0)$-presentable category is called a **locally finitely presentable category**.
 
 ### Equivalent definitions
 
-There are various equivalent statements of this definition.
+There are many other equivalent definitions of locally presentable categories.
 
 +-- {: .un_prop}
 ###### Proposition (as limit sketches)
