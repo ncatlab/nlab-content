@@ -40,3 +40,5 @@ This is proposition 5.1.3.1 in
 
 
 [[!redirects Yoneda lemma for (∞,1)-categories]]
+[[!redirects (infinity,1)-Yoneda lemma]]
+[[!redirects (∞,1)-Yoneda lemma]]
