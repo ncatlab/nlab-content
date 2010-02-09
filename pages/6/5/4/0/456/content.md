@@ -213,7 +213,7 @@ This map $Hom_{Top}(X,Y) \to GeomMor(Sh(X),Sh(Y))$ is an bijection of sets.
 
 That the induced pair $(f^*, f_*)$ forms a geometric morphism is (or should eventually be) discussed at [[inverse image]].
 
-We now show that the map is a bijection, i.e. that every geometric morphism of sheaf toposes arises this way from a continuous function. We follow page 348 of
+We now show that every geometric morphism of sheaf toposes arises this way from a continuous function, at least up to isomorphism.  (In fact, more is true: the category of geometric morphisms $Sh(X)\to Sh(Y)$ is equivalent to the poset of continuous functons $X\to Y$ with the [[specialization ordering]].)  We follow page 348 of
 
 * MacLane-Moerdijk, _[[Sheaves in Geometry and Logic]]_ .
 
@@ -237,9 +237,9 @@ that characterizes the subobject $U_Y$ in the [[topos]].
 
 But, as the notation already suggests, the subobjects of $X,Y$ are just the open sets, i.e. the representable sheaves.
 
-This yields a _function_ $f^* : Obj(Op(Y)) \to Obj(Op(X))$ from open subsets to open subsets of which we know by assumption that it preserves finite limits and arbitrary colimits, i.e. finite intersections and arbitrary unions of open sets.
+This yields a _function_ $f^* : Obj(Op(Y)) \to Obj(Op(X))$ from open subsets to open subsets.  By assumption, this preserves finite limits and arbitrary colimits, i.e. finite intersections and arbitrary unions of open sets.  In other words, it is a [[frame|frame homomorphism]], and thus can be regarded as a morphism $X\to Y$ of [[locales]].
 
-Using this define a function $\bar f : X \to Y$ of the sets underlying the topological spaces $X$ and $Y$ by setting
+We can now use this to define a function $\bar f : X \to Y$ of the sets underlying the topological spaces $X$ and $Y$ by setting
 
 $$
   (\bar f(x) = y)
