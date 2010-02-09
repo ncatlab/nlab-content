@@ -6,8 +6,9 @@
 
 ## Idea 
 
+Pairs of adjoint functors between the categories of sheaves appear in varius setups, e.g. geometric morphisms of topoi, abelian categories of quasicoherent sheaves on schemes, bounded derived categories of coherent sheaves on varieties. 
 
-Generally, the [[right adjoint]] part $f_*$ of any [[geometric morphism]] 
+For example, the [[right adjoint]] part $f_*$ of any [[geometric morphism]] 
 
 $$  
   (f^* \dashv f_*) \;\; : E_1  \stackrel{\leftarrow}{\to} E_2
