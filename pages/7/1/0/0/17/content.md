@@ -321,7 +321,7 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
 # How to use the SVG editor {#svgedit}
 
-There is now an SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/).
+There is now a WYSIWYG SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/). The Instiki implementation is not feature-complete, yet. In particular, it should be possible to embed itex equations, but those don't show up in the editor (currently).
 
 ## Quick Start
 
@@ -331,26 +331,28 @@ There is now an SVG-editor embedded within Instiki (the software running the nLa
 4. The SVG-editor will now launch in a new window.  Create your SVG.
 5. When you are done, select "Save SVG" from the file menu.  The SVG code will now appear in the edit box of the page.
 
++-- {: style="text-align:center"}
 <svg width="277" height="172" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
-   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_2" y="77" x="268.5">Y</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_3" y="172" x="116.5">Z</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_4" y="76" x="115.5">Y x Z</text>
-  <path marker-end="url(#se_arrow_fw)" id="svg_5" d="m31.5,8c71,-9 155,-10 216,41" stroke-width="5" stroke="#000000" fill="none"/>
-  <path marker-end="url(#se_arrow_fw)" id="svg_6" d="m5.5,27c2,62 54,134 87,136" stroke-width="5" stroke="#000000" fill="none"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_7" y2="135" x2="116.5" y1="87" x1="114.5"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_8" y2="68" x2="245.5" y1="67" x1="156.5"/>
-  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)" fill="none" stroke-width="5" stroke="#000000" id="svg_9" y2="50" x2="73.5" y1="30" x1="29.5"/>
-  <text x="8.5" y="18" id="svg_1" fill="#000000" stroke="#000000" stroke-width="0" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">X</text>
+  <text x="248.5" y="77" id="svg_2" fill="#000000" stroke="#000000" stroke-width="0" font-size="16" font-family="serif" text-anchor="middle" xml:space="preserve">Y</text>
+  <text x="117.5" y="157" id="svg_3" fill="#000000" stroke="#000000" stroke-width="0" font-size="16" font-family="serif" text-anchor="middle" xml:space="preserve">Z</text>
+  <text x="115.5" y="76" id="svg_4" fill="#000000" stroke="#000000" stroke-width="0" font-size="16" font-family="serif" text-anchor="middle" xml:space="preserve">Y &#215; Z</text>
+  <path fill="none" stroke="#000000" stroke-width="2" d="m39.5,28.85708c37.004852,-4.907068 137.927185,-3.907068 198,31.14292" id="svg_5" marker-end="url(#se_arrow_fw)"/>
+  <path fill="none" stroke="#000000" stroke-width="2" d="m26.5,46c1.770121,48.323517 47.793098,104.441177 77.000008,106" id="svg_6" marker-end="url(#se_arrow_fw)"/>
+  <line x1="114.5" y1="87" x2="116.5" y2="135" id="svg_7" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <line x1="146.5" y1="71" x2="235.5" y2="72" id="svg_8" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <line x1="42.5" y1="40" x2="86.5" y2="60" id="svg_9" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)" stroke-dasharray="5,5"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-width="0" stroke="#000000" fill="#000000" id="svg_1" y="35" x="27.5">X</text>
  </g>
-</svg> 
+</svg>
+=--
 
 ## Hints and Tips
 
@@ -383,4 +385,4 @@ Here are some useful specifics:
 
 * [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
 
-category: meta
+category: m
