@@ -9,7 +9,7 @@ A *well-connected* [[topological space]] is one that satisfies sufficiently stro
 
 * The path fibration $P X \to X$ of a [[path-connected space]] admits local sections if and only if $X$ is [[locally contractible space|locally relatively contractible]].
 
-* [[CW complex]]es are the most well-connected spaces, having a contractible basis of open sets (which is stronger than local contractibility).
+* [[CW complex]]es are the \'most\' well-connected spaces, having a basis of open sets which are themselves contractible as spaces.
 
 
 [[!redirects well-connected space]]
