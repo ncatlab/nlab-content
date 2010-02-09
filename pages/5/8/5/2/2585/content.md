@@ -124,6 +124,63 @@ In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental 
 Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
 
 
+### By monodromy
+
+We describe how, given the existence of 
+a [[left adjoint] $\Pi : Sh_{(\infty)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ as described above, the geometric homotopy groups of an object $X \in Sh_{(\infty,1)}(C)$ may be found in the [[automorphism]] [[∞-group]] of a fiber functor $F_x :  CovBund(X) \to \infty Grpd$ -- these automorphism are called the **monodromy** of $X$.
+
+By adjunction we have
+
+$$
+  CovBund(X) \simeq \infty Grpd(\Pi(X), \infty Grpd)
+  \,.
+$$
+
+From this we learn that for $x : * \to X$ any point of $X$ we have a morphism
+
+$$
+  F_x = CovBund(X) \to \infty Grpd
+$$
+
+given by precomposition of objects in $\infty Grpd(\Pi(X), \infty Grpd)$
+with $x : * \to \Pi(X)$.
+
+Let $\Omega_x \Pi(X)$ be the [[loop space object]] of $\Pi(X)$ at $X$. We have a canonical embedding of this [[∞-group]] into the automorphism $\infty$-group of $F_x$
+
+$$
+  \Omega_x \Pi(X) \hookrightarrow Aut_{Sh_{(\infty,1)}(X)}(F_x)
+$$
+
+given by precomposition: the object of $\Omega_x \Pi(X)$ given by 
+
+$$
+  \array{  
+     & \nearrow \searrow^{\mathrlap{x}}
+     \\
+    {*} &\Downarrow^{\ell}& \Pi(X)
+    \\
+    & \searrow \nearrow_{\mathrlap{x}}
+  }
+$$
+
+is sent to the automorphism of $F_x$ whose component on an object $E \in CovBund(X) \simeq [\Pi(X),\infty Grpd]$ is
+
+$$
+  \array{  
+     & \nearrow \searrow^{\mathrlap{x}}
+    \\
+    {*} &\Downarrow^{\ell}& \Pi(X) &\stackrel{E}{\to}& \infty Grpd
+    \\
+    & \searrow \nearrow_{\mathrlap{x}}
+  }
+  \,.
+$$
+
+
+> [[Urs Schreiber]]: now one needs to argue that all automorphisms of $F_x$ arise this way, up to equivalence. Looking at what this all means for naturality squares on low degree morphisms that seems to be right to me, but I am not sure yet how to give a general formal argument.
+
+
+
 ### History {#GeometricHistory}
 
 The idea that geometric homotopy groups of generalized [[space]]s given by [[sheaf|sheaves]], [[stack]]s, [[∞-stack]]s is detected and definable by the behaviour of locally constant sheaves, stacks, $\infty$-stacks on these objects goes back to [[Grothendieck's Galois theory]] and the notion of [[fundamental group of a topos]]. In [[Pursuing Stacks]] [[Alexander Grothendieck|Grothendieck]] talked about how this 1-categorical situation generalizes to [[∞-stack]]s. 
