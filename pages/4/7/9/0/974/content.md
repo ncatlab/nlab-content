@@ -167,7 +167,17 @@ The following three examples, being presheaf categories, are locally finitely pr
 
 * for $C$ a [[small category]] the [[functor category]] $Funct(C,SSet)$ of [[simplicial presheaf|simplicial presheaves]]. 
 
-More generally, we have the following stability theorems: 
+More generally, 
+
+* A [[Grothendieck topos]] is locally presentable. 
+
++--{.query} 
+
+A proof may be found in Borceux's Handbook of Categorical Algebra: Categories of Sheaves (proposition 3.4.16), page 220. 
+
+=--
+
+More generally still, we have the following stability theorems: 
 
 * If $A$ is locally presentable and $C$ is small, then $A^C$ is locally presentable. 
 
