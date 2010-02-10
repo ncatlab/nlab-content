@@ -99,17 +99,34 @@ The analogs of topos theory in [[higher category theory]] is [[higher topos theo
 
 A well developed case is that of [[(∞,1)-topos]]es.
 
-#References#
+## References {#References}
 
-* P. Johnstone, _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+A quick introduction of the basic facts of topos theory is chapter I, "Background in topos theory" in 
 
-* R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983).
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]]
+Another survey is
+
+* [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
+
+A standard textbook is
+
+* [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp.
+
+This later grew into the more detailed
 
 * [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
 
-* R. Street, _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
+A standard textbook on [[Grothendieck topos|sheaf topos]]es is
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
+There is also
+
+* R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983).
+
+
+
 
 
 [[!redirects topoi]]
