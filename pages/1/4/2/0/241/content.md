@@ -58,15 +58,21 @@ The notion of Grothendieck topos and its characterization from Giraud-type prope
 
 ##References##
 
-Grothendieck topoi appear around section IIIm,4 of
+A quick introduction of the basic facts of sheaf-topos theory is chapter I, "Background in topos theory" in 
 
-* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
 
+A standard textbook on this case is
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
+
+Grothendieck topoi appear around section III,4 there.
 A proof of Giraud's theorem is in appendix A.
 
 The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects Grothendieck topoi]]
