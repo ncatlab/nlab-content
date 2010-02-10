@@ -560,16 +560,14 @@ Then
 * the _geometric_ homotopy groups of $S^1$ are the usual ones obtained from regarding $S^1$ as an object in [[Top]]:
 
   $$  
-    \pi_n^{geom}(S^1) = 
-    \left\{
-      \array{
-         \mathbb{Z} & | if\; n=1
-         \\
-         * & | otherwise
-      }
-    \right.
-    \,.
+    \pi^{geom}_0(S^1) = *
   $$
+
+  $$  
+    \pi^{geom}_1(S^1) = \mathbb{Z}
+  $$
+
+  etc.
 
 For $\mathbf{B}\mathb{Z}$ it is the other way round:
 
