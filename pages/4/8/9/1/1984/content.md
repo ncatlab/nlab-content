@@ -1,6 +1,6 @@
-This entry will be about Pierre Deligne's article
+This entry is about [[Pierre Deligne]]'s article
 
-__Cat&#233;gories Tannakiennes__, [[Grothendieck Festschrift]], vol. II,  Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.
+* __Cat&#233;gories Tannakiennes__, [[Grothendieck Festschrift]], vol. II,  Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.
 
 The main theorem is a [[Tannaka duality|Tannakian reconstruction theorem]], which repairs a problem in the book 
 
