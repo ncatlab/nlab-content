@@ -1,13 +1,12 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axiom that the [[Set|category of sets]] has [[projective object|enough projectives]]; in short: COSHEP (pronounced /ko:-shep/). This is a weak form of the [[axiom of choice]].
+In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axiom that the [[Set|Category Of Sets]] Has [[projective object|Enough Projectives]]; in short: **COSHEP** (pronounced /ko:-shep/).  This is also known as the **presentation axiom** "PAx."   It is a weak form of the [[axiom of choice]].
 
-In elementary terms, this states that for every set $A$, for some set $P$, there is a [[surjection]] $P \to A$, and every surjection $X \to P$ has a [[section]]. (Note that the axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with algebra (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of constructivism, we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
+In elementary terms, COSHEP states that for every set $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]]. (Note that the full axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with algebra (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of constructivism, we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
 
 
 ## Consequences
@@ -48,7 +47,12 @@ The presentation axiom was, however, adopted by [[Erik Palmgren]] in $\mathbf{CE
 
 *  Erik Palmgren.  _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_.  [pdf](http://www.math.uu.se/~palmgren/cetcs.pdf).
 
+Its relationship to some other weak axioms of choice is studied in
+
+* Michael Rathjen.  _Choice principles in constructive and classical set theories_.
+
 
 [[!redirects presentation axiom]]
+[[!redirects PAx]]
 
 category: foundational axiom
