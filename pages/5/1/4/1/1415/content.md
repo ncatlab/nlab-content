@@ -263,7 +263,141 @@ $$
 \mathfrak{B}
 $$
 
+---
+
+<svg width="21ex" height="21.6ex" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <foreignObject x="4ex" y="4ex" width="2.5ex" height="2.8ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mspace width="0ex" height="1.8ex"/>
+      <mi>A</mi>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <foreignObject x="14.5ex" y="4ex" width="2.5ex" height="2.8ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mspace width="0ex" height="1.8ex"/>
+      <mi>B</mi>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <foreignObject x="4ex" y="14.8ex" width="2.5ex" height="2.8ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mspace width="0ex" height="1.8ex"/>
+      <mi>C</mi>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <foreignObject x="14.5ex" y="14.8ex" width="2.5ex" height="2.8ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mspace width="0ex" height="1.8ex"/>
+      <mi>D</mi>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <foreignObject x="9.5ex" y="2.6ex" width="2ex" height="2.8ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mrow>
+       <mi>f</mi>
+      </mrow>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <foreignObject x="3.25ex" y="9.8ex" width="2ex" height="2.8ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <foreignObject x="15.75ex" y="9.8ex" width="2ex" height="2.2ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mrow>
+       <mi>g</mi>
+      </mrow>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <foreignObject x="9.5ex" y="17ex" width="2ex" height="2.8ex">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mstyle displaystyle="false">
+     <mrow>
+      <mrow>
+       <mi>h</mi>
+      </mrow>
+     </mrow>
+    </mstyle>
+   </math>
+  </foreignObject>
+  <svg width="21ex" height="21.6ex" viewBox="0 0 21 21.6">
+   <mask id="ClipB" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="21" height="21.6">
+    <rect x="0" y="0" width="21" height="21.6" fill="white"/>
+    <g transform="translate(14, 5.4) scale(0.1) rotate(0) translate(-10, -5)">
+     <path d="m0,0l10,5l-10,5l10,0l0,-10z" fill="black"/>
+    </g>
+   </mask>
+   <g transform="translate(14, 5.4) scale(0.1) rotate(0) translate(-10, -5)">
+    <path d="m0,0l10,5l-10,5" fill="none" stroke="black"/>
+   </g>
+   <path d="m7,5.4l7,0" fill="none" stroke="black" stroke-width="0.1" mask="url(#ClipB)"/>
+   <mask id="ClipC" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="21" height="21.6">
+    <rect x="0" y="0" width="21" height="21.6" fill="white"/>
+    <g transform="translate(5.25, 14.3) scale(0.1) rotate(90) translate(-10, -5)">
+     <path d="m0,0l10,5l-10,5l10,0l0,-10z" fill="black"/>
+    </g>
+   </mask>
+   <g transform="translate(5.25, 14.3) scale(0.1) rotate(90) translate(-10, -5)">
+    <path d="m0,0l10,5l-10,5" fill="none" stroke="black"/>
+   </g>
+   <path d="m5.25,7.3l0,7" fill="none" stroke="black" stroke-width="0.1" mask="url(#ClipC)"/>
+   <mask id="ClipD" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="21" height="21.6">
+    <rect x="0" y="0" width="21" height="21.6" fill="white"/>
+    <g transform="translate(15.75, 14.3) scale(0.1) rotate(90) translate(-10, -5)">
+     <path d="m0,0l10,5l-10,5l10,0l0,-10z" fill="black"/>
+    </g>
+   </mask>
+   <g transform="translate(15.75, 14.3) scale(0.1) rotate(90) translate(-10, -5)">
+    <path d="m0,0l10,5l-10,5" fill="none" stroke="black"/>
+   </g>
+   <path d="m15.75,7.3l0,7" fill="none" stroke="black" stroke-width="0.1" mask="url(#ClipD)"/>
+   <mask id="ClipE" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0" width="21" height="21.6">
+    <rect x="0" y="0" width="21" height="21.6" fill="white"/>
+    <g transform="translate(14, 16.2) scale(0.1) rotate(0) translate(-10, -5)">
+     <path d="m0,0l10,5l-10,5l10,0l0,-10z" fill="black"/>
+    </g>
+   </mask>
+   <g transform="translate(14, 16.2) scale(0.1) rotate(0) translate(-10, -5)">
+    <path d="m0,0l10,5l-10,5" fill="none" stroke="black"/>
+   </g>
+   <path d="m7,16.200001l7,0" fill="none" stroke="black" stroke-width="0.1" mask="url(#ClipE)"/>
+  </svg>
+ </g>
+</svg>
+
 
 category: meta
 
-[[!redirects SVG Sandbox]]
+[[!redirects SVG Sandbox]
