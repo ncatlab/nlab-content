@@ -63,7 +63,6 @@ As in classical [[homotopy theory]], for $n \geq 1$ the object $\pi_n(X)$ is equ
 **Remark** The [[n-truncated object of an (infinity,1)-topos|0-truncated]] objects in $\mathbf{H}/X$ have the interpretation of [[sheaf|sheaves]] on $X$. So in the world of [[∞-stack]]s a homotopy [[group object]] is a [[sheaf]] of groups.
 
 
-
 ### References
 
 section 6.5.1 of
@@ -221,6 +220,43 @@ $$
 $$
 
 
+### The geometric fundamental $\infty$-groupoid {#PiConstruction}
+
+We now discuss the construction of the [[nLab:left adjoint]] $\Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ when it exists.
+
+> [[Urs Schreiber]]: for the moment this discussion is a bit incomplete. The concrete construction we describe is well known but it hasn't been interpreted in the context of [[higher topos theory]] as we do now and not been realized as a left adjoint $\infty$-functor. (But some glimpses of it do appear, for instance $\Pi_0$ as the left adjoint to $LConst$ in a [[locally connected topos]] is well known.) To be expanded...
+
+
+Let $C$ be a [[site]] such that $Sh(C)$ is a [[locally connected topos]] so that we have
+
+$$
+  (\Pi_0 \dashv LConst) : Sh(C) \stackrel{\leftarrow}{\to} Set
+  \,.
+$$
+
+Use the local [[model structure on simplicial sheaves]] $sSh(C)_{proj}^{loc} \simeq [\Delta^{op},Sh(C)]_{proj}^{loc}$ to model $Sh_{(\infty,1)}(C)$. Then for $X = X_\bullet \in [\Delta^{op},Sh(C)]$ let $\hat X_\bullet$ be a cofibrant replacement that is degreewise a coproduct of representables. Such always exists, as discussed [here](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects). Applying $\Pi_0 : Sh(C) \to Set$ degreewise yields a simplicial set
+
+$$
+  \Pi(X) := \Pi_0(\hat X_\bullet) \in sSet
+  \,.
+$$
+
+More explicitly, if $\hat X_n = \coprod_{i_n} U_{i_n}$ so that $\hat X = \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} U_{i_n}\right)$ such that all $U_{i_n}$ are connected, then $\Pi(X)$ is the simplicial set
+
+$$
+  \Pi(X) = \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} *\right)
+  \,.
+$$
+
+This is, slightly generalized, the construction discussed on page 18 of
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995) .
+
+> For this to give the right answer, we will need to assume moreover that $Sh_{(\infty,1)}(C)$ is a [[locally contractible (∞,1)-topos]], where each representable $U_{i_n}$ above is not only connected, but contractible in that $\Pi(U_{i_n}) \simeq *$. More on that later. See the examples on this below, in particular the Artin-Mazur theorem.
+
+
+
+
 
 ### History {#GeometricHistory}
 
@@ -245,19 +281,19 @@ It was pointed out by [[Richard Williamson]] that the construction should genera
 
 
 
-### Examples {#Examples}
+### Examples {#GeomExamples}
 
 
 #### Geometric $\Pi_0$ of a sheaf on a locally connected topological space {#Pi0Ofsheafontopspace}
 
-Here we discuss the 0-th geometric homotopy group $\Pi_0 : Sh(X) \to Set$ of objects in a [[Grothendieck topos|sheaf topos]] in terms of a [[left adjoint]] $\Pi_0$ of the [[constant sheaf]] functor.
+Here we discuss the 0-th geometric homotopy group $\Pi_0 : Sh(X) \to Set$ of objects in a [[Grothendieck topos|sheaf topos]] in terms of a [[left adjoint]] $\Pi_0$ of the [[constant sheaf]] functor. This is a special case of the more general situation discussed in [Pi0 of a general object in a locally connected topos](Pi0InLocConTop) below.
 
-> [[Urs Schreiber]]: this here should be evident, but I can't see it in the literature. For the terminal sheaf (the topological space itself), it is a special case of the statements in terms of higher stacks that follow.
+
 
 Let $X$ be a sufficiently nice [[topological space]]. 
 
-+-- {: .un_theorem}
-###### Claim
++-- {: .un_proposition}
+###### Observation
 
 There is a triple of [[adjoint functor]]s
 
@@ -305,16 +341,23 @@ $$
 
 =--
 
-#### Geometric $\Pi_0$ of a general object in a locally connected topos
+#### Geometric $\Pi_0$ of a general object in a locally connected topos {#Pi0InLocConTop}
 
-If $E$ is a [[locally connected topos]] then the [[global section]]s [[geometric morphism]] $(LConst \dashv \Gamma) : E \stackrel{\leftarrow}{\to} Set$ has also a [[left adjoint]] 
+More generally, if $E$ is a [[locally connected topos]] then the [[global section]]s [[geometric morphism]] $(LConst \dashv \Gamma) : E \stackrel{\leftarrow}{\to} Set$ has also a [[left adjoint]] $\Pi_0$ to $LConst$:
 
 $$
   (\Pi_0 \dashv LConst \dashv \Gamma) :
   E \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  Set
+  \,.
 $$
 
-... (running out of battery...)
+For instance page 17 of
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+
+
+
 #### Geometric $\pi_1$ of objects in a 1-topos
 
 The general idea is that of 
@@ -459,11 +502,13 @@ $$
 For $K = Core(\infty Grpd)$ this is the $\pi_0$-[[decategorification]] of the above statement.
 
 
-#### Geometric $\Pi_\infty$ of the terminal object in a general $(\infty,1)$-topos 
+#### Geometric $\Pi_\infty$ of the terminal object in a locally connected $(\infty,1)$-topos {#GeomPiOfTermObj}
   
-page 18-19 of
+On page 18-19 of
 
 * [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+
+is described the construction of $\Pi(X) \in \infty Grpd$ for $X$ the [[terminal object]] in $Sh_{(\infty,1)}(C)$ on an ordinary [[site]] $C$ with $\Pi(X)$ as described above in [Geometric fundamental oo-groupoid](PiConstruction).
 
 This reviews in particular (slightly implicitly)
 
@@ -490,25 +535,19 @@ M. Artin, B. Mazur, _Etale homotopy_ , Springer lecture notes in mathematics 100
 
 =--
 
-
-#### Geometric $\Pi_\infty$ of a general object in a locally contractible $(\infty,1)$-topos 
-
-The formula discussed above for the homotopy groups of the _terminal_ object in an $(\infty,1)$-topos generalizes verbatim to that of any other object: just take te limit not over all simplicial objects sitting by an acyclic fibration  over the terminal one, but over any other one.
-
-(... to be expanded ...)
+Notice the local contractibility assumption. This is necessary in general for $\Pi(X)$ to make sense.
 
 
 
 
 
-
-## Examples
+## Examples {#GeneralExamples}
 
 Let $C =$ [[Diff]] and consider in $Sh_{(\infty,1)}(Diff)$ the two objects
 
 * $S^1$, the $\infty$-stack represented by the standard circle in $Diff$;
 
-* $\mathbf{B}\mathbb{Z}$ -- the $\inty$-stack constant on the [[delooping]] [[groupoid]] of the additive group $\mathbb{Z}$.
+* $\mathbf{B}\mathbb{Z}$ -- the $\infty$-stack constant on the [[delooping]] [[groupoid]] of the additive group $\mathbb{Z}$.
 
 Then
 
