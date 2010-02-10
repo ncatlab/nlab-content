@@ -76,7 +76,7 @@ section 6.5.1 of
 
 > **Warning** The whole following discussion glosses over size issues. We need to go through this and add some cardinality bounds here and there to keep things under control.
 
-### Idea
+### Idea {#GeomIdea}
 
 Let $C$ be some [[site]] and let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-topos]] of [[∞-stack]]s over $C$. We think of objects $X \in \mathbf{H}$ as generalized [[space]]s modeled on $C$.
 
@@ -126,7 +126,7 @@ In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental 
 Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
 
 
-### Monodromy
+### Monodromy {#Monodromy}
 
 We describe how, given the existence of 
 a [[left adjoint] $\Pi : Sh_{(\infty)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ as described above, the geometric homotopy groups of an object $X \in Sh_{(\infty,1)}(C)$ may be found in terms of the [[automorphism]] [[∞-group]] of a fiber functor 
