@@ -1,13 +1,72 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
-...one of the [[reconstruction theorem]]s ...
+Tannaka duality or _Tannaka [[reconstruction theorem]]s_ are statements of the form:
 
-...
+for $A$ some algebraic structure, [[representation|represented]] on objects in a category $D$, one may _reconstruct_ $A$ from knowledge of the [[endomorphism]]s of the forgetful functor -- the **fiber functor** --
+
+$$
+  F : Rep_D(A) \to D
+$$
+
+from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on objects of $D$ that remembers these underlying objects.
 
 ## For permutation representations 
 
-Let $G$ be a [[group]] and $\mathbf{B}G$ its [[delooping]] groupoid. Then the category of permutation [[representation]]s of $G$ is
+A simple case of Tannaka duality is that of [[permutation representation]]s of a [[group]], i.e. representations on a [[set]]. In this case, Tannaka duality follows entirely from repeated application of the [[Yoneda lemma]].
+
+
++-- {: .un_theorem}
+###### Theorem
+**(Tannaka duality for permutation representations)**
+
+Let $G$ be a [[group]], $Rep_{Set}(G)$ the category of its [[permutation representation]]s and $F : Rep_{Set}(G) \to Set$ the forgetful functor that sends a representation to its underlying set.
+
+Then there is a canonical [[isomorphism]] of [[group]]s
+
+$$
+  Aut(F) \simeq G
+  \,.
+$$
+
+Here $Aut(F)$ denotes the group of invertbile [[natural transformation]]s from $F$ to itself.
+
+=--
+
++-- {: .proof}
+###### Quick Proof
+
+
+With a bit of evident abuse of notation, the proof is a one-line sequence of applications of the [[Yoneda lemma]]: 
+
+Write $C := Set^G = Rep_{Set}(G)$.
+Observe that the functor $F : C \to Set$ is the [[representable functor|representable]] $F = C(G, -)$. Then the argument is 
+
+$$
+  Aut(F) = End(F)
+  =
+  Set^C(F, F) 
+    \cong 
+  Set^C(C(G, -), C(G, -)) 
+    \cong 
+  C(G, G) 
+   \cong 
+  G.
+$$
+
+The "$G$" here is used in multiple senses, but each sense is deducible from context.
+
+=--
+
++-- {: .proof}
+###### Long-winded Proof
+
+ 
+Let $\mathbf{B}G$ be the [[delooping]] [[groupoid]]. Then 
 
 $$
   Rep_{Set}(G) := Func(\mathbf{B}G^{op}, Set)
@@ -55,4 +114,4 @@ $$
   \end{aligned}
 $$
 
-This way the group $G$ is reconstructed as the automorphism group of the fiber functor from its category of permutation representations.
+=--
