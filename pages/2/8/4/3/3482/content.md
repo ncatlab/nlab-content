@@ -20,4 +20,17 @@ Precisely, SOSHWIS is the statement that for any set $X$, the full subcategory $
 
 * SOSHWIS implies that the category of [[anafunctors]] between any two [[small categories]] is [[essentially small category|essentially small]]; see [here](/nlab/show/anafunctor#SizeQuestions).
 
+
+## In other sites
+
+Let $(C,J)$ be a [[site]] with a singleton Grothendieck pretopology. It makes sense to consider a version of SOSHWIS for $C$, along the lines of the following: Let $C/_{cov}a$ be the full subcategory of the slice category $C/a$ consisting of the covers. Internal SOSHWIS is then
+
+* For all objects $a$ of $C$, $C/_{cov}a$ has a weakly initial set.
+
+For example, assuming SOSHWIS for $Set$, the category $Top$ with any of its usual pretopologies satisfies internal SOSHWIS.
+
+More generally, for a non-singleton pretopology on $C$, we can reformulate SOSHWIS along the lines of \'there is a set of covering families cofinal in the collection of all covering families of any object\'. ([[David Roberts]]: obviously this needs to be written better, and in a nicer format. Perhaps it needs it own page.)
+
+
+
 category: foundational axiom
