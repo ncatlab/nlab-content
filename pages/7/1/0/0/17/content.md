@@ -358,6 +358,7 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
 3. In the list on the right-hand side above the links to the formatting tips is a button labelled "Create SVG graphic".  Click on this.  Note: if you forget to do step 2, you won't be able to click on this button.
 4. The SVG-editor will now launch in a new window.  Create your SVG.
 5. When you are done, select "Save SVG" from the file menu.  The SVG code will now appear in the edit box of the page.
+6. To edit an **existing** SVG, select the text between (and including) the `<svg>` and `</svg>` tags (but **don't** include any whitespace before or afterwards).  The "Create SVG" button changes to "Edit existing SVG graphic". 
 
 +-- {: style="text-align:center"}
 <svg width="277" height="172" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
@@ -388,7 +389,7 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
 
 2. To get a curved arrow, you use another of the options --- the one to turn the line into a 'path'. After turning the line into a path, double-click on it. This brings up the path options, which include whether the path should be 'straight' or 'curved'. Curved paths are [cubic B&#233;zier curves](http://en.wikipedia.org/wiki/B&#233;zier_curve) and can also have arrowheads.
 
-3. To edit an **existing** SVG, select the text between (and including) the `<svg>` and `</svg>` tags (but **don't** include any whitespace afterwards).  The "Create SVG" button changes to "Edit existing SVG graphic". 
+3. You can clone an existing element (an arrow, say), using the rubber-stamp tool.
 
 4. To get rid of any extraneous whitespace around the picture, go to the "Main Menu" (the funny looking button top left) and select "Document Properties".  There you can set the size of the SVG, including "fit to content".  Only do this once the SVG is finished.
 
