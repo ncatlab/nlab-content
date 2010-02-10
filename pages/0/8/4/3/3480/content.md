@@ -5,7 +5,7 @@
 
 ## Idea
 
-Tannaka duality or _Tannaka [[reconstruction theorem]]s_ are statements of the form:
+[[Tannaka]] duality or _Tannaka [[reconstruction theorem]]s_ are statements of the form:
 
 for $A$ some algebraic structure, [[representation|represented]] on objects in a category $D$, one may _reconstruct_ $A$ from knowledge of the [[endomorphism]]s of the forgetful functor -- the **fiber functor** --
 
@@ -115,3 +115,26 @@ $$
 $$
 
 =--
+## References
+
+* [[André Joyal]], [[Ross Street]], _An introduction to Tannaka duality and quantum groups_, [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)
+
+* Pierre Deligne, [[Catégories Tannakiennes]]
+
+The following paper shortens the Deligne's proof 
+
+* [[Alexander Rosenberg|Alexander L. Rosenberg]],  _The existence of fiber functors_,  The Gelfand Mathematical Seminars, 1996--1999,  145--154, Birkh&#228;user, Boston 2000.
+
+Ulbrich made a major contribution at the coalgebra and Hopf algebra level
+
+* K-H. Ulbrich, _On Hopf algebras and rigid monoidal categories_, in special volume, Hopf algebras, Israel J. Math. 72 (1990), no. 1-2, 252--256. 
+
+A generalization of several classical reconstruction theorems with nontrivial [[functional analysis]] is in 
+
+* [[Alexander Rosenberg|Alexander L. Rosenberg]],  _Reconstruction of groups_, Selecta Math. (N.S.) __9__, 1 (2003), 101--118, [doi](http://dx.doi.org/10.1007/s00029-003-0322-x).
+
+Categorically oriented notes were written also by Pareigis, emphasising on using [[coend|Coend]] in dual picture. His works can be found [here](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html) but the most important is the chapter 3 of his online book
+
+* Bodo Pareigis, _Quantum groups and noncommutative geometry_, Chapter 3: Representation theory, reconstruction and Tannaka duality, [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/98SS/Quantum_Groups/LN3.PDF)
+
+[[!redirects Tannaka reconstruction]]
