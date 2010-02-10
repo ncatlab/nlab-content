@@ -248,7 +248,7 @@ It was pointed out by [[Richard Williamson]] that the construction should genera
 ### Examples {#Examples}
 
 
-#### Geometric $\Pi_0$ of a sheaf on a topological space {#Pi0Ofsheafontopspace}
+#### Geometric $\Pi_0$ of a sheaf on a locally connected topological space {#Pi0Ofsheafontopspace}
 
 Here we discuss the 0-th geometric homotopy group $\Pi_0 : Sh(X) \to Set$ of objects in a [[Grothendieck topos|sheaf topos]] in terms of a [[left adjoint]] $\Pi_0$ of the [[constant sheaf]] functor.
 
@@ -305,7 +305,16 @@ $$
 
 =--
 
+#### Geometric $\Pi_0$ of a general object in a locally connected topos
 
+If $E$ is a [[locally connected topos]] then the [[global section]]s [[geometric morphism]] $(LConst \dashv \Gamma) : E \stackrel{\leftarrow}{\to} Set$ has also a [[left adjoint]] 
+
+$$
+  (\Pi_0 \dashv LConst \dashv \Gamma) :
+  E \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+$$
+
+... (running out of battery...)
 #### Geometric $\pi_1$ of objects in a 1-topos
 
 The general idea is that of 
@@ -450,9 +459,94 @@ $$
 For $K = Core(\infty Grpd)$ this is the $\pi_0$-[[decategorification]] of the above statement.
 
 
+#### Geometric $\Pi_\infty$ of the terminal object in a general $(\infty,1)$-topos 
+  
+page 18-19 of
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+
+This reviews in particular (slightly implicitly)
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $X$ be a [[topological space]] that has a basis of contractible open subsets. Write $X$ also for $X$ regarded as the terminal object in $Sh_{(\infty,1)}(X)$. Then the image of $X$ under $\Pi : Sh_{(\infty,1)}(X) \to \infty Grpd$ has the same homtopy groups as $X$ regarded as an object in [[Top]]:
+
+$$
+  \pi_n \Pi(X) \simeq \pi_n(X)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a slight reformulation of the statement in
+
+M. Artin, B. Mazur, _Etale homotopy_ , Springer lecture notes in mathematics 100, Berlin 1969
+
+
+=--
+
+
+#### Geometric $\Pi_\infty$ of a general object in a locally contractible $(\infty,1)$-topos 
+
+The formula discussed above for the homotopy groups of the _terminal_ object in an $(\infty,1)$-topos generalizes verbatim to that of any other object: just take te limit not over all simplicial objects sitting by an acyclic fibration  over the terminal one, but over any other one.
+
+(... to be expanded ...)
 
 
 
+
+
+
+## Examples
+
+Let $C =$ [[Diff]] and consider in $Sh_{(\infty,1)}(Diff)$ the two objects
+
+* $S^1$, the $\infty$-stack represented by the standard circle in $Diff$;
+
+* $\mathbf{B}\mathbb{Z}$ -- the $\inty$-stack constant on the [[delooping]] [[groupoid]] of the additive group $\mathbb{Z}$.
+
+Then
+
+* the _categorical_ homotopy groups of $S^1$ are all trivial
+
+  $$
+    \pi_n^{cat}(S^1) = {*}
+  $$
+
+* the _geometric_ homotopy groups of $S^1$ are the usual ones obtained from regarding $S^1$ as an object in [[Top]]:
+
+  $$  
+    \pi_n^{geom}(S^1) = 
+    \left\{
+      \array{
+         \mathbb{Z} & | if\; n=1
+         \\
+         * & | otherwise
+      }
+    \right.
+    \,.
+  $$
+
+For $\mathbf{B}\mathb{Z}$ it is the other way round:
+
+* the _categorical_ homotopy groups of $\mathbf{B}\mathbb{Z}$ are 
+
+  $$  
+    \pi_n^{cat}(\mathbf{B}\mathbb{Z}) = 
+    \left\{
+      \array{
+         \mathbb{Z} & | if\; n=1
+         \\
+         * & | otherwise
+      }
+    \right.
+    \,.
+  $$
 
 
 [[!redirects homotopy group of an infinity-stack]]
@@ -472,3 +566,9 @@ For $K = Core(\infty Grpd)$ this is the $\pi_0$-[[decategorification]] of the ab
 [[!redirects fundamental group of an ∞-stack]]
 [[!redirects fundamental groups of infinity-stacks]]
 [[!redirects fundamental groups of ∞-stacks]]
+
+[[!redirects homotopy group of an infinity-stack]]
+
+[[!redirects homotopy groups in an (∞,1)-topos]]
+[[!redirects homotopy group in an (∞,1)-topos]]
+[[!redirects homotopy group in an (infinity,1)-topos]]
