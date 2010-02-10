@@ -1,0 +1,42 @@
+The **axiom of multiple choice** (AMC) is a weak version of the [[axiom of choice]] which can hold in [[constructive mathematics]].
+
+## Statement
+
+A set-indexed family $\{D_c\}_{c\in C}$ of sets is said to be a *collection family* if for any $c\in C$ and any [[surjection]] $E\twoheadrightarrow D_c$, there exists a $c'\in C$ and a surjection $D_{c'}\twoheadrightarrow D_c$ which factors through $E$.
+
+The *axiom of multiple choice* states one of two things:
+
+1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ such that $X\cong D_c$ for some $c$, or
+1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ and a family of surjections $\{D_c \to X\}_{c\in C}$.
+
+The second formulation seems to be the one originally given by M&P, below, while the first is that given by Rathjen and attributed to Aczel and Simpson.
+
++--{: .query}
+[[Mike Shulman]]: Are these the same?  If not, why are they given the same name?
+=--
+
+
+## Relationships to other axioms
+
+* Note that $P$ is a [[projective set]] if and only if the singleton family $\{P\}$ is a collection family.  Therefore, since AC is equivalent to "all sets are projective," it implies AMC.
+
+* An extension of this argument shows that [[COSHEP]] is sufficient to imply AMC.
+
+* However, AMC does not imply [[countable choice]] or any of the other usual consequences of AC.
+
+* Rathjen proves that [[SVC]] also implies AMC.  It follows that AMC holds in "most" models of set theory.
+
+* AMC implies [[SOSHWIS]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]].
+
+
+## References
+
+* Moerdijk and Palmgren, "Type theories, toposes and constructive set theory: predicative aspects of AST"
+
+* Rathjen, "Choice principles in constructive and classical set theories"
+
+
+category: foundational axiom
+
+[[!redirects AMC]]
+[[!redirects multiple choice]]
