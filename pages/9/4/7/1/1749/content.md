@@ -8,7 +8,17 @@
  See warning below.
 =--
 
- Ordinary _homotopy_ is a way to probe objects in an [[(infinity,1)-topos]] $\mathbf{H}$ by mapping [[sphere]]s into them:
++-- {: .query}
+
+[[Urs Schreiber]]: the more coherent picture seems to be that developing at 
+
+* [[homotopy groups in an (∞,1)-topos]] .
+
+I think we should eventually make that the main page on _homotopy_ and merge into it from the material here only what deserves being kept.
+
+=--
+
+ Ordinary _homotopy_ is a way to probe objects in an [[(∞,1)-topos]] $\mathbf{H}$ by mapping [[sphere]]s into them:
 
 the ordinary [[homotopy group]] $\pi_n(X,x)$ of an object $X \in \mathbf{H}$ is the fiber over $x \in X$ of the morphism
 
@@ -19,28 +29,22 @@ $$
 induced on $H$, the [[homotopy category of an (infinity,1)-category]] associated to $\mathbf{H}$.
 
 $$
-  H(S^n ,X) := \pi_0(\mathbf{H}(S^n,X))
+  H(S^n ,X) := \pi_0(\mathbf{H}(S^n,X))_*
   \,.
 $$
 
 In this sense _homotopy_ is the notion that is [[Eckmann-Hilton duality|Eckmann-Hilton dual]] to [[cohomology]].
 
-For a more precise statement of homotopy in $(\infty,1)$-toposes see section 6.5.1 of
+For a detailed discussion see 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] .
-
-+-- {: .standout}
-  Warning: notice that in that section 6.5.1 
-  homotopy groups in an $(\infty,1)$-topos are at least not _manifestly_ defined in this way, though it should come close. Somebody should have a close look and sort this out.
-=--
-
+* [[homotopy groups in an (∞,1)-topos]]
 
 +-- {: .un_remark}
 ###### Remark
 
 This duality suggests that more generally we may be entitled to speak for $B$ and $X$ objects in $\mathbf{H}$ of
 $$
-  H(B,X) := \pi_0 \mathbf{H}(B,X)
+  H(B,X) := \pi_0 \mathbf{H}(B,X)_*
 $$
 as the **homotopy of $X$ with co-coefficients in $B$** (or efficients in $B$ if you want to be funny).
 
@@ -56,6 +60,6 @@ Examples of such constructions exist, but are rarely thought of (or even recogni
    * [[generalized (Eilenberg-Steenrod) homotopy]]
    * abelian cosheaf homotopy
    * nonabelian homotopy
-   * [[Čech homotopy]]
+   * [[?ech homotopy]]
    * differential homotopy
    * twisted homotopy
