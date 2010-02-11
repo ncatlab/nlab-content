@@ -1,4 +1,8 @@
-#Definition#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 A Kan fibration is one of the notions of [[fibrations of simplicial sets]].
 
@@ -29,7 +33,7 @@ $$
  \,.
 $$
 
-#Illustration#
+## Illustration
 
 Kan fibrations are combinatorial analogs of [[Serre fibration|Serre]] [[fibrations]]  of [[topological spaces]].  In fact, under the [[Quillen equivalence]] of the standard [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]], Kan fibrations map to Serre fibrations.
 
@@ -173,19 +177,19 @@ projects down to the one in $X$:
     $$
 
 
-#Quasi-fibration#
+## Quasi-fibration
 
 A **quasi-fibration** or **weak Kan fibration** or **inner Kan fibration** of simplicial sets is defined as above, but with the lifting property only imposed in _inner horns_: $\Lambda^n_k$ with $0 \lt k \lt (n-1)$, not the _outer horns_ $\Lambda^n_0$ and $\Lambda^n_n$.
 
 This weakened condition then says that _composition_ of cells may be lifted through the quasi-fibration, but not necessarily [[inverse|inversion]] of 1-cells.
 
-# Left and right Kan fibration #
+## Left and right Kan fibration 
 
 Similarly, a **left Kan fibration** is one that has the lifting property for all horns except possibly the last one.
 and a **right Kan fibration** is one that has the lifting property for all horns except possibly the first one.
 
 
-#Properties#
+## Properties
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -318,7 +322,7 @@ We check successively what this means for increasing $n$:
 
 
 
-#Relation to other concepts#
+## Relation to other concepts
 
 * Kan fibrations and quasi-fibrations are fibrations in two common [[model structure on simplicial sets|model structures on simplicial sets]].
 
