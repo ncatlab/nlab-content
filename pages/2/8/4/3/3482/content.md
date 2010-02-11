@@ -23,14 +23,18 @@ Precisely, SOSHWIS is the statement that for any set $X$, the full subcategory $
 
 ## In other sites
 
-Let $(C,J)$ be a [[site]] with a singleton Grothendieck pretopology. It makes sense to consider a version of SOSHWIS for $C$, along the lines of the following: Let $C/_{cov}a$ be the full subcategory of the slice category $C/a$ consisting of the covers. Internal SOSHWIS is then
+Let $(C,J)$ be a [[site]] with a singleton Grothendieck pretopology $J$. It makes sense to consider a version of SOSHWIS for $(C,J)$, along the lines of the following: Let $C/_{cov}a$ be the full subcategory of the slice category $C/a$ consisting of the covers. Internal SOSHWIS is then
 
 * For all objects $a$ of $C$, $C/_{cov}a$ has a weakly initial set.
 
-For example, assuming SOSHWIS for $Set$, the category $Top$ with any of its usual pretopologies satisfies internal SOSHWIS.
+For example, assuming SOSHWIS for $Set$, the category $Top$ with any of its usual pretopologies satisfies \'internal SOSHWIS\'.
 
-More generally, for a non-singleton pretopology on $C$, we can reformulate SOSHWIS along the lines of \'there is a set of covering families cofinal in the collection of all covering families of any object\'. ([[David Roberts]]: obviously this needs to be written better, and in a nicer format. Perhaps it needs it own page.)
++--{: .query}
+[[David Roberts]]: I propose the name Weakly Initial Set of Covers (WISC) for the general case, and a fortiori to the case of $Set$.
+=--
 
+More generally, for a non-singleton pretopology on $C$, we can reformulate SOSHWIS/WISC along the lines of \'there is a set of covering families weakly initial in the category of all covering families of any object\'. ([[David Roberts]]: obviously this needs to be written better, and in a nicer format. Perhaps it needs it own page.)
 
+Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can define a (weak) 2-category $Ana(C,J)$ of internal categories, anafunctors and transformations. If WISC holds for $(C,J)$, $Ana(C,J)$ is locally essentially small.
 
 category: foundational axiom
