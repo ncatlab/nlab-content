@@ -1,3 +1,4 @@
+[[!redirects fibration of simplicial sets]]
 There are several different useful notions of morphisms between [[simplicial set]]s that are _fibrations_ in one sense or other.
 
 Often the standard or the Joyal [[model structure on simplicial sets]] is understood in which case "fibration" is usually taken to mean [[Kan fibration]] or [[inner Kan fibration]].
