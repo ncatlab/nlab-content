@@ -22,7 +22,13 @@ have analogs for [[topos]]es and [[(∞,1)-topos]]es.
 
 ## Locally connected topos
 
-Let $E$ be a [[topos]]. An object $A \in E$ is called a **connected object** if there do not exist two nontrivial objects $A_1, A_2 \neq \emptyset$ such that a is given by their [[coproduct]] as $A \simeq A_1 \coprod A_2$.
+Let $E$ be a [[topos]]. An object $A \in E$ is called a **connected object** if there do not exist two nontrivial objects $A_1, A_2 \neq \emptyset$ such that a is given by their [[coproduct]] as $A \simeq A_1 \coprod A_2$. 
+
++--{.query}
+
+This should link to [[connected object]]. The definition above is not quite "correct", because it implies the empty (initial) object is connected, and it ought not to be. Better is that $\hom(A, -)$ preserves coproducts. 
+
+=--
 
 The topos $E$ is called a **locally connected topos** is every object $A \in E$ is a [[coproduct]] of connected objects $\{A_i\}_{i \in I}$, $A = \coprod_{i \in I} A_i$. 
 
