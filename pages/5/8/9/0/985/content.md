@@ -89,7 +89,9 @@ $$
 
 ## Galois theorem for locales and topoi
 
-Let $E$ be a Grothendieck topos. Then there exist an open [[localic groupoid]] $G$ such that $E$ is equivalent to the category of &#233;tale presheaves over $G$. 
+Let $E$ be a Grothendieck topos. Then there exist an open [[localic groupoid]] $G$ such that $E$ is equivalent to the category of &#233;tale presheaves over $G$. One of the classical references is
+
+* J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics _40_, Bombay, 1967. iv+176+iv pp. 
 
 This is a variant of the theorem in the setting of [[locales]] from 
 
@@ -111,7 +113,10 @@ The construction for general [[topos]]es is described in section 8.4 of
 
 * [[Peter Johnstone]], _Topos theory_ , Academic Press (1977)
 
-* J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics _40_, Bombay, 1967. iv+176+iv pp. 
+and, a current state of the art decription is in 
+
+* [[Marta Bunge]], _Galois groupoids and covering morphisms in topos theory_,  Galois theory, Hopf algebras, and semiabelian categories,  131--161, Fields Inst. Commun., 43, Amer. Math. Soc., Providence, RI, 2004, [links](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.7071).
+
 
 A modern approach from classical via Grothendieck up to [[categorical Galois theory]] based on precategories and adjunctions is in 
 
