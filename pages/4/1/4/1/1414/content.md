@@ -43,15 +43,6 @@ For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], defin
 
 Of course, the way you go between the two descriptions is that a path corresponds to the set of vertices it visits and _vice versa_.
 
-+--{.query}
-[[Todd Trimble|Todd]]: I am learning this for the first time, and I had some difficulty with how the definition of $P_{i,j}$ reads. From the ensuing discussion, it seems you want the elements of the poset to be $I \subseteq [i, j]: i, j \in I$, ordered by inclusion. But in the definition, it's not clear what sort of thing $J$ is supposed to be, and it looks like the elements of the poset are instances of inclusions. (Another minor thing I don't understand is why $\subset$ is being used instead of $\subseteq$, since for many mathematicians $\subset$ means strict inclusion. I see this preference for $\subset$ all over the nLab in fact; has this been discussed somewhere?)
-
-[[Tim Porter|Tim]]:  I did not originate the poset based description as I always think of things as being paths through the $N$-simplex from $i$ to $j$ and then use a rewrite idea for the link.  I will try to clean up the poset definition a bit and see if it helps, otherwise we can switch to the path based description and use the poset as a second way. I'm not bothered either way.
-
-Some minutes later!  Does this read well now?
-
-[[Todd Trimble|Todd]]: Thank you! Yes, me happy now. 
-=--
 
  The simplicial set $N(P_{i,j})$ is isomorphic to the $j-i-1$ cube $\Delta[1]^{j-i-1}$. (We will look at an example after this definition.)
 
@@ -64,14 +55,31 @@ in case you are wondering why we did not just say $P(i,j)$ was the poset of subs
 =--
 
 
-##Example and (hopefully) explanation##
+## Examples and illustration ##
 
 We will examine the lowest dimensional cases. For $n = 0,1$, there is nothing of note.
 
-For $n = 2$, there are unique paths in $[2]$ from $[0]$ to $[1]$, and $[1]$ to $[2]$, so the corresponding homs in $S[2]$ are copies of $\Delta[0]$ (or, if you prefer, of $\Delta[1]^0$!). Things are slightly more interesting for $S[2](0,2)$. Looking at this from the 'subsets' viewpoint, as above, there clearly are two subsets of $\{0,1,2\}$ containing both $0$ and $2$, one corresponds to the direct route in $[2]$ from $0$ to $2$, the other goes via $1$ so is $0\to 1\to 2$. In $S[2](0,2)$, there is a 1-simplex starting at $\{0,2\}$ and ending at $\{0,1,2\}$.  
- Everything else, in higher dimensions, is degenerate, so $S[2](0,2)\cong \Delta[1]$. Sometimes it is useful to think of this 1-simplex as 'rewriting' the direct path to that via 1, all this happening in the free category on the underlying graph of the poset $[2]$. 
+For $n = 2$, there are unique paths in $[2]$ from $[0]$ to $[1]$, and $[1]$ to $[2]$, so the corresponding homs in $S[2]$ are copies of $\Delta[0]$ (or, if you prefer, of $\Delta[1]^0$!). Things are slightly more interesting for $S[2](0,2)$. Looking at this from the 'subsets' viewpoint, as above, there clearly are two subsets of $\{0,1,2\}$ containing both $0$ and $2$, one corresponds to the direct route in $[2]$ from $0$ to $2$, the other goes via $1$ so is $0\to 1\to 2$. In $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,2\}$ and ending at $\{0,1,2\}$.  
 
-In this example there are no significant compositions. To see examples of those, you need to look at $n = 3$. In $S[3]$, the simplicial hom-sets $S[3](i,j)$ for $(i,j) \neq (0,3)$, can all be analysed by the same sort of argument to the above.  The new features occur in $S[3](0,3)$.  The vertices of this simplicial set are the subsets $\{ 0.3\}$, $\{0,1,3\}$, $\{0,2,3\}$, and  $\{0,1,2,3\}$, corresponding to the direct path $0\to 3$ and then the three others. Rewriting the direct path can be done in two immediate ways, to go via 1 or via 2. Each of these can be 'rewritten' to give the longest path /  largest subset. There is also, of course, an inclusion of the smalles to the largest of these:
+$$
+  \array{
+    & \nearrow\searrow^{\{0,1,2\}}
+    \\
+    0 &\Uparrow^{{k}}& 2
+    \\
+    & \searrow \nearrow_{\{0,2\}}
+  }
+$$
+
+
+Everything else, in higher dimensions, is degenerate, so $S[2](0,2)\cong \Delta[1]$. Sometimes it is useful to think of this 1-simplex as 'rewriting' the direct path to that via 1, all this happening in the free category on the underlying graph of the poset $[2]$. 
+
+In this example there are no significant compositions. To see examples of those, you need to look at $n = 3$. In $S[3]$, the simplicial hom-sets $S[3](i,j)$ for $(i,j) \neq (0,3)$, can all be analysed by the same sort of argument to the above.  The new features occur in $S[3](0,3)$.  The vertices of this simplicial set are the subsets 
+corresponding to the direct path $0\to 3$ and then the three others. Rewriting the direct path can be done in two immediate ways, to go via the left or via the right route. Each of these can be 'rewritten' to give the longest path /  largest subset. 
+
+
+There is also, of course, an inclusion of the smalles to the largest of these, so that in total the poset here looks like:
+
 $$
   \array{
      \{0,3\}&\rightarrow & \{0,1,3\}
@@ -80,7 +88,46 @@ $$
      \{0,2,3\}&\rightarrow &\{0,1,2,3\}
    }
 $$
-In addition, there will be 2-simplexes filling the two triangles, coming from the chains $\{0,3\}\subset \{0,1,3\}\subset \{0,1,2,3\}$ and $\{0,3\}\subset \{0,2,3\}\subset \{0,1,2,3\}$ in the poset. We thus get $S[3](0,3) \cong \Delta[1]^2$, a square. 
+
+In addition, there will be 2-simplexes filling the two triangles, coming from the chains $\{0,3\}\subset \{0,1,3\}\subset \{0,1,2,3\}$ and $\{0,3\}\subset \{0,2,3\}\subset \{0,1,2,3\}$ in the poset. 
+
+$$
+  \array{
+    & \nearrow && \searrow^{\mathrlap{\{0,1,2,3\}}}
+    \\
+    & & \Uparrow
+    \\
+    0  &&\stackrel{\{0,1,3\}}{\to}&& 3
+    \\
+    && \Uparrow
+    \\
+    & \searrow && \nearrow_{\mathrlap{\{0,2\}}}
+  }
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \array{
+    & \nearrow && \searrow^{\mathrlap{\{0,1,2,3\}}}
+    \\
+    & & \Uparrow
+    \\
+    0  &&\stackrel{\{0,2,3\}}{\to}&& 3
+    \\
+    && \Uparrow
+    \\
+    & \searrow && \nearrow_{\mathrlap{\{0,2\}}}
+  }
+  \,.
+$$
+
+
+
+
+We thus get $S[3](0,3) \cong \Delta[1]^2$, a square. 
 
 The composition maps
 
@@ -99,37 +146,56 @@ is to be a simplicial map.
 A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' in $S[5](0,5)$, and so on.
 
 
-###Remark###
-
 We will return to other thoughts on this $S$ construction later in the entry.
-
 
 One of the reasons for discussing the above is the following:
 
 ##Definition##
 
-For $C$ a [[simplicially enriched category]], the **homotopy coherent nerve**  $N(C)$ is the [[simplicial set]] uniquely characterized by the formula $ Hom_{SSet}(\Delta^n, N(C)) = Hom_{SSet-Cat}(S[\Delta^n], C)$.
+For $C$ a [[simplicially enriched category]], the **homotopy coherent nerve**  $N(C)$ is the [[simplicial set]] uniquely characterized by the formula 
+
+$$ 
+  Hom_{SSet}(\Delta^n, N(C)) = Hom_{sSet Cat}(S[\Delta^n], C)
+  \,.
+$$
+
+This extends to a functor
+
+$$
+  N : sSet Cat \to sSet
+  \,.
+$$
+
+By the general logic of [[nerve and realization]] this functor has a [[left adjoint]]
+
+$$
+  |-| : sSet \to sSet Cat
+  \,.
+$$
 
 
 ##Remarks##
 
 * The original motivation for the introduction of the homotopy coherent nerve is that it provides a neat simplicial formulation of idea of [[homotopy coherent diagram|homotopy coherent diagrams]]. These were studied in the 1970s, by Boardman and Vogt in joint work,  and Vogt individually,  and Cordier (reference below). Cordier realised that, with a slight modification in the definition, Vogt's definition of homotopy coherent diagram, indexed by a small category $A$, say, corresponded exactly to a simplicially enriched functor from the $SSet$-category $S[A]$ to the $SSet$-category $Top$. They thus also corresponded to simplicial maps from the [[nerve]] of $A$ to $N(Top)$, (although that latter object was 'too large' to be a simplicial 'set'). This allowed a good definition of homotopy coherent diagrams in arbitrary simplicially enriched categories to be given. This definition works best when the simplicially enriched category is 'locally Kan', in other words it is enriched in the category of [[Kan complex|Kan complexes]]. These locally Kan $SSet$-categories are the fibrant ones in a model category structure on the category of $SSet$-categories. Cordier and Porter (1986) proved that if $C$ is a locally Kan simplicially enriched category then $N(C)$ is a '[[weak Kan complex]]', in other words, a [[quasi-category]].  Many of the ideas behind this result can be traced to Vogt's paper of 1973.
 
-*   The use of $S[A]$, above, extends that given at the start of this page. Here $S$ is related  to the left adjoint of the homotopy coherent nerve, but is defined using a [[comonadic resolution]].  The comonad is that between small categories and directed graphs with distinguished 'unit' loops. The 'forgetful' part of the adjunction forgets the composition in the category, but remembers that the identity arrows are special. The left adjoint /  'free' part of the adjunction takes a directed graph (with distinguished 'identity' loops, and forms the free category on the non-identity arrows. As usual, we can form a [[comonad]] from this  and hence form a functorial [[simplicial resolution]] of any small category, $A$.  (This is one of the many variants of a [[bar resolution]] construction, related to the [[bar construction]].) Since the functors involved preserve the identities on the objects of $A$, the resulting simplicial category  is a simplicially enriched category, and this is $S[A]$.  The $n$-dimensional arrows between objects, $a$ and $b$ in $S[A]$ correspond to a  path from $a$ to $b$ in $A$ containing no identity arrows, together with a bracketting of the resulting string having depth $n$. 
-  
-
-* The simplicial nerve, together with its [[adjoint functor|left adjoint]], serves to relate the two models of [[(infinity,1)-category|(infinity,1)-categories]] given by [[quasi-category|quasi-categories]] and [[simplicially enriched category|simplicially enriched categories]].
-
-
-*  Any 2-category gives a simplcially enriched category using the embedding of $Cat$ into $SSet$ via the usual nerve functor. The homotopy coherent nerve of a 2-category consideed in this way is, sometimes, called the [[geometric nerve]] of the 2-category. The [[Duskin nerve]] of a bicategory is an extension of this construction. 
+*   The use of $S[A]$, above, extends that given at the start of this page. Here $S$ is related  to the [[left adjoint]] of the homotopy coherent nerve, but is defined using a [[comonadic resolution]].  The [[comonad]] is that between small categories and directed graphs with distinguished 'unit' loops. The 'forgetful' part of the adjunction forgets the composition in the category, but remembers that the identity arrows are special. The left adjoint /  'free' part of the adjunction takes a directed graph (with distinguished 'identity' loops, and forms the free category on the non-identity arrows. As usual, we can form a [[comonad]] from this  and hence form a functorial [[simplicial resolution]] of any small category, $A$.  (This is one of the many variants of a [[bar resolution]] construction, related to the [[bar construction]].) Since the functors involved preserve the identities on the objects of $A$, the resulting simplicial category  is a simplicially enriched category, and this is $S[A]$.  The $n$-dimensional arrows between objects, $a$ and $b$ in $S[A]$ correspond to a  path from $a$ to $b$ in $A$ containing no identity arrows, together with a bracketting of the resulting string having depth $n$. 
+ 
+*  Any [[2-category]] gives a simplcially enriched category using the embedding of $Cat$ into $SSet$ via the usual [[nerve]] functor. The homotopy coherent nerve of a 2-category consideed in this way is, sometimes, called the [[geometric nerve]] of the 2-category. The [[Duskin nerve]] of a [[bicategory]] is an extension of this construction. 
 
    A particular case of this nerve is the nerve of a [[2-group]] considered as a 2-category.
 
-## Relation to quasi-categories
+
+### Relation to quasi-categories
+
+The simplicial nerve, together with its [[adjoint functor|left adjoint]], serves to relate the two models of [[(∞,1)-category|(∞,1)-categories]] given by [[quasi-category|quasi-categories]] and [[simplicially enriched category|simplicially enriched categories]]. 
 
 The homotopy coherent nerve extends to a [[Quillen equivalence]] between the [[Joyal model structure]] $sSet_{Joyal}$ that models [[quasi-categories]] and the [[model structure on sSet-categories]].
 
-See [[relation between quasi-categories and simplicial categories]] for details.
+See 
+
+* [[relation between quasi-categories and simplicial categories]] 
+
+for details.
 
 ##References##
 
@@ -144,6 +210,8 @@ For the role played by the simplicial nerve in the context for relating quasi-ca
 A review is also in
 
 * Vivek Dhand, _The simplicial nerve of a simplicial category_ ([pdf](http://www.math.msu.edu/~dhand/sSet.pdf))
+
+
 
 ## Discussion ##
 
@@ -174,6 +242,19 @@ Any 2-category can be thought of as a simplicially enriched category and the Dus
 In the meantime, I suggest we keep the term h.c. nerve although it is probably not 'best possible'.
 I agree that 'simplicial nerve'  is probably not a good term.
 =--
+
+Here is another old discussion that seems to have been resolved
+
++--{.query}
+[[Todd Trimble|Todd]]: I am learning this for the first time, and I had some difficulty with how the definition of $P_{i,j}$ reads. From the ensuing discussion, it seems you want the elements of the poset to be $I \subseteq [i, j]: i, j \in I$, ordered by inclusion. But in the definition, it's not clear what sort of thing $J$ is supposed to be, and it looks like the elements of the poset are instances of inclusions. (Another minor thing I don't understand is why $\subset$ is being used instead of $\subseteq$, since for many mathematicians $\subset$ means strict inclusion. I see this preference for $\subset$ all over the nLab in fact; has this been discussed somewhere?)
+
+[[Tim Porter|Tim]]:  I did not originate the poset based description as I always think of things as being paths through the $N$-simplex from $i$ to $j$ and then use a rewrite idea for the link.  I will try to clean up the poset definition a bit and see if it helps, otherwise we can switch to the path based description and use the poset as a second way. I'm not bothered either way.
+
+Some minutes later!  Does this read well now?
+
+[[Todd Trimble|Todd]]: Thank you! Yes, me happy now. 
+=--
+
 
 
 [[!redirects homotopy coherent nerves]]
