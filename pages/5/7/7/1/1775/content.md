@@ -60,8 +60,10 @@ Therefore groupoid objects in an $(\infty,1)$-category play a central role in th
 Notice that one of the four characterizing properties of an [[(∞,1)-topos]] is that every groupoid object is effective. 
 
 
-## Details
+## Definition
 
+
+### Groupoid object
 
 In section 6.1.2 of
 
@@ -86,5 +88,70 @@ If furthermore the morphism $C_0 \to C_{-1}$ is the colimit $C_{-1} = colim_i C_
 over the groupoid object diagram (the $(\infty,1)$-analog of a [[quotient object]]), then the groupoid object is **effective** or: $C_0 \to C_{-1}$ is an **effective quotient**.
 
 In an [[(∞,1)-topos]] every groupoid object has an effective quotient.
+
+### Group object
+
+A **group object** is a groupoid object $U : \Delta^{op} \to C$ for which $U_0 \simeq *$ is a [[terminal object in a quasi-category|terminal object]].
+
+([[Higher Topos Theory|HTT, def. 7.2.2.1]]).
+
+It follows ([[Higher Topos Theory|HTT, prop. 7.2.2.4]]) that a group object is of the form
+
+$$
+  U = \left(
+      \cdots G \times G \stackrel{\to}{\stackrel{\to}{\to}} G \stackrel{\to}{\to} *
+  \right)
+  \,.
+$$
+
+## Examples
+
+### Group objects in an $(\infty,1)$-topos
+
+When the ambient [[(∞,1)-category]] is an [[(∞,1)-topos]] then -- by the $\infty$-Giraud axioms -- all groupoid objects are [[quotient object|effective]], meaning that for
+
+$$
+  \mathbf{B}G = \lim_\to U_\bullet
+$$
+
+we have
+
+$$
+  \left(
+      \cdots G \times G \stackrel{\to}{\stackrel{\to}{\to}} G \stackrel{\to}{\to} *
+  \right)
+  \simeq
+  \left(
+      \cdots 
+   {*}\times_{\mathbf{B}G}{*}\times_{\mathbf{B}G}{*} \stackrel{\to}{\stackrel{\to}{\to}} {*}\times_{\mathbf{B}G}{*} \stackrel{\to}{\to} *
+  \right) 
+  \,.
+$$
+
+The object $\mathbf{B}G$ is the [[delooping]] object of the group object $G$.
+
+For more on this see also [[principal ∞-bundle]].
+
+### Models for group objects in $\infty Grpd$
+
+There is a [[model category]] structure that presents the [[(∞,1)-category]] of group objects in [[∞Grpd]].
+
+* The group objects $G$ themselves are modeled by a model structure on the category $sGrpd$ of [[simplicial group]]s.
+
+* Their delooping spaces $\mathbf{B}G$ are modeled by a model structure on the category $sSet_0$ of [[simplicial set]]s with a single vertex.
+
+The operation of forming [[loop space object]]s constitutes a [[Quillen equivalence]] between these two model structures
+
+$$
+  \Omega : sSet_0 \stackrel{\simeq_{Quillen}}{\to} sGrpd
+  \,.
+$$
+
+This is for instance in 
+
+* Goerss, Jardine, _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+
+The Quillen equivalence itself is in section 6 there.
+
 
 [[!redirects groupoid object in an (∞,1)-category]]
