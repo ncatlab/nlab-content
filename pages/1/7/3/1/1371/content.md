@@ -11,11 +11,31 @@ The [[quasi-category]] corresponding to a simplicial category $C$ is its
 [[homotopy coherent nerve]] $N$
 
 $$
-  sSet Cat \stackrel{\leftarrow}{\underset{N}{\to}} sSet
+  sSet Cat \stackrel{\overset{|-|}{\leftarrow}}{\underset{N}{\to}} sSet
   \,.
 $$
 
+## Relations
+
+* For $C$ any [[SSet]]-[[enriched category]], the canonical morphism
+
+  $$ 
+    |N(C)| \to C
+  $$
+
+  is an equivalence in that it is essentially surjective on the underlying homotopyy categories and a weak eqivalence of simplicial sets hom-wise (...details/links...)
+
+  For $S$ any [[simplicial set]], the canonical morphism
+
+  $$
+    S \to N(|S|)
+  $$
+
+  is a [[model structure for quasi-categories|categorical equivalence]] of simplicial sets.
+
 ## Model category structures
+
+The above relations constitute arrange into a [[Quillen equivalence]] between [[model category]] structures on quasicategories and simplicially enriched categories.
 
 There is the 
 
