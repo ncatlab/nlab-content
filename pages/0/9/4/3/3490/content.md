@@ -30,6 +30,9 @@ This is called a **full** sub-quasi-category if $hD$ is a [[full subcategory]] o
 
 +--{: .query}
 [[Mike Shulman]]: Over at [[subcategory]] we sort of decided that when speaking non-evilly, a "1-subcategory" is a fully faithful functor, and a "2-subcategory" is a faithful functor.  By analogy, a fully faithful $(\infty,1)$-functor would be called a 1-subcategory, while a "2-subcategory" would be an $(\infty,1)$-functor such that each hom-action $C(x,y)\to D(F x, F y)$ is fully faithful as a map of $\infty$-groupoids, i.e. equivalent to the inclusion of some subset of connected components.  Am I correct in guessing that the "sub-quasicategories" defined here are precisely the 2-subcategories in this sense?
+
+[[Urs Schreiber]]: thanks, good point. That sounds plausible, given what the above pullback diagram expresses. Let me think about it...
+
 =--
 
 
