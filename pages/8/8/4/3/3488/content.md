@@ -1,3 +1,4 @@
+[[!redirects locally n-connected (infinity,1)-tops]]
 [[!redirects locally connected topos]]
 
 
