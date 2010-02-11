@@ -266,7 +266,11 @@ For the case $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ this construction of $\Pi$ is 
 
 ### History {#GeometricHistory}
 
-The idea that geometric homotopy groups of generalized [[space]]s given by [[sheaf|sheaves]], [[stack]]s, [[∞-stack]]s is detected and definable by the behaviour of locally constant sheaves, stacks, $\infty$-stacks on these objects goes back to [[Grothendieck's Galois theory]] and the notion of [[fundamental group of a topos]]. In [[Pursuing Stacks]] [[Alexander Grothendieck|Grothendieck]] talked about how this 1-categorical situation generalizes to [[∞-stack]]s. 
+The idea that geometric homotopy groups of generalized [[space]]s given by [[sheaf|sheaves]], [[stack]]s, [[∞-stack]]s is detected and definable by the behaviour of locally constant sheaves, stacks, $\infty$-stacks on these objects goes back to [[Grothendieck's Galois theory]] and the notion of [[fundamental group of a topos]]. The state of the art treatment of the Galois theory of coverings in a topos is in
+
+* Marta Bunge, _Galois groupoids and covering morphisms in topos theory_,  Galois theory, Hopf algebras, and semiabelian categories,  131--161, Fields Inst. Commun., 43, Amer. Math. Soc., Providence, RI, 2004, [links](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.7071).
+
+In [[Pursuing Stacks]] [[Alexander Grothendieck|Grothendieck]] talked about how this 1-categorical situation generalizes to [[∞-stack]]s. 
 
 After _Pursuing Stacks_, apparently the first to publish a detailed formalization and proof of how the [[homotopy group]]s of a [[topological space]] $X$ may be recovered from the behaviour of [[locally constant ∞-stack]]s on $X$ was 
 
@@ -282,7 +286,7 @@ and, building on that, in example 1.8 of
 
 * [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
 
-It was pointed out by [[Richard Williamson]] that the construction should generalize from topological spaces to objects in any [[(∞,1)-topos]], maybe along the lines outlined above, and that this way every $(\infty,1)$-topos $\mathbf{H}$ comes canonically equipped with a notion of bare [[schreiber:path ∞-groupoid]] $\Pi(X)$ of every object $X \in \mathbf{H}$.
+It was pointed out to Urs by [[Richard Williamson]] that the construction should generalize from topological spaces to objects in any [[(∞,1)-topos]], maybe along the lines outlined above, and that this way every $(\infty,1)$-topos $\mathbf{H}$ comes canonically equipped with a notion of bare [[schreiber:path ∞-groupoid]] $\Pi(X)$ of every object $X \in \mathbf{H}$.
 
 
 
