@@ -91,3 +91,5 @@ A generalisation of his theorem using simplicially enriched categories and the [
 
 * J.-M. Cordier and T. Porter, _Vogt's Theorem on Categories of Homotopy Coherent Diagrams_, 
 Math. Proc. Camb. Phil. Soc. 100 (1986) pp. 65-90.
+
+(WORK IN PROGRESS: MORE TO COME!)
