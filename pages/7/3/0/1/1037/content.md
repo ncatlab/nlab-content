@@ -368,6 +368,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ### 6.4 $n$-Topoi ###
 
+* [[(n,1)-topos]]
+
 * [[n-localic (∞,1)-topos]]
 
 ### 6.5 Homotopy theory in an $(\infty,1)$-topos ###
