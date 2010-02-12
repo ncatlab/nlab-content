@@ -33,7 +33,7 @@ Let $(C,J)$ be a [[site]] with a singleton [[Grothendieck pretopology]] $J$. It 
 Assuming WISC for $Set$, the category $Top$ with any of its usual pretopologies satisfies \'internal WISC\'.  Consider, for instance, the pretopology in which the covers are the maps admitting local sections, i.e. those $p\colon Y\to X$ such that for any $x\in X$ there exist an open set $U\ni x$ such that $p^{-1}(U)\to U$ is split epic.  If $Set$ satisfies AC, then a weakly initial set in $Top/_{cov}X$ is given by the set of all maps $\coprod_{U\in \mathcal{U}} U \to X$ where $\mathcal{U}\subset \mathcal{P}(X)$ is an open cover of $X$.  For if $p\colon Y\to X$ admits local sections, then for each $x\in X$ we can choose an $U_x \ni x$ over which $p$ has a section, resulting in an open cover $\mathcal{U} = \{U_x \mid x\in X\}$ of $X$ for which $\coprod_{U\in \mathcal{U}} U \to X$ factors through $p$.  (If $Set$ merely satisfies WISC itself, then a more involved argument is required.)
 =--
 
-More generally, for a non-singleton pretopology on $C$, we can reformulate WISC along the lines of \'there is a set of covering families weakly initial in the category of all covering families of any object\'. ([[David Roberts]]: obviously this needs to be written better, and in a nicer format. Perhaps it needs it own page.)
+More generally, for a non-singleton pretopology on $C$, we can reformulate WISC along the lines of \'there is a set of covering families weakly initial in the category of all covering families of any object\'.
 
 Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can define a (weak) 2-category $Ana(C,J)$ of internal categories, anafunctors and transformations. If WISC holds for $(C,J)$, then $Ana(C,J)$ is locally essentially small.
 
