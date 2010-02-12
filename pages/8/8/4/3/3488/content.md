@@ -22,7 +22,7 @@ have analogs for [[topos]]es and [[(∞,1)-topos]]es.
 
 ## Locally connected topos
 
-Let $E$ be a [[topos]]. An object $A \in E$ is called a **connected object** if there do not exist two nontrivial objects $A_1, A_2 \neq \emptyset$ such that $A$ is given by their [[coproduct]] as $A \simeq A_1 \coprod A_2$. 
+Let $E$ be a [[topos]]. An object $A \in E$ is called a **[[connected object]]** if there do not exist two nontrivial objects $A_1, A_2 \neq \emptyset$ such that $A$ is given by their [[coproduct]] as $A \simeq A_1 \coprod A_2$. 
 
 +--{.query}
 
@@ -49,6 +49,46 @@ $$
 $$
 
 This left adjoint $\Pi_0$ is the lowest degree incarnation of a general construction of [[homotopy groups in an (∞,1)-topos]].
+
++-- {: .un_prop}
+###### Proposition
+
+A topos $E$ is locally connected precisely if the [[global section]] [[geometric morphism]] $\Gamma : E \to Set$ is an [[essential geometric morphism]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as Lemma C.3.3..6 in
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+=--
+
+
+## Locally $n$-connected $(n,1)$-topos {#nCase}
+
+> [[Urs Schreiber]]: I want to make the following
+
++-- {: .un_defn}
+###### Definition
+
+An [[(n,1)-topos]] $\mathbf{H}$ is **locally $n$-connected** if the [[global section]] [[geometric morphism]]  $\Gamma : \mathbf{H} \to n Grpd$ is an [[essential geometric morphism]]
+
+$$
+  (\Pi_n \dashv LConst \dashv \Gamma)\;\;\; :
+  \;\;\;
+  \mathbf{H} \stackrel{\overset{\Pi_n}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  n Grpd
+  \,.
+$$
+
+=--
+
+In this case we call for $X \in \mathbf{H}$ the [[n-groupoid]] $\Pi_n(X)$ the **fundamental $n$-groupoid** of $X$. See [[homotopy groups in an (∞,1)-topos]].
+
+For $n = \infty$ we speak of a **locally contractible $(\infty,1)$-topos**. In this case $\Pi = \Pi_\infty$ is the [[schreiber:path ∞-groupoid]] functor.
 
 
 ## More...
