@@ -1,4 +1,4 @@
-I was until 2006 a professor of mathematics at the University of Wales Bangor (aka University of Bangor). The University closed down the Mathematics degree and I was retired! Since then I have been on various interesting visiting positions, whilst being Emeritus, retaining an office in the Computer Science section of the university and continuing to work at least as hard as before (I claim).
+I was until 2006 a professor of mathematics at the University of Wales Bangor (aka University of Bangor). The University closed down the Mathematics degree and I was retired! Since then I have been on various interesting visiting positions, whilst being Emeritus, retaining an office in the Computer Science section of the university and continuing to work at least as hard as before (I claim). I am also an emeritus member of WIMCS, the Wales Institute of Mathematical and Computational Sciences.
 
 +--{.query}
 Not offering a maths degree is one thing, but it seems that they don\'t even have a maths *department*! Who teaches basic maths courses to the CS (and chemistry, biology, electronics, ...) majors? &#8212;[[Toby Bartels|Toby]]
@@ -21,7 +21,7 @@ I have added a series of entries on differential algebra to the nLab.  This is n
 
 See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), where I have put a link to a recent version of the first 10 chapters of the Menagerie.
 
-Other goodies there include parts of a draft monograph on [[profinite homotopical algebra]], and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems.
+Other goodies there include parts of a draft monograph on [[profinite homotopical algebra]], and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems. There are also some lecture notes form lecture in Hagen and La Laguna, and a survey article that grew out of talks in 1991 in Italy. 
 
 I have also put the start of a brief discussion of the relationships between the Cech and Vietoris methods and the newly developed methods of Topological Data Analysis.
 
