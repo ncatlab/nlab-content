@@ -1,6 +1,8 @@
 
 **objects $d \in C$ such that $C(d,-)$ commutes with certain [[colimit]]s**
 
+* [[connected object]]
+
 * [[compact object]]
 
   * [[finite object]]
