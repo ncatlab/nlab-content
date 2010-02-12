@@ -49,19 +49,19 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[topos]]
 
-#### A.2 The monadicity theorem
+#### A2.2 The monadicity theorem
 
 * [[monadicity theorem]]
 
-#### A.3 The Fundamental Theorem
+#### A2.3 The Fundamental Theorem
 
-#### A.4 Effectiveness, positivity and partial maps
+#### A2.4 Effectiveness, positivity and partial maps
 
-#### A.5 Natural number objects
+#### A2.5 Natural number objects
 
 * [[natural number object]]
 
-#### A.6 Quasitoposes
+#### A2.6 Quasitoposes
 
 * [[quasitopos]]
 
@@ -109,9 +109,49 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[Grothendieck fibration]]
 
+* [[bifibration]]
+
 #### B1.4 Limits and colimits
 
+* [[limit]]
+
 #### B1.5 Descent conditions and stacks
+
+* [[descent]]
+
+* [[stack]]
+
+### B2 Internal and localy internal categories
+
+#### B2.1 Review of enriched categories
+
+* [[enriched category]]
+
+* [[enriched category theory]]
+
+#### B2.2 Locally internal categories
+
+#### B2.3 Internal categories and diagram categories
+
+* [[internal category]]
+
+#### B2.4 The indexed adjoint functor theorem
+
+* [[adjoint functor theorem]]
+
+#### B2.5 Discrete opfibrations
+
+* [[discrete fibration|discrete opfibration]]
+
+#### B2.6 Filtered colimits
+
+* [[filtered colimit]]
+
+#### B2.7 Internal profunctors
+
+* [[profunctor]]
+
+* [[internal profunctor]]
 
 ## C Toposes as Spaces
 
@@ -241,9 +281,19 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ## E Homtopy and Cohomology
 
+### E1 Homotopy theory for toposes
+
 * [[homotopy groups in an (∞,1)-topos]]
 
-### E1 Homotopy theory for toposes
+
+#### E1.1 Homotopy theory of toposes
+
+#### E1.3 The fundamental groupoid via paths
+
+#### E1.4 The fundamental groupoid via coverings
+
+#### E1.4 Natural homotopy
+
 
 ### E2 Algebraic homotopy theory
 
@@ -256,6 +306,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[model structure on simplicial sets]]
 
 #### E2.3 Model structures for sheaves
+
+* [[model structure on simplicial presheaves|model structure on simplicial sheaves]]
 
 ### E3 Cohomology theory
 
@@ -290,6 +342,32 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 #### F1.4 Tiny objects
 
 * [[tiny object]]
+
+#### F1.5 Synthetic integration theory
+
+* [[integration axiom]]
+
+#### F1.5 Intrinsic infinitesimal
+
+* [[infinitesimal object]]
+
+* [[amazing right adjoint]]
+
+
+### F4 Topos theory and set theory
+
+#### F4.1 Internal sets in a topos
+
+
+#### F4.2 Algebraic set theory
+
+* [[algebraic set theory]]
+
+#### F4.3 Independence proofs via classifying toposes
+
+#### F4.4 Independence of the axiom of choice
+
+* [[axiom of choice]]
 
 category: reference
 
