@@ -89,7 +89,7 @@ Another main theorem about $(\infty,1)$-toposes is that
 
 Section 6.1 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects (infinity,1)-topoi]]
 [[!redirects (infinity,1)-toposes]]
