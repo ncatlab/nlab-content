@@ -1,4 +1,4 @@
-<div class="rightHandSide toc">
+<div class="rightHandSide toc" markdown="1">
 [[!include (infinity,1)-topos - contents]]
 </div>
 
