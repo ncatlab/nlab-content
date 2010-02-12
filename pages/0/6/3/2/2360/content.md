@@ -1,21 +1,34 @@
 #Idea#
 
-
-A _formal spectrum_ is something that differs from an [[affine scheme]] by an [[infinitesimal space|infinitesimal]] neighbourhood.
+For usual rings, Grothendieck introduced the notion of a [[prime spectrum]]. In order to accomodate not only polynomials but also formal power series, it is convenient to consider completions and topological rings. Order $n$ nilpotent elements in an ordinary ring compare to completions as truncations of general power series and geometrically represent certain $n$-th [[infinitesimal space|infinitesimal]] neighborhood. Completions represent certain pro-objects in the category of rings. Adic completion corresponds to have all infinitesimal neighborhoods at once. 
+ 
+A _formal spectrum_ is a generalization of prime spectrum to adic noetherian rings, therefore containing information on all infinitesimal neighborhoods, corresponding to the ideal of completion. 
 
 #Definition#
 
-For $R$ a [[ring]] and for $I \subset R$
- a specified [[ideal]], the **formal spectrum** of $(R,I)$ -- denoted $\mathrm{Spf} R$  a -- is the locally [[ringed space]] whose underlying [[topological space]] is that of the ordinary [[affine scheme]]
-$\mathrm{Spec} (R/I)$ and whose [[structure sheaf]] $O_{Spf R}$ has global sections given by the [[limit]] 
+
+Assume $R$ is a commutative [[ring]] and $I \subset R$ is an ideal, such that its powers make a fundamental system of neighborhoods of zero of a complete Hausdorff topology (we say that $R$ is an separated complete ring in $I$-adic topology).
+
+The **formal spectrum** $Spf R$ of $(R,I)$ is the inductive limit of the prime spectra 
 
 $$
-  O_{\mathrm{Spf} R}(\mathrm{Spf} R) :=\lim_n R/(I^n)
+  Spf R :=colim_n Spec (R/I^n)
   \,.
 $$
 
->(this is an incomplete description, needs to be polished -- see the discussion at [[A Survey of Elliptic Cohomology - formal groups and cohomology]])
+where the connecting morphisms are the closed nilpotent immersions $Spec(R/I^n)\hookrightarrow Spec(R/I^{n+1})$ of affine schemes and the colimit is taken in the category of [[topologically ringed space|topologically ringed spaces]]. 
 
-The formal spectrum is a [[formal scheme]].
+Regarding that all affine schemes $X_n := Spec(R/I^n)$ for $n\geq 1$ have the same underlying topological space $\chi$ because nilpotents in $I^n$ do not affect the underlying reduced scheme, so does $Spf R = (\chi,\mathcal{O}_\chi)$. With our assumptions on $I$-adic topology, in fact $\chi$ contains all closed points of $Spec R$ and any open subset of $Spec R$ containing $\chi$ is the whole of $Spec R$.  The structure sheaf $\mathcal{O}_\chi$ has the ring of sections $\mathcal{O}_\chi(U) = lim_n \mathcal{O}_{X_n}$ where the limit is taken in the category of topological rings, and $\mathcal{O}_{X_n}$ have a discrete topology. For example, the ring of global sections is $\mathcal{O}_\chi(\chi) = R$.
 
+A formal spectrum is an example of a [[formal scheme]]. Formal schemes in general form certain subcategory of the category of ind-schemes. 
+
+The formal spectrum of a separated complete topological $I$-adic ring $R$ depends just on the underlying topology on $R$ and not on a choice of the ideal $I$ generating this topology.
+
+## References
+
+* [[A Survey of Elliptic Cohomology - formal groups and cohomology]])
+
+* standard references are EGA, Hartshorne
+
+* Luc Illusie, _Grothendieck existence theorem in formal geometry_, in [[FGA explained]]
 
