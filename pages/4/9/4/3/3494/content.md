@@ -1,6 +1,10 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-###Idea###
+## Idea
+
 First a vague version:
 
 A homotopy coherent diagram is a diagram of objects in a category which has a notion of homotopy, where commutativity is replaced by explicit homotopies, those homotopies are to then be coherently linked by higher homotopies ... and so on.
@@ -12,7 +16,9 @@ We will often use h.c. as an abbreviation for ''homotopy coherent''.
 
 
 
-####Examples of h.c. diagrams in a category with [[cylinder functor]], denoted $-\times I$.####
+##Examples 
+
+**h.c. diagrams in a category with [[cylinder functor]], denoted $-\times I$**
 
 1.  A diagram indexed by the small category, $[2]$.
 
@@ -45,7 +51,7 @@ provides some understanding of the basic idea.
 
 Before giving the detailed definition, let us look at some results which relate to why h.c. is useful.
 
-####Results####
+## Results
 
 (i) If $X : \mathbf{A}\to \mathbf{Top}$ is a commutative diagram and we
 replace some of the $X(a)$ by homotopy equivalent $Y(a)$ with specified
@@ -75,7 +81,7 @@ If $\mathbf{A}$ is a small category, there is a category $\mathbf{Coh(A,Top)}$
 
 $$\mathbf{Coh(A,Top)} \stackrel{\simeq}{\to} \mathbf{Ho(Top^A)}$$
 
-###References
+## References
 
 For [[Rainer Vogt|Vogt]]'s theorem, the original reference is 
 
