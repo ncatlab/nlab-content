@@ -1,9 +1,18 @@
-## Idea ##
+<div class="rightHandSide toc">
+[[!include compact object - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
 
 A connected object is a generalisation of the concept of [[connected space]] from [[Top]] to an arbitrary [[category]].
 
 
-## Definitions ##
+## Definitions
 
 Let $C$ be an [[extensive category]].
 
@@ -20,3 +29,8 @@ _Toby_:  I just copied what was at [[connected space]].  It\'s true that homming
 =--
 
 By this definition, the [[initial object]] of $C$ is *not* connected (except for degenerate cases of $C$).  This matches the notion that the [[empty space]] should not be considered connected, discussed at [[connected space]].
+
+
+## Examples
+
+* Objects in a [[locally connected topos]] are coproducts of connected objects. 
