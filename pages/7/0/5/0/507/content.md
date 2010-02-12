@@ -18,13 +18,26 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### A1.2 Cartesian categories
 
+* [[finitely complete category]]
+
 #### A1.3 Regular categories
 
 * [[regular categories]]
+* [[exact category]]
+* [[regular and exact completion]]
+
+#### A1.4 Coherent categories
+
+* [[coherent category]]
+* [[extensive category]]
+* [[pretopos]]
+* [[Heyting category]]
+* [[Boolean category]]
 
 #### A1.5 Cartesian closed categories
 
 * [[cartesian closed category]]
+* [[locally cartesian closed category]]
 
 #### A1.6 Subobject classifiers
 
@@ -36,21 +49,40 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[topos]]
 
-#### A.2.2 The monadicity theorem
+#### A.2 The monadicity theorem
 
 * [[monadicity theorem]]
 
-#### A.2.3 The Fundamental Theorem
+#### A.3 The Fundamental Theorem
 
-#### A.2.4 Effectiveness, positivity and partisal maps
+#### A.4 Effectiveness, positivity and partial maps
 
-#### A.2.5 Natural number objects
+#### A.5 Natural number objects
 
 * [[natural number object]]
 
-#### A.2.6 Quasitoposes
+#### A.6 Quasitoposes
 
 * [[quasitopos]]
+
+### A3 Allegories
+
+#### A3.1 Relations in regular categories
+
+* [[relation]]
+* [[Rel]]
+
+#### A3.2 Allegories and tabulations
+
+* [[allegory]]
+* [[bicategory of relations]]
+* [[1-category equipped with relations]]
+
+#### A3.3 Splitting symmetric idempotents
+
+* [[idempotent]]
+
+#### A3.4 Division allegories and power allegories
 
 ### A4 Geometric morphisms - basic theory
 
@@ -62,11 +94,33 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ## B 2-Categorical Aspects of Topos Theory
 
+### B1 Indexed categories and fibrations
+
+#### B1.1 Review of 2-categories
+
+* [[2-category]]
+* [[2-limit]]
+
+#### B1.2 Indexed categories
+
+* [[pseudofunctor]]
+
+#### B1.3 Fibrations
+
+* [[Grothendieck fibration]]
+
+#### B1.4 Limits and colimits
+
+#### B1.5 Descent conditions and stacks
+
 ## C Toposes as Spaces
 
 ### C1 Sheaves on a locale
 
 #### C1.1 Frames and nuclei
+
+* [[frame]]
+* [[Heyting algebra]]
 
 #### C1.2 Locales and spaces
 
@@ -75,13 +129,15 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 #### C1.3 Sheaves, local homeomorphisms and frame-valued sets
 
 * [[sheaf]]
+* [[local homeomorphism]]
 
 ### C2 Sheaves on a site
 
 #### C2.1 Sites and coverages
 
 * [[coverage]]
-
+* [[Grothendieck topology]]
+* [[Grothendieck pretopology]]
 * [[site]]
 
 #### C2.2 The topos of sheaves
@@ -103,6 +159,28 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### D1 First-order categorical logic
 
+#### D1.1 First-order languages
+
+* [[type theory]]
+* [[context]]
+* [[theory]]
+* [[geometric theory]]
+* [[constructive mathematics]]
+
+#### D1.2 Categorical semantics
+
+* [[internal logic]]
+
+#### D1.3 First-order logic
+
+#### D1.4 Syntactic categories
+
+* [[internal logic]] and [[context]]
+* [[classifying topos]]
+
+#### D1.5 Classical completeness
+
+
 ### D2 Sketches
 
 #### D2.1 The concept of sketch
@@ -115,8 +193,6 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[Lawvere theory]]
 
-* [[geometric theory]]
-
 #### D2.3 Sketchable and accessible categories
 
 * [[locally presentable category]]
@@ -124,6 +200,44 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[accessible category]]
 
 #### D2.4 Properties of model categories
+
+### D3 Classifying toposes
+
+#### D3.1 Classifying toposes via syntactic sites
+
+* [[classifying topos]]
+
+### D4 Higher-order logic
+
+#### D4.4 Predicative type theories
+
+* [[predicative mathematics]]
+
+#### D4.5 Axioms of choice and Booleanness
+
+* [[axiom of choice]]
+* [[excluded middle]]
+
+#### D4.7 Real numbers in a topos
+
+* [[real number]]
+
+### D5 Aspects of finiteness
+
+#### D5.2 Finite cardinals
+
+* [[finite set]]
+* [[finite object]]
+
+#### D5.3 Finitary algebraic theories
+
+* [[Lawvere theory]]
+
+#### D5.4 Kuratowski-finiteness
+
+* [[finite set]]
+* [[finite object]]
+
 
 ## E Homtopy and Cohomology
 
