@@ -134,7 +134,7 @@ For more on this see also [[principal ∞-bundle]].
 
 ### Models for group objects in $\infty Grpd$
 
-There is a [[model category]] structure that presents the [[(∞,1)-category]] of group objects in [[∞Grpd]].
+There is a [[model category]] structure that presents the [[(∞,1)-category]] of group objects in [[∞Grpd]]: the [[∞-group]]s.
 
 * The group objects $G$ themselves are modeled by a model structure on the category $sGrpd$ of [[simplicial group]]s.
 
@@ -155,3 +155,5 @@ The Quillen equivalence itself is in section 6 there.
 
 
 [[!redirects groupoid object in an (∞,1)-category]]
+[[!redirects group object in an (infinity,1)-category]]
+[[!redirects group object in an (∞,1)-category]]
