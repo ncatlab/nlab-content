@@ -56,7 +56,7 @@ Kapranov introduced objects which should be interpreted as the infinitesimal nei
 
 * A. Grothendieck, _G&#233;om&#233;trie formelle et g&#233;om&#233;trie alg&#233;brique_, FGA 2 (S&#233;minaire Bourbaki, t. 11, 1958/59, no. 182)
 
-* Luc Illusie, _Grothendieck existence theorem in formal geometry_, chapter 8 in Fantechi, Gottsche, Illusie, Kleiman, Nitsure, Vistoli, _Fundamental algebraic geometry, Grothendieck's FGA explained, Math. Surveys and Monographs_ __123__, AMS 2005.
+* Luc Illusie, _Grothendieck existence theorem in formal geometry_, chapter 8 in Fantechi, Gottsche, Illusie, Kleiman, Nitsure, Vistoli, _Fundamental algebraic geometry, Grothendieck's [[FGA explained]], Math. Surveys and Monographs_ __123__, AMS 2005 (draft version [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes))
 
 * A. Grothendieck (avec J. Dieudonne), EGA I.10
 
