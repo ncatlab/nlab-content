@@ -22,7 +22,7 @@ have analogs for [[topos]]es and [[(∞,1)-topos]]es.
 
 ## Locally connected topos
 
-Let $E$ be a [[topos]]. An object $A \in E$ is called a [[connected object]] if $\hom_E(A, -)$ preserves finite coproducts. Equivalently, an object $A$ is connected if it is nonempty (noninitial) and cannot be expressed as a coproduct of two nonempty subobjects. 
+Let $E$ be a [[topos]]. An object $A \in E$ is called a [[connected object]] if $\hom_E(A, -)$ preserves finite [[coproduct]]s. Equivalently, an object $A$ is connected if it is nonempty (non[[initial object|initial]]) and cannot be expressed as a coproduct of two nonempty [[subobject]]s. 
 
 A [[Grothendieck topos]] $E$ is called a **locally connected topos** is every object $A \in E$ is a [[coproduct]] of connected objects $\{A_i\}_{i \in I}$, $A = \coprod_{i \in I} A_i$.  It follows that the index set $I$ is unique up to isomorphism, and we write
 
