@@ -1,3 +1,4 @@
+
 **[[Higher Topos Theory|(∞,1)-topos theory]]**
 
 ## Contents ##
@@ -35,7 +36,3 @@
 
 
 [[!redirects infinity,1-topos - contents]]
-
-
-
-
