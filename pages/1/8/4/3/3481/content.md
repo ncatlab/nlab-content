@@ -26,7 +26,7 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 * Rathjen proves that [[SVC]] also implies AMC.  It follows that AMC holds in "most" models of set theory.
 
-* AMC implies [[SOSHWIS]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]].
+* AMC implies [[WISC]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]].
 
 
 ## References
