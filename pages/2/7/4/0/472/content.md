@@ -27,6 +27,9 @@ $$
 
 #References#
 
-For instance definition 2.1 in
+A very brief introduction to cylinder functors is given starting on page 9 of [[Abstract-Homotopy.pdf|Abstract Homotopy Theory:file]].
+
+A fuller development of their properties is given in
 
 * K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+
