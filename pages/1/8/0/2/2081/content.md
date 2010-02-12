@@ -1,4 +1,4 @@
-A [[sheaf]] $F$ of [[set]]s on (the [[category of open subsets]] of) a [[topological space]] $X$ is __flabby__ (flasque) if for any open subset $U\subset X$, the restriction morphism $F(X)\to F(U)$ is [[surjection|onto]]. In mathematical literature in English, the original French word __flasque__ is still often used instead of flabby here. 
+A [[sheaf]] $F$ of [[set]]s on (the [[category of open subsets]] of) a [[topological space]] $X$ is __flabby__ (flasque) if for any open subset $U\subset X$, the restriction morphism $F(X)\to F(U)$ is [[surjection|onto]]. Equivalently, for any open $U\subset V\subset X$ the restriction $F(V)\to F(U)$ is surjective. In mathematical literature in English, the original French word __flasque__ is still often used instead of flabby here. 
 
 An archetypal example is the sheaf of all set-theoretic (not necessarily continuous) [[sections]] of a [[bundle]] $E\to X$; regarding that every sheaf over a topological space is the sheaf of sections of an [[etale space]], every sheaf can be embedded into a flabby sheaf $C^0(X,F)$ defined by
 
