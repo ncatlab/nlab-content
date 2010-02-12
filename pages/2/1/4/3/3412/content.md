@@ -1,5 +1,5 @@
 
-**Rainer Vogt** is is a mathematician specialised in [[homotopy theory]].
+**Rainer Vogt** is  a mathematician specialised in [[homotopy theory]].
 
 He received his Ph.D. from Johns Hopkins University and his thesis advisor was [[Michael Boardman]]. He is a a full professor at Osnabr&#252;ck University in Germany.
 
@@ -9,6 +9,11 @@ He coauthored with Boardman the famous book **Homotopy invariant algebraic struc
 
 This book introduced the notion of [[weak Kan complex]] that was later popularized by [[André Joyal]] under the name [[quasi-category]] as a natural basis for the  [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]].
 
+An early application of the ideas from that book was in the proof of what is sometimes refereed to as Vogt's theorem on categories of homotopy coherent maps, between homotopy coherent diagrams. This is briefly discussed at [[homotopy coherent diagram]]. It occurs in his paper
+
+* R.M. Vogt, _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52,
+
+which gave a neat explicit construction/description of [[homotopy limit]]s.
 
 ## References
 
