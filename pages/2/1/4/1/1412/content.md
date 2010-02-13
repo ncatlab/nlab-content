@@ -153,7 +153,7 @@ it obeys the rules of being a sheaf.
 Examples:
 
 
-* The notion of "generalized" here depends on the perspective of our probes. For the probe category of the form $S = Op(Z)$ with $Z$ a topological space, most sheaves are "generalized spaces" in that they do not describe maps into a space in $S$, i.e. an open subset of $Z$. But every sheaf on $Op(Z)$ can be shown to correspond to maps from $X$ to an ordinary topological space $E$ which is equipped with a continuous map $p : E \to X$ down to $X$, such that $p$ is locally a homeomorphism. Such $E$ are called _[[etale space|étale spaces]]_ over $X$.
+* The notion of "generalized" here depends on the perspective of our probes. For the probe category of the form $S = Op(Z)$ with $Z$ a topological space, most sheaves are "generalized spaces" in that they do not describe maps into a space in $S$, i.e. an open subset of $Z$. But every sheaf on $Op(Z)$ can be shown to correspond to maps from $Z$ to an ordinary topological space $E$ which is equipped with a continuous map $p : E \to Z$ down to $Z$, such that $p$ is locally a homeomorphism. Such $E$ are called _[[etale space|étale spaces]]_ over $Z$.
 
 * A sheaf on $S = $ [[Diff]] is a [[generalized smooth space]]. These may be very different from ordinary manifolds and ordinary topological spaces. There are generalized smooth spaces with a single point and still many curves in them. In fact, the generalized classifying space for smooth circle bundles with connection that we are still after is of this form.
 
