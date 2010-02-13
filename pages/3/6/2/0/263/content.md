@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-##Idea##
+## Idea
 
 A _category with [[weak equivalence]]s_ is an ordinary [[category]] with a class of morphisms called 'weak equivalences' that include the isomorphisms, but also typically other morphisms.  Such a category can be thought of as a presentation of an [[(∞,1)-category]] that gives only the 1-morphisms and the information about which of these 1morphisms should become _equivalences_ in the full [[(∞,1)-category]].
 
@@ -27,6 +27,19 @@ is equivalent to the identity, do you?
 [[Mike Shulman]]: Also an interesting question!  However, I believe the answer is "it's not the same."  Consider simplicially enriched groupoids, meaning simplicially enriched categories in which each category $C_n$ defined by $C_n(x,y) = C(x,y)_n$ is a groupoid.  The fundamental $\infty$-groupoid of *any* space can be realized as such a simplicially enriched groupoid.  However, when we discard the higher cells in a simplicially enriched groupoid, we obtain simply an ordinary groupoid, whose simplicial localization is just itself.  So in this case, the composite operation in question is the 1-truncation.
 =--
 
+
+
+## Definition
+
+A **category with weak equivalences** is a [[category]] $C$ equipped with a [[subcategory]] (in the na&#239;ve sense) $W \subset C$
+
+* which contains all isomorphisms of $C$;
+
+* which satisfies "two-out-of-three": for $f, g$ any two composable morphisms of $C$, if two of $\{f, g, g \circ f\}$ are in $W$, then so is the third.
+
+
+### Refinements
+
 Often categories with weak equivalences are equipped with further extra structure that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
 
 * In a [[homotopical category]] the condition on the weak equivalences is slightly stronger.
@@ -38,15 +51,9 @@ Often categories with weak equivalences are equipped with further extra structur
 * In a [[model category]] there are both of these additional auxiliary classes of morphisms with special interrelation between them.
 
 
-## Definition ##
 
-A **category with weak equivalences** is a [[category]] $C$ equipped with a [[subcategory]] (in the na&#239;ve sense) $W \subset C$
 
-* which contains all isomorphisms of $C$;
-
-* which satisfies "two-out-of-three": for $f, g$ any two composable morphisms of $C$, if two of $\{f, g, g \circ f\}$ are in $W$, then so is the third.
-
-## Purpose ##
+## Purpose 
 
 The idea is that $C$ is a presentation of a [[higher category theory|higher category]] with higher morphisms, and that the weak equivalences are those morphisms which would become true [[equivalence]]s in this higher category.
 
@@ -54,7 +61,7 @@ This higher category may be reconstructed by Dwyer-Kan localization as an $(\inf
 
 Alternatively, we may further project to the 1-category in which all weak equivalences become true [[isomorphism]]s: this is the [[homotopy category]] of $C$ with respect to $W$.
 
-## Remarks ##
+## Remarks 
 
 * If we denote by $Core(C)$ the maximal subgroupoid of $C$, then we have a chain of inclusions
 $ 
