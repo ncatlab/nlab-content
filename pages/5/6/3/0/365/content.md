@@ -52,6 +52,9 @@ A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes 
 
 (iii) $R$ is the class of morphisms which have the right lifting property with respect to every morphism of $L$.
 
+See the [[joyalscatlab:Weak factorisation systems|Catlab]] for the theory. 
+
+
 #Orthogonal Factorization Systems#
 
 An **[[orthogonal factorization system]]** is a weak factorization system where we additionally require that the solutions to each lifting problem be _unique_.
@@ -65,6 +68,9 @@ On the other hand, saying that (mono,epi) is a WFS in $Set$ is equivalent to the
 * [[model category|Model categories]] provide many examples of weak factorization systems.  In fact, most applications of WFS involve model categories or model-categorical ideas.
 
 * The existence of certain [[weak factorization system on Set|WFS on Set]] is related to the [[axiom of choice]].
+
+
+* See the [[joyalscatlab:Weak factorisation systems|Catlab]] for more examples. 
 
 #Properties#
 
