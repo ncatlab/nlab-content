@@ -69,4 +69,4 @@ An introduction and overview of the relation between quasi-categories and simpli
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
-The deatils are in section 2.2
+The details are in section 2.2
