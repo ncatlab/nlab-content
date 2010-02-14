@@ -71,7 +71,7 @@ making $X$ and $Y$ homotopy equivalent as h.c. diagrams.
 
 (This applied to a $G$-space, $X$, shows that if we replace $X$ by 
 a homotopy equivalent $Y$, then $Y$ will be a h. c. version of a $G$-space, i.e. a
-h. c. diagram of type $BG$, the corresponding one object groupoid to $G$.)
+h. c. diagram of shape $BG$, the corresponding one object groupoid to $G$.)
 
 (ii)**Vogt's theorem**
 
@@ -87,7 +87,7 @@ $$\mathbf{Coh(A,Top)} \stackrel{\simeq}{\to} \mathbf{Ho(Top^A)}.$$
 
 Given ${\mathbb{A}}$, a small category, then the $SSet$-category
 ${S(\mathbb{A})}$ (for the definition see [[homotopy coherent nerve]]) is such that a
-h.c. diagram of type ${\mathbb{A}}$ in $Top$ is given precisely by an 
+h.c. diagram of shape ${\mathbb{A}}$ in $Top$ is given precisely by an 
 $SSet$-functor
 
 $$F : {S(\mathbb{A})} \to Top$$
