@@ -8,8 +8,8 @@ $$
       p^*_{0,\cdots, m}
     }{\to}& X_m
     \\
-    {}^{p^*_{m, \cdots, m+n}}\downarrow 
-    && \downarrow^{p^*_m}
+    {}^{\mathllap{p^*_{m, \cdots, m+n}}}\downarrow 
+    && \downarrow^{\mathrlap{p^*_m}}
     \\
     X_n &\stackrel{p^*_0}{\to}& X_0
   }
