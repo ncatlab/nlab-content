@@ -80,7 +80,7 @@
 
 * [[Theta space|on (n,r)-categories]]
 
-  * [[model structure on quasi-categories|on quasi-categories]]/[[model structure on sSet-categories|on sSet-categories]]
+  * [[model structure on categories with weak equivalences|on categories with weak equivalences]]/[[model structure on quasi-categories|on quasi-categories]]/[[model structure on sSet-categories|on sSet-categories]]
 
   * [[folk model structure|on strict ∞-categories/strict ∞-groupoids]]
 
