@@ -4,15 +4,33 @@
 
 ## Idea
 
-A [[category with weak equivalences]] $C$ serves as a presentation for an [[(∞,1)-category]] $\mathbf{C}$. Accordingly, a homotopical functor $F : C \to D$ should induce an [[(∞,1)-functor]] between the corresponding [[(∞,1)-categories]] $\mathbf{C} \to \mathbf{D}$. From the [[nPOV]], this is a **derived functor**.
+A [[category with weak equivalences]] $C$ serves as a presentation for an [[(∞,1)-category]] $\mathbf{C}$. Accordingly, a [[functor]] $F : C \to D$ should induce an [[(∞,1)-functor]] between the corresponding [[(∞,1)-categories]] $\mathbf{C} \to \mathbf{D}$. From the [[nPOV]], this is a **derived functor**.
 
-However, tyically a [[homotopical functor]] does not uniquely give rise to an [[(∞,1)-functor]]. In general it contains too little information to accomplish this. Notably, on objects $x, y \in C$ that are [[homotopy equivalence|equivalent]] in $\mathbf{C}$ but not [[isomorphism|isomorphic]] in $C$, the functor will in general not assign objects $F(x)$ and $F(y)$ that are equivalent in $\mathbf{D}$, as an [[(∞,1)-functor]] would. So it matters on which representatives of a $\mathbf{C}$-equivalence class of objects the functor $F$ is applied. 
+If $F$ is a [[homotopical functor]] in that it respects the weak equivalences in $C$ and $D$, then by the universal property of [[simplicial localization]] it extends to a functor of [[(∞,1)-category|(∞,1)-categories]] and this is the corresponding _derived functor_ .
 
-If $C$ and $D$ are equipped not just with weak equivalences but with the full structure of a [[model category]] and if $F$ is a left or right [[Quillen adjunction|Quillen functor]] with respect to these model structures, then there is a good answer to this problem:
+However, typically functors of interest do not respect weak equivalences and hence do not uniquely or even naturally give rise to an [[(∞,1)-functor]]. In general, they contains too little information to accomplish this. Notably, to objects $x, y \in C$ that are [[homotopy equivalence|equivalent]] in $\mathbf{C}$ but not [[isomorphism|isomorphic]] in $C$, the functor will in general not assign objects $F(x)$ and $F(y)$ that are equivalent in $\mathbf{D}$, as an [[(∞,1)-functor]] would. So it matters on which representatives of a $\mathbf{C}$-equivalence class of objects the functor $F$ is applied. 
+
+Remembering that by Dwyer-Kan [[simplicial localization]] the morphisms in $\mathbf{C}$ and $\mathbf{D}$ are zig-zags of morphisms in $C$ and $D$, a very general notion of derived functor therefore takes a derived functor of $F$ to be a functor $\mathbb{D}F : \mathbf{C} \to \mathbf{D}$ to be a functor induced from the universal property of the localization by a functor of the form $F \circ Q : C \to D$, where $Q : C \to C$ is an endofunctor which is naturally connected to the identity by a zig-zag of weak equivalences. 
+
+$$
+  X \stackrel{\simeq}{\leftarrow}
+  X_1 
+   \stackrel{\simeq}{\to}
+  X_2
+  \cdots
+  \stackrel{\simeq}{\leftarrow}
+  Q X
+  \,.
+$$
+
+Here if this zig-zag consists just of one morphism to the left one would speak of a **left derived functor**. If it consistis of just one morphism to the right, one would speak of a **right derived functor**. In general, it is just a derived functor.
+
+In highly structured situation where $C$ and $D$ are equipped not just with weak equivalences but with the full structure of a [[model category]] and if $F$ is a left or right [[Quillen adjunction|Quillen functor]] with respect to these model structures, there are accordingly more structured ways to solve this problem:
+
 
 the **left derived functor** $\mathbb{L}F : \mathbf{C} \to \mathbf{D}$ of a left Quillen functor $F : C \to D$ is obtained by applying $F$ to _cofibrant_ objects of $C$. Similarly a **right derived functor** $\mathbb{R}G : \mathbf{D} \to \mathbf{C}$ of a right Quillen functor $G : D \to C$ is obtained by applying $G$ to _fibrant_ objects. 
 
-Recalling that the [[(∞,1)-category]] [[presentabled (∞,1)-category|presented]] by a [[simplicial model category]] $C$ may be identified with the full [[SSet]]-[[subcategory]] $C^\circ$ of fibrant-cofibrant objects, this may be understood as ensuring that the derived functor indeed respects the $(\infty,1)$-categorical structure. More precisely, for
+Recalling that the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by a [[simplicial model category]] $C$ may be identified with the full [[sSet]]-[[subcategory]] $C^\circ$ of fibrant-cofibrant objects, this may be understood as ensuring that the derived functor indeed respects the $(\infty,1)$-categorical structure. More precisely, for
 
 $$
   (F \dashv G) : C \stackrel{\leftarrow}{\to} D
@@ -28,7 +46,7 @@ $$
 
 between [[quasi-category|quasi-categories]] $\mathbf{C} = N(C^\circ)$, $D = N(D^\circ)$, where $N$ is the [[homotopy coherent nerve]] functor. 
 
-Often a simplified version of this situation is considered, where instead of the [[(∞,1)-categories]] $\mathbf{C}$ and $\mathbf{D}$ only [[homotopy category of an (∞,1)-category|their homotopy categories]] are remembered, equivalently the [[homotopy categories]] of $C$ and $D$. The above [[adjoint (∞,1)-functor]]s restrict to functors
+Often a simplified version of this situation is considered, where instead of the [[(∞,1)-categories]] $\mathbf{C}$ and $\mathbf{D}$ only [[homotopy category of an (∞,1)-category|their homotopy categories]] are remembered, equivalently the [[homotopy category|homotopy categories]] of $C$ and $D$. The above [[adjoint (∞,1)-functor]]s restrict to functors
 
 $$
   L F : Ho(C) \stackrel{\leftarrow}{\to} Ho(D)
@@ -36,11 +54,11 @@ $$
   R G
 $$
 
-on [[homotopy categories]], and often its is these functors that are called (total) **derived functor**s in the literature
+on [[homotopy category|homotopy categories]], and often its is these functors that are called (total) **derived functor**s in the literature
 
-More generally, derived functors may be considered in situations where less than the above extra structure is available (no [[model category]] structure or not [[Quillen adjunction]]).
+More generally, derived functors in this sense may be considered in situations where less than the above extra structure is available (no [[model category]] structure or not [[Quillen adjunction]]).
 
-If one forgets the [[nPOV]] and that a [[category with weak equivalemce]]s should be regarded as presentation for an [[(∞,1)-category]], then it might seem as if all one wants when deriving a [[homotopical functor]] $f : C \to D$ is to extend it to a diagram
+If one forgets the [[nPOV]] and that a [[category with weak equivalences]] should be regarded as presentation for an [[(∞,1)-category]], then it might seem as if all one wants when deriving a [[homotopical functor]] $f : C \to D$ is to extend it to a diagram
 
 $$
   \array{
@@ -53,15 +71,29 @@ $$
   \,,
 $$
 
-where $Q_C : C \to Ho(C)$ is the universal morphism characterizing the [[homotopyy category]] and similarly for $Q_D$.
+where $Q_C : C \to Ho(C)$ is the universal morphism characterizing the [[homotopy category]] and similarly for $Q_D$.
 
 There is a general method of ordinary [[category theory]] to solve such problems universally: one may take $Ho(C) \to Ho(D)$ to be either the left or right [[Kan extension]] of $Q_d \circ F$ along $Q_C$.
 
 This is often in the literature given as the _definition_ of, respectively , total left and right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category]] theory picture. Moreover, the examples of derived functors that play any practical role are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It then also happens that the functors so obtained are left or right Kan extensions.
 
-> please add some mentioning of more exotic examples here...
+> ...please add some mentioning of more exotic examples here...
 
 ## Definition
+
+We first give the [[decategorification|decatergorified]] definition of total derived functors on [[homotopy category|homotopy categories]] in 
+
+* [As functors on homotopy categories](#OnHomotopyCat)
+
+and then the [[(∞,1)-category]]-version in
+
+* [Af functors on (∞,1)-categories](#OnInftyCats).
+
+
+
+### As functors on homotopy categories {#OnHomotopyCat}
+
+
 
 For $Core(C) \hookrightarrow W \hookrightarrow C$ a [[category with weak equivalences]], then for $F : C \to D$ any functor, the __left derived functor__ $L F$ of $F$ is the _right_ [[Kan extension]] of $F$ along the projection $p : C \to Ho_C$ to the [[homotopy category]]
 
@@ -109,7 +141,7 @@ _Toby_:  Excuse me, but maybe this discussion could use a link: [[satellite]].
 =--
 
 
-## Remarks
+#### Remarks
 
 * By the universal property of $Ho_C$, functors $Ho_C \to D$ are equivalent to functors $C\to D$ which take weak equivalences to isomorphisms.  If $F$ itself takes weak equivalences to isomorphisms, then its left and right derived functors are both (isomorphic to) its unique extension along $p$.  In general, however, $L F$ and $R F$ are not extensions of $F$ even up to isomorphism.
 
@@ -120,6 +152,45 @@ _Toby_:  Excuse me, but maybe this discussion could use a link: [[satellite]].
 
 * The connection to the 
 more elementary notion of [[derived functor on a derived category]] in [[homological algebra]] that is as follows. A functor $F:A \to B$ between [[abelian category|abelian categories]] induces a functor $Ch(F):Ch(A) \to Ch(B)$ between [[category of chain complexes|categories of chain complexes]], each of which can be equipped with the class of [[quasi-isomorphism|quasi-isomorphisms]] as weak equivalences.  We obtain the usual derived functors of $F$ by taking the derived functor of $Ch(F)$ in the above sense, evaluating it at an object of $A$ regarded as a chain complex concentrated in degree zero, and then taking the [[homology]] of the resulting chain complex in $B$.
+
+
+
+
+
+
+### As functors on $(\infty,1)$-categories {#OnInftyCats}
+
++-- {: .un_prop}
+###### Proposition
+
+Let $C$ and $D$ by [[simplicial model category|simplicial model categories]] and let
+
+$$
+  (F \dashv G) : C \stackrel{\overset{G}{\leftarrow}}{\overset{F}{\to}} D
+$$
+
+be an [[sSet]]-[[enriched functor|enriched]] [[Quillen adjunction]]. Then there is an [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+
+$$
+  (\mathbb{L}F \dashv \mathbb{R}G) : N(C^\circ) \stackrel{\overset{\mathbb{R} G}{\leftarrow}}{\overset{\mathbb{L}F}{\to}} N(D^\circ)
+$$
+
+between [[quasi-categories]] $N(C^\circ)$ and $N(D^\circ)$ otained as the [[homotopy coherent nerve]]s of the full [[sSet]]-[[subcategories]] of fibrant-cofibrant objects. Their image on the [[homotopy category|homotopy categories]] produces the notion of total derived functor between homotopy categories discussed above
+
+$$
+  (L F \dashv R G) : Ho(C) \stackrel{\overset{R G}{\leftarrow}}{\overset{L F}{\to}} Ho(D)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is prop. 5.2.4.6 and remark 5.2.4.7 in [[Higher Topos Theory|HTT]].
+
+=--
+
 
 
 ## Examples
