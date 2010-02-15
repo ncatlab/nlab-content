@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 [[triangulated category|Triangulated categories]] are a bit rough sort of a [[localization]], and lack some naturally expected properties, for example the functoriality of the cones. Therefore, it has been a wish since the 1960s to replace or repair them with a more coherent structure. 
 
@@ -12,7 +16,7 @@ An _enhancement_ of a triangulated category to a
 ([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] may be, in characteristic zero, considered as a way to retain the information in the [[stable (∞,1)-category]]. Therefore in that case, the enhanced triangulated categories are models for [[stable (infinity,1)-category|stable (∞,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(∞,1)-categories]].
 
 
-#Details#
+## Details
 
 It is well-known that the concept of a [[triangulated category]] is suffering many deficiencies for the purposes of [[homological algebra]], geometry and topology; and even categorical properties like the non-functoriality of the cones.  For that reason, Bondal and Kapranov in
 
