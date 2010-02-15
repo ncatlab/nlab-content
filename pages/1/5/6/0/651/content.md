@@ -68,6 +68,7 @@ To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally
 
    As an example, consider the plane $\mathbb{R}^2$ quotiented out by the $x$-axis.
 
+   +-- {: #quotientx style="text-align:center"}
    <svg width="188" height="197" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
    <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
    <g>
@@ -81,6 +82,7 @@ To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally
    <line fill="none" stroke-width="2" stroke="#9b9b9b" id="svg_7" y2="193.999991" x2="96" y1="2" x1="94"/>
    </g>
    </svg>
+   =--
 
    Let us write this as $X$.
 This example is closely related to taking cones and suspensions in algebraic topology.
