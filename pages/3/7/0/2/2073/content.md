@@ -1,9 +1,14 @@
-# Idea #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 Marked simplicial sets are [[simplicial set]]s with a little bit of extra [[stuff, structure, property|structure]] that allows to model [[Cartesian fibration]]s of [[simplicial set]]s precisely as the fibrations in the [[model structure on marked simplicial over-sets]].
 
 
-# Definition #
+## Definition 
 
 
 A **marked simplicial set** is 
@@ -45,8 +50,8 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 The main point of marked simplicial sets is to carry the [[model structure on marked simplicial over-sets]]. This is a model for the [[(∞,1)-category]] of [[cartesian fibration]]s of [[(infinity,1)-category|(∞,1)-categories]].
 
 
-# References #
+## References 
 
 Section 3.1 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
