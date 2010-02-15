@@ -18,7 +18,7 @@ Given that an $(\infty,1)$-category is a context for abstract [[homotopy theory]
 
 ### Intrinsic definition
 
-The full [[SSet]]-[[enriched category theory|enriched]]-[[subcategory]] of [[SSet]] on those simplicial sets which are [[quasi-categories]] is -- by the properties discussed at [[(∞,1)-category of (∞,1)-functors]] iself a [[quasi-category]]-[[enriched category]]. This is the [[(∞,2)-category]] of [[(∞,1)-categories]].
+The full [[SSet]]-[[enriched category theory|enriched]]-[[subcategory]] of [[SSet]] on those simplicial sets which are [[quasi-categories]] is -- by the properties discussed at [[(∞,1)-category of (∞,1)-functors]] --  iself a [[quasi-category]]-[[enriched category]]. This is the [[(∞,2)-category]] of [[(∞,1)-categories]].
 
 The [[sSet]]-[[subcategory]] of that obtained by picking of each [[hom-object]] the [[core]], i.e. the maximal [[∞-groupoid]]/[[Kan complex]] yields an [[∞-groupoid]]/[[Kan complex]]-[[enriched category]]. This is the **$(\infty,1)$-category of $(\infty,1)$-categories** in its incarnation as a [[simplicially enriched category]]. Forming its [[homotopy coherent nerve]] produces the **quasi-category of quasi-categories** .
 
