@@ -181,12 +181,12 @@ projects down to the one in $X$:
 
 A **quasi-fibration** or **weak Kan fibration** or **inner Kan fibration** of simplicial sets is defined as above, but with the lifting property only imposed in _inner horns_: $\Lambda^n_k$ with $0 \lt k \lt (n-1)$, not the _outer horns_ $\Lambda^n_0$ and $\Lambda^n_n$.
 
-This weakened condition then says that _composition_ of cells may be lifted through the quasi-fibration, but not necessarily [[inverse|inversion]] of 1-cells.
+This weakened condition then says that _composition_ of cells may be lifted through the quasi-fibration, but not necessarily [[inverse|inversion]] of 1-cells.  See [[fibrations of quasi-categories]] for more details.
 
 ## Left and right Kan fibration 
 
 Similarly, a **left Kan fibration** is one that has the lifting property for all horns except possibly the last one.
-and a **right Kan fibration** is one that has the lifting property for all horns except possibly the first one.
+and a **right Kan fibration** is one that has the lifting property for all horns except possibly the first one.  See [[fibrations of quasi-categories]] for more details.
 
 
 ## Properties
@@ -335,13 +335,3 @@ We check successively what this means for increasing $n$:
 * Just as the underlying simplicial set of a [[simplicial group]] is a [[Kan complex]] (see algorithm at [[simplicial group]]), so also given any simplicial morphism $f : G\to H$ of simplicial groups for which in each dimension, $n$, the homomorphism $f_n : G_n \to H_n$ is an [[epimorphism]], then the underlying simplicial map of simplicial sets is a Kan fibration. (Apart from a careful choice of section in each dimension, the proof can be constructed from the algorithm given in [[simplicial group]].)
 
 * A morphism of simplicial sets that has the left [[lifting property]] with respect to all Kan fibrations is called an [[anodyne morphism]].
-
-
-[[!redirects left Kan fibration]]
-[[!redirects inner Kan fibration]]
-[[!redirects right Kan fibration]]
-[[!redirects weak Kan fibration]]
-[[!redirects left fibration]]
-[[!redirects inner fibration]]
-[[!redirects right fibration]]
-[[!redirects weak fibration]]
