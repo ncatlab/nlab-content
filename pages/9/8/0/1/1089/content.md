@@ -1,4 +1,8 @@
-#Definition#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 A **suspended category** is an [[additive category]] $C$ equipped with an additive functor $S:C\to C$ called __suspension__ and a class of $S$-sequences called __triangles__ satisfying axioms below. Here one calls an _$S$-sequence_ a sequence of morphisms of the form
 $$
@@ -41,7 +45,7 @@ X&\stackrel{f}\to &Y&\stackrel{g}\to &Z'&\to& S X\\
 }$$
 where the first two rows and the middle two columns are triangles. 
 
-#Examples#
+## Examples
 
 * Every [[triangulated category]] is suspended. 
 
@@ -49,11 +53,11 @@ where the first two rows and the middle two columns are triangles.
 
 * Under mild assumptions, the [[stable category]] of [[Quillen exact category]] $(A,E)$ is a suspended category. If $A$ is [[Frobenius category]] then $A$ is [[triangulated category]].
 
-#References#
+## References
 
 Suspended categories were introduced in
 
-* Bernhard Keller, Dieter Vossieck,
+* [[Bernhard Keller]], Dieter Vossieck,
 Sous les cat&#233;gories d&#233;riv&#233;es. [Beneath the derived categories] C. R. Acad. Sci. Paris S&#233;r. I Math. 305 (1987), no. 6, 225--228. 
 
 See also 
