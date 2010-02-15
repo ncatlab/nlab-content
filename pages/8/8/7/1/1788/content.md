@@ -39,6 +39,26 @@ One caveat: if you want to use references to numbered definitions and theorems a
 
 This only works with anchors produced in definitions and similar.  So \ref{anotheranchor} doesn't work.  The converse, however, does work: we can use a link [like this](/nlab/show/Sandbox#catdef) to point to the above definition.  This also works from a different wiki page.
 
+Now trying references to equations:
+
+\[
+\label{foo}
+x^2 + y^2 = z^2
+\]
+
+We should be able to refer to equation \eqref{foo} explicitly, or to (eq:foo) if not.
+
+But what if our equation is empty, like this?
+
+\[\label{bar}\]
+
+Can we still refer to it via \eqref{bar} or (eq:bar)?
+
+Can we add anchors to pictures?
+
+![n](n.png){#npic}
+
+So we should now jump to [that pic](#npic)!
 
 ***
 
@@ -191,4 +211,4 @@ category: meta
 [[!redirects nitwits]]
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
-[[!redirects &#1513;&#1504;&#1492; &#1496;&#1493;&#1489;&#1492;]
+[[!redirects שנה טובה]]
