@@ -1,5 +1,9 @@
 
-# Idea #
+#Contentds#
+* automatic table of contents goes here
+{:toc}
+
+##  Idea 
  
 The _universal fibration of [[(infinity,1)-category|(∞,1)-categories]] is the [[generalized universal bundle]] of $(\infty,1)$-categories in that it is [[Cartesian fibration]]
 
@@ -17,7 +21,13 @@ over the [[opposite category]] of the [[(∞,1)-category of (∞,1)-categories]]
 Recall from the discussion at [[generalized universal bundle]] and at [[stuff, structure, property]] that for [[n-category|n-categories]] at least for low $n$ the corresponding universal object was the $n$-category $n Cat_*$ of [[pointed object|pointed]] $n$-categories. $Z$ should at least morally be $(\infty,1)Cat_*$.
 
 
-## Restriction to $\infty$-Groupoids ##
+## Definition 
+
+...see section 3.3.2 of [[Higher Topos Theory|HTT]]...
+
+
+
+### Restriction to $\infty$-Groupoids {#RestInfGrpd}
 
 The universal fibration of $(\infty,1)$-categories restricts to a [[Cartesian fibration]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ over [[∞-Grpd]] by [[pullback]] along the inclusion morphism $\infty Grpd \hookrightarrow (\infty,1)Cat$
 
@@ -55,12 +65,11 @@ This is proposition 3.3.2.5 in [[Higher Topos Theory|HTT]].
 =--
 
 
-# Definition #
-
-see section 3.3.2 of [[Higher Topos Theory|HTT]].
 
 
-# Models #
+
+
+## Models
 
 For concretely constructing the relation between [[Cartesian fibration]]s $p : E \to C$ of [[(infinity,1)-categories|(∞,1)-categories]] and [[(∞,1)-functor]]s $F_p : C \to (\infty,1)Cat$ one may use a [[Quillen equivalence]] between suitable [[model category|model categories]] of [[marked simplicial set]]s.
 
@@ -95,11 +104,11 @@ $$
 (See remark 3.2.5.5 of [[Higher Topos Theory|HTT]]).
 
 
-#References#
+## References
 
 The universal fibration as such is discussed in section 3.3.2 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 The concrete description in terms of model theory on marked simplicial sets is in section 3.2. A simpler version of this is in section 2.2.1
 
