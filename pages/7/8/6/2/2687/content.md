@@ -19,7 +19,10 @@
 
 * [[small object argument]]
 
+* [[Quillen adjunction]]
+
 * [[Bousfield localization of model categories|Bousfield localization]]
+
 
 ## refinements ##
 
