@@ -77,55 +77,119 @@ section 6.5.1 of
 
 ### Idea {#GeomIdea}
 
-Let $C$ be some [[site]] and let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-topos]] of [[∞-stack]]s over $C$. We think of objects $X \in \mathbf{H}$ as generalized [[space]]s modeled on $C$.
-
-We have a squence of [[adjunction]]s
+An ordinary [[topos]] $E$ is a [[locally connected topos]] of the [[global section]]s [[geometric morphism]] $(LConst \dashv \Gamma) : E \stackrel{\overset{LConst}{\leftarrow}}{\overset{Gamma}{\to}} Set$ is in fact an [[essential geometric morphism]] in that $LConst$ has also a [[left adjoint $(\Pi_0 \dashv LConst)$:
 
 $$
-  Sh_{(\infty,1)}(C)
-  \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
-  PSh_{(\infty,1)}(C)
-  \stackrel{\overset{const}{\leftarrow}}{\to}
-  PSh_{(\infty,1)}(*)
-  =
-  \infty Grpd 
+  (\Pi_0 \dashv LConst \dashv \Gamma)
   :
-  LConst
-$$
-
-where on the left we have the defining adjunction of the [[(∞,1)-category of (∞,1)-sheaves]] -- $L$ is [[∞-stackification]] -- and on the right the [[geometric morphism]] that is induced from the canonical morphism of [[site]]s $C \to {*}$ (to the [[terminal object|terminal]] site).
-
-The [[constant ∞-stack]] $\infty CovBund := LConst(Core(\infty Grpd)) \in \mathbf{H}$ is the classifying stack for [[locally constant ∞-stack]]s on objects $X \in \mathbf{H}$. We write
-
-$$
-  \infty CovBund(X) := \mathbf{H}(X,\infty CovBund)
-$$ 
-
-for the $\infty$-groupoid of [[locally constant ∞-stack]]s on $X$.
-
-If the [[left adjoint]] $LConst$ is also a [[right adjoint]] 
-
-$$
-  (\Pi \dashv LConst)
-  :
-  Sh_{(\infty,1)}(C)
-  \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Pi}{\to}}
-  \infty Grpd   
-$$
-
-then we have from the [[adjunction]] that locally constant $\infty$-stacks on $X$ are equivalently given by [[(∞,1)-functor|∞-functors]] from the [[∞-groupoid]] $\Pi(X)$ to $\infty FinGrpd$:
-
-$$
-  \infty CovBund(X) \simeq Func(\Pi(X),\infty Grpd)
+  E
+  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  Set
   \,.
 $$
 
-In $\mathbf{H} = $ [[Top]], this is the relation satisfied by the [[fundamental ∞-groupoid]] $\Pi(X)$ of a [[topological space]] $X$. Accordingly here in a general $(\infty,1)$-topos $\mathbf{H}$ we may think of the functor $\Pi : \mathbf{H} \to \infty Grpd$ as giving for each generalized [[space]] its geometric [[schreiber:path ∞-groupoid]] of geometric paths in it.
+This left adjoint $\Pi_0$ sends each object $X$ of $A$ to its [[set]] $\Pi_0$ of connected components. In other words this left adjoint produces the degree 0-part of the homotopy groups of objects of $E$.
 
-Accordingly, then, we may think of the ordinary [[homotopy group]]s of $\Pi(X)$ as the **geometric homotopy groups** of $X \in \mathbf{H}$.
+This has an obvious generalization of [[(∞,1)-topos]]es.
+
+### Definition
+
+The obvious generalization of the notion of $\Pi_0$ for a [[locally connected topos]] is to say that for $n \in \mathbb{N}$ an [[(n,1)-topos]] $\mathbf{H}$ is a [[locally n-connected (∞,1)-topos|locally n-connected (n,1)-topos]] if again the terminal geometric morphism is an essential geometric morphism in that the [[constant stack|constant n-stack]] functor $LConst$ has a [[left adjoint]] $\Pi_n$
+
+$$
+  (\Pi_n \dashv LConst \dashv \Gamma)
+  :
+  \mathbf{H}
+  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  n Grpd
+  \,.
+$$
+
+Here me may take $n = \infty$ and say that an [[(∞,1)-topos]] is [[locally n-connected (∞,1)-topos|locally contractible]] if we have an [[essential geometric morphism]]
+
+$$
+  (\Pi \dashv LConst \dashv \Gamma)
+  :
+  \mathbf{H}
+  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  \infty Grpd
+$$
+
+to [[? Grpd]], with $\Pi$ the left [[adjoint (∞,1)-functor]] to the [[constant ∞-stack]] [[(∞,1)-functor]] $LConst$. For $X \in \mathbf{H}$ any object, the [[∞-groupoid]] $\Pi(X)$ deserves to be called the **homtopy $\infty$-groupoid** of X
+Its ordinary [[homotopy group]]s should be the homotopy groups of $X$.
+
+This perspective on homotopy groups in an $(\infty,1)$-topos is made explicit at
+
+* [[schreiber:homotopy ∞-groupoid]].
+
+While an obvious slight generalization or refinement of what is considered in previous literature, it seems that the simple picture of a left [[adjoint ∞-functor]] to the [[constant ∞-stack]] functor has not been made explicit in the existing literature (though possibly in the thesis by [[Richard Williamson]]).
+
+However, up to some straightforward translations of concepts and notation, it turns out that essentially all aspects of this picture are present and well known -- if somewhat implicitly -- in existing literature. A detailed commented account of what is in the literature is in the section [Examples](#GeomExamples) below.
+
+There are essentially three different methods for getting one's hands concretely on the abstractly defined  [[schreiber:homotopy ∞-groupoid]]-functor $\Pi$.
+
+1. by constructing the left adjoint $\Pi(-)$ as the functor 
+   that takes an object to its **local contraction** 
+   -- this is described in the 
+   section _[In terms of local contractions](#LocalContraction);
+
+1. by using **monodromy**/[[Galois theory]] of [[locally constant ∞-stacks]]s -- this is described in the section [In terms of monodromy and Galois theory](Monodromy);
+
+1. by constructing $\Pi(-)$ explicitly as a path 
+   $\infty$-groupoid in terms of paths modeled on 
+   an [[interval object]] in $\mathbf{H}$ -- 
+   this is described in the section 
+   _[In terms of concrete paths](Paths)_
 
 
-### Monodromy {#Monodromy}
+### In terms of local contractions {#LocalContraction}
+
+We now discuss the construction of the [[nLab:left adjoint]] $\Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ when it exists.
+
+> [[Urs Schreiber]]: for the moment this discussion is a bit incomplete. The concrete construction we describe is well known but it hasn't been interpreted in the context of [[higher topos theory]] as we do now and not been realized as a left adjoint $\infty$-functor. (But some glimpses of it do appear, for instance $\Pi_0$ as the left adjoint to $LConst$ in a [[locally connected topos]] is well known.) To be expanded...
+
+
+Let $C$ be a [[site]] such that $Sh(C)$ is a [[locally connected topos]] so that we have
+
+$$
+  (\Pi_0 \dashv LConst) : Sh(C) \stackrel{\leftarrow}{\to} Set
+  \,.
+$$
+
+Use the local [[model structure on simplicial sheaves]] $sSh(C)_{proj}^{loc} \simeq [\Delta^{op},Sh(C)]_{proj}^{loc}$ to model $Sh_{(\infty,1)}(C)$. Then for $X = X_\bullet \in [\Delta^{op},Sh(C)]$ let $\hat X_\bullet$ be a cofibrant replacement that is degreewise a coproduct of representables. Such always exists, as discussed [here](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects). Applying $\Pi_0 : Sh(C) \to Set$ degreewise yields a simplicial set
+
+$$
+  \Pi(X) := \Pi_0(\hat X_\bullet) \in sSet
+  \,.
+$$
+
+More explicitly, if $\hat X_n = \coprod_{i_n} U_{i_n}$ so that $\hat X = \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} U_{i_n}\right)$ such that all $U_{i_n}$ are connected, then $\Pi(X)$ is the simplicial set
+
+$$
+  \Pi : X
+  \mapsto \hat X =  \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} U_{i_n}\right)
+   \mapsto 
+   \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} *\right)
+  \,.
+$$
+
+#### References
+
+This is, slightly generalized, the construction discussed on page 18 of
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995) .
+
+> For this to give the right answer, we will need to assume moreover that $Sh_{(\infty,1)}(C)$ is a [[locally contractible (∞,1)-topos]], where each representable $U_{i_n}$ above is not only connected, but contractible in that $\Pi(U_{i_n}) \simeq *$. More on that later. See the examples on this below, in particular the Artin-Mazur theorem.
+
+For the case $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ this construction of $\Pi$ is described for instance on p. 25 of
+
+* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
+
+
+
+
+
+### In terms of monodromy and Galois theory {#Monodromy}
 
 We describe how, given the existence of 
 a [[left adjoint] $\Pi : Sh_{(\infty)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ as described above, the geometric homotopy groups of an object $X \in Sh_{(\infty,1)}(C)$ may be found in terms of the [[automorphism]] [[∞-group]] of a fiber functor 
@@ -220,51 +284,7 @@ $$
 $$
 
 
-### The geometric fundamental $\infty$-groupoid {#PiConstruction}
-
-We now discuss the construction of the [[nLab:left adjoint]] $\Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ to $LConst : \infty Grpd \to Sh_{(\infty,1)}(C)$ when it exists.
-
-> [[Urs Schreiber]]: for the moment this discussion is a bit incomplete. The concrete construction we describe is well known but it hasn't been interpreted in the context of [[higher topos theory]] as we do now and not been realized as a left adjoint $\infty$-functor. (But some glimpses of it do appear, for instance $\Pi_0$ as the left adjoint to $LConst$ in a [[locally connected topos]] is well known.) To be expanded...
-
-
-Let $C$ be a [[site]] such that $Sh(C)$ is a [[locally connected topos]] so that we have
-
-$$
-  (\Pi_0 \dashv LConst) : Sh(C) \stackrel{\leftarrow}{\to} Set
-  \,.
-$$
-
-Use the local [[model structure on simplicial sheaves]] $sSh(C)_{proj}^{loc} \simeq [\Delta^{op},Sh(C)]_{proj}^{loc}$ to model $Sh_{(\infty,1)}(C)$. Then for $X = X_\bullet \in [\Delta^{op},Sh(C)]$ let $\hat X_\bullet$ be a cofibrant replacement that is degreewise a coproduct of representables. Such always exists, as discussed [here](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects). Applying $\Pi_0 : Sh(C) \to Set$ degreewise yields a simplicial set
-
-$$
-  \Pi(X) := \Pi_0(\hat X_\bullet) \in sSet
-  \,.
-$$
-
-More explicitly, if $\hat X_n = \coprod_{i_n} U_{i_n}$ so that $\hat X = \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} U_{i_n}\right)$ such that all $U_{i_n}$ are connected, then $\Pi(X)$ is the simplicial set
-
-$$
-  \Pi : X
-  \mapsto \hat X =  \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} U_{i_n}\right)
-   \mapsto 
-   \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} *\right)
-  \,.
-$$
-
-This is, slightly generalized, the construction discussed on page 18 of
-
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995) .
-
-> For this to give the right answer, we will need to assume moreover that $Sh_{(\infty,1)}(C)$ is a [[locally contractible (∞,1)-topos]], where each representable $U_{i_n}$ above is not only connected, but contractible in that $\Pi(U_{i_n}) \simeq *$. More on that later. See the examples on this below, in particular the Artin-Mazur theorem.
-
-For the case $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ this construction of $\Pi$ is described for instance on p. 25 of
-
-* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
-
-
-
-
-### History {#GeometricHistory}
+#### References
 
 The idea that geometric homotopy groups of generalized [[space]]s given by [[sheaf|sheaves]], [[stack]]s, [[∞-stack]]s is detected and definable by the behaviour of locally constant sheaves, stacks, $\infty$-stacks on these objects goes back to [[Grothendieck's Galois theory]] and the notion of [[fundamental group of a topos]]. The state of the art treatment of the Galois theory of coverings in a topos is in
 
@@ -287,6 +307,24 @@ and, building on that, in example 1.8 of
 * [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
 
 It was pointed out to Urs by [[Richard Williamson]] that the construction should generalize from topological spaces to objects in any [[(∞,1)-topos]], maybe along the lines outlined above, and that this way every $(\infty,1)$-topos $\mathbf{H}$ comes canonically equipped with a notion of bare [[schreiber:path ∞-groupoid]] $\Pi(X)$ of every object $X \in \mathbf{H}$.
+
+
+### In terms of concrete paths {#Paths}
+
+#### References
+
+The following references discuss fundamental groupoids of an entire [[topos]] constructed from concrete [[interval object]]s. In the cntext of the above discussion these toposes are to be thought of as _[[petit topos|petit]]_ over-toposes over a given object in an ambient [[gros topos]], and as such are concerned with the fundamental groupoid of that object, in our sense.
+
+The construction of the [[fundamental groupoid]] of a topos from [[interval object]]s is in 
+
+* [[Ieke Moerdijk]], [[Gavin Wraith]], _Connected locally connected toposes are path-connected_ , Transactions of the AMS, volume 295, number 2, (1986)
+
+The comparison of this construction with the one by monodromy/Galois theory is in 
+
+* [[Marta Bunge]], [[Ieke Moerdijk]], _On the construction of the Grothendieck fundamental group of a topos by paths_ , J. Pure and Applied Algebra, 116 (1997)
+
+
+
 
 
 
