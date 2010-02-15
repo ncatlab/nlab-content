@@ -1,6 +1,9 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Definition#
+## Definition
 
 Let $C$ and $D$ be [[(∞,1)-categories]], taken in their incarnation as [[quasi-category|quasi-categories]]. Then
 
@@ -16,13 +19,13 @@ The objects in $Fun(C,D)$ are the [[(∞,1)-functors]] from $C$ to $D$, the morp
 
 $Fun(C,D)$ is indeed a [[quasi-category]].
 
-##Remarks##
+## Remarks
 
 * In fact, $Fun(C,D)$ is already a [[quasi-category]] if only $D$ is a [[quasi-category]], where $C$ may be any [[simplicial set]]. This is is useful for instance in the context of the [[(∞,1)-category of (∞,1)-presheaves]], as that makes sense already over a domain which is an arbitrary [[simplicial set]].
 
 * For definition of $(\infty,1)$-functors in other models for $(\infty,1)$-categories see [[(∞,1)-functor]].
 
-#Reference#
+## Reference
 
 section 1.2.7 of
 
