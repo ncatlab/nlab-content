@@ -6,8 +6,9 @@ in particular nonabelian cohomology/[[descent]] theory.
 
 My other scientific interests include historical linguistics (general principles and Indo-European), interface between language and computation (computational linguistics, construction of compilers and computer language design), and medical herbs (herbal tea) but all these past hobbies are latent now for a long time. I used to play piano [accordion](http://en.wikipedia.org/wiki/Accordion). My native tongue is the [kajkavian dialect](http://en.wikipedia.org/wiki/Kajkavian_dialect) of Croatian. In Croatian we use diacritics for the sch-sound: &#352;koda.
 
-Here is a list of some of my mathematical/physical [[zoranskoda:my writings|articles]] and [[zoranskoda:talks|talks]]. My other web page is [here](http://www.irb.hr/korisnici/zskoda).
+View a list of some of my mathematical/physical [[zoranskoda:my writings|articles]] and [[zoranskoda:talks|talks]]. My other web page is [here](http://www.irb.hr/korisnici/zskoda).
 
+I have also a personalized part of $n$lab [[zoranskoda:HomePage|here]] with some coursepages for students, and other pages not in close accord with purposes and collaborative nature of $n$lab proper.
 
 category: people
 
