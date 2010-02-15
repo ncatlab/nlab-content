@@ -205,7 +205,7 @@ An $A_\infty$-[[A-infinity category|category]] can also be thought of as a categ
 
 ## References
 
-For several years [[Andre Joyal]] -- who was the one to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive writup of lecture notes does:
+For several years [[Andre Joyal]] -- who was the one to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
 
 * [[Andre Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
 
