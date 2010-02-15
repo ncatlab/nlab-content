@@ -1,4 +1,13 @@
-Ky&#333;to school of mathematical physics (Jimbo, Miwa, Sato etc.) in mid 1970-s discovered a nontrivial connection between the theory of isomonodromic deformations of nonlinear differential equations (and closely related integrable systems!) and the theory of a special class of quantum field theories (whose construction heavily relies upon Clifford algebras and Clifford groups). This subject lives under the title **holonomic quantum fields**.
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The Ky&#333;to school of mathematical physics (Jimbo, Miwa, Sato etc.) in mid 1970-s discovered a nontrivial connection between the theory of isomonodromic deformations of nonlinear differential equations (and closely related integrable systems!) and the theory of a special class of quantum field theories (whose construction heavily relies upon Clifford algebras and Clifford groups). This subject lives under the title **holonomic quantum fields**.
+
+## References
 
 There is a series of longer articles called _Holonomic quantum fields I-V_ (mainly Publ. RIMS) and longer series of shorter articles called _Studies in holonomic quantum fields I-XVI_ (the latter can be found at project euclid, see [link](http://projecteuclid.org/euclid.pja/1195518148)). A longer collection of the articles has also being republished in Russian as a special volume in series Matematika. 
 
