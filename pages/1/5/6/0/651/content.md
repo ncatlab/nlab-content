@@ -67,7 +67,22 @@ To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally
 2. Taking quotients in the category of Fr&#246;licher spaces is straightforward: the smooth functions are those that pull-back to smooth functions on the original space.
 
    As an example, consider the plane $\mathbb{R}^2$ quotiented out by the $x$-axis.
-Let us write this as $X$.
+
+   <svg width="188" height="197" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+   <g>
+   <title>Layer 1</title>
+   <line fill="none" stroke-width="2" stroke="#000000" id="svg_1" y2="1" x2="183" y1="1" x1="1"/>
+   <line id="svg_2" fill="none" stroke-width="2" stroke="#000000" y2="195" x2="187" y1="195" x1="5"/>
+   <path id="svg_3" d="m2,2c2,157 181,35 185,193" stroke-width="2" stroke="#000000" fill="none"/>
+   <path id="svg_4" d="m182,2c5,173 -179,18 -177,194" stroke-width="2" stroke="#000000" fill="none"/>
+   <path id="svg_5" d="m39,2c3,167 107,25 109,192" stroke-width="2" stroke="#9b9b9b" fill="none"/>
+   <path id="svg_6" d="m136,2c5,175 -86,17 -85,193" stroke-width="2" stroke="#9b9b9b" fill="none"/>
+   <line fill="none" stroke-width="2" stroke="#9b9b9b" id="svg_7" y2="193.999991" x2="96" y1="2" x1="94"/>
+   </g>
+   </svg>
+
+   Let us write this as $X$.
 This example is closely related to taking cones and suspensions in algebraic topology.
 The smooth functions on $X$ are simple to describe: the set is equivalent to those smooth functions $\mathbb{R}^2 \to \mathbb{R}$ which are constant on the $x$-axis.
 
@@ -115,23 +130,53 @@ If the endpoints of two of these paths coincide then one of two things must happ
    +-- {: .query}
 
    [[Andrew Stacey]]:
-Note finished with this example, of course.
+Not finished with this example, of course.
 Some pictures would be nice, I guess.
 As it's an example I'm not sure how much detail to give.
 Comments would be helpful on that score!
 
    =--
 
-3. Let us give an example that shows that the category of Fr&#246;licher spaces is not [[locally cartesian closed category|locally cartesian closed]].
+3. Let us give an example that shows that the category of Fr&ouml;licher spaces is not [[locally cartesian closed category|locally cartesian closed]].
 Consider a [[coequaliser]] diagram $\mathbb{R} \setminus \{0\} \to \mathbb{R} \amalg \mathbb{R}$ where the two maps are the inclusions into the two cofactors.
 
+   <svg width="507" height="252" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+   <defs>
+   <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw1" viewBox="0 0 10 10">
+   <path fill="#930000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+   </marker>
+   <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw2" viewBox="0 0 10 10">
+   <path fill="#000093" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+   </marker>
+   </defs>
+   <g>
+   <title>Layer 1</title>
+   <line id="svg_3" fill="none" stroke-width="5" stroke="#000000" y2="30.5" x2="306.5" y1="98.5" x1="155.5"/>
+   <line id="svg_5" fill="none" stroke-width="5" stroke="#000000" y2="181.5" x2="298.5" y1="249.5" x1="147.5"/>
+   <line fill="none" stroke-width="5" stroke="#000000" id="svg_7" y2="37.5" x2="71.5" y1="68.5" x1="2.5"/>
+   <line id="svg_8" fill="none" stroke-width="5" stroke="#000000" y2="2.5" x2="151.5" y1="33.5" x1="82.5"/>
+   <path marker-end="url(#se_arrow_fw1)" id="svg_9" d="m89.5,38.5c41,-19 88,-14 113,-6" stroke-width="2" stroke="#930000" fill="none"/>
+   <path marker-end="url(#se_arrow_fw1)" id="svg_10" d="m86.5,42.5c24,24 46,33 95,34" stroke-width="2" stroke="#930000" fill="none"/>
+   <line fill="none" stroke-width="5" stroke="#000000" id="svg_1" y2="7.5" x2="303.5" y1="75.5" x1="152.5"/>
+   <line transform="rotate(14.9951, 327.408, 55.0474)" id="svg_11" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#930000" y2="31.725971" x2="414.166933" y1="78.365695" x1="240.647767"/>
+   <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000093" id="svg_12" y2="209.5" x2="201.5" y1="46.5" x1="78.5"/>
+   <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000093" id="svg_13" y2="205.5" x2="208.5" y1="75.5" x1="236.5"/>
+   <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000093" id="svg_14" y2="205.5" x2="218.5" y1="74.499998" x1="421.499996"/>
+   <ellipse ry="4" rx="3" stroke-width="2" stroke="#000000" fill="#000000" id="svg_15" cy="53.5" cx="429.5"/>
+   <line id="svg_17" fill="none" stroke-width="5" stroke="#000000" y2="62.5" x2="424.5" y1="93.5" x1="355.5"/>
+   <line id="svg_18" fill="none" stroke-width="5" stroke="#000000" y2="27.5" x2="504.5" y1="58.5" x1="435.5"/>
+   <ellipse id="svg_19" ry="4" rx="3" stroke-width="2" stroke="#000000" fill="#000000" cy="67.5" cx="431.5"/>
+   </g>
+   </svg>
+   
    The coequaliser of this diagram is $\mathbb{R} \cup \{*\}$ where the $*$ is a doubled-point at $0$.  (So this is the well-known example of a non-Hausdorff [[manifold]].)
 Thus any smooth function $\psi : \mathbb{R} \cup \{*\} \to \mathbb{R}$ has to satisfy $\psi(0) = \psi(*)$, which means that any smooth curve $\alpha : \mathbb{R} \to \mathbb{R} \cup \{*\}$ can choose whether to pass through $0$ or $*$ completely arbitrarily.
 
    We consider this as a coequaliser of spaces over $\mathbb{R}$ by taking the obvious map to $\mathbb{R}$ in each case.
-The colimit is the same whether we work in the full category of Fr&#246;licher spaces or just those over $\mathbb{R}$.
+The colimit is the same whether we work in the full category of Fr&ouml;licher spaces or just those over $\mathbb{R}$.
 
-   Now let $Y$ be any Fr&#246;licher space and consider it as a space over $\mathbb{R}$ via the [[constant function|constant]] zero map, $\omicron : Y \to \mathbb{R}$.
+   Now let $Y$ be any Fr&ouml;licher space and consider it as a space over $\mathbb{R}$ via the [[constant function|constant]] zero map, $\omicron : Y \to \mathbb{R}$.
 We take the [[fibred product]] over $\mathbb{R}$ of the coequaliser diagram.
 Since $\mathbb{R} \setminus \{0\}$ has no points mapping to $0$, $(\mathbb{R} \setminus \{0\}) \times_{\mathbb{R}} Y = \emptyset$.
 For the third space, we see that $(\mathbb{R} \amalg \mathbb{R}) \times_{\mathbb{R}} Y = Y \amalg Y$.
@@ -141,7 +186,7 @@ Note that smooth curves into $Y \amalg Y$ are of the form $(i, \beta)$ where $i$
 
    Let us consider the product over $\mathbb{R}$ of $\mathbb{R} \cup \{*\}$ with $Y$.
 As a set, this is just $Y \amalg Y$ again.
-However, as a Fr&#246;licher space it has different functions to those on $Y \amalg Y$.
+However, as a Fr&ouml;licher space it has different functions to those on $Y \amalg Y$.
 The product over $\mathbb{R}$ is a subspace of $(\mathbb{R} \cup \{*\}) \times Y$ and thus a curve into it is smooth if and only if it is smooth into $(\mathbb{R} \cup \{*\}) \times Y$, whence it is smooth if and only if the projections to $\mathbb{R} \cup \{*\}$ and to $Y$ are smooth.
 As we are considering curves in $(\mathbb{R} \cup \{*\}) \times_\mathbb{R} Y$, the projection to $\mathbb{R} \cup \{*\}$ must have image in $\{0,*\}$.
 Thus _any_ curve is allowed by this and so the smooth curves into $(\mathbb{R} \cup \{*\}) \times_\mathbb{R} Y$ are of the form $(\alpha, \beta)$ where $\alpha$ is *any* function from $\mathbb{R}$ into $\{0,*\}$ and $\beta : \mathbb{R} \to Y$ is a smooth curve in $Y$.
@@ -157,18 +202,18 @@ Thus _any_ curve is allowed by this and so the smooth curves into $(\mathbb{R} \
    =--
 
    This is not the same as $Y \coprod Y$ and thus the functor $- \times_{\mathbb{R}} Y$ does not preserve colimits.
-It cannot, therefore, be a left adjoint and so the category of Fr&#246;licher spaces is not locally cartesian closed.
+It cannot, therefore, be a left adjoint and so the category of Fr&ouml;licher spaces is not locally cartesian closed.
 
    This example works because of the structure of $\mathbb{R} \cup \{*\}$.
 If one were to work in an "input only" category, then the structure on $\mathbb{R} \cup \{*\}$ would be determined by those curves which lift to $\mathbb{R} \coprod \mathbb{R}$.
 Such maps could not arbitrarily swap between $0$ and $*$ because up in $\mathbb{R} \coprod \mathbb{R}$ these two points are far apart.
 Thus the subspace structure on $\{0,*\}$ in an "input only" category is _discrete_.
-However, in the category of Fr&#246;licher spaces the outputs control the behaviour of quotients.
+However, in the category of Fr&ouml;licher spaces the outputs control the behaviour of quotients.
 Functions out of $\mathbb{R} \cup \{*\}$ cannot detect the difference between $0$ and $*$.
 Thus curves into $\mathbb{R} \cup \{*\}$ are allowed to swap between them with aplomb.
 The subspace structure on $\{0,*\}$ is thus the _indiscrete_ structure.
 
-   Working in the category of _Hausdorff_ Fr&#246;licher spaces (see [below](#hausdorff)) does not improve matters.
+   Working in the category of _Hausdorff_ Fr&ouml;licher spaces (see [below](#hausdorff)) does not improve matters.
 Then we need to replace each coequaliser but its Hausdorffification.
 Now the distinction is clear since taking the product and then the coequaliser yields $Y \coprod Y$ as before but taking the coequaliser and then the product yields just $Y$.
 
@@ -178,18 +223,18 @@ Now the distinction is clear since taking the product and then the coequaliser y
 
 # Isbell Envelope # {#isbell}
 
-Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  The category of Fr&#246;licher spaces is also closely related to the concept of the [[Isbell envelope]] of a category.
+Fr&ouml;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  The category of Fr&ouml;licher spaces is also closely related to the concept of the [[Isbell envelope]] of a category.
 
 +-- {: mynumdef #RCat}
 ###### Definition
 Let $\mathcal{R}$ denote the category with one object and morphism set $C^\infty(\mathbb{R},\mathbb{R})$.
 =--
 
-There is a close relationship between Fr&#246;licher spaces and the subcategory of $E(\mathcal{R})$, the Isbell envelope of $\mathcal{R}$, of those objects satisfying Isbell duality.
+There is a close relationship between Fr&ouml;licher spaces and the subcategory of $E(\mathcal{R})$, the Isbell envelope of $\mathcal{R}$, of those objects satisfying Isbell duality.
 
 +-- {: .num_prop #IsbellIsFroelicher}
 ###### Proposition
-An object of $E(\mathcal{R})$ that satisfies Isbell duality is a Fr&#246;licher space.
+An object of $E(\mathcal{R})$ that satisfies Isbell duality is a Fr&ouml;licher space.
 =--
 
 +-- {: myproof}
@@ -221,7 +266,7 @@ This corresponds to some $\psi \in F$ and it remains to compare $|\psi|$ with $\
 This is simpler since $x \in |X|$ is an element of $C$ and so $|\psi|(x) = \psi(x) = \theta \circ |x| = \theta(x)$.
 =--
 
-However, not all Fr&#246;licher spaces can be obtained in this manner.
+However, not all Fr&ouml;licher spaces can be obtained in this manner.
 The simplest example is the following:
 \[
 (\{0,1\},\mathbb{R}^{\{0,1\}},\mathbb{R})
@@ -230,16 +275,16 @@ where this is taken to mean that all curves are smooth and only the constant fun
 The problem here is that there are far more curves than the functionals warrant.
 Put another way, the functionals cannot distinguish between the points of the set.
 
-All Fr&#246;licher spaces satisfy half of the requirements for Isbell duality: the functions are always the natural transformations of the curves.
+All Fr&ouml;licher spaces satisfy half of the requirements for Isbell duality: the functions are always the natural transformations of the curves.
 
 +-- {: .num_prop #FroFSat}
 ###### Proposition
-The object of $E(\mathcal{R})$ corresponding to a Fr&#246;licher space is $F$-saturated.
+The object of $E(\mathcal{R})$ corresponding to a Fr&ouml;licher space is $F$-saturated.
 =--
 
 +-- {: myproof}
 ###### Proof
-Let $(X,C,F)$ be a Fr&#246;licher space.
+Let $(X,C,F)$ be a Fr&ouml;licher space.
 Recall from the page about the [[Isbell envelope]] that $F$-saturated means that $F$ is precisely the set of $C^\infty(\mathbb{R}, \mathbb{R})$-homs $C \to C^\infty(\mathbb{R},\mathbb{R})$.
 
 We know that every element of $F$ gives a map $C \to C^\infty(\mathbb{R}, \mathbb{R})$ which commutes with the right actions.
@@ -270,12 +315,12 @@ Injectivity is related to a fairly simple condition (as indicated by the example
 
 +-- {: mynumdef #FroHausdorff}
 ###### Definition
-A Fr&#246;licher space is said to be _[[Hausdorff space|Hausdorff]]_ if the smooth functions separate points.
+A Fr&ouml;licher space is said to be _[[Hausdorff space|Hausdorff]]_ if the smooth functions separate points.
 =--
 
 +-- {: .num_prop #FroHausCSat}
 ###### Proposition
-A Fr&#246;licher space $(X,C,F)$ is Hausdorff if and only if the map $X \to |F|$ is injective.
+A Fr&ouml;licher space $(X,C,F)$ is Hausdorff if and only if the map $X \to |F|$ is injective.
 =--
 
 +-- {: myproof}
@@ -286,15 +331,15 @@ This means that the smooth functions do not separate $x$ and $y$.
 Hence $(X,C,F)$ is Hausdorff if and only if $X \to |F|$ is injective.
 =--
 
-It is simple to construct non-Hausdorff Fr&#246;licher spaces.
+It is simple to construct non-Hausdorff Fr&ouml;licher spaces.
 Indeed, the example earlier was one.
 
 Surjectivity is more complicated.
-As currently stated, not even very simple Fr&#246;licher spaces satisfy the surjectivity condition.
+As currently stated, not even very simple Fr&ouml;licher spaces satisfy the surjectivity condition.
 
 +-- {: .num_lemma #PlaneNonSurj}
 ###### Lemma
-The Fr&#246;licher space defined by the usual structure on $\mathbb{R}^2$ does not satisfy the surjectivity condition.
+The Fr&ouml;licher space defined by the usual structure on $\mathbb{R}^2$ does not satisfy the surjectivity condition.
 =--
 
 +-- {: myproof}
@@ -319,16 +364,16 @@ However, the maps $F \to C^\infty(\mathbb{R}, \mathbb{R})$ which come from evalu
 =--
 
 However, all is not lost.
-The set of functions in a Fr&#246;licher space has much more structure than simply composition by functions from $C^\infty(\mathbb{R}, \mathbb{R})$.
+The set of functions in a Fr&ouml;licher space has much more structure than simply composition by functions from $C^\infty(\mathbb{R}, \mathbb{R})$.
 
 +-- {: .num_lemma #FroFunAlg}
 ###### Lemma
-The set $F$ of functions in a Fr&#246;licher space is a commutative $\mathbb{R}$-algebra.
+The set $F$ of functions in a Fr&ouml;licher space is a commutative $\mathbb{R}$-algebra.
 =--
 
 +-- {: myproof}
 ###### Proof
-Let $(X,C,F)$ be a Fr&#246;licher space.
+Let $(X,C,F)$ be a Fr&ouml;licher space.
 Let $\phi, \psi, \theta \in F$.
 Then $\phi \circ \alpha$, $\psi \circ \alpha$, and $\theta \circ \alpha$ lie in $C^\infty(\mathbb{R}, \mathbb{R})$.
 Thus as $C^\infty(\mathbb{R}, \mathbb{R})$ is a ring,
@@ -341,7 +386,7 @@ It is commutative because $C^\infty(\mathbb{R}, \mathbb{R})$ is commutative.
 Finally we note that there is an obvious ring homomorphism $\mathbb{R} \to F$ sending $\lambda$ to the function $x \mapsto \lambda$.
 =--
 
-This suggests that we should consider a Fr&#246;licher space not as a pair of functors $\mathcal{R}, \mathcal{R}^{op} \to Set$ but as a pair of functors $\mathcal{R} \to Set$ and $\mathcal{R}^{op} \to Alg$.
+This suggests that we should consider a Fr&ouml;licher space not as a pair of functors $\mathcal{R}, \mathcal{R}^{op} \to Set$ but as a pair of functors $\mathcal{R} \to Set$ and $\mathcal{R}^{op} \to Alg$.
 
 There is yet more structure on $F$.
 Not only can we compose element of $F$ with elements of $C^\infty(\mathbb{R}, \mathbb{R})$ but if $\phi \in F$ is a particular element then we can compose $\phi$ with an element of $C^\infty(\im \phi, \mathbb{R})$.
@@ -386,18 +431,18 @@ This family is directed (downwards) since $\phi \psi \leq \phi$ (and $\psi$).
 In any _reasonable_ topology on $F$ then this net converges to the zero function: on any compact subset of $X$ then we have $(\phi) \to 0$ uniformly.
 Therefore if we simply add the condition that our natural transformation $\alpha$ be continuous (something we might have been ready to do anyway) we see that it must be represented by an element of $X$ since otherwise we have $\alpha(0) = \lim \alpha(\phi) = 1 \notin \im 0$.
 
-Thus $X$ is the set of _continuous_ algebra homomorphisms $F \to \mathbb{R}$ and we finally see the relationship between Hausdorff Fr&#246;licher spaces as objects in the Isbell envelope of $\mathbf{R}$ satisfying Isbell duality.
+Thus $X$ is the set of _continuous_ algebra homomorphisms $F \to \mathbb{R}$ and we finally see the relationship between Hausdorff Fr&ouml;licher spaces as objects in the Isbell envelope of $\mathbf{R}$ satisfying Isbell duality.
 
 ***
 
-# Topological Notions of Fr&#246;licher Spaces # {#topology}
+# Topological Notions of Fr&ouml;licher Spaces # {#topology}
 
 In the above we used a couple of topological notions.
-We used a vague notion of topology on the functions on a Fr&#246;licher space and we introduced the notion of a Hausdorff Fr&#246;licher space.
-These illustrate two different ways of thinking of topological notions on Fr&#246;licher spaces.
-The one says that there is a functor (actually two functors) from the category of F&#246;licher space to the category of topological spaces so we can say that a Fr&#246;licher space has topological property $P$ if the corresponding topological space has it.
-The other approach says that we can directly define a property for Fr&#246;licher spaces that is _analogous_ to a topological property.
-We then might hope for a theorem saying that a Fr&#246;licher space with property $P$ defines a topological space with the corresponding property $P$.
+We used a vague notion of topology on the functions on a Fr&ouml;licher space and we introduced the notion of a Hausdorff Fr&ouml;licher space.
+These illustrate two different ways of thinking of topological notions on Fr&ouml;licher spaces.
+The one says that there is a functor (actually two functors) from the category of F&ouml;licher space to the category of topological spaces so we can say that a Fr&ouml;licher space has topological property $P$ if the corresponding topological space has it.
+The other approach says that we can directly define a property for Fr&ouml;licher spaces that is _analogous_ to a topological property.
+We then might hope for a theorem saying that a Fr&ouml;licher space with property $P$ defines a topological space with the corresponding property $P$.
 However, this would definitely be a theorem.
 This second approach is the one that I want to study in this section.
 
@@ -405,9 +450,9 @@ Let us start by defining the two functors to topological spaces.
 
 +-- {: mynumdef #FroTop}
 ###### Definition
-The _curvaceous_ topology on a Fr&#246;licher space is the strongest topology for which the smooth curves are continuous.
+The _curvaceous_ topology on a Fr&ouml;licher space is the strongest topology for which the smooth curves are continuous.
 
-The _functional_ topology on a Fr&#246;licher space is the weakest topology for which the smooth functions are continuous.
+The _functional_ topology on a Fr&ouml;licher space is the weakest topology for which the smooth functions are continuous.
 =--
 
 It is clear that these assignments are functorial, and that the curvaceous topology is always at least as strong as the functional topology.
@@ -419,18 +464,18 @@ Let us start with some very simple definitions.
 
 +-- {: mynumdef #DiscIndisc}
 ###### Definition
-A Fr&#246;licher space is said to be _indiscrete_ if all curves are smooth.
+A Fr&ouml;licher space is said to be _indiscrete_ if all curves are smooth.
 
-A Fr&#246;licher space is said to be _discrete_ if all functions are smooth.
+A Fr&ouml;licher space is said to be _discrete_ if all functions are smooth.
 =--
 
 Let us observe that there is no need for functional or curvaceous versions of these definitions.
 
 +-- {: .num_lemma #LemDiscIndisc}
 ###### Lemma
-A Fr&#246;licher space is indiscrete if and only if the only smooth functions are the constant ones.
+A Fr&ouml;licher space is indiscrete if and only if the only smooth functions are the constant ones.
 
-A Fr&#246;licher space is discrete if and only if the only smooth curves are the constant ones.
+A Fr&ouml;licher space is discrete if and only if the only smooth curves are the constant ones.
 =--
 
 +-- {: myproof}
@@ -458,14 +503,14 @@ Hence all curves are smooth.
 The discrete case is similar.
 =--
 
-Earlier we introduced the notion of a _Hausdorff_ Fr&#246;licher space.
+Earlier we introduced the notion of a _Hausdorff_ Fr&ouml;licher space.
 Technically, we ought to have called that _functionally Hausdorff_ as it used the smooth functions in its definition.
 
 +-- {: mynumdef #DefFroHausdorff}
 ###### Definition
-A Fr&#246;licher space is said to be _functionally Hausdorff_ if the smooth functions separate points.
+A Fr&ouml;licher space is said to be _functionally Hausdorff_ if the smooth functions separate points.
 
-A Fr&#246;licher space is said to be _curvaceously Hausdorff_ if the only smooth curves with finite image are constant.
+A Fr&ouml;licher space is said to be _curvaceously Hausdorff_ if the only smooth curves with finite image are constant.
 =--
 
 However, the distinction is not important as the following lemma shows.
@@ -491,44 +536,44 @@ Then $\phi \circ \alpha$ has finite image in $\mathbb{R}$ and hence is constant.
 Thus for $x, y \in \im \alpha$, $\phi(x) = \phi(y)$ for all $\phi \in F$.
 As $\alpha$ is not constant, there are thus $x \ne y \in X$ such that $\phi(x) = \phi(y)$ for all $\phi \in F$ and so $(X,C,F)$ is not functionally Hausdorff.
 
-If a Fr&#246;licher space is Hausdorff then smooth functions separate points.
+If a Fr&ouml;licher space is Hausdorff then smooth functions separate points.
 Thus for $x \ne y \in X$, there is a smooth function $\phi \in F$ with $\phi(x) = -1$ and $\phi(y) = 1$.
 Then the sets $\phi^{-1}(-\infty,0)$ and $\phi^{-1}(0,\infty)$ are sufficient to show that $X$ with the functional topology is Hausdorff.
 As the curvaceous topology is stronger than the functional one, it is thus also Hausdorff.
 
 Suppose that $X$ with the curvaceous topology is Hausdorff.
 Then any finite subset is discrete and so there are no non-constant continuous maps $\mathbb{R} \to X$ with finite image.
-In particular, there are no non-constant smooth maps and so the original Fr&#246;licher space was Hausdorff.
+In particular, there are no non-constant smooth maps and so the original Fr&ouml;licher space was Hausdorff.
 =--
 
-In light of this, we shall refer to just _Hausdorff_ Fr&#246;licher spaces.
+In light of this, we shall refer to just _Hausdorff_ Fr&ouml;licher spaces.
 
 Just as with topological spaces, there is a "Hausdorffification" functor.
 Unlike topological spaces, this functor is split.
 
 +-- {: .num_lemma #LemHausFunct}
 ###### Lemma
-Let $(X,C,F)$ be a Fr&#246;licher space.
+Let $(X,C,F)$ be a Fr&ouml;licher space.
 Let $Y$ be the quotient of $X$ by the relation $x \sim y$ if $\phi(x) = \phi(y)$ for all $\phi \in F$.
-Then $Y$ inherits a Fr&#246;licher space structure from $X$ with respect to which it is Hausdorff.
-The natural map $X \to Y$ is a quotient mapping in the category of Fr&#246;licher spaces.
+Then $Y$ inherits a Fr&ouml;licher space structure from $X$ with respect to which it is Hausdorff.
+The natural map $X \to Y$ is a quotient mapping in the category of Fr&ouml;licher spaces.
 It is split, but not canonically so.
 However, any two splittings are related by a diffeomorphism on $X$.
 
-The assignment $X \mapsto Y$ is left adjoint to the inclusion of the category of Hausdorff Fr&#246;licher spaces in the category of all Fr&#246;licher spaces.
+The assignment $X \mapsto Y$ is left adjoint to the inclusion of the category of Hausdorff Fr&ouml;licher spaces in the category of all Fr&ouml;licher spaces.
 =--
 
 +-- {: myproof}
 ###### Proof
-The Fr&#246;licher structure on $Y$ is defined by setting $F_Y$ to be the set of functions $\phi : Y \to \mathbb{R}$ such that the composition $X \to Y \xrightarrow{\phi} \mathbb{R}$ is in $F_X$.
+The Fr&ouml;licher structure on $Y$ is defined by setting $F_Y$ to be the set of functions $\phi : Y \to \mathbb{R}$ such that the composition $X \to Y \xrightarrow{\phi} \mathbb{R}$ is in $F_X$.
 The smooth curves are then defined by the saturation condition.
-It is automatic from this definition that any smooth curve in $X$ projects down to a smooth curve in $Y$ which explains why this family of functions on $Y$ is also saturated and hence we have a Fr&#246;licher space structure on $Y$.
+It is automatic from this definition that any smooth curve in $X$ projects down to a smooth curve in $Y$ which explains why this family of functions on $Y$ is also saturated and hence we have a Fr&ouml;licher space structure on $Y$.
 
 To show that $Y$ is Hausdorff, we merely observe that by slight abuse of notation, $F_X = F_Y$ so if $x,y \in X$ are such that $\phi(\overline{x}) = \phi(\overline{y})$ for all $\phi \in F_Y$ then $\phi(x) = \phi(y)$ for all $\phi \in F_X$, whence $overline{x} = \overline{y}$ in $Y$.
 
 That this is a quotient is straightforward.
-Any smooth map $g : X \to Z$ which factors through $Y$ _as a set_ must also do so as a Fr&#246;licher space.
-In particular, if $g : X \to Z$ is a smooth map with $Z$ Hausdorff then this must factor through $Y$ as a set, whence as a Fr&#246;licher space.
+Any smooth map $g : X \to Z$ which factors through $Y$ _as a set_ must also do so as a Fr&ouml;licher space.
+In particular, if $g : X \to Z$ is a smooth map with $Z$ Hausdorff then this must factor through $Y$ as a set, whence as a Fr&ouml;licher space.
 This also establishes the necessary adjunction.
 
 Finally, let us look at the splitting.
@@ -542,20 +587,20 @@ It is also clearly a diffeomorphism since $F_X$ cannot detect the difference bet
 =--
 
 This shows, incidentally, that every smooth curve in the Hausdorffification of $X$ lifts to a smooth curve in $X$.
-This sort of behaviour does not _usually_ happen with quotients in the category of Fr&#246;licher spaces.
+This sort of behaviour does not _usually_ happen with quotients in the category of Fr&ouml;licher spaces.
 
 The fibres of the Hausdorffification are straightforward to identify.
 
 +-- {: .num_lemma #FibHaus}
 ###### Lemma
-The fibres of the Hausdorffification of a Fr&#246;licher space correspond precisely to the maximal subsets which inherit an indiscrete structure from the ambient space.
+The fibres of the Hausdorffification of a Fr&ouml;licher space correspond precisely to the maximal subsets which inherit an indiscrete structure from the ambient space.
 =--
 
 +-- {: myproof}
 ###### Proof
-Let $X$ be a Fr&#246;licher space, $Y$ its Hausdorffification.
+Let $X$ be a Fr&ouml;licher space, $Y$ its Hausdorffification.
 For $y \in Y$, let $X_y$ be the corresponding fibre.
-Then $X_y$ inherits a Fr&#246;licher space structure from its inclusion in $X$.
+Then $X_y$ inherits a Fr&ouml;licher space structure from its inclusion in $X$.
 The smooth curves in $X_y$ are those that are smooth when considered as curves in $X$.
 Let $\alpha : \mathbb{R} \to X_y$ be an arbitrary curve.
 Then for $\phi \in F_X$, as $\im \alpha \subseteq X_y$, $\phi \circ \alpha$ is constant.
@@ -571,15 +616,15 @@ Hence $Z$ is contained in a (unique) fibre of the quotient map $X \to Y$.
 
 Thus when we pass to the Hausdorffification we lose almost no information at all and one could certainly say that we lose no _interesting_ information.
 
-Having dealt with Hausdorff Fr&#246;licher spaces, the obvious next thing to do is to consider the other separation properties.
+Having dealt with Hausdorff Fr&ouml;licher spaces, the obvious next thing to do is to consider the other separation properties.
 Our next definition may be a little surprising at first.
 
 +-- {: mynumdef #FroReg}
 ###### Definition
-A Fr&#246;licher space is said to be _regular_ if the curvaceous and functional topologies agree.
+A Fr&ouml;licher space is said to be _regular_ if the curvaceous and functional topologies agree.
 =--
 
-The point of this definition is that for the underlying topological space of a Fr&#246;licher space what one really wants to know is not whether or not it is regular but whether or not it is _smoothly_ regular.
+The point of this definition is that for the underlying topological space of a Fr&ouml;licher space what one really wants to know is not whether or not it is regular but whether or not it is _smoothly_ regular.
 This is automatic for the functional topology so the only reasonable question is whether or not it happens for the curvaceous topology.
 However, a topology is smoothly regular if and only if the smooth functions generate the topology which means that the curvaceous topology is smoothly regular if and only if it agrees with the functional topology.
 Hence the definition.
@@ -588,14 +633,14 @@ On another tack, it is straightforward to see what one version of [[compact spac
 
 +-- {: mynumdef #FunComp}
 ###### Definition
-A Fr&#246;licher space is _functionally compact_ if every smooth function has bounded image.
+A Fr&ouml;licher space is _functionally compact_ if every smooth function has bounded image.
 =--
 
 The images are automatically compact as a smooth function with non-compact image can be converted to a smooth function with unbounded image by suitable composition.
 
 +-- {: .num_lemma #LemFunComp}
 ###### Lemma
-A Fr&#246;licher space is functionally compact if and only if the functional topology is compact.
+A Fr&ouml;licher space is functionally compact if and only if the functional topology is compact.
 =--
 
 +-- {: myproof}
@@ -609,25 +654,25 @@ We claim that it is possible to modify these to have disjoint support.
 This is done recursively using postcomposition by suitably chosen functions.
 Once this is done, we can define a new smooth function by $\sum n \widehat{\phi_n}$.
 This is smooth, as the components have disjoint support, and is unbounded.
-Hence the Fr&#246;licher space is not functionally compact.
+Hence the Fr&ouml;licher space is not functionally compact.
 =--
 
 Although it would be pleasant to have an intrinsic definition of curvaceously compact, the following lemma shows that we already have a way to determine whether or not the curvaceous topology is compact.
 
 +-- {: .num_lemma #CurvComp}
 ###### Lemma
-The curvaceous topology of a Fr&#246;licher space is compact if and only if the Fr&#246;licher space is functionally compact and regular.
+The curvaceous topology of a Fr&ouml;licher space is compact if and only if the Fr&ouml;licher space is functionally compact and regular.
 =--
 
 +-- {: myproof}
 ###### Proof
-Since the topologies on a Fr&#246;licher space are the pull-backs of the topologies on the Hausdorffification, it is sufficient to prove this for a Hausdorff Fr&#246;licher space.
+Since the topologies on a Fr&ouml;licher space are the pull-backs of the topologies on the Hausdorffification, it is sufficient to prove this for a Hausdorff Fr&ouml;licher space.
 
 As the curvaceous topology is stronger than the functional, if the curvaceous topology is compact then so is the functional.
 Moreover, as both are Hausdorff spaces, the identity map is a continuous bijection from a compact space to a Hausdorff space and hence a homeomorphism.
-Thus the Fr&#246;licher space is regular.
+Thus the Fr&ouml;licher space is regular.
 
-Conversely, if the Fr&#246;licher space is regular its topologies agree and thus if it is functionally compact then its curvaceous topology is compact.
+Conversely, if the Fr&ouml;licher space is regular its topologies agree and thus if it is functionally compact then its curvaceous topology is compact.
 =--
 
 Another obvious topological property is connectedness.
@@ -635,13 +680,13 @@ Here it is obvious what the two definitions should be.
 
 +-- {: mynumdef #FroConnect}
 ###### Definition
-A Fr&#246;licher space is _functionally connected_ if the only idempotents in its algebra of functions are the trivial ones.
+A Fr&ouml;licher space is _functionally connected_ if the only idempotents in its algebra of functions are the trivial ones.
 
-More generally, the _functional connected components_ of a Fr&#246;licher space $(X,C,F)$ are the equivalence classes of the relation $x \sim y$ if whenever $\phi \in F$ is idempotent then $\phi(x) = \phi(y)$.
+More generally, the _functional connected components_ of a Fr&ouml;licher space $(X,C,F)$ are the equivalence classes of the relation $x \sim y$ if whenever $\phi \in F$ is idempotent then $\phi(x) = \phi(y)$.
 
-A Fr&#246;licher space is _curvaceously connected_ if every pair of points lie on a curve.
+A Fr&ouml;licher space is _curvaceously connected_ if every pair of points lie on a curve.
 
-More generally, the _curvaceous connected components_ of a Fr&#246;licher space $(X,C,F)$ are the equivalence classes of the relation $x \sim y$ if there is a smooth curve $\alpha \in C$ with $\alpha(0) = x$ and $\alpha(1) = y$.
+More generally, the _curvaceous connected components_ of a Fr&ouml;licher space $(X,C,F)$ are the equivalence classes of the relation $x \sim y$ if there is a smooth curve $\alpha \in C$ with $\alpha(0) = x$ and $\alpha(1) = y$.
 =--
 
 That the second relation is an equivalence relation follows from the fact that piecewise smooth curves can be reparametrised to smooth curves.
@@ -653,7 +698,7 @@ The notions of functionally connected and curvaceously connected coincide.
 
 +-- {: myproof}
 ###### Proof
-Let $(X,C,F)$ be a Fr&#246;licher space.
+Let $(X,C,F)$ be a Fr&ouml;licher space.
 It is clear that if $x, y \in X$ are such that there is a smooth curve connecting them then $\phi(x) = \phi(y)$ for any idempotent $\phi \in F$.
 Thus we need to show the reverse implication.
 To do this, let $X' \subseteq X$ be a curvaceously connected component of $X$.
@@ -672,18 +717,18 @@ The functional and curvaceous topologies have the same connected components, and
 
 ***
 
-# Hausdorff Fr&#246;licher Spaces # {#hausdorff}
+# Hausdorff Fr&ouml;licher Spaces # {#hausdorff}
 
-There is not a great deal of difference between a Hausdorff Fr&#246;licher space and a generic one.
+There is not a great deal of difference between a Hausdorff Fr&ouml;licher space and a generic one.
 Much less than the case with topological spaces.
-To pass from all Fr&#246;licher spaces to Hausdorff Fr&#246;licher spaces involves only collapsing everything that is _indiscrete_.
+To pass from all Fr&ouml;licher spaces to Hausdorff Fr&ouml;licher spaces involves only collapsing everything that is _indiscrete_.
 This clears out a considerable amount of junk from the category but does remove two properties: it no longer has a weak subobject classifier and it is no longer topological over $\Set$.
 
-On the other hand, the relationship between the category of Hausdorff Fr&#246;licher spaces and that of all Fr&#246;licher spaces is very good.
+On the other hand, the relationship between the category of Hausdorff Fr&ouml;licher spaces and that of all Fr&ouml;licher spaces is very good.
 Not only is it a [[reflective subcategory]] with all that that implies, but the morphisms from the [[unit|unit natural transformation]] are [[retract|split epimorphisms]] (though not naturally split).
 
-The category of Hausdorff Fr&#246;licher spaces is thus complete and co-complete.
-It is also cartesian closed since the product and exponential objects of Hausdorff Fr&#246;licher spaces are again Hausdorff.
+The category of Hausdorff Fr&ouml;licher spaces is thus complete and co-complete.
+It is also cartesian closed since the product and exponential objects of Hausdorff Fr&ouml;licher spaces are again Hausdorff.
 
 +-- {: .query}
 Do I need to prove this, or is it automatic?
@@ -698,17 +743,17 @@ Do I need to prove this, or is it automatic?
 [[Andrew Stacey|Andrew]]: Ah, and now I see from [[exponential ideal]] that I could just show that the Hausdorffification of a product is the product of the Hausdorffifications.  Both seem quite simple, not sure which is the simplest.
 =--
 
-In considering [[Isbell duality]] in the context of Fr&#246;licher spaces we saw one good reason to restrict to Hausdorff Fr&#246;licher spaces.
-Another reason comes from the inclusion of the category of manifolds in that of Fr&#246;licher spaces.
-This factors through Hausdorff Fr&#246;licher spaces and this inclusion has some very pleasant properties.
+In considering [[Isbell duality]] in the context of Fr&ouml;licher spaces we saw one good reason to restrict to Hausdorff Fr&ouml;licher spaces.
+Another reason comes from the inclusion of the category of manifolds in that of Fr&ouml;licher spaces.
+This factors through Hausdorff Fr&ouml;licher spaces and this inclusion has some very pleasant properties.
 
 +-- {: .num_theorem #Manifolds}
 ###### Theorem
-The inclusion functor from the category of Manifolds to that of Hausdorff Fr&#246;licher spaces preserves limits and colimits.
+The inclusion functor from the category of Manifolds to that of Hausdorff Fr&ouml;licher spaces preserves limits and colimits.
 =--
 
 +-- {: myproof}
-Let us write $\mathcal{M}$ for the category of manifolds, $\mathcal{H}$ for the category of Hausdorff Fr&#246;licher spaces, and $\mathcal{F}$ for the category of all Fr&#246;licher spaces.
+Let us write $\mathcal{M}$ for the category of manifolds, $\mathcal{H}$ for the category of Hausdorff Fr&ouml;licher spaces, and $\mathcal{F}$ for the category of all Fr&ouml;licher spaces.
 We shall not give the inclusion functors special symbols but trust to context to distinguish.
 Let $\mathfrak{F} : I \to \mathcal{M}$ be a functor where $I$ is a small category.
 
@@ -716,9 +761,9 @@ Let us assume first that $\mathfrak{F}$ has a limit in $\mathcal{M}$, say $M_0$ 
 Let us write $X_0$ for the limit of $\mathfrak{F}$ viewed as a functor into $\mathcal{H}$, with maps $\beta_i : X_0 \to \mathfrak{F}(i)$.
 As $\mathcal{H}$ is a [[reflective subcategory]] of $\mathcal{F}$, $X_0$ is the same as the limit of $\mathfrak{F}$ in $\mathcal{F}$.
 
-Since $M_0$, as a Fr&#246;licher space, is a source of $\mathfrak{F}$, there is a unique map, say $\gamma : M_0 \to X_0$, such that $\beta_i \gamma = \alpha_i$.
+Since $M_0$, as a Fr&ouml;licher space, is a source of $\mathfrak{F}$, there is a unique map, say $\gamma : M_0 \to X_0$, such that $\beta_i \gamma = \alpha_i$.
 
-As a Fr&#246;licher space, $X_0$ is completely determined by its underlying set and its smooth curves.
+As a Fr&ouml;licher space, $X_0$ is completely determined by its underlying set and its smooth curves.
 Its underlying set is (naturally isomorphic to) $\mathcal{F}(*,X_0)$.
 Let $x \in |X_0|$.
 Composing with the $\beta_i$ defines maps $\beta_i x : * \to \mathfrak{F}$.
@@ -728,14 +773,14 @@ Hence the underlying sets of $M_0$ and $X_0$ are the same.
 
 The smooth curves of $X_0$ are the morphisms $\mathbb{R} \to X_0$.
 Since $\mathbb{R}$ is a manifold, the same argument shows that $\gamma$ induces a bijection from the set of smooth curves in $M_0$ to that in $X_0$.
-Hence $\gamma$ is an isomorphism of Fr&#246;licher spaces and so the inclusion functor $\mathcal{M} \to \mathcal{H}$ preserves limits.
+Hence $\gamma$ is an isomorphism of Fr&ouml;licher spaces and so the inclusion functor $\mathcal{M} \to \mathcal{H}$ preserves limits.
 
 Now let us assume that $\mathfrak{F}$ has a colimit in $\mathcal{M}$, say $M_1$ with maps $\lambda_i : \mathfrak{F}(i) \to M_1$.
 Let us write $X_1$ for the colimit of $\mathfrak{F}$ viewed as a functor into $\mathcal{F}$, with maps $\mu_i \colon \mathfral{F}(i) \to X_1$.
 Note that this is in $\mathcal{F}$ not $\mathcal{H}$.
 To obtain the colimit in $\mathcal{H}$ we apply the reflector functor (Hausdorffification) to $X_1$.
 
-Since $M_1$,  as a Hausdorff Fr&#246;licher space, is a sink of $\mathfrak{F}$ there is a unique morphism, say $\nu : X_1 \to M_1$, such that $\nu \mu_i = \lambda_i$.
+Since $M_1$,  as a Hausdorff Fr&ouml;licher space, is a sink of $\mathfrak{F}$ there is a unique morphism, say $\nu : X_1 \to M_1$, such that $\nu \mu_i = \lambda_i$.
 This morphism factors uniquely through the Hausdorffification of $X_1$.
 
 For the same argument as with the limits, the smooth functions on $X_1$ factor through those of $M_1$.
@@ -758,7 +803,7 @@ However, the properties of $\nu$ imply that the morphism $M_1 \to M_1$ in the ab
 
 Hence $X_1 \to M_1$ is surjective.
 We also have that the smooth functions on $X_1$ factor through $M_1$.
-This is not enough to prove that $X_1$ and $M_1$ are isomorphic, but is enough to prove that the Hausdorffification of $X_1$ is isomorphic to $M_1$ (note that $M_1$, being a manifold, is already Hausdorff as a Fr&#246;licher space).
+This is not enough to prove that $X_1$ and $M_1$ are isomorphic, but is enough to prove that the Hausdorffification of $X_1$ is isomorphic to $M_1$ (note that $M_1$, being a manifold, is already Hausdorff as a Fr&ouml;licher space).
 To see this, observe that with what we already have, all that remains is to show that $\nu$ induces an injective map from the underlying set of the Hausdorffification of $X_1$ to the underlying set of $M_1$.
 Thus let $x, y$ be distinct points in the Hausdorffification of $X_1$.
 There is thus a smooth function on $X_1$ which distinguishes them.
@@ -767,16 +812,16 @@ As this smooth function factors through $M_1$, we must have $\nu(x) \ne \nu(y)$ 
 Thus the inclusion functor $\mathcal{M} \to \mathcal{H}$ preserves colimits.
 =--
 
-The inclusion of the category of Manifolds in that of all Fr&#246;licher spaces preserves limits (by the same proof as above) but not colimits.
+The inclusion of the category of Manifolds in that of all Fr&ouml;licher spaces preserves limits (by the same proof as above) but not colimits.
 However, it is thus only the issue of being Hausdorff that prevents it preserving colimits.
 The simplest example is the classic non-Hausdorff manifold: consider the [[coequalizer|coequaliser]] of $\mathbb{R} \smallsetminus \{0\}$ included in each piece of $\mathbb{R} \coprod \mathbb{R}$.
 The colimit in the category of [[manifold|Manifolds]] is simply $\mathbb{R}$.
-The colimit of this in the category of Fr&#246;licher spaces is the real line with a double point at $\{0\}$, but upon Hausdorffification this becomes the real line.
+The colimit of this in the category of Fr&ouml;licher spaces is the real line with a double point at $\{0\}$, but upon Hausdorffification this becomes the real line.
 
 +--{: .query}
-[[Mike Shulman|Mike]]: What if we re-define "manifold" to remove the Hausdorff axiom?  Does the inclusion into Fr&#246;licher spaces then preserve colimits?
+[[Mike Shulman|Mike]]: What if we re-define "manifold" to remove the Hausdorff axiom?  Does the inclusion into Fr&ouml;licher spaces then preserve colimits?
 
-[[Andrew Stacey|Andrew]]: I think so, but the inclusion from manifolds to Fr&#246;licher spaces is then not full.  Let $X$ be the real line with a double point at the origin.  Take a curve $\mathbb{R} \to X$ which oscillates between the two points.  This is a morphism into the Fr&#246;licher space, but not into the manifold.
+[[Andrew Stacey|Andrew]]: I think so, but the inclusion from manifolds to Fr&ouml;licher spaces is then not full.  Let $X$ be the real line with a double point at the origin.  Take a curve $\mathbb{R} \to X$ which oscillates between the two points.  This is a morphism into the Fr&ouml;licher space, but not into the manifold.
 
 I think that to make it work, you have to redefine "Euclidean space" to include anything that becomes a Euclidean space upon Hausdorffification.
 =--
@@ -784,7 +829,7 @@ I think that to make it work, you have to redefine "Euclidean space" to include 
 
 ***
 
-# Tangential Topics of Fr&#246;licher Spaces # {#tangent}
+# Tangential Topics of Fr&ouml;licher Spaces # {#tangent}
 
 +-- {: .query}
 This section is essentially lifted from [Comparative Smootheology](http://arxiv.org/abs/0802.2225) as I intend to remove it from that article and this seems a good place to put it.
@@ -792,10 +837,10 @@ This section is essentially lifted from [Comparative Smootheology](http://arxiv.
 
 Nearly every construction in differential topology starts with tangent or cotangent bundles.
 As a conclusion of this note, we shall look at how one could define these in the more general setting.
-An advantage of the dual nature of the definition of a smooth structure due to Fr&#246;licher is that just about every definition of a tangent or cotangent vector is possible.
+An advantage of the dual nature of the definition of a smooth structure due to Fr&ouml;licher is that just about every definition of a tangent or cotangent vector is possible.
 Essentially, as we have access to both curves and functionals we can consider push-forwards and pull-backs.
 
-The ideas in this section can be traced at least as far back as Fr&#246;licher's work in [MR842916](http://www.ams.org/mathscinet-getitem?mr=842916).
+The ideas in this section can be traced at least as far back as Fr&ouml;licher's work in [MR842916](http://www.ams.org/mathscinet-getitem?mr=842916).
 That there are different orders of tangent and cotangent vectors appears in Kriegl and Michor's book [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480), though it doubtless has antecedents.
 However in [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480), only operational tangent vectors have higher orders.
 This is because the context is that of manifolds and so non-trivial higher order kinematic tangent vectors do not appear.
@@ -806,7 +851,7 @@ We start with a notion of what it means for a curve to be flat.
 
 +-- {: mynumdef #Flatness}
 ###### Definition
- Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&#246;licher space.
+ Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&ouml;licher space.
  A curve $c \in \mathcal{C}$ is said to be _$k$-flat_ at $t \in \mathbb{R}$ if for each $f \in \mathcal{F}$, $(f c)^{(j)}(t) = 0$ for $1 \le j \le k$.
  It is _flat_ at $t \in \mathbb{R}$ if it is $k$-flat for all $k \in \mathbb{N}$.
 
@@ -817,7 +862,7 @@ For convenience, in the next definition we will say that any curve is $0$-flat.
 
 +-- {: mynumdef #FroTanSet}
 ###### Definition
- Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&#246;licher space.
+ Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&ouml;licher space.
  Let $x \in X$ and let $k \in \mathbb{N}$.
  The _$k$th kinematic tangent set_ at $x$, $T_{x,k} X$, is the quotient of $\mathcal{C}_{x,k-1}$ by the equivalence relation $c_1 \simeq c_2$ if
   $(f c_1)^{(k)}(t) = (f c_2)^{(k)}(t)$
@@ -831,12 +876,12 @@ For Euclidean spaces with their usual structure, all of these tangent sets coinc
 
 +-- {: mynumdef #FroKinTan}
 ###### Definition
- Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&#246;licher space.
+ Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&ouml;licher space.
  The _full kinematic tangent set_ of $X$ at $x$ is
   $T_{x,\infty} X = \bigcup_k T_{x,k} X$.
 =--
 
-It is obvious that each of these kinematic tangent sets is functorial in Fr&#246;licher spaces.
+It is obvious that each of these kinematic tangent sets is functorial in Fr&ouml;licher spaces.
 
 One would anticipate that in a given application the only two candidates for a kinematic tangent set will be either the full kinematic tangent set or the first kinematic tangent set.
 Note that for a manifold with boundary, the first kinematic tangent set at a point in the boundary is the tangent space of the boundary whereas the full kinematic tangent set is the tangent space of the ambient manifold (including the outward pointing normal).
@@ -847,7 +892,7 @@ Nonetheless, some addition may be possible and addition has nice properties when
 
 +-- {: mynumdef #TanSum}
 ###### Definition
-Let $X$ be a Fr&#246;licher space, $x \in X$.
+Let $X$ be a Fr&ouml;licher space, $x \in X$.
 For $u,v, w \in T_{x,k} X$ we say that $w$ is a _sum_ of $u$ and $v$ if there are representatives $\alpha$, $\beta$, $\gamma$ such that $(f \alpha)^{(k)} = (f \beta)^{(k)} + (f \gamma)^{(k)}$ for all $f \in F_X$.
 
 More generally, $u_1, \dots, u_k \in T_{x,k} X$ have a sum if there is some $w \in T_{x,k} X$ with $(f \beta)^{(k)} = \sum (f \alpha_i)^{(k)}$. 
@@ -872,7 +917,7 @@ As with tangent vectors, we need an auxiliary definition.
 
 +-- {: mynumdef #FlatFun}
 ###### Definition
- Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&#246;licher space, $x \in X$.
+ Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&ouml;licher space, $x \in X$.
  A functional $f \in \mathcal{F}$ is said to be _$k$-flat_ at $x \in X$ if for each $c \in \mathcal{C}$ with $c(0) = x$, $(f c)^{(j)}(0) = 0$ for $1 \le j \le k$.
  It is _flat_ at $x \in X$ if it is $k$-flat for all $k \in \mathbb{N}$.
 
@@ -883,7 +928,7 @@ Again, for convenience we will say that all functionals are $0$-flat.
 
 +-- {: mynumdef #KinCoTan}
 ###### Definition
- Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&#246;licher space, $x \in X$.
+ Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&ouml;licher space, $x \in X$.
  The _$k$th kinematic cotangent space_ at $x$, $T^*_{x,k} X$, is the quotient of $\mathcal{F}_{x,k-1}$ by the relation $f_1 \simeq f_2$ if
   $(f_1 c)^{(k)}(0) = (f_2 c)^{(k)}(0)$
  for all $c \in \mathcal{C}$ with $c(0) = x$.
@@ -913,7 +958,7 @@ Recall that $\mathcal{F}$ is an algebra of functions.
 
 +-- {: mynumdef #OpTanSet}
 ###### Definition
- Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&#246;licher space, $x \in X$.
+ Let $(X, \mathcal{C}, \mathcal{F})$ be a Fr&ouml;licher space, $x \in X$.
  An _operational tangent vector_ at $x$ is a derivation at $x$ of $\mathcal{F}$.
  That is, a linear map
   $\partial : \mathcal{F} \to \mathbb{R}$
@@ -948,15 +993,15 @@ One can define two more versions of "cotangent vectors" by taking linear duals o
 
 # References #
 
-A detailed discussion of the category of Fr&#246;licher spaces and their relation to other notions of [[generalized smooth space]]s is given in
+A detailed discussion of the category of Fr&ouml;licher spaces and their relation to other notions of [[generalized smooth space]]s is given in
 
 * Andrew Stacey, _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
 
 This also lists all the relevant further references. 
 
-A discussion of [[Lie algebra]]s on Fr&#246;licher [[group]]s ([[group object]]s [[internalization|internal to]] the category of Fr&#246;licher spaces) is in
+A discussion of [[Lie algebra]]s on Fr&ouml;licher [[group]]s ([[group object]]s [[internalization|internal to]] the category of Fr&ouml;licher spaces) is in
 
-* Martin Laubinger, _A Lie algebra for Fr&#246;licher groups_ ([arXiv](http://arxiv.org/abs/0906.4486))
+* Martin Laubinger, _A Lie algebra for Fr&ouml;licher groups_ ([arXiv](http://arxiv.org/abs/0906.4486))
 
 
 [[!redirects Frölicher space]]
