@@ -1,6 +1,6 @@
 There are several related notions dealing with similar notions. Historically the first is 
 
-* stable homotopy category of spectra 
+* [[stable homotopy category]] of spectra 
 
 and V. Puppe shown that it has a [[triangulated category|triangulated structure]]. Stability referred to [[stable homotopy theory]] and invertibility of [[suspension]] there. 
 
