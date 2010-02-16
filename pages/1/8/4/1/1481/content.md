@@ -361,13 +361,13 @@ $$
 i.e. the [[2-limit|lax pullback]]
 
 $$
-  \array{
+  \begin{matrix}
     \Omega_{pt} V &\to& {*}
     \\
-    \downarrow && \downarrow^{pt_V}
+    \downarrow && \downarrow^{\mathrlap{pt_V}}
     \\
     {*} &\stackrel{pt_V}{\to}& V
-  }
+  \end{matrix}
   \,.
 $$
 
@@ -379,13 +379,13 @@ In the special case that $V = $ [[Vect]] over some ground field $k$ the canonica
 More generally, for $W : {*}\to V$ any other point of $V$, we say that the [[2-limit|lax pullback]]
 
 $$
-  \array{
+  \begin{matrix}
     el_{pt_V}(W) &\to& {*}
     \\
-    \downarrow && \downarrow^{pt_V}
+    \downarrow && \downarrow^{\mathrlap{pt_V}}
     \\
     {*} &\stackrel{W}{\to}& V
-  }
+  \end{matrix}
 $$
 
 is the object of _elements of $W$_ relative to the chosen point.
@@ -403,14 +403,14 @@ $$
 we have the [[2-limit|lax pullback]]
 
 $$
-  \array{  
+  \begin{matrix}  
     E &\to& {*}
     \\
-    \downarrow && \downarrow^{pt_V}
+    \downarrow && \downarrow^{\mathrlap{pt_V}}
     \\
     Bord(X) &\stackrel{\exp(S_\nabla)}{\to}&
    V
-  }
+  \end{matrix}
   \,.
 $$
 
@@ -419,14 +419,14 @@ This $E$ is really the [[action groupoid]] of the "[[action]]" of $Bord(X)$ on $
 For each component $\exp(S_\nabla)|_\Sigma : [\Sigma,X] \to V$ we get a corresponding lax pullback
 
 $$
-  \array{  
+  \begin{matrix}  
     E_{\Sigma} &\to& {*}
     \\
-    \downarrow && \downarrow^{pt_V}
+    \downarrow && \downarrow^{\mathrlap{pt_V}}
     \\
     [\Sigma,X] &\stackrel{\exp(S_\nabla)|_\Sigma}{\to}&
    V
-  }
+  \end{matrix}
 $$
 
 in particular the fiber over $x \in X$ of $E_{pt}$
@@ -500,24 +500,24 @@ $$
 this realizes $Bord(X)$ as the universal cocone whose component under $\Sigma$ is
 
 $$
-  \array{
+  \begin{matrix}
     && [\Sigma,X]
     \\
     & \swarrow && \searrow
     \\
     [\Sigma_{in},X]
-    &&\downarrow^{\exp(S_\nabla)_\Sigma}
+    &&\downarrow^{\mathrlap{\exp(S_\nabla)_\Sigma}}
     &&
     [\Sigma_{out},X]
     \\
     &
-    {}_{\exp(S_\nabla)}_{in}\searrow
+    \mathllap{{}_{\exp(S_\nabla)}_{in}}\searrow
     &     &
-    \swarrow_{\exp(S_\nabla)_{out}}
+    \swarrow_{\mathrlap{\exp(S_\nabla)_{out}}}
     \\
     &&
     V
-  }
+  \end{matrix}
 $$
 
 by lax pullback of $pt_V : {*} \to V$ this induces a span of total spaces
@@ -535,7 +535,188 @@ $$
   }
 $$
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$"><img src="http://latex.codecogs.com/gif.latex?$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$" title="$$ \xymatrix@R=23pt@C=12pt{ &amp;E_\Sigma \ar[rr]^{E_\mathrm{out}} \ar[dd]_{E_\mathrm{in}} \ar[ddr] &amp;&amp; E_{\Sigma_{\mathrm{out}}} \ar[ddr] \\ \\ &amp;E_{\mathrm{in}} \ar[ddr] &amp; [\Sigma,X] \ar[dd]^{\mathrm{in}} \ar[rr]^{\mathrm{out}} \ar[ddrr] &amp;&amp; [\Sigma_{\mathrm{out}},X] \ar[dd] \ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}} \\ \\ &amp;&amp; [\Sigma_{\mathrm{in}},X] \ar[rr] \ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}} &amp;&amp; \mathrm{Bord}(X) \ar[ddrr]|{\exp(S_\nabla)} \\ \\ &amp;&amp;&amp;&amp; &amp;&amp; V } $$" /></a>
++-- {: #bord style="text-align:center"}
+<svg width="450" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <foreignObject x="60" y="67" id="svg_1" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <msub>
+     <mi>E</mi>
+     <mi>&#931;</mi>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject x="175" y="70" id="svg_2" font-size="16" width="48" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <msub>
+     <mi>E</mi>
+     <mrow>
+      <msub>
+       <mi>&#931;</mi>
+       <mtext>out</mtext>
+      </msub>
+     </mrow>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject x="60" y="165" id="svg_3" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <msub>
+     <mi>E</mi>
+     <mtext>in</mtext>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject x="112" y="150" id="svg_4" font-size="16" width="77" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mo stretchy="false">[</mo>
+    <mi>&#931;</mi>
+    <mo>,</mo>
+    <mi>X</mi>
+    <mo stretchy="false">]</mo>
+   </math>
+  </foreignObject>
+  <foreignObject x="235" y="150" id="svg_5" font-size="16" width="88" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mo stretchy="false">[</mo>
+    <msub>
+     <mi>&#931;</mi>
+     <mtext>out</mtext>
+    </msub>
+    <mo>,</mo>
+    <mi>X</mi>
+    <mo stretchy="false">]</mo>
+   </math>
+  </foreignObject>
+  <foreignObject x="112" y="255" id="svg_6" font-size="16" width="90" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mo stretchy="false">[</mo>
+    <msub>
+     <mi>&#931;</mi>
+     <mtext>in</mtext>
+    </msub>
+    <mo>,</mo>
+    <mi>X</mi>
+    <mo stretchy="false">]</mo>
+   </math>
+  </foreignObject>
+  <foreignObject x="236" y="255" id="svg_7" font-size="16" width="90" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mo rspace="thinmathspace" lspace="0em">Bord</mo>
+    <mo stretchy="false">(</mo>
+    <mi>X</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject x="396" y="351" id="svg_8" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mo>V</mo>
+   </math>
+  </foreignObject>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <line fill="none" id="svg_24" y2="80" x2="171" y1="80" x1="93" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_25" y2="164" x2="67" y1="97" x1="67" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_26" y2="145" x2="128" y1="95" x1="81" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_27" y2="163" x2="230" y1="163" x1="188" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_28" y2="248" x2="150" y1="180" x1="150" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_30" y2="248" x2="281" y1="184" x1="281" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_31" y2="266" x2="244" y1="266" x1="199" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_32" y2="246" x2="119" y1="198" x1="87" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_33" y2="144" x2="264" y1="100" x1="224" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_34" y2="353" x2="396" y1="283" x1="314" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <path id="svg_35" d="m315,181c65,51 83,75 92,164" fill="none" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <path id="svg_36" d="m162,281c67,70 143,83 230,83" fill="none" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <foreignObject height="24" width="48" font-size="16" id="svg_2" y="55" x="116">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+     <mi>E</mi>
+     <mtext>out</mtext>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject x="123" y="197" id="svg_2" font-size="16" width="31" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mtext>in</mtext>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_9" height="24" width="31" font-size="16" y="142" x="193">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mtext>out</mtext>
+   </math>
+  </foreignObject>
+  <foreignObject transform="rotate(32.7352, 218.5, 340)" height="24" width="79" font-size="16" id="svg_12" y="328" x="179">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>exp</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mi>S</mi>
+     <mo>&#8711;</mo>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <msub>
+     <mo stretchy="false">&#8739;</mo>
+     <mrow>
+      <msub>
+       <mi>&#931;</mi>
+       <mtext>in</mtext>
+      </msub>
+     </mrow>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject x="308.99998" y="314" id="svg_38" font-size="16" width="66" height="24" transform="rotate(38.4181, 342, 326)">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>exp</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mi>S</mi>
+     <mo>&#8711;</mo>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject x="342.85635" y="225.59602" font-size="16" width="95.98366" height="24" transform="rotate(50.9645, 390.848, 237.596)" id="svg_19">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mi>exp</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mi>S</mi>
+     <mo>&#8711;</mo>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <msub>
+     <mo stretchy="false">&#8739;</mo>
+     <mrow>
+      <msub>
+       <mi>&#931;</mi>
+       <mtext>out</mtext>
+      </msub>
+     </mrow>
+    </msub>
+   </math>
+  </foreignObject>
+  <line id="svg_47" fill="none" y2="245" x2="248" y1="178" x1="170" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line marker-end="url(#se_arrow_fw1)" fill="none" id="svg_29" y2="252" x2="246" y1="180" x1="184"/>
+  <foreignObject y="121" x="39" id="svg_2" font-size="16" width="31" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <msub>
+     <mi>E</mi>
+     <mtext>in</mtext>
+    </msub>
+   </math>
+  </foreignObject>
+ </g>
+</svg>
+=--
 
 **definition** the "quantum propagation along $\Sigma$" is the functor of [[geometric function object]]s
 
@@ -562,23 +743,23 @@ In order to unwrap the above abstract prescription in some special cases recall 
 given $\psi : \Psi \to E_\Sigma$ we extract the corresponding "degroupoidified" vector of the corresponding section over $\phi|_{\Sigma} \in [\Sigma,X]$ as the pullback
 
 $$
-  \array{
+\begin{matrix}
     p^* \Psi
     &\to&
     \Psi
     \\
-    \downarrow^{\psi|_{\phi|_{\Sigma}}}
+    \downarrow^{\mathrlap{\psi|_{\phi|_{\Sigma}}}}
     &&
     \downarrow
     \\
-    V_{\phi|_{\Sigma}} &\stackrel{p}{\to}& E_\Sigma
+    V_{\mathrlap{\phi|_{\Sigma}}} &\stackrel{p}{\to}& E_\Sigma
     \\
     \downarrow && \downarrow
     \\
     {*}
     &\stackrel{\phi|_{\Sigma}}{\to}&
     [\Sigma,X]
-  }
+\end{matrix}
 $$
 
 
@@ -661,17 +842,17 @@ $$
 and
 
 $$
-  \array{
+\begin{matrix}
     p^* {*} &\to& {*}
     \\
-    \downarrow^{\psi_x} && \downarrow^{\psi}
+    \downarrow^{\mathrlap{\psi_x}} && \downarrow^{\mathrlap{\psi}}
     \\
     E_x &\stackrel{p}{\to}& E_{pt}
     \\
     \downarrow && \downarrow
     \\
     {*} &\stackrel{x}{\to}& X
-  }
+\end{matrix}
   \,.
 $$
 
@@ -688,7 +869,7 @@ $$
   \array{
     && (E_{in})^* \Psi
     \\
-    & \swarrow && \searrow^{(E_{in})^* \psi}
+    & \swarrow && \searrow^{\mathrlap{(E_{in})^* \psi}}
     \\
     {*}= \Psi&&&& E_{I}
     \\
@@ -780,7 +961,7 @@ $$
   \array{
     && in^* \Psi
     \\
-    & \swarrow && \searrow^{in^* \psi}
+    & \swarrow && \searrow^{\mathrlap{in^* \psi}}
     \\
     \Psi && && E_{\Sigma}
     \\
@@ -887,17 +1068,17 @@ $$
   \;\;\;\;
   \mapsto
   \;\;\;\;
-  \array{
+  \begin{matrix}
      \bullet &\stackrel{A(\gamma)}{\to}& \bullet
      \\
-     \downarrow^{g(x)}
-     & \Downarrow^{g(\gamma)}
+     \downarrow^{\mathrlap{g(x)}}
+     & \Downarrow^{\mathrlap{g(\gamma)}}
      &
-     \downarrow^{g(y)}
+     \downarrow^{\mathrlap{g(y)}}
      \\
      \bullet &\stackrel{A'(\gamma)}{\to}&     
      \bullet
-  }
+  \end{matrix}
   \,.
 $$
 
@@ -982,4 +1163,4 @@ precisely the combinatorial factor which people found makes the Yetter state sum
 [[!redirects exercise in groupoidification -- the path integral]]
 
 
-[[!redirects An Exercise in Groupoidification]]
+[[!redirects An Exercise in Groupoidification
