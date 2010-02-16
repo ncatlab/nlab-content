@@ -57,6 +57,10 @@ It is a **right fibration** or **[[right Kan fibration]]** if its extends agains
 
 The morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right anodyne**.
 
+See also
+
+* [[model structure for left fibrations]]
+
 
 ### (co)Cartesian fibration
 
@@ -69,6 +73,12 @@ A [[Cartesian fibration]] is an [[inner fibration]] $p : X \to S$ such that
 there is a [[cartesian morphism|Cartesian edge]] $\tilde{f} : \tilde{x} \to \tilde{y}$ in $X$ lifting $f$.
 
 (HTT, def 2.4.2.1)
+
+see also
+
+* [[model structure for Cartesian fibrations]]
+
+* [[(∞,1)-Grothendieck construction]]
 
 
 ### Categorical fibration
