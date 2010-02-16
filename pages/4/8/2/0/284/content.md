@@ -31,7 +31,7 @@ Among all [[(n,r)-category|(n,r)-categories]], $(\infty,1)$-categories are speci
 
 Notably for understanding the collections of all [[(n,r)-category|(n,r)-categories]] for arbitrary $n$ and $r$, which in general is an $(n+1,r+1)$-category, the knowledge of the underlying $(n,1)$- (and hence $(\infty,1)$-)category already captures much of the information of interest: it allows to decide if two given $(n,r)$-categories are equivalent and allows to obtain new $(n,r)$-categories from existing ones by universal constructions.
 
-
+The collection of all $(\infty,1)$-categories forms the [[(∞,2)-category]] [[(∞,1)Cat]].
 
 ## Definitions
 
