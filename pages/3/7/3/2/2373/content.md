@@ -1,6 +1,6 @@
 **[[higher category theory]]**
 
-#Contents
+# Definitions
 
 * [[(n,r)-category]]
 
@@ -92,14 +92,28 @@
 
     * [[triangulated category]]
 
-* 1-categorical models for higher category theory
+# Universal constructions
 
-  * [[model category|model category theory]]
+* [[limit in a quasi-category|(∞,1)-limit]]
 
-  * [[enriched category theory]]
+* [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+
+* [[(∞,1)-Grothendieck construction]]
+
+# Higher topos theory
 
 * [[higher topos theory]]
  
   * [[(∞,1)-topos]]
+
+
+# 1-categorical models
+
+* [[homotopical category]]
+
+* [[model category|model category theory]]
+
+* [[enriched category theory]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+category+theory+-+contents)</div>
