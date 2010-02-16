@@ -85,6 +85,112 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
   <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_7" y="85" x="206">G</text>
  </g>
 </svg>
+
+<img src="http://latex.codecogs.com/gif.latex?$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$" title="$$ \xymatrix@R=23pt@C=12pt{ &amp;E_\Sigma \ar[rr]^{E_\mathrm{out}} \ar[dd]_{E_\mathrm{in}} \ar[ddr] &amp;&amp; E_{\Sigma_{\mathrm{out}}} \ar[ddr] \\ \\ &amp;E_{\mathrm{in}} \ar[ddr] &amp; [\Sigma,X] \ar[dd]^{\mathrm{in}} \ar[rr]^{\mathrm{out}} \ar[ddrr] &amp;&amp; [\Sigma_{\mathrm{out}},X] \ar[dd] \ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}} \\ \\ &amp;&amp; [\Sigma_{\mathrm{in}},X] \ar[rr] \ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}} &amp;&amp; \mathrm{Bord}(X) \ar[ddrr]|{\exp(S_\nabla)} \\ \\ &amp;&amp;&amp;&amp; &amp;&amp; V } $$" />
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <foreignObject height="24" width="24" font-size="24" id="svg_1" y="61" x="53">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+     <mi>E</mi>
+     <mi>&#931;</mi>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject height="24" width="48.000002" font-size="24" id="svg_2" y="62" x="174.59999">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+     <mi>E</mi>
+     <mrow>
+      <msub>
+       <mi>&#931;</mi>
+       <mtext>out</mtext>
+      </msub>
+     </mrow>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject height="24" width="24" font-size="24" id="svg_3" y="161" x="58">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+     <mi>E</mi>
+     <mtext>in</mtext>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject height="24" width="76.999999" font-size="24" id="svg_4" y="145" x="112.625003">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mo stretchy="false">[</mo>
+    <mi>&#931;</mi>
+    <mo>,</mo>
+    <mi>X</mi>
+    <mo stretchy="false">]</mo>
+   </math>
+  </foreignObject>
+  <foreignObject height="24" width="87.999998" font-size="24" id="svg_5" y="146" x="235.400688">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mo stretchy="false">[</mo>
+    <msub>
+     <mi>&#931;</mi>
+     <mtext>out</mtext>
+    </msub>
+    <mo>,</mo>
+    <mi>X</mi>
+    <mo stretchy="false">]</mo>
+   </math>
+  </foreignObject>
+  <foreignObject height="24" width="90" font-size="24" id="svg_6" y="246" x="112">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mo stretchy="false">[</mo>
+    <msub>
+     <mi>&#931;</mi>
+     <mtext>in</mtext>
+    </msub>
+    <mo>,</mo>
+    <mi>X</mi>
+    <mo stretchy="false">]</mo>
+   </math>
+  </foreignObject>
+  <foreignObject height="24" width="90" font-size="24" id="svg_7" y="250" x="247">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mo lspace="0em" rspace="thinmathspace">Bord</mo>
+    <mo stretchy="false">(</mo>
+    <mi>X</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject height="24" width="24" font-size="24" id="svg_8" y="349" x="400">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mo>V</mo>
+   </math>
+  </foreignObject>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="93" y1="80" x2="171" y2="80" id="svg_24" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="67" y1="97" x2="67" y2="164" id="svg_25" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="81" y1="95" x2="128" y2="145" id="svg_26" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="188" y1="163" x2="230" y2="163" id="svg_27" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="150" y1="180" x2="150" y2="248" id="svg_28" fill="none"/>
+  <line x1="184" y1="180" x2="246" y2="252" id="svg_29" fill="none" marker-end="url(#se_arrow_fw1)"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="281" y1="184" x2="281" y2="248" id="svg_30" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="199" y1="266" x2="244" y2="266" id="svg_31" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="87" y1="198" x2="119" y2="246" id="svg_32" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="224" y1="100" x2="264" y2="144" id="svg_33" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" stroke="#000000" x1="314" y1="283" x2="396" y2="353" id="svg_34" fill="none"/>
+  <path marker-end="url(#se_arrow_fw)" stroke="#000000" fill="none" d="m315,181c65,51 83,75 92,164" id="svg_35"/>
+  <path marker-end="url(#se_arrow_fw)" stroke="#000000" fill="none" d="m162,281c67,70 143,83 230,83" id="svg_36"/>
+ </g>
+</svg>
+
 ***
 
 ## XYPic diagrams using CodeCogs
@@ -211,4 +317,4 @@ category: meta
 [[!redirects nitwits]]
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
-[[!redirects שנה טובה]]
+[[!redirects &#1513;&#1504;&#1492; &#1496;&#1493;&#1489;&#1492;]
