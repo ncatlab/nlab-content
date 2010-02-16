@@ -47,13 +47,20 @@ A morphism with [[left lifting property]] against all Kan fibrations is called *
 
 ### Left/Right fibration
 
-A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** of **[[left Kan fibration]]** if its has the [[right lifting property]] with respect to all [[horn]] inclusions except the right outer ones.
+A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **[[left Kan fibration]]** if its has the [[right lifting property]] with respect to all [[horn]] inclusions except the right outer ones.
 
-It is a **right fibration** or **[[right Kan fibration]]** if its extends agains all horns except the left outer ones
+It is a **right fibration** or **[[right Kan fibration]]** if its extends agains all horns except the left outer ones.
 
-**Proposition** For $S \in sSet$ there is a [[model category]] structure on the [[overcategory]] $sSet/S$ whose cofibrant-fibrant objects are left fibrations over $S$, given by
+Write
 
-... (section 2.1.4 , main prop 2.1.4.7).
+$$
+  RFib(S) \subset sSet/S
+$$
+
+for the full [[SSet]]-[[subcategory]] of the [[overcategory]] of [[SSet]] over $S$ on those morphisms that are right fibrations.
+
+This is a [[Kan complex]]-enriched category and as such an incarnation of the **[[(∞,1)-category]] of right fibrations**. For details on this see the discussion at [[(∞,1)-Grothendieck construction]].
+
 
 The morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right anodyne**.
 
