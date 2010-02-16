@@ -11,4 +11,12 @@ John Henry Constantine Whitehead (11 November 1904&#8211;8 May 1960), was one of
 * [English Wikipedia page](http://en.wikipedia.org/wiki/J._H._C._Whitehead)
 * [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/Whitehead_Henry.html) 
 
+
 category: people
+
+[[!redirects Henry Whitehead]]
+[[!redirects John Henry Constantine Whitehead]]
+[[!redirects JHC Whitehead]]
+[[!redirects J H C Whitehead]]
+[[!redirects J.H.C. Whitehead]]
+[[!redirects J. H. C. Whitehead]]
