@@ -96,14 +96,19 @@ By the above remarks about powers and copowers, it follows that in a $Top$-model
 
 # Remarks #
 
-Path objects and right homotopies also exist if not the structure of a [[model category]] but just of a [[category of fibrant objects]] is given.  Likewise for cylinder objects and left homotopies in a category of cofibrant objects.
+Path objects and right homotopies also exist in various other situations, for instance, if there is not the full structure of a [[model category]] but just of a [[category of fibrant objects]] is given.  Likewise for cylinder objects and left homotopies in a category of cofibrant objects.
+
+Likewise if there is a [[cylinder functor]], one gets functorially defined [[cylinder object]]s. 
 
 # References #
+
+
 
 * W. G. Dwyer and J. Spalinski.  "Homotopy Theories and Model Categories," 1995.
 
 * Clemens Berger and Ieke Moerdijk.  "Axiomatic homotopy theory for operads," 2003.
 
+* K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
 [[!redirects left homotopy]]
 [[!redirects right homotopy]]
