@@ -1,5 +1,4 @@
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -43,5 +42,10 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 * [wikipedia:Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)
 
+* A. S. Mishchenko, &#1042;&#1077;&#1082;&#1090;&#1086;&#1088;&#1085;&#1099;&#1077; &#1088;&#1072;&#1089;&#1089;&#1083;&#1086;&#1077;&#1085;&#1080;&#1103; &#1080; &#1080;&#1093; &#1087;&#1088;&#1080;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; (Vector bundles and their applications), Nauka, Moscow, 1984. 208 pp. MR87f:55010  
+
+* S. Rempel, B-W. Schulze, _Index theory of elliptic boundary problems_, Akademie--Verlag, Berlin, 1982.
+
+* Lars H&#246;rmander, _The analysis of linear partial differential operators. III. Pseudo-differential operators_, 1994, reprinted 2007. 
 
 [[!redirects Fredholm complex]]
