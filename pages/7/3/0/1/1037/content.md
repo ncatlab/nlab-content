@@ -220,6 +220,34 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[anodyne morphism]]
 
+### 2.1 Left fibrations
+
+* [[left fibration]]
+
+* [[model structure for left fibrations]]
+
+### 2.2 Simplicial categories and $\infty$-categories
+
+* [[relation between quasi-categories and simplicial categories]]
+
+* [[model structure for quasi-categories]]
+
+### 2.3 Inner fibrations
+
+* [[inner fibration]]
+
+
+
+### 2.4 Cartesian fibrations
+
+* [[Cartesian morphism]]
+
+* [[Cartesian fibration]]
+
+* [[model structure on marked simplicial over-sets]]
+
+* [[(∞,1)-Grothendieck construction]]
+
 ##3 The $\infty$-Category of $\infty$-Categories
 
 * the [[(∞,2)-category]] [[(∞,1)Cat]]
