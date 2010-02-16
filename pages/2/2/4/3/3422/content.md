@@ -229,10 +229,19 @@ This is [[Higher Topos Theory|HTT, theorem 3.2.0.1]].
 
 =--
 
+## Examples
+
+### Cartesian fibrations over simplices {#CartOverSimplex}
 
 
+... for the moment see [[Higher Topos Theory|HTT, section 3.2.2]] ...
 
-## Relation beween the model structures
+
+## Relation between the $(\infty,0)$- and the $(\infty,1)$-case
+
+...
+
+### Relation beween the model structures
 
 +-- {: .un_theorem}
 ###### Theorem (HTT, section 3.1.5)
