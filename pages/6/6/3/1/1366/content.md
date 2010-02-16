@@ -10,7 +10,9 @@
 
 ## Idea
 
-The collection of all [[(∞,1)-categories]] forms naturally an [[(∞,2)-category]]. But for many purposes it is quite sufficient to regard only invertible [[natural transformation]]s between [[(∞,1)-functor]], which means that one needs just the maximal [[(∞,1)-category]] inside that $(\infty,2)$-category of all $(\infty,1)$-categories.
+The collection of all [[(∞,1)-categories]] forms naturally the [[(∞,2)-category]] [[(∞,1)Cat]]. 
+
+But for many purposes it is quite sufficient to regard only invertible [[natural transformation]]s between [[(∞,1)-functor]], which means that one needs just the maximal [[(∞,1)-category]] inside that $(\infty,2)$-category of all $(\infty,1)$-categories.
 
 Given that an $(\infty,1)$-category is a context for abstract [[homotopy theory]], the $(\infty,1)$-category of $(\infty,1)$-categories is also called the the **homotopy theory of homotopy theories**.
 
