@@ -6,7 +6,7 @@ Topologist and author of
 
 amongst others.
 
-His work has developed the ideas of  Whitehead's basic programme for [[algebraic homotopy]], using a mix of [[cofibration category|cofibration categories]] and categories with a particular type of [[cylinder functor]], that he calls [[I-category|I-categories]]. These are treated in separate entries.
+His work has developed the ideas of  [[Henry Whitehead|Whitehead's]] basic programme for [[algebraic homotopy]], using a mix of [[cofibration category|cofibration categories]] and categories with a particular type of [[cylinder functor]], that he calls [[I-category|I-categories]]. These are treated in separate entries.
 
 
 [Home page](http://www.mpim-bonn.mpg.de/Research/People/Senior+Researchers/Baues,+H.-J./)
