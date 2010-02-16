@@ -2,7 +2,6 @@
 [[!include higher category theory - contents]]
 </div>
 
-> under construction
 
 #Contents#
 * automatic table of contents
@@ -10,13 +9,13 @@
 
 ## Idea
 
-The **$(\infty,1)$-Grothendieck construction** is the analog of the [[Grothendieck construction]] which establishes an equivalence
+The **$(\infty,1)$-Grothendieck construction** is a generalization of the [[Grothendieck construction]] -- which establishes an equivalence
 
 $$
   Fib(C) \simeq 2Func(C^{op}, Cat)
 $$
 
-between [[fibered category|fibered categories]] and [[pseudofunctor]]s from [[category theory]] to [[(∞,1)-category]]-[[higher category theory|theory]].
+between [[fibered category|fibered categories]] and [[pseudofunctor]]s -- from [[category theory]] to [[(∞,1)-category]]-[[higher category theory|theory]].
 
 The Grothendieck construction for [[∞-groupoid]]s constitutes an equivalence of [[(∞,1)-categories]]
 
@@ -24,32 +23,41 @@ $$
   RFib(C) \simeq \infty Func(C^{op}, \infty Grpd)
 $$
 
-of [[right fibration]]s and [[(∞,1)-functor]]s to [[? Grpd]], while the full Grothendieck construction for [[(∞,1)-categories]] constitutes an equivalence 
+between [[right fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functor]]s to [[? Grpd]], while the full Grothendieck construction for [[(∞,1)-categories]] constitutes an equivalence 
 
 $$
   CartFib(C) \simeq \infty Func(C^{op}, (\infty,1)Cat)
 $$
 
-between [[Cartesian fibration]]s and [[(∞,1)-functor]]s to [[(∞,1)Cat]].
+between [[Cartesian fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functor]]s to [[(∞,1)Cat]].
 
 
-The correspondence between $(\infty,1)$-categorical [[cartesian fibrations]] $E \to C$ and [[(infinity,1)-presheaf|(∞,1)-presheaves]] $C \to (\infty,1)Cat^{op}$ may be [[model category|modeled]] by the [[Quillen equivalence]] between the [[model structure on marked simplicial over-sets]] and the projective [[global model structure on simplicial presheaves]].
+This correspondence is [[model category|modeled]] 
+
+* in the case of $\infty$-groupoids by a [[Quillen equivalence]] between the [[model structure for right fibrations]] and the projective [[global model structure on simplicial presheaves]] 
+
+* in the case of $(\infty,1)$-categories by a Quillen equivalence between the [[model structure for Cartesian fibrations]] and the [[global model structure on functors]] with values in the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]].
 
 
 ## For $\infty$-groupoids
+
 
 
 +-- {: .un_theorem}
 ###### Theorem 
 **($(\infty,0)$-Grothendieck construction)**
 
-Let $C$ be an [[(∞,1)-category]]. There is an equivalence 
+Let $C$ be an [[(∞,1)-category]]. There is an equivalence of [[(∞,1)-categories]]
 
 $$
   RFib(C) \simeq Func(C^{op}, \infty Grpd)
 $$
 
-where in the left we have the $(\infty,1)$-category of [[right fibration]]s over $C$ and on the right the [[(∞,1)-category of (∞,1)-functors]] from the [[opposite category]] $C^{op}$ to [[∞Grpd]], i.e. the [[(∞,1)-category of (∞,1)-presheaves]] on $C$.
+where 
+
+* on the left we have the [[right fibration|(∞,1)-category of right fibrations]] $RFib(C)$ -- incarnated as the full [[SSet]]-[[subcategory]] of the [[overcategory]] $SSet/C$ on [[right fibration]]s;
+
+* and on the right the [[(∞,1)-category of (∞,1)-functors]] from the [[opposite category]] $C^{op}$ to [[∞Grpd]], i.e. the [[(∞,1)-category of (∞,1)-presheaves]] on $C$.
 
 =--
 
@@ -62,16 +70,67 @@ In the next section we discuss how this statement is presented in terms of [[mod
 
 ### Model category presentation
 
-Regard the [[(∞,1)-category]] $C$ in its incarnation as a [[simplicially enriched category]].
 
-Let $S$ be a [[simplicial set]], $\mathcal{C}(S)$ the corresponding [[simplicially enriched category]] (where $\mathcal{C}$ is the adjoint of the [[homotopy coherent nerve]]) and let $\phi : \mathcal{C}(S) \to C$ be an [[SSet]]-[[enriched functor]].
++-- {: .un_def}
+###### Definition 
+**(extracting a simplicial presheaf from a fibration)**
+(HTT, section 2.2.1)
+
+Let 
+
+* $S$ be a [[simplicial set]], $|S|$ the corresponding [[SSet-category]] (under the adjoint $|-| : SSet \to SSet Cat$ of the [[homotopy coherent nerve]]);
+
+* $C$ an [[SSet-category]];
+
+* $\phi : |S| \to C$ a morphism of [[SSet-categories]].
+
+> In particular we will be interested in the case that $\phi$ is the identity, or at least an equivalence, identifying $C$ with $|S|$.
+
+For any object $(p : X\to S)$ in $SSet/S$ consider the [[SSet-category]] $K(\phi,p)$ obtained as the (ordinary) [[pushout]] in [[SSet Cat]]
+ 
+$$
+  \array{
+    |X| &\stackrel{\phi}{\to}& C
+    \\
+    \downarrow && \downarrow
+    \\
+    |X^{\triangleright}| &\to& K(\phi,p) 
+  }
+  \,,
+$$
+
+where $X^{\triangleright} = X \star \{v\}$ is the [[join of simplicial sets]] of $X$ with a single vertex $v$.
+
+Using this construction, define a functor -- the **straightening functor** --
+
+$$
+  St_\phi : sSet/S \to [C^{op}, SSet]
+$$
+
+from the [[overcategory]] of [[SSet]] over $S$ to the [[enriched functor category]] of [[SSet]]-[[enriched functor]]s from $C^{op}$ to $SSet$ by defining it on objects $(p : X \to S)$
+
+$$
+  St_\phi(X) := K(\phi,p)(-,v) : C^{op} \to SSet
+  \,.  
+$$
+
+This functor has a [[right adjoint]]
+
+$$
+  Un_\phi : [C^{op}, SSet] \to SSet/S
+  \,,
+$$
+
+that takes a [[simplicial presheaf]] on $C$ to a simplicial set over $S$ -- the **unstraightening functor**.
+
+=--
 
 +-- {: .un_theorem}
 ###### Theorem 
 **(presentation of $(\infty,0)$-Grothendieck construction)**
 
 
-This induces a [[Quillen adjunction]]
+These functors constitute a [[Quillen adjunction]]
 
 $$
   (St_\phi \dashv Un_\phi) : SSet/S
@@ -91,6 +150,22 @@ If $\phi$ is an equivalence in the [[model structure on simplicial categories]] 
 This is [[Higher Topos Theory|HTT, theorem 2.2.1.2]].
 
 =--
+
+This models the Grothendieck construction for $\infty$-groupoids in the following way:
+
+* the [[presentable (∞,1)-category|(∞,1)-category presented by]] $SSet/S$ is $RFib(S)$
+ 
+  (HTT, lemma 2.2.3.9)
+
+* the [[presentable (∞,1)-category|(∞,1)-category presented by]]
+  the global [[model structure on simplicial presheaves]] 
+  $[C^{op}, SSet]$ is [[(∞,1)-category of (∞,1)-presheaves]] 
+
+Hence the unstraightening functor is what models the Grothendieck construction proper, in the sense of a construction that generalizes the construction of a [[fibered category]] from a [[pseudofunctor]].
+
+
+
+
 
 
 ## For $(\infty,1)$-categories
