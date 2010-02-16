@@ -44,12 +44,19 @@ A **strong homotopy equivalence** between spaces $X$ and $Y$ is a quadruple $(f,
 as above, such that $f_*H \sim f^*K$ and $g_*K\sim g^*H$.
 
 
-Thus this imposes a minimal coherence condition on the data making up the homotopy equivalence.
+Thus this imposes a minimal coherence condition on the data making up the homotopy equivalence. The definition clearly can be generalised to any reasonable setting with a notion of homotopy.
 
 The question naturally arises as to whether all homotopy equivalences are strong. [[Rainer Vogt]](1972) proved
 
 ###Vogt's lemma###
-If $f: X\to Y$ be a morphism that is a homotopy equivalence, let $g: Y\to X$ be a homotopy inverse and $H:g \circ f \sim 1_X$ a homotopy, then there is a homotopy $K: f \circ g \sim 1_Y$ such that $(f,g,H,K)$ is a strong homotopy equivalence.
+If $f: X\to Y$ be a morphism that is a homotopy equivalence in $Top$, let $g: Y\to X$ be a homotopy inverse and $H:g \circ f \sim 1_X$ a homotopy, then there is a homotopy $K: f \circ g \sim 1_Y$ such that $(f,g,H,K)$ is a strong homotopy equivalence.
+
+Various versions of this are known in other settings, e.g. $SSet$-enriched categories. It is to be noted that the coherence is not required to continue to higher levels. There is no condition of compatibilty between the two 'homotopies  between the homotopies'. 
+
++--{.query}
+[[Tim]]: I do not know if there is a neat formulation of the full homotopy coherent version of this, nor exactly in what settings the analogous abstract versions of Vogt's lemma go across
+=--
 
 
+The result plays a key role in the proof of Vogt's theorem (cf.  [[homotopy coherent diagram]]s).
 [[!redirects homotopy equivalences]]
