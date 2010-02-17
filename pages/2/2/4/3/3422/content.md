@@ -66,7 +66,7 @@ In the next section we discuss how this statement is presented in terms of [[mod
 
 
 
-### Model category presentation
+### Model category presentation {#GrpdModelCatVersion}
 
 
 +-- {: .un_def}
@@ -253,10 +253,35 @@ Regard the [[(∞,1)-category]] $C$ in its incarnation as a [[simplicially enric
 
 Let $S$ be a [[simplicial set]], $\mathcal{C}(S)$ the corresponding [[simplicially enriched category]] (where $\mathcal{C}$ is the adjoint of the [[homotopy coherent nerve]]) and let $\phi : \mathcal{C}(S) \to C$ be an [[SSet]]-[[enriched functor]].
 
++-- {: .un_def}
+###### Definition 
+**(extracting a marked simplicial presheaf from a marked fibration)**
+(HTT, section 3.2.1)
+
+The **straightening functor**
+
+$$
+  St_\phi : sSet^+/S \to [C^{op}, sSet^+]
+$$
+
+from [[marked simplicial set]]s over $S$ to marked [[simplicial presheaves]] is on the underlying simplicial sets (forgetting the marking) the same straightening functor as [above](#GrpdModelCatVersion).  It acts on the markings as follows... blah-blah...
+
+As before, this has an [[sSet]]-[[right adjoint]], the **unstraightening functor**
+
+$$
+  n_\phi :  [C^{op}, sSet^+] \to sSet^+/S 
+  \,.
+$$
+
+
+=--
+
+This functor $Un_\phi$ exhibits the $(\infty,1)$-Grothendieck-construction proper, in that it constructs a [[Cartesian fibration]] from a given $(\infty,1)$-functor:
+
+
 +-- {: .un_theorem}
 ###### Theorem 
 **(presentation of $(\infty,1)$-Grothendieck construction)**
-
 
 This induces a [[Quillen adjunction]]
 
