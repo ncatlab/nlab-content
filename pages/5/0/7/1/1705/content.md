@@ -24,13 +24,20 @@ If the homotopical structure on $C$ extends to that of a (combinatorial) [[model
 
 See also [[localization of a simplicial model category]].
 
+
 ## Hammock localization 
 
 &#8230; (see section 4.1 in the reference below) &#8230;
 
-## Remarks 
+## Properties
 
-If the [[homotopical category]] in question happens to carry the structure of a [[model category]] there are other tools for computing the [[SSet]]-[[hom object]] of the simplicial localization. These are described at [[(infinity,1)-categorical hom-space]]. 
+**Proposition** Up to Dwyer-Kan equivalence --the weak equivalences in the [[model structure on sSet-categories]] -- every simplicial category is the simplicial localization of a [[category with weak equivalences]].
+
+**Proof** This is 2.5 in 
+
+* Dwyer, [[Dan Kan]], _Equivalences between homotopy theories of diagrams_ , Algebraic topologx and algebraic K-theory, (Princeton, N.J. 1983) , Ann. of Math. Stud. 113, Princeton University Press, Princeton, N.J. 1987 .
+
+If the [[category with weak equivalences]] in question happens to carry even the structure of a [[model category]] there exist more refined tools for computing the [[SSet]]-[[hom object]] of the simplicial localization. These are described at [[(∞,1)-categorical hom-space]]. 
 
 ## References 
 
