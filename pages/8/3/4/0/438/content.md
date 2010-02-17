@@ -3,7 +3,7 @@ I was until 2006 a professor of mathematics at the University of Wales Bangor (a
 +--{.query}
 Not offering a maths degree is one thing, but it seems that they don\'t even have a maths *department*! Who teaches basic maths courses to the CS (and chemistry, biology, electronics, ...) majors? &#8212;[[Toby Bartels|Toby]]
 
-In the UK, there are several universities that do not have mathematics departments and in which engineers, computer scientists, physicists and chemists do not get any theoretically based mathematics to speak of. Biologists have traditionally received no mathematics training after the age of 16. (Sometimes it shows and is the bane of the statisticians detailed to teach biology students statistics. Note also that quite a few of the so called 'financial  experts' in the UK have little or no maths. Some do, and I am not saying that they were any better in the causes of the recent crisis!) -[[Tim Porter|Tim]]
+In the UK, there are several universities that do not have mathematics departments and in which engineers, computer scientists, physicists and chemists do not get any theoretically based mathematics to speak of. Biologists have traditionally received no mathematics training after the age of 16. (Sometimes it shows and is the bane of the statisticians detailed to teach biology students statistics, and don't mention psychology students! Note also that quite a few of the so called 'financial  experts' in the UK have little or no maths. Some do, and I am not saying that they were any better in the causes of the recent crisis!) -[[Tim Porter|Tim]]
 
 
 
