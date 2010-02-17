@@ -91,7 +91,7 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+  <marker refX="8" orient="auto" markerHeight="10" markerWidth="10" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
    <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
   </marker>
  </defs>
@@ -105,7 +105,7 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
     </msub>
    </math>
   </foreignObject>
-  <foreignObject height="24" width="48.000002" font-size="24" id="svg_2" y="62" x="174.59999">
+  <foreignObject height="24" width="48" font-size="24" id="svg_2" y="62" x="174.59999">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <msub>
      <mi>E</mi>
@@ -126,7 +126,7 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
     </msub>
    </math>
   </foreignObject>
-  <foreignObject height="24" width="76.999999" font-size="24" id="svg_4" y="145" x="112.625003">
+  <foreignObject height="24" width="77" font-size="24" id="svg_4" y="145" x="112.625">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <mo stretchy="false">[</mo>
     <mi>&#931;</mi>
@@ -135,7 +135,7 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
     <mo stretchy="false">]</mo>
    </math>
   </foreignObject>
-  <foreignObject height="24" width="87.999998" font-size="24" id="svg_5" y="146" x="235.400688">
+  <foreignObject height="24" width="88" font-size="24" id="svg_5" y="146" x="235.40069">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <mo stretchy="false">[</mo>
     <msub>
