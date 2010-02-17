@@ -22,3 +22,5 @@ Confusingly, this dual concept is called a __source__ from $Y$ in $C$, even thou
 
 
 [[!redirects cosink]]
+[[!redirects sinks]]
+[[!redirects cosinks]]
