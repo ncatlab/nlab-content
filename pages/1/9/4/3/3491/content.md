@@ -12,7 +12,7 @@ For ordinary [[categories]] there is the notion of
 
 * [[Grothendieck fibration]] between two categories. 
 
-* and the special case of a [[category fibered in grouopoids]].
+* and the special case of a [[category fibered in groupoids]].
 
 The analog of this for [[quasi-categories]] are
 
@@ -45,11 +45,23 @@ A **trivial fibration** (trivial [[Kan fibration]]) is a morphism that has the [
 
 A morphism with [[left lifting property]] against all Kan fibrations is called **anodyne**.
 
-### Left/Right fibration
+### (Left/)Right fibration
 
-A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **[[left Kan fibration]]** if its has the [[right lifting property]] with respect to all [[horn]] inclusions except the right outer ones.
+A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if its has the [[right lifting property]] with respect to all [[horn]] inclusions except the right outer ones. It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones.
 
-It is a **right fibration** or **[[right Kan fibration]]** if its extends agains all horns except the left outer ones.
+
+$$
+  \array{
+    \Lambda[n]_{k \gt 0} &\to& X
+    \\
+    \downarrow &{}^{\exists}\nearrow& \downarrow
+    \\
+    \Delta[n] &\to& S
+  } 
+  \,.
+$$
+
+Morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right anodyne** maps.
 
 Write
 
@@ -59,14 +71,11 @@ $$
 
 for the full [[SSet]]-[[subcategory]] of the [[overcategory]] of [[SSet]] over $S$ on those morphisms that are right fibrations.
 
-This is a [[Kan complex]]-enriched category and as such an incarnation of the **[[(∞,1)-category]] of right fibrations**. For details on this see the discussion at [[(∞,1)-Grothendieck construction]].
+This is a [[Kan complex]]-enriched category and as such an incarnation of the **[[(∞,1)-category]] of right fibrations**. 
+It is modeled by the [[model structure for left fibrations|model structure for right fibrations]]. For details on this see the discussion at [[(∞,1)-Grothendieck construction]].
 
 
-The morphisms with the [[left lifting property]] against all left/right fibrations are called **left/right anodyne**.
 
-See also
-
-* [[model structure for left fibrations]]
 
 
 ### (co)Cartesian fibration
@@ -90,7 +99,7 @@ see also
 
 ### Categorical fibration
 
-A **[[categorical fibration]]** is a fibration in the [[model structure for quasi-categories]]: morphism $f : X \to S$ with the [[right lifting property]] against all monomorphic _categorical equivalences_ .
+A **categorical fibration** is a fibration in the [[model structure for quasi-categories]]: morphism $f : X \to S$ with the [[right lifting property]] against all monomorphic _categorical equivalences_ .
 
 (HTT, p. 81).
 
@@ -111,7 +120,38 @@ The morphisms with the [[left lifting property]] against all inner fibrations ar
 
 ### Kan fibration
 
-### Left/Right fibration
+### (Left/)Right fibration
+
+The notion of right fibration of quasi-categories generalizes the notion of [[category fibered in groupoids]]. This follows from the following properties.
+
+**Proposition** For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
+
+**Proof** Due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT, prop. 1.2.5.1]].
+
+**Proposition** Right (left) fibrations are preserved by [[pullback]] in [[sSet]]. 
+
+**Corollary** It follows that the fiber $X_c$ of every right fibration $X \to C$ over every point $c \in C$, i.e. the [[pullback]]
+
+$$
+  \array{
+    X_c &\to& X
+    \\
+    \downarrow && \downarrow
+    \\
+    \{c\} &\to& C
+  }
+$$
+
+is a [[Kan complex]].
+
+**Proposiion** For $C$ and $D$ quasi-categories that are ordinary [[categories]] (i.e. simplicial sets that are [[nerve]]s of ordinary categories), a morphism $C \to D$ is a right fibration precisely if the correspunding ordinary [[functor]] exhibits $C$ as a [[category fibered in groupoids]] over $D$.
+
+**Proof** This is [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
+
+
+
+
+
 
 ### (co)Cartesian fibration
 
