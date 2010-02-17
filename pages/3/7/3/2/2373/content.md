@@ -94,6 +94,8 @@
 
 ## Universal constructions
 
+* [[2-limit]]
+
 * [[limit in a quasi-category|(∞,1)-limit]]
 
 * [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
