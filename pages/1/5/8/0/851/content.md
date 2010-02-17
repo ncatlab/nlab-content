@@ -46,7 +46,7 @@ $$
   \,,
 $$
 
-where $Hom_F(...)$ denotes the subset off morphisms of simplicial sets that restricts to $F$ on $K$.
+where $Hom_F(-)$ denotes the subset of morphisms of simplicial sets that restricts to $F$ on $K$.
 
 ## Properties
 
