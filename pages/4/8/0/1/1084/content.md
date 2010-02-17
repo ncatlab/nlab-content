@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-When the [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by a [[model category]] and when all objects involved are cofibrant in this model structure then this may be computed by the ordinary [[colimit]] 
+When the [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by a [[category of fibrant objects|category of cofibrant objects]] (for instance a  [[model category]] with only cofibrant objects) then this may be computed by the ordinary [[colimit]] 
 
 $$
   \array{
