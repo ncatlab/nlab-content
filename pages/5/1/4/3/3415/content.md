@@ -49,7 +49,7 @@ $$
   \,.
 $$
 
-Notice that the right [[derived functor]] $\mathbb{R} Id : (sSet_{Joyal})^\circ \to (sSet_{Quillen})^\circ$ takes a fibrant object on the left -- a [[quasi-category]] -- then does nothing to it but regarding it now as an object in $sSet_{Quillen}$ and then producing its fibrant replacement there, which is [[Kan fibrant replacement]]. This is indeed the operation of _groupoidification_ .
+Notice that the left [[derived functor]] $\mathbb{L} Id : (sSet_{Joyal})^\circ \to (sSet_{Quillen})^\circ$ takes a fibrant object on the left -- a [[quasi-category]] -- then does nothing to it but regarding it now as an object in $sSet_{Quillen}$ and then producing its fibrant replacement there, which is [[Kan fibrant replacement]]. This is indeed the operation of _groupoidification_ .
 
 The other adjunction is given by the following
 
