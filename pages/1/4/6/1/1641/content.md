@@ -111,3 +111,4 @@ The Wikipedia entry on [Category of topological spaces](http://en.wikipedia.org/
 [[!redirects topological concrete categories]]
 [[!redirects topological category]]
 [[!redirects topological categories]]
+[[!redirects topological functor]]
