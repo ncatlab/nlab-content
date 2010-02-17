@@ -36,7 +36,7 @@ This condition is internalized homotopically in the category of spaces to get th
 
 A **Segal space** $X_\bullet$
   is a simplicial [[nice topological space]]/[[simplicial set]]
-  $X_\bullet : \Delta^{op} \to Top$ for which for all $m,n \in \mathbb{N}$ the square
+  $X_\bullet : \Delta^{op} \to Top$ which is [[Reedy model structure|Reedy fibrant]] and for which for all $m,n \in \mathbb{N}$ the square
 
 $$
   \array{
