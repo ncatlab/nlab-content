@@ -539,7 +539,7 @@ $$
 <svg width="450" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="10" markerHeight="10" orient="auto" refX="8">
    <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
   </marker>
  </defs>
@@ -1163,4 +1163,4 @@ precisely the combinatorial factor which people found makes the Yetter state sum
 [[!redirects exercise in groupoidification -- the path integral]]
 
 
-[[!redirects An Exercise in Groupoidification
+[[!redirects An Exercise in Groupoidification]]
