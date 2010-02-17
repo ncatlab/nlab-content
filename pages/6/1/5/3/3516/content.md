@@ -53,6 +53,15 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
 </svg>
 </center>
 
+## Examples
+
+* Any [[topological functor]] is solid.  Indeed, a functor $U$ is topological just when it has final lifts for all $U$-structured sinks, where a *final lift* is a semi-final lift for which $g$ is an isomorphism.
+
+* Any [[monadic functor]] into $Set$ is solid.
+
+* If $U\colon A\to X$ is faithful and has a left adjoint, and moreover $A$ is [[cocomplete category|cocomplete]] and [[well-powered category|well-copowered]], then $U$ is solid.
+
+
 ## Properties
 
 ### Left adjoint
@@ -67,13 +76,43 @@ Suppose that $U\colon A\to X$ is solid and let $F\colon D\to A$ be a diagram suc
 Therefore, if $A$ is solid over $X$, then it admits all colimits which $X$ does.  Moreover, if we understand colimits in $X$, and we understand the semi-final lifts, then we understand colimits in $A$.
 
 
-## Examples
+### Lifting of model structures
 
-* Any [[topological functor]] is solid.  Indeed, a functor $U$ is topological just when it has final lifts for all $U$-structured sinks, where a *final lift* is a semi-final lift for which $g$ is an isomorphism.
+The standard *transfer theorem* for [[model category|model structures]] states that if $U\colon A\to X$ is a functor such that
 
-* Any [[monadic functor]] into $Set$ is solid.
+1. $U$ has a left adjoint $F$,
+1. $U$ is [[accessible functor|accessible]], i.e. preserves $\kappa$-[[filtered colimits]] for sufficiently large $\kappa$,
+1. $X$ has a cofibrantly generated model structure, and
+1. A sufficiently large [[transfinite composition]] of [[pushouts]] of images under $F$ of generating acyclic cofibrations in $X$ becomes a weak equivalence under applying $U$ (the *acyclicity condition*),
 
-* If $U\colon A\to X$ is faithful and has a left adjoint, and moreover $A$ is [[cocomplete category|cocomplete]] and [[well-powered category|well-copowered]], then $U$ is solid.
+then $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.  Using an argument of [[Thomas Nikolaus]] we can show:
+
++-- {: .un_theorem}
+###### Theorem
+Let $U\colon A\to X$ be an accessible solid functor, and assume that $X$ has a cofibrantly generated model structure and the following acyclicity condition:
+
+* If $U(a) \to x$ is an acyclic cofibration in $X$, then its semifinal lift $x\to U(b)$ is also an acyclic cofibration.
+
+Then the transfer theorem applies, so that $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.
+=--
++-- {: .proof}
+###### Proof
+We have remarked above that $U$ has a left adjoint, and we assumed it to be accessible, so it remains to show that the given acyclicity condition implies the standard one.  Accessibility implies that $U$ preserves sufficiently large transfinite composites, and therefore since acyclic cofibrations in $X$ are closed under transfinite composition, it suffices to verify that pushouts in $A$ of images under $F$ of generating acyclic cofibrations become acyclic cofibrations upon applying $U$.
+
+Let $i\colon x\to y$ be a generating acyclic cofibration, and
+$$\array{F(x) & \overset{f}{\to} & a\\
+  ^{F (i)}\downarrow \\
+  F(y)}$$
+a diagram in $A$ of which we would like to take the pushout.  Consider the pushout of the corresponding diagram in $X$:
+$$\array{x & \overset{\bar{f}}{\to} & U(a)\\
+  ^{i}\downarrow && \downarrow^g\\
+  y& \underset{h}{\to} & U(a) \sqcup_{x} y.}$$
+Since $X$ is a model category, $g$ is an acyclic cofibration.  Therefore, if $U(a) \sqcup_x y \overset{k}{\to} U(b)$ is a semifinal lift of the singleton sink $\{g\}$, by assumption, $k$ is also an acyclic cofibration and thus so is the composite $U(a)\to U(b)$.  But it is straightforward to verify that in fact, the map $a\to b$ of which this is the image (which exists by assumption) gives a pushout diagram in $A$:
+$$\array{F(x) & \overset{f}{\to} & a\\
+  ^{F(i)}\downarrow && \downarrow\\
+  F(y) & \underset{\bar{h}}{\to} & b.}$$
+This completes the proof.
+=--
 
 
 ## References
