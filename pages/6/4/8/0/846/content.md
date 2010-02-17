@@ -28,26 +28,46 @@ If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and 
 
 ## Definition
 
-The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite totally ordered sets. 
+The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite [[total order|totally ordered]] [[set]]s, _including_ the [[empty set]], which we write in this context as
 
-The operation of addition of natural numbers extends to give the **ordinal sum** which gives the structure of a [[monoidal category]] to $\Delta_a$ (for details see the discussion in the entry 
-[[simplex category]]).
+$$
+  [-1] :=  \emptyset
+$$
 
+so that then
 
-Using the ordinary notation for the objects of the simplex category, this product acts as
+$$
+  [0] = *
+$$
+
+is the singleton set, as usual and
+
+$$
+  [1] = \{ 0 \lt 1\}
+$$
+
+and so on.
+
+This counting is off by one compared to the [[cardinality]] of these sets. The monoidal structure on $\Delta_a$ that we are interested in now is the **addition of cardinalities**. In terms of the counting off by one this reads
+
+$$
+  ([n], [m]) \mapsto [n + m + 1]
+  \,.
+$$
+
+This operation extends to give the **ordinal sum** structure of a [[monoidal category]] on $\Delta_a$ (for details see the discussion in the entry[[simplex category]]) whose product operation is
 
 $$
   \otimes_{join}: \Delta_a \times \Delta_a \to \Delta_a
 $$
 $$
   ([n], [m]) \mapsto [n + m + 1]
-  \,,
+  \,.
 $$
 
-where $[n] := (0 \to 1 \to \cdots \to n)$, $n \in \mathbb{N}$  is the totally ordered set with $n$-elements, as usual. 
 
 
-Now, via the general process of [[Day convolution]], this monoidal structure on $\Delta_a$ is lifted to a monoidal structure on presheaves on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
+Now, via the general process of [[Day convolution]], this monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
 
 $$
   \otimes_{join} : ASSet \times ASSet \to ASSet
@@ -81,29 +101,32 @@ $$
 In this form, the join is used
 in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] 
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+for the definition of the [[join of quasi-categories]]. 
 
 
-## Some history
-
-(please augment this?)
-
-This join was studied by P. J. Ehlers, in his thesis
-
-_Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
-University of Wales Bangor, (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
-
-but was there ascribed to Jack Duskin and Don van Osdol in some unpublished notes.  The main ideas were derived there from earlier work by Bill Lawvere.
 
 
 ## References
+
+(please augment this?)
+
+The join operatoin was studied by P. J. Ehlers, in his thesis
+
+* _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
+University of Wales Bangor, (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
+
+but was there ascribed to [[Jack Duskin]] and [[Don van Osdol]] in some unpublished notes.  The main ideas were derived there from earlier work by [[Bill Lawvere]].
+
+A useful reference is
 
 * P. J. Ehlers and [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44
 ([arXiv](http://arxiv.org/abs/math.CT/9904039)) .
 
 A useful discussion emphasizing the Day convolution operation is also in section 3.1 of
 
-* Dominic Verity, _Weak complicial sets I_ ([arXiv](http://arxiv.org/abs/math/0604414))
+* [[Dominic Verity]], _Weak complicial sets I_ ([arXiv](http://arxiv.org/abs/math/0604414))
 
 +--{: .query}
 [[Tim Porter]]:  I find the initial definition given here VERY confusing. By saying the objects of $\Delta_a$ can be identified with finite sets of cardinality $0$, $1$, $2$ ... . Of course that is true, but by saying it, the ordinal property of the objects is lost.  No explicit mention of that property is made.  Perhaps I am missing something ??? The nature of the monoidal operation as being derived from 'ordinal sum' seems to be obscured here.  I have not tried to edit it as I fear that I might disturb some insight that is important from that other point of view.
