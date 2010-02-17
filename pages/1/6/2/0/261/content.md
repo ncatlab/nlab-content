@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Simplicial sets generalize the idea of [[simplicial complex]]es: a _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
 
@@ -13,7 +13,7 @@ More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \
 
 One of the main uses of simplicial sets is as combinatorial _models_ for [[topological spaces]]. They can also be taken as models for [[∞-groupoids]]. This is encoded in the [[model structure on simplicial sets]].
 
-#Definition#
+## Definition
 
 A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a functor $X : \Delta^{op} \to Sets$.
 
@@ -21,9 +21,9 @@ This is, of course, a [[simplicial object]] in the category [[Set]] of sets.
 
 With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial sets form the category [[SimpSet]] (also called $SSet$ or $sSet$).
 
-#Remarks#
+## Remarks
 
-## simplicial sets as spaces built of simplices ##
+### Simplicial sets as spaces built of simplices
 
 * The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the **set of $n$-simplices** in this space, hence the way of mapping a standard $n$-simplex into this spaces.
 
@@ -42,7 +42,7 @@ With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial 
 * The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations -- the [[simplicial identities]] -- dual to those  spelled out at [[simplex category]].
 
 
-## Visualisation
+### Visualisation
 (based on [[cubical set]])
 
 The **face maps**  go from sets $S_{n+1}$ of $(n+1)$-dimensional simplices to the corresponding set $S_{n}$ of $n$-dimensional simplices and can be thought of as sending each simplex in the simplicial set to one of its faces, for instance for $n=1$ the set $S_2$ of 2-simplices would be sent in three different ways by three different face maps to the set of $1$-simplices, for instance one of the face maps would send
@@ -121,7 +121,7 @@ $$
 
 Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin (notice however that a simplicial set by itself is not equipped with a notion of composition of simplices. If it were, we'd call it a [[simplicial category]]).
 
-#Examples#
+## Examples
 
 * Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, which we typically write as $\Delta[n]$ is an example of a simplicial set. By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
 
@@ -137,11 +137,11 @@ called the **simplicial singular complex** of $X$. This simplicial set is always
 
 * A [[symmetric set]] is a simplicial set equipped with additional *transposition maps* $t^n_i: X_n \to X_n$ for $i=0,\ldots,n-1$.  These transition maps generate an [[action]] of the [[symmetric group]] on $X_n$ and satisfy certain commutation relations with the face and degeneracy maps.
 
-#The category of simplicial sets#
+## The category of simplicial sets
 
 Like all categories of [[presheaf|presheaves]] on a [[small category]], the [[category]] [[SimpSet]] of simplicial sets is complete and cocomplete (with [[limits]] and [[colimits]] constructed levelwise) and [[cartesian closed category|cartesian closed]]. In fact, like all [[presheaf|presheaf categories]], it is a [[topos]]. 
 
-### monoidal structure ##
+#### Monoidal structure
 
 As described at [[closed monoidal structure on presheaves]]
 the cartesian tensor product $S \otimes T = S \times T$ of simplicial sets $S$ and $T$ is the simplicial set
@@ -164,7 +164,7 @@ $$
 where on the right the cartesian product is in the [[nice category of spaces|nice category]] of compactly generated Hausdorff spaces.
 =--
 
-## closed structure ##
+### Closed structure
 
 As described at [[closed monoidal structure on presheaves]]
 the [[internal hom]]  $[S,T]$ of simplicial sets is the simplicial set
@@ -175,7 +175,7 @@ $$
 where $\Delta[n] = Hom_{\mathbf{\Delta}}(-,[n])$ is the standard simplicial $n$-[[simplex]], the image of $[n] \in \mathbf{\Delta}$ under the [[Yoneda embedding]]. This formula is clearly representing a Kan extension. 
 
 
-# Adjunctions #
+## Adjunctions 
 
 The maps $N: \Cat \rightarrow \Simp\Set$ and $S: \Top \rightarrow \Simp\Set$ described in the examples are actually functors, both of which have left adjoints. These adjoint pairs are examples of a very general sort of adjunction involving simplicial sets, of which there are many examples.
 
@@ -183,7 +183,7 @@ Let $E$ be any cocomplete category and let $F: \Delta \rightarrow E$ be a functo
 
 The left adjoint $L$ is defined to be the left [[Kan extension]] of $F$ along the Yoneda embedding $y: \Delta \rightarrow \Simp\Set$. Because the $y$ is full and faithful, we will have $Ly = F$, i.e., $L (\Delta[n]) = F[n]$. By specifying $F$, we have already defined a functor to $E$ on the represented simplicial sets; $L$ is the unique cocontinuous extension of this functor to $\Simp\Set$. It can be described explicitly on objects as a [[end|coend]], or as a [[weighted limit|weighted colimit]].
 
-(Easy) abstract nonsense shows that $L$ and $R$ form an adjoint pair $L \dashv R$.
+(Easy) [[category theory|abstract nonsense]] shows that $L$ and $R$ form an [[adjunction|adjoint pair]] $L \dashv R$.
 
 Here are some examples:
 
@@ -195,25 +195,18 @@ Here are some examples:
 
 * The [[homotopy coherent nerve]] functor and its left adjoint $\Simp\Set \leftrightarrow \Simp\Cat$ where [[SimpCat]] denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $\Simp\Set$.
 
-+-- {: .query}
-[[Tim Porter|Tim]]: What is the reference for this simplicial nerve? (I do not like that terminology.)  Is it what I would call the homotopy coherent nerve (as explicitly first introduced by Cordier)? If so it needs an entry for itself.
-
-[[Urs Schreiber|Urs]]: I guess it should be the notion introduced in 
-
-* Cordier, J. M. Sur la notion de diagramme homotopiquement coh&#180;erent. Cahiers Top. et Geom. Diff.
-XXIII 1, 1982, 93-112.
-
-Over at [[geometric ∞-function theory]] I am asking for an entry titled [[simplicial nerve of simplicial categories]]. Likely not a good term either. I took "simplicial nerve" from [section 1.1.5, p. 26](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=26) of [[Higher Topos Theory|HTT]].
-
-=--
-
 * The adjunction $- \times X: \SimpSet \leftrightarrow \SimpSet :(-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $\Simp\Set$ into a [[cartesian closed category]].
 
-#Related concepts#
+## Related concepts
+
+* [[simplicial group]]
+
+* [[bisimplicial set]]
 
 * [[dendroidal set]]
 
-#References#
+
+## References
 
 A pedagogical introduction to simplicial sets is
 
