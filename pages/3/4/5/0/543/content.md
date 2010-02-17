@@ -23,7 +23,7 @@ If the composition in the linear $A_\infty$-category does happen to be strictly 
 
 In what is strictly speaking a restrictive sense -- which is however widely and conventionally understood in [[homological algebra]] as the standard notion of $A_\infty$-category (see references below) -- the [[hom-space]]s of an $A_\infty$-category are taken to be linear spaces, i.e. [[module]]s over some [[ring]] or [[field]], and in fact [[chain complex]]es of such modules.
 
-Therefore an $A_\infty$-category in this standard sense of [[homological algebra]] is a category which is in some way [[homotopical enrichment|homotopically enriched]] over a [[category of chain complexes]] $Ch$. Since a category which is [[enriched category|enriched]] in the ordinary sense of [[enriched category theory]] is a [[dg-category]], there is a close relation between $A_\infty$-categories and [[dg-category|dg-categories]].
+Therefore an $A_\infty$-category in this standard sense of [[homological algebra]] is a category which is in some way [[homotopical enrichment|homotopically enriched]] over a [[category of chain complexes]] $Ch$. Since a category which is [[enriched category|enriched]] in the ordinary ?dg? sense of [[enriched category theory]] is a [[dg-category]], there is a close relation between $A_\infty$-categories and [[dg-category|dg-categories]].
 
 
 $A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity-algebra]]. As such they are to [[A-infinity-algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich--Soibelman reference below.
@@ -68,11 +68,14 @@ From a higher dimensional perspective $A_\infty$-categories are weak $\omega$-ca
     * or when dealing with various constructions on dg-categories, for instance certain quotients,
 that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
-* $A_\infty$-[[A-infinity-algebra|algebras]] as $A_\infty$-categories with one object.
+* The [[path space ]] of a topological space $X$
 
 * The [[Fukaya category]] $Fuk(X)$ of a topological space $X$
 
+* $A_\infty$-[[A-infinity-algebra|algebras]] as $A_\infty$-categories with one object.
+
 * The [[loop space]] $\Omega{X}$ of a topological space $X$
+
 
 
 ## More general $A_\infty$-categories ##
@@ -81,11 +84,12 @@ In the widest sense, "$A_\infty$-category" may be used as a term for a category 
 
 One should be aware, though, that this use of the term is not understood by default in the large body of literature concerned with the above linear notion.
 
+A less general but non-linear definition is fairly straight forward in any category in which there is a notion of _homotopy_ with the usual properties.
 +-- {: .un_defn}
 ###### Definition
 
 An $A_\infty$-category is a [[category over an operad|category over]]
-the $A_\infty$-[[A-infinity operad|operad]]: the free resolution 
+the $A_\infty$-[[A-infinity operad|operad]]: e.g. the free resolution 
 in the context of dg-operads of the linear associative operad.
 =--
 
@@ -119,7 +123,7 @@ A very detailed treatment of $A_\infty$-categories is a recent book
 
   * notice: the ps.gz file has different page numbers than the printed version, but the numbering of sections and formulae is final. Errata to published version are [here](http://www.math.ksu.edu/~lub/cmcMoCor.pdf).
 
-The relation of $A_\infty$-categories to [[differential graded algebra]] is emphasized in the introduction of
+The relation of $A_\infty$-categories to [[differential graded algebra]]s is emphasized in the introduction of
 
 * Maxim Kontsevich, Yan Soibelman, _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_ ([arXiv](http://arxiv.org/abs/math/0606241))
 
