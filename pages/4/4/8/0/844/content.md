@@ -28,7 +28,7 @@ Two different definitions are used in the literature, which are equivalent with 
      }
    $$
 
-   modeled concretely as the ordinary [[colimit]]
+   modeled (since the [[model structure for quasi-categories]] is a [[category of fibrant objects|category of cofibrant objects]], see [[mapping cone]]) concretely as the ordinary [[colimit]]
 
    $$
      \array{
