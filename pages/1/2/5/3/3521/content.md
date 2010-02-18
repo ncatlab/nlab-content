@@ -25,3 +25,13 @@ The map $d_{last} : Dec\, Y \to Y$, is a fibration, and in particular, in the si
 $$NG_1/d_2(NG_2)\to NG_0,$$
 
 which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$.
+
+## Literature
+
+The notion of decalage is widely appearing since the paper introducing the method of [[cohomological descent]] in [[Hodge theory]]:
+
+* Pierre Deligne, _Th&#233;orie de Hodge. III_, Inst. Hautes &#201;tudes Sci. Publ. Math. __44__ (1974), 5--77. 
+
+An application in theory of stacks is in
+
+* Anders Kock, _The stack quotient of a groupoid_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, __44__ no. 2 (2003), p. 85--104 [numdam](http://www.numdam.org/item?id=CTGDC_2003__44_2_85_0)
