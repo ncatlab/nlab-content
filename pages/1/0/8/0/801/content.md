@@ -5,7 +5,7 @@
 
 ## Idea
 
-One sense of the term **homotopy type** is that is refers to a [[topological space]] 'considered up to' [[weak homotopy equivalence]].  
+One sense of the term **homotopy type** is that is refers to a [[topological space]] 'considered up to' [[weak homotopy equivalence]].  (This is **weak homotopy type** in some terminology. The two ideas coincide for CW complexes.)
 
 More precisely, weak homotopy equivalences between spaces give an equivalence relation on the class of topological spaces, and referring to a _homotopy type_ means that you are to consider properties of a space that are shared by any of the spaces weakly equivalent to it and thus in that equivalence class.  In this expanded sense, therefore, a **homotopy type** is such a weak equivalence class of spaces. Using the terminology from [[homotopy category]], two spaces _have the same homotopy type_ if they are isomorphic in $\mathit{Ho}(\Spaces)$. 
 
@@ -17,7 +17,7 @@ By standard theorems, homotopy types can also be 'modeled' by many other structu
 
 In most cases the tools of [[homotopy theory]], in particular [[model category|model categories]], can be used to establish these equivalences.
 
-The sense of 'modeled' is related to Whithead's [[algebraic homotopy theory]]. A setting such as those above acts as a model for homotopy types if there are comparison functors between $\Spaces$ and the category, and some notion of homotopy within the category yielding an equivalence of [[homotopy category|homotopy categories]]. 
+The sense of 'modeled' is related to Whithead's [[algebraic homotopy|algebraic homotopy theory]]. A setting such as those above acts as a model for homotopy types if there are comparison functors between $\Spaces$ and the category, and some notion of homotopy within the category yielding an equivalence of [[homotopy category|homotopy categories]]. 
 
 ## Discussion
 
