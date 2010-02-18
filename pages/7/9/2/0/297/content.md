@@ -69,7 +69,7 @@ There the notion of 2-dimensional [[conformal field theory]] is axiomatized as a
 A very concrete construction of functorial CFTs (for the special case of _rational_ CFTs) is provided by the 
 [[FFRS-formalism]].
 
-##Extended (multi-tiered) FQFT##
+##Extended (multi-tiered) FQFT {#Extended}
 
 But one notices that the formalization of quantum field theory as a [[functor]] on [[cobordism]]s encodes only a small aspect of the full sewing law imagined to be satisfied by the path integral: In a 1-[[category]] of $n$-dimensional [[cobordism]]s these are glued along $(n-1)$-dimensional boundaries. One could imagine more generally a formalization where a given [[cobordism]] is allowed to be chopped into arbitrary parts of arbitrary co-dimension such that the path integral can still consistently be evaluated on each of these parts.
 
