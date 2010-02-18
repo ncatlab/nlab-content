@@ -1,4 +1,3 @@
-
 #Definition#
 
 
@@ -12,6 +11,11 @@ A [[stack]] $X$ is **geometric** if
 
   * a [[representable morphism of stacks]].
 
+
+
+A discussion in the context of [[geometric context]]s and ordinary [[stack]]s is here:
+
+* [[Bertrand Toen]], _Master Course on Stacks_ (http://www.math.univ-toulouse.fr/~toen/m2.html)
 
 #Higher categorical version#
 
