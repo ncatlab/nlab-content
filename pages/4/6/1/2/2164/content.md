@@ -10,13 +10,13 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 An _infinitesimal quantity_ is supposed to be a quantity that is infinitely small in size, yet not necessarily perfectly small (zero).  An _infinitesimal space_ is supposed to be a space whose extension is infinitely small, yet not necessarily perfectly small (pointline). 
 
 Infinitesimal objects have been conceived and used in one way or other for a long time, notably in [[algebraic geometry]], where [[Grothendieck]] emphasized the now familiar role of [[duality|formal dual]]s ([[affine scheme]]s) of commutative rings $R$ with nilpotent ideals $J\subset R$ as _infintitesimal thickenings_ of the formal dual of the quotient ring $R/J$.
 
-## formalization in synthetic differential geometry ##
+### Formalization in synthetic differential geometry 
 
 A proposal for formalizing the [[category theory|abstract nonsense]] behind the notion of the _infinitesimal_ such that these algebraic constructions become _models_ for more general axioms was given by [[William Lawvere]] in his 1967 lecture (see the references below).
 
@@ -26,7 +26,7 @@ If the [[topos]] in question furthermore is equipped with a [[lined topos|line o
 
 The notion of infinitesimal object and infinitesimal space then makes sense in any [[smooth topos]], and may be reasoned about generally for all smooth toposes. In any concrete [[Models for Smooth Infinitesimal Analysis|model]] for the axioms there will accordingly be concrete realizations of these infinitesimal objects.
 
-## realizations in algebraic geometry ##
+### Realizations in algebraic geometry 
 
 Notably, for instance the [[Grothendieck topos]] of [[presheaf|presheaves]] on the [[opposite category]] $k CAlg^{op}$ of that of commutative $k$-[[algebra]]s (over some [[field]] $k$) is a simple realization of a [[smooth topos]] (see for instance [Kock-SGM, section 93](http://home.imf.au.dk/kock/SGM-final.pdf)). This topos and its variants and in particular their [[category of sheaves|sheaf]]-[[localization]]s provide the context in which [[algebraic geometry]] takes place.
 
@@ -36,7 +36,7 @@ The vast majority of existing work on infinitesimals and infinitesimal neighbour
 
 Similar infinitesimal thickenings also appear in the [[noncommutative geometry]] of Kapranov, and in the language of [[abelian category|abelian categories]] of [[quasicoherent sheaf|quasicoherent sheaves]] in the work of Lunts and Rosenberg on regular [[differential operator]]s in the content of [[noncommutative geometry]], which strongly takes into account [[tensor product]]s.
 
-## comparison to infinitesimals in nonstandard analysis ##
+### Comparison to infinitesimals in nonstandard analysis 
 
 Another notion of infinitesimals has been has arisen in the context of [[nonstandard analysis]]. The infinitesimal quantities considered there differ from the general ones in [[synthetic differential geometry]] in that they are all _invertible_ (their inverses being "infinitely large").   Nevertheless, one can construct models of [[synthetic differential geometry]] which, in addition to nilpotent infinitesimals, contain invertible infinitesimals; see for instance [[Models for Smooth Infinitesimal Analysis|MSIA, chapters VI and VII]].  Such invertible infinitesimals can be applied in some of the same ways as the infinitesimals of nonstandard analysis.
 
@@ -45,9 +45,9 @@ However, as pointed out in MSIA (intro. to Chapter VII), "there are some obvious
 The construction of models for nonstandard analysis does, however, have a topos-theoretic description, using [[filterpower]]s.
 
 
-# Definition #
+## Definition 
 
-## atomic object ##
+### Atomic object 
 
 +-- {: .un_defn}
 ###### Definition (Lawvere)
@@ -101,7 +101,7 @@ So only if $\Sigma$ qualifies as having infinitesimal extension can the functor 
 =--
 
 
-## formal infinitesimal space ##
+### Formal infinitesimal space 
 
 +-- {: .un_def}
 ###### Definition **(formal infinitesimal space)**
@@ -129,10 +129,10 @@ All the spaces that are described as collection of degree $n$ infinitesimal neig
 
 
 
-# Examples #
+## Examples 
 
 
-## infinitesimal intervals ##
+### Infinitesimal intervals 
 
 There are several different objects that one may think 
 of as an infinitesimal interval. 
@@ -159,9 +159,9 @@ a map $f : \mathbb{R} \to \mathbb{R}$ along $\Lambda_0 \hookrightarrow \mathbb{R
 produces the [[germ]] of $f$ at $0$. 
 
 
-## the standard infinitesimal interval ##
+### The standard infinitesimal interval 
 
-### models ###
+#### Models
 
 The classical example of a realization of an infinitesimal object is in terms of what is (traditionally but undescriptively) called the _ring of [[dual number]]s_. For that we place ourselves in some context in which [[space]]s are characterized [[duality|dually]]
 in terms of the [[space and quantity|quantities]] on them, i.e. in terms of their would-be function algebras. 
@@ -229,7 +229,7 @@ $$
 of all functions on the real line, modulo those that are a product with the function $x \mapsto x^2$.
 =--
 
-This does reproduce the above ring of dual numbers due to _Hadamard's lemma_, which says that for $g \in C^\infty(\mathbb{R})$ a smooth function, there exists
+This does reproduce the above ring of dual numbers due to the [[Hadamard lemma]], which says that for $g \in C^\infty(\mathbb{R})$ a smooth function, there exists
 a smooth function $h \in C^\infty(\mathbb{R})$ such that for all $x \in \mathbb{R}$
 we have $g(x) = g(0) + x g'(x) + x^2 h(x)$. So modulo $x^2$, every smooth function is in fact
 a polynomial function. 
@@ -248,7 +248,7 @@ from writing them up in this way instead of in the more wide-spread way of
 differential calculus.
 
 
-### axiomatics ###
+#### Axiomatics
 
 More generally, one may abstract the above properties of concrete realizations
 of the infinitesimal interval such as to get such a notion in an arbitrary suitable
@@ -291,7 +291,7 @@ of $R$, such that $U \to R \stackrel{(-)^2}{\to} R$ is the $0$ element
 of $R$ with domain of definition $U$ : $\cdots = U \to 0 \to R$.
 
 
-## the cartesian product of infinitesimal intervals ##
+### The cartesian product of infinitesimal intervals 
 
 This works analogously to how the $k$-[[cube]] is the $k$-fold [[cartesian product]]
 $D^k$ of the [[unit interval]] $[-1,1]$ with itself.
@@ -310,7 +310,7 @@ $$
 =--
 
 
-## the $k$-dimensional infinitesimal interval ##
+### The $k$-dimensional infinitesimal interval
 
 +-- {: .un_defn}
 ###### Definition
@@ -341,14 +341,14 @@ is still in $D$ precisely if $(d_1,d_2)$ is in $D(2)$.
 =--
 
 
-## the infinitesimal neighbourhood ##
+### The infinitesimal neighbourhood 
 
 For $x \in X$ a point in a manifold, the infinitesimal [[neighbourhood]] $U_p$ is the intersection of all open neighbourhoods of $x$. This is such that the restriction of a function $f : X \to \mathbb{R}$ along the inclusion $U_p \to X$ is precisely the [[germ]] of the function $f$.
 
 All of the infinitesimal spaces above are contained in the corresponding infinitesimal neighbourhood. So this is the "largest" of the infinitesimal spaces discussed here.
 
 
-#References#
+## References
 
 Infinitesimal spaces and their properties were familiar in all
 those areas where spaces are characterized by the algebras of functions on them.
@@ -380,7 +380,7 @@ objects $D$, $D_k$, $D_k(n)$ is in section 1.2 of
 
 * Anders Kock, _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-## atomic spaces ##
+### Atomic spaces 
 
 Details on the right adjoint to the exponentiation functor $(-)^X$ for
 $X$ an infinitesimal object are in appendix 4 of 
@@ -388,7 +388,7 @@ $X$ an infinitesimal object are in appendix 4 of
 * Moerdijk, Reyes, _[[Models for Smooth Infinitesimal Analysis]]_
 
 
-## formally infinitesimal spaces ##
+### Formally infinitesimal spaces 
 
 For formal infinitesimal objects and Weil algebras see 
 
@@ -401,7 +401,7 @@ and chapter I, section 4 and chapter II, theorem 1.13 and onwards in
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal  Analysis]]
 
 
-#Discussion#
+## Discussion
 
 +-- {: .query}
 Do all of the following really involve infinitesimal *objects*?  Or should we move the others to [[infinitesimal quantity]] to clarify that this page is about objects of categories as defined below?  ---Toby
