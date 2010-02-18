@@ -1,4 +1,11 @@
-Five lemma is one of the basic lemmas of homological algebra, useful for example in the construction of the connecting homomorphism in the homology long exact sequence. 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The **five lemma** is one of the basic lemmas of [[homological algebra]], useful for example in the construction of the [[connecting homomorphism]] in the homology [[long exact sequence]]. 
 
 ## Five lemma
 
