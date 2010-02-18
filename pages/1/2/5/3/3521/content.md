@@ -26,6 +26,36 @@ $$NG_1/d_2(NG_2)\to NG_0,$$
 
 which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$.
 
+## Decalage comonad 
+
+Decalage also has an abstract nonsense description as follows. The simplicial category, as a monoidal category $(\Delta, +, 0)$ equipped with the monoid $1$, is the "walking monoid", i.e., is initial among monoidal categories equipped with a monoid. Therefore $\Delta^{op}$ is the walking comonoid; as a result, there is a comonad 
+
+$$- + 1: \Delta^{op} \to \Delta^{op}$$ 
+
+which induces a comonad on simplicial sets whose underlying functor is precisely decalage: 
+
+$$Dec: Set^{\Delta^{op}} \to Set^{\Delta^{op}}$$
+
+The map $d_{last}: Dec \to Id$ is the counit of this comonad. The comonad itself is analogous to a kind of unbiased path space comonad $P$ on $Top$ whose value at a space $X$ is a pullback 
+
+$$\array{
+P X & \to & X^I \\
+\downarrow & & \downarrow eval_0 \\
+|X| & \stackrel{i}{\to} & X
+}$$
+
+where $i$ is the set-theoretic identity inclusion of $X$ equipped with the discrete topology. Thus we have 
+
+$$P X = \sum_{x_0 \in X} P(X, x_0),$$ 
+
+the sum over all possible basepoints $x_0$ of path spaces based at $x_0$. The analogy is made precise by a canonical isomorphism 
+
+$$Dec \circ S \cong S \circ P$$ 
+
+where $S: Top \to Set^{\Delta^{op}}$ is simplicial singularization. 
+
+A $P$-coalgebra partitions $X$ into path components and exhibits contractibility of each component. Similarly, a coalgebra of the decelage comonad exhibits the acyclicity of the underlying simplicial set. 
+
 ## Literature
 
  A reasonably full discussion of the d&#233;calage can be found in Luc Illusie's thesis, 
