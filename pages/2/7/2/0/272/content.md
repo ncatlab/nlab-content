@@ -48,4 +48,4 @@ There is much more literature one should point to here, eventually. For instance
 
 Out of laziness for the moment I point for further references and more background to the introductory section of 
 
-* Urs Schreiber, _AQFT from $n$-functorial QFT_ ([arXiv](http://arxiv.org/abs/0806.1079))
+* [[Urs Schreiber]], _AQFT from $n$-functorial QFT_ , Comm. Math. Phys., ([arXiv](http://arxiv.org/abs/0806.1079))
