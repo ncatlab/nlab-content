@@ -79,17 +79,17 @@ This is definition 8.1, 8.2 in [StabCat](http://arxiv.org/abs/math/0608228)
 
 ## Properties
 
-If $C$ is an $(\infty,1)$-category with finite limits that is a
+* If $C$ is an $(\infty,1)$-category with finite limits that is a
 [[presentable (∞,1)-category]], then the functor $\Omega^\infty : Stab(C) \to C$
 has a [[left adjoint]]
 
-$$
-  \Sigma^\infty : C \to Stab(C)
-  \,.
-$$
+  $$
+    \Sigma^\infty : C \to Stab(C)
+    \,.
+  $$
 
-Prop 15.4 (2) of [StabCat](http://arxiv.org/abs/math/0608228).
+  Prop 15.4 (2) of [StabCat](http://arxiv.org/abs/math/0608228).
 
-
+* stabilization is _not_ in general functorial. It's failure of being functorial, and approximations to it, are studied in [[Goodwillie calculus]].
 
 
