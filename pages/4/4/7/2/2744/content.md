@@ -1,20 +1,89 @@
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 
 Multisymplectic geometry is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
 It encodes aspects of [[n-symplectic manifold]]s. For the moment, see there for further details and references.
 
-In as far as [[symplectic geometry]] encodes [[Hamiltonian mechanics]], multisymplectic geometry may be regarded as resolving the symplectic geometry of the [[Hamiltonian mechanics]] of [[classical field theory]]: the kinematics of an $n$-dimensional field theory may be encoded in an degree $1+n$ higher symplectic form. Roughly the idea is that under a suitable fiber integration this becomes an ordinary symplectic form on the ordinary phase space of the theory.
+In as far as [[symplectic geometry]] encodes [[Hamiltonian mechanics]], multisymplectic geometry may be regarded as resolving the symplectic geometry of the [[Hamiltonian mechanics]] of [[classical field theory]]: the kinematics of an $n$-dimensional field theory may be encoded in an degree $(n+1)$ symplectic form. 
+
+Roughly the idea is that under a suitable fiber integration this becomes an ordinary symplectic form on the ordinary phase space of the theory.
 
 This is similar to, and in fact a special case of, how for instance a [[line bundle]] on a [[loop space]] with a 2-form [[Chern class]] may arise by [[transgression]] from a [[bundle gerbe]] down on the original space, with a 3-form class.
 
 By effectively undoing this implicit transgression in the ordinary [[Hamiltonian mechanics]] of [[classical field theory]], multisymplectic geomtry provides a general framework for a geometric, covariant formulation of [[classical field theory]], where _covariant formulation_ means that spacelike and timelike directions on a given space-time be treated on equal footing. 
 
-# Survey of developments in the field#
+
+
+
+## Extended phase space of a $\sigma$-model {#extended phase space}
+
+An $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $n$-dimensional **paramater space** $\Sigma$ are given by maps 
+
+$$
+  \phi : \Sigma \to X
+$$ 
+
+into some prescribed **target space** $X$. The **configuration space** of fields on $\Sigma$ is therefore some suitable mapping space $[\Sigma,X]$. But for the theory the product space
+
+$$
+  \array{
+       && \Sigma \times X
+      \\
+     & \swarrow && \searrow
+    \\
+    \Sigma &&&& X
+  }
+$$
+
+plays a crucial role and is -- somewhat unfortunately -- often called the **extended configuration space**. 
+
+**Remark** Beware that in low dimensions one often distinguishes between the space of _configurations_ $\Sigma \to X$ and that of _trajectories_ or _histories_ $\Sigma \times \mathbb{R} \to X$. This comes from the case $\Sigma = *$ where for a particle propagating on $X$ the maps $[*,X] \simeq X$ are the possible configurations of the particle at a given parameter times, while maps $[* \times \mathbb{R}, X] = [\mathbb{R}, X]$ are the trajectories. But for the higher dimensional and [[FQFT|extended]] field theories under discussion here, this distinction becomes a bit obsolete and trajectories become just a special case of configurations.
+
+
+The **extended phase space** of such a field theory is the [[cotangent bundle]] $T^*(\Sigma \times X)$ of the product space, equipped with a closed $(n+1)$-form $\omega$.
+
+... blah-blah-blah...
+
+
+### Examples
+
+#### $n=1$
+
+Ordinary point particle mechanics on $X$ describes trajectories $\mathbb{R} \to X$ in $X$, with parameter space $\Sigma = \mathbb{R}$ the real line, thought of as the abstract **worldline** of the particle.
+
+Let $U \to X$ be a local patch of $X$ with canonical coordinates $\{x^i\}$.
+
+The canonical 2-form on the extended phase space in this case is traditionally locally written as
+
+$$
+  \omega|_U = d \alpha|_U = d( p_i \wedge d x_i + H \wedge d t )
+  \,.
+$$
+
+
+... blah-blah-blah...
+
+
+
+#### $n=2$
+
+... blah-blah-blah...
+
+
+### References
+
+* Mark J. Gotay, James Isenberg, Jerrold E. Marsden, Richard Montgomery, _Momentum Maps and Classical Relativistic Fields. Part I: Covariant Field Theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
+
+* [[Carlo Rovelli]], _Covariant hamiltonian formalism for field theory: Hamilton-Jacobi equation on the space $\mathcal{G}$_ ([arXiv:gr-qc/0207043](http://arxiv.org/abs/gr-qc/0207043))
+
+
+## Survey of developments in the field
 
 There is in this sense a covariant form of the [[Legendre transformation]] which associates to every field variable as many conjugated momenta -- the multimomenta -- as there are space-time dimensions. These, together with the field variables, those of $n$-dimensional space-time, and an extra variable, the energy variable, span the multiphase space [1]. For a recent exposition on the differential geometry of this construction, see [2]. Multiphase space, together with a closed, nondegenerate differential $(n+1)$-form, the multisymplectic form, is an example of a multisymplectic manifold [3]. 
 
@@ -32,11 +101,11 @@ The Hamiltonian, infinite dimensional formulation of [[classical field theory]] 
 
 This discussion so far concerns field theories of first order, i.e. where the Lagrangian depends on the fields and their first derivatives. Higher order theories can be reduced to first order ones for the price of introducing auxiliary fields. A direct treatment would involve higher order jet bundles [22]. A definition of the covariant Legendre transform and the multiphase space has been given for this case [3].
 
-#References#
+## References
 
 Much of the above survey and of the following list of references is reproduced from the web-page
 
-* [[Cornelis Mertzlufft-Paufler]], [Multisymplectic geometry](http://www.mertzlufft-paufler.de/multisymplectic_geometry.html)
+* [[Cornelius Mertzlufft-Paufler]], _[Multisymplectic geometry](http://www.mertzlufft-paufler.de/multisymplectic_geometry.html)_
 
 References mentioned above are
 
