@@ -24,11 +24,11 @@ A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
 
   1. finitely generated 
 
-  1. for every open $U$ in the base space (resp. every object $U$ in the base site) there exist a finite $p \in \mathbb{N}$ and a morphism 
+  1. for every open $U$ in the base space (resp. every object $U$ in the base site), every finite $p \in \mathbb{N}$ and every morphism 
 
      $$\mathcal{O}^p|_U\to \mathcal{E}_U$$ 
 
-     of $\mathcal{O}|_U$-modules with a finitely generated [[kernel]]. 
+     of $\mathcal{O}|_U$-modules has a finitely generated [[kernel]]. 
 
 * __finitely presented__ if there is an exact sequence of the form 
 
@@ -72,5 +72,7 @@ A theorem of Serre says that the category of coherent sheaves over a projective 
 * D. O. Orlov, _&#1055;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1085;&#1099;&#1077; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1080; &#1082;&#1086;&#1075;&#1077;&#1088;&#1077;&#1085;&#1090;&#1085;&#1099;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1101;&#1082;&#1074;&#1080;&#1074;&#1072;&#1083;&#1077;&#1085;&#1090;&#1085;&#1086;&#1089;&#1090;&#1080; &#1084;&#1077;&#1078;&#1076;&#1091; &#1085;&#1080;&#1084;&#1080;_ ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=629&what=fullt&option_lang=rus), Russian)  Uspekhi Mat. Nauk  58  (2003),  no. 3(351), 89--172;  Engl. transl. _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys  58  (2003),  no. 3, 511--591.
 
 * V. D. Golovin, _Homology of analytic sheaves and duality theorems_, Contemporary Soviet Mathematics (1989) viii+210 pp. transl. from Russian original &#1043;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1090;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1076;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074;&#1077;&#1085;&#1086;&#1089;&#1090;&#1080;, Moskva, Nauka 1986. (192 pp.)
+
+* [[EGA]] 0.5.3.1
 
 [[!redirects coherent sheaves]]
