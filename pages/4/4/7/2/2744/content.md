@@ -1,10 +1,23 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
 
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-## Idea
+## Idea {#Idea}
+
+
++-- {: .standout}
+
+Multisymplectic geometry is (or should be) to [[symplectic geometry]] as [extended quantum field theory](http://ncatlab.org/nlab/show/FQFT#Extended) is to non-extended [[quantum field theory]]:
+
+in the multisymplectic **extended phase space** of an $n$-dimensional [[classical field theory|field theory]] a state is not just a point, but an $n$-dimensional subspace.
+
+=--
+
 
 **Multisymplectic geometry** is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
 
@@ -53,12 +66,10 @@ In the $\sigma$-model example this is some incarnation of the mapping space $[\S
 
 **Remark.** Beware that in low dimensions one often distinguishes between the space of _configurations_ $\Sigma \to X$ and that of _trajectories_ or _histories_ $\Sigma \times \mathbb{R} \to X$. This comes from the case $\Sigma = *$ where for a particle propagating on $X$ the maps $[*,X] \simeq X$ are the possible configurations of the particle at a given parameter times, while maps $[* \times \mathbb{R}, X] = [\mathbb{R}, X]$ are the trajectories. But for the higher dimensional and [[FQFT|extended]] field theories under discussion here, this distinction becomes a bit obsolete and trajectories become just a special case of configurations.
 
-**Definition.** In the **non-covariant** approach one would try to consider the a [[cotangent bundle]] of the configuration space $\Gamma(E)$ as _phase space_ .
-
-Contrary to that, in the **covariant approach** one considers the much smaller space $E$ instead. This is then called the **covariant configuration space** or **covariant configuration bundle**.
+**Definition.** In the **non-covariant** approach one would try to consider the a [[cotangent bundle]] of the configuration space $\Gamma(E)$ as _phase space_ . Contrary to that, in the **covariant approach** one considers the much smaller space $E$ instead. This is then called the **covariant configuration space** or **covariant configuration bundle**.
 
 
-**Definition** Write $J^1 E \to \Sigma$ for the first order [[jet bundle]] of the configuration space bundle $E \to \Sigma$. Its fiber over $s \in \Sigma$ are equivalence classses of [[germ]]s of [[section]]s at $x$, where two germs are identified if their first derivtive coincide. 
+**Definition** Write $J^1 E \to \Sigma$ for the first order [[jet bundle]] of the configuration space bundle $E \to \Sigma$. Its fiber over $s \in \Sigma$ are equivalence classses of [[germ]]s of [[section]]s at $x$, where two germs are identified if their first derivatives coincide. 
 
 
 ### Covariant phase space
@@ -142,7 +153,7 @@ $$
 
 A field configuration of the [[electromagnetic field]] is a [[line  bundle]] [[connection on a bundle|with connection]] on $\Sigma$. If we assume the corresponding bundle to be trivial, then this is just a [[differential form|1-form]] on $\Sigma$. So in this simplified case we can take
 
-* configuration bundle: T^* \Sigma is the [[cotangent bundle]] of $\Sigma$.
+* configuration bundle: $T^* \Sigma$ is the [[cotangent bundle]] of $\Sigma$.
 
 
 #### Bosonic string propagating on a manifold
@@ -184,7 +195,7 @@ A remarkable fact is that in order to establish a Jacobi identity, the multisymp
 
 Not much is known about the interpretation of Poisson forms of form degree between zero and n-1. However, as $(n-1)$-forms describe vector fields and hence collections of lines [2, 10], and as (certain) functions describe n-vector fields and hence collections of bundle sections [8], it seems natural to speculate that the intermediate forms may be useful for the [[brane]]s of [[string theory]].
 
-The Hamiltonian, infinite dimensional formulation of [[classical field theory]] requires the choice of a spacelike hypersurface ("Cauchy surface") [12] which manifestly breaks the general covariance of the theory at hand. For $(n-1)$-forms, the above mentioned new bracket reduces to the Peierls-deWitt bracket after integration over the spacelike hypersurface [13]. With the choice of a hypersurface, a constraint analysis [14] _&#224; la_ Dirac [15,16] can be performed [17]. Again, the necessary breaking of general covariance raises the need for an alternative formulation of all this [18]; first attempts have been made to carry out a [[Marsden-Weinstein reduction]] [19] for multisymplectic manifolds with symmetries [20]. However, not very much is known about how to quantize a multisymplectic geometry, see [21] for an approach using a path integral.
+The Hamiltonian, infinite dimensional formulation of [[classical field theory]] requires the choice of a spacelike hypersurface ("Cauchy surface") [12] which manifestly breaks the general covariance of the theory at hand. For $(n-1)$-forms, the above mentioned new bracket reduces to the Peierls-deWitt bracket after integration over the spacelike hypersurface [13]. With the choice of a hypersurface, a constraint analysis [14] _&agrave; la_ Dirac [15,16] can be performed [17]. Again, the necessary breaking of general covariance raises the need for an alternative formulation of all this [18]; first attempts have been made to carry out a [[Marsden-Weinstein reduction]] [19] for multisymplectic manifolds with symmetries [20]. However, not very much is known about how to quantize a multisymplectic geometry, see [21] for an approach using a path integral.
 
 This discussion so far concerns field theories of first order, i.e. where the Lagrangian depends on the fields and their first derivatives. Higher order theories can be reduced to first order ones for the price of introducing auxiliary fields. A direct treatment would involve higher order jet bundles [22]. A definition of the covariant Legendre transform and the multiphase space has been given for this case [3].
 
