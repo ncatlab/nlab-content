@@ -28,6 +28,18 @@ which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$.
 
 ## Literature
 
+ A reasonably full discussion of the d&#233;calage can be found in Luc Illusie's thesis, 
+
+*L. Illusie, 1971, _Complexe cotangent et deformations I_, volume 239 of Lecture Notes in Maths , 
+Springer-Verlag. and  1972, _Complexe cotangent et deformations II_, volume 283 of Lecture Notes in 
+Maths , Springer-Verlag. 
+
+It is used in Duskin's Memoir, 
+
+*J. Duskin, 1975, _Simplicial methods and the interpretation of "triple" cohomology_, number 
+163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc.
+
+
 The notion of decalage is widely appearing since the paper introducing the method of [[cohomological descent]] in [[Hodge theory]]:
 
 * Pierre Deligne, _Th&#233;orie de Hodge. III_, Inst. Hautes &#201;tudes Sci. Publ. Math. __44__ (1974), 5--77. 
