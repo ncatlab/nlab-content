@@ -129,6 +129,84 @@ where $\Omega^1(X)$ is the space of 1-forms on $X$, regarded as a bimodule over 
 
 A variation of this example is given by the [[Kähler differentials]]. These provide a **universal derivation** in some sense.
 
+### Derivations of smooth functions
+
+**Proposition** Let $X$ be a [[smooth manifold]] and $C^\infty(X)$ its algebra of smooth functions. Then the morphism
+
+$$
+  Vect(X) \to Der(C^\infty(X))
+$$
+
+that sends a [[vector field]] $v$ to the derivation $v(-) : C^\infty(X) \to C^\infty(X)$ is a bijection.
+
+**Proof** This is true because $C^\infty(X)$ satisfies the [[Hadamard lemma]].
+
+Since every smooth manifold is locally isomorphic $\mathbb{R}^n$, it suffices to consider this case. By the [[Hadamard lemma]] every function $f \in C^\infty(\mathbb{R}^n)$ may be written as
+
+$$
+  f(x) = f(0) + \sum_i x_i g_i(x)
+$$
+
+for smooth $\{g_i \in C^\infty(X)\}$ with $g_i(0) = \frac{\partial f}{\partial x_i}(0)$. Since any derivation $\delta : C^\infty(X) \to C^\infty(X)$ satisfiesthe the Leibniz rule, it follows that
+
+$$
+  \delta(f)(0) = \sum_i \delta(x_i) \frac{\partial f}{\partial x_i}(0)
+  \,.
+$$
+
+Similarly, by translation, at all other points. Therefore $\delta$ is already fixed by its action of the coordinate functions $\{x_i \in C^\infty(X)\}$. Let $v_\delta \in T \mathbb{R}^n$ be the [[vector field]] 
+
+$$
+  v_\delta = = \sum_i \delta(x_i) \frac{\partial}{\partial x_i}
+$$
+
+then it follows that $\delta$ is the derivation coming from $v_\delta$ under $Vect(X) \to Der(C^\infty(X))$.
+
+### Derivations of continuous functions {#DerOfContFuncts}
+
+Let now $X$ be a [[topological space|topological]] [[manifold]] and $C(X)$ the algebra of continuous real-valued functions on $X$. 
+
+**Proposition** The derivations $\delta : C(X) \to C(X)$ are all tivial.
+
+**Proof** Observe that generally every derivation vanishes on the function 1 that is constant on $1 \in \mathbb{R}$. Therefore it is sufficient to show that if $f \in C(X)$ vanishes at $x_0 \in X$ also $\delta(f)$ vanishes att $x_0$, because we may write every function $g$ as $(g  - g(x_0)) + g(x_0)$.
+
+So let $f \in C(X)$ with $f(x_0) = 0$. Then we may write $f$ as a product
+
+$$
+  f = g_1 g_2
+$$
+
+with 
+
+$$
+  g_1 = \sqrt{|f|}
+$$
+
+and
+
+$$
+  g_2 : x \mapsto 
+  \left\{
+   \array{
+      f(x)/\sqrt{|f(x)|} & | f(x) \neq 0
+      \\
+      0 & | f(x) = 0
+   }
+  \right.
+  \,.
+$$
+
+Notice that indeed both functions are continuous. (But even if $X$ is a smooth manifold and $f$ a smooth function, $g_1$ will in general not be smooth.)
+
+But also both functions vanish at $x_0$. This implies that
+
+$$
+  \delta(f)(x_0) = \delta(g_1)(x_0) g_2(x_0) +
+    g_1(x_0) \delta(g_2(x_0)) = 0
+  \,.
+$$
+
+
 
 [[!redirects derivations]]
 [[!redirects Leibniz rule]]
