@@ -6,63 +6,127 @@
 
 ## Idea
 
-
-Multisymplectic geometry is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
-It encodes aspects of [[n-symplectic manifold]]s. For the moment, see there for further details and references.
+**Multisymplectic geometry** is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
 
 In as far as [[symplectic geometry]] encodes [[Hamiltonian mechanics]], multisymplectic geometry may be regarded as resolving the symplectic geometry of the [[Hamiltonian mechanics]] of [[classical field theory]]: the kinematics of an $n$-dimensional field theory may be encoded in an degree $(n+1)$ symplectic form. 
 
-Roughly the idea is that under a suitable fiber integration this becomes an ordinary symplectic form on the ordinary phase space of the theory.
+In this application to physics, multisymplectic geometry is also known as the **covariant symplectic approach** to field theory (e.g. [section 2 here](http://arxiv.org/PS_cache/physics/pdf/9801/9801019v2.pdf#page=18)).
 
-This is similar to, and in fact a special case of, how for instance a [[line bundle]] on a [[loop space]] with a 2-form [[Chern class]] may arise by [[transgression]] from a [[bundle gerbe]] down on the original space, with a 3-form class.
+
+The idea is that under a suitable fiber integration multisymplectic geometry becomes ordinary symplectic form on the ordinary phase space of the theory, similar to, and in fact as a special case of, how for instance a [[line bundle]] on a [[loop space]] with a 2-form [[Chern class]] may arise by [[transgression]] from a [[bundle gerbe]] down on the original space, with a 3-form class.
 
 By effectively undoing this implicit transgression in the ordinary [[Hamiltonian mechanics]] of [[classical field theory]], multisymplectic geomtry provides a general framework for a geometric, covariant formulation of [[classical field theory]], where _covariant formulation_ means that spacelike and timelike directions on a given space-time be treated on equal footing. 
 
 
 
 
-## Extended phase space of a $\sigma$-model {#extended phase space}
+## Extended phase spaces in covariant field theory {#extended phase space}
 
-An $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $n$-dimensional **parameter space** $\Sigma$ are given by maps 
+In this section we describe multisymplectic geometry in its application
+as a description of [[classical field theory]].
+
+### Covariant configuration bundle
+
+Consider [[classical field theory]] over a **parameter space** $\Sigma$. From the point of view of [[FQFT]] $\Sigma$ will be one fixed [[cobordism]] on which we want to understand the (classical) field theory.
+
+We assume that a **field configuration** on $\Sigma$ is a [[section]] 
+$\phi : \Sigma \to E$ of some prescribed [[bundle]] $E \to \Sigma$. 
+
+**Example.** For instance an $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $\Sigma$ are given by maps 
 
 $$
   \phi : \Sigma \to X
 $$ 
 
-into some prescribed **target space** $X$. The **configuration space** of fields on $\Sigma$ is therefore some suitable mapping space $[\Sigma,X]$. But for the theory the product space
+into some prescribed **target space** $X$. This is the case where $E = \Sigma \times X$ is a **trivial [[bundle]]**.
+
+**Remark.** Beware of the standard source of confusion here when correlating this formalism with actual physics: the physical spacetime that we inhabit may be given either by $\Sigma$ or by $X$:
+
+* in the description of the [[quantum mechanics]] of objects propagating _in_ our physical spacetime, subject to forces exerted by fixed background [[gauge field]]s (such as electrons propagating in our particle accelerator, subject to the electromagnetic field in the accelerator tube), physical spacetime is identifid with target space $X$, while $\Sigma$ is the **worldvolume** of the object that propagates through $X$. The _field configurations_ on $\Sigma$ are really the maps $\Sigma \to X$ that determine how the object sits in spacetime.
+
+* in quantum mechanics of fields on spacetime, such as the quantized electromagnetic field in a laser, it is $\Sigma$ which represents physical spacetime, and $X$ is some abstract space, for instance a smooth version of the [[classifying space]] $\mathcal{B}U(1)$, so that a field configuration $\Sigma \to X$ encodes a [[line bundle]] [[connection on a bundle|with connection]] that encodes a configuration of the [[electromagnetic field]].
+
+
+**Definition.** The **configuration space** of the system is the space of all field configurations, hence the space $\Gamma_\Sigma(E)$ of [[section]]s of the [[bundle]] $E$.
+
+In the $\sigma$-model example this is some incarnation of the mapping space $[\Sigma,X]$.
+
+**Remark.** Beware that in low dimensions one often distinguishes between the space of _configurations_ $\Sigma \to X$ and that of _trajectories_ or _histories_ $\Sigma \times \mathbb{R} \to X$. This comes from the case $\Sigma = *$ where for a particle propagating on $X$ the maps $[*,X] \simeq X$ are the possible configurations of the particle at a given parameter times, while maps $[* \times \mathbb{R}, X] = [\mathbb{R}, X]$ are the trajectories. But for the higher dimensional and [[FQFT|extended]] field theories under discussion here, this distinction becomes a bit obsolete and trajectories become just a special case of configurations.
+
+**Definition.** In the **non-covariant** approach one would try to consider the a [[cotangent bundle]] of the configuration space $\Gamma(E)$ as _phase space_ .
+
+Contrary to that, in the **covariant approach** one considers the much smaller space $E$ instead. This is then called the **covariant configuration space** or **covariant configuration bundle**.
+
+
+**Definition** Write $J^1 E \to \Sigma$ for the first order [[jet bundle]] of the configuration space bundle $E \to \Sigma$. Its fiber over $s \in \Sigma$ are equivalence classses of [[germ]]s of [[section]]s at $x$, where two germs are identified if their first derivtive coincide. 
+
+
+### Covariant phase space
+
+
+**Definition** The **covariant phase space** is the multisymplectic manifold 
+
+* whose underlying manifold is the **dual jet bundle** 
+  $(J^1 E)^* \to E$ -- the [[vector bundle]] 
+  over covariant configuration space $E$ whose 
+  fiber at $e \in E_s$ is the set of affine maps 
+
+  $$
+    J_e^1 E \to \Lambda_s^{n+1} \Sigma
+    \,.
+  $$
+
+
+* equipped with the canonical $(n+2)$-form
+
+  $$
+    \omega = d \alpha
+    \,,
+  $$
+
+  where $\alpha$ is the canonical $(n+1)$-form
+
+  ... ... ...
+
+**Example** For the [[sigma-model]] case with $E = X \times \Sigma$ and $\{q^i\}$ coordinates on $X$ and $\{\sigma^s\}$ coordinates on $\Sigma$, the canonical $(n+1)$-form is
 
 $$
-  \array{
-       && \Sigma \times X
-      \\
-     & \swarrow && \searrow
-    \\
-    \Sigma &&&& X
-  }
+  \alpha = \sum_{i,s} p_i^s d q^i \wedge (\iota_{\partial_{\sigma^s}}) d \sigma^1 \wedge \cdots \wedge d \sigma^n
+  +
+  p d \sigma^1 \wedge \cdots \wedge d \sigma^n
 $$
 
-plays a crucial role and is -- somewhat unfortunately -- often called the **extended configuration space**. 
-
-**Remark** Beware that in low dimensions one often distinguishes between the space of _configurations_ $\Sigma \to X$ and that of _trajectories_ or _histories_ $\Sigma \times \mathbb{R} \to X$. This comes from the case $\Sigma = *$ where for a particle propagating on $X$ the maps $[*,X] \simeq X$ are the possible configurations of the particle at a given parameter times, while maps $[* \times \mathbb{R}, X] = [\mathbb{R}, X]$ are the trajectories. But for the higher dimensional and [[FQFT|extended]] field theories under discussion here, this distinction becomes a bit obsolete and trajectories become just a special case of configurations.
-
-
-The **extended phase space** of such a field theory is the [[cotangent bundle]] $T^*(\Sigma \times X)$ of the product space, equipped with a closed $(n+1)$-form $\omega$.
 
 ... blah-blah-blah...
 
 
 ### Examples
 
-#### $n=1$
+#### Bosonic particle propagating on a manifold
 
 Ordinary point particle mechanics on $X$ describes trajectories $\mathbb{R} \to X$ in $X$, with parameter space $\Sigma = \mathbb{R}$ the real line, thought of as the abstract **worldline** of the particle.
+
+* parameter space: $\Sigma = \mathbb{R}$, the **worldline**;
+
+* target space: $X$, some [[manifold]] -- **spacetime**;
+
+* configuration bundle: $(E \to \mathbb{E}) = (\mathbb{R}\times X \to \mathbb{R})$;
+
+* jet bundle: $J^1 E = \mathbb{R} \times T X$ .
+
+for $U \subset E = \mathbb{R} \times X$ a local patch with coordinate functions $\{t, q^i\}$, there are canonically induced coordinates on $J^1 E$ written $\{t,q^i, v^i\}$.
+
+Here a collection of vaues $(q^i_0)$ is a **position** of the particle and $(v^i_0)$ is a **velocity** of the particle. Notice that in this covariant approach these are not positions and velocities "at a given time". Rather, a point in $J^1 E$ specified a parameter time and a corresponding position and velocity.
+
+....
+
 
 Let $U \to X$ be a local patch of $X$ with canonical coordinates $\{x^i\}$.
 
 The canonical 2-form on the extended phase space in this case is traditionally locally written as
 
 $$
-  \omega|_U = d \alpha|_U = d( p_i \wedge d x_i + H \wedge d t )
+  \omega|_U = d \alpha|_U = d( p_i \wedge d q^i + H \wedge d t )
   \,.
 $$
 
@@ -71,19 +135,42 @@ $$
 
 
 
-#### $n=2$
+
+#### Electromagnetism
+
+* parameter space: $\Sigma$ is spacetime;
+
+A field configuration of the [[electromagnetic field]] is a [[line  bundle]] [[connection on a bundle|with connection]] on $\Sigma$. If we assume the corresponding bundle to be trivial, then this is just a [[differential form|1-form]] on $\Sigma$. So in this simplified case we can take
+
+* configuration bundle: T^* \Sigma is the [[cotangent bundle]] of $\Sigma$.
+
+
+#### Bosonic string propagating on a manifold
+
+* parameter space: $\Sigma$ some 2-dimensional manifold -- the **worldsheet** -- for instance $\Sigma = S^1 \times \mathbb{R}$ models
+a closed string propagating without interaction.
+
+* target space. $X$ spacetime;
+
+* covariant configuration bundle $E = \Sigma \times X$.
+
+(more needs to be said here...)
 
 ... blah-blah-blah...
 
 
-### References
+## Relation to $n$-symplectic manifolds
 
-* Mark J. Gotay, James Isenberg, Jerrold E. Marsden, Richard Montgomery, _Momentum Maps and Classical Relativistic Fields. Part I: Covariant Field Theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
+There is also the notion of
 
-* [[Carlo Rovelli]], _Covariant hamiltonian formalism for field theory: Hamilton-Jacobi equation on the space $\mathcal{G}$_ ([arXiv:gr-qc/0207043](http://arxiv.org/abs/gr-qc/0207043))
+* [[n-symplectic manifold]]s. 
+
+Which is different, but related...
+
+....blah-blah....
 
 
-## Survey of developments in the field
+## Survey of developments in the field {#SurveyDevelopments}
 
 There is in this sense a covariant form of the [[Legendre transformation]] which associates to every field variable as many conjugated momenta -- the multimomenta -- as there are space-time dimensions. These, together with the field variables, those of $n$-dimensional space-time, and an extra variable, the energy variable, span the multiphase space [1]. For a recent exposition on the differential geometry of this construction, see [2]. Multiphase space, together with a closed, nondegenerate differential $(n+1)$-form, the multisymplectic form, is an example of a multisymplectic manifold [3]. 
 
@@ -103,7 +190,25 @@ This discussion so far concerns field theories of first order, i.e. where the La
 
 ## References
 
-Much of the above survey and of the following list of references is reproduced from the web-page
+### References
+
+A comprehensive source on covariant field theory with plenty of further references is
+
+* Mark J. Gotay, James Isenberg, Jerrold E. Marsden, Richard Montgomery, _Momentum Maps and Classical Relativistic Fields. Part I: Covariant Field Theory_ ([arXiv:physics/9801019](http://arxiv.org/abs/physics/9801019))
+
+Much of the material in the [section on covariant field theory](#extended phase space) is based on this.
+
+Other texts include
+
+* [[Carlo Rovelli]], _Covariant hamiltonian formalism for field theory: Hamilton-Jacobi equation on the space $\mathcal{G}$_ ([arXiv:gr-qc/0207043](http://arxiv.org/abs/gr-qc/0207043))
+
+
+* xyz...
+
+
+
+
+Much of the above [survey of recent developments](#SurveyDevelopments) and of the following list of references is reproduced from the web-page
 
 * [[Cornelius Mertzlufft-Paufler]], _[Multisymplectic geometry](http://www.mertzlufft-paufler.de/multisymplectic_geometry.html)_
 
