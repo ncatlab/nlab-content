@@ -23,7 +23,7 @@ By effectively undoing this implicit transgression in the ordinary [[Hamiltonian
 
 ## Extended phase space of a $\sigma$-model {#extended phase space}
 
-An $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $n$-dimensional **paramater space** $\Sigma$ are given by maps 
+An $n$-dimensional [[sigma-model]] [[quantum field theory]] is one whose field configurations on $n$-dimensional **parameter space** $\Sigma$ are given by maps 
 
 $$
   \phi : \Sigma \to X
