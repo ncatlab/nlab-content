@@ -195,46 +195,46 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
 <svg width="250" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker refX="8" orient="auto" markerHeight="10" markerWidth="10" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
-   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="10" markerHeight="10" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <foreignObject x="6" y="6" id="svg_1" font-size="16" width="48" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="20" width="48" font-size="16" id="svg_1" y="11.5" x="26">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <msub>
      <mi>a</mi>
      <mi>i</mi>
     </msub>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_2" y="86" x="14">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="30" y="86" id="svg_2" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <msub>
      <mi>a</mi>
      <mi>j</mi>
     </msub>
    </math>
   </foreignObject>
-  <foreignObject x="195" y="7" id="svg_3" font-size="16" width="48" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="20" width="48" font-size="16" id="svg_3" y="9" x="213">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <mi>b</mi>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_4" y="91" x="195">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="212.5" y="89" id="svg_4" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <mi>b</mi>
     <mo>&#8242;</mo>
    </math>
   </foreignObject>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_5" y2="22" x2="205" y1="21" x1="42"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-dasharray="5,5" stroke="#000000" id="svg_6" y2="95" x2="206" y1="31" x1="43"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_7" y2="28" x2="210" y1="96" x1="49"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-dasharray="5,5" stroke="#000000" id="svg_8" y2="101" x2="205" y1="102" x1="50"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-dasharray="2,2" stroke="#000000" id="svg_9" y2="90" x2="216" y1="34" x1="217"/>
-  <foreignObject height="20" width="48" font-size="16" id="svg_10" y="159" x="24">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <line x1="42" y1="21" x2="205" y2="22" id="svg_5" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <line x1="43" y1="31" x2="206" y2="95" id="svg_6" stroke="#000000" stroke-dasharray="5,5" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <line x1="49" y1="96" x2="210" y2="28" id="svg_7" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <line x1="50" y1="102" x2="205" y2="101" id="svg_8" stroke="#000000" stroke-dasharray="5,5" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <line x1="217" y1="34" x2="216" y2="90" id="svg_9" stroke="#000000" stroke-dasharray="2,2" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <foreignObject x="26" y="159" id="svg_10" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <mi>U</mi>
     <mo stretchy="false">(</mo>
     <msub>
@@ -244,8 +244,8 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
     <mo stretchy="false">)</mo>
    </math>
   </foreignObject>
-  <foreignObject id="svg_11" x="20" y="219" font-size="16" width="48" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="20" width="48" font-size="16" y="218" x="26" id="svg_11">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <mi>U</mi>
     <mo stretchy="false">(</mo>
     <msub>
@@ -255,16 +255,16 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
     <mo stretchy="false">)</mo>
    </math>
   </foreignObject>
-  <foreignObject id="svg_19" x="188" y="154" font-size="16" width="48" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="20" width="48" font-size="16" y="154" x="195" id="svg_19">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <mi>U</mi>
     <mo stretchy="false">(</mo>
     <mi>b</mi>
     <mo stretchy="false">)</mo>
    </math>
   </foreignObject>
-  <foreignObject id="svg_27" height="20" width="48" font-size="16" y="220" x="188">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="194" y="219" font-size="16" width="48" height="20" id="svg_27">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <mi>U</mi>
     <mo stretchy="false">(</mo>
     <mi>b</mi>
@@ -272,50 +272,50 @@ Here's a little experiment with the totally awesome all-new, all-singing, all-da
     <mo stretchy="false">)</mo>
    </math>
   </foreignObject>
-  <foreignObject x="105" y="189" id="svg_33" font-size="16" width="48" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="20" width="48" font-size="16" id="svg_33" y="192" x="125">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <mi>X</mi>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_34" y="47" x="203">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="222" y="44.5" id="svg_34" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <mi>h</mi>
    </math>
   </foreignObject>
-  <line x1="69" y1="178" x2="121" y2="199" id="svg_35" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <line x1="69" y1="232" x2="122" y2="209" id="svg_36" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <line x1="141" y1="195" x2="194" y2="172" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)" id="svg_37"/>
-  <line x1="137" y1="205" x2="189" y2="226" stroke="#000000" stroke-dasharray="5,5" fill="none" marker-end="url(#se_arrow_fw)" id="svg_38"/>
-  <line x1="208" y1="180" x2="209" y2="221" id="svg_39" stroke="#000000" stroke-dasharray="2,2" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <foreignObject height="20" width="48" font-size="16" id="svg_40" y="164" x="73">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_35" y2="199" x2="121" y1="178" x1="69"/>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_36" y2="209" x2="122" y1="232" x1="69"/>
+  <line id="svg_37" marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" y2="172" x2="194" y1="195" x1="141"/>
+  <line id="svg_38" marker-end="url(#se_arrow_fw)" fill="none" stroke-dasharray="5,5" stroke="#000000" y2="226" x2="189" y1="205" x1="137"/>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-dasharray="2,2" stroke="#000000" id="svg_39" y2="221" x2="209" y1="180" x1="208"/>
+  <foreignObject x="89" y="167" id="svg_40" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <msub>
      <mi>f</mi>
      <mi>i</mi>
     </msub>
    </math>
   </foreignObject>
-  <foreignObject id="svg_41" x="72" y="217" font-size="16" width="48" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="20" width="48" font-size="16" y="218" x="90" id="svg_41">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <msub>
      <mi>f</mi>
      <mi>j</mi>
     </msub>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_46" y="162" x="137">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="150" y="164.5" id="svg_46" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <mi>g</mi>
    </math>
   </foreignObject>
-  <foreignObject id="svg_47" x="136" y="213" font-size="16" width="48" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="20" width="48" font-size="16" y="216.5" x="156" id="svg_47">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <mi>g</mi>
     <mo>&#8242;</mo>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="48" font-size="16" id="svg_50" y="185" x="204">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="216" y="184" id="svg_50" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <mi>U</mi>
     <mo stretchy="false">(</mo>
     <mi>h</mi>
