@@ -19,44 +19,146 @@ Let $U\colon A\to X$ be a [[faithful functor]].  A **$U$-structured sink** is a 
 
 Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final lift.
 
-<center>
-<svg width="430" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
++-- {: #SFlift style="text-align:center"}
+<svg width="370" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw1" viewBox="0 0 10 10">
-   <path fill="#000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <polyline se:connector="svg_7 svg_10" marker-end="url(#se_arrow_fw1)" stroke-dasharray="2,2" fill="none" stroke-width="2" stroke="#000" points="314.145,163.797 338.297,185.633 362.449,207.469" id="svg_25"/>
-  <polyline se:connector="svg_8 svg_9" stroke-dasharray="2,2" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="308.656,46.2645 339.672,70.5106 370.688,94.7567" id="svg_24"/>
-  <polyline se:connector="svg_2 svg_9" stroke-dasharray="5,5" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="69.6836,93.271 220.186,97.505 370.688,101.739" id="svg_23"/>
-  <polyline se:connector="svg_3 svg_9" marker-end="url(#se_arrow_fw1)" stroke-dasharray="5,5" fill="none" stroke-width="2" stroke="#000" points="127.594,31.0161 249.141,65.2049 370.688,99.3938" id="svg_22"/>
-  <polyline se:connector="svg_6 svg_10" stroke-dasharray="5,5" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="228.25,188.818 287.188,200.808 346.125,212.799" id="svg_21"/>
-  <polyline se:connector="svg_2 svg_8" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="69.6836,90.9294 182.436,66.6886 295.188,42.4478" id="svg_18"/>
-  <polyline se:connector="svg_6 svg_7" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="228.25,184.678 252.438,174.14 276.625,163.601" id="svg_13"/>
-  <polyline se:connector="svg_4 svg_6" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="92.4688,205.616 153.883,197.011 215.297,188.407" id="svg_12"/>
-  <polyline se:connector="svg_5 svg_6" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="153.969,161.173 184.633,173.079 215.297,184.985" id="svg_11"/>
-  <text transform="matrix(0.949804, 0, 0, 1, 3.21882, 0)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_2" y="102" x="59.2645">ai</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_3" y="35" x="119">aj</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_4" y="217" x="64">U(ai)</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_5" y="157" x="126">U(aj)</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_6" y="194" x="222">x</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_7" y="160" x="302">U(b)</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_8" y="50" x="302">b</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_9" y="111" x="381">b'</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_10" y="226" x="375">U(b')</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-width="0" stroke="#000" fill="#000000" id="svg_14" y="164" x="182">fj</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-width="0" stroke="#000" fill="#000000" id="svg_15" y="215" x="151">fi</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-width="0" stroke="#000000" fill="#000000" id="svg_16" y="170" x="248">g</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-dasharray="2,2" stroke-width="0" stroke="#000000" fill="#000000" id="svg_26" y="219" x="286">g'</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-dasharray="2,2" stroke-width="0" stroke="#000000" fill="#000000" id="svg_27" y="69" x="346">h</text>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-dasharray="2,2" stroke-width="0" stroke="#000000" fill="#000000" id="svg_28" y="184" x="353">U(h)</text>
-  <polyline se:connector="svg_3 svg_8" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#000" points="127.594,29.1101 211.391,34.8254 295.188,40.5407" id="svg_17"/>
+  <foreignObject height="24" width="30" font-size="16" id="svg_1" y="82" x="13">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+     <mi>a</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_19" x="75" y="17" font-size="16" width="30" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <msub>
+     <mi>a</mi>
+     <mi>j</mi>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject height="25" width="48" font-size="16" y="136" x="65" id="svg_32">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>U</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mi>a</mi>
+     <mi>j</mi>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject x="7" y="199" font-size="16" width="48" height="23" id="svg_37">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mi>U</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mi>a</mi>
+     <mi>i</mi>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_45" x="102" y="199" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <msub>
+     <mi>f</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_50" height="26" width="24" font-size="16" y="146" x="132">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <msub>
+     <mi>f</mi>
+     <mi>j</mi>
+    </msub>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_55" height="20" width="20" font-size="16" y="29" x="250">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>b</mi>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_60" x="281" y="42" font-size="16" width="20" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mi>h</mi>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_63" height="24" width="26" font-size="16" y="202" x="231">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+     <mi>g</mi>
+     <mo>&#8242;</mo>
+    </mrow>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_66" x="317" y="86" font-size="16" width="24" height="22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mrow>
+     <mi>b</mi>
+     <mo>&#8242;</mo>
+    </mrow>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_71" x="210" y="150" font-size="16" width="20" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mi>g</mi>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_74" x="248" y="146" font-size="16" width="44" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <mi>U</mi>
+    <mo stretchy="false">(</mo>
+    <mi>b</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_82" height="24" width="46" font-size="16" y="207" x="315">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>U</mi>
+    <mo stretchy="false">(</mo>
+    <mrow>
+     <mi>b</mi>
+     <mo>&#8242;</mo>
+    </mrow>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_88" height="24" width="44" font-size="16" y="170" x="296">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>U</mi>
+    <mo stretchy="false">(</mo>
+    <mi>h</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_108" height="24" width="20" font-size="16" y="176" x="175">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>X</mi>
+   </math>
+  </foreignObject>
+  <line x1="41" y1="90" x2="251" y2="44" id="svg_98" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)" stroke-width="2"/>
+  <line x1="100" y1="37.000001" x2="315" y2="93" id="svg_99" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)" stroke-dasharray="5,5"/>
+  <line x1="99" y1="30" x2="249" y2="37" id="svg_100" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)"/>
+  <line x1="265" y1="46" x2="318" y2="85" id="svg_102" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)" stroke-dasharray="2,2"/>
+  <line x1="109" y1="156" x2="173" y2="183" id="svg_103" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)" stroke-width="2"/>
+  <line x1="58" y1="207" x2="173" y2="190" id="svg_104" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)"/>
+  <line x1="196" y1="191" x2="311" y2="215" id="svg_105" stroke="#000000" fill="none" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)"/>
+  <line x1="279" y1="169" x2="320" y2="205" id="svg_106" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)" stroke-width="2" stroke-dasharray="2,2"/>
+  <path fill="none" stroke="#000000" stroke-width="2" marker-end="url(#se_arrow_fw)" d="m40.000011,98l268.999989,5" id="svg_107"/>
+  <line x1="197" y1="183" x2="250" y2="160" id="svg_111" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
  </g>
 </svg>
-</center>
+=--
 
 ## Examples
 
