@@ -280,3 +280,5 @@ A [[higher category theory|higher categorial]] interpretation of 2-plectic geome
 * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
 This builds a bridge to the notion of [[n-symplectic manifold]]s.
+
+[[!redirects covariant field theory]]
