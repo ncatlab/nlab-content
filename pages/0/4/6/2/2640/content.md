@@ -40,7 +40,7 @@ $d(f) : d(X) \to d(Y)$ of the associated diagonal simplicial sets
 +-- {: .proof}
 ###### Proof
 
-This is prop 1.9 in [chaper 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
+This is prop 1.9 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
 * Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
 
@@ -91,7 +91,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is exercise 1.6 in  in [chaper 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
+This is exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
 * Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
 
@@ -117,7 +117,7 @@ $d(f) : d(A) \to d(B)$ of the associated diagonal complexes.
 +-- {: .proof}
 ###### Proof
 
-This is Lemma 2.7 in [chaper 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
+This is Lemma 2.7 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
 * Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
 
