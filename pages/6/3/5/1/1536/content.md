@@ -54,7 +54,7 @@ $$
 The Grothendieck construction functor
 
 $$
-  \int : [C^{op}, Cat] \to Fib(C)
+  \int : [C^{op}, Cat] \to Cat/C
 $$
 
 has a left and a right [[adjoint functor]].
