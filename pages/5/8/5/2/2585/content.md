@@ -403,7 +403,7 @@ and, building on that, in example 1.8 of
 * [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
 
 
-Notably the article by [[Pietro Polesello]] and [[Ingo Waschkies]] makes fully explicit the observation that _localy_ constant $n$-stacks are precisely the sections of the _constant_ $(n+1)$-stack on the $(n+1)$-groupoid $n Grpd$. This is a key observation for bringing the full power of the adjunction $(\Pi \dashv LConst)$ into the picture, as we do here.
+Notably the article by [[Pietro Polesello]] and [[Ingo Waschkies]] makes fully explicit the observation that _locally_ constant $n$-stacks are precisely the sections of the _constant_ $(n+1)$-stack on the $(n+1)$-groupoid $n Grpd$. This is a key observation for bringing the full power of the adjunction $(\Pi \dashv LConst)$ into the picture, as we do here.
 
 It was pointed out to [[Urs Schreiber]] by [[Richard Williamson]] that these constructions should generalize from topological spaces to objects in any [[(∞,1)-topos]], maybe along the lines outlined above, and that this way suitable $(\infty,1)$-toposes $\mathbf{H}$ comes canonically equipped with a notion of [[schreiber:homotopy ∞-groupoid]] $\Pi(X)$ of every object $X \in \mathbf{H}$.
 
