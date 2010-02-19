@@ -82,12 +82,45 @@ $$
 
 In this case we call for $X \in \mathbf{H}$ the [[n-groupoid]] $\Pi_n(X)$ the **fundamental $n$-groupoid** of $X$. See [[homotopy groups in an (∞,1)-topos]].
 
-For $n = \infty$ we speak of a **locally contractible $(\infty,1)$-topos**. In this case $\Pi = \Pi_\infty$ is the [[schreiber:path ∞-groupoid]] functor.
+
+## Locally contractible $(\infty,1)$-topos {#InfCase}
+
+A locally $n$-connected $(n,1)$-topos for $n = \infty$ we call a **locally contractible $(\infty,1)$-topos**. 
+
+In this case $\Pi = \Pi_\infty$ is the [[schreiber:homotopy ∞-groupoid]] functor.
 
 
-## More...
 
-...to come.
+### Examples
+
+This proposition gives a large supply of examples.
+
++-- {: .un_prop}
+###### Proposition
+
+Let $C$ be a [[site]] with **geometrically contractible objects**, meaning that all constant [[simplicial presheaf|simplicial presheaves]] satisfy [[descent]] on objects of $C$.
+
+Then $\mathbf{H} = Sh_{(\infty,1)}(C)$ is a locally contractible $(\infty,1)$-topos.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is currently at [[schreiber:homotopy ∞-groupoid]].
+
+=--
+
+In the literature this statement is known somewhat implicitly in slightly weaker form or in special cases:
+
+* The old Artin-Masur result recalled at [[homotopy groups in an (∞,1)-topos]] (see there for the moment) says effectively that the old prescription for computing $\Pi$ gives the right answer over a topological space if that has a basis of locally contractible open subsets. But that just means that the condition of the above proposition is satisfied.
+
+* [Proposition 2.18](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=5) of
+
+  * [[Carlos Simpson]], [[Constantin Teleman]], _de Rham's theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+
+  and the definition before that states essentially what the above proposition states at the level of [[homotopy category|homotopy categories]]: it asserts that if $C$ has contractible objects, that then there exists a left adjoint $Ho(\Pi):Ho(Sh_{(\infty,1)}(C)) \to Ho(\infty Grpd)$. They also give the explicit formula which is is stated at [[schreiber:homotopy ∞-groupoid]].
+
 
 [[!redirects locally connected topos]]
 [[!redirects connected topos]]
