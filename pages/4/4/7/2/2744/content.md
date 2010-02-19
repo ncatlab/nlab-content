@@ -38,6 +38,14 @@ By effectively undoing this implicit transgression in the ordinary [[Hamiltonian
 In this section we describe multisymplectic geometry in its application
 as a description of [[classical field theory]].
 
+Recall that that on ordinary [[phase space]] of a physical system is a [[symplectic manifold]] whose points correspond to the _states_ of the system. The **extended phase space** of an $n$-dimensional quantum field theory is a multisymplectic space whose points correspond to pairs consisting of
+
+* a point in the field theorie's parameter space -- an "event";
+
+* a state of the theory "at that event".
+
+So **extended phase spaces _localizes_ the information about states** : a point in here encodes not just the entire state of the system, but remembers explcitly what that state is like over any point in parameter space.
+
 ### Covariant configuration bundle
 
 Consider [[classical field theory]] over a **parameter space** $\Sigma$. From the point of view of [[FQFT]] $\Sigma$ will be one fixed [[cobordism]] on which we want to understand the (classical) field theory.
@@ -201,7 +209,7 @@ This discussion so far concerns field theories of first order, i.e. where the La
 
 ## References
 
-### References
+### On classical multisymplectic geometry
 
 A comprehensive source on covariant field theory with plenty of further references is
 
@@ -280,5 +288,23 @@ A [[higher category theory|higher categorial]] interpretation of 2-plectic geome
 * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
 This builds a bridge to the notion of [[n-symplectic manifold]]s.
+
+### On quantization of multisymplectic geometry {#RefsonQuantization}
+
+The following articles discuss the [[quantization]] procedure for multisymplectic geometry, generalizing [[geometric quantization]] of [[symplectic geometry]].
+
+* I.V. Kanatchikov, _Geometric (pre)quantization in the polysymplectic approach to field theory_ , ([arXiv:hep-th/0112263](http://arxiv.org/abs/hep-th/0112263)).
+
+The author has also written a paper on [[canonical quantization]]:
+
+* I.V. Kanatchikov, _DeDonder-Weyl theory and a hypercomplex extension of quantum mechanics to field theory_ , ([arXiv:hep-th/9810165](http://arxiv.org/abs/hep-th/9810165v1))
+
+
+Kanatchikov's "algebra of observables" is a [[Gerstenhaber algebra]] . The relationship between it and the [[Lie superalgebra]] of observables constructed by Forger, Paufler, and Roemer is discussed in this paper:
+
+
+* M. Forger, C. Paufler, and H. Roemer, _The Poisson Bracket for Poisson Forms in Multisymplectic Field Theory_ , ([arXiv:math-ph/0202043](http://arxiv.org/abs/math-ph/0202043v1))
+
+Kanatchikov's formalism was used by S.P. Hrabak to develop a multisymplectic formulation of [[classical BRST]] 
 
 [[!redirects covariant field theory]]
