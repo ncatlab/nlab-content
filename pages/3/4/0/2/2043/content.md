@@ -4,6 +4,11 @@ Given a unital (typically noncommutative) [[ring]] $R$, the __Jacobson radical__
 2. Each [[maximal ideal|maximal]] left [[ideal]] of $R$ contains $r$.
 3. For all $x\in R$, $1 - r x$ is left [[invertible element|invertible]] in $R$.
 
+Alternatively,
+
+4. $J(R)$ is the intersection of all maximal left ideals of $R$.
+5. $J(R)$ is the intersection of all maxaimal right ideals of $R$. 
+
 The properties required remain the same if one interchanges left and right (modules, invertibility etc.) i.e. $J(R)=J(R^{op})$.
 
 $J(R)$ is a $2$-sided [[ideal]] in $R$. The rings for which $J(R)=0$ are called __semiprimitive rings__. In other words, for each nonzero element $r$ in a semiprimitive ring, by the definition, there is a simple module left annihilated by $r$.
