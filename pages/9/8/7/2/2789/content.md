@@ -1,4 +1,86 @@
-##Discussion##
+##Discussion 2.0##
+
+[[Eric]]: This discussion began when I asked the following questions:
+
+>[[Eric]]: For some reason, I always thought a natural transformation was a more general map between functors $\alpha:F\Rightarrow G$, where
+$$F:A\to B\quad\text{and}\quad G:C\to D.$$
+
+>Then $\alpha(F):C\to D$ is a functor and we'd probably also want **2-component** functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ such that the following diagram commutes
+$$ 
+  \array{ 
+    A 
+    & 
+    \stackrel{F}{\to} 
+    & 
+    B 
+    \\ 
+    \mathllap{\scriptsize{\alpha_C}}\downarrow 
+    &\mathllap{\scriptsize{\alpha}}\Downarrow & 
+    \downarrow\mathrlap{\scriptsize{\alpha_D}}
+    \\ C 
+    & 
+    \stackrel{G}{\to} & D 
+  }
+$$
+>If this is not a natural transformation, is there another name for it?
+
+>When $A = C$ and $B = D$, this should coincide with the usual definition. If so, why don't we define natural transformation in this more general way? It seems more "natural" to me.
+
+[[Eric]]: I hope to pick up where we left off because I was making some progress understanding some of this stuff.
+
+I like the above concept, but I'm still trying to find the right label for it. The standard definition of [[natural transformation]] involves a map between functors (sharing the same domain and codomain) together with **component morphisms**. What I'm trying to describe is a map between functors (not necessarily with the same domain and codomain) together with **component functors**.
+
+This seems to be a natural thing to do, especially when thinking of functors as maps between morphisms, together with component morphisms, as put forward at [[functor (discussion)]].
+
+From there, it is a skip away from thinking of morphisms as maps between objects together with component objects. Hmmm...
+
+The whole thing just wants to bumped up incrementally in dimension.
+
+###Functor Revisited###
+
+####Definition (Experimental)####
+
+Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ together with component morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+$$ 
+  \array{ 
+    i_A(x)
+    & 
+    \stackrel{i_A(f)}{\to} 
+    & 
+    i_A(y) 
+    \\ 
+    \mathllap{\scriptsize{\alpha_x}}\downarrow 
+    &\mathllap{F}\Downarrow & 
+    \downarrow\mathrlap{\scriptsize{\alpha_y}} 
+    \\ i_B\circ F(x)
+    & 
+    \stackrel{i_B\circ F(f)}{\to} & i_B\circ F(y) 
+  }
+$$
+
+For a less cluttered diagram, we can omit the obvious inclusion maps and look at
+
+$$ 
+  \array{ 
+    x
+    & 
+    \stackrel{f}{\to} 
+    & 
+    y 
+    \\ 
+    \mathllap{\scriptsize{\alpha_x}}\downarrow 
+    &\mathllap{F}\Downarrow & 
+    \downarrow\mathrlap{\scriptsize{\alpha_y}} 
+    \\ F(x)
+    & 
+    \stackrel{F(f)}{\to} & F(y) 
+  }
+$$
+
+
+<img src="http://ncatlab.org/nlab/files/alt_functor.jpg" width = "250"/>
+
+##Discussion 1.0##
 
 [[Eric]]: For some reason, I always thought a natural transformation was a more general map between functors $\alpha:F\Rightarrow G$, where
 $$F:A\to B\quad\text{and}\quad G:C\to D.$$
