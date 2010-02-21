@@ -168,7 +168,7 @@ Categories (not just toposes) can serve as models of type theories, each type th
 
 Certain 'strong' axioms of [[set theory]] (those involving quantification over all sets) are difficult to state in category-theoretic (or type-theoretic) terms, but this can be overcome in a theory like ETCS; talk to Mike Shulman. (Ironically, this makes it harder to do foundations with categorial foundations!)
 
-In contrast, many of the optional or controversial axioms of set theory (such as the [[axiom of choice]]) can be stated quite directly in ETCS. These can be examined quite well in a na&#239;ve set-theoretic language that never need be precise about whether one\'s foundations are traditional (membership-based), categorial, or whatever. 
+In contrast, many of the optional or controversial axioms of set theory (such as the [[axiom of choice]]) can be stated quite directly in ETCS. These can be examined quite well in a na&#239;ve set-theoretic language that never need be precise about whether one\'s foundations are traditional (membership-based), categorial, or whatever.
 
 # Categorial foundations of category theory
 
