@@ -25,4 +25,4 @@ developed methods that were later on used by [[Haefliger]] in assigning a groupo
 Recently he worked with [[Kirill Mackenzie]] on [[Lie groupoids]] and [[Lie algebroids]]
 
 
-
+category: people
