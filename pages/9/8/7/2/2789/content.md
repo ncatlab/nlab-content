@@ -1,3 +1,8 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 ##Discussion 2.0##
 
 [[Eric]]: This discussion began when I asked the following questions:
