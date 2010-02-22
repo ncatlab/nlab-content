@@ -92,6 +92,16 @@ $$
 
 where...
 
+For $n = 2 k +1$ odd, a [[Sullivan model]] for the $n$-spehere is the very simple [[dg-algebra]] with a single generator $c$ in degree $n$ and vanishing differential, i.e. the morphism
+
+$$
+  (\wedge^\bullet \langle c\rangle, d = 0)
+  \to 
+  \Omega^\bullet_{Sullivan}(S^{2k + 1})
+$$
+
+that picks any representative of the degree $n$-cohomology of $S^{n}$ is a [[quasi-isomorphism]].
+
 ### Rational $n$-disk 
 
 ...
@@ -108,6 +118,8 @@ $$
 
 of rational $n$-spheres. 
 
+Moreover, Lie groups are [[formal homotopy type]]s, whose [[Sullivan model]] has a [[quasi-isomorphism]] to its [[chain and cochain cohomology|cochain cohomology]].
+
 ### Rational classifying spaces of compact Lie groups
 
 With $G$ as above, let $\mathcal{B}G$ be the corresponding [[classifying space]].  Then
@@ -119,7 +131,7 @@ $$
 
 where $P_{k_i}$ is a generator in degre $2 k_i$.
 
-A [[Sullivan model]] of $\mathcal{B}G$ is $H^\bullet(\mathcal{B}G,\mathbb{R})$.
+Indeed, also these classifying spaces are [[formal homotopy type]]s and hence a [[Sullivan model]] for $\mathcal{B}G$ is given by $(H^\bullet(\mathcal{B}G,\mathbb{R}), d=0)$.
 
 
 ### Quotient spaces
