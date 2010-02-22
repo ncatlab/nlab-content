@@ -1,4 +1,3 @@
-
 ## Idea ##
 
 A coherence theorem in category theory can mean one of several things: 
@@ -13,3 +12,6 @@ Naturally, it should not be thought that coherence problems are restricted to 1-
 
 ## Clubs ## 
 
++--{: .query}
+[[Mike Shulman]]: I would be wary of putting too much focus on clubs here.  There are lots of ways to present solutions to the first sort of coherence problem, corresponding to all the different ways to describe general algebraic structures: monads, clubs, operads, multicategories, props, etc.  We can certainly have a page on [[club]]s that describes their applications to coherence theorems, but I'd rather have this page talk more generally about coherence theorems and have links to other pages about specific coherence theorems or general methods for proving them.
+=--
