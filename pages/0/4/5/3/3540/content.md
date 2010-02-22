@@ -4,5 +4,7 @@ In other news, I'm a department chair (God help me) and program director at a sm
 
 You can e-mail me at idurham [at] anselm [dot] edu.
 
+I'm really interested in collaborating with people which is what attracted me to this site.
+
 
 category: people
