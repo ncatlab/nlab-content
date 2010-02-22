@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Recall the following familiar 1-categorical statement:
 
@@ -52,9 +52,9 @@ more structure, for instance they may
 be $\infty$-[[differentiable stacks]] if one considers
 [[∞-stacks]] on [[Diff]].
 
-#Definition#
+## Definition
 
-A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X$ satisfying the following equivalent conditions:
+A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X$ satisfying the following equivalent conditions:
  
 
 * $X$ is an [[(∞,1)-category of (∞,1)-sheaves]] (meaning: of [[∞-stack]]s): 
@@ -79,14 +79,27 @@ an [[(∞,1)-topos]] is
 
 * and with [[object classifier]]s.
 
+## Types of $(\infty,1)$-toposes
 
-# Models #
+### Topological localizations / $(\infty,1)$-sheaf toposes
+
+for the moment see
+
+* [[topological localization]]
+
+### Hypercomplete $(\infty,1)$-toposes
+
+for the moment see 
+
+* [[hypercomplete (∞,1)-topos]]
+
+## Models 
 
 Another main theorem about $(\infty,1)$-toposes is that
 [[models for ∞-stack (∞,1)-toposes]] are given by the [[model structure on simplicial presheaves]].
 
 
-#References#
+## References
 
 Section 6.1 of
 
