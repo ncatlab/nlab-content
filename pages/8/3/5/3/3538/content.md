@@ -55,4 +55,4 @@ There is a notion of clique in an undirected (simple) [[graph]] familiar to grap
 
 A reasonable analogue for directed graphs ([[digraph]]s) might be a subgraph $C$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
 
-The categorical notion of clique is one step removed from that: a clique in a category $C$ is a functor $i: K \to C$ where the underlying graph of $K$ is indiscrete. The generic "picture" of a clique in a category is reminiscent of (and no doubt derived from) the graph-theoretic notion, even if the notions are technically distinct. 
+The categorical notion of clique is one step removed from that: a clique in a category $C$ is a functor $i: K \to C$ where the underlying graph of $K$ is indiscrete. The generic "picture" of a clique in a category is reminiscent of (and no doubt the etymology derives from) the graph-theoretic notion, even if the notions are technically distinct. 
