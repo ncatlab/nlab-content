@@ -49,6 +49,9 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 * Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf)
 * Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
 * Gieseker: Flat Vector Bundles and the Fundamental Group in Non-Zero Characteristics,  Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4)  2  (1975), no. 1, 1--31. 
+* R. Bezrukavnikov, MIT course notes, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/bezr_notes.pdf)
+* Notes in Gaitsgory's seminar [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
+* A. [[Beilinson|Beĭlinson]], J. Bernstein, _A proof of Jantzen's conjectures_, I. M. Gel&#697;fand Seminar,  1--50, Adv. Soviet Math., 16, Part 1, Amer. Math. Soc. 1993, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/BB%20-%20Jantzen.pdf)
 
 ##Blog discussion
 
