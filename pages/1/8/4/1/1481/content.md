@@ -546,78 +546,118 @@ $$
  <g>
   <title>Layer 1</title>
   <foreignObject x="60" y="67" id="svg_1" font-size="16" width="24" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <msub>
-     <mi>E</mi>
-     <mi>&#931;</mi>
-    </msub>
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mi>&#931;</mi>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_\Sigma</annotation>
+    </semantics>
    </math>
   </foreignObject>
   <foreignObject x="175" y="70" id="svg_2" font-size="16" width="48" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <msub>
-     <mi>E</mi>
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
      <mrow>
+      <msub>
+       <mi>E</mi>
+       <mrow>
+        <msub>
+         <mi>&#931;</mi>
+         <mtext>out</mtext>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_{\Sigma_{\text{out}}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="60" y="170" id="svg_3" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mtext>in</mtext>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_{\text{in}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="124" y="150" id="svg_4" font-size="16" width="49" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mi>&#931;</mi>
+      <mo>,</mo>
+      <mi>X</mi>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[\Sigma, X]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="245" y="150" id="svg_5" font-size="16" width="63" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
       <msub>
        <mi>&#931;</mi>
        <mtext>out</mtext>
       </msub>
+      <mo>,</mo>
+      <mi>X</mi>
+      <mo stretchy="false">]</mo>
      </mrow>
-    </msub>
+     <annotation encoding="application/x-tex">[\Sigma_{\text{out}}, X]</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="60" y="165" id="svg_3" font-size="16" width="24" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <msub>
-     <mi>E</mi>
-     <mtext>in</mtext>
-    </msub>
+  <foreignObject x="119" y="255" id="svg_6" font-size="16" width="61" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <msub>
+       <mi>&#931;</mi>
+       <mtext>in</mtext>
+      </msub>
+      <mo>,</mo>
+      <mi>X</mi>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[\Sigma_{\text{in}}, X]</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="112" y="150" id="svg_4" font-size="16" width="77" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mo stretchy="false">[</mo>
-    <mi>&#931;</mi>
-    <mo>,</mo>
-    <mi>X</mi>
-    <mo stretchy="false">]</mo>
-   </math>
-  </foreignObject>
-  <foreignObject x="235" y="150" id="svg_5" font-size="16" width="88" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mo stretchy="false">[</mo>
-    <msub>
-     <mi>&#931;</mi>
-     <mtext>out</mtext>
-    </msub>
-    <mo>,</mo>
-    <mi>X</mi>
-    <mo stretchy="false">]</mo>
-   </math>
-  </foreignObject>
-  <foreignObject x="112" y="255" id="svg_6" font-size="16" width="90" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mo stretchy="false">[</mo>
-    <msub>
-     <mi>&#931;</mi>
-     <mtext>in</mtext>
-    </msub>
-    <mo>,</mo>
-    <mi>X</mi>
-    <mo stretchy="false">]</mo>
-   </math>
-  </foreignObject>
-  <foreignObject x="236" y="255" id="svg_7" font-size="16" width="90" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mo rspace="thinmathspace" lspace="0em">Bord</mo>
-    <mo stretchy="false">(</mo>
-    <mi>X</mi>
-    <mo stretchy="false">)</mo>
+  <foreignObject x="250.000002" y="255" id="svg_7" font-size="16" width="61" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>Bord</mi>
+      <mo stretchy="false">(</mo>
+      <mi>X</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">Bord(X)</annotation>
+    </semantics>
    </math>
   </foreignObject>
   <foreignObject x="396" y="351" id="svg_8" font-size="16" width="24" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mo>V</mo>
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">V</annotation>
+    </semantics>
    </math>
   </foreignObject>
  </g>
@@ -625,93 +665,128 @@ $$
   <title>Layer 2</title>
   <line fill="none" id="svg_24" y2="80" x2="171" y1="80" x1="93" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <line fill="none" id="svg_25" y2="164" x2="67" y1="97" x1="67" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
-  <line fill="none" id="svg_26" y2="145" x2="128" y1="95" x1="81" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_26" y2="145" x2="130" y1="95" x1="80" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <line fill="none" id="svg_27" y2="163" x2="230" y1="163" x1="188" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <line fill="none" id="svg_28" y2="248" x2="150" y1="180" x1="150" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <line fill="none" id="svg_30" y2="248" x2="281" y1="184" x1="281" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <line fill="none" id="svg_31" y2="266" x2="244" y1="266" x1="199" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
-  <line fill="none" id="svg_32" y2="246" x2="119" y1="198" x1="87" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
-  <line fill="none" id="svg_33" y2="144" x2="264" y1="100" x1="224" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_32" y2="245" x2="130" y1="195" x1="80" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
+  <line fill="none" id="svg_33" y2="145" x2="265" y1="95" x1="215" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <line fill="none" id="svg_34" y2="353" x2="396" y1="283" x1="314" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <path id="svg_35" d="m315,181c65,51 83,75 92,164" fill="none" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <path id="svg_36" d="m162,281c67,70 143,83 230,83" fill="none" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <foreignObject height="24" width="48" font-size="16" id="svg_2" y="55" x="116">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-     <mi>E</mi>
-     <mtext>out</mtext>
-    </msub>
-   </math>
-  </foreignObject>
-  <foreignObject x="123" y="197" id="svg_2" font-size="16" width="31" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mtext>in</mtext>
-   </math>
-  </foreignObject>
-  <foreignObject id="svg_9" height="24" width="31" font-size="16" y="142" x="193">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mtext>out</mtext>
-   </math>
-  </foreignObject>
-  <foreignObject transform="rotate(32.7352, 218.5, 340)" height="24" width="79" font-size="16" id="svg_12" y="328" x="179">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>exp</mi>
-    <mo stretchy="false">(</mo>
-    <msub>
-     <mi>S</mi>
-     <mo>&#8711;</mo>
-    </msub>
-    <mo stretchy="false">)</mo>
-    <msub>
-     <mo stretchy="false">&#8739;</mo>
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
      <mrow>
       <msub>
-       <mi>&#931;</mi>
-       <mtext>in</mtext>
-      </msub>
-     </mrow>
-    </msub>
-   </math>
-  </foreignObject>
-  <foreignObject x="308.99998" y="314" id="svg_38" font-size="16" width="66" height="24" transform="rotate(38.4181, 342, 326)">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>exp</mi>
-    <mo stretchy="false">(</mo>
-    <msub>
-     <mi>S</mi>
-     <mo>&#8711;</mo>
-    </msub>
-    <mo stretchy="false">)</mo>
-   </math>
-  </foreignObject>
-  <foreignObject x="342.85635" y="225.59602" font-size="16" width="95.98366" height="24" transform="rotate(50.9645, 390.848, 237.596)" id="svg_19">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mi>exp</mi>
-    <mo stretchy="false">(</mo>
-    <msub>
-     <mi>S</mi>
-     <mo>&#8711;</mo>
-    </msub>
-    <mo stretchy="false">)</mo>
-    <msub>
-     <mo stretchy="false">&#8739;</mo>
-     <mrow>
-      <msub>
-       <mi>&#931;</mi>
+       <mi>E</mi>
        <mtext>out</mtext>
       </msub>
      </mrow>
-    </msub>
+     <annotation encoding="application/x-tex">E_{\text{out}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="123" y="197" id="svg_2" font-size="16" width="31" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mtext>in</mtext>
+     </mrow>
+     <annotation encoding="application/x-tex">\text{in}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_9" height="24" width="31" font-size="16" y="142" x="193">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mtext>out</mtext>
+     </mrow>
+     <annotation encoding="application/x-tex">\text{out}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject transform="rotate(33, 218.5, 340)" height="24" width="79" font-size="16" id="svg_12" y="328" x="179">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>exp</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>S</mi>
+       <mo>&#8711;</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <msub>
+       <mo stretchy="false">&#8739;</mo>
+       <mrow>
+        <msub>
+         <mi>&#931;</mi>
+         <mtext>in</mtext>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">\exp(S_\nabla)\vert_{\Sigma_{\text{in}}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="308.99998" y="314" id="svg_38" font-size="16" width="66" height="24" transform="rotate(38.4181, 342, 326)">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>exp</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>S</mi>
+       <mo>&#8711;</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">\exp(S_\nabla)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="343" y="226" font-size="16" width="96" height="24" transform="rotate(51, 391, 238)" id="svg_19">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>exp</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>S</mi>
+       <mo>&#8711;</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <msub>
+       <mo stretchy="false">&#8739;</mo>
+       <mrow>
+        <msub>
+         <mi>&#931;</mi>
+         <mtext>out</mtext>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">\exp(S_\nabla)\vert_{\Sigma_{\text{out}}}</annotation>
+    </semantics>
    </math>
   </foreignObject>
   <line id="svg_47" fill="none" y2="245" x2="248" y1="178" x1="170" stroke="#000000" marker-end="url(#se_arrow_fw)"/>
   <line marker-end="url(#se_arrow_fw1)" fill="none" id="svg_29" y2="252" x2="246" y1="180" x1="184"/>
   <foreignObject y="121" x="39" id="svg_2" font-size="16" width="31" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <msub>
-     <mi>E</mi>
-     <mtext>in</mtext>
-    </msub>
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mtext>in</mtext>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_{\text{in}}</annotation>
+    </semantics>
    </math>
   </foreignObject>
  </g>
