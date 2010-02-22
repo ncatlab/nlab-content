@@ -224,6 +224,15 @@ Dually, a [[comonoid]] in [[chain complex]]es is a [[dg-coalgebra]].
 
 A dga $A$ is __[[homologically smooth dga|homologically smooth]]__ if as a dg-bimodule $_A A_A$ over itself it has a bounded resolution by finitely generated projective dg-bimodules.
 
+### Formal dg-algebra
+
+A dg-algebra $A$ is a [[formal dg-algebra]] if there exists a morphism
+
+$$
+  A \to H^\bullet(A)
+$$
+
+to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-algebra with trivial differential) that is a [[quasi-isomorphism]].
 
 ## Discussion
 
