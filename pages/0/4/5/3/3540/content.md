@@ -3,3 +3,6 @@ I'm a mathematical physicist interested in foundational issues, particularly in 
 In other news, I'm a department chair (God help me) and program director at a small college in New Hampshire.  You can get my life story from from my blog [Quantum Moxie](http://quantummoxie.wordpress.com/).
 
 You can e-mail me at idurham [at] anselm [dot] edu.
+
+
+category: people
