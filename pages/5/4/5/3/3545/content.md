@@ -5,20 +5,29 @@
 
 ## Definition
 
-A [[dg-algebra]] $A$ is a **formal dg-algebra** if there exists a [[morphism]]
+A [[dg-algebra]] $A$ is a **formal dg-algebra** if in the [[homotopy category]] of the [[model structure on dg-algebras]] it is [[isomorphism|isomorphic]] 
 
 $$
-  A \to H^\bullet(A)
+  A \stackrel{\simeq}{\to} H^\bullet(A)
 $$
 
-to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-algebra with trivial differential) that is a [[quasi-isomorphism]].
+to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-algebra with trivial differential). Since all dg-algebras are fibrant in the standard model, this is equivalent to the existence of a [[span]]
+
+$$
+  A \stackrel{\simeq_w}{\leftarrow} Q A \stackrel{\simeq}{\to}
+  H^\bullet(A)
+$$
+
+of [[quasi-isomorphism]]s of dg-algebras.
 
 ## Applications
 
 
 ### In rational homotopy theory
 
-In [[rational homotopy theory]] [[rational topological space]]s are encoded in their dg-algebras of Sullivan forms. The following types of spaces have dg-algebra models that are formal dg-algebras. The corresponding [[rational space]]s are also called **formal homotopy types**.
+In [[rational homotopy theory]] [[rational topological space]]s are encoded in their dg-algebras of Sullivan forms. A simply connected topological space $X$ whose dg-algebra of Sullivan forms $\Omega^\bullet(X)$ is formal is called a **formal topological space**. It represents a **formal homotopy type**.
+
+Examples are
 
 * [[Kähler manifold]]s;
 
@@ -35,7 +44,6 @@ In [[rational homotopy theory]] [[rational topological space]]s are encoded in t
 
 ## References
 
-> long list of references eventually goes here
 
 For an early discussion of formal dg-algebras in the context of [[rational homotopy theory]] see section 12 of 
 
@@ -44,3 +52,11 @@ For an early discussion of formal dg-algebras in the context of [[rational homot
 * [[Pierre Deligne]], Phillip Griffiths, John Morgan, [[Dennis Sullivan]], _Real homotopy theory of K&#228;hler manifolds_, Invent. Math. 29 (1975), no. 3, 245--274, [doi](http://dx.doi.org/10.1007/BF01389853)
 [[!redirects formal differential graded algebra]]
 [[!redirects formal homotopy type]]
+
+A survey is around definition 2.1 of
+
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+
+[[!redirects formal space]]
+[[!redirects formal homotopy type]]
+
