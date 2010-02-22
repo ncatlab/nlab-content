@@ -44,3 +44,11 @@ It is straightforward to check that the natural inclusion
 $$i: M \to M^{st},$$ 
 
 which interprets each object as a 1-tuple and each morphism as an evident clique morphism, is a monoidal equivalence. 
+
+## Etymology and relation to graph theory ## 
+
+There is a notion of clique in an undirected (simple) [[graph]] familiar to graph-theorists: a _clique_ $C$ in a graph $G$ is a subgraph which is complete as a graph, i.e., one for which any two distinct vertices are connected by an edge. Thus, a clique having $n$ vertices is isomorphic to an inclusion of a $K_n$. 
+
+A reasonable analogue for directed graphs ([[digraph]]s) might be a subgraph $C$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
+
+The categorical notion of clique is one step removed from that: a clique in a category $C$ is a functor $i: K \to C$ where the underlying graph of $K$ is indiscrete. The generic "picture" of a clique in a category is reminiscent of (and no doubt derived from) the graph-theoretic notion, even if the notions are technically distinct. 
