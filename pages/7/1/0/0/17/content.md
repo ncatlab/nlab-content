@@ -15,7 +15,8 @@ See also the [[FAQ]].
 
 # Technical #
 
-## Software required to use the $n$Lab ##
+## Software required to use the $n$Lab
+{#software}
 
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  Displaying MathML requires support from your web browser.  The browser with the best support for MathML is [Firefox](http://www.mozilla.com/firefox/), especially if you install the [STIX fonts](http://www.mozilla.org/projects/mathml/fonts/).  Firefox is a great browser in many other ways too, so if you aren't using it, why not give it a try?
 
