@@ -362,24 +362,64 @@ There is now a WYSIWYG SVG-editor embedded within Instiki (the software running 
 6. To edit an **existing** SVG, select the text between (and including) the `<svg>` and `</svg>` tags (but **don't** include any whitespace before or afterwards).  The "Create SVG" button changes to "Edit existing SVG graphic". 
 
 +-- {: style="text-align:center"}
-<svg width="277" height="172" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<svg width="277" height="172" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
-   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <text x="248.5" y="77" id="svg_2" fill="#000000" stroke="#000000" stroke-width="0" font-size="16" font-family="serif" text-anchor="middle" xml:space="preserve">Y</text>
-  <text x="117.5" y="157" id="svg_3" fill="#000000" stroke="#000000" stroke-width="0" font-size="16" font-family="serif" text-anchor="middle" xml:space="preserve">Z</text>
-  <text x="115.5" y="76" id="svg_4" fill="#000000" stroke="#000000" stroke-width="0" font-size="16" font-family="serif" text-anchor="middle" xml:space="preserve">Y &#215; Z</text>
-  <path fill="none" stroke="#000000" stroke-width="2" d="m39.5,28.85708c37.004852,-4.907068 137.927185,-3.907068 198,31.14292" id="svg_5" marker-end="url(#se_arrow_fw)"/>
-  <path fill="none" stroke="#000000" stroke-width="2" d="m26.5,46c1.770121,48.323517 47.793098,104.441177 77.000008,106" id="svg_6" marker-end="url(#se_arrow_fw)"/>
-  <line x1="114.5" y1="87" x2="116.5" y2="135" id="svg_7" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <line x1="146.5" y1="71" x2="235.5" y2="72" id="svg_8" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
-  <line x1="42.5" y1="40" x2="86.5" y2="60" id="svg_9" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)" stroke-dasharray="5,5"/>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="16" stroke-width="0" stroke="#000000" fill="#000000" id="svg_1" y="35" x="27.5">X</text>
+  <path marker-end="url(#se_arrow_fw)" id="svg_5" d="m39.5,28.85708c37.004852,-4.90707 137.927185,-3.90707 198,31.14292" stroke-width="2" stroke="#000000" fill="none"/>
+  <path marker-end="url(#se_arrow_fw)" id="svg_6" d="m26.5,46c1.770121,48.323517 47.793098,104.441177 77.000008,106" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_7" y2="135" x2="116.5" y1="87" x1="114.5"/>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_8" y2="72" x2="235.5" y1="71" x1="146.5"/>
+  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_9" y2="60" x2="86.5" y1="40" x1="42.5"/>
+  <foreignObject height="20" width="44" font-size="16" id="svg_10" y="61" x="89">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>Y</mi>
+      <mspace width="thinmathspace"/>
+      <mo>&#215;</mo>
+      <mspace width="thinmathspace"/>
+      <mi>Z</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">Y\, \times\, Z</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="20" width="20" font-size="16" id="svg_11" y="139.450012" x="105">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>Z</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">Z</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="20" width="20" font-size="16" id="svg_12" y="62.450012" x="232.999999">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>Y</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">Y</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="20" width="20" font-size="16" id="svg_13" y="22.450012" x="17">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>X</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">X</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
  </g>
 </svg>
 =--
