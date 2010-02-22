@@ -5,7 +5,7 @@
 
 #Idea#
 
-An **algebraic stack** denotes either a [[Deligne-Mumford stack]] or a more general [[Artin stack]] in the traditional setup of [[algebraic space]]s: they are (Grothendieck) $1$-[[stack|stacks]] of groupoids on the [[etale topology|étale site]] satisfying additional representability conditions.  
+An **algebraic stack** is essentially a [[geometric stack]] on [[Cring]]${}^op$: it denotes either a [[Deligne-Mumford stack]] or a more general [[Artin stack]] in the traditional setup of [[algebraic space]]s: they are (Grothendieck) $1$-[[stack|stacks]] of [[groupoids]] on the [[etale topology|étale site]] satisfying additional representability conditions.  
 
 #Definition#
 
@@ -29,11 +29,6 @@ Champs alg&#233;briques.
 =--
 
 
-+-- {: .query}
-
-[[Urs Schreiber]]: how precisely am I to think of the relation between [[geometric stack]]s and [[algebraic stack]]s. I am hoping that there is a very general definition of geometric ($\infty$-)stack of which algebraic stacks are a special case, but I am not sure about some technical details.
-
-=--
 
 
 #Generalizations#
