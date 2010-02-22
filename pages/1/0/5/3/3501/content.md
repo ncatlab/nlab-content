@@ -4,3 +4,4 @@ To a space (typically with singularities) of certain kind (there are variants) o
 
 * scan of old notes from MacPherson [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
 
+* Reinhardt Kiehl, Rainer Weissauer, _Weil conjectures, perverse sheaves and l'adic Fourier transform_, Ergebnisse Der Mathematik Und Ihrer Grenzgebiete __42__, Springer 2001. 
