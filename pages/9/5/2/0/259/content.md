@@ -18,16 +18,22 @@ Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞
 ## Definition
 
 
-A **quasi-category** or [[weak Kan complex]] is a [[simplicial set]] in which all _inner_ [[horn]]s have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
+A **quasi-category** or [[weak Kan complex]] is a [[simplicial set]] $C$ satisfying the following equivalent conditions
 
-+-- {: .query}
-_Stephen Gaito_: If we want to weaken this even further to provide a simplicial model of, for example, a [[(∞,2)-category]], how would we do this?
+* all _inner_ [[horn]]s in $C$ have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
 
-Would we apply the lifting condition on all but three of the indicies... and if so which three?  (The first, last and ????)
+* the morphism of simplicial sets
 
-[[Mike Shulman]]: You may be looking for something along the lines of a [[weak complicial set]].
+  $$
+    sSet(\Delta[2],C) \to sSet(\Lambda[2]_1,C)
+  $$
 
-=--
+  (induced from the inner horn inclusion $\Lambda[2]_1 \to \Delta[2]$)
+  is an acyclic [[Kan fibration]].
+
+The second condition says manifestly that a quasi-category is a simplicial set in which composition of any two composable edges is defined up to a contractible space of choices.
+
+The equivalence of these two definitions is due to [[Andre Joyal]] and recalled as [[Higher Topos Theory|HTT, corollary 2.3.2.2]].
 
 ## Remarks
 
@@ -36,6 +42,10 @@ Would we apply the lifting condition on all but three of the indicies... and if 
 * As the quasi-category condition is a weakening of the Kan complex condition, they have also been called **weak Kan complexes** and the corresponding condition, the **weak Kan condition**.
 
 * The [[nerve]] of an ordinary [[category]] is always a quasi-category, while the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid].  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
+
+* One may try to further weaken the filler conditions in order to describe [[(∞,n)-categories]] for $n \gt 1$. One approach along these lines is the theory of [[weak complicial set]]s.
+
+
 
 ### Higher associahedra in quasi-categories
 
@@ -61,6 +71,21 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 * [[sub-quasi-category]]
 
 * [[fibrations of quasi-categories]]
+
+## Discussion
+
+A previous version of this entry led to the following discussion.
+
++-- {: .query}
+_Stephen Gaito_: If we want to weaken this even further to provide a simplicial model of, for example, a [[(∞,2)-category]], how would we do this?
+
+Would we apply the lifting condition on all but three of the indicies... and if so which three?  (The first, last and ????)
+
+[[Mike Shulman]]: You may be looking for something along the lines of a [[weak complicial set]].
+
+=--
+
+
 
 ## References
 
