@@ -87,3 +87,5 @@ See also [[deRham space]].
 * T. Brzezi&#324;ski, R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
 
 * L. Breen, Messing, _Combinatorial differential forms_, [arxiv:math/0005087](http://arxiv.org/abs/math/0005087)
+
+* Notes in Gaitsgory's grad student seminar [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
