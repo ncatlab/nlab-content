@@ -5,22 +5,41 @@
 
 ## Idea
 
-A basic fact in ordinary [[category theory]] is that a [[functor]] $f\colon C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g\colon D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- precisely if it is an [[essentially surjective functor|essentially surjective]] [[full and faithful functor]].
+A basic fact in ordinary [[category theory]] is that a [[functor]] $f\colon C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g\colon D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- if and only if it is a [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  However, the "if" part of this statement depends crucially on the [[axiom of choice]]: the functor $g$ is obtained by _choosing_  for each [[object]] $d \in D$ an object $c \in C$ such that $f(c) \simeq d$.  In fact, the statement that "every fully faithful and essentially surjective functor is an equivalence of categories" is equivalent to the axiom of choice.
 
-But this statement does crucially depend on the [[axiom of choice]]: the functor $g$ is obtained by _choosing_  for each [[object]] $d \in D$ an object $c \in C$ such that $f(c) \simeq d$. 
+The notion of *anafunctor* is a generalization of the usual notion of *functor*, which enables us to recover a version of this statement without the axiom of choice.  It was first studied in detail by [[Michael Makkai]] with foundational concerns in mind, although it also appears unnamed in an earlier paper of Kelly.  Later, they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option.  These "internal anafunctors" actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
 
-The notion of _anafunctor_ , introduced by Makkai, is a modification of the notion of _functor_ such that even in the absence of the axiom of choice, the statement remains true that an anafunctor is an [[equivalence of categories]] precisely if it is essentially surjective and full and faithful.
+We present two motivations: one foundational, and one practical (regarding the study of [[internal categories]]).  The non-foundationally-inclined reader is suggested to skip to the latter.
+  
 
-Since questions concerning the axiom of choice tend to look a bit esoteric to those not actively interested in questions of [[foundations]], it is helpful to think of this more generally in terms of [[internal category]] theory, where the concept is of independent use and in fact well known by other names than "anafunctor":
+### Foundational motivation
 
-consider some ambient category $\mathcal{E}$ [[internalization|internal]] to which we want to do category theory. A good example to keep in mind is the category [[Top]] of [[topological space]]s. The axiom of choice does fail in [[Top]], but for a very non-esoteric reason: in the simple sense that not every continous [[epimorphism]] $P \to X$ between topological spaces has a _continuous_ [[section]].
+There is a sense in which the construction of inverse equivalences is not a "real" use of the axiom of choice, because the choice of $d$ is determined up to unique isomorphism.  Note that in ordinary set theory, the axiom of choice is not necessary to make choices that are uniquely defined; this is sometimes called the "axiom of non-choice" or the "function comprehension principle."  Since in category theory, an object can only be expected to be determined up to unique isomorphism, it is natural to regard the above statement as really being a "functor comprehension principle" or an "axiom of non-choice for categories."  The fact that the full axiom of choice is required to make such choices is then an artifact of the usual [[foundation]]al choice to define categories as having a [[set]] of objects.
 
-Then it may easily happen that an internal functor $f\colon C \to D$ between [[internal category|internal categories]] in $\mathcal{E}$ (for instance between topological categories) is [[k-surjective functor|k-surjective]] for all $k$, but still does not admit a weak inverse in $\mathcal{E}$. 
-For instance the functor $C(U) \to X$ from a [[Cech nerve|Cech groupoid]] associated to an open [[cover]] $U = \coprod_i U_i$ of a [[topological space]] $X$ is [[k-surjective functor|k-surjective]] for all $k$ in $\mathcal{E} = Top$, but in general does not admit a weak inverse, simply because the continuous function $\coprod_i U_i \to X$ does not have a continuous section, unless one of the $U_i$ is already equal to $X$. Entirely analogously, Makkai considered $\mathcal{E} = Set_{\not C}$ to be the category [[Set]] of [[set]]s without the [[axiom of choice]], where the same may happen: not every [[k-surjective functor]] for all $k$ has a weak inverse.
+In fact, however, we can recover the functor comprehension principle while maintaining the definition of categories in set theory if we modify the notion of *functor*.  This results in the notion of _anafunctor_, which is essentially "a functor which determines its values on objects only up to isomorphism."  In particular, an anafunctor is an [[equivalence of categories]] (in the sense of having an inverse *anafunctor*) precisely if it is essentially surjective and full and faithful.  From this point of view, an anafunctor is not necessarily a fundamental notion, but rather an artifact that makes it possible to approximate the "natural" theory of categories, which doesn't need choice but has a functor comprehension principle, while still working in a set-theoretic foundation lacking choice.
+   
+Every functor may be interpreted as an anafunctor; that every anafunctor is equivalent to a functor is equivalent to the [[axiom of choice]], in which case the inclusion of functors into anafunctors is in fact an [[equivalence of categories]]. But if you ignore functors and deal only with anafunctors (or saturated anafunctors), then the theory becomes entirely [[constructive mathematics|constructive]] (without using the axiom of choice or even [[excluded middle]]).  Thus, anafunctors (or even saturated anafunctors) are the correct notion to use if you are a constructivist and you want to [[foundations|found]] mathematics on some sort of [[set theory]].
+
+  
+### Motivation from internal categories
+
+Since questions concerning the axiom of choice tend to look a bit esoteric to those not actively interested in questions of [[foundations]], it is helpful (and useful!) to think of this more generally in terms of [[internal category]] theory, where the concept is of independent use, and in fact well known by other names than "anafunctor".  Consider some ambient category $\mathcal{E}$ [[internalization|internal]] to which we want to do category theory. A good example to keep in mind is the category [[Top]] of [[topological space]]s.  We observe that "the axiom of choice fails in [[Top]]", but that this is a very non-esoteric and obvious statement: it just means that not every continous [[epimorphism]] $P \to X$ between topological spaces has a _continuous_ [[section]].
+
+Then it may easily happen that an internal functor $f\colon C \to D$ between [[internal category|internal categories]] in $\mathcal{E}$ (for instance between topological categories) is fully faithful, in the "internal" sense that
+$$\array{C_1 & \overset{}{\to} & D_1\\
+  \downarrow && \downarrow\\
+  C_0 \times C_0 & \underset{}{\to} & D_0\times D_0}$$
+is a [[pullback]], and essentially surjective, in the "internal" sense that $C_0 \times_{D_0} Iso(D) \to D_0$ is surjective (or even a quotient map, i.e. a [[regular epimorphism]]), but for which there still does not exist a weak inverse in $Cat(\mathcal{E})$.
+
+For example, let $X$ be a topological space and consider the functor $C(U) \to X$, where $X$ is regarded as an internal category in $Top$ which is [[discrete category|discrete]] in the categorical sense, and $C(U)$ is the [[Cech nerve|Cech groupoid]] associated to an open [[cover]] $X = \bigcup_i U_i$ of $X$.  That means that the space of objects of $C(U)$ is $\coprod_i U_i$, and its space of morphisms is $\coprod_{i,j} (U_i\cap U_j)$.  Then the functor $C(U)\to X$ is fully faithful (essentially by definition of the morphisms in $C(U)$) and essentially surjective (since the $U_i$ are a cover of $X$) in the senses above.  However, in general it does not admit a weak inverse, since the continuous function $\coprod_i U_i \to X$ does not have a continuous section unless one of the $U_i$ is already equal to $X$.
+
+Note that the foundational point of view also fits in this picture; we can simply take $\mathcal{E} = Set_{\not AC}$ to be the category [[Set]] of [[set]]s in a model of set theory that need not satisfy the [[axiom of choice]].  Here the same thing may happen: not every fully faithful and essentially surjective functor has a weak inverse.
+
+### Homotopical motivation
 
 There is a standard way to deal with such situations where we are faced with a category -- here the category $Cat(\mathcal{E})$ of categories internal to $\mathcal{E}$ -- some of whose morphisms look like they ought to have inverses, but do not: we call these would-be invertible morphisms _weak equivalences_ such that our category becomes a [[category with weak equivalences]] or a [[homotopical category]]. Then we pass to the corresponding [[homotopy category]]: the universal "improvement" of our category such that all the would-be invertible morphism do become invertible.
 
-Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally [[k-surjective functor|k-surjective]] for all $k$. It turns out that this choice of weak equivalences is particularly well-behaved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [[internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f\colon C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
+Here we take the weak equivalences in $Cat(\mathcal{E})$ to be the internal functors that are internally fully faithful and essentially surjective. It turns out that this choice of weak equivalences is particularly well-behaved in that it actually forms a [[calculus of fractions]]. Due to the early work on abstract [[homotopy theory]] by Gabriel and Zisman, there is simple explicit construction of the corresponding [[homotopy category]] $Ho(Cat(\mathcal{E}))$ in this case: the objects are the same as those of $Cat(E)$ -- hence [[internal category|categories internal to]] $\mathcal{E}$ for us -- and the morphisms $f\colon C \to D$ are [[span]]s of morphism in $Cat(\mathcal{E})$
 
 $$
   \array{
@@ -47,17 +66,13 @@ So one can understand ordinary anafunctors as follows:
 1. then we universally _force_ the now non-invertible functors 
    to become invertible after all,
    by throwing in formal inverses for them.
-   
-   
-Under the name anafunctors these concepts were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
-
-
-Every functor may be interpreted as an anafunctor; that every anafunctor is equivalent to a functor is equivalent to the [[axiom of choice]], in which case the inclusion of functors into anafunctors is in fact an [[equivalence of categories]]. But if you ignore functors and deal only with anafunctors (or saturated anafunctors), then the theory is entirely [[constructive mathematics|constructive]] (without using the axiom of choice or even [[excluded middle]]). Theorems that classically required choice now don\'t require choice (and indeed become constructive) with anafunctors. Thus, anafunctors (or even saturated anafunctors) are the correct notion to use if you are a constructivist (at least as long as you [[foundations|found]] mathematics on some sort of [[set theory]] at all); but they are also often the correct notion to use in [[internal category]] theory.
 
 
 ## Definitions
 
 Given categories $C$ and $D$, an __anafunctor__ $F\colon C \to D$ may be rather slickly defined as a [[span]] of ordinary ([[strict functor|strict]]) [[functors]] $C \overset{\sigma}\leftarrow \overline{F} \overset{\tau}\rightarrow D$ (where $\overline{F}$ is some category), with the property that the functor $\sigma\colon {\overline{F}} \to C$ is both [[faithful functor|faithful]] and (strictly!) surjective on both objects and morphisms (therefore both [[full functor|full]] and [[essentially surjective functor|essentially surjective on objects]]).  It is also possible to define an anafunctor as a span in which $\sigma$ is merely a [[equivalence of categories|weak equivalence]] (that is, faithful, full, and essentially surjective on objects), although that is slightly more complicated to work with.
+
+### Explicit set-theoretic definition
 
 In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
 * a set $|F|$ of __specifications__ of $F$ (which corresponds to the set of objects of $\overline{F}$);
@@ -82,7 +97,7 @@ Categories, anafunctors, and a suitably defined notion of [[ananatural transform
 
 In any case, (modulo "size issues" which one may want to impose) the inclusion of $Str Cat$ into $Cat_{ana}$ has a right adjoint, described using [[clique]]s. Accordingly, we can instead define anafunctors by means of clique categories, taking an anafunctor from $C$ into $D$ to be a genuine functor from $C$ into $Clique(D)$ (and the 2-category of anafunctors as the Kleisli category for the $Clique(-)$ 2-monad (in particular, natural transformations between anafunctors into $D$ are simply natural transformations of the corresponding genuine functors into $Clique(D)$)).
 
-## Internal anafunctors
+### Internal definition using covers
 
 We generalise the slick definition of anafunctors as spans rather than the detailed definition involving specified values.
 
@@ -122,7 +137,7 @@ Note: in Section 1.1.5 of [HGT1](#HGT1), the following additional axiom was assu
 This is not needed for anafunctors but is used to relate descent to bundles (and then to $2$-bundles).
 
 
-## Homotopy-theoretic interpretation
+### Homotopy-theoretic interpretation
 
 Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a [[weak equivalence]] but an acyclic fibration.  However, it appears that the folk model structure on Cat only exists (with its weak equivalences being the fully faithful and essentially surjective maps) under the assumption of some choice---though full AC is not needed, [[COSHEP]] suffices.
 
