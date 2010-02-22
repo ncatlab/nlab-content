@@ -20,142 +20,211 @@ Let $U\colon A\to X$ be a [[faithful functor]].  A **$U$-structured sink** is a 
 Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final lift.
 
 +-- {: #SFlift style="text-align:center"}
-<svg width="370" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="370" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
-   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <foreignObject height="24" width="30" font-size="16" id="svg_1" y="82" x="13">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-     <mi>a</mi>
-     <mi>i</mi>
-    </msub>
+  <foreignObject x="13" y="82" id="svg_1" font-size="16" width="30" height="24">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>a</mi>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">a_i</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_19" x="75" y="17" font-size="16" width="30" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <msub>
-     <mi>a</mi>
-     <mi>j</mi>
-    </msub>
+  <foreignObject height="24" width="30" font-size="16" y="17" x="75" id="svg_19">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>a</mi>
+       <mi>j</mi>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">a_j</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="25" width="48" font-size="16" y="136" x="65" id="svg_32">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>U</mi>
-    <mo stretchy="false">(</mo>
-    <msub>
-     <mi>a</mi>
-     <mi>j</mi>
-    </msub>
-    <mo stretchy="false">)</mo>
+  <foreignObject id="svg_32" x="71" y="136" font-size="16" width="42" height="25">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>a</mi>
+       <mi>j</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">U(a_j)</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="7" y="199" font-size="16" width="48" height="23" id="svg_37">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mi>U</mi>
-    <mo stretchy="false">(</mo>
-    <msub>
-     <mi>a</mi>
-     <mi>i</mi>
-    </msub>
-    <mo stretchy="false">)</mo>
+  <foreignObject id="svg_37" height="23" width="41.000001" font-size="16" y="199" x="14">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>a</mi>
+       <mi>i</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">U(a_i)</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_45" x="102" y="199" font-size="16" width="24" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <msub>
-     <mi>f</mi>
-     <mi>i</mi>
-    </msub>
+  <foreignObject height="24" width="24" font-size="16" y="199" x="102" id="svg_45">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>f</mi>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">f_i</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_50" height="26" width="24" font-size="16" y="146" x="132">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <msub>
-     <mi>f</mi>
-     <mi>j</mi>
-    </msub>
+  <foreignObject x="132" y="146" font-size="16" width="24" height="26" id="svg_50">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>f</mi>
+       <mi>j</mi>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">f_j</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_55" height="20" width="20" font-size="16" y="29" x="250">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>b</mi>
+  <foreignObject x="250" y="29" font-size="16" width="20" height="20" id="svg_55">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">b</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_60" x="281" y="42" font-size="16" width="20" height="20">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mi>h</mi>
+  <foreignObject height="20" width="20" font-size="16" y="42" x="281" id="svg_60">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>h</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">h</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_63" height="24" width="26" font-size="16" y="202" x="231">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mrow>
-     <mi>g</mi>
-     <mo>&#8242;</mo>
-    </mrow>
+  <foreignObject x="231" y="202" font-size="16" width="26" height="24" id="svg_63">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>g</mi>
+      <mo>&#8242;</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">g'</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_66" x="317" y="86" font-size="16" width="24" height="22">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mrow>
-     <mi>b</mi>
-     <mo>&#8242;</mo>
-    </mrow>
+  <foreignObject height="22" width="24" font-size="16" y="86" x="317" id="svg_66">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>b</mi>
+      <mo>&#8242;</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">b'</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_71" x="210" y="150" font-size="16" width="20" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mi>g</mi>
+  <foreignObject height="24" width="20" font-size="16" y="150" x="210" id="svg_71">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>g</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">g</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_74" x="248" y="146" font-size="16" width="44" height="24">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <mi>U</mi>
-    <mo stretchy="false">(</mo>
-    <mi>b</mi>
-    <mo stretchy="false">)</mo>
+  <foreignObject height="24" width="44" font-size="16" y="146" x="248" id="svg_74">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <mi>b</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">U(b)</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_82" height="24" width="46" font-size="16" y="207" x="315">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>U</mi>
-    <mo stretchy="false">(</mo>
-    <mrow>
-     <mi>b</mi>
-     <mo>&#8242;</mo>
-    </mrow>
-    <mo stretchy="false">)</mo>
+  <foreignObject x="312.999998" y="207" font-size="16" width="41.000001" height="24" id="svg_82">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <mi>b</mi>
+      <mo>&#8242;</mo>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">U(b')</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_88" height="24" width="44" font-size="16" y="170" x="296">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>U</mi>
-    <mo stretchy="false">(</mo>
-    <mi>h</mi>
-    <mo stretchy="false">)</mo>
+  <foreignObject x="296" y="170" font-size="16" width="44" height="24" id="svg_88">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <mi>h</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">U(h)</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_108" height="24" width="20" font-size="16" y="176" x="175">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <mi>X</mi>
+  <foreignObject x="175" y="176" font-size="16" width="20" height="24" id="svg_108">
+   <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>X</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">X</annotation>
+    </semantics>
    </math>
   </foreignObject>
-  <line x1="41" y1="90" x2="251" y2="44" id="svg_98" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)" stroke-width="2"/>
-  <line x1="100" y1="37.000001" x2="315" y2="93" id="svg_99" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)" stroke-dasharray="5,5"/>
-  <line x1="99" y1="30" x2="249" y2="37" id="svg_100" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)"/>
-  <line x1="265" y1="46" x2="318" y2="85" id="svg_102" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)" stroke-dasharray="2,2"/>
-  <line x1="109" y1="156" x2="173" y2="183" id="svg_103" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)" stroke-width="2"/>
-  <line x1="58" y1="207" x2="173" y2="190" id="svg_104" stroke="#000000" fill="none" stroke-width="2" marker-end="url(#se_arrow_fw)"/>
-  <line x1="196" y1="191" x2="311" y2="215" id="svg_105" stroke="#000000" fill="none" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)"/>
-  <line x1="279" y1="169" x2="320" y2="205" id="svg_106" stroke="#000000" fill="none" marker-end="url(#se_arrow_fw)" stroke-width="2" stroke-dasharray="2,2"/>
-  <path fill="none" stroke="#000000" stroke-width="2" marker-end="url(#se_arrow_fw)" d="m40.000011,98l268.999989,5" id="svg_107"/>
-  <line x1="197" y1="183" x2="250" y2="160" id="svg_111" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw)"/>
+  <line stroke-width="2" marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_98" y2="44" x2="251" y1="90" x1="41"/>
+  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_99" y2="93" x2="315" y1="37.000001" x1="100"/>
+  <line marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_100" y2="37" x2="249" y1="30" x1="99"/>
+  <line stroke-dasharray="2,2" marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_102" y2="85" x2="318" y1="46" x1="265"/>
+  <line stroke-width="2" marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_103" y2="183" x2="173" y1="156" x1="109"/>
+  <line marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_104" y2="190" x2="173" y1="207" x1="58"/>
+  <line marker-end="url(#se_arrow_fw)" stroke-dasharray="5,5" stroke-width="2" fill="none" stroke="#000000" id="svg_105" y2="215" x2="311" y1="191" x1="196"/>
+  <line stroke-dasharray="2,2" stroke-width="2" marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_106" y2="205" x2="320" y1="169" x1="279"/>
+  <path id="svg_107" d="m40.000011,98l268.999989,5" marker-end="url(#se_arrow_fw)" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_111" y2="160" x2="250" y1="183" x1="197"/>
  </g>
 </svg>
 =--
