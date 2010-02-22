@@ -32,11 +32,7 @@ $\begin{aligned}
 and the $A_{i}$, $B_{i}$, and $C_{i}$ are Kraus operators.
 
 Since $A$ and $B$ are summed over separate indices the trace-preserving property is maintained, i.e. $\sum_{k} C_{k}^{\dagger}C_{k}=\mathbb{1}$.
-+-- {: .query}
-not sure how to do a blackboard 1 on this site - \mathbb doesn't work since it's a package)
 
-_Reply_:  `\mathbb` works, and I have put it in, but you may have to [install some fonts](/nlab/show/HowTo#software) to see it properly.
-=--
 For a similar methodology see [Nayak and Sen](http://arxiv.org/abs/quant-ph/0605041).
 
 We take the identity arrow, $1_{\rho}: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\rho})$, to be the time evolution of the state $\rho$ in the absence of any channel.  Since this definition is suitably general we have that $t \circ 1_{A}=t=1_{B} \circ t \quad \forall \,\, t: A \to B$.
