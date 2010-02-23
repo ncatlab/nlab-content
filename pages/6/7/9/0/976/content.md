@@ -51,9 +51,9 @@ This was developed further by Bourn and Cordier, and a strong shape version was 
 
 ### Examples
 
-#### Pro-spaces
+#### Pro-spaces in a shape context
 
-The classical applicaiton of shape theory is to the study of [[topological space]]s that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
+The classical application of shape theoretic idea is to the study of [[topological space]]s that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
 
 * $C =$ [[Top]] the category of all [[topological space]]s;
 
@@ -63,13 +63,13 @@ More on this is in the section [Shape theory for topological spaces](ForTopSpace
 
 #### Profinite groups
 
-Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion]]s.  This sort of behaviour is quite general see as this form of abstract shape theory is related to equational completions; see
+Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion]]s.  This sort of behaviour is quite general as this form of abstract shape theory is related to equational completions; see
 
 * Gildenhuys and Kennison, _Equational completions, model induced triples and pro-objects_, J. Pure Applied Algebra, 4 (1971) 317-346.
 
 This aspect is explored reasonably fully in the book by Cordier and Porter (see below).
 
-A different terminology and slightly different emphasis is often used within the shape theoretic literature as it corresponds more to the geometric intuition needed there, deriving originally from the important classical motivation of Borsuk, [[S. Marde?i?|Marde?i?]], and [[J. Segal|Segal]].
+A different terminology and slightly different emphasis is often used within the shape theoretic literature as it corresponds more to the geometric intuition needed there, deriving originally from the important classical motivation of Borsuk, [[Sibe Marde?i?|Marde?i?]], and [[J. Segal|Segal]].
 
 
 ## Shape theory for topological spaces {#ForTopSpaces}
@@ -185,12 +185,41 @@ This is [[Higher Topos Theory|HTT, prop. 7.1.6.8]].
 
 See also $n$lab entries [[shape fibration]], [[approximate fibration]], ... and references 
 
-* D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
-* J.T. Lisica and S. Marde&#353;i&#263;, Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
-* J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008). 
+The original references for the shape theory of metric compacta are: 
+* K. Borsuk, _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
+* K. Borsuk, _ Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
+
+The `ANR-systems' approach of Marde&#353;i&#263; and Segal appeared in
+* S. Marde&#353;i&#263; and J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
+
+and is fully developed in 
+
 * S. Marde&#353;i&#263;, J. Segal, (1982) Shape Theory, North 
 Holland. 
+
+The more or less equivalent pro-object approach was independently developed by Porter in 
+
+* T. Porter, _Cech homotopy I_, Jour. London Math. Soc., 1, 6, 1973, pp. 429-436.
+* T. Porter, _Cech homotopy II_, Jour. London Math. Soc., 2, 6, 1973, pp. 667-675.
+
+References relating more to strong shape  theory include:
+
+* D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
+* J.T. Lisica and S. Marde&#353;i&#263;, Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
+
 * [[Sibe Mardesic|S. Marde?i?]], Strong Shape and Homology, Springer monographs in mathematics, Springer-Verlag. 
-* D.  Bourn and J.-M. Cordier, [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
+
 * M. A. Batanin, [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
-* (more)
+
+* T. Porter,_Stability Results for Topological Spaces_, Math. Zeit. 150, 1974, pp. 1-21.
+
+and to the categorical forms of shape theory:
+* D.  Bourn and J.-M. Cordier, [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
+
+and
+
+* J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008),
+
+which explores categorical methods in the area. 
+
+(more)
