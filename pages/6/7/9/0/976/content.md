@@ -187,9 +187,9 @@ See also $n$lab entries [[shape fibration]], [[approximate fibration]], ... and 
 
 The original references for the shape theory of metric compacta are: 
 * K. Borsuk, _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
-* K. Borsuk, _ Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
+* K. Borsuk, _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
 
-The `ANR-systems' approach of Marde&#353;i&#263; and Segal appeared in
+The 'ANR-systems' approach of Marde&#353;i&#263; and Segal appeared in
 * S. Marde&#353;i&#263; and J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
 
 and is fully developed in 
@@ -211,9 +211,23 @@ References relating more to strong shape  theory include:
 
 * M. A. Batanin, [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 
-* T. Porter,_Stability Results for Topological Spaces_, Math. Zeit. 150, 1974, pp. 1-21.
+* T. Porter, _Stability Results for Topological Spaces_, Math. Zeit. 150, 1974, pp. 1-21.
 
-and to the categorical forms of shape theory:
+* T. Porter, [Abstract homotopy theory in procategories](archive.numdam.org/article/CTGDC_1976__17_2_113_0.pdf)
+, Cahiers Top. G&#233;om. Diff., 17, 1976, pp. 113-124;
+
+* T. Porter,  [Coherent prohomotopical algebra](archive.numdam.org/article/CTGDC_1977__18_2_139_0.pdf), Cahiers Top.G&#233;om.Diff., 18, (1978) pp. 139-179;
+
+* T. Porter, [Coherent prohomotopy theory](archive.numdam.org/article/CTGDC_1978__19_1_3_0.pdf), Cahiers Top. G&#233;om. Diff., 19, (1978) pp. 3-46. 
+
+These last three papers developed a version of the [[BrownAHT]] to pro-categories of simplicial sets and of chain complexes, so as to give [[strong shape theory]] a better foundation and toolbox of homotopical methods. These methods were complementary to those of Edwards and Hastings, (listed above), who used a Quillen model category structure on the pro-category.
+
+References to the categorical forms of shape theory include
+
+* A. Deleanu and P.J. Hilton, On the categorical shape of a functor, Fund. Math. 97 (1977) 157 - 176.
+
+* A. Deleanu and P.J. Hilton, Borsuk's shape and Grothendieck categories of pro-objects, Math. Proc. Camb. Phil. Soc. 79 (1976) 473-482.
+
 * D.  Bourn and J.-M. Cordier, [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
 
 and
