@@ -6,20 +6,20 @@ Two operations, $\alpha$ and $\beta$, of an [[algebraic theory]] are said to __c
 (It is left as an exercise to the reader to formulate this notion in an element-free way.) Note that an operation of arity $0$ or $1$ always commutes with itself; this is not necessarily the case for higher arities. Commuting nullary operations are necessarily equal.
 
 +-- {: #svgcommute style="text-align:center" }
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw1" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
-   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000"/>
-  </marker>
-  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw2" viewBox="0 0 10 10">
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw1" viewBox="0 0 10 10">
    <path fill="#000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+  <marker viewBox="0 0 10 10" id="se_arrow_fw2" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <foreignObject x="4.891323" y="20.022943" id="svg_1" font-size="16" width="179.999992" height="110.999998">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject height="110.999998" width="179.999992" font-size="16" id="svg_1" y="20.022943" x="4.891323">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mrow>
@@ -150,8 +150,8 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="274.891323" y="19.022943" font-size="16" width="179.999992" height="110.999998" id="svg_2">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject id="svg_2" height="110.999998" width="179.999992" font-size="16" y="19.022943" x="274.891323">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mrow>
@@ -272,8 +272,8 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="6.461462" y="198.022943" font-size="16" width="244.000003" height="110.999998" id="svg_84">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject id="svg_84" height="123.000004" width="244.000003" font-size="16" y="198.615044" x="6.461462">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mrow>
@@ -446,8 +446,8 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="212.461462" y="348.022943" font-size="16" width="260.000003" height="110.999998" id="svg_166">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject id="svg_166" height="110.999998" width="260.000003" font-size="16" y="348.022943" x="212.461462">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>&#946;</mi>
@@ -621,8 +621,8 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="409.891323" y="177.022943" font-size="16" width="179.999992" height="110.999998" id="svg_271">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+  <foreignObject id="svg_271" height="110.999998" width="179.999992" font-size="16" y="177.022943" x="409.891323">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
       <mi>&#945;</mi>
@@ -744,14 +744,14 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000" id="svg_3" y2="70" x2="282" y1="71" x1="175"/>
-  <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000" id="svg_4" y2="197" x2="94" y1="132" x1="94"/>
-  <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000" id="svg_5" y2="172" x2="451" y1="133" x1="419"/>
-  <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000" id="svg_6" y2="348" x2="223" y1="311" x1="184"/>
-  <line fill="none" stroke-width="2" stroke="#000" id="svg_7" y2="294" x2="472" y1="339" x1="443"/>
-  <line id="svg_8" fill="none" stroke-width="2" stroke="#000" y2="296" x2="477" y1="341" x1="448"/>
-  <foreignObject height="20" width="48" font-size="16" id="svg_9" y="47" x="204">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <line x1="175" y1="71" x2="282" y2="70" id="svg_3" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw2)"/>
+  <line x1="94" y1="132" x2="94" y2="197" id="svg_4" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw2)"/>
+  <line x1="419" y1="133" x2="451" y2="172" id="svg_5" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw2)"/>
+  <line x1="184" y1="311" x2="223" y2="348" id="svg_6" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_fw2)"/>
+  <line x1="443" y1="339" x2="472" y2="294" id="svg_7" stroke="#000" stroke-width="2" fill="none"/>
+  <line x1="448" y1="341" x2="477" y2="296" stroke="#000" stroke-width="2" fill="none" id="svg_8"/>
+  <foreignObject x="204" y="47" id="svg_9" font-size="16" width="48" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>&#946;</mi>
@@ -760,8 +760,8 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_10" height="20" width="48" font-size="16" y="328" x="169">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="169" y="328" font-size="16" width="48" height="20" id="svg_10">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>&#946;</mi>
@@ -770,8 +770,8 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_16" height="20" width="48" font-size="16" y="150" x="57">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="57" y="150" font-size="16" width="48" height="20" id="svg_16">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>&#945;</mi>
@@ -780,8 +780,8 @@ x_{m 1} &amp;amp; x_{m 2} &amp;amp; \dots &amp;amp; x_{m n}
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_22" height="20" width="48" font-size="16" y="137" x="420">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+  <foreignObject x="420" y="137" font-size="16" width="48" height="20" id="svg_22">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
     <semantics>
      <mrow>
       <mi>&#945;</mi>
