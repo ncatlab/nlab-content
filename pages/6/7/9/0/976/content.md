@@ -23,23 +23,47 @@ The strong shape theory of compact spaces is related to certain constructions on
 
 As shape theory is a [[?ech methods|?ech homotopy theory]], what is the corresponding construction for strong shape. The answer is Steenrod--Sitnikov homology and this is discussed in Marde&#353;i&#263;'s book, Strong Shape and Homology, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.
 
-## Definition
-
-Let $X$ be a [[topological space]].
-
-* The **shape** of $X$ is a [[pro-object]] in the [[homotopy category]] of spaces, defined by...
-
-* The **strong shape** of $X$ is an object in the [[homotopy category]] of [[pro-object]]s of spaces, defined by...
-
-
 ## Abstract shape category
 
-####Idea####
+### Idea
+
 The idea of abstract shape theory is very simple. You have a category, $C$, of objects that you want to study.  (In Borsuk's classical topological case this was the (homotopy) category of compact metric spaces.) You  have a well behaved set of methods that work well for some subcategory, $D$, of those objects (polyhedra in Borsuk's case, where the methods were those of homotopy theory). The categorical idea that can be glimpsed behind the topological constructions of topological shape theory is that of replacing an object $X$ of $C$ with approximations to $X$ by objects of $D$, (so 'approximating' a compact metric space by polyhedra, for instance). Categorically this replaces the object $X$ by the [[comma category]], $(X/D)$, which comes with a projection functor to $D$, which 'records' the approximating $D$-object for each approximation. 
 You then use your invariants for objects in $D$ to define (and study) the more general objects in $C$. This does not come without consequences as you obtain new types of maps, (shape maps) between the objects of $C$, namely functors between the comma categories that respect the projections.  The objects of $C$ together with your new shape maps for the shape category of your situation.
 
-####Simple example####
-Consider the category $C$ of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion]]s.  This sort of behaviour is quite general see as this form of abstract shape theory is related to equational completions; see
+
+### Definition
+
+The **shape category** $Shape(C,D)$ is associated to a pair $(C,D)$ of a category $C$ and a [[dense subcategory]] $D$.
+
+Here _dense subcategory_ is used in the second sense of that term: for every object $X$ in $C$ there is its $D$-expansion, which is the object $\bar{X}$ in the category $pro D$ of [[pro-object]]s in $D$ that is universal ([[initial object|initial]]) with the property that it is equipped with a morphism $X\to\bar{X}$ in $pro D$. 
+
+The shape category $Shape(C,D)$ has 
+
+* the same objects as $C$ 
+
+* its morphisms are equivalence classes of maps between 
+  the $D$-expansions.
+
+A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$, which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[polytope|polyhedra]] into that of all compact [[metric space]]s. 
+
+This was developed further by Bourn and Cordier, and a strong shape version was then found by Batanin.
+
+
+### Examples
+
+#### Pro-spaces
+
+The classical applicaiton of shape theory is to the study of [[topological space]]s that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
+
+* $C =$ [[Top]] the category of all [[topological space]]s;
+
+* $D = CW Cplx$ the subcategory of [[CW-complex]]es.
+
+More on this is in the section [Shape theory for topological spaces](ForTopSpaces) below.
+
+#### Profinite groups
+
+Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion]]s.  This sort of behaviour is quite general see as this form of abstract shape theory is related to equational completions; see
 
 * Gildenhuys and Kennison, _Equational completions, model induced triples and pro-objects_, J. Pure Applied Algebra, 4 (1971) 317-346.
 
@@ -47,18 +71,17 @@ This aspect is explored reasonably fully in the book by Cordier and Porter (see 
 
 A different terminology and slightly different emphasis is often used within the shape theoretic literature as it corresponds more to the geometric intuition needed there, deriving originally from the important classical motivation of Borsuk, [[S. Marde?i?|Marde?i?]], and [[J. Segal|Segal]].
 
-##Definition (Shape theoretic form)##
 
-The **shape category** associated to a pair $(C,D)$ of a category $C$ and a [[dense subcategory]] $D$, in the second sense of that term, that is for every object $X$ in $C$ there is its $D$-expansion, that is a universal object $\bar{X}$ in the category $pro D$ of [[pro-object]]s in $D$, together with a map $X\to\bar{X}$ in $pro D$, which is universal (initial) among all such. The shape category has the same objects as $C$ and its morphisms are equivalence classes of maps between the $D$-expansions.
+## Shape theory for topological spaces {#ForTopSpaces}
 
-A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$, which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[polytope|polyhedra]] into that of all compact [[metric space]]s. 
+### Definition
 
-This was developed further by Bourn and Cordier, and a strong shape version was then found by Batanin.
+...
 
 
-## Shape in terms of $(\infty,1)$-sheaves on a space
+### Strong shape in terms of $(\infty,1)$-sheaves on a space
 
-There is a way to study the strong shape theory of a topological space $X$ in terms of [[∞-stack]]s on $X$, i.e. in terms of the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X)$. This is described in
+There is a way to study the strong shape theory of a topological space $X$ in terms of [[∞-stack]]s on $X$, i.e. in terms of the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ on the [[category of open subsets]] of $X$. This is described in
 
 * [[Bertrand Toen]] and [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ in Proceedings of the
 Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv1.library.cornell.edu/abs/math/0212330)) 
@@ -67,7 +90,7 @@ and in section 7.1.6 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
-
+For more details see [[shape of an (infinity,1)-topos]].
 
 The idea here is to analyse $X$ by, roughly, mapping _out_ of it into topological spaces _over_ $X$ that are at least fiberwise nice topological spaces: in other words, to look at $\infty$-[[covering space]]s over $X$.
 
