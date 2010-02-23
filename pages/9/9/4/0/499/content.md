@@ -1,4 +1,8 @@
-#Definition#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 The **Yoneda embedding** for $C$ a [[locally small category]] is the functor
 
@@ -7,13 +11,13 @@ $$
 $$
 
 from $C$ to the category of [[presheaf|presheaves]] over $C$
-which is the image of the Hom-functor
+which is the image of the [[hom-functor]]
 
 $$
   Hom : C^{op} \times C \to Set
 $$
 
-under the Hom adjunction
+under the Hom [[adjunction]]
 
 $$
   Hom(C^{op} \times C , Set) \simeq
@@ -29,8 +33,8 @@ $$
   \,.
 $$
 
-# Properties
+## Properties
 
-It follows from the [[Yoneda lemma]] that the functor $Y$ is [[full and faithful functor|full and faithful]]. It is also limit preserving (= [[continuous functor]]), but does in general not preserve colimits. 
+It follows from the [[Yoneda lemma]] that the functor $Y$ is [[full and faithful functor|full and faithful]]. It is also [[limit]] preserving (= [[continuous functor]]), but does in general not preserve [[colimit]]s. 
 
 The Yoneda embedding of a [[small category]] $S$ into the category of [[presheaf|presheaves]] on $S$ gives a [[free cocompletion]] of $S$.
