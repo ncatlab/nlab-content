@@ -53,7 +53,7 @@ The definition is due to
 * [[Bertrand Toen]] and [[Gabriele Vezzosi]],  _Segal topoi and stacks over Segal categories_ , in Proceedings of the
 Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv1.library.cornell.edu/abs/math/0212330)).
 
-The relatoin to [[shape theory]] of topological spaces is furhter discussed in section 7.1.6 of 
+The relation to [[shape theory]] of topological spaces is further discussed in section 7.1.6 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
