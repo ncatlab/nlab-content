@@ -8,9 +8,13 @@
 
 While [[homotopy theory]] is suitable for the study of (locally) good [[topological space]]s, it fails to give useful information for bad spaces, whose classical examples are the [[warsaw.gif:file]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [p-adic solenoid](http://en.wikipedia.org/wiki/Solenoid_%28mathematics%29) and so on. Even if our principal interest is in good spaces, bad spaces arise in their study. For example, in the study of dynamical systems on manifolds, an important issue are the attractors of such systems, which are typically fractal sets. The intuitive idea of shape theory is to define invariants of topological spaces by approximating them with good spaces, either by considerations of embedding into good spaces, or by considering abstract inverse systems of good spaces. 
 
-The shape theory has been first introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Borsuk.html) in the 1960s. The modern version of shape theory is developed in terms of inverse systems ([[pro-object]]s) introduced in this setup by S. Marde&#353;i&#263;, J. Segal and independently, by Tim Porter (thesis, 1971). 
+Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Borsuk.html) in the 1960s. The modern version of shape theory is developed in terms of inverse systems ([[pro-object]]s) introduced in this setup by S. Marde&#353;i&#263;, J. Segal and independently, by [[Tim Porter]] (thesis, 1971). 
 
-Shape theory is a '[[?ech methods|?ech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology.
+Shape theory is a '[[?ech methods|?ech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology. An interesting precursor of the theory was developed by Christie, a student of Lefschetz, in his thesis in !944,
+
+* D. E. Christie, _Net homotopy for compacta_, Trams. Amer. Mat. Soc. 56 (1944) 275 - 308.
+
+Although many of the initial ideas were developed by him, the paper went unnoticed until Borsuk developed his slightly different approach in the 1960s.
 
 
 For many applications one needs more refined invariants which build up [[strong shape theory]], while sometimes more crude versions may be useful, for example the recent theory of [[coarse shape]]. In fact, the origins of both shape theory and strong shape theory go back further to work by [Lefshetz](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Lefschetz.html) and his student, D. Christie (thesis plus article, D.E. Christie, _Net homotopy for compacta_,  Trans. Amer. Math. Soc., 56 (1944) 275--308). Christie considered a 2-truncated form of strong shape theory, categorically this corresponds to a lax or op-lax 2-categorical version of shape theory.
