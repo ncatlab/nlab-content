@@ -1,12 +1,16 @@
 [[!redirects pro-objects]]
 
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 A **pro-object** of a category $C$ is a "formal [[filtered category|cofiltered]] limit" of objects of $C$.  The category of pro-objects of $C$ is written $pro$-$C$. Such a category is sometimes called a 'pro-category', but notice that that is *not* the same thing as a pro-object in [[Cat]].
 
 "Pro" is short for "projective limit," an old term for a [[limit]], as contrasted with "ind" in the [[ind-object|dual notion]] for "inductive limit," the old term for [[colimit]].
 
-# Definition #
+## Definition 
 
 There are many ways to make this notion precise.  One is to define the objects of $pro$-$C$ to be diagrams $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|cofiltered]] category.  The set of morphisms between $F:D\to C$ and $G:E\to C$ is then defined to be
 
@@ -16,7 +20,8 @@ This definition is perhaps more intuitive in the dual case of [[ind-object|ind-o
 
 Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of $[C,Set]^{op}$ determined by those functors which are cofiltered limits of representables.  This is reasonable since $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits."
 
-##References##
+## References
+
 One source for the theory of pro-objects is
 
 * J.-M. Cordier and T. Porter, 2008, Shape Theory, categorical methods of approximation, Dover.
