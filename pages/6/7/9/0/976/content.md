@@ -10,14 +10,11 @@ While [[homotopy theory]] is suitable for the study of (locally) good [[topologi
 
 Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Borsuk.html) in the 1960s. The modern version of shape theory is developed in terms of inverse systems ([[pro-object]]s) introduced in this setup by S. Marde&#353;i&#263;, J. Segal and independently, by [[Tim Porter]] (thesis, 1971). 
 
-Shape theory is a '[[?ech methods|?ech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology. An interesting precursor of the theory was developed by Christie, a student of Lefschetz, in his thesis in !944,
-
-* D. E. Christie, _Net homotopy for compacta_, Trams. Amer. Mat. Soc. 56 (1944) 275 - 308.
-
-Although many of the initial ideas were developed by him, the paper went unnoticed until Borsuk developed his slightly different approach in the 1960s.
+Shape theory is a '[[?ech methods|?ech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology. In fact, the origins of both shape theory and strong shape theory go back than further Borsuk's initial papers  to work by [Lefshetz](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Lefschetz.html) and his student, D. Christie (thesis plus article, D.E. Christie, _Net homotopy for compacta_,  Trans. Amer. Math. Soc., 56 (1944) 275--308). Christie considered a 2-truncated form of strong shape theory, categorically this corresponds to a lax or op-lax 2-categorical version of shape theory.
+Although many of the initial ideas were developed by Christie, the paper went unnoticed until Borsuk developed his slightly different approach in the 1960s.
 
 
-For many applications one needs more refined invariants which build up [[strong shape theory]], while sometimes more crude versions may be useful, for example the recent theory of [[coarse shape]]. In fact, the origins of both shape theory and strong shape theory go back further to work by [Lefshetz](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Lefschetz.html) and his student, D. Christie (thesis plus article, D.E. Christie, _Net homotopy for compacta_,  Trans. Amer. Math. Soc., 56 (1944) 275--308). Christie considered a 2-truncated form of strong shape theory, categorically this corresponds to a lax or op-lax 2-categorical version of shape theory.
+For many applications one needs more refined invariants which build up [[strong shape theory]], while sometimes more crude versions may be useful, for example the recent theory of [[coarse shape]]. Strong Shape Theory developed in the 1970s through the work of Edwards and Hastings (lecture notes, see below), Porter, and others.
 
 
 M. Batanin further elucidated strong shape theory from a categorical and 2-categorical point of view, but his approach is still not much used. His 1997 paper, shows the connections between this theory and a homotopy theory of simplicial [[distributor|distributors]] linked to $A_{\infty}$-categories.
@@ -37,9 +34,24 @@ Let $X$ be a [[topological space]].
 
 ## Abstract shape category
 
-The shape category associated to a pair $(C,D)$ of a category $C$ and a [[dense subcategory]] $D$ (of good objects) in the second sense, that is for every object $X$ in $C$ there is its $D$-expansion, that is a universal object $\bar{X}$ in the category $pro D$ of [[pro-object]]s in $D$, together with a map $X\to\bar{X}$ in $pro D$, which is universal (initial) among all such. The shape category has the same objects as $C$ and its morphisms are equivalence classes of maps between the $D$-expansions.
+####Idea####
+The idea of abstract shape theory is very simple. You have a category, $C$, of objects that you want to study.  (In Borsuk's classical topological case this was the (homotopy) category of compact metric spaces.) You  have a well behaved set of methods that work well for some subcategory, $D$, of those objects (polyhedra in Borsuk's case, where the methods were those of homotopy theory). The categorical idea that can be glimpsed behind the topological constructions of topological shape theory is that of replacing an object $X$ of $C$ with approximations to $X$ by objects of $D$, (so 'approximating' a compact metric space by polyhedra, for instance). Categorically this replaces the object $X$ by the [[comma category]], $(X/D)$, which comes with a projection functor to $D$, which 'records' the approximating $D$-object for each approximation. 
+You then use your invariants for objects in $D$ to define (and study) the more general objects in $C$. This does not come without consequences as you obtain new types of maps, (shape maps) between the objects of $C$, namely functors between the comma categories that respect the projections.  The objects of $C$ together with your new shape maps for the shape category of your situation.
 
-A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$ which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[polytope|polyhedra]] into that of all compact [[metric space]]s. 
+####Simple example####
+Consider the category $C$ of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion]]s.  This sort of behaviour is quite general see as this form of abstract shape theory is related to equational completions; see
+
+* Gildenhuys and Kennison, _Equational completions, model induced triples and pro-objects_, J. Pure Applied Algebra, 4 (1971) 317-346.
+
+This aspect is explored reasonably fully in the book by Cordier and Porter (see below).
+
+A different terminology and slightly different emphasis is often used within the shape theoretic literature as it corresponds more to the geometric intuition needed there, deriving originally from the important classical motivation of Borsuk, [[S. Marde?i?|Marde?i?]], and [[J. Segal|Segal]].
+
+##Definition (Shape theoretic form)##
+
+The **shape category** associated to a pair $(C,D)$ of a category $C$ and a [[dense subcategory]] $D$, in the second sense of that term, that is for every object $X$ in $C$ there is its $D$-expansion, that is a universal object $\bar{X}$ in the category $pro D$ of [[pro-object]]s in $D$, together with a map $X\to\bar{X}$ in $pro D$, which is universal (initial) among all such. The shape category has the same objects as $C$ and its morphisms are equivalence classes of maps between the $D$-expansions.
+
+A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$, which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[polytope|polyhedra]] into that of all compact [[metric space]]s. 
 
 This was developed further by Bourn and Cordier, and a strong shape version was then found by Batanin.
 
