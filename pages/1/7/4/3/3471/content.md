@@ -136,7 +136,7 @@ If the topos $\mathcal{T}$ is a [[locally connected topos]] then the left adjoin
 
 ### Of objects in an $(\infty,1)$-topos
 
-The last abstract definition generalizes straightforwardly to every context of [[higher category theory]] where the required notions of [[adjoint functor]] etc. are provided.
+The previous abstract definition generalizes straightforwardly to every context of [[higher category theory]] where the required notions of [[adjoint functor]] etc. are provided.
 
 Notably in [[(∞,1)-category]] theory the global section functor on an [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$ is the [[hom-functor]]
 
@@ -147,6 +147,27 @@ $$
 
 of morphisms out of the terminal object.
 
-For these [[higher category theory|higher category theoretical]] situations apart from the [[right adjoint]] $\Gamma$ of $LConst$ there may also be an interesting [[left adjoint]] of $LConst$. This is discussed at [[homotopy group of an ∞-stack]].
+This is indeed again the terminal geometric morphism
+
++-- {: .un_prop }
+###### Proposition
+
+Let $\mathbf{H}$ be an [[∞-stack]] [[(∞,1)-topos]]. Then the [[∞-groupoid]] $Geom(\mathbf{H}, \infty Grpd)$ of [[geometric morphism|geometric]] [[(∞,1)-functor]]s is [[contractible]].
+
+So $\infty Grpd$ is the [[terminal object]] in the [[(∞,1)-category]] of [[(∞,1)-topos]]es and geometric morphisms.
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT 6.3.4.1]]
+
+=--
+
+
+
+If the [[(∞,1)-topos]] is a [[locally contractible (∞,1)-topos]] then this is an [[essential geometric morphism]].
+
 
 [[!redirects global sections]]
