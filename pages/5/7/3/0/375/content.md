@@ -31,3 +31,4 @@ If $C$ is cartesian closed, and $D\subseteq C$ is a [[reflective subcategory]], 
 
 
 [[!redirects cartesian closed categories]]
+[[!redirects cartesian closed]]
