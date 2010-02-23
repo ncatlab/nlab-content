@@ -1,1 +1,1 @@
-A __bicartesian closed category__ is a [[cartesian closed category]] with finite [[coproducts]]. In the case where this is furthermore a [[preorder]], it is called a [[Heyting algebra]]. They provide the semantics for intuitionistic propositional logic.
+A __bicartesian closed category__ is a [[cartesian closed category]] with finite [[coproducts]]. In the case where this is furthermore a [[preorder]] or [[poset]], it is called a [[Heyting prealgebra]] or [[Heyting algebra]], respectively. They provide the semantics and proof theory of intuitionistic propositional logic.
