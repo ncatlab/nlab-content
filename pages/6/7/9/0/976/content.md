@@ -1,10 +1,16 @@
-#Motivation and history#
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Motivation and history
 
 While [[homotopy theory]] is suitable for the study of (locally) good [[topological space]]s, it fails to give useful information for bad spaces, whose classical examples are the [[warsaw.gif:file]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [p-adic solenoid](http://en.wikipedia.org/wiki/Solenoid_%28mathematics%29) and so on. Even if our principal interest is in good spaces, bad spaces arise in their study. For example, in the study of dynamical systems on manifolds, an important issue are the attractors of such systems, which are typically fractal sets. The intuitive idea of shape theory is to define invariants of topological spaces by approximating them with good spaces, either by considerations of embedding into good spaces, or by considering abstract inverse systems of good spaces. 
 
 The shape theory has been first introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Borsuk.html) in the 1960s. The modern version of shape theory is developed in terms of inverse systems ([[pro-object]]s) introduced in this setup by S. Marde&#353;i&#263;, J. Segal and independently, by Tim Porter (thesis, 1971). 
 
-Shape theory is a '[[Čech methods|Čech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology.
+Shape theory is a '[[?ech methods|?ech homotopy theory]]', having a similar relationship to &#268;ech homology as homotopy theory based on the singular complex construction has to singular homology.
 
 
 For many applications one needs more refined invariants which build up [[strong shape theory]], while sometimes more crude versions may be useful, for example the recent theory of [[coarse shape]]. In fact, the origins of both shape theory and strong shape theory go back further to work by [Lefshetz](http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Lefschetz.html) and his student, D. Christie (thesis plus article, D.E. Christie, _Net homotopy for compacta_,  Trans. Amer. Math. Soc., 56 (1944) 275--308). Christie considered a 2-truncated form of strong shape theory, categorically this corresponds to a lax or op-lax 2-categorical version of shape theory.
@@ -14,9 +20,18 @@ M. Batanin further elucidated strong shape theory from a categorical and 2-categ
 
 The strong shape theory of compact spaces is related to certain constructions on the corresponding (commutative) $C^*$-algebras of functions.  This is related to the algebraic K-theory of such commutative $C^*$-algebras.  Extensions to non-commutative $C^*$-algebras have been made.
 
-As shape theory is a [[Čech methods|Čech homotopy theory]], what is the corresponding construction for strong shape. The answer is Steenrod--Sitnikov homology and this is discussed in Marde&#353;i&#263;'s book, Strong Shape and Homology, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.
+As shape theory is a [[?ech methods|?ech homotopy theory]], what is the corresponding construction for strong shape. The answer is Steenrod--Sitnikov homology and this is discussed in Marde&#353;i&#263;'s book, Strong Shape and Homology, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.
 
-#Abstract shape category#
+## Definition
+
+Let $X$ be a [[topological space]].
+
+* The **shape** of $X$ is a [[pro-object]] in the [[homotopy category]] of spaces, defined by...
+
+* The **strong shape** of $X$ is an object in the [[homotopy category]] of [[pro-object]]s of spaces, defined by...
+
+
+## Abstract shape category
 
 The shape category associated to a pair $(C,D)$ of a category $C$ and a [[dense subcategory]] $D$ (of good objects) in the second sense, that is for every object $X$ in $C$ there is its $D$-expansion, that is a universal object $\bar{X}$ in the category $pro D$ of [[pro-object]]s in $D$, together with a map $X\to\bar{X}$ in $pro D$, which is universal (initial) among all such. The shape category has the same objects as $C$ and its morphisms are equivalence classes of maps between the $D$-expansions.
 
@@ -25,7 +40,109 @@ A more [[categorical shape theory|categorical form of shape theory]] was studied
 This was developed further by Bourn and Cordier, and a strong shape version was then found by Batanin.
 
 
-#References#
+## Shape in terms of $(\infty,1)$-sheaves on a space
+
+There is a way to study the strong shape theory of a topological space $X$ in terms of [[∞-stack]]s on $X$, i.e. in terms of the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X)$. This is described in
+
+* [[Bertrand Toen]] and [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ in Proceedings of the
+Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv1.library.cornell.edu/abs/math/0212330)) 
+
+and in section 7.1.6 of
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+
+
+
+The idea here is to analyse $X$ by, roughly, mapping _out_ of it into topological spaces _over_ $X$ that are at least fiberwise nice topological spaces: in other words, to look at $\infty$-[[covering space]]s over $X$.
+
+For each $\infty$-groupoid $K$ let $LConst_K$ be the corresponding [[constant ∞-stack]] over $X$ and let $\Gamma(LConst_K) \in \infty Grpd$ be its [[global section]]s, i.e. the $\infty$-groupoid of maps from $X$ to the $\infty$-[[covering space]] represented by $LConst_K$.
+
+This operation provides an endofunctor
+
+$$
+  \infty Grpd \stackrel{LConst}{\to}
+  Sh_{(\infty,1)}(X)
+  \stackrel{\Gamma}{\to}
+  \infty Grpd
+  \,.
+$$
+
+And this functor preserves finite [[limit]]s: that's because the pair
+
+$$
+  (LConst \dashv \Gamma) : Sh_{(\infty,1)}(X) \stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}
+  \infty Grpd
+$$
+
+is the terminal [[global section]] [[geometric morphism]] of [[(∞,1)-topos]]es and so $LConst$ preserves finite limits. $\Gamma$, being the [[right adjoint]] preserves of course all limits.
+
+For a [[small category|small]] [[(∞,1)-category]] $C$, a functor $C \to \infty Grpd$ that preserves finite limits may be thought of as a [[pro-object]] in $C$. Motivated by this observation it makes sense to set
+
+$$
+  Pro(\infty Grpd) \subset Func(\infty Grpd, \infty Grpd)^{op}
+$$
+
+on those [[(∞,1)-functor]]s that preserve finite limits. Call an object in $Pro(\infty Grpd)$ a **pro-space** or **shape**. Notice that by the [[homotopy hypothesis]]-theorem we should think here of $\infty Grpd \simeq Top_{cg,wH}$ as the category of [[nice topological space]]s.
+
+Then the above constuction assigns to each $X \in Top$ its strong **shape**
+
+$$
+  Shape(X) := \Gamma \circ LConst \in Pro(\infty Grpd)
+  \,.
+$$
+
+Given a [[geometric morphism]] 
+
+$$
+  (f^* \dashv f_*) : \mathbf{H} \to \mathbf{K}
+$$
+
+of [[(∞,1)-topos]]es, the unit $Id_{\mathbf{K}} \to f_* \circ f^*$ of the adjunction induces a transformation
+
+$$
+  \Gamma_{\mathbf{K}}\circ LConst_{\mathbf{K}}
+  \to 
+  \Gamma_{\mathbf{K}}
+   \circ 
+    f_*
+    \circ   
+    f^* 
+   \circ  LConst_{\mathbf{K}}
+  \simeq
+  \Gamma_{\mathbf{H}}\circ LConst_{\mathbf{H}}
+$$
+
+that may be regarded as a morphism of shapes
+
+$$
+  Shape(f) : Shape(\mathbf{K}) \to Shape(\mathbf{H})
+  \,.
+$$
+
+The geometric morphism $f$ is a **shape invariance** if $Shape(f)$ is an equivalence of pro-spaces.
+
++-- {: .un_prop }
+###### Proposition
+
+For $f : X \to Y$ a continuous map of [[paracompact space]]s, the induced geometric morphism $(f^* \dashv f*) : Sh_{(\infty,1)}(X) \to Sh_{(\infty,1)}(Y)$ is a shape equivalence, precisely if for each [[CW-complex]] $K$ the map 
+
+$$
+  Top(Y,K) \to Top(X,K)
+$$
+
+is an equivalence.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 7.1.6.8]].
+
+=--
+
+## References
 
 See also $n$lab entries [[shape fibration]], [[approximate fibration]], ... and references 
 
@@ -34,7 +151,7 @@ See also $n$lab entries [[shape fibration]], [[approximate fibration]], ... and 
 * J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008). 
 * S. Marde&#353;i&#263;, J. Segal, (1982) Shape Theory, North 
 Holland. 
-* [[Sibe Mardesic|S. Mardešić]], Strong Shape and Homology, Springer monographs in mathematics, Springer-Verlag. 
+* [[Sibe Mardesic|S. Marde?i?]], Strong Shape and Homology, Springer monographs in mathematics, Springer-Verlag. 
 * D.  Bourn and J.-M. Cordier, [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
 * M. A. Batanin, [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 * (more)
