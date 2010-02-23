@@ -26,7 +26,7 @@ One source for the theory of pro-objects is
 
 * J.-M. Cordier and T. Porter, 2008, Shape Theory, categorical methods of approximation, Dover.
 
-(I might as well get a plug in!!  It is a reprint of the 1989 edition without amendments.)
+(It is a reprint of the 1989 edition without amendments.)
 
 Another good reference is
 
