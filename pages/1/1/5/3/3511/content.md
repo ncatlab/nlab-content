@@ -31,8 +31,28 @@ As an [[SSet]]-[[enriched category]] the [[(∞,1)-category of (∞,1)-categorie
 
 One [[model category]] structure presenting this is the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]]. As a plain [[model category]] this is [[Quillen equivalence|Quillen equivalent]] to $sSet_{Joyal}$, but as an [[enriched model category]] it is $sSet_{Quillen}$ enriched, so that its full [[SSet]]-subcategory on fibrant-cofibrant objects presents the $(\infty,1)$-category of $(\infty,1)$-categories.
 
+## Properties
 
+### Automorphisms
 
++-- {: .un_theorem }
+###### Theorem
+
+The full subcategory of the [[(∞,1)-category of (∞,1)-categories]] $Func((\infty,1)Cat, (\infty,1)Cat)$ on those [[(∞,1)-functor]]s that are equivalences is equivalent to $\{Id, op\}$: it contains only the identity functor and the one that sends and $(\infty,1)$-category to its [[opposite (infinity,1)-category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is due to
+
+* [[Bertrand Toen]],  _Vers une axiomatisation de la th&#233;orie des cat&#233;gories sup&#233;riures_ , K-theory 34 (2005), no. 3,
+233-263.
+
+It appears as [[Higher Topos Theory|HTT, theorem 5.2.9.1]].
+
+=--
 
 category: category
 
