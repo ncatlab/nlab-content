@@ -38,7 +38,7 @@ $$
 
 =--
 
-This is the $(∞,1)$-categorical [[span trace]] of the identity-[[span]]
+This is the $(\infty,1)$-categorical [[span trace]] of the identity-[[span]]
 
 $$
   \mathcal{L}X =
