@@ -23,4 +23,8 @@ This statement is originally due to [[Charles Rezk]]. It is reproduced as theore
 David Corfield: What are the object classifiers for [[Top]]?
 
 [[Mike Shulman]]: I presume you mean Top as a model for $\infty Gpd$?  I expect that you get them by looking at the $\infty$-groupoid [[core]] of the $(\infty,1)$-category of all $\kappa$-compact $\infty$-groupoids.
+
+[[David Corfield]]: Thanks. Do we have this $\kappa$-compact business explained somewhere? Should I also be thinking about the [[universal fibration of (infinity,1)-categories|universal fibration of (infinity,1)-groupoids]]?
+
+
 =--
