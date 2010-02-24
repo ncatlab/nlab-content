@@ -49,6 +49,13 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[topos]]
 
+* Examples
+
+  * [[Set]], [[FinSet]]
+
+  * [[category of sheaves]], [[presheaf]]
+
+
 #### A2.2 The monadicity theorem
 
 * [[monadicity theorem]]
