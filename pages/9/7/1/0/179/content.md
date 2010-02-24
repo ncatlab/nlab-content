@@ -131,6 +131,12 @@ which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, 
 [[!redirects L-infinity-algebroid]]
 [[!redirects L-infinity algebroid]]
 [[!redirects L-infinity Lie algebroid]]
+
+[[!redirects L-∞-algebroid]]
+[[!redirects L-∞ algebroid]]
+[[!redirects L-∞ Lie algebroid]]
+
+
 [[!redirects Lie-∞-algebroid]]
 [[!redirects Lie-∞-algebroids]]
 [[!redirects Lie-∞ algebroid]]
