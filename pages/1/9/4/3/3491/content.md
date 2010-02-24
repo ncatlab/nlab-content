@@ -323,23 +323,23 @@ This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.
 
 ### Categorical fibration
 
-### Inner fibration
+### Inner fibrations
 
 
 +-- {: .un_prop}
 ###### Proposition
 
-A [[simplicial set]] $K$ is the [[nerve]] of an ordinary [[category]] $C$, $K \simeq_{iso} N(C)$ precisely if $K \to \Delta[0]$ has _unique_ inner [[horn]] fillers, i.e. precisely if for all morphisms 
+A [[simplicial set]] $K$ is the [[nerve]] of an ordinary [[category]] $C$, $K \simeq_{iso} N(C)$ precisely if the terminal morphism $K \to \Delta[0]$ is an inner fibration with _unique_ inner [[horn]] fillers, i.e. precisely if for all morphisms 
 
 $$
-   \Lambda[n]_ \to K
+   \Lambda[n]_i \to K
 $$
 
-with $n \in \mathbb{N}$ and $0 \lt i \lt n$ there is a _unique_ morphism $\Delta[n] \to K$_ making the diagram
+with $n \in \mathbb{N}$ and $0 \lt i \lt n$ there is a _unique_ morphism $\Delta[n] \to K$ making the diagram
 
 $$
   \array{
-    \Lambda[n] &\to& K
+    \Lambda[n]_i &\to& K
     \\
     \downarrow & \nearrow
     \\
