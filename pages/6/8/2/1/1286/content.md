@@ -62,6 +62,9 @@ A detailed illustration and motivation of the need of these "good limits" that d
 
   * [[Bertrand Toen]], _Simplicial presheaves and derived algebraic geometry_ course on [Simplicial Methods in Higher Categories](http://www.crm.cat/HigherCategories/) ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf#page=99))
 
+  There are various slight variations of this. For instance using the [[monoidal Dold-Kan correspondence]], simplicial rings may be replaced with non-positively graded cochain [[dg-algebra]]s.
+
+  One application of derived stacks on $(dgAlg^-)^{op}$ is the [[BV-BRST formalism]] in [[physics]].
 
 * A derived refinement of the ordinary [[site]] $\mathbb{L}$ of [[smooth loci]] is the [[SSet-site]] $cs \mathbb{L}$ of [[cosimplicial object|cosimplicial]] [[smooth loci]]. Derived stacks on this are the objects in a theory that could be called [[derived synthetic differential geometry]].
 
