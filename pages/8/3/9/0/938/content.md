@@ -24,6 +24,7 @@ The existence of a weak homotopy equivalence from $X$ to $Y$ is a reflexive and 
 
 Since the the existence of a weak homotopy equivalence is reflexive and transitive but not [[symmetric relation|symmetric]], we can state this explicitly as follows: there exists a [[zigzag]] of weak homotopy equivalences $X \leftarrow \to\leftarrow \dots \to Y$.  This is equivalent to saying that $X$ and $Y$ become [[isomorphism|isomorphic]] in the [[homotopy category]] of topological spaces with the weak homotopy equivalences inverted.
 
+The [[homotopy category]] of [[Top]] with respect to weak homotopy equivalences is [[Ho(Top)]]${}_{whe}$.
 
 ## Properties
 
