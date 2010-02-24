@@ -23,6 +23,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Bruce Bartlett]]
 * [[Charles Rezk]]
 * [[Charles Wells]]
+* [[Chenchang Zhu]]
 * [[Chris]] (possibly one of the following Chrises)
 * [[Chris Brav]]
 * [[Chris Schommer-Pries]]
