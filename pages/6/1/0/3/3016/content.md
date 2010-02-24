@@ -93,7 +93,18 @@ It turns out that all these concepts are special cases of a construction obtaine
 
 * In Martin-L&#246;f [[type theory]], from a [[type]] $A$ and elements $a, b \in A$, we construct a new type $Id(a, b)$ whose elements are to be thought of as proofs that $a$ and $b$ are propositionally equal. The type-theoretic [[functions]] $1 \to Id(a, a)$, $Id(b, c) \times Id(a, b) \to Id(a, c)$ and $Id(a, b) \to Id(b, a)$ express the [[equivalence relation|reflexivity, transitivity and symmetry]] of propositional [[equality]]. The type $A$ may be thought of as a [[groupoid]], but only by quotienting out by equations expressing associativity. As with the homotopy theoretic case, it makes sense not to do so. Then the type $A$ may be thought of as an [[∞-groupoid]].  See _[Homotopy theoretic models of identity types](http://arxiv.org/abs/0709.0248)_ by [[Michael Warren]] and [[Steve Awodey]].
 
-...
+### In physics {#Physics}
+
+The [[BV-BRST formalism]] is secretly a way to talk about the fact that configuraton spaces of [[gauge theory|gauge theories]] are not naive spaces such as [[manifold]]s, but are general [[space]]s in the sense of [[higher geometry]]: 
+
+the configuration space is really an object $Conf \in Sh_{(\infty,1)}((dgAlg^-)^{op})$ in the [[∞-stack]] [[(∞,1)-topos]] on the [[(∞,1)-site]] $(dgAlg^-)^{op}$ of certain [[algebra in an (∞,1)-category|∞-algebras]] modeled as [[dg-algebra]]s. The BV-BRST-complex of a physical system is the global [[derived geometry|derived]] function algebra 
+
+$$
+  \mathcal{O}(Conf) \in dgAlg
+  \,.
+$$
+
+> (many more aspects go here, eventually)...
 
 ### In your favorite topic
 
