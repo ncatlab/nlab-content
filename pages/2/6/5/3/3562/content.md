@@ -17,6 +17,9 @@ $$
 
 with the obvious composition law.
 
+With $C$ incarnated as a [[quasi-category]], the [[simplicial set]] $C^{op}$ is that obtained by reversing the order of all the face and degeneracy maps. See [[opposite quasi-category]].
+
+
 ## Properties
 
 The operation extends to an [[automorphism|automorphic]] [[(∞,1)-functor]] 
