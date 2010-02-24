@@ -5,7 +5,9 @@
 
 ## Idea
 
-The notion of **opposite** of a [[quasi-category]] generalizes the notion of [[opposite category]] from [[category theory]].
+The general notion of [[opposite (∞,1)-category]] leads to a notion of **opposite of a quasi-category** , when [[(∞,1)-categories]] are incarnated as [[quasi-categories]]. 
+
+So the notion of **opposite** of a [[quasi-category]] generalizes the notion of [[opposite category]] from [[category theory]].
 
 
 ## Definition
