@@ -76,6 +76,8 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[opposite quasi-category]]
 
+* [[equivalence of quasi-categories]]
+
 
 ## Discussion
 
