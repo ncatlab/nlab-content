@@ -115,6 +115,22 @@ The morphisms with the [[left lifting property]] against all inner fibrations ar
 
 ## Properties
 
++-- {: .un_remark}
+###### Remark
+
+By the [[small object argument]] we have that every morphism $f : X \to Y$ of simplicial sets may be factored as
+
+$$
+  f : X \to Z \to Y
+$$
+
+with $X \to Z$ a left/right/inner anodyne cofibraiton and $Z \to Y$ accordingly a left/right/inner Kan fibration.
+
+
+=--
+
+
+
 ### Trivial fibration
 
 
@@ -122,31 +138,110 @@ The morphisms with the [[left lifting property]] against all inner fibrations ar
 
 ### (Left/)Right fibration
 
-All properties of right fibrations hold for left fibrations in the suitably dualized form, and vice versa. We often state explicitly just one of the two.
++-- {: .un_remark}
+###### Remark
+
+Under the operation of forming the [[opposite quasi-category]], left fibrations turn into right fibrations, and vice versa: if $p : C \to D$ is a left fibration then $p^{op} : C^{op} \to D^{op}$ is a right fibration.
+
+Therefore it is sufficient to list properties of only one type of these fib rations, that for the other follows.
+
+=--
 
 #### Homotopy lifting property
 
-**Proposition** A morphism $p : X \to X$ of simplicial sets is a left fibration precisely if the canonical morphism
+In classical [[homotopy theory]], a continuous map $p : E \to B$ of [[topological spaces]] is said to have the [[homotopy lifting property]] if it has the [[right lifting property]] with respect to all morphisms $Y \stackrel{(Id, 0)}{\to} Y \times I$ for $I = [0,1]$ the standard [[interval]] and every commuting diagram
+
+$$
+  \array{
+    Y &\to& E
+    \\
+    \downarrow && \downarrow
+    \\
+    Y \times I &\to& B
+  }
+$$
+
+there exists a lift $\sigma : Y \times I \to E$ making the two triangles
+
+$$
+  \array{
+    Y &\to& E
+    \\
+    \downarrow &{}^\sigma\nearrow& \downarrow
+    \\
+    Y \times I &\to& B
+  }
+$$
+
+commute. For $Y = *$ the [[point]] this can be rephrased as saying that the 
+universal morphism $E^I \to B^I \times_B E$ induced by the commuting square
+commuting square
+
+$$
+  \array{
+    E^I &\to& E
+    \\
+    \downarrow && \downarrow
+    \\
+    B^I &\to& B
+  }
+$$
+
+is an [[epimorphism]]. If it is even an [[isomorphism]] then the lift $\sigma$ exists _uniquely_ . This is the situation that the following proposition generalizes:
+
++-- {: .un_prop}
+###### Proposition
+
+A morphism $p : X \to S$ of simplicial sets is a left fibration precisely if the canonical morphism
 
 $$
   X^{\Delta[1]} \to X^{\{0\}} \times_{S^{\{0\}}} S^{\Delta^1}
 $$
 
-is a trivial fibration.
+is a trivial Kan fibration.
 
-**Proof** This is a corollary of the characterization of left anodyne morphisms in [Properties of left anodyne maps](#PropRightAnodyne) by [[Andre Joyal]], recalled in [[Higher Topos Theory|HTT, corollary 2.1.2.10]].
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is a corollary of the characterization of left anodyne morphisms in [Properties of left anodyne maps](#PropRightAnodyne) by [[Andre Joyal]], recalled in [[Higher Topos Theory|HTT, corollary 2.1.2.10]].
+
+=--
+
 
 #### As fibrations in $\infty$-groupoids
 
 The notion of right fibration of quasi-categories generalizes the notion of [[category fibered in groupoids]]. This follows from the following properties.
 
-**Proposition** For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
++-- {: .un_prop}
+###### Proposition
 
-**Proof** Due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT, prop. 1.2.5.1]].
+For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
 
-**Proposition** Right (left) fibrations are preserved by [[pullback]] in [[sSet]]. 
+=--
 
-**Corollary** It follows that the fiber $X_c$ of every right fibration $X \to C$ over every point $c \in C$, i.e. the [[pullback]]
++-- {: .proof}
+###### Proof
+
+Due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT, prop. 1.2.5.1]].
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+Right (left) fibrations are preserved by [[pullback]] in [[sSet]]. 
+
+=--
+
+
++-- {: .un_corollary}
+###### Corollary
+
+It follows that the fiber $X_c$ of every right fibration $X \to C$ over every point $c \in C$, i.e. the [[pullback]]
 
 $$
   \array{
@@ -160,15 +255,39 @@ $$
 
 is a [[Kan complex]].
 
-**Proposition** For $C$ and $D$ quasi-categories that are ordinary [[categories]] (i.e. simplicial sets that are [[nerve]]s of ordinary categories), a morphism $C \to D$ is a right fibration precisely if the correspunding ordinary [[functor]] exhibits $C$ as a [[category fibered in groupoids]] over $D$.
+=--
 
-**Proof** This is [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ and $D$ quasi-categories that are ordinary [[categories]] (i.e. simplicial sets that are [[nerve]]s of ordinary categories), a morphism $C \to D$ is a right fibration precisely if the correspunding ordinary [[functor]] exhibits $C$ as a [[category fibered in groupoids]] over $D$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
+
+=--
 
 A canonical class of examples of a [[fibered category]] is the [[codomain fibration]]. This is actually a [[bifibration]]. For an ordinary category, a bifiber of this is just a set. For an $(\infty,1)$-category it is an $\infty$-groupoid. Hence fixing only one fiber of the bifibration should yield a fibration in $\infty$-groupoids. This is asserted by the following statement.
 
-**Proposition** Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $C_{p/}$ be the corresponding [[over quasi-category|under quasi-category]]. Then the canonical propjection $C_{p/} \to C$ is a left fibration.
++-- {: .un_prop}
+###### Proposition
 
-**Proof** Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
+Let $p : K \to C$ be an arbitrary morphism to a [[quasi-category]] $C$ and let $C_{p/}$ be the corresponding [[over quasi-category|under quasi-category]]. Then the canonical propjection $C_{p/} \to C$ is a left fibration.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
+
+=--
 
 
 #### (Left/)Right anodyne moprphisms {#PropRightAnodyne}
@@ -185,7 +304,12 @@ $LAn_0 =$
 
 * blah-blah
 
-**Proof** This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.2.6]].
++-- {: .proof}
+###### Proof
+
+This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.2.6]].
+
+=--
 
 
 ### (co)Cartesian fibration
