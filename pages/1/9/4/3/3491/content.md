@@ -22,10 +22,9 @@ The analog of this for [[quasi-categories]] are
 
 There are more types of fibrations between the [[simplicial set]]s underlying the [[quasi-category]]
 
-* categorical fibrations;
+* inner fibrations -- these correspond to **bundles of [[quasi-categories]]** : an inner fibration $E \to \Delta[1]$ over the interval characterizes the fibers $C, D$ over the endpoints $0,1 \in \Delta[1]$ as [[quasi-categories]]. Notably havingg an inner fibration $C \to \Delta[0]$ over the point says precisely that $C$ is a [[quasi-category]].
 
-* inner fibrations.
-
+* categorical fibrations -- these appear as the fibrations in the sense of [[model category]] theory in the Joyal [[model structure for quasi-categories]] $sSet_{Joyal}$ . But they have no particular intrinsic meaning in [[higher category theory]]. In fact, there is also the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]] which is [[Quillen equivalence|Quillen equivalent]] to $sSet_{Joyal}$ and in which the model-theoretic fibrations coincide precisely with the [[Cartesian fibration]]s that do have an intrinsic category theoretic meaning.
 
 
 
@@ -133,6 +132,7 @@ with $X \to Z$ a left/right/inner anodyne cofibraiton and $Z \to Y$ accordingly 
 
 ### Trivial fibration
 
+...
 
 ### Kan fibration
 
@@ -292,7 +292,10 @@ Due to [[Andre Joyal]]. Recalled as [[Higher Topos Theory|HTT, prop 2.1.2.2]].
 
 #### (Left/)Right anodyne moprphisms {#PropRightAnodyne}
 
-**Proposition** The collection of left anodyne morphisms (those with [[left lifting property]] agains left fibrations) is equivalently $LAn = LLP(RLP(LAn_0))$ for the following choices of $LAn_0$:
++-- {: .un_prop}
+###### Proposition
+
+The collection of left anodyne morphisms (those with [[left lifting property]] against left fibrations) is equivalently $LAn = LLP(RLP(LAn_0))$ for the following choices of $LAn_0$:
 
 $LAn_0 =$
 
@@ -303,6 +306,9 @@ $LAn_0 =$
 * blah-blah
 
 * blah-blah
+
+
+=--
 
 +-- {: .proof}
 ###### Proof
@@ -317,10 +323,119 @@ This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.
 
 ### Categorical fibration
 
-
 ### Inner fibration
 
 
++-- {: .un_prop}
+###### Proposition
+
+A [[simplicial set]] $K$ is the [[nerve]] of an ordinary [[category]] $C$, $K \simeq_{iso} N(C)$ precisely if $K \to \Delta[0]$ has _unique_ inner [[horn]] fillers, i.e. precisely if for all morphisms 
+
+$$
+   \Lambda[n]_ \to K
+$$
+
+with $n \in \mathbb{N}$ and $0 \lt i \lt n$ there is a _unique_ morphism $\Delta[n] \to K$_ making the diagram
+
+$$
+  \array{
+    \Lambda[n] &\to& K
+    \\
+    \downarrow & \nearrow
+    \\
+    \Delta[n]
+  }
+$$
+
+commute.
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 1.1.2.2]]
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+It follows that under the [[nerve]] _every_ functor $f : C \to D$ between ordinary [[categories]] is an inner fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate, but let's spell it out:
+
+In any commutative diagram
+
+$$
+  \array{
+    \Lambda[n] &\to& N(C)
+    \\
+    \downarrow && \nearrow^{\mathrlap{N(f)}}
+    \\
+    \Delta[n] && \to& N(D)
+  }
+$$
+
+by the above the bottom morphism is already unqiely specified by the remaining diagram. 
+
+$$
+  \array{
+    \Lambda[n] &\to& N(C)
+    \\
+    \downarrow && \nearrow^{\mathrlap{N(f)}}
+    \\
+    \Delta[n] && N(D)
+  }
+  \,.
+$$
+
+By the above there exists a unique lift into $N(C)$
+
+$$
+  \array{
+    \Lambda[n] &\to& N(C)
+    \\
+    \downarrow &\nearrow& \nearrow^{\mathrlap{N(f)}}
+    \\
+    \Delta[n] && N(D)
+  }
+$$
+
+and by uniqueness of lifts into $N(D)$ this must also make the lower square commute
+
+$$
+  \array{
+    \Lambda[n] &\to& N(C)
+    \\
+    \downarrow &\nearrow& \nearrow^{\mathrlap{N(f)}}
+    \\
+    \Delta[n] &\to& N(D)
+  }
+  \,.
+$$
+
+
+=--
+
+
+## Examples
+
+### Cartesian fibrations over simplices {#CartOverSimplex}
+
+
+... for the moment see [[Higher Topos Theory|HTT, section 3.2.2]] ...
+
+
+### The universal Cartesian fibration
+
+for the moment see
+
+* [[universal fibration of (∞,1)-categories]]. 
 
 
 
