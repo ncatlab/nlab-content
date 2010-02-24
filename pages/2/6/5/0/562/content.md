@@ -31,7 +31,7 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 [[Sridhar Ramesh]]: Ah, of course, that's what I was missing. Thanks, both of you; that clears it all up.
 =--
 
-Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] are called **categories fibered in groupoids**.
+Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] are called **[[categories fibered in groupoids]]**.
 
 
 ## Definition 
@@ -40,9 +40,9 @@ Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morp
 
 As a side note, we say that $\phi$ is _weakly cartesian_ if it has the property described above only when $g$ is an identity.  One can prove that $p$ is a fibration if and only if firstly, it has the above property with "cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  In a fibration, every weakly cartesian arrow is cartesian, but this is not true in general.  Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.
 
-We say that $p$ is an **opfibration** if $p^{op}:E^{op}\to B^{op}$ is a fibration.  Functors that are both fibrations as well as opfibrations are called **[[bifibration]]s**. Traditional term for opfibrations (especially in algebraic geometry) is cofibered category, and if the fibers are grupoids then also "category cofibered in groupoids" (SGA I, [[Higher Topos Theory]]). The complaints against this term were given by Gray and accepted by much of homotopy/category theory community. 
+We say that $p$ is an **opfibration** if $p^{op}:E^{op}\to B^{op}$ is a fibration.  Functors that are both fibrations as well as opfibrations are called **[[bifibration]]s**. Traditional term for opfibrations (especially in algebraic geometry) is cofibered category, and if the fibers are grupoids then also "[[category cofibered in groupoids]]" (SGA I, [[Higher Topos Theory]]). The complaints against this term were given by Gray and accepted by much of homotopy/category theory community. 
 
-Grothendieck originally called these "cofibered categories," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].  (Unfortunately, however, using the internal notion of fibration in a 2-category mentioned below, opfibrations are fibrations in the 2-cell dual $Cat^{co}$, while the fibrations in the 1-cell dual $Cat^{op}$ are more deserving of the name "opfibration.") Lurie's [[Higher Topos Theory]] also says "category cofibered in groupoids" for what is here opfibration whose fibers are groupoids. 
+Grothendieck originally called these "cofibered categories," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].  (Unfortunately, however, using the internal notion of fibration in a 2-category mentioned below, opfibrations are fibrations in the 2-cell dual $Cat^{co}$, while the fibrations in the 1-cell dual $Cat^{op}$ are more deserving of the name "opfibration.") Lurie's [[Higher Topos Theory]] also says "[[category cofibered in groupoids]]" for what is here opfibration whose fibers are groupoids. 
 
 A square
 $$\array{E' & \to & E \\ \downarrow && \downarrow \\ B' &\to  & B}$$
@@ -133,7 +133,3 @@ There are lots of references on fibrations; feel free to add your favorites!
 [[!redirects fibered categories]]
 [[!redirects fibred categories]]
 
-[[!redirects category fibered in groupoids]]
-[[!redirects category fibred in groupoids]]
-[[!redirects categories fibered in groupoids]]
-[[!redirects categories fibred in groupoids]]
