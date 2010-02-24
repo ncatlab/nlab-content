@@ -27,6 +27,14 @@ $$
 
 of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $C(X,Y)$ as a [[direct sum]]mand of $C(X,Z)$.
 
+So if $C(X,Y) = \coprod_i C(X,Y)_{i \in \pi_0(C(X,Y))}$ and $C(X,Z) = \coprod_{j \in \pi_0((C(X,Z))} C(X,Z)_j$ is the decomposition into connected components, then there is an injective function
+
+$$
+  j : \pi_0(C(X,Y)) \to \pi_0(C(X,Z))
+$$
+
+such that $C(X,f)$ is given by component maps $C(X,Y)_i \to C(X,Z)_{j(i)}$ which are each an equivalence.
+
 ## Properties
 
 Write $Sub(Z)$ for the collection of equivalence classes of monomorphisms to $Z$. 
