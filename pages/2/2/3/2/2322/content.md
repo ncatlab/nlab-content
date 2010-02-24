@@ -26,5 +26,6 @@ David Corfield: What are the object classifiers for [[Top]]?
 
 [[David Corfield]]: Thanks. Do we have this $\kappa$-compact business explained somewhere? Should I also be thinking about the [[universal fibration of (infinity,1)-categories|universal fibration of (infinity,1)-groupoids]]?
 
+[[Urs Schreiber]]: see [[compact object]]
 
 =--
