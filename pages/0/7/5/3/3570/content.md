@@ -1,4 +1,4 @@
-A space  may have very little separating it from `manifoldness', yet a `singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, cf. Borsuk's book (referenced below.)
+A space  may have very little separating it from 'manifoldness', yet a 'singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, cf. Borsuk's book (referenced below.)
 
 The Warsaw circle $S_W $ is the subset of the plane, $\mathbb{R}^2$, specified by
 
