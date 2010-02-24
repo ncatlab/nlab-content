@@ -93,6 +93,11 @@ In any [[Grothendieck topos]] $E = Sh(C)$ the natural numbers object is given by
 
 There are interesting cases in which such sheaf toposes contain objects that look like they ought to be natural numbers objects but do not satisfy the above axioms: for instance some of the models described at [[Models for Smooth Infinitesimal Analysis]] are sheaf toposes that contain besides the standard natural number object a larger object of **[[smooth natural numbers]]** that has [[generalized element]]s which are "infinite natural numbers" in the sense of [[nonstandard analysis]].
 
+## Properties
+
+Let $(f^* \dashv f_*) : F \stackrel{\overset{f^*}{\leftarrow}}{\overset{f_*}{\to}} E$ is a [[geometric morphism]] of toposes. If $N \in E$ is a natural numbers object, then $f^* N$ is a natural numbers object in $F$. ([[Elephant|Elephant, lemma 4.1.14]]).
+
+
 
 [[!redirects natural numbers objects]]
 [[!redirects natural number object]]
