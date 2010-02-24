@@ -25,7 +25,7 @@ $$
   C(X,f) : C(X,Y) \to C(X,Z)
 $$
 
-of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homtopy category]] exhibits $C(X,Y)$ as a [[direct sum]]mand of $C(X,Z)$
+of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $C(X,Y)$ as a [[direct sum]]mand of $C(X,Z)$.
 
 ## Properties
 
