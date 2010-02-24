@@ -1,4 +1,4 @@
-The effective topos is an example of an elementary [[topos]] which is not a [[Grothendieck topos]]. It is an environment for higher order [[recursion]] theory, where every function from the natural numbers to itself is recursive. It can be specified as the [[realizability topos]] for [[Kleene's first algebra]].
+The effective topos is an example of an elementary [[topos]] which is not a [[Grothendieck topos]]. It is an environment for higher order [[recursion]] theory, where every function from the [[natural numbers object]] to itself is recursive. It can be specified as the [[realizability topos]] for [[Kleene's first algebra]].
 
 ###Reference###
 
