@@ -1,8 +1,12 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The notion of  _monomorphism_ is the generalization of the notion of _injective map of  sets_ from the [[category]] [[Set]] to arbitrary [[category|categories]].
 
-#Definition#
+## Definition
 
 A **monomorphism** in a [[category]] $C$ is a [[morphism]] $f : X \to Y$ such that, equivalently,
 
@@ -15,10 +19,12 @@ The last condtition here states the usual arrow-theoretic way to say monomorphis
 The morphism $f : X \to Y$ is mono precisely if for all $g,h  : A \to X$ such that $f_*(h) : A \stackrel{h}{\to} X \stackrel{f}{\to}Y $ equals
 $f_*(g) : A \stackrel{g}{\to} X \stackrel{f}{\to}Y $ we have $g = h$.
 
-# related concepts #
+## Related concepts 
 
 * [[isomorphism]] classes of monomorphism define [[subobject]]s.
 
 * for more details see [[epimorphism]].
+
+* [[monomorphism in an (∞,1)-category]]
 
 [[!redirects monomorphisms]]
