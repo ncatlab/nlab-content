@@ -53,6 +53,10 @@ For more on this idea, see [[internal logic]].
 
 * The archetypical topos is [[Set]]. Notice that this happens to be a [[Grothendieck topos]]: this is the [[category of sheaves]] on the [[point]].
 
+  The [[full subcategory]] [[FinSet]] is also a topos, and the inclusion functor $FinSet \hookrightarrow Set$ is a [[logical morphism]].
+
+  More generally, for $\kappa$ a [[cardinal|strong limit cardinal]] the full subcategory $Set_\kappa$ of sets or [[cardinality]] less than $\kappa$ is a topos.
+
 * For $C$ any (small) [[site]], the [[category of sheaves]] $Sh(C)$ is a [[Grothendieck topos]].  Either by definition or by [[Giraud's theorem]], every Grothendieck topos arises in this way.  Important examples include:
 
   * The case where the [[Grothendieck topology]] is the trivial one, so that also all categories of [[presheaf|presheaves]] (on small categories) are (Grothendieck) toposes.
