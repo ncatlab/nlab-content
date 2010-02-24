@@ -18,9 +18,10 @@ A [[topos]] $E$ is **well-pointed** if
 
 ## Examples
 
-The category [[Set]], models of [[ETCS]]. 
+* The category [[Set]].  Here the [[global section]] functor is even (isomorphic to) the identity functor.
 
-On these the [[global section]] functor is even the identity functor.
+* Any model of [[ETCS]].
+
 
 ## Properties
 
