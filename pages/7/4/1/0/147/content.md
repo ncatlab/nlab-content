@@ -106,7 +106,11 @@ $$
   \,.
 $$
 
+## Sites in higher category theory
 
+In [[(∞,1)-topos]] theory the notion of site has a [[vertical categorification]] to that of
+
+* [[(∞,1)-site]].
 
 
 ## References ##
@@ -115,13 +119,13 @@ Morphisms between sites are discussed for instance
 
 in section 17.2 of 
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* Kashiwara-Schapira, _[[Categories and Sheaves]]_
 
 (in terms of [[local isomorphisms]])
 
 as well as in section VII. 10 of
 
-* [[Saunders MacLane]] [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]] 
+* [[Saunders MacLane]] [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 (in terms of covering [[sieves]]), where also the relation to [[geometric morphisms]] is discussed.
 
