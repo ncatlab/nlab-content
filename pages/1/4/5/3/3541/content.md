@@ -3,7 +3,7 @@ A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathca
 +--{: .query}
 [[David Roberts]]: Can we write this as:
 
->A __quantum channel__ is an arrow in a category whose objects are Hilbert spaces, and the arrow itself is a morphism of C-star algebras $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is the family of operators on $\mathcal{H}_{i}$.  
+>A __quantum channel__ is an arrow in a category whose objects are Hilbert spaces, and the arrow itself is a morphism of C-star algebras $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is a *-subalgebra of $B(\mathcal{H}_i)$ (if this is the case) Clearly one cannot just take a family of operators and then say by fiat they can be considered as a C-star algebra.
 =--
 
 In general, we are interested in completely positive trace-preserving (CPTP) maps.  
@@ -14,13 +14,27 @@ In general, we are interested in completely positive trace-preserving (CPTP) map
 
 >Harry: What is "the family" of operators on $\mathcal{H}_i$?  A family taking values in $X$ is just a function $I\to X$, where $I$ is called the index.  
 
-The operator spaces can be interpreted as $C^{*}$-[[C-star algebra|algebras]] and thus we can also view the channel as a mapping between $C^{*}$-algebras, $\Phi$: $A \to B$.  Since quantum channels can carry classical information as well, we could write such a combination as $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ is the space of [[continuous functions]] on some space $X$ and is also a $C^{*}$-algebra.  In other words, whether or not classical information is processed by the channel, it (the channel) is a mapping between $C^{*}$-algebras.  
+The operator spaces can be interpreted as $C^{*}$-[[C-star algebra|algebras]] and thus we can also view the channel as a mapping between $C^{*}$-algebras, $\Phi$: $A \to B$.  Since quantum channels can carry classical information as well, we could write such a combination as $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ is the space of [[continuous functions]] on some space $X$ and is also a $C^{*}$-algebra.  
+
++--{: .query}
+[[David Roberts]]: This would constitute, continuing the remark above, another category, where the objects are Hilbert spaces and the morphisms are pairs $(X,\Phi: L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B}))$. Not sure if this is the case, though, as the proof below doesn't seem to relate very well.
+=--
+
+In other words, whether or not classical information is processed by the channel, it (the channel) is a mapping between $C^{*}$-algebras.  
 
 >Zoran: the point of view that quantum channels are used for processing information is very biased point of view of one of the engineering fields. In nuclear physics multichannel processes were used half a century ago to formulate nonhermitean perturbation theory, where various emissions of particles, radiation and heat within a nucleus leads to dissipation. We should have a general point of view and not be crippled by somebody's particular engineering fad. 
 
 > Reply to Zoran: Maybe, but the word "channel" (according to the dictionary) implies an information processing context and, besides, that is how they are used in quantum information theory which is what this page is about.  I'm not sure I'd call it a "fad" either.  I go to enough cross-disciplinary meetings to know that its a paradigm that runs across a number of fields and sub-fields.
 
+>[[David Roberts]]:I see Zoran's use as perfectly consistent with the concept of a channel as 'a route through which anything passes or progresses'(dictionary.com - not the best reference, but sufficient) (in that case, particle emission). From an organisational point of view, I would prefer to have a page on quantum channels in generality with pointers to places they are used, and a separate page on quantum information theory, describing among other things how quantum channels are used in that context.
+
+
 Note, however, that these are not necessarily the same $C^{*}$-algebras.  Since the channels are represented by square matrices, the input and output $C^{*}$-algebras must have the same dimension, $d$.  Thus we can consider them both subsets of some $d$-dimensional $C^{*}$-algebra, $C$, i.e. $A \subset C$ and $B \subset C$. Thus a quantum channel is a mapping from $C$ to itself.
+
+
++--{: .query}
+[[David Roberts]]: One needs to be careful with this approach, because it is no different to calling on the [[Nash embedding theorem]] and saying all smooth maps between finite dimensional Riemannian manifolds are maps from $\mathbf{R}^N$ to itself. They are _not_ maps from $C$ to itself, because we do not know _a priori_ where the complement of the source algebra in $C$ is mapped. 
+=--
 
 The following is a proof that a quantum channel is a [[category]].  The proof actually proves it is a [[monoid]], but the need for it to be a category becomes more clear when we start dealing with these things en masse.
 
