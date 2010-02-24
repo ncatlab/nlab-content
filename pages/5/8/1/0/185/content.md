@@ -10,7 +10,7 @@
 
 ## Idea
 
-A **smooth algebra** or **$C^\infty$-ring** is an [[algebra]] $A$ over the reals for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a smooth map $A(f) : A^n \to A^m$ in a compatible way. 
+A **smooth algebra** or **$C^\infty$-ring** is an [[algebra]] $A$ over the reals $\mathbb{R}$ for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a smooth map $A(f) : A^n \to A^m$ in a compatible way. 
 
 In short this means that $A$ is 
 
@@ -117,22 +117,12 @@ that it collides badly with the use of $\infty$- for
 
 +-- {: .query}
 I don\'t see why this is a problem; it\'s not like our '$\infty$' ever gets into a superscript.  I find '$C^\infty$-ring' much more descriptive than 'generalized smooth algebra', in fact.  ---Toby
-=--
 
-
-+-- {: .un_defn}
-###### Definition
-
-For $X$ a smooth [[manifold]], the smooth algebra 
-$C^\infty(X)$ is the functor
-
-$$
-  C^\infty(X) := Hom_{Diff}(X,-)
-$$
+[[Urs Schreiber]]: I'll see what to do about it here. Over at [[derived smooth manifold]]s and related entried before long we'll have to be talking about "$\infty-C^\infty$-rings" or $C^\infty_\infty$-rings or the like, which is not good. Also, the term "$C^\infty$-ring" hides that it is necessarily an $\mathbb{R}$-algebras. Finally, the entire theory is really a special case of algebras over a [[Fermat theory]] and hence most other examples of a similar kind will by default be called algebras, not rings. For all these reasons I find "$C^\infty$-ring" an unfortunate term. But of course I am aware that it is entirely standard. 
 
 =--
 
-
+### Tensor product 
 
 +-- {: .un_defn}
 ###### Definition (smooth tensor product)
@@ -165,7 +155,68 @@ the **smooth tensor product over $C$** of $A$ and $B$.
 =--
 
 
-### Internal smooth algebras
+
+### Finitely generated $C^\infty$-rings
+
++-- {: .un_defn}
+###### Definition
+
+For $X$ a smooth [[manifold]], the smooth algebra 
+$C^\infty(X)$ is the functor
+
+$$
+  C^\infty(X) := Hom_{Diff}(X,-)
+$$
+
+=--
+
+
+
+
++-- {: .un_defn}
+###### Definition
+**(finitely generated and finitely presented $C^\infty$-rings)**
+
+For $R$ a $C^\infty$-ring, and $I \in U(R)$ an ideal in the underlying ordinary ring, there is a canonical $C^\infty$-ring structure $R/I$ on the ordinaryy quotient ring $U(R)/I$.
+
+A $C^\infty$-ring $R$ is called **finitely generated** if it is of the form $C^\infty(\mathbb{R}^n)/I$ for $n \in \mathbb{N}$ and $I $ an ideal in $U(C^\infty(\mathbb{R}^n))$. 
+
+It is **finitely presented** if also $I$ is finitely generated, as an ideal, $I = (i_1, \cdots, i_k)$ with $i_j \in U(R)$.
+
+This is equivalent to $R$ being a [[pushout]] of the form
+
+$$
+
+  \array{
+    C^\infty(\mathbb{R}^k) &\to& C^{\infty}(*) \simeq \mathbb{R}
+    \\
+    \downarrow && \downarrow
+    \\
+    C^\infty(\mathbb{R}^n) &\to& R
+  }
+  \,.
+$$
+
+=--
+
++-- {: .un_defn}
+###### Definition
+**(germ-determined finitely generated / fair )**
+
+For $p \in \mathbb{R}^n$ let
+
+$$
+  \pi_p : C^\infty(\mathbb{R}^n) \to C^\infty_p(\mathbb{R}^n)
+$$
+
+be the natural projection onto the [smooth algebra of germs](#Germs) of functions at $p$.
+
+A $C^\infty$-ring $C$ is called **fair** or **finitely generated and germ-determined** if it is finitely generated $C \simeq C^\infty(\mathbb{R}^n)/I$ and the ideal $I$ has the property that $f \in C^\infty(\mathbb{R}^n)$ is an element of $I$ if (and hence precisely if) for all $p \in \mathbb{R}^n$ the germ $\pi_p(f) \in C^\infty_p(\mathbb{R})^n$ is in the germ $\pi_p(I)$ of the ideal.
+
+
+=--
+
+### Internal $C^\infty$-rings
 
 For any [[smooth topos]] $(\mathcal{T}, R)$, there is an [[internalization|internal]]
 notion of [[generalized smooth algebra]]:
@@ -254,10 +305,62 @@ Here
    
 =--
 
+## Examples
 
+### Functions on smooth manifolds
+
++-- {: .un_defn}
+###### Definition
+
+For $X$ a smooth [[manifold]], the smooth algebra 
+$C^\infty(X)$ is the functor
+
+$$
+  C^\infty(X) := Hom_{Diff}(X,-)
+$$
+
+=--
+
+
+### Weil algebras: functions on small infintiesimal spaces
+
+A _Weil algebra_ in this context is a finite-dimensional commutative $\mathbb{R}$-algebra $W$ with a maximal ideal $I$ such that $W/I \simeq \mathbb{R}$ and $I^n = 0$ for some $n \in \mathbb{N}$. 
+
++-- {: .un_prop}
+###### Proposition
+
+There is a unique $C^\infty$-ring structure on a Weil alghebra $W$. It makes $W$ a finitely presented $C^\infty$-ring.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+The [[smooth loci]] corresponding to Weil algebras are [[infinitesimal space]]s. Weil algebras play a crucial role in the definition of [[smooth topos]]es.
+
+=--
+
+### Power series 
+
+...
+
+### Functions on germs of manifolds {#Germs}
+
+For $p \in \mathbb{R}^n$, the algebra of [[germ]]s of smooth $\mathbb{R}$-valued functions at $p$ carries an evident $C^\infty$-ring structure $C^\infty(\mathbb{R}^n)_p$.
+
+With $I_p \subset C^\infty(\mathbb{R}^n)$ the ideal of functions that vanish on a neighbourhood of $p$ we have
+
+$$
+  C^\infty_p(\mathbb{R}^n) \simeq C^\infty(\mathbb{R}^n)/I_p
+  \,,
+$$ 
+
+yielding a finitely generated but not (for $n \gt 0$) finitely presented $C^\infty$-ring. 
 ## Properties
 
-### General properties
+
+### The underlying ordinary algebra
 
 There is a [[stuff, structure, property|forgetful functor]] 
 
@@ -314,6 +417,8 @@ $$
 This makes $A(\mathbb{R})$ an $\mathbb{R}$-algebra.
 
 
+### Finitely presented $C^\infty$-rings
+
 +-- {: .un_prop}
 ###### Proposition ([[Models for Smooth Infinitesimal Analysis|MSIA]], prop. 1.1)
 
@@ -331,25 +436,38 @@ $$
 
 =--
 
-+-- {: .un_remark}
-###### Remark 
 
-While a product-preserving co-presheaf $A$ induces the structure of an algebra on each of the sets $A(\mathbb{R}^n)$, with product induced from the componentwise product $\mathbb{R}^n \times \mathbb{R}^n  \to \mathbb{R}^n$, it is not a _co-presheaf with values in algebras_: the co-restriction morphisms assigned to maps $\mathbb{R}^n \to \mathbb{R}^m$ which are not just projections or injections will not be algebra homomorphisms.
 
-But conversely this means that restricted to such maps, i.e. restricted along the inclusion $FinSet \hookrightarrow CartSp$ of [[CartSp]], $A$ does become a co-presheaf with values in algebras. 
+* Every finitely presented $C^\infty$-ring is fair/germ determined.
+
+We have a chain of inclusions
+
+* finitely presented $C^\infty$-rings
+
+* $\subset$ "good" $C^\infty$-rings
+
+* $\subset$ fair $C^\infty$-rings
+
+* $\subset$ finitely generated $C^\infty$-rings
+
+
+### Points of smooth loci
+
+An **$\mathbb{R}$-point** of a $C^\infty$-ring $C$ is a point $* \to \mathbb{L}(C)$ of the corresponding [[smooth locus]], i.e. a morphism $C \to \mathbb{R} \simeq C^\infty(*)$.
+
++-- {: .un_prop}
+###### Proposition 
+
+Points of a $C^\infty$-ring are in bijection with points of the underlying $\mathbb{R}$-algebra $U(C)$, i.e. with ordinary $\mathbb{R}$-algebra morphisms $U(C) \to \mathbb{R}$.
 
 =--
 
+In particular every Weil algebra $W$ has a unique point $* \to \mathbb{L}(W)$: every Weil algebra is the algebra of functions on an _infinitesimal thickening_ of an ordinary point.
 
-+-- {: .un_remark}
-###### Remark 
-
-In the context of [[geometric function theory]] the corresponding general statement (without the transversality condition) says that $C^\infty(X)$ is a "good" kind of function. The above equation is one sub-aspect of the one of the fundamental theorems of [[geometric infinity-function theory]].
-
-=--
+By the properties of $C^\infty(X)$ for $X$ a smooth manifold discussed below, the $\mathbb{R}$-points of $C^\infty(X)$ are precisely the ordinary points of the manifold $X$.
 
 
-### Smooth function algebras on manifolds
+### Smooth function algebras on smooth manifolds
 
 
 +-- {: .un_prop}
@@ -404,6 +522,15 @@ $$
 $$
 
 =--
+
++-- {: .un_remark}
+###### Remark 
+
+In the context of [[geometric function theory]] the corresponding general statement (without the transversality condition) says that $C^\infty(X)$ is a "good" kind of function. The above equation is one sub-aspect of the one of the fundamental theorems of [[geometric infinity-function theory]].
+
+=--
+
+
 
 Turning this inclusion into an equivalence is usually called a _completion_ of the algebraic tensor product. Therefore we see:
 +-- {: .standout}
@@ -477,11 +604,14 @@ See also the references at [[Fermat theory]], of which $C^\infty$-rings are a se
 And the references at [[super smooth topos]], which involves generalizations of $C^\infty$-rings to [[supergeometry]].
 
 
+[[!redirects smooth algebras]]
 [[!redirects generalized smooth algebra]]
 [[!redirects generalized smooth algebras]]
 [[!redirects C-infinity-ring]]
 [[!redirects C-infinity ring]]
 [[!redirects C-infinity-rings]]
 [[!redirects C-infinity rings]]
-[[!redirects smooth algebra]]
-[[!redirects smooth algebras]]
+[[!redirects C-∞-ring]]
+[[!redirects C-∞ ring]]
+[[!redirects C-∞-rings]]
+[[!redirects C-∞ rings]]
