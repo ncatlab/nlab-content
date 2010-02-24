@@ -61,7 +61,7 @@ Do we know what these should be in any more general situations?
 
 > [[Urs Schreiber|Urs]]: an attempt
 
-One might like to say that "[[∞Grpd]] is essentially the unique well-pointed [[(∞,1)-topos]]."
+One might like to say that "[[∞Grpd]] is essentially the unique [[(∞,1)-topos]] with all small limits and colimits that is well-pointed ."
 
 Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if the terminal object is not the initial one and the  [[global section]] [[(∞,1)-functor]] $\Gamma : \mathbf{H} \to \infty Grpd$ is faithful...
 
