@@ -55,7 +55,7 @@ This was developed further by Bourn and Cordier, and a strong shape version was 
 
 The classical application of shape theoretic idea is to the study of [[topological space]]s that do not have the [[homotopy type]] of a [[CW-complex]]. This is the case obtained from the above general setup by choosing
 
-* $C =$ [[HoTop]] the [[homotopy category]] of the category [[Top]] of all [[topological space]]s localised at the **homotopy** equivalences;
+* $C =$ [[HoTop]]${}_{he}$ the [[homotopy category]] of the category [[Top]] of all [[topological space]]s localised at the **[[homotopy equivalence]]s**;
 
 * $D = Ho(CW Cplx)$ the full [[subcategory]] given by [[CW-complex]]es.
 
