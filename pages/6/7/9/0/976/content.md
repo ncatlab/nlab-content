@@ -63,7 +63,7 @@ More on this is in the section [Shape theory for topological spaces](ForTopSpace
 
 #### Profinite groups
 
-Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion]]s.  This sort of behaviour is quite general as this form of abstract shape theory is related to equational completions; see
+Consider the category $C =$[[Grp]] of groups and its subcategory $D$ of finite group. A shape map between two groups is a map between their [[profinite completion of a group|profinite completion]]s.  This sort of behaviour is quite general as this form of abstract shape theory is related to equational completions; see
 
 * Gildenhuys and Kennison, _Equational completions, model induced triples and pro-objects_, J. Pure Applied Algebra, 4 (1971) 317-346.
 
