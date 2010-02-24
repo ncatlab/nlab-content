@@ -15,7 +15,13 @@ $$
   Fib(C) \simeq 2Func(C^{op}, Cat)
 $$
 
-between [[fibered category|fibered categories]] and [[pseudofunctor]]s -- from [[category theory]] to [[(∞,1)-category]]-[[higher category theory|theory]].
+and
+
+$$
+  Fib_{Grpd}(C) \simeq 2Func(C^{op}, Grpd)
+$$
+
+between [[fibered category|fibered categories]]/[[categories fibered in groupoids]] and [[pseudofunctor]]s to [[Cat]]/to [[Grpd]] -- from [[category theory]] to [[(∞,1)-category]]-[[higher category theory|theory]].
 
 The Grothendieck construction for [[∞-groupoid]]s constitutes an equivalence of [[(∞,1)-categories]]
 
