@@ -88,11 +88,11 @@ Again, this expression for global sections induces a relative version,
 e.g. for sheaves on $S$-[[relative scheme|schemes]], the direct image functor goes into the base scheme $S$). 
 
 
-### Of objects in a general topos
+### Of objects in a general Grothendieck topos {#GeneralTopos}
 
-The definition of global sections of sheaves on topological spaces in terms of the [[direct image]] of the canonical morphism to the terminal [[site]] generalizes to [[Grothendieck topos|sheaf topos]]es over arbitrary sites and indeed to arbitrary [[topos]]es.
+The definition of global sections of sheaves on topological spaces in terms of the [[direct image]] of the canonical morphism to the terminal [[site]] generalizes to [[Grothendieck topos|sheaf topos]]es over arbitrary [[site]]s.
 
-For every [[topos]] $\mathcal{T}$, there is a [[geometric morphism]]
+For every [[Grothendieck topos]] $\mathcal{T}$, there is a [[geometric morphism]]
 
 $$
   \Gamma : \mathcal{T}  \stackrel{\leftarrow}{\to} Set : LConst
