@@ -368,6 +368,12 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[(∞,1)-category of (∞,1)-sheaves]]
 
+  * [[(∞,1)-site]]
+
+  * [[topological localization]]
+
+  * [[hypercompletion]]
+
   * [[local object]]
 
   * [[descent]]
@@ -381,10 +387,6 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
   * [[derived stack]]
 
   * [[∞-stackification]]
-
-  * [[topological localization]]
-
-  * [[hypercompletion]]
 
 * [[models for ∞-stack (∞,1)-toposes]]
 
