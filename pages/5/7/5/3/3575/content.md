@@ -1,3 +1,4 @@
+[[!redirects fibration  fibered in groupoids]]
 
 #Contents#
 * automatic table of contents goes here
@@ -5,11 +6,13 @@
 
 ## Idea
 
-A **category fibered in groupoids** is a [[Grothendieck fibration]] $p : E \to B$ all whose [[fiber]]s are [[groupoid]]s.
+A **[[Grothendieck]] fibration fibered in groupoids** -- usually called a **category fibered in groupoids** -- is a [[Grothendieck fibration]] $p : E \to B$ all whose [[fiber]]s are [[groupoid]]s.
 
 ## Definition
 
-A **category fibered in groupoids** is a [[functor]] $p : E \to B$ such that the corresponding (strict) functor $B^{op} \to $ [[Cat]] that classifies $p$ under the [[Grothendieck construction]] factors through the inclusion [[Grpd]] $\hookrightarrow$ [[Cat]].
+A **fibration fibered in groupoids** is a [[functor]] $p : E \to B$ such that the corresponding (strict) functor $B^{op} \to $ [[Cat]] that classifies $p$ under the [[Grothendieck construction]] factors through the inclusion [[Grpd]] $\hookrightarrow$ [[Cat]].
+
+Under forming [[opposite categories]] we obtain the notion of an **op-fibration fibered in groupoids**. In old literature this is sometimes called a "cofibration in groupoids" but that terminology collides badly with the notion of cofibration in [[homotopy theory]] and [[model category]] theory.
 
 ## Properties
 
@@ -20,7 +23,7 @@ Then
 +-- {: .un_prop }
 ###### Proposition
 
-The functor $p : E \to B$ is a fibration in groupoids precisely if the morphism $N(p) : N(E) \to N(B)$ is a [[fibrations of quasi-categories|left fibration]] of simplicial sets, i.e. precisely if for all [[horn]] inclusion 
+The functor $p : E \to B$ is an  op-fibration in groupoids precisely if the morphism $N(p) : N(E) \to N(B)$ is a [[left Kan fibration]] of simplicial sets, i.e. precisely if for all [[horn]] inclusion 
 
 $$
   \Lambda[n]_i \hookrightarrow \Delta[n]
