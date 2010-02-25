@@ -20,16 +20,16 @@ Let $U\colon A\to X$ be a [[faithful functor]].  A **$U$-structured sink** is a 
 Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final lift.
 
 +-- {: #SFlift style="text-align:center"}
-<svg width="370" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+<svg width="370" height="250" xmlns="http://www.w3.org/2000/svg" se:nonce="83381" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_83381_fw" viewBox="0 0 10 10">
    <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
   </marker>
  </defs>
  <g>
   <title>Layer 1</title>
-  <foreignObject x="13" y="82" id="svg_1" font-size="16" width="30" height="24">
+  <foreignObject x="13" y="82" id="svg_83381_1" font-size="16" width="30" height="24">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -42,7 +42,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="24" width="30" font-size="16" y="17" x="75" id="svg_19">
+  <foreignObject height="24" width="30" font-size="16" y="17" x="75" id="svg_83381_19">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -55,7 +55,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_32" x="71" y="136" font-size="16" width="42" height="25">
+  <foreignObject id="svg_83381_32" x="71" y="136" font-size="16" width="42" height="25">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -71,7 +71,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject id="svg_37" height="23" width="41.000001" font-size="16" y="199" x="14">
+  <foreignObject id="svg_83381_37" height="23" width="41" font-size="16" y="199" x="14">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -87,7 +87,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="24" width="24" font-size="16" y="199" x="102" id="svg_45">
+  <foreignObject height="24" width="24" font-size="16" y="199" x="102" id="svg_83381_45">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -100,7 +100,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="132" y="146" font-size="16" width="24" height="26" id="svg_50">
+  <foreignObject x="132" y="146" font-size="16" width="24" height="26" id="svg_83381_50">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -113,7 +113,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="250" y="29" font-size="16" width="20" height="20" id="svg_55">
+  <foreignObject x="250" y="29" font-size="16" width="20" height="20" id="svg_83381_55">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -123,7 +123,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="20" width="20" font-size="16" y="42" x="281" id="svg_60">
+  <foreignObject height="20" width="20" font-size="16" y="42" x="281" id="svg_83381_60">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -133,7 +133,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="231" y="202" font-size="16" width="26" height="24" id="svg_63">
+  <foreignObject x="231" y="202" font-size="16" width="26" height="24" id="svg_83381_63">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -144,7 +144,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="22" width="24" font-size="16" y="86" x="317" id="svg_66">
+  <foreignObject height="22" width="24" font-size="16" y="86" x="317" id="svg_83381_66">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -155,7 +155,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="24" width="20" font-size="16" y="150" x="210" id="svg_71">
+  <foreignObject height="24" width="20" font-size="16" y="150" x="210" id="svg_83381_71">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -165,7 +165,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject height="24" width="44" font-size="16" y="146" x="248" id="svg_74">
+  <foreignObject height="24" width="44" font-size="16" y="146" x="248" id="svg_83381_74">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -178,7 +178,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="312.999998" y="207" font-size="16" width="41.000001" height="24" id="svg_82">
+  <foreignObject x="313" y="207" font-size="16" width="41" height="24" id="svg_83381_82">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -192,7 +192,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="296" y="170" font-size="16" width="44" height="24" id="svg_88">
+  <foreignObject x="296" y="170" font-size="16" width="44" height="24" id="svg_83381_88">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -205,7 +205,7 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <foreignObject x="175" y="176" font-size="16" width="20" height="24" id="svg_108">
+  <foreignObject x="175" y="176" font-size="16" width="20" height="24" id="svg_83381_108">
    <math display="inline" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/1998/Math/MathML">
     <semantics>
      <mrow>
@@ -215,16 +215,16 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
     </semantics>
    </math>
   </foreignObject>
-  <line stroke-width="2" marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_98" y2="44" x2="251" y1="90" x1="41"/>
-  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_99" y2="93" x2="315" y1="37.000001" x1="100"/>
-  <line marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_100" y2="37" x2="249" y1="30" x1="99"/>
-  <line stroke-dasharray="2,2" marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_102" y2="85" x2="318" y1="46" x1="265"/>
-  <line stroke-width="2" marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_103" y2="183" x2="173" y1="156" x1="109"/>
-  <line marker-end="url(#se_arrow_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_104" y2="190" x2="173" y1="207" x1="58"/>
-  <line marker-end="url(#se_arrow_fw)" stroke-dasharray="5,5" stroke-width="2" fill="none" stroke="#000000" id="svg_105" y2="215" x2="311" y1="191" x1="196"/>
-  <line stroke-dasharray="2,2" stroke-width="2" marker-end="url(#se_arrow_fw)" fill="none" stroke="#000000" id="svg_106" y2="205" x2="320" y1="169" x1="279"/>
-  <path id="svg_107" d="m40.000011,98l268.999989,5" marker-end="url(#se_arrow_fw)" stroke-width="2" stroke="#000000" fill="none"/>
-  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_111" y2="160" x2="250" y1="183" x1="197"/>
+  <line stroke-width="2" marker-end="url(#se_arrow_83381_fw)" fill="none" stroke="#000000" id="svg_83381_98" y2="44" x2="251" y1="90" x1="41"/>
+  <line stroke-dasharray="5,5" marker-end="url(#se_arrow_83381_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_83381_99" y2="93" x2="315" y1="37" x1="100"/>
+  <line marker-end="url(#se_arrow_83381_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_83381_100" y2="37" x2="249" y1="30" x1="99"/>
+  <line stroke-dasharray="2,2" marker-end="url(#se_arrow_83381_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_83381_102" y2="85" x2="318" y1="46" x1="265"/>
+  <line stroke-width="2" marker-end="url(#se_arrow_83381_fw)" fill="none" stroke="#000000" id="svg_83381_103" y2="183" x2="173" y1="156" x1="109"/>
+  <line marker-end="url(#se_arrow_83381_fw)" stroke-width="2" fill="none" stroke="#000000" id="svg_83381_104" y2="190" x2="173" y1="207" x1="58"/>
+  <line marker-end="url(#se_arrow_83381_fw)" stroke-dasharray="5,5" stroke-width="2" fill="none" stroke="#000000" id="svg_83381_105" y2="215" x2="311" y1="191" x1="196"/>
+  <line stroke-dasharray="2,2" stroke-width="2" marker-end="url(#se_arrow_83381_fw)" fill="none" stroke="#000000" id="svg_83381_106" y2="205" x2="320" y1="169" x1="279"/>
+  <path id="svg_83381_107" d="m40.000011,98l268.999989,5" marker-end="url(#se_arrow_83381_fw)" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_arrow_83381_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_83381_111" y2="160" x2="250" y1="183" x1="197"/>
  </g>
 </svg>
 =--
