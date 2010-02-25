@@ -69,17 +69,17 @@ To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally
    As an example, consider the plane $\mathbb{R}^2$ quotiented out by the $x$-axis.
 
    +-- {: #quotientx style="text-align:center"}
-   <svg width="188" height="197" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <svg width="188" height="197" xmlns="http://www.w3.org/2000/svg" se:nonce="83381" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
    <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
    <g>
    <title>Layer 1</title>
-   <line fill="none" stroke-width="2" stroke="#000000" id="svg_1" y2="1" x2="183" y1="1" x1="1"/>
-   <line id="svg_2" fill="none" stroke-width="2" stroke="#000000" y2="195" x2="187" y1="195" x1="5"/>
-   <path id="svg_3" d="m2,2c2,157 181,35 185,193" stroke-width="2" stroke="#000000" fill="none"/>
-   <path id="svg_4" d="m182,2c5,173 -179,18 -177,194" stroke-width="2" stroke="#000000" fill="none"/>
-   <path id="svg_5" d="m39,2c3,167 107,25 109,192" stroke-width="2" stroke="#9b9b9b" fill="none"/>
-   <path id="svg_6" d="m136,2c5,175 -86,17 -85,193" stroke-width="2" stroke="#9b9b9b" fill="none"/>
-   <line fill="none" stroke-width="2" stroke="#9b9b9b" id="svg_7" y2="193.999991" x2="96" y1="2" x1="94"/>
+   <line fill="none" stroke-width="2" stroke="#000000" id="svg_83381_1" y2="1" x2="183" y1="1" x1="1"/>
+   <line id="svg_83381_2" fill="none" stroke-width="2" stroke="#000000" y2="195" x2="187" y1="195" x1="5"/>
+    <path id="svg_83381_3" d="m2,2c2,157 181,35 185,193" stroke-width="2" stroke="#000000" fill="none"/>
+    <path id="svg_83381_4" d="m182,2c5,173 -179,18 -177,194" stroke-width="2" stroke="#000000" fill="none"/>
+    <path id="svg_83381_5" d="m39,2c3,167 107,25 109,192" stroke-width="2" stroke="#9b9b9b" fill="none"/>
+    <path id="svg_83381_6" d="m136,2c5,175 -86,17 -85,193" stroke-width="2" stroke="#9b9b9b" fill="none"/>
+    <line fill="none" stroke-width="2" stroke="#9b9b9b" id="svg_83381_7" y2="193.99999" x2="96" y1="2" x1="94"/>
    </g>
    </svg>
    =--
@@ -142,33 +142,33 @@ Comments would be helpful on that score!
 3. Let us give an example that shows that the category of Fr&ouml;licher spaces is not [[locally cartesian closed category|locally cartesian closed]].
 Consider a [[coequaliser]] diagram $\mathbb{R} \setminus \{0\} \to \mathbb{R} \amalg \mathbb{R}$ where the two maps are the inclusions into the two cofactors.
 
-   <svg width="507" height="252" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <svg width="507" height="252" xmlns="http://www.w3.org/2000/svg" se:nonce="83382" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
    <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
    <defs>
-   <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw1" viewBox="0 0 10 10">
-   <path fill="#930000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+   <marker viewBox="0 0 10 10" id="se_arrow_83382_fw1" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#930000"/>
    </marker>
-   <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw2" viewBox="0 0 10 10">
-   <path fill="#000093" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+   <marker viewBox="0 0 10 10" id="se_arrow_83382_fw2" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000093"/>
    </marker>
    </defs>
    <g>
    <title>Layer 1</title>
-   <line id="svg_3" fill="none" stroke-width="5" stroke="#000000" y2="30.5" x2="306.5" y1="98.5" x1="155.5"/>
-   <line id="svg_5" fill="none" stroke-width="5" stroke="#000000" y2="181.5" x2="298.5" y1="249.5" x1="147.5"/>
-   <line fill="none" stroke-width="5" stroke="#000000" id="svg_7" y2="37.5" x2="71.5" y1="68.5" x1="2.5"/>
-   <line id="svg_8" fill="none" stroke-width="5" stroke="#000000" y2="2.5" x2="151.5" y1="33.5" x1="82.5"/>
-   <path marker-end="url(#se_arrow_fw1)" id="svg_9" d="m89.5,38.5c41,-19 88,-14 113,-6" stroke-width="2" stroke="#930000" fill="none"/>
-   <path marker-end="url(#se_arrow_fw1)" id="svg_10" d="m86.5,42.5c24,24 46,33 95,34" stroke-width="2" stroke="#930000" fill="none"/>
-   <line fill="none" stroke-width="5" stroke="#000000" id="svg_1" y2="7.5" x2="303.5" y1="75.5" x1="152.5"/>
-   <line transform="rotate(14.9951, 327.408, 55.0474)" id="svg_11" marker-end="url(#se_arrow_fw1)" fill="none" stroke-width="2" stroke="#930000" y2="31.725971" x2="414.166933" y1="78.365695" x1="240.647767"/>
-   <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000093" id="svg_12" y2="209.5" x2="201.5" y1="46.5" x1="78.5"/>
-   <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000093" id="svg_13" y2="205.5" x2="208.5" y1="75.5" x1="236.5"/>
-   <line marker-end="url(#se_arrow_fw2)" fill="none" stroke-width="2" stroke="#000093" id="svg_14" y2="205.5" x2="218.5" y1="74.499998" x1="421.499996"/>
-   <ellipse ry="4" rx="3" stroke-width="2" stroke="#000000" fill="#000000" id="svg_15" cy="53.5" cx="429.5"/>
-   <line id="svg_17" fill="none" stroke-width="5" stroke="#000000" y2="62.5" x2="424.5" y1="93.5" x1="355.5"/>
-   <line id="svg_18" fill="none" stroke-width="5" stroke="#000000" y2="27.5" x2="504.5" y1="58.5" x1="435.5"/>
-   <ellipse id="svg_19" ry="4" rx="3" stroke-width="2" stroke="#000000" fill="#000000" cy="67.5" cx="431.5"/>
+   <line x1="155.5" y1="98.5" x2="306.5" y2="30.5" stroke="#000000" stroke-width="5" fill="none" id="svg_83382_3"/>
+   <line x1="147.5" y1="249.5" x2="298.5" y2="181.5" stroke="#000000" stroke-width="5" fill="none" id="svg_83382_5"/>
+   <line x1="2.5" y1="68.5" x2="71.5" y2="37.5" id="svg_83382_7" stroke="#000000" stroke-width="5" fill="none"/>
+   <line x1="82.5" y1="33.5" x2="151.5" y2="2.5" stroke="#000000" stroke-width="5" fill="none" id="svg_83382_8"/>
+   <path fill="none" stroke="#930000" stroke-width="2" d="m89.5,38.5c41,-19 88,-14 113,-6" id="svg_83382_9" marker-end="url(#se_arrow_83382_fw1)"/>
+   <path fill="none" stroke="#930000" stroke-width="2" d="m86.5,42.5c24,24 46,33 95,34" id="svg_83382_10" marker-end="url(#se_arrow_83382_fw1)"/>
+   <line x1="152.5" y1="75.5" x2="303.5" y2="7.5" id="svg_83382_1" stroke="#000000" stroke-width="5" fill="none"/>
+    <line x1="240.64777" y1="78.3657" x2="414.16693" y2="31.72597" stroke="#930000" stroke-width="2" fill="none" marker-end="url(#se_arrow_83382_fw1)" id="svg_83382_11" transform="rotate(14.9951, 327.408, 55.0469)"/>
+    <line x1="78.5" y1="46.5" x2="201.5" y2="209.5" id="svg_83382_12" stroke="#000093" stroke-width="2" fill="none" marker-end="url(#se_arrow_83382_fw2)"/>
+   <line x1="236.5" y1="75.5" x2="208.5" y2="205.5" id="svg_83382_13" stroke="#000093" stroke-width="2" fill="none" marker-end="url(#se_arrow_83382_fw2)"/>
+   <line x1="421.5" y1="74.5" x2="218.5" y2="205.5" id="svg_83382_14" stroke="#000093" stroke-width="2" fill="none" marker-end="url(#se_arrow_83382_fw2)"/>
+   <ellipse cx="429.5" cy="53.5" id="svg_83382_15" fill="#000000" stroke="#000000" stroke-width="2" rx="3" ry="4"/>
+   <line x1="355.5" y1="93.5" x2="424.5" y2="62.5" stroke="#000000" stroke-width="5" fill="none" id="svg_83382_17"/>
+   <line x1="435.5" y1="58.5" x2="504.5" y2="27.5" stroke="#000000" stroke-width="5" fill="none" id="svg_83382_18"/>
+   <ellipse cx="431.5" cy="67.5" fill="#000000" stroke="#000000" stroke-width="2" rx="3" ry="4" id="svg_83382_19"/>
    </g>
    </svg>
    
