@@ -16,6 +16,8 @@ to which I reply they probably weren't category theorists :)
 
 [[Ian Durham]]: And you would probably be right.  It's amazing how many mathematicians have no clue about category theory.  I expect it of my fellow physicists, but mathematicians?  Well, anyway, I digress.  Categories.  It's like the old saying about the turtles - it's categories all the way down (or up).  I will take a look at the Yoneda lemma.  Since we're on the topic, let me explain my justification for originally going with Cayley's theorem.  In quantum mechanics we like unitaries because they correspond to physical things like beamsplitters, phase shifters, butter knives, etc.  If I start with a monoid (a single-object category with all the arrows isomorphisms), I have a group.  Via Cayley's theorem I can then find an isomorphism to a permutation group.  If that permutation group is finite, then it has a representation in terms of unitaries.  That would be ideal.  But, on a more general note, I also want this to be useful to others (hence nLab) so categories seems the way to go.  (Thanks for all the help, by the way.  This is why I came to nLab.  In case you're interested, I'm attempting to resolve the quantum version of Bikrhoff's theorem using categories which is where this all came from.)
 
+_Harry Gindi_: Using Cayley's theorem here or anywhere is pointless.  You're missing the point of what's going on here.  I also doubt that the people who you asked would tell you to write something that's totally incoherent.  You do yourself a great disservice by blaming this on other people.
+
 =--
 In general, we are interested in completely positive trace-preserving (CPTP) maps.  
 
