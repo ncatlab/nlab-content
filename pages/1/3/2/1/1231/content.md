@@ -16,7 +16,7 @@ On the other hand, if you take the derived category of [[differential graded mod
 
 In particular, you can take your favorite finite dimensional algebra $A$, and the most obvious not-very-projective generating object: the sum of all the [[simple modules]].  Call this $L$.  As I mentioned, there's an equivalence $A dg Mod = \mathrm{Ext}(L,L) dg Mod$, just given by taking $\mathrm{Ext}(L,-)$.   
 
-Now, in general, $\mathrm{Ext}(L,L)$ is an absolutely horrible object (for example, for [[group algebras]] over [[finite field]]s sometimes, it can be quite complicated), but sometimes it turns out to be nice.  For example, if you start with $A$ being the [[exterior algebra]], you'll get a [[polynomial ring]] on the dual vector space.  Another (closely related) example is that the cohomology of a [[reductive group]] (over $\mathbb{C}$) is Koszul dual to the cohomology of its classifying space.
+Now, in general, $\mathrm{Ext}(L,L)$ is in general very complicated object (for example, often for [[group algebras]] over [[finite field]]s), but sometimes it turns out to be nice.  For example, if you start with $A$ being the [[exterior algebra]], you'll get a [[polynomial ring]] on the dual vector space.  Another (closely related) example is that the cohomology of a [[reductive group]] (over $\mathbb{C}$) is Koszul dual to the cohomology of its classifying space.
 
 One thing that could help you make sure that $\mathrm{Ext}(L,L)$ is nice is if your algebra is [[graded algebra|graded]].  Then $\mathrm{Ext}(L,L)$ inherits an "internal" grading in addition to its homological one.  If these coincide, then $A$ is called _Koszul_. 
 
