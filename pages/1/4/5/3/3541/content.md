@@ -18,6 +18,12 @@ to which I reply they probably weren't category theorists :)
 
 _Harry Gindi_: Using Cayley's theorem here or anywhere is pointless.  You're missing the point of what's going on here.  I also doubt that the people who you asked would tell you to write something that's totally incoherent.  You do yourself a great disservice by blaming this on other people.
 
+_Yemon Choi_: the use of Cayley's theorem still puzzles me. If all you want to know is that the group is finite, then Cayley's theorem tells you nothing towards this: you would either know this at the start, or else have to find an example.
+
+Categories would be useful if you wanted to look at groupoids, I suspect.
+
+By the way, presuming how knowledgeable or fond of category theory some of us are might be a touch presumptuous, no?
+
 =--
 In general, we are interested in completely positive trace-preserving (CPTP) maps.  
 
