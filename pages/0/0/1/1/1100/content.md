@@ -52,14 +52,14 @@ more structure, for instance they may
 be $\infty$-[[differentiable stacks]] if one considers
 [[∞-stacks]] on [[Diff]].
 
-## Definition
+## Definition {#Definition}
 
 A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X$ satisfying the following equivalent conditions:
  
 
 * $X$ is an [[(∞,1)-category of (∞,1)-sheaves]] (meaning: of [[∞-stack]]s): 
 
-  * there exists a small [[(∞,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(∞,1)-functor]] $\bar {(-)} : PSh(S) \to X$ from [[(∞,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
+  there exists a small [[(∞,1)-category]] $C$ such that $X$ is a [[reflective (∞,1)-subcategory]] $X \stackrel{\overset{lex}{\leftarrow}}{\hookrightarrow} PSh_{(\infty,1)}(C)$ of the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ on $C$.
 
 * $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
   * $X$ is [[presentable (infinity,1)-category|presentable]];
