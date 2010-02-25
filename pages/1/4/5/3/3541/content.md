@@ -1,3 +1,11 @@
+
++--{: .query} 
+
+[[Urs Schreiber]]: As the following disucssion shows, there is a general feeling that this entry here is in need of clarification on what exactly it is supposed to be about, and what it is good for. It would seem to me that this could easily be achieved based on some standard authorative reference that introduces the notion and discusses it. So: what are good references on the notion "qunatum channel", in the sense apparently meant here? Pointers to a specific page in a specific article would be appreciated.
+
+=--
+
+
 A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is the family of operators on $\mathcal{H}_{i}$. 
 
 +--{: .query} 
@@ -16,7 +24,7 @@ Ideally, the nLab is a place where a newcomer (relative to some area) could go a
 >A __quantum channel__ is an arrow in a category whose objects are Hilbert spaces, and the arrow itself is a morphism of C-star algebras $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is a *-subalgebra of $B(\mathcal{H}_i)$ (if this is the case) Clearly one cannot just take a family of operators and then say by fiat they can be considered as a C-star algebra.
 
 
-> [[Ian Durham]]:(What's the accepted formatting for replying to a query by the way?)  Anyway, in answer to your question, I would say "maybe."  So, the first thing I would say is that this construction (as I have it written) isn't what I originally had.  I originally had (in a paper I was working on) something akin to what you wrote, but several people commented on it and said it should be the way I wrote it here.  Here's (I think) the rationale: since quantum channels can also carry classical information, i.e. $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ where $C(X)$ is the space of [[continuous functions]] on some space $X$, the Hilbert spaces are not necessarily of the same dimension.  But in order to form a monoid (which I wish to do in order to make use of Cayley's theorem), I wanted a single object.  So I wanted to make the input and output space the same on some level.  A C*-algebra lets me do that.  Does that make sense?  So it not only generalizes it but also gives me the flexibility to use it for something else (at least that was the intent).
+[[Ian Durham]]:(What's the accepted formatting for replying to a query by the way?)  Anyway, in answer to your question, I would say "maybe."  So, the first thing I would say is that this construction (as I have it written) isn't what I originally had.  I originally had (in a paper I was working on) something akin to what you wrote, but several people commented on it and said it should be the way I wrote it here.  Here's (I think) the rationale: since quantum channels can also carry classical information, i.e. $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ where $C(X)$ is the space of [[continuous functions]] on some space $X$, the Hilbert spaces are not necessarily of the same dimension.  But in order to form a monoid (which I wish to do in order to make use of Cayley's theorem), I wanted a single object.  So I wanted to make the input and output space the same on some level.  A C*-algebra lets me do that.  Does that make sense?  So it not only generalizes it but also gives me the flexibility to use it for something else (at least that was the intent).
 
 [[David Roberts]]: (just keep going between the last comment and the equals-hyphen-hyphen which closes the query. Also starting with your name flags to people who stumble on the entry who is \'speaking\'. I added your name above so my quotation didn't run into your reply) I would suggest, that the category is \'better\' than the monoid, and instead of Cayley the [[Yoneda lemma]] may be handy to get an analogous result. You wrote
 
