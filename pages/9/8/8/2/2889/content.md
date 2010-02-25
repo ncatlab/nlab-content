@@ -58,6 +58,7 @@ There is a standard way to _[[presentable (∞,1)-category|present]]_ all this s
   a suitable model of the circle and $\wedge$ the internal 
   [[smash product]].
 
+[BEWARE: This last point seems to suggest that one makes the suspension morphisms into weak equivalences - this is NOT the case, rather one passes to a category of spectra in the abstract sense of Mark Hovey's "Spectra and symmetric spectra in General Model Categories"]
 
 A concise overview of the constructions and definitions just outlined above is in
 
