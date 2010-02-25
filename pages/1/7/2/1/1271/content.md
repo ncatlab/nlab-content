@@ -1,8 +1,10 @@
-An __element__ of an object $W$ in a fixed [[abelian category]] $A$ is an *equivalence class* $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to A$ morphism and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v$. 
+An __element__ of an object $W$ in a fixed [[abelian category]] $A$ is an *equivalence class* $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to X'$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to X'$. 
+
+Notice that subtlety in the equivalence relation.
 
 Elements in an abelian category can be used for [[diagram chasing]].
 
-An element in an abelian category is an equivalence class of [[generalized elements]].
+* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp.; 2nd corrected ed. 2002.[[Gelfand-Manin]].
 
 [[!redirects element of an abelian category]]
 [[!redirects element in abelian category]]
