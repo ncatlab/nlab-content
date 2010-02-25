@@ -203,6 +203,9 @@ By the way, presuming how knowledgeable or fond of category theory some of us ar
 
 Yemon, I never said anyone at MathOverflow was ignorant of category theory.  I was referring to other mathematicians I know and work with.  In regards to Cayley's theorem please see above for a rough idea of what I was attempting to do or see my paper on the arXiv about this (which Pete Clark thinks I should retract and which I will admit isn't that good).
 
+[[David Roberts]]: Thank you for persevering, Ian. I think that there is a slight misunderstanding about permutation groups: Cayley's theorem tells us that any group can be embedded as a _subgroup_ of a permutation group, but this is probably not a crucial distinction for the present purposes. 
+
+And Harry, if using Cayley's theorem anywhere was pointless, I don't think we would even refer to it :) Give the guy a break. No harm has been done and we now have another physical application here on the nLab which may contain some interesting category theory. I for one am pleased we are attracting people to our project to describe the world using category theory. The \'untidy\' reasoning we have seen here (if I may call it that) is what research looks like, especially at the junction of disciplines, until things get sorted. The nLab is just exposing this hitherto hidden process to the world. Anyway, as was said in the forum, this seems to be becoming a burdensome chat page and we probably don't have any more to constructively discuss.
 =--
 In general, we are interested in completely positive trace-preserving (CPTP) maps.  
 
@@ -218,6 +221,8 @@ The operator spaces can be interpreted as $C^{*}$-[[C-star algebra|algebras]] an
 [[David Roberts]]: This would constitute, continuing the remark above, another category, where the objects are Hilbert spaces and the morphisms are pairs $(X,\Phi: L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B}))$. Not sure if this is the case, though, as the proof below doesn't seem to relate very well.
 
 [[Ian Durham]]: Any suggestions on how to restructure the proof so that it works for categories?
+
+[[David Roberts]]: I'm sorry, but I don't have the time (not to say that you are not in a similar position :) I have a full-time job outside of academia and contracts and so forth to deliver on.
 =--
 
 In other words, whether or not classical information is processed by the channel, it (the channel) is a mapping between $C^{*}$-algebras.  
