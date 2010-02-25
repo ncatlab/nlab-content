@@ -46,7 +46,7 @@ A morphism with [[left lifting property]] against all Kan fibrations is called *
 
 ### (Left/)Right fibration
 
-A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if its has the [[right lifting property]] with respect to all [[horn]] inclusions except the right outer ones. It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones.
+A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **[[left Kan fibration]]** if it has the [[right lifting property]] with respect to all [[horn]] inclusions except the right outer ones. It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones.
 
 
 $$
@@ -135,6 +135,8 @@ with $X \to Z$ a left/right/inner anodyne cofibraiton and $Z \to Y$ accordingly 
 ...
 
 ### Kan fibration
+
+...
 
 ### (Left/)Right fibration
 
@@ -448,11 +450,9 @@ chapter 2 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects fibrations of simplicial sets]]
-[[!redirects left Kan fibration]]
 [[!redirects inner Kan fibration]]
 [[!redirects right Kan fibration]]
 [[!redirects weak Kan fibration]]
-[[!redirects left fibration]]
 [[!redirects inner fibration]]
 [[!redirects right fibration]]
 [[!redirects weak fibration]]
