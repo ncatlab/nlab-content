@@ -20,12 +20,13 @@ Some useful remarks on this are in the begining of
 
 Milne's lectures (basically a slightly watered-down version of the text mentioned above) is available at
 
-* John Milne, Lectures on &Eacute;tale cohomology_ ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
+* John Milne, _Lectures on &Eacute;tale cohomology_ ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
 ## Details ##
 
 Given a [[scheme]] $X$ of finite type, the small [[etale site]] $Et(X)$ is the [[category]] whose [[object]]s are [[etale morphism|étale morphism]]s $Spec R \to X$ and whose morphisms $(f:Spec R\to X)\to (f':Spec R'\to X)$ are morphisms $\alpha: Spec(R)\to Spec(R')$ of schemes completing triangles: $f'\circ\alpha=f$ (notice that the morphisms between &#233;tale morphisms are automatically &#233;tale). This category naturally carries a [[Grothendieck topology]] that makes it a [[site]].
 
 The **&#233;tale cohomology** $H_{et}^\bullet(X,A)$ for $A \in Sh(Et(X), Ab)$ of $X$ is the [[abelian sheaf cohomology]] with respect to this site.
+
 
 [[!redirects étale cohomology]]
