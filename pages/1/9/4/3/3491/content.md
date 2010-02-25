@@ -377,7 +377,7 @@ $$
   \array{
     \Lambda[n] &\to& N(C)
     \\
-    \downarrow && \nearrow^{\mathrlap{N(f)}}
+    \downarrow && \downarrow^{\mathrlap{N(f)}}
     \\
     \Delta[n] && \to& N(D)
   }
@@ -389,7 +389,7 @@ $$
   \array{
     \Lambda[n] &\to& N(C)
     \\
-    \downarrow && \nearrow^{\mathrlap{N(f)}}
+    \downarrow && \downarrow^{\mathrlap{N(f)}}
     \\
     \Delta[n] && N(D)
   }
@@ -402,7 +402,7 @@ $$
   \array{
     \Lambda[n] &\to& N(C)
     \\
-    \downarrow &\nearrow& \nearrow^{\mathrlap{N(f)}}
+    \downarrow &\nearrow& \downarrow^{\mathrlap{N(f)}}
     \\
     \Delta[n] && N(D)
   }
@@ -414,7 +414,7 @@ $$
   \array{
     \Lambda[n] &\to& N(C)
     \\
-    \downarrow &\nearrow& \nearrow^{\mathrlap{N(f)}}
+    \downarrow &\nearrow& \downarrow^{\mathrlap{N(f)}}
     \\
     \Delta[n] &\to& N(D)
   }
