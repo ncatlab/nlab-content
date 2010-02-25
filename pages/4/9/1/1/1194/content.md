@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include type theory - contents]]
+</div>
 * table of contents
 {:toc}
 
@@ -133,18 +136,40 @@ Blog discussions about the difference between type theory and set theory:
 * [one](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026984)
 * [two](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c028459)
 
-# Intensional vs Extensional
+# Extensional vs Intensional
+
+There is an important distinction between *extensional* type theories and *intensional* ones.  The meanings of these words is probably clearest when dealing with function types, such as an exponential $Y^X$, but also arises in respect to quotient types and identity types.
+
+## Extensional and intensional function types
+
+A function type $Y^X$ is said to be **extensional** if whenever $f,g\colon X\to Y$ are functions such that $f(x)=g(x)$ for all $x\in X$, then in fact $f=g$ as elements of $Y^X$.  This clearly corresponds to the modeling of function types by [[function sets]] in the set-theoretic semantics, or more generally by [[exponential objects]] in the categorical semantics discussed above.  The uniqueness clause of the defining assertion of an exponential object, i.e. that any map $Z\times X\to Y$ factors through a *unique* map $Z\to Y^X$, precisely models this "extensionality" property.  Thus, the standard categorical semantics is most closely allied to type theories which have such an "extensionality" axiom.
+
+By contrast, suppose that $X$ and $Y$ are interpreted by data types in some programming language, and $Y^X$ is interpreted by some type of computable functions from $Y^X$.  Of course, many differently coded functions can have the same "extensional behavior," i.e. the same output for any given input, but we may still want to distinguish between these functions because they may not share other properties (such as running time or complexity).  Thus, this type $Y^X$ is not extensional---equality of functions, as elements of $Y^X$, is "implementation-sensitive," a finer measure than mere equality on all inputs.  We say instead that these function types are **intensional**.
+
+In type theory, extensional function-types generally come with both a "$\beta$-rule," which specifies the computational behavior of a $\lambda$-abstraction (i.e. $(\lambda x. t)(y) = t[y/x]$), and an "$\eta$-rule," which specifies that a $\lambda$-abstraction is determined by its behavior (i.e. $f = (\lambda x. f(x))$).  In the categorical semantics, the first specifies the existence of factorizations, while the second requires them to be unique.  In intensional type theory, we generally keep the $\beta$-rule (it is certainly natural from a computational standpoint) but discard the $\eta$-rule.  Thus, one natural sort of semantics for intensional type theory is valued in a category with "weak exponentials," i.e. objects which satisfy the existence but not uniqueness property of an exponential (and similarly for dependent type theory with $\Pi$-types and weak [[dependent product]]s).
+
+## Quotient types and exact completion
+
+Intensional type theory is also popular among adherents of [[constructive mathematics]] and especially [[predicative mathematics]], because of its computational content.  [[Per Martin-Löf]]'s original [[dependent type theory]] is often presented from this perspective.
+
+When viewing intensional type theory as a foundation for mathematics (rather than, say, a syntax for reasoning about computer programs), it is natural to view the types as representing [[presets]], rather than sets.  This is in line with the classical constructivist viewpoint that "a set is defined by a collection of things together with an equality relation."  Note that in intensional type theory, the "equality" between terms is free to be the "syntactic" equality, which is entirely computable and preserved by everything in sight.  In particular, if we adopt the viewpoint of [[propositions as types]], then "the axiom of choice is trivially valid" for functions between types (i.e. presets) since to assert that something exists is to give an element of a sum type, which is exactly to give a witness and thereby a way to choose such a thing.
+
+If we then define "sets" to be types equipped with equality relations (sometimes called [[setoids]]), then the sets will have more familiar properties, such as existence of extensional exponentials (obtained by equipping the intensional exponentials with an extensional equality relation), as well as the existence of [[quotient sets]].  (The existence of quotient types is often assumed in extensional type theory, but not in intensional type theory.)  In categorical terms, the [[syntactic category]] of an intensional type theory has only weak exponentials (resp. dependent products), but that is sufficient to ensure that its [[free exact completion]] has actual exponentials (resp. dependent products).  Note also that free exact completions always also validate [[COSHEP]], since every object of the starting category (here the category of types) is projective.  This matches the above observations about the axiom of choice.
+
+## Identity types
 
 (to be written...)
 
-# Formal definitions
+## Higher-categorical semantics
 
-(It might be nice to actually *define* a type theory, at least in some easy restricted case.)
+(to be written...)
 
 # Particular type theories
 
-Some particular type theories which have or deserve pages of their own:
+It seems to be quite difficult to actually define precisely what is meant by "a type theory" in generality.  The following particular type theories have pages of their own which give some more formal definitions.
 
+* [[simple type theory]]
+* [[simply typed lambda calculus]]
 * [[Martin-Löf dependent type theory]]
 * [[pure type system]]
 * the [[calculus of constructions]]
