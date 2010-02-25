@@ -3,8 +3,25 @@
 
 [[Urs Schreiber]]: As the following disucssion shows, there is a general feeling that this entry here is in need of clarification on what exactly it is supposed to be about, and what it is good for. It would seem to me that this could easily be achieved based on some standard authorative reference that introduces the notion and discusses it. So: what are good references on the notion "qunatum channel", in the sense apparently meant here? Pointers to a specific page in a specific article would be appreciated.
 
-=--
+[[Ian Durham]]: Thanks for the suggestion.  (By the way, when does it become kosher to delete all the comments between people in order to make the page look a little less cluttered?)
 
+=--
+For those who are looking for some background reading on quantum channels, here is a short bibliography of papers on the arXiv that give some details about quantum channels:
+
+The mathematical formalism and some of the initial results are due to Choi:
+
+Choi, M. (1975). Completely positive linear maps on complex matrices, 
+Linear Algebra and its Applications 10: 285&#8211;290.
+
+Good overviews and background can be found in:
+
+Smolin, John A., Verstraete, Frank, and Winter, Andreas (2005) [Entanglement of assistance and multipartite state distillation](http://arxiv.org/abs/quant-ph/0505038) Phys. Rev. A, vol. 72, 052317, 2005.
+
+Mendl, Christian B. and Wolf, Michael M. (2009) [Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem](http://arxiv.org/abs/0806.2820), Commun. Math. Phys. 289, 1057-1096 (2009).
+
+O'Loan, Caleb J. (2010). [Topics in Estimation of Quantum Channels](http://arxiv.org/abs/1001.3971), PhD thesis, University of St. Andrews, pp.13-15.
+
+Watrous, John (2008). [Mixing doubly stochastic quantum channels with the completely depolarizing channel](http://arxiv.org/abs/0807.2668)
 
 A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is the family of operators on $\mathcal{H}_{i}$. 
 
