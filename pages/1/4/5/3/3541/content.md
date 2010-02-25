@@ -6,6 +6,8 @@ A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathca
 
 Ideally, the nLab is a place where a newcomer (relative to some area) could go and not be confused by unstated context. That's perhaps the first lesson of category theory: a category is a _context_, a specification of the way we consider the objects before us (whether as vector spaces or Banach spaces or $C^\star$-algebras or what have you). Being very careful to specify the context or category in which one is working at any given moment is a fundamental precept in our business and promotes clarity of thinking. 
 
+[[Ian Durham]]: Thanks for the assistance Todd.  I think part of the problem I'm having is that I seem to get contradictory advice from a lot of people.  So, originally, I had it as a mapping between $C^{*}$-algebras but got talked out of it.  Indeed, you are correct that by $L(H_{A})$ and $L(H_{B})$ I actually mean a mapping between the algebras on the Hilbert space.  I think the other problem is that a definition that is generally good enough for physicists is often not good enough for mathematicians and I'm finding myself struggling to improve the clarity and specificity.  As to why I use $H_{A}$ versus $H_{1}$, it's a physics thing and is usually because $A$ and $B$ are either systems or spaces of operators or something that nature.
+
 =--
 
 +--{: .query}
@@ -31,6 +33,10 @@ _Yemon Choi_: the use of Cayley's theorem still puzzles me. If all you want to k
 Categories would be useful if you wanted to look at groupoids, I suspect.
 
 By the way, presuming how knowledgeable or fond of category theory some of us are might be a touch presumptuous, no?
+
+[[Ian Durham]]: Harry, would you please just leave me the hell alone?  I've left MathOverflow.  There was no need to follow me here.  Until you showed up, people here seemed to be relatively nice and helpful (and I can't believe at my age I'm even saying this to a college sophomore - I should have learned to ignore people like you a long time ago).
+
+Yemon, I never said anyone at MathOverflow was ignorant of category theory.  I was referring to other mathematicians I know and work with.  In regards to Cayley's theorem please see above for a rough idea of what I was attempting to do or see my paper on the arXiv about this (which Pete Clark thinks I should retract and which I will admit isn't that good).
 
 =--
 In general, we are interested in completely positive trace-preserving (CPTP) maps.  
