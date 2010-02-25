@@ -1,9 +1,27 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 Just as an ordinary [[topos]] comes with its [[internal logic]], and [[(∞,1)-topos]] should come with its _internal $(\infty,1)$-logic_ .
 
 Not much is known about this yet. But below are some references that go in this direction.
+
+## Examples
+
+### Internal logic in $\infty Grpd$ {#OfInfGrpd}
+
+The archetypical [[(∞,1)-topos]] is [[∞Grpd]]. This is to be thought of as the [[vertical categorification|(∞,1)-categorification]] of the archetypical 1-[[topos]] [[Set]].
+
+At [internal logic - in Set](http://ncatlab.org/nlab/show/internal+logic#LogicOfSet) is a step-by-step discussion of how ordinary logic is recovered from the point of view of the [[internal logic]] of a topos $\mathcal{T}$ when  choosing $\mathcal{T} := Set$.
+
+Here we look at the $(\infty,1)$-categoried analog of that discussion,  step-by-step, now everything internal to [[∞Grpd]].
+
+So...
+
+> (...please fill in what comes next, if you have an idea...)
 
 ## References
 
