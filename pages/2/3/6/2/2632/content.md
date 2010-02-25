@@ -40,8 +40,10 @@ Such a setup describes the quantum mechanics of a particle that feels forces of 
 
 #Quantum mechanics in general #
 
-More generally, _quantum mechanics_ may be used as a term that subsumes [[quantum field theory]] and all of physics that is not [[classical mechanics]]. 
+More generally, _quantum mechanics_ may be used as a term that subsumes [[quantum field theory]] and all of physics that is not [[classical mechanics]]. Another way to look at quantum processes is via [[quantum channels]] which are completely positive trace-preserving maps.
 
 Zoran: I slightly disagree with that opposite extremity either. The sentence is better suited to define quantum physics (though complement to [[classical physics]] includes relativity, while opposite to classical mechanics includes thermodynamics). Quantum physics is not the same as quantum mechanics. There are quantum phenomena which are not treated by quantum mechanics only. I mean it would be very unusual calling quantum statistical 
 physics, part of quantum mechanics; it requires special limiting assumptions (thermodynamic limit, quantum ergodicity and so on lie outside) outside of scope of the things derivable from quantum mechanics.    
+
+[[Ian Durham]]: J.J. Sakurai's book *Modern Quantum Mechanics* (not to be confused with his *Advanced Quantum Mechanics* which is a field theory book) discusses quantum statistical mechanics under the guise of quantum mechanics as does the forthcoming book *Q-PSI: Quantum processes, systems, and information* by Schumacher and Westmoreland.  While it may not be entirely accurate, "quantum physics" and "quantum mechanics" are usually treated as being synonymous.
 
