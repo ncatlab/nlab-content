@@ -14,7 +14,7 @@ This is the $(\infty,1)$-analog of the $(2,1)$-category of [[fibered category|ca
 The extension of this from [[left fibration]]s to [[coCartesian fibration]]s is the [[model structure for coCartesian fibrations]].
 
 
-## Defintion
+## Definition
 
 ...
 
@@ -32,7 +32,7 @@ A morphism $f : X \to Y$ is
     Y^{\triangleleft} \coprod_Y S
   $$
 
-  is a weak equivalence in the Joyal [[model structure for quasi-categories]], where $X^{\triangleleft}$ is the [[join of simplicial sets|joint]] ${*} \star X$.
+  is a weak equivalence in the Joyal [[model structure for quasi-categories]], where $X^{\triangleleft}$ is the [[join of simplicial sets|join]] $X^{\triangleleft} := {*} \star X$.
 
 (def. 1.2.4.5)
 
@@ -58,8 +58,10 @@ We have
 
 ## References
 
-section 2.1.4 of 
+This is the content of section 2.1.4 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+There the model category is called the **covariant model structure**.
 
 [[!redirects model structure for right fibrations]]
