@@ -66,7 +66,7 @@ The nerve functor may be viewed as a [[singular functor]] of the functor $i$.
 
 ## Examples ##
 
-### ordinary nerve of a category ###
+### Ordinary nerve of a category ###
 
 Recall that the [[nLab:simplex category|simplex category]] $\Delta$ is equivalent to the full subcategory 
 $$
@@ -298,6 +298,27 @@ $$
 (even unique fillers, due to the above).
 
 It is in this sense that a simplicial set that is a [[Kan complex]] but which does not necessarily have the above pullback property that makes it a nerve of an ordinary groupoid models an [[∞-groupoid]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+A simplicial set is the nerve of a category precisely if all _inner_ horns have _unique_ fillers.
+
+=--
+
+See [[inner fibration]] for details on this.
+
+
++-- {: .un_prop}
+###### Proposition
+
+The nerve $N(C)$ of a category is [[coskeleton|2-coskeletal]], hence all [[horn]] inclusions $\Lambda[n]_i \hookrightarrow \Delta[n]$ have unique fillers for $n \gt 3$.
+
+=--
+
+Here the point as compared to the previous statements is that in particular all the outer horns have fillers for $n \gt 3$.
+
 
 ### Nerve of a 2-category ###
 
