@@ -92,7 +92,7 @@ $$
   \,.
 $$
 
-For instance for $A = H(\mathbb{Z})$ the [[Eilenberg-MacLane object]] (discussed more in detail below), one writes
+For instance for $A = H(\mathbb{Z})$ the Eilenberg-MacLane object (discussed more in detail below), one writes
 
 $$
   H^{p,q}(X, \mathbb{Z}) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{t}^{q} H(\mathbb{Z}))
@@ -101,22 +101,34 @@ $$
 
 ### Chow groups as motivic cohomology with coefficients in Eilenberg-MacLane objects {#ChowGroupsAsInfStackCohomology}
 
-In any [[(∞,1)-topos]] $\mathbf{H}$, the most important notion of [[cohomology]] is that with coefficients in the corresponding 
-[[Eilenberg-MacLane object]]s $K(A,n)$
+To define an Eilenberg-MacLane object representing an interesting cohomology theory the first guess might be to apply the general definition of an [[Eilenberg-MacLane object]] given under the link, which amounts to taking the constant Eilenberg-MacLane-space-valued sheaves. This is no good:
 
-$$
-  H^n(X,A) := \pi_0 \mathbf{H}(X, K(A,n))
-  \,.
-$$
+1. Philosophically: It will result in a constant simplicial presheaf on the site of schemes, e.g. not varying with different coefficient rings as input and thus disregarding all the algebro-geometric information of a scheme. But motivic cohomology should talk exactly about this.
 
-For instance in [[Top]] this gives the
-"ordinary" cohomology, for instance [[integral cohomology]] for $A = \mathbb{Z}$.
+2. Technically: The general construction would naturally yield an $S^1$-spectrum, but we want a $\mathbb{P}^1$-spectrum. This is not easy: Voevodsky states in his ICM-talk article (on p. 596, see references) that every morphism $\mathbb{P}^1 \wedge K(\mathbb{Z},n) \rightarrow K(\mathbb{Z},n+1)$ is trivial in the $\mathbb{A}^1$-homotopy category.
 
-In the [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}_{Nis}$ cohomology with  coefficients in the corresponding [[Eilenberg-MacLane object]]s identifies with the notion of [[Chow group]]s.
+Instead one applies a recipe which, when applied to the usual topological spheres produces the (topological) Eilenberg-MacLane spaces, to the algebro-geometric sphere $\mathbb{P^1}$:
 
-[BEWARE: What one gets applying the definition of Eilenberg-MacLane object found under the link are NOT all the objects representing higher Chow groups - rather one gets only the objects representing the higher *codimension zero* Chow groups, i.e. a rather trivial part]
+The [[Dold-Thom theorem]] says that in topology the reduced singular homology of a space $X$ can be produced as
 
-> the following paragraphs are due to [[Denis-Charles Cisinski]], taken from [this MathOverflow thead](http://mathoverflow.net/questions/2520/homotopy-theory-of-schemes-examples).
+$$H_i(X) = \pi_i (\mathrm{colim}_N\, \mathrm{Sym}^N X)^+$$
+
+where $\mathrm{Sym}^N X = (X\times X\times ...\times X)/\Sigma_N$ is the free monoid on $X$ and $(-)^+$ denotes group completion. Inserting the topological n-sphere $S^n$ yields that $(\mathrm{Sym}^N X)^+$ is an Eilenberg-MacLane space.
+
+The construction makes sense for schemes seen as Set-valued functors, in particular for $\mathbb{P}^1$. More generally we want to apply it to smash-products of simplicial sheaves $\mathbb{P}^1\wedge \ldots \wedge \mathbb{P}^1$ and define for $i:Z \rightarrow X$ a closed immersion (for us e.g. $\mathbb{P}^1 \times pt \cup pt \times \mathbb{P}^1 \rightarrow \mathbb{P}^1 \times \mathbb{P}^1$)
+
+$$\mathrm{Sym}^N (X/Z) = \mathrm{Sym}^N (X)/\cup Im(X \times \ldots \times Z \times \ldots \times X)$$
+
+We have maps $\mathrm{Sym}^N (X) \rightarrow \mathrm{Sym}^{N+1} (X)$ (lengthening an $N$-letter word by one, attaching the base point) and the colimit over these maps, followed by group completion gives a functor $L(-):=(\mathrm{Sym}^{\infty} (-))^+$. Now one defines the *motivic Eilenberg-MacLane spaces* $\mathbf{K}(\mathbb{Z}(n),2n):=L(\mathbb{P}^1)$.
+
+These assemble to give the *motivic Eilenberg-MacLane spectrum* $H(\mathbb{Z}):=(*,\mathbf{K}(\mathbb{Z}(1),2),\mathbf{K}(\mathbb{Z}(2),4),\ldots)$ with bonding maps induced by $\mathbb{P}^1 \wedge \mathrm{Sym}^N ({\mathbb{P}^1}^{\wedge m}) \rightarrow \mathrm{Sym}^N ({\mathbb{P}^1}^{\wedge m+1}), (x, \sum x_i) \mapsto \sum (x,x_i)$ (i.e. take the extra $\mathbb{P}^1$-point as new coordinate in the bigger $\wedge$-product of $\mathbb{P}^1$s).
+
+The bigraded homology and cohomology theoriesassociated to this spectrum are called *motivic (co)homology*.
+
+This definition works at least over characteristic 0. In general one has to take cycles as described by Denis-Charles Cisinski below. Intuitively the points of $(\mathrm{Sym}^{\infty} (X))^+$ are finite formal sums of points of X, i.e. zero-cycles, which links this story to the functor $L$ described below. In characteristic zero both coincide. The link to Chow groups however only becomes apparent in the cycle description.
+
+
+> the following paragraphs are due to [[Denis-Charles Cisinski]], taken from [this MathOverflow thread](http://mathoverflow.net/questions/2520/homotopy-theory-of-schemes-examples).
 
 To keep things simple, let us assume we work over a [[perfect field]]. The easiest part of motivic cohomology which we can get is the [[Picard group]] (i.e. the [[Chow group]] in degree 2). This works essentially like in [[Top]]: in the [[model structure on simplicial presheaves|(model) category of simplicial Nisnevich sheaves]] (over smooth $k$-schemes), the classifying space of the multiplicative group $\mathbb{G}_m := \mathbb{A}^1 - \{0\}$  has the $\mathbb{A}^1$-[[homotopy n-type|homotopy type]] of the infinite dimensional projective space. 
 
@@ -204,6 +216,8 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 ### References ##
 
 * [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
+
+* [[Vladimir Voevodsky]], _A^1-homotopy Theory_, Documenta Mathematica, Extra Volume ICM 1998, I, 579-604 [ps](http://www.emis.de/journals/DMJDMV/xvol-icm/00/Voevodsky.MAN.ps.gz)
 
 ## Further references
 
