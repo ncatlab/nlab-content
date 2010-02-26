@@ -154,4 +154,7 @@ this follows explicitly from HTT, prop 3.3.1.8, recalled at [[Cartesian fibratio
 =--
 
 [[!redirects object classifier]]
+[[!redirects object classifiers]]
 [[!redirects (sub)object classifier in an (∞,1)-topos]]
+[[!redirects (sub)object classifiers in an (∞,1)-topos]]
+[[!redirects (sub)object classifiers in an (infinity,1)-topos]]
