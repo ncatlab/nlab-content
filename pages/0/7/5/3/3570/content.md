@@ -1,3 +1,7 @@
+
+###An example illustrating some of the ideas of shape theory###
+
+
 A space  may have very little separating it from 'manifoldness', yet a 'singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, cf. Borsuk's book (referenced below.)
 
 The Warsaw circle $S_W $ is the subset of the plane, $\mathbb{R}^2$, specified by
@@ -23,3 +27,16 @@ There is a simple continuous map from $S^0$, the 0-circle, $\{-1,1\}$, to $S_W$ 
 If we consider, not just $S_W$ as a compact metric space, but as a subspace of the plane then we can take small open neighbourhoods of $S_W$, to be definite take 
 
 $$N_{\frac{1}{n}}(S_W) = \{ \underline{x}\in \mathbb{R}^2 | d(\underline{x},S_W) \lt \frac{1}{n}\}.$$  
+
+This looks like an annulus with a thickenning at one small section. It has the homotopy type of a circle. If $N \gt n$, $N_{\frac{1}{N}}(S_W)\subset N_{\frac{1}{n}}(S_W)$, of course, (we will write $i^N_n$ for this map, and this is a homotopy equivalence. The Warsaw circle, $S_W$, is clearly the intersection of all these almost annular neighbourhoods. (Note, also clearly, that the complements  of these neighbourhoods are gradually occupying more and more of the two components of $\mathbb{R}^2- S_W$.)
+
+We have a inverse system ([[pro-object]]) of spaces all of which have the homotopy type of a polyhedron, ... in fact always the same polyhedron, $S^1$.  
+
+
+There is a sequence of maps $\{f_n : S^1 \to N_{\frac{1}{n}}(S_W)\mid n\in \mathbb{N}\}$, so that each pair $N\gt n$, there is a homotopy $f_n \sim i^N_n f_N$.
+
+
+
+## References
+
+* K. Borsuk, _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
