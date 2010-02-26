@@ -112,6 +112,8 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 +--{: .query}
 [[David Roberts]]: I was thinking that perhaps the objects of the category were the vector/Hilbert spaces, and the arrows were the completely positive and trace-preserving maps between the matrix algebras. In this instance, the category theoretical content seems that it would be more detailed than \'it\'s just a subcategory of Vect\'.
+
+[[Ian Durham]]: Yes!  That was what my original plan was.  The idea was that it would be possible to create a monoid if the input and output Hilbert space was the same which would give it possibly interesting group theoretic properties (namely Cayley's theorem which would potentially allow me to find some morphism to unitaries which we like in quantum mechanics because they describe system evolution).
 =--
 
 ## References
