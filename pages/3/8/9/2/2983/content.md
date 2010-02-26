@@ -5,6 +5,10 @@ Initially introduced by [[Jacques Tits]] as a means to understand the structure 
 
 > (for the moment the above text is simply a copy of the intro of the [wikipedia entry](http://en.wikipedia.org/wiki/Building_%28mathematics%29))
 
+See also
+
+* [[toddtrimble:Buildings for category theorists]] 
+
 
 [[!redirects Tits building]]
 [[!redirects Bruhat-Tits building]]
