@@ -15,8 +15,9 @@ With $C$ fixed, instead of "geometric stack" one says, for instance
 
 * for $C = $ [[CRing]]${}^{op}$ -- [[algebraic stack]];
 
+## Geometric stacks
 
-## Definition
+### Definition
 
 
 A [[stack]] $X$ is **geometric** if 
@@ -30,9 +31,7 @@ A [[stack]] $X$ is **geometric** if
   * a [[representable morphism of stacks]].
 
 
-
-
-## References
+### References
 
 A good discussion of topological and differentiable stacks is around definition 2.3 in
 
@@ -42,6 +41,17 @@ See also
 
 * [[Bertrand Toen]], _Master Course on Stacks_ ([web](http://www.math.univ-toulouse.fr/~toen/m2.html))
 
-A discussion in the context of [[∞-stack]]s is here:
+
+## Geometric $\infty$-stack
+
+### References
+
+Geometric $\infty$-stacks were introduced in 
+
+* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219])
+
+in terms of [[model category]] presentations.
+
+More discussion on that is in
 
 * [[Bertrand Toen]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math/0404373))
