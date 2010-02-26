@@ -6,13 +6,13 @@ There are few mutually unrelated notions denoted by "crystal" in mathematics. On
 
 ## Idea
 
-[[Alexander Grothendieck|Grothendieck]]'s differential calculus is based on the [[infinitesimal object|infinitesimal]] thickenings of a diagonal of a space. If one takes a completion than there is a filtration on infinitesimals there. On the other hand, this theory also provides a concept of a [[regular differential operator]] which is also filtered (by the degree). There is a fundamental duality between the infinitesimals and regular differential operators which is compatible with the two filtrations, in fact the duality is a perfect pairing on each filtered level. This pairing gives for example that a [[D-module]] corresponds to a flat [[connection on a bundle|connection]] on a usual [[quasicoherent sheaf]]. 
+[[Alexander Grothendieck|Grothendieck]]'s differential calculus is based on the [[infinitesimal object|infinitesimal]] thickenings of a diagonal of a space. If one takes a completion, then there is a filtration on infinitesimals there. On the other hand, this theory also provides a concept of a [[regular differential operator]] which is also filtered (by the degree). There is a fundamental duality between the infinitesimals and regular differential operators which is compatible with the two filtrations, in fact the duality is a perfect pairing on each filtered level. This pairing gives for example that a [[D-module]] corresponds to a flat [[connection on a bundle|connection]] on a usual [[quasicoherent sheaf]]. 
 
-Flat connections can infinitesimally be described as [[descent]] data on [[de Rham space]]s called the costratification. There is a [[site]] (the [[crystalline site]]) which formalizes these descent data. It can be expalined in many ways, including the intutive in the sense of infinitesimal elements in a [[scheme]]. 
+Flat connections can infinitesimally be described as [[descent]] data on [[de Rham space]]s called the costratification. There is a [[site]] (the [[crystalline site]]) which formalizes these descent data. It can be explained in many ways, including intuitively in the sense of infinitesimal elements in a [[scheme]]. 
 
-The **crystals of quasicoherent sheaves** are the [[quasicoherent sheaf|quasicoherent sheaves]] of modules over the crystalline site are in correspondence with usual quasicoherent sheaves over the underlying scheme with flat connection. 
+The **crystals of quasicoherent sheaves** are the [[quasicoherent sheaf|quasicoherent sheaves]] of modules over the crystalline site and are in correspondence with usual quasicoherent sheaves over the underlying scheme with flat connection. 
 
-But Grothendieck has had not only the descent for quasicoherent sheaves but also for [[affine scheme]]s. This nonlinear version is harder and unlike the descent for quasicoherent sheaves, it does not have a noncommutative generalization. 
+But Grothendieck considered not only descent for quasicoherent sheaves but also for [[affine scheme]]s. This nonlinear version is harder and unlike descent for quasicoherent sheaves, it does not have a noncommutative generalization. 
 
 >([[Zoran Skoda|Zoran]]: we should find an exact reference from EGA or so for the descent for affine schemes). 
 
