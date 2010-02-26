@@ -150,13 +150,15 @@ In type theory, extensional function-types generally come with both a "$\beta$-r
 
 ## Quotient types and exact completion
 
-Intensional type theory is also popular among adherents of [[constructive mathematics]] and especially [[predicative mathematics]], because of its computational content.  [[Per Martin-Löf]]'s original [[dependent type theory]] is often presented from this perspective.
+Intensional type theory is also popular among adherents of [[constructive mathematics]] and especially [[predicative mathematics]], because of its computational content.  [[Per Martin-Lof|Per Martin-Löf]]'s original [[dependent type theory]] is often presented from this perspective.
 
 When viewing intensional type theory as a foundation for mathematics (rather than, say, a syntax for reasoning about computer programs), it is natural to view the types as representing [[presets]], rather than sets.  This is in line with the classical constructivist viewpoint that "a set is defined by a collection of things together with an equality relation."  Note that in intensional type theory, the "equality" between terms is free to be the "syntactic" equality, which is entirely computable and preserved by everything in sight.  In particular, if we adopt the viewpoint of [[propositions as types]], then "the axiom of choice is trivially valid" for functions between types (i.e. presets) since to assert that something exists is to give an element of a sum type, which is exactly to give a witness and thereby a way to choose such a thing.
 
 If we then define "sets" to be types equipped with equality relations (sometimes called [[setoids]]), then the sets will have more familiar properties, such as existence of extensional exponentials (obtained by equipping the intensional exponentials with an extensional equality relation), as well as the existence of [[quotient sets]].  (The existence of quotient types is often assumed in extensional type theory, but not in intensional type theory.)  In categorical terms, the [[syntactic category]] of an intensional type theory has only weak exponentials (resp. dependent products), but that is sufficient to ensure that its [[free exact completion]] has actual exponentials (resp. dependent products).  Note also that free exact completions always also validate [[COSHEP]], since every object of the starting category (here the category of types) is projective.  This matches the above observations about the axiom of choice.
 
 ## Identity types
+
+Quick comment:  Even in internal type theory, one needs identity types to validate COSHEP.  Type theory without identity types is very strange (the category of contexts may not have all pullbacks, and not every morphism need be a display morphism).
 
 (to be written...)
 
@@ -170,7 +172,7 @@ It seems to be quite difficult to actually define precisely what is meant by "a 
 
 * [[simple type theory]]
 * [[simply typed lambda calculus]]
-* [[Martin-Löf dependent type theory]]
+* [[Martin-Lof dependent type theory|Martin-Löf dependent type theory]]
 * [[pure type system]]
 * the [[calculus of constructions]]
 * the [[internal logic]] of various kinds of categories
