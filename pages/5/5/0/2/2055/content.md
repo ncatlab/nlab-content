@@ -1,19 +1,37 @@
-# Contents #
+[[!include contents]]
+
+
+This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog) about mathematics.
+
+For a quick introduction to math blogging, see
+
+* [[John Baez]], _What do mathematicians need to know about blogging?_ [AMS notices, March 2010](http://www.ams.org/notices/201003/) ([pdf](http://www.ams.org/notices/201003/rtx100300333p.pdf))
+
+  blog discussion about this piece: [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
+
+
++--{: .query}
+
+Please help with improving this page:
+
+* add links that are missing;
+
+* add information to links on what kind of activity tends to go on at the sites being linked to.
+
+=--
+
+
+#Math blogs and wikis#
 
 * automatic table of contents goes here
 {:toc}
 
-+--{: .query}
-[[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
 
-[[Eric]]: Good idea, but maybe too much for any one person, so if you find your blog listed here, please provide a note about it. Note: I added a blurb to the _The n-Category Caf&#233;_ for a sample.
-=--
 
-# Math Overflow #
+## Mathematics
 
-[Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
+### Blogs
 
-# Mathematics Blogs #
 
 * [Affine Mess] (http://affinemess.com) 
 
@@ -155,40 +173,9 @@
 * [XOR's hammer](http://xorshammer.wordpress.com)
 
 
-# Probability and Statistics Blogs #
 
-* [Hot Hand --- Sports Streakiness](http://thehothand.blogspot.com)
+### Wikis
 
-* [Social Science Statistics Blog](http://www.iq.harvard.edu/blog/sss)
-
-* [Statistical Modeling, Causal Inference and Social Science](http://www.stat.columbia.edu/~gelman/blog)
-
-* [The Endeavour](http://www.johndcook.com/blog)
-
-* [Williams College Math/Stat blog](http://blogs.williams.edu/math)
-
-
-# Theoretical Computer Science Blogs #
-
-Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Science).
-
-
-# Other Blogs that Touch on Mathematics #
-
-* [Mathematics in Australia](http://austmaths.wordpress.com)
-
-* [Nonoscience](http://nonoscience.wordpress.com)
-
-* [Numb3rs](http://www.atsweb.neu.edu/math/cp/blog)
-
-* [Out of print math](http://outofprintmath.blogspot.com)
-
-* [Sage: Open Source Mathematical Software](http://sagemath.blogspot.com)
-
-* [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
-
-
-# Mathematical Wikis #
 
 * [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
 
@@ -207,20 +194,72 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
 
 
-# Probability and Statistics Wikis #
+
+
+
+### Forums
+
+
+[Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
+
+
+
+
+
+## Probability and Statistics 
+
+### Blogs 
+
+* [Hot Hand --- Sports Streakiness](http://thehothand.blogspot.com)
+
+* [Social Science Statistics Blog](http://www.iq.harvard.edu/blog/sss)
+
+* [Statistical Modeling, Causal Inference and Social Science](http://www.stat.columbia.edu/~gelman/blog)
+
+* [The Endeavour](http://www.johndcook.com/blog)
+
+* [Williams College Math/Stat blog](http://blogs.williams.edu/math)
+
+### Wikis
 
 * [Chance News](http://chance.dartmouth.edu/chancewiki/index.php/Main_Page)
 
 * [Wikitistics - Statistics Wiki](http://statistics.wikia.com/wiki/Main_Page)
 
 
-# Blog Discussions on Math Blogging #
-
-* $n$-Caf&#233; discussions on _What do mathematicians need to know about blogging?_, [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](
-http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
 
 
-# Other Resources #
+
+
+## Theoretical Computer Science 
+
+### Blogs 
+
+Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Science).
+
+
+## Math-related
+
+### Blogs
+
+
+* [Mathematics in Australia](http://austmaths.wordpress.com)
+
+* [Nonoscience](http://nonoscience.wordpress.com)
+
+* [Numb3rs](http://www.atsweb.neu.edu/math/cp/blog)
+
+* [Out of print math](http://outofprintmath.blogspot.com)
+
+* [Sage: Open Source Mathematical Software](http://sagemath.blogspot.com)
+
+* [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
+
+
+
+
+
+## Technical help with math blogs 
 
 * Luca Trevisan's [LaTeX to Wordpress converter](http://lucatrevisan.wordpress.com/latex-to-wordpress)
 
