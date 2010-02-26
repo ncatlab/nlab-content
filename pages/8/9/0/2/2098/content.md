@@ -37,3 +37,7 @@ An application of Batanin weak $\omega$-groupoids to [[type theory]] appears in
 [[!redirects Batanin ∞-category]]
 [[!redirects Batanin omega-categories]]
 [[!redirects Batanin ∞-categories]]
+[[!redirects Batanin omega-groupoid]]
+[[!redirects Batanin ∞-groupoid]]
+[[!redirects Batanin omega-groupoids]]
+[[!redirects Batanin ∞-groupoids]]
