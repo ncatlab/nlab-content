@@ -22,11 +22,15 @@ An important extension of type theory involves _dependent_ types: types which ar
 
 ## Categorical semantics of logic in type theory
 
-How does type theory relate to logic?  Well, _propositional logic_ is just the type theory whose semantic categories are _posets_.  In this case, the types $P,Q,\dots$ are usually called _propositions_, and the existence of a (necessarily unique) term of type $Q$, having a free variable of type $P$, is just the assertion that $P\le Q$ (or, in more logical language, "$P$ implies $Q$").  The type constructor for binary products is usually written $\wedge$ and called "and," the type constructor for binary coproducts is usually written $\vee$ and called "or," and so on.  The term constructors are generally called _inference rules_, since they allow us to infer new theorems from old ones.
+How does type theory relate to logic?  Well, _[[propositional logic]]_ is just the type theory whose semantic categories are _posets_.  In this case, the types $P,Q,\dots$ are usually called _propositions_, and the existence of a (necessarily unique) term of type $Q$, having a free variable of type $P$, is just the assertion that $P\le Q$ (or, in more logical language, "$P$ implies $Q$").  The type constructor for binary products is usually written $\wedge$ and called "and," the type constructor for binary coproducts is usually written $\vee$ and called "or," and so on.  The term constructors are generally called _inference rules_, since they allow us to infer new theorems from old ones.
 
-Now, it turns out that there are (at least) two ways to reconcile logic (the type theory of posets) with type theory of more general categories.  In the first approach, which can be described as _typed predicate logic_ or _logic over type theory_, we keep the propositions separate from the types.  (Since, as we have seen, propositional logic is a specific kind of type theory, this means we really have two interacting type theories.  However, in this case we generally reserve "type" for the second kind of type as distinguished from the "propositions.")
+Now, it turns out that there are (at least) two ways to reconcile propositional logic (the type theory of posets) with type theory of more general categories, producing [[predicate logic]].
 
-In this case, the syntax has collections of types and terms, together with constructors, and also rules for forming propositions out of types and terms, and inference rules for forming implications between propositions.  The types and terms form the underlying type theory of the logic, and the propositions 'depend' on these.  For instance, given two terms $x,y$ of type $A$, we can often form a proposition $x=y$ which asserts that $x$ and $y$ are equal.  Other important "proposition constructors" are the _quantifiers_ $\exists x$ and $\forall x$, where $x$ is a variable associated to a type (not a proposition).
+### Logic over type theory
+
+In the first approach, which can be described as _typed predicate logic_ or _logic over type theory_, we keep the propositions separate from the types.  (Since, as we have seen, propositional logic is a specific kind of type theory, this means we really have two interacting type theories.  However, in this case we generally reserve "type" for the second kind of type as distinguished from the "propositions.")
+
+In this case, the syntax has collections of types and terms, together with constructors, and also rules for forming propositions out of types and terms, and inference rules for forming implications between propositions.  The types and terms form the underlying type theory of the logic, and the propositions 'depend' on these.  For instance, given two terms $x,y$ of type $A$, we can often form a proposition $x=y$ which asserts that $x$ and $y$ are equal.  Other important "proposition constructors" are the _quantifiers_ $\exists x$ and $\forall x$, where $x$ is a variable associated to a type (not a proposition).  This can concisely be formalized as a [[pure type system]] with one sort for types and another sort for propositions, such that propositions are allowed to depend on types, but not conversely.
 
 The natural home for the semantics of typed predicate logic turns out to be an _indexed poset_: a category $C$ together with a functor $P:C^{op}\to Pos$.  This is often described equivalently as a category $E$ of propositions that is [[Grothendieck fibration|fibred over]] the category $C$ of terms, and whose fibers are posets.  (Thus, an alternative way of thinking of propositional logic is as the 'logic' of a poset fibred over the trivial one-object category, which corresponds to the fact that the propositions do not contain or depend on typed terms.)  The ordinary type theory happens in $C$ as described above, and a proposition $\phi$ with a free variable $x$ of type $A$ is interpreted by an element $[\phi]$ of the poset $P(A)$ (the fiber over $A$).  The prototypical indexed poset is $P:Set^{op}\to Pos$ sending each set to the poset of its [[subset]]s, with an evident generalization to [[subobject]]s in any category; thus we think of $[\phi]$ as "the set of all $x\in A$ such that $\phi(x)$ is true." Another way of describing this setup is as the _subobject fibration_ $cod:Sub(C)\to C$.
 
@@ -52,7 +56,9 @@ existential and universal quantifiers.
 
 The [[internal logic]] of various sorts of categories are most naturally regarded as the typed predicate logic associated to the "poset of subobjects" functor $Sub:C^{op}\to Pos$, and the requisite levels of structure on $C$ induce the required semantic structure on both $C$ and $Sub$.  For instance, if $C$ is [[regular category|regular]], then each $Sub(X)$ is a meet-semilattice and the adjoints $\exists_f$ exist, while if $C$ is a [[Heyting category]], then each $Sub(X)$ is a [[Heyting algebra]] and both adjoints $\exists_f$ and $\forall_f$ exist.  However, not all indexed posets in which one wants to apply type theory are constructed from subobjects  in some category; see for instance [[tripos]].
 
-The _second_ approach to reconciling type theory with logic
+### Propositions as types
+
+The second approach to reconciling type theory with logic
 is to blur the distinction between types and propositions;
 this is called the "[[propositions as types]]" paradigm.
 Instead of requiring that a proposition $\phi$ be
@@ -70,13 +76,83 @@ for instance, instead of asserting that $\phi\Rightarrow
 that $\phi$ implies $\psi$, which is inhabited just when
 $\phi$ actually does imply $\psi$.  Similarly, the
 quantifiers $\exists$ and $\forall$ become identified with
-the dependent type constructors $\Sigma$ and $\Pi$.  In
-this case, the semantics involved is the more general
-_codomain fibration_ $p:C^\to\to C$, whose fibres are the [[slice category|slice categories]] $C/A$.
+the dependent type constructors $\Sigma$ and $\Pi$.
+
+In this case, the semantics involved is the more general _codomain fibration_ $p:C^\to\to C$, whose fibres are the [[slice categories]] $C/A$.  If we want to take the point of view of "proof irrelevance," meaning that we only care whether something is true rather than how many proofs it has, then we can think of the semantics as living in the "poset reflections" $pos(C/A)$ of these slice categories (in which all parallel morphisms are identified).  Note also that the $pos(C/A)$ is equivalent to the poset of subobjects of $A$ in the [[free exact completion]] of $C$, so this can also be regarded as doing "logic over type theory" with semantics valued in free exact completions.
+
 
 ## Syntactic categories and free models
 
-(to be written; for now see [[context]] and [[internal logic]]).
+There are two equivalent ways to describe formally the semantics of a given type theory (possibly with logic) in a category.  Essentially, the idea is that there is an [[adjunction]]
+
+$$ type theories \quad \underoverset{Sem}{Syn}{\rightleftarrows} \quad categories $$
+
+in which
+
+* the right adjoint $Sem$ (semantics) assigns to a category its [[internal logic|internal type theory]] whose types and terms (and propositions, if present) are the objects and morphisms (and subobjects) of the category, while 
+
+* the left adjoint $Syn$ (syntax) builds the [[syntactic category]] of a type theory, whose objects, morphisms, and subobjects are the types, terms, and propositions of the type theory.
+
+Thus, if $T$ is a type theory and $C$ a category with corresponding structure, it is equivalent to give a structure-preserving functor $Syn(T) \to C$, or to give a translation of type theories $T\to Sem(C)$.  Either one is called a "model" of $T$ in $C$.  For more details on the construction of $Syn$, see [[context]], and for more details on $Sem$, see [[internal logic]].
+
+By the way, it should be noted that there are various technical difficulties in making this precise.  For instance, categories of any sort form a 2-category (or something more, if they are higher categories themselves), so we have to make type theories into a 2-category as well.  Also, there is a bit of a mismatch in that *substitution* in type theory is usually "implicit," which implies that it is strictly associative, but the corresponding categorical operation of [[pullback]] is not generally strictly associative.  For this reason, various people have defined technical intermediaries between type theories and categories, which mostly boil down to a category equipped with a [[split fibration]] replacing its [[codomain fibration]].  These go by names like *comprehension category*, *category with attributes*, or *contextual category*.
+
+
+# Syntax of type theory
+
+It's hard to give a universal definition of "type theory" which applies in all cases, but in general the setup is like this.  Type theory is a set of rules for making *judgments*.  The most basic judgment is of the form
+$$ \Gamma \vdash t:A $$
+which asserts that in [[context]] $\Gamma$, $t$ is a well-formed *term* of *type* $A$.  The context $\Gamma$ is generally a list of declarations of variables with their types.  So, for instance, the assertion that any two natural numbers have a sum, which is also a natural number, could be stated as the following type-theoretic judgment:
+$$ x:N, y:N \vdash x+y :N .$$
+One also usually includes judgments that two given terms (of the same type!) are equal, so for instance the associativity of natural number addition could be stated as
+$$ x:N, y:N, z:N \vdash (x+y)+z = x+(y+z) :N .$$
+Type theorists tend to write a rule for making judgments in the following form:
+$$ \frac{\Gamma_1 \vdash t_1:A_1 \qquad \dots \qquad \Gamma_n \vdash t_n:A_n}{\Delta \vdash s:B}. $$
+This is to be read as a rule asserting that if $\Gamma_1 \vdash t_1:A_1$  through $\Gamma_n \vdash t_n:A_n$ are valid judgments, then so is $\Delta \vdash s:B$.  A given type theory is determined by the collection of such rules that it admits.  The appropriate rules can be grouped in various ways.
+
+## Structural rules
+
+Structural rules say essentially that variables can be substituted, reordered, and ignored in appropriate ways.  For instance, there is an "exchange" structural rule:
+$$ \frac{ \Gamma, x:A, y:B, \Delta \vdash ?}{ \Gamma, y:B, x:A, \Delta \vdash ?}.$$
+which asserts that variables in the context can be reordered.  (In the presence of dependent types, there is a restriction here that $B$ cannot depend on $x$.)
+
+Some type theories, such as those related to [[linear logic]], omit some of the structural rules, but most of the time the structural rules are taken for granted.
+
+## Type-forming rules
+
+Most of the most interesting rules involve forming new types.  For instance, we may want to assert that if $A$ and $B$ are types then so is $A\times B$.  It may not appear that we have a kind of judgment meaning "$A$ is a type," but we can solve this by treating every *type* as being itself also a *term* of a type such as $Type$ (which is sometimes written $*$).  Thus, for instance, the product-forming rule is written
+$$\frac{\Gamma\vdash A:Type \qquad \Gamma \vdash B:Type}{\Gamma \vdash A\times B:Type}.$$
+It then comes with attendant rules for forming terms of type $A\times B$, such as:
+$$\frac{\Gamma\vdash A:Type \qquad \Gamma \vdash B:Type}{\Gamma, x:A, y:B \vdash \langle x,y\rangle : A\times B}$$
+and for extracting the original terms out, such as
+$$\frac{\Gamma\vdash A:Type \qquad \Gamma \vdash B:Type}{\Gamma, t:A\times B \vdash \pi_1(t):A} \qquad
+\frac{\Gamma\vdash A:Type \qquad \Gamma \vdash B:Type}{\Gamma, t:A\times B \vdash \pi_2(t):B}
+$$
+and the obvious rules saying that $\pi_1\langle x,y\rangle = x$ and $\pi_2\langle x,y\rangle = y$ and $\langle \pi_1(t), \pi_2(t)\rangle = t$.
+
+## Universes
+
+Of course, this begs the question---what is the type of $Type$?  We don't strictly need it to have one---nothing says that everything has to be a term of some type.  But it is also sometimes convenient to write $Type = Type_0$ and introduce a hierarchy of additional "universes," so that $Type_0 : Type_1$, $Type_1:Type_2$, and so on.  A technique called "universe polymorphism" means that usually we can forget about the indices and just treat "$Type$" as a single entity to which everything belongs, unless we do perverse things to try to get paradoxes.
+
+## Dependent types
+
+As suggested above, we can have types which depend on terms, and type constructors which apply to these.  For instance, we can have a rule of dependent product formation:
+$$\frac{\Gamma, x:A \vdash B(x):Type}{\Gamma \vdash \Pi_{x:A} B(x) : Type}
+$$
+Note that in the case when $B$ is independent of $x$, this includes a "function type" $A\to B$.  Similarly, we have dependent sums $\Sigma_{x:A} B(x):Type$, which in the non-dependent case include ordinary products $A\times B$.
+
+## Propositions
+
+As mentioned above, one way to deal with logic over type theory is to represent a proposition simply by a type, regarded as the type of all its proofs, or of all reasons why it is true.  A different way is to introduce a separate type $Prop$, perhaps living at the same "level" as $Type$, and allow propositions to depend on types, in the same way that types depend on types.  The same sorts of type constructors, but acting on propositions, then implement the logical connectives and quantifiers.  For instance, the analogue of dependent product formation becomes a rule of universal quantification:
+$$\frac{\Gamma, x:A \vdash B(x):Prop}{\Gamma \vdash \forall_{x:A} B(x) : Prop}
+$$
+and similarly $\Sigma$ becomes $\exists$.
+
+In either case, asserting that a proposition is "true" is the same as asserting that it is [[inhabited]], i.e. exhibiting a term of that type.  Thus, we don't need to introduce a new kind of judgment for logic; we can continue to use the same sorts of judgments of the form "$t$ is a term of type $A$," only now $A$ can be a proposition and $t$ a proof or reason why $A$ is true.  In particular, the *axioms* of a logical theory can also be formulated as term-forming rules.
+
+## Additional dependencies
+
+It is also possible to have types depending on propositions, propositions depending on propositions, kinds depending on types, etc. etc.  See, for instance, [[pure type systems]] and the [[calculus of constructions]].
 
 
 # Type-theoretical foundations
@@ -85,21 +161,31 @@ From a [[foundations|foundational]] point of view, type theory can also be regar
 
 ## Syntax of type-theoretical foundations
 
-At the most basic level, what we do when we do mathematics is *manipulate symbols according to specified rules*.  Just as in chess the rules state that a knight moves like *so* and not like *so*, in mathematics the rules state that a quantifier can be eliminated like *so* and not like *so*.  The actual rules of the game of mathematics are extremely complicated, but the idea of foundations is to derive them from a much simpler list of fundamental rules.  Type theory says that these fundamental rules are a *calculus of terms*, and that each term comes equipped with a *type*.  Thus, the rules define one or more *types*, and one of the judgments one can make (that is, one of the "moves" of the game) is of the form "$t$ is a well-formed term of type $A$," usually written as $t:A$.
+At the most basic level, what we do when we do mathematics is *manipulate symbols according to specified rules*.  Just as in chess the rules state that a knight moves like *so* and not like *so*, in mathematics the rules state that a quantifier can be eliminated like *so* and not like *so*.  The actual rules of the game of mathematics are extremely complicated, but the idea of foundations is to derive them from a much simpler list of fundamental rules.  Type theory says that these fundamental rules are a *calculus of terms*, and that each term comes equipped with a *type*.  Thus, the rules define one or more *types*, and one of the judgments one can make (that is, one of the "moves" of the game) is of the form "$t$ is a well-formed term of type $A$.  This corresponds to the syntax described above.
 
-In this way we can build many different "type theories".  Most familiar type theories include a special type called $Prop$ of "propositions", and a special type of judgment which asserts that a given proposition (i.e. a term of type $Prop$) is "true."  We generally also include "logical inference" rules for constructing complex propositions (e.g. if $\varphi:Prop$ then $(\forall x:A. \varphi) :Prop$) and deducing the truth of propositions (e.g. if $\varphi$ and $\psi$ then also $\varphi\wedge\psi$).  We may also include "axioms", i.e. propositions $\varphi$ such that the judgment "$\varphi$ is true" can be made unconditionally.  For example, in Peano arithmetic, there are two types $N$ and $Prop$, a constant term $0:N$, a rule that if $n:N$ then $s(n):N$, a rule that if $n:N$ and $m:N$ then $(n=m):Prop$, the usual rules of logical inference, and various axioms.
+If we include enough type constructors, then we can use type theory as a foundation for much of mathematics.  Instead of building mathematical objects out of [[sets]] as in foundational set theories such as [[ZFC]] or [[ETCS]], we build mathematical objects out of types.  The presence of dependent types, with sums and products, is usually quite convenient for this purpose.  That is, instead of defining a group to be a set equipped with (among other things) a function $G\times G\to G$, we could interpret a group as a *type* $G$ equipped with (among other things) a *term* $m(x,y):G$ with free variables $x:G$ and $y:G$.
 
-Now if we want a foundation for *all* of mathematics, of course we need a more powerful theory than these.  But ZFC can also be stated in this style: it has two types $Set$ and $Prop$, rules saying that if $x:Set$ and $y:Set$ then $(x=y):Prop$ and $(x\in y):Prop$, the usual rules of logical inference and a [collection of axioms](http://ncatlab.org/nlab/show/ZFC).  The same with [ETCS](http://ncatlab.org/nlab/show/ETCS), which it is convenient to write with three types $Set$, $Function$, and $Prop$.  Especially when we intend a theory like ZFC or ETCS as a foundation for all of mathematics, it is convenient to call the type-theoretic language in which these theories are written the "meta-language" or "meta-theory," while ZFC/ETCS is the "object language" or "object theory."
+## Type theory versus set theory
 
-Things then get a bit confusing because there are various ways to augment type theories.  It's common to include *type constructors*, which allow us to form new types such as $A\times B$ out of types $A$ and $B$.  Then we need an additional judgment $T:Type$, so that such a type-constructor is a rule saying that (for example) if $A:Type$ and $B:Type$ then $(A\times B):Type$.  We can also have type-constructors which take *terms* as input, in addition to types; these are called *dependent types*.  When we include exponential or dependent-product types, the complexity and power of the type-theoretic meta-language begins to approach that of the object languages ZFC and ETCS, enabling it itself to serve as a foundation for mathematics.  That is, instead of defining a group to be a set equipped with (among other things) a function $G\times G\to G$, we could interpret a group as a *type* $G$ equipped with (among other things) a *term* $m(x,y):G$ with free variables $x:G$ and $y:G$.  Or, which amounts to the same thing, we could change our terminology so that what we have been calling "types" are instead called "sets."  It is then natural to say that a type theory (especially one with many type-constructors) is itself the object-theory in a meta-meta-theory having meta-types (or "kinds") such as $Type$, $Term$, and $Judgment$.
+Alternately, we could change our terminology so that what we have been calling "types" are instead called "sets."  However, in order for this to accord with the common usages of "set", we need to include enough type constructors that our types can mimic the behavior of sets, and in particular be "extensional" and have "quotient types."  See the section on "Extensional vs Intensional" type theory, below.
+
+On the other hand, type theory is, among other things, a convenient language for formulating first-order logical theories, and among these theories are foundational set theories such as [[ZFC]] and [[ETCS]].  For instance, ZFC has two types $Set$ and $Prop$, proposition-forming rules saying that if $x:Set$ and $y:Set$ then $(x=y):Prop$ and $(x\in y):Prop$, the usual rules of logical inference and a [[ZFC|collection of axioms]].  The same with [[ETCS]], which it is convenient to write with three types $Set$, $Function$, and $Prop$.
+
+Especially when we intend a theory like ZFC or ETCS as a foundation for all of mathematics, it is convenient to call the type-theoretic language in which these theories are written the "meta-language" or "meta-theory," while ZFC/ETCS is the "object language" or "object theory."  On the other hand, for a more complex and powerful type theory with many type-constructors, which is suitable to serve as a foundation for mathematics itself, it is natural to say that this type theory is *itself* the *object-theory* in a meta-theory having meta-types such as $Type$, $Term$, and $Judgment$.
 
 Thus, words like "type" and "set" and "class" are really quite fungible.  This sort of level-switch is especially important when we want to study the mathematics *of* type theory, i.e. the mathematical theory of manipulating symbols according to the rules of type theory, analogous to the mathematical theory of moving pieces around on a chessboard according to the usual rules.  When we study type theory in this way, we are *doing* mathematics, just like when we're doing group theory or ring theory or whatever.  It's just that our objects of study are called "types", "terms", and so on.  However, what we do in this mathematical theory *can*, like any other area of mathematics, be formalized in any particular chosen foundation, be it ZFC or ETCS or a type theory at a higher level.  Now the type theory is itself the "object-theory" and ZFC is the "meta-theory"!
+
+Here are some blog discussions about the difference between type theory and set theory:
+
+* [one](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026984)
+* [two](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c028459)
+
 
 ## Semantics of type-theoretical foundations
 
 Now, intuitively, we generally think of a type $A$ as denoting some "collection" of "things", and a term $t:A$ as indicating a "particular one" of those things.  In order for this to make sense, the type theory has to exist in some metatheory (which might or might not be formalized) having a notion of "set" to specify the relevant "collections of things".  In particular, there must be a set of types, and for each type there is a set of terms which can be judged to be of that type.  The judgment rules for propositions then become the study of formal logic; we say that a proposition is "provable" or is a "theorem" if it can be judged to be true.
 
-Now, a *model* of this theory assigns a set $[A]$ (in the meta-theoretic sense) to every type $A$ and a function of appropriate arity to every term, in a way so that the rules and axioms are satisfied.  Thus, for instance, a model of Peano arithmetic consists of a set $[N]$, an element $[0]\in [N]$, a function $[s]\colon [N]\to[N]$, and so on.  Likewise, a model of the type theory of ZFC (here the levels get confusing) consists of a set $[Set]$, a function $[{\in}]\colon [Set]\times [Set] \to [Prop]$, and so on.
+Now, a *model* of this theory (in the category of sets) assigns a set $[A]$ (in the meta-theoretic sense) to every type $A$ and a function of appropriate arity to every term, in a way so that the rules and axioms are satisfied.  Thus, for instance, a model of Peano arithmetic consists of a set $[N]$, an element $[0]\in [N]$, a function $[s]\colon [N]\to[N]$, and so on.  Likewise, a model of the type theory of ZFC (here the levels get confusing) consists of a set $[Set]$, a function $[{\in}]\colon [Set]\times [Set] \to [Prop]$, and so on.
 
 One can then prove, under certain hypotheses, various things about the relationship between syntax and semantics, such as:
 
@@ -112,9 +198,11 @@ The "certain hypotheses" is where we get into the difference between *first-orde
 
 +-- {: .query}
 I don\'t buy your argument that $Prop$ must be treated specially; perhaps I don\'t understand what you\'re saying, but I\'ll pretend that I do.  First, I don\'t see the relevance of your premise, that $Prop$ makes things higher-order because it is a power type.  You might as well say that $1$ makes things higher-order because $1 \cong P 0$.  What really makes things higher order is the ability to form *arbitrary* power types or function types, not the existence of one or two special cases.  And second, I don\'t agree with the conclusion, that $Prop$ can\'t participate in type operations.  It\'s true that many type theories *do* treat $Prop$ specially and forbid its participation in type operations, but allowing it to participate in first-order type operations like $\times$ and $+$ is not going to make things higher order.  Conversely, $Prop \cong 1 + 1$ in some type theories, in which case you can hardly stop it from participating in type operations!  ---Toby
+
+[[Mike Shulman]]: This seems to be basically a dispute about the meaning of "higher-order"?  To me, for something to be first-order, it should be interpretable in a [[Heyting category]], which does not necessarily have a [[subobject classifier]] (though it does, as you point out, have a power object for $0$).  I also expect that the presence of $Prop$ as a type is sufficient to make the Completeness Theorem fail, as described in the next paragraph.  Probably "participate in type operations" is the wrong claim to be making, rather the claim should be something along the lines of $Prop$ being a kind, rather than a type, i.e. we don't have $Prop:Type$, or at least not $Prop:Type_0$.
 =--
 
-The Soundness Theorem is true for all theories,  but *the Completeness Theorem is true only for first-order theories*.  The Incompleteness Theorem as stated above is true for higher-order theories, but the corollary fails since the completeness theorem does.  In particular, a higher-order theory can sometimes be *categorical* in the logician's sense: having exactly one model (at least, up to isomorphism).  The second-order version of Peano Arithmetic has this property.  (At this level, there is little fundamental difference between first-order and higher-order theories; they each have advantages and disadvantages.  However, when we move up to the metalevel and talk about the term calculus itself, we always get a first-order theory.  This is why some people believe that first-order logic is the only truly "foundational" logic.)
+The Soundness Theorem is true for all theories, but *the Completeness Theorem is true only for first-order theories*.  The Incompleteness Theorem as stated above is true for higher-order theories, but the corollary fails since the completeness theorem does.  In particular, a higher-order theory can sometimes be *categorical* in the logician's sense: having exactly one model (at least, up to isomorphism).  The second-order version of Peano Arithmetic has this property.  (At this level, there is little fundamental difference between first-order and higher-order theories; they each have advantages and disadvantages.  However, when we move up to the metalevel and talk about the term calculus itself, we always get a first-order theory.  This is why some people believe that first-order logic is the only truly "foundational" logic.)
 
 ## Term models
 
@@ -126,15 +214,10 @@ The second problem is that we may not know how to define all the necessary relat
 
 This works, but the model we get (though small, even countable, and concrete) isn't really *canonical*; we had to make a bunch of arbitrary choices.  In the case of Peano Arithmetic, we can avoid introducing new constant terms and obtain a model which is "canonical" and in fact the "smallest" in some sense: it consists of the terms $s(s(\dots(s(0))\dots))$, which can of course be identified with "the" natural numbers in the meta-theory.  But this doesn't work for most other theories.  Suppose, for instance, that we augment ZF with term constructors for all of its existence axioms.  Let $\varphi$ be a sentence independent of ZF; then our term-constructor for the axiom of separation gives us a term $\{\emptyset | \varphi\}$.  Does the relation $\emptyset \in \{\emptyset | \varphi\}$ hold in the term model?  We have to make an arbitrary choice.
 
+(It *is* true that any *given* model of ZF contains a [[minimal model of ZF|minimal model]], i.e. a smallest [[transitive set]] which is a model of ZF.  However, different models of ZF have different minimal models, and the construction of the minimal model is not "syntactic" in this sense.)
+
 The slicker categorial approach described above using categories of [[contexts]] does produce a really canonical model, but only with an expanded notion of "model": instead of each $[A]$ being a set, we take it to be an object of some fixed category $\mathcal{S}$ with enough structure.  We can then build a much more "tautological" model because we have the freedom to build the category $\mathcal{S}$ along with the model.  In the resulting model, the true statements are *precisely* the statements provable in the theory, and it's even initial among all models of the theory in the appropriate sort of category.
 
-
-## Type theory versus set theory
-
-Blog discussions about the difference between type theory and set theory:
-
-* [one](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026984)
-* [two](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c028459)
 
 # Extensional vs Intensional
 
@@ -160,6 +243,14 @@ If we then define "sets" to be types equipped with equality relations (sometimes
 
 Quick comment:  Even in internal type theory, one needs identity types to validate COSHEP.  Type theory without identity types is very strange (the category of contexts may not have all pullbacks, and not every morphism need be a display morphism).
 
++--{: .query}
+[[Mike Shulman]]: I'm not sure that that's so strange.  At least, not to the type theorists.  (-:  Categorically, I think of display maps as being fibrations in some model-category-type structure, which makes sense to me, although in semantics valued in an honest higher-category I would expect every morphism to be equivalent to a display morphism.
+
+Actually, don't you need *extensional* identity types in order to get all pullbacks and make every morphism display?  I think intensional identity types just mean that you can factor every morphism through a display morphism which is "equivalent" in some sense, i.e. you have the [[identity type weak factorization system]].
+
+And I didn't know that about COSHEP, why is that?  Isn't it true that all types are projective, at least in the propositions-as-types logic, since to assert that something exists is to give a construction of it?  Or are you saying that you need identity types in order to even construct the category of setoids, since you need the category of types to have at least weak finite limits?
+=--
+
 (to be written...)
 
 ## Higher-categorical semantics
@@ -168,7 +259,7 @@ Quick comment:  Even in internal type theory, one needs identity types to valida
 
 # Particular type theories
 
-It seems to be quite difficult to actually define precisely what is meant by "a type theory" in generality.  The following particular type theories have pages of their own which give some more formal definitions.
+The following particular type theories are important enough to (potentially) have pages of their own.
 
 * [[simple type theory]]
 * [[simply typed lambda calculus]]
