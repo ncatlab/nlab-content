@@ -6,3 +6,6 @@
 * [[stack]]
 
 * [[geometric stack]]
+
+
+category: people
