@@ -20,6 +20,7 @@ _Toby_:  That creates a hierarchy (of information if not power, but one leads to
 
 category: meta
 
+[[!redirects AnonymousCoward]]
 [[!redirects Anonymous]]
 [[!redirects Anonymous Coward]]
 [[!redirects Anonymous Hero]]
