@@ -110,6 +110,10 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 * composition of morphisms is, of course, the composition in [[Vect]], i.e. the ordinary composition of linear maps.
 
++--{: .query}
+[[David Roberts]]: I was thinking that perhaps the objects of the category were the vector/Hilbert spaces, and the arrows were the completely positive and trace-preserving maps between the matrix algebras. In this instance, the category theoretical content seems that it would be more detailed than \'it\'s just a subcategory of Vect\'.
+=--
+
 ## References
 
 
