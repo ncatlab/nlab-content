@@ -26,12 +26,14 @@ This statement is originally due to [[Charles Rezk]]. It is reproduced as theore
 
 ## Details
 
+### Subobject classifier {#DetailsSubObjClassf}
+
 +-- {: .un_defn}
 ###### Definition
 
 Let $C$ be an [[(∞,1)-category]] and $S \in C_1$ a class of [[morphism]]s that is stable under [[pullback]] in $C$.
 
-Let $Cod_C$ be the [[codomain fibation]] of $X$, i.e. the [[(∞,1)-category of (∞,1)-functors]]
+Let $Cod_C$ be the [[codomain fibration]] of $X$, i.e. the [[(∞,1)-category of (∞,1)-functors]]
 
 $$
   Cod_C := Func(\Delta[1], C)
@@ -84,6 +86,9 @@ Every [[(∞,1)-topos]] has a subobject classifier.
 [[Higher Topos Theory|HTT, prop. 6.1.6.3]] and the remark below that
 
 =--
+
+### Object classifier {#DetailsObjClassf}
+
 
 **Remark/Warning.** However, the point of haveing [[subobject]]s and hence [[monomorphism]] classified by an object in an ordinary [[topos]] may be thought of as being solely due to the fact that in a 1-[[topos]], any object necessarily classifies a _set_  (or rather a [[poset]] i.e. a [[0-category]] or rather a [[(0,1)-category]]) of morphisms, and the point of subobjects/monomorphisms of a given object is that they don't have [[automorphism]]s and hence indeed form a set (or rather: [[poset]]).
 
