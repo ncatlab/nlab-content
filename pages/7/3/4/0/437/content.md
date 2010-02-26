@@ -50,4 +50,4 @@ _Toby_: The notation still doesn\'t make literal sense, since $C^I$ (primitive o
 [[!redirects path space objects]]
 [[!redirects cocylinder object]]
 [[!redirects cocylinder objects]]
-
+[[!redirects path space]]
