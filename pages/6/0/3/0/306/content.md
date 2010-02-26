@@ -70,9 +70,9 @@ the 2-element set $\mathbf{2}$ may be regarded as the [[0-category]] of [[(-1)-c
 
 In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] subobject classifiers are discussed in section 6.1.6 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]].
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
-As pointed out there, it is not so much a _subobject_ classifier that matters in [[higher topos theory]], but an 
+As pointed out there, from some perspective it is not so much a _subobject_ classifier that matters in [[higher topos theory]], but an 
 
 * [[object classifier]].
 
@@ -81,6 +81,6 @@ As pointed out there, it is not so much a _subobject_ classifier that matters in
 
 section I.3 and I.4 in
 
-* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
+* MacLane-Moerdijk, _[[Sheaves in Geometry and Logic]]_
 
 [[!redirects subobject classifiers]]
