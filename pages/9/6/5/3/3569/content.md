@@ -41,7 +41,7 @@ has the structure of a [[Batanin ∞-groupoid]].  This can be found in:
 
 Moreover, the syntactic category of such a theory carries a natural [[weak factorization system]], the [[identity type weak factorization system]].  However, there seems as yet to be no published work constructing a full syntactic $(\infty,1)$-category.
 
-On the other hand, it is known that in any nice enough model category (and in fact, in any category with a nice enough weak factorization system), one can model intensional type theory.  This is studied in
+On the other hand, it is known that in any nice enough [[model category]] (and in fact, in any category with a nice enough [[weak factorization system]]), one can model intensional type theory.  This is studied in
 
 * [[Steve Awodey]] and [[Michael Warren]], *Homotopy theoretic models of identity types*, [arXiv:0709.0248](http://arxiv.org/abs/0709.0248)
 * [[Michael Warren]], *Homotopy theoretic aspects of constructive type theory*, [Ph.D. thesis](http://aix1.uottawa.ca/~mwarren/Papers/phd.pdf).
