@@ -104,7 +104,7 @@ In the physics literature the above theorem is then phrased as: _Every quantum c
 
 Notice that the identity map is clearly completely positive and trace preserving, and that the composite of two maps that preserve positivity and trace clearly still preserves positivity and trace. Therefore we obtain a [[category]] $QChan \subset Vect$ -- a [[subcategory]] of [[Vect]]${}_{\mathbb{C}}$ -- whose
 
-* objects are the vector spaces $Mat(n \times n, \mathbb{C})$ fir all $n \in \mathbb{N}$;
+* objects are the vector spaces $Mat(n \times n, \mathbb{C})$ for all $n \in \mathbb{N}$;
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
 
