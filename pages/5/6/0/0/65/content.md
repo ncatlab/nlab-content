@@ -11,7 +11,8 @@
 
 In general, "folk model structures" are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed).
 
-The appropriateness of the term 'folk' is [debatable](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=649&page=1#Item_3); alternatives are 'canonical', 'standard', 'natural', and 'categorical'.
+The appropriateness of the term 'folk' is [debatable](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=649&page=1#Item_3); alternatives are 'endogenous' 'canonical', 'standard', 'natural', and 'categorical'. See the _[[joyalscatlab:Model structures on Cat|Catlab]]_
+for the theory of this structure.
 
 While ultimately the collection of all [[n-category|n-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]]. So in general, given that $n$ may be $= \infty$, an [[(infinity,1)-category]].
 
