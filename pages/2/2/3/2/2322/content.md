@@ -1,3 +1,4 @@
+
 <div class="rightHandSide toc" markdown="1">
 [[!include (infinity,1)-topos - contents]]
 </div>
@@ -151,3 +152,6 @@ this follows explicitly from HTT, prop 3.3.1.8, recalled at [[Cartesian fibratio
 
 
 =--
+
+[[!redirects object classifier]]
+[[!redirects (sub)object classifier in an (∞,1)-topos]]
