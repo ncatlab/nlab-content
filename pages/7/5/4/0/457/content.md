@@ -7,8 +7,17 @@ At least assuming [[classical logic]], this is the same thing as a set that is n
 
 The terms 'inhabited' and 'occupied' come from [[constructive mathematics]]. In constructive mathematics, a set that is not empty isn\'t necessarily inhabited, because [[double negation]] is nontrivial in [[intuitionistic logic]]. All the same, many constructive mathematicians use the old word 'non-empty' with the understanding that it *really* means inhabited.
 
+There is a distinction between 'inhabited' and 'occupied' spaces in [[Abstract Stone Duality]] (which probably corresponds to something about [[locales]], should explain that here).
+
 An inhabited set is the special case of an [[inhabited object]] in the [[topos]] [[Set]].
 
+
+[[!redirects inhabited set]]
 [[!redirects inhabited sets]]
+[[!redirects inhabited type]]
+[[!redirects inhabited types]]
+[[!redirects inhabited space]]
+[[!redirects inhabited spaces]]
+
 [[!redirects occupied set]]
 [[!redirects occupied sets]]
