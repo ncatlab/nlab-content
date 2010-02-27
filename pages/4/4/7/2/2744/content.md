@@ -105,7 +105,15 @@ In the $\sigma$-model example this is some incarnation of the mapping space $[\S
 
   where $\alpha$ is the canonical $(n+1)$-form
 
-  ... ... ...
+Given $\pi : E \to \Sigma$, with $\mathrm{dim} \Sigma =n+1$, the dual jet bundle $(J^1 E)^*$ is isomorphic to a particular vector sub-bundle of the $n+1$-form bundle $\Lambda^{n+1}T^{*}E$. 
+Given a point $y \in E$, a tangent vector $v \in T_{y} E$ 
+is said to be **vertical** if $d \pi(v) = 0$.  
+Define $\Lambda^{n+1}_{1}T^{*}E$ to be the subbundle of the $n+1$-form bundle $\Lambda^{n+1} T^{*} E$ whose fiber at $y \in E$ 
+consists of all $\beta \in \Lambda^{n+1} T^{*}_{y} E$ such that
+\[          \iota_{v_1}\iota_{v_2} \beta =0   \]
+for all vertical vectors $v_1,v_2 \in T_{y}E$.
+Sections of $\Lambda^{n+1}_{1}T^{*}E$ are called $\mathbf{n}$**-horizontal** $\mathbf{n+1}$**-forms**. 
+      
 
 **Example** For the [[sigma-model]] case with $E = X \times \Sigma$ and $\{q^i\}$ coordinates on $X$ and $\{\sigma^s\}$ coordinates on $\Sigma$, the canonical $(n+1)$-form is
 
