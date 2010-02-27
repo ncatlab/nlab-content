@@ -1,7 +1,7 @@
 [[!include contents]]
 
 
-This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog) about mathematics.
+This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog), [wikis](http://en.wikipedia.org/wiki/Wiki), and other online resources about mathematics.
 
 For a quick introduction to math blogging, see
 
@@ -12,7 +12,7 @@ For a quick introduction to math blogging, see
 
 +--{: .query}
 
-Please help with improving this page:
+Please [[How to get started|help]] with improving this page:
 
 * add links that are missing;
 
