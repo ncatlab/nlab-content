@@ -35,6 +35,8 @@
 
   * [[quantum channels]]
 
+* [[quantum information]]
+
 * **[[quantum field theory|Quantum Field Theory]]**
 
   * Axiomatizations
