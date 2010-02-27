@@ -311,7 +311,13 @@ $$
   \right.
 $$
 
-for $V \in Op(X)$. The [[poset]] of [[subobject]]s formed by these is just the [[category of open subsets]] itself:
+for $V \in Op(X)$.
+
++--{: .query}
+[[Mike Shulman]]: In the *presheaf* topos, the subobjects of $1$ are arbitrary [[sieves]] in $Op(X)$, not just representables.  For instance, for any two open sets $U$ and $V$ there is a sieve consisting of all open sets contained in either $U$ or $V$, which doesn't necessarily contain $U\cup V$.  It's only in the *sheaf* topos $Sh(X)$ that the representables are precisely the subobjects of $1$.  I didn't fix this myself because I don't know whether you'd rather say the correct thing in the presheaf topos, or change to the sheaf topos so that the subterminals are the open sets (though I'd lean towards the latter as providing better intuition).
+=--
+
+ The [[poset]] of [[subobject]]s formed by these is just the [[category of open subsets]] itself:
 
 $$
   L = Op(X)
