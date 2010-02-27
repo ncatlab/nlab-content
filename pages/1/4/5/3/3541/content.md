@@ -135,35 +135,96 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 ## Previous version
 
-> Here is a previous version of this entry started by [[Ian Durham]], that led to a lot of discussion.
+> Here is a previous version of this entry started by [[Ian Durham]], that led to a lot of discussion.  The discussion has been gathered together below this previous version unless it related directly to a point in this version.
 
-+--{: .query} 
+
+=--
+In general, we are interested in completely positive trace-preserving (CPTP) maps.  
+
+> Zoran: what this ugly acronym means ? We should have an antiacronym point of view in nlab, whenever the acronyms are not in hugely wide use!
+
+> Reply to Zoran: I have corrected it.  However, I was under the impression it was in wide use.  I used it on MathOverflow without a problem and certainly anyone working in quantum information theory (which is what this is under) should know it.
+
+>Harry: What is "the family" of operators on $\mathcal{H}_i$?  A family taking values in $X$ is just a function $I\to X$, where $I$ is called the index.  
+
+The operator spaces can be interpreted as $C^{*}$-[[C-star algebra|algebras]] and thus we can also view the channel as a mapping between $C^{*}$-algebras, $\Phi$: $A \to B$.  Since quantum channels can carry classical information as well, we could write such a combination as $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ is the space of [[continuous functions]] on some space $X$ and is also a $C^{*}$-algebra.  
+
++--{: .query}
+[[David Roberts]]: This would constitute, continuing the remark above, another category, where the objects are Hilbert spaces and the morphisms are pairs $(X,\Phi: L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B}))$. Not sure if this is the case, though, as the proof below doesn't seem to relate very well.
+
+[[Ian Durham]]: Any suggestions on how to restructure the proof so that it works for categories?
+
+[[David Roberts]]: I'm sorry, but I don't have the time (not to say that you are not in a similar position :) I have a full-time job outside of academia and contracts and so forth to deliver on.
+=--
+
+In other words, whether or not classical information is processed by the channel, it (the channel) is a mapping between $C^{*}$-algebras.  
+
+Note, however, that these are not necessarily the same $C^{*}$-algebras.  Since the channels are represented by square matrices, the input and output $C^{*}$-algebras must have the same dimension, $d$.  Thus we can consider them both subsets of some $d$-dimensional $C^{*}$-algebra, $C$, i.e. $A \subset C$ and $B \subset C$. Thus a quantum channel is a mapping from $C$ to itself.
+
++--{: .query}
+[[David Roberts]]: One needs to be careful with this approach, because it is no different to calling on the [[Nash embedding theorem]] and saying all smooth maps between finite dimensional Riemannian manifolds are maps from $\mathbf{R}^N$ to itself. They are _not_ maps from $C$ to itself, because we do not know _a priori_ where the complement of the source algebra in $C$ is mapped. 
+
+> Mmm, ok, good point.  Hmmm.  Again, my justification is because of what I wanted to use it for and also because I wanted a nice, generalized definition that could be used in a category-theoretic way.
+
+[[David Roberts]]: In that case I echo my claim above: stick with the category and forsake the monoid. It shouldn\'t be any more tricky.
+=--
+
+The following is a proof that a quantum channel is a [[category]].  The proof actually proves it is a [[monoid]], but the need for it to be a category becomes more clear when we start dealing with these things en masse.
+
++-- {: .un_prop}
+###### Proposition
+
+The quantum channels $t: L(\mathcal{H}) \to L(\mathcal{H})$, together with the $d$-dimensional $C^{*}$-algebra, $C$, on which they act, forms a category we call $\mathbf{Chan}(d)$, where $C$ is the sole object and the quantum channels $t$ are the arrows.
+=--
+
++-- {: .proof}
+###### Proof
+Consider the quantum channels
+
+$\begin{aligned}
+r: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\sigma}) & \where &
+\sigma=\sum_{i}A_{i}\rho A_{i}^{\dagger} \\
+t: L(\mathcal{H}_{\sigma}) \to L(\mathcal{H}_{\tau}) &
+\where &
+\tau=\sum_{j}B_{j}\sigma B_{j}^{\dagger} 
+\end{aligned}$
+
+where the usual properties of such channels are assumed (e.g. trace preserving, etc.).  We form the composite $t \circ r: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\tau})$ where
+
+$\begin{aligned}
+\tau & = \sum_{j}B_{j}\left(\sum_{i}A_{i}\rho A_{i}^{\dagger}\right)B_{j}^{\dagger}  \\
+& = \sum_{i,j}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger} \\
+& = \sum_{k}C_{k}\rho C_{k}^{\dagger} 
+\end{aligned}$
+
+and the $A_{i}$, $B_{i}$, and $C_{i}$ are Kraus operators.
+
+Since $A$ and $B$ are summed over separate indices the trace-preserving property is maintained, i.e. $\sum_{k} C_{k}^{\dagger}C_{k}=\mathbb{1}$.
+
+For a similar methodology see [Nayak and Sen](http://arxiv.org/abs/quant-ph/0605041).
+
+We take the identity arrow, $1_{\rho}: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\rho})$, to be the time evolution of the state $\rho$ in the absence of any channel.  Since this definition is suitably general we have that $t \circ 1_{A}=t=1_{B} \circ t \quad \forall \,\, t: A \to B$.
+
+Consider the three unital quantum channels $r: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\sigma})$, $t: L(\mathcal{H}_{\sigma}) \to L(\mathcal{H}_{\tau})$, and $v: L(\mathcal{H}_{\tau}) \to L(\mathcal{H}_{\upsilon})$ where $\sigma=\sum_{i}A_{i}\rho A_{i}^{\dagger}$, $\tau=\sum_{j}B_{j}\sigma B_{j}^{\dagger}$, and $\eta=\sum_{k}C_{k}\tau C_{k}^{\dagger}$.  We have
+
+$\begin{aligned}
+v \circ (t \circ r) & = v \circ \left(\sum_{i,j}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger}\right) = \sum_{k}C_{k} \left(\sum_{i,j}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger}\right) C_{k}^{\dagger}  \\
+& = \sum_{i,j,k}C_{k}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger}C_{k}^{\dagger} = \sum_{i,j,k}C_{k}B_{j}\left(A_{i}\rho A_{i}^{\dagger}\right)B_{j}^{\dagger}C_{k}^{\dagger}  \\
+& = \left(\sum_{i,j,k}C_{k}B_{j}\tau B_{j}^{\dagger}C_{k}^{\dagger}\right) \circ r = (v \circ t) \circ r
+\end{aligned}$.
+
+and thus we have associativity.  Note that similar arguments may be made for the inverse process of the channel if it exists (it is not necessary for the channel here to be reversible).
+=--
+
+***
+
+## Discussion
 
 [[Urs Schreiber]]: As the following disucssion shows, there is a general feeling that this entry here is in need of clarification on what exactly it is supposed to be about, and what it is good for. It would seem to me that this could easily be achieved based on some standard authorative reference that introduces the notion and discusses it. So: what are good references on the notion "qunatum channel", in the sense apparently meant here? Pointers to a specific page in a specific article would be appreciated.
 
-[[Ian Durham]]: Thanks for the suggestion.  (By the way, when does it become kosher to delete all the comments between people in order to make the page look a little less cluttered?)
+[[Ian Durham]]: Thanks for the suggestion.  (By the way, when does it become kosher to delete all the comments between people in order to make the page look a little less cluttered?) 
 
-=--
-For those who are looking for some background reading on quantum channels, here is a short bibliography of papers on the arXiv that give some details about quantum channels:
-
-The mathematical formalism and some of the initial results are due to Choi:
-
-Choi, M. (1975). Completely positive linear maps on complex matrices, 
-Linear Algebra and its Applications 10: 285&#8211;290.
-
-Good overviews and background can be found in:
-
-Smolin, John A., Verstraete, Frank, and Winter, Andreas (2005) [Entanglement of assistance and multipartite state distillation](http://arxiv.org/abs/quant-ph/0505038) Phys. Rev. A, vol. 72, 052317, 2005.
-
-Mendl, Christian B. and Wolf, Michael M. (2009) [Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem](http://arxiv.org/abs/0806.2820), Commun. Math. Phys. 289, 1057-1096 (2009).
-
-O'Loan, Caleb J. (2010). [Topics in Estimation of Quantum Channels](http://arxiv.org/abs/1001.3971), PhD thesis, University of St. Andrews, pp.13-15.
-
-Watrous, John (2008). [Mixing doubly stochastic quantum channels with the completely depolarizing channel](http://arxiv.org/abs/0807.2668)
-
-A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is the family of operators on $\mathcal{H}_{i}$. 
-
-+--{: .query} 
+***
 
 [[Todd Trimble]]: Hi, Ian. I hope I can give some constructive advice. First, it's good form to specify your terms, e.g., "given a [[Hilbert space]] $H$, let $L(H)$ denote the space ... (please specify exactly: the space of all bounded linear operators $\Psi: H \to H$, or of such operators that are completely positive trace-preserving, or what?)". Terms such as "completely positive operator" or "trace-preserving operator" should be placed between double brackets so that readers can follow a link either to an existing page or to a to-be-created page, like so: [[completely positive operator]]. Then, you also need to specify how you are considering this thing $L(H)$: if you are considering it as a [[C-star algebra]], then say so. If you don't do that, the reader has no sense of what "mapping" should mean here (should it mean a morphism in the category of Banach spaces, or a morphism in the category of $C^\star$-algebras, or what?). Finally, I think I would find the following formulation less confusing: "A _quantum channel_ between Hilbert spaces $H_A$, $H_B$ (any particular reason why $H_A$ and $H_B$, as opposed to $H_1$, $H_2$ or $H$, $H'$?) is a $C^\star$-algebra mapping (or whatever kind of mapping it is) $\Phi: L(H_A) \to L(H_B)$." The way you have it, it looks as though you're suggesting that $L(H_A)$, $L(H_B)$ are the Hilbert spaces, and I don't think that's what you mean. 
 
@@ -187,9 +248,10 @@ We (the royal "we" -- I don't mean for that to sound elitist!) are in fact a mix
 
 Finally, I didn't mean to suggest you were less busy than anyone else, and I apologize if I came off that way. No, I don't covet your job! :-) Take care... 
 
-=--
+[[Ian Durham]]: Todd, don't worry about it. (Though, are you sure you don't want my job?  I'll throw in a pizza.  And maybe a beatup old car. :-)  Seriously, though, I am very serious about working on categorical applications to physics.  As a "big picture" thinker, category theory seems to be just the type of thing I could find useful and I think it has the potential to also be very interesting from a foundational standpoint.  But I digress and should probably rattle on at the forum instead.
 
-+--{: .query}
+***
+
 [[David Roberts]]: Can we write this as:
 
 >A __quantum channel__ is an arrow in a category whose objects are Hilbert spaces, and the arrow itself is a morphism of C-star algebras $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is a *-subalgebra of $B(\mathcal{H}_i)$ (if this is the case) Clearly one cannot just take a family of operators and then say by fiat they can be considered as a C-star algebra.
@@ -220,26 +282,8 @@ Yemon, I never said anyone at MathOverflow was ignorant of category theory.  I w
 [[David Roberts]]: Thank you for persevering, Ian. I think that there is a slight misunderstanding about permutation groups: Cayley's theorem tells us that any group can be embedded as a _subgroup_ of a permutation group, but this is probably not a crucial distinction for the present purposes. 
 
 And Harry, if using Cayley's theorem anywhere was pointless, I don't think we would even refer to it :) Give the guy a break. No harm has been done and we now have another physical application here on the nLab which may contain some interesting category theory. I for one am pleased we are attracting people to our project to describe the world using category theory. The \'untidy\' reasoning we have seen here (if I may call it that) is what research looks like, especially at the junction of disciplines, until things get sorted. The nLab is just exposing this hitherto hidden process to the world. Anyway, as was said in the forum, this seems to be becoming a burdensome chat page and we probably don't have any more to constructively discuss.
-=--
-In general, we are interested in completely positive trace-preserving (CPTP) maps.  
 
-> Zoran: what this ugly acronym means ? We should have an antiacronym point of view in nlab, whenever the acronyms are not in hugely wide use!
-
-> Reply to Zoran: I have corrected it.  However, I was under the impression it was in wide use.  I used it on MathOverflow without a problem and certainly anyone working in quantum information theory (which is what this is under) should know it.
-
->Harry: What is "the family" of operators on $\mathcal{H}_i$?  A family taking values in $X$ is just a function $I\to X$, where $I$ is called the index.  
-
-The operator spaces can be interpreted as $C^{*}$-[[C-star algebra|algebras]] and thus we can also view the channel as a mapping between $C^{*}$-algebras, $\Phi$: $A \to B$.  Since quantum channels can carry classical information as well, we could write such a combination as $\Phi : L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B})$, where $C(X)$ is the space of [[continuous functions]] on some space $X$ and is also a $C^{*}$-algebra.  
-
-+--{: .query}
-[[David Roberts]]: This would constitute, continuing the remark above, another category, where the objects are Hilbert spaces and the morphisms are pairs $(X,\Phi: L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B}))$. Not sure if this is the case, though, as the proof below doesn't seem to relate very well.
-
-[[Ian Durham]]: Any suggestions on how to restructure the proof so that it works for categories?
-
-[[David Roberts]]: I'm sorry, but I don't have the time (not to say that you are not in a similar position :) I have a full-time job outside of academia and contracts and so forth to deliver on.
-=--
-
-In other words, whether or not classical information is processed by the channel, it (the channel) is a mapping between $C^{*}$-algebras.  
+***
 
 >Zoran: the point of view that quantum channels are used for processing information is very biased point of view of one of the engineering fields. In nuclear physics multichannel processes were used half a century ago to formulate nonhermitean perturbation theory, where various emissions of particles, radiation and heat within a nucleus leads to dissipation. We should have a general point of view and not be crippled by somebody's particular engineering fad. 
 
@@ -252,68 +296,6 @@ In other words, whether or not classical information is processed by the channel
 > [[David Roberts]]: I was thinking more the analogy with biology, with channels passing various chemicals in and out of cells (cf particles in and out of atoms)
 
 > [[Ian Durham]]: Doh!  Completely forgot about that use.  Well, apparently I am very much mistaken in this regard.  In any case, I definitely would be fine with a general discussion of channels with a pointer here.
-
-Note, however, that these are not necessarily the same $C^{*}$-algebras.  Since the channels are represented by square matrices, the input and output $C^{*}$-algebras must have the same dimension, $d$.  Thus we can consider them both subsets of some $d$-dimensional $C^{*}$-algebra, $C$, i.e. $A \subset C$ and $B \subset C$. Thus a quantum channel is a mapping from $C$ to itself.
-
-
-+--{: .query}
-[[David Roberts]]: One needs to be careful with this approach, because it is no different to calling on the [[Nash embedding theorem]] and saying all smooth maps between finite dimensional Riemannian manifolds are maps from $\mathbf{R}^N$ to itself. They are _not_ maps from $C$ to itself, because we do not know _a priori_ where the complement of the source algebra in $C$ is mapped. 
-
-> Mmm, ok, good point.  Hmmm.  Again, my justification is because of what I wanted to use it for and also because I wanted a nice, generalized definition that could be used in a category-theoretic way.
-
-[[David Roberts]]: In that case I echo my claim above: stick with the category and forsake the monoid. It shouldn\'t be any more tricky.
-=--
-
-
-
-The following is a proof that a quantum channel is a [[category]].  The proof actually proves it is a [[monoid]], but the need for it to be a category becomes more clear when we start dealing with these things en masse.
-
-+-- {: .un_prop}
-###### Proposition
-
-The quantum channels $t: L(\mathcal{H}) \to L(\mathcal{H})$, together with the $d$-dimensional $C^{*}$-algebra, $C$, on which they act, forms a category we call $\mathbf{Chan}(d)$, where $C$ is the sole object and the quantum channels $t$ are the arrows.
-=--
-
-+-- {: .proof}
-###### Proof
-Consider the quantum channels
-
-$\begin{aligned}
-r: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\sigma}) & \where &
-\sigma=\sum_{i}A_{i}\rho A_{i}^{\dagger} \\
-t: L(\mathcal{H}_{\sigma}) \to L(\mathcal{H}_{\tau}) &
-\where &
-\tau=\sum_{j}B_{j}\sigma B_{j}^{\dagger} 
-\end{aligned}$
-
-where the usual properties of such channels are assumed (e.g. trace preserving, etc.).  We form the composite $t \circ r: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\tau})$ where
-
-
-$\begin{aligned}
-\tau & = \sum_{j}B_{j}\left(\sum_{i}A_{i}\rho A_{i}^{\dagger}\right)B_{j}^{\dagger}  \\
-& = \sum_{i,j}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger} \\
-& = \sum_{k}C_{k}\rho C_{k}^{\dagger} 
-\end{aligned}$
-
-and the $A_{i}$, $B_{i}$, and $C_{i}$ are Kraus operators.
-
-Since $A$ and $B$ are summed over separate indices the trace-preserving property is maintained, i.e. $\sum_{k} C_{k}^{\dagger}C_{k}=\mathbb{1}$.
-
-For a similar methodology see [Nayak and Sen](http://arxiv.org/abs/quant-ph/0605041).
-
-We take the identity arrow, $1_{\rho}: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\rho})$, to be the time evolution of the state $\rho$ in the absence of any channel.  Since this definition is suitably general we have that $t \circ 1_{A}=t=1_{B} \circ t \quad \forall \,\, t: A \to B$.
-
-Consider the three unital quantum channels $r: L(\mathcal{H}_{\rho}) \to L(\mathcal{H}_{\sigma})$, $t: L(\mathcal{H}_{\sigma}) \to L(\mathcal{H}_{\tau})$, and $v: L(\mathcal{H}_{\tau}) \to L(\mathcal{H}_{\upsilon})$ where $\sigma=\sum_{i}A_{i}\rho A_{i}^{\dagger}$, $\tau=\sum_{j}B_{j}\sigma B_{j}^{\dagger}$, and $\eta=\sum_{k}C_{k}\tau C_{k}^{\dagger}$.  We have
-
-$\begin{aligned}
-v \circ (t \circ r) & = v \circ \left(\sum_{i,j}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger}\right) = \sum_{k}C_{k} \left(\sum_{i,j}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger}\right) C_{k}^{\dagger}  \\
-& = \sum_{i,j,k}C_{k}B_{j}A_{i}\rho A_{i}^{\dagger}B_{j}^{\dagger}C_{k}^{\dagger} = \sum_{i,j,k}C_{k}B_{j}\left(A_{i}\rho A_{i}^{\dagger}\right)B_{j}^{\dagger}C_{k}^{\dagger}  \\
-& = \left(\sum_{i,j,k}C_{k}B_{j}\tau B_{j}^{\dagger}C_{k}^{\dagger}\right) \circ r = (v \circ t) \circ r
-\end{aligned}$.
-
-and thus we have associativity.  Note that similar arguments may be made for the inverse process of the channel if it exists (it is not necessary for the channel here to be reversible).
-=--
-
 
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
