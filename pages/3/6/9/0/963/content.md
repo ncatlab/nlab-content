@@ -1,4 +1,12 @@
+# Contents
+* table of contents
+{: toc}
+
+## Definition
+
 A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid|monoid object]] in the closed symmetric monoidal category of suplattices. This means it is a poset having all [[join]]s and an associative, unital tensor product $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]).  The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$.
+
+## Quantales and Frames
 
 Additional conditions often imposed on a quantale include:
 
@@ -6,18 +14,16 @@ Additional conditions often imposed on a quantale include:
 * Idempotence: $x\otimes x = x$
 * The unit for $\otimes$ is the top element: $1=\top$.
 
-If all three of commutativity, idempotence, and $1=\top$ are assumed, they force $\otimes$ to be the [[meet]] and therefore the quantale to be a [[frame]].  General quantales are sometimes considered to be a "noncommutative" version of a frame, whose [[opposite category]] would be a category of "noncommutative [[locale]]s" (hence the name, a [portmanteau](
-http://en.wikipedia.org/wiki/Portmanteau) of "quantum" and "locale").
+If all three of commutativity, idempotence, and $1=\top$ are assumed, they force $\otimes$ to be the [[meet]] and therefore the quantale to be a [[frame]].  General quantales are sometimes considered to be a "noncommutative" version of a frame, whose [[opposite category]] would be a category of "noncommutative [[locale]]s."
 
-+--{: .query}
-Now, if you really thought of quantales as quantum locales, then you would define a morphism of quantales to go backwards.  What does the literature say about that?  ---Toby
+(This is the origin of the name "quantale," a [portmanteau](http://en.wikipedia.org/wiki/Portmanteau) of "quantum" and "locale".  Note, though, that quantales seem to be generally treated in the literature more as "quantum frames" than "quantum locales," and in particular their morphisms usually go in the "frame direction."  Possibly this can be explained by the fact that in the past, it was common to use the word "locale" for what we now call a "frame" and simply distinguish between "locale homomorphisms" (now called "frame homomorphisms") and "continuous maps.")
 
-[[Mike Shulman|Mike]]: I think that whatever the origins of the name, quantales are generally treated in the literature as more like "quantum frames" than "quantum locales."  Note, though, that in the past, it was common to use the word "locale" for what we now call a "frame" and simply distinguish between "locale homomorphisms" and "continuous maps."
+## Enrichment over quantales
 
-_Toby_:  That explains it then, thanks.
-=--
+A different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale.  This is often particularly interesting for $*$-quantales (see below), where one can study $*$-enriched categories.
 
-### Examples ###
+
+## Examples ##
 
 Quantales are a surprisingly commonplace structure in computer science. A very simple example is the powerset of strings (i.e., the powerset of the free monoid over some set of characters $\Sigma$). The order is the inclusion order on sets, and meet and join are just intersection and union, respectively. Taking $\epsilon$ to be empty string, and $a \cdot b$ to the join of two string, the quantalic operations are then:
 
@@ -33,7 +39,8 @@ Another class of examples: internal homs $\hom_{sLat}(X, X)$ in the closed monoi
 
 Quantales, as monoids in the symmetric monoidal category $sLat$, can be tensored to produce new quantales. 
 
-###$*$-quantale###
+
+##$*$-quantale##
 
 A $*$-quantale is a quantale $Q$ equipped with an additional structure of an involution 
 
@@ -49,7 +56,8 @@ Another example is obtained by taking the quantale of down-closed subsets of a $
 
 * $L^* = \{x^*: x \in L\}$ 
 
-### Morphisms of quantales ### 
+
+## Morphisms of quantales ##
 
 There is a variety of notions of morphism of quantale, just as there is a variety of notions of morphism between closed monoidal categories. All the notions considered here are morphisms between the underlying sup-lattices, in other words preserve arbitrary joins, hence are left adjoints as functors between the underlying categories. 
 
