@@ -2,6 +2,23 @@
 * automatic table of contents goes here
 {:toc}
 
+## Notation
+
+In the following definition, we use Dirac's "bracket" notation for vectors where a state vector, describing the state of a quantum system, is represented by a "ket" which is a column vector,
+
+$|\psi_{\alpha}\rangle=
+\left(
+\begin{aligned}
+\vdots \\
+x_{n-1} \\
+x_{n} \\
+x_{n+1} \\
+\vdots
+\end{aligned}
+\right)$.
+
+The Hermitian adjoint, $\langle\psi_{\alpha}|=(|\psi_{\alpha}\rangle)^{\dagger}$, is called a "bra" (hence "bra(c)ket") and is a row vector.
+
 ## Mixed states
 
 Suppose we have a [[quantum state]] *Q* that arises from some random process such that the state $|\psi_{\alpha}\rangle$ has a probability $p_{\alpha}$ (we often speak of having 'prepared' the state with the associated probability).  The possible states $|\psi_{\alpha}\rangle$ need not be orthogonal and we thus call such a collection of states, a *mixed state*.  More specifically, a mixed state is often described as an *ensemble* of quantum systems.
