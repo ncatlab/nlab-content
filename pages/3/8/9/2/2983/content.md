@@ -26,7 +26,7 @@ An introductory textbook that starts with explaining Coxeter groups is this:
 * [[Abramenko, Peter; Brown, Kenneth S.: Buildings. Theory and applications. (Springer 2008, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05288866&format=complete) )]]
 
 ####Introduction####
-This page is intended to be a supplementary exposition of the page [[toddtrimble:Buildings for category theorists]], at least for now. So we will try to explain the aspects of buildings that the kind reader would like to now in order to understand the category theoretic construction over there.
+This page is intended to be a supplementary exposition of the page [[toddtrimble:Buildings for category theorists]], at least for now. So we will try to explain the aspects of buildings that the kind reader would like to know in order to understand the category theoretic construction over there.
 The notion of a building relies heavily on that of a Coxeter group, which we will not explain here, see for example
 
 * [[Wikipedia: [Coxeter groups] (http://en.wikipedia.org/wiki/Coxeter_group) ]]
@@ -37,8 +37,8 @@ and especially, for an elementary and readable introduction,
 ) )]]
 
 Taking the notion of Coxeter groups for granted, there are currently three different viewpoints of thinking about a building. 
-From now on, let W be a Coxeter group and S the set of generators, which may be finite or infinite: In case we need S to be finite we will mention it explicitly.
-
+From now on, let W be a Coxeter group and S the set of generators, which may be finite or infinite: In case we need S to be finite we will mention it explicitly. We will call the tuple (W, S) a **Coxeter system** and let $l_S$ be the **length function**
+ of W with respect to S.
 ####Buildings from three Viewpoints####
 The three viewpoints are distinguished by how one thinks about chambers.
 
@@ -46,6 +46,7 @@ The three viewpoints are distinguished by how one thinks about chambers.
 In Tits original approach, a building is a simplicial complex satisfying additional axioms. Chambers are maximal simplices.
 
 #####Combinatorial Approach#####
+Note that this is not a firmly established term in the literature.
 This more modern approach originated with
 
 * [Jaques Tits: A local approach to buildings, The geometric vein (C. Davis, B.Gr&#252;nbaum, and F. A. Sherk, eds.), Springer-Verlag, New York, 1981, pp. 519&#8211;547.]
@@ -56,7 +57,7 @@ Buildings are viewed as sets of chambers with a Coxeter-group-valued distance fu
 The following paper
 
 * [M. W. Davis, Buildings are CAT(0), Geometry and cohomology in group theory
-(P. H. Kropholler, G. A. Niblo, and R. St&#168;ohr, eds.), London Mathematical
+(P. H. Kropholler, G. A. Niblo, and R. St&#246;hr, eds.), London Mathematical
 Society Lecture Note Series, vol. 252, Cambridge University Press, Cambridge,
 1998, pp. 108&#8211;123.]
 
@@ -65,3 +66,23 @@ explains that every building has a geometric realization that admits a CAT(0) me
 * [Wikipedia: [CAT(k) spaces] (http://en.wikipedia.org/wiki/CAT%28k%29_space)]
 
 From this viewpoint chambers a metric spaces.
+
+####Definition of a Building according to the Combinatorial Approach####
+This definition is due to
+
+* [Jaques Tits: Twin buildings and groups of Kac-Moody type, Groups, combinatorics
+& geometry (M. Liebeck and J. Saxl, eds.), London Mathematical Society
+Lecture Note Series, vol. 165, Cambridge University Press, Cambridge, 1992,
+pp. 249&#8211;286.]
+
+Let (W, S) be a Coxeter system (see above). 
+
+Definition: A **building of type (W, S)** is a pair (C, $\delta$) of a nonempty set C, whose elements are called **chambers**, and a function 
+$\delta$: CxC $\to$ W
+subject to the following axioms:
+
+* WD1, "identity of indiscernibles": $\delta$(C, D) = 1 iff C = D
+
+* WD2, "triangle inequality": Let A, B, C be chambers and $\delta$(A, B) = w, $\delta$(C, A) = s, then $\delta$(C, B) = either w or sw. If in addition $l_S$(sw) = $l_S$(w) + 1, then $\delta$(C, B) = sw.
+
+* WD3, "TODO: insert analogy here": Let A, B be chambers and $\delta$(A, B) = w, then for any s $\in$ S there is a chamber C such that $\delta$(C, A) = s and $\delta$(C, B) = sw
