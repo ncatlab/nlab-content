@@ -1,4 +1,9 @@
-# Idea #
+# Dependent products
+* table of contents
+{: toc}
+
+
+## Idea
 
 The concept of [[cartesian product]] makes sense for any family of sets, while the category-theoretic [[product]] makes sense for any family of objects.  In each case, however, the family is indexed by a [[set]]; how can we get a purely category-theoretic product indexed by an object?
 
@@ -10,13 +15,15 @@ equals the usual product projection; in other words, $ev$ is a morphism in the [
 
 In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: we move everything from $Set$ to an arbitrary over category $Set/I$.
 
-#Definition#
+
+## Definition
 
 For $C$ a [[category]], the **dependent product** of the morphism $g: B \to A$ indexed by the morphism $f: A \to I$ is an object $\prod_f g$ in the [[over category]] $C/I$, where the operation $\prod_f: C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*: C/I \to C/A$.
 
 For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
 
-#Remarks#
+
+## Remarks
 
 Note that the *left* adjoint to the base-change functor, the __dependent coproduct__ or __dependent sum__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
 
@@ -33,10 +40,20 @@ This is theorem 2 in section IV, 7 of
 
 * MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
 
-#Examples#
+
+## Examples
 
 * the dependent product plays a role in the definition of [[universe in a topos]].
 
+
+[[!redirects dependent product]]
 [[!redirects dependent products]]
+[[!redirects dependent product type]]
+[[!redirects dependent product types]]
+
 [[!redirects dependent sum]]
+[[!redirects dependent sums]]
+[[!redirects dependent sum type]]
+[[!redirects dependent sum types]]
 [[!redirects dependent coproduct]]
+[[!redirects dependent coproducts]]
