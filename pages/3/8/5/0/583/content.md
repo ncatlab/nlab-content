@@ -352,9 +352,7 @@ $$
 
 because $\not U \vee U = (U^c)^\circ \cup U = X \backslash \partial U$ is the total space $X$ without the boundary (frontier) of $U$, and not $true = X$, all of the total space.
 
-So the internal logic of a [[Grothendieck topos|presheaf topos]] is [[intuitionistic logic]].
-
-
+Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in general) [[intuitionistic logic]].  As remarked above, this is the case in many toposes.
 
 
 ## References 
@@ -368,7 +366,7 @@ So the internal logic of a [[Grothendieck topos|presheaf topos]] is [[intuitioni
 
 * "Categorical Logic and Type Theory" by Jacobs works in the even more general context of [[Grothendieck fibration|fibrations]], allowing us to associate to each object $A$ an arbitrary poset instead of $Sub(A)$.
 
-* Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of _display morphisms_.
+* Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of [[display morphisms]].
 
 
 [[!redirects internal language]]
