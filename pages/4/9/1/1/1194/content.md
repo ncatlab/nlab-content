@@ -156,11 +156,11 @@ $$\frac{\Gamma, x:A \vdash B(x):Prop}{\Gamma \vdash \forall_{x:A} B(x) : Prop}
 $$
 and similarly $\Sigma$ becomes $\exists$.
 
-In either case, asserting that a proposition is "true" is the same as asserting that it is [[inhabited]], i.e. exhibiting a term of that type.  Thus, we don't need to introduce a new kind of judgment for logic; we can continue to use the same sorts of judgments of the form "$t$ is a term of type $A$," only now $A$ can be a proposition and $t$ a proof or reason why $A$ is true.  In particular, the *axioms* of a logical theory can also be formulated as term-forming rules.
+In either case, asserting that a proposition is "true" is the same as asserting that it is [[inhabited type|inhabited]], i.e. exhibiting a term of that type.  Thus, we don't need to introduce a new kind of judgment for logic; we can continue to use the same sorts of judgments of the form "$t$ is a term of type $A$," only now $A$ can be a proposition and $t$ a proof or reason why $A$ is true.  In particular, the *axioms* of a logical theory can also be formulated as term-forming rules.
 
 ## Additional dependencies
 
-It is also possible to have types depending on propositions, propositions depending on propositions, kinds depending on types, etc. etc.  See, for instance, [[pure type systems]] and the [[calculus of constructions]].
+It is also possible to have types depending on propositions, propositions depending on propositions, kinds depending on types, etc. etc.  See, for instance, [[pure type system|pure type systems]] and the [[calculus of constructions]].
 
 
 # Type-theoretical foundations
@@ -249,14 +249,20 @@ If we then define "sets" to be types equipped with equality relations (sometimes
 
 ## Identity types
 
++-- {: .query}
 Quick comment:  Even in internal type theory, one needs identity types to validate COSHEP.  Type theory without identity types is very strange (the category of contexts may not have all pullbacks, and not every morphism need be a display morphism).
 
-+--{: .query}
 [[Mike Shulman]]: I'm not sure that that's so strange.  At least, not to the type theorists.  (-:  Categorically, I think of display maps as being fibrations in some model-category-type structure, which makes sense to me, although in semantics valued in an honest higher-category I would expect every morphism to be equivalent to a display morphism.
 
 Actually, don't you need *extensional* identity types in order to get all pullbacks and make every morphism display?  I think intensional identity types just mean that you can factor every morphism through a display morphism which is "equivalent" in some sense, i.e. you have the [[identity type weak factorization system]].
 
 And I didn't know that about COSHEP, why is that?  Isn't it true that all types are projective, at least in the propositions-as-types logic, since to assert that something exists is to give a construction of it?  Or are you saying that you need identity types in order to even construct the category of setoids, since you need the category of types to have at least weak finite limits?
+
+_Toby_:  I mean that you need identity types in order to have the free functor from presets to sets that allows every type (preset) to be interpreted as a set.  So every set is a quotient (in a sense) of a preset, and every preset is projective (in a sense), but it\'s not a projective *set*.  We merely have that the free set on that preset is projective *if* it exists.
+
+I really meant to work out a clean example of such a type theory on [my personal web](tobybartels:HomePage), but I never did (so you don\'t need to look there).
+
+PS:  You\'re right about the display maps; that part\'s not so strange.  Maybe it\'s not strange at all, but Martin-L&#246;f (at least) considers identity types indispensible (and they are, in his framework, for $W$-types to work).
 =--
 
 (to be written...)
