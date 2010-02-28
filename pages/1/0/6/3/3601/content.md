@@ -6,9 +6,11 @@
 
 > under construction
 
-_Quantum information_ refers to data that can be physically stored in a quantum system. _Quantum information theory_ is the study of how such information can be encoded, measured, and manipulated. A notable sub-field is _quantum computation_, a term often used synonymously with quantum information theory, which studies protocols and algorithms that use quantum systems to perform computations.
+_Quantum information_ refers to data that can be physically stored in a [[quantum mechanics|quantum system]]. 
 
-_Categorical quantum information_ refers to a program in which the cogent aspects of Hilbert space-based quantum information theory are abstracted to the level of symmetric monoidal categories.
+_Quantum information theory_ is the study of how such information can be encoded, measured, and manipulated. A notable sub-field is _quantum computation_, a term often used synonymously with quantum information theory, which studies protocols and algorithms that use quantum systems to perform computations.
+
+_Categorical quantum information_ refers to a program in which the cogent aspects of [[Hilbert space]]-based quantum information theory are abstracted to the level of [[symmetric monoidal categories]].
 
 #Contents#
 * automatic table of contents goes here
@@ -16,7 +18,7 @@ _Categorical quantum information_ refers to a program in which the cogent aspect
 
 ## Quantum information and quantum computation
 
-In pure state quantum mechanics, physical states are encoded as vectors in a Hilbert space. Often Dirac "bra-ket" notation is used to represent such vectors, where $|\psi\rangle$ represents a state and $\langle \psi |$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and momentum and are called observables. Measurements are expressed as sets of projectors onto the eigenvectors of an observable.
+In pure state quantum mechanics, physical states are encoded as vectors in a [[Hilbert space]]. Often Dirac "bra-ket" notation is used to represent such vectors, where $|\psi\rangle$ represents a state and $\langle \psi |$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and [[momentum]] and are called observables. Measurements are expressed as sets of projectors onto the eigenvectors of an observable.
 
 In mixed state quantum mechanics, physical states are represented as density operators $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and measurements are positive operator-valued measures (POVM's). There is a natural embedding of pure state quantum mechanics into the mixed state picture. (TODO: show this)
 
@@ -28,6 +30,8 @@ In mixed state quantum mechanics, physical states are represented as density ope
 Brief synopsis of teleportation, entanglement swapping, BB84, E91, Deutsch-Jozsa, Shor.
 
 ## $\dagger$-symmetric monoidal categories
+
+* [[†-category]]
 
 ## Diagrammatic notation
 
