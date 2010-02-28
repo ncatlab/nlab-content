@@ -25,14 +25,6 @@ Linear logic would disallow the contraction step and treat
 $\text{have cake},\text{have cake}\vdash A$ as explicitly
 meaning that _two_ slices of cake yield $A$.  Disallowing contraction then corresponds to the fact that we can't turn one slice of cake into two (more's the pity), so you can\'t have your cake and eat it too.
 
-+--{: .query}
-Lynn, I can\'t believe that you shied away from the punchline!  ---Toby
-
-[[Finn Lawler]]: (Who's Lynn?)  I thought I'd be subtle, but maybe I was a bit too subtle!
-
-_Toby_:  Sorry: Finn!  You weren\'t so subtle that I didn\'t get it, obviously; we just have different styles of humour, I guess.
-=--
-
 Linear logic was introduced in \[1\].  Although it is
 usually presented in terms of inference rules, it was
 apparently discovered by Girard while studying [coherent
@@ -55,21 +47,6 @@ tensor called 'par', with
 $A \parr B = (A^\bot\otimes B^\bot)^\bot$.  Tensor and par are the
 'multiplicative' connectives, which roughly speaking represent the
 parallel availability of resources. 
-
-+--{: .query}
-[[Mike Shulman|Mike]]: I've usually seen $(-)^\bot$ for the linear negation; did you choose $(-)^*$ just to emphasize the connection with  $*$-autonomous categories?
-
-[[Finn Lawler|Finn]]: Well, $(-)^*$ above is the duality involution, really -- I haven't quite got to the syntax yet.  But, yes, that's what I mean.
-
-What I might do is move this basic stuff to the $*$-autonomous category page and make this page more about syntax.
-
-_Finn_: I've created [[*-autonomous category]] and
-changed the above to refer to the syntax of LL.
-
-_Eric_: Hi! Technical note on n-Lab. Jacques recently implemented redirects for us. I've added redirects for <nowiki>[[*-autonomous category]] and [[*-autonomous categories]]. From now on, these will point to [[star-autonomous category]]. Just FYI. Hope it makes life a little easier for you. Now you can avoid typing things like $*$-[[star-autonomous category|autonomous categories]].</nowiki>
-
-_Toby_:  Actually, I write things like '$*$-[[star-autonomous category|autonomus category]]' and even '$2$-[[2-category|category]]' quite deliberately, to maintain the typographical distinction between text mode and math mode.  I can see the argument for the other side, of course; what would really be nice is iTeX in wiki links (at least on the left side of a pipe).
-=--
 
 The 'additive' connectives $\&$ and $\oplus$, which
 correspond in another way to traditional conjunction and
@@ -112,6 +89,6 @@ category) is $B^A \cong !A\multimap B$.
 2. Seely, R. A. G., 'Linear logic, $*$-autonomous categories
    and cofree coalgebras', _Contemporary Mathematics_ 92,
    1989.  Available at
-   <http://www.math.mcgill.ca/rags/nets/llsac.ps.gz>.
+   &lt;http://www.math.mcgill.ca/rags/nets/llsac.ps.gz>.
 
 3. The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied fragments.
