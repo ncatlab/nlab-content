@@ -1,5 +1,5 @@
 
-###An example illustrating some of the ideas of shape theory###
+###An example illustrating some of the ideas of [[shape theory]]###
 
 
 A space  may have very little separating it from 'manifoldness', yet a 'singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, cf. Borsuk's book (referenced below.)
@@ -37,9 +37,12 @@ Another point to note is that not only is each of the neighbourhoods homotopic t
 ####A (Borsuk) shape map $f: S^1 \to S_W$####
 
 
-There is a sequence of maps, $\{f_n : S^1 \to N_{\frac{1}{n}}(S_W)\mid n\in \mathbb{N}\}$, so that for each pair, $(n,N)$, with $N\gt n$, there is a homotopy $f_n \sim i^N_n f_N$. This makes a (Borsuk) shape map from the circle to the Warsaw circle.  Each $f_n$ is in fact a homotopy equivalence and we can use a choice of homotopy inverses to get another shape map $g : S_W\to S^1$ and these make up a shape equivalence.
+There is a sequence of maps, $\{f_n : S^1 \to N_{\frac{1}{n}}(S_W)\mid n\in \mathbb{N}\}$, so that for each pair, $(n,N)$, with $N\gt n$, there is a homotopy $f_n \sim i^N_n f_N$. This makes a (Borsuk) shape map from the circle to the Warsaw circle.  Each $f_n$ is in fact a homotopy equivalence and we can use a choice of homotopy inverses to get another shape map $g : S_W\to S^1$ and these make up a **shape equivalence**.
 
 (The detailed description of shape maps and shape equivalences in the Borsuk version of shape theory, is given in the entry [[Borsuk shape theory]].)
+
+
+####The Warsaw circle from a &#268;ech point of view####
 
 
 
