@@ -1,3 +1,4 @@
+[[!redirects Cech methods]]
 
 #Contents#
 * automatic table of contents goes here
@@ -59,7 +60,7 @@ systems of polyhedra and maps between them and his student Christie looked at th
 ### Shape theory as a &#268;ech homotopy theory ###
 
 Borsuk (1968) developed [[shape theory]], which although initially very geometric in flavour turned out also to be described in terms of Christie's
-theory of the "&#268;ech extensions" of homotopy theory, (see [[shape theory]] for references and more on this area.
+theory of the "&#268;ech extensions" of homotopy theory, (see [[shape theory]] and [[Čech homotopy]] for references and more on this area).
 
 
 ### &#268;ech-like methods in algebraic geometry ###
