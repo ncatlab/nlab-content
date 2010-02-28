@@ -33,9 +33,9 @@
 
 * **[[quantum mechanics|Quantum Mechanics]]**
 
-  * [[quantum channels]]
+  * [[quantum channels|Quantum Channels]]
 
-* [[quantum information]]
+* **[[quantum information|Quantum Information]]**
 
 * **[[quantum field theory|Quantum Field Theory]]**
 
