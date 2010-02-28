@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a __category enriched over $K$__ (also called a __category enriched in $K$__, or simply a __$K$-category__), say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a '[[hom-object]]' 
 $$ hom(x,y) \in K .$$
@@ -19,8 +19,18 @@ More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a 
 
 See also [[enriched category theory]].
 
-#Definition#
+## Definition
 
+Ordinarily enriched categories have been considered as _enriched over_ a [[monoidal category]]. This is discussed in the section
+
+* [Enrichment in a monoidal category](InMonoidCat)
+
+More generally, one may think of a monoidal category as a [[bicategory]] with a single object and this way regard enrichment in a monoidal category as the special case of _enrichment in a bicategory_ . This is discussed in the section
+
+* [Enrichment in a bicategory](#InBicat)
+
+
+### Enrichment in a monoidal category {#InMonoidCat}
 
 Let $V$ be a [[monoidal category]] with
 
@@ -113,7 +123,7 @@ $$Set^V \to Set^{X \times X}$$
 
 since bicontinuous functors of the form $Set^V \to Set^{X \times X}$ are precisely those of the form $Set^d$ for some function $d: X \times X \to V$, at least if $V$ is [[Cauchy complete category|Cauchy complete]]. 
 
-## Enrichment in a bicategory ## 
+### Enrichment in a bicategory {#InBicat}
 
 Let $B$ be a bicategory, and write $\otimes$ for horizontal (1-cell) composition (written in Leibniz order). A $B$-**enriched category** consists of a set $X$ together with 
 
@@ -126,7 +136,8 @@ such that the associativity and unitality diagrams, as written above, commute. V
 
 If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, together with a function $f_1: X \times X \to B_2$, satisfying the constraint $f_1(x, y): \hom_X(x, y) \to \hom_Y(f(x), f(y))$, and satisfying equations expressing coherence with the composition and unit data $\circ$, $j$ of $X$ and $Y$. (Diagram to be inserted, perhaps.) 
 
-##Passage between ordinary categories and enriched categories##
+
+## Passage between ordinary categories and enriched categories
 
 Every $K$-enriched category $C$ has an _underlying ordinary category_, usually denoted $C_0$, defined by $C_0(x,y) = K(I, hom(x,y))$ where $I$ is the unit object of $K$.
 
@@ -138,7 +149,7 @@ More generally, a (lax) [[monoidal functor]] $F: K \to L$ between monoidal categ
 
 
 
-##Internalization versus Enrichment##
+##Internalization versus Enrichment
 
 The idea of enriched categories is not unrelated to that of [[internal category|internal categories]], but is different.  One difference is that in a $K$-enriched category, the objects still form a _set_ (or a proper class) while the arrows are replaced by objects of $K$, while in a category internal to $K$, both the set of objects _and_ the set of arrows are replaced by objects of $K$.
 
@@ -147,7 +158,7 @@ Another difference is that for $K$-enriched categories, $K$ can be any monoidal 
 Nevertheless, internalization and enrichment are related in several ways.  On the one hand, internal categories and enriched categories are both instances of [[monad|monads]] in bicategories (the bicategory of spans and the bicategory of matrices, respectively).  On the other hand, when $K$ is an $\infty$-[[extensive category]], such as [[Set]] or [[simplicial set|simplicial sets]] (or more generally any [[Grothendieck topos]]), (small) $K$-enriched categories can be identified with $K$-internal categories whose object-of-objects is discrete (that is, a coproduct of copies of the terminal object).
 
 
-#Examples#
+## Examples
 
 * A category enriched in [[Set]] is a [[locally small category]].
 
@@ -178,7 +189,7 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 * A [[group torsor]] (over a group $G$) can be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
 
 
-#References#
+## References
 
 The standard reference on enriched categories is
 
@@ -186,7 +197,7 @@ The standard reference on enriched categories is
 
 
 
-#Blog entries#
+## Blog entries
 
 * John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/).
 
