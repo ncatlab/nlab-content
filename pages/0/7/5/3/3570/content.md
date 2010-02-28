@@ -43,8 +43,22 @@ There is a sequence of maps, $\{f_n : S^1 \to N_{\frac{1}{n}}(S_W)\mid n\in \mat
 
 
 ####The Warsaw circle from a &#268;ech point of view####
+To get $\check{C}(S_W,-)$ &#268;ech nerve complex of $S_W$, (see [[Čech methods]]), we can calculate $\check{C}(S_W,\alpha)$ for an arbitrary open cover $\alpha$ of $S_W$, but we need not do that (in fact that is a silly thing to do!).  We first note that $S_W$ is compact so we need only consider finite open covers, as these form a cofinal subcategory of the category of all open covers. ('Cofinal subcategory' means that its inclusion into the bigger category is a [[cofinal functor]].)
+
+Next we look at any finite open cover and note that it has a refinement in the form of open balls of radius $\frac{1}{n}$, in other words we can restrict to (well chosen) such covers, giving a countable family of open covers that have to be worked with.
+
+For such open covers the nerve will look a bit like [[circle.pdf|this:file]]. There may be fine detail in the rectangle depending on the choice of cover, but that detail will disappear as one passes to finer and finer scales. (New holes may occur, but again going finer those disappear.) Cofinally it looks like  a space obtained by adding in a thin rectangle transverse to a circle at one small segment. For different open coverings, the only difference will be where the region of attachment (marked $*$) will occur and the relative thinness of the rectangle.  The line of singularities given by the interval $[-1,1]$ on the $y$-axis cannot be 'observed', of course.  If one passes to finer and finer covers, most of the curve does not change appreciably. It just gets subdivided,  but the part near $*$ will lengthen, 'spawning' a very large number of new vertices.
+
+There are two important points to note:
+
+* (essentially) each $\check{C}(S_W,\alpha)$ has the homotopy type of a circle
+
+*  the transition maps, $C(S_W,\alpha)\to C(S_W,\beta)$, will be (cofinally) homotopy equivalences.
+
+(With a bit more care in the choice of the covers these can be made exact statements, not just 'essentially' or cofinally true.)
 
 
+We note that there are obvious maps of pro-objects $\check{C}(S^1,-)\to \check{C}(S_W,-)$, and back again.  These give an isomorphism in $pro-Ho(sSets)$.  This is the &#268;ech homotopy versions of the observations made for Borsuk's shape  above.
 
 ## References
 
