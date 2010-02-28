@@ -63,3 +63,7 @@ We note that there are obvious maps of pro-objects $\check{C}(S^1,-)\to \check{C
 ## References
 
 * K. Borsuk, _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
+
+
+[[!redirects Warsaw circle]]
+[[!redirects Warsaw Circle]]
