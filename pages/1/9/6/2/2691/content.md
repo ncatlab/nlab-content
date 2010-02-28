@@ -49,7 +49,7 @@ See the references below.
 ###### Remark
 **(category of fibrant objects)**
 
-Evidently every object in $dgAlg$ and in $C dgAlg$ is cofibrant. Therefore these model categories structures are in particular also structures of a [[category of fibrant objects]].
+Evidently every object in $dgAlg$ and in $C dgAlg$ is fibrant. Therefore these model categories structures are in particular also structures of a [[category of fibrant objects]].
 
 =--
 
