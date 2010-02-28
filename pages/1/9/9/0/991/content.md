@@ -44,7 +44,7 @@ Applying one's favourite homotopy
 functor, $F : \mathbf{S}\to \mathbf{A}$, to each $C(X,\alpha)$ and to these homotopy
 classes of induced transition maps, yields an inverse  system of objects in
 $\mathbf{A}$, i.e.,  a
-[[pro-object]]  in $\mathbf{A}$, but the $C(X,\alpha)$ by themselves do _not_ define a pro-object in the category of simplicial sets. 
+[[pro-object]]  in $\mathbf{A}$, but the $C(X,\alpha)$ by themselves do _not_ define a pro-object in the category of simplicial sets. They do form a pro-object in $Ho(sSets)$, or alternative, a 'coherent pro-object'in $sSets$, (see [[Čech homotopy]] for more discussion on this point.)
 
 
 ### &#268;ech homology and cohomology ###
@@ -55,7 +55,7 @@ homology to a much wider class of spaces.  Lefshetz, without the language of
 category theory, studied, again in the 1930s, the formal properties of inverse 
 systems of polyhedra and maps between them and his student Christie looked at the homotopy groups in this setting.  
 
-* see [[Čech cohomology]] for more on this.
+* see [[Čech cohomology]] and [[Čech homotopy]] for more on this.
 
 ### Shape theory as a &#268;ech homotopy theory ###
 
