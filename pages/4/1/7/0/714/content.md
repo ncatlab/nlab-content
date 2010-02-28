@@ -114,11 +114,11 @@ is the category of [[presheaf|presheaves]] on the category whose objects are the
 
 The concept of $\dagger$-category is discussed here:
 
-* S. Abramsky and B. Coecke, A categorical semantics of quantum protocols, _Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04)_, IEEE Computer Science Press (2004).  [arXiv](http://arxiv.org/abs/quant-ph/0402130)
+* [[Samson Abramsky|S. Abramsky]] and [[Bob Coecke|B. Coecke]], A categorical semantics of quantum protocols, _Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04)_, IEEE Computer Science Press (2004).  [arXiv](http://arxiv.org/abs/quant-ph/0402130)
 
 and further abstracted in:
 
-* P. Selinger, Dagger compact closed categories and completely positive maps, _Proceedings of the 3rd International Workshop on Quantum Programming Languages_, Chicago, June 30&#8211;July 1, 2005. [web](http://www.mscs.dal.ca/~selinger/papers.html#dagger)
+* [[Peter Selinger|P. Selinger]], Dagger compact closed categories and completely positive maps, _Proceedings of the 3rd International Workshop on Quantum Programming Languages_, Chicago, June 30&#8211;July 1, 2005. [web](http://www.mscs.dal.ca/~selinger/papers.html#dagger)
 
 The importance of $\dagger$-categories in quantum theory is discussed here:
 
