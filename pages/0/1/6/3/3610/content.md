@@ -94,7 +94,7 @@ Let $C = (Alg_k)^{op}$ with the [[fpqc-topology]] and $\mathbf{H} = Sh_{(\infty,
 The functors $\mathcal{O} := Hom_{sPsh(C)}(-,k) : sPSh(C) \to (Alg_k^{\Delta})^{op}$ and $Spec : A \mapsto (Alg_k^\Delta)^{op}(\mathcal{O}(-),A)$ form an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]]
 
 $$
-  (\mathcal{O} \dashv Spec) : sPSh(C)_{loc} \stackrel{\leftarrow}{\to}
+  (\mathcal{O} \dashv Spec) : sPSh(C)^{inj}_{loc} \stackrel{\leftarrow}{\to}
   (Alg_k^\Delta)^{op}
   \,.
 $$
@@ -106,7 +106,9 @@ This appears as [To, prop. 2.2.2](http://arxiv.org/PS_cache/math/pdf/0012/001221
 +-- {: .proof}
 ###### Proof
 
-It is easily seen that we have a Quillen adjunction with respect to the global model structure on $sPSh(C)_{glob}$. Since $sPSh(C)_{loc}$ arises by [[Bousfield localization of model categories|left Bousfield localization]] at [[hypercover]]s, it suffices to show that $Spec$ sends fibrant object of $(Alg_k^\Delta)^{op}$ to simplicial presheaves that satisfy [[descent]] at hypercovers. But for this it suffices to observe that for $Y \to U$ a [[hypercover]], the $k$-cohomology of $Y$ is isomorphic to that of $U$, so that $\mathcal{O}(Y) \leftarrow \mathcal{O}(X)$ is a [[quasi-isomorphism]]: we need to check that
+By the fact that $(Alg_k^\Delta)^{op}$ is a [[sSet]]-[[enriched model category]] so that the enriched hom is a right [[Quillen bifunctor]] it follows that for the _global_ model structure $sSSh(C)_{glob}^{inj}$ $Spec(-)$ is right Quillen.
+
+Since $sPSh(C)_{loc}$ arises by [[Bousfield localization of model categories|left Bousfield localization]] at [[hypercover]]s, it suffices to show that $Spec$ sends fibrant object of $(Alg_k^\Delta)^{op}$ to simplicial presheaves that satisfy [[descent]] at hypercovers. But for this it suffices to observe that for $Y \to U$ a [[hypercover]], the $k$-cohomology of $Y$ is isomorphic to that of $U$, so that $\mathcal{O}(Y) \leftarrow \mathcal{O}(X)$ is a [[quasi-isomorphism]]: we need to check that
 
 $$
   sPSh(Y, Spec A) \to sPSh(X,Spec A) 
@@ -130,6 +132,30 @@ This proof works very generally whenever hypercovers $Y \to U$ over representabl
 
 =--
 
+
+
++-- {: .un_prop }
+###### Proposition
+
+For $k = \mathbb{Q}$,  for $X \in \infty Grpd$, canonical morphism
+
+$$
+  X \to \Gamma \circ Spec \circ \mathcal{O} \circ LConst X
+$$
+
+(where all functors denote the [[derived functor|derived]] version) is a [[rational topological space|rational equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+This appears as [To, theorem. 2.5.1](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=65).
+
+=--
+
+
 ### On formal duals of simplicial algebra
 
 Let now $C = $ [[simplicial algebra]]s ${}^{op}$. Then...
@@ -149,7 +175,7 @@ The [[Quillen adjunction]]
 
 $$
   (\mathcal{O} \dashv Spec) : 
-  sPSh((Alg_kop))_{loc} \stackrel{\leftarrow}{\to}
+  sPSh((Alg_k^{op}))_{loc} \stackrel{\leftarrow}{\to}
   (Alg_k^{\Delta})^{op}
 $$
 
