@@ -32,7 +32,7 @@ then we get __ultrametric spaces__, a more restricted concept.  (This include fo
 
 # Lawvere metric spaces #
 
-Lawvere has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be supremum instead, enriched categories amount to Lawvere ultrametric spaces.
+[[Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be supremum instead, enriched categories amount to Lawvere ultrametric spaces.
 
 Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of enriched category theory.  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]]. 
 
