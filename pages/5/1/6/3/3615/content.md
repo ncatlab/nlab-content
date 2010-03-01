@@ -2,6 +2,14 @@
 
 * _Quantum cohomology and Morse theory on the loop space of toric varieties_, [math.AG/0203083](http://arxiv.org/abs/math.AG/0203083)
 
-The following is an interesting excerpt from his research project he had at IHES (for longer account see [here](http://cordis.europa.eu/data/PROJ_FP5/ACTIONeqDndSESSIONeq112302005919ndDOCeq3719ndTBLeqEN_PROJ.htm))
+The following is an interesting excerpt from his research project he had at IHES (for longer account see [here](http://cordis.europa.eu/data/PROJ_FP5/ACTIONeqDndSESSIONeq112302005919ndDOCeq3719ndTBLeqEN_PROJ.htm) ---this link does not seem to work)
 
 > Givental has conjectured, that the U(1)-equivariant Floer cohomology of the universal covering of the loop space, of asymplectic manifold, should have the structure of a [[D-module]], over the Heisenberg algebra of first order differential operators on a complex torus and that this should be the same as the quantum cohomology D-module of the manifold. I intent to study this conjectured equality and its implications in computing the quantum D-module. This implies also computation of the quantum ring, as the later is the semi-classical limit of the former. There are three concrete directions of research. First, note that there is a "Fourier transform" of equivariant cycles that transforms relations in the D-module to differential operators. If we could compute this transform, then we could compute the D-module. Because of the infinite dimensionality of the loop space though, there are problems with computing the integral involved I have managed to compute it in the case of positive toric manifolds, but this method relies on the Fourier expansion and doesn't seem to generalize to non-toric manifolds. For the case of general semi-positive symplectic manifolds, I propose a totally different method, which relies on using localization techniques and a certain exact sequence arising from [[Morse theory]] of the simplistic action functional, in order to regularize the ratios of relevant equivariant [[Euler class]]es. The second program I propose, is to use the model of Getzler, Jones and Petrack ([pdf](http://www.math.northwestern.edu/~getzler/Papers/cyclic1.pdf)), for the [[equivariant cohomology]] of the [[loop space]]. They identify it with a version of the cyclic bar complex, involving Connes's operator B and this could be used to compute the relevant "Fourier transform".
+
+
+category: people
+
+[[!redirects Ioannis Vlassopoulos]]
+[[!redirects Ioánnis Vlassópoulos]]
+[[!redirects ??????? ????????????]]
+[[!redirects ??????? ????????????]]
