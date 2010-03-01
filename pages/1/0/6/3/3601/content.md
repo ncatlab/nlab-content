@@ -48,20 +48,13 @@ The linear adjoint $(-)^\dagger$ gives Hilbert spaces the structure of a [[†-c
 
 ## Diagrammatic notation
 
-<svg y="151.5" x="440" viewBox="0 0 100 120" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink" height="120" width="100">
- <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
- <defs>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="5">
-   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
-  </marker>
- </defs>
- <g>
-  <title>Layer 1</title>
-  <rect x="29" y="41" width="40" height="38" id="svg_77684_1" fill="#56aaff" stroke="#000000" stroke-width="2"/>
-  <text x="48" y="69" id="svg_77684_2" fill="#000000" stroke="#000000" stroke-width="0" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">f</text>
-  <polyline points="48,81 48,94 48,107" stroke="#000000" stroke-width="2" marker-mid="url(#se_arrow_fw)" fill="none" id="svg_77684_3"/>
-  <polyline points="48,16 48,29 48,42" stroke="#000000" stroke-width="2" marker-mid="url(#se_arrow_fw)" fill="none" id="svg_77684_4"/>
- </g>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="60px" height="109px" viewBox="0 0 60 109" enable-background="new 0 0 60 109" xml:space="preserve">
+<line fill="none" stroke="#000000" stroke-width="2" x1="30.5" y1="0" x2="30.5" y2="109"/>
+<rect x="1" y="23.5" fill="#ccccee" stroke="#000000" stroke-width="2" width="58" height="58"/>
+<text transform="matrix(1 0 0 1 26 60.5)" font-family="'MyriadPro-Regular'" font-size="24">f</text>
+<polyline fill="none" stroke="#000000" stroke-width="2" points="26,8.752 30.438,13.25 34.875,8.752 "/>
+<polyline fill="none" stroke="#000000" stroke-width="2" points="26.333,91.752 30.771,96.25 35.208,91.752 "/>
 </svg>
 
 ## Extensions
