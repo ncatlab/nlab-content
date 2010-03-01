@@ -238,4 +238,12 @@ and
 
 which explores categorical methods in the area. 
 
+The relationship between invariants of $C^*$-algebras and the shape of their spectra was explored in
+
+* B. A. Blackadar, _Shape theory for $C^*$-algebras_, Math. Scand. 56 (1985) 249 -  275, [journal link](http://www.mscand.dk/article.php?id=2767).
+
+The links are with K-theory and Kasparov's theory. This connection and a related one to 'asymptotic morphisms' is explored in some neat notes by Anderson and Grodal:
+
+* [Noncommutative topology - homotopy functors and E-theory](http://www.math.ku.dk/~jg/papers/etheory.html)
+
 (more)
