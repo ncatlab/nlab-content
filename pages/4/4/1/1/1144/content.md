@@ -178,7 +178,7 @@ This is a [[Quillen adjunction]] with respect to the standard [[model structure 
 
 The original proof in the literature is apparently the one in section 8 of
 
-* Bousfield, Gugenheim, _On PL deRham theory and rational homotopy type_ , emoirs of the AMS, vol. 179 (1976)
+* Bousfield, Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
 A review is on [page 9](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0604/0604626v2.pdf#page=9)
 
