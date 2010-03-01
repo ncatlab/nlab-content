@@ -58,7 +58,7 @@ Morphisms in a monoidal category (and 2-categories in general) are inherently tw
 
 \[ (f_1 \otimes f_2) \circ (g_1 \otimes g_2) = (f_1 \circ g_1) \otimes (f_2 \circ g_2) \]
 
-So, if w think of these four morphisms as occupying a spot in 2 dimensional space:
+So, if we think of these four morphisms as occupying a spot in 2 dimensional space:
 
 +--{: .query}
 [[Aleks Kissinger]]: TODO: figure
@@ -135,7 +135,7 @@ and composition as graph composition:
 <polyline points="-5,22.5 -0.5,27 4,22.5 " id="polyline3001" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(-50.03846,33)"/>
 <polyline points="-5,86 -0.5,90.5 4,86 " id="polyline3003" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(-50.03846,33)"/>
 <text x="-58.518959" y="96.032204" id="text3005" style="font-size:24px;font-style:italic;font-family:Helvetica">g</text>
-<text x="40.09774" y="95.283203" id="text3007" style="font-size:18px;font-family:Helvetica">=</text>
+<text x="42" y="95.283203" id="text3007" style="font-size:18px;font-family:Helvetica">=</text>
 <text x="-24.585361" y="103.1729" id="text3009" style="font-size:36px;font-family:Helvetica"><tspan id="tspan2874" style="font-size:36px">&#9702;</tspan></text>
 <text x="93.46154" y="36" id="text2897" style="font-size:12px;font-family:Helvetica">A</text>
 <text x="93.46154" y="99" id="text2899" style="font-size:12px;font-family:Helvetica">B</text>
@@ -145,13 +145,32 @@ and composition as graph composition:
 </svg>
 </div>
 
-That is, we perform a pushout along the common edge in the category of typed graphs with boundaries. Consider the interchange law from about, but replacing some of the arrows with identities.
+That is, we perform a pushout along the common edge in the category of typed graphs with boundaries. Consider the interchange law from above, but replacing some of the arrows with identities.
 
-\[ (f \otimes 1_D) \circ (1_A \otimes g) = (1_B \circ g) \otimes (f \circ 1_C) \]
+\[
+(f \otimes 1_D) \circ (1_A \otimes g) = (f \circ 1_A) \otimes (1_D \circ g) =
+(1_B \circ f) \otimes (g \circ 1_C) = (1_B \otimes g) \circ (f \otimes 1_C)
+\]
 
 Graphically, this means we can "slide boxes" past each other.
 
-
+<div style="text-align:center">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="243" height="189" viewBox="-60 0 180.69231 189" id="Layer_1" xml:space="preserve"><defs id="defs3013"/>
+<line x1="-10.153852" y1="18" x2="-10.153852" y2="171" id="line2854" style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"/><text x="-46.153854" y="36" id="text2897" style="font-size:12px;font-family:Helvetica">A</text>
+<text x="-46.153854" y="99" id="text2899" style="font-size:12px;font-family:Helvetica">B</text>
+<polyline transform="translate(8.3461471,6)" style="fill:none;stroke:#000000;stroke-width:2" id="polyline2903" points="-68,22.5 -63.5,27 -59,22.5 "/><polyline transform="translate(8.3461471,6)" style="fill:none;stroke:#000000;stroke-width:2" id="polyline2905" points="-68,86 -63.5,90.5 -59,86 "/><line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" id="line2909" y2="171" x2="-55.153854" y1="18" x1="-55.153854"/><text x="-1.1538526" y="162" id="text2913" style="font-size:12px;font-family:Helvetica">D</text>
+<rect width="36" height="36" x="-28.153852" y="108" id="rect2915" style="fill:#99cccc;stroke:#000000;stroke-width:2"/><polyline transform="translate(-9.6538529,69)" style="fill:none;stroke:#000000;stroke-width:2" id="polyline2919" points="-5,86 -0.5,90.5 4,86 "/><text x="-18.134352" y="132.0322" id="text2921" style="font-size:24px;font-style:italic;font-family:Helvetica">g</text>
+<rect width="36" height="36" x="-73.153854" y="45" id="rect2901" style="fill:#cecbe6;stroke:#000000;stroke-width:2"/><text x="-60.134354" y="72.032204" id="text2907" style="font-size:24px;font-style:italic;font-family:Helvetica">f</text>
+<text x="-1.1538526" y="99" id="text2856" style="font-size:12px;font-family:Helvetica">C</text>
+<polyline points="-68,86 -63.5,90.5 -59,86 " id="polyline2858" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(53.346147,6)"/><text x="23.846148" y="106" id="text2860" xml:space="preserve" style="font-size:32px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan x="23.846148" y="106" id="tspan2862" style="font-size:24px">=</tspan></text>
+<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" id="line2864" y2="171" x2="115.84615" y1="18" x1="115.84615"/><text x="79.846153" y="99" id="text2866" style="font-size:12px;font-family:Helvetica">A</text>
+<text x="79.846153" y="162" id="text2868" style="font-size:12px;font-family:Helvetica">B</text>
+<polyline points="-68,22.5 -63.5,27 -59,22.5 " id="polyline2870" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(134.34616,69)"/><polyline points="-68,86 -63.5,90.5 -59,86 " id="polyline2872" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(134.34616,69)"/><line x1="70.846146" y1="18" x2="70.846146" y2="171" id="line2874" style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"/><text x="124.84615" y="99" id="text2876" style="font-size:12px;font-family:Helvetica">D</text>
+<rect width="36" height="36" x="97.846153" y="45" id="rect2878" style="fill:#99cccc;stroke:#000000;stroke-width:2"/><polyline points="-5,86 -0.5,90.5 4,86 " id="polyline2880" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(116.34616,6)"/><text x="107.86565" y="69.032196" id="text2882" style="font-size:24px;font-style:italic;font-family:Helvetica">g</text>
+<rect width="36" height="36" x="52.846153" y="108" id="rect2884" style="fill:#cecbe6;stroke:#000000;stroke-width:2"/><text x="65.865654" y="135.0322" id="text2886" style="font-size:24px;font-style:italic;font-family:Helvetica">f</text>
+<text x="124.84615" y="36" id="text2888" style="font-size:12px;font-family:Helvetica">C</text>
+<polyline transform="translate(179.34616,-57)" style="fill:none;stroke:#000000;stroke-width:2" id="polyline2890" points="-68,86 -63.5,90.5 -59,86 "/></svg>
+</div>
 
 ## Extensions
 
