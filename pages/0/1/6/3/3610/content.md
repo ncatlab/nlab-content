@@ -1,24 +1,37 @@
 > under construction
 
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 
-## Idea
+## Idea and definition
 
 An object in an [[(∞,1)-topos]] $\mathbf{H}$ over an [[(∞,1)-site]] $C$ may be regarded as an [[∞-groupoid]] modeled on $C$. A cosimplicial commutative algebra, i.e an object in $\mathbf{L} := (Alg_k^{\Delta})^{op}$, may be regarded as a [[Lie-∞-algebroid]].
 
-If $\mathbf{H}$ is equipped with an [[adjoint (∞,1)-functor|adjunction]]
+If $\mathbf{L}$ is a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$
 
 $$
   \mathbf{L}
-  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\hookrightarrow}}
   \mathbf{H} 
 $$
 
-the [[(∞,1)-functor]] $\mathcal{O}$ acts like $\infty$-Lie differentiation. Combined with the canonical adjunction
+the inclusion identifies $\infty$-Lie algebroids with $\infty$-groupoids whose  [[k-morphism]]s are
+[[infinitesimal object|infinitesimal]].
+
+The [[(∞,1)-monad]]
+
+$$
+  \mathbf{\flat}_{inf} := Spec \circ \mathcal{O} : 
+  \mathbf{H} \stackrel{\mathcal{O}}{\to}
+  \mathbf{L} \stackrel{Spec}{\to} 
+  \mathbf{H}
+$$
+
+acts like $\infty$-[[Lie theory|Lie differentiation]]: it sends an $\infty$-groupoid to its best approximation by an infinitesimal $\infty$-groupoid.
+
+Composed with the terminal [[global section]]s [[geometric morphism]]
 
 $$
   \mathbf{H} 
@@ -26,7 +39,7 @@ $$
   \infty Grpd
 $$
 
-this induces a notion of Lie theory on bare $\infty$-groupoids. 
+the reflective embedding induces a notion of Lie theory on bare $\infty$-groupoids. 
 
 $$
   \mathbf{L}
@@ -38,7 +51,7 @@ $$
   :=
   \;\;\;
   \mathbf{L}
-  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\hookrightarrow}}
   \mathbf{H} 
    \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
   \infty Grpd
@@ -46,69 +59,35 @@ $$
 $$
 
 
-For suitable choices of $\mathbf{H}$ and $\mathcal{O}$, this turns out to be essentially [[rational homotopy theory]].
+For suitable choices of $\mathbf{H}$, this is ordinary [[rational homotopy theory]]:
 
-## Definition
+* the functor $\Omega_{SL}$ produces a Sullivan model of a topological space;
 
-Let $\mathbf{H}$ be an [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf]] [[(∞,1)-topos]].
+* the functor $|-|$ sends a Sullivan model to the corresponding [[rational space]].
 
-Let $k$ be a [[field]] of characteristic 0 and $\mathbf{L} := (Alg_k^{\Delta})^{op}$ the [[(∞,1)-category]] of [[cosimplicial object|cosimplicial]] unital _commutative_ algebras over $k$, with weak equivalences given by [[quasi-isomorphism]]s under the [[monoidal Dold-Kan correspondence]] $Alg_k^\Delta \simeq dgAlg^+$.
-
-Or more generally, let $\mathbf{L} = ((Alg_k^{\Delta^{op}})^\Delta)^{op}$ be the category of cosimplicial simplicial algebra, which under monoidal Dold-Kan identifies with unbounded [[dg-algebra]]s.
-
-We may think of $\mathbf{L}$ as the category of (derived) [[L-∞-algebroid]]s, as described there.
-
-Say that a **global function algebra**  or **Chevalley-Eilenberg algebra** structure on $\mathbf{H}$ is an [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
-
-$$
-  (\mathcal{O} \dashv Spec) \;\; :\;\;
-  \mathbf{H} \stackrel{\overset{\mathcal{O}}{\to}}{\overset{Spec}{\leftarrow}}
-  \mathbf{L}
-  \,.
-$$
-
-Recall also the terminal [[geometric morphism]] of [[(∞,1)-topos]]es
-
-$$
-  (LConst \dashv \Gamma) \;\; : \;\;
-  \mathbf{H}
-  \stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}
-  \infty Grpd
-  \,,
-$$
-
-where $\Gamma : \mathbf{H} \to$ [[∞Grpd]]  is the [[global section]]s functor and for $X \in \infty Grpd$ we have that $LConst_X$ is the [[constant ∞-stack]] of [[locally constant ∞-stack]]s on $X$.
-
-We then have the composite functors
-
-$$
-  \Omega^\bullet(-)
-  :
-  \infty Grpd \stackrel{LConst}{\to} \mathbf{H} \stackrel{\mathcal{O}}{\to}
-  \mathbf{L}
-$$
-
-and
-
-$$
-  |-|
-  :
-  \mathbf{L} \stackrel{Spec}{\to} \mathbf{H} \stackrel{\Gamma}{\to}
-  \infty Grpd
-$$
-
-and the rationalization 
-
-$$
-  X \mapsto |\Omega^\bullet(X)|
-  \,.
-$$
+* the monad $|\Omega_{SL}(-)|$ is [[rationalization]].
 
 ## Examples
 
 ### On formal duals of algebras
 
-Let $C = (Alg_k)^{op}$ with the [[fpqc-topology]] and $\mathbf{H} = Sh_{(\infty,1)}(C) = (sPSh(C)_{loc})^\circ$. Write $k \in sPSh(C)_{loc}$ for the line object. 
+Consider the [[site]] $C$ whose underlying category is
+
+$$C = (Alg_k)^{op}$$ 
+
+equipped with the [[fpqc-topology]].
+
+Let 
+
+$$
+  \mathbf{H} = Sh_{(\infty,1)}(C) = (sPSh(C)_{loc})^\circ
+$$
+
+be the [[(∞,1)-topos]] [[presentable (∞,1)-category|presented]] by the local injective [[model structure on simplicial presheaves]] on $C$. 
+
+The following shows that this gives a model of $\infty$-Lie theory that recovers ordinary rational homotopy theory.
+
+Write $k \in sPSh(C)_{loc}$ for the line object. 
 
 
 +-- {: .un_def }
@@ -220,7 +199,7 @@ This appears as [To06, cor 2.2.3](http://arxiv.org/PS_cache/math/pdf/0012/001221
 For $k = \mathbb{Q}$,  for $X \in \infty Grpd$, canonical morphism
 
 $$
-  X \to \Gamma \circ Spec \circ \mathcal{O} \circ LConst X
+  X \to |\Omega_{SL}X| :=  \Gamma \circ Spec \circ \mathcal{O} \circ LConst X
 $$
 
 (where all functors denote the [[derived functor|derived]] version) is a [[rational topological space|rational equivalence]].
