@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 A _differential graded category_ is a category enriched
 over complexes of modules for some commutative ring $k$.
 Given a differential graded category $D$, one can form
@@ -12,7 +19,7 @@ of complexes of injective (or projective) objects in $\mathcal{A}$ with morphism
 $H^{0}$ of the Hom-complex between $X$ and $Y$ is precisely
 homotopy classes of chain maps from $X$ to $Y$. 
 
-# Definition #
+## Definition 
 
 A **dg-category** or **differential graded category** is a category [[enriched category|enriched]] over a [[symmetric monoidal category]] of [[category of chain complexes|chain complexes]], usually taken to be that of [[chain complex]]es of $k$-vector spaces for some field $k$: $dgCat := Ch(Mod_k)\Cat$.
 
@@ -37,7 +44,7 @@ There is a *Yoneda functor* $Z^0(C)\to dgMod C$ given by $X\mapsto C(-,X)$.
 _Toby_:  Good system, but there shouldn\'t be a minus sign in either version!  (You can get a hyphen, if you really need one, either by moving out of the dollar signs (the quick and dirty way) or (more properly) by using the Unicode hyphen: $dgMod$-$C$ or $dgMod&#8208;C$.)
 =--
 
-# Pre-triangulated dg-categories #
+## Pre-triangulated dg-categories 
 
 Intuitively, a dg-category is **pre-triangulated** if its homotopy category is a [[triangulated category]]. More precisely, it is pre-triangulated if the image of the Yoneda functor is closed under translations (in both directions) and extensions. 
 
@@ -51,7 +58,7 @@ Do you assume the existence of a zero-object in a pretriangulated dg-category (t
 _Zoran_: I took the conventions from Keller's article, as far as I recall. You are welcome to enter and explain the equivalent variants of the definition, and other variations if you are currently thinking on this subject. If you can cite the references for the proofs or reasoning supporting it, even better. I am concentrating on another subject at the very moment.
 =--
 
-#References#
+## References
 
 *  A. I. Bondal, M. M. Kapranov, _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669--683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93--107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
 
