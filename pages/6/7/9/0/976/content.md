@@ -246,4 +246,5 @@ The links are with K-theory and Kasparov's theory. This connection and a related
 
 * [Noncommutative topology - homotopy functors and E-theory](http://www.math.ku.dk/~jg/papers/etheory.html)
 
-(more)
+* [[Marius Dadarlat|Marius D?d?rlat]], _Shape theory and asymptotic morphisms for C*-algebras_,  Duke Math. J., 73(3):687-711, 1994.
+* Marius D&#257;d&#257;rlat, Terry A. Loring, _Deformations of topological spaces predicted by E-theory+, In Algebraic methods in operator theory, pages 316-327. Birkh&#228;user 1994. 
