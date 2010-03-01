@@ -4,12 +4,14 @@
 
 ## Definition ##
 
-Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **profunctor** or **[[bimodule|(bi)module]]** or **distributor** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
+Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **profunctor** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
 
 $$
   F : C &#8696; D : C\otimes D^{op} \to V
   \,.
 $$
+
+A profunctor is also sometimes called a **[[bimodule|(bi)module]]** or a **distributor** or a **correspondence**, though the latter word is also used for a [[span]].
 
 Such profunctors are composed by using a [[end|coend]] to "trace out" the middle variable:
 
