@@ -5,3 +5,7 @@
 
 
 category: people
+
+[[!redirects Čech]]
+[[!redirects Eduard Čech]]
+[[!redirects Edward Cech]]
