@@ -2,25 +2,37 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
-Recall that the [[electromagnetic field]] is modeled as a cocycle in degree 2 ordinary [[differential cohomology]] and that this mathematical model is fixed by the fact that charged particles that trace out 1-dimensional trajectories couple to the electromagnetic field by an action functional that sends each trajectory to the holonomy of a $U(1)$-[[connection on a bundle|connection]] on it
+The **Kalb-Ramond field** or **B-field** is the [[gauge field]] that generalizes the [[electromagnetic field]] from point particles to [[string theory|strings]].
+
+Recall that the [[electromagnetic field]] is modeled as a [[cocycle]] in degree 2 ordinary [[differential cohomology]] and that this mathematical model is fixed by the fact that charged particles that trace out 1-dimensional trajectories couple to the electromagnetic field by an [[action functional]] that sends each trajectory to the holonomy of a $U(1)$-[[connection on a bundle|connection]] on it.
 
 When replacing particles with 1-dimensional trajectories by 2-particles with 2-dimensional trajectories, one accordingly expects that they may couple to a higher degree background field given by a degree 3 ordinary differential cocycle.
 
-In [[string theory]] this situation arises and the corresponding background field appears, where it is called the _Kalb-Ramond field_  
+In [[string theory]] this situation arises and the corresponding background field appears, where it is called the _Kalb-Ramond field_  .
 
-Often it is also simply called the **$B$-field** , after the standard symbol used for the 2-forms $(B_i \in \Omega^2(U_i))$ on patches $U_i$ of a [[cover]] of spacetime that encode the field in analogy to how a collection of 1-forms $(A_i \in \Omega^1(U_i))$ encodes the [[electromagnetic field]].
+Often it is also simply called the **$B$-field** , after the standard symbol used for the 2-forms $(B_i \in \Omega^2(U_i))$ on patches $U_i$ of a [[cover]] of spacetime when the differential cocycle is expressed in a [[Cech cohomology]] realization of [[Deligne cohomology]].
 
-Just as a degree 2 [[Deligne cohomology|Deligne cocycle]] is equivalently encoded in a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]], a degree 3 [[Deligne cohomology|Deligne cocycle]] is equivalently encoded in a $U(1)$-[[bundle gerbe]] with connection. The study of [[bundle gerbe]]s was largely motivated and driven by the desire to understand the Kalb-Ramond field.
+This is the analog of the local 1-forms $(A_i \in \Omega^1(U_i))$ in a Cech cocycle presentation of a [[line bundle]] with [[connection on a bundle|connection]] encoding the [[electromagnetic field]].
 
-One more degree higher the corresponding field is the [[supergravity C-field]].
+And just as a degree 2 [[Deligne cohomology|Deligne cocycle]] is equivalently encoded in a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]], the degree 3 differential cocycle is equivalently encoded in
 
-# Mathematical model from (formal) physical input #
+* a degree 3 [[Deligne cohomology|Deligne cocycle]];
 
-The derivation of the fact that the Kalb-Ramond field that is locally given by a 2-form is globally really a degree 3 [[Deligne cohomology|Deligne cocycle]] proceeds in itself in entire analogy with the corresponding discussion of the [[electromagnetic field]]:
+* a $\mathbf{B}U(1)$-[[principal 2-bundle]] with connection;
 
-* **classical background** The field strength 3-form $H \in \Omega^3(X)$ is required to be closed, $d H_3 = 0$.
+* a $U(1)$-[[bundle gerbe]] with connection. 
+
+The study of [[bundle gerbe]]s was largely motivated and driven by the desire to understand the Kalb-Ramond field.
+
+The next higher degree analog of the electromagnetic field is the [[supergravity C-field]].
+
+## Mathematical model from (formal) physical input 
+
+The derivation of the fact that the Kalb-Ramond field that is locally given by a 2-form is globally really a degree 3 [[Deligne cohomology|Deligne cocycle]] proceeds in in entire analogy with the corresponding discussion of the [[electromagnetic field]]:
+
+* **classical background** The [[field strength]] 3-form $H \in \Omega^3(X)$ is required to be closed, $d H_3 = 0$.
 
 * **quantum coupling** The gauge interaction with the quantum string is required to yield a well-defined surface holomomy in $U(1)$ from locally integrating the 2-forms $B_i \in \Omega^2(U_2)$ with $d B_i = H|_{U_i}$ over its 2-dimensional trajectory.
 
@@ -33,9 +45,10 @@ The derivation of the fact that the Kalb-Ramond field that is locally given by a
     \exp(i \int_{e} \Sigma^* A_{\rho(f) \rho(e)})
     \prod_{v \subset e \subset f}
     \exp(i \lambda_{\rho(f) \rho(e) \rho(v)})
+    \,.
   $$
 
-  that this is well defined requires that
+  That this is well defined requires that
 
   $$
     \lambda_{i j k} - \lambda_{i j l} +
@@ -45,14 +58,30 @@ The derivation of the fact that the Kalb-Ramond field that is locally given by a
 
   which says that $(B_i, A_{i j}, \lambda_{i j k})$ is indeed a degree 3 [[Deligne cohomology|Deligne cocycle]].
 
-#References#
+## References {#References}
 
-One of the earliest articles that make the differential cohomological nature of the Kalb-Ramond field fully explicit is
 
-* Dan Freed, E. Witten, _Anomalies in String Theory with D-Branes_ ([arXiv](http://arxiv.org/abs/hep-th/9907189))
+The earliest reference where the gauge term in the standard string [[action functional]] is identified with the surface holonomy of a 3-cocycle in [[Deligne cohomology]] seems to be
 
-which uses [[Čech cohomology]]--[[Deligne cohomology|Deligne]] cocycles.
+* [[Krzysztof Gawedzki]] _Topological Actions in two-dimensional Quantum Field Theories_ (1986)
+
+The later article
+
+* [[Dan Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv](http://arxiv.org/abs/hep-th/9907189))
+
+argues that the string $B$-field is a cocycle in [[Čech cohomology]]--[[Deligne cohomology|Deligne]] cohomology using [[quantum anomaly]]-cancellation arguments.
+
+A more refined discussion of the [[differential cohomology]] of the Kalb-Ramond field and the fields that it interacts with is in
+
+* [[Dan Freed]], _Dirac Charge Quantization and Generalized Differential Cohomology_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
+
+In fact, in full generality the Kalb-Ramond field on an [[orientifold]] background is not a plain gerbe, but a _Jandl gerbe_ , a connection on a nonabelian $AUT(U(1))$-[[principal 2-bundle]]s for the [[automorphism 2-group]] $AUT(U)(1))$ of $U(1)$:
+
+* [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv:hep-th/0512283](http://arxiv.org/abs/hep-th/0512283))
+
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795))
 
 
 [[!redirects Kalb--Ramond field]]
 [[!redirects Kalb–Ramond field]]
+[[!redirects B-field]]
