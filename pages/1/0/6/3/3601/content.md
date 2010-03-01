@@ -53,10 +53,12 @@ The linear adjoint $(-)^\dagger$ gives Hilbert spaces the structure of a [[†-c
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="60px" height="109px" viewBox="0 0 60 109" enable-background="new 0 0 60 109" xml:space="preserve">
 <line fill="none" stroke="#000000" stroke-width="2" x1="30.5" y1="0" x2="30.5" y2="109"/>
-<rect x="1" y="23.5" fill="#ccccee" stroke="#000000" stroke-width="2" width="58" height="58"/>
+<rect x="8.5" y="31" fill="#CCCCEE" stroke="#000000" stroke-width="2" width="43" height="43"/>
 <text transform="matrix(1 0 0 1 26 60.5)" font-family="'MyriadPro-Regular'" font-size="24">f</text>
-<polyline fill="none" stroke="#000000" stroke-width="2" points="26,8.752 30.438,13.25 34.875,8.752 "/>
-<polyline fill="none" stroke="#000000" stroke-width="2" points="26.333,91.752 30.771,96.25 35.208,91.752 "/>
+<polyline fill="none" stroke="#000000" stroke-width="2" points="26.062,12.752 30.5,17.25 34.938,12.752 "/>
+<polyline fill="none" stroke="#000000" stroke-width="2" points="26.062,88.752 30.5,93.25 34.938,88.752 "/>
+<text transform="matrix(1 0 0 1 39.5 18.667)" font-family="'MyriadPro-Regular'" font-size="12">A</text>
+<text transform="matrix(1 0 0 1 39.5 94.667)" font-family="'MyriadPro-Regular'" font-size="12">B</text>
 </svg>
 
 ## Extensions
