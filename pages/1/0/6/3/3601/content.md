@@ -51,12 +51,12 @@ The linear adjoint $(-)^\dagger$ gives Hilbert spaces the structure of a [[†-c
 ## Graphical notation
 
 +--{: .query}
-[[Aleks Kissinger]]: This should probably have its own page. "Graphical notation for monoidal categories"
+[[Aleks Kissinger]]: Much of this could probably be incorporated into the page on [[string diagrams]].
 =--
 
 Morphisms in a monoidal category (and 2-categories in general) are inherently two dimensional, where $\circ$ is _vertical_ composition and $\otimes$ is _horizontal_ composition. These satisfy an interchange law:
 
-\[ (f_1 \otimes f_2) \circ (g_1 \otimes g_2) = (f_1 \circ g1) \otimes (f_2 \circ g_2) \]
+\[ (f_1 \otimes f_2) \circ (g_1 \otimes g_2) = (f_1 \circ g_1) \otimes (f_2 \circ g_2) \]
 
 So, if w think of these four morphisms as occupying a spot in 2 dimensional space:
 
@@ -79,7 +79,7 @@ we realize that the bracketing from above is essentially meaningless syntax. Thi
 </svg>
 </div>
 
-We represent the tensor product as juxtaposition.
+We represent the tensor product as juxtaposition:
 
 <div style="text-align:center">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -116,6 +116,42 @@ We represent the tensor product as juxtaposition.
 <text transform="matrix(1 0 0 1 -39.5469 62.1729)" font-family="Helvetica" font-size="17.9327">&#8855;</text>
 </svg>
 </div>
+
+and composition as graph composition:
+
+<div style="text-align:center">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="207" height="189" viewBox="-60 0 153.92308 189" id="Layer_1" xml:space="preserve"><defs id="defs3013"/>
+<line x1="12.46154" y1="45" x2="12.46154" y2="135" id="line2979" style="fill:none;stroke:#000000;stroke-width:2"/>
+<text x="21.46154" y="63" id="text2981" style="font-size:12px;font-family:Helvetica">A</text>
+<text x="21.46154" y="126" id="text2983" style="font-size:12px;font-family:Helvetica">B</text>
+<rect width="36" height="36" x="-5.5384598" y="72" id="rect2985" style="fill:#cecbe6;stroke:#000000;stroke-width:2"/>
+<polyline points="-68,22.5 -63.5,27 -59,22.5 " id="polyline2987" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(75.96154,33)"/>
+<polyline points="-68,86 -63.5,90.5 -59,86 " id="polyline2989" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(75.96154,33)"/>
+<text x="7.481041" y="99.032204" id="text2991" style="font-size:24px;font-style:italic;font-family:Helvetica">f</text>
+<line x1="-50.53846" y1="45" x2="-50.53846" y2="135" id="line2993" style="fill:none;stroke:#000000;stroke-width:2"/>
+<text x="-41.53846" y="63" id="text2995" style="font-size:12px;font-family:Helvetica">B</text>
+<text x="-41.53846" y="126" id="text2997" style="font-size:12px;font-family:Helvetica">C</text>
+<rect width="36" height="36" x="-68.53846" y="72" id="rect2999" style="fill:#99cccc;stroke:#000000;stroke-width:2"/>
+<polyline points="-5,22.5 -0.5,27 4,22.5 " id="polyline3001" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(-50.03846,33)"/>
+<polyline points="-5,86 -0.5,90.5 4,86 " id="polyline3003" style="fill:none;stroke:#000000;stroke-width:2" transform="translate(-50.03846,33)"/>
+<text x="-58.518959" y="96.032204" id="text3005" style="font-size:24px;font-style:italic;font-family:Helvetica">g</text>
+<text x="40.09774" y="95.283203" id="text3007" style="font-size:18px;font-family:Helvetica">=</text>
+<text x="-24.585361" y="103.1729" id="text3009" style="font-size:36px;font-family:Helvetica"><tspan id="tspan2874" style="font-size:36px">&#9702;</tspan></text>
+<text x="93.46154" y="36" id="text2897" style="font-size:12px;font-family:Helvetica">A</text>
+<text x="93.46154" y="99" id="text2899" style="font-size:12px;font-family:Helvetica">B</text>
+<polyline transform="translate(147.96154,6)" style="fill:none;stroke:#000000;stroke-width:2" id="polyline2903" points="-68,22.5 -63.5,27 -59,22.5 "/><polyline transform="translate(147.96154,6)" style="fill:none;stroke:#000000;stroke-width:2" id="polyline2905" points="-68,86 -63.5,90.5 -59,86 "/><line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" id="line2909" y2="171" x2="84.46154" y1="18" x1="84.46154"/><text x="93.46154" y="162" id="text2913" style="font-size:12px;font-family:Helvetica">C</text>
+<rect width="36" height="36" x="66.46154" y="108" id="rect2915" style="fill:#99cccc;stroke:#000000;stroke-width:2"/><polyline transform="translate(84.96154,69)" style="fill:none;stroke:#000000;stroke-width:2" id="polyline2919" points="-5,86 -0.5,90.5 4,86 "/><text x="76.481041" y="132.0322" id="text2921" style="font-size:24px;font-style:italic;font-family:Helvetica">g</text>
+<rect width="36" height="36" x="66.46154" y="45" id="rect2901" style="fill:#cecbe6;stroke:#000000;stroke-width:2"/><text x="79.481041" y="72.032204" id="text2907" style="font-size:24px;font-style:italic;font-family:Helvetica">f</text>
+</svg>
+</div>
+
+That is, we perform a pushout along the common edge in the category of typed graphs with boundaries. Consider the interchange law from about, but replacing some of the arrows with identities.
+
+\[ (f \otimes 1_D) \circ (1_A \otimes g) = (1_B \circ g) \otimes (f \circ 1_C) \]
+
+Graphically, this means we can "slide boxes" past each other.
+
+
 
 ## Extensions
 
