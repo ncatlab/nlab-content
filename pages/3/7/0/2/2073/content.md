@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -54,7 +53,7 @@ The category of marked simplicial sets is [[cartesian closed]].
 * The marked edges of $Y^X$ are those simplicial maps $X \times \Delta^1 \rightarrow Y$ such that the restriction of $X_1 \times \Delta_1^1 \rightarrow Y_1$ to $E \times \Delta^1_1$ factors though the marked edges of $Y$. In the presence of the previous condition, this says that when you apply the homotopy $X \times \Delta^1 \rightarrow Y$ to a marked edge of $X$ paired with the identity at $[1]$, the result should be marked.
 
 There are functors 
-$$\array{ & \stackrel{(-)^{\flat}}{\rightarrow} & \\ & \stackrel{(-)^{\flat}}{\leftarrow} & \\ sSet & \stackrel{(-)^{\sharp}}{\rightarrow} & sSet^+ \\ & \stackrel{(-)^{\sharp}}{\leftarrow} & \array}$$
+$$\array{ & \stackrel{(-)^{\flat}}{\to} & \\ & \stackrel{(-)^{\flat}}{\leftarrow} & \\ sSet & \stackrel{(-)^{\sharp}}{\to} & sSet^+ \\ & \stackrel{(-)^{\sharp}}{\leftarrow} & }$$
  with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
 *The hom-objects $Map^#(X,Y) = (Y^X)^#$ make $sSet^+$ a simplicial category.
