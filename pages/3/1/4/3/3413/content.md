@@ -1,6 +1,5 @@
 
 
-
 **John Michael Boardman** is an American mathematician specialised in algebraic and differential [[topology]]. He received his Ph.D. from the University of Cambridge in 1964. His thesis advisor was C. T. C. Wall. He was formerly at the University of Cambridge, England; he is currently a full professor at Johns Hopkins University in Baltimore, USA.
 
 * [homepage](http://www.math.jhu.edu/~jmb/)
@@ -18,7 +17,7 @@ He coauthored with Vogt the famous book **Homotopy invariant algebraic structure
 This book introduced the notion of [[weak Kan complex]] that was later popularized by [[André Joyal]] under the name [[quasi-category]] as a natural basis for the  [[higher category theory]] of [[(∞,1)-category|(∞,1)-categories]].
 
 
-See also: _Homotopy invariant algebraic structures_: _a conference in honnor of J. Michael Boardman_ edited by Jean-Pierre Meyer, Jack Morava, and W. Stephen Wilson. AMS, 1999, CONM/239.
+See also: _Homotopy invariant algebraic structures_: _a conference in honor of J. Michael Boardman_ edited by Jean-Pierre Meyer, Jack Morava, and W. Stephen Wilson. AMS, 1999, CONM/239.
 
 
 
