@@ -8,7 +8,7 @@
 
 ## Idea
 
-In [[quantum mechanics]] a **density matrix** is a linear endomorphism of a [[Hilbert space]] of states that represents an [[statistical ensemble]] of [[quantum state]]s.
+In [[quantum mechanics]] a **density matrix** is a linear endomorphism of a [[Hilbert space]] of states that represents a [[statistical ensemble]] of [[quantum state]]s.
 
 ## Notation
 
@@ -25,7 +25,7 @@ x_{n+1} \\
 \end{aligned}
 \right)$.
 
-The Hermitian adjoint, $\langle\psi_{\alpha}|=(|\psi_{\alpha}\rangle)^{\dagger}$, is called a "bra" (hence "bra(c)ket") and is a row vector.
+The [[Hermitian adjoint]], $\langle\psi_{\alpha}|=(|\psi_{\alpha}\rangle)^{\dagger}$, is called a "bra" (hence "bra(c)ket") and is a row vector.
 
 ## Mixed states
 
@@ -66,3 +66,6 @@ Note that a density operator, as the representation of the state of a quantum sy
 [[!redirects pure states]]
 [[!redirects mixed states]]
 [[!redirects superposition states]]
+[[!redirects density operator]]
+[[!redirects mixed state]]
+[[!redirects pure state]]
