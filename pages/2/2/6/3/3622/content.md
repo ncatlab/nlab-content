@@ -2,4 +2,5 @@ I'm interested in nonlinear PDEs from the algebro-geometric point of view, i.e. 
 
 You may reach me at "firstnamelastname" at gmail (where my last name is written without the two dots over the a)
 
+[[!redirects Michael Bächtold]]
 [[!redirects Michael+Bächtold]]
