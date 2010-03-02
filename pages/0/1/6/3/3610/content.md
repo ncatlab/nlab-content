@@ -1,37 +1,90 @@
-> under construction
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 
-## Idea and definition
+## Idea 
 
-An object in an [[(∞,1)-topos]] $\mathbf{H}$ over an [[(∞,1)-site]] $C$ may be regarded as an [[∞-groupoid]] modeled on $C$. A cosimplicial commutative algebra, i.e an object in $\mathbf{L} := (Alg_k^{\Delta})^{op}$, may be regarded as a [[Lie-∞-algebroid]].
+An object in an [[(∞,1)-topos]] $\mathbf{H}$ may be regarded as an [[∞-groupoid]] with extra structure.
 
-If $\mathbf{L}$ is a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$
+An object in the [[(∞,1)-category]] $\mathbf{L}$ of [[Lie-∞-algebroid|∞-Lie algebroid]]s is an [[infinitesimal object|infinitesimal]] version of an $\infty$-groupoid.
+
+A [[reflective (∞,1)-subcategory|reflective embedding]] $\mathbf{L} \hookrightarrow \mathbf{H}$ equips $\mathbf{H}$ with a _rational structure_ and a notion of [[Lie theory]]. 
+
+This is _well adapted_ if composed with the [[global section]]s morphism $\Gamma$ 
+
+$$
+  \mathbf{L} \hookrightarrow \mathbf{H} \stackrel{\Gamma}{\to} \infty Grpd
+$$
+
+this identifies $\mathbf{L}$ inside [[? Grpd]] as the [[rational space]]s of [[rational homotopy theory]].
+
+## Definition
+
+### $\infty$-Lie algebroids
+
+For the context of ordinary geometry, write $\mathbf{L} := ((Alg_k^{\Delta})^{op})^\circ$ for the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by the [[opposite category|opposite]] of the [[model structure on cosimplicial algebras]] over $k$. By the [[monoidal Dold-Kan correspondence]] this is [[Quillen equivalence|equivalently]] the [[model structure on dg-algebra|model structure on commutative non-negative cochain dg-algebra]]s $dgAlg_k^+$. A cofibrant object in $dgAlg_k^+$ may be thought of as the [[Chevalley-Eilenberg algebra]] of an [[Lie-∞-algebroid|∞-Lie algebroid]]. 
+
+Accodingly, the opposite $\mathbf{L}$ may be thought of as the **$(\infty,1)$-category of (∞,1)-Lie algebroids**.
+
+For the context of [[derived geometry]] take $\mathbf{L}$ to be given by the model structure on _all_ (unbounded) dg-algebras, corresponding to that on cosimplicial simplicial algebras.
+
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: Possibly there should be an intrinsic way to characterize $\mathbf{L}$ given $\mathbf{H}$. Something like like that $\mathbf{L}$ is the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induce isomorphisms on "rational cohomology" or the like.
+
+=--
+
+### Rational structure and Lie theory
+
+For $\mathbf{H}$ an [[(∞,1)-topos]], we shall say that a **rational structure** on $\mathbf{H}$ or a **Lie theory structure** on $\mathbf{H}$ is an [[adjoint (∞,1)-functor|(∞,1)-adjunction]] 
 
 $$
   \mathbf{L}
-  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\hookrightarrow}}
+  \stackrel{\overset{Lie}{\leftarrow}}{\underset{}{\hookrightarrow}}
   \mathbf{H} 
 $$
 
-the inclusion identifies $\infty$-Lie algebroids with $\infty$-groupoids whose  [[k-morphism]]s are
-[[infinitesimal object|infinitesimal]].
 
-The [[(∞,1)-monad]]
+that exhibits $\mathbf{L}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$.
+
+We think of the image of $\mathbf{L}$ in $\mathbf{H}$ as consisting of those structured [[∞-groupoid]]s whose [[k-morphism]]s for all $k$ have [[infinitesimal object|infinitesimal]] extension. 
+
+The [[localization of an (∞,1)-category|localization]] [[(∞,1)-monad]]
 
 $$
-  \mathbf{\flat}_{inf} := Spec \circ \mathcal{O} : 
-  \mathbf{H} \stackrel{\mathcal{O}}{\to}
-  \mathbf{L} \stackrel{Spec}{\to} 
+  (-)\otimes R : 
+  \mathbf{H} \stackrel{Lie}{\to}
+  \mathbf{L} \stackrel{}{\hookrightarrow} 
   \mathbf{H}
 $$
 
 acts like $\infty$-[[Lie theory|Lie differentiation]]: it sends an $\infty$-groupoid to its best approximation by an infinitesimal $\infty$-groupoid.
 
-Composed with the terminal [[global section]]s [[geometric morphism]]
+### Ordinary rational homotopy
+
+There is canonically a Lie theory-like structure on the terminal $(\infty,1)$-topos [[∞Grpd]] 
+
+$$
+   ( \Omega^\bullet_{Sl} \dashv |-|) : 
+   \mathbf{L} \stackrel{\overset{\Omega^\bullet_{Sl}}{\leftarrow}}{\underset{|-|}{\to}}
+   \infty Grpd
+$$
+
+given by ordinary [[rational homotopy theory]]: 
+
+* the [[(∞,1)-functor]] $\Omega_{Sl}$ produces a Sullivan model of a topological space;
+
+* the functor $|-|$ sends a Sullivan model to the corresponding [[rational space]].
+
+* the monad $|\Omega_{Sl}(-)|$ is [[rationalization]].
+
+
+### Internal rational homotopy
+
+For $\mathbf{L} \hookrightarrow \mathbf{H}$ an $(\infty,1)$-topos with Lie structure, we say that the Lie structure is **well adapted** if composed with the terminal [[global section]]s [[geometric morphism]]
 
 $$
   \mathbf{H} 
@@ -39,16 +92,16 @@ $$
   \infty Grpd
 $$
 
-the reflective embedding induces a notion of Lie theory on bare $\infty$-groupoids. 
+the reflective embedding induces the Lie theory structure on [[∞Grpd]]
 
 $$
   \mathbf{L}
    \stackrel{
-     \overset{\Omega_{SL}}{\leftarrow}}
+     \overset{\Omega_{Sl}}{\leftarrow}}
      {\underset{|-|}{\to}}
   \infty Grpd
   \;\;\;
-  :=
+  \simeq
   \;\;\;
   \mathbf{L}
   \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\hookrightarrow}}
@@ -59,23 +112,11 @@ $$
 $$
 
 
-For suitable choices of $\mathbf{H}$, this is ordinary [[rational homotopy theory]]:
 
-* the functor $\Omega_{SL}$ produces a Sullivan model of a topological space;
-
-* the functor $|-|$ sends a Sullivan model to the corresponding [[rational space]].
-
-* the monad $|\Omega_{SL}(-)|$ is [[rationalization]].
-
-+-- {: .query}
-
-[[Urs Schreiber]]: Possibly there should be an intrinsic way to characterize $\mathbf{L}$ given $\mathbf{H}$. Something like like that $\mathbf{L}$ is the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induce isomorphisms "on rational cohomology" or the like.
-
-=--
 
 ## Examples
 
-### On formal duals of algebras
+### $\infty$-Stacks on formal duals of algebras
 
 Consider the [[site]] $C$ whose underlying category is
 
@@ -89,12 +130,17 @@ $$
   \mathbf{H} = Sh_{(\infty,1)}(C) = (sPSh(C)_{loc})^\circ
 $$
 
-be the [[(∞,1)-topos]] [[presentable (∞,1)-category|presented]] by the local injective [[model structure on simplicial presheaves]] on $C$. 
+be the [[hypercomplete (∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on $C$, [[presentable (∞,1)-category|presented]] by the local injective [[model structure on simplicial presheaves]] on $C$. 
 
-The following shows that this gives a model of $\infty$-Lie theory that recovers ordinary rational homotopy theory.
+In the language used here, the article
+
+* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219)) .
+
+shows that this $\mathbf{H}$ has a well-adapted rational structure.
+
+#### The rational structure
 
 Write $k \in sPSh(C)_{loc}$ for the line object. 
-
 
 +-- {: .un_def }
 ###### Definition
@@ -192,17 +238,19 @@ $$
   Spec : \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow} \mathbf{H}
 $$
 
-exhibts $\mathbf{L}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$..
+exhibts $\mathbf{L}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$.
 
 =--
 
 This appears as [To06, cor 2.2.3](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=44).
 
 
+#### The well-adapted rational structure
+
 +-- {: .un_prop }
 ###### Proposition
 
-For $k = \mathbb{Q}$,  for $X \in \infty Grpd$, canonical morphism
+For $k = \mathbb{Q}$,  for $X \in \infty Grpd$, the canonical morphism
 
 $$
   X \to |\Omega_{SL}X| :=  \Gamma \circ Spec \circ \mathcal{O} \circ LConst X
@@ -221,13 +269,13 @@ This appears as [To, theorem. 2.5.1](http://arxiv.org/PS_cache/math/pdf/0012/001
 =--
 
 
-### On formal duals of simplicial algebra
+### Derived $\infty$-stacks on formal duals of simplicial algebra
 
 Let now $C = $ [[simplicial algebra]]s ${}^{op}$. Then...
 
 ... essentially as above, see [Ben-Zvi/Nadler](http://arxiv.org/abs/1002.3636)
 
-### On formal duals of smooth algebra
+### $\infty$-stacks on formal duals of smooth algebras
 
 Let now $C = $ [[smooth loci]]. Then...
 
