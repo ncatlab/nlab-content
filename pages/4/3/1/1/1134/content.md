@@ -46,11 +46,11 @@ for the corresponding supermanifold.
 
 #Properties#
 
-**Theorem** Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ where $E$ is an ordinary smooth [[vector bundle]].
+**Theorem** (Batchelor's theorem) Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ where $E$ is an ordinary smooth [[vector bundle]].
 
 **Warning** Still, the category of supermanifolds is far from being [[equivalence|equivalent]] to that of [[vector bundle]]s because a morphism of vector bundles translates to a morphism of supermanifolds that is strictly homogeneous in degrees, while a general morphism of supermanifolds need not be of this form.
 
-But we have the following useful characterization of morphisms of supermanifolds_
+But we have the following useful characterization of morphisms of supermanifolds:
 
 **Theorem**
 
