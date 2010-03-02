@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc" markdown="1">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -307,6 +312,8 @@ $$
 with $(dgAlg_k)^{op}$ the [[(∞,1)-site]] of non-positively graded cochain [[dg-algebra]]s is discussed in 
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop Spaces and Connections_ ([arXiv:math/1002.3636](http://arxiv.org/abs/1002.3636))
+
+The localization denoted $\mathbf{H} \to \mathbf{L} \hookrightarrow \mathbf{H}$ above is called **affinization** in these articles.
 
 Comments on the generalization from plain algebras to [[smooth algebra]]s are at
 
