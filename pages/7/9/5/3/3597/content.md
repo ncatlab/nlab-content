@@ -6,6 +6,10 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+In [[quantum mechanics]] a **density matrix** is a linear endomorphism of a [[Hilbert space]] of states that represents an [[statistical ensemble]] of [[quantum state]]s.
+
 ## Notation
 
 In the following definition, we use Dirac's "bracket" notation for vectors where a state vector, describing the state of a quantum system, is represented by a "ket" which is a column vector,
@@ -25,7 +29,7 @@ The Hermitian adjoint, $\langle\psi_{\alpha}|=(|\psi_{\alpha}\rangle)^{\dagger}$
 
 ## Mixed states
 
-Suppose we have a [[quantum state]] *Q* that arises from some random process such that the state $|\psi_{\alpha}\rangle$ has a probability $p_{\alpha}$ (we often speak of having 'prepared' the state with the associated probability).  The possible states $|\psi_{\alpha}\rangle$ need not be orthogonal and we thus call such a collection of states, a *mixed state*.  More specifically, a mixed state is often described as an *ensemble* of quantum systems.
+Suppose we have a [[quantum state]] $Q$ that arises from some random process such that the state $|\psi_{\alpha}\rangle$ has a probability $p_{\alpha} \in [0,1]$ (we often speak of having 'prepared' the state with the associated probability).  The possible states $|\psi_{\alpha}\rangle$ need not be orthogonal and we thus call such a collection of states, a *mixed state*.  More specifically, a mixed state is often described as an *ensemble* of quantum systems.
 
 Suppose we now measure some observable **A** on the system as a whole, i.e. on the ensemble.  The expectation value of **A** over the subset $|\psi_{\alpha}\rangle$ is $\langle A \rangle_{\alpha}=\langle\psi_{\alpha}|$**A**$|\psi_{\alpha}\rangle$.  Over the entire ensemble, this becomes
 
@@ -35,7 +39,7 @@ $\langle A \rangle = \sum_{\alpha}p_{\alpha}\langle A \rangle_{\alpha} = \sum_{\
 
 Given the above, we define the *density operator* to be
 
-$\mathbf{\rho}=\sum_{\alpha}|\psi_{\alpha}\rangle\langle\psi_{\alpha}|$.
+$\mathbf{\rho}=\sum_{\alpha} \rho_\alpha \, |\psi_{\alpha}\rangle\langle\psi_{\alpha}|$.
 
 We call the matrix representation of the density operator, the *density matrix*.
 
@@ -49,9 +53,9 @@ Note that a density operator, as the representation of the state of a quantum sy
 
 ## References
 
-Nielsen, M, and Chuang, I. *Quantum Computation and Quantum Information*, Cambridge University Press, Cambridge, 2000.
+* Nielsen, M, and Chuang, I. *Quantum Computation and Quantum Information*, Cambridge University Press, Cambridge, 2000.
 
-Schumacher, B. and Westmoreland, M. *Q-PSI: Quantum Processes, Systems, and Information*, Cambridge University Press, Cambridge, 2010.
+* Schumacher, B. and Westmoreland, M. *Q-PSI: Quantum Processes, Systems, and Information*, Cambridge University Press, Cambridge, 2010.
 
 ## Discussion
 
