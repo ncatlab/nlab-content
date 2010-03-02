@@ -134,7 +134,33 @@ Let $B$ be a bicategory, and write $\otimes$ for horizontal (1-cell) composition
 
 such that the associativity and unitality diagrams, as written above, commute. Viewing a monoidal category $M$ as a 1-object bicategory $\Sigma M$, the notion of enrichment in $M$ coincides with the notion of enrichment in the bicategory $\Sigma M$. 
 
-If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, together with a function $f_1: X \times X \to B_2$, satisfying the constraint $f_1(x, y): \hom_X(x, y) \to \hom_Y(f(x), f(y))$, and satisfying equations expressing coherence with the composition and unit data $\circ$, $j$ of $X$ and $Y$. (Diagram to be inserted, perhaps.) 
+If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-functor consists of a function $f: X \to Y$ such that $p_Y \circ f = p_X$, together with a function $f_1: X \times X \to B_2$, satisfying the constraint $f_1(x, y): \hom_X(x, y) \to \hom_Y(f(x), f(y))$, and satisfying equations expressing coherence with the composition and unit data $\circ$, $j$ of $X$ and $Y$. (Diagram to be inserted, perhaps.)
+
+### Enrichment in a double category {#InDoubleCat}
+
+It is also natural to generalize further to categories enriched in a (possibly weak) [[double category]].  Just like for a bicategory, if $D$ is a double category, then a $D$-**enriched category** $\mathbf{X}$ consists of a set $X$ together with
+
+* for each $x\in X$, an object $p(x)$ of $D$,
+* for each $x,y\in X$, a horizontal arrow $\hom(x, y)\colon p(x) \to p(y)$ in $D$, 
+* for each $x,y,z\in X$, a 2-cell in $D$:
+  $$\array{p(x) & \overset{hom(x,y)}{\to} & p(y) & \overset{hom(y,z)}{\to} & p(z) \\
+  \Vert && \circ_{x,y,z} && \Vert\\
+  p(x) && \underset{hom(x,z)}{\to} && p(z)}$$
+* for each $x\in X$, a 2-cell in $D$:
+  $$\array{p(x) & \overset{id}{\to} & p(x)\\
+    \Vert && \Vert\\
+    p(x) & \underset{hom(x,x)}{\to} & p(x)}$$
+
+satisfying analogues of the associativity and unit conditions.  Note that is is exactly the same as a category enriched in the horizontal bicategory of $D$; the vertical arrows of $D$ play no role in the definition.  However, they *do* play a role when it comes to define functors between $D$-enriched categories.  Namely, if $\mathbf{X}$ and $\mathbf{Y}$ are $D$-enriched categories, then a $D$-functor $f\colon \mathbf{X}\to \mathbf{Y}$ consists of:
+
+* a function $f\colon X\to Y$,
+* for each $x\in X$ a vertical arrow $f_x\colon p_X(x) \to p_Y(f(x))$ in $D$,
+* for each $x,y\in X$ a 2-cell in $D$:
+  $$\array{p(x) & \overset{hom_X(x,y)}{\to} & p(y)\\
+    ^{f_x}\downarrow && \downarrow^{f_y}\\
+    p(f(x))& \underset{hom_Y(f(x),f(y))}{\to} & p(f(y))}$$
+
+satisfying suitable equations.  If $D$ is vertically discrete, i.e. just a bicategory $B$ with no nonidentity vertical arrows, then this is just the same as a $B$-functor as defined above.  However, for many $D$ this notion of functor is more general and natural.
 
 
 ## Passage between ordinary categories and enriched categories
