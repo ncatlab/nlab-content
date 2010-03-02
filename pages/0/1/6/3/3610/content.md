@@ -275,7 +275,7 @@ Let now $C = $ [[simplicial algebra]]s ${}^{op}$. Then...
 
 ... essentially as above, see [Ben-Zvi/Nadler](http://arxiv.org/abs/1002.3636)
 
-### $\infty$-stacks on formal duals of smooth algebras
+### $\infty$-Stacks on formal duals of smooth algebras
 
 Let now $C = $ [[smooth loci]]. Then...
 
