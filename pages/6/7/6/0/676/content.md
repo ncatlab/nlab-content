@@ -33,7 +33,11 @@
 
 * **[[quantum mechanics|Quantum Mechanics]]**
 
-  * [[quantum channels|Quantum Channels]]
+  * [[Hamilton operator]]
+
+  * [[density matrix]]
+
+  * [[quantum channels]]
 
 * **[[quantum information|Quantum Information]]**
 
