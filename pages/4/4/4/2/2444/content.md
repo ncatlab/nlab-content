@@ -9,8 +9,11 @@
 
 There are two different things that one might mean by a "complex supermanifold", and the term is in fact used for two different notions in the literature (the terminology is a mess!):
 
-1. In the first sense, a complex supermanifold is a [[supermanifold]] that is related to complex [[vector bundle]]s as ordinary supermanifolds are related to real [[vector bundle]]s.
-For $X$ a complex supermanifold in this sense, the underlying reduced manifold $X_{red}$ is **not** a [[complex manifold]] but just a smooth [[manifold]] regarded as a [[ringed space]] with [[structure sheaf]] taken to be the sheaf of $\mathbb{C}$-valued smooth functions on the ordinary real manifold.
+1. In the first sense, a complex supermanifold generalizes the notion of a smooth manifold with its sheaf of smooth complex-valued functions, just as an
+ordinary [[supermanifold]] is a generalization of an ordinary manifold with its sheaf 
+of smooth real-valued functions.
+However, considering ordinary smooth manifolds as ringed spaces with either their sheaves of real or complex smooth functions gives two equivalent categories, whereas this is not true in the case of real and complex supermanifolds; the corresponding functor is neither essentially surjective nor fully faithful.
+(For $X$ a complex supermanifold in this sense, the underlying reduced manifold $X_{red}$ is **not** a [[complex manifold]] but just a smooth [[manifold]] regarded as a [[ringed space]] with [[structure sheaf]] taken to be the sheaf of $\mathbb{C}$-valued smooth functions on the ordinary real manifold.)
 
 1. In the second sense, a complex supermanifold is a super(complex manifold), a super-version of [[complex manifold]].
 
@@ -69,12 +72,12 @@ $$
   \mathbb{R}_{cs}^{d|\delta}(S)
   =
    cSDiff(S, \mathbb{R}_{cs}^{d|\delta})
-  :=
+  =
   \{
     (x_1, \cdots, x_d, \theta_1, \cdots, \theta_{\delta})|
     x_i \in C^\infty(S)^{ev} , 
     \theta_j \in C^\infty(S)^{odd};
-    with x_i real in that \overline{(x_i)_{red}} = (x_i)_{red};
+    with x_i real in that \overline{(x_i)_{red}} = (x_i)_{red}
   \}
 $$
 
