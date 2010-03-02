@@ -1,5 +1,7 @@
 A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mimicking this situation Vinogradov has introduced a geometric object related to systems of nonlinear differential equations, the __diffieties__. Other people also call these objects  D-varieties (Malgrange), D-schemes (Beilinson, Drinfeld) or differential algebras (Ritt, Kolchin) depending on the flavour of geometry.
 
+ (Zoran: I object. There may be one idea, but as variety and scheme are not the same, the level of generality should be in mathematics precisely distinguished. D-schemes for example arenot necessarily in characteristics zero.)
+
 * A. M. Vinogradov, _Local symmetries and conservation laws_, Acta Appl. Math., Vol. 2, 1984, p. 21. 
 
 * A. M. Vinogradov, _Symmetries and conservation laws of partial differential equations: basic notions and results_, Acta Appl. Math., Vol. 15, 1989, p. 3. 
@@ -10,9 +12,7 @@ A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mim
 
 * [wikipedia:Diffiety](http://en.wikipedia.org/wiki/Diffiety)
 
-* [diffiety school](http://school.diffiety.org)
-
-* [diffiety institute](http://diffiety.ac.ru)
+* [diffiety school](http://school.diffiety.org), [diffiety institute](http://diffiety.ac.ru)
 
 
 [[!redirects diffeity]] [[!redirects Diffiety]] [[!redirects diffieties]]
