@@ -6,11 +6,11 @@
 * automatic table of contents goes here
 {:toc}
 
-#Product States
+## Product States
 
-Consider two quantum systems, $A$ and $B$, with state vectors $|\Psi^{(A)}\rangle$ and $|\Psi^{(B)}\rangle$ respectively.  The combined state of the system may be described by a single state vector $|\Psi^{(AB)}\rangle=|\Psi^{(A)}\rangle \otimes |\Psi^{(B)}\rangle$.
+Consider two [[quantum system]]s, $A$ and $B$, with state vectors $|\Psi^{(A)}\rangle$ and $|\Psi^{(B)}\rangle$ respectively.  The combined state of the system may be described by a single state vector $|\Psi^{(AB)}\rangle=|\Psi^{(A)}\rangle \otimes |\Psi^{(B)}\rangle$.
 
-##Example
+## Example
 
 As an example, suppose that in the basis $\{|0\rangle ,|1\rangle\}$, $|\Psi^{(A)}\rangle = \frac{1}{\sqrt{2}}\left(|0\rangle +|1\rangle\right)$.  This can be interpreted as system $A$ being in state $|0\rangle$ with probability 1/2 and state $|1\rangle$ with probability 1/2.  Suppose further that $|\Psi^{(B)}\rangle = |0\rangle$.  Then we have
 
@@ -18,7 +18,7 @@ $|\Psi^{(AB)}\rangle=|\Psi^{(A)}\rangle \otimes |\Psi^{(B)}\rangle=\frac{1}{\sqr
 
 Such a state is said to be a **product state** because it is "factorable," i.e. it can be formed from some combination of individual states in the basis.
 
-#Entangled States
+## Entangled States
 
 Compare the above example to the state
 
@@ -28,7 +28,7 @@ This state is not a product state since it cannot be formed from any combination
 
 The formation of entangled states requires an external action that, mathematically, takes the form of some type of unitary operator acting on a product state.  Physically this usually entails interacting systems $A$ and $B$ in some way, e.g. one method for entangling photons is producing them from the same source.
 
-#Discussion
+## Discussion
 
 [[Ian Durham]]: Feel free to clean this up a bit.
 
