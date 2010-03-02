@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -55,3 +59,6 @@ Schumacher, B. and Westmoreland, M. *Q-PSI: Quantum Processes, Systems, and Info
 
 [[!redirects density matrices]]
 [[!redirects density operators]]
+[[!redirects pure states]]
+[[!redirects mixed states]]
+[[!redirects superposition states]]
