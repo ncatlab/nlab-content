@@ -33,7 +33,7 @@
 
 * **[[quantum mechanics|Quantum Mechanics]]**
 
-  * [[Hamilton operator]]
+  * [[Hamiltonian operator]]
 
   * [[density matrix]]
 
