@@ -464,7 +464,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ##Appendix##
 
-### Category theory ###
+### A.1 Category theory 
 
 
 * [[category theory]]
@@ -485,7 +485,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
   * [[monoidal category]]
 
 
-### Model categories ###
+### A.2 Model categories {#ModelCategories}
 
 * [[homotopy theory]]
 
@@ -519,7 +519,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[Reedy model structure]]
 
-### Simplicial model categories
+### A.3 Simplicial model categories
 
 * [[simplicially enriched category]]
 
