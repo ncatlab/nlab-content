@@ -21,9 +21,13 @@ Strong Shape Theory developed in the 1970s through the work of Edwards and Hasti
 
 M. Batanin further elucidated strong shape theory from a categorical and 2-categorical point of view, but his approach is as yet not much used. His 1997 paper, shows the connections between this theory and a homotopy theory of simplicial [[distributor|distributors]] linked to $A_{\infty}$-categories.
 
-The strong shape theory of compact spaces is related to certain constructions on the corresponding (commutative) $C^*$-algebras of functions.  This is related to the algebraic K-theory of such commutative $C^*$-algebras.  Extensions to non-commutative $C^*$-algebras have been made.
+The structure of the [[strong shape theory]] of compact spaces is related to certain structure and constructions on the corresponding (commutative) $C^*$-algebras of functions.  These are related to the algebraic K-theory of such commutative $C^*$-algebras.  Extensions to non-commutative $C^*$-algebras have been made; see the papers by Blackadar and [[Marius Dadarlat|Dadarlat]] below, for a start.
 
-As shape theory is a [[?ech methods|?ech homotopy theory]], its corresponding homology is Cech homlogy, but what is the corresponding construction for strong shape. The answer is Steenrod--Sitnikov homology and this is discussed in Marde&#353;i&#263;'s book, _Strong Shape and Homology_, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.  This seems to be emerging with interpretations of work by Toen and Vezzosi, and by Lurie.
+As shape theory is a [[?ech methods|?ech homotopy theory]], its corresponding homology is Cech homology, but what is the corresponding construction for strong shape. The answer is Steenrod--Sitnikov homology. This is discussed in Marde&#353;i&#263;'s book, _Strong Shape and Homology_, (see below).  Many of the themes of homotopy coherence and related ideas occur in this theory and this suggests an infinity categorical approach (closely related to Batanin's) may be important.  This seems to be emerging with interpretations of work by Toen and Vezzosi, and by Lurie, and perhaps suggests a review of Batanin's work from that new viewpoint.
+
+##Borsuk's shape theory##
+This was the original form and applies to compact metric spaces.  It uses the fact that any compact metric space can be embedded in the [[Hilbert Cube]]. For any such embedded compact metric spaces, $X$ and $Y$, one considers **shape maps** from the collection of open neighbourhoods of $X$ to those of $Y$.  These shape maps are families of continuous maps satisfying a compatibility relationship ' up to homotopy'.  These compose nicely and form the Borsuk shape category.  Two spaces have the same shape if they are isomorphic in this category. Full details of the definition of such shape morphisms are given in the separate entry, [[Borsuk shape theory]]. 
+
 
 ## Abstract shape category
 
