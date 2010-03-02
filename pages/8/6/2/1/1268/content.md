@@ -14,7 +14,7 @@ The category of D-modules on $X$ may equivalently be identified with the categor
 
 Remembering, from this discussion there, that 
 
-* the deRham space is the decategorificatoin of the infinitesimal path groupoid of $X$;
+* the deRham space is the decategorification of the infinitesimal path groupoid of $X$;
 
 * a quasicoherent sheaf on $dR(X)$ is a generalization of a [[vector bundle]] on $X$;
 
