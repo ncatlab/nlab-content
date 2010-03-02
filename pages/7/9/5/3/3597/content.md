@@ -54,3 +54,4 @@ Schumacher, B. and Westmoreland, M. *Q-PSI: Quantum Processes, Systems, and Info
 [[Ian Durham]]:  Feel free to clean this up.
 
 [[!redirects density matrices]]
+[[!redirects density operators]]
