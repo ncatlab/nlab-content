@@ -67,6 +67,12 @@ For suitable choices of $\mathbf{H}$, this is ordinary [[rational homotopy theor
 
 * the monad $|\Omega_{SL}(-)|$ is [[rationalization]].
 
++-- {: .query}
+
+[[Urs Schreiber]]: Possibly there should be an intrinsic way to characterize $\mathbf{L}$ given $\mathbf{H}$. Something like like that $\mathbf{L}$ is the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induce isomorphisms "on rational cohomology" or the like.
+
+=--
+
 ## Examples
 
 ### On formal duals of algebras
