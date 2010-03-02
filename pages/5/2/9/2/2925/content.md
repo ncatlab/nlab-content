@@ -24,14 +24,14 @@ Let $f\colon [0,1] \to \mathbb{R}$ be a [[continuous function]] from the [[unit 
 ###### Theorem
 (constructive IVT with weakened conclusion)
 
-Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Then for every positive number $\epsilon$ there exists a point $c_\epsilon$ in the unit interval such that ${|f(c_\epsilon)|} \lt \epsilon$.
+Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Then for every positive number $\epsilon$ there exists a point $c_\epsilon$ in the unit interval such that ${|f(c_\epsilon)|} \lt \epsilon$.
 =--
 
 +-- {: .num_theorem #hypothesis}
 ###### Theorem
 (constructive IVT with strengthened hypothesis)
 
-Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Suppose further that, for any points $a,b$ in the unit interval with $a \lt b$, there exists a point $c_{a,b}$ such that $a \lt c_{a,b} \lt b$ and ${|f(c_{a,b})|} \gt 0$.  (In other words, the non-[[zero set]] $\{ c : {|f(c)|} \gt 0 \}$ is [[dense subspace|dense]].)  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
+Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Suppose further that, for any points $a,b$ in the unit interval with $a \lt b$, there exists a point $c_{a,b}$ such that $a \lt c_{a,b} \lt b$ and ${|f(c_{a,b})|} \gt 0$.  (In other words, the non-[[zero set]] $\{ c : {|f(c)|} \gt 0 \}$ is [[dense subspace|dense]].)  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
 =--
 
 In the constructive versions, we have changed from a continuous function to a uniformly continuous one just to be safe; while some varieties of constructive analysis accept the theorem that any continous function on $[0,1]$ is uniformly continous, others do not, and some even refute it.  In any case, even the classical version only applies to uniformly continuous functions, even though the classical mathematician is free to leave out the word 'uniformly' and so usually does.  The more significant change is to either weaken the conclusion to an *approximate* zero, or to strengthen the hypothesis to forbid functions that 'hover' near zero on some subinterval; even interpreted classically, these are prima facie weaker results.
