@@ -137,4 +137,8 @@ Categorically oriented notes were written also by Pareigis, emphasising on using
 
 * Bodo Pareigis, _Quantum groups and noncommutative geometry_, Chapter 3: Representation theory, reconstruction and Tannaka duality, [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/98SS/Quantum_Groups/LN3.PDF)
 
+A very neat Tannaka theorem for stacks is proved in
+
+* [[Jacob Lurie]], _Tannaka duality for geometric stacks_, [math.AG/0412266](http://arxiv.org/abs/math/0412266)
+
 [[!redirects Tannaka reconstruction]]
