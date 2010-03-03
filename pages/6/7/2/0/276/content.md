@@ -18,6 +18,9 @@ One way to think of a crossed complex is as a chain complex in which the bottom 
 
 If $X_*$ is a [[filtered space]], then there is a crossed complex $\Pi X_*$ which in dimension 0 is $X_0$, in dimension 1 is the [[fundamental groupoid]] $\pi_1(X_1,X_0)$ and   in dimension $n \gt 1$ is the family of relative homotopy groups $\{\pi_n(X_n,X_{n-1},p) : p\in X_0\}$.  This gives a functor $\Pi$ from filtered spaces to crossed complexes, which may be used to construct the generalisation of the [[Dold-Kan correspondence]], which in this case goes between crossed complexes and [[simplicial T-complex]]es.  
 
+An important special case of the above is when the filtered space is a CW-complex and the filtration is by skeleta.  Particularly useful instances of this are the $n$-cubes and $n$-simplices, with their CW-filtration.  We obtain $\Pi(I^n)$ and $\Pi(\Delta^n)$.  These are used to define cubical and simplicial nerves of a crossed complex and these in turn define the [[Dold-Kan correspondence]] mentioned above.  For instance if $C$ is a crossed complex, then its simplicial nerve is the simplicial set with $Ner(C)_n = Crs(\Pi(\Delta^n),C)$ in dimension $n$.
+
+
 
 ## Remarks
 
@@ -64,5 +67,6 @@ in higher dimensions with at its 'bottom end', the crossed module,
 
 with $\partial$ induced from the boundary in the Moore complex.
 
-
+The category of [[crossed complexes]] form a variety in the category of all [[hypercrossed complexes]]. Alternatively, groupoid T-complexes (the groupoid version of [[group T-complex]]) form
+a variety in the category of all simplicial groups.
 [[!redirects crossed complexes]]
