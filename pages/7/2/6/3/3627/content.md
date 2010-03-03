@@ -1,3 +1,4 @@
+[[!redirects hypercrossed complexes]]
 (This is a stub for the moment.)
 
 ##Idea##
@@ -8,3 +9,5 @@
 * P. Carrasco, 1987, _Complejos Hipercruzados, Cohomologia y Extensiones_, Ph.D. thesis, Universidad de Granada. 
 
 * P. Carrasco and A. M. Cegarra, _Group-theoretic Algebraic Models for Homotopy Types_, J. Pure Appl. Alg., 75, (1991), 195 &#8211; 235.
+
+[[!redirects hypercrossed complexes]]
