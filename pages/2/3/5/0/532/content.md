@@ -1,4 +1,9 @@
-##Idea##
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Idea
 
 There is quite a difference between the [[Kan complex]] structure of the [[nerve|nerve]] of a [[groupoid]], $G$, and that of, say,  a singular complex.  In the first, if we are given a $(n,i)$-[[horn]], then there is _exactly one_ $n$-simplex in  $Ner(G)$, since the $(n,i)$-horn has a chain of $n$-composable arrows of $G$ in it (at least unless $(n,i) = (2,0)$ or $(2,2)$, which cases are slightly different) and that chain gives the required $n$-simplex.  In other words, there is a 'canonical' filler for any horn.  In $Sing(X)$,  there will usually be many fillers.
 
@@ -7,7 +12,7 @@ Abstracting from this idea, Brown and Higgins developed the idea of a [[cubical 
 A main application of the idea of thin elements in the cubical case was to define the notion of commutative cube. In the case of cubical $\omega$-groupoids with connection, the boundary of a cube is commutative if and only if the boundary has a thin filler. One consequence is that any composition of thin elements is thin. This is a key element of the proof of the Higher Homotopy van Kampen theorem in the _colimits_ paper, which thus nicely generalises the proof of the 1-dimensional van Kampen theorem for the fundamental groupoid on a set of base points.  
 
 
-##Definition##
+##Definition
 
 A _simplicial $T$-complex_ is a pair $(K,T)$, 
 where $K$ is a [[simplicial set|simplicial set]] and $T = (T_n)_{n\geq 1}$ is a graded subset of
@@ -19,15 +24,15 @@ thin structure satisfies the following axioms:
 * A thin filler of a thin box also has its last face thin.
 
 
-##Remark##
+##Remark
 
 1. Together with very similar ideas of John Roberts, adapted by Ross Street, the notion of $T$-complex is one of the precursors of Verity's notion of [[complicial set|complicial set]].
 
 1. Cubical $T$-complexes are also a key concept in the long series of articles by  Brown and Higgins on [[strict omega-groupoid|strict omega-groupoids]]. For instance
 
-* R. Brown, P.J. Higgins, _The equivalence of $\omega$-groupoids and cubical $T$-complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 349-370  ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_349_0/CTGDC_1981__22_4_349_0.pdf)).
+* [[Ronnie Brown]], P.J. Higgins, _The equivalence of $\omega$-groupoids and cubical $T$-complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 349-370  ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_349_0/CTGDC_1981__22_4_349_0.pdf)).
 
-*  R. Brown, P.J. Higgins, On the algebra of cubes,  J. Pure Appl.  Algebra 21 (1981) 233-260.
+*  [[Ronnie Brown]], P.J. Higgins, On the algebra of cubes,  J. Pure Appl.  Algebra 21 (1981) 233-260.
 
 * R. Brown, P.J. Higgins, Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
 
