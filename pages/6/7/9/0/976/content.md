@@ -28,6 +28,8 @@ As shape theory is a [[?ech methods|?ech homotopy theory]], its corresponding ho
 ##Borsuk's shape theory (K. Borsuk, (1968))##
 This was the original form and applies to compact metric spaces.  It uses the fact that any compact metric space can be embedded in the [[Hilbert Cube]]. For any such embedded compact metric spaces, $X$ and $Y$, one considers **shape maps** from the collection of open neighbourhoods of $X$ to those of $Y$.  These shape maps are families of continuous maps satisfying a compatibility relationship ' up to homotopy'.  These compose nicely and form the Borsuk shape category.  Two spaces have the same shape if they are isomorphic in this category. Full details of the definition of such shape morphisms are given in the separate entry, [[Borsuk shape theory]]. 
 
+A remarkable and beautiful theorem of Chapman (the Chapman complement theorem) shows that the shape of two compact metric spaces, $X$ and $Y$ embedded in the [[Hilbert cube|pseudo-interior]] of the Hilbert cube, $Q$, have the same shape if and only if their complements $Q\setminus X$ and $Q\setminus Y$ are homeomorphic.
+
 ##ANR-systems approach (Marde&#353;i&#263; and Segal (1970))##
 ## Abstract shape category
 
