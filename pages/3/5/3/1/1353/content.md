@@ -2,8 +2,11 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea
 
 Weak complicial sets are [[simplicial sets]] with [[stuff, structure, property|extra structure]] that are closely related to the [[nerves]] of weak $\omega$-[[omega-category|categories]].
 
@@ -17,7 +20,7 @@ Weak complicial sets are a joint generalization of
 
 * [[quasi-category|quasi-categories]].
 
-#Definition#
+## Definition
 
 An **elementary anodyne extension** in $Strat$, the category [[stratified simplicial sets]] is 
 
@@ -33,7 +36,7 @@ for $n = 1,2, \cdots$ and $k \in [n]$.
 
 A [[stratified simplicial set]] is a **weak complicial set** if it has the right lifting property with respect to all elementary anodyne extensions.  A [[complicial set]] is a weak complicial set in which such liftings are unique.
 
-#Examples#
+## Examples
 
 * For $C$ a [[strict ∞-category]] and $N(C)$ its [[oriental|∞-nerve]], the _Roberts stratification_ which regards each identity morphism as a thin cell makes $N(C)$ a strict [[complicial set]], hence a weak complicial set.  This example is not "saturated."
 
@@ -46,11 +49,11 @@ A [[stratified simplicial set]] is a **weak complicial set** if it has the right
   Note that 1-simplex equivalences in a quasi-category are automatically preserved by simplicial maps between quasi-categories; this is why $QCat$ can "correctly" be regarded as a full subcategory of $sSet$.  This is not true at higher levels; for instance not every simplicial map between nerves of strict $\omega$-categories necessarily preserves $\omega$-equivalence morphisms.
 
 
-#References#
+## References
 
 The definition of weak complicial sets is definition 14, page 9 of 
 
-* Dominic Verity, _Weak complicial sets Part I: Basic homotopy theory_ ([arXiv](http://arxiv.org/abs/math/0604414))
+* [[Dominic Verity]], _Weak complicial sets Part I: Basic homotopy theory_ ([arXiv](http://arxiv.org/abs/math/0604414))
 
 Further developments are in 
 
