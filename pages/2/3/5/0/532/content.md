@@ -23,19 +23,25 @@ thin structure satisfies the following axioms:
 * A thin filler of a thin box also has its last face thin.
 
 
-##Remarks
+##Remarks##
 
 1. Together with very similar ideas of John Roberts, adapted by Ross Street, the notion of $T$-complex is one of the precursors of Verity's notion of [[complicial set|complicial set]].
 
-1. A closely related idea is that of  [[group T-complex]].
+1. A closely related idea is that of  [[group T-complex]]. Group $T$-complexes form a category equivalent tor reduced [[crossed complex]]es
 
-1.  Relevant references for simplicial T-complexes include:
+1. The nerve of a [[crossed complex]] has a natural T-complex structure.
+
+
+##References
+
+ Relevant references for simplicial T-complexes include:
 
 * N. Ashley, _Simplicial T-Complexes: a non abelian version of a theorem of Dold-Kan_, Disser- 
 tations Math., 165, (1989), 11 &#8211; 58.
 
 * G. Nan Tie, _A Dold-Kan theorem for crossed complexes_, J. Pure Appl. Alg., 56, (1989.), 177 
 &#8211; 194. 29, 37, 146, 254 
+
 * G. Nan Tie, _Iterated W and T-groupoids_, J. Pure Appl. Alg., 56, (1989), 195 &#8211; 209.
 
 
