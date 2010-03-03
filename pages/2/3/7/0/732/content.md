@@ -1,6 +1,9 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ##Idea##
-A **group $T$-complex** is ''a [[simplicial T-complex]]'' internal to the category of groups.
+A **group $T$-complex** is ''a [[simplicial T-complex]] internal to the category of groups''. They were first studied in Nick Ashley's thesis (see references below for the published version)
 
 
 More precisely:
@@ -82,11 +85,13 @@ let $w_n = s_{n-1}d_n x$, $w_i = w_{i+1}(s_{i-1}d_i w_{i+1})^{-1}s_{i-1}y_i $ fo
 required.
 =--
 
-##Discussion##
+##The group T-complex associated to a simplicial group##
 
 This suggests that, given an arbitrary simplicial group, $G$, we could form a quotient which would be a group $T$-complex, simply by dividing out by the subgroups, $NG_n\cap D_n$. We would need check that the face and degeneracy maps worked correctly, that the result did not somehow generate some new 'thin' elements, etc.  In fact the idea does not work because of a much more elementary problem:  $NG_n\cap D_n$ need not be a normal subgroup of $G_n$!
 
-A variant of this does however work. We need the Conduch&#233; non-Abelian version of the [[decomposition theorem for simplicial groups]] that makes up an important part of the Dold-Kan correspondence.  With that we note the fairly obvious point that when we divide out by a graded subgroup in a simplicial group, then it has effects in all dimensions due to the face and degeneracy maps, so if we kill elements in $NG_n\cap D_n$ in all dimensions we must also kill $d_0(NG_{n+1}\cap D_{n+1})$ and all the $s_k(NG_{n-1}\cap D_{n-1})$.  The end result of this is a group $T$-complex whose Moore complex has a [[crossed complex]] structure in a natural way. (The formula is given in the [[crossed complex]] entry.)
+A variant of this does however work. We need the Conduch&#233; non-Abelian version of the [[decomposition theorem for simplicial groups]] that makes up an important part of the Dold-Kan correspondence.  With that we note the fairly obvious point that when we divide out by a graded subgroup in a simplicial group, then it has effects in all dimensions due to the face and degeneracy maps, so if we kill elements in $NG_n\cap D_n$ in all dimensions, we must also kill $d_0(NG_{n+1}\cap D_{n+1})$ and all the $s_k(NG_{n-1}\cap D_{n-1})$.  The end result of this is a group $T$-complex whose Moore complex has a [[crossed complex]] structure in a natural way. (The formula is given in the [[crossed complex]] entry.)
 
+##References##
 
+* N. Ashley, _Simplicial T-Complexes: a non abelian version of a theorem of Dold-Kan_, Dissertations Math., 165, (1989), 11 &#8211; 58.
 [[!redirects group T - complex]]
