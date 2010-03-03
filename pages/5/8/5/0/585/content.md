@@ -24,7 +24,7 @@ But the really cool part is how this construction goes hand in hand with his def
 
 ## History 
 
-In 1999, [[Todd Trimble]] introduced a definition of weak $n$-category in a lecture at Cambridge University. This definition was introduced in order to give an algebraic notion of fundamental $n$-groupoid, and has since been taken up in a number of directions by [[Tom Leinster]] and [[Eugenia Cheng]], who compare it with globular approaches (e.g., Batanin's) and give a weak $\omega$-category extension. 
+In 1999, [[Todd Trimble]] introduced a definition of weak $n$-category in a lecture at Cambridge University. This definition was introduced in order to give an algebraic notion of fundamental $n$-groupoid, and has since been taken up in a number of directions by [[Tom Leinster]] and [[Eugenia Cheng]], who compare it with globular approaches (e.g., [[Michael Batanin|Batanin]]'s) and give a weak $\omega$-category extension. 
 
 Trimble never published this material himself (in effect leaving it to others present at the Cambridge lecture to develop their own accounts, which has been a good thing), but it may be of at least historical interest to have Trimble's original account available. We will then pick out the highlights and streamline the approach, following subsequent work by Leinster and Cheng. 
 
