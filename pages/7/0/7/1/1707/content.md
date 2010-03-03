@@ -309,23 +309,120 @@ This expresses the commutativity of the above tetrahedra. And it is indeed the o
 
 similarly...
 
-## Generalizations
 
-### Structured group cohomology ###
+## Structured group cohomology {#StructuredCohomology}
 
-Group cohomology depends delicately on the [[internalization]] context. A survey of central results in topological and smooth group cohomology is
+If the groups in question are not plain groups ([[group object]]s internal to [[Set]]) but groups with extra structure, such as [[topological group]]s or [[Lie group]]s, then their cohomology has to be understood in the corresponding natural context.
 
-* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_ ,  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
+In parts of the literature cohomology of structured groups $G$ is defined in direct generalization of the formulas above as homotopy classes of morphisms from the simplicial object
 
-An early reference on the equivalence of local Lie group cohomology and [[Lie algebra cohomology]] is
+$$
+  \left(
+    \cdots G \times G\stackrel{\to}{\stackrel{\to}{\to}}G \stackrel{\to}{\to} *
+  \right)
+$$
 
-* S. &#346;wierczkowski, Cohomology of group germs and Lie algebras Pacific J. Math 39(2) 1971.
+to a simplicial object $N (\mathbf{B}^n A)$.
 
-This is also discussed in
+This is what is described above. But this does **not** in general give the right answer for structured groups:
+
+namely [[cohomology]] is really about homotopy classes of maps in the suitable ambient [[(∞,1)-topos]]. For plain groups as in the above entry, we are working in the $(\infty,1)$-topos [[∞Grpd]]. That may be modeled by the standard [[model structure on simplicial sets]]. In that model structure, all objects a cofibrant and [[Kan complex]]es are fibrant. That means all objects we are dealing with here are both cofibrant and fibrant, and hence the simplicial set of maps between them is the cofrrect [[derived hom-space]] between these objects.
+
+But this changes as we consider groups with extra structure. For a [[Lie group]] $G$, the object
+
+$$
+  \left(
+    \cdots G \times G\stackrel{\to}{\stackrel{\to}{\to}}G \stackrel{\to}{\to} *
+  \right)
+$$
+
+has to be considered as an [[Lie ∞-groupoid]]: an object in the [[model structure on simplicial presheaves]] over a [[site]] such as [[Diff]] or [[CartSp]]. As such it is in general **not** both cofibrant and fibrant. To that extent plain morphisms out of this object do **not** compute the correct [[derived hom-space]]s. Instead, the right definition of structured group cohomology uses the correct fibrant and cofibrant replacements.
+
+
+### Lie group cohomology {#LieGroupcohomology}
+
+The _correct_ notion of Lie group cohomology is discussed for instance in 
 
 * Jean-Luc Brylinski, _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 
-### Nonabelian group cohomology
+
+We derive this from the abstract perspective that Lie group cohomology is the [[cohomology|intrinsic cohomology]] of the [[(∞,1)-topos]] $\mathbf{H} := Sh_{(\infty,1)}(CartSp)$ of [[∞-stack]]s on [[CartSp]].
+
+To derive the explicit formulas in the literature, model $\mathbf{H}$ by the local _projective_ [[model structure on simplicial presheaves]] on [[CartSp]]. 
+
+Fibrant objects are the Kan-complex valued objects that satisfy [[descent]] ob object of $CartSp$. By the special natur of the site [[CartSp]],  that descent condition is pretty trivial. For $A$ an abelian Lie group, $\mathbf{B}^n A $ satisfies descent on every $\mathbb{R}^n$: every $A$-[[principal infinity-bundle|principal n-bundle]] on the contractible $\mathbb{R}^n$ is equivalent to the trivial one.
+
+So for $G$ a Lie group, it remains to find a cofibrant replacement $Q(\mathbf{B}G)$ for $\mathbf{B}G$. With that in hand we have that the Lie group cohomology of $G$ is
+
+$$
+  H^p(G,A) = \pi_0 sPSh(Q(\mathbf{B}G), \mathbf{B}^n A)
+  \,.
+$$
+
+To find that cofibrant replacement, recall from the discussion of cofibrant objects in the projective model structure over $CartSp$ at [[model structure on simplicial presheaves]] that these are in particular given by _good covers_ : simplicial objects that are degreewise coproducts of representables such that in each degree the degenerate part splits off as a direct summand.
+
+To obtain this, write first
+
+$$
+  \mathbf{B}G = \int^{n} \Delta[n]\cdot(\mathbf{B}G)_n 
+  = \int^n \Delta[n] \cdot G^{n}
+  \,.
+$$ 
+
+By the [[Bousfield-Kan map]] this is weakly equivalent to
+
+$$
+  \simeq \int^n \mathbf{\Delta}[n] \cdot G^{n}
+$$ 
+
+with $\mathbf{\Delta}[n] = N(\Delta/[n])$, as described there.
+
+Then choose for each $p$ a good cover $U^{(p)} = \{U^{(p)}_{j_p}\}$. Let $C(U^{(p)})$ be the [[Cech nerve]] of this cover. This is a simplicial presheaf weakly equivalent to $G^p$. The representable $G^p$ are cofibrant as are the [[Cech nerve]]s of their good covers, and the left [[Quillen bifunctor]] $\int (-)\cdot (-) : [\Delta,sSet] \times [\Delta^{op}, sPSh(Cart)]_{proj} \to sPSh(C)$ preserves weak equivalences between cofibrant objects (with the cofibrant $\mathbf{\Delta} : \Delta \to sSet$ fixed), so we have
+
+$$
+  \cdots \simeq \int^n \mathbf{\Delta}[n] \cdot C(U^{(p)})
+  \,.
+$$
+
+Again by the [[Bousfield-Kan map]] this is
+
+$$
+  \simeq \int^n \Delta[n] \cdot C(U^{(p)})
+  \,.
+$$
+
+This is objectwise the realization of a [[bisimplicial set]] which, as described there, is the diagonal
+
+$$
+  \simeq diag( C(U^{(\bullet)})_\bullet )
+  \,.
+$$
+
+Since this is now degreewise a coproduct of representables and  still haas degeneracies being direct summands, this is cofibrant in $sPsh(CartSp)_{proj}^{loc}$. 
+
+So we find that the correct Lie group cohomology is given by
+
+$$
+  H^p(G,A) = \pi_0 sPSh( diag( C(U^{(\bullet)})_\bullet ), \mathbf{B}^n A )
+  \,.
+$$
+
+By the [[Eilenberg-Zilber theorem]] this is the cohomology of the total complex of abelian groups given by the double complex $C^\infty(U^{(\bullet)}_\bullet, A)$:
+
+$$
+  \cdots \simeq H^n Tot C^\infty(U^{(\bullet)}_\bullet, A)
+  \,.
+$$
+
+And this, finally, is indeed the definition of the smooth group cohomology of $G$ as found, for instance, in [Bry 2000, page 4](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=4).
+
+
+### Topological group cohomology
+
+* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_ ,  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
+
+
+## Nonabelian group cohomology
 
 If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B}^n K$ to not exist. But [[n-groupoid]]s approximating this non-existant delooping do exists. Cohomology of $\mathbf{B}G$ with coefficients in these is called [[nonabelian group cohomology]] or [[Schreier theory]]. See there for more details.
 
