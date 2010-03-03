@@ -10,7 +10,7 @@
 
 ## In classical mechanics
 
-The Hamiltonian of a [[dynamical system]] is the sum of the kinetic and potential energy:
+The simplest, so-called "natural", Hamiltonian of a [[dynamical system]] is the sum of the kinetic and potential energy:
 \[ H = T + V. \]
 
 Knowing only $H$ as a function on [[phase space]] (so as a function of [[position]] $q^i$ and [[momentum]] $p_i$), we can derive other quantities as functions on phase space.  In particular, we have:
@@ -58,11 +58,13 @@ In the physics literature this path-ordered exponential is known as the **Dyson 
 
 ### Physical meaning and relation to unitary transformations
 
-The [[eigenvalue]]s of the Hamiltonian operator for a quantum system are exactly the energy eigenvalues of that system.  Thus the Hamiltonian is interpreted as being an "energy" operator.  Conservation of energy occurs when the Hamiltonian is time-independent.
+The [[eigenvalue]]s of the Hamiltonian operator for a closed quantum system are exactly the energy eigenvalues of that system.  Thus the Hamiltonian is interpreted as being an "energy" operator.  Conservation of energy occurs when the Hamiltonian is time-independent.
 
-Transformations and evolutions in standard quantum mechanics are represented via [[unitary operator]]s where a time evolving unitary is related to the Hamiltonian via
+Transformations and evolutions in standard quantum mechanics are represented via [[unitary operator]]s where a time evolving unitary is related to the Hamiltonian $H$ via
 
-$U(0,t) = $exp$\left(-\frac{i}{\hbar}H t\right)$.
+$U(0,t) = $exp$\left(-\frac{i}{\hbar}H t\right),$
+
+provided the Hamiltonian is time-independent.
 
 
 [[!redirects Hamiltonian]]
