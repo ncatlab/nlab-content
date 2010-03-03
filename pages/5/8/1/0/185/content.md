@@ -430,7 +430,7 @@ isomorphism
 $$
   Hom_{C^\infty Alg}(C^\infty(\mathbb{R}^n), A)
   \simeq
-  Hom_{Alg}(\mathbb{R}^n, A(\mathbb{R}))
+  Hom_{Alg}(\mathbb{R}[x_1,...,x_n], A(\mathbb{R}))
   \,.
 $$
 
@@ -453,7 +453,7 @@ We have a chain of inclusions
 
 ### Points of smooth loci
 
-An **$\mathbb{R}$-point** of a $C^\infty$-ring $C$ is a point $* \to \mathbb{L}(C)$ of the corresponding [[smooth locus]], i.e. a morphism $C \to \mathbb{R} \simeq C^\infty(*)$.
+An **$\mathbb{R}$-point** of a $C^\infty$-ring $C$ is a point $* \to \mathbb{L}(C)$ of the corresponding [[smooth locus]], i.e. a morphism $C \to \mathbb{R} \cong C^\infty(*)$.
 
 +-- {: .un_prop}
 ###### Proposition 
