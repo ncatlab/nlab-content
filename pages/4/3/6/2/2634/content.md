@@ -34,8 +34,27 @@ $$
 
 The component $H \in End(\mathcal{H})$ of this canonical 1-form is the **Hamilton operator** of the system.
 
-Its [[parallel transport]] is the **time evolution** of quantum states.
+Its [[parallel transport]] is the **time evolution** of quantum states. If $H$ is constant as a function on $\mathbb{R}$, this parallel transport assigns to the path $\gamma$ from $t_1$ to $t_2$ in $\mathbb{R}$ the map
 
+$$
+  U :
+  (t_1 \stackrel{\gamma}{\to} t_2) 
+   \mapsto
+  (\mathcal{H}_{t_1} 
+  \stackrel{exp\left(-\frac{i}{\hbar}H (t_2-t_1)\right)}{\to} \mathcal{H}_{t_2})
+  \,.
+$$ 
+
+If instead $H$ does depend on $t$ -- called the case of _time-dependent quantum mechanics_ -- then the full formula for parallel transport applies, which is given by the [[path-ordered exponential]]
+
+$$
+  U :
+  (t_1 \stackrel{\gamma}{\to} t_2) \mapsto
+  (\mathcal{H}_{t_1} \stackrel{P exp \left(-\frac{i}{\hbar}\int_{t_1}^{t_2}H  d t\right)}{\to} \mathcal{H}_{t_2})
+  \,.
+$$
+
+In the physics literature this path-ordered exponential is known as the **Dyson formula** .
 
 ### Physical meaning and relation to unitary transformations
 
@@ -43,7 +62,7 @@ The [[eigenvalue]]s of the Hamiltonian operator for a quantum system are exactly
 
 Transformations and evolutions in standard quantum mechanics are represented via [[unitary operator]]s where a time evolving unitary is related to the Hamiltonian via
 
-$U = $exp$\left(-\frac{i}{\hbar}H t\right)$.
+$U(0,t) = $exp$\left(-\frac{i}{\hbar}H t\right)$.
 
 
 [[!redirects Hamiltonian]]
