@@ -1,9 +1,19 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
 A __Postnikov system__ or __Postnikov tower__ ([[M M Postnikov]], 1951) is a sequence of path connected, pointed topological spaces $X^{(n)}$, $n \geq 1$,
 such that $\pi_r(X^{(n)})=0$ for $r \gt n$,
 together with a sequence $\pi_n$ of [[module]]s of the [[fundamental group]] $\pi_1(X^{(1)})$ of $X^{(1)}$ and
-[[fibration]]s $p_n : X^{(n+1)} \to X^{(n)}$ classified up to [[homotopy type]] by a specified cohomology class $k^{n+1} \in H^{n+1}(X^{(n)}, \pi_n)$. There are analogues in other setups, e.g. [[Postnikov system in triangulated category|Postnikov systems in triangulated categories]] and in motivic homotopy theory (M. Levine, [The Postnikov tower in motivic stable homotopy theory](http://www.math.uiuc.edu/K-theory/0692)).
+[[fibration]]s $p_n : X^{(n+1)} \to X^{(n)}$ classified up to [[homotopy type]] by a specified cohomology class $k^{n+1} \in H^{n+1}(X^{(n)}, \pi_n)$. 
 
-It is known that Postnikov systems classify all weak, pointed connected homotopy types. In particular, if $X$ satisfies $\pi_r(X)=0 $ for $1 \lt r \lt n$ then the first non trivial Postnikov invariant is an  element $k^{n+1}$ of [[group cohomology]] (with twisted coefficients of course). Such elements are also determined by $n$-fold crossed extensions of $\pi_n$ by $\pi_1$,
+
+## Properties
+
+It is known that Postnikov systems classify all weak, pointed connected [[homotopy type]]s. In particular, if $X$ satisfies $\pi_r(X)=0 $ for $1 \lt r \lt n$ then the first non trivial Postnikov invariant is an  element $k^{n+1}$ of [[group cohomology]] (with twisted coefficients of course). Such elements are also determined by $n$-fold crossed extensions of $\pi_n$ by $\pi_1$,
 which are exact [[crossed complex]]es of the form
 $$ 0 \to \pi_n \to C_n \to C_{n-1} \to \cdots \to C_2 \to C_1 $$
 together with an isomorphism $Coker(C_2 \to C_1) \cong \pi_1$. This
@@ -27,7 +37,17 @@ The reference below shows the problems in the 3-stage systems.
 For homotopy 3-types, the algebraic model of [[crossed square]]s is more explicit than the corresponding Postnikov system, and more calculable. However, not much work has been done on, say, cohomology operations using the algebraic model of $n$-fold groupoids, and it is not clear if that would help. 
 
 
-##References##
+## Generalizations
+
+There are analogues in other setups, e.g. 
+
+* [[Postnikov system in triangulated category|Postnikov systems in triangulated categories]] 
+
+* [[motive|motivic]] homotopy theory (M. Levine, [The Postnikov tower in motivic stable homotopy theory](http://www.math.uiuc.edu/K-theory/0692)).
+
+* [[Postnikov tower in an (∞,1)-category]]
+
+## References
 
 * M.M. Postnikov, _Determination of the homology groups of a space by means of the homotopy invariants_, Doklady Akad. Nauk SSSR (N.S.) 76: 359&#8211;362 (1951)
 * George Whitehead, _Elements of homotopy theory_, chapter 9
@@ -37,7 +57,7 @@ For homotopy 3-types, the algebraic model of [[crossed square]]s is more explici
 
 A pedagogical introduction to Postnikov systems with an eye towards their $\infty$-[[infinity-groupoid|groupoid]] incarnation under the correspondence given by the [[homotopy hypothesis]] is in
 
-* [[John Baez]], [[Mike Shulman]], [[Lectures on n-Categories and Cohomology]]
+* [[John Baez]], [[Mike Shulman]], _[[Lectures on n-Categories and Cohomology]]_
 
 
 [[!redirects Postnikov tower]]
