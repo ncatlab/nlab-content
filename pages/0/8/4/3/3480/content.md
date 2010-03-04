@@ -115,6 +115,11 @@ $$
 $$
 
 =--
+
+
+
+
+
 ## References
 
 * [[André Joyal]], [[Ross Street]], _An introduction to Tannaka duality and quantum groups_, [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)
@@ -144,5 +149,10 @@ A very neat Tannaka theorem for stacks is proved in
 See also talk 
 
 * B. Toen, [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (video)
+
+and the remark
+
+* [Ben-Zvi on Tannaka reconstruction for monoidal categories](http://mathoverflow.net/questions/3446/tannakian-formalism/3467#3467)
+
 
 [[!redirects Tannaka reconstruction]]
