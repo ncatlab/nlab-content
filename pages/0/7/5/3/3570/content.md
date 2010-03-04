@@ -39,7 +39,7 @@ Another point to note is that not only is each of the neighbourhoods homotopic t
 
 There is a sequence of maps, $\{f_n : S^1 \to N_{\frac{1}{n}}(S_W)\mid n\in \mathbb{N}\}$, so that for each pair, $(n,N)$, with $N\gt n$, there is a homotopy $f_n \sim i^N_n f_N$. This makes a (Borsuk) shape map from the circle to the Warsaw circle.  Each $f_n$ is in fact a homotopy equivalence and we can use a choice of homotopy inverses to get another shape map $g : S_W\to S^1$ and these make up a **shape equivalence**.
 
-(The detailed description of shape maps and shape equivalences in the Borsuk version of shape theory, is given in the entry [[Borsuk shape theory]].)
+(A more detailed description of shape maps and shape equivalences in the Borsuk version of shape theory, is given in the entry [[Borsuk shape theory]]. The version given here skates over some points.  It is, in fact, near the ANR-systems approach to shape.)
 
 
 ####The Warsaw circle from a &#268;ech point of view####
