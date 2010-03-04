@@ -51,7 +51,7 @@ For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \l
     S[n](i,j) = N(P_{i,j})
   $$ 
 
-  of the [[poset]] $P(i,j)$ which is equivalently
+  of the [[poset]] $P_{i,j}$ which is equivalently
 
   1. the [[poset]] of [[subset]]s of $[i,j]$ that contain both $i$ and $j$ (so in particular if $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve) with the partial order is given by inclusion.
 
@@ -128,36 +128,61 @@ We illustrate here the nature of the cosimplicial $sSet$-category $S : [n] \maps
 
 We will examine the lowest dimensional cases. 
 
-For $n = 0,1$, there is nothing of note.
+For $n = 0$ there is nothing of note.
 
-For $n = 2$, there are unique paths in $[2]$ from $[0]$ to $[1]$, and $[1]$ to $[2]$, so the corresponding homs in $S[2]$ are copies of $\Delta[0]$ (or, if you prefer, of $\Delta[1]^0$!). Things are slightly more interesting for $S[2](0,2)$. Looking at this from the 'subsets' viewpoint, as above, there clearly are two subsets of $\{0,1,2\}$ containing both $0$ and $2$, one corresponds to the direct route in $[2]$ from $0$ to $2$, the other goes via $1$ so is $0\to 1\to 2$. In $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,2\}$ and ending at $\{0,1,2\}$.  
+For $n = 1$ we have that
 
 $$
-  \array{
-    & \nearrow\searrow^{\{0,1,2\}}
-    \\
-    0 &\Uparrow^{{k}}& 2
-    \\
-    & \searrow \nearrow_{\{0,2\}}
-  }
+  P_{0,1} = \left\{ (0,1) \right\} = \Delta[0] = \Delta[1]^0
+$$
+
+is the poset with a single object.
+
+
+For $n = 2$, there are unique paths in $[2]$ from $[0]$ to $[1]$, and $[1]$ to $[2]$, so the corresponding homs in $S[2]$ are copies of $\Delta[0]$ (or, if you prefer, of $\Delta[1]^0$!). Things are slightly more interesting for $S[2](0,2)$. Looking at this from the 'subsets' viewpoint, as above, there clearly are two subsets of $\{0,1,2\}$ containing both $0$ and $2$, one corresponds to the direct route in $[2]$ from $0$ to $2$, the other goes via $1$ so is $0\to 1\to 2$. 
+
+$$
+  P_{0,2} = 
+  \left\{
+    (0,2) \to (0,1,2)
+  \right\}
+  = 
+  \Delta[1]
+  \,.
+$$
+
+So in $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,2\}$ and ending at $\{0,1,2\}$.  
+
+$$
+    \array{
+      & \nearrow\searrow^{\{0,1,2\}}
+      \\
+      0 &\Uparrow^{{k}}& 2
+      \\
+      & \searrow \nearrow_{\{0,2\}}
+    }
 $$
 
 
 Everything else, in higher dimensions, is degenerate, so $S[2](0,2)\cong \Delta[1]$. Sometimes it is useful to think of this 1-simplex as 'rewriting' the direct path to that via 1, all this happening in the free category on the underlying graph of the poset $[2]$. 
 
 In this example there are no significant compositions. To see examples of those, you need to look at $n = 3$. In $S[3]$, the simplicial hom-sets $S[3](i,j)$ for $(i,j) \neq (0,3)$, can all be analysed by the same sort of argument to the above.  The new features occur in $S[3](0,3)$.  The vertices of this simplicial set are the subsets 
-corresponding to the direct path $0\to 3$ and then the three others. Rewriting the direct path can be done in two immediate ways, to go via the left or via the right route. Each of these can be 'rewritten' to give the longest path /  largest subset. 
-
-
-There is also, of course, an inclusion of the smallest to the largest of these, so that in total the poset here looks like:
+corresponding to the direct path $0\to 3$ and then the three others. Rewriting the direct path can be done in two immediate ways, to go via the left or via the right route. Each of these can be 'rewritten' to give the longest path /  largest subset.  There is also, of course, an inclusion of the smallest to the largest of these, so that in total the poset here looks like:
 
 $$
-  \array{
-     \{0,3\}&\rightarrow & \{0,1,3\}
-     \\
-     \downarrow & \searrow &\downarrow\\
-     \{0,2,3\}&\rightarrow &\{0,1,2,3\}
-   }
+  P_{0,3}
+  =
+  \left\{
+    \array{
+       \{0,3\}&\rightarrow & \{0,1,3\}
+       \\  
+       \downarrow & \searrow &\downarrow\\
+       \{0,2,3\}&\rightarrow &\{0,1,2,3\}
+     }
+  \right\}
+  =
+  \Delta[1]^{\times 2}
+  \,.
 $$
 
 In addition, there will be 2-simplexes filling the two triangles, coming from the chains $\{0,3\}\subset \{0,1,3\}\subset \{0,1,2,3\}$ and $\{0,3\}\subset \{0,2,3\}\subset \{0,1,2,3\}$ in the poset. 
@@ -252,7 +277,7 @@ A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' i
 
   is a [[model structure for quasi-categories|weak equivalence of]] [[quasi-categories]].
 
-  We may think of [[category]] $\Delta[n]$ trivially as a simplicially enriched category. In the [[model structure on sSet-categories]] the object $S[n]$ is a cofibrant replacement of $\Delta[n]$. And Kan-complex enriched categories are fibrant. So on these the homotopy coherent nerve is given by the [[derived hom-space]]] functor
+  We may think of [[category]] $\Delta[n]$ trivially as a simplicially enriched category. In the [[model structure on sSet-categories]] the object $S[n]$ is a cofibrant replacement of $\Delta[n]$. And Kan-complex enriched categories are fibrant. So on these the homotopy coherent nerve is given by the [[derived hom-space]] functor
 
   $$
     N(C) = \mathbb{R}Hom(\Delta[\bullet], C)
