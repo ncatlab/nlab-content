@@ -6,7 +6,7 @@
 
 ## Idea
 
-This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. This entry here is to be compared with the entry [[(∞,1)-category of (∞,1)-sheaves]] of which it is the 1-categorical shadow. An exposition is at [[models for ∞-stack (∞,1)-toposes]].
+This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$ -- a [[Grothendieck topos]]. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. This entry here is to be compared with the entry [[(∞,1)-category of (∞,1)-sheaves]] of which it is the 1-categorical shadow. An exposition is at [[models for ∞-stack (∞,1)-toposes]].
 
 
 ## Definition
@@ -40,13 +40,33 @@ $$
 * Categories of sheaves are examples of [[category|categories]] that are [[topos]]es: they are the [[Grothendieck topos]]es characterized among all toposes as those satisfying [[Grothendieck topos|Giraud's axioms]].
 
 
+In [[topos]]-theoretic language we therefore have that
+
++-- {: .standout}
+
+[[Grothendieck topos|Sheaf toposes]] are precisely the [[geometric embedding|subtoposes]] of [[presheaf]] toposes.
+
+=--
+
 ## References
 
 For some standard references see the list of references at [[sheaf]] and [[topos]].
 
-The characterization of $Sh(S)$ as the homotopy category of $PSh(S)$ with respect to local isomorphisms is emphasized at the beginning of the text
+The characterization of sheaf toposes and Grothendieck topologiws in terms of left exact [[reflective subcategory|reflective subcategories]] of a presheaf category is in
 
-* B. To&#235;n, _Stacks and non-abelian cohomology_ ([web](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html)) .
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
+where it is implied by the combination of Corollary VII 4.7 and theorem V.4.1.
+
+The statement is also theorem A.4.4.8 in
+
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
+
+
+
+The characterization of $Sh(S)$ as the [[homotopy category]] of $PSh(S)$ with respect to local isomorphisms is emphasized at the beginning of the text
+
+* [[Bertrand Toen]], _Stacks and non-abelian cohomology_ ([web](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html)) .
 
 Details are in 
 
@@ -62,7 +82,11 @@ It's a bit odd that the full final statement does not seem to be stated there ex
 
 
 
-The entirely analogous story in the wider context of [[(infinity,1)-category|(infinity,1)-categories]] is the central statement of
+The entirely analogous story in the wider context of [[(infinity,1)-category|(infinity,1)-categories]] is in
+
+* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+
+and
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
