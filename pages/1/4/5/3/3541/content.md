@@ -129,6 +129,8 @@ Personally I think that instead of identifying the objects of the category with 
 [[Ian Durham]]: There's one sticky wicket there: not all quantum channels are reversible so they're not necessarily isomorphisms (unless I'm mis-interpreting you).  From an information theoretic perspective, there are some quantum channels for which perfect recovery of the initial information, even with environmental assistance, is not possible.  So I would certainly say that _some_ quantum channels are isomorphic categories, but not all.
 
 Regarding composites, normally it is just a composite of Kraus operators (see my first revision of the [quantum channel](http://ncatlab.org/nlab/revision/quantum+channel/1) page).  Regarding the categories, though, I think I may have actually been able to show that it behaves as expected using a commutative square.
+
+[[David Roberts]]: I think you have misunderstood. The comment about isomorphic categories was secretly directed at Urs, and doesn't bear on what quantum channels are, just on how one should view the category of them with a mind towards generalisation. Also note that a single quantum channel is not a category, neither is a quantum channel a map between categories (at least, not in an interesting way that adds to the conceptual development).
 =--
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
