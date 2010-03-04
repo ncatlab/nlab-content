@@ -1,3 +1,9 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
 ##Reprise of the Idea##
 The basic idea behind Borsuk's shape theory is explained in the entry on [[shape theory]], so will not be repeated here, except to say that it considers compact metric spaces embedded in the [[Hilbert cube]], then uses the open neighbourhoods of the space as a 'net' of approximations of the space.  The space is, of course, the intersection of all these open neighbourhoods.
 
