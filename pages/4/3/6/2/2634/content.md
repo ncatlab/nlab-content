@@ -54,7 +54,7 @@ $$
   \,.
 $$
 
-In the physics literature this path-ordered exponential is known as the **Dyson formula** .
+In the physics literature this path-ordered exponential is known as the **[[Dyson formula]]** .
 
 ### Physical meaning and relation to unitary transformations
 
