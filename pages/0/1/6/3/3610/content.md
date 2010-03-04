@@ -143,9 +143,15 @@ In the language used here, the article
 
 shows that this $\mathbf{H}$ has a well-adapted rational structure.
 
-#### The rational structure
+#### The rational structure {#ToenRationalStructure}
 
-Write $k \in sPSh(C)_{loc}$ for the line object. 
+Write $\mathbb{A}^1 \in sPSh(C)$ for the [[lined topos|line object]], the formal dual of the free $k$-algebra $F_k[X]$ on one generator. This means that 
+
+$$
+  \mathbb{A}^1 : Spec A \mapsto Alg_k(F_k[X], A) \simeq A
+$$
+
+is the tautological algebra valued presheaf that sends $Spec A$ to $A$.
 
 +-- {: .un_def }
 ###### Definition
@@ -153,7 +159,17 @@ Write $k \in sPSh(C)_{loc}$ for the line object.
 Define [[sSet]]-[[enriched functor]]s
 
 $$
-  \mathcal{O} := Hom_{sPsh(C)}(-,k) : sPSh(C) \to (Alg_k^{\Delta})^{op}
+  \mathcal{O} : (Alg_k^\Delta)^{op}
+   \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+   sPSh((Alg_k)^{op})
+   :
+   Spec
+$$
+
+by
+
+$$
+  \mathcal{O} := Hom_{sPsh(C)}(-,\mathbb{A}^1) 
 $$ 
 
 and 
@@ -167,10 +183,22 @@ $$
 
 This is considered in [To06, section 2.2](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=42).
 
+In particular for $*$ the terminal presheaf we have 
+
+$$
+  \mathcal{O}(*) = sPSh(*, \mathbb{A}^1) = \int_{Spec A \in Alg_k} Hom_{Set}(*,A)
+  = \lim_{A \in Alg_k} A
+  = k     
+$$
+
+because $k$ is initial in $Alg_k$.
+
+
+
 +-- {: .un_prop }
 ###### Proposition
 
-These form an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]]
+The functors $\mathcal{O}$ and $Spec$ form an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]]
 
 $$
   (\mathcal{O} \dashv Spec) : sPSh(C)^{inj}_{loc} \stackrel{\leftarrow}{\to}
@@ -207,7 +235,7 @@ Since every object in $(Alg^{\Delta})^{op}$ is cofibrant and since $A$ is furthe
 +-- {: .un_remark }
 ###### Remark
 
-This proof works very generally whenever hypercovers $Y \to U$ over representables induce isomorphisms in $R$-cohomology as seen by the line object $R$.
+This proof works very generally whenever hypercovers $Y \to U$ over representables induce isomorphisms in $\mathbb{A}^1$-cohomology as seen by the line object $\mathbb{A}^1$.
 
 =--
 
