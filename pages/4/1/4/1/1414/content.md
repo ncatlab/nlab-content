@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-##Idea##
+## Idea
 
 The _homotopy coherent nerve_ (also called _simplicial nerve_) of a [[simplicially enriched category]] is a [[simplicial set]] which includes information about all the higher homotopies present in the hom-spaces.  It generalizes the ordinary [[nerve]] of an ordinary [[category]].
 
@@ -13,7 +13,7 @@ $$
   \,.
 $$
 
-is induced, by the general nonsense of [[nerve and realization]] by a 
+is induced, by the general machinery of [[nerve and realization]] induced by a 
 [[simplicial object|cosimplicial]] [[simplicially enriched category]], namely a [[functor]]
 
 $$
@@ -28,36 +28,107 @@ regard the $n$-simplex as an [[strict omega-category|n-category]].
 
 
 
+## Definition
+
+
+### The cosimplicial $sSet$-category
+
+We start by describing the cosimplicial [[sSet]]-[[enriched category]] 
+
+$$
+  S : \Delta \to sSet Cat
+$$
+
+that induces the homotopy coherent nerve.
+
+For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the $sSet$-category $S[n]$ as follows:
+
+* the [[object]]s of $S[n]$ are $\{0,1, \cdots, n\}$;
+
+* the [[hom-object]]s $S[n]_{i,j} \in sSet$ for $i, j \in \{0,1,\cdots, n\}$ are the [[nerve]]s 
+
+  $$
+    S[n](i,j) = N(P_{i,j})
+  $$ 
+
+  of the [[poset]] $P(i,j)$ which is equivalently
+
+  1. the [[poset]] of [[subset]]s of $[i,j]$ that contain both $i$ and $j$ (so in particular if $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve) with the partial order is given by inclusion.
+
+   1. the poset of [[path category|path]]s in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by 'subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $b$ visits all the vertices that $i$ does ... and perhaps some others as well.
+
+      Of course, the way you go between the two descriptions is that a path corresponds to the set of vertices it visits and _vice versa_.
+
+
+Notice that the simplicial set $N(P_{i,j})$ is [[isomorphism|isomorphic]] to the $j-i-1$ cube in $sSet$:
+
+$$
+  N(P_{i,j}) = (\Delta[1])^{\times (j-i-1)}
+  \,.
+$$ 
+
+Under this isomorphism for instance the vertex $(0,0,1,0,1) \in (\Delta[1])^{\times (j-i-1)}$ corresponds to the subset $\{i+3,i+5\} \subset [i,j]$ and to the path $i \to i+3 \to i+5 \to j=i+6$. 
+
+(We will look at an example after this definition.)
+
+* the [[composition]] operation on hom-objects
+
+  $$
+    \circ_{i,j,k} : S[n]_{i,j} \times S[n]_{j,k} \to S[n]_{i,k}
+  $$
+
+  is induced by 'concatenation of the corresponding paths' and thus essentially by union of the sets involved.
+
+### The homotopy coherent nerve
+
+The **homotopy coherent nerve** functor
+
+$$
+  N := Hom_{sSet Cat}(S[\bullet],-) : sSet Cat \to sSet
+$$
+
+is the [[nerve]] defined by the cosimplicial $sSet$-category $S : \Delta \to sSet Cat$ defined above.
+
+For $C \in sSet Cat$ a [[simplicially enriched category]], the homotopy coherent nerve  $N(C)$ is the [[simplicial set]] uniquely characterized by the formula 
+
+$$ 
+  Hom_{SSet}(\Delta[n], N(C)) = Hom_{SSet Cat}(S[n], C)
+  \,.
+$$
+
+By the general logic of [[nerve and realization]], this functor has a [[left adjoint]]
+
+$$
+  S(-) : SSet \to SSet Cat
+$$
+
+the **realization** functor given by the [[coend]] formula
+
+$$
+  S(X) := \int^{[n] \in \Delta} X_n \cdot S[n]
+  \,.
+$$
+
+This functor does extend the functor $S : \Delta \to sSet Cat$ 
+in that there is a canonical isomorphism
+
+$$
+  S(\Delta[n]) \cong S[n]
+$$
+
+and hence may consistently be named $S$.
 
 
 
-##Preliminary definitions##
+## Examples and illustration
 
-For $[n]$ the finite ordinal $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and let $\Delta^n$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the [[simplicially enriched category]] $S[n]$ as follows:
+### For the cosimplicial $sSet$-category
 
-* the objects of $S[n]$ are $\{0,1, \cdots, n\}$;
+We illustrate here the nature of the cosimplicial $sSet$-category $S : [n] \mapsto S[n]$.
 
-* for $i, j \in \{0,1,\cdots, n\}$ define  $S[n](i,j) = N(P_{i,j}),$ the nerve of the poset $P(i,j)$ defined in either of the two equivalent ways:     
-   1. $P_{i,j}$ is the [[poset]] whose  elements are the subsets of $[i,j]$ that contain both $i$ and $j$ (so in particular is $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve), the partial order is given by inclusion.
-   1. $P(i,j)$ is the set of paths in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by 'subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $b$ visits all the vertices that $i$ does ... and perhaps some others as well.
+We will examine the lowest dimensional cases. 
 
-Of course, the way you go between the two descriptions is that a path corresponds to the set of vertices it visits and _vice versa_.
-
-
- The simplicial set $N(P_{i,j})$ is isomorphic to the $j-i-1$ cube $\Delta[1]^{j-i-1}$. (We will look at an example after this definition.)
-
-* the composition operation is induced by 'composition of the corresponding paths' and thus essentially by union of the sets involved.
-
-+-- {: .un_remark}
-###### Remark
-
-in case you are wondering why we did not just say $P(i,j)$ was the poset of subsets of the set of elements between $i$ and $j$, it is because of the composition.  Of course, it can be done but looks more messy.
-=--
-
-
-## Examples and illustration ##
-
-We will examine the lowest dimensional cases. For $n = 0,1$, there is nothing of note.
+For $n = 0,1$, there is nothing of note.
 
 For $n = 2$, there are unique paths in $[2]$ from $[0]$ to $[1]$, and $[1]$ to $[2]$, so the corresponding homs in $S[2]$ are copies of $\Delta[0]$ (or, if you prefer, of $\Delta[1]^0$!). Things are slightly more interesting for $S[2](0,2)$. Looking at this from the 'subsets' viewpoint, as above, there clearly are two subsets of $\{0,1,2\}$ containing both $0$ and $2$, one corresponds to the direct route in $[2]$ from $0$ to $2$, the other goes via $1$ so is $0\to 1\to 2$. In $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,2\}$ and ending at $\{0,1,2\}$.  
 
@@ -126,7 +197,6 @@ $$
 
 
 
-
 We thus get $S[3](0,3) \cong \Delta[1]^2$, a square. 
 
 The composition maps
@@ -145,52 +215,79 @@ is to be a simplicial map.
 
 A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' in $S[5](0,5)$, and so on.
 
+### For the homotopy coherent nerve
 
-We will return to other thoughts on this $S$ construction later in the entry.
+*  Any [[2-category]] gives a simplcially enriched category using the embedding of [[Cat]] into [[sSet]] via the usual [[nerve]] functor. The homotopy coherent nerve of a 2-category consideed in this way is, sometimes, called the [[geometric nerve]] of the 2-category. The [[Duskin nerve]] of a [[bicategory]] is an extension of this construction. 
 
-One of the reasons for discussing the above is the following:
-
-##Definition##
-
-For $C$ a [[simplicially enriched category]], the **homotopy coherent nerve**  $N(C)$ is the [[simplicial set]] uniquely characterized by the formula 
-
-$$ 
-  Hom_{SSet}(\Delta^n, N(C)) = Hom_{SSet Cat}(S[n], C)
-  \,.
-$$
-
-This extends to a functor
-
-$$
-  N : SSet Cat \to SSet
-  \,.
-$$
-
-By the general logic of [[nerve and realization]], this functor has a [[left adjoint]]
-
-$$
-  S(-) : SSet \to SSet Cat
-  \,.
-$$
-
-Note that in this construction, $S(\Delta^n) \cong S[n]$.
+   A particular case of this nerve is the nerve of a [[2-group]] [[delooping|considered as]] a 2-category.
 
 
-##Remarks##
+## Properties {#Properties}
 
-* The original motivation for the introduction of the homotopy coherent nerve is that it provides a neat simplicial formulation of idea of [[homotopy coherent diagram|homotopy coherent diagrams]]. These were studied in the 1970s, by Boardman and Vogt in joint work,  and Vogt individually,  and Cordier (reference below). [[Jean-Marc Cordier|Cordier]] realised that, with a slight modification in the definition, Vogt's definition of homotopy coherent diagram, indexed by a small category $A$, say, corresponded exactly to a simplicially enriched functor from the $SSet$-category $S[A]$ to the $SSet$-category $Top$. They thus also corresponded to simplicial maps from the [[nerve]] of $A$ to $N(Top)$, (although that latter object was 'too large' to be a simplicial 'set'). This allowed a good definition of homotopy coherent diagrams in arbitrary simplicially enriched categories to be given. This definition works best when the simplicially enriched category is 'locally Kan', in other words it is enriched in the category of [[Kan complex|Kan complexes]]. These locally Kan $SSet$-categories are the fibrant ones in a model category structure on the category of $SSet$-categories. Cordier and Porter (1986) proved that if $C$ is a locally Kan simplicially enriched category then $N(C)$ is a '[[weak Kan complex]]', in other words, a [[quasi-category]].  Many of the ideas behind this result can be traced to Vogt's paper of 1973. In more modern terminology as [[Kan complex]]es can be considered as [[∞-groupoid]]s, these locally Kan simplicially enriched categories are one particularly nice model for a [[(infinity,1)-category]], and so this result is one of the earliest giving the transition from one model for [[(infinity,1)-category]]s to another, the 'weak kan complexes' or [[quasi-categories]].
+* If $C \in sSet Cat$ is such that all [[hom-object]]s $C(x,y) \in sSet$ are [[Kan complex]]es, then the homotopy coherent nerve $N(C)$ is a [[weak Kan complex]]/[[quasi-category]].
 
-*   The use of $S[A]$, above, extends that given at the start of this page. Here $S$ is related  to the [[left adjoint]] of the homotopy coherent nerve, but is defined using a [[comonadic resolution]].  The [[comonad]] comes from the adjunction between small categories and directed graphs with distinguished 'unit' loops. The 'forgetful' part of the adjunction forgets the composition in the category, but remembers that the identity arrows are special. The left adjoint /  'free' part of the adjunction takes a directed graph (with distinguished 'identity' loops, and forms the free category on the non-identity arrows. As usual, we can form a [[comonad]] from this  and hence form a functorial [[simplicial resolution]] of any small category, $A$.  
+  If $f : C \to D$ is a morphism of such Kan-complex enriched categories which is a weak equivalence (in the [[model structure on sSet-categories]]) in that
+
+  * the induced functor 
+
+    $$
+      Ho(f) : Ho(C) \to H(D)
+    $$
+     
+    on the ordinary underlying [[homotopy category of an (infinity,1)-category|homotopy categories]] (obtained by taking hom-wise connected component sets) is [[essentially surjective functor|essentially surjective]] 
+
+  * its component on each hom-object
+
+    $$
+      f_{x,y} : C(x,y) \to C(f(x),f(y))
+    $$
+
+    is a [[homotopy equivalence]],
+
+  then its homotopy coherent nerve
+
+  $$
+    N(f) : N(C) \to N(C)
+  $$
+
+  is a [[model structure for quasi-categories|weak equivalence of]] [[quasi-categories]].
+
+
+## Related concepts
+
+### Comonadic resolution
+
+The use of $S[A]$, above, extends that given at the start of this page. Here $S$ is related  to the [[left adjoint]] of the homotopy coherent nerve, but is defined using a [[comonadic resolution]].  The [[comonad]] comes from the adjunction between small categories and directed graphs with distinguished 'unit' loops. The 'forgetful' part of the adjunction forgets the composition in the category, but remembers that the identity arrows are special. The left adjoint /  'free' part of the adjunction takes a directed graph (with distinguished 'identity' loops, and forms the free category on the non-identity arrows. As usual, we can form a [[comonad]] from this  and hence form a functorial [[simplicial resolution]] of any small category, $A$.  
 
 This can also be seen to be a case of a [[bar resolution]] construction, related to the [[bar construction]]. Here the adjoint pair also give a [[monad]] on   directed graphs with distinguished 'unit' loops and the small category $A$ is an algebra for this monad. 
 
-Since the functors involved preserve the identities on the objects of $A$, the resulting simplicial category  is a simplicially enriched category, and this is $S[A]$.  The $n$-dimensional arrows between objects, $a$ and $b$ in $S[A]$ correspond to a  path from $a$ to $b$ in $A$ containing no identity arrows, together with a bracketting of the resulting string having depth $n$. 
+Since the functors involved preserve the identities on the objects of $A$, the resulting simplicial category  is a simplicially enriched category, and this is $S[A]$.  The $n$-dimensional arrows between objects, $a$ and $b$ in $S[A]$ correspond to a  path from $a$ to $b$ in $A$ containing no identity arrows, together with a bracketting of the 
+resulting string having depth $n$. 
+
+### $W$-Construction of topological operads {#WConstruction}
+
+
+By hom-wise precomposition with the singular complex functor
+
+$$
+  Sing : Top \to sSet
+  \,,
+$$
+
+which is a [[monoidal functor]], the homotopy coherent nerve extends to a nerve of [[Top]]-[[enriched category|categories]]
+
+$$
+  N : Top Cat \to sSet
+  \,.
+$$
+
+As such, it is a special case of the [[Michael Boardman|Boardman]]-[[Rainer Vogt|Vogt]] [[W-construction]] for [[model structure on operads|cofibrant replacement of]] topological [[operad]]s.
+
+In this construction, rouhgly, for $T$ a [[tree]] in an operad $O$, the tree is replaced with the topological space $e(T) \to [0,1]$ of maps from the set of edges of $T$ to the topological unit interval.
+
+We may restrict this construction to the $n$-[[simplex]] $\Delta[n]$, regarded as a [[category]] and then trivially regarded as a $Top$-category. Then a tree in $\Delta[n]$ is necessarily a linear tree $\to \to \cdots \to$ of some length $k$ and is hence mapped to the topological space of functions $k \to [0,1]$, i.e. to the space $[0,1]^k$. This is the [[geometric realization]] of the simplicial cubes $(\Delta[1])^k$ that we saw above.
+
  
-*  Any [[2-category]] gives a simplcially enriched category using the embedding of $Cat$ into $SSet$ via the usual [[nerve]] functor. The homotopy coherent nerve of a 2-category consideed in this way is, sometimes, called the [[geometric nerve]] of the 2-category. The [[Duskin nerve]] of a [[bicategory]] is an extension of this construction. 
-
-   A particular case of this nerve is the nerve of a [[2-group]] considered as a 2-category.
-
-
 ### Relation to quasi-categories
 
 As mentioned above, the simplicial or h.c. nerve, together with its [[adjoint functor|left adjoint]], serves to relate the two models of [[(∞,1)-category|(∞,1)-categories]] given by [[quasi-category|quasi-categories]] and [[simplicially enriched category|simplicially enriched categories]]. 
@@ -203,11 +300,25 @@ See
 
 for details.
 
-##References##
+## History
+
+The original motivation for the introduction of the homotopy coherent nerve is that it provides a neat simplicial formulation of idea of [[homotopy coherent diagram|homotopy coherent diagrams]]. These were studied in the 1970s, by [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] in joint work,  and Vogt individually,  and [[Jean-Marc Cordier|Cordier]] (reference below). 
+
+[[Jean-Marc Cordier|Cordier]] realised that, with a slight modification in the definition, Vogt's definition of homotopy coherent diagram, indexed by a small category $A$, say, corresponded exactly to a simplicially enriched functor from the $SSet$-category $S[A]$ to the $SSet$-category $Top$. They thus also corresponded to simplicial maps from the [[nerve]] of $A$ to $N(Top)$, (although that latter object was 'too large' to be a simplicial 'set'). This allowed a good definition of homotopy coherent diagrams in arbitrary simplicially enriched categories to be given. 
+
+This definition works best when the simplicially enriched category is 'locally Kan', in other words it is enriched in the category of [[Kan complex|Kan complexes]]. These locally Kan $SSet$-categories are the fibrant ones in the [[model structure on sSet-categories]]. 
+
+Cordier and [[Tim Porter|Porter]] (1986) proved that if $C$ is a locally Kan simplicially enriched category then $N(C)$ is a '[[weak Kan complex]]', in other words, a [[quasi-category]].  Many of the ideas behind this result can be traced to [[Rainer Vogt|Vogt]]'s paper of 1973. 
+
+In more modern terminology as [[Kan complex]]es can be considered as [[∞-groupoid]]s, these locally Kan simplicially enriched categories are one particularly nice model for a [[(infinity,1)-category]], and so this result is one of the earliest giving the transition from one model for [[(infinity,1)-category]]s to another, the 'weak kan complexes' or [[quasi-categories]].
+
+
+
+## References
 
 The homotopy coherent nerve operation was introduced, explicitly, in
 
-* J.-M. Cordier, _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112
+* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112
 
 Cordier made the link with earlier work by R.D. Leitch.
 
@@ -221,7 +332,7 @@ spaces_, number 347, Lecture Notes in Maths, Springer-Verlag.
 
 With [[Tim Porter]], Cordier proved the simplicial generalisation of a theorem of [[Rainer Vogt|Vogt]], in
 
-*  J.-M. Cordier and [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, 
+*  [[Jean-Marc Cordier]] and [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, 
 Math. Proc. Cambridge Philos. Soc., 100, (1986), 65 &#8211; 90.
 
 This theorem describes an equivalence between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the homotopy category of [[homotopy coherent diagram]]s in the sense of Vogt. This paper includes an explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a quasicategory. As well as the harder result on when [[outer horn]]s in this quasicategory can be filled.
@@ -232,12 +343,12 @@ Vogt's original version of the theorem is in
  
 Two other papers are relevant to this:
 
-*  J.-M. Cordier and [[Tim Porter]], _Maps between homotopy coherent diagrams_, Top. and its Appls., 
+*  [[Jean-Marc Cordier]] and [[Tim Porter]], _Maps between homotopy coherent diagrams_, Top. and its Appls., 
 28, (1988), 255 &#8211; 275. 
 
 and 
 
-* J.-M. Cordier and T. Porter, _Fibrant diagrams, rectifications and a construction of Loday_, J. 
+* [[Jean-Marc Cordier]] and [[Tim Porter]], _Fibrant diagrams, rectifications and a construction of Loday_, J. 
 Pure. Applied Alg., 67, (1990), 111 &#8211; 124.
 
 An elementary discussion of the concept of homotopy coherence forms Chapter V of
@@ -255,6 +366,7 @@ A review of this latter aspect is also in
 
 * Vivek Dhand, _The simplicial nerve of a simplicial category_ ([pdf](http://www.math.msu.edu/~dhand/sSet.pdf))
 
+
 and 
 
 * Mitya Borachenko, Notes and exercise on $\infty$-cateogires([pdf](http://math.uchicago.edu/~mitya/langlands/quasicategories.pdf))
@@ -263,7 +375,9 @@ and
 
 ## Discussion ##
 
-The following discussion was at [[simplicial nerve]] when this page was at [[simplicial nerve of simplicial categories]].
+> The following discussion was at [[simplicial nerve]] when this page was at [[simplicial nerve of simplicial categories]].
+
+
 +-- {: .query}
 Is there a simplicial nerve that\'s not of simplicial categories?  If not, I\'d put the article here instead of there.  ---Toby
 
