@@ -1,7 +1,7 @@
 
 ##Definition##
 
-The Hilbert cube is the [[Tychonoff product|topological product]]
+The Hilbert cube is the product:
 
 $$\prod_n [0,\frac{1}{n}]\cong\prod_n [-\frac{1}{n},\frac{1}{n}] $$
 
