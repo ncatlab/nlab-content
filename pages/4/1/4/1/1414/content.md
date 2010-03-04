@@ -252,6 +252,12 @@ A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' i
 
   is a [[model structure for quasi-categories|weak equivalence of]] [[quasi-categories]].
 
+  We may think of [[category]] $\Delta[n]$ trivially as a simplicially enriched category. In the [[model structure on sSet-categories]] the object $S[n]$ is a cofibrant replacement of $\Delta[n]$. And Kan-complex enriched categories are fibrant. So on these the homotopy coherent nerve is given by the [[derived hom-space]]] functor
+
+  $$
+    N(C) = \mathbb{R}Hom(\Delta[\bullet], C)
+    \,.
+  $$
 
 ## Related concepts
 
