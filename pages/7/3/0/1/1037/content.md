@@ -333,7 +333,11 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[local equivalence]]
 
+#### 5.5.6 Truncated objects
+
 * [[n-truncated object of an (∞,1)-category]]
+
++ [[Postnikov tower in an (∞,1)-category]]
 
 ##6 $\infty$-Topoi##
 
