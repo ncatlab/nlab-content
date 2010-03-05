@@ -169,4 +169,18 @@ A generalisation of his theorem using simplicially enriched categories and the [
 * J.-M. Cordier and T. Porter, _Vogt's Theorem on Categories of Homotopy Coherent Diagrams_, 
 Math. Proc. Camb. Phil. Soc. 100 (1986) pp. 65-90.
 
+
+A neat application to changing objects in diagrams within a homotopy type can be found in
+
+* J.-M. Cordier and T. Porter, _Maps between homotopy coherent diagrams_, Top. and its Appls., 
+28, (1988), 255 &#8211; 275.
+
+A summary of homotopy coherence can be found in Chapter 5 of 
+
+* K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+
+
+and in chapter 10 of the [[Menagerie]].
+
+
 (WORK IN PROGRESS: MORE TO COME!)
