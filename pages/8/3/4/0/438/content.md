@@ -25,6 +25,19 @@ Other goodies there include parts of a draft monograph on [[profinite homotopica
 
 I have also put the start of a brief discussion of the relationships between the Cech and Vietoris methods and the newly developed methods of Topological Data Analysis.
 
+###List of Goodies!!###
+Please go to [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) for downloads and more details.
+
+* _The Menagerie_: a set of notes on crossed modules, higher dimensional analogues, simplicial techniques, homotopy coherence, and non-Abelian cohomology of various sorts. This version consists of 10 chapter. It will be updated periodically.
+
+* _Abstract Homotopy Theory: The Interaction of Category Theory and Homotopy 
+theory_ This article is an expanded version of notes for a series of lectures given at the _Corso estivo Categorie e Topologia_ in 1991.
+
+
+* _$\mathcal{S}$-categories, $\mathcal{S}$-groupoids, Segal categories and quasicategories_ The notes were prepared for a series of talks that I gave in Hagen in late June and early July 2003, and, with some changes, in the University of La Laguna, the Canary Islands, in September, 2003.
+
+*  _Profinite Algebraic Homotopy_.   There is a link to the first seven chapters of a draft monograph.  This may be going to be published, so this is an incomplete version.
+
 category: people
 
 
