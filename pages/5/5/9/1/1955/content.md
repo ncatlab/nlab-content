@@ -451,7 +451,7 @@ A detailed discussion of K&#228;hler differentials and their generalization from
 
 introducing a setting in which Kahler differentials live quite naturally (but not yet in as much generality as possibly one might hope), see
 
-* [K&#228;hler Categories (Blute-Cockett-Porter-Seely) (2010, to appear)](http://www.math.mcgill.ca/rags/)
+* Blute, Cockett, Porter, Seely,  _K&#228;hler categories_ ((2010)to appear) ([pdf](http://www.math.mcgill.ca/rags/difftl/kahlercahiers.pdf))
 
 ####Abstract####
 This paper establishes a relation between the recently introduced notion of differential category and the more classic theory of K&#228;hler differentials in commutative algebra. A codifferential category is an additive symmetric monoidal category with a monad, which is furthermore an algebra modality. An algebra modality for a monad T is a natural assignment of an associative algebra structure to each object of the form T(M). In a (co)differential category, one should imagine the morphisms in the base category as being linear maps and the morphisms in the (co)Kleisli category as being infinitely differentiable. Finally, a differential category comes equipped with a differential combinator satisfying typical differentiation axioms, expressed coalgebraically.
