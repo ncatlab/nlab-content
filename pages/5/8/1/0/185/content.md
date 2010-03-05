@@ -553,6 +553,30 @@ The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$
 
 =--
 
+## Deformation theory of smooth algebras
+
+Recall the general setup of [[deformation theory]] for objects in an arbitrary category $C$. Here we take $C = C^\infty Ring$ and see what happens.
+
+As describe there, the key structure of interest in deformation theory is the tangent category 
+
+$$
+ T C \to C
+ \,.
+$$
+
+Over each $A \in C$ its [[fiber]] is the category of abelian [[group object]]s in the [[overcategory]] $C/A$.
+
+By an old argument by Quillen, for $C = $ [[CRing]] we have that $T C = Mod$ is the [[bifibration]] of [[module]]s over rings:
+
+for $N$ an $A$-module, the corresponding object in the overcategory is the square-0-extension $R \oplus N \to R$.
+
+We can then find various notions derived from $T C \to C$. For $C = CRing$ this is the following:
+
+* a [[derivation]] $\delta A \to N$ is precisely a [[section]] of the corresponding morphism $A \olus N \to A$ in $C/A$, namely a ring homomorphism $Id \oplus \delta : A \to A \oplus N$.
+
+* to be continued
+
+
 
 ## References {#References}
 
