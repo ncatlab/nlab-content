@@ -26,7 +26,7 @@ The relevance of this concept of **(completely) positive trace-preserving maps**
 
 * Choi, _Completely positive linear maps on complex matrices_ , Linear Algebra and its Applications Volume 10, Issue 3, June 1975, Pages 285-290
 
-The concept was picked up in the physics literature, where (completely) positive trace-preserving maps were synonymously renamed to **quantum channels**, reflecting the physical interpretation of these maps: 
+The concept was picked up in the physics literature, where (completely) positive trace-preserving maps are referred to as **quantum operations** or **quantum channels**, reflecting the physical interpretation of these maps: 
 
 Notably in [[quantum information theory]] one thinks of each way to send a signal from one quantum system to another as being modeled by such a map.
 
@@ -34,11 +34,15 @@ A useful review of the notion in this context is in section 1.7 of
 
 * Caleb J. O'Loan, _Topics in Estimation of Quantum Channels_ , PhD thesis, University of St. Andrews, ([arXiv](http://arxiv.org/abs/1001.3971))
 
-
-
 More generally, the definition can be extended in a more-or-less obvious way from systems with a finite number of degrees of freedom, to general systems. This requires replacing the finite dimensional complex vector space $\mathbb{C}^n$ with an arbitrary [[Hilbert space]] $\mathcal{H}$ and the space of matrices by a suitable space of linear operators on that Hilbert space.
 
-## Details
+## Quantum Operations
+
++--{: .query}
+TO DO: Briefly summarize quantum operations since they form the basis for the definition of channels and also since they relate to environmentally assisted reversibility.
+=--
+
+## Quantum Channels
 
 +-- {: .un_defn}
 ###### Definition
@@ -99,8 +103,6 @@ This is theorem 1 in
 
 =--
 
-
-
 The matrices $\{E_i\}$ that are associated to a completely positive and trace-preserving map by the above theorem are called **Kraus operators**.
 
 In the physics literature the above theorem is then phrased as: _Every quantum channel can be represented using Kraus operators_  .
@@ -109,59 +111,35 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 * objects are the vector spaces $Mat(n \times n, \mathbb{C})$ for all $n \in \mathbb{N}$;
 
-+--{: .query}
-[[Ian Durham]]: If the objects are the set of linear operators on the Hilbert space in question, is $QChan$ small?  Or, if we could make sub-categories of QChan for sets of linear operators of different dimension, could we then use these to make a commutative square?
-
-[[David Roberts]]: Let me be the first to say that I'm not sure what you're asking with regard to the commutative square. But there are certainly subcategories $QChan_n$ with the only object $Mat(n \times n, \mathbb{C})$. More natural would be to allow arbitrary $End(V)$ where $V$ is an $n$-dimensional $\mathbb{C}$-vector space, as then different $V$ could correspond to different representations, say. But in respect of the next comment box, I don't think that this was the category you were after, so this may be a moot point. Unfortunately I don't know enough relevant physics to make that call.
-
-[[Urs Schreiber]]: there is one object of $QChan$ per element $n$ of the set of natural numbers, namely the vector space $Mat(n \times n, \mathbb{C})$. So $QChan$ has a _set_ of objects, namely $Obj(QChan) \simeq \mathbb{N}$ and hence is certainly a [[small category]]. (I don't know which commuting squares are meant.)
-
-[[Ian Durham]]: Yeah, the question on commutative squares was vague so let's not worry about it right now.  I would agree that, as defined, $QChan$ is small, though I'm not so sure about it necessarily being an endomorphism (unless I'm mis-interpreting Urs' comment).  For instance, a quantum channel can take as the input $L(\mathcal{H}_{A})\otimes C(X)$ (where $L(\mathcal{H}_{A})$ is the set of linear operators on the Hilbert space $\mathcal{H}_{A}$ and $C(X)$ is the set of continuous functions on some vector space $X$) and can spit out $L(\mathcal{H}_{B})$.  Physically this means it can take a quantum + classical input and give a quantum-only output.  This doesn't seem endomorphic to me (since we traditionally don't define the classical piece as being on a Hilbert space), at least on some level, but I could be wrong.
-
-[[David Roberts]]: Ok then - if I have two quantum channels, $L(\mathcal{H}_1)\otimes C(X) \to L(\mathcal{H}_2)$ and $L(\mathcal{H}_2)\otimes C(Y) \to L(\mathcal{H}_3)$ (where we may need to have $X = Y$), then what is the composite? I presume this is something of the form
-$$
-L(\mathcal{H}_1)\otimes C(X)\otimes C(Y) \to L(\mathcal{H}_3)?
-$$
-I would be more comfortable if instead of $C(X)\otimes C(Y)$ we had $C(somthing)$, but this should become clear once we write down what the map above is, some expression in terms of Kraus operators I presume.
-
-Personally I think that instead of identifying the objects of the category with the algebras $Mat(m \times m, \mathbb{C})$ (or better, $End(H)$), we should consider the isomorphic category with objects $H$, but with the arrows as before. This allows us to generalise the inputs of the channel to a mix of classical and quantum, as you indicate. The real substance is to show that composites (as I consider in the previous paragraph) exist and behave as they should.
-
-[[Ian Durham]]: There's one sticky wicket there: not all quantum channels are reversible so they're not necessarily isomorphisms (unless I'm mis-interpreting you).  From an information theoretic perspective, there are some quantum channels for which perfect recovery of the initial information, even with environmental assistance, is not possible.  So I would certainly say that _some_ quantum channels are isomorphic categories, but not all.
-
-Regarding composites, normally it is just a composite of Kraus operators (see my first revision of the [quantum channel](http://ncatlab.org/nlab/revision/quantum+channel/1) page).  Regarding the categories, though, I think I may have actually been able to show that it behaves as expected using a commutative square.
-
-[[David Roberts]]: I think you have misunderstood. The comment about isomorphic categories was secretly directed at Urs, and doesn't bear on what quantum channels are, just on how one should view the category of them with a mind towards generalisation. Also note that a single quantum channel is not a category, neither is a quantum channel a map between categories (at least, not in an interesting way that adds to the conceptual development).
-
-[[Ian Durham]]: I was pretending to be Urs. :)  In all seriousness, I didn't mean to give the impression that a single channel was a category.  What I meant was that there are "clumps" (you category people have absconded with all the good words!) of channels of certain dimension (e.g. there's a bunch of channels with 2 x 2 matrix representations) that aren't reversible, even with environmental assistance.
-=--
-
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
 
 * composition of morphisms is, of course, the composition in [[Vect]], i.e. the ordinary composition of linear maps.
 
+## Open systems and reversibility
+
 +--{: .query}
-[[David Roberts]]: I was thinking that perhaps the objects of the category were the vector/Hilbert spaces, and the arrows were the completely positive and trace-preserving maps between the matrix algebras. In this instance, the category theoretical content seems that it would be more detailed than \'it\'s just a subcategory of Vect\'.
-
-[[Ian Durham]]: Yes!  That was what my original plan was.  The idea was that it would be possible to create a monoid if the input and output Hilbert space was the same which would give it possibly interesting group theoretic properties (namely Cayley's theorem which would potentially allow me to find some morphism to unitaries which we like in quantum mechanics because they describe system evolution).
-
-[[Urs Schreiber]]: certainly the quantum channels that go $Mat(n \times n , \mathbb{C}) \to Mat(n \times n, \mathbb{C})$ form a monoid. This is the endomorphism monoid $End_{QChan}(n)$ in $QChan$ on the object $n$, i.e. on the object $Mat(n \times n , \mathbb{C})$.
-
+TO DO: Describe open systems and their relation to reversibility.
 =--
+
+### Discussion
 
 ## References
 
-
 * Choi, M. (1975). _Completely positive linear maps on complex matrices_ , Linear Algebra and its Applications 10: 285&#8211;290.
-
-
-* Smolin, John A., Verstraete, Frank, and Winter, Andreas _Entanglement of assistance and multipartite state distillation_ , Phys. Rev. A, vol. 72, 052317, 2005 ([arXiv:quant-ph/0505038](http://arxiv.org/abs/quant-ph/0505038))
 
 * Mendl, Christian B. and Wolf, Michael M. (2009) _Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem_ , Commun. Math. Phys. 289, 1057-1096 (2009) ([arXiv:0806.2820](http://arxiv.org/abs/0806.2820))
 
+* Nielsen, Michael and Chuang, Isaac (2000) _Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge.
+
 * O'Loan, Caleb J.,  _Topics in Estimation of Quantum Channels_ , PhD thesis, University of St. Andrews, ([arXiv](http://arxiv.org/abs/1001.3971))
+
+* Smolin, John A., Verstraete, Frank, and Winter, Andreas _Entanglement of assistance and multipartite state distillation_ , Phys. Rev. A, vol. 72, 052317, 2005 ([arXiv:quant-ph/0505038](http://arxiv.org/abs/quant-ph/0505038))
 
 * Watrous, John (2008). _Mixing doubly stochastic quantum channels with the completely depolarizing channel_ ([arXiv](http://arxiv.org/abs/0807.2668))
 
 
+
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
+[[!redirects quantum operation]]
+[[!redirects quantum operations]]
