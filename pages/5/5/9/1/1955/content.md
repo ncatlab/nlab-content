@@ -446,7 +446,19 @@ A detailed discussion of K&#228;hler differentials and their generalization from
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
-    
+
+### For a categorical approach, ### 
+
+introducing a setting in which Kahler differentials live quite naturally (but not yet in as much generality as possibly one might hope), see
+
+* [K&#228;hler Categories (Blute-Cockett-Porter-Seely) (2010, to appear)](http://www.math.mcgill.ca/rags/)
+
+####Abstract####
+This paper establishes a relation between the recently introduced notion of differential category and the more classic theory of K&#228;hler differentials in commutative algebra. A codifferential category is an additive symmetric monoidal category with a monad, which is furthermore an algebra modality. An algebra modality for a monad T is a natural assignment of an associative algebra structure to each object of the form T(M). In a (co)differential category, one should imagine the morphisms in the base category as being linear maps and the morphisms in the (co)Kleisli category as being infinitely differentiable. Finally, a differential category comes equipped with a differential combinator satisfying typical differentiation axioms, expressed coalgebraically.
+
+The traditional notion of K&#228;hler differentials defines the notion of a module of A-differential forms with respect to A, where A is a commutative k-algebra. This module is equipped with a universal A-derivation. With this in mind, a K&#228;hler category is an additive monoidal category with an algebra modality and an object of differential forms associated to every object. This object of differential forms satisfies a universal property with respect to derivations. Surprisingly, we are able to show that, under some natural conditions, codifferential categories are K&#228;hler. 
+
+
 [[!redirects Kahler differential]]
 [[!redirects Kahler differentials]]
 [[!redirects Kähler differentials]]
