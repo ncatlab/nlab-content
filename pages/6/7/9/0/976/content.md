@@ -199,17 +199,17 @@ The original references for the shape theory of metric compacta are:
 
 The 'ANR-systems' approach of Marde&#353;i&#263; and Segal appeared in
 
-* S. Marde&#353;i&#263; and J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
+* [[Sibe Mardesic|S. Marde?i?]] and J. Segal, _Shapes of compacta and ANR-systems, Fund. Math. 72 (1971) 41-59,
 
 and is fully developed in 
 
-* S. Marde&#353;i&#263;, J. Segal, (1982) Shape Theory, North 
+* [[Sibe Mardesic|S. Marde?i?]], J. Segal, (1982) Shape Theory, North 
 Holland. 
 
 The more or less equivalent pro-object approach was independently developed by Porter in 
 
-* T. Porter, _Cech homotopy I_, Jour. London Math. Soc., 1, 6, 1973, pp. 429-436.
-* T. Porter, _Cech homotopy II_, Jour. London Math. Soc., 2, 6, 1973, pp. 667-675.
+* [[Tim Porter|T. Porter]], _Cech homotopy I_, Jour. London Math. Soc., 1, 6, 1973, pp. 429-436.
+* [[Tim Porter|T. Porter]], _Cech homotopy II_, Jour. London Math. Soc., 2, 6, 1973, pp. 667-675.
 
 References relating more to strong shape  theory include:
 
@@ -218,9 +218,9 @@ References relating more to strong shape  theory include:
 
 * [[Sibe Mardesic|S. Marde?i?]], Strong Shape and Homology, Springer monographs in mathematics, Springer-Verlag. 
 
-* M. A. Batanin, [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
+* [[Michael Batanin]], [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 
-* T. Porter, _Stability Results for Topological Spaces_, Math. Zeit. 150, 1974, pp. 1-21.
+* [[Tim Porter]], _Stability Results for Topological Spaces_, Math. Zeit. 150, 1974, pp. 1-21.
 
 * T. Porter, [Abstract homotopy theory in procategories](archive.numdam.org/article/CTGDC_1976__17_2_113_0.pdf)
 , Cahiers Top. G&#233;om. Diff., 17, 1976, pp. 113-124;
@@ -237,11 +237,11 @@ References to the categorical forms of shape theory include
 
 * A. Deleanu and P.J. Hilton, Borsuk's shape and Grothendieck categories of pro-objects, Math. Proc. Camb. Phil. Soc. 79 (1976) 473-482.
 
-* D.  Bourn and J.-M. Cordier, [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
+* D.  Bourn and [[Jean-Marc Cordier|J.-M. Cordier]], [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
 
 and
 
-* J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008),
+* [[Jean-Marc Cordier|J.-M. Cordier]] and [[Tim Porter|T. Porter]], (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008),
 
 which explores categorical methods in the area. 
 
