@@ -3,19 +3,21 @@ I was until 2006 a professor of mathematics at the University of Wales Bangor (a
 +--{.query}
 Not offering a maths degree is one thing, but it seems that they don\'t even have a maths *department*! Who teaches basic maths courses to the CS (and chemistry, biology, electronics, ...) majors? &#8212;[[Toby Bartels|Toby]]
 
-In the UK, there are several universities that do not have mathematics departments and in which engineers, computer scientists, physicists and chemists do not get any theoretically based mathematics to speak of. Biologists have traditionally received no mathematics training after the age of 16. (Sometimes it shows and is the bane of the statisticians detailed to teach biology students statistics, and don't mention psychology students! Note also that quite a few of the so called 'financial  experts' in the UK have little or no maths. Some do, and I am not saying that they were any better in the causes of the recent crisis!) -[[Tim Porter|Tim]]
+In the UK, there are several universities that do not have mathematics departments and in which engineers, computer scientists, physicists and chemists do not get any theoretically based mathematics to speak of. Biologists have traditionally received no mathematics training after the age of 16. (Sometimes it shows and is the bane of the statisticians detailed to teach biology students statistics, and don't mention psychology students! Note also that quite a few of the so called 'financial  experts' in the UK have little or no maths. Some do, and I am not saying that they were any better in the causes of the recent crisis!) 
+
+In Bangor, it is even worse. Not only is there no mathematics department. There are no mathematicians _per se_, employed as full time members of staff.  There are mathematically competent people in some departments who do teach their undergraduates mathematics.  I, of course, do not think that is as good.
+
+-[[Tim Porter|Tim]]
 
 
 
 
 =--
+##What you can find here and on my personal pages##
+I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 10 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between homotopy quantum field theory and non-Abelian cohomology.
 
-I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 7 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between lax methods and homotopy coherence.  
 
-
-I am also very interested in directed homotopy theory and the application of ideas form the general area of the infinity category/homotopy toolkit in topological data analysis, artificial intelligence, and computer science.
-
-I have added a series of entries on differential algebra to the nLab.  This is not my expert area and these were produced from a set of notes that I typed up some years ago (based on Tanr&#233;'s SLN 1025).  I think that the terminology needs making 'leaner and meaner'! 
+I am also very interested in directed homotopy theory and the application of ideas form the general area of the infinity category/homotopy toolkit in topological data analysis, artificial intelligence, and computer science. Some material can be found on those personal pages.
 
 
 
