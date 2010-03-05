@@ -17,13 +17,13 @@ Some idea of the content can be gleaned from the Table of Contents.
 
 * 1 Preliminaries 
 
-   * 1.1 Groups and Groupoids 
+    * 1.1 Groups and Groupoids 
 
-   * 1.2 A very brief introduction to cohomology 
+    * 1.2 A very brief introduction to cohomology 
 
 	   *  1.2.1 Extensions
 
-   	   *  1.2.2 Invariants 
+           *  1.2.2 Invariants 
 
 	   *  1.2.3 Homology and Cohomology of spaces
 
@@ -33,7 +33,7 @@ Some idea of the content can be gleaned from the Table of Contents.
 
 	   *  1.2.6 The bar resolution
 
-   * 1.3 Simplicial things in a category
+    * 1.3 Simplicial things in a category
 
 	   *  1.3.1 Simplicial Sets 
 
@@ -41,17 +41,18 @@ Some idea of the content can be gleaned from the Table of Contents.
 
 	   *  1.3.3 The Moore complex and the homotopy groups of a simplicial group 	   
 
+     
            *  1.3.4 Kan complexes and Kan fibrations 
 
 	   *  1.3.5 Simplicial groups are Kan  
 
-	   *  1.3.6 T -complexes  
+	   *  1.3.6 T-complexes  
 
 	   *  1.3.7 Group T-complexes
 
 * 2 Crossed modules - definitions, examples and applications  
 
-   * 2.1 Crossed modules
+    * 2.1 Crossed modules
 
 	   *  2.1.1 Algebraic examples of crossed modules 
 
