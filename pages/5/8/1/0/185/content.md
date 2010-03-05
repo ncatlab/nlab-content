@@ -557,34 +557,67 @@ The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$
 
 > **under construction**
 
-Recall the general setup of [[deformation theory]] for objects in an arbitrary category $C$. Here we take $C = C^\infty Ring$ and see what happens.
+For $C$ any category whose objects we think of as "functions algebras on test spaces", such as $C = C^\infty Ring$, there is a general intrinsic notion of [[tangent complex]] and [[deformation theory]] of such objects. 
 
-As describe there, the key structure of interest in deformation theory is the tangent category 
+As describe there, the key structure of interest from which all the other structure here is induced is the **tangent category**
 
 $$
  T C \to C
  \,.
 $$
 
-Over each $A \in C$ its [[fiber]] is the category of abelian [[group object]]s in the [[overcategory]] $C/A$.
+This is $T C = Ab(Arr(C))$ the [[codomain fibration]] of $C$ "fiberwise stabilized", meaning that in each fiber one takes it to consist of $Ab(C/A)$, the abelian [[group object]]s in the [[overcategory]]. 
 
-By an old argument by Quillen, for $C = $ [[CRing]] we have that $T C = Mod$ is the [[bifibration]] of [[module]]s over rings:
 
-for $N$ an $A$-module, the corresponding object in the overcategory is the square-0-extension $R \oplus N \to R$.
+We now first recall what this means for ordinary rings and how it induces the ordinary notion of derivations and  modules for ordinary rings by setting $C = $ [[CRing]],  and then look at what it implies for $C^\infty$-rings by setting $C = C^\infty Rings$.
 
-We can then find various notions derived from $T C \to C$. For $C = CRing$ this is the following:
+By an old argument by Quillen, for $C = $ [[CRing]] we have that $T C = Mod$ is the [[bifibration]] of [[module]]s over rings, there is a natural equivalence
 
-* a [[derivation]] $\delta A \to N$ is precisely a [[section]] of the corresponding morphism $A \olus N \to A$ in $C/A$, namely a ring homomorphism $Id \oplus \delta : A \to A \oplus N$.
+$$
+  Mod_A \stackrel{\simeq}{\to} Ab(C/A)
+  \,.
+$$
 
-* The forgetful functor $Ab(Ring/A) \to Ring/A$ has a [[left adjoint]] 
+This is induced by the functor that sends
+an $A$-module $N$ to the corresponding object in 
+the square-0-extension $R \oplus N \to R$. (See [[module]]).
 
-  $Hom_{Ab(Ring/R)}(\Omega_K^1(A),N) \simeq Hom_{Ring/A}(A,A \oplus N)$
+From this structure alone a lot of further structure follows:
 
-  given by the [[Kähler differential]]s.
+* a [[derivation]] $\delta A \to N$ is precisely a [[section]] of the corresponding morphism $A \olus N \to A$ in $C/A$, in the category $C$ namely a ring homomorphism 
 
-This story changes slightly as we pass from plain rings to smooth algebras:
+  $$
+    \array{
+      A &&\stackrel{\delta}{\to}&& A \oplus N
+      \\
+      & {}_ {=}\searrow && \swarrow
+      \\
+      && A
+    }
+    \,.
+  $$
 
-one shows that an abelian group object in $C^\infty Ring/A$ is a square-0 extension $(A \oplus N)$ for $N$ a module the underlying $\mathbb{R}$-algebra $A$, which is uniquely equipped with the $C^\infty$Ring-struncture given by
+* The forgetful functor $T Ring \simeq Mod \to Ring$ has a [[left adjoint]] 
+
+  $$  
+    \Omega_K^1 : Ring \to Mod
+  $$
+
+  that sends each ring to its module of [[Kähler differential]]s.
+
+  The fact that it is left adjoint is the universal property
+  of the K&#228;hler differentials as te objects co-representing
+  derivations
+
+  $Hom_{Ab(Ring/R)}(\Omega_K^1(A),N) \simeq 
+  Hom_{Ring/A}(A,A \oplus N)$.
+
+  So every derivation $\delta : A \to N$ uniquely corresponds to a module morphism $\Omega^1_K(A) \to N$, namely the one that sends 
+  $d a \mapsto \delta(a)$.
+
+This abstract story remains precisely the same for $C^\infty$-rings (and in fact for everything else!) but what it means concretely changes.
+
+The crucial observation is (as one can show) that an abelian group object in $C^\infty Ring/A$ is a square-0 extension $(A \oplus N)$ for $N$ an (ordinary) module of the _underlying_ $\mathbb{R}$-algebra $A$. This square-0-extension happens to be _uniquely_ equipped with the $C^\infty$-Ring-struncture given by
 
 $$
   (f \in C^\infty(\mathbb{R}^n) \to \mathbb{R})
@@ -599,7 +632,9 @@ $$
   \,.
 $$
 
-But from this smooth structure it follows that a [[derivation]] -- by general abstract definition  a morphism of $C^\infty$-rings $Id \oplus \delta : A \to A \oplus N$ is a morphism that satisfies _for all_ $f \in C^\infty(\mathbb{R}^n, \mathbb{R})$ that
+This uniquely induced smooth structure on objects in $Ab(C^\infty Ring/A)$ then in turn affects the nature of the notion of derivation and of K&#228;hler differentials, as those are defined by general abstract reasooning from the former.
+
+First of all it follows that a [[derivation]] -- by general abstract definition  a morphism of $C^\infty$-rings $Id \oplus \delta : A \to A \oplus N$ -- is a morphism that satisfies _for all_ $f \in C^\infty(\mathbb{R}^n, \mathbb{R})$ that
 
 $$
   \delta : f(a_1, \cdots, a_n) \mapsto 
@@ -608,7 +643,10 @@ $$
   \,.
 $$
 
+For ordinary rings only the compatibility $\delta (a_1 \cdot a_2) = \delta (a_1) a_2 + a_1 \delta(a_2)$ with the single product operation is required. Here, however, compatibility with infinitely more operations $f \in C^\infty(\mathbb{R}^n, \mathbb{R})$ is demanded.
+
 Accordingly, then, the K&#228;hler differentials as defined with respect to such derivations are different from the purely ring-theoretic ones: they produce the _right_ notion of smooth 1-forms here, whereas the ring-theoretic one does not.
+
 
 
 ## References {#References}
