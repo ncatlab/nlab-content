@@ -1,4 +1,4 @@
-I was until 2006 a professor of mathematics at the University of Wales Bangor (aka University of Bangor). The University closed down the Mathematics degree and I was retired! Since then I have been on various interesting visiting positions, whilst being Emeritus, retaining an office in the Computer Science section of the university and continuing to work at least as hard as before (I claim). I am also an emeritus member of WIMCS, the Wales Institute of Mathematical and Computational Sciences.
+I was until 2006 a professor of mathematics at the University of Wales Bangor (aka University of Bangor). The University closed down the Mathematics degree and I was 'retired'! Since then I have been on various interesting visiting positions, whilst being Emeritus, retaining an office in the Computer Science section of the university and continuing to work at least as hard as before (I claim). I am also an emeritus member of [WIMCS](http://www.wimcs.ac.uk/), the Wales Institute of Mathematical and Computational Sciences.
 
 +--{.query}
 Not offering a maths degree is one thing, but it seems that they don\'t even have a maths *department*! Who teaches basic maths courses to the CS (and chemistry, biology, electronics, ...) majors? &#8212;[[Toby Bartels|Toby]]
@@ -33,7 +33,7 @@ Please go to [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) f
 * _The [[Menagerie]]_: a set of notes on crossed modules, higher dimensional analogues, simplicial techniques, homotopy coherence, and non-Abelian cohomology of various sorts. This version consists of 10 chapter. It will be updated periodically.
 
 * _Abstract Homotopy Theory: The Interaction of Category Theory and Homotopy 
-theory_ This article is an expanded version of notes for a series of lectures given at the _Corso estivo Categorie e Topologia_ in 1991.
+theory_ This article is an expanded version of notes for a series of lectures given at the _Corso estivo Categorie e Topologia_ in 1991. They appeared in more or less this form in Cubo, 5 (2003) 115-165, 2003.
 
 
 * _$\mathcal{S}$-categories, $\mathcal{S}$-groupoids, Segal categories and quasicategories_ The notes were prepared for a series of talks that I gave in Hagen in late June and early July 2003, and, with some changes, in the University of La Laguna, the Canary Islands, in September, 2003.
