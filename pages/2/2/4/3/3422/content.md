@@ -270,7 +270,24 @@ $$
   St_\phi : sSet^+/S \to [C^{op}, sSet^+]
 $$
 
-from [[marked simplicial set]]s over $S$ to marked [[simplicial presheaves]] is on the underlying simplicial sets (forgetting the marking) the same straightening functor as [above](#GrpdModelCatVersion).  It acts on the markings as follows... blah-blah...
+from [[marked simplicial set]]s over $S$ to marked [[simplicial presheaves]] is on the underlying simplicial sets (forgetting the marking) the same straightening functor as [above](#GrpdModelCatVersion).  
+
+It remains to describe the action on markings. Each edge $f: d \rightarrow      
+e$ of $X \in sSet/S$ gives rise to an edge in $St_\phi (X)(d) =                 
+K(\phi,p)(d,v)$ as follows. The 2-simplex $f \star v$ of                        
+$X^{\triangleright}$ gives a diagram in $K(\phi,p)$                             
+$$                                                                              
+      \array{                                                                   
+         d &\stackrel{f}{\to}&  && e                                            
+         \\                                                                     
+         & \searrow & \Rightarrow & \swarrow                                    
+         \\                                                                     
+         && v                                                                   
+      }                                                                         
+$$                                                                              
+which corresponds to an edge $\tilde{f} \in K(\phi,p)(d,v)=St_\phi X(d)$. 
+
+If $f$ is marked in $X$, we ask that $\tilde{f} \in St_\phi(X)(d)$ is marked, but this isn't quite enough to make $St^+_\phi(X)$ a simplicial functor. The hom simplicial sets of $sSet^+$ are the spaces $Map^\sharp(X,Y)$, which consist of those simplices of $Map(X,Y)$ whose edges are all marked. By the definition of the simplicial homs in the category of [[marked simplicial set]]s, we must also mark the edges $g^*(\tilde{f})$ defined as follows. Because $St_\phi(X)$ is a simplicial functor, each $g \in C(c,d)_1$ gives rise to a map $St_\phi(X)(d) \times \Delta^1 \rightarrow St_\phi(X)(c)$. Let $g^*(\tilde{f})$ be the 1-simplex of $St_\phi(X)(c)$ given by precomposing this map with $(\tilde{f},id) : \Delta^1 \rightarrow St_\phi(X)(d)\times \Delta^1$. An edge of $St^+_\phi(X)(c)$ is marked iff it is of the form $g^*(\tilde{f})$ for $g \in C(c,d)_1$ and $f$ a marked edge of $X$.
 
 As before, this has an [[sSet]]-[[right adjoint]], the **unstraightening functor**
 
