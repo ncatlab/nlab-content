@@ -555,6 +555,8 @@ The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$
 
 ## Deformation theory of smooth algebras
 
+> **under construction**
+
 Recall the general setup of [[deformation theory]] for objects in an arbitrary category $C$. Here we take $C = C^\infty Ring$ and see what happens.
 
 As describe there, the key structure of interest in deformation theory is the tangent category 
@@ -574,8 +576,39 @@ We can then find various notions derived from $T C \to C$. For $C = CRing$ this 
 
 * a [[derivation]] $\delta A \to N$ is precisely a [[section]] of the corresponding morphism $A \olus N \to A$ in $C/A$, namely a ring homomorphism $Id \oplus \delta : A \to A \oplus N$.
 
-* to be continued
+* The forgetful functor $Ab(Ring/A) \to Ring/A$ has a [[left adjoint]] 
 
+  $Hom_{Ab(Ring/R)}(\Omega_K^1(A),N) \simeq Hom_{Ring/A}(A,A \oplus N)$
+
+  given by the [[Kähler differential]]s.
+
+This story changes slightly as we pass from plain rings to smooth algebras:
+
+one shows that an abelian group object in $C^\infty Ring/A$ is a square-0 extension $(A \oplus N)$ for $N$ a module the underlying $\mathbb{R}$-algebra $A$, which is uniquely equipped with the $C^\infty$Ring-struncture given by
+
+$$
+  (f \in C^\infty(\mathbb{R}^n) \to \mathbb{R})
+  \mapsto
+  \left(
+     (a_1, n_1), \cdots, (a_n, n_n))
+     \mapsto
+      f(a_1, \cdots, a_n)
+      + 
+      \sum_{i = 1^n} \frac{\partial f}{\partial x_i}(a_1, \cdots, a_n) n_i
+  \right)
+  \,.
+$$
+
+But from this smooth structure it follows that a [[derivation]] -- by general abstract definition  a morphism of $C^\infty$-rings $Id \oplus \delta : A \to A \oplus N$ is a morphism that satisfies _for all_ $f \in C^\infty(\mathbb{R}^n, \mathbb{R})$ that
+
+$$
+  \delta : f(a_1, \cdots, a_n) \mapsto 
+  \sum_i \frac{\partial f}{\partial x_i}
+  \delta a_i
+  \,.
+$$
+
+Accordingly, then, the K&#228;hler differentials as defined with respect to such derivations are different from the purely ring-theoretic ones: they produce the _right_ notion of smooth 1-forms here, whereas the ring-theoretic one does not.
 
 
 ## References {#References}
