@@ -276,7 +276,7 @@ However, the only proof we know that $d e^t \ne e^t d t$ is quite tricky: in fac
 
 It would be  desirable to either find a proof that avoids the Axiom of Choice, or show that axioms beyond ZF are necessary for this result.
 
-To avoid this annoying property of K&#228;hler differentials we can proceed as follows.  Given a commutative algebra $A$, let $Der(A)$ be the $A$-bimodule of derivations.  Then it is not hard to check that $Der(A)$ is the dual of 
+To avoid this annoying property of K&#228;hler differentials we can proceed as follows.  Given a commutative algebra $A$, let $Der(A)$ be the $A$-bimodule of derivations.  
 
 Define $\Omega^1(A)$ to be the dual of $Der(A)$:
 
@@ -292,21 +292,27 @@ $$ d f (X) = X(f)$$
 
 for $X \in Der(A)$.
 
-Now, suppose  $A=C^\infty(M)$ where $M$ is any smooth manifold.  Then elements of $\Omega^1(A)$ can be identified with ordinary smooth 1-forms on $M$.  This requires some work: the key is to show that every derivation of $A$ comes from a smooth vector field on $M$.   And in this case, one can show that any derivation $X: A \to M$ factors through $Omega^1(A)$ when $M$ is free, and in particular if $M=A$. 
+Now, suppose  $A=C^\infty(M)$ where $M$ is any smooth manifold.  Then elements of $\Omega^1(A)$ can be identified with ordinary smooth 1-forms on $M$:
+
+from the [[Hadamard lemma]] it follows that $Der(C^\infty(M)) = \Gamma(T M)$ is precisely the $C^\infty(X)$-module of [[vector field]]s on $X$, and [[differential form|1-forms]] are the $C^\infty(X)$-linear duals of vector fields, by definition.
+
+And in this case, one can show that any [[derivation]] $X: A \to M$ factors through $Omega^1(A)$ when $M$ is free, and in particular if $M=A$. 
 
 We can expand on this remark as follows.  Quite generally, for any commutative algebra $A$ over a field $k$, we have
 
 $$ Der(A) \cong \Omega^1_K(A)^* $$
 
-and by definition
+by the universal property of K&#228;hler differentials, which identifies derivations $A \to A$ with $A$-module morphisms $\Omega^1_K(A) \to A$.
+
+Using the definition 
 
 $$\Omega^1(A) = Der(A)^* $$
 
-so we have
+(of ordinary smooth 1-forms in the case that $A = C^\infty(M)$) we have that these are the linear bidual of the K&#228;hler differentials:
 
 $$\Omega^1(A) \cong \Omega^1_K(A)^{**} $$
 
-There is always a homomorphism from a module to its double dual, so we have
+There is always a homomorphism from a module to its double dual, so we have a morphism
 
 $$ j: \Omega^1_K(A) \to \Omega^1(A) $$
 
