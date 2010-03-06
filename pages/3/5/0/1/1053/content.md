@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea ##
 
 Unlike traditional logics, which deal with the truth of
