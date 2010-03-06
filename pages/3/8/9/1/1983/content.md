@@ -20,6 +20,8 @@ The book discusses the construction and the properties of [[smooth topos]]es $(\
 All models are obtained as [[category of sheaves|categories of sheaves]] on [[site]]s whose underlying category is a [[subcategory]] of that of [[smooth loci]].
 
 
+* [[de Rham theorem|synthetic de Rham theorem]]
+
 ## Models {#Models}
 
 The following tabulates various models for [[smooth topos]]es and lists their properties.
