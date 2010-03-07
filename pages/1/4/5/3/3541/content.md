@@ -148,7 +148,7 @@ Notice that the identity map is clearly completely positive and trace preserving
 ## Open systems and reversibility
 
 +--{: .query}
-TO DO: Describe open systems and their relation to reversibility.
+TO DO: Describe open systems and their relation to reversibility.  Give an example of the paradox that arises when applying this formalism to closed time-like curves via the Deutsch-Bacon consistency condition.
 =--
 
 ### Discussion
