@@ -83,8 +83,7 @@ Suppose $X$ is locally compact Hausdorff and $A\subset X$. The inclusion $j: A\t
 
 This category is called the _proper category at $\infty$_.
 
-Note that $(Proper,\Sigma)$ admits a [[calculus of fractions]], in fact, of right fractions.
-
+Note that $(Proper,\Sigma)$ admits a [[calculus of fractions|calculus of right fractions]],
 
 
 
