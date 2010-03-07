@@ -32,7 +32,7 @@ To illustrate the idea of the ends of a space $X$, we note that naively $\mathbb
 
 More exactly, consider the system of spaces
 
-$$\varepsilon(X) = \{closure(X\setminus K) : K compact \sunset X\},$$
+$$\varepsilon(X) = \{closure(X\setminus K) : K compact \subset X\},$$
 
 This is an inverse system or [[pro-object]] in the category of spaces. Applying the connected component functor, $\pi_0$, to this system of spaces gives $\pi_0(X)$, and, classically, one takes the limit of this to get 
 
@@ -75,15 +75,17 @@ We call the corresponding notion of homotopy, 'proper homotopy'.
 We get a 'Proper category' and an associated 'proper homotopy category', which we will denote $Ho(Proper)$. If we are restricting to $\sigma$-compact spaces we may write $Proper_\sigma$, and so on.
 
 ###Germs at $\infty$###
-Although a proper map $f: X\to Y$ will induce a continuous $\varepsilon(f)$, on the end spaces, it is clear that $f$ does not need to be defined on the whole of $X$ for this to work, as $\varepsilon$ encodes behaviour 'out towards $\infity$'.  This leads to the notion of a 'germ at $\infity$'.
+Although a proper map $f: X\to Y$ will induce a continuous $\varepsilon(f)$, on the end spaces, it is clear that $f$ does not need to be defined on the whole of $X$ for this to work, as $\varepsilon$ encodes behaviour 'out towards $\infty$'.  This leads to the notion of a 'germ at $\infty$'.
 
-Suppose $X$ is locally compact Hausdorff and $A\subset X$. The inclusion $j: A\to X$ is 'cofinal' if the closure of $W\setminus A$ is compact.  Note that a cofinal inclusion is proper and induces an isomorphism $\varepilon(A)\cong \varepsilon(X)$.  Let $\Sigma$ be the class of all cofinal inclusions in $Proper$ and let $Proper_\infty = Proper[\Sigma^{-1}]$, the category obtained by formally inverting the cofinal inclusions. 
+Suppose $X$ is locally compact Hausdorff and $A\subset X$. The inclusion $j: A\to X$ is 'cofinal' if the closure of $W\setminus A$ is compact.  Note that a cofinal inclusion is proper and induces an isomorphism $\varepsilon(A)\cong \varepsilon(X)$.  Let $\Sigma$ be the class of all cofinal inclusions in $Proper$ and let $Proper_\infty = Proper[\Sigma^{-1}]$, the category obtained by formally inverting the cofinal inclusions. 
 
 ####Definition#### 
 
 This category is called the _proper category at $\infty$_.
 
-Note that $(Proper,\Sigma)$ admits a [[calculus of fractions|calculus of right fractions]],
+Note that $(Proper,\Sigma)$ admits a [[calculus of fractions|calculus of right fractions]], so any morphism from $X$ to $Y$ in $Proper_\infty$ can be represented by a diagram 
+$$X\stackrel{j}{\leftarrow} A \stackrel{f}{\rightarrow}Y,$$
+with $j$ a cofinal inclusion, i.e., $f$ is defined on some 'neighbourhood of the end of $X$'.
 
 
 
@@ -98,5 +100,4 @@ Books:
 * [[Hans-Joachim Baues|H. J. Baues]] and A. Quintero, _Infinite homotopy theory_, Volume 6 of K-monographs in mathematics,	Springer, 2001
 
 * Bruce Hughes and Andrew Ranicki, _Ends of Complexes_, Cambridge Tracts in Mathematics (No. 123), C.U.P.
-
 
