@@ -27,4 +27,5 @@ A matrix Hopf algebra $\mathcal{H}$ with basis $T$ is often not a matrix bialgeb
 coordinate ring of $GL(n,k)$ is not a matrix bialgebra
 with respect to the obvious basis $T$; in this example this can be repaired by enlarging the basis by one group-like element: the inverse of the determinant. On the other hand, the coordinate algebra of the special linear group $O(SL(n,k))$ is a matrix bialgebra and a matrix Hopf algebra with the same standard basis $T$.
 
+[[!redirects matrix bialgebra]]
 [[!redirects matrix Hopf algebras]]
