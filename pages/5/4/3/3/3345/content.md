@@ -4,7 +4,9 @@
 </div>
 
 
-The is a [[model category]] structure on the [[category]] $[\Box^{op},Set]$ of [[cubical set]]s which is [[Quillen equivalence|Quillen equivalent]] to the standard [[model structure on simplicial sets]].
+There is a [[model category]] structure on the [[category]] $[\Box^{op},Set]$ of [[cubical set]]s whose [[homotopy theory]] is that of the standard [[model structure on simplicial sets]].
+
+Using this, cubical sets are a way to describe [[infinity-groupoid]]s using of all the [[geometric shapes for higher structures]] the [[cube]].
 
 ...
 
