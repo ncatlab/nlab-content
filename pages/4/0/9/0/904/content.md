@@ -19,5 +19,9 @@ The definition of fundamental group in terms of homotopy classes of loops at a b
 
 A similar type of construction gives the [[fundamental group of a topos]]. Other related forms include a &#268;ech version of the fundamental group used in shape theory, and linked to &#268;ech homology groups of a compact space.
 
+## Proper fundamental groups## 
+In the context of [[proper homotopy theory]] there are two related fundamental groups for single ended spaces. 
+
+
 
 [[!redirects fundamental groups]]
