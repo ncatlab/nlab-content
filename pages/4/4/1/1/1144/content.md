@@ -37,6 +37,8 @@ Moreover, via the [[homotopy hypothesis]] the study of [[topological space]]s is
 
 ### Rational homotopy types
 
+* [[rational homotopy equivalence]]
+
 > ... weak equivalences those morphisms in [[Top]] that induce isomorphisms on [[rationalization|rationalized]] [[homotopy group]]s ... 
 
 
