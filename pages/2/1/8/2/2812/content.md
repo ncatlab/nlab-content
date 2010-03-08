@@ -8,7 +8,7 @@
 
 The collectoin $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal DoldKan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
 
-Notably, this cochain complex is an $E_\infty$-[[E-infinity-algebra|algebra]] (an [[algebra over an operad|algebra]] over the [[E-infinity operad|E-∞ operad]]). In [[chain homology and cohomology|cohomology]] it becomes a [[graded-commutative algebra]].
+Notably, this cochain complex is an $E_\infty$-[[E-|algebra]] (an [[algebra over an operad|algebra]] over the [[E-infinity operad|E-∞ operad]]). In [[chain homology and cohomology|cohomology]] it becomes a [[graded algebra|graded-commutative algebra]].
 
 ## Definition
 
