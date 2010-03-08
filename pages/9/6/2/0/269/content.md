@@ -179,7 +179,7 @@ Geometric realization is a functor [[adjoint functor|left adjoint]] to the funct
 $$cub: Top \to Set^{\Box^{op}}$$ 
 which takes a space $S$ to the functor $\hom_{Top}(I^{\bullet}-, S)$. 
 
-## subdivision and fibrant replacement ##
+## Subdivision and fibrant replacement ##
 
 Jardine constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical
 set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
@@ -211,6 +211,9 @@ add some degeneracy maps to cubical sets), see e.g. [Maltsiniotis paper](http://
 defined similarly. The question is whether $Ex^\infty X$ with $X$ a cubical set with connections is fibrant. **Is it true?**
 
 
+## Model category structure
+
+There is a [[model structure on cubical sets]] with the same [[homotopy theory]] as the standard [[model structure on simplicial sets]], which models [[infinity-groupoid]]s.
 
 # Background# 
 
