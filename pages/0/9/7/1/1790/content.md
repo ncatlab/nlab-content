@@ -1,3 +1,4 @@
+[[!redirects Cech model structure on simplicial presheaves]]
 
 Among the various [[model structure on simplicial presheaves|model structures on simplicial presheaves]] (see there for details, background and motivation), the _&#268;ech_ model structure is in between the [[global model structure on simplicial presheaves]] and the [[local model structure on simplicial presheaves]]. The latter is obtained by localizing the global structure at local weak equivalences -- in particular [[hypercovers]] -- , while the &#268;ech structure is obtained by localizing only at [[?ech covers]].
 
