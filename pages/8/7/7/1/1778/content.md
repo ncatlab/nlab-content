@@ -1,10 +1,13 @@
+[[!redirects {Č}ech cohomology]]
+[[!redirects ?ech cohomology]]
 [[!redirects Čech cohomology]]
 [[!redirects Cech cohomology]]
+
 <div class="rightHandSide toc">
 [[!include cohomology - contents]]
 </div>
 
-#Contents#
+#&#268;ech cohomology#
 * automatic table of contents goes here
 {:toc}
 
@@ -1059,6 +1062,3 @@ A long list of reasons why higher &#268;ech cohomology might
 is after all better behaved than its [[hypercompletion]] where a cycle is with respect to an arbitrary [[hypercover]] is in section 6.5.4, **Descent versus Hyperdescent** of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
-
-
-[[!redirects Čech cohomology]]
