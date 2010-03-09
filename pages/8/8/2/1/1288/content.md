@@ -1,6 +1,6 @@
 Grothendieck has developed a deep version of _differential calculus_, based on a linearization of $O_X$-bimodules. It is also related to the (de Rham) descent data for the stack of $O_X$-modules over the simplicial scheme resolving the diagonal of $X$. As abstract [[descent]] data correspond to the flat [[connections]] for the corresponding [[monad]], this was historically the first case in which this correspondence was noted; in positive characteristics Grothendieck called the corresponding descent data for the de Rham site "costratifications", see
 
-* P. Berthelot,  A. Ogus, Notes on crystalline cohomology, Princeton Univ.P. 1978. vi+243, ISBN0-691-08218-9
+* P. Berthelot,  A. Ogus, _Notes on crystalline cohomology_, Princeton Univ.P. 1978. vi+243, ISBN0-691-08218-9
 
 This corresponds to looking at a sequence of infinitesimal neighborhoods of the diagonal. This geometrical principle can be applied to other categories; it is the basis of the study of jet-schemes and close in spirit to some constructions in synthetic differential geometry.
 
@@ -27,5 +27,7 @@ London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. 
 Regular differential operators have been nontrivially generalized to noncommutative rings (and schemes) by V. Lunts and A. L. Rosenberg, as well as to the setting of braided monoidal categories. Their motivation is an analogue of a Beilinson-Bernstein localization theorem for quantum groups. The category of differential bimodules is categorically characterized in their work as the minimal [[coreflective subcategory|coreflective]] [[topologizing subcategory| topologizing]] [[monoidal category|monoidal]] subcategory of the abelian monoidal category of $R$-$R$-bimodules which is containing $R$. In the case of noncommutative rings, Lunts-Rosenberg definition of differential operators has been recovered from a different perspective in the setup of [[noncommutative algebraic geometry]] represented by monoidal categories; the emphasis is on the duality between infinitesimals and differential operators:
 
  * [[Tomasz Maszczyk]], Noncommutative geometry through monoidal categories, [arXiv:0611806](http://arxiv.org/abs/math/0611806)
+
+See also [[regular differential operator in noncommutative geometry]].
 
 [[!redirects regular differential operators]]
