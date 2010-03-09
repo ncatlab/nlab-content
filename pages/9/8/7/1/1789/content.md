@@ -1,7 +1,13 @@
-[[!redirects Cech cover]]
+# &#268;ech covers
+* table of contents
+{: toc}
+
+## Idea
+
 A _&#268;ech cover_ is a [[Čech nerve]] $C(U)$ that comes from a [[cover]] $U \to X$.
 
-# Definition #
+
+## Definition
 
 Let $C$ be a [[site]] and $\{U_i \to X\}$ a covering [[sieve]]. Write $U = \sqcup_i Y(U_i)$ for the [[coproduct]] of the patches in the [[presheaf]] category $PSh(C)$ ($Y$ is the [[Yoneda embedding]]). 
 
@@ -18,7 +24,8 @@ $$
 
 is called a **&#268;ech cover**.
 
-#Properties#
+
+## Properties
 
 Consider the [[local model structure on simplicial presheaves]] on $C$. If the [[sheaf]] [[topos]] $Sh(C)$ has [[point of a topos|enough points]], then the weak equivalences (called local weak equivalences for emphasis) are the [[stalk]]-wise weak equivalences of [[simplicial set ]] (with respect to the standard [[model structure on simplicial sets]]).
 
@@ -111,9 +118,13 @@ See also for instance lemma 3.4.9 in
 
 =--
 
-**Remark**. So this says that every &#268;ech cover is a [[hypercover]]. But not conversely. [[localization|Localization]] of [[simplicial presheaf|simplicial presheaves]] at &#268;ech covers yields [[Čech cohomology]]. 
++-- {: .un_remark}
+###### Remark
+So this says that every &#268;ech cover is a [[hypercover]]. But not conversely. [[localization|Localization]] of [[simplicial presheaf|simplicial presheaves]] at &#268;ech covers yields [[Čech cohomology]]. 
+=--
 
 
 [[!redirects Čech cover]]
 [[!redirects Čech covers]]
+[[!redirects Cech cover]]
 [[!redirects Cech covers]]
