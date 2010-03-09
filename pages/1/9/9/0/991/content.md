@@ -1,19 +1,22 @@
-[[!redirects Cech methods]]
+[[!redirects ?ech method]]
+[[!redirects Čech method]]
+[[!redirects Cech method]]
+[[!redirects ?ech methods]]
 [[!redirects Čech methods]]
 [[!redirects Cech methods]]
 
-#Contents#
+#&#268;ech methods#
 * automatic table of contents goes here
 {:toc}
 
-
++-- {: .query}
 (Generally for typographical reasons, titles involving the name '&#268;ech' have been replaced by equivalent ones which are unaccented. This avoids the potential for interference with fonts acceptable to the software being used.)
 
 Zoran: I protest against this. It is not going toward the future and going toward the standard equally respecting all languages and precise cultural and historcal references. The software is improving and we are doing steps back. You are guys putting SVGs, gifs, advanced fonts, images and all kinds of stuff and can not put simple fonts. I will not contribute to any of the entries which went backwards. We had redirects so I see no reasons why you did this as everybody could using redirects access low/technology way. The base system should be correct and the linkage should be multiple. 
+=--
+
 
 ## Idea ##
-
-
 
 The construction of &#268;ech homology used coverings of the space by families of open sets. The way the open sets overlap gives 'combinatorial' information on the space. 
 
@@ -182,6 +185,3 @@ than strong shape theory -- one thus, in some sense, arrives in $pro
 Ho(\mathbf{A})$ instead of in $Ho(pro \mathbf{A})$.  This problem has been in part resolved with Grothendieck's theory of _Derivateurs_ (see the volume by Maltsiniotis.)
 
 * see also [[abelian sheaf cohomology]]
-
-
-[[!redirects Čech methods]]
