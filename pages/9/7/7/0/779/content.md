@@ -16,7 +16,7 @@ He had a succession of influential students, and among the concepts which he ini
 
 
 * [English Wikipedia page](http://en.wikipedia.org/wiki/Charles_Ehresmann)
-* [Wikip&#233;dia,l'encyclop&#233;die libre](http://fr.wikipedia.org/wiki/Charles_Ehresmann)
+* [Wikip&#233;dia fran&#231;ais](http://fr.wikipedia.org/wiki/Charles_Ehresmann)
 * [MacTutor biography](http://www.gap-system.org/~history/Biographies/Ehresmann.html) 
 
 
