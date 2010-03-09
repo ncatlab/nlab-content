@@ -310,6 +310,8 @@ This expresses the commutativity of the above tetrahedra. And it is indeed the o
 similarly...
 
 
+
+
 ## Structured group cohomology {#StructuredCohomology}
 
 If the groups in question are not plain groups ([[group object]]s internal to [[Set]]) but groups with extra structure, such as [[topological group]]s or [[Lie group]]s, then their cohomology has to be understood in the corresponding natural context.
@@ -338,15 +340,40 @@ $$
 
 has to be considered as an [[Lie ∞-groupoid]]: an object in the [[model structure on simplicial presheaves]] over a [[site]] such as [[Diff]] or [[CartSp]]. As such it is in general **not** both cofibrant and fibrant. To that extent plain morphisms out of this object do **not** compute the correct [[derived hom-space]]s. Instead, the right definition of structured group cohomology uses the correct fibrant and cofibrant replacements.
 
-
 ### Lie group cohomology {#LieGroupcohomology}
 
-The _correct_ notion of Lie group cohomology is discussed for instance in 
+For $G$ a Lie group and $A$ an abelian Lie group, write
+
+$$
+  H_{naive}^n(G,A) = \{smooth G^{\times n } \to A\}/_\sim
+$$
+
+for the naive notion of cohomology on $G$.
+
+The correct definition of Lie group cohomology, denoted here $H^n(G,A)$ or for emphasis $H^n_{diff}(G,A)$ was apparently introduced in 
 
 * Jean-Luc Brylinski, _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 
+following
 
-We derive this from the abstract perspective that Lie group cohomology is the [[cohomology|intrinsic cohomology]] of the [[(∞,1)-topos]] $\mathbf{H} := Sh_{(\infty,1)}(CartSp)$ of [[∞-stack]]s on [[CartSp]].
+* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes, Ast&eacute;risque vol. 124-125 (1985), pp. 113-130.
+
+
+
++-- {: .un_prop }
+###### Claim
+
+The Lie group cohomology $H^n(G,A)$ used in [Bry](http://arxiv.org/abs/math/0011069) is the intrinsic cohomology of the object $\mathbf{B}G$ in the [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$ of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on [[CartSp]]:
+
+$$
+  H^n_{diff}(G,A) \simeq \pi_0 Sh_{(\infty,1)}(CartSp)(\mathbf{B}G, \mathbf{B}^n A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof (roughly)
 
 To derive the explicit formulas in the literature, model $\mathbf{H}$ by the local _projective_ [[model structure on simplicial presheaves]] on [[CartSp]]. 
 
@@ -414,12 +441,98 @@ $$
   \,.
 $$
 
-And this, finally, is indeed the definition of the smooth group cohomology of $G$ as found, for instance, in [Bry 2000, page 4](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=4).
+And this, finally, is indeed the definition of the smooth group cohomology $H^n_{diff}(G,A)$ of $G$ as given by Blanc, as for instance, in [Bry 2000, page 4](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=4).
 
+=--
+
+There is an evident morphism
+
+$$
+  H^n_{naive}(G,A) \to H^n_{diff}(G,A)
+$$
+
+obtained by pulling back a globally defined smooth cocycle to a cover.
+
+For definiteness, by a _Lie group_ $G$ we now mean (following [Bry, page3](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=3)) a [[paracompact space|paracompact]] [[Frechet manifold]] equipped with a group structure such that the product and the inverse maps are smooth, and there is an everywhere defined exponential map $exp : \mathfrak{g} \to G$ where $\mathfrak{g}$ is the [[Lie algebra]] of $G$.
+ 
+
++-- {: .un_prop }
+###### Proposition
+
+If the coefficient Lie group $A$ is a [[topological vector space]], then the naive group cohomology $H^n(G,A) = \{smooth G^{\times n} \to A\}/_\sim$ coincides with the correct Lie group cohomology
+
+$$
+  (A top.\;vect.\;space) \Rightarrow 
+  (H^n_{naive}(G,A) \stackrel{\simeq}{\to} H^n_{diff}(G,A) )
+  \,.
+$$
+
+If the coefficient Lie group $A$ is discrete, then Lie group cohomology coindices with the topological cohomology of the [[classifying space]] $\mathcal{B}G$
+
+$$
+  (A discrete) \Rightarrow 
+  (H^n(G,A) \simeq H^n(\mathcal{B}G), A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [Bry, prop. 1.3](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=4) and [Bry, lemma 1.5](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=5).
+
+
+=--
+
+
+**Remark** The second statement can also be seen using that $Sh_{(\infty,1)}(CartSp)$ is a [[locally contractible (∞,1)-topos]], which implies by adjuncton that $\mathbf{H}(\mathbf{B}G,LConst \mathbf{B}^n A) \simeq \infty Grpd(\Pi(X),\mathbf{B}^n A)$.
+
+
++-- {: .un_prop }
+###### Proposition
+
+$H^2_{diff}(G,A)$ classifies central [[group extension|extensions of Lie groups]]
+
+$$
+   A \to \hat G \stackrel{\pi}{\to} G
+$$
+
+such that $\pi : \hat G \to G$ is a locally trivial smooth [[principal bundle|principal]] $A$-fibration.
+
+The image of $H^2_{naive}(G,A) \to H^2_{diff}(G,A)$ consists of those central extensions for which is bundle is trivial.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [Bry, prop. 1.6](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=4) and [Bry, lemma 1.5](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=5).
+
+
+=--
+
+
+A discussion of the relation between _local_ Lie group cohomology and [[Lie algebra cohomology]] is in
+
+* S. &#346;wierczkowski, _Cohomology of group germs and Lie algebras_ Pacific Journal of Mathematics, Volume 39, Number 2 (1971), 471-482.  ([pdf](http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&id=pdf_1&handle=euclid.pjm/1102969572))
 
 ### Topological group cohomology
 
-* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_ ,  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
+In
+
+* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
+
+$n$-cocycles on a topological group $G$ with valzues in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
+
+A definition in terms of [[derived functor|Ext-functor]]s and comparison with the naive definition is in 
+
+* David Wigner, _Algebraic cohomology of topological groups_ Transactions of the American Mathematical Society, volume 178 (1973)([pdf](http://egg.epfl.ch/~nmonod/bonn/Wigner_1973.pdf))
+
+A classical reference that considers the cohomology of Lie groups as topological spaces is
+
+* [[Armand Borel]], _Homology and cohomology of compact connected Lie groups_ ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1063923/pdf/pnas01596-0040.pdf))
+
 
 
 ## Nonabelian group cohomology
