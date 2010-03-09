@@ -167,7 +167,15 @@ TO DO: Describe open systems and their relation to reversibility.  Give an examp
 
 * Watrous, John (2008). _Mixing doubly stochastic quantum channels with the completely depolarizing channel_ ([arXiv](http://arxiv.org/abs/0807.2668))
 
+The description of completely positive maps in terms of [[dagger-categories]] goes back to
 
+* [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_ ([ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps))
+
+* [[Bob Coecke]], _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
+
+This was further developed in
+
+* [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
 
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
