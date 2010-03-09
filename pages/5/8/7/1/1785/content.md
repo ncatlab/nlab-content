@@ -16,3 +16,6 @@ See also the [English Wikipedia article](http://secure.wikimedia.org/wikipedia/e
 category: people
 
 [[!redirects Владимир Воеводский]]
+[[!redirects Vladimir Voevodsky]]
+[[!redirects Vladimir Voevodskij]]
+[[!redirects Vladimir Voevodskiĭ]]
