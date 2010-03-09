@@ -106,7 +106,7 @@ A link for discussion and a list of source material for  'd&#233;rivateurs' can 
 
 This includes copies of the first thirteen chapters of a 2000 page manuscript of Grothendieck. 
 
-* [[Georges Maltsiniotis]] has written an introduction to the topic (in French) which is listed near the bottom of his homepage: (G. Maltsiniotis , "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001).) 
+* [[Georges Maltsiniotis]] has written an introduction to the topic (in French) which is listed near the bottom of his homepage: (G. Maltsiniotis , "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001).) He also gave a [course](http://congreso.us.es/htag09/php/index.php?carga=courses) in Seville, Sep 2010, and part 3 is on derivators: [Lecture_III_Derivators.pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf) (in English).
 
 Part of the above material is reproduced from
 
