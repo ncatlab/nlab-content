@@ -18,3 +18,4 @@ $$(f\circ\phi^{-1})(x^1,\ldots,x^n) = f(p) +\sum_{i=1}^k x_i^2 - \sum_{j=k+1}^n 
 
 and number $k$ is determined by the Hessian matrix. While the Morse lemma is proved by Morse, the modern proof is by the Moser's deformation method.  The Morse lemma can be generalized to smooth functions on a Hilbert manifold, in which case there is a linear operator $A$ such that in suitable local coordinates, quadratic functional $f\circ\phi^{-1}$ can be written as $f(p)+$&lt;$A x,x$>.
 
+* V. Guillemin, S. Sternberg, _Geometric asymptotics_, [Appendix 1](http://www.ams.org/online_bks/surv14/surv14-appI.pdf)
