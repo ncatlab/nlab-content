@@ -13,5 +13,6 @@
 category: people
 
 [[!redirects Владимир Арнольд]]
+[[!redirects Vladimir Arnold]]
 [[!redirects Vladimir Arnol'd]]
 [[!redirects Vladimir Arnol'd]]
