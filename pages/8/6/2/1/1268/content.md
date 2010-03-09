@@ -53,6 +53,12 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 * Notes in Gaitsgory's seminar [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
 * A. [[Beilinson|Beĭlinson]], J. Bernstein, _A proof of Jantzen's conjectures_, I. M. Gel&#697;fand Seminar,  1--50, Adv. Soviet Math., 16, Part 1, Amer. Math. Soc. 1993, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/BB%20-%20Jantzen.pdf)
 
+* R. Hotta, K. Takeuchi, T. Tanisaki, _D-modules, perverse sheaves, and representation theory_, Progress in Mathematics __236__, Birkh&#228;user
+
+* A. Borel et al., _Algebraic D-modules_, Perspectives in Mathematics, Academic Press, 1987.
+
+* [[Masaki Kashiwara|M. Kashiwara]], W.Schmid, _Quasi-equivariant D-modules, equivariant derived category, and representations of reductive Lie groups_, Lie Theory and Geometry, in Honor of Bertram Kostant, Progress in Mathematics, Birkh&#228;user, 1994, pp. 457&#8211;488
+
 ##Blog discussion
 
 * Secret Blogging Seminar [Musings on D-modules](http://sbseminar.wordpress.com/2007/07/07/musings-on-d-modules/), [Musings on D-modules, part 2](http://sbseminar.wordpress.com/2007/07/14/musings-on-d-modules-part-2/)
