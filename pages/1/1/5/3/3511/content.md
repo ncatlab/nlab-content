@@ -47,10 +47,44 @@ The full subcategory of the [[(∞,1)-category of (∞,1)-categories]] $Func((\i
 
 This is due to
 
-* [[Bertrand Toen]],  _Vers une axiomatisation de la th&#233;orie des cat&#233;gories sup&#233;riures_ , K-theory 34 (2005), no. 3,
+* [[Bertrand Toen]],  _Vers une axiomatisation de la th&#233;orie des cat&#233;gories sup&#233;rieures_ , K-theory 34 (2005), no. 3,
 233-263.
 
 It appears as [[Higher Topos Theory|HTT, theorem 5.2.9.1]].
+
+First of all the statement is true for the ordinary category of [[poset]]s. This is [prop. 5.2.9.14](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=311).
+
+From this the statement is deduced for $(\infty,1)$
+-categories by observing that posets are characterized by the fact that two parallel functors into them that are objectwise equivalent are already equivalent, [prop. 5.2.9.11](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=310), which means that posets $C$ are characterized by the fact that
+
+$$
+  \pi_0 (\infty,1)Cat(D,C)
+  \to 
+  Hom_{Set}(
+   \pi_0 (\infty,1)Cat(*,D)
+   ,
+   \pi_0 (\infty,1)Cat(*,C)
+  )
+$$
+
+is an injection for all $D \in (\infty,1)Cat$.
+
+This is preserved under automorphisms of $(\infty,1)Cat$, hence any such automorphism preserves posets, hence restricts to an automorphism of the category of posets, hence must be either the identity or $(-)^{op}$ there, by the above statement for posets.
+
+Now finally the main point of the proof is to see that $(\infty,1)Cat$ is _strongly generated_ by the linear posets $\Delta \subset Cat$, in that the identity transformation of the inclusion functor $\Delta \hookrightarrow (\infty,1)Cat$ exhibits $Id_{(\infty,1)Cat}$ as the left [[Kan extension]]
+
+$$
+  \array{
+    \Delta &\hookrightarrow& (\infty,1)Cat
+    \\
+    \downarrow & \nearrow_{Lan = \mathrlap{Id}}
+    \\
+    (\infty,1)Cat
+  }
+  \,.
+$$
+
+
 
 =--
 
