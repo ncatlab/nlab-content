@@ -1,3 +1,4 @@
+[[!redirects Cech homotopy]]
 
 ##Idea and discussion##
 In &#268;ech cohomology, in its *traditional* form, you resolve the space by a inverse system  or [[pro-object]], $\check{C}(X,-)$, of nerves of open covers (or if you prefer the nerves of the corresponding sheaf  of groupoids). For constant and Abelian coefficients (and we will keep to those for the moment), $A$, we throw $H^n(-,A)$ at this pro-object.  As cohomology switches 'variance' we get a _direct system_ or _ind-object_ of Abelian groups, and usually we then take its (direct) limit (i.e. its colimit) to get $\check{H}^n(X,A)$.
