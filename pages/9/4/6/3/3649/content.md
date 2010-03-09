@@ -1,4 +1,4 @@
-Jet spaces are a generalization of a [[tangent space]]s. While a tangent vector is an equivalence class of germs of curves with order 1 tangency at a given point in the target, jet spaces are equivalence classes of germs of smooth maps with respect to (finite) order k tangency at some point in the target. 
+Jet spaces are a generalization of a [[tangent space]]s. While a tangent vector is an equivalence class of [[germ]]s of curves with order 1 tangency at a given point in the target, jet spaces are equivalence classes of [[germ]]s of smooth maps with respect to (finite) order k tangency at some point in the target. 
 
 ### Origins### 
 
