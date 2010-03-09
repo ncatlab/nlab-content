@@ -1,3 +1,4 @@
+[[!redirects Cech cover]]
 A _&#268;ech cover_ is a [[Čech nerve]] $C(U)$ that comes from a [[cover]] $U \to X$.
 
 # Definition #
