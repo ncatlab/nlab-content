@@ -21,9 +21,15 @@ For a short, gentle and geometrical introduction, see:
 
 * [[John Baez: This Week's Finds in Mathematical Physics, [week 263] (http://math.ucr.edu/home/baez/week263.html) second half.]] 
 
+* [[Wikipedia on [buildings] (http://en.wikipedia.org/wiki/Bruhat-Tits_building)]]
+
 An introductory textbook that starts with explaining Coxeter groups is this:
 
 * [[Abramenko, Peter; Brown, Kenneth S.: Buildings. Theory and applications. (Springer 2008, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05288866&format=complete) )]]
+
+A short introduction to spherical buildings (this notion will be explained below):
+
+* [[Richard M. Weiss: The Structure of Spherical Buildings. (Princeton University Press 2004, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1061.51011&format=complete) )]]
 
 ####Introduction####
 This page is intended to be a supplementary exposition of the page [[toddtrimble:Buildings for category theorists]], at least for now. So we will try to explain the aspects of buildings that the kind reader would like to know in order to understand the category theoretic construction over there.
@@ -77,7 +83,8 @@ pp. 249&#8211;286.]
 
 Let (W, S) be a Coxeter system (see above). 
 
-Definition: A **building of type (W, S)** is a pair (C, $\delta$) of a nonempty set C, whose elements are called **chambers**, and a function 
+######Definition:
+A **building of type (W, S)** is a pair (C, $\delta$) of a nonempty set C, whose elements are called **chambers**, and a function 
 $\delta$: CxC $\to$ W
 subject to the following axioms:
 
@@ -93,3 +100,6 @@ In the following paragraphs we will explain a few simple consequences of this de
 But first let us note that the axioms WD1 and WD2 are somewhat similar to the axioms defining the distance function of a metric space, one notable difference is that the function $\delta$ of a building takes values in the Coxeter group W of the building rather than in the nonnegative real numbers. For this reason, from the combinatorial viewpoint, buildings are sometimes called **W-metric spaces**.
 
 In order to distinguish the two viewpoints, which is, given their equivalence, strictly speaking not necessary, some authors will talk about **W-metric buildings** and **simplicial buildings**.
+
+######Remark: 
+If the set of generators S is finite, the building is called **spherical**. The reason for this is, that in this case, for $n := |S|$, the Coxeter group W has a faithful representation in the group of reflections on $\Re^n$. Reflections are in 1:1 correspondence to (linear) hyperplanes, the reflections that are images of the elements of the Coxeter group define a triangulation of the unit sphere of $\Re^n$, such that the resulting simplicial complex provides a geometric realization of the building.
