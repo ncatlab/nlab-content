@@ -1,3 +1,4 @@
+[[!redirects Cech cohomology]]
 <div class="rightHandSide toc">
 [[!include cohomology - contents]]
 </div>
