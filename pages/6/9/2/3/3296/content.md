@@ -73,3 +73,13 @@ Notable families of examples include:
 ### Chern character
 
 The [[Chern character]] is a natural characteristic class with values in real cohomology. See there for more details.
+
+# Literature
+
+* J. Milnor, J. Stasheff, _Characteristic classes_, Princeton Univ. Press
+
+* Jean-Pierre Schneiders, _Introduction to characteristic classes and  index theory_ (book), Lisboa (Lisabon) 2000
+
+* Johan L. Dupont, _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, 2003, 115 pp. [pdf](http://data.imf.au.dk/publications/ln/2003/imf-ln-2003-69.pdf)
+
+* R. Bott, L. W. Tu, _Differential forms in algebraic topology_, GTM __82__, Springer 1982.
