@@ -112,9 +112,16 @@ For [[(∞,1)-category|(∞,1)-categories]] the notion of fibered category is mo
 
 ## References 
 
-There are lots of references on fibrations; feel free to add your favorites!
+Part B of the 
 
-* Part B of the [[Elephant]] contains a lot of basic information and some good intuition, although he uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism.
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ 
+
+contains a lot of basic information and some good intuition, although he uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism.
+
+* [[Andre Joyal]], _[[joyalscatlab:Grothendieck fibrations]]_
+
+* [[Angelo Vistoli]], _Notes on Grothendieck topologies, fibered categories and descent theory_ ([pdf](http://homepage.sns.it/vistoli/descent.pdf))
+
 
 *  Notes by Streicher: "Fibred Categories &#224; l&#224; Jean B&#233;nabou" are available online  &lt;http://www.mathematik.tu-darmstadt.de/~streicher>.
 
