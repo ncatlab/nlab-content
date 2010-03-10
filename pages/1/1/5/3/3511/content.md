@@ -50,7 +50,7 @@ This is due to
 * [[Bertrand Toen]],  _Vers une axiomatisation de la th&#233;orie des cat&#233;gories sup&#233;rieures_ , K-theory 34 (2005), no. 3,
 233-263.
 
-It appears as [[Higher Topos Theory|HTT, theorem 5.2.9.1]].
+It appears as [[Higher Topos Theory|HTT, theorem 5.2.9.1]] ([arxiv v4+](http://arxiv.org/abs/math.CT/0608040) only)
 
 First of all the statement is true for the ordinary category of [[poset]]s. This is [prop. 5.2.9.14](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=311).
 
@@ -71,7 +71,7 @@ is an injection for all $D \in (\infty,1)Cat$.
 
 This is preserved under automorphisms of $(\infty,1)Cat$, hence any such automorphism preserves posets, hence restricts to an automorphism of the category of posets, hence must be either the identity or $(-)^{op}$ there, by the above statement for posets.
 
-Now finally the main point of the proof is to see that $(\infty,1)Cat$ is _strongly generated_ by the linear posets $\Delta \subset Cat$, in that the identity transformation of the inclusion functor $\Delta \hookrightarrow (\infty,1)Cat$ exhibits $Id_{(\infty,1)Cat}$ as the left [[Kan extension]]
+Now finally the main point of the proof is to see that the linear posets $\Delta \subset (\infty,1)Cat$ are [[dense functor|dense]] in $(\infty,1)Cat$, i.e. that the identity transformation of the inclusion functor $\Delta \hookrightarrow (\infty,1)Cat$ exhibits $Id_{(\infty,1)Cat}$ as the left [[Kan extension]]
 
 $$
   \array{
