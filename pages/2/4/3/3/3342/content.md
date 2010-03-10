@@ -39,6 +39,29 @@ The basic assumption of the Haag--Kastler approach is that everything that can b
 
 Unlike the [[Wightman axioms]], the Haag--Kastler axioms do not need the notion of "[[physical field|field]]": the fields in the Wightman axioms are -- from the Haag--Kastler point of view -- only necessary to describe how the algebras of observables are constructed; any way to consistently construct the net of algebras would suffice.
 
+## Example: Causal Nets of Operator Algebras
+We will lay down a specific set of axioms knowing that this set is not _the set_ of Haag-Kastler axioms, but one specific choice. This will allow us to state and prove important general properties. It is possible to construct examples that fulfill the axioms, to show that they are not empty, but we will not engage in this task here, at least not now. Note however that up to now there was no success in the task to construct systems in 4 dimensions with interactions, which has led to some doubts about the usefulness of this approach in the physics community: It has yet to be shown if the approach does or does not capture the essential features that makes possible the tremendous success of the standard model of particle physics.
+
+###Notation
+
+####The Minkowski Spacetime
+We talk about 4-dimensional Minkowski spacetime $\mathcal{Min}$ only, i.e. $\mathcal{Min}$ is the vector space $\R^{4} = \R \times \R^{3}$ equipped with the scalar product $\lt x, y \gt := x_0 y_0 - (\vec x, \vec y)$ with $( \cdot , \cdot  )$ being the Euclidean scalar product on $\R^{3}$.
+Open bounded subsets of $\mathcal{Min}$ will be denoted by $\mathcal{O}$.
+
+####The Poincar&#233; Group
+...notation will be explained here...
+
+####Operator Algebras
+Von Neumann algebras $\mathcal{M}$ will always be concrete operator algebras acting on a given Hilbert space $\mathcal{H}$, as is the rule in the literature. The commutant of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
+$$
+      \mathcal{M}_1 \vee \mathcal{M}_2 :=  {(\mathcal{M}_1 \cup \mathcal{M}_2)}''
+$$
+
+###Definition of Vacuum Representations
+...will be placed here
+
+###Classical Theorems 
+...will be cited here
 
 ## References 
 
