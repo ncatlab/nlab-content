@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf]]. 
 
@@ -19,7 +23,7 @@ In the latter case, the stack is sometimes referred to as a stack of groupoids. 
 In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[generalized smooth spaces]] are only beginning to be investigated more in [[Lie theory]]. 
 
 
-#Provisional discussion#
+## Provisional discussion
 
 The following is "provisional" material on stacks that [[Todd Trimble]] wrote in the course of a discussion with [[Urs Schreiber|Urs]]. Somebody should turn this here into a coherent entry on stacks.
 
@@ -82,16 +86,19 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 (where the first equivalence comes from the bicategorical Yoneda lemma, and the second functor is induced from the subfunctor $i: F \to \hom(-, c)$) is an equivalence for all $J$-covering sieves $F$. This formulation connects up nicely, that is, is a straight categorification of what was put down in the entry [[sheaf]]. 
 
 
-#References#
+## References
 
 Introductory material is
 
-* J. Heinloth, _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
+* [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
 
-* I. Moerdijk, _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
+* [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
 
+The article
 
- * A. Vistoli, _Notes on Grothendieck topologies, fibered categories and descent theory_ ([arXiv](http://arxiv.org/abs/math/0412512))
+ * [[Angelo Vistoli]], _Notes on Grothendieck topologies, fibered categories and descent theory_ ([arXiv](http://arxiv.org/abs/math/0412512))
+
+discusses stacks focussing on their dual incarnation as [[Grothendieck fibration]]s.
 
 [[!redirects stack*]]
 [[!redirects stacks]]
