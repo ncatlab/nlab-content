@@ -16,6 +16,8 @@ This entry is about the book
 
 which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack]]s) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos]]es -- in particular.
 
+One should beware that the arXiv version of this book has been updated since the publication of the print version, including addition of some new material!
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
