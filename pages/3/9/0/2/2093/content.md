@@ -3,7 +3,7 @@ Given a unital, not necessarily commutative, complex $C^*$-[[C*-algebra|algebra]
 +-- {: .query}
 There is some redundancy, because a character on a unital Banach algebra is automatically continuous (with Lipschitz constant 1).  I wasn't sure if I should remove the word or if it is there for emphasis.
 
-For noncommutative $C^*$-algebras the spaces of equivalence classes of irreducible representations (i.e., the spectrum) and their kernels (i.e., the primitive ideal space) are more important than the character space.  Should that be mentioned here?  
+For noncommutative $C^*$-algebras the spaces of equivalence classes of irreducible representations (i.e., the spectrum) and their kernels (i.e., the primitive ideal space) are more important than the character space.  Should that be mentioned here?  The Gelfand spectrum is also useful in the context of more general commutative Banach algebras.
 
 -Jonas Meyer
 =--
