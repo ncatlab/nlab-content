@@ -4,7 +4,7 @@
 
 
 ##Idea and discussion##
-In &#268;ech cohomology, in its *traditional* form, you resolve the space by a inverse system  or [[pro-object]], $\check{C}(X,-)$, of nerves of open covers (or if you prefer the nerves of the corresponding sheaf  of groupoids). For constant and Abelian coefficients (and we will keep to those for the moment), $A$, we throw $H^n(-,A)$ at this pro-object.  As cohomology switches 'variance' we get a _direct system_ or _ind-object_ of Abelian groups, and usually we then take its (direct) limit (i.e. its colimit) to get $\check{H}^n(X,A)$.
+In &#268;ech cohomology, in its *traditional* form, you resolve the space by an inverse system  or [[pro-object]], $\check{C}(X,-)$, of nerves of open covers (or if you prefer the nerves of the corresponding sheaf  of groupoids). For constant and Abelian coefficients (and we will keep to those for the moment), $A$, we throw $H^n(-,A)$ at this pro-object.  As cohomology switches 'variance' we get a _direct system_ or _ind-object_ of Abelian groups, and usually we then take its (direct) limit (i.e. its colimit) to get $\check{H}^n(X,A)$.
 
 Now dualise ... .  Replace cohomology by homotopy $[A,-]$, but although there will be some very useful long exact (Puppe) sequences available in homotopy, we cannot go this way to get them!  In dualising, things can go slightly 'wrong'. We have $[A,\check{C}(X,-)]$ is a pro-object and so we might want to take limits not colimits to get the thing we want, but $lim$ is not an exact functor on the usual categories available here, such as groups, sets, modules, etc. 
 
