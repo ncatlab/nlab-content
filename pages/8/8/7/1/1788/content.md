@@ -445,6 +445,15 @@ b
 b
 
 b
+
+
+Some text $$x^2$$ some more text.
+
+$$x^2$$
+some more text.
+
+$$\int_{j=1}^n \frac{1}{j}$$
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
