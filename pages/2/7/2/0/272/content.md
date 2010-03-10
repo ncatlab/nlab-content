@@ -14,9 +14,9 @@ As such, the approach of AQFT is roughly dual to that of [[FQFT]], where instead
 
 One may roughly think of AQFT as being a formalization of what in basic [[quantum mechanics]] textbooks is called the **Heisenberg picture** of quantum mechanics. On the other hand [[FQFT]] axiomatizes the _Schr&ouml;dinger picture_ .
 
-The axioms of traditional AQFT are called the [[Haag-Kastler axioms]]. They are one of the oldest systems of axioms that seriously attempt to put [[quantum field theory]] on a solid conceptual footing. 
+The axioms of traditional AQFT enocde the properties of a [[local net]] of observables and are called the [[Haag-Kastler axioms]]. They are one of the oldest systems of axioms that seriously attempt to put [[quantum field theory]] on a solid conceptual footing. 
 
-From the [[nPOV]] we may think of these axioms as postulating that a quantum field theory is encoded in a co-flabby [[presheaf|copresheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
+From the [[nPOV]] we may think of a [[local net]] as a co-flabby [[presheaf|copresheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
 
 * locality: algebras assigned to spacelike separated regions commute with each other when embedded into any joint superalgebra.
 
@@ -33,10 +33,13 @@ On the other hand, all three of these encode what in phyics are called _Eudlidea
 
 In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], relating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
 
-+-- {: .standout}
-Comment by Tim van Beek: I'd like to put that down on the nLab (I mean the precise formulation of the Osterwalder-Schrader theorem), but would do that on the Haag-Kastler axioms page instead of here - I would dedicate this page to an overview and connections to newer developments involving higher categories, and use the Haag-Kastler page to cite some classical results (like DHR-Superselection theory). 
++-- {: .query}
+Comment by [[Tim van Beek]]: I'd like to put that down on the nLab (I mean the precise formulation of the Osterwalder-Schrader theorem), but would do that on the Haag-Kastler axioms page instead of here - I would dedicate this page to an overview and connections to newer developments involving higher categories, and use the Haag-Kastler page to cite some classical results (like DHR-Superselection theory). 
 Urs, what do you think?
 BTW: Is this the correct format to insert a comment?
+
+[[Urs Schreiber]]: yes, sounds like a good plan. And yes, the idea is that we include comments like this one in query boxes here, yes.
+
 =--
 
 
@@ -56,7 +59,7 @@ An account written by mathematicians for mathematicians is this:
 
 and this:
 
-* Hellmut Baumg&#228;rtel: Operatoralgebraic Methods in Quantum Field Theory. A series of lectures. Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
+* Hellmut Baumg&#228;rtel: Operator algebraic Methods in Quantum Field Theory. A series of lectures. Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
 
 There is much more literature one should point to here, eventually. For instance for the connection between the AQFT axioms and the perturbative Feynman-integral techniques much used in [[quantum field theory]], see
 
