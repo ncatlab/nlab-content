@@ -7,16 +7,7 @@
 
 A [[geometric morphism]] $f : E \to F$ between [[topos]]es is a [[functor]] of the underlying categories that is consistent with the interpretation of $E$ and $F$ as generalized [[topological space]]s. 
 
-A geometric morphism is **essential** if in addition $f$ behaves as if...
-
-+--{: .query}
-[[Mike Shulman]]: Interesting ellipsis.  I'm not sure that "essentiality" has any real intuitive meaning; it's kind of "like being locally connected" except not quite right if $F$ isn't $Set$.
-
-[[Urs Schreiber]]: shouldn't it be right to say that $f$ behaves as if the fibers of $f$ are locally connected spaces?
-
-[[Mike Shulman]]: No, that would be a [[locally connected geometric morphism]].  Not every essential geometric morphism is locally connected.
-
-=--
+If $F = Set = Sh(*)$ is the terminal [[sheaf topos]], then $E \to Set$ is essential if $E$ is a [[locally connected topos]]. In general, $f$ being essential is a necessary (but not sufficient) condition to ensure that $f$ behaves like a map of topological spaces whose [[fiber]]s are locally connected: that it is a [[locally connected geometric morphism]].
 
 
 ## Definition
@@ -30,6 +21,27 @@ $$
   F
   \,.
 $$
+
+
+### Refinements
+
+There are various further conditions that can be imposed on a geometric morphism:
+
+* If $f_!$ can be made into an $E$-[[indexed functor]] and $f^*$ satisfies some extra conditions, the geometric morphism $f$ is a [[locally connected geometric morphism]] (see there for details).
+
+* If $f_!$ preserves finite [[product]]s then $f$ is called **connected surjective**.
+
+* If $f_!$ preserves finite [[product]]s and moreover there is a further functor $p^! : F \to E$ which is  [[right adjoint]] $(f_* \dashv f^!)$ and [[full and faithful functor|full and faithful]], i.e. if we have a sequence of adjunctions
+
+  $$
+    (f_! \dashv f^* \dashv f_* \dashv f^!)
+  $$
+
+  with full and faithful $f^!$ then the geometric morphism $f$ is called **local**.
+
+  In this case in particular $F \stackrel{\overset{p_*}{\leftarrow}}{\underset{p^!}{\hookrightarrow}} E$
+
+  is a [[geometric embedding]] and hence makes $F$ a subtopos of $E$.
 
 ## Properties
 
@@ -113,6 +125,14 @@ Note, though that if $p\colon E\to S$ is an arbitrary geometric morphism through
 
 ## References
 
-The definition appears before Lemma A.4.1.5 in
+The definition of geometric morphism appears before Lemma A.4.1.5 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
+
+Connected surjective and local geometric morphisms are discussed in 
+
+* [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_ Proceedings London Mathematical Society 58 (1989), 281-305.
+
+Further refinements are in 
+
+* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
