@@ -46,26 +46,74 @@ We will lay down a specific set of axioms knowing that this set is not _the set_
 
 ####The Minkowski Spacetime
 We talk about 4-dimensional Minkowski spacetime $\mathcal{Min}$ only, i.e. $\mathcal{Min}$ is the vector space $\R^{4} = \R \times \R^{3}$ equipped with the scalar product $\lt x, y \gt := x_0 y_0 - (\vec x, \vec y)$ with $( \cdot , \cdot  )$ being the Euclidean scalar product on $\R^{3}$.
-Open bounded subsets of $\mathcal{Min}$ will be denoted by $\mathcal{O}$.
+Open bounded subsets of $\mathcal{Min}$ will be denoted by $\mathcal{O}$. The union of these $\mathcal{O}$ form an index set $\mathcal{J}$, that is partially ordered by inclusion. 
+
+If two sets are spacelike seperated, this will be denoted by $\mathcal{O}_1 \perp \mathcal{O}_2$.
+
+We denote the open forward cone at x by $V_+(x)$, similar $V_-(x)$ is the open backward cone at $x$, if $x=0$ we simply write $V_+$ and $V_-$.
 
 ####The Poincar&#233; Group
-...notation will be explained here...
+The universal covering $SL(2, \C) \ltimes \R^4$ of the restriced Poincar&#233; group $\mathcal{P}^{\dagger}_+$ will be denoted by $\mathcal{P}$, the abelian subgroup of all translations by $\mathcal{T}$.
 
 ####Operator Algebras
-Von Neumann algebras $\mathcal{M}$ will always be concrete operator algebras acting on a given Hilbert space $\mathcal{H}$, as is the rule in the literature. The commutant of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
+Von Neumann algebras $\mathcal{M}$ will always be concrete operator algebras acting on a given Hilbert space $\mathcal{H}$, as is the rule in the literature (see also [[von Neumann algebra]] here on the nLab). The commutant of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
 $$
       \mathcal{M}_1 \vee \mathcal{M}_2 :=  {(\mathcal{M}_1 \cup \mathcal{M}_2)}''
 $$
 
 ###Definition of Vacuum Representations
-...will be placed here
+A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilber space $(\mathcal{H})$, indexed by $\mathcal{O} \in \mathcal{J}$, is called a **vacuum respresentation** (on the 4-dimensional Minkowski spacetime) if it satisfies the following axioms:
+
+* (V1) **isotony**: $\mathcal{O}_1 \subset \mathcal{O}_2 implies \mathcal{M}(\mathcal{O}_1) \subseteq \mathcal{M}(\mathcal{O}_2)$
+
+* (V2) **additivity**: $\mathcal{O} = \bigcup_j \mathcal{O}_j$ implies  $\mathcal{M}(\mathcal{O}) = ( \bigcup_j \mathcal{M}(\mathcal{O}_j) )'' $ 
+
+* (V3) **locality**, see [[local net]]: $\mathcal{O}_1 \perp \mathcal{O}_2 implies \mathcal{M}(\mathcal{O}_1) \subseteq  (\mathcal{M}(\mathcal{O}_2))' $
+
+* (V4) **covariance**: There is a strongly continuous unitary representation $\mathcal{U}(\mathcal{P})$ of $\mathcal{P}$ such that for each $g \in \mathcal{P}$ the following holds: $\mathcal{M}(g\mathcal{O}) = \mathcal{U}(g) \mathcal{M}(\mathcal{O}) \mathcal{U}(g)^{-1}$
+
+* (V5) **spectrum condition**: $spec\mathcal{U}(\mathcal{T}) \subseteq clo \mathcal{V}_+$
+
+Note: $\mathcal{T}$ is the abelian subgroup of translations, and $\mathcal{V}_+$ is the (open) forward cone at 0, see above.
+
+* (V6) **existence of a vacuum vector**: There exists a vector $\Omega \in \mathcal{H}, \|\Omega\| = 1$, such that $( \bigcup_{\mathcal{O}\in\mathcal{J}}\mathcal{M}(\mathcal{O} ) \Omega$ is dense in $\mathcal{H}$ and $\mathcal{U}(g)\Omega = \Omega$ for all $g \in \mathcal{P}$
+
+Note: The _uniqueness_ is sometimes part of the axioms, but not here. Instead we will cite theorems that will specify necessary and sufficient conditions to ensure that there is a _unique_ vacuum vector. 
+
+###Additional Notations and Notions of Vacuum Representations
+A short hand notation for vacuum representations will be $\mathcal{M}(\mathcal{J})$ in the following.
+
+The algebras $\mathcal{M}(\mathcal{O})$ are sometimes called **local algebras**.
+
+The $C^*-$algebra $\mathcal{A} := clo_{\| \cdot \|} ( \bigcup_{\mathcal{O}\in\mathcal{J}}\mathcal{M}(\mathcal{O}) $ is called **quasilocal algebra**, the smallest von Neuman algebra that contains $\mathcal{A}$ is called the **global algebra** and denoted by $\mathcal{R}$. 
+
+A vacuum representation is called **irreducible** if $\mathcal{R} = \mathcal{L}(\mathcal{H})$ (the global algebra is the whole algebra of all bounded linear operators on the given Hilber space), it is called **factorial** if $\mathcal{R}$ is a factor.
+
+* Wikipedia on [factors] (http://en.wikipedia.org/wiki/Von_Neumann_algebra#Factors) of von Neumann algebras.
 
 ###Classical Theorems 
 ...will be cited here
 
 ## References 
 
-... should go here. See also [[AQFT]].
+... should go here. See also [[AQFT]]. Since on that page there are already some references to sources that stress the mathematical aspects, we will cite some that are more oriented to the physical interpretations:
+
+The classic references are of course:
+
+* Rudolf Haag: Local quantum physics. Fields, particles, algebras. 2nd., rev. and enlarged ed. Springer 1996 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.46057&format=complete).
+
+and:
+
+* Huzihiro Araki: Mathematical theory of quantum fields. Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
+
+An online reference page by is here:
+
+* Stephen J. Summers: [AQFT online] (http://www.math.ufl.edu/~sjs/aqft.html)
+
++-- {: .query}
+[[Tim van Beek]]: I have not done an extensive search for pages that I could link to, so there may be some missing (but not on purpose!). Also the links on the [[AQFT]] site could equally well be placed here... 
+=--
+
 
 [[!redirects Haag-Kastler axioms]]
 [[!redirects Haag-Kastler axiom]]
