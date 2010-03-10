@@ -20,7 +20,7 @@ From the [[nPOV]] we may think of these axioms as postulating that a quantum fie
 
 * locality: algebras assigned to spacelike separated regions commute with each other when embedded into any joint superalgebra.
 
-This is traditionally formulated (implicitly) as a structure in ordinary [[category theory]]. More recently, with the proof of the [[cobordism hypothesis]] and the corresponding [[(∞,n)-category]]-formulation of [[FQFT]] also [[higher category theory|higher categorical]] versions of systems of local algebras of observables are being put forward and studied. Three structures are cuurently being studied, that are all conceptually very similar and similar to the Haag-Kastler axioms:
+This is traditionally formulated (implicitly) as a structure in ordinary [[category theory]]. More recently, with the proof of the [[cobordism hypothesis]] and the corresponding [[(∞,n)-category]]-formulation of [[FQFT]] also [[higher category theory|higher categorical]] versions of systems of local algebras of observables are being put forward and studied. Three structures are curently being studied, that are all conceptually very similar and similar to the Haag-Kastler axioms:
 
 
 * [[factorization algebra]]s
@@ -32,6 +32,13 @@ This is traditionally formulated (implicitly) as a structure in ordinary [[categ
 On the other hand, all three of these encode what in phyics are called _Eudlidean_ quantum field theories, whereas only the notion of [[local net]] so far really incorporates crucially the fact that the underlying spacetime of a quantum field theory is a [[smooth Lorentzian space]].
 
 In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], relating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
+
++-- {: .standout}
+Comment by Tim van Beek: I'd like to put that down on the nLab (I mean the precise formulation of the Osterwalder-Schrader theorem), but would do that on the Haag-Kastler axioms page instead of here - I would dedicate this page to an overview and connections to newer developments involving higher categories, and use the Haag-Kastler page to cite some classical results (like DHR-Superselection theory). 
+Urs, what do you think?
+BTW: Is this the correct format to insert a comment?
+=--
+
 
 --- much information to be filled in ---
 
@@ -45,7 +52,11 @@ This is, among other things, the ideal starting point for pure mathematicians wh
 
 An account written by mathematicians for mathematicians is this:
 
-* Helmut Baumg&#228;rtel, Manfred Wollenberg: Causal nets of operator algebras
+* Hellmut Baumg&#228;rtel, Manfred Wollenberg: Causal nets of operator algebras, Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
+
+and this:
+
+* Hellmut Baumg&#228;rtel: Operatoralgebraic Methods in Quantum Field Theory. A series of lectures. Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
 
 There is much more literature one should point to here, eventually. For instance for the connection between the AQFT axioms and the perturbative Feynman-integral techniques much used in [[quantum field theory]], see
 
