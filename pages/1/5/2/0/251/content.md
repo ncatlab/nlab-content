@@ -69,11 +69,38 @@ A double category is an important special case of an [[n-fold category]], namely
 
 An internal category in the 1-category $Cat$ might more properly be called a *strict* double category, since all its composition operations are strictly associative and unital.  Since a double category is a 2-dimensional structure, it makes sense to allow these compositions to be weak as well.
 
+### Pseudo double categories
+
 A **pseudo double category** is a weakly internal category in the 2-category $Cat$.  Here "weakly internal category" in a 2-category is interpreted as being associative and unital up to coherent isomorphism, just as a [[bicategory]] is a "weakly enriched category."  This makes the composition in one direction weak, but the composition in the other direction remains strict (it is the composition in the objects of $Cat$ that make up the pseudo double category).  Many naturally occurring examples, such as $Prof$, are pseudo double categories.  
 
 Luckily, every pseudo double category is equivalent to a double category of the usual sort, where composition of arrows in both directions is strictly associative.  This is Theorem 7.5 of Grandis and Par&#233;'s paper [Limits in double categories](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1999__40_3/CTGDC_1999__40_3_162_0/CTGDC_1999__40_3_162_0.pdf).
 
-Finally, a **[[double bicategory]]** is one way to define a double category which is "weak in both directions."  Double bicategories were defined in Dominic Verity's thesis, which unfortunately is unpublished and not available in electronic form.  However, the definition can be found in Jeffrey Morton's paper [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
+### Double bicategories
+
+One way to define a double category which is "weak in both directions" is a [[double bicategory]].   Double bicategories were defined in Dominic Verity's thesis, which unfortunately is unpublished and not available in electronic form.  However, the definition can be found in Jeffrey Morton's paper [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
+
+The definition of double bicategory takes as given two ordinary [[bicategories]], representing the vertical and horizontal bicategories, together with a set of squares which is "acted on" by both of these.  In the basic definition, there is no requirement that the 2-cells in the vertical (resp. horizontal) bicategory be exactly those squares whose vertical (resp. horizontal) 1-cell boundaries are identities, but such an axiom can easily be added.
+
+The reason for stipulating the vertical and horizontal bicategories as a basic part of the structure is that if identities are strict in neither direction, then the vertically (resp. horizontally) "globular" 2-cells (those whose vertical or horizontal boundaries are identities) can't seemingly be composed vertically (resp. horizontally), so it's hard to state coherence axioms for the associativity and unit constraints.
+
+### Strictly unital weak double categories
+
+Another way around this difficulty is to require the *units* to be strict, but not the associativity.  This is not such a terrible thing, since units can usually be strictified much more easily than associativity.  Thus, in this approach we assume as given
+
+* a set of objects,
+* two sets of vertical and horizontal arrows, equipped with identities and strictly unital (but not associative) composition operations,
+* a set of squares, equipped with identities and strictly unital composition in both directions, and
+* two sets of associativity squares, one with identity vertical boundary and one with identity horizontal boundary, satisfying the usual axioms, which are possible to state since identities are strict.
+
+### Cubical bicategories
+
+Yet another approach to doubly-weak double categories was proposed by [[Richard Garner]] in an email to the categories list on 5 Mar 2010, in response to a query of [[Ronnie Brown]].  This approach avoids the coherence problems by being completely "unbiased."
+
+> A **cubical bicategory** is given by sets of objects, of vertical arrows, of horizontal arrows and of squares, satisfying the obvious source and target criteria, together with operations of identity and binary composition for vertical and horizontal arrows, satisfying no laws at all; and finally, for every $n \times m$ grid of squares (where possibly $n$ or $m$ are zero), and every way of composing up the horizontal and vertical boundaries using the nullary and binary compositions, a composite square with those boundaries. The coherence axioms which this structure must satisfy say that any two ways of composing up a diagram of squares must give the same answer.
+
+He then commented:
+
+> I would be very interested to know if anyone can extract from this definition a finite collection of composition operations on squares, and a finite collection of equations between them, which together generate all the others. The key obstable seems to be problem that identity 1-cells are not strict in either direction.
 
 
 ## References ##
