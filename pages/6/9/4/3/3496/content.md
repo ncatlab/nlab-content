@@ -14,6 +14,8 @@ A geometric morphism is **essential** if in addition $f$ behaves as if...
 
 [[Urs Schreiber]]: shouldn't it be right to say that $f$ behaves as if the fibers of $f$ are locally connected spaces?
 
+[[Mike Shulman]]: No, that would be a [[locally connected geometric morphism]].  Not every essential geometric morphism is locally connected.
+
 =--
 
 
