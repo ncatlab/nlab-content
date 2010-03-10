@@ -54,11 +54,13 @@ A topos $E$ is locally connected precisely if the [[global section]] [[geometric
 +-- {: .proof}
 ###### Proof
 
-This appears as Lemma C.3.3..6 in
+This appears as Lemma C.3.3.6 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 =--
+
+However, this doesn't mean that essential geometric morphisms are the "relative" analog of locally connected toposes; in general one needs to impose an additional condition, which is automatic in the case of the global sections morphism, to obtain the notion of a [[locally connected geometric morphism]].
 
 
 ## Locally $n$-connected $(n,1)$-topos {#nCase}
