@@ -104,9 +104,9 @@ The end space behaves a bit like a $\pi_0$ and usually spaces will have many end
 We could try defining $\pi_1(\varepsilon(X))$ as a progroup, then taking its limit.  For this we would take $\{K_n\}$ an exhausting increasing sequence of compact subsets and setting $U_i = X\setminus K_i$, pick a base point $x_i$ in each $U_i$, and we will get groups $\pi_1(U_i,x_i)$.  We however need induced homomorphisms $\pi_1(U_{i+1},x_{i+1})\to \pi_1(U_i,x_i)$, and for this we have to choose an arc in $U_i$ from $x_{i+1}$ to $x_i$.  We can combine these to get a _base ray_, rather than a _base point_,  that is, we need a proper map, $\alpha : [0,\infty)\to X$.  With that we do get an inverse sequence of groups, but there are problems.  What is the dependence of the inverse system on the choice of $\alpha$?
 
 
-Let $X$ be an infinite cylinder with an infinite string of circles attached via a proper ray $\alpha: [0,\infty) \to X$.  The space has just one 'end' but you can choose different ways of going from $\pi_1(U_{i+1},x_{i+1})$ to $\pi_1(U_i,x_i)$ for fairly obvious choices of  base points such that the limit groups of the resulting two inverse systems are non-isomorphic! (In the survey below, this example is examined in detail, and one of the limits is a free group on one element, the other is trivial! Definitely non-isomorphic!)
+Let $X$ be an infinite cylinder with an infinite string of circles attached via a proper ray $\alpha: [0,\infty) \to X$.  The space has just one 'end' but you can choose different ways of going from $\pi_1(U_{i+1},x_{i+1})$ to $\pi_1(U_i,x_i)$ for fairly obvious choices of  base points such that the limit groups of the resulting two inverse systems are non-isomorphic! (In the survey listed below, this example is examined in detail, and one of the limits is a free group on one element, the other is trivial! Definitely non-isomorphic!)
 
-
+This means that $lim \pi_1(\varepsilon(X))$ is not an invariant of the end. This phenomenon is linked to the fact that $\pi_1(\varepsilon(X))$ does not satisfy the [[Mittag-Leffler condition]] for either choice of the base rays.
 
 
 ##References##
