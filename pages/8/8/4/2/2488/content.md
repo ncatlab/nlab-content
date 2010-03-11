@@ -131,18 +131,19 @@ $$
    \to \tau_{\leq 2} \to \tau_{\leq 1} A \to \tau_{\leq 0} A
 $$
 
-is called the [[Postnikov tower (in an (infinity,n)-category)]] of $A$. See there for more details.
+is called the [[Postnikov tower (in an (infinity,1)-category)]] of $A$. See there for more details.
 
 #References#
 
 The discussion of truncated objects is in section 5.5.6 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 The discussion of [[homotopy group (of an ∞-stack)]] is in section 6.5.1.
 
 
 [[!redirects n-truncated object of an (∞,1)-topos]]
+[[!redirects n-truncated object in an (∞,1)-category]]
 [[!redirects n-truncated object in an (∞,1)-topos]]
 [[!redirects n-truncated object in an (infinity,1)-topos]]
 [[!redirects n-truncated object of an (infinity,1)-topos]]
