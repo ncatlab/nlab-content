@@ -58,7 +58,9 @@ Butterfly between strict 2-groups have been introduced in
 
 * [[Behrang Noohi]], _On weak maps between 2-groups_, [arXiv](http://arxiv.org/abs/math/0506313)
 
-* [[Behrang Noohi]], E. Aldrovandi, _Butterflies I: morphisms of 2-group stacks_, [arXiv](http://arxiv.org/abs/0808.3627), to appear in Advances in Mathematics 
+* [[Behrang Noohi]], E. Aldrovandi, _Butterflies I: morphisms of 2-group stacks_, [arXiv](http://arxiv.org/abs/0808.3627), Advances in Mathematics, 221, (2009), 687&#8211;773.
+
+* [[Behrang Noohi]], E. Aldrovandi, _Butterflies II: Torsors for 2-group stacks_,[arXiv](http://arxiv.org/abs/0910.1818)
 
 
 
