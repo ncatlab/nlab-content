@@ -1,4 +1,9 @@
-###Young diagram###
+
+#Contents#
+* automatic table of conmtents goes here
+{:toc}
+
+## Young diagram 
 
 A **Young diagram** $F^\lambda$ also called **Ferrers diagram** is a graphical representation of an unordered integer partition $\lambda = (\lambda_1\ge\lambda_2\ge\ldots\ge\lambda_l$). If $\lambda\vdash n$ is a partition of $n$ then the Young
 diagram has $n$ boxes. A partition can be addressed as a multiset over $\mathbb{N}$.
@@ -34,7 +39,7 @@ diagrams include:
  (\mu,\nu) \mapsto (\mu \cup \nu)_{\ge}$ the unordered union of the multisets. It
   follows that $\mu\times \nu =(\mu^\prime + \nu^\prime)^\prime$.
 
-###Skew Young diagram###
+## Skew Young diagram
 
 A generalisation of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be two
 partitions, and let $\nu \le \mu$ be defined as $\forall i : \nu_i\le \mu_i$ (possibly adding trailing zeros). The skew Young diagram $F^{\mu/\nu}$ is given by the Young diagram $F^\mu$ with all boxes belonging to $F^\nu$ when superimposed removed. If $mu=(5,4,4,2,1,1)$ and $\nu=(3,3,2,1)$ then $F^{\mu/\nu}$ looks like:
