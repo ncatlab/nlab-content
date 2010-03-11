@@ -227,13 +227,12 @@ in [[sSet]]. The fibrant replacement of $Q$ is then the [[nerve]] of [[generaliz
 
 As recalled at [[limits and colimits by example]] in the section [limits in presheaf categories](http://ncatlab.org/nlab/show/limits+and+colimits+by+example#limitsinpresheafcat), [[colimit]]s (and hence pushouts) in the [[presheaf]]-category [[sSet]] $= Func(\Delta^{op}, Set)$ are computed for each object $[n] \in \Delta$ as ordinary colimits in [[Set]].
 
-For **$n=0$** we see that $Q_0$ is the collection 0-cells in the image of $p$ 
+For **$n=0$** we see that $Q_0$ is the collection of objects of $C$ in the image of $p$ and one additional vertex $v$:
 
 $$
  Q_0 = N(C)_0  \coprod \{ v\} = p(Obj(E)) \coprod \{v \}
 $$
 
-is the collection of objects of $C$ in the image of $p$ and one additional vertex $v$.
 
 For **$n=1$**  similarly we find that $Q_1$ consists of the 1-cells in the image of $p$ and in addition of one 1-cell $e : c \to v$ for each $e \in Obj(E)$ with $p(e) = c$ (this 1-cell is really the terminal 1-cell $e \to v$ in $E^{\triangleright}$ but with its source re-interpreted as being $p(e) = c$ according to the identification of $Q_0$ as above). In the fibrant replacement of $Q$ the composite of original 1-cells $c_1 \to c_2$ and the new 1-cells $e : c_2 \to v$ will be freely added, so that the general 1-morphism $c_1 \to v$ will consist of a 1-morphism $c_1 \to c_2$ in $C$ together with a lift of $c_2$ to $E$. This is just as in the [[comma category]] $c/p$.
 
