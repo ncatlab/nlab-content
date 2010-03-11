@@ -10,7 +10,7 @@
 
 ## Idea
 
-The notion of $\infty$-groupoid is the generalization of that of [[group]] amd [[groupoid]]s to [[higher category theory]]:
+The notion of $\infty$-groupoid is the generalization of that of [[group]] and [[groupoid]]s to [[higher category theory]]:
 
 an $\infty$-groupoid -- equivalently an [[(∞,0)-category]] -- is an [[∞-category]] in which all [[k-morphism]]s for all $k$ are [[equivalences]]. 
 
@@ -42,7 +42,7 @@ $$
 Every other algebraic definition of [[omega-categories]] is supposed to yield an equivalent notion of $\infty$-groupoid when restricted to $\omega$-categories all whose [[k-morphism]]s are invertible. This is the statement of the [[homotopy hypothesis]], which is for Kan complexes and algebraic Kan complexes a theorem and for other definitions regarded as a consistency condition.
 
  
-Notably in [[Pursuing Stacks]] [[Alexander Grothendieck]] initiated the study of $\infty$-groupoids and the homotopy hypothesis with his original definition of [[Grothendieck weak infinity-groupoid]]s, that has recently attracted renewed attention.
+Notably in [[Pursuing Stacks]] and the earlier letter to Larry Breen, [[Alexander Grothendieck]] initiated the study of $\infty$-groupoids and the homotopy hypothesis with his original definition of [[Grothendieck weak infinity-groupoid]]s, that has recently attracted renewed attention.
 
 One may also consider entirely strict $\infty$-groupoids, usually called $\omega$-groupoids or [[strict ∞-groupoids]]. These are equivalent to [[crossed complexes]] of [[group]]s and [[groupoid]]s. 
 
