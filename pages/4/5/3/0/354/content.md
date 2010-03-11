@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 A Kan complex is a [[geometric definition of higher category|geometric model]] of an $\infty$-[[infinity-groupoid|groupoid]] based on the [[geometric shapes for higher structures|shape]] modeled by the [[simplex category]].
 
@@ -10,7 +10,7 @@ A Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all 
 
 In a Kan complex there are no _specified_ composites. But one may _choose_ out for all composable $k$-morphisms a composite and thus arrive at an [[algebraic definition of higher category|algebraic model]] for $\infty$-groupoids: [[algebraic Kan complex]]es.
 
-#Definition#
+## Definition
 
 A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
 
@@ -79,7 +79,7 @@ $$
 
 
 
-#Remarks#
+## Remarks
 
 
 * Kan complexes are among the most convenient and popular models for [[∞-groupoids]]. The horn filling condition from this point of view is read as guaranteeing that
@@ -97,9 +97,9 @@ $$
 
   In this context, a weak equivalence between Kan complexes is a morphism of simplicial sets that induces an [[isomorphism]] on the [[simplicial homotopy groups]] of the two Kan complexes.
 
-#Examples#
+## Examples
 
-## Kan complexes from nerves of $n$-groupoids ##
+### Kan complexes from nerves of $n$-groupoids 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -172,7 +172,7 @@ is a Kan complex if and only if $C$ is a [[strict ∞-groupoid]].
 =--
 
 
-## singular simplicial complexes / fundamental $\infty$-groupoids ##
+### Singular simplicial complexes / fundamental $\infty$-groupoids
 
 For $X$ a [[topological space]], its _singular simplicial complex_ is the [[simplicial set]] $\Pi(X)$ (often denoted  $S(X)$) whose set of $n$-simplices is the [[hom-set]]
 
@@ -208,7 +208,149 @@ The [[∞-groupoid]] represented by the Kan complex $\Pi(X)$ is called the [[fun
 
 This example is the universal one: up to [[model structure on simplicial sets|weak equivalence of Kan complexes]] every Kan complex is the fundamental $\infty$-groupoid of a (compactly generated, weakly Hausdorff) [[topological space]].
 
-
 This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\infty$-groupoids modeled as Kan complexes.
 
+## How to think of Kan complexes as $\infty$-groupoids {#AsGrpds}
+
+We exapnd here a bit on how a Kan complex may naturally be thought of as an [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphism]]s for all $k \in \mathbb{N}$ are invertible.
+
+For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of a Kan complex $C$ as a [[k-morphism]] whose 
+
+* _source_ is the $(k-1)$-morphism given by the pasting diagram of the $(k-1)$-cells that are the faces $d_{k} \phi, \; d_{k-2} \phi, d_{k-4} \phi \cdots$  of $\phi$;
+
+* _target_ is the $(k-1)$-morphism given by the pasting diagram of the $(k-1)$-cells that are the faces $d_{k-1} \phi, \; d_{k-3} \phi, d_{k-5} \phi \cdots$  of $\phi$
+
+where $d_i : C_k \to C_{k-1}$ are the [[simplicial identities|face maps]] of the [[simplicial set]] $C$.
+
+This is easy to see in low dimensions: 
+
+* a 1-cell $\phi \in C_1$ in the [[simplicial set]] $C$ has a single source 0-cell $x := d_1 \phi$ and a single target 0-cell $y := d_0 \phi$ and hence may be pictured as a [[morphism]]
+
+  $$
+    x \stackrel{\phi}{\to} y
+    \,.
+  $$
+
+* a 2-cell $\phi \in C_2$ in the [[simplicial set]] $C$ has two incoming 1-cells $d_2 \phi, d_0 \phi \in C_1$ and one outgoing 1-cell $d_1 \phi \in C_1$, and if we think of the two incoming 1-cells as representing the composite of the corresponding 1-morphisms, we may picture te 2-cell $\phi$ here as a globular 2-morphism
+
+  $$
+    \array{
+      && x_1
+      \\
+      & {}^{\mathllap{d_2 \phi}}\nearrow &\Downarrow^\phi& \searrow^{\mathrlap{d_1 \phi}}
+      \\
+      x_0 &&\underset{d_1 \phi}{\to}&& x_2
+    }
+    \,.
+  $$
+
+More in detail, one may think of the incoming two adjacent 1-cells here as _not_ being the composite of these two morphism, but just as a sequence of two composible morphisms, and should think of the existence of the 2-morphism $\phi$ here as being a **compositor** in a [[bicategory]] that shows how the composable pair i composed to the morphism $d_1 \phi$.
+
+So if an $\infty$-groupoid is thought of as a [[geometric shapes for higher structures|globular]] [[Batanin ∞-category| ∞-category]] in which all [[k-morphism]]s are invertible, then the corresponding Kan complex is the [[nerve]] or rather the [[∞-nerve]] of this [[∞-category]].
+
+Notably if $C$ is to be regarded as (the nerve of) an ordinary [[groupoid]], every composable pair of morphisms has a unique composite, and hence there should be a _unique_ 2-cell
+
+  $$
+    \array{
+      && x_1
+      \\
+      & {}^{f}\nearrow &\Downarrow& \searrow^{g}
+      \\
+      x_0 &&\underset{h = g \circ f}{\to}&& x_2
+    }
+  $$
+
+that is the unique **identity 2-morphism**
+
+$$
+  g \circ f \stackrel{=}{\Rightarrow} h
+  \,.
+$$
+
+More generally, in a [[2-groupoid]] there may be non-identity 2-morphisms, and hence for any 1-mophism $k _ x_0 \to x_2$ 2-isomorphic to $h$, there may be many 2-morphisms $g \circ f \Rightarrow k$, hence many 2-cells
+
+$$
+  \array{
+    && x_1
+    \\
+    & {}^{f}\nearrow &\Downarrow^{\simeq}& \searrow^{g}
+    \\
+    x_0 &&\underset{k }{\to}&& x_2
+  }
+  \,.
+$$
+
+All we can say for sure is that _at least_ one such 2-cell exists, and that the 2-cells themselves may be composed in some way. This is precisely what the horn-filler consitions in a Kan complex encode.
+
+To see this for the composition of 2-morphisms, we need to move further up in dimension. The task of analyzing the combinatorics of k-simplices and their boundaries in the above fashion quickly goes beyond what can be handled in a naive fashion. Luckily, this combinatorial problem has been completely solved by [[Ross Street]] in his work on [[oriental]]s.
+
+The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of  a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. The first few look like this:
+
+$$
+\array{\arrayopts{\rowalign{center}}
+O(\Delta^0) = & \{ 0\} \\
+O(\Delta^1) = & \left\{ 0 \to 1\right\} \\
+O(\Delta^2) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta2]]
+\end{svg}}
+\right\}\\
+O(\Delta^3) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta3]]
+\end{svg}}\right\}\\
+O(\Delta^4) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta4]]
+\end{svg}}
+\right\}
+}
+$$
+
+In fact, the [[omega-nerve]] $N(K)$ of an [[omega-category]] $K$ is the [[simplicial set]] whose collection of $k$-cells $N(K)_k := Hom(O(k),K)$ is precisely the collection of images of the $k$th oriental $O(k)$ in $K$.
+
+This is fully formally the prescription of how to think of a Kan complex as an $\infty$-groupoid: the Kan complex $C$ is the [[omega-nerve]] of an [[omega-category]] in which all morphism are invertible:
+
+* the $k$-cells in  $C_k$ are precisely the collection of $k$-morphisms ihn the omega-category of shape the $k$th [[oriental]] $O(k)$;
+
+* the [[horn]]-filler conditions satisfied by these cells is precisely a reflection of the fact that
+
+  1. there exists a notion of composition of adjacent k-morphisms in the [[omega-category]];
+
+  1. under this composition all $k$-morphisms have an inverse.
+
+We have already seen in low dimension how the existence of composites in an $\omega$-category is reflected in the fact that in a Kan-complex certain 22-simplices exist, and how the non-uniqueness of these 2-simplices reflects the existence of nontrivial 2-morphisms.
+
+To see in a similar fashion that the Kan condition ensures the existence of _inverses_ consider an _outer horn_ in $C$, a diagram of 1-cells of the form
+
+$$
+  \array{
+    && x_1
+    \\
+    & {}^{\mathllap{f}}\nearrow
+    \\
+    x_0 &&\underset{h}{\to}&& x_2
+  }
+  \,.
+$$
+
+In general given such a diagram in a [[category]], there is no guarantee that the corresponding triangle as above will exist in its [[nerve]]. But if the category is a [[groupoid]], then it is guaranteed that the missing 1-face can be chose to be the [[inverse]] of $f$ composed with the morphism $h$, and there is at least one 2-morphism
+
+$$
+  \array{
+    && x_1
+    \\
+    & {}^{\mathllap{f}}\nearrow
+    &\Downarrow^{\simeq}& \searrow^{\mathrlap{h \circ f^{-1}}}
+    \\
+    x_0 &&\underset{h}{\to}&& x_2
+  }
+  \,.
+$$
+
+A similar analysis for higher dimensional cells shows that the fact that a Kan complex has all horn fillers encodes precisely the fact that it is the [[omega-nerve]] of an [[omega-category]] in which _all_ [[k-morphism]]s for all $k$ are composable if adjacent and have a weak inverse.
+
+
+
 [[!redirects Kan complexes]]
+
