@@ -30,6 +30,23 @@ See also the [Wikipedia entry](http://en.wikipedia.org/wiki/Von_Neumann_algebra)
 
 * Combining the previous two remarks, some authors use '$W^*$-algebra' for the abstract concept and 'von Neumann algebra' for the concrete concept.  Equivalently, then, a von Neumann algebra is a $W^*$-algebra equipped with a free action on a Hilbert space (and it\'s a theorem that any $W^*$-algebra may be so equipped).
 
++-- {: .query}
+[[Tim van Beek]]: I'm confused by the remarks, to my knowledge, the situation is this: $W^*$-algebra is the abstract concept, von Neumann algebra is the concrete concept, meaning that the definition of a von Neumann algebra needs a Hilbert space $\mathcal{H}$, so that it can be defined as a e.g. weakly closed subalgebra of $\mathcal{L}(\mathcal{H})$, the algebra of all bounded linear operators on $\mathcal{H}$. Without the Hilbert space you can't say what the weak topology should be.
+
+According to
+
+* Schaefer, Helmut H.; Wolff, M.P.: Topological vector spaces. 2nd ed., Springer 1999 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0983.46002&format=complete))
+
+the situation is then this:
+
+####Definition:
+A $W^*$-algebra is a $C^*$-algebra whose underlying normed space is a dual Banach space.
+
+####Theorem:
+Every $W^*$-algebra is $W^*$-isomorphic to a von Neumann algebra ("on a suitable Hilbert space" is added in corollary 3 in paragraph 7.1, which is redundant however).
+
+Any objections to change the remarks accordingly? 
+=--
 
 [[!redirects W*-algebra]]
 [[!redirects W-star-algebra]]
