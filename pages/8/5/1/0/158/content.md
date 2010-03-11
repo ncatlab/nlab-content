@@ -10,7 +10,7 @@
 
 ## Idea
 
-An $\infty$-groupoid -- equivalently an [[(∞,0)-category]] -- is an [[∞-category]] in which all [[k-morphism]]s for all $k$ are [[equivalences]].
+An $\infty$-groupoid -- equivalently an [[(∞,0)-category]] -- is an [[∞-category]] in which all [[k-morphism]]s for all $k$ are [[equivalences]]. They generalize [[group]]s amd [[groupoid]]s to [[higher category theory]].
 
 The collection of all $\infty$-groupoids forms the [[(∞,1)-category]] [[∞Grpd]].
 
@@ -20,7 +20,7 @@ The collection of all $\infty$-groupoids forms the [[(∞,1)-category]] [[∞Grp
 $\infty$-groupoids have a simple and very useful incarnation in [[geometric definition of higher categories]] as [[simplicial set]]s that are [[Kan complex]]es. See there for a detailed discussion of how these are $\infty$-groupoids. The [[(∞,1)-category]] of all $\infty$groupoids is [[presentable (∞,1)-category|presented]] along these lines by the Quillen [[model structure on simplicial sets]], whose fibrant-cofibrant objects are precisely the Kan complexes.
 
  
-One may turn this into an [[geometric definition of higher categories|algebraic definition of ∞-groupoids]] by _choosing [[horn]]-fillers_ . The resulting notion is that of an [[algebraic Kan complex]] that has been shown by [[Thomas Nikolaus]] to yield an equivalent [[(∞,1)-category]] of $\infty$-groupoids.
+One may turn this into an [[algebraic definition of higher category|algebraic definition of ∞-groupoids]] by _choosing [[horn]]-fillers_ . The resulting notion is that of an [[algebraic Kan complex]] that has been shown by [[Thomas Nikolaus]] to yield an equivalent [[(∞,1)-category]] of $\infty$-groupoids.
 
 Every other algebraic definition of [[omega-categories]] is supposed to yield an equivalent notion of $\infty$-groupoid when restricted to $\omega$-categories all whose [[k-morphism]]s are invertible. This is the statement of the [[homotopy hypothesis]], which is for Kan complexes and algebraic Kan complexes a theorem and for other definitions regarded as a consistency condition.
 
