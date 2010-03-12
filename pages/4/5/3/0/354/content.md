@@ -214,7 +214,7 @@ This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\i
 
 ## How to think of Kan complexes as $\infty$-groupoids {#AsGrpds}
 
-We exapnd here a bit on how a Kan complex may naturally be thought of as an [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphism]]s for all $k \in \mathbb{N}$ are invertible.
+We expand here a bit on how a Kan complex may naturally be thought of as an [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphism]]s for all $k \in \mathbb{N}$ are invertible.
 
 For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of a Kan complex $C$ as a [[k-morphism]] whose 
 
@@ -246,7 +246,7 @@ This is easy to see in low dimensions:
     \,.
   $$
 
-More in detail, one may think of the incoming two adjacent 1-cells here as _not_ being the composite of these two morphism, but just as a sequence of two composible morphisms, and should think of the existence of the 2-morphism $\phi$ here as being a **compositor** in a [[bicategory]] that shows how the composable pair i composed to the morphism $d_1 \phi$.
+More in detail, one may think of the incoming two adjacent 1-cells here as _not_ being the composite of these two morphism, but just as a sequence of two composable morphisms, and should think of the existence of the 2-morphism $\phi$ here as being a **compositor** in a [[bicategory]] that shows how the composable pair i composed to the morphism $d_1 \phi$.
 
 So if an $\infty$-groupoid is thought of as a [[geometric shapes for higher structures|globular]] [[Batanin ∞-category| ∞-category]] in which all [[k-morphism]]s are invertible, then the corresponding Kan complex is the [[nerve]] or rather the [[∞-nerve]] of this [[∞-category]].
 
@@ -269,7 +269,7 @@ $$
   \,.
 $$
 
-More generally, in a [[2-groupoid]] there may be non-identity 2-morphisms, and hence for any 1-mophism $k _ x_0 \to x_2$ 2-isomorphic to $h$, there may be many 2-morphisms $g \circ f \Rightarrow k$, hence many 2-cells
+More generally, in a [[2-groupoid]] there may be non-identity 2-morphisms, and hence for any 1-morphism $k _ x_0 \to x_2$ 2-isomorphic to $h$, there may be many 2-morphisms $g \circ f \Rightarrow k$, hence many 2-cells
 
 $$
   \array{
@@ -282,7 +282,7 @@ $$
   \,.
 $$
 
-All we can say for sure is that _at least_ one such 2-cell exists, and that the 2-cells themselves may be composed in some way. This is precisely what the horn-filler consitions in a Kan complex encode.
+All we can say for sure is that _at least_ one such 2-cell exists, and that the 2-cells themselves may be composed in some way. This is precisely what the horn-filler conditions in a Kan complex encode.
 
 To see this for the composition of 2-morphisms, we need to move further up in dimension. The task of analyzing the combinatorics of k-simplices and their boundaries in the above fashion quickly goes beyond what can be handled in a naive fashion. Luckily, this combinatorial problem has been completely solved by [[Ross Street]] in his work on [[oriental]]s.
 
