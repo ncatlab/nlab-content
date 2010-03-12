@@ -178,15 +178,15 @@ a homotopy pullback in $C$, for every $X \in K$ the induced diagram
 
 $$
   \array{
-    Hom_C(X,A) \times_{Hom_{C}(X,K)} Hom_C(X,B) \simeq& Hom_C(X,A \times_K B) &\to& Hom_C(X,B)
+     Hom_C(X,A \times_K B) &\to& Hom_C(X,B)
     \\
-    &\downarrow && \downarrow
+    \downarrow && \downarrow
     \\
-    &Hom_C(X,A) &\to& Hom_C(X,K)
+    Hom_C(X,A) &\to& Hom_C(X,K)
   }
 $$
 
-is again homotopy pullback diagram (of [[∞-groupoids]]).
+is again homotopy pullback diagram (of [[∞-groupoids]]); in particular the morphism $Hom_C(X,A \times_K B)\to Hom_C(X,A) \times_{Hom_{C}(X,K)} Hom_C(X,B)$ induced by the universal property of homotopy pullback is an equivalence. 
 
 So in particular for
 
