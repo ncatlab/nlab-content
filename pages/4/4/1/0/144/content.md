@@ -4,35 +4,47 @@
 
 ## Idea 
 
-Given a [[category]] $C$ whose objects are thought of as _test spaces_ a very general useful notion of 
+Consider a [[category]] $C$ whose [[object]]s are thought of as _spaces_ and whose morphisms are regarded as structure-preserving morphisms between these spaces. 
 
-* [[space]] modeled on the objects of $C$ is a [[presheaf]] on $C$, i.e. a [[functor]] $X : C^{op} \to $ [[Set]].
+There is then a general notion of
 
-* [[quantity]] modeled on $C$ is a [[presheaf|copresheaf]] on $C$, i.e. a functor $A : C \to Set$.
+* **spaces** modeled on $C$ that are _testable_ by objects of $C$;
 
-There are various specializations of interest on this
+* **quantities** with values in $C$.
 
-* [[higher category theory|higher categorical]] version
+Very generally,
 
-  * [[∞-space]] modeled on $C$ is a [[simplicial presheaf]] on $C$, i.e. a functor $X : C^{op} \to $ [[SSet]].
+* a [[space]] modeled on the objects of $C$ is a [[presheaf]] on $C$, i.e. a [[functor]] 
 
-  * [[∞-quantity]] modeled on $C$ is a cosimplicial copresheaf on $C$, i.e. a functor $X : C \to CoSSet$ .
+  $X : C^{op} \to $ [[Set]]:
 
-* infinitesimal version
+  we think of each such presheaf as being a rule that assigns to each test space $U \in C$ the set $X(U)$ of allowed maps _from_ $U$ into the would-be space $X$; 
 
-  * [[infinitesimal space]]
+* a [[quantity]] modeled on $C$ is a [[presheaf|copresheaf]] on $C$, i.e. a functor 
 
-  * [[infinitesimal quantity]]
+  $A : C \to Set$:
 
-For some discussion of why this is a useful general notion see [[motivation for sheaves, cohomology and higher stacks]].
+  we think of each such copreasheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps from a would-be space _into_ $U$, hence as the collection of $U$-valued _functions_ on $X$. Since a function on a point is a "quantity", this are generalized quantities.
 
-With the advent of [[Higher Topos Theory]] abstract concepts of _space and quantity_ have been realized fully in the context of [[(∞,1)-topos]]es in terms of [[structured (∞,1)-topos]]es and [[generalized scheme]]s. For a summary see the tables at [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#NotionsOfSpace).
+Typically the admissiable (co)presheaves that are regarded as generalizes spaces and quantities modeled on $C$ are required to respect certain properties of $C$:
+
+* If $C$ carries the structure of a [[site]], one asks a generalized space to be a presheaf $X = PSh(C) = [C^{op},Set]$ that respects the way objects in $C$ are covered by other objects. These are the [[sheaf|sheaves]]. The [[category of sheaves]]
+
+  $Sh(C) \hookrightarrow PSh(C)$
+
+  is the [[topos]] of spaces modeled on objects in $C$. More details on how to think of sheaves as generalized spaces is at [[motivation for sheaves, cohomology and higher stacks]].
+
+
+* Given any generalized spaces, funcions out of it are expected to respect [[product]]s of coefficient objects, in that a function with values in $U \times V$ is the same as a pair of functions, one with values in $U$, one with values in $V$. Hence one is typically interested in coprosheaves that preserve at least [[product]]
+
+  $CoSh(C) \hookrightarrow CoPSh(C)$.
+
 
 ## Details
 
 As indicated in
 
-* F. W. Lawvere, _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+* [[Bill Lawvere]], _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
 
 from [page 17](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf#page=17) on, the general situation involving
 
@@ -72,7 +84,7 @@ One can think of $C(X)$ as being a generalized quantity which may be _co-probed_
 
 In this vein, one can say, generally, that co-presheaves on $S$ are generalized quantities modeled on $S$, and we write
 $$
-  Quantities_S := CoPrSh(S)
+  Quantities_S := CoPSh(S)
   \,.
 $$
 
@@ -93,7 +105,7 @@ $$
   \,.
 $$
 
-(That this is an adjunction can be understood as a special case of [[Stone duality]] induced by a [[dualizing object]].)
+(That this is an adjunction can be understood as a special case of [[abstract Stone duality]] induced by a [[dualizing object]].)
 
 Lawvere addresses this adjoint pair as **Isbell conjugation**.
 
@@ -101,35 +113,101 @@ In conclusion, the grand [[duality]] between spaces and quantities is a conseque
 
 This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance are in particular presheaves with values in the category [[Top] of [[topological space]]s and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
 
+## Isbell duality: global functions and spectrum 
+
+Let $V$ be a [[symmetric monoidal category]] and $C$ a $V$-[[enriched category]]. Write $[C^{op},V]$ for the [[enriched functor category]] and $j : C \to [C^{op},V]$ for the [[Yoneda embedding]].
+
+There is canonically a $V$-[[adjunction]]
+
+$$
+  (\mathcal{O} \dashv Spec)  \;\;: \;\; [C, V]^{op}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  [C^{op},V]
+$$
+
+the **Isbell adjunction**. Here
+
+* $\mathcal{O} := [C^{op},V](j(-), -)$ sends a presheaf $X$ to the copresheaf $U \mapsto [C^{op},V](X,j(U))$;
+
+* $Spec := [C,V]^{op}(j(-),-)$ sends a copresheaf $A$ to the preseheaf $U \mapsto [C,V](A, j^{op}(U))$.
+
+If we assume that $C$ is [[copower|tensored]] over $V$, then that this is an adjunction may be seen in [[end]]/[[coend]]-calculus to express the [[hom-object]]s in the [[enriched functor cagtegory]] as follows. We compute
+
+$$
+  \begin{aligned}
+    [C,V]^{op}(\mathcal{O}(X),A)
+    & =
+    \int_{u \in C} V(A(u), [C^{op},V](X,j(u)))
+    \\
+    & \simeq
+    \int_{u \in C} V(A(u), [C^{op},V](\int^{v \in C} j(v) \cdot X(v),j(u)))   
+    \\
+    & \simeq
+    \int_{u, v \in C} V(A(u) \cdot X(v), [C^{op},V](j(v),j(u)))    
+    \\
+    & \simeq
+    \int_{u, v \in C} V(A(u) \cdot X(v), V(v,u))    
+  \end{aligned}
+  \,,
+$$
+
+where we used the [[Yoneda lemma]] $[C^{op},V](j(v),j(v)) \simeq V(v,u)$ and the [[co-Yoneda lemma]] $X \simeq \int^{v \in V}$ v \cdot X(v).
+
+Analogously we find
+
+$$
+  \begin{aligned}
+    [C^{op},V](X,Spec A)
+    & =
+    \int_{v \in C} V(X(v),[C,V](A, j^{op}(v)))
+    \\
+    & \simeq
+    \int_{v \in C} V(X(v), [C,V](\int^{u \in C} j^{op}(u) \cdot X(v),j^{op}(u)))   
+    \\
+    & \simeq
+    \int_{u, v \in C} V(A(u) \cdot X(v), [C,V](j^{op}(v),j^{op}(u)))    
+    \\
+    & \simeq
+    \int_{u, v \in C} V(A(u) \cdot X(v), V(v,u))    
+  \end{aligned}
+  \,,
+$$
+
+
 ## Examples
 
-### Examples for generalized spaces
+### Cartesian test spaces: diffeological spaces and smooth algebras
+
+consider the category of test spaces $C = $ [[CartSp]].
+
+Then 
+
+* spaces modeled on $C$ are [[generalized smooth space]]s such as [[diffeological space]]s;
+
+* quantities modeled on $C$ are [[smooth algebra]] ($C^\infty$-rings).
+
+The adjunction $(\mathcal{O} \dashv Spec)$ sends a smooth space to its smooth algebra of functions and a smooth algebra of functions to its "spectrum".
 
 
-*  A [[sheaf]] is a generalized space in the above sense which satisfies a certain extra natural condition which encodes that it is _locally well behaved_. The [[sheaf]] condition on a [[presheaf]] says that the generalized space whose probes form a [[presheaf]] is such that the probes by a big test object $U$ can be reconstructed from those probes by smaller test objects $\{V_i\}$ [[coverage|covering]] $U$ which are given by restricting the probe by $U$ to all of the $V_i$. So generalized spaces which are given not just by presheaves but by sheaves satisfy a very natural locality conditions: they can be _built up from smaller pieces_. 
+## Higher space and higher quantity
 
-* Arbitrary generalized spaces given by sheaves can still be much more general than an "ordinary space". A **concrete sheaf** is (the collection of probes of) a generalized space which at least shares with an ordinary space the property that it has an _underlying set of points_. Important examples of generalized spaces given by concrete sheaves are the Chen-smooth or diffeological spaces discussed at [[generalized smooth space]]. 
+There are various specializations of interest on this
 
-* There is a natural generalization of the above examples for generalized spaces whose presheaves of probes take values not in [[Set]] but in [[Top]] (equivalently in [[SSet]]): when these satisfy the respective locality condition they are called [[infinity-stack]]s or [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. For instance, [[Lie groupoid]]s also known as [[differentiable stack]]s  and more generally [[Lie infinity-groupoid]]s are examples of this.
+* [[higher category theory|higher categorical]] version
+
+  * [[∞-space]] modeled on $C$ is a [[simplicial presheaf]] on $C$, i.e. a functor $X : C^{op} \to $ [[SSet]].
+
+  * [[∞-quantity]] modeled on $C$ is a cosimplicial copresheaf on $C$, i.e. a functor $X : C \to CoSSet$ .
+
+With the advent of [[Higher Topos Theory]] abstract concepts of _space and quantity_ have been realized fully in the context of [[(∞,1)-topos]]es in terms of [[structured (∞,1)-topos]]es and [[generalized scheme]]s. For a summary see the tables at [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#NotionsOfSpace).
 
 
-* A pedagogical discussion of generalized spaces (from this perspective) is at
 
-  * [[motivation for sheaves, cohomology and higher stacks]]
 
-* The idea of a _space equipped with a structure sheaf_ generalizes in the above sense to a mix of a copresheaf and a presheaf, see [[structured generalized space]].
-
-### Examples for generalised quantities
-
-It would be nice if we had some of these, although [[structured generalized space]] above is sort of a mixture.
-
-#References#
+## References
 
 The _duality of space and quantity_ in the above sense is described in
 
-* F. W. Lawvere, [Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)
+* [[Bill Lawvere]], _[Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)_
 
-A related blog discussion is here:
-
-*  _Space and Quantity_ ([blog](http://golem.ph.utexas.edu/category/2008/03/space_and_quantity.html))
 
