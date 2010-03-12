@@ -40,7 +40,7 @@ Typically the admissiable (co)presheaves that are regarded as generalizes spaces
   $CoSh(C) \hookrightarrow CoPSh(C)$.
 
 
-## Details
+### Details
 
 As indicated in
 
@@ -113,7 +113,14 @@ In conclusion, the grand [[duality]] between spaces and quantities is a conseque
 
 This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance are in particular presheaves with values in the category [[Top] of [[topological space]]s and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
 
-## Isbell duality: global functions and spectrum 
+
+## Isbell duality: global functions and spectrum {#Isbell}
+
+we describe the [[duality]] between space and quantity induced by forming
+
+* functions on spaces;
+
+* spectra of function algebras.
 
 Let $V$ be a [[symmetric monoidal category]] and $C$ a $V$-[[enriched category]]. Write $[C^{op},V]$ for the [[enriched functor category]] and $j : C \to [C^{op},V]$ for the [[Yoneda embedding]].
 
@@ -131,7 +138,7 @@ the **Isbell adjunction**. Here
 
 * $Spec := [C,V]^{op}(j(-),-)$ sends a copresheaf $A$ to the preseheaf $U \mapsto [C,V](A, j^{op}(U))$.
 
-If we assume that $C$ is [[copower|tensored]] over $V$, then that this is an adjunction may be seen in [[end]]/[[coend]]-calculus to express the [[hom-object]]s in the [[enriched functor cagtegory]] as follows. We compute
+If we assume that $C$ is [[copower|tensored]] over $V$, then that this is an adjunction may be seen in [[end]]/[[coend]]-calculus to express the [[hom-object]]s in the [[enriched functor category]] as follows. We compute
 
 $$
   \begin{aligned}
@@ -151,7 +158,7 @@ $$
   \,,
 $$
 
-where we used the [[Yoneda lemma]] $[C^{op},V](j(v),j(v)) \simeq V(v,u)$ and the [[co-Yoneda lemma]] $X \simeq \int^{v \in V}$ v \cdot X(v).
+where we used the [[Yoneda lemma]] $[C^{op},V](j(v),j(v)) \simeq V(v,u)$ and the [[co-Yoneda lemma]] $X \simeq \int^{v \in V} j(v) \cdot X(v)$ and the fact that the $V$-enriched hom sends colimits and coends in the first argument to limits and ends.
 
 Analogously we find
 
@@ -178,13 +185,13 @@ $$
 
 ### Cartesian test spaces: diffeological spaces and smooth algebras
 
-consider the category of test spaces $C = $ [[CartSp]].
+Consider the category of test spaces $C = $ [[CartSp]].
 
 Then 
 
 * spaces modeled on $C$ are [[generalized smooth space]]s such as [[diffeological space]]s;
 
-* quantities modeled on $C$ are [[smooth algebra]] ($C^\infty$-rings).
+* quantities modeled on $C$ are [[smooth algebra]]s ($C^\infty$-rings).
 
 The adjunction $(\mathcal{O} \dashv Spec)$ sends a smooth space to its smooth algebra of functions and a smooth algebra of functions to its "spectrum".
 
