@@ -17,3 +17,5 @@ $$p^{n^{\prime\prime}}_n(G_{n^{\prime\prime}}) = p^{n^\prime}_n(G_{n^\prime}).$$
 This is the 'classical' form of the condition. It can also be applied in any category where images make sense. 
 
 An inverse sequence is a special type of [[pro-object]] and it is well known and quite easy to show that any Mittag-Leffler pro-object like this is isomorphic to one which is [[essentially epimorphic pro-object|essentially epimorphic]].
+
+The condition is one of those used to assure the vanishing of the first [[derived limit]] functor, $lim^1G$. This is relevant for the preservation of exactness when applying limiting processes to exact sequences. 
