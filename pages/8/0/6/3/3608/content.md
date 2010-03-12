@@ -13,4 +13,4 @@ Any pro-object isomorphic in $pro$-$C$ to one of the form, $c(X)$, for $X$ an ob
 
 In any given categorical context, the so-called __stability problem__ is the problem of deciding what internal criteria can be applied to check if a given pro-object in that context, is or is not stable,
 
-If $C$ is an [[abelian category]], it is relatively simple to give necessary and sufficient 'internal' conditions for a given pro-object to be *essentially constant*.
+If $C$ is an [[abelian category]], it is relatively simple to give necessary and sufficient 'internal' conditions for a given pro-object to be *essentially constant*. It must be both [[essentially epimorphic pro-object|essentially epimorphic]] and [[essentially monomorphic pro-object|essentially monomorphic]].
