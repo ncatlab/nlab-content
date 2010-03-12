@@ -78,6 +78,8 @@
 
   * [[Trimble n-category|Trimble ∞-category]]
 
+  * [[Grothendieck weak infinity-groupoid|Grothendieck weak ∞-groupoid]]
+
 * [[stable homotopy theory]]
 
   * [[symmetric monoidal category]]
