@@ -9,9 +9,18 @@ this page is a draft, see:
 
 * Wikipedia on the [Wightman axioms] (http://en.wikipedia.org/wiki/Wightman_axioms)
 
+The Wightman axioms are an attempt to develop a mathematically rigorous set of axioms for quantum field theory.  The axioms serve as the basis of what is known as _constructive_ field theory which seeks to show that quantum theory is _mathematically_ compatible with special relativity.  Arthur Wightman first formulated them in the 1950s but they were not published until 1964 after advances in scattering theory suggested confirmed their applicability.
+
 
 ## Wightman Axioms
-...additions to Wikipedia may go here
+
+Note: in some publications, the numbering of the axioms begins with 1 while in others it begins with 0.  We use the latter convention.
+
++--{: .axiom}
+
+The states of a quantum theory are normalized vectors in a separable Hilbert space, $\mathcal{H}$.  Two such states that differ by a complex phase give rise to the same state.
+
+=--
 
 ## The Wightman Reconstruction Theorem
 ...will go here
