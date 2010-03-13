@@ -1,1 +1,1 @@
-let X be a set ,a topology T on  X is acollection of subsets of X ,each called on open  
+[[topological structure]]
