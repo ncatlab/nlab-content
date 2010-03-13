@@ -61,6 +61,8 @@ Important special cases include when each fiber is a [[groupoid]], corresponding
 
 * It is easy to verify that fibrations are closed under pullback in [[Cat]], and that the composite of fibrations is a fibration.  This latter property is notably difficult to express in the language of pseudofunctors.
 
+* Every fibration or opfibration is a [[Conduché functor]], and therefore an [[exponentiable morphism]] in [[Cat]].  Conduch&#233; functors that are not fibrations or opfibrations seem to be rare.
+
 * Fibrations are a "nonalgebraic" structure, since the base change functors $f^*$ are determined by universal properties, hence uniquely up to isomorphism.  By contrast, pseudofunctors are an "algebraic" structure, since the functors $f^*$ are specified, together with the necessary coherence data and axioms; the latter come for free in a fibration because of the universal property.
 
 * A [[stack]], being a particular type of pseudofunctor, can also be described as a particular sort of fibration.  This was the original application for which Grothendieck introduced the notion.
