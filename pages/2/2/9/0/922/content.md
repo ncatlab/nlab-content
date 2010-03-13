@@ -8,7 +8,7 @@ Let $\mathrm{Cogc}$ be the category of cocomplete dg-co(al)gebras and $\mathrm{A
 
 #Some usages of twisting cochains#
 
-A twisting cochain is a datum used to define the [[twisted tensor product]] $L\otimes_\tau M$ for any right $C$-co[[module]] $L$ and any left $A$-comodule $M$,
+A twisting cochain is a datum used to define the [[twisted tensor product]] $L\otimes_\tau M$ for any right $C$-co[[module]] $L$ and any left $A$-module $M$,
 as well as the [[twisted module of homomorphisms]] $\mathrm{Hom}_\tau(N,P)$ where $N$ is a left $C$-dg-comodule and $P$ a left $A$-dg-module.
 
 B. Keller and his student Kenji Lef&#232;vre-Hasegawa have shown that [[Koszul duality]] is closely related to twisting cochains. Given a twisting cochain $\tau$, one always has a pair of [[adjoint functor]]s $\otimes_\tau A$ and $\otimes_\tau C$ between the [[derived category]] of modules over $A$ and the coderived category of comodules over $C$ (where $C$ is in $\mathrm{Cogc}$ and the coderived category is just the localization of the category of complexes of comodules at the class of [[weak equivalence]]s, which are by definition those morphisms which became [[quasi-isomorphism]]s after applying $\otimes_{\tau_0}\Omega C$ where $\tau_0:\Omega C\to C[-1]$ is the canonical twisting cochain). This pair of adjoint functors is an [[adjoint equivalence]] iff the composition $\Omega C\to C[-1]$ by $\tau[-1]:C[-1]\to A$ (compare reasoning above) is a quasi-isomorphism. This can also be expressed by saying that the canonical map
