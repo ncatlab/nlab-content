@@ -15,56 +15,59 @@ Examples for possible shapes used to model higher categories are
 
 * [[trees]].
 
-* [[opetopes]].
+* [[opetopes]], aka [[multitopes]].
 
 There are corresponding categories whose 
 
-* objects are the "standard cellular shapes" of the given sort: [[globe|globes]], [[simplex|simplices]], [[cube|cubes]], respectively, one for each natural number $n \in \mathbb{N}$ and usually denoted $[n]$
+* objects are the "standard cellular shapes" of the given sort: [[globe|globes]], [[simplex|simplices]], [[cube|cubes]], respectively.  For globes, simplices, and cubes, there is one object for each natural number $n \in \mathbb{N}$, so they are usually denoted $[n]$.  For other sorts of shapes, there can be multiple shapes of each dimension.
 
-* morphisms are generated from all possible ways of mapping these standard cellular shapes to each other such that their cellular structure is preserved;
+* morphisms are generated from (some of) the ways of mapping these standard cellular shapes to each other such that their cellular structure is preserved;
 
 * and composition of such morphisms is subject to the relations which are inherited from the geometric meaning of these maps, which says for instance that the left boundary of the top boundary of a [[cube]] is the same as the top boundary of its left boundary -- these are the  _globular identities_, the _simplicial identities_ and the _cubical identities_, respectively.
 
-
 The resulting categories of basic cellular shapes are
 
-* the _[[globe category]]_ $\circ$;
+* the _[[globe category]]_ $\mathbb{G}$
 
-* the _[[simplex category]]_ $\triangle$;
+* the _[[simplex category]]_ $\Delta$
 
-* the _[[cube category]]_ $\square$.
+* the _[[cube category]]_ $\square$
 
 * the _[[tree category]]_ $\Omega$
 
+* the _[[opetope category]]_ $\mathbb{O}$
+
+In general, there are two types of morphism in such categories, called *face inclusions* (or *cofaces*) and *degeneracies*.  Face inclusions exhibit a lower-dimensional cell as a "face" of a higher-dimensional one, while degeneracies collapse a higher-dimensional cell down to a lower-dimensional one.  All such categories have face inclusions (these are the really basic "structural" maps that determine the shapes of the cells), but some (such as $\Delta$, $\square$, and $\Omega$) include degeneracies while some (such as $\mathbb{G}$ and $\mathbb{O}$) do not usually.
+
+A general notion which includes all of these categories is that of a [[generalized Reedy category]].  If degeneracies are excluded, then we obtain the simpler notion of a (generalized) [[direct category]].
+
 A higher structure based on these geometric sheapes is a [[presheaf]] on one of these categories. These are called
 
-* [[globular sets]];
+* [[globular sets]]
 
-* [[simplicial sets]];
+* [[simplicial sets]]
 
-* [[cubical sets]],
+* [[cubical sets]]
 
-* [[dendroidal set]]
+* [[dendroidal sets]]
+
+* [[opetopic sets]]
 
 respectively. 
 
-Other notions of geometric shape which have been found useful in higher order category theory include [[opetopes]] (based on [[operad]] theory, and invented by Baez-Dolan), [[multitope|multitopes]] (due to Hermida-Makkai-Power), and the shapes encapsulated in Joyal's [[disk category]] $\Theta$ (which include globes and simplices as special cases). 
+There are also other notions of geometric shape which have been found useful in higher category theory, such as the shapes encapsulated in Joyal's [[disk category]] $\Theta$ (which include both globes and simplices as special cases). 
 
-In many definitions of [[higher category theory|higher categories]] an [[infinity-category]] is one of these presheaves
+Many definitions of [[higher category theory|higher categories]] are given by one of these presheaves
 
-* either equipped with _extra properties_ in the [[geometric definition of higher category|geometric definition of higher categories]];
+* either equipped with _extra properties_, in the [[geometric definition of higher category|geometric definition of higher categories]];
 
-* or equipped with _extra structure_ in the [[algebraic definition of higher category|algebraic definition of higher categories]]. 
+* or equipped with _extra structure_, in the [[algebraic definition of higher category|algebraic definition of higher categories]]. 
 
-For instance [[omega-category|omega-categories]] are based on [[globular sets]] and [[n-fold category|n-fold categories]] on [[cubical sets]], while most [[geometric definition of higher category|geometrically defined]] higher categories such as [[quasi-category|quasi-categories]] are based on the [[simplicial sets]], thought of as a [[nerve]].
+For instance, the usual definition of [[strict omega-category|strict ∞-categories]] is based on giving [[globular sets]] extra structure, as is the weak version of [[Batanin ∞-category]].  Similarly, [[n-fold category|n-fold categories]] give extra structure to [[cubical sets]].  On the other hand, the notion of [[quasi-category|quasi-categories]] is based on [[simplicial sets]], while other more "homotopical" notions of higher category are based on cubical or multisimplicial techniques.  In general, the "geometric" definitions can usually be thought of as a [[nerve]] of the "algebraic" ones.
 
-However, [[Ronnie Brown]] writes: For the work on higher homotopy groupoids and their applications to higher homotopy van Kampen theorems we found cubical methods essential. In the first of the following papers, we use a higher homotopy cubical $\omega$-groupoid with connections of a filtered space, while the second paper uses a fundamental cat$^n$-group of an $n$-cube of pointed spaces, giving an $n$-fold groupoid in the category of groups. The setting up of these structures is non-trivial,  highly geometric and essential for the homotopical applications. The paper with Loday also uses multisimplicial techniques. 
+Sometimes, two definitions that use different kinds of shapes nevertheless capture equivalent notions.  This is hoped to be true for all proposed definitions of [[n-category]], although they use many different kinds of shapes.  On the other hand, sometimes the use of different shapes indicates a fundamentally different structure being considered.  For instance, edge-symmetric $n$-fold categories with connections give the same notion as globular $n$-categories, while arbitrary $n$-fold categories are something quite different.  Moreover, even in the case where different kinds of shapes produce "equivalent" notions, it can sometimes be markedly easier to work with one kind of shape than another for some particular application.
 
 ## References ##
-
-* R. Brown and P. J. Higgins, Colimit theorems for relative homotopy groups,  J. Pure Appl. Algebra, 22 (1981) 11-41.
-
-* R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of spaces,  Topology 26 (1987) 311-334.
 
 * [This Week's Finds in Mathematical Physics (Week 242)](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_4.html#c006655) (Discussion at the n-Cafe)
 
