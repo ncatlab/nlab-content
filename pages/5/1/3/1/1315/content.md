@@ -45,11 +45,11 @@ The **path groupoid** $P_1(X)$ has
 * $P_1(X)(x,y) = \{$thin-homotopy classes of paths $\gamma : x \to y $ with sitting instants $\}$.
 
 Composition of paths comes from concatenation and reparameterization of representatives. The quotient by thin-homotopy ensures that this yields an associative composition with inverses for each path.
-
-This definition makes sense for $X$ any [[generalized smooth space]], in particular for $X$ a [[sheaf]] on [[Diff]]. 
-
-Moreover, $P_1(X)$ is always itself naturally a groupoid [[internal category|internal to]] [[generalized smooth spaces]]: if $X$ is a [[Chen space]] or [[diffeological space]] then $P_1(X)$ is itself internal to that category.
 =--
+
+This definition makes sense for $X$ any [[generalized smooth space]], in particular for $X$ a [[sheaf]] on [[Diff]].
+
+Moreover, $P_1(X)$ is always itself naturally a groupoid [[internal category|internal to]] [[generalized smooth spaces]]: if $X$ is a [[Chen space]] or [[diffeological space]] then $P_1(X)$ is itself internal to that category.  However, even if $X$ is a manifold, $P_1(X)$ will not be a manifold, see [[smooth structure of the path groupoid]] for details.
 
 There are various generalizations of the path groupoid to [[n-groupoids]] and [[∞-groupoids]]. See
 
