@@ -13,3 +13,4 @@ One reason why locally convex TVS are important is that lots of [[functional]]s 
 [[!redirects locally convex topological vector space]]
 [[!redirects locally convex TVS]]
 [[!redirects LCS]]
+[[!redirects LCTVS]]
