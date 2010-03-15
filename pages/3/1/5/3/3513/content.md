@@ -1,5 +1,4 @@
 
-> under construction
 
 #Contents#
 * automatic table of contents goes here
@@ -25,6 +24,7 @@ $$
 
 The extension of this from right fibrations to [[Cartesian fibration]]s and from left fibrations to [[coCartesian fibration]]s is the [[model structure for coCartesian fibrations]].
 
+The [[(∞,1)-Grothendieck construction]] relates this to the [[global model structure on functors]] that presents the [[(∞,1)-category of (∞,1)-functors]] $Fun(S,\infty Grpd)$ (for left fibrations) and $Fun(S^{op},\infty Grpd)$ (for right fibrations).
 
 ## Motivation {#Motivation}
 
@@ -52,15 +52,35 @@ The model category structure described below declares that a morphism in the [[o
 
 ## Definition
 
-...
+For $f : X \to S$ a morphism of [[simplicial set]]s, write $C^{\triangleleft}(f)$ for the [[pushout]]
 
-The model structure on $SSet/S$ is given by
+$$
+  \array{
+    X &\hookrightarrow& X^{\triangleleft}
+    \\
+    \downarrow && \downarrow
+    \\
+    S &\to& S \coprod_{X} X^{\triangleleft} & =: C^{\triangleleft}(f) 
+  }
+$$
+
+in the category [[sSet]] of simplicial sets. Call this the  **left cone** over $f$.
+
+The [[colimit]]s in [[sSet]] are computed componentwise, so that the set of vertices $C^{\triangleleft}(f)_0$ is the disjoint union of the vertices of $S$ and one extra vertex $v$, the **cone point**.
+
++-- {: .un_defn}
+###### Definition
+
+([[Higher Topos Theory|HTT, def. 2.1.4.5]])
+
+
+The **model structure for left fibrations** or **covariant model structure** $(sSet/S)_{lfib}$ on $SSet/S$ is given by
 
 A morphism $f : X \to Y$ is 
 
 * a cofibration if the underlying morphism of simplicial sets is a cofibration in the standard [[model structure on simplicial sets]], i.e. a [[monomorphism]];
 
-* a weak equivalence if the induced morphism
+* a weak equivalence if the induced morphism of cones
 
   $$
     X^{\triangleleft} \coprod_X S
@@ -70,7 +90,11 @@ A morphism $f : X \to Y$ is
 
   is a weak equivalence in the Joyal [[model structure for quasi-categories]], where $X^{\triangleleft}$ is the [[join of simplicial sets|join]] $X^{\triangleleft} := {*} \star X$.
 
-(def. 2.1.4.5)
+=--
+
++-- {: .un_prop}
+###### Proposition
+
 
 This is a 
 
@@ -80,18 +104,67 @@ This is a
 
 * [[combinatorial model category]].
 
-(prop 2.1.4.7, 2.1.4.8)
-
+([[Higher Topos Theory|HTT, prop 2.1.4.7, 2.1.4.8]])
 
 We have 
 
 * The fibrant objects are precisely the [[left fibration]]s 
-  (corollary 2.2.3.12)
+  ([[Higher Topos Theory|HTT, corollary 2.2.3.12]])
 
-* Every left anodyne morphism is an acyclic cofibration. (prop 2.1.4.9)
+* Every left anodyne morphism is an acyclic cofibration. 
+  ([[Higher Topos Theory|HTT, prop 2.1.4.9]])
+
+
+=--
+
+## Properties
+
+For every morphism $j : S \to S'$ we have the corresponding [[adjunction]] on [[overcategories]]
+
+$$
+  (j_! \dashv j^*)
+  :
+  sSet/S \stackrel{\overset{f_!}{\to}}{\underset{j^*}{\leftarrow}}
+  sSet/{S'}
+  \,,
+$$
+
+where
+
+* $j_!$ is given by postcomposition of $j$;
+
+* $j^*$ is given by [[pullback]] along $j$.
 
 
 
++-- {: .un_prop}
+###### Proposition
+**(change of base)**
+
+This is a [[Quillen adjunction]] with respect to the model structures 
+for left fibrations over $S$ and $S'$, respectively. ([[Higher Topos Theory|HTT, prop. 2.1.4.10]])
+
+If $j$ is a [[model structure for quasi-categories|weak equivalence in]] $sSet_{Joyal}$, then this is a [[Quillen equivalence]]. ([[Higher Topos Theory|HTT, remark. 2.1.4.11]])
+
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+**($(\infty,1)$-Grothendieck construction)**
+
+For $C$ a [[simplicially enriched category]] and $S = N(C)$ its [[homotopy coherent nerve]], there is a [[Quillen equivalence]]
+
+$$
+  (sSet/S)_{lfib} \stackrel{\leftarrow}{\to}
+  [C, sSet_{Quillen}]
+$$
+
+between the model structure for left fibrations over $S$ and the [[global model structure on functors|global model structure on sSet-functors]]s on $C$ with values in [[sSet]] equipped with the standard [[model structure on simplicial sets]].
+
+=--
+
+For more on this see [[(∞,1)-Grothendieck construction]].
 
 
 ## References
