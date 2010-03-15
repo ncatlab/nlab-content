@@ -1,8 +1,15 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 For $S$ a small [[site]] let $SimpSh(S)$ be the full category of [[simplicial presheaf|simplicial presheaves]] on $S$ which satisfy the [[sheaf]] condition: the category of [[simplicial sheaf|simplicial sheaves]].
 
 The local [[model category]] structure on $SimpSh(S)$ is originally due to Joyal. It is closely related to the local [[model structure on simplicial presheaves]].
 
-#Local injective model structure#
+## Local injective model structure
 
 +-- {: .un_theorem }
 ###### Theorem 
@@ -34,7 +41,7 @@ See _Jardine07_, theorem 5.
 
 
 
-#References#
+## References
 
 * [[Sjoerd Crans]], _Quillen closed model structure for sheaves_,  J. Pure Appl. Algebra  101 (1995), 35-57 ([web](http://home.tiscali.nl/secrans/papers/thcms.html))
 
