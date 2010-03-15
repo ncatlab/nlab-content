@@ -7,7 +7,6 @@
 * automatic table of contents
 {:toc}
 
-
 A _string structure_ on a [[manifold]] is a higher version of a [[spin structure]]. A string structure on a [[manifold]]  with [[spin structure]] given by a [[Spin group]]-[[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B} Spin(n)$ through the  third nontrivial step $\mathcal{B}String(n) \to \mathcal{B}String(n)$ in the [[Whitehead tower]] of $BO(n)$ to a [[String group]]-[[principal bundle]]:
 
 $$
@@ -244,7 +243,8 @@ later it was reformulated in terms of the classes down on base space just mentio
 
 The relation between the two pictures is analyzed for instance in
 
-* Asada ...
+* A. Asada, _Characteristic classes of loop group bundles and generalized string classes_ , Differential geometry and its applications (Eger, 1989), 33--66, Colloq. Math. Soc. J&#225;nos Bolyai, 56, North-Holland, Amsterdam, 1992. ([[Asada.pdf:file]])
+
 
 For discussion of String-structures using 3-classes on total spaces see for instance the work by Corbett Redden and Konrad Waldorf described at 
 
