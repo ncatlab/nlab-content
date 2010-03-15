@@ -9,3 +9,6 @@
 * _Homologie cyclique et K-th&#233;orie_, Ast&#233;risque __149__. Soci&#233;t&#233; Math&#233;matique de France (1987).
 
 * personal [webpage](http://people.math.jussieu.fr/~karoubi/); German [wikipedia](http://de.wikipedia.org/wiki/Max_Karoubi)
+
+
+category: people
