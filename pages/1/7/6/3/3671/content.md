@@ -54,7 +54,7 @@ Hackensack, NJ, 2006, [arXiv:math/0510674](http://arXiv.org/abs/math/0510674).
 
 {BS} J. Baez, and U. Schreiber, _Higher gauge theory_, Categories in Algebra, Geometry and Mathematical Physics, 7--30, Contemp. Math., __431__, Amer. Math. Soc., Providence, RI, 2007, [arXiv:math/0511710v2](http://arXiv.org/abs/math/0511710v2).
 
-{BSt} J. Baez and D. Stevenson, _The classifying space of a topological 2-group_, [arXiv:math.AT/0801.3843](arXiv.org/abs/math.AT/0801.3843).
+{BSt} J. Baez and D. Stevenson, _The classifying space of a topological 2-group_, [arXiv:math.AT/0801.3843](http://arXiv.org/abs/0801.3843).
 
 {BST} E. Bergshoeff, E. Sezgin, and P.K. Townsend, _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. __B189__ (1987) 75-78.
 
@@ -85,7 +85,7 @@ and B.-L. Wang, _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_
 [arXiv:math.DG/0410013](http://arxiv.org/abs/math.DG/0410013).
 
 {CW} A. L. Carey and B.-L. Wang, _Thom isomorphism and push-forward map in twisted K-theory_,
-[math.KT/0507414v4](http://arxiv-org/abs/math.KT/0507414v4).
+[math.KT/0507414v4](http://arxiv.org/abs/math.KT/0507414v4).
 
 {CW2} A. L. Carey and B.-L. Wang, _Riemann-Roch and index formulae in twisted K-theory_, [arXiv:0909.4848](http://arxiv.org/abs/0909.4848).
 
@@ -167,7 +167,7 @@ J. High Energy Phys. __05__ (2000) 044, [hep-th/0002027](http://arXiv.org/abs/he
 
 {FW} D. S. Freed and E. Witten, _Anomalies in string theory with D-branes_,
 Asian J. Math. __3__ (1999), no. 4, 819--851,
-[hep-th/9907189](http://arXiv.rog/abs/hep-th/9907189).
+[hep-th/9907189](http://arXiv.org/abs/hep-th/9907189).
 
 {For} R. Forman, _Spectral sequences and adiabatic limits_, Comm. Math. Phys. __168__ (1995), no. 1, 57--116, [euclid](http://projecteuclid.org/euclid.cmp/1104272286).
 
@@ -301,7 +301,7 @@ Commun. Math. Phys. __115__ (1988) 191--212, [euclid](http://projecteuclid.org/e
 
 {Pol} J. Polchinski, _Dirichlet-branes and Ramond-Ramond charges_,
 Phys. Rev. Lett. __75__ (1995) 4724--4727,
-[arXiv:hep-th/9510017](arXiv:hep-th/9510017).
+[arXiv:hep-th/9510017](http://arXiv.org/abs/hep-th/9510017).
 
 {Red0} C. Redden, _Canonical metric connections associated to String structures_, PhD dissertation, University of Notre Dame, Indiana, 2006.
 
@@ -385,7 +385,7 @@ for the stable spinor groups_, Bol. Soc. Mat. Mexicana (2) __7__
 
 {Town3} P. K. Townsend, _String-membrane duality in seven dimensions_,
     Phys. Lett. __B354__ (1995) 247-255,
-    [hep-th/9504095](http://arXiv.org/hep-th/9504095).
+    [hep-th/9504095](http://arXiv.org/abs/hep-th/9504095).
 
 
 {Town2} P. K. Townsend, _D-branes from M-branes_,
@@ -438,7 +438,4 @@ J. Geom. Phys. __22__ (1997) 103-133, [hep-th/9610234](http://arXiv.org/abs/hep-
 {Among} E. Witten, _Duality relations among topological effects in string theory_, J. High Energy Phys. __0005__ (2000) 031, [hep-th/9912086](http://arxiv.org/abs/hep-th/9912086).
 
 
-
-
-
-  
+category: reference
