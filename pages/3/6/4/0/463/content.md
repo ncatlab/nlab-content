@@ -1,4 +1,4 @@
-* [webpage](http://www.ma.utexas.edu/users/benzvi/)
+* [webpage](http://www.ma.utexas.edu/users/benzvi)
 
 #Related entries#
 
@@ -18,5 +18,7 @@
 * David Ben-Zvi kindly wrote an expositional piece on geometric function theory for the $n$-Category Caf&#233; ([blog entry](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html))
 
 * D. Ben-Zvi, [[BenZviGeometricFunctionTheory.pdf:file]] (Jan 2009).
+
+* D. Ben-Zvi has given many interesting answers to [http://mathoverflow.net](MathOverflow) questions, and a list can be found at [MO user page:David Ben-Zvi](http://mathoverflow.net/users/582/david-ben-zvi).
 
 category: people
