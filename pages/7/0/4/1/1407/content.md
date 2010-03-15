@@ -7,7 +7,7 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
 _Perturbative string theory_ is something at least close to a [[vertical categorification|categorification]] of the following description of _perturbative quantum field theory_ in terms of sums over Feynman diagrams.
 
@@ -44,15 +44,15 @@ These aspects have motivated the impression that the string perturbation series 
 
 * More fundamentally, already the role of the original perturbation series in quantum field theory is actually not fully understood. It's main success is the observation that truncating or resumming the perturbation series in a more or less ad hoc way, it does yield values that very well describe a plethora of real world measurements.  One imagines that there is a _non-perturbative_ definition of [[quantum field theory]] such that under certain well-defined circumstances the perturbation series does yield an approximation to it and is _a posteriori_ justified by. If so, there should be an analogous nonperturbative definition of string theory. There is a large ratio of speculations on what that might be over solid results about it.
 
-#The landscape of string vacua #
-
-see 
+## Subtopics
 
 * [[landscape of string theory vacua]]
 
-#References#
+...
 
-The standard literature on string theory is nowhere close to what we would usually regard as a helpful informative reference on the $n$Lab. The inclined reader is asked to regard this as a challenge to his or her mathematical model-building skills: it is clear that string theory has run into _some_ structure of interest. The question is "what is it?" Every now and then one aspect of the huge edifice it has become suddenly finds a well defined formalization and branches off as a branch of pure mathematics. Famous examples are
+## References
+
+String theory leads a life somewhere in between the usual physics literature and the usual math literature. Large parts of it are still lacking a satisfactory mathematical formulatio. But every now and then one aspect of the huge edifice of string theory finds a well defined formalization and branches off as a branch of pure mathematics. Famous examples are
 
 * [[FQFT|topological field theory]]
 
@@ -79,5 +79,10 @@ The standard literature on string theory is nowhere close to what we would usual
 * etc.
 
 The question is what the formalism might be that unifies all this into one coherent theory of higher quantum field theory.
+
+An article summarizing information about [[cohomology|cohomological]] models for aspects of string theory and listing plenty of useful further references is
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_
+
 
 [[!redirects superstring theory]]
