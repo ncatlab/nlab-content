@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -39,7 +38,7 @@ The basic assumption of the Haag--Kastler approach is that everything that can b
 
 Unlike the [[Wightman axioms]], the Haag--Kastler axioms do not need the notion of "[[physical field|field]]": the fields in the Wightman axioms are -- from the Haag--Kastler point of view -- only necessary to describe how the algebras of observables are constructed; any way to consistently construct the net of algebras would suffice.
 
-## Example: Causal Nets of Operator Algebras
+## Example: Causal Nets of Operator Algebras on Minkowski Spacetime
 We will lay down a specific set of axioms knowing that this set is not _the set_ of Haag-Kastler axioms, but one specific choice. This will allow us to state and prove important general properties. It is possible to construct examples that fulfill the axioms, to show that they are not empty, but we will not engage in this task here, at least not now. Note however that up to now there was no success in the task to construct systems in 4 dimensions with interactions, which has led to some doubts about the usefulness of this approach in the physics community: It has yet to be shown if the approach does or does not capture the essential features that makes possible the tremendous success of the standard model of particle physics.
 
 ###Notation
@@ -108,13 +107,38 @@ A vacuum representation is called **irreducible** if $\mathcal{R} = \mathcal{L}(
 The subspace of $\mathcal{H}$ that is invariant under the action of the translation group $\mathcal{T}$ is not trivial due to the axiom \ref{existence_of_vacuum_vector}. If it is one-dimensional, we will say that the vacuum representation has a **unique vacuum vector** (the space is then necessarily the subspace $\C\Omega$).
 
 ###Classical Theorems 
-...will be cited here
+...will be cited here, default reference for this section is
+
+* Hellmut Baumg&#228;rtel: Operatoralgebraic Methods in Quantum Field Theory, see [[AQFT]].
 
 * **Theorem 1 (Borchers)**: The representatives of the translations are elements of the global algebra $\mathcal{R}$, i.e. they are inner automorphisms of $\mathcal{R}$: $\mathcal{U}(\mathcal{T}) \subseteq \mathcal{R}$.
 
+* **Theorem**: Every factorial vacuum representation is irreducible. A vacuum representation is irreducible iff it has an unique vacuum vector.
+
+* **Reeh-Schlieder Theorem**: The vacuum vector is cyclic and separating for all local algebras.
+
+
+
+## Generalization of the Haag-Kastler Axioms to Curved Spacetimes
+It is possible to generalize the Haag-Kastler approach to general (Lorentzian) spacetimes.
+
+### Idea
+From the physical point of view there are two different reasons to consider the Haag-Kastler approach on more general manifolds than the Minkowski spacetime:
+
+* It is expected that such a theory, while not solving the problem to construct a theory of quantum gravity, would still have a wide range of validity.
+
+* From a conceptual viewpoint abandoning the special situation of the Minkowski spacetime could lead to the development of new ideas and tools that turn out to be helpful to understand the concept of a quantum field theorie better.
+
+The first point deserves some elaboration: The curved manifolds under consideration are supposed to be solutions to the field equations of General Relativity, i.e. physically realistic spacetimes, so that gravity is modelled classically by the curvature of spacetime. A quantum field theory on such a spacetime should be able to model the situation of elementary particles that feel the effects of gravity while neglecting the effect that the particles themselves have on spacetime (the notion of "particle" is highly nontrivial and nonproblematic in this setting and is to be understood in a methaphorical sense in the given context). Example: If you let an electron drop from your hand to the ground, that would be a situation that should be handled by the theory.
+While a full theory of quantum gravity still eludes us, a theory of quantum fields on curved spacetimes could be useful as a kind of interpolation. In a certain sense this is already the case, since the [laws of black hole thermodynamics] (http://en.wikipedia.org/wiki/Black_hole_thermodynamics) were first discovered with the help of this setting.
+
 ## References 
 
-... should go here. See also [[AQFT]]. Since on that page there are already some references to sources that stress the mathematical aspects, we will cite some that are more oriented to the physical interpretations:
+See also [[AQFT]]. 
+
+### References for the physical aspects of the Haag-Kastler approach on Minkowski spacetime
+
+Since on that page there are already some references to sources that stress the mathematical aspects, we will cite some that are more oriented to the physical interpretations:
 
 The classic references are of course:
 
@@ -127,6 +151,18 @@ and:
 An online reference page by is here:
 
 * Stephen J. Summers: [AQFT online] (http://www.math.ufl.edu/~sjs/aqft.html)
+
+### References for the generalization of the Haag-Kastler approach to curved spacetimes
+
+A classic reference is this:
+
+* Wald, Robert M.: Quantum field theory in curved spacetime and black hole thermodynamics. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
+
+Recently published review papers:
+
+* Romeo Brunetti, Klaus Fredenhagen: [Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)
+
+* Robert M. Wald: [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
 
 +-- {: .query}
 [[Tim van Beek]]: I have not done an extensive search for pages that I could link to, so there may be some missing (but not on purpose!). Also the links on the [[AQFT]] site could equally well be placed here... 
