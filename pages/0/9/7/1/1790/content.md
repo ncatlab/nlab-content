@@ -7,6 +7,16 @@ Accordingly, the [[(∞,1)-topos]] [[presentable (infinity,1)-category|presented
 
 See the further remarks at [[hypercover]].
 
++--{: .query}
+[[Mike Shulman]]: Two questions, one (hopefully) easy and one (perhaps) hard:
+
+1. Is there a Quillen equivalent &#268;ech model structure on simplicial *sheaves*?  Can we just lift the model structure for simplicial presheaves along the sheafification adjunction?
+
+1. Is there a characterization of the weak equivalences in either &#268;ech model structure?
+
+I am particularly interested in this for the following reason.  According to Beke in *Sheafifiable homotopy model categories*, the weak equivalences in the [[local model structure on simplicial sheaves]] are precisely those maps $f\colon X\to Y$ of simplicial objects in the corresponding 1-topos of sheaves of sets such that the statement "$f$ is a weak equivalence of simplicial sets" is true in the [[internal logic]] of the topos (at least, interperiting "$f$ is a weak equivalence of simplicial sets" by one particular set of geometric sentences whose interpretation in $Set$ is equivalent to saying that a simplicial map is a weak equivalence).  But if, as [[HTT]] teaches us, &#268;ech descent is often to be preferred to hyperdescent, then we should be interested in &#268;ech weak equivalences instead.  So I would really like to know what it means for a map of simplicial sheaves to be a &#268;ech weak equivalence, in the *internal logic* of the 1-topos of sheaves of sets.  If nothing else, I think such a characterization would help me understand the real meaning of [[hypercompletion]].  But any sort of characterization of them would be better than none.
+=--
+
 
 ## References
 
