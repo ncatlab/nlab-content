@@ -1,8 +1,13 @@
-# Idea
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The notion of Reedy category, though useful, is in some contexts inconveniently restrictive, since no Reedy category can contain any nonidentity isomorphisms.  This is problematic for many "shape categories" such as Connes' [[category of cycles]] $\Lambda$, Segal's category $\Gamma$, the [[tree category]] $\Omega$, and so on.  The notion of *generalized Reedy category* lifts this restriction, while maintaining the truth of the main theorem about Reedy categories: the existence of the [[Reedy model structure]].
 
-# Definition
+## Definition
 
 A **generalized Reedy category** is a category $R$ together with two [[wide subcategories]] $R_+$ and $R_-$, and a function $d\colon ob(R)\to \alpha$ called *degree*, for some [[ordinal]] $\alpha$, such that
 
@@ -17,7 +22,8 @@ The last condition implies that the isomorphism in the penultimate condition mus
 
 For clarity, in the context of generalized Reedy categories, an ordinary [[Reedy category]] may be called a *strict Reedy category*.
 
-# Examples
+
+## Examples
 
 * Any [[Reedy category]] is a generalized Reedy category.
 
@@ -32,8 +38,8 @@ For clarity, in the context of generalized Reedy categories, an ordinary [[Reedy
 * Any generalized [[direct category]] or generalized [[inverse category]] is also a generalized Reedy category, in which either $R_-$ or $R_+$ consists only of the isomorphisms.
 
 
-# References
+## References
 
-* Clemens Berger and Ieke Moerdijk, *On an extension of the notion of Reedy category*, [arXiv:0809.3341](http://arxiv.org/abs/0809.3341)
+* [[Clemens Berger]] and [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ , [arXiv:0809.3341](http://arxiv.org/abs/0809.3341)
 
 [[!redirects generalized Reedy categories]]
