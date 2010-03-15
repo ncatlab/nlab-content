@@ -70,7 +70,7 @@ For the definition of $(\infty,1)$-functors in other models for $(\infty,1)$-cat
 
 ## Models 
 
-The [[global model structure on functors]] [[presentable (infinity,1)-category|presents]] $(\infty,1)$-categories of $(\infty,1)$-functors, at least when there exists a [[combinatorial simplicial model category]] model for the codomain.
+The projective and injective [[global model structure on functors]] as well as the [[Reedy model structure]] if $C$ is a [[Reedy category]] [[presentable (infinity,1)-category|presents]] $(\infty,1)$-categories of $(\infty,1)$-functors, at least when there exists a [[combinatorial simplicial model category]] model for the codomain.
 
 Let 
 
