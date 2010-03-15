@@ -306,7 +306,7 @@ Phys. Rev. Lett. __75__ (1995) 4724--4727,
 {Red0} C. Redden, _Canonical metric connections associated to String structures_, PhD dissertation, University of Notre Dame, Indiana, 2006.
 
 {Red} C. Redden, _String structures and canonical three-forms_,
-[arxiv:math.DG/0912.2086] [http://arxiv.org/abs/0912.2086].
+[arxiv:math.DG/0912.2086](http://arxiv.org/abs/0912.2086).
 
 {Red2} C. Redden, _Harmonic forms on principal bundles_,
 [arXiv:0810.4578](http://arXiv.org/abs/0810.4578).
@@ -374,7 +374,7 @@ Nucl. Phys. __B480__ (1996) 213-224,
 
 {Stg} R. E. Stong, _Appendix: calculation of $\Omega^{Spin}_{11}(K(Z,4))$_, in Workshop on unified string theories (Santa Barbara, Calif., 1985), 430--437, World Sci. Publishing, Singapore, 1986.
 
-{Str} A. Strominger, _Superstrings with torsion_, Nucl. Phys. __B274__ (1986) 253--284.
+{Str} A. Strominger, _Superstrings with torsion_, Nucl. Phys. __B274__ (1986) 253--284, (<a href="http://dx.doi.org/10.1016/0550-3213(86)90286-5">doi</a>).
 
 {Te} C. Teleman, _K-theory of the moduli space of bundles on a surface
 and deformations of the Verlinde algebra_, in Topology, Geometry and Quantum Field Theory, U. Tillmann (ed.), Cambridge University Press, 2004.
