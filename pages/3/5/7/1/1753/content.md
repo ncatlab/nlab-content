@@ -1,15 +1,31 @@
-[[!redirects global model structure on simplicial sheaves]]
-#Idea#
+
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
 
 
-For $C$ a [[category]] regarded as an [[(infinity,1)-category]], a global [[model category|model structure]] on the [[functor category]] $[C^{op}, SSet]$ of
-simplicial presheaves on $C$ is a [[presentable (infinity,1)-category|presentation]] for the [[(infinity,1)-category of (infinity,1)-presheaves]] on $C$.
+#Contenta#
+* automatic table of contents goes here
+{:toc}
 
-The global model structure on simplicial presheaves is a special case of the general notion of [[global model structure on functors]]. Its relevance in the general discussion of [[model structure on simplicial presheaves]] is mainly its [[Bousfield localization]] to a [[local model structure on simplicial presheaves]].
+## Idea
+
+The **global model structure on simplicial presheaves** $[C^{op}, sSet_{Quillen}]$ on a [[small category]] $C$ is the [[global model structure on functors]] on $C$ with values in $sSet_{Quillen}$, the standard [[model structure on simplicial sets]].
+
+It [[presentable (∞,1)-category|presented]] the [[(∞,1)-category of (∞,1)-functors]] from $C^{op}$ to [[∞Grpd]], hence the [[(∞,1)-category of (∞,1)-presheaves]] on $C$.
+
+The [[Bousfield localization|left Bousfield localizations]] of $[C^{op}, sSet]_{proj}$ are, up to [[Quillen equivalence]], precisely the [[combinatorial model category|combinatorial model categories]].
+
+In particular, if $C$ carries the structure of a [[site]], then 
+
+* the left Bousfield localization of $[C^{op}, sSet_{Quillen}]$ at [[Cech cover]]s is the [[Cech model structure on simplicial presheaves]];
+
+* the left Bousfield localization at [[hypercover]]s is the [[local model structure on simplicial presheaves]].
+
+These localizations present the [[topological localization]] and [[hypercompletion]] of the [[(∞,1)-topos]] of $(\infty,1)$-presheaves on $C$ to the corresponding [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]]/[[∞-stack]]s on $C$.
 
 
-
-#Definition#
+## Definition
 
 In every global model structure on simplicial presheaves on $C$ the weak equivalences are _objectwise_ those with respect to the standard [[model structure on simplicial sets]].
 
@@ -31,18 +47,14 @@ The two common extreme choices are
 
 The other class of morphisms (cofibrations / fibrations) is in each case fixed by the correspinding [[weak factorization system|lifting property]].
 
-#Remarks#
-
-For $C$ a [[site]],
-the [[Bousfield localization]] of these global model structures at morphisms that induce isomorphisms on all [[sheaf|sheaves]] of [[simplicial homotopy group]]s yields the [[local model structure on simplicial presheaves]].
 
 
-#Properties#
+## Properties
 
 
 * Both projective and injective model structures define [[simplicial model category|proper simplicial model categories]].
 
-#References#
+## References
 
 See also [[model structure on simplicial presheaves]].
 
@@ -62,3 +74,8 @@ A quick review of these facts is on the first few pages of
 
 * Benjamin Blander, _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
 
+Details on the _projective_ global model structure is in
+
+* [[Daniel Dugger]], _[[Universal Homotopy Theories]]_
+
+[[!redirects global model structure on simplicial sheaves]]
