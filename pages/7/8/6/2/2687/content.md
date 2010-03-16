@@ -7,19 +7,26 @@
 
 * [[weak factorization system]]
 
-## constructions ##
-
-* [[homotopy category]]
+## concepts ##
 
 * [[homotopy (as an operation)|homotopy]]
 
-* [[homotopy limit]]
+  * [[homotopy category]]
+
+* [[Quillen adjunction]]
+  
+  * [[Quillen equivalence]]
+
+  * [[Quillen bifunctor]]
+
+  * [[derived functor]]
+
+* [[homotopy limit]]/[[homotopy colimit]]
 
   * [[Bousfield-Kan map]]
 
 * [[small object argument]]
 
-* [[Quillen adjunction]]/[[Quillen equivalence]]
 
 
 ## refinements ##
@@ -58,35 +65,67 @@
 
 ## model structures ##
 
-* [[model structure on topological spaces|on topological spaces]]
-
-* [[model structure on simplicial sets|on simplicial sets]]
-
-* [[model structure on cubical sets|on cubical sets]]
-
-* [[model structure on marked simplicial over-sets|on marked simplicial over-sets]]
-
 * [[model structure on an overcategory]]
 
 * [[global model structures on functor categories|on functor categories (global)]]
 
   * [[Reedy model structure]]
 
-* [[model structure on operads|on operads]]/[[model structure on dendroidal sets|on dendroidal sets]]
 
-* [[model structure on homotopical presheaves]]
 
-  * [[model structure on simplicial presheaves|on simplicial presheaves]]
+
+### for $\infty$-groupoids
+
+* [[model structure on topological spaces|on topological spaces]]
+
+* [[model structure on simplicial sets|on simplicial sets]]
+
+  * [[model structure for right fibrations|for right/left fibrations]]
+
+* [[model structure on cubical sets|on cubical sets]]
+
+* [[folk model structure|on strict ∞-groupoids]]
 
 * [[model structure on chain complexes|on chain complexes]]
 
 * [[model structure on dg-algebras|on dg-algebras]]/[[model structure on dg-coalgebras|on dg-coalgebras]] and on [[model structure on cosimplicial rings|on cosimplicial rings]] (related by [[monoidal Dold-Kan correspondence]])
 
-* [[Theta space|on (n,r)-categories]]
 
-  * [[model structure on categories with weak equivalences|on categories with weak equivalences]]/[[model structure on quasi-categories|for quasi-categories]]/[[model structure on sSet-categories|on sSet-categories]]/[[model structure for complete Segal spaces|for complete Segal spaces]]
+### for $(\infty,1)$-categories
 
-  * [[folk model structure|on strict ∞-categories/strict ∞-groupoids]]
+* [[model structure on categories with weak equivalences|on categories with weak equivalences]]
+
+* [[model structure on quasi-categories|Joyal model for quasi-categories]]
+
+* [[model structure on sSet-categories|on sSet-categories]]
+
+* [[model structure for complete Segal spaces|for complete Segal spaces]]
+
+* [[model structure on marked simplicial over-sets|on marked simplicial over-sets]]
+
+### for $(\infty,1)$-operads
+
+* [[model structure on operads|on operads]]
+
+* [[model structure on dendroidal sets|on dendroidal sets]]
+
+
+### for $(n,r)$-categories
+
+* [[Theta space|for (n,r)-categories]]
+
+* [[folk model structure|on strict ∞-categories]]
+
+
+### for $\infty$-sheaves / $\infty$-stacks
+
+* [[model structure on homotopical presheaves|on homotopical presheaves]]
+
+  * [[model structure on simplicial presheaves|on simplicial presheaves]]
+
+    [[global model structure on simplicial presheaves|global model structure]]/[[Cech model structure on simplicial presheaves|Cech model structure]]/[[local model structure on simplicial presheaves|local model structure]]
+
+    [[model structure on sSet-enriched presheaves|on sSet-enriched presheaves]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/model+category+theory+-+contents)</div>
