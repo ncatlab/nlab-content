@@ -4,15 +4,15 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
-An _$n$-truncated object of an [[∞-stack]] [[(∞,1)-topos]]_ is the analog of an [[n-groupoid]] or [[homotopy n-type]] in the archetypical [[(∞,1)-topos]] [[∞-Grpd]]/[[Top]]: 
+An _$n$-truncated object of an [[∞-stack]] [[(∞,1)-topos]]_ $\mathbf{H}$ is the analog of an [[n-groupoid]] or [[homotopy n-type]] in the archetypical [[(∞,1)-topos]] [[∞-Grpd]]/[[Top]]: 
 
-it is an object $X$ whose [[homotopy group (of an ∞-stack)|homotopy groups (of an ∞-stack)]] $\pi_k(X)$ are trivial for $k \gt n$.
+it is an object $X \in \mathbf{H}$ whose [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] $\pi_k(X)$ are trivial for $k \gt n$.
 
-#Definition#
+## Definition
 
-## in terms of truncations ##
+### In terms of truncations
 
 +-- {: .un_defn}
 ###### Definition
@@ -65,14 +65,26 @@ Some terminology:
 * By the above concention on (-2)-truncated $\infty$-groupoid, it is the [[terminal object]]s of $C$ that are (-2)-truncated.
 
 
-## in terms of homotopy groups ##
+### In terms of categorical homotopy groups 
 
-At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, mor intrinsic, characterization of $n$-truncation in terms of [[homotopy group]]s:
+At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, more intrinsic, characterization of $n$-truncation in terms of [[homotopy group]]s:
 
-an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] is $n$-truncated precisely when its [[homotopy group (of an ∞-stack)|homotopy groups (of an ∞-stack)]] $\pi_k(X)$ are trivial for $k \gt n$. This is [[Higher Topos Theory|HTT prop 6.5.1.7]].
++-- {: .un_prop}
+###### Proposition
+
+An object $X$ in an [[∞-stack]] [[(∞,1)-topos]] is $n$-truncated precisely when its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] $\pi_k(X)$ are trivial for $k \gt n$. 
+
+=--
+
++-- {: .proof}
+###### Proof
 
 
-# Truncation #
+This is [[Higher Topos Theory|HTT prop 6.5.1.7]].
+
+=--
+
+## Truncation 
 
 Under mild conditions there is for each $n$ a universal way to send an arbitrary object $A$ to its $n$-truncation $\tau_{\leq n} A$. This is a general version of [[decategorification]] where [[k-morphism|n-morphism]]s are identified if they are connected by an invertible $(n+1)$-morphism.
 
@@ -109,7 +121,7 @@ This is [[Higher Topos Theory|HTT 5.5.6.18]].
 Indeed, as the notation suggests, $C_{\leq n}$ is the [[essential image]] of $C$ under $\tau_{\leq n}$. The image  $\tau_{\leq n} A$ of an object $A$ under this operation is the **$n$-truncation** of $A$.
 
 
-#application in Postnikov tower#
+### Postnikov tower
 
 By the fact that the truncation functor $\tau_{\leq n}$ is a [[left adjoint]] one obtains canonical morphisms
 
@@ -131,15 +143,15 @@ $$
    \to \tau_{\leq 2} \to \tau_{\leq 1} A \to \tau_{\leq 0} A
 $$
 
-is called the [[Postnikov tower (in an (infinity,1)-category)]] of $A$. See there for more details.
+is the [[Postnikov tower in an (infinity,1)-category]] of $A$. See there for more details.
 
-#References#
+## References
 
 The discussion of truncated objects is in section 5.5.6 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-The discussion of [[homotopy group (of an ∞-stack)]] is in section 6.5.1.
+The discussion of categorical [[homotopy groups in an (∞,1)-topos]] is in section 6.5.1.
 
 
 [[!redirects n-truncated object of an (∞,1)-topos]]
@@ -151,3 +163,13 @@ The discussion of [[homotopy group (of an ∞-stack)]] is in section 6.5.1.
 [[!redirects n-truncated object of an (∞,1)-category]]
 [[!redirects n-truncated object in an (∞,1)-category]]
 [[!redirects n-truncated object in an (infinity,1)-topos]]
+
+[[!redirects truncated object of an (∞,1)-topos]]
+[[!redirects truncated object in an (∞,1)-category]]
+[[!redirects truncated object in an (∞,1)-topos]]
+[[!redirects truncated object in an (infinity,1)-topos]]
+[[!redirects truncated object of an (infinity,1)-topos]]
+
+[[!redirects truncated object of an (∞,1)-category]]
+[[!redirects truncated object in an (∞,1)-category]]
+[[!redirects truncated object in an (infinity,1)-topos]]
