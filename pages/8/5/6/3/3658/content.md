@@ -4,7 +4,7 @@
 
 ## Idea
 
-The **Wightan axioms** are an attempt to axiomatize and thus formalize the notion of a [[quantum field theory]] on [[Minkowski space]]-time in terms of the assignment of field operators to points or subsets of spacetime. They serve as the basis of what is known as **constructive quantum field theory** which seeks to provide a mathematically sound framework for quantum theory over the Minkowski space background of [[special relativity]].  Arthur Wightman first formulated them in the 1950s but they were not published until 1964 after advances in scattering theory confirmed their applicability.
+The **Wightman axioms** are an attempt to axiomatize and thus formalize the notion of a [[quantum field theory]] on [[Minkowski space]]-time in terms of the assignment of field operators to points or subsets of spacetime. They serve as the basis of what is known as **constructive quantum field theory** which seeks to provide a mathematically sound framework for quantum theory over the Minkowski space background of [[special relativity]].  Arthur Wightman first formulated them in the 1950s but they were not published until 1964 after advances in scattering theory confirmed their applicability.
 
 The Wightman axioms served to establish rigorously several basic structural properties of quantum field theories on Minkowski spacetime, such as the [[spin-statistics theorem]]  or the [[Osterwalder–Schrader theorem]] relating Lorenzian and Euclidean quantum field theories ("Wick rotation").
 
@@ -50,7 +50,37 @@ Note: the numbering - and indeed the actual number - of axioms varies depending 
 see [[Osterwalder–Schrader theorem]]
 
 ## Equivalence to the Haag--Kastler Axioms
-...aspects of this will go here, see [[Haag–Kastler axioms]]
+See [[Haag–Kastler axioms]]. Since both the Wightman and the Haag-Kastler approach try an axiomatic approach to quantum field theory on Minkowski spacetime, the natural question to ask is what is their relationship? Three possible answers come to mind:
+
+* They are equivalent.
+
+* One contains the other.
+
+* At least one is wrong (from the physical viewpoint).
+
+Unfortunatly the situation does not seem to be as clear as this list suggest. The current state of the affair seems to be that 
+
+* "the Haag-Kastler approach is more convenient, because it deals with algebras of bounded operators, while Wightman fields are allowed to generate unbounded operators"
+
+and
+
+* "a Wightman field theory is equivalent to a Haag-Kastler theory, if some mild additional assumptions are made".
+
+Reference:
+
+* H.J. Borchers, Jakob Yngvason: "From quantum fields to local von Neumann algebras", Rev.Math.Phys. Special issue, 1992, p.15-47.
+
++--{: .query}
+
+[[Tim van Beek]]: The two statemants above are a condensate of diverse papers I read, any input about the true state of the art would be most welcome.
+
+=--
+
+One simple situation where the construction of a Haag-Kastler net out of Wightman fields is straight forward is this: Suppose that all smeared field operators of the Wightman theory are essentially self adjoint for real test functions and commute strongly (their spectral projections commute) if the test functions have space-like separated support.
+Then we can define local algebras by
+$\mathcal{M}(\mathcal{O}) := \{F(\Psi(f)) | f$ is a real test function with support contained in $\mathcal{O}$ and F is a bounded Borel measurable function on $\R \}$.
+
+(Our assumptions allow us to use the [Borel functional calculus] (http://en.wikipedia.org/wiki/Borel_functional_calculus)).
 
 ## References
 The classic reference already listed by Wikipedia is of course:
