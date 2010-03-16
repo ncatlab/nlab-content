@@ -504,7 +504,7 @@ For all $A \in SPSh(C)$ the object $Q A$ is cofibrant and is weakly equivalent t
 
 This is in prop 2.8 of
 
-* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
+* [[Daniel Dugger]], _[[Universal Homotopy Theories]]_  
 
 
 ## Homotopy (co)limits
