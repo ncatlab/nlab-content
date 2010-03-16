@@ -1,4 +1,4 @@
-**Max Karoubi** is a French topologist, with main interests in algebraic and topological K-theory, cyclic (co)homology and [[noncommutative geometry]] a la Connes. He introduced the noncommutative differential forms to generalize the de Rham complex to [[noncommutative geometry]]. See also [[Karoubian envelope]].
+**Max Karoubi** is a French topologist, with main interests in algebraic and topological K-theory, cyclic (co)homology and [[noncommutative geometry]] &#224; l&#224; Connes. He introduced the noncommutative differential forms to generalize the de Rham complex to [[noncommutative geometry]]. See also [[Karoubian envelope]].
 
 * _$K$-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften, Band __226__, Springer 1978. xviii+308 pp. 
 
