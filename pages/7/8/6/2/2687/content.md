@@ -21,8 +21,6 @@
 
 * [[Quillen adjunction]]/[[Quillen equivalence]]
 
-* [[Bousfield localization of model categories|Bousfield localization]]
-
 
 ## refinements ##
 
@@ -41,6 +39,12 @@
 * [[proper model category]]
 
 * [[stable model category]]
+
+## producing new model structures
+
+* [[Bousfield localization of model categories|Bousfield localization]]
+
+* [[transferred model structure]] 
 
 ## presentation of $(\infty,1)$-categories ##
 
