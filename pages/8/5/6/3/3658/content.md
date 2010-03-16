@@ -35,30 +35,35 @@ Note: the numbering - and indeed the actual number - of axioms varies depending 
 
 * **Axiom 4:** The components $\phi_{i}$ of the quantum field $\phi$ are operator valued generalized functions $\phi_{i}(x)$ over the [[Schwartz space]] $S(M)$ (tempered distributions) with domain of definition $D$ which is common to all the operators and is dense in $\mathcal{H}$. $|0\rangle$ is contained in $D$ and $D$ is taken into itself under the action of $\phi (f)$ and $U(a,\Lambda)$. 
 
+Note: As in distribution theory it is custom to abuse the notation and write $\phi (x)$ for a point $x$ of the Minkowski spacetime and talk about the function $\phi$, rather than the value of the distribution $\phi(f)$ of a test function $f$.
+
 * **Axiom 5:** $U(a,\Lambda)\phi_{i}(x)U(a,\Lambda)^{-1}=\sum_{j}V_{ij}(\Lambda^{-1})\phi_{j}(\Lambda x + a)$ where $V_{ij}(\Lambda)$ is a complex or real finite-dimensional matrix representation of $SL(2,C)$.
 
 * **Axiom 6:** Any two field components $\phi_{i}(x)$ and $\phi_{j}(y)$ either commute or anticommute under a space-like separation of the arguments $x$ and $y$.
 
-* **Axiom 7:** The set $D_{0}$ of finite linear combinations of vectors of the form $\phi_{i1}(f_{1})\ldots\phi_{in}(f_{n})|0\rangle$ is dense in $\mathcal{H}$.
-
-
+* **Axiom 7:** The set $D_{0}$ of finite linear combinations of vectors of the form $\phi_{i_1}(f_{1})\ldots\phi_{i_n}(f_{n})|0\rangle$ is dense in $\mathcal{H}$.
 
 ## The Wightman Reconstruction Theorem
-...will go here
+The **vacuum expectation values** of the theory are all (tempered, by the axioms) distributions of the form 
+$$ 
+\langle0| \phi_{i_1}(f_{1})\ldots\phi_{i_n}(f_{n})|0\rangle 
+$$
+The term "distribution" is used interchangably with "function" and "value" in the physics literature. The Wightman reconstruction theorem states properties that a set of tempered distributions $\{\mathcal{W}^n | n \in \N \}$ need to have to be the set of vacuum expectation values of a Wightman theory, and all such Wightman theories are then unitarily equivalent. 
+...to be continued...
 
 ## Equivalence to Euclidean Field Theory
 see [[Osterwalder–Schrader theorem]]
 
 ## Equivalence to the Haag--Kastler Axioms
-See [[Haag–Kastler axioms]]. Since both the Wightman and the Haag-Kastler approach try an axiomatic approach to quantum field theory on Minkowski spacetime, the natural question to ask is what is their relationship? Three possible answers come to mind:
+See [[Haag–Kastler axioms]]. Since both the Wightman and the Haag-Kastler approach try to formulate an axiomatic approach to quantum field theory on Minkowski spacetime, the natural question to ask is what is their relationship? Three possible answers come to mind:
 
 * They are equivalent.
 
-* One contains the other.
+* One contains the other, i.e. one set of axioms implies the other.
 
 * At least one is wrong (from the physical viewpoint).
 
-Unfortunatly the situation does not seem to be as clear as this list suggest. The current state of the affair seems to be that 
+Unfortunatly the situation does not seem to be as clear as this list suggests. The current state of the affair seems to be that 
 
 * "the Haag-Kastler approach is more convenient, because it deals with algebras of bounded operators, while Wightman fields are allowed to generate unbounded operators"
 
@@ -72,9 +77,17 @@ Reference:
 
 +--{: .query}
 
-[[Tim van Beek]]: The two statemants above are a condensate of diverse papers I read, any input about the true state of the art would be most welcome.
+[[Tim van Beek]]: The two statemants above are a condensate of diverse papers I read, any input about the true state of the art would be most welcome. My educated guess is that the "mildness" of the assumptions indicates the fact that all physically realistic models are supposed to satisfy these.
 
 =--
+
+Should it be bounded or unbounded operators/observables?
+
+* Pro: Some observables do not have an upper bound, e.g. you can always increase the impulse of an electron, no matter how big that already is (in theory).
+
+* Contra: A detector has an upper bound for every observable it can detect, and that is what is actually measured in an experiment. The situation of the pro-bullet won't arise because we measure observables in bounded regions of spacetime, and the energy contained in a bounded region is always finite (we are excluding artifacts like black holes from our consideration, of course).
+
+* Contra to even asking the question: Theories of bounded and unbounded operators/observables are physically equivalent modulo mathematical subtleties, meaning they produce the same numbers that can be compared to experiments. 
 
 One simple situation where the construction of a Haag-Kastler net out of Wightman fields is straight forward is this: Suppose that all smeared field operators of the Wightman theory are essentially self adjoint for real test functions and commute strongly (their spectral projections commute) if the test functions have space-like separated support.
 Then we can define local algebras by
