@@ -90,4 +90,14 @@ More recently, one sees attempts to formalize this observation of Freed's, notab
 
 based on material (on categories of "families") in _[[On the Classification of Topological Field Theories]]_ . 
 
+## References
+
+
+* Albeverio, Sergio A.; Hoegh-Krohn, Raphael J.; Mazzucchi, Sonia:
+_Mathematical theory of Feynman path integrals. An introduction._ (There is a second recently published version, see [ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)
+
+and
+
+* Cartier, Pierre; DeWitt-Morette, Cecile: _Functional integration: action and symmetries._ [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
+ormat=complete)
 
