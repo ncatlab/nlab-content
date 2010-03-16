@@ -2,7 +2,7 @@
 This entry is about the article
 
 
-* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
+* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_, Advances in Mathematics __164__, 144&#8211;176 (2001)
 
 This discusses the _projective_ global and local [[model structure on simplicial presheaves]]. 
 
