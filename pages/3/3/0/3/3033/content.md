@@ -15,7 +15,6 @@
 
 The best way to contact me is by sending me an email at <fiorenza@mat.uniroma1.it>
 
-
 # my position {#myposition}
 
 I have my PhD in [[mathematics|math]] from the University of Pisa. Have been a postdoc in mathematics for three years (in Roma Tor Vergata and Sapienza). Since 2005 I am assistant professor at the <a href="http://www.mat.uniroma1.it">Sapienza - Universit&#224; di Roma</a>
