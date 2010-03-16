@@ -1,6 +1,36 @@
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
+> under construction
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
+
+
+## Idea
+
+The notion of **path integral** originates in and is mainly used in the context of [[quantum mechanics]] and [[quantum field theory]], where it is a certain operation supposed to model the notion of [[quantization]].
+
+The idea is that the quantum propagator -- in [[FQFT]] the value of the functor $U : Cob \to Vect$ on a certain [[cobordism]] -- is given by an [[integral kernel]] $U : \psi \mapsto \int K(-,y) \psi(y) d\mu$ where $K(x,y)$ is something like the integral of the exponentiated [[action functional]] $S$ over all field configurations $\phi$ with prescribed boundary datat $x$ and $y$. Formally one writes
+
+$$
+  K(x,y) = \int \exp(i S(\phi))\; D\phi 
+$$
+
+and calls this the **path integral**. Here the expression $D \phi$ is supposed to allude to an  [[measure space|measure integral]] on the space of all $\phi$. The main problem with the path integral idea is that it is typically unclear what this measure should be, or, worse, it is typically clear that no suitable such measure does exist. 
+
+The name _path integral_ originates from the special case where the system is the [[sigma model]] describing a particle on a target space manifold $X$. In this case a field configuration $\phi$ is a path $\phi : [0,1] \to X$ in $X$, hence the integral over all field configurations is an integral over all paths.
+
+The idea of the path integral famously goes back to [[Richard Feynman]], who motivated the idea in [[quantum mechanics]]. In that context the notion can typically be made precise and shown to be equivalent to various other [[quantization]] prescriptions. 
+
+The central impact of the idea of the path integral however is in its application to [[quantum field theory]], where it is often taken in the physics literatire as the _definition_ of what the quantum field theory encoded by an [[action functional]] should be, disregarding the fact that in these contexts it is typically quite unclear what the path integral actually means, precisely. 
+
+Notably the [[Feynman perturbation series]] summing over [[Feynman graphs]] is motivated as one way to make sense of the path integral in quantum field theory and in practice usually serves as a _definition_ of the perturbative path integral.
+
 
 ## Path integral in quantum mechanics
 
@@ -30,15 +60,7 @@ where $S(q)$ is the [[action]] functional.
 Is there an easy way to see how the Hamiltonian transforms into the Lagrangian in the exponent?
 =--
 
-## References 
 
-For simple systems like particles propagating on a [[Riemannian manifold]] and charged under a [[gauge field]] given by a [[connection on a bundle]] the path integral can be made pretty much rigorous
-
-* [[Christian Baer]], [[Frank Pfaeffle]], _Path integrals on manifolds by finite dimensional approximation_ ([arXiv](http://arxiv.org/abs/math/0703272))
-
-+--{.query}
-Zoran: usually the QUADRATIC Hamiltonians are the ones for which the integral is well understood in several approaches; and of course many cases corresponding to the exactly solvable models. 
-=--
 
 
 ## The path integral in the bigger picture
@@ -90,14 +112,34 @@ More recently, one sees attempts to formalize this observation of Freed's, notab
 
 based on material (on categories of "families") in _[[On the Classification of Topological Field Theories]]_ . 
 
-## References
+## References {#References}
 
 
-* Albeverio, Sergio A.; Hoegh-Krohn, Raphael J.; Mazzucchi, Sonia:
-_Mathematical theory of Feynman path integrals. An introduction._ (There is a second recently published version, see [ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)
+The original textbook reference is
 
-and
+* [[Richard Feynman]], A. R. Hibbs, , _Quantum Mechanics and Path Integrals_ , New York: McGraw-Hill, (1965)
 
-* Cartier, Pierre; DeWitt-Morette, Cecile: _Functional integration: action and symmetries._ [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
-ormat=complete)
+Modern precise formulations of path integral technology for [[quantum mechanics]] can be found for instance in
+
+* [[Christian Bär]], [[Frank Pfäffle]], _Path integrals on manifolds by finite dimensional approximation_ ,  J. reine angew. Math., (2008), 625: 29-57. ([arXiv:math.AP/0703272](http://arxiv.org/abs/math.AP/0703272))
+
+This discusses the path integral for the [[sigma-model]] given by a particle propagating on a  [[Riemannian manifold]] and charged under a [[gauge field]] given by a [[connection on a bundle]].
+
+
++--{.query}
+Zoran: usually the QUADRATIC Hamiltonians are the ones for which the integral is well understood in several approaches; and of course many cases corresponding to the exactly solvable models. 
+=--
+
+
+* [[Dana Fine]], [[Stephen Sawin]], _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
+
+Other references on mathematical aspects of path integrals include
+
+* [[Sergio Albeverio]], ; [[Raphael Hoegh-Krohn]],  ; Sonia Mazzucchi, :
+_Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)
+
+
+* [[Pierre Cartier]], [[Cecile DeWitt-Morette]], : _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
+ormat=complete))
+
 
