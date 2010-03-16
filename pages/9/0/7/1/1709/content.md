@@ -221,28 +221,32 @@ This may motivate the following definition
 
 +-- {: .un_defn}
 ###### Definition (twisted cohomology)
-
 For 
 
 * $\mathbf{H}$ an [[(∞,1)-topos]];
 
-* $A \to \hat B \to B$ a [[fibration sequence]] in $\mathbf{H}$;
+* $f:\hat B \to B$ a morphism in $\mathbf{H}$;
+
+twisted cohomology 
+$$
+\mathbf{H}^c(X;f)
+$$
+at stage $X$ is the fiber of $f$ over a given [[generalized element|element]] $c$ of $B$. If $B$ is pointed, and $A \to \hat B \stackrel{f}{\to} B$ is the associated [[fibration sequence]] in $\mathbf{H}$, it is customary to call the set of equivalence classes $\pi_0\mathbf{H}^c(X;f)$ the **$c$-twisted $A$-cohomology of $X$**, and to denote it by the symbol
+$$
+H^{[c]}(X,A)
+$$
+
+More explicitly, for
 
 * $X\in \mathbf{H}$ an object of $\mathbf{H}$;
 
-* and $c \in \mathbf{H}(X,B)$ a $G$-cocycle on $X$
+* and $c \in \mathbf{H}(X,B)$ a $B$-cocycle on $X$
 
-the **$c$-twisted $A$-cohomology of $X$** is the the set of equivalence classes
-
-$$
-  H^{[c]}(X,A) := \pi_0 \mathbf{H}^c(X,A)
-$$
-
-of the [[∞-groupoid]] $\mathbf{H}^c(X,A)$ that is defined as the [[homotopy pullback]]
+$\mathbf{H}^c(X,f)$ is the of the [[∞-groupoid]] defined as the [[homotopy pullback]]
 
 $$
   \array{
-    \mathbf{H}^{c}(X,A) &\to& {*}
+    \mathbf{H}^{c}(X,f) &\to& {*}
     \\
     \downarrow && \;\downarrow^{{*}\mapsto c}
     \\
@@ -256,7 +260,7 @@ $$
 +-- {: .un_remark}
 ###### Remark
 
-Notice that compared to the previous [[fibration sequence]] arising in the obstruction problem, the [[homotopy limit]] in the above definition replaces the trivial cocycle $const_{*}$ by the prescribed $G$-cocycle $c$.
+Notice that compared to the previous [[fibration sequence]] arising in the obstruction problem, the [[homotopy limit]] in the above definition replaces the trivial cocycle $const_{*}$ by the prescribed $B$-cocycle $c$.
 =--
 
 
