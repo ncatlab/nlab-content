@@ -10,11 +10,13 @@
 
 ## Idea
 
-The **&#268;ech model structure on simplicial presheaves** on a [[site]] $C$ is the model structure obtained from the [[global model structure on simplicial presheaves]] on $C$ by [[Bousfield localization of model categories|left Bousfield localization]]s at [[Cech cover]]s:  its fibrant objects are [[∞-stack]]s that satisfy [[descent]] over [[Cech cover]]s but not necessarily over [[hypercover]]s.
+The **&#268;ech model structure on simplicial presheaves** on a [[site]] $C$ is a model for the [[topological localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] on $C$ to the [[(∞,1)-category of (∞,1)-sheaves]]. 
+
+It is obtained from the the [[global model structure on simplicial presheaves]] on $C$ by [[Bousfield localization of model categories|left Bousfield localization]]s at [[Cech cover]]s:  its fibrant objects are [[∞-stack]]s that satisfy [[descent]] over [[?ech cover]]s but not necessarily over [[hypercover]]s.
 
 Accordingly, the [[(∞,1)-topos]] [[presentable (infinity,1)-category|presented]] by the &#268;ech model structure has as its [[cohomology]] theory [[?ech cohomology]].
 
-Further localization at [[hypercover]]s leads from the &#268;ech model structure to the Joyal-Jardine [[local model structure on simplicial presheaves]] that presentes the [[(∞,1)-topos]] which is the [[hypercompletion]] of that of the &#268;ech model structure.
+Further [[Bousfield localization of model categories|left Bousfield localization]] at [[hypercover]]s leads from the &#268;ech model structure to the Joyal-Jardine [[local model structure on simplicial presheaves]] that presents the [[hypercomplete (∞,1)-topos]] which is the [[hypercompletion]] of that presented by the &#268;ech model structure.
 
 
 ## Definition
@@ -39,13 +41,26 @@ $$
 
 of simplicial presheaves, the corresponding _&#268;ech cover morphism_ .
 
+Notice that by the discussion at [model structure on simplicial presheaves - fibrant and cofibrant objects](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#FibAndCofibObjects) this is a morphism between cofibrant objects.
+
 +-- {: .un_defn}
 ###### Definition
 
-The injective (projective) **Cech model structure on simplicial presheaves** $[C^{op},sSet]_{Cech}$ on $C$ is the [[Bousfield localization of model categories|left Bousfield localization]] of $[C^{op}, sSet]_{inj}$ ($[C^{op}, sSet]_{proj}$) at the set of &#268;ech cover morphisms.
+The injective (projective) **&#268;ech model structure on simplicial presheaves** $[C^{op},sSet]_{Cech}$ on $C$ is the [[Bousfield localization of model categories|left Bousfield localization]] of $[C^{op}, sSet]_{inj}$ ($[C^{op}, sSet]_{proj}$) at the set of &#268;ech cover morphisms.
 
 
 =--
+
+By the general poperties of [[Bousfield localization of model categories|Bousfield localization]] this means that the fibrant-cofibrant objects $A$ of $[C^{op},sSet]_{Cech}$ are precisely those that are fibrant-cofibrant in the global model structure and in addition satisfy the [[descent]] condition that for all covers $\{U_i \to V\}$ the morphism of simplicial sets
+
+$$
+  A(U) \simeq [C^op,sSet](V,U) \to [C^{op},sSet](C(\{U_i\}), A)
+$$
+
+is a weak equivalence in the standard [[model structure on simplicial sets]].
+
+This is the model for the $\infty$-analog of the [[sheaf]] condition, modelling the [[topological localization]] of an $(\infty,1)$-presheaf $(\infty,1)$-topos.
+
 
 +--{: .query}
 [[Mike Shulman]]: Two questions, one (hopefully) easy and one (perhaps) hard:
@@ -60,7 +75,7 @@ I am particularly interested in this for the following reason.  According to Bek
 
 =--
 
-
+> check
 
 We may form the [[transferred model structure]] on simplicial _[[sheaf|sheaves]]_ by transferring along the degreewise [[sheafification]] [[adjunction]]
 
@@ -79,9 +94,9 @@ As discussed there, sufficient conditions for this to be a model structure is th
 
 * $sSh(C)$ has functorial fibrant replacement and functorial [[path object]]s for fibrant objects. 
 
-Since [[sheafification]] does preserved [[filtered colimit]]s the first condition is satisfied degreewise and hence is satisfied.
+Since [[sheafification]] does preserve [[filtered colimit]]s the first condition is satisfied degreewise and hence is satisfied.
 
-Since the [[small object argument]] holds in $sSh(C)$ we have functorial fibrant replacement. And a path object is obtained just by forming objectwise the standard path object in [[sSet]], as in $[C^{op}, sSet]$.
+Since the [[small object argument]] holds in $sSh(C)$ for generating acyclic cofibrations we have functorial fibrant replacement. And a path object is obtained just by forming objectwise the standard path object in [[sSet]], as in $[C^{op}, sSet]$.
 
 
 ## References
