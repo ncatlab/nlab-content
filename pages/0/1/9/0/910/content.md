@@ -1,14 +1,18 @@
-# Idea #
+#Content#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 A [[topological space]] is _compactly generated_ if (in a certain sense) the continuous images in it of all [[compact Hausdorff space]]s tell you everything about its topology.
 
 Compactly generated spaces form a [[convenient category of topological spaces]].
 
-# Definitions #
+## Definitions 
 
-A map $f:X\to Y$ of topological spaces is __$k$-continuous__
-if $f \circ t:C \to Y$ is continuous for all compact Hausdorff spaces $C$ and continuous functions $t: C \to X$.
-
+A [[continuous map]] $f:X\to Y$ of [[topological space]]s is __$k$-continuous__
+if for all [[compact topological space|compact]] [[Hausdorff space]]s $C$ and continuous functions $t: C \to X$ the composite $f \circ t:C \to Y$ is continuous.
+ 
 The following conditions on a space $X$ are equivalent:
 
 1. For all spaces $Y$ and all functions $f:X \to Y$, $f$ is
@@ -19,7 +23,7 @@ continuous if and only if $f$ is $k$-continuous.
 
 A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t:C\to X$ is closed (when $C$ is compact Hausdorff).
 
-# Cartesian closure #
+## Cartesian closure 
 
 The category $k\Top$ of topological spaces and $k$-continuous maps is [[cartesian closed category|cartesian closed]]. In fact the exponential map 
 $$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
@@ -36,11 +40,11 @@ Y$ such that $f(t(C))\subseteq U$.
 
 It follows that the category of $k$-spaces and continuous maps is also cartesian closed.  This remains true if we also impose the weak Hausdorff condition.
 
-#Kaonization#
+## Kaonization
 
 Let us consider for the moment only the categories $Haus$ of Hausdorff and $kHaus$ of Hausdorff k-spaces. Then the tautological inclusion $kHaus\subset Haus$ has a right adjoint $k$ sometimes (e.g. by [[M M Postnikov]]) also called **kaonization**. This functor is constructed as follows $k(X)=X$ as a set and $k(X)$ has as new closed sets those sets whose intersection with old compacts in $X$ is closed in old topology on $X$. Then $k(X)$ has all the same closed sets and possibly more, hence all the old open sets and possibly more. In particular, the identity map $id:k(X)\to X$ is continuous. The mapping spaces $kHaus(X,Y)=k(Top(X,Y))$ where $Top(X,Y)$ is the standard mapping space in the sense of compact-open topology. Similarly, the categorical product in $kHaus$ is the kaonification of the usual (Tyhonov) product. Then $kHaus$ is [[cartesian closed category|cartesianly closed]]. See G. Whitehead's _Elements of homotopy theory_, for more details.  
 
-# Local cartesian closure #
+## Local cartesian closure 
 
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
@@ -60,7 +64,8 @@ _Toby_:  Hopefully that is explained in the new article.
 =--
 
 
-# References #
+## References 
+
 Compactly generated spaces were first introduced by J. L. Kelley, see his book
 
 * [[John Kelley]], _General topology_, D. van Nostrand, New York 1955. 
