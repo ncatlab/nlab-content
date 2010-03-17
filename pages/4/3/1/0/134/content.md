@@ -1,13 +1,11 @@
 
+By **Top** is usually denoted the collection of [[topological space]]s and [[continuous map]]s between them.
 
-Regarded as a plain [[category]], $Top$ is the [[category]] whose [[object]]s are [[topological space|topological spaces]] and whose [[morphism]]s are continuous maps.
+How exactly this is understood depends a bit on context: of course $Top$ forms an ordinary [[category]]. But it is also naturally an [[(∞,1)-category]]. This, in turn, may be [[presentable (∞,1)-category|presented]] by regarding $Top$ as a [[model category]] equipped with the [[model structure on topological spaces|Quillen model structure]].
 
-The [[homotopy category]] of Top with respect to [[weak homotopy equivalence]]s is [[Ho(Top)]]. This is the central object of study in [[homotopy theory]].  Notice that often one may want to use instead a category of [[nice topological space]]s such as [[CW-complex]]es or a [[nice category of spaces]].
+Moreover, what exactly counts as an object in $Top$ often varies in different contexts. For many applications it is useful to restrict to a [[subcategory]] of [[nice topological space]]s such as [[compactly generated space]]s or [[CW-complex]]es.
 
-More generally, $Top$ may denote the archetypical [[(∞,1)-category]] that is the archetypical [[(∞,1)-topos]].
-As such, $Top$ is also the archetypical [[homotopy theory]].
-
-In this incarnation $Top_{nice}$ is equivalent to [[Simp Set]] (in terms of the standard [[model structure on simplicial sets]]) and to [[∞Grpd]].
+The [[homotopy category]] of Top with respect to [[weak homotopy equivalence]]s is [[Ho(Top)]]. This is the central object of study in [[homotopy theory]].  Regarded as an [[(∞,1)-category]]  $Top$ is the archetypical [[homotopy theory]], equivalent to [[∞Grpd]].
 
 
 category: category
