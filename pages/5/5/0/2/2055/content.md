@@ -37,7 +37,7 @@ Please [[How to get started|help]] with improving this page:
 
 * [Alasdair's Musings] (http://amca01.wordpress.com) Mainly (but not entirely) mathematics education and computer algebra systems.
 
-* [A Mind for Madness](http://hilbertthm90.wordpress.com)
+* [A Mind for Madness](http://hilbertthm90.wordpress.com) "Musings on art, philosophy, mathematics, and physics" (topics like [[differential geometry]], [[homological algebra]], but also belletristics) 
 
 * [A Portion of the Book](http://mzargar.wordpress.com)
 
@@ -45,9 +45,9 @@ Please [[How to get started|help]] with improving this page:
 
 * [Annoying Precision](http://qchu.wordpress.com)
 
-* [Ars Mathematica](http://arsmathematica.net)
+* [Ars Mathematica](http://arsmathematica.net) (analysis, probability...)
 
-* [Gil Kalai's Blog](http://gilkalai.wordpress.com)
+* [Combinatorics and more: Gil Kalai's blog](http://gilkalai.wordpress.com) 
 
 * [Climbing Mount Bourbaki](http://amathew.wordpress.com) (Akhil Mathew)
 
@@ -55,19 +55,19 @@ Please [[How to get started|help]] with improving this page:
 
 * [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on algebra, representation theory, and Olympiad-style problem-solving
 
-* [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com)
+* [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com) 
 
 * [Division by Zero](http://divisbyzero.com) (Dave Richeson)
 
 * [Emb&#251;ches tissues](http://embuchestissues.wordpress.com)
 
-* [Drexel mathematics](http://www.library.drexel.edu/blogs/drexelmath)
+* [Drexel mathematics](http://www.library.drexel.edu/blogs/drexelmath) (from Drexel Univ. Libraries: mainly books)
 
-* [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski)
+* [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski) (analysis, esp. summation formulas, probability distributions, stochastic processes...)
 
 * [Evolution Blog](http://www.scienceblogs.com/evolutionblog)
 
-* [Frank Morgan's Blog](http://blogs.williams.edu/Morgan)
+* [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
 * [F_un mathematics](http://matrix.cmi.ua.ac.be/fun)
 
@@ -75,7 +75,7 @@ Please [[How to get started|help]] with improving this page:
 
 * [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari)
 
-* [God plays dice](http://godplaysdice.blogspot.com)
+* [God plays dice](http://godplaysdice.blogspot.com) (probability, combinatorics, puzzles, financial math)
 
 * [Good Math, Bad Math](http://scienceblogs.com/goodmath)
 
@@ -91,7 +91,7 @@ Please [[How to get started|help]] with improving this page:
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com)
 
-* [Math-Blog](http://math-blog.com)
+* [Math-Blog](http://math-blog.com) (6 people blog: math books, university math, popular math etc.)
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 (Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
@@ -136,7 +136,7 @@ Please [[How to get started|help]] with improving this page:
 
 * [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba)
 
-* [The Endeavour](http://www.johndcook.com/blog)
+* [The Endeavour](http://www.johndcook.com/blog) 
 
 * [The Everything Seminar](http://cornellmath.wordpress.com)
 
@@ -144,11 +144,11 @@ Please [[How to get started|help]] with improving this page:
 
   * A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
 
-* [The n-Geometry Caf&#233;](http://www.noncommutative.org)
+* [The n-Geometry Caf&#233;](http://www.noncommutative.org) (Lieven Le Bruyn: mainly [[noncommutative geometry]]; geometry of $n\times n$-matrix representations, [[quiver]]s, Azumaya algebras...)
 
-* [The Polymath Blog](http://polymathprojects.wordpress.com)
+* [The Polymath Blog](http://polymathprojects.wordpress.com) (Tim Gowers "polymath" group projects: number theory, polynomials, algorithms, complexity...)
 
-* [The Rising Sea](http://therisingsea.org/) (Daniel Murfet on algebraic geometry, derived categories and the like)
+* [The Rising Sea](http://therisingsea.org/) (Daniel Murfet on algebraic geometry, triangulated categories, sheaves...; lots of neat LaTeX notes)
 
 * [The Samovar](http://thesamovar.wordpress.com)
 
@@ -156,15 +156,15 @@ Please [[How to get started|help]] with improving this page:
 
 * [The unapologetic mathematician](http://unapologetic.wordpress.com) (John Armstrong)
  
-* [Three-Toed Sloth](http://bactra.org/weblog)  (Cosma Shalizi)
+* [Three-Toed Sloth](http://bactra.org/weblog)  (Cosma Shalizi: books, science, automata, complex networks, stochastic processes, numerics and simulation, arts, literature, politics)
 
 * [Tim Gowers' blog](http://gowers.wordpress.com)
 
 * [Todd and Vishal's blog](http://topologicalmusings.wordpress.com)
 
-* [Victor Porton's math blog](http://portonmath.wordpress.com)
+* [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids)
 
-* [Vivatsgasse 7](http://vivatsgasse7.wordpress.com)
+* [Vivatsgasse 7](http://vivatsgasse7.wordpress.com) (Max Planck Bonn graduate students, now little activity)
 
 * [What's new](http://terrytao.wordpress.com) (Terence Tao)
 
