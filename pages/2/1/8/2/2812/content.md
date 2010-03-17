@@ -6,7 +6,7 @@
 
 ## Idea
 
-The collectoin $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal DoldKan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
+The collection $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal DoldKan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
 
 Notably, this cochain complex is an $E_\infty$-[[E-|algebra]] (an [[algebra over an operad|algebra]] over the [[E-infinity operad|E-∞ operad]]). In [[chain homology and cohomology|cohomology]] it becomes a [[graded algebra|graded-commutative algebra]].
 
@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-This latter point of view is often preferred in the literature when $R[S_\bullet]$ is regarded as the collectoin of _chains_ on $S$ and $[S_\bullet,R]$ as that of _cochains_ .
+This latter point of view is often preferred in the literature when $R[S_\bullet]$ is regarded as the collection of _chains_ on $S$ and $[S_\bullet,R]$ as that of _cochains_ .
 
 More precisely, we should speak of chains and cochains after applying the [[Moore complex]] functor. Write
 
@@ -127,7 +127,7 @@ The statement for the Eilenberg--Zilber operad goes back to _HinSch87_ . A good 
 
 ## References
 
-An explicit description of the cochains that express the homotopy symmetry of the cup product is discussoin from page 30 on of the old
+An explicit description of the cochains that express the homotopy symmetry of the cup product is discussion from page 30 on of the old
 
 * N. Steenrod, [[SteenrodOnCohomologyOperations.pdf:file]], Colloquium lectures (1957)
 
@@ -151,3 +151,4 @@ An action of instead the [[Barratt-Eccles operad]] is described in
 
 
 
+[[!redirects cochains on simplicial sets]]
