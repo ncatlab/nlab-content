@@ -2,12 +2,14 @@
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
 
-
-~~~
-_Harry_: Compose + oo = ∞.
-~~~
-
 ***
+
+
++-- {: .standout}
+_Harry_: Compose + oo = ∞.
+
+_Toby_:  On my keyboard, Compose + oo = &#176;.  Chacun &#224; son go&#251;t?
+=--
 
 Click on the following links to jump to an anchor point.  Of course, the same syntax works when linking to different pages, just replace "Sandbox" with the name of that page.
 
