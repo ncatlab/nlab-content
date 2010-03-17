@@ -42,3 +42,6 @@ This may be used to define [[homotopy group (of an infinity-stack)|homotopy grou
 ## Generalizations
 
 There is an evident notion of [[constant ∞-stack]], hence of [[locally constant ∞-stack]] and accordingly a notion of $\infty$-[[infinity-monodromy|monodromy]].
+
+
+[[!redirects locally constant sheaves]]
