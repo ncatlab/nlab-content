@@ -6,16 +6,22 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 For $f:\hat B \to B$ a morphism in an [[(∞,1)-topos]] $\mathbf{H}$,
-twisted cohomology at stage $X$ is the fiber of $f$ over a given [[generalized element|element]] of $B$.
+twisted cohomology at [[generalized element|stage]] $X$ is the fiber of $f$ over a given [[generalized element|element]] of $B$.
+
+This is such that if $f : \hat B \to *$ is the [[nLab:terminal object|terminal]] morphism, $f$-twisted cohomology is precisely the [[cohomology]] in $\mathbf{H}$ with coefficients in $\hat B$.
+
+## Definition
 
 
 
-#Definition#
++-- {: .un_defn}
+###### Definition
 
-We now say this again, more formally and more in detail. For 
+
+For 
 
 * $\mathbf{H}$ an [[(∞,1)-topos]];
 
@@ -23,21 +29,24 @@ We now say this again, more formally and more in detail. For
 
 * $X\in \mathbf{H}$ an object of $\mathbf{H}$;
 
-* and $c \in \mathbf{H}(X,B)$ a $B$-cocycle on $X$
+* and $c \in \mathbf{H}(X,B)$ a $B$-[[cocycle]] on $X$ with [[cohomology]] class $[c] \in \pi_0 \mathbf{H}(X,B)$
 
-**twisted cohomology** 
+the $(f,[c])$-**twisted cohomology** of $X$ is the set of equivalence classes
+
 $$
-H^{[c]}(X,f):=\pi_0\mathbf{H}^c(X,f)
+  H_{[c]}(X,f) := \pi_0\mathbf{H}{[c]}(X,f)
 $$
-is the set of equivalence classes of the fiber
-$\mathbf{H}^c(X,f)$  of the morphism $f:\hat B \to B$ over the [[generalized element]] element $c$ of $B$. More explicitly, $\mathbf{H}^c(X,f)$ is 
+
+of the [[homotopy fiber]] $\mathbf{H}_{[c]}(X,f)$  of the morphism $f:\hat B \to B$ over the [[generalized element]] $c$ of $B$. 
+
+More explicitly, $\mathbf{H}_{[c]}(X,f)$ is 
 the [[∞-groupoid]] defined as the [[homotopy pullback]]
 
 $$
   \array{
-    \mathbf{H}^{c}(X,f) &\to& {*}
+    \mathbf{H}_{[c]}(X,f) &\to& {*}
     \\
-    \downarrow && \;\downarrow^{{*}\mapsto c}
+    \downarrow && \;\downarrow^{\mathrlap{{*}\mapsto c}}
     \\
     \mathbf{H}(X,\hat B) &\to& \mathbf{H}(X,B)
   }
@@ -45,9 +54,15 @@ $$
 $$
 
 =--
-## In terms of sections ##
 
-The cocycle $c\in\mathbf{H}(X,B)$ induces the homotopy pullback
+## Properties
+
+
+### Formulation in terms of sections
+
+Twisted cohomology may be reformulated equivalently in terms of collections of [[section]]s as follows:
+
+Given the twisting cocycle $c : X \to B$, let $P_f \to X$ be the $\infty$-[[pullback]] ([[homotopy pullback]]) of $\hat B \to B$ along this cocycle:
 
 $$
   \array{
@@ -58,7 +73,27 @@ $$
      X  &\stackrel{c}{\to}& B
   }\,.
 $$
-By the universal property of homotopy pullback, homotopy classes of sections $X \to P_f$, are in bijection with homotopy classes of homotopy comutative cones of the form
+
+Write $\Gamma(P_f) = \mathbf{H}_X(X, P_f)$ for the $\infty$-groupoid of [[section]]s of $P_f \to X$.
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+This collection of sections is the $(f,[c])$-twisted cohomology of $X$:
+
+$$
+ \pi_0 \Gamma(P_f) \simeq H_{[c]}(X,f)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By the universal property of ([[homotopy pullback|homotopy]]) [[pullback]]s, homotopy classes of sections $X \to P_f$, are in bijection with homotopy classes of homotopy comutative cones of the form
 
 $$
   \array{
@@ -72,44 +107,83 @@ $$
   \,.
 $$
 
-These in turn are manifestly the homotopy classes of maps $X \to \hat{B}$ such that $X \to \hat{B} \to B$ is homotopic to $c$. So
+These in turn are manifestly the homotopy classes of maps $X \to \hat{B}$ such that $X \to \hat{B} \to B$ is homotopic to $c$. 
+
+=--
+
+
+### Twisted cohomology with trivial twisting cocycle
+
+Let  ${*} \to B$ is a [[pointed object]]. Then
+
+* we say that the [[cocycle]] 
+
+  $(X \to * \to B) \in \mathbf{H}(X,B)$ 
+
+  is the **trivial $B$-cocycle** on $X$.
+
+*  the morphism $f:\hat{B}\to B$ induces a [[fibration sequence]] 
+
+   $A \to \hat B \stackrel{f}{\to} B$ 
+
+   in $\mathbf{H}$.
+
+
++-- {: .un_prop}
+###### Proposition
+
+The $([*],f)$-twisted cohomology with trivial twisting cocycle is equivalent to the ordinary [[cohomology]] with coefficients in the [[homotopy fiber]] $A$ of $f$:
+
 $$
-\pi_0 \Gamma(P_f) \simeq H^{[c]}(X,f)
+  \mathbf{H}_{[*]}(X,f) \simeq \mathbf{H}(X,A)
+  \,.
 $$
 
 
-## Twisted cohomology with a pointed base ##
+=--
 
++-- {: .proof}
+###### Proof
 
- If $B$ is pointed, then the morphism $f:\hat{B}\to B$ induces a [[fibration sequence]] $A \to \hat B \stackrel{f}{\to} B$ in $\mathbf{H}$, i.e. a [[homotopy pullback]] square
-$$
+By definition, the [[homotopy fiber]] of $A$ is the [[homotopy pullback]]
+
+$$ 
   \array{
-    A &\to& {*}
+    A &\to& *
     \\
     \downarrow && \downarrow
     \\
-    \hat B &\to& B
+    \hat B &\stackrel{f}{\to}& B
   }
 $$
 
-with ${*}$ denoting [[generalized the|the]] [[point]] ([[generalized the|the]] [[terminal object]]).
-
-Since the $\infty$-groupoid valued hom in an [[(∞,1)-category]] is [[exact functor|exact]] with respect ot [[homotopy limits]], it follows that for every object $X$, there is  fibration sequence of cocycle [[∞-groupoids]]
+in $\mathbf{H}$. Since the $\infty$-groupoid valued [[derived hom-space|hom]] in an [[(∞,1)-category]] is [[exact functor|exact]] with respect ot [[homotopy limits]] (by definition of homotopy limits), it follows that for every object $X$, there is  fibration sequence of [[cocycle]] [[∞-groupoids]]
 
 $$
   \array{
     \mathbf{H}(X,A) &\to& {*}
     \\
-    \downarrow && \downarrow^{const_{*}}
+    \downarrow && \downarrow^{\mathrlap{const_{*}}}
     \\
     \mathbf{H}(X,\hat B) &\to& \mathbf{H}(X,B)
   }
-  \,,
+  \,.
 $$
-so that $\mathbf{H}^{const_{*}}(X,f)\simeq \mathbf{H}(X,A)$. In other words, twisted cohomology with the trivial twisting cocycle $const_{*}$ is nothing but cohomology with coefficients in the homotopy fiber of $f$ over the distinguished point of $B$. For this reason, when $B$ is pointed,
-it is customary to call the set of equivalence classes $\pi_0\mathbf{H}^c(X;f)$ the **$c$-twisted $A$-cohomology of $X$**, and to denote it by the symbol
+
+By definition of twisted cohomology, this identifies
+
 $$
-H^{[c]}(X,A)
+  \mathbf{H}(X,A) \simeq \mathbf{H}_{[*]}(X,f)
+  \,.
+$$
+
+=--
+
+For this reason, when $B$ is pointed,
+it is customary to call the set of equivalence classes $\pi_0\mathbf{H}_{[c]}(X;f)$ the **$c$-twisted $A$-cohomology of $X$**, and to denote it by the symbol
+
+$$
+  H_{[c]}(X,A)
 $$
 
 +-- {: .un_remark}
@@ -120,19 +194,19 @@ The cohomology fibration sequence $\mathbf{H}(X,A) \to \mathbf{H}(X,\hat B) {\to
 
 But it also says:
 
-* $A$-cocycles are, up to equivalence, precisely those $\hat B$-cocycles whose class in $B$-cohomology is the trivial class (given by the trivial cocycle $const_{*} : {*} \to $).
+* $A$-cocycles are, up to equivalence, precisely those $\hat B$-cocycles whose class in $B$-cohomology is the class of the trivial $B$-cocycle.
 
 =--
 
 
-# Examples #
+## Examples 
 
-## twisted K-theory ##
+### twisted K-theory 
 
 In the context of [[generalized (Eilenberg?Steenrod) cohomology]] a coefficient object for [[cohomology]] is a [[spectrum]] $A$: the $A$-cohomology of a [[topological space]] $X$ with coefficients in $A$ is the set of homotopy classes of maps $X \to A$. For instance, as a model of the degree-$0$ space in the [[K-theory spectrum]] one can take $A = Fred(H)$, the space of Fredholm operators on a separable Hilbert space $H$. There is a canonical action on this space of the projective unitary group $G = P U(H)$ of $H$. Since $P U(H)$ has the homotopy type of an [[Eilenberg?Mac Lane space]] $K(\mathbb{Z},2)$, a $P U(H)$-[[principal bundle]] $P \to X$ defines a class $c \in H^3(X,\mathbb{Z})$ in [[Eilenberg-MacLane spectrum|ordinary integral cohomology]] (this may also be thought of as the class of a twisting [[bundle gerbe]]). The twisted K-theory (in degree $0$) of $X$ with that class as its twist is the set of homotopy classes of sections $X \to P \times_{P U(H)} Fred(H)$ of the associated bundle. 
 
 
-## $G$-actions on spectra  ##
+### $G$-Actions on spectra  
 
 The above example generalizes straightforwardly to the case that 
 
@@ -198,13 +272,15 @@ To stay within the spectrum point of view, May&#8211;Sigurdsson suggested that t
 
 
 
-## group cohomology with coefficients in a module ##
+### Group cohomology with coefficients in a module 
 
 Some somewhat trivial examples of this appear in various context. For instance [[group cohomology]] on a group with coefficients in a nontrivial module can be regarded as an example of twisted cohomology. See there for more details.
 
 Compare this to the example below of cohomology "with local coefficients". It is the same principle in both cases.
 
-## twisted bundles ##
+
+
+### Twisted bundles
 
 
 To get a feeling for how the definition does, it is 
@@ -229,7 +305,7 @@ See also [Twisted Differential String- and Fivebrane-Structures](http://golem.ph
 
 
 
-## cohomology with local coefficients ##
+### Cohomology with local coefficients 
 
 What is called **cohomology with local coefficients** is twisted cohomology with the twist given by the class represented by the universal cover space of the base space, which is to say: by the action of the fundamental group of the base space.
 
@@ -254,15 +330,15 @@ Notice that there is a canonical map $c : X \to \mathbf{B} \pi_1(X)$, the one th
 Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-twisted $A$-cohomology of $X$ in the above sense.
 
 
-# References #
+## References 
 
 For the special case of [[generalized (Eilenberg?Steenrod) cohomology]] twisted by a $G$-[[principal bundle]] see section 22.1 of
 
-* May, Sigurdsson, _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+* [[Peter May|May]], Sigurdsson, _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
 This in turn is based on the definition of twisted K-theory given in 
 
-* Michael Atiyah and Graeme Segal. _Twisted K-theory_ . Ukr. Mat. Visn., 1(3):287&#8211;330, 2004.
+* [[Michael Atiyah]] and [[Graeme Segal]], _Twisted K-theory_ . Ukr. Mat. Visn., 1(3):287&#8211;330, 2004.
 <http://front.math.ucdavis.edu/0407.5054>
 
 Details on Larmore's work on twisted cohomology are at
@@ -276,7 +352,7 @@ The above definition of $c$-twisted cohomology as the homotopy fiber of $\mathbf
 See there for examples and applications.
 
 
-## chronology of literature on twisted cohomology ##
+### Chronology of literature on twisted cohomology 
 
 
 The oldest meaning of twisted cohomology is that of **cohomology with local coefficients** (see above).
