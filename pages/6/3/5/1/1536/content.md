@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-The Grothendieck construction describes this in the context of [[Cat]]: a morphism $p : E \to C$ of [[category|categories]] -- i.e. a [[functor]] -- is called a [[fibered category]] or [[Grothendieck fibration]] if it is encoded in a [[pseudofunctor]]/[[2-functor]] $S_p : C^{op} \to Cat$.
+The **Grothendieck construction** describes this in the context of [[Cat]]: a morphism $p : E \to C$ of [[category|categories]] -- i.e. a [[functor]] -- is called a [[fibered category]] or [[Grothendieck fibration]] if it is encoded in a [[pseudofunctor]]/[[2-functor]] $S_p : C^{op} \to Cat$.
 
 The reconstruction of $p$ from the pseudofunctor $S_p$ is the **Grothendieck construction** 
 
@@ -59,28 +59,28 @@ This equivalence notably allows to discuss [[stack]]s equivalently as pseudofunc
 
 The Grothendieck construction is one of the central aspects of [[category theory]], together with the notions of universal constructions such as [[limit]], [[adjunction]] and [[Kan extension]]. It is expected to have suitable analogs in all sufficiently good contexts of [[higher category theory]]. Notably there is an [[(∞,1)-Grothendieck construction]] in [[(∞,1)-category]] theory.
 
+
 ## Definition 
 
-> under construction
 
-Let for the time being [[Grpd]] be the 1-category of [[groupoids]] and [[functors]] between them.
+Let [[Cat]] be the [[2-category]] of [[categories]], [[functor]]s and [[natural transformation]]s.,
 
-Recall from [[generalized universal bundle]] that the "universal [[Grpd]]-[[bundle]]" is $Grpd_* \to Grpd$, where $Grpd_*$ is the category of [[pointed object|pointed]] [[groupoids]].
+Recall from [[generalized universal bundle]] that the "universal [[Cat]]-[[bundle]]" is $Cat_* \to Cat$, where $Cat_*$ is the category of [[pointed object|pointed]] [[categories]].
 
-Then for $F : C \to Grpd$ a [[functor]], the Grothendieck construction for $F$ is the [[pullback]] $\int F \to C$ of $Grpd_* \to Grpd$ along $F$:
+Then for $F : C \to Cat$ a [[functor]], the Grothendieck construction for $F$ is the (strict) [[pullback]] $\int F \to C$ of $Cat_* \to Cat$ along $F$:
 
 $$
   \array{
-    \int F &\to& Grpd_*
+    \int F &\to& Cat_*
     \\
     \downarrow && \downarrow
     \\
-    C &\stackrel{F}{\to}& Grpd
+    C &\stackrel{F}{\to}& Cat
   }
   \,.
 $$
 
-This means that the objects of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$ and morphisms in $\int F$ are given by pairs $(c \stackrel{f}{\to} c', \alpha : F(f)(a) \to a')$. This is to be visualized as
+This means that the objects of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$ and morphisms in $\int F$ are given by pairs $(c \stackrel{f}{\to} c', \alpha : F(f)(a) \to a')$. This may be visualized as
 
 $$
   \int F = 
@@ -100,6 +100,57 @@ $$
 $$
 
 
+## Properties
+
++-- {: .un_defn}
+###### Definition
+
+The Grothendieck construction factors through [[Grothendieck fibration]]s over $C$
+
+$$
+  \int : [C^{op}, Cat] \to Fib(C) \hookrightarrow Cat/C
+$$
+
+and establishes an equivalence of 2-categories
+
+$$
+  [C^{op}, Cat] \simeq Fib(C)
+  \,.
+$$
+
+When restricted to pseudofunctors that factor through [[Grpd]] $\hookrightarrow Cat$ it factors through [[fibrations in groupoids]]
+
+$$
+  \int : [C^{op}, Grpd] \to Fib_{Grpd}(C)\hookrightarrow Cat/C
+$$
+
+and establishes an equivance of [[2-categories]]
+
+$$
+  [C^{op}, Grpd] \sime Fib_{Grpd}(C)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This can be verified by straightforward albeit somewhatt tedious checking. Details are spelled out in section 1.2 of
+
+* [[Peter Johnstone]], _Sketches of an Elephant_ .
+
+The statement itself is theorem 1.3.6 there, all definitions and lemmas are on the pages before that.
+
+=--
+
+For the case of pseudofunctors with values in groupoids, there is a [[model category]] version of the Grothendieck construction discussed in
+
+* [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247)).
+
+There the statement of the above equivalence is the statement that the Grothendieck equivalence exhibits a [[Quillen equivalence]] between suitable [[model category]] structures on functors from and to $C$.
+
+
 ## Adjoints to the Grothendieck construction {#adjunction}
 
 The Grothendieck construction functor
@@ -109,6 +160,8 @@ $$
 $$
 
 has a left and a right [[adjoint functor]].
+
+Restricted to [[Grothendieck fibration]]s and [[fibrations in groupoids]], these exhibit the above equivalences as an [[adjoint equivalence]]s.
 
 ### The left adjoint
 
@@ -304,6 +357,6 @@ The term 'Grothendieck Construction' is applied in the literature to at least tw
 * [Inference System Integration via Logic Morphisms](http://www.kestrel.edu/home/projects/logicware/slides-9806/sld001.htm)
 * [Category Theory for Computing Science](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html)
 
-A [[model category]] presentatin of the Grothendieck construction is given in 
+A [[model category]] presentation of the Grothendieck construction is given in 
 
 * [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
