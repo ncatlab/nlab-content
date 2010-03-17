@@ -115,9 +115,73 @@ For example, consider the two cones over $[2]$, the standard 2-simplex.  The fir
 
 If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and $C D$ in the picture below), then join every point in one to every point in the other, you get a 3-simplex (the tetrahedron in the picture). You can think of this as being the union of all the cones on the first segment, with cone points on the second one. We have that the join $\Delta[1]\star \Delta[1]$ is $\Delta[3]$.
 
-![Picture](http://upload.wikimedia.org/wikipedia/commons/b/bc/SKT20093SimplexABCD.png)
-
-<small markdown="1">[Picture from Wikimedia Commons](http://commons.wikimedia.org/wiki/File:SKT20093SimplexABCD.png)</small>
++-- {: style="text-align:center"}
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw1" viewBox="0 0 10 10">
+   <path fill="#000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw2" viewBox="0 0 10 10">
+   <path fill="#000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_58">
+   <g id="svg_56">
+    <path id="svg_55" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#b5b5b5" transform="rotate(-141.911 176.415 281.921)" d="m178.389618,333.890015l7.948029,-49.785004l-19.845001,-54.153015"/>
+    <path transform="rotate(-141.911 203.114 305.368)" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#c4c4c4" id="svg_52" d="m165.690155,318.903839l74.848572,38.811615l-13.719147,-104.694855"/>
+   </g>
+   <g id="svg_57">
+    <text id="svg_39" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" font-size="24" y="249.5" x="206.334633">0</text>
+    <text id="svg_40" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" font-size="24" y="282.5" x="169.334633">1</text>
+    <text id="svg_41" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" font-size="24" y="340.5" x="150.334633">0'</text>
+    <text id="svg_42" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" font-size="24" y="325.5" x="240.334633">1'</text>
+   </g>
+  </g>
+  <rect stroke-width="0" stroke-dasharray="5,5" stroke="#000" fill="#c9c9c9" id="svg_51" height="74" width="71.999994" y="81" x="392.000006"/>
+  <path id="svg_54" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#c4c4c4" transform="rotate(-90 428.5 115.5)" d="m394,151.052002l68.041992,0.947998l0.958008,-73"/>
+  <polyline se:connector="svg_40 svg_41" fill="none" marker-end="url(#se_arrow_fw2)" stroke="#000" points="164.578 288 159.582 303.25 154.586 318.5" id="svg_50"/>
+  <polyline se:connector="svg_39 svg_42" fill="none" marker-end="url(#se_arrow_fw2)" stroke="#000" points="212 254.912 222.868 279.206 233.737 303.5" id="svg_49"/>
+  <polyline stroke-dasharray="5,5" se:connector="svg_40 svg_42" fill="none" marker-end="url(#se_arrow_fw2)" stroke="#000" points="175 278.134 203.25 295.243 231.5 312.352" id="svg_48"/>
+  <polyline se:connector="svg_41 svg_42" fill="none" marker-end="url(#se_arrow_fw2)" stroke="#000" points="158 331.167 194.75 325.042 231.5 318.917" id="svg_46"/>
+  <polyline se:connector="svg_39 svg_40" fill="none" marker-end="url(#se_arrow_fw2)" stroke="#000" points="200 246.851 187.75 257.777 175.5 268.703" id="svg_45"/>
+  <polyline se:connector="svg_23 svg_25" marker-end="url(#se_arrow_fw2)" fill="none" stroke="#000" points="464.182 95 464.497 118.25 464.811 141.5" id="svg_31"/>
+  <polyline se:connector="svg_23 svg_24" stroke-dasharray="5,5" fill="none" marker-end="url(#se_arrow_fw2)" stroke="#000" points="458 87.7535 429.75 117.197 401.5 146.641" id="svg_30"/>
+  <polyline se:connector="svg_22 svg_25" marker-end="url(#se_arrow_fw2)" fill="none" stroke="#000" points="398 87.5822 427.25 117.233 456.5 146.884" id="svg_29"/>
+  <polyline se:connector="svg_22 svg_24" marker-end="url(#se_arrow_fw2)" fill="none" stroke="#000" points="392.182 95 392.497 118.25 392.811 141.5" id="svg_28"/>
+  <polyline se:connector="svg_24 svg_25" marker-end="url(#se_arrow_fw2)" fill="none" stroke="#000" points="401 155.5 428.75 155.5 456.5 155.5" id="svg_27"/>
+  <polyline se:connector="svg_22 svg_23" marker-end="url(#se_arrow_fw2)" fill="none" stroke="#000" points="398 81.5 428 81.5 458 81.5" id="svg_26"/>
+  <polyline se:connector="svg_3 svg_4" marker-end="url(#se_arrow_fw1)" fill="none" stroke="#000" points="169 155.5 196.75 155.5 224.5 155.5" id="svg_6"/>
+  <polyline se:connector="svg_1 svg_2" marker-end="url(#se_arrow_fw1)" fill="none" stroke="#000" points="165 81.5 194.75 81.5 224.5 81.5" id="svg_5"/>
+  <line marker-end="url(#se_arrow_fw1)" fill="none" stroke-dasharray="null" stroke-width="5" stroke="#000" id="svg_9" y2="124.5" x2="350.000001" y1="124.5" x1="294"/>
+  <text id="svg_10" font-size="21" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" font-family="Serif" y="105" x="320.378906">f &#9733; g</text>
+  <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_22" y="89.5" x="392">0</text>
+  <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_23" y="89.5" x="464">1</text>
+  <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_24" y="163.5" x="393">0'</text>
+  <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_25" y="163.5" x="465">1'</text>
+  <text font-family="serif" font-size="18" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_20" y="143.5" x="428.121094">g</text>
+  <g id="svg_17">
+   <text font-family="Serif" font-size="18" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_7" y="72" x="194.378906">f</text>
+   <text font-family="serif" font-size="18" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_8" y="143.5" x="195.121094">g</text>
+   <g id="svg_11">
+    <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_1" y="89.5" x="159">0</text>
+    <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_2" y="89.5" x="231">1</text>
+    <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_3" y="163.5" x="161">0'</text>
+    <text font-size="24" xml:space="preserve" font-family="serif" text-anchor="middle" stroke-width="0" stroke="#000000" fill="#000000" id="svg_4" y="163.5" x="233">1'</text>
+   </g>
+  </g>
+  <text font-family="Serif" font-size="18" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_19" y="72" x="427.378906">f</text>
+  <path opacity="0.5" stroke-dasharray="5,5" stroke-width="0" stroke="#000" fill="#b2b2b2" id="svg_53" d="m465,82"/>
+  <polyline se:connector="svg_39 svg_41" fill="none" marker-end="url(#se_arrow_fw2)" stroke="#000" points="200 251.25 179.25 284.969 158.5 318.688" id="svg_47"/>
+  <g id="svg_62">
+   <text transform="matrix(1.54059 -1.04908 1.07873 1.49824 -408.138 222.224)" font-family="serif" font-size="63" xml:space="preserve" text-anchor="middle" stroke-dasharray="null" stroke-width="2" stroke="#000" fill="#000000" id="svg_32" y="245" x="309.5">=</text>
+   <path stroke-dasharray="null" stroke-width="4" stroke="#000" fill="none" id="svg_61" d="m274.585632,233.075333c-33.321533,-34.810257 66.225647,-11.639313 30.302063,-49.09108"/>
+  </g>
+ </g>
+</svg>
+=--
 
 
 ## Definition
