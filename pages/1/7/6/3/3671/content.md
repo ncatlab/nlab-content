@@ -284,7 +284,7 @@ J. High Energy Phys. __11__ (1997) 002, [hep-th/9710230](http://arXiv.org/abs/he
 {MW} G. Moore and E. Witten, _Self duality, Ramond-Ramond fields, and K-theory_, J. High Energy Phys. __05__ (2000) 032,
 [hep-th/9912279](http://arXiv.org/abs/hep-th/9912279).
 
-{Mo} J. Morava, _Forms of $K$-theory_, Math. Zeitschrift __201__ (1989) 401--428.
+{Mo} J. Morava, _Forms of $K$-theory_, Math. Zeitschrift __201__ (1989) 401--428, (scan at [goettingen](http://gdz.sub.uni-goettingen.de/dms/load/img/?IDDOC=173365)).
 
 {Mu} M. K. Murray, _Bundle gerbes_, J. London Math. Soc. (2)
 __54__ (1996), no. 2, 403&#272;416.
