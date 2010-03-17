@@ -28,6 +28,20 @@ A **colimit** in a quasi-category is accordingly an limit in the [[opposite quas
 
 =--
 
++-- {: .un_remark}
+###### Remark
+
+Notice from the discussion at [[join of quasi-categories]] that there are two definitions -- denoted $\star$ and $\diamondsuit$ -- of join, which yield results that differ as simplicial sets, though are equivalent as quasi-categories.
+
+The notation $C_{/F}$ denotes the definition of [[over quasi-category]] induced from $*$, while the notation $C^{/F}$ denotes that induced from $\diamondsuit$.
+
+Either can be used for the computation of limits in a quasi-category, as for quasi-categorical purposes they are weakly equivalent.
+
+See [[Higher Topos Theory|HTT, prop 4.2.1.5]].
+
+=--
+
+
 
 ## Special cases
 
