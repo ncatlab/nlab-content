@@ -3,6 +3,10 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 =--
 
 
+~~~
+_Harry_: Compose + oo = ∞.
+~~~
+
 ***
 
 Click on the following links to jump to an anchor point.  Of course, the same syntax works when linking to different pages, just replace "Sandbox" with the name of that page.
@@ -482,4 +486,4 @@ category: meta
 [[!redirects nitwits]]
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
-[[!redirects שנה טובה]]
+[[!redirects ??? ????]]
