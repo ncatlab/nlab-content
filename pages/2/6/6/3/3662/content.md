@@ -2,29 +2,112 @@
 
 The [[path groupoid]] is a groupoid internal to some category of [[generalized smooth spaces]].  Its space of morphisms is defined by taking a quotient of a variant of a [[path space]] by the notion of [[thin homotopy]].  The path space is, generally, the same in all proposed categories of [[generalized smooth space]] but as the path groupoid is formed by taking a quotient, its structure will vary depending on the choice.
 
-### Linear Structure and Non-existence of Manifold Structure ###
+This page was started in response to a question on MathOverflow by Theo Johnson-Freyd.  The question was "[What is the infinite dimensional manifold structure on the space of smooth paths  mod thin homotopy?](http://mathoverflow.net/questions/17803/what-is-the-infinite-dimensional-manifold-structure-on-the-space-of-smooth-paths)".
 
-Spurred by a [question on Mathoverflow](http://mathoverflow.net), we consider the question as to whether or not the path groupoid can have a manifold structure.  With no conditions, the question is meaningless (or so general as to be not worth answering) so we need to impose some conditions on what we expect the manifold structure to be.
+### Linear Structure ###
 
-The condition we impose is that its model space be the obvious one, namely the path groupoid in $\mathbb{R}^n$.  So before considering whether or not a general path groupoid (of a smooth manifold) can have a manifold structure, we examine the linear model.
+To find a linear structure, we consider the path groupoid in a vector space, specifically $\mathbb{R}^n$.  Thus we consider the space of all smooth paths in $\mathbb{R}^n$ and quotient by the equivalence relation of thin homotopy.
 
-We consider the space of smooth paths in $\mathbb{R}^n$, $P\mathbb{R}^n \coloneqq C^\infty(I,\mathbb{R}^n)$ (here and hereafter, $I = [0,1]$ is the closed interval).  We divide this by the relation of [[thin homotopy]].  Namely, two paths between fixed endpoints are equivalent if there is a thin homotopy relating one to the other.  Let us write $P_{TH}\mathbb{R}^n$ for the resulting space.  The relation is linear and so the resulting quotient is a vector space.  We can put on it the quotient structure from $P\mathbb{R}^n$.  Thus a linear function $T \colon P_{TH}\mathbb{R}^n \to E$ in to a [[LCTVS]] is continuous if and only if the composition $P\mathbb{R}^n \to E$ is continuous.  By taking $E$ to be an appropriate [[Banach space]], we can extend this to semi-norms.  As the family of continuous semi-norms on a LCTVS defines the LCTVS-structure, we see that the semi-norms on $P_{TH}\mathbb{R}^n$ are precisely those that descend from $P\mathbb{R}^n$.
+The most important point to realise about the linear structure on this quotient is that it doesn't exist.
 
-So we wish to find the semi-norms $P_{TH}\mathbb{R}^n \to \mathbb{R}$.  To do this, we observe a subtlety.  Let $F \subseteq I$ be a finite set and let $P_F\mathbb{R}^n$ be the space of paths in $\mathbb{R}^n$ which are [[piecewise smooth map|piecewise-smooth]] where the breaks are constrained to lie in $F$.  We do **not** impose any boundary conditions on these paths, so by "piecewise-smooth" we mean continuous on $I$ and smooth on $I\setminus F$.  In particular, the left and right derivatives need not exist at the points of $F$.
-For a fixed $F$, we can choose a smooth surjection $\alpha_F \colon I \to I$ which is stationary as it passes through the points of $F$.  Then for any piecewise-smooth map $\gamma \in P_F\mathbb{R}^n$, $\gamma \circ \alpha_F$ is smooth and the (linear) map $P_F\mathbb{R}^n \to P\mathbb{R}^n$, $\gamma \mapsto \gamma \circ \alpha_F$ is continuous.
+The quotient is not by cosets of a subspace and so the linear structure on $P\mathbb{R}^n$ does not descend to $P^1\mathbb{R}^n$.  For it to descend we would need to know that the sum of two paths which are both thin homotopic to the zero path is again thin homotopic to the zero path.  Here's an example where that fails:
 
-+-- {: .query}
-[[Andrew Stacey]]: on reflection, this step now seems a little dubious to me now.  It doesn't seem so obvious that if $\gamma \colon I \to \mathbb{R}$ is continuous on $I$ and smooth on the interior then it can be reparametrised to a smooth map on the whole of $I$.  I was getting the chain rule wrong in my workings.  What we really want is for $\gamma$ to be reparametrisable to a smooth map which is flat at the end points.  Certainly if $\gamma$ can be reparametrised to one where the left and right derivatives exist at the end points then it can be made flat, but this is not a necessary condition as evidenced by the function $t \mapsto \sqrt{t}$.  But I strongly suspect that something like $t \mapsto t \sin(t^{-1})$ can't be reparametrised as such.
+$$
+\begin{aligned}
+\alpha(t) &= (\cos(2\pi t), 0) \\
+H_\alpha(s,t) &= (s\cos(2\pi t),0) \\
+\beta(t) &= (0,\sin(2\pi t)) \\
+H_\beta(s,t) &= (0,s\sin(2\pi t)) \\
+(\alpha + \beta)(t) &= (\cos(2\pi t), \sin(2\pi t))
+\end{aligned}
+$$
 
-This, then, casts a bit of doubt on the rest of the argument!
-=--
+Note that, for simplicity, we are defining the path groupoid as the quotient of **all** smooth paths by the corresponding thin homotopical relation.  The resulting space is the same as that formed by taking paths with sitting instants, or paths which are flat at the end-points.
 
-We cannot fit these together to define a map $P_{ps}\mathbb{R}^n \to P\mathbb{R}^n$ (here, $P_{ps}\mathbb{R}^n$ is the colimit of $P_F\mathbb{R}^n$ over all finite subsets $F\subseteq I$) but when we divide out by thin homotopy then this does work.  That is, when we divide out by thin homotopy, the maps $P_{F,TH}\mathbb{R}^n \to P_{TH}\mathbb{R}^n$ are independent of the choices of reparametrisations $\alpha_F$ and so fit together to define a linear map $P_{ps,TH}\mathbb{R}^n \to P_{TH}\mathbb{R}^n$.  As this is continuous when restricted to each $P_{F,TH}\mathbb{R}^n$, it is continuous.
+The reason for this failure is seen when we examine how the sum of two paths is formed.  The sum of two arbitrary paths $\alpha$ and $\beta$ is defined as the composition
 
-So if $\mu \colon P_{TH}\mathbb{R}^n \to \mathbb{R}$ is a continuous semi-norm, it defines a continuous semi-norm on $P_{ps,TH}\mathbb{R}^n$ and hence pulls-back to a continuous semi-norm on $P_{ps}\mathbb{R}^n$.
+$$
+I \to I \times I \to \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^n.
+$$
 
-However, one of the main results of &lt;http://arxiv.org/abs/0803.0611> is that as a LCTVS, $P_{ps}\mathbb{R}^n$ is a subspace of the space of **continuous** paths.  Thus a continuous semi-norm $P_{TH}\mathbb{R}^n \to \mathbb{R}$ extends to a continuous semi-norm on the space $P^0\mathbb{R}^n$ of continuous paths.
+Here, and hereafter, $I = [0,1]$.
 
-So we can consider the quotient of $P^O\mathbb{R}^n$ by thin homotopy, $P^0_{TH}\mathbb{R}^n$ and $P_{TH}\mathbb{R}^n$ is then a subspace of this space.  As there are continuous paths which cannot be reparametrised to smooth paths, the inclusion is proper.  It is, though, dense and thus $P_{TH}\mathbb{R}^n$ cannot be complete.
+If $\alpha$ and $\beta$ are thinly homotopic to the zero path, then the obvious way to construct a thin homotopy from the sum to the zero path is to take the sum of the thin homotopies.
 
-Not being complete is an extremely **bad** property for a linear space to have if it wants to be a model space of an (infinite dimensional) manifold.  In particular, it means that integrals and derivatives might not exist even if the corresponding limit is Cauchy.
+$$
+I^2 \to I^2 \times I^2 \to \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}^n.
+$$
+
+One cannot compute the exact rank of this without knowing the maps involved, but one can get bounds.  In particular, the upper bound on the rank is the minimum of the upper bounds of each piece.  The crucial point here is that (unless $n = 1$), the map with the lowest rank is the map $I^2 \times I^2 \to \mathbb{R}^n \times \mathbb{R}^n$.  This is constructed from two thin homotopies, and so has maximum rank $2$!
+
+Of course, this does not **prove** that it does not always work (the counterexample given above does that) since it might be the case that the maps are always such that this upper bound is not achieved.  What this does is explain why the existence of the counterexample is not surprising: it would take a considerable number of coincidences for no counterexample to exist.
+
+Extending this further, we observe that the process of taking the path groupoid is not a product-preserving functor.  This is obvious from considering the case of $\mathbb{R}^2$: in $\mathbb{R}$, every path is thinly homotopic to every other (with the same end-points) and so $P^1\mathbb{R}$ simply has objects $\mathbb{R}$ with a single morphism between each two objects.  However, $\mathbb{R}^2$ is much, much larger than the corresponding product as it has plenty of paths not thinly homotopic to each other (even with the same end-points).
+
+Finally, the lack of a linear structure on $P^1 \mathbb{R}^n$ rules out any interesting manifold structure on $P^1 M$.
+
+### Diffeological Structure ###
+
+The diffeological structure is simple to explain.  A map $\phi \colon U \to P^1M$ is a plot if and only if it locally lifts to $P M$.  That is, if there is a cover $\mathcal{V}$ of $U$ and for each $V \in \mathcal{V}$ a lift of $\phi|_V \colon V \to P^1 M$ to a smooth map $V \to P M$.
+
+The fact that plots have to lift locally does mean that it is not always possible to patch together smooth curves, even with suitable reparametrisation.  That is, if two smooth curves $\alpha, \beta \colon I \to P^1 M$ are such that $\alpha(1) = \beta(0)$ and each is flat at that point, then it may not be possible to concatenate them to a smooth path $\alpha # \beta$.  Here is an example.  Note that a smooth path in $P^1 M$ locally lifts to a smooth path in $P M$, which adjoints to a smooth surface in $M$.  So we define $\alpha$ and $\beta$ as maps $I^2 \to M$ with the first parameter being the parameter along the path in $P^1 M$.
+
+$$
+\begin{aligned}
+\alpha(s,t) &= \big((1 - s) \sin(2 \pi t),1 - \cos(2 \pi t)\big) \\
+\beta(s,t) &= \big(s \sin(2 \pi t), -1 + \cos(2 \pi t)\big)
+\end{aligned}
+$$
+
+<svg width="501" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refX="8" orient="auto" markerHeight="5" markerWidth="5" markerUnits="strokeWidth" refY="5" id="se_arrow_fw" viewBox="0 0 10 10">
+   <path fill="#000000" d="m0,0l10,5l-10,5l5,-5l-5,-5z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke-width="2" stroke="#000000" id="svg_32298_1" y2="148" x2="451" y1="148" x1="51"/>
+  <circle stroke-width="2" stroke="#0000ff" fill="none" id="svg_32298_2" r="50" cy="98" cx="51"/>
+  <ellipse ry="50" rx="25" stroke-width="2" stroke="#0000ff" fill="none" id="svg_32298_3" cy="98" cx="140"/>
+  <ellipse ry="50" rx="9" stroke-width="2" stroke="#0000ff" fill="none" id="svg_32298_4" cy="98" cx="204"/>
+  <line fill="none" stroke-width="2" stroke="#0000ff" id="svg_32298_5" y2="48" x2="251" y1="148" x1="251"/>
+  <g transform="rotate(180, 395, 198)" id="svg_32298_10">
+   <circle id="svg_32298_6" stroke-width="2" stroke="#7f007f" fill="none" r="50" cy="198" cx="339"/>
+   <ellipse id="svg_32298_7" ry="50" rx="25" stroke-width="2" stroke="#7f007f" fill="none" cy="198" cx="428"/>
+   <ellipse id="svg_32298_8" ry="50" rx="9" stroke-width="2" stroke="#7f007f" fill="none" cy="198" cx="492"/>
+   <line id="svg_32298_9" fill="none" stroke-width="2" stroke="#7f007f" y2="148" x2="539" y1="248" x1="539"/>
+  </g>
+  <line marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" id="svg_32298_11" y2="22" x2="206" y1="22" x1="40"/>
+  <line id="svg_32298_12" marker-end="url(#se_arrow_fw)" fill="none" stroke-width="2" stroke="#000000" y2="274" x2="444" y1="274" x1="278"/>
+  <foreignObject height="20" width="48" font-size="16" id="svg_32298_13" y="0" x="93">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>&#945;</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">\alpha</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="20" width="48" font-size="16" id="svg_32298_14" y="280" x="335">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mi>&#946;</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">\beta</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+ </g>
+</svg>
+We then reparametrise these in $s$ so that $\alpha$ and $\beta$ are flat (but without sitting instants) at the appropriate end-points ($s = 1$ for $\alpha$, $s = 0$ for $\beta$).  At the end-points, we have $\alpha(1,t) = (0,\sin(2 \pi t))$ which is thinly homotopic to the zero map. Similarly, $\beta(0,t) = (0,-\sin(2\pi t))$ which is, again, thinly homotopic to the zero map.  So $\alpha(1,t) = \beta(0,t)$ but even with the reparametrisation, there is no way to lift the concatenation, $\alpha # \beta$, to $P^1 M$.
+
+If we include a sitting instant at the concatentation point then it is possible to concatentate these paths.  This is because the quotient sets are themselves path-connected, so there is a smooth path between $\alpha(1,t)$ and $\beta(0,t)$ which lies wholly within the space of paths thinly homotopic to the zero map.  While we "sit" at the concatenation point in $P^1 M$, the lifted map is frantically dashing from $\alpha(1,t)$ to $\beta(0,t)$.
+
+### Fr&#246;licher Structure ###
+
+The Fr&#246;licher structure on $P^1 M$ is determined by the fact that smooth functions $P^1 M \to \mathbb{R}$ are those functions that compose to smooth functions $P M \to \mathbb{R}$.  Then the smooth curves are those that compose to smooth curves under all smooth functions.  This means that concatenations such as the one above are allowed.
+
