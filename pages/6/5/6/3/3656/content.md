@@ -8,6 +8,7 @@ This page is devoted right now to explain the spectrum condition of the [[Haag-K
 
 ## Spectrum of Representations of Groups
 Let $\mathcal{G}$ be a locally compact, abelian topological group, $\hat \mathcal{G}$ the character group of $\mathcal{G}$, $\mathcal{H}$ a  Hilbert space and $\mathcal{U}$ an unitary representation of $\mathcal{G}$ in the algebra of bounded operators of $\mathcal{H}$.
+The following theorem is sometimes called (classical) **SNAG** theorem (SNAG = Stone-Naimark-Ambrose-Godement):
 
 +-- {: .num_theorem #specmeasure}
 * **Theorem**: There is a unique regular spectral measure $\mathcal{P}$ on $\hat \mathcal{G}$ such that:
