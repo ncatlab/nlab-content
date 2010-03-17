@@ -124,13 +124,105 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 
-## Examples
+## Examples {#Examples}
 
-Recall that the join of simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
+Recall that the join of simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of [[Day convolution]] products). 
 
 This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as [[horn]]s are unions of face simplices, it follows easily that 
 
 $$\Lambda^k[m] \star \Delta[n] \cong \Lambda^k[m+n+1]$$
+
+> (Is this right? What about the following:)
+
+### Joins with the point: cones
+
+For $\{v\} = \Delta[0]$ the [[point]], a join with the point is called a **cone** with cone vertex $v$: for $S \in sSet$ we say
+
+* $S^\triangleleft := \{v\} \star S$ is the **cone** over $S$;  
+
+* $S^\triangleright :=  S \star \{v\}$ is the **co-cone** under $S$;  
+
+Universal images of cones and cocones over a fixed base $S$ in a [[quasi-category]] $C$ are [[limit in a quasi-category|limits and colimits in that quasi-category]].
+
+
+For instance the cone over the interval $\Delta[1]$ is the 2-simplex
+
+$$
+  \{v\} \star \Delta[1]
+  =
+  \left(
+    \array{
+      && v
+      \\
+      & \swarrow &\swArrow& \searrow
+      \\
+      0 &&\to&& 1
+    }
+  \right)
+  \simeq
+  \Delta[2]
+  \,.
+$$
+
+More generally, the cone over the $n$-[[simplex]] is the $(n+1)$-simplex
+
+$$
+  \Delta[n]^{\triangleleft} \simeq \Delta[n+1]
+  \,.
+$$
+
+Cones of 2-[[horn]]s are simplicial 2-squares $\simeq \Delta[1] \times \Delta[1]$:
+
+$$
+  \Delta[1] \times \Delta[1]
+  \simeq
+  \{v\} \star \Lambda_2[2]
+  = 
+  \left(
+  \array{
+    v &\to& 1
+    \\
+    \downarrow &{}_{\swArrow}\searrow^{\swArrow}& \downarrow
+    \\
+    0 &\to& 2
+  }
+  \right)
+$$
+
+and
+
+$$
+  \Delta[1] \times \Delta[1]
+  \simeq
+  \Lambda_0[2] \star \{v\}
+  = 
+  \left(
+  \array{
+    0&\to& 1
+    \\
+    \downarrow &{}_{\swArrow}\searrow^{\swArrow}& \downarrow
+    \\
+    2 &\to& v
+  }
+  \right)
+  \,.
+$$
+
+### Simplicial $n$-sphere
+
+Let $\partial \Delta[1] = \Delta[0] \coprod \Delta[0]$ the **simplicial 0-sphere**: just the disjoint union of the point. Then the $n$-fold join of $\partial \Delta[1]$ with itself is a simplicial model for the $n$-sphere
+
+$$
+  \mathbf{S}^0 := \partial \Delta[0]
+$$
+
+$$
+  \mathbf{S}^n := \mathbf{S}^0 \star \mathbf{S}^{n-1}
+$$
+
+for $n \in \mathbb{N}$, $n \gt 0$. The [[geometric realization]] of $\mathbf{S}^n$ is equivalent to the topological $n$-sphere.
+
+See [Ehlers/Porter p. 8](http://arxiv.org/PS_cache/math/pdf/9904/9904039v1.pdf#page=8).
 
 
 ## References
@@ -153,12 +245,3 @@ A useful discussion emphasizing the Day convolution operation is also in section
 
 * [[Dominic Verity]], _Weak complicial sets I_ ([arXiv](http://arxiv.org/abs/math/0604414))
 
-+--{: .query}
-[[Tim Porter]]:  I find the initial definition given here VERY confusing. By saying the objects of $\Delta_a$ can be identified with finite sets of cardinality $0$, $1$, $2$ ... . Of course that is true, but by saying it, the ordinal property of the objects is lost.  No explicit mention of that property is made.  Perhaps I am missing something ??? The nature of the monoidal operation as being derived from 'ordinal sum' seems to be obscured here.  I have not tried to edit it as I fear that I might disturb some insight that is important from that other point of view.
-
-[[Urs Schreiber|Urs]]: If I remember correctly I wrote this. No, there is no deeper insight hidden here, i think you are right and I should have mentioned the ordinal sum aspect. Do I understand you well that by saying "ordinal sum" we want to indicate how the tensor product acts on morphisms, is that the point you are making?
-
-Please go ahead and edit this entry to a form that you find satisfactory. You are clearly the expert here.
-
-[[Tim Porter|Tim]]:  Will do ... tomorrow. I am constrained by havng broken my glasses / spactacles which means typing is a pain (literally).
-=--
