@@ -81,6 +81,8 @@ Please [[How to get started|help]] with improving this page:
 
 * [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
 
+* [Learning Curves](http://learningcurves.blogspot.com) (mathematics education from the perspective of a retiring college professor; may contain vulgar language and expressions of anger)
+
 * [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math)
 
 * [London Number Theory Blog](http://londonnumbertheory.wordpress.com) (arithmetics and arithmetic geometry)
@@ -239,7 +241,6 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 ## Math-related
 
 ### Blogs
-
 
 * [Mathematics in Australia](http://austmaths.wordpress.com)
 
