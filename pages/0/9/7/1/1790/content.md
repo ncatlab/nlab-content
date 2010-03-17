@@ -73,6 +73,7 @@ I am particularly interested in this for the following reason.  According to Bek
 
 [[Urs Schreiber]]: below is a reply to the first question.
 
+[[Mike Shulman]]: Thanks for attacking this.  I thought I should also mention, for anyone listening in, that this question is evidently also relevant to what the correct notion of [[internal ∞-groupoid]] may be.
 =--
 
 > check
@@ -96,7 +97,15 @@ As discussed there, sufficient conditions for this to be a model structure is th
 
 Since [[sheafification]] does preserve [[filtered colimit]]s the first condition is satisfied degreewise and hence is satisfied.
 
++--{: .query}
+[[Mike Shulman]]: I believe that sheafification preserves $\kappa$-filtered colimits for some sufficiently large $\kappa$, but if the site has covers of infinite cardinality, I don't see why sheafification would preserve $\omega$-filtered colimits.  But I think this is enough for the proof to work.
+=--
+
 Since the [[small object argument]] holds in $sSh(C)$ for generating acyclic cofibrations we have functorial fibrant replacement. And a path object is obtained just by forming objectwise the standard path object in [[sSet]], as in $[C^{op}, sSet]$.
+
++--{: .query}
+[[Mike Shulman]]: The small object argument doesn't automatically produce functorial fibrant replacements in this context... isn't the whole question whether the map to the "fibrant replacement" is still a weak equivalence (in the underlying category)?  I.e. whether $F(J)$-cell complexes are still weak equivalences.
+=--
 
 
 ## References
