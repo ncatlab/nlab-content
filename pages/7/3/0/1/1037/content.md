@@ -258,7 +258,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * the [[(∞,1)-category of (∞,1)-categories]]
 
-* [[Grothendieck construction]]
+* [[(∞,1)-Grothendieck construction]]
 
   * [[cartesian fibration]]
 
@@ -274,7 +274,6 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ##4 Limits and Colimits {#Limits}
 
-* [[homotopy limit]]
 
 * [[limit in quasi-categories]]
 
@@ -286,6 +285,22 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[Karoubi envelope]]
 
+### 4.1 Cofinality
+
+* [[cofinal (∞,1)-functor]]
+
+### 4.2 Techniques for computing colimits
+
+* [[homotopy limit]]
+
+
+### 4.3 Kan extensions
+
+...
+
+### 4.4 Examples of colimits
+
+...
 
 ##5 Presentable and Accessible $\infty$-Categories##
 
