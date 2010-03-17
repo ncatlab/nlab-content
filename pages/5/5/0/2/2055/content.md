@@ -39,7 +39,7 @@ Please [[How to get started|help]] with improving this page:
 
 * [A Mind for Madness](http://hilbertthm90.wordpress.com) "Musings on art, philosophy, mathematics, and physics" (topics like [[differential geometry]], [[homological algebra]], but also belletristics) 
 
-* [A Portion of the Book](http://mzargar.wordpress.com)
+* [A Portion of the Book](http://mzargar.wordpress.com) (blog of a math undergrad)
 
 * [AMS Graduate Student Blog](http://mathgradblog.williams.edu) (career advices, education and entertainment "for and by" math grad students)
 
@@ -65,12 +65,6 @@ Please [[How to get started|help]] with improving this page:
 
 * [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski) (analysis, esp. summation formulas, probability distributions, stochastic processes...)
 
-* [Evolution Blog](http://www.scienceblogs.com/evolutionblog) 
-
-(evolution against creationism!!  
-
-Zoran: this is a biology vs. politics/religion blog and does not fit into nlab widest possible scope. I consider this link a spam. )
-
 * [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
 * [F_un mathematics](http://matrix.cmi.ua.ac.be/fun) ("field with one element")
@@ -89,9 +83,7 @@ Zoran: this is a biology vs. politics/religion blog and does not fit into nlab w
 
 * [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math)
 
-* [Learning Curves](http://learningcurves.blogspot.com) (internal fights of a college professor with TAs and his job; Zoran: I would exclude links of this crudity, it has even swearing words in some passages and frequent expression of anger)
-
-* [London Number Theory Blog](http://londonnumbertheory.wordpress.com/)
+* [London Number Theory Blog](http://londonnumbertheory.wordpress.com) (arithmetics and arithmetic geometry)
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com)
 
@@ -100,49 +92,47 @@ Zoran: this is a biology vs. politics/religion blog and does not fit into nlab w
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 (Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
 
-* [Mathematics and Computation](http://math.andrej.com/) (Andrej Bauer)
+* [Mathematics and Computation](http://math.andrej.com) (Andrej Bauer, includes also topology and foundations)
 
-* [Mathematics and Physics](http://borcherds.wordpress.com/) (Richard Borcherds)
+* [Mathematics and Physics](http://borcherds.wordpress.com) (Richard Borcherds)
 
-* [Mathematics Under the Microscope](http://micromath.wordpress.com)
+* [Mathematics Under the Microscope](http://micromath.wordpress.com) (Alexandre Borovik)
 
 * [mathlight](http://mathlight.wordpress.com) (just started, by an $n$lab regular)
 
-* [Mathlog](http://www.scienceblogs.de/mathlog)
+* [Mathlog](http://www.scienceblogs.de/mathlog) (in German, variety of topics from Open Access journals to Klein groups and geometry)
 
-* [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss)
+* [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss: vizualizing math and math art, building math sculptures)
 
 * [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom)
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com) (PhD student in quantum information)
 
-* [neverendingbooks](http://www.neverendingbooks.org)
+* [neverendingbooks](http://www.neverendingbooks.org) (Lieven le Bruyn)
 
 * [Nikita Markarian's mathblog](http://nikitamarkarian.wordpress.com) (derived algebraic geometry, dg-, $L_\infty, A_\infty, G_\infty$-algebras, operads, TQFT, BV formalism, Hochschild and cyclic (co)homology...)
 
-* [Noncommutative Geometry](http://noncommutativegeometry.blogspot.com)
+* [Noncommutative Geometry](http://noncommutativegeometry.blogspot.com) (Connes, Khalkhali...)
 
-* [Nuit Blanche](http://nuit-blanche.blogspot.com)
+* [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
 
-* [Reasonable Deviations](http://stochastix.wordpress.com)
+* [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles)
 
-* [Rigorous Trivialities](http://rigtriv.wordpress.com)
+* [Rigorous Trivialities](http://rigtriv.wordpress.com) (mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning))
 
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
 
-* [Sketches of Topology](http://sketchesoftopology.wordpress.com)
-
-* [Soul Conjecture](http://soul-conjecture.blogspot.com)
+* [Sketches of Topology](http://sketchesoftopology.wordpress.com) (colorful pictures, "visualizations of low dimensional topology")
 
 * [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
 
 * [Teaching College Math] (http://teachingcollegemath.com) A blog about math, technology, and teaching.
 
-* [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba)
+* [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba: personal blog of a math professor, various topics, rarely even math)
 
-* [The Endeavour](http://www.johndcook.com/blog) 
+* [The Endeavour](http://www.johndcook.com/blog) (programming, general science, probability and statistics)
 
-* [The Everything Seminar](http://cornellmath.wordpress.com)
+* [The Everything Seminar](http://cornellmath.wordpress.com) ("Geometry, topology, categories, groups, physics"; recently lots about experimental particle physics: LHC and CMS)
 
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category)
 
@@ -154,9 +144,7 @@ Zoran: this is a biology vs. politics/religion blog and does not fit into nlab w
 
 * [The Rising Sea](http://therisingsea.org/) (Daniel Murfet on algebraic geometry, triangulated categories, sheaves...; lots of neat LaTeX notes)
 
-* [The Samovar](http://thesamovar.wordpress.com)
-
-* [The Twofold Gaze](http://twofoldgaze.wordpress.com)
+* [The Twofold Gaze](http://twofoldgaze.wordpress.com) (a grad student at NYU: genetic algorithms, inequalities, competitions)
 
 * [The unapologetic mathematician](http://unapologetic.wordpress.com) (John Armstrong)
  
@@ -180,7 +168,7 @@ Zoran: this is a biology vs. politics/religion blog and does not fit into nlab w
 
   * Another blog about mathematics for a general audience, written by Rudi Penne and Paul Levrie (also in Dutch)
 
-* [XOR's hammer](http://xorshammer.wordpress.com)
+* [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations)
 
 
 
