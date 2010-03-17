@@ -114,6 +114,8 @@ Please [[How to get started|help]] with improving this page:
 
 * [neverendingbooks](http://www.neverendingbooks.org)
 
+* [Nikita Markarian's mathblog](http://nikitamarkarian.wordpress.com) (derived algebraic geometry, dg-, $L_\infty, A_\infty, G_\infty$-algebras, operads, TQFT, BV formalism, Hochschild and cyclic (co)homology...)
+
 * [Noncommutative Geometry](http://noncommutativegeometry.blogspot.com)
 
 * [Nuit Blanche](http://nuit-blanche.blogspot.com)
