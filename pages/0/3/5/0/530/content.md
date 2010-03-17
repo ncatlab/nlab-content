@@ -1,4 +1,9 @@
-#Essentially surjective, faithful, and full functors#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Essentially surjective, faithful, and full functors
 
 The standard stuff: 
 
@@ -7,9 +12,9 @@ The standard stuff:
 * [[stuff, structure, property]]
 
 
-#Generalization to $\infty$-categories#
+## Generalization to $\infty$-categories
 
-## $k$-surjectivity##
+### $k$-Surjectivity
 
 An $\omega$-functor $f : C \to D$ between $\infty$-[[infinity-category|categories]] is 
 0-surjective if $f_0 : C_0 \to D_0$ is an epimorphism.
@@ -65,7 +70,7 @@ For $C$ and $D$ [[categories]] we have
 =--
 
 
-## In terms of lifting diagrams ##
+### In terms of lifting diagrams 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -112,7 +117,7 @@ $$
 for all $k$, where now $\Delta[k]$ is the $k$-[[simplex]].
 
 
-## Weak equivalences, acyclic fibrations and hypercovers##
+### Weak equivalences, acyclic fibrations and hypercovers##
 
 With respect to the [[folk model structure]]  on $\omega$-categories an $\omega$-functor is 
 
@@ -122,12 +127,37 @@ With respect to the [[folk model structure]]  on $\omega$-categories an $\omega$
 See also [[equivalence of categories]].
 
 
-##Remarks##
+###Remarks
 
-All this has close analogs in other models of higher structures, in particular in the context of simplicial sets. Simplicial maps which are $k$-surjective for all $k$ are called [[hypercover]]s.
+All this has close analogs in other models of higher structures, in particular in the context of simplicial sets: an acyclic fibration in the standard [[model structure on simplicial sets]] is a morphism $X \to Y$ for which all diagrams
+
+$$
+  \array{
+    \partial \Delta[n] &\to& X
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] &\to& Y
+  }
+$$
+
+have a lift
+
+$$
+  \array{
+    \partial \Delta[n] &\to& X
+    \\
+    \downarrow &\nearrow& \downarrow
+    \\
+    \Delta[n] &\to& Y
+  }
+  \,.
+$$
+
+This is precisely in simplicial language the condition formulated above in globular language.
 
 
-#Literature#
+## Literature
 
 The general idea of $k$-surjectivity is described around [definition 4](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of
 
