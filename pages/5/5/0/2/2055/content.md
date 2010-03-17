@@ -41,51 +41,55 @@ Please [[How to get started|help]] with improving this page:
 
 * [A Portion of the Book](http://mzargar.wordpress.com)
 
-* [AMS Graduate Student Blog](http://mathgradblog.williams.edu)
+* [AMS Graduate Student Blog](http://mathgradblog.williams.edu) (career advices, education and entertainment "for and by" math grad students)
 
-* [Annoying Precision](http://qchu.wordpress.com)
+* [Annoying Precision](http://qchu.wordpress.com) (algebra, representation theory, combinatorics, abstract nonsense, arithmetics)
 
 * [Ars Mathematica](http://arsmathematica.net) (analysis, probability...)
 
 * [Combinatorics and more: Gil Kalai's blog](http://gilkalai.wordpress.com) 
 
-* [Climbing Mount Bourbaki](http://amathew.wordpress.com) (Akhil Mathew)
+* [Climbing Mount Bourbaki](http://amathew.wordpress.com) (Akhil Mathew: Lie algebras, differential and algebraic geometry...)
 
-* [Concrete Nonsense](http://concretenonsense.wordpress.com)
+* [Concrete Nonsense](http://concretenonsense.wordpress.com) (combinatorics, [[Lie algebras]], [[representation theory]], [[algebraic geometry]])
 
-* [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on algebra, representation theory, and Olympiad-style problem-solving
+* [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on [[algebra]], representation theory, and Olympiad-style problem-solving
 
-* [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com) 
+* [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com) (dynamical systems, ergodic theory, radnomness in number sequences, Ricci flow)
 
-* [Division by Zero](http://divisbyzero.com) (Dave Richeson)
+* [Division by Zero](http://divisbyzero.com) (Dave Richeson: "A blog about math, puzzles, teaching, and academic technology")
 
-* [Emb&#251;ches tissues](http://embuchestissues.wordpress.com)
+* [Emb&#251;ches tissues](http://embuchestissues.wordpress.com) (computational algebraic geometry, commutative algebra)
 
 * [Drexel mathematics](http://www.library.drexel.edu/blogs/drexelmath) (from Drexel Univ. Libraries: mainly books)
 
 * [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski) (analysis, esp. summation formulas, probability distributions, stochastic processes...)
 
-* [Evolution Blog](http://www.scienceblogs.com/evolutionblog)
+* [Evolution Blog](http://www.scienceblogs.com/evolutionblog) 
+
+(evolution against creationism!!  
+
+Zoran: this is a biology vs. politics/religion blog and does not fit into nlab widest possible scope. I consider this link a spam. )
 
 * [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
-* [F_un mathematics](http://matrix.cmi.ua.ac.be/fun)
+* [F_un mathematics](http://matrix.cmi.ua.ac.be/fun) ("field with one element")
 
-* [Geometric Group Theory](http://392c.wordpress.com)
+* [Geometric Group Theory](http://392c.wordpress.com) (structured text with theorems, proofs and exercises in GGT)
 
-* [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari)
+* [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari: hyperbolic geometry, geometric group theory...)
 
 * [God plays dice](http://godplaysdice.blogspot.com) (probability, combinatorics, puzzles, financial math)
 
-* [Good Math, Bad Math](http://scienceblogs.com/goodmath)
+* [Good Math, Bad Math](http://scienceblogs.com/goodmath) (dedicated to chasing math crackpots)
 
-* [Gyre and Gimble](http://sixwingedseraph.wordpress.com/) (Charles Wells)
+* [Gyre and Gimble](http://sixwingedseraph.wordpress.com/) (Charles Wells: foundations, categories, computer science)
 
-* [Hydrobates](http://alanrendall.wordpress.com)
+* [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
 
-* [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com)
+* [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math)
 
-* [Learning Curves](http://learningcurves.blogspot.com)
+* [Learning Curves](http://learningcurves.blogspot.com) (internal fights of a college professor with TAs and his job; Zoran: I would exclude links of this crudity, it has even swearing words in some passages and frequent expression of anger)
 
 * [London Number Theory Blog](http://londonnumbertheory.wordpress.com/)
 
@@ -110,7 +114,7 @@ Please [[How to get started|help]] with improving this page:
 
 * [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom)
 
-* [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com)
+* [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com) (PhD student in quantum information)
 
 * [neverendingbooks](http://www.neverendingbooks.org)
 
