@@ -1,6 +1,17 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 [[topological space|Topological spaces]] are very useful, but also admit many pathologies.  (Although it should be admitted that often, one person's pathology is another's primary example.)  Over the years, topologists have accumulated many different conditions to impose on topological spaces to exclude various spaces considered "pathological;" here we list some of the most important of these conditions.
 
-Sometimes one also imposes these conditions to ensure better behavior of the resulting _category_ of spaces; see [[nice category of spaces]] for more details, and also [[dichotomy between nice objects and nice categories]].  In many cases, a category of nice spaces will be [[reflective subcategory|reflective]] or coreflective.
+Sometimes one also imposes these conditions to ensure better behavior of the resulting _[[category]]_ of spaces; see [[nice category of spaces]] for more details, and also [[dichotomy between nice objects and nice categories]].  In many cases, a category of nice spaces will be [[reflective subcategory|reflective]] or coreflective.
+
+
+## List of special nice types of topological spaces
+
 
 * There is a whole slew of _separation conditions_, of which the most common is the [[Hausdorff space|Hausdorff]] condition (any two points can be separated by disjoint opens).  Hausdorff is also called $T_2$ and fits in a hierarchy ranging from $T_1$ through $T_4$ originally and now (at least) $T_0$ to $T_6$ (with some fractional subscripts too).
 
@@ -34,12 +45,12 @@ Basically, an o-minimal structure $T$ is a collection $T_n \subseteq P(\mathbb{R
 There are other approaches to tame topology (such as via Shiota's $\mathcal{X}$-sets), but I am less familiar with them.
 =--
 
-# References #
+## References 
 
 * Steen and Seebach, _Counterexamples in topology_.
 
 
-#Discussion#
+## Discussion
 
 The following discussion has been acted upon by separating this page from [[nice category of spaces]].
 
