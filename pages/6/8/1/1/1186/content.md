@@ -107,3 +107,8 @@ The characterization in terms of
 [[!redirects presentable (infinity,1)-categories]]
 [[!redirects presentable (∞,1)-category]]
 [[!redirects presentable (∞,1)-categories]]
+
+[[!redirects locally presentable (infinity,1)-category]]
+[[!redirects locally presentable (infinity,1)-categories]]
+[[!redirects locally presentable (∞,1)-category]]
+[[!redirects locally presentable (∞,1)-categories]]
