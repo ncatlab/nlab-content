@@ -54,6 +54,6 @@ physics, part of quantum mechanics; it requires special limiting assumptions (th
 
 ## related entries
 
-* [[Hamilton operator]]
+* [[Hamilton operator]], [[semiclassical approximation]]
 
 [[!redirects quantum physics]]
