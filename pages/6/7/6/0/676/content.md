@@ -31,6 +31,8 @@
 
   * [[path integral|path integral quantization]]
 
+  * [[semiclassical approximation]]
+
 * **[[quantum mechanics|Quantum Mechanics]]**
 
   * [[Hamiltonian operator]]
