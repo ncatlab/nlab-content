@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Overview
 
 Semiclassical or quasiclassical approximation to [[quantum mechanics]] (including infinitely many degrees of freedom, e.g. QFT) in most general sense is the series expansion of the transition amplitudes in Planck constant. However more specifically one considers the Feynman path integral $\int D\phi F(\phi) e^{iS(\phi)/h}$ and develops it by a stationary phase method about the critical points of the action functional $S$ (the critical points of $S$ correspond to the solutions of the [[Euler-Lagrange equation]]s, hence to the classical trajectories of the system). Namely $S$ is assumed to be large and change fast in comparison to the Planck constant, so the increments of $i\pi$ in the phase of the exponent appear very often leading to mutual cancellation, except in the regions close to the critical points. 
