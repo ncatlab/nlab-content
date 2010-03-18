@@ -169,6 +169,32 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 
 ## Properties 
 
+### As a right Kan extension
+
++-- {: .un_prop}
+###### Proposition
+
+For every $c \in C$ the canonical morphism
+
+$$
+  Hom_C(\lim_{\to} F , c)
+  \stackrel{\simeq}{\to}
+  Hom_{Func(K,C)}(F, const_c)
+$$
+
+is a [[homotopy equivalence]] of $\infty$-groupoids.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, lemma 4.2.4.3]].
+
+=--
+
+
 ### Limits and colimits with values in $\infty Grpd$ 
 
 Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
