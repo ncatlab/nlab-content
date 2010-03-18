@@ -19,6 +19,8 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
 * [[deformation quantization]]
 
+* [[semiclassical approximation]]
+
 * [[BV theory]]
 
 * [[path integral]]
