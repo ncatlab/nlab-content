@@ -247,7 +247,7 @@ $$
 Now, via the general process of [[Day convolution]], this monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
 
 $$
-  \otimes_{join} : ASSet \times ASSet \to ASSet
+  \otimes_{join} : asSet \times ASSet \to asSet
 $$
 $$
   (S \otimes_{join} S')_n
@@ -263,19 +263,61 @@ Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|coco
 
 This join tensor product forms part of a [[closed monoidal category|closed monoidal structure]] on the category of
 augmented simplicial sets, [[ASSet]] $ := Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
-$$[X, Y ]_n =ASS(X; Dec^{n+1}Y )\,,$$
+$$[X, Y ]_n =asS(X; Dec^{n+1}Y )\,,$$
 where $Dec$ is the [[decalage]] functor.
 
 
 ### Join of non-augmented simplicial sets
 
-The **join** of two ordinary (not augmented) [[simplicial set]]s $S$ and $S'$ is the join of their _trivial augmentation_ ($S_{-1} = S'_{-1} = pt$). This yields
+The **join** of two ordinary (not augmented) [[simplicial set]]s $S$ and $S'$ is the join of their _trivial augmentation_ ($S_{-1} = S'_{-1} = pt$). 
+
+
+### Concrete formulas
+
+The join of two non-augmented simplicial sets is given by
+
 
 $$
   (S \otimes_{join} S')_n =: (S \star S')_n := S_n \cup S'_n \cup 
    (\cup_{i+j = n-1} S_i \times S'_j)
   \,.
 $$
+
+The $i$-th boundary map 
+
+$$
+  d_i : (S \star T)_n \to (S \star T)_{n-1}
+$$ 
+
+is defined on $S_n$ and $T_n$ using the $i$th boundary map on $S$ and $T$. 
+
+Given $\sigma \in S_j$ and $\tau \in T_k$ , we have:
+
+$$
+  d_i (\sigma, \tau) = 
+  \left\{
+    \array{
+      (d_i \sigma, \tau) & if i \leq j , j \neq 0
+      \\
+      (\sigma, d_{i-j-1}) & if i \gt j, k \neq 0
+    }
+  \right.
+$$
+
+If $j = 0$ then 
+
+$$
+  d_0(\sigma, \tau) = \tau \in T_{n-1} \subset (S \star T)_{n-1}
+  \,.
+$$
+
+If $k = 0$ then
+
+$$
+  d_n(\sigma, \tau) = \sigma \in S_{n-1} \subset (S \star T)_{n-1} 
+  \,.
+$$
+
 
 ### Join of quasi-categories
 
@@ -294,7 +336,6 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 Recall that the join of simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of [[Day convolution]] products). 
 
 This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as [[horn]]s are unions of face simplices, this allows to compute joins of horns with simplices.
-
 
 ### Joins with the point: cones
 
@@ -367,6 +408,44 @@ $$
     2 &\to& v
   }
   \right)
+  \,.
+$$
+
+
+
+
+### Joins of simplices
+
+Effectively by the definition from ordinal sum, we have that the join of two [[simplex|simplices]] is another simplex:
+
+$$
+  \Delta[k] \star \Delta[l] = \Delta[k + l + 1]
+  \,.
+$$
+
+In particular the cone over the $n$-simplex is the $(n+1)$-simplex
+
+$$
+  \Delta[0] \star \Delta[n] = \Delta[n+1]
+$$
+
+and hence
+
+$$
+  \Delta[n] = \Delta[0] \star \cdots \star \Delta[0]
+  \,.
+$$
+
+Notice that while thus $\Delta[n+1] \simeq  \Delta[0]\star\Delta[n] \simeq \Delta[n] \star \Delta[0]$ the identifications of the cone point of course differ in both cases. The asymmetry is seen for instance by restricting attenion to the cone over the boundary of the $n$-simplex, where we have
+
+$$
+  \partial \Delta[n] \star \Delta[0] = \Lambda_{n+1}[n+1]
+$$
+
+and
+
+$$
+  \Delta[0] \star \partial \Delta[n] = \Lambda_0[n+1]
   \,.
 $$
 
