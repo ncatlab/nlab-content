@@ -19,6 +19,33 @@ As a special case they reduce to [[homotopy limit]]s and [[homotopy colimit]]s, 
 
 The following describes homotopy Kan extensions in the context of [[combinatorial simplicial model categories]], i.e. $sSet_{Quillen}$-[[enriched model categories]] whose underlying ordinary model category is [[combinatorial model category|combinatorial]]. The discussion goes through verbatim also with $sSet_{Quillen}$ replaced by any [[excellent model category]].
 
+### Recollection of ordinary global Kan extensions
+
+Recall the global definition of ordinary [[Kan extension]]s: for $A$ a [[category]] and $p : C \to C'$ a [[functor]] between  [[small categories]], we have the [[functor categories]] $[C,A]$ and $[C',A]$ and precomposition with $p$ induces a functor
+
+$$
+  p^* : [C',A] \to [C,A]
+  \,.
+$$
+
+If $A$ has all limits and colimits, then this functor has a [[left adjoint]] $Lan_p$ and a [[right adjoint]] $Ran_p$
+
+$$
+  (Lan_p \dashv p^* \dashv Ran_p)
+  :=
+  (p_! \dashv p^* \dashv p_*)
+  :
+  [C,A]
+  \stackrel{\overset{Lan_p}{\to}}{\stackrel{\overset{p^*}{\leftarrow}}{\underset{Ran_p}{\to}}}
+  [C',A]
+  \,.
+$$
+
+These are the left and right [[Kan extension]] functors.
+
+The following definition is the straightforward evident generalization of this from plain categories to [[simplicial model categories]].
+
+
 ### Definition
 
 Let $A$ be a [[combinatorial simplicial model category]]. 
