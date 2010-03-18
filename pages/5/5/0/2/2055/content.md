@@ -18,6 +18,8 @@ Please [[How to get started|help]] with improving this page:
 
 * add information to links on what kind of activity tends to go on at the sites being linked to.
 
+Note: To maintain the quality and relevance of this list, any new links not containing a brief description may be removed.
+
 =--
 
 
@@ -29,6 +31,15 @@ Please [[How to get started|help]] with improving this page:
 
 
 ## Mathematics
+
+
+### Forums
+
+
+* [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
+
+* [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/) For discussions about material (both maths and metas) here on the nLab.
+
 
 ### Blogs
 
@@ -192,18 +203,6 @@ Please [[How to get started|help]] with improving this page:
 * [The Tricki](http://www.tricki.org)
 
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
-
-
-
-
-
-### Forums
-
-
-[Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
-
-
-
 
 
 ## Probability and Statistics 
