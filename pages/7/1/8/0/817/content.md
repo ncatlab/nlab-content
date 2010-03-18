@@ -120,3 +120,5 @@ See [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#
 of the standard
 
 * Kelly, _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+[[!redirects enriched functor categories]]
