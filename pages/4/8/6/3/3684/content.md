@@ -1,3 +1,9 @@
+## Overview
+
+Consider a [[symplectic manifold]] representing say a phase space of a physical theory of dimension $2n$. Recall that a Lagrangean submanifold is a smooth submanifold of dimension $n$ whose tangent spaces at all points are Lagrangean, i.e. maximal isotropic subspaces with respect to the symplectic form. Lagrangean submanifold describes the phase of short-wave oscillations. Maslov index is an invariant of a smooth path in a Lagrangean submanifold. The existence of such an invariant is related to the universal Maslov index which is a generator of the first cohomology of the [[Lagrangian Grassmanian|Langrangean Grassmanian]] (the space of $n$-dimensional Lagrangean subspaces in $\mathbb{R}^{2n}$, cf. wikipedia: [Lagrangian Grassmannian](http://en.wikipedia.org/wiki/Lagrangian_Grassmannian)). Maslov index can be reinterpreted as a [[characteristic class]] of theories of Lagrangean and Legendrean cobordisms. 
+
+## References and links
+
 * S. Bates, A. Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
 * G. Lion, M. Vergne, _The Weil representation, Maslov index and theta series_, Progress in Math. __6__, Birkh&#228;user 1980 (Rus. transl. Mir 1983).
@@ -16,6 +22,11 @@
 
 * Joel Robbin, Dietmar Salamon, _The Maslov index for paths_, Topology __32__ (1993), no. 4, 827--844, (<a href="http://dx.doi.org/10.1016/0040-9383(93)90052-W">doi</a>); _The spectral flow and the Maslov index_, Bull. London Math. Soc. __27__ (1995), no. 1, 1--33 ([doi](http://dx.doi.org/10.1112/blms/27.1.1)) 
 
+* A. B. Givental', _Global properties of the Maslov index and Morse theory_, Funct. Anal. Its. Appl. __22__, 2, 1988, [doi](10.1007/BF01077609) (Rus. orig: &#1092;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103; __22__, 1988, &#1074;&#1099;&#1087;. 2, 69&#8212;70: [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1113&volume=22&year=1988&issue=2&fpage=69&what=fullt&option_lang=eng))
+
+* A. B. Givental&#697;, _The nonlinear Maslov index_, in "Geometry of low-dimensional manifolds" vol. 2 (Durham, 1989), 35--43,
+London Math. Soc. Lec. Note Ser. __151__, Cambridge Univ. Press 1990. 
+
 * Maurice de Gosson, _Maslov classes, metaplectic representation and Lagrangian quantization_, Math. Research __95__, Akademie-Verlag, Berlin, 1997. 186 pp.
 
 * Leo T. Butler, _The Maslov cocycle, smooth structures and real-analytic complete integrability_, [arxiv/0708.3157](http://uk.arxiv.org/abs/0708.3157v2)
@@ -26,4 +37,4 @@
 
 * K. Furutani, _Fredholm&#8211;Lagrangian&#8211;Grassmannian and the Maslov index_, J. Geom. Phys. __51__, 3, July 2004, 269--331, [doi](http://dx.doi.org/10.1016/j.geomphys.2004.04.001)
 
-* Many links are at Ranicki's [Maslov index seminar](http://www.maths.ed.ac.uk/~aar/maslov.htm) page; cf. wikipedia article [Lagrangian Grassmannian](http://en.wikipedia.org/wiki/Lagrangian_Grassmannian)
+* Many links are at Ranicki's [Maslov index seminar](http://www.maths.ed.ac.uk/~aar/maslov.htm) page. 
