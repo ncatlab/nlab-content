@@ -4,6 +4,8 @@
 
 ## Idea
 
+The notion of **over quasi-category** is the generalization of the notion of [[overcategory]] from [[category theory]] to [[(∞,1)-category theory]] with [[(∞,1)-categories]] taken in their incarnation as [[quasi-categories]].
+
 For $C$ an ordinary [[category]] and $c \in C$ an [[object]] of $C$, the ordinary [[over category]] $C\downarrow c$ satisfies the universal property that for any other category $C'$ there is a natural [[equivalence of categories]]
 
 $$
@@ -11,6 +13,7 @@ $$
   Hom_{c}(C' \star \{\top\}, C)
   \,,
 $$
+
 where
 
 * $C' \star \{\top\}$ denotes the category $C'$ with a freely adjoined [[terminal object]] $\top$;
@@ -21,58 +24,213 @@ The idea of the definition of [[over category]] in the context of [[quasi-catego
 
 ## Definition
 
-Let $C$ be a [[quasi-category]]. let $K$ be any [[simplicial set]] and let $F : K \to C$ be a morphism of simplicial sets (hence a morphism of quasi-categories if $K$ itself is a quasi-category).
+Recall from [[join of quasi-categories]] that there are two different but quasi-catgorically equivalent definitions of _join_, denoted $\star$ and $\diamondsuit$. Accordingly we have the following two different but quasi-categoricaly equivalent definitions of over/under quasi-categories.
 
-The **over-quasi-category** $C_{/F}$ is the simplicial set characterized by the property that for any other simplicial set $S$ there is a natural bijection of hom-sets
 
-$$
-  Hom_{SSet}(S, C_{/F})
-  \simeq
-  Hom_{F}(
-    S \star K, C
-  )
-  \,,
-$$
-where
++-- {: .un_prop}
+###### Proposition
 
-* $S \star K$ is the [[join of simplicial sets]] of $S$ with $K$;
-
-* the [[hom-set]] on the right is the subset of morphism $f : S \star K \to C$ such that $f|_K = F$.
-
-Concretely, the underlying simplicial set of $C_{/F}$is given by 
+Let $C$ be a [[quasi-category]]. let $K$ be any [[simplicial set]] and let 
 
 $$
-  (C_{/F})_n = Hom_F(\Delta^n \star K, C)
-  \,,
-$$
+  F : K \to C
+$$ 
 
-where $Hom_F(-)$ denotes the subset of morphisms of simplicial sets that restricts to $F$ on $K$.
+be an [[(∞,1)-functor]] -- a morphism of simplicial sets. 
 
-**alternative definition** Alternatively the over/under category may be defined with respect to the other (equivalent) definition of [[join of quasi-categories]] $\diamondsuit$. The result is denoted $C^{/F}$.
 
-**Proposition**
+1. The **under-quasi-category** $C_{F/}$ is the 
+   simplicial set characterized by the property 
+   that for any other simplicial set $S$ there is 
+   a natural bijection of hom-sets
 
-There is an equivalence of quasi-categories
+   $$
+    Hom_{SSet}(S, C_{F/})
+     \simeq
+     (Hom_{sSet})_{F}(
+       K \star S , C
+     )
+     \,,
+   $$
+
+   where
+
+   * $K \star S $ is the [[join of simplicial sets]] of $S$ with $K$;
+
+   * the [[hom-set]] on the right is the subset of 
+     morphism of simplicial sets $f : K \star S  \to C$ 
+     such that $f|_K = F$.
+
+   Concretely, the underlying simplicial set of $C_{F/}$ is given by 
+
+   $$
+     (C_{F/})_n = Hom_F(K \star \Delta^n , C)
+     \,,
+   $$
+
+   where $Hom_F(-)$ denotes the subset of morphisms of simplicial sets that restricts to $F$ on $K$.
+
+   Similarly, the **over quasi-category** over $F$ is the simplicial set
+
+   $$
+     (C_{/F})_n = (Hom_{sSet})_F(\Delta^n \star K , C)
+   $$
+
+   characterized by the property that
+
+   $$
+    Hom_{sSet}(S, C_{/F})
+     \simeq
+     Hom_{F}(
+       S \star K , C
+     )
+   $$
+
+   naturally in $S$.
+
+1. The functor 
+
+   $$
+      sSet \to sSet_{K/}
+   $$
+
+   $$
+     S \mapsto K \diamondsuit S
+   $$
+
+   with $\diamondsuit$ denoting the other definition of [[join of quasi-categories]] (as described there)
+
+   has a [[right adjoint]]
+
+   $$
+      sSet_{K/} \to sSet
+   $$
+
+   $$
+     (F : K \to C) \mapsto C^{F/} 
+   $$
+
+   and its image $C^{F/}$ is another definition of 
+   the quasi-category under $F$.
+
+=--
+
+The first definition in terms of the the mapping property is due to [[Andre Joyal]]. Together with the discussion of the concrete realization it appears as [[Higher Topos Theory|HTT, prop 1.2.9.2]]. The second definition appears in [[Higher Topos Theory|HTT]] above prop. 4.2.1.5.
+
++-- {: .un_prop}
+###### Proposition
+
+The simplicial sets $C_{/F}$ and $C_{F/}$ are indeed themselves again [[quasi-categories]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [[Higher Topos Theory|HTT, prop. 1.2.9.3]]
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The two definitions yield equivalent results in that the canonical morphism
 
 $$ 
   C_{/F} \to C^{/F}
   \,.
 $$
 
+is an equivalence of quasi-categories.
+
+=--
+
++-- {: .proof}
+###### Proof
+
 This is [[Higher Topos Theory|HTT, prop. 4.2.1.5]]
+
+=--
+
+From the formula 
+
+$$
+  (C_{/F})_n = (Hom_{sSet})_F(\Delta^n \star K , C)
+$$
+
+we see that
+
+* an object in the over quasi-category $C_{/F}$ is a **cone** over $F$;. 
+
+  For instance if $K = \Delta[1]$ then an object in $C_{/F}$ is a 2-cell
+
+  $$
+    \array{
+       && v
+       \\
+       & \swarrow &\swArrow& \searrow
+       \\
+       F(0) &&\to&& F(1)
+    }
+  $$
+
+  in $C$.
+
+* a morphism in $C_{/F}$ is a morphism of cones, 
+
+* etc:.
+
+So we may think of the overcategory $C_{/F}$ as the **quasi-category of cones over $F$**. Accordingly we have that
+
+* the [[terminal object in a quasi-category|terminal object]] in $C_{/F}$ is (if it exists) the [[limit in a quasi-category|limit in]] $C$ over $F$;
+
+* the [[terminal object in a quasi-category|initial object]] in $C_{F/}$ is (if it exists) the [[limit in a quasi-category|colimit of]] $F$ in $C$.
+
 
 ## Properties
 
-* The simplicial set $C_{/F}$ is indeed again a [[quasi-category]].  
 
-* If $q : C \to D$ is a [[model structure for quasi-categories|categorical equivalence]] then so is the induced morphism $C_{/F} \to C_{q F}$.
 
-* For $C$ (the [[nerve]] of) an ordinary [[category]] this construction coincides with the ordinary notion of [[overcategory]].
++-- {: .un_prop}
+###### Proposition
+
+
+For $C = N(\mathcal{C})$ (the [[nerve]] of) an ordinary [[category]] $\mathcal{C}$ and $K = *$, this construction coincides with the ordinary notion of [[overcategory]] $\mathcal{C}/F$ in that there is a canonical [[isomorphism]] of simplicial sets
+
+$$
+  N(\mathcal{C}/F) \simeq N(\mathcal{C})/F
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [[Higher Topos Theory|HTT, remark 1.2.9.6]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+
+If $q : C \to D$ is a [[model structure for quasi-categories|categorical equivalence]] then so is the induced morphism $C_{/F} \to C_{/q F}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [[Higher Topos Theory|HTT, prop 1.2.9.3]].
+
+=--
 
 
 ## References
 
-See [proposition 1.2.9.2, p. 44](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=44) and the text leading to and including [proposition 1.2.9.3](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=44) of
+Section 1.2.9 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
