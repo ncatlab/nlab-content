@@ -6,29 +6,22 @@
 
 ## Idea
 
+For $C$ a [[locally presentable (∞,1)-category]] whose objects one thinks of as function algebras on certain test spaces, the **tangent $(\infty,1)$-category** $T_C \to C$ of $C$ is the fiberwise [[stabilization]] of the [[codomain fibration]] $[\Delta[1], C] \to C$. 
 
-For $C$ an [[(∞,1)-category]], its **tangent $(\infty,1)$-category** $T_C \to C$ is the $(\infty,1)$-category over $C$ obtained from the forming fiberwise the [[stabilization]] of the [[codomain fibration]] $cod : [I,C] \to C$:
-
-an object of $T_C$ over an object $A \in C$ is an object of the [[stable (∞,1)-category]] $Stab(C^{/A})$ that is the [[stabilization]] of the [[overcategory]] of $C$ over $A$.
-
-As described at [[deformation theory]], this may be thought of as generalizing the [[bifibration]] $Mod \to Ring$ of [[module]]s over [[ring]]s. In this sense,one may think of the fibers of of a tangent $(\infty,1)$-category as a generalization of a category of modules.
-
-## Cotangent complex
-
-The projection functor $p : T_C \to C$ has a [[left adjoint]]
+As discussed at [[deformation theory]],  this generalizes the classical [[bifibration]] $Mod \to CRing$ of [[module]]s over the cateory [[CRing]] of all commutative rings: the fiber of the tangent $(\infty,1)$ $T_C$ over an object $A \in C$ may be thought of as the $(\infty,1)$-category of _modules_ over $A$, or more geometrically as the $(\infty,1)$-category of [[vector bundle]]s or rather [[quasicoherent sheaves]] over whatever [[space]] $A$ is regarded to be the algebra of functions on.
+ 
+A remarkable amount of information about the geometry of these spaces is encoded in the fiber of the tangent $(\infty,1)$-category over them. Notably the [[left adjoint|left]] [[adjoint (∞,1)-functor]] 
 
 $$
   \Omega : C \to T_C
 $$
 
-that is also a [[section]]. This is the [[cotangent complex]] functor. It sends each object to the analog of the [[Kähler differential]]s of that object.
+to the domain projection $dom : T_C \to C$ turns out to send each $A$ to its [[cotangent complex]] $\Omega(A)$, to be thought of as the module of [[Kähler differential]]s on the space that $A$ is functions on.
 
-## Applications
 
-The tangent $(\infty,1)$-category $T_C \to C$ is a generalization of the [[bifibration]] $Mod \to Ring$ of [[module]]s over [[ring]]s that models the [[stack]] algebraic [[vector bundle]]s (as described in more detail at [[Sweedler coring]]). It is used in [[deformation theory]] for a general definition of [[cotangent complex]] of an [[(∞,1)-category]].
 
 ## References
 
 The definition and study of the notion is tangent $(\infty,1)$-categories is from 
 
-* [[Jacob Lurie]], [[Deformation Theory]]
+* [[Jacob Lurie]], _[[Deformation Theory]]_
