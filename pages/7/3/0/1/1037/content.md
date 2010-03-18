@@ -540,20 +540,62 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[Reedy model structure]]
 
-### A.3 Simplicial model categories
+### A.3 Simplicial categories
 
-* [[simplicially enriched category]]
-
-* [[simplicial model category]]
-
-  * [[localization of a simplicial model category]]
-
-  * [[Bousfield localization]]
-
-* [[combinatorial simplicial model category]]
 
   * [[presentable (∞,1)-category]]
 
+#### A.3.1 Enriched and monoidal model categoires
+
+* [[enriched monodel category]]
+
+* [[monoidal model category]]
+
+* [[Quillen bifunctor]]
+
+* [[simplicial model category]]
+
+
+
+#### A.3.2 The model structure on $\mathbf{S}$-enriched categories
+
+* [[simplicially enriched category]]
+
+
+* [[combinatorial simplicial model category]]
+
+
+* [[model structure on sSet-enriched categories]]
+
+#### A.3.3 Model structures on diagram categories
+
+* [[global model structure on functors]]
+
+* [[Reedy model structure]]
+
+* [[homotopy Kan extensiom]]
+
+  * [[homotopy limit]]
+
+  * [[homotopy colimit]]
+
+#### A.3.4 Path spaces in $\mathbf{S}$-enriched categories
+
+* [[(∞,1)-category of (∞,1)-functors]]
+
+#### A.3.5 Homotopy colimits of $\mathbf{S}$-enriched categories
+
+...
+
+#### A.3.5 Exponentiation in model categories
+
+...
+
+#### A.3.7 Localizations of simplicial model categories
+
+* [[Bousfield localization of model categories]]
+
+* [[localization of a simplicial model category]]
 
 category: reference
 
