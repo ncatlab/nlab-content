@@ -607,9 +607,7 @@ $$
 
 of [[locally constant ∞-stack]]s on $X$ and [[Kan fibration]]s over the [[fundamental ∞-groupoid]] $\Pi(X) = Sing(X)$.
 
-By the right Quillen functor $Id : sSet_{Quillen} \to sSet_{Joyal}$ from the Quillen [[model structure on simplicial sets]] to the [[Joyal model structure on simplicial sets]] every Kan fibration is a categorical fibration and every categorical fibration over a [[Kan complex]] is a [[Cartesian fibration]] (as discussed there) and a coCartesian fibration. Finally, by the [[Grothendieck construction|(∞,1)-Grothendieck construction]], these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$.
-
-In total this means that via the [[Grothendieck construction]] To&#235;n's result does actually produce an equivalence
+But Kan fibrations over a Kan complex such as $\Pi(X)$ are equivalently [[left fibration]]s (as discussed there) and by by the [[(∞,1)-Grothendieck construction]] these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$. So under the [[(∞,1)-Grothendieck construction]] To&#235;n's result does actually produce an equivalence
 
 $$
   LConst(X) \simeq Func(\Pi(X), \infty Grpd)
