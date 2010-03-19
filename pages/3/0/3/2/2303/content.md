@@ -37,7 +37,7 @@ Next:
 
 A complex oriented [[cohomology]] theory (meant is here and in all of the following a [[generalized (Eilenberg-Steenrod) cohomology]]) is one with a _good notion of [[Thom class]]es, equivalently first [[Chern class]] for complex [[vector bundle]]_
 
->(this "good notion" will boil down to certain extra assumptions suchh as multiplicativity and periodicity etc. What one needs is that the [[cohomology ring]] assigned by the coholmology theory to $\mathbb{C}P^\infty \simeq \mathcal{B}U(1)$ is a power series ring. The formal variable of that is then identified with the universal first Chern class as seen by that theory).
+>(this "good notion" will boil down to certain extra assumptions such as multiplicativity and periodicity etc. What one needs is that the [[cohomology ring]] assigned by the cohomology theory to $\mathbb{C}P^\infty \simeq \mathcal{B}U(1)$ is a power series ring. The formal variable of that is then identified with the universal first Chern class as seen by that theory).
 
 ordinary [[Chern class]] lives in [[integral cohomology]]
 $
@@ -115,7 +115,7 @@ Thom iso $\tilde H^{*+2}(X^\gamma) \simeq H^*(X)$
   so that gives an isomorphism $(-)\cdot \beta : E^*({*}) \simeq E^{*+2}({*})$
 
 
-Periodic cohomoloyg theories are complex-orientable. $E^*(\mathbb{C}P^\infty)$ can be calculated useing the [[Atiyah-Hirzebruch spectral sequence]]
+Periodic cohomology theories are complex-orientable. $E^*(\mathbb{C}P^\infty)$ can be calculated using the [[Atiyah-Hirzebruch spectral sequence]]
 
 $$
   H^p(X, E^q({*})) \Rightarrow E^{p+q}(X)
@@ -132,9 +132,9 @@ $$
   \mathbb{C}P^\infty
 $$
 
-whch is the one that induces the [[tensor product]] of [[line bundle]]s classified by maps into $\mathbb{C}P^\infty$.
+which is the one that induces the [[tensor product]] of [[line bundle]]s classified by maps into $\mathbb{C}P^\infty$.
 
-on (at least oneven periodic cohomology theories) this induces a map of the form
+on (at least on even periodic cohomology theories) this induces a map of the form
 
 $$
   \array{
@@ -177,7 +177,7 @@ and relatins as follows
 
 1. the obvious associativity relation
 
-the univseral formal group law we get from this is the power series in $x,y$ with coefficients in the [[Lazard ring]] 
+the universal formal group law we get from this is the power series in $x,y$ with coefficients in the [[Lazard ring]] 
 
 $$
   \ell(x,y) = \sum_{i,j} a_{i j} x^j y^j \in L[[x,y]]
