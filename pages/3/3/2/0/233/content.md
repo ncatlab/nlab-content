@@ -344,11 +344,13 @@ See also the references at [[enriched category theory]] and at [[profunctor]].
 
 ### On modules as stabilized overcategories
 
-The observation that the category of modules over a ring $R$ is equivalent to the category of abelian group objects in the overcategory $CRing/R$ is originally due to Quillen:
+The observation that the category of modules over a ring $R$ is equivalent to the category of abelian group objects in the overcategory $CRing/R$ was used by Quillen:
 
-* Quillen, _..._, (...)
+* Quillen, D. G. Quillen, _On the (co-)homology of commutative rings_, in Proc. Symp. on Categorical Algebra, 65 &#8211; 87, American Math. Soc.,  1970.
 
-...more classical references go here...
+A more 'classical' references include Jon Beck's thesis
+
+* Jon M.  Beck, _Triples, algebras and cohomology_, [thesis](http://www.tac.mta.ca/tac/reprints/articles/2/tr2.pdf). 
 
 The fully abstract higher categorical concept in terms of [[stabilization|stabilized]] [[overcategory|overcategories]] and the [[tangent (∞,1)-category]] appears in 
 
