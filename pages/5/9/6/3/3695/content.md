@@ -1,0 +1,42 @@
+## Overview
+
+Matching asymptotic expansions of solutions to the wave equations in short wave approximation often comes with sharp phase changes at certain phase angles (Stokes lines). G. G. Stokes has discovered the phenomenon in the study of geometric optics, more specifically the study of [[Airy function]]. 
+
+Stokes factors appear in the study of stability in the geometry of moduli spaces of sheaves. According to Toledano Laredo "Joyce's wall-crossing formulae for invariants counting semistable objects in an abelian category A may be understood as Stokes phenomena for a connection on the Riemann sphere taking value in the Ringel-Hall Lie algebra of A.".
+
+## References and related entries
+
+* [[Airy function]], [[semiclassical approximation]], [[wall crossing]].
+
+* G. G. Stokes, _On the numerical calculation of a class of definite integrals and infinite series_, Trans. Camb. Phil. Soc., 9 (1847), 379-407
+
+* [M. V. Berry](http://www.phy.bris.ac.uk/people/berry_mv/research.html), _Stokes' phenomenon; smoothing a Victorian discontinuity_,  Publ. Math. de l'IH&#201;S, 68 (1988), p. 211-221 (1988), [numdam](http://www.numdam.org/numdam-bin/item?id=PMIHES_1988__68__211_0).
+
+* C. Sabbah, _Introduction to Stokes structures_, [http://arxiv.org/abs/0912.2762](http://arxiv.org/abs/0912.2762)
+
+* Claude Sabbah, _Isomonodromic deformations and Frobenius manifolds_, Springer 2007, [doi](http://dx.doi.org/10.1007/978-1-84800-054-4)
+
+* C. Sabbah, slides of a talk at Rennes, [pdf](http://www.math.polytechnique.fr/cmat/sabbah/sabbah_rennes091027-pro.pdf); _Wild geometry_, summary of Oberwolfach, [pdf](http://www.math.polytechnique.fr/cmat/sabbah/sabbah_oberwolfach090922.pdf)
+
+* T. Bridgeland, V. Toledano-Laredo, _Stability conditions and Stokes factors_, [arxiv/0801.3974](http://arxiv.org/abs/0801.3974) 
+
+* [[Valerio Toledano Laredo]], _Stability conditions and Stokes factors_, audio of the talk at UCSB, [link](http://doug-pc.itp.ucsb.edu/online/duality09/toledanolaredo1); slides [pdf](http://doug-pc.itp.ucsb.edu/online/duality09/toledanolaredo1/pdf/Toledanolaredo1_String_Duality_KITP.pdf)
+
+* L.Katzarkov, M.Kontsevich, T.Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
+
+* M. Loday-Richaud, _Stokes cocycle and differential Galois groups_, J. Math. Sci. __124__, No. 5, 2004, [pdf](http://www.springerlink.com/content/h42h3vk6w59q0820/fulltext.pdf)
+
+* T. Aoki, T. Kawai, Y. Takei, _On the exact steepest descent method: A new method for the description of Stokes curves_, J. Math. Phys. __42__ (2001), 3691-3713.
+
+* R. Balian, G. Parisi, A. Voros, _Discrepancies from asymptotic series and their relation to complex classical trajectories_, Phys. Rev. Lett. __41__ (1978), 1141-1144. 
+
+* R.B. Paris, A.D. Wood, _Stokes phenomenon demystified_, Bull. Inst. Math. Appl. __31__ (1995) 21-28.
+
+* A R Its, A A Kapaev, _Quasi-linear Stokes phenomenon for the second
+Painlev&#180;e transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](http://dx.doi.org/10.1088/0951-7715/16/1/321)
+
+Proceedings volumes:
+
+* B L J Braaksma, G K Immink, M van der Put, eds, _The Stokes Phenomenon and Hilbert's 16th Problem_, World Sci. 1996
+
+* B L J Braaksma, G K Immink, M van der Put, J Top, eds, _Differential equation and the Stokes phenomenon_, World Sci. 2002
