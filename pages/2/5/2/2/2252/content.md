@@ -33,7 +33,7 @@ The formal spectrum can be extended to a somewhat bigger class of topological ri
 
 Another approach using a certain topological extension of the [[Yoneda lemma]] on $k Alg^{op}$ has been proposed in
 
-* B. Pareigis, R. A. Morris, _Formal groups and Hopf algebras over discrete rings_, Trans. Amer. Math. Soc.  __197__ (1974), 113--129 ([doi](http://dx.doi.org/10.2307/1996930)).
+* B. Pareigis, R. A. Morris, _Formal groups and Hopf algebras over discrete rings_, Trans. Amer. Math. Soc.  __197__ (1974), 113--129 ([doi](http://dx.doi.org/10.2307/1996930), [[Morris-Pareigis formal scheme|nlab entry]]).
 
 [[Nikolai Durov]] has considered a flexible bigger category (which inludes the usual schemes) of covariant functors from the category of pairs $(R,I)$ where $R$ is a commutative ring and $I$ a [[nilpotent ideal]]; the correspondence between formal groups and [[Lie algebras]] based on Hausdorff series is neatly developed and used in that language; see chapters 7--9 of
 
