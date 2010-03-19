@@ -256,7 +256,7 @@ $$
     (S_i \times S'_j) \times Hom_{\Delta_a}(-,[i] \boxplus [j])
   \,.
 $$
-+--
++--{: .query}
 _Note:_ This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set.  To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[indexed copower]].
 =--
 Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|cocontinuous]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
@@ -475,7 +475,7 @@ See [Ehlers/Porter p. 8](http://arxiv.org/PS_cache/math/pdf/9904/9904039v1.pdf#p
 The join operation was studied by P. J. Ehlers, in his thesis
 
 * _Algebraic Homotopy in Simplicially Enriched Groupoids:file_, 1993, 
-University of Wales Bangor, available [[Ehlers-thesis|here:file]], (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
+University of Wales Bangor, [[Ehlers-thesis|here:file]], (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
 
 but was there ascribed to [[Jack Duskin]] and [[Don van Osdol]] in some unpublished notes.  The main ideas were derived there from earlier work of [[Bill Lawvere]].
 
