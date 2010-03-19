@@ -153,11 +153,9 @@ This [[coring]]-formulation of [[descent]] may be understood as special case of 
 
 The [[bifibration]] in question is 
 
-$$
-  p : Mod \to Rings
-$$
+$p :$ [[Mod]] $\to$ [[CRing]]
 
-that sends an object in the category of modules to the ring that it is a module over.
+that sends an object in the category [[Mod]] of [[module]]s to the ring that it is a module over.
 
 A descent datum for a morphism $f : R \to S$ with respect to this bifibration is a (co)algebra object over the co[[monad]] $f_* f^*$ induced by this morphism. We have that
 
