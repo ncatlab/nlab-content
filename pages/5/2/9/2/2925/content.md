@@ -10,6 +10,10 @@ The IVT in its general form was not used by [[Euclid]].  Although it is hard to 
 
 As normally stated, the IVT is not valid in [[constructive mathematics]], although there are constructively valid versions.
 
++-- {: .standout}
+I\'ve decided that I don\'t really like how I\'ve been writing this, and I\'m working on a new version.  (Aside from its intrinsic interest and practical usefulness, this is such a classic example of the differences between classical and constructive analysis that I want to get it right.)  That shouldn\'t stop anybody from putting here what *they* find useful, but I thought that a warning might be in order.  ---[[Toby Bartels]]
+=--
+
 
 ## Statements
 
