@@ -474,8 +474,8 @@ See [Ehlers/Porter p. 8](http://arxiv.org/PS_cache/math/pdf/9904/9904039v1.pdf#p
 
 The join operation was studied by P. J. Ehlers, in his thesis
 
-* _Algebraic Homotopy in Simplicially Enriched Groupoids:file_, 1993, 
-University of Wales Bangor, [[Ehlers-thesis|here:file]], (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
+* _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
+University of Wales Bangor, available [[Ehlers-thesis.pdf|here:file]], (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
 
 but was there ascribed to [[Jack Duskin]] and [[Don van Osdol]] in some unpublished notes.  The main ideas were derived there from earlier work of [[Bill Lawvere]].
 
