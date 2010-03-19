@@ -7,5 +7,12 @@ Kontsevich has made contributions to various parts of [[mathematics]] and [[math
 Much of Kontsevich's research is based on insights into the relation between [[classical physics]] and [[quantum physics]] and [[quantization|quantizing]] various constructions even in pure [[mathematics]]. His most famous work in this area includes the _[[Kontsevich formality theorem]]_ solving the problem of [[deformation quantization]] of [[Poisson manifolds]] using [[homological algebra]] and [[operad]]s; this created a number of new directions of research in mathematics. [[quantization|Quantization]] ideas are also present in works related to the [[geometry]] of [[Weyl algebra]], including the progress on the [[Jacobian conjecture]]. In addition to finished results, Kontsevich introduced a number of stimulating conjectures which strongly influence modern mathematics.  
 
 
-[[!redirects Kontsevich]]
+category: people
+
+[[!redirects Maxim Kontsevich]]
+[[!redirects Maksim Kontsevich]]
+[[!redirects Maksim Koncevič]]
 [[!redirects Максим Концевич]]
+[[!redirects Kontsevich]]
+[[!redirects Koncevič]]
+[[!redirects Концевич]]
