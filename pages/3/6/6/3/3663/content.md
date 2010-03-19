@@ -22,21 +22,32 @@ Although this is not intended as a list of iTeX commands (since the [itex symbol
 Remember to use iTeX itself when appropriate.  You mostly will only need to copy and paste these symbols to produce redirects (and most of the time you shouldn\'t have to come here since the symbol will be on the page already).
 
 
-<ul markdown="1"><li>`-`: $-$</li>
+<ul markdown="1"><li>`*`: $*$</li>
+<li>`-`: $-$</li>
 <li>`|`: $|$</li>
 <li>`'`: $'$</li>
+<li>\* `&lt;`: $\lt$</li>
+<li>\* `>`: $\gt$</li>
 <li>`\|`: $\|$</li></ul>
 
 ### A
 
-* `\aleph`: $\aleph$
-* `\alpha`: $\alpha$
-* `\amalg`: $\amalg$
-* `\angle`: $\angle$
-* `\approx`: $\approx$
-* `\approxeq`: $\approxeq$
-* \* `\ast`: $&#x2217;$
-* `\asymp`: $\asymp$
+* \* `\agemO`: $\mho$ (66, wasysym)
+* `\aleph`: $\aleph$ (51, 51, 65)
+* `\alpha`: $\alpha$ (50)
+* \* `\alphaup`: $\alphaup$ (50, txfonts/pxfonts)
+* `\amalg`: $\amalg$ (22, 23)
+* `\angle`: $\angle$ (65, 66, 66)
+* \* `\apprge`: $\apprge$ (38, wasysym)
+* \* `\apprle`: $\apprle$ (38, wasysym)
+* `\approx`: $\approx$ (30)
+* \* `\approxcolon`: $\approxcolon$ (36, colonequals) $\colonequals$
+* \* `\approxcoloncolon`: $\approxcoloncolon$ (36, colonequals)
+* `\approxeq`: $\approxeq$ (30, AMS)
+* \* `\ast`: $&#x2217;$ (22, 23, 23, MnSymbol five-pointed variant)
+* \* `\Asterisk`: $\Asterisk$ (23, 23, mathabx)
+* \* `\asterisk`: $\asterisk$ (23, mathabx)
+* `\asymp`: $\asymp$ (30, 48)
 
 ### B
 
@@ -220,7 +231,7 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 
 ### I
 
-* `\iff`: $\iff$
+* \* `\iff`: $&#x27FA;$ (present but incorrect in iTeX)
 * `\iiiint`: $\iiiint$
 * `\iiint`: $\iiint$
 * `\iint`: $\iint$
@@ -298,7 +309,7 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 * `\longleftarrow`: $\longleftarrow$
 * \* `\Longleftarrow`: $&#x27F8;$
 * \* `\longleftrightarrow`: $&#x27F7;$
-* \* `\Longleftrightarrow`: $&#x27FA;$ (present but buggy in iTeX)
+* \* `\Longleftrightarrow`: $&#x27FA;$ (present but incorrect in iTeX)
 * \* `\longmapsfrom`: $&#x21A4;$
 * \* `\Longmapsfrom`: $&#x2906;$
 * \* `\longmapsto`: $&#x21A6;$
@@ -310,6 +321,7 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 * \* `\lor`: $\vee$
 * `\lozenge`: $\lozenge$
 * `\Lsh`: $\Lsh$
+* `\lt`: $\lt$
 * `\ltimes`: $\ltimes$
 * \* `\lvert`: $\vert$
 * \* `\lVert`: $\Vert$
