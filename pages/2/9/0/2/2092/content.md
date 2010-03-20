@@ -12,7 +12,7 @@ Operator algebras play major roles in [[functional analysis]], [[representation 
 ## Topics of interest for the understanding of AQFT
 This paragraph will collect some facts of interest for the aspects of [[AQFT]] in the nLab.
 
-###Normal states
+###States
 The Heisenberg picture is sometimes formalized by describing the observables of a quantum system by an operator algebra, and the state of the system as a state of the algebra. The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited it's name from the physical concept.
 
 * Definition: A linear functional is **positive** if $A \ge 0$, that is A is a positive operator resp. is an element of the positive cone, implies that  $\rho(A) \ge 0$.
@@ -36,6 +36,16 @@ The last one is most frequently used by physicists.
 Sometimes the observables of a system are described by an abstract operator algebra, in this case an important notion is the folium:
 
 * Definition: The **folium** of a representation $\pi$ of an operator algebra $\mathcal{R}$ on a Hilbert space is the set of normal states of $\pi(\mathcal{R})$.
+
+* Definition: A state $\rho$ of a representation is called a **vector state** if there is a $x \in \mathcal{H}$ such that $\rho(\pi(R)) = \langle \pi(R)x, x \Rangle$ for all $R \in \mathcal{R}$.
+
+The set of states of an operator algebra is sometimes called the **state space**.
+
+The state space is convex and weak$^*$-compact, so it has extreme points. By the [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem) it is the weak$^*$-closure of it's extreme points.
+
+* Definition: A **pure state** is a state that is an extreme point of the state space in the weak$^*$-topology.
+
+The term "pure" originates from the notion of [[entanglement]], being an extreme point a pure state is not the sum of two other states.
 
 ## References
 
