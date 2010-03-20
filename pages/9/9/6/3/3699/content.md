@@ -1,0 +1,1 @@
+A Markov chain is a [[coalgebra for an endofunctor|coalgebra]] for the endofunctor on [[Set]] which maps a set $X$ to the set of probability distributions on $X$.
