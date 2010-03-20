@@ -328,7 +328,7 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
    Once you have the SVG, you can include it on a page as described [here](http://golem.ph.utexas.edu/instiki/show/SVG).  Since raw SVG is a bit ugly, you may want to put the SVG on a "subpage" by itself (with a name like `pagename > imagename`) which is included from the main page (see above for the syntax to include other pages).
 
-   You can also use the SVG-editor to create and edit SVGs right here in the lab.  For more details see [this entry](#svgeditor) below.
+   You can also use the SVG-editor to create and edit SVGs right here in the lab.  For more details see [this entry](#svgedit) below.
 
 1. Use the CodeCogs-server to produce [xypic](http://www.tug.org/applications/Xy-pic/)-coded diagrams.
 
