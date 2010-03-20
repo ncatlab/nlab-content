@@ -40,27 +40,32 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 * \* `\approxcoloncolon`: <math class='maruku-mathml' display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mo lspace='mediummathspace' rspace='mediummathspace'>&#x2248;&#x2237;</mo></math> (no single Unicode character)
 * `\approxeq`: $\approxeq$
 * \* `\ast`: $&#x2217;$
-* \* `\asterisk`: $&#x2217;$
 * `\asymp`: $\asymp$
 
 ### B
 
 * `\backepsilon`: $\backepsilon$
-* `\backprime`: $\backprime$
+* `\backprime`: $\backprime$ (outside of the superscript)
 * `\backsim`: $\backsim$
 * `\backsimeq`: $\backsimeq$
+* `\backslash`: $\backslash$
 * \* `\baro`: $&#x233D;$
 * \* `\barwedge`: $&#x2305;$
+* \* `\bbslash`: $&#x244A;$
 * `\because`: $\because$
-* `\beth`: $\beth$
 * `\beta`: $\beta$
+* `\beth`: $\beth$
 * `\between`: $\between$
+* \* `\bigbox`: $&#x2B1C;$
 * `\bigcap`: $\bigcap$
 * `\bigcirc`: $\bigcirc$
 * `\bigcup`: $\bigcup$
+* \* `\biginterleave`: $&#x2AFC;$
 * `\bigodot`: $\bigodot$
 * `\bigoplus`: $\bigoplus$
 * `\bigotimes`: $\bigotimes$
+* \* `\bigparallel`: $&#x2551;$
+* \* `\bigsqcap`: $&#x2A05;$
 * `\bigsqcup`: $\bigsqcup$
 * `\bigstar`: $\bigstar$
 * `\bigtriangledown`: $\bigtriangledown$
@@ -68,6 +73,7 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 * `\biguplus`: $\biguplus$
 * `\bigvee`: $\bigvee$
 * `\bigwedge`: $\bigwedge$
+* \* `\binampersand`: $\&$
 * \* `\bindnasrepma`: $\parr$
 * `\blacklozenge`: $\blacklozenge$
 * `\blacksquare`: $\blacksquare$
@@ -87,9 +93,8 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 * \* `\boxempty`: $\Box$
 * `\boxminus`: $\boxminus$
 * `\boxplus`: $\boxplus$
-* `\boxtimes`: $\boxtimes$
 * \* `\boxslash`: $&#x29C4;$
-* \* `\bprime`: $\backprime$
+* `\boxtimes`: $\boxtimes$
 * `\bullet`: $\bullet$
 * `\bumpeq`: $\bumpeq$
 * `\Bumpeq`: $\Bumpeq$
