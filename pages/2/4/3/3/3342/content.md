@@ -43,18 +43,31 @@ We will lay down a specific set of axioms knowing that this set is not _the set_
 
 ###Notation
 
+####The Poincar&#233; Group
+The universal covering $SL(2, \C) \ltimes \R^4$ of the restriced Poincar&#233; group $\mathcal{P}^{\dagger}_+$ will be denoted by $\mathcal{P}$, the abelian subgroup of all translations by $\mathcal{T}$.
+
 ####The Minkowski Spacetime
 We talk about 4-dimensional Minkowski spacetime $\mathcal{Min}$ only, i.e. $\mathcal{Min}$ is the vector space $\R^{4} = \R \times \R^{3}$ equipped with the scalar product $\lt x, y \gt := x_0 y_0 - (\vec x, \vec y)$ with $( \cdot , \cdot  )$ being the Euclidean scalar product on $\R^{3}$.
 Open bounded subsets of $\mathcal{Min}$ will be denoted by $\mathcal{O}$. The union of these $\mathcal{O}$ form an index set $\mathcal{J}$, that is partially ordered by inclusion. 
 
 If two sets are spacelike seperated, this will be denoted by $\mathcal{O}_1 \perp \mathcal{O}_2$.
 
-We denote the open forward cone at x by $V_+(x)$, similar $V_-(x)$ is the open backward cone at $x$, if $x=0$ we simply write $V_+$ and $V_-$.
+We denote the open forward (light)cone at x by $V_+(x)$, similar $V_-(x)$ is the open backward cone at $x$, if $x=0$ we simply write $V_+$ and $V_-$.
+A **double cone** is an intersection of an open forward cone and an open backward cone that is nonempty. 
 
-####The Poincar&#233; Group
-The universal covering $SL(2, \C) \ltimes \R^4$ of the restriced Poincar&#233; group $\mathcal{P}^{\dagger}_+$ will be denoted by $\mathcal{P}$, the abelian subgroup of all translations by $\mathcal{T}$.
+An important class of unbounded regions are the **wedges**: Choose an inertial frame and define the right wedge as
+$$
+       W_R := \{ x = (t, x_1, x_2, x_3) \in \mathbb{R}^4 \mid x_1 \gt \shortmid t \shortmid \}
+$$
+The set of wedges is then defined to be
+$$
+      \mathcal{W} := \{\lambda W_R \mid \lambda \in \mathcal{P}^{\dagger}_+ \}
+$$
+While the definition of the right wedge depends on the chosen initial frame, the definition of the set of wedges does not.
 
 ####Operator Algebras
+See [[operator algebra]] and [[von Neumann algebra]] here on the nLab.
+
 Von Neumann algebras $\mathcal{M}$ will always be concrete operator algebras acting on a given Hilbert space $\mathcal{H}$, as is the rule in the literature (see also [[von Neumann algebra]] here on the nLab). The commutant of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
 $$
       \mathcal{M}_1 \vee \mathcal{M}_2 :=  {(\mathcal{M}_1 \cup \mathcal{M}_2)}''
