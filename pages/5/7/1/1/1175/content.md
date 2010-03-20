@@ -22,6 +22,19 @@ on hypothetical connections between CFT and elliptic cohomology, Stolz and Teich
 
 See also the [Wikipedia entry](http://en.wikipedia.org/wiki/Von_Neumann_algebra) entry for more on von Neumann algebras and a list of references and links.
 
+#Topics of interest for the understanding of AQFT
+This paragraph will collect some facts of interest for the aspects of [[AQFT]] in the nLab.
+
+In this paragraph $\mathcal{M}$ will always be a von Neumann algebra acting on a Hilbert space $\mathcal{H}$ with commutant $\mathcal{M}'$.
+
+##Vectors
+
+* Definition: A vector $x \in \mathcal{H}$ is **cyclic** if $\mathcal{M}x$ is dense in $\mathcal{H}$.
+
+* Definition: A vector $x \in \mathcal{H}$ is **separating** if $M(x) = 0$ implies $M = 0$ for all $M \in \mathcal{M}$.
+
+* Theorem: The notions of cyclic and separating are dual with respect to the commutant, that is a vector is cyclic for $\mathcal{M}$ iff it is separating for $\mathcal{M}'$.
+
 #Remarks#
 
 * Von Neumann algebras may also be defined abstractly as (abstract) $C^*$-algebras with a predual.
