@@ -5,7 +5,7 @@
 
 ## Summary
 
-This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a 'set' is predicatively a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the Heine--Borel theorem).
+This page gives an elementary description of the [[locale]] of [[real numbers]], that is the localic [[real line]].  The development is manifestly [[constructive mathematics|constructive]] and even [[predicative mathematics|predicative]] over the [[natural numbers]] (although we are somewhat careless with the language and do not always point out when a set may predicatively be a [[proper class]]).  Ideally, we will show that our construction satisfies the seven 'headline properties' of the real line described by [Bauer & Taylor](http://www.paultaylor.eu/ASD/dedras/intro) (although so far we cover only the Heine--Borel theorem).
 
 The exposition here is pretty much [[Toby Bartels|my]] own work, although of course the basic ideas are well known to many.  In particular, the technical zigzag lemma is mine (but it is not a very deep result!).
 
@@ -37,16 +37,18 @@ If $G$ is an open in the real line, then we write $(a,b) \subseteq G$ to mean th
 
 ## The zigzag lemma
 
-We will often have occasion to consider a zigzag as in (eq:zigzag), but where the various zigs are taken relative to different opens.  Nevertheless, we will usually want to say something about the relationship of $a_1$ to $b_n$, and it will often be convenient to assume, for all $i$, that $a_1 \leq a_i$ and $b_i \leq b_n$.  We may do so without loss of generality as follows: consider the smallest value of $i$ such that $b_i \geq b_n$, truncate the zigzag so that it now has only $i$ zigs, and change the new endpoint $b_i$ to the old endpoint $b_n$.  The final zig $(a_i,b_i) \subseteq G_i$ becomes $(a_i,b_n) \subseteq G_i$, which will hold by property (2) since $b_i \geq b_n$.  Now consider the largest value of $j \leq i$ such that $a_1 \geq a_j$, and truncate on the other side.  We now have a zigzag with $i - j + 1$ zigs that never falls below $a_1$ or above $b_n$.
+We will often have occasion to consider a zigzag as in (eq:zigzag), but where the various zigs are taken relative to different opens.  Nevertheless, we will usually want to say something about the relationship of $a_1$ to $b_n$, and it will often be convenient to assume, for all $i$, that $a_1 \leq a_i$ and $b_i \leq b_n$.  We may do so without loss of generality as follows: consider the smallest value of $i$ such that $b_i \geq b_n$, truncate the zigzag so that it now has only $i$ zigs, and change the new endpoint $b_i$ to the old endpoint $b_n$.  The final zig $(a_i,b_i) \subseteq G_i$ becomes $(a_i,b_n) \subseteq G_i$, which will hold by property (2) since $b_i \geq b_n$.  Now consider the largest value of $j \leq i$ such that $a_1 \geq a_j$, and truncate similarly on the other side.  We now have a zigzag with $i - j + 1$ zigs that never falls below $a_1$ on a zag nor rises above $b_n$ on a zig.
 
 To be precise:
 +-- {: .un_lemma}
 ###### Zigzag lemma
 
 Given a collection $\mathcal{C}$ of opens and a zigzag in which each zig holds relative to some open in $\mathcal{C}$, there exists a zigzag (eq:zigzag) in which each zig holds relative to some open in $\mathcal{C}$, $a_1 \leq a_i$ for each $i$, and $b_i \leq b_n$ for each $i$.
+
+(Since each $b_i \gt a_{i^+}$, it follows further that $a_i \lt b_n$ for each $i \gt 1$ and $a_1 \lt b_i$ for each $i \lt n$, although this corollary doesn\'t seem to be particularly useful.)
 =--
 
-(At the moment, this lemma is used only in the proof of the infinite distributivity law.)
+At the moment, this lemma is used only in the proof of the infinite distributivity law.
 
 
 ## The frame of opens
@@ -62,6 +64,8 @@ Given two opens $G$ and $H$, their [[join]] in the poset of opens, denoted $G \c
 More generally, given any family $(G_k)_k$ of opens, their [[join]] in the poset of opens, denoted $\bigcup_k G_k$, is defined as follows:  $(a,b) \subseteq \bigcup_k G_k$ if and only if $a \geq b$ or there exists a zigzag (eq:zigzag) with $a = a_1$ and $b = b_n$ in which each zig is of the form $(a_i,b_i) \subseteq G_k$ for some $k$.  (We can leave out the $a \geq b$ clause if the family is [[inhabited set|inhabited]].)  The same argument applies as before.  Note that each individual zigzag has finitely many zigs, and therefore involves finitely many of the opens $G_k$, even when taking the join of an infinite family.
 
 Finally, we must check the distributive law $G \cap \bigcup_k H_k \subseteq \bigcup_k (G \cap H_k)$.  That is, if $a \sim b$ directly through $G$ and $a \sim b$ through a zigzag of $H$s (or $a \geq b$), then we need that $a \sim b$ through a zigzag in which each zig is related both through $G$ and through some $H$ (or $a \geq b$).  To prove this (ignoring the trivial case where $a \geq b$), start with the zigzag of $H$s, and apply the zigzag lemma to get a zigzag of $H$s in which each zig involves values bounded by $a$ and $b$.  Then these zigs hold for $G$ as well, by property (2).  Therefore, we may interpret each zig using $G \cap H_k$ for some $k$, proving the desired result.
+
+This frame of opens, interpreted as a [[locale]], is __the locale of real numbers__.  As usual, we denote this locale with the same symbol as the top element of its frame, in this case $\mathbb{R}$.  (Of course, the true etymology of the symbols runs in the other order.)
 
 
 ## Open sets, closed sets, and points
@@ -88,16 +92,16 @@ A related question is whether we can reconstruct $G$ from the set of points whic
 
 ## Open intervals as opens
 
-Given rational numbers $a$ and $b$, the open interval $(a,b)$ may itself be interpreted as an open in the real line, also denoted $(a,b)$, as follows: let $(c,d) \subseteq (a,b)$ hold if every rational number strictly between $c$ and $d$ (in that order) is also strictly between $a$ and $b$ (in that order).  In other words, we interpret '${\subseteq}$' literally as comparing subsets of $\mathbb{Q}$.  It is straightforward to check that this condition does indeed define an open.  There is now a third way to interpret '$(c,d) \subseteq (a,b)$'; interpreting both intervals as opens in the real line, this states that the first is contained in the second.  But again, it is easy to check that this is equivalent; $(c,d) \subseteq (a,b)$ (in the set-theoretic sense) if and only if $(e,f) \subseteq (a,b)$ whenever $(e,f) \subseteq (c,d)$.
+Given rational numbers $a$ and $b$, the open interval $(a,b)$ may itself be interpreted as an open in the real line, also denoted $(a,b)$, as follows: let $(c,d) \subseteq (a,b)$ hold if every rational number strictly between $c$ and $d$ (in that order) is also strictly between $a$ and $b$ (in that order).  In other words, we interpret '${\subseteq}$' literally as comparing subsets of $\mathbb{Q}$.  It is straightforward to check that this condition does indeed define an open.  There is now a third way to interpret '$(c,d) \subseteq (a,b)$'; interpreting both intervals as opens in the real line, this states that the first is contained in the second.  But again, it is easy to check that this is equivalent; $(c,d) \subseteq (a,b)$ (in the set-theoretic sense) if and only if $(e,f) \subseteq (a,b)$ whenever $(e,f) \subseteq (c,d)$.  Notice that $(a,b) = \empty$ whenever $a \geq b$.
 
-We can actually generalise this somewhat.  Given any set $L$ of rational numbers and any set $U$ of rational numbers, we may define the open $(\inf U, \sup L)$ as follows: let $(a,b) \subseteq (\inf U, \sup L)$ hold if every rational number strictly between $a$ and $b$ (in that order) is greater than some element of $U$ and less than some element of $L$.  If the [[infimum]] of $U$ and the [[supremum]] of $L$ exist in the usual sense as rational numbers, then this agrees with the previous paragraph.  If instead $U$ or $L$ is the set of all rational numbers, then we write $-\infty$ for $\inf U$ or $\infty$ for $\sup L$.  In general, we may interpret $\inf U$ as an [[extended real number|extended]] [[upper real number|upper real]] and $\sup L$ as an extended [[lower real number|lower real]].  Classically, every extended upper or lower real is either a real number, $-\infty$, or $\infty$; only the converse holds constructively.
+We can actually generalise this somewhat.  Given any set $L$ of rational numbers and any set $U$ of rational numbers, we may define the open $(\inf U, \sup L)$ as follows: let $(a,b) \subseteq (\inf U, \sup L)$ hold if every rational number strictly between $a$ and $b$ (in that order) is greater than some element of $U$ and less than some element of $L$.  If the [[infimum]] of $U$ and the [[supremum]] of $L$ exist in the usual sense as rational numbers, then this agrees with the previous paragraph.  If instead $U$ or $L$ is the set of all rational numbers, then we write $-\infty$ for $\inf U$ or $\infty$ for $\sup L$.  In general, we may interpret $\inf U$ as an [[extended real number|extended]] [[upper real number|upper real]] and $\sup L$ as an extended [[lower real number|lower real]].  Classically, every extended upper or lower real is either a real number, $-\infty$, or $\infty$; only the converse holds constructively.  Notice that $(-\infty,\infty) = \mathbb{R}$.
 
 Since we will refer to them below, we will state for the record the definitions of $(-\infty,0)$ and $(1,\infty)$.  We have $(a,b) \subseteq (-\infty,0)$ iff every rational number strictly between $a$ and $b$ is negative, that is iff $a \geq b$ or $b \leq 0$.  Similarly, we have $(a,b) \subseteq (1,\infty)$ iff every rational number strictly between $a$ and $b$ is greater than $1$, that is iff $a \geq b$ or $a \geq 1$.  A fortiori, $(a,b) \subseteq (-\infty,0)$ if $b = 0$, and $(a,b) \subseteq (1, \infty)$ if $a = 1$.
 
 
 ## The Heine--Borel theorem
 
-The classical [[Heine-Borel theorem|Heine–Borel theorem]], as a statement about sets of real numbers, may fail constructively; this is related to the comments in the previous paragraph about the fan theorem.  But the beauty of the localic approach is that Heine--Borel necessarily holds when interpreted as a statement about opens in the locale of real numbers.  To state the theorem, we must define what it means for a collection of opens to [[cover]] the [[unit interval]].  We will give an ad-hoc definition, but this may also be derived from the general theory of [[closed sublocale]]s which allows us to interpret the unit interval as a [[compact space|compact]] locale in its own right.
+The classical [[Heine-Borel theorem|Heine–Borel theorem]], as a statement about sets of real numbers, may fail constructively; this is related to the comments above about the [[fan theorem]].  But the beauty of the localic approach is that Heine--Borel necessarily holds when interpreted as a statement about opens in the locale of real numbers.  To state the theorem, we must define what it means for a collection of opens to [[cover]] the [[unit interval]].  We will give an ad-hoc definition, but this may also be derived from the general theory of [[closed sublocale]]s which allows us to interpret the unit interval as a [[compact space|compact]] locale in its own right.
 
 +-- {: .un_defn}
 ###### Definition
@@ -118,7 +122,7 @@ Every open cover of the unit interval has a finite subcover.
 The proof is almost embarrassingly simple.  Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathcal{C}$.  If this equals $\mathbb{R}$, then in particular $(-1,2) \subseteq J$, a fact which is given by some zigzag $\zeta$.  This zigzag involves only finitely many of the elements of $\mathcal{C}$; let $\mathcal{D}$ be the collection of these, and let $K$ be the join of $(-\infty,0)$, $(1,\infty)$, and $\mathcal{D}$.  Now if $(a,b)$ is any pair of rational numbers, we construct a zigzag showing that $(a,b) \subseteq K$ as follows: the zig $(a,0) \subseteq (-\infty,0)$, the zag $0 \gt -1$, the zigzag $\zeta$ from $-1$ to $2$, the zag $2 \gt 1$, and the zig $(1,b) \subseteq (1,\infty)$.  This is always a valid zigzag, so $K = \mathbb{R}$.  Therefore, the finite collection $\mathcal{D}$ covers the unit interval.
 =--
 
-This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended'; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to bounded closed intervals.
+This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
 
 
 [[!redirects locale of real numbers]]
