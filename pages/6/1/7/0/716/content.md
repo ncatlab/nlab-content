@@ -4,12 +4,13 @@ A **compact closed category**, also called an **autonomous monoidal category**, 
 
 The Wikipedia entry isn't bad:
 
-* Wikipedia, [Compact closed category](http://en.wikipedia.org/wiki/Compact_closed_category).
+* Wikipedia, _[Compact closed category](http://en.wikipedia.org/wiki/Compact_closed_category)_ .
 
 Also see section 2.1 in:
 
-* Peter Selinger, Dagger compact closed categories and
-completely positive maps. [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf)
+* Peter Selinger, _Dagger compact closed categories and
+completely positive maps. [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf)_
 
 [[!redirects autonomous monoidal category]]
 [[!redirects autonomous category]]
+[[!redirects compact closed categories]]
