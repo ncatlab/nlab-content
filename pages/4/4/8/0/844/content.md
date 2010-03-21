@@ -16,19 +16,19 @@ Two different definitions are used in the literature, which are equivalent with 
 
 1. The **join** $C \star C'$ of two [[quasi-category|quasi-categories]] $C$ and $C'$ is the [[join of simplicial sets]] of their underlying [[simplicial set]]s.
 
-1. The join $C \diamondsuit D$ of two quasi-categories is the [[homotopy colimit]] 
+1. The join $C \diamondsuit D$ of two quasi-categories is something like the [[2-limit|lax colimit]]
 
    $$
      \array{
        C \times D &\stackrel{p_2}{\to}& D
        \\
-       {}^{\mathllap{p_1}} &\swArrow_\simeq& \downarrow
+       {}^{\mathllap{p_1}} &\swArrow& \downarrow
        \\
        C &\to& C \diamondsuit D
      }
    $$
 
-   modeled (since the [[model structure for quasi-categories]] is a [[category of fibrant objects|category of cofibrant objects]], see [[mapping cone]]) concretely as the ordinary [[colimit]]
+   namethe (compare [[mapping cone]]) the ordinary [[colimit]]
 
    $$
      \array{
@@ -45,9 +45,9 @@ Two different definitions are used in the literature, which are equivalent with 
      }
    $$   
  
-   in [[SSet]].
+   in [[sSet]].
 
-Indeed, the join of two [[simplicial set]]s that happen to be [[quasi-category|quasi-categories]] is itself a quasi-category, due to
+Indeed, the join of two [[simplicial set]]s that happen to be [[quasi-category|quasi-categories]] is itself a quasi-category.
 
 ## Properties
 
