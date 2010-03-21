@@ -205,6 +205,10 @@ This was further developed in
 
 * [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
 
+A recent presentation on this:
+
+* [[Ian Durham]], _Categorical quantum channels: Attacking the quantum version of Birkhoff's theorem with category theory_ ([pdf](http://ncatlab.org/nlab/files/apstalk.pdf))
+
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
 [[!redirects quantum operation]]
