@@ -1,3 +1,10 @@
+# $\sigma$-Ideals
+* table of contents
+{: toc}
+
+
+## Idea
+
 A $\sigma$-ideal is a collection of sets (either [[subset]]s of an ambient set or [[pure set]]s) that are considered 'small' in some fashion.  Unlike the notion of 'small' in [[small category]], this is not expected to be closed under most infinitary operations, but it *is* expected to be closed under [[countable set|countably]] infinitary operations, in particular under countable [[union]].
 
 
@@ -8,7 +15,7 @@ Let $X$ be a [[set]].  Then a $\sigma$-ideal on $X$ is a collection $\mathcal{I}
 1.  If $A_1, A_2, \ldots \in \mathcal{I}$, then there exists $B$ such that $B \in \mathcal{I}$ and $\bigcup_i A_i \subseteq B$; in light of (1), $B$ may be assumed to be the [[union]] $\bigcup_i A_i$ itself.
 1.  Some set belongs to $\mathcal{I}$; in light of (1), the [[empty set]] $\empty \in \mathcal{I}$.
 
-A __base__ of a $\sigma$-ideal is any collection satisfying (2,3); a base is precisely what generates a $\sigma$-ideal by closing under subsets.  A __subbase__ of a $\sigma$-ideal is any collection at all; a subbase generates a base by closing under countable unions.
+A __[[base]]__ of a $\sigma$-ideal is any collection satisfying (2,3); a base is precisely what generates a $\sigma$-ideal by closing under subsets.  A __[[subbase]]__ of a $\sigma$-ideal is any collection at all; a subbase generates a base by closing under countable unions.
 
 Instead of a set, $X$ may easily be a [[proper class]]; then the elements of $\mathcal{I}$ may be restricted to subclasses that are actually sets.  One may take $X$ to be the class of all [[pure set]]s; from the perspective of material [[set theory]], this actually includes the general case above.
 
@@ -26,3 +33,9 @@ As defined above, a $\sigma$-ideal $\mathcal{I}$ is a subset of the [[power set]
 ## Properties
 
 Of course, any $\sigma$-ideal in an [[ideal]].  A $\sigma$-ideal is a $\sigma$-[[sigma-ring|ring]] in its own right.  In fact, a $\sigma$-ideal on $X$ is precisely simultaneously an ideal in and a sub-$\sigma$-ring of $\mathcal{P}X$.
+
+
+[[!redirects sigma-ideal]]
+[[!redirects sigma-ideals]]
+[[!redirects ∞-ideal]]
+[[!redirects ∞-ideals]]
