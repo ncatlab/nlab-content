@@ -5,13 +5,13 @@
 
 ## Idea
 
-A _dagger compact category_ is a category which is a 
+A _$\dagger$-compact category_ is a category which is a 
 
 * a [[compact closed category]] 
 
 and 
 
-* a [[dagger category]] 
+* a $\dagger$-[[dagger-compact category|category]] 
 
 in a compatible way.
 
@@ -23,9 +23,10 @@ So notably it is a [[monoidal category]] in which
 
 (Hence a $\dagger$-compact category is similar in flavor to an $(\infty,2)$-category with all adjoints in the sense of _[[On the Classification of Topological Field Theories]]_ .)
 
+
 ## Definition
 
-A category $C$ which is equipped with the structure of a [[dagger category]] and of a [[compact closed category]] is **dagger compact closed** if the dagger-operation takes units of dual objects to counits in that for every object $A$ of $C$ we have
+A category $C$ which is equipped with the structure of a $\dagger$-[[dagger-compact category|category]] and of a [[compact closed category]] is **$\dagger$-compact closed** if the dagger-operation takes units of dual objects to counits in that for every object $A$ of $C$ we have
 $$
   \array{
     && A \otimes A^*
@@ -41,10 +42,11 @@ $$
   \,.
 $$
 
+
 ## Examples
 
 * For $C$ a [[cartesian monoidal category]] 
-the category $Span_1(C)$ of [[span]]s in $C$ is dagger compact: the dagger operation is that of relabeling the legs of a span as source and target; every object $X$ is dual to itself with the unit and counit given by the span
+the category $Span_1(C)$ of [[span]]s in $C$ is $\dagger$-compact: the $\dagger$operation is that of relabeling the legs of a span as source and target; every object $X$ is dual to itself with the unit and counit given by the span
 $ X \stackrel{Id}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
 See
 
@@ -70,6 +72,8 @@ See also.
 
 * Peter Selinger, _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 
+
+[[!redirects dagger compact category]]
 [[!redirects dagger-compact category]]
 [[!redirects † compact category]]
 [[!redirects †-compact category]]
