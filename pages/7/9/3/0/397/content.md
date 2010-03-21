@@ -70,6 +70,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[JCMcKeown]]
 * [[Jeanine|Jeanine Daems]]
 * [[Jim Stasheff]]
+* [[JM]] (possibly one of the J. M.s listed elsewhere)
 * [[Jocelyn Paine]]
 * [[John Baez]]
 * [[John Cook]]
