@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 
 > under construction
 
@@ -51,8 +55,16 @@ physics, part of quantum mechanics; it requires special limiting assumptions (th
 
 [[Ian Durham]]: J.J. Sakurai's book *Modern Quantum Mechanics* (not to be confused with his *Advanced Quantum Mechanics* which is a field theory book) discusses quantum statistical mechanics under the guise of quantum mechanics as does the forthcoming book *Q-PSI: Quantum processes, systems, and information* by Schumacher and Westmoreland.  While it may not be entirely accurate, "quantum physics" and "quantum mechanics" are usually treated as being synonymous.
 
+## Quantum mechanics in terms of $\dagger$-compact categories
 
-## related entries
+Many aspects of quantum mechanics and [[quantum computation]] depend only on the abstract properties of [[Hilb]] characterized by the fact that it is a [[†-compact category]]. 
+
+For more on this see
+
+* [[quantum mechanics in terms of †-compact categories]].
+
+
+## Related entries
 
 * [[Hamilton operator]], [[semiclassical approximation]]
 
