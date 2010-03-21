@@ -109,6 +109,15 @@ The category of dagger simplicial sets (and dagger preserving maps)
 is the category of [[presheaf|presheaves]] on the category whose objects are the ordinals $[n]$, but where the maps $[m]\to [n]$ are order reversing or preserving.
 
 
+## Quantum mechanics in terms of $\dagger$-compact categories
+
+Large parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-categories that are 
+also [[compact closed categories]] in a compatible way -- [[dagger compact categories]].
+
+For more on this see 
+
+* [[quantum mechanics in terms of †-compact categories]].
+
 
 ## References
 
