@@ -44,7 +44,7 @@ Free ultrafilters on Boolean algebras are important in [[nonstandard analysis]] 
 
 ## Filterbases
 
-A subset $F$ of a lattice $L$ is a __filterbase__ if it becomes a filter when closed under axiom (1).  Equivalently, a filterbase is any downward-directed subset.  Any subset of a meet-semilattice may be used as a filter __subbase__; form a filterbase by closing under finite meets.
+A subset $F$ of a lattice $L$ is a __filter[[base]]__ if it becomes a filter when closed under axiom (1).  Equivalently, a filterbase is any downward-directed subset.  Any subset of a meet-semilattice may be used as a filter __[[subbase]]__; form a filterbase by closing under finite meets.
 
 A filterbase $F$ of sets is proper (that is, it generates a proper filter of sets) iff each set in $F$ is inhabited.  A filter subbase of sets is proper iff it satisfies the finite intersection property (well known in topology from a criterion for [[compact spaces]]): every finite collection from the subfilter has inhabited intersection.
 
