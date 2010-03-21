@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _dagger compact category_ is a category which is a 
 
@@ -10,7 +15,15 @@ and
 
 in a compatible way.
 
-#Definition#
+So notably it is a [[monoidal category]] in which
+
+* every object has a dual;
+
+* every morphism has an $\dagger$-adjoint.
+
+(Hence a $\dagger$-compact category is similar in flavor to an $(\infty,2)$-category with all adjoints in the sense of _[[On the Classification of Topological Field Theories]]_ .)
+
+## Definition
 
 A category $C$ which is equipped with the structure of a [[dagger category]] and of a [[compact closed category]] is **dagger compact closed** if the dagger-operation takes units of dual objects to counits in that for every object $A$ of $C$ we have
 $$
@@ -19,7 +32,7 @@ $$
     \\
     & {}^{\epsilon_A^\dagger}\nearrow
     \\
-    I && \downarrow^{\sigma_{A \times A^*}}
+    I && \downarrow^{\mathrlap{\sigma_{A \times A^*}}}
     \\
     & {}_{\eta_A}\searrow
     \\
@@ -28,7 +41,7 @@ $$
   \,.
 $$
 
-#Examples#
+## Examples
 
 * For $C$ a [[cartesian monoidal category]] 
 the category $Span_1(C)$ of [[span]]s in $C$ is dagger compact: the dagger operation is that of relabeling the legs of a span as source and target; every object $X$ is dual to itself with the unit and counit given by the span
@@ -38,7 +51,16 @@ See
   * John Baez, _Spans in quantum theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
 
 
-#References#
+## Quantum mechanics in terms of $\dagger$-compact categories
+
+Large parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-compact categories.
+
+For more on this see 
+
+* [[quantum mechanics in terms of †-compact categories]].
+
+
+## References
 
 The concept was introduced in 
 
@@ -47,3 +69,12 @@ The concept was introduced in
 See also.
 
 * Peter Selinger, _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
+
+[[!redirects dagger-compact category]]
+[[!redirects † compact category]]
+[[!redirects †-compact category]]
+
+[[!redirects dagger compact categories]]
+[[!redirects dagger-compact categories]]
+[[!redirects † compact categories]]
+[[!redirects †-compact categories]]
