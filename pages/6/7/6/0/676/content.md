@@ -7,7 +7,7 @@
   * [[classical physics]]
 
     * [[classical mechanics]]
-    * [[waves]]
+    * [[waves]] and [[optics]]
 
   * [[Hamiltonian mechanics]]
 
