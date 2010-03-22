@@ -10,7 +10,7 @@ A _D-module_ is a [[abelian sheaf|sheaf]] of [[modules]] over the [[sheaf]] $D_X
 
 ### In terms of sheaves on the deRham space
 
-The category of D-modules on $X$ may equivalently be identified with the category of [[quasicoherent sheaf|quasicoherent sheaves]] on its [[deRham space]] $dR(X)$.
+The category of D-modules on a smooth scheme $X$ may equivalently be identified with the category of [[quasicoherent sheaf|quasicoherent sheaves]] on its [[deRham space]] $dR(X)$ (in non-smooth case one needs to work in derived setting, with de Rham stack instead). 
 
 Remembering, from this discussion there, that 
 
@@ -58,6 +58,8 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 * A. Borel et al., _Algebraic D-modules_, Perspectives in Mathematics, Academic Press, 1987.
 
 * [[Masaki Kashiwara|M. Kashiwara]], W.Schmid, _Quasi-equivariant D-modules, equivariant derived category, and representations of reductive Lie groups_, Lie Theory and Geometry, in Honor of Bertram Kostant, Progress in Mathematics, Birkh&#228;user, 1994, pp. 457&#8211;488
+
+* P. Maisonobe, C. Sabbah, _D-modules coh&#233;rents et holonomes_, Hermann, Paris 1993. 
 
 ##Blog discussion
 
