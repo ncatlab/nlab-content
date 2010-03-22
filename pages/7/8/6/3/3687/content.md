@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc} 
@@ -12,7 +11,7 @@ The mirror symmetry means more precisely that the A-model attached to $X$ is iso
 The expression of mirror symmetry via $(\infty,1)$-categories is equivalent to the SCFT formulation according to the theorems of [[Maxim Kontsevich]] and independently by [[Kevin Costello]] which reconstruct the quantum field theory from a [[Calabi-Yau A-infinity-category]]. Kontsevich introduced the categorical variant in 1994 under the name **homological mirror symmetry**  and used the [[A-infinity-category|A∞-categories]] as a model for stable $(\infty,1)$-categories in his work. 
 
 The mirror symmetry conjecture roughly claims that every Calabi-Yau 3-fold has a mirror. In fact one considers (mirror symmetry for) degenerating families for Calabi-Yau 3-folds in large volume limit (what can be expressed precisely via the Gromov-Hausdorff metric). The appropriate definition of (an appropriate version of) the [[Fukaya category]] of a symplectic manifold is difficult to achieve in desired generality. 
-Invariants/tools of Fukaya category include symplectic [[Floer homology]] and [[quantum cohomology]]. Mirror symmetry is related to the [[T-duality]] on each fiber of an associated Lagrangian fibration (Strominger-Yau-Zaslow conjecture).  
+Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gromov-Witten invariants (building up the [[quantum cohomology]]). Mirror symmetry is related to the [[T-duality]] on each fiber of an associated Lagrangian fibration (Strominger-Yau-Zaslow conjecture).  
 
 
 ## References
@@ -32,6 +31,9 @@ Invariants/tools of Fukaya category include symplectic [[Floer homology]] and [[
 * Mark Gross, Bernd Siebert, _Mirror symmetry via logarithmic degeneration data I_, [math.AG/0309070](http://arxiv.org/abs/math/0309070), _From real affine geometry to complex geometry_, [math.AG/0703822](http://arxiv.org/abs/math/0703822), _Mirror symmetry via logarithmic degeneration data II_, [arxiv/0709.2290](http://arxiv.org/abs/0709.2290) 
 
 * Maxim Kontsevich, Yan Soibelman, _Homological mirror symmetry and torus fibrations_, [math.SG/0011041](http://arxiv.org/abs/math/0011041)
+
+* Yong-Geun Oh, Kenji Fukaya, _Floer homology in symplectic geometry and
+mirror symmetry_, Proc. ICM 2006, [pdf](http://www.math.wisc.edu/~oh/Oh-icm2006.pdf)
 
 * wikipedia: [mirror symmetry (string theory)](http://en.wikipedia.org/wiki/Mirror_symmetry_%28string_theory%29), [homological mirror symmetry](http://en.wikipedia.org/wiki/Homological_mirror_symmetry)
 
