@@ -24,7 +24,7 @@ See also [[topology]].
 * [[smooth scheme]], [[smooth morphism of schemes]], [[etale morphism]], [[formally smooth morphism]]
 * [[pure motive]], [[Voevodsky motive]]
 * [[D-module]], [[local system]], [[regular differential operator]], [[holonomic D-module]]
-* [[Grothendieck connection]], [[crystal]], [[diffiety]]
+* [[D-geometry]], [[Grothendieck connection]], [[crystal]], [[diffiety]]
 * [[flag variety]], [[geometric quantization]], [[coherent state]], [[orbit]], [[coadjoint orbit]]
 * [[Lie group]], [[Lie groupoid]], [[Lie algebroid]], [[Courant algebroid]]
 * [[Lie theory]], [[Lie's three theorems]], [[Erlangen program]]
