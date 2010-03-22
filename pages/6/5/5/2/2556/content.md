@@ -11,13 +11,14 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 An _infinitesimal interval object_ is like an [[interval object]] that is an [[infinitesimal space]].
 
 Where maps out of an [[interval object]] model paths that may arrange themselves into [[path ∞-groupoid]]s, maps out of infinitesimal interval object model infinitesimal paths that may arrange themselves into [[infinitesimal path ∞-groupoid in a smooth topos|infinitesimal path ∞-groupoid]].
 
-# Definition #
+
+## Definition
 
 In any [[lined topos]] $(\mathcal{T},(R,+,\cdot))$ the line object $R$ is naturally regarded as a [[interval object|cartesian interval object]]. 
 
@@ -38,7 +39,7 @@ $$
 If the [[lined topos]] $(\mathcal{T}, R)$ is also a [[smooth topos]] in that it satisfies the [[Kock-Lawvere axiom]] it makes sense to consider the [[subobject]] $D$ of $R$ defined as the [[equalizer]]
 
 $$
-  D = \lim\left( R \stackrel{\stackrel{(-)^2}{\to}}{\stackrel{0}{\to}} R \right)
+  D = \lim\left( R \stackrel{\stackrel{(-)^2}{\to}}{\underset{0}{\to}} R \right)
 $$
 
 or equivalently expressed in [[topos]] [[logic]] as
@@ -52,17 +53,9 @@ and think of $D$ as the **infinitesimal interval object** of the [[smooth topos]
 
 Various constructions induced by a finite [[interval object]] have their infinitesimal analog for infinitesimal interval objects.
 
-In particular, where the [[interval object]] $R$ induces the [[path ∞-groupoid in a lined topos]] $\Pi(-) : \mathcal{T} \to [\Delta^{op}, \mathcal{T}]$, the infinitesimal interval object induces the [[infinitesimal path ∞-groupoid in a smooth topos]] $\Pi^{inf}(-) : \mnathcal{T} \to [\Delta^{op}, \mathcal{T}]$ and a canonical inclusion
-
-$$
-  \Pi^{inf}(-) \hookrightarrow \Pi(-)
-  \,.
-$$
-
-While the [[k-morphism]]s in the finite path $\infty$-groupoid $\Pi(X)$ are $k$-dimensional families of path-connected points in $X$ -- as seen by $R$ -- the [[k-morphism]] in $\Pi^{inf}(X)$ are $(k+1)$-tuples of [[infinitesimal neighbour]] points in $X$ -- as seen by $D$.
 
 
-#Infintesimal path $\infty$-groupoid induced from infinitesimal interval#
+## Infintesimal path $\infty$-groupoid induced from infinitesimal interval
 
 +-- {: .query}
 
@@ -71,7 +64,7 @@ While the [[k-morphism]]s in the finite path $\infty$-groupoid $\Pi(X)$ are $k$-
 =--
 
 
-## introduction ##
+### Introduction 
 
 Recall the discussion at [[interval object]] of how the interval ${*}\sqcup {*} \stackrel{\to}{\to} R$ in $\mathcal{T}$ alone gave rise to the [[cosimplicial object]]
 
@@ -100,7 +93,7 @@ $$
   \array{
     && X^D \times D
     \\
-    & {}^{d_1 := p_{T X} p_1}\swarrow && \searrow^{d := ev}
+    & {}^{\mathllap{p_{T X}\circ p_1}}\swarrow && \searrow^{\mathrlap{ev}}
     \\
     X &&&& X
   }
@@ -126,12 +119,12 @@ $$
   \,.
 $$
 
-But not all elements $(v,\epsilon)$ define _different_ pairs of [[infinitesimal neighbour]] elements this way: specifically in the case that $X$ is a [[microlinear space]], the [[tangent bundle]] object $X^D$ is fiberwise $R$-linear, and thus for any $t \in R$ the elements $(v,t \epsilon)$ and $(t v, \epsilon)$ defne the same pair of [[infinitesimal neighbour]]s, $x = v(0)$ and $y = (t v)(\epsilon) = v(t \epsilon)$.
+But not all elements $(v,\epsilon)$ define _different_ pairs of [[infinitesimal neighbour]] elements this way: specifically in the case that $X$ is a [[microlinear space]], the [[tangent bundle]] object $X^D$ is fiberwise $R$-linear, and thus for any $t \in R$ the elements $(v,t \epsilon)$ and $(t v, \epsilon)$ define the same pair of [[infinitesimal neighbour]]s, $x = v(0)$ and $y = (t v)(\epsilon) = v(t \epsilon)$.
 
 We may identify such elements $(t v, \epsilon)$ and $(v, t \epsilon)$ by passing to the [[tensor product]] $X^D \otimes_R D$, i.e. the coequalizer of
 
 $$
-  X^D \times R \times D \stackrel{\stackrel{\cdot \times Id}{\to}}{\stackrel{Id \times \cdot}{\to}}
+  X^D \times R \times D \stackrel{\stackrel{\cdot \times Id}{\to}}{\underset{Id \times \cdot}{\to}}
   X^D \times D
 $$
 
@@ -139,7 +132,7 @@ where $\cdot$ here denotes the [[monoid]]-[[action]] of $(R,\cdot)$ on $D$ (by t
 
 In this same fashion we can then define infinitesimal analogs of the finite higher path object $X^{\Delta_R^k} = X^{R^{\times k}}$.
 
-## the definition ##
+### The definition 
 
 +-- {: .un_defn}
 ###### Definition
@@ -189,7 +182,7 @@ as follows:
     given by
 
     $$
-      d_0 : (\nu_i) \mapsto (v_0(\epsilon_0) + \vu_i)
+      d_0 : (\nu_i) \mapsto (v_0(\epsilon_0) + \nu_i)
     $$
 
     where the element on the right denotes the evaluation of the map $(\nu_i) : D(n) \to X$ in its first argument on $\epsilon_0$, regarded as an element in the fiber over $v_0(\epsilon_0)$.
@@ -233,7 +226,7 @@ This is made manifest by the following construction that embeds $\Pi^{inf}(X)$ i
 =--
 
 
-## the inclusion of infinitesimal into finite paths ##
+### The inclusion of infinitesimal paths into finite paths ##
 
 Recall the finite path $\infty$-groupoid $\Pi(X)$ induced from the [[interval object]]
 
@@ -276,7 +269,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-These morphism $(\iota_n)$ constitute respect the face and degeneracy maps on both sides and hence induce an inclusion of simplicial objects
+These morphism $(\iota_n)$ respect the face and degeneracy maps on both sides and hence induce an inclusion of simplicial objects
 
 $$
   \Pi^{inf}(X) \hookrightarrow \Pi(X)
@@ -291,6 +284,37 @@ Straightforward checking on [[generalized element]]s.
 
 =--
 
+### Properties
+
+> under construction
+
+Let  $X$ be a micorlinear space. 
+
+We want to show that the morphism of simplicial sets
+
+$$
+  Hom(U \times D, X^{(\Delta_\inf)^\bullet})
+  \to
+  Hom(U , X^{(\Delta_\inf)^\bullet})
+$$
+
+induced by pullback along $U \simeq U \times * \to U \times D$
+is a [[weak homotopy equivalence]].
+
+...
 
 
+Let $f : U \times D \to X$ be a morphism. Then 
 
+$$
+  \array{
+    && U \times D
+    \\
+    &{}^{\mathllap{f(-,*)}}\swarrow& \downarrow & \searrow^{\mathrlap{f}}
+    \\
+    X &\underset{p_{T X} p_1}{\leftarrow}& X^D \times D &\underset{ev}{\to}& X
+  }
+  \,,
+$$
+
+where the vertical morphism is $(u, \epsilon) \mapsto (f(u,-),\epsilon)$, so that the left diagonal morphism is $(u,\epsilon) \mapsto f(u,*)$ exhibits a homotopy in $Hom(U\times D, X^{(\Delta^\bullet_{inf})})$ from $f : U \times D \to X$ to $U \times D \to U \times * \simeq U \to X$.
