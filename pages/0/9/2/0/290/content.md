@@ -32,3 +32,5 @@ Ours is the age to figure this out.
 #References#
 
 For references see [[FQFT]] and [[AQFT]].
+
+[[!redirects QFT]]
