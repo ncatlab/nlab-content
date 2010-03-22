@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **geometric embedding** is the right notion of embedding or inclusion of [[topoi]] $F \hookrightarrow E$.
+A **geometric embedding** is the right notion of embedding or inclusion of [[topoi]] $F \hookrightarrow E$, i.e. of [[subtopos]]es.
 
 Notably the inclusion $Sh(S) \hookrightarrow PSh(S)$ of a [[category of sheaves]] into its [[presheaf]] [[topos]] or more generally the inclusion $Sh_j E \hookrightarrow E$ of sheaves in a topos $E$ into $E$ itself, is a geometric embedding. Actually every geometric embedding is of this form, up to equivalence of [[topos|topoi]].
 
@@ -19,7 +19,7 @@ $$
   F \stackrel{f}{\to}
   E
   \;\;\;\;
-  F \stackrel{\stackrel{f_*}{\to}}{\stackrel{f^*}{\leftarrow}} E
+  F \stackrel{\stackrel{f_*}{\to}}{\underset{f^*}{\leftarrow}} E
 $$
 
 is a **geometric embedding** if the following equivalent conditions are satisfied
