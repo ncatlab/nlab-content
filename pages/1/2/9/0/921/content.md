@@ -23,7 +23,7 @@ Exactly how to define or characterise real numbers is still important in [[const
 
 ### The locale of real numbers
 
-A [[constructive mathematics|constructive]] construction of the real numbers is discussed at 
+A [[constructive mathematics|constructive]] construction of the real line is discussed at 
 
 * [[locale of real numbers]]
 
@@ -44,17 +44,24 @@ $$
   \,.
 $$
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 The terminal coalgebra of $F_1$ is order isomorphic to the non-negative real line $\mathbb{R}^+$, with its standard order.
+=--
 
-**Proof** This is theorem 5.1 in
++-- {: .proof}
+###### Proof
+
+This is theorem 5.1 in
 
 * D. Pavlovic, [[Vaughan Pratt]], _On coalgebra of real numbers_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
-
+=--
 
 > There are more and similar characterizations along these lines. Hopefully we can eventually fill them in here.
 
+
+[[!redirects real number]]
+[[!redirects real numbers]]
 [[!redirects real line]]
 [[!redirects real number line]]
-[[!redirects real numbers]]
