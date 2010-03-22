@@ -1,4 +1,8 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 A **coverage** on a [[category]] $C$ consists of, for each object $U\in C$, a collection of families $\{f_i:U_i\to U\}_{i\in I}$ of [[morphisms]] with [[target]] $U$ to be thought of as [[cover|covering families]].  The essential characteristic of these covering families is that they be "stable under [[base change|pullback]]."  A number of other "saturation" conditions are frequently also imposed for convenience.  A category equipped with a coverage is called a [[site]].
 
@@ -9,7 +13,7 @@ Another perspective on a coverage is that the covering families are "postulated 
 The traditional name for a coverage, with the extra saturation conditions imposed, is a [[Grothendieck topology]], and this is still widely used in mathematics.  Following the [[Elephant]], on this page we use _coverage_ for a pullback-stable system of covering families and _Grothendieck coverage_ if the extra saturation conditions are imposed.  See [[Grothendieck topology]] for a discussion of the objections to that term.
 
 
-# Definition #
+## Definition 
 
 
 
@@ -20,6 +24,17 @@ The traditional name for a coverage, with the extra saturation conditions impose
 A **coverage** on a category $C$ consists of a collection of families of coterminal morphisms $\{f_i:U_i\to U\}_{i\in I}$, called _covering families_, such that
 
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and $g:V\to U$ is a morphism, then there exists a covering family $\{h_j:V_j\to V\}$ such that each composite $g h_j$ factors through some $f_i$.
+
+$$
+  \array{
+    V_i &\stackrel{\exists}{\to}& U_j
+    \\
+    \downarrow && \downarrow
+    \\
+    V &\underset{\forall }{\to}& U
+  }
+  \,.
+$$
 
 =--
 
@@ -34,7 +49,7 @@ A [[site]] is a category equipped with a coverage.
 Often [[site]]s are required to be [[small category|small]]; see [[large site]] for complications that may otherwise arise.
 
 
-### Sheaves on a site ###
+### Sheaves on a site 
 
 See [[sheaf]], of course, but it seems appropriate to briefly recall the concept here.  If $\{f_i:U_i\to U\}_{i\in I}$ is a family of coterminal morphisms, a [[presheaf]] $X:C^{op}\to Set$ is called a **sheaf** for this family if
 
@@ -42,10 +57,10 @@ See [[sheaf]], of course, but it seems appropriate to briefly recall the concept
 
 If $C$ is a site, a presheaf $X:C^{op}\to Set$ is called a **sheaf** on $C$ if it is a sheaf for every covering family in $C$.  We call a site $C$ **subcanonical** if every representable functor $C(-,c):C^{op}\to Set$ is a sheaf.
 
-The category $Sh(C)$ of sheaves is a full [[subcategory]] of the category $[C^{op},Set]$ of presheaves.  If $C$ is subcanonical, then its [[Yoneda embedding]] $C\to [C^{op},Set]$ factors through $Sh(C)$.  If $C$ is small, then $Sh(C)$ is [[reflective subcategory|reflective]] in $[C^{op},Set]$ and a [[Grothendieck topos]].
+The [[category of sheaves]] $Sh(C)$ is a full [[subcategory]] of the category $[C^{op},Set]$ of presheaves.  If $C$ is subcanonical, then its [[Yoneda embedding]] $C\to [C^{op},Set]$ factors through $Sh(C)$.  If $C$ is small, then $Sh(C)$ is [[reflective subcategory|reflective]] in $[C^{op},Set]$ and a [[Grothendieck topos]].
 
 
-### Sites with pullbacks ###
+### Sites with pullbacks 
 
 If, as is frequently the case, $C$ has [[pullback|pullbacks]], then it is natural to impose the following stronger condition:
 
@@ -60,7 +75,7 @@ X(U) \to \prod_{i\in I} X(U_i) \rightrightarrows \prod_{i,j\in I} X(U_i\times_U 
 The generalization to [[stack|stacks]] using [[cosimplicial object|cosimplicial objects]] is then straightforward.
 
 
-### Saturation conditions ###
+### Saturation conditions 
 
 The collection of covering families can be "closed up" under a number of convenient operations without changing the notion of sheaf.
 
@@ -73,7 +88,7 @@ The collection of covering families can be "closed up" under a number of conveni
 1. For any family $\{f_i:U_i\to U\}_{i\in I}$, the [[sieve]] it generates is the family of all morphisms $g:V\to U$ which factor through some $f_i$.  A presheaf $X$ is a sheaf for $\{f_i\}$ iff it is a sheaf for the sieve it generates.
 
 
-### Grothendieck coverages ###
+### Grothendieck coverages 
 
 Grothendieck originally considered only coverages that are closed under some or all of the above saturation conditions.  
 
@@ -85,7 +100,7 @@ Because of the final condition, we may choose to consider only covering _sieves_
 
 * If $R$ is a covering sieve on $U$ and $S$ is an arbitrary sieve on $U$ such that for each $f:V\to U$ in $R$, $f^*(S)$  is a covering sieve on $V$, then $S$ is also a covering sieve on $U$.
 
-One can then show that for every coverage, there is a _unique_ Grothendieck coverage having the same sheaves.  When $C$ is small, then Grothendieck coverages on $C$ are also in bijective correspondence with [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] on its presheaf topos $[C^{op},Set]$, and thus in bijection with [[subtopos|subtoposes]] of $[C^{op},Set]$.
+One can then show that for every coverage, there is a _unique_ Grothendieck coverage having the same sheaves.  When $C$ is small, then Grothendieck coverages on $C$ are also in bijective correspondence with [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] on its presheaf topos $[C^{op},Set]$, and thus in bijection with [[subtopos|subtoposes]] of $[C^{op},Set]$. For more on this see [[category of sheaves]].
 
 On the other hand, it is often useful to consider only pullback-stable covering families, without needing to close them up into sieves satisfying the saturation conditions.  For instance, in many cases the generating covering families will be finite and easy to describe.  As we saw above, the notion of sheaf can also be defined more explicitly in terms of covering families, especially when $C$ has pullbacks.
 
@@ -96,7 +111,7 @@ Frequently, though, these covering families will satisfy at least some of the sa
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and for each $i$, so is $\{h_{i j}:U_{i j} \to U_i\}_{j\in J_i}$, then $\{f_i h_{i j}:U_{i j}\to U\}_{i\in I, j\in U_i}$ is also a covering family.
 
 
-# Examples #
+## Examples 
 
 * As remarked above, the families of inclusions such that $U = \bigcup_i U_i$ form a coverage on the poset $O(X)$ of opens in a topological space.  Sheaves for this coverage are the usual notion of sheaf on a space.  It is subcanonical.
 
@@ -117,7 +132,7 @@ Frequently, though, these covering families will satisfy at least some of the sa
 * The canonical coverage on a [[Grothendieck topos]] coincides with its geometric coverage, and moreover every sheaf for this coverage is representable.  That is, a Grothendieck topos is a ([[large site|large]]) site which is equivalent to its own category of sheaves.
 
 
-# Applications #
+## Applications 
 
 In addition to the construction of [[sheaf|sheaves]] and [[stack|stacks]], other (not unrelated) applications of coverages include:
 
@@ -126,8 +141,8 @@ In addition to the construction of [[sheaf|sheaves]] and [[stack|stacks]], other
 * The construction of [[folk model structure|model structures for internal categories]].
 
 
-# References #
+## References 
 
-* Johnstone, [[Elephant|Sketches of an Elephant]], especially section C2.1.
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ , especially section C2.1.
 
-* Anders Kock, [Postulated colimits and left exactness of Kan-extensions](http://home.imf.au.dk/kock/postulated.pdf).
+* [[Anders Kock]], _[Postulated colimits and left exactness of Kan-extensions](http://home.imf.au.dk/kock/postulated.pdf)_
