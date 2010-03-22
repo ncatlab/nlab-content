@@ -2,9 +2,6 @@
 * tic
 {: toc}
 
-## Terminology and wording
-
-In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_, but [Springer's Encyclopedy](http://eom.springer.de/C/c020780.htm) requires for a category with involution additional conditions namely a partial order on the set of morphisms and that the order is compatible with the composition of morphisms.
 
 ## Idea
 
@@ -39,6 +36,31 @@ which is the identity on objects, and which satisfies $\dagger \circ \dagger = \
 Note that regarded as an extra structure on categories, a dagger structure is [[evil]], since it imposes equations on objects.
 
 
+### Unitary morphisms
+
++-- {: .un_defn}
+###### Definition
+
+A morphism $f$ in a dagger category is called **unitary** if its dagger-adjoint equals its [[inverse]]:
+
+$$
+  f^\dagger = f^{-1}
+  \,.
+$$
+
+=--
+
+
+For the purpose of considering what makes two objects of a $\dagger$-category [[equivalence|equivalent]], one should not consider all [[isomorphism]]s (invertible morphisms) but rather all unitary isomorphisms.
+
+The unitary isomorphisms form a [[groupoid]], which may be regarded as the _dagger-[[core]]_ of the $\dagger$-category.
+
+
+For example, in [[Hilb]], there are many invertible linear operators, but only those of norm $1$ (the invertible isometries) are unitary.
+
+
+
+
 ### The category of dagger-categories {#CatOfDagCats}
 
 A morphism $F : (C, \dagger) \to (D, \ddagger)$ of dagger-categories -- a **dagger-functor** -- is a [[functor]] $F : C \to D$ of the underlying categories, which commutes with the dagger-structures in that
@@ -48,32 +70,48 @@ $$
   \,.
 $$
 
-A [[natural transformation]] between dagger-functors is just a natural transformation of the underlying functors. This makes the $\dagger$-[[functor category]] $[F,G]$ between two $\dagger$-functors $F,G : (C,\dagger) \to (D, \ddagger)$ itself naturally a $\dagger$-category:
+A [[natural transformation]] between dagger-functors is just a natural transformation of the underlying functors. 
 
-the adjoint of a natural transformation is given by the componentwise adjoint in $(D,\ddagger)$:
++-- {: .un_defn}
+###### Definition
 
-for let $f : a \to b$ be a morphism in $C$, and 
+The dagger-adjoint $\eta^*$ of a natural transformation 
+
+$$
+  \eta : F \to G 
+$$
+
+between two dagger-functors $F, G : (C,\dagger) \to (D,\ddagger)$ is given by the componentwise $\ddagger$-adjoint:
+
+$$
+  (\eta^*)_a := (\eta_a)^\ddagger
+  \,.
+$$
+
+=--
+
+To check that $\eta^*$ is indeed a natural transformation $\eta^* : G \to F$
+consider $f : a \to b$ any morphism in $C$ and $f^\dagger : b \to a$ its $\dagger$-adjoint and let 
 
 $$
   \array{
     F(a) &\stackrel{\eta_a}{\to}& G(a)
     \\
-    \downarrow^{\mathrlap{F(f)}} && \downarrow^{\mathrlap{G(f)}}
+    \uparrow^{\mathrlap{F(f^\dagger)}} && \uparrow^{\mathrlap{G(f^\dagger)}}
     \\
     F(b) &\stackrel{\eta_b}{\to}& G(b)
   }
-  \,,
 $$
 
-the naturality square of a natural transformation $\eta : F \to G$, then its $\ddagger$-adjoint 
+be the corresponding naturality square of $\eta$. Taking the $\ddagger$-adjoint of the entire diagram yields
 
 $$
   \array{
     F(a) &\stackrel{\eta_a^\ddagger}{\leftarrow}& G(a)
     \\
-    \uparrow^{\mathrlap{F(f)^{\ddagger}}} 
+    \downarrow^{\mathrlap{F(f^\dagger)^{\ddagger}}} 
     && 
-    \uparrow^{\mathrlap{G(f)^{\ddagger}}}
+    \downarrow^{\mathrlap{G(f^\dagger)^{\ddagger}}}
     \\
     F(b) &\stackrel{\eta_b^{\ddagger}}{\leftarrow}& G(b)
   }
@@ -81,23 +119,82 @@ $$
   =
   \;\;\;
   \array{
-    F(a) 
-      &\stackrel{\eta_a^\ddagger}{\leftarrow}& 
-    G(a)
+    F(a) &\stackrel{\eta_a^\ddagger}{\leftarrow}& G(a)
     \\
-    \uparrow^{\mathrlap{F(f^\dagger)}} 
-     && 
-    \uparrow^{\mathrlap{G(f^\dagger)}}
+    \downarrow^{\mathrlap{F(f)}} 
+    && 
+    \downarrow^{\mathrlap{G(f)}}
     \\
-    F(b) 
-     &\stackrel{\eta_b^{\ddagger}}{\leftarrow}&
-     G(b)
+    F(b) &\stackrel{\eta_b^{\ddagger}}{\leftarrow}& G(b)
   }
 $$
 
-is the corresponding naturality square on $f^\dagger: b \to a$ of the adjoint natural transformation $\eta^* : G \to F$ with components $\eta^*_a := (\eta_a)^{\ddagger}$. 
+by the fact that $F$ and $G$ are dagger-functors. This is the naturality square over $f$ of $\eta^* : G \to F$.
 
-...
+
++-- {: .un_def}
+###### Definition
+
+Write $DagCat$ for the [[category]] whose objects are dagger-categories and whose morphisms are dagger-functors.
+
+For $(C,\dagger)$ and $(D,\dagger)$ two dagger-categories, write 
+$([(C,\dagger),(D,\ddagger)]_{dag}, \star) \in DagCat$ for the dagger-category whose objects are dagger-functors, whose morphisms are natural transformations, with the dagger-operation $\star : \eta \mapsto \eta^*$ as above.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The assignment $((C,\dagger),(D,\ddagger)) \mapsto [(C,\dagger),(D,\ddagger)]_{dag}, \star)$ extends to an [[internal hom]]-functor
+
+$$
+  [-,-] : DagCat^{op} \times DagCat \to DagCat
+$$
+
+that makes $DagCat$ into a [[cartesian closed category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows step-by-step the standard proof that [[Cat]] is cartesian closed, while observing that each step respects the respect for dagger-structures.
+
+To indicate the main point, let $C, D$ and $E$ be dagger categories and consider a functor $F : C \times D \to E$. For $(f : c_1 \to c_2) \in C$ and $(g : d_1 \to d_2) \in D$ we have natural assignments
+
+$$
+  \array{
+    (c_1, d_1) &\stackrel{(Id,g)}{\to}& (c_1, d_2)  
+    \\
+    \downarrow^{\mathrlap{(f,Id)}} &\searrow^{(f,g)}& \downarrow^{\mathrlap{(f,Id)}}
+    \\
+    (c_2, d_1)
+    &\stackrel{(Id,g)}{\to}&
+    (c_2, d_2)
+  }
+  \;\;\;\;\;
+  \mapsto
+  \;\;\;\;\;
+  \array{
+    F(c_1, d_1) &\stackrel{F(Id,g)}{\to}& F(c_1, d_2)  
+    \\
+    \downarrow^{\mathrlap{F(f,Id)}} && \downarrow^{\mathrlap{F(f,Id)}}
+    \\
+    F(c_2, d_1)
+    &\stackrel{F(Id,g)}{\to}&
+    f(c_2, d_2)
+  }
+$$ 
+
+that respect daggering all morphisms, in the evident way.
+
+Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \to E$ dagger functors. We see from the diagrams that $F(-,(d_1 \stackrel{g}{\to}) d_2)$ is a natural transformation between these dagger-functors, and the fact that $F$ intertwines the dagger operation of $D$ with that of $E$ means $F$ regarded as a functor $D \to [C,E]$ intertwines the dagger-structures of $D$ and $[D,E]_{dag}$, by the above definition.
+
+=--
+
+## Terminology and wording
+
+In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_, but [Springer's Encyclopedy](http://eom.springer.de/C/c020780.htm) requires for a category with involution additional conditions namely a partial order on the set of morphisms and that the order is compatible with the composition of morphisms.
 
 
 ## Examples
@@ -109,16 +206,10 @@ is the corresponding naturality square on $f^\dagger: b \to a$ of the adjoint na
 * $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a dagger category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
 
 
-## Underlying groupoid
 
-For the purpose of considering what makes two objects of a $\dagger$-category [[equivalence|equivalent]], one should not consider all [[isomorphism]]s (invertible morphisms) but rather all **unitary isomorphisms**: those morphisms $f$ whose adjoint is their inverse.
+## Exztensions and generalizations
 
-For example, in $Hilb$, there are many invertible linear operators, but only those of norm $1$ (the invertible isometries) are unitary.
-
-The unitary isomorphisms form a [[groupoid]], which may be regarded as the _[[core]]_ of the $\dagger$-category.
-
-
-## Model structure on dagger-categories {#ModelStructure}
+### Model structure on dagger-categories {#ModelStructure}
 
 > the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
 
@@ -160,7 +251,7 @@ There a homotopy limit sketch whose category of models (in spaces)
 is [[Quillen equivalence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
 
 
-##  $(\infty,1)$-dagger-categories {##oo1Version}
+###  $(\infty,1)$-dagger-categories {##oo1Version}
 
 
 > the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
@@ -173,7 +264,11 @@ The category of dagger simplicial sets (and dagger preserving maps)
 is the category of [[presheaf|presheaves]] on the category whose objects are the ordinals $[n]$, but where the maps $[m]\to [n]$ are order reversing or preserving.
 
 
-## Quantum mechanics in terms of $\dagger$-compact categories
+
+## Applications
+
+
+### Quantum mechanics in terms of $\dagger$-compact categories
 
 Large parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-categories that are 
 also [[compact closed categories]] in a compatible way -- [[dagger compact categories]].
