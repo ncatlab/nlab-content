@@ -26,9 +26,10 @@
 * [[topology and geometry|Topology and Geometry]]
   * [[geometry]] (general list), [[topology]] (general list)
   * [[general topology]]
-     * [[differential geometry]]
-     * [[synthetic differential geometry]]
   * [[differential topology]]
+  * [[differential geometry]]
+     * [[synthetic differential geometry]]
+     * [[symplectic geometry]]
   * [[algebraic geometry]]
   * [[noncommutative algebraic geometry]]
   * [[noncommutative geometry]] (general flavour)
