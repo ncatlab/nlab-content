@@ -1,6 +1,17 @@
-Theory of meromorphic connections is a modern viewpoint on a class of [[ordinary differential equation|systems of ODE]]-s on complex analytic manifolds. 
 
-1-d case: Consider the field $\mathcal{K}$ of meromorphic functions in a neighborhood of $0\in \mathbb{C}$ with possible pole at $0$ and a finite dimensional $\mathcal{K}$-module $M$. A **meromorphic** connection at $x=0$ is an operator $\nabla:M\to M$ satisfying
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The theory of **meromorphic connections** is a modern viewpoint on a class of [[ordinary differential equation|systems of ODE]]-s on [[complex analytic manifold]]s. 
+
+## Definition
+
+### 1-Dimensional case
+
+Consider the field $\mathcal{K}$ of meromorphic functions in a neighborhood of $0\in \mathbb{C}$ with possible pole at $0$ and a finite dimensional $\mathcal{K}$-module $M$. A **meromorphic** connection at $x=0$ is an operator $\nabla:M\to M$ satisfying
 
 $$
 \nabla(fu) = \frac{df}{dx}u + f\nabla(u),\,\,\,\,f\in\mathcal{K}, u\in M
@@ -17,6 +28,8 @@ There is also an inner hom, namely $HOM((M,\nabla_M),(P,\nabla_P))$ is $Hom_{\ma
 $$
 \nabla(\phi)(u) = \nabla_P (\phi(u)) - \phi(\nabla_M (u)),\,\,\,\,u\in M, \phi:M\to N.
 $$
+
+## References
 
 * chapter 5, _Theory of meromorphic connections_, from R. Hotta, K. Takeuchi, T. Tanisaki, _D-modules, perverse sheaves, and representation theory_, Progress in Mathematics __236__, Birkh&#228;user
 
