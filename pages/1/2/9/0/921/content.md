@@ -1,6 +1,15 @@
-## Idea ##
 
-A real number is an approximation of a [[rational number]].  (This is if you use the usual ordering of rational numbers; others will give the idea of $p$-[[adic number|adic numbers]].)
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
+
+A real number is what is approximated by a sequence of [[rational number]]s.  
+
+(This is if one uses the usual [[order|ordering]] of rational numbers; others will give the idea of $p$-[[adic number|adic numbers]].)
+
+### Formalizations and their history
 
 The original idea of a real number came from [[geometry]]; one thinks of a real number as specifying a point on a line.  (More precisely, given two distinct points on the line, called $0$ and $1$, you get a [[bijection]] between the points and the real numbers.)  [[Euclid]] (citing [[Eudoxus]]) dealt with ratios of geometric magnitudes, which give positive real numbers; an arbitrary real number is then a difference of ratios of magnitudes.  (But the Greeks did not think of such ratios as numbers.)
 
@@ -10,6 +19,41 @@ A more modern approach is instead to characterise the properties that the set of
 
 Exactly how to define or characterise real numbers is still important in [[constructive mathematics]] and [[topos]] theory.  We should consider possible definitions (including those that don\'t make the numbers primary) and their consequences below, but I\'m done writing for now.  See also [[locale of real numbers]].
 
+## Definitions and characterizations
+
+### The locale of real numbers
+
+A [[constructive mathematics|constructive]] construction of the real numbers is discussed at 
+
+* [[locale of real numbers]]
+
+### Characterization in terms of terminal coalgebras
+
+The real line $\mathbb{R}$, or at least the positive real line $\mathbb{R}^+$, may be characterized as the [[terminal object|terminal]] [[coalgebra for an endofunctor]]
+
+Let [[Pos]] be the [[category]] of [[poset]]s. Consider the endofunctor
+
+$$
+  F_1 : Pos \to Pos
+$$
+
+that acts by [[ordinal product]] with $\omega$
+
+$$
+  F_1 : X \mapsto X \cdot \omega
+  \,.
+$$
+
+**Proposition**
+
+The terminal coalgebra of $F_1$ is order isomorphic to the non-negative real line $\mathbb{R}^+$, with its standard order.
+
+**Proof** This is theorem 5.1 in
+
+* D. Pavlovic, [[Vaughan Pratt]], _On coalgebra of real numbers_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
+
+
+> There are more and similar characterizations along these lines. Hopefully we can eventually fill them in here.
 
 [[!redirects real line]]
 [[!redirects real number line]]
