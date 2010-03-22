@@ -1,6 +1,6 @@
 Given an [[ordinary differential equation]] (ODE) with meromorphic coefficients, solutions will also in general be multivalued functions; thus associated monodromies around poles are of importance. 
 
-**21st Hilbert problem**: Given a series of point in a complex plane and prescribed monodromies around these points, is there an ODE with these monodromy ? 
+**21st Hilbert problem**: Given a series of points in a complex plane and prescribed monodromies around these points, is there an ODE with these monodromies? 
 
 In general the answer is negative as it follows by the counterexample provided by Bolibruh (see [wikipedia: Hilbert 21](http://en.wikipedia.org/wiki/Hilbert%27s_twenty-first_problem)).
 
