@@ -28,6 +28,7 @@ $$
 
 to the domain projection $dom : T_C \to C$ turns out to send each $A$ to its [[cotangent complex]] $\Omega(A)$, to be thought of as the module of [[Kähler differential]]s on the space that $A$ is functions on.
 
+A [[category theory|1-categorical]] approximation to the notion of tangent $(\infty,1)$-categoy is that of [[tangent category]].
 
 ## Definition
 
