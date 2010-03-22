@@ -95,9 +95,14 @@ Now if $f,g\colon d\to d'$ are parallel morphisms and $\Sigma_f=\Sigma_g$, then 
 This subcategory of $Corolla$ is usually *not* full, however.  In particular, for $d\in D$ the corolla $D/d$ will generally admit more automorphisms than $d$ has in $D$.  For instance, if $D$ is a non-generalized direct category, then $d$ has no nontrivial automorphisms, whereas $D/d$ generally will.  In particular, if the objects of $D$ have any sort of "orientation" or "labeling," then this information is forgotten by the functor $ext_D$.
 
 
+[[!redirects direct category]]
 [[!redirects direct categories]]
 [[!redirects inverse category]]
 [[!redirects inverse categories]]
 [[!redirects one-way category]]
+[[!redirects one-way categories]]
 [[!redirects category with finite fan-out]]
+[[!redirects categories with finite fan-out]]
+[[!redirects categories with finite fan-outs]]
 [[!redirects simple category]]
+[[!redirects simple categories]]
