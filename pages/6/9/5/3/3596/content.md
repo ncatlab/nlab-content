@@ -54,7 +54,7 @@ These rules may seem a little ad-hoc, but they are actually a particular case of
 
 References:
 
-* Benno van den Berg and Richard Garner, *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
+* Benno van den Berg, [[Richard Garner]], *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
 
 * Peter Lumsdaine, *Weak $\omega$-categories from intensional type theory*, [arXiv:0812.0409](http://arxiv.org/abs/0812.0409)
 
