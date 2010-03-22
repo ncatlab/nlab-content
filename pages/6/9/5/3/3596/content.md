@@ -1,16 +1,21 @@
-# Idea
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 In [[type theory]] under the [[propositions as types]] paradigm, an **identity type** is the incarnation of [[equality]].  That is, for any type $A$ and any terms $x,y:A$, the type $Id_A(x,y)$ is "the type of proofs that $x=y$" or "the type of reasons why $x=y$".
 
 In *extensional* type theory, such as that modeled in the [[internal logic]] of a 1-category, equality is simply a [[proposition]], and hence each $Id_A(x,y)$ is a [[subsingleton]].  However, in the internal type theory of [[higher category theory|higher categories]], such as the [[internal logic of an (∞,1)-topos]], identity types represent [[path objects]] and are highly nontrivial.  In these cases, one may write for instance $Path_A(x,y)$ instead of $Id_A(x,y)$.
 
 
-# Definition
+## Definition
 
 The rules for forming identity types and terms are as follows.  First the rule that defines the identity type itself, as a [[dependent type]].
 
 $$\frac{\Gamma \vdash A:Type}
 {\Gamma, x:A, y:A \vdash Id_A(x,y):Type}$$
+
 
 Now the basic "introduction" rule, which says that everything is equal to itself in a canonical way.
 
@@ -43,7 +48,7 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 These rules may seem a little ad-hoc, but they are actually a particular case of the general notion of [[inductive type]].
 
 
-# Types are weak $\omega$-groupoids
+## Types are weak $\omega$-groupoids
 
 ...
 
