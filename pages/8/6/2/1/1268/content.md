@@ -45,10 +45,8 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 
 * A. Beilinson, I. N. Bernstein, _A proof of Jantzen conjecture_, Adv. in Soviet Math. 16, Part 1 (1993), 1-50. MR95a:22022
 * S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
-* Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf)
-* Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf)
-* Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
-* Gieseker: Flat Vector Bundles and the Fundamental Group in Non-Zero Characteristics,  Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4)  2  (1975), no. 1, 1--31. 
+* Notes on D-modules: Joseph Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf), Peter Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf), Dragan Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
+* D. Gieseker, _Flat vector bundles and the fundamental group in non-zero characteristics_,  Ann. Scuola Norm. Sup. Pisa Cl. Sci. (4)  2  (1975), no. 1, 1--31. 
 * R. Bezrukavnikov, MIT course notes, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/bezr_notes.pdf)
 * Notes in Gaitsgory's seminar [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
 * A. [[Beilinson|Beĭlinson]], J. Bernstein, _A proof of Jantzen's conjectures_, I. M. Gel&#697;fand Seminar,  1--50, Adv. Soviet Math., 16, Part 1, Amer. Math. Soc. 1993, [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/BB%20-%20Jantzen.pdf)
