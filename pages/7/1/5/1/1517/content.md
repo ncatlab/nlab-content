@@ -40,8 +40,10 @@ that acts by [[ordinal product]] with $\omega$
 
 $$
   F_1 : X \mapsto X \cdot \omega
-  \,.
+  \,,
 $$
+
+where the right side is given the dictionary order, not the usual product order. 
 
 **Proposition**
 
@@ -51,6 +53,9 @@ The terminal coalgebra of $F_1$ is order isomorphic to the non-negative [[real l
 
 * D. Pavlovic, [[Vaughan Pratt]], _On coalgebra of real numbers_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
 
+The real interval $[0, 1]$ may be characterized as a topological space as the terminal coalgebra for the functor on bipointed spaces which takes a space $X$ to the space $X \vee X$. Here, $X \vee Y$, for $(X, x_-, x_+)$ and $(Y, y_-, y_+)$, is the disjoint union of $X$ and $Y$ with $x_+$ and $y_-$ identified, and $x_-$ and $y_+$ as the two base points.
+
+* [[Peter Freyd]], [cat list](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg)
 
 
 
