@@ -6,10 +6,6 @@
 
 In functional analysis, a distribution (or generalized function) is a functional on a space of functions which typically is not representable by a function itself. They are often used to give a notion of derivative of a function which has no derivative in the classical sense of Lebesgue integration theory, and to give an abstract framework in which one can describe fundamental solutions to partial differential equations. 
 
-+--{.query}
-Zoran: in $\mathbb{R}^n$ the distributions and generalized functions boil down to the same thing, so the terminology identifies them. But on manifold, the distributions (functionals on test functions) and generalized functions (functionals on test *densities*) do not agree. See Guillemin, Sternberg: Geometric asymptotics. While generalized functions pull back, distributions push forward.
-=--
-
 Generalized functions were introduced by Sobolev in 1935, and independently (under the name _distributions_) by Laurent Schwartz in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. 
 
 ## Definitions 
@@ -184,3 +180,15 @@ This is discussed in chapter VII, section 3 of
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
 
 which closely mirrors the original treatment in Robinson's book Non-standard Analysis. Examples of models that support these axioms are the toposes $\mathcal{Z}$ and $\mathcal{B}$ described there. 
+
+## Generalizations and variants
+
+In $\mathbb{R}^n$ the distributions and generalized functions boil down to the same thing, so the terminology identifies them. But on a manifold, the distributions/generalized densities (functionals on test functions) and generalized functions (functionals on test *densities*) do not agree. See V. Guillemin, S. Sternberg: _Geometric asymptotics_ ([free online](http://www.ams.org/online_bks/surv14)). While generalized functions pull back, distributions/generalized densities push forward (under some conditions, though). 
+
+More generally one can study generalized differential $k$-forms in local coordinates they look like $\sum f_\alpha dx^{\alpha_1}\wedge \cdot \wedge dx^{\alpha_k}$. Usually they are called **currents**. They are useful e.g. in the study of higher dimensional residua in higher dimensional complex geometry (cf. *Principles of algebraic geometry* by Griffiths and Harris) and in geometric measure theory (cf. the monograph by Federer).  
+
+Sometimes one considers larger spaces of distributions, where worse singularities than in Schwarz theory are allowed. Most well known are the theory of [[hyperfunction]]s and the theory of **Coulombeau distributions**. 
+
+
+
+
