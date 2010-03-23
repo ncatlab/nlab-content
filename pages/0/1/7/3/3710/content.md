@@ -8,6 +8,7 @@ Nowdays generalizations and refinements of this problem are called the **Riemann
 
 While the short wikipedia article on 21st Hilbert problem is discussing in [nice](http://en.wikipedia.org/wiki/Hilbert%27s_twenty-first_problem) generality, the page titled [Riemann-Hilbert problem](http://en.wikipedia.org/wiki/Riemann%E2%80%93Hilbert_problem), which has more formulas, is in fact explaining only the variants of the Riemann-Birkhoff factorization aspect; it has however nice list of application areas. 
 
+* N. Katz, _An overview of Deligne's work on Hilbert's twenty-first problem_, Proc. of Symp. in Pure Math. __28__, 537-557 (1976).
 
 [[!redirects Riemann-Hilbert problem]]
 [[!redirects Riemann–Hilbert problem]]
