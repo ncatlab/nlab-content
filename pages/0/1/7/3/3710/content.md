@@ -10,6 +10,8 @@ While the short wikipedia article on 21st Hilbert problem is discussing in [nice
 
 * N. Katz, _An overview of Deligne's work on Hilbert's twenty-first problem_, Proc. of Symp. in Pure Math. __28__, 537-557 (1976).
 
+* O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
+
 [[!redirects Riemann-Hilbert problem]]
 [[!redirects Riemann–Hilbert problem]]
 [[!redirects Riemann--Hilbert problem]]
