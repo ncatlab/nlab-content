@@ -76,9 +76,5 @@ But for one the most important points there is to date no good comprehensive sur
 * For more references see [[quantum field theory]].
 
 
-The above text is in parts a translation of 
-
-* [[Urs Schreiber]], [[mathphysphil.pdf:file]]
-
 
 [[!redirects Physics]]
