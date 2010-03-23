@@ -361,6 +361,7 @@ From the above we see that this is the same as finding an $k$-split extension of
 
 See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf) and for more see [[deformation quantization]].
 
+
 ### Hochschild homology and K&#228;hler differentials {#HochschildKostantRosenberg} 
 
 The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coeficients in itself) computes the wedge powers of its [[Kähler differential]]s.
@@ -412,8 +413,14 @@ then there is an [[isomorphism]] of graded $R$-algebras
 
 $$
   \psi : \Omega^\bullet(R/k) \stackrel{\simeq}{\to}
-  H_\bullet(R,R)
+  HH_\bullet(R,R)
   \,.
+$$
+
+Moreover, dually, there is an isomorphism of Hochschild cohomology with wedge products of derivations:
+
+$$
+  \wedge^\bullet_R Der(R,R) \simeq HH^\bullet(R,R)
 $$
 
 =--
@@ -424,6 +431,8 @@ $$
 This is reviewed for instance as theorem 9.4.7 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+or as theorem 9.1.3 in [Ginzburg](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=44).
 
 =--
 
