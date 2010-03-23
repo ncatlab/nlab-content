@@ -37,7 +37,7 @@ This construction defines a functor $\Pi_0 : E \to Set : A \mapsto \pi_0(A)$ whi
 
 $$
   (\Pi_0 \dashv Const \dashv \Gamma) : 
-  E \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  E \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
   Set
   \,.
 $$
@@ -75,7 +75,7 @@ An [[(n,1)-topos]] $\mathbf{H}$ is **locally $n$-connected** if the [[global sec
 $$
   (\Pi_n \dashv LConst \dashv \Gamma)\;\;\; :
   \;\;\;
-  \mathbf{H} \stackrel{\overset{\Pi_n}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  \mathbf{H} \stackrel{\overset{\Pi_n}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
   n Grpd
   \,.
 $$
@@ -123,6 +123,16 @@ In the literature this statement is known somewhat implicitly in slightly weaker
 
   and the definition before that states essentially what the above proposition states at the level of [[homotopy category|homotopy categories]]: it asserts that if $C$ has contractible objects, that then there exists a left adjoint $Ho(\Pi):Ho(Sh_{(\infty,1)}(C)) \to Ho(\infty Grpd)$. They also give the explicit formula which is stated at [[schreiber:homotopy ∞-groupoid]].
 
+
+### Further structures
+
+The fact that the terminal geometric morphism is essential gives rise to various induced structures of interest. For instance it induces a notion of 
+
+* [[Whitehead tower in an (∞,1)-topos]].
+
+For a more exhaustive list of extra structures see 
+
+* [[schreiber:structures in an (∞,1)-topos]].
 
 [[!redirects locally connected topos]]
 [[!redirects connected topos]]
