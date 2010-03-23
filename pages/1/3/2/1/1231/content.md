@@ -36,24 +36,25 @@ In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any intere
 
 ##Generalization to operads
 
-There is a further generalization to quadratic operads, predicted in 
+There is a further generalization to [[quadratic operad]]s, predicted in 
 
-* M. Kontsevich, Formal (non)commutative symplectic geometry.  The Gel&#697;fand Mathematical Seminars, 1990--1992,  173--187, Birkh&#228;user Boston, Boston, MA, 1993. 
+* [[Maxim Kontsevich|M. Kontsevich]], _Formal (non)commutative symplectic geometry_,  The Gel&#697;fand Mathematical Seminars, 1990--1992,  173--187, Birkh&#228;user, Boston, MA, 1993. 
 
 and developed in
 
-* V. Ginzburg, M. Kapranov, Koszul duality for operads,  Duke Math. J.  76  (1994),  no. 1, 203--272 ([arXiv](http://front.math.ucdavis.edu/0709.1228))
+* [[Victor Ginzburg|V. Ginzburg]], [[Mikhail Kapranov|M. Kapranov]], _Koszul duality for operads_,  Duke Math. J.  76  (1994),  no. 1, 203--272 ([arXiv](http://front.math.ucdavis.edu/0709.1228))
 
 
 ##Other references
 
 Other historical references on Koszul duality include
 
-* A. A. Be&#301;linson, V. A. Ginsburg, V. V. Schechtman, Koszul duality.  J. Geom. Phys.  5  (1988),  no. 3, 317--350.
+* A. A. Be&#301;linson, V. A. Ginsburg, V. V. Schechtman, _Koszul duality_,  J. Geom. Phys.  5  (1988),  no. 3, 317--350.
 
-* A. Beilinson, V. Ginzburg, W. Soergel, Koszul duality patterns in representation theory.  J. Amer. Math. Soc.  9  (1996),  no. 2, 473--527. 
+* A. Beilinson, V. Ginzburg, W. Soergel, _Koszul duality patterns in representation theory_,  J. Amer. Math. Soc.  9  (1996),  no. 2, 473--527. 
 
 Koszul duality is also discussed in [[John Baez]]' [This Week's Finds in Mathematical Physics](http://math.ucr.edu/home/baez/TWF.html):
 
-* [Week 238](http://math.ucr.edu/home/baez/week238.html)
-* [Week 239](http://math.ucr.edu/home/baez/week239.html)
+* [Week 238](http://math.ucr.edu/home/baez/week238.html), [Week 239](http://math.ucr.edu/home/baez/week239.html)
+
+and at MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)
