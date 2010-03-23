@@ -258,7 +258,7 @@ $$
 
 in [[∞Grpd]]. This being universal means that $\Pi(X^{(n)})$ is $n$-connected, and universal with that property as an object over $\Pi(X)$.
 
-By running this construction through the Postnikov tower for $\mathbf{\Pi}(X)$, we obtain the **Whitehead tower**
+By running this construction through the Postnikov tower for $\mathbf{\Pi}(X)$, we obtain the **[[Whitehead tower in an (∞,1)-topos]]**
 
 $$
   \cdots \to X^{(2)} \to X^{(1)} \to X
@@ -276,4 +276,3 @@ An account of the traditional way to think of the construction of the universal 
 
 
 [[!redirects universal cover]]
-[[!redirects Whitehead tower in an (∞,1)-topos]].
