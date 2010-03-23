@@ -4,7 +4,7 @@ There are few mutually unrelated notions denoted by "crystal" in mathematics. On
 * differential crystals
 {:toc}
 
-## Idea
+## Overview
 
 [[Alexander Grothendieck|Grothendieck]]'s differential calculus is based on the [[infinitesimal object|infinitesimal]] thickenings of a diagonal of a space. If one takes a completion, then there is a filtration on infinitesimals there. On the other hand, this theory also provides a concept of a [[regular differential operator]] which is also filtered (by the degree). There is a fundamental duality between the infinitesimals and regular differential operators which is compatible with the two filtrations, in fact the duality is a perfect pairing on each filtered level. This pairing gives for example that a [[D-module]] corresponds to a flat [[connection on a bundle|connection]] on a usual [[quasicoherent sheaf]]. 
 
@@ -24,7 +24,11 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 
 * Notes in Gaitsgory's seminar [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
 
-* Beilinson, Drinfeld, Chiral Algebras contains a section on D-schemes.
+* A. [[Beilinson]], V. Drinfel'd, _Chiral algebras_ contains a section on D-schemes.
+
+* A. [[Grothendieck]], _Crystals and the de Rham cohomology of schemes_, in "Dix exposes sur la cohomologie des schemas"
+
+* mathoverflow: [The Infinitesimal topos in positive characteristic](http://mathoverflow.net/questions/15795/the-infinitesimal-topos-in-positive-characteristic)
 
 
 
