@@ -4,9 +4,9 @@
 
 * _EGA_, written with help of [[Jean Dieudonne|Jean Dieudonné]]. This is a detailed work on scheme theory (our [[schemes]] are in _EGA_ called preschemes; EGA's schemes are what we call separated schemes). The numbering is nontrivial as it has chapter 0, the preliminaries, which were written at the beginning of various chapters. The published part of _EGA_ is in Publ. IH&#201;S, now free online at [numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short) (detailed links to chapters will be added here later). We plan to list here the grand plan and some remarks and links. The thing is complicated by the existence of somewhat different reedition of _EGA I_ as a single book 1971, which complicated citations.  
 
-* _SGA_ consists of the writeups of seminars at IH&#201;S lead by Grothendieck; the work of the members of the seminar under the guidance of Grothendieck are included. IN $n$lab we keep entry [[SGA1]]. 
+* _SGA_ consists of the writeups of seminars at IH&#201;S lead by Grothendieck; the work of the members of the seminar under the guidance of Grothendieck are included. In $n$lab we keep entry [[SGA1]]. 
 
-Both _EGA_ and _SGA_ were never completed. Part of the non-completed _EGA_ existed as Grothendieck's "prenotes", and a small part of them has been preserved and a little piece even published. Part of the unfinished plan of _SGA_ was attained in quick way by Deligne as _SGA 4 1/2_ (in other to justify preliminaries for his proof of the [[Weil conjecture]]s), which Grothendieck did not approve.  
+Both _EGA_ and _SGA_ were never completed. Part of the non-completed _EGA_ existed as Grothendieck's "prenotes", and a small part of them has been preserved and a little piece even published. Part of the unfinished plan of _SGA_ was attained in quick way by [[Pierre Deligne]] as _SGA $4\frac{1}{2}$_ (in other to justify preliminaries for his proof of the [[Weil conjecture]]s), which Grothendieck did not approve.  
 
 See also Murfet's summary notes for various parts of _EGA_. 
 
