@@ -2,7 +2,11 @@
 
 Deligne lead a seminar on differential systems corresponding to meromorphic connections, whose basic results were explained in a classic in this are:
 
-* _&#201;quations diff&#233;rentielles &#224; points singuliers r&#233;guliers_, Lect. Notes in Math. __163__, Springer-Verlag (1970). 
+* _&#201;quations diff&#233;rentielles &#224; points singuliers r&#233;guliers_, Lect. Notes in Math. __163__, Springer-Verlag (1970)
+
+Related to this is the survey 
+
+* N. Katz, _An overview of Deligne's work on [[Riemann-Hilbert problem|Hilbert's twenty-first problem]]_, Proc. of Symp. in Pure Math., vol.28, pp. 537-557 (1976).
 
 With David Mumford he wrote the historical article on Deligne-Mumford stacks at the principal example of the moduli space of curves. 
 
