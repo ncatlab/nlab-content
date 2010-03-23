@@ -63,7 +63,7 @@ $$
 
 
 
-### Completely positive maps
+### Completely positive maps {#ComplPosMaps}
 
 The behaviour of [[quantum channel]]s and _completely positive maps_ has an elegant categorical descriptin in terms of $\dagger$-compact categories
 
