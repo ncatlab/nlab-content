@@ -284,41 +284,45 @@ Straightforward checking on [[generalized element]]s.
 
 =--
 
-### Properties
+### Properties {#Properties}
 
 > under construction
 
 Let  $X$ be a micorlinear space. 
 
+**Sketch of Proposition**
+
 We want to show that the morphism of simplicial sets
 
 $$
-  [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf)^\bullet})
+  [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf^\bullet)})
   \to
-  [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf)^\bullet})
+  [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf^\bullet)})
 $$
 
 induced by pullback along $U \simeq U \times * \to U \times D$
 is a [[weak homotopy equivalence]].
 
-...
+**Sketch of proof**
 
 First consider the case that $U$ itself has no infinitesimal 
 directions in that $Hom(U,D) = *$. Then we claim that the morphism
 $
-  [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf)^\bullet})
+  [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf^\bullet)})
   \to
-  [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf)^\bullet})
+  [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf^\bullet)})
 $
 is an acyclic Kan fibration in that all squares
 
 $$
   \array{
-    \partial \Delta^n &\to& [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf)^\bullet})
+    \partial \Delta[n] &\to& [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf^\bullet)})
     \\
     \downarrow && \downarrow
     \\
-    [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf)^\bullet})
+    \Delta[n]
+    &\to&
+    [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf^\bullet)})
   }
 $$
 
@@ -326,9 +330,11 @@ have lifts.
 
 For $n = 0$ this says that the map is surjective on vertices, which it is, since any $U \to X$ is in the image of $U \times D \to U \times * \simeq U \to X$.
 
-For $n=1$ we need to check that every homotopy $U \to X^D \times D$ downstairs with fixed lifts $U \times D \to X$ over the endpoints may be lifted. But by assumption $U \to D$ factors through the points, so that
-the homotopy $U \to X^D \times D \stackrel{\to}{\to} X$ has the same source as target $f : U \to X$. This means the two lifts of its endpoints are morphisms $(u,\epsilon) \mapsto (f(u) + \epsilon \nu_i(u)$ for $i=1,2$.
+For $n=1$ we need to check that every homotopy $U \to X^D \times D$ downstairs with fixed lifts $U \times D \to X$ over the endpoints may be lifted. But by assumption $U \to D$ factors through the point, so that
+the homotopy $U \to X^D \times D \stackrel{\to}{\to} X$ has the same source as target $f : U \to X$. This means the two lifts of its endpoints are morphisms $(u,\epsilon) \mapsto (f(u) + \epsilon \nu_i(u)$ for $i=1,2$ and $\nu_i$ tangent vectors.
 A homotopy between these is given by a map $U \times D \to X^D \times D$
 defined by $(u,\epsilon) \mapsto (f(u)+ (-)\nu_1(u) + (\epsilon-(-))\nu_2(u), \epsilon)$.
 
 Finally, for $n \geq 2$ we have unique flllers, because by construction every morphism $\Delta[n]\cdot Y \to X^{(\Delta^\bullet_{inf})}$ is uniquely fixed by the restriction $\partial \Delta[n] \to \Delta[n]\cdot Y \to X^{(\Delta^\bullet_{inf})}$ to its boundary.
+
+The case for $U \times D$ replaced with $U \times D^n$ works analogously. 
