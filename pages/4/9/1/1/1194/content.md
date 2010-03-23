@@ -15,7 +15,6 @@ One way to look at type theory, from the point of view of a category theorist, i
 ## Categorical semantics of type theory
 
 The [[syntax|syntactic]] constructs corresponding to objects and morphisms are called _types_ and _terms_, respectively.  The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
-
 +-- {: .query}
 
 [[Urs Schreiber|Urs]]: if the following is right, I would find it helpful as additional explanation:
@@ -24,17 +23,43 @@ The [[syntax|syntactic]] constructs corresponding to objects and morphisms are c
 
 * in type theory this is the _term_ $f(x)$ of _type_ $A$.
 
+_Toby_:  No, it is more like this:
+
+* In category theory $B \stackrel{f}{\to} A$ is a [[morphism]] $f$ with domain $B$ and codomain $A$;
+
+* in type theory this gives a _term_ $f(x)$ of _type_ $A$ where $x$ is a _variable_ of _type_ $B$.
+
+In symbols:
+
+$$ x\colon B \vdash f(x)\colon A $$
+
 =--
-
-
 For example, given terms $f(x)$ and $g(y)$ with one free variable each, representing morphisms $[f]$ and $[g]$, the term $g(f(x))$ represents the morphism $[g]\circ [f]$.
 
 +-- {: .query}
 
 [[Urs Schreiber|Urs]]: now I need to make sense of "free variable". I suppose that $f(x)$ regarded as a term of type $A$ with free variable $x$ is an assignment that sends each object $x$ in the category $C$ to a morphism $x \to A$. Am I to think of this as a morphism of presheaves on the category, of the form $f : * \to Hom_C(-,A)$?
 
-=--
+_Toby_:  No; as you can see from my previous answer, $x$ is not an object but rather a variable whose type is some object.  So:
 
+* in category theory $C \stackrel{f}{\to} B$ and $B \stackrel{g}{\to} A$ are morphisms, so $C \stackrel{g \circ f}{\to} A$ is a morphism;
+
+* in type theory $f(x)$ and $g(y)$ are terms of type $B$ and $A$ respectively, where $x$ and $y$ are variables of type $C$ and $B$ respectively, so $g(f(x))$ is a term of type $A$ where $x$ is again a variable of type $C$.
+
+We have substituted the term $f(x)$ of type $B$ for the variable $y$ of type $B$; [[composition]] in category theory corresponds to _substitution_ in type theory.
+
+In symbols:
+
+$$ \frac { x\colon C \vdash f(x)\colon B \qquad y\colon B \vdash g(y)\colon A }
+         { x\colon C \vdash g(f(x))\colon A } $$
+
+What corresponds to [[identity morphisms]] is the fact that variables are special cases of terms: $x$ is a term of type $A$ where $x$ is a variable of type $A$.
+
+In symbols:
+
+$$ \frac {}{ x\colon A \vdash x\colon A } $$
+
+=--
 
 What sorts of syntactical constructions you allow on types and terms corresponds to the structure of the category in which the [[semantics]] is intended to occur.  For example, if our semantic categories have binary products, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (by choosing their free variables appropriately), we are really describing the full universal property of a cartesian product.
 
