@@ -254,7 +254,7 @@ $$
   \,.
 $$
 
-### Differential forms and Hochschild (co)homolology
+### Differential forms and Hochschild (co)homology
 
 The above identifies Hochschild homology objects of function algebras with function algebras on a [[free loop space object]]. If one adds to this the observation that for a sufficiently wel behaved ordinary space regarded as [[derived stack]] its free loop space object is essentially the formal dual of the algebra of [[Kähler differential]] forms, one recovers from a [[higher geometry]] picture the stamenet of the Hochschild-Kostant-Rosenberg theorem mentioned above. Details are in
 
@@ -277,7 +277,7 @@ Notice that the function algebra on the derived loop space is just the different
 
 > The bar complex is called the bar complex because its inventors wrote it down using lots of bars. If you don't believe this it shows that you have no idea how careless mathematicians can be about finding good terminology for the objects they hold in high esteem.
 
-### Hochschild homology and extensions {#Extensions}
+### Hochschild cohomology and extensions {#Extensions}
 
 +-- {: .un_def }
 ###### Definition
@@ -286,7 +286,51 @@ An [[exact sequence]] $0 \to N \to E \to R$ of $k$-modules where
 $E \to R$ is a surjective morphism of $k$-algebras is
 called a **$k$-split** extension or a **Hochschild extension** of $R$ by $E$ if the sequence is a [[split sequence]] as a sequence of $k$-[[module]]s.
 
+Two extensions are _equivalent_ if there is an isomorphism or $k$-algebra $E \stackrel{\simeq}{\to} E'$ that makes
+
+$$
+  \array{
+    N &\to& E &\to& R
+    \\
+    \downarrow^{\mathrlap{=}} && \downarrow && \downarrow^{\mathrlap{=}}
+    \\
+    N &\to& E' &\to& R
+  }
+$$
+
+commute.
+
 =--
+
+
++-- {: .un_remark }
+###### Remark
+
+Due to the $k$-splitness assumption there is an isomorphism of $k$-modules $E \simeq R \oplus N$ and this is equipped with a $k$-algebra structure such that the product on the $R$ [[direct sum]]mand is that of $R$. From this we find that the product on $E$ is of the form
+
+$$
+  (r_1, n_1) \cdot (r_2, n_2) =
+  (r_1 r_2 , r_1 n_2 + r_2 n_1 + f(r_1, r_2))
+  \,,
+$$
+
+where $f : R \otimes_k R \to N$ is some $k$-linear map. Since the product on $E$ is (by definition) associative, it follows that for $f$ that this satisfies for all $r_0, r_1, r_2 \in R$ the _cocycle equation_
+
+$$
+  r_0 f(r_1, r_2) - f(r_0 r_1, r_2) + f(r_0 , r_1 r_2) - f(r_0, r_1) r_2 = 0
+$$
+
+as an equation in $N$. This says that $f$ must be a Hochschild cocycle
+
+$$
+  f \in HH^2(R,N)
+  \,.
+$$ 
+
+=--
+
+
+Conversely, every such cocycle yields a $k$-split extension of $R$ by $N$ this way:
 
 
 
@@ -295,19 +339,29 @@ called a **$k$-split** extension or a **Hochschild extension** of $R$ by $E$ if 
 
 For $R$ a $k$-algebra and $N$ an $R$-[[bimodule]], equivalence
 classes of Hochschild extensions of $R$ by $N$ are in bijection with
-degree 2 Hochschild cohomology $H^2(R,N)$.
+degree 2 Hochschild cohomology $HH^2(R,N)$.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-For instance [[An Introduction to Homological Algebra|Weibel, theorem 9.3.1]].
-
-=--
+See for instance [[An Introduction to Homological Algebra|Weibel, theorem 9.3.1]].
 
 
-### The Hochschild-Kostant-Rosenberg theorem {#H}
+### Hochschild cohomology and deformations {#Deformations}
+
+As a special case of the above statement about extensions of $R$, we obtain a statement about _deformation_ of $R$.
+
+A standard problem is to deform a $k$-algebra $R$ by introducing a new "parameter" $t$ that squares to 0 -- $t \cdot t = 0$ and a new product
+
+$$
+  r_1 \cdot_t r_2 = r_1 r_2 + t f(r_1, r_2)  
+  \,.
+$$
+
+From the above we see that this is the same as finding an $k$-split extension of $R$ by itself. So in particular such extensions are given by Hochschild cocycles $f \in HH^2(R,R)$.
+
+See for instance [Ginzburg, section 7](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf) and for more see [[deformation quantization]].
+
+### Hochschild homology and K&#228;hler differentials {#HochschildKostantRosenberg} 
 
 The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coeficients in itself) computes the wedge powers of its [[Kähler differential]]s.
 
@@ -317,7 +371,7 @@ The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable cond
 For a $k$-algebra $R$, its module of [[Kähler differential]]s coincides with its first Hochschild homology
 
 $$
-  \Omega(R/k) \simeq H_1(R,R)
+  \Omega(R/k) \simeq HH_1(R,R)
   \,.
 $$
 
