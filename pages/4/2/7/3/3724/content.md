@@ -1,9 +1,21 @@
+# Dedekind cuts
+* table of contents
+{: toc}
+
+
+## Idea
+
+Dedekind cuts are a way to make precise the idea that a [[real number]] is that which can be approximated (in the [[absolute value]] metric) by [[rational numbers]].
+
 In 1872, [[Richard Dedekind]] published _Stetigkeit und irrationale Zahlen_ (Continuity and irrational numbers), in which he pointed out that a real number may be uniquely determined its order relationships with rational numbers.  That is, the real number $x$ is determined by its __lower set__ $L_x$ and its __upper set__ $U_x$:
 \[ \label{cuts} \begin {split}
    L_x \coloneqq \{ a\colon \mathbb{Q} \;|\; a \lt x \} \\
    U_x \coloneqq \{ b\colon \mathbb{Q} \;|\; b \gt x \}
    .\end {split} \]
 Dedekind had found great success understanding the 'ideal numbers' of [[ring theory]] as certain sets, which are what we now understand as [[ideal of a ring|ideals]].  So he defined a 'real number' as a pair of sets of rational numbers, the lower and upper sets shown above.
+
+
+## Definitions
 
 Such a pair of sets of rational numbers is a __Dedekind cut__.  But which pairs of sets of rational numbers can appear this way?  The simplest definition may be *any* pair $(L,U)$ of [[inhabited sets]] of rational numbers satisfying two conditions:
 
