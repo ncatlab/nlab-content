@@ -4,7 +4,7 @@
 * automatic table of contents goes here
 {:toc}
 
-# Description #
+## Description 
 
 The _Whitehead tower_ of a [[pointed space]] $(X,x)$ is a sequence of fibrations 
 
@@ -19,9 +19,9 @@ For $n=0$ we require that $X\langle 0 \rangle \hookrightarrow X$ is the inclusio
 In traditional models this construction is highly non-[[functor]]ial, except for nice spaces in low dimensions as remarked above. 
 
 
-# Constructions #
+## Constructions 
 
-## Construction by co-killing of homotopy groups ##
+### Construction by co-killing of homotopy groups 
 
 The whitehead tower may be constructed by iteratively [[co-killing]] homotopy groups:
 
@@ -66,7 +66,7 @@ And so on.
 Notice that after the second step for $X\langle n \rangle$ with $n \geq 1$ the [[Hurewicz theorem]] ensures that the first non-vanishing [[homotopy group]] $\pi_{n+1}(X\langle n \rangle)$ is [[isomorphism|isomorphic]] to the [[homology group]] $H_{n+1}(X \langle n\rangle, \mathbb{Z})$. This in turn, if it has no nontrivial [[torsion subgroup]], is isomorphic to the [[cohomology group]] $H^{n-1}(X\langle n\rangle, \mathbb{Z})$.
 
 
-## Whitehead's construction ##
+### Whitehead's construction 
 
 In
 
@@ -90,13 +90,13 @@ One way of obtaining a Postnikov section as above is to choose representatives $
 
 Understandably, this process is unbelievably non-canonical, and so we are generally reduced to existence theorems using this method -- unless there is a functorial way to construct Postnikov sections. Strictly speaking we can only say _an_ $n$-connected cover (except in special cases, like when $n=1$ and $X$ is a [[well-connected space]]).
 
-## Functorial constructions ##
+### Functorial constructions 
 
 The $n$th stage of the Whitehead tower of $X$ is the [[homotopy fiber]] of the map from $X$ to the $n$th (or so) stage of its [[Postnikov tower]], so one can use a functorial construction of the Postnikov tower plus a functorial construction of the homotopy fiber (such as the usual one using the [[path object|path space]] of the target).
 
 The $n$th stage of the Whitehead tower of $X$ is also the cofibrant replacement for $X$ in the right [[Bousfield localization]] of [[Top]] with respect to the object $S^n$ (or so). Since [[Top]] is right proper and cellular this localization exists by the result of chapter 5 of Hirschhorn's book on [[localization]]s of [[model category|model categories]]. 
 
-# In other $(\infty,1)$-toposes #
+## In other $(\infty,1)$-toposes 
 
 Given an $(\infty,1)$-topos $C$ we can talk about [[n-truncated object of an (infinity,1)-topos|n-truncated objects]] in $C$. The above construction then has an analogue in $C$ (may need something like properness so as to get the pullback of a fibration to be a fibration -- I'm making this section up as I go along -DMR). The path fibration is replaced by the trivial cofibration-fibration factorisation of the inclusion of the basepoint $* \to X$ (probably want this to be functorial for my liking -DMR).
 
@@ -106,7 +106,7 @@ For example, in $sSet$, we have a functoral $n$-truncation operation, via the [[
 
 In Duskin's treatment the inclusion $X \to Cosk_3X$ for $X$ a Kan complex is just the map sending an $\infty$-groupoid into the nerve of the bigroupoid representing its 2-type. This hopefully motivates somewhat the details of the construction in the next section.
 
-# Non-traditional approach in $Top$ #
+## Non-traditional approach in $Top$ 
 
 **The following is some semblance of current research, except the stuff about the string 2-group. All errors and stupid ideas are mine - David Roberts**
 
@@ -127,7 +127,7 @@ If we want to consider arbitrary $n$ and retain some sort of local triviality on
 
 in the context of locally constant $\infty$-stacks and their monodromy (I haven't got this article at the moment, and I suspect they may be $(\infty,1)$-stacks, but I'm not 100 percent certain -DMR). Technically speaking, we don't need local contractibility but the existence of a basis of open sets $U \hookrightarrow X$ such that this inclusion map is null-homotopic. But I will continue to call this local contractibilty, for lack of a beter term (if there is such a term, I'd like to know -DMR).
 
-### Construction using topological $n$-groupoids ###
+### Construction using topological $n$-groupoids 
 
 Consider the fundamental $n$-groupoid $\Pi_n(X)$ of the locally contractible space $X$ (as a [[Trimble n-category|Trimble n-groupoid]], say), or at least for now its underlying globular set. We can take the compact open-topology on the set of $k$-morphisms for $k \lt n$. As the space is locally contracible, in particular semi-locally $n$-connected, the space $Hom(S^{n-1},X)$ is semi-locally simply-connected (I have a fragment of a paper saying this is true for the \'absolute case\' - that is, _locally_ $n$-connected implies the mapping space locally simply connected, but I expect it to be true for the relative case -DMR). In particular, we can take the fundamental groupoid $\Pi_1(Hom(S^{n-1},X))$, which has a topology given in the [[topological fundamental groupoid|usual way]]. The arrow space of this fundamental groupoid is then non other than the space of $n$-arrows of $\Pi_n(X)$. It needs to be checked that the $n$ compositions $\#_k$, $k=0,\ldots,n-1$ are continuous, as well as a bunch of other stuff, but I think this should follow from (unique) lifting theorems for covering spaces.
 
@@ -150,9 +150,9 @@ There are other interpretations of $X^{(n)}$:
 
 The last can be thought of as a families version of the usual fundamental $(n-1)$-groupoid: take vertical paths, vertical homotopies between paths etc.
 
-# Examples #
+## Examples 
 
-## Whitehead tower of the orthogonal group ##
+### Whitehead tower of the orthogonal group 
 
 The Whitehead tower of the [[orthogonal group]] $O(n)$ starts out as
 
@@ -174,7 +174,7 @@ $\to$
 $\to$
 [[orthogonal group]]
 
-# References #
+## References 
 
 For instance:
 
