@@ -3,7 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 The _homotopy groups_ $\pi_n(X,a)$ of a [[pointed object|pointed]] space $(X,a)$ are a sequence of [[groups]] that generalise the [[fundamental group]] $\pi_1(X,a)$ to higher [[homotopy (as a transformation)|homotopies]].
 
@@ -11,9 +11,9 @@ Actually, $\pi_0(X,a)$ is not a group at all but merely a [[pointed set]].  Conv
 
 Lower homotopy groups act on higher homotopy groups; the nonabelian group cohomology of this gives the Postnikov invariants of the space.  All of this data put together allows one to reconstruct the original space, at least up to weak [[homotopy type]], through its [[Postnikov system]].
 
-# Definition 
+## Definition 
 
-## for topological spaces##
+### For topological spaces
 
 Let $S^n$ be the pointed $n$-[[sphere]], that is an $n$-dimensional real sphere equipped with any basepoint.  The underlying set of $\pi_n(X,a)$ will be the set of basepoint-preserving continuous maps from $S^n$ to $(X,a)$, with such maps identified if there is a basepoint-preserving [[homotopy]] between them.  Now we will put some structure on that set.
 
@@ -27,7 +27,7 @@ The result is that the set $\pi_n(X,a)$ of equivalence classes is an abelian gro
 
 Note that if $X$ is [[connected space|path-connected]], then all of the $\pi_n(X,a)$ are isomorphic.  Accordingly, it\'s traditional to just write $\pi_n(X)$ in that case.  (This is why we must use $\Pi_n(X)$ for the homotopy $n$-groupoid.)  However, there may be many different isomorphisms between $\pi_n(X,a)$ and $\pi_n(X,b)$ (given by $\pi_{n+1}(X)$), so a more careful treatment requires keeping track of the basepoint even in the connected case.
 
-### Low-dimensional cases ###
+#### Low-dimensional cases 
 
 The $0$th homotopy 'group' $\pi_0(X,a)$ can be identified with the set of all [[path component]]s of $X$, with the component containing $a$ as the basepoint.  Similarly, the [[fundamental infinity-groupoid|fundamental 0-groupoid]] $\Pi_0(X)$ is the set of all path components without a chosen basepoint.  Note that $\Pi_0(X)$ is traditionally written $\pi_0(X)$, even without a basepoint.
 
@@ -37,11 +37,11 @@ The $1$st homotopy group $\pi_1(X,a)$ is precisely the [[fundamental group]] of 
 At least, that\'s where I *think* that it comes from ...  ---Toby
 =--
 
-## for simplicial sets ##
+### For simplicial sets 
 
 See [[simplicial homotopy group]].
 
-## for objects in a general $\infty$-stack $(\infty,1)$-topos ##
+### For objects in a general $\infty$-stack $(\infty,1)$-topos 
 
 [[Top]] is the archetypical [[(∞,1)-topos]].
 The definition of homotopy groups for objects in [[Top]]
@@ -49,9 +49,24 @@ is just a special case of a general definition of
 homotopy groups of objects of [[∞-stack]] [[(∞,1)-topos]]es.
 
 This is described in detail at
-[[homotopy group (of an ∞-stack)]].
 
-# History #
+* [[homotopy groups in an (∞,1)-topos]].
+
+
+## Truncated and connected objects
+
+Often it is useful to talk about objects whose homotopy groups are all trivial above or below a certain degree, for instance in the context of [[Postnikov tower]]s and [[Whitehead tower]]s.
+
+For $n \in \mathbb{N}$
+
+* an object is **$n$-[[truncated]]** if all homotopy groups _above_ degree $n$ are trivial.
+
+* an object is **$n$-[[connected]]** if it is not the empty/[[initial object]] and all homotopy groups _below_ degree $n$ are trivial.
+
+It makes sense to say an object is $(-1)$ connected if it is either initial or equivalent to the [[point]], and $(-2)$ connected if it is equivalent to the point.
+
+
+## History 
 
 In the early years of the 20th century it was known that the nonabelian fundamental group $\pi_1(X,a)$ of a space $X$ with base point $a$ was useful in geometry and complex analysis. It was also known that the abelian [[homology group]]s $H_n(X)$ existed for all $n \geq 0$ and that if $X$ is connected then $H_1(X)$ is isomorphic to the abelianisation of any $\pi_1(X,a)$. 
 
@@ -59,7 +74,7 @@ Consequently it was hoped to generalise the fundamental group to higher dimensio
 
 In 1932, E. &#268;ech proposed a definition of higher homotopy groups using maps of spheres, but the paper was rejected for the Zurich ICM since it was found that these groups $\pi_n(X,a)$ were abelian for $n \geq 2$, and so do not generalise the fundamental group in the way that was originally desired.  Nonetheless, they have proved to be extremely important in homotopy theory, although more difficult to compute in general than homology groups.  See [[weak homotopy equivalence]].
 
-# Properties #
+## Properties 
 
 It was early realised that the fundamental groupoid $\Pi_1(X)$ operates on the family of groups $\{\pi_n(X,a) | a \in X\}$ which should thus together be regarded as a module over $\pi_1(X,a)$.
 
@@ -69,7 +84,7 @@ However, the homotopy groups by themselves, even considering the operations of $
 
 See also the [[Freudenthal suspension theorem]].
 
-# Some general nonsense #
+## Some general nonsense 
 
 Using the [[Eckmann-Hilton duality]] between
 [[cohomology]] and [[homotopy (as an operation)]] one may discuss homotopy groups along the same lines as the discussion of [[cohomology groups]]  (see there).
