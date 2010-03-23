@@ -5,16 +5,14 @@
 
 ## Idea 
 
-A **real number** is what is approximated by a sequence of [[rational number]]s.  The collection of all real numbers forms the **real line** $\mathbb{R}$, which is the corresponding completion of the set $\mathbb{Q}$ of rational numbers.
+A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the corresponding completion of the set $\mathbb{Q}$ of rational numbers.
 
-(This is if one uses the usual [[order|ordering]] of rational numbers; others will give the idea of $p$-[[adic number|adic numbers]].)
+Here we are using the usual [[order|ordering]] of rational numbers; other ordings will give the $p$-[[adic number|adic numbers]] instead.
 
-The real line $\mathbb{R}$ is also known as the **continuum**. 
-Together with its cartesian powers $\mathbb{R}^n$ -- the [[cartesian space]]s -- it encodes the basic idea of of _continuous space_ . The notion of (smooth) [[manifold]] is modeled on this notion. It provides one of the basic models of [[space]], notably the standard model for _physical space_ at least in [[classical physics]].
-
+Together with its cartesian powers -- the [[cartesian spaces]] $\mathbb{R}^n$ -- the continuum encodes one basic idea of of _continuous space_.  The notion of (especially smooth) [[manifold]] is modeled on this notion.  It provides one of the basic models of [[space]], notably the standard model for _physical space_ and _time_ (see [[spacetime]]), at least in [[classical physics]].
 
 
-### Formalizations and their history
+### History of formalisations
 
 The original idea of a real number came from [[geometry]]; one thinks of a real number as specifying a _point on a line_ , with _line_ understood as the abstract idea of the object that a pencil and a ruler draw on a piece of paper.  
 
@@ -26,13 +24,18 @@ A more modern approach is instead to characterise the properties that the set of
 
 Exactly how to define or characterise real numbers is still important in [[constructive mathematics]] and [[topos]] theory with its [[internal logic]] of every topos. For more on this see the examples below.
 
+
 ## Definitions and characterizations
+
+There are two basic approaches possible: to define what a __real number__ is, as an general object, or to define the __real line__ is as a specific object in some previously known [[category]].
+
 
 ### The locale of real numbers
 
 A [[constructive mathematics|constructive]] construction of the real line is discussed at 
 
 * [[locale of real numbers]].
+
 
 ### Characterization in terms of terminal coalgebras
 
@@ -72,3 +75,4 @@ This is theorem 5.1 in
 [[!redirects real numbers]]
 [[!redirects real line]]
 [[!redirects real number line]]
+[[!redirects continuum]]
