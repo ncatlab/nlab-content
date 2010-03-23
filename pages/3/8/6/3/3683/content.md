@@ -18,6 +18,8 @@ In the theory of radiation there is a different meaning of semiclassical treatme
 
 ## Literature
 
+* M.V. Fedoryuk, _Semi-classical approximation_, Springer [Online](http://eom.springer.de/S/s083990.htm) Enc. of Math.
+
 * Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
 * V. P. Maslov, _Stationary-phase method for Feynman's continual integral_, Theoret. and Math. Phys., 2:1 (1970), 21&#8211;25; Russian original: &#1058;&#1052;&#1060;, 2:1 (1970), 30&#8211;35 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=tmf&paperid=3986&what=fullt&option_lang=rus).
