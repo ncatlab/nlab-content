@@ -1,10 +1,27 @@
-# Definition #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition 
 
 An [[object]] $P$ of a [[category]] $C$ is **projective** (with respect to epimorphisms) if for any [[morphism]] $f:P \to B$ and any [[epimorphism]] $q:A \to B$, $f$ factors through $q$ by some morphism $P\to A$.
 
+$$
+  \array{
+    && A
+    \\
+    &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{q}} 
+    \\
+    P &\stackrel{f}{\to}& B
+  }
+  \,.
+$$
+
+
 A category $C$ has **enough projectives** if for every object $X$ there is an epimorphism $P\to X$ where $P$ is projective.
 
-# Remarks #
+## Remarks 
 
 * The [[duality|dual]] notion is [[injective object]]. 
 
