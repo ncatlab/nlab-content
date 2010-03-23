@@ -12,18 +12,14 @@ Type theory is a branch of mathematical [[logic]] which studies elements of vary
 
 One way to look at type theory, from the point of view of a category theorist, is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  Note that this type of semantics is only relevant to *extensional* type theory; see the section on intensional vs. extensional type theory below.
 
-## Categorical semantics of type theory
+## Categorical semantics of type theory {#CategoricalSemantics}
 
-The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _types_ and _terms_, respectively.  The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
+Given a [[category]] $\mathcal{C}$, we may speak about its **categorical semantics** in terms of type theory. The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _types_ and _terms_, respectively. The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
 
-+-- {: .query}
 
-[[Urs Schreiber|Urs]]: ther query boxes that used to be here I have turned into the following paragraph.
-
-=--
-
-* In category theory a [[morphism]] $f$ with domain $B$ and codomain $A$ 
-  is in sympbols
+* In category theory a [[morphism]] $f$ in $\mathcal{C}$ with 
+  [[domain]] $B$ and [[codomain]] $A$ 
+  is in symbols
 
   $$  B \stackrel{f}{\to} A\,. $$ 
 
@@ -33,18 +29,18 @@ The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]
 
   $$ x\colon B \vdash f(x)\colon A\,. $$
 
-We may think of the _free variables_ here as being placeholders for all the [[generalized element]]s $U \stackrel{x}{\to} B$ of $B$.
+We may think of the _free variables_ here as being placeholders for all the [[generalized element]]s $U \stackrel{x}{\to} B$ of $B$. Then the assertion $x\colon B \vdash f(x)\colon A$ indicates that with $B \stackrel{f}{\to} A$ given we may send $U \stackrel{x}{\to} B$ to the [[composition]] $(U \stackrel{x}{\to} B \stackrel{f}{\to}A ) = (U \stackrel{f(x)}{\to} A)$.
 
-With this, [[composition]] of morphisms in the category
+Generally, [[composition]] of morphisms in the category
 
 $$
   C \stackrel{f}{\to} B \stackrel{g}{\to} A 
   \;\;
   =
-  \;\; C \stackrel{g \circ f }{\to}
+  \;\; C \stackrel{g \circ f }{\to} A
 $$
 
-correspons to _substituion_ in type theory of a term for a free variable: 
+corresponds to _substituion_ in type theory of a term for a free variable: 
 
 the morphisms $f$ and $g$ are interpreted as terms $f(x)$ and $g(y)$ of type $B$ and $A$ respectively, where $x$ and $y$ are variables of type $C$ and $B$ respectively. The composite morphism $g\circ f$ is the term $g(f(x))$ of type $A$ where $x$ is again a variable of type $C$.
 
@@ -59,10 +55,11 @@ In symbols:
 
 $$ \frac {}{ x\colon A \vdash x\colon A } $$
 
+What sorts of syntactical constructions you allow on types and terms corresponds to the structure of the category $\mathcal{C}$ in which the [[semantics]] is intended to occur.  
 
-What sorts of syntactical constructions you allow on types and terms corresponds to the structure of the category in which the [[semantics]] is intended to occur.  For example, if our semantic categories have binary products, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (by choosing their free variables appropriately), we are really describing the full universal property of a cartesian product.
+For example, if our semantic categories have binary [[product]]s, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (by choosing their free variables appropriately), we are really describing the full universal property of a cartesian product.
 
-An important extension of type theory involves _dependent_ types: types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  Syntactically, in addition to the existence of dependent types, one often allows constructions on them such as _dependent sums_ $\Sigma_{x:A} B(x)$ (regarded as the "type of pairs" $(x,y)$ such that $x\in A$ and $y\in B(x)$) and _dependent products_ $\Pi_{x:A} B(x)$ (regarded as the "type of functions" $f$ such that for any $x\in A$, we have $f(x)\in B(x)$).  Semantically, a type $B(x)$ depending on an element $x$ of type $A$ is represented by a morphism $B\to A$, thought of as an $A$-indexed family of objects; each $B(x)$ is supposed to be the fiber over $x$.  Then dependent sum and product are interpreted by the left and right adjoints to the [[pullback]] functors $f^*:E/Y\to E/X$ along a morphism $f:X\to Y$; the left adjoint always exists, while the right adjoint exists in any [[locally cartesian closed category]].
+An important extension of type theory involves _dependent_ types: types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  Syntactically, in addition to the existence of dependent types, one often allows constructions on them such as _dependent sums_ $\Sigma_{x:A} B(x)$ (regarded as the "type of pairs" $(x,y)$ such that $x\in A$ and $y\in B(x)$) and _[[dependent product]]s_ $\Pi_{x:A} B(x)$ (regarded as the "type of functions" $f$ such that for any $x\in A$, we have $f(x)\in B(x)$).  Semantically, a type $B(x)$ depending on an element $x$ of type $A$ is represented by a morphism $B\to A$, thought of as an $A$-indexed family of objects; each $B(x)$ is supposed to be the fiber over $x$.  Then dependent sum and product are interpreted by the left and right adjoints to the [[pullback]] functors $f^*:E/Y\to E/X$ along a morphism $f:X\to Y$; the left adjoint always exists, while the right adjoint exists in any [[locally cartesian closed category]].
 
 ## Categorical semantics of logic in type theory
 
