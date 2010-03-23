@@ -277,7 +277,101 @@ Notice that the function algebra on the derived loop space is just the different
 
 > The bar complex is called the bar complex because its inventors wrote it down using lots of bars. If you don't believe this it shows that you have no idea how careless mathematicians can be about finding good terminology for the objects they hold in high esteem.
 
+### Hochschild homology and extensions {#Extensions}
 
++-- {: .un_def }
+###### Definition
+
+An [[exact sequence]] $0 \to N \to E \to R$ of $k$-modules where
+$E \to R$ is a surjective morphism of $k$-algebras is
+called a **$k$-split** extension or a **Hochschild extension** of $R$ by $E$ if the sequence is a [[split sequence]] as a sequence of $k$-[[module]]s.
+
+=--
+
+
+
++-- {: .un_theorem }
+###### Theorem
+
+For $R$ a $k$-algebra and $N$ an $R$-[[bimodule]], equivalence
+classes of Hochschild extensions of $R$ by $N$ are in bijection with
+degree 2 Hochschild cohomology $H^2(R,N)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For instance [[An Introduction to Homological Algebra|Weibel, theorem 9.3.1]].
+
+=--
+
+
+### The Hochschild-Kostant-Rosenberg theorem {#H}
+
+The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coeficients in itself) computes the wedge powers of its [[Kähler differential]]s.
+
++-- {: .un_prop }
+###### Proposition
+
+For a $k$-algebra $R$, its module of [[Kähler differential]]s coincides with its first Hochschild homology
+
+$$
+  \Omega(R/k) \simeq H_1(R,R)
+  \,.
+$$
+
+
+=--
+
+Write $\Omega^0(R/k) := R \simeq HH_0(R,R)$.
+
+For $n \geq 2$ Write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $\Omega(R/k)$ with itself: the degree $n$-K&#228;hler-differentials.
+
++-- {: .num_theorem }
+###### Theorem
+
+The isomorphism $\Omega^1(R/k) \simeq H_1(R,R)$ extends to a graded ring morphism
+
+$$
+  \psi : \Omega^\bullet(R/k) \to H_\bullet(R,R)
+  \,.
+$$
+
+=--
+
+If the $k$-algebra $R$ is sufficiently well-behaved, then this morphism is an [[isomorphism]] that identifies the Hochschild homology of $R$ in degree $n$ with $\Omega^n(R/k)$ for all $n$:
+
++-- {: .num_theorem }
+###### Theorem
+**(Hochschild-Kostant-Rosenberg theorem)**
+
+
+
+If $k$ is a [[field]] and $R$ a commutative $k$-[[algebra]] which is 
+
+* essentially of finite type 
+
+* smooth over $R$
+
+then there is an [[isomorphism]] of graded $R$-algebras
+
+$$
+  \psi : \Omega^\bullet(R/k) \stackrel{\simeq}{\to}
+  H_\bullet(R,R)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is reviewed for instance as theorem 9.4.7 of
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+=--
 
 
 
@@ -285,7 +379,12 @@ Notice that the function algebra on the derived loop space is just the different
 ## References
  
 The traditional story of Hochschild (co)homology is exposed for instance
-in chapter 4 of
+
+in chapter 9 of
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+or in chapter 4 of
  
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
 
@@ -306,4 +405,4 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157])
  
- 
+[[!redirects Hochschild homology]]
