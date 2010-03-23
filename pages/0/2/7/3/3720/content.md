@@ -19,3 +19,6 @@ With David Mumford he wrote the historical article on Deligne-Mumford stacks at 
 See also article entry [[Catégories Tannakiennes]].
 
 * [wikipedia](http://en.wikipedia.org/wiki/Pierre_Deligne), IAS [page](http://www.math.ias.edu/~phares/deligne/Deligne.html), publication list in [pdf](http://www.math.ias.edu/~phares/deligne/publications.pdf), and the [links](http://www.numdam.org/numdam-bin/recherche?au=Deligne,+Pierre&format=short) to the Deligne's numdam scanned articles.
+
+
+category: people
