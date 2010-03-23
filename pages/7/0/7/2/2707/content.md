@@ -102,4 +102,8 @@ Some most recent generalizations of the theory, using derivators and similar tec
 
 * D-C. Cisinski, G. Tabuada, _Symmetric monoidal structure on Non-commutative motives_, [arxiv/1001.0228](http://arxiv.org/abs/1001.0228)
 
+
+[[!redirects motif]]
+[[!redirects motive]]
+[[!redirects motives]]
 [[!redirects category of motives]]
