@@ -65,6 +65,8 @@ For $n \in \mathbb{N}$
 
 It makes sense to say an object is $(-1)$ connected if it is either initial or equivalent to the [[point]], and $(-2)$ connected if it is equivalent to the point.
 
+* An object is a **degree $n$-[[Eilenberg-MacLane object]]** if its is both $n$-connected as well as $n$-truncated, i.e. if its only nontrivial homotopy group is in degree $n$.
+
 
 ## History 
 
