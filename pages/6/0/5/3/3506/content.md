@@ -23,6 +23,7 @@ There is a series of longer articles called _Holonomic quantum fields I-V_ (main
 
 * &#1057;&#1072;&#1090;&#1086; &#1052;., &#1044;&#1079;&#1080;&#1084;&#1073;&#1086; &#1052;., &#1052;&#1080;&#1074;&#1072; &#1058;.  _&#1043;&#1086;&#1083;&#1086;&#1085;&#1086;&#1084;&#1085;&#1099;&#1077; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1099;&#1077; &#1087;&#1086;&#1083;&#1103;_ (a collection of the reprints in Russian of the articles of Ky&#333;to school) vol. __30__ (1983) in the series Matematika -- novoe v zarube&#382;noj nauke ([description](http://lib.mexmat.ru/books/6928)) 
 
+* M. Jimbo, T. Miwa, M. Sato, _Holonomic quantum fields &#8212; the unanticipated link between deformation theory of differential equations and quantum fields_, K. Osterwalder (ed.), Mathematical problems in theoretical physics, Springer (1980) 119&#8211;142
 
 One of the primary ideas stems from an observation of 
 
