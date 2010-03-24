@@ -302,7 +302,7 @@ If $C$ and $D$ are enriched in [[Kan complex]]es and if $F$ is hom-wise a [[Kan 
     }
   $$
 
-  is a [[homotopy pullback]] square in [[sSet]] equipped with its [[standard model structure on simplicial sets|standard model structure]].
+  is a [[homotopy pullback]] square in [[sSet]] equipped with its [[model structure on simplicial sets|standard model structure]].
 
 
 =--
