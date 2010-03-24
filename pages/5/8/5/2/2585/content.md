@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc" markdown="1">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -23,6 +28,7 @@ For instance let $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ be the $(\infty,1)$-topos 
 But of course the manifold $X$ may have nontrivial [[homotopy group]]s in terms of its underlying [[topological space]]. For instance if $X = S^1$ is the circle, then the _geometric_ first homotopy group is nontrivial, $\pi_1^{geom}(X) = \mathbb{Z}$.
 
 We discuss below both cases. The case of categorical homotopy groups is fully understood, for the case of geometric homotopy groups at the moment only a few aspects are in the literature, more is in the making. Some authors of this page ([[Urs Schreiber|U.S.]]) thank [[Richard Williamson]] for pointing this out.
+
 
 ## Categorical homotopy groups
 
@@ -62,6 +68,20 @@ As in classical [[homotopy theory]], for $n \geq 1$ the object $\pi_n(X)$ is equ
 
 **Remark** The [[n-truncated object of an (infinity,1)-topos|0-truncated]] objects in $\mathbf{H}/X$ have the interpretation of [[sheaf|sheaves]] on $X$. So in the world of [[∞-stack]]s a homotopy [[group object]] is a [[sheaf]] of groups.
 
+
+### Connected and truncated objects
+
+Let $X \in \mathbf{H}$.
+
+* The object $X$ is **$n$-[[truncated]]** if it is a [[n-truncated object in an (∞,1)-category|k-truncated object]] for some $k \gt n$ and if all its categorical homotopy groups above degree $n$ vanish.
+
+  Every object decomposes as a sequence of $n$-truncated objects: the 
+  [[Postnikov tower in an (∞,1)-category]].
+
+* The object $X$ is **$n$-[[connected]]** if the terminal morphism 
+  $X \to *$ is an [[effective epimorphism]] and if all categorical homotopy groups below degree $n$ are trivial.
+
+* The object $X$ is an **[[Eilenberg-MacLane object]]** of degree $n$ if it is both $n$-connected and $n$-truncated.
 
 ### References
 
@@ -607,7 +627,7 @@ $$
 
 of [[locally constant ∞-stack]]s on $X$ and [[Kan fibration]]s over the [[fundamental ∞-groupoid]] $\Pi(X) = Sing(X)$.
 
-But Kan fibrations over a Kan complex such as $\Pi(X)$ are equivalently [[left fibration]]s (as discussed there) and by by the [[(∞,1)-Grothendieck construction]] these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$. So under the [[(∞,1)-Grothendieck construction]] To&#235;n's result does actually produce an equivalence
+But Kan fibrations over a Kan complex such as $\Pi(X)$ are equivalently [[left fibration]]s (as discussed there) and by by the [[(∞,1)-Grothendieck construction]] these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$. So under the [[(∞,1)-Grothendieck construction]] To&euml;n's result does actually produce an equivalence
 
 $$
   LConst(X) \simeq Func(\Pi(X), \infty Grpd)
