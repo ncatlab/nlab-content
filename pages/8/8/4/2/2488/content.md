@@ -168,6 +168,9 @@ An object in [[∞Grpd]] is $n$-truncated precisely if it is an [[n-groupoid]].
 
 Equivalently, an object in [[Top]] is $n$-truncated if it is (in the equivalence class of) a [[homotopy n-type]].
 
+When [[∞-groupoid]]s are modeled as [[Kan complex]]es, then an object $X \in \infty Grpd$ is $n$-truncated precisely if it is [[coskeleton|n-coskeletal]]. The truncation $X \to \tau_{\leq n} X$ is the counit of the [[coskeleton]] $X \to \mathbf{cosk}_n X$.
+
+
 ## References
 
 The discussion of truncated objects in an $(\infty,1)$-category is in section 5.5.6 of
@@ -175,6 +178,13 @@ The discussion of truncated objects in an $(\infty,1)$-category is in section 5.
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 The discussion of categorical [[homotopy groups in an (∞,1)-topos]] is in section 6.5.1.
+
+A classical reference on $n$-truncation of $\infty$-groupoids is for instance
+
+A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleton]]s is
+
+* [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
+
 
 [[!redirects truncated]]
 
