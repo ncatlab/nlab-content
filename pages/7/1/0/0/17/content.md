@@ -125,6 +125,28 @@ Once you edit a page for the first time, your name will appear at the bottom, gr
 To create your user page, simply click the question mark that appears next to your name at the bottom of the page after making a modification and add content to the edit box that appears. If you'd like to make a user page prior to modifying an existing page, you can do so by making some trivial modification to the [[Sandbox]], which will put your name at the bottom of the page where you can click the question mark. (Or hack the URL.)
 
 
+## How to merge pages
+{#merging}
+
+Suppose we have two pages, named 'A' and 'B', and you decide that they ought to be merged into a single page, say 'A'.  Of course, you need to edit 'A' to contain the material from 'B' and make a coherent whole, but there are also some technical aspects.  We do *not* want to simply delete 'B', since it contains the history of the edits to that page, which might turn out to be useful.  However, we *do* want these two things:
+
+1.  links to 'B' ought to send the reader to 'A';
+2.  the old page 'B' should be clearly marked as archive material.
+
+We accomplish (1) with a [[redirect]]; we accomplish (2) with a [[page move]].  If you do this too carelessly, then it will not work; in the worst case, links to 'B' will still go to the archive page, and that will look to the casual reader like a regular page.  So follow these steps:
+
+1.  Edit 'A' so that it looks how you want, and add the line '[[!redirects B]]' to the bottom.  Submit.
+2.  Open 'B' for editing.
+3.  Click the checkbox 'Change page name.', which will bring up a new field 'New name:'.
+4.  In that field, add ' > history' to the end, so that 'B' becomes 'B > history'.
+5.  Click in the big edit box, which will automatically add '[[!redirects B]]' to the top.
+6.  Change the line '[[!redirects B]]' into '< [[B]]' instead.
+7.  Delete everything else (consisting of the material that you already merged into 'A').
+8.  Submit.
+
+The result is that links to 'B' will redirect to 'A' (not to 'B > history').  And if anyone does land on 'B > history', all that they will see is '<&#160;[[HomePage|B]]' with a link to 'B' (properly redirected to 'A').
+
+
 ## Naming conventions ##
 {#naming}
 
