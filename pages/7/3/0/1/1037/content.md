@@ -429,39 +429,37 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[n-localic (∞,1)-topos]]
 
-### 6.5 Homotopy theory in an $(\infty,1)$-topos ###
+### 6.5 Homotopy theory in an $(\infty,1)$-topos 
 
-* [[homotopy group (of an ∞-stack)]]
+
+#### 6.5.1 Homotopy groups
+
+* [[homotopy groups in an (∞,1)-topos]]
 
   * [[n-truncated object of an (∞,1)-topos]]
 
-* [[hypercomplete (∞,1)-topos]]
+  * [[n-connected object of an (∞,1)-topos]]
 
-  * [[Whitehead theorem]]
-
-  * [[hypercompletion]]
+  * [[Eilenberg-MacLane object]]
 
 * [[cohomology]]
 
-  * [[nonabelian cohomology]]
+#### 6.5.2 $\infty$-Connectedness
 
-  * [[?ech cohomology]]
+#### 6.5.3 Hypercovering
 
-  * [[fibration sequence]]
+* [[hypercover]]
 
-    * [[principal ∞-bundle]]
-   
-      * [[gerbe (general idea)]]
-  
-      * [[gerbe (as a stack)]]
-     
-      * [[bundle gerbe]]
+* [[hypercomplete (∞,1)-topos]]
 
-      * [[principal 2-bundle]]
+* [[Whitehead theorem]]
 
+#### 6.5.4 Descent versus Hyperdescent
 
+* [[topological localization]]
 
-     
+* [[hypercompletion]]
+
 ##7 Higher Topos Theory in Topology
 
 
@@ -482,6 +480,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
   * [[Eilenberg-MacLane object]]
 
   * [[gerbe]]
+
 
 ##Appendix##
 
