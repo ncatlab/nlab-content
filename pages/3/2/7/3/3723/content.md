@@ -181,7 +181,7 @@ Similarly, form now the top square as a pullback. Then by the composition law of
 ### For $\infty$-groupoids
 
 In $\mathbf{H} = Top \simeq $ [[∞Grpd]] the functors $\Pi$ and $\mathbf{\Pi}$ are the identity and so 
-$\cdots \to \mathbf{\Pi}_1(X) \to \mathbf{\Pi}_0(X)$ is just the standard [[Postnikov tower]] $\cdots \to X_1 \to  X_0 $.
+$\cdots \to \mathbf{\Pi}_1(X) \to \mathbf{\Pi}_0(X)$ is just the standard [[Postnikov tower]] $\cdots \to X_1 \to  X_0 $. If $X$ is a pointed topological space, then $\mathbf{B}^n \mathbf{\pi}_n(X)$ is the [[Eilenberg-Mac Lane space]] $K(\pi_n(X),n)$.
 
 
 ### For topological $\infty$-groupoids {#TopInfGrpds}
