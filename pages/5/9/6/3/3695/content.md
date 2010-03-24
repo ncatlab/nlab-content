@@ -35,7 +35,9 @@ Stokes factors appear in the study of stability in the geometry of moduli spaces
 * A R Its, A A Kapaev, _Quasi-linear Stokes phenomenon for the second
 Painlev&#180;e transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](http://dx.doi.org/10.1088/0951-7715/16/1/321)
 
-Proceedings volumes:
+* M. Hukuhara, _Sur les points singuliers des &#233;quations diff&#233;rentielles lin&#233;aires, II_, Jour.Fac. Sci. Hokkaido Univ. 5 (1937), 123-166; _Sur les points singuliers des &#233;quations diff&#233;rentielles lin&#233;aires, III_ , Jour. Fac. Sci. Kyushu Univ. 2 (1942), 125-137.
+
+Thematic proceedings volumes:
 
 * B L J Braaksma, G K Immink, M van der Put, eds, _The Stokes Phenomenon and Hilbert's 16th Problem_, World Sci. 1996
 
