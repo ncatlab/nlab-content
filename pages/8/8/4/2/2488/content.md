@@ -6,9 +6,15 @@
 
 ## Idea
 
-An _$n$-truncated object of an [[∞-stack]] [[(∞,1)-topos]]_ $\mathbf{H}$ is the analog of an [[n-groupoid]] or [[homotopy n-type]] in the archetypical [[(∞,1)-topos]] [[∞-Grpd]]/[[Top]]: 
+An **$n$-truncated [[∞-groupoid]]** is an [[n-groupoid]]: all [[simplicial homotopy group]]s above degree $n$ are trivial. 
 
-it is an object $X \in \mathbf{H}$ whose [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] $\pi_k(X)$ are trivial for $k \gt n$.
+An **$n$-truncated [[topological space]]** is a [[homotopy n-type]]: all [[homotopy group]]s above degree $n$ are tricial.
+
+An **$n$-truncated object** in a general [[(∞,1)-category]] is an object such that all hom-$\infty$-groupoids into it are $n$-truncated.
+
+If an object in an [[∞-stack]] [[(∞,1)-topos]]_ is $k$-truncated for any (possibly large) $k$, then it is $n$-truncated precisely if all its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial. 
+
+The complementary notion of $n$-truncated object  is that of an [[n-connected object of an (∞,1)-category]].
 
 ## Definition
 
@@ -20,7 +26,7 @@ it is an object $X \in \mathbf{H}$ whose [[homotopy groups in an (∞,1)-topos|c
 
 An [[∞-groupoid]] $A \in \infty Grpd$ is **$n$-truncated** for $n \in \mathbb{N}$ if it is an [[n-groupoid]]:
 
-Precisely: in the model of [[∞-groupoid]]-groupoids given by [[Kan complex]]es an [[∞-groupoid]] is **$n$-truncated** if, the [[simplicial homotopy group]]s $\pi_k(A,x)$ are trivial for all $x$ and all $k \gt n$.
+Precisely: in the model of [[∞-groupoid]]s given by [[Kan complex]]es $A$ is **$n$-truncated** if, the [[simplicial homotopy group]]s $\pi_k(A,x)$ are trivial for all $x$ and all $k \gt n$.
 
 =--
 
@@ -62,7 +68,7 @@ Some terminology:
 
 * A 0-truncated object is also called **discrete** . Notice that this is _categorically discrete_ as in [[discrete category]], not discrete in the sense of [[topological space]]s. An object in an [[(∞,1)-topos]] is discrete in this sense if, regarded as an [[∞-groupoid]] with extra structure it has only trivial morphisms.
 
-* By the above concention on (-2)-truncated $\infty$-groupoid, it is the [[terminal object]]s of $C$ that are (-2)-truncated.
+* By the above convention on (-2)-truncated $\infty$-groupoid, it is the [[terminal object]]s of $C$ that are (-2)-truncated.
 
 
 ### In terms of categorical homotopy groups 
@@ -72,7 +78,9 @@ At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-
 +-- {: .un_prop}
 ###### Proposition
 
-An object $X$ in an [[∞-stack]] [[(∞,1)-topos]] is $n$-truncated precisely when its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] $\pi_k(X)$ are trivial for $k \gt n$. 
+Suppose that an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] is $k$-truncated for _some_ $k \in \mathbb{N}$ (possibly very large).
+
+Then for any $n \in \mathbb{N}$ this $X$ is $n$-truncated precisely if all the [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial.
 
 =--
 
@@ -80,7 +88,14 @@ An object $X$ in an [[∞-stack]] [[(∞,1)-topos]] is $n$-truncated precisely w
 ###### Proof
 
 
-This is [[Higher Topos Theory|HTT prop 6.5.1.7]].
+This is [[Higher Topos Theory|HTT, prop 6.5.1.7]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+Notice that this expected statement does require the assumption that $X$ is $k$-truncated for some $k$. Without any _a priori_ truncation assumption on $X$, there is no comparable statement about the relaton to categorical homotopy groups. See [[Higher Topos Theory|HTT, remark 6.5.1.8]].
 
 =--
 
@@ -90,7 +105,7 @@ Under mild conditions there is for each $n$ a universal way to send an arbitrary
 
 For $C$ an [[(∞,1)-category]] and $n \geq -2$ in $\mathbb{Z}$ write $\tau_{\leq n} C $ for the [[full subcategory]] of $C$ on its $n$-truncated objects. 
 
-So for instance for $C = \infty Grpd$ we have $\tau_{\leq n} \infty Grpd = n Grpd$.
+So for instance for $C = $ [[∞Grpd]] we have $\tau_{\leq n} \infty Grpd = n Grpd$.
 
 
 +-- {: .un_prop}
@@ -140,19 +155,28 @@ For any $A \in C$ the sequence
 
 $$
   \cdots
-   \to \tau_{\leq 2} \to \tau_{\leq 1} A \to \tau_{\leq 0} A
+   \to \tau_{\leq 2}A \to \tau_{\leq 1} A \to \tau_{\leq 0} A
 $$
 
-is the [[Postnikov tower in an (infinity,1)-category]] of $A$. See there for more details.
+is the [[Postnikov tower in an (∞,1)-category]] of $A$. See there for more details.
+
+## Examples
+
+### In $\infty Grpd$ and in $Top$
+
+An object in [[∞Grpd]] is $n$-truncated precisely if it is an [[n-groupoid]].
+
+Equivalently, an object in [[Top]] is $n$-truncated if it is (in the equivalence class of) a [[homotopy n-type]].
 
 ## References
 
-The discussion of truncated objects is in section 5.5.6 of
+The discussion of truncated objects in an $(\infty,1)$-category is in section 5.5.6 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 The discussion of categorical [[homotopy groups in an (∞,1)-topos]] is in section 6.5.1.
 
+[[!redirects truncated]]
 
 [[!redirects n-truncated object of an (∞,1)-topos]]
 [[!redirects n-truncated object in an (∞,1)-category]]
