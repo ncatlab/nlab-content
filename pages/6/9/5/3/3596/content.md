@@ -11,7 +11,7 @@ In *extensional* type theory, such as that modeled in the [[internal logic]] of 
 
 ## Definition
 
-The rules for forming identity types and terms are as follows.  First the rule that defines the identity type itself, as a [[dependent type]].
+The rules for forming identity types and terms are as follows.  First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
 $$\frac{\Gamma \vdash A:Type}
 {\Gamma, x:A, y:A \vdash Id_A(x,y):Type}$$
