@@ -12,6 +12,8 @@ While the short wikipedia article on 21st Hilbert problem is discussing in [nice
 
 * O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 
+* G. D. Birkhoff, _The generalized Riemann problem for linear differential equations and the allied problems for linear difference and q-difference equations_, Proc. Amer. Acad. Arts and Sci. __49__ (1913), 531-568.
+
 [[!redirects Riemann-Hilbert problem]]
 [[!redirects Riemann–Hilbert problem]]
 [[!redirects Riemann--Hilbert problem]]
