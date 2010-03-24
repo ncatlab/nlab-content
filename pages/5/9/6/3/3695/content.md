@@ -37,7 +37,7 @@ Painlev&#180;e transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](ht
 
 * M. Hukuhara, _Sur les points singuliers des &#233;quations diff&#233;rentielles lin&#233;aires, II_, Jour.Fac. Sci. Hokkaido Univ. 5 (1937), 123-166; _Sur les points singuliers des &#233;quations diff&#233;rentielles lin&#233;aires, III_ , Jour. Fac. Sci. Kyushu Univ. 2 (1942), 125-137.
 
-Thematic proceedings volumes:
+* D. G. Babbitt, V. S. Varadarajan, _Local moduli for meromorphic differential equations_,  Bull. Amer. Math. Soc. (N.S.) __12__, N. 1 (1985), 95-98.
 
 * B L J Braaksma, G K Immink, M van der Put, eds, _The Stokes Phenomenon and Hilbert's 16th Problem_, World Sci. 1996
 
