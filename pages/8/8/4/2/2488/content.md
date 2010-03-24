@@ -12,7 +12,7 @@ An **$n$-truncated [[topological space]]** is a [[homotopy n-type]]: all [[homot
 
 An **$n$-truncated object** in a general [[(∞,1)-category]] is an object such that all hom-$\infty$-groupoids into it are $n$-truncated.
 
-If an object in an [[∞-stack]] [[(∞,1)-topos]]_ is $k$-truncated for any (possibly large) $k$, then it is $n$-truncated precisely if all its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial. 
+If an object in an [[(∞,1)-topos]]_ is $k$-truncated for any (possibly large) $k$, then it is $n$-truncated precisely if all its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] above degree $n$ are trivial. 
 
 The complementary notion of $n$-truncated object  is that of an [[n-connected object of an (∞,1)-category]].
 
