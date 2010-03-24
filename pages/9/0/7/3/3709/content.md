@@ -41,7 +41,7 @@ $$
 
 * L.Katzarkov, [[Maxim Kontsevich|M.Kontsevich]], T.Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
 
-* D. Babbitt, V.S. Varadarajan, _Deformations of nilpotent matrices over rings and reduction of analytic families of meromorphic differential equations_, Mem. Amer. Math. Soc. __55__ (325), iv+147, 1985.
+* D. Babbitt, V.S. Varadarajan, _Deformations of nilpotent matrices over rings and reduction of analytic families of meromorphic differential equations_, Mem. Amer. Math. Soc. __55__ (325), iv+147, 1985; _Local moduli for meromorphic differential equations_, Ast&#233;risque 169-170 (1989), 1&#8211;217.
 
 * V.S. Varadarajan, _Linear meromorphic differential equation: a modern point of view_, Bull. AMS __33__, n. 1, 1996, [pdf](http://www.ams.org/bull/1996-33-01/S0273-0979-96-00624-6/S0273-0979-96-00624-6.pdf), [citeseer:pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.8107&rep=rep1&type=pdf).
 
