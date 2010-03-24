@@ -13,7 +13,7 @@ $$
   x:A \; \vdash \;B(x):Type
 $$ 
 
-is represented by a particular [[morphism]] $p\colon B\to A$, the intended meaning being that each type $B(x)$ is the [[fiber]] of $p$ over $x\in A$.  The maps in a category which are intended to represent dependent types are sometimes called [[display maps]].
+is represented by a particular [[morphism]] $p\colon B\to A$, the intended meaning being that each type $B(x)$ is the [[fiber]] of $p$ over $x\in A$.  The morphism in a category may represent dependent types in this way are sometimes called [[display morphisms]] (especially when not every morphism is a display morphism).
 
 See also:
 
