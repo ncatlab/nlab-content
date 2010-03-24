@@ -63,7 +63,89 @@ What sorts of syntactical constructions you allow on types and terms corresponds
 
 For example, if our semantic categories have binary [[product]]s, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (by choosing their free variables appropriately), we are really describing the full universal property of a cartesian product.
 
-An important extension of type theory involves _dependent_ types: types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  Syntactically, in addition to the existence of dependent types, one often allows constructions on them such as _dependent sums_ $\Sigma_{x:A} B(x)$ (regarded as the "type of pairs" $(x,y)$ such that $x\in A$ and $y\in B(x)$) and _[[dependent product]]s_ $\Pi_{x:A} B(x)$ (regarded as the "type of functions" $f$ such that for any $x\in A$, we have $f(x)\in B(x)$).  Semantically, a type $B(x)$ depending on an element $x$ of type $A$ is represented by a morphism $B\to A$, thought of as an $A$-indexed family of objects; each $B(x)$ is supposed to be the fiber over $x$.  Then dependent sum and product are interpreted by the left and right adjoints to the [[pullback]] functors $f^*:E/Y\to E/X$ along a morphism $f:X\to Y$; the left adjoint always exists, while the right adjoint exists in any [[locally cartesian closed category]].
+An important extension of type theory involves _dependent_ types: types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  
+
+In category theory language a _type $C(x)$ dependent on_ an element $x$ of type $A$ is (again) a [[morphism]] 
+
+$$
+  \array{
+    C
+    \\
+    \downarrow\mathrlap{p}
+    \\
+    A
+  } 
+$$
+
+thought of as an $A$-indexed family of objects/types -- a [[bundle]] of objects:
+
+For every [[generalized element]] $U \stackrel{x}{\to} A$, we have the [[pullback]] $x^* C := C(x)$ in 
+
+$$
+  \array{
+    C(x) &\to& C
+    \\
+    \downarrow && \downarrow\mathrlap{p}
+    \\
+    U &\stackrel{x}{\to}& A
+  }
+  \,.
+$$
+
+This $C(x)$ is the type that is the value of the dependent type $C$ at the parameter value $x$ of type $A$. 
+
+Generally for $h : A\to D$ a morphism, we have the corresponding [[pullback]] functor on [[overcategories]]
+
+$$
+  h^* : \mathcal{C}/D \to \mathcal{C}/A
+  \,.
+$$
+
+The [[left adjoint]] of this always exists and is given by postcomposition with $h$. This sends a dependent type $p : C \to A$ to the dependent type $C  \stackrel{h(p)}{\to} D$. Suppose in particular that $D = *$ is the [[terminal object]]. Then this operation takes the dependent type $C$ with all its fibers $C(x)$ and regards it as an independent type, consisting of all these fibers.
+
+One speaks of the [[dependent sum]] and in the categorical semantics writes
+
+$$
+  \sum_{x : A} C(x) 
+$$
+
+for the image of $C$ under this left adjoint. Type theoretically this operation is a _type constructor_ that constructs the new type $\Sum_{x : A} C(x)$ from the collection of types $C(x)$.
+
+By the universal property of the [[pullback]], an element 
+
+$$
+  z \;:\; \sum_{x : A} C(x)
+$$
+
+of this sum type, i.e. a morphism
+
+$$
+  z : U \to C
+$$
+
+is equivalently by considering
+
+$$
+  \array{
+    U &\stackrel{z}{\to}& C
+    \\
+    \downarrow^{\mathrlap{Id}} && \downarrow\mathrlap{p}
+    \\
+    U &\stackrel{x := p(z)}{\to}& A
+  }
+$$
+
+a morphism $y : U \to C(x)$.
+
+So we think of $C = \sum_{x : A } C(x)$ as the the _type of pairs_ $(x,y)$ such that $x : A$ and $y : C(x)$.
+
+Similarly, the [[right adjoint]] to the [[pullback]] functor is, if it exists, the _[[dependent product]]_ operation , which sends the dependent type $p : C \to A$ to the type 
+
+$$
+  \Pi_{x:A} C(x)
+$$ 
+
+regarded as the _type of functions_ $f$ such that for any $x\in A$, we have $f(x)\in B(x)$).  This right adjoint exists in any [[locally cartesian closed category]] $\mathcal{C}$.
 
 
 ## Categorical semantics of logic in type theory
