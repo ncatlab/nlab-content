@@ -88,6 +88,10 @@ Simplicial sets isomorphic to objects in the image of $cosk_n$ are called **cosk
 
 ## Properties
 
++-- {: .un_prop}
+###### Proposition
+
+
 For $X \in $ [[sSet]], the following are equivalent:
 
 * $X$ is $n$-coskeletal; 
@@ -114,6 +118,41 @@ For $X \in $ [[sSet]], the following are equivalent:
     }
   $$
 
+=--
+
++-- {: .un_remark}
+###### Remark
+
+So in particular if $X$ is an $n$-coskeletal [[Kan complex]], all its [[simplicial homotopy group]]s above degree $n$ are trivial.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For each $n \in \mathbb{N}$, the unit of the adjunction
+
+$$
+  X \to \mathbf{cosk}_n(X)
+$$
+
+induces an [[isomorphism]] on all [[simplicial homotopy group]]s in degree $\leq n$.
+
+
+=--
+
+
+### Relation to Postnikov towers
+
+It follows from the above that for $X$ a [[Kan complex]], the sequence
+
+$$
+  X = \lim_n cosk_n X \to \cdots \to cosk_{n+1} X \to cosk_{n} X \to \cdots \to *
+$$
+
+is a [[Postnikov tower]] for $X$.
+
 ## Examples
 
 * The [[nerve]] of a [[category]] is a 2-coskeletal simplicial set.
@@ -124,9 +163,19 @@ For $X \in $ [[sSet]], the following are equivalent:
 
 
 
+
+
+
 ## References
 
+A standard textbook reference is
+
 * P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+
+A classical article that amplifies the connection of the coskeleton operation to [[Postnikov tower]]s is
+
+* [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
+
 
 [[!redirects coskeletal]]
 [[!redirects coskeleton]]
