@@ -55,6 +55,8 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 
 * A. Borel et al., _Algebraic D-modules_, Perspectives in Mathematics, Academic Press, 1987.
 
+* J.-E. Bj&#246;rk, _Rings of differential operators_, North-Holland Math. Library 21. North-Holland Publ. 1979. xvii+374 pp. 
+
 * [[Masaki Kashiwara|M. Kashiwara]], W.Schmid, _Quasi-equivariant D-modules, equivariant derived category, and representations of reductive Lie groups_, Lie Theory and Geometry, in Honor of Bertram Kostant, Progress in Mathematics, Birkh&#228;user, 1994, pp. 457&#8211;488
 
 * P. Maisonobe, C. Sabbah, _D-modules coh&#233;rents et holonomes_, Hermann, Paris 1993. 
