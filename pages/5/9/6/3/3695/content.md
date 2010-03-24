@@ -33,11 +33,15 @@ Stokes factors appear in the study of stability in the geometry of moduli spaces
 * R.B. Paris, A.D. Wood, _Stokes phenomenon demystified_, Bull. Inst. Math. Appl. __31__ (1995) 21-28.
 
 * A R Its, A A Kapaev, _Quasi-linear Stokes phenomenon for the second
-Painlev&#180;e transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](http://dx.doi.org/10.1088/0951-7715/16/1/321)
+Painlev&#233; transcendent_, Nonlinearity __16__ (2003) 363&#8211;386, [doi](http://dx.doi.org/10.1088/0951-7715/16/1/321)
 
 * M. Hukuhara, _Sur les points singuliers des &#233;quations diff&#233;rentielles lin&#233;aires, II_, Jour.Fac. Sci. Hokkaido Univ. 5 (1937), 123-166; _Sur les points singuliers des &#233;quations diff&#233;rentielles lin&#233;aires, III_ , Jour. Fac. Sci. Kyushu Univ. 2 (1942), 125-137.
 
 * D. G. Babbitt, V. S. Varadarajan, _Local moduli for meromorphic differential equations_,  Bull. Amer. Math. Soc. (N.S.) __12__, N. 1 (1985), 95-98.
+
+* P. Boalch, _Symplectic manifolds and isomonodromic deformations_, [link](http://www.dma.ens.fr/~boalch/files/smid.pdf)
+
+Proceedings volumes:
 
 * B L J Braaksma, G K Immink, M van der Put, eds, _The Stokes Phenomenon and Hilbert's 16th Problem_, World Sci. 1996
 
