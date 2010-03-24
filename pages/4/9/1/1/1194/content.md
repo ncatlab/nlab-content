@@ -33,7 +33,7 @@ Given a [[category]] $\mathcal{C}$, we may speak about its **categorical semanti
 
 We may think of the _free variables_ here as being placeholders for all the [[generalized element]]s $U \stackrel{x}{\to} B$ of $B$. Then the assertion $x\colon B \vdash f(x)\colon A$ indicates that with $B \stackrel{f}{\to} A$ given we may send $U \stackrel{x}{\to} B$ to the [[composition]] $(U \stackrel{x}{\to} B \stackrel{f}{\to}A ) = (U \stackrel{f(x)}{\to} A)$.
 
-So the notation $x\colon B \vdash f(x)\colon A$ is a direct reflection of the description of the morphism $f$ under the [[Yoneda embedding]] $C \hookrightarrow Func(C^{op}, C)$. Since the Yoneda embedding is a [[full and faithful functor]], this is indeed an entirely equivalent characterization of the morphism $f$.
+So the notation $x\colon B \vdash f(x)\colon A$ is a direct reflection of the description of the morphism $f$ under the [[Yoneda embedding]] $C \hookrightarrow Func(C^{op}, Set)$. Since the Yoneda embedding is a [[full and faithful functor]], this is indeed an entirely equivalent characterization of the morphism $f$.
 
 Generally, [[composition]] of morphisms in the category
 
@@ -53,15 +53,15 @@ $$ \frac { x\colon C \vdash f(x)\colon B \qquad y\colon B \vdash g(y)\colon A }
 
 Here the horizontal bar indicates that we have written down a _rule_, the rule that the judgement on the bottom is valid whenever the judgements on the top are valid.
 
-What is an [[identity morphism]] $A \stackrel{f = Id_A}{\to} A$ in category theory is a term of the form $f(x) = x$ in type theory, a variable itself regarded as a term: $x$ is a term of type $A$ where $x$ is a variable of type $A$.
+What is an [[identity morphism]] $A \stackrel{f = Id_A}{\to} A$ in category theory is a term represeting the function $f(x) = x$ in type theory, namely the variable $x$ itself regarded as a term: $x$ is a term of type $A$ whenever $x$ is a variable of type $A$.
 
 In symbols:
 
 $$ \frac {}{ x\colon A \vdash x\colon A } $$
 
-What sorts of syntactical constructions you allow on types and terms corresponds to the structure of the category $\mathcal{C}$ in which the [[semantics]] is intended to occur.  
+What sorts of additional syntactical constructions you allow on types and terms corresponds to the structure of the category $\mathcal{C}$ in which the [[semantics]] is intended to occur.
 
-For example, if our semantic categories have binary [[product]]s, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (by choosing their free variables appropriately), we are really describing the full universal property of a cartesian product.
+For example, if our semantic categories have binary [[product]]s, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$, and to build terms $\pi_1(z)$ and $\pi_2(z)$ from any term $z$ of type $A\times B$, with rules that say that $\pi_1\langle a,b\rangle = a$, $\pi_2 \langle a,b\rangle = b$, and $\langle \pi_1(z),\pi_2(z)\rangle = z$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (i.e. generalized elements), this really describes the full universal property of a categorical cartesian product.
 
 An important extension of type theory involves _dependent_ types: types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  
 
@@ -92,26 +92,26 @@ $$
   \,.
 $$
 
-This $C(x)$ is the type that is the value of the dependent type $C$ at the parameter value $x$ of type $A$. 
+This $C(x)$ is the type (relative to the domain of definition $U$) that is the "value" of the dependent type $C$ at the parameter value $x$ of type $A$ (which also has domain of definition $U$). 
 
-Generally for $h : A\to D$ a morphism, we have the corresponding [[pullback]] functor on [[overcategories]]
+If we have a morphism $h : A\to D$ regarded as a term $a:A \vdash h(a):D$ (rather than as a generalized element of $D$), then the corresponding [[pullback]] functor on [[overcategories]]
 
 $$
   h^* : \mathcal{C}/D \to \mathcal{C}/A
   \,.
 $$
 
-The [[left adjoint]] of this always exists and is given by postcomposition with $h$. This sends a dependent type $p : C \to A$ to the dependent type $C  \stackrel{h(p)}{\to} D$. Suppose in particular that $D = *$ is the [[terminal object]]. Then this operation takes the dependent type $C$ with all its fibers $C(x)$ and regards it as an independent type, consisting of all these fibers.
+represents the "reindexing" or "substitution" operation: a dependent type $y:D\vdash C(y):Type$ gives rise to a dependent type $x:A \vdash C(h(x)):Type$.
 
-One speaks of the [[dependent sum]] and in the categorical semantics writes
+Now the [[left adjoint]] of this pullback functor always exists, and is given by postcomposition with $h$. This sends a morphism $p : C \to A$ (representing a dependent type $x:A \vdash C(x):Type$ to the morphism $C  \stackrel{h(p)}{\to} D$. Now suppose in particular that $D = *$ is the [[terminal object]]. Then this operation takes $C$ with all its fibers $C(x)$ and regards it as an independent type, i.e. an object of the category $\mathcal{C}$, consisting of the "disjoint union" of all these fibers.  In the type theory, this operation is called the [[dependent sum]] and written
 
 $$
   \sum_{x : A} C(x) 
 $$
 
-for the image of $C$ under this left adjoint. Type theoretically this operation is a _type constructor_ that constructs the new type $\Sum_{x : A} C(x)$ from the collection of types $C(x)$.
+This is another _type constructor_ that constructs the new type $\sum_{x : A} C(x)$ from the dependent type $x:A\vdash C(x)$.
 
-By the universal property of the [[pullback]], an element 
+Now by the universal property of the [[pullback]], an element
 
 $$
   z \;:\; \sum_{x : A} C(x)
@@ -123,7 +123,7 @@ $$
   z : U \to C
 $$
 
-is equivalently by considering
+determines a morphism $x \coloneqq p(z)\colon U\to A$, i.e. a term $x:A$, along with a section $y$ of $x^*C$, i.e. a term $y:C(x)$.
 
 $$
   \array{
@@ -135,9 +135,7 @@ $$
   }
 $$
 
-a morphism $y : U \to C(x)$.
-
-So we think of $C = \sum_{x : A } C(x)$ as the the _type of pairs_ $(x,y)$ such that $x : A$ and $y : C(x)$.
+Thus, we can think of $C = \sum_{x : A } C(x)$ as the the _type of pairs_ $(x,y)$ such that $x : A$ and $y : C(x)$.  This is reflected in the type-theoretic rules for the dependent sum.
 
 Similarly, the [[right adjoint]] to the [[pullback]] functor is, if it exists, the _[[dependent product]]_ operation , which sends the dependent type $p : C \to A$ to the type 
 
