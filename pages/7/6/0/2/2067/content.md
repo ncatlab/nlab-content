@@ -182,6 +182,10 @@ $$
 
 ### In $(\infty,1)$-categories
 
+The notion of cartesian morphism generalizes from [[category theory]] to [[(∞,1)-category theory]]. We describe it for two different incarnations of the notion of [[(∞,1)-category]]: [[quasi-categories]] and [[simplicially enriched categories|sSet categories]].
+
+#### In quasi-categories
+
 We formulate a notion **cartesian edge** or _cartesian morphism_ in a [[simplicial set]] $X$ relative to a morphism $p : X \to Y$ of simplicial sets. In the case that these simplicial sets are [[quasi-category|quasi-categories]] -- i.e. simplicial set incarnations of [[(∞,1)-category|(∞,1)-categories]] -- this yields a notion of cartesian morphisms in $(\infty,1)$-categories.
 
 Let $p : X \to Y$ be a morphism of [[simplicial set]]s.
@@ -212,7 +216,7 @@ This is [[Higher Topos Theory|HTT, def 2.4.1.1]].
 +-- {: .un_prop}
 ###### Proposition
 
-The morphism $f : x \to y$ as above is $p$-cartesian precisely if for all $n \geq 2$ and all right outer [[horn]] inclusions
+The morphism $f : x \to y$ as above, for $p : X \to Y$ an [[inner fibration]], is $p$-cartesian precisely if for all $n \geq 2$ and all right outer [[horn]] inclusions
 
 $$
   \array{
@@ -250,6 +254,66 @@ exists.
 
 
 This is [[Higher Topos Theory|HTT remark 2.4.1.4]].
+
+
++-- {: .un_remark}
+###### Remark
+
+This means that an [[inner fibration]] $p : X \to Y$ with a collection of $p$-cartesian morphisms in $X$ specified satisfies the same kind of condition as a _[[right fibration]]_ , the only difference being that not _all_ right outer horns inclusion are required to have lifts, but only those where the last edge of the horn maps to a cartesion morphism.
+
+In this sense a [[Cartesian fibration]] is a generalization of a [[right fibration]].
+
+=--
+
+#### In $sSet$-categories
+
+Let $C$ and $D$ be [[simplicially enriched categories]] and $F : C \to D$ an [[sSet]]-[[enriched functor]].
+
++-- {: .un_definition}
+###### Definition
+
+A morphism $f : x \to y \in C$ is **$F$-cartesian** if it is so under the [[homotopy coherent nerve]] $N : sSet Cat \to sSet$ in the sense of quasi-categories above, i.e. if 
+
+$$
+  N(C)_{/f} \to N(C)_{/y} \times_{N(D)_{/F(y)}} N(D)_{/F(f)}
+$$
+
+is an acyclic [[Kan fibration]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+If $C$ and $D$ are enriched in [[Kan complex]]es and if $F$ is hom-wise a [[Kan fibration]], then
+
+* $N(F) : N(C) \to N(D)$ is an [[inner fibration]];
+
+* a morphism $f :x \to y$ in $N(C)$ is an $N(F)$-cartesian morphism precisely if the diagram
+
+  $$
+    \array{
+      C(a,x) &\stackrel{C(a,f)}{\to}& C(a,y)
+      \\
+      \downarrow && \downarrow
+      \\
+      D(F(a), F(x)) &\stackrel{C(F(a), F(f))}{\to}& 
+      D(F(a), F(y))
+    }
+  $$
+
+  is a [[homotopy pullback]] square in [[sSet]] equipped with its [[standard model structure on simplicial sets|standard model structure]].
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 2.4.1.10]].
+
+=--
 
 
 ## Examples and properties
