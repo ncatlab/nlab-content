@@ -6,9 +6,9 @@
 
 ## Idea
 
-An **$n$-truncated [[∞-groupoid]]** is an [[n-groupoid]]: all [[simplicial homotopy group]]s above degree $n$ are trivial. 
+An **$n$-truncated [[∞-groupoid]]** is an [[n-groupoid]].
 
-An **$n$-truncated [[topological space]]** is a [[homotopy n-type]]: all [[homotopy group]]s above degree $n$ are tricial.
+An **$n$-truncated [[topological space]]** is a [[homotopy n-type]]: all [[homotopy group]]s above degree $n$ are trivial.
 
 An **$n$-truncated object** in a general [[(∞,1)-category]] is an object such that all hom-$\infty$-groupoids into it are $n$-truncated.
 
