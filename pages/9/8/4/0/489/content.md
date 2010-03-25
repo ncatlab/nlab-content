@@ -5,9 +5,8 @@
 
 ## Definition
 
-A __(-1)-groupoid__ is a [[truth value]].
+A __(-1)-groupoid__ is a [[truth value]], or equivalently an [[n-truncated object of an (infinity,1)-category|(-1)-truncated object]] in [[∞Grpd]].  By [[excluded middle]], this is either [[the]] empty groupoid (false) or the [[terminal category|terminal groupoid]] (true, the [[point]]).
 
-Equivalently: an [[n-truncated object of an (infinity,1)-category|(-1)-truncated object]] in [[∞Grpd]]. Either the empty groupoid or one equivalent to the [[terminal object|terminal groupoid]], the [[point]].
 
 ## Remarks
 
