@@ -66,6 +66,8 @@ Kapranov introduced objects which should be interpreted as the infinitesimal nei
 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
 
+* notes of Daniel Murfet, [Section2.9-FormalSchemes.pdf](http://therisingsea.org/notes/Section2.9-FormalSchemes.pdf)
+
 For the scheme geometric picture behind the infinitesimal neighborhoods and [[D-modules]] see also
 
 * A. Be&#301;linson, J. Bernstein, J., _A proof of Jantzen conjectures_, in I. M. Gel&#697;fand Seminar, 1--50,
