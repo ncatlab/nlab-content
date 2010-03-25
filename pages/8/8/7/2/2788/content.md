@@ -262,4 +262,10 @@ For example, with categories $A$ and $B$ we have a [[functor category]] $[A,B]$ 
 
 In a nutshell, I'm not saying there is anything wrong the definitions there, but I'm trying to understand them in a different way if possible.
 
+##Reference
+
+* See all [[experimental alternative definition of adjunction]].
+
+  
+
 [[!redirects functor (discussion)]]
