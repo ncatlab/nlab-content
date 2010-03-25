@@ -11,4 +11,14 @@
 * Book: Dmitri Kaledin, Misha Verbitsky, _Hyperkahler manifolds_
 2000; International Press of Boston
 
+
 category:people
+
+[[!redirects Dmitry Kaledin]]
+[[!redirects Dmitri Kaledin]]
+[[!redirects Dmitriy Kaledin]]
+[[!redirects Dmitrij Kaledin]]
+[[!redirects Dmitriĭ Kaledin]]
+[[!redirects Дмитрий Каледин]]
+
+[[!redirects Дмитрий Борисович Каледин]]
