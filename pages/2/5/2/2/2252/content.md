@@ -71,5 +71,9 @@ For the scheme geometric picture behind the infinitesimal neighborhoods and [[D-
 * A. Be&#301;linson, J. Bernstein, J., _A proof of Jantzen conjectures_, in I. M. Gel&#697;fand Seminar, 1--50,
 Adv. Soviet Math., 16, Part 1, Amer. Math. Soc., Providence, RI, 1993 (MR1237825 (95a:22022))
 
+Some aspects of formal completions from the point of view of the derived categories are in
+
+* [[Dmitri Orlov|D. Orlov]], _Formal completions and idempotent completions of triangulated categories of singularities_, [arxiv/0901.1859](http://arxiv.org/abs/0901.1859)
+
 
 [[!redirects formal schemes]]
