@@ -179,8 +179,6 @@ The discussion of truncated objects in an $(\infty,1)$-category is in section 5.
 
 The discussion of categorical [[homotopy groups in an (∞,1)-topos]] is in section 6.5.1.
 
-A classical reference on $n$-truncation of $\infty$-groupoids is for instance
-
 A classical article that amplifies the expression of Postnikov towers in terms of [[coskeleton]]s is
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
