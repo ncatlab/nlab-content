@@ -26,6 +26,11 @@ Under the [[homotopy hypothesis]]-theorem, this means that $\infty Grpd$ is also
 
 * As an [[(∞,1)-topos]] $\infty Grpd$ is the [[terminal object|terminal]] $(\infty,1)$-topos: for every other [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf]] [[(∞,1)-topos]] $\mathbf{H}$ there is up to a [[contractible]] space of  choices a unique [[geometric morphism]] $(LConst \dashv \Gamma) : \mathbf{H}\stackrel{\leftarrow}{\to} \infty Grpd$ -- the [[global section]] geometric morphism. See there for more details.
 
+## Subcategories
+
+The [[n-truncated object of an (infinity,1)-category|n-truncated objects]] of $\infty Grpd$ are the [[n-groupoid]]s. (including [[(-1)-groupoid]]s and the [[(-2)-groupoid]]).
+
+
 category: category
 
 [[!redirects ∞Grpd]]
