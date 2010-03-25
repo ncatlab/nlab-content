@@ -67,20 +67,24 @@ Let [[Cat]] be the [[2-category]] of [[categories]], [[functor]]s and [[natural 
 
 Recall from [[generalized universal bundle]] that the "universal [[Cat]]-[[bundle]]" is $Cat_* \to Cat$, where $Cat_*$ is the category of [[pointed object|pointed]] [[categories]].
 
-Then for $F : C \to Cat$ a [[functor]], the Grothendieck construction for $F$ is the (strict) [[pullback]] $\int F \to C$ of $Cat_* \to Cat$ along $F$:
+Then for $F : C^{op} \to Cat$ a [[pseudofunctor]] from the [[opposite categor]] of $C$ (which is just conventional, but useful), the **Grothendieck construction** for $F$ is the (strict) [[pullback]] $ p : \int F \to C$ of $Cat_* \to Cat$ along $F$:
 
 $$
   \array{
-    \int F &\to& Cat_*
+    \left(\int F\right)^{op} &\to& Cat_*
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{p^{op}}}\downarrow && \downarrow
     \\
-    C &\stackrel{F}{\to}& Cat
+    C^{op} &\stackrel{F}{\to}& Cat
   }
   \,.
 $$
 
-This means that the objects of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$ and morphisms in $\int F$ are given by pairs $(c \stackrel{f}{\to} c', \alpha : F(f)(a) \to a')$. This may be visualized as
+This means that 
+
+* the objects of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$ 
+
+* and morphisms in $\int F$ are given by pairs $(c \stackrel{f}{\to} c', \alpha : F(f)(a) \to a')$ with $f \in C^{op}$. This may be visualized as
 
 $$
   \int F = 
@@ -99,8 +103,103 @@ $$
   \,.
 $$
 
+This extends to a 2-functor between [[bicategories]]
 
-## Properties
+$$
+  \int \;\; : \;\; [C^{op}, Cat] \to Cat/C
+$$
+
+from [[pseudofunctor]]s on $C$ to the [[overcategory]] of [[Cat]] over $C$.
+
+
+## The equivalence between fibrations and pseudofunctors
+
+One can characterize the _image_ of the Grothendieck construction
+as consisting precisey of those objects in $Cat/C$ that are
+[[Grothendieck fibration]]s.
+
+We recall the definition of the [[bicategory]] of Grothendieck fibrations 
+and [[pseudofunctor]]s and
+and then state the main equivalence theorem.
+
+### The bicategory of pseudofunctors.
+
+A [[pseudofunctor]] from a 1-[[category]] $C$ to a [[2-category]] $([[bicategory]]) $A$ is nothing but a [[2-functor]] between bicategories, with the ordinary category regarded as a special bicategory.
+
+We write $[C^{op}, A]$ for the [[2-functor]] 2-category from the 
+[[opposite category]] of $C$ to $A$ (the $op$ here is just convention):
+
+* objects are pseudofunctors $F : C^{op} \to A$;
+
+* morphism are [[lax natural transformation|pseudonatural transformations]];
+
+* 2-morphism are [[modification]]s.
+
+
+### The bicategory of fibrations
+
++-- {: .un_defn}
+###### Definition
+
+
+A [[functor]] $p : E \to C$ is a **[[Grothendieck fibration]]**
+if for every object $e \in E$ and every morphism $f : c \to p(e)$
+in $C$ there is a morphism $\hat f : \hat c \to e$ in $E$ that lifts
+$f$ in that $p(\hat f) = f$ and which is a [[Cartesian morphism]].
+
+A **morphism of Grothendieck fibrations $F : (p : E \to C) \to (p' : E' \to C)$ is
+
+* a functor $F : E \to E'$
+
+* such that
+
+  * $F$ sends [[Cartesian morphism]]s to Cartesian morphisms;
+
+  * the diagram
+
+    $$
+      \array{
+        E &&\stackrel{F}{\to}&& E'
+        \\
+        & {}_{\mathllap{p}}\searrow && \swarrow_{\mathrlap{p'}}
+        \\
+        && C
+      }
+    $$
+
+    in [[Cat]] commutes (strictly).
+
+* a **2-morphism** between morphism $\eta : F \to F'$ is a 
+  [[natural transformation]] of the underlying functors, that also makes
+  the obvious diagram 2-commute, i.e. such that 
+  $p' \cdot \eta$ is trivial.
+
+
+Compositions are those induced from the underlying functors and natural transformations.
+
+This defines the **[[2-category]] of Grothendieck fibrations** 
+
+$$
+  Fib(C) \hookrightarrow Cat/C
+$$
+
+over $C$, being a 2-[[subcategory]] of the [[overcategory]] of [[Cat]] over $C$.
+
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+Cartesian lifts are not required to be unique, but are automatically unique up to a unique vertical [[isomorphism]] connecting their domains.
+
+
+=--
+
+
+### Statement of the equivalence
+
 
 +-- {: .un_defn}
 ###### Definition
@@ -111,10 +210,10 @@ $$
   \int : [C^{op}, Cat] \to Fib(C) \hookrightarrow Cat/C
 $$
 
-and establishes an equivalence of 2-categories
+and establishes an equivalence of bicategories
 
 $$
-  [C^{op}, Cat] \simeq Fib(C)
+  \int : [C^{op}, Cat] \stackrel{\simeq}{\to} Fib(C)
   \,.
 $$
 
@@ -124,7 +223,7 @@ $$
   \int : [C^{op}, Grpd] \to Fib_{Grpd}(C)\hookrightarrow Cat/C
 $$
 
-and establishes an equivance of [[2-categories]]
+and establishes an equivance of bicategories
 
 $$
   [C^{op}, Grpd] \sime Fib_{Grpd}(C)
@@ -136,19 +235,25 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This can be verified by straightforward albeit somewhatt tedious checking. Details are spelled out in section 1.2 of
+This can be verified by straightforward albeit somewhat tedious checking. Details are spelled out in section 1.2 of
 
-* [[Peter Johnstone]], _Sketches of an Elephant_ .
+* [[Peter Johnstone]], _Sketches of an Elephant_ 
 
 The statement itself is theorem 1.3.6 there, all definitions and lemmas are on the pages before that.
 
 =--
+
+### Model category version
 
 For the case of pseudofunctors with values in groupoids, there is a [[model category]] version of the Grothendieck construction discussed in
 
 * [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247)).
 
 There the statement of the above equivalence is the statement that the Grothendieck equivalence exhibits a [[Quillen equivalence]] between suitable [[model category]] structures on functors from and to $C$.
+
+This model category incarnation of the Grothendieck construction 
+generalizes to a model category presentation of the 
+[[(∞,1)-Grothendieck construction]].
 
 
 ## Adjoints to the Grothendieck construction {#adjunction}
@@ -210,7 +315,7 @@ $$
 
 of _[[2-categories]]_  (so that $K(p)$ is a [[2-category]]) where $K^{\triangleright}$ is $K$ with one [[terminal object]] $v$ adjoined (a [[join of quasi-categories|join]] of categories).
 
-### In terms of a cone construction {#Cone}
+#### In terms of a cone construction {#Cone}
 
 +-- {: .un_lemma }
 ###### Claim
