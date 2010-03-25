@@ -508,6 +508,7 @@ The $(\infty,1)$-categorical version is in section 2.4 of
 See also the references at [[Grothendieck fibration]].
 
 
+[[!redirects Cartesian morphism]]
 [[!redirects Cartesian morphisms]]
 [[!redirects cartesian morphism]]
 [[!redirects cartesian morphisms]]
