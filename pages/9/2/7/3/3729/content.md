@@ -1,4 +1,4 @@
-A **Fuchsian (differential) equation** is a linear homogeneous ordinary differential equation with analytic coefficients in the complex domain whose all singular points are **regular** singular points. [[Riemann-Hilbert problem|Riemann 21st problem]] is concerned with finding a Fuchsian equation with prescribed points of singularities and prescribed monodromies. The corresponding connection is also called Fuchsian.
+A **Fuchsian (differential) equation** is a linear homogeneous ordinary differential equation with analytic coefficients in the complex domain whose all singular points are **regular** singular points. In other words, it is the 1-dimensional case of the theory of meromorphic differential equations with only regular singular points. [[Riemann-Hilbert problem|Riemann 21st problem]] is concerned with finding a Fuchsian equation with prescribed points of singularities and prescribed monodromies. The corresponding connection is also called Fuchsian.
 
 * M.V. Fedoryuk, _[Fuchsian equation](http://eom.springer.de/F/f041880.htm)_, Springer online Enc. of Math.
 
