@@ -7,8 +7,7 @@
 
 A **(-2)-groupoid** is a [[n-truncated object of an (infinity,1)-category|(-2)-truncated object]] in [[∞Grpd]]. 
 
-There is, up to equivalnce, just one $(-2)$-groupoid, namely the [[point]].  
-
+There is, up to equivalence, just one $(-2)$-groupoid, namely the [[point]].  
 
 
 ## Remarks
