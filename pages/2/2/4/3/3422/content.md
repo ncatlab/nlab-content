@@ -105,8 +105,7 @@ $$
 
 where $X^{\triangleright} = X \star \{v\}$ is the [[join of simplicial sets]] of $X$ with a single vertex $v$.
 
-Using this construction, define a functor -- the **straightening functor** 
---
+Using this construction, define a functor, the **straightening functor**,
 
 $$
   St_\phi : sSet/S \to [C^{op}, sSet]
@@ -290,7 +289,7 @@ $$
   }                                                                         
 $$                                                                              
 
-regarded as its image $\tilde f : \tilde d \to f^* \tilde e$ 
+with image $\tilde f : \tilde d \to f^* \tilde e$ 
 in the pushout $K(\phi,p)(d,v)=St_\phi X(d)$.
 
 We define the straightening functor to assign that
@@ -301,8 +300,14 @@ in $X$:
 this means that this marking is being completed under the constraint
 that $St_\phi(X)$ be [[sSet]]-[[enriched functor|enriched functorial]]. 
 
-For that, notice that the hom simplicial sets of $sSet^+$ are 
-the spaces $Map^\sharp(X,Y)$, which consist of those simplices of the [[internal hom]] $Map(X,Y) := Y^X$ whose edges are all marked. So we need to find a marking on the $St_\phi(X)(-)$ such that for all
+For that, [[marked simplicial set|recall]] that the hom simplicial sets of $sSet^+$ are  the spaces $Map^\sharp(X,Y)$, which consist of those simplices of the [[internal hom]] $Map(X,Y) := Y^X$ whose edges are all marked:
+
+$$
+  Map(X,Y)_n = Hom_{sSet^+}(X \times \Delta[n]^#, Y)
+  \,.
+$$
+
+So we need to find a marking on the $St_\phi(X)(-)$ such that for all
 $g : \Delta[1] \to C(c,d)$ the composite
 
 $$
@@ -321,7 +326,7 @@ $$
   St_\phi(X)(d) \times \Delta[1] \rightarrow St_\phi(X)(c)
 $$
 
-and is marked if this morphism carries edges of the form $(\tilde f , Id) : \Delta[1] \to St_\phi(X)(d) \times \Delta[1]$ to marked edges 
+and to be marked needs to carry edges of the form $\tilde f \times \{0 \to 1\}$ i.e. 1-cells  $(\tilde f , Id) : \Delta[1] \to St_\phi(X)(d) \times \Delta[1]$ to marked edges 
 
 $$
   g^* \tilde f : \Delta[1] \stackrel{(\tilde f,Id)}{\to}
