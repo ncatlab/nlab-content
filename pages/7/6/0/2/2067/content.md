@@ -358,7 +358,7 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.1.10]].
 +-- {: .un_lemma}
 ###### Lemma
 
-For $p : E \to C$ a functor, if in a diagram
+For $p : \mathcal{E} \to \mathcal{C}$ a functor, if in a diagram
 
 $$
   \array{
@@ -370,7 +370,7 @@ $$
   }
 $$
 
-in $E$ the two vertical morphisms are vertical with respect to $p$ (meaning that $p(g) = Id_p(A)$ and $p(h) = Id(B)$) and if the two horizontal morphisms are $p$-Cartesian morphisms, then this square is a [[pullback]] square.
+in $\mathcal{E}$ the two vertical morphisms are vertical with respect to $p$ (meaning that $p(g) = Id_p(A)$ and $p(h) = Id(B)$) and if the two horizontal morphisms are $p$-Cartesian morphisms, then this square is a [[pullback]] square.
 
 =--
 
