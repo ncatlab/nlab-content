@@ -82,36 +82,37 @@ In the next section we discuss how this statement is presented in terms of [[mod
 
 Let 
 
-* $S$ be a [[simplicial set]], $|S|$ the corresponding [[SSet-category]] (under the [[left adjoint]] $|-| : SSet \to SSet Cat$ of the [[homotopy coherent nerve]]);
+* $S$ be a [[simplicial set]], $tau_hc(S)$ the corresponding [[SSet-category]] (under the [[left adjoint]] $\tau_{hc} : SSet \to SSet Cat$ of the [[homotopy coherent nerve]]);
 
 * $C$ an [[SSet-category]];
 
-* $\phi : |S| \to C$ a morphism of [[SSet-categories]].
+* $\phi : \tau_{hc}(S) \to C$ a morphism of [[SSet-categories]].
 
-> In particular we will be interested in the case that $\phi$ is the identity, or at least an equivalence, identifying $C$ with $|S|$.
+> In particular we will be interested in the case that $\phi$ is the identity, or at least an equivalence, identifying $C$ with $\tau_{hc}(S)$.
 
-For any object $(p : X\to S)$ in $SSet/S$ consider the [[SSet-category]] $K(\phi,p)$ obtained as the (ordinary) [[pushout]] in [[SSet Cat]]
+For any object $(p : X\to S)$ in $sSet/S$ consider the [[sSet-category]] $K(\phi,p)$ obtained as the (ordinary) [[pushout]] in [[SSet Cat]]
  
 $$
   \array{
-    |X| &\stackrel{\phi}{\to}& C
+    \tau_{hc}(X) &\stackrel{}{\to}& \tau_{hc}(X^{\triangleright})
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{\phi(p)}}\downarrow && \downarrow
     \\
-    |X^{\triangleright}| &\to& K(\phi,p) 
+    C &\to& K(\phi,p) 
   }
   \,,
 $$
 
 where $X^{\triangleright} = X \star \{v\}$ is the [[join of simplicial sets]] of $X$ with a single vertex $v$.
 
-Using this construction, define a functor -- the **straightening functor** --
+Using this construction, define a functor -- the **straightening functor** 
+--
 
 $$
-  St_\phi : sSet/S \to [C^{op}, SSet]
+  St_\phi : sSet/S \to [C^{op}, sSet]
 $$
 
-from the [[overcategory]] of [[SSet]] over $S$ to the [[enriched functor category]] of [[SSet]]-[[enriched functor]]s from $C^{op}$ to $SSet$ by defining it on objects $(p : X \to S)$
+from the [[overcategory]] of [[sSet]] over $S$ to the [[enriched functor category]] of [[sSet]]-[[enriched functor]]s from $C^{op}$ to $sSet$ by defining it on objects $(p : X \to S)$ to act as
 
 $$
   St_\phi(X) := K(\phi,p)(-,v) : C^{op} \to SSet
@@ -121,24 +122,24 @@ $$
 This functor has a [[right adjoint]]
 
 $$
-  Un_\phi : [C^{op}, SSet] \to SSet/S
+  Un_\phi : [C^{op}, sSet] \to sSet/S
   \,,
 $$
 
-that takes a [[simplicial presheaf]] on $C$ to a simplicial set over $S$ -- the **unstraightening functor**.
+that takes a [[simplicial presheaf]] on $C$ to a simplicial set over $S$ -- this is the **unstraightening functor**.
 
 =--
 
 +-- {: .un_example}
 ###### Example 
 
-The straightening functor effectively computes the fibers of a Cartesian fibration $(p : X \to C)$ over every point $x \in C$. As an illustration for how this is expressed in terms of morphisms in that pushout, consider the simple situation where
+The straightening functor effectively computes the fibers of a [[Cartesian fibration]] $(p : X \to C)$ over every point $x \in C$. As an illustration for how this is expressed in terms of morphisms in that pushout, consider the simple situation where
 
 * $C = *$ only has a single point;
 
 * $X = \left\{ a \to b \;\;\; c\right\}$ is a category with three objects, two of them connected by a morphism
 
-* $p : X\to C$ is the only possble functor, sending everything to the point.
+* $p : X\to C$ is the only possible functor, sending everything to the point.
 
 Then 
 
@@ -175,7 +176,7 @@ and
 
 Therefore the category of morphisms in this pushout from $*$ to $v$ is indeed again the category $\{a \to b \;\;\; c\}$.
 
-
+More on this is at [[Grothendieck construction]] in the section of adjoints to the Grothendieck construction.
 
 =--
 
@@ -186,12 +187,12 @@ Therefore the category of morphisms in this pushout from $*$ to $v$ is indeed ag
 **(presentation of $(\infty,0)$-Grothendieck construction)**
 
 
-These functors constitute a [[Quillen adjunction]]
+The straightening and the unstraightening functor constitute a [[Quillen adjunction]]
 
 $$
-  (St_\phi \dashv Un_\phi) : SSet/S
+  (St_\phi \dashv Un_\phi) : sSet/S
   \stackrel{\overset{Un_{\phi}}{\leftarrow}}{\overset{St_\phi}{\to}}
-  [C^{op}, SSet]
+  [C^{op}, sSet]
 $$
 
 between the [[model structure for right fibrations]] and the global projective [[model structure on simplicial presheaves]] on $S$.
@@ -209,15 +210,16 @@ This is [[Higher Topos Theory|HTT, theorem 2.2.1.2]].
 
 This models the Grothendieck construction for $\infty$-groupoids in the following way:
 
-* the [[presentable (∞,1)-category|(∞,1)-category presented by]] $SSet/S$ is $RFib(S)$
+* the [[presentable (∞,1)-category|(∞,1)-category presented by]] $sSet/S$ is $RFib(S)$
  
   (HTT, lemma 2.2.3.9)
 
 * the [[presentable (∞,1)-category|(∞,1)-category presented by]]
   the global [[model structure on simplicial presheaves]] 
   $[C^{op}, SSet]$ is [[(∞,1)-category of (∞,1)-presheaves]] 
+  $PSh_{(\infty,1)}(N_{hc}(C))$
 
-Hence the unstraightening functor is what models the Grothendieck construction proper, in the sense of a construction that generalizes the construction of a [[fibered category]] from a [[pseudofunctor]].
+Hence the unstraightening functor is what models the [[Grothendieck construction]] proper, in the sense of a construction that generalizes the construction of a [[fibered category]] from a [[pseudofunctor]].
 
 
 
@@ -241,8 +243,8 @@ $$
 
 where 
 
-* on the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ -- incarnated as the full [[SSet]]-[[subcategory]]
-of the [[overcategory]] $SSet/C$ on [[Cartesian fibration]]s;
+* on the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ -- incarnated as the full [[sSet]]-[[subcategory]]
+of the [[overcategory]] $sSet/C$ on [[Cartesian fibration]]s;
 
 * and on the right the [[(∞,1)-category of (∞,1)-functors]] from $C^{op}$ to the [[(∞,1)-category of (∞,1)-categories]].
 
@@ -257,7 +259,7 @@ In the next section we discuss how this statement is presented in terms of [[mod
 
 Regard the [[(∞,1)-category]] $C$ in its incarnation as a [[simplicially enriched category]].
 
-Let $S$ be a [[simplicial set]], $\mathcal{C}(S)$ the corresponding [[simplicially enriched category]] (where $\mathcal{C}$ is the adjoint of the [[homotopy coherent nerve]]) and let $\phi : \mathcal{C}(S) \to C$ be an [[SSet]]-[[enriched functor]].
+Let $S$ be a [[simplicial set]], $\tau_{hc}(S)$ the corresponding [[simplicially enriched category]] (where $\tau_{hc}$ is the [[left adjoint]] of the [[homotopy coherent nerve]]) and let $\phi : \tau_{hc}(S) \to C$ be an [[sSet]]-[[enriched functor]].
 
 +-- {: .un_def}
 ###### Definition 
@@ -270,24 +272,37 @@ $$
   St_\phi : sSet^+/S \to [C^{op}, sSet^+]
 $$
 
-from [[marked simplicial set]]s over $S$ to marked [[simplicial presheaves]] is on the underlying simplicial sets (forgetting the marking) the same straightening functor as [above](#GrpdModelCatVersion).  
+from [[marked simplicial set]]s over $S$ to marked [[simplicial presheaves]] on $C^{op}$ is on the underlying simplicial sets (forgetting the marking) the same straightening functor as [above](#GrpdModelCatVersion).  
 
-It remains to describe the action on markings. Each edge $f: d \rightarrow      
-e$ of $X \in sSet/S$ gives rise to an edge in $St_\phi (X)(d) =                 
-K(\phi,p)(d,v)$ as follows. The 2-simplex $f \star v$ of                        
-$X^{\triangleright}$ gives a diagram in $K(\phi,p)$                             
-$$                                                                              
-      \array{                                                                   
-         d &\stackrel{f}{\to}&  && e                                            
-         \\                                                                     
-         & \searrow & \Rightarrow & \swarrow                                    
-         \\                                                                     
-         && v                                                                   
-      }                                                                         
-$$                                                                              
-which corresponds to an edge $\tilde{f} \in K(\phi,p)(d,v)=St_\phi X(d)$. 
+On the markings the functor acts as follows. 
 
-If $f$ is marked in $X$, we ask that $\tilde{f} \in St_\phi(X)(d)$ is marked, but this isn't quite enough to make $St^+_\phi(X)$ a simplicial functor. The hom simplicial sets of $sSet^+$ are the spaces $Map^\sharp(X,Y)$, which consist of those simplices of $Map(X,Y)$ whose edges are all marked. By the definition of the simplicial homs in the category of [[marked simplicial set]]s, we must also mark the edges $g^*(\tilde{f})$ defined as follows. Because $St_\phi(X)$ is a simplicial functor, each $g \in C(c,d)_1$ gives rise to a map $St_\phi(X)(d) \times \Delta^1 \rightarrow St_\phi(X)(c)$. Let $g^*(\tilde{f})$ be the 1-simplex of $St_\phi(X)(c)$ given by precomposing this map with $(\tilde{f},id) : \Delta^1 \rightarrow St_\phi(X)(d)\times \Delta^1$. An edge of $St^+_\phi(X)(c)$ is marked iff it is of the form $g^*(\tilde{f})$ for $g \in C(c,d)_1$ and $f$ a marked edge of $X$.
+Each edge $f: d \rightarrow e$ of 
+$X \in sSet/S$ gives rise to an edge in 
+$St_\phi (X)(d) = K(\phi,p)(d,v)$: the 
+[[join of simplicial sets|join]] 2-simplex 
+$f \star v$ of $X^{\triangleright}$                
+
+$$                                                                              
+  \array{                                                                   
+    d && \stackrel{f}{\to} && e                                            
+    \\                                                                     
+    & \searrow & \stackrel{\tilde f}{\Leftarrow} & \swarrow                                    
+    \\                                                                     
+    && v                                                                   
+  }                                                                         
+$$                                                                              
+
+corresponds to an edge $\tilde{f} \in K(\phi,p)(d,v)=St_\phi X(d)$. 
+
+
+We define the image of the straightening functor to assign that
+marking of edges which is the minimal 
+[[sSet]]-[[enriched functor|enriched functorial]] marking such
+that with te above notation all edges of the form 
+$\tilde f$ are marked in $St_\phi X(d)$, for all marked $f : c \to d$
+in $X$.
+
+The hom simplicial sets of $sSet^+$ are the spaces $Map^\sharp(X,Y)$, which consist of those simplices of the [[internal hom]] $Y^X$ whose edges are all marked. By the definition of the simplicial homs in the category of [[marked simplicial set]]s, we must also mark the edges $g^*(\tilde{f})$ defined as follows. Because $St_\phi(X)$ is a simplicial functor, each $g \in C(c,d)_1$ gives rise to a map $St_\phi(X)(d) \times \Delta^1 \rightarrow St_\phi(X)(c)$. Let $g^*(\tilde{f})$ be the 1-simplex of $St_\phi(X)(c)$ given by precomposing this map with $(\tilde{f},id) : \Delta^1 \rightarrow St_\phi(X)(d)\times \Delta^1$. An edge of $St^+_\phi(X)(c)$ is marked iff it is of the form $g^*(\tilde{f})$ for $g \in C(c,d)_1$ and $f$ a marked edge of $X$.
 
 As before, this has an [[sSet]]-[[right adjoint]], the **unstraightening functor**
 
