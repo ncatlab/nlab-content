@@ -80,7 +80,7 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 
   * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[internal hom]] $Y^X$
 
-  * $Map^#(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\Sigma$ is a marked edge of $Y^X$.
+  * $Map^#(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\sigma$ is a marked edge of $Y^X$.
 
 =--
 
