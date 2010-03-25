@@ -53,6 +53,10 @@ $$
 $$
 In other words, to give such a morphism we must give, for each type (or assumption) required by $\Delta$, a way to construct an element of that type (or a proof of that assumption) out of the data and assumptions contained in $\Gamma$.
 
++-- {: .query}
+This might fit better after the motivating examples below; but maybe those examples don\'t make sense to a newcomer.  This is incomplete, however, since it doesn\'t address contexts that include equational hypotheses.  ---Toby
+=--
+
 For example, consider these contexts in the theory of a group $G$:
 $$ \Gamma \;=\; a\colon G,\; b\colon G $$
 $$ \Delta \;=\; a\colon G,\; b\colon G,\; (a b)^2 = a^2 b^2 $$
