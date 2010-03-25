@@ -78,9 +78,22 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 
 * For $X$ and $Y$ marked simplicial sets let
 
-  * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[internal hom]] $Y^X$
+  * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[cartesian closed category|cartesian]] [[internal hom]] $Y^X$
 
   * $Map^#(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\sigma$ is a marked edge of $Y^X$.
+
+  Equivalently these mapping complexes are characterized by the
+  fact that we have natural bijections
+
+  $$
+    Hom_{sSet}(K, Map^\flat(X,Y)) \simeq 
+    Hom_{sSet^+}(K^\flat \times X, Y)
+  $$
+
+  $$
+    Hom_{sSet}(K, Map^#(X,Y)) \simeq Hom_{sSet^+}(K^# \times X, Y)
+    \,.
+  $$
 
 =--
 
@@ -110,7 +123,7 @@ $$
  
 with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
-* The hom-objects $Map^#(X,Y) = (Y^X)^#$ make $sSet^+$ a 
+* The hom-objects $Map^#(X,Y)$ make $sSet^+$ an 
   [[sSet]]-[[enriched category]].
 
 =--
