@@ -11,7 +11,7 @@ Type theory is a branch of mathematical [[logic]] which studies elements of vary
 
 # An introduction for category-theorists {#CategoricalSemantics}
 
-One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  More precisely, categorical semantics refers to an *adjunction* between type theories and categories:
+One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories:
 
 $$ Con : TypeTheories \rightleftarrows Categories : Lan $$
 
