@@ -73,3 +73,4 @@ Sometimes, two definitions that use different kinds of shapes nevertheless captu
 
 
 [[!redirects geometric shapes for higher categories]]
+[[!redirects geometric shape for higher categories]]
