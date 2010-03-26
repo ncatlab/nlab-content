@@ -68,6 +68,56 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.2.3 ]].
 =--
 
 
+### Pullback of Cartesian fibrations
+
+Since a Cartesian fibration is in particular an [[inner fibration]] and since inner fibrations are stable under [[pullback]] in [[sSet]], it follows that for $p : E \to C$ a Cartesian fibration, the fiber $E_x$ over every point $x \in C_0$ is a [[quasi-category]]
+
+$$
+  \array{
+    E_x &\to& E
+    \\
+    \downarrow && \downarrow
+    \\
+    \{x\} &\to& C
+  }
+  \,.
+$$
+
+The difference between inner fibrations and Cartesian fibrations is that only for Cartesian fibrations is it generally guaranteed that these fibers over the points are _functorially_ related over the morphisms in $C$. This is the content of the [[(∞,1)-Grothendieck construction]].
+
+But moreover:
+
++-- {: .un_prop}
+###### Proposition
+
+The pullback of a Cartesian fibration in [[sSet]] is again a Cartesian fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 2.4.2.3]].
+
+We know from the discussion at [[inner fibration]] that the pullback is an inner fibration. It remains to check if it has enough [[Cartesian morphism]]s. By [[Higher Topos Theory|HTT, prop 2.4.1.3]] we have that in a [[pullback]] diagram
+
+$$  
+  \array{
+    E' &\stackrel{q}{\to}& E
+    \\
+    {}^{\mathllap{p'}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\ 
+    C' &\stackrel{k}{\to}& C
+  }
+$$
+
+a morphism $f \in E'$ is $p'$-Cartesian if $q(f)$ is $p$-Cartesian. Since the morphisms of $E'$ are pairs of morphisms $(\gamma, \hat f) \in C'_1 \times E_1$  and since by assumption $p$ is a Cartesian, there is for $\gamma \in C'_1$ a Cartesian lift $\hat f \in E$ of $k(\gamma)$. Hence a Cartesian lift $(\gamma, \hat f)$ of $\gamma$ in $E'$.
+
+ 
+=--
+
+
+
 We can test locally if a morphism is a Cartesian fibration:
 
 +-- {: .un_prop}
@@ -104,7 +154,6 @@ of Cartesian fibration:
 
 +-- {: .un_prop}
 ###### Proposition 
-
 
 The following are equivalent:
 
@@ -186,6 +235,20 @@ An object $X \to Y$ is fibrant in that model category precisely if
 This is  [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 =--
+
+## Examples 
+
+### Cartesian fibrations over simplices {#CartOverSimplex}
+
+
+... for the moment see [[Higher Topos Theory|HTT, section 3.2.2]] ...
+
+
+### The universal Cartesian fibration
+
+for the moment see
+
+* [[universal fibration of (∞,1)-categories]]. 
 
 
 
