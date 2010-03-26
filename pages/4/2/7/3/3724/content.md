@@ -37,7 +37,7 @@ If $x \coloneqq (L,U)$ is a Dedekind cut, then we define $a \lt x$ to mean that 
 
 The point of condition (7) is that we can estimate $x$ as closely as we like by choosing appropriate rational numbers.
 
-This is entirely [[constructive mathematics|constructive]].  We have $a_0 \lt x$ for some $a_0$ (by 1) and $x \lt b_0$ for some $b_0$ (by 2), so if we wish to estimate $x$ to within a positive rational number $\epsilon$, then we simply let $n$ be $\lceil{2/\epsilon}\rceil$ and apply (7) to each of the finitely many ($\lceil{n(b_0-a_0)}\rceil$) rational numbers with denominator $n$ that lie between $a_0$ and $b_0$.  This will eventually give us a numerator $i$ such that $(i-1)/n \lt x \lt (i+1)/n$, so we have estimated $x$ within $2/n \leq \epsilon$.  Alternatively, to estimate $x$ to $n$ digits after a decimal point (with an uncertainty of $1$ in the last digit), apply (1) to each of the $\lceil{(b_0-a_0) \times 10^n}\rceil$ numbers between $a_0$ and $b_0$ that have $n$ digits after the decimal point.  (We can never constructively determine the final digit with perfect certainty; if we successively estimate $x$ as $0.5, 0.50, 0.500, \ldots$, no finite number of such estimates can ever ensure that $x$ won\'t come out to $0.4999\cdots9998$ when we go one digit farther.)
+This is entirely [[constructive mathematics|constructive]].  We have $a_0 \lt x$ for some $a_0$ (by 1) and $x \lt b_0$ for some $b_0$ (by 2), so if we wish to estimate $x$ to within a positive rational number $\epsilon$, then we simply let $n$ be $\lceil{2/\epsilon}\rceil$ and apply (7) to each of the finitely many ($\lceil{n(b_0-a_0)}\rceil$) rational numbers with denominator $n$ that lie between $a_0$ and $b_0$.  This will eventually give us a numerator $i$ such that $(i-1)/n \lt x \lt (i+1)/n$, so we have estimated $x$ within $2/n \leq \epsilon$.  Alternatively, to estimate $x$ to $n$ digits after a decimal point (with an uncertainty of $1$ in the last digit), apply (1) to each of the $\lceil{(b_0-a_0) \times 10^n}\rceil$ numbers between $a_0$ and $b_0$ that have $n$ digits after the decimal point.  (We can never constructively determine the final digit with perfect certainty; for example, if we successively estimate $x$ as $0.5, 0.50, 0.500, \ldots$, no finite number of such estimates can ever ensure that $x$ won\'t come out to $0.4999\cdots9998$ when we go one digit farther.)
 
 Besides giving us a place to begin our estimation, (1&2) ensure that $x$ is finite.  Condition (8) enforces us the [[transitivity]] law $a \lt x \lt b \implies a \lt b$; (3&4) are likewise forms of transitivity.  (5&6) ensure that, even if $x$ happens to be a rational number, we are using the sets $L_x$ and $U_x$ given in (eq:cuts) instead of their closures (defined with $\leq$ instead of $\lt$).
 
@@ -48,7 +48,7 @@ We define $x \lt y$ to mean that there exist a rational number $a$ such that $x 
 
 *  Asymmetry:  If $x \lt y$ and $y \lt x$, pick $a$ such that $x \lt a \lt y$ and $b$ such that $y \lt b \lt x$.  Applying (8) in two ways, $a \lt b$ and $b \lt a$, which is impossible.
 *  Comparison:  If $x \lt z$ and $y$ is a Dedekind cut, then pick $a$ such that $x \lt a \lt z$.  Using (5) or (6), we can generalise this to two rational numbers $a$ and $b$ such that $x \lt a \lt b \lt z$.  Applying (7) to $a \lt b$, we get $x \lt y$ (if $a \lt y$) or $y \lt z$ (if $y \lt b$).
-*  Connectedness:  Suppose that $x \lt y$ and $y \lt x$ both fail, and suppose that $a \lt y$.  ...  We can prove $a \lt x \implies a \lt y$, $b \lt x \implies b \lt y$, and $b \lt y \implies b \lt x$ similarly.  Therefore, $x$ and $y$ are equal (as pairs of subsets).
+*  Connectedness:  Suppose that $x \lt y$ and $y \lt x$ both fail, and suppose that $a \lt y$.  By (5), we have $a \lt b \lt y$ for some $b$.  Applying (7), we have $a \lt x$ or $x \lt b$.  Since $x \lt b \lt y$ contradicts our assumptions, we have $a \lt x$.  In summary, $a \lt y \implies a \lt x$.  We can prove $a \lt x \implies a \lt y$, $b \lt x \implies b \lt y$, and $b \lt y \implies b \lt x$ similarly.  Therefore, $x$ and $y$ are equal (as pairs of subsets).
 
 We can also derive a Dedekind cut from any rational number $x$ by taking (eq:cuts) to be the definition of $x$ as a Dedekind cut.  Thus every rational number is interpreted as a real number.  This is a strict inclusion of linear orders:
 
@@ -67,11 +67,9 @@ The conditions (5&6) are not really necessary.  If you leave them out, then the 
 
 * 3':  If $a \lt b$ are rational numbers with $b \in L$, then $a' \in L$ for some $a' \lt a$.
 * 4':  If $a \lt b$ are rational numbers with $a \in U$, then $b' \in U$ for some $b' \gt b$.
-* 7':  If $a \lt b$ are rational numbers, then $a' \in L$ for some $a' \lt a$ or $b' in U$ for some $b' \gt b$.
+* 7':  If $a \lt b$ are rational numbers, then $a' \in L$ for some $a' \lt a$ or $b' \in U$ for some $b' \gt b$.
 
-Just as (3,4) follow from (7,8), so (3',4') follow from (7',8).  Alternatively, you can derive (7) from (3,4,7').
-
-Then ...
+Just as (3,4) follow from (7,8), so (3',4') follow from (7',8).  Again, $\lt$ is no longer connected, but we still get a linear order on a quotient set.  (Incidentally, you can also recover the original definition using (3,4,7') in place of (7).)
 
 ...
 
