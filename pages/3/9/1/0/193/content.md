@@ -6,6 +6,10 @@
 
 An __adjunction__ in a [[2-category]] is a pair of objects $C,D$ together with morphisms $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ satisfying the equations
 
++-- {: .query}
+[[Eric]]: I asked a question about the latest change [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=979&page=1#Item_44).
+=--
+
 $$ 
   R \stackrel{\eta \circ 1_R}{\to} R \circ L \circ R \stackrel{1_R \circ \epsilon}{\to} R = R \stackrel{1_R}{\to} R
   \qquad \text{i.e.} \qquad
