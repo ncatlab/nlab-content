@@ -104,7 +104,7 @@
 
 * [[model structure for complete Segal spaces|for complete Segal spaces]]
 
-* [[model structure on marked simplicial over-sets|on marked simplicial over-sets]]
+* [[model structure for Cartesian fibrations|for Cartesian fibrations]]
 
 ### for $(\infty,1)$-operads
 
