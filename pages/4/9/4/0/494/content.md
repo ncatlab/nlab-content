@@ -9,7 +9,7 @@
 
 ## Definition 
 
-We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformation]]s $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
+We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformations]] $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
 $L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L$
 and 
 $R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R$ 
@@ -23,7 +23,7 @@ In the case of [[Cat]], there are a number of equivalent characterizations of an
 
 ## Definition in terms of Hom isomorphism
 
-An adjunction $L\dashv R$ is equivalently given by a [[natural transformation|natural isomorphism]] of [[hom-functor]]s $C^{op} \times D \to Set$
+An adjunction $L\dashv R$ is equivalently given by a [[natural transformation|natural isomorphism]] of [[hom-functors]] $C^{op} \times D \to Set$
 
 $$
   Hom_D(L(-),-) \simeq Hom_C(-,R(-))
@@ -144,7 +144,7 @@ $$
   \,.
 $$
 
-The functors $L$ and $R$ are adjoint precisely if the [[distributor]]s that they define in the above way are equal. This in turn is the case if
+The functors $L$ and $R$ are adjoint precisely if the [[distributors]] that they define in the above way are equal. This in turn is the case if
 $C \star^L D \simeq (D^{op} \star^{R^{op}} C^{op})^{op}$.
 
 We say that $C \star^k D$ is the [[cograph of a functor|cograph of the functor]] $k$. See there for more on this.
@@ -158,7 +158,7 @@ The above characterization of adjoint functors in terms of categories over the i
 
 (motivated from the discussion of correspondences in section 2.3.1) 
 
-to give a definition of adjunction between [[(infinity,1)-functor]]s. 
+to give a definition of adjunction between [[(infinity,1)-functors]]. 
 
 +-- {: .un_defn}
 ###### Definition
@@ -166,7 +166,7 @@ to give a definition of adjunction between [[(infinity,1)-functor]]s.
 Let $C$ and $D$ be [[quasi-category|quasi-categories]]. 
 An **adjunction** between $C$ and $D$ is 
 
-* a morphism of [[simplicial set]]s $K \to \Delta^1$
+* a morphism of [[simplicial sets]] $K \to \Delta^1$
 
 * which is
 
