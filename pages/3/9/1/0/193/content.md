@@ -7,7 +7,7 @@
 An __adjunction__ in a [[2-category]] is a pair of objects $C,D$ together with morphisms $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ satisfying the equations
 
 $$ 
-  R\epsilon . \eta R = 1_R
+  R\stackrel{\eta R}{\to} R\circ L\circ R\stackrel{R\epsilon}{\to}R = R\stackrel{1_R}{\to}R
   \qquad \text{i.e.} \qquad
   \array{\arrayopts{ \padding{0} }
     &&&&1_C& 
@@ -33,7 +33,7 @@ $$
 $$
 and
 $$ 
-  \epsilon L . L\eta = 1_L
+  L\stackrel{L\eta}{\to} L\circ R\circ L\stackrel{\epsilon L}{\to}L = L\stackrel{1_L}{\to}L
   \qquad \text{i.e.} \qquad
   \array{\arrayopts{ \padding{0} }
     &&1_C& 
@@ -83,3 +83,4 @@ Often, arrows on strings are used to distinguish $L$ and $R$, and most or all ot
 #References#
 
 * Catsters, _Adjunctions_ ([YouTube](http://www.youtube.com/watch?v=loOJxIOmShE&feature=channel_page))
+* Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
