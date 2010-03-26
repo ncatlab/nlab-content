@@ -33,7 +33,7 @@ In classical mathematics, there are even more options.  Now comparison can be dr
 
 Thus the most common definition uses only trichotomy and transitivity.
 
-One can also interpret connectedness not as an axiom but as a definition of [[equality]], getting a linear order on a [[quotient set]] of $S$.
+One can also interpret connectedness not as an axiom but as a definition of [[equality]], getting a linear order on a [[quotient set]] of $S$.  In other words, if $\lt$ is an antisymmetric comparison relation on $S$, and we define $x \equiv y$ to mean that neither $x \lt y$ nor $y \lt x$, then $\equiv$ is an equivalence relation and $\lt$ induces a linear order on $S/{\equiv}$.
 
 
 ## Examples
