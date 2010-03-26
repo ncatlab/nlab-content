@@ -226,7 +226,7 @@ $$
 and establishes an equivance of bicategories
 
 $$
-  [C^{op}, Grpd] \sime Fib_{Grpd}(C)
+  [C^{op}, Grpd] \simeq Fib_{Grpd}(C)
   \,.
 $$
 
