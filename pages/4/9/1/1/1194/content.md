@@ -9,16 +9,26 @@
 Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of terms and formulas, and has close links to the [[internal logic]] of categories.
 
 
-# An introduction for category-theorists
+# An introduction for category-theorists {#CategoricalSemantics}
 
-One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  
+One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  More precisely, categorical semantics refers to an *adjunction* between type theories and categories:
 
-Note that this type of semantics is only relevant to *extensional* type theory; see the section on intensional vs. extensional type theory below.  Even so, the description given here is a somewhat simplified one, which really only applies to type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.
+$$ Con : TypeTheories \rightleftarrows Categories : Lan $$
+
+There are many different versions of this adjunction, depending on what kind of type theory we consider and what structure we impose on the categories in question.  In each case, the left adjoint $Con$ assigns to a type theory $T$ the *category of contexts* of $T$, which has structure (such as limits, colimits, etc.) derived from the operations in the type theory, while the right adjoint $Lan$ assigns to a category $C$ a canonically defined type theory, called its *internal language*.
+
+A *model* of a theory $T$ in a category $C$ is equivalently a functor $Con(T)\to C$ or a morphism of type theories $T \to Lan(C)$.  This means that every $T$ has a tautological model in $Con(T)$, and for every category $C$ there is a tautological model of $Lan(C)$ in $C$.  For the category theorist who is most accustomed to think about categories, it is natural to approach type theory by studying the structure of $Lan(C)$ and how it is interpreted in $C$ via this tautological model.  We will do this in this section somewhat informally; in the next section we give a more formal definition of type theories.
+
+A couple of side notes for experts:
+
+* 1-categorical semantics is only relevant to *extensional* type theory; see the section on intensional vs. extensional type theory below.
+
+* The description given below is a somewhat simplified one, in that we identify objects of the category with single objects, rather than contexts.  This is strictly speaking only okay in type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.
 
 
-## Categorical semantics of type theory {#CategoricalSemantics}
+## The internal language of a category
 
-Given a [[category]] $\mathcal{C}$, we may speak about its **categorical semantics** in terms of type theory. The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _types_ and _terms_, respectively. The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
+Given a [[category]] $\mathcal{C}$, we may speak about its **internal language** as a type theory.  There is a whole page on [[internal logic]], but here our goal is to exhibit it as a particular type theory, to help explain the meaning of type-theoretic notions.  The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _types_ and _terms_, respectively. The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
 
 ### Types, terms, and variables
 
@@ -28,7 +38,7 @@ Given a [[category]] $\mathcal{C}$, we may speak about its **categorical semanti
 
   $$  B \stackrel{f}{\to} A\,. $$ 
 
-* In the categorical semantics of the category the same is
+* In the internal language of the category the same is
    a _term_ $f(x)$ of _type_ $A$ where $x$ is 
   a _free variable_ of _type_ $B$, which in symbols is given by
 
@@ -161,7 +171,7 @@ $$
 regarded as the _type of functions_ $f$ such that for any $x\in A$, we have $f(x)\in B(x)$).  This right adjoint exists in any [[locally cartesian closed category]] $\mathcal{C}$.
 
 
-## Categorical semantics of logic in type theory
+## Logic versus type theory in categorical semantics
 
 How does type theory relate to logic?  Well, _[[propositional logic]]_ is just the type theory whose semantic categories are _posets_.  In this case, the types $P,Q,\dots$ are usually called _propositions_, and the existence of a (necessarily unique) term of type $Q$, having a free variable of type $P$, is just the assertion that $P\le Q$ (or, in more logical language, "$P$ implies $Q$").  The type constructor for binary products is usually written $\wedge$ and called "and," the type constructor for binary coproducts is usually written $\vee$ and called "or," and so on.  The term constructors are generally called _inference rules_, since they allow us to infer new theorems from old ones.
 
@@ -195,7 +205,7 @@ $\exists_f \dashv f^* \dashv \forall_f$.  The functors
 $\exists_\pi$ and $\forall_\pi$ interpret the traditional
 existential and universal quantifiers.
 
-The [[internal logic]] of various sorts of categories are most naturally regarded as the typed predicate logic associated to the "poset of subobjects" functor $Sub:C^{op}\to Pos$, and the requisite levels of structure on $C$ induce the required semantic structure on both $C$ and $Sub$.  For instance, if $C$ is [[regular category|regular]], then each $Sub(X)$ is a meet-semilattice and the adjoints $\exists_f$ exist, while if $C$ is a [[Heyting category]], then each $Sub(X)$ is a [[Heyting algebra]] and both adjoints $\exists_f$ and $\forall_f$ exist.  However, not all indexed posets in which one wants to apply type theory are constructed from subobjects  in some category; see for instance [[tripos]].
+The [[internal logic]] of various sorts of categories are most naturally regarded as the typed predicate logic associated to the "poset of subobjects" functor $Sub:C^{op}\to Pos$, and the requisite levels of structure on $C$ induce the required semantic structure on both $C$ and $Sub$.  For instance, if $C$ is [[regular category|regular]], then each $Sub(X)$ is a meet-semilattice and the adjoints $\exists_f$ exist, while if $C$ is a [[Heyting category]], then each $Sub(X)$ is a [[Heyting algebra]] and both adjoints $\exists_f$ and $\forall_f$ exist.  See also [[internal logic]].  However, not all indexed posets in which one wants to apply type theory are constructed from subobjects  in some category; see for instance [[tripos]].
 
 ### Propositions as types
 
@@ -224,17 +234,17 @@ In this case, the semantics involved is the more general _codomain fibration_ $p
 
 ## Syntactic categories and free models
 
-There are two equivalent ways to describe formally the semantics of a given type theory (possibly with logic) in a category.  Essentially, the idea is that there is an [[adjunction]]
+As mentioned above, there are two equivalent ways to describe formally the semantics of a given type theory (possibly with logic) in a category.  There is an [[adjunction]]
 
-$$ type theories \quad \underoverset{Sem}{Syn}{\rightleftarrows} \quad categories $$
+$$ type theories \quad \underoverset{Lan}{Con}{\rightleftarrows} \quad categories $$
 
 in which
 
-* the right adjoint $Sem$ (semantics) assigns to a category its [[internal logic|internal type theory]] whose types and terms (and propositions, if present) are the objects and morphisms (and subobjects) of the category, while 
+* the right adjoint $Lan$ (sometimes called "semantics") assigns to a category its [[internal logic|internal type theory]] whose types and terms (and propositions, if present) are the objects and morphisms (and subobjects) of the category, while 
 
-* the left adjoint $Syn$ (syntax) builds the [[syntactic category]] of a type theory, whose objects, morphisms, and subobjects are the types, terms, and propositions of the type theory.
+* the left adjoint $Con$ (sometimes called "syntax") builds the [[context|syntactic category]] of a type theory, whose objects, morphisms, and subobjects are the types (or contexts), terms, and propositions of the type theory.
 
-Thus, if $T$ is a type theory and $C$ a category with corresponding structure, it is equivalent to give a structure-preserving functor $Syn(T) \to C$, or to give a translation of type theories $T\to Sem(C)$.  Either one is called a "model" of $T$ in $C$.  For more details on the construction of $Syn$, see [[context]], and for more details on $Sem$, see [[internal logic]].
+Thus, if $T$ is a type theory and $C$ a category with corresponding structure, it is equivalent to give a structure-preserving functor $Con(T) \to C$, or to give a translation of type theories $T\to Lan(C)$.  Either one is called a "model" of $T$ in $C$.  For more details on the construction of $Con$, see [[context]], and for more details on $Lan$, see [[internal logic]].
 
 By the way, it should be noted that there are various technical difficulties in making this precise.  For instance, categories of any sort form a 2-category (or something more, if they are higher categories themselves), so we have to make type theories into a 2-category as well.  Also, there is a bit of a mismatch in that *substitution* in type theory is usually "implicit," which implies that it is strictly associative, but the corresponding categorical operation of [[pullback]] is not generally strictly associative.  For this reason, various people have defined technical intermediaries between type theories and categories, which mostly boil down to a category equipped with a [[split fibration]] replacing its [[codomain fibration]].  These go by names like *comprehension category*, *category with attributes*, or *contextual category*.
 
