@@ -425,19 +425,6 @@ $$
 =--
 
 
-## Examples
-
-### Cartesian fibrations over simplices {#CartOverSimplex}
-
-
-... for the moment see [[Higher Topos Theory|HTT, section 3.2.2]] ...
-
-
-### The universal Cartesian fibration
-
-for the moment see
-
-* [[universal fibration of (∞,1)-categories]]. 
 
 
 
