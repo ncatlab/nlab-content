@@ -93,10 +93,10 @@ The cuts that satisfy (1--6, 7&#8243;, 8) are precisely the cuts that define [[i
 Suppose that we consider only $L$ and demand (1,3,5), the axioms that refer only to $L$.  Any such set $L$ of rational numbers is a __lower cut__.  Similarly, a set $U$ that satisfies (2,4,6) is an __upper cut__.  If we demand that the set $L$ or $U$ is a [[proper subset]], then we have a __bounded__ lower/upper cut.
 
 In [[constructive mathematics]], these one-sided cuts define a much more general notion of real number, called a [[lower real]] or [[upper real]].  (Unlike the covering cuts in the previous section, these are actually of interest constructively.)  Using [[excluded middle]], however, we have that every bounded lower or upper cut becomes a Dedekind cut, by setting one of
-$$ \split {
+$$ \begin {split}
    U \coloneqq \{ b\colon \mathbb{Q} \;|\; \forall a \in L,\; a \lt b \} \\
    L \coloneqq \{ a\colon \mathbb{Q} \;|\; \forall b \in U,\; a \lt b \}
-.} $$
+.\end {split} $$
 
 ...
 
