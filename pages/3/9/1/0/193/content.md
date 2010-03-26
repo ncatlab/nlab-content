@@ -2,9 +2,26 @@
 [[!redirects adjoint pairs]]
 [[!redirects adjunctions]]
 
-#Definition#
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-An __adjunction__ in a [[2-category]] is a pair of objects $C,D$ together with morphisms $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ satisfying the equations
+## Idea
+
+Two [[morphism]]s $C \stackrel{L}{\to} D$ and $D \stackrel{R}{\to} C$ in a [[2-category]] $\mathcal{C}$ form an **adjunction** if they are **dual** to each other.
+
+In fact, if $\mathcal{C} = \mathbf{B}A$ is the one-object 2-category incarnation of a [[monoidal category]] $A$ (it [[delooping]]), such that the morphisms in $\mathcal{C}$ correspond to the objects of $A$, then the notion of adjunction coincides precisely with the notion of [[dualizable object|dual objects]] in a [[monoidal category]].
+
+The other archetypical example are adjunctions in the 2-category $\mathcal{C} = $ [[Cat]]: morphisms here are [[functor]]s and two functors form an adjunction in [[Cat]] oprecisely if they are a pair of [[adjoint functor]]s.
+
+The notion of adjunction may usefully be thought of as a weakened version of the notion of [[equivalence]] in a [[2-category]]: a morphism in an adjunction need not be invertible, but it has in some sense _a left inverse from below_ and _a right inverse from above_ . If the morphism in an adjunction does happen to be a genuine equivalence, then we speak of the adjunction being an [[adjoint equivalence]].
+
+Essentially everything that makes category theory nontrivial and interesting and different from [[groupoid]] theory can be derived from the concept of adjunction. In particular [[universal constructions]] such as [[limit|limits and colimits]] are examples of certain adjunctions.
+
+
+## Definition
+
+An __adjunction__ in a [[2-category]] is a pair of [[object]]s $C,D$ together with [[morphism]]s $L: C \to D$, $R : D \to C$ and [[2-morphism]]s $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ satisfying the equations
 
 $$ 
   (R \epsilon) \cdot (\eta R) = 1_R
@@ -66,11 +83,9 @@ variously called the _[[triangle identities]]_ or the _zig-zag identities_.  We 
 
 When interpreted in the prototypical 2-category [[Cat]], $C$ and $D$ are [[categories]], $L$ and $R$ are [[functors]], and $\eta$ and $\epsilon$ are [[natural transformations]].  In this case (which was of course the first to be defined) there are a number of equivalent definitions of an adjunction, which can be found on the page [[adjoint functor]].  Conversely, the definition in any 2-category can be obtained by [[internalization]] from the definition in $\Cat$.
 
-#Remarks#
 
-Essentially everything that makes category theory nontrivial and interesting can be derived from the concept of adjunction. In particular [[universal constructions]] such as [[limit|limits and colimits]] are examples of certain adjunctions.
 
-#String Diagrams#
+## String Diagrams
 
 The definition of an adjunction may be nicely expressed using [[string diagrams]]. The data $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ are depicted as
 
@@ -84,7 +99,17 @@ Often, arrows on strings are used to distinguish $L$ and $R$, and most or all ot
 
 [[adjunction-up-string-minimal.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-down-string-minimal.png:pic]]
 
-#References#
+## Examples
+
+* An adjunction in [[Cat]] is a pair of [[adjoint functor]]s.
+
+* For $A$ a [[monoidal category]] and $\mathbf{B}A$ its incarnation as a one-object [[2-category]] (its [[delooping]]), and adjunction in $\mathbf{B}A$ is a [[dualizable object|pair of dual objects]].
+
+* For $\mathcal{C}$ a [[2-groupoid]], an adjunction in $\mathcal{C}$ is an
+  [[adjoint equivalence]].
+
+
+## References
 
 * Catsters, _Adjunctions_ ([YouTube](http://www.youtube.com/watch?v=loOJxIOmShE&feature=channel_page))
 * Wikipedia, [Adjoint Functors](http://en.wikipedia.org/wiki/Adjoint_functors)
