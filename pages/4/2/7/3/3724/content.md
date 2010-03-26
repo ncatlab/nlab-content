@@ -11,7 +11,7 @@ In 1872, [[Richard Dedekind]] published _Stetigkeit und irrationale Zahlen_ (Con
 \[ \label{cuts} \begin {split}
    L_x \coloneqq \{ a\colon \mathbb{Q} \;|\; a \lt x \} \\
    U_x \coloneqq \{ b\colon \mathbb{Q} \;|\; x \lt b \}
-   .\end {split} \]
+.\end {split} \]
 Dedekind had found great success understanding the 'ideal numbers' of [[ring theory]] as certain sets, which are what we now understand as [[ideal of a ring|ideals]].  So he defined a 'real number' as a pair of sets of rational numbers, the lower and upper sets shown above.  Such a pair of sets of rational numbers he called a 'Schnitt' (English 'cut'), nowadays called a 'Dedekind cut'.
 
 
@@ -63,13 +63,40 @@ We say that the Dedekind cuts form the [[Dedekind completion]] of the linear ord
 
 ## Variations
 
-The conditions (5&6) are not really necessary.  If you leave them out, then the proof that $\lt$ is a [[connected relation]] on Dedekind cuts fails; but instead we identify cuts $x$ and $y$ whenever neither $x \lt y$ nor $y \lt x$.  Then the set $\mathbb{R}$ of real numbers becomes a [[quotient set]] of the set of Dedekind cuts.  In a similar vein, we can even weaken (3,4,7) as follows:
+There are several simple variations on the definition above, many of which may be found in the literature.
 
-* 3':  If $a \lt b$ are rational numbers with $b \in L$, then $a' \in L$ for some $a' \lt a$.
-* 4':  If $a \lt b$ are rational numbers with $a \in U$, then $b' \in U$ for some $b' \gt b$.
-* 7':  If $a \lt b$ are rational numbers, then $a' \in L$ for some $a' \lt a$ or $b' \in U$ for some $b' \gt b$.
 
-Just as (3,4) follow from (7,8), so (3',4') follow from (7',8).  Again, $\lt$ is no longer connected, but we still get a linear order on a quotient set.  (Incidentally, you can also recover the original definition using (3,4,7') in place of (7).)
+### Overdetermined cuts
+
+The conditions (5&6) are not really necessary.  If you leave them out, then the proof that $\lt$ is a [[connected relation]] on Dedekind cuts fails; but instead we identify cuts $x$ and $y$ whenever neither $x \lt y$ nor $y \lt x$.  Then the set $\mathbb{R}$ of real numbers becomes a [[quotient set]] of the set of Dedekind cuts.  In a similar vein, we can weaken (3,4,7) as follows:
+
+* 3&#8242;:  If $a \lt b$ are rational numbers with $b \in L$, then $a' \in L$ for some $a' \lt a$.
+* 4&#8242;:  If $a \lt b$ are rational numbers with $a \in U$, then $b' \in U$ for some $b' \gt b$.
+* 7&#8242;:  If $a \lt b$ are rational numbers, then $a' \in L$ for some $a' \lt a$ or $b' \in U$ for some $b' \gt b$.
+
+Just as (3,4) follow from (7,8), so (3&#8242;,4&#8242;) follow from (7&#8242;,8).  Again, $\lt$ is no longer connected, but we still get a linear order on a quotient set.  The weakest axiom system that will give the correct linear order on the quotient is (1,2,7&#8242;,8).  Incidentally, you can also recover the original definition using (3,4,7&#8242;) in place of (7).
+
+
+### Covering cuts
+
+Another approach is to *strengthen* (7):
+
+* 7&#8243;:  Every rational number belongs to $L$ or $U$.
+
+While (7&#8243;) alone does not imply (7), it does together with (8).  Also note that, using (8), we can even change 'or' to '[[xor]]' in (7&#8243;).
+
+The cuts that satisfy (1--6, 7&#8243;, 8) are precisely the cuts that define [[irrational number]]s.  If we remove either (5) or (6), then the resulting axioms define one cut for each rational number as well.  If we remove *both* (5) and (6), then we get two cuts for each rational number and must pass to a quotient; this was actually Dedekind\'s original 1872 system.  These versions are not acceptable [[constructive mathematics|constructively]], but they work fine if you use [[excluded middle]].  (Actually, the somewhat weaker [[limited principle of omnisicience]] seems to suffice.)
+
+
+### One-sided cuts
+
+Suppose that we consider only $L$ and demand (1,3,5), the axioms that refer only to $L$.  Any such set $L$ of rational numbers is a __lower cut__.  Similarly, a set $U$ that satisfies (2,4,6) is an __upper cut__.  If we demand that the set $L$ or $U$ is a [[proper subset]], then we have a __bounded__ lower/upper cut.
+
+In [[constructive mathematics]], these one-sided cuts define a much more general notion of real number, called a [[lower real]] or [[upper real]].  (Unlike the covering cuts in the previous section, these are actually of interest constructively.)  Using [[excluded middle]], however, we have that every bounded lower or upper cut becomes a Dedekind cut, by setting one of
+$$ \split {
+   U \coloneqq \{ b\colon \mathbb{Q} \;|\; \forall a \in L,\; a \lt b \} \\
+   L \coloneqq \{ a\colon \mathbb{Q} \;|\; \forall b \in U,\; a \lt b \}
+.} $$
 
 ...
 
