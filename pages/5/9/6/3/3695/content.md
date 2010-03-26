@@ -6,13 +6,9 @@
 * automatic table of contents goes here
 {:toc}
 
-## Brief summary
+## Overview
 
-Stokes phenomenon can be briefly summarized as being the fact that the asymptotic series of certain functions, specifically those that are similar to the Airy function Ai(z), have a different form in different sectors of the complex plane.
-
-## Details
-
-Matching asymptotic expansions of solutions to the wave equations in short wave approximation often comes with sharp phase changes at certain phase angles (Stokes lines). G. G. Stokes has discovered the phenomenon in the study of geometric optics, more specifically the study of [[Airy function]] which is an example of a solution to linear meromorphic ordinary differential equation which has an irregular singular point, hence the equation is not [[Fuchsian equation|Fuchsian]]. The Stokes phenomenon does not happen to Fuchsian equations. Their formal meromorphic solutions are automatically convergent. Exactly the presence of the irregular singularities makes the appearance of formal solutions with zero radius of convergence. Now look around the origin. One can try to prove that there are asymptotic expressions at best in some regions of argument. There are jumps at certain slopes. In fact there is Stokes sheaf and the first nonabelian cohomology of the Stokes sheaf measures the obstruction for a formal meromomorphic expansion to be build up of sectorial true meromorphic expansions. 
+Matching asymptotic expansions of certain functions like Airy function and more generally of solutions to the wave equations (say in short wave approximation or solutions to non-Fuchsian meromorphic ODEs) comes with sharp changes at certain phase angles (Stokes lines) described by certain factors, Stokes matrices. G. G. Stokes has discovered the phenomenon in the study of geometric optics, more specifically the study of [[Airy function]] which is an example of a solution to linear meromorphic ordinary differential equation which has an irregular singular point, hence the equation is not [[Fuchsian equation|Fuchsian]]. The Stokes phenomenon does not happen to Fuchsian equations. Their formal meromorphic solutions are automatically convergent. Exactly the presence of the irregular singularities makes the appearance of formal solutions with zero radius of convergence. Now look around the origin. One can try to prove that there are asymptotic expressions at best in some regions of argument. There are jumps at certain slopes. In fact there is Stokes sheaf and the first nonabelian cohomology of the Stokes sheaf measures the obstruction for a formal meromomorphic expansion to be build up of sectorial true meromorphic expansions. 
 
 Stokes factors (multipliers, matrices) appear also in the study of stability in the geometry of moduli spaces of sheaves. According to Toledano Laredo "Joyce's wall-crossing formulae for invariants counting semistable objects in an abelian category A may be understood as Stokes phenomena for a connection on the Riemann sphere taking value in the Ringel-Hall Lie algebra of A.".
 
