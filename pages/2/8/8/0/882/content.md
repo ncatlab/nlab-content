@@ -10,5 +10,4 @@ Transitive relations are often understood as [[orders]].
 
 
 [[!redirects transitive relation]]
-[[!redirects transitivity]]
-[[!redirects transitive]]
+[[!redirects transitive relations]]
