@@ -145,13 +145,6 @@ Let
 
 The relevance of the notion of cartesian morphism is as an ingredient in the following definition.
 
-+-- {: .un_defn}
-###### Definition
-**(Grothendieck fibration)**
-
-If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism , one says that $p$ is a [[Grothendieck fibration]].
-
-=--
 
 
 
@@ -178,6 +171,15 @@ $$
   }
   \,.
 $$
+
+=--
+
+
++-- {: .un_defn}
+###### Definition
+**(Grothendieck fibration)**
+
+If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism , one says that $p$ is a [[Grothendieck fibration]].
 
 =--
 
