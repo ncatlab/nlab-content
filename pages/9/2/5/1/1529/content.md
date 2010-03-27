@@ -1,6 +1,6 @@
 #Idea#
 
-Given a collection of "parameterized objects", i.e. a [[functor]] $F : C \to D$, it is often of interest to consider the category whose objects are [[generalized element]]s of the objects of $D$ in the image of $F$, and whose morphisms are the maps between these generalized elements induced by the value of $F$ on morphisms in $C$.
+Given a collection of "parameterized objects", i.e. a [[functor]] $F : C \to D$, it is often of interest to consider the category whose objects are [[generalized elements]] of the objects of $D$ in the image of $F$, and whose morphisms are the maps between these generalized elements induced by the value of $F$ on morphisms in $C$.
 
 For $D = $ [[Set]] and and with [[generalized element]] read as "ordinary element of a set" is yields the [[category of elements]] of the (co)[[presheaf]] $F : C \to D$.
 
@@ -47,7 +47,7 @@ $$
   }
 $$
 
-(see also [[comma category]] for more on this perspective). So in fact such "categories of generalized elements" are precisely the [[generalized universal bundle]]s in the 1-categorical context. And both are really fundamentally to be thought of as intermediate steps in the computation of [[weak limit|weak pullback]]s, as described now.
+(see also [[comma category]] for more on this perspective). So in fact such "categories of generalized elements" are precisely the [[generalized universal bundles]] in the 1-categorical context. And both are really fundamentally to be thought of as intermediate steps in the computation of [[weak limit|weak pullbacks]], as described now.
 
 
 The above allows to generalize the notion of _category of generalized elements_ a bit further to that of generalized elements of functors with values in $D$: let $F : C \to D$ be a functor with codomain our category $D$ with point $pt_D$. 
