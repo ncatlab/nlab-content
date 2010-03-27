@@ -301,6 +301,6 @@ This can be illustrated in the following diagram
 
 <img src="http://ncatlab.org/nlab/files/altfunctor.jpg" width = "300"/>
 
-which provides an alternative expression of the functoriality condition as simply a statement that commutative diagrams in $C$ map to commutative diagrams in $D$.
+which provides an alternative expression of the functoriality condition as simply a statement that commuting diagrams in $C$ map to commuting diagrams in $D$.
 
 [[!redirects functors]]
