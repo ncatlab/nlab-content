@@ -5,7 +5,7 @@
 
 ## Idea
 
-A Banach space is both a [[vector space]] and a [[metric space]], in a compatible way.  In finite dimensions, every $n$-dimensional real Banach space may be described (up to linear isometry, the usual sort of [[isomorphism]]) as the [[Cartesian space]] $\mathbb{R}^n$ equipped with the $p$-norm for $1 \leq p \leq \infty$:
+A Banach space $\mathcal{B}$ is both a [[vector space]] and a [[normed space]], such that the norm induced metric turns $\mathcal{B}$ into a _complete_ [[metric space]], and the induced topology turns $\mathcal{B}$ into a [[topological vector space]].  In finite dimensions, there is only one topology that turns a given vector space into a topological vector space (or phrased differently: All topologies that do the trick are equivalent). So every $n$-dimensional real Banach space may be described (up to linear isometry, the usual sort of [[isomorphism]]) as the [[Cartesian space]] $\mathbb{R}^n$ equipped with the $p$-norm for $1 \leq p \leq \infty$:
 
 $$ \|(x_1,\ldots,x_n)\|_p \coloneqq \root p {\sum_{i = 1}^n |x_i|^p} $$
 
@@ -15,8 +15,11 @@ This is a familiar space to most people, and even the unusual norms (the usual E
 
 +-- {: .query}
 Yemon, I don\'t want you to think that I\'m trying to pull rank (as an established Lab contributor) on you as I edit what you\'ve edited here.  So please do edit further (or make a comment like this one) as you like.  ---[[Toby Bartels]]
+
+--- [[Tim van Beek]]: dito :-)
 =--
 
+* [Wikipedia] (http://en.wikipedia.org/wiki/Banach_space)
 
 ## Definitions
 
@@ -138,9 +141,51 @@ To be described:
 *  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$).
 *  $Ban$ as a (somewhat larger) category with duals.
 
+## Integration in Banach spaces
+This paragraph describes some aspects of integration theory in Banach spaces that are relevant to understand the literature about [[AQFT]]. In the given context, elements of a Banach space $\mathcal{B}$ are sometimes called vectors, a function or measure taking values in $\mathcal{B}$ are therefore called vector functions and vector measures. Functions and measures taking values in the [[field]] that the Banach space is defined upon as a vector space are called scalar functions and scalar measures. 
+
+We will consider two types of integrals:
+
+* integrals of vector functions with respect to a scalar measure, specifically the Bochner integral,
+
+* integrals of scalar functions with respect to a vector measure, specifically the spectral integral of a normal operator on a Hilbert space.
+
+### Bochner integral
+The Bochner integral is a direct generalization of the Lesbegue integral to functions that take values in a Banach space. Whenever you encounter an integral of a function taking values in a Banach space in the [[AQFT]] literature, it is safe to assume that it is meant to be a Bochner integral. Two points already explained by Wikipedia are of interest:
+
+1. A version of the dominated convergence theorem is true for the Bochner integral.
+2. There are theorems that are not valid for the Bochner integral, notably the Radon-Nikodym theorem does not hold in general.
+
+* [Wikipedia] (http://en.wikipedia.org/wiki/Bochner_integral)
+
+_reference_: Joseph Diestel: "Sequences and Series in Banach Spaces" ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0542.46007&format=complete)), chapter IV. 
+
+### spectral integral
+The integral with respect to the spectral measure of a bounded normal operator on a Hilbert space is an example of a Banach space integral with respect to a vector measure.
+In this paragraph we present a well known, but somewhat less often cited result, that is of use in some proofs in some approaches to [[AQFT]], it is the version of the dominated convergence theorem for the given setting.
+
+Let A be a bounded normal operator on a Hilbert space and E be it's spectral measure (the "resolution of identity" in the terms of Dunford and Schwartz). Let $\sigma(A)$ be the spectrum of A. For a bounded complex Borel function f we then have
+$$
+           f(A) := \int_{\sigma(A)} f(\lambda) E(d\lambda)
+$$
+
+* theorem (dominated convergence): if the uniformly bounded sequence $\{f_n\}$ of complex Borel functions converges at each point of $\sigma(A)$ to the function $f$, then $f_n(A) \to f(A)$ in the strong operator topology.
+
+_reference_: see Dunford, Schwartz II, chapter X, corollary 8.
+
+### References
+One standard reference for this paragraph is
+
+* Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part I: General theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47001&format=complete))
+
+and
+
+* Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part II: Spectral theory, self adjoint operators in Hilbert space." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47002&format=complete))
+
 
 [[!redirects Ban]]
 [[!redirects Banach spaces]]
 [[!redirects normed vector space]]
 [[!redirects pseudonormed vector space]]
 [[!redirects seminormed vector space]]
+[[!redirects vector measure]]
