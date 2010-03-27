@@ -5,7 +5,7 @@
 
 #Idea#
 
-A computad is a formal device (due to [[Ross Street]]) for describing "generators" of $n$-[[n-category|categories]], much as [[directed graph]]s describe generators of [[category|categories]]. Originally the $n$-categories under consideration were [[strict n-category|strict]], but more recently the concept of $n$-computad has been expanded to take into account weak $n$-categories.  The notion is tied to [[algebraic definition of higher category|algebraic]] senses of higher categories, but computads can also be used as the input for [[geometric definition of higher category|geometric]] senses as well.
+A computad is a formal device (due to [[Ross Street]], 1976) for describing "generators" of $n$-[[n-category|categories]], much as [[directed graph]]s describe generators of [[category|categories]]. Originally the $n$-categories under consideration were [[strict n-category|strict]], but more recently the concept of $n$-computad has been expanded to take into account weak $n$-categories.  The notion is tied to [[algebraic definition of higher category|algebraic]] senses of higher categories, but computads can also be used as the input for [[geometric definition of higher category|geometric]] senses as well.
 
 
 #Terminology#
@@ -14,15 +14,8 @@ The article
 
 * [[Albert Burroni]], _Higher dimensional word problems with applications to equational logic_ ([pdf](http://people.math.jussieu.fr/~burroni/mapage/highwordpb.pdf))
 
-used term **polygraph** for _computad_ . This term is now used in parts of the literature.  Since "computad" is 20 years older, it should probably be preferred. 
+used term **[[polygraph]]** for _computad_ . This term is now used in parts of the literature especially in the connections with [[rewriting]] theory.  
 
-
-+-- {: .query} 
-[[Tim Porter]]: According to Francois M&#233;tayer, Jon Power used 'n-computad' in 1991, whilst a computad &#224; l&#224; Street is a 2-polygraph and does not refer to the higher dimensional case. As Albert Burroni's notion of n-polygraph also was from 1991, this comment is perhaps misleading.
-
-In fact, I am not convinced that precedence is a final arbiter of terminology. Hopf algebras were called something else before Milnor and Moore used that term, and there are other examples. Is computad a better term than polygraph.  I do not know how to define 'better' in this context.
-
-=--
 
 
 # Definitions #
