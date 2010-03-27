@@ -10,13 +10,15 @@
 
 Two [[morphisms]] $C \stackrel{L}{\to} D$ and $D \stackrel{R}{\to} C$ in a [[2-category]] $\mathcal{C}$ form an **adjunction** if they are **dual** to each other.
 
-In fact, if $\mathcal{C} = \mathbf{B}A$ is the one-object 2-category incarnation of a [[monoidal category]] $A$ (it [[delooping]]), such that the morphisms in $\mathcal{C}$ correspond to the objects of $A$, then the notion of adjunction coincides precisely with the notion of [[dualizable object|dual objects]] in a [[monoidal category]].
+There are two archetypal examples:
 
-The other archetypical example are adjunctions in the 2-category $\mathcal{C} = $ [[Cat]]: morphisms here are [[functors]] and two functors form an adjunction in [[Cat]] oprecisely if they are a pair of [[adjoint functors]].
+*  If $A$ is a [[monoidal category]] and $\mathcal{C} = \mathbf{B}A$ is the one-object 2-category incarnation of $A$ (the [[delooping]] of $A$), so that the morphisms in $\mathcal{C}$ correspond to the objects of $A$, then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of [[dualizable object|dual objects]] in a $A$.
 
-The notion of adjunction may usefully be thought of as a weakened version of the notion of [[equivalence]] in a [[2-category]]: a morphism in an adjunction need not be invertible, but it has in some sense _a left inverse from below_ and _a right inverse from above_ . If the morphism in an adjunction does happen to be a genuine equivalence, then we speak of the adjunction being an [[adjoint equivalence]].
+*  If $\mathcal{C}$ is the $2$-category [[Cat]], so that the morphisms in $\mathcal{C}$ are [[functors]], then the notion of adjoint morphisms in $\mathcal{C}$ coincides precisely with the notion of [[adjoint functors]].
 
-Essentially everything that makes category theory nontrivial and interesting and different from [[groupoid]] theory can be derived from the concept of adjunction. In particular [[universal constructions]] such as [[limit|limits and colimits]] are examples of certain adjunctions.
+The notion of adjunction may usefully be thought of as a weakened version of the notion of [[equivalence]] in a [[2-category]]: a morphism in an adjunction need not be invertible, but it has in some sense _a left inverse from below_ and _a right inverse from above_. If the morphism in an adjunction does happen to be a genuine equivalence, then we speak of the adjunction being an [[adjoint equivalence]].
+
+Essentially everything that makes category theory nontrivial and interesting beyond [[groupoid]] theory can be derived from the concept of adjoint functors. In particular [[universal constructions]] such as [[limit|limits and colimits]] are examples of certain adjunctions.  Adjunctions are already interesting (but simpler) in [[2-posets]], such as the $2$-poset [[Pos]] of [[posets]].
 
 
 ## Definition
