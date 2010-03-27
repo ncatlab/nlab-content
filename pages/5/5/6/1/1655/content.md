@@ -1,3 +1,8 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 A **topological vector space**, or **TVS** for short, is a [[vector space]] $X$ (usually over the [[ground field]] $k = \mathbb{R}$ or $k = \mathbb{C}$) equipped with a [[topological space|topology]] for which the addition and scalar multiplication maps 
 $$+: X \times X \to X, \qquad \cdot: k \times X \to X$$ 
 are continuous (where $k$ is given its standard topology).
@@ -25,6 +30,19 @@ maps $k$ [[homeomorphism|homeomorphically]] onto its image. It follows quickly t
 
 More classical material should be added, particularly on [[locally convex spaces]].
 
+## TVR from a Hilbert space viewpoint
+The theory of TVR can be understood as the quest to find the essence of many fundamental theorems of [[functional analysis]] of [[Hilbert space]]s (or [[Banach space]]s), namely to find the minimal set of assumptions that are needed for Hilbert space theorems to remain true.
+Examples of these are:
+
+
+* the [Hahn-Banach Theorem] (http://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem)
+
+* the [Open Mapping](http://en.wikipedia.org/wiki/Open_mapping_theorem_(functional_analysis)) and Closed Graph Theorems
+
+A central r&#244;le in the whole theory plays **duality**, that is the study of [[locally convex spaces]] and their duals. A prominent example is the definition of certain concepts by duality in the theory of [[Schwartz distributions]].
+
+##References
+[Wikipedia](http://en.wikipedia.org/wiki/Topological_vector_space) already has many nice references.
 
 [[!redirects TVS]]
 [[!redirects topological vector spaces]]
