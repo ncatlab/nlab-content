@@ -16,6 +16,17 @@ $$
   }
 $$
 
++--{.query}
+[[Eric]]: How about a square?
+$$\array{
+a & \to & b \\
+\downarrow & \Downarrow & \downarrow \\
+c & \to & d
+}
+$$
+Both the above are special cases of a square. Is there anything worth saying about squares?
+=--
+
 Of course, using [[identity morphisms]] and [[composition]], we can turn one into the other; which is more fundamental depends on what [[geometric shape for higher categories]] you use.
 
 
