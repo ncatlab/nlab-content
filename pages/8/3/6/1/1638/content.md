@@ -17,8 +17,10 @@ The article
 used term **polygraph** for _computad_ . This term is now used in parts of the literature.  Since "computad" is 20 years older, it should probably be preferred. 
 
 
++-- {: .query} 
+[[Tim Porter]]: According to Francois M&#233;tayer, Jon Power used 'n-computad' in 1991, whilst a computad &#224; l&#224; Street is a 2-polygraph and does not refer to the higher dimensional case. As Albert Burroni's notion of n-polygraph also was from 1991, this comment is perhaps misleading.
 
-+--{: .query} According to Francois Metayer Power used n-computad in 1991, whilst a computad &#224; l&#224; Street is a 2-polygraph and does not refer to the higher dimensional case. As Albert Burroni's notion of n-polygraph also was from 1991, this comment is misleading.
+In fact, I am not convinced that precedence is a final arbiter of terminology. Hopf algebras were called something else before Milnor and Moore used that term, and there are other examples. Is computad a better term than polygraph.  I do not know how to define 'better' in this context.
 
 =--
 
