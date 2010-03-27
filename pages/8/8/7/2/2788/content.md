@@ -7,6 +7,48 @@ This page is an informal/speculative discussion of an alternative (yet hopefully
 * tic
 {: toc}
 
+##Discussion 3.0##
+
+I think I may have found a way to express this idea without resorting to non-standard morphism-like maps $x\to F(x)$ or cographs.
+
+The idea I'm trying to get at, I think can be encapsulated in the statement that a map $F:A\to B$ is a functor if for every morphism $f:x\to y$ in $A$, we have
+
+$$F(f) F(x) = F(f(x)).$$
+
+Let's check...
+
+$$\array{
+F(g\circ f) F(x) 
+&= F(g\circ f(x)) \\
+&= F(g)\circ F(f(x)) \\
+&= F(g)\circ F(f) F(x).}$$
+
+Since this is true for all morphisms $f:x\to y$ and $g:y\to z$, we have
+
+$$F(g)\circ F(f) = F(g\circ f)$$
+
+as required.
+
+Next,
+
+$$F(1_A) F(x) = F(1_A(x)) = F(x)$$
+
+as required.
+
+Therefore, it seems to work.
+
++-- {: .standout}
+###Definition
+Given categories $A$ and $B$, a map $F:A\to B$ is a functor if for every morphism $f:x\to y$ in $A$
+$$F(f) F(x) = F(f(x)).$$
+=--
+
+Note this is still essentially the same thing as conveyed in my earlier picture
+
+<img src="http://ncatlab.org/nlab/files/alt_functor.jpg" width = "250"/>
+
+requiring the square commutes, but is done in a way that avoids introducing the non-standard morphism-like components.
+
 ##Discussion 2.0##
 
 After Discussion 1.0 below, it seems that the original intention of this page was to define a [[functor]] in terms of a [[cograph of a functor|cograph]]. Given a functor, it is straightforward to construct its cograph. However, it may be possible to do the reverse, i.e. start with a cograph and infer the functor that gives rise to that cograph.
