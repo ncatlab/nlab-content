@@ -13,10 +13,28 @@
 
 * A functor from $C$ to $D$ is an _image of $C$ in $D$_.
 
-* A functor between (small) categories is a morphism of the underlying graphs that respects the composition of edges.
+* A functor between (small) categories is a morphism of the underlying [[directed graph]]s that respects the composition of edges.
 
+
+So a functor $F : C \to D$ is a [[morphism]] between two [[category|categories]] that 
+
+* constsis of a map $F_0 : Obj(C) \to Obj(D)$ of the objects of the categories
+
+* and a map $F_1 : Mor(C) \to Mor(D)$ of the morphisms of the categories
+
+such that
+
+* it respect source and target: $F_1$ coincides with $F_0$ on source and target objects;
+
+* it respects composition: the image of the composite of two morphisms under $F$ is the composite of their images.
+
+This last property is the decicive one of a functor. It is called the **functoriality condition**. It is a direct generalization of the notion of [[homomorphism]] (of [[monoid]]s, [[group]]s, [[algebra]]s, etc.) to the case that there are more objects. As a slogan we have
+
+The notion of functor is a [[horizontal categorification]] of that of [[homomorphism]].
 
 ## Definition
+
+### Standard definition (external)
 
 A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphism]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
 
@@ -26,25 +44,9 @@ A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each 
 
 The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
+### Internal definition {#InternalDefinition}
 
-## Special properties 
-
-Functors with special properties are important in applications. See for instance
-
-* [[essentially surjective functor]]
-
-* [[full functor]]
-
-* [[faithful functor]]
-
-* [[full and faithful functor]]
-
-And for more background on this see [[stuff, structure, property]].
-
-
-##Internal definition {#InternalDefinition}
-
-Suppose now that $C$ and $D$ are [[internal categories]] in some ambient category $A$.  Then an __internal functor__ $F : C \to D$ is 
+If $C$ and $D$ are [[internal categories]] in some ambient category $A$, then an __internal functor__ $F : C \to D$ is 
 
 * a morphism of objects $F_0 : C_0 \to D_0$ in $A$;
 
@@ -103,11 +105,56 @@ $;
   }  
 $.
 
+This reproducces the external definition of functors above for [[small categories]], which are categories [[internalization|internal to]] [[Set]]
+
 In many cases, this notion is too restrictive, and we should use internal [[anafunctors]] instead.
 
 
-##Examples 
+### Enriched definition
 
+In [[enriched category theory]] a functor maps not [[hom-set]]s but the given [[hom-object]]s to each other, in a way that respects their composition. This is described at
+
+* [[enriched functor]].
+
+
+### Profunctors
+
+A generalization of the notion of [[enriched functor]] is the notion of [[profunctor]].
+
+### Higher categorical functors
+
+In [[higher category theory]] there are corresponding higher notions of functor, such as
+
+* [[2-functor]]
+
+  * [[strict 2-functor]]
+
+  * [[pseudofunctor]]
+
+  * [[lax functor]]
+
+* [[(∞,1)-functor]]
+
+
+* See also an informal discussion about an [[experimental alternative definition of functor]].
+
+
+## Special properties of functors
+
+Functors with special properties are important in applications. See for instance
+
+* [[essentially surjective functor]]
+
+* [[full functor]]
+
+* [[faithful functor]]
+
+* [[full and faithful functor]]
+
+And for more background on this see [[stuff, structure, property]].
+
+
+##Examples 
 
 ### Morphisms of monoids and groups 
 
@@ -221,25 +268,33 @@ as required. Hence, $F^*$ is a functor.
 Functors $F : C \to Set$ with values in [[Set]] are also called [[presheaf|presheaves]]. As such one calls them presheaves on the [[opposite category]] $C^{op}$ of $C$. See [[presheaf]] for more on this.
 
 
+### Functors and generalized elements {#OnGeneralizedElements}
 
-## Generalizations 
+For $C$ a [[category]], and $X \in C$ an [[object]], and $U$ any other object, a [[morphism]] $x : U \to X$ may be regarded as a [[generalized element]] of $X$, written $x \in X$ (For this language applied to the category [[Set]] of sets see [[ETCS]]. For the general case see [[type theory]]).
 
-A generalization of the notion of functor within ordinary [[category theory]] and then naturally further within [[enriched category theory]] is the notion of [[profunctor]].
+The _[[set]]_ of generalized elements of an object $X \in C$ is thus the union of [[hom-set]]s $\coprod_{U \in C} Hom_C(U,X)$.
 
-In [[higher category theory]] there are corresponding higher notions of functor, such as
+While a [[morphism]] $f : X \to Y$ in an  arbitrary category $C$ need not at all come to us as a function of sets, it always induces a function of sets of _generalized elements_ : it sends the generalized element $x : U \to X$ of $X$ to the generalized element 
 
-* [[2-functor]]
+$$
+  f(x) : U \stackrel{x}{\to} X \stackrel{f}{\to} Y
+$$ 
 
-  * [[strict 2-functor]]
+of $Y$, using the composition of the morphism $f$ with the morphism $x$ in $C$.
 
-  * [[pseudofunctor]]
+In terms of this notation, the functoriality condition on a functor $F : C \to D$, which is 
 
-  * [[lax functor]]
+$$
+  F(U \stackrel{x}{\to} X \stackrel{f}{\to} Y)
+  =
+  F(U) \stackrel{F(x)}{\to} F(X) \stackrel{F(f)}{\to} F(Y)
+$$
 
-* [[(∞,1)-functor]]
+appears as
 
-
-* See also an informal discussion about an [[experimental alternative definition of functor]].
-
+$$
+  F(f(x)) = F(f)(F(x))
+  \,.
+$$
 
 [[!redirects functors]]
