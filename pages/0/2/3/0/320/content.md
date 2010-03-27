@@ -25,18 +25,11 @@ An efficient abstract method for defining multicategories and related structures
 
 * First, a $T$-span from $X$ to $Y$ is a [[span]] $p$ from $T X$ to $Y$, that is, a diagram
 $$T X \stackrel{p_1}{\leftarrow} P \stackrel{p_2}{\to} Y$$
-A $T$-span is often written as $p: X \dashrightarrow Y$.
-
-+--{.query}
-Dang... how do you make an arrow with a vertical slash in the middle? -- Todd
-
-I don't think that has been implemented yet. [[ericforgy:itex2MML|Here]] is a list of all available arrows. -- Eric
-
-=--
+A $T$-span is often written as $p: X &#x21F8; Y$.
 
 When $T$ is the free monoid monad on $Set$, a $T$-span from $X$ to itself is called a _multigraph_ on $X$.
 
-* $T$-spans are the 1-cells of a [[bicategory]]. A 2-cell between $T$-spans $e, f: X \dashrightarrow Y$ is a 2-cell between ordinary spans from $T X$ to $Y$. To horizontally compose $T$-spans $e: X \dashrightarrow Y$ and $f: Y \dashrightarrow Z$, take the ordinary span composite of
+* $T$-spans are the 1-cells of a [[bicategory]]. A 2-cell between $T$-spans $e, f: X &#x21F8; Y$ is a 2-cell between ordinary spans from $T X$ to $Y$. To horizontally compose $T$-spans $e: X &#x21F8; Y$ and $f: Y &#x21F8; Z$, take the ordinary span composite of
 $$(T X \stackrel{m X}{\leftarrow} T^2 X \stackrel{T e_1}{\leftarrow} T E \stackrel{T e_2}{\to} T Y) \circ (T Y \stackrel{f_1}{\leftarrow} F \stackrel{f_2}{\to} Z)$$
 where $m: T^2 \to T$ is the monad multiplication. The identity $T$-span from $X$ to itself is the span
 $$T X \stackrel{u X}{\leftarrow} X \stackrel{1_X}{\to} X$$
@@ -48,7 +41,7 @@ The full details are carefully treated in Tom Leinster's book, _loc. cit._, who 
 
 # Connection with operads #
 
-A nonpermutative (or Stasheff) [[operad]] in [[Set]] may be defined as an ordinary multicategory with exactly one object.  Likewise, an operad in any symmetric [[monoidal category]] $V$ is equivalent to a $V$-[[enriched category|enriched]] multicategory with one object.  Furthermore, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 \dashrightarrow 1$.
+A nonpermutative (or Stasheff) [[operad]] in [[Set]] may be defined as an ordinary multicategory with exactly one object.  Likewise, an operad in any symmetric [[monoidal category]] $V$ is equivalent to a $V$-[[enriched category|enriched]] multicategory with one object.  Furthermore, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 &#x21F8; 1$.
 
 For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|categories]], a [[globular operad]] is a $T$-operad, where $T$ is the free (strict) $\omega$-[[strict omega-category|category]] monad on the category of [[globular set]]s.
 
