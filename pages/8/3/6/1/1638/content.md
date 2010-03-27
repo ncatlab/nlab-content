@@ -18,7 +18,7 @@ used term **polygraph** for _computad_ . This term is now used in parts of the l
 
 
 
-+--{:.query} According to Francois Metayer Power used n-computad in 1991, whilst a computad &#224; l&#224; Street is a 2-polygraph and does not refer to the higher dimensional case. As Albert Burroni's notion of n-polygraph also was from 1991, this comment is misleading.
++--{: .query} According to Francois Metayer Power used n-computad in 1991, whilst a computad &#224; l&#224; Street is a 2-polygraph and does not refer to the higher dimensional case. As Albert Burroni's notion of n-polygraph also was from 1991, this comment is misleading.
 
 =--
 
