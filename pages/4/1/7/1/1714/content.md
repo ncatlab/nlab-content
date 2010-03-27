@@ -1,6 +1,25 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+## Idea
+
 In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-category|category]], there are many levels of [[morphism]], parametrised by [[natural numbers]].  Those at level $k$ are called __$k$-morphisms__ or __$k$-cells__.
 
+* a 0-morphism is an [[object]]
+
+* a 1-moprhism is a [[morphism]]
+
+* next are [[2-morphism]]s
+
+* and so on
+
+
+## Definition
+
 In a [[geometric model of higher categories]], the $k$-morphisms are literally $k$-cells in the sense of a [[simplicial set]].  In any case, all models of higher categories have them.
+
+
 
 Every $k$-morphism $f$ has a $(k-1)$-morphism $\sigma f$ as its [[source]] and a $(k-1)$-morphism $\tau f$ as its [[target]].  The source $(k-2)$-morphisms $\sigma \sigma f$ and $\sigma \tau f$ must be the same (or at least [[equivalence|equivalent]] in a coherent fashion, although for most models of higher categories they are strictly [[equality|equal]]), as must the target $(k-2)$-morphisms $\tau \sigma f$ and $\tau \tau f$.
 
