@@ -30,6 +30,8 @@ Of course, using [[identity morphisms]] and [[composition]], we can turn one int
 +--{.query}
 [[Eric]]: Are there any consistency requirements for a 2-morphism? For example, in the bigon above, if $f:a\to b$, $g:a\to b$, and $\alpha:f\to g$, are there requirements on $\alpha:f\to g$ regarding $f$ and $g$? For example, should $\alpha$ come with component 1-morphisms $\alpha_a:a\to a$ and $\alpha_b:b\to b$ such that 
 $$\alpha_a\circ g = f\circ\alpha_b$$
+or maybe
+$$\alpha_a\circ g \simeq f\circ\alpha_b$$
 ? Could there be a 2-morphism without the corresponding 1-morphism components?
 
 =--
