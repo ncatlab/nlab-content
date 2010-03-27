@@ -17,6 +17,12 @@ The article
 used term **polygraph** for _computad_ . This term is now used in parts of the literature.  Since "computad" is 20 years older, it should probably be preferred. 
 
 
+
++--{:.query} According to Francois Metayer Power used n-computad in 1991, whilst a computad &#224; l&#224; Street is a 2-polygraph and does not refer to the higher dimensional case. As Albert Burroni's notion of n-polygraph also was from 1991, this comment is misleading.
+
+=--
+
+
 # Definitions #
 
 First we work in Street's original strict setting. 
@@ -34,6 +40,7 @@ where $F_{n-1}: (n-1)Comp \to (n-1)Cat$ is the "free $(n-1)$-category on an $(n-
 To complete the induction, we need to define $F_n$. Roughly speaking, in dimensions $j \lt n$, the structure agrees with that of $F_{n-1}(\mathcal{C})$. In dimension $n$, the $n$-cells are formal pasting diagrams built from the elements of $C_n$ by formal [[whiskering]]s and formal [[composition]]s across $(n-1)$-cells in $F_{n-1}(\mathcal{C})$. 
 
 (Much detail to be filled in...) 
+
 
 
 # Examples #
