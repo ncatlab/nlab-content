@@ -34,13 +34,19 @@ The notion of functor is a [[horizontal categorification]] of that of [[homomorp
 
 ## Definition
 
-### Standard definition (external)
+### External definition
 
-A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphism]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
+A **functor** $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphism]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
 
-* $F$ preserves [[composition]]: $F(f g) = F(f) F(g)$ whenever the left-hand side is well-defined,
+* $F$ preserves [[composition]]: $F(g\circ f) = F(g)\circ F(f)$ whenever the left-hand side is well-defined,
 
 * $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
+
+Or equivalently, since compositions $g f = g\circ f$ and identities $f = f\circ 1_x = 1_y\circ f$ are both simple commuting diagrams, we can combine the above conditions to the single statement
+
+* $F$ preserves commuting diagrams: $F(h) = F(g)\circ F(f)$ whenever $h = g\circ f$.
+
+<img src="http://ncatlab.org/nlab/files/functor.jpg" width = "300"/>
 
 The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
