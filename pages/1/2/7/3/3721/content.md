@@ -6,5 +6,8 @@ For a point-based notion of space such as a [[topological space]], an open subsp
 
 
 [[!redirects open subspace]]
+[[!redirects open subspaces]]
 [[!redirects open subset]]
+[[!redirects open subsets]]
 [[!redirects open set]]
+[[!redirects open sets]]
