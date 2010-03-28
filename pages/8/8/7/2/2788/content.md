@@ -21,7 +21,7 @@ Note this is still essentially the same thing as conveyed in my earlier picture
 
 requiring the square commutes, but is done in a way that avoids introducing the non-standard morphism-like components $\alpha_x:x\to F(x)$.
 
-In other words, if we stopped worrying about what $\alpha_x:x\to F(x)$ reall y was and simply accepted that the indicated square commutes, it implies automatically that any commuting diagrams in $A$ map to a commuting diagram in $B$.
+In other words, if we stopped worrying about what $\alpha_x:x\to F(x)$ really was and simply accepted that the indicated square commutes, it implies automatically that any commuting diagram in $A$ maps to a commuting diagram in $B$.
 
 =--
 
