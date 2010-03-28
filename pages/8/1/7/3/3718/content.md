@@ -47,3 +47,5 @@ is linearly independent.
 Christian B. Mendl and Michael M. Wolf, _Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem_ ([pdf](http://arxiv.org/abs/0806.2820)).
 
 L. J. Landau and R. F. Streater, _On Birkhoff 's theorem for doubly stochastic completely positive maps of matrix algebras_, Lin. Alg. Appl., 193:107&#8211;127, 1993. 
+
+[[!redirects extremal quantum channels]]
