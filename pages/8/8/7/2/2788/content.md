@@ -5,9 +5,23 @@ Good news! The twists and turns on this page have culminated in [Functors and ge
 
 Staring at this diagram resulted in the following:
 
+***
+
 ##Definition
 
 Given categories $C$ and $D$, a **functor** $F:C\to D$ is a map that sends each object $x$ in $C$ to an object $F(x)$ in $D$ and each morphism $f:x\to y$ in $C$ to a morphism $F(f):F(x)\to F(y)$ in $D$ such that each commuting diagram in $C$ maps to a commuting diagram in $D$.
+
+***
+
+This has now been included in the definition of [[functor]].
+
+Note this is still essentially the same thing as conveyed in my earlier picture
+
+<img src="http://ncatlab.org/nlab/files/alt_functor.jpg" width = "250"/>
+
+requiring the square commutes, but is done in a way that avoids introducing the non-standard morphism-like components $\alpha_x:x\to F(x)$.
+
+In other words, if we stopped worrying about what $\alpha_x:x\to F(x)$ reall y was and simply accepted that the indicated square commutes, it implies automatically that any commuting diagrams in $A$ map to a commuting diagram in $B$.
 
 =--
 
