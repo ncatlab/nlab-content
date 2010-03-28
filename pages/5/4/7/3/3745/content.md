@@ -10,7 +10,7 @@ _Under construction._
 
 ## Idea
 
-The idea here is to extend [[Bob Coecke|Coecke's]] graphical rules for completely positive maps in order to develop more sophisticated category-theoretic diagrams while maintaining the simplicity of the "object-arrow" representation ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)).  Two problems that could benefit from this analysis are the [[Birkhoff-von Neumann theorem]] and the study of [[extremal quantum channel]]s.
+The idea here is to extend [[Bob Coecke|Coecke's]] graphical rules for completely positive maps in order to develop more sophisticated category-theoretic diagrams while maintaining the simplicity of the "object-arrow" representation ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)).  Two problems that could benefit from this analysis are the [[Birkhoff-von Neumann theorem]] and the study of [[extremal quantum channels]].
 
 ## Simple channels
 
