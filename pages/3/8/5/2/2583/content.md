@@ -41,8 +41,7 @@ The string Lie 2-group is the result of applying [[Lie integration]] to the [[St
 
 +-- {: .query}
 
-[[Urs Schreiber]]: the following should be the right general-nonsense point of view, but strictly speaking I haven't fully provided complete proof of this perspective, just evidence. See the technical discussion further below.
-
+[[Urs Schreiber]]: the following should be the right general-nonsense point of view, see [[Whitehead tower in an (∞,1)-topos]]
 =--
 
 Just as the [[topological group|topological]] [[string group]] is the element above the  [[spin group]] in the [[Whitehead tower]] of $O(n)$ inside the [[(∞,1)-topos]] [[Top]] -- in terms of [[delooping]]s
@@ -282,7 +281,48 @@ $$
   \,.
 $$
 
-Of course actually constructing this [[homotopy pullback]] (which is defined only up to weak equivalence of course) amounts to constructing one of the above models, or similar.
+Let now $\mathbf{B}^3 U(1)$ be the [[omega-nerve]] of the [[strict omega-groupoid]] corresponding to the [[crossed complex]] $(U(1) \to 1 \to 1 \stackrel{\to}{\to} *)$ and similarly $\mathbf{E}\mathbf{B}^2 U(1)$ that of the crossed complex $U(1) \stackrel{Id}{\to} U(1) \to  1 \stackrel{\to}{\to} *$. We may then compute the homotopy fiber as the ordinary [[pullback]]
+
+$$
+  \array{
+    \mathbf{B}String &\to& \mathbf{E}\mathbf{B}^2 U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}Q &\to& \mathbf{B}^3 U(1)
+  }
+$$
+
+in simplicial presheaves, from which we find
+
+$$
+  \mathbf{B}String
+  \simeq
+  cosk_3
+  \left(
+  \array{
+    \\     
+    \mathbf{B}String_3 \subset hom_*(\Delta^3_{Diff}, G)\times (U(1))^4
+    \\    
+    \downarrow \downarrow \downarrow\downarrow
+    \\     
+    hom_*(\Delta^2_{Diff}, G) \times U(1)
+    \\    
+    \downarrow \downarrow \downarrow
+    \\     
+    hom_*(\Delta^1_{Diff}, G)
+    \\
+    \downarrow \downarrow
+    \\
+    *
+  }
+  \right)
+  \,,
+$$
+
+where the subobject in degree 3 is that of 3-balls such that the integral of $\mu_3$ over them yields in $\mathbb{R}/\mathbb{Z}$ the signed product of the $U(1)$-labels of the four faces.
+
+...
 
 ## References
 
