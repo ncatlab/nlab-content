@@ -12,7 +12,7 @@ A uniform structure or uniformity on a set $X$ consists of a collection of globa
 
 ## Definitions
 
-A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of [[binary relations]] $U \subseteq X \times X$ (called __entourages__ or __vicinities__) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
+A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of [[binary relations]] $U \subseteq X \times X$ (called __[[entourages]]__ or __vicinities__) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
 
 1. The [[equality relation]] $\Delta = \{(x, x): x \in X\}$ is contained in every entourage. That is,
    $$ \forall U,\; \forall x,\; x \approx_U x .$$
@@ -150,6 +150,7 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 * Norman Howes, _Modern Analysis and Topology_, Springer
 
 
+[[!redirects uniform space]]
 [[!redirects uniform spaces]]
 [[!redirects uniformity]]
 [[!redirects uniformities]]
