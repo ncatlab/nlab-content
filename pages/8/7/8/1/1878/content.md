@@ -262,6 +262,6 @@ A standard textbook reference is section 11 of
 
 For the general case a useful reference is for instance the first section of 
 
-* [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0102087))
+* [[Tibor Beke]], _Sheafifiable homotopy model categories_,  Math. Proc. Cambridge Philos. Soc.  __129__  (2000),  no. 3, 447--475.([math.CT/0102087](http://arxiv1.library.cornell.edu/abs/math/0102087)), _Sheafifiable homotopy model categories. II_, J. Pure Appl. Algebra  __164__  (2001),  no. 3, 307--324.
 
 For the case of a [[presentable category]] a useful reference is [[Higher Topos Theory|HTT section A.1.2]].
