@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -35,7 +34,7 @@ $$
 
 * chapter 5, _Theory of meromorphic connections_, from R. Hotta, K. Takeuchi, T. Tanisaki, _D-modules, perverse sheaves, and representation theory_, Progress in Mathematics __236__, Birkh&#228;user
 
-* C. Sabbah, _Isomonodromic deformations and Frobenius manifolds_, Springer 2007, [doi](http://dx.doi.org/10.1007/978-1-84800-054-4)
+* [[Claude Sabbah|C. Sabbah]], _Isomonodromic deformations and Frobenius manifolds_, Springer 2007, [doi](http://dx.doi.org/10.1007/978-1-84800-054-4), [errata](http://www.math.polytechnique.fr/cmat/sabbah/coursP6errata.pdf)
 
 * P. Maisonobe, C. Sabbah, _D-modules coh&#233;rents et holonomes_, Hermann, Paris 1993.
 
