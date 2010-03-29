@@ -17,7 +17,7 @@ The **d&#233;calage** $Dec\, Y$ of a [[simplicial set]] $Y$, is the simplicial s
 
 This simplicial set comes with a natural projection, $d_{last} : Dec\, Y \to Y$, given by the 'left over' face map.     Moreover this map gives a [[homotopy equivalence]]
 
-$$Dec\,Y \simeq K(Y_0,0),$$
+$$Dec\,Y \simeq const(Y_0),$$
 
 between $Dec\, Y$ and the constant simplicial set on $Y_0$. 
 
@@ -81,6 +81,12 @@ The notion of decalage is widely appearing since the paper introducing the metho
 An application in theory of stacks is in
 
 * [[Anders Kock]], _The stack quotient of a groupoid_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, __44__ no. 2 (2003), p. 85--104 [numdam](http://www.numdam.org/item?id=CTGDC_2003__44_2_85_0)
+
+
+See also 
+
+* Ehlers, _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
+University of Wales Bangor, available [[Ehlers-thesis.pdf|here:file]], (see also the reference below and the Tim Porter's [[Menagerie]] notes 
 
 
 [[!redirects decalage]]
