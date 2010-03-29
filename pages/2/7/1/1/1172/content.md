@@ -32,7 +32,7 @@ The morphisms of Cauchy spaces are the Cauchy-continuous functions; a function $
 Any [[metric space]] is a Cauchy space: $F$ is a Cauchy filter if it has elements of arbitrarily small diameter.  This reconstructs the usual definitions of Cauchy sequence and Cauchy-continuous map for metric spaces.  (In particular, a map between metric spaces is Cauchy-continuous if it maps every Cauchy sequence to a Cauchy sequence; the result for general nets follows since a metric space is [[sequential space|sequential]].)  The [[forgetful functor]] from $Met$ (metric spaces and short maps) to $Cau$ is [[faithful functor|faithful]] but not [[full functor|full]].
 
 
-More generally, any [[uniform space]] is a Cauchy space: $F$ is a Cauchy filter if, given any entourage $U$, $A \times A \subseteq U$ for some $A \in F$.  This reconstructs the usual definitions of Cauchy net and Cauchy-continuous map for uniform spaces.  (In general, we need nets rather than just sequences here.)  The [[forgetful functor]] from $Unif$ (uniform spaces and uniformly continuous maps) to $Cau$ is [[faithful functor|faithful]] but still not [[full functor|full]].
+More generally, any [[uniform space]] is a Cauchy space: $F$ is a Cauchy filter if, given any [[entourage]] $U$, $A \times A \subseteq U$ for some $A \in F$.  This reconstructs the usual definitions of Cauchy net and Cauchy-continuous map for uniform spaces.  (In general, we need nets rather than just sequences here.)  The [[forgetful functor]] from $Unif$ (uniform spaces and uniformly continuous maps) to $Cau$ is [[faithful functor|faithful]] but still not [[full functor|full]].
 
 
 ## Properties ##
