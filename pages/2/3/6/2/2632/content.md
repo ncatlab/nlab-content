@@ -55,6 +55,8 @@ physics, part of quantum mechanics; it requires special limiting assumptions (th
 
 [[Ian Durham]]: J.J. Sakurai's book *Modern Quantum Mechanics* (not to be confused with his *Advanced Quantum Mechanics* which is a field theory book) discusses quantum statistical mechanics under the guise of quantum mechanics as does the forthcoming book *Q-PSI: Quantum processes, systems, and information* by Schumacher and Westmoreland.  While it may not be entirely accurate, "quantum physics" and "quantum mechanics" are usually treated as being synonymous.
 
+Zoran: Quantum physics includes all quantum phenomena, including experimental reality. Quantum mechanics is just the theoretical description at the fundamental level, like mechanics is of the classical physics. 
+
 ## Quantum mechanics in terms of $\dagger$-compact categories
 
 Many aspects of quantum mechanics and [[quantum computation]] depend only on the abstract properties of [[Hilb]] characterized by the fact that it is a [[†-compact category]]. 
