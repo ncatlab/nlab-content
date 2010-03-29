@@ -1,17 +1,20 @@
-The Crossed Menagerie is an ongoing set of notes outlining an approach to non-Abelian cohomology, stacks, etc., and Grothendieck's conjectured extension of 'Galois-Poincar&#233; theory'. The title refers to the array of strange beasties that occur as generalisations of crossed modules. (The present version is over 719 pages long, and is changing regularly. A fairly stable version (but up-dates are planned shortly!) is available as a download,  [[menagerie10a.pdf|here:file]].
+This entry is about the document
 
-These notes, or at least the first few chapters of them, acted as course notes for a 4 lecture course in Buenos Aires, and later on for a course on cohomology in Ottawa. Their full title is
 
-_The Crossed Menagerie: 
+* [[Tim Porter]], _The Crossed Menagerie: 
 an introduction to crossed gadgetry and cohomology in algebra and 
 topology_. 
 (Notes, in part, prepared for the  _XVI Encuentro Rioplatense de 
 Algebra y Geometr&#237;a Algebraica_, in Buenos Aires, 12-15 December 
 2006, and for course MATH5312, Spring-Summer term 2007, 
-University of Ottawa)
-  
+University of Ottawa) ([[menagerie10a.pdf|pdf:file]])
 
-Some idea of the content can be gleaned from the Table of Contents.
+This is an ongoing set of notes outlining an approach to [[nonabelian cohomology]], [[stack]]s, etc., and Grothendieck's conjectured extension of 'Galois-Poincar&#233; theory'. The title refers to the array of strange beasties that occur as generalisations of [[crossed modules]]. (The present version is over 719 pages long, and is changing regularly. A fairly stable version (but up-dates are planned shortly!) is available as a download,  [[menagerie10a.pdf|here:file]].
+
+These notes, or at least the first few chapters of them, acted as course notes for a 4 lecture course in Buenos Aires, and later on for a course on cohomology in Ottawa. 
+
+  Some idea of the content can be gleaned from the Table of Contents.
+
 ##Table of Contents ##
 
 (This gives Chapter and section headings. Subsection headings give too long a list to be that useful, so if you want more detail (for the moment) look at the pdf file.)
