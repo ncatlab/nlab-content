@@ -24,6 +24,8 @@ While the short wikipedia article on 21st Hilbert problem is discussing in [nice
 
 * Alexander R. Its, _The Riemann-Hilbert problem and integrable systems_,   Notices Amer. Math. Soc.  __50__  (2003),  no. 11, 1389--1400, (survey) [pdf](http://www.ams.org/notices/200311/fea-its.pdf)
 
+* E. Corel, E. Compoint, _Stable Flags and the Riemann-Hilbert Problem_, [arxiv/1003.5021](http://arxiv.org/abs/1003.5021)
+
 [[!redirects Riemann-Hilbert problem]]
 [[!redirects Riemann–Hilbert problem]]
 [[!redirects Riemann--Hilbert problem]]
