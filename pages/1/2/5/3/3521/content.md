@@ -86,7 +86,7 @@ $$
   }
 $$
 
-exhibiting the projection $Q \to Y$. If $Y$ is a [[Kan complex]] then $Y^{\Delta[1]}$ is a [[path space object]] and the whose construction is that used in the factorization lemma in the [[category of fibrant objects]] of Kan complexes, hence is a [[Kan fibration]].
+exhibiting the projection $Q \to Y$. If $Y$ is a [[Kan complex]] then $Y^{\Delta[1]}$ is a [[path space object]] and the construction is that used in the factorization lemma in the [[category of fibrant objects]] of Kan complexes, hence is a [[Kan fibration]].
 
 
 
