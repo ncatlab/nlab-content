@@ -157,6 +157,7 @@ $$
     \\
     {*}
     &&\stackrel{g_1 g_2 g_3}{\to}&&
+    {*}
   }
   \;\;\;\;
   \Rightarrow
@@ -168,6 +169,7 @@ $$
     \\
     {*}
     &&\stackrel{g_1 g_2 g_3}{\to}&&
+    {*}
   }
   \right|
   g_1, g_2, g_3 \in G
@@ -340,6 +342,30 @@ $$
 
 has to be considered as an [[Lie ∞-groupoid]]: an object in the [[model structure on simplicial presheaves]] over a [[site]] such as [[Diff]] or [[CartSp]]. As such it is in general **not** both cofibrant and fibrant. To that extent plain morphisms out of this object do **not** compute the correct [[derived hom-space]]s. Instead, the right definition of structured group cohomology uses the correct fibrant and cofibrant replacements.
 
+### Topological group cohomology
+
+In
+
+* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
+
+$n$-cocycles on a topological group $G$ with valzues in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
+
+A definition in terms of [[derived functor|Ext-functor]]s and comparison with the naive definition is in 
+
+* David Wigner, _Algebraic cohomology of topological groups_ Transactions of the American Mathematical Society, volume 178 (1973)([pdf](http://egg.epfl.ch/~nmonod/bonn/Wigner_1973.pdf))
+
+A classical reference that considers the cohomology of Lie groups as topological spaces is
+
+* [[Armand Borel]], _Homology and cohomology of compact connected Lie groups_ ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1063923/pdf/pnas01596-0040.pdf))
+
+A correct definition of topological group cohomology has been given by Segal
+
+* [[Graeme Segal]], _Cohomology of topological groups_ In Symposia Mathematica, Vol. IV (INDAM, Rome, 1968/69), pages 377{387. Academic Press, London, (1970).
+
+* [[Graeme Segal]], _A classifying space of a topological group in the sense of Gel'fand-Fuks. Funkcional. Anal. i Prilozen.,
+9(2):48{50, (1975).
+
+
 ### Lie group cohomology {#LieGroupcohomology}
 
 For $G$ a Lie group and $A$ an abelian Lie group, write
@@ -350,15 +376,17 @@ $$
 
 for the naive notion of cohomology on $G$.
 
-The correct definition of Lie group cohomology, denoted here $H^n(G,A)$ or for emphasis $H^n_{diff}(G,A)$ was apparently introduced in 
+The correct definition of Lie group cohomology, denoted here $H^n(G,A)$ or for emphasis $H^n_{diff}(G,A)$ was given in
 
-* Jean-Luc Brylinski, _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
+* [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 
 following
 
-* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes, Ast&eacute;risque vol. 124-125 (1985), pp. 113-130.
+* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes, Ast&eacute;risque vol. 124-125 (1985), pp. 113-130
 
+and effectively rediscovers Segal's definition.
 
+We now show that this is the correct cohomology theory, in that it computes the intrinsic cohomology of [[group object in an (infinity,1)-category|group objects]] in the $(\infty,1)$-topos of $\infty$-Lie groupoids.
 
 +-- {: .un_prop }
 ###### Claim
@@ -516,23 +544,6 @@ This is [Bry, prop. 1.6](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#p
 A discussion of the relation between _local_ Lie group cohomology and [[Lie algebra cohomology]] is in
 
 * S. &#346;wierczkowski, _Cohomology of group germs and Lie algebras_ Pacific Journal of Mathematics, Volume 39, Number 2 (1971), 471-482.  ([pdf](http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&id=pdf_1&handle=euclid.pjm/1102969572))
-
-### Topological group cohomology
-
-In
-
-* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
-
-$n$-cocycles on a topological group $G$ with valzues in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
-
-A definition in terms of [[derived functor|Ext-functor]]s and comparison with the naive definition is in 
-
-* David Wigner, _Algebraic cohomology of topological groups_ Transactions of the American Mathematical Society, volume 178 (1973)([pdf](http://egg.epfl.ch/~nmonod/bonn/Wigner_1973.pdf))
-
-A classical reference that considers the cohomology of Lie groups as topological spaces is
-
-* [[Armand Borel]], _Homology and cohomology of compact connected Lie groups_ ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1063923/pdf/pnas01596-0040.pdf))
-
 
 
 ## Nonabelian group cohomology
