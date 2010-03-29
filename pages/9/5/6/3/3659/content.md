@@ -13,8 +13,8 @@ In this sense the Osterwalder--Schrader theorem states and proves conditions tha
 
 ## axioms of euclidean field theory
 The axioms of euclidean field theory are the euclidean analogue of the [[Wightman axioms]] on Minkowski spacetime.
-The axioms may be formulated for tempered distributions, but we follow the lines of Glimm and Jaffe and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $mathcal{D}(\mathbb{R}^d)$.
-We define the generating functional on $mathcal{D}(\mathbb{R}^d)$
+The axioms may be formulated for tempered distributions, but we follow the lines of Glimm and Jaffe and define them for $\mathcal{D}'(\mathbb{R}^d)$, the space of distributions that is dual to the space of all smooth functions with compact support, $\mathcal{D}(\mathbb{R}^d)$.
+We define the generating functional on $\mathcal{D}(\mathbb{R}^d)$
 $$
 S(f) := \integral e^{i \phi(f)} d\mu
 $$
@@ -24,20 +24,36 @@ as the inverse Fourier transform of a Borel probability measure $d\mu$ on $mathc
 $$
         z \mapsto S(\sum_{k=1}^n z_k f_k)
 $$
-is entire analytic on $\mathbb{C}^n$
+is entire analytic on $\mathbb{C}^n$.
 
 * **OS1 (regularity)**: For some p with $1 \le p \le 2$ and some constant c the following inequality holds for all test functions f:
 $$
      | S(f) | \le exp(c \| f \|_{L_1} + \| f\|^p_{L_p})
 $$ 
 
-* **OS2 (invariance)**
+* **OS2 (invariance)**: S is invariant under euclidean symmetries E of $\mathcal{R}^d$ (translations, rotations, reflections), that is S(f) = S(Ef) for all symmetries E and test functions f.
 
-* **OS2 (reflection positivity)**
+* **OS3 (reflection positivity)**
+We define exponential functionals on $\mathcal{D}'(\mathbb{R}^d)$ via
+$$
+A(\phi) := \sum_{k=1}^n c_k exp(\phi(f_k))
+$$
+Let $\mathcal{A}$ be the set of all these functionals, by axiom OS0 this is a subset of $L_2(d\mu)$. Euclidean symmetries act on $\mathcal{D}'(\mathbb{R}^d)$ via duality, that is $E\phi(f) = \phi(Ef)$, and thus define an unitary continuous action on $L_2(d\mu)$. Let $\mathcal{A}^+ \subset \mathcal{A}$ be the set of functionals with $supp(f_i) \subset \mathbb{R}^d_+$ where $\mathbb{R}^d_+ := \{(x, t): t \gt 0 \}$. Let $\theta: (x, t) \mapsto (x, -t)$ be the time reflection. Then the content of the axiom is:
+$$
+   0 \le \langle \theta A, A\rangle_{L_2}
+$$
 
-* **OS2 (ergodicity)**
+* **OS4 (ergodicity)**: the time translation subgroup acts ergodically on the measure space $(\mathcal{D}'(\mathbb{R}^d), d\mu)$.
+
+* **theorem (Schwinger functions)**: A measure that satisfies OS0 has moments of all order, the nth moment has a density $S \in \mathcal{D}'(\mathbb{R}^{nd})$. These distributions are called Schwinger functions.
 
 ## the theorem
+One possible formulation: To every measure satisfying the axioms stated above there is a Wightman field such that the Schwinger and Wightman functions are related by:
+$$
+\integral \phi_E(x_1, t_1) \cdots \phi_E(x_n, t_n) = \langle \Omega, \phi_M(x_1, i t_1) \cdots \phi_M(x_n, i t_n) \Omega \rangle
+$$
+$\phi_E$ is a Schwinger function, $\phi_M$ is a Wightman field and $\Omega$ is the vacuum vector of the Wightman fields.
+See theorem 6.15 in the book by Glimm and Jaffe (see references).
 
 ## references
 The main reference is the classic textbook about constructive quantum field theory:
