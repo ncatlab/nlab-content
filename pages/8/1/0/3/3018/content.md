@@ -73,10 +73,56 @@ for $a\in A$, $b\in B$, and $c\in C$ is said to be **natural**, or more precisel
   ^{\alpha_{a,b,c'}} &\downarrow && \downarrow & ^{G(1,h,1)}\\
   & G(a,c',c') & \underset{G(1,1,h)}{\to} & G(a,c',c) &}$$
 
+It is convenient to draw "string diagrams" specifying in what variables a transformation is natural and extranatural.  For instance, the above transformation can be notated in this way:
+
+<svg width="170" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <polyline se:connector="svg_19989_1 svg_19989_4" fill="none" stroke-width="2" stroke="#000" points="29.273,38 29.7109,101.5 30.1489,165" id="svg_19989_7"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_19989_1" y="38" x="29">A</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_19989_2" y="38" x="85">B</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_19989_3" y="36" x="141">B</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_19989_4" y="183" x="30">A</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_19989_5" y="184" x="87">C</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_19989_6" y="184" x="142">C</text>
+  <path stroke-width="2" stroke="#000" fill="none" id="svg_19989_8" d="m85,42c3.5,17.5 6.5,44.5 28,45c21.5,0.5 28,-27 28,-44"/>
+  <path transform="rotate(-180, 114, 130.5)" id="svg_19989_9" stroke-width="2" stroke="#000" fill="none" d="m86,108c3.5,17.5 6.5,44.5 28,45c21.5,0.5 28,-27 28,-44"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="10" stroke-width="0" stroke="#000" fill="#000000" id="svg_19989_10" y="21" x="100">op</text>
+  <text id="svg_19989_11" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="10" stroke-width="0" stroke="#000" fill="#000000" y="166" x="103">op</text>
+ </g>
+</svg>
+
+Similarly, a transformation from $f\colon (A,B,A^{op},C^{op}) \to X$ to $g\colon (C^{op},B,D^{op},D) \to X$ which is natural in $B$ and $C^{op}$ and extranatural in $A$ and $D$ would be notated in this way:
+
+<svg width="250" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_1" y="36" x="27">A</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_2" y="35" x="85">B</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_3" y="35" x="143">A</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_4" y="35" x="198">C</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_5" y="190" x="29">C</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_6" y="189" x="83">B</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_7" y="188" x="146">D</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_8" y="186" x="201">D</text>
+  <path stroke-width="2" stroke="#000000" fill="#FF0000" id="svg_43543_9" d="m84,42l0,121"/>
+  <path stroke-width="2" stroke="#000000" fill="#ffffff" id="svg_43543_10" d="m29,45c0.5,21 21.5,38 43,37"/>
+  <path stroke-width="2" stroke="#000000" fill="#ffffff" id="svg_43543_12" d="m93,82c30,0 51,-14 50,-38"/>
+  <path stroke-width="2" stroke="#000000" fill="#ffffff" id="svg_43543_13" d="m146,160c0.5,-23 10.5,-41.5 28,-42c17.5,-0.5 27.5,21.5 28,42"/>
+  <path stroke-width="2" stroke="#000000" fill="#ffffff" id="svg_43543_14" d="m198,41c1.5,18 -22.5,36.5 -34,46c-11.5,9.5 -46.5,25.5 -71,36"/>
+  <path stroke-width="2" stroke="#000000" fill="#ffffff" id="svg_43543_15" d="m76,130c-22,9.5 -46,22.5 -47,34"/>
+  <text transform="matrix(1, 0, 0, 0.9, 0, 3.9)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="12" stroke-width="0" stroke="#000000" fill="#000000" id="svg_43543_16" y="16" x="156">op</text>
+  <text id="svg_43543_17" transform="matrix(1, 0, 0, 0.9, 0, 3.9)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="12" stroke-width="0" stroke="#000000" fill="#000000" y="14.8889" x="213">op</text>
+  <text id="svg_43543_18" transform="matrix(1, 0, 0, 0.9, 0, 3.9)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="12" stroke-width="0" stroke="#000000" fill="#000000" y="189.333" x="46">op</text>
+  <text id="svg_43543_19" transform="matrix(1, 0, 0, 0.9, 0, 3.9)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="12" stroke-width="0" stroke="#000000" fill="#000000" y="184.888" x="162">op</text>
+ </g>
+</svg>
 
 # Extranatural calculus
 
-We set down a few basic lemmas which describe how extranatural transformations compose. These lemmas become very intuitive once one draws string diagrams to accompany them. (Cf. "yanking moves" in the string diagram calculus of adjunctions.) 
+We set down a few basic lemmas which describe how extranatural transformations compose. These lemmas become very intuitive once one draws string diagrams to accompany them. (Cf. "yanking moves" in the string diagram calculus of adjunctions.)
 
 +-- {: .un_lemma}
 ###### Lemma 1 ("stalactites")
@@ -101,6 +147,10 @@ Let $F, H$ be functors of the form $C \to D$, and let $G: C \times C^{op} \times
 $$\beta_{x, x} \alpha_{x, x}: F(x) \to H(x)$$ 
 is natural in $x$. 
 =--
+
+In fact, these lemmas essentially capture "all possible" ways in which extranatural transformations can be composed.  The general statement, which is obtained by combining these, is that if the graphs representing the two transformations can be composed without creating any closed loops, then the transformations can be composed, and the resulting graph is the composite of the individual graphs.  This can be found in the original paper about extranatural transformations:
+
+* Eilenberg and Kelly, *A generalization of the functorial calculus*, J. Algebra 3 366--375 (1966)
 
 
 # Profunctors
