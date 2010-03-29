@@ -50,7 +50,48 @@ $$
 
 of the degree 7 [[Lie algebra cohomology|Lie algebra cocycle]] $\mu_7$ of $\mathfrak{so}(n)$ which is normalized such that its pullback to $String(n)$ (..explain...) is the deRham image of the generator in [[integral cohomology]] there.
 
-...
+
+More in detail, a resolution of $\mathbf{B}String(n)$ is given by the [[coskeleton]]
+
+$$
+  cosk
+  \left(
+  \array{
+    Q_7 \subset hom(\Delta^7_{Diff}, G) \times (U(1))^{8 \cdot 7 \cdot 6 \cdot 5 \cdot 4}
+    \\
+    \downarrow \downarrow 
+    \downarrow\downarrow 
+    \downarrow \downarrow    
+    \downarrow \downarrow    
+    \\
+    \vdots
+    \\
+    \downarrow \downarrow \downarrow\downarrow \downarrow \downarrow    
+    \\
+    Q_4 \subset hom(\Delta^4_{Diff}, G) \times (U(1))^{20}
+   \\    
+    \downarrow \downarrow \downarrow\downarrow \downarrow
+    \\     
+    Q_3 \subset hom(\Delta^3_{Diff}, G) \times (U(1))^4
+   \\    
+    \downarrow \downarrow \downarrow\downarrow
+    \\     
+    hom(\Delta^2_{Diff}, G) \times U(1)
+   \\    
+    \downarrow \downarrow \downarrow
+    \\     
+    hom(\Delta^1_{Diff}, G)
+    \\
+    \downarrow \downarrow
+    \\
+    *
+  }
+  \right)
+$$
+
+where the subobjects are those consisting of 3-simplices in $G$ with 2-faces labeled in $U(1)$ such that the integral of $\mu_3$ over the 3-simplex in $\mathbb{R}/\mathbb{Z}$ is the signed product of these labels.
+
+
 
 
 [[!redirects Fivebrane 6-group]]
