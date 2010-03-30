@@ -369,6 +369,12 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 * Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of [[display morphisms]].
 
 
+[[!redirects internal logic]]
+[[!redirects internal logics]]
 [[!redirects internal language]]
-[[!redirects categorical logic]]
+[[!redirects internal languages]]
+
 [[!redirects syntactic category]]
+[[!redirects syntactic categories]]
+
+[[!redirects categorical logic]]
