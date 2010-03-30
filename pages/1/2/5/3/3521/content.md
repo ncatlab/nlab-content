@@ -41,9 +41,11 @@ $$
   }
 $$
 
-in [[sSet]].
+in [[sSet]]. Shouldn't it? 
 
-Because using the expression of the $(n+1)$-simplex as the cone over the $n$-simplex, given by the pushout
+Let me check this. First I check that this pullback has the property that $Q_n = Y_{n+1}$.
+
+For this I use expression of the $(n+1)$-simplex as the cone over the $n$-simplex, which is exhibted by the pushout diagram
 
 $$
   \array{
@@ -53,9 +55,19 @@ $$
     \\
     \Delta[0] &\to& \Delta[n+1]
   }
+  \,.
 $$
 
-we hom this for each $n$ into $Y$ to get the pullback of sets
+This identifies the nondegenerate $(n+1)$-cell of $\Delta[n+1]$ as the map 
+
+$$
+  (0,0,1,2, \cdots,n-1,n), (0,1,1, \cdots,1,1) : [n+1] \to [n] \times [1]
+  \,.
+$$
+
+(See for instance page 25 [here](http://arxiv.org/PS_cache/arxiv/pdf/0809/0809.4221v1.pdf#page=25)).
+
+Applying $Hom_{\Delta}(-,Y)$ to this pushout diagram yields the pullback diagram
 
 $$
   \array{
@@ -67,10 +79,38 @@ $$
   }
 $$
 
-and since pushouts of simplicial sets are computed degreewise in sets we have that $Q_n = Y_{n+1}$ for all $n$. 
+in [[Set]]. Since pushouts of simplicial sets are computed degreewise in sets we have that $Q_n = Y_{n+1}$ for all $n$. 
 
-By similarly homming the other inclusion $\Delta[n] \times \{0\} \to \Delta[n] \times \Delta[1]$ into $Y$ we obtain the full diagram
+Now check that the face and degeneracy maps act as given by the formula for the decalage. Under the above identification with $\Delta[n+1]$ by a pushout, the face map $\delta_i :\Delta[n+1] \to \Delta[n+2]$ is that induced by the morphism of pushout diagrams
 
+$$
+  \array{
+     \Delta[n] \times \Delta[1] &\stackrel{(\delta_i,Id_{\Delta[1])}}{\to}&
+      \Delta[n+1] \times \Delta[1]
+     \\
+     \uparrow && \uparrow
+     \\
+     \Delta[n] \times \{1\} &\stackrel{(\delta_i,Id_{\Delta[0])}}{\to}& 
+      \Delta[n+1] \times \{1\}
+     \\
+     \downarrow && \downarrow
+     \\
+     \Delta[0] &\to& \Delta[0]
+  }
+  \,.
+$$
+
+The induced morphism on the pushouts takes the nondegenerate cell $(0,0,1,2, \cdot,n-1,n), (0,1,1, \cdots, 1,1) : [n+1] \to [n] \times [1]$ of $\Delta[n+1]$ to the cell
+
+$$
+  \delta_i(0,0,1,2, \cdot,n-1,n), (0,1,1, \cdots, 1,1) : [n] \to [n+1] \times [1].
+$$
+
+That produces all the faces except that of the form $(0,1,2, \cdots, n-1,n),(0,0, \cdots, 0,0) : [n] \to [n+1] \times [1]$, hence except for the 0-face. So this is indeed as in the decalage.
+
+An entirely analogous argument applies for the degeneracy maps.
+
+Finally, check that if $Y$ is a Kan complex, we have a Kan fibration $Q \to Y$ induced from the other inclusion $\Delta[n] \times \{0\} \to \Delta[n] \times \Delta[1]$ not used above. This is then the vertical morphism in the diagram
 
 $$
   \array{
@@ -86,8 +126,7 @@ $$
   }
 $$
 
-exhibiting the projection $Q \to Y$. If $Y$ is a [[Kan complex]] then $Y^{\Delta[1]}$ is a [[path space object]] and the construction is that used in the factorization lemma in the [[category of fibrant objects]] of Kan complexes, hence is a [[Kan fibration]].
-
+This is recognized as the construction appearing in the factorization lemma in the [[category of fibrant objects]] of Kan complexes (described also at [[homotopy pullback]] and [[generalized universal bundle]]), hence is a [[Kan fibration]], as described there.
 
 
 =--
