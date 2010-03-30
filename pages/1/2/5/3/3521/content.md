@@ -29,7 +29,7 @@ which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$.
 
 +-- {: .query}
 
-[[Urs Schreiber]]: It should be possible to write this as the [[pullback]] $Q$ 
+[[Urs Schreiber]]: It should be possible to write $Dec Y$ as the [[pullback]] $Q$ 
 
 $$
   \array{
