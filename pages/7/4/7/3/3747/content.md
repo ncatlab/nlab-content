@@ -121,6 +121,19 @@ Although the notion of [[metric space]] doesn\'t make sense until we know what r
 We can also interpret $\mathbb{Q}$ as a [[uniform space]], or even as a [[Cauchy space]] and define analogous notions of completion for these.  However, these require us to use generalised Cauchy sequences, that is Cauchy [[nets]], even in classical mathematics.  Of course, without WCC, we should use nets even for metric spaces.
 
 
+## Motivation
+
+Suppose that we wish to approximate a real number $x$ by common fractions with arbitrarily large denominators.  That is, given any natural number $i$, we wish to find [[integer]]s $a_i$ such that $x_i \coloneqq a_i/i$ is within $1/i$ of $x$.  Then the sequence of values $(0,x_1,x_2,x_3,\ldots)$ is an $\alpha$-regular Cauchy real with $\alpha(1/i) \coloneqq i$ as modulus of convergence.  (You can extend $\alpha$ to every positive rational number by $\alpha(\epsilon) \coloneqq \lfloor{1/\epsilon}\rfloor$, but that is not important.)  Conversely, given an $\alpha$-regular Cauchy real $(x_0,x_1,x_2,\ldots)$ for this modulus $\alpha$, we can round each $x_i$ (for $i \gt 0$) to the nearest rational number with denominator $i$ (which can be done using only rational arithmetic) to produce an equal $\alpha$-regular Cauchy real.
+
+We might instead want to approximate $x$ by arbitrarily long decimal fractions.  That is, given any natural number $i$, we wish to find integers $a_i$ such that $x_i \coloneqq a_i/10^i$ is within $1/10^i$ of $x$.  Now the sequence of values $(x_0,x_1,x_2,\ldots)$ is an $\alpha$-regular Cauchy real with $\alpha(1/10^i) \coloneqq i$ as modulus of convergence.  Conversely, we can round off the values of any $\alpha$-regular Cauchy real as before.  Of course, there is nothing special about the base $10$ here; for theoretical purposes, base $2$ is popular.
+
+Thus, to *define* a real number to be an $\alpha$-regular Cauchy real (for any of these choices of $\alpha$) is to make into a definition our intuition that we can round real numbers in this way.
+
+Note we may be rounding up or down, regardless of which is nearer.  For example, in approximating $e = \exp\,1$ by decimal fractions, we might get ($2,2.7,2.71,\ldots)$ or $(3,2.7,2.72,\ldots)$, but we might also get $(2,2.8,2.71,\ldots)$.  To choose to always round down, towards zero, or towards the nearer approximant (with a rule for $0.5$) requires an application of [[excluded middle]] (or at least the lesser [[limited principle of omniscience]]).
+
+Even for Dedekind reals without WCC, we can always approximate a real number in this way up to any given $i$.  Choice is needed only to make infinitely many approximations at once.  Avoiding this can lead to multivalued Cauchy real numbers.
+
+
 ## References
 
 *  [[Georg Cantor]]; 1872; _[Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen](http://www.maths.tcd.ie/pub/HistMath/People/Cantor/Ausdehnung/)_; Section 1
