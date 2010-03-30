@@ -1,4 +1,4 @@
-# Localy compact spaces
+# Locally compact spaces
 * tic
 {: toc}
 
