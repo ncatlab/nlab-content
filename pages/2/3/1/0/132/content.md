@@ -1,4 +1,10 @@
-# Categorical meaning #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Categorical meaning 
 
 A [[category]] is **discrete** if it is both a [[groupoid]] and a [[preorder]].  That is, every morphism should be invertible, any two [[parallel morphisms]] should be equal.  The idea is that in a discrete category, no two distinct (nonisomorphic) objects are connectable by any path (morphism), and an object connects to itself only through its [[identity morphism]].
 
@@ -7,7 +13,7 @@ Often one also assumes that a discrete category is [[skeletal category|skeletal]
 A ([[small category|small]]) discrete category may be identified with its [[set]] of isomorphism classes.  Conversely, given a [[collection]] $S$ of objects, the __discrete category over $S$__ is the category with $S$ as its collection of objects and only identity morphisms.
 
 
-# Topological meaning #
+## Topological meaning 
 
 If $C$ is a category [[enriched category|enriched]] or [[internal category|internal]] to [[topological space|topological spaces]], then there is another completely different meaning of **discrete**: that the _topology_ on the arrows (and the objects, in the internal case) is the discrete topology.
 
