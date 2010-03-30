@@ -18,9 +18,9 @@ If we simply want a construction of the [[real line]] $\mathbb{R}$ for the purpo
 
 Putting Cantor\'s definition in modern terminology, $\mathbb{R}$ is the [[quotient set]] of the set of Cauchy sequences of rational numbers, with two sequences considered equivalent if their difference converges to zero.  Although the notion of Cauchy sequence (and convergence, for that matter) is best known in the context of [[metric spaces]] (which cannot be defined in general without having somehow constructing $\mathbb{R}$ already), it is easy to state the definitions in elementary terms.  If there is any tricky point, it is that the requirements made for all $\epsilon \gt 0$ need be made only for rational $\epsilon$.  (We could also treat $\mathbb{Q}$ as a [[uniform space]] or even a [[Cauchy space]], although again to write down the definitions of those structures still requires one to handle the $\epsilon$s.)
 
-To be explicit:  A __Cantor real number__ $x$ is an [[infinite sequence]] $(x_0,x_1,x_2,\ldots)$ of [[rational numbers]] such that, for every positive rational number $\epsilon$, there exists a [[natural number]] $\alpha$ such that
+To be explicit:  A __Cauchy real number__ $x$ is an [[infinite sequence]] $(x_0,x_1,x_2,\ldots)$ of [[rational numbers]] such that, for every positive rational number $\epsilon$, there exists a [[natural number]] $\alpha$ such that
 $$ {|x_i - x_j|} \leq \epsilon $$
-holds whenever $i,j \geq \alpha$.  Two Cantor real numbers $x,y$ are considered __equal__ if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that
+holds whenever $i,j \geq \alpha$.  Two Cauchy real numbers $x,y$ are considered __equal__ if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that
 $$ {|x_i - y_i|} \leq \epsilon $$
 holds whenever $i \geq \alpha$.  It is easy to prove that this is an [[equivalence relation]] on the set of Cauchy sequences, so the set $\mathbb{R}$ of real numbers is a quotient set.
 
@@ -33,9 +33,13 @@ holds whenever $i \geq \alpha$.  It is immediate that a sequence $x$ is Cauchy i
 
 In weak foundations, we sometimes want to be a little more strict about how a sequence is Cauchy and how the difference of two such sequences converges to zero.  We do this by requiring explicit moduli of convergence.  These moduli can always be constructed using either [[countable choice]] or the principle of [[excluded middle]], but the requirement makes a difference in (for example) a [[localic topos]] over any non-[[discrete space]].
 
-In general, a __[[modulus of convergence]]__ may be any function $\alpha$ from the positive rational numbers to the natural numbers.  A __Cauchy real number__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
+Since the term 'Cauchy real number' is used ambiguously in the constructive literature, we can identify Cantor\'s classical definition above as a __Cantor real number__ or a __classical Cauchy real number__.
+
+In general, a __[[modulus of convergence]]__ may be any function $\alpha$ from the positive rational numbers to the natural numbers such that, for every natural number $n$, there is a positive rational number $\epsilon$ such that $\alpha(\epsilon) \geq n$.
+
+A __modulated Cauchy real number__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
 $$ {|x_i - x_j|} \leq \epsilon $$
-holds whenever $i,j \geq \alpha(\epsilon)$.  Two Cauchy real numbers $x,y$ are considered __equal__ if there exists a modulus $\alpha$ such that
+holds whenever $i,j \geq \alpha(\epsilon)$.  Two modulated Cauchy real numbers $x,y$ are considered __equal__ if there exists a modulus $\alpha$ such that
 $$ {|x_i - y_i|} \leq \epsilon $$
 holds whenever $i \geq \alpha(\epsilon)$.  Again we can combine these conditions into a single partial equivalence relation: that there exists a modulus $\alpha$ such that
 $$ {|x_i - y_j|} \leq \epsilon $$
@@ -56,16 +60,7 @@ holds whenever $i \geq \alpha(\delta)$ and $j \geq \alpha(\epsilon)$.
 
 While requiring a modulus of convergence, even fixing the modulus of convergence, may be more restrictive, it is also possible to use a potentially more lax definition.
 
-One way is to use [[nets]] (also called 'generalised sequences').  A __generalised Cauchy real number__ $x$ is a net $(x_\nu)_{\nu\colon D}$ (where $D$ is any [[directed set]] of indices) of rational numbers such that, for every positive rational number $\epsilon$, there exists an index $\alpha$ in $D$ such that
-$$ {|x_i - x_j|} \leq \epsilon $$
-holds whenever $i,j \geq \alpha$ in $D$.  Two generalised Cauchy real numbers $x,y$ are considered __equal__ if, for every positive rational number $\epsilon$, there exists an index $\alpha$ such that
-$$ {|x_i - y_i|} \leq \epsilon $$
-holds whenever $i \geq \alpha$.  The partial equivalence relation subsuming both conditions is that, for every positive rational number $\epsilon$, there exists an index $\alpha$ such that
-$$ {|x_i - y_j|} \leq \epsilon $$
-holds whenever $i,j \geq \alpha$.
-A generalised Cauchy real number does not need a modulus of convergence, for reasons that I should probably write about at [[modulus of convergence]].
-
-Another method is to use [[presequence]]s, which are [[multivalued functions]] from the natural numbers.  A __multivalued Cauchy real number__ $x$ is an [[entire relation]] between natural numbers and rational numbers such that, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i, j \geq \alpha$,
+One way is to use [[multivalued functions]] from the natural numbers.  A __multivalued Cauchy real number__ $x$ is an [[entire relation]] between natural numbers and rational numbers such that, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i, j \geq \alpha$,
 $$ {|a - b|} \leq \epsilon $$
 holds for some $a,b$ such that $x_{i,a}$ and $x_{j,b}$ hold.  Two multivalued Cauchy real numbers are considered __equal__ if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i \geq \alpha$,
 $$ {|a - b|} \leq \epsilon $$
@@ -73,58 +68,63 @@ holds for some $a,b$ such that $x_{i,a}$ and $y_{i,b}$ hold. The partial equival
 $$ {|a - b|} \leq \epsilon $$
 holds for some $a,b$ such that $x_{i,a}$ and $y_{j,b}$.
 
+Another way is to use [[nets]] (also called 'generalised sequences').  A __generalised Cauchy real number__ $x$ is a net $(x_\nu)_{\nu\colon D}$ (where $D$ is any [[directed set]] of indices) of rational numbers such that, for every positive rational number $\epsilon$, there exists an index $\alpha$ in $D$ such that
+$$ {|x_i - x_j|} \leq \epsilon $$
+holds whenever $i,j \geq \alpha$ in $D$.  Two generalised Cauchy real numbers $x,y$ are considered __equal__ if, for every positive rational number $\epsilon$, there exists an index $\alpha$ for $x$ and index $\beta$ for $y$ such that
+$$ {|x_i - y_j|} \leq \epsilon $$
+holds whenever $i \geq \alpha$ and $j \geq \beta$.  Actually, this is already a partial equivalence relation on all nets which subsumes both conditions.
+
+Requiring a modulus of convergence would make no difference for either of these, since we would expect such a modulus to also to be either multivalued or given by a net, and these are easy to construct explicitly.
+
 
 ### Relations between these definitions
 
-Classically, all of these definitions are equivalent.  In fact, to prove their equivalence, we need only [[Fred Richman]]\'s principle of __weak countable choice__:  ...
+Classically, all of these definitions are equivalent.  In fact, to prove their equivalence, we need only [[Fred Richman]]\'s principle of __weak countable choice__ (WCC):  A [[surjective function]] $f\colon S \to \mathbb{N}$ [[split epic|splits]], if, whenever $i \ne j$, either $f^*(i)$ or $f^*(j)$ is a [[singleton]].  (This is a rather special case of [[countable choice]] that can also be proved using only [[excluded middle]].)
 
-+-- {: .standout}
-The rest of this section is just moved from [[real number]]; it still neads to be incorporated into a coherent article.
+If we don\'t accept WCC, then we still have these results:
+
++-- {: .un_theorem}
+###### Theorems
+(constructive).
+
+Given any modulus of convergence $\alpha$, every $\alpha$-regular Cauchy real number is a modulated Cauchy real number.  Furthermore, any two $\alpha$-regular real numbers are equal as $\alpha$-regular real numbers if and only if they are equal as modulated Cauchy real numbers.  Conversely, every modulated Cauchy real number is equal (as a modulated Cauchy real number) to some $\alpha$-regular Cauchy real number.
+
+Every modulated Cauchy real number is a classical Cauchy real number, and any two equal modulated Cauchy real numbers are equal as classical Cauchy real numbers.
+
+Every classical Cauchy real number is a multivalued Cauchy real number, and any two equal classical Cauchy real numbers are equal as multivalued Cauchy real numbers.
+
+Every multivalued Cauchy real number becomes a generalised Cauchy real number whose index set $D$ comes equipped with a surjection to the natural numbers.  Furthermore, any two multivalued Cauchy real numbers are equal as multivalued Cauchy real numbers if and only if they are equal as generalised Cauchy real numbers.  Conversely, any generalised Cauchy real number is equal (as a generalised Cauchy real number) to some multivalued Cauchy real number.
+
+Every generalised Cauchy real number becomes a [[Dedekind real number]] in the usual way, defining lower and upper sets in terms of the order relation on Cauchy real numbers.  Furthermore, any two generalised Cauchy real numbers are equal as generalised Cauchy real numbers if and only if they are equal as Dedekind cuts.  Conversely, any Dedekind cut is equal (as a Dedekind cut) to some generalised Cauchy real number.
 =--
 
+Hence even in [[constructive mathematics]], there are only three notions that we need consider: modulated Cauchy real numbers, classical Cauchy real numbers, and Dedekind real numbers.
 
-Consider an [[infinite sequence]] of $(x_1,x_2,x_3,\ldots)$ of [[rational numbers]] such that
-$$ {|x_i - x_j|} \lt 1/i + 1/j $$
-always holds.  Then we may interpret each $x_i$ as a rational number within $1/i$ of the true value of some real number $x$.  Two such sequences $x,y$ are considered [[equivalence|equivalent]] if
-$$ {|x_i - y_j|} \lt 1/i + 1/j $$
-always holds; then they represent the same real number.  Up to this equivalence, we can demand that the denominator of $x_i$ is always $i$ (or a factor of $i$), so that $x_i$ is $x$ rounded up or down to the nearest such rational number (in the chosen direction).
+Just to be explicit, here are the missing converses:
 
-Similarly, consider an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that
-$$ {|x_i - x_j|} \lt 1/2^i + 1/2^j $$
-always holds.  Then we may interpret each $x_i$ as a rational number within $1/10^i$ of the true value of some real number $x$.  Two such sequences $x,y$ are considered equivalent if
-$$ {|x_i - y_j|} \lt 1/2^i + 1/2^j $$
-always holds.  Up to this equivalence, we can demand that the denominator of $x_i$ is always $10^i$ (or a factor of $10^i$), so that $x_i$ is $x$ rounded up or down to the nearest such rational number (in the chosen direction), that is the nearest rational number with $i$ decimal digits (at most) after the decimal point.
++-- {: .un_theorem}
+###### Theorems
+(assuming WCC).
 
-More generally (or a priori more generally), given any __modulus__ $(\alpha_0,\alpha_1,\alpha_2,\ldots)$, which is an infinite sequence of positive rational numbers that diverges to infinity, a __regular Cauchy sequence__ with modulus $\alpha$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ such that
-$$ {|x_i - x_j|} \lt 1/\alpha_i + 1/\alpha_j $$
-always holds.  Two such sequences $x,y$ are __regular equivalent__ with modulus $\alpha$ if
-$$ {|x_i - y_j|} \lt 1/\alpha_i + 1/\alpha_j $$
-always holds.  The previous examples are simply regular Cauchy sequences with modulus $(1,2,3,\ldots)$ or $(1,2,4,\ldots)$, with the appropriate notion of equivalence.
+Every classical Cauchy real number is modulated, and any two equal Cauchy real numbers are equal as modulated Cauchy real numbers.
 
-More generally still, given any modulus as above, a __modulated Cauchy sequence__ with modulus $\alpha$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ such that
-$$ {|x_i - x_j|} \lt 1/\alpha_{\min(i,j)} $$
-always holds.  Two such sequences $x,y$ are __modulated equivalent__ with modulus $\alpha$ if
-$$ {|x_i - y_j|} \lt 2/\alpha_{\min(i,j)} $$
-always holds.  Every regular Cauchy sequence with a given modulus is a modulated Cauchy sequence with the same modulus.
+Every multivalued Cauchy real number is equal (as a multivalued Cauchy real number) to some classical Cauchy real number, and two classical Cauchy real numbers are equal if they are equal as multivalued Cauchy real numbers.
+=--
 
-Instead of fixing a modulus and considering all infinite sequences satisfying this condition for that modulus, we might consider all moduli at once.  Two modulated Cauchy sequences (possibly with different moduli) will now be considered equivalent in that equivalence is given by *any* modulus.
+Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without WCC, the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their defenders.
 
-Most generally of all, we need not specify the modulus as an actual function from $\mathbb{N}$ to $\mathbb{Q}$ but instead demand that, for each positive rational number $n$ (no matter how large), there exists a [[natural number]] $k$ such that
-$$ {|x_i - x_j|} \lt 1/n $$
-whenever $i,j \geq k$.  In other words, we consider a __[[Cauchy sequence]]__ of rational numbers.  Similarly, we consider two such sequences __equivalent__ if, for each $n$, there exists $k$ such that
-$$ {|x_i - y_i|} \lt 1/n $$
-whenever $i \geq k$.
 
-In weak [[foundations]] (including internally to a [[topos]], or even a $\Pi$-[[Pi-pretopos|pretopos]], with [[natural numbers object]]), we can fix any modulus $\alpha$ and then prove that every modulated Cauchy sequence is equivalent to a regular Cauchy sequence with modulus $\alpha$, and also prove that any two modulated Cauchy sequences with given modulus are modulated equivalent if they are equivalent by any modulus (and regualar equivalent if they are also regular).  Thus all the constructions of real numbers in this vein are equivalent if they involve moduli at all.
+## Generalisations
 
-We would also like to prove that every Cauchy sequence is equivalent to a modulated one, that any two equivalent Cauchy sequences are modulated equivalent, and that any Dedekind real number is represented by a Cauchy sequence.  Each of these results is equivalent to a weak form of [[countable choice]] that also follows from [[excluded middle]].  Thus, almost any foundation used in practice proves these results, but they fail in many [[sheaf topos|sheaf topoi]].  When a distinction must be made, the real numbers represented by modulated Cauchy sequences are called __Cauchy reals__.
+Although the notion of [[metric space]] doesn\'t make sense until we know what real numbers are, once we have these, we can recognise that the rational numbers form a metric space $\mathbb{Q}$ and the real numbers were constructed from them in a way that makes reference only to the metric space structure of $\mathbb{Q}$.  Thus, this procedure may be generalised to any metric space to produce its [[complete metric space|completion]].
 
-We can also use [[nets]] instead of sequences.  In that case, we have that every Dedekind real may be represented by a Cauchy net that is modulated by a net, and that this is unique up to an equivalence modulated by a net, even in weak foundations (in particular, in any $\Pi$-pretopos).  This still will not allow us to fix a modulus in advance, however.
+We can also interpret $\mathbb{Q}$ as a [[uniform space]], or even as a [[Cauchy space]] and define analogous notions of completion for these.  However, these require us to use generalised Cauchy sequences, that is Cauchy [[nets]], even in classical mathematics.  Of course, without WCC, we should use nets even for metric spaces.
 
 
 ## References
 
-*  [[Georg Cantor]]; _[Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen](http://www.maths.tcd.ie/pub/HistMath/People/Cantor/Ausdehnung/)_; Section 1
+*  [[Georg Cantor]]; 1872; _[Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen](http://www.maths.tcd.ie/pub/HistMath/People/Cantor/Ausdehnung/)_; Section 1
+*  [[Fred Richman]], Douglas Bridges, Peter Schuster; 1998; _A weak countable choice principle_; available from &lt;http://math.fau.edu/Richman/HTML/DOCS.HTM>
 
 
 [[!redirects Cauchy real number]]
