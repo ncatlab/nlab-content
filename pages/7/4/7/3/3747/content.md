@@ -19,13 +19,13 @@ If we simply want a construction of the [[real line]] $\mathbb{R}$ for the purpo
 Putting Cantor\'s definition in modern terminology, $\mathbb{R}$ is the [[quotient set]] of the set of Cauchy sequences of rational numbers, with two sequences considered equivalent if their difference converges to zero.  Although the notion of Cauchy sequence (and convergence, for that matter) is best known in the context of [[metric spaces]] (which cannot be defined in general without having somehow constructing $\mathbb{R}$ already), it is easy to state the definitions in elementary terms.  If there is any tricky point, it is that the requirements made for all $\epsilon \gt 0$ need be made only for rational $\epsilon$.  (We could also treat $\mathbb{Q}$ as a [[uniform space]] or even a [[Cauchy space]], although again to write down the definitions of those structures still requires one to handle the $\epsilon$s.)
 
 To be explicit:  A __Cantor real number__ $x$ is an [[infinite sequence]] $(x_0,x_1,x_2,\ldots)$ of [[rational numbers]] such that, for every positive rational number $\epsilon$, there exists a [[natural number]] $\alpha$ such that
-$$ {|x_i - x_j|} \lt \epsilon $$
-holds whenever $i,j \geq \alpha$.  Two such sequences $x,y$ are considered __equal__ if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that
-$$ {|x_i - y_i|} \lt \epsilon $$
+$$ {|x_i - x_j|} \leq \epsilon $$
+holds whenever $i,j \geq \alpha$.  Two Cantor real numbers $x,y$ are considered __equal__ if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that
+$$ {|x_i - y_i|} \leq \epsilon $$
 holds whenever $i \geq \alpha$.  It is easy to prove that this is an [[equivalence relation]] on the set of Cauchy sequences, so the set $\mathbb{R}$ of real numbers is a quotient set.
 
 This definition comes in two steps: one to identify the Cauchy sequences from among the infinite sequences, another to identify equivalent sequences.  Actually, we can do this in one step by placing a [[partial equivalence relation]] on the set of *all* infinite sequences of rational numbers.  Two sequences $x,y$ are considered equivalent if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that
-$$ {|x_i - y_j|} \lt \epsilon $$
+$$ {|x_i - y_j|} \leq \epsilon $$
 holds whenever $i \geq \alpha$.  It is immediate that a sequence $x$ is Cauchy if and only if it equivalent to itself, and it is easy to prove that two Cauchy sequences $x,y$ are equivalent if and only if they are equal as real numbers using the definition above.  Thus, we can construct $\mathbb{R}$ immediately as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
 
 
@@ -34,16 +34,49 @@ holds whenever $i \geq \alpha$.  It is immediate that a sequence $x$ is Cauchy i
 In weak foundations, we sometimes want to be a little more strict about how a sequence is Cauchy and how the difference of two such sequences converges to zero.  We do this by requiring explicit moduli of convergence.  These moduli can always be constructed using either [[countable choice]] or the principle of [[excluded middle]], but the requirement makes a difference in (for example) a [[localic topos]] over any non-[[discrete space]].
 
 In general, a __[[modulus of convergence]]__ may be any function $\alpha$ from the positive rational numbers to the natural numbers.  A __Cauchy real number__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
-$$ {|x_i - x_j|} \lt \epsilon $$
-holds whenever $i,j \geq \alpha(\epsilon)$.  Two such sequences $x,y$ are considered __equal__ if there exists a modulus $\alpha$ such that
-$$ {|x_i - y_i|} \lt \epsilon $$
+$$ {|x_i - x_j|} \leq \epsilon $$
+holds whenever $i,j \geq \alpha(\epsilon)$.  Two Cauchy real numbers $x,y$ are considered __equal__ if there exists a modulus $\alpha$ such that
+$$ {|x_i - y_i|} \leq \epsilon $$
 holds whenever $i \geq \alpha(\epsilon)$.  Again we can combine these conditions into a single partial equivalence relation: that there exists a modulus $\alpha$ such that
-$$ {|x_i - y_j|} \lt \epsilon $$
+$$ {|x_i - y_j|} \leq \epsilon $$
 holds whenever $i,j \geq \alpha(\epsilon)$.
 
 Some variations are often met.  A modulus $\alpha$ may be extended to all rational numbers, although the conditions above can only be required for positive $\epsilon$.  Alternatively, it is enough to define $\alpha$ (and require the conditions) for $\epsilon$ of specific form; common choices are $1/n$ and $1/2^n$ for $n$ a natural number.  (The important criterion is to use a set of positive rational numbers of which zero is a limit point.)
 
-It is also possible to fix a specific modulus $\alpha$ ahead of time.  Then ...
+It is also possible to fix a specific modulus $\alpha$ ahead of time.  Then we need to treat each index separately, in this way:  An __$\alpha$-regular Cauchy real number__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that
+$$ {|x_i - x_j|} \leq \delta + \epsilon $$
+holds whenever $i \geq \alpha(\delta)$ and $j \geq \alpha(\epsilon)$.  Two $\alpha$-regular Cauchy real numbers are considered __equal__ if
+$$ {|x_i - y_i|} \leq 2\epsilon $$
+holds whenever $i \geq \alpha(\epsilon)$.  Once more, we can combine these conditions into a single partial equivalence relation: that
+$$ {|x_i - y_j|} \leq \delta + \epsilon $$
+holds whenever $i \geq \alpha(\delta)$ and $j \geq \alpha(\epsilon)$.
+
+
+### Generalisations
+
+While requiring a modulus of convergence, even fixing the modulus of convergence, may be more restrictive, it is also possible to use a potentially more lax definition.
+
+One way is to use [[nets]] (also called 'generalised sequences').  A __generalised Cauchy real number__ $x$ is a net $(x_\nu)_{\nu\colon D}$ (where $D$ is any [[directed set]] of indices) of rational numbers such that, for every positive rational number $\epsilon$, there exists an index $\alpha$ in $D$ such that
+$$ {|x_i - x_j|} \leq \epsilon $$
+holds whenever $i,j \geq \alpha$ in $D$.  Two generalised Cauchy real numbers $x,y$ are considered __equal__ if, for every positive rational number $\epsilon$, there exists an index $\alpha$ such that
+$$ {|x_i - y_i|} \leq \epsilon $$
+holds whenever $i \geq \alpha$.  The partial equivalence relation subsuming both conditions is that, for every positive rational number $\epsilon$, there exists an index $\alpha$ such that
+$$ {|x_i - y_j|} \leq \epsilon $$
+holds whenever $i,j \geq \alpha$.
+A generalised Cauchy real number does not need a modulus of convergence, for reasons that I should probably write about at [[modulus of convergence]].
+
+Another method is to use [[presequences]], which are [[multivalued functions]] from the natural numbers.  A __multivalued Cauchy real number__ $x$ is an [[entire relation]] between natural numbers and rational numbers such that, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i, j \geq \alpha$,
+$$ {|a - b|} \leq \epsilon $$
+holds for some $a,b$ such that $x_{i,a}$ and $x_{j,b}$ hold.  Two multivalued Cauchy real numbers are considered __equal__ if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i \geq \alpha$,
+$$ {|a - b|} \leq \epsilon $$
+holds for some $a,b$ such that $x_{i,a}$ and $y_{i,b}$ hold. The partial equivalence relation subsuming both conditions is that, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i,j \geq \alpha$,
+$$ {|a - b|} \leq \epsilon $$
+holds for some $a,b$ such that $x_{i,a}$ and $y_{j,b}$.
+
+
+### Relations between these definitions
+
+Classically, all of these definitions are equivalent.  In fact, to prove their equivalence, we need only [[Fred Richman]]\'s principle of __weak countable choice__:  ...
 
 +-- {: .standout}
 The rest of this section is just moved from [[real number]]; it still neads to be incorporated into a coherent article.
