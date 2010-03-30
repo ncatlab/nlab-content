@@ -3,19 +3,17 @@ An __entourage__ (aka __vicinity__) is a [[binary relation]] of 'approximate equ
 
 ## Examples
 
-*  In a [[metric space]], there is one basic entourage for each positive [[real number]] $\epsilon$:
-   $$ x \approx_\epsilon y \;\iff\; d(x,y) \lt \epsilon ,$$
+*  In a [[metric space]], a relation $\approx$ is an entourage if there exists a positive [[real number]] $\epsilon$ such that
+   $$ d(x,y) \lt \epsilon \;\implies\; x \approx y ,$$
    where $x,y$ are points in the metric space and $d$ is the metric.
 
-*  In a [[gauge space]], there is one basic entourage for each $\epsilon$ and each gauging distance $d$, using the same formula as above.
+*  In a [[gauge space]], $\approx$ is an entourage if there exists an $\epsilon$ and a gauging distance $d$ such that the preceding condition holds.
 
-*  In a [[topological abelian group]], there is one basic entourage for each [[neighbourhood]] $N$ of the identity element:
-   $$ x \approx_N y \;\iff\; x/y \in N ,$$
+*  In a [[topological abelian group]], $\approx$ is an entourage if there is a [[neighbourhood]] $N$ of the identity element such that
+   $$ x/y \in N \;\implies\; x \approx_N y ,$$
    where $x,y$ are points in the metric space and $/$ is the division operation in the group.
 
 *  In a nonabelian [[topological group]], there are two distinct notions of entourage, one using the same formula as above and the other using $y/x$ in place of $x/y$.
-
-Note that in both cases, there are additional entourages besides these basic ones, by the principle that any relation that contains an entourage is an entourage.
 
 
 [[!redirects entourage]]
