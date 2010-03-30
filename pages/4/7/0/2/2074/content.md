@@ -81,49 +81,124 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 =--
 
 
+### Cartesian closure
+
 +-- {: .un_lemma }
-###### Observation
+###### Lemma
 
 
 The category $sSet^+$ is a [[cartesian closed category]].
 
 =--
 
++-- {: .proof}
+###### Proof
 
+We may think of marked simplicial sets as a [[presheaf]] category on a slight enhancement of the [[simplex category]] $\Delta$: let $\Delta^+$ be the category defined as $\Delta$, but with one more object $[1^+]$, with morphisms between $[0]$ and $[1]$ of the form
+
+$$
+  \array{
+    [0] &\stackrel{\to}{\to}& [1]
+    \\
+    \downarrow^= && \downarrow^{\mathrlap{p}}
+    \\
+    [0] &\leftarrow& [1^+]  
+}
+$$
+
+compatible with the remaining morphisms in the evident way. Then for an object $X \in PSh(\Delta^+)$ for which the morphism $X_{1^+} \to X_1$ is an injection, we may think of $X_{1^+}$ as the marked edges. Since the degeneracy map $[0]\leftarrow [1]$ factors through $[1^+]$, the marked edges contain all the degenerate edges then, as desired. A morphism of such presheaves is then a morphism of simplicial sets preserving the marked edges, hence a morphism in $sSet^+$. So we find $sSet^+$ as the full [[subcategory]]
+
+$$
+  sSet^+ \hookrightarrow PSh(\Delta^+)
+$$
+
+on those objects $X$ for which $X_{1^+} \to X_1$ is an injection.
+
+The presheaf represented by $[1]$ is $\Delta[1]^\flat$ with only the degenerate edges marked, whereas the presheaf represented by $[1^+]$ is $\Delta[1]^#$, with also the non-degenerate edge marked.
+
+By the general logic of the [[closed monoidal structure on presheaves]] we have that $PSh(\Delta^+)$ is cartesian closed. It remains to check that if $X,Y \in PSh(\Delta^+)$ are marked simplicial sets in that $X_{1^+} \to X_1$ is a monomorphism and similarly for $Y$, that then also $Y^X$ has this property.
+
+We find that the marked edges of $Y^X$ are
+
+$$
+  (Y^X)_{1^+} \simeq
+  Hom_{PSh(\Delta^+)}([1^+], Y^X) \simeq Hom_{PSh(\Delta^+)}([1^+] \times X, Y)
+$$
+
+and the morphism $(Y^X)_{1^+} \to (Y^X)_1$ sends $X \times [1^+] \stackrel{\eta}{\to} Y$ to 
+
+$$
+  X \times [1] \stackrel{(Id,p)}{\to} X \times [1^+]
+  \stackrel{\eta}{\to} Y
+  \,.
+$$
+
+Now, by construction, every non-identity morphism $U \to [1^+]$ in $\Delta^+$ factors through $U \to [1]$, which implies that if the components of $p^* \eta_1$ and $p^* \eta_2$ coincide on $U \neq [1^+]$, then already the components of $\eta_1$ and $\eta_2$ on $U$ coincided. By assumption on $X$ the values of $\eta_1$ and $\eta_2$ on $U = [1^+]$ are already fixed, due to the inclusion $X_{1^+} \times [1^+]_{1^+} \hookrightarrow X_{1} \times [1^+]_{1}$. Hence $p^*$ is injective, and so $Y^X$ formed in $PSh(\Delta^+)$ is itself a marked simplicial set.
+
+=--
+
++-- {: .un_def }
+###### Definition
 
 
 * For $X$ and $Y$ marked simplicial sets let
 
-  * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[cartesian closed category|cartesian]] [[internal hom]] $Y^X$
+  * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[cartesian closed category|cartesian]] [[internal hom]] $Y^X \in sSet^+$
 
   * $Map^#(X,Y)$ the simplicial set consisting of all simplices $ \sigma \in Map^\flat(X,Y)$ such that every edge of $\sigma$ is a marked edge of $Y^X$.
 
-  Equivalently these mapping complexes are characterized by the
-  fact that we have natural bijections
+=--
 
-  $$
-    Hom_{sSet}(K, Map^\flat(X,Y)) \simeq 
-    Hom_{sSet^+}(K^\flat \times X, Y)
-  $$
++-- {: .un_corolary }
+###### Corollary
 
-  $$
-    Hom_{sSet}(K, Map^#(X,Y)) \simeq Hom_{sSet^+}(K^# \times X, Y)
-    \,.
-  $$
+These mapping complexes are characterized by the
+fact that we have natural bijections
+
+$$
+  Hom_{sSet}(K, Map^\flat(X,Y)) 
+  \simeq
+  Hom_{sSet^+}(K^\flat, Y^X)
+  \simeq
+  Hom_{sSet^+}(K^\flat \times X, Y)
+$$
+
+and
+
+$$
+  Hom_{sSet}(K, Map^#(X,Y)) 
+   \simeq 
+  Hom_{sSet^+}(K^#, Map^#(X,Y))
+   \simeq
+  Hom_{sSet^+}(K^# \times X, Y)
+$$
+
+for $K \in sSet$ and $X,Y \in sSet^+$. In particular
+
+$$
+  Map^\flat(X,Y)_n = Hom_{sSet^+}(X \times \Delta[n]^\flat, Y)
+$$
+
+and
+
+$$
+  Map^#(X,Y)_n = Hom_{sSet^+}(X \times \Delta[n]^#, Y)
+  \,.
+$$
 
 =--
 
+In words we have
 
-### Properties
+* The $n$-simplices of the internal hom $Y^X$ are simplicial maps $X \times \Delta[n] \rightarrow Y$ such that when you restrict $X_1 \times \Delta[n]_1 \rightarrow Y_1$ to $E \times \Delta[n]_0$ (where $E$ is the set of marked edges of $X$), this morphism factors through the marked edges of $Y$.
+
+* The marked edges of $Y^X$ are those simplicial maps $X \times \Delta[1] \rightarrow Y$ such that the restriction of $X_1 \times \Delta[1]_1 \rightarrow Y_1$ to $E \times \Delta[1]_1$ factors though the marked edges of $Y$. In the presence of the previous condition, this says that when you apply the homotopy $X \times \Delta[1] \rightarrow Y$ to a marked edge of $X$ paired with the identity at $[1]$, the result should be marked.
+
+
 
 +-- {: .un_prop }
 ###### Proposition
 
-The category of marked simplicial sets is [[cartesian closed]]. 
-
-* The $n$-simplices of the internal hom $Y^X$ are simplicial maps $X \times \Delta^n \rightarrow Y$ such that when you restrict $X_1 \times \Delta_1^n \rightarrow Y_1$ to $E \times \Delta_0^n$ (where $E$ is the set of marked edges of $X$), this morphism factors through the marked edges of $Y$.
-
-* The marked edges of $Y^X$ are those simplicial maps $X \times \Delta^1 \rightarrow Y$ such that the restriction of $X_1 \times \Delta_1^1 \rightarrow Y_1$ to $E \times \Delta^1_1$ factors though the marked edges of $Y$. In the presence of the previous condition, this says that when you apply the homotopy $X \times \Delta^1 \rightarrow Y$ to a marked edge of $X$ paired with the identity at $[1]$, the result should be marked.
 
 There are functors 
 $$
@@ -140,18 +215,22 @@ $$
  
 with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
+
+=--
+
+### $sSet$-Enrichment
+
++-- {: .un_prop }
+###### Proposition
+
 * The hom-objects $Map^#(X,Y)$ make $sSet^+$ an 
   [[sSet]]-[[enriched category]].
 
 =--
 
 
-
-
-
-
 +-- {: .un_remark }
-###### Remark (HTT, 3.1.4.5)
+###### Remark 
 
 When instead using as hom-objects
 
@@ -163,7 +242,7 @@ then one obtains an $sSet_{Joyal}$-[[enriched model category]] (enriched over th
 
 =--
 
-
+This is [[Higher Topos Theory|HTT, remark 3.1.4.5]].
 
 +-- {: .un_remark }
 ###### Remark (HTT, 3.1.3.1)
