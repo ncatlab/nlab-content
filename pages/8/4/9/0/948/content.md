@@ -3,9 +3,13 @@
 {: toc}
 
 
-Broadly speaking, __constructive mathematics__ is mathematics done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent.
+Broadly speaking, __constructive mathematics__ is mathematics done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent; these variations may be seen in the list of schools below.  However, it is probably best to use more precise terms (predicativism, intuitionism, etc) in this case.
 
-__Constructivism__ is the philosophy that such mathematics is useful, or (more strongly) that non-constructive mathematics is wrong.  Historically, constructive mathematics was first pursued by mathematicians who believed the latter.  However, many modern mathematicians who do constructive mathematics do it not because of any philosophical belief about the wrongness of non-constructive mathematics, but because constructive mathematics is interesting in its own right, and/or because its study has potential applications to non-constructive mathematics.  For example, even if one believes the principle of excluded middle to be true, the "[[internal logic|internal]]" version of excluded middle in many interesting [[category|categories]] is still false; thus constructive mathematics can be useful in the study of such categories, even if mathematics is "globally" non-constructive.  This is essentially the [nPOV](/nlab/show/nPOV#Logic) on constructive mathematics.
+__Constructivism__ is the philosophy that such mathematics is useful, or (more strongly) that non-constructive mathematics is wrong.  Historically, constructive mathematics was first pursued explicitly by mathematicians who believed the latter.  However, many modern mathematicians who do constructive mathematics do it not because of any philosophical belief about the wrongness of non-constructive mathematics, but because constructive mathematics is interesting in its own right.  In the '[pluralist](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.9892)' approach to the [[foundations]] of mathematics, a constructive proof (when it exists) is better because it is valid in more versions of mathematics, but a classical proof remains valid for classical mathematics.
+
+Another motivation for modern mathematicians ---especially category theorists like those on the nLab--- is that the study of constructive mathematics has potential applications to non-constructive mathematics.  For example, even if one believes the principle of excluded middle to be true, the "[[internal logic|internal]]" version of excluded middle in many interesting [[category|categories]] is still false; thus constructive mathematics can be useful in the study of such categories, even if mathematics is "globally" non-constructive.  This is the neutral motivation for constructive mathematics from the [nPOV](/nlab/show/nPOV#Logic).
+
+Here we write mostly about the mathematics, philosophically neutral.
 
 
 ## Origins and schools ##
@@ -33,7 +37,7 @@ There are, however, differences among constructivists as well.
 Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_.  (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.  See "Truth versus assertability," below.)  To most mathematicians, this makes them seem quite strange.  Other constructivists adopt a wait-and-see attitude, or even a relative notion of truth (which can seem strange in another way).
 
 
-## Topos Theory ##
+## Topos theory ##
 
 With the invention of [[topos|topos theory]] in the second half of the 20th century, a new sort of constructivism arose.  It was observed (by Lawvere and others) that any topos with a [[natural numbers object]] has an [[internal logic]] which is powerful enough to interpret most of mathematics, but that this logic in general fails to satisfy choice and excluded middle.  This meant that even for a mathematican who likes to use choice and excluded middle (and _a fortiori_ for one who believes them to be "true"), there is a reason to care about what can be proven without them, because only if a proof is constructive can it be interpreted in an arbitrary topos with NNO.
 
