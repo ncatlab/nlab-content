@@ -69,4 +69,14 @@ with $\partial$ induced from the boundary in the Moore complex.
 
 The category of [[crossed complexes]] form a variety in the category of all [[hypercrossed complexes]]. Alternatively, groupoid T-complexes (the groupoid version of [[group T-complex]]) form
 a variety in the category of all simplicial groups.
+
+## References
+
+See refences by Ronnie Brown and collaborators at [[nonabelian algebraic topology]].
+
+For the relation to [[group cohomology]] see
+
+* [[Johannes Huebschmann]], _Crossed $n$-fold extensions and group cohomology_ ([web](http://dx.doi.org/10.1007/BF02566688))
+
+
 [[!redirects crossed complexes]]
