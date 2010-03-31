@@ -2,6 +2,12 @@
 [[!include physicscontents]]
 </div>
 
+under construction
+
++--{: .query}
+[[Ian Durham]]: Please help make this a bit more clear, but please note there is some dispute concerning the nature of quantum states.
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
