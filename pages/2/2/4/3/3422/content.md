@@ -378,6 +378,120 @@ This is [[Higher Topos Theory|HTT, theorem 3.2.0.1]].
 
 =--
 
+#### Over an ordinary category {#OverCat}
+
+In the case that $C$ happens to be an ordinary [[category]], the $(\infty,1)$-Grothendieck construction can be simplified and given more explicitly.
+
+This is [[Higher Topos Theory|HTT, section 3.2.5]].
+
+
++-- {: .un_def}
+###### Definition
+**(relative nerve functor)**
+
+Let $C$ be a small category and let $f : C \to sSet$ be a functor. The simplicial set $N_f(C)$, the **relative nerve** of $C$ under $f$ is defined as follows:
+
+an $n$-cell of $N_f(C)$ is
+
+1. a functor $\sigma : [n] \to C$;
+
+1. for every $[k] \subset [n]$ a morphism $\tau(k) : \Delta[k] \to f(\sigma(k))$;
+
+1. such that for all $[j] \subset [k] \subset [n]$ the diagram
+
+   $$
+     \array{
+       \Delta[j] &\stackrel{\tau(j)}{\to}& f(\sigma(j))
+       \\
+       \downarrow && \downarrow^{\mathrlap{f(\sigma(j\to k))}}
+       \\
+       \Delta[k] &\stackrel{\tau(k)}{\to}& f(\sigma(k))
+     }
+   $$
+
+   commutes.
+
+There is a canonical morphism
+
+$$
+  N_f(C) \to N(C)
+$$
+
+to the ordinary [[nerve]] of $C$, obtained by forgetting the $\tau$s.
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 3.2.5.2]].
+
++-- {: .un_remark}
+###### Remark
+
+When $f$ is constant on the point, then $N_f(C) \to N(C)$ is an isomorphism of simplicial sets, so $N_f(C)$ this is the ordinary [[nerve]] of $C$.
+
+The [[fiber]] of $N_f(C) \to N(C)$ over an object $c \in C$ is given by taking $\sigma$ to be constant on $C$. Then all the $\tau$s are fixed by the maximal $\tau(n) : \Delta[n] \to f(c)$. So the fiber of $N_f(C)$ over $c$ is $f(c)$.
+
+=--
+
+
++-- {: .un_def}
+###### Definition
+**(marked relative nerve functor)**
+
+Let $C$ be a small [[category]]. Define a functor
+
+$$
+  sSet^+/N(C) \leftarrow [C, sSet^+] : N^+
+$$
+
+by 
+
+$$
+  (C \stackrel{F}{\to} sSet^+)
+  \mapsto
+  (N_f(C), E_F)
+  \,,
+$$
+
+where $f : C^{op} \stackrel{F}{\to} sSet^+ \to sSet$ is $F$ with the marking forgotten, where $N_f(C)$ is the relative nerve of $C$ under $f$, and where the marking $E_F$ is given by ...
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 3.2.5.12]].
+
+This functor has a [[left adjoint]] $\mathcal{F}^+$. The value of $\mathcal{F}^+(F)$ on some $c \in C$ is equivalent to the value of $St(F)$.
+
+This is [[Higher Topos Theory|HTT, Lemma 3.2.5.17]].
+
+
+
++-- {: .un_prop}
+###### Proposition
+**($(\infty,1)$-Grothendieck construction over a category)**
+
+The adjunction
+
+$$
+  (\mathcal{F}^+ \dashv N^+)
+  : 
+  sSet^+_{/N(C)} \stackrel{\overset{\mathcal{F}^+}{\to}}{\underset{N^+}{\leftarrow}}
+  [C,sSet^+]
+  \,.
+$$
+
+is a [[Quillen equivalence]] between the [[model structure for Cartesian fibrations|model structure for coCartesian fibrations]] and the projective [[global model structure on functors]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 3.2.5.18]].
+
+=--
+
+
+
 ### Relation beween the model structures
 
 +-- {: .un_theorem}
