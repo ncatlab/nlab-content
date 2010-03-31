@@ -11,7 +11,7 @@ $$\array{& X & {\to}^x & Z & \\
           &Y & {\to}_{x'}& W & \\
 }$$
 
-The square is **commutative** if $y'x=x'y$.
+The square is **[[commutative diagram|commutative]]** if $y'x=x'y$.
 
 The class of commutative  squares in $C$ is written $\square C$.
 
