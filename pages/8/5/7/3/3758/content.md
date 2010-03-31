@@ -20,4 +20,8 @@ Alternatively, the state may be thought of as being encoded by a complex [[hermi
 
 The full state of a quantum system with $n \in \mathbb{N}$ degrees of freedom is given by the set of observables, $Q(q)$.  We most often work with subsets of observables such as spatial $Q(x) \subset Q(q)$ or spin $Q(s) \subset Q(q)$.  Categorically, quantum states are always objects within a category and the morphisms of a category represent the transformations that the states can undergo.
 
+### Categorical caveat
+
+It pays to spend some time looking over the entry on [[2-vector space]] since the categorification of vector spaces is not entirely clear.
+
 [[!redirects quantum states]]
