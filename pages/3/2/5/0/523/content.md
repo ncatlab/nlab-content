@@ -2,6 +2,8 @@ I am a math PhD student at Hamburg University. I am working on [[higher category
 
 My Email address is: &lt;Thomas.Nikolaus@uni-hamburg.de>
 
+My website is: &lt;http://www.math.uni-hamburg.de/home/nikolaus/>
+
 ## Notes
 
 * _[[AlgModB.pdf:file]]_, [blog discussion](http://golem.ph.utexas.edu/category/2010/03/_guest_post_by_thomas_nikolaus.html)
