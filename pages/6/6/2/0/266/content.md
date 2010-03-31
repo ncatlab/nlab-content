@@ -299,5 +299,7 @@ See also
 * M&#233;lli&#232;s and Tabareau, _Free models of T-algebraic theories computed as Kan extensions_ ([web](http://hal.archives-ouvertes.fr/hal-00339331/fr/))
 
 
+[[!redirects Kan extension]]
 [[!redirects Kan extensions]]
 [[!redirects kan extension]]
+[[!redirects kan extensions]]
