@@ -266,6 +266,63 @@ This is  [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 ## Examples 
 
+### Cartesian fibrations over one morphism and Adjunctions
+
+By the [[(infinity,1)-Grothendieck construction]] a Cartesian fibration $K \to \Delta[1]$ corresponds to a morphism $\Delta[1]^{op} \to (\infty,1)Cat$, hence to an [[(infinity,1)-functor]] $f : C \o D$.
+
+Obtaining this through the straightening functor above is tediuos, but there is a more immediate way to characterize $f$:
+
++-- {: .un_def}
+###### Definition
+
+For $p : K \to \Delta[1]$ a Cartesian fibration with specified equivalences
+
+$$
+  h_0  : C \stackrel{\simeq}{\to} p^{-1}(0)
+$$
+
+and 
+
+$$
+  h_1 : C \stackrel{\simeq}{\to} p^{-1}(1)
+$$
+
+an [[(infinity,1)-functor]] $f : D \to C$ is **associated** to $p$ if there exists a commuting diagram
+
+$$
+  \array{
+    D \times \Delta[1] &&\stackrel{s}{\to}&& K
+    \\
+    & \searrow && \swarrow
+    \\
+    && \Delta[1]
+  }
+$$
+
+such that 
+
+* $s|_{D \times \{1\}} = h_1$;
+
+* $s|_{D \times \{0\}} = h_0 \circ g$
+
+* for every object $x$ of $D$ we have that $s|_{\{x\} \times \Delta[1]}$ is 
+  a p-[[Cartesian morphism]] of $K$. 
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 5.2.1.1]].
+
+If $p : K \to \Delta[1]$ is noth a Cartesian fibration as well as a coCartesian fibration, then it determines $(\infty,1)$-functors in both directions
+
+$$
+  C
+    \stackrel{\leftarrow}{\to} 
+  D
+  \,.
+$$
+
+Such a pair is a pair of [[adjoint (infinity,1)-functor]]s.
+
 ### Cartesian fibrations over simplices {#CartOverSimplex}
 
 
