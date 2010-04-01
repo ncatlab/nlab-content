@@ -26,6 +26,12 @@ While the short wikipedia article on 21st Hilbert problem is discussing in [nice
 
 * E. Corel, E. Compoint, _Stable Flags and the Riemann-Hilbert Problem_, [arxiv/1003.5021](http://arxiv.org/abs/1003.5021)
 
+* R. R. Gontsov, V. A. Poberezhnyi, _Various versions of the Riemann&#8211;Hilbert problem for linear differential equations
+Russian Mathematical Surveys 63:4 (2008), 603&#8211;639 (English bibliography free here: [pdf](http://www.turpion.org/php/reference.phtml/ref_rm4547.pdf?journal_id=rm&paper_id=4547&volume=63&issue=4&type=pdf))
+
+* A.A. Bolibrukh, _The Riemann&#8211;Hilbert problem_,
+Russian Math. Surveys 45:2 (1990), 1&#8211;58; Rus. original &#1040;. &#1040;. &#1041;&#1086;&#1083;&#1080;&#1073;&#1088;&#1091;&#1093;, "&#1055;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084;&#1072; &#1056;&#1080;&#1084;&#1072;&#1085;&#1072;&#8211;&#1043;&#1080;&#1083;&#1100;&#1073;&#1077;&#1088;&#1090;&#1072;", &#1059;&#1052;&#1053; 45:2 (1990), 3&#8211;47 ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=4714&volume=45&year=1990&issue=2&fpage=3&what=fullt&option_lang=eng))
+
 [[!redirects Riemann-Hilbert problem]]
 [[!redirects Riemann–Hilbert problem]]
 [[!redirects Riemann--Hilbert problem]]
