@@ -44,11 +44,6 @@ Broadly speaking, formalizations of quantum mechanics are of two main different 
 
 Every quantum particle or system has a certain number of intrinsic characteristics such as charge, mass, spin, etc.  In fact one could think of the complete list of such intrinsic characteristics of a single particle as _defining_ that particle (e.g. an electron is defined by it's set of characteristics).
 
-+--{: .query}
-[[Tim van Beek]]: In AQFT you would start with the observables, and say that the values (let's call them quantum numbers for now) of a complete set of observables unambiguously identify a state of a system. If you have an ensemble of states with identical quantum numbers and get one of them today, and another one tomorrow, there is no way to tell if it is the same or a "different" one. 
-BTW: An "electron" in this picture is a state with the appropriate quantum numbers, so from the viewpoint of [[QFT]] one should not treat "states" and "particles" as complementary concepts, the concept of state is more fundamental. 
-=--
-
 Every quantum particle or system also has some associated _variable_ quantities usually called **observables** such as position, momentum, energy, spin orientation, etc.  Observables can often be grouped into subsets.  So, for example, $S_{x}, S_{y}$ and $S_{z}$ is the subset of observables of spin orientation while its position and momentum (including angular) observables form the spatial subset.
 
 +--{: .query}
@@ -63,16 +58,12 @@ Alternatively, the state may be thought of as being encoded by a complex [[hermi
 
 The full state of a quantum system with $n \in \mathbb{N}$ degrees of freedom is given by the set of observables, $Q(q)$.  We most often work with subsets of observables such as spatial $Q(x) \subset Q(q)$ or spin $Q(s) \subset Q(q)$.  Categorically, quantum states are always objects within a category and the morphisms of a category represent the transformations that the states can undergo.
 
-+--{: .query}
-[[Tim van Beek]]: In QM, the state of a quantum system is a normalized vector in a complex (separable) Hilbert space. Observables are represented by selfadjoint (not necessarily bounded) operators on that Hilbert space. The value of an observable A in a state x is given by $\langle x, Ax \rangle$.
-
-Again, from the viewpoint of AQFT you start with the $C*$-algebra of observables, the state of a system is given by a state of the algebra in a mathematical sense, and the Hilbert space enters through the GNS construction with respect to that state.
-=--
-
-
-
 ## Definition
 
+### In plain quantum mechanics
+In QM, the state of a quantum system is a normalized vector of a given complex (separable) Hilbert space. Observables are represented by selfadjoint (not necessarily bounded) operators on that Hilbert space. The value of an observable A in a state x is given by $\langle x, Ax \rangle$.
+
+#### $L^2$ standard representation
 
 ### In FQFT
 
@@ -81,8 +72,13 @@ Again, from the viewpoint of AQFT you start with the $C*$-algebra of observables
 #### States in higher dimensional extended QFTs
 
 ### In AQFT
+The starting point of [[AQFT]] is either with fields, see [[Wightman axioms]], or directly with an (abstract) $C*-$algebra of observables, see [[Haag-Kastler axioms]]. Roughly the Wightman fields generate the operator algebras of observables. 
 
 #### Linear functionals on operator algebras
+A (quantum) state in the sense of physics is a state of the algebra of observables in the sense of mathematics, see [states of operator algebras](/nlab/show/operator+algebra#statesOfOperatorAlgebras).
+Note that the concept of a particle has not entered the scene yet, so that the concept of a state if more fundamental from the current viewpoint than that of a particle. 
+
+To get to the Hilbert space picture of quantum mechanics one needs to employ the GNS construction ([[Gelfand-Naimark-Segal construction]]) to obtain both a Hilbert space from the algebra of observables and a given state, and a representation of the observables in the algebra of bounded operators on that Hilbert space.
 
 ## References
 
