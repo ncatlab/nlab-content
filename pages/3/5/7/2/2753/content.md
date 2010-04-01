@@ -72,15 +72,19 @@ the analogous algebraic structure for [[Courant algebroid]]s is discussed. These
 
 The original reference is
 
-* G. Rinehart _Differential forms for general commutative algebras_ Trans. Amer. Math. Soc. 108 (1963), 195-222
+* G. Rinehart, _Differential forms for general commutative algebras_, Trans. Amer. Math. Soc. __108__ (1963), 195-222
 
 A brief review in section 1 of
 
 * [[Johannes Huebschmann]], _Lie--Rinehart algebras, descent, and quantization_ ([arXiv](http://arxiv.org/abs/math/0303016))
 
+* [[Mikhail Kapranov|M. Kapranov]], _Free Lie algebroids and the space of paths_,	Sel. Math. (N.S.) __13__, n. 2 277--319 (2007), [arXiv:math.AG/0702584](http://arxiv.org/abs/math.AG/0702584), [doi](http://dx.doi.org/10.1007/s00029-007-0041-9)
+
+* V. Nistor, A. Weinstein, P. Xu, _Pseudodifferential operators on differential groupoids_, Pacific J. Math. __189__, 117&#8211;152 (1999)
+
 A notion of universal enveloping algebra of a Lie--Rinehart algebra is discussed in
 
-* [[Ieke Moerdijk]], J. Mrcun, _On the universal enveloping algebra of a Lie--Rinehart algebra_ ([arXiv](http://arxiv.org/abs/0801.3929))
+* [[Ieke Moerdijk]], J. Mr&#269;un, _On the universal enveloping algebra of a Lie--Rinehart algebra_, Proc. Amer. Math. Soc. in press, ([pdf](http://www.ams.org/proc/0000-000-00/S0002-9939-10-10347-5/S0002-9939-10-10347-5.pdf), [arXiv/0801.3929](http://arxiv.org/abs/0801.3929))
 
 A connection with [[BV-theory]] is made in
 
