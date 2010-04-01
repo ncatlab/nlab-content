@@ -1,4 +1,4 @@
-**Victor Ginzburg** is a professor of mathematics at the University of Chicago. His thesis in Moscow was under [[Alexandre Kirillov]]. His main interests are [[representation theory]], especially [[geometric representation theory]], including more recently [[noncommutative algebraic geometry]]. 
+**Victor Ginzburg** (in some 1980-s articles spelled Ginsburg) is a professor of mathematics at the University of Chicago. His thesis in Moscow was under [[Alexandre Kirillov]]. His main interests are [[representation theory]], especially [[geometric representation theory]], including more recently [[noncommutative algebraic geometry]]. 
 
 Warning: there is another mathematician (global analysis, [[symplectic geometry]]), **Viktor** Ginzburg (note the English spelling).
 
@@ -6,7 +6,7 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 
 * N. Chriss, V. Ginzburg, _Representation theory and complex geometry_, Birkh&#228;user 1997.
 
-* V. Ginburg, _Geometric methods in representation theory of Hecke algebras and quantum groups_ (this survey is closely related to the book above), [math.AG/9802004](http://front.math.ucdavis.edu/math.AG/9802004)
+* V. Ginzburg, _Geometric methods in representation theory of Hecke algebras and quantum groups_ (this survey is closely related to the book above), [math.AG/9802004](http://front.math.ucdavis.edu/math.AG/9802004)
 
 * _Lectures on noncommutative geometry_, [math.AG/0506603](http://arxiv.org/abs/math/0506603)
 
@@ -15,5 +15,7 @@ Warning: there is another mathematician (global analysis, [[symplectic geometry]
 * A. A. Be&#301;linson, V. A. Ginsburg, V. V. Schechtman, _Koszul duality_, J. Geom. Phys. 5 (1988), no. 3, 317&#8211;350.
 
 * A. Beilinson, V. Ginzburg, W. Soergel, _Koszul duality patterns in representation theory_, J. Amer. Math. Soc. 9 (1996), no. 2, 473&#8211;527.
+
+* V. Ginsburg, _Characteristic varieties and vanishing cycles_, Inv. Math. __84__, 327--402 (1986)
 
 category: people
