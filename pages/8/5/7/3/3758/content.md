@@ -2,19 +2,45 @@
 [[!include physicscontents]]
 </div>
 
-under construction
+> under construction
 
-+--{: .query}
-[[Ian Durham]]: Please help make this a bit more clear, but please note there is some dispute concerning the nature of quantum states, including whether or not they even exist (see below).
-
-[[Tim van Beek]]: I tried to insert a few ideas of mine...I guess we would have to narrow this page to a certain interpretation of quantum physics, like "what is a quantum state in the traditional sense of quantum mechanics" or "what is a quantum state in the sense of the xy picture of QFT".
-=--
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
+
+[[quantum mechanics|Quantum mchanics]] and [[quantum field theory]] describe the dynamics of systems governed by [[quantum physics]]. In the _[[FQFT|Schrödinger picture]]_ of quantum mechanics this involves an assignment of a collection of _states_ of the system -- the **quantum states** -- to each _instant of time_ and a map from the collection of states at one instance to the collection of states at any other instance that encodes the time evolution of these states.
+
+There are different proposals for how to formmlize quantum mechanics and quantum field theory, whose relations are understood (only) in parts. 
+Accordingly, there are different ways to make the notion of _quantum state_ precise.
+
+Broadly speaking, formalizations of quantum mechanics are of two main different types:
+
+* in the _Schr&#246;dinger picture_ formalization of [[FQFT]] a quantum field theory is an [[n-functor]] 
+
+  $$
+    U : Cob_n^S \to \mathcal{C}
+  $$
+
+  on an [[(infinity,n)-category of cobordisms]] (with some extra structure $S$) to some target [[(infinity,n)-category]]. In this perspective an "instance of time" is an [[k-morphism|(n-1)-morphism]] $\Sigma$ in $Cob_n^S$, the **space of states** on this is the object $U(\Sigma) \in \mathcal{C}$ and a single quantum state is a [[generalized element]] $\psi \in U(\Sigma)$. 
+
+  For instance for the category $Cob_1^{Riem}$ of 1-dimensional Riemannian cobordisms, a smooth functor $U : Cob_1^{Riem} \to$  [[Hilb]] may encode the quantum mechanics of a point particle propagating on some target space. The [[Hilbert space]] that it assigns to the single o-morphism ([[object]]) is the single space of states, and a quantum state is a ray in this Hilbert space.
+
+* in the _Heisenberg picture_ formalization of [[AQFT]] quantum states are described more indirectly. Here the direct description is of the _local algebras of observables_ . In this formalization quantum states are revovered as linear functionals on these operator algebras, i.e. as [[state on an algebra|states on an algebra]] in the operator-theoretic sense.
+
+
+
++--{: .query}
+[[Ian Durham]]: Please help make this a bit more clear, but please note there is some dispute concerning the nature of quantum states, including whether or not they even exist (see below).
+
+[[Tim van Beek]]: I tried to insert a few ideas of mine...I guess we would have to narrow this page to a certain interpretation of quantum physics, like "what is a quantum state in the traditional sense of quantum mechanics" or "what is a quantum state in the sense of the xy picture of QFT".
+
+
+=--
+
 
 Every quantum particle or system has a certain number of intrinsic characteristics such as charge, mass, spin, etc.  In fact one could think of the complete list of such intrinsic characteristics of a single particle as _defining_ that particle (e.g. an electron is defined by it's set of characteristics).
 
@@ -35,8 +61,6 @@ A quantum state is the state of a quantum particle or system at a given instant 
 
 Alternatively, the state may be thought of as being encoded by a complex [[hermitian matrix|hermitian]] $n \times n$ [[matrix]] $\rho \in Mat(n\times n, \mathbb{C})$ with non-negative [[eigenvalue]]s and unit [[trace]]. This is called a **[[density matrix]]**.  Note that this is less restrictive than the state vector representation of states since multiple state vectors can give a single density matrix.
 
-## Definition
-
 The full state of a quantum system with $n \in \mathbb{N}$ degrees of freedom is given by the set of observables, $Q(q)$.  We most often work with subsets of observables such as spatial $Q(x) \subset Q(q)$ or spin $Q(s) \subset Q(q)$.  Categorically, quantum states are always objects within a category and the morphisms of a category represent the transformations that the states can undergo.
 
 +--{: .query}
@@ -45,9 +69,20 @@ The full state of a quantum system with $n \in \mathbb{N}$ degrees of freedom is
 Again, from the viewpoint of AQFT you start with the $C*$-algebra of observables, the state of a system is given by a state of the algebra in a mathematical sense, and the Hilbert space enters through the GNS construction with respect to that state.
 =--
 
-### Categorical caveat
 
-It pays to spend some time looking over the entry on [[2-vector space]] since the categorification of vector spaces is not entirely clear.
+
+## Definition
+
+
+### In FQFT
+
+#### States as rays in Hilbert spaces
+
+#### States in higher dimensional extended QFTs
+
+### In AQFT
+
+#### Linear functionals on operator algebras
 
 ## References
 
