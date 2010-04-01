@@ -11,6 +11,7 @@ In the study of ordinary differential equations one of the important things is t
 
 * A. A. Kapaev, _Quasi-linear Stokes phenomenon for the Painlev&#233; first equation_, J. Phys. A: Math. Gen. __37__, 11149 (2004) [doi](http://dx.doi.org/10.1088/0305-4470/37/46/005)
 
+* A. A. Bolibruch, A. R. Its, A. A. Kapaev, _On the Riemann&#8211;Hilbert&#8211;Birkhoff inverse monodromy problem and the Painlev&#233; equations_, &#1040;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072; &#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;, 16:1 (2004), 121&#8211;162 
 
 
 [[!redirects Painlev%C3%A9 trasncendent]]
