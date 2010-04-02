@@ -102,6 +102,14 @@ He then commented:
 
 > I would be very interested to know if anyone can extract from this definition a finite collection of composition operations on squares, and a finite collection of equations between them, which together generate all the others. The key obstable seems to be problem that identity 1-cells are not strict in either direction.
 
+## Related pages
+
+* [[2-category equipped with proarrows]]
+
+* [[double profunctor]]
+
+* [[framed bicategory]]
+
 
 ## References ##
 
