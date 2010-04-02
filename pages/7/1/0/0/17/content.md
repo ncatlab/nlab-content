@@ -216,7 +216,7 @@ First quantization is a mystery, but second quantization is a functor.
 
 ## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
 
-As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges [write my essay](http://custom-essay-writing-service.org/faq.php) to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
+As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
 
 However, you do not need any password to **see** the stylesheet tweaks on the various webs, so if you see a feature that you would like on one of the other webs (including the main one), then go to the "Edit Web" link at the bottom of that web\'s [[HomePage]] to view the 'Stylesheet tweaks >>'.
 
@@ -227,7 +227,7 @@ If you have some material at a page called `foo` that you want to include direct
 
 Besides such sidebars that appear in many pages, you can also use inclusion to put in something that contains a bunch of ugly code (such as raw <abbr title="scalable vector graphics">SVG</abbr>) without mucking up the rest of the page.  That is, you put your messy code in `bar/foo` and then put <nowiki><code>[[!include bar/foo]]</code></nowiki> in `bar`.  Note that this is for something that, logically, should appear within `bar` itself, which is why `bar` appears in the name of the included page.
 
-Note that the included page goes directly in where it is called with no surrounding whitespace.  This can mean that formatting rules are broken on the include.  For example, if the included file starts [certified resume writers](http://cvresumewriters.com/onlineresume.php) and ends with a `div` tag and is included with no surrounding blank lines then this breaks the rules and will generate an error.
+Note that the included page goes directly in where it is called with no surrounding whitespace.  This can mean that formatting rules are broken on the include.  For example, if the included file starts and ends with a `div` tag and is included with no surrounding blank lines then this breaks the rules and will generate an error.
 
 
 
