@@ -85,7 +85,7 @@ The $k$-slice of $A$ is defined as follows: the full subcategory of $A_n-\mathbf
 
 # Computads as cofibrant resolutions #
 
-With respect to the [[folk model structure]] on [[strict omega-category|strict ∞-categories]]
+With respect to the [[canonical model structure]] on [[strict omega-category|strict ∞-categories]]
 
 * Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
 
