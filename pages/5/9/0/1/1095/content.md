@@ -14,14 +14,14 @@ The 1-categorical analog of the discussion is this entry is at [[category of she
 ## Idea
 
 For any [[(∞,1)-category]] $C$ every [[(∞,1)-functor]] $\bar {(-)} : C \to D$ which admits a [[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] -- equivalently every [[(∞,1)-functor]] $L : C \to C$ which is 
-[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is a [[localization of an (∞,1)-category]] onto a [[reflective (∞,1)-subcategory]] characterized by the collection $W$ of [[morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]]. One can think of it 
+[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is a [[localization of an (∞,1)-category]] onto a [[reflective (∞,1)-subcategory]] characterized by the collection $W$ of [[morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]] [book report help](http://essaywritingservices.org/book-report.php). One can think of it 
 
 * as _inverting_ these morphisms;
 
 * as projecting onto those objects of $C$ which are [[local object|local]] with respect to these morphsims: those objects which sees $W$ as a collection of equivalences.
 
 Using the familiar characterization of the [[category of sheaves]] in the 1-categorical context, this straightforwardly suggests to characterize 
-_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(∞,1)-topoi]] as essential images of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors from [[(infinity,1)-category of (infinity,1)-functors|(∞,1)-categories of (∞,1)-presheaves]]
+_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(∞,1)-topoi]] as essential images [certified resume writers](http://cvresumewriters.com/onlineresume.php) of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors from [[(infinity,1)-category of (infinity,1)-functors|(∞,1)-categories of (∞,1)-presheaves]]
 
 $$
  \bar{(-)} : PSh(S) \to Sh(S)
