@@ -15,7 +15,7 @@ and a _natural transformation enriched over $K$_, obtaining a [[strict 2-categor
 
 There is also an enriched notion of [[limit]] called a [[weighted limit]], but it is somewhat more subtle (and in particular, it is difficult to construct purely on the basis of the 2-category $K$-Cat).
 
-More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a [[double category]], or an [[fc-multicategory]].
+More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a [[double category]], or a [[virtual double category]].
 
 See also [[enriched category theory]].
 
