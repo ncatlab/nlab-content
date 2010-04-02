@@ -87,9 +87,13 @@ This definition/characterization of profunctors works for internal categories as
 
 ### In terms of two-sided codiscrete cofibrations
 
-Yet another way of representing profunctors is via their [[collages]], also called [[cograph of a profunctor|cographs]].  The collage of a profunctor $H\colon C &#8696; D$ is, in particular, a category $\bar{H}$ equipped with functors $C\to \bar{H}$ and $D\to\bar{H}$ which are [[fully faithful functor|fully faithful]] and jointly bijective on objects.  In fact, the objects of the [[undercategory]] $(C\sqcup D)/Cat$ which are collages of profunctors can be characterized, up to equivalence, as the *two-sided codiscrete cofibrations*, i.e. the two-sided discrete fibrations in $Cat^{op}$.
+Yet another way of representing profunctors is via their [[collages]], also called [[cograph of a profunctor|cographs]].  The collage of a profunctor $H\colon C &#8696; D$ is, in particular, a category $\bar{H}$ equipped with functors $C\to \bar{H}$ and $D\to\bar{H}$ which are [[fully faithful functor|fully faithful]] and jointly bijective on objects.
 
-This characterization works just as well in both the internal and enriched case.  Perhaps surprisingly, it also tends to give the "right" notion of profunctor starting with many other, even more exotic, 2-categories.  However, it is trickier to figure out how to define the composite of codiscrete cofibrations.  References include:
+In fact, the objects of the [[undercategory]] $(C\sqcup D)/Cat$ which are collages of profunctors $C &#8696; D$ can be characterized, up to equivalence, as the *two-sided codiscrete cofibrations*, i.e. the two-sided discrete fibrations in $Cat^{op}$.  In simpler and more explicit language, these are the categories $M$ which contain $C$ and $D$ as disjoint full subcategories which are jointly-[[wide subcategory|wide]] (i.e. together contain all the objects), and such that there are no morphisms from an object of $C$ to an object of $D$.  Equivalently, they are the categories which admit a functor to the [[interval category]] $I$ such that $D$ is the fiber over $0$ and $C$ is the fiber over $1$.
+
+When viewing a profunctor $H\colon C &#8696; D$ in this way, one may sometimes speak of elements of $H(d,c)$ as *heteromorphisms* from $d$ to $c$, since they are morphisms in the category $\bar{H}$ and can be "composed" with morphisms of $C$ and $D$ (this corresponds to the "action" of $C$ and $D$ on $H$ in the other formulations), but they go between objects of two different categories (namely $C$ and $D$).
+
+This characterization works just as well in both the internal and enriched case.  Perhaps surprisingly, it also tends to give the "right" notion of profunctor starting with many other, even more exotic, 2-categories.  However, it is trickier to figure out how to define the composite of profunctors viewed as codiscrete cofibrations.  References include:
 
 * [[Ross Street]], "Fibrations in bicategories"
 
@@ -128,6 +132,8 @@ This characterization works just as well in both the internal and enriched case.
 * [[module]]
 
 * [[2-vector space]]
+
+* [[double profunctor]]
 
 ## References ##
 
