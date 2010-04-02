@@ -1,4 +1,5 @@
-<div class="rightHandSide toc">
+<div class="rightHandSide toc" markdown="1">
+
 [[!include (infinity,1)-topos - contents]]
 </div>
 
@@ -14,7 +15,7 @@ The 1-categorical analog of the discussion is this entry is at [[category of she
 ## Idea
 
 For any [[(∞,1)-category]] $C$ every [[(∞,1)-functor]] $\bar {(-)} : C \to D$ which admits a [[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] -- equivalently every [[(∞,1)-functor]] $L : C \to C$ which is 
-[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is a [[localization of an (∞,1)-category]] onto a [[reflective (∞,1)-subcategory]] characterized by the collection $W$ of [[morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]] [book report help](http://essaywritingservices.org/book-report.php). One can think of it 
+[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is a [[localization of an (∞,1)-category]] onto a [[reflective (∞,1)-subcategory]] characterized by the collection $W$ of [[morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]]. One can think of it 
 
 * as _inverting_ these morphisms;
 
