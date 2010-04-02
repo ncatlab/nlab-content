@@ -15,3 +15,6 @@ The [[cograph of a functor]] is the special case when $H$ is a "representable pr
 The cograph of a profunctor can be given a universal property: it is the [[lax colimit]] of that profunctor, considered as a single arrow in the [[bicategory]] of profunctors.  (The word "collage" is also sometimes used more generally for any lax colimit, especially in a $Prof$-like bicategory.)  The cograph of a profunctor is also a [[cotabulation]] in the [[proarrow equipment]] of profunctors.  Furthermore, the [[cospans]] $A\to \bar{H} \leftarrow B$ which are cographs of profunctors can be characterized as the [[Grothendieck fibration|two-sided codiscrete cofibrations]] in the [[2-category]] [[Cat]].
 
 All of this can be generalized to [[enriched categories]] and also to [[higher category theory|higher categories]].
+
+[[!redirects collage]]
+[[!redirects collages]]
