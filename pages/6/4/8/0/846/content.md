@@ -20,68 +20,148 @@ When $S = \Delta^0$ is the [[point]], then the join $S \star T$ is a genuine [[c
 
 For example, consider the two cones over $[2]$, the standard 2-simplex.  The first picture represents $[0]\star [2]$, while the second represents $[2]\star [0]$.  
 
-+-- {: style="text-align:center"}
-<svg width="470" height="300" xmlns="http://www.w3.org/2000/svg" se:nonce="90800" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+$$
+\begin{matrix}
+\begin{svg}
+<svg width="205" height="183" xmlns="http://www.w3.org/2000/svg" se:nonce="92019" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <defs>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw1" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
-   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000"/>
+  <marker viewBox="0 0 10 10" id="se_arrow_92019_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
   </marker>
-  <marker viewBox="0 0 10 10" id="se_arrow_bk2" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="2">
-   <path d="m10,0l-10,5l10,5l-5,-5l5,-5z" fill="#000"/>
-  </marker>
-  <marker viewBox="0 0 10 10" id="se_arrow_fw3" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
-   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000"/>
-  </marker>
+  <linearGradient id="svg_92019_7" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+   <stop offset="1" stop-color="#000000" stop-opacity="0.25"/>
+  </linearGradient>
  </defs>
  <g>
   <title>Layer 1</title>
-  <g id="svg_90800_8">
-   <g id="svg_90800_7">
-    <path d="m273.899261,50.184601l102.532623,1.93298l68.666626,28.003544l-171.199249,-29.936523z" transform="rotate(171.277, 359.406, 64.2637)" fill="#d3d3d3" stroke="#000" stroke-width="0" stroke-dasharray="null" id="svg_124"/>
-    <path d="m286.528839,195.433014l69.399536,28.428802l-47,-167.000027l-22.399536,138.571224z" transform="rotate(171.277, 321.287, 140.334)" fill="#d1cfcf" stroke="#000" stroke-width="0" stroke-dasharray="null" id="svg_125"/>
-    <path d="m333.971008,213.648163l121.404419,-140.879189l-22,143.000023l-99.404419,-2.12085z" transform="rotate(171.277, 394.68, 144.234)" fill="#b5b5b5" stroke="#000" stroke-width="0" stroke-dasharray="null" id="svg_126"/>
-   </g>
-   <g id="svg_90800_6">
-    <text x="273.762" y="71.1651" id="svg_86" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif">0</text>
-    <text x="344.746" y="87.3238" id="svg_87" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif">1</text>
-    <text x="444.18" y="75.3433" id="svg_88" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif">2</text>
-    <text x="346.41" y="231.868" id="svg_89" fill="#000000" stroke="#000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif">[0]</text>
-   </g>
-  </g>
-  <g id="svg_90800_5">
-   <g id="svg_90800_3">
-    <path d="m23.90435,209.648621l102.532631,1.932983l68.666641,28.00354l-171.199272,-29.936523z" id="svg_61" fill="#a3a3a3" stroke="#000" stroke-width="0" stroke-dasharray="null" transform="rotate(-8.04566, 109.506, 224.617)"/>
-    <path d="m115.353127,206.267456l67.999992,27.000031l-46.999985,-167.000023l-21.000008,139.999992z" id="svg_63" fill="#b7b7b7" stroke="#000" stroke-width="0" stroke-dasharray="null" transform="rotate(-8.04566, 149.352, 149.768)"/>
-    <path d="m12.445761,212.673386l123.534037,-138.933708l-21.999985,143.000038l-101.534052,-4.066315z" id="svg_62" fill="#d1d1d1" stroke="#000" stroke-width="0" stroke-dasharray="null" transform="rotate(-8.04566, 74.2129, 145.24)"/>
-   </g>
-   <g id="svg_90800_4">
-    <text x="21.4613" y="229.463" id="svg_71" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif" transform="rotate(1.91612, 21.4609, 221.463)">0</text>
-    <text x="124.847" y="217.771" id="svg_72" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif" transform="rotate(1.91612, 124.848, 209.771)">1</text>
-    <text x="193.993" y="234.297" id="svg_73" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif" transform="rotate(1.91612, 193.992, 226.299)">2</text>
-    <text x="138.883" y="74.7254" id="svg_74" fill="#000000" stroke="#000" stroke-width="0" stroke-dasharray="null" text-anchor="middle" xml:space="preserve" font-size="24" font-family="serif" transform="rotate(-8.12388, 125.043, 68.3871) matrix(0.982818, 0.184576, -0.184576, 0.982818, 1.23277, -24.7929)">[0]</text>
-   </g>
-  </g>
-  <polyline stroke-width="2" se:connector="svg_86 svg_88" id="svg_97" points="278.762,63.2867 358.971,65.2539 439.18,67.2211" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_87 svg_88" id="svg_96" points="347.746,78.9628 393.463,73.4545 439.18,67.9462" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_86 svg_87" id="svg_95" points="278.762,64.3024 310.254,71.4718 341.746,78.6412" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_88 svg_89" id="svg_94" points="439.246,75.3438 396.22,145.105 353.194,214.867" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_87 svg_89" id="svg_93" points="344.837,87.3242 345.561,151.096 346.285,214.867" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_86 svg_89" id="svg_92" points="277.334,71.1641 309.416,143.016 341.499,214.867" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_71 svg_73" id="svg_80" points="26.6172,221.634 107.432,223.865 188.246,226.096" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_72 svg_73" id="svg_79" points="127.676,210.442 157.961,217.707 188.246,224.972" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_71 svg_72" id="svg_78" points="26.6172,220.906 74.1465,215.485 121.676,210.065" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_74 svg_73" id="svg_77" points="129.839,79.6758 159.913,148.869 189.988,218.062" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_74 svg_71" id="svg_76" points="117.567,79.6758 72.0921,146.791 26.6172,213.905" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <polyline stroke-width="2" se:connector="svg_74 svg_72" id="svg_75" points="125.014,79.6758 124.855,140.621 124.697,201.566" stroke="#000" fill="none" marker-end="url(#se_arrow_fw3)"/>
-  <path d="m-997.370361,873.996216l123,-139.999939l-22,142.999939l-101,-3z" transform="rotate(-180, 2680.15, -6316.13) matrix(0.988881, -0.148709, 0.148709, 0.988881, -20.793, 54.4602)" fill="#bcbcbc" stroke="#000" stroke-width="0" stroke-dasharray="null" id="svg_85"/>
-  <path d="m255.030853,69.940491l101.466675,1.933327l66.000061,26.933342l-167.466736,-28.866669z" transform="rotate(-180, -2305.71, 268.625) matrix(0.988881, -0.148709, 0.148709, 0.988881, 3.38641, 45.8432)" fill="#a5a5a5" stroke="#000" stroke-width="0" stroke-dasharray="null" id="svg_83"/>
-  <g id="svg_105" transform="rotate(8.6766, 307.787, 139.809) rotate(-8.61437, 307.787, 139.809) rotate(-8.61437, 307.787, 139.809)"/>
-  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="21" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_90800_1" y="269.383" x="120">[0] &#9733; [2]</text>
-  <text transform="matrix(1, 0, 0, 1, 0, 0)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="20" stroke-dasharray="null" stroke-width="0" stroke="#000" fill="#000000" id="svg_90800_2" y="269" x="345">[2] &#9733; [0]</text>
+  <path fill="url(#svg_92019_7)" stroke-width="2" d="m106.666656,19.33334l4.708,116.302189l80.708687,36.197815l-85.416687,-152.500004z" id="svg_92019_6"/>
+  <path d="m106.375,20l-92,151l178,1l-86,-152z" id="svg_92019_1" fill="#000000" stroke-width="2" fill-opacity="0.25"/>
+  <path d="m14.125,170.75l97.734283,-36.5l80.515717,37.75" id="svg_92019_2" fill="#000000" fill-opacity="0.25" stroke-width="2"/>
+  <foreignObject x="96" y="0" id="svg_92019_3" font-size="16" width="20" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mn>0</mn>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[0]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="0" y="163.125" id="svg_92019_4" font-size="16" width="16" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <annotation encoding="application/x-tex">0</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="104" y="136" font-size="16" width="16" height="20" id="svg_92019_5">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <annotation encoding="application/x-tex">1</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="188.875" y="162.875" font-size="16" width="16" height="20" id="svg_92019_12">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+     <annotation encoding="application/x-tex">2</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line x1="14.875" y1="170.5" x2="109.125" y2="135.375" id="svg_92019_26" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_92019_fw)"/>
+  <line x1="14.625" y1="171" x2="181.25001" y2="172.125" id="svg_92019_27" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_92019_fw)"/>
+  <line x1="112.125" y1="134.625" x2="183.875" y2="168" id="svg_92019_28" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_92019_fw)"/>
+  <line x1="106.37498" y1="19.87501" x2="16.874986" y2="166.999999" id="svg_92019_29" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_92019_fw)"/>
+  <line x1="109.072297" y1="20.497995" x2="108.197297" y2="132.619014" id="svg_92019_30" stroke="#000000" stroke-width="2" fill="none" transform="rotate(-3.16201, 108.635, 76.5585)" marker-end="url(#se_arrow_92019_fw)"/>
+  <line x1="106.375" y1="19" x2="187.875" y2="164.99999" id="svg_92019_31" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#se_arrow_92019_fw)"/>
  </g>
 </svg>
-=--  
+\end{svg}
+&
+\begin{svg}
+<svg width="205" height="183" xmlns="http://www.w3.org/2000/svg" se:nonce="82471" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker viewBox="0 0 10 10" id="se_arrow_82471_fw" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000000"/>
+  </marker>
+  <linearGradient y2="1" x2="1" y1="0" x1="0" id="svg_82471_16">
+   <stop stop-opacity="0" stop-color="#000000" offset="0"/>
+   <stop stop-opacity="1" stop-color="#000000" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#000000" stroke-width="2" d="m14,8l87,156.25l87,-156.25l-174,0z" id="svg_82471_1" fill-opacity="0.25"/>
+  <line fill="none" stroke="#000000" stroke-width="2" fill-opacity="0.25" x1="14.75" y1="9" x2="96.75" y2="157.125006" id="svg_82471_3" marker-end="url(#se_arrow_82471_fw)"/>
+  <line fill="none" stroke="#000000" stroke-width="2" fill-opacity="0.25" x1="186.500007" y1="10.562499" x2="105.062506" y2="157.062488" id="svg_82471_4" marker-end="url(#se_arrow_82471_fw)"/>
+  <line fill="none" stroke="#000000" stroke-width="2" fill-opacity="0.25" x1="14.375" y1="7.875" x2="88.875006" y2="47.125002" id="svg_82471_5" marker-end="url(#se_arrow_82471_fw)"/>
+  <line fill="none" stroke="#000000" stroke-width="2" fill-opacity="0.25" x1="91.124998" y1="47.25" x2="178.437491" y2="11.937498" id="svg_82471_6" marker-end="url(#se_arrow_82471_fw)"/>
+  <line fill="none" stroke="#000000" stroke-width="2" fill-opacity="0.25" x1="16.375007" y1="7.625" x2="176.312498" y2="7.9375" id="svg_82471_7" marker-end="url(#se_arrow_82471_fw)"/>
+  <line fill="none" stroke="#000000" stroke-width="2" fill-opacity="0.25" x1="90.500001" y1="50" x2="101.062501" y2="155.625003" id="svg_82471_8" marker-end="url(#se_arrow_82471_fw)"/>
+  <foreignObject x="91.25" y="163.25" id="svg_82471_9" font-size="16" width="20" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mn>0</mn>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[0]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="0" y="0" id="svg_82471_10" font-size="16" width="16" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <annotation encoding="application/x-tex">0</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="189" y="0.1875" id="svg_82471_11" font-size="16" width="16" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+     <annotation encoding="application/x-tex">2</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="83.75" y="27.25" id="svg_82471_12" font-size="16" width="14" height="20">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+    <semantics>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <annotation encoding="application/x-tex">1</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <path id="svg_82471_2" d="m188,7.916668l-97.666649,40.355015l10.610336,115.978271" fill-opacity="0.25" stroke-width="2" fill="#000000"/>
+  <path id="svg_82471_13" d="m14.999999,8.666668l85.666665,155.000004l-9.666664,-114.666672" fill-opacity="0.25" stroke-width="2" fill="url(#svg_82471_16)"/>
+ </g>
+</svg>
+\end{svg} \\
+[0]\star [2] & [2]\star [0]
+\end{matrix}
+$$
 
 If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and $C D$ in the picture below), then join every point in one to every point in the other, you get a 3-simplex (the tetrahedron in the picture). You can think of this as being the union of all the cones on the first segment, with cone points on the second one. We have that the join $\Delta[1]\star \Delta[1]$ is $\Delta[3]$.
 
