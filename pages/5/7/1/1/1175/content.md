@@ -37,7 +37,7 @@ In this paragraph $\mathcal{M}$ will always be a von Neumann algebra acting on a
 
 ##projections in von Neumann algebras
 One crucial feature of von Neumann algebras is that they contain 
-"every projection one could wish": there are three points that make this statement precise:
+"every projection one could wish for": there are three points that make this statement precise:
 
 * the linear combinations of projections are norm dense in a von Neumann algebra
 
@@ -55,11 +55,38 @@ Then, by the [[spectral theorem]] every selfadjoint element A is represented by 
 $$
 A = \integral_{-\|A\|}^{\|A\|} \lambda E(d\lambda)
 $$
-The integral converges in norm to A and all spectral projections are elements of the von Neumann algebra. It immediatly follows that the set of finite sums of multiples of projections are norm dense in every von Neumann algebra. 
+The integral converges in norm to A and all spectral projections are elements of the von Neumann algebra. It immediatly follows that the set of finite sums of multiples of projections is norm dense in every von Neumann algebra. 
 
-### Gleason's theorem
+### Gleason's theorem {#GleasonsTheorem}
+
+#### classical Gleason's theorem 
+The classical Gleanson's theorem says that a state of the $C^*$- algebra $\mathcal{B}(\mathcal{H})$ of all bounded operators of a Hilbert space is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the Hilbert space $\mathcal{H}$ is not 2.
+
+It is possible to extend the theorem to certain types of von Neumann algebras (e.g. obviously factors of type $I_2$ have to be excluded).
+
+* definition: let $\rho: \mathcal{P} \to [0, 1]$ such that for every finite family $\{ P_1, ..., P_n: P_i \in \mathcal{P} \}$ of pairwise orthogonal projections we have $\rho(\sum_{i=1}^n P_i) = \sum_{i=1}^n \rho(P_i) $, then $\rho$ is a **finitely additive measure** on $\mathcal{P}$.
+
+* theorem: if $dim(\mathcal{H}) \neq 2$ then each finitley additive measure on $\mathcal{P}$ can be uniquely extended to a state on $\mathcal{B}(\mathcal{H})$. Conversly the restriction of every state to $\mathcal{P}$ is a finitley additive measure on $\mathcal{P}$.
 
 * Wikipedia on [Gleason's theorem] (http://en.wikipedia.org/wiki/Gleason%27s_theorem)
+
+#### extension to certain types of von Neumann algebras
+...
+
+##### References
+
+A modern monograph stating and proving both the classical theorem and extensions to von Neumann algebras is this:
+
+* Hamhalter, Jan: "Quantum measure theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1038.81003&format=complete))
+
+#### implications for quantum logic
+Roughly, Gleason's theorem says that "a quantum state is completly determined by only knowing the answers to all of the possible yes/no questions".
+
+##### References
+
+A modern exposition of the Copenhagen interpretation, can be found here:
+
+* Roland Omn&#232;s: "The Interpretation of Quantum Mechanics", Princeton University Press, Princeton, New Jersy, 1994.
 
 ### Murray-von Neumann classification of factors 
 To be done...
