@@ -69,7 +69,7 @@ You may wish to customize the font scheme (both for math or text) on the nLab, a
 Currently, the following stylish themes are available:
 
 * [nLab Stylish theme](http://userstyles.org/styles/17934) by [[Bruce Bartlett]].  This nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience!
-* [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
+* [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schappi|Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
 
 
 ## How to Download a Local Copy of the n-Lab {#download}
