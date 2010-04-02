@@ -272,7 +272,7 @@ One can formulate a generalized notion of equipment which includes $V Cat$ for _
 $$\array{ & \to \to \dots \to &\\
   \downarrow & \Downarrow & \downarrow\\
   & \underset{}{\to}& .}$$
-So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[fc-multicategory]] (aka "virtual double category").  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of **virtual equipment** (see references).  Most of  category theory can be done in a virtual equipment just as well as in an equipment.
+So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[virtual double category]].  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of **virtual equipment** (see references).  Most of category theory can be done in a virtual equipment just as well as in an equipment.
 
 
 ## Categories enriched in an equipment ##
