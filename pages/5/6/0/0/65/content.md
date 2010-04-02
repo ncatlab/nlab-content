@@ -9,22 +9,16 @@
 
 #Idea#
 
-In general, "folk model structures" are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed).
+In general, **canonical model structures** are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed), which are intended to capture the correct "categorical" theory of these categories.
 
-The appropriateness of the term 'folk' is [debatable](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=649&page=1#Item_3); alternatives are 'endogenous' 'canonical', 'standard', 'natural', and 'categorical'. See the _[[joyalscatlab:Model structures on Cat|Catlab]]_
-for the theory of this structure.
+Canonical model structures are sometimes called "folk" model structures, but the appropriateness of this term is very [questionable](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=649&page=1#Item_3), especially in the cases $n \gt 1$.  Other alternatives are 'endogenous', 'standard', 'natural', and 'categorical'.
 
-While ultimately the collection of all [[n-category|n-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]]. So in general, given that $n$ may be $= \infty$, an [[(infinity,1)-category]].
-
-A (folk) [[model category|model structure]] on the category of $n$-categories is a [[presentable (infinity,1)-category|presentation]] of this [[(infinity,1)-category]].
-
-
-A _folk_ model structure is characterized by the fact that the [[(infinity,1)-category]] that it induces is really the expected one, in that [[weak equivalence|weak equivalences]] are the [[equivalence of categories|category-theoretic equivalences]].  
+While ultimately the collection of all [[n-category|n-categories]] should form an $(n+1)$-category, restricting that to just invertible higher morphisms will yield an [[(n,r)-category|(n+1,1)-category]], and thus in particular an [[(∞,1)-category]].  It is this (∞,1)-category which is intended to be [[presentable (infinity,1)-category|presented]] by a canonical model structure.  In particular, the [[weak equivalences]] in a canonical model structure should be the [[equivalence of categories|category-theoretic equivalences]].  
 
 This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a [[model structure on simplicial sets|weak homotopy equivalence]] of [[nerve|nerves]].  This amounts to regarding each category, or rather its [[nerve]], as a placeholder for its _groupoidification_ (Kan fibrant replacement) and then considering the standard notion of equivalence.
 
 
-In a folk model structure for some flavor of $n$-categories, usually
+In a canonical model structure for some flavor of $n$-categories, usually
 
 * a **fibration** is a functor that lifts [[equivalence|equivalences]] in all dimensions,
 * an **acyclic fibration** is a functor which is [[k-surjective functor|k-surjective]] for all $0\le k\le n$,
@@ -34,12 +28,14 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 
 #References on particular cases#
 
-* The folk model structure for 1-categories was known to experts for some time before being written down formally (hence the name).
+* The canonical model structure for 1-categories was known to experts for some time before being written down formally (this is the origin of the adjective "folk").
    * It was apparently first published (for categories internal to a Grothendieck topos) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
    * A more elementary writeup by Charles Rezk can be found [here](http://www.math.uiuc.edu/~rezk/cat-ho.dvi).
    * A general internal version relative to a Grothendieck [[coverage]] can be found [here](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html).
    * A brief summary, together with a generalization when one assumes only weaker versions of the [[axiom of choice]], can be found at [[folk model structure on Cat]].
-* The "folk" model structures for 2-categories and bicategories are due to Steve Lack.
+   * See also the [[joyalscatlab:Model structures on Cat|Catlab]].
+
+* The canonical model structures for 2-categories and bicategories are due to Steve Lack.
    * _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
    * _A Quillen Model Structure for Biategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
 
@@ -54,6 +50,7 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 * for $n = \omega$ and all morphisms invertible, there is the [[model structure on strict omega-groupoids]]: 
 
    * R. Brown and M. Golasinski, _A model structure for the homotopy theory of crossed complexes_, Cah. Top. G&eacute;om. Diff. Cat. 30 (1989) 61-82 ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/RB-golskyrev.pdf))
+
 
 #Internalization#
 
@@ -72,7 +69,7 @@ In
 * F. M&eacute;tayer, _Cofibrant complexes are free_ ([arXiv](http://arxiv.org/abs/math.CT/0701746))
 
 
-it is shown that _cofibrant_ $\omega$-categories with respect to the folk model structure are precisely the "free" ones, where "free" here means "generated from a polygraph" as described in 
+it is shown that _cofibrant_ $\omega$-categories with respect to the canonical model structure are precisely the "free" ones, where "free" here means "generated from a polygraph" as described in 
 
 * F. M&eacute;tayer, _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
 
@@ -80,3 +77,7 @@ it is shown that _cofibrant_ $\omega$-categories with respect to the folk model 
 
 We had some blog discussion about this at
 [Freely generated omega-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
+
+[[!redirects folk model structure]]
+[[!redirects canonical model structures]]
+[[!redirects folk model structures]]
