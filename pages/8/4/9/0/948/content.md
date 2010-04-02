@@ -2,6 +2,7 @@
 * tic
 {: toc}
 
+## Idea
 
 Broadly speaking, __constructive mathematics__ is mathematics done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent; these variations may be seen in the list of schools below.  However, it is probably best to use more precise terms (predicativism, intuitionism, etc) in this case.
 
@@ -9,7 +10,7 @@ __Constructivism__ is the philosophy that such mathematics is useful, or (more s
 
 Another motivation for modern mathematicians ---especially category theorists like those on the nLab--- is that the study of constructive mathematics has potential applications to non-constructive mathematics.  For example, even if one believes the principle of excluded middle to be true, the "[[internal logic|internal]]" version of excluded middle in many interesting [[category|categories]] is still false; thus constructive mathematics can be useful in the study of such categories, even if mathematics is "globally" non-constructive.  This is the neutral motivation for constructive mathematics from the [nPOV](/nlab/show/nPOV#Logic).
 
-Here we write mostly about the mathematics, philosophically neutral.
+Here we write mostly about the mathematics, trying to be mostly neutral philosophically.
 
 
 ## Origins and schools ##
