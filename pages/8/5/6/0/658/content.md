@@ -4,35 +4,38 @@
 
 ## Definition ##
 
-Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **profunctor** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
+If $C$ and $D$ are [[categories]], a **profunctor** from $C$ to $D$ is a functor $D^{op}\times C \to Set$.  Such a  profunctor is usually written as $F\colon  C &#8696; D$.
+
+Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*).
+
+The notion generalizes to many other kinds of categories.  For instance, if $C$ and $D$ are [[enriched category|enriched]] over some symmetric [[closed monoidal category]] $V$, then a profunctor from $C$ to $D$ is a $V$-functor $D^{op} \otimes C\to V$.  If they are [[internal categories]], then a profunctor $C &#8696; D$ is an [[internal diagram]] on $D^{op}\times C$, and so on.  There are also other equivalent definitions in each case; see below.
+
+A profunctor is also sometimes called a **[[bimodule|(bi)module]]** or a **distributor** or a **correspondence**, though the latter word is also used for a [[span]].  The term "module" tends to be common in Australia, especially in the enriched case; here the intuition is that for one-object $V$-categories, i.e. monoids in $V$, profunctors really are the same as [[bimodules]] between such monoids in the usual sense.  "Profunctor" is perhaps more common in the Set-based and internal cases (but is also used in the enriched case); here the intuition is that a profunctor is a generalization of a functor, via the construction of "representable" profunctors.  Jean B&#233;nabou, who invented the term and originally used "profunctor," now prefers "distributor," which is supposed to carry the intuition that a distribut**or** generalizes a funct**or** in a similar way to how a [[distribution]] generalizes a [[function]].
+
+Note that the convention that a profunctor is a functor $D^{op}\times C \to Set$ is not universal; some authors reverse $C$ and $D$ and/or put the "op" on the other one.  See the discussion below.
+
+
+## The bicategory of profunctors
+
+Profunctors are composed by using a [[coend]] to "trace out" the middle variable.  Specifically, for profunctors $F : C &#8696; D$ and $G : D &#8696; E$, their composite $G \circ F: C &#8696; E$ is defined to be
 
 $$
-  F : C &#8696; D : C\otimes D^{op} \to V
+  G \circ F := \int^{d \in D} F(d,-)\otimes G(-,d)
   \,.
 $$
 
-A profunctor is also sometimes called a **[[bimodule|(bi)module]]** or a **distributor** or a **correspondence**, though the latter word is also used for a [[span]].
+This yields a [[bicategory]] in which
 
-Such profunctors are composed by using a [[end|coend]] to "trace out" the middle variable:
+* objects are categories,
 
-for $F : C &#8696; D$ and $G : D &#8696; E$ profunctors, their composite  $G \circ F: C &#8696; E$ is defined to be
-
-$$
-  G \circ F := \int^{d \in D} F(-,d)\otimes G(d,-)
-  \,.
-$$
-
-This yields a [[bicategory]] $V\Mod$ with
-
-* objects are $V$-enriched categories;
-
-* morphisms are profunctors with the above composition;
+* morphisms are profunctors with the above composition, and
 
 * 2-morphisms are natural transformations.
 
-At least for $V = Set$ a morphism in $Set Mod$ is often called a **profunctor** and the bicategory $Set Mod$ is then often denoted $Prof$.
-See the [[joyalscatlab:Distributors and barrels|Catlab]] for the theory
-of set valued distributors.
+This bicategory is variously denoted $Prof$, $Mod$, or $Dist$, according to one's chosen name for profunctors.  In the enriched case, it is written $V Prof$ or $V Mod$ or $V Dist$.
+
+The construction of the "representable" profunctors $D(1,f)$ and $D(f,1)$ from a functor $f\colon C\to D$ yield two identity-on-objects functors $Cat \to Prof$ and $Cat^{op}\to Prof$.  Moreover, it is easy to check that $D(1,f) \vdash D(f,1)$ in the bicategory $Prof$; thus $Cat\to Prof$ is a [[proarrow equipment]] in the sense of Wood (in fact, the prototypical one).  This same fact can also be expressed by defining a (pseudo) [[double category]] in which functors and profunctors are the two kinds of arrows; the construction of representable profunctors is then given by [[companion]]s and [[conjoint]]s in this double category, which make it a [[framed bicategory]], hence an equivalent representation of a proarrow equipment.
+
 
 ## Alternative definitions ##
 
@@ -50,61 +53,60 @@ $$
 
 This may be thought of as a consequence of the [[co-Yoneda lemma]] (and hence, of course, of the [[Yoneda lemma]]) which says that every presheaf is colimit over [[representable functor|representables]], i.e. over objects in the image of the [[Yoneda embedding]] $Y : C \to PSh(C)$. This immediate implies that a colimit-preserving functor on $PSh(C)$ is already determined by its restriction along $Y$ to $C$.
 
-Now, profunctors $C \otimes D^{op} \to V$ are [[adjunct]] to functors $C \to [D^{op}, V] \simeq PSh(D)$. Hence by the above, profunctors are equivalent to colimit-preserving functors
+Now, profunctors $D^{op} \otimes C \to V$ are [[adjunct]] to functors $C \to [D^{op}, V] \simeq PSh(D)$. Hence by the above, profunctors are equivalent to colimit-preserving functors
 
 $$
   PSh(C) \to PSh(D)
   \,.
 $$
 
-Indeed, there is an equivalence of bicategories
-$V Mod$ and that of categories and colimit-preserving functors and natural transformation between their presheaf categories.
+Indeed, there is an equivalence of bicategories between $V Prof$ and the 2-category of categories and colimit-preserving functors and natural transformation between their presheaf categories.  Note that the latter is a [[strict 2-category]] which can thus serve as a "natural" strictification of $V Prof$.
 
 An explicit statement of this can be found for instance as prop. 4.2.4
 
 * Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.daimi.au.dk/~luca/thesis.html))
 
-This formulation plays a big role also in the context of [[(∞,1)-categories]]. A [[presentable (∞,1)-category]] is one equivalent to a [[localization]] of some [[(∞,1)-category of (∞,1)-presheaves]] (i.e. some [[reflective (∞,1)-subcategory]] of the latter). The collection of all [[presentable (∞,1)-categories]] and colimit-preserving [[(∞,1)-functors]] betweem them forms the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]], whose [[tensor product]] is the "bilinear" tensor product coming from interpreting colimit-preserving functors as "linear" (reading: colimit $\sim$ sum).
-
-This $(\infty,1)$-category $Pr^L$ therefore is an $(\infty,1)$-analog of $Set\text{-}Mod$. In [[geometric ∞-function theory]] one finds (see section 4 there) that morphisms in $Pr^L$ encode the "correspondence operations" such as Fourier-Mukai and its generalizations. See in that context also the examples below.
-
-
-## Examples ##
-
-* Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebras]], [[bimodules]] and bimodule homomorphisms.
-
-* For $V = (Set, \times)$, $SetMod$ is the bicategory of [[locally small category|locally small categories]], [[profunctors]] and transformations. 
-
-  The full sub-bicategory on [[discrete category|discrete categories]] is that of sets, [[spans]] of sets and morphisms of spans:
-  $$
-    Set\Mod_{disc} \simeq Span(Set) 
-    \,.
-  $$
-
-* Accordingly for $S = (Set^{op}, \times)$ we get the bicategory of [[cospans]]
-$$
-  Set^{op}\Mod_{disc} \simeq Span(Set^{op}) = Cospan(Set) 
-  \,.
-$$
-
-
-## Remarks ##
-
-* Every ordinary $V$-functor $f : C \to D$ yields a profunctor $\hat F : C &#8696; D$ which is 
+From this perspective, the representable profunctor induced by an ordinary $V$-functor $f : C \to D$ is 
 the [[adjunct]] of the postcomposition 
 $$
   C \stackrel{f}{\to} D \stackrel{Y}{\to} [D^{op},V]
 $$
-with the [[Yoneda embedding]] under the Hom-adjunction. This extends to a bifunctor
-$$
-  V\Cat \to V\Mod
-  \,.
-$$
+with the [[Yoneda embedding]] under the Hom-adjunction.
 
-  * For $V = Vect$ this is the generalization of how every morphism $A \to B$ of [[algebras]] induces the $A$-$B$ bimodule which as a vector space is $B$ with obvious right $B$ action and left $A$-action induced by first mapping $A$ to $B$ via $f$ and then using multiplication in $B$.
+The formulation of profunctors as colimit-preserving functors on presheaf categories plays a big role also in the context of [[(∞,1)-categories]]. A [[presentable (∞,1)-category]] is one equivalent to a [[localization]] of some [[(∞,1)-category of (∞,1)-presheaves]] (i.e. some [[reflective (∞,1)-subcategory]] of the latter). The collection of all [[presentable (∞,1)-categories]] and colimit-preserving [[(∞,1)-functors]] betweem them forms the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]], whose [[tensor product]] is the "bilinear" tensor product coming from interpreting colimit-preserving functors as "linear" (reading: colimit $\sim$ sum).
 
-  * For $V = Set$ this is the fact that every map $f : C \to D$ of sets induces the span 
-$$
+This $(\infty,1)$-category $Pr^L$ therefore is an $(\infty,1)$-analog of $Set\text{-}Mod$. In [[geometric ∞-function theory]] one finds (see section 4 there) that morphisms in $Pr^L$ encode the "correspondence operations" such as Fourier-Mukai and its generalizations. See in that context also the examples below.
+
+
+### In terms of two-sided discrete fibrations
+
+Recall that a functor $D^{op}\to Set$ can equivalently be described as a [[discrete fibration|discrete]] [[(Grothendieck) fibration]], and similarly a functor $C\to Set$ can be described as a discrete opfibration.  Thus, a profunctor $D^{op}\times C\to Set$ could be described by a discrete opfibration over $D^{op}\times C$, or a discrete fibration over $D\times C^{op}$, but there is also a more directly "two-sided" fibrational description.  A *two-sided fibration* from $C$ to $D$ is a functor $E\to C\times D$ which is a fibration over $D$ and an opfibration over $C$ in a compatible way; see [[Grothendieck fibration]] for details.  Such a fibration represents a pseudofunctor $D^{op}\times C\to Cat$, and hence if it is discrete it represents a profunctor $D^{op}\times C\to Set$.
+
+This definition/characterization of profunctors works for internal categories as well, but *not* for enriched ones.  It is sometimes called the [[graph of a profunctor]] (although this is sometimes also used for the other fibrational representations mentioned above).
+
+
+### In terms of two-sided codiscrete cofibrations
+
+Yet another way of representing profunctors is via their [[collages]], also called [[cograph of a profunctor|cographs]].  The collage of a profunctor $H\colon C &#8696; D$ is, in particular, a category $\bar{H}$ equipped with functors $C\to \bar{H}$ and $D\to\bar{H}$ which are [[fully faithful functor|fully faithful]] and jointly bijective on objects.  In fact, the objects of the [[undercategory]] $(C\sqcup D)/Cat$ which are collages of profunctors can be characterized, up to equivalence, as the *two-sided codiscrete cofibrations*, i.e. the two-sided discrete fibrations in $Cat^{op}$.
+
+This characterization works just as well in both the internal and enriched case.  Perhaps surprisingly, it also tends to give the "right" notion of profunctor starting with many other, even more exotic, 2-categories.  However, it is trickier to figure out how to define the composite of codiscrete cofibrations.  References include:
+
+* [[Ross Street]], "Fibrations in bicategories"
+
+* Carboni and Johnson and [[Ross Street|Street]] and [[Dominic Verity|Verity]], "Modulated bicategories"
+
+
+## Examples ##
+
+* Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebras]], [[bimodules]] and bimodule homomorphisms.  In this case, the "representable" profunctors correspond to the way in which every morphism $A \to B$ of [[algebras]] induces the $A$-$B$ bimodule which as a vector space is $B$ with obvious right $B$ action and left $A$-action induced by first mapping $A$ to $B$ via $f$ and then using multiplication in $B$.
+
+* The full sub-bicategory of $Set Prof$ on [[discrete category|discrete categories]] is the bicategory of sets, [[spans]] of sets and morphisms of spans:
+  $$
+    Set\Mod_{disc} \simeq Span(Set) 
+    \,.
+  $$
+  In this case, the representable profunctor induced by a map $f : C \to D$ of sets is the span
+  $$
   \array{
     && C
     \\
@@ -112,9 +114,13 @@ $$
     \\
     C &&&& D
   }
-$$
+  $$
 
-* The bifunctor $V\Cat \to V\Mod$ exhibits $V\Mod$ as a [[framed bicategory]], and makes $V\Cat$ into a [[2-category equipped with proarrows]].
+* Similarly, the full sub-bicategory of internal profunctors in $S = (Set^{op}, \times)$ on "discrete categories" is the bicategory of [[cospans]]
+  $$
+  Set^{op}\Mod_{disc} \simeq Span(Set^{op}) = Cospan(Set) 
+  \,.
+  $$
 
 
 ## Related entries ##
@@ -143,6 +149,8 @@ Excellent  notes from a course on _distributors_ given by
 Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher, are available from his website  &lt;http://www.mathematik.tu-darmstadt.de/~streicher>.
 
 * A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
+
+* See the [[joyalscatlab:Distributors and barrels|Catlab]] for the theory of set valued distributors.
 
 
 ***
@@ -179,7 +187,7 @@ Profunctors are often notated with a slashed or barred arrow, as in $C &#x21F8; 
 
 ## Discussion ##
 
-On a previous version of this entry with opposite convention on where to put the ${}^{op}$ [[Todd Trimble|Todd]] has remarked
+The following discussion is about where to put the "op" in the definition of a profunctor.
 
 +--{.query}
 _Todd_: There is an inevitable debate here about whether one should use $C^{op} \otimes D \to V$ or $C \otimes D^{op} \to V$. My own convention is to use the latter. For example, every functor $C \to D$ yields a profunctor by composition with the Yoneda embedding on $D$. 
