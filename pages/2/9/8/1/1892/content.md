@@ -46,7 +46,7 @@ See the [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?Categor
 Chances are that you are already familiar with discussions and with posting comments at the [n-Cafe](http://golem.ph.utexas.edu/category/). This section describes how you forward material from a blog comment to the $n$Lab. 
 
 
-After you typed your blog comment into the [n-Cafe](http://golem.ph.utexas.edu/category/) comment [service essays](http://custom-paper-writing.com/editing-services) edit box and **before** you hit submit copy the **source code** of the comment: the text that you just typed.
+After you typed your blog comment into the [n-Cafe](http://golem.ph.utexas.edu/category/) comment edit box and **before** you hit submit copy the **source code** of the comment: the text that you just typed.
 
 
 To paste that into an $n$Lab page, note the "Edit" link at the bottom of each $n$Lab page.
@@ -61,7 +61,7 @@ From here, you simply paste your copied content into the edit box and hit the "S
 
 Putting your name in the text box next to the "Submit" button is optional but recommended.
 
-This works best if your original comment was composed using the text filter (see the pulldown menu atop the blog comment edit box) called _Markdown with itex to MathML_.  If you're writing a lot on the Caf&#233; and want to [write my essay](http://custom-essay-writing-service.org/faq.php) on the Lab too, then it may be wise to use that filter by default.
+This works best if your original comment was composed using the text filter (see the pulldown menu atop the blog comment edit box) called _Markdown with itex to MathML_.  If you're writing a lot on the Caf&#233; and want to write on the Lab too, then it may be wise to use that filter by default.
 
 
 ## Copying material from elsewhere on the web into the $n$Lab ##
