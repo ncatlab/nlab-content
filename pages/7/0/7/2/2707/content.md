@@ -50,12 +50,8 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 
 ## Related entries##
 
-* [[pure motive]]
-
-* [[mixed motive]]
-
-* [[Voevodsky motive]]
-
+* [[pure motive]], [[mixed motive]], [[Voevodsky motive]]
+* [[zeta function]]
 
 ##Extensions##
 
