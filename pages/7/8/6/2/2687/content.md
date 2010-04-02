@@ -87,7 +87,7 @@
 
 * [[model structure on cubical sets|on cubical sets]]
 
-* [[folk model structure|on strict ∞-groupoids]]
+* [[canonical model structure|on strict ∞-groupoids]]
 
 * [[model structure on chain complexes|on chain complexes]]
 
@@ -115,9 +115,9 @@
 
 ### for $(n,r)$-categories
 
-* [[Theta space|for (n,r)-categories]]
+* [[Theta space|for (n,r)-categories as ∞-spaces]]
 
-* [[folk model structure|on strict ∞-categories]]
+* [[canonical model structure|on higher categories in general]]
 
 
 ### for $\infty$-sheaves / $\infty$-stacks
