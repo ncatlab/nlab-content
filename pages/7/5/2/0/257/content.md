@@ -89,7 +89,7 @@ which encapsulate classical homological algebra, and are related to the [[model 
 
 Of interest to category theorists is that many notions of [[higher category theory|higher categories]] come equipped with model structures, witnessing the fact that when retaining only invertible [[transfors]] between $n$-categories they should form an $(\infty,1)$-[[(infinity,1)-category|category]].  Many of these are called
 
-* [[folk model structure]]s, including "categorical" model structures for
+* [[canonical model structure]]s, including "categorical" model structures for
   * categories
   * (strict or weak) [[2-categories]]
   * [[strict ∞-categories]], and
@@ -108,7 +108,7 @@ Other "higher categorical structures" can also  be expected to form model catego
 
 which generalizes the Joyal model structure from [[(∞,1)-categories]] to [[(∞,1)-operads]].
 
-There is also another class of model structures on categorical structures, often called [[Thomason model structure]]s (not to be confused with the notion of "Thomason model category").  In the "categorical" or "folk" model structures, the weak equivalences are the categorical [[equivalences]], but in the Thomason model structures, the weak equivalences are those that induce weak homotopy equivalences of [[nerves]].  Thomason model structures are known to exist on 1-categories and 2-categories, at least, and are generally Quillen equivalent to the Quillen model structures on topological spaces and simplicial sets (via the nerve construction).
+There is also another class of model structures on categorical structures, often called [[Thomason model structure]]s (not to be confused with the notion of "Thomason model category").  In the "categorical" or "canonical" model structures, the weak equivalences are the categorical [[equivalences]], but in the Thomason model structures, the weak equivalences are those that induce weak homotopy equivalences of [[nerves]].  Thomason model structures are known to exist on 1-categories and 2-categories, at least, and are generally Quillen equivalent to the Quillen model structures on topological spaces and simplicial sets (via the nerve construction).
 
 ## Parametrized model structures
 
