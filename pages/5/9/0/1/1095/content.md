@@ -1,5 +1,4 @@
 <div class="rightHandSide toc" markdown="1">
-
 [[!include (infinity,1)-topos - contents]]
 </div>
 
@@ -22,7 +21,7 @@ For any [[(∞,1)-category]] $C$ every [[(∞,1)-functor]] $\bar {(-)} : C \to D
 * as projecting onto those objects of $C$ which are [[local object|local]] with respect to these morphsims: those objects which sees $W$ as a collection of equivalences.
 
 Using the familiar characterization of the [[category of sheaves]] in the 1-categorical context, this straightforwardly suggests to characterize 
-_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(∞,1)-topoi]] as essential images  of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors from [[(infinity,1)-category of (infinity,1)-functors|(∞,1)-categories of (∞,1)-presheaves]]
+_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(∞,1)-topoi]] as essential images of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors from [[(infinity,1)-category of (infinity,1)-functors|(∞,1)-categories of (∞,1)-presheaves]]
 
 $$
  \bar{(-)} : PSh(S) \to Sh(S)
@@ -102,4 +101,8 @@ J. Lurie, [[Higher Topos Theory]].
 
 * the relation between the [[model structure on simplicial presheaves|Brown?Joyal?Jardine model]] and the general story is discussed at length in section 6.5.4
 
+
+[[!redirects (infinity,1)-category of (infinity,1)-sheaves]]
 [[!redirects (∞,1)-category of (∞,1)-sheaves]]
+[[!redirects (infinity,1)-categories of (infinity,1)-sheaves]]
+[[!redirects (∞,1)-categories of (∞,1)-sheaves]]
