@@ -82,3 +82,7 @@ I have a vague feeling that starting with a 0-falt $\mathfrak{o}(n)$-connection 
 
 * n-Forum: [Is every connection flat?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=723&page=1)
 * n-Forum: [functor](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=332&Focus=7304#Comment_7304)
+* Eric\'s web: [[ericforgy:Shape Dependence in Commutative Diagrams]]
+
+
+[[!redirects Shape Dependence in Commutative Diagrams]]
