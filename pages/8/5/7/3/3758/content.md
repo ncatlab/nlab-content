@@ -84,18 +84,24 @@ Note that the concept of a particle has not entered the scene yet, so that the c
 
 To get to the Hilbert space picture of quantum mechanics one needs to employ the GNS construction ([[Gelfand-Naimark-Segal construction]]) to obtain both a Hilbert space from the algebra of observables and a given state, and a representation of the observables in the algebra of bounded operators on that Hilbert space.
 
+## QBism and category theory
+
+In the quantum Bayesian view, there is really no such thing as a quantum state.  More correctly, a so-called quantum state is "not something out there, in the external world, but instead [is an expression] of information." (Ref. 1, p.2).  Ultimately, in QBism, it is the _relations between_ states that is of interest anyway.  This could be said of physics as a whole, in a way, since one view of the universe holds that it consists of particles and their interactions and that without the interactions (which are nothing more than relations), the universe would be a boring place (Ref. 4).  The underlying theme here is that relativity was right: everything is relative (related) to something else.
+
+Taken in this context, physics is really a relational theory which is why category theory is ideally suited to describe it: the richest part of category theory is the morphisms (arrows).  Without them you're essentially reduced to a very limited (and uninteresting) set theory.  The internal morphisms of categories as well as functors between categories are the "meat" of category theory and this is precisely the same idea QBism attempts to capture in the context of quantum theory.  Category theory may prove to be the ideal tool for a fuller and richer development of QBism.
+
 ## References
 
 +--{: .query}
 [[Tim van Beek]]: One (short) remark per reference what it's about would be nice.
 =--
 
-### aspects of quantum information theory
+* C.A. Fuchs, _QBism, the Perimeter of Quantum Bayesianism_ ([pdf](http://arxiv.org/abs/1003.5209)), gives a nice summary of the quantum Bayesian view and also provides a treasure trove of references on discussions (going all the way back to the beginning of quantum theory) on quantum states.
 
-* C.A. Fuchs, _QBism, the Perimeter of Quantum Bayesianism_ ([pdf](http://arxiv.org/abs/1003.5209)).
+* G. Brida, M. Bondani, I. P. Degiovanni, M. Genovese, M. G. A. Paris, I. Ruo Berchera, V. Schettini, _On the discrimination between classical and quantum states_, ([pdf](http://arxiv.org/abs/0909.5288)), discusses the relation between quantum and classical states.
 
-* G. Brida, M. Bondani, I. P. Degiovanni, M. Genovese, M. G. A. Paris, I. Ruo Berchera, V. Schettini, _On the discrimination between classical and quantum states_, ([pdf](http://arxiv.org/abs/0909.5288))
+* D.N. Page, _Do Our Observations Depend upon the Quantum State of the Universe?_, ([pdf](http://arxiv.org/abs/0907.4751)), includes discussion concerning the nature of quantum states.
 
-* D.N. Page, _Do Our Observations Depend upon the Quantum State of the Universe?_, ([pdf](http://arxiv.org/abs/0907.4751))
+* I.T. Durham, _Unification and Emergence in Physics: the Problem of Articulation_, ([pdf](http://arxiv.org/abs/1001.4304)), discusses the adequacy of language and mathematics in describing the physical world.
 
 [[!redirects quantum states]]
