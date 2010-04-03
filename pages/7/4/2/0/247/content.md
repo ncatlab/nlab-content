@@ -1,4 +1,4 @@
-I am a postdoc at the [University of Chicago](http://www.math.uchicago.edu).  Here is my [web page](http://www.math.uchicago.edu/~shulman/).  I am interested in (higher) category theory and its applications to the rest of mathematics, particularly homotopy theory.
+I am a postdoc at the [University of Chicago](http://www.math.uchicago.edu).  Here is my [web page](http://www.math.uchicago.edu/~shulman/).  I am interested in (higher) category theory and its applications to the rest of mathematics, particularly homotopy theory.  I also tend to be a partisan of higher-categorical structures other than $n$-categories (such as [[double categories]], [[multicategories]], [[proarrow equipments]], and so on), which sometimes seem to get neglected.
 
 I often seem to have strong feelings about terminology.  But I have been known to admit to being wrong, so feel free to argue with me.
 
@@ -9,6 +9,9 @@ For my own reference: some pages that I'm planning to do some work on:
 * [[lax 2-adjunction]]
 * [[coherent formula]]
 * [[structured (infinity,1)-topos]] and [[classifying topos]]
+* [[double profunctor]]
+* [[generalized multicategory]], [[virtual double category]], etc.
+* [[codiscrete cofibration]]
 
 category: people
 
