@@ -2,7 +2,7 @@
 
 Hodge theory is centered around fine structure seen at the level of (complex, rational and integer) cohomologies (and [[motive]]s) of [[Kähler manifold]]s, based on the study of [[harmonic form]]s on them: Hodge decomposition, Hard Lefschetz theorem, pure Hodge structures, mixed Hodge structures, variations of Hodge structure, Hodge to de Rham spectral sequence, periods...This basic setup is however by now vastly generalized. 
 
-Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], M. Saito, C. Hertling and others.  
+Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], M. Saito, C. Hertling and others. Another very interesting and complex picture is developing for a number of years in works of Goncharov. 
 
 #References and related entries#
 
@@ -35,3 +35,5 @@ Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P.
 * Claus Hertling, Christian Sevenheck, _Twistor structures, $tt^*$-geometry and singularity theory_, [arxiv/0807.2199](http://arxiv.org/abs/0807.2199)
 
 * C. Hertling, C. Sabbah, _Examples of non-commutative Hodge structure_ (v1 title: Fourier-Laplace transform of flat unitary connections and TERP structures), [arxiv/0912.2754](http://arxiv.org/abs/0912.2754)
+
+* A. B. Goncharov, _Hodge correlators_, [arxiv/0803.0297](http://arxiv.org/abs/0803.0297), _Hodge correlators II_, [arxiv/0807.4855](http://arxiv.org/abs/0807.4855)
