@@ -25,7 +25,7 @@ $$X: Shapes^{op} \to Set$$
 
 again subject to some filler conditions, and in each case $k$-morphisms are elements of $X(\sigma)$ where $\sigma$ is a shape of dimension $k$. Still other shapes (e.g., [[cubical category|cubes]]) are possible (see also [[n-fold category]]). 
 
-Many notions of algebraic higher category, such as those due to Batanin, Leinster, Penon, and Trimble, are algebras over certain [[globular operad|globular operads]], so that each higher category $X$ is a structure on an underlying [[globular set]] $U(X)$. In that case, the $k$-morphisms are the $k$-cells of $U(X)$. In such globularly based definitions, every $k$-morphism $f$ has a $(k-1)$-morphism $\sigma f$ as its [[source]] and a $(k-1)$-morphism $\tau f$ as its [[target]], and the source $(k-2)$-morphisms $\sigma \sigma f$ and $\sigma \tau f$ must be the same, as must the target $(k-2)$-morphisms $\tau \sigma f$ and $\tau \tau f$.
+Many notions of algebraic higher category, such as those due to Batanin, Leinster, Penon, and Trimble, are algebras over certain monads acting on globular sets (such as those induced by [[globular operad|globular operads]]), so that each higher category $X$ has an underlying [[globular set]] $U(X)$. In that case, the $k$-morphisms are the $k$-cells of $U(X)$. In such globularly based definitions, every $k$-morphism $f$ has a $(k-1)$-morphism $\sigma f$ as its [[source]] and a $(k-1)$-morphism $\tau f$ as its [[target]], and the source $(k-2)$-morphisms $\sigma \sigma f$ and $\sigma \tau f$ must be the same, as must the target $(k-2)$-morphisms $\tau \sigma f$ and $\tau \tau f$.
 
 A $1$-morphism may simply be called a [[morphism]]; a $0$-morphism is an [[object]].
 
