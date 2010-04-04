@@ -12,8 +12,7 @@ $$F : DiGraph \to Cat $$
 
 sending each directed graph to the [[free functor|free]] category on that graph.  A free category on a graph is called a [[quiver]].
 
-Compare also [[graph]].
-
+**A note on terminology:** in the context of graph theory, the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another. In other words, a directed graph (or _digraph_) in that context can be identified with a set $V$ equipped with a binary relation (the edges are ordered pairs belonging to that relation). See also the article [[graph]].
 
 #Definition#
 
@@ -58,9 +57,15 @@ Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
 * A directed graph is a [[globular set]] which is concentrated in the first two degrees.
 
-* Directed graphs includes multigraphs, i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
+* Directed graphs includes [[graph|multigraphs]], i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
 
-* A directed graph is **complete** if for any pair of vertices $v,v'\in G_0$, there are directed edges $e,e'\in G_1$ with $s(e) = v, t(e) = v'$ and $s(e') = v', t(e') = v$.
+* A directed graph is **complete** if for any pair of vertices $v,v'\in G_0$, there are directed edges $e,e'\in G_1$ with $s(e) = v, t(e) = v'$ and $s(e') = v', t(e') = v$. 
+
++--{.query} 
+
+[[Todd Trimble|Todd]]: This bit about "complete" seems to hark back to the concept of directed graph in the sense that graph theorists use it, with at most one edge from one vertex to another. Is it really important in the theory of directed graphs as defined on this page -- do people talk about this "completeness" much in this context? 
+
+=--
 
 
 #See also#
