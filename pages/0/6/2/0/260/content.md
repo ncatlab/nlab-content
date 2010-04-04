@@ -10,5 +10,7 @@ From the alternative point of view of [[algebraic definition of higher category]
 The simplest example is the concept of [[Kan complex]]. Slightly more general is the notion of [[quasi-category]]. If one keeps relaxing conditions this way while keeping the required coherence, one arrives at the definition of weak $\infty$-category given by Ross Street, developed at [[simplicial model for weak omega-categories]].
 
 
+[[!redirects geometric definition of higher categories]]
 [[!redirects geometric definition of higher category]]
 [[!redirects geometric model of higher categories]]
+[[!redirects geometric model of higher category]]
