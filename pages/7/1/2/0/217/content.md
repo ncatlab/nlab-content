@@ -28,3 +28,6 @@ Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative math
 
 
 category: foundational axiom
+
+[[!redirects ETCS]]
+[[!redirects etcs]]
