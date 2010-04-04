@@ -10,13 +10,13 @@
 
 A $2$-category is any of several concepts that generalize [[category|categories]] one step in [[higher category theory]]. 
 
-It consissts of 
+It consists of 
 
-* [[object]]s;
+* [[objects]];
 
-* [[morphism]]s between objects;
+* [[morphisms]] between objects;
 
-* [[2-morphisms]]s between morphisms.
+* [[2-morphisms]] between morphisms.
 
 
 The original notion is that of a globular [[strict 2-category]], but the one most often used here is that of a [[bicategory]]. The concept generalizes to $n$-[[n-category|categories]].
