@@ -72,5 +72,7 @@ Sometimes, two definitions that use different kinds of shapes nevertheless captu
 * [This Week's Finds in Mathematical Physics (Week 242)](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_4.html#c006655) (Discussion at the n-Cafe)
 
 
-[[!redirects geometric shapes for higher categories]]
 [[!redirects geometric shape for higher categories]]
+[[!redirects geometric shapes for higher categories]]
+[[!redirects geometric shape for higher structures]]
+[[!redirects geometric shapes for higher structures]]
