@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -93,6 +92,8 @@ _Toby_:  I\'m inclined to rename this page to [[free category]] or [[free catego
 Zoran: If we are going to talk free categories instead than one should be aware that some books (e.g. Gabriel-Zisman) say path category instead of free category. As far as quivers, what about "quivers with relations" ?
 
 _Toby_:  We have another meaning of [[path category]], but that is a good term.
+
+_Harry_: Hugh, that is the incorrect definition of a directed graph.  Our definition here of directed graph is actually the definition of a multidigraph, or a directed multigraph, which is the definition of a quiver!
 
 
 [[!redirects quivers]]
