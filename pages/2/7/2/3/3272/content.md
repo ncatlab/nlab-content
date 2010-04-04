@@ -16,6 +16,7 @@ Selected links and papers:
 
 * S. Evens, I. Mirkovi&#263;, _Characteristic cycles for the loop Grassmannian and nilpotent orbits_,  Duke Math. J. __97__  (1999),  no. 1, 109--126, [doi](http://dx.doi.org/10.1215/S0012-7094-99-09705-3)
 
+* J. Kamnitzer, _Mirkovi&#263;-Vilonen cycles and polytopes_, Ann. Math. __171__ (2010), no. 1, 245&#8211;294, [pdf](http://annals.princeton.edu/annals/2010/171-1/annals-v171-n1-p04-p.pdf)
 
 category: people
 
