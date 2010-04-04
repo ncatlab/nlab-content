@@ -11,7 +11,7 @@
 
 * A functor is what goes between [[category|categories]].
 
-* A functor from $C$ to $D$ is an _image of $C$ in $D$_.
+* A functor from $C$ to $D$ is an _image of $C$ in $D$_, but keep in mind this image need not be a [[subcategory]] of $D$.
 
 * A functor between (small) categories is a morphism of the underlying [[directed graphs]] that respects the composition of edges.
 
