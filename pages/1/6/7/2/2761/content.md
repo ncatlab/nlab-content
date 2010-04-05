@@ -1,15 +1,11 @@
 # Yoneda lemma for $(\infty,1)$-categories
-* tic
+* automatic table of contents goes here
 {: toc}
 
 
 ## Idea
 
 The statement of the [[Yoneda lemma]] has a straightforward generalization from [[category|categories]] to [[(∞,1)-category|(∞,1)-categories]].
-
-Following these [answers on MathOverflow](http://mathoverflow.net/questions/9737/the-yoneda-lemma-for-oo-1-categories), the full $(\infty,1)$-statement obtained this way holds.
-
-One aspect of the generalization of the standard [[Yoneda lemma]], the fact that the [[Yoneda embedding]] is a [[full and faithful functor]], is known in the published literature to generalize.
 
 
 ## Details
@@ -32,11 +28,46 @@ is a [[full and faithful (∞,1)-functor]].
 +-- {: .proof}
 ###### Proof
 
-This is proposition 5.1.3.1 in
+In terms of [[quasi-categories]], this is proposition 5.1.3.1 in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 =--
+
+
++-- {: .un_theorem }
+###### Theorem
+**$(\infty,1)$-Yoneda theorem**
+
+For $C$ a small $(\infty,1)$-category and $F : C^{op} \to \infty Grpd$ an $(\infty,1)$-functor, the composite
+
+$$
+  C^{op} \to PSh_{(\infty,1)}(C)^{op} \stackrel{Hom(-,F)}{\to}
+  \infty Grpd
+$$
+
+is equivalent to $F$.
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [[Higher Topos Theory|HTT Lemma 5.5.2.1]].
+
+The statement is a direct consequence of the [[sSet]]-[[enriched category theory|enriched]] [[Yoneda lemma]] by using the fact that the [[(infinity,1)-category of (infinity,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is modeled by the [[enriched functor category]] $[C^{op}, sSet]_{proj}$ with $C$ regarded as a [[simplicially enriched category]] and using the global [[model structure on simplicial presheaves]].
+
+=--
+
+
+## References
+
+Published statements appear in 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+as indicated above.
+
+See also the  [discussion on MathOverflow](http://mathoverflow.net/questions/9737/the-yoneda-lemma-for-oo-1-categories).
 
 
 [[!redirects Yoneda lemma for (∞,1)-categories]]
