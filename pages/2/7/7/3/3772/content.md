@@ -5,8 +5,8 @@
 
 ## Idea
 
-Between any two [[object]]s $x,y$ in an [[(infinity,1)-category]] $C$ there is an 
-[[infinity-groupoid]] of morphisms. It is well-defined up to equivalence. 
+Between any two [[objects]] $x,y$ in an [[(∞,1)-category]] $C$ there is an 
+[[∞-groupoid]] of morphisms. It is well-defined up to equivalence. 
 When the $(\infty,1)$-category is incarnated as a [[quasi-category]], there are
 several explicit ways to extract representatives of this [[hom-object]].
 
@@ -83,7 +83,7 @@ for the simplicial set whose $n$-simplices are morphisms $\Delta[n+1] \to X$ whi
 $x$ on $\{0\}$ and are constant on $y$ when restricted to $\{1, \cdots, n+1\}$.
 
 **Remark** The 1-cells in $Hom_C^R(x,y)$, $Hom_C^L(x,y)$ and $Hom_C^{L R}(x,y)$ 
-are 2-[[globe]]s in $C$. The 2-cells are commuting squares of vertical composites 
+are 2-[[globes]] in $C$. The 2-cells are commuting squares of vertical composites 
 of 2-globes forming a 3-globe.
 
 Equivalently this may be understood in terms of fibers of [[over quasi-categories]].
@@ -219,7 +219,7 @@ $$
   Hom_C^R(x,y) \to Hom_C^{L R}(x,y) \leftarrow Hom_C^L(x,y)
 $$
 
-are [[homotopy equivalence]]s of [[Kan complex]]es.
+are [[homotopy equivalences]] of [[Kan complexes]].
 
 **Proof**
 
@@ -230,9 +230,9 @@ $C_{/y} \to C^{/y}$ is an equivalence of quasi-categories. So
 for the statement for $Hom_C^R(x,y)$ it suffices to
 show that this induces an equivalence of fibers over $C$.
 This follows from the fact that both $C_{/y} \to C$ and $C^{/y} \to C$
-are [[Cartesian fibration]]s. 
+are [[Cartesian fibrations]]. 
 
-See [[Cartesian fibration]]s for these statements. This is 
+See [[Cartesian fibrations]] for these statements. This is 
 [[Higher Topos Theory|HTT, prop. 3.3.1.5. (2)]]. 
 
 The statement for $Hom_C^L(x,y)$ follows dually.
