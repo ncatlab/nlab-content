@@ -15,7 +15,7 @@ Although [[Grothendieck]] in the late 1950s envisioned many generalizations of [
 
 #Perspective of structured $(\infty,1)$-toposes #
 
-Grothendieck took the viewpoint that the schmees, algebraic spaces etc. are sheaves on $Aff$ in some subcanonical Grothendieck topology (functor of points point of view). 
+Grothendieck took the viewpoint that the schemes, algebraic spaces etc. are sheaves on $Aff$ in some subcanonical Grothendieck topology (functor of points point of view). 
 
 Algebraic geometry studies [[space]]s that are locally modeled on ([[object]]s in the [[category]]) [[CRing]]${}^{op}$ -- called [[algebraic space]]s or [[scheme]]s.
 
@@ -42,8 +42,6 @@ Zoran: We are still not sure if this is true (you keep saying this) but I am not
 Zoran: Good point, but not entirely satisfactory. This proposition just says there is an embedding of categories. But this embedding does not respect limits (what is a good point for derived algebraic geometry!); thus it implies a different geometric picture. Thus in that full sense it is not true that classical AG of schemes and algebraic spaces is a subset of derived AG in strong sense. 
 =--
 
-
-
 * [[derived algebraic geometry]] is the study of [[structured (∞,1)-topos]]es for the [[geometry (for structured (∞,1)-toposes)|Zariski or etale pre-geometry]] $\mathcal{T}_{Zar}$, $\mathcal{T}_{et}$ on [[CRing]]${}^{op}$.
 
 Despite of this, an axiomatic formulation of algebraic geometry along the lines of [[synthetic differential geometry]], that would de-emphasize the peculiarities of $CRing^{op}$ and emphasize structural aspects such as to facilitate for instance the transportation or interpretation of results in algebraic geometry to other geometries, is currently hardly to be found in the literature,
@@ -60,3 +58,4 @@ Zoran: I am not competent enough in topos theory.
 
 >Maybe we can change this by talking about [[synthetic differential geometry applied to algebraic geometry]].
 
+See also [[contributors to algebraic geometry]]. 
