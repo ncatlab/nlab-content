@@ -60,6 +60,8 @@ For a discussion of this see
 
 The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of [[category theory]] have natural analogs in the context of quasi-categories. See for instance
 
+* [[hom-object in a quasi-category]]
+
 * [[equivalence in a quasi-category]]
 
 * [[join of quasi-categories]]
