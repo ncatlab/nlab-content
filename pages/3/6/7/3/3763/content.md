@@ -1,4 +1,3 @@
-
 # Contents
 * tic
 {:toc}
@@ -72,6 +71,8 @@ The definition can be weakened to the case when the composition of $C$ and $D$ i
 
 * The explicit definition can also easily be weakened, with an insertion of coherence isomorphisms for $C$ and $D$ in appropriate places.
 
+There is also a natural notion of profunctor between [[virtual double categories]], namely the proarrows in the [[virtual equipment]] $vDblProf = KMod(Span,fc)$ whose objects are virtual double categories (here $fc$ is the free-category monad on $Span = Span(Set)$).  If $C$ and $D$ are (possibly vertically pseudo) double categories, regarded as vertically-virtual double categories, then any double profunctor $C &#8696; D$ in the sense of the above definitions can also be considered as a "virtual-double profunctor" in a straightforward way.  However, not every virtual-double profunctor between double categories is a double profunctor; those that are are those satisfying a "representability" property.
+
 
 ## Composites
 
@@ -92,6 +93,8 @@ This definition does, however, suggest a replacement for the nonexistent double 
 
 For many purposes, having a virtual equipment of double profunctors is sufficient.  For instance, this is all we need in order to talk about [[weighted limits]], and in order to define [[generalized multicategories]].  We can also use this as a setting in which to ask whether some particular pair (or string) of double profunctors might have a composite, or a "weak composite," as described at [[tensor product]].
 
+The virtual equipment $DblProf$ is also contained as a non-full sub-virtual-equipment of the virtual equipment $vDblProf$ of virtual double categories, functors, and virtual-double profunctors mentioned above.
+
 
 ### Using collages
 
@@ -100,3 +103,9 @@ The standard way to compose codiscrete cofibrations $C\to H \leftarrow D$ and $D
 I believe that the binary composite of double profunctors defined in this way is a "weak composite" in the virtual double category $DblProf$, i.e. it has a universal property relative to cells with source of length 2 only.  We can likewise define basic $n$-ary composites of codiscrete cofibrations by taking an $n$-ary pushout and then a factorization, but for $n\gt 2$, as far as I can tell, there is little relation between these composites and $DblProf$.  In particular, these composites form a "lax double category", whereas a virtual double category with all weak composites can be identified with an "oplax double category."  I also don't know whether the cells in $DblProf$ with source of length $\gt 2$ can be seen from the perspective of collages.
 
 [[!redirects double profunctors]]
+[[!redirects DblProf]]
+[[!redirects vDblProf]]
+[[!redirects virtual double profunctor]]
+[[!redirects virtual double profunctors]]
+[[!redirects double distributor]]
+[[!redirects double distributors]]
