@@ -154,6 +154,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [The Everything Seminar](http://cornellmath.wordpress.com) ("Geometry, topology, categories, groups, physics"; recently lots about experimental particle physics: LHC and CMS)
 
+* [Theoretical atlas](http://theoreticalatlas.wordpress.com) (Jeffrey Morton: groupoids, groupoidification, stacks, quantum physics, noncommutative geometry)
+
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category)
 
   * A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
