@@ -169,31 +169,139 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 
 ## Properties 
 
-### As a right Kan extension
 
-+-- {: .un_prop}
-###### Proposition
+One would like to claim the following _global_ characterization of 
+$(\infty,1)$-limits.
 
-For every $c \in C$ the canonical morphism
+Limit and colimit, as defined above, should be [[right adjoint|right]] and [[left adjoint|left]]
+[[adjoint (infinity,1)-functor]] of the constant diagram $(\infinity,1)$-functor,
+$constt : K \to Func(K,C)$.
 
 $$
-  Hom_C(\lim_{\to} F , c)
-  \stackrel{\simeq}{\to}
-  Hom_{Func(K,C)}(F, const_c)
+  (colim \dashv const \dashv lim)
+  :
+  Func(K,C)
+  \stackrel{\overset{lim}{\to}}{\stackrel{\overset{const}{\leftarrow}}
+  {\underset{colim}{\to}}}
+  Func(*,C) \simeq C
+  \,.
 $$
 
-is a [[homotopy equivalence]] of $\infty$-groupoids.
+By the discussion at [[adjoint (infinity,1)-functor]] ([[Higher Topos Theory|HTT, prop. 5.2.2.8]]) this requires exhibiitng a morphism $\eta : Id_{Func(K,C)} \to const colim$ in $Func(Func(K,C),Func(K,C))$ such that for every $f \in Func(K,C)$ and $Y \in C$ 
+the induced morphism
 
-=--
+$$
+  Hom_{C}(colim(f),Y) \to Hom_{Func(K,C)}(const colim(f), const Y)
+  \stackrel{Hom(\eta, const Y)}{\to}
+  Hom_{Func(K,Y)}(f, const Y)
+$$
+
+is a weak equivalence in $sSet_{Quillen}$.
 
 
-+-- {: .proof}
-###### Proof
+But first consider the following pointwise characterization.
+
+
+**Proposition**
+
+Let $C$ be a [[quasi-category]], $K$ a [[simplicial set]]. A co-cone diagram
+$\bar p : K \star \Delta[0] \to C$ with cone point $X \in C$ 
+is a colimiting diagram (an initial object in
+$C_{p/}$) precisely if for every object $Y \in C$ the morphism
+
+$$
+  \phi_Y : Hom_C(X,Y) \to Hom_{Func(K,C)}(p, const Y)
+$$
+
+induced by the morpism $ p \to const X$ that is encoded by $\bar p$ is an 
+equivalence (i.e. a [[homotopy equivalence]] of [[Kan complex]]es).
+
+**Proof**
 
 This is [[Higher Topos Theory|HTT, lemma 4.2.4.3]].
 
-=--
+The key step is to realize that $Hom_{Func(K,C)}(p, const Y)$ is given (up to equivalence) by
+the [[pullback]] $C^{p/} \times_C \{Y\}$ in [[sSet]].
 
+Here is a detailed way to see this, 
+using the discussion at [[hom-object in a quasi-category]]. 
+
+We have that $Hom_{Func(K,C)}(p, const Y)$ is given by 
+$(C^K)^{p/} \times_{C^K} const Y$. We compute
+
+$$
+  \begin{aligned}
+    ((C^K)^{p/} \times_{C^K} const Y)_n
+    & =
+    Hom_{{\Delta[0]}/sSet}( \Delta[0] \diamondsuit \Delta[n] , C^K ) \times_{(C^K)_n} \{const Y\}
+    \\
+    & =
+    Hom_{{\Delta[0]}/sSet}( \Delta[0] \coprod_{\Delta[n]} \Delta[n] \times \Delta[1] , C^K )
+    \times_{(C^K)_n} \{const Y\}
+    & =
+    \{p\}
+      \times_{Hom(\Delta[0],C^K)}
+    Hom(\Delta[0], C^K)
+      \times_{Hom(\Delta[n], C^K)}
+    Hom(\Delta[n] \times \Delta[1], C^K \)
+      \times_{Hom(\Delta[n], C^K)}
+    \{const Y\}
+    \\
+    & =
+    \{p\}
+      \times_{Hom(K,C)}
+    Hom(K,C)
+      \times_{Hom(\Delta[n]\times K,C)}
+    Hom(\Delta[n]\times K \times \Delta[1], C)
+      \times_{Hom(\Delta[n]\times K, C)}
+    Hom(\Delta[n],C)
+      \times_{\Delta[n],C}
+    \{Y\}
+    \\
+    &=
+    \{p\} 
+      \times_{Hom(K,C)}
+    Hom(K \diamondsuit \Delta[n], C)
+      \times_{Hom(\Delta[n],C)}
+    \{Y\}
+    \\
+    &=
+    (C^{p/}\times_C \{Y\})_n
+  \end{aligned}
+$$
+
+Under this identification, $\phi_Y$ is the morphism
+
+$$
+  \left(
+  C^{X/} 
+   \stackrel{\phi'}{\to}
+  C^{\bar p/}
+    \stackrel{\phi''}{\to}
+  C^{p/}
+  \right)
+  \times_C \{Y\}
+  \,,
+$$
+
+in [[sSet]] where $\phi'$ is a section of the map $C^{\bar p/} \to C^{X/}$,
+(which one checks is an acyclic [[Kan fibration]]) obtained by choosing composites
+of the co-cone components with a given morphism $X \to Y$. 
+
+The morphism $\phi''$ is a [[left fibration]] (using [[Higher Topos Theory|HTT, prop. 4.2.1.6]])
+
+One finds that the morphism $\phi''$ is a [[left fibration]].
+
+The strategy for the completion of the proof is: realize that the first condition
+of the proposition is equivalent to $\phi''$ being an acyclic Kan fibration, and the
+second statement equivalent to $\phi''_Y$ being an acyclic Kan fibration, then 
+show that these two conditions in turn are equivalent.
+
+**Remark**
+
+This statement allows to relate limits in a quasi-category with [[homotopy limit]] in the corresponding [[simplicially enriched category]] as discussed at [[homotopy Kan extension]].
+
+...
 
 ### Limits and colimits with values in $\infty Grpd$ 
 
