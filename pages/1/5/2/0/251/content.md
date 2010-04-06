@@ -102,6 +102,28 @@ He then commented:
 
 > I would be very interested to know if anyone can extract from this definition a finite collection of composition operations on squares, and a finite collection of equations between them, which together generate all the others. The key obstable seems to be problem that identity 1-cells are not strict in either direction.
 
+## Unbiased composition and associativity
+
+It is natural to ask what the "unbiased" notion of composition and associativity is for squares in a double category.  The natural thing to take as input for an "unbiased composition" is a dissection of a rectangle into smaller rectangles, the smaller rectangles representing squares that we want to "compose up" in a double category.  As usual, we can try to build up such a composite by means of the "biased" binary composites that are given in the definition of double category.
+
+It can be shown that if a given such dissection can be composed up in *some* way using binary composites, then any two ways to compose it up must give the same result.  See
+
+* Dawson and Par&#233;, "General associativity and general composition for double categories".
+* Also of interest is "Characterizing tileorders" by the same authors, in which they characterize such rectangle-dissections in more purely combinatorial terms.
+
+However, there are dissections which admit *no* composition in a general double category, foremost among which is the "pinwheel:"
+
+[[double-category-pinwheel.png:pic]]
+
+It is shown in the paper
+
+* Dawson, "A forbidden-suborder characterization of binarily-composable diagrams in double categories"
+
+that this is the "only obstacle," in the same sense that $K_5$ and $K_{3,3}$ are the only obstacles to [[planar graph|planarity]] of a [[graph]].  Namely, any diagram in which pinwheels can be avoided, can be composed.
+
+In some double categories, however, even pinwheels can be composed, due to certain factorization properties of squares.  These properties are investigated in the above papers as well.
+
+
 ## Related pages
 
 * [[2-category equipped with proarrows]]
