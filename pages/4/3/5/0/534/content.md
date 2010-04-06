@@ -10,31 +10,35 @@
 
 ### Lorentzian manifold
 
-A _Lorentzian manifold_ $(X, \eta)$ of dimension $(d+1)$ is a smooth [[manifold]] equipped with a [[pseudo-Riemannian metric]] $\eta$ of signature $[+--\cdots -]$ (but note that the complementary choice $[-++\cdots +]$ is also used in the literature). This equips the [[tangent bundle|tangent space]] $T_x X$ at every point $x \in X$ canonically with the structure of a $(d+1)$-dimensional [[Minkowski space]].  Accordingly, tangent vectors of $X$ are called _timelike_ , _lightlike_ or _spacelike_ , if their norm is positive, zero or negative, respectively. 
+A _Lorentzian manifold_ $(X, \eta)$ of dimension $(d+1)$ is a smooth [[manifold]] equipped with a [[pseudo-Riemannian metric]] $\eta$ of signature $[+--\cdots -]$ (but note that the complementary choice $[-++\cdots +]$ is also used in the literature). This equips the [[tangent bundle|tangent space]] $T_x X$ at every point $x \in X$ canonically with the structure of a $(d+1)$-dimensional [[Minkowski space]].  Accordingly, tangent vectors $v \in T_x X$ of $X$ are called _timelike_ , _lightlike_ or _spacelike_ , if their norm-square $\mu_x(v,v)$ is positive, zero or negative, respectively. 
 
 
 ### Causal structure
 
-A **time orientation** on a Lorentzian manifold $X$ is a smooth (or, depending on the author, continuous) [[vector field]] $\nu \in \Gamma(T X)$ such that at all points $x \in X$ the vector $\nu_x$ is non-vanishing and timelike. In general, a Lorentzian manifold does not have globally defined timelike continuous vector fields. Sometimes only Lorentzian manifolds admitting a time orientation are also called [[spacetime]]s.
+A **time orientation** on a Lorentzian manifold $X$ is a smooth (or, depending on the author, continuous) [[vector field]] $\nu \in \Gamma(T X)$ such that at all points $x \in X$ the vector $\nu_x$ is timelike. In general, a Lorentzian manifold does not have globally defined timelike continuous vector fields. Sometimes only Lorentzian manifolds admitting a time orientation are also called [[spacetime]]s.
 
 Given a time orientation $\nu$, a vector $v \in T_x X$ is **future directed** if it is timelike or light-like and its inner product with the time orientation vector at that point is positive, $\mu_x(\nu,v_x) \gt 0$.
 
-Since $\nu$ itself is smooth and non-vanishing, it follows that it is fututre directed with respect to itself at every point.
+Since $\nu$ itself is smooth, it follows that it is future directed with respect to itself at every point.
 
 
-A smooth curve in $X$, i.e. a smooth map $\gamma : [0,1] \to X$ is called a **timelike curve** or a **lightlike curve** or a **spacelike_curve** or a **future-directed_ curve** precisely if all of its tangent vectors $(\gamma_* \partial_s) \in T_{\gamma(s)} X$ are. 
+A smooth curve in $X$, i.e. a smooth map $\gamma : [0,1] \to X$ is called a **timelike curve** or a **lightlike curve** or a **spacelike curve** or a **future-directed curve** precisely if all of its tangent vectors $(\gamma_* \partial_s) \in T_{\gamma(s)} X$ are. 
 
-We say that a point $y \in X$ **lies in the future** of a point $x \in X$ if $y = x$ or if there exists a future-directed curve $\gamma : [0,1] \to X$ with $\gamma(0) = x$ and $\gamma(1) = y$. 
+We say that a point $y \in X$ **lies in the future** of a point $x \in X$ if $y = x$ or if there exists a future-directed curve $\gamma : [0,1] \to X$ with $\gamma(0) = x$ and $\gamma(1) = y$. Equivalently, in this case $x$ **lies in the past** of $y$.
 
-#### different notions of causality
-We say that $(X,\mu)$ has **closed timelike curves** (closed future-directed curves) if there exists a non-constant timelike (future-dierected) curve starting and ending at some point $x$. Spacetimes which do not contain closed timelike curves are called **chronological**, spacetimes which do not contain closed nonspacelike curves are called **causal**. 
+#### Notions of causality
 
-Examples of nonchronological Lorentzian manifolds are the [Anti de Sitter space] (http://en.wikipedia.org/wiki/Anti_de_Sitter_space) and the [Kerr spacetime] (http://en.wikipedia.org/wiki/Kerr_spacetime). While the former is more of a theoretical interest due to the maximality of the symmetry group, the latter is usually seen as a solution with relevance to actual _physics_, despite the fact that causality does not hold everywhere.
+We say that $(X,\mu)$ has **closed timelike curves** (closed future-directed curves) if there exists a non-constant timelike (future-dierected) curve starting and ending at some point $x$. Spacetimes which do not contain closed timelike curves are called **chronological**, spacetimes which do not contain closed future directed (i.e. non-spacelike) curves are called **causal**. 
 
-Note that the property of being chronological is not strong enough to enforce causality as understood in everyday life: Even if there are no _closed_ future-directed curves, there still may be e.g. nonclosed _ergodic_ future-directed curves (they come close to every point they already passed in the "past"). An often used stronger condition that models the everyday notion of causality is that the manifold has to be [globally hyperbolic] (http://en.wikipedia.org/wiki/Globally_hyperbolic), which, as already mentioned, excludes certain solutions modelling e.g. black holes. 
+Examples of non-chronological Lorentzian manifolds are the [[anti de Sitter space]] and the [[Kerr spacetime]]. 
 
-#### being chronological means being a poset
-Notice that precisely if there are _no_ closed future-directed curves is the [[relation]]
+While the former is more of a theoretical interest due to the maximality of the symmetry group, the latter is usually seen as a solution with relevance to actual _physics_, despite the fact that causality does not hold everywhere.
+
+Note that the property of being chronological is not strong enough to enforce causality as understood in everyday life: Even if there are no _closed_ future-directed curves, there still may be e.g. nonclosed _ergodic_ future-directed curves (they come close to every point they already passed in the "past"). An often used stronger condition that models the everyday notion of causality is that the manifold has to be [[globally hyperbolic]] ([globally hyperbolic] (http://en.wikipedia.org/wiki/Globally_hyperbolic)), which, as already mentioned, excludes certain solutions modelling e.g. black holes. 
+
+#### Being causal means being a poset
+
+Precisely if the Lorentzian space is causal in that there are _no_ closed future-directed curves is the [[relation]]
 
 * $(x \leq y) \Leftrightarrow$ "$y$ is in the future of $x$" 
 
@@ -75,7 +79,29 @@ A **causal subset** of a $X$ is one of its  [[under-over category|under-over cat
 Its objects form the collection of all points $z \in X$ that are both in the future of $x$ as well as in the past of $y$.
 
 
+## References
+
+A textbook dedicated to the classical [[differential geometry|diffential geometric]] aspects Lorentzian manifolds is
+
+* John K. Beem; Paul E. Ehrlich, ; Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete))
+
+There is also
+
+* Martin and Panangaden, <a href="http://www.springerlink.com/content/m3x4h1l6g64mu753/">	
+Domain Theory and the Causal Structure of Space-Time</a>
+
+Some vaguely related blog discussion is at
+
+* <a href="http://golem.ph.utexas.edu/category/2008/10/the_nature_of_time.html#c019330">The Nature of Time</a>
+
+* <a href="http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html">Canonical Measures on Configuration Spaces</a>
+
+
 ## Discussion
+
+A previous version of this entry started the following discussion.
+
++-- {: .query}
 
 _[[Toby Bartels|Toby]] asked_: How does this relate to a (smooth) Lorentzian manifold? if at all.
 
@@ -97,19 +123,9 @@ _[[Eric Forgy|Eric]] says_: I like this idea. The measure could be the Leinster 
 
 _[[Urs Schreiber|Urs]]_: Yes, exactly. There was the idea that, since many finite categories come with a _canonical_ measure on their space (set) of objects, maybe we somehow need to merge this idea of Leinster measure with the idea of modelling a Lorentzain spacetime by something like a poset. Playing around with this observation was the content of [this](http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html) blog entry.  But I am not sure if it works out...
 
+=--
 
 
-## References
 
-* From nCafe: <a href="http://golem.ph.utexas.edu/category/2008/10/the_nature_of_time.html#c019330">The Nature of Time</a>
-
-* From nCafe: <a href="http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html">Canonical Measures on Configuration Spaces</a>
-
-* Martin and Panangaden, <a href="http://www.springerlink.com/content/m3x4h1l6g64mu753/">	
-Domain Theory and the Causal Structure of Space-Time</a>
-
-A textbook dedicated to the classical diffential geometric aspects is this:
-
-* Beem, John K.; Ehrlich, Paul E.; Easley, Kevin L.: "Global Lorentzian geometry" ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete))
 
 [[!redirects Lorentzian manifold]]
