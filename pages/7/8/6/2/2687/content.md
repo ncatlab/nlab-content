@@ -117,6 +117,8 @@
 
 * [[Theta space|for (n,r)-categories as ∞-spaces]]
 
+* [[model structure for weak ∞-categories|for weak ∞-categories as weak complicial sets]]
+
 * [[canonical model structure|on higher categories in general]]
 
 
