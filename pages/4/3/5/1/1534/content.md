@@ -41,7 +41,7 @@ A definition appears in section 4.1 _Topological Chiral Homology_ of
 
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
 
-There it is demonstrated how [web hosting](http://www.webhostingart.com) factorization algebras can be used to construct extended [[FQFT]]s.
+There it is demonstrated how factorization algebras can be used to construct extended [[FQFT]]s.
 
 Concrete constructions of formal algebras for familiar [[quantum field theory|quantum field theories]] are described in 
 
