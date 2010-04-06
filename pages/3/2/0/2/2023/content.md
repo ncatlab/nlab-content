@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 An interval is an [[under category]], [[over category]], or under-over category in a [[poset]].
 
 
@@ -43,3 +50,4 @@ To integrate a $1$-[[differential form|form]] on the real line requires orientin
 
 [[!redirects intervals]]
 [[!redirects unit interval]]
+[[!redirects under-over category]]
