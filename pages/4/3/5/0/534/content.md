@@ -131,3 +131,8 @@ _[[Urs Schreiber|Urs]]_: Yes, exactly. There was the idea that, since many finit
 
 
 [[!redirects Lorentzian manifold]]
+[[!redirects smooth Lorentzian manifold]]
+
+[[!redirects smooth Lorentzian spaces]]
+[[!redirects Lorentzian manifolds]]
+[[!redirects smooth Lorentzian manifolds]]
