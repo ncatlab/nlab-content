@@ -9,6 +9,8 @@
 
 [[Todd Trimble]]'s definition of weak $n$-[[n-category|category]] is an example of a notion of [[weak omega-category]] which is based on using an [[operad]] induced by all the possible compositions of an [[interval object]] with itself for describing weak composition of 1-morphisms. The higher cells and their composition are then obtained iteratively.
 
+Trimble originally called these *flabby* $n$-categories, which was intended to distinguish them from "weak" $n$-categories (since at the time he wasn't convinced that they were truly weak enough, owing to the fact that we use strict maps of algebras along the way), and also to recall the word "flab" as used by Frank Adams in his Infinite Loop Spaces book (since there is rather a lot of topological flab in the definition).  
+
 ## Basic idea
 
 An [[morphism|arrow]] looks like an  [[interval object|interval]]. So, the [[category theory|theory of categories]] and even [[higher category theory|n-categories]] should have a lot to do with the [[interval object|interval]] &#8212; especially when it comes to applications to [[topology]]!
@@ -163,29 +165,29 @@ and again by composing with $\Pi_0: Top \to Set$, we get a map $ \Pi_0 f^*: \Pi_
 
 Thus, after a series of small tautological steps, we have bootstrapped our way up from $\Pi_0$ to $\Pi_1$. This same procedure suggests a way to bootstrap from $\Pi_1$ to a definition of $\Pi_2$, and so on up an $n$-categorical ladder. Here are the general inductive definitions: 
 
-* A (flabby) 0-category is a set. The fundamental 0-groupoid $Top \to Flabby(0)Cat$ is the connected components functor $\Pi_0: Top \to Set$. 
+* A (Trimble) 0-category is a set. The fundamental 0-groupoid $Top \to 0 Cat$ is the connected components functor $\Pi_0: Top \to Set$. 
 
-* For $n \geq 0$, a **flabby $(n+1)$-category** consists of a set $X_0$ and a $Flabby(n)Cat$-graph 
-$$X: X_0 \times X_0 \to Flabby(n)Cat$$ 
-equipped with a structure of algebra over the operad $\Pi_n T$ (a priori an operad in the cartesian monoidal category $Flabby(n)Cat$, but made into an operad in $Flabby(n)CatGraph_{X_0}$ by an obvious change of base; cf. the remark above). 
+* For $n \geq 0$, a **Trimble $(n+1)$-category** consists of a set $X_0$ and a $n Cat$-graph 
+$$X: X_0 \times X_0 \to n Cat$$ 
+equipped with a structure of algebra over the operad $\Pi_n T$ (a priori an operad in the cartesian monoidal category $n Cat$, but made into an operad in $n Cat Graph_{X_0}$ by an obvious change of base; cf. the remark above). 
 
-* A **morphism** of flabby $(n+1)$-categories $(X_0, X) \to (Y_0, Y)$ consists of of a function $f_0: X_0 \to Y_0$ together with a _strict_ $\Pi_n T$-algebra map $f: X \to f_0^{-1} Y$. The category $Flabby(n+1)Cat$ admits finite products and arbitrary sums over which products distribute. 
+* A **morphism** of Trimble $(n+1)$-categories $(X_0, X) \to (Y_0, Y)$ consists of of a function $f_0: X_0 \to Y_0$ together with a _strict_ $\Pi_n T$-algebra map $f: X \to f_0^{-1} Y$. The category $(n+1)Cat$ admits finite products and arbitrary sums over which products distribute. 
 
 * The **fundamental $(n+1)$-groupoid functor** 
-$$\Pi_{n+1}: Top \to Flabby(n+1)Cat$$ 
+$$\Pi_{n+1}: Top \to (n+1)Cat$$ 
 sends a space $X$ to the pair $(X_0, \Pi_n X^\sim)$, seen as a $\Pi_n T$-algebra by applying the product-preserving functor $\Pi_n$ to the tautological $T$-algebra $X^\sim$. 
 
 * **Theorem**: $\Pi_{n+1}$ preserves finite products and arbitrary coproducts. (This theorem is needed to push the induction through.)
 
 And that's it. Notice this approach is in essence globular, that is we have an underlying functor 
 
-$$U_n: Flabby(n)Cat \to (n)GlobularSet$$ 
+$$U_n: n Cat \to (n)GlobularSet$$ 
 
-to $n$-globular sets. This is defined by induction: the underlying $(n+1)$-globular set of a flabby $(n+1)$-category $(X_0, X)$ is given by 
+to $n$-globular sets. This is defined by induction: the underlying $(n+1)$-globular set of an $(n+1)$-category $(X_0, X)$ is given by 
 
-$$X_0 \times X_0 \to Flabby(n)Cat \stackrel{U_n}{\to} (n)GlobularSet$$ 
+$$X_0 \times X_0 \to (n)Cat \stackrel{U_n}{\to} (n)GlobularSet$$ 
 
-using the fact that an $(n+1)$-globular set is naturally an $n$-globular graph over its set of 0-cells. In fact, Cheng has shown that flabby $n$-categories (and related structures; see the next section) are the algebras of a Batanin operad, that is a globular operad satisfying a contractibility condition. 
+using the fact that an $(n+1)$-globular set is naturally an $n$-globular graph over its set of 0-cells. In fact, Cheng has shown that Trimble $n$-categories (and related structures; see the next section) are the algebras of a Batanin operad, that is a globular operad satisfying a contractibility condition. 
 
 As Cheng put it, Trimble's inductive definition is disarmingly straightforward, and yet it codes up all the essential structure one expects to see in weak $n$-categories. For example, an associator for 2-categories is coded up as a 1-cell in $\Pi_1 T_3$, i.e., as a homotopy class of paths between two points in $\hom(I, I \vee I \vee I)$: 
 
@@ -222,52 +224,82 @@ for some series of operads $P_n$ valued in $V_n$. The operads $P_n$ in his defin
 
 $$\Pi_n: Top \to V_n$$
 
-to $T$. But other operads are possible; for the purposes of $n$-category theory, it is preferable to choose such operads that are contractible in some sense. 
+to $T$. But other operads are possible.  For the purposes of $n$-category theory, we should choose operads that are contractible in some sense (which the $\Pi_n(T)$ should be), but even in the realm of contractible operads there are many possible choices which may be convenient for different purposes.
+
 
 ## Extension to $\infty$-categories
 
-Using some theory of terminal coalgebras, Leinster and Cheng described a viable notion of Trimble $\infty$-category. 
+Using some theory of terminal coalgebras, Leinster and Cheng described a viable notion of Trimble $\infty$-category.
 
-To get some idea of what is involved, consider the basic shape of the fundamental $n$-groupoid $\Pi_n(X)$ as a globular set: in dimensions $j \lt n$, the $j$-cells are just continuous maps $D^j \to X$. The dimension $j = n$ is exceptional: one "truncates", _abus de langage_, a putative $\infty$-groupoid $\Pi_\omega(X)$ to a fundamental $n$-groupoid $\Pi_n(X)$ by forcing all $j$-cells in dimensions $j \gt n$ to be identity cells, that is by taking the quotient of the set of $n$-cells $D^n \to X$ with respect to homotopy-equivalence rel boundary $\partial D^n$. (Thus it isn't literal truncation or amputation -- one also "closes the open wounds" by passing to a homotopical quotient!) Thinking of homotopy-equivalence classes in terms of applying a path-components functor $\Pi_0$ to a suitable function space, one sees after some reflection that this globular "truncation", which is a sort of enforcement of coherence at the level of top-dimensional cells, is really the result of beginning the iterative enrichment with the path-components functor 
+* [Terminal coalgebras](http://www-lmpa.univ-littoral.fr/CT08/slides/Cheng.pdf)
+
+There are several equivalent ways to describe this construction.
+
+### As an inverse limit
+
+This approach starts from the observation that the category $Str \infty Cat$ of strict $\infty$-categories is the inverse limit in $CAT$ of the sequence
+
+$$\dots \to Str3Cat \to Str2Cat \to Cat \to Set$$
+
+where each functor is "truncation," i.e. discard all top-dimensional cells.  We would like to imitate this, but the problem is that if we discard the $(n+1)$-cells in a (Trimble) weak $(n+1)$-category, we don't get a weak $n$-category; for that we would have to also *identify* $n$-cells that are connected by some $(n+1)$-cell.
+
+We can see this going on at the operad level as well.  Consider the basic shape of the fundamental $n$-groupoid $\Pi_n(X)$ as a globular set: in dimensions $j \lt n$, the $j$-cells are just continuous maps $D^j \to X$, but the dimension $j = n$ is exceptional: the putative $\infty$-groupoid $\Pi_\omega(X)$ is "truncated" to a fundamental $n$-groupoid $\Pi_n(X)$ by forcing all $j$-cells in dimensions $j \gt n$ to be identity cells, that is by taking the quotient of the set of $n$-cells $D^n \to X$ with respect to homotopy-equivalence rel boundary $\partial D^n$.  Thinking of homotopy-equivalence classes in terms of applying a path-components functor $\Pi_0$ to a suitable function space, one sees after some reflection that this globular "truncation", which is a sort of enforcement of coherence at the level of top-dimensional cells, is really the result of beginning the iterative enrichment with the path-components functor 
 
 $$\Pi_0: Top \to Set$$ 
 
 in the first place. 
 
-In slightly different words: this form of "truncation" from a higher-dimensional category to a lower one is iterated "decategorification", going from isomorphisms between $n$-cells to isomorphism classes of $n$-cells: again the effect of applying a connected components functor $\Pi_0$. To take weak $\omega$-categories seriously is to eliminate all vestiges of such decategorification: there are no coherence _equations_ to impose at the top level; there are only higher and higher coherence data all the way up the dimensional chain, which one could elect to chop off past a certain point (instead of modding out by). 
+In slightly different words: this form of "truncation" from a higher-dimensional category to a lower one is iterated "decategorification", going from isomorphisms between $n$-cells to isomorphism classes of $n$-cells: again the effect of applying a connected components functor $\Pi_0$. To take weak $\omega$-categories seriously is to eliminate all vestiges of such decategorification: there are no coherence _equations_ to impose at the top level; there are only higher and higher coherence data all the way up the dimensional chain, which one could elect to chop off past a certain point (instead of modding out by).
 
-So: instead of starting out the iterative enrichment with $\Pi_0$, one could start by replacing it with the underlying set functor 
+So in order to perform the inverse limit construction successfully, we should *not* perform any identifications at all, merely truncation.  Precisely, if instead of starting out the iterative enrichment with $\Pi_0$, one could start by replacing it with the *underlying set functor*
 
 $$U: Top \to Set$$
 
-and again set the machine in motion, defining a **decoherent** (Leinster and Cheng's word is "incoherent") Trimble 1-category as a graph equipped with a structure of algebra over the operad $D_0 = U T$, a decoherent Trimble 2-category as a graph enriched in decoherent 1-categories and with a structure of algebra over the operad $D_1 = D_0 T$, and so on. Again, one proves that $D_n$ preserves coproducts and finite products by induction, starting with the base observation that the underlying set functor $U$ preserves coproducts and finite products. Thus by induction we have a category of decoherent $n$-categories, $Dec(n)Cat$.  
+and again set the machine in motion.  In this way we obtain an "incoherent Trimble 1-category" as a graph equipped with a structure of algebra over the operad $D_0 = U T$, an "incoherent Trimble 2-category" as a graph enriched in incoherent 1-categories and with a structure of algebra over the operad $D_1 = D_0 T$, and so on. Again, one proves that $D_n$ preserves coproducts and finite products by induction, starting with the base observation that the underlying set functor $U$ preserves coproducts and finite products.  Thus by induction we have a category of incoherent $n$-categories, $n iCat$.
 
 As a result, we have actual truncation functors 
 
-$$\ldots Dec(n+1)Cat \to Dec(n)Cat \to \ldots ... \to Set$$ 
+$$\ldots (n+1)iCat \to n iCat \to \ldots ... \to Set$$
 
-where one just saws off the $(n+1)$-cells at each step, and one may define the category of Trimble $\omega$-categories as the inverse limit of this sequence. 
+where one just saws off the $(n+1)$-cells at each step, and one may define the category of Trimble $\omega$-categories as the inverse limit of this sequence.
 
-A more conceptual point of view is provided by Cheng and Leinster. The idea is that $Trimble(\omega)Cat$ should be a fixed point of the weak-enriched iteration process, much as $\omega$-$Cat$ is a fixed point of the ordinary enrichment process
+### As a terminal coalgebra
+
+This approach begins with the observation of Simpson that $Str$-$\omega$-$Cat$ is a fixed point of the ordinary enrichment process
 
 $$E: V \mapsto V-Cat$$ 
 
-taking a (complete, cocomplete) closed symmetric monoidal $V$ to the (complete, cocomplete) closed symmetric monoidal category of small $V$-categories. More precisely, Cheng and Leinster recall Simpson's observation that $\omega$-$Cat$ is a [[terminal coalgebra]] for the ordinary enrichment process. In fact, $\omega$-$Cat$ as terminal coalgebra may be computed as the limit of a sequence 
+taking a (complete, cocomplete) closed symmetric monoidal $V$ to the (complete, cocomplete) closed symmetric monoidal category of small $V$-categories.  In fact, it is more than a fixed point; it is a [[terminal coalgebra]] for the functor $E$.  This is the same as the previous observation that $Str \omega Cat$ is the inverse limit of the sequence
 
 $$\ldots \to Strict(n+1)Cat \overset{E^n !}{\to} Strict(n)Cat \to \ldots Set \overset{!}{\to} 1$$ 
 
-according to Adamek's theorem that this is the terminal coalgebra if $E$ preserves limits of sequences of this form. (Here $E^n !$ works out to be the usual globular truncation from $(n+1)$-categories to $n$-categories.) Then, they observe that the same principle applies to the weak enrichment process 
+because of Adamek's theorem that the limit
+
+$$ \dots \to E^n 1 \to \dots \to E^2 1 \to E 1 \to 1 $$
+
+always produces a terminal $E$-coalgebra whenever the functor $E$ preserves limits of sequences of this form.   In our case, $E^n !$ works out to be the usual globular truncation from $(n+1)$-categories to $n$-categories.  We now observe that the same principle applies to the weak enrichment process, as long as we carry along the information of the fundamental $n$-groupoid functor, i.e. we consider the functor
 
 $$E: \langle V, \Pi \rangle \mapsto \langle (V, \Pi)-Cat, \Pi^+ \rangle$$ 
 
-where $\Pi: Top \to V$ preserves finite products (and coproducts), where $(V, \Pi)$-$Cat$ is the category of $\Pi(T)$-algebras in $V$-enriched graphs, and where $\Pi^+$ takes a space $X$ to $\Pi(X^\tilde)$ as a $\Pi(T)$-algebra. 
-This time $E^n !$ works out to be the globular truncation  
+where $\Pi: Top \to V$ preserves finite products (and coproducts), where $(V, \Pi)$-$Cat$ is the category of $(V,\Pi(T))$-categories, and where $\Pi^+$ takes a space $X$ to $\Pi(X^\sim)$ as a $(V,\Pi(T))$-category.
+This time $E^n !$ works out to be precisely the globular truncation
 
 $$Dec(n+1)Cat \to Dec(n)Cat$$ 
 
 and so the terminal $E$-coalgebra is the category $Trimble(\omega)Cat$ as described above, equipped with the fundamental $\omega$-groupoid functor 
 
 $$\Pi_\omega: Top \to Trimble(\omega)Cat$$ 
+
+### As a coinductive definition
+
+It is often convenient to reason about terminal coalgebras using [[coinduction]] and [[corecursion]].  In this spirit, it is possible to reformulate the definition of Trimble $\omega$-categories coinductively.  Namely, we define a category $\omega Cat = Trimble \omega Cat$ and a functor $\Pi\colon Top \to \omega Cat$, which preserves coproducts and finite products, by mutual coinduction, as follows.
+
+* An object of $\omega Cat$ (that is, a Trimble $\omega$-category) is an $(\omega Cat,\Pi(T))$-category, i.e. an $\omega Cat$-enriched graph $X$ with composition operations $\Pi(T)_n \times X(x_0, x_1) \times \ldots X(x_{n-1}, x_n) \to X(x_0, x_n)$ satisfying the evident axioms.
+* Similarly, a morphism in $\omega Cat$ is a (strict) $(\omega Cat,\Pi(T))$-functor, i.e. a map of $\omega Cat$-enriched graphs which respects the $\Pi(T)$-structure.
+* The functor $\Pi$ takes a space $X$ to the $\omega$-category $\Pi(X^\sim)$, whose objects are the points of $X$, whose hom-$\omega$-category from $x$ to $y$ is $\Pi(X^\sim(x,y))$, and whose $\Pi(T)$-structure is given by composing paths.
+
+This sort of coinductive definition is that used in the [[calculus of coinductive constructions]], which when rephrased in terms of a terminal coalgebra reduces to the definitions given above.
+
 
 ## Category theory for Trimble $n$-categories {#CatTheory}
 
@@ -402,32 +434,8 @@ _[[Urs Schreiber]]:_ Okay, thanks. I tried now to formalize this at [[interval o
 
 =--
 
-+--{.query}
-_[[Toby Bartels|Toby]]_ says:
-
-This is interesting. I never looked at this definition before, and I need to give it some thought. Has it been extedned to $\infty$-categories?
-
-Also, what is the proper name for these things? 'Trimble\'s notion of weak $n$-category' is a mouthful, but 'Trimble $n$-category' would work. Or 'flabby $n$-category', if that is unambiguous. (One might move this page, too, ... but only if it\'s clear where to move it!)
-
-_[[Urs Schreiber|Urs]]:_ I am not enthusiastic about "flabby". "Trimble $\omega$-category" sounds good to me, though. $Trimble\omega Cat$.
-
-_[[Todd Trimble|Todd]]_: The extension to $\infty$-categories was accomplished not too long ago by Tom Leinster and Eugenia Cheng, using coalgebra theory: 
-
-[Terminal coalgebras](http://www-lmpa.univ-littoral.fr/CT08/slides/Cheng.pdf)
-
-It's actually quite ingenious: as motivation, they start with Simpson's (Alex? Carlos?) observation that for the endofunctor $(-)-Cat: SymMonCat \to SymMonCat$ mapping $V \mapsto V-Cat$, the terminal coalgebra is (strict) $\omega$-Cat. Then they explain how this idea can be extended to produce Trimble-like weak $\omega$-categories (starting around page 57 of 124). 
-
-As far as terminology goes: "flabby" was meant to accomplish several purposes: first to distinguish itself from "weak" (since at the time I wasn't convinced that these structures were truly weak enough, owing to the fact that we use strict maps of algebras along the way); second to recall the word "flab" as used by Frank Adams in his Infinite Loop Spaces book: there is rather a lot of topological flab in my original definition; third out of modesty. But I don't like it much now either (I think it partially violates my 'cutesy' rule). 
-
-For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
-
-_Toby_: I\'m thinking of moving this to [[Trimble n-category]], which seems like a better name for linking to the concept.  But I\'ll hold off if you want, especially if you want to wait for suggestions.
-
-_Todd_: That's fine with me, so assuming Urs doesn't mind, I'd say go ahead. That's more or less what somewhat would probably try looking for if they wanted to look this stuff up.
-
-_Toby_: OK, I did that.
-=--
-
 
 [[!redirects Trimble's notion of weak n-category]]
 [[!redirects Trimble's notion of weak n-category]]
+[[!redirects flabby n-category]]
+[[!redirects flabby n-categories]]
