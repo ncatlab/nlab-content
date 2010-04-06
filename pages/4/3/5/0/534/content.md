@@ -90,6 +90,8 @@ There is also
 * Martin and Panangaden, <a href="http://www.springerlink.com/content/m3x4h1l6g64mu753/">	
 Domain Theory and the Causal Structure of Space-Time</a>
 
+* Roger Penrose, Wolfgang Rindler, _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
+
 Some vaguely related blog discussion is at
 
 * <a href="http://golem.ph.utexas.edu/category/2008/10/the_nature_of_time.html#c019330">The Nature of Time</a>
