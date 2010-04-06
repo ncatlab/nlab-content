@@ -62,6 +62,8 @@ Zoran: Quantum physics includes all quantum phenomena, including experimental re
 [[Ian Durham]]: I agree, in principle, but I'm simply saying that not everyone interprets the term as such.
 
 Zoran: not everybody cares about fine distinctions, but we should try to acknowledge the distinctions which are made at least by more careful treatises, not the least common denominator. 
+
+Ian: The more I think about it, the more I strongly disagree.  I think you are correct in saying that quantum mechanics is the theoretical formalism for describing quantum phenomena in a non-field theoretic POV.  But what we're going on this site is describing the theory in terms of categories, not the phenomena.  If you want to strip it all down to the bear bones, rid quantum physics of the "mechanics," and then rebuild it entirely from an nPOV, be my guest.  But so far, that is not what has been done on this site.
 =--
 
 ## Quantum mechanics in terms of $\dagger$-compact categories
