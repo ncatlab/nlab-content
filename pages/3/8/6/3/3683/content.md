@@ -6,11 +6,15 @@
 
 Semiclassical or quasiclassical approximation to [[quantum mechanics]] (including infinitely many degrees of freedom, e.g. QFT) in most general sense is the series expansion of the transition amplitudes in Planck constant. However more specifically one considers the Feynman path integral $\int D\phi F(\phi) e^{iS(\phi)/h}$ and develops it by a stationary phase method about the critical points of the action functional $S$ (the critical points of $S$ correspond to the solutions of the [[Euler-Lagrange equation]]s, hence to the classical trajectories of the system). Namely $S$ is assumed to be large and change fast in comparison to the Planck constant, so the increments of $i\pi$ in the phase of the exponent appear very often leading to mutual cancellation, except in the regions close to the critical points. 
 
-Semiclassical method in more traditional Schroedinger wave equation approach due to Wentzel, Kramers and Brillouin (WKB or WKBJ method, see [wikipedia](http://en.wikipedia.org/wiki/WKB_approximation)), amounts to the expression of the wave function in the form $\phi = exp(S)$ where $S$ is a slowly varying function and solving the equation for $S$. This makes sense for a more general class of wave equations, and in wave optics this short-wave limit is the approximation of geometric optics where $S$ is called the **eikonal**. Globally consistent solutions in first order lead to so-called Bohr-Sommerfeld quantization conditions. Multidimensional generalization of WKB method appear to be rather nontrivial; it has been pioneered by V. Maslov who introduced a topological invariant to remove ambiguities of the naive version of the method ([[Maslov index]]). 
+Semiclassical method in more traditional Schroedinger wave equation approach due to Wentzel, Kramers and Brillouin (WKB or WKBJ method, see [wikipedia](http://en.wikipedia.org/wiki/WKB_approximation)), amounts to the expression of the wave function in the form $\phi = exp(S)$ where $S$ is a slowly varying function and solving the equation for $S$. This makes sense for a more general class of wave equations, and in wave optics this short-wave limit is the approximation of [[geometrical optics]] where $S$ is called the **eikonal**. Globally consistent solutions in first order lead to so-called Bohr-Sommerfeld quantization conditions. Multidimensional generalization of WKB method appear to be rather nontrivial; it has been pioneered by V. Maslov who introduced a topological invariant to remove ambiguities of the naive version of the method ([[Maslov index]]). 
 
 ## Semiclassical approximation and equivariant localization
 
 In some special cases (most often in the presence of supersymmetry) the main contribution (the first term in expansion) amounts to the true result; the quantum correction sometimes leads however to an overall scalar factor. This is the case of so-called localization (related directly in some cases to the equivariant localization in cohomology and Lefshetz-type fixed point formulas). Most of well known examples of integrable systems and TQFTs lead to localization. 
+
+## Large N-limit 
+
+Large N-limit of gauge theories, which is of importance in [[collective field theory]] and in the study of relation between gauge and string theories is formally very similar to semiclassical expansion, where the role of Planck constant is played by $1/N^2$. 
 
 ## Terminology
 
@@ -36,7 +40,13 @@ and the canonical operator method_, Nauka, Moscow, 1978.
 
 * Richard J. Szabo, _Equivariant cohomology and localization of path integrals_, Lecture Notes in Physics, N.S. Monographs __63__. Springer  2000. xii+315 pp. (early version: _Equivariant localization of path integrals_, [hep-th/9608068](http://arxiv.org/abs/hep-th/9608068))
 
-* [[Albert Schwarz]], _Semiclassical approximation in Batalin-Vilkovisky formalism_, Comm. Math. Phys.  158 (1993), no. 2, 373--396. 
+* Albert Schwarz, Oleg Zaboronsky, _Supersymmetry and localization_, Comm. Math. Phys. __183__, 2 (1997), 463-476, [euclid](http://projecteuclid.org/euclid.cmp/1158328185)
+
+* [[Albert Schwarz]], _Semiclassical approximation in [[Batalin-Vilkovisky quantization|Batalin-Vilkovisky formalism]]_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246). 
+
+For large N-limit compared to semiclassical expansion see
+
+*  L. G. Yaffe, _Large N limits as classical mechanics_, Rev. Mod. Phys. __54__, 407&#8211;435 (1982), [pdf](http://rmp.aps.org/pdf/RMP/v54/i2/p407_1)
 
 For the semiclassical method in [[superstring theory]] see 
 
