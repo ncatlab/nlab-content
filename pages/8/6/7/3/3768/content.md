@@ -4,7 +4,7 @@ Moduli spaces and moduli stacks of vector bundles and of principal $G$-bundles f
 
 * A. Beauville, Y. Laszlo, _Conformal blocks and generalized theta functions_, Comm. Math. Phys. __164__ (1994), 385&#8211;419.
 
-* G. Faltings, _Vector bundles on curves_, 1995
+* G. Faltings, _Vector bundles on curves_, 1995 Bonn lectures, write up by M. Stoll, [pdf](http://www.mathe2.uni-bayreuth.de/stoll/lecture-notes/vector-bundles-Faltings.pdf)
 
 * G. Faltings, _Moduli-stacks for bundles on semistable curves_,   Math. Ann. __304__, 3 (1996) 489-515; _Stable $G$-bundles and projective connections_, J. Algebraic Geom. __2__, 3 (1993) 507-568, [doi](http://dx.doi.org/10.1007/BF01446303), _Algebraic loop groups and moduli spaces of bundles_, J. Eur. Math. Soc. __5__ (2003), 41-68.
 
