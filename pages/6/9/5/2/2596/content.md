@@ -14,8 +14,6 @@ is a nondegenerate (i.e. maximal rank) matrix.
 
 A choice of a Morse function on a compact manifold is often used to study topology of the manifold. This is called the [[Morse theory]].  
 
-Founders of Morse theory were M. Morse, R. Bott and A. Schwarz. 
-
 One of the basic tools is [[Morse lemma]].
 
 See also [[perfect Morse function]] and wikipedia: [Morse theory](http://en.wikipedia.org/wiki/Morse_theory)
