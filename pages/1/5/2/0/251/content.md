@@ -153,3 +153,5 @@ In some double categories, however, even pinwheels can be composed, due to certa
 [[!redirects double groupoids]]
 [[!redirects vertical 2-category]]
 [[!redirects horizontal 2-category]]
+[[!redirects pseudo double category]]
+[[!redirects pseudo double categories]]
