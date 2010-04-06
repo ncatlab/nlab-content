@@ -36,6 +36,12 @@ for $n = 1,2, \cdots$ and $k \in [n]$.
 
 A [[stratified simplicial set]] is a **weak complicial set** if it has the right lifting property with respect to all elementary anodyne extensions.  A [[complicial set]] is a weak complicial set in which such liftings are unique.
 
+## Model structure
+
+There is a [[model category]] structure that presents the [[(infinity,1)-category]] of weak complicial sets, hence that of weak $\omega$-categories. See
+
+* [[model structure for weak omega-categories]].
+
 ## Examples
 
 * For $C$ a [[strict ∞-category]] and $N(C)$ its [[oriental|∞-nerve]], the _Roberts stratification_ which regards each identity morphism as a thin cell makes $N(C)$ a strict [[complicial set]], hence a weak complicial set.  This example is not "saturated."
