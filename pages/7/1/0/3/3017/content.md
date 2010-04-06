@@ -20,3 +20,5 @@ This is essentially the same as a [[proarrow equipment]] on a [[bicategory]].
 ## References
 
 * [[Mike Shulman]], _Framed bicategories and monoidal fibrations_ ([arXiv](http://arxiv.org/abs/0706.1286))
+
+[[!redirects framed bicategories]]
