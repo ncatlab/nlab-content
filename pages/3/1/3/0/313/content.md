@@ -99,7 +99,7 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
 
   in $C$ and says that _the diagram commutes_ if the above equality of composite morphisms holds.
 
-  Notice that the original poset had, necessarily, a morphism $a \to c$ and could have equivalently be depicted as
+  Notice that the original poset had, necessarily, a morphism $a \to c$ and could have equivalently  been depicted as
 
   $$
     \left\{
@@ -138,7 +138,7 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
       }
     \right\}
   $$
-  is a not-necessarily-commuting square.  The free category on this quiver differs from the poset in the previous example by having *two* morphisms $a\to c$, one given by the composite $a\to b\to c$ and the other by the composite $a\ to b'\to c$.  But the poset in the previous category is the poset reflection of this $F(J)$, so a diagram of this shape commutes, in the sense defined above, iff it is a commuting square in the usual sense.
+  is a not-necessarily-commuting square.  The free category on this quiver differs from the poset in the previous example by having *two* morphisms $a\to c$, one given by the composite $a\to b\to c$ and the other by the composite $a \to b'\to c$.  But the poset in the previous category is the poset reflection of this $F(J)$, so a diagram of this shape commutes, in the sense defined above, iff it is a commuting square in the usual sense.
 
 
 * A pair of objects is a diagram whose shape is a [[discrete category]] with two objects.
