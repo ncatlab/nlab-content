@@ -7,8 +7,10 @@ Periods appear in a number of situations in classical algebraic geometry. Specif
 
 ## References
 
-* M. Kontsevich, D. Zagier, [Periods](http://www.maths.gla.ac.uk/~tl/periods.pdf)
+* [[Maxim Kontsevich|M. Kontsevich]], D. Zagier, [Periods](http://www.maths.gla.ac.uk/~tl/periods.pdf)
 
 * M. Kontsevich, _Operads and motives in deformation quantization_, Lett.Math.Phys. __48__ (1999) 35--72, [math.QA/9904055](http://arxiv.org/abs/math.QA/9904055)
 
 * A. B. Goncharov, _Periods and mixed motives_, [math.AG/0202154](http://arxiv.org/abs/math/0202154)
+
+* mathoverflow: [ring of periods not a field](http://mathoverflow.net/questions/20497/is-it-known-that-the-ring-of-periods-is-not-a-field)
