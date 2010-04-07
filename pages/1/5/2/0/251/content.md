@@ -109,7 +109,7 @@ It is natural to ask what the "unbiased" notion of composition and associativity
 It can be shown that if a given such dissection can be composed up in *some* way using binary composites, then any two ways to compose it up must give the same result.  See
 
 * Dawson and Par&#233;, "General associativity and general composition for double categories".
-* Also of interest is "Characterizing tileorders" by the same authors, in which they characterize such rectangle-dissections in more purely combinatorial terms.
+* Also of interest is "Characterizing tileorders" by the same authors, in which they characterize such rectangle-dissections, called [[tileorders]], in purely combinatorial terms.
 
 However, there are dissections which admit *no* composition in a general double category, foremost among which is the "pinwheel:"
 
