@@ -59,3 +59,4 @@ For the semiclassical method in [[superstring theory]] see
 [[!redirects quasi-classical approximation]]
 [[!redirects semiclassical expansion]]
 [[!redirects WKB method]]
+[[!redirects WKB approximation]]
