@@ -95,6 +95,8 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 
 ## Properties
 
+The two diferent definition above are indeed equivalent:
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -109,7 +111,39 @@ This is [[Higher Topos Theory|HTT, prop 5.2.2.8]].
 
 =--
 
+### Uniqueness of adjoints
+
+The adjoint of a functor is, if it exists, essentially unique:
+
++-- {: .un_prop}
+###### Proposition
+
+If the $(\infty,1)$-functor between quasi-categoris $L : D \to C$ admits a right adjoint $R : C \to D$, then this is unique up to homotopy.
+
+Moreover, even the choice of homotopy is unique, up to ever higher homotopy, i.e. the collection of all right adjoints to $L$ forms a [[contractible]] [[∞-groupoid]], in the following sense:
+
+Let $Func^L(C,D), Func^R(C,D) \subset Func(C,D)$ be the full sub-quasi-categories on the [[(∞,1)-category of (∞,1)-functors]] between $C$ and $D$ on those functors that are left adjoint and those that are right adjoints, respectively. Then there is a canonical [[equivalence of quasi-categories]] 
+$$
+  Func^L(C,D) \stackrel{\simeq}{\to}
+  Func^R(C,D)^{op}
+$$
+
+(to the [[opposite quasi-category]]), which takes every left adjoint functor to a corresponding right adjoint.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop 5.2.1.3]] (also remark 5.2.2.2), and [[Higher Topos Theory|HTT, prop. 5.2.6.2]].
+
+=--
+
+
 ## Examples
+
+### Simplicial and derived adjunctions
 
 A large class of examples arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
 
@@ -152,6 +186,10 @@ This is [[Higher Topos Theory|HTT, cor.  5.2.4.5]] and
 
 =--
 
+### Localizations
+
+
+A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{\hookrightarrow} D$ where $R$ is a [[full and faithful (∞,1)-functor]] exhibits $C$ as a [[reflective (∞,1)-subcategory]] of $D$. This subcategory and the composite $R \circ L : D \to D$ are a [[localization of an (∞,1)-category|localization]] of $D$.
 
 ## References
 
