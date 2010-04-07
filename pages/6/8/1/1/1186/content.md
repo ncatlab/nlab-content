@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -95,7 +101,7 @@ See
 
 This is the topic of section 5 and section A.3.7 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 The long list of equivalent statements above is theorem 5.5.1.1., which is originally due to [[Carlos Simpson]].
 
