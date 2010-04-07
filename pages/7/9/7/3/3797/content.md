@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 A **tileorder** is a *double order*, i.e. a set $T$ equipped with two [[partial orders]] $\le$ and $\sqsubseteq$, which can be realized by a dissection of a rectangle into finitely many subrectangles, the subrectangles being the elements of $T$, in such a way that $a\sqsubseteq b$ iff $a$ "lies below" $b$, while $a\le b$ iff $a$ "lies to the left of" $b$.  Interestingly and importantly, such orders can also be characterized in purely combinatorial, and effectively verifiable, terms.
