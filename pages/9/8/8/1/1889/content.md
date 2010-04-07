@@ -1,3 +1,15 @@
+
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 A **lax functor** or **lax $n$-[[n-functor|functor]]** is a morphism of $n$-[[n-category|categories]] that is allowed to have structural cells -- compositors, associators, etc -- that need not be invertible (not even [[weak inverse|weakly]]).
 
 This is to distinguish from [[pseudofunctor]] for which all these cells are required to be [[equivalences]].
@@ -6,7 +18,7 @@ This means that the definition of lax functor involves a choice of orientation o
 
 Often the term lax functor is often used for $n$-functors $F : C \to D$ whose domain $C$ is an ordinary [[category]] (regarded as an $n$-category with only trivial higher morphisms), while the codomain $D$ is often taken to be a [[2-category]].
 
-# Examples #
+## Examples 
 
 * For $D$ a [[bicategory]], lax functors $F : {*} \to D$ from the [[point]] category to $D$ are equivalent to [[monad]]s in $D$.
 
