@@ -142,6 +142,8 @@ In fact, it seems hard to find a naturally occurring double category in which th
 
 There are notions of [[double functor|functor]] and of [[vertical transformation|transformation]] between double categories, which make them into a [[2-category]].  In fact, due to the vertical-horizontal symmetry, there are two such 2-categories, depending on the direction we choose the transformations to go in.  Moreover, we can also take the functors to be strict, pseudo, lax, or colax, so there are many possible 2-categories of double categories.
 
+We can also combine the horizontally lax and colax functors, together with a general notion of vertical transformation, into a large double category of double categories.  This is a special case of the double category of $T$-algebras for a particular 2-monad $T$, mentioned above.
+
 In some contexts, a natural observation is that the 1-category $DblCat$ is [[cartesian closed category|cartesian closed]], and thus enriched over itself--thus it forms a "locally-double" category, i.e. a category enriched over double categories.  This can be regaded as a structure like a [[3-category]], except that it has two different kinds of 2-cells (in this case, the vertical and horizontal transformations).
 
 If we choose a particular direction, say the vertical direction, as is natural when dealing with [[proarrow equipments]], then we can also define an ordinary (weak) [[3-category]] of double categories, double functors of any sort, vertical *pseudonatural* transformations, and modifications.  In some situations, such as the study of [[generalized multicategories]], this 3-category is a natural place in which to work (or an enlargement of it to include [[virtual equipments]] as well).
