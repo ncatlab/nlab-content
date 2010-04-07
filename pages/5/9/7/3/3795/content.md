@@ -6,7 +6,7 @@ $$CS(A) = \int_X Tr(\bar\nabla_{A_0} \alpha\wedge\alpha +\frac{1}{2}\alpha\wedge
 
 Its critical points are holomorphically flat connections: $F^{0,2}_A = 0$. One would like to count the critical points in appropriate sense, which means the integration over the suitable compactified moduli space of solutions. These solutions may be viewed as Hermitean Yang-Mills connections or as [[BPS state]]s in physical interpretation. The issues of compactification involve stability conditions which depend on the underlying [[Kähler manifold|Kähler form]]; as the K&#228;hler form varies there are discontinuous jumps at the places of [[wall crossing]]. 
 
-Under the mirror symmetry, the holomorphic bundles get replaced by the Lagrangian submanifolds in the mirror, and the stability condition restricts the attention to the [[special Lagrangian submanifold]]s in the mirror. 
+Under the [[mirror symmetry]], the holomorphic bundles correspond to the [[Lagrangian submanifold]]s in the mirror, and the stability condition restricts the attention to the [[special Lagrangian submanifold]]s in the mirror. 
 
 A more general setup is given by [[Dominic Joyce]] and by Kontsevich and Soibelman. 
 
@@ -16,3 +16,5 @@ A more general setup is given by [[Dominic Joyce]] and by Kontsevich and Soibelm
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
 
 * Davide Gaiotto, Gregory W. Moore, Andrew Neitzke, _Wall-crossing, [[Hitchin system]]s, and the [[WKB approximation]], [arxiv/0907.3987](http://arxiv.org/abs/0907.3987)
+
+* sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
