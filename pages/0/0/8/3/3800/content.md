@@ -18,4 +18,8 @@ English: The first one third of the talk is dedicated to the basis of vectoids w
 
 (for now this entry also redirects vectoid)
 
++--{.query} 
+[[Todd Trimble|Todd]]: "Commutes with colimits" must really mean: $F: A^{op} \to Set$ takes colimits in $A$ to limits in $Set$, and the axiom is that such continuous functors are representable. This reminds me of notions of totality in category theory. 
+=--
+
 [[!redirects vectoid]]
