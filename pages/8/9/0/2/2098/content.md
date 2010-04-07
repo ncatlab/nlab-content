@@ -7,9 +7,9 @@
 
 
 
-A _[[Michael Batanin|Batanin]] $\omega$-category_ is a [[weak ∞-category]] defined as an [[algebra over an operad|algebra]] over the [[globular operad]]. So this is an [[algebraic definition of higher category]].
+A _[[Michael Batanin|Batanin]] $\omega$-category_ is a [[weak ∞-category]] defined as an [[algebra over an operad|algebra]] over a suitable contractible [[globular operad]]. So this is an [[algebraic definition of higher category]].
 
-The definition is similar to that of [[Trimble n-category]].
+The definition is similar to that of [[Trimble n-category]] (which is actually a special case of a Batanin $\omega$-category). 
 
 # References #
 
