@@ -87,7 +87,7 @@ A textbook dedicated to the classical [[differential geometry|diffential geometr
 
 There is also
 
-* Martin and Panangaden, <a href="http://www.springerlink.com/content/m3x4h1l6g64mu753/">	
+* [[Keye Martin]] and [[Prakash Panangaden]], <a href="http://www.springerlink.com/content/m3x4h1l6g64mu753/">	
 Domain Theory and the Causal Structure of Space-Time</a>
 
 * Roger Penrose, Wolfgang Rindler, _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
