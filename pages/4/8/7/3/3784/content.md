@@ -10,8 +10,19 @@ A **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time 
 
 In [[classical physics]], notably in [[Special Relativity]] and [[General Relativity]] points in $X$ model coordinates where _events_ can take place from the viewpoint of an observer ("points in space and time") while the metric $\mu$ models the field of [[gravity]] in [[General Relativity]].
 
-###Remark on the physical meaning of points in General Relativity
-In General Relativity every element of the [[atlas]] of the given spacetime is a valid coordinate system. Choose a chart $\phi$ of $(X,\mu)$, if $\phi^{-1}$ contains an open contractible _empty_ subset (containing nothing that could be observed), then there is a diffeomorphism that takes $\phi$ to a different chart $\phi'$ that "shrinks" this subset to a point. This means that a point alone, with nothing obverable attached to it, does not have an objective meaning in General Relativity ("objective" is "independent of the chosen observer resp. coordinate system"). As a tagline this reads:
+###Remark on the physical meaning of points in General Relativity, Einstein's "hole argument"
+
+* see Wikipedia on the [hole argument] (http://en.wikipedia.org/wiki/Hole_argument)
+
+What does it mean to say "let $A$ be a point in spacetime" from the physical viewpoint? How does it relate to reality?
+
+In [[General Relativity]], every chart of the [[atlas]] of the given spacetime represents the viewpoint of a physical observer.
+
+Choose a chart $\phi$ of $(X,\mu)$, let $\phi^{-1}$ contain an _empty_ subset $U$ (containing nothing that could be observed, e.g. no matter), such that $U$ is open and simply connected. Let $e$ be the gravitational field and assume that $U$ contains a point $A$ where $e$ is flat and a point $B$ where $e$ is not flat. Then there is a diffeomorphism $\psi: X \to X$ reducing to the identiy outside of $U$, with $\psi(A) = B$. Let $e' = \psi^*(e)$ be the pullback of $e$ along $\psi$. Since the field equations of [[General Relativity]] are covariant, both $e$ and $e'$ are solutions to the field equations. So one observer will say that there is no gravitation at the spacetime point $A$, while another will say there is. Or, to put it differently, the field equations do not determine the value $e(A)$, and never can if they are covariant.
+
+The conclusion of [[General Relativity]] of this paradox is that there is no meaning to talk about the spacetime point $A$: a point alone, with nothing obsevable attached to it, does not have an objective meaning ("objective" is "independent of the chosen observer resp. coordinate system").
+
+As a tagline this reads:
 
 +-- {: .standout}
 Space and time do not exist on their own in General Relativity. If you remove all manifestations of energy from Newton's space and time, then space and time remain. If you remove all manifestations of energy from a spacetime in General Relativity, nothing remains.
