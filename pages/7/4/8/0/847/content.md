@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
+
 # Terminal objects in quasi-categories
 * tic
 {: toc}
