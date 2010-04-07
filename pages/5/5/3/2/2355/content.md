@@ -211,7 +211,70 @@ One way to find  that an ordinary adjunction of homotopy categories lifts to an 
 
 ### Simplicial and derived adjunctions {#SimplicialAndDerived}
 
-A large class of examples arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
+A large class of examples of $(\infty,1)$-adjunctions arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
+
+We want to produce Cartesian/coCartesian fibration $K \to Delta[1]$ froma given [[sSet]]-[[enriched category theory|enriched]] adjunction. For that first consider the following characterization
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $K$ be a [[simplicially enriched category]] whose [[hom-object]]s are all [[Kan complex]]es, regard the [[interval category]] $\Delta[1] := \{0 \to 1\}$ as an $sSet$-category in the obvious way using the embedding $const : Set \hookrightarrow sSet$ and consider an $sSet$-enriched functor $K \to \Delta[1]$. Let $C := K_0$ and $D := K_1$ be the $sSet$-enriched categories that are the fibers of this. Then under the [[homotopy coherent nerve]] $N : sSet Cat \to sSet$ the morphism
+
+$$
+  N(p) : N(K) \to \Delta[1]
+$$
+
+is a [[Cartesian fibration]] precisely if for all objects $d \in D$ there exists a morphism $f : c \to d$ in $K$ such that postcomposition with this morphism
+
+$$
+  C(c',f ) :  C(c',cc) = K(c',c) \to K(c',d)
+$$
+
+is a [[homotopy equivalence]] of [[Kan complex]]es for all objects $c' \in C'$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+[[Higher Topos Theory|HTT, prop.  5.2.2.4]]. 
+
+The statement follows from the characterization of [[Cartesian morphism]]s under homotopy coherent nerves ([[Higher Topos Theory|HTT, prop.  2.4.1.10]]), which says that for an $sSet$-enriched functor $p : C \to D$ between Kan-complex enriched categories that is [[hom-object]]-wise a [[Kan fibration]], a morphim $f : c' \to c''$ in $C$ is an $N(p)$-[[Cartesian morphism]] if for all objects $c \in C$ the diagram
+
+$$
+  \array{
+    C(c,c') &\stackrel{C(c,f)}{\to}& C(c,c'')
+    \\
+    \downarrow^{\mathrlap{p_{c,c'}}} &&
+    \downarrow^{\mathrlap{p_{c,c''}}}
+    \\
+    D(p(c),p(c')) &\stackrel{D(p(c),p(f))}{\to}&
+    D(p(c), p(c''))
+  }
+$$
+
+is a [[homotopy pullback]] in the [[model structure on sSet-categories]].
+
+For the case under consideration the functor in question is $p : K \to \Delta[1]$ and the above diagram becomes
+
+$$
+  \array{
+    K(c,c') &\stackrel{K(c,f)}{\to}& K(c,c'')
+    \\
+    \downarrow
+     &&
+    \downarrow    
+    \\
+    * &\to& *
+  }
+  \,.
+$$
+
+This is clearly a homotopy pullback precisely if the top morphism is an equivalence.
+
+=--
+
+Using this, we get the following.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -219,24 +282,24 @@ A large class of examples arises from adjunctions in [[sSet]]-[[enriched categor
 For $C$ and $D$ [[sSet]]-[[enriched categories]] whose hom-objects are all [[Kan complexes]], the image 
 
 $$
-  N(A) \stackrel{\overset{N(L)}{\leftarrow}}{\underset{N(R)}{\to}}
-  N(B)
+  N(C) \stackrel{\overset{N(L)}{\to}}{\underset{N(R)}{\leftarrow}}
+  N(D)
 $$
 
 under the [[homotopy coherent nerve]] of an [[sSet]]-enriched adjunction between $sSet$-[[enriched categories]]
 
 $$
-  A \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
-  B
+  C \stackrel{\overset{L}{\to}}{\underset{R}{\leftarrow}}
+  D
 $$
 
 is an adjunction of [[quasi-categories]].
 
-Moreover, if $A$ and $B$ are equipped with the structure of a [[simplicial model category]] then the quasi-categorically [[derived functors]] 
+Moreover, if $C$ and $D$ are equipped with the structure of a [[simplicial model category]] then the quasi-categorically [[derived functors]] 
 
 $$
-  N(A^\circ) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
-  N(B^\circ)
+  N(C^\circ) \stackrel{\overset{L}{\to}}{\underset{R}{\leftarrow}}
+  N(D^\circ)
 $$
 
 form an adjunction of quasi-categories.
@@ -247,8 +310,37 @@ form an adjunction of quasi-categories.
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, cor.  5.2.4.5]] and
+The first part is [[Higher Topos Theory|HTT, cor.  5.2.4.5]], the second
 [[Higher Topos Theory|HTT, prop. 5.2.4.6]].
+
+To get the first part, let $K$ be the $sSet$-category which is the join of $C$ and $D$: its set of objects is the disjoint union of the sets of objects of $C$ and $D$, and the [[hom-object]]s are
+
+* for $c,c' \in C$: $K(c,c') := C(c,c')$;
+
+* for $d,d' \in D$: $K(d,d') := D(d,d')$;
+
+* for $c \in C$ and $d \in D$: $K(c,d) := C(L(c),d) = D(c,R(d))$;
+
+  and
+
+  $K(d,c) = \emptyset$
+
+and equipped with the evident composition operation.
+
+Then for every $d \in D$ there is the morphism $Id_{R(d)} \in K(R(d),d)$, composition with which induced an isomorphism and hence an equivalence. Therefore the conditions of the above lemma are satisfied and hence $N(K) \to \Delta[1]$ is a [[Cartesian fibration]].
+
+By the analogous dual argument, we find that it is also a coCartesian fibration and hence an adjunction.
+
+For the second statement, we need to refine the above argument just slightly to pass to the full $sSet$-subcategories on fibrant cofibrant objects:
+
+let $K$ be as before and let $K^\circ$ be the full $sSet$-subcategory on objects that are fibrant-cofibrant (in $C$ or in $D$, respectively). Then foe any fibrant cofibrant $d \in D$, we cannot just use the identity morphism $Id_{R(d)} \in K(R(d),d)$ since the right Quillen functor $R$ is only guaranteed to respect fibrations, not cofibrations, and so $R(d)$ might not be in $K^\circ$. But we can use the [[small object argument]] to obtain a functorial cofibrant replacement functor $Q : C \to C$, such that $Q(R(d))$ is cofibrant and there is an acyclic fibration $Q(R(d)) \to R(d)$. Take this to be the morphism in $K(Q(R(d)), d)$ that we pick for a given $d$. Then this does induce a homotopy equivalence
+
+$$
+  C(c', Q(R(d))) \to C(c',R(d)) = K(c',d)
+$$
+
+because in an [[enriched model category]] the enriched hom out of a cofibrant object preserves weak equivalences between fibrant objects.
+
 
 =--
 
