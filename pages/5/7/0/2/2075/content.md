@@ -1,24 +1,30 @@
 
-# Idea #
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
+
+
+## Idea 
 
 ...
 
-# Definition #
+## Definition 
 
- ... [[quasi-category]] ... Joyal's [[model structure on simplicial sets]] ...
+ ... [[quasi-category]] ... Joyal's [[model structure for quasi-categories]] ...
 
-# Properties #
+## Properties 
 
 +-- {: .un_lemma }
 ###### Lemma
 
-An [[(∞,1)-functor]] $f : C \to D$ is an equivalence if  the following equivalent conditions hold
+An [[(∞,1)-functor]] $f : C \to D$ is an **equivalence** in [[(∞,1)Cat]] if  the following equivalent conditions hold
 
-* On the underlying [[simplicial set]]s it is a weak categorical equivalence in Joyal's [[model structure on simplicial sets]].
+* On the underlying [[simplicial set]]s it is a weak categorical equivalence in Joyal's [[model structure for quasi-categories]].
 
-* For every [[simplicial set]] $K$ the induced morphism $f_* : SSet(K,C) \to SSet(K,D)$ is a [[model structure on simplicial sets|weak categorical equivalence]].
+* For every [[simplicial set]] $K$ the induced morphism $f_* : SSet(K,C) \to SSet(K,D)$ is a [[model structure for quasi-categories|weak categorical equivalence]].
 
-* For every [[simplicial set]] $K$ the induced morphism $f_* : Core(SSet(K,C)) \to Core(SSet(K,D))$ on the maximal [[Kan complex]]es is a [[model structure on simplicial sets|weak categorical equivalence]].
+* For every [[simplicial set]] $K$ the induced morphism $f_* : Core(SSet(K,C)) \to Core(SSet(K,D))$ on the maximal [[Kan complex]]es is a [[model structure on simplicial sets|equivalence of Kan complexes]] (a [[homotopy equivalence]]).
 
 
 =--
@@ -26,6 +32,6 @@ An [[(∞,1)-functor]] $f : C \to D$ is an equivalence if  the following equival
 +-- {: .proof}
 ###### Proof
 
-This is lemma 3.1.3.2 in [[Higher Topos Theory|HTT]].
+This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 
 =--
