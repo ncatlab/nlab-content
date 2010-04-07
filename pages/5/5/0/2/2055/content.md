@@ -65,6 +65,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Ars Mathematica](http://arsmathematica.net) (analysis, probability...)
 
+* [category theory](http://community.livejournal.com/category_theory) at community.livejournal (in Russian)
+
 * [Combinatorics and more: Gil Kalai's blog](http://gilkalai.wordpress.com) 
 
 * [Climbing Mount Bourbaki](http://amathew.wordpress.com) (Akhil Mathew: Lie algebras, differential and algebraic geometry...)
@@ -135,6 +137,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Noncommutative Geometry](http://noncommutativegeometry.blogspot.com) (Connes, Khalkhali...)
 
 * [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
+
+* [qrazydragon](http://qrazydraqon.livejournal.com) (math, books, internet, in Russian)
 
 * [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles)
 
