@@ -48,7 +48,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
   (In this example, the two edge categories coincide.  Double categories with this property are called **edge-symmetric**.)
 
-* Since any 1-category can be regarded as a 2-category with only identity 2-cells, for any 1-category $C$ we have a double category $Sq(C)$ whose squares are the commutative squares in $C$.  
+* Since any 1-category can be regarded as a 2-category with only identity 2-cells, for any 1-category $C$ we have a double category $Sq(C)$ whose squares are the commutative squares in $C$.  We can also restrict the commutative squares considered, such as taking only [[pullback]] squares.
 
 * Any 2-category can also be made into a double category in two more ways, by defining the vertical or horizontal morphisms to consist only of identities.  In this way 2-categories can be considered as a special case of double categories.
 
@@ -62,7 +62,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 * There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[colax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s.  An analogous double category can be constructed involving the algebras for any [[2-monad]].
 
-* There is a double category $Model$ whose objects are [[model categories]], whose horizontal arrows are right [[Quillen functor]]s, whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.
+* There is a double category $Model$ whose objects are [[model categories]], whose horizontal arrows are right [[Quillen functor]]s, whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.  More generally, we can define a double category of [[homotopical categories]] and "left derivable" and "right derivable" functors.
 
 
 ## Weakenings ##
@@ -121,7 +121,21 @@ It is shown in the paper
 
 that this is the "only obstacle," in the same sense that $K_5$ and $K_{3,3}$ are the only obstacles to [[planar graph|planarity]] of a [[graph]].  Namely, any diagram in which pinwheels can be avoided, can be composed.
 
-In some double categories, however, even pinwheels can be composed, due to certain factorization properties of squares.  These properties are investigated in the above papers as well.
+In many double categories, however, arbitrary arrangements of squares, even pinwheels, can be composed.  For example:
+
+* In the double category $Sq(C)$ of squares/quintets in a 2-category, the general pasting theorem for 2-categories shows that any arrangement of squares can be composed.  In particular, this applies to commutative squares in a 1-category.  The same is true for double categories of adjunctions.
+
+* Likewise, if all the squares in a pinwheel are pullback squares in a 1-category, so is the whole thing.  Thus any arrangement can be composed in any double category of pullback squares.
+
+* Arbitrary arrangements can also be composed in $Model$ and its variants, by the same pasting theorem, since its 2-cells are just ordinary natural transformations.
+
+* The pinwheel can also be composed in the double category $MonCat$, along with its relatives $T Alg$; hence so can all arrangements be composed.  The proof of this is not entirely trivial and involves checking that a fairly large diagram commutes.
+
+* In any [[fibrant double category]], all pinwheels can be composed.
+
+This last example is due to a factorization property: if we can factor the two long vertical rectangles in the pinwheel into two squares, then we can compose it.  The cartesian cells in a fibrant double category certainly allow such a factorization.  One can also axiomatize more precisely what factorization properties are necessary; this is done in the above paper of Dawson and Par&#233;.
+
+In fact, it seems hard to find a naturally occurring double category in which the pinwheel *cannot* be composed, although its composability definitely does not follow from the double-category axioms.  This suggests that perhaps the usual definition of double category is too naive, and we should actually require all "unbiased" composites to exist, including the pinwheel.
 
 
 ## Higher categories of double categories
@@ -159,6 +173,8 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 * Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
 * [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
+
+* [[Mike Shulman]], "Comparing composites of left and right derived functors," [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
 
 
 [[!redirects double categories]]
