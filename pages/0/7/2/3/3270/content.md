@@ -47,4 +47,4 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Masahito Yamazaki, _Crystal melting and wall crossing phenomena_, Ph.D. thesis, [arxiv/1002.1709](http://arxiv.org/abs/1002.1709)
 
-Related entries [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]].
+Related entries [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]], [[Donaldson-Thomas invariant]].
