@@ -540,7 +540,7 @@ The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ 
 
 ## Examples
 
-### The construction over the point
+### Cartesian fibrations over the point
 
 For the base category $S$ being the point $S = {*}$, the  $(\infty,1)$-Grothendieck construction naturally becomes essentially trivial. However, its model by the Quillen functor
 
@@ -571,6 +571,136 @@ Then: [[nerve and realization]] associated to $Q$ yield a [[Quillen equivalence]
 [[Higher Topos Theory|HTT, section 2.2.2]].
 
 ...
+
+### Cartesian fibrations over the interval {#FibsOverInterval}
+
+A [[Cartesian fibration]] $p : K \to \Delta[1]$ over the 1-[[simplex]] corresponds to a morphism 
+$\Delta[1]^{op} \to $ [[(∞,1)Cat]], hence to an [[(∞,1)-functor]] $F : D \to C$.
+
+By the above  procedure we can express $F$ as the image of $p$ under the straightening functor. However, there is a more immediate way to extract this functor, which we now describe.
+
++-- {: .un_defn}
+###### Definition
+
+
+Given a [[Cartesian fibration]] $p : K \to \Delta[1]$ with fibers the [[quasi-categories]] $C := K_{0}$ and $D := K_{1}$, an **$(\infty,1)$-functor associated to the Cartesian fibration** $p$ is a functor $f : D \to C$ such that there exists a commuting diagram in [[sSet]]
+
+$$
+  \array{
+    D \times \Delta[1] &&\stackrel{F}{\to}&& K
+    \\
+    & \searrow && \swarrow_{\mathrlap{p}}
+    \\
+    && \Delta[1]
+  }
+$$
+
+such that 
+
+* $F|_{1} = Id_D$;
+
+* $F|_{0} = f$;
+
+* and for all $d \in D$, $F(\{d\}\times \{0  \to 1\})$ is a [[Cartesian morphism]] in $K$.
+
+More generally, if we also specify possibly nontrivial [[equivalence of quasi-categories|equivalences of quasi-categories]] $h_0 : C \stackrel{\simeq}{\to} K_{0}$  and $h_1 : D \stackrel{\simeq}{\to} K_{1}$, then a functor is associated to $K$ and this choice of equivalences if the first twoo conditions above are generalized to
+
+* $F|_{1} = h_1$;
+
+* $F|_{0} = h_0 \circ f$;
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 5.2.1.1]].
+
++-- {: .un_prop}
+###### Proposition
+
+For $p : K \to \Delta[1]$ a Cartesian fibration, the associated functor exists and is unique up to equivalence in the [[(∞,1)-category of (∞,1)-functors]] $Func(K_{0}, K_{1})$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop 5.2.1.5]].
+
+Set $C := K_{0}$ and $D := K_{1}$.
+
+With the notation described at [[model structure for Cartesian fibrations]], consider the commuting diagram
+
+$$
+  \array{
+    D^\flat \times \{1\} &\hookrightarrow& K^{\sharp}
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    D^{\flat} \times \Delta[1]^{#} &\to&
+    \Delta[1]^#
+  }
+$$
+
+in the category $sSet^+$ of marked simplicial sets.
+
+By some proposion the left vertical morphism is _marked anodyne_ which means that a lift $d : D^\flat \times \Delta[1]^# \to K^{\sharp}$ against the Cartesian fibration in 
+
+$$
+  \array{
+    D^\flat \times \{1\} &\hookrightarrow& K^{\sharp}
+    \\
+    \downarrow &\nearrow_{s}& \downarrow^{\mathrlap{p}}
+    \\
+    D^{\flat} \times \Delta[1]^{#} &\to&
+    \Delta[1]^#
+  }
+$$
+
+exists. This exhibits an associated functor $f := s_0$.
+
+Suppose now that another associated functor $f'$ is given. It will correspondingly come with its diagram
+
+$$
+  \array{
+    D^\flat \times \{1\} &\hookrightarrow& K^{\sharp}
+    \\
+    \downarrow &\nearrow_{s'}& \downarrow^{\mathrlap{p}}
+    \\
+    D^{\flat} \times \Delta[1]^{#} &\to&
+    \Delta[1]^#
+  }
+  \,.
+$$
+
+Together this may be arranged to a diagram
+
+$$
+  \array{
+    D^\flat \times \Lambda[2]_2 
+     &\stackrel{(s,s')}{\to}& K^{\sharp}
+    \\
+    \downarrow &\nearrow_{q}& \downarrow^{\mathrlap{p}}
+    \\
+    D^{\flat} \times \Delta[2]^{#} &\to&
+    \Delta[1]^#
+  }
+  \,,
+$$
+
+where the top horizontal morphism picks the 2-[[horn]] in $K$ whose two edges are labeled by $s$ and $s'$, respectively. 
+
+Now, the left vertical morphism is still marked anodyne, and hence the lift $k$ exists, as indicated. Being a morphism of marked simplicial sets, it must map for each $d \in D$ the edge $\{d\}\times \{0\to 1\}$ to a [[Cartesian morphism]] in $K$, and due to the commutativity of the diagram this morphism must be in $K_0$, sitting over $\{0\}$. But as discussed there, a [[Cartesian morphism]] over a point is an equivalence. This means that the restriction 
+
+$$
+  k|_{D \times \{0 \to 1\}} \to K_0
+$$
+
+is an invertible [[natural transformation]] between $f$ and $f'$, hence these are equivalent in the functor category.
+
+
+=--
+
+
 
 
 ### Cartesian fibrations over simplices {#CartOverSimplex}
