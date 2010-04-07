@@ -1,3 +1,6 @@
+# Contents
+* tic
+{: toc}
 
 ## Idea
 
@@ -26,14 +29,23 @@ More explicitly, a vertical transformation $\alpha\colon F\to G$ consists of
 
 The notion of horizontal transformation is dual.
 
-It is easy to modify the explicit definition to handle the cases when $C$ and $D$ are weak in one direction or the other, and/or when $F$ and $G$ are pseudo functors in one direction or the other, by composing with appropriate coherence constraints.  It is also easy to define *vertical* transformations between double functors which are *horizontally* lax or colax, and dually.  We can also define transformations between functors of [[virtual double categories]] which go in the non-virtual direction.
-
-In this way, we obtain many [[2-categories]] of double categories.
-
 
 ## The double category of double functors
 
 Another characterization of transformations between double categories comes from observing that the 1-category $DblCat$ is [[cartesian closed category|cartesian closed]], and so any two double categories have an exponential $D^C$.  The objects of $D^C$ are double functors, its vertical arrows are vertical transformations, and its horizontal arrows are horizontal transformations.  Its squares are a sort of "square modification" relating a pair of vertical and a pair of horizontal transformations.
+
+## Generalizations
+
+It is easy to modify the explicit definition to handle the cases when $C$ and $D$ are weak in one direction or the other, and/or when $F$ and $G$ are pseudo functors in one direction or the other, by composing with appropriate coherence constraints.  In this way, we obtain many [[2-categories]] of double categories.
+
+It is also easy to define *vertical* transformations between double functors which are *horizontally* lax or colax, and dually.  In fact, given double categories $C,D,C',D'$, lax functors $F\colon C\to D$ and $F'\colon C'\to D'$, and colax functors $G\colon C\to C'$ and $G'\colon D\to D'$, we can define a vertical transformation having the shape
+$$\array{C & \overset{F}{\to} & D \\
+  ^G\downarrow & \Downarrow& \downarrow^{G'}\\
+  C'& \underset{F'}{\to} & D'}$$
+despite the fact that the composites $G' \circ F $and $F'\circ G$ do not exist as double functors of any sort.  Such transformations are the squares of a large double category $Dbl$ whose objects are double categories, whose horizontal arrows are lax functors, and whose vertical arrows are colax functors.  This, in turn, is a special case of a construction which works for algebras over any [[2-monad]].
+
+Finally, we can also define vertical transformations between functors of (horizontally) [[virtual double categories]].
+
 
 
 [[!redirects horizontal transformation]]
