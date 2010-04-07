@@ -108,7 +108,7 @@ It is natural to ask what the "unbiased" notion of composition and associativity
 
 It can be shown that if a given such dissection can be composed up in *some* way using binary composites, then any two ways to compose it up must give the same result.  See
 
-* Dawson and Par&#233;, "General associativity and general composition for double categories".
+* Dawson and Par&#233;, "General associativity and general composition for double categories", [link](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1993__34_1_57_0)
 * Also of interest is "Characterizing tileorders" by the same authors, in which they characterize such rectangle-dissections, called [[tileorders]], in purely combinatorial terms.
 
 However, there are dissections which admit *no* composition in a general double category, foremost among which is the "pinwheel:"
@@ -117,7 +117,7 @@ However, there are dissections which admit *no* composition in a general double 
 
 It is shown in the paper
 
-* Dawson, "A forbidden-suborder characterization of binarily-composable diagrams in double categories"
+* Dawson, "A forbidden-suborder characterization of binarily-composable diagrams in double categories", [TAC](http://www.tac.mta.ca/tac/volumes/1995/n7/1-07abs.html)
 
 that this is the "only obstacle," in the same sense that $K_5$ and $K_{3,3}$ are the only obstacles to [[planar graph|planarity]] of a [[graph]].  Namely, any diagram in which pinwheels can be avoided, can be composed.
 
