@@ -68,7 +68,7 @@ that the pseudo-Riemannian metric $\mu$ may be reconstructed from the lightcone 
 
 ...
 
-## Construction in a smooth Lorentzian space
+## Construction on a smooth Lorentzian space
 
 ### Causal subsets
 
@@ -78,6 +78,102 @@ A **causal subset** of a $X$ is one of its  [[under-over category|under-over cat
 
 Its objects form the collection of all points $z \in X$ that are both in the future of $x$ as well as in the past of $y$.
 
+### The path $(n,1)$-category of a Lorentzian space {#PathnCategory}
+
+To every causal smooth Lorentzian space is canonically associated a smooth [[(n,r)-category|(2,1)-category]], whose invertible [[morphism]]s are smooth spacelike curves, and whose non-invertible morphisms contain future-directed paths. This $(2,1)$-category plays the role of the [[path groupoid]] of a plain manifold and is akin to the path 2-groupoid of paths in an [[orbifold]], only that where the latter has all morphisms invertible, crucially in the path 2-groupoid of a Lorentzian space, there are non-invertible morphisms, reflecting the causal structure of that space.
+
+To put this construction into context, we therefore first recall the story for paths in an orbifold.
+
+#### Prelude: the path 2-groupoid of an orbifold
+
+To an ordinary smooth [[manifold]] or [[generalized smooth space]] $X$ is associated its [[fundamental groupoid]] $\Pi_1(X)$ and its smooth [[path groupoid]] $P_1(X)$: [[categories]] whose [[object]]s are the points of $X$ and whose [[morphism]]s are certain equivalence classes of smooth paths between these objects.
+
+This construction generalizes from paths in plain spaces, to paths in spaces that are themselves smooth groupoids: notably to [[orbifold]]s $X$. 
+
+Given an orbifold $X$ with space of objects $X_0$ and space of morphisms $X_1$, paths in it form a smooth [[2-groupoid]] $P_1(X)$ which looks as follows:
+
+* objects of $P_1(X)$ are the points of $X_0$;
+
+* the morphisms of $P_1(X)$ are formal composites of two types of morphisms
+
+  1. the smooth paths $X_0$, i.e. the morphisms of $P_1(X_0)$;
+
+     $\gamma : x \to y$
+
+  1. the original morphisms of $X$, i.e. the elements of $X_1$. Since the orbifold is locally given by a [[group]] $G$, we may think of these morphisms as being of the form $x \to g\cdot x$, connecting a point $x \in X_0$ to the point $g\cdot x$ that it is [[isomorphism|isomorphic]] to under the orbifold action.
+
+* the [[2-morphism]]s of $P_1(X)$ are paths in $X_1$, i.e. morphisms of $P_1(X_1)$. These we may picture as
+
+  $$
+    \array{
+      x &\stackrel{\gamma}{\to}& y
+      \\
+      \downarrow &\swArrow& \downarrow
+      \\
+      g\cdot x &\underset{g\cdot \gamma}{\to}& g \cdot y
+    }
+    \,.
+  $$
+
+  This is a path $(\gamma, g\cdot \gamma)$ of pairs of points that are related under the orbifold action.
+
+The path 2-groups $P_1(X)$ of the orbifold encodes the correct notion of trajectories in the orbifold: such a trajectory may proceed along smooth paths, and intermittently it may jum between the "orbifold sectors". Notably an [[automorphism]] in $P_1(X)$ on a point $x$ may be given by a smooth path $x \to g x$ that does not come back to $x$ but just to one of its mirror-images, composed with the jump-morphism $g x \to x$ back to $x$. Sometimes (notably in [[string theory]]) such loops are called _twisted sectors_ of loop configurations.
+
+A detailed description of the smooth [[2-groupoid]] of paths in a smooth 2-groupoid may be found in [section 2.1](http://arxiv.org/PS_cache/arxiv/pdf/0808/0808.1923v1.pdf#page=19) of
+
+* U.S., [[Konrad Waldorf]], _Connections on nonabelian gerbes and their holonomy_ ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923))
+
+There the groupoid $X$ is taken to be a [[Cech nerve|Cech groupoid]], but the general mechanism of the construction does not depend on this. A fully general description of paths in (higher) smooth groupoids is also at [[schreiber:path ∞-groupoid]].
+
+It is immediate how this construction generalizes when the smooth groupoid $X$ is replaced by a smooth category. This we turn to now.
+
+#### The path $(2,1)$-category of a Lorentzian space
+
+Now we discuss the same as above, where now $X = (X_1 \stackrel{\to}{\to} X_0)$ is not a smooth groupoid, but a smooth category, notably the smooth [[poset]] determined by a smooth Lorentzian space.
+
+So let $X$ be a smooth causal Lorentzian manifold, regarded as a [[poset]]. So $X_0$ is the underlying manifold and $X_1 \subset X_0 \times X_0$ is the collection of pairs of points with one in the future of the other.
+
+We equip this with the structure of a [[internal category|category internal]] to [[diffeological space]]s, hence with the structure of a category-valued [[presheaf]] on the [[site]] [[CartSp]], by declaring that a plot $\phi : U \to X_0$  of the space of objects is a _spacelike_ smooth map $U \to X_0$: the push-forward along $\phi$ of every tangent vector of $U \in CartSp$ yields a spacelike vector in $X_0$.
+
+Analogously, we declare a plot $\phi  : U \to X_1$ to be a pair of plots into $X_0$ such that pointwise this assigns a point and one point in its future.
+
+From now on, by abuse of notation, by $X$ we shall mean this category internal to diffeological spaces, regarded as a category-valued presheaf on [[CartSp]].
+
+Then the path $(2,1)$-category $P_1(X)$ is defined as follows:
+
+* its space of objects is again the diffeological space $X_0$;
+
+* the elements of its space of morphisms are generated from
+
+  * morphisms $\gamma : x \to y$ 
+    given by reparameterization or thin-hoimotopy 
+    classes of smooth spacelike curves $\gamma : [0,1] \to X_0$;     
+ 
+  * morphisms of the form $x \to y$ for every $x \leq y$ in the causal structure of $X$.
+
+  There is an evident diffeology on this space (a quotient of a disjoint union of product diffeologies). This defines the diffeological space $(P_1(X))$.
+
+* the elements of its space of 2-morphisms are generated from 2-morphisms
+
+  $$
+    \array{
+      & \nearrow \searrow^{\mathrlap{[\gamma_1]}}
+      \\
+      x_1  && y_1
+      \\
+      \downarrow &\swArrow& \downarrow
+      \\
+      x_2  && y_2
+      \\
+      & \searrow \nearrow_{\mathrlap{[\gamma_2]}}  
+    }
+    \;\;\;\;
+    \forall t \in [0,1] : \gamma_1(t) \leq \gamma_2(t)
+  $$
+
+  given from classes of smooth paths in $X_1$, i.e. from classes of paths of pairs of points, one in the future of the other.
+
+  There is an evident diffeology and evident composition operations on this. Notice that the generating 2-cells are 2-isomorphisms, but that their source and target morphisms are not generally invertible. 
 
 ## References
 
