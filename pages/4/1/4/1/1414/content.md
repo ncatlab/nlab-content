@@ -1,3 +1,10 @@
+
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -404,7 +411,7 @@ In more modern terminology as [[Kan complex]]es can be considered as [[∞-group
 
 The homotopy coherent nerve operation was introduced, explicitly, in
 
-* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112
+* [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&eacute;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112
 
 Cordier made the link with earlier work by R.D. Leitch.
 
