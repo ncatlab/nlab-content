@@ -99,7 +99,6 @@ In this context, the BFV-complex is a [[homological resolution]] of the problem 
 _Question_: Can you explain more about this? What do you mean by a "homological resolution of the problem"? Is there a nice example? I went over the [blog entry](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html) but it seemed to talk about symplectic/Poisson reduction in its own right and didn't yet make the link with the BV formalism. (Bruce)
 
 (Jim)  Thanks, Bruce.  My initial edit here is just to set the record straight - BV $\neq$ BFV. Will expand further and try to answer your query.
-
 =--
 
 See [[homological resolution]].
@@ -113,6 +112,8 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 [arXiv](http://arxiv.org/abs/0705.1871), which I talk about at the end of [this](http://golem.ph.utexas.edu/category/2007/08/lyakhonov_and_sharapov_on_qft.html).
 
 (Jim)  I would hope they were related by a homological version of the usual Hamiltonian - Lagrangian correspondence.
+
+Zoran: It sound like, there might be a role of microlocalization in understanding this correspondence. 
 
 =--
 
@@ -207,34 +208,27 @@ a notion of [[volume of a Lie groupoid]].
 
 A comprehensive recent review is
 
-* Carlo Albert, Bea Bleile and J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky Integrals in Finite Dimensions_ ([arXiv](http://eprintweb.org/S/article/math-ph/0812.0464))
+* Carlo Albert, Bea Bleile and J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
 
 Other introductions include
 
 
-* D. Fiorenza, An introduction to the Batalin-Vilkovisky formalism, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003. ([arXiv](http://arxiv.org/abs/math/0402057))
+* D. Fiorenza, _An introduction to the Batalin-Vilkovisky formalism_, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003, [arXiv:math/0402057](http://arxiv.org/abs/math/0402057)
 
-*  A. Cattaneo, From Topological Field Theory to Deformation Quantization and Reduction, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
+*  A. Cattaneo, _From topological field theory to 
+deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
-*  M. B&auml;chtold, On the finite dimensional BV formalism, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+*  M. B&auml;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
 
-
+* [[Albert Schwarz]], _Semiclassical approximation in Batalin-Vilkovisky formalism_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246)
 
 The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
 
-* E. Witten, 
-_A note on the antibracket formalism_
-Modern Physics Letters A, 5 7, 487--494
-([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
-
-
-
+* E. Witten, _A note on the antibracket formalism_, Modern Physics Letters A, 5 7, 487--494 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
 
 ## Related entries
 
 * [[homotopy BV algebra]]
-
-
 
 [[!redirects BV-theory]]
 [[!redirects BV theory]]
