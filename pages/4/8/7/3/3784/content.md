@@ -11,7 +11,7 @@ A **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time 
 In [[classical physics]], notably in [[Special Relativity]] and [[General Relativity]] points in $X$ model coordinates where _events_ can take place from the viewpoint of an observer ("points in space and time") while the metric $\mu$ models the field of [[gravity]] in [[General Relativity]].
 
 +--{: .query}
-Ian: I have a serious problem with saying that the metric models the field of gravity.  What it models is the curvature of spacetime.  Whether that curvature is due to gravity or not depends.  For instance, the Kerr metric models a _rotating_ singularity.  Rotation is explicitly a part of the metric but rotation is not necessarily a result of a gravitational field.
+Ian: Let me rephrase what I had originally put here.  The way it is written above, it implies that the metric _only_ models the field of gravity.  But the Reissner-Nordstroem metric, for example, includes both mass and charge terms.  If you take the limit as $M \to 0$ you're left with a metric that is only dependent on charge.  In other words, you end up with a massless charged field that contains a naked singularity.  Either this implies that charge is related to gravity or this implies that the metric models more than just the field of gravity.  This is why I prefer to say it describes the curvature of spacetime.
 =--
 
 ###Remark on the physical meaning of points in General Relativity, Einstein's "hole argument"
