@@ -71,7 +71,7 @@ As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is
 
 ## In higher category theory ##
 
-An poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[vertical categorification]] of the notion of poset to that of [[n-poset]].
+A poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[vertical categorification]] of the notion of poset to that of [[n-poset]].
 
 
 ## References ##
