@@ -17,6 +17,12 @@ A set $T$ equipped with two partial orders $\le$ and $\sqsubseteq$ (a priori, un
 
 +--{.query}
 [[Todd Trimble|Todd]]: Maybe I'm missing what you mean by "dissection", but off the bat it looks like you are allowing the "pinwheel" as a possible dissection (I hope it is clear what the pinwheel is; Dawson discusses it in one of his papers), but this is the kind of configuration not interpretable in double categories.
+
+[[Mike Shulman]]: Yes, we are allowing the pinwheel, even though it is not always composable in a double category.  That's what I meant to imply above by
+
+> arrangements of 2-cells in a double category which could potentially be composed (although in a general double category, not all of them can actually be composed)
+
+but maybe that isn't sufficiently clear.  The notion of tileorder is purely geometric/combinatorial, and you then have to ask which tileorders are composable in a double category (essentially, all that don't contain a pinwheel).  (BTW, a picture of the pinwheel can be found [here](http://ncatlab.org/nlab/show/double+category#unbiased_composition_and_associativity_9).)
 =--
 
 ## Characterizations
