@@ -22,6 +22,8 @@ English: The first one third of the talk is dedicated to the basis of vectoids w
 
 +--{.query} 
 [[Todd Trimble|Todd]]: "Commutes with colimits" must really mean: $F: A^{op} \to Set$ takes colimits in $A$ to limits in $Set$, and the axiom is that such continuous functors are representable. This reminds me of notions of totality in category theory. 
+
+[[Mike Shulman]]: Yes, that exact condition has been studied by category theorists under the name of a "compact" category.  That's a terrible name, of course, so even the odd-sounding (to me) "vectoid" is better.  I think the original reference is Isbell's paper [Small subcategories and completeness](http://www.ams.org/mathscinet-getitem?mr=0224670), and one later one is [Compact and hypercomplete categories](http://www.ams.org/mathscinet-getitem?mr=614376) by B&#246;rger, Tholen, Wischnewsky, and Wolff.  The property is implied by totality (= the Yoneda embedding has a left adjoint), and implies hypercompleteness (= admits every limit which it could conceivably admit, subject to local smallness).
 =--
 
 [[!redirects vectoid]]
