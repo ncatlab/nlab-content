@@ -23,6 +23,14 @@
 
       * [[n-symplectic manifold]]
 
+  * [[smooth Lorentzian manifold]]
+
+    * [[spacetime]]
+
+      * [[special relativity]]
+
+      * [[general relativity]]
+
 * **[[quantization|Quantization]]**
 
   * [[geometric quantization]]
@@ -35,13 +43,23 @@
 
 * **[[quantum mechanics|Quantum Mechanics]]**
 
-  * [[Hamiltonian operator]]
+  * Formalism
+  
+    * [[Hamiltonian operator]]
 
-  * [[density matrix]]
+    * [[density matrix]]
 
-  * [[quantum operations and channels]]
+    * [[quantum operations and channels]]
 
-* **[[quantum information|Quantum Information]]**
+      * [[extremal quantum channel|extremal quantum channels]]
+
+      * [[graphical quantum channel|graphical quantum channels]]
+
+    * [[quantum information]]
+
+    * [[open quantum systems]]
+
+      * [[closed time-like curves]]
 
 * **[[quantum field theory|Quantum Field Theory]]**
 
