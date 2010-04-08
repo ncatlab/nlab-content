@@ -43,7 +43,9 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 * [Connections as Functors](http://math.ucr.edu/home/baez/qg-fall2004/connection.pdf)
 * [Categorifying Fundamental Physics](http://math.ucr.edu/home/baez/diary/fqxi_narrative.pdf)
 
-#Open Questions#
+#Discussion
+
++--{.query}
 >(We'll pull out any outstanding questions from the discussion below to here in order to make life a little easier for would be angels who might be willing and able to help without forcing them to read the entire discussion.)
 
 [[Eric]]: What is a "component of a cocone"?
@@ -54,7 +56,6 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 
 _Toby_:  Answered at [[cocone]].
 
-#Discussion#
 >(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
 
 [[Eric]]: I've been reading (not exactly studying) Goldblatt and watching some Catster videos. I still feel like I am pretty far away from understanding [[Kan extension]]. John Baez is helping Mike Stay understand them on [[free cocompletion]], which might be helpful to anyone trying to understand Alm's paper.
@@ -70,8 +71,7 @@ Shouldn't there be a [[partial order]] somewhere related to causality?
 _Toby_:  Good point.  Especially since we\'re looking only at timelike (or lightlike on the boundary) paths here (those with proper time rather than proper distance), it would be quite natural to fit causality in here.  Even if you want to allow for timelike loops, the individual paths can be classified as forward or backward under very weak orientability assumptions (and assuming only one timelike dimension, of course).
 
 _[[Eric]]:_ I keep coming to back to the idea of reformulating this on a [[double category]] and relating it to a [Feynman checkerboard](http://en.wikipedia.org/wiki/Feynman_checkerboard) somehow. Maybe even getting back to relating it to [[Position, Velocity, and Acceleration]].
-
-
+=--
 ***
 
 _Eric_: As I read Alm's notes, I keep getting distracted thinking things like, "Why do they do that? What if they did this instead?" For example, why not
