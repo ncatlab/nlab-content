@@ -12,6 +12,8 @@ Just as monoidal categories also come in [[braided monoidal category|braided]] a
 
 * [[Paddy McCrudden|McCrudden]], in "Balanced coalgebroids," defined braided and sylleptic monoidal *bicategories* (not Gray monoids).
 
+* [[Chris Schommer-Pries]], in his [Ph. D. thesis](http://sites.google.com/site/chrisschommerpriesmath/Home/Schommer-Pries-Thesis.pdf), gave the full definition of braided, sylleptic, and symmetric monoidal bicategories and also assembled them into a [[tricategory]].
+
 [[!redirects Gray monoid]]
 [[!redirects Gray-monoid]]
 [[!redirects braided monoidal bicategory]]
