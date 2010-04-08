@@ -40,5 +40,7 @@ Springer 1995.
 
 * C. Kassel, _Quantum groups_
 
+* MathOverflow: [q.gr. as relative Drinfeld double](http://mathoverflow.net/questions/20683/quantum-group-as-relative-drinfeld-double), [why Drinfeld-Jimbo q.gr.](http://mathoverflow.net/questions/5538/why-drinfeld-jimbo-type-quantum-groups), [Lusztig perverse sheaves on quiver varieties](http://mathoverflow.net/questions/14361/what-do-the-local-systems-in-lusztigs-perverse-sheaves-on-quiver-varieties-look), [canonical bases for extended q.env.algebras](http://mathoverflow.net/questions/8110/canonical-basis-for-the-extended-quantum-enveloping-algebras), [all posts with quantum group tag](http://mathoverflow.net/questions/tagged/quantum-group)
+
 
 [[!redirects quantum groups]]
