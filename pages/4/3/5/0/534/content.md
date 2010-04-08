@@ -78,9 +78,10 @@ A **causal subset** of a $X$ is one of its  [[under-over category|under-over cat
 
 Its objects form the collection of all points $z \in X$ that are both in the future of $x$ as well as in the past of $y$.
 
-### The path $(n,1)$-category of a Lorentzian space {#PathnCategory}
+### The path $(\infty,1)$-category of a Lorentzian space {#PathnCategory}
 
-To every causal smooth Lorentzian space is canonically associated a smooth [[(n,r)-category|(2,1)-category]], whose invertible [[morphism]]s are smooth spacelike curves, and whose non-invertible morphisms contain future-directed paths. This $(2,1)$-category plays the role of the [[path groupoid]] of a plain manifold and is akin to the path 2-groupoid of paths in an [[orbifold]], only that where the latter has all morphisms invertible, crucially in the path 2-groupoid of a Lorentzian space, there are non-invertible morphisms, reflecting the causal structure of that space.
+To every [[Lie ∞-groupoid]] $X$ is associated its [[schreiber:path ∞-groupoid]] $\mathbf{\Pi}(X)$. But more generally, to a smooth [[(∞,1)-category]] is associated a **path $(\infty,1)$-category**. A causal Lorentzian manifold may naturally be regarded as a smooth category (a smooth [[poset]]) and as such has a path [[(n,r)-category|(2,1)]]-category. 
+Its invertible [[morphism]]s are smooth spacelike curves, and its non-invertible morphisms contain future-directed paths. This $(2,1)$-category plays the role of the [[path groupoid]] of a plain manifold and is akin to the path 2-groupoid of paths in an [[orbifold]], only that where the latter has all morphisms invertible, crucially in the path 2-groupoid of a Lorentzian space, there are non-invertible morphisms, reflecting the causal structure of that space.
 
 To put this construction into context, we therefore first recall the story for paths in an orbifold.
 
