@@ -8,12 +8,7 @@
 ##Idea
 A **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time orientation (see there).
 
-In [[classical physics]], notably in [[Special Relativity]] and [[General Relativity]] points in $X$ model coordinates where _events_ can take place from the viewpoint of an observer ("points in space and time") while the metric $\mu$ models the field of [[gravity]] in [[General Relativity]].
-
-+--{: .query}
-Ian: Let me rephrase what I had originally put here.  The way it is written above, it implies that the metric _only_ models the field of gravity.  But the Reissner-Nordstroem metric, for example, includes both mass and charge terms.  If you take the limit as $M \to 0$ you're left with a metric that is only dependent on charge.  In other words, you end up with a massless charged field that contains a naked singularity.  Either this implies that charge is related to gravity or this implies that the metric models more than just the field of gravity.  This is why I prefer to say it describes the curvature of spacetime.
-
-=--
+In [[classical physics]], notably in [[Special Relativity]] and [[General Relativity]] points in $X$ model coordinates where _events_ can take place from the viewpoint of an observer ("points in space and time") while the metric $\mu$ models the field of [[gravity]] in [[General Relativity]] (though see remark below).
 
 ###Remark on the physical meaning of points in General Relativity, Einstein's "hole argument"
 
@@ -33,13 +28,18 @@ As a tagline this reads:
 Space and time do not exist on their own in General Relativity. If you remove all manifestations of energy from Newton's space and time, then space and time remain. If you remove all manifestations of energy from a spacetime in General Relativity, nothing remains.
 =--
 
-
 +-- {: .query}
 [[Tim van Beek]]: This paragraph could of course be taken to the [[General Relativity]] page...
 =--
 
 The name spacetime as a composite noun is best motivated from the viewpoint of [[General Relativity]]: In general there is no globally defined coordinate system, and therefore not necessarily a globally defined _canonical_ time coordinate. More specifically, there are spacetimes that admit coordinates defined on subsets where the _physical_ interpretation of the coordinates as modelling time and space coordinates _changes_ over the domain of definition.
 (TODO: references or explanations).
+
+### Remark on the nature of the spacetime metric
+
+While it is accepted by many that the metric represents the gravitational field, there is a school of thought that prefers to see the metric as representing the curvature of spacetime.  This curvature is the result of some field source.  The interpretation espoused above _a priori_ assumes the metric encodes the gravitational field only.  (Note that this implies that charge has a gravitational interpretation.)  If we don't assume this and then we take the mass to zero in the Reissner-Nordstr&#246;m metric, it is possible to interpret the metric as simply representing the curvature of spacetime due to _some_ field source that is not necessarily gravitational.  This would resolve some paradoxes inherent with the other interpretation. [I will fill in a citation for this and an example.]
+
+=--
 
 [[!redirects space-time]]
 [[!redirects space time]]
