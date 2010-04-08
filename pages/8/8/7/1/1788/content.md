@@ -11,6 +11,10 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 * Table of Contents
 {: toc}
 
+&#263;
+
+$\'c$
+
 
 ## Something in the Contents ##
 ## HomePage ##
