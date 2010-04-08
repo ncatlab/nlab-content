@@ -4,7 +4,7 @@
 
 * _Classifying vectoids and generalizations of operads_ , The International Conference "Contemporary Mathematics", June 12, 2009, [link](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=34084)
 
-A **vectoid** is a [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s and the following "completeness" axiom: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. Vectoid is simultaneously generalizing  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topoi]]: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring. 
+A **vectoid** is a [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s and the following "completeness" axiom: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. Vectoid is simultaneously generalizing  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topos|ringed topoi]]: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring. 
 
 To come to the notion of algebrad he develops the notions of monoidal vectoids and classifying vectoids. Algebrads generalize simultaneously symmetric [[operad]]s, algebraic [[monad]]s (which appear when one wants to classify [[coalgebra]]s) and some objects which appear when one wants to classify algebras. 
 
