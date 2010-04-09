@@ -15,7 +15,7 @@ This paragraph will collect some facts of interest for the aspects of [[AQFT]] i
 ###States {#statesOfOperatorAlgebras}
 The Heisenberg picture is sometimes formalized by describing the observables of a quantum system by an operator algebra, and the state of the system as a state of the algebra. The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited it's name from the physical concept.
 
-* Definition: An operator A is called **positive** if it's spectrum is contained in $[0, \infinity)$ (which implies that A is selfadjoint). We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given operator algebra).
+* Definition: An operator A on a Hilbert space is called **positive** if it is self-adjoint and its spectrum is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given operator algebra).
 
 * Definition: A linear functional $\rho$ of an operator algebra is **positive** if $A \ge 0$ implies that  $\rho(A) \ge 0$.
 
