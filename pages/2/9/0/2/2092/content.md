@@ -15,13 +15,17 @@ This paragraph will collect some facts of interest for the aspects of [[AQFT]] i
 ###States {#statesOfOperatorAlgebras}
 The Heisenberg picture is sometimes formalized by describing the observables of a quantum system by an operator algebra, and the state of the system as a state of the algebra. The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited it's name from the physical concept.
 
-* Definition: An operator A on a Hilbert space is called **positive** if it is self-adjoint and its spectrum is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given operator algebra).
+The definition of a state relies on the notion of positivity of the elements of an operator algebra, for which we need the structure of a [[C-star algebra]].  
 
-* Definition: A linear functional $\rho$ of an operator algebra is **positive** if $A \ge 0$ implies that  $\rho(A) \ge 0$.
+* Definition: An element A of an (abstract) $C*$-algebra is called **positive** if it is self-adjoint and its spectrum is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given $C*$-algebra).
 
-* Definition: A **state** of an unital operator algebra is linear functional $\rho$ such that $\rho$ is positive and $\rho(\mathbb{1}) = 1$.
+Remark: This defintion is motivated by the Hilbert space situation, where an operator $A \in \mathcal{B} (\mathcal{H})$ is called positive if for every vector $x \in \mathcal{H}$ the inequality $ \langle x, Ax \rangle \ge 0$ holds. If the abstract $C^*$-algebra of the definition above is represented on a Hilbert space, then we see that by [function calculus] we can define a self adjoint operator $B$ by $B := f(A)$ with $f(t) := t^{1/2}$ and get  $ \langle x, Ax \rangle = \langle Bx, Bx \rangle \ge 0$. This shows that the positive elements of the abstract algebra, if represented on a Hilbert space, become positive operators as defined here in the Hilbert space setting.
 
-Though the mathematical notion of state is already close to what physicists have in mind, they usually restrict the set of states further and consider normal states only. We let $\mathcal{R}$ be an operator algebra and $\pi$ an representation of $\mathcal{R}$ on a Hilbert space $\mathcal{H}$.
+* Definition: A linear functional $\rho$ of an $C*$-algebra is **positive** if $A \ge 0$ implies that  $\rho(A) \ge 0$.
+
+* Definition: A **state** of an unital $C*$-algebra is linear functional $\rho$ such that $\rho$ is positive and $\rho(\mathbb{1}) = 1$.
+
+Though the mathematical notion of state is already close to what physicists have in mind, they usually restrict the set of states further and consider normal states only. We let $\mathcal{R}$ be an $C*$-algebra and $\pi$ an representation of $\mathcal{R}$ on a Hilbert space $\mathcal{H}$.
  
 Combined definition and theorem: A **normal state** $\rho$ is a state that satisfies one of the following equivalent conditions (this list is not complete, i.e. there are more equivalent characterizations of normal states):
 
@@ -37,29 +41,28 @@ The last one is most frequently used by physicists, in that context the operator
 
 Reference: Kadison and Ringrose, definition 7.1.11 and theorem 7.1.12.
 
-Sometimes the observables of a system are described by an abstract operator algebra, in this case an important notion is the folium:
+Sometimes the observables of a system are described by an abstract $C*$-algebra, in this case an important notion is the folium:
 
-* Definition: The **folium** of a representation $\pi$ of an operator algebra $\mathcal{R}$ on a Hilbert space is the set of normal states of $\pi(\mathcal{R})$.
+* Definition: The **folium** of a representation $\pi$ of an $C*$-algebra  $\mathcal{R}$ on a Hilbert space is the set of normal states of $\pi(\mathcal{R})$.
 
 * Definition: A state $\rho$ of a representation is called a **vector state** if there is a $x \in \mathcal{H}$ such that $\rho(\pi(R)) = \langle \pi(R)x, x \rangle$ for all $R \in \mathcal{R}$.
 
-* Theorem: Normal states are vector states if $\mathcal{R}$ is a von Neumann algebra with a seperating vector. More precisely: Let $\mathcal{R}$ be a von Neumman algebra acting on a Hilbert space $\mathcal{H}$, let $\rho$ be a normal state of $\mathcal{R}$ and $x \in \mathcal{H}$ be a separating vector for $\mathcal{R}$, then there is a $y \in \mathcal{H}$ such that $\rho(R) = \langle Ry, y \rangle$ for all $R \in \mathcal{R}$.
+* Theorem: Normal states are vector states if $\mathcal{R}$ is a von Neumann algebra with a separating vector. More precisely: Let $\mathcal{R}$ be a von Neumman algebra acting on a Hilbert space $\mathcal{H}$, let $\rho$ be a normal state of $\mathcal{R}$ and $x \in \mathcal{H}$ be a separating vector for $\mathcal{R}$, then there is a $y \in \mathcal{H}$ such that $\rho(R) = \langle Ry, y \rangle$ for all $R \in \mathcal{R}$.
 
 Reference: This is theorem 7.2.3 in the book of Kadison and Ringrose.
 
-The set of states of an operator algebra is sometimes called the **state space**.
+The set of states of an $C*$-algebra is sometimes called the **state space**.
 
-The state space is non-empty (define a state on the subalgebra $\mathbb{C} \mathbb{1}$ and extend it to the whole operator algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem) it is the weak$^*$-closure of it's extreme points.
+The state space is non-empty (define a state on the subalgebra $\mathbb{C} \mathbb{1}$ and extend it to the whole $C*$-algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the  [[Krein-Milman theorem]] (see Wikipedia: [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem)) it is the weak$^*$-closure of it's extreme points.
 
 * Definition: A **pure state** is a state that is an extreme point of the state space.
 
-The term "pure" originates from the notion of [[entanglement]], being an extreme point a pure state is not the sum of two other states.
-
+The term "pure" originates from the notion of [[entanglement]], a pure state is not a superposition of two distinct other states.
 
 
 ## References
 
-* [Wikipedia] (http://en.wikipedia.org/wiki/Operator_algebras)
+* Wikipedia on [operator algebras] (http://en.wikipedia.org/wiki/Operator_algebras)
 
 There are a lot of textbooks about operator algebras, here are some examples:
 
