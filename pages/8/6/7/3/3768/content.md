@@ -28,3 +28,5 @@ Moduli spaces and moduli stacks of vector bundles and of principal $G$-bundles f
 
 * C. Teleman, C. T. Woodward, _The index formula for the moduli
 of G-bundles on a curve_, Ann. Math. __170__, 2, 495&#8211;527 (2009) [pdf](http://annals.princeton.edu/annals/2009/170-2/annals-v170-n2-p01-p.pdf)
+
+* References for moduli spaces of bundles over *singular* curves are discussed at MathOverflow [here](http://mathoverflow.net/questions/20702/reference-request-moduli-spaces-of-bundles-over-singular-curves/)
