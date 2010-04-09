@@ -459,3 +459,5 @@ Dugger's theorem is in
 [[!redirects Jeff Smith's theorem]]
 [[!redirects Jeff Smith theorem]]
 [[!redirects Jeff Smith's theorem]]
+
+[[!redirects combinatorial model categories]]
