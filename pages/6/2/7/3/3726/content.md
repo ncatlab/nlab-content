@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc" markdown="1">
 [[!include (infinity,1)-topos - contents]]
 </div>
@@ -11,9 +10,9 @@
 
 ## Idea
 
-An **$n$-connected object** is an object all whose [[homotopy group]]s _below_ degree $n$ are trivial.
+An **$n$-connected object** is an object all whose [[homotopy group]]s _equal to or below_ degree $n$ are trivial.
 
-More precisely, and object in an [[∞-stack]] [[(∞,1)-topos]] is $n$-truncated if its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] below degree $n$ are trivial.
+More precisely, and object in an [[∞-stack]] [[(∞,1)-topos]] is $n$-truncated if its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] equal to or below degree $n$ are trivial.
 
 The complementary notion is that of an [[n-truncated object of an (∞,1)-category]].
 
@@ -30,18 +29,18 @@ An object $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called**$n$-connected** fo
 * the [[terminal object|terminal]] morphism $X \to *$ is an [[effective epimorphism]];
 
 * all [[homotopy groups in an (∞,1)-topos|categorical homotopy group]]
-  below degree $n$ are trivial.
+  equal to or below degree $n$ are trivial.
 
 =--
 
-By convention every object is $(-1)$-connected
+By convention every object is $(-2)$-connected.
 
-This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]].
+This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "$(n+1)$-connective."
 
 +-- {: .un_prop}
 ###### Proposition
 
-An object $X$ is $n$-connected (for $n \geq -1$) precisely if its [[n-truncated object in an (∞,1)-category|(n-1)-truncation]] $\tau_{\leq (n-1)} X$ is [[generalized the|the]] [[terminal object]] of $\mathbf{H}$.
+An object $X$ is $n$-connected (for $n \geq -2$) precisely if its [[n-truncated object in an (∞,1)-category|n-truncation]] $\tau_{\leq n} X$ is [[generalized the|the]] [[terminal object]] of $\mathbf{H}$.
 
 =--
 
@@ -60,9 +59,9 @@ This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]]
 
 In the the [[(∞,1)-category]] [[Top]] we have
 
-* a 1-connected object is a [[connected space]].
+* a 0-connected object is a [[connected space]].
 
-* a 2-connected object is a [[simply connected space]].
+* a 1-connected object is a [[simply connected space]].
 
 
 
