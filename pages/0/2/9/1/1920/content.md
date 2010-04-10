@@ -144,3 +144,5 @@ Note also that for any virtual double category $X$, there is another virtual dou
 [[!redirects generalized multicategories]]
 [[!redirects generalised multicategory]]
 [[!redirects generalised multicategories]]
+[[!redirects virtual T-algebra]]
+[[!redirects virtual T-algebras]]
