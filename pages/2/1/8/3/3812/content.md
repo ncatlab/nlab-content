@@ -52,7 +52,13 @@ $$X \stackrel{\pi_1}{\leftarrow} X \times Y \stackrel{1_X \times \{0\} \times 1_
 
 and now take the monoid in $Top$ to be the 1-point space with its unique monoid structure. 
 
-Now mimic this construction for cubical sets in the following way: there is a promonoidal structure on the site $Cube$ where, if $X$, $Y$ are objects of $Cube$, we define $X \star Y$ to be the pushout (in cubical sets) of the same diagram as above (but replacing $\times$ by the monoidal product $\otimes$ of $Cube$). Note that even though $\otimes$ is not cartesian product in $Cube$ (because $Cube$ lacks diagonals), the monoidal unit $1$ of Cube is terminal, so we do have "projection maps" to work with to produce the analogous diagram in $Cube$ (the $I$ is the monoidal generator of $Cube$). This promonoidal product on $Cube$ induces a monoidal product on cubical sets which I'll call "cubical simplicial join". As before, the terminal cubical set is a monoid with respect to this monoidal product, so by the walking monoid property we obtain a monoidal functor 
+Now mimic this construction for cubical sets (but replacing $\times$ by the monoidal product $\otimes$ of $Cube$) as follows. First, although $\otimes$ is not cartesian product in $Cube$ (because $Cube$ lacks diagonals), the monoidal unit $1$ of $Cube$ is terminal, so we do have "projection maps" to work with: 
+
+$$\pi_1 = (X \otimes Y \stackrel{1_X \otimes !}{\to} X \otimes 1 \cong X)$$
+
+$$\pi_2 = (X \otimes Y \stackrel{! \otimes 1_Y}{\to} 1 \otimes Y \cong Y)$$
+
+and, taking $I$ to be the monoidal generator of $Cube$, we also have two maps $i_0, i_1: 1 \to I$ available to produce the diagram analogous to (1) in $Cube$. Next, there is a promonoidal structure on the site $Cube$ where, if $X$, $Y$ are objects of $Cube$, we define $X \star Y$ to be the pushout (in cubical sets) of this same diagram. This promonoidal product on $Cube$ induces a monoidal product on cubical sets which we will call "cubical simplicial join". As before, the terminal cubical set is a monoid with respect to this monoidal product, so by the walking monoid property we obtain a monoidal functor 
 
 $$\Sigma: \Delta \to Set^{Cube^{op}}$$ 
 
