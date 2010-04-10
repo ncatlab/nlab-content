@@ -14,8 +14,6 @@ Likewise, an **autonomous virtual double category** is a [[virtual double catego
 
 By contrast, in a **virtually autonomous virtual double category**, the monoidal and autonomous structure has also been "virtualized": rather than coming equipped with a horizontally functorial tensor product, in such a virtual double category there are also horizontal arrows with multi-sources that are finite lists of objects with variance, such as $(A,B^{op},C)$.  We can also have a **virtually autonomous double category** which is an honest double category, but whose monoidal and autonomous structure is only virtual.
 
-A virtually autonomous double category containing only identity vertical arrows is called an **extraordinary 2-multicategory**.  It is in some sense the "minimal" generalization of a [[2-category]] in which one can study [[extraordinary natural transformations]].  These can also be defined in any of the more algebraic structures considered above, but in general those also contain much more information than necessary merely to define extranaturals.
-
 Finally, if an autonomous double category or virtual category is a [[proarrow equipment]] or a [[virtual equipment]], we of course call it an **autonomous (virtual) proarrow equipment**.
 
 ## Definition
@@ -58,19 +56,16 @@ It follows by the functoriality of the construction of [[generalized multicatego
 
 In each of the above cases, we can replace "double category" by [[proarrow equipment]] if the (virtual) double category in question is additional a ([[virtual equipment|virtual]]) equipment.
 
-* An **extraordinary club** is a virtually autonomous double category containing only identity vertical arrows.
 
 
 ## Examples
 
 The basic example is $\underline{Cat}$, in which the objects are categories, the horizontal arrows are functors, and the vertical arrows are profunctors.  This is an autonomous proarrow equipment.  There are similar examples $V \underline{Prof}$ for any Benabou [[cosmos]] $V$.  In fact, as long as $V$ is any symmetric [[multicategory]], we can define a virtually autonomous virtual equipment $V \underline{Prof}$.
 
-Any virtually autonomous virtual equipment has an underlying extraordinary club obtained by discarding all the non-identity vertical arrows.
-
 
 ## Extraordinary 2-cells
 
-Let $C$ be a virtually autonomous virtual double category with units (it could be an equipment, or it could be an extraordinary club).  Note that the source of a general 2-cell in $C$ is a graph whose edges are labeled by composable strings of vertical arrows in $C$.  Suppose also that $f\colon \vec{x} \to z$ and $g\colon \vec{y}\to z$ are horizontal arrows in $C$.  An **extraordinary 2-cell** in $C$ is defined to be a 2-cell whose target is the unit/identity $U_z$, and whose source is a loop-free graph whose edges are all labeled by empty strings (or, equivalently, by identities).  One can verify that in $\underline{Cat}$, this reproduces the usual notion of [[extraordinary natural transformation]].
+Let $C$ be a virtually autonomous virtual double category with units (it could be an equipment).  Note that the source of a general 2-cell in $C$ is a graph whose edges are labeled by composable strings of vertical arrows in $C$.  Suppose also that $f\colon \vec{x} \to z$ and $g\colon \vec{y}\to z$ are horizontal arrows in $C$.  An **extraordinary 2-cell** in $C$ is defined to be a 2-cell whose target is the unit/identity $U_z$, and whose source is a loop-free graph whose edges are all labeled by empty strings (or, equivalently, by identities).  One can verify that in $\underline{Cat}$, this reproduces the usual notion of [[extraordinary natural transformation]].
 
 
 ## Structures in an autonomous double category
@@ -98,8 +93,6 @@ In a (possibly virtual) autonomous double category, we can define internal notio
 [[!redirects virtually autonomous virtual double categories]]
 [[!redirects compact closed double category]]
 [[!redirects compact closed double categories]]
-[[!redirects extraordinary club]]
-[[!redirects extraordinary clubs]]
 [[!redirects autonomous equipment]]
 [[!redirects autonomous proarrow equipment]]
 [[!redirects autonomous virtual equipment]]
