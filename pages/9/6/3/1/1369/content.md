@@ -1,14 +1,15 @@
 <div class="rightHandSide toc">
-
 [[!include higher category theory - contents]]
-
+***
 [[!include higher algebra - contents]]
-
 </div>
 
-[[higher category theory - contents]]
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+
+## Idea
 
 The notion of _monoidal $(\infty,1)$-category_ is the analogue of the notion of [[monoidal category]] in the context of [[(infinity,1)-category|(∞,1)-categories]].
 
@@ -16,12 +17,12 @@ There are various ways to state the monoidal structure. One is in terms of fibra
 
 *  [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
-Another is in terms of [[operad]]s. This approach has been taken by John Francis in his thesis. 
+Another is in terms of [[(∞,1)-operad]]s (see there). This approach has been taken by John Francis in his thesis. 
 
 Both are described below.
 
 
-## idea of the simplicial definition ##
+### Idea of the simplicial definition 
 
 As discussed at the end of the entry on 
 [[monoidal category]],
@@ -95,9 +96,9 @@ In any case, this motivates the following definition.
 
 
 
-#Definition#
+## Definition
 
-## simplicial/geometric definition ##
+### Simplicial/geometric definition 
 
 A **monoidal ($\infty,1$)-category** $(C, \otimes)$
 is 
@@ -126,7 +127,7 @@ $$
 
 Here $\Delta$ is the [[simplex category]] and $N(\Delta)$ its [[nerve]].
 
-# Higher monoidal structure #
+## Higher monoidal structure 
 
 While for an ordinary [[monoid]] there is just one notion of commutativity (either it is or it is not commutative), already a [[monoidal category]] distinguishes between being just [[braided monoidal category|braided monoidal]] or fully [[symmetric monoidal category|symmetric monoidal]].
 
@@ -140,7 +141,7 @@ One says that an $n$-category is _symmetric monoiodal_ if it is "as monoidal as 
 
 * [[symmetric monoidal (infinity,1)-category|∞-tuply monoidal (∞,1)-categories]].
 
-## operadic/algebraic definition of monoidal structure ##
+### Operadic/algebraic definition of monoidal structure
 
 For each $1 \leq n \leq \infty$ let $E_n$ denote the [[little n-disk operad|little n-disk]] [[operad]] whose [[topological space]] of $E_n^k$ of $k$-ary operations is the space of embeddings of $k$ $n$-dimensional disks (balls) in one $n$-dimensional disk without intersection, and whose composition operation is the obvious one obtained from gluing the big outer disks into given inner disks.
 
@@ -157,7 +158,7 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 
 
-#References#
+## References
 
 the simplicial definition is definition 1.1.2 in 
 
