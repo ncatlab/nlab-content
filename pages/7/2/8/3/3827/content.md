@@ -48,24 +48,42 @@ We now claim that there is a [[distributive law]] relating $T'$ to $G$, and ther
 
 It follows by the functoriality of the construction of [[generalized multicategories]] that $G$ induces a pseudomonad $G' = nKMod(G,T')$  on the virtual equipment $Vdc = nKMod(Cat(Quiv),T')$ of virtual double categories.  Moreover, we can verify that $G'$ preserves pseudo double categories, and induces a monad $G''$ on the virtual equipment of double categories and [[double profunctors]].  Finally, we can define:
 
-* An **autonomous double category** is a pseudo $G''$-algebra.
+* An **autonomous double category** is a pseudo $G''$-algebra.  By general nonsense about distributive laws, this should be the same as a pseudo $G T'$-algebra, where $G T'$ is the composite pseudomonad on $Cat(Quiv)$ resulting from the distributive law.
 
 * An **autonomous virtual double category** is a pseudo $G'$-algebra.
 
-* A **virtually autonomous virtual double category** is a virtual $G'$-algebra.  I believe this should be the same as a virtual $G T'$-algebra, where $G T'$ is the composite pseudomonad on $Cat(Quiv)$ resulting from the distributive law.
+* A **virtually autonomous virtual double category** is a virtual $G T'$-algebra (in $Cat(Quiv)$).  I *don't* think this is quite the same as a virtual $G'$-algebra in $Vdc$.
 
 * A **virtually autonomous double category** is a virtual $G''$-algebra.
+
+In each of the above cases, we can replace "double category" by [[proarrow equipment]] if the (virtual) double category in question is additional a ([[virtual equipment|virtual]]) equipment.
 
 * An **extraordinary 2-multicategory** is a virtually autonomous double category containing only identity vertical arrows.
 
 
+## Examples
+
+The basic example is $\underline{Cat}$, in which the objects are categories, the horizontal arrows are functors, and the vertical arrows are profunctors.  This is an autonomous proarrow equipment.  There are similar examples $V \underline{Prof}$ for any Benabou [[cosmos]] $V$.  In fact, as long as $V$ is any symmetric [[multicategory]], we can define a virtually autonomous virtual equipment $V \underline{Prof}$.
+
+Any virtually autonomous virtual equipment has an underlying extraordinary 2-multicategory obtained by discarding all the non-identity vertical arrows.
+
+
 ## Extraordinary 2-cells
 
+Let $C$ be a virtually autonomous virtual double category with units (it could be an equipment, or it could be an extraordinary 2-multicategory).  Note that the source of a general 2-cell in $C$ is a graph whose edges are labeled by composable strings of vertical arrows in $C$.  Suppose also that $f\colon \vec{x} \to z$ and $g\colon \vec{y}\to z$ are horizontal arrows in $C$.  An **extraordinary 2-cell** in $C$ is defined to be a 2-cell whose target is the unit/identity $U_z$, and whose source is a loop-free graph whose edges are all labeled by empty strings (or, equivalently, by identities).  One can verify that in $\underline{Cat}$, this reproduces the usual notion of [[extraordinary natural transformation]].
+
+
+## Structures in an autonomous double category
+
+In a (possibly virtual) autonomous double category, we can define internal notions of "closed category," "closed monoidal category," and so on.
+
 ...
+
 
 ## Representability
 
 ...
+
 
 ## References
 
@@ -79,6 +97,7 @@ It follows by the functoriality of the construction of [[generalized multicatego
 [[!redirects virtually autonomous double categories]]
 [[!redirects virtually autonomous virtual double categories]]
 [[!redirects compact closed double category]]
+[[!redirects compact closed double categories]]
 [[!redirects extraordinary 2-multicategory]]
 [[!redirects extraordinary multicategory]]
 [[!redirects extraordinary 2-multicategories]]
@@ -86,3 +105,6 @@ It follows by the functoriality of the construction of [[generalized multicatego
 [[!redirects autonomous equipment]]
 [[!redirects autonomous proarrow equipment]]
 [[!redirects autonomous virtual equipment]]
+[[!redirects virtually autonomous equipment]]
+[[!redirects virtually autonomous proarrow equipment]]
+[[!redirects virtually autonomous virtual equipment]]
