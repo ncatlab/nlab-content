@@ -29,7 +29,7 @@ The objects in $Fun(C,D)$ are the [[(∞,1)-functors]] from $C$ to $D$, the morp
 
 The simplicial set $Fun(C,D)$ is indeed a [[quasi-category]].
 
-In fact, for $C$ and $D$ any simplicial sets, $Fun(C,D)$ is a [[quasi-category]] precisely if $D$ is a [[quasi-category]].
+In fact, for $C$ and $D$ any simplicial sets, $Fun(C,D)$ is a [[quasi-category]] if $D$ is a [[quasi-category]].
 
 =--
 
@@ -188,6 +188,5 @@ The intrinsic defintiion is in section 1.2.7 of
 
 The discussion of [[model category]] models is in A.3.4.
 
-[[Note on Formatting|?]]
 
 [[!redirects (∞,1)-category of (∞,1)-functors]]
