@@ -4,9 +4,13 @@
 
 * _Classifying vectoids and generalizations of operads_ , The International Conference "Contemporary Mathematics", June 12, 2009, [link](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=34084)
 
-A **vectoid** is a [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s and the following "completeness" axiom: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. Vectoid is simultaneously generalizing  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topos|ringed topoi]]: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring. 
+A **vectoid** is a finitely complete and [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s, where all epimorphisms are universally effective and where the following "completeness/totality" axiom holds: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. 
 
-To come to the notion of algebrad he develops the notions of monoidal vectoids and classifying vectoids. Algebrads generalize simultaneously symmetric [[operad]]s, algebraic [[monad]]s (which appear when one wants to classify [[coalgebra]]s) and some objects which appear when one wants to classify algebras. 
+Vectoid is simultaneously generalizing  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topos|ringed topoi]]: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring.
+There are monoidal, symmetric monoidal and usual variant of vectoids; for monoidal versions one needs to impose a cocontinuity of the tensor product in each argument, 
+Vectoids are organized in a 2-category $Vectoid$ of vectoids. The name vectoid because of some analogies of that 2-category with the category of vector spaces, including a universal property of an external tensor product between vectoids which is similar to the universal property of the tensor product for vector spaces; where (bi)cocontinuous functors are analogous to (bi)cocontinuous maps. A monad in the 2-category of vectoids, that is a monoid with respect to the composition product, is called an **algebrad**.
+
+A main source of algebrads are classifying vectoids; they come from the problem of representing $Cat$-valued presheaves on $Vectoid$. Examples of the algebrads of that kind are symmetric [[operad]]s, algebraic [[monad]]s (which appear when one wants to classify [[coalgebra]]s) and a new type  which appear when one wants to classify algebras. While the moduli spaces of algebras are hard to construct, the classifying vectoids are in these examples constructed with relatively little pain. 
 
 Abstract (in Russian, from [link](http://www.pdmi.ras.ru/EIMI/2009/cm/abs.html)): 
 
