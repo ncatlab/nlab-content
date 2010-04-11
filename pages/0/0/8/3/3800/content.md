@@ -4,7 +4,7 @@
 
 * _Classifying vectoids and generalizations of operads_ , The International Conference "Contemporary Mathematics", June 12, 2009, [link](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=34084)
 
-A **vectoid** is a finitely complete and [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s, where all epimorphisms are universally effective and where the following "completeness/totality" axiom holds: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. 
+A **vectoid** is a finitely complete and [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s, where all [[epimorphism]]s are universally [[effective epimorphism|effective]] and where the following "completeness/totality" axiom holds: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. 
 
 Vectoid is simultaneously generalizing  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topos|ringed topoi]]: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring.
 There are monoidal, symmetric monoidal and usual variant of vectoids; for monoidal versions one needs to impose a cocontinuity of the tensor product in each argument, 
