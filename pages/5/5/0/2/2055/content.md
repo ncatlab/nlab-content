@@ -79,11 +79,13 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Division by Zero](http://divisbyzero.com) (Dave Richeson: "A blog about math, puzzles, teaching, and academic technology")
 
-* [Emb&#251;ches tissues](http://embuchestissues.wordpress.com) (computational algebraic geometry, commutative algebra)
-
 * [Drexel mathematics](http://www.library.drexel.edu/blogs/drexelmath) (from Drexel Univ. Libraries: mainly books)
 
+* [Emb&#251;ches tissues](http://embuchestissues.wordpress.com) (computational algebraic geometry, commutative algebra)
+
 * [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski) (analysis, esp. summation formulas, probability distributions, stochastic processes...)
+
+* Edinburgh Mathematical Physics Group [blog](http://empg.maths.ed.ac.uk/blog)
 
 * [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
