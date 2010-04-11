@@ -73,7 +73,7 @@ TO DO: Draw the diagram just described.
 
 ### Matrix representation
 
-Suppose $V$, $W$ are finite-dimensional vector spaces over a field, with dimensions $m$ and $n$, respectively. For any space $A$ let $L(A)$ denote the space of linear operators on $A$. The partial trace over $W$, Tr$_{W}$, is a mapping
+Suppose $V$, $W$ are finite-dimensional vector spaces over a field, with dimensions $m$ and $n$, respectively. For any space $A$ let $L(A)$ denote the space of linear operators on $A$. The __partial trace__ over $W$, Tr$_{W}$, is a mapping
 
 $$
   T \in L(V \otimes W) \mapsto Tr_{W}(T) \in L(V).
@@ -81,10 +81,10 @@ $$
 
 +-- {: .un_defn}
 ###### Definition
-Let $e_{1}, \ldots, e_{m}$ and $f_{1}, \ldots, f_{n}$ be bases for $V$ and $W$ respectively.  Then $T$ has a matrix representation $\{a_{kl,ij}\}$ where $1 \le k,i \le m$ and $1 \le l,j \le n$ relative to the basis of the space $V \otimes W$ given by $e_{k} \otimes f_{l}$.  Consider the sum
+Let $e_{1}, \ldots, e_{m}$ and $f_{1}, \ldots, f_{n}$ be bases for $V$ and $W$ respectively.  Then $T$ has a matrix representation $\{a_{k l,i j}\}$ where $1 \le k,i \le m$ and $1 \le l,j \le n$ relative to the basis of the space $V \otimes W$ given by $e_{k} \otimes f_{l}$.  Consider the sum
 
 $$
-  b_{k,i} = \sum_{j=1}^{n}a_{kj,ij}
+  b_{k,i} = \sum_{j=1}^{n}a_{k j,i j}
 $$
 
 for $k,i$ over $1, \ldots, m$.  This gives the matrix $b_{k,i}$.  The associated linear operator on $V$ is independent of the choice of bases and is defined as the partial trace.
