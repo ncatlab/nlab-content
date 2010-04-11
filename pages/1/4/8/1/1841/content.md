@@ -397,3 +397,4 @@ What this means is the the electromagnetic properties of matter can be interpret
 
 It would be nice to see the importance of the Hodge star amplified a bit.
 
+[[Bruce Bartlett]]: I agree with Eric on the importance of the Hodge star in electromagnetic properties of matter. For one thing, this is now borne out in the whole field of cloaking! See for instance section 2.1 and appendix A of [this paper](http://arxiv.org/abs/cond-mat/0607418). There was a fantastic reference on this (supplementing Eric's appendix in his thesis) which I came across on the net somewhere, some kind of dissertation/write-up about differential forms and electromagnetic properties of matter. I wish I could find it again. To summarize: the "differential forms" / "Hodge star" picture of electromagnetism is the most convenient way to understand the "D" and "H" fields as well. 
