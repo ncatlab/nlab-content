@@ -23,13 +23,15 @@
 
       * [[n-symplectic manifold]]
 
-  * [[smooth Lorentzian manifold]]
+  * [[spacetime]]
 
-    * [[spacetime]]
+    * [[smooth Lorentzian manifold]]
 
-      * [[special relativity]]
+    * [[special relativity]]
 
-      * [[general relativity]]
+    * [[general relativity]]
+
+    * [[closed time-like curves]]
 
 * **[[quantization|Quantization]]**
 
@@ -58,8 +60,6 @@
     * [[quantum information]]
 
     * [[open quantum systems]]
-
-      * [[closed time-like curves]]
 
 * **[[quantum field theory|Quantum Field Theory]]**
 
