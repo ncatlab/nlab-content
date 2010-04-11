@@ -21,6 +21,20 @@ $\sum_{i=1}^{n}$
 
 irreps
 
+$$\infty$$
+
+$$\infty$$
+
+-category
+
+$\infty$-category
+
+∞-category
+
+&#268;ech cohomology
+
+OK, the second of those is not ideal, but nobody should actually try to write that, so it's fine.
+
 ## Something in the Contents ##
 ## HomePage ##
 
@@ -41,4 +55,4 @@ category: meta
 [[!redirects nitwits]]
 [[!redirects nitwitta]]
 [[!redirects nincompoops]]
-[[!redirects שנה טובה]]
+[[!redirects ??? ????]]
