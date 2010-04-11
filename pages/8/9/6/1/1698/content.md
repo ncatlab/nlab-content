@@ -325,3 +325,6 @@ The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and
 [[!redirects cofibration sequences]]
 [[!redirects homotopy fibers]]
 [[!redirects homotopy cofibers]]
+
+[[!redirects fiber sequence]]
+[[!redirects fiber sequences]]
