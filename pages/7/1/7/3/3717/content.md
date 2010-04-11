@@ -5,7 +5,7 @@ Consider two quantum systems, Q and E where Q is some system of interest and E i
 
 The dilation construction of quantum states (see Stinespring's dilation theorem above), i.e. in the quantum operation formalism, the evolution of a system is often written in a more condensed manner as
 
-$\rho^{\prime}=\varepsilon (\rho)$.
+$\rho'=\varepsilon (\rho)$.
 
 Here we refer to $\varepsilon (\rho)$ as a _superoperator_.
 
