@@ -5,7 +5,11 @@ We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ element
 
 ##Simplicial complexes v. simplicial sets##
 
-* Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]],  but only 'in some sense'.  To get from a simplicial complex to a simplicial set, you must pick a total order on the set of vertices. Without an order on the vertices you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$.
+Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a simplicial set, you must pick a total order on the set of vertices. Without an order on the vertices you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. 
+
+Indeed, simplicial sets are essentially presheaves on the category of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. Indeed, following a suggestion of James Dolan, Baez and Hoffnung have characterized the category of simplicial complexes up to equivalence as the full subcategory of "concrete sheaves" on $Fin_{inj}$ with respect to the [[atomic topology]]. 
+
+It follows from this characterization that the category of simplicial complexes is a [[quasitopos]], and in particular is locally cartesian closed. The category of simplicial sets on the other hand is a [[topos]]. 
 
 ##Geometric realisations and Polyhedra##
 An abstract simplicial complex is a combinatorial gadget that models certain aspects of a spatial configuration.  Sometimes it is useful, perhaps even necessary, to produce a topological space from that data in a simplicial complex. 
@@ -24,9 +28,9 @@ This can be constructed by taking a copy $K(\sigma)$ of a standard topological $
 
 The _standard (topological) $p$-simplex_ is usually  taken to be the convex hull of the basis vectors $\mathbf{e}_1, \mathbf{e}_2,\ldots, \mathbf{e}_{p+1}$ in $\mathbb{R}^{p+1}$, to represent each abstract $p$-simplex, $\sigma\in S(K)$, and then 'gluing' faces together, so whenever $\tau$ is a face of $\sigma$ we identify $K(\tau)$ with the corresponding face of $K(\sigma)$. This space is usually denoted $\Delta^p$.
 
-####Canonical construction####
+####Canonical constructions####
 
-There is a canonical way of constructing $|K|$ as follows: 
+As a set, $|K|$ is constructed as follows: 
 
 $|K|$ is the set of all functions from $V(K)$ to  the closed interval $[0,1]$ such that
 
@@ -39,12 +43,21 @@ is a simplex of $K$;
  * for each $v\in V(K)$,  
 $$\sum_{\alpha \in V(K)} \alpha (v) = 1.$$
 
-We can put a metric $d$ on $|K|$ by 
+There are two commonly used topologies. The first is the _metric topology_: we put a metric $d$ on $|K|$ by 
 
-$$d(\alpha,\beta) = \Big(\sum_{v\in V(K)} (p_v(\alpha) - p_v(\beta))^2\Big)^\frac{1}{2}.$$
+$$d(\alpha,\beta) = \Big(\sum_{v\in V(K)} (\alpha(v) - \beta(v))^2\Big)^\frac{1}{2}.$$
 
-This however gives $|K|$ as a subspace of $\mathbb{R}^{\#(V(K))}$, and so is usually of much higher dimension then might seem geometrically significant in a given context. 
+$|K|$, when endowed with the metric space topology, will be denoted $|K|_d$. Notice that when $V(K)$ is finite, this gives $|K|_d$ as a subspace of the metric space $\mathbb{R}^{\#(V(K))}$ (which is usually of much higher dimension than might seem geometrically significant in a given context). 
 
+The second topology is the _coherent topology_: each geometric simplex $|s|$ consists of all $\alpha \in |K|$ supported in $s$, and is given the subspace topology inherited as a subset of $|K|_d$; then the coherent topology on $|K|$ is the largest topology for which all inclusions $|s| \hookrightarrow |K|$ are continuous. This topological space is normally denoted just $|K|$, reflecting the fact that the coherent topology is regarded as the default topology to put on the set $|K|$. 
+
+Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is an induced subspace inclusion $|s| \hookrightarrow |t|$. The space $|K|$ may then be characterized as the colimit in $Top$ of the diagram consisting of geometric simplices $|s|$ and inclusions between them, so that a function $f: |K| \to X$ is continuous if and only if its restriction to each simplex $|s|$ is continuous. In particular, the identity function $|K| \to |K|_d$ is continuous, so that the coherent topology contains the metric topology (and is often strictly larger). 
+
+## References
+
+John Baez and Alex Hoffnung, Convenient Categories of Smooth Spaces [(arXiv)](http://arxiv4.library.cornell.edu/PS_cache/arxiv/pdf/0807/0807.1704v4.pdf)
+
+Edwin Spanier, Algebraic Topology, McGraw-Hill, 1966. 
 
 
 [[!redirects simplicial complexes]]
