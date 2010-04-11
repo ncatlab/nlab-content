@@ -25,23 +25,46 @@ Note: the numbering - and indeed the actual number - of axioms varies depending 
 
 [[Ian Durham]]: Can we add an axiom environment to the LaTeX template/CSS-style sheets?  According to the Instiki guide, it is supposedly relatively easy.  I just don't know how to do it on nLab.
 
+_Toby_: Just hijack another environment. See below.
+
 =--
 
-* **Axiom 1:** There is a physical Hilbert space $\mathcal{H}$ in which a unitary representation $U(a,\Lambda)$ of the [[Poincaré spinor group]], $P_{0}$ acts.
++-- {.num_defn}
+###### Axiom
+There is a physical Hilbert space $\mathcal{H}$ in which a unitary representation $U(a,\Lambda)$ of the [[Poincare spinor group|Poincaré spinor group]], $P_{0}$ acts.
+=--
 
-* **Axiom 2:** The spectrum of the energy-momentum operator P is concentrated in the closed upper (forward) light cone $V^{+}$.
++-- {.num_defn}
+###### Axiom
+The spectrum of the energy-momentum operator P is concentrated in the closed upper (forward) light cone $V^{+}$.
+=--
 
-* **Axiom 3:** There exists in $\mathcal{H}$ a unique unit vector $|0\rangle$ (vacuum), which is invariant with respect to the space-time translations $U(a,1)$. 
++-- {.num_defn}
+###### Axiom
+There exists in $\mathcal{H}$ a unique unit vector $|0\rangle$ (vacuum), which is invariant with respect to the space-time translations $U(a,1)$. 
+=--
 
-* **Axiom 4:** The components $\phi_{i}$ of the quantum field $\phi$ are operator valued generalized functions $\phi_{i}(x)$ over the [[Schwartz space]] $S(M)$ (tempered distributions) with domain of definition $D$ which is common to all the operators and is dense in $\mathcal{H}$. $|0\rangle$ is contained in $D$ and $D$ is taken into itself under the action of $\phi (f)$ and $U(a,\Lambda)$. 
++-- {.num_defn}
+###### Axiom
+The components $\phi_{i}$ of the quantum field $\phi$ are operator valued generalized functions $\phi_{i}(x)$ over the [[Schwartz space]] $S(M)$ (tempered distributions) with domain of definition $D$ which is common to all the operators and is dense in $\mathcal{H}$. $|0\rangle$ is contained in $D$ and $D$ is taken into itself under the action of $\phi (f)$ and $U(a,\Lambda)$. 
+=--
 
 Note: As in distribution theory it is custom to abuse the notation and write $\phi (x)$ for a point $x$ of the Minkowski spacetime and talk about the function $\phi$, rather than the value of the distribution $\phi(f)$ of a test function $f$.
 
-* **Axiom 5:** $U(a,\Lambda)\phi_{i}(x)U(a,\Lambda)^{-1}=\sum_{j}V_{ij}(\Lambda^{-1})\phi_{j}(\Lambda x + a)$ where $V_{ij}(\Lambda)$ is a complex or real finite-dimensional matrix representation of $SL(2,C)$.
++-- {.num_defn}
+###### Axiom
+$U(a,\Lambda)\phi_{i}(x)U(a,\Lambda)^{-1}=\sum_{j}V_{ij}(\Lambda^{-1})\phi_{j}(\Lambda x + a)$ where $V_{ij}(\Lambda)$ is a complex or real finite-dimensional matrix representation of $SL(2,C)$.
+=--
 
-* **Axiom 6:** Any two field components $\phi_{i}(x)$ and $\phi_{j}(y)$ either commute or anticommute under a space-like separation of the arguments $x$ and $y$.
++-- {.num_defn}
+###### Axiom
+Any two field components $\phi_{i}(x)$ and $\phi_{j}(y)$ either commute or anticommute under a space-like separation of the arguments $x$ and $y$.
+=--
 
-* **Axiom 7:** The set $D_{0}$ of finite linear combinations of vectors of the form $\phi_{i_1}(f_{1})\ldots\phi_{i_n}(f_{n})|0\rangle$ is dense in $\mathcal{H}$.
++-- {.num_defn}
+###### Axiom
+The set $D_{0}$ of finite linear combinations of vectors of the form $\phi_{i_1}(f_{1})\ldots\phi_{i_n}(f_{n})|0\rangle$ is dense in $\mathcal{H}$.
+=--
 
 ## The Wightman Reconstruction Theorem
 The **vacuum expectation values** of the theory are all (tempered, by the axioms) distributions of the form 
