@@ -1,4 +1,7 @@
 
+> under construction
+
+
 +-- {.standout}
 
   On the formalization of the process of [[quantization]] -- by [[category theory|abstract nonsense]] -- from classical [[∞-model]] data to the corresponding [[quantum field theory]] .
@@ -47,27 +50,281 @@ Rather, the approach for a formalization of the quantization procedure that shal
 
 1. The idea that by applying a pull-push quantization prescription a differential cocycle on a target space $X$ gives rise to a differential cocycle on a _parameter space_ $\Sigma$, which may be thought of as one of the bordisms appearing in the [[FQFT]]-description of quantum field theory. 
 
-  The pull-push operation here is akin to that in [[geometric ∞-function theory]], where a [[quantum field theory]] is obtained from a [[∞-model]] target space object $X$ by homming [[extended cobordism]] [[cospan]]s $\Sigma_in \to \Sigma \leftarrow \Sigma_{out}$ into the target object and then pull-pushing [[geometric function object]]s through the resulting [[span]]s of configuration space objects $[\Sigma_{in},X] \leftarrow [\Sigma,X] \to [\Sigma_{out},X]$. 
+   The pull-push operation here is akin to that in [[geometric ∞-function theory]], where a [[quantum field theory]] is obtained from a [[∞-model]] target space object $X$ by homming [[extended cobordism]] [[cospan]]s $\Sigma_in \to \Sigma \leftarrow \Sigma_{out}$ into the target object and then pull-pushing [[geometric function object]]s through the resulting [[span]]s of configuration space objects $[\Sigma_{in},X] \leftarrow [\Sigma,X] \to [\Sigma_{out},X]$. 
 
    The main result of David Ben-Zvi et. al.'s work on this approach is that they point out that as soon as the [[geometric function object]] one uses satisfies the two [[geometric ∞-function theory|fundamental theorems of geometric infinity-function theory]], a considerable amount of rich structure that has in parts been known by itself gets unified into one coherent elegant story: the nature of partition functions (i.e. traces), of centers, of Hochschild (co)homology, Deligne-Kontsevich-statements, etc. all are understood by means of a suitable [[geometric function theory]] as induced from the underlying geometry of configuration space objects $[\Sigma,X]$ as well as the [[loop space object]]s of $X$.
 
-  The resulting pull-push operation is an example or a generalization of what [[John Baez]] discusses under the term [[groupoidification]]. 
+   The resulting pull-push operation is an example or a generalization of what [[John Baez]] discusses under the term [[groupoidification]]. 
 
 1. The observation that a differential coccycle on a [[Lorentzian manifold]] $\Sigma$ gives rise to a [[local net]] of observables, as used in the formalizaton of QFT known as [[AQTFT]]. (As described [here](http://ncatlab.org/schreiber/files/AQFTfromFQFT.pdf)).
 
    So the procedure discussed here regards differential cocycles on target space as classicai field theories, regards their quantization as a way to obtain a differential cocycle on Lorentzian parameter space, and identifies this as a quantum field theory by associating a local net of observables to it. 
 
-  These local nets, in turn, are akin to [[factorization algebra]]s, which in the Euclidean (meaning non-Lorentzian setting) relate back to cobordism representations via the notion of [[topological chiral homology]]. However the -- physically crucial -- Lorentzian structure invoked here is not otherwise considered in these functorial axiomatization of quantum field theory.
+   These local nets, in turn, are akin to [[factorization algebra]]s, which in the Euclidean (meaning non-Lorentzian setting) relate back to cobordism representations via the notion of [[topological chiral homology]]. However the -- physically crucial -- Lorentzian structure invoked here is not otherwise considered in these functorial axiomatization of quantum field theory.
 
-## Classical background field
+## The charged particle
 
-...
+We describe the general theory for the simple example of the charged
+particle. We make use of the discussion at [[schreiber:differential cohomology in an (∞,1)-topos -- survey]].
 
-## The quantization
+Let $X$ be a smooth [[manifold]] -- thet _target space_ -- and write $\mathbf{\Pi}(X)$ for its smooth [[schreiber:path ∞-groupoid]]. A [[line bundle]] with [[connection on a bundle|connection]] on $X$ is encoded in a parallel transport 
 
-...
+$$
+  \array{
+    X &\stackrel{g}{\to}& \mathbf{B}\mathbb{C}^\times &\stackrel{\rho}{\to}& Vect
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}(X) &\stackrel{\nabla}{\to}& \mathbf{E} \mathbf{B}\mathbb{C}^\times 
+      &\stackrel{}{\to}& \mathbf{E}\mathbf{B}\mathbb{C}^\times \coprod_{\mathbf{B}\mathbb{C}^\times} Vect
+  }
+  \,.
+$$
+
+Now given a 1-dimensional [[Lorentzian manifold]] $\Sigma = \mathbb{R}$, let similarly $\mathbf{\Pi}(\Sigma)$ be the corresponding [Lorentzian path category](http://ncatlab.org/nlab/show/smooth+Lorentzian+space#PathnCategory).
+
+The morphisms in the [[product]] category $\mathbf{\Pi}(X) \times \mathbf{\Pi}(\Sigma)$ are path $\gamma_X : [0,1] \to X$ in $X$ on whose base we have a (pseudo)[[Riemannian metric]], which is the pullback of the metric $\mu_\Sigma$  on $\Sigma$ along $\gamma_\Sigma : [0,1] \to \Sigma$.  We can consider the _kinetic action_ to be a differential cocycle
+
+$$
+  \array{
+    \Sigma \times X 
+     &\stackrel{}{\to}& \mathbf{B}\mathbb{C} &\stackrel{}{\to}& Vect
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}(\Sigma) \times 
+     \mathbf{\Pi}(X) &\to& \mathbf{E} \mathbf{B}\mathbb{C} 
+      &\stackrel{}{\to}& \mathbf{E}\mathbf{B}\mathbb{C} 
+      \coprod_{\mathbf{B}\mathbb{C}} Vect
+  }
+$$
+
+which sends the path $\gamma_X : [0,1] \to X$ of parameter length $\gamma_\Sigma : [0,1] \to \Sigma$ to either 
+
+$$
+  \mathbb{C}
+    \stackrel{\exp(\int_{0}^1 |\gamma'_X|^2 d \gamma_\Sigma}{\to}
+  \mathbb{C}
+$$
+
+if we describe the non-relativistic particle on a [[Riemannian manifold]] $X$, or by 
+
+$$
+  \mathbb{C}
+    \stackrel{\exp(\int_{0}^1 |\gamma'_X| d \gamma_\Sigma}{\to}
+  \mathbb{C}
+$$
+
+on a [[Lorentzian manifold]] $X$, if we describe the relativistic particle. 
+
+Notice that $\mathbf{\Pi}(X)\times \mathbf{\Pi}(\Sigma) \simeq \mathbf{\Pi}(X \times \Sigma)$.
+
+Tensored with the background field parallel transport, this yields one differential cocycle
+
+$$
+  \array{
+    \Sigma \times X 
+    &\stackrel{}{\to}& Vect
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{\Pi}(\Sigma) \times 
+     \mathbf{\Pi}(X) &\to& \mathbf{E}\mathbf{B}\mathbb{R} 
+      \coprod_{\mathbf{B}\mathbb{C}} Vect
+  }
+  \,.
+$$
+
+We want to consider the diagram
+
+$$
+  \array{
+    \Sigma \times X & \to&  Vect
+    \\
+    \downarrow & \searrow && \searrow
+    \\
+    \Sigma && \mathbf{\Pi}(\Sigma)\times \mathbf{\Pi}(X) &\to& \mathbf{E}\mathbf{B}\mathbb{C}\coprod Vect
+    \\
+    & \searrow & \downarrow
+    \\
+    && \mathbf{\Pi}(\Sigma)
+  }
+$$
+
+and use it to obtain a differential cocycle on $\Sigma$.
+
+To that end we form the [[lax pullback]] ("comma object") of the point inclusion
+
+$$
+ \array{
+   * &\to& *
+   \\
+   \downarrow && \downarrow
+   \\
+   Vect &\to& Vect \coprod \mathbf{E}\mathbf{B}\mathbb{C}
+ }
+ \,,
+$$
+
+where the left vertical morphism picks the ground field $\mathbb{C}$, along this cocycle.
+
+The result is something roughly akin to an [[Atiyah Lie groupoid]], so we call it $At \to At_P$
+
+$$
+  \array{
+    At &\to& At_P
+    \\
+    \downarrow && \downarrow
+    \\
+    X\times \Sigma &\to& \mathbf{\Pi}(X \times \Sigma)
+    \\
+    \downarrow && \downarrow
+    \\
+    \Sigma &\to& \mathbf{\Pi}(\Sigma) 
+  }
+  \,.
+$$
+
+To see what $At \to At_P$ is like, first notice that we have a [[fibration sequence]]
+
+$$
+  \array{
+    &&  && V
+    \\
+    && && \downarrow
+    \\
+    V &\to& E &\to & V//\mathbb{C} &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\stackrel{x}{\to}
+    &X &\stackrel{g}{\to}& \mathbf{B}\mathbb{C} &\stackrel{\rho}{\to}&
+    Vect 
+  }
+$$
+
+with the bottom right square a lax pullback and everything else [[homotopy pullback]]s. Here $V$ is the vector space that $\rho : \mathbf{B}\mathbb{C} \to Vect$ is a representation on (which for the [[electromagnetic field]] will be $\mathbb{C}$ itself).
+
+The groupoid $At$ has the following description:
+
+* its objects are triples $(x,\sigma, v)$, where $v \in E_{x}$ is a vector in the fiber of $E$ over $x$;
+
+* its morphisms are triples $(x \stackrel{\gamma}{\to} y, \sigma \to \sigma', v)$ that go from $(x,\sigma,v)$ to $(y, \sigma', \exp(\int_0^1 |...|) \rho(\nabla(\gamma)))(v)$, i.e. from a vector in the fiber over the source to the corresponding vector in the fiber over the target, obtained by evaluating the action functional on the path.
+
+To obtain from this a cocycle on $\Sigma$, we proceed as follows: we regard an interval $\sigma := [\sigma_{in}, \sigma_{out}] \in \mathbf{\Pi}(\Sigma)_1$ as a [[cospan]]
+
+$$
+  \array{
+    \sigma_{in} &\to& \sigma &\leftarrow& \sigma_{out}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \sigma_{in} &\to& \mathbf{\Pi}(\sigma) &\leftarrow& \sigma_{out}
+    \,,
+  }
+$$
+
+where in the top row we regard these subsets of $\Sigma$ as discrete smooth sub-categories, and in the bottom row form the path $\infty$-groupoids.
+
+Then we take [[section]]s of $\array{At &\to& At_P\\ \downarrow && \downarrow \\ \Sigma &\to& \mathbf{\Pi}(\Sigma)}$ to produce a [[span]] of sections
+
+$$
+  \left[
+    \array{
+      \sigma_{in}
+      \\
+      \downarrow
+      \\
+      \sigma_{in} 
+    }
+    \,,
+    \array{
+      At
+      \\
+      \downarrow
+      \\
+      At_P 
+    }
+  \right]_\Sigma
+  \leftarrow
+  \left[
+    \array{
+      \sigma
+      \\
+      \downarrow
+      \\
+      \mathbf{\Pi}(\sigma)
+    }
+    \,,
+    \array{
+      At
+      \\
+      \downarrow
+      \\
+      At_P 
+    }
+  \right]_\Sigma  
+  \to 
+  \left[
+    \array{
+      \sigma_{out}
+      \\
+      \downarrow
+      \\
+      \sigma_{out} 
+    }
+    \,,
+    \array{
+      At
+      \\
+      \downarrow
+      \\
+      At_P 
+    }
+  \right]_\Sigma
+  \,.
+$$
+
+of smooth $\infty$-groupoids. 
+
+Consider an $\infty$-groupoid
+
+$$
+  \Psi \to
+  \left[
+    \array{
+      \sigma_{in}
+      \\
+      \downarrow
+      \\
+      \sigma_{in} 
+    }
+    \,,
+    \array{
+      At
+      \\
+      \downarrow
+      \\
+      At_P 
+    }
+  \right]_\Sigma
+$$
+
+over the left foot. Under [[groupoid cardinality]], if $\Psi$ is tame, this corresponds to a collection of rational numbers over vectors in fibers of $E$. Under "degrupoidification" we may think of this as specifying a section $|\Psi| \in \Gamma(E)$. The above span is supposed to give us the propagation of this state along $\sigma$. 
+
+To determine this, consider the special case where $\Psi$ is a "delta-section", $* \mapsto (x,\sigma_{in}, v)$ supported on a single vector $v$ in a single fiber $E_x$ over $x$. Then its pull-push through this span yields the $\infty$-groupoid over $At$, which over $(y,\sigma_{out},w)$ consists of the set of paths $\gamma : x \to y$ such that $w = \exp(\int...)\rho(\gamma)(v)$, i.e. such that $w$ is the vector obtained from applying the action to $v$ along this path.
+
+If everything were suitably finite, we could take cardinalities of the result and obtain the familiar path integral (sum)
+
+$$
+  \Psi'(y)
+  =
+  \int_{x \stackrel{\gamma}{\to} y}
+  \exp(\int_{0}^1 S_{kin}(\gamma)) tra_\nabla(\gamma) \Psi(x)  
+  \,.
+$$
+
+
 
 [[!redirects exercise in groupoidification -- the path integral]]
-
-
 [[!redirects An Exercise in Groupoidification]]
