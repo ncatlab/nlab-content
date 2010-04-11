@@ -118,6 +118,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Mathematics and Physics](http://borcherds.wordpress.com) (Richard Borcherds)
 
+* [Mathematics Expressions](http://mathexpressions.wordpress.com/) (Colin Tan: complex geometry)
+
 * [Mathematics Under the Microscope](http://micromath.wordpress.com) (Alexandre Borovik)
 
 * [mathlight](http://mathlight.wordpress.com) (just started, by an $n$lab regular)
