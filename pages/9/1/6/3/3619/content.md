@@ -101,13 +101,9 @@ where $S$ and $T$ represent the states $|s\rangle$ and $|t\rangle$ respectively 
 
 ## References
 
-&#91;1&#93; Bob Coecke, Aleks Kissinger. The compositional structure of multipartite quantum entanglement. arXiv:1002.2540v1 [quant-ph]
+1. Bob Coecke, Aleks Kissinger. The compositional structure of multipartite quantum entanglement. arXiv:1002.2540v1 [quant-ph]
+2. W. D&#252;r, G. Vidal, and J. I. Cirac. Three qubits can be entangled in two inequivalent ways. PRA. Vol 62, 062314
 
-&#91;2&#93; W. D&#252;r, G. Vidal, and J. I. Cirac. Three qubits can be entangled in two inequivalent ways. PRA. Vol 62, 062314
-
-## Discussion
-
-[[Ian Durham]]: Feel free to clean this up a bit.
 
 [[!redirects entangled state]]
 [[!redirects entangled]]
