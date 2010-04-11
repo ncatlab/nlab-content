@@ -16,13 +16,13 @@ The words 'field' and 'field theory' are also used in mathematical physics and g
 
 The [[category]] of fields and field homomorphisms (a full subcategory of the category of [[rings]]) is not complete or cocomplete.  In particular, it lacks a terminal object and also lacks an initial object (though it has a [[weakly initial set]], namely the set of [[prime field]]s).  In particular, it is therefore not [[algebraic category|algebraic]] or [[locally presentable category|locally presentable]].
 
-It is, however, [[accessible category|accessible]], even *finitely* accessible, and therefore can be presented as the category of models of a mixed limit-colimit [[sketch]].  It is moreover straightforward to write down such a sketch.  We suppose as given to start with a limit sketch whose models are commutative rings, with $F$ denoting the ring.  We can construct via limit constructions a subobject $I\hookrightarrow F$ consisting of the invertible elements, as the equalizer of the two maps
+It is, however, [[accessible category|accessible]], even *finitely* accessible, and therefore can be presented as the category of models (in [[Set]]) of a mixed limit-colimit [[sketch]].  It is moreover straightforward to write down such a sketch.  We suppose as given to start with a limit sketch whose models are commutative rings, with $F$ denoting the ring.  We can construct via limit constructions a subobject $I\hookrightarrow F$ consisting of the invertible elements, as the equalizer of the two maps
 $$ F \times F \;\rightrightarrows\; F,$$
-the first being given by multiplication and the second by the composite $F\times F \to   \overset{1}{\to} F$.  We now assert that if we take the pullback
-$$\array{P & \overset{}{\to} &  \\
+the first being given by multiplication and the second by the composite $F\times F \to * \overset{1}{\to} F$, where $*$ is terminal and the map labeled "1" picks out the element $1\in F$.  We now assert that if we take the pullback
+$$\array{P & \overset{}{\to} & * \\
   \downarrow && \downarrow^0\\
   I& \hookrightarrow & F,}$$
-then the object $P$ is initial (i.e. $0$ is not invertible, or equivalently not equal to $1$), and moreover the pullback is also a pushout (i.e. every element of $F$ is either $0$ or invertible).  Of course, in making these last two assertions we use the fact that we are allowing ourselves a limit-colimit sketch instead of just a limit sketch.
+where the map labeled "0" picks out the element $0\in F$, then the object $P$ is initial (i.e. $0$ is not invertible, or equivalently not equal to $1$), and moreover the pullback is also a pushout (i.e. every element of $F$ is either $0$ or invertible).  Of course, in making these last two assertions we use the fact that we are allowing ourselves a limit-colimit sketch instead of just a limit sketch.
 
 
 
