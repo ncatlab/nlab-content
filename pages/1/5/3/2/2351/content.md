@@ -1,6 +1,13 @@
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
 ## Idea 
 
-A cartesian bicategory is a bicategory with properties that make it behave like a bicategory of generalized relations. The bicategory of relations of a regular category, the bicategory of spans in a finitely complete category, and the bicategory of modules (profunctors) in a finitely complete category are all examples of cartesian bicategories. 
+A **cartesian bicategory** is a [[bicategory]] with properties that make it behave like a bicategory of generalized [[relation]]s. The [[bicategory of relations]] of a regular [[category]], the bicategory of [[span]]s in a finitely [[complete category]], and the bicategory of [[module]]s ([[profunctor]]s) in a finitely complete category are all examples of cartesian bicategories. 
 
 The rough idea is that a cartesian bicategory, viewed as an abstract bicategory of relations, should possess a tensor product which behaves like cartesian product on relations, and therefore like a categorical product for relations that are "functional". The structure of such a tensor is property-like (is essentially unique when it exists). Like allegories, cartesian bicategories provide a convenient abstract setting in which to study the calculus of relations, but unlike allegories they embrace other important examples like $Span$ and $Mod$. 
 
