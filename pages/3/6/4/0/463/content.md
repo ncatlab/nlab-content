@@ -8,7 +8,7 @@
 
 * Talk at Hamburg Center of mathematical physics, Febuary 2009, [[BenZviHamburg2009.pdf:file]]
 
-* D. Ben-Zvi, J. Francis, D. Nadler, _Integral transforms and Drinfeld centers in derived algebraic geometry_, [arXiv:0805.0157](http://arxiv.org/abs/0805.0157), Jour. Amer. Math. Soc. to appear.
+* D. Ben-Zvi, J. Francis, D. Nadler, _Integral transforms and Drinfeld centers in derived algebraic geometry_, [arXiv:0805.0157](http://arxiv.org/abs/0805.0157), Jour. Amer. Math. Soc. 2010, [doi](http://dx.doi.org/10.1090/S0894-0347-10-00669-7)
 
 * David Ben-Zvi, David Nadler, _Loop Spaces and Langlands Parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
 
