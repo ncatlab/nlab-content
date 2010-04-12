@@ -188,7 +188,7 @@ it is true that the equations do generalize in this way in princple, another phy
 
 This happens when the manifold in question has nontrivial topology, or if there is magnetic charge around.
 
-* Dirac discovered that the existence of electrically charged quantum mechanical particles implies that
+* Dirac discovered that the existence of magnetically charged quantum mechanical particles implies that
 
   * a) the electromagnetic field strength 2-form $F$ is required to have integral cycles (in some normalization);
 
@@ -201,7 +201,7 @@ The reasoning underlying Dirac's argument is described in the next subsection.
 
 In this section we describe how one finds from physical arguments that, indeed, the electromagnetic field is modeled by a differential refinement of an cocycle in degree 2 integral cohomology.
 
-A central idea in this argument is famously due to Dirac. He thought of it as an argument for the quantization of [[margnetic current|magnetic charge]]. But from a modern perspective he identified the magnetic charge with the _Chern class_ of the line bundle with connection that represents the electromagnetic field outside of the support of the magnetic charge distribution.
+A central idea in this argument is famously due to Dirac. He thought of it as an argument for the quantization of [[margnetic current|magnetic charge]] (DR: surely this should be electric charge :-). But from a modern perspective he identified the magnetic (DR: electric?) charge with the _Chern class_ of the line bundle with connection that represents the electromagnetic field outside of the support of the magnetic charge distribution.
 
 The **experimental input from physics** 
 is the following
