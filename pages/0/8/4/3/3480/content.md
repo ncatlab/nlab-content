@@ -136,7 +136,9 @@ Ulbrich made a major contribution at the coalgebra and Hopf algebra level
 
 This Hopf-direction has been advanced by many authors including [[Shahn Majid]] and
 
-* Phung Ho Hai, 
+* Phung Ho Hai, _Tannaka-Krein duality for Hopf algebroids_, Israel J. Math. __167__ (1):193&#8211;225 (2008) [math.QA/0206113](http://arxiv.org/abs/math/0206113)
+
+* [[Volodymyr Lyubashenko|Volodymyr V. Lyubashenko]], _Squared Hopf algebras and reconstruction theorems_, Proc. Workshop "Quantum Groups and Quantum Spaces" (Warszawa), Banach Center Publ. __40__, Inst. Math. Polish Acad. Sci. (1997) 111&#8211;137, arXiv:q-alg/9605035; _Squared Hopf algebras_, Mem. Amer. Math. Soc. __142__ (677):x 180, 1999. 
 
 * K. Szlachanyi, _Fiber functors, monoidal sites and Tannaka duality for bialgebroids_, [arxiv/0907.1578](http://arxiv.org/abs/0907.1578)
 
@@ -152,13 +154,11 @@ A very neat Tannaka theorem for stacks is proved in
 
 * [[Jacob Lurie]], _Tannaka duality for geometric stacks_, [math.AG/0412266](http://arxiv.org/abs/math/0412266)
 
-See also talk 
+* B. Toen, [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (talk, video)
 
-* B. Toen, [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (video)
+* Moshe Kamensky, _Model theory and the Tannakian formalism_, [arXiv:0908.0604](http://arxiv.org/abs/0908.0604). 
 
-and the remark
-
-* [Ben-Zvi on Tannaka reconstruction for monoidal categories](http://mathoverflow.net/questions/3446/tannakian-formalism/3467#3467)
+* remark of [Ben-Zvi on Tannaka reconstruction for monoidal categories](http://mathoverflow.net/questions/3446/tannakian-formalism/3467#3467)
 
 
 [[!redirects Tannaka reconstruction]]
