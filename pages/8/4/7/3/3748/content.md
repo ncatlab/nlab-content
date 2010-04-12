@@ -9,9 +9,13 @@ A club is a particular sort of [[doctrine]] or [[monad] on [[categories]], one w
 
 $$F(C) \cong F(1) \int C$$
 
-Examples of this phenomenon include the monad for [[monoidal categories]], [[symmetric monoidal categories]], [[braided monoidal categories]], categories with finite [[product]]s, [[closed category|closed symmetric monoidal categories]], and many others. 
+Examples of this phenomenon include the monad for [[monoidal categories]], [[symmetric monoidal categories]], [[braided monoidal categories]], categories with finite [[product]]s, [[closed category|closed symmetric monoidal categories]], and many others.
 
-Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]]. 
++--{: .query}
+[[Mike Shulman]]: How do you get *closed* symmetric monoidal categories?  I thought that was one of the ones that Kelly couldn't handle because it involves extranatural transformations.
+=--
+
+Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]].  In fact, most types of clubs are a special case of [[generalized multicategories|generalized operads]].
 
 ## Clubs over the permutation category 
 
@@ -37,6 +41,12 @@ $$G \int H = G \ltimes H^n$$
 
 with the action of $G$ on $H^n$ induced from the action on $[n]$. 
 
+Another, more abstract, way to describe this substitution product is as follows: there is a [[cartesian monad]] $T$ on $Cat$ whose algebras are symmetric strict monoidal categories, and we have $\mathbf{P} = T 1$, where $1$ is the [[terminal category]].  The substitution product $\Gamma \circ D$ can then be described as the following pullback in $Cat$.
+$$\array{\Gamma \circ D & \overset{}{\to} & T D\\
+  \downarrow && \downarrow^{T !}\\
+  C & \underset{\Gamma}{\to} & T 1 & = \mathbf{P}}$$
+
+
 ### Substitution product as monoidal product
 
 We describe how the substitution action $\circ$ lifts to a self-action denoted by the same symbol:
@@ -59,13 +69,21 @@ Then, given a morphism $(f; g_1, \ldots, g_n)$ in $\Gamma \circ D$, we define
 
 $$(\Gamma \circ \Delta)(f; g_1, \ldots, g_n) \stackrel{def}{=} \mu(n; k_1, \ldots, k_n)(\Gamma(f), \Delta(g_1), \ldots \Delta(g_n))$$ 
 
+Given the abstract description above of the substitution product in terms of the cartesian monad $T$, the functor $\Gamma \circ \Delta$ can be described as the composite
+$$ \Gamma \circ D \to T D \overset{T \Delta}{\to} T T 1 \overset{\mu_1}{\to} T 1  = \mathbf{P}$$
+where $\mu\colon T T \to T$ is the multiplication of the [[monad]] $T$.
+
 The substitution product thus indicated, 
 
 $$\circ: Cat/\mathbf{P} \times Cat/\mathbf{P} \to Cat/\mathbf{P},$$ 
 
-is the product for a [[monoidal category]] structure on $Cat/mathbf{P}$. The monoidal unit is the functor $I: 1 \to \mathbf{P}$ which names the 1-element set. Under this monoidal product, the substitution action indiccated earlier, 
+is the product for a [[monoidal category]] structure on $Cat/\mathbf{P}$. The monoidal unit is the functor $I: 1 \to \mathbf{P}$ which names the 1-element set.  Abstractly, we can observe that the cartesian monad $T$ induces a [[pseudomonad]] on the [[bicategory]] $Span(Cat)$ of spans in $Cat$, which has a [[Kleisli category|Kleisli bicategory]] $Span(Cat)_T$ in which a 1-cell $A\to B$ is a span $A \leftarrow X \to T B$ in $Cat$.  We then have
+$$ Cat/\mathbf{P} \simeq Cat / (1 \times T 1) \simeq Span(Cat)_T (1, 1) $$
+and the monoidal structure above is that induced from the bicategory composition in $Span(Cat)_T$.
 
-$$\circ: Cat/mathbf{P} \times Cat \to Cat,$$ 
+Under this monoidal product, the substitution action indicated earlier, 
+
+$$\circ: Cat/\mathbf{P} \times Cat \to Cat,$$ 
 
 carries a structure of [[actegory]] over the monoidal category $Cat/\mathbf{P}$, in the sense that there is a coherent associativity 
 
@@ -75,7 +93,9 @@ for $Gamma: C \to \mathbf{P}$, $\Delta: D \to \mathbf{P}$, and a category $E$, a
 
 ### Clubs over $\mathbf{P}$
 
-**Definition:** A **club** over $\mathbf{P}$ is a monoid in the monoidal category $(Cat/\mathbf{P}, \circ, I)$. A club over $\mathbf{P}$ induces (via the actegory structure) a 2-monad on $Cat$, and an algebra over the club is an algebra for this monad. That is, an **algebra** over a club $C$ is a category $D$ together with an action $m: C \circ D \to D$ compatible in the usual way with the monoid structure on $C$. 
+**Definition:** A **club** over $\mathbf{P}$ is a monoid in the monoidal category $(Cat/\mathbf{P}, \circ, I)$.  By the abstract characterization above, this is equivalent to a [[monad]] in the bicategory $Span(Cat)_T$ on the object $1$, or equivalently a $T$-[[generalized multicategory|operad]] in the sense of Leinster.
+
+A club over $\mathbf{P}$ induces (via the actegory structure) a 2-monad on $Cat$, and an algebra over the club is an algebra for this monad. That is, an **algebra** over a club $C$ is a category $D$ together with an action $m: C \circ D \to D$ compatible in the usual way with the monoid structure on $C$.
 
 Given a club structure on $\Gamma: C \to \mathbf{P}$, we think of the objects $c$ as formal operations of arity $n = \Gamma(c)$. An algebra $D$ over $C$, $m: C \circ D \to D$, gives in effect an interpretation of each $c$ of arity $n$ as an actual operation $D^n \to D$. 
 
@@ -93,6 +113,6 @@ and on morphisms, it is given by the operad structure on $Aut(n) = Lin(n)$ discu
 
 * Let $\mathbf{B}$ be the [[braid category]], equipped with the usual forgetful functor $\Gamma: \mathbf{B} \to \mathbf{P}$. The club mutliplication, at the level of morphisms, is "substitution" of $n$ braids into a braid on $n$ elements. Pseudo-algebras over the induced 2-monad on $Cat$ are braided monoidal categories. 
 
-* Let $C$ be any (permutative) operad valued in $Set$, with underlying species $\mathbf{P} \to Set$. Then category of elements gives a functor $\Gamma: El(C) \to \mathbf{P}$, and this carries a club structure induced from the operad structure on $C$. In this way, clubs generalize operads. 
+* Let $C$ be any (permutative) operad valued in $Set$, with underlying species $\mathbf{P} \to Set$. Then category of elements gives a functor $\Gamma: El(C) \to \mathbf{P}$, and this carries a club structure induced from the operad structure on $C$. In this way, clubs generalize operads.  In fact, operads in $Set$ can be identified with those clubs for which the functor $\Gamma\colon C\to \mathbf{P}$ is a [[discrete fibration]].
 
 ## Clubs over finite sets 
