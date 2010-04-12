@@ -38,6 +38,8 @@ A $T$**-multicategory** in $V$ is by definition a [[monad]] in the bicategory de
 
 If we spell out what this means more explicitly, a $T$-multicategory consists of an object $C_0$ of $V$, along with a span $C_0 \leftarrow C_1 \to T C_0$, and suitable identity-assigning and composition morphisms.
 
+If $C_0$ is the [[terminal object]], then we speak instead of a $T$**-operad**.
+
 
 #### Examples
 
@@ -146,3 +148,5 @@ Note also that for any virtual double category $X$, there is another virtual dou
 [[!redirects generalised multicategories]]
 [[!redirects virtual T-algebra]]
 [[!redirects virtual T-algebras]]
+[[!redirects generalized operad]]
+[[!redirects generalized operads]]
