@@ -1,12 +1,17 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea ## 
 
-A club is a particular sort of [[doctrine]] or monad on categories, one which encapsulates the following frequently observed phenomenon: to describe free algebras $F(C)$ with respect to the monad, it frequently suffices to describe the free algebra $F(1)$ on the terminal category, and then a certain "wreath product" gives the free algebra on $C$: 
+A club is a particular sort of [[doctrine]] or [[monad] on [[categories]], one which encapsulates the following frequently observed phenomenon: to describe [[free functor|free]] algebras $F(C)$ with respect to the monad, it frequently suffices to describe the free algebra $F(1)$ on the [[terminal category]], and then a certain "wreath product" gives the free algebra on $C$: 
 
 $$F(C) \cong F(1) \int C$$
 
-Examples of this phenomenon include the monad for monoidal categories, symmetric monoidal categories, braided monoidal categories, categories with finite products, closed symmetric monoidal categories, and many others. 
+Examples of this phenomenon include the monad for [[monoidal categories]], [[symmetric monoidal categories]], [[braided monoidal categories]], categories with finite [[product]]s, [[closed category|closed symmetric monoidal categories]], and many others. 
 
-Clubs were introduced by Max Kelly, and are akin in spirit to [[operad|operads]]. 
+Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]]. 
 
 ## Clubs over the permutation category 
 
