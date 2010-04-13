@@ -1,4 +1,18 @@
-A __cartesian monoidal category__ is a [[monoidal category]] whose monoidal structure is given by the category-theoretic [[product]] (and so whose unit is a [[terminal object]]).  Any category with finite products can be considered as a cartesian monoidal category (as long as we have either (1) a specified product for each pair of objects, (2) a global [[axiom of choice]], or (3) we allow the monoidal product to be an [[anafunctor]]).  Note that the term __cartesian category__ usually means a category with finite products but can also mean a [[finitely complete category]].
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Definition
+
+A __cartesian monoidal category__ is a [[monoidal category]] whose monoidal structure is given by the category-theoretic [[product]] (and so whose unit is a [[terminal object]]).  
+
+A cartesian monoidal category which is also [[closed monoidal category|closed]] is called a [[cartesian closed category]].
+
+Any category with finite products can be considered as a cartesian monoidal category (as long as we have either (1) a specified product for each pair of objects, (2) a global [[axiom of choice]], or (3) we allow the monoidal product to be an [[anafunctor]]).  Note that the term __cartesian category__ usually means a category with finite products but can also mean a [[finitely complete category]].
+
+## Properties
 
 Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way.  
 
@@ -26,7 +40,6 @@ and
 $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
 respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem is probably in Eilenberg and Kelly's paper on closed categories, but they may not have been the first to note it.)
 
-A cartesian monoidal category which is also [[closed monoidal category|closed]] is called a [[cartesian closed category]].
 
 
 [[!redirects cartesian categories]]
