@@ -38,6 +38,19 @@ OK, the second of those is not ideal, but nobody should actually try to write th
 ## Something in the Contents ##
 ## HomePage ##
 
+
+1. Verse One
+  1. 'Twas brillig and the slithy toves
+  1. Did gyre and gimble in the wabe
+  1. All mimsy were the borogroves
+  1. And the momeraths outgabe
+1. Verse Two
+  1. "Beware the jabberwock, my son,
+  1. The jaws that bite, the claws that snatch
+  1. Beware the jubjub bird, and shun
+  1. The frumious bandersnatch."
+
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
