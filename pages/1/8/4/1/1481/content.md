@@ -114,11 +114,11 @@ The background field for the charged particle that we want to consider is the [[
 
 * the **background field** given by a 
 
-  * a $(1)$-[[principal bundle]] $P \to X$ classified by a [[cocycle]]
+  * a $U(1)$-[[principal bundle]] $P \to X$ classified by a [[cocycle]]
     $g : X \to \mathbf{B}U(1)$ in $\mathbf{H}$ which in the model is 
-    given by an [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} Y \to \mathbf{B}U(1) \hookrightarrow \mathbf{B}U(1)$;
+    given by an [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} Y \to \mathbf{B}U(1)$;
 
-  * a [[connection on a bundle|connection]] $\nable$ on this bundle, 
+  * a [[connection on a bundle|connection]] $\nabla$ on this bundle, 
     which in the model is given by a diagram
 
     $$
@@ -267,7 +267,7 @@ $$
  }
 $$
 
-along our differential cocycle, i. e. the pullback of the diagram
+along our differential cocycle, i. e. the pullback of the top part of the diagram
 
 $$
   \array{
