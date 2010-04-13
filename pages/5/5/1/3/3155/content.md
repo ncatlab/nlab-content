@@ -6,9 +6,9 @@ He is one of the pioneers of the modern emerging framework which unites in a cat
 
 * D. Orlov, _Formal completions and idempotent completions of triangulated categories of singularities_, [arxiv/0901.1859](http://arxiv.org/abs/0901.1859)
 
-* A. Bondal, D. Orlov, ""Semi-orthogonal decomposition for algebraic varieties"", Preprint, (1995), (Max-Planck-Institut f&#252;r Mathematik, Bonn) arXiv:alg-geom/9506006
+* A. Bondal, D. Orlov, _Semi-orthogonal decomposition for algebraic varieties_, PreprintMPI/95&#8211;15, [alg-geom/9506006](http://arxiv.org/abs/alg-geom/9506012)
 
-* A. Bondal and D. Orlov, ""Reconstruction of a variety from the derived category and groups of autoequivalences"", Compositio Math., 125 (2001), 327&#8211;344 [DOI: 10.1023/A:1002470302976] 
+* A. Bondal, D. Orlov, _Reconstruction of a variety from the derived category and groups of autoequivalences_, Compositio Math. __125__ (2001), 327&#8211;344 [doi](http://dx.doi.org/10.1023/A:1002470302976) 
 
 * V. A. Lunts, D. O. Orlov, _Uniqueness of enhancement for triangulated categories_, [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
 
