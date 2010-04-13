@@ -440,7 +440,7 @@ $$
   \Psi'(y)
   =
   \int_{x \stackrel{\gamma}{\to} y}
-  \exp(\int_{0}^1 S_{kin}(\gamma)) tra_\nabla(\gamma) \Psi(x)  
+  \exp( S_{kin}(\gamma)) tra_\nabla(\gamma) \Psi(x)  
   \,.
 $$
 
