@@ -182,16 +182,19 @@ A textbook dedicated to the classical [[differential geometry|diffential geometr
 
 * John K. Beem; Paul E. Ehrlich, ; Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete))
 
-The relation between causality and [[poset]]-structure is reviewed for instance in 
+A classical influential text on the nature of Lorentzian space is
+
+* Roger Penrose, Wolfgang Rindler, _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
+
+The relation between causality and [[poset]]-structure (see also [[causal set]]) is reviewed for instance in 
 
 * Ettore Minguzzi, _Time and Causality in General Relativity_ , talk notes, Ponta Delgada, July 2009 ([pdf](http://fqxi.org/data/documents/Minguzzi%20%20Azores%20Talk.pdf))
 
-There is also
+More details are discussed in the context of [[domain theory]], see for instance 
 
 * [[Keye Martin]] and [[Prakash Panangaden]], <a href="http://www.springerlink.com/content/m3x4h1l6g64mu753/">	
 Domain Theory and the Causal Structure of Space-Time</a>
 
-* Roger Penrose, Wolfgang Rindler, _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
 
 Some vaguely related blog discussion is at
 
