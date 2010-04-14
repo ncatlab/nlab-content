@@ -2,19 +2,12 @@
 This entry is about the article
 
 
-* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_, Advances in Mathematics __164__, 144&#8211;176 (2001)
+* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_, Advances in Mathematics __164__, 144&#8211;176 (2001) ([arXiv:math/0007070](http://arxiv.org/abs/math/0007070))
 
-This discusses the _projective_ global and local [[model structure on simplicial presheaves]]. 
+  **Abstract** _Given a small category $C$, we show that there is a universal way of expanding $C$ into a model category, essentially by formally adjoining homotopy colimits. The technique of localization becomes a method for imposing "relations" into these universal gadgets. The paper develops this formalism and discusses various applications, for instance to the study of homotopy colimits, the Dwyer-Kan theory of framings, and to the homotopy theory of schemes._
 
-In particular this 
 
-* announces the statement of **[Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem)** which states that every [[combinatorial model category]] arises as the [[Bousfield localization of model categories|left Bousfield localization]] of the projective [[global model structure on simplicial presheaves]]. The full proof of this is in the companion article
-
-  * Daniel Dugger, _Combinatorial model categories have presentations_ ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068)).
-
-* discusses [cofibrant replacement in the projective model structures](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#FibAndCofibObjects) (necessarily both for the global as well as for the local structure)
-
-* discusses _geometric realization_ of $\infty$-stacks on [[Diff]] essentially by using the geometric homotopy $\infty$-groupoid functor as disscussed at [[homotopy groups in an (∞,1)-topos]].
+The article discusses the _projective_ global and local [[model structure on simplicial presheaves]]. 
 
 The general discussion is in parts is based on the unfinished but useful notes
 
@@ -22,4 +15,19 @@ The general discussion is in parts is based on the unfinished but useful notes
 
 
 
+In particular this 
+
+* announces the statement of **[Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem)** which states that every [[combinatorial model category]] arises as the [[Bousfield localization of model categories|left Bousfield localization]] of the projective [[global model structure on simplicial presheaves]]. The full proof of this is in the companion article
+
+  * Daniel Dugger, _[[Combinatorial model categories have presentations]]_ 
+
+* discusses [cofibrant replacement in the projective model structures](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#FibAndCofibObjects) (necessarily both for the global as well as for the local structure)
+
+* discusses _geometric realization_ of $\infty$-stacks on [[Diff]] essentially by using the geometric homotopy $\infty$-groupoid functor as disscussed at [[homotopy groups in an (∞,1)-topos]].
+
+
+
+
 category: reference
+
+[[!redirects Universal homotopy theories]]
