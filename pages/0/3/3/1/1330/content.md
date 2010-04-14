@@ -1,8 +1,13 @@
+
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 A _[[localization]]_ of an [[(∞,1)-category]] $C$ is a functor $L : C \to C_0$ to an $(\infty,1)$-subcategory $C_0 \hookrightarrow C$ such that with $c$ any object there is a morphism connecting it to its localization 
 
@@ -17,30 +22,41 @@ $f$ is left adjoint to the fully faithful inclusion functor.
 Since localizations are entirely determined by which morphisms in $C$ are sent to equivalences in $C_0$, they can be thought of as sending $C$ to the result of "inverting" all these morphisms, a process familiar from forming the [[homotopy category]] of a [[homotopical category]].
 
 
+For more details see [[reflective (∞,1)-subcategory]]
 
-#Definition#
+## Definition
 
-The left adjoint $(\infty,1)$-functor
++-- {: .un_defn}
+###### Definition
+
+An [[(∞,1)-functor]] $L : C \to C_0$ is called a **localization** of the [[(∞,1)-category]] $C$ if it has a right [[adjoint (∞,1)-functor]] $i : C_0 \hookrightarrow C$ that is [[full and faithful (∞,1)-functor|full and faithful]].
 
 $$
-  f : C \to C_0
+  (L \dashv i) : C_0 \stackrel{\overset{L}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  C
+  \,.
 $$
 
-to a [[reflective (∞,1)-subcategory]] $C_0 \hookrightarrow C$ is called 
-a **localization** of $C$.
+In other words: $L$ is a localization if it is the **reflector** of a [[reflective (∞,1)-subcategory]] $C_0 \hookrightarrow C$.
 
-#Examples#
+=--
 
-* [[simplicial model category|Simplicial model categories]] model [[(∞,1)-categories]]. [[localization of a simplicial model category]] accordingly models localization of the corresponding $(\infty,1)$-category.
+This is [[Higher Topos Theory|HTT, def. 5.2.7.2]].
+
+## Examples
+
+* Locaizations of $(\infty,1)$-categories are modeled by the notion of left [[Bousfield localization of model categories]]. 
+
+  One precise statement is: localizations of [[(∞,1)-category of (∞,1)-presheaves]] $C = PSh_{(\infty,1)}(K)$ are [[presentable (∞,1)-category|presented]] by the left Bousfield localizations of the global projectibe [[model structure on simplicial presheaves]] on the [[simplicial category]] incarnation of $K$.
 
 * [[∞-stackification]] is the localization of an [[(∞,1)-category]] of [[(∞,1)-presheaves]] to the $(\infty,1)$-subcategory [[(infinity,1)-category of (infinity,1)-sheaves|of (∞,1)-sheaves]].
 
 
-#References#
+## References
 
-[definition 5.2.7.2](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=296) of
+This is the topic of section 5.2.7 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects localization of an (∞,1)-category]]
