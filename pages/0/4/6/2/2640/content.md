@@ -24,28 +24,6 @@ A bisimplicial set is a bisimplicial object in [[Set]].
 
 ### Properties
 
-+-- {: .un_prop }
-###### Proposition
-**(degreewise weak equivalences)**
-
-Let $X,Y : \Delta^{op} \times \Delta^{op} \to Set$ be bisimplicial sets.
-A morphism $f : X \to Y$ which is degreewise in one argument a weak equivalence
-$f_{n,\bullet} : X(n,\bullet) \to Y(n,\bullet)$ induces a weak equivalence 
-$d(f) : d(X) \to d(Y)$ of the associated diagonal simplicial sets
-(with respect to the standard [[model structure on simplicial sets]]s).
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-This is prop 1.9 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
-
-* Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
-
-=--
-
 +-- {: .un_def }
 ###### Definition
 **(diagonal)**
@@ -97,6 +75,30 @@ This is exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/pa
 
 
 =--
+
+
++-- {: .un_prop }
+###### Proposition
+**(degreewise weak equivalences)**
+
+Let $X,Y : \Delta^{op} \times \Delta^{op} \to Set$ be bisimplicial sets.
+A morphism $f : X \to Y$ which is degreewise in one argument a weak equivalence
+$f_{n,\bullet} : X(n,\bullet) \to Y(n,\bullet)$ induces a weak equivalence 
+$d(f) : d(X) \to d(Y)$ of the associated diagonal simplicial sets
+(with respect to the standard [[model structure on simplicial sets]]s).
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is prop 1.9 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
+
+* Goerss-Jardine, _Simplicial Homotopy Theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)) 
+
+=--
+
 
 
 
