@@ -1,9 +1,17 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
+
 _Diffeological spaces_ are a  kind of [[generalized smooth spaces]], namely [[concrete sheaf|concrete]] [[smooth spaces]].
 
+Diffeological spaces were originally described by J.M. Souriau in 1980.  They have subsequently been developed by [[Patrick Iglesias-Zemmour]] who is writing a book on the subject.
 
-Diffeological spaces were originally described by J.M. Souriau in 1980.  They have subsequently been developed by [Patrick Iglesias-Zemmour](http://www.umpa.ens-lyon.fr/~iglesias/) who is writing a book on the subject.
+## Definition
 
 +-- {: mynumdef #DiffSp}
 ###### Definition
@@ -19,7 +27,7 @@ A diffeological space is an example of a [[concrete sheaf]] on a [[concrete site
 The concreteness condition on the sheaf is a reiteration of the fact that a diffeological space is a subsheaf of the sheaf $U \mapsto X^{|U|}$.  In this way, one does not have to explicitly mention the underlying set $X$ as it is determined by the sheaf on the one-point open subset of $\mathbb{R}^0$.
 
 
-# References #
+## References 
 
 * [Groupes diff\'erentiels](http://www.ams.org/mathscinet-getitem?mr=607688)
 
@@ -29,10 +37,12 @@ _Diffeology_
 
 The thesis
 
-* Patrick Iglesias-Zemmour, _Fibrations diff&#233;ologie et Homotopie_,  PhD thesis [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf)
+* [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologie et Homotopie_,  PhD thesis [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf)
 
-contains some useful material that hasn't yet made it into the book.
+contains some useful material that hasn't yet made it into the book. The article 
 
-* John C. Baez, Alexander E. Hoffnung, _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
+* [[John Baez]], [[Alexander Hoffnung]], _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
+
+amplifies the point that diffeological spaces are [[concrete sheaves]] on the category of (subsets of) [[cartesian space]]s.
 
 [[!redirects diffeological spaces]]
