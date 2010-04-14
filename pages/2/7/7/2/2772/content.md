@@ -1,4 +1,8 @@
 
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
 #full and faithful $(\infty,1)$-functor #
 * automatic table of contents goes here
 {:toc}
@@ -21,7 +25,7 @@ is a weak equivalence in the standard [[model structure on simplicial sets]].
 
 This appears as definition 1.2.10 in
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects full and faithful (∞,1)-functor]]
