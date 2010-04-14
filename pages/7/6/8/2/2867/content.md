@@ -66,7 +66,14 @@ In low degree we have
 
 ## Definition ##
 
-Let $T(1)$ denote the free [[strict ∞-category]] generated from the [[terminal object|terminal]] [[globular set]] $1$. As described above, each element of the underlying globular set of $T(1)$ may be depicted by a pasting diagram made out of [[globe]]s, and such a pasting diagram itself may be considered as a [[globular set]] whose $k$-cells are _instances_ of the $k$-globes appearing in the diagram. We now describe this formally. 
+Let $T(1)$ denote the free [[strict ∞-category]] generated from the [[terminal object|terminal]] [[globular set]] $1$. 
+
+Notice that this terminal globular set consists of precisely one $k$-globe for each $k \in \mathbb{N}$: one point, one edge from the point to itself, one disk from from edge to itself, and so on. 
+
+So $T(1)$ is freely generated under composition from these cells.
+As described above, this means that each element of the underlying globular set of $T(1)$ may be depicted by a pasting diagram made out of [[globe]]s, and such a pasting diagram itself may be considered as a [[globular set]] whose $k$-cells are _instances_ of the $k$-globes appearing in the diagram. 
+
+We now describe this formally. 
 
 The $n$-cells of $T(1)$ may be identified with **planar [[tree]]s** $\tau$ of height $n$, which by definition are functors 
 
