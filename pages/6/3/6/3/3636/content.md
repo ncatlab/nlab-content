@@ -112,8 +112,16 @@ This means that $lim \pi_1(\varepsilon(X))$ is not an invariant of the end. This
 
 ###Waldhausen Boundary###
 
-If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set 
+If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set $\mathbb{P}(X,Y)$ with $\mathbb{P}(X,Y)_n = P(X\times \Delta^n,Y)$, which acts as if it was the singular complex of the mythical space of proper maps from $X$ to $Y$.
 
+####Definition####
+The **Waldhausen boundary** of $X$ is the simplicial set $\mathbb{P}([0,\infty),X)$.
+
+There is an epimorphism from $\pi_0(\mathbb{P}([0,\infty),X))$ to $e(X)$.
+
+*  In the example above of the cylinder with the string of circles attached, $\pi_0(\mathbb{P}([0,\infty),X))$,  is uncountable, and $\pi_1(\mathbb{P}([0,\infty),X))$ maps onto $lim S$.  
+
+*  When $X$ has a single end and  $\pi_0(\varepsilon(X))$ is [[Mittag-Leffler condition|Mittag-Leffler]], then $\pi_0(\mathbb{P}([0,\infty),X))$, is a single point, i.e. all possible base rays are properly homotopic.
 
 ##References##
 
