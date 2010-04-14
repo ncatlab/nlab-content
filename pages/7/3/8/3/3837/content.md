@@ -1,4 +1,5 @@
+In some choices of [[foundations]], one says **small set** in order to amplify that one really means a [[set]] and not a proper [[class]].  Strictly speaking, in this case one could just say "set".
 
-One says **small set** in order to amplify that one really means a [[set]] and not a proper [[class]].
+However, in other choices of [[foundations]], such as [[Grothendieck universes]], there exist both "small sets" (sets that live in the universe) and "large sets" (sets that do not).  In this case the adjective really is necessary.  Since in many cases the choice of foundations is irrelevant, it makes sense to always say "small set" for emphasis even if one has in mind a foundation where all sets are small.
 
-Strictly speaking one could and should just say "set". But since [[foundations]] are subtle, it doesn't hurt to be very explicit...
+[[!redirects small sets]]
