@@ -1,9 +1,20 @@
 
-This is a stub (clearly!).
+Domain theory has its origin in the problem in finding a viable denotational semantics for certain theories of computability (such as the untyped lambda calculus) which resist straightforward interpretations in terms of sets and functions. It has since grown into an area which weaves together diverse strands in logic, computability, lattice theory, general topology, and category theory. 
 
+Domain theory can be said to have come into existence with Dana Scott's solution for interpreting untyped lambda calculus in terms of continuous lattices. In rough terms, the problem can be set out as follows: 
 
+* [[lambda calculus|Lambda calculus]] is a syntax of functions and functional application, whose basic constituents are types, terms of types, and type and term formation schemes with which one can speak of product types $A \times B$ and function space types $A \Rightarrow B$. 
+
+* One problem is to construct a meaning or semantics for this syntax in terms of "actual" elements and functions. In category-theoretic terms, lambda calculus is naturally modeled by cartesian closed categories, in which types are interpreted as objects $A$ and terms are interpreted as (generalized) elements or "functions" $X \to A$. 
+
+* In so-called untyped lambda calculus (whose syntax is closely connected with the theory of computability and recursive functions), all terms may be regarded as being of the same type $D$ (which therefore need not be mentioned, hence "untyped"), so that intuitively speaking, elements of $D$ and functions on $D$ are treated on one and the same footing. 
+
+* The problem Scott solved is to faithfully model untyped lambda calculus; in categorical terms, the basic problem is to construct a cartesian closed category with just one object $D$ (or rather, two objects: $D$ and a terminal object $1$), so that $D$ is closed under formation of products and function spaces: $D \cong D \times D$ and $D \cong D \Rightarrow D$. Notice that in the category of sets, the only solution is to take $D \cong 1$, so that all terms are then equal ("algorithmic inconsistency"). This is not a faithful modeling of untyped lambda calculus, which has provably unequal terms. 
+
+In 1969, Dana Scott solved this problem topologically: the terms were interpreted as continuous functions on a suitable space $D$ isomorphic to its own function space. This $D$ is called a _domain_. Decades later, we now know many techniques for constructing such domains as suitable objects in cartesian closed categories, but Scott's basic insight, that computability could be interpreted as continuity, continues to exert a decisive influence today. 
 
 ##References##
+
 * [Wikipedia](http://en.wikipedia.org/wiki/Domain_theory)(English)
 
 
