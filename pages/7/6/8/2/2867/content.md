@@ -42,7 +42,7 @@ In low degree we have
 
 * $\Theta_0 = *$ is the [[point]].
 
-* $\Theta_1 = \Delta$ is the [[simplex category]]: the $n$-[[simplex]] $[n]$ is thought of as a linear [[quiver]] and as such the pasing diagram of $n$ 1-morphisms
+* $\Theta_1 = \Delta$ is the [[simplex category]]: the $n$-[[simplex]] $[n]$ is thought of as a linear [[quiver]] and as such the pasting diagram of $n$ 1-morphisms
 
   $$
     0 \to 1 \to \cdots \to n
@@ -66,8 +66,24 @@ In low degree we have
 
 ## Definition ##
 
-...
+Let $T(1)$ denote the free $\omega$-category generated from the terminal globular set $1$. As described above, each element of the underlying The $n$-cells of $T(1)$ may be identified with planar trees $\tau$ of height $n$, which by definition are functors 
 
+$$\tau: [n]^{op} \to \Delta$$ 
+
+($\Delta$ is the category of [[simplex|simplices]] and $[n] \in Delta$ is a simplex regarded as a category) such that $\tau(0) = 1$. Such a $\tau$ is exhibited as a chain of morphisms in $\Delta$, 
+
+$$\tau(n) \to \tau(n-1) \to \ldots \to \tau(0) = 1,$$ 
+
+and we will denote each of the maps in the chain by $i$. Thus, for each $x \in \tau(k)$, there is a fiber $i^{-1}(x)$ which is a linearly ordered set. 
+(Need to fill in how $\circ_j$ composition of such trees is defined.) 
+
+To each planar tree $\tau$ we associate an underlying globular set $[\tau]$. For each tree $\tau$, define a new tree $\tau'$ where we adjoin a new bottom and top $x_0$, $x_1$ to every fiber $i^{-1}(x)$ of $\tau$, for every $x \in \tau(k)$: 
+
+$$i_{\tau'}^{-1}(x) = \{x_0\} \cup i_{\tau}^{-1}(x) \cup \{x_1\}$$
+
+Now define a $\tau$-_sector_ to be a triple $(x, y, z)$ where $i(y) = x = i(z)$ and $y, z$ are consecutive edges of $i_{\tau'}^{-1}(x)$. A $k$-cell of the globular set $[\tau]$ is a $\tau$-sector $(x, y, z)$ where $x \in \tau(k)$. If $k \geq 1$, the source of a $\tau$-sector 
+
+(I'll pick this up again in a bit, after I run an errand...)
 
 ### Examples ###
 
