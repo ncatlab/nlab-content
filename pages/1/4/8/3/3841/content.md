@@ -5,7 +5,7 @@
 
 ## Definition
 
-A transfinite [[cardinal]] $\pi$ is a **[[regular cardinal]]** if it satisfies the following equivalent definitions:
+A transfinite [[cardinal]] $\pi$ is a **regular cardinal** if it satisfies the following equivalent definitions:
 
 * no [[set]] of cardinality $\pi$ is the union of fewer than $\pi$ sets of cardinality less than $\pi$.  
 
@@ -20,7 +20,7 @@ A cardinal that is not regular is called **singular**.
 ### Regular cardinals
 
 
-* The first regular cardinal is $\aleph_1 = |\mathbb{N}|$: 
+* The first regular cardinal is $\aleph_0 = |\mathbb{N}|$: 
 
   because a set with cardinality less than $\aleph_1$ is a [[finite set]] and a finite union of finite sets is still a finite set. 
 
