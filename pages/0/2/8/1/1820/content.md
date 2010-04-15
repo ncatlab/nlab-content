@@ -243,6 +243,8 @@ To see the converse, that every combinatorial model structure arises this way, i
 
 ### Dugger's theorem {#DuggerTheorem} 
 
+The followign theorem is precisely the model-category theory version of the statement that every [[locally presentable (∞,1)-category]] arises as the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]].
+
 +-- {: .num_theorem }
 ###### Theorem (Dan Dugger)
 
@@ -263,6 +265,73 @@ $$
 This is theorem 1.1. in 
 
 * [[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
+
+building on results in
+
+* [[Dan Dugger]], _[[Universal homotopy theories]]_
+
+The proof proceeds (the way Dugger presents it, at least) in roughly three steps:
+
+1. Use that $[C^{op}, sSet_{Quillen}]_{proj}$ is in some precise sense the _homotopy-_ [[free cocompletion]] of $C$. This means that every functor $\gamma : C \to B$ from a plain category $C$ to a model category $B$ factors in an essentially unique way through the [[Yoneda embedding]] $j : C \to [C^{op},sSet]$ by a [[Quillen adjunction]] 
+
+   $$
+     (\hat \gamma \dashv R) : 
+     B
+     \stackrel{\overset{\hat \gamma}{\leftarrow}}
+      {\underset{R}{\to}}
+     [C^{op}, sSet_{Quillen}]_{proj}  
+     \,.
+   $$
+
+   The detailed definitions and detailed proof of this are discussed at [[(∞,1)-category of (∞,1)-presheaves]].
+
+1. For a given combinatorial model category $B$, choose $C := B_\lambda^{cof}$ the full [[subcategory]] on a [[small set]] (guaranteed to exist since $B$ is [[locally presentable category|locally presentable]]) of cofibrant $\lambda$-[[compact object]]s, for some [[regular cardinal]] $\lambda$, and show that the induced Quillen adjunction 
+
+   $$
+     B \stackrel{\overset{\hat i}{\leftarrow}}{\underset{R}{\hookrightarrow}}
+     [(B_\lambda^{cof})^{op}, sSet]_{proj} 
+   $$
+
+
+   induced by the above statement from the inclusion $i : B_\lambda^{cof} \hookrightarrow B$ exhibits $B$ as a homotopy-[[reflective subcategory]] in that the [[derived functor|derived]] counit $ \hat i \circ Q \circ R \stackrel{\simeq}{\to} Id$ ($Q$ some cofibrant replacement functor) is a [[natural transformation|natural]] weak equivalence on fibrant objects (recall from [[adjoint functor]] the characterization of adjoints to full and faithful functors).
+
+1. Define $S$ to be the set of morphisms in $[(C_\lambda^{cof})^{op}, sSet]$ that the left [[derived functor]] $\hat i \circ Q$ of $\hat i$ (here $Q$ is some cofibrant replacement functor) sends to weak equivalences in $B$. Then form the left [[Bousfield localization of model categories|Bousfield localization]] $L_S [(C_\lambda^{cof})^{op},sSet]_{proj}$ with respect to this set of morphisms and prove that this is [[Quillen equivalence|Quillen equivalent]] to $B$.
+
+Carrying this program through requires the following intermediate results.
+
+First recall from the discussion at [[(∞,1)-category of (∞,1)-presheaves]] that to produce the Quilen adjunction $(\hat i \dashv R)$ from $i$, we are to choose a [[cofibrant resolution]] functor
+
+$$
+  I : C \to [\Delta,B]
+$$
+
+of $i : C= B_\lambda^{cof} \to B$.
+
+The [[adjunct]] of this is a functor $\tilde I : C \times \Delta \to B$. For each object $b \in B$ write $(C \times \Delta \downarrow b)$ for the [[slice category]] induced by this functor. 
+
+
+**Lemma** (Dugger, prop. 4.2) 
+
+For every fibrant object $b \in B$ we have that the [[homotopy colimit]] $hocolim (C \times \Delta \downarrow b) \to B)$
+is weakly equivalent to $\hat i \circ Q\circ R (b)$.
+
+**Corollary** (Dugger, cor. 4.4) The induced Quillen adjunction
+
+$$
+  B \stackrel{\leftarrow}{\to}
+  [C^{op}, sSet]
+$$
+
+is a homotopy-reflective embedding precisely if the canonical morphisms
+
+$$
+  hocolim (C \times \Delta \downarrow b) \to b
+$$
+
+are weak equivalences for every fibrant object $b \in B$.
+
+...
+
 
 =--
 
