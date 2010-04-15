@@ -5,10 +5,10 @@
 
 ## Definition
 
-A [[full subcategory]] $i : C \hookrightarrow D $ is **reflective** if the inclusion [[functor]] $i$ has a [[adjoint functor|left adjoint]]
+A [[full subcategory]] $i : C \hookrightarrow D $ is **reflective** if the inclusion [[functor]] $i$ has a [[adjoint functor|left adjoint]] $T$:
 
 $$
-  (i \dashv T) :  C \stackrel{\stackrel{T}{\leftarrow}}{\hookrightarrow}
+  (T \dashv i) :  C \stackrel{\stackrel{T}{\leftarrow}}{\hookrightarrow}
   D
   \,.
 $$
