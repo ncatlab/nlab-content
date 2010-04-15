@@ -1,8 +1,13 @@
-# Idea #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[natural number|natural numbers]] to possibly infinite magnitudes.  Specifically, cardinal numbers generalise the concept of 'the number of ...'.  In particular, the number of natural numbers is the first infinite cardinal number.
 
-# Definition #
+## Definition 
 
 Na&#239;vely, a **cardinal number** should be an [[isomorphism]] class of [[sets]], and the **cardinality** of a set $S$ would be its isomorphism class.  That is:
 1. every set has a unique cardinal number as its cardinality;
@@ -52,7 +57,7 @@ By the way, every time you edit this page, you wreck the links to external web p
 
 Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
 
-# Cardinal arithmetic #
+## Cardinal arithmetic 
 
 For $S$ a [[set]], write $|S|$ for its cardinality. Then the standard operations in the [[category]] [[Set]] induce arithmetic operations on cardinal numbers:
 
@@ -104,7 +109,7 @@ The well-ordered cardinals are [[well-order|well-ordered]] by the ordering $\lt$
 The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-ordered cardinal larger than $\kappa$.  Note that (except for finite cardinals), this is different from $\kappa$\'s successor as an [[ordinal number]].  We can also take successors of arbitrary cardinals using the operation of [[Hartog's number]], although this won\'t quite have the properties that we want of a successor without the axiom of choice.
 
 
-# Properties #
+### Properties 
 
 * It is traditional to write $\aleph_0$ for the first infinite cardinal (the cardinality of the natural numbers), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal number]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu+1}$.
 
@@ -113,9 +118,9 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 * For every transfinite cardinal $\pi$ we have $\pi+\pi = \pi$ and $\pi \cdot \pi = \pi$.
 
 
-# Properties of cardinals #
+## Properties of cardinals 
 
-A transfinite cardinal $\pi$ is **regular** if no set of cardinality $\pi$ is the union of fewer than $\pi$ sets of cardinality less than $\pi$.  Equivalently, $\pi$ is regular if given a function $P \to X$ (regarded as a family $\{P_x\}_{x\in X}$) such that $|X| \lt \pi$ and $|P_x| \lt \pi$ for all $x \in X$, then $|P| \lt \pi$.  Again equivalently, $\pi$ is regular if the category $\Set_{\lt\pi}$ of sets of cardinality $\lt\pi$ has all [[colimits]] of size $\lt\pi$.  The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.
+A transfinite cardinal $\pi$ is a **[[regular cardinal]]** if no set of cardinality $\pi$ is the union of fewer than $\pi$ sets of cardinality less than $\pi$.  Equivalently, $\pi$ is regular if given a function $P \to X$ (regarded as a family $\{P_x\}_{x\in X}$) such that $|X| \lt \pi$ and $|P_x| \lt \pi$ for all $x \in X$, then $|P| \lt \pi$.  Again equivalently, $\pi$ is regular if the category $\Set_{\lt\pi}$ of sets of cardinality $\lt\pi$ has all [[colimits]] of size $\lt\pi$.  The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.
 
 A cardinal is called **singular** if it is not regular.  For instance, $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and $|\mathbb{N}| = \aleph_0 \lt\aleph_\omega$.
 
@@ -126,7 +131,7 @@ A **strong limit cardinal** is a cardinal $\pi$ such that if $\lambda\lt \pi$, t
 An [[inaccessible cardinal]] is any (usually uncountable) regular strong limit cardinal.  A **weakly inaccessible cardinal** is a regular limit cardinal.
 
 
-#References#
+## References
 
 For a generalization of cardinality from sets to [[groupoids]] see [[groupoid cardinality]].
 
@@ -154,4 +159,3 @@ By the way, if you want to be sure that people see your questions in a timely ma
 [[!redirects cardinal]]
 [[!redirects cardinals]]
 [[!redirects cardinalities]]
-[[!redirects regular cardinal]]
