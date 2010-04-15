@@ -34,11 +34,11 @@ Since a small object is one which is $\kappa$-[[compact object|compact]] for som
 +-- {: .un_defn}
 ###### Definition (locally $\kappa$-presentable category)
 
-For $\kappa$ a [[cardinal number|regular cardinal]], a **locally $\kappa$-presentable category** is a locally presentable category such that the colimit-generating set $S$ may be taken to consist of $\kappa$-compact objects.
+For $\kappa$ a [[regular cardinal]], a **locally $\kappa$-presentable category** is a locally presentable category such that the colimit-generating set $S$ may be taken to consist of $\kappa$-compact objects.
 
 =--
 
-Thus, a locally presentable category is one which is locally $\kappa$-presentable for some regular cardinal $\kappa$ (hence also for every $\lambda\gt\kappa$).  In fact, in this case the fourth condition is redundant; once we know that there is a colimit-generating set consisting of $\kappa$-compact objects, it follows automatically that every object is $\lambda$-compact for some $\lambda$ (though there is no uniform upper bound on the required size of $\lambda$).  Moreover, colimit-generation is also stronger than necessary; it suffices to have a [[strong generator]] consisting of small objects.
+Thus, a locally presentable category is one which is locally $\kappa$-presentable for some [[regular cardinal]] $\kappa$ (hence also for every $\lambda\gt\kappa$).  In fact, in this case the fourth condition is redundant; once we know that there is a colimit-generating set consisting of $\kappa$-compact objects, it follows automatically that every object is $\lambda$-compact for some $\lambda$ (though there is no uniform upper bound on the required size of $\lambda$).  Moreover, colimit-generation is also stronger than necessary; it suffices to have a [[strong generator]] consisting of small objects.
 
 A locally $(\kappa = \aleph_0)$-presentable category is called a **locally finitely presentable category**.
 
