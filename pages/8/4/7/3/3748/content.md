@@ -131,3 +131,5 @@ and on morphisms, it is given by the operad structure on $Aut(n) = Lin(n)$ discu
 * Let $C$ be any (permutative) operad valued in $Set$, with underlying species $\mathbf{P} \to Set$. Then category of elements gives a functor $\Gamma: El(C) \to \mathbf{P}$, and this carries a club structure induced from the operad structure on $C$. In this way, clubs generalize operads.  In fact, operads in $Set$ can be identified with those clubs for which the functor $\Gamma\colon C\to \mathbf{P}$ is a [[discrete fibration]].
 
 ## Clubs over finite sets 
+
+[[!redirects clubs]]
