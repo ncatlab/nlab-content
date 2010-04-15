@@ -24,7 +24,7 @@ $$
   C^{op} \to S
 $$
 
-The **category of presheaves** on $C$, usually denoted $Set^{C^{op}}$ or $[C^{op},Set]$, but often abbreviated as $\widehat{C}$, has:
+The **[[category of presheaves]]** on $C$, usually denoted $Set^{C^{op}}$ or $[C^{op},Set]$, but often abbreviated as $\widehat{C}$, has:
 
 * functors $F : C^{op} \to Set$ as objects;
 
