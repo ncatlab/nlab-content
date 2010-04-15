@@ -36,6 +36,23 @@ $$
   \,.
 $$
 
+## definition via subspaces
+As already mentioned a connection can equally well be defined by a consistent separation of every tangent space $T_u P$ into the vertical subspace $V_u P$ and the horizontal subspace $H_u P$ such that
+
+1. $T_u P \: = \: H_u P \oplus V_u P$
+
+2. Every smooth vector field X on P is separated into smooth vector fields $X^H \in H_u P$ and $X^V \in V_u P$ such that $X = X^H + X^V$
+
+3. $H_{ug}P = R_{g*}H_u P$ for every $u \in P$ and $g \in G$.
+
+The condition 3. states that horinzontal subspaces $H_u P$ and $H_{ug}P$ on the same fibre are related by a linear map $R_{g*}$ induced by the right action of the gauge group. 
+
+**theorem: equivalence of definitions**: Every connection one-form $A$ defines a separation of tangent spaces as defined above, the horizontal subspaces are given by the kernel of $A$. Conversly, given a separation of tangent spaces it is possible to construct a connection one-form.
+
+### References
+
+* Nakahara, Mikio: _Geometry, topology and physics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1090.53001&format=complete))
+ 
 # Note on terminology #
 
 The terminology for the various incarnations of the single notion of [[connection on a bundle]] varies throughout the literature. What we here call an Ehresmann connection is sometimes, but not always, called **principal connection** (as it is defined for [[principal bundle]]s).
