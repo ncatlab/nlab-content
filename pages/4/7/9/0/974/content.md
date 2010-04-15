@@ -66,7 +66,7 @@ This proposition extrapolates part of the Gabriel--Ulmer duality (see below), wh
 
 ###### Proposition (as finite limit sketches) 
 
-Every locally finitely presentable category $A$ is equivalent to the category of finite limit preserving functors $C \to Set$, for some small finitely complete category $C$. 
+Locally finitely presentable categories are precisely the categories of finite limit preserving functors $C \to Set$, for small finitely complete categories $C$. 
 
 =--
 
@@ -74,7 +74,7 @@ Every locally finitely presentable category $A$ is equivalent to the category of
 ###### Proposition
 **(as reflective subcategories of presheaves)**
 
-Every locally presentable category $C$ is equivalent to a full [[reflective subcategory]] 
+Locally presentable categories are precisely the full [[reflective subcategories]] 
 
 $$
   (L \dashv i) 
@@ -83,8 +83,7 @@ $$
   PSh(K)
 $$
 
-of a [[category of presheaves]] on some category $K$.
-
+of [[categories of presheaves]] on some category $K$ which are closed in $Psh(K)$ under $\kappa$-filtered colimits for some [[regular cardinal]] $\kappa$.
 =--
 
 +-- {: .proof}
