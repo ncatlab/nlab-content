@@ -27,13 +27,15 @@ Equivalent characterizations include that $C$ is accessible iff:
 * it is of the form $\kappa-Flat(S)$ for $S$ small and some $\kappa$, i.e. the category of $\kappa$-[[flat functor|flat]] functors from some small category to $Set$.
 * it is the category of models (in $Set$) of a suitable type of logical theory.
 
-The important notion of functor between accessible categories is an **accessible functor**, meaning a functor $F\colon C\to D$ such that there exists a $\kappa$ such that $C$ and $D$ are both $\kappa$-accessible and $F$ preserves $\kappa$-filtered colimits.
+The important notion of functor between accessible categories is an **[[accessible functor]]**, meaning a functor $F\colon C\to D$ such that there exists a $\kappa$ such that $C$ and $D$ are both $\kappa$-accessible and $F$ preserves $\kappa$-filtered colimits.
 
 ## Relation to other concepts ##
 
 * If an accessible category in addition has all (small) [[colimit]]s (or, equivalently, [[limits]]), then it is a [[locally presentable category]].
 
 * A [[small category]] is accessible precisely when it is [[idempotent complete category|idempotent complete]].  Makkai-Par&eacute; say that this means accessibility is an "almost pure smallness condition."
+
+* A functor out of an accessible category that is $\kappa$-continuous for some [[regular cardinal]] $\kappa$ is an [[accessible functor]].
 
 ## Properties {#Properties}
 
@@ -89,5 +91,3 @@ of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
 [[!redirects accessible categories]]
-[[!redirects accessible functor]]
-[[!redirects accessible functors]]
