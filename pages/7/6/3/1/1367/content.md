@@ -68,7 +68,9 @@ Here the vertical map is [[fibrations of quasi-categories|inner anodyne]] for in
 For the definition of $(\infty,1)$-functors in other models for $(\infty,1)$-categories see [[(∞,1)-functor]].
 
 
-## Models 
+## Properties
+
+### Models 
 
 The projective and injective [[global model structure on functors]] as well as the [[Reedy model structure]] if $C$ is a [[Reedy category]] [[presentable (infinity,1)-category|presents]] $(\infty,1)$-categories of $(\infty,1)$-functors, at least when there exists a [[combinatorial simplicial model category]] model for the codomain.
 
@@ -163,6 +165,32 @@ Since $Ho(sSet Cat_{Bergner}) \simeq Ho(sSet_{Joyal})$ this
 identifies also $N([C,A]^\circ)$ with the exponential object in question.
 
 =--
+
+### Limits and colimits {#Limits}
+
+For $C$ an ordinary [[category]] that admits small [[limit]]s and [[colimit]]s, and for $K$ a [[small category]], the [[functor category]] $Func(D,C)$ has all small limits and colimits, and these are computed objectwise. See [[limits and colimits by example]]. The analogous statement is true for $(\infty,1)$-categories of $(\infty,1)$-functors
+
++-- {: .un_prop}
+###### Propositon
+
+Let $K$ and $C$ be [[quasi-categories]], such that $C$ has all [[limit in a quasi-category|colimits]] indexed by $K$. 
+
+Let $D$ be a small quasi-category. Then 
+
+* The $(\infty,1)$-category $Func(D,C)$ has all $K$-indexed colimits;
+
+* A morphism $K^\triangleright \to Func(D,C)$ is a colimiting cocone precisely if for each object $d \in D$ the induced morphism $K^\triangleright \to C$ is a colimiting cocone.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
+
+=--
+
+
 
 ## Examples
 
