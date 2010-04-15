@@ -367,6 +367,14 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 + [[Postnikov tower in an (∞,1)-category]]
 
+#### 5.5.8 Nonabelian Derived Categories
+
+* [[(∞,1)-algebraic theory]]
+
+#### 5.5.9 Quillen's model for $\mathcal{P}_\Sigma(C)$
+
+* [[(∞,1)-algebraic theory|model structure for (∞,1)-algebras over (∞,1,)-algebraic theories]]
+
 ##6 $\infty$-Topoi##
 
 ### 6.1 Definitions and characterizations ###
