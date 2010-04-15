@@ -23,7 +23,9 @@ An object in this category is a [[presheaf]]. See there for more details.
 
 * A category of presheaves is a [[topos]].
 
-* A sub-topos of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]].
+* A [[reflective subcategory]] of a category of presheaves is a [[locally presentable category]].
+
+* A [[geometric embedding|sub-topos]] of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]].
 
 
 ## In higher category theory
