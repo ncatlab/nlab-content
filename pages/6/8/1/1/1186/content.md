@@ -24,6 +24,8 @@ a locally presentable $(\infty,1)$-category $C$ is precisely
     \,;
   $$
 
+  such that the inclusion functor is an [[accessible (∞,1)-functor]].
+
 * equivalent to the full subcategory $A^\circ$ of a [[combinatorial simplicial model category]] $A$ on fibrant-cofibrant objects 
 
   (where the [[Kan complex]]-[[enriched category|enriched]] $A^\circ$ is regarded as an $(\infty,1)$-category, for instance as a [[quasi-category]] after applying the [[homotopy coherent nerve]]).
