@@ -36,6 +36,10 @@ I think it would be nice to have pages about all the different coherence theorem
 =--
 
 * [[coherence theorem for monoidal categories]]
+* [[coherence theorem for symmetric monoidal categories]]
+* [[coherence theorem for braided monoidal categories]]
+* [[coherence theorem for tortile categories]]
+* [[coherence theorem for closed symmetric monoidal categories]]
 * [[coherence theorem for bicategories]]
 * [[coherence theorem for tricategories]]
 
