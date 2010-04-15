@@ -393,7 +393,13 @@ Combinatorial model categories, lile [[cellular model category|cellular model ca
 
 Basic examples are
 
-* [[SSet]] both with the standard and with the Joyal-[[model structure on simplicial sets]]
+* [[sSet]] with its standard [[model structure on simplicial sets]];
+
+* [[sSet]] with the Joyal-[[model structure for quasi-categories]];
+
+  notice that this is not directy a [[simplicial model category]], but is enriched over itself. A Quillen equivalent combinatorial simplicial model category is
+
+  * the [[model structure for Cartesian fibrations]] over the point.
 
 * the category of [[dendroidal set]]s with its [[model structure on dendroidal sets]]
 
@@ -404,9 +410,9 @@ Basic examples are
 
 Further classes of examples are obtained from such basic examples by localizing presheaf categories with values in these:
 
-* For $V$ a combinatorial model category and $C$ a [[small category]] the injective and projective [[global model structure on functors]] $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ are again combinatorial model categories. (e.g. [[Higher Topos Theory|HTT, prop. A.2.8.2]])
+* For $V$ a combinatorial model category and $C$ a [[small category]] the injective and projective [[model structure on functors]] $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ are again combinatorial model categories. See there for details.
 
-* If $V$ is a left or right [[proper model category]] then so is $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ and hence the standard results of the theory of [[Bousfield localization of model categories]] applies, which ensures that all Bousfield localizations $L_S Funt(C,V)$ are again combinatorial model categories. Such local [[model structure on homotopical presheaves|local model structures on homotopical presheaves]] includes notably the local [[model structure on simplicial presheaves]].
+* If $V$ is a left or right [[proper model category]] then so is $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ and hence the standard results of the theory of [[Bousfield localization of model categories]] applies, which ensures that all left Bousfield localizations $L_S Funt(C,V)$ are again combinatorial model categories. Such local [[model structure on homotopical presheaves|local model structures on homotopical presheaves]] includes notably the local [[model structure on simplicial presheaves]].
 
 
 ### From cofibrantly generated model categories 
