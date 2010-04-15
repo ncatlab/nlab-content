@@ -377,19 +377,7 @@ Lo and behold --- now we have a _formula_ for $\widehat{F}$.  So, we just need t
 But I bet you want me to actually follow my nose this time.
 
 
-# A Reference #
-
-This reference might also give helpful clues:
-
-* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
-
-A pedagogical explanation of the universal property of the [[Yoneda embedding]] is given starting on page 7.
-On page 8 there's an explanation with lots of pictures how a presheaf is an "instruction for how to build a colimit".
-Then on p. 9 the universal morphism that we are looking for here is identified as the one that "takes the instructions for building a colimit and actually _builds_ it".
-
-(This text, by the way, contains various other gems. A pity that it is left unfinished.)
-
-##Free cocompletion as a pseudomonad##
+# Free cocompletion as a pseudomonad#
 
 [[David Corfield]]: So is this 'free cocompletion' part of  an adjunction between the category of categories and the category of cocomplete categories (modulo size worries?).
 Or should we think of it as part of a [[pseudoadjunction]] between _2-categories_?  (I would start a page on that, but how are naming conventions going in this area?)
@@ -436,3 +424,22 @@ $$ U F : Cat \to Cat $$
 we're stuck: the '$Cat$' at right contains larger categories than the one at left.
 
 In [their work on species](http://www.lacim.uqam.ca/~gambino/species.pdf), Fiore, Gambino, Hyland and Winskel had to confront this issue.  In one draft of this paper they had a very artful and sophisticated device for dealing with this size problem.  In the latest draft they seem to have sidestepped it entirely: you'll see they discuss the 'free symmetric monoidal category on a category' pseudomonad, but never the 'free cocomplete category on a category' pseudomonad, even though they _do_ use the $\widehat{C}$ construction all over the place.  Somehow they've managed to avoid the need to consider this construction as a pseudomonad!
+
+# In higher category theory
+
+One can ask for the notion of free cocompletion in the wider context of [[higher category theory]].
+
+* for [[(∞,1)-category]] theory there is [[free (∞,1)-cocompletion]] .
+
+# References #
+
+This reference might also give helpful clues:
+
+* [[Daniel Dugger]], _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+
+A pedagogical explanation of the universal property of the [[Yoneda embedding]] is given starting on page 7.
+On page 8 there's an explanation with lots of pictures how a presheaf is an "instruction for how to build a colimit".
+Then on p. 9 the universal morphism that we are looking for here is identified as the one that "takes the instructions for building a colimit and actually _builds_ it".
+
+(This text, by the way, contains various other gems. A pity that it is left unfinished.)
+
