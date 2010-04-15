@@ -17,7 +17,7 @@ Then
 
 * a [[sheaf]] on $S$ is precisely a [[presheaf]] $F \in [S^{op}, Set]$ such that $Hom_{PSh(S)}(-, F)$ sends all [[local isomorphism]]s to [[isomorphism]]s;
 
-* the category $Sh(S)$ of [[sheaf|sheaves]] on $S$ is the full [[subcategory]] of the category of $PSh(S)$ on sheaves;
+* the category $Sh(S)$ of [[sheaf|sheaves]] on $S$ is the full [[subcategory]] of the [[category of presheaves]] $PSh(S)$ on sheaves;
 
 * the [[stuff, structure, property|fully faithful forgetful]] inclusion functor $i : Sh(S) \hookrightarrow PSh(S)$ has an [[adjoint functor|left adjoint]] $\bar{(-)} : PSh(S) \to Sh(S)$ -- [[sheafification]] -- which is [[exact functor|exact]] -- hence the inclusion is a [[geometric morphism]]:
 
