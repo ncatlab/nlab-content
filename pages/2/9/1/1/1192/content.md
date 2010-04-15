@@ -1,9 +1,19 @@
-Given a [[natural number]] $n$, the __successor__ $n^+$ of $n$ is simply $n + 1$.
+## Successors of natural numbers
 
-More generally, in any [[well-order]]ed set $S$, the successor $w^+$ or $w + 1$ (if it exists) of an element $w$ is the smallest element of the subset of all elements which are (strictly) greater than $w$.  If $S$ has no maximal element, then the successor map $w \mapsto w + 1$ is always defined; it is sometimes used to make recursive definitions.
+Given a [[natural number]] $n$, the __successor__ $n^+$ of $n$ is simply $n + 1$.  In a topos, a [[natural numbers object]] $\mathbb{N}$ is equipped with a successor morphism $\mathbb{N}\to\mathbb{N}$, which, together with its zero element $1\to \mathbb{N}$, is used to characterize its abstract universal property of [[recursion]].
 
-This notion is sometimes also used for some well-ordered proper classes, for example for the class $\mathbf{Ord}$ of [[ordinal number]]s. For definitions by [[transfinite recursion]], one usually specifies the value at $0$, the rule for recursion along the successor map and a separate rule of recursion for 
-the limiting ordinals (infinite ordinals which are not successors). (For example, the [[von Neumann hierarchy]] of well-founded [[pure set]]s is defined in that way.)  One can (and in [[constructive mathematics]] must) also handle all three cases at once, and the successor function is used there as well.
+## Successors in well-orderings
 
-In a topos, a [[natural numbers object]] $\mathbb{N}$ is equipped with a successor morphism $\mathbb{N}\to\mathbb{N}$;
-and it has an abstract property of [[recursion]].
+More generally, in any [[well-ordered set]] $S$, the **successor** $w^+$ of an element $w$ is the least element of $S$ which is (strictly) greater than $w$ (if such an element exists).  If $S$ has no maximal element, then the successor map $w \mapsto w^+$ is always defined; it is sometimes used to make recursive definitions.  We say that an element of a well-ordered set *is a successor* if it is the successor of something.
+
+This notion is sometimes also used for some well-ordered proper classes, for example for the classes $\mathbf{Ord}$ of [[ordinal number]]s and $Card$ of [[cardinal numbers]].  (The latter is only well-ordered if we assume the [[axiom of choice]].)  Thus the **successor ordinal** of an ordinal $\alpha$ is the least ordinal greater than $\alpha$, which, if we use the von Neumann definition of ordinals, is $\alpha \cup \{\alpha\}$.  Similarly, the **successor cardinal** of a cardinal $\kappa$ is the least cardinal greater than $\kappa$.  We speak of "a successor cardinal" or "a successor cardinal" to mean a cardinal which is the successor of some other ordinal or cardinal, respectively.
+
+Note that if we identify a cardinal number with the least ordinal having that cardinality, as is common in [[material set theory]], then the *successor ordinal* and the *successor cardinal* of that cardinal are different.  For instance, the successor ordinal of $\omega = \aleph_0$ is $\omega+1$, whereas its successor cardinal is $\aleph_1$.
+
+For definitions by [[transfinite recursion]], one usually specifies the value at $0$, the rule for recursion along the successor map, and a separate rule of recursion for the limiting ordinals (infinite ordinals which are not successors). (For example, the [[von Neumann hierarchy]] of well-founded [[pure set]]s is defined in that way.)  One can (and in [[constructive mathematics]] must) also handle all three cases at once, and the successor function is used there as well.
+
+[[!redirects successors]]
+[[!redirects successor ordinal]]
+[[!redirects successor cardinal]]
+[[!redirects successor ordinals]]
+[[!redirects successor cardinals]]
