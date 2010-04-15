@@ -31,6 +31,8 @@ Let $\kappa$ be a [[cardinal number|regular cardinal]]. A [[quasi-category]] $C$
 
 =--
 
+An [[(∞,1)-functor]] between accessible $(\infty,1)$-categories that preserves $\kappa$-filtered colimits is called an **[[accessible (∞,1)-functor]]** .
+
 
 ## References 
 
