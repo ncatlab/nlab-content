@@ -16,17 +16,37 @@
 
 The notion if $(\infty,1)$-Kan extension is the generalization of the notion of [[Kan extension]] from [[category theory]] to [[(∞,1)-category theory]].
 
+
 ## Definition
+
+### General abstract definition
+
+Indepent of any models or concrete realizations chosen, the notion of $(\infty,1)$-Kan extension is intrinsically determined from just the notions of 
+
+* [[(∞,1)-functor]], 
+
+* [[(∞,1)-category of (∞,1)-functors]]
+
+*  [[adjoint (∞,1)-functor]].
+
+In terms of these, for $f : C \to C'$ any [[(∞,1)-functor]] and any [[(∞,1)-category]] $A$, there is an induced $(\infty,1)$-functor $f^* : Func_{(\infty,1)}(C',A) \to Func_{(\infty,1)}(C,A)$.
+
+The  **left $(\infty,1)$-Kan extension functor** is the left [[adjoint (∞,1)-functor]] to $f^*$.
+
+The  **right $(\infty,1)$-Kan extension functor** is the right [[adjoint (∞,1)-functor]] to $f^*$.
+
+Given different incarnations of or models for the notion of [[(∞,1)-category]], there are accordingly different incarnations and models of this general abstract prescription.
+
 
 ### In terms of quasi-categories
 
 ...
 
-### In terms of simplicially enriched categories
+### In terms of Kan-complex enriched categories
 
 see [[homotopy Kan extension]]
 
-### In terms of model categories
+### In terms of simplicial model categories
 
 see [[homotopy Kan extension]]
 
