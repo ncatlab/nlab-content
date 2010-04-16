@@ -4,4 +4,6 @@
 
 * John Baez's [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
 
-Related entries: [[alternative algebra]], [[Cayley-Dickson construction]]
+Related $n$lab entries: [[alternative algebra]], [[Cayley-Dickson construction]]
+
+Related eom entries: [Lie-admissible algebra](http://eom.springer.de/l/l058360.htm)
