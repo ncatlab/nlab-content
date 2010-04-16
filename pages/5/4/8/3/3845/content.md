@@ -15,7 +15,7 @@ $$
 
 We think of these arrows as not yet composed, but _pasted_ together at their objects, such as to form a sequence.
 
-Then in an [[n-category]] a pasting diagram is similarly a collection of [[k-morphism|n-morphism]] with a prescribed way how they are to fit together at their boundaries.
+Then in an [[n-category]] a pasting diagram is similarly a collection of [[k-morphism|n-morphism]] with a prescribed way how they are to fit together at their boundaries, subject to some conditions which guarantee that it can be uniquely composed or "pasted together" to form a single $n$-morphism.
 
 An simple example of a pasting diagram in a 2-category is
 
@@ -54,6 +54,21 @@ $$
   }
   \,.
 $$
+
+On the other hand, the following diagram is _not_ a pasting diagram: 
+
+$$
+  \array{
+    a &\to& b &\to& c
+    \\
+    \downarrow &\neArrow& \downarrow &\swArrow& \downarrow
+    \\
+    d &\to& e &\to& f
+  }
+  \,.
+$$
+
+Thus, the formal definition of pasting diagram will include conditions which impose a consistent "directionality" of the cells so they can be pasted together.
 
 ## References
 
