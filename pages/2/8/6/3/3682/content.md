@@ -169,13 +169,13 @@ The analogous statement here is that all homotopy limits are determined by homot
 +-- {: .un_prop}
 ###### Proposition
 
-Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[model structure on functors]]. Then a morphism $\eta : G \to f_* A$ exhibts $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
+Let $F \in [C,A]$ and $G \in [C',A]$ be fibrant in the projective [[model structure on functors]]. Then a morphism $\eta : G \to f_* F$ exhibts $G$ as a homotopy right Kan extension of $F$ precisely if for each cofibrant $a \in A$ -- equivalently for each fibrant-cofibrant $a \in A$ -- the morphism
 
 $$  
   \eta_a : A(a,G(-)) \to f_* A(a,F(-))
 $$
 
-exhibits $A(a,G(-)) : C' \to sSet_{Quillen}$ as a homotopy right Kan extension of $A(a,G(-)) : C \to sSet_{Quillen}$;
+exhibits $A(a,G(-))  \in [C',sSet]$ as a homotopy right Kan extension of $A(a,G(-)) \in [C,sSet]$.
 
 =--
 
