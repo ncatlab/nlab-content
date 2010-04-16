@@ -14,7 +14,7 @@ The article
 
 * [[Albert Burroni]], _Higher dimensional word problems with applications to equational logic_ ([pdf](http://people.math.jussieu.fr/~burroni/mapage/highwordpb.pdf))
 
-used term **[[polygraph]]** for _computad_ . This term is now used in parts of the literature especially in the connections with [[rewriting]] theory.  
+used the term **[[polygraph]]** instead of _computad_. This term is now used in parts of the literature especially in the connections with [[rewriting]] theory.  
 
 
 
