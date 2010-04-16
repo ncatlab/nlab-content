@@ -11,7 +11,7 @@ Bertrand To&euml;n is a mathematician at the University of Montpellier. He works
 
 * [[model structure on SSet-enriched presheaves]]
 
-* [[simplicial ring]]
+* [[simplicial ring]], [[derived algebraic geometry]], [[complicial algebraic geometry]]
 
 * [[nonabelian cohomology]]
 
@@ -19,7 +19,11 @@ Bertrand To&euml;n is a mathematician at the University of Montpellier. He works
 
 * [[higher topos theory]]
 
+* [[Hall algebra]]
+
 
 category: people
 
 [[!redirects Bertrand Toen]]
+[[!redirects Toen]]
+[[!redirects Toën]]
