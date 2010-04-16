@@ -57,12 +57,12 @@ See [[Higher Topos Theory|HTT, prop 4.2.1.5]].
 ## Properties 
 
 
-One would like to claim the following _global_ characterization of 
-$(\infty,1)$-limits.
+### In terms of $\infty$-Hom adjunction
 
-Limit and colimit, as defined above, should be [[right adjoint|right]] and [[left adjoint|left]]
+The definition of the limit in a quasi-category in terms of terminal objects in the corresponding [[over quasi-category]] is well adapted to the particular nature the incarnation of $(\infty,1)$-categories by quasi-categories. But more intrinsically in $(\infty,1)$-category theory, it should be true that there is an [[adjunction]] characterization of 
+$(\infty,1)$-limits : limit and colimit, should be (pointwise or global) [[right adjoint|right]] and [[left adjoint|left]]
 [[adjoint (infinity,1)-functor]] of the constant diagram $(\infinity,1)$-functor,
-$constt : K \to Func(K,C)$.
+$const : K \to Func(K,C)$.
 
 $$
   (colim \dashv const \dashv lim)
@@ -74,7 +74,7 @@ $$
   \,.
 $$
 
-By the discussion at [[adjoint (infinity,1)-functor]] ([[Higher Topos Theory|HTT, prop. 5.2.2.8]]) this requires exhibiitng a morphism $\eta : Id_{Func(K,C)} \to const colim$ in $Func(Func(K,C),Func(K,C))$ such that for every $f \in Func(K,C)$ and $Y \in C$ 
+By the discussion at [[adjoint (∞,1)-functor]] ([[Higher Topos Theory|HTT, prop. 5.2.2.8]]) this requires exhibiitng a morphism $\eta : Id_{Func(K,C)} \to const colim$ in $Func(Func(K,C),Func(K,C))$ such that for every $f \in Func(K,C)$ and $Y \in C$ 
 the induced morphism
 
 $$
@@ -89,7 +89,8 @@ is a weak equivalence in $sSet_{Quillen}$.
 But first consider the following pointwise characterization.
 
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 Let $C$ be a [[quasi-category]], $K$ a [[simplicial set]]. A co-cone diagram
 $\bar p : K \star \Delta[0] \to C$ with cone point $X \in C$ 
@@ -103,7 +104,11 @@ $$
 induced by the morpism $ p \to const X$ that is encoded by $\bar p$ is an 
 equivalence (i.e. a [[homotopy equivalence]] of [[Kan complex]]es).
 
-**Proof**
+=--
+
+
++-- {: .proof}
+###### Proof
 
 This is [[Higher Topos Theory|HTT, lemma 4.2.4.3]].
 
@@ -184,11 +189,84 @@ of the proposition is equivalent to $\phi''$ being an acyclic Kan fibration, and
 second statement equivalent to $\phi''_Y$ being an acyclic Kan fibration, then 
 show that these two conditions in turn are equivalent.
 
-**Remark**
+=--
 
-This statement allows to relate limits in a quasi-category with [[homotopy limit]] in the corresponding [[simplicially enriched category]] as discussed at [[homotopy Kan extension]].
 
-...
+### In terms of homotopy limits 
+
+The notion of [[homotopy limit]], which exists for [[model categories]] and in particular for [[simplicial model categories]] and in fact in all plain [[Kan complex]]-[[enriched categories]] -- as described in more detail at [[homotopy Kan extension]] -- is supposed to be a model for $(\infty,1)$-categorical limits. In particular, under sending the Kan-complex enriched categories $C$ to quasi-categories $N(C)$ using the [[homotopy coherent nerve]} functor, homotopy limits should precisely corespond to quasi-categorical limits. That this is indeed the case is asserted by the following statements.
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $C$ and $J$ be [[Kan complex]]-[[enriched categories]] and let $F : J \to C$ be an [[sSet]]-[[enriched functor]]. 
+
+Then a [[cocone]] $\{\eta_i : F(i) \to c\}_{i \in J}$ under $F$ exhibits the object $c \in C$ as a [[homotopy colimit]] (in the sense discussed in detail at [[homotopy Kan extension]]) precisely if the induced morphism of quasi-categories
+
+$$
+  \bar {N(F)} : N(J)^{\triangleright} \to N(C) 
+$$
+
+is a quasi-categorical colimit diagram in $N(C)$. 
+
+=--
+
+Here $N$ is the [[homotopy coherent nerve]], $N(J)^{\triangleright}$ the [[join of quasi-categories]] with the point, $N(F)$ the image of the simplicial functor $F$ under the homotopy coherent nerve and $\bar{N(F)}$ its extension to the join determined by the cocone maps $\eta$.
+
++-- {: .proof}
+###### Proof
+
+
+This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]]
+
+A central ingredient in the proof is the fact, discused at [[(∞,1)-category of (∞,1)-functors]] and at [[model structure on functors]], that [[sSet]]-[[enriched functor]]s do model [[(∞,1)-functor]]s, in that for $A$ a [[combinatorial simplicial model category]], $S$ a [[quasi-category]] and $\tau(S)$ the corresponding $sSet$-category under the left adjoint of the [[homotopy coherent nerve]], we have an [[equivalence of quasi-categories]]
+
+$$
+  N(([C,A]_{proj})^\circ)
+  \simeq
+  Func(S, N(A^\circ))
+$$
+
+and the same is trued for $A$ itself replaced by a [[chunk of a model category|chunk]] $U \subset A$.
+
+With this and the discussion at [[homotopy Kan extension]], we find that the cocone components $\eta$ induce for each $a \in [C,sSet]$ a [[homotopy equivalence]]
+
+$$
+  C(c,a) \stackrel{}{\to}
+  [J^{op}, C](j F, const a)
+$$
+
+which is hence equivalently an equivalence of the corresponding [[hom-object in a quasi-category|quasi-categorical hom-objects]]. The claim follows then from the above discussion of characterization of (co)limits in terms of $\infty$-hom adjunctions.
+
+
+
+=--
+
+
+
++-- {: .un_cor}
+###### Corollary
+
+The quasi-category $N(A^\circ)$ [[presentable (∞,1)-category|presented]] by a [[combinatorial simplicial model category]] $A$ has all small quasi-categorical limits and colimits.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, 4.2.4.8]]. 
+
+It follows from the fact that $A$ has 
+(pretty much by definition of [[model category]] and [[combinatorial model category]]) 
+all [[homotopy limit]]s and [[homotopy colimit]]s (in fact all [[homotopy Kan extension]]s)
+by the above proposition.
+
+=--
+
+Since $(\infty,1)$-categories equivalent to those of the form $N(A^\circ)$ for $A$ a [[combinatorial simplicial model category]] are precisely the [[locally presentable (∞,1)-categories]], it follows from this in particular that every locally presentable $(\infty,1)$-category has all limits and colimits.
+
 
 ### Limits and colimits with values in $\infty Grpd$ 
 
@@ -244,25 +322,6 @@ The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]
 If instead of [[∞-Grpd]] the target is the [[(∞,1)-category of (∞,1)-categories]] then the latter statement is true with the $(\infty,1)$-category of all sections replaced by [[(∞,1)-category of cartesian sections]].
 
 
-### Relation to homotopy limits 
-
-In the context of [[model categories]] and in particular for [[simplicial model categories]] there is the notion of [[homotopy limit]] and [[homotopy colimit]]. These notions are models for quasi-categorical limits and colimits.
-
-See [[homotopy Kan extension]] for details.
-
-+-- {: .un_prop}
-###### Proposition
-
-For $C$ and $A$ [[Kan complex]]-[[enriched categories]] and $F \in [C,A]$ an [[sSet]]-[[enriched functor]], a morphism $\eta : F \to const_q$ exhibits $q \in A$ as a homotopy colimit in $A$ in sense described at [[homotopy Kan extension]] precisely if for $N(f) : N(C) \to N(A)$ the corresponding morphism of [[quasi-categories]] under the [[homotopy coherent nerve]] and $N(f)^\triangleright : N(C)^\triangleright \to N(A)$ the extension to cones given by $\eta$, $N(f)^{\triangleright}$ is a quasi-categorical colimit diagram in the above sense.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]].
-
-=--
 
 
 
