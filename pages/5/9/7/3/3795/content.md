@@ -12,9 +12,11 @@ A more general setup is given by [[Dominic Joyce]] and by Kontsevich and Soibelm
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315)
 
-* S. Cecotti, C. Vafa, _BPS wall crossing and topological strings_, 
+* S. Cecotti, [[Cumrun Vafa|C. Vafa]], _[[BPS state|BPS]] wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
 
-* Davide Gaiotto, Gregory W. Moore, Andrew Neitzke, _Wall-crossing, [[Hitchin system]]s, and the [[WKB approximation]], [arxiv/0907.3987](http://arxiv.org/abs/0907.3987)
+* Davide Gaiotto, [[Greg Moore|Gregory W. Moore]], Andrew Neitzke, _[[wall crossing|Wall-crossing]], [[Hitchin system]]s, and the [[WKB approximation]], [arxiv/0907.3987](http://arxiv.org/abs/0907.3987)
 
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
+
+[[!redirects Donaldson-Thomas invariants]]
