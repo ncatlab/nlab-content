@@ -7,7 +7,7 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Pierre Cartier]], [[Guido Castelnuovo]], [[Denis-Charles Cisinski]]
 
-* [[Pierre Deligne]], [[Vladimir Drinfeld]], [[Nikolai Durov]]
+* [[Pierre Deligne]], [[Duiliu-Emanuel Diaconescu]], [[Vladimir Drinfeld]], [[Nikolai Durov]]
 
 * [[Federigo Enriquez]]
 
@@ -15,13 +15,13 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
  
 * [[Ofer Gabber]], [[Dennis Gaitsgory]], [[Victor Ginzburg]], [[Alexander Goncharov]], [[Phillip Griffiths]], [[Alexandre Grothendieck]]
 
-* [[Joseph Harris]], [[Robin Hartshorne]], [[David Hilbert]], [[Heisuke Hironaka]], [[André Hirschowitz]], [[Friedrich Hirzebruch]], [[Nigel Hitchin]], [[William Hodge]]
+* [[Joseph Harris]], [[Robin Hartshorne]], [[David Hilbert]], [[Heisuke Hironaka]], [[André Hirschowitz]], [[Friedrich Hirzebruch]], [[Nigel Hitchin]], [[William Hodge]], [[Daniel Huybrechts]]
 
 * [[Luc Illusie]]
 
 * [[Jacobi|Charles Gustave Jacob Jacobi]],[[Dominic Joyce]]
 
-* [[Dmitry Kaledin]], [[Mikhail Kapranov]], [[Masaki Kashiwara]], [[Kazuya Kato]] ([wikipedia](http://en.wikipedia.org/wiki/Kazuya_Kato)), [[Ludmil Katzarkov]], [[Kiran Kedlaya]], [[Alexander Kuznetsov]], [[Felix Klein]],[[Steven Kleiman]], [[David Knudson]], [[Kunihiko Kodaira]], [[Maxim Kontsevich]]
+* [[Dmitry Kaledin]], [[Mikhail Kapranov]], [[Anton Kapustin]], [[Masaki Kashiwara]], [[Kazuya Kato]] ([wikipedia](http://en.wikipedia.org/wiki/Kazuya_Kato)), [[Ludmil Katzarkov]], [[Kiran Kedlaya]], [[Bernhard Keller]], [[Alexander Kuznetsov]], [[Felix Klein]],[[Steven Kleiman]], [[David Knudson]], [[Kunihiko Kodaira]], [[Maxim Kontsevich]]
 
 * [[Laurent Lafforgue]], [[Serge Lang]], [[Robert Langlands]], [[Gérard Laumon]], [[Solomon Lefschetz]], [[Marc Levine]], [[Joseph Lipman]],[[Valery Lunts]], [[Jacob Lurie]]
 
@@ -33,9 +33,9 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Rahul Pandharipande]], [[Tony Pantev]], [[Alexander Polishchuk]]
 
-* [[Michael Rapoport]], [[Bernhard Riemann]] [french wikipedia](http://fr.wikipedia.org/wiki/Bernhard_Riemann), [[Alexander Rosenberg]], [[Markus Rost]]
+* [[Michael Rapoport]], [[Bernhard Riemann]], [[Alexander Rosenberg]], [[Markus Rost]]
 
-* [[Mikio Sato]], [[Jean-Pierre Serre]], [[Francesco Severi]] [wikipedia](http://it.wikipedia.org/wiki/Francesco_Severi), [[Igor Shafarevich]], [[Gorō Shimura]]
+* [[Mikio Sato]], [[Corrado Segre]], [[Jean-Pierre Serre]], [[Francesco Severi]] [wikipedia](http://it.wikipedia.org/wiki/Francesco_Severi), [[Igor Shafarevich]], [[Gorō Shimura]]
 
 * [[Vyacheslav Shokurov]] (Vyacheslav Vladimirovich), [[Carlos Simpson]], [[Christophe Soulé]]  [webpage](http://www.ihes.fr/~soule/), [[Andrei Suslin]]
 
