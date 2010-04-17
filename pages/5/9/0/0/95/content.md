@@ -68,7 +68,7 @@ This may explain why the link between Yetter's invariant and groupoid cardinalit
 
 #References#
 
-* [[John Baez]], [[Alexander Hoffnung]], and [[Christopher Walker]], _Groupoidification Made Easy_ ([web](http://math.ucr.edu/home/baez/groupoidification.pdf), [blog](http://golem.ph.utexas.edu/category/2008/12/groupoidification_made_easy.html))
+* [[John Baez]], [[Alexander Hoffnung]], [[Christopher Walker]], _Groupoidification Made Easy_ (web [pdf](http://math.ucr.edu/home/baez/groupoidification.pdf), [blog](http://golem.ph.utexas.edu/category/2008/12/groupoidification_made_easy.html)); _Higher-dimensional algebra VII: Groupoidification_, [arxiv/0908.4305](http://arxiv.org/abs/0908.4305)
 
 * John C. Baez, [[James Dolan]], _From Finite Sets to Feynman Diagrams_ ([arXiv](http://arxiv.org/abs/math.QA/0004133))
 
