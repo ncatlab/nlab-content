@@ -2,6 +2,9 @@
 
 * [website](http://math.unice.fr/~carlos/)
 
+* _Systems of Hodge bundles and uniformization_, Ph.D. Thesis, Harvard Univ., Cambridge, MA, 1987; J. Amer. Math. Soc. 1 (1988), no. 4, 867--918; [MR90e:58026](http://www.ams.org/mathscinet-getitem?mr=90e:58026), [doi](http://dx.doi.org/10.2307/1990994)
+
+* _[[Higgs bundles]] and [[local systems]]_, Publ. Math&#233;matiques de l'IH&#201;S __75__ (1992), p. 5-95, [numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0), [MR94d:32027](http://www.ams.org/mathscinet-getitem?mr=94d:32027)
 
 #Contents#
 * automatic toc goes here
@@ -24,6 +27,8 @@
 * [[nonabelian cohomology]]
 
 * [[infinity-stack]]
+
+* [[Higgs bundle]]
 
 ## Simpson on descent
 
@@ -77,7 +82,7 @@ The theory of "[[derived algebraic geometry]]" originated by Kontsevich, Kaprano
 in a foundational framework which relies on [[higher category theory|higher categories]] and [[infinity-stack|higher
 stacks]] for glueing. In the future derived geometry should be a key ingredient in Hodge theory for 
 higher [[nonabelian cohomology]], to be compared with
-Katzarkov, Pantev and [[Bertrand Toen|Toen]]'s Hodge theory on the schematic homotopy
+[[Katzarkov]], Pantev and [[Bertrand Toen|Toen]]'s [[Hodge theory]] on the schematic homotopy
 type. The latter is a higher categorical version of Grothendieck's reinterpretation
 of [[Galois theory]], forseen in "[[Pursuing Stacks|La poursuite des champs]]", or really
 its Tannakian counterpart. Grothendieck also mentionned, somewhat cryptically, a potential application to stratified spaces. The respective theses of
