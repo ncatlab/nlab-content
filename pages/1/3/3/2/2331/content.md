@@ -191,9 +191,9 @@ a very setup for deformation theory over any [[(∞,1)-category]] is described. 
 * [[Alexander Grothendieck]], _Cat&#233;gories cofibr&#233;es additives et complexe cotangent relatif_, Lecture Notes in Mathematics 79
 
 * E. Sernesi, _Deformations of algebraic schemes_ (monograph)
-Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e:14011)
+Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. [MR2008e:14011](http://www.ams.org/mathscinet-getitem?mr=2008e:14011)
 
-* Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, _Deformation theory of objects in homotopy and derived categories_ 
+* Alexander I. Efimov, [[Valery Lunts|Valery A. Lunts]], [[Dmitri Orlov|Dmitri O. Orlov]], _Deformation theory of objects in homotopy and derived categories_ 
    * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
    * _II: pro-representability of the deformation functor_ [arXiv:math/0702839](http://arxiv.org/abs/math/0702839);
    * _III: abelian categories_ [arXiv:math/0702840](http://arxiv.org/abs/math/0702840)
@@ -202,18 +202,18 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e
 
 * C. Doran, [Deformation theory: a historical annotated bibliography](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)
 
-* Kai Behrend, B. Fantechi, _The intrinsic normal cone_, Invent. Math. __128__ (1997), no. 1, 45--88, MR1437495 (98e:14022) [arXiv:alg-geom/9601010](http://arxiv.org/abs/alg-geom/9601010)
+* [[Kai Behrend]], [[Barbara Fantechi|B. Fantechi]], _The intrinsic normal cone_, Invent. Math. __128__ (1997), no. 1, 45--88, [MR98e:14022](http://www.ams.org/mathscinet-getitem?mr=98e:14022) [arXiv:alg-geom/9601010](http://arxiv.org/abs/alg-geom/9601010)
 
-* B. Fantechi, M. Manetti, _Obstruction calculus for functors of Artin rings I_, J. Algebra __202__ (1998), no. 2, 541--576, MR1617687 (99f:14004).
+* B. Fantechi, M. Manetti, _Obstruction calculus for functors of Artin rings I_, J. Algebra __202__ (1998), no. 2, 541--576, [MR99f:14004](http://www.ams.org/mathscinet-getitem?mr=99f:14004).
 
-* Martin C. Olsson, _Deformation theory of representable morphisms of algebraic stacks_, Mathematische Zeitschrift
-__253__, n. 1, 25--62 (2006) [doi:10.1007/s00209-005-0875-9](http://dx.doi.org/10.1007/s00209-005-0875-9)
+* [[Martin C. Olsson]], _Deformation theory of representable morphisms of algebraic stacks_, Mathematische Zeitschrift
+__253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9); _Tangent spaces and obstructon theories_, lectures, [MSRISummer07.pdf](http://math.berkeley.edu/~molsson/MSRISummer07.pdf)
 
 * S. Merkulov, B. Vallette, _Deformation theory of properads_, [arXiv:0707.0889](http://arxiv.org/abs/0707.0889)
 
 * V. Hinich, _DG coalgebras as formal stacks_, J. Pure Appl. Algebra __162__ (2001), no. 2-3, 209--250 (<a href="http://dx.doi.org/10.1016/S0022-4049(00)00121-3">doi</a>), [math.AG/9812034](http://arxiv.org/abs/math.AG/9812034).
 
-* Vladimir Hinich,  _Formal deformations of sheaves of algebras_, video of a talk at MSRI 2002, [link](http://www.msri.org/publications/ln/msri/2002/hodgetheory/hinich/1/index.html)  
+* [[Vladimir Hinich]],  _Formal deformations of sheaves of algebras_, video of a talk at MSRI 2002, [link](http://www.msri.org/publications/ln/msri/2002/hodgetheory/hinich/1/index.html)  
 
 * W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
 
@@ -223,9 +223,9 @@ __253__, n. 1, 25--62 (2006) [doi:10.1007/s00209-005-0875-9](http://dx.doi.org/1
 
 * M. Artin, _Versal deformations and Algebraic stacks_, Invent. Math. 1974
 
-* Kodaira K., Nirenberg L., Spencer D.C. _On the existence of deformation of complex analytic structures_, Ann. Math. 68, 450-459 (1958). 
+* K. Kodaira, L. Nirenberg, D. C. Spencer, _On the existence of deformation of complex analytic structures_, Ann. Math. __68__, 450-459 (1958). 
 
-* Kodaira K., Spencer D.C. _On deformation of complex analytic structures_, I II, Ann. Math. 67, 328-466 (1958). 
+* K. Kodaira, D. C. Spencer, _On deformation of complex analytic structures_, I II, Ann. Math. __67__, 328-466 (1958). 
 
 * M. Schlessinger, _Functors of Artin rings_, Trans. AMS 130, 208-222 (1968) -- this was a groundbreaking article at the time, still much cited. 
 
