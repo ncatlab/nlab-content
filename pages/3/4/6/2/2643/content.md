@@ -1,4 +1,4 @@
-A _rigged Hilbert space_ is a formal device which makes it possible to treat spectral theory of unbounded normal operators on Hilbert space as if it were about actual eigenvalues and eigenvectors. It may be used to make rigorous the idea of eigenstates for observables as they commonly arise in quantum mechanics. 
+A _rigged Hilbert space_ is a formal device which makes it possible to treat spectral theory of normal [[unbounded operator]]s on Hilbert space as if it were about actual eigenvalues and eigenvectors. It may be used to make rigorous the idea of eigenstates for observables as they commonly arise in quantum mechanics. 
 
 ## Example 
 
