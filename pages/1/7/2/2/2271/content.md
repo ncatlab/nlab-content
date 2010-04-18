@@ -11,6 +11,7 @@ category: people
 
 [[!redirects Maxim Kontsevich]]
 [[!redirects Maksim Kontsevich]]
+[[!redirects M. Kontsevich]]
 [[!redirects Maksim Koncevič]]
 [[!redirects Максим Концевич]]
 [[!redirects Kontsevich]]
