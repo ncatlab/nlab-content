@@ -5,4 +5,6 @@
 
 * [[nonabelian Hodge theory]]
 
+[[!redirects Katzarkov]]
+
 category: people
