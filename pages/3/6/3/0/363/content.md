@@ -16,14 +16,29 @@ A **$Gray$-category** is a category [[enriched category|enriched]] over the [[sy
 
 #Coherence theorem#
 
-Gordon, Power, and Street proved that every [[tricategory]] (that is, weak 3-category) is equivalent to a $Gray$-category.  Not every tricategory is equivalent to a fully strict 3-category; any doubly-degenerate [[braided monoidal category]] which is not [[symmetric monoidal category|symmetric]] is an example.  So this is "the best one can do" in one sense, although there are other incomparable paths one can take, such as [[Simpson's conjecture|weakening units]] but keeping interchange strict.
+Gordon, Power, and Street proved that every [[tricategory]] (that is, weak 3-category) is equivalent to a $Gray$-category.  Not every tricategory is equivalent to a fully [[strict 3-category]]; any doubly-degenerate [[braided monoidal category]] which is not [[symmetric monoidal category|symmetric]] is an example.  So this is "the best one can do" in one sense, although there are other incomparable paths one can take, such as [[Simpson's conjecture|weakening units]] but keeping interchange strict.
 
-The inclusion of $Gray$-categories into tricategories is non-canonical -- there is a left and right-hand version (from a remark in Example 9.3.9 of Leinster's book cited below). 
+The inclusion of $Gray$-categories into tricategories is not uniquely determined -- there is a left and right-hand version (from a remark in Example 9.3.9 of Leinster's book cited below).  However, the two possible ways are canonically equivalent as tricategories.
 
 
 #$Gray$-groupoids#
 
 A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
+
+
+# Examples
+
+* The prototypical Gray-category is [[Gray]], which consists of [[strict 2-categories]], strict 2-functors, pseudonatural transformations, and modifications.
+
+* A Gray-category with one object is called a Gray-monoid, and is a semi-strict version of a [[monoidal bicategory]].
+
+* A doubly-degenerate Gray-category is the same as a category with two [[monoidal category|monoidal structures]] satisfying an [[exchange law]].  This is essentially the same as a [[braided monoidal category]].
+
+* Since any tricategory is equivalent to a Gray-category, one can obtain examples of Gray-categories in this way.  For example, the tricategory [[Bicat]] of bicategories, pseudofunctors, pseudonatural transformations, and modifications is equivalent to some Gray-category.
+
+  It is important to note that Bicat is *not* equivalent to Gray, due to the absence of pseudofunctors in the latter.  It is equivalent to the sub-Gray-category of Gray determined by the "flexible" or "cofibrant" 2-categories, however, since between such 2-categories any pseudofunctor is equivalent to a strict one.
+
+* Since pseudofunctors between strict 2-categories compose strictly associatively, and between any 2-categories $A$ and $B$ there is a strict 2-category $Ps(A,B)$ of pseudofunctors, pseudonatural transformations, and modifications, one might hope that there is a Gray-category consisting of strict 2-categories, *pseudofunctors*, pseudonatural transformations, and modifications, despite the fact that the prototypical example $Gray$ contains only strict 2-functors.  However, this is false, because in a Gray-category the [[whiskering]] of 2-cells by a 1-cell is strictly functorial relative to composition of 2-cells along 1-cells, but this fails for whiskering of pseudonaturals by a pseudofunctor.
 
 
 #References#
@@ -37,3 +52,4 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 [[!redirects Gray category]]
 [[!redirects Gray-categories]]
+[[!redirects Gray categories]]
