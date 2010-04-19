@@ -21,6 +21,19 @@ The default definition of the domain of a given operator $T$ is simply $D_T := \
 
 **caution with composition:** if one multiplies two unbounded operators $T$ and $S$, it may happen that $D_T \cap D_S = \{0\}$. If we insist that all our unbounded operators are densly defined, we need as an additional assumption that $D_T \cap D_S$ is dense to make sense of the product $TS$.
 
+## the Hellinger-Toeplitz theorem
+
+* theorem: Let $A$ be an everywhere defined linear operator on a Hilbert space $\mathcal{H}$ that is symmetric. Then A is bounded.
+
+For the definition of symmetric see below.
+
+The Hellinger-Toeplitz theorem is a no-go theorem for [[quantum mechanics]]. Since it is known that operators essential for [[quantum mechanics]] are both symmetric and unbounded, we are led to conclude that they cannot be everywhere defined. This means that the problems that accompany only densly defined operators cannot be avoided.
+
+###reference
+This is a corrolary to the closed graph theorem III.2 in the book
+
+* Reed, M.; Simon, B.: _Methods of modern mathematical physics_. Volume 1, Functional Analysis
+
 #closedness and selfadjointness
 
 ##closedness
