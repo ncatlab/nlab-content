@@ -39,7 +39,7 @@ Examples of these are:
 
 * the [Hahn-Banach Theorem] (http://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem)
 
-* the [Open Mapping](http://en.wikipedia.org/wiki/Open_mapping_theorem_%28functional_analysis%29) and Closed Graph Theorems
+* the [Open Mapping](http://en.wikipedia.org/wiki/Open_mapping_theorem_%28functional_analysis%29) and [[closed graph theorem]]s
 
 A central r&#244;le in the whole theory plays **duality**, that is the study of [[locally convex spaces]] and their duals. A prominent example is the definition of certain concepts by duality in the theory of [[Schwartz distribution]]s.
 
