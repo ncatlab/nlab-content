@@ -81,14 +81,17 @@ Then a **morphism of sites** $f : X \to Y$ is
     the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphisms]] to local isomorphisms.
 
 
-So for $f : X \to Y$ a morphisms of sites, coming from a functor $f^t : S_Y \to S_X$, the [[direct image]] functor is the functor may be denoted
-$$
-  f_* : Sh(X) \to Sh(Y)
-$$
-and the [[inverse image]] functor 
+For $f : X \to Y$ a morphisms of sites, coming from a functor $f^t : S_Y \to S_X$, we have the induced [[inverse image]] functor 
+
 $$
   f^{*} : Sh(Y) \to Sh(X)
   \,.
+$$
+
+as well as the[[direct image]] functor 
+
+$$
+  f_* : Sh(X) \to Sh(Y)
 $$
 
 
@@ -100,7 +103,7 @@ $$
   (f_* \dashv f^*) : Sh(X) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} Sh(Y)
 $$
 
-where $f^*$ preserves finite limit.
+where $f^*$ preserves finite limits.
 
 
 
