@@ -154,7 +154,7 @@ of sheaves has the following properties:
 ###### Proof
 
 The left-adjointness is obtained by the following computation, for any
-two $F \in Sh(X)$ and $G \in Sh(Y)$ and using the above facts as well as the fact that [[sheafification]] $\bar {(-)} : PSh(X) \to Sh(X)$ is [[left adjoint]] to the inclusion $Sh(X) \hookrightarriw PSh(X)$:
+two $F \in Sh(X)$ and $G \in Sh(Y)$ and using the above facts as well as the fact that [[sheafification]] $\bar {(-)} : PSh(X) \to Sh(X)$ is [[left adjoint]] to the inclusion $Sh(X) \hookrightarrow PSh(X)$:
 
 $$
   \begin{aligned}
