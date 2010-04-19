@@ -2,13 +2,13 @@ This is a page dedicated to helping all those who're struggling with understandi
 
 * B. Bakalov & A. Kirillov, _Lectures on tensor categories and modular functors_ AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
-Type up your questions and fire away! You can also alert someone you know can answer your question by email, and ask them to respond here (if they care to), so that others may also benefit. 
+The procedure is: go to the [nForum Help me! I'm trying to understand Bakalov and Kirillov](http://ncatlab.org/nlab/show/Help%20me!%20I%27m%20trying%20to%20understand%20Bakalov%20and%20Kirillov) page, or to [Math Overflow](http://mathoverflow.net/). Type in your question and get someone to answer it. Then put down the answer here in final form for future generations. 
 
 ### Errata
 
 * pg 112, bottom of proof of Theorem 5.3.8, "the Dehn twist axiom MF7" should read MS7, I believe. [[Bruce Bartlett]]
 
-### How does the "s" map work?
+### How does the "s" map work? ([nForum link](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1099&page=1)) 
 
 [[Bruce Bartlett]]: I don't understand the $s$ map in Example 5.1.11 in the online version of the book. It's supposed to be the automorphism
  \[
@@ -26,6 +26,8 @@ But the map $s_t$ doesn't seem to work if there is a boundary circle involved. B
 
 So how does the map $s$ work?
 
-See also the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1099&page=1).
+Answer: [[Domenico Fiorenza]] explained it as follows: consider the torus with one boundary circle as a square made of elastic material with with opposite sides identified, with an open disc missing in the center. Then turn the square through one quarter of a rotation, while keeping the boundary circle fixed. That's the $s$ map. 
+
+If you picture it at the level of the plane (i.e. before we mod $R^2$ out by $Z^2$), then you need to imagine a whole bunch of circles ("knobs") located at the integer lattice points of the plane. Get a whole bunch of friends (one for each knob), and then count down "3,2,1,turn!" and turn the knobs through a quarter revolution clockwise (this distorts the elastic material from which the plane is made). Then rotate the whole thing rigidly one quarter of a revolution counterclockwise. The resultant map is the $s$-map at the level of the plane. 
 
 category: reference
