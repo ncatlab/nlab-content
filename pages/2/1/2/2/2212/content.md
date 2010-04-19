@@ -34,6 +34,16 @@ As cosimplcial algebras are [[duality|dual]] to simplicial spaces, each simplici
 
 ## References ##
 
+The model category structure on cosimplicial algebras is discussed in detail in section 2.1 of
+
+* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219)) .
+
+
+The [[Quillen equivalence]] between cosimplicial algebras and cochain dg-algebras is discussed in
+
+* Castiglioni, Cortinas, _Cosimplicial versus dg-rings_ ([arXiv](http://arxiv.org/abs/math/0306289))
+
+
 A bit about cosimplicial algebras is in [section 7](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf#page=63) of
 
 * Jos&#233; Burgos Gil, _The regulators of Beilinson and Borel_ ([pdf](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf))
