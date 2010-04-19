@@ -1,12 +1,14 @@
 Given a [[manifold]] $X$, the top exterior power $\Lambda^{dim X} T^* X$ is a line bundle called the __determinant line bundle__ on $X$. Even more important is the case of when $X$ is replaced by an appropriate moduli space of [[connection]]s, instantons, Riemann surfaces and so on. These determinant line bundles are important in the study of [[quantum anomaly|quantum anomalies]], in the formulation of cohomological quantum field theories, study of some invariants of differential operators like $\eta$-invariant and so on. 
 
-* [[Daniel Quillen|D.G. Quillen]], _Determinants of Cauchy-Riemann operators over a Riemann surface_, Funkcionalnii Analiz i ego Prilozhenija __19__ (1985), 37-41.
+* [[Daniel Quillen|D.G. Quillen]], _Determinants of Cauchy-Riemann operators over a Riemann surface_, Funkcionalnii Analiz i ego Prilozhenija __19__ (1985), 37-41, ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1334&volume=19&year=1985&issue=1&fpage=37&what=fullt&option_lang=eng) of Russian version).
 
 * M. F. Atiyah, I. M. Singer, _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([pdf](http://www.pnas.org/content/81/8/2597.full.pdf) at pnas site)
 
 * [[Dan Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
 
 * J.-M. Bismut, D.S. Freed, _The analysis of elliptic families.I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__, 1 (1986), 159-176, [euclid](http://projecteuclid.org/euclid.cmp/1104115586), _II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__, 1 (1986), 103-163. [euclid](http://projecteuclid.org/euclid.cmp/1104115934)
+
+* J-M. Bismut, _Quillen metrics and determinant bundles_, 2 conference lectures in honour of A. N. Tyurin, video at [link](http://www.mathnet.ru/php/presentation.phtml?presentid=62&option_lang=eng)
 
 * Kenro Furutani, _On the Quillen determinant_, J. Geom. Phys. __49__, 4, 366-375, [math.DG/0309127](http://arxiv.org/abs/math/0309127), [doi](http://dx.doi.org/10.1016/j.geomphys.2003.07.001)
 
