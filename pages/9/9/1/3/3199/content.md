@@ -32,4 +32,8 @@ The [[Schroedinger equation]] without potential term is similar to the heat equa
 
 * [wikipedia](http://en.wikipedia.org/wiki/Heat_kernel)
 
-* H. Blaine Lawson, Jr. and Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press 1989.
+* H. Blaine Lawson, Jr. , Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press 1989.
+
+* M. F. [[Atiyah]], R. Bott, V. K. Patodi, On the heat equation and the index theorem, Invent. Math. 19 (1973), 279&#8211;330.
+
+* N. Berline, [[Ezra Getzler]], M. Vergne, _Heat kernels and Dirac operators_, Grundlehren __298__, Springer 1992, "Text Edition" 2003. 
