@@ -5,3 +5,7 @@ Sometimes one considers the Weyl algebras over an arbitrary $k$-algebra $R$, inc
 In [[quantum physics]], one often studies Weyl algebras over the [[complex numbers]]; the usual notation there is $p_j$ for $- \mathrm{i} \partial_j$ (where $\mathrm{i}$ is the imaginary unit).
 
 Please distinguish from [[Weil algebra]].  
+
+* S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts __33__, Cambridge University Press 1995. xii+207 pp.
+
+* [[eom]]: J.-E. Bj&#246;rk, [Weyl algebra](http://eom.springer.de/w/w097670.htm)
