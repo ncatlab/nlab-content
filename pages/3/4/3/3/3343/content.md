@@ -1,6 +1,21 @@
-**Branislav Jur&#269;o**
+**Branislav Jur&#269;o** is a German mathematical physicist ([[group]] theory, [[quantum groups]], noncommutative gauge theories, [[integrable systems]], [[nonabelian cocycle]]s in [[string theory]]) and category theorist ([[gerbes]], classifying 2-spaces and topoi, [[higher gauge theory|higher gauge theories]], [[twisted K-theory]]), born in former Czechoslovak Republik. 
 
 * [website](http://sites.google.com/site/branislavjurco/)
+
+* some articles listed at [spires](http://www.slac.stanford.edu/spires/find/hep/www?rawcmd=FIND+AU+JURCO%2C+b&FORMAT=www&SEQUENCE=)
+
+Books:
+
+* Dale Husem&#246;ller, [[Michael Joachim]], Branislav Jur&#269;o, Martin  Schottenloher, _Basic bundle theory and K-cohomology invariants_, Springer Lecture Notes in Physics __726__, 2008, [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf)
+
+* nCafe discussion on above book: [blog](http://golem.ph.utexas.edu/category/2007/12/basic_bundle_theory_and_kcohom.html)
+
+* in preparation, editing work with [[Hisham Sati]] and [[Urs Schreiber]]: [[Schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]
+
+Some articles mentioned in $n$lab or $n$cafe:
+
+* _Classical Yang-Baxter equations and quantum integrable systems ([[Gaudin models]])_, pp. 1616-6361 in Springer Lect. Notes in Physics __370__ (1990) [doi](http://dx.doi.org/10.1007/3-540-53503-9)
+
 
 category: people
 
