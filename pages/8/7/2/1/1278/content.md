@@ -54,7 +54,7 @@ where
 
 There are variations of this definition, with some technical differences in the assumptions. See the description below.
 
-## Examples
+### Examples
 
 * Differential integral cohomology $\bar H^\bullet(-,\mathbb{Z})$ is modeled by 
 
@@ -87,7 +87,50 @@ For $c \in \bar \Gamma^\bullet(X)$ a differentia cocycle representing a gauge, o
 * its image $cl(c)$ in non-differential cohomology is the "topological twist" of the [[gauge theory|gauge field]]. In special cases this can be identified with [[magnetic charge]].
 
 
-## Differential cohomology following Bunke--Schick
+### Detailed construction following Hopkins-Singer
+
+We survey some aspects of the constructions in
+
+* [[ike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
+
+
+**Definition
+
+For 
+
+* $X$ be a [[topological space]] and 
+
+* $\iota \in Z^n(X,\mathbb{R})$ a [[cocycle]] on $X$ for real-valued [[singular cohomology]] on $X$,
+
+a **differential function** on a smooth [[manifold]] $S$ with values in $(X,\iota)$ is a triple $(c,h,\omega)$ with
+
+* $c : S \to X$ a continuous map;
+
+* $h \in C^{n-1}(S,\mathbb{R})$ a cochain in real cohomology on $S$;
+
+* $\omega \in \Omega^n(S)$ a smooth [[differential form]] on $S$;
+
+such that in the abelian group $Z^n(S,\mathbb{R})$ the equation
+
+$$
+  \omega = \iota^* c + \delta h
+$$
+
+holds, where $\omega$ is here regarded as a singular cochain (that sends a chain to the integral of $\omega$ over it), and where $\delta$ denotes the coboundary operator, i.e. the [[Moore complex]] differential of the [[singular simplicial complex]].
+
+In words this is: a continuous map to the topological space together with a _smooth_ refinement of the pullback of the chosen singular cochain.
+
+The **differential function complex** or [[infinity-groupoid]] $(X,\iota)^S$ of all differential functions $S \to (X,\iota)$ is the [[simplicial set]] whose $k$-cells are differential functions
+
+$$
+  S \times \Delta^k_{\Diff} \to (X,\iota)
+  \,.
+$$
+
+
+
+
+### Detailed construction following Bunke--Schick
 
 The following theory of differential cohomology
 (also called **smooth cohomology**) is developed and used
