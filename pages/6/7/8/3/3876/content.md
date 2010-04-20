@@ -1,0 +1,3 @@
+A [[differential operator|differential]] or [[pseudodifferential operator]] is **elliptic** if its [[principal symbol]] is invertible. 
+
+* [eom](http://eom.springer.de/e/e035500.htm)
