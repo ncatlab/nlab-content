@@ -158,6 +158,8 @@ A very neat Tannaka theorem for stacks is proved in
 
 * Moshe Kamensky, _Model theory and the Tannakian formalism_, [arXiv:0908.0604](http://arxiv.org/abs/0908.0604). 
 
+* H. Fukuyama, I. Iwanari, _Monoidal infinity category of complexes from Tannakian viewpoint_, [arxiv/1004.3087](http://arxiv.org/abs/1004.3087)
+
 * remark of [Ben-Zvi on Tannaka reconstruction for monoidal categories](http://mathoverflow.net/questions/3446/tannakian-formalism/3467#3467)
 
 
