@@ -87,7 +87,7 @@ For $c \in \bar \Gamma^\bullet(X)$ a differentia cocycle representing a gauge, o
 * its image $cl(c)$ in non-differential cohomology is the "topological twist" of the [[gauge theory|gauge field]]. In special cases this can be identified with [[magnetic charge]].
 
 
-### Detailed construction following Hopkins-Singer
+### Detailed construction following Hopkins-Singer {#HopSin}
 
 We survey some aspects of the constructions in
 
@@ -114,7 +114,7 @@ a **differential function** on a smooth [[manifold]] $S$ with values in $(X,\iot
 such that in the abelian group $Z^n(S,\mathbb{R})$ the equation
 
 $$
-  \omega = \iota^* c + \delta h
+  \omega = c^*\iota + \delta h
 $$
 
 holds, where $\omega$ is here regarded as a singular cochain (that sends a chain to the integral of $\omega$ over it), and where $\delta$ denotes the coboundary operator, i.e. the [[Moore complex]] differential of the [[singular simplicial complex]].
@@ -153,8 +153,25 @@ $$
 
 #### Examples
 
+##### Line bundles with connection
+
+
+Let $X = \mathcal{B} U(1) \simeq K(\mathbb{Z},2)$ be the [[Eilenberg-MacLane space]] that is the [[classifying space]] for $U(1)$-[[principal bundle]]s. It carries the canonical [[cocycle]] $\iota := Id : \mathcal{B}U(1) \to \mathcal{B}U(1) \simeq K(\mathbb{Z},2)$ representing in $H^2(X,\mathbb{Z})$ the class of the universal complex [[line bundle]] $L \to X$ on $X$.
+
+Accordingly, for $c : S\to \mathcal{B}U(1)$ a continuous map, we have the corresponding line bundle $c^* L$ on $S$. 
+
+One checks (...details...Example 2.7 in HopSin) that a refinement of $c$ to a differential function $(c,\omega,h)$ corresponds to equipping $c^* L$ with a [[connection on a bundle|smooth connection]].
+
+Now consider $((c,\omega,h) \to (c',\omega', h')) \in filt_0  (\mathcal{B}U(1),Id)^S$ a morphism between two such $(\mathcal{B}U(1),Id)$-differential functions. By definition this is now a $U(1)$-principal bundle $\hat L$ with connection on $S \times \Delta^i_{Diff}$, whose curvature form $\hat \omega \in \Omega^2(S \times \Delta^1_{Diff})$ is of the form $g \cdot \tilde \omega$, where $\tilde \omega$ is a 2-form on $S$ and $g$ is a smooth function on $\Delta^1_{Diff}$, both pulled back to $S \times \Delta^1_{Diff}$ and multiplied there.
+
+But since $\hat \omega$ is necessarily _closed_ it follows with $d (g \wedge \tilde \omega) = d t \frac{\partial g}{\partial t} \wedge \tilde \omega + g \wedge d_{S} \tilde \omega$ that $g$ is actually constant. 
+
+This means that that the parallel transoport of the connection $\hat \nabla$ on $S \times \Delta^1_{Diff}$ induces a insomorphism between the two line bundles on $S$ over the endpoints of $S \times \Delta^1_{Diff}$ that respects the connections. 
 
 ...
+
+##### Differential K-cocycles
+
 
 ### Detailed construction following Bunke--Schick
 
