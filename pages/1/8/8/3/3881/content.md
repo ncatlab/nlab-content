@@ -5,4 +5,7 @@
 
 * [[homotopy BV-algebra]]
 
+
 category: people
+
+[[!redirects Bruno Valette]]
