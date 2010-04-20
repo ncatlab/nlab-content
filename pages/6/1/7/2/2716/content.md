@@ -35,7 +35,7 @@ An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped wit
 
 In [[NQ-supermanifold]] language:
 
-the 2-form being of degree 0 means that only vector fields allong degree 0 coordinates may be sent to non-vanishing values. Hence for the form to be non-degenerate, there may not be any higher degree coordinates, hence the NQ-supermanifold must be an ordinary manifold. On that the 2-form is then a closed non-degenerate 2-form, hence a symplectic form.
+the 2-form being of degree 0 means that only vector fields along degree 0 coordinates may be sent to non-vanishing values. Hence for the form to be non-degenerate, there may not be any higher degree coordinates, hence the NQ-supermanifold must be an ordinary manifold. On that the 2-form is then a closed non-degenerate 2-form, hence a symplectic form.
 
 +-- {: .standout}
 
