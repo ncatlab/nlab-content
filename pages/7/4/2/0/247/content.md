@@ -7,7 +7,6 @@ I often seem to have strong feelings about terminology.  But I have been known t
 For my own reference: some pages that I'm planning to do some work on:
 * [[theory]]
 * [[lax 2-adjunction]]
-* [[coherent formula]]
 * [[structured (infinity,1)-topos]] and [[classifying topos]]
 * [[generalized multicategory]], [[virtual double category]], [[virtual equipment]]
 * [[codiscrete cofibration]]
