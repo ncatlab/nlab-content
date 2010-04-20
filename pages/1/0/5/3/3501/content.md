@@ -5,3 +5,5 @@ To a space (typically with singularities) of certain kind (there are variants) o
 * scan of old notes from MacPherson [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
 
 * Reinhardt Kiehl, Rainer Weissauer, _Weil conjectures, perverse sheaves and l'adic Fourier transform_, Ergebnisse Der Mathematik Und Ihrer Grenzgebiete __42__, Springer 2001. 
+
+* Mark Andrea de Cataldo, Luca Migliorini, _What is a perverse sheaf ?_, [arxiv/1004.2983](http://arxiv.org/abs/1004.2983), Notices of Amer. Math. Soc. May 2010, [pdf](http://www.ams.org/notices/201005/rtx100500632p.pdf)
