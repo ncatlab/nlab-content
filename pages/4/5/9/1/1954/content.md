@@ -1,9 +1,7 @@
 
 # Idea #
 
-The notion of _Ehresmann connection_ describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $p : P \to X$ (for $G$ some [[Lie group]]) in terms of a [[Lie algebra]]-valued $1$-[[differential form|form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two conditions.
-
-(Or rather, in the original formulation, it describes it equivalently in terms of the horizontal subbundle $H := ker A \subset T P$ of the [[tangent bundle]] of $P$ of vectors on which $A$ vanishes, see below.) 
+The notion of _Ehresmann connection_ describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $p : P \to X$ (for $G$ some [[Lie group]]) in terms of a distribution of horizontal subspaces $H \subset T P$ which is a subbundle of the [[tangent bundle]] of $P$ complementary at each point to the vertical tangent bundle to the fiber. This subbundle can be expressed as field of subspaces $H_x = Ker A_x = Ann A_x\subset T P$ ($x\in P$) which are pointwise annihilators of a smooth [[Lie algebra]]-valued $1$-[[differential form|form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two conditions spelled out below. 
 
 This can be understood as the special case of [[schreiber:Differential Nonabelian Cohomology|nonabelian differential G-cocycle]] -- namely a cocycle with values in the [[groupoid of Lie-algebra valued forms]] $\bar \mathbf{B} G $ -- in [[Čech cohomology]] using the "canonical" [[Čech cover]] 
 
@@ -65,16 +63,13 @@ The terminology for the various incarnations of the single notion of [[connectio
 The original definition is due to
 
 * [[Charles Ehresmann]], _Les connexions infinit&#233;simale dans une espace fibr&#233; diff&#233;rentiable_, Colloque
-de Toplogie, Bruxelles (1950) 29-55.
-[[!redirects Ehresmann-connection]]
+de Topologie, Bruxelles (1950) 29-55, [MR0042768](http://www.ams.org/mathscinet-getitem?mr=0042768)
 
-A fair idea of what exactly that original article defined can be gained from its [MathScinet review](http://www.ams.org/mathscinet-getitem?mr=0042768)
-
-
-A useful statement of the defintion in terms of a 1-form on the total space is for instance on [p. 13](http://arxiv.org/PS_cache/gr-qc/pdf/0611/0611154v2.pdf#page13) of
+A useful statement of the definition in terms of a 1-form on the total space is for instance on [p. 13](http://arxiv.org/PS_cache/gr-qc/pdf/0611/0611154v2.pdf#page13) of
 
 * Derek Wise, _MacDowell-Mansouri gravity and Cartan geometry_ ([arXiv](http://arxiv.org/abs/gr-qc/0611154))
 
 A formulation and discussion of Ehresmann connections using language and tools from [[synthetic differential geometry]] is in section 6 of
 
-* Moerdijk-Reyes, [[Models for Smooth Infinitesimal Analysis]]
+* I. Moerdijk, Reyes, [[Models for Smooth Infinitesimal Analysis]]
+[[!redirects Ehresmann-connection]]
