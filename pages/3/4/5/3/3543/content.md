@@ -1,5 +1,4 @@
 
->**under construction**  left in incoherent state for a minute...
 
 #Contents#
 * automatic table of contents goes here
@@ -72,14 +71,14 @@ $$
 
 ...
 
-## Properties
+## Properties {#Properties}
 
 +-- {: .un_theorem}
 ###### Theorem
 
-The left [[derived functor]] of the Quillen left adjoint $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullback]]s between objects of finite type.
+The left [[derived functor]] of the Quillen left adjoint $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullback]]s of objects of finite type (each rational homotopy group is a finite dimensional vector space over the ground field).
 
-In other words in the induces pair of [[adjoint (∞,1)-functor]]s
+In other words in the induced pair of [[adjoint (∞,1)-functor]]s
 
 $$
   (\Omega^\bullet \dashv K)
@@ -89,70 +88,137 @@ $$
   \infty Grpd
 $$
 
-the left adjoint preserves [[limit in a quasi-category|(∞,1)-categorical pullbacks]].
+the left adjoint preserves [[limit in a quasi-category|(∞,1)-categorical pullbacks]] of objects of finite type.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The ingredients of the proof can be found [He06](http://www.math.uic.edu/~bshipley/hess_ratlhtpy.pdf). 
+This is effectively a restatement of a result that appears effectively below proposition 15.8 in HalperinThomas and is reproduced in some repackaged form as theorem 2.2 of [He06](http://www.math.uic.edu/~bshipley/hess_ratlhtpy.pdf). We recall the [[model category|model category-theoretic]] context that allows to rephrase this result in the above form.
 
-Let $A \to B \to C$ be a [[fibration sequence]] in [[∞Grpd]] with respect to a point $* \to C$. We may always assume that this is modeled by a [[Kan fibration]] $B \to C$ between [[Kan complex]]es $B$ and C and that $A$ is given by the ordinary [[pullback]]
+Let $C = \{a \to c \leftarrow b\}$ be the pullback [[diagram]] category.
+
+The [[homotopy limit]] functor is the right [[derived functor]] $\mathbb{R} lim_C$ for the [[Quillen adjunction]] (described in detail at [[homotopy Kan extension]])
 
 $$
-  \array{
-    A &\to& {*}
-    \\
-    \downarrow && \downarrow
-    \\
-    B &\to& C
-  }
+  [C,sSet]_{inj} \stackrel{\overset{const}{\leftarrow}}{\underset{lim_C}{\to}}
+  sSet
+  \,.
+$$
+ 
+At [[model structure on functors]] it is discussed that composition with the Quillen pair $\Omega^\bullet \dashv K$ induces a Quillen adjunction
+
+$$
+  ([C,\Omega^bullet] \dashv [C,K])
+  :
+  [C, dgAlg^{op}]
+  \stackrel{\overset{[C,\Omega^\bullet]}{\leftarrow}}{\underset{[C,K]}{\to}}
+  [C,sSet]
   \,.
 $$
 
-Assume that $C$ is a simplicial finite set.
-
-Lemma: For every chosen [[Sullivan model]] $(\wedge^\bullet V^*, d_V)$ of $C$ we can find Sullivan models for $B$ and $C$ that fit into a diagram of the form
+We need to show that for every fibrant and cofibrant pullback diagram $F \in [C,sSet]$ there exists a weak equivalence 
 
 $$
-  \array{
-    (\wedge^\bullet V^*, d_V)
-    &\hookrightarrow&
-    (\wedge^\bullet V^* \otimes \wedge^\bullet W^* , D)
-    &\to&
-    (\wedge^\bullet W^* , \bar D)
-    \\
-    \stackrel{\simeq}{\to}
-    &&
-    \stackrel{\simeq}{\to}
-    &&
-    \stackrel{\simeq}{\to}
-    \\
-    \Omega^\bullet(C)
-    &\stackrel{}{\to}&
-    \Omega^\bullet(B)
-    &\stackrel{}{\to}&
-    \Omega^\bullet(B)
-  }
+  \Omega^\bullet \circ lim_C F
+  \;\;
+  \simeq
+  \;\;
+  lim_C   \widehat{\Omega^\bullet(F)}
   \,,
 $$
 
+here $\widehat{\Omega^\bullet(F)}$ is a fibrant replacement of $\Omega^\bullet(F)$ in $dgAlg^{op}$.
 
-where the top left morphism is a relative [[Sullivan algebra]], hence a cofibration, as indicated.
+Every object $f \in [C,sSet]_{inj}$ is cofibrant. It is fibrant if all three objects $F(a)$, $F(b)$ and $F(c)$ are fibrant and one of the two morphisms is a fibration. Let us assume without restriction of generality that it is the morphism $F(a) \to F(c)$ that is a fibration. So we assume that $F(a), F(b)$ and $F(c)$ are three [[Kan complex]]es and that $F(a) \to F(b)$ is a [[Kan fibration]]. Then $lim_C$ sends $F$ to the ordinary [[pullback]]  $lim_C F = F(a) \times_{F(c)} F(b)$ in $sSet$, and so the left hand side of the above equivalence is
 
-This is [He, theorem 2.2](http://www.math.uic.edu/~bshipley/hess_ratlhtpy.pdf).
+$$
+  \Omega^\bullet(F(a) \times_{F(c)} F(b))
+  \,.
+$$
 
-So in particular this means that the left lart of the above diagram gives a fibrant replacement in $dgAlg^{op}$ of the diagram $\Omega^\bullet(B \to C \leftarrow {*})$. There fore the ordinary pullback of this fibrant diagram in $dgAlg^{op}$, hence the ordinary [[pushout]] of this diagram in 
 
+Recall that the [[Sullivan algebra]]s are the cofibrant objects in $dgAlg$, hence the fibrant objects of $dgAlg^{op}$. Therefore a fibrant replacement of $\Omega^\bullet(F)$ may be obtained by
 
-> **Have to interrupt, left unfinished for the moment...**
+* first choosing a [[Sullivan model]] $(\wedge^\bullet V, d_V) \stackrel{\simeq}{\to} \Omega^\bullet(c)$ 
+
+* then choosing factorizations in $dgAlg$ of the composites of this with $\Omega^\bullet(F(c)) \to \Omega^\bullet(F(a)) $ and $\Omega^\bullet(F(c)) \to \Omega^\bullet(F(b))$ into cofibrations follows by weak equivalences.
+
+The result is a diagram
+
+$$
+  \array{
+    (\wedge^\bullet U^*, d_U)   
+    &\leftarrow&
+    (\wedge^\bullet V^*, d_V)
+    &\hookrightarrow&
+    (\wedge^\bullet W^* , d_W)
+    \\
+    \downarrow^{\simeq}
+    &&
+    \downarrow^{\simeq}
+    &&
+    \downarrow^{\simeq}
+    \\
+    \Omega^\bullet(F(a))
+    &\stackrel{}{\leftarrow}&
+    \Omega^\bullet(F(c))
+    &\stackrel{}{\to}&
+    \Omega^\bullet(F(b))
+  }
+$$
+
+that in $dgAlg^{op}$ exhibits a fibrant replacement of $\Omega^\bullet(F)$. The limit over that in $dgAlg^{op}$ is the colimit
+
+$$
+  (\wedge^\bullet U^* , d_U)
+  \otimes_{(\wedge^\bullet V^* , d_V)}
+  (\wedge^\bullet W^* , d_W)
+$$
+
+in $dgAlg$. So the statement to be proven is that there exists a weak equivalence
+
+$$
+  (\wedge^\bullet U^* , d_U)
+  \otimes_{(\wedge^\bullet V^* , d_V)}
+  (\wedge^\bullet W^* , d_W)
+  \simeq  
+  \Omega^\bullet(F(a) \times_{F(c)} F(b))
+  \,.
+$$
+
+This is precisely the statement of that quoted result [He, theorem 2.2](http://www.math.uic.edu/~bshipley/hess_ratlhtpy.pdf).
+
+=--
+
+> check the following
+
++-- {: .un_cor}
+###### Corollary
+
+Rationalization preserves homotopy pullbacks of objects of finite type.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The theory of [[Sullivan model]]s asserts that rationalization of a space $X$ (a simplicial set $X$) is the derived unit of the derived adjunction $(\Omega^\bullet \dashv K)$, namely that the rationalization is modeled by $K$ applied to a Sullivan model $(\wedge^\bullet V^*, d)$ for $\Omega^\bullet(X)$.
+
+$$
+  X \to K \Omega^\bullet(X) \stackrel{\simeq}{\leftarrow} K \widehat {\Omega^\bullet(X)} := K (\wedge^\bullet V^* , d_V)
+  \,.
+$$
+
+Being a Quillen right adjoint, the right derived functor of $K$ of course preserves homotopy limits. Hence the composite $K \circ \widehat{\Omega^\bullet(-)}$ preserves homotopy pullbacks between objects of finite type.
+
 
 =--
 
 
 ## References
 
-Aorund definition 1.4 in 
+Around definition 1.4 in 
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math/0604626](http://arxiv.org/abs/math.AT/0604626))
