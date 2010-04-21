@@ -5,9 +5,9 @@
 
 ## Idea
 
-A canonical morphism is a [[morphism]] which is equivariant under an [[automorphism group]], with [[actions]] mediated by two [[functors]].  It may be seen as a [[natural transformation]] in a particular context.  Conversely, canonical morphisms can be combined into a notion of transformation more general than a natural transformation, although this also may be seen as a natural transformation in a particular context.
+A *canonical morphism* is a [[morphism]] which is equivariant under an [[automorphism group]], with [[actions]] mediated by two [[functors]].  It may be seen as a [[natural transformation]] in a particular context.  Conversely, canonical morphisms can be combined into a notion of transformation more general than a natural transformation, although this also may be seen as a natural transformation in a particular context.
 
-This usage of the word 'canonical' is due to [[Jim Dolan]].  In general, this term is often used in mathematics to mean that the result of a construction may be specified using only the data at hand, without making arbitrary choices.  The idea behind using the word here is, roughly, that only canonical morphisms may be specified (in the situations in which they appear) without [[evil]].  (Both avoiding arbitrary choices and avoiding evil are related to avoiding the [[axiom of choice]], but that does not seem to be directly relevant.)
+This usage of the word 'canonical' is due to [[Jim Dolan]].  In general, this term is often used in mathematics to mean that the result of a construction may be specified using only the data at hand, without making arbitrary choices.  The idea behind using the word here is, roughly, that only canonical morphisms may be specified (in the situations in which they appear) without [[evil]].  (Both avoiding arbitrary choices and avoiding evil are related to avoiding the [[axiom of choice]], but that does not seem to be directly relevant.)  However, there are certainly also uses of 'canonical' in mathematics that do not fall under this definition.
 
 Arguably, 'natural' would be a better term for this intuition, but canonical morphisms are more general than the natural transformations that appear in the same contexts, so that word is taken.  Another possible term is 'core-natural' or 'groupoid-natural', since (as will be seen below) canonical morphisms may be interpreted as natural transformations between functors restricted to the [[core]] (underlying [[groupoid]]) of a given category.  The terms 'basis/coordinate--free/invariant' and 'generally covariant' also capture the same intuition, although these tend to be restricted to certain disciplines (linear algebra, geometry, physics).
 
@@ -69,6 +69,8 @@ The examples above are all of canonical *isomorphisms*.  However, we can adjust 
 ## References
 
 * A 1993 [Usenet thread](http://groups.google.com/group/sci.math/browse_frm/thread/9f5ca96dc1a95ada/47a1bb21f6566547) may be the first public introduction of the contrast between 'natural' and 'canonical' by [[Jim Dolan]] (posting as 'Robert Scott'); see particularly posts 9&10.
+
+* A 2010 [MathOverflow question](http://mathoverflow.net/questions/19644/what-is-the-definition-of-canonical) about the meaning of 'canonical', with many different answers, including this one.
 
 An analogous notion for higher functors makes a prominent appearance in [[Chris Schommer-Pries]]'s work on [[FQFT]] with defects/[[bi-brane]]s. See _slide 81_ (the penultimate page) of:
 
