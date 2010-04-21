@@ -7,28 +7,206 @@
 
 A **Sullivan model** of a [[rational space]] $X$ is a particularly well-behaved [[dg-algebra]] [[quasi-isomorphism|quasi-isomorphic]] to the dg-algebra of Sullivan forms on $X$:
 
+Sullivan models are a central tool in [[rational homotopy theory]].
+
 ## Definition
 
-A **Sullivan algebra** is a dg-algebra that is cofibrant in the standard [[model structure on dg-algebras]]: a [[semifree dga]] $(\wedge^\bullet V, d)$ with a bais $\{v_\alpha | \alpha \in J\}$ of $V$ for $J$ a [[well-order]]ed set, such that $d v_\beta \in V_{\lt  \beta}$.
 
-A **minimal Sullivan algebra** is a Sullivan algebra such that moreover
+
+Sullivan models are particularly simple [[dg-algebra]]s that are equivalent to the dg-algebras of Sullivan differrential forms on topological spaces. Conversely, every rational space can be obtained from a dg-algebra and the _minimal_ Sullivan algebras proovide convenient representatives that correspond bijectively to rational homtopy types under this correspondence.
+
+We now describe this in detail. First some notation and preliminaries:
+
++-- {: .un_def }
+###### Definition
+**(finite type)**
+
+* A [[graded vector space]] $V$ is _of finite type_ if in each degree it is finite dimensional. In this case we write $V^*$ for its degreewise dual.
+
+* A [[Grassmann algebra]] is of finite type if it is the Grassmann algebra $\wedge^\bullet V^*$ on a graded vector space of finite type 
+
+  (the dualization here is just convention, that will help make some of the following constructions come out nicely).
+
+* A [[CW-complex]] is of finite type if it is built out of finitely many cells in each degree.
+
+=--
+
+
+
+For $V$ a $\mathbb{N}$-[[graded vector space]] write 
+$\wedge^\bullet V$ for the [[Grassmann algebra]] over it. Equipped with the trivial differential $d = 0$ this is a [[semifree dga]] $(\wedge^\bullet V, d=0)$.
+
+With $k$ our ground [[field]] we write $(k,0)$ for the corresponding [[dg-algebra]], the tensor unit for the standard [[monoidal category|monoidal structure]] on $dgAlg$. This is the [[Grassmann algebra]] on the 0-vector space
+$(k,0) = (\wedge^\bullet 0, 0)$.
+
+
++-- {: .un_def }
+###### Definition
+**(Sullivan algebras)**
+
+A **relatived Sullivan algebra** is a [[morphism]] of dg-algebras that is an inclusion
 
 $$
-  (\alpha \lt \beta ) \Rightarrow deg v_\alpha \lt deg v_\beta
-  \,.
+  (A,d) \to (A \otimes_k \wedge^\bullet V, d')
 $$
 
+for $(A,d)$ some dg-algebra and for $V$ some graded vector space, such that 
 
-A **Sullivan (minimal) model** of a [[dg-algebra]] $A$ is a Sullivan (minimal) algebra $(\wedge^\bullet V,d)$ and a [[quasi-isomorphism]]
+* there is a [[well ordered set]] $J$
+
+* indexing a basis $\{v_\alpha \in V| \alpha \in J\}$ of $V$;
+
+* such that with $V_{\lt \beta} = span(v_\alpha | \alpha \lt \beta)$ for all basis elements $v_\beta$ we have that 
+
+  $$
+    d' v_\beta \in A \otimes \wedge^\bullet V_{\lt \beta}
+    \,.
+  $$
+
+This is called a **minimal** relative Sullivan algebra if in addition the condition
 
 $$
-  (\wedge^\bullet V, d) \stackrel{\simeq_{w}}{\to} A
-  \,.
+  (\alpha \lt \beta) \Rightarrow (deg v_\alpha  \leq deg v_\beta)
 $$
 
-A **Sullivan (minimal) model** of a [[connected space|connected]] [[topological space]] is a Sullivan (minimal) model of its dg-algebra $\Omega^\bullet_{Sullivan}(X)$ of Sullivan forms.
+holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the tensor unit we call the [[semifree dga]] $(\wedge^\bullet V,d)$ simply a **Sullivan algebra**.  And a **minimal Sullivan algebra** if $(k,0) \to (\wedge^\bullet V, d)$ is a minimal relative Sullivan algebra.
+
+=--
+
+See also the section [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
+
+
++-- {: .un_remark }
+###### Remark
+**($L_\infty$-algebras)**
+
+Because they are [[semifree dga]]s, Sullivan dg-algebras $(\wedge^\bullet V,d)$ are (at least for degreewise finite dimensional $V$) [[Chevalley-Eilenberg algebra]]s of [[L-∞-algebra]]s.
+
+The co-commutative differential co-algebra encoding the corresponding [[L-∞-algebra]] is the free cocommutative algebra $\vee^\bullet V^*$ on the degreewise dual of $V$ with differential $D = d^*$, i.e. the one given by the formula
+
+$$
+  \omega(D(v_1 \vee v_2 \vee \cdots v_n)) =
+  - (d \omega) (v_1, v_2, \cdots,  v_n)
+$$
+
+for all $\omega \in V$ and all $v_i \in V^*$.
+
+=--
+
+
+
++-- {: .un_def }
+###### Definition
+**(Sullivan models)**
+
+For $X$ a [[conected|simply connected]] [[topological space]] $X$, a **Sullivan (minimal) model** for $X$ is 
+
+* a quasi-free [[dg-algebra]] $(\wedge^\bullet V^*, d_V)$ which is a (minimal) Sullivan algebra 
+
+* such that there exists a [[quasi-isomorphism]]
+
+  $$
+    (\wedge^\bullet V^*, d_V) \stackrel{\simeq}{\to}
+    \Omega^\bullet_{Sull}(X)
+    \,.
+  $$
+
+=--
+
+
 
 ## Properties
+
+
++-- {: .un_prop }
+###### Proposition
+**(cofibrations are relative Sullivan algebras)**
+
+The cofibration in the standard [[model structure on dg-algebras]] $C dgAlg_{\mathbb{N}}$ are precisely the [[retract]]s of relative  Sullivan algebras $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
+
+Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
+
+=--
+
+
++-- {: .un_theorem }
+###### Theorem
+
+[[rational space|Rational homotopy types]] of simply connected spaces $X$ are in bijective corespondence with minimal Sullivan algebras $(\wedge^\bullet V,d)$
+
+$$
+  (\wedge^\bullet V , d) \stackrel{\simeq}{\to}
+  \Omega^\bullet_{Sullivan}(X)
+  \,.
+$$
+
+And homotopy classes of morphisms on both sides are in bijection.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears for instance as corollary 1.26 in 
+
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+
+
+=--
+
+
+Write
+
+$$
+  (\Omega^\bullet_{Sul} \dashv K)
+  :
+  dgAlg^{op}
+  \stackrel{\overset{\Omega^\bullet_{Sul}}{\leftarrow}}{\underset{K}{\to}}
+  sSet
+$$
+
+for the [[Quillen adjunction]] induced by forming Sullivan differential forms, as discussed above.
+
+
+
++-- {: .un_theorem }
+###### Theorem
+
+Let $(\wedge^\bullet V^*, d_V)$ be a simply connected Sullivan algebra of finite type. Then
+
+* the unit of the [[adjunction]] $(\wedge^\bullet V^*, d_V) \to \Omega^\bullet_{Sul}(K(\wedge^\bullet, d_V) \rangle)$ is a [[quasi-isomorphism]];
+
+* The elements of the homotopy groups of the rational space modeled by $(\wedge^\bullet V^*, d_V)$ are the generators in $V$:
+
+  there is an isomorphism of $\mathbb{N}$-[[graded vector space]]s over $\mathbb{Q}$
+
+  $$
+    \pi_\bullet(\langle (\wedge^\bullet V^*, d_V)\rangle)
+    \simeq
+    V.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is recalled for instance as theorem 1.24 in 
+
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+
+
+=--
+
+
+
+
+
+
+
+
+
+
 
 
 +-- {: .un_prop }
