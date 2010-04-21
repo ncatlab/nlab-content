@@ -24,6 +24,8 @@ A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched cate
 
    But in any case, it would be nice to have a discussion on how the "right definition" _implies_ that every object is isomorphic to a finite direct sum of representables.
 
+   Shouldn't you require that for simples, End(X,X) is a simple algebra, not necessarily the ground field? For example the category of H-modules where H is the quaternion algebra over the reals. Shouldn't this be semi-simple? -- Chris.
+
    =--
 
 *  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{ij} k$ where $k$ is the [[ground field]] (such objects are called _[[simple object|simple]]_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
