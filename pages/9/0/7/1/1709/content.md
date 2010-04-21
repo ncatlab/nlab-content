@@ -200,6 +200,84 @@ But it also says:
 
 ## Examples 
 
+### Sections as twisted functions... {#SectionsAsTiwstedFunctions}
+
+For $V$ a [[vector space]] and $X$ a manifold, both regarded a 0-[[truncated]] objects in the $(\infty,1)$-topos on the site [[CartSp]] (that of [[Lie infinity-groupoid]]s), a [[cocycle]] $X \to V$ is simply smooth $V$-valued function on $X$.
+
+Now let $G$ be a Lie group with smooth [[delooping]] groupoid $\mathbf{B}G$ and let $\rho : \mathbf{B}G \to Vect$ be a [[representation]] of $G$ on $V$, i.e. $\rho(\bullet) = V$. Then the corresponding [[action groupoid]] $V//G$ sits in the [[fibration sequence]]
+
+$$
+  V \to V//G \stackrel{p}{\to} \mathbf{B}G
+  \,.
+$$
+
+Hence we can ask for the $p$-twisted cohomology of $X$ with values in $V$. Now, a cocycle $g : X \to \mathbf{B}G$ is one classifying a $G$-[[principal bundle]] on $X$. By looking at this in [[Cech cohomology]] it is immediate to convince onself that cocycles $X \to V//G$ such that the composite $X \to V//G \stackrel{p}{\to} \mathbf{B}G$ is equivalent to the given $g$ are precisely the [[section]]s of the $\rho$-[[associated bundle|associated vector bundle]]:
+
+on a patch $U_i$ of a good cover over wich $P$ has been trivialized, the cocycle $X \to V//G$ is simply a $V$-valued function $\sigma_i : U_i \to V$. Then on double overlaps it is a smooth [[natural transformation]] $\sigma_i|_{U_{i j}} \to \sigma_j|_{U_i j}$ whose components in $G$ are required to be those of the given cocycle $g$. That means exactly that the functions $(\sigma_i)$ are glued on double overlaps precisely as the local trivializations of a global section $\sigma : X \to P \times_G V$ would.
+
+Hence we find the $p$-twisted cohomology is
+
+$$
+  H_{[g]}(X,V) = 
+  \{sections\; of\; P \times_G V\}
+  \,.
+$$
+
+In this sense **a section is a twisted function**.
+
+Notice that $V//G \stackrel{p}{\to} \mathbf{B}G$ is not itself a homotopy fiber, but is a _lax_ fiber, in that we have a [[2-limit|lax pullback]] (really a _comma object_ )
+
+$$
+  \array{
+    V//G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G &\to& Vect
+  }
+  \,,
+$$
+
+where in the bottom right corner we have [[Vect]] (regarded as a [[stack]] on $CartSp$ in the evident way) and where the right vertical morphism sends the point to the ground field vector space $k$ (or rather sends $U \in CartSp$ to the trivial vector bundle $U \times k$ ).
+
+We may paste to this the homotopy pullback along the cocycle $g : X \to \mathbf{B}G$ to obtain
+
+$$
+  \array{
+    P\times_G V &\to& V//G &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X &\stackrel{g}{\to}& \mathbf{B}G &\to& Vect
+  }
+  \,.
+$$
+
+This makes is manifest that a section $\sigma : X \to P \times_G V$ is also the same as a natural transformation from $const_k : X \to Vect$ to $X \stackrel{g}{\to} \mathbf{B}G \to Vect$.
+
+Notice moreover that in the special case that $G = U(1)$ and for ground field $k = \mathbb{C}$ we may think of $\mathbf{B}U(1)$ as the category $\mathbb{C} Line \hookrightarrow \mathbb{C} Mod = Vect$ and think of the twisting cocycle $g$ as
+
+$$
+  X \stackrel{g}{\to} \mathbb{C}Line \hookrightarrow \mathbb{C}Mod
+  \,.
+$$
+
+#### ... and $\infty$-sections as twisted $\infty$-functions {#InfSections}
+
+Regarded this way the above discussion has a generalization to the case where the [[monoid]] $\mathbb{C}$ is replaced with any [[ring spectrum]] $R$ and we consider
+
+$$
+  X \stackrel{\tau}{\to} R Line \hookrightarrow R Mod
+  \,.
+$$
+
+Twisted cohomology in terms of such morphisms $\tau$ is effectively considered in
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_ ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+
+and in unpublished work of [[Ulrich Bunke]] et al.
+
+
 ### twisted K-theory 
 
 In the context of [[generalized (Eilenberg?Steenrod) cohomology]] a coefficient object for [[cohomology]] is a [[spectrum]] $A$: the $A$-cohomology of a [[topological space]] $X$ with coefficients in $A$ is the set of homotopy classes of maps $X \to A$. For instance, as a model of the degree-$0$ space in the [[K-theory spectrum]] one can take $A = Fred(H)$, the space of Fredholm operators on a separable Hilbert space $H$. There is a canonical action on this space of the projective unitary group $G = P U(H)$ of $H$. Since $P U(H)$ has the homotopy type of an [[Eilenberg?Mac Lane space]] $K(\mathbb{Z},2)$, a $P U(H)$-[[principal bundle]] $P \to X$ defines a class $c \in H^3(X,\mathbb{Z})$ in [[Eilenberg-MacLane spectrum|ordinary integral cohomology]] (this may also be thought of as the class of a twisting [[bundle gerbe]]). The twisted K-theory (in degree $0$) of $X$ with that class as its twist is the set of homotopy classes of sections $X \to P \times_{P U(H)} Fred(H)$ of the associated bundle. 
