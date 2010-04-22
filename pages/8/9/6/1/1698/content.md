@@ -244,9 +244,9 @@ $$
   \,.
 $$
 
-
-
 ## Examples
+
+### Principal $\infty$-bundles
 
 Fibration sequences are familiar from the context of [[principal bundles]].
 
@@ -317,6 +317,77 @@ $$
 The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and generally for [[principal ∞-bundles]].
 
 
+### Mayer-Vietoris sequences {#MayerVietoris}
+
+A **Mayer-Vietoris sequence** is a fibration sequence obtained from an $(\infty,1)$-pullback diagram:
+
+if 
+
+$$
+  \array{
+    A \times_B C &\to& B
+    \\
+    \downarrow && \downarrow^{\mathrlap{g}}
+    \\
+    A &\stackrel{f}{\to}& C
+  }
+$$
+
+is an [[limit in a quasi-category|infinity-pullback]] diagram in $\mathbf{H}$, i.e. a [[homotopy pullback]] with $C$ a [[group object in an (infinity,1)-category|group object]], this corresponds to the fibration sequence
+
+$$
+  \array{
+    A \times_C B &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    A \times B &\stackrel{f + g^{-1}}{\to}& C
+  }
+  \,.
+$$
+
+Fibration sequences of this form are called **Mayer-Vietoris sequences**. 
+
+#### Of a cover
+
+The original example of Mayer-Vietoris sequences is obtained from the situtation where a [[homotopy pushout]] diagram
+
+$$
+  \array{
+    U \cap V &\hookrightarrow& U
+    \\
+    \downarrow && \downarrow
+    \\
+    V &\to& X
+  }
+$$
+
+in $\mathbf{H} = $ [[∞Grpd]]/[[Top]] is given (which modeled in [[sSet]] or in terms of [[CW-complex]]es in [[Top]] may be modeled by an ordinary pushout), and where $A \in \infty Grpd$ is some coefficient group object. Then applying the $(\infty,1)$-categorical hom $\mathbf{H}(-, A) : \mathbf{H}^{op} \to \infty Grpd$ yields the $\infty$-pullback diagram
+
+$$
+  \array{
+    \mathbf{H}(X, A) &\to& \mathbf{H}(U,A)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}(V,A) &\to& \mathbf{H}(U \cap V, A)
+  }
+  \,.
+$$
+
+By the above this is equivalent to 
+
+$$
+  \mathbf{H}(X,A) \to \mathbf{H}(U,A) \times \mathbf{H}(V,A)
+  \to \mathbf{H}(U \cap V, A) 
+$$
+
+being a fibration sequence. The corresponding long exact sequence in cohomology (as discussed above) is what is traditionally called the Mayer-Vietoris sequence of the cover of $X$ by $U$ and $V$ in $A$-cohomology.
+
+
+
+
+
 [[!redirects fibration sequences]]
 [[!redirects cofibration sequence]]
 [[!redirects homotopy fiber]]
@@ -328,3 +399,6 @@ The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and
 
 [[!redirects fiber sequence]]
 [[!redirects fiber sequences]]
+
+[[!redirects Mayer-Vietoris sequence]]
+[[!redirects Mayer-Vietoris sequences]]
