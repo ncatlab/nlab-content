@@ -1,0 +1,5 @@
+**Cartan geometry** is the common generalization of [[Riemannian geometry]] and [[Klein geometry]], which replaces the linear tangent spaces of the former with the more general homogeneous spaces of the latter. Intuitively, we are studying the geometry of a manifold by 'rolling' another manifold, the 'model geometry' on it. The model geometry may be any [[Klein geometry]].
+
+
+###References###
+* The blog [discussion](http://golem.ph.utexas.edu/category/2007/07/derek_wise_on_cartan_geometry.html) of Derek Wise, [MacDowell-Mansouri gravity and Cartan geometry](http://arxiv.org/abs/gr-qc/0611154).
