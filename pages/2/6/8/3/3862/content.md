@@ -12,9 +12,23 @@ Given a [[manifold]] $X$, the top exterior power $\Lambda^{dim X} T^* X$ is a li
 
 There is a specific version called **Quillen's determinant line bundle** which is certain line bundle over the moduli space of complex structures on a fixed smooth vector bundle $E$ over a fixed Riemann surface $M$. A complex structure on the bundle corresponds to an operator which in local coordinates looks as $D = d\bar{z}(\partial_z+\alpha(z))$ where $\alpha(z)$ is a smooth matrix valued function. The set of such operators is an affine space $\mathcal{A}$ whose underlying vector space is the space of $(0,1)$-End-valued forms $\Omega^{0,1} (End M)$. Then again a determinant is an element of a line $\mathcal{L}_D = \lambda(Ker D)^*\otimes \lambda(Coker D)$ where $\lambda$ is taking the top exterior power. Now one has a family $\mathcal{L}_D$ depending on $D$ what determines a holomorphic line bundle over $\mathcal{A}$. This is the **determinant line bundle**. 
 
+## Determinant bundle on the Grassmanian
+
+Let $Gr_k(V)$ be the [[Grassmanian]] of $k$-dimensional subspaces of a finite dimensional vector space $V$. Let $W\subset V$ be a point in $Gr_k(V)$ and $\Lambda^k(W)$ its top exterior power; it is a fiber of the bundle $Det$ over $Gr_k(V)$. The determinant bundle $Det$ has no non-zero holomorphic global sections. Consider its dual $Det^*$ with fiber $\Lambda^k(W)^*$ over $W$. Then the space of of global holomorphic sections $\Gamma_{hol}(Det^*) \cong \Lambda^k(V^*)$. This construction can be suitably extended for the Segal Grassmanian, where $V= V_+\oplus V_-$ is a separable Hilbert space equipped with a polarization, see chapter 7 and especially 7.7 in the Pressley-Segal book listed below.
+
 ## Trivialization of determinant line bundle
 
 If we had a trivialization of the Quillen's determinant line bundle, then we could identify every section with a holomorphic function on the base space, hence a holomorphic rule giving a number to a Cauchy-Riemann operator. For this one restricts first to the component consisting of the operators with the zero Fredholm index. Next, one considers the corresponding [[Laplace operator]] $D^* D$ and its determinant related to the [[zeta function]]. (This is related to the [[analytic torsion]]).
+
+## Comparing Quillen's and Segal's determinant line bundles
+
+The determinant line bundle of Quillen is in fact related to a variant of Segal's determinant bundle on the "semiinfinite" Grassmanian. Namely one considers instead $Gr_{cpt}(H)$ which is the set (space eventually) of closed supspaces $W\subset H$ where the projection $W\to H_+$ is [[Fredholm operator|Fredholm]] and $W\to H_-$ is [[compact operator|compact]]; then one follows the Segal's prescription to define $Det$ on $Gr_{cpt}(H)$. Notice that $Gr_{cpt}(H)$ is not a homogeneous space. Now there is a span of maps with contractible fibers
+
+$$
+Gr_{cpt}(H)\leftarrow \mathcal{B}\to Fred(H_+).
+$$
+The Quillen's determinant line bundle is defined in general on the whole $Fred(H_+)$ and its pullback to $\mathcal{B}$ is isomorphic to the pullback of the determinant bundle on $Gr_{cpt}(H)$; in fact the Quillen's version can be reconstructed from this pullback by certain quotienting construction. 
+
 
 ## Applications
 
@@ -32,7 +46,11 @@ These determinant line bundles are important in the study of [[quantum anomaly|q
 
 * J-M. Bismut, _Quillen metrics and determinant bundles_, 2 conference lectures in honour of A. N. Tyurin, video at [link](http://www.mathnet.ru/php/presentation.phtml?presentid=62&option_lang=eng)
 
+* A. Pressley, [[Graeme Segal|G. Segal]], _Loop Groups_, Oxford Math. Monographs, 1986. 
+
 * Kenro Furutani, _On the Quillen determinant_, J. Geom. Phys. __49__, 4, 366-375, [math.DG/0309127](http://arxiv.org/abs/math/0309127), [doi](http://dx.doi.org/10.1016/j.geomphys.2003.07.001)
 
 * [[M. Kontsevich]], S. Vishik, _Geometry of determinants of elliptic operators_, in Functional Analysis on the Eve of the 21st Century. 
 Vol. I (S. Gindikin, et al., eds.) In honor of the 80th birthday of [[Israel Gel'fand|I.M. Gelfand]]. Birkh&#228;user, Progr. Math. __131__ (1993), 173-197, [pdf](http://193.51.104.7/~maxim/TEXTS/geometry_determinants_12.pdf), [hep-th/9406140](http://arxiv.org/abs/hep-th/9406140)
+
+* R. Dijkgraaf, [[Edward Witten|E. Witten]], _Topological gauge theories and group cohomology_, Commun. Math.Phys. __129__, 393--429 (1990), [euclid](http://projecteuclid.org/euclid.cmp/1104180750), [MR1048699](http://www.ams.org/mathscinet-getitem?mr=1048699)
