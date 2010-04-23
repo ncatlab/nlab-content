@@ -27,3 +27,7 @@ As oscillating integrals are involved in the analysis of various Green functions
 * C. Bardos, L. Boutet de Monvel, _From atomic hypothesis to microlocal analysis_ (lecture notes) [pdf](www.math.jussieu.fr/~boutet/Micro_equations.pdf)
 
 * [[Dmitry Tamarkin]], _Microlocal condition for non-displaceablility_, [arxiv/0809.1584](http://arxiv.org/abs/0809.1584)(application of microlocal analysis to symplectic/Lagrangean geometry).
+
+* Goro Kato,Daniele Carlo Struppa, _Fundamentals of algebraic microlocal analysis_, M. Dekker 1999, [googB](books.google.hr/books?isbn=0824793277)
+
+* V. Guillemin, Masaki Kashiwara, Takahiro Kawai, _Seminar on micro-local analysis_, Ann. of Math. Studies 93 (1979), [googlebooks](books.google.hr/books?isbn=0691082324)
