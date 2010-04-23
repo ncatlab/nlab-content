@@ -31,15 +31,23 @@ Ours is the age to figure this out.
 
 #References#
 
+* P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+* V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
+
+* R. E. [[Borcherds]], A. Barnard, _Lectures on QFT_, [arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014)
+
 A short introduction to different aspects of QFT usually covered in a first course is this:
 
-* Folland, Gerald B.: "Quantum field theory: A tourist guide for mathematicians." ([ZMAZH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
+* Gerald B. Folland, _Quantum field theory: A tourist guide for mathematicians_, Math. Surveys and Monographs __149__ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
 
-An extensive compilation of material from the viewpoint of a mathematician are these two books (Eberhard Zeidler worked on nonlinear functional analysis and was the director of the Max-Planck-Institute for Mathematics in the Natural Sciences in Leipzig, Germany, the books have a webpage [here] (http://www.mis.mpg.de/zeidler/qft.html)):
+An extensive compilation of material from the viewpoint of a mathematician: 
 
-* Zeidler, Eberhard: "Quantum field theory. I: Basics in mathematics and physics. A bridge between mathematicians and physicists." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete))
+* [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists. I: Basics in mathematics and physics._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete)), _II: Quantum electrodynamics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete))
 
-* Zeidler, Eberhard: "Quantum field theory. II: Quantum electrodynamics. A bridge between mathematicians and physicists." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete))
+Geometric aspects (e.g. connections to index theorems and moduli spaces) are emphasised in
+
+* Charles Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
 
 For further references see [[FQFT]] and [[AQFT]].
 
