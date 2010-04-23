@@ -23,3 +23,5 @@ As oscillating integrals are involved in the analysis of various Green functions
 * Masaki Sato, _Restriction, localization and microlocalization_, (expository paper) pp. 195--205 in collection "Quadrature domains and their application" (Operator theory: advances and applications __156__), [doi](http://dx.doi.org/10.1007/b137105)
 
 * M. [[Kashiwara]], P. Schapira, F. Ivorra, I. Waschkies, _Microlocalization of ind-sheaves_, in "Studies in Lie theory", Progress in Math. __243__, Birkh&#228;user 2006. 
+
+* C. Bardos, L. Boutet de Monvel, _From atomic hypothesis to microlocal analysis_ (lecture notes) [pdf](www.math.jussieu.fr/~boutet/Micro_equations.pdf)
