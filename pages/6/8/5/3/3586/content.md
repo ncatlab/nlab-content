@@ -25,3 +25,5 @@ As oscillating integrals are involved in the analysis of various Green functions
 * M. [[Kashiwara]], P. Schapira, F. Ivorra, I. Waschkies, _Microlocalization of ind-sheaves_, in "Studies in Lie theory", Progress in Math. __243__, Birkh&#228;user 2006. 
 
 * C. Bardos, L. Boutet de Monvel, _From atomic hypothesis to microlocal analysis_ (lecture notes) [pdf](www.math.jussieu.fr/~boutet/Micro_equations.pdf)
+
+* [[Dmitry Tamarkin]], _Microlocal condition for non-displaceablility_, [arxiv/0809.1584](http://arxiv.org/abs/0809.1584)(application of microlocal analysis to symplectic/Lagrangean geometry).
