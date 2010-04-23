@@ -1,7 +1,7 @@
 
 Disclaimer: This page is created mainly to have more navigability within the $n$lab, and is not meant to be a balanced list of historically important contributors (though some attention/effort to live partly to this aspect is made). Naturally, we list more people whose work is closer to foundational, categorical and cohomological study of algebraic varieties and generalizations and pay less attention to the classical themes. We will also list some algebraic geometers of less importance, but who wrote major historical texts quoted and playing role in the lab. 
 
-* [[Niels Henrik Abel]], [[Abhyankar|Shreeram Shankar Abhyankar]], [[Suren Arakelov]] ([[Arakelov geometry]]), [[Michael Artin]]
+* [[Niels Henrik Abel]], [[Abhyankar|Shreeram Shankar Abhyankar]], [[Yves André]], [[Suren Arakelov]] ([[Arakelov geometry]]), [[Michael Artin]]
 
 * [[Kai Behrend]], [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Berthelot]] ([web](http://perso.univ-rennes1.fr/pierre.berthelot)), [[Roman Bezrukavnikov]], [[Spencer Bloch]], [[Enrico Bombieri]], [[Armand Borel]], [[Alexei Bondal]], [[Paul Bressler]]
 
