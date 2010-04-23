@@ -64,22 +64,24 @@ _Zoran_: I took the conventions from Keller's article, as far as I recall. You a
 
 * Bernhard Keller, _On differential graded categories_  International Congress of Mathematicians. Vol. II,  151--190, Eur. Math. Soc., Z&#252;rich, 2006. ([arXiv](http://arxiv.org/abs/math/0601185))
 
-* Bertrand To&#235;n, _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf))
+* Bertrand To&#235;n, _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf)) (these lectures also inspired [[Dmitry Kaledin]]'s [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul))
 
 * B. Keller, _Deriving DG categories_,  Ann. Sci. &#201;cole Norm. Sup. (4)  27  (1994),  no. 1, 63--102 (<a href="http://www.numdam.org/item?id=ASENS_1994_4_27_1_63_0">numdam</a>)
 
-* B. Keller, _A remark on tilting theory and DG algebras_,  Manuscripta Math.  79  (1993),  no. 3-4, 247--252.
+* [[Bernhard Keller|B. Keller]], _A remark on tilting theory and DG algebras_,  Manuscripta Math.  79  (1993),  no. 3-4, 247--252.
 
 * S. Mahanta, _Noncommutative geometry in the framework of differential graded categories_ (<a href="http://arxiv.org/abs/0805.1628">arXiv:0805.1628</a>)
 
-* Dmitry Tamarkin, _What do dg-categories form?_,
+* [[Dmitry Tamarkin]], _What do dg-categories form?_,
 Compos. Math. 143 (2007), no. 5, 1335--1358. 
 
-* M. Batanin, _What do dg-categories form_ (after Tamarkin), talks at Paris 7 and Australian category seminar (<a href="http://www.maths.usyd.edu.au/u/AusCat/abstracts/060726mb.html">abstract</a>)
+* [[Michael Batanin|M. Batanin]], _What do dg-categories form_ (after Tamarkin), talks at Paris 7 and Australian category seminar (<a href="http://www.maths.usyd.edu.au/u/AusCat/abstracts/060726mb.html">abstract</a>), [math.CT/0606553](http://arxiv.org/abs/math.CT/0606553)
 
-* Gon&#231;alo Tabuada, _Invariants additifs de DG-cat&#233;gories_, Int. Math. Res. Not.  2005,  no. 53, 3309--3339; Addendum in Int. Math. Res. Not.  2006, Art. ID 75853, 3 pp. ; Erratum in Int. Math. Res. Not. IMRN  2007,  no. 24, Art. ID rnm149, 17 pp.; Une structure de cat&#233;gorie de mod&#232;les de Quillen sur la cat&#233;gorie des dg-cat&#233;gories,  C. R. Math. Acad. Sci. Paris  340  (2005),  no. 1, 15--19.
+* [[Gonçalo Tabuada]], _Invariants additifs de DG-cat&#233;gories_, Int. Math. Res. Not.  2005,  no. 53, 3309--3339; Addendum in Int. Math. Res. Not.  2006, Art. ID 75853, 3 pp. ; Erratum in Int. Math. Res. Not. IMRN  2007,  no. 24, Art. ID rnm149, 17 pp.; Une structure de cat&#233;gorie de mod&#232;les de Quillen sur la cat&#233;gorie des dg-cat&#233;gories,  C. R. Math. Acad. Sci. Paris  340  (2005),  no. 1, 15--19.
 
 * G. Tabuada, _Homotopy theory of DG categories_, Thesis, Paris, 2007, <a href="http://people.math.jussieu.fr/~keller/TabuadaThese.pdf">pdf</a> (some chapters in English and some in French)
+
+* G. Tabuada, _Homotopy theory of dg categories via localizing pairs and Drinfeld's dg quotient_, Homology, homotopy and applications __12__  (2010), No. 1, pp.187-219, [files](http://www.intlpress.com/HHA/v12/n1/a11).  
 
 * A. I. Bondal, M. Larsen, V. A. Lunts, _Grothendieck ring of pretriangulated categories_ (<a href="http://front.math.ucdavis.edu/0401.5009">arXiv</a>)
 
