@@ -41,13 +41,15 @@ A short introduction to different aspects of QFT usually covered in a first cour
 
 * Gerald B. Folland, _Quantum field theory: A tourist guide for mathematicians_, Math. Surveys and Monographs __149__ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
 
-An extensive compilation of material from the viewpoint of a mathematician: 
+An extensive compilation of QFT from the viewpoint of a mathematician: 
 
 * [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists. I: Basics in mathematics and physics._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete)), _II: Quantum electrodynamics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete))
 
-Geometric aspects (e.g. connections to index theorems and moduli spaces) are emphasised in
+Differential geometric and topological aspects (e.g. connections to index theorems and moduli spaces) are emphasized in
 
 * Charles Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
+
+* [[Albert Schwarz]], Quantum field theory and topology, Grundlehren der Math. Wissen. __307__, Springer 1993.  
 
 For further references see [[FQFT]] and [[AQFT]].
 
