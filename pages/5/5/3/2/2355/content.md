@@ -159,14 +159,14 @@ $$
     \\
     \downarrow && && \downarrow
     \\
-    (c \to f(c) \to d)
-    &&\simeq&&
+    (c \to g(f(c)) \to f(c) \to d)
+    &&=&&
     (c \to g(f(c)) \to g(d) \to d)
   }
  \,,
 $$
 
-where the morphisms $c \to f(c)$ and $g(d) \to d$ in $K$ are the Cartesian morphisms $F(\{c\} \times (0 \to 1))$ and $G( \{c\} \times (0 \to 1))$. The equivalence at the bottom is the one induced from the equivalence
+where on the left we precomposed with the Cartesian morphism 
 
 $$
   \array{
