@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
 > under construction
 
 #Contents#
@@ -23,31 +28,78 @@ $$
   \,.
 $$
 
-Quotienting by the complement of a [[tubular neighbourhood]] $\mu$ of $E$ in $E \times \mathbb{R}^n$ gives the [[Pontrjagin-Thom collaps map]]
+Let $N_e (E)$ be the [[normal bundle]] of $E$ relative to this $e$. This has rank $N - dim F$.
+
+Then the quotient map
 
 $$
-  B \times \mathbb{R}^n \to \Sigma^N B_* \stackrel{\tau}{\to} E^\nu
+  B \times \mathbb{R}^n 
+  \to 
+  B \times \mathbb{R}^n / (B \times \mathbb{R}^n - N_e(E))
+  \simeq
+  Th(N_e(E))
+$$
+
+to the [[Thom space]] of the normal bundle factors as the
+[[Pontrjagin-Thom collaps map]] through the [[one-point compactification]] 
+of $B \times \mathbb{R}^N$, which is the $n$-fold [[suspension]]/[[smash product]] of $B_+$ with the circle, $\Sigma^n B_+ = S^N \wedge B$.
+
+
+$$
+  B \times \mathbb{R}^n \to \Sigma^N B_+ \stackrel{\tau}{\to} Th(N_e(E))
   \,,
 $$
 
-where
+This defines a morphism
 
-* $\nu$ is the [[normal bundle]] of $e$;
+$$
+  \tau : \Sigma^N B_+ \stackrel{}{\to} Th(N_e(E))
+  ,.
+$$
 
-* $E^\nu = D(\nu)/S(\nu)$ is the [[Thom space]] of $\nu$.
-
-Now let $H$ be some [[generalized (Eilenberg-Steenrod) cohomology]] theory, and assume that the Thom space $E^\nu$ has an $H$-[[orientation in generalized cohomology|orientation]], so that we have a  [[Thom isomorphism]]. Then combined with the [[suspension isomorphism]] the pullback along $\tau$ produces a morphism
+Now let $H$ be some [[multiplicative cohomology theory]], and assume that the Thom space $Th(N_e(E))$ has an $H$-[[orientation in generalized cohomology|orientation]], so that we have a  [[Thom isomorphism]]. Then combined with the [[suspension isomorphism]] the pullback along $\tau$ produces a morphism
 
 $$
   \int_F : H^\bullet(E) \to H^{\bullet - dim F}(B)
 $$
 
-of cohomologies. This operation is independent of the choices involved. It is the **fiber integration** of $H$-cohomology along $p : E \to B$.
+of cohomologies
+
+$$
+  \array{
+   H^\bullet(E)
+   \\
+   \downarrow^{\mathrlap{\simeq_{Thom}}{\to}}
+   \\
+   H^{\bullet + N - dim F}(D(N_e(E)),S(N_e(E)))
+   \\
+   \downarrow^{\mathrlap{\simeq}}
+   \\
+   \tilde H^{\bullet + N - dim F}(Th(N_e(E)))
+   &
+   \stackrel{\tau^*}{\to}
+   &
+   \tilde H^{\bullet + N - dim F}(\Sigma^N B_+)
+   \\
+   && \downarrow{\mathrlap{\simeq_{suspension}}}   
+   \\
+   &&
+   H^{\bullet - dim F}(B)
+   }
+   \,.
+$$
+
+
+This operation is independend of the choices involved. It is the **fiber integration** of $H$-cohomology along $p : E \to B$.
 
 ## Examples
 
 ...
 
 ## References
+
+A quick summary can be found from [slide 14](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=14) on in
+
+* [[Robin Koytcheff]], _A homotopy-theoretic view of Bott-Taubes integrals_ ([pdf slides](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf))
 
 ...
