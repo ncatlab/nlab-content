@@ -108,15 +108,17 @@ $$
 
 to be thought of as the assignment to each _value space_ $v \in V$ of an $(\infty,1)$-sheaf  of $v$-valued functions on $S$ (on $X$ if $S = Op(X)$).
 
-But since we are taking care of the sheaf condition on $S$, we also want to allow a similar kind of co-sheaf condition on $V$. In order to do so, $V$ is taken to be equipped with extra structure encoding covers in $V$, and $O_X$ is then required to respect this structure suitably
+But since we are taking care of the sheaf condition on $S$, we also want to allow a similar kind of co-sheaf condition on $V$. In order to do so, $V$ is taken to be equipped with extra structure encoding covers in $V$, and $O_X$ is then required to respect this structure suitably.
 
+
+### Geometries and admissibility structure
 
 +-- {: .un_defn}
 ###### Definition An **admissiblility structure** on an $(\infty,1)$-category $V$ is 
 
 * a choice of [[sub-quasi-category|sub (∞,1)-category]] $V^{ad} \hookrightarrow V$, whose morphisms are to be called the **admissible morphisms**, such that
 
-  * for every admssible morphism $U \to X$ and any morphism $X' \to X$ there is a diagram
+  * for every admissible morphism $U \to X$ and any morphism $X' \to X$ there is a diagram
 
     $$  
       \array{
@@ -144,10 +146,7 @@ But since we are taking care of the sheaf condition on $S$, we also want to allo
 
     with $X \to Z$ and $Y \to Z$ admissible, also $X \to Y$ is admissible ([[category with weak equivalences|2-out-of-3 property]]).
 
-* a choice of [[coverage]] on $V$ by admissible covering morphisms.
-
-  This choice of coverage, and not just the [[Grothendieck topology]] on $V$ that it generates, is part of the datum of the admissibility structure.
-
+* a [[Grothendieck topology]] on $V$ which has the property that it is generated from a [[coverage]] consisting of admissible morphisms.
 
 =--
 
@@ -162,6 +161,7 @@ This is [[Structured Spaces|StrSh, def 1.2.1]] in view of remark 1.2.4 below tha
 An $(\infty,1)$-category $V$ equipped with an admissiblility structure is a **geometry** if it is essentially small, admits finite limits and is [[idempotent complete (infinity,1)-category|idempotent complete]].
 =--
 
+### Structure sheaves
 
 +-- {: .un_defn}
 ###### Definition ([StrSh, def 1.2.8](http://arxiv.org/abs/0905.0459))
