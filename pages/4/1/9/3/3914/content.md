@@ -33,6 +33,8 @@ $$
 
 This is called the [[Thom isomorphism]].
 
+The existence of an $H$-orientation is necessary in order to have a notion of [[fiber integration]] in $H$-cohomology.
+
 ## References
 
 * [[eom]], _[Orientation](http://eom.springer.de/o/o070200.htm)_
