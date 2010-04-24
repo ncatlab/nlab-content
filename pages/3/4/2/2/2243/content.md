@@ -6,7 +6,7 @@
 
 * [[characteristic class]]
 
-* [[fibration sequence]]
+* [[fiber sequence]]/long sequence in cohomology
 
 ### special and general types ###
 
