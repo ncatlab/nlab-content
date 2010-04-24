@@ -49,6 +49,6 @@ of the bundle projection.
 
 * [[Dave Husemöller]], _Fibre bundles_ , McGraw-Hill  (1966)
 
-* [[Michael Atiyah]],   "Thom complexes"  Proc. London Math. Soc. , 11  (1961)  pp. 291&#8211;310
+* [[Michael Atiyah]], _Thom complexes_, Proc. London Math. Soc. __11__  (1961)  pp. 291&#8211;310
 
-
+* Yuli B. [[Rudyak]], _On Thom spectra, orientability, and cobordism_, Springer 1998 [googB](http://books.google.hr/books?isbn=3540620435)
