@@ -8,7 +8,7 @@
 
 * [[fiber sequence]]/long sequence in cohomology
 
-### special and general types ###
+### Special and general types ###
 
 * [[chain homology and cohomology|cochain cohomology]]
 
@@ -66,7 +66,7 @@
 
 * [[?ech cohomology]]
 
-### variants ###
+### Variants ###
 
 * [[equivariant cohomology]]
 
@@ -104,10 +104,13 @@
 
 * [[relative cohomology]]
 
-### operations ###
+### Operations ###
 
 * [[cup product]]
 
+* [[fiber integration]]
+
+  * [[orientation]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/cohomology+-+contents)</div>
