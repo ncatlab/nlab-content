@@ -1,5 +1,13 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea/Definition
+
 A **Gaudin integrable model** is a special case of [[Hitchin integrable system]] where the [[spectral curve]] is [[elliptic curve|elliptic]]. 
+
+## References
 
 * O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 * [[Boris Feigin]], [[Edward Frenkel]], [[Valerio Toledano Laredo]], _Gaudin models with irregular singularities_, [math.QA/0612798](http://arxiv.org/abs/math/0612798)
