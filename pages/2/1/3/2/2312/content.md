@@ -14,6 +14,14 @@ A [[cohomology theory]] $E$ is called _multiplicative_ if $E^\bullet(X)$ is not 
 
 This is in particular the case when the [[spectrum]] $E$ [[Brown representability theorem|representing]] the [[cohomology theory]] is an [[E-∞ ring]] spectrum.
 
+## Related concepts
+
+* [[Thom isomorpism]]
+
+* [[orientation in generalized cohomology]]
+
+* [[fiber integration]]
+
 ## Examples
 
 * [[integral cohomology]]
