@@ -21,7 +21,7 @@ Here is the rough outline of the construction:
 
 Let $p : E \to B$ be a [[bundle]] of smooth compact [[manifold]]s with typical [[fiber]] $F$. 
 
-By the [[xyz-embedding theorem]] one can choose an embedding $e:E \hookrightarrow \mathbb{R}^n$ for some $n \in \mathbb{N}$. From this one obtains an embedding
+By the [[Whitney embedding theorem]] one can choose an embedding $e:E \hookrightarrow \mathbb{R}^n$ for some $n \in \mathbb{N}$. From this one obtains an embedding
 
 $$
   (p,e) : E \hookrightarrow B \times \mathbb{R}^n
@@ -37,11 +37,12 @@ $$
   \to 
   B \times \mathbb{R}^n / (B \times \mathbb{R}^n - N_{(p,e)}(E))
   \simeq
-  Th(N_e(E))
+  Th(N_{(p,e)}(E))
 $$
- factors through the [[one-point compactification]] $(B \times \mathbb{R}^n)^*$
+
+factors through the [[one-point compactification]] $(B \times \mathbb{R}^n)^*$
 of $B \times \mathbb{R}^n$. Since $(B \times \mathbb{R}^n)^*\cong \Sigma^n B_+$,
-the $n$-fold [[suspension]] of $B_+$ (or, equivalently, the [[smash product]] of $B$ with the $n$-sphere: $\Sigma^n B_+= S^n \wedge B$), we obtain a factorization
+the $n$-fold [[suspension]] of $B_+$ (or, equivalently, the [[smash product]] of $B$ with the $n$-sphere: $\Sigma^n B_+= S^n \wedge B_+$), we obtain a factorization
 $$
   B \times \mathbb{R}^n \to \Sigma^n B_+ \stackrel{\tau}{\to} Th(N_{(p,e)}(E))
   \,,
