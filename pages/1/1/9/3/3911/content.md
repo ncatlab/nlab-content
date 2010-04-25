@@ -47,14 +47,26 @@ $$
   B \times \mathbb{R}^n \to \Sigma^n B_+ \stackrel{\tau}{\to} Th(N_{(p,e)}(E))
   \,,
 $$
-where $\tau$ is called the 
-[[Pontrjagin-Thom collaps map]].
+where $\tau$ is called the [[Pontrjagin-Thom collaps map]].
 
-This defines a morphism
+Explicitly, as sets we have $\Sigma^n B_+ \simeq B \times \mathbb{R}^n \cup \{\infty\}$ and $Th(N_{(e,p)}(E)) = N_{(e,p)} \cup \{\infty\}$, and for $U \subset \Sigma^n B_+$ a tubular neightbourhood of $E$ and $\phi : U \to D(N_{(e,p)}(E))$ an isomorphism, the map 
 
 $$
   \tau : \Sigma^n B_+ \stackrel{}{\to} Th(N_{(p,e)}(E))
-  ,.
+$$
+
+is defined by
+
+$$
+  \tau : x \mapsto 
+  \left\{
+    \array{
+      \phi(x) & | x \in U
+      \\
+      \infty & | otherwise
+    }
+  \right.
+  \,.
 $$
 
 Now let $H$ be some [[multiplicative cohomology theory]], and assume that the Thom space $Th(N_{(p,e)}(E))$ has an $H$-[[orientation in generalized cohomology|orientation]], so that we have a  [[Thom isomorphism]]. Then combined with the [[suspension isomorphism]] the pullback along $\tau$ produces a morphism
