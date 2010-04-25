@@ -161,6 +161,8 @@ This is [[Structured Spaces|StrSh, def 1.2.1]] in view of remark 1.2.4 below tha
 An $(\infty,1)$-category $V$ equipped with an admissiblility structure is a **geometry** if it is essentially small, admits finite limits and is [[idempotent complete (infinity,1)-category|idempotent complete]].
 =--
 
+The admissible morphisms in an admissibility structure are roughly to be thought of as those morphisms that behave as _open immersions_ ,
+
 
 ### Structure sheaves
 
@@ -196,8 +198,43 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
 
+### Local morphisms between structure sheaves {#LocalMorphisms}
 
+**Notice**. The $(\infty,1)$-category $Str_{\mathcal{G}}(\mathcal{X})$
+of $\mathcal{G}$-structure sheaves on an $(\infty,1)$-topos $\mathcal{X}$ 
+does _not_ depend on the admissibility structure of $\mathcal{G}$, but only on the [[Grothendieck topology]] induced by it. 
 
+(See [[Structured Spaces|StrSp, remark below prop. 1.4.2]]).
+
+The admissibility structure does serve to allow the following definition
+
++-- {: .un_defn}
+###### Definition 
+**(local morphism of structure sheaves)**
+
+A [[natural transformation]] $\eta : \mathcal{O} \to \mathcal{O}' : \mathcal{G} \to \mathcal{X}$ of structure sheaves is **local** if for every admissible morphism $U \to X$ in $\mathcal{G}$ the naturality diagram
+
+$$
+  \array{
+    \mathcal{O}(U) &\stackrel{\eta(U)}{\to}& \mathcal{O}'(U)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathcal{O}(X) &\stackrel{\eta(X)}{\to}& \mathcal{O}'(X)
+  }
+$$
+
+is a [[limit in a quasi-category|pullback square]] in $\mathcal{X}$.
+
+Write
+
+$$
+  Str^{loc}_{\mathcal{G}}(\mathcal{X}) \subset Str_{\mathcal{G}}(\mathcal{X})
+$$
+
+for the [[sub-quasi-category|sub-(∞,1)-category]] of $\mathcal{G}$-structures on $\mathcal{X}$ spanned by local transformations between them.
+
+=--
 
 ## Examples
 
