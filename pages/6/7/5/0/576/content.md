@@ -11,7 +11,7 @@ A _$\dagger$-compact category_ is a category which is a
 
 and 
 
-* a $\dagger$-[[dagger-category|category]] 
+* a [[symmetric monoidal dagger-category]] 
 
 in a compatible way.
 
@@ -26,7 +26,7 @@ So notably it is a [[monoidal category]] in which
 
 ## Definition
 
-A category $C$ which is equipped with the structure of a $\dagger$-[[dagger-compact category|category]] and of a [[compact closed category]] is **$\dagger$-compact closed** if the dagger-operation takes units of dual objects to counits in that for every object $A$ of $C$ we have
+A category $C$ that is equipped with the structure of a [[symmetric monoidal dagger-category]] and is [[compact closed category|compact closed]] is **$\dagger$-compact** if the dagger-operation takes units of dual objects to counits in that for every object $A$ of $C$ we have
 $$
   \array{
     && A \otimes A^*
