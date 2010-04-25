@@ -21,43 +21,42 @@ Here is the rough outline of the construction:
 
 Let $p : E \to B$ be a [[bundle]] of smooth compact [[manifold]]s with typical [[fiber]] $F$. 
 
-By the [[xyz-embedding theorem]] one can choose an embedding $E \hookrightarrow \mathbb{R}^N$ for some $N \in \mathbb{N}$. From this one obtains an embedding
+By the [[xyz-embedding theorem]] one can choose an embedding $e:E \hookrightarrow \mathbb{R}^n$ for some $n \in \mathbb{N}$. From this one obtains an embedding
 
 $$
-  e : E \stackrel{(e,p)}{\hookrightarrow} B \times \mathbb{R}^n
+  (p,e) : E \hookrightarrow B \times \mathbb{R}^n
   \,.
 $$
 
-Let $N_e (E)$ be the [[normal bundle]] of $E$ relative to this $e$. This has rank $N - dim F$.
+Let $N_{(p,e)} (E)$ be the [[normal bundle]] of $E$ relative to this embedding. It is a rank $n- dim F$ bundle over the image of $E$ in $B \times \mathbb{R}^n$.
 
-Then the quotient map
+Fix a tubular neighborhood of $E$ in $B \times \mathbb{R}^n$ and identify it with the total space of $N_{(p,e)}$. Then collapsing the whole $B \times \mathbb{R}^n - N_{(p,e)}(E)$ to a point gives the [[Thom space]] of $N_{(p,e)}(E)$, and the quotient map
 
 $$
   B \times \mathbb{R}^n 
   \to 
-  B \times \mathbb{R}^n / (B \times \mathbb{R}^n - N_e(E))
+  B \times \mathbb{R}^n / (B \times \mathbb{R}^n - N_{(p,e)}(E))
   \simeq
   Th(N_e(E))
 $$
-
-to the [[Thom space]] of the normal bundle factors as the
-[[Pontrjagin-Thom collaps map]] through the [[one-point compactification]] 
-of $B \times \mathbb{R}^N$, which is the $n$-fold [[suspension]]/[[smash product]] of $B_+$ with the circle, $\Sigma^n B_+ = S^N \wedge B$.
-
-
+ factors through the [[one-point compactification]] $(B \times \mathbb{R}^n)^*$
+of $B \times \mathbb{R}^n$. Since $(B \times \mathbb{R}^n)^*\cong \Sigma^n B_+$,
+the $n$-fold [[suspension]] of $B_+$ (or, equivalently, the [[smash product]] of $B$ with the $n$-sphere: $\Sigma^n B_+= S^n \wedge B$), we obtain a factorization
 $$
-  B \times \mathbb{R}^n \to \Sigma^N B_+ \stackrel{\tau}{\to} Th(N_e(E))
+  B \times \mathbb{R}^n \to \Sigma^n B_+ \stackrel{\tau}{\to} Th(N_{(p,e)}(E))
   \,,
 $$
+where $\tau$ is called the 
+[[Pontrjagin-Thom collaps map]].
 
 This defines a morphism
 
 $$
-  \tau : \Sigma^N B_+ \stackrel{}{\to} Th(N_e(E))
+  \tau : \Sigma^n B_+ \stackrel{}{\to} Th(N_{(p,e)}(E))
   ,.
 $$
 
-Now let $H$ be some [[multiplicative cohomology theory]], and assume that the Thom space $Th(N_e(E))$ has an $H$-[[orientation in generalized cohomology|orientation]], so that we have a  [[Thom isomorphism]]. Then combined with the [[suspension isomorphism]] the pullback along $\tau$ produces a morphism
+Now let $H$ be some [[multiplicative cohomology theory]], and assume that the Thom space $Th(N_{(p,e)}(E))$ has an $H$-[[orientation in generalized cohomology|orientation]], so that we have a  [[Thom isomorphism]]. Then combined with the [[suspension isomorphism]] the pullback along $\tau$ produces a morphism
 
 $$
   \int_F : H^\bullet(E) \to H^{\bullet - dim F}(B)
@@ -71,15 +70,15 @@ $$
    \\
    \downarrow^{\mathrlap{\simeq_{Thom}}{\to}}
    \\
-   H^{\bullet + N - dim F}(D(N_e(E)),S(N_e(E)))
+   H^{\bullet + n - dim F}(D(N_{(p,e)}(E)),S(N_{(p,e)}(E)))
    \\
    \downarrow^{\mathrlap{\simeq}}
    \\
-   \tilde H^{\bullet + N - dim F}(Th(N_e(E)))
+   \tilde H^{\bullet + n - dim F}(Th(N_{(p,e)}(E)))
    &
    \stackrel{\tau^*}{\to}
    &
-   \tilde H^{\bullet + N - dim F}(\Sigma^N B_+)
+   \tilde H^{\bullet + n - dim F}(\Sigma^n B_+)
    \\
    && \downarrow{\mathrlap{\simeq_{suspension}}}   
    \\
