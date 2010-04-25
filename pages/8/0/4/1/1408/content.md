@@ -236,6 +236,65 @@ for the [[sub-quasi-category|sub-(∞,1)-category]] of $\mathcal{G}$-structures 
 
 =--
 
+### The $(\infty,1)$-category of $\mathcal{G}$-structured $(\infty,1)$-toposes {#CatOfStructuredToposes}
+
+Let $(\infty,1)Toposes \subset $ [[(∞,1)Cat]]  be the [[sub-quasi-category|sub (∞,1)-category]] of [[(∞,1)-topos]]es: objects are [[(∞,1)-topos]]es, morphisms are [[geometric morphism]]s.
+
+Write $LTop := (\infty,1)Toposes^{op}$.
+
++-- {: .un_defn}
+###### Definition 
+**($(\infty,1)$-category of $\mathcal{G}$-structured $(\infty,1)$-toposes)**
+
+For $\mathcal{G}$ a geometry, the $(\infty,1)$-category of
+$\mathcal{G}$-structured $(\infty,1)$-toposes 
+
+$$
+  LTop(\mathcal{G})
+$$
+
+is defined as follows.
+
+It is the [[sub-quasi-category|sub (∞,1)-category]] 
+
+$$
+  LTop(\mathcal{G})
+  \subset
+  Func(\mathcal{G}, E LTop) \times_{Func(\mathcal{G}, LTop)} LTop
+  \,,
+$$
+
+where $E LTop \to LTop$ is the [[coCartesian fibration]] associated by the [[(∞,1)-Grothendieck construction]] to the inclusion functor $LTop \hookrightarrow (\infty,1)Cat$, spanned by the following objects and morphisms:
+
+* objects are $\mathcal{G}$-structures $\mathcal{O} : \mathcal{G} \to \mathcal{X}$ on some $(\infty,1)$-topos $\mathcal{X}$:
+
+  an object in 
+  $Func(\mathcal{G}, E LTop) \times_{Func(\mathcal{G}, LTop)} LTop$ is an object $\mathcal{X} \on LTop$ together with a functor $\mathcal{G} \to E LTop|_{\mathcal{X}}$ into the fiber of $E Top$ over that object; but that fiber is $\mathcal{X}$ itself, so an object in the fiber product is a functor $\mathcal{G} \to \mathcal{X}$ and this is in $LTop(\mathcal{G})$ if it is a $\mathcal{G}$-structure on $\mathcal{X}$;
+
+* morphisms $\alpha : \mathcal{O} \to \mathcal{O}'$ 
+  are _local_ morphisms of $\mathcal{G}$-structures: 
+
+  for $f^* : \mathcal{X} \to \mathcal{Y}$ the image of $\alpha$ in $LTop$,
+  $\alpha$ is in $LTop(\mathcal{G})$ precisely if for every admissible morphism $U \to X$ in $\mathcal{G}$ the square
+
+  $$
+    \array{
+     f^* \mathcal{O}(U) &\to& f^*\mathcal{O}(X)
+     \\
+     \downarrow^{} && \downarrow^{}
+     \\
+     \mathcal{O}'(U) &\to& \mathcal{O}'(X)
+    }
+  $$
+
+  is a pullback square in $\mathcal{Y}$.
+
+=--
+
+This is [[Structured Spaces|StrSp, def 1.4.8]]
+
+
+
 ## Examples
 
 ### Structure sheaves of continuous functions {#StrSheafOfcontFuncts}
