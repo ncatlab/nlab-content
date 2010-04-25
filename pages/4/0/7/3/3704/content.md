@@ -14,7 +14,7 @@
 
 Crucial aspects of [[quantum mechanics]] and [[quantum computation]] follow formally from the formal properties of the [[category]] [[Hilb]] of [[Hilbert space]]s. These properties are axomatized by saying that [[Hilb]] is an example of a [[†-compact category]].
 
-Conversely, Much of quanrtum mechanics and quantum computation can be formulated in _any_ &#8224;-compact category, and general reasoning about &#8224;-compact categories themselves yields results about quantum mechanics and quantum computation.
+Conversely, much of quantum mechanics and quantum computation can be formulated in _any_ &#8224;-compact category, and general reasoning about &#8224;-compact categories themselves yields results about quantum mechanics and quantum computation.
 
 A nice [[string diagram]] calculus in &#8224;-compact categories as exposed in
 
@@ -44,20 +44,22 @@ In
 
 * [[Jamie Vicary]], _Completeness and the complex numbers_ ([arXiv:0807.2927](http://arxiv.org/abs/0807.2927)) 
 
-it is shown that In $\dagger$-compact categories with all finite limits over certain "tree-like" diagrams compatible with the $\dagger$-structure, this $\mathbb{C}_C$ has the properties that
+it is shown that in $\dagger$-compact categories with all finite limits over certain "tree-like" diagrams compatible with the $\dagger$-structure, this $\mathbb{C}_C$ has the properties that
 
 * it is a [[field]] of characteristic 0 with involution $\dagger$;
 
 * the subfield $\mathbb{R}_R$ fixed under $\dagger$ is orderable.
 
-If furthermore every bounded sequence of measurements in $C$ with values in $\mathbbf{R}_C$ has a least upper bound, then it follows that this coincides with the [[complex number]]s and the [[real number]]s 
+If furthermore every bounded sequence of measurements in $C$ with values in $\mathbb{R}_C$ has a least upper bound, then it follows that this field coincides with the [[complex number]]s 
 
 $$
   \mathbb{C}_C = \mathbb{C}
 $$
 
+and moreover
+
 $$
-  \mthbb{R}_C = \mathbb{R}
+  \mathbb{R}_C = \mathbb{R}
   \,.
 $$
 
@@ -71,8 +73,6 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 * [[Bob Coecke]], _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
 
-
-### More
 
 ## References
 
