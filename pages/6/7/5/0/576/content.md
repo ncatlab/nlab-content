@@ -11,7 +11,7 @@ A _$\dagger$-compact category_ is a category which is a
 
 and 
 
-* a $\dagger$-[[dagger-compact category|category]] 
+* a $\dagger$-[[dagger-category|category]] 
 
 in a compatible way.
 
