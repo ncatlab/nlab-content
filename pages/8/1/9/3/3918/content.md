@@ -32,6 +32,26 @@ $$
 $$
 The space $S^m_{\rho, \delta}$ is called the space of **symbols of order $m$ and of type $(\rho, \delta)$**.
 
+It is easy to see that every space $S^m_{\rho, \delta}$ is a Fr&#233;chet space: every $X \subset \mathbb{R}^n$ open has a compact exhaustion, that is an increasing sequence $(K_i)$ with each $K_i \subset X$ compact such that $\bigcup_{i = 1}^{\infty} K_i = X$, and one can define a countable family of seminorms via
+
+$$
+P_{K_i, \alpha, \beta} = \operatorname{sup}_{(x, \theta) \in K_i \times \mathbb{R}^n} \frac{ | \partial^{\alpha}_x \, \partial^{\beta}_{\theta} \, a(x, \theta)|}{(1 + | \theta |)^{m - \rho | \beta | + \delta | \alpha |}}
+$$
+
+The space of symbols of order $- \infty$ is defined to be
+$$
+    S^{- \infty} = \bigcap_{m \in \mathbb{R}} S^m_{\rho, \delta}
+$$
+
+Conversly the symbols of order $\infty$ are defined by
+
+$$
+    S^{\infty} = \bigcup_{m \in \mathbb{R}} S^m_{\rho, \delta}
+$$
+
+Symbols of order $- \infty$ are often called **smoothing** and their operators **smoothing operators**. The reason for this is that their pseudodifferential operators map distribution spaces into spaces of smooth functions, for example:
+
+* smoothing theorem: The pseudodifferential operator of a smoothing symbol maps $\mathcal{E}'$, the dual space of $C^{\infty}$, into $\mathcal{S}$, the Schwartz space of rapidly decreasing smooth functions.
 
 #References
 
