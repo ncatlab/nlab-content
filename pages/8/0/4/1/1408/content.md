@@ -241,8 +241,8 @@ Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for
    
    is an epimorphism of sets. But this just says that given
    any function $f : U_x \to V$ on a neighbourhood $U_x$ of $x$, 
-   there is a smaller neighbourhood $V_x \subset U_x$ such that 
-   the restriction $f|_{V_x}$ factors either through $V_1$ or
+   there is a smaller neighbourhood $W_x \subset U_x$ such that 
+   the restriction $f|_{W_x}$ factors either through $V_1$ or
    through $V_1$. This is clearly the case by the fact that $V_1,V_2$
    form an open cover. (A neighbourhood  of $f(x) \in V$ exists which
    is contained in $V_1$ or in $V_2$, so take its preimage under
