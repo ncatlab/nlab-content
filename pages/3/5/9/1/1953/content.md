@@ -36,5 +36,9 @@ A [[scheme]] $S$, i.e. a scheme over the ground ring $k$, is a [[formally smooth
 
 There is also an interpretation of formal smoothness via the formalism of [[Q-categories]].
 
+## Further sources
+
+* [MO:is-formal-smoothness-a-local-property](http://mathoverflow.net/questions/22393/is-formal-smoothness-a-local-property)
+
 [[!redirects formal smoothness]]
 [[!redirects formally smooth]]
