@@ -219,7 +219,7 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 The standard reference on enriched categories is
 
-* G. M. Kelly, _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* [[Max Kelly]], _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 
 
