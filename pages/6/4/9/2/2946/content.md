@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
 #Contents#
 * automatic toc goes here
 {:toc}
