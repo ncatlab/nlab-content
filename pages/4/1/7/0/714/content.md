@@ -27,7 +27,7 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 
 ### Dagger categories
 
-A **dagger category** is a [[category]] $C$ equipped with a contravariant functor
+A **dagger category**, or &#8224;-category, is a [[category]] $C$ equipped with a contravariant functor
 $$
   \dagger : C \to C
 $$
