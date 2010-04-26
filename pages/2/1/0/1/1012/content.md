@@ -38,7 +38,14 @@ equals the [[identity morphism]] on $X$.
 These can be a little more complicated; see [[quasigroup]] for some discussion of the one-object version.
 
 
+[[!redirects inverse]]
+[[!redirects inverses]]
 [[!redirects inverse element]]
+[[!redirects inverse elements]]
 [[!redirects invertible element]]
+[[!redirects invertible elements]]
+
 [[!redirects inverse morphism]]
+[[!redirects inverse morphisms]]
 [[!redirects invertible morphism]]
+[[!redirects invertible morphisms]]
