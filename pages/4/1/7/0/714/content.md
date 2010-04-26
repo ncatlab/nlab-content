@@ -207,7 +207,7 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 
 
-## Exztensions and generalizations
+## Extensions and generalizations
 
 ### Model structure on &#8224;-categories {#ModelStructure}
 
