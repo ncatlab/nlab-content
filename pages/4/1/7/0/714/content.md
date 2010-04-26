@@ -41,7 +41,7 @@ Note that regarded as an extra structure on categories, a &#8224;-structure is [
 +-- {: .un_defn}
 ###### Definition
 
-A morphism $f$ in a &#8224;-category is called **unitary** if its &#8224;-adjoint equals its [[inverse]]:
+A morphism $f$ in a &#8224;-category is called **[[unitary morphism]]** if its &#8224;-adjoint equals its [[inverse]]:
 
 $$
   f^\dagger = f^{-1}
