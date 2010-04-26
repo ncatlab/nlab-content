@@ -19,9 +19,9 @@ More concrete examples are:
 
 A _dagger structure_ on a category is extra structure which encodes the idea of _removing_ the ordering information on the 0-faces of 1-cells in a category: it is is a contravariant functor which sends every morphism $f : a \to b$ to a morphims going the other way, $f^\dagger : b \to a$.
 
-The notation and terminology here is motivated from the example [[Hilb]] of Hilbert spaces, where $f^\dagger$ is traditionally the notion for the adjoint of a linear map $f$.  The canonical dagger-structure on [[Hilb]] and on [[nCob]] is crucial in [[FQFT|quantum field theory]] where it is used to encode the idea of **unitarity**:
+The notation and terminology here is motivated from the example [[Hilb]] of Hilbert spaces, where $f^\dagger$ is traditionally the notion for the adjoint of a linear map $f$.  The canonical &#8224;-structure on [[Hilb]] and on [[nCob]] is crucial in [[FQFT|quantum field theory]] where it is used to encode the idea of **unitarity**:
 
-a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor $n Cob \to Hilb$ which respects the dagger-structure on both sides.
+a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor $n Cob \to Hilb$ which respects the &#8224;-structure on both sides.
 
 ## Definition
 
@@ -33,7 +33,7 @@ $$
 $$
 which is the identity on objects, and which satisfies $\dagger \circ \dagger = \mathrm{id}_C$.
 
-Note that regarded as an extra structure on categories, a dagger structure is [[evil]], since it imposes equations on objects.
+Note that regarded as an extra structure on categories, a &#8224;-structure is [[evil]], since it imposes equations on objects.
 
 
 ### Unitary morphisms
@@ -41,7 +41,7 @@ Note that regarded as an extra structure on categories, a dagger structure is [[
 +-- {: .un_defn}
 ###### Definition
 
-A morphism $f$ in a dagger category is called **unitary** if its dagger-adjoint equals its [[inverse]]:
+A morphism $f$ in a &#8224;-category is called **unitary** if its &#8224;-adjoint equals its [[inverse]]:
 
 $$
   f^\dagger = f^{-1}
@@ -61,27 +61,27 @@ For example, in [[Hilb]], there are many invertible linear operators, but only t
 
 
 
-### The category of dagger-categories {#CatOfDagCats}
+### The category of &#8224;-categories {#CatOfDagCats}
 
-A morphism $F : (C, \dagger) \to (D, \ddagger)$ of dagger-categories -- a **dagger-functor** -- is a [[functor]] $F : C \to D$ of the underlying categories, which commutes with the dagger-structures in that
+A morphism $F : (C, \dagger) \to (D, \ddagger)$ of &#8224;-categories -- a **&#8224;-functor** -- is a [[functor]] $F : C \to D$ of the underlying categories, which commutes with the &#8224;-structures in that
 
 $$
   F \circ \dagger = \ddagger \circ F
   \,.
 $$
 
-A [[natural transformation]] between dagger-functors is just a natural transformation of the underlying functors. 
+A [[natural transformation]] between &#8224;-functors is just a natural transformation of the underlying functors. 
 
 +-- {: .un_defn}
 ###### Definition
 
-The dagger-adjoint $\eta^*$ of a natural transformation 
+The &#8224;-adjoint $\eta^*$ of a natural transformation 
 
 $$
   \eta : F \to G 
 $$
 
-between two dagger-functors $F, G : (C,\dagger) \to (D,\ddagger)$ is given by the componentwise $\ddagger$-adjoint:
+between two &#8224;-functors $F, G : (C,\dagger) \to (D,\ddagger)$ is given by the componentwise $\ddagger$-adjoint:
 
 $$
   (\eta^*)_a := (\eta_a)^\ddagger
@@ -129,16 +129,16 @@ $$
   }
 $$
 
-by the fact that $F$ and $G$ are dagger-functors. This is the naturality square over $f$ of $\eta^* : G \to F$.
+by the fact that $F$ and $G$ are &#8224;-functors. This is the naturality square over $f$ of $\eta^* : G \to F$.
 
 
 +-- {: .un_def}
 ###### Definition
 
-Write $DagCat$ for the [[category]] whose objects are dagger-categories and whose morphisms are dagger-functors.
+Write $DagCat$ for the [[category]] whose objects are &#8224;-categories and whose morphisms are &#8224;-functors.
 
-For $(C,\dagger)$ and $(D,\dagger)$ two dagger-categories, write 
-$([(C,\dagger),(D,\ddagger)]_{dag}, \star) \in DagCat$ for the dagger-category whose objects are dagger-functors, whose morphisms are natural transformations, with the dagger-operation $\star : \eta \mapsto \eta^*$ as above.
+For $(C,\dagger)$ and $(D,\dagger)$ two &#8224;-categories, write 
+$([(C,\dagger),(D,\ddagger)]_{dag}, \star) \in DagCat$ for the &#8224;-category whose objects are &#8224;-functors, whose morphisms are natural transformations, with the &#8224;-operation $\star : \eta \mapsto \eta^*$ as above.
 
 =--
 
@@ -158,9 +158,9 @@ that makes $DagCat$ into a [[cartesian closed category]].
 +-- {: .proof}
 ###### Proof
 
-This follows step-by-step the standard proof that [[Cat]] is cartesian closed, while observing that each step respects the respect for dagger-structures.
+This follows step-by-step the standard proof that [[Cat]] is cartesian closed, while observing that each step respects the respect for &#8224;-structures.
 
-To indicate the main point, let $C, D$ and $E$ be dagger categories and consider a functor $F : C \times D \to E$. For $(f : c_1 \to c_2) \in C$ and $(g : d_1 \to d_2) \in D$ we have natural assignments
+To indicate the main point, let $C, D$ and $E$ be &#8224;-categories and consider a functor $F : C \times D \to E$. For $(f : c_1 \to c_2) \in C$ and $(g : d_1 \to d_2) \in D$ we have natural assignments
 
 $$
   \array{
@@ -188,7 +188,7 @@ $$
 
 that respect daggering all morphisms, in the evident way.
 
-Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \to E$ dagger functors. We see from the diagrams that $F(-,(d_1 \stackrel{g}{\to}) d_2)$ is a natural transformation between these dagger-functors, and the fact that $F$ intertwines the dagger operation of $D$ with that of $E$ means $F$ regarded as a functor $D \to [C,E]$ intertwines the dagger-structures of $D$ and $[D,E]_{dag}$, by the above definition.
+Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \to E$ &#8224;-functors. We see from the diagrams that $F(-,(d_1 \stackrel{g}{\to}) d_2)$ is a natural transformation between these &#8224;-functors, and the fact that $F$ intertwines the dagger operation of $D$ with that of $E$ means $F$ regarded as a functor $D \to [C,E]$ intertwines the &#8224;-structures of $D$ and $[D,E]_{dag}$, by the above definition.
 
 =--
 
@@ -199,28 +199,28 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 ## Examples
 
-* The category [[Rel]] of sets and [[relations]] is a dagger category, taking dagger as relational converse.
+* The category [[Rel]] of sets and [[relations]] is a &#8224;-category, taking dagger as relational converse.
 
-* More generally, let $C$ be a category with [[pullbacks]] and let $Span_1(C)$ be the 1-category of [[spans]] up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a dagger-structure on $Span_1(C)$.
+* More generally, let $C$ be a category with [[pullbacks]] and let $Span_1(C)$ be the 1-category of [[spans]] up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a &#8224;-structure on $Span_1(C)$.
 
-* $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a dagger category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
+* $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a &#8224;-category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
 
 
 
 ## Exztensions and generalizations
 
-### Model structure on dagger-categories {#ModelStructure}
+### Model structure on &#8224;-categories {#ModelStructure}
 
 > the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
 
-Consider dagger-categories from the point of view of [[homotopy theory]].
+Consider &#8224;-categories from the point of view of [[homotopy theory]].
 
 Recall that the category [[Cat]] of [[small category|small categories]] naturally admits the [[model category]] structure called the [[folk model structure on Cat]].
 
-The category of small dagger categories $DCat$ also admits
+The category of small &#8224;-categories $DCat$ also admits
 a "natural" [[model category]] structure: 
 
-* dagger functor $f:A \to B$ is a weak equivalence iff it is 
+* &#8224;-functor $f:A \to B$ is a weak equivalence iff it is 
 
   * [[full and faithful functor|full and faithful]];
 
@@ -236,31 +236,31 @@ but it is not a [[Quillen adjunction|right Quillen functor]] with respect to the
 Moreover, a forgetful functor $XStruc \to Cat$ should reflect
 weak equivalences in addition to preserving them.
 The forgetful functor $DCat\to Cat$ preserves weak equivalences
-but it does not reflect them. Because two objects in a dagger category can be isomorphic without been unitary isomorphic.
+but it does not reflect them. Because two objects in a &#8224;-category can be isomorphic without been unitary isomorphic.
 
 In other words the forgetful functor $DCat\to Cat$ is wrong.
-This may explains why a dagger category cannot be
+This may explains why a &#8224;-category cannot be
 regarded as a category equipped a homotopy invariant structure, as discussed in more detail in the example sections of the entry [[evil]].
 
 
-But the notion of dagger category is perfectly reasonable
+But the notion of &#8224;-category is perfectly reasonable
 from an homotopy theoretic point of view. This is because the model category $DCat$ is a [[combinatorial model category]].
 It follows, by a general result, that the notion of
-of dagger category is homotopy essentially algebraic
+of &#8224;-category is homotopy essentially algebraic
 There a homotopy limit sketch whose category of models (in spaces)
 is [[Quillen equivalence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
 
 
-###  $(\infty,1)$-dagger-categories {##oo1Version}
+###  $(\infty,1)$-&#8224;-categories {##oo1Version}
 
 
 > the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
 
 
-There should be a notion of dagger [[quasi-category]].
+There should be a notion of &#8224;-[[quasi-category]].
 
-A dagger [[simplicial set]] can be defined to be a simplicial set $X$ equipped with an involutive [[isomorphism]] $\dagger :X\to X^{op}$ which is the identity on 0-cells.
-The category of dagger simplicial sets (and dagger preserving maps)
+A &#8224;-[[simplicial set]] can be defined to be a simplicial set $X$ equipped with an involutive [[isomorphism]] $\dagger :X\to X^{op}$ which is the identity on 0-cells.
+The category of &#8224;-simplicial sets (and dagger preserving maps)
 is the category of [[presheaf|presheaves]] on the category whose objects are the ordinals $[n]$, but where the maps $[m]\to [n]$ are order reversing or preserving.
 
 
