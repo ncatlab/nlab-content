@@ -357,10 +357,32 @@ $$
 $$ 
 
 yielding a finitely generated but not (for $n \gt 0$) finitely presented $C^\infty$-ring. 
+
+
+
 ## Properties
 
 
-### The underlying ordinary algebra
+### Limits and colimits
+
+
++-- {: .un_prop}
+###### Proposition 
+
+All [[limit]]s and all [[directed colimit]]s in $C^\infty Ring$ are computed objectwise in $[CartSp,Set]$ as limits in [[Set]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As discussed at [[limits and colimits by example]], all [[limit]]s and [[colimit]]s in $[CartSp,Set]$ are computed objectwise, so the remaining question is if they preserve the property of functors $CartSp \to Set$ to preserved products. The claim follows from the observation that [[limit]]s and [[directed colimit]]s do commute with products.
+
+=--
+
+See also [[Models for Smooth Infinitesimal Analysis|MSIA, p. 22]].
+
+### The underlying ordinary algebra {#UnderlyingAlgebra}
 
 There is a [[stuff, structure, property|forgetful functor]] 
 
@@ -415,6 +437,54 @@ $$
 $$
 
 This makes $A(\mathbb{R})$ an $\mathbb{R}$-algebra.
+
++-- {: .un_prop}
+###### Proposition 
+
+The forgetful functor fits into an [[adjunction]]
+
+$$
+  (F \dashv U)
+  C^\infty Alg_{\mathbb{R}}
+  \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  Alg_{\mathbb{R}}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+One quick way to see that the [[left adjoint]] $F$ exists is by the 
+[[adjoint functor theorem]]: since [[limit]]s in $C^\infty Alg_{\mathbb{R}}$ are computed objectwise in $[CartSp, Set]$, the functor $U$ evidently preserves them. Moreover, $Alg_{\mathbb{R}}$ is evidently a [[locally small category]] and $C^\infty Alg_{\mathbb{R}}$ may easily be checked to be a [[cototal category]] (the left adjoint to the Yoneda embedding $C^\infty Alg_{\mathbb{R}}^{op} \hookrightarrow [C^\infty Alg_{\mathbb{R}}, Set] : A \mapsto Hom_{C^\infty Alg_{\mathbb{R}}}(A,-)$ is the functor $X \mapsto \int_{B \in C^\infty Alg_{\mathbb{R}}} \prod_{X(B)} B$.) These are sufficient conditions for the [[adjoint functor theorem]] to apply.
+
+
+This statement may be understood as a special case of the following much more general argument.
+
+A [[finitary monad]] is a [[monad]] for a [[Lawvere theory]].
+Suppose given any morphism of finitary monads $f: S \to T$. In the case under discussion $S$ will be the free algebra monad on $Set$, $T$ will be the free smooth algebra monad, and 
+
+$$f X: S X \to T X$$ 
+
+is the inclusion which takes an $X$-ary operation for the [[theory]] $S$ to the corresponding "smooth" $X$-ary operation for the theory $T$. The [[forgetful functor]] [[pullback|pulls back]] a $T$-algebra $\xi: T X \to X$ along $f X$ to obtain an $S$-algebra $\xi \circ f X: S X \to X$. 
+
+The [[left adjoint]] takes an algebra $\theta: S X \to X$ to the [[reflexive coequalizer]] of the pair 
+
+$$T S X \stackrel{\overset{(\mu_T \circ T f)X}{\to}}{\underset{T\theta}{\to}} T X$$ 
+
+living in the category of $T$-algebras, where $\mu: T T \to T$ is the monad multiplication. This may be denoted $T \circ_S X$, by analogy with tensor products. 
+
+A crucial observation that this construction works is that a finitary monad $T$ preserves reflexive coequalizers, more or less because finite power functors $x \mapsto x^n$ preserve reflexive coequalizers. Followed by a longish diagram chase which is more or less the same as for an analogous argument for modules over rings. 
+
+> check
+
+
+
+=--
+
 
 
 ### Finitely presented $C^\infty$-rings
