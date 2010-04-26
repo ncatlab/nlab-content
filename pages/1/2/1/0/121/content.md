@@ -1,5 +1,22 @@
-A _natural isomorphism_ is a [[natural transformation]] with a two-sided inverse.  A natural transformation is a natural isomorphism if and only if each of its components is an [[isomorphism].
+A _natural isomorphism_ $\eta : F \Rightarrow G$ between two [[functor]]s $F$ and $G$
 
-Two functors in a given [[functor category]] are [[isomorphism|isomorphic]] if and only if there exists a natural isomorphism between them; indeed, a natural isomorphism is precisely an isomorphism in a functor category.
+$$
+  \array{
+    &  \nearrow \searrow^{F}
+    \\
+    C &{}^{\simeq}\Downarrow^\eta& D
+    \\
+    & \searrow \nearrow_{G}
+  }
+$$
+
+is equivalently
+
+* a [[natural transformation]] with a two-sided [[inverse]];
+
+* a natural transformation each of whose components $\eta_c : F(c) \to G(c)$ for all $c \in Obj(C)$ is an [[isomorphism]] in $D$;
+
+* an [[isomorphism]] in the [[functor category]] $[C,D]$.
+
 
 If you want to speak of [[the]] functor satisfying certain conditions, then it should be unique up to unique natural isomorphism.
