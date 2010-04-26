@@ -22,7 +22,13 @@ A standard [[model category]] structure on the category of cosimplicial rings is
 
 * cofibrations are defined by their left [[lifting property]].
 
-See for instance [def 9.1, p. 18](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf#page=18) of 
+For more see [[model structure on cosimplicial algebras]].
+
+References are section 2.1 of
+
+* [[Bertrand Toen]], _Affine stacks (Champs affines)_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219)) .
+
+and  [def 9.1, p. 18](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf#page=18) of 
 
 * Castiglioni, Cortinas, _Cosimplicial versus dg-rings_ ([arXiv](http://arxiv.org/abs/math/0306289))
 
