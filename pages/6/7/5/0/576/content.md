@@ -45,8 +45,8 @@ $$
 
 ## Examples
 
-* For $C$ a [[cartesian monoidal category]] 
-the category $Span_1(C)$ of [[span]]s in $C$ is $\dagger$-compact: the $\dagger$operation is that of relabeling the legs of a span as source and target; every object $X$ is dual to itself with the unit and counit given by the span
+* For $C$ a category with [[finite limits]] 
+the category $Span_1(C)$ whose morphisms are [[span|spans]] in $C$ is $\dagger$-compact.  The $\dagger$ operation is that of relabeling the legs of a span as source and target.  The tensor product is defined using the cartesian product in $C$.   Every object $X$ is dual to itself with the unit and counit given by the span
 $ X \stackrel{Id}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
 See
 
