@@ -2,7 +2,13 @@ A [[monad]] $(T,\mu,i)$ on the category of sets, is __finitary__ (also called __
 
 A finitary monad $(T,\mu,i)$ is completely determined by its value on all finite ordinals $n\in\mathbb{N}_0$ considered as standard [[finite set]]s.  $T(n)$ is then the set of $n$-ary operations.  The notion of algebraic monad is hence similar to the notion of a nonsymmetric [[operad]] in $\mathrm{Set}$, but it is not equivalent, because of the possibility of duplicating or discarding inputs.
 
-A finitary monad defines a [[Lawvere theory]], which can then be interpreted in categories other than [[Set]]. There is an interesting commutativity condition singling out the subclass of commutative algebraic/finitary monads, cf. [[commutative algebraic theory]]; they are useful to establish a theory of [[generalized scheme after Durov|generalized commutative schemes]]. 
+More precisely, each finitary monad $T$ defines a [[Lawvere theory]] $Th_T$, namely $Th_T = Free_{fin}^{op}$ where $Free_{fin}$ is the category of free algebras $T(n)$ on finite sets (as a full subcategory of $Alg_T$). In fact, the two notions are equivalent: the assignment 
+
+$$T \mapsto Th_T$$
+
+defines an equivalence between the category of finitary monads on $Set$ and the category of Lawvere theories. Moreover, the category of $T$-algebras is equivalent to the category of models of $Th_T$. However, a technical advantage of Lawvere theories is that they can be interpreted in categories other than [[Set]]: a model of a Lawvere theory $\mathcal{T}$ in a category with cartesian products $C$ is just a product-preserving functor $\mathcal{T} \to C$. 
+
+There is an interesting commutativity condition singling out the subclass of commutative algebraic/finitary monads, cf. [[commutative algebraic theory]]; they are useful to establish a theory of [[generalized scheme after Durov|generalized commutative schemes]]. 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Does anyone besides Durov use this terminology?  In category theory these already have two standard names: "finitary monads" and "(Lawvere) theories."
@@ -17,6 +23,13 @@ _Toby_:  Whether these are 'algebraic' or 'finitary' (I\'d be more inclined to t
 _Toby_:  I moved this to [[finitary monad]] now, after Zoran made a link to it using that name from [[generalized scheme after Durov|an article on Durov's work]].
 =--
 
+## References 
+
+For a proof of the equivalence between finitary monads and Lawvere theories, see 
+
+* J. Adamek and J. Rosicky, _Locally presentable and accessible categories_ (chapter 3), LMS Lecture Notes 189, Cambridge U. Press, 1994. 
+
+Durov's application of finitary monads to the "field with one element" may be found in...
 
 [[!redirects algebraic monad]]
 [[!redirects finitary monads]]
