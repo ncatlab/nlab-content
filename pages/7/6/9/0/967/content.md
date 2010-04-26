@@ -20,3 +20,6 @@ Any category which is [[monadic]] over [[Set]] is total, as is any category admi
 ## References
 
 * [[Max Kelly]], _A survey of totality for enriched and ordinary categories_ ([pdf](http://archive.numdam.org/article/CTGDC_1986__27_2_109_0.pdf))
+
+
+[[!redirects cototal category]]
