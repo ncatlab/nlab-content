@@ -7,15 +7,13 @@
 
 A _$\dagger$-compact category_ is a category which is a 
 
-* a [[compact closed category]] 
+* [[compact closed category]] 
 
-and 
+and a
 
-* a [[symmetric monoidal dagger-category]] 
+* [[symmetric monoidal dagger-category]] 
 
-in a compatible way.
-
-So notably it is a [[monoidal category]] in which
+in a compatible way.  So, notably, it is a [[monoidal category]] in which
 
 * every object has a dual;
 
@@ -66,11 +64,12 @@ For more on this see
 
 The concept was introduced in 
 
-* S. Abramsky and B. Coecke, A categorical semantics of quantum protocols, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv](http://arxiv.org/abs/quant-ph/0402130))
+* Samson Abramsky and Bob Coecke, A categorical semantics of quantum protocols, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv](http://arxiv.org/abs/quant-ph/0402130))
 
-See also.
+See also:
 
-* Peter Selinger, _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
+* Peter Selinger, Dagger compact closed categories and completely positive maps, in _Proceedings of the 3rd International Workshop on Quantum Programming Languages_ (QPL 2005), ENTCS 170 (2007), 139--163. 
+([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 
 
 [[!redirects dagger compact category]]
