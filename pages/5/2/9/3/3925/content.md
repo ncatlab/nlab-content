@@ -1,4 +1,4 @@
-Any [[monoidal category]] is equipped with a natural isomorphism
+Any [[monoidal category]] is equipped with a [[natural isomorphism]]
 
 $$ \ell_x : 1 \otimes x \to x $$
 
