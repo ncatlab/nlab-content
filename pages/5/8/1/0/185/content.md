@@ -458,8 +458,6 @@ $$
 +-- {: .proof}
 ###### Proof
 
-One quick way to see that the [[left adjoint]] $F$ exists is by the 
-[[adjoint functor theorem]]: since [[limit]]s in $C^\infty Alg_{\mathbb{R}}$ are computed objectwise in $[CartSp, Set]$, the functor $U$ evidently preserves them. Moreover, $Alg_{\mathbb{R}}$ is evidently a [[locally small category]] and $C^\infty Alg_{\mathbb{R}}$ may easily be checked to be a [[cototal category]] (the left adjoint to the Yoneda embedding $C^\infty Alg_{\mathbb{R}}^{op} \hookrightarrow [C^\infty Alg_{\mathbb{R}}, Set] : A \mapsto Hom_{C^\infty Alg_{\mathbb{R}}}(A,-)$ is the functor $X \mapsto \int_{B \in C^\infty Alg_{\mathbb{R}}} \prod_{X(B)} B$.) These are sufficient conditions for the [[adjoint functor theorem]] to apply. 
 
 +--{.query} 
 
