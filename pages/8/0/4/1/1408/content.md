@@ -166,6 +166,8 @@ The admissible morphisms in an admissibility structure are roughly to be thought
 
 ### Structure sheaves
 
+#### In terms of lex copresheaves
+
 +-- {: .un_defn}
 ###### Definition ([StrSh, def 1.2.8](http://arxiv.org/abs/0905.0459))
 **(structure sheaf)**
@@ -198,6 +200,30 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
 
+#### In terms of classifying $(\infty,1)$-toposes
+
+By the [[(∞,1)-Yoneda lemma]], a 
+cover-preserving functor $\mathcal{O} : \mathcal{G} \to \mathcal{X}$
+extends equivalently to a colimit-preserving functor
+$Sh_{(\infty,1)}(\mathcal{G}) \to \mathcal{X}$. This respects
+finite limits if $\mathcal{O}$ does. Then necessarily it has a 
+right adjoint. 
+
+In summary this means that structure sheaves 
+$\mathcal{O} : \mathcal{G} \to \mathcal{X}$ are equivalently encoded
+in [[geometric morphism]]s
+
+$$
+  \mathcal{X} \stackrel{\leftarrow}{\to}
+  Sh_{(\infty,1)}(\mathcal{G})
+  \,.
+$$
+
+Accordingly, $Sh_{(\infty,1)}(\mathcal{G})$ may be thought of as
+the **classifying $(\infty,1)$-topos** for $\mathcal{G}$-structures
+on $\mathcal{X}$.
+
+
 ### Local morphisms between structure sheaves {#LocalMorphisms}
 
 **Notice**. The $(\infty,1)$-category $Str_{\mathcal{G}}(\mathcal{X})$
@@ -206,7 +232,9 @@ does _not_ depend on the admissibility structure of $\mathcal{G}$, but only on t
 
 (See [[Structured Spaces|StrSp, remark below prop. 1.4.2]]).
 
-The admissibility structure does serve to allow the following definition
+The admissibility structure does serve to allow the following definition of _local_ morphisms of structure sheaves.
+
+#### In terms of admissibility structures
 
 +-- {: .un_defn}
 ###### Definition 
@@ -236,7 +264,24 @@ for the [[sub-quasi-category|sub-(∞,1)-category]] of $\mathcal{G}$-structures 
 
 =--
 
-### The $(\infty,1)$-category of $\mathcal{G}$-structured $(\infty,1)$-toposes {#CatOfStructuredToposes}
+
+#### In terms of classifying $(\infty,1)$-toposes
+
+Alternatively, the local transformations can be characterized as follows
+
+
+it turns out the local transformations are the right half of a [[factorization system]] on $Str_{\mathcal{G}}(\mathcal{X})$, and that this factorization system depends functorially on $\mathcal{X}$, in that for every geometric morphism $\mathcal{X} \to \mathcal{Y}$ the induced $Str_{\mathcal{G}}(\mathcal{X}) \to Str_{\mathcal{G}}(\mathcal{Y})$ respects these factorization  systems. (theorem 1.3.1)
+
+This one can turn around, to characterize local transformations (and hence admissibility structures on $\mathcal{G}$) in terms of functorial factorization systems on classifying $(\infty,1)$-toposes (def. 1.4.3):
+
+For $\mathcal{K}$ an $(\infty,1)$-topos, declare that a _geometric structure_ on $\mathcal{K}$ is a choice of factorization systems on $Topos_{geom}(\mathcal{X}, \mathcal{K})^{op}$ that is functorial in $\mathcal{X}$ . Given such we have another way of saying "local transformation": this is the non-full subcategory $Str^{loc}_{\mathcal{K}}(\mathcal{X})$ of $Topos_{geom}(\mathcal{X}, \mathcal{K})^{op}$ on all objects and on the right part of the factorization system.
+
+And this is indeed the same kind of datum as an admissibility structure on a geometry (example 1.4.4): in the case that $\mathcal{K} = Sh(\mathcal{G})$ is the classifying topos for the geometry $\mathcal{G}$, the defining equivalence $Topos_{geom}(\mathcal{X}, Sh(\mathcal{G}))^{op} \stackrel{\simeq}{\to} Str_{\mathcal{G}}(\mathcal{X})$ identifies the two sub-categories of local transformations, $Str^{loc}_{\mathcal{G}}(\mathcal{X})$ and $Str^{loc}_{Sh(\mathcal{G})}(\mathcal{X})$.
+
+
+
+
+### The $(\infty,1)$-category of structured $(\infty,1)$-toposes {#CatOfStructuredToposes}
 
 Let $(\infty,1)Toposes \subset $ [[(∞,1)Cat]]  be the [[sub-quasi-category|sub (∞,1)-category]] of [[(∞,1)-topos]]es: objects are [[(∞,1)-topos]]es, morphisms are [[geometric morphism]]s.
 
@@ -292,6 +337,7 @@ where $E LTop \to LTop$ is the [[coCartesian fibration]] associated by the [[(�
 =--
 
 This is [[Structured Spaces|StrSp, def 1.4.8]]
+
 
 
 
