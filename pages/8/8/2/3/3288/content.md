@@ -258,4 +258,73 @@ $$
 
 instead of $X$ when we regard the topological space $X$ as an object of the [[(∞,1)-category]] of topological spaces! For more on this, see the discussion at [[homotopy hypothesis]].
 
-If instead we had interpreted the topological space $X$ as a representable object, hence as a [[discrete category|categorically discrete]] object in the $(∞,1)$-category of [[topological ∞-groupoid]]s, we would have seen the same phenomenon as for the smooth $X$ above: its [[loop sp
+If instead we had interpreted the topological space $X$ as a representable object, hence as a [[discrete category|categorically discrete]] object in the $(∞,1)$-category of [[topological ∞-groupoid]]s, we would have seen the same phenomenon as for the smooth $X$ above: its [[loop sppace object]] would have been the point.
+From this perspective now it is clear how the abstract notion of [[loop space object]] corresponds to the geometrically expected one: for a geometric [[space]] $X$, its loop space is the [[loop space object]] of its [[fundamental ∞-groupoid]].
+
+This statement can be given sense in all context where the underlying [[topos]] of our ambient [[(∞,1)-topos]] of [[space]]s is a [[lined topos]]: we need to know which object $R$ is the standard _line_ or [[interval object]]. This determines the _geometric paths_ in a space. Taking these geometric paths to be the [[morphism]]s of a [[fundamental ∞-groupoid]] then makes the geometric paths into "categorical paths", i.e. into morphisms. These then are what the abstract definition of [[loop space object]] can see.
+
+And indeed, whenever the underlying [[topos]] of [[space]]s that we are looking at is a [[lined topos]] the corresponding [[(∞,1)-topos]] comes equipped with a generalization of the topological [[fundamental ∞-groupoid]] construction: we can associate to every [[space]] $X$ its
+[[schreiber:path ∞-groupoid]] $\Pi(X)$: the morphisms of $\Pi(X)$ are given by paths in $X$ as seen by the given [[interval object]] $I$. All entirely analogous to the familiar situation for [[Top]], only that now we are testing our generalized [[space]]s over test objects in an arbitrary [[site]]s and are using a correspondingly different notion of [[interval object]].
+
+### The concrete definition
+
+So for $X$ a smooth [[manifold]], regarded as a representable object in the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[Lie ∞-groupoid]]s we have now that the homotopy pullback of any point ${*} \to X \hookrightarrow \Pi(X)$ along itself in the [[schreiber:path ∞-groupoid]] $\Pi(X)$ does indeed produce the expected [[Lie ∞-groupoid]] $\Omega_x X$  in 
+
+$$
+  \array{
+    \Omega_x X &\to& {*}
+    \\
+    \downarrow &\swArrow& \downarrow^{\mathrlap{x}}
+    \\
+    {*} &\stackrel{x}{\to}& \Pi(X)
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \in Sh_{(\infty,1)}(CartSp)
+$$
+
+whose
+
+* smooth space of objects is the smooth space of smooth loops in $X$ based at $x$;
+
+* smooth space of morphism is the smooth space of smooth $I$-homotopies between smooth loops in $X$
+
+* etc;
+
+Here we want not the full loop [[∞-groupoid]], but just some sort of truncation to a [[0-category|0-groupoid]] just of loops. There are several choices for how exactly to do this, depending on which higher morphisms we just discard, and which we use to identify 1-morphisms. Whatever we do, we end up with some notion of smooth [[path groupoid]] $\mathcal{P}_1(X)$ of $X$, whose 1-morphisms are certain smooth quotient space of the smooth space of 1-morphisms in $\Pi(X)$.
+
+Then, accordingly, forming the [[loop space object]] of this [[path groupoid]] $\mathcal{P}_1(X)$ yields the smooth space $LoopSpace(X)$
+
+$$
+  \array{
+    LoopSpace_x(X) &\to& {*}
+    \\
+    \downarrow &\swArrow& \downarrow^{\mathrlap{x}}
+    \\
+    {*} &\stackrel{x}{\to}& \mathcal{P}_1(X)
+  }
+$$
+
+which is the smooth subspace of the smooth space of morphisms in $\mathcal{P}_1(X)$ of those morphisms that start and end at $x$.
+
+When unwrapping what all this means, one sees that the object $LoopSpace_x(x) \in Sh_{(\infty,1)}(CartSp)$ that we obtain this way is nothing but the image under the embedding $Sh(CartSp) \hookrightarrow Sh_{(\infty,1)}(CartSp)$ of ordinary [[sheaf|sheaves]] into $\infty$-stacks of some [[quotient object|quotient]] of the [[internal hom]] $[I,X]$ in the [[closed monoidal structure on sheaves]]. Being an internal hom of representables, this is a [[concrete sheaf]] and as such it is precisely the smooth loop space regarded as a [[diffeological space]].
+
+## References
+
+A general standard reference on generalized smooth spaces is
+
+* Kriegl and Michor, _A Convenient Setting of Global Analysis_
+{#km}
+
+The structure of loop spaces as Fr&#233;chet manifolds is covered in chapter 42 of [KM](#km) and in various other articles, many of which cover extensions of the basic construction to other mapping spaces.  In particular,
+
+* Michor, _Manifolds of differentiable mappings_ [MR583436 (83g:58009)](http://www.ams.org/mathscinet-getitem?mr=583436)
+* Michor, _A convenient setting for differential geometry and global analysis (I and II)_ [MR764972 (86g:58014a)](http://www.ams.org/mathscinet-getitem?mr=764972)
+* [[Andrew Stacey]], _The Differential Topology of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Seminars/diffloop.html) (Note: this was designed as an "easy reader" version of [KM](#km))
+* [[Andrew Stacey]], _Constructing Smooth Manifolds of Loop Spaces_ [main page](http://www.math.ntnu.no/~stacey/Research/Papers/smooth.html)
+
+Concretely for the question discussed here some useful statements are collected in
+
+* [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+
+
+This entry was created in parallel with [this MO thread](http://mathoverflow.net/questions/12652/loop-spaces-as-generalized-smooth-spaces-or-as-infinite-dimensional-manifolds) from which parts of it is taken.
