@@ -1,11 +1,23 @@
-# Definition
+# Contents
+* automatic table of contents goes here
+{: toc}
 
-In [[model theory]], an **elementary embedding** is an [[injection]] that preserves and reflects all first-order logic.  That is, it is an injection $f\colon M\to N$ such that for any formula $\varphi$ and parameters $a_1,\dots,a_n\in M$, we have
-$$ M \vDash \varphi(a_1,\dots,a_n) \iff N \vDash \varphi(f(a_1),\dots, f(a_n)). $$
-If $f$ is (interpreted as) the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$.
+## Definition
+
+In [[model theory]], an **elementary embedding** between structures is an [[injection]] that preserves and reflects all first-order logic.  That is, it is an injection $f\colon M\to N$ such that for any formula $\varphi$ and parameters $a_1,\dots,a_n\in M$ (of appropriate types), we have
+$$ M \vDash \varphi(a_1,\dots,a_n) \;\iff\; N \vDash \varphi(f(a_1),\dots, f(a_n)). $$
+Note that the condition that $f$ be injective is automatic as long as the logic in question includes equality, since reflecting of the formula $x=y$ implies that $f$ is injective.  If $f$ is (interpreted as) the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$.
+
+More generally, when we consider structures in a [[category]] as in [[categorical logic]], a morphism $f\colon M\to N$ between structures in $C$ is an **elementary embedding** if for any formula $\varphi$, the following square is a [[pullback]]:
+$$\array{[\varphi]_M & \overset{}{\to} & [\varphi]_N\\
+  \downarrow && \downarrow\\
+  M A_1 \times\dots \times M A_n & \underset{}{\to} & N A_1 \times \dots \times N A_n}$$
+where $M A_i$ denotes the object of $C$ interpreting the type $A_i$, and $[\varphi]_M$ denotes the corresponding subobject interpreting the truth value of the formula $\varphi$.  Note that for an arbitrary morphism of structures, this square need not even commute; one sometimes says that $f$ is an **elementary morphism** if it does.
 
 
-# In material set theory
+## Elementary embeddings between models of set theory
+
+### In material set theory
 
 Elementary embeddings play an important role in the study of [[large cardinals]] in (material) [[set theory]].
 
@@ -16,14 +28,14 @@ Conversely, if $j\colon V\to M$ is a nontrivial elementary embedding, it must ha
 Stronger large cardinal axioms can be characterized, or defined, as the critical points of elementary embeddings satisfying additional closure axioms on the transitive class $M$.
 
 
-# In structural set theory
+### In structural set theory
 
 Any elementary embedding of models of ZF induces a [[conservative functor|conservative]] [[logical functor]] between their categories of sets.  In fact, it is much more than that; a conservative logical functor preserves and reflects only first-order logic with bounded quantifiers, while an e.e. preserves and reflects all first-order logic.
 
 The structural meaning of elementary embeddings seems not to be well-explored.
 
 
-# Inconsistency
+### Inconsistency
 
 The "ultimate" closure property, hence the "strongest" large cardinal axiom, would be having a nontrivial elementary embedding $j\colon V\to V$ (i.e. $M$ is all of $V$).  Sometimes the critical point of such an embedding, if one exists, is called a *Reinhardt cardinal*.  However, having such an e.e. turns out to be inconsistent...sort of.
 
@@ -44,3 +56,8 @@ Now, if we work instead in a theory such as [[NBG]] or [[MK]] which can contain 
 
 [[!redirects elementary substructure]]
 [[!redirects elementary submodel]]
+[[!redirects elementary morphism]]
+[[!redirects elementary embeddings]]
+[[!redirects elementary substructures]]
+[[!redirects elementary submodels]]
+[[!redirects elementary morphisms]]
