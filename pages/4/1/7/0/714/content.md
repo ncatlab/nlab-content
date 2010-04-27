@@ -5,7 +5,7 @@
 
 ## Idea
 
-The definition of a [[category]] effectively enforces an ordering on the "0-faces" -- the source and target objects -- of every 1-cell (every morphism). In many cases this is essential, in that there is no way to regard the generic morphism $a \stackrel{f}{\to} b$ in the generic category as a morphism from $b$ to $a$ instead.
+The definition of a [[category]] effectively enforces an ordering on the "0-faces" -- the source and target [[object]]s -- of every 1-cell (every [[morphism]]). In many cases this is essential, in that there is no way to regard the generic morphism $a \stackrel{f}{\to} b$ in the category as a morphism from $b$ to $a$ instead.
 
 But there are many categories for which this is not the case, where every morphism naturally only comes with the information of an unordered pair $\{a,b \}$ of objects, without any prejudice on which is to be regarded as source and which as target. An important general example is:
 
