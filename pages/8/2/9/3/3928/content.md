@@ -36,6 +36,8 @@ A **local addition** on $M$ consists of a vector bundle $\pi \colon E \to M$, an
 
 ### Charts from Local Additions ###
 
+#### Charts for $M$ ####
+
 Local additions are used in constructing the manifold structure on certain mapping spaces.  In brief, if $M$ is a manifold (possibly infinite dimensional) admitting a local addition, and if $N$ is a compact manifold (possibly with boundary) then $C^\infty(N,M)$ can be given the structure of a smooth manifold and the construction of the charts uses the local addition on $M$.  For details, see [KM &#167;42](#km).  Applying this to the case $N = pt$, we obtain charts for $M$ itself.  These charts are useful since then we have charts on both $M$ and the various mapping spaces which are all defined using the same method and so the relationships between them are that much clearer.
 
 +-- {: .num_prop #Mcharts}
@@ -51,6 +53,14 @@ Let us start by showing that $\eta_p$ is well-defined.  Clearly, we can restrict
 The rest follows from the simple fact that we can also define $\eta_p$ as the restriction of the diffeomorphism $(\pi \times \eta) \colon U \to V$ to the subset $U_p$ on the source and $\{p\} \times V_p$ on the target.
 =--
 
+#### Charts for Mapping Spaces ####
+
+Local additions are used to great effect in constructing charts for mapping spaces.
+
+Let $M$ be a smooth manifold with a local addition, $\eta$.  We shall assume that the domain of $\eta$ is the tangent bundle, $T M$.  Let $N$ be a functionally compact [[Frölicher space]].  Let $P \subseteq M$ be a submanifold that admits a [[tubular neighbourhood]].  Let $Q \subseteq N$ be a subset.  We consider the space $C^\infty(N,M;Q,P)$ of smooth maps $N \to M$ which map $Q$ into $P$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
+
+_... to be continued ..._
+
 ### Diffeomorphisms from Local Additions ###
 
 Another useful construction from a local addition relates to diffeomorphisms.  In differential topology, manifolds have a certain amount of "flexibility": a common picture is of a rubber sheet that can be deformed.  The amount of flexibility is less than that allowed in algebraic topology, but certainly more than that in differential geometry.  Being able to deform a manifold a little is a very useful trick in establishing the relationships between the various mapping spaces (for example, it is used in showing that the loop space fibration $\Omega M \to L M \to M$ is a [[fibre bundle]] and not just a fibration) and so it is useful to have a consistent way to perform these deformations that is compatible with a given local addition.
@@ -62,7 +72,7 @@ So let $\eta \colon U \to M$ be a local addition.  Let $\nu \colon U \to \mathbb
 Now for $v \in U$, we define a vector field $\hat{X}_v$ on $U_p$, where $p = \pi(v)$, by
 
 $$
-\hat{X}_v(w) \coloneqq rho(\nu(w) - \nu(v))v
+\hat{X}_v(w) \coloneqq \rho(\nu(w) - \nu(v))v
 $$
 
 Notice that if $\nu(w) \ge \nu(v) + 1$ then $\hat{X}_v(w) = 0$ whilst if $\nu(w) \le \nu(v)$ (so in particular if $w = t v$ for some $t \in [0,1]$) then $\hat{X}_v(w) = v$.  By the first of these, we see that $\hat{X}_v$ is compactly supported on $U_p$.  We can transfer it via $\eta_p$ to $V_p$ and, as it is compactly supported, extend it to all of $M$ by defining it to be $0$ outside $V_p$.  Let us write $X_v$ for this vector field.
