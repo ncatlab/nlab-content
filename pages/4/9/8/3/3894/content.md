@@ -5,7 +5,9 @@ A **G-structure** on an $n$-[[manifold]] $M$, for a given structure group $G$, i
 * For the special linear group, an $SL(n,R)$-structure defines a volume form. 
 * For the trivial group, an $\{e\}$-structure consists of an absolute parallelism of the manifold.
 * For $n = 2 m$ even, a $GL(m, \mathbb{C})$-structure defines an almost complex structure on the manifold. It must satisfy an integrability condition to be a complex structure.
-* $G$ need not be a subgroup of $GL(n, \mathbb{R})$. For example, for the group $spin(n)$, a $G$-structure is a [[spin structure]].
+* $G$ need not be a subgroup of $GL(n, \mathbb{R})$. For example, for the group $spin(n)$, a $G$-structure is a spin structure.
+
+**Note**: Confusingly, [[spin structure]] (and other groups such as [[string group|string]] and [[fivebrane group|fivebrane]] structure) may refer to lifts of the structure group of the tangent bundle of a manifold.
 
 Need to talk about integrability conditions, and those of higher degree. Also need to discuss [[pseudo-group|pseudo-groups]], and relation of all this with [[Cartan geometry]].
 
