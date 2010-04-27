@@ -13,7 +13,7 @@ A **Lawvere [[theory]]** or **finite-product theory** is a [[category]] $T$ with
 $$Fin^{op} \to T$$ 
 that takes the 1-element cardinal to $x$ is commonly supposed to be surjective on objects (rather than, less evilly, [[essentially surjective functor|essentially surjective]]). 
 
-A _model_ of $T$ is a product-preserving functor $T \to Set$, and _homomorphism of models_ is a natural transformation between such functors. A _morphism_ of theories $T \to T'$ is again a product-preserving functor. Thus, $Fin^{op}$ (the "theory of [[equality]]") is initial in the category of Lawvere theories. 
+A **[[model]]** of $T$ is a product-preserving functor $T \to Set$, and _homomorphism of models_ is a natural transformation between such functors. A _morphism_ of theories $T \to T'$ is again a product-preserving functor. Thus, $Fin^{op}$ (the "theory of [[equality]]") is initial in the category of Lawvere theories. 
 
 ## Examples
 
