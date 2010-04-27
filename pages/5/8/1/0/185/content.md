@@ -441,10 +441,11 @@ This makes $A(\mathbb{R})$ an $\mathbb{R}$-algebra.
 +-- {: .un_prop}
 ###### Proposition 
 
-The forgetful functor fits into an [[adjunction]]
+The [[forgetful functor]] $U$ fits into an [[adjunction]]
 
 $$
   (F \dashv U)
+  :
   C^\infty Alg_{\mathbb{R}}
   \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
   Alg_{\mathbb{R}}
