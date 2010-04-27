@@ -120,6 +120,55 @@ Higgins used this idea to lift presentations of a group $G$ to presentations of 
 
 In the case where the action is [[internalization|internal]] to sets with structure, such as internal to [[Diff]] one wants to realize the action groupoid as a [[Lie groupoid]]. That Lie groupoid in turn may be taken to present a [[differentiable stack]] which then usually goes by the same name $S//G$.
 
+
+
+## Action $\infty$-groupoid {#ActionooGrpd}
+
+All of this goes through almost verbatim for actions in the context of [[(∞,1)-category theory]].
+
+Let $G$ be an [[∞-group]] in that $\mathbf{B}G$ is an [[∞-groupoid]] with a single object. An action of $G$ on an [[(∞,1)-category]] is an [[(∞,1)-functor]]
+
+$$
+  \rho : \mathbf{B}G \to (\infty,1)Cat
+$$
+
+to [[(∞,1)Cat]]. This takes the single object of $\mathbf{B}G$ to some $(\infty,1)$-category  $V$.
+
+Again we want to **define** the _action groupoid_ $V//G$ as the [[limit in a quasi-category|(∞,1)-categorical colimit]] over the action:
+
+$$
+  C//G := \lim_\to \rho
+  \,.
+$$
+
+By the result [described here](http://ncatlab.org/nlab/show/limit+in+a+quasi-category#WithValInooGrpd) this is, as before, equivalent to the pullback of the "universal $(\infty,1)Cat$-bundle" $Z \to (\infty,1)Cat$, namely to the [[coCartesian fibration]]
+
+$$
+  \array{
+    V//G &\to& Z
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G &\stackrel{\rho}{\to}& (\infty,1)Cat
+  }
+$$
+
+classified by $\rho$ under the [[(∞,1)-Grothendieck construction]]. As before, we can continue a [[fiber sequence]] to the left by adjoining the $(\infty,1)$-categorical pullback along the point inclusion $* \to \mathbf{B}G$
+
+$$
+  \array{
+    V&\to& V//G &\to& Z
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to& \mathbf{B}G &\stackrel{\rho}{\to}& (\infty,1)Cat
+  }
+  \,.
+$$
+
+The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\infty,1)Cat$ over the $(\infty,1)$-category $C$, which is $V$ itself, as indicated.
+
+
 ## References
 
 * P.J. Higgins, 1971, "Categories and Groupoids", van
