@@ -57,9 +57,31 @@ The rest follows from the simple fact that we can also define $\eta_p$ as the re
 
 Local additions are used to great effect in constructing charts for mapping spaces.
 
-Let $M$ be a smooth manifold with a local addition, $\eta$.  We shall assume that the domain of $\eta$ is the tangent bundle, $T M$.  Let $N$ be a functionally compact [[Frölicher space]].  Let $P \subseteq M$ be a submanifold that admits a [[tubular neighbourhood]].  Let $Q \subseteq N$ be a subset.  We consider the space $C^\infty(N,M;Q,P)$ of smooth maps $N \to M$ which map $Q$ into $P$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
+Let $M$ be a smooth manifold (possibly infinite dimensional).  Let $N$ be a functionally compact [[Frölicher space]].  Let $P \subseteq M$ be a submanifold.  Let $Q \subseteq N$ be a subset.  We consider the space $C^\infty(N,M;Q,P)$ of smooth maps $N \to M$ which map $Q$ into $P$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
+
+We assume that the _pair_ $(M,P)$ admits local addition.  By that, we mean that $M$ admits a local addition, say $\eta$, with the property that it restricts to a local addition on $P$.  We shall also assume, for simplicity, that the domain of $\eta$ is $T M$.
+
+Let $g \colon N \to M$ be a smooth map with $g(Q) \subseteq P$.  Let $E_g$ be the space of sections of $g^* T M$ with the property that the sections over $Q$ are constrained to lie in $g^* T P$.  In more detail, we define $g^* T M$ in the usual manner:
+
+$$
+g^* T M \coloneqq \{(x,v) \in N \times T M : g(x) = \pi(v)\}
+$$
+
+and then take the space of smooth maps $f \colon N \to g^* T M$ with the property that the composition $N \to g^* T M \to N$ is the identity.  Within that space, we further restrict to those $f$ such that the image of the map $Q \to g^* T M \to T M$ lies in $T P$.
+
+Although $N$ could be quite complicated, because $T M \to M$ is a vector bundle, $E_g$ is a vector space.  Furthermore, by trivialising $g^* T M$ using a finite number of trivialisations (possible as $N$ is functionally compact), we can embed $E_p$ as a closed subspace of $C^\infty(N,\mathbb{R}^n)$ for some $n$.  This embedding shows that $E_p$ is a convenient vector space, in the sense of [Kriegl and Michor](#km).
+
+We define a map for $\Phi \colon E_g \to C^\infty(N,M;Q,P)$ as follows.  Let $f \in E_p$.  Then $f$ is a section of $g^* T M$ and so is a map $N \to g^* T M$.  By the definition of $g^* T M$, we can think of $f$ as a map $N \to N \times T M$ which projects to the identity on the first factor.  By applying the projection to the second factor, we obtain a map $\hat{f} \colon N \to T M$.  Composing with $\eta$ produces a map $\eta \circ \hat{f} \colon N \to M$.  As $f \in E_g$, the restriction of $\hat{f}$ to $Q$ lands in $T P$, whence $\eta \circ \hat{f}$ takes $Q$ into $P$.  The map $f \mapsto \eta \circ \hat{f}$ is what we call $\Phi$.
+
+Let us identify its image.  Let $V \subseteq M \times M$ be the image of the local addition.  Define $U_g \subseteq C^\infty(N,M;Q,P)$ to be the set of those functions $h$ such that $(g,h) \colon N \to M \times M$ takes values in $V$.  We claim that the image of $\Phi$ is $U_g$ and that $\Phi$ is a bijection $E_g \to U_g$.
+
+Let us start with the image.  Let $h \in U_g$.  Then $(g,h) \colon N \to M \times M$ takes values in $V$, so we can compose with $(\pi \times \eta)^{-1}$ to get a map $\check{h} \colon N \to T M$.  Together with the identity on $N$, we get a map $N \to N \times T M$.  By construction, $\pi \check{h} = g$ and so this map ends up in $g^* T M$ (which has the subspace structure).  Again by construction, the projection of this map to $N$ is the identity and so it is a section of $g^* T M$.  That it takes $Q$ to $T P$ follows from the fact that $\eta$ restricts to a local addition on $P$, whence as $h(Q) \subseteq P$, $\check{h}(Q) \subseteq T P$.  Hence $\Phi$ is onto.  Moreover, this construction yields the inverse of $\Phi$ and so it is a bijection.
+
+Thus we have charts for $C^\infty(N,M;Q,P)$.  The next step is the transition functions.  To prove this in full generality, we assume not just two different functions at which to base our charts, but also two different local additions to define them.  This will show that our resulting manifold structure is independent of this choice.
 
 _... to be continued ..._
+
+
 
 ### Diffeomorphisms from Local Additions ###
 
