@@ -1,4 +1,10 @@
-### Idea ###
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+ 
+## Idea 
 
 At its simplest, a [[smooth manifold]] is a place where one can do calculus without worries.  Let us consider the formula for a derivative:
 
@@ -12,7 +18,7 @@ Thus at its most general, a local addition at a point is simply the structure of
 
 Another direction that one could take is to ask for a system of local additions, one for each point, and ask that these fit together in some nice manner as one moves over the manifold.  This leads to the notion of a **local addition**.
 
-### Definition ###
+## Definition 
 
 The broadest definition is the following.
 
@@ -24,7 +30,7 @@ A **local addition** on $M$ consists of a vector bundle $\pi \colon E \to M$, an
 2. there exists an open neighbourhood, say $V$, of the diagonal in $M \times M$ such that the map $\pi \times \eta \colon U \to M \times M$ is a diffeomorphism onto $V$.
 =--
 
-###### Remarks ######
+### Remarks 
 
 1. By considering the derivative of $\eta$, one can see that the bundle $E$ must be isomorphic to $T M$.  However, it is not necessary to specify an isomorphism in advance since $\eta$ naturally defines one.  Nonetheless, it is common simply to take $E = T M$.
 
@@ -34,9 +40,9 @@ A **local addition** on $M$ consists of a vector bundle $\pi \colon E \to M$, an
 
 4. Another source of local additions is to apply the tubular neighbourhood theorem to the embedding of the diagonal $M \to M \times M$.
 
-### Charts from Local Additions ###
+## Charts from Local Additions
 
-#### Charts for $M$ ####
+### Charts for $M$ 
 
 Local additions are used in constructing the manifold structure on certain mapping spaces.  In brief, if $M$ is a manifold (possibly infinite dimensional) admitting a local addition, and if $N$ is a compact manifold (possibly with boundary) then $C^\infty(N,M)$ can be given the structure of a smooth manifold and the construction of the charts uses the local addition on $M$.  For details, see [KM &#167;42](#km).  Applying this to the case $N = pt$, we obtain charts for $M$ itself.  These charts are useful since then we have charts on both $M$ and the various mapping spaces which are all defined using the same method and so the relationships between them are that much clearer.
 
@@ -53,7 +59,7 @@ Let us start by showing that $\eta_p$ is well-defined.  Clearly, we can restrict
 The rest follows from the simple fact that we can also define $\eta_p$ as the restriction of the diffeomorphism $(\pi \times \eta) \colon U \to V$ to the subset $U_p$ on the source and $\{p\} \times V_p$ on the target.
 =--
 
-#### Charts for Mapping Spaces ####
+### Charts for Mapping Spaces 
 
 Local additions are used to great effect in constructing charts for mapping spaces.
 
@@ -83,7 +89,7 @@ _... to be continued ..._
 
 
 
-### Diffeomorphisms from Local Additions ###
+## Diffeomorphisms from Local Additions 
 
 Another useful construction from a local addition relates to diffeomorphisms.  In differential topology, manifolds have a certain amount of "flexibility": a common picture is of a rubber sheet that can be deformed.  The amount of flexibility is less than that allowed in algebraic topology, but certainly more than that in differential geometry.  Being able to deform a manifold a little is a very useful trick in establishing the relationships between the various mapping spaces (for example, it is used in showing that the loop space fibration $\Omega M \to L M \to M$ is a [[fibre bundle]] and not just a fibration) and so it is useful to have a consistent way to perform these deformations that is compatible with a given local addition.
 
@@ -101,7 +107,7 @@ Notice that if $\nu(w) \ge \nu(v) + 1$ then $\hat{X}_v(w) = 0$ whilst if $\nu(w)
 
 By construction, the map $v \to X_v$ is smooth.  As $X_v$ is compactly supported, we can apply the exponentiation map $\mathcal{X}_c(M) \to Diff(M)$ and so obtain, for each $v \in U$, a 1-parameter family of diffeomorphisms of $M$, say $\phi_{(t,v)}$.  From the construction of $X_v$, it is clear that all the "action" of this family of diffeomorphisms takes place in $V_p$.  Moreover, by construction, the point $p$ moves along the line $t \mapsto \eta(t v)$ for $t \in [0,1]$.
 
-### References ###
+## References 
 
 * Kriegl and Michor, _A Convenient Setting of Global Analysis_
 {#km}
