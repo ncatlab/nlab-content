@@ -1,18 +1,19 @@
-
 _Under Construction - The following material needs the blessing of an expert._
 
 ## Idea
 
-Given [[manifold|smooth manifolds]] $\mathcal{M}$ and $\mathcal{N}$, a smooth map $F:\mathcal{M}\to\mathcal{N}$, an $n$-dimensional subdomain $\Sigma\to\mathcal{M}$ and an $n$-form $\alpha\in\Omega^n(\mathcal{N})$, we have the pullback $F^*\alpha\in\Omega^n(\mathcal{M})$ and the pushforward $F_*\Sigma$ that satisfy
+Given a smooth morphism $f:M\to N\in Diff$ in , an $n$-dimensional connected open subset $U \subseteq M$ and a differential $n$-form $\omega\in\Omega^n(N)$, we have the pullback $f^*\omega\in\Omega^n(M)$ and the pushforward $f_*U$ that satisfy
 
-$$\int_\Sigma F^*\alpha = \int_{F_*\Sigma} \alpha.$$
+$$\int_\Sigma f^*\omega = \int_{f_*U} \omega.$$
 
-_Transgression_ can be thought of as a generalization of this situation. For instance, given a smooth manifold $\mathcal{M}$, let $\mathcal{L M}$ denote the [[loop space]] of $\mathcal{M}$, i.e. the space of loops in $\mathcal{M}$. A loop in $\mathcal{M}$ corresponds to a point in $\mathcal{L M}$.
+_Transgression_ can be thought of as a generalization of this situation. For instance, given a smooth manifold $M$, let $LM$ denote the [[loop space]] of $M$, that is, $Hom(S^1,M)$.
++--
+_Harry_: It's not obvious whether or not you mean the space of smooth loops or continuous loops, nor how you equip this space, which presumably has the compact-open topology, with a smooth manifold structure at all.  This is important for the next part.
 
-Now a 0-form $\alpha\in\Omega^0(\mathcal{L M})$ "pulls back" to a 1-form $\mathcal{L}^*\alpha\in\Omega^1(\mathcal{M})$ and a loop $\gamma$ in $\mathcal{M}$ "pushes forward" to a point $\mathcal{L}_*\gamma$ in $\mathcal{L M}$. Once again we have
+Note: I changed what it originally said, but it's still not clear to me what is correct.  I reworded it so it no longer said, and I quote, "the loop space LM, i.e., the space of loops", which doesn't mean anything at all.
+=--
+A $0$-form $f:LM\to \mathbb{R}$ induces a $1$-form $L^*f\in \Omega^1(M)$ and a loop $\gamma: S^1\to M$ in $M$ determines a point $L_*\gamma$ in $LM$. Then we give the condition that for any $0$-form $f: LM\to mathbb{R}$ and any loop $\gamma: S^1\to M$,
 
-$$\int_\gamma \mathcal{L}^*\alpha = \int_{\mathcal{L}_*\gamma} \alpha.$$
+$$\int_\gamma L^*f = \int_{L_*\gamma} f.$$
 
-Now, however, the integral of a 0-form is just evaluation so the integral of a 1-form $\mathcal{L}^*\alpha$ over a loop $\gamma\to\mathcal{M}$ is the evaluation of the 0-form $\mathcal{L}^*\alpha$ at the point $\mathcal{L}_*\gamma\to\mathcal{L M}$, i.e. 
-
-$$\int_\gamma \mathcal{L}^*\alpha = \alpha(\mathcal{L}_*\gamma).$$
+The right-hand side is simply evaluation of the $0$-form at the point determined by $\gamma$, from which it follows that the integral of a 1-form $L^*f$ over a loop $\gamma: S^1 \to M$ can be computed simply by evaluation.
