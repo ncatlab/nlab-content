@@ -9,7 +9,7 @@
 It would be nice to write something here, but most mathematicians know what a differential equation is and most physicists use them regularly.  See [Wikipedia](http://en.wikipedia.org/wiki/Differential_equation).
 
 
-## In terms of synthetic differential geometry
+## In terms of synthetic differential geometry {#InSynthDiff}
 
 A perspective on differential equations from the [[nPOV]] of [[synthetic differential geometry]] is given in 
 
