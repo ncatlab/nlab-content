@@ -1,3 +1,2 @@
-Blanked because the original author is a crackpot - Harry
-
-Please note that the person who originally came up with "partially ordered dagger categories" is in fact the same crackpot that I blanked over at [[generalized continuity]].
+The page apparently referred to dubious mathemaical content, see the original author's [blog](http://portonmath.wordpress.com/category/publications/). Because of this the page has been temporarly blanked. By the same reason also
+[[generalized continuity]] has been blanked.
