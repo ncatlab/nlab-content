@@ -35,6 +35,13 @@ the nPOV asserts that
 
 =--
 
+## Some summary statements
+
+Practitioners of category theory have often attempted to express the striking power of category theory, sometimes through aphorism, sometimes through metaphor. Early on, Peter Freyd wrote, 
+
+> Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial.
+
+
 
 ## Examples
 
