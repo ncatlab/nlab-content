@@ -1,0 +1,1 @@
+There is also a notion of a *triangulated* (or *stable*) [[derivator]], which is a refinement of a [[triangulated category]].  Unlike for categories, but similar to the situation for [[stable (infinity,1)-category|(∞,1)-categories]], being triangulated is a [[stuff, structure, property|property]] and not a structure (or more precisely, a "property-like structure").
