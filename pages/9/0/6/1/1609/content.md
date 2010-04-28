@@ -5,16 +5,22 @@
 
 ## Definition
 
-A **partially ordered category** is a [[category]] together with [[partial order]]ing $\subseteq$ on each of its [[hom-set]] such that
+A **locally partially ordered category** is a [[category]] together with [[partial order]]ing $\subseteq$ on each of its [[hom-set]] such that
 $$ f_1 \subseteq f_2 \;\wedge\; g_1 \subseteq g_2 \;\Rightarrow\; g_1 \circ f_1 \subseteq g_2 \circ f_2 $$
 for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that the composites above are defined.
 
 >[[VictorPorton|Victor]]: I changed the earlier notion of partial ordered category where I was requiring partial order on the entire set of morphisms.
 
-Compare this to the notion of [[locally partially ordered category]].  A partially ordered category in which the [[source]] and [[target]] maps preserve the partial order is a category *[[internal category|internal]] to* the category [[Pos]] of [[poset]]s, while a locally partially ordered category is a category *[[enriched category|enriched]] over* $Pos$.  
++--{: .query}
+[[David Roberts]]: It makes no difference as long as the objects form a set, as $Pos$, as a full subcategory has coproducts, and so one can take what is defined above and form the disjoint union of the homsets, and even put the discrete partial order on the objects to get an internal category in $Pos$.
+=--
+
+Compare this to the notion of category [[internal category|internal]] to the category [[Pos]] of [[poset]]s. 
 
 +--{: .query}
 [[Sridhar Ramesh]]: Is there meant to also be a partial ordering on the objects in addition to those on the Hom-sets? (Without this, I cannot make sense of the source and target maps preserving the partial order. Indeed, as it stands, I don't see how this definition is any different from that of a locally partially ordered category.)
+
+[[David Roberts]]: I agree: the first definition is of a category enriched in [[Pos]], whereas the reference to source and target maps clearly talks about an internal category. I've edited it.
 =--
 
 Similarly, such a partially ordered category is a special kind of [[double category]], while a locally partially ordered category is a special kind of $2$-[[2-category|category]].
