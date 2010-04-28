@@ -27,7 +27,7 @@ $$
   F : C \hookrightarrow D
 $$
 
-to inducate this.
+to indicate this.
 
 ## References ##
 
