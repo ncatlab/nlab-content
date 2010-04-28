@@ -279,7 +279,7 @@ In this sense a [[Cartesian fibration]] is a generalization of a [[right fibrati
 ###### Proposition
 
 If $p : X \to Y$ is an [[inner fibration]] of [[quasi-categories]] then a morphism $f : x \to y$ in $X$ is $p$-Cartesian precisely if
-for all objects $a$ in $C$ the diagram
+for all objects $a$ in $X$ the diagram
 
   $$
     \array{
@@ -293,7 +293,7 @@ for all objects $a$ in $C$ the diagram
   $$
 
   of [[hom-object in a quasi-category|hom-objects in a quasi-category]] is 
-  a [[homotopy pullback]] square. More preciyel in [[sSet]] equipped with its [[model structure on simplicial sets|standard model structure]].
+  a [[homotopy pullback]] square (in [[sSet]] equipped with its [[model structure on simplicial sets|standard model structure]]).
 
 
 =--
@@ -522,4 +522,5 @@ See also the references at [[Grothendieck fibration]].
 [[!redirects opcartesian morphism]]
 [[!redirects opcartesian morphisms]]
 [[!redirects cocartesian morphism]]
+[[!redirects coCartesian morphism]]
 [[!redirects cocartesian morphisms]]
