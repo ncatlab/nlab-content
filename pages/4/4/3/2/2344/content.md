@@ -5,15 +5,17 @@
 
 ## Idea
 
-A **derivator** is a refinement of a [[homotopy category]] which includes information about [[homotopy limits]] and colimits, which was invented by [[Grothendieck]] and Heller.  The notion can be motivated in several ways.
+A **derivator** is a refinement of a [[homotopy category]] which includes information about [[homotopy limits]] and colimits, 
+
+The notion was invented by [[Grothendieck]] and Heller.  It can be motivated in several ways.
 
 ### As a halfway house
 
-Suppose we start from the perspective that what we really study in [[homotopy theory]] are [[(∞,1)-categories]].  The homotopy category of an $(\infty,1)$-category (the 1-category obtained by setting all equivalent 1-morphisms equal) is a fairly coarse invariant, but for some purposes it is sufficient.  On the other hand, sometimes we need more than merely the homotopy category, but doing everything with $(\infty,1)$-categories can be technically daunting.  Frequently, all we need from an $(\infty,1)$-category that is not present in its homotopy category is to know that we have well-behaved constructions of (homotopy) limits and colimits.
+Suppose we start from the perspective that what we really study in [[homotopy theory]] are [[(∞,1)-categories]].  The [[homotopy category of an (∞,1)-category]] (the 1-category obtained by setting all equivalent 1-morphisms equal) is a fairly coarse invariant, but for some purposes it is sufficient.  On the other hand, sometimes we need more than merely the homotopy category, but doing everything with $(\infty,1)$-categories can be technically daunting.  Frequently, all we need from an $(\infty,1)$-category that is not present in its homotopy category is to know that we have well-behaved constructions of [[homotopy limit]]s and [[homotopy colimit]]s.
 
-A *derivator* is thus a halfway-house, containing more information than a homotopy category, but easier to work with than an $(\infty,1)$-category.  It consists of a homotopy category together with extra structure that enables one to compute with homotopy limits and colimits.  Any $(\infty,1)$-category with sufficiently many limits and colimits has an underlying derivator, and working with these derivators suffices for a surprising number of things we may want to do with $(\infty,1)$-categories.  However, derivators are an essentially 1-categorical notion, so we can study them using ordinary 2-category theory.  Thus derivators provide a "truncated" version of [[higher category theory]], which gives us the language to characterize higher category theory using only usual category theory, without any emphasis on any particular model (in fact, without assuming we even know any such model).
+A *derivator* is thus a halfway-house, containing more information than a homotopy category, but easier to work with than an $(\infty,1)$-category.  It consists of a homotopy category together with extra structure that enables one to compute with homotopy limits and colimits.  Any $(\infty,1)$-category with sufficiently many limits and colimits has an underlying derivator, and working with these derivators suffices for a surprising number of things we may want to do with $(\infty,1)$-categories.  However, derivators are an essentially 1-categorical notion, so we can study them using ordinary [[2-category]] theory.  Thus derivators provide a "truncated" version of [[higher category theory]], which gives us the language to characterize higher category theory using only usual [[category theory]], without any emphasis on any particular model (in fact, without assuming we even know any such model).
 
-For instance, it turns out that we can also express many convenient universal properties in terms of derivatiors. A striking example is the theory of [[triangulated category|triangulated categories]]: if $A$ is an [[abelian category]], its (bounded) [[derived category]] $D^b(A)$ is not defined by a universal property.  A natural statement would be that, given a triangulated category, the category of additive functors $A\to T$ which send [[short exact sequence]]s to distinguished triangles is equivalent to the category of triangulated functors $D^b(A)\to T$, but this statement is false, and in fact, does not even make sense (unless $A$ is [[semisimple category|semi-simple]]). But, in practice, everything behaves as if the above statement were meaningful and true. The 'reason' why this does not work is that the [[mapping cone|cone]] of a map in a triangulated category is not defined by a universal property. On the other hand, the cone of a morphism of complexes $X\to Y$ is canonically defined: this is the [[homotopy colimit]] of the diagram $0\leftarrow X \to Y$.  In the world of derivators, we can remedy this situation and recover a suitable universal property.
+For instance, it turns out that we can also express many convenient [[universal properties]] in terms of derivators. A striking example is the theory of [[triangulated category|triangulated categories]]: if $A$ is an [[abelian category]], its (bounded) [[derived category]] $D^b(A)$ is not defined by a universal property.  A natural statement would be that, given a triangulated category, the category of additive functors $A\to T$ which send [[short exact sequence]]s to distinguished triangles is equivalent to the category of triangulated functors $D^b(A)\to T$, but this statement is false, and in fact, does not even make sense (unless $A$ is [[semisimple category|semi-simple]]). But, in practice, everything behaves as if the above statement were meaningful and true. The 'reason' why this does not work is that the [[mapping cone|cone]] of a map in a triangulated category is not defined by a universal property. On the other hand, the cone of a morphism of complexes $X\to Y$ is canonically defined: this is the [[homotopy colimit]] of the diagram $0\leftarrow X \to Y$.  In the world of derivators, we can remedy this situation and recover a suitable universal property.
 
 
 ### As a motivation for $(\infty,1)$-categories
@@ -27,11 +29,11 @@ The notion of *derivator* provides a way to correctly formulate such a question,
 
 ### Prederivators
 
-Let $Cat$ denote the 2-category of [[large category|large]] categories (not necessarily even [[locally small category|locally small]]), and let $Dia$ be some 2-category of small categories.  One common choice is the 2-category of *all* small categories (which generates $Cat$), but we might also choose the 2-category of finite categories.  A **prederivator** with domain $Dia$ is a strict [[2-functor]]
+Let [[Cat]] denote the [[2-category]] of [[large category|large]] [[categories]] (not necessarily even [[locally small category|locally small]]), and let $Dia$ be some 2-category of [[small categories]], thought of as **[[diagram]]s**.  One common choice is the 2-category of *all* small categories (which generates $Cat$), but we might also choose the 2-category of finite categories.  A **prederivator** with domain $Dia$ is a strict [[2-functor]]
 
 $$ Dia^{coop} \to Cat $$
 
-As usual, $(-)^{coop}$ denotes the double dual of a 2-category, which reverses both 1-cells and 2-cells.  Thus, a prederivator is a "$Cat$-valued presheaf" on $Dia$.  Prederivators form a 2-category $PDer$ whose morphisms are [[pseudonatural transformations]] and whose 2-cells are modifications.
+As usual, $(-)^{coop}$ denotes the double dual of a 2-category, which reverses both 1-cells and 2-cells.  Thus, a prederivator is a "$Cat$-valued [[presheaf]]" on $Dia$.  Prederivators form a 2-category $PDer$ whose morphisms are [[pseudonatural transformations]] and whose 2-cells are [[modification]]s.
 
 +--{: .query}
 [[Mike Shulman]]: Is it universal to use $Dia^{coop}$ here?  It seems *much* more natural to me to use $Dia^{op}$, since we usually take limits and colimits of covariant functors, not contravariant ones.
@@ -39,15 +41,32 @@ As usual, $(-)^{coop}$ denotes the double dual of a 2-category, which reverses b
 
 There are two main motivating examples.  Firstly, any category $C$ defines a "representable" prederivator by the assignation $X\mapsto Hom(X^{op},C)$, sending $X\in Dia$ to the category of functors $X^{op}\to C$.  This defines an embedding of $Cat$ into $PDer$.
 
-Secondly, if $C$ is any [[category with weak equivalences]], there is a prederivator $Ho(C)$ which sends $X\in Dia$ to the [[localization]]/[[homotopy category]] $Ho(C)(X)$ of $Hom(X^{op},C)$ relative to the levelwise weak equivalences (as we allowed categories in $Cat$ to have large homsets, these localization exist).  In general, this is a non-representable prederivator, although of course if the weak equivalences are just the isomorphisms, it reduces to the representable case.  Note that to construct it, we don't need anything besides ordinary (2-)[[category theory]]. 
+Secondly, if $C$ is any [[category with weak equivalences]], there is a prederivator $Ho(C)$ which sends $X\in Dia$ to the [[localization]]/[[homotopy category]] $Ho(C)(X)$ of $Hom(X^{op},C)$ relative to the [[model structure on functors|objectwise weak equivalences]] (as we allowed categories in $Cat$ to have large [[hom-set]]s, these localization exist).  In general, this is a non-representable prederivator, although of course if the weak equivalences are just the [[isomorphism]]s, it reduces to the representable case.  Note that to construct it, we don't need anything besides ordinary [[2-category|(2-)]][[category theory]]. 
 
 ### Derivators
 
 A **derivator** is a prederivator $D$ which satisfies a list of axioms.  These axioms are of two sorts.
 
-The first set of axioms says that there exist well-behaved homotopy limits and colimits, and more generally homotopy [[Kan extensions]].  Specifically, we require the following.
+The first set of axioms says that there exist well-behaved homotopy limits and colimits, and more generally [[homotopy Kan extension]]s.  Specifically, we require the following.
 
-* For any functor $u:X\to Y$ in $Dia$, the [[inverse image]] functor $u^*:D(Y)\to D(X)$ admits a [[left adjoint]] $u_!$ and a [[right adjoint]] $u_*$.  These can be understood as (homotopy) Kan extensions.
+* For any functor $u : X\to Y$ in $Dia$, the [[inverse image]] functor $u^*:D(Y)\to D(X)$ admits a [[left adjoint]] $u_!$ and a [[right adjoint]] $u_*$.  These can be understood as [[homotopy Kan extension]]s
+
+  $$
+    (u_! \dashv u^* \dashv u_*) 
+    :
+    D(Y)
+      \stackrel{
+         \overset{u_!}{\to}
+      }
+      {
+        \stackrel{
+          \overset{u^*}{\leftarrow}
+        }{
+          \underset{u_*}{\to}
+        }
+      }
+    D(X)
+  $$
 
 * For any [[comma square]]
   $$\array{A & \overset{g}{\to} & B \\
@@ -57,15 +76,15 @@ The first set of axioms says that there exist well-behaved homotopy limits and c
   $$ f_! g^* \to u^* v_! \quad \text{and} \quad v^* u_* \to g_* f^* $$
   are isomorphisms.  Intuitively, this says that the Kan extensions in question are *pointwise*.  In the presence of the second set of axioms, it suffices to require this when $C$ is the [[terminal category]] (for the first case) and when $D$ is so (for the second).
 
-The second set of axioms are "sheaf" conditions.  Of course, we cannot assert that $D$ is exactly a sheaf (in the appropriate 2-categorical sense), since the terminal category in $Dia$ is dense and so any sheaf on it is representable (and represented by $D(1)$), whereas we want to also allow non-representable derivators.  But we do need some sheaf-like properties in order to do category theory.  All of the following axioms can be understood as asserting that for some [[cover|covering family]] $\{Y_i \to X\}$ in $Dia$, the canonical map $D(X) \to Desc(D,\{Y_i\})$ from $D(X)$ to the category of descent data for the covering, while not an equivalence, has some weaker good properties.
+The second set of axioms are "[[sheaf]]" conditions.  Of course, we cannot assert that $D$ is exactly a sheaf (in the appropriate [[stack|2-categorical sense]]), since the terminal category in $Dia$ is dense and so any sheaf on it is representable (and represented by $D(1)$), whereas we want to also allow non-representable derivators.  But we do need some sheaf-like properties in order to do category theory.  All of the following axioms can be understood as asserting that for some [[cover|covering family]] $\{Y_i \to X\}$ in $Dia$, the canonical map $D(X) \to Desc(D,\{Y_i\})$ from $D(X)$ to the category of [[descent]] data for the covering, while not an [[equivalence of categories|equivalence]], has some weaker good properties.
 
 The standard axioms are:
 
-* $D\colon Dia^{coop} \to Cat$ takes coproducts to products.  Sometimes we require this only for finite coproducts.  In particular, we have $D(\emptyset) = 1$.
+* $D\colon Dia^{coop} \to Cat$ takes [[coproduct]]s to products.  Sometimes we require this only for finite coproducts.  In particular, we have $D(\emptyset) = 1$.
 
 * For any $X\in Dia$, consider the family of functors $x\colon 1\to X$ determined by the objects of $X$.  Then the induced functor
   $$ D(X) \overset{(x^*)}{\to} \prod_x D(1)$$
-  is [[conservative functor|conservative]] (though not generally faithful).  This in turn implies that the same is true for any jointly essentially surjective family of functors.
+  is [[conservative functor|conservative]] (though not generally faithful).  This in turn implies that the same is true for any jointly [[essentially surjective functor|essentially surjective]] family of functors.
 
 * For any $X\in Dia$, if $I$ denotes the [[interval category]], then the induced functor
   $$ D(X\times I) \to Hom(I,D(X)) $$
