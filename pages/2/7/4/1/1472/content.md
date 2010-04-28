@@ -7,7 +7,7 @@
 </div>
 
 
-This entry lists and discusses applications and occurences of [[higher category theory]] in [[physics]].
+This entry discusses [[physics]] from the [[nPOV]].
 
 > well, this entry is hugely imperfect at the moment, at best a sketch of a sketch. But some nice entry of this topic should eventually be available.
 
