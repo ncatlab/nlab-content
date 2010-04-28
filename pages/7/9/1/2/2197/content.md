@@ -15,7 +15,9 @@ A simple and concrete example is that for a locally convex TVS $V$ one knows tha
 [[David Roberts]]: I presume that the example $L^p([0,1])$, $p\in (0,1)$, above is one such example. In this instance (for general $p$), the 'coordinate projection' is evaluation at a point in $[0,1]$, and you certainly want this to be continuous.
 =--
 
-
++--{: .query}
+Comment from Yemon Choi (please merge/delete as appropriate) David's last comment is plusungood I fear - I don't know what coordinate projections on an arbitrary LCTVS are supposed to be, unless you're restricting to some special class of vector-spaces-of-functions (here is where highbrow people might say "comma category" and where I shall not). In particular: for $L^p[0,1]$, even when $1 &lt;p &lt; \infty$, it is *absolutely meaningless* to speak of "evaluation at a point in $[0,1]$ since elements of $L^p$ are only defined up to sets of null measure...
+=--
 
 [[!redirects locally convex spaces]]
 [[!redirects locally convex vector space]]
