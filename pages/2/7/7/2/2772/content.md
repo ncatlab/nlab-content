@@ -3,7 +3,7 @@
 [[!include quasi-category theory contents]]
 </div>
 
-#full and faithful $(\infty,1)$-functor #
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
@@ -13,13 +13,21 @@ The generalization to the context of [[(∞,1)-category]]-theory of the notion o
 
 ## Definition ##
 
-An [[(∞,1)-functor]] $F : C \to D$ is full and faithful if regarded as an [[enriched functor]] of [[SSet]]-[[enriched category|enriched categories]] (see [[(∞,1)-category]] for this model) it has the property that for all pairs $x,y$ of objects in $C$ we have that
+An [[(∞,1)-functor]] $F : C \to D$ is **full and faithful** if for all objects $x,y \in C$  it induced an equivalence on the [[hom-object in a quasi-category|hom-∞-groupoids]]
 
 $$
-  F_{x,y} : C(x,y) \to D(F(x), F(y))
+  F_{x,y} : Hom_C(x,y) \stackrel{\simeq}{\to}
+   Hom_D(F(x), F(y))
+  \,.
 $$
 
-is a weak equivalence in the standard [[model structure on simplicial sets]].
+A full and faithful $(\infty,1)$-functor $F : C \to D$ exhibits $C$ as a full [[sub-(∞,1)-category]] of $D$ and one tends to write
+
+$$
+  F : C \hookrightarrow D
+$$
+
+to inducate this.
 
 ## References ##
 
@@ -29,5 +37,6 @@ This appears as definition 1.2.10 in
 
 
 [[!redirects full and faithful (∞,1)-functor]]
-[[!redirects fully faithful (infinity,1)-functor]]
+[[!redirects fully faithful (infinity,1)-fu
+nctor]]
 [[!redirects fully faithful (∞,1)-functor]]
