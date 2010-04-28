@@ -57,7 +57,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Gordon Royle]]
 * [[Greg Egan]]
 * [[Hanno Becker]]
-* [[Harry|Harry Gindi]]
+* [[Harry Gindi]]
 * [[Herman Stel]]
 * [[Hugh Thomas]]
 * [[Ian Durham]]
