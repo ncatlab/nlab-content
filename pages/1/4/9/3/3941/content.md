@@ -12,3 +12,8 @@ We say that a cospan $F$ in a category $C$, that is, an object of the functor ca
 Dually, we say that a span $G$ in a category $C$, that is, an object of the functor category $[Sp,C]$ is **coquadrable** if there exists a [[cocone]] $N$ for $G$, that is, an object $N$ in the comma category $(*_G \downarrow \Delta)$.
 
 We say that a category $C$ is quadrable (resp. coquadrable) if all cospans (resp. spans) in $C$ are quadrable (resp. coquadrable).  
+
+
+[[!redirects quadrable cospan]]
+[[!redirects coquadrable span]]
+[[!redirects quadrable span]]
