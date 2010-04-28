@@ -31,9 +31,62 @@ As an [[SSet]]-[[enriched category]] the [[(∞,1)-category of (∞,1)-categorie
 
 One [[model category]] structure presenting this is the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]]. As a plain [[model category]] this is [[Quillen equivalence|Quillen equivalent]] to $sSet_{Joyal}$, but as an [[enriched model category]] it is $sSet_{Quillen}$ enriched, so that its full [[SSet]]-subcategory on fibrant-cofibrant objects presents the $(\infty,1)$-category of $(\infty,1)$-categories.
 
-## Properties
+### Properties
 
-### Automorphisms
+#### Limits and colimits in $(\infty,1)$Cat
+
+[[limit in a quasi-category|Limits and colimits]] over a [[(∞,1)-functor]] with values in $(\infty,1)Cat$ may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]] $Z \to \infty Grpd^{op}$ 
+
+Then let $X$ be any [[(∞,1)-category]] and
+
+$$
+  F : X \to (\infty,1)Cat
+$$
+
+an [[(∞,1)-functor]]. Recall that the [[Cartesian fibration|coCartesian fibration]] $E_F \to X$ classified by $F$ is the pullback of the [[universal fibration of (∞,1)-categories]] $Z$ along F:
+
+$$
+  \array{
+    E_F &\to& Z
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{F}{\to}& (\infty,1)Cat
+  }
+$$
+
++-- {: .un_prop }
+###### Proposition
+
+Let the assumptions be as above. Then:
+
+* The colimit of $F$ is equivalent to $E_F$:
+
+  $$
+    E_F \simeq colim F
+  $$
+
+* The limit of $F$ is equivalent to the [[(infinity,1)-category of cartesian section]] of $E_F \to X$
+
+  $$
+    \Gamma_X(E_F) \simeq lim F
+    \,.
+  $$
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, section 3.3]].
+
+=--
+
+
+
+
+
+#### Automorphisms
 
 +-- {: .un_theorem }
 ###### Theorem
