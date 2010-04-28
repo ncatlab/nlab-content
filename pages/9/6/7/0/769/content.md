@@ -5,7 +5,7 @@ The **comma object** of two morphisms $f:A\to C$ and $g:B\to C$ in a [[2-categor
 [[!include comma object > 2cell]]
 =--
 
-which is universal in the sense of a [[2-limit]].
+which is universal in the sense of a [[2-limit]].  Comma objects are also sometimes called **lax pullbacks**, but this term more properly refers to the [[lax limit]] of a cospan.
 
 Part of this (to be explicit) is the statement that for any object $D$, 1-morphisms $p':D\to A$, $q':D\to B$ and 2-cell $\sigma:f p'\Rightarrow g q'$ there is a 1-morphism $u:D\to(f/g)$ and isomorphisms $p u\cong p'$, $q u\cong q'$ such that modulo these isomorphisms, we have $\sigma u=\alpha$.  There is also an additional "2-dimensional universality" saying that given $u:D\to (f/g)$ and $v:D\to (f/g)$ and 2-cells $\mu:p u \to p v$ and $\nu:q u \to q v$ such that $\alpha v. f \mu = g\nu . \alpha u$, there exists a unique 2-cell $\beta:u\to v$ such that $p\beta = \mu$ and $q \beta = \nu$.  Note that the 2-dimensional property implies that in the 1-dimensional property, [[generalized the|the]] 1-morphism $u$ is unique up to unique isomorphism.  A square containing a 2-cell with this property is sometimes called a **comma square**.
 
@@ -18,3 +18,7 @@ In [[Cat]], a [[comma category]] is a comma object (in fact a strict one, as nor
 
 
 [[!redirects comma objects]]
+[[!redirects comma square]]
+[[!redirects comma squares]]
+[[!redirects lax pullback]]
+[[!redirects lax pullbacks]]
