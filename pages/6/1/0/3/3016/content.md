@@ -35,7 +35,7 @@ the nPOV asserts that
 
 =--
 
-## Some summary statements
+## The role of the $n$POV
 
 Practitioners of category theory have often attempted to express the striking power of category theory (or general conceptual methods), sometimes through aphorism, sometimes through metaphor. Early on, Peter Freyd wrote 
 
@@ -69,6 +69,18 @@ In all notions of [[generalized smooth space]]s all pullbacks do exist. But they
 Recent developments in [[higher category theory]], such as the concept of higher [[Structured Spaces]] based on [[Higher Topos Theory]], put all these notions of generalized geometries into a unified picture of [[higher geometry]] that realizes old ideas about how category theory provides a language for [[space and quantity]] in great detail and powerful generality and sheds new light on old [[classical mathematics|classical]] problems such the description of the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli stack of derived elliptic curves]] and the construction of the [[tmf]] [[spectrum]] from it.
 This construction is probably literally _unthinkable_ without adopting the $n$-point of view when approaching it. Using this point of view, the general strategy for approaching it however becomes naturally evident.
 
+#### In differential equations {#DiffEqu}
+
+Much of [[topological vector space]] theory, e.g., the theory of [[distribution]]s, [[nuclear space]]s, etc. has its origins in [[partial differential equation]] theory and is intensely conceptual (categorical) in spirit. It is routine these days to accept distributional solutions, but it wasn't always so, and it was the efficacy of the abstract TVS theory which changed people's minds.
+
+Way back Cartan studied differential equations in terms of [[exterior differential system]]s. From the $n$POV, these may be understood naturally as nothing but sub [[Lie ∞-algebroid]]s of a [[tangent Lie algebroid]]. 
+
+[[Bill Lawvere]] noticed in the 1960s that the notion of differential equation makes sense in any [[smooth topos]] (as described [here](http://ncatlab.org/nlab/show/differential+equation#InSynthDiff)). In his highly influental article _Categorical dynamics_ he promoted the point of view that all things [[differential geometry|differential geometric]] can be formulated in abstract category theory internal to a suitable [[topos]]. This is the origin of [[synthetic differential geometry]]. It may be understood as providing the fundamental characterization of the notion of the [[infinitesimal space|infinitesimal]].
+
+Closely related to both these perspectives, a modern point of view on differential equations that is proving to be very fruitful regards them as part of the theory of [[D-module]]s. 
+
+
+
 ### In cohomology
 
 Thousands of definitions of notions of cohomology and its variants. From the $n$POV, just a single concept: an [[derived hom space|∞-categorical hom-space]] in an [[(∞,1)-topos]]. See [[cohomology]].
@@ -98,6 +110,14 @@ Recently, this problem was fully solved and homotopy theory fully understood as 
 * and for instance the notion of homotopy category of a stable $(\infty,1)$-category reproduces the notion of [[triangulated category]], thus incorporating also a large toolset from [[homological algebra]] into the picture.
 
 
+#### In rational homotopy theory {#RationalHomotopyTheory}
+
+... The study of [[rational homotopy theory]] and is naturally understood as the study of the [[localization of an (∞,1)-category|localizations]] of [[(∞,1)-topos]]es at morphism that induce equivalences in [[cohomology]] with certain line-object coefficients. See [[rational homotopy theory in an (∞,1)-topos]]. ...
+
+
+
+
+
 ### In deformation theory {#DeformationTheory}
 
 In deformation theory it was early on recognized that for a good theory the notion of [[Kähler differential]]s has to be generalized to the notion of [[cotangent complex]]. With the advent of the study of derived [[moduli space]]s, such as the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli space of derived elliptic curves]], this needed to be further generalized to notions of cotangent complexes not just of [[ring]]s, but of [[E-∞-ring]]s. 
@@ -115,6 +135,44 @@ As another example, the [[identity types]] in Martin-L&#246;f's original constru
 
 ### In physics {#Physics}
 
+
+> the entry [[higher category theory and physics]] should eventually contain some decent material, but at the moment it is just a sketch of a sketch
+
+#### Classical mechanics and its geometric quantization {#ClassMech}
+
+By the end of the 19th century a fairly complete, powerful and elegant mathematical formulation of [[classical mechanics]]: in terms of [[symplectic geometry]]. By the middle of the 20th century, the passage to the corresponding quantum theory was pretty well modeled by the [[geometric quantization]] of symplectic geometries.
+
+But there were some lose ends. Notably the fully general theory involved [[Poisson manifold]]s, not just symplectic manifolds. And the mechnics of relativistic [[classical field theory]] was realized to be more naturally described by [[multisymplectic geometry]].
+
+Both these generalizations have a natural common higher categorical formulation: that of [[Lie ∞-algebroid]]s: a Poisson geometry is naturally encoded in its corresponding [[Poisson Lie algebroid]]. Its higher categorical versions -- the [[n-symplectic manifold]]s -- encode the corresponding multisymplectic geometry.
+
+Moreover, the quantization step of geometric quantization was understood to be effectively the [[Lie integration]] of these [[Lie ∞-algebroid]]s to the corresponding [[Lie ∞-groupoid]]s (currently this is well understood for low $n$). 
+
+
+
+#### Quantum mechanics and quantum information {#QuantumMechanics}
+
+The basic structure of [[quantum mechanics]] and [[quantum information theory]] is encoded in the theory of [[dagger-compact categories]].
+
+...
+
+
+#### Gauge theory {#GaugeTheory}
+
+Maxwell realized that the [[electromagnetic field]] is controlled by a degree 2-cocycle in [[de Rham cohomology]]: the electromagnetic [[field strength]]. Later Dirac noticed that this is one part of a degree 2-cocycle in [[differential cohomology]] that characterize a [[connection on a bundle|connection]] on a [[line bundle]].
+
+Later the [[Yang-Mills field]] was understood to similarly be a [[connection on a bundle]], this time on a $G$-[[principal bundle]] for $G$ some possibly nonabelian [[group]]. 
+
+While thinking about the mathematical structures possibly underlying [[standard model of particle physics]] and [[gravity]], theoretical physicists considered more general hypothetical [[gauge field]]s, such as the [[Kalb-Ramond field]], the [[RR-field]] or the [[supergravity C-field]]. Today all these gauge fields are understood to be modeled, mathematically, by generalized [[differential cohomology]].
+
+
+##### Supergravity {#Supergravity}
+
+Theories of [[supergravity]] have been known to require higher [[gauge field]]s in the above sense -- hence the term [[supergravity C-field]]. A powerful formalism for handling these theories is the [[D'Auria-Fre formulation of supergravity]]. As described there, this is secretly (but evidently) nothing but a description of supergravity as a theory of connections on nonabelian $G$-[[principal ∞-bundle]]s for $G$ some super [[Lie ∞-groupoid|Lie ∞-group]]. For instance Cremmer-Scherk 11-dimensional supergravity theory is governed by the super Lie 3-group $G$ whose [[L-∞-algebra]] is the [[supergravity Lie 3-algebra]].
+
+
+#### BV-BRST formalism {#BVBRST}
+
 The [[BV-BRST formalism]] is secretly a way to talk about the fact that configuraton spaces of [[gauge theory|gauge theories]] are not naive spaces such as [[manifold]]s, but are general [[space]]s in the sense of [[higher geometry]]: 
 
 the configuration space is really an object $Conf \in Sh_{(\infty,1)}((dgAlg^-)^{op})$ in the [[∞-stack]] [[(∞,1)-topos]] on the [[(∞,1)-site]] $(dgAlg^-)^{op}$ of certain [[algebra in an (∞,1)-category|∞-algebras]] modeled as [[dg-algebra]]s. The BV-BRST-complex of a physical system is the global [[derived geometry|derived]] function algebra 
@@ -125,6 +183,24 @@ $$
 $$
 
 > (many more aspects go here, eventually)...
+
+
+#### Quantum field theory {#QFT}
+
+There are essentially two axiomatizations of what [[quantum field theory]] is, both of which are inherently $\infty$-categorical:
+
+* in the [[FQFT]] picture -- the _Schr&#246;dinger picture_ -- a quantum field theory is described as an [[(∞,n)-functor]] on an [[(∞,n)-category of cobordisms]]. The [[cobordism hypothesis]] -- now a theorem that characteizes central properties of these [[(∞,n)-categories]], has been a major driving force in the development of [[higher category theory]].
+
+* in the [[AQFT]]/[[factorization algebra]] picture -- the _Heisenberg picture_  -- a quantum field theory is described as an $\infty$-copresheaf of observables on its parameter space. 
+
+
+##### 3d TFT and 2d CFT {#3dTFT2dCFT}
+
+3-dimensional [[TFT]] such as [[Chern-Simons theory]] and [[Dijkgraaf-Witten theory]] and the global aspects of 2-dimensional [[conformal field theory]] are inherently governed by the theory of [[modular tensor categories]].
+
+The local aspects of 2-dimensional conforma field theory are governed by [[vertex operator algebra]]s. A [[vertex operator algebra]] is really the [[algebra over an operad]], for the operad of holomorphic pointed spheres (as described there).
+
+...
 
 ### In your favorite topic
 
