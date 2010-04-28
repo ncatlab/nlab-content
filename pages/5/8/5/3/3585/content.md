@@ -95,6 +95,18 @@ $$
 \lim_{n \to \infty} \sqrt{|b_n n!|} = 0
 $$
 
+###topology and duality for compactly supported hyperfunctions
+We can introduce a canonical topology on the space $\mathcal{B}_K$ of hyperfunctions with support in a compact $K$ and show that the topological dual is the space $\mathcal{A}_K$ of germs of real analytical functions, that is the inductive limit of the spaces of holomorphic functions on a cofinal set of complex neighbourhoods of $K$, and vice versa. 
+
+The algebraic statement is known as **K&#246;the's theorem**. 
+
+This will also hint at the fact that we will not be able to introduce a topology on $\mathcal{B}(\mathbb{R})$ that resembles the situation in the theory of distributions, since its dual space would be something like "the space of compactly supported real analytic functions".
+
+...
+
+###singularities and microfunctions
+...
+
 #References
 
 * Springer Online Enc. of Math.: [hyperfunction](http://eom.springer.de/h/h048420.htm)
