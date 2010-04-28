@@ -11,7 +11,7 @@ for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that the composites above are 
 
 Compare this to the notion of category [[internal category|internal]] to [[Pos]].
 
-Similarly, such a partially ordered category can be considered as a special kind of [[double category]], while a locally partially ordered category can be considered as a special kind of $2$-[[2-category|category]].
+Similarly, such a partially ordered category can be considered as a special kind of [[double category]], while a [[locally posetal 2-category|locally partially ordered category]] can be considered as a special kind of $2$-[[2-category|category]].
 
 >Old discussion:
 +--{: .query}
