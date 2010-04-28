@@ -5,88 +5,118 @@
 
 ## Idea
 
-Why do we take for granted that the [[homotopy theory]] of [[topological space|spaces]] provides a good notion (among others) of [[∞-groupoid]]? Why isn't this an arbitrary choice (apart from the very fact that it works so well)? But we may also question the notion of [[∞-groupoid]]: why should we expect everything to be [[enriched category|enriched]] in higher groupoids?
+A **derivator** is a refinement of a [[homotopy category]] which includes information about [[homotopy limits]] and colimits, which was invented by [[Grothendieck]] and Heller.  The notion can be motivated in several ways.
 
-After all, the good question might be something like: what is the mathematical structure over which everything is canonically enriched? And, last but not least, how can we formulate correctly such a question?
+### As a halfway house
 
-Following [[Grothendieck]] and Heller, the notion of **derivator** provides a way to do this, and the good news are that the question even has an answer: everything is uniquely enriched in [[homotopy type]]s of [[CW-complex]]es or equivalently of [[Kan complex]]es, and there is no other choice at all. This may be seen using only ordinary [[category theory]].
+Suppose we start from the perspective that what we really study in [[homotopy theory]] are [[(∞,1)-categories]].  The homotopy category of an $(\infty,1)$-category (the 1-category obtained by setting all equivalent 1-morphisms equal) is a fairly coarse invariant, but for some purposes it is sufficient.  On the other hand, sometimes we need more than merely the homotopy category, but doing everything with $(\infty,1)$-categories can be technically daunting.  Frequently, all we need from an $(\infty,1)$-category that is not present in its homotopy category is to know that we have well-behaved constructions of (homotopy) limits and colimits.
 
-We assume the characteristics of [[category theory]] is: [[category|categories]], [[functor]]s, [[natural transformation]]s, [[Kan extension]]s, [[Grothendieck fibration]]s. We also assume that we know enough about [[2-categories] to speak comfortably of the [[2-category]] [[Cat]] of categories.
+A *derivator* is thus a halfway-house, containing more information than a homotopy category, but easier to work with than an $(\infty,1)$-category.  It consists of a homotopy category together with extra structure that enables one to compute with homotopy limits and colimits.  Any $(\infty,1)$-category with sufficiently many limits and colimits has an underlying derivator, and working with these derivators suffices for a surprising number of things we may want to do with $(\infty,1)$-categories.  However, derivators are an essentially 1-categorical notion, so we can study them using ordinary 2-category theory.  Thus derivators provide a "truncated" version of [[higher category theory]], which gives us the language to characterize higher category theory using only usual category theory, without any emphasis on any particular model (in fact, without assuming we even know any such model).
 
-So we have the 2-category of categories $Cat$ (categories are allowed to be [[large category|large]], which means their [[hom-set|Hom]]s might be [[class]]es, or non-small sets, depending on your favorite set theoretic preferences), and the 2-category of small categories $cat$, which generate $Cat$ (in the sense that any category is a (large) [[filtered colimit]] of [[small category|small]] ones). 
+For instance, it turns out that we can also express many convenient universal properties in terms of derivatiors. A striking example is the theory of [[triangulated category|triangulated categories]]: if $A$ is an [[abelian category]], its (bounded) [[derived category]] $D^b(A)$ is not defined by a universal property.  A natural statement would be that, given a triangulated category, the category of additive functors $A\to T$ which send [[short exact sequence]]s to distinguished triangles is equivalent to the category of triangulated functors $D^b(A)\to T$, but this statement is false, and in fact, does not even make sense (unless $A$ is [[semisimple category|semi-simple]]). But, in practice, everything behaves as if the above statement were meaningful and true. The 'reason' why this does not work is that the [[mapping cone|cone]] of a map in a triangulated category is not defined by a universal property. On the other hand, the cone of a morphism of complexes $X\to Y$ is canonically defined: this is the [[homotopy colimit]] of the diagram $0\leftarrow X \to Y$.  In the world of derivators, we can remedy this situation and recover a suitable universal property.
 
 
-### Motivation from homotopical/homological algebra
+### As a motivation for $(\infty,1)$-categories
 
-We would like to enlarge the theory of categories, because we know by experience that [[model category|homotopical]] (or [[homological algebra|homological]]) algebra cannot be defined intrinsically in there. A striking example is the theory of [[triangulated category|triangulated categories]]: if $A$ is an [[abelian category]], its (bounded) [[derived category]] $D^b(A)$ is not defined by a universal property: a natural statement would be that, given a triangulated category, the category of additive functors $A\to T$ which send [[short exact sequence]]s to distinguished triangles is equivalent to the category of triangulated functors $D^b(A)\to T$; but this statement is false, and in fact, does not even make sense (unless $A$ is [[semisimple category|semi-simple]]). But, in practice, everything behaves as if the above statement were meaningful and true. The 'reason' why this does not work is that the [[mapping cone|cone]] of a map in a triangulated category is not defined by a universal property. On the other hand, the cone of a morphism of complexes $X\to Y$ is canonically defined: this is the [[homotopy colimit]] of the diagram $0\leftarrow X \to Y$.
+On the other hand, we may ask: Why do we take for granted that the [[homotopy theory]] of [[topological space|spaces]] provides a good notion (among others) of [[∞-groupoid]]?  And why should we expect everything to be [[enriched category|enriched]] in higher groupoids anyway?  A priori this may seem arbitrary (although it certainly works very well).  Instead we might ask: what is the mathematical structure over which everything is canonically enriched?  How can we even correctly formulate such a question?
+
+The notion of *derivator* provides a way to correctly formulate such a question, and the answer turns out to be mostly what we expect.  Every type of "category theory" (at least, category theory without an *a priori* given [[enriched category|enrichment]]) that we might want to do is automatically and uniquely enriched in [[homotopy types]], i.e. in the homotopy category of [[CW-complexes]] or [[Kan complexes]].  (For ordinary 1-category theory, this enrichment is trivial, i.e. factors through sets considered as discrete homotopy types.)  A derivator is simply a structure with the characteristics of ordinary [[category theory]]: [[category|categories]], [[functor]]s, [[natural transformation]]s, [[Kan extension]]s, [[Grothendieck fibration]]s.  We can then show that any derivator acquires such an enrichment, so that homotopy types are a canonical enriching place for "category theories."
+
+
+## Definition
 
 ### Prederivators
 
-As the $2$-category of categories does not seem to be large enough to express intrinsically our favourite structures, there is a need to enlarge it. An apparently naive way to do so consists to consider [[presheaf|presheaves]] on $cat$. These are contravariant [[2-functor]]s from $cat$ to $Cat$ (contravariant means that it inverts 1-cells and 2-cells). Any category $C$ may considered a prederivator, by sending a small category $X$ to the category $Hom(X^{op},C)$ of presheaves on $X$ with values in $C$. This defines an embedding of $Cat$ into the 2-category $PDer$ of prederivators. 
+Let $Cat$ denote the 2-category of [[large category|large]] categories (not necessarily even [[locally small category|locally small]]), and let $Dia$ be some 2-category of small categories.  One common choice is the 2-category of *all* small categories (which generates $Cat$), but we might also choose the 2-category of finite categories.  A **prederivator** with domain $Dia$ is a strict [[2-functor]]
 
-If $C$ is a [[category with weak equivalences]], we may consider the prederivator $Ho(C)$ which sends a small category $X$ to the [[localization]]/[[homotopy category]] $Ho(C)(X)$ of $Hom(X^{op},C)$ by termwise weak equivalences (as we allowed Hom's to be large, these localization exist). 
+$$ Dia^{coop} \to Cat $$
 
-This is an example of a non-representable prederivator. However, to do this, we don't need anything else than genuine (2-)[[category theory]]. 
+As usual, $(-)^{coop}$ denotes the double dual of a 2-category, which reverses both 1-cells and 2-cells.  Thus, a prederivator is a "$Cat$-valued presheaf" on $Dia$.  Prederivators form a 2-category $PDer$ whose morphisms are [[pseudonatural transformations]] and whose 2-cells are modifications.
+
++--{: .query}
+[[Mike Shulman]]: Is it universal to use $Dia^{coop}$ here?  It seems *much* more natural to me to use $Dia^{op}$, since we usually take limits and colimits of covariant functors, not contravariant ones.
+=--
+
+There are two main motivating examples.  Firstly, any category $C$ defines a "representable" prederivator by the assignation $X\mapsto Hom(X^{op},C)$, sending $X\in Dia$ to the category of functors $X^{op}\to C$.  This defines an embedding of $Cat$ into $PDer$.
+
+Secondly, if $C$ is any [[category with weak equivalences]], there is a prederivator $Ho(C)$ which sends $X\in Dia$ to the [[localization]]/[[homotopy category]] $Ho(C)(X)$ of $Hom(X^{op},C)$ relative to the levelwise weak equivalences (as we allowed categories in $Cat$ to have large homsets, these localization exist).  In general, this is a non-representable prederivator, although of course if the weak equivalences are just the isomorphisms, it reduces to the representable case.  Note that to construct it, we don't need anything besides ordinary (2-)[[category theory]]. 
 
 ### Derivators
 
-If the category with weak equivalences $C$ is even a [[model category]] then the prederivator $Ho(C)$ is a **derivator** : 
+A **derivator** is a prederivator $D$ which satisfies a list of axioms.  These axioms are of two sorts.
 
-this means that
+The first set of axioms says that there exist well-behaved homotopy limits and colimits, and more generally homotopy [[Kan extensions]].  Specifically, we require the following.
 
-* for any functor $u:X\to Y$ in $cat$, the [[inverse image]] functor $u^*:Ho(C)(Y)\to Ho(C)(X)$ admits a [[left adjoint]] $u_!$ and a [[right adjoint]] $u_*$; 
+* For any functor $u:X\to Y$ in $Dia$, the [[inverse image]] functor $u^*:D(Y)\to D(X)$ admits a [[left adjoint]] $u_!$ and a [[right adjoint]] $u_*$.  These can be understood as (homotopy) Kan extensions.
 
-* that any map in $Ho(C)(X)$ which is termwise invertible is invertible
+* For any [[comma square]]
+  $$\array{A & \overset{g}{\to} & B \\
+  ^f\downarrow &\Downarrow& \downarrow^v\\
+  C& \underset{u}{\to} & D}$$
+  in $Dia$, the Beck-Chevalley transformations
+  $$ f_! g^* \to u^* v_! \quad \text{and} \quad v^* u_* \to g_* f^* $$
+  are isomorphisms.  Intuitively, this says that the Kan extensions in question are *pointwise*.  In the presence of the second set of axioms, it suffices to require this when $C$ is the [[terminal category]] (for the first case) and when $D$ is so (for the second).
 
-* and that we have nice formulas to compute $u_!$ and $u_*$. 
+The second set of axioms are "sheaf" conditions.  Of course, we cannot assert that $D$ is exactly a sheaf (in the appropriate 2-categorical sense), since the terminal category in $Dia$ is dense and so any sheaf on it is representable (and represented by $D(1)$), whereas we want to also allow non-representable derivators.  But we do need some sheaf-like properties in order to do category theory.  All of the following axioms can be understood as asserting that for some [[cover|covering family]] $\{Y_i \to X\}$ in $Dia$, the canonical map $D(X) \to Desc(D,\{Y_i\})$ from $D(X)$ to the category of descent data for the covering, while not an equivalence, has some weaker good properties.
 
-In the case the weak equivalences of $C$ are just the [[isomorphism]]s, this derivator structure is just the theory of [[colimit]]s and [[limit]]s in $C$ (as far as they are indexed by small categories). For a general model category, this structure of derivator just encodes the notion of [[homotopy colimit]] and of [[homotopy limit]]. Note however that this way of seeing homotopy (co)limits does not use anything else than usual category theory.
+The standard axioms are:
 
-### The 2-category of derivators
+* $D\colon Dia^{coop} \to Cat$ takes coproducts to products.  Sometimes we require this only for finite coproducts.  In particular, we have $D(\emptyset) = 1$.
 
-We can consider now the 2-category $Der$ of derivators: 
+* For any $X\in Dia$, consider the family of functors $x\colon 1\to X$ determined by the objects of $X$.  Then the induced functor
+  $$ D(X) \overset{(x^*)}{\to} \prod_x D(1)$$
+  is [[conservative functor|conservative]] (though not generally faithful).  This in turn implies that the same is true for any jointly essentially surjective family of functors.
 
-* [[object]]s are derivators;
+* For any $X\in Dia$, if $I$ denotes the [[interval category]], then the induced functor
+  $$ D(X\times I) \to Hom(I,D(X)) $$
+  is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] (though again, it is not generally faithful).  Sometimes it is convenient to assume this property when $I$ is any (perhaps finite) [[free category]].
 
-*  1-[[morphism]]s are (non-strict) [[transfor|morphisms of 2-functors]] $F:D\to D'$ which commute with the functors $u_!$ (i.e. with homotopy colimits), 
++--{: .query}
+[[Mike Shulman]]: It's clear to me that these are desirable requirements, which are moreover satisfied by all derivators of the form $Ho(C)$, but I would really like a conceptual explanation for why these axioms are *sufficient*.
+=--
 
-* and 2-cells are the natural transformations (modifications) between these. 
+It is easy to see that if $C$ has pointwise left and right Kan extensions along all functors in $Dia$, then its representable prederivator is a derivator.  Somewhat more difficult to prove is that if $C$ is a [[model category]] (or more generally, has well-behaved homotopy Kan extensions), then the prederivator $Ho(C)$ is also a derivator.  Thus the derivator encodes the notions of [[homotopy colimit]] and of [[homotopy limit]].  Note again that this way of seeing homotopy (co)limits does not use anything besides usual (2-)category theory.
 
-Given two derivators, let us denote by $Hom_!(D,D')$ the category of morphisms of derivators. Given a small category $X$, there is a $2$-functor, defined by evaluating at $X^{op}$
-$$Der\to Cat \quad , \qquad D\mapsto D(X^{op}).$$
-Note that, for any (pre)derivator $D$, the category $D(X^{op})$ is canonically equivalent to the category $Hom(X,D)$ of morphisms of prederivators from $X$ to $D$ (considering $X$ as a prederivator). This $2$-functor is representable. This means that there exists a derivator $\widehat{X}$, endowed with a morphism of prederivators $h:X\to \widehat{X}$ (called the Yoneda embedding), such that, for any derivator $D$, composing with h defines an equivalence of categories
+
+## The 2-category of derivators
+
+We can consider now the 2-category of derivators.  Actually, there are several different ways to define such a 2-category, depending on whether we require morphisms to preserve homotopy colimits, limits, both, or neither.  Let us write $Der_!$ for the 2-category whose morphisms preserve colimits.  Thus:
+
+* its [[object]]s are derivators,
+
+* its 1-[[morphism]]s are [[pseudonatural transformations]] $F:D\to D'$ which commute with the functors $u_!$ (i.e. the canonical comparison maps for these are isomorphisms),
+
+* its 2-cells are the [[modifications]] between these.
+
+We write $Hom_!(D,D') = Der_!(D,D')$ for hom-categories in this 2-category.
+
+### Free cocompletions
+
+Now, given a small category $X$, there is a $2$-functor, defined by evaluating at $X^{op}$
+$$Der_!\to Cat \quad , \qquad D\mapsto D(X^{op}).$$
+Note that, for any (pre)derivator $D$, the category $D(X^{op})$ is canonically equivalent to the category $Hom(X,D)$ of morphisms of *prederivators* from $X$ to $D$ (considering $X$ as a representable prederivator).  Of course, $X$ will usually not itself be a derivator, but nevertheless this $2$-functor is *representable* in the 2-category $Der_!$.
+
+Thus, there exists a derivator $\widehat{X}$, endowed with a morphism of prederivators $h:X\to \widehat{X}$ (called the Yoneda embedding), such that, for any derivator $D$, composing with h defines an equivalence of categories
 $$Hom_!(\widehat{X},D)\simeq Hom(X,D)=D(X^{op}).$$
-
 In other words, the map $h:X\to \widehat{X}$ is the "free completion of $X$ by homotopy colimits" in the sense of derivators.
 
-Furthermore, $\widehat{X}$ can be described rather explicitely: this is the derivator associated to the [[model structure on simplicial presheaves|model category of simplicial presheaves]] on $X$.
+Furthermore, $\widehat{X}$ can be described rather explicitly: it is the derivator associated to the [[model structure on simplicial presheaves|model category of simplicial presheaves]] on $X$.  In particular, the usual [[model structure on simplicial sets|homotopy theory of simplicial sets]] gives rise to the derivator $\widehat{*}$, where $*$ stands for the [[terminal object|terminal]] category.  Note that in order to conclude this, we didn't take for granted that [[homotopy type]]s should be important: its universal property is formulated purely with ordinary category theory.
 
-### Relation to $(\infty,1)$-category theory
-
-This provides a first argument that the usual [[model structure on simplicial sets|homotopy theory of simplicial sets]] plays a central role (as $\widehat{*}$, where $*$ stands for the [[terminal object|terminal]] category), and for this, we didn't take for granted that [[homotopy type]]s should be that important: its universal property is formulated with category theory only. From there, you can see that any derivator is canonically enriched in the derivator $\widehat{*}\simeq Ho(SSet)$: as $*$ acts uniquely on any prederivator, $\widehat{*}\simeq Ho(SSet)$ acts uniquely on any derivator (as far as we ask compatibility with homotopy colimits). 
-
-The [[homotopy hypothesis]] might be reformulated vaguely as: is therean algebraic model of $\widehat{*}$? And then, it looks like some notion of higher groupoid might do the job.
-
-One might argue that the notion of derivator is much weaker than the one of [[(∞,1)-category]] (the latter providing much more interesting structures, whatever model you choose), but that is precisely the point; derivators provide a truncated version of [[higher category theory]] which gives us the language to characterize higher category theory using only usual category theory, without any emphasis on any particular model (in fact, without assuming we even know any).
+From there, you can see that any derivator is canonically enriched in the derivator $\widehat{*}\simeq Ho(SSet)$: as $*$ acts uniquely on any prederivator, $\widehat{*}\simeq Ho(SSet)$ acts uniquely on any derivator (as far as we ask compatibility with homotopy colimits).  Thus the [[homotopy hypothesis]] might be reformulated vaguely as: is there an algebraic model of $\widehat{*}$?  Then one may guess that some notion of higher groupoid might do the job.
 
 
+## Related pages
 
-
-
-
-
-
+* [[pointed derivator]]
+* [[stable derivator]]
+* [[monoidal derivator]]
 
 
 ## References
 
-[[Grothendieck]] has sketched a new formalism for [[homotopy theory]] in his manuscript [[Pursuing Stacks]] and later left another manuscript on the main piece of that theory, the derivators. Independently there is a version due Heller
+[[Grothendieck]] has sketched a new formalism for [[homotopy theory]] in his manuscript [[Pursuing Stacks]] and later left another manuscript on the main piece of that theory, the derivators. Independently there is a version due to Heller
 
 *  A. Heller, _Homotopy theories_ , Memoirs of the American Mathematical Society, Vol. 71, No 383 (1988).
-
-A __prederivator__ is a strict 2-functor $\mathbb{D}:Dia^{op,co}\to Cat$ where $Dia$ is a full 2-subcategory of $Cat$ (often $Cat$ itself). Morphisms of prederivators are pseudonatural 2-transformations of prederivators. 
-
-A derivator is a prederivator satisfying a longer list of axioms. Every localizer induces a derivator. 
 
 See the Sevilla lectures by Maltsionitis on model categories and derivators:
 
@@ -98,8 +128,6 @@ See the Sevilla lectures by Maltsionitis on model categories and derivators:
 
   [Summary on Derivators](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf)
 
-There is also a notion of a triangulated derivator. Being triangulated, is unlike for categories, a property and not a structure; the same for morphisms. 
-
 A link for discussion and a list of source material for  'd&#233;rivateurs' can be found at
 
 * [[Alexander Grothendieck]],  _[Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
@@ -108,6 +136,14 @@ This includes copies of the first thirteen chapters of a 2000 page manuscript of
 
 * [[Georges Maltsiniotis]] has written an introduction to the topic (in French) which is listed near the bottom of his homepage: (G. Maltsiniotis , "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001).) He also gave a [course](http://congreso.us.es/htag09/php/index.php?carga=courses) in Seville, Sep 2010, and part 3 is on derivators: [Lecture_III_Derivators.pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf) (in English).
 
-Part of the above material is reproduced from
+Part of the above material is adapted from
 
 * [[Denis-Charles Cisinski]], _[blog comment on derivators](http://golem.ph.utexas.edu/category/2010/03/a_perspective_on_higher_catego.html#c032227)_
+
+[[!redirects derivators]]
+[[!redirects prederivator]]
+[[!redirects prederivators]]
+[[!redirects derivateur]]
+[[!redirects dérivateur]]
+[[!redirects derivateurs]]
+[[!redirects dérivateurs]]
