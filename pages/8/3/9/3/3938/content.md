@@ -1,4 +1,3 @@
-_Under Construction - The following material needs the blessing of an expert._
 
 #Contents#
 * automatic table of contents goes here
@@ -61,26 +60,46 @@ A particular application of this is in respect to the cohomology of [[loop space
 
 If we worked in the realm of pure algebraic topology (i.e. didn't care about geometry) this transfer would be almost trivial.  Indeed, if we worked with _based_ loops, it would be a tautology since then the push-forward $H^*(S^1 \wedge \Omega X) \to H^{*-1}(\Omega X)$ is simply the suspension isomorphism.  (We use the smash product as we are working with _based_ spaces here.)
 
-However, we wish to have a geometric interpretation of this, and so work in the realm of differential topology: i.e. with smooth manifolds (albeit possibly infinite dimensional).
+However, we wish to have a geometric interpretation of this, and so work in the realm of differential topology: i.e. with smooth manifolds (albeit possibly infinite dimensional).  We therefore have the diagram:
 
-_... to be continued ..._
+$$
+\array{
+S^1 \times L M & \to & M \\
+\downarrow \\
+L M
+}
+$$
 
-Given a smooth morphism $f:M\to N\in Diff$, an $n$-dimensional connected open subset $U \subseteq M$ and a differential $n$-form $\omega\in\Omega^n(N)$, we have the pullback $f^*\omega\in\Omega^n(M)$ and the pushforward $f_*U$ that satisfy
+The general lore of transgression says that this induces a map in cohomology $H^k_{dR}(M) \to H^{k-1}_{dR}(L M)$ via
 
-$$\int_U f^*\omega = \int_{f_*U} \omega.$$
+$$
+\alpha \mapsto \int_{S^1} ev^*\alpha.
+$$
 
-_Transgression_ can be thought of as a generalization of this situation. For instance, given a smooth manifold $M$, let $L M$ denote the [[loop space]] of $M$, that is, $Hom(S^1,M)$.
-+-- {: .query}
-_Harry_: It's not obvious whether or not you mean the space of smooth loops or continuous loops, nor how you equip this space, which presumably has the compact-open topology, with a smooth manifold structure at all.  This is important for the next part.  Also, the the connected open subset U was originally called a "subdomain", but I looked it up and could not find any references.  Since domain means connected open set, I assume that my replacement of the term "subdomain" with the much more common "connected open subset" did not change the meaning.  
+As with any cohomological construction, there is always the question as to whether or not it is purely cohomological or whether or not it can be lifted to whatever-it-was that defined the cohomology theory.  In this case, that is differential forms.  In this case we are in the happy circumstance that the lift exists.  Expressed purely in terms of differential forms, the formula doesn't change.  However, we can think of differential forms as "that which acts on tangent vectors" and ask for a formulation that involves tangent vectors.  This can make the integration step clearer.
 
-Note: I changed the thing about the loop space for clarity, but it's still not clear to me which loop space and which smooth structure we give it.
+To reformulate transgression thus we need to understand tangent vectors on $L M$.  The simplest way to view a tangent vector on $L M$ is to identify $T L M$ with $L T M$.  That is, we view a tangent vector $x \in T_\gamma L M$ as a loop in $T M$ with the property that $x(t) \in T_{\gamma(t)} M$.  In one view ($T L M$), $x$ tells $\gamma$ which direction to move in; in the other view ($L T M$), each $x(t)$ tells each $\gamma(t)$ which direction to move in.
 
-I'm also afraid that calling the loop space functor L could be confusing, given that the loop space is traditionally denoted by $\Omega$, but this is unfortunate given the also-very-standard symbol for the module of differentials.
+That done, we have an obvious evaluation map $S^1 \times T L M \to T M$, $x \mapsto x(t)$ and so, given a differential form on $M$, we can evaluate it on tangent vectors coming from $L M$.
 
-[[David Roberts]]: LM is standard notation for the free loop space, as is mentioned in the text. The Frechet manifold structure on LM does, a little surprisingly, not give rise to the compact-open topology, as I learned recently. For details of the manifold LM see almost anything of what [[Andrew Stacey]] has written. Oh, and it is always smooth loops, not continuous loops.
-=--
-A $0$-form $f:L M\to \mathbb{R}$ induces a $1$-form $L^*f\in \Omega^1(M)$ and a loop $\gamma: S^1\to M$ in $M$ determines a point $L_*\gamma$ in $L M$. Then we give the condition that for any $0$-form $f: L M\to \mathbb{R}$ and any loop $\gamma: S^1\to M$,
+However, that's not all we need.  There's a very special vector field on $L M$ which we want to throw into the mix.  This is the vector field which assigns to $\gamma \in L M$ the tangent vector $\gamma' \in L T M$.  This is the rotation vector field: if we rotate the circle on $S^1 \times L M$ then to keep the evaluation map consistent, we have to rotate the loops in $L M$ as well.
 
-$$\int_\gamma L^*f = \int_{L_*\gamma} f.$$
+So starting with a $k$-form, say $\alpha$, on $M$, we fix a loop $\gamma \in L M$, $t \in S^1$, and take $k-1$ tangent vectors at $\gamma$, say $x_1, \dots, x_{k-1}$.  We evaluate these at $t$ to get $x_1(t), \dots, x_{k-1}(t) \in T_{\gamma(t)} M$ and also throw in $\gamma'(t)$.  That gives $k$ vectors at $T_{\gamma(t)} M$ on which we can evaluate $\alpha$:
 
-The right-hand side is simply evaluation of the $0$-form at the point determined by $\gamma$, from which it follows that the integral of a 1-form $L^*f$ over a loop $\gamma: S^1 \to M$ can be computed simply by evaluation.
+$$
+\alpha(x_1(t),x_2(t),\dots,x_{k-1}(t),\gamma'(t))
+$$
+
+This is a number.  Hence, by varying $t \in S^1$, it defines a function $S^1 \to \mathbb{R}$.  Integrating this function around $S^1$ yields a number:
+
+
+$$
+\int_{S^1} \alpha(x_1(t),x_2(t),\dots,x_{k-1}(t),\gamma'(t)) dt
+$$
+
+
+Thus we have a map $\bigotimes^{k-1} T(L M) \to \mathbb{R}$.  It can be shown that it is alternating and $(k-1)$-linear, and that it varies smoothly over $L M$, hence defines an element of $\Omega^{k-1}(L M)$.
+
+There is much more to tell in this particular story.  It is possible to replacing $S^1$ by a simplex (but keeping $L M$ the same) and so build up more complicated objects in $\Omega^*(L M)$.  This is the starting point of Chen's theory of [[iterated integrals]] and further developments of the theory can be found in the work of Jones, Getzler, and Petrack.
+
+
