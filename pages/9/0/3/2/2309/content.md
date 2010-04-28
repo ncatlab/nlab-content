@@ -3,3 +3,6 @@ By _cohomology theory_ is usually meant more precisely an example of [[generaliz
 See also
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
+
+[[!redirects generalized cohomology theory]]
+[[!redirects generalised cohomology theory]]
