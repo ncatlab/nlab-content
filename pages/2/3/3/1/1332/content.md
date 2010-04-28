@@ -265,3 +265,5 @@ The collection $S$ of morphisms is called **saturated** if the collection of $S$
 
 
 [[!redirects local objects]]
+[[!redirects local morphism]]
+[[!redirects local morphisms]]
