@@ -14,25 +14,32 @@ A: C^{\infty}_0 (X) \to \mathcal{D}'(X)
 $$
 
 $$
- A u(x) = \frac{1}{(2 \pi)^n} \int \int e^{i (x-y) \theta} a(x,y, \theta) u(y) dy d\theta
+ A u(x) = \frac{1}{(2 \pi)^n} \int \int e^{i (x-y) \theta} a(x, y, \theta) u(y) dy d\theta
 $$
 
 If $\mathcal{F}$ denotes the [[Fourier transform]] a short hand notation for this definition is $A u = \mathcal{F}^{-1} (a \, \mathcal{F}u)$, put in words: Fourier transform $u$, multiply with $a$ and transform back.
 
-If $a$ is a polynomial the definition reduces to the application of a differential operator with constant coefficients. The function $a$ is called the **symbol** of the pseudodifferential operator $A$. If one uses the symbol space defined below, then $a$ is assumed to be an element of $S^m_{\rho, \delta}(X \times X \times \mathbb{R}^n)$ 
+The function $a$ is called the **symbol** of the pseudodifferential operator $A$. If one uses the symbol space defined below, then $a$ is assumed to be an element of $S^m_{\rho, \delta}(X \times X \times \mathbb{R}^n)$.
+
+##every differential operator is a pseudodifferential operator
+We restrict ourselfes to one dimension for simplicity, let $D := -i \frac{d}{dx}$ and write a differential operator $P$ as
+$$
+  P(x, D) := \sum_{k = 0}^n f_n(x) D^k
+$$ 
+with given functions $f_n$. Then $P$ is a pseudodifferential operator with symbol $a(x, y, \theta) = P(x, \theta)$. The symbol of a differential operator therefore is a polynom in $\theta$, which motivates a part of the definition of symbol classes below: We expect that the growth of the symbol in $\theta$ is polynomial at most, and the degree of the bounding polynomial decreases by $1$ if we apply differentiation in $\theta$ to the symbol.
 
 ##Definition of symbols
 If one allows arbitrary functions as symbols there will be no control of the behaviour of the associated pseudodifferential operators, of course. In order to get a theory where these operators are, for example, continuous with respect to the standard topologies on the [[topological vector space]]s that they are defined on, some assumptions have to be made. Different levels of generality of the theory correspond to different assumptions about the symbols. One standard symbol space is defined as follows:
 
 Let $X \subset \mathbb{R}^n$ be open, $0 \le \rho \le 1, 0 \le \delta \le 1, m \in \mathbb{R}, n \in \mathbb{N}, n \neq 0$.
 
-* definition: $S^m_{\rho, \delta}$ is the space of all $a \in C^{\infty}(X \times \mathbb{R}^n)$ such that for all compact $K \subset \subset X$ and all $\alpha, \beta \in \mathbb{N}^n$ there is a constant $C_{K, \alpha, \beta}$ such that
+* definition: $S^m_{\rho, \delta}$ is the space of all $a \in C^{\infty}(X \times \mathbb{R}^n)$ such that for all compact $K \Subset X$ and all $\alpha, \beta \in \mathbb{N}^n$ there is a constant $C_{K, \alpha, \beta}$ such that
 $$
         | \partial^{\alpha}_x \, \partial^{\beta}_{\theta} \, a(x, \theta)| \leq C_{K, \alpha, \beta} (1 + | \theta |)^{m - \rho | \beta | + \delta | \alpha |}
 $$
 The space $S^m_{\rho, \delta}$ is called the space of **symbols of order $m$ and of type $(\rho, \delta)$**.
 
-It is easy to see that every space $S^m_{\rho, \delta}$ is a Fr&#233;chet space: every $X \subset \mathbb{R}^n$ open has a compact exhaustion, that is an increasing sequence $(K_i)$ with each $K_i \subset X$ compact such that $\bigcup_{i = 1}^{\infty} K_i = X$, and one can define a countable family of seminorms via
+It is easy to see that every space $S^m_{\rho, \delta}$ is a Fr&#233;chet space: every $X \subset \mathbb{R}^n$ open has a compact exhaustion, that is an increasing sequence $(K_i)$ with each $K_i \Subset X$ compact such that $\bigcup_{i = 1}^{\infty} K_i = X$, and one can define a countable family of seminorms via
 
 $$
 P_{K_i, \alpha, \beta} = \operatorname{sup}_{(x, \theta) \in K_i \times \mathbb{R}^n} \frac{ | \partial^{\alpha}_x \, \partial^{\beta}_{\theta} \, a(x, \theta)|}{(1 + | \theta |)^{m - \rho | \beta | + \delta | \alpha |}}
