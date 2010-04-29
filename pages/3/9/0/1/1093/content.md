@@ -94,3 +94,7 @@ For more on this see [[(∞,1)-category of (∞,1)-sheaves]] and [[models for �
 
 
 [[!redirects sheaf category]]
+[[!redirects categories of sheaves]]
+[[!redirects topos of sheaves]]
+[[!redirects topoi of sheaves]]
+[[!redirects toposes of sheaves]]
