@@ -60,7 +60,7 @@ $$
 
 A particular application of this is in respect to the cohomology of [[loop spaces]], and in particular to [[iterated integrals]].  The aim here is to transfer information from a space $X$ to its [[free loop space object|free loop space]], $L X$.  The intermediate space in this situation is $S^1 \times L X$ with evaluation as the map to $X$ and projection to $L X$.  Note that although $L X$ is rather large, the [[fibre]] is $S^1$ and it is that which needs to be controlled.
 
-If we worked in the realm of pure [[algebraic topology]] (i.e. didn't care about geometry) this transfer would be almost trivial.  Indeed, if we worked with _based_ loops, it would be a tautology since then the push-forward $H^*(S^1 \wedge \Omega X) \to H^{*-1}(\Omega X)$ is simply the suspension isomorphism.  (We use the smash product as we are working with _based_ spaces here.)
+If we worked in the realm of pure [[algebraic topology]] (i.e. didn't care about geometry) this transfer would be almost trivial.  Indeed, if we worked with _based_ loops, it would be a tautology since then the push-forward $H^*(S^1 \wedge \Omega X) \to H^{*-1}(\Omega X)$ is simply the suspension isomorphism.  (We use the [[smash product]] as we are working with _based_ spaces here.)
 
 However, we wish to have a geometric interpretation of this, and so work in the realm of [[differential topology]]: i.e. with smooth [[manifold]]s (albeit possibly infinite dimensional).  We therefore have the diagram:
 
