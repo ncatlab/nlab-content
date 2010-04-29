@@ -9,7 +9,7 @@ For my own reference: some pages that I'm planning to do some work on:
 * [[lax 2-adjunction]]
 * [[structured (infinity,1)-topos]] and [[classifying topos]]
 * [[generalized multicategory]], [[virtual double category]], [[virtual equipment]]
-* [[codiscrete cofibration]]
+* [[codiscrete cofibration]], and create a separate page [[two-sided fibration]].
 
 And here's how to make a barred arrow $A &#8696; B$, since I always forget:
 
