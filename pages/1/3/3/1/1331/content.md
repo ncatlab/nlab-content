@@ -408,15 +408,48 @@ $$
   }
 $$
 
-in $C$, regarded as a morphism on $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]].
+in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]].
 
 From this the proof proceeds in two further steps:
 
-1. Show that it follows that $D_c$ contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$;
+1. Show that $D_c$ is itself an locally presentable $(\infty,1)$-category. 
+   From that it follows that $D_c$ has all small limits and hence in 
+   particular contains a 
+   [[terminal object in a quasi-category|terminal object]], $f : c \to d$;
 
-1. show that this implies that $d$ is $S$-local.
+  
 
-... 
+1. Show that $f : c \to d$ being terminal in $D_c$ 
+   implies that $d$ is $S$-local.
+
+
+...
+
+Consider now the second point, showing that $f : c \to d$ being terminal in $D_c$ implies that $d$ is $S$-local. This is equivalent to showing that for $t : a \to b$ any element in $S$, composition with $t$ induces an equivalence
+
+$$
+  Hom_C(t,d) : Hom_C(b,d) \to Hom_C(a,d)
+  \,.
+$$
+
+This in turn may be checked by checking that all its [[homotopy fiber]]s are [[contractible]]. Thre homotopy fiber of $Hom_C(t,d)$ over a point $g : a \to d$ of $Hom_C(a,d)$ is $Hom_{C_{a/}}(t,g)$. To show that this is contractible, form the $\infty$-categorical pushout
+
+$$
+  \array{
+    a &\stackrel{t}{\to}& b
+    \\
+    \downarrow && \downarrow 
+    \\
+    d &\to& d \coprod_a b
+  }
+$$
+
+in $C$. This gives an equivalence $Hom_{C_{a/}}(t,g) \simeq Hom_{c_{d/}, Id_d}$, so it suffices to show that the latter is contractible. 
+
+Since $d \to d \coprod_a b$ is a pushout of $t$, it is itself in $S$.
+
+
+> (... left incomplete ...)
 
 
 =--
