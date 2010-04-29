@@ -141,19 +141,31 @@ This will also hint at the fact that we will not be able to introduce a topology
 ###Hyperfunctions of One Variable
 One striking example of the use of hyperfunctions in the theory of differential equations with real analytic coefficients is this result due to Sato:
 
-Let $U \subseteq \mathbb{R}$ be open.
+Let $U \subseteq \mathbb{R}$ be open and $P$ be a linear, finite order differential operator with real analytic coefficients defined on $U$:
+$$
+       P(x, \frac{d}{dx}) = \sum_{i=0}^n a(x) (\frac{d}{dx})^{i}
+$$
+with $a_n \neq 0$.
 
 +-- {: .un_theorem}
 ###### Theorem
 **(solvability of differential equations)**
-Let $P$ be a linear, finite order differential operator with real analytic coefficients defined on $U$:
-$$
-       P(x, \frac{d}{dx}) = \sum_{i=0}^n a(x) (\frac{d}{dx}^{i}
-$$
-with $a_n \neq 0$. Then for every $f \in \mathcal{B}(U)$ there is a solution $u \in \mathcal{B}(U)$ of the equation $P u = f$. Every such solution can be extended to an open set iff the coefficients $a_i$ and $f$ can be extended.
+For every $f \in \mathcal{B}(U)$ there is a solution $u \in \mathcal{B}(U)$ of the equation $P u = f$. Every such solution can be extended to an open set $V \supset U$ iff the coefficients $a_i$ and $f$ can be extended to $V$.
 =--
 
 Briefly: $P$ is surjective on hyperfunctions.
+
+Two related results are:
+
++-- {: .un_theorem}
+###### Theorem
+$P$ is a sheaf endomorphismus, both of the sheaf of real analytic functions and of the sheaf of hyperfunctions.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+$P$ does not enlarge the support of hyperfunctions.
+=--
 
 ###Hyperfunctions of Multiple Variables
 ...
