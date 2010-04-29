@@ -21,6 +21,8 @@
 
   * [[reflective (∞,1)-subcategory|reflective sub-quasi-category]]
 
+  * [[localization of an (∞,1)-category|reflective localization]]
+
 * [[opposite quasi-category]]
 
 * [[over quasi-category]]
