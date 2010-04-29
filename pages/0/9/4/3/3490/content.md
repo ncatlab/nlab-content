@@ -71,7 +71,7 @@ Let the $(\infty,1)$-categories $C$ and $D$ concretely be incarnated as [[model 
 
 Write $h C := Ho(C)$ and $h D := Ho(D)$ for the corresponding [[homotopy category of an (∞,1)-category]] (hom-wise the connected components of the corresponding [[simplicially enriched category]]).
 
-Let $h D \hookrightarrow h C$ be an ordinary (1-)[[subcategory]] of $h C$. Then the corresponding (ordinary) [[pullback]] $D$  in [[sSet]]-[[Cat]]
+Let $h D \to h C$ be a [[faithful functor]]. Then if we have a [[pullback]] in [[sSet]]-[[Cat]]
 
 $$
   \array{
@@ -83,8 +83,7 @@ $$
   }
 $$
 
-is what is called a subcategory in [[Higher Topos Theory|HTT, section 1.2.11]].
-
+$D$ is a 2-sub-$(\infty,1)$-category of $C$. 
 This pullback manifestly produces the simplicially enriched category whose
 
 * objects are those of $h D$;
@@ -92,6 +91,8 @@ This pullback manifestly produces the simplicially enriched category whose
 * hom-complexes are precisely the unions of those connected components of the hom-complexes of $C$ whose equivalence class is present in $h D$.
 
 Therefore the inclusion functor $D \to C$ is on each hom-complex a [[full and faithful (∞,1)-functor]]. Hence this identifies $D$ as a 2-subcategory of $C$.
+
+If $h D \to h C$ is an inclusion on objects (which is a bit [[evil]] to say) then this is the definition of subcategory of an $(\infty,1)$-category that appears in [[Higher Topos Theory|HTT, section 1.2.11]].
 
 
 #### As 2-subobjects {#2Subobjects}
