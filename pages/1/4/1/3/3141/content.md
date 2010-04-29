@@ -42,7 +42,7 @@ $p : K \to \Delta[1]$ over the [[interval category]] $\Delta[1] = \{0 \to 1\}$ w
 
 =--
 
-In this language an $(\infty,1)$-profunctor comes from an ordinary [[(∞,1)-functor]] $F : C \to D$ precisely if its cograph $p : K \to Delta[1]$ is not just an inner fibration but a [[coCartesian fibration]]. And it comes from a functor $G : D \to C$ precisely if it is a [[Cartesian fibration]]. And precisely if both is the case do is $G$ the right [[adjoint (∞,1)-functor]] to $G$.
+In this language an $(\infty,1)$-profunctor comes from an ordinary [[(∞,1)-functor]] $F : C \to D$ precisely if its cograph $p : K \to \Delta[1]$ is not just an inner fibration but a [[coCartesian fibration]]. And it comes from a functor $G : D \to C$ precisely if it is a [[Cartesian fibration]]. And precisely if both is the case is $F$ the right [[adjoint (∞,1)-functor]] to $G$.
 
 
 ## References
