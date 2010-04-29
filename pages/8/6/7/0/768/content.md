@@ -1,4 +1,4 @@
-A **classifying space** for some sort of data refers to a space (or a more general object), usually written $\mathcal{B}(data)$, such that maps $X\to \mathcal{B}(data)$ correspond to data over $X$.
+A **classifying space** for some sort of data refers to a [[space]] (or a more general object), usually written $\mathcal{B}(data)$, such that maps $X\to \mathcal{B}(data)$ correspond to data over $X$.
 
 The classical example is the classifying space $\mathcal{B}G$ of a [[group]] $G$, which has the property that there is a bijection between [[homotopy]] classes of maps $X\to \mathcal{B}G$ and isomorphism classes of $G$-[[bundle|bundles]] over $X$.  (In fact, one can jack this up to an equivalence of [[groupoid|groupoids]] or $\infty$-[[infinity-groupoid|groupoids]].)  Various improvements of this are possible which classify bundles with extra structure or [[fibration|fibrations]].
 
