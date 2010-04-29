@@ -65,6 +65,8 @@ In this case $D$ is a [[reflective (∞,1)-subcategory]].
 
 ### 2-Subcategory
 
+#### For $sSet$-enriched and quasi-categories
+
 Let the $(\infty,1)$-categories $C$ and $D$ concretely be incarnated as [[model structure on sSet-categories|fibrant]] [[simplicially enriched categories]].
 
 Write $h C := Ho(C)$ and $h D := Ho(D)$ for the corresponding [[homotopy category of an (∞,1)-category]] (hom-wise the connected components of the corresponding [[simplicially enriched category]]).
@@ -91,6 +93,36 @@ This pullback manifestly produces the simplicially enriched category whose
 
 Therefore the inclusion functor $D \to C$ is on each hom-complex a [[full and faithful (∞,1)-functor]]. Hence this identifies $D$ as a 2-subcategory of $C$.
 
+
+#### As 2-subobjects {#2Subobjects}
+
+Let $core(Set_*) \to core(Set)$ be the 2-subobject classifier in the [[(∞,1)-topos]] [[∞Grpd]]. Then
+for $C \in \infty Grpd$ a 1-subobject is classified by an $\infty$-functor
+$C \to Set$. This factors through the homotopy category of $C$ as $C \to h C \to Set$. Since $Set_* \to Set$ is the universal faithful functor, the pullback
+
+$$
+  \array{
+    Q &\to& Set_*
+    \\
+    \downarrow && \downarrow
+    \\
+    h C &\to& Set
+  }
+$$
+
+gives an ordinary subcategory of $h C$. This means that the total pullback $D \to C$
+
+$$
+  \array{
+    D &\to& h D &\to& Set_*
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    C &\to& h C &\to& Set
+  }
+$$
+
+gives a 2-sub-$(\infty,1)$-category $K$ of $X$ (where both happen to be $\infty$-groupoids) here.
 
 
 
