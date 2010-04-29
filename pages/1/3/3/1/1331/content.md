@@ -333,18 +333,94 @@ If $L : C \to D$ denotes the left [[adjoint (∞,1)-functor]] of the inclusion, 
 * the morphism $L f$ is an equivalence.
 
 
+=--
+
+The main ingredient in the proof of this assertion is the followin lemma, whose prove we give below in [Proof of the localization lemma](#ProofOfLocalization).
+
+
++-- {: .un_prop}
+###### Proposition
+**(localization lemma)**
+
+Let $C$ be a [[locally presentable (∞,1)-category]], and let $S \subset Mor(C)$ be a strongly saturated collection of morphisms, generated from a [[small set]] $S_0$. 
+
+Then for every object $c \in C$ there exists a reflector, i.e. a morphism  $f : c \to d$ such that $d$ is an $S$-[[local object]] and $f \in S$.
 
 =--
 
 
-This is [[Higher Topos Theory|HTT, prop. 5.5.4.15]] 
-
-We discuss the proof in [Proof of the localization proposition](#ProofOfLocalization)
-
-### Proof of the localization proposition {#ProofOfLocalization}
 
 
-...
+
+### Proof of the localization lemma {#ProofOfLocalization}
+
+We here spell out the proof of 
+
++-- {: .un_prop}
+###### Proposition
+**(localization lemma)**
+
+Let $C$ be a [[locally presentable (∞,1)-category]], and let $S \subset Mor(C)$ be a strongly saturated collection of morphisms, generated from a [[small set]] $S_0$. 
+
+Then for every object $c \in C$ there exists a reflector, i.e. a morphism  $f : c \to d$ such that $d$ is an $S$-[[local object]] and $f \in S$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.5.14]]. 
+
++-- {: .proof}
+###### Proof
+
+Regard all $(\infty,1)$-categories as [[quasi-categories]] for the purpose of this proof. Write $D \subset Func(\Delta[1], C)$ for the full sub-quasicategory on the elements of $S$.  Consider the [[pullback]] (in [[sSet]])
+
+$$
+  \array{
+    D_c &\to& D
+    \\
+    \downarrow && \downarrow
+    \\
+    \{c\} &\to& Func(\{0\}, C)
+  }
+  \,.
+$$
+
+Since $S$ is by assumption closed under pushouts in $C$, we have for each morphism $x \to y$ in $D \simeq Func(\{0\}, C)$ and each lift 
+
+$$
+  \array{
+    x &\to& y
+    \\
+    \downarrow
+    \\
+    x'
+  }
+$$
+
+of its source to $Func(\Delta[1], C)$ a lift of this morphism with this source, given by the the pushout square
+
+$$
+  \array{
+    x &\to& y
+    \\
+    \downarrow && \downarrow
+    \\
+    x' &\to& x' \coprod_x y
+  }
+$$
+
+in $C$, regarded as a morphism on $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]].
+
+From this the proof proceeds in two further steps:
+
+1. Show that it follows that $D_c$ contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$;
+
+1. show that this implies that $d$ is $S$-local.
+
+... 
+
+
+=--
+
 
 
 ## Examples {#Examples}
