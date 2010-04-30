@@ -7,7 +7,7 @@
 
 ## Idea
 
-_Diffeological spaces_ are a  kind of [[generalized smooth spaces]], namely [[concrete sheaf|concrete]] [[smooth spaces]].
+_Diffeological spaces_ -- or _Chen smooth spaces_ -- are a  kind of [[generalized smooth spaces]], namely [[concrete sheaf|concrete]] [[smooth spaces]].
 
 Diffeological spaces were originally described by J.M. Souriau in 1980.  They have subsequently been developed by [[Patrick Iglesias-Zemmour]] who is writing a book on the subject.
 
@@ -46,3 +46,8 @@ contains some useful material that hasn't yet made it into the book. The article
 amplifies the point that diffeological spaces are [[concrete sheaves]] on the category of (subsets of) [[cartesian space]]s.
 
 [[!redirects diffeological spaces]]
+
+[[!redirects Chen space]]
+[[!redirects Chen spaces]]
+[[!redirects Chen smooth space]]
+[[!redirects Chen smooth spaces]]
