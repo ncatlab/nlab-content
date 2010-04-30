@@ -265,11 +265,6 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
 ## Examples {#Examples}
 
-### Particular examples
-
-* see [[examples of adjoint functors]].
-
-### Classes of examples
 
 * A pair of adjoint functors $(L \dashv R)$ where $R$ is a [[full and faithful functor]] exhibits a [[reflective subcategory]]. 
 
@@ -279,6 +274,57 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
 * A pair of adjoint functors where $C$ and $D$ have finite [[limit]]s and $L$ preserves these finite limits is a [[geometric morphism]]. These are one kind of morphisms between [[topos]]es. If in addition $R$ is full and faithful, then this is a [[geometric embedding]].
 
+* The left and right adjoint functors $p_!$ and $p_*$ (if they exist) to a functor $p^* : [K',C] \to [K,C]$ between [[functor categories]] obtained by precomposition with a functor $p : K' \to K$ of [[diagram]] categories are called the left and right [[Kan extension]] functors along $p$
+
+  $$
+    (Lan_p \dashv p^* \dashv Ran_p)
+    :=
+    (p_1 \dashv p^* \dashv p*) : 
+    [K,C]
+     \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\leftarrow}}{\underset{p_*}{\to}}}
+    [K',C]
+    \,.
+  $$
+
+  If $K' = {*}$ is the [[terminal category]] then this are the [[limit]] and [[colimit]] functors on $[K,C]$.
+
+  If $C = $ [[Set]] then this is the [[direct image]] and [[inverse image]] operation on [[presheaves]].
+
+
+* if $R$ is regarded as a [[forgetful functor]] then its left adjoint $L$ is a regarded as a [[free functor]].
+
+
+* If $C$ is a category with small [[colimit]]s and $K$ is a [[small category]] (a [[diagram]] category)  and $Q : K \to C$ is any functor, then this induces a [[nerve and realization]] pair of adjoint functors
+
+  $$
+    (|-|_Q \dashv N_Q) : C \stackrel{\overset{|-|_Q}{\leftarrow}}{\underset{N_Q}{\to}}
+    [K^{op}, Set]
+  $$
+
+  between $C$ and the [[category of presheaves]] on $K$, where
+
+  * the [[nerve]] functor is given by
+
+    $$
+      N_Q(c) := Hom_C(Q(-),c) : k \mapsto Hom_C(Q(k),c)
+    $$
+
+  * and the realization functor is given by the [[coend]]
+
+    $$
+      |F|_Q := \int^{k \in K} Q(k)\cdot F(k)
+      \,,
+    $$
+
+    where in the integrand we have the canonical [[copower|tensoring]] of
+    $C$ over [[Set]] ($Q(k) \cdot F(k) = \coprod_{s \in F(k)} Q(k)$).
+
+  A famous examples of this is obtained for $C = $ [[Top]], $K = \Delta$
+  the [[simplex category]] and $Q : \Delta \to Top$ the functor that sends
+  $[n]$ to the standard topological $n$-[[simplex]]. In this case
+  the nerve functor is the 
+  [[fundamental infinity-groupoid|singular simplicial complex]] functor
+  and the realization is ordinary [[geometric realization]].
 
 ## References
 
