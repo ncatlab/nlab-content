@@ -119,7 +119,41 @@ for all test functions $\phi$. In general,
 $$\langle \partial^\alpha S, \phi\rangle = (-1)^{|\alpha|}\langle S, \partial^\alpha \phi \rangle$$
 where $|\alpha| = \alpha_1 + \ldots + \alpha_n$ is the total degree of the multi-index. 
 
-Thus derivatives of distributions are defined to all orders. Some examples are given in the following section. 
+Thus derivatives of distributions are defined to all orders. Some examples are given in the section "examples".
+
+### Multiplication of Distributions
+Distributions fail to address some uses to which physicists would like to put them (as in [[path integral]]s), since there is no good way to multiply distributions in a way that extends multiplication of functions. 
+In certain mathematical interpretations of [[quantum field theory]], a quantum field is a (operator valued) distribution and the [[Lagrangian]] of the [[standard model of particle physics]] contains products of those.
+
+The fact that there is no extension of multiplication to distributions is a famous no-go theorem of Laurent Schwartz.
+
+#### Heuristics of Why Multiplication is Impossible
+Two heuristic explanations why multiplication is not possible:
+
+In the construction of distributions we consider the _algebra_ of compactly supported smooth functions, forget about the multiplication and see it as a [[TVS]] only, and then take the dual. The _algebra_ structure therefore does not enter the construction in any way.
+
+Let $H(x)$ be the Heaviside function, we clearly have
+$$
+      H(x) = H^{n} (x)
+$$
+where the product on the right side is the product of classical functions. Applying differentiation and the product rule naivly results in a contradiction immediatly:
+$$
+      \delta(x) = n H^{n-1} (x) \delta(x)
+$$
+
+####When Multiplication is Possible
+There is no product defined on the whole [[TVS]] of distributions, but some distributions may nevertheless be multiplied. A deeper explanation of this phenomenon needs the concept of [[wavefront sets]]. An exposition of [[QED]] that avoids divergences by carefully using only rigorously defined products of distributions is this:
+
+* G. Scharf: _Finite quantum electrodynamics. The causal approach._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0844.53052&format=complete))
+
+####Colombeau 
+J.F. Colombeau has developed a theory where multiplication is possible; see this brief Wikipedia [article](http://en.wikipedia.org/wiki/Colombeau_algebra) and for example these [slides](http://fibonacci.dm.unipi.it/cluster-pages/ultramath/slides/vernaeve-slides.pdf).
+
+Briefly: Colombeau considers sequences of functions that converge to distributions (weakly) and defines the product of two distributions as the product of the sequences. This product is not independent of the chosen sequences, which means that the level of abstraction achieved by distribution theory is abandoned.
+
+For further details see:
+
+* Jean Fran&#231;ois Colombeau: _Multiplication of distributions. A tool in mathematics, numerical engineering and theoretical physics._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0815.35002&format=complete)) 
 
 ## Examples 
 
@@ -162,8 +196,7 @@ $$S = \sum_{\alpha \in A} \partial^\alpha g_\alpha$$
 Distributions rigorously address a need long-felt by physicists to mathematically represent objects such as point particles of mass $m$ at position $a$ (where one would use the distribution $m\delta(x-a)$). They thus appear in accounts of quantum theory which attempt to achieve mathematical rigor. An example of this tendency can be seen in axiomatic formulations of quantum field theory such as the [[Wightman axioms]]. 
 
 A brief survey of applications of distribution theory to perturbative quantum field theory may be found [here](http://www1.jinr.ru/Archive/Pepan/v-31-7a/I_ktp_04_t.pdf). 
-
-However, distributions fail to address some uses to which physicists would like to put them (as in [[path integral]]s), since there is no good way to multiply distributions in a way that extends multiplication of functions. The researcher most prominently associated with a program to repair this and other defects is J.F. Colombeau; see this brief Wikipedia [article](http://en.wikipedia.org/wiki/Colombeau_algebra) and for example these [slides](http://fibonacci.dm.unipi.it/cluster-pages/ultramath/slides/vernaeve-slides.pdf).  
+  
 
 Within mathematics, distributions are quite commonplace; for example, de Rham appropriated them for his theory of [[current]]s. Distribution theory has also long been used in the theory of partial differential equations. Here is a sample theorem: 
 
