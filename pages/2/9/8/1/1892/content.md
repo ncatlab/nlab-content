@@ -13,6 +13,8 @@ or whatever, _please do it_. It's quick and easy.
 
 The following gives you a quick idea of how to proceed. 
 
+If you feel you can most easily start by modifying an example, look at the [[template page]].
+
 If you feel you want more details, there is more information on the main [[HowTo]] page.
 
 
