@@ -1,6 +1,8 @@
 
 
-> This page is meant to provide a general template for new [[nLab:HomePage|nLab]]-pages. You can copy-and-paste **[its source code](http://ncatlab.org/nlab/source/template+page)** into newly created pages. See [[HowTo]] for more details.
++-- {: .standout}
+This page is meant to provide a general template for new [[nLab:HomePage|nLab]]-pages. You can copy-and-paste **[its source code](http://ncatlab.org/nlab/source/template+page)** into newly created pages. See [[HowTo]] for more details.
+=--
 
 #Contents#
 * the following line creates the automatic table of contents
@@ -14,7 +16,7 @@ It is an old observation that xyz. One notices that from the [[nPOV]] this is ju
 
 ## Abstract
 
-A uvw is effectively a uv together with a w. Its main property is encoded in Somebody's Theorem which says that it consists of precisely three letters. The archetypical example of a uvw is a $\upsilon \nu \omega$.
+A uvw is effectively a uv together with a w. Its main property is encoded in Somebody's Theorem which says that it consists of precisely three letters. The archetypical example of a uvw is $\mu \nu \omega$.
 
 
 ## Definition
@@ -95,20 +97,39 @@ No uvw contains more than three letters
 =--
 
 
-
 ## Examples
 
 ### Special cases
 
+*  First case
+
+*  Second case
+
+*  Third case
+
++-- {: .query}
+_[[Contributors|First person]]_:  I listed all of the special cases that I know above, but didn\'t Grothendieck study an important version too?
+
+_[[Contributors|Second person]]_:  No, you're thinking of Lawvere.  When I find the reference, I'll put it here.
+=--
 
 
 ### Specific examples
 
+For ease of reference, we will number the examples.
+
+1.  The first example is obvious.
+
+2.  The second example is a slight variation of (1).
+
+3.  The third example is completely different from either (1) or (2).
 
 
 ## References  
 
 The original definition appeared in section 3 of
 
-* FirstName LastName, _Title_ Journal ([arXiv](url), [pdf](url)) .
+* FirstName LastName, _Title_ Journal ([arXiv](http://put.url/here), [pdf](http://another.url/)) .
 
+
+category: meta
