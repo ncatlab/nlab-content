@@ -7,6 +7,7 @@
 
 * A.A. Beilinson, Yu.I. Manin, V.V. Schechtman, _Sheaves of Virasoro and Neveu-Schwarz algebras_, Lecture Notes in Math. __1289__, Springer 1987, 52&#8211;66 
 
-* [[FFRS-formalism]]
+* nlab: [[FFRS-formalism]]
 
+* A.Mironov, A.Morozov, Sh.Shakirov, _Conformal blocks as Dotsenko-Fateev integral discriminants_, [arxiv/1001.0563](http://arxiv.org/abs/1001.0563)
 [[!redirects conformal blocks]]
