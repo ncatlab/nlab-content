@@ -1,3 +1,7 @@
+# Presets
+* table of contents
+{: toc}
+
 ## Idea
 
 A _preset_ is a [[set]] without an [[equality relation]].  Conversely, a set may be defined as a preset $X$ equipped with an equality relation (technically an [[equivalence relation|equivalence]] _prerelation_ on $X$).
@@ -30,12 +34,12 @@ In general, the prefunctions from $X$ to $Y$ form a preset, since there is no wa
 
 A (say binary) __prerelation__ between $X$ and $Y$ may be thought of as a prefunction from $X \times Y$ to [[truth values]].  Even if one is too predicative to allow a (pre)set of truth values, still one may have a notion of prerelation, by fiat if nothing else.  Note that one *can* compare prerelations for equality; $R = S$ means that $a \sim_R b$ if and only if $a \sim_S b$.  (In other words, a preset of truth values becomes a set under the biconditional, so we can compare functions to it.)  We define a [[relation]] between sets to be a prerelation that respects equality.
 
-Many properties of relations can also be predicated of prerelations, but not all.  In particular, prerelations may be [[reflexive relation|reflexive]], [[symmetric relation|symmetric]], and [[transitive relation|transitive]], so we have a notion of equivalence prerelation, which completes the definition of sets in terms of presets.  A prerelation may also be [[entire relation|entire]], but it makes no sense to ask if it is [[functional relation|functional]] ... unless $Y$ is a set.  In that case, there is a correspondence between prefunctions and functional entire prerelations as usual.  In general, however, there is no way define the prerelation corresponding to a given prefunction.
+Many properties of relations can also be predicated of prerelations, but not all.  In particular, prerelations may be [[reflexive relation|reflexive]], [[symmetric relation|symmetric]], and [[transitive relation|transitive]], so we have a notion of equivalence prerelation, which completes the definition of sets in terms of presets.  A prerelation may also be [[entire relation|entire]], but it makes no sense to ask if it is [[functional relation|functional]] ... unless $Y$ is a set.  In that case, there is a correspondence between prefunctions and functional entire prerelations as usual.  In general, however, there is no way define the prerelation corresponding to a given prefunction (which would be a sort of pre-[[graph of a function|graph]]).
 
 
 ## Formalisation
 
-Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]] (sometimes called 'sets', but they don\'t have [[quotient set|quotients]]) which behave something like presets (and are sometimes even called 'presets').  A [[set]] (sometimes called '[[setoid]]') is defined as above, as a type with an equality relation.  However, these usually (always?) come equipped with 'identity' relations, which are equality relations in all but name; this amounts to saying that every preset has a [[free object|free]] set, a [[completely presented set]].  (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)  They usually (always?) also adopt an [[axiom of choice]] for prefunctions that, together with the identity relations, proves [[COSHEP]] (a weak form of the full axiom of choice) for general sets.
+Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#246;f and Thierry Coquand, use [[type|types]] (sometimes called 'sets', but they don\'t have [[quotient set|quotients]]) which behave something like presets (and are sometimes even called 'presets').  A [[set]] (sometimes called '[[setoid]]') is defined as above, as a type with an equality relation.  However, these usually (always?) come equipped with '[[identity type|identity]]' relations, which are equality relations in all but name; this amounts to saying that every preset has a [[free object|free]] set, a [[completely presented set]].  (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)  They usually (always?) also adopt an [[axiom of choice]] for prefunctions that, together with the identity relations, proves [[COSHEP]] (a weak form of the full axiom of choice) for general sets.
 
 I ([[Toby Bartels]]) have developed type-theoretic foundations in which presets are *not* equipped with identity relations (only metamathematical identity or interconvertibilty *judgements*).  I probably should finish writing that up now; but see [[tobybartels:preset]] for some discussion.  COSHEP is not provable in the base theory, although it is provable in the impredicative version (where identity relations can be defined).  A similar result holds for [[SEAR+?]].
 
@@ -55,14 +59,17 @@ The construction of $R$ above may also be done with entire relations if the [[ax
 See also the discussion at [[net]] about how to force the domain of a net to be [[partially ordered|partial order]], by using either entire relations or prefunctions as nets.
 
 
-[[!redirects pre-set]]
+[[!redirects preset]]
 [[!redirects presets]]
+[[!redirects pre-set]]
 [[!redirects pre-sets]]
+
 [[!redirects prefunction]]
-[[!redirects prerelation]]
-[[!redirects pre-function]]
-[[!redirects pre-relation]]
 [[!redirects prefunctions]]
-[[!redirects prerelations]]
+[[!redirects pre-function]]
 [[!redirects pre-functions]]
+
+[[!redirects prerelation]]
+[[!redirects prerelations]]
+[[!redirects pre-relation]]
 [[!redirects pre-relations]]
