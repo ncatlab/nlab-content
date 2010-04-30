@@ -1,4 +1,10 @@
-# Idea #
+
+#Contents#
+* automatic table of contents
+{:toc}
+
+
+## Idea 
 
 The category of [[smooth manifolds]] is not [[cartesian closed]], even when [[infinite dimensional manifolds]] are allowed.  However, that does not mean that _no_ mapping spaces between certain smooth manifolds can be given the structure of a smooth manifold.  This is true when the source is compact.  Thus, in particular, this applies to [[loop spaces]].
 
@@ -21,15 +27,31 @@ This can be strengthened to a relative version whereby $M$ is equipped with a fa
 So this theorem is released as a $\beta$-version!  It's known to work under controlled conditions, but may break if applied more generally.
 =--
 
-# Functional Compactness #
+## Functional compactness 
 
-The key property on the source is that it be _functionally compact_.  The reason for this is to do with relating open sets in the target to open sets in the mapping space.  More precisely, we need to know that if $V \subseteq M \times M$ is a neighbourhood of the diagonal and $g \colon N \to M$ is a smooth map then the set
+The key property on the source is that it be _functionally compact_.  The reason for this is to do with relating open sets in the target to open sets in the mapping space.  
+
++-- {: .un_defn}
+###### Definition
+
+A F&#246;licher space $N$ is called **functionally compact**
+if 
+
+* for every smooth manifold $M$;
+
+* for every $V \subseteq M \times M$ a neighbourhood of the diagonal of $M$, 
+
+* for $g \colon N \to M$ any smooth map 
+
+the set
 
 $$
-\{f \colon N \to M : (g(x),f(x)) \in V \forall x \in N\}
+\{f \colon N \to M : (g(x),f(x)) \in V \,, \forall x \in N\}
 $$
 
-should be open in $C^\infty(N,M)$.
+is open in $C^\infty(N,M)$.
+
+=--
 
 In the linear situation, this reduces to the problem of showing that if $U$ is a $0$-neighbourhood then $C^\infty(N,U)$ is a $0$-neighbourhood.  Notice that this is true for $N = S^1$ but false for $N = \mathbb{R}$.
 
@@ -47,7 +69,7 @@ Now the smooth structure on $C^\infty(N,E)$ is characterised by the fact that th
 [[Andrew Stacey]] TODO: This is the crucial bit; we need the set $\check{c}^{-1}(U)$ to contain a product $(-\epsilon, \epsilon) \times N$ and _that's_ what "compactness" should mean.
 =--
 
-# Charts #
+## Charts 
 
 Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a functionally compact [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a family of subsets of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
 
@@ -75,7 +97,7 @@ Let us start with the image.  Let $h \in U_g$.  Then $(g,h) \colon N \to M \time
 
 Thus we have charts for $C^\infty(N,M;Q,P)$.
 
-# Transition Functions #
+## Transition functions 
 
 The next step is the transition functions.  To prove this in full generality, we assume not just two different functions at which to base our charts, but also two different local additions to define them.  This will show that our resulting manifold structure is independent of this choice.  We could go further than we do, and allow our local additions to be in the most general form given at [[local addition]], but this would crowd the notation with little benefit.
 
@@ -132,6 +154,7 @@ $$
 &=(x, (\pi \times \eta_1)^{-1}(g_1(x), \eta_1(v))) \\
 &=(x, (\pi \times \eta_1)^{-1}(\pi(v),\eta_1(v))) \\
 &=(x,v)
+\end{aligned}
 $$
 
 where we have used the fact that $(x,v) \in g_1^*T M$ so $\pi(v) = g_1(x)$.  Thus $\phi_{2 1}$ and $\phi_{1 2}$ are inverses, whence they are diffeomorphisms.
@@ -177,3 +200,5 @@ and thus $\Psi_{2 1}$ is a diffeomorphism.
 ###### Corollary
 $C^\infty(N,M;\{Q_i\},\{P_i\})$ is a smooth manifold.
 =--
+
+[[!redirects mapping spaces that are manifolds]]
