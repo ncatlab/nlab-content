@@ -87,7 +87,7 @@ When interpreted in the prototypical 2-category [[Cat]], $C$ and $D$ are [[categ
 
 
 
-## String Diagrams
+### In terms of string diagrams
 
 The definition of an adjunction may be nicely expressed using [[string diagrams]]. The data $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ are depicted as
 
@@ -100,6 +100,9 @@ The definition of an adjunction may be nicely expressed using [[string diagrams]
 Often, arrows on strings are used to distinguish $L$ and $R$, and most or all other labels are left implicit; so the zigzag identities, for instance, become:
 
 [[adjunction-up-string-minimal.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-down-string-minimal.png:pic]]
+
+## Properties
+
 
 ## Examples
 
