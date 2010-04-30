@@ -2,7 +2,7 @@ If $T$ is a [[2-monad]] on a [[2-category]] $K$, then a **pseudoalgebra** for $T
 
 ## Definition
 
-...
+A pseudo $T$-algebra is the same as a [[lax algebra for a 2-monad|lax algebra]] whose constraint 2-cells are invertible.
 
 ## Examples
 
