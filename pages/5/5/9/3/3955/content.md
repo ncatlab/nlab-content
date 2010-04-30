@@ -21,6 +21,32 @@ This can be strengthened to a relative version whereby $M$ is equipped with a fa
 So this theorem is released as a $\beta$-version!  It's known to work under controlled conditions, but may break if applied more generally.
 =--
 
+# Functional Compactness #
+
+The key property on the source is that it be _functionally compact_.  The reason for this is to do with relating open sets in the target to open sets in the mapping space.  More precisely, we need to know that if $V \subseteq M \times M$ is a neighbourhood of the diagonal and $g \colon N \to M$ is a smooth map then the set
+
+$$
+\{f \colon N \to M : (g(x),f(x)) \in V \forall x \in N\}
+$$
+
+should be open in $C^\infty(N,M)$.
+
+In the linear situation, this reduces to the problem of showing that if $U$ is a $0$-neighbourhood then $C^\infty(N,U)$ is a $0$-neighbourhood.  Notice that this is true for $N = S^1$ but false for $N = \mathbb{R}$.
+
+Let $E$ be a [[convenient vector space]], let $N$ be a functionally compact [[Frölicher space]], and let $U \subseteq E$ be a $0$-neighbourhood.  We want to show that the set
+
+$$
+V\coloneqq \{f : N \to E : f(N) \subseteq U\}
+$$
+
+is open in $C^\infty(N,E)$.  To show that this is so, we need to show that for a smooth curve $c \colon \mathbb{R} \to C^\infty(N,E)$, $c^{-1}(V)$ is open in $\mathbb{R}$.  So let $c \colon \mathbb{R} \to C^\infty(N,E)$ be a smooth curve.
+
+Now the smooth structure on $C^\infty(N,E)$ is characterised by the fact that the smooth curves $\mathbb{R} \to C^\infty(N,E)$ are precisely those that come from smooth maps $\mathbb{R} \times N \to E$. Thus $c$ defines a smooth map $\check{c} \colon \mathbb{R} \times N \to E$ and hence $\check{c}^{-1}(U)$ is open in $\mathbb{R} \times N$.
+
++-- {: .query}
+[[Andrew Stacey]] TODO: This is the crucial bit; we need the set $\check{c}^{-1}(U)$ to contain a product $(-\epsilon, \epsilon) \times N$ and _that's_ what "compactness" should mean.
+=--
+
 # Charts #
 
 Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a functionally compact [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a family of subsets of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
@@ -58,8 +84,96 @@ Thus we start with $g_1, g_2 \in C^\infty(N,M;Q,P)$ and two local additions $\et
 We define $W_{1 2} \in g_1^* T M$ as follows.  We describe a point in $g_1^* T M$ by specifying its point in $N \times T M$.
 
 $$
-W_{1 2} \coloneqq \{(x,v) \in g_1^* T M : (g_1(x),\eta_1(v)) \in V_2\}
+W_{1 2} \coloneqq \{(x,v) \in g_1^* T M : (g_2(x),\eta_1(v)) \in V_2\}
 $$
 
 and $W_{2 1} \subseteq g_2^* T M$ similarly.
 
++-- {: .num_lemma #diff}
+###### Lemma
+$W_{1 2} \cong W_{2 1}$
+=--
+
++-- {: .proof}
+###### Proof
+The map $g_2 \times \eta_1 \colon N \times T M \to M \times M$ is smooth and so the preimage of $V_2$ under this map is open in $N \times T M$.  Thus $W_{1 2}$ is open in $g^* T M$ and the map $(x, v) \mapsto (g_2(x), \eta_1(v))$ is a smooth map $W_{1 2} \to V_2$.  Since $(\pi \times \eta_2) \colon T M \to V_2$ is a diffeomorphism, we can define a smooth map $\theta_1 \colon W_{1 2} \to T M$ by
+
+$$
+\theta_1(x,v) = (\pi \times \eta_2)^{-1}(g_2(x), \eta_1(v))
+$$
+
+Now
+
+$$
+\pi \theta_1(x,v) = \pi(\pi \times \eta_2)^{-1}(g_2(x),\eta_1(v)) = g_2(x)
+$$
+
+so $\theta_1(x,v) \in T_{g_2(x)} M$ and thus $(x,\theta_1(x,v)) \in g_2^* T M$ for all $(x,v) \in W_{1 2}$.  Then
+
+$$
+\eta_2 \theta_1(x,v) = \eta_2(\pi \times \eta_2)^{-1}(g_2(x),\eta_1(v)) = \eta_1(v)
+$$
+
+so $(g_1(x),\eta_2\theta_1(x,v)) = (g_1(x),\eta_1(v))$ which is in $V_1$.  Hence $(x,\theta_1(x,v)) \in W_{2 1}$.  Thus we have a map
+
+$$
+\phi_{2 1} \colon W_{1 2} \to W_{2 1}, \qquad \phi_{1 2}(x,v) = (x, \theta_1(x,v))
+$$
+
+Similarly, we have a map $\phi_{1 2}$ in the other direction.  Both of these maps are smooth since they are smooth into $N \times T M$.
+
+Let us consider $\phi_{1 2}\phi_{2 1}(x,v)$.  Expanding this out yields:
+
+$$
+\begin{aligned}
+\phi_{1 2}\phi_{2 1}(x,v) &= \phi_{1 2}(x, \theta_1(x,v)) \\
+&=(x, \theta_2(x, \theta_1(x,v))) \\
+&=(x, (\pi \times \eta_1)^{-1}(g_1(x), \eta_2\theta_1(x,v))) \\
+&=(x, (\pi \times \eta_1)^{-1}(g_1(x), \eta_1(v))) \\
+&=(x, (\pi \times \eta_1)^{-1}(\pi(v),\eta_1(v))) \\
+&=(x,v)
+$$
+
+where we have used the fact that $(x,v) \in g_1^*T M$ so $\pi(v) = g_1(x)$.  Thus $\phi_{2 1}$ and $\phi_{1 2}$ are inverses, whence they are diffeomorphisms.
+=--
+
++-- {: .num_lemma #trans}
+###### Lemma
+The transition function is $f \mapsto \phi_{2 1} \circ f$.
+=--
+
++-- {: .proof}
+###### Proof
+Let us start with the domain and codomain of the transition function.  The domain is $\{f \in E_1 : \Phi_1(f) \in U_2\}$.  The set $U_2$ consists of those functions $h \colon N \to M$ such that $(g_2, h)$ takes values in $V_2$.  Thus $\Phi_1(f) \in U_2$ if and only if $(g_2, \Phi_1(f)) \in V_2$.  Since $\Phi_1(f) = \eta_1 \circ \hat{f}$, we see that for $x \in N$, $v \coloneqq \hat{f}(x) \in T M$ must be such that $(g_2(x), \eta_1(v)) \in V_2$.  This is precisely the condition that $(x,v)$ be in $W_{1 2}$.  Thus the domain of the transition function is the set of sections $f \in E_1$ such that $f(x) \in W_{1 2}$ for each $x \in N$.
+
+The transition function, $\Psi_{2 1}$, is given by $\Psi_{2 1} = \Phi_2^{-1} \Phi_1$.  It is therefore completely characterised by the fact that $\Phi_2 \Psi_{2 1} = \Phi_1$.
+
+Let us consider $\Phi_2$ applied to $\psi_{2 1} \circ f$ for $f \in E_1$ such that $f$ takes values in $W_{1 2}$.  Expanding out the definition, we have:
+
+$$
+\begin{aligned}
+(\psi_{2 1} \circ f)(x) &= \psi_{2 1}(f(x)) \\
+&= (x, \theta_1(x, \hat{f}(x))) \\
+&= (x, (\pi \times \eta_2)^{-1}(g_2(x), \eta_1\hat{f}(x)))
+\end{aligned}
+$$
+
+Now the result applying $\Phi_2$ to $h$ is $\eta_2 \circ h$ where $h(x) = (x, \hat{h}(x))$.  Thus the result of applying $\Phi_2$ to $\psi_{2 1} \circ f$ is the function
+
+$$
+x \mapsto \eta_2 (\pi \times \eta_2)^{-1}(g_2(x), \eta_1\hat{f}(x)) = \eta_1\hat{f}(x)
+$$
+
+which is exactly the same function as $\Phi_1(f)$.  Hence
+
+$$
+\Psi_{2 1}(f) = \psi_{2 1} \circ f
+$$
+
+and thus $\Psi_{2 1}$ is a diffeomorphism.
+=--
+
++-- {: .num_corollary #cordiff}
+###### Corollary
+$C^\infty(N,M;\{Q_i\},\{P_i\})$ is a smooth manifold.
+=--
