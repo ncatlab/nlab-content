@@ -6,6 +6,9 @@ An easy introduction for elementary basics is
 
 The following provides more details.
 
+You can copy the source code of the $n$Lab's [[template page]] to ease your own creation of new pages.
+
+
 See also the [[FAQ]].
 
 # Contents
