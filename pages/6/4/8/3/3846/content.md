@@ -164,7 +164,7 @@ $$u^2 - 2\langle u, e \rangle u + N(u)e = 0.$$
 
 This has as further consequence the fact that an algebra admits at most one norm making it a composition algebra (because the minimal monic polynomial of an element $u$ in a finite-dimensional algebra is uniquely determined; the norm of an element would the uniquely determined constant coefficient of its minimal polynomial). 
 
-A final corollary of **"Reality"** is 
+A final corollary of **Reality** is 
 
 +-- {: .un_prop} 
 ######Proposition (Alternative law) 
@@ -177,7 +177,11 @@ $u \cdot (u v) = u^2 \cdot v$ and $u \cdot v^2 = (u v) \cdot v$.
 We have $w(u v) = (w u)v$ if $w$ is either $e$ or $\bar{u}$, and $u$ is a linear combination of $e$ and $\bar{u}$. The other equation is proven similarly.
 =--
 
+These are the two axioms as given in [[alternative algebra]], but we remark that often a third alternative law is considered: $u (v u) = (u v) u$. For discussion of this in composition algebras, see the section on Moufang identities below. 
+
 ## Cayley-Dickson doubling construction
+
+This is essentially the same as the [[Cayley-Dickson construction]], but in this section it is applied specifically to composition algebras where we have to deal with a norm, whereas the general construction applies to general (nonassociative) algebras. 
 
 We begin with a simple observation: 
 
@@ -361,9 +365,9 @@ Suppose $V = W + \alpha W$, where $\alpha \in W^\perp$, $N(\alpha) \neq 0$. Put 
 $$e_1 = \frac{1 + j}{2} \qquad e_2 = \frac{1-j}{2}$$ 
 are primitive idempotents, conjugate to one another, and $V \cong \mathbb{R} e_1 \oplus \mathbb{R} e_2$ as a product ring. The norm of an element $x e_1 + y e_2$ is $N(x e_1 + y e_2) = x y$. 
 
-* $dim(V) = 4$. Let $i$ be a pure imaginary of $W$, so $\bar{i} = -i$ and $|N(i)| = 1$. Here either $N(i) = -1$ ($W$ is split), or $N(i) = 1$ ($W$ is isomorphic to $\mathbb{C}$). In the second instance, $N(j) = -1$, else $V$ would be a division algebra, and we may replace $W$ by the split algebra $W' = \mathbb{R} + \mathbb{R} i j$ and still have $V = W' + j W'$. So without loss of generality we may assume $W$ is split; therefore, there is up to isomorphism only one split composition algebra of dimension 4. This is the algebra of $2 \times 2$ matrices $A$, for which $N(A) = det(A)$ and $W$ is embedded as the subalgebra of diagonal matrices; the element $j$ may be taken to be the matrix $A$ with $a_{11} = a_{22} = 0$, $a_{12} = a_{21} = 1$. The conjugate of a matrix $A$ is $\bar{A} = Tr(A)I - A$, which leads to the familiar formula for $det(A) A^{-1}$ when $A$ is invertible. 
+* $dim(V) = 4$. Let $i$ be an imaginary unit of $W$, so $\bar{i} = -i$ and $|N(i)| = 1$. Here either $N(i) = -1$ ($W$ is split), or $N(i) = 1$ ($W$ is isomorphic to $\mathbb{C}$). In the second instance, $N(j) = -1$, else $V$ would be a division algebra, and we may replace $W$ by the split algebra $W' = \mathbb{R} + \mathbb{R} i j$ and still have $V = W' + j W'$. So without loss of generality we may assume $W$ is split; therefore, there is up to isomorphism only one split composition algebra of dimension 4. This is the algebra of $2 \times 2$ matrices $A$, for which $N(A) = det(A)$ and $W$ is embedded as the subalgebra of diagonal matrices; the element $j$ may be taken to be the matrix $A$ with $a_{11} = a_{22} = 0$, $a_{12} = a_{21} = 1$. The conjugate of a matrix $A$ is $\bar{A} = Tr(A)I - A$, which leads to the familiar formula for $det(A) A^{-1}$ when $A$ is invertible. 
 
-* $dim(V) = 8$. Again, by an argument similar to the one used for the case of dimension 4, we may assume a maximal proper composition subalgebra $W$ is split, and up to isomorphism there is only one split composition algebra of dimension 8. The multiplication may be deduced from the fundamental theorem on doubling multiplication above, or may be expressed as follows. Denote scalars by letters like $r, s$ and 3-vectors by letters like $x, y$. Let $\langle x, y \rangle$ denote the standard inner product 
+* $dim(V) = 8$. Again, by an argument similar to the one used for the case of dimension 4, we may assume a maximal proper composition subalgebra $W$ is split, and up to isomorphism there is only one split composition algebra of dimension 8, aka the **split octonions**. The multiplication may be deduced from the fundamental result on doubling multiplication above, or may be expressed as follows. Denote scalars by letters like $r, s$ and 3-vectors by letters like $x, y$. Let $\langle x, y \rangle$ denote the standard inner product 
 $$x_1 y_1 + x_2 y_2 + x_3 y_3$$ 
 and let $x \wedge y$ denote the standard cross-product, so that $\langle x \wedge y, z \rangle = det(x, y, z)$. Elements of $V$ are represented by $2 \times 2$ arrays 
 $$\left( 
@@ -403,6 +407,41 @@ y & s
 $$
 
 ## Moufang identities
+
+Further consequences of the composition algebra axioms include the Moufang laws which are important in the study of octonions. 
+
+**Moufang identities** 
+
+* $(u v)(w u) = (u(v w))u) = u((v w)u)$ 
+
+* $((u v)u)w = u(v(u w))$
+
+* $((u v)w)v = u(v(w v))$
+
+We will prove the first of these; the others are proven in similar style (see Springer-Veldkamp for details). (It may be tricky to remember how the bracketings go, but one thing to remember is that the bracketings shouldn't lead to proofs of general associativity when interpreted in a division algebra!) 
+
++-- {: .proof}
+######Proof 
+We have
+
+$$\array{
+\langle (u v)(w u), x \rangle & = & \langle u v, x(\bar{u}\bar{w})\rangle\\ & \stackrel{Ex}{=} & 2\langle u, x\rangle\langle v, \bar{u}\bar{w} \rangle - \langle u(\bar{u}\bar{w}), x v \rangle \\ 
+ & = & 2\langle u, x\rangle\langle v w, \bar{u} \rangle - \langle \bar{u}\bar{w}, \bar{u}(x v) \rangle \\
+ & = & 2\langle v w, \bar{u} \rangle\langle u, x\rangle - N(u)\langle \bar{w}\bar{v}, x \rangle \\ 
+ & = & 2\langle v w, \bar{u} \rangle\langle u, x\rangle - N(u)\langle \widebar{v w}, x \rangle
+}$$ 
+
+which makes it plain that $(u v)(w u)$ depends on $u$ and $v w$ only. Hence we get the same result if we replace $v$ and $w$ and any two elements whose product is $v w$, say $v w$ and $e$. In other words, 
+
+$$(u v)(w u) = (u(v w))(e u) = (u(v w))u, \qquad (u v)(w u) = (u e)((v w)u) = u((v w)u)$$ 
+
+which completes the proof. 
+=--
+ 
++-- {: .un_cor}
+######Corollary
+For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v u) = (u v)u$.
+=--
 
 ## References
 
