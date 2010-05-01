@@ -161,6 +161,8 @@ The [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(C)$ of a 
 
 For details see [StabCat, section 3](http://arxiv1.library.cornell.edu/PS_cache/math/pdf/0608/0608228v5.pdf#page=6).
 
+Alternately, one can first pass to a [[stable derivator]], and thence to a triangulated category.  Any suitably complete and cocomplete $(\infty,1)$-category has an underlying [[derivator]], and the underlying derivator of a stable $(\infty,1)$-category is always stable---while the underlying category of any stable derivator is triangulated.  But the derivator retains more useful information about the original stable $(\infty,1)$-category than does its triangulated homotopy category.
+
 
 ## Models  {#alternativemodels}
 
