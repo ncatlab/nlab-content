@@ -68,6 +68,11 @@ Eventually the following will be a _commented_ list -- promised.
 
 * Andrew Stacey, _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
 
+* Martin Laubinger, _Differential Geometry in Cartesian Closed Categories of Smooth Spaces_ ([pdf](http://etd.lsu.edu/docs/available/etd-02212008-165645/unrestricted/laubingerdiss.pdf))
+
+* Alexander Hoffnung, _Smooth spaces: convenient categories for
+dierential geometry_, ([pdf slides](http://math.ucr.edu/~alex/goettingen.pdf))
+
 There are also Hofer's [[polyfold|polyfolds]].
 
 Concerning [[smooth ∞-stacks]] there is useful material in 
