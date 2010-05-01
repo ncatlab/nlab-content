@@ -181,7 +181,7 @@ These are the two axioms as given in [[alternative algebra]], but we remark that
 
 ## Cayley-Dickson doubling construction
 
-This is essentially the same as the [[Cayley-Dickson construction]], but in this section it is applied specifically to composition algebras where we have to deal with a norm, whereas the general construction applies to general (nonassociative) algebras. 
+This is essentially the same as the [[Cayley-Dickson construction]], but in this section it is applied specifically to composition algebras where we have to deal with a norm, whereas the general construction applies to general (nonassociative) algebras equipped with an anti-involution. 
 
 We begin with a simple observation: 
 
