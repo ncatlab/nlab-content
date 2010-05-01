@@ -3,6 +3,8 @@ The purpose of this page is to explain - using appropriate mathematical terminol
 
 Useful literature on this topic is:
 
+* C. B&#228;r, _Introduction to Spin Geometry_, Oberwolfach Reports 53 (2006), p. 3135-3136.
+
 * D. Bleecker, _Gauge Theory and Variational Principles_, Addison-Weasley, 1981.
 
 * H. Blaine Lawson Jr. , Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press, 1989.
@@ -135,17 +137,21 @@ $$
 $$
 where $\mathrm{d}\rho: \mathfrak{g} \otimes V \to V$. 
 Now we compute
-$$
-\mathrm{d}^{g^{*}\omega}(g^{*}\psi) 
-= \mathrm{d}\rho(\tilde g^{-1})(\psi) + g^{*}\omega \wedge_{\mathrm{d}\rho} \rho(\tilde g^{-1})(\psi)
-$$
-$$
-= \rho(\tilde g^{-1})(\mathrm{d}\psi) + \tilde g^{*}\bar\theta\wedge_{\mathrm{d}\rho} \rho(\tilde g^{-1})(\psi) + (\mathrm{Ad}_{\tilde g}^{-1}(\omega) - \tilde g^{*}\bar\theta) \wedge_{\mathrm{d}\rho} \rho(\tilde g^{-1})(\psi)
-$$
-= \rho(\tilde g^{-1})(\mathrm{d}\psi)  + \rho(\tilde g^{-1})(\omega\wedge_{\mathrm{d}\rho} \psi) 
-$$
-= \rho(\tilde g^{-1})(\mathrm{d}^{\omega}\psi)\text{.}
-$$
+
+$\quad\quad\mathrm{d}^{g^{*}\omega}(g^{*}\psi)$
+
+$\quad\quad\quad\quad= \mathrm{d}\rho(\tilde g^{-1},\psi) + g^{*}\omega \wedge_{\mathrm{d}\rho} \rho(\tilde g^{-1},\psi)$
+
+
+$\quad\quad\quad\quad= \rho(\tilde g^{-1},\mathrm{d}\psi) + \tilde g^{*}\bar\theta\wedge_{\mathrm{d}\rho} \rho(\tilde g^{-1},\psi) + (\mathrm{Ad}_{\tilde g}^{-1}(\omega) - \tilde g^{*}\bar\theta) \wedge_{\mathrm{d}\rho} \rho(\tilde g^{-1},\psi)$
+
+
+$\quad\quad\quad\quad= \rho(\tilde g^{-1},\mathrm{d}\psi)  + \rho(\tilde g^{-1},\omega\wedge_{\mathrm{d}\rho} \psi)$
+
+
+$\quad\quad\quad\quad= \rho(\tilde g^{-1},\mathrm{d}^{\omega}\psi)\text{.}$
+
+
 Since $h$ is invariant, the invariance of the first term follows. The invariance of the second term is clear.
 
 **Remark. **
@@ -258,6 +264,109 @@ $$
 where $e_i\in TM$ runs over a local orthonormal basis.
 
 
+**Definition. **
+Let $M$ be a spacetime with spin structure $SM$, and considered as a  $Spin(p,q)$ as a Yang-Mills theory over $M$. A _free spinor_ is a field for $SM$ of type $(V,h,\rho,f)$, where $V \subset \C(p,q)$, the scalar product $h$ is
+$$
+h(v,w):=\frac{1}{2}(H(v,w) + H(w,v))\text{,}
+$$
+and $\rho$ is the restriction of the multiplication in $\C(p,q)$ to $Spin(p,q)$.
+The action functional is
+$$
+S(\psi) := \int_M D \psi \wedge_{h} \star \psi  + \star f \circ \psi\text{.}
+$$
+
+**Remark. **
+The Euler-Lagrange equation determined by the action functional $S(\psi)$ is the _Dirac equation_
+$$
+D\psi + \mathrm{i}m\psi = 0\text{.}
+$$
+
+**Example. **
+(Weyl spinors)
+We assume spacetime to have even dimension.
+_Weyl spinors_ have $V=\Sigma^{\pm}$, with the sign corresponding to left/right-handed spinors. Thus, $\dim_{\C}(V)=2$.
+Further $f=0$ (they are massless). In the standard model, neutrinos are left-handed Weyl spinors.  
 
 
-I'll continue tomorrow...
+**Example. **
+(Dirac spinors)
+We assume spacetime to have signature $(1,3)$. Dirac spinors have $V=\Sigma^{+} \oplus \Sigma^{-}$, so that $\dim_{\C}(V)=4$. The function $f$ is taken to be $f(v)=-mh(v,v)$. In the standard model, electrons are Dirac spinors. 
+
+
+**Remark.**
+In the physical literature, the picture is slightly different:
+The representation space $V$ of a spinor is not a subspace of the Clifford algebra, but rather $\C^n$. One can think about this as a further  association of $\C^n$ to the Clifford bundle $VM$ using a representation of $\C(p,q)$ on $\C^n$. Below we describe this in the case of the electron, i.e. $(p,q)=(1,3)$ and $V= \Sigma^{+} \oplus \Sigma^{-}$. Another difference is here that instead of $Spin(1,3)$, physicists use the (non-canonically) isomorphic group $SL(2,\C)$.
+
+* One starts with the following representation  $\gamma: \C(1,3) \to \mathrm{Gl}(4,\C)$. Consider the $\R$-linear map 
+$$
+\gamma: \R^4 \to \mathrm{Gl}(4,\C): v \mapsto \begin{pmatrix} 0 & v' \\
+v'' & 0 
+\end{pmatrix}\text{,}
+$$
+where 
+$$
+v' := \begin{pmatrix} v_0 + v_3 & v_1 - iv_2 \\
+v_1 + iv_2 & v_0 - v_3 \\
+\end{pmatrix}
+\quad\text{ and }\quad
+v'' = \begin{pmatrix} v_0-v_3 & -v_1 + iv_2 \\
+-v_1-iv_2 & v_0+v_3 \\
+\end{pmatrix}\text{.}
+$$
+It satisfies $\gamma(v) \cdot \gamma(v)= - \left \langle v,v  \right \rangle I_4$. The Clifford algebra has a universal property that implies that $\gamma$ extends uniquely to a representation of $\C(1,3)$. 
+The images of the standard basis vectors $e_0,...,e_3$ are often called _$\gamma$-matrices_, $\gamma_k := \gamma(e_k)$.
+
+
+* The restriction of the representation $\gamma$ to $Spin(1,3)$ is a representation $\rho: Spin(1,3) \times \C^4 \to \C^4$. It splits into a direct sum of two representations equivalent to $\Sigma^+$ and $\Sigma^-$. Using $\rho\circ\alpha = \alpha$, one checks using the above definition of the group homomorphism $\Lambda: Spin(p,q) \to SO(p,q)$ that
+$$
+\gamma(\Lambda(\varphi)v) = \rho(\varphi)\gamma(v)\rho(\varphi)^{-1}\text{.}
+$$
+
+* The above mentioned identification between $Spin(1,3)$ and $SL(2,\C)$ is 
+$$
+Spin(1,3) \to SL(2,\C) : v_1 \cdot...\cdot v_{2r} \mapsto v_1'v_2''v_3'\cdot...\cdot v_{2r}''\text{.}
+$$
+Under this isomorphism, $\rho$ becomes
+$$
+\rho: SL(2,\C) \to \mathrm{Gl}(4,\C) : A \mapsto \begin{pmatrix}A & 0 \\
+0 & A^{*-1}
+\end{pmatrix}\text{.}
+$$
+Under this identification, the splitting of $\rho$ into a direct sum yields the defining representation, often called $D^{(1/2,0)}$ and its conjugate, often called $D^{(0,1/2)}$.
+
+* Finally, the bilinear form $H$ becomes 
+$$
+H(v,w) := v^{\mathrm{tr}}\gamma_0\bar w.
+$$ 
+
+
+**Remark. **
+If $M=\R^{1,3}$ one can take the trivial spin structure $SM=M \times \mathrm{Sl}(2,\C)$. It has a canonical global section, so that a spinor $\psi$ can be identified with a map $\psi: M \to \C^4$. The Dirac operator is now
+$D \psi = \gamma^{i}\partial_i \psi$, where $\gamma^i := \eta^{ik}\gamma_k$. Now, the Dirac equation is
+$$
+\gamma^i\partial_i \psi + \mathrm{i} m\psi = 0\text{.}
+$$
+Let's go back to Dirac's orginial motivation. Dirac was looking for a first order differential equation 
+$$
+\alpha^k\partial_k\psi +im\psi=0
+$$
+for functions $\psi: \R^{4} \to \C^n$, whose solutions are automatically solutions of the Klein-Gordon equation
+$$
+(\triangle + m^2)\psi = 0\text{,}
+$$
+where $\triangle= \partial^k\partial_k$. If $\psi$ is a solution to the first equation,
+$$
+\alpha^{j}\partial_j\alpha^k\partial_k \psi = \alpha^{j}\partial_j(-im\psi) = - m^2\psi\text{.}
+$$
+This is the Klein-Gordon equation, if $\alpha^{i}\alpha^{j}=\eta^{ij}$. This can only be satisfied for matrices, so that better $\alpha^{i}\alpha^{j}=\eta^{ij}I_n$. Since $\eta^{ij}I_n$ is a symmetric matrix, this can be written as
+$$
+\frac{1}{2}(\alpha^{i}\alpha^j + \alpha^j\alpha^i)= \eta^{ij}\text{.}
+$$
+The smallest matrices satisfying this relation are the above "gamma matrices". If $m=0$, there is a solution in dimension two, the "Pauli matrices". 
+
+**Remark. **
+For a general spacetime $M$, and unlike in the previous remark, $D^2 \neq \triangle$. Rather, $D^2$ is given by the _Lichnerowiz formula_ which has in fact been proved first by Schr&#246;dinger. So, Dirac motivation fails for "curved spacetimes". 
+
+### Charged Spinors ###
+
+I'll continue later...
