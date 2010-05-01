@@ -60,3 +60,5 @@ This is theorem 3.3.3 in [ClassStabMod](http://hopf.math.purdue.edu/Schwede-Ship
 ## References
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
+
+[[!redirects stable model categories]]
