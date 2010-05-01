@@ -197,11 +197,20 @@ From there, you can see that any derivator is canonically enriched in the deriva
 
 ## References
 
-[[Grothendieck]] has sketched a new formalism for [[homotopy theory]] in his manuscript [[Pursuing Stacks]] and later left another manuscript on the main piece of that theory, the derivators. Independently there is a version due to Heller
+The notion of derivator is originally due to [[Grothendieck]] in [[Pursuing Stacks]]. 
+The first thirteen chapters of a 2000 page manuscript of Grothendieck (in French) about derivators can be found at:
+
+* [[Alexander Grothendieck]],  _[Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
+
+Independently, there is a version due to Heller (who called them "homotopy theories"):
 
 *  A. Heller, _Homotopy theories_ , Memoirs of the American Mathematical Society, Vol. 71, No 383 (1988).
 
-See the Sevilla lectures by Maltsionitis on model categories and derivators:
+Georges Maltsiniotis has written an introduction to the topic (in French):
+
+* [[Georges Maltsiniotis]], "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001) [ps](http://www.math.jussieu.fr/~maltsin/ps/m.ps)
+
+He also gave a [course](http://congreso.us.es/htag09/php/index.php?carga=courses) (in English) in Seville, Sep 2010, and part 3 is on derivators:
 
 * [Lecture I (Localizers)](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf)
 
@@ -211,17 +220,15 @@ See the Sevilla lectures by Maltsionitis on model categories and derivators:
 
   [Summary on Derivators](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf)
 
-A link for discussion and a list of source material for  'd&#233;rivateurs' can be found at
-
-* [[Alexander Grothendieck]],  _[Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
-
-This includes copies of the first thirteen chapters of a 2000 page manuscript of Grothendieck. 
-
-* [[Georges Maltsiniotis]] has written an introduction to the topic (in French) which is listed near the bottom of his homepage: (G. Maltsiniotis , "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001).) He also gave a [course](http://congreso.us.es/htag09/php/index.php?carga=courses) in Seville, Sep 2010, and part 3 is on derivators: [Lecture_III_Derivators.pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf) (in English).
-
 Part of the above material is adapted from
 
 * [[Denis-Charles Cisinski]], _[blog comment on derivators](http://golem.ph.utexas.edu/category/2010/03/a_perspective_on_higher_catego.html#c032227)_
+
+Cisinski has also written a number of papers on the subject (in French), which can be found at [his homepage](http://www-math.univ-paris13.fr/~cisinski/publications.html).
+
+Derivators were also recently used by [[Gonçalo Tabuada]] in a universal characterization of higher [[algebraic K-theory]]:
+
+* Gon&#231;alo Tabuada, "Higher K-theory via universal invariants" [arXiv](http://arxiv.org/abs/0706.2420).
 
 [[!redirects derivators]]
 [[!redirects prederivator]]
