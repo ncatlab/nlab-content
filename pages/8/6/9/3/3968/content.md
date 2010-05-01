@@ -1,0 +1,9 @@
+A **number field** is a finite extension field of the field of rational numbers, $\mathbb{Q}$, In other words, a field $k$ of characteristic zero such that under the field homomorphism $i: \mathbb{Q} \hookrightarrow k$, the field $k$ is a finite-dimensional vector space over $\mathbb{Q}$ with respect to the scalar multiplication action of $\mathbb{Q}$
+
+$$\mathbb{Q} \otimes k \stackrel{i \otimes 1}{\to} k \otimes k \stackrel{mult}{\to} k$$
+
+on the underlying additive group of $k$. 
+
+Number fields are the basic objects of study in algebraic number theory. For example, one is typically interested in the arithmetic structure of $k$, including for example the structure of the ring of [[algebraic integer]]s $\mathcal{O}_k$ in $k$, the decomposition of primes in $\mathbb{Z}$ in terms of prime ideals in $\mathcal{O}_k$, the structure of the unit group of $\mathcal{O}_k$, the structure of the [[ideal class group]], the detailed study of the [[zeta function]] of $k$, and much more. 
+
+Number fields $k$ are examples of [[global field]]s, in fact they are the global fields of characteristic zero. They are often studied in terms of how they embed in their rings of [[adele ring|adeles]] $\mathbb{A}_k$, which are built from the [[local field|local completions]] of $k$. 
