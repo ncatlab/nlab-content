@@ -51,7 +51,7 @@ A **derivator** is a prederivator $D$ which satisfies a list of axioms.  These a
 
 The first set of axioms says that there exist well-behaved homotopy limits and colimits, and more generally [[homotopy Kan extension]]s.  Specifically, we require the following.
 
-* For any functor $u : X\to Y$ in $Dia$, the [[inverse image]] functor $u^*:D(Y)\to D(X)$ admits a [[left adjoint]] $u_!$ and a [[right adjoint]] $u_*$.  These can be understood as [[homotopy Kan extension]]s
+* **(Der3)** For any functor $u : X\to Y$ in $Dia$, the [[inverse image]] functor $u^*:D(Y)\to D(X)$ admits a [[left adjoint]] $u_!$ and a [[right adjoint]] $u_*$.  These can be understood as [[homotopy Kan extension]]s
 
   $$
     (u_! \dashv u^* \dashv u_*) 
@@ -70,7 +70,7 @@ The first set of axioms says that there exist well-behaved homotopy limits and c
     D(X)
   $$
 
-* For any [[comma square]]
+* **(Der4)** For any [[comma square]]
   $$\array{A & \overset{g}{\to} & B \\
   ^f\downarrow &\Downarrow& \downarrow^v\\
   C& \underset{u}{\to} & D}$$
@@ -82,13 +82,13 @@ The second set of axioms are "[[sheaf]]" conditions.  Of course, we cannot asser
 
 The standard axioms are:
 
-* $D\colon Dia^{coop} \to Cat$ takes [[coproduct]]s to products.  Sometimes we require this only for finite coproducts.  In particular, we have $D(\emptyset) = 1$.
+* **(Der1)** $D\colon Dia^{coop} \to Cat$ takes [[coproduct]]s to products.  Sometimes we require this only for finite coproducts.  In particular, we have $D(\emptyset) = 1$.
 
-* For any $X\in Dia$, consider the family of functors $x\colon 1\to X$ determined by the objects of $X$.  Then the induced functor
+* **(Der2)** For any $X\in Dia$, consider the family of functors $x\colon 1\to X$ determined by the objects of $X$.  Then the induced functor
   $$ D(X) \overset{(x^*)}{\to} \prod_x D(1)$$
   is [[conservative functor|conservative]] (though not generally faithful).  This in turn implies that the same is true for any jointly [[essentially surjective functor|essentially surjective]] family of functors.
 
-* For any $X\in Dia$, if $I$ denotes the [[interval category]], then the induced functor
+* **(Der5)** For any $X\in Dia$, if $I$ denotes the [[interval category]], then the induced functor
   $$ D(X\times I) \to Hom(I,D(X)) $$
   is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] (though again, it is not generally faithful).  Sometimes it is convenient to assume this property when $I$ is any (perhaps finite) [[free category]].
 
@@ -97,6 +97,68 @@ The standard axioms are:
 =--
 
 It is easy to see that if $C$ has pointwise left and right Kan extensions along all functors in $Dia$, then its representable prederivator is a derivator.  Somewhat more difficult to prove is that if $C$ is a [[model category]] (or more generally, has well-behaved homotopy Kan extensions), then the prederivator $Ho(C)$ is also a derivator.  Thus the derivator encodes the notions of [[homotopy colimit]] and of [[homotopy limit]].  Note again that this way of seeing homotopy (co)limits does not use anything besides usual (2-)category theory.
+
+
+## Computing homotopy Kan extensions
+
+We now describe an "omnibus" theorem which is the main thing enabling us to compute with homotopy Kan extensions in a derivator.
+
+For any functor $u\colon I\to J$ in $Dia$, we say it is a $D$-**equivalence** if the induced transformation $(\pi_I)_! (\pi_I)^* \to (\pi_J)_!(\pi_J)^*$ is an isomorphism, where $\pi_I\colon I\to *$ is the projection to the [[terminal category]], and similarly for $\pi_J$.  This means that homotopy colimits of *constant* diagrams of shapes $I$ and $J$ are equivalent.
+
+In a representable derivator (i.e. in ordinary category theory), the colimit of a constant diagram of shape $I$ is a [[copower]] with the set of connected components of $I$.  Thus, in a representable derivator, any functor that induces an isomorphism on sets of connected components will be a $D$-equivalence.  But in the derivator coming from a model category or $(\infty,1)$-category, the colimit of a constant diagram of shape $I$ is a copower with the [[nerve]] of $I$ regarded as an $\infty$-groupoid, so in this case any functor that induces a homotopy equivalence of nerves (a stronger condition) will be a $D$-equivalence.  In fact, one can show:
+
++-- {: .num_lemma #NerveEquiv}
+###### Lemma
+In any derivator $D$, any functor which induces a homotopy equivalence of nerves is a $D$-equivalence.
+=--
+
+Now suppose given any square
+$$\array{L & \overset{p}{\to} & I\\
+  ^q\downarrow & \Downarrow^\mu & \downarrow^u\\
+  J & \underset{v}{\to} & K}$$
+in $Dia$ which commutes up to a specified 2-cell $\mu$.  Given a derivator $D$, we say that this square is $D$-**exact** if the Beck-Chevalley transformations
+$$ q_! p^* \to v^* u_! \quad \text{and} \quad u^* v_* \to p_* q^* $$
+are isomorphisms.  (In fact, if one of these is an isomorphism, so is the other, since they are [[mate|mates]].)  Thus, the derivator axioms say that all comma squares are exact.
+
+Now, given such a square as above and $i\in I$, $j\in J$, we write $(i/L/j)$ for the category whose objects are triples
+$$\big(\ell\in L,\, i\overset{\alpha}{\to} p(\ell),\, q(\ell)\overset{\beta}{\to} j\big).$$
+The morphisms of $(i/L/j)$ are morphisms $\gamma\colon \ell \to \ell'$ in $L$ which make the evident triangles commute.  Now there is a functor $r\colon (i/L/j) \to K(u(i),v(j))$ (the latter considered as a discrete category), which sends the above triple to the composite
+\[ u(i) \overset{u(\alpha)}{\to} u(p(\ell)) \overset{\mu}{\to} v(q(\ell)) \overset{v(\beta)}{\to} v(j) \label{commacomp}\]
+in $K$.
+
++-- {: .un_theorem}
+###### Theorem
+A square as above is $D$-exact if and only if for all $i\in I$ and $j\in J$, the functor $(i/L/j) \to K(u(i),v(j))$ is a $D$-equivalence.
+=--
++-- {: .proof}
+###### Proof
+It is easy to verify that the horizontal or vertical pasting composite of exact squares is exact; hence if the given square is exact, then so is the composite
+$$\array{(L/j) & \overset{}{\to} & L & \overset{p}{\to} & I \\
+  \downarrow & \Downarrow & \downarrow^q & \Downarrow & \downarrow^u\\
+  * & \underset{j}{\to} & J & \underset{v}{\to} & K}$$
+for any $j\in J$, where the left-hand square is a comma square.  Conversely, if all of these squares are exact, then so is the given one, by (Der2).  We play the same game by composing with comma squares on the top to conclude that the given square is exact if and only if all the induced squares
+\[\array{(i/L/j) & \overset{f}{\to} & *\\
+  ^g\downarrow & \Downarrow & \downarrow^{u(i)}\\
+  * & \underset{v(j)}{\to} & K}\label{ijsquare}\]
+are exact.  But the square
+$$\array{K(u(i),v(j)) & \overset{s}{\to} & *\\
+  ^t\downarrow & \Downarrow & \downarrow^{u(i)}\\
+  * & \underset{v(j)}{\to} & K}$$
+is exact, since it is a comma square, and by the universal property of a comma square, the square \eqref{ijsquare} factors uniquely through this one by a functor $r\colon (i/L/j) \to K(u(i),v(j))$, which is precisely the functor $r$ defined above.  Specifically, we have $f = s r$ and $g = t r$.  Therefore, the Beck-Chevalley transformation $g_! f^* \to (v j)^* (u i)^*$ is equal to the composite
+$$ g_! f^* = t_! r_! r^* s^* \to t_! s^* \to (v j)^* (u i)^* $$
+where the second map is the Beck-Chevalley transformation for the comma square, which is an isomorphism.  Thus, \eqref{ijsquare} is exact just when $t_! r_! r^* s^* \to t_! s^*$ is an isomorphism.  But this says exactly that $r$ is a $D$-equivalence.
+=--
+
++-- {: .un_cor}
+###### Corollary
+For each $i\in I$, $j\in J$, and $\varphi\colon u(i) \to v(j)$ in $K$, let $(i/L/j)_\varphi$ denote the subcategory of $(i/L/j)$ consisting of those triples for which the composite \eqref{commacomp} is equal to $\varphi$.  If each category $(i/L/j)_\varphi$ has a contractible nerve, then the square is $D$-exact.
+=--
++-- {: .proof}
+###### Proof
+This follows from Lemma \ref{NerveEquiv}, together with the observation that assuming axiom (Der1), a coproduct of $D$-equivalences must be a $D$-equivalence.
+=--
+
+The corollary gives a convenient way to compute many homotopy limits and colimits, which works in any derivator, and *a fortiori* in any $(\infty,1)$-category or model category.
 
 
 ## The 2-category of derivators
