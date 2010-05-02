@@ -18,8 +18,7 @@ is an **accessible functor** i there exists a [[regular cardinal]] $\kappa$ such
 
 ### Higher categorical version
 
-The definition applies verbatim to [[(∞,1)-functor]]s between [[accessible (∞,1)-categories]] ([[Higher Topos Theory|HTT, def. 5.4.2.5]]).
-
+See [[accessible (∞,1)-functor]].
 
 
 
@@ -35,7 +34,3 @@ The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of
 
 
 [[!redirects accessible functors]]
-[[!redirects accessible (infinity,1)-functor]]
-[[!redirects accessible (∞,1)-functor]]
-[[!redirects accessible (infinity,1)-functors]]
-[[!redirects accessible (∞,1)-functors]]
