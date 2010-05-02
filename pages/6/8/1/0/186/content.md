@@ -70,8 +70,9 @@ Eventually the following will be a _commented_ list -- promised.
 
 * Martin Laubinger, _Differential Geometry in Cartesian Closed Categories of Smooth Spaces_ ([pdf](http://etd.lsu.edu/docs/available/etd-02212008-165645/unrestricted/laubingerdiss.pdf))
 
-* Alexander Hoffnung, _Smooth spaces: convenient categories for
-dierential geometry_, ([pdf slides](http://math.ucr.edu/~alex/goettingen.pdf))
+* Alexander Hoffnung, _Smooth spaces: convenient categories for differential geometry_, ([pdf slides](http://math.ucr.edu/~alex/goettingen.pdf))
+
+* Alexander Hoffnung, _From Smooth Spaces to Smooth Categories_, ([pdf slides](http://aix1.uottawa.ca/~scpsg/Fields09/alex.hoffnung.pdf))
 
 There are also Hofer's [[polyfold|polyfolds]].
 
