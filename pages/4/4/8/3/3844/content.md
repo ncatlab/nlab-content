@@ -130,7 +130,7 @@ A comprehensive statement of these facts is in [[Higher Topos Theory|HTT, sectio
 
 ### Smooth $(\infty,1)$-algebras
 
-The [[Lawvere theory]] whose syntactic category with finite products is [[CartSp]] has as algebra [[smooth algebra]]s. The same theory, regarded as an $(\infty,1)$-algebraic theory, has as algebras **smooth $(\infty,1)$-algebras. 
+The [[Lawvere theory]] whose syntactic category with finite products is [[CartSp]] has as algebra [[smooth algebra]]s. The same theory, regarded as an $(\infty,1)$-algebraic theory, has as algebras **[[smooth (∞,1)-algebra]]s. 
 
 These  were considered for the discussion of [[derived smooth manifold]]s in
 
