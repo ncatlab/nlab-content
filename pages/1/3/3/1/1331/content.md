@@ -569,3 +569,7 @@ This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 [[!redirects reflective (infinity,1)-subcategories]]
 [[!redirects reflective (∞,1)-subcategory]]
 [[!redirects reflective (∞,1)-subcategories]]
+[[!redirects reflective (infinity,1)-subcategory]]
+[[!redirects reflective sub-(∞,1)-category]]
+[[!redirects reflective sub-(∞,1)-categories]]
+[[!redirects reflective sub-(infinity,1)-categories]]
