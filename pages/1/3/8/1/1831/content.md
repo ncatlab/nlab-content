@@ -85,7 +85,7 @@ This is [[Higher Topos Theory|HTT, prop. 3.3.1.7]].
 =--
 
 
-### Behaviour under pullback
+### Behaviour under pullback {#BehaviourUnderPullback}
 
 Since a Cartesian fibration is in particular an [[inner fibration]] and since inner fibrations are stable under [[pullback]] in [[sSet]], it follows that for $p : E \to C$ a Cartesian fibration, the fiber $E_x$ over every point $x \in C_0$ is a [[quasi-category]]
 
