@@ -319,6 +319,10 @@ This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]]. Some details on the proof 
 
 =--
 
+## In terms of derivator
+
+The notion of [[derivator]] is largely a tool for handling homotopy Kan extensions. See there for details.
+
 ## References
 
 For instance section A.3.3 of 
