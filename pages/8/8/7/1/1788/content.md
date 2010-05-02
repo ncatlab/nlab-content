@@ -104,6 +104,10 @@ OK, the second of those is not ideal, but nobody should actually try to write th
   1. Beware the jubjub bird, and shun
   1. The frumious bandersnatch."
 
+<nowiki>
+<!-- An XHTML comment -->
+</nowiki>
+
 $$
 ?
 $$
