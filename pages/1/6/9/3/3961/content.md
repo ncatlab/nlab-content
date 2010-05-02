@@ -1,8 +1,9 @@
 
+This page is meant to provide a general template for new [[nLab:HomePage|nLab]]-pages. You can copy-and-paste **[its source code](http://ncatlab.org/nlab/source/template+page)** into newly created pages; remove the stuff before the horizontal rule (the line of asterisks in the source). See [[HowTo]] for more details.
 
-+-- {: .standout}
-This page is meant to provide a general template for new [[nLab:HomePage|nLab]]-pages. You can copy-and-paste **[its source code](http://ncatlab.org/nlab/source/template+page)** into newly created pages. See [[HowTo]] for more details.
-=--
+category: meta
+
+****
 
 #Contents#
 * the following line creates the automatic table of contents
@@ -21,8 +22,9 @@ A uvw is effectively a uv together with a w. Its main property is encoded in Som
 
 ## Definition
 
-> see [more about definition/theorem/proof-environments](http://golem.ph.utexas.edu/wiki/instiki/show/Theorems)
+As Jacques Distler said,
 
+> See [more about definition/theorem/proof-environments](http://golem.ph.utexas.edu/wiki/instiki/show/Theorems)
 
 
 +-- {: .un_defn}
@@ -30,12 +32,14 @@ A uvw is effectively a uv together with a w. Its main property is encoded in Som
 **(uvw)**
 
 A **uvw** is a UVW in which all letters are lower case.
-
-
 =--
 
 
+This may be summed up in the slogan:
 
++-- {: .standout}
+A uvw is just what it looks like.
+=--
 
 
 ## Properties
@@ -108,9 +112,9 @@ No uvw contains more than three letters
 *  Third case
 
 +-- {: .query}
-_[[Contributors|First person]]_:  I listed all of the special cases that I know above, but didn\'t Grothendieck study an important version too?
+_[[Urs Schreiber|First person]]_:  I listed all of the special cases that I know above, but didn\'t Grothendieck study an important version too?
 
-_[[Contributors|Second person]]_:  No, you're thinking of Lawvere.  When I find the reference, I'll put it here.
+_[[Toby Bartels|Second person]]_:  No, you're thinking of Lawvere.  When I find the reference, I'll put it here.
 =--
 
 
@@ -136,5 +140,3 @@ The original definition appeared in section 3 of
 [[!redirects page template]]
 [[!redirects page templates]]
 [[!redirects uvw]]
-
-category: meta
