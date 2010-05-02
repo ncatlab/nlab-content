@@ -94,7 +94,7 @@ $$
   \,.
 $$
 
-Notice that this is indeed independent of in which order we sum up the letters, in that the following diagram commutes
+Notice that this is indeed independent of in which order we sum up the letters, in that the diagram
 
 $$
   \array{
@@ -111,6 +111,7 @@ $$
   \,.
 $$
 
+commutes.
 =--
 
 
