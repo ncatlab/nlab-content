@@ -346,3 +346,5 @@ This can be illustrated in the following diagram
 which provides an alternative expression of the functoriality condition as simply a statement that commuting diagrams in $C$ map to commuting diagrams in $D$.
 
 [[!redirects functors]]
+[[!redirects covariant functor]]
+[[!redirects covariant functors]]
