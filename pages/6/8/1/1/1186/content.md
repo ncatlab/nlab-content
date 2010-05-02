@@ -89,7 +89,7 @@ it is [[accessible (infinity,1)-category|accessible]] and admits small [[limit i
 =--
 
 +-- {: .un_prop}
-###### Proposittion
+###### Proposition
 
 That $C$ is locally presentable is equivalent to each of the following characterizations.
 
@@ -149,8 +149,32 @@ This $(\infty,1)$-category $Pr(\infty,1)Cat$ in turn as special properties. More
 
 
 
+## Properties
+
+A [[representable functor]] $C^{op} \to \infty Grpd$ preserves [[limit in a quasi-category|limits]] (see [[(∞,1)-Yoneda embedding]]). If $C$ is locally presentable, then also the converse holds:
+
++-- {: .un_prop}
+###### Proposition
+
+If $C$ is a locally presentable $(\infty,1)$-category then an [[(∞,1)-functor]] $C^{op} \to \infty Grpd$ is a [[representable functor]]
+precisely if it preserves [[limit in a quasi-category|limits]].
 
 
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.2.2]].
+
+
+This statement has the following important consequence:
+
++-- {: .un_cor}
+###### Corollary
+
+A locally presentable $(\infty,1)$-category has all small [[limit in a quasi-category|limits]].
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.2.4]].
 
 
 ## Examples
@@ -190,17 +214,20 @@ For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-cate
 =--
 
 
+
+
 ## References 
 
-This is the topic of section 5 and section A.3.7 of
+The theory of locally presentable $(\infty,1)$-categories was first implicitly conceived in terms of [[model category]] presentations in
+
+* [[Carlos Simpson]],  _A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+
+The full intrinsic $(\infty,1)$-categorical theory appears in section 5 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-The long list of equivalent statements above is theorem 5.5.1.1., which is originally due to [[Carlos Simpson]].
+with section A.3.7 establishing the relation [[combinatorial model categories]] and [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) in [[Higher Topos Theory|HTT, prop A.3.7.6]]
 
-
-The characterization in terms of 
-[[combinatorial simplicial model category|combinatorial simplicial model categories]] is [[Higher Topos Theory|HTT, prop A.3.7.6]].
 
 
 [[!redirects presentable (infinity,1)-categories]]
