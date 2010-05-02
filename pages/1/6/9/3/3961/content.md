@@ -87,8 +87,29 @@ Every uvw contains exactly three letters.
 +-- {: .proof}
 ###### Proof
 
-Along the lines of the above proposition.
+Along the lines of the above proposition, we compute first $1 + 1 = 2$ and then conclude with
 
+$$
+  2 + 1 = 3
+  \,.
+$$
+
+Notice that this is indeed independent of in which order we sum up the letters, in that the following diagram commutes
+
+$$
+  \array{
+    \mathbb{N}\times \mathbb{N} \times \mathbb{N}
+    &\stackrel{Id \times + }{\to}&
+    \mathbb{N} \times \mathbb{N} 
+    \\
+    {}^{\mathllap{+ \times Id}}\downarrow && \downarrow^{\mathrlap{+}}
+    \\
+    \mathbb{N} \times \mathbb{N}
+    &\underset{+}{\to}&
+    \mathbb{N}
+  }
+  \,.
+$$
 
 =--
 
@@ -134,6 +155,7 @@ For ease of reference, we will number the examples.
 The original definition appeared in section 3 of
 
 * FirstName LastName, _Title_ Journal ([arXiv](http://put.url/here), [pdf](http://another.url/)) .
+
 
 
 [[!redirects template pages]]
