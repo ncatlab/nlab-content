@@ -101,7 +101,7 @@ It is easy to see that if $C$ has pointwise left and right Kan extensions along 
 
 ## Computing homotopy Kan extensions
 
-We now describe an "omnibus" theorem which is the main thing enabling us to compute with homotopy Kan extensions in a derivator.
+We now describe an "omnibus" theorem which is the main thing enabling us to compute with [[homotopy Kan extension]]s in a derivator.
 
 ### $D$-equivalences
 
