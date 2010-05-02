@@ -348,18 +348,47 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[locally small (∞,1)-category]]
 
+#### 5.4.2 Accessible $(\infty,1)$-categories
+
+* [[accessible (∞,1)-category]]
+
+* [[accessible (∞,1)-functor]]
+
+#### 5.4.3 Accessible and idempotent-complete $(\infty,1)$-categories
+
+* [[idempotent-complete (∞,1)-category]]
+
 
 ### 5.5 Presentable $(\infty,1)$-categories ###
 
+#### 5.5.1 Presentability
+
+* [[locally presentable (∞,1)-category]]
+
+
+
+#### 5.5.2 Representable functors and the adjoint functor theorem
+
+* [[adjoint (∞,1)-functor theorem]]
+
+
+#### 5.5.3 Limits and colimits of presentable $\infty$-categories
+
 * [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
+
+#### 5.5.4 Local objects
 
 * [[localization of an (∞,1)-category]]
 
-  * [[reflective (∞,1)-subcategory]]
+  * [[reflective sub-(∞,1)-category]]
 
   * [[local object]]
 
   * [[local equivalence]]
+
+
+#### 5.5.5 Factorization systems on presentable $\infty$-categories
+
 
 #### 5.5.6 Truncated objects
 
