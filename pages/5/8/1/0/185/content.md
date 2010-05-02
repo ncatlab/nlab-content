@@ -742,6 +742,11 @@ For ordinary rings only the compatibility $\delta (a_1 \cdot a_2) = \delta (a_1)
 Accordingly, then, the K&#228;hler differentials as defined with respect to such derivations are different from the purely ring-theoretic ones: they produce the _right_ notion of smooth 1-forms here, whereas the ring-theoretic one does not.
 
 
+## Generalizations to higher category theory
+
+The generalization of the notion of smooth algebra fo  [[(∞,1)-category theory]] is
+
+* [[smooth (∞,1)-algebra]].
 
 ## References {#References}
 
