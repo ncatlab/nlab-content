@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -7,11 +12,11 @@
 
 The notion of _inner fibration_ of [[simplicial set]]s is one of the notion of [[fibrations of quasi-categories]].
 
-When the notion of [[(∞,1)-category]] is incarnated in terms of the notion of [[quasi-category]], an _inner fibration_ is a morphism of [[simplicial set]]s $C \to D$ such that each fiber is a quasi-category and such that over each morphism $f : d_1 \to d_2$ of $D$, $C$ may be thought of as the [[cograph of a profunctor|cograph of an (∞,1)-profunctor]] $C_{d_1} &#8696; C_{d_2}$.
+When the notion of [[(∞,1)-category]] is incarnated in terms of the notion of [[quasi-category]], an _inner fibration_ is a morphism of [[simplicial set]]s $C \to D$ such that each fiber is a quasi-category and such that over each morphism $f : d_1 \to d_2$ of $D$, $C$ may be thought of as the [[cograph of a profunctor|cograph of an (∞,1)-profunctor]] $C_{d_1} &#x21F8; C_{d_2}$.
 
 So when $D = {*}$ is the point, an inner fibration $C \to {*}$ is precisely a [[quasi-category]] $C$.
 
-And when $D = N(\Delta[1])$ is the [[nerve]] of the [[interval category]], an inner fibration $C \to \Delta[1]$ may be thought of as the [[cograph of a profunctor|cograph of an (∞,1)-profunctor]] $C &#8696; D$.
+And when $D = N(\Delta[1])$ is the [[nerve]] of the [[interval category]], an inner fibration $C \to \Delta[1]$ may be thought of as the [[cograph of a profunctor|cograph of an (∞,1)-profunctor]] $C &#x21F8; D$.
 
 This $(\infty,1)$-profunctor comes form an ordinary [[(∞,1)-functor]] $F : C \to D$ precisely if the inner fibration $K \to \Delta[1]$ is even a [[coCartesian fibration]]. And it comes from a functor $G : D \to C$ precisely if the fibration is even a [[Cartesian fibration]]. This is the content of the [[(∞,1)-Grothendieck construction]].
 
@@ -52,6 +57,8 @@ The morphisms with the [[left lifting property]] against all inner fibrations ar
 
 ## Properties
 
+### General properties
+
 +-- {: .un_remark}
 ###### Remark
 
@@ -65,6 +72,9 @@ with $X \to Z$ a left/right/inner anodyne cofibration and $Z \to Y$ accordingly 
 
 
 =--
+
+
+
 
 
 ## References
