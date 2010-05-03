@@ -15,3 +15,7 @@ Closed categories were first defined here:
 * Samuel Eilenberg and Max Kelly, _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
 
 You can get some of the idea from a [post by Owel Biesel at the $n$-Caf&#233;](http://golem.ph.utexas.edu/category/2009/02/monoidal_closed_categories_and.html#c022133).
+
+
+[[!redirects closed category]]
+[[!redirects closed categories]]
