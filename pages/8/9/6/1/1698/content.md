@@ -249,6 +249,116 @@ $$
 
 ## Examples
 
+### Fiber sequences of $(\infty,1)$-functor categories {#OfFuncCats}
+
+We have seen that for $A \to B \stackrel{f}{\to} C$ a fiber sequence in 
+an $(\infty,1)$-category $\mathcal{C}$,
+then for any other object $X$ we obtain
+a fiber sequence
+
+$$
+  Hom_{\mathcal{C}}(X,A)
+  \to 
+  Hom_{\mathcal{C}}(X,B)
+  \stackrel{f_*}{\to}
+  Hom_{\mathcal{C}}(X,C)
+$$
+
+in [[? Grpd]], where the point of $Hom_{\mathcal{C}}(X,C)$ is $X \to * \to C$ with $* \to C$ the point of $C$, so that $Hom_{\mathcal{C}}(X,A)$ is the homotopy fiber over this point of the morphism given by postcomposition with $B \to C$.
+
+Often it is important to know the homotopy fibers of $f_*$ also over other objects in $Hom_{\mathcal{C}}(X,C)$. This is notably the case when considering [[twisted cohomology]] with coefficients in $A$.
+
+
++-- {: .un_prop}
+###### Proposition
+
+The homotopy fiber of  $Hom_{\mathcal{C}}(X,B) \stackrel{f_*}{\to} Hom_{\mathcal{C}}(X,C)$ over a morphism $c : X \to C$ may be identified with the [[hom-object in a quasi-category|hom-object]] 
+
+$$
+  Hom_{\mathcal{C}_{/C}}(c,f)
+$$
+
+in the [[over quasi-category|over (∞,1)-category]] $\mathcal{C}_{/C}$.
+
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
+
++-- {: .proof}
+###### Proof
+
+Model all [[(∞,1)-categories]] as [[quasi-categories]]. 
+
+Using the discussion at [[hom-object in a quasi-category]], we observe that 
+
+$$
+  Hom_{\mathcal{C}}(X,C) \simeq \mathcal{C}_{/C} \times_{\mathcal{C}} \{X\}
+$$
+
+and
+
+$$
+  Hom_{\mathcal{C}}(X,B) \simeq \mathcal{C}_{/B} \times_{\mathcal{C}} \{X\}
+  \simeq \mathcal{C}_{/f} \times_{\mathcal{C}} \{X\}
+$$
+
+under which identification the map $f_*$ is induced by the canonical
+
+$$
+  \phi''  : \mathcal{C}_{/f} \to \mathcal{C}_{/C}
+  \,.
+$$
+
+So we are done if we can show that the ordinary [[pullback]] [[diagram]]
+
+$$
+  \array{  
+     \mathcal{C}_{/f} \times_{\mathcal{C}_{/C}} \{c\}
+     &\to& \mathcal{C}_{/f} \times_{\mathcal{C}} \{X\}
+     \\
+     \downarrow^{\mathrlap{\phi}} && \downarrow^{\mathrlap{\phi'}}
+     \\
+     \{c\} &\to& \mathcal{C}_{/C} \times_{\mathcal{C}} \{X\}
+  }
+$$
+
+is a [[homotopy pullback]] square, because we have an isomorphism of simplicial sets
+
+$$
+  \mathcal{C}_{/f} \times_{\mathcal{C}_{/C}} \{c\}
+  \simeq
+  Hom^R_{\mathcal{C}_{/X}}(c,f)
+  \,,
+$$
+
+as one checks.
+
+Since in the above diagram all objects are [[Kan complex]]es, for the diagram to be a homotopy pullback it is sufficient that $\phi'$ is a [[Kan fibration]] for which in turn it is sufficient that it is a [[left fibration]]. 
+
+That follows by noticing that the right vertical morphism fits into the pullback diagram
+
+$$
+  \array{
+     \mathcal{C}_{/f} \times_{\mathcal{C}} \{X\} &\to& \mathcal{C}_{/f}
+     \\
+     \downarrow^{\mathrlap{\phi'}} && \downarrow^{\mathrlap{\phi''}}
+     \\
+     \mathcal{C}_{/C} \times_{\mathcal{C}} \{X\}
+     &\to&
+     \mathcal{C}_{/C}
+  }
+  \,.
+$$
+
+But by general properties of [[left fibration]]s, the right vertical map is a left fibration. And since these are stable under pullbacks, so is $\phi'$.
+
+
+=--
+
+
+
 ### Principal $\infty$-bundles
 
 Fibration sequences are familiar from the context of [[principal bundles]].
