@@ -1,5 +1,9 @@
 
-This page is meant to provide a general template for new [[nLab:HomePage|nLab]]-pages. You can copy-and-paste **[its source code](http://ncatlab.org/nlab/source/template+page)** into newly created pages; remove the stuff before the horizontal rule (the line of asterisks in the source). See [[HowTo]] for more details.
+This page is meant to provide a general example and template for new
+[[nLab:HomePage|nLab]]-pages. You can look at **[its source
+code](http://ncatlab.org/nlab/source/template+page)** to see how the
+various parts are done. A minimal template is given at the end which
+can be cut-and-pasted into newly created pages.  See [[HowTo]] for more details.
 
 category: meta
 
@@ -163,3 +167,22 @@ The original definition appeared in section 3 of
 [[!redirects page template]]
 [[!redirects page templates]]
 [[!redirects uvw]]
+
+## Minimal Template Code ##
+
+~~~~
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
+
+## Idea ##
+
+## Abstract ##
+
+## Definition ##
+
+## Examples ##
+
+## References ##
+~~~~
