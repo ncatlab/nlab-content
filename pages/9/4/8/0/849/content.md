@@ -82,3 +82,5 @@ By the way, it's not true that every closed category is [[concrete category|conc
 [[!redirects inner hom]]
 [[!redirects inner homs]]
 [[!redirects internal-hom]]
+[[!redirects mapping space]]
+[[!redirects mapping spaces]]
