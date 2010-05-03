@@ -3,6 +3,9 @@
 
 The _special orthogonal group_ $SO(n)$ is the [[connected component]] of the neutral element in the [[orthogonal group]] $O(n)$.
 
+For instance for $n=2$ we have $SO(2)$ the [[circle group]].
+
+
 It is the first step in the [[Whitehead tower]] of $O(n)$
 
 $$
