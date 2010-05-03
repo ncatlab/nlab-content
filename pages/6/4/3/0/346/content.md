@@ -1,4 +1,10 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
 
 A category $C$ is _closed_ if for any pair $a, b$ of object the collection of morphisms from $a$ to $b$ can be regarded as forming itself an object of $C$.
 
@@ -8,7 +14,17 @@ A familiar kind of closed categories are [[closed monoidal category|closed monoi
 
 While this is less fashionable, in some cases it is more obvious what the correct internal-homs are than what the correct tensor product is, so the latter was originally defined as an adjoint to the former.  This is the case for the [[Gray tensor product]] and was probably the case for [[abelian group]]s as well.
 
-# References #
+## Definition
+
+A **closed category** is a [[category]] $C$ together with a [[functor]]
+
+$$
+  [-,-] : C^{op} \times C \to C
+$$
+
+called the [[internal hom]]-functor, such that...
+
+## References 
 
 Closed categories were first defined here:
 
