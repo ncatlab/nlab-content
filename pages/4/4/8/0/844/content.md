@@ -17,11 +17,11 @@ The  _join_ of quasi-categories $C$ and $C'$ is a [[quasi-category]] $C \star C'
 
 ## Definition
 
-Two different definitions are used in the literature, which are equivalent with respect to the [[model structure on quasi-categories]].
+Two different definitions are used in the literature, which are not isomorphic, but are weakly equivalent with respect to the [[model structure on quasi-categories]].
 
 1. The **join** $C \star C'$ of two [[quasi-category|quasi-categories]] $C$ and $C'$ is the [[join of simplicial sets]] of their underlying [[simplicial set]]s.
 
-1. The join $C \diamondsuit D$ of two quasi-categories is something like the [[2-limit|lax colimit]]
+1. The alternate join $C \diamondsuit D$ of two quasi-categories should be thought of as something like the [[2-limit|pseudopushout]]
 
    $$
      \array{
@@ -33,26 +33,26 @@ Two different definitions are used in the literature, which are equivalent with 
      }
    $$
 
-   namethe (compare [[mapping cone]]) the ordinary [[colimit]]
+   Explicitly (compare [[mapping cone]]) it is the ordinary [[colimit]]
 
    $$
      \array{
-       && X \times Y \times {1} &\to&  Y
+       && C \times D \times {1} &\to&  D
        \\
        &&\downarrow && \downarrow
        \\
-       X \times Y \times {0}
-       &\to& X \times Y \times \Delta^1
+       C \times D \times {0}
+       &\to& C \times D \times \Delta^1
        \\
        \downarrow &&&& \downarrow
        \\
-       X &\to& &\to& C \diamondsuit D
+       C &\to& &\to& C \diamondsuit D
      }
    $$   
  
    in [[sSet]].
 
-Indeed, the join of two [[simplicial set]]s that happen to be [[quasi-category|quasi-categories]] is itself a quasi-category.
+The join of two [[simplicial set]]s that happen to be [[quasi-category|quasi-categories]] is itself a quasi-category.
 
 ## Properties
 
