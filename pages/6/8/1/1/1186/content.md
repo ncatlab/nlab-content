@@ -84,7 +84,7 @@ This means that it is desireable to get hold of presentable $(\infty,1)$-categor
 
 
 An [[(∞,1)-category]] $C$ is called **locally presentable** 
-it is [[accessible (infinity,1)-category|accessible]] and admits small [[limit in quasi-categories|colimits]].
+if it is [[accessible (infinity,1)-category|accessible]] and admits small [[limit in quasi-categories|colimits]].
 
 =--
 
@@ -151,6 +151,10 @@ This $(\infty,1)$-category $Pr(\infty,1)Cat$ in turn as special properties. More
 
 ## Properties
 
+### Limits and colimits {#LimitsAndColimits}
+
+In the first definition of locally presentable $(\infty,1)$-category above only the existence of colimits is postulated. An important fact is that it follows automatically that also all small limits exist:
+
 A [[representable functor]] $C^{op} \to \infty Grpd$ preserves [[limit in a quasi-category|limits]] (see [[(∞,1)-Yoneda embedding]]). If $C$ is locally presentable, then also the converse holds:
 
 +-- {: .un_prop}
@@ -164,18 +168,79 @@ precisely if it preserves [[limit in a quasi-category|limits]].
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.2.2]].
 
++-- {: .proof}
+###### Proof
+
+
+We need to prove that a limit-preserving functor $F : C^{op} \to \infty Grpd$ is [[representable functor|representable]]. By the above characterizations we know that $C$ is an accessible localization of a presheaf category.
+
+So consider first the case that $C = PSh(D)$ _is_ a presheaf category.  Write
+
+$$
+  f : D^{op} \stackrel{j^{op}}{\to} PSh(D)^{op} \stackrel{F}{\to} \infty Grpd
+$$
+
+for the precomposition of $F$ with the [[(∞,1)-Yoneda embedding]]. Then let
+
+$$
+  F' := Hom_{C}(-,f) : PSh(D)^{op} \to \infty Grpd
+$$
+
+the functor represented by $f$. 
+
+We claim that $F \simeq F'$, which proves that $F$ is represented by $F \circ j^{op}$: since both $F$ and $F'$ preserve limits (hence colimits as functors on $PSh(D)$) it follows from the fact that the Yoneda embedding exhibits the universal co-completion of $D$ that it is sufficient to show that $F \circ j^{op} \simeq F' \circ j^{op}$. But this is the case precisely by the statement of the full [[(∞,1)-Yoneda lemma]].
+
+Now consider more generally the case that $C$ is a [[reflective sub-(∞,1)-category]] of $PSh(D)$. Let $L : PSh(D) \to C $ be the [[left adjoint]] reflector. Since it respects all colimits, the composite
+
+$$
+  F \circ L^{op} : PSh(D)^{op} \stackrel{L^{op}}{\to} C^{op} \stackrel{F}{\to} \infty Grpd
+$$
+
+respects all limits. By the above it is therefore represented by some object $X \in PSh(D)$.
+
+By the general properties of [[reflective sub-(∞,1)-categories]], we have that $C$ is the full [[sub-(∞,1)-category]] of $PSh(D)$ on those objects that are [[local object]]s with respect to the morphisms that $L$ sends to equivalences. But $X$, since it presents $F \circ L^{op}$, is manifestly local in this sense and therefore also represents $F \circ L^{op}|_{C}$. But on $C$ the functor $L$ is equivalent to the identity, so that this is equivlent to $F$.
+
+=--
+
 
 This statement has the following important consequence:
 
 +-- {: .un_cor}
 ###### Corollary
 
-A locally presentable $(\infty,1)$-category has all small [[limit in a quasi-category|limits]].
+A locally presentable $(\infty,1)$-category $C$ has all small [[limit in a quasi-category|limits]].
 
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.2.4]].
 
+
++-- {: .proof}
+###### Proof
+
+We may compute the limit after applying the [[(∞,1)-Yoneda embedding]] $j : C \to PSh_{(\infty,1)}(c)$. Since this is a [[full and faithful (∞,1)-functor]] it is sufficient to check that the limit computed in $PSh(C)$ lands in the essential image of $j$. But by the above lemma, this amounts to checking that the limit over limit-preserving functors is itself a limit-preserving functor. This follows using that limits of functors are computed objectwise and that generally limits commute with each other (see [[limit in a quasi-category]]):
+
+to check for $I \to PSh(C)$ a diagram of limit-preserving functors that $\lim_i F_i$ is a functor that commutes with all limits, let $a : J \to C$ be a diagram and compute (verbatim as in ordinary category theory)
+
+$$
+  \begin{aligned}
+    \lim_j (\lim_i F_i)(a_j)
+    & \simeq 
+    \lim_j (\lim_i F_i(a_j))
+    \\
+    & \simeq
+    \lim_i (\lim_j F_i(a_j))
+    \\
+    & \simeq
+    \lim_i F_i(\lim a_j)
+    \\
+    & \simeq
+    (\lim_i F_i)(\lim a_j)
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 ## Examples
 
