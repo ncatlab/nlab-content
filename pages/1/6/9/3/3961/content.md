@@ -3,7 +3,7 @@ This page is meant to provide a general example and template for new
 [[nLab:HomePage|nLab]]-pages. You can look at **[its source
 code](http://ncatlab.org/nlab/source/template+page)** to see how the
 various parts are done. A minimal template is given at the end which
-can be cut-and-pasted into newly created pages.  See [[HowTo]] for more details.
+can be copy-and-pasted into newly created pages.  See [[HowTo]] for more details.
 
 category: meta
 
