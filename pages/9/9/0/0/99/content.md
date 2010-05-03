@@ -10,12 +10,22 @@
 
 ## Idea
 
-Ordinarily one speaks of the Weil algebra of a [[Lie algebra]] $\mathfrak{g}$. We briefly recall this concept and then observe its [[abstract nonsense]] meaning from the [[nPOV]] as a [[mapping cone]].
+The notion of _Weil algebra_ is ordinarily defined for a [[Lie algebra]] $\mathfrak{g}$. It may be understood as the [[Chevalley-Eilenberg algebra]] of the tangent [[Lie 2-algebra]] $T \mathfrak{g}$ of $\mathfrak{g}$, generalizing the notion of [[tangent Lie algebroid]] $T X$ from a 0-[[truncated]] Lie algebroid $X$ (a [[smooth manifold]]) to the one-obeject [[Lie algebroid]] $\mathfrak{g}$.
+
+Generally, for every [[Lie-∞-algebroid]] $\mathfrak{a}$ one may define the corresponding tangent Lie-$\infty$-algebroid $T \mathfrak{a}$ , whose Chevalley-Eilenberg algebra may be called the Weil algebra of $\mathfrak{a}$:
+
+$$
+  W(\mathfrak{a})
+  =
+  CE(T \mathfrak{a})
+  \,.
+$$
+
+
 
 ### Weil algebra of a Lie algebra 
 
-
-The Weil algebra of a [[Lie algebra]] $\mathfrak{g}$ is the 
+Let $\mathfrak{g}$ be a finite-dimensional [[Lie algebra]]. The **Weil algebra** $W(\mathfrak{g})$ of $\mathfrak{g}$ is
 
 * the graded [[Grassmann algebra]] generated from the dual [[vector space]] $\mathfrak{g}^*$ together with another copy of $\mathfrak{g}^*$ shifted in degree
 
@@ -24,7 +34,7 @@ The Weil algebra of a [[Lie algebra]] $\mathfrak{g}$ is the
    (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])
   $$
 
-* and equipped with a [[derivation]] $d : W(\mathfrak{g}) \to W(\mathfrak{g})$ that makes this a [[dg-algebra]], defined by the fact that on $\mathfrak{g}^*$ it acts as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ plus the degree shift morphism $\mathfrak{g}^* \to \mathfrak{g}^*$.
+* equipped with a [[derivation]] $d : W(\mathfrak{g}) \to W(\mathfrak{g})$ that makes this a [[dg-algebra]], defined by the fact that on $\mathfrak{g}^*$ it acts as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ plus the degree shift morphism $\mathfrak{g}^* \to \mathfrak{g}^*$.
 
 This Weil algebra has trivial [[chain homology and cohomology|cohomology]] and sits in a sequence
 
@@ -42,56 +52,48 @@ $$
 
 As such, the Weil algebra plays a crucial role in the study of the [[Lie algebra cohomology]] of $\mathfrak{g}$.
 
-### General interpretation as a mapping cone
-
-We observe that the Weil [[dg-algebra]] $W(\mathfrak{g})$ defined this way is the [[mapping cone]] object of the identity morphism on the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ in the [[model structure on dg-algebras]] $dgAlg^{op}$.
-
-Another way to say this is: in as much as a [[Chevalley-Eilenberg algebra]] of a Lie $\infty$-[[Lie infinity-algebroid|algebroid]] is the algebra of functions on an [[NQ-supermanifold]] $\mathbf{X}$, the **Weil algebra** is the algebra of functions on the [[shifted tangent bundle]] $T[1] \mathbf{X}$.
-
-One can also understand this as generalizing the notion of [[superdifferential form]] from ordinary [[supermanifold]]s to [[NQ-supermanifolds]].
-
-### Weil algebra of an $L_\infty$-algebra
-
-Since every [[L-infinity-algebra]] $\mathfrak{g}$ is equally defined by its [[Chevalley-Eilenberg algebra]], the interpretation of the Weil algebra as a mapping cone gives a definition of Weil algebras of $L_\infty$-algebras. And of [[L-infinity-algebroid]]s.
-
-...
 
 ## Definition
 
-For $CE(\mathfrak{g}) = \wedge^\bullet_{C^\infty(X_0)} \mathfrak{g}^*$ the Chevalley-Eilenberg algebra of a $L_\infty$-[[Lie infinity-algebroid|algebroid]] $g$ over a [[manifold]] $X_0$, the corresponding **Weil algebra** is
+Let $\mathfrak{a}$ be a [[Lie-∞-algebroid]], identified with its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a}) = \wedge^\bullet_{C^\infty(\mathfrak{a}_0)} \mathfrak{a}_{\geq 1}^* $. 
+
+The corresponding **Weil algebra** is
 
 $$
-  \mathrm{W}(\mathfrak{g})
+  \mathrm{W}(\mathfrak{a})
+  := CE(T \mathfrak{a})
   :=
   \left(
-    \wedge^\bullet_{C^\infty(X_0)}
+    \wedge^\bullet_{C^\infty(\mathfrak{a}_0)}
     (
-      \mathfrak{g}^* \oplus \Gamma(T^* X_0) 
-      \oplus \mathfrak{g}^*[1]
+      \mathfrak{a}_{\geq 1}^* \oplus \Gamma(T^* \mathfrak{a}_0) 
+      \oplus \mathfrak{a}_{\geq 1}^*[1]
     )
-    , d_{\mathrm{W}(\mathfrak{g})}
+    , d_{\mathrm{W}(\mathfrak{a})}
   \right)
 $$
 
-where the differential acts as the deRham differential on $\wedge^\bullet \Gamma(T^* X)$ and is defined on generators in $\mathfrak{g}^* \oplus \mathfrak{g}^*[1]$ by 
+where the differential acts as the de Rham differential on $\wedge^\bullet \Gamma(T^* \mathfrak{a}_0)$ and is defined on generators in $\mathfrak{a}^* \oplus \mathfrak{a}^*[1]$ by 
+
 $$
-  d_{\mathrm{W}(\mathfrak{g})}
+  d_{\mathrm{W}(\mathfrak{a})}
   =
   \left(
     \array{
-       d_{\mathrm{CE}(\mathfrak{g})}
+       d_{\mathrm{CE}(\mathfrak{a})}
        &
        0
        \\
        \sigma
        &
-       - \sigma \circ d_{\mathrm{CE}(\mathfrak{g})}
+       - \sigma \circ d_{\mathrm{CE}(\mathfrak{a})}
        \circ \sigma^{-1}
     }
     \,,
   \right)
 $$
-where $\sigma|_{\mathfrak{g}^*} : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ is the canonical degree-shifting isomorphism.
+
+where $\sigma|_{\mathfrak{a}^*} : \mathfrak{a}^* \to \mathfrak{a}^*[1]$ is the canonical degree-shifting isomorphism.
 
 ## Examples
 
@@ -161,12 +163,22 @@ $$
   \,.
 $$
 
+### Weil algebra of a 0-truncated Lie algebroid
 
+A 0-[[truncated]] Lie algebroid is just a [[smooth manifold]] $X$.
+Its Weil algebra is the Chevalley-Eilenberg algebra of the
+[[tangent Lie algebroid]] $T X$ of $X$, which is the [[de Rham algebra]]
+$\Omega^\bullet(X)$ of $X$:
+
+$$
+  W(X) = CE(T X) = (\Omega^\bullet(X), d_{dR})
+  \,.
+$$
 
 
 ## References
 
-The use of the Weil algebra in the calculation of the equivariant [[deRham cohomology]] of manifolds acted on by a compact group goes at least back to two papers by H. Cartan from 1950. These papers are reprinted, explained and put in a modern context in the book
+The use of the Weil algebra in the calculation of the equivariant [[de Rham cohomology]] of manifolds acted on by a compact group goes at least back to two papers by H. Cartan from 1950. These papers are reprinted, explained and put in a modern context in the book
 
 * Victor Guillemin, Shlomo Sternberg, _Supersymmetry and Equivariant de Rham Theory_, Springer, 1999.
 
