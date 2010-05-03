@@ -182,6 +182,8 @@ The original definition appeared in section 3 of
 
 ## Definition ##
 
+## Properties ##
+
 ## Examples ##
 
 ## References ##
