@@ -4,74 +4,77 @@
 {:toc}
 
 
-## Idea 
+## Idea ##
 
 The category of [[smooth manifolds]] is not [[cartesian closed]], even when [[infinite dimensional manifolds]] are allowed.  However, that does not mean that _no_ mapping spaces between certain smooth manifolds can be given the structure of a smooth manifold.  This is true when the source is compact.  Thus, in particular, this applies to [[loop spaces]].
 
-An alternative way to approach this question is to embed the category of smooth manifolds in some [[generalized smooth space|larger category]] which is cartesian closed.  Then the mapping spaces are objects in the larger category and one can ask for conditions when they are objects in the subcategory of smooth manifolds.  An advantage of this approach is that the source does not have to be a smooth manifold itself but can be a more general object.  For example, this applies to [[path spaces]] since the interval is a [[smooth manifold with boundary]].
+The method of proving this depends mostly on the structure of the target and only minimally on that of the source.  It is not hard to generalise it to manifolds with boundary (to get, for example, [[path spaces]]), or even manifolds with corners.  This raises the obvious question as to how general this result can be made.  The purpose of this page is to determine the answer.  Our conjecture is the following:
 
-In this alternative approach there is a choice to be made: that of the ambient category.  The inclusion of the category of smooth manifolds into each of the ambient categories listed at [[generalized smooth space]] factors through the category of [[Frölicher spaces]] and thus the choice of ambient category only changes what sources we allow for our mapping spaces.  For those categories that take a "maps in" approach, the smooth maps from an object into a Fr&#246;licher space factors through the Fr&#246;licher space associated to the source and so there is no loss of generality by simply taking it to be a  Fr&#246;licher space in the first place.  Thus we take the category of  Fr&#246;licher spaces for our ambient category and simply note that these results extend to [[diffeological spaces]] and [[Chen spaces]].
-
-The main result is the following.
-
-+-- {: .num_theorem #mfdmap}
-###### Theorem ($\beta$ version)
-Let $N$ be a functionally compact Fr&#246;licher space.  Let $M$ be a smooth manifold which admits a [[local addition]].  Then the Fr&#246;licher space $C^\infty(N,M)$ is a smooth manifold.
++-- {: .num_theorem #mfdconj}
+###### Conjecture
+Let $N$ be a [curvaceously compact Fr&#246;licher space](nlab/show/Froelicher+space#compact).  Let $M$ be a smooth manifold that admits a [[local addition]].  Then the Fr&#246;licher space of smooth maps from $N$ to $M$ is a smooth manifold.
 =--
 
-This can be strengthened to a relative version whereby $M$ is equipped with a family of submanifolds and $N$ with a family of subsets and the maps are constrained to take the subsets to the corresponding submanifolds.
+## Background and Remarks ##
 
-+-- {: .query}
-[[Andrew Stacey]]: The above theorem is actually a conjecture!  I'm working out the proof as I go along.  Of course, as the proof evolves, the theorem will change to reflect what I actually need in order to prove it.  I know it works if $N$ is a compact manifold and I'm pretty sure that there's no problem if we allow manifolds-with-corners.  And at no point do we actually use the manifold structure of $N$, so I don't see why we can't replace it with an arbitrary Frolicher space, but there may be some hidden subtlety that will only become apparent in the proof.
+The question discussed here can be viewed as the counterpoint to the oft-heard maxim (attributed to Grothendieck):
 
-So this theorem is released as a $\beta$-version!  It's known to work under controlled conditions, but may break if applied more generally.
+> It is better to work in a nice category with nasty objects than in a nasty category with nice objects.
+
+Smooth manifolds are an example of "nice objects in a nasty category"; for example, one can rarely take subobjects or quotients.  The standard proceedure at this point is to embed the nasty category in some larger, nicer category and work there.  In the case of smooth manifolds, this has led to all of the categories that are listed at [[generalized smooth space]].
+
+One can now go on to study this enlarged category, and investigate how much of what is known about the original category extends to the larger one.  In this line, the original category is viewed mainly as a source of ideas.  An alternative approach, and that taken here, is to view the original category as being a subcategory of "special objects" inside the larger one.
+
+One can make an analogy with the real and complex numbers.  Many aspects of the study of real numbers become much easier and clearer when extended to the complex numbers.  At this point, one has a choice: one can simply study the complex numbers or one can use the complex numbers as a tool to study the real ones.
+
+Thus, to adapt a saying of Hadamard, we could introduce our own maxim:
+
+> The shortest distance between two truths about nice objects often lies in a nice category.
+
+Having mentioned the plethora of extensions of the category of smooth manifolds, we should comment on our choice of [[Frölicher spaces]]. 
+The inclusion of the category of smooth manifolds into each of the extensions factors through the category of Fr&#246;licher spaces.  Therefore, if we work in, say, the category of [[diffeological spaces]] then we can split the question "Is the diffeological space $X$ a smooth manifold?" into "Is $X$ a Fr&#246;licher space?" and "Is the resulting Fr&#246;licher space a manifold?".  Moreover, as we are interested in $C^\infty(N,M)$ with $M$ a smooth manifold (and thus a  Fr&#246;licher space), then if we are working with one of the "maps in" approaches, we can replace the $N$ in $C^\infty(N,M)$ by its "Fr&#246;licherification" without changing the set.  Thus the key piece of the puzzle is to study $C^\infty(N,M)$ for $N$ a Fr&#246;licher space and the rest will follow by applying "general nonsense".
+
+Another remark worth saying is that the conjecture stated is not the most general statement that could be considered.  It is simple to extend this conjecture to a relative version whereby $M$ is equipped with a family of submanifolds and $N$ with a family of subsets and the maps are constrained to take the subsets to the corresponding submanifolds.
+
+## Linearity ## 
+
+The key property on the source is that it be _curvaceously compact_.  The reason for this is to do with relating open sets in the target to open sets in the mapping space.
+
++-- {: .num_prop #PropLin}
+###### Proposition ######
+Let $N = (N, C_N, F_N)$ be a [curvaceously compact Fr&#246;licher space](nlab/show/Froelicher+space#DefCurvComp).  Let $E$ be a [[convenient vector space]].  Let $U$ be a $0$-neighbourhood in $E$ in the $c^\infty$-topology.  Then the set
+
+$$
+C^\infty(N,U) \coloneqq \{f \colon N \to E : f(N) \subseteq U\}
+$$
+
+is a $0$-neighbourhood of $C^\infty(N,E)$ in the $c^\infty$-topology.
 =--
 
-## Functional compactness 
++-- {: .proof}
+###### Proof ######
+The Fr&#246;licher space structure on $C^\infty(N,E)$ is such that  smooth maps $X \to C^\infty(N,E)$ correspond to smooth maps $X \times N \to E$.  Therefore, a smooth curve $c \colon \mathbb{R} \to C^\infty(N,E)$ corresponds to a smooth map $\hat{c} \colon \mathbb{R} \times N \to E$.
 
-The key property on the source is that it be _functionally compact_.  The reason for this is to do with relating open sets in the target to open sets in the mapping space.  
-
-+-- {: .un_defn}
-###### Definition
-
-A F&#246;licher space $N$ is called **functionally compact**
-if 
-
-* for every smooth manifold $M$;
-
-* for every $V \subseteq M \times M$ a neighbourhood of the diagonal of $M$, 
-
-* for $g \colon N \to M$ any smooth map 
-
-the set
+The $c^\infty$-topology is the [curvaceous topology](nlab/show/Froelicher+space#FroTop).  In this topology, a set is open if its preimage under all smooth curves is open.  So to determine whether or not $C^\infty(N,U)$ is a $0$-neighbourhood, we need to examine $c^{-1}(C^\infty(N,U))$.  This is the set
 
 $$
-\{f \colon N \to M : (g(x),f(x)) \in V \,, \forall x \in N\}
+\{t \in \mathbb{R} : c(t)(N) \subseteq U\} = \{t \in \mathbb{R} : \hat{c}(t,x) \in U \forall x \in N\}
 $$
 
-is open in $C^\infty(N,M)$.
+Now $\hat{c} \colon \mathbb{R} \times N \to E$ is smooth and so $\hat{c}^{-1}(U)$ is open in $\mathbb{R} \times N$.  The relationship between $\hat{c}^{-1}(U)$ and $c^{-1}(C^\infty(N,U))$ is that $t \in c^{-1}(C^\infty(N,U))$ if and only if $\{t\} \times N \subseteq \hat{c}^{-1}(U)$.
 
+Now we apply the curvaceous compactness of $N$ to deduce that as $\hat{c}^{-1}(U)$ is open, it contains a subset of the form $(-\epsilon,\epsilon) \times N$ for some $\epsilon \gt 0$.  Then $(-\epsilon,\epsilon) \subseteq c^{-1}(C^\infty(N,U))$ and so $c^{-1}(C^\infty(N,U))$ is a neighbourhood of $0$.
+
+Thus as $c$ was a generic smooth curve, $C^\infty(N,U)$ is a $0$-neighbourhood in $C^\infty(N,E)$.
 =--
 
-In the linear situation, this reduces to the problem of showing that if $U$ is a $0$-neighbourhood then $C^\infty(N,U)$ is a $0$-neighbourhood.  Notice that this is true for $N = S^1$ but false for $N = \mathbb{R}$.
+This result can fail if $N$ is not curvaceously compact, as shown by the simplest example: $N = E = \mathbb{R}$.  For this example, the topologies involved are all the "standard" ones.  In particular, the $0$-neighbourhoods in $C^\infty(\mathbb{R},\mathbb{R})$ are defined by uniform convergence on compact subsets of $\mathbb{R}$.  Hence the set $\{f \colon \mathbb{R} \to \mathbb{R} : \abs{f(t)} \lt 1\}$ is not a $0$-neighbourhood.
 
-Let $E$ be a [[convenient vector space]], let $N$ be a functionally compact [[Frölicher space]], and let $U \subseteq E$ be a $0$-neighbourhood.  We want to show that the set
 
-$$
-V\coloneqq \{f : N \to E : f(N) \subseteq U\}
-$$
-
-is open in $C^\infty(N,E)$.  To show that this is so, we need to show that for a smooth curve $c \colon \mathbb{R} \to C^\infty(N,E)$, $c^{-1}(V)$ is open in $\mathbb{R}$.  So let $c \colon \mathbb{R} \to C^\infty(N,E)$ be a smooth curve.
-
-Now the smooth structure on $C^\infty(N,E)$ is characterised by the fact that the smooth curves $\mathbb{R} \to C^\infty(N,E)$ are precisely those that come from smooth maps $\mathbb{R} \times N \to E$. Thus $c$ defines a smooth map $\check{c} \colon \mathbb{R} \times N \to E$ and hence $\check{c}^{-1}(U)$ is open in $\mathbb{R} \times N$.
-
-+-- {: .query}
-[[Andrew Stacey]] TODO: This is the crucial bit; we need the set $\check{c}^{-1}(U)$ to contain a product $(-\epsilon, \epsilon) \times N$ and _that's_ what "compactness" should mean.
-=--
 
 ## Charts 
 
-Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a functionally compact [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a family of subsets of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
+Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a curvaceously compact [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a family of subsets of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
 
 We assume that the _pair_ $(M,\{P_i\})$ admits a [[local addition]].  By that, we mean that $M$ admits a local addition, say $\eta$, with the property that it restricts to a local addition on each $P_i$.  We shall also assume, for simplicity, that the domain of $\eta$ is $T M$.
 
@@ -83,7 +86,7 @@ $$
 
 and then take the space of smooth maps $f \colon N \to g^* T M$ with the property that the composition $N \to g^* T M \to N$ is the identity.  Within that space, we further restrict to those $f$ such that the image of the map $Q_i \to g^* T M \to T M$ lies in $T P_i$.
 
-Although $N$ could be quite complicated, because $T M \to M$ is a vector bundle, $E_g$ is a vector space.  Furthermore, by trivialising $g^* T M$ using a finite number of trivialisations (possible as $N$ is functionally compact), we can embed $E_p$ as a closed subspace of $C^\infty(N,V^n)$ for some $n$.  This embedding shows that $E_p$ is a [[convenient vector space]], in the sense of [Kriegl and Michor](#km).
+Although $N$ could be quite complicated, because $T M \to M$ is a vector bundle, $E_g$ is a vector space.  Furthermore, by trivialising $g^* T M$ using a finite number of trivialisations (possible as $N$ is curvaceously compact), we can embed $E_p$ as a closed subspace of $C^\infty(N,V^n)$ for some $n$.  This embedding shows that $E_p$ is a [[convenient vector space]], in the sense of [Kriegl and Michor](#km).
 
 +-- {: .query}
 [[Andrew Stacey]] This, I think, is the crucial part: that $E_p$ is a convenient vector space.  I need to expand on this and check that all is as I think it is.
