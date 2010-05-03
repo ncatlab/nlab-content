@@ -1,4 +1,3 @@
-
 # Contents
 * table of contents
 {: toc}
@@ -61,11 +60,7 @@ For example, in the coinverter-invertee example above, the right clas of the fac
 
 ## References
 
-This sort of idea has been thought of by various people at various times.  The above version, especially the view of factorization systems, is a slight modification of one presented by [[Richard Garner]] to the Sydney category seminar in spring 2010.
-
-+--{: .query}
-[[David Roberts]]: Spring 2010 hasn't happened in Australia yet! :-) Please add a month instead. Q: Was it the 10th Feb seminar?
-=--
+This sort of idea has been thought of by various people at various times.  The above version, especially the view of factorization systems, is a slight modification of one presented by [[Richard Garner]] to the Sydney category seminar in February 2010.
 
 
 [[!redirects generalized kernels]]
