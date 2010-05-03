@@ -11,7 +11,9 @@ $$
   c \times_d c \stackrel{\to}{\to} c \stackrel{f}{\to} d
 $$
 
-is a [[colimit]] diagram (a [[coequalizer]]).  This is equivalent to saying that $f$ is a [[regular epimorphism]] which has a kernel pair.  The reader should be aware, however, that some writers use "effective epimorphism" to mean what is here called a [[strict epimorphism]].
+is a [[colimit]] diagram (a [[coequalizer]]).  This is equivalent to saying that $f$ is a [[regular epimorphism]] which has a kernel pair, since any morphism which is a coequalizer and has a kernel pair must be the coequalizer of its kernel pair.  (This is a special case of the theory of [[generalized kernels]].)
+
+The reader should be aware, however, that some writers use "effective epimorphism" to mean what is here called a [[strict epimorphism]].
 
 In other words this says that $f : c \to d$ is effective if $d$ is the [[coimage]] of $f$.
 
