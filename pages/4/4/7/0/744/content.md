@@ -62,6 +62,15 @@ On the other hand, the aim is to keep iTeX as close as possible to standard LaTe
    1. Break the `\text` command: `\text{in~}\infty{-categories}` produces $\text{in}\;\infty{-categories}$ (note the forced space, simple whitespace there will not work).
    2. Use **numbered** entities: `\text{in ∞-categories` produces $\text{in ∞-categories}$.  Named entities will not work here as they get converted to unicode internally before being sent to the iTeX parser.
 
+### itex is a pain, why do you guys use MathML? {#WhyMathML}
+
+Many web sites "support" LaTeX by running it through a script which converts LaTeX equations to image files for display.  While this produces acceptable results for many users, it is not true "support" for mathematics.  Images can sometimes be hard to see, and the user cannot easily resize them or change their color or font, nor can software easily read them aloud to a blind user.  In contrast, MathML is a markup language, like HTML, specifically designed to carry information not only about the display of mathematics, but its content and meaning.  A suitable client application can resize MathML along with the rest of the page, change its color or font, or even read it aloud, making MathML a much more accessible way to display mathematics.  See, for instance, [this comment](http://terrytao.wordpress.com/2009/10/29/displaying-mathematics-on-the-web/#comment-42119).
+
+### I want to help out with the software, what can I do?
+
+See [this discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1112).
+
+
 ## HTML, XML, etc.
 
 ### How do I get accented characters?
