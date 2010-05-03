@@ -268,6 +268,33 @@ by the above proposition.
 Since $(\infty,1)$-categories equivalent to those of the form $N(A^\circ)$ for $A$ a [[combinatorial simplicial model category]] are precisely the [[locally presentable (∞,1)-categories]], it follows from this in particular that every locally presentable $(\infty,1)$-category has all limits and colimits.
 
 
+### Commutativity of limits {#CommutativityOfLimits}
+
+The following proposition says that if for an $(\infty,1)$-functor $F : X \times Y \to C$ limits (colimits) over each of the two variables exist separately, then they commute.
+
++-- {: .un_prop }
+###### Proposition
+
+Let $X$ and $Y$ be [[simplicial set]]s and $C$ a [[quasi-category]]. Let $p : X^{\triangleleft} \times Y^{\triangleleft} \to C$ be a [[diagram]]. If
+
+1. for every object $x \in X^{\triangleleft}$ (including the cone point) the restricted diagram $p_x : Y^{\triangleleft} \to C$ is a limit diagram;
+
+1. for every object $y \in Y$ (not including the cone point) the restricted diagram $p_y : X^{\triangleleft} \to C$ is a limit diagram;
+
+then, with $c$ denoting the cone point of $Y^{\triangleleft}$, the restricted diagram, $p_c : X^{\triangleleft} \to C$ is also a limit diagram.
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, lemma 5.5.2.3]]
+
+=--
+
+
+In other words, suppose that $\lim_x F(x,y)$ exists for all $y$ and $\lim_y F(x,y)$ exists for all $x$ and also that $\lim_y (\lim_x F(x,y))$ exists, then this object is also $\lim_x \lim_y F(x,y)$.
+
 ### Limits and colimits with values in $\infty Grpd$ {#WithValInooGrpd}
 
 Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
@@ -445,6 +472,30 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 
 ## Examples
 
+### Limits in functor categories
+
+For $C$ an ordinary [[category]] that admits small [[limit]]s and [[colimit]]s, and for $K$ a [[small category]], the [[functor category]] $Func(D,C)$ has all small limits and colimits, and these are computed objectwise. See [[limits and colimits by example]]. The analogous statement is true for an [[(∞,1)-category of (∞,1)-functors]].
+
+
++-- {: .un_prop}
+###### Propositon
+
+Let $K$ and $C$ be [[quasi-categories]], such that $C$ has all [[limit in a quasi-category|colimits]] indexed by $K$. 
+
+Let $D$ be a small quasi-category. Then 
+
+* The [[(∞,1)-category of (∞,1)-functors]] $Func(D,C)$ has all $K$-indexed colimits;
+
+* A morphism $K^\triangleright \to Func(D,C)$ is a colimiting cocone precisely if for each object $d \in D$ the induced morphism $K^\triangleright \to C$ is a colimiting cocone.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
+
+=--
 
 
 
