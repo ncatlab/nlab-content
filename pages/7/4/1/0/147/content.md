@@ -182,7 +182,9 @@ $$
 $$
 
 
+#### Concrete sites
 
+A site that is also a [[concrete category]] in a compatible way is called a [[concrete site]].
 
 ## Sites in higher category theory
 
