@@ -2,7 +2,7 @@ If $C$ and $D$ are monoidal categories, an **oplax monoidal functor** $F : C \to
 
 $$\phi_{c,c'} : F(c \otimes c') \to F(c) \otimes F(c')$$
 
-which must satisfy a certain coherence law.
+which must satisfy a certain [[coherence law]].
 
 An oplax monoidal functor sends [[comonoids]] in $C$ to comonoids in $D$, just as a lax monoidal functor sends [[monoids]] in $C$ to monoids in $D$.  For this reason an oplax monoidal functor is sometimes called a **lax comonoidal functor**.  The other obvious terms, __colax monoidal__ and __lax opmonoidal__, also exist (or at least are attested on Wikipedia).
 
