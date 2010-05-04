@@ -27,7 +27,7 @@ The various notions of **group cohomology** are special cases of this:
 
 * **Group cohomology with coefficients in a trivial module** is the cohomology in $\mathbf{H} = $ [[∞Grpd]] for the case that
 
-  * the domain $X = \mathbf{B} G$ is a one-object [[groupoid]] being the [[delooping]]a [[group]] $G$;
+  * the domain $X = \mathbf{B} G$ is a one-object [[groupoid]] being the [[delooping]] of a [[group]] $G$;
 
   * the coefficient object is $A = \mathbf{B}^n K$, the [[strict ∞-groupoid]] coming from the [[crossed complex]] that is concentrated in degree $n$, where it is the abelian group $K$ (see [[Eilenberg-MacLane space|Eilenberg-MacLane object]] for more details).
 
