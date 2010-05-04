@@ -16,13 +16,60 @@ While this is less fashionable, in some cases it is more obvious what the correc
 
 ## Definition
 
-A **closed category** is a [[category]] $C$ together with a [[functor]]
+A **closed category** is a [[category]] $C$ together with the following data:
 
-$$
-  [-,-] : C^{op} \times C \to C
-$$
+* A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
+* An object $I\in C$ called the *unit*.
+* A natural isomorphism $i\colon Id_C \cong [I,-]$.
+* A transformation $j_X\colon I \to [X,X]$, [[extranatural]] in $X$.
+* A transformation $L^X_{Y Z} \colon  [Y,Z] \to [[X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
 
-called the [[internal hom]]-functor, such that...
+which is required to satisfy the following axioms.
+
+* The map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
+
+* The following diagram commutes for any $X,Y$.
+
+  $$\array{I & \overset{j_Y}{\to} & [Y,Y]\\
+  & _{j_{[X,Y]}}\searrow & \downarrow^{L^X_{Y Y}}\\
+  & & [[X,Y],[X,Y]]}$$
+
+* The following diagram commutes for any $X,Y$.
+
+  $$\array{[X,Y] & \overset{L^X_{X Y}}{\to} & [[X,X],[X,Y]]\\
+  & _{i_{[X,Y]}}\searrow & \downarrow^{[j_X,1]}\\
+  & & [I,[X,Y]]}$$
+
+* The following diagram commutes for any $Y,Z$.
+
+  $$\array{[Y,Z] & \overset{L^I_{Y Z}}{\to} & [[I,Y],[I,Z]]\\
+  & _{[1,i_Z]}\searrow & \downarrow^{[i_Y,1]}\\
+  & & [Y,[I,Z]]}$$
+
+* Finally, the following diagram commutes for any $X,Y,U,V$.
+
+  $$\array{[U,V] & \overset{L^Y_{U V}}{\to} & [[Y,U],[Y,V]]\\
+  ^{L^X_{U V}}\downarrow && \\
+  [[X,U],[X,V]] & &  \downarrow^{[1,L^X_{Y V}]} \\
+  ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
+  [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
+
+This definition is from Manzyuk's paper below.  It differs slightly from Eilenberg-Kelly's original definition, which  assumed in addition an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ and that the resulting isomorphism
+$$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
+sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given here is perhaps a little simpler and avoids introducing superfluous data.
+
+
+## Examples
+
+* Any [[closed monoidal category]] gives a closed category, by simply forgetting the tensor product and remembering only the internal-hom.  Most examples seem to be of this sort, although as remarked above it is often the case that the closed structure is "primary" and the tensor product is defined as a left adjoint to it.
+
+* Any [[multicategory]] which has a unit, i.e. an object $I$ such that $C(;Y) \cong C(I;Y)$ naturally, and is closed in the sense that for any $Y,Z$ there is an object $[Y,Z]$ with natural isomorphisms $C(X_1,\dots,X_n,Y;Z) \cong C(X_1,\dots,X_n; [Y,Z])$, gives rise to a closed category.  Conversely, from any closed category we can construct a multicategory of this sort, by defining the multimaps as $C(X_1,\dots,X_n; Z) = C(X_1, [X_2,\dots,[X_n,Z]])$.  Thus closed categories are essentially equivalent to closed unital multicategories.
+
+
+## Monadicity and 2-categories
+
+Since the notion of closed category involves a contravariant functor and extranatural transformations, it cannot be expected to be [[2-monad|2-monadic]] over the [[2-category]] [[Cat]].  It is, however, 2-monadic over the 2-category $Cat_g$ of categories, functors, and natural isomorphisms.  In this way we obtain a 2-category $ClCat$ of closed categories, strong [[closed functors]], and [[closed natural transformations]].  One can also define a notion of non-strong, or "lax," closed functor; although these do not seemingly arise from the 2-monad in question, they generalize lax monoidal functors between closed monoidal categories.
+
 
 ## References 
 
@@ -30,8 +77,11 @@ Closed categories were first defined here:
 
 * Samuel Eilenberg and Max Kelly, _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
 
+They were shown to be equivalent to closed unital [[multicategories]] here:
+
+* Oleksandr Manzyuk, _Closed categories vs. closed multicategories_, [arXiv](http://arxiv.org/abs/0904.3137).
+
 You can get some of the idea from a [post by Owel Biesel at the $n$-Caf&#233;](http://golem.ph.utexas.edu/category/2009/02/monoidal_closed_categories_and.html#c022133).
 
 
-[[!redirects closed category]]
 [[!redirects closed categories]]
