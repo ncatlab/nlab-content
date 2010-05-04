@@ -1,4 +1,6 @@
 [[!redirects Dirac electron]]
+
+
 The purpose of this page is to explain - using appropriate mathematical terminology - Dirac's theory of coupling particles with spin to a gauge field. 
 
 Useful literature on this topic is:
@@ -12,6 +14,7 @@ Useful literature on this topic is:
 * G. L. Naber, _Topology, Geometry and Gauge Dields_, Springer, 1999.
 
 We proceed in three steps: first we recall relevant facts about the gauge field itself, then we discuss charged particles in gauge fields, and finally we add spin. 
+
 
 ### Yang-Mills Theory ###
 
@@ -41,6 +44,8 @@ Above we have used the following notation:
 * $\mathrm{Ad}(P) := P \times_{\mathrm{Ad}} \mathfrak{g}$ is the adjoint bundle.
 
 * $\| \psi \|_{\kappa}^2 := \psi \wedge_{\kappa} \star \psi   \in \Omega^n(M)$. In general, if $U,V,W$ are vector spaces, $\varphi \in \Omega^p(M,V)$, $\psi\in\Omega^q(M,W)$ and $f: V \times W \to U$ is a linear map, we have $\varphi \wedge_{f} \psi \in \Omega^{p+q}(M,U)$. 
+
+* $\star* is the Hodge-star operator determined by the metric on $M$.
 
 
 **Remark. **
@@ -165,7 +170,7 @@ S(\omega,\phi) := S_{Y\!M}(\omega) + S_{\mathcal{T}}(\omega,\phi)\text{.}
 $$
 
 
-**Example ** (Scalar particle in an external, trivial gauge field)
+**Example ** (Scalar particle in an external, trivial gauge field).
 We consider $G=\left \lbrace e \right \rbrace$, $P=M$, so that necessarily $\omega=0$. A _scalar field_ is field for $M$ of matter type $(\R,h,\id,f)$ where $f(x) := -\frac{1}{2}m^2x^2$ and $h(x,y) = x y$. The action functional is
 $$
 S(0,\phi) =\frac{1}{2} \int_M  \| \mathrm{d}\phi \|_h^2 +\star m^{2}\phi^2\text{.}
@@ -174,7 +179,7 @@ The Euler-Lagrange equation is the _Klein-Gordon equation_
 $$
 (\triangle + m^2)\phi = 0\text{,}
 $$
-where $\triangle := \delta \circ \mathrm{d}: \Omega^k(M) \to \Omega^{k}(M)$ is the Laplace operator and  and $\delta := \star \mathrm{d} \star$ is the exterior coderivative. 
+where $\triangle := \delta \circ \mathrm{d}: \Omega^k(M) \to \Omega^{k}(M)$ is the Laplace operator and $\delta := \star \mathrm{d} \star$ is the exterior coderivative. 
 
 
 **Example ** (Charged particle in an  electromagnetic field, e.g. a $\pi^{-}$-meson)
@@ -182,7 +187,7 @@ Let $P$ be a $U(1)$-principal bundle over $M$. A _field of charge $n \in \Z$_ is
 $$
 S(\omega,\phi) =\frac{1}{2} \int_M  \| \mathrm{D}^{\omega}\phi \|^2 +\star m^{2} \| \phi \| ^2\text{.}
 $$
-The Euler-Lagrange equation is
+The Euler-Lagrange equation is _covariant Klein-Gordon equation_
 $$
 (\triangle^{\omega} +m^2) \phi = 0\text{,}
 $$
@@ -282,14 +287,14 @@ D\psi + \mathrm{i}m\psi = 0\text{.}
 $$
 
 **Example. **
-(Weyl spinors)
+(Weyl spinors).
 We assume spacetime to have even dimension.
 _Weyl spinors_ have $V=\Sigma^{\pm}$, with the sign corresponding to left/right-handed spinors. Thus, $\dim_{\C}(V)=2$.
 Further $f=0$ (they are massless). In the standard model, neutrinos are left-handed Weyl spinors.  
 
 
 **Example. **
-(Dirac spinors)
+(Dirac spinors).
 We assume spacetime to have signature $(1,3)$. Dirac spinors have $V=\Sigma^{+} \oplus \Sigma^{-}$, so that $\dim_{\C}(V)=4$. The function $f$ is taken to be $f(v)=-mh(v,v)$. In the standard model, electrons are Dirac spinors. 
 
 
@@ -341,7 +346,7 @@ $$
 
 
 **Remark. **
-If $M=\R^{1,3}$ one can take the trivial spin structure $SM=M \times \mathrm{Sl}(2,\C)$. It has a canonical global section, so that a spinor $\psi$ can be identified with a map $\psi: M \to \C^4$. The Dirac operator is now
+If $M=\R^{1,3}$ one can take the trivial spin structure $SM=M \times SL(2,\C)$. It has a canonical global section, so that a spinor $\psi$ can be identified with a map $\psi: M \to \C^4$. The Dirac operator is now
 $D \psi = \gamma^{i}\partial_i \psi$, where $\gamma^i := \eta^{ik}\gamma_k$. Now, the Dirac equation is
 $$
 \gamma^i\partial_i \psi + \mathrm{i} m\psi = 0\text{.}
@@ -365,8 +370,48 @@ $$
 The smallest matrices satisfying this relation are the above "gamma matrices". If $m=0$, there is a solution in dimension two, the "Pauli matrices". 
 
 **Remark. **
-For a general spacetime $M$, and unlike in the previous remark, $D^2 \neq \triangle$. Rather, $D^2$ is given by the _Lichnerowiz formula_ which has in fact been proved first by Schr&#246;dinger. So, Dirac motivation fails for "curved spacetimes". 
+For a general spacetime $M$, and unlike in the previous remark, $D^2 \neq \triangle$. Rather, $D^2$ is given by the _Lichnerowiz formula_ which has in fact been proved first by Schr&#246;dinger. So, Dirac's motivation actually fails for "curved spacetimes". 
+
 
 ### Charged Spinors ###
 
-I'll continue later...
+**Remark ** (Bundle Splicing).
+
+* Consider principal $G_k$-bundles $P_k$ over $M$, for $k=1,2$. The fibre product $P_1 \times_M P_2$ is a principal $(G_1 \times G_2)$-bundle over $M$, denoted $P_1 \circ P_2$.
+
+* If $\omega_1$ and $\omega_2$ are connections on $P_1$ and $P_2$, respectively, then 
+$$
+\omega_1 \circ \omega_2 := \mathrm{pr}_1^{*}\omega_1 \oplus \mathrm{pr}_2^{*}\omega_2 \in \Omega^1(P_1 \circ P_2,\mathfrak{g}_1 \oplus \mathfrak{g}_2)
+$$
+is a connection on $P_1 \circ P_2$.
+
+* Suppose $V$ is a vector space and $\rho_k: G_k \to \mathrm{Gl}(V)$ are representations, such that $\rho_1(g_1) \circ \rho_2(g_2) = \rho_2(g_2) \circ \rho_1(g_1)$ for all $g_1\in G_1$ and $g_2 \in G_2$. Then, $\rho_1 \times \rho_2$ is a representation of $G_1 \times G_2$ on $V$. 
+
+
+**Remark. **
+Let $M$ be a spacetime with spin structure $SM$ and let $P$ be a Yang-Mills theory over $M$ with gauge group $G$. For $\rho_{SM}: Spin(p,q) \to \mathrm{Gl}(V)$ a representation with $V \subset \C(p,q)$, and $\rho_P: G \to \mathrm{Gl}(V)$ a commuting representation, the associated bundle $VP := (SM \circ P) \times_{(\rho_{SM} \times \rho_P)} V$ still has a Clifford multiplication. 
+For $\omega$ a connection on $P$, one can define a Dirac operator 
+$$
+D^{\omega}: \Gamma(M,\Sigma M \circ P) \to \Gamma(M,\Sigma M \circ P):\psi \mapsto \sum_{i} e_i \cdot \mathrm{D}^{\Theta \circ \omega}(\psi)(e_i)\text{.}
+$$
+
+
+**Definition. **
+Let $M$ be a spacetime with spin structure, let $P$ be a Yang-Mills theory with gauge group $G$ over $M$, and let $\rho_P$ be a representation of $G$ on $V$ commuting with $\rho_{SM}$. A _charged spinor_ is a field for $SM \circ P$ of type $(V,h,\rho_{SM} \times \rho_P,f)$, where $V \subset \C(p,q)$ and $H$ is given as before.
+Its action functional is
+$$
+S(\omega, \psi) := \int_M D^{\omega} \psi \wedge_{h} \star \psi    + \star f \circ \psi\text{.}
+$$
+
+
+**Example **(Spinor in an electromagnetic field).
+Here, $\rho_{SM}: Spin(p,q) \to \mathrm{Gl}(V)$ is some representation, and $\rho_P: \ueins \to \mathrm{Gl}(V)$ is given by complex multiplication with $z^{n}$, where $n\in \Z$ is the charge of the spinor. Obviously $\rho_{SM}$ and $\rho_P$ commute. The Euler-Lagrange equation is
+$$
+D^{\omega}\psi + im\psi = 0\text{.}
+$$
+If $M=\R^{1,3}$ one can take $SM=M \times SL(2,\C)$. The canonical global section identifies $\psi$ with a smooth function $\psi: \R^{3,1} \to \C^4$ and the connection $\omega$ with a 1-form with components $A_{i}$. Then,
+$$
+D^{\omega}\psi = \gamma^{i}(\partial_{i} + A_i)\psi\text{.}
+$$
+This gives the "Dirac equation" one usually finds in a textbook. 
+
