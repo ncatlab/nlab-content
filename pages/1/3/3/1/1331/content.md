@@ -320,7 +320,7 @@ If $L : C \to D$ denotes the left [[adjoint (∞,1)-functor]] of the inclusion, 
 
 =--
 
-The main ingredient in the proof of this assertion is the following lemma, whose prove we give below in [Proof of the localization lemma](#ProofOfLocalization).
+The main ingredient in the proof of this assertion is the following lemma, whose proof we give below in [Proof of the localization lemma](#ProofOfLocalization).
 
 
 +-- {: .un_prop}
@@ -416,33 +416,66 @@ $$
 in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]]. Moreover, by the [behaviour under pullback](http://ncatlab.org/nlab/show/Cartesian+fibration#BehaviourUnderPullback) of [[Cartesian fibration]]s it follows that the above diagram is a [[homotopy pullback]] diagram in the [[model structure for quasi-categories|Joya model structure]] $sSet_{Joyal}$.
 
 
-Use now that [[accessible (infinity,1)-category|accessible quasi-categories]] are stable under [[homotopy pullback]] to conclude that $D_c$ is accessible. Moreovber, one can check that $D_c$ has all small colimits. Together this means that $D_c$ is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small [[limit in a quasi-category|limits]] and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$.
+Use now that [[accessible (infinity,1)-category|accessible quasi-categories]] are stable under [[homotopy pullback]] to conclude that $D_c$ is accessible. Moreover, one can check that $D_c$ has all small colimits. Together this means that $D_c$ is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small [[limit in a quasi-category|limits]] and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$.
 
-We now show that $f : c \to d$ being terminal in $D_c$ implies that it is $S$-local. This is equivalent to showing that for $t : a \to b$ any element in $S$, composition with $t$ induces an equivalence
+We now complete the proof by showing that $f : c \to d$ being terminal in $D_c$ implies that $d$ is an $S$-local object. This is equivalent to showing that for $t : a \to b$ any element in $S$, composition with $t$ induces an equivalence
 
 $$
   Hom_C(t,d) : Hom_C(b,d) \to Hom_C(a,d)
   \,.
 $$
 
-This in turn may be checked by checking that all its [[homotopy fiber]]s are [[contractible]]. The homotopy fiber of $Hom_C(t,d)$ over a point $g : a \to d$ of $Hom_C(a,d)$ is $Hom_{C_{a/}}(t,g)$. To show that this is contractible, form the $\infty$-categorical pushout
+This in turn may be checked [by](http://ncatlab.org/nlab/show/fiber+sequence#CharOfEquivalences) checking that all its [[homotopy fiber]]s are [[contractible]]. By general statements about the [homotopy fiber of functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats) the homotopy fiber of $Hom_C(t,d)$ over a point $g : a \to d$ of $Hom_C(a,d)$ is equivalent to the [[hom-object in a quasi-category|hom-object]] $Hom_{C_{a/}}(t,g)$ in the [[over quasi-category|under-quasi-category]] $C_{a/}$. 
+
+This in turn can be checked to be equivalent to $Hom_{C_{d/}}(g_* t, Id_d)$, where $g_* t$ is the $(\infty,1)$-categorical pushout
 
 $$
   \array{
     a &\stackrel{t}{\to}& b
     \\
-    \downarrow && \downarrow 
+    \downarrow^{\mathrlap{g}} && \downarrow 
     \\
-    d &\to& d \coprod_a b
+    d &\underset{g_* t}{\to}& d \coprod_a b
   }
 $$
 
-in $C$. This gives an equivalence $Hom_{C_{a/}}(t,g) \simeq Hom_{c_{d/}, Id_d}$, so it suffices to show that the latter is contractible. 
+in $C$. Notice that $g_* t$, being a pushout of $t \in S$, is itself in $S$. 
 
-Since $d \to d \coprod_a b$ is a pushout of $t$, it is itself in $S$.
+Now pick a composite
+
+$$
+  \array{
+    && d
+    \\
+    & {}^{\mathllap{f}}\nearrow &\Downarrow^\sigma& \searrow^{\mathrlap{g_* t}}
+    \\
+    c &&\underset{g_* t \circ f}{\to}&& d \coprod_a b
+  }
+$$
+
+and observe that we have an isomorphism of simplicial sets
+
+$$
+  Hom_{C_{d}}(g_* t, Id_{d})
+  \simeq
+  Hom_{C_{f/}}(\sigma, s_1(f))  
+$$
+
+(where $s_1$ is the corresponding degeneracy map).
+
+Applying the expression for [homotopy fibers of functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats) once again, this is found to be the homotopy fiber of
+
+$$
+  Hom_{C_{c/}}(g_* t \circ f, f)
+  \to 
+  Hom_{C_{c/}}(f,f)  
+  \,,
+$$
+
+because $Hom_{(C_{c/})_{f/}}(\sigma , s_1(f)) = Hom_{C_{f/}}(\sigma , s_1(f))$.
 
 
-> (... left incomplete ...)
+Finally we can use that $f$ is terminal in the full subcategory $D_c$ of $C_{c/}$ that contains $g_* t \circ f$. This implies that the above morphism goes between [[contractible]] $\infty$-groupoids and hence has contractible homotopy fibers. 
 
 
 =--
