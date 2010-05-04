@@ -1,15 +1,23 @@
-#Idea#
 
-The notion of _ind-object_ and _ind-category_ in an [[(infinity,1)-category]] is the straightforward generalization of the notion of [[ind-object]] in an ordinary category. See there for idea and motivation.
-#Definition#
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-The different equivalent definitions of ordinary [[ind-object]]s have their analog for [[(infinity,1)-category|(infinity,1)-categories]].
 
-Let in the following $C$ be a small [[(infinity,1)-category]]. 
+## Idea
 
-## in terms of formal colimits ##
+The notion of _ind-object_ and _ind-category_ in an [[(∞,1)-category]] is the straightforward generalization of the notion of [[ind-object]] in an ordinary category. See there for idea and motivation.
 
-the definition in terms of formal colimits is precisely analogous to the one for ordinary [[ind-object]]s, with colimits and limits replaced by the corresponding $\infty$-notion (compare [[homotopy limit]] and [[limit in quasi-categories]])
+
+## Definition
+
+The different equivalent definitions of ordinary [[ind-object]]s have their analog for [[(∞,1)-categories]].
+
+Let in the following $C$ be a small [[(∞,1)-category]]. 
+
+### In terms of formal colimits 
+
+The definition in terms of formal colimits is precisely analogous to the one for ordinary [[ind-object]]s, with colimits and limits replaced by the corresponding $\infty$-notion (compare [[homotopy limit]] and [[limit in quasi-categories]])
 
 So the objects of $Ind C$ are small filtered diagrams $X : D_X \to C$ in $C$, and the morphisms are given by
 
@@ -20,29 +28,29 @@ $$
 
 (... should be made more precise...)
 
-## in terms of filtered fibrations ##
+### In terms of filtered fibrations 
 
-Write $\kappa$ for a [[cardinal number|regular cardinal]] and write $ind_\kappa \text{-}C$ for the full sub-[[(infinity,1)-category]] of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on those $(\infty,1)$-presheaves
+Write $\kappa$ for a [[cardinal number|regular cardinal]] and write $ind_\kappa \text{-}C$ for the full sub-[[(∞,1)-category of (∞,1)-presheaves]] on those $(\infty,1)$-presheaves
 
 $$
   F : C^{op} \to Top
 $$
 
-which classify [[fibration in simplicial sets|right fibrations]] $\tilde C \to C$ such that $\tilde C$ is $\kappa$-[[filtered (infinity,1)-category|filtered]].
+which classify [[right fibration]]s $\tilde C \to C$ such that $\tilde C$ is $\kappa$-[[filtered (infinity,1)-category|filtered]].
 
 In the case $\kappa = \omega$ write $ind_\kappa\text{-}C = ind\text{-}C$.
 
-## in terms of filtered colimits ##
+### In terms of filtered colimits 
 
-Equivalently, an [[(infinity,1)-presheaf]] is in $ind_\kappa\text{-}C$ if there exists a $\kappa$-[[filtered (infinity,1)-category]] $D$ and an $(\infty,1)$-functor $W: D \to C$ such that $F$ is the colimit over $Y \circ W$, where $Y$ is the [[Yoneda (infinity,1)-embedding]].
+Equivalently, an [[(∞,1)-presheaf]] is in $ind_\kappa\text{-}C$ if there exists a $\kappa$-[[filtered (∞,1)-category]] $D$ and an $(\infty,1)$-functor $W: D \to C$ such that $F$ is the colimit over $Y \circ W$, where $Y$ is the [[(∞,1)-Yoneda embedding]].
 
 
 
-# References #
+## References 
 
 Section 5.3 and in particular 5.3.3 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects ind-object (infinity,1)-category]]
