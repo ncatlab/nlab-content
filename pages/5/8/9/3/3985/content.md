@@ -135,7 +135,7 @@ In the following this language of local morphisms is used to characterize reflec
 
 ### Characterization of reflectors
 
-The following proposition characterizes the _reflectors_ of a reflective $(\infty,1)$-subcategory.
+The following proposition characterizes the _reflectors_ of a reflective $(\infty,1)$-subcategory. (You can read this proposition as an evident statement on the characterization of adjoints, but maybe as a preparation for the proofs to come there is some value in looking at its concrete proof in this special case of an $(\infty,1)$-adjunction.)
  
 +-- {: .un_lemma}
 ###### Lemma
@@ -152,12 +152,12 @@ Let $C$ be an [[(∞,1)-category]] and $D \hookrightarrow C$ a full [[sub-quasi-
 
 =--
 
+This appears as [[Higher Topos Theory|HTT, prop. 5.2.7.8]].
 
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, prop. 5.2.7.8]].
-
+We produce an evident [[cograph of a functor|cograph]] realization $K$ of the inclusion and check that it being also a [[coCartesian fibration]], hence exhibiting $R$ as a right adjoint, is equivalent to the second statement.
 
 Let $K \subset C \times \Delta[1]$ be the full subcategory on those objects $(c,i)$ for which $c \in D$ if $i = 1$. Let $p : K \to \Delta[1]$ be the induced projection.  One checks that this is the correspondence which is <a href="http://ncatlab.org/nlab/show/(infinity,1)-Grothendieck+construction#FibsOverInterval">associated to the inclusion functor</a> $D \hookrightarrow C$. 
 
@@ -192,8 +192,6 @@ being an equivalence. This way the reflectors are identified precisely with the 
 
 
 
-
-
 The following proposition asserts that localizations are entirely determined by the corresponding [[local object]]s.
 
 +-- {: .un_prop}
@@ -223,12 +221,13 @@ Then
 
 =--
 
+This is [[Higher Topos Theory|HTT, prop 5.5.4.2]].
 
 +-- {: .proof}
 ###### Proof
 
 
-This is [[Higher Topos Theory|HTT, prop 5.5.4.2]]. The reasoning is entirely analogous to the 1-categorical case (see for instance [[localization]], [[reflective subcategory]] and [[geometric embedding]]).
+The reasoning is entirely analogous to the 1-categorical case (see for instance [[localization]], [[reflective subcategory]] and [[geometric embedding]]).
 
 
 First notice that because $D \hookrightarrow C$ is a [[full and faithful (∞,1)-functor]] we have that the counit $L R \stackrel{\simeq}{\to} Id_D$ is an equivalence. From this it follows that precomposition with the unit $i_z : z \to Loc z$ of morphisms in the image of $Loc$ is a weak equivalence: for all $z,x \in C$ we have
@@ -271,7 +270,7 @@ $$
   \,.
 $$
 
-Here the vertical morphisms are equivalences by the above remark, and the top morphism is an equivalence by the assumoption that $f$ in in $S$. It follows that the bottom morphism is an equivalence. This says that $Loc x$ is $S$-local, for all $x \in C$.
+Here the vertical morphisms are equivalences by the above remark, and the top morphism is an equivalence by the assumption that $f$ in in $S$. It follows that the bottom morphism is an equivalence. This says that $Loc x$ is $S$-local, for all $x \in C$.
 
 Conversely, to show that for $s \in C$ an $S$-local object, we have that $s$ is in the essential image of $Loc$ use that since $i_s : s \to Loc s$ is in $S$, we have an equivalence  $Hom_C(i_s, s) : Hom_C(Loc s, s) \stackrel{\simeq}{\to} Hom_C(s,s)$.  The pre-image of the identity under this equivalence is hence a left-inverse $Loc s \to s$ of $s \to Loc s$. But this means that $Loc s \to s$ is itself in $S$ (since the morphisms in $S$ evidently satisfy [[category with weak equivalences|2-out-of-three]]), hence by applying the same argument again, we find that the left inverse $Loc s \to s$ has itself a left inverse. That implies that it is actually an inverse of $s \to Loc s$, hence that this is an equivalence. So this shows that the $S$-local $s$ is indeed in the essential iamge of $Loc$.
 
