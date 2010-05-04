@@ -21,6 +21,80 @@ $$
 $$
 
 
+## Properties {#Properties}
+
+Let $j : C \to PSh(C)$ be the [[Yoneda embedding]]. 
+
++-- {: .un_lemma}
+###### Lemma
+
+With $I \in C$ the tensor unit of $C$, the presheaf $j(I)$ is a unit for the Day convolution product.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the [[co-Yoneda lemma]] on the two [[coend]]s we have
+
+$$
+  \begin{aligned}
+  F \star j(I)
+  &  \simeq
+  \int^{c,d \in C}
+  F(c) \times Hom_C(d,I)
+  \times
+  Hom_C(-, c\otimes d)
+  \\
+  & \simeq
+  \int^{c \in C}
+  F(c) \times Hom_C(-, c \otimes I)
+  \\
+  & \simeq
+  \int^{c \in C}
+  F(c) \times Hom_C(-, c)
+  \\
+  & \simeq
+  F(-)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ a small [[monoidal category]], regard the [[category of presheaves]] $(PSh(C), \star, j(I))$ as a [[monoidal category]] with tensor product the Day convolution product and unit the unit of $C$ under the [[Yoneda embedding]] $j : C \hookrightarrow PSh(C)$. 
+
+Then
+
+1. $(PSh(C), \star, j(I))$ is a [[closed monoidal category]];
+
+1. the [[Yoneda embedding]] constitutes a strong [[monoidal functor]] $(C,\otimes, I) \hookrightarrow (PSh(C), \star, j(I))$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In analogy to the cartesian [[closed monoidal structure on presheaves]]
+we see that if the [[internal hom]] in $PSh(C)$ exists at all, 
+(with $[F,-]$ [[right adjoint]] to $(-) \star F$) then by the [[Yoneda lemma]] it has to be given by
+
+$$
+  \begin{aligned}
+    [F,G](c) & \simeq Hom_C(j(c), [F,G])
+    \\
+    &\simeq Hom_C(j(c)\star F, G)
+  \end{aligned}
+  \,.
+$$
+
+...
+
+=--
 
 ## Examples
 
