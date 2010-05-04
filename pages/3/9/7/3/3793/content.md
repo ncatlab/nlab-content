@@ -19,7 +19,7 @@
 
 * [[sub-quasi-category]]
 
-  * [[reflective (∞,1)-subcategory|reflective sub-quasi-category]]
+  * [[reflective sub-(infinity,1)-category|reflective subcategory]]
 
   * [[localization of an (∞,1)-category|reflective localization]]
 
