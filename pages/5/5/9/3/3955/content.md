@@ -12,8 +12,11 @@ The method of proving this depends mostly on the structure of the target and onl
 
 +-- {: .num_theorem #mfdconj}
 ###### Conjecture
-Let $N$ be a [curvaceously compact Fr&#246;licher space](nlab/show/Froelicher+space#compact).  Let $M$ be a smooth manifold that admits a [[local addition]].  Then the Fr&#246;licher space of smooth maps from $N$ to $M$ is a smooth manifold.
+Let $N$ be a [curvaceously compact Fr&#246;licher space](Froelicher+space#compact).  Let $M$ be a smooth manifold that admits a [[local addition]].  Then the Fr&#246;licher space of smooth maps from $N$ to $M$ is a smooth manifold.
 =--
+
+
+
 
 ## Background and Remarks ##
 
@@ -42,7 +45,7 @@ The key property on the source is that it be _curvaceously compact_.  The reason
 
 +-- {: .num_prop #PropLin}
 ###### Proposition ######
-Let $N = (N, C_N, F_N)$ be a [curvaceously compact Fr&#246;licher space](nlab/show/Froelicher+space#DefCurvComp).  Let $E$ be a [[convenient vector space]].  Let $U$ be a $0$-neighbourhood in $E$ in the $c^\infty$-topology.  Then the set
+Let $N = (N, C_N, F_N)$ be a [curvaceously compact Fr&#246;licher space](Froelicher+space#DefCurvComp).  Let $E$ be a [[convenient vector space]].  Let $U$ be a $0$-neighbourhood in $E$ in the $c^\infty$-topology.  Then the set
 
 $$
 C^\infty(N,U) \coloneqq \{f \colon N \to E : f(N) \subseteq U\}
@@ -55,7 +58,7 @@ is a $0$-neighbourhood of $C^\infty(N,E)$ in the $c^\infty$-topology.
 ###### Proof ######
 The Fr&#246;licher space structure on $C^\infty(N,E)$ is such that  smooth maps $X \to C^\infty(N,E)$ correspond to smooth maps $X \times N \to E$.  Therefore, a smooth curve $c \colon \mathbb{R} \to C^\infty(N,E)$ corresponds to a smooth map $\hat{c} \colon \mathbb{R} \times N \to E$.
 
-The $c^\infty$-topology is the [curvaceous topology](nlab/show/Froelicher+space#FroTop).  In this topology, a set is open if its preimage under all smooth curves is open.  So to determine whether or not $C^\infty(N,U)$ is a $0$-neighbourhood, we need to examine $c^{-1}(C^\infty(N,U))$.  This is the set
+The $c^\infty$-topology is the [curvaceous topology](Froelicher+space#FroTop).  In this topology, a set is open if its preimage under all smooth curves is open.  So to determine whether or not $C^\infty(N,U)$ is a $0$-neighbourhood, we need to examine $c^{-1}(C^\infty(N,U))$.  This is the set
 
 $$
 \{t \in \mathbb{R} : c(t)(N) \subseteq U\} = \{t \in \mathbb{R} : \hat{c}(t,x) \in U \forall x \in N\}
