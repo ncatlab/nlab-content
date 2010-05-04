@@ -20,7 +20,7 @@ $$
 
 in the [[(∞,1)-category]] [[? Grpd]], from the [[delooping]] $\mathbf{B}G$ of $G$ to the $n$-fold delooping $\mathbf{B}^n K$ of $K$.
 
-However, if the group $K$ is not abelian, then its $n$-fold delooping does not exist for $n \geq 2$, so accordingly the above does not give a prescription for cohomology of $G$ with coeffiecients in a nonabelian group $K$ in degree greater than 1 (and in degree 1 group cohomology it is not very interesting).
+However, if the group $K$ is not abelian, then its $n$-fold delooping does not exist for $n \geq 2$, so accordingly the above does not give a prescription for cohomology of $G$ with coefficients in a nonabelian group $K$ in degree greater than 1 (and in degree 1 group cohomology it is not very interesting).
 
 But for nonabelian $K$ there are higher groupoids that _approximate_ the non-existing higher deloopings. Nonabelian group cohomology is the [[cohomology]] of $\mathbf{B}G$ with coefficients in such approximations.
 
@@ -103,7 +103,7 @@ $$
 where the double slashes denote [[action groupoid]]s (and ${*}//G = \mathbf{B}G$).
 
 
-In the existing literature -- which does not usually present the picture quite in the way we are doing here -- nonabelian group cohomology is rarely considered beyond degree. But the picture does straightforwardly generalize. For instance degree 3 nonabelian cohomology of $G$ with coefficients in $K$ may be taken to be the [[cohomology]] of $\mathbf{B}G$ with coefficients in the 3-groupoid $\mathbf{B}AUT(AUT(K))$.
+In the existing literature -- which does not usually present the picture quite in the way we are doing here -- nonabelian group cohomology is rarely considered beyond degree 2. But the picture does straightforwardly generalize. For instance degree 3 nonabelian cohomology of $G$ with coefficients in $K$ may be taken to be the [[cohomology]] of $\mathbf{B}G$ with coefficients in the 3-groupoid $\mathbf{B}AUT(AUT(K))$.
 
 $$
   H^3_{nonab}(G,K) = \{\mathbf{B}G \to \mathbf{B}AUT(AUT(K))\}_\sim
