@@ -249,6 +249,22 @@ $$
 
 ## Examples
 
+### Characterization of equivalences {#CharOfEquivalences}
+
+We may read off from the non-triviality of the homotopy fiber $A$ of a morphism $f : B \to C$ to which extent $f$ fails to be an [[equivalence in a quasi-category|equivalence]].
+
++-- {: .un_prop}
+###### Proposition
+
+A morphism $f : B \to C$ in [[∞Grpd]] is an equivalence precisely if all its homotopy fibers over every point of $C$ are [[contractible]], i.e. are equivalent to $*$.
+
+More generally, a morphism $f : B \to C$ in any [[(∞,1)-category]] $\mathcal{C}$ is an equivalence if for all objects $X \in \mathcal{C}$ all homotopy fibers of the morphism $\mathcal{C}(C,f) : \mathcal{C}(X,B) \to \mathcal{C}(X,C)$ are contractible.
+
+=--
+
+For more on this see [[n-truncated object of an (∞,1)-category]]. Also [[Higher Topos Theory|HTT, around example 5.5.6.13]]. For more on homotopy fibers of hom-spaces see [the section below](#OfFuncCats).
+
+
 ### Fiber sequences of $(\infty,1)$-functor categories {#OfFuncCats}
 
 We have seen that for $A \to B \stackrel{f}{\to} C$ a fiber sequence in 
@@ -264,7 +280,7 @@ $$
   Hom_{\mathcal{C}}(X,C)
 $$
 
-in [[? Grpd]], where the point of $Hom_{\mathcal{C}}(X,C)$ is $X \to * \to C$ with $* \to C$ the point of $C$, so that $Hom_{\mathcal{C}}(X,A)$ is the homotopy fiber over this point of the morphism given by postcomposition with $B \to C$.
+in [[∞Grpd]], where the point of $Hom_{\mathcal{C}}(X,C)$ is $X \to * \to C$ with $* \to C$ the point of $C$, so that $Hom_{\mathcal{C}}(X,A)$ is the homotopy fiber over this point of the morphism given by postcomposition with $B \to C$.
 
 Often it is important to know the homotopy fibers of $f_*$ also over other objects in $Hom_{\mathcal{C}}(X,C)$. This is notably the case when considering [[twisted cohomology]] with coefficients in $A$.
 
