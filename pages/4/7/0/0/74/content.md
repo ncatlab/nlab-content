@@ -3,21 +3,38 @@
 </div>
 
 
-Unsurprisingly, _enriched category theory_ studies [[enriched category|enriched categories]].
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-But maybe surprisingly, enriched category theory proves to be more that just the study of a given mathematical structures. Compare [[category theory]].
+## Idea 
 
-## as a tool in higher category theory ##
+**Enriched category theory** is the [[category theory]] of [[enriched categories]].
 
-The combination of enriched category theory with [[model category]] theory -- in particular where they meet in the form of [[enriched homotopical category|enriched homotopical categories]] such as [[enriched model category|enriched model categories]], notably [[simplicial model category|simplicially enriched model categories]] -- are a major tool for [[presentable (infinity,1)-category|presenting]] [[(infinity,1)-category|(infinity,1)-categories]].
+Pretty much every notion of ordinary category theory has its analog in enriched category theory, and, by taking the enriching category to be [[Set]], enriched category theory subsumes all of the theory of [[locally small categories]].
 
-In this combined toolkit 
+Enriched categories have a multitude of uses and applications, that makes studying their general theory quite worthwhile.
 
-* the enrichment itself models the existence of higher [[k-morphism]]s
+## Applications
 
-* while the homotopical structure takes care of the right notion of equivalences.
+### As a tool in higher category theory 
 
-See also [[homotopy coherent category theory]].
+Enriched categories may be used to model objects in [[higher category theory]]: if the objects of the enriching category $V$ behave themselves as [[(n,r)-categories]], then a $V$-[[enriched category]] behaves like a (possibly special) $(n+1,r+1)$-category.
+
+For instance 
+
+* a [[Cat]]-enriched category is a [[strict 2-category]];
+
+* since a [[simplicial set]] that is a [[Kan complex]] is a model for an [[∞-groupoid]], a [[Kan complex]]-enriched category is a model for an [[(∞,1)-category]];
+
+* since a simplicial set that is a [[quasi-category]] is a model for an [[(∞,1)-category]], a quasi-category-enriched category is a model for an [[(∞,2)-category]].
+
+In practice it is often useful to handle enriched categories such that only certain enriched [[full subcategories]] of them are the the desired models for objects in higher category theory. For instance often it is useful to work with general [[sSet-categories]] and have a prescription for how to find a [[Kan complex]]-enriched full subcategory inside them.
+
+This is achieved notably by combining enriched category theory with [[model category]] theory:
+
+an [[enriched model category]] or more generally an [[enriched homotopical category]] is an enriched category with extra information on how it behaves as a model in higher category. Notably [[sSet-model categories]] serve as models for [[(∞,1)-category theory]].
+
 
 ##Literature##
 
@@ -28,29 +45,60 @@ The standard monograph on enriched category is
 Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 
-##Entries on Enriched Category Theory##
+## Entries on Enriched Category Theory
 
-* [[cartesian monoidal category]]
-* [[closed category]]
-* [[closed monoidal category]]
-* [[Day convolution|Day Convolution]]
-* [[end|Ends and Coends]]
-* [[enriched category|Enriched Categories]]
-* [[Kan extension]]
+### Monoidal categories
+
 * [[monoidal category]]
 
+  * [[tensor product]]
 
-##Entries involoving examples of  Enriched Categories##
+* [[closed category]]
 
-* [[dg-category]]
+  * [[internal hom]]
 
-* [[simplicially enriched category]]
+* [[closed monoidal category]]
+
+* [[cartesian monoidal category]]
+
+* [[Day convolution]]
+
+### Generalizations of monoidal categories
+
+* [[multicategory]]
+
+* [[bicategory]]
+
+* [[double category]]
+
+* [[virtual double category]]
+
+
+### Enriched categories
+
+* [[enriched category]]
+
+* [[enriched functor]]
+
+  * [[enriched functor category]]
+
+* [[profunctor]]
+
+### Universal constructions
+
+* [[weighted limit]]
+
+* [[end|ends and coends]]
+
+* [[Kan extension]]
+
+### Homotopical enrichment
 
 * [[enriched homotopical category]]
 
-  * [[enriched model category]]
+* [[enriched model category]]
 
-For more examples see [[enriched category]].
+* [[model structure on homotopical presheaves]]
 
 [[!redirects Enriched Category Theory]]
 
