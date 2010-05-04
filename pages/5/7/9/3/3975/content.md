@@ -22,25 +22,25 @@ More commonly occurring in nature are functors that preserve the closed structur
 
 To be precise: a **(lax) closed functor** between closed categories $C$ and $D$ is a functor $F\colon C\to D$ together with:
 
-* A transformation $\hat{F}\colon F([X,Y]_C) \to [F(X),F(Y)]_D$, natural in $X$ and $Y$.
+* A [[natural transformation|transformation]] $\hat{F}\colon F([X,Y]_C) \to [F(X),F(Y)]_D$, natural in $X$ and $Y$.
 
 * A morphism $F^0\colon I_D \to F(I_C)$.
 
 which satisfy the following axioms.
 
-* The following diagram commutes for any $X$.
+* The following [[diagram]] commutes for any $X$.
   $$\array{F(I_C) & \overset{F(j)}{\to} & F([X,X])\\
-  ^{F^0}\uparrow && \downarrow^{\hat{F}}\\
+  ^{\mathllap{F^0}}\uparrow && \downarrow^{\mathrlap{\hat{F}}}\\
   I_D & \underset{j}{\to} & [F(X),F(X)]}$$
 
 * The following diagram commutes for any $X$.
   $$\array{F([I,X]) & \overset{\hat{F}}{\to} & [F(I),F(X)]\\
-  ^{F(j)}\downarrow && \downarrow^{[F^0 ,1]}\\
+  ^{\mathllap{F(j)}}\downarrow && \downarrow^{\mathrlap{[F^0 ,1]}}\\
   F(X) & \underset{j}{\to} & [I,F(X)]}$$
 
 * The following diagram commutes for any $X,Y,Z$.
   $$\array{F([Y,Z]) & \overset{F(L)}{\to} & F([[X,Y],[X,Z]]) & \overset{\hat{F}}{\to} & [F([X,Y]),F([X,Z])]\\
-  ^{\hat{F}}\downarrow &&&& \downarrow^{[1,\hat{F}]}\\
+  ^{\mathllap{\hat{F}}}\downarrow &&&& \downarrow^{\mathrlap{[1,\hat{F}]}}\\
   [F(Y),F(Z)] & \underset{L}{\to} & [[F(X),F(Y)],[F(X),F(Z)]] & \underset{[\hat{F},1]}{\to} & [F([X,Y]),[F(X),F(Z)]]}$$
 
 A **strong closed functor** is a closed functor such that $\hat{F}$ and $F^0$ are isomorphisms.
@@ -53,7 +53,7 @@ Together with [[closed natural transformations]], closed categories and closed f
   $$ F([X,Y]) \otimes F(X) \to F([X,Y] \otimes X) \to F(Y). $$
   Conversely, from a lax closed functor between closed monoidal categories we can recover a lax monoidal functor, with multiplication constraint $F(X)\otimes F(Y) \to F(X\otimes Y)$ being adjunct to the composite
   $$ F(X) \to F([Y,X\otimes Y]) \to [F(Y), F(X\otimes Y)]$$
-  where the map $X\to [Y,X\otimes Y]$ is adjunct to the identity of $X\otimes Y$.  In this way, lax monoidal and lax closed functors between closed monoidal categories are in bijective correspondence.  Note, however, that for such a functor to be *strong monoidal* or *strong closed* are generally independent conditions.
+  where the map $X\to [Y,X\otimes Y]$ is adjunct to the identity of $X\otimes Y$.  In this way, lax monoidal and lax closed functors between closed monoidal categories are in [[bijective]] correspondence.  Note, however, that for such a functor to be *strong monoidal* or *strong closed* are generally independent conditions.
 
 * The same idea works more generally for closed unital [[multicategories]], since arbitrary "multifunctors" between multicategories correspond to lax monoidal functors.
 
@@ -61,7 +61,7 @@ Together with [[closed natural transformations]], closed categories and closed f
 
 ## References
 
-* Samuel Eilenberg and Max Kelly, _Closed categories._ Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories._ Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
 
 
 [[!redirects closed functor]]
