@@ -90,5 +90,9 @@ They were shown to be equivalent to closed unital [[multicategories]] here:
 
 You can get some of the idea from a [post by Owel Biesel at the $n$-Caf&#233;](http://golem.ph.utexas.edu/category/2009/02/monoidal_closed_categories_and.html#c022133).
 
+LaPlaza's theorem on embedding closed categories in closed monoidal categories is given in 
+
+* Miguel LaPlaza, [_Embedding of Closed Categories Into Monoidal Closed Categories_](http://www.jstor.org/pss/1997823), Trans. AMS, Vol. 233 (1977). 
+
 
 [[!redirects closed categories]]
