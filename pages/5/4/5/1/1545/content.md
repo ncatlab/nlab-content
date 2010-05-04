@@ -1,11 +1,10 @@
-<div style="float:left;margin:0 20px 10px 20px;"><img width = "250" src="http://ucb.konradwaldorf.de/portrait.jpg" alt="Konrad Waldorf" /></div>
+<div style="float:left;margin:0px 60px 10px 0px;"><img width = "250" src="http://ucb.konradwaldorf.de/portrait.jpg" alt="Konrad Waldorf" /></div>
 
-* [Website](http://ucb.konradwaldorf.de/)
+[Website](http://uni.konradwaldorf.de/)
 
-## related $n$Lab entries
 
-* [[gerbe]]
+$n$Lab pages I am particularly interested in:
 
-* [[smooth loop space]]
+* [The Dirac Electron](http://ncatlab.org/nlab/show/The+Dirac+Electron)
 
 category: people
