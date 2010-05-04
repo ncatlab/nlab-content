@@ -2,7 +2,11 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-# Topological Notions of Fr&#246;licher Spaces # {#topology}
+#Contemts#
+* automatic table of contents goes here
+{:toc}
+
+## Topological Notions of Fr&#246;licher Spaces  {#topology}
 
 Although the definition of a [[Frölicher space]] does not use a topology, it is topological in flavour and there are many topological concepts that can be defined for Fr&#246;licher spaces.  In other pages, we have used the notion of a Hausdorff Fr&#246;licher space and have used a vague notion of a topology on the functions on a Fr&#246;licher space.  In this page, we shall investigate the connections between the theory of Fr&#246;licher spaces and topological spaces a little more consistently.
 
@@ -326,7 +330,7 @@ The functional and curvaceous topologies have the same connected components, and
 
 ***
 
-# Hausdorff Fr&#246;licher Spaces # {#hausdorff}
+## Hausdorff Fr&#246;licher Spaces  {#hausdorff}
 
 There is not a great deal of difference between a Hausdorff Fr&#246;licher space and a generic one.
 Much less than the case with topological spaces.
