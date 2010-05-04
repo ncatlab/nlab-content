@@ -201,3 +201,5 @@ section A.3 in
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects simplicial model categories]]
+[[!redirects sSet-model category]]
+[[!redirects sSet-model categories]]
