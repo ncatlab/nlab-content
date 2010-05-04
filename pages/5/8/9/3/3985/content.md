@@ -231,32 +231,32 @@ Then
 This is [[Higher Topos Theory|HTT, prop 5.5.4.2]]. The reasoning is entirely analogous to the 1-categorical case (see for instance [[localization]], [[reflective subcategory]] and [[geometric embedding]]).
 
 
-First notice that because $D \hookrightarrow C$ is a [[full and faithful (∞,1)-functor]] we have that the counit $L R \stackrel{\simeq}{\to} Id_D$ is an equivalence. From this it follows that precomposition with the unit $i_z : z \to Loc z$ of morphisms in the image of $L$ is a weak equivalence: for all $z,x \in C$ we have
+First notice that because $D \hookrightarrow C$ is a [[full and faithful (∞,1)-functor]] we have that the counit $L R \stackrel{\simeq}{\to} Id_D$ is an equivalence. From this it follows that precomposition with the unit $i_z : z \to Loc z$ of morphisms in the image of $Loc$ is a weak equivalence: for all $z,x \in C$ we have
 
 $$
-    Hom_C(i, Loc z)
+    Hom_C(i_z, Loc z)
     :
     Hom_C(Loc z, Loc x)
-    \simeq
+    \stackrel{\simeq}{\to}
     Hom_C(z, Loc x)
   \,.
 $$
 
 If $z$ is itself in the image of $Loc$, then this means that precomposition with the unit $z \to Loc z$ is an isomorphism on [[hom-set]]s in the [[homotopy category of an (infinity,1)-category|homotopy category]] of $Loc C$, hence by the [[Yoneda lemma]] is itself an isomorphism in the homotopy category, hence $i_z : z \to Loc z$ is a weak equivalence if $z$ is itself in the image of $Loc$.
 
-Applying this statement to the commuting square
+Applying this statement to the naturality square for the [[natural transformation]] $Id \to Loc$ on $i_s$
 
 $$
   \array{
     s &\stackrel{i_s}{\to} & Loc s
     \\
-    \downarrow && \downarrow^{\mathrlap{Loc i_s}}
+    \downarrow^{\mathrlap{i_s}} && \downarrow^{\mathrlap{Loc i_s}}
     \\
     Loc s &\stackrel{i_{Loc s}}{\to}& Loc Loc s
   }
 $$
 
-and using that precomposition with $i_s$ gives an equivalence here (by the above) we find that $Loc i_s \simeq i_{Loc s}$, hence that $Loc i_s$ is a weak equivalence, and hence that $i_s$ is in $S$, for all $s \in C$.
+we find that $Loc i_s \simeq i_{Loc s}$, hence that $Loc i_s$ is a weak equivalence, and hence that $i_s$ is in $S$, for all $s \in C$.
 
 Now to show that for all $x \in X$ the object $Loc x$ is $S$-local, let $f : y \to z$ be in $S \subset Mor(C)$ and consider the induced square
 
@@ -294,9 +294,45 @@ By the above we know now that the vertical morphisms here are also $S$-local. It
 
 =--
 
+### Accessible reflective subcategories
+
+The following proposition asserts that if $C$ is an [[accessible (∞,1)-category]] then so are its reflective subcategories.
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $C$ be an [[accessible (∞,1)-category]] and 
+
+$$
+  D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}}
+  C
+$$
+
+a reflective subcategory.  Then
+
+1. $D$ is itself accessible;
+
+1. The localization $Loc : R\circ L : C \to C$ is an [[accessible (∞,1)-functor]].
+
+1. There exists a [[small set]] $S_0 \subset S := L^{-1}(equiv.)$ such that every $S$-[[local object]] is also $S$-local.
+
+=--
+
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.4.2, part 3]]
+
++-- {: .proof}
+###### Proof
+
+This is work...
+
+=--
+
 
 ### Reflective localization at a set of morphisms
 
+Above is discussed that every reflective subcategory is the localization at the collection local morphisms, those which the left adjoint functor inverts.
 One can turn this around and define or construct reflective $(\infty,1)$-subcategories by specifying collections of local morphisms.
 
 
