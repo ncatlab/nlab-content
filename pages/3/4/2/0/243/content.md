@@ -13,7 +13,7 @@
 
 An _end_ is a special kind of [[limit]] over a [[functor]] of the form $F : C^{op} \times C \to D$ (sometimes called a _bifunctor_).
 
-If we think of such a functor in the sense of [[distributors]] as encoding a left and right [[action]] on the object
+If we think of such a functor in the sense of [[profunctor]]s as encoding a left and right [[action]] on the object
 
 $$
   \prod_{c \in C} F(c,c)
@@ -24,8 +24,9 @@ then the _end_ of the functor picks out the universal [[subobject]] on which the
 A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]]. 
 
 
+## Definition
 
-##In ordinary category theory
+### In ordinary category theory
 
 In ordinary [[category theory]], given a [[functor]] $F: C^{op} \times C \to X$, an __end__ of $F$ in $X$ is an object $e$ of $X$ equipped with a [[universal construction|universal]] [[extranatural transformation]] from $e$ to $F$. This means that given any extranatural transformation from an object $x$ of $X$ to $F$, there exists a unique map $x \to e$ which respects the extranatural transformations. 
 
@@ -40,17 +41,17 @@ for every object $c$ of $C$.
 The notion of __coend__ is dual to the notion of end, written $\int^{c: C} F(c, c)$. 
 
 
-### Examples: Module homs and module tensor products
+#### Examples: Module homs and module tensor products
 
 Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, weighted limits and weighted colimits. These concepts are fundamental in enriched category theory. 
 
 
 
-## In enriched category theory 
+### In enriched category theory 
 
 There is a definition of _end_ in [[enriched category theory]], as follows. 
 
-### End of $V$-valued functors 
+#### End of $V$-valued functors 
 
 Let $V$ be a [[symmetric monoidal category]], let $C$ be a $V$-[[enriched category]], and let $F: C^{op} \otimes C \to V$ be a $V$-[[enriched functor]]. 
 
@@ -89,7 +90,7 @@ $$\theta_c = \pi_c f$$
 for all objects $c$ of $C$. 
 
 
-### End of $C$-valued functors for $C \in V\Cat$ 
+#### End of $C$-valued functors for $C \in V\Cat$ 
 
 If $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is an object $\int_{c: C} F(c, c)$ of $X$ equipped with an $Ob(C)$-indexed family of arrows 
 $$\pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))$$ 
@@ -99,9 +100,9 @@ $$X(x, \pi_c): X(x, \int_{c: C} F(c, c)) \to X(x, F(c, c))$$
 are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the corresponding end in $V$. This is an example of the general notion of [[weighted limit]] in enriched category theory. 
 
 
-### End as an equalizer
+#### End as an equalizer
 
-#### Ordinary ends as equalizers
+##### Ordinary ends as equalizers
 
 Now we motivate and define the _end_ in [[enriched category theory]] in terms of [[equalizers]].
 
@@ -202,7 +203,7 @@ $$
 This way of writing the [[limit]] clearly suggests that it is more natural to have $\lambda$ and $\rho$ on equal footing. That leads to the following definition.
 
 
-#### Enriched ends over $V$-valued functors as equalizers
+##### Enriched ends over $V$-valued functors as equalizers
 
 For $V$ a [[symmetric monoidal category]], $C$ a $V$-[[enriched category]] and 
 $F : C^{op} \times C \to V$ a 
@@ -248,7 +249,8 @@ $$
 
 This definition manifestly exhibits the **end as the equalizer of the left and right action** encoded by the [[distributor]] $F$.
 
-### End as a weighted limit 
+
+#### End as a weighted limit 
 
 The end for $V$-functors with values in $V$ serves, among other things, to define [[weighted limits]], and weighted limits in turn define ends of bifunctors with values in more general $V$-categories.
 
@@ -262,6 +264,59 @@ $$
 $$
 
 where the right hand denotes the [[weighted limit]] over $F$ with weight $Hom_C : C^{op} \times C \to V$.
+
+
+## Properties {#Properties}
+
+
+Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since there it looks like the commutativity of two integrals, it is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)).
+
++-- {: .un_def}
+###### Definition
+**(Fubini theorem for ends)**
+
+Let $\mathcal{V}$ be a [[symmetric monoidal category]]. Let $\mathcal{A}$ and $\mathcal{B}$ be small 
+$\mathcal{V}$-[[enriched categories]]. 
+
+Let
+
+$$
+  T : (\mathcal{A} \otimes \mathcal{B})^{op} \otimes 
+      (\mathcal{A} \otimes \mathcal{B})
+      \to 
+      \mathcal{V}
+$$
+
+be a $\mathcal{V}$-[[enriched functor]]. Then:
+
+If for all object $B,B' \in \mathcal{B}$ the end $\int_{A \in \mathcal{A}} T(A,B,A,B')$ exists, then 
+
+$$
+  \int_{(A,B) \in \mathcal{A} \otimes \mathcal{B}}
+   T(A,B,A,B)
+  \simeq
+  \int_{A \in \mathcal{A}}
+  \int_{B \in \mathcal{B}}
+  T(A,B,A,B)
+$$
+
+if either side exists. In particular, since $\mathcal{A} \otimes \mathcal{B} \simeq \mathcal{B} \otimes \mathcal{A}$ this implies that
+
+$$
+  \int_{B \in \mathcal{B}}
+  \int_{A \in \mathcal{A}}
+  T(A,B,A,B)
+  \simeq
+  \int_{A \in \mathcal{A}}
+  \int_{B \in \mathcal{B}}
+  T(A,B,A,B)
+$$
+
+if either side exists.
+
+
+=--
+
 
 ## Examples
 
@@ -310,9 +365,11 @@ More specifically, traditionally this is thought of as applying to the case wher
 
 ## References
 
-in 
+The standard reference is
 
-* M. Kelly, _Basic concepts in enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+* [[Max Kelly]], _Basic concepts in enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
 
   * ends of $V$-valued bifunctors are discussed in section 2.1
 
@@ -325,3 +382,6 @@ in
 [[!redirects ends]]
 [[!redirects coend]]
 [[!redirects coends]]
+
+[[!redirects Fubini theorem for ends]]
+[[!redirects Fubini theorem for coends]]
