@@ -4,6 +4,8 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+OK
+
 Introduction 
 
 
@@ -91,6 +93,9 @@ OK, the second of those is not ideal, but nobody should actually try to write th
 
 ## Something in the Contents ##
 ## HomePage ##
+
+
+If $\alpha + \beta + \gamma = \pi$, then $\sin\alpha \sin\beta \sin\gamma = \sin(2\alpha) + \sin(2\beta) + \sin(2\gamma).$  This is an example of what is known as a [[trigonometric identity]].
 
 
 1. Verse One
