@@ -1,3 +1,5 @@
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -51,3 +53,5 @@ There are several reasons though why one might prefer to retain some bias, for e
 * Mathematical intuition. That is, different signatures may invoke different intuitions or attitudes toward a subject; for example, "Boolean rings" may invoke a more algebraic or algebro-geometric attitude (as in [[Stone duality]]) whereas "Boolean algebras" may invoke a more logical attitude (propositional logic). 
 
 * Differences in logical strength. That is, first-order logic should be thought of as coming in layers, ranging from equational logic up to [[pretopos]] logic, and different signatures may need differing levels of logical strength for them to be interpreted as intended. Equational logic may be preferred on occasion because it is a very weak logic, whereas relational signatures often require at least the strength of regular categories for them to be interpreted correctly. 
+
+[[!redirects signature]]
