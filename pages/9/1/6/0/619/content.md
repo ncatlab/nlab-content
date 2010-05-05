@@ -51,16 +51,51 @@ Given any adjoint pair $Q^*\dashv Q_*$ of functors  $Q^*:A\leftrightarrow B:Q_*$
 
 +--{.query}
 Zoran: Gabriel--Zisman neglect the set theoretical issues on the EXISTENCE of localizations. Is the last conditions really equivalent or we need to make some set-theoretical assumptions ?
+
+[[Urs Schreiber]]: the point here is that the localization is not at any arbitrary set of morphisms, but at precisely the class that the left adjoint sends to equivalences. This is a very special class with very nice properties and is what makes the localization come out nicely. More details on this happen to be at [[reflective sub-(infinity,1)-category]].
+
 =--
+
+
+## Special cases
+
+### Exact reflective subcategories
+
+If the reflector (which as a [[left adjoint]] always preserves all [[colimit]]s) in addition preserves finite [[product]]s, the embedding is called _exact_ . If the categories are [[topos]]es then such embeddings are called [[geometric embedding]]s.
+
+In particular, every [[sheaf topos]] is an exact reflective subcategory of a [[category of presheaves]]
+
+$$
+  Sh(C) \stackrel{\overset{sheafify}{\leftarrow}}{\hookrightarrow}
+  PSh(C)
+  \,.
+$$
+
+The reflector in that case is the [[sheafification]] functor.
+
+
+### Complete reflective subcategories
+
+When the unit of the reflector is a [[monomorphism]], a reflective category is often thought of as a full subcategory of *complete* objects in some sense; the reflector takes each object in the ambient category to its completion.  Such reflective subcategories are sometimes called _mono-reflective_.  One similarly has _epi-reflective_ (when the unit is an [[epimorphism]]) and _bi-reflective_ (when the unit is a [[bimorphism]]).
+
+
+In the last case, note that if the unit is an *iso*morphism, then the inclusion functor is an [[equivalence of categories]], so nontrivial bireflective subcategories can occur only in non-[[balanced categories]].  Also note that 'bireflective' does *not* mean reflective and [[coreflective subcategory|coreflective]].  One sees this term often in discussions of [[concrete categories]] (such as [[topological categories]]) where really something stronger holds: that the reflector lies over the [[identity functor]] on [[Set]].  In this case, one can say that we have a subcategory that is __reflective over $Set$__.
+
 
 
 ## Properties
 
 A reflective subcategory is always closed under [[limit|limits]], and inherits [[colimit|colimits]] from the larger category by application of the reflector.
 
-When the unit of the reflector is a [[monomorphism]], a reflective category is often thought of as a full subcategory of *complete* objects in some sense; the reflector takes each object in the ambient category to its completion.  Such reflective subcategories are sometimes called _mono-reflective_.  One similarly has _epi-reflective_ (when the unit is an [[epimorphism]]) and _bi-reflective_ (when the unit is a [[bimorphism]]).
 
-In the last case, note that if the unit is an *iso*morphism, then the inclusion functor is an [[equivalence of categories]], so nontrivial bireflective subcategories can occur only in non-[[balanced categories]].  Also note that 'bireflective' does *not* mean reflective and [[coreflective subcategory|coreflective]].  One sees this term often in discussions of [[concrete categories]] (such as [[topological categories]]) where really something stronger holds: that the reflector lies over the [[identity functor]] on [[Set]].  In this case, one can say that we have a subcategory that is __reflective over $Set$__.
+### Reflective subcategories of cartesian closed categories
+
+In showing that a given category is cartesian closed, the following theorem is often useful (cf. A4.3.1 in the [[Elephant]]):
+
++-- {: .un_theorem}
+###### Theorem
+If $C$ is cartesian closed, and $D\subseteq C$ is a [[reflective subcategory]], then the reflector $L\colon C\to D$ preserves finite [[products]] if and only if $D$ is an [[exponential ideal]] (i.e. $Y\in D$ implies $Y^X\in D$ for any $X\in C$).  In particular, if $L$ preserves finite products, then $D$ is cartesian closed.
+=--
 
 
 ## Examples 
@@ -80,7 +115,7 @@ Whenever $C$ is a full subcategory of $D$, we can say that objects of $C$ are ob
 This can always be made to work by brute force, but sometimes there is something insightful about it.  For example, a metric space is a complete metric space equipped with a dense subset.  Or, a possibly nonunital ring is a unital ring equipped with a unital homomorphism to the ring of integers.
 
 
-##Generalizations
+## In higher category theory
 
 * [[reflective (infinity,1)-subcategory]]
 
