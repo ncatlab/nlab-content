@@ -161,12 +161,12 @@ that
    
     $$
     \array{
-      F(0)
+      F(1)
       \\
       & \searrow
       \\
       && F(0) \times_{G(0)} G(1) 
-      &\stackrel{\eta_1}{\to}& G(0)
+      &\stackrel{\eta_1}{\to}& G(1)
       \\
       && \downarrow && \downarrow
       \\
