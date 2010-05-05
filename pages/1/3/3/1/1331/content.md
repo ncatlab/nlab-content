@@ -1,2 +1,1 @@
-
-see [[reflective sub-(infinity,1)-category]]
+&lt; [[reflective (infinity,1)-subcategory]]
