@@ -12,6 +12,7 @@ For my own reference: some pages that I'm planning to do some work on:
 * functoriality of [[codiscrete cofibrations]],
 * create a separate page [[two-sided fibration]].
 * [[free monad]], incl. algebraically-free
+* give an example at [[monadicity theorem]].
 
 And here's how to make a barred arrow $A &#8696; B$, since I always forget:
 
