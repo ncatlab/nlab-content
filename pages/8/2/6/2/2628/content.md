@@ -3,22 +3,22 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
-The _simplicial deRham complex_ of a [[simplicial manifold]] $X_\bullet$ is the analog of the [[deRham complex]] of [[differential form]]s of an ordinary [[manifold]]: it is the complex whose elements in degree $k$ may be thought of as $k$-[[differential form|form]]s on $X_\bullet$.
+The _simplicial de Rham complex_ of a [[simplicial manifold]] $X_\bullet$ is the analog of the [[de Rham complex]] of [[differential form]]s of an ordinary [[manifold]]: it is the complex whose elements in degree $k$ may be thought of as $k$-[[differential form|form]]s on $X_\bullet$.
 
 One useful conceptual way to think of this is to notice that a a [[simplicial object|simplicial]] [[manifold]] may be thought of as a degreewise [[representable functor|representable]] [[simplicial presheaf]] on [[Diff]]
 and then to realize that by way of the standard [[model structure on simplicial presheaves]] such a simplicial presheaf presents an [[∞-stack]] on [[Diff]] which we may think of as a [[Lie ∞-groupoid]]. From that perspective we expect that 
 
 +-- {: .standout}
 
-**Slogan**. The simplicial deRham complex is the complex of differential forms on a [[Lie ∞-groupoid]] or differentiable [[∞-stack]].
+**Slogan**. The simplicial de Rham complex is the complex of differential forms on a [[Lie ∞-groupoid]] or differentiable [[∞-stack]].
 
 =--
 
 We shall discuss this in more detail below.
 
-#Definition#
+## Definition
 
 There are several definitions that are [[quasi-isomorphism|quasi-isomorphic]]. The first one we give is the conceptually most straightforward one. The second one we give is sometimes more useful in computations.
 
@@ -26,9 +26,17 @@ Let $X_\bullet : \Delta^{op} \to Diff$ be a [[simplicial object|simplicial]] [[m
 
 +-- {: .un_defn}
 ###### Definition
-**(simplicial deRahm complex, first version)**
+**(simplicial de Rahm complex, first version)**
 
-Write $\mathcal{A}(X_\bullet)$ for the [[cochain complex]] that is the [[total complex]] of the [[double complex]] on the degreewise [[deRham complex]] with one differential the simplicial-degree-wise deRham differential and the other one the deRham-degree-wise alternating sum of pullback along the face maps
+Write 
+
+$$
+  \mathcal{A}(X_\bullet)
+  :=
+  Tot \Omega^\bullet(X_\bullet)
+$$ 
+
+for the [[cochain complex]] that is the [[total complex]] of the [[double complex]] on the degreewise [[de Rham complex]] with one differential the simplicial-degree-wise de Rham differential and the other one the de Rham-degree-wise alternating sum of pullback along the face maps
 
 $$
   \array{
@@ -52,7 +60,7 @@ So an element $\omega \in \mathcal{A}(X_\bullet)$ in degree $n$ is a collection 
 
 +-- {: .un_defn}
 ###### Definition
-**(simplicial deRahm complex, second version)**
+**(simplicial de Rahm complex, second version)**
 
 Write $\Delta^n_{Diff}$ for the standard $n$-[[simplex]] in its standard incarnations as a smooth [[manifold]] (with boundary). These arrange in the obvious way into the [[cosimplicial object]] $\Delta_{Diff} : \Delta \to Diff$.
 
@@ -92,9 +100,9 @@ This is a [[morphism]] of [[cochain complex]]es which is a [[quasi-isomorphism]]
 
 =--
 
-#Examples#
+## Examples
 
-## differential forms on $\mathbf{B}G$ ##
+### Differential forms on $\mathbf{B}G$ 
 
 A main application of this technology is to the simplicial manifold $\mathbf{B}G = (\cdots G \times G \stackrel{\stackrel{\to}{\to}}{\to} G \stackrel{\to}{\to} {*})$ that represents the smooth groupoid which is the [[delooping]] of a [[Lie group]] $G$.
 
@@ -113,11 +121,11 @@ $$
 (which, in traditional [[simplicial group]] notation, reads $W G \to \bar W G$ -- but recall that these are "Lie" simplicial groups here).
 
 
-# Reformulations in synthetic differential geometry #
+## Reformulations in synthetic differential geometry 
 
 +-- {: .query}
 
-[[Urs Schreiber]]: This section is supposed to provide a useful reformulation of the simplicial deRham complex in the context described at [[schreiber:∞-Lie theory]].
+[[Urs Schreiber]]: This section is supposed to provide a useful reformulation of the simplicial de Rham complex in the context described at [[schreiber:∞-Lie theory]].
 
 In the language uses there, the statement we establish is the following:
 
@@ -126,9 +134,11 @@ In the language uses there, the statement we establish is the following:
 +-- {: .un_prop}
 ###### Proposition
 
-Let $(\mathcal{T} = Sh(C),R)$ be a [[Models for Smooth Infinitesimal Analysis|well adapted]] [[smooth topos]]. Regard the simplicial manifold $X_\bullet$ accordingly as an object $X$ in the corresponding [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]] $\mathbf{H}$. Let $\Pi^{inf}(X)$ be its [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]]. Then
+Let $C = $ [[CartSp]]${}_{th}$ and $\mathbf{H} = (sPSh(C)_{proj}^{loc})^\circ$ the [[(∞,1)-category of (∞,1)-sheaves]] on [[CartSp]], the [[(∞,1)-topos]] of [[Lie ∞-groupoid]]s. This is a [[locally contractible (∞,1)-topos]] (as discussed there). Accordinly we have its [[schreiber:path ∞-groupoid]] and [[schreiber:infinitesimal path ∞-groupoid]] $\mathbf{\Pi}_{inf}(-)$.
 
-* the [[schreiber:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of $\Pi^{inf}(X)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial deRham complex
+Then
+
+* the [[schreiber:Chevalley-Eilenberg algebra]] of $\mathbf{\Pi}_{inf}(X)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial de Rham complex
 
   $$
     CE( \Pi^{inf}(X)) \simeq \mathcal{A}(X_\bullet)
@@ -139,25 +149,25 @@ Let $(\mathcal{T} = Sh(C),R)$ be a [[Models for Smooth Infinitesimal Analysis|we
 
 The following discussion breaks this down and then describes the proof.
 
-As a preparation, recall from the discussion at [[differential forms in synthetic differential geometry]] that if we pass from [[Diff]] to a [[smooth topos]] $(\mathcal{T},R)$ that models the axioms of [[synthetic differential geometry]], then for sufficiently well-behaved objects $X \in \mathcal{T}$ there is the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{inf}} : \Delta^{op} \to \mathcal{T}$, the [[simplicial object]] that in degree $k$ is the [[space]] of [[infinitesimal object|infinitesimal]] $k$-[[simplex|simplices]] in $X$.
+As a preparation, recall from the discussion at [[differential forms in synthetic differential geometry]] that if we pass from [[Diff]] to a [[smooth topos]] $(\mathcal{T},R)$ that models the axioms of [[synthetic differential geometry]], then for sufficiently well-behaved objects $X \in \mathcal{T}$ there is the [[infinitesimal singular simplicial complex]] $X^{(\Delta^\bullet_{inf})} : \Delta^{op} \to \mathcal{T}$, the [[simplicial object]] that in degree $k$ is the [[space]] of [[infinitesimal object|infinitesimal]] $k$-[[simplex|simplices]] in $X$.
 
-As discussed there, this is such that under the [[Dold-Kan correspondence]] the [[cosimplicial algebra]] $Hom( X^{\Delta^\bullet_{inf}}, R )$ maps to the [[deRham complex]] (and under the [[monoidal Dold-Kan correspondence]] to the full [[deRham dg-algebra]]):
+As discussed there, this is such that under the [[Dold-Kan correspondence]] the [[cosimplicial algebra]] $Hom( X^{\Delta^\bullet_{inf}}, R )$ maps to the [[de Rham complex]] (and under the [[monoidal Dold-Kan correspondence]] to the full [[de Rham dg-algebra]]):
 
 $$
   C_{Moore} : 
-  C^\infty( X^{\Delta^\bullet_{inf}})
+  C^\infty( X^{(\Delta^\bullet_{inf}}))
   \mapsto
   \Omega^\bullet(X)
   \,.
 $$
 
-It would be nice to have an analog of this statement for simplicial objects and the simplicial deRham complex. I am thinking that the answer should be the following:
+It would be nice to have an analog of this statement for simplicial objects and the simplicial de Rham complex. I am thinking that the answer should be the following:
 
 Let $X_\bullet : \Delta^{op} \to \mathcal{T}$ be a [[simplicial object]] that is degreewise of the sort such that the [[infinitesimal singular simplicial complex]] $(X_n)^{\Delta^\bullet_{inf}}$ exists. Use that $\mathcal{T}$ is canonically [[copower|tensored]] over $Set$ to find that simplicial objects in $\mathcal{T}$ are canonically tensored over [[simplicial set]]s. Then consider the _realization_
 
 $$
-  \Pi^{inf}(X_\bullet) := \int^{[n] \in \Delta}
-    \Delta[n] \cdot X_n^{\Delta^{\bullet}_{inf}}
+  \mathbf{\Pi}_{inf}(X_\bullet) := \int^{[n] \in \Delta}
+    \Delta[n] \cdot X_n^{(\Delta^{\bullet}_{inf})}
 $$
 
 where
@@ -168,14 +178,14 @@ where
 
 * the integral sign denotes the [[coend]].
 
-By the lemma _expression in terms of simplicial realization_ at [[schreiber:infinitesimal path ∞-groupoid]] this is the same as $\Pi^{inf}(X)$.
+By the lemma _expression in terms of simplicial realization_ at [[schreiber:infinitesimal path ∞-groupoid]] this is the same as $\mathbf{\Pi}_{inf}(X)$.
 
 The above proposition now reads in pedestrian terms:
 
 +-- {: .un_prop}
 ###### Proposition
 
-The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(\Pi^{inf}(X_\bullet)) := Hom_{\mathcal{T}}(\Pi^{inf}(X_\bullet),R)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial deRham complex of $X_\bullet$.
+The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(\mathbf{\Pi}_{inf}(X_\bullet)) := Hom_{\mathcal{T}}(\mathbf{\Pi}_{inf}(X_\bullet),R)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial de Rham complex of $X_\bullet$.
 
 =--
 
@@ -183,22 +193,46 @@ The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\
 +-- {: .proof}
 ###### Proof
 
-The problem is entirely controlled by the [[bisimplicial object]] $([p],[q]) \mapsto (X_p)^{(\Delta^q_{inf})}$.
+We use the cosimplicial and the simplicial version of the [[Eilenberg-Zilber theorem]] together with the fact that for a [[bisimplicial set]] the diagonal is given by the realization (as discussed there) $Diag F_{\bullet,\bullet} \simeq \int^{[n] \in \Delta} \Delta[n] \cdot F_{n,\bullet}$ to compute
+
+$$
+  \begin{aligned}
+    C ( C^\infty(\mathbf{\Pi}_{inf}(X_\bullet)) )
+    & :=
+    C ( Hom( \int^{[n]} \Delta[n] \cdot X_n^{(\Delta^\bullet_{inf})}  
+    , R))
+    \\
+    & \simeq
+    C ( Hom( Diag X_\bullet^{(\Delta^\bullet_{inf})} , R))    
+    \\
+    & \simeq
+    C Diag Hom( X_\bullet^{(\Delta^\bullet_{inf})} ,R)
+    \\
+    & \simeq_{q i}
+    Tot C Hom( X_\bullet^{(\Delta^\bullet_{inf})} ,R)
+    \\
+    & \simeq 
+    Tot \Omega^\bullet(X_\bullet)
+    \,.
+  \end{aligned}
+$$
+
+Here in the last step we used the following reasoning on the [[bisimplicial object]] $([p],[q]) \mapsto (X_p)^{(\Delta^q_{inf})}$.
 We know that 
 
-* for fixed $p$, the normalized [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_p)^{\Delta^\bullet_{inf}},R)$ is the [[deRham complex]] of $X_p$ -- this is the statement about combinatorial [[differential forms in synthetic differential geometry]].
+* for fixed $p$, the normalized [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_p)^{(\Delta^\bullet_{inf})},R)$ is the [[de Rham complex]] of $X_p$ -- this is the statement about combinatorial [[differential forms in synthetic differential geometry]].
 
-* for fixed $q$ the [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_\bullet)^{(\Delta^q_{inf})}, R)$ is the complex of functions on simplices whose differential is the alternating sum of pullbacks along face maps -- by the very definition of the [[Moore complex]].
+* for fixed $q$ the [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_\bullet)^{((\Delta^q_{inf}))}, R)$ is the complex of functions on simplices whose differential is the alternating sum of pullbacks along face maps -- by the very definition of the [[Moore complex]].
 
-This means that the simplicial deRham complex is (quasi-isomorphic to) the total complex of the bi-cosimplicial algebra
+This means that the simplicial de Rham complex is (quasi-isomorphic to) the total complex of the bi-cosimplicial algebra
 
 $$
   \mathcal{A}(X_\bullet) \simeq
-  Tot(Hom((X_\bullet)^{(\Delta^\bullet_{inf})}, R))
+  Tot C(Hom((X_\bullet)^{(\Delta^\bullet_{inf})}, R))
   \,.
 $$
 
-So it remains to show that this total complex is also (quasi-isomorphic to) the [[Moore complex]] of $Hom(\Pi^{inf}(X_\bullet),R)$. For this use [exercise 1.6 here](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) which says (transported from [[Set]] to $\mathcal{T}$) that this is the diagonal [[simplicial object]] of our [[bisimplicial object]]
+So it remains to show that this total complex is also (quasi-isomorphic to) the [[Moore complex]] of $Hom(\mathbf{\Pi}_{inf}(X_\bullet),R)$. For this use [exercise 1.6 here](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) which says (transported from [[Set]] to $\mathcal{T}$) that this is the diagonal [[simplicial object]] of our [[bisimplicial object]]
 
 $$
   d((X_\bullet)^{\Delta^\bullet_{inf}})
@@ -207,14 +241,14 @@ $$
   \,.
 $$
 
-This implies that the [[Moore complex]] of $Hom(\Pi^{inf}(X_\bullet),R)$ is the Moore complex of the diagonal of the bisimplicial algebra $Hom(X_\bullet^{(\Delta^\bullet_{inf})}),R)$.
+This implies that the [[Moore complex]] of $Hom(\mathbf{\Pi}_{inf}(X_\bullet),R)$ is the Moore complex of the diagonal of the bisimplicial algebra $Hom(X_\bullet^{(\Delta^\bullet_{inf})}),R)$.
 
 This way the desired statement recudes to the quasi-isomorphism 
 
 $$
-  diag (Hom(\Pi^{inf}(X_\bullet),R)
+  diag (Hom(\mathbf{\Pi}_{inf}(X_\bullet),R)
   \simeq
-  Tot (Hom(\Pi^{inf}(X_\bullet),R)
+  Tot (Hom(\mathbf{\Pi}_{inf}(X_\bullet),R)
   \,.
 $$
 
@@ -223,11 +257,11 @@ But this (even their chain-homotopy equivalence) is the content of the generaliz
 =--
 
 
-#References#
+## References
 
-Canonical references on simplicial deRham cohomology are by [[Johan Louis Dupont]]. For instance
+Canonical references on simplicial de Rham cohomology are by [[Johan Louis Dupont]]. For instance
 
-* [[Johan Louis Dupont]], _Simplicial deRham Cohomology and characteristic classes of flat bundles_ Topology 15 (1976)
+* [[Johan Louis Dupont]], _Simplicial de Rham Cohomology and characteristic classes of flat bundles_ Topology 15 (1976)
 
 * [[Johan Louis Dupont]], _A dual simplicial de Rham complex_, Lecture notes in Mathematics 1318 (1988) ([journal](http://www.springerlink.com/content/65784420x146888h/))
 
@@ -235,24 +269,23 @@ Canonical references on simplicial deRham cohomology are by [[Johan Louis Dupont
 
 >(I am still looking for the best survey reference...)
 
-When restricted to low degree this is closely related to or synonymous to considerations of deRham cohomology in the context of [[differentiable stack]]s.
+When restricted to low degree this is closely related to or synonymous to considerations of de Rham cohomology in the context of [[differentiable stack]]s.
 
 > (need to dig out references)
 
 
-A [[deRham theorem]] for simplicial manifolds was proven in the classical
+A [[de Rham theorem]] for simplicial manifolds was proven in the classical
 
 * R. Bott, H. Shulman, [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_ , Advances in Math.  20  (1976), no. 1, 43--56.
 
 
 
-In principle closely related is the discussion of a deRham theorem for [[∞-stack]]s as discussed in
+In principle closely related is the discussion of a de Rham theorem for [[∞-stack]]s as discussed in
 
-* [[nLab:Carlos Simpson|Carlos Simpson]], [[nLab:Constantin Teleman|Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+* [[nLab:Carlos Simpson|Carlos Simpson]], [[nLab:Constantin Teleman|Constantin Teleman]], _de Rham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 
-though a simplicial deRham complex is only somewhat implicit in that article.
+though a simplicial de Rham complex is only somewhat implicit in that article.
 
-> A related discussion is at [[schreiber:deRham theorem for ∞-Lie groupoids]]s
 
 
 [[!redirects simplicial deRham complex]]
