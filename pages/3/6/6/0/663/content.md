@@ -8,7 +8,62 @@ Essentially algebraic theories can be understood through [[category theory]] at 
 
 As the domains of the operations are given by the solutions to equations, they may be understood using the notion of [[equalizer]].  So, just as a Lawvere theory is defined using a category with finite [[product]]s, an essentially algebraic theory is defined using a category with finite [[limit|limits]] &#8212; or in other words, finite products and also equalizers (from which all other finite limits, including [[pullback]]s, may be derived).
 
-*Please add a formal definition and more information on how we actually use essentially algebraic theories to describe essentially algebraic mathematical structures!*
+## Definition
+
+As alluded to above, the most concide and elegant definition is through category theory: 
+
++-- {: .un_def}
+######Definition 
+An **essentially algebraic theory** is a [[finitely complete category]]. A (set-theoretic) **model** of an essentially algebraic theory $T$ is a [[functor]]  
+
+$$F: T \to Set$$ 
+
+which is left exact, i.e., preserves all finite limits. 
+=-- 
+
+Under this notion, homomorphisms of models are defined to be natural transformations between left exact functors. Models of an essentially algebraic theory $T$ and their homomorphisms form a category $Mod(T) = Lex(T, Set)$. 
+
+A more traditonal syntactic definition (following Adamek-Rosicky; see the references below) is as follows: 
+
++-- {: .un_def}
+######Definition
+An _essentially algebraic theory_ is a quadruple 
+
+$$\Gamma = (\Sigma, E, \Sigma_t, Def)$$ 
+
+where $\Sigma$ is a many-sorted [[signature]] consisting only of finitary operation symbols, $E$ is a set of $\Sigma$-equations, $\Sigma_t \subseteq \Sigma$ is a set of operation symbols called "total", and $Def$ is a function which assigns, to each operation $\sigma \in \Sigma - \Sigma_t$ of type $\prod_{i \in I} s_i \to s$, a set $Def(\sigma)$ of $\Sigma_t$-equations involving only variables $x_i \in Var(s_i)$. 
+
+A (set-theoretic) **model** $M$ of a theory $\Gamma$ assigns to each sort $s$ a set $M(s)$, to each operation symbol $\sigma: \prod_{i \in I} s_i \to s$ of $\Sigma$ a _partial_ function 
+$$M(\sigma): \prod_{i \in I} M(s_i) \to M(s)$$
+such that 
+
+* For each $\sigma \in \Sigma_t$ the function $M(\sigma)$ is a total function; 
+
+* For each $\sigma \in \Sigma - \Sigma_t$ of type $\prod_{i \in I} s_i \to s$, and each $I$-tuple 
+$$a = \langle a_i \rangle_{i \in I} \in \prod_{i \in I} M(s_i),$$
+$M(\sigma)(a)$ is defined if and only if all the equations in $Def(\sigma)$ are satisfied at the argument $a$. 
+
+* All the equations of $E$ are satisfied (i.e., are interpreted as equations between partial functions). 
+=--
+
+Homomorphisms of models $\theta: M \to M'$ are defined in the standard way: a collection of functions $\theta(s): M(s) \to M'(s)$ for each sort of the signature $\Sigma$ which are compatible with the $M(\sigma), M'(\sigma)$ in the evident way. 
+
+The point is that either notion of theory may be used to specify the same category of models, and that 
+
++-- {: .standout}
+
+Categories of models of essentially algebraic theories are precisely equivalent to [[locally presentable category|locally finitely presentable categories]]. These are equivalent to categories of models of finite limit sketches. 
+
+=--
+
+## Examples
+
+* A (multisorted) [[Lawvere theory]] $T$ is the same thing (has the same models) as an essentially algebraic theory in which all operations are total. If $C_T$ is the opposite of the category of finitely presented $T$-algebras, then the category of models is equivalent to $Lex(C, Set)$. 
+
+* As mentioned above, categories are models of an essentially algebraic theory. 
+
+* An equational [[Horn theory]] is essentially algebraic, but not all essentially algebraic theories are equational Horn theories. Perhaps surprisingly, $Cat$ is not the category of models of any equational Horn theory, nor is even the category $Pos$ of posets. See [this paper](ftp://132.206.150.195/pub/barr/pdffiles/horn.pdf) by Barr for a proof. 
+
 
 
 [[!redirects essentially algebraic theories]]
