@@ -25,6 +25,8 @@ __Beck's Monadicity Theorem__ gives a necessary and sufficient condition for an 
    
 *  $D$ has coequalizers of $r$-split coequalizer pairs, and $r$ preserves those coequalizers.
 
+See [[monadicity theorem]] for more details and variants.
+
 
 ## Algebraic categories
 
@@ -62,10 +64,4 @@ If anyone can give a nice conceptual explanation of the terms "semantics" and "s
 
 [[Mike Shulman]]: In case anyone is following this, Daniel has come up with what seems to be the right answer to this question; I'm hoping that eventually he will write about it here.
 
-[[!redirects Beck's Monadicity Theorem]]
-[[!redirects Beck's Monadicity Theorem]]
-[[!redirects Beck Monadicity Theorem]]
-[[!redirects Beck's monadicity theorem]]
-[[!redirects Beck's monadicity theorem]]
-[[!redirects Beck monadicity theorem]]
 [[!redirects semantics-structure adjunction]]
