@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A mathematical structure is _essentially algebraic_ if its definition involves [[functional relation|partially defined operations]] satisfying equational laws, where the domain of any given operation is a subset where various other operations happen to be equal.  And actual [[algebraic theory]] is one where all operations are total [[function]]s.
 
@@ -31,7 +36,7 @@ An _essentially algebraic theory_ is a quadruple
 
 $$\Gamma = (\Sigma, E, \Sigma_t, Def)$$ 
 
-where $\Sigma$ is a many-sorted [[signature]] consisting only of finitary operation symbols, $E$ is a set of $\Sigma$-equations, $\Sigma_t \subseteq \Sigma$ is a set of operation symbols called "total", and $Def$ is a function which assigns, to each operation $\sigma \in \Sigma - \Sigma_t$ of type $\prod_{i \in I} s_i \to s$, a set $Def(\sigma)$ of $\Sigma_t$-equations involving only variables $x_i \in Var(s_i)$. 
+where $\Sigma$ is a many-sorted [[signature (in logic)|signature]] consisting only of finitary operation symbols, $E$ is a set of $\Sigma$-equations, $\Sigma_t \subseteq \Sigma$ is a set of operation symbols called "total", and $Def$ is a function which assigns, to each operation $\sigma \in \Sigma - \Sigma_t$ of type $\prod_{i \in I} s_i \to s$, a set $Def(\sigma)$ of $\Sigma_t$-equations involving only variables $x_i \in Var(s_i)$. 
 
 A (set-theoretic) **model** $M$ of a theory $\Gamma$ assigns to each sort $s$ a set $M(s)$, to each operation symbol $\sigma: \prod_{i \in I} s_i \to s$ of $\Sigma$ a _partial_ function 
 $$M(\sigma): \prod_{i \in I} M(s_i) \to M(s)$$
