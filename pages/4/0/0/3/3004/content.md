@@ -102,7 +102,7 @@ From this point of view, a **geometric theory** is a theory $GrTop^{op}\to Cat$ 
 
 ### Hybrid definition
 
-The following definition is sort of a "halfway house" between logic and geometry.  Start with a first-order [[signature]] $\Sigma$ (this is the logical part).  Then we have a 2-functor $\Sigma Str\colon GrTop^{op}\to Cat$ sending a topos $E$ to the category $\Sigma Str(E)$ of $\Sigma$-structures in $E$.  A **geometric theory** over $\Sigma$ is defined to consist of the following.
+The following definition is sort of a "halfway house" between logic and geometry.  Start with a first-order [[signature (in logic)|signature]] $\Sigma$ (this is the logical part).  Then we have a 2-functor $\Sigma Str\colon GrTop^{op}\to Cat$ sending a topos $E$ to the category $\Sigma Str(E)$ of $\Sigma$-structures in $E$.  A **geometric theory** over $\Sigma$ is defined to consist of the following.
 
 * For each Grothendieck topos $E$, we have a [[replete subcategory|replete]] [[full subcategory]] $T(E)$ of $\Sigma Str(E)$, such that
 * For each geometric morphism $f\colon E\to F$, if $M\in T(F)$ then $f^*M\in T(E)$ (i.e. $T$ is a subfunctor of $\Sigma Str$), and moreover
