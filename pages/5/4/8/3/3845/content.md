@@ -77,3 +77,6 @@ A formal definition and discussion of pasting diagrams in [[strict omega-categor
 * [[Sjoerd Crans]], _Pasting presentation for Omega-categories_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.4342))
 
 * Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
+
+[[!redirects pasting diagrams]]
+[[!redirects pasting]]
