@@ -31,7 +31,7 @@ There are various further conditions that can be imposed on a geometric morphism
 
 * If $f_!$ preserves finite [[product]]s then $f$ is called **connected surjective**.
 
-* If $f_!$ preserves finite [[product]]s and moreover there is a further functor $p^! : F \to E$ which is  [[right adjoint]] $(f_* \dashv f^!)$ and [[full and faithful functor|full and faithful]], i.e. if we have a sequence of adjunctions
+* If $f_!$ preserves finite [[product]]s and moreover there is a further functor $f^! : F \to E$ which is  [[right adjoint]] $(f_* \dashv f^!)$ and [[full and faithful functor|full and faithful]], i.e. if we have a sequence of adjunctions
 
   $$
     (f_! \dashv f^* \dashv f_* \dashv f^!)
