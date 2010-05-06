@@ -49,7 +49,7 @@ A related approach in terms of [[gerbe]]s properly in terms of [[stack]]s is
 
 * [[Jean-Luc Brylinski]] and [[Dennis McLaughlin]], _The geometry of degree-4 characteristic classes and of line bundles on loop spaces II_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-Duke-II.pdf)).
 
-Among the first references apply [[bundle gerbe]] technology to reffinements of the 4-class on $\mathcal{B}G$ to [[differential cohomology]] is
+Among the first references to apply [[bundle gerbe]] technology to reffinements of the 4-class on $\mathcal{B}G$ to [[differential cohomology]] is
 
 * [[Alan Carey]] and [[Stuart Johnson]] and [[Michael Murray]] and [[Danny Stevenson]] and [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_ Communications in Mathematical Physics, 259 (3). (2005) ([arXiv]())
 
