@@ -21,7 +21,7 @@ If $F$ reflects all limits or colimits of a given type (i.e. over a given catego
 
 Reflection of limits is distinct from [[preservation of limits]], although there are relationships.  For instance, a [[conservative functor]] reflects any limits which exist in its domain and that it preserves.  For if $J$ above has some limit $\theta$ which is preserved by $F$, then there is a unique induced map $\eta\to\theta$ by the universal property of a limit, which becomes an isomorphism in $D$ since $F(\eta)$ and $F(\theta)$ are both limits of $F\circ J$; hence if $F$ is conservative then it must already have been an isomorphism in $C$, and so $\eta$ was already also a limit of $J$.
 
-A functor which both reflects *and* preserves limits is said to [[created limit|create]] them.
+A functor which both reflects *and* preserves limits, and such that limits exist in its domain whenever they do in its codomain, is said to [[created limit|create]] them.
 
 ## Related pages
 
