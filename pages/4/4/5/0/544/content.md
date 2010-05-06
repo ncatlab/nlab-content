@@ -3,6 +3,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 An $A_\infty$-algebra is an algebra for the cofibrant resolution of the [[operad]] $Ass$ of associative algebras: it is an algebra which is associative only up to higher coherent homotopy.
