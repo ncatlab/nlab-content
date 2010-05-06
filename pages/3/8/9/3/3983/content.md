@@ -470,3 +470,6 @@ The colimit of this in the category of Fr&#246;licher spaces is the real line wi
 I think that to make it work, you have to redefine "Euclidean space" to include anything that becomes a Euclidean space upon Hausdorffification.
 =--
 
+[[!redirects curvaceous topology]]
+[[!redirects functional topology]]
+[[!redirects Froelicher topology]]
