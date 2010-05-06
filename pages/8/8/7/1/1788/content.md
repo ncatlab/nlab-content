@@ -4,11 +4,10 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
-OK
-
 Introduction 
 
-
+$\left\{f_k(\theta_1,\dots,\theta_\ell)\right\}_{k,\ell}$
+ 
 This wiki is meant to be a dictionary between physics and mathematics for the standard model. The standard model is a theory of three of the four fundamental interactions: electro-magnetic, weak and strong. As in every "quantum" theory, the particles fields are vectors $\Psi$ of a certain Hilbert space $H$, satisfying covariant differential equations (example: Kleing-Gordon, Dirac, Proca, etc.). The basic mechanism of the model is that a particle, posseding several quantum parameters (charge, isospin and color charge), interacts with another particle via a so-said intermediary boson (example: photon, W, Z, gluon), with a certain intensity according to quantum numbers. Remark that the theory has been confirmed by every experiment in the 20th century and each particle predicted by the theory, except the Higgs boson, has been observed. 
  First we want to summarize a physical approach to the theory:
 
@@ -59,7 +58,12 @@ For each covariant equation we can assign at least one lagrangian $L$. Whenever 
 
 interaction: TODO
 
-
+$$
+f_k(\theta_1,\theta_2,\theta_3,\theta_4,\theta_5,\dots) - f_k(\theta_1+\theta_2,\theta_3,\theta_4,\theta_5,\dots) = \left.\begin{cases} k & \text{if}\;k \ge 2\;\text{is even} \\
+k - 1 & \text{if}\;k \ge 2\;\text{is odd}
+\end{cases} \right\} \cdot
+ \sin\theta_1\sin\theta_2 f_{k-2}(\theta_3,\theta_4,\theta_5,\dots)
+$$
 
 
 # The first header #
