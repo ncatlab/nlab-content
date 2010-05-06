@@ -1,3 +1,4 @@
+[[!redirects manifolds of mapping spaces]]
 
 #Contents#
 * automatic table of contents
