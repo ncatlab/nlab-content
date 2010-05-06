@@ -9,7 +9,7 @@ This page deals with the question whether it might be possible to prove the [[ir
 
 ## Details
 
-We begin with a sequence of functions of some variables $\theta_1,\theta_2,\theta_3,\dots$:
+We begin with an infinite sequence of functions of some variables $\theta_1,\theta_2,\theta_3,\dots$:
 
 $$
 \begin{aligned}
@@ -20,7 +20,8 @@ f_3(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 3} (-1)^{(n-3)/
 f_4(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{even}\;n \ge 4} (-1)^{(n-4)/2} n(n-2) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
 f_5(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 5} (-1)^{(n-5)/2} (n-1)(n-3) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
 f_6(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{even}\;n \ge 6} (-1)^{(n-6)/2} n(n-2)(n-4) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
-f_7(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 7} (-1)^{(n-7)/2} (n-1)(n-3)(n-5) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
+f_7(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 7} (-1)^{(n-7)/2} (n-1)(n-3)(n-5) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+& \vdots
 \end{aligned}
 $$
 
