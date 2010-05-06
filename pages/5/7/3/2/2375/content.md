@@ -5,6 +5,10 @@
 
 * [[category]]
 
+  * [[object]]
+
+  * [[morphism]]
+
 * [[functor]]
 
 * [[natural transformation]]
