@@ -20,9 +20,12 @@ A [[topos]] may be thought of as a generalized [[topological space]]. Accordingl
 
 have analogs for [[topos]]es and [[(∞,1)-topos]]es.
 
+
 ## Locally connected topos
 
 Let $E$ be a [[topos]]. An object $A \in E$ is called a [[connected object]] if $\hom_E(A, -)$ preserves finite [[coproduct]]s. Equivalently, an object $A$ is connected if it is nonempty (non[[initial object|initial]]) and cannot be expressed as a coproduct of two nonempty [[subobject]]s. 
+
+### Definition
 
 A [[Grothendieck topos]] $E$ is called a **locally connected topos** is every object $A \in E$ is a [[coproduct]] of connected objects $\{A_i\}_{i \in I}$, $A = \coprod_{i \in I} A_i$.  It follows that the index set $I$ is unique up to isomorphism, and we write
 
@@ -31,12 +34,10 @@ $$
   \,.
 $$
 
-A locally connected topos $E$ is called a **connected topos** if for $* \in E$ the [[terminal object]] we have $\pi_0(*) = *$.  (There is a more general notion of a [[connected topos]] which is not necessarily locally connected, but for locally connected topoi it is equivalent to this definition.)
-
 This construction defines a functor $\Pi_0 : E \to Set : A \mapsto \pi_0(A)$ which is [[left adjoint]] to the [[constant sheaf]] functor, the [[left adjoint]] part of the [[global section]] [[geometric morphism]].  Thus, for a locally connected topos we have
 
 $$
-  (\Pi_0 \dashv Const \dashv \Gamma) : 
+  (\Pi_0 \dashv LConst \dashv \Gamma) : 
   E \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
   Set
   \,.
@@ -61,6 +62,31 @@ This appears as Lemma C.3.3.6 in
 =--
 
 However, this doesn't mean that essential geometric morphisms are the "relative" analog of locally connected toposes; in general one needs to impose an additional condition, which is automatic in the case of the global sections morphism, to obtain the notion of a [[locally connected geometric morphism]].
+
+
+### Locally connected and connected {#Connected}
+
+
+A [[topos]] $E$ is called a [[connected topos]] if the [[right adjoint]] $LConst : Set \to E$ is a [[full and faithful functor]].
+
+
++-- {: .un_prop}
+###### Proposition
+If $\Gamma \colon E\to Set$ is a locally connected, topos, then it is als a [[connected topos]] -- in that $LConst$ is full and faithful -- if and only if the left adjoint $\Pi_0$ of the inverse image functor preserves the terminal object.
+=--
++-- {: .proof}
+###### Proof
+This is C3.3.3 in the [[Elephant]].
+=--
+
+Notice that for a locally connected topos that is also a connected topos the adjunction
+
+$$
+  Set \stackrel{\overset{\Pi_0}{\leftarrow}}{\hookrightarrow} E
+$$
+
+exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[Set]] as being the [[localization]] of $E$ at those morphisms that induce isomorphisms of connected components.
+
 
 
 ## Locally $n$-connected $(n,1)$-topos {#nCase}
@@ -93,7 +119,7 @@ In this case $\Pi = \Pi_\infty$ is the [[schreiber:homotopy ∞-groupoid]] funct
 
 
 
-### Examples
+### Examples {#LocallyContractibleExamples}
 
 This proposition gives a large supply of examples.
 
@@ -134,10 +160,59 @@ For a more exhaustive list of extra structures see
 
 * [[schreiber:structures in an (∞,1)-topos]].
 
+### Locally contractible and contractible {#Contractible}
+
+
+By anlogy with the situation for locally connected and connected toposes discussed [above](#Connected), we may say
+
++-- {: .un_def}
+###### Definition
+
+A locally contractible $(\infty,1)$-topos $\mathbf{H}$ is **contractible** if $LConst : \infty Grpd \to \mathbf{H}$ is a [[full and faithful (∞,1)-functor]].
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+A contractible $(\infty,1)$-topos has the _shape_ of the point, in the sense of [[shape of an (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By a basic property of [[adjoint (∞,1)-functor]]s, $LConst$ being a [[full and faithful (∞,1)-functor]]  is equivalent to the unit of $(LConst \dashv \Gamma)$ being an [[equivalence in a quasi-category|equivalence]]
+
+$$
+ Id_{\infty Grpd} \stackrel{\simeq}{\to} \Gamma Lconst
+ \,.
+$$
+
+By definition of [[shape of an (∞,1)-topos]] this means that $\mathbf{H}$ has the same shape as [[∞Grpd]], hence the "shape of the point".
+
+=--
+
+Notice also that for a locally contractible $(\infty,1)-topos$ that is also a congtractible $(\infty,1)$-topos the $(\infty,1)$-adjunction
+
+$$
+  \infty Grpd \stackrel{\overset{\Pi}{\leftarrow}}{\hookrightarrow} \mathbf{H}
+$$
+
+exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. We may think then of [[∞Grpd]] as being the [[localization of an (∞,1)-category|localization]] of $E$ at those morphisms that induce equivalences on geometric realizations, hence isomorphisms on geometric [[homotopy groups in an (∞,1)-topos]].
+
+
+
+**Examples.** All the locally conneted $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also contractible.
+
+
 [[!redirects locally connected topos]]
 [[!redirects locally n-connected (∞,1)-topos]]
 [[!redirects locally contractible (infinity,1)-topos]]
 [[!redirects locally contractible (∞,1)-topos]]
 [[!redirects n-connected (∞,1)-topos]]
+
 [[!redirects contractible (infinity,1)-topos]]
 [[!redirects contractible (∞,1)-topos]]
+[[!redirects contractible (infinity,1)-toposes]]
+[[!redirects contractible (∞,1)-toposes]]
