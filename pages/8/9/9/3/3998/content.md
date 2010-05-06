@@ -1,35 +1,16 @@
 We begin with a sequence of functions of some variables $\theta_1,\theta_2,\theta_3,\dots$:
 
 $$
-f_0(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{even}\;n \ge 0} (-1)^{n/2} \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
-$$
-
-$$
-f_1(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{odd}\;n \ge 1} (-1)^{(n-1)/2} \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
-$$
-
-$$
-f_2(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{even}\;n \ge 2} (-1)^{(n-2)/2} n \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
-$$
-
-$$
-f_3(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{odd}\;n \ge 3} (-1)^{(n-3)/2} (n-1) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
-$$
-
-$$
-f_4(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{even}\;n \ge 4} (-1)^{(n-4)/2} n(n-2) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
-$$
-
-$$
-f_5(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{odd}\;n \ge 5} (-1)^{(n-5)/2} (n-1)(n-3) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
-$$
-
-$$
-f_6(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{even}\;n \ge 6} (-1)^{(n-6)/2} n(n-2)(n-4) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
-$$
-
-$$
-f_7(\theta_1,\theta_2,\theta_3,\dots) = \sum_{\text{odd}\;n \ge 7} (-1)^{(n-7)/2} (n-1)(n-3)(n-5) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
+\begin{aligned}
+f_0(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{even}\;n \ge 0} (-1)^{n/2} \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+f_1(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 1} (-1)^{(n-1)/2} \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+f_2(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{even}\;n \ge 2} (-1)^{(n-2)/2} n \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+f_3(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 3} (-1)^{(n-3)/2} (n-1) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+f_4(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{even}\;n \ge 4} (-1)^{(n-4)/2} n(n-2) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+f_5(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 5} (-1)^{(n-5)/2} (n-1)(n-3) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+f_6(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{even}\;n \ge 6} (-1)^{(n-6)/2} n(n-2)(n-4) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i \\
+f_7(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 7} (-1)^{(n-7)/2} (n-1)(n-3)(n-5) \sum_{|A| = n} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i
+\end{aligned}
 $$
 
 Etc.  In each case we could have said $\text{even}\;n \ge 0$ or $\text{odd}\;n \ge 0$, since the coefficients kill off the terms in which $n$ is smaller than the index.
@@ -46,19 +27,12 @@ and if $k = 0$ or $1$ then the difference is 0.  (Maybe the lemma only works for
 
 * Identities:
 $$
-f_0(\theta_1,\theta_2,\theta_3,\dots) = \cos(\theta_1 + \theta_2 + \theta_3 + \cdots).
-$$
-
-$$
-f_1(\theta_1,\theta_2,\theta_3,\dots) = \sin(\theta_1 + \theta_2 + \theta_3 + \cdots).
-$$
-
-$$
-\text{If}\;\sum_{i \ge 1} \theta_i = \pi,\;\text{then}\;f_2(\theta_1,\theta_2,\theta_3,\dots) = \sum_{i \ge 1} \sin^2 \theta_i.
-$$
-
-$$
-\text{If}\;\sum_{i \ge 1} \theta_i = \pi,\;\text{then}\;f_3(\theta_1,\theta_2,\theta_3,\dots) = \sum_{i \ge 1} \frac{\sin(2\theta_i)}{2}.
+\begin{aligned}
+f_0(\theta_1,\theta_2,\theta_3,\dots) &= \cos(\theta_1 + \theta_2 + \theta_3 + \cdots). \\
+f_1(\theta_1,\theta_2,\theta_3,\dots) &= \sin(\theta_1 + \theta_2 + \theta_3 + \cdots). \\
+\text{If}\;\sum_{i \ge 1} \theta_i &= \pi,\;\text{then}\;f_2(\theta_1,\theta_2,\theta_3,\dots) = \sum_{i \ge 1} \sin^2 \theta_i. \\
+\text{If}\;\sum_{i \ge 1} \theta_i &= \pi,\;\text{then}\;f_3(\theta_1,\theta_2,\theta_3,\dots) = \sum_{i \ge 1} \frac{\sin(2\theta_i)}{2}.
+\end{aligned}
 $$
 
 I know of no simple geometric interpretation of the identity involving $f_2$, but there is one for $f_3$.  Suppose $\theta_i, i \ge 1$ are the angles between adjacent diagonals of a polygon inscribed in a circle of unit diameter.  For present purposes we consider the sides of the polygon to be "diagonals".  Note that all but two of the $\theta_i$ appear at each vertex.  For example, in an octagon, at one vertex the angles are $\theta_1,\dots,\theta_6$ at the next vertex they are $\theta_2,\dots,\theta_7$; at the next they are $\theta_3,\dots,\theta_8$; and then at the next they are $\theta_4,\dots,\theta_8,\theta_1$, i.e. we start over again.  Then the value of each side of the identity involving $f_3$ is the area of the polygon.  Each term on the right side of the identity is the signed area of a triangle having one vertex at the center of the circle.  As one goes counterclockwise around the polygon, the signed area is positive or negative as the ray from the center is then turning counterclockwise or clockwise.  The terms on the left side may perhaps not admit so simple an interpretation when the number of nonzero $\theta_i$ is more than 4.  The special case involving only three nonzero $\theta_i$ is the well-known (?) identity that says that if $\alpha+\beta+\gamma=\pi$ then $4\sin\alpha\sin\beta\sin\gamma = sin(2\alpha) + \sin(2\beta) + \sin(2\gamma)$.  (A student in India whom I encountered via the internet told me that the problem of proving that identity recurs perennially on the joint entrance exam of the Indian Institutes of Technology.  Hence "well known".  I don't know if I ever knew his name.)
