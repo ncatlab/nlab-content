@@ -63,7 +63,12 @@ A space $X$ is **totally disconnected** if its connected components are precisel
 
 ## Path-connectedness 
 
-An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. We say $X$ is **path-connected** if it has exactly one path component.
+An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. In a [[nice category of spaces]], the set $\pi_0(X)$ of path components may be equivalently defined to be the coequalizer in 
+
+$$X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X \to \pi_0(X)$$
+
+
+We say $X$ is **path-connected** if it has exactly one path component.
 
 It follows easily from the basic results above that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$). The **topologist's sine curve**
 $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\vee\; (0 = x \;\wedge\; -1 \leq y \leq 1) \} $$
