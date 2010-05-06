@@ -7,6 +7,10 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+An [[operad]] is a structure that encodes lots of _operations_ . An **algebra over an operad** is a structure on which all these operations have an [[action]].
+
 ## Definition 
 
 Let $M$ be a [[closed monoidal category|closed symmetric monoidal category]] with monoidal unit $I$, and let $X$ be any object. There is a canonical or tautological [[operad]] $Op(X)$ whose $n^{th}$ component is the internal hom $M(X^{\otimes n}, X)$; the operad identity is the map 
