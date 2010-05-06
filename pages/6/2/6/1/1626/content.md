@@ -80,3 +80,6 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 [[!redirects locally path-connected space]]
 [[!redirects totally disconnected space]]
 [[!redirects connected component]]
+
+[[!redirects connected topological space]]
+[[!redirects connected topological spaces]]
