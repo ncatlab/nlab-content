@@ -12,7 +12,7 @@ The method of proving this depends mostly on the structure of the target and onl
 
 +-- {: .num_theorem #mfdconj}
 ###### Conjecture
-Let $N$ be a [curvaceously compact Fr&#246;licher space](Froelicher+space#compact).  Let $M$ be a smooth manifold that admits a [[local addition]].  Then the Fr&#246;licher space of smooth maps from $N$ to $M$ is a smooth manifold.
+Let $N$ be a [[Frölicher space]] whose [[curvaceous topology]] is [[sequentially compact]].  Let $M$ be a smooth manifold that admits a [[local addition]].  Then the Fr&#246;licher space of smooth maps from $N$ to $M$ is a smooth manifold.
 =--
 
 
@@ -41,11 +41,11 @@ Another remark worth saying is that the conjecture stated is not the most genera
 
 ## Linearity ## 
 
-The key property on the source is that it be _curvaceously compact_.  The reason for this is to do with relating open sets in the target to open sets in the mapping space.
+The key property on the source is that it be [[sequentially compact]] (with the curvaceous topology).  The reason for this is to do with relating open sets in the target to open sets in the mapping space.
 
 +-- {: .num_prop #PropLin}
 ###### Proposition ######
-Let $N = (N, C_N, F_N)$ be a [curvaceously compact Fr&#246;licher space](Froelicher+space#DefCurvComp).  Let $E$ be a [[convenient vector space]].  Let $U$ be a $0$-neighbourhood in $E$ in the $c^\infty$-topology.  Then the set
+Let $N = (N, C_N, F_N)$ be a [[Frölicher space]] whose [[curvaceous topology]] is [[sequentially compact]].  Let $E$ be a [[convenient vector space]].  Let $U$ be a $0$-neighbourhood in $E$ in the $c^\infty$-topology.  Then the set
 
 $$
 C^\infty(N,U) \coloneqq \{f \colon N \to E : f(N) \subseteq U\}
@@ -58,7 +58,7 @@ is a $0$-neighbourhood of $C^\infty(N,E)$ in the $c^\infty$-topology.
 ###### Proof ######
 The Fr&#246;licher space structure on $C^\infty(N,E)$ is such that  smooth maps $X \to C^\infty(N,E)$ correspond to smooth maps $X \times N \to E$.  Therefore, a smooth curve $c \colon \mathbb{R} \to C^\infty(N,E)$ corresponds to a smooth map $\hat{c} \colon \mathbb{R} \times N \to E$.
 
-The $c^\infty$-topology is the [curvaceous topology](Froelicher+space#FroTop).  In this topology, a set is open if its preimage under all smooth curves is open.  So to determine whether or not $C^\infty(N,U)$ is a $0$-neighbourhood, we need to examine $c^{-1}(C^\infty(N,U))$.  This is the set
+The $c^\infty$-topology is the [[curvaceous topology]].  In this topology, a set is open if its preimage under all smooth curves is open.  So to determine whether or not $C^\infty(N,U)$ is a $0$-neighbourhood, we need to examine $c^{-1}(C^\infty(N,U))$.  This is the set
 
 $$
 \{t \in \mathbb{R} : c(t)(N) \subseteq U\} = \{t \in \mathbb{R} : \hat{c}(t,x) \in U \forall x \in N\}
@@ -66,18 +66,17 @@ $$
 
 Now $\hat{c} \colon \mathbb{R} \times N \to E$ is smooth and so $\hat{c}^{-1}(U)$ is open in $\mathbb{R} \times N$.  The relationship between $\hat{c}^{-1}(U)$ and $c^{-1}(C^\infty(N,U))$ is that $t \in c^{-1}(C^\infty(N,U))$ if and only if $\{t\} \times N \subseteq \hat{c}^{-1}(U)$.
 
-Now we apply the curvaceous compactness of $N$ to deduce that as $\hat{c}^{-1}(U)$ is open, it contains a subset of the form $(-\epsilon,\epsilon) \times N$ for some $\epsilon \gt 0$.  Then $(-\epsilon,\epsilon) \subseteq c^{-1}(C^\infty(N,U))$ and so $c^{-1}(C^\infty(N,U))$ is a neighbourhood of $0$.
+Now we apply the sequential compactness of $N$ to deduce that as $\hat{c}^{-1}(U)$ is open, it contains a subset of the form $(-\epsilon,\epsilon) \times N$ for some $\epsilon \gt 0$.  Then $(-\epsilon,\epsilon) \subseteq c^{-1}(C^\infty(N,U))$ and so $c^{-1}(C^\infty(N,U))$ is a neighbourhood of $0$.
 
 Thus as $c$ was a generic smooth curve, $C^\infty(N,U)$ is a $0$-neighbourhood in $C^\infty(N,E)$.
 =--
 
-This result can fail if $N$ is not curvaceously compact, as shown by the simplest example: $N = E = \mathbb{R}$.  For this example, the topologies involved are all the "standard" ones.  In particular, the $0$-neighbourhoods in $C^\infty(\mathbb{R},\mathbb{R})$ are defined by uniform convergence on compact subsets of $\mathbb{R}$.  Hence the set $\{f \colon \mathbb{R} \to \mathbb{R} : \abs{f(t)} \lt 1\}$ is not a $0$-neighbourhood.
-
+This result can fail if $N$ is not sequentially compact, as shown by the simplest example: $N = E = \mathbb{R}$.  For this example, the topologies involved are all the "standard" ones.  In particular, the $0$-neighbourhoods in $C^\infty(\mathbb{R},\mathbb{R})$ are defined by uniform convergence on compact subsets of $\mathbb{R}$.  Hence the set $\{f \colon \mathbb{R} \to \mathbb{R} : \abs{f(t)} \lt 1\}$ is not a $0$-neighbourhood.
 
 
 ## Charts 
 
-Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a curvaceously compact [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a family of subsets of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
+Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a sequentially compact [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a family of subsets of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
 
 We assume that the _pair_ $(M,\{P_i\})$ admits a [[local addition]].  By that, we mean that $M$ admits a local addition, say $\eta$, with the property that it restricts to a local addition on each $P_i$.  We shall also assume, for simplicity, that the domain of $\eta$ is $T M$.
 
@@ -89,7 +88,7 @@ $$
 
 and then take the space of smooth maps $f \colon N \to g^* T M$ with the property that the composition $N \to g^* T M \to N$ is the identity.  Within that space, we further restrict to those $f$ such that the image of the map $Q_i \to g^* T M \to T M$ lies in $T P_i$.
 
-Although $N$ could be quite complicated, because $T M \to M$ is a vector bundle, $E_g$ is a vector space.  Furthermore, by trivialising $g^* T M$ using a finite number of trivialisations (possible as $N$ is curvaceously compact), we can embed $E_p$ as a closed subspace of $C^\infty(N,V^n)$ for some $n$.  This embedding shows that $E_p$ is a [[convenient vector space]], in the sense of [Kriegl and Michor](#km).
+Although $N$ could be quite complicated, because $T M \to M$ is a vector bundle, $E_g$ is a vector space.  Furthermore, by trivialising $g^* T M$ using a finite number of trivialisations (possible as $N$ is sequentially compact), we can embed $E_p$ as a closed subspace of $C^\infty(N,V^n)$ for some $n$.  This embedding shows that $E_p$ is a [[convenient vector space]], in the sense of [Kriegl and Michor](#km).
 
 +-- {: .query}
 [[Andrew Stacey]] This, I think, is the crucial part: that $E_p$ is a convenient vector space.  I need to expand on this and check that all is as I think it is.
