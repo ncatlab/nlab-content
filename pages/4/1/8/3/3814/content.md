@@ -18,7 +18,9 @@ as well as three of the four _fundamental forces_ as currently known, which, som
 
 The main ingredient missing from the standard model is the [[quantum physics|quantum]] version of the field of [[gravity]]. For decades, a large part of theoretical physics has been absorbed with attempts to understand how this last of the known fundamental forces might fit into the picture.
 
-As a [[quantum field theory]], the standard model is in particular a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]]. Although there are several approaches to formulate a mathematically precise definition of what a [[quantum field theory]] is, there is no rigorous formulation (yet) that comprises the whole standard model. 
+As a [[quantum field theory]], the standard model is in particular a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]] with [[spinors in Yang-Mills theory]]. 
+
+Although there are several approaches to formulate a mathematically precise definition of what a [[quantum field theory]] is, there is no rigorous formulation (yet) that comprises the whole standard model. 
 
 ## Variations and generalizations
 
