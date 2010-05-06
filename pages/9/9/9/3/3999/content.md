@@ -19,8 +19,18 @@ A topological space is **sequentially compact** if every [[sequence]] in it has 
 Compactness does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces] (href="http://en.wikipedia.org/wiki/Compact_space")). 
 In [[metric spaces]] for example both notions coincide.
 
+A famous example of a space that is compact, but not countably compact, is the product space
+$$
+    I^{I} := [0, 1]^{[0, 1]}
+$$
+with the [[product topology]]. It is compact by the [[Tychonoff theorem]]. 
 
+Points of $I^{I}$ are functions $I \to I$, and the product topology is the topology of pointwise convergence.
 
+Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the binary expansion of $x$. Assume that there is a convergent subsequence $(a_{n_k})$ and define $p \in I$ by the binary expansion that has a $0$ if $n_k$ is even and a $1$ if $n_k$ is odd, then the sequence $(a_{n_k}) (p)$ is $...0, 1, 0, 1...$ which is not convergent: _contradiction_!
+
+(Basically that's the diagonal trick of [[Cantor's theorem]]).
+ 
 # Properties #
 
 The following is a list of properties of and pertaining to sequentially compact spaces.
