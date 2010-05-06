@@ -2,9 +2,15 @@
 [[!include categorification - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
-Decategorification is the reverse of [[vertical categorification]] and turns an $n$-[[n-category|category]] into an $(n-1)$-category.  It corresponds in [[homotopy theory]] to [[truncation]] and taking the [[fundamental n-groupoid]].
+Decategorification is the reverse of [[vertical categorification]] and turns an $n$-[[n-category|category]] into an $(n-1)$-category.  
+
+It corresponds in [[homotopy theory]] to [[truncated|truncation]].
 
 +--{: .query}
 [[Ben Webster]]: Perhaps something could be said about an extended TQFT $F$?  My understanding was that the decategorification of $F(X)$ was given by $F(X\times S^1)$; is this right?   
