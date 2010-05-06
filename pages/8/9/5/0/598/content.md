@@ -3,7 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 Recall that a [[simplicial set]] is a combinatorial [[model structure on simplicial sets|model]] for a [[topological space]]. This relation is most immediate when the simplicial set is in fact a [[Kan complex]] (an [[∞-groupoid]]).
 
@@ -17,7 +17,7 @@ Accordingly (as discussed at [[group]]) a simplicial group $G$ gives rise to
 
 * a one-object $\infty$-groupoid $\mathbf{B} G$ whose explicit standard realization as a [[simplicial set]] is denoted $\bar W G$
 
-* an $\infty$-groupoid $\mathbf{E} G$ whose explicit standatd realization as a [[simplicial set]] (even a simplicial group, again) is denoted $W G$
+* an $\infty$-groupoid $\mathbf{E} G$ whose explicit standard realization as a [[simplicial set]] (even a simplicial group, again) is denoted $W G$
 
 * such that there is a fibration
   $$
@@ -35,13 +35,15 @@ Accordingly (as discussed at [[group]]) a simplicial group $G$ gives rise to
   which is the [[generalized universal bundle|universal G-bundle]].
 
 
-#Definition#
- A **simplicial group**, $G$, is a [[simplicial object]] in the category of groups.
+## Definition
 
-#Notation# 
+A **simplicial group**, $G$, is a [[simplicial object]] in the [[category]] [[Grp]] of [[group]]s.
+
+## Notation
+
 The category of simplicial groups is the category of functors from $\Delta^{op}$ to [[Grp]].  It will be denoted $\Simp\Grp$.
 
-#Properties#
+## Properties
 
 
 +-- {: .un_theorem}
@@ -91,7 +93,7 @@ Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$
 
 * There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplcial groupoid. This has a left adjoint $\overline{W}$ (see below), called the _classifying space_ functor, and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
 
-#  The adjunction between simplicial groups and simplicial sets #
+##  The adjunction between simplicial groups and simplicial sets 
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -121,27 +123,27 @@ This functor $\mathbb{Z}$ has the following properties:
 =--
 
 
-# Classifying space and universal bundle of a simplicial group. #
+## Classifying space and universal bundle of a simplicial group 
 
-Every simplicial group $H$ gives rise to a one-object [[∞-groupoid]] $\mathbf{B} G$ whose explicit realization as a [[Kan complex]] is traditionally denoted $\bar W H$.
+Every simplicial group $G$ gives rise to a one-object [[∞-groupoid]] $\mathbf{B} G$ whose explicit realization as a [[Kan complex]] is traditionally denoted $\bar W G$.
 
 We will give this in the more general form needed for a [[simplicial groupoid]].
 
 For a general discussion on [[classifying space|classifying spaces]] go to that entry.
 
-Let $H$ be a simplicial groupoid, then $\overline{W}H$ is the simplicial set  described by
+Let $G$ be a simplicial groupoid, then $\overline{W}G$ is the simplicial set  described by
 
-* $(\overline{W}H)_0 = ob(H_0)$, the set of objects of the groupoid of 0-simplices (and hence of the groupoid at each level);
+* $(\overline{W}G)_0 = ob(G_0)$, the set of objects of the groupoid of 0-simplices (and hence of the groupoid at each level);
 
-* $(\overline{W}H)_1 = arr(H_0)$, the set of arrows of the groupoid $H_0$:
+* $(\overline{W}G)_1 = arr(G_0)$, the set of arrows of the groupoid $G_0$:
 
 
 and for $n \geq 2$,
 
-*  $(\overline{W}H)_n = \{(h_{n-1}, \ldots ,h_0)| h_i \in arr(H_i)$  and $s(h_{i-1}) = t(h_i), 0\lt i\lt n\}$.
+*  $(\overline{W}G)_n = \{(h_{n-1}, \ldots ,h_0)| h_i \in arr(G_i)$  and $s(h_{i-1}) = t(h_i), 0\lt i\lt n\}$.
 
 Here  $s$ and $t$ are generic symbols for the domain and codomain mappings of all the groupoids involved.  The face and degeneracy mappings between 
-$\overline{W}(H)_1$ and $\overline{W}(H)_0$ are the source and target maps and the identity maps of $H_0$, respectively; whilst the face and degeneracy maps at higher levels are given as follows:
+$\overline{W}(G)_1$ and $\overline{W}(G)_0$ are the source and target maps and the identity maps of $G_0$, respectively; whilst the face and degeneracy maps at higher levels are given as follows:
 
 The face and degeneracy maps are given by
 
@@ -169,11 +171,11 @@ The face and degeneracy maps are given by
 
 
 
-# References #
+## References 
 
 A standard reference for the case of _abelian_ simplicial groups is [chapter 5](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi) of
 
-* Gorss-Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* Goerss-Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 Section 1.3.3 of
 
@@ -185,7 +187,7 @@ The algorithm for finding the horn fillers in a simplicial group is given in the
 
 theorem 17.1, page 67 of
 
-* P. May, _Simplicial Objects in Algebraic Topology_ .
+* [[Peter May]], _Simplicial Objects in Algebraic Topology_ .
 
 The theorem that every simplicial group is a Kan complex is originally due to
 
