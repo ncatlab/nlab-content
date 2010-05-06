@@ -540,6 +540,13 @@ $\infty$-bundles as homotopy pullbacks of the point continues to be valid.
 In low degree this is then, more or less explicitly, the description of higher principal bundles
 by Bartels, Bakovi&cacute;, Wockel, etc., as referenced at [[principal 2-bundle]].
 
+
+## Examples
+
+* A [[Chern-Simons 2-gerbe]] is effectively a (cocycle for a) $\mathbf{B}^2 U(1)$-principal 3-bundle.
+
+...
+
 ## References
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsors]]) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
