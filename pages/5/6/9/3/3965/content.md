@@ -1,80 +1,106 @@
-[[!redirects Dirac electron]]
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
 
 
-The purpose of this page is to explain - using appropriate mathematical terminology - Dirac's theory of coupling particles with spin to a gauge field. 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-Useful literature on this topic is:
+## Idea
 
-* C. B&#228;r, _Introduction to Spin Geometry_, Oberwolfach Reports 53 (2006), p. 3135-3136.
-
-* D. Bleecker, _Gauge Theory and Variational Principles_, Addison-Weasley, 1981.
-
-* H. Blaine Lawson Jr. , Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press, 1989.
-
-* G. L. Naber, _Topology, Geometry and Gauge Dields_, Springer, 1999.
+The purpose of this page is to explain - using appropriate mathematical terminology - Dirac's theory of coupling particles with spin to a [[Yang-Mills field|Yang-Mills]] [[gauge field]]. 
 
 We proceed in three steps: first we recall relevant facts about the gauge field itself, then we discuss charged particles in gauge fields, and finally we add spin. 
 
 
-### Yang-Mills Theory ###
+## Yang-Mills Theory 
 
-(see: the main article about [Yang-Mills Theory](http://ncatlab.org/nlab/show/Yang-Mills+theory))
+(see: the main article about [[Yang-Mills theory]])
 
-Under a _spacetime_ we understand a smooth, oriented, Pseudo-Riemannian manifold. 
+Under a _[[spacetime]]_ we understand a [[smooth manifold|smooth]], oriented, [[pseudo-Riemannian manifold]]. 
 
-**Definition. **
-A _Yang-Mills Theory_ over a space time $M$ is:
++-- {: .un_def}
+###### Definition
 
-* A Lie group $G$, called the _gauge group_, together with an $\mathrm{Ad}$-invariant scalar product $\kappa: \mathfrak{g} \times \mathfrak{g} \to \R$ on its Lie algebra $\mathfrak{g}$.
+A **[[Yang-Mills theory]]** over a [[spacetime]] $M$ is:
 
-* A principal $G$-bundle $P$ over $M$.
+* A [[Lie group]] $G$, called the _gauge group_, together with an $\mathrm{Ad}$-invariant scalar product $\kappa: \mathfrak{g} \times \mathfrak{g} \to \R$ on its [[Lie algebra]] $\mathfrak{g}$.
 
-A _gauge field_ is a connection $\omega \in \Omega^1(P,\mathfrak{g})$ on $P$. The action functional is 
+* A $G$-[[principal bundle]] $P$ over $M$.
+
+A _gauge field_ is a [[connection on a bundle|connection]] $\omega \in \Omega^1(P,\mathfrak{g})$ on $P$. The [[action functional]] is 
 
 $$
 S_{YM}(\omega) := \frac{1}{2} \int_M \| F_{\omega} \|_\kappa^2.
 $$
 
+=--
 
-**Remark. **
+
+
++-- {: .un_remark}
+###### Remark
+
 Above we have used the following notation:
 
 * $F_{\omega} \in \Omega^2(M,\mathrm{Ad}(P))$ is the curvature of $\omega$.
 
-* $\mathrm{Ad}(P) := P \times_{\mathrm{Ad}} \mathfrak{g}$ is the adjoint bundle.
+* $\mathrm{Ad}(P) := P \times_{\mathrm{Ad}} \mathfrak{g}$ is the 
+  [[adjoint bundle]].
 
 * $\| \psi \|_{\kappa}^2 := \psi \wedge_{\kappa} \star \psi   \in \Omega^n(M)$. In general, if $U,V,W$ are vector spaces, $\varphi \in \Omega^p(M,V)$, $\psi\in\Omega^q(M,W)$ and $f: V \times W \to U$ is a linear map, we have $\varphi \wedge_{f} \psi \in \Omega^{p+q}(M,U)$. 
 
-* $\star* is the Hodge-star operator determined by the metric on $M$.
+* $\star$ is the [[Hodge-star operator]] determined by the [[metric]] on $M$.
+
+=--
 
 
-**Remark. **
-The Euler-Lagrange equations determined by the above action together with the Bianchi identity are called _Yang-Mills equations_:
++-- {: .un_remark}
+###### Remark
+
+The [[Euler-Lagrange equation]]s determined by the above action together with the [[Bianchi identity]] are called _[[Yang-Mills equations]]_:
+
 $$
 \mathrm{D}^{\omega}\star F_{\omega} = 0
 \quad\text{ and }\quad
 \mathrm{D}^{\omega}F_{\omega}=0,
 $$
-where $\mathrm{D}^\omega$ denotes the [covariant derivative](http://ncatlab.org/nlab/show/exterior+covariant+derivative).
+
+where $\mathrm{D}^\omega$ denotes the [[exterior covariant derivative|covariant derivative]].
+
+=--
 
 
-**Definition.**
-A _gauge transformation_ is a smooth bundle morphism $g: P \to P$.
++-- {: .un_definition}
+###### Definition
+
+A _gauge transformation_ is a smooth [[bundle]] morphism $g: P \to P$.
+
+=--
 
 
-**Remark.**
++-- {: .un_remark}
+###### Remark
+
 Let $g: P \to P$ be a gauge transformation.
 
 * If $\omega$ is a connection on $P$, then $g^{*}\omega$ is another connection on $P$. 
 
 * One can identify $g$ with a smooth map $\tilde g: P \to G$, namely by $g=r_{\tilde g}$, i.e. $g(p) = p \cdot \tilde g(p)$ for all $p\in P$. 
 
-* The pullback along a gauge transformation restricts to an automorphism of $\Omega^k_{\rho}(P,V)$. In terms of the associated map $\tilde g$, we have
+* The pullback along a gauge transformation restricts to an [[automorphism]] of $\Omega^k_{\rho}(P,V)$. In terms of the associated map $\tilde g$, we have
 $$
 g^{*}\psi = \rho(\tilde g^{-1},\psi)\text{.}
 $$
 
-**Theorem. **
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+
 The Yang-Mills action functional $S_{YM}$ is gauge-invariant, i.e. 
 $$
 S_{YM}(g^{*}\omega) = S_{YM}(\omega)
@@ -82,7 +108,11 @@ $$
 for all gauge transformations $g:P \to P$.
 
 
-Proof. 
+=--
+
++-- {: .proof}
+###### Proof
+
 We have $g^{*}\omega  = \mathrm{Ad}_{\tilde g}^{-1}(\omega) - \tilde g^{*}\bar\theta$ and $g^{*}\Omega = \mathrm{Ad}_{\tilde g}^{-1}(\Omega)$.
 Under the isomorphism $\Omega^k(P,\mathrm{Ad}) \cong \Omega^2(M,\mathrm{Ad}(P))$ this corresponds to $F_{g^{*}\omega} = \mathrm{Ad}_{g} (F_{\omega})$. Since the bilinear form $\kappa$ is $\mathrm{Ad}$-invariant by assumption, 
 $$
@@ -92,12 +122,17 @@ $$
 = \| F_{\omega}\|. 
 $$
 
-**Example. **
-Let $M$ be a spacetime. A classical electromagnetic field theory over $M$ is a Yang-Mills Theory over $M$ with gauge group $G=U(1)$. Also see the main article about [electromagnetic fields](http://ncatlab.org/nlab/show/electromagnetic+field). In more detail: 
+=--
+
+
++-- {: .un_example}
+###### Example
+
+Let $M$ be a [[spacetime]]. A classical [[electromagnetic field]] theory over $M$ is a Yang-Mills Theory over $M$ with gauge group $G=U(1)$. In more detail: 
 
 * for an electromagnetic field theory given by a $U(1)$-bundle $P$ over $M$, we have $\mathrm{Ad}(P) \cong P \times \R$, so that $\Omega^k(M,\mathrm{Ad}(P)) \cong \Omega^k(M)$ and $\Omega^k_{\mathrm{Ad}}(P,\mathfrak{g})\cong \Omega^k_{\mathrm{Ad}}(P)$. In particular, $F_{\omega} \in \Omega^2(M)$. 
 
-* Since $U(1)$ is abelian, $\mathrm{d}(\mathrm{Ad}) = 0$ and so $\mathrm{D}^{\omega}=\mathrm{d}$ on $\Omega^{k}_{\mathrm{Ad}}(P)$.
+* Since $U(1)$ is [[abelian group|abelian]], $\mathrm{d}(\mathrm{Ad}) = 0$ and so $\mathrm{D}^{\omega}=\mathrm{d}$ on $\Omega^{k}_{\mathrm{Ad}}(P)$.
   
 * Thus, the Yang-Mills equations reduce to  Maxwell's equations for an electromagnetic field on $M$:
 $$
@@ -107,36 +142,54 @@ $$
 \text{.}
 $$
 
+=--
 
-### General Matter Fields ###
 
-**Definition. **
+## General Matter Fields 
+
++-- {: .un_def}
+###### Definition
+
 Let $G$ be a gauge group. A _matter type for  $G$_ is a tuple $(V,h,\rho,f)$ consisting of:
 
-* a finite-dimensional real vector space $V$ called the _internal state space_.
+* a finite-dimensional real [[vector space]] $V$ called the _internal state space_.
 
-* a scalar product $h: V \times V \to \R$.
+* a [[scalar product]] $h: V \times V \to \R$.
 
-* a representation $\rho: G \times V \to V$ that is isometric with respect to $h$ i.e. $h(\rho(g)(v),\rho(g)(w)) = h(v,w)$.
+* a [[representation]] $\rho: G \times V \to V$ that is [[isometry|isometric]] with respect to $h$ i.e. $h(\rho(g)(v),\rho(g)(w)) = h(v,w)$.
 
-* a smooth function $f: V \to \R$ that is $\rho$-invariant, i.e. $f(\rho(g)(v))=f(v)$.
+* a [[smooth function]] $f: V \to \R$ that is $\rho$-invariant, i.e. $f(\rho(g)(v))=f(v)$.
+
+=--
 
 
-**Definition. **
-Let $P$ be a principal $G$-bundle over $M$, and let $\mathcal{T} =(V,h,\rho,f)$ be a matter type for $G$. A _field for $P$ of type $\mathcal{T}$_ is a smooth section $\phi: M \to P \times_{\rho} V$. Its  action functional is
++-- {: .un_def}
+###### Definition
+
+Let $P$ be a principal $G$-bundle over $M$, and let $\mathcal{T} =(V,h,\rho,f)$ be a matter type for $G$. A _field for $P$ of type $\mathcal{T}$_ is a smooth [[section]] $\phi: M \to P \times_{\rho} V$. Its  [[action functional]] is
+
 $$
 S_{\mathcal{T}}(\omega,\phi) := \int_M  \;\|\, \mathrm{D}^{\omega}(\phi)\, \|^2_{h}  +  \star (f \circ \phi) \text{.}
 $$
 
-**Theorem. **
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+
 The action functional $S_{\mathcal{T}}$ is gauge invariant, i.e. 
 $$
 S_{\mathcal{T}}(g^{*}\omega,g^{*}\phi) = S_{\mathcal{T}}(\omega,\phi)
 $$
 for all gauge transformations $g:P \to P$.
 
+=--
 
-Proof. One calculates that $g^{*}\omega = \mathrm{Ad}_{\tilde g}^{-1}(\omega) - \tilde g^{*}\bar\theta$, where $\tilde g:P \to G$ is the smooth map associated to $g$ via $g(p) = p\cdot  \tilde g(p)$. Further, $g^{*}\psi = \rho(\tilde g^{-1})(\psi)$. A computation shows
++-- {: .proof}
+###### Proof
+
+One calculates that $g^{*}\omega = \mathrm{Ad}_{\tilde g}^{-1}(\omega) - \tilde g^{*}\bar\theta$, where $\tilde g:P \to G$ is the smooth map associated to $g$ via $g(p) = p\cdot  \tilde g(p)$. Further, $g^{*}\psi = \rho(\tilde g^{-1})(\psi)$. A computation shows
 $$
 \mathrm{d}(\rho(\tilde g^{-1})(\psi)) = \rho(\tilde g^{-1})(\mathrm{d}\psi) + \tilde g^{*}\bar\theta\wedge_{\mathrm{d}\rho} \rho(\tilde g^{-1})(\psi)\text{,}
 $$
@@ -159,30 +212,50 @@ $\quad\quad\quad\quad= \rho(\tilde g^{-1},\mathrm{d}^{\omega}\psi)\text{.}$
 
 Since $h$ is invariant, the invariance of the first term follows. The invariance of the second term is clear.
 
-**Remark. **
+=--
+
+
+
++-- {: .un_remark}
+###### Remark
+
+
 One can either keep a connection $\omega$ fixed and consider
+
 $$
 S_{\omega}(\phi) := S_{\mathcal{T}}(\omega,\phi)
 $$
+
 as a matter field in an "external gauge field", or consider the combined action functional
+
 $$
 S(\omega,\phi) := S_{Y\!M}(\omega) + S_{\mathcal{T}}(\omega,\phi)\text{.}
 $$
 
 
-**Example ** (Scalar particle in an external, trivial gauge field).
+=--
+
+
++-- {: .un_example}
+###### Example
+**(Scalar particle in an external, trivial gauge field)**
+
 We consider $G=\left \lbrace e \right \rbrace$, $P=M$, so that necessarily $\omega=0$. A _scalar field_ is field for $M$ of matter type $(\R,h,\id,f)$ where $f(x) := -\frac{1}{2}m^2x^2$ and $h(x,y) = x y$. The action functional is
 $$
 S(0,\phi) =\frac{1}{2} \int_M  \| \mathrm{d}\phi \|_h^2 +\star m^{2}\phi^2\text{.}
 $$
-The Euler-Lagrange equation is the _Klein-Gordon equation_
+The Euler-Lagrange equation is the _[[Klein-Gordon equation]]_
 $$
 (\triangle + m^2)\phi = 0\text{,}
 $$
 where $\triangle := \delta \circ \mathrm{d}: \Omega^k(M) \to \Omega^{k}(M)$ is the Laplace operator and $\delta := \star \mathrm{d} \star$ is the exterior coderivative. 
 
+=--
 
-**Example ** (Charged particle in an  electromagnetic field, e.g. a $\pi^{-}$-meson)
++-- {: .un_example}
+###### Example
+**(Charged particle in an  electromagnetic field, e.g. a $\pi^{-}$-meson)**
+
 Let $P$ be a $U(1)$-principal bundle over $M$. A _field of charge $n \in \Z$_ is a field for $P$ of matter type $(\C,h,\rho_n,f)$, where $\rho_n: U(1) \times \C \to \C$ is defined by $\rho_n(z,z') := z^nz'$  and $f(z) := -\frac{1}{2}m^2|z|^2$. The action functional is
 $$
 S(\omega,\phi) =\frac{1}{2} \int_M  \| \mathrm{D}^{\omega}\phi \|^2 +\star m^{2} \| \phi \| ^2\text{.}
@@ -193,15 +266,21 @@ $$
 $$
 where $\triangle^{\omega} :=\delta^{\omega}\circ \mathrm{D}^{\omega}$ is the _covariant Laplace operator_ and $\delta^{\omega} := \star \mathrm{D}^{\omega} \star$ is the _exterior covariant coderivative_. 
 
+=--
 
-### Matter Fields with Spin ###
 
-The Klein-Gordon equations found above are -- unlike the Schr&#246;dinger equation -- of second order on time. Dirac's motivation was to find a first order equation which upon iteration yields the Klein-Gordon equation. 
-We first discuss free spinors (where free means that there are not coupled to an electromagntic field, but still feel the "gravity" of the manifold), and then add the coupling.
 
-#### Free Spinors ####
+## Matter Fields with Spin 
 
-**Remark.** We recall some facts about Clifford algebras and the spin group. Also see the main article about [clifford algebras](http://ncatlab.org/nlab/show/Clifford+algebra). 
+The [[Klein-Gordon equation]]s found above are -- unlike the [[Schrödinger equation]] -- of second order on time. Dirac's motivation was to find a first order equation which upon iteration yields the Klein-Gordon equation. 
+We first discuss free [[spinor]]s (where free means that they are not coupled to an [[electromagnetic field]], but still feel the "[[gravity]]" of the [[spacetime]] [[manifold]]), and then add the coupling.
+
+### Free Spinors 
+
++-- {: .un_example}
+###### Example
+
+We recall some facts about [[Clifford algebra]]s and the [[spin group]]. 
 
 * We denote by $C(p,q)$ the Clifford algebra on $\R^{p,q}$, i.e. the quotient of the tensor algebra of $\R^{p+q}$ by the ideal generated by $v \otimes w + w \otimes v + 2 \left \langle v,w  \right \rangle\cdot 1$, where $\left \langle -,-  \right \rangle$ is the Minkowski scalar product of signature $(p,q)$. 
 
@@ -209,7 +288,7 @@ We first discuss free spinors (where free means that there are not coupled to an
 
 * We have $\dim C(p,q) = 2^{p+q}$.
 
-* The Clifford algebra inherits a bilinear form $H(v,w) := (v^{tr}w)_0$, where $()^{tr}$ is the anti-automorphism of the tensor algebra that reverts the order of tensor products, and $()_0$ denotes the degree 0 part.
+* The Clifford algebra inherits a [[bilinear form]] $H(v,w) := (v^{tr}w)_0$, where $()^{tr}$ is the anti-automorphism of the tensor algebra that reverts the order of [[tensor product]]s, and $()_0$ denotes the degree 0 part.
 
 * We denote by $SO(p,q)$ the group of linear maps $\R^{p+q}\to \R^{p+q}$ that preserve the product $\left \langle -,-  \right \rangle$. 
 We define
@@ -233,11 +312,17 @@ $$
 * The representation $\Sigma$ is isometric with respect to $H$. 
 If $p+q$ is odd, $k=2^{(p+q-1)/2}$, and $\Sigma$ is irreducible. If $p+q$ is even, $k=2^{(p+q)/2}$, and $\Sigma = \Sigma^{+} \oplus \Sigma^{-}$ with $\Sigma^{\pm}$ irreducible and  $\dim_{\C}\Sigma^{\pm}=2^{(p+q-2)/2}$. 
 
-**Remark. ** We also need some facts about spin structures. Also see the main article about [spin structures](http://ncatlab.org/nlab/show/spin+structure).
+=--
 
-* Let $M$ be a spacetime with pseudo-Riemannian metric of signature $(p,q)$. We denote by $FM$ be the principal $SO(p,q)$-bundle over $M$ of orthonormal frames, the _frame bundle_. 
 
-* A _spin structure_ on $M$ is a principal $Spin(p,q)$-bundle $SM$ over $M$ together with a bundle morphism $\lambda: SM \to FM$ such that $\lambda(X\cdot\varphi) = \lambda(X)\cdot\Lambda(\varphi)$ for all $X\in SM$ and all $\varphi\in Spin(p,q)$. 
++-- {: .un_remark}
+###### Remark
+
+We also need some facts about [[spin structure]]s. 
+
+* Let $M$ be a [[spacetime]] with [[pseudo-Riemannian metric]] of [[signature]] $(p,q)$. We denote by $FM$ be the principal $SO(p,q)$-bundle over $M$ of orthonormal frames, the _[[frame bundle]]_. 
+
+* A _[[spin structure]]_ on $M$ is a principal $Spin(p,q)$-bundle $SM$ over $M$ together with a bundle morphism $\lambda: SM \to FM$ such that $\lambda(X\cdot\varphi) = \lambda(X)\cdot\Lambda(\varphi)$ for all $X\in SM$ and all $\varphi\in Spin(p,q)$. 
 
 * Let $\theta \in \Omega^1(FM,\mathfrak{so}(p,q))$ be the Levi-Cevita connection on $FM$. Then, 
 $$
@@ -246,10 +331,15 @@ $$
 is a connection on $SM$. 
 
 
-**Remark. ** 
-Finally, we recall the definition of the Dirac operator. 
+=--
 
-* Let $\rho: C(p,q) \times V \to V$ be a representation, with $V \subset \C(p,q)$. Note that in the above realization of the group $Spin(p,q)$, the representation $\rho$ restricts to a representation of $Spin(p,q)$.
+
++-- {: .un_remark}
+###### Remark
+
+Finally, we recall the definition of the [[Dirac operator]]. 
+
+* Let $\rho: C(p,q) \times V \to V$ be a [[representation]], with $V \subset \C(p,q)$. Note that in the above realization of the group $Spin(p,q)$, the representation $\rho$ restricts to a representation of $Spin(p,q)$.
 The _spinor bundle_ is the vector bundle $V M := SM \times_{\rho} V$. 
 
 * _Clifford multiplication_ is a map
@@ -262,14 +352,19 @@ u \cdot s := (X,\alpha_X(u)\cdot v)\text{.}
 $$
 One can show using above-listed properties of the Clifford algebra that this definition does not depend on the choice of the representative $(X,v)$.
 
-* The _Dirac operator_ is
+* The _[[Dirac operator]]_ is
 $$
 D: \Gamma(M,V M) \to \Gamma(M,V M) : \psi \mapsto \sum_{i} e_i \cdot  \mathrm{D}^{\Theta}\psi (e_i)
 $$
 where $e_i\in TM$ runs over a local orthonormal basis.
 
+=--
 
-**Definition. **
+
+
++-- {: .un_def}
+###### Definition
+
 Let $M$ be a spacetime with spin structure $SM$, and considered as a  $Spin(p,q)$ as a Yang-Mills theory over $M$. A _free spinor_ is a field for $SM$ of type $(V,h,\rho,f)$, where $V \subset \C(p,q)$, the scalar product $h$ is
 $$
 h(v,w):=\frac{1}{2}(H(v,w) + H(w,v))\text{,}
@@ -280,27 +375,45 @@ $$
 S(\psi) := \int_M D \psi \wedge_{h} \star \psi  + \star f \circ \psi\text{.}
 $$
 
-**Remark. **
+=--
+
+
++-- {: .un_def}
+###### Definition
+
 The Euler-Lagrange equation determined by the action functional $S(\psi)$ is the _Dirac equation_
 $$
 D\psi + \mathrm{i}m\psi = 0\text{.}
 $$
 
-**Example. **
-(Weyl spinors).
+=--
+
+
++-- {: .un_def}
+###### Definition
+**(Weyl spinors)**
+
 We assume spacetime to have even dimension.
-_Weyl spinors_ have $V=\Sigma^{\pm}$, with the sign corresponding to left/right-handed spinors. Thus, $\dim_{\C}(V)=2$.
+_[[Weyl spinor]]s_ have $V=\Sigma^{\pm}$, with the sign corresponding to left/right-handed spinors. Thus, $\dim_{\C}(V)=2$.
 Further $f=0$ (they are massless). In the standard model, neutrinos are left-handed Weyl spinors.  
 
-
-**Example. **
-(Dirac spinors).
-We assume spacetime to have signature $(1,3)$. Dirac spinors have $V=\Sigma^{+} \oplus \Sigma^{-}$, so that $\dim_{\C}(V)=4$. The function $f$ is taken to be $f(v)=-mh(v,v)$. In the standard model, electrons are Dirac spinors. 
+=--
 
 
-**Remark.**
++-- {: .un_def}
+###### Definition
+**(Dirac spinors)**
+
+We assume spacetime to have signature $(1,3)$. [[Dirac spinor]]s have $V=\Sigma^{+} \oplus \Sigma^{-}$, so that $\dim_{\C}(V)=4$. The function $f$ is taken to be $f(v)=-mh(v,v)$. In the standard model, electrons are Dirac spinors. 
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
 In the physical literature, the picture is slightly different:
-The representation space $V$ of a spinor is not a subspace of the Clifford algebra, but rather $\C^n$. One can think about this as a further  association of $\C^n$ to the Clifford bundle $VM$ using a representation of $\C(p,q)$ on $\C^n$. Below we describe this in the case of the electron, i.e. $(p,q)=(1,3)$ and $V= \Sigma^{+} \oplus \Sigma^{-}$. Another difference is here that instead of $Spin(1,3)$, physicists use the (non-canonically) isomorphic group $SL(2,\C)$.
+The representation space $V$ of a spinor is not a subspace of the Clifford algebra, but rather $\C^n$. One can think about this as a further  association of $\C^n$ to the Clifford bundle $VM$ using a representation of $\C(p,q)$ on $\C^n$. Below we describe this in the case of the electron, i.e. $(p,q)=(1,3)$ and $V= \Sigma^{+} \oplus \Sigma^{-}$. Another difference is here that instead of $Spin(1,3)$, physicists often use the (non-canonically) isomorphic group $SL(2,\C)$.
 
 * One starts with the following representation  $\gamma: \C(1,3) \to \mathrm{Gl}(4,\C)$. Consider the $\R$-linear map 
 $$
@@ -345,7 +458,12 @@ H(v,w) := v^{\mathrm{tr}}\gamma_0\bar w.
 $$ 
 
 
-**Remark. **
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
 If $M=\R^{1,3}$ one can take the trivial spin structure $SM=M \times SL(2,\C)$. It has a canonical global section, so that a spinor $\psi$ can be identified with a map $\psi: M \to \C^4$. The Dirac operator is now
 $D \psi = \gamma^{i}\partial_i \psi$, where $\gamma^i := \eta^{ik}\gamma_k$. Now, the Dirac equation is
 $$
@@ -369,13 +487,25 @@ $$
 $$
 The smallest matrices satisfying this relation are the above "gamma matrices". If $m=0$, there is a solution in dimension two, the "Pauli matrices". 
 
-**Remark. **
+=--
+
+
+
+
++-- {: .un_remark}
+###### Remark
+
 For a general spacetime $M$, and unlike in the previous remark, $D^2 \neq \triangle$. Rather, $D^2$ is given by the _Lichnerowiz formula_ which has in fact been proved first by Schr&#246;dinger. So, Dirac's motivation actually fails for "curved spacetimes". 
 
 
-### Charged Spinors ###
+=--
 
-**Remark ** (Bundle Splicing).
+
+### Charged Spinors
+
++-- {: .un_remark}
+###### Remark
+**(Bundle Splicing)**
 
 * Consider principal $G_k$-bundles $P_k$ over $M$, for $k=1,2$. The fibre product $P_1 \times_M P_2$ is a principal $(G_1 \times G_2)$-bundle over $M$, denoted $P_1 \circ P_2$.
 
@@ -387,8 +517,13 @@ is a connection on $P_1 \circ P_2$.
 
 * Suppose $V$ is a vector space and $\rho_k: G_k \to \mathrm{Gl}(V)$ are representations, such that $\rho_1(g_1) \circ \rho_2(g_2) = \rho_2(g_2) \circ \rho_1(g_1)$ for all $g_1\in G_1$ and $g_2 \in G_2$. Then, $\rho_1 \times \rho_2$ is a representation of $G_1 \times G_2$ on $V$. 
 
+=--
 
-**Remark. **
+
+
++-- {: .un_remark}
+###### Remark
+
 Let $M$ be a spacetime with spin structure $SM$ and let $P$ be a Yang-Mills theory over $M$ with gauge group $G$. For $\rho_{SM}: Spin(p,q) \to \mathrm{Gl}(V)$ a representation with $V \subset \C(p,q)$, and $\rho_P: G \to \mathrm{Gl}(V)$ a commuting representation, the associated bundle $VP := (SM \circ P) \times_{(\rho_{SM} \times \rho_P)} V$ still has a Clifford multiplication. 
 For $\omega$ a connection on $P$, one can define a Dirac operator 
 $$
@@ -396,7 +531,12 @@ D^{\omega}: \Gamma(M,\Sigma M \circ P) \to \Gamma(M,\Sigma M \circ P):\psi \maps
 $$
 
 
-**Definition. **
+=--
+
+
++-- {: .un_def}
+###### Definition
+
 Let $M$ be a spacetime with spin structure, let $P$ be a Yang-Mills theory with gauge group $G$ over $M$, and let $\rho_P$ be a representation of $G$ on $V$ commuting with $\rho_{SM}$. A _charged spinor_ is a field for $SM \circ P$ of type $(V,h,\rho_{SM} \times \rho_P,f)$, where $V \subset \C(p,q)$ and $H$ is given as before.
 Its action functional is
 $$
@@ -404,7 +544,13 @@ S(\omega, \psi) := \int_M D^{\omega} \psi \wedge_{h} \star \psi    + \star f \ci
 $$
 
 
-**Example **(Spinor in an electromagnetic field).
+=--
+
+
++-- {: .un_def}
+###### Definition
+**(Spinor in an electromagnetic field)**
+
 Here, $\rho_{SM}: Spin(p,q) \to \mathrm{Gl}(V)$ is some representation, and $\rho_P: \ueins \to \mathrm{Gl}(V)$ is given by complex multiplication with $z^{n}$, where $n\in \Z$ is the charge of the spinor. Obviously $\rho_{SM}$ and $\rho_P$ commute. The Euler-Lagrange equation is
 $$
 D^{\omega}\psi + im\psi = 0\text{.}
@@ -413,5 +559,25 @@ If $M=\R^{1,3}$ one can take $SM=M \times SL(2,\C)$. The canonical global sectio
 $$
 D^{\omega}\psi = \gamma^{i}(\partial_{i} + A_i)\psi\text{.}
 $$
-This gives the "Dirac equation" one usually finds in a textbook. 
+This gives the "[[Dirac equation]]" one usually finds in a textbook. 
 
+=--
+
+
+## References
+
+Useful literature on this topic is:
+
+* [[Christian Bär]], _Introduction to Spin Geometry_, Oberwolfach Reports 53 (2006), p. 3135-3136.
+
+* D. Bleecker, _Gauge Theory and Variational Principles_, Addison-Weasley, 1981.
+
+* H. Blaine Lawson Jr. , Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press, 1989.
+
+* G. L. Naber, _Topology, Geometry and Gauge Dields_, Springer, 1999.
+
+
+
+
+[[!redirects Dirac electron]]
+[[!redirects spinors in Yang-Mills theory]]
