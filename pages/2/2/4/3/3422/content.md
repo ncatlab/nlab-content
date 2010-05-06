@@ -805,5 +805,11 @@ for the moment see
 * [[universal fibration of (∞,1)-categories]]. 
 
 
+## References
+
+The construction for $\infty$-groupoid fibrations i.e. left/right fibrations is the content of section 2.2.1, that of quasi-category fibrations i.e. Cartesian fibrations that of section 3.2 in
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
 
 [[!redirects (∞,1)-Grothendieck construction]]
