@@ -66,3 +66,4 @@ However, in the absence of extensionality (i.e. in *intensional* type theory), W
 *  Benno van den Berg & Ieke Moerdijk (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
 [[!redirects W-types]]
+
