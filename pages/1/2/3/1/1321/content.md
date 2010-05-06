@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _category over an operad_ is the [[horizontal categorification]]
 of an [[algebra over an operad|algebra]] over an [[operad]].  It is like an [[enriched category]]
@@ -6,7 +11,7 @@ in which the composition operation is not necessarily binary, but
 parameterized by the [[operad]].
 
 
-#Definition#
+## Definition
 
 Given an [[operad]] $O$ in some [[symmetric monoidal category]]
 $C$, a **category over the operad** $O$, or **$O$-category** $D$ is
@@ -27,7 +32,7 @@ compatibility conditions with the operad composition operation,
 directly analogous to those for $O$-algebras.
 
 
-#Examples#
+## Examples
 
 * Let $Associative$ be the ordinary associtive operad in [[Set]].
 An $Associative$-category is an ordinary [[Set]]-[[enriched category]]
@@ -45,4 +50,4 @@ $A_\infty$-category is an [[A-infinity-category]] (see there).
 
   * [[Trimble n-category]]
 
-  * Eugenia Cheng, _Comparing operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
+  * [[Eugenia Cheng]], _Comparing operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
