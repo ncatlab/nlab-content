@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 [[simplicial set|Simplicial sets]] are the archetypical combinatorial "[[model category|model]]" for the [[(infinity,1)-category]] of (compactly generated weakly Hausdorff) [[topological space]]s and equivalently that of [[infinity-groupoid]]s, as well as a standard model for the [[(infinity,1)-category of (infinity,1)-categories]] itself.
 
@@ -15,9 +15,9 @@ This statement is made precise by the existence of the structure of a [[model ca
 
 
 
-#Classical Model Structure#
+## Classical Model Structure
 
-The classical [[model category|model structure]] on [[SimpSet|the category of simplicial sets]] has the following distinguished classes of morphisms:
+The classical [[model category|model structure]] -- or **Quillen model structure** $sSet_{Quillen}$ on [[sSet]] has the following distinguished classes of morphisms:
 
 * The **cofibrations** $C$ are simply the [[monomorphism]]s $f : X \to Y$ which are precisely the levelwise injections, i.e. the morphisms of simplicial sets such that $f_n : X_n \to Y_n$ is an injection of sets for all $n \in \mathbb{N}$.
 
@@ -86,7 +86,7 @@ This is theorem 11.2 on p. 61 of _GoerJar_ (theorem 7.10, page 34 in the online 
 Importantly, this model structure is [[Quillen equivalence|Quillen equivalent]] to the [[model structure on topological spaces]] with weak homotopy equivalences as weak equivalences and Serre fibrations as fibrations via the geometric realization and total singular complex functors described [[simplicial set|here]].
 
 
-## Relation to the model structure on strict $\infty$-groupoids ##
+### Relation to the model structure on strict $\infty$-groupoids 
 
 > [[Urs Schreiber|Urs]] it would be nice to eventually have a discussion of the following
 
@@ -181,9 +181,9 @@ We check successively what this means for increasing $n$:
 
 
 
-#Joyal's Model Structure#
+## Joyal's Model Structure
 
-There is a second model structure on simplicial sets, which is different (not Quillen equivalent) to the classical one, due to Andr&eacute; Joyal, with the following distinguished classes of morphisms:
+There is a second model structure on $sSet$ -- the **[[model structure for quasi-categories]]** $sSet_{Joyal}$ -- which is different (not [[Quillen equivalence|Quillen equivalent]]) to the classical one, due to [[Andre Joyal]], with the following distinguished classes of morphisms:
 
 * The cofibrations $C$ are monomorphisms, equivalently, levelwise injections.
 
@@ -198,17 +198,19 @@ This model structure is cofibrantly generated. The generating cofibrations are t
 
 Importantly, this model structure is Quillen equivalent to several alternative model structures for the ''homotopy theory of homotopy theories" such as that on the category of [[simplicially enriched category|simplicially enriched categories]].
 
-#Comparison#
+### Comparison
 
 Every weak categorical equivalences is a weak homotopy equivalence. Since both model structures have the same cofibrations, it follows that the classical model structure is a [[Bousfield localization]] of Joyal's model structure.
 
-# Fibrant replacement #
+The Quillen model structure is the left [[Bousfield localization of model categories|Bousfield localization]] of $sSet_{Joyal}$ at the outer [[horn]] inclusions.
 
-Techniques for fibrant replacements $SSet$ are discussed at
+## Fibrant replacement 
 
-* [[Kan fibrant replacement]]
+Fibrant replacemennt in $sSet_{Quillen}$ models the process of _$\inftty$-groupoidification_ , of freely inverting all [[k-morphism]]s in a simplicial set. Techniques for fibrant replacements $sSet_{Quillen}$ are discussed at
 
-# References #
+* [[Kan fibrant replacement]].
+
+## References 
 
 A standard reference for the classical model structure is
 
@@ -216,4 +218,4 @@ A standard reference for the classical model structure is
 
 A reference with lots of details on Joyal's model structure is
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
