@@ -1,9 +1,27 @@
-A [[category]] $C$ is **connected** if any two [[objects]] can be connected by a [[zigzag]] of [[morphisms]].
 
-In other words, if the groupoidification of the category (the [[Kan fibrant replacement]] of its [[nerve]]) is a [[connected]] [[∞-groupoid]]. Equivalently, if the [[localization]] $C[C_1^{-1}]$ is a connected groupoid.
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-A **connected limit** is a [[limit]] whose domain category is connected.
+## Idea
+
+A [[groupoid]] is [[connected]] if every object is connected by a morphism to every other object.
+
+Every [[category]] $C$ induces a groupoid $G(C)$ by freely inverting all its [[morphism]]s. A category is connected if the groupoid $G(C)$ is.
+
+
+## Definition
+
+A [[category]] $C$ is **connected** if the following equivalent conditions hold
+
+* any two [[objects]] can be connected by a [[zigzag]] of [[morphisms]].
+
+* the groupoidification of the category (the [[Kan fibrant replacement]] of its [[nerve]]) is a [[connected]] [[∞-groupoid]]
+
+* the [[localization]] $C[C_1^{-1}]$ of $C$ at all its morphisms is a connected groupoid.
+
+## Related concepts
+
+A **[[connected limit]]** is a [[limit]] whose domain [[diagram]] category is connected.
 
 [[!redirects connected categories]]
-[[!redirects connected limit]]
-[[!redirects connected limits]]
