@@ -102,6 +102,9 @@ He then commented:
 
 > I would be very interested to know if anyone can extract from this definition a finite collection of composition operations on squares, and a finite collection of equations between them, which together generate all the others. The key obstable seems to be problem that identity 1-cells are not strict in either direction.
 
+It also seems that a "cubical bicategory" in this sense need not have underlying horizontal or vertical bicategories, for the same reason.  This presents something of an obstacle to practical applications.
+
+
 ## Unbiased composition and associativity {#Unbiased}
 
 It is natural to ask what the "unbiased" notion of composition and associativity is for squares in a double category.  The natural thing to take as input for an "unbiased composition" is a dissection of a rectangle into smaller rectangles, the smaller rectangles representing squares that we want to "compose up" in a double category.  As usual, we can try to build up such a composite by means of the "biased" binary composites that are given in the definition of double category.
@@ -119,23 +122,25 @@ It is shown in the paper
 
 * Dawson, "A forbidden-suborder characterization of binarily-composable diagrams in double categories", [TAC](http://www.tac.mta.ca/tac/volumes/1995/n7/1-07abs.html)
 
-that this is the "only obstacle," in the same sense that $K_5$ and $K_{3,3}$ are the only obstacles to [[planar graph|planarity]] of a [[graph]].  Namely, any diagram in which pinwheels can be avoided, can be composed.
+that this is the "only obstacle," in the same sense that $K_5$ and $K_{3,3}$ are the only obstacles to [[planar graph|planarity]] of a [[graph]].  Namely, if a diagram is not composable in a double category, then every "attempt" to compose it by a sequence of binary compositions will eventually result in a diagram which "contains" a pinwheel in a suitable sense (specifically, as a sub-[[tileorder]]).
 
 In many double categories, however, arbitrary arrangements of squares, even pinwheels, can be composed.  By this we mean that given a pinwheel diagram in such a double category (for example), there is a natural square with the same boundary which it makes sense to regard as "the composite" of that pinwheel.  For example:
 
 * In the double category $Sq(C)$ of squares/quintets in a 2-category, the general pasting theorem for 2-categories shows that any arrangement of squares can be composed.  In particular, this applies to commutative squares in a 1-category.  The same is true for double categories of adjunctions.
 
-* Likewise, if all the squares in a pinwheel are pullback squares in a 1-category, so is the whole thing.  Thus any arrangement can be composed in a double category of pullback squares.
+* If all the squares in a pinwheel are pullback squares in a 1-category, so is the whole thing.  The same is true for more general arrangements in a double category of pullback squares.
 
-* Arbitrary arrangements can also be composed in $Model$ and its variants, by the same pasting theorem, since its 2-cells are just ordinary natural transformations.
+* Arbitrary arrangements can also be composed in $Model$ and its variants, again by the pasting theorem for 2-categories, since its 2-cells are just ordinary natural transformations.
 
-* The pinwheel can also be composed in the double category $MonCat$, along with its relatives $T Alg$; hence so can all arrangements be composed.  The proof of this is not entirely trivial and involves checking that a fairly large diagram commutes.
+* Pinwheels and more general arrangements can also be composed in the double category $MonCat$, along with its relatives $T Alg$.  The proof of this is not quite as trivial, but fairly straightforward.
 
-* In any [[fibrant double category]], all pinwheels can be composed.
+* In any [[fibrant double category]], all arrangements can be composed.
 
 This last example is due to a factorization property: if we can factor the two long vertical rectangles in the pinwheel into two squares, then we can compose it.  The cartesian cells in a fibrant double category certainly allow such a factorization.  One can also axiomatize more precisely what factorization properties are necessary; this is done in the above paper of Dawson and Par&#233;.
 
-In fact, it seems hard to find a naturally occurring double category in which the pinwheel *cannot* be composed, although its composability definitely does not follow from the double-category axioms.  This suggests that perhaps the usual definition of double category is too naive, and we should actually require all "unbiased" composites to exist, including the pinwheel.  There is probably a monad of some sort on a suitable category whose algebras are "double categories with generalized composites" in this sense.
+In fact, it seems hard to find a naturally occurring double category in which pinwheels and more general arranguments *cannot* be composed, although such composability definitely does not follow from the double-category axioms.  This suggests that perhaps the usual definition of double category is too naive, and we should actually require all "unbiased" composites to exist, including the pinwheel.  There is probably a monad of some sort on a suitable category whose algebras are "double categories with generalized composites" in this sense.
+
+(It is tempting to try to axiomatize such a structure finitely by adding a basic "pinwheel-composition" operation, but although every non-composable arrangement reduces to one "containing" a pinwheel, the containment is not necessarily of a sort to which such an operation could be applied.  So it is not clear whether there is any finitary axiomatization of such "augmented" double categories.)
 
 
 ## Higher categories of double categories
