@@ -1,6 +1,8 @@
 ## Idea
 
-A *lax-idempotent* 2-monad is, roughly, one whose algebras over any given object are essentially unique if they exist.  The archetypal examples are given by 2-monads on $Cat$ that take a category $C$ to the free cocompletion of $C$ under a given class of colimits -- then an algebra is a category with all such colimits, which by universality are essentially unique.
+A lax-idempotent 2-monad encodes a certain kind of [[stuff, structure, property|property-like structure]] that a category, or more generally an object of a 2-category, can carry.
+
+The archetypal examples are given by 2-monads $T$ on $Cat$ that take a category $C$ to the free cocompletion $T C$ of $C$ under a given class of colimits -- then an algebra $T C \to C$ is a category $C$ with all such colimits, which are of course essentially unique.  Moreover, given thus-cocomplete categories $C$ and $D$, a functor $F \colon C \to D$, and a diagram $S$ in $C$, there is a unique arrow $colim (T F)(S) \to F(colim S)$ given by the universal property of the colimit.  It is this property that lax-idempotence generalizes.
 
 
 ## Definition
