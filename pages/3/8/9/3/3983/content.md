@@ -2,7 +2,10 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-# Topological Notions of Fr&#246;licher Spaces # {#topology}
+* tic
+{: toc}
+
+# Idea #
 
 Although the definition of a [[Frölicher space]] does not use a topology, it is topological in flavour and there are many topological concepts that can be defined for Fr&#246;licher spaces.  In other pages, we have used the notion of a Hausdorff Fr&#246;licher space and have used a vague notion of a topology on the functions on a Fr&#246;licher space.  In this page, we shall investigate the connections between the theory of Fr&#246;licher spaces and topological spaces a little more consistently.
 
@@ -11,7 +14,11 @@ One says that there is a functor (actually two functors) from the category of F&
 The other approach says that we can directly define a property for Fr&#246;licher spaces that is _analogous_ to a topological property.
 We then might hope for a theorem saying that a Fr&#246;licher space with property $P$ defines a topological space with the corresponding property $P$.
 However, this would definitely be a theorem.
-This second approach is the one that I want to study in this section.
+
+The first approach involves defining a functor (or more than one) from the category of Fr&#246;licher spaces to that of topological spaces and looking at the image.  The second approach involves comparing the two categories and trying to transfer ideas from the more well-known category of topological spaces to that of Fr&#246;licher spaces.
+We shall study both.
+
+# Functors #
 
 Let us start by defining the two functors to topological spaces.
 
@@ -24,27 +31,47 @@ The _functional_ topology on a Fr&#246;licher space is the weakest topology for 
 
 It is clear that these assignments are functorial, and that the curvaceous topology is always at least as strong as the functional topology.
 
-In general, we shall often define two notions of each topological property: a curvaceous one and a functional one.
-Sometimes these will be the same.
-When looking for the right functional definition, we have an obvious place in topology to start looking: the ring of continuous real-valued functions on a topological space.
-For the curvaceous definition, an obvious place to look is at paths in a topological space.
-Although there are some topological ideas have good "path" variants, this is not true of many.
-What is more common is to have a "sequential" variant of a general concept.
-In sufficiently nice topological spaces, sequences can be turned into paths, and convergent sequences into extendible paths.
-One way to use this would be to take a sequential definition, convert it to one about paths, and then replace "path" by "smooth path".
-Unfortunately, the reformulation of topological properties from the sequential language to that of paths is rarely neat - consider how to express "$(x_{n_k})$ is a subsequence of $(x_n)$" in path-speak.
-So instead of using continuous paths as our bridge from sequential topology to curvaceous smootheology, we shall introduce the notion of "smoothly convergent sequences" and use them instead.
+As it is an inductive topology, the curvaceous topology has the following characterisation.
 
-The idea behind the definition of a smoothly convergent sequence is quite simple: a sequence in a Fr&#246;licher space is smoothly convergent if it is the image of a convergent sequence in $\mathbb{R}$ under a smooth curve.
-The problem with this na&#239;ve definition is that there is no canonical convergent sequence in $\mathbb{R}$.
-In the continuous case, this lack is not significant because (almost) any two choices can be reparametrised one to the other.
-However, this is no longer possible in the smooth case.
-Therefore we need to build in a certain amount of flexibility with respect to the convergent sequence in $\mathbb{R}$ in order to have the same flexibility with this notion as would be available to us in the continuous case.
++-- {: .num_lemma #LemCurvTop}
+###### Lemma
+Let $(X,C_X,F_X)$ be a Fr&#246;licher space.
+A subset $U \subseteq X$ is open in the curvaceous topology if and only if $c^{-1}(U)$ is open in $\mathbb{R}$ for all $c \in C_X$.
 
-+-- {: mynumdef #SmoothSeq}
-###### Definition ######
-Let $(X,C_X,F_X)$ be a Fr&#246;licher space.  Let $(x_n)$ be a sequence in $X$ and $x \in X$ a point.  The sequence $(x_n)$ is said to be **smoothly convergent** to $x$ if, for any sequence $(t_n)$ which converges to $0$ in $\mathbb{R}$, there is a smooth curve $c \colon \mathbb{R} \to \mathbb{R} \times X$, a sequence $(r_n) \to 0$ in $\mathbb{R}$, and $N \in \mathbb{N}$ such that $c(r_n) = (t_n,x_n)$ for $n \ge N$ and $c(0) = (0,x)$.
+Thus a subset $A \subseteq X$ is not open if and only if there is some $c \in C_X$ such that $c^{-1}(A)$ is not open in $\mathbb{R}$.
 =--
+
++-- {: myproof}
+###### Proof
+We merely need to observe that the family $\{U : c^{-1}(U) \;\text{open}\; \forall c \in C_X\}$ defines a topology.  This is elementary.
+=--
+
+The functional topology is a projective topology and so it is _generated_ by sets of the form $f^{-1}(a,b)$.  That is, these sets form a [[subbasis]] for the topology.  Using the structure of the functionals, we can strengthen that.
+
++-- {: .num_lemma #LemFunTop}
+###### Lemma
+Let $(X,C_X,F_X)$ be a Fr&#246;licher space.
+A subset $U \subseteq X$ is open in the functional topology if and only if for each $p \in U$ there is a function $f \in F_X$ such that $f(p) = 1$ and $f(q) = 0$ for $q \notin U$.
+=--
+
++-- {: myproof}
+###### Proof
+The "if" is obvious so we prove the "only if".  Thus let $U \subseteq X$ be open and $p \in U$.  Then there are $f_1, \dots, f_n$ and $a_i, b_i \in \mathbb{R}$ such that
+
+$$
+p \in \bigcap_i f_i^{-1}(a_i,b_i) \subseteq U\;.
+$$
+
+We combine the functions $f_i$ into a single function $f \coloneqq (f_1, \dots, f_n) \colon X \to \mathbb{R}^n$.  Then
+
+$$
+\bigcap_i f_i^{-1}(a_i,b_i) = f^{-1} (a_1,b_1) \times \dots \times (a_n,b_n)
+$$
+
+Now we use the fact that the topology on $\mathbb{R}^n$ is smoothly regular to find a smooth function $g \colon \mathbb{R}^n \to \mathbb{R}$ such that $g(f(p)) = 1$ and $g(y) = 0$ outside the specified rectangle.  Then the composition $g \circ f$ has the required properties.
+=--
+
+# Basic Properties #
 
 Let us start with some very simple definitions.
 
@@ -89,7 +116,9 @@ Hence all curves are smooth.
 The discrete case is similar.
 =--
 
-Earlier we introduced the notion of a _Hausdorff_ Fr&#246;licher space.
+# Separation Axioms #
+
+In other sections, namely [[examples of Frölicher spaces]] and [[Frölicher spaces and Isbell envelopes]]  we used the notion of a _Hausdorff_ Fr&#246;licher space.
 Technically, we ought to have called that _functionally Hausdorff_ as it used the smooth functions in its definition.
 
 +-- {: mynumdef #DefFroHausdorff}
@@ -215,7 +244,9 @@ This is automatic for the functional topology so the only reasonable question is
 However, a topology is smoothly regular if and only if the smooth functions generate the topology which means that the curvaceous topology is smoothly regular if and only if it agrees with the functional topology.
 Hence the definition.
 
-On another tack, it is straightforward to see what one version of [[compact space|compactness]] should be.
+# Compactness #
+
+It is straightforward to see what one version of [[compact space|compactness]] should be.
 
 +-- {: mynumdef #FunComp}
 ###### Definition
@@ -243,66 +274,6 @@ This is smooth, as the components have disjoint support, and is unbounded.
 Hence the Fr&#246;licher space is not functionally compact.
 =--
 
-The corresponding curvaceous notion rests for its inspiration on the notion of [[sequential compactness]].  Here is one case where there is not a pathwise version of compactness and so we use the notion of "smoothly convergent sequences" instead.
-
-
-+-- {: .num_defn #DefCurvComp}
-###### Definition
-Let $(X, C_X,F_X)$ be a Fr&#246;licher space.  We say that $X$ is **curvaceously compact** if every sequence has a smoothly convergent subsequence.
-=--
-
-One of the basic expected properties of curvaceous compactness is that the product of two curvaceously compact spaces should again be curvaceously compact.  In the proof of this, we can see why we need the extra flexibility of smoothly convergent sequences.
-
-+-- {: .num_lemma #CurvCompProf}
-###### Lemma ######
-The product of two curvaceously compact Fr&#246;licher spaces is curvaceously compact.
-=--
-
-+-- {: .proof}
-###### Proof ######
-The heart of this is to show that if $(x_n)$ and $(y_n)$ are smoothly convergent sequences in $X$ and $Y$ respectively then $(x_n,y_n)$ is smoothly convergent in $X \times Y$.
-
-So let $(x_n) {\infty \atop \to} x$ in $X$ and $(y_n) {\infty \atop \to} y$ in $Y$.  Let $(t_n)$ be a sequence converging to $0$ in $\mathbb{R}$ and consider $(t_n,x_n,y_n)$ in $\mathbb{R} \times X \times Y$.  As $(x_n)$ is smoothly convergent to $x$, there is a smooth curve $a \colon \mathbb{R} \to \mathbb{R} \times X$, a point $N_X \in \mathbb{N}$, and a sequence $(r_n) \to 0$ in $\mathbb{R}$ such that $a(r_n) = (t_n,x_n)$ for $n \ge N_X$ and $a(0) = (0,x)$.
-
-As $(y_n)$ is smoothly convergent to $y$, there is now a smooth curve $d \colon \mathbb{R} \to \mathbb{R} \times Y$, a point $N_Y$ in $\mathbb{N}$, and a sequence $(s_n) \to 0$ in $\mathbb{R}$ such that $d(s_n) = (r_n, y_n)$ for $n \ge N_Y$ and $d(0) = (0,y)$.
-
-Using the product structures, let us write $a = (b,c)$ and $d = (e,f)$.  Define a smooth map $g \colon \mathbb{R} \to \mathbb{R} \times X \times Y$ by $g \coloneqq (b \circ e,c\circ e,f)$.  Then for $n \ge \max\{N_X,N_Y\}$ we have
-
-$$
-g(s_n) = \left(b(e(s_n)),c(e(s_n)),f(s_n)\right) = \left(b(r_n),c(r_n),y_n\right) = \left(t_n,x_n,y_n\right)
-$$
-
-Moreover, $g(0) = (b(e(0)),c(e(0)),f(0)) = (0,x,y)$.  Hence $(x_n,y_n) {\infty \atop \to} (x,y)$.
-=--
-
-The following property is why curvaceously compact Fr&#246;licher spaces are suitable sources for [[manifolds of mapping spaces]].
-
-+-- {: .num_prop #CurvCompProd}
-###### Proposition ######
-Let $X$ be a curvaceouly compact Fr&#246;licher space.  Then the curvaceous topology on $\mathbb{R} \times X$ has the property that if $U$ is an open neighbourhood of $\{0\} \times X$ then there is some $\epsilon \gt 0$ such that $(-\epsilon,\epsilon) \times X \subseteq U$.
-=--
-
-+-- {: .proof}
-###### Proof
-Let $X$ be a curvaceously compact Fr&#246;licher space.  Let $U$ be a set containing $\{0\} \times X$ with the property that there is no $\epsilon \gt 0$ such that $(-\epsilon,\epsilon) \times X \subseteq U$.  We shall show that $U$ is not open in the curvaceous topology.
-
-By assumption, for each $n$ there is some $x_n \in X$ and $t_n \in (-\frac1n,\frac1n)$ such that $(t_n,x_n) \notin U$.  As $X$ is curvaceouly compact, there is a subsequence $(x_{n_k})$ of $(x_n)$ which is smoothly convergent.  Thus there is a point $x \in X$, a smooth curve $c \colon \mathbb{R} \to \mathbb{R} \times X$, a sequence $(r_k) \to 0$ in $\mathbb{R}$, and a point $N \in \mathbb{N}$ such that $c(r_k) = (t_{n_k}, x_{n_k})$ for $k \ge N$ and $c(0) = (0,x)$.    Let us consider $c^{-1}(U)$.  As $\{0\} \times X \subseteq U$, $c(0) = (0,x) \in U$ and so $0 \in c^{-1}(U)$.  But for $k \in \mathbb{N}$, $k \ge N$, $c(r_k) = (t_{n_k},x_{n_k}) \notin U$ so $r_k \notin c^{-1}(U)$.  As $(r_k) \to 0$, this shows that $c^{-1}(U)$ is not open in $\mathbb{R}$ and so $U$ is not open in the curvaceous topology.
-=--
-
-To relate curvaceous and functional compactness, we note that both notions satisfy the Heine-Borel theorem and that both have the property that the image of a curvaceously or functionally compact Fr&#246;licher space is again the same type of compactness.  From this we deduce the following relationship.
-
-+-- {: .num_lemma #CurvFunComp}
-###### Lemma ######
-A curvaceously compact Fr&#246;licher space is functionally compact.
-=--
-
-+-- {: .proof}
-###### Proof ######
-Let $X$ be curvaceously compact.  Let $f \colon X \to \mathbb{R}$ be a smooth function.  Then $f(X)$ is curvaceously compact in $\mathbb{R}$, hence bounded.  Thus $X$ is functionally compact.
-=--
-
-Since curvaceously compact is more related to sequential compactness than actual compactness, the following result is, perhaps, not surprising.
-
 +-- {: .num_lemma #CurvComp}
 ###### Lemma
 The curvaceous topology of a Fr&#246;licher space is compact if and only if the Fr&#246;licher space is functionally compact and regular.
@@ -318,6 +289,26 @@ Thus the Fr&#246;licher space is regular.
 
 Conversely, if the Fr&#246;licher space is regular its topologies agree and thus if it is functionally compact then its curvaceous topology is compact.
 =--
+
+In [[manifolds of mapping spaces]], there is an important issue as to compactness of the actual topological space, rather than compactness notions of Fr&#246;licher spaces.  The property needed is about open sets in the product $\mathbb{R} \times X$.  For Fr&#246;licher spaces, this property is equivalent to sequential compactness.
+
++-- {: .num_proposition #ProdSeqCpt}
+###### Proposition
+Let $X$ be a Fr&#246;licher space.  The curvaceous topology on $X$ is sequentially compact if and only if $\mathbb{R} \times X$ has the following property.
+
+A subset $U \subseteq \mathbb{R} \times X$ containing $\{0\} \times X$ is a neighbourhood of $\{0\} \times X$ if and only if it contains a subset of the form $(-\epsilon,\epsilon) \times X$ for some $\epsilon \gt 0$.
+=--
+
++-- {: myproof}
+###### Proof
+Suppose that $X$ is sequentially compact.  Let $U \subseteq \mathbb{R} \times X$ be a subset containing $\{0\} \times X$.  Suppose that $U$ does not contain a subset of the form $(-\epsilon,\epsilon) \times X$.  Then for each $n \in \mathbb{N}$ we can find some $(t_n, x_n) \in U$ such that $\abs{t_n} \le \frac1n$.  The sequence $(x_n)$ in $X$ has a convergent subsequence, say $(x_{n_k}) \to x$.  Then $(t_{n_k}, x_{n_k})$ converges in $\mathbb{R} \times X$, but $(t_{n_k}, x_{n_k}) \notin U$ for all $k$ but its limit, $(0,x)$ is in $U$.  Hence $U$ is not open.
+
+Conversely, assume that neighbourhoods of $\{0\} \times X$ contain slices as claimed.  Then let $(x_n)$ be a sequence in $X$.  Consider the set $U$ formed by taking $\mathbb{R} \times X$ and removing $(\frac1n, x_n)$.  This does not contain a subset of the form $(-\epsilon,\epsilon) \times X$ and so cannot be open in $\mathbb{R} \times X$.
+
+As the set $U$ is not open, there must be a curve $c \colon \mathbb{R} \to U$ which detects the fact that it is not open.  That is, $c^{-1}(U)$ is not open in $\mathbb{R}$.  Now we can find a sequence $(s_k) \to s$ in $\mathbb{R}$ such that $(s_k) \notin c^{-1}(U)$ but $s \in U$.  Then as $c(s_k) \notin U$, we must have $c(s_k) = (t_{n_k}, x_{n_k})$ for some $n_k$.  By passing to a subsequence if necessary, we can assume that the $n_k$s are strictly increasing.  Then as $(s_k) \to s$, $c(s_k) \to c(s)$ and so $x_{n_k} \to p_X c(s)$.  Hence $X$ is sequentially compact.
+=--
+
+# Connectedness #
 
 Another obvious topological property is connectedness.
 Here it is obvious what the two definitions should be.
@@ -359,9 +350,7 @@ Hence the two notions are the same.
 The functional and curvaceous topologies have the same connected components, and these are the same as the path-connected components.
 =--
 
-***
-
-# Hausdorff Fr&#246;licher Spaces # {#hausdorff}
+# More on Hausdorff Fr&#246;licher Spaces # {#hausdorff}
 
 There is not a great deal of difference between a Hausdorff Fr&#246;licher space and a generic one.
 Much less than the case with topological spaces.
