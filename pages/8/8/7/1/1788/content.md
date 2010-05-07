@@ -4,9 +4,7 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
-Introduction 
-
-$\left\{f_k(\theta_1,\dots,\theta_\ell)\right\}_{k,\ell}$
+Introduction
  
 This wiki is meant to be a dictionary between physics and mathematics for the standard model. The standard model is a theory of three of the four fundamental interactions: electro-magnetic, weak and strong. As in every "quantum" theory, the particles fields are vectors $\Psi$ of a certain Hilbert space $H$, satisfying covariant differential equations (example: Kleing-Gordon, Dirac, Proca, etc.). The basic mechanism of the model is that a particle, posseding several quantum parameters (charge, isospin and color charge), interacts with another particle via a so-said intermediary boson (example: photon, W, Z, gluon), with a certain intensity according to quantum numbers. Remark that the theory has been confirmed by every experiment in the 20th century and each particle predicted by the theory, except the Higgs boson, has been observed. 
  First we want to summarize a physical approach to the theory:
@@ -106,7 +104,7 @@ If $\alpha + \beta + \gamma = \pi$, then $\sin\alpha \sin\beta \sin\gamma = \sin
   1. 'Twas brillig and the slithy toves
   1. Did gyre and gimble in the wabe
   1. All mimsy were the borogroves
-  1. And the momeraths outgabe
+  1. And the momeraths outgrabe
 1. Verse Two
   1. "Beware the jabberwock, my son,
   1. The jaws that bite, the claws that snatch
