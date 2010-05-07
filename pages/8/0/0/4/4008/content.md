@@ -1,6 +1,10 @@
+## Definition
 
+A **connected limit** is a [[limit]] over a [[connected category]].
 
-A **connected limit** is a [[limit]] [[diagram]] whose domain category is a [[connected category]].
+## Related pages
+
+* [[parametric right adjoint]]
 
 
 [[!redirects connected limits]]
