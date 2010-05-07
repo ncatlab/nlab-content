@@ -6,7 +6,7 @@ This entry describes special methods for the construction of  fibrant replacemen
 * automatic table of contents
 {:toc}
 
-# Idea #
+## Idea 
 
 In as far as we may think of [[simplicial set]]s having some suitable properties as a [[simplicial model for weak ∞-categories]] (for instance for [[quasi-category|quasi-categories]]) and of a simplicial set that has the property of being a [[Kan complex]] as an [[∞-groupoid]], _Kan fibrant replacement_ of simplicial sets is the operation of _$\infty$-groupoidification_ in that it sends an $\infty$-category to the $\infty$-groupoid obtained by freely inverting all its non-invertible [[k-morphism]]s.
 
@@ -23,7 +23,7 @@ There are several methods to actually construct the Kan fibrant replacement. One
 
 - etc. 
 
-# $Ex$ functor #
+## $Ex$ functor 
 
 
 For $\Delta[k]$ the simplicial $k$-[[simplex]] let $sd \Delta[k]$ be its _barycentric subdivision_: this is the simplicial set that is the [[nerve]] of the [[poset]] of non-degenerate sub-simplicies in $\Delta[k]$.
@@ -61,6 +61,9 @@ $$
   \,.
 $$
 
+The 1--cells in $Ex^\infty X$ are [[zig-zag]]s in $X$.
+
+
 Then
 
 **Proposition**
@@ -68,6 +71,8 @@ Then
 * $Ex^\infty X$ is a [[Kan complex]];
 
 * $X \to Ex^\infty X$ is a natural weak equivalence.
+
+
 
 ## References ##
 
