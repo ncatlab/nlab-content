@@ -1,3 +1,9 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
 ## Definition
 
 A [[cardinal number]] $\kappa$ is **measurable** if some (hence any) set of cardinality $\kappa$ admits a two-valued [[measure]] which is $\kappa$-additive, or equivalently an [[ultrafilter]] which is $\kappa$-complete.
