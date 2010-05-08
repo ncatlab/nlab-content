@@ -7,6 +7,7 @@
 
 An abelian category is a general context in which much of linear algebra and [[homological algebra]] makes sense.  It is one concept in a sequence of [[additive and abelian categories]].  
 
+While crucially different from [[topos]]es, there is some intimate relation between abelian categories and toposes. See [[AT category]] for more on that.
 
 ##Definition#
 
