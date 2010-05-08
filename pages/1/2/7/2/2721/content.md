@@ -135,9 +135,90 @@ for every diagram
 ...
 
 
+## Properties
+
+### Transgression cocycles ###
+
+We describe how to an [[nLab:∞-Lie algebroid]] invariant polynomial $\omega$ we associate an [[∞-Lie algebroid]] cocycle $\nu$ that is _in transgression with_ $\omega$.
+
+The [[dg-algebra]] of invariant polynomials is a sub-dg-alghebra of the kernel of the morphism $i^* : W(\mathfrak{a}) \to CE(\mathfrak{a})$ from the [[Weil algebra]] to the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$
+
+$$
+  inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a}) = ker(W(\mathfrak{a}) \to CE(\mathfrak{a}))
+  \,.
+$$
+
+From the short [[nLab:exact sequence]]
+
+$$
+  CE(\Sigma \mathfrak{a}) \to W(\mathfrak{a}) \to 
+  CE(\mathfrak{a})
+$$
+
+we obtain the long exact sequence in [[chain homology and cohomology|cohomology]]
+
+$$
+  \cdots 
+  \to 
+  H^{n+1}(CE(\mathfrak{a}))
+  \stackrel{\delta}{\to} H^{n+2}(CE(\Sigma \mathfrak{a}))
+  \to \cdots 
+  \,.
+$$
+
+We say that $\mu \in CE(\mathfrak{a})$ is in transgression with $\omega \in inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a})$ if their classes map to each other under the connecting homomorphism $\delta$:
+
+$$
+  \delta : [\mu] \mapsto [\omega]
+  \,.
+$$
+
+
+1. We first regard the invariant polynomial $\omega$ as an element of the [[Weil algebra]] $W(\mathfrak{a})$ under the inclusion $inv(\mathfrak{a}) \hookrightarrow W(\mathfrak{a})$, where, by the very definiton of invariant polynomials, it is closed: $d_{W(\mathfrak{a})} \omega = 0$.
+
+1. then we find an element $cs_\omega \in W(\mathfrak{a})$ with the property that $d_{W(\mathfrak{a})} cs_\omega = \omega$. This is guranteed to exist because $W(\mathfrak{a})$ has trivial cohomology.
+
+1. then we send this element $cs_\omega\in W(\mathfrak{a})$ along the restriction map $W(\mathfrak{a}) \to CS(\mathfrak{a})$ to an elemeent we call $\nu$.
+
+The procedure is illustarted by the following diagram
+
+$$
+  \array{
+    0 && \omega &\leftarrow & \omega
+    \\
+    \;\;\uparrow^{\mathrlap{d_{CE(\mathfrak{a})}}}
+    &&
+    \;\;\uparrow^{\mathrlap{d_{W(\mathfrak{a})}}}
+    \\
+    \nu &\leftarrow& cs(\omega)
+    \\
+    \\
+    \\
+    \\
+    CE(\mathfrak{a})
+    &\leftarrow&
+    W(\mathfrak{a})
+    &\leftarrow&
+    inv(\mathfrak{a})    
+  }
+$$
+
+From the fact that all morphisms involved respect the differential and from the fact that the image of $\omega$ in $CE(\mathfrak{a})$ vanishes it follows that 
+
+* this element $\nu$ satisfies $d_{CE(\mathfrak{a})} \nu = 0$, hence that it is an $\infty$-Lie algebroid cocycle.
+
+* any two different choices of $cs_\omega$ lead to cocylces $\mu$ that are cohomologous.
+
+We say $\nu$ is a cocycle _in transgression with_ $\omega$. 
+We may call $cs_{\omega}$ here a _Chern-Simons element_ of $\omega$. Because for $A : T X \to T \mathfrak{a}$ any collection of [[schreiber:∞-Lie algebroid valued differential forms]] coming dually from a dg-morphism $\Omega^\bullet(X) \leftarrow W(\mathfrak{a}) : A$ the image $\omega(A)$ of $\omega$ will be a curvature characteristic form and the image $cs_\omega(A)$ its corresponding Chern-Simons form. 
+
+In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section [On semisimple Lie algebras](#SemisimpLie)
+
+
+
 ## Examples
 
-### Invariant polynomials on Lie algebras
+### Invariant polynomials on Lie algebras 
 
 For $\mathfrak{a} = \mathfrak{g}$ an ordinary [[Lie algebra]], the above reproduces the ordinary definition of invariant polynomials on Lie algebras.
 
@@ -147,9 +228,11 @@ For instance for $\mathfrak{g}$ a semisimple Lie algebra with Killing form $P = 
 
 * the fact that it is closed under $d_{W(\mathfrak{g})}$ is precisely the statement that it is invariant.
 
+### On semisimple Lie algebra {#SemisimpLie}
+
 ### Invariant polynomials on the tangent Lie algebroid
 
-For $X$ a [[smooth manifold]], and invariant polynomian on the [[tangent Lie algebroid]] $\mathfrak{a} = T X$ is precisely a closed [[differential form]] on $X$.
+For $X$ a [[smooth manifold]], and invariant polynomial on the [[tangent Lie algebroid]] $\mathfrak{a} = T X$ is precisely a closed [[differential form]] on $X$.
 
 
 
