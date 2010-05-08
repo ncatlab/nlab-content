@@ -1,25 +1,29 @@
-In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with Vaughan Pratt on the categories mailing list, Peter Freyd gave a very sharp description of the commonalities and differences between Abelian categories and Toposes (or, in the first place, between abelian categories and pretoposes), by introducing a finitely axiomatized theory of "AT categories". As it turns out, this theory embodies the commonalities with such precision that every AT category splits as a product of an [[abelian category]] and a [[pretopos]]. 
+In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with [[Vaughan Pratt]] on the categories mailing list, [[Peter Freyd]] gave a very sharp description of the commonalities and differences between [[abelian categories]] and [[topos]]es (or, in the first place, between abelian categories and [[pretopos]]es), by introducing a finitely axiomatized theory of "AT categories". As it turns out, this theory embodies the commonalities with such precision that every AT category splits as a [[product]] of an [[abelian category]] and a [[pretopos]]. 
 
 Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 
 ## Definition
 
 Freyd introduces some baseline assumptions on the categories in question: 
 
-* Finite completeness, 
+* [[finitely complete category|Finite completeness]], 
 
-* Presence of an initial object, 
+* Presence of an [[initial object]], 
 
-* Pushouts for pairs of arrows one of which is monic, 
+* [[pushout|Pushouts]] for pairs of [[morphism|arrows]] one of which is [[monomorphism|monic]], 
 
-* Pushouts for kernel pairs
+* Pushouts for [[kernel pair]]s
 
-Each of these assumptions obtains in any abelian category and in any pretopos. 
+Each of these assumptions obtains in any [[abelian category]] and in any [[pretopos]]. 
 
-Most of the AT axioms Freyd introduces can be phrased directly in terms of such limits and colimits, and these axioms have a simple logical structure: they are just [[Horn theory|Horn clauses]]. This may look like a side comment for logicians, but it may well signal that Freyd intends to invoke, if pressed for details of proofs, one of a battery of representation theorems (such as the representation theorem for regular categories) whose precise expressions involve Horn clauses. 
+Most of the AT axioms Freyd introduces can be phrased directly in terms of such [[limit]]s and [[colimit]]s, and these axioms have a simple logical structure: they are just [[Horn theory|Horn clauses]]. This may look like a side comment for logicians, but it may well signal that Freyd intends to invoke, if pressed for details of proofs, one of a battery of representation theorems (such as the representation theorem for regular categories) whose precise expressions involve Horn clauses. 
 
-Anyway, to follow what Freyd is saying here a bit: by making choices for each such universal construction, categories satisfying these assumptions can be considered models of a suitable essentially algebraic theory. In any case, each of these baseline assumptions can be turned into predicates (e.g., "$(p, q)$ is a pushout pair for pairs of arrows $(f, g)$" is a predicate $P(p, q; f, g)$ for a first-order theory of categories with these baseline assumptions), and the majority of axioms Freyd writes down are expressible as Horn clauses in such predicates. 
+Anyway, to follow what Freyd is saying here a bit: by making choices for each such universal construction, categories satisfying these assumptions can be considered models of a suitable [[essentially algebraic theory]]. In any case, each of these baseline assumptions can be turned into predicates (e.g., "$(p, q)$ is a pushout pair for pairs of arrows $(f, g)$" is a predicate $P(p, q; f, g)$ for a first-order theory of categories with these baseline assumptions), and the majority of axioms Freyd writes down are expressible as Horn clauses in such predicates. 
 
 The sharp dichotomy which separates A from T is concentrated in the following definition: 
 
@@ -32,7 +36,7 @@ A pretopos will turn out to be precisely an AT category in which every object is
 
 Now here come the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and part of Freyd's point is that any exactness axiom satisfied in both classes of categories is a logical consequence of this set of axioms. Freyd's remarks are included in parentheses. 
 
-1. The category is an effective regular category. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned
+1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned
 above.")
 
 1. The arrow $0 \to 1$ is monic. ("Note that it follows that all maps from $0$ are monic.")
