@@ -1,16 +1,21 @@
-# Idea #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-category|strict 2-categories]].  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
 
 More generally, for any 2-categories $C$ and $D$, a 2-functor $C\times\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a strict 2-natural transformation between them, while a 2-functor $C\otimes\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a _pseudonatural_ transformation between them.
 
-# Definition #
+## Definition 
 
 Following up on the last comment, $B\otimes C$ can be defined by
 $$ 2Cat(B\otimes C, D) \cong 2Cat(B, Ps(C,D)) $$
 where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category 2Cat of strict 2-categories  and strict 2-functors is a [[closed monoidal category]] whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
 
-# Remarks #
+## Remarks 
 
 * When considered with this monoidal structure, 2Cat is often called Gray.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over Gray, are a model for [[semi-strict infinity-category|semi-strict]] 3-categories.  Categories enriched over 2Cat with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
@@ -26,11 +31,11 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * A  [[closed monoidal category|closed monoidal structure]] on [[strict omega-category|strict omega-categories]] is introduced by Al-Agl, Brown and Steiner. This uses an equivalence between the categories of strict (globular) omega categories and of strict  cubical omega categories with connections; the construction of the closed  monoidal  structure on the latter category is direct and generalises that for strict cubical omega groupoids with connections established by Brown and Higgins. 
 
-#Related entries#
+## Related entries
 
 * see also [[generalized Gray tensor product]]
 
-# References #
+## References 
 
 * John W. Gray, _Formal category theory: adjointness for 2-categories_
 
