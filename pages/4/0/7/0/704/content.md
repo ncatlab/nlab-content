@@ -7,7 +7,7 @@
 
 A **section** of a [[morphism]] $f : A \to B$ in some [[category]] is a **right-[[inverse]]**: a [[morphism]] $\sigma : B \to A$ such that
 $$
-  f \circ g : B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B
+  f \circ \sigma : B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B
 $$
 equals the [[identity morphism]] on $B$.
 
