@@ -38,5 +38,7 @@ The following is a list of properties of and pertaining to sequentially compact 
 
 2. For a [[metric space]], the notions of sequential compactness and compactness coincide.
 
+
+[[!redirects sequentially compact]]
 [[!redirects sequential compactness]]
 [[!redirects sequentially compact space]]
