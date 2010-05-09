@@ -36,7 +36,7 @@ and observe that $f_1 \sim g_1, \ldots, f_n \sim g_n$ implies that $\phi(f_1, \l
 
 $$\{x \in X: \vdash_Y R(f_1(x), \ldots, f_n(x))\} \in \mathcal{U}$$
 
-for any chosen representatives $f_1, \ldots, f_n$. Note that the interpretations of functions and relations are well-defined on the ultrapower depends only on the filter axioms. 
+for any chosen representatives $f_1, \ldots, f_n$. Note that the well-definedness of the interpretations of functions and relations depends only on the filter axioms. 
 
 That the ultrapower is a model of the theory is a consequence of Los's theorem. (Here one needs all of the ultrafilter conditions, in particular
 one needs condition 4 in order to accommodate satisfaction of formulas involving instances of negation.)
@@ -57,6 +57,28 @@ $$Set/X \cong Sh(X_d) \stackrel{i_*}{\to} Sh(\beta X) \stackrel{stalk_{\mathcal{
 
 to the object $\langle Y_x \rangle_{x \in X}$. 
 
-## Filterquotient construction 
+## Filterquotient construction
+
+For any filter $\mathcal{U}$ on a set $X$, we can form the 2-colimit of the pseudofunctor  
+
+$$F: \mathcal{U}^{op} \to Cat: U \mapsto Set/U$$ 
+
+Each $F(i: U \subseteq V): Set/V \to Set/U$ is the logical morphism of toposes given by the pullback functor $i^*$. The 2-colimit is itself a topos denoted $Set/\mathcal{U}$, in fact a 2-valued topos if $\mathcal{U}$ is an ultrafilter, and the functor defined by 
+
+$$Set \stackrel{\Delta}{\to} Set/X \to Set/\mathcal{U}$$ 
+
+defines a logical morphism. 
+
+Let $Y_{\mathcal{U}}$ denote the image of a set $Y$ under this logical morphism. Then the set of global elements 
+
+$$\Gamma(Y_{\mathcal{U}}) = hom(1, Y_{\mathcal{U}})$$ 
+
+is the ultrapower $Y^X/\mathcal{U}$. (Hm, is that right?) 
 
 ## Applications 
+
+If $\mathcal{U}$ is a _principal_ ultrafilter, then the ultrapower of $Y$ is isomorphic to $Y$ again. Thus the interest in ultrapowers relies on the existence of non-principal ultrafilters, which requires some sort of choice principle. 
+
+An important application is to $Y = \mathbb{R}$ as a model of the theory of ordered fields. If $\mathcal{U}$ is a non-principal ultrafilter on the set of natural numbers $\mathbb{N}$, then the model $\mathbb{R}^{\mathbb{N}}/\mathcal{U}$ provides a model for nonstandard analysis (in the sense promulgated by Abraham Robinson). There are in particular infinitesimal elements in the ultrapower, for example the $\sim$-equivalence class of the sequence $\langle 1/n \rangle_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}}$. 
+
+At the same time, the ultrapower is elementarily equivalent to $\mathbb{R}$, so that the sentences true for $\mathbb{R}$ in the first-order theory of ordered fields coincide with the sentences that are true for the ultrapower. This principle assures us that any conclusions adduced with the help of infinitesimals in the ultrapower are still valid in the standard model $\mathbb{R}$; in some cases, however, the arguments based on infinitesimals may offer more perspicuous proofs. 
