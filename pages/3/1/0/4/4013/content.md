@@ -21,9 +21,9 @@ Freyd introduces some baseline assumptions on the categories in question:
 
 Each of these assumptions obtains in any [[abelian category]] and in any [[pretopos]]. 
 
-Most of the AT axioms Freyd introduces can be phrased directly in terms of such [[limit]]s and [[colimit]]s, and these axioms have a simple logical structure: they are just [[Horn theory|Horn clauses]]. This may look like a side comment for logicians, but it may well signal that Freyd intends to invoke, if pressed for details of proofs, one of a battery of representation theorems (such as the representation theorem for regular categories) whose precise expressions involve Horn clauses. 
+Most of the AT axioms Freyd introduces can be phrased directly in terms of such [[limit]]s and [[colimit]]s, and these axioms have a simple logical structure: they are just [[Horn theory|Horn clauses]] in the predicates stipulated by these baseline assumptions. This may look like a side comment for logicians, but it may well signal that Freyd intends to invoke, if pressed for details of proofs, one of a battery of representation theorems (such as the representation theorem for regular categories) whose precise expressions involve Horn clauses. 
 
-Anyway, to follow what Freyd is saying here a bit: by making choices for each such universal construction, categories satisfying these assumptions can be considered models of a suitable [[essentially algebraic theory]]. In any case, each of these baseline assumptions can be turned into predicates (e.g., "$(p, q)$ is a pushout pair for pairs of arrows $(f, g)$" is a predicate $P(p, q; f, g)$ for a first-order theory of categories with these baseline assumptions), and the majority of axioms Freyd writes down are expressible as Horn clauses in such predicates. 
+Anyway, to follow what Freyd is saying here a bit: by making choices for each such universal construction, categories satisfying these assumptions can be considered models of a suitable [[essentially algebraic theory]]. In any case, each of these baseline assumptions can be turned into predicates (e.g., "$(p, q)$ is a pushout pair for pairs of arrows $(f, g)$" is a predicate $P(p, q; f, g)$ for a first-order theory of categories with these baseline assumptions), and the majority of axioms Freyd writes down, in particular all of the first 8 below, are expressible as Horn clauses in such predicates. 
 
 The sharp dichotomy which separates A from T is concentrated in the following definition: 
 
@@ -35,6 +35,8 @@ Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \tim
 A pretopos will turn out to be precisely an AT category in which every object is of type T, and an abelian category will turn out to be an AT category where every object is of type A. 
 
 Now here come the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and part of Freyd's point is that any exactness axiom satisfied in both classes of categories is a logical consequence of this set of axioms. Some of Freyd's remarks are included in parentheses. 
+
+A category meeting the baseline assumptions above is an **AT category** if the following axioms are satisfied. 
 
 1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned above.")
 
@@ -48,7 +50,7 @@ B & \to & D
 }$$
 is also a pullback. A square that is simultaneously a pushout and a pullback will be called a "dolittle square". 
 
-1. The functor $0 \times -$ preserves pushouts of kernel pairs and pushouts of pairs of arrows one of which is monic. 
+1. The functor $0 \times -$ preserves pushouts of kernel pairs, and pushouts of pairs of arrows one of which is monic. 
 
 1. If $f: B \to 0 \times C$ is epic and
 $$\array{
@@ -70,7 +72,9 @@ Then $T$ preserves pullbacks.
 
 1. Given a morphism $f: X \to Y$, if $T f$ and $0 \times f$ are isomorphisms, then so is $f$. 
 
-We'll add some more axioms in a bit, but here may be a good point to take stock and prove some results. 
+This is the basic list of exactness assumptions which permit a sharp comparison between pretoposes and abelian categories. To get at actual topos structure, we'll need to add more axioms, but let's take stock and prove some results. 
+
+## Basic consequences of the AT axioms
 
 +-- {: .un_prop}
 ######Proposition
@@ -138,17 +142,44 @@ From this lemma, it follows that the full subcategory of type A objects in an AT
 
 +-- {: .un_lem}
 ######Lemma
-Objects of type A are closed under products, coproducts, subobjects, and quotient objects (= cokernels of kernel pairs). Therefore they give a full subcategory that is an AT category, in particular an effective regular category.
+Objects of type A are closed under binary products, finite coproducts, subobjects, and quotient objects (= cokernels of kernel pairs). 
 =-- 
 
 +-- {: .proof}
 ######Proof
-The first sentence follows from that fact that the category of type A objects is the slice category. 
+This follows from the fact that the category of type A objects is the slice category $C/0$. 
 =--
+
+Before we prove the next lemma, recall that in a category with zero objects, a **kernel** of an arrow $f: A \to B$ is an equalizer of the pair $f, 0: A \to B$. This is the same as a pullback 
+
+$$\array{
+K & \to & A \\
+\downarrow & & \downarrow f \\
+0 & \to & B
+}$$
+
+Cokernels are defined dually, and can be formulated dually as certain pushouts. Since pushouts along monos exist, we can take the cokernel of any mono, and in particular the cokernel of any kernel. 
 
 +--{: .un_lem}
 ######Lemma
-The category of type A objects is $Ab$-enriched (note: this is a property, not a structure on a category). 
+In the category of type A objects, every mono is the kernel of its cokernel, and every epi is the cokernel of its kernel. 
+=--
+
++-- {: .proof}
+######Proof
+Of course, $0$ is a zero object in the category of type A objects. If $i: A \to B$ is a mono in the category of type A objects, then the pushout 
+$$\array{
+A & \stackrel{i}{\to} & B \\
+\downarrow & & \downarrow \\
+0 & \to & coker(i)
+}$$
+exists and is also a pullback, by axiom 3, and hence $i$ is the kernel of its cokernel. Now suppose $f: A \to C$ is an epi in the category of type A objects. Since $0 \times C \cong C$, we have an epi $f: A \to 0 \times C$. Then, by axiom 5, the pullback 
+$$\array{
+ker(f) & \to & A \\
+\downarrow & & \downarrow f \\
+0 & \to & 0 \times C
+}$$
+is also a pushout, so $f$ is the cokernel of its kernel. 
 =--
 
 +--{: .un_thm}
@@ -158,7 +189,7 @@ The category of type A objects is an abelian category.
 
 +-- {: .proof}
 ######Proof
-An abelian category is the same thing as an effective regular $Ab$-enriched category (see Categories and Allegories, section 1.59). Now apply the previous lemma in conjunction with axiom 1. 
+Any category with zero objects, binary products and coproducts, and in which every mono is the kernel of its cokernel and every epi is the cokernel of its kernel, is in fact an abelian category. See Freyd-Scedrov, _Categories, Allegories_, 1.598 (p. 95). 
 =--
 
 ## Category of type T objects is a pretopos
@@ -192,7 +223,7 @@ The full subcategory of objects of type T is closed under products, coproducts, 
 
 +-- {: .proof}
 ######Proof
-Closure under products and subobjects is immediate from the lemma that characterizes type T objects in terms of maps out of type A objects. Closure under quotients and coproducts follows from axiom 3. 
+Closure under products and subobjects is immediate from the lemma that characterizes type T objects in terms of maps out of type A objects. Closure under quotients and coproducts follows from axiom 4. 
 =--
 
 +-- {: .un_thm}
@@ -204,6 +235,47 @@ The full subcategory of objects of type T is a pretopos.
 ######Proof
 The previous proposition gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that a pushout along a mono is stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict there. Thus coproducts are universal in the category of T objects; they are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
 =-- 
+
+## Splitting into type A and type T objects 
+
+In this section we show that every AT category $C$ is the product of the abelian category $C_A$ of type A objects and the pretopos $C_T$ of type T objects. 
+
+Let us first observe that the coreflector 
+
+$$0 \times -: C \to C_A$$ 
+
+is left exact (as all coreflectors are), and 
+
+* Preserves the initial object (by axiom 2), 
+
+* Preserves pushouts of kernel pairs, and pushouts of pairs of arrows one of which is monic (axiom 4), 
+
+* And therefore also preserves coproducts. 
+
+A functor between AT categories which is left exact and which preserves such classes of finite colimits may be called a **morphism of AT categories**. Hence the coreflector is a morphism of AT categories. 
+
+Next let us observe that the subcategory $C_T \hookrightarrow C$ is _reflective_; the reflector is the functor $T$ defined above by means of a suitable pushout. The reflector clearly preserves any colimits that exist, and preserves pullbacks (by axiom 7), so 
+
+$$T: C \to C_T$$ 
+
+is also a morphism of AT categories. Therefore we have a morphism of AT categories 
+
+$$F = \langle 0 \times -, T \rangle : C \to C_A \times C_T$$ 
+
+and now we wish to prove, under a suitable additional axiom (also satisfied by every abelian category and every pretopos), that this is an equivalence. 
+
++-- {: .un_lem}
+######Lemma
+The functor $F$ is faithful. 
+=-- 
+
++-- {: .proof}
+######Proof
+The functor $F$ is left exact and therefore preserves kernels. By axiom 8, $F$ reflects isomorphisms. It follows immediately from these two facts that $F$ is faithful. 
+=--
+
+* **Remark:** With this result, Freyd's "first task" is complete: any AT category may be faithfully represented in a product of a pretopos and an abelian category. 
+
 
 
 
