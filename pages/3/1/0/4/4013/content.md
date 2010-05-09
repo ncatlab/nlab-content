@@ -1,6 +1,6 @@
 In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with [[Vaughan Pratt]] on the categories mailing list, [[Peter Freyd]] gave a very sharp description of the commonalities and differences between [[abelian categories]] and [[topos]]es (or, in the first place, between abelian categories and [[pretopos]]es), by introducing a finitely axiomatized theory of "AT categories". As it turns out, this theory embodies the commonalities with such precision that every AT category splits as a [[product]] of an [[abelian category]] and a [[pretopos]]. 
 
-Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. 
+Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. We have taken the liberty of slightly reformulating some of Freyd's axioms. 
 
 #Contents#
 * automatic table of contents goes here
@@ -15,9 +15,9 @@ Freyd introduces some baseline assumptions on the categories in question:
 
 * Presence of an [[initial object]], 
 
-* [[pushout|Pushouts]] for pairs of [[morphism|arrows]] one of which is [[monomorphism|monic]], 
+* Presence of [[pushout|pushouts]] for pairs of [[morphism|arrows]] one of which is [[monomorphism|monic]], 
 
-* Pushouts for [[kernel pair]]s
+* Presence of pushouts for [[kernel pair]]s
 
 Each of these assumptions obtains in any [[abelian category]] and in any [[pretopos]]. 
 
@@ -34,10 +34,9 @@ Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \tim
 
 A pretopos will turn out to be precisely an AT category in which every object is of type T, and an abelian category will turn out to be an AT category where every object is of type A. 
 
-Now here come the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and part of Freyd's point is that any exactness axiom satisfied in both classes of categories is a logical consequence of this set of axioms. Freyd's remarks are included in parentheses. 
+Now here come the AT exactness axioms. Again, each of them is satisfied in every abelian category and in every pretopos, and part of Freyd's point is that any exactness axiom satisfied in both classes of categories is a logical consequence of this set of axioms. Some of Freyd's remarks are included in parentheses. 
 
-1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned
-above.")
+1. The category is an effective [[regular category]]. ("Yes this can be stated as universal Horn conditions on pullbacks and the special pushouts mentioned above.")
 
 1. The arrow $0 \to 1$ is monic. ("Note that it follows that all maps from $0$ are monic.")
 
@@ -49,7 +48,7 @@ B & \to & D
 }$$
 is also a pullback. A square that is simultaneously a pushout and a pullback will be called a "dolittle square". 
 
-1. Applying the functor $0 \times -$ to the previous dolittle square, the result is again a dolittle square. ("Note that binary coproducts therefore exist and are disjoint." See lemma 1 below.) 
+1. Applying the functor $0 \times -$ to the previous dolittle square, the result is again a dolittle square. 
 
 1. If $f: B \to 0 \times C$ is epic and
 $$\array{
@@ -59,13 +58,7 @@ A & \to & B \\
 }$$
 is a pullback, then it's a dolittle square.
 
-1. If the squares in
-$$\array{
-A & \to & C & \leftarrow & B \\
-\downarrow & & \downarrow & & \downarrow \\
-D & \to & E & \leftarrow & E
-}$$
-are pullbacks and if $D \to F \leftarrow E$ is a coproduct diagram, and if all the objects in the squares are type T, then $A \to C \leftarrow B$ is also a coproduct diagram.  
+1. Pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback).  
 
 1. Define a functor $T$ by the pushout diagram 
 $$\array{
@@ -110,8 +103,26 @@ Coproducts are disjoint.
 
 +-- {: .proof}
 ######Proof
-Hm, I'm a bit stuck on showing that the coprojections are monic; does this follow from axiom 3 in some tricky way, maybe in conjunction with effective regularity? The other bit, that the pullback of the two coprojections is initial, is obvious from axiom 3. 
+First observe that the pullback of the two coprojections is initial, as is obvious from axiom 3. 
+
+Now consider the pushout diagram 
+$$\array{
+0 & \to & Y \\
+\downarrow & & \downarrow i_Y \\
+X & \underset{i_X}{\to} & X + Y
+}$$
+We must prove that $i_X$, $i_Y$ are monic. It suffices to verify that on pulling back this diagram along $i_X$, that the pullback map $i_{X}^*(i_X)$ is an isomorphism (and similarly that $i_{Y}^*(i_Y)$ is an iso). We have just observed that $i_{X}^* Y$ is initial, and since $0 \to Y$ is monic and pulling back preserves monos, the map $i_{X}^*(0 \to Y)$ is monic (and therefore an isomorphism since monos to the initial object are isos in any category). Hence the pulled back diagram takes the form 
+$$\array{
+0 & \to & 0 \\
+\downarrow & & \downarrow \\
+i_{X}^* X & \underset{i_{X}^*(i_X)}{\to} & X
+}$$
+but this is a pushout diagram by axiom 6. It follows that the bottom map is an iso, as desired.
 =-- 
+
+## Category of type A objects 
+
+In this section we show that the full subcategory of type A forms an abelian category. 
 
 +-- {: .un_lem}
 ######Lemma
@@ -123,13 +134,11 @@ An object is of type A if and only if there exists a map to $0$.
 If $X$ is of type A, then we clearly have $X \cong 0 \times X \stackrel{\pi_1}{\to} 0$. Conversely, suppose there exists $p: X \to 0$. Note that since $0 \to 1$ is monic, there is at most one map $Y \to 0$ for any object $Y$. It follows quickly that maps $Y \to X$ are in natural bijective correspondence with maps $Y \to X \times 0$, so that $X \cong X \times 0$ by the Yoneda lemma.
 =--
 
-
-
 From this lemma, it follows that the full subcategory of type A objects in an AT category $C$ is equivalent to the category $C/0$, which is the category of coalgebras for the functor $A(X) = 0 \times X$. Hence the category of type A objects is coreflective. 
 
 +-- {: .un_lem}
 ######Lemma
-Objects of type A are closed under products, coproducts, subobjects, and quotient objects. Therefore they give a full subcategory that is an AT category, in particular an effective regular category.
+Objects of type A are closed under products, coproducts, subobjects, and quotient objects (= cokernels of kernel pairs). Therefore they give a full subcategory that is an AT category, in particular an effective regular category.
 =-- 
 
 +-- {: .proof}
@@ -149,8 +158,12 @@ The category of type A objects is an abelian category.
 
 +-- {: .proof}
 ######Proof
-An abelian category is the same thing as an effective regular $Ab$-enriched category (see Categories and Allegories, section 1.59). Now combine the previous two lemmas. 
+An abelian category is the same thing as an effective regular $Ab$-enriched category (see Categories and Allegories, section 1.59). Now apply the previous lemma in conjunction with axiom 1. 
 =--
+
+## Category of type T objects
+
+Now we show that the full subcategory of type T objects is a pretopos. 
 
 +-- {: .un_lem}
 ######Lemma
