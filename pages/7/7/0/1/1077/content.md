@@ -60,6 +60,8 @@ Amusingly, for $C$ to be semiadditive, it actually suffices to assume that $C$ h
 
 An [[additive category]], although normally defined through the theory of [[enriched categories]], may also be understood as a semiadditive category with an [[extra property]], as explained below.
 
+The existence of duals also tends to imply (semi)additivity; see [this paper](http://arxiv.org/abs/math/0604542) and [this MO question](http://mathoverflow.net/questions/14402/semiadditivity-and-dualizability-of-2/21307).
+
 
 # Biproducts imply enrichment #
 
