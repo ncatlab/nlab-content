@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include homotopy - contents]]
 </div>
@@ -18,6 +17,8 @@ I think that if we\'re going to organise the pages like this, then we should go 
 [[Urs Schreiber|Urs]]: yes, I know what you mean. it took me some time to decide how to name these entries, once I had decided to separate them and I don't claim that this is the optimal solution. 
 
 I guess currently most links want to go to [[homotopy (as a transformation)]] but with [[David Corfield|David]] pushing the [[Eckmann-Hilton duality]] that may change. I was motivated by his second sentence there.
+
+[[Mike Shulman|Mike]]: I think that the page called "homotopy" should be about [[homotopy (as a transformation)]].  That is always what I think of when I think of "homotopy" as a noun.  What you mean by "homotopy (as an operation)" I would call "homsets in a homotopy category" or "homotopy sets."
 =--
 
 [[!redirects homotopies]]
