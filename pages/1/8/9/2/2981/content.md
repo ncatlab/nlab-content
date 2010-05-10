@@ -14,7 +14,7 @@ One modern re-proof can be found in
 
 * May and Sigurdsson, _Parametrized homotopy theory_
 
-
+[[!redirects Strøm's model category]]
 [[!redirects Strom's model category]]
 [[!redirects Strøm's model category]]
 [[!redirects Strom's model category]]
