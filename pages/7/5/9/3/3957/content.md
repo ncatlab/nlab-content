@@ -33,3 +33,6 @@ The equivalence of these two forms part of Theorem 2.14 of [KM](#KM).
 {#KM}
 
 [[!redirects convenient vector spaces]]
+[[!redirects locally complete topological vector space]]
+[[!redirects locally complete]]
+[[!redirects locally complete vector space]]
