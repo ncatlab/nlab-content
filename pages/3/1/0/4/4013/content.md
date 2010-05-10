@@ -315,8 +315,47 @@ $$T(X + Y) \cong T X + T Y \cong 0 + T Y \cong Y$$
 which completes the proof. 
 =--
 
+This completes Freyd's "second task". 
+
 ## Topos-theoretic considerations 
  
+In order to beef up the type T objects to a topos, Freyd imposes some extra structure on top of the AT axioms. Since it is now the topos axioms that are in the ascendant, I will christen these categories _TA categories_. 
+
+Thus, a **TA category** is an AT category $C$ together with 
+
+* Functions $P, E: Ob(C) \to Ob(C)$, 
+
+* Functions $l, r: Ob(C) \to Mor(C)$, 
+
+* An operation $\Lambda$ which assigns to each pair of morphisms $f: R \to Y$, $g: R \to X$ (where $R$ and $Y$ are assumed to be type T), a morphism 
+$\Lambda(f, g): Y \to P X$, satisfying the following axioms: 
+
+1. $\langle l X, r X \rangle: E X \to P X \times X$ is monic and $P X$, $T X$ are of type T, 
+
+1. The composite of relations  
+$$Y \stackrel{\Lambda(f, g)}{\to} P X \stackrel{(l X)^{op}}{\to} E X \stackrel{r X}{\to} X$$ 
+is equal to 
+$$Y \stackrel{f^{op}}{\to} R \stackrel{g}{\to} X,$$
+
+1. If 
+$$\array{
+R & \stackrel{g}{\to} & E X \\
+f \downarrow & & \downarrow l X \\
+Y & \underset{h}{\to} & T X
+}$$
+is a pullback and $R$ is of type T, then $\Lambda(f, (r X) \circ g) = h$. 
+
+Freyd: "Note that in the full category of type-T objects, P  yields
+power-objects with $E$, $l$, $r$  naming the universal relations. (The third axiom provides the uniqueness condition.)" 
+
+And: "In any abelian category the only type T object is the zero
+object, which forces $P = E = 0$  for abelian categories."
+
+And finally: "It's routine that both $0 \times -$ and $T$ preserve the new structure. We can now remove the existential from AE. Define $\xi: T X \to X$  as the image of $r X$. The third task is finished with:
+
+1. For every $X$, $0 \times X \to X \stackrel{\xi}{\leftarrow} T X$ is a coproduct diagram." 
+
+_This section is likely to be rewritten and cleaned up._
 
 
 [[!redirects AT category]]
