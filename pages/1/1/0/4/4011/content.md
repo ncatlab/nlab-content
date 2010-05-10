@@ -4,7 +4,7 @@
 
 ## Introduction ##
 
-This page is part of the collections of pages relating to the [[differential topology of mapping spaces]].  Here, we consider the linear situation.  That is, we consider mapping spaces of the form $C^\infty(N, E)$ where $N$ is a sequentially compact [[Frölicher space]] and $E$ is a [[convenient vector space]].  The reason for studying these is that such spaces are the model spaces for the more general mapping spaces.
+This page is part of the collections of pages relating to the [[differential topology of mapping spaces]].  Here, we consider the linear situation.  That is, we consider mapping spaces of the form $C^\infty(N, E)$ where $N$ is a [[sequentially compact]] [[Frölicher space]] and $E$ is a [[convenient vector space]].  The reason for studying these is that such spaces are the model spaces for the more general mapping spaces.
 
 The properties that we need to prove for these spaces are, essentially, inheritance properties.  These are:
 
@@ -16,7 +16,7 @@ These properties are what is needed to propogate the manifold structure of the t
 
 ## Smooth Structure ##
 
-Let $E$ be a [[convenient vector space]] and let $N$ be a [[Frölicher space]] whose [[curvaceous topology]] is [[sequentially compact]].  As a convenient vector space is a special Fr&#246;licher space, and the category of Fr&#246;licher spaces is [[cartiesian closed]], the mapping space $C^\infty(N,E)$ is again a Fr&#246;licher space and is characterised by the fact that smooth maps $X \to C^\infty(N,E)$ correspond to smooth maps $X \times N \to E$ in the obvious way.
+Let $E$ be a [[convenient vector space]] and let $N$ be a [[Frölicher space]] whose [[curvaceous topology]] is [[sequentially compact]].  As a convenient vector space is a special Fr&#246;licher space, and the category of Fr&#246;licher spaces is [[cartesian closed]], the mapping space $C^\infty(N,E)$ is again a Fr&#246;licher space and is characterised by the fact that smooth maps $X \to C^\infty(N,E)$ correspond to smooth maps $X \times N \to E$ in the obvious way.
 In particular, the smooth curves in $C^\infty(N,E)$ correspond to the smooth maps $\mathbb{R} \times N \to E$.
 
 ## Linear Structure ##
