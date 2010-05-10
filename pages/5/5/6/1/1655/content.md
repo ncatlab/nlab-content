@@ -44,9 +44,12 @@ Examples of these are:
 A central r&#244;le in the whole theory plays **duality**, that is the study of [[locally convex spaces]] and their duals. A prominent example is the definition of certain concepts by duality in the theory of [[Schwartz distribution]]s.
 
 ## Important Subclasses
-The [[locally convex spaces]] are further classfied into e.g.
 
-- [[bornological topological vector space]]s
+Topological vector spaces come in many flavours.
+
+- [[locally convex spaces]]: where the Hahn-Banach theorem works (assuming sufficient axioms)
+
+- [[bornological topological vector space]]s: where bounded means continuous
 
 - [[barrelled topological vector space]]s
 
