@@ -130,12 +130,13 @@
 
 * [[(∞,1)-Grothendieck construction]]
 
-## Higher topos theory
-
-* [[higher topos theory]]
+## Extra properties and structure
  
-  * [[(∞,1)-topos]]
+* [[k-tuply monoidal n-category]]
 
+* [[stable (∞,1)-category]]
+
+* [[(∞,1)-topos]]
 
 ## 1-categorical models
 
