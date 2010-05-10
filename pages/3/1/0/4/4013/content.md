@@ -25,7 +25,7 @@ Most of the AT axioms Freyd introduces can be phrased directly in terms of such 
 
 Anyway, to follow what Freyd is saying here a bit: by making choices for each such universal construction, categories satisfying these assumptions can be considered models of a suitable [[essentially algebraic theory]]. In any case, each of these baseline assumptions can be turned into predicates (e.g., "$(p, q)$ is a pushout pair for pairs of arrows $(f, g)$" is a predicate $P(p, q; f, g)$ for a first-order theory of categories with these baseline assumptions), and the majority of axioms Freyd writes down, in particular all of the first 8 below, are expressible as universal Horn clauses in such predicates. 
 
-The sharp dichotomy which separates A from T is concentrated in the following definition: 
+The sharp dichotomy which separates "abelianness" from "toposness" is concentrated in the following definition: 
 
 +-- {: .un_def}
 ######Definition
@@ -78,7 +78,7 @@ This is the basic list of exactness assumptions which permit a sharp comparison 
 $$0 \times X \stackrel{\pi_1}{\to} X \stackrel{\xi}{\leftarrow} T X$$ 
 is a coproduct diagram, and the canonical map $X \to T X$ is a retraction of $\xi$.  
 
-To bring actual toposes into the picture, Freyd adds some more axioms, but let's first take stock and see what this gives us. 
+To bring actual toposes into the picture, Freyd adds some more axioms, but let's first take stock and see what this gives us so far. 
 
 ## Basic consequences of the AT axioms
 
@@ -156,7 +156,7 @@ Objects of type A are closed under binary products, finite coproducts, subobject
 This follows from the fact that the category of type A objects is the slice category $C/0$. 
 =--
 
-Before we prove the next lemma, recall that in a category with zero objects, a **kernel** of an arrow $f: A \to B$ is an equalizer of the pair $f, 0: A \to B$. This is the same as a pullback 
+Before we prove the next lemma, recall that in a category with zero objects, a **kernel** of an arrow $f: A \to B$ is an equalizer of the pair $f, 0: A \stackrel{\to}{\to} B$. This is the same as a pullback 
 
 $$\array{
 K & \to & A \\
@@ -239,7 +239,7 @@ The full subcategory of objects of type T is a pretopos.
 
 +-- {: .proof}
 ######Proof
-The previous proposition gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that a pushout along a mono is stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict there. Thus coproducts are universal in the category of T objects; they are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
+The previous proposition gives finite completeness, coproducts, and quotients of kernel pairs. One of the AT axioms is that a pushout along a mono is stable under pullback, and the initial object is stable under pullback in the category of T objects, because it is strict there. It follows that coproducts are universal in the category of T objects. They are also disjoint by an earlier result, so the category of T objects is extensive. It is also effective regular by axiom 1, hence a pretopos. 
 =-- 
 
 ## Splitting into type A and type T objects 
@@ -286,7 +286,7 @@ At this point we bring in axiom **AE** for its debut appearance. It may be helpf
 
 $$0 \times X \stackrel{\pi_2}{\to} X \to coker(\pi_2)$$ 
 
-and that axiom AE asserts that this exact sequence splits (with splitting $\xi: coker(\pi_2) \to X$), making $X$ the coproduct of the end terms.  
+and that axiom AE asserts that this exact sequence splits (with splitting $\xi: coker(\pi_2) \to X$), in such a way that $X$ is the coproduct of the end terms. 
 
 +-- {: .un_prop}
 ######Proposition
@@ -325,12 +325,14 @@ Thus, a **TA category** is an AT category $C$ together with
 
 * Functions $P, E: Ob(C) \to Ob(C)$, 
 
-* Functions $l, r: Ob(C) \to Mor(C)$, 
+* Functions $l, r: Ob(C) \to Mor(C)$, of the form $l X: E X \to P X$, $r X: E X \to X$,
 
 * An operation $\Lambda$ which assigns to each pair of morphisms $f: R \to Y$, $g: R \to X$ (where $R$ and $Y$ are assumed to be type T), a morphism 
-$\Lambda(f, g): Y \to P X$, satisfying the following axioms: 
+$\Lambda(f, g): Y \to P X$. 
 
-1. $\langle l X, r X \rangle: E X \to P X \times X$ is monic and $P X$, $T X$ are of type T, 
+This data is to satisfy the following axioms: 
+
+1. $\langle l X, r X \rangle: E X \to P X \times X$ is monic and $P X$, $E X$ are of type T, 
 
 1. The composite of relations  
 $$Y \stackrel{\Lambda(f, g)}{\to} P X \stackrel{(l X)^{op}}{\to} E X \stackrel{r X}{\to} X$$ 
@@ -345,7 +347,7 @@ Y & \underset{h}{\to} & T X
 }$$
 is a pullback and $R$ is of type T, then $\Lambda(f, (r X) \circ g) = h$. 
 
-Freyd: "Note that in the full category of type-T objects, P  yields
+Freyd: "Note that in the full category of type-T objects, $P$ yields
 power-objects with $E$, $l$, $r$  naming the universal relations. (The third axiom provides the uniqueness condition.)" 
 
 And: "In any abelian category the only type T object is the zero
