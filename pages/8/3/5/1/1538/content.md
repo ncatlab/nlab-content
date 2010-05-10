@@ -21,15 +21,30 @@ _Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[
 
   * (for this purpose often what is considered is the simple model of $n Vect$ given by $\mathbf{B}^{n-1} 1dVect_{iso}$).
 
-* parameter spaces $\Sigma = \Pi_1(X)$ are [[skeleton|skeleta]] of the [[fundamental groupoid]]s of $n$-dimensional manifolds $X$.
+* parameter spaces $\Sigma = \Pi(X)$ are [[skeleton|skeleta]] of the [[fundamental groupoid]]s of $n$-dimensional manifolds $X$.
 
 Therefore 
 
-* a field configuration $\Sigma  = \Pi_1(X) \stackrel{\phi}{\to} \mathbf{B} G$ is a $G$-bundle on $X$ (recall that $G$ is assumed to be a finite group);
+* a field configuration $\Sigma  = \Pi(X) \stackrel{\phi}{\to} \mathbf{B} G$ is a $G$-bundle on $X$ (recall that $G$ is assumed to be a finite group);
 
-* the action $\Pi_1(X) \stackrel{\phi}{\to} \mathbf{B} G \stackrel{exp(i S)}{\to} \mathbf{B}^n U(1)$ of this field configuration is the cohomology class $c(\phi)$ of this bundle under the given group cocycle;
+* the action $\Pi(X) \stackrel{\phi}{\to} \mathbf{B} G \stackrel{exp(i S)}{\to} \mathbf{B}^n U(1)$ of this field configuration is the cohomology class $c(\phi)$ of this bundle under the given group cocycle;
 
-* the weight in the path integral over all $\phi$ for $n$-dimensional $X$ (i.e. in codimension 0) is the [[groupoid cardinality|groupoid measure]] of the [[functor category]] $[\Pi_1(X), \mathbf{B}G]$.
+* the weight in the path integral over all $\phi$ for $n$-dimensional $X$ (i.e. in codimension 0) is the [[groupoid cardinality|groupoid measure]] of the [[functor category]] $[\Pi(X), \mathbf{B}G]$.
+
+##As an extended TQFT
+
+The Dijkgraaf-Witten model is an example of (fully) [[extended topological quantum field theory]]. Namely, the above data not only assign an element in $U(1)$ to any closed $n$-dimensional manifold, but also a vector space to any closed $(n-1)$-dimensional manifold, a [[2-vector space]] to any closed $(n-2)$ manifold, and so on, ending with an [[n-vector space]] assigned to the point. Also, manifolds with boundary corresponds to (higher) linear operators between these (higher) vector spaces. According to the [[cobordism hypothesis]], the whole structure of the Dijkgraaf-Witten model as an fully extended  TQFT is contained in the datum of the $n$-Vector space it assigns to the point. This is the space of [[section|sections]] of the flat $n$-vector bundle $\mathbf{B}G\to n Vect$ induced by the background field $\mathbf{B}G\to \mathbf{B}^n U(1)$. 
+
+Also the $k$-vector space associated with a closed $(n-k)$-dimensional manifold $X_{n-k}$ admits a similar simple description in terms of sections. One transgresses the background field to a map between functor categories
+\[
+[\Pi(X_{n-k}),\mathbf{B}G]\to [\Pi(X_{n-k}),\mathbf{B}^n U(1)];
+\]
+the $n$-groupoid $[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$ is [[k-simply connected n-category|(k-1)-connected]], and 
+\[
+\pi_{k}[\Pi(X_{n-k}),\mathbf{B}^n U(1)]\cong U(1),
+\]
+so the $k$-connected cover of $[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$ is an $k$-flat $\mathbf{B}^k U(1)$-bundle over $[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$. Considering the natural representation $\mathbf{B}^k U(1)\to k Vect$, one obtains a $k$-flat $k$-vector bundle over  $
+[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$, whose space of sections is the $k$-vector space associated with the closed $(n-k)$-manifold $X_{n-k}$.
 
 ##Finite Group Cohomology
 
