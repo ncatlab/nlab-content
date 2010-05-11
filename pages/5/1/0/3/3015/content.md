@@ -12,13 +12,7 @@ A structured set is, of course, a [[set]] equipped with extra [[structure]].  It
 
 ### Abstract
 
-Very abstractly, we may define a __structured set__ as an [[object]] of any [[concrete category]], that is an object of any category $C$ equipped with a [[faithful functor]] $U\colon C \to Set$ to the [[category of sets]].  (Some authors require that $U$ be [[representable functor|representable]] for a concrete category, but we do not need that here.)
-+--{: .query}
-[[Mike Shulman]]: You realize, of course, that that is not the definition given at [[concrete category]].  I myself would prefer that "a faithful functor to Set" be the definition of "concrete category," with the extra representability condition described by an additional adjective such as, oh, I don't know, "representable" or "admitting a free object on 1."  But whatever we use, it would be better to be consistent.
-
-_Toby_:  Yeah, I grew up with your definition too (which is also the one in _Joy of Cats_).  Fixed.
-=--
-Given two structured sets $X$ and $Y$ (in the same category $C$), a [[function]] $f\colon U(X) \to U(Y)$ between their underlying sets __preserves__ the structure if it lies in the image of $U$, that is if there exists a (necessarily unique since $U$ is faithful) [[morphism]] $\tilde{f}\colon X \to Y$ in $C$ such that $U(\tilde{f}) = f$.
+Very abstractly, we may define a __structured set__ as an [[object]] of any [[concrete category]], that is an object of any category $C$ equipped with a [[faithful functor]] $U\colon C \to Set$ to the [[category of sets]].  (Some authors require that $U$ be [[representable functor|representable]] for a concrete category, but we do not need that here.)  Given two structured sets $X$ and $Y$ (in the same category $C$), a [[function]] $f\colon U(X) \to U(Y)$ between their underlying sets __preserves__ the structure if it lies in the image of $U$, that is if there exists a (necessarily unique since $U$ is faithful) [[morphism]] $\tilde{f}\colon X \to Y$ in $C$ such that $U(\tilde{f}) = f$.
 
 
 ### Concrete
@@ -32,7 +26,7 @@ In other words, $T\colon Set_\cong \to Set_\cong$ (or equivalently $T\colon Set_
 
 (Compare the notion of [[structure type]] from [[combinatorics]], which is a set-valued functor on the groupoid of [[finite sets]].  Every combinatorial structure type can be interpreted as a type of structure, where only finite sets are capable of supporting the structure.)
 
-Given a type $T$ of structure on sets, we define a __$T$-structure set__ to be a set $A$ equipped with an [[element]] of $T(A)$.  Given $T$-structured sets $X = (A,\sigma)$ and $Y = (B,\tau)$, a bijection $f\colon A \to B$ __preserves__ the $T$-structure on $X$ and $Y$ if $T(f)(\sigma) = \tau$.  In general, there is no notion of whether an arbitrary function $f\colon A \to B$ preserves $T$-structure, although such a notion may be defined in many cases.
+Given a type $T$ of structure on sets, we define a __$T$-structured set__ to be a set $A$ equipped with an [[element]] of $T(A)$.  Given $T$-structured sets $X = (A,\sigma)$ and $Y = (B,\tau)$, a bijection $f\colon A \to B$ __preserves__ the $T$-structure on $X$ and $Y$ if $T(f)(\sigma) = \tau$.  In general, there is no notion of whether an arbitrary function $f\colon A \to B$ preserves $T$-structure, although such a notion may be defined in many cases.
 
 It is often convenient to restrict the form that $T$ may take.  [[Bourbaki]]\'s theory of structure, while not described in category-theoretic terms, is essentially the above where $T$ is required to be constructed from constant finite sets, [[cartesian products]], [[power sets]] and the like.  (I need to check Bourbaki for a complete list, particularly what kinds of [[subsets]] we may take in constructing $T$.)  This is particularly convenient for deciding when a non-invertible function preserves $T$-structure, although it does not always give the most useful answer.
 
