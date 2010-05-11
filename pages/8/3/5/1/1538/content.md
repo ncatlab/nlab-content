@@ -35,16 +35,51 @@ Therefore
 
 The Dijkgraaf-Witten model is an example of (fully) [[extended topological quantum field theory]]. Namely, the above data not only assign an element in $U(1)$ to any closed $n$-dimensional manifold, but also a vector space to any closed $(n-1)$-dimensional manifold, a [[2-vector space]] to any closed $(n-2)$ manifold, and so on, ending with an [[n-vector space]] assigned to the point. Also, manifolds with boundary corresponds to (higher) linear operators between these (higher) vector spaces. According to the [[cobordism hypothesis]], the whole structure of the Dijkgraaf-Witten model as an fully extended  TQFT is contained in the datum of the $n$-Vector space it assigns to the point. This is the space of [[section|sections]] of the flat $n$-vector bundle $\mathbf{B}G\to n Vect$ induced by the background field $\mathbf{B}G\to \mathbf{B}^n U(1)$. 
 
-Also the $k$-vector space associated with a closed $(n-k)$-dimensional manifold $X_{n-k}$ admits a similar simple description in terms of sections. One transgresses the background field to a map between functor categories
-\[
-[\Pi(X_{n-k}),\mathbf{B}G]\to [\Pi(X_{n-k}),\mathbf{B}^n U(1)];
-\]
-the $n$-groupoid $[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$ is [[k-simply connected n-category|(k-1)-connected]], and 
-\[
-\pi_{k}[\Pi(X_{n-k}),\mathbf{B}^n U(1)]\cong U(1),
-\]
-so the $k$-connected cover of $[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$ is an $k$-flat $\mathbf{B}^k U(1)$-bundle over $[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$. Considering the natural representation $\mathbf{B}^k U(1)\to k Vect$, one obtains a $k$-flat $k$-vector bundle over  $
-[\Pi(X_{n-k}),\mathbf{B}^n U(1)]$, whose space of sections is the $k$-vector space associated with the closed $(n-k)$-manifold $X_{n-k}$.
+Also the $k$-vector space associated with a closed $(n-k)$-dimensional manifold $X_{n-k}$ admits a similar simple description in terms of sections. By the universal coefficient theorem we find that $[\Pi(X_{n-k}), \mathbf{B}^n U(1)] \simeq \mathbf{B}^k U(1)$. This means that the [[transgression]] of the background field
+
+$$
+  \alpha : \mathbf{B}G \to \mathbf{B}^n U(1)
+$$
+
+to the space of field configurations $[\Pi(X_{n-k}), \mathbf{B}G]$ over $X_{n-k}$ is a [[cocycle]]
+
+$$
+  [\Pi(X_{n-k}), \alpha] : [\Pi(X_{n-k}), \mathbf{B}G] \to \mathbf{B}^k U(1)
+  \,.
+$$
+
+This classifies a $\mathbf{B}^{k-1} U(1)$-[[principal infinity-bundle]] $P$ over the space of field configurations, given by the [[pullback]]
+
+$$
+  \array{
+    P &\to & \mathbf{E} \mathbf{B}^{k-1} U(1)
+    \\
+    \downarrow && \downarrow
+     \\
+     [\Pi(X_{n-k}), \mathbf{B}G] &\stackrel{[\Pi(X_{n-k}), \rho]}{\to}& \mathbf{B}^k U(1)
+  }
+  \,.
+$$
+
+By the canonical representation $\rho : \mathbf{B}^k U(1) \to k Vect_{\mathbb{C}}$ we have associated to this canonically a $k$-vector bundle $E$, which is the pullback
+
+$$
+  \array{
+    E &\to & k Vect_*
+    \\
+    \downarrow && \downarrow
+     \\
+     [\Pi(X_{n-k}), \mathbf{B}G] &\stackrel{\rho \circ [\Pi(X_{n-k}), \rho]}{\to}& k Vect
+  }
+  \,.
+$$
+
+If $X_{n-k}$ is closed then the $k$-vector spaces associated by the TFT to $X_{n-k}$ is the space of sections of this bundle $E$.
+
+
+      
+
+
 
 ##Finite Group Cohomology
 
