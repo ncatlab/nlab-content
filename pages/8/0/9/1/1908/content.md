@@ -55,7 +55,7 @@ If the category in question has extra structure, then this is usually inherited 
 
 A famous example are [[fusion category|fusion categories]] whose decategorifications are called _[[Verlinde ring]]s_.
 
-There may also be extra structure induced more idirectly on $K(C)$. For instance the [[K-theory|K-group]] of an [[abelian category]] is the decategorification of its category of bounded [[chain complexes]] and this inherits a group structure from the fact that this is a [[triangulated category]] (a [[stable (∞,1)-category]]) in which there is a notion of [[fibration sequence|homotopy exact sequences]].
+There may also be extra structure induced more directly on $K(C)$. For instance the [[K-theory|K-group]] of an [[abelian category]] is the decategorification of its category of bounded [[chain complexes]] and this inherits a group structure from the fact that this is a [[triangulated category]] (a [[stable (∞,1)-category]]) in which there is a notion of [[fibration sequence|homotopy exact sequences]].
 
 
 ## Further examples ##
