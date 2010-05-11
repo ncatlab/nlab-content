@@ -435,9 +435,91 @@ Of course for this identification to be more than a meaningless coincidence we n
 
 =--
 
+Let $\Xi$ be the set of _square_ submatrices of the $k \times n$-matrix $(x_i^j)$. For \xi \in \Xi$ a submatrix, we write $det(\xi)$ for the corresponding [[determinant]], computes as a product in $C^\infty(\tilde D(k,n))$.
 
 
++-- {: .un_prop}
+###### Proposition
 
+
+The elements $f \in C^\infty(\tilde D(k,n))$ are precisely of the form
+
+$$
+  f = \sum_{\xi \in \Xi} det(\xi) f_\xi
+$$
+
+for _unique_ $\{f_\xi \in \mathbb{R} | \xi \in \Xi\}$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+This is a direct extension of the argument in the above example: a general product of $r$ generators in $C^\infty(\tilde D(k,n))$ is
+
+$$
+  x_{i_1}^{j_1} x_{i_2}^{j_2} \cdots x_{i_r}^{j_r}
+  \,.
+$$
+
+By the relations in $C^\infty(\tilde D(k,n))$, for any permutation $\sigma$ of $r$ elements, this is equal to
+
+$$
+  \cdots = sgn(\sigma) x_{i_1}^{j_{\sigma}} x_{i_2}^{\sigma(j_{\sigma(2)})} \cdots x_{i_r}^{j_{\sigma(r)}}
+  \,,
+$$
+
+where $sgn(\sigma) \in \{+1, -1\} \subset \mathbb{R}$ is the [[signature]] of the permutation. It follows that each such element may be written as
+
+$$
+  \cdots = \frack{1}{r!} det(x_{i_{\bullet}}^{j_{\bullet}})
+$$
+
+for $(x_{i_\bullet}^{j_\bullet}) \in \Xi$ the corresponding submatrix of $(x_i^j)$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In section 1.3 of
+
+* [[Anders Kock]],  _Synthetic differential geometry of manifold_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
+effectively this proposition appears as the "[[Kock-Lawvere axiom]] scheme for $\tilde D(k,n)$" when $\tilde D(k,n)$ is regarded as an object of a suitable [[smooth topos]]. It is useful to record this simple but very crucial observation of Anders Kock here in the category $Alg_{\mathbb{R}}^{op}$ or in the category $C^\infty Alg^{op}$ of [[smooth loci]], as we do here, where it is just a simple observation. The point of the Kock-Lawvere axiom scheme is effectively to ensure that the properties of $C^\infty(\tilde D(k,n)) \in C^\infty Alg^{op}$ are preserved under [[Yoneda embedding]] into a corresponding [[sheaf topos]]. But it has been observed that it serves to clarify what is going on in parts of Ander Kock's book by separating the combinatorial and algebraic arguments from their internalization into suitable [[smooth topos]]es.
+
+=--
+
+Let $C^\infty(\tilde D(k,n))_{top}$ be the sub-[[vector space]] of the underlying vector space of $C^\infty(\tilde D(k,n))$ on those elements that vanish if the collection of generators $x_i = (x_i^1 , x_i^2, \cdots, x_i^n)$ is set to 0, for all $i$. This are those elements that are linear combinations of the form $\sum_{\xi_{top} \in Xi_{top}} det(\xi_{top}) f_{\xi_{top}}$, for $\xi_{top}$ ranging over the $k \times k$-submatrices of $(x_i^j)$.
+
+
++-- {: .un_corollary}
+###### Corollary
+
+
+The map 
+
+$$
+  \wedge^k (\mathbb{R}^n)^* \to C^\infty(\tilde D(k,n))_{top}
+$$
+
+given by
+
+$$
+  \omega^1 \wedge \omega^2 \wedge
+  \cdots \wedge \omega^k
+  \mapsto
+  (\omega^1 \cdot x_1) (\omega^2 \cdot x_2) \cdots
+  (\omega^k \cdot x_k)
+$$
+
+is well defined and constitutes an [[isomorphism]] of vector spaces.
+
+=--
+
+So inside the space of functions on infinitesimal simplices, we find the differential forms. The next crucial observation now is that there is a _natural reason_ to restrict to $C^\infty(\tilde D(k,n)) \subset C^\infty(\tilde D(k,n))$.
+
+...
 
 
 ## References
