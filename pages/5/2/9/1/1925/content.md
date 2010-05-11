@@ -90,3 +90,4 @@ There is an oidification ([[horizontal categorification]]) of a heap, sometimes 
 
 
 [[!redirects group torsor]]
+[[!redirects heaps]]
