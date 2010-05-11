@@ -31,7 +31,7 @@ See definition 3.1.1 in
 
 * Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-kopi.pdf))
 
-for this simplicial definition. 
+for this simplicial definition. A detailed account of this is in the entry [[infinitesimal object]] in the section [Spaces of infinitesimal simplicies](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl).
 
 This is a very simple-looking statement. The reason is the [[topos]]-theoretic language at work in the background, which takes care that we may talk about [[infinitesimal object]]s as if they were just plain ordinary sets. For a very detailed account of how the above statement is implemented concretely in terms of concrete models for synthetic differential spaces see section 1 of 
 
