@@ -79,7 +79,7 @@ A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 * Assuming the axiom of choice, the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
 
-* The direct [[image]] of a compact subspace under a [[continuous map]] is compact. Thus any topological space becomes a [[bornological space]] by taking the bounded sets to be compact subspaces.
+* The direct [[image]] of a compact subspace under a [[continuous map]] is compact. A topological space becomes a [[bornological set]] by taking the bounded sets to be subsets with compact closure, and under this bornology, every continuous function is a bounded map.  
 
 * A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
 
