@@ -32,8 +32,8 @@ maps $k$ [[homeomorphism|homeomorphically]] onto its image. It follows quickly t
 
 More classical material should be added, particularly on [[locally convex spaces]].
 
-## TVR from a Hilbert space viewpoint
-The theory of TVR can be understood as the quest to find the essence of many fundamental theorems of [[functional analysis]] of [[Hilbert space]]s (or [[Banach space]]s), namely to find the minimal set of assumptions that are needed for Hilbert space theorems to remain true.
+## TVS from a Hilbert space viewpoint
+The theory of TVS can be understood as the quest to find the essence of many fundamental theorems of [[functional analysis]] of [[Hilbert space]]s (or [[Banach space]]s), namely to find the minimal set of assumptions that are needed for Hilbert space theorems to remain true.
 Examples of these are:
 
 
