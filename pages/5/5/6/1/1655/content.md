@@ -45,7 +45,9 @@ A central r&#244;le in the whole theory plays **duality**, that is the study of 
 
 ## Important Subclasses
 
-Topological vector spaces come in many flavours.
+Topological vector spaces come in many flavours. The following chart provides a first overview (chart created and published by Greg Kuperberg on MathOverflow [here](http://mathoverflow.net/questions/8443/barrelled-bornological-ultrabornological-semi-reflexive-how-are-these-use)):
+
+[[topvs.png:pic]]
 
 - [[locally convex spaces]]: where the Hahn-Banach theorem works (assuming sufficient axioms)
 
