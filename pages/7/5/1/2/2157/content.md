@@ -13,15 +13,19 @@ Note that the 'linear functions' of elementary algebra ---the total functions wh
 
 # Definitions #
 
-This can be made precise in various (equivalent) ways:
+## Summary
+
+The definition of affine space can be made precise in various (equivalent) ways.  We give a name to some of the definitions for later reference.
+
 *  An affine space is simply a vector space, but with different morphisms; an affine linear map is a function that is the difference between a linear map and a [[constant function]].
 *  An affine space is a [[set]] equipped with an equivalence class of vector space structures, where two vector space structures are considered equivalent if the [[identity function]] is affine linear as a map from one structure to the other; whether a map between affine spaces is affine linear is independent of the representative vector space structures.
 *  An affine space is a set $A$ together with a vector space $V$ and an [[action]] of (the additive group of) $V$ on $A$ that makes $A$ into a $V$-[[torsor]] (over the point); an affine linear map is a $V$-equivariant map. For this point of view, see also [[zoranskoda:affine space]].
 *  An affine space is a [[heap]] whose automorphism group is equipped with structure making it the additive group of a vector space; an affine linear map is a heap morphism.
-*  An affine space is a set $A$ together with a vector space $V$ and a function $A \times A \to V$ (thought of as subtraction) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction.
-*  An affine space over the [[ground field]] $k$ is an [[inhabited set]] $A$ together with functions $A \times A \times A \to A$ (thought of as $x,y,z \mapsto x - y + z$) and $k \times A \times A \to A$ (thought of as $r,x,y \mapsto x - r x + r y$) that satisfy some equations; an affine linear map is a function that preserves these operations.
-*  Assuming that $2$ is invertible in the field $k$ (i.e. the [[characteristic]] of $k$ is not $2$), an affine space over $k$ is an inhabited set $A$ together with a function $k \times A \times A \to A$ that satisfies some equations; an affine linear map is a function that preserves these operations.
-*  An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n\ge 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0+\dots+r_n=1$, a function $A^{n+1}\to A$, satisfying some equations; an affine linear map is a function that preserves these operations.  We think of (and write) the function corresponding to $(r_0,\dots,r_n)$ as $(x_0,\dots,x_n)\mapsto r_0x_0+\dots+r_n x_n$.
+*  An affine space is a set $A$ together with a vector space $V$ and a function $A \times A \to V$ (thought of as subtraction) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction (the "vector-valued difference" definition).
+*  An affine space over the [[ground field]] $k$ is an [[inhabited set]] $A$ together with functions $A \times A \times A \to A$ (thought of as $x,y,z \mapsto x - y + z$) and $k \times A \times A \to A$ (thought of as $r,x,y \mapsto x - r x + r y$) that satisfy some equations; an affine linear map is a function that preserves these operations (the "two ternary operations" definition).
+*  An affine space over $k$ is an inhabited set $A$ together with a function $k\times A\times A\times A\to A$ (thought of as $r,x,y,z \mapsto r x - r y + z$) that satisfies some equations; an affine linear map is a function that preserves this operation (the "one quaternary operation") definition.
+*  Assuming that $2$ is invertible in the field $k$ (i.e. the [[characteristic]] of $k$ is not $2$), an affine space over $k$ is an inhabited set $A$ together with a function $k \times A \times A \to A$ that satisfies some equations; an affine linear map is a function that preserves this operation (the "one ternary operation" definition).
+*  An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n\ge 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0+\dots+r_n=1$, a function $A^{n+1}\to A$, satisfying some equations; an affine linear map is a function that preserves these operations (the "unbiased" definition).  We think of (and write) the function corresponding to $(r_0,\dots,r_n)$ as $(x_0,\dots,x_n)\mapsto r_0x_0+\dots+r_n x_n$.
 
 +-- {: .query}
 There should be another characterisation, which I don\'t quite see how to phrase, at least when $k = \mathbb{R}$, which is that an affine space is a manifold (perhaps Riemannian) that is sufficiently flat and unbounded in some sense.  ---Toby
@@ -35,6 +39,10 @@ _Toby_:  I intended 'that is [...] in some sense' to include the possibility of 
 _Toby_:  I guess that this depends on what you think 'Euclidean space' means; I\'ve known people to define it to *be* $\mathbb{R}^n$, but that seems quite ahistorical to me; I like that Urs calls such a thing [[Cartesian space]] instead.  Euclid did not have coordinates; he did not even have an origin, so a Euclidean space should be a heap rather than a group.  For my comment above, I would define a [[Euclidean space]] to be an affine inner product space; FWIW [Wikipedia agrees](https://secure.wikimedia.org/wikipedia/en/affine_space).  (However, Wikipedia doesn\'t go as far as I do when I claim that the inner product should be valued in an $\mathbb{R}$-line rather than in $\mathbb{R}$ itself; then again, I ignored that subtlety myself in my previous comment.)
 =--
 
++--{: .query}
+[[Mike Shulman]]: I think there should also be a definition of the form "an affine space is a [[projective space]]" with a distinguished line called "infinity," and an affine linear map is a projective morphism which preserves infinity.  But I'm not going to put that in the list until I'm sure.
+=--
+
 Clearly every vector space has an underlying affine space (and every linear map is affine linear), giving a [[forgetful functor]] $U:Vect \to Aff$.  Conversely, any affine space gives rise to a canonical vector space, sometimes called its space of _displacements_.  This is obvious from the definitions that involve a vector space as part of the structure, but a vector space can also be reconstructed from the other definitions as well, analogously to how a group can be reconstructed from a [[heap]].  This gives a functor $D:Aff\to Vect$ in the other direction.  One can verify that $D(U(V))\cong V$ and $U(D(A))\cong A$; the first isomorphism is [[natural isomorphism|natural]], but the second is not (otherwise $Vect$ and $Aff$ would be [[equivalent categories]], which they are not).
 
 The category of affine spaces is almost a [[variety of algebras]], as can be seen from the last few definitions, except for the requirement that an affine space be inhabited.  To rectify this, sometimes one allows the [[empty set]] to be an affine space, although it does not have any particular vector space of displacements.
@@ -42,15 +50,72 @@ The category of affine spaces is almost a [[variety of algebras]], as can be see
 Note that there are a few different ways to think about the operations involved in the final three definitions (those not explicitly involving a vector space).  The operation $(x,y,z)\mapsto x - y + z$ is the same as the [[Mal'cev operation]] (i.e. [[heap]] structure) of the additive group of a vector space.  It can be viewed as the point completing a parallelogram with given vertices $x,y,z$, or equivalently as the result of adding $x$ and $z$, relative to a choice of $y$ as the origin.  The operation $(r,x,y)\mapsto x - r x + r y$ can be viewed as either a weighted average of $x$ and $y$ (i.e. as $(1-r)x + r y$) or as the result of multiplying the "displacement vector" $y-x$ by $r$, relative to the origin $x$ (i.e. as $x + r(y-x)$).
 
 
-# Comparing definitions
+## Details and comparisons
 
-Of the definitions not explicitly involving a vector space (the last three), the first is an affine version of the usual definition of a vector space in terms of addition and scalar multiplication.  Note that in each case the affine operation needs to take an extra parameter.  However, in the affine case, it turns out that (if $2$ is invertible) the "addition" $(x,y,z)\mapsto x-y+z$ can be recovered from the "scalar multiplication" $(r,x,y)\mapsto r x + (1-r)y$ by
-$$ x - y + z = 2 \left(\frac{1}{2} x + \frac{1}{2} z\right) + (-1)y.$$
-This leads to the next definition, in which we omit the operation $A^3\to A$ in favor of the operation $k\times A^2\to A$.
+The first few definitions, which explicitly involve a vector space, make no especial use of the fact that the vector space is a vector space rather than merely an abelian [[group]].  Thus, they are valid (and equivalent) in the more general context of [[torsors]] and [[heaps]].  They are also mostly complete as stated, except for the final one.
 
-The last, "unbiased," definition is analogous to defining a vector space as a set $V$ equipped with, for every integer $n\ge 0$ and $n$-tuple $(r_1,\dots,r_n)$ of elements of $k$, a function $V^n\to V$ (thought of as $(v_1,\dots,v_n)\mapsto r_1 v_1+\dots r_n v_n$), satisfying some axioms.  Just as we call a general expression $r_1 v_1+\dots r_n v_n$ a "linear combination" of elements of $V$, when $r_0+\dots+r_n=1$ we call $r_0x_0+\dots+r_n x_n$ an __affine (linear) combination__ of elements of $A$.
+### Vector-valued differences
 
-The axioms for the unbiased definition are most straightforward to see by writing out the operations as a [[Lawvere theory]].  In particular, this includes "substitution" axioms of the form
+In this definition, an affine space over a vector space $V$ is a set $A$ together with a "subtraction" function $A\times A\to V$, written $(x,y)\mapsto x-y$, such that:
+
+* $x-x = 0$.
+* $(y-x) + (z-y) = (z-x)$ for any $x,y,z\in A$.
+* For any $x\in A$ and $v\in V$ there exists a unique $y\in A$ such that $y-x=v$.
+
+If $y-x=v$, then we write $y=x+v$, which we can regard as an operation on $x$ and $v$ by the third axiom.  Hence we have $(x+v)-x = v$ and (by uniqueness) $x + (y-x) = y$, and also $x+0 =x$ and $(x+v)+w = x+ (v+w)$ by the first two axioms.  Thus, these axioms suffice to make $A$ into a [[torsor]] over the additive group of $V$ with the action $+$, which is one of the previous definitions given.
+
+Note again that this would makes sense if $V$ is any group, not just the additive group of a vector space.
+
+### Two ternary operations
+
+This definition is an affine version of the usual definition of a vector space in terms of addition and scalar multiplication.  However, in each case the affine operation needs to take an extra parameter.  In reading the following axioms it helps to think of $\mu(x,y,z)$ as "the sum of $x$ and $z$ relative to the basepoint $y$" and likewise $\Lambda_r(x,y)$ as "the product $r\cdot y$ relative to the basepoint $x$".
+
+* $\mu(x,x,y) = y$ (identity for addition)
+* $\mu(x,y,\mu(z,w,v)) = \mu(\mu(x,y,z),w,v)$ (associativity of addition)
+* $\mu(x,y,z) = \mu(z,y,x)$ (commutativity of addition)
+* $\Lambda_{r s}(x,y) = \Lambda_r(x, \Lambda_s(x,y))$ (associativity of scalar multiplication)
+* $\Lambda_1(x,y) = y$ (identity for scalar multiplication)
+* $\Lambda_{r+s}(x,y) = \mu(\Lambda_r(x,y), x, \Lambda_s(x,y))$ (left distributivity of scalar multiplication)
+* $\Lambda_r(w, \mu(x,y,z)) = \mu(\Lambda_r(w,x), \Lambda_r(w,y), \Lambda_r(w,z))$ (right distributivity of scalar multiplication)
+
+
+### One quaternary operation
+
+This definition is an affine version of the less standard definition of a vector space in terms of a single operation $r,x,y\mapsto r\cdot x + y$.  Here an affine space over $k$ is a set $A$ together with a single operation $\mu\colon k\times A\times A\times A\to A$, written as $(r,x,y,z)\mapsto \mu_r(x,y,z)$ and thought of as the sum "$r\cdot x + z$ relative to the basepoint $y$," such that:
+
+* $\mu_1(x,y,y) = x$
+* $\mu_r(x,x,y) = y$
+* $\mu_1(x,y,z) = \mu_1(z,y,x)$
+* $\mu_r(\mu_s(x,y,z),w,v) = \mu_{r s}(x,y,\mu_r(z,w,v))$
+* $\mu_{r+s}(x,y,z) = \mu_r(x,y,\mu_s(x,y,z))$
+
+
+### One ternary operation
+
+In the affine case (in contrast to the vector space case), it turns out that if $2$ is invertible the "addition" $(x,y,z)\mapsto x-y+z$ can be recovered from the "scalar multiplication" $(r,x,y)\mapsto r x + (1-r)y$ by $\mu(x,y,z) = \Lambda_2(y,\Lambda_{1/2}(x,y))$.  Thus, in this case we can define an affine space over $k$ to be a set $A$ together with a single operation $\Lambda\colon k\times A\times A\to A$ such that the axioms for the two-ternary-operations definition are satisfied with this definition of $\mu$.
+
+However, we can also simplify the requisite axioms in this presentation.  The following axioms are easier to state if we write $\Lambda_r(x,y)$ as $(1-r) x + r y$, or equivalently as $r x + s y$, where we require $r+s=1$ for the expression to be defined.
+
+* Idempotence: $r x + s x = x$ whenever $r+s=1$.
+* Commutativity: $r x + s y = s y + r x$ whenever $r+s=1$.
+* Associativity: whenever $r+s+t=1$, whichever of the following three expressions are defined are equal:
+  $$
+  \array{
+  r x + (1-r)\left(\frac{s}{1-r} y + \frac{t}{1-r} z\right)\\
+  (1-s)\left(\frac{r}{1-s} x + \frac{t}{1-s} z\right) + s y\\
+  (1-t)\left(\frac{r}{1-t} x + \frac{s}{1-t} y\right) + t z
+  }
+  $$
+  The first is defined whenever $r\neq 1$, the second whenever $s\neq 1$, and the third whenever $t\neq 1$.  Since $k$ has characteristic $\neq 2$, we cannot have $r=s=t=1$ and $r+s+t=1$ at the same time, so at least one of these expressions is always defined.  We write $r x + s y + t z$ for the common value of whichever of them are defined.
+* Cancellation: for any $r\in k$ and $x,y\in A$, we have $x + a y - a y = x$.
+
+### Unbiased definition
+
+Let $Th_{vect}$ denote the [[Lawvere theory]] of $k$-vector spaces.  For any $n$, its $n$-ary operations are $n$-tuples $(r_1,\dots,r_n)\in k^n$ representing the linear combination operation $(x_1,\dots,x_n)\mapsto r_1 x_1 +\dots+ r_n x_n$.  Composition of operations is by substitution in the obvious way, and the identity operation is $(1)$.  A model of this theory is simply a vector space.  With this 'unbiased' definition, a vector space comes equipped with, for every integer $n\ge 0$ and $n$-tuple $(r_1,\dots,r_n)$ of elements of $k$, a function $V^n\to V$ (thought of as $(v_1,\dots,v_n)\mapsto r_1 v_1+\dots r_n v_n$), satisfying some axioms.
+
+Let $Th_{aff}$ denote the subtheory of $Th_{vect}$ containing only those operations $(r_1,\dots,r_n)$ such that $r_1+\dots+r_n=1$; an **affine space** is a nonempty model of $Th_{aff}$.  (We have to observe that these are closed under the theory operations and thus define a subtheory.  Note that this excludes all zero-ary operations, so an affine space has no distinguished constants, and it also excludes all nonidentity unary operations.)  The basic operations $r_0x_0+\dots+r_n x_n$, when $r_0+\dots+r_n=1$, are called __affine (linear) combinations__ of elements of $A$.
+
+The axioms for the unbiased definition are most straightforward to see by writing out the operations of $Th_{aff}$.  In particular, this includes "substitution" axioms of the form
 $$
 r_0(s_{00} x_{00} + \dots + s_{0m_0} x_{0m_0}) + \dots + r_n (s_{n0} x_{n0} + \dots + s_{n m_n} x_{n m_n}) = r_0 s_{00} x_{00} + \dots + r_n s_{n m_n} x_{n m_n}.
 $$
@@ -60,7 +125,7 @@ r_0 x_0 + \dots + r_n x_n = r_{\sigma 0} x_{\sigma 0} + \dots + r_{\sigma n} x_{
 $$
 and also "duplication" and "omission" axioms.  This Lawvere theory can be defined concisely as follows.  The Lawvere theory of vector spaces is the opposite of the category of finite-dimensional vector spaces; its operations are all linear combinations.  The Lawvere theory for affine spaces is the sub-theory of this consisting of only the affine combinations.  (The Lawvere theory of vector spaces also has other interesting sub-theories, such as that consisting of _convex combinations_ whose algebras are abstract [[convex space]]s in one sense of the term.)  Note that the empty set is a model (algebra) of this Lawvere theory; an affine space is an *inhabited* model.
 
-Given the unbiased definition in terms of a Lawvere theory, the previous two "biased" vector-space-free definitions can then be recovered from the observation that this Lawvere theory is generated by $2$-ary operations if $char(k)\neq 2$, and by $3$-ary ones if $char(k)=2$.  To wit, suppose given $(r_0,\dots,r_n)\in k^{n+1}$ with $n\ge 3$ such that $r_0+\dots+r_n=1$.  Suppose for the moment that the $r_i$ are not all $1$, and WLOG suppose that $r_0\neq 1$.  (Note that here we use the invariance under permutations.)  Then we have
+Given the unbiased definition in terms of a Lawvere theory, the previous three "biased" vector-space-free definitions can then be recovered by finding particular generating operations for the theory.  In particular, this Lawvere theory is generated by $2$-ary operations if $char(k)\neq 2$, and by $3$-ary ones if $char(k)=2$.  To wit, suppose given $(r_0,\dots,r_n)\in k^{n+1}$ with $n\ge 3$ such that $r_0+\dots+r_n=1$.  Suppose for the moment that the $r_i$ are not all $1$, and WLOG suppose that $r_0\neq 1$.  (Note that here we use the invariance under permutations.)  Then we have
 $$
 r_0 x_0 + \dots + r_n x_n = r_0 x_0 + (1-r_0)\left(\frac{1}{1-r_0} r_1 x_1 + \dots + \frac{1}{1-r_0}r_n x_n\right)
 $$
@@ -72,8 +137,6 @@ so we can still write this $(n+1)$-ary operation in terms of a $3$-ary one and a
 $$
 r_0 x_0 + r_1 x_1 + r_2 x_2 = \big(r_0 x_0 + (1-r_0) x_2\big) - x_2 + \big(r_1 x_1 + (1-r_1) x_2\big).
 $$
-
-Comparing these three definitions with those that stipulate a vector space can be done in essentially the same way that one compares the various definitions of [[heap]].
 
 
 # Further Remarks
