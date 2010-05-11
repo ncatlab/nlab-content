@@ -348,7 +348,7 @@ For $x \in X$ a point in a manifold, the infinitesimal [[neighbourhood]] $U_p$ i
 All of the infinitesimal spaces above are contained in the corresponding infinitesimal neighbourhood. So this is the "largest" of the infinitesimal spaces discussed here.
 
 
-### Spaces of infinitesimal $k$-simplices
+### Spaces of infinitesimal $k$-simplices {#SpacOfInfSimpl}
 
 An **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec x_i \in R^n)_{i = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
 
@@ -365,7 +365,7 @@ $$
 
 Following section 1.2 of
 
-* [[Anders Kock]],  _Synthetic differential geometry of manifold_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+* [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 we write $\tilde D(k,n)$ for the space of all infinitesimal $k$-simplices in $R^n$. More precisely, this is defined as the formal dual of the algebra $C^\infty(\tilde D(k,n))$ defined as follows.
 
@@ -431,11 +431,11 @@ for $(a, b, v, w \in (\mathbb{R}^n)^*)_{1 \leq i \leq n}$ a collection of ordina
 
 It is noteworthy here that the coefficient of the term which is linear in each of the $x_i$ is the wedge product of two covectors: we may naturally identify the subalgebra of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $x_1$ or $x_2$ are set to 0 as space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
 
-Of course for this identification to be more than a meaningless coincidence we need that this is the beginning of a pattern that holds more generally. But this is indeed the case.
+Of course for this identification to be more than a coincidence we need that this is the beginning of a pattern that holds more generally. But this is indeed the case.
 
 =--
 
-Let $\Xi$ be the set of _square_ submatrices of the $k \times n$-matrix $(x_i^j)$. For \xi \in \Xi$ a submatrix, we write $det(\xi)$ for the corresponding [[determinant]], computes as a product in $C^\infty(\tilde D(k,n))$.
+Let $\Xi$ be the set of _square_ submatrices of the $k \times n$-matrix $(x_i^j)$. For $\xi \in \Xi$ a square submatrix, we write $det(\xi)$ for the corresponding [[determinant]], computed as a product in $C^\infty(\tilde D(k,n))$.
 
 
 +-- {: .un_prop}
@@ -448,12 +448,24 @@ $$
   f = \sum_{\xi \in \Xi} det(\xi) f_\xi
 $$
 
-for _unique_ $\{f_\xi \in \mathbb{R} | \xi \in \Xi\}$.
+for _unique_ $\{f_\xi \in \mathbb{R} | \xi \in \Xi\}$. In other words, the map of [[vector space]]s
+
+$$
+  \mathbb{R}^{|\Xi|} \to C^\infty(\tilde D(k,n))
+$$
+
+given by 
+
+$$
+  (f_\xi)_{\xi \in \Xi} \mapsto \sum_{\xi \in \xi} det(\xi) f_\xi
+$$ 
+
+is an [[isomorphism]].
 
 =--
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .proof}
+###### Proof
 
 This is a direct extension of the argument in the above example: a general product of $r$ generators in $C^\infty(\tilde D(k,n))$ is
 
@@ -472,7 +484,7 @@ $$
 where $sgn(\sigma) \in \{+1, -1\} \subset \mathbb{R}$ is the [[signature]] of the permutation. It follows that each such element may be written as
 
 $$
-  \cdots = \frack{1}{r!} det(x_{i_{\bullet}}^{j_{\bullet}})
+  \cdots = \frac{1}{r!} det(x_{i_{\bullet}}^{j_{\bullet}})
 $$
 
 for $(x_{i_\bullet}^{j_\bullet}) \in \Xi$ the corresponding submatrix of $(x_i^j)$.
@@ -517,9 +529,129 @@ is well defined and constitutes an [[isomorphism]] of vector spaces.
 
 =--
 
-So inside the space of functions on infinitesimal simplices, we find the differential forms. The next crucial observation now is that there is a _natural reason_ to restrict to $C^\infty(\tilde D(k,n)) \subset C^\infty(\tilde D(k,n))$.
+So inside the space of functions on infinitesimal simplices, we find the differential forms. The next crucial observation now is that there is a _natural reason_ , from the [[nPOV]],  to restrict to $C^\infty(\tilde D(k,n)) \subset C^\infty(\tilde D(k,n))$.
 
-...
++-- {: .un_def}
+###### Definition
+
+Consider the [[simplicial object|simplicial]] [[smooth locus]]
+
+$$
+  (R^n)^{(\Delta^\bullet_{inf})}
+  :=
+  \left(
+  \cdots
+  R^n \times \tilde D(2,n)
+  \stackrel{\to}{\stackrel{\to}{\to}} R^n \times \tilde D(1,n) \stackrel{\to}{\to} R^n
+  \right)
+  \,,
+$$
+
+where
+
+* the face maps are $d_i : R^n \times \tilde D(k+1,n) \to R^n \times \tilde D(k,n)$ are given by
+
+  * for $0 \lt i \lt k+1$
+
+    $$
+      d_i : (x, (v_1, v_2, \cdots, v_{k+1}))
+      \mapsto
+      (x, v_1, \cdots , v_{i-2} , v_{i-1} + v_i, v_{i+1}, \cdots, v_{k+1})
+    $$
+
+  * for $i = k+1$
+
+    $$
+      d_{k+1} : (x, (v_1, v_2, \cdots, v_{k+1}))
+      \mapsto
+      (x, v_1, \cdots , v_{k})
+    $$
+
+  * for $i = 0$
+
+    $$
+      d_0 : (x, (v_1, v_2, \cdots, v_k))
+      \mapsto
+      (x + v_1, v_2 + v_1, \cdots , v_{k+1} + v_1)
+      \,.
+    $$
+
+* the degeneracy maps are 
+
+  $$
+    s_i : (x, (v_1, \cdots, v_k)) 
+    \mapsto
+    (x, (v_1, \cdots, v_{i+1}, 0, v_{i+2}, \cdots, v_k))
+    \,.
+  $$
+
+
+
+Dually, this is the [[smooth algebra|smooth]] [[cosimplicial algebra]]
+
+$$
+  C^\infty((R^n)^{(\Delta^\bullet_{inf})})
+  :=
+  \left(
+  \cdots
+  C^\infty(\mathbb{R}^n) \otimes C^\infty(\tilde D(2,n))
+  \stackrel{\leftarrow}{\stackrel{\leftarrow}{\leftarrow}} 
+  C^\infty(\mathbb{R}^n) \otimes C^\infty(\tilde D(1,n)) 
+   \stackrel{\leftarrow}{\leftarrow} 
+   C^\infty(\mathbb{R}^n)
+  \right)
+  \,,
+$$
+
+where
+
+* the co-degeneracy maps $s_i^*$ are given on generators by 
+  
+  * for $r \lt i+1$ sending
+    $v_r = (v_r^1, \cdots, v_r^{k+1})\in C^\infty(\tilde D(k+1,n))$ 
+    to itself regarded as an element of $C^\infty(\tilde D(k,n))$;
+
+  * for $r = i +1$ sending $x_r$ to 0;
+
+  * for $r \gt i+1$ sending $x_r$ to $x_{r-1}$.
+
+* the co-face maps are given on generators by
+
+  etc.
+
+=--
+
+Now oberserve that under the dual [[Dold-Kan correspondence]] the _normalized cochain complex_ of this cosimplicial algebra is, up to isomorphism, the complex that in degree $k$ has the joint [[kernel]] of the co-degeneracy maps.
+But by the above remarks, this joint kernel is precisely 
+
+$$
+  C^\infty(\mathbb{R}^n) \otimes C^\infty(\tilde D(k,n))_{top} \simeq C^\infty(\mathbb{R}^n) \otimes \wedge^k (\mathbb{R}^n)^*
+  \simeq
+  \Omega^k(\mathbb{R}^n)
+  \,,
+$$
+
+the space of differential $k$-forms on $\mathbb{R}^n$.
+
+
++-- {: .un_theorem}
+###### Theorem
+
+The normalized cochain complex of  the cosimplicial algebra
+
+$C^{\infty}((\mathbb{R}^n)^{(\Delta^n_{diff})})$ is [[isomorphism|isomorphic]] as a cochain complex to the [[de Rham complex]] of $\mathbb{R}^n$.
+
+Equipped with the [[cup product]] induced from $C^{\infty}((\mathbb{R}^n)^{(\Delta^n_{diff})})$ is is isomorphic to the de Rham complex even as a [[dg-algebra]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have already seen that degreewise the vector spaces in question are isomorphic. It remains to check blah-blah-blah.
+
+=--
+
 
 
 ## References
