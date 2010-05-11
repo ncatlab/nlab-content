@@ -179,7 +179,13 @@ Equipping an [[(n,1)-category]] of $k$ compatible monoidal structures for $k \ge
 
 =--
 
-This appears as [[Ek-Algebras|EkAlg, example 1.2.3]].
+A proof of this is sketched in
+
+section 43.5 of some version of
+
+* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+
+An argument is also given in [[Ek-Algebras|EkAlg, example 1.2.3]].
 
 
 ### Other low-dimensional cases
