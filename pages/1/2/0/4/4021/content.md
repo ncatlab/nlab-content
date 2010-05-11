@@ -23,7 +23,7 @@ Its central mathematical model is based mostly on [[measure theory]]. So from a 
 
 Broader perspectives may stress the relevance of other pure mathematical concepts for probability theory, or include aspects of the interpretation of mathematical results to phenomenology, the latter part making naturally contact with the field of [[statistics]].
 
-Notice that in this respect probability theory has a similar status as (other(?!)) theories of [[physics]]: there is a mathematical model (measure theory here as the model for probabiliyt theory, or for instance [[symplectic geometry]] as a model for [[classical mechanics]]) which can be studied all in itself, and then there is in addition a more or less concrete idea of how from that model one may deduce statements about the observable world (the average outcome of a dice role using probability theory, or the observability of the next solar eclipse using [[Hamiltonian mechanics]]). The step from the mathematical model to its use as a tool for making statements about the observable world is subtle, maybe a subject of [[philosophy]], but in any case outside of the realm of [[mathematics]]. In probability theory the meaning of this step is traditionally a cause of debate, with two antagonistic main schools of thought being the _frequentist interpretation_ and the _Bayesian perspective_ on the nature of the relation of probability theory to the observable world.
+Notice that in this respect probability theory has a similar status as (other(?!)) theories of [[physics]]: there is a mathematical model (measure theory here as the model for probability theory, or for instance [[symplectic geometry]] as a model for [[classical mechanics]]) which can be studied all in itself, and then there is in addition a more or less concrete idea of how from that model one may deduce statements about the observable world (the average outcome of a dice role using probability theory, or the observability of the next solar eclipse using [[Hamiltonian mechanics]]). The step from the mathematical model to its use as a tool for making statements about the observable world is subtle, maybe a subject of [[philosophy]], but in any case outside of the realm of [[mathematics]]. In probability theory the meaning of this step is traditionally a cause of debate, with two antagonistic main schools of thought being the _frequentist interpretation_ and the _Bayesian perspective_ on the nature of the relation of probability theory to the observable world.
 
 
 ## Abstract ##
@@ -32,9 +32,13 @@ Notice that in this respect probability theory has a similar status as (other(?!
 ## Definition ##
 ...
 
+##Statistical Manifolds##
+
+Families of probability distributions often form statistical models, that is, submanifolds of the space of all probability measures on a sample space. Techniques from differential geometry may be applied in a theory known as [[information geometry]].
+
 ##Probability theory from the nPOV##
 
-We describe here some perspectivbes on probability theory from the [[nPOV]].
+We describe here some perspectives on probability theory from the [[nPOV]].
 
 [[Prakash Panangaden]] in [Probabilistic Relations](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4840) defines the [[category]] $SRel$ (stochastic [[relation]]s) to have as [[object]]s [[set]]s equipped with a $\sigma$-field. [[morphism|Morphisms]] are conditional probability densities or stochastic kernels. So, a morphism from $( X, \Sigma_X)$ to $( Y, \Sigma_Y)$ is a function $h: X \times \Sigma_Y \to [0, 1]$ such that 
 
