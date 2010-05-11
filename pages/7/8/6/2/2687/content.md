@@ -81,6 +81,8 @@
 
 * [[model structure on topological spaces|on topological spaces]]
 
+  * [[Strom  model structure]]
+
 * [[model structure on simplicial sets|on simplicial sets]]
 
   * [[model structure for right fibrations|for right/left fibrations]]
