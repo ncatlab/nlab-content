@@ -10,12 +10,18 @@ The _Baez-Dolan stabilization hypothesis_ states that for all $k = n+2$ a [[k-tu
 
 ## Proof for $(n,1)$-categories
 
-For the case of monoideal [[(n,r)-category|(n,1)-categories]] a proof of the stabilization hypothesis appears in 
+An aspect of the proof of this for [[(n,1)-categories]] was demonstrated in 
 
-section 43.5 of some version of
+* [[Carlos Simpson]], _On the Breen-Baez-Dolan stabilization hypothesis for Tamsamani's weak $n$-categories_ ([arXiv:math/9810058](http://arxiv.org/abs/math/9810058))
 
-* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+in terms of [[Tamsamani n-categories]].
 
-and later in
 
-* [[Jacob Lurie]], _$\mathbb{E}[k]$-[[E-k-Algebras|Algebras]]_ (see [here](http://ncatlab.org/nlab/show/E-k-Algebras#StabilizationHypothesis))
+A proof of the full statement in terms of [[quasi-categories]] is sketched in
+[section 43.5](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf#page=187) of 
+
+* [[André Joyal]], _Notes on quasi-categories_ ([pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf)).
+
+An argument is also given in example 1.2.3 of
+
+* [[Jacob Lurie]], _[[Ek-Algebras]]_ .
