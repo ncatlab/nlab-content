@@ -350,16 +350,18 @@ All of the infinitesimal spaces above are contained in the corresponding infinit
 
 ### Spaces of infinitesimal $k$-simplices {#SpacOfInfSimpl}
 
-An **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec x_i \in R^n)_{i = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
+#### Idea
+
+An **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec \epsilon_i \in R^n)_{i = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
 
 $$
-  \forall i : \;\; \vec x_i \sim 0
+  \forall i : \;\; \vec \epsilon_i \sim 0
 $$ 
 
 and each are infinitesimal neighbours of each other
 
 $$
-  \forall i,j: \;\; (\vec x_i - \vec x_j) \sim 0
+  \forall i,j: \;\; (\vec \epsilon_i - \vec \epsilon_j) \sim 0
   \,.
 $$
 
@@ -369,20 +371,23 @@ Following section 1.2 of
 
 we write $\tilde D(k,n)$ for the space of all infinitesimal $k$-simplices in $R^n$. More precisely, this is defined as the formal dual of the algebra $C^\infty(\tilde D(k,n))$ defined as follows.
 
+#### Definition
+
 +-- {: .un_def}
 ###### Definition
 
 The algebra $C^\infty(\tilde D(k,n))$ is the 
-commutative $\mathbb{R}$-algebra generated from $k \times n$ generators $(x_i^j)_{1 \leq i \leq n, 1 \leq j \leq n}$ subject to the relations
+commutative $\mathbb{R}$-algebra generated from $k \times n$ generators $(\epsilon_i^j)_{1 \leq i \leq n, 1 \leq j \leq n}$ subject to the relations
 
 $$
-  \forall i, j,j' : \;\; x_i^{j} x_i^{j'} = 0
+  \forall i, j,j' : \;\; \epsilon_i^{j} \epsilon_i^{j'} = 0
 $$
 
 and
 
 $$
-  \forall i,i',j,j'   : \;\;\; (x_i^j - x_{i'}^j) (x_i^{j'} - x_{i'}^{j'}) = 0
+  \forall i,i',j,j'   : \;\;\; 
+  (\epsilon_i^j - \epsilon_{i'}^j) (\epsilon_i^{j'} - \epsilon_{i'}^{j'}) = 0
   \,.
 $$
 
@@ -395,14 +400,15 @@ By multiplying out the latter set of relations and using the former, these relat
 
 \[
   \forall i,i',j,j' : \;\;\;
-  x_i^j x_{i'}^{j'} + x_{i'}^j x_{i}^{j'} = 0
+  \epsilon_i^j \epsilon_{i'}^{j'} 
+  + \epsilon_{i'}^j \epsilon_{i}^{j'} = 0
   \,.
 \]
 
 Notice that this implies also that
 
 $$
-  \forall i,i', j: \;\;\;  x_i^{j} x_{i'}^j = 0
+  \forall i,i', j: \;\;\;  \epsilon_i^{j} \epsilon_{i'}^j = 0
   \,.
 $$
 
@@ -410,7 +416,7 @@ $$
 
 A general element $f$ of this algebra we think of as a function on a certain infinitesimal neightbourhood of the origin of $R^{k \cdot n}$, interpreted as the space of infinitesimal $k$-simplices in $R^n$ based at 0.
 
-Since $C^\infty(\tilde D(k,n))$ is a Weil algebra in the sense of synethtic differential geometry, its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
+Since $C^\infty(\tilde D(k,n))$ is a Weil algebra in the sense of [[synthetic differential geometry]], its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] (as discussed there) and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
 
 +-- {: .un_example}
 ###### Example
@@ -419,23 +425,66 @@ For $n = 2$ and $k = 2$ we have that $C^\infty(\tilde D(2,2))$ consists of eleme
 
 $$
   \begin{aligned}
-    a \cdot x_1 + b \cdot x_2 + (v \cdot x_1) (w \cdot x_2) 
+    f
+    +
+    a \cdot \epsilon_1 
+     + b \cdot \epsilon _2 
+     + (\omega \cdot \epsilon_1) (\lambda \cdot \epsilon_2) 
     &= 
-    a_1 x_1^1 + a_2 x_1^2 + b_1 x_2^1 + b_2 x_1^2
+    f + 
+    a_1 \epsilon_1^1 
+     + a_2 \epsilon_1^2 
+     + b_1 \epsilon_2^1 
+     + b_2 \epsilon_1^2
     \\
-    & (v_1 w_2 - v_2 w_1) \frac{1}{2}(x_1^1 x_2^2 - x_1^2 x_2^1)
+    & + (\omega_1 \lambda_2 - \omega_2 \lambda_1) 
+      \frac{1}{2}(\epsilon_1^1 \epsilon_2^2 - \epsilon_1^2 \epsilon_2^1)
   \end{aligned}
 $$
 
-for $(a, b, v, w \in (\mathbb{R}^n)^*)_{1 \leq i \leq n}$ a collection of ordinary covectors and with "$\cdot$" denoting the evident contraction, and where in the last step we used the above relations.
+for $f \in \mathbb{R}$ and $(a, b, \omega, \lambda \in (\mathbb{R}^n)^*)_{1 \leq i \leq n}$ a collection of ordinary covectors and with "$\cdot$" denoting the evident contraction, and where in the last step we used the above relations.
 
-It is noteworthy here that the coefficient of the term which is linear in each of the $x_i$ is the wedge product of two covectors: we may naturally identify the subalgebra of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $x_1$ or $x_2$ are set to 0 as the space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
+It is noteworthy here that the coefficient of the term which is multilinear in each of the $\epsilon_i$ is the [[wedge product]] of two [[covector]]s $\omega$ and $\lambda$: we may naturally identify the subspace of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $\epsilon_1$ or $\epsilon_2$ are set to 0 as the space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
 
 Of course for this identification to be more than a coincidence we need that this is the beginning of a pattern that holds more generally. But this is indeed the case.
 
 =--
 
-Let $\Xi$ be the set of _square_ submatrices of the $k \times n$-matrix $(x_i^j)$. For $\xi \in \Xi$ a square submatrix, we write $det(\xi)$ for the corresponding [[determinant]], computed as a product in $C^\infty(\tilde D(k,n))$.
+
+#### Properties
+
+Let $E$ be the set of _square_ submatrices of the $k \times n$-matrix $(\epsilon_i^j)$. As a set this is isomorphic to the set of pairs of subsets of the same size of $\{1, \cdots, k\}$ and $\{1, \cdots , n\}$, respectively. For instance the square submatrix labeled by $\{2,3,4\}$ and  $\{1,4,5\}$ is
+
+$$
+  e 
+  =
+  \left(
+    \array{
+       \epsilon_1^2 & \epsilon_4^2 & \epsilon_5^2
+       \\
+       \epsilon_1^3 & \epsilon_4^3 & \epsilon_5^3
+       \\
+       \epsilon_1^4 & \epsilon_4^4 & \epsilon_5^4
+    }
+  \right)
+  \,.
+$$
+
+
+For $e \in E$ an $r\times r$ submatrix, we write 
+
+$$
+  det(e) = 
+    \sum_{\sigma} sgn(\sigma) 
+    \epsilon_{1}^{\sigma(1)} \epsilon_2^{\sigma(2)}
+    \cdots 
+    \epsilon_r^{\sigma(r)}
+  \in
+  C^\infty(\tilde D(k,n))
+  \,.
+$$ 
+
+for the corresponding [[determinant]], given as a product of generators in $C^\infty(\tilde D(k,n))$. Here the sum runs over all [[permutation]]s $\sigma$ of $\{1, \cdots, r\}$ and $sgn(\sigma) \in \{+1, -1\} \subset \mathbb{R}$ is the [[signature]] of the permutation $\sigma$.
 
 
 +-- {: .un_prop}
@@ -445,19 +494,19 @@ Let $\Xi$ be the set of _square_ submatrices of the $k \times n$-matrix $(x_i^j)
 The elements $f \in C^\infty(\tilde D(k,n))$ are precisely of the form
 
 $$
-  f = \sum_{\xi \in \Xi} det(\xi) f_\xi
+  f = \sum_{e \in E} f_e \; det(e) 
 $$
 
-for _unique_ $\{f_\xi \in \mathbb{R} | \xi \in \Xi\}$. In other words, the map of [[vector space]]s
+for _unique_ $\{f_e \in \mathbb{R} | e \in E\}$. In other words, the map of [[vector space]]s
 
 $$
-  \mathbb{R}^{|\Xi|} \to C^\infty(\tilde D(k,n))
+  \mathbb{R}^{|E|} \to C^\infty(\tilde D(k,n))
 $$
 
 given by 
 
 $$
-  (f_\xi)_{\xi \in \Xi} \mapsto \sum_{\xi \in \xi} det(\xi) f_\xi
+  (f_e)_{e \in E} \mapsto \sum_{e \in E} f_e det(e) 
 $$ 
 
 is an [[isomorphism]].
@@ -470,25 +519,30 @@ is an [[isomorphism]].
 This is a direct extension of the argument in the above example: a general product of $r$ generators in $C^\infty(\tilde D(k,n))$ is
 
 $$
-  x_{i_1}^{j_1} x_{i_2}^{j_2} \cdots x_{i_r}^{j_r}
+  \epsilon_{i_1}^{j_1} \epsilon_{i_2}^{j_2} 
+   \cdots \epsilon_{i_r}^{j_r}
   \,.
 $$
 
-By the relations in $C^\infty(\tilde D(k,n))$, for any permutation $\sigma$ of $r$ elements, this is equal to
+By the relations in $C^\infty(\tilde D(k,n))$, this is non-vanishing precisely if none of the $i$-indices repeats and none of the $j$-indices repeats. Furthermore by the relations, for any permutation $\sigma$ of $r$ elements, this is equal to
 
 $$
-  \cdots = sgn(\sigma) x_{i_1}^{j_{\sigma}} x_{i_2}^{\sigma(j_{\sigma(2)})} \cdots x_{i_r}^{j_{\sigma(r)}}
+  \cdots = sgn(\sigma) 
+   \epsilon_{i_1}^{j_{\sigma(1)}} 
+   \epsilon_{i_1}^{j_{\sigma(2)}}
+   \cdots 
+   \epsilon_{i_1}^{j_{\sigma(r)}}
+  \,.
+$$
+
+It follows that each such element may be written as
+
+$$
+  \cdots = \frac{1}{r!} det(e)
   \,,
 $$
 
-where $sgn(\sigma) \in \{+1, -1\} \subset \mathbb{R}$ is the [[signature]] of the permutation. It follows that each such element may be written as
-
-$$
-  \cdots = \frac{1}{r!} det(x_{i_{\bullet}}^{j_{\bullet}})
-$$
-
-for $(x_{i_\bullet}^{j_\bullet}) \in \Xi$ the corresponding submatrix of $(x_i^j)$.
-
+where $e$ is the $r \times r$ subdetermined given by the subset $\{i_1, \cdots, i_r\}$ and $(\{j_1, \cdots, j_r\})$ as discussed above.
 =--
 
 +-- {: .un_remark}
@@ -502,7 +556,9 @@ effectively this proposition appears as the "[[Kock-Lawvere axiom]] scheme for $
 
 =--
 
-Let $C^\infty(\tilde D(k,n))_{top}$ be the sub-[[vector space]] of the underlying vector space of $C^\infty(\tilde D(k,n))$ on those elements that vanish if the collection of generators $x_i = (x_i^1 , x_i^2, \cdots, x_i^n)$ is set to 0, for all $i$. This are those elements that are linear combinations of the form $\sum_{\xi_{top} \in Xi_{top}} det(\xi_{top}) f_{\xi_{top}}$, for $\xi_{top}$ ranging over the $k \times k$-submatrices of $(x_i^j)$.
+
+
+Let $C^\infty(\tilde D(k,n))_{top}$ be the sub-[[vector space]] of the underlying vector space of $C^\infty(\tilde D(k,n))$ on those elements that vanish if the collection of generators $\epsilon_i = (\epsilon_i^1 , \epsilon_i^2, \cdots, \epsilon_i^n)$ is set to 0, for all $i$. This are those elements that are linear combinations of the form $\sum_{e_{top} \in E_{top}} det(e_{top}) f_{e_{top}}$, for $e_{top}$ ranging over the maximal square submatrices of $(\epsilon_i^j)$.
 
 
 +-- {: .un_corollary}
@@ -521,15 +577,15 @@ $$
   \omega^1 \wedge \omega^2 \wedge
   \cdots \wedge \omega^k
   \mapsto
-  (\omega^1 \cdot x_1) (\omega^2 \cdot x_2) \cdots
-  (\omega^k \cdot x_k)
+  (\omega^1 \cdot \epsilon_1) (\omega^2 \cdot \epsilon_2) \cdots
+  (\omega^k \cdot \epsilon_k)
 $$
 
 is well defined and constitutes an [[isomorphism]] of vector spaces.
 
 =--
 
-So inside the space of functions on infinitesimal simplices, we find the differential forms. The next crucial observation now is that there is a _natural reason_ , from the [[nPOV]],  to restrict to $C^\infty(\tilde D(k,n))_{top} \subset C^\infty(\tilde D(k,n))$.
+So inside the space of functions on infinitesimal simplices, we find the [[differential form]]s. The next crucial observation now is that there is a _natural reason_ , from the [[nPOV]],  to restrict to $C^\infty(\tilde D(k,n))_{top} \subset C^\infty(\tilde D(k,n))$.
 
 +-- {: .un_def}
 ###### Definition
@@ -549,17 +605,17 @@ $$
 
 where
 
-* the face maps are $d_i : R^n \times \tilde D(k+1,n) \to R^n \times \tilde D(k,n)$ are given by
+* the face maps are $d_i : R^n \times \tilde D(k+1,n) \to R^n \times \tilde D(k,n)$ are 
 
-  * for $0 \lt i \lt k+1$
+  * for $0 \lt i \lt k+1$ given by
 
     $$
       d_i : (x, (v_1, v_2, \cdots, v_{k+1}))
       \mapsto
-      (x, v_1, \cdots , v_{i-2} , v_{i-1} + v_i, v_{i+1}, \cdots, v_{k+1})
+      (x, v_1, \cdots , v_{i-2} , v_{i+1} + v_{i+2}, v_{i+3}, \cdots, v_{k+1})
     $$
 
-  * for $i = k+1$
+  * for $i = k+1$ given by
 
     $$
       d_{k+1} : (x, (v_1, v_2, \cdots, v_{k+1}))
@@ -581,13 +637,12 @@ where
   $$
     s_i : (x, (v_1, \cdots, v_k)) 
     \mapsto
-    (x, (v_1, \cdots, v_{i+1}, 0, v_{i+2}, \cdots, v_k))
+    (x, (v_1, \cdots, v_{i}, 0, v_{i+1}, \cdots, v_k))
     \,.
   $$
 
 
-
-Dually, this is the [[smooth algebra|smooth]] [[cosimplicial algebra]]
+Dually (and this may be taken now as the precise definition of what the above simplicial object is), this is the [[smooth algebra|smooth]] [[cosimplicial algebra]]
 
 $$
   C^\infty((R^n)^{(\Delta^\bullet_{inf})})
@@ -608,27 +663,28 @@ where
 * the co-degeneracy maps $s_i^*$ are given on generators by 
   
   * for $r \lt i+1$ sending
-    $v_r = (v_r^1, \cdots, v_r^{k+1})\in C^\infty(\tilde D(k+1,n))$ 
+    $\epsilon_r = (\epsilon_r^1, \cdots, \epsilon_r^{k+1})
+     \in C^\infty(\tilde D(k+1,n))$ 
     to itself regarded as an element of $C^\infty(\tilde D(k,n))$;
 
-  * for $r = i +1$ sending $x_r$ to 0;
+  * for $r = i +1$ sending $\epsilon_r$ to 0;
 
-  * for $r \gt i+1$ sending $x_r$ to $x_{r-1}$.
+  * for $r \gt i+1$ sending $\epsilon_r$ to $\epsilon_{r-1}$.
 
 * the co-face maps $d_i^*$ are given on generators by
 
   * for $i = 0$ sending 
   
     $$
-      h \otimes (\sum_{\xi} det(\xi) f_\xi)
+      h \otimes (\sum_{e} det(e) f_e)
       \mapsto
-      (h \otimes (\sum_{\xi} det(\xi) f_\xi)      
+      (h \otimes (\sum_{e} det(e) f_e)      
       +
       \sum_{i=1}^n 
       (\frac{\partial}{\partial x_i} h)
       \otimes
-      x_1^i
-      (\sum_{\xi} det(\xi) f_\xi)
+      \epsilon_1^i
+      (\sum_{e} det(e) f_e)
       \,.
     $$  
 
@@ -664,8 +720,8 @@ We have already seen that degreewise the vector spaces in question are isomorphi
 It remains to check that the differentials agree. The alternating sum of the face maps acts on an element
 
 $$
-  h \otimes (\omega^1 \cdot x_1)(\omega^2 \cdot x_2) \cdots
-      (\omega^k \cdot x_k)
+  h \otimes (\omega^1 \cdot \epsilon_1)(\omega^2 \cdot \epsilon_2) \cdots
+      (\omega^k \cdot \epsilon_k)
 $$
 
 as
@@ -673,26 +729,31 @@ as
 $$
   \begin{aligned}
      & \cdots \mapsto
-     (d_0^* + \sum_{r = 1}^n d_1^*)(
-       h \otimes (\omega^1 \cdot x_{1})(\omega^2 \cdot x_{2}) \cdots
-       (\omega^k \cdot x_{k}))
+     (d_0^* + \sum_{r = 1}^n (-1)^r d_1^*)(
+       h \otimes (\omega^1 \cdot \epsilon_{1})
+       (\omega^2 \cdot \epsilon_{2}) \cdots
+       (\omega^k \cdot \epsilon_{k}))
       \\
       & = 
-       h \otimes (\omega^1 \cdot x_{1})(\omega^2 \cdot x_{2}) \cdots
-       (\omega^k \cdot x_{k}))
+       h \otimes (\omega^1 \cdot \epsilon_{1})
+      (\omega^2 \cdot \epsilon_{2}) \cdots
+       (\omega^k \cdot \epsilon_{k}))
       + 
        (d h \cdot x_1)
-       (\omega^1 \cdot x_{2})(\omega^2 \cdot x_{3}) \cdots
-       (\omega^k \cdot x_{k+1}))
+       (\omega^1 \cdot \epsilon_{2})
+       (\omega^2 \cdot \epsilon_{3}) \cdots
+       (\omega^k \cdot \epsilon_{k+1}))
       +
       \sum \pm 
-       h \otimes (\omega^1 \cdot x_{1})(\omega^2 \cdot x_{2}) \cdots
-       (\omega^k \cdot x_{k}))
+       h \otimes (\omega^1 \cdot \epsilon_{1})
+       (\omega^2 \cdot \epsilon_{2}) \cdots
+       (\omega^k \cdot \epsilon_{k}))
       \\
       & =
-       (d h \cdot x_1)
-       (\omega^1 \cdot x_{2})(\omega^2 \cdot x_{3}) \cdots
-       (\omega^k \cdot x_{k+1}))
+       (d h \cdot \epsilon_1)
+       (\omega^1 \cdot \epsilon_{2})
+       (\omega^2 \cdot \epsilon_{3}) \cdots
+       (\omega^k \cdot \epsilon_{k+1}))
   \end{aligned}
   \,.
 $$
