@@ -8,6 +8,7 @@ One of the founders of the subject is Shun-ichi [Amari](http://www.brain.riken.j
 *  Shun-ichi Amari, ETVC08 [lecture](http://videolectures.net/etvc08_amari_igaia/).
 *  Shun-ichi Amari, Hiroshi Nagaoka, _Methods of information geometry_, Transactions of mathematical monographs; v. 191, American Mathematical Society, 2000. 
 *  Sanjoy Dasgupta, [lecture](http://videolectures.net/mlss05us_dasgupta_ig/).
+*  H&#244;ng V&#226;n L&#234;, Statistical manifolds are statistical models, Journal of Geometry 84(1-2), March 2006, pp. 83-93.
 *  Blog [post](http://golem.ph.utexas.edu/category/2006/11/infinitedimensional_exponentia.html).
 
 ##Discussion##
