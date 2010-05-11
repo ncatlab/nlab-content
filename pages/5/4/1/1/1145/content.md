@@ -53,6 +53,8 @@
 
   * [[infinity-Lie theory - contents|higher Lie theory]]
 
+* [[probability theory]]
+
 * [[discrete mathematics]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
