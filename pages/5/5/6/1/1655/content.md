@@ -45,7 +45,338 @@ A central r&#244;le in the whole theory plays **duality**, that is the study of 
 
 ## Important Subclasses
 
-Topological vector spaces come in many flavours. The following chart provides a first overview (chart created and published by Greg Kuperberg on MathOverflow [here](http://mathoverflow.net/questions/8443/barrelled-bornological-ultrabornological-semi-reflexive-how-are-these-use)):
+Topological vector spaces come in many flavours. The following chart
+provides a first overview (chart originally created and published by
+Greg Kuperberg on MathOverflow
+[here](http://mathoverflow.net/questions/8443/barrelled-bornological-ultrabornological-semi-reflexive-how-are-these-use),
+current version generated using Graphviz from [[lctvs.dot:file]]):
+
+<svg width="919pt" height="548pt"
+ viewBox="0.00 0.00 919.00 548.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 544)">
+<title>LCTVS</title>
+<polygon style="fill:white;stroke:white;" points="-4,4 -4,-544 915,-544 915,4 -4,4"/>
+<g id="node1" class="node"><title>FD</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Finite-Dimensional topological vector space" xlink:title="Finite&#45;Dimensional">
+<polygon style="fill:none;stroke:black;" points="711,-540 567,-540 567,-504 711,-504 711,-540"/>
+<text text-anchor="middle" x="639" y="-517.9" style="font-family:Times New Roman;font-size:14.00;">Finite&#45;Dimensional</text>
+</a>
+</g>
+<g id="node2" class="node"><title>Hi</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Hilbert topological vector space" xlink:title="Hilbert">
+<polygon style="fill:none;stroke:black;" points="576,-468 514,-468 514,-432 576,-432 576,-468"/>
+<text text-anchor="middle" x="545" y="-445.9" style="font-family:Times New Roman;font-size:14.00;">Hilbert</text>
+</a>
+</g>
+<g id="edge2" class="edge"><title>FD&#45;>Hi</title>
+<path style="fill:none;stroke:black;" d="M615,-504C604,-495 589,-484 576,-474"/>
+<polygon style="fill:black;stroke:black;" points="578.1,-471.2 568,-468 573.9,-476.8 578.1,-471.2"/>
+</g>
+<g id="node3" class="node"><title>SC</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Second-Countable topological vector space" xlink:title="Second&#45;Countable">
+<polygon style="fill:none;stroke:black;" points="769,-468 629,-468 629,-432 769,-432 769,-468"/>
+<text text-anchor="middle" x="699" y="-445.9" style="font-family:Times New Roman;font-size:14.00;">Second&#45;Countable</text>
+</a>
+</g>
+<g id="edge4" class="edge"><title>FD&#45;>SC</title>
+<path style="fill:none;stroke:black;" d="M654,-504C661,-495 670,-485 677,-476"/>
+<polygon style="fill:black;stroke:black;" points="680.049,-477.831 684,-468 674.781,-473.221 680.049,-477.831"/>
+</g>
+<g id="node4" class="node"><title>Nu</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Nuclear topological vector space" xlink:title="Nuclear">
+<polygon style="fill:none;stroke:black;" points="879,-468 811,-468 811,-432 879,-432 879,-468"/>
+<text text-anchor="middle" x="845" y="-445.9" style="font-family:Times New Roman;font-size:14.00;">Nuclear</text>
+</a>
+</g>
+<g id="edge6" class="edge"><title>FD&#45;>Nu</title>
+<path style="fill:none;stroke:black;" d="M691,-504C725,-492 769,-477 801,-465"/>
+<polygon style="fill:black;stroke:black;" points="802.427,-468.226 811,-462 800.416,-461.521 802.427,-468.226"/>
+</g>
+<g id="node8" class="node"><title>Mo</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Montel topological vector space" xlink:title="Montel">
+<polygon style="fill:none;stroke:black;" points="317,-468 255,-468 255,-432 317,-432 317,-468"/>
+<text text-anchor="middle" x="286" y="-445.9" style="font-family:Times New Roman;font-size:14.00;">Montel</text>
+</a>
+</g>
+<g id="edge8" class="edge"><title>FD&#45;>Mo</title>
+<path style="fill:none;stroke:black;" d="M567,-507C494,-492 385,-471 327,-458"/>
+<polygon style="fill:black;stroke:black;" points="327.492,-454.529 317,-456 326.119,-461.393 327.492,-454.529"/>
+</g>
+<g id="node5" class="node"><title>Ba</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Banach topological vector space" xlink:title="Banach">
+<polygon style="fill:none;stroke:black;" points="543,-396 477,-396 477,-360 543,-360 543,-396"/>
+<text text-anchor="middle" x="510" y="-373.9" style="font-family:Times New Roman;font-size:14.00;">Banach</text>
+</a>
+</g>
+<g id="edge10" class="edge"><title>Hi&#45;>Ba</title>
+<path style="fill:none;stroke:black;" d="M536,-432C532,-424 528,-414 523,-405"/>
+<polygon style="fill:black;stroke:black;" points="526.26,-403.717 519,-396 519.863,-406.56 526.26,-403.717"/>
+</g>
+<g id="node6" class="node"><title>IP</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Inner-Product topological vector space" xlink:title="Inner&#45;Product">
+<polygon style="fill:none;stroke:black;" points="671,-396 561,-396 561,-360 671,-360 671,-396"/>
+<text text-anchor="middle" x="616" y="-373.9" style="font-family:Times New Roman;font-size:14.00;">Inner&#45;Product</text>
+</a>
+</g>
+<g id="edge12" class="edge"><title>Hi&#45;>IP</title>
+<path style="fill:none;stroke:black;" d="M563,-432C572,-423 582,-413 591,-404"/>
+<polygon style="fill:black;stroke:black;" points="594.049,-405.831 598,-396 588.781,-401.221 594.049,-405.831"/>
+</g>
+<g id="node14" class="node"><title>Re</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Reflexive topological vector space" xlink:title="Reflexive">
+<polygon style="fill:none;stroke:black;" points="325,-396 247,-396 247,-360 325,-360 325,-396"/>
+<text text-anchor="middle" x="286" y="-373.9" style="font-family:Times New Roman;font-size:14.00;">Reflexive</text>
+</a>
+</g>
+<g id="edge14" class="edge"><title>Hi&#45;>Re</title>
+<path style="fill:none;stroke:black;" d="M514,-441C470,-429 388,-406 335,-392"/>
+<polygon style="fill:black;stroke:black;" points="335.584,-388.521 325,-389 333.573,-395.226 335.584,-388.521"/>
+</g>
+<g id="node7" class="node"><title>Se</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Separable topological vector space" xlink:title="Separable">
+<polygon style="fill:none;stroke:black;" points="811,-396 727,-396 727,-360 811,-360 811,-396"/>
+<text text-anchor="middle" x="769" y="-373.9" style="font-family:Times New Roman;font-size:14.00;">Separable</text>
+</a>
+</g>
+<g id="edge18" class="edge"><title>SC&#45;>Se</title>
+<path style="fill:none;stroke:black;" d="M717,-432C725,-423 735,-413 744,-404"/>
+<polygon style="fill:black;stroke:black;" points="747.049,-405.831 751,-396 741.781,-401.221 747.049,-405.831"/>
+</g>
+<g id="node18" class="node"><title>Me</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Metrisable topological vector space" xlink:title="Metrisable">
+<polygon style="fill:none;stroke:black;" points="834,-252 748,-252 748,-216 834,-216 834,-252"/>
+<text text-anchor="middle" x="791" y="-229.9" style="font-family:Times New Roman;font-size:14.00;">Metrisable</text>
+</a>
+</g>
+<g id="edge16" class="edge"><title>SC&#45;>Me</title>
+<path style="fill:none;stroke:black;" d="M701,-432C704,-413 709,-384 718,-360 732,-323 755,-285 772,-261"/>
+<polygon style="fill:black;stroke:black;" points="775.365,-262.262 778,-252 769.541,-258.379 775.365,-262.262"/>
+</g>
+<g id="node9" class="node"><title>Sc</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Schwartz topological vector space" xlink:title="Schwartz">
+<polygon style="fill:none;stroke:black;" points="911,-396 829,-396 829,-360 911,-360 911,-396"/>
+<text text-anchor="middle" x="870" y="-373.9" style="font-family:Times New Roman;font-size:14.00;">Schwartz</text>
+</a>
+</g>
+<g id="edge24" class="edge"><title>Nu&#45;>Sc</title>
+<path style="fill:none;stroke:black;" d="M851,-432C854,-424 857,-414 861,-406"/>
+<polygon style="fill:black;stroke:black;" points="864.479,-406.584 864,-396 857.774,-404.573 864.479,-406.584"/>
+</g>
+<g id="node10" class="node"><title>UB</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Ultrabornological topological vector space" xlink:title="Ultrabornological">
+<polygon style="fill:none;stroke:black;" points="730,-252 598,-252 598,-216 730,-216 730,-252"/>
+<text text-anchor="middle" x="664" y="-229.9" style="font-family:Times New Roman;font-size:14.00;">Ultrabornological</text>
+</a>
+</g>
+<g id="edge26" class="edge"><title>Ba&#45;>UB</title>
+<path style="fill:none;stroke:black;" d="M522,-360C535,-341 558,-310 582,-288 594,-277 609,-266 623,-258"/>
+<polygon style="fill:black;stroke:black;" points="625.1,-260.8 631,-252 620.9,-255.2 625.1,-260.8"/>
+</g>
+<g id="node11" class="node"><title>Fr</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Fr&#233;chet topological vector space" xlink:title="Fr&#233;chet">
+<polygon style="fill:none;stroke:black;" points="535,-324 467,-324 467,-288 535,-288 535,-324"/>
+<text text-anchor="middle" x="501" y="-301.9" style="font-family:Times New Roman;font-size:14.00;">Fr&#233;chet</text>
+</a>
+</g>
+<g id="edge28" class="edge"><title>Ba&#45;>Fr</title>
+<path style="fill:none;stroke:black;" d="M508,-360C507,-352 506,-343 505,-334"/>
+<polygon style="fill:black;stroke:black;" points="508.393,-333.119 503,-324 501.529,-334.492 508.393,-333.119"/>
+</g>
+<g id="node12" class="node"><title>DF</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Dual-Fr&#233;chet topological vector space" xlink:title="Dual&#45;Fr&#233;chet">
+<polygon style="fill:none;stroke:black;" points="449,-324 345,-324 345,-288 449,-288 449,-324"/>
+<text text-anchor="middle" x="397" y="-301.9" style="font-family:Times New Roman;font-size:14.00;">Dual&#45;Fr&#233;chet</text>
+</a>
+</g>
+<g id="edge30" class="edge"><title>Ba&#45;>DF</title>
+<path style="fill:none;stroke:black;" d="M481,-360C467,-351 449,-340 434,-330"/>
+<polygon style="fill:black;stroke:black;" points="435.262,-326.635 425,-324 431.379,-332.459 435.262,-326.635"/>
+</g>
+<g id="node13" class="node"><title>No</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Normed topological vector space" xlink:title="Normed">
+<polygon style="fill:none;stroke:black;" points="661,-324 591,-324 591,-288 661,-288 661,-324"/>
+<text text-anchor="middle" x="626" y="-301.9" style="font-family:Times New Roman;font-size:14.00;">Normed</text>
+</a>
+</g>
+<g id="edge32" class="edge"><title>Ba&#45;>No</title>
+<path style="fill:none;stroke:black;" d="M539,-360C554,-351 573,-340 588,-330"/>
+<polygon style="fill:black;stroke:black;" points="590.621,-332.459 597,-324 586.738,-326.635 590.621,-332.459"/>
+</g>
+<g id="edge34" class="edge"><title>IP&#45;>No</title>
+<path style="fill:none;stroke:black;" d="M619,-360C620,-352 621,-343 622,-334"/>
+<polygon style="fill:black;stroke:black;" points="625.488,-334.299 623,-324 618.522,-333.602 625.488,-334.299"/>
+</g>
+<g id="edge20" class="edge"><title>Mo&#45;>Re</title>
+<path style="fill:none;stroke:black;" d="M286,-432C286,-424 286,-415 286,-406"/>
+<polygon style="fill:black;stroke:black;" points="289.5,-406 286,-396 282.5,-406 289.5,-406"/>
+</g>
+<g id="node24" class="node"><title>Pc</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Paracompact topological vector space" xlink:title="Paracompact">
+<polygon style="fill:none;stroke:black;" points="185,-396 81,-396 81,-360 185,-360 185,-396"/>
+<text text-anchor="middle" x="133" y="-373.9" style="font-family:Times New Roman;font-size:14.00;">Paracompact</text>
+</a>
+</g>
+<g id="edge22" class="edge"><title>Mo&#45;>Pc</title>
+<path style="fill:none;stroke:black;" d="M255,-435C234,-425 205,-412 181,-400"/>
+<polygon style="fill:black;stroke:black;" points="182.56,-396.863 172,-396 179.717,-403.26 182.56,-396.863"/>
+</g>
+<g id="node20" class="node"><title>Bo</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Bornological topological vector space" xlink:title="Bornological">
+<polygon style="fill:none;stroke:black;" points="646,-180 546,-180 546,-144 646,-144 646,-180"/>
+<text text-anchor="middle" x="596" y="-157.9" style="font-family:Times New Roman;font-size:14.00;">Bornological</text>
+</a>
+</g>
+<g id="edge40" class="edge"><title>UB&#45;>Bo</title>
+<path style="fill:none;stroke:black;" d="M647,-216C639,-207 629,-197 620,-188"/>
+<polygon style="fill:black;stroke:black;" points="622.219,-185.221 613,-180 616.951,-189.831 622.219,-185.221"/>
+</g>
+<g id="node15" class="node"><title>Cn</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Convenient topological vector space" xlink:title="Convenient">
+<polygon style="fill:none;stroke:black;" points="580,-252 484,-252 484,-216 580,-216 580,-252"/>
+<text text-anchor="middle" x="532" y="-229.9" style="font-family:Times New Roman;font-size:14.00;">Convenient</text>
+</a>
+</g>
+<g id="edge42" class="edge"><title>Fr&#45;>Cn</title>
+<path style="fill:none;stroke:black;" d="M509,-288C513,-280 517,-270 520,-262"/>
+<polygon style="fill:black;stroke:black;" points="523.536,-262.585 524,-252 517.036,-259.985 523.536,-262.585"/>
+</g>
+<g id="node16" class="node"><title>Cp</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Complete topological vector space" xlink:title="Complete">
+<polygon style="fill:none;stroke:black;" points="466,-252 386,-252 386,-216 466,-216 466,-252"/>
+<text text-anchor="middle" x="426" y="-229.9" style="font-family:Times New Roman;font-size:14.00;">Complete</text>
+</a>
+</g>
+<g id="edge44" class="edge"><title>Fr&#45;>Cp</title>
+<path style="fill:none;stroke:black;" d="M482,-288C473,-279 462,-269 452,-259"/>
+<polygon style="fill:black;stroke:black;" points="454.546,-256.596 445,-252 449.596,-261.546 454.546,-256.596"/>
+</g>
+<g id="node17" class="node"><title>Br</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Baire topological vector space" xlink:title="Baire">
+<polygon style="fill:none;stroke:black;" points="368,-252 314,-252 314,-216 368,-216 368,-252"/>
+<text text-anchor="middle" x="341" y="-229.9" style="font-family:Times New Roman;font-size:14.00;">Baire</text>
+</a>
+</g>
+<g id="edge46" class="edge"><title>Fr&#45;>Br</title>
+<path style="fill:none;stroke:black;" d="M467,-291C444,-282 413,-268 378,-252"/>
+<polygon style="fill:black;stroke:black;" points="378.585,-248.464 368,-248 375.985,-254.964 378.585,-248.464"/>
+</g>
+<g id="edge48" class="edge"><title>Fr&#45;>Me</title>
+<path style="fill:none;stroke:black;" d="M535,-298C592,-285 702,-260 738,-251"/>
+<polygon style="fill:black;stroke:black;" points="738.881,-254.393 748,-249 737.508,-247.529 738.881,-254.393"/>
+</g>
+<g id="node19" class="node"><title>SR</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Semi-Reflexive topological vector space" xlink:title="Semi&#45;Reflexive">
+<polygon style="fill:none;stroke:black;" points="258,-324 140,-324 140,-288 258,-288 258,-324"/>
+<text text-anchor="middle" x="199" y="-301.9" style="font-family:Times New Roman;font-size:14.00;">Semi&#45;Reflexive</text>
+</a>
+</g>
+<g id="edge38" class="edge"><title>Re&#45;>SR</title>
+<path style="fill:none;stroke:black;" d="M264,-360C253,-351 240,-340 229,-330"/>
+<polygon style="fill:black;stroke:black;" points="231.1,-327.2 221,-324 226.9,-332.8 231.1,-327.2"/>
+</g>
+<g id="node22" class="node"><title>Bl</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Barrelled topological vector space" xlink:title="Barrelled">
+<polygon style="fill:none;stroke:black;" points="378,-180 300,-180 300,-144 378,-144 378,-180"/>
+<text text-anchor="middle" x="339" y="-157.9" style="font-family:Times New Roman;font-size:14.00;">Barrelled</text>
+</a>
+</g>
+<g id="edge36" class="edge"><title>Re&#45;>Bl</title>
+<path style="fill:none;stroke:black;" d="M286,-360C285,-329 287,-266 305,-216 309,-206 314,-197 319,-189"/>
+<polygon style="fill:black;stroke:black;" points="322.365,-190.262 325,-180 316.541,-186.379 322.365,-190.262"/>
+</g>
+<g id="edge50" class="edge"><title>Cn&#45;>Bo</title>
+<path style="fill:none;stroke:black;" d="M548,-216C556,-207 565,-197 573,-188"/>
+<polygon style="fill:black;stroke:black;" points="576.049,-189.831 580,-180 570.781,-185.221 576.049,-189.831"/>
+</g>
+<g id="node21" class="node"><title>LC</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Locally Complete topological vector space" xlink:title="Locally Complete">
+<polygon style="fill:none;stroke:black;" points="528,-180 396,-180 396,-144 528,-144 528,-180"/>
+<text text-anchor="middle" x="462" y="-157.9" style="font-family:Times New Roman;font-size:14.00;">Locally Complete</text>
+</a>
+</g>
+<g id="edge52" class="edge"><title>Cn&#45;>LC</title>
+<path style="fill:none;stroke:black;" d="M514,-216C506,-207 496,-197 487,-188"/>
+<polygon style="fill:black;stroke:black;" points="489.219,-185.221 480,-180 483.951,-189.831 489.219,-185.221"/>
+</g>
+<g id="edge54" class="edge"><title>Cp&#45;>LC</title>
+<path style="fill:none;stroke:black;" d="M435,-216C439,-208 444,-198 449,-189"/>
+<polygon style="fill:black;stroke:black;" points="452.137,-190.56 453,-180 445.74,-187.717 452.137,-190.56"/>
+</g>
+<g id="node23" class="node"><title>QC</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Quasi-Complete topological vector space" xlink:title="Quasi&#45;Complete">
+<polygon style="fill:none;stroke:black;" points="278,-180 152,-180 152,-144 278,-144 278,-180"/>
+<text text-anchor="middle" x="215" y="-157.9" style="font-family:Times New Roman;font-size:14.00;">Quasi&#45;Complete</text>
+</a>
+</g>
+<g id="edge56" class="edge"><title>Cp&#45;>QC</title>
+<path style="fill:none;stroke:black;" d="M386,-219C383,-218 380,-217 377,-216 346,-204 311,-193 282,-183"/>
+<polygon style="fill:black;stroke:black;" points="282.584,-179.521 272,-180 280.573,-186.226 282.584,-179.521"/>
+</g>
+<g id="edge58" class="edge"><title>Br&#45;>Bl</title>
+<path style="fill:none;stroke:black;" d="M340,-216C340,-208 340,-199 340,-190"/>
+<polygon style="fill:black;stroke:black;" points="343.478,-189.602 339,-180 336.512,-190.299 343.478,-189.602"/>
+</g>
+<g id="edge60" class="edge"><title>SR&#45;>QC</title>
+<path style="fill:none;stroke:black;" d="M201,-288C204,-263 209,-219 212,-190"/>
+<polygon style="fill:black;stroke:black;" points="215.488,-190.299 213,-180 208.522,-189.602 215.488,-190.299"/>
+</g>
+<g id="node25" class="node"><title>QB</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Quasi-Barralled topological vector space" xlink:title="Quasi&#45;Barralled">
+<polygon style="fill:none;stroke:black;" points="548,-108 426,-108 426,-72 548,-72 548,-108"/>
+<text text-anchor="middle" x="487" y="-85.9" style="font-family:Times New Roman;font-size:14.00;">Quasi&#45;Barralled</text>
+</a>
+</g>
+<g id="edge62" class="edge"><title>Bo&#45;>QB</title>
+<path style="fill:none;stroke:black;" d="M568,-144C554,-135 537,-124 523,-114"/>
+<polygon style="fill:black;stroke:black;" points="524.262,-110.635 514,-108 520.379,-116.459 524.262,-110.635"/>
+</g>
+<g id="edge64" class="edge"><title>Bl&#45;>QB</title>
+<path style="fill:none;stroke:black;" d="M376,-144C396,-134 420,-123 441,-112"/>
+<polygon style="fill:black;stroke:black;" points="442.283,-115.26 450,-108 439.44,-108.863 442.283,-115.26"/>
+</g>
+<g id="node26" class="node"><title>Sp</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Sequentially Complete topological vector space" xlink:title="Sequentially Complete">
+<polygon style="fill:none;stroke:black;" points="300,-108 130,-108 130,-72 300,-72 300,-108"/>
+<text text-anchor="middle" x="215" y="-85.9" style="font-family:Times New Roman;font-size:14.00;">Sequentially Complete</text>
+</a>
+</g>
+<g id="edge66" class="edge"><title>QC&#45;>Sp</title>
+<path style="fill:none;stroke:black;" d="M215,-144C215,-136 215,-127 215,-118"/>
+<polygon style="fill:black;stroke:black;" points="218.5,-118 215,-108 211.5,-118 218.5,-118"/>
+</g>
+<g id="node27" class="node"><title>Nm</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Normal topological vector space" xlink:title="Normal">
+<polygon style="fill:none;stroke:black;" points="122,-324 56,-324 56,-288 122,-288 122,-324"/>
+<text text-anchor="middle" x="89" y="-301.9" style="font-family:Times New Roman;font-size:14.00;">Normal</text>
+</a>
+</g>
+<g id="edge68" class="edge"><title>Pc&#45;>Nm</title>
+<path style="fill:none;stroke:black;" d="M122,-360C117,-352 111,-342 105,-333"/>
+<polygon style="fill:black;stroke:black;" points="107.916,-331.042 100,-324 101.797,-334.441 107.916,-331.042"/>
+</g>
+<g id="node28" class="node"><title>Mk</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Mackey topological vector space" xlink:title="Mackey">
+<polygon style="fill:none;stroke:black;" points="520,-36 454,-36 454,-1.06581e-14 520,-0 520,-36"/>
+<text text-anchor="middle" x="487" y="-13.9" style="font-family:Times New Roman;font-size:14.00;">Mackey</text>
+</a>
+</g>
+<g id="edge70" class="edge"><title>QB&#45;>Mk</title>
+<path style="fill:none;stroke:black;" d="M487,-72C487,-64 487,-55 487,-46"/>
+<polygon style="fill:black;stroke:black;" points="490.5,-46 487,-36 483.5,-46 490.5,-46"/>
+</g>
+<g id="node29" class="node"><title>CP</title>
+<a xlink:href="http://ncatlab.org/nlab/show/Countably Paracompact topological vector space" xlink:title="Countably Paracompact">
+<polygon style="fill:none;stroke:black;" points="178,-252 6.09651e-14,-252 1.85754e-14,-216 178,-216 178,-252"/>
+<text text-anchor="middle" x="89" y="-229.9" style="font-family:Times New Roman;font-size:14.00;">Countably Paracompact</text>
+</a>
+</g>
+<g id="edge72" class="edge"><title>Nm&#45;>CP</title>
+<path style="fill:none;stroke:black;" d="M89,-288C89,-280 89,-271 89,-262"/>
+<polygon style="fill:black;stroke:black;" points="92.5001,-262 89,-252 85.5001,-262 92.5001,-262"/>
+</g>
+</g>
+</svg>
+
 
 [[topvs.png:pic]]
 
