@@ -348,6 +348,98 @@ For $x \in X$ a point in a manifold, the infinitesimal [[neighbourhood]] $U_p$ i
 All of the infinitesimal spaces above are contained in the corresponding infinitesimal neighbourhood. So this is the "largest" of the infinitesimal spaces discussed here.
 
 
+### Spaces of infinitesimal $k$-simplices
+
+An **infinitesimal $k$-[[simplex]]** in $R^n$ based at the origin is a collection $(\vec x_i \in R^n)_{i = 1}^k$ of points in $R^n$, such that each is an infinitesimal neighbour of the origin
+
+$$
+  \forall i : \;\; \vec x_i \sim 0
+$$ 
+
+and each are infinitesimal neighbours of each other
+
+$$
+  \forall i,j: \;\; (\vec x_i - \vec x_j) \sim 0
+  \,.
+$$
+
+Following section 1.2 of
+
+* [[Anders Kock]],  _Synthetic differential geometry of manifold_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
+we write $\tilde D(k,n)$ for the space of all infinitesimal $k$-simplices in $R^n$. More precisely, this is defined as the formal dual of the algebra $C^\infty(\tilde D(k,n))$ defined as follows.
+
++-- {: .un_def}
+###### Definition
+
+The algebra $C^\infty(\tilde D(k,n))$ is the 
+commutative $\mathbb{R}$-algebra generated from $k \times n$ generators $(x_i^j)_{1 \leq i \leq n, 1 \leq j \leq n}$ subject to the relations
+
+$$
+  \forall i, j,j' : \;\; x_i^{j} x_i^{j'} = 0
+$$
+
+and
+
+$$
+  \forall i,i',j,j'   : \;\;\; (x_i^j - x_{i'}^j) (x_i^{j'} - x_{i'}^{j'}) = 0
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+By multiplying out the latter set of relations and using the former, these relations are seen to be equivalent to the set of relations
+
+\[
+  \forall i,i',j,j' : \;\;\;
+  x_i^j x_{i'}^{j'} + x_{i'}^j x_{i}^{j'} = 0
+  \,.
+\]
+
+Notice that this implies also that
+
+$$
+  \forall i,i', j: \;\;\;  x_i^{j} x_{i'}^j = 0
+  \,.
+$$
+
+=--
+
+A general element $f$ of this algebra we think of as a function on a certain infinitesimal neightbourhood of the origin of $R^{k \cdot n}$, interpreted as the space of infinitesimal $k$-simplices in $R^n$ based at 0.
+
+Since $C^\infty(\tilde D(k,n))$ is a Weil algebra in the sense of synethtic differential geometry, its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
+
++-- {: .un_example}
+###### Example
+
+For $n = 2$ and $k = 2$ we have that $C^\infty(\tilde D(2,2))$ consists of elements of the form
+
+$$
+  \begin{aligned}
+    a \cdot x_1 + b \cdot x_2 + (v \cdot x_1) (w \cdot x_2) 
+    &= 
+    a_1 x_1^1 + a_2 x_1^2 + b_1 x_2^1 + b_2 x_1^2
+    \\
+    & (v_1 w_2 - v_2 w_1) \frac{1}{2}(x_1^1 x_2^2 - x_1^2 x_2^1)
+  \end{aligned}
+$$
+
+for $(a, b, v, w \in (\mathbb{R}^n)^*)_{1 \leq i \leq n}$ a collection of ordinary covectors and with "$\cdot$" denoting the evident contraction, and where in the last step we used the above relations.
+
+It is noteworthy here that the coefficient of the term which is linear in each of the $x_i$ is the wedge product of two covectors: we may naturally identify the subalgebra of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $x_1$ or $x_2$ are set to 0 as space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
+
+Of course for this identification to be more than a meaningless coincidence we need that this is the beginning of a pattern that holds more generally. But this is indeed the case.
+
+=--
+
+
+
+
+
+
 ## References
 
 Infinitesimal spaces and their properties were familiar in all
