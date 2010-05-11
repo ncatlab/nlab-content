@@ -140,6 +140,11 @@ For several years Joyal has been preparing a textbook on the subject. This still
 
 * [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
 
+and more recently, with more details
+
+* [[André Joyal]], _Notes on quasi-categories_ ([pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf)).
+
+
 Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
