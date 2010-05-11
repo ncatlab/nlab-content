@@ -56,6 +56,7 @@ $$
 This naturally forms a [[simplicial object]] $X^{\Delta_{inf}^{bullet}} : \Delta^{op} \to \mathcal{T}$. 
 This is the infinitesimal simplicial singular complex of $R^n$.
 
+A more detailed discussion of this is in the entry [[infinitesimal object]] in the section [Spaces of infinitesimal simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl).
 
 ### In smooth loci 
 
