@@ -370,7 +370,7 @@ $$
   G Bund(X)_\sim
 $$ 
 
-as expected. In $SPSh(CartSp)^{loc}_{proj}$, however, $X$ is in general not representable, hence in general not cofibrant. But by the proposition below, that all objects which are degreewise coproducts of representables are cofibrant in all the model structures, we have that the [[?ech nerve]] $C(U)$ of any _good cover_ $U = \coprod_i U_i$ of $X$ (one for which each pathc and all intersections and higher intersections are contractible) is cofibrant. Hence here we find the above result by a different intermediate step
+as expected. In $SPSh(CartSp)^{loc}_{proj}$, however, $X$ is in general not representable, hence in general not cofibrant. But by the proposition below, that all objects which are degreewise coproducts of representables are cofibrant in all the model structures, we have that the [[?ech nerve]] $C(U)$ of any _[[good cover]]_ $U = \coprod_i U_i$ of $X$ (one for which each pathc and all intersections and higher intersections are contractible) is cofibrant. Hence here we find the above result by a different intermediate step
 
 $$
   Ho_{SPSh(Cart)^{loc}}(X, \mathbf{B}G )
@@ -402,7 +402,7 @@ Since the fibrancy condition in the global projective model structure is simple 
 
 On the other hand the cofibrancy condition on objects is entirly _trivial_ in the global and local injective model structure: since a cofibration there is just an objectwise cofibration, and since every [[simplicial set]] is cofibrant, every object is injective cofibrant.
 
-But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[?ech nerve]]s of any _good cover_ (see below for more details) is a projectively cofibrant object.
+But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[?ech nerve]]s of any _[[good cover]]_ (see below for more details) is a projectively cofibrant object.
 
 A **cofibrant replacement** functor in the local projective structure  is discussed in 
 
@@ -438,24 +438,18 @@ This splitness condition is in particular satisfied by all [[?ech nerve]]s of co
 ###### Definition
 **(good cover)**
 
-A [[?ech nerve]] $U$  with a weak equivalence $U \stackrel{\simeq}{\to} X$ in $SPSh(C)^{loc}$ is a **good cover** if it is degreewise a coproduct of [[representable functor|representable]]s.
+A [[?ech nerve]] $U$  with a weak equivalence $U \stackrel{\simeq}{\to} X$ in $SPSh(C)^{loc}$ is a **[[good cover]]** if it is degreewise a coproduct of [[representable functor|representable]]s.
 
 =--
 
 +-- {: .un_remark }
 ###### Remark
 
-This reduces to the ordinary notion of good cover as an open cover by contractible spaces such that all finite intersections of these are again contractibe when using a [[site]] like $C = $ [[CartSp]].
+This reduces to the ordinary notion of [[good cover]] as an open cover by contractible spaces such that all finite intersections of these are again contractibe when using a [[site]] like $C = $ [[CartSp]].
 
 =--
 
 
-+-- {: .un_corollary }
-###### Corollary
-
-Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
-
-=--
 
 
 
