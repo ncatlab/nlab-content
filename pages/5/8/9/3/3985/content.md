@@ -15,7 +15,12 @@ The notion of  _reflective $(\infty,1)$-subcategory_ is the generalization of th
 ## Definition 
 
 
-### Reflective $(\infty,1)$-subcategory
+### Reflective sub-$(\infty,1)$-category
+
++-- {: .un_def}
+###### Definition
+**(local objects, local equivalences)**
+
 
 A [[full and faithful (∞,1)-functor]]
 
@@ -31,6 +36,10 @@ $$
   \,.
 $$
 
+If $L$ moreover preserves finite [[limit in a quasi-category|limits]], then the embedding is called **exact**.
+
+=--
+
 
 The [[(∞,1)-functor]] $R$ or its composite 
 
@@ -38,7 +47,7 @@ $$
   Loc := R \circ L : C \to C
 $$ 
 
-may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to [[equivalence in a quasi-category|equivalence]]s in $D$.
+may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to [[equivalence in a quasi-category|equivalence]]s in $D$. If $L$ preserves finite a limits (is a left [[exact functor]]), then this is an **exact localization**
 
 
 ### Local objects and local morphisms
@@ -537,6 +546,126 @@ Finally we can use that $f$ is terminal in the full subcategory $D_c$ of $C_{c/}
 
 
 =--
+
+### Exact localizations {#ExactLocalizations}
+
+Recall that the reflective subcategory $D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$ is **exact** -- or $L$ an **exact localization** -- if $L$ preserves finite limits.
+
+Recall also that by the above results, a reflective subcategory is characterized by the collection $S = L^{-1}(equi) \subset Mor(C)$ of those morphisms, that $L$ sends to equivalences in $D$.
+
+The following propositions say how the property that $L$ preserves finite limits is characterized by pullback-stability properties of $S$.
+
++-- {: .un_prop}
+###### Proposition
+**(recognition of exact localization, I)**
+
+
+A reflective sub-$(\infty,1)$-category 
+$D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$
+such that $C$ has all finite [[limit in a quasi-category|limits]]
+is exact precisely if the collection $S := L^{-1}(equiv) \subset Mor(C)$ of morphisms that $L$ sends to equivalences is stable under [[pullback]].
+
+So if for every pullback diagram
+
+$$
+  \array{
+     X' &\to& X
+     \\
+     \downarrow^{\mathrlap{f'}} && \downarrow^{\mathrlap{f}}
+     \\
+     Y' &\to& Y
+  }
+$$
+
+we have that if $L(f)$ is an equivalence then also $L(f')$ is
+an equivalence.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.2.1.1]]. 
+
++-- {: .proof}
+###### Proof
+
+If $L$ preserves finite limits, then it preserves pullbacks,
+so that $L(f')$ is a pullback of the equivalence $L(f)$, hence itself
+an equivalence.
+
+So it remains to check that, conversely, stability of $S$ under pullbacl
+is equivalent to $L$ preserving finite limits.
+For that, first notice that $L$ necessarily preserves the 
+[[terminal object in a quasi-category|terminal object]]: 
+
+by the above propositions we have that the counit $L z \to z$ is an equivalence if the object $z$ is $S$-local, but the terminal object $*$ is evidently $S$-local, so $L * \simeq *$ is still terminal in $C$ and therefore in the full subcategory $D$.
+
+So by the properties of [[limit in a quasi-category|limits]] it suffices to check that $L$ preserves all pullbacks if $S$ is stable under pullback.
+
+For that, first notice that for $x \to y \leftarrow z$ a diagram in $C$, the pullback $L x \times_{L_y} L_z$ of the image exists in $C$, by assumption, but is easily seen to be $S$-local and hence lands in $D$. Therefore to show that we have an equivalence $L(x \times_y z) \simeq L x \times_{L y} \times L z$ it is sufficient to show that the natural morphism, $x \times_y z \to L x \times_{L y} L z$ is in $S$ induced from the morphism of diagrams
+
+$$
+  \array{
+    x &\stackrel{i_x}{\to}& L x
+    \\
+    \downarrow && \downarrow
+    \\
+    y &\stackrel{i_y}{\to}& L y
+    \\
+    \uparrow && \uparrow
+    \\
+    z &\stackrel{i_z}{\to}& L z
+  }
+$$
+
+with the adjunction unit morphism  on the horizonatals, is in $S$. But by only passing along these units one at a time, this may be decomposed as a composite of three morphisms
+
+$$
+  x \times_y z \to x \times_{L y} z 
+  \to L x \times_{L y} z \to  
+  L x \times_{L y} L z
+  \,.
+$$
+
+Here the last two morphisms are pullbacks of the adjunction unit and hence are in $S$, by assumption on the pullback stability of $S$. So it remains to show that $x \times_y z \to x \times_{L y} z$ is in $S$. 
+
+By doodling around a bit one finds that this morphism in turn may be expressed itself as the pullback 
+
+$$
+  \array{
+    x \times_y z &\to& &\to& y
+    \\
+    \downarrow && \downarrow &&  \downarrow
+    \\
+    x \times_{L y} z &\to& x \times z &\to& y \times_{L y} y
+  }
+$$
+
+of the diagonal $y \to y \times_{L y} y$.
+
+So now we need to show that _this_ is in $S$. We observe that it has a left inverse $y \times_{L y} y \to y$. So if finally we show that _this_ is in $S$, we are done. But this follows now from the assumptions, because this last morphism is the pullback of $y \to L y$ along itself
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+**(recognition of exact localizations, II)**
+
+Let $C$ be a [[locally presentable (∞,1)-category]] with [[pullback stability|pullback-stable]] colimits.
+
+Let $S_0 \subset Mor(C)$ be a class of morphisms, and $S$ its strongly saturated class. If elements in $S_0$ land in $S$ under pullback, then $S$ is closed under pullback.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Obsrve that the collection $S'$ of morphisms whose pullback lands in $S$ is stronglyy saturated. Since this includes $S_0$ and since $S$ is the smallest strongly saturated class of morphisms containing $S$, we have $S \subset S'$ and hence $S$ is stable under pullback.
+
+=--
+
+So in particular if $S_0$ is a set of morphisms closed under pullback then the localization at as is exact. This is the case for [[topological localization]]s where $(\infty,1)$-categories of presheaves are localized to an [[(∞,1)-category of (∞,1)-sheaves]]. See [[topological localization]] for further details.
+
+
 
 
 
