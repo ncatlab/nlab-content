@@ -45,4 +45,6 @@ Every metrizible locally convex space is bornological, that is every [[Fréchet 
 [[!redirects bornological vector spaces]]
 [[!redirects bornological spaces]]
 [[!redirects bornological topological vector spaces]]
+[[!redirects Bornological topological vector space]]
+
 
