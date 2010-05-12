@@ -6,6 +6,7 @@
 
 * P. Shapira, _Masaki Kashiwara and algebraic analysis_, Adv. Studies in Pure Analysis, [arxiv/0810.4875](http://arxiv.org/abs/0810.4875)
 
+* Stephane Guillermou, Masaki Kashiwara, Pierre Schapira, _Sheaf quantization of Hamiltonian isotopies and applications to non displaceability problems_, [arxiv/1005.1517](http://arxiv.org/abs/1005.1517)
 
 [[!redirects Kashiwara]]
 
