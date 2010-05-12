@@ -4,6 +4,18 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
+
+An object in a [[model category]] is fibrant if all morphisms into have extensions along acyclic cofibrations. An **algebraic fibrant object** is a fibrant object equipped with a _choice_ of such extensions.
+
+Under mild conditions, the category $Alg C$ of algebraic fibrant objects in a model category $C$ forms itself naturally a model category with is [[Quillen equivalence|Quillen equivalent]] to $C$. Notably, $Alg C$ is always a [[category of fibrant objects]].
+
+
 ## Definition
 
 +-- {: .un_defn}
@@ -61,6 +73,29 @@ This is theorem 2.18
 
 =--
 
+## Examples
+
+### Algebraic higher categories {#AlgebaicHigherCategories}
+
+The standard [[model structure on simplicial sets]] $sSet_{Quillen}$ models the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoid]]s: its fibrant objects are precisely the [[Kan complex]]es. But a Kan complex is a model for an $\infty$-groupoid in which composites and inverses of [[k-morphism]]s are only guaranteed to exist, but are not specifically _chosen_ .
+
+An algebraic fibrant object in $sSet_{Quillen}$ is a [[Kan complex]] with a chosen filler for each [[horn]]: an **[[algebraic Kan complex]]**. This means precisely that all possible composites and all possible inverses are chosen. So the Quillen equivalence
+
+$$
+  sSet_{Quillen} \stackrel{\leftarrow}{\to} Alg sSet_{Quillen} 
+$$
+
+induces an equivalence from an [[algebraic definition of higher category|algebraic definition of ∞-groupoids]] to a [[geometric definition of higher categories|geometric definition]].
+
+Similarly, the [[model structure for quasi-categories]] $sSet_{Joyal}$ models [[(∞,1)-categories]]: its fibrant objects are precisely the [[quasi-categories]]: an **[[algebraic quasi-category]]**. Again, these form a model for $(\infty,1)$-categories in which composition is only a relation, not an operation.
+
+But equipping a quasi-category with the structure of an algebraic fibrant object precisely means choosing such composites. Accordingly, the Quillen equivalence
+
+$$
+  sSet_{Joyal} \stackrel{\leftarrow}{\to} Alg sSet_{Joyal} 
+$$
+
+establishes an equivalence of an algebraic with the standard geometric model for $(\infty,1)$-categories.
 
 ## References
 
