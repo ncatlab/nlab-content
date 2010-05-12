@@ -62,7 +62,7 @@ This is theorem 2.18
 =--
 
 
-## Refereces
+## References
 
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
 
