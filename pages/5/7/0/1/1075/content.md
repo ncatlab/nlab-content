@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 For $S$ a [[category]], a 
 system of _local epimorphisms_ is a system of [[morphisms]] in the [[presheaf]] category $[S^{op}, Set]$ that has the closure properties expected of [[epimorphisms]] under [[composition]] and under [[pullback]].
@@ -9,7 +14,7 @@ and hence the structure of a [[site]] on $S$.
 
 Moreover the [[local isomorphisms]] among the local epimorphisms admit a [[calculus of fractions]] which equips $[S^{op}, Set]$ with the structure of a [[category with weak equivalences]]. The corresponding [[homotopy category]] is the category of [[sheaf|sheaves]] on the site $S$.
 
-#Definition#
+## Definition
 
 Let $S$ be a [[category]]. A system of **local epimorphisms** on the [[presheaf]] category $[S^{op}, Set]$ is a collection of morphisms satisfying the following axioms
 
@@ -21,13 +26,13 @@ Let $S$ be a [[category]]. A system of **local epimorphisms** on the [[presheaf]
 
 **LE4** a morphism $u : A \to B$ is a local epimorphism precisely if for all $U \in S$ and morphisms $y: U \to B$ the [[pullback]] morphism $A \times_B U \to U$ is a local epimorphism.
 
-#Relation to sieves#
+## Relation to sieves
 
 The specification of a system of local epimorphisms is equivalent to a system of [[Grothendieck topology|Grothendieck covering]] [[sieves]].
 
 To see this, translate between local epimorphisms to sieves as follows.
 
-##From covering sieves to local epimorphisms##
+###From covering sieves to local epimorphisms
 
 Let $S$ be a [[category]] equipped with a 
 [[Grothendieck topology]], hence in particular
@@ -53,7 +58,7 @@ $A \times_{Y(U)} Y(V) \to Y(V)$
 is a local epimorphism as above.
 
 
-##From local epimorphisms to covering sieves ##
+### From local epimorphisms to covering sieves 
 
 Conversely, assume a system of local epimorphisms is given. 
 
@@ -62,7 +67,7 @@ Declare a [[sieve]] $F$ at $U$ to be a covering sieve precisely if the inclusion
 
 
 
-#References#
+## References#
 
 Section 16 of
 
