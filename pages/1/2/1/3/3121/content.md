@@ -30,7 +30,7 @@ Indeed, as the notation suggests, $\Omega^\infty \Sigma^\infty X$ may be thought
 
 ### Abstract definition
 
-Let $C$ be an [[(infinity,1)-category]] with finite [[limit]]s and write
+Let $C$ be an [[(∞,1)-category]] with finite [[limit]]s and write
 $C_* := C^{{*}/}$ for its $(\infty,1)$-category of [[pointed object]]s, the
 [[undercategory]] of $C$ under the [[terminal object]].
 
