@@ -108,7 +108,7 @@ So in particular
 
 ## Examples
 
-### Tangent Lie algebroid
+### Tangent Lie algebroid {#TangentLieAlgebroid}
 
 The following example is in a way the archetypical example on which all others are modeled in a sense.
 
@@ -152,7 +152,8 @@ $$
 
 where $\tilde D(k,n)$ is the [[smooth locus]] of [infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) based at the origin in $\mathbb{R}^n$.
 
-### Ordinary Lie algebras
+
+### Lie algebra {#LieAlgebra}
 
 
 Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$. We describe how $\mathfrak{g}$ looks when regarded as a special case of an $\infty$-Lie algebroid.
@@ -235,7 +236,148 @@ $$
   \,.
 $$
 
+The universal object found this way we claim is the Lie algebra $\mathfrak{g}$ in its incarnation as an infinitesimal $\infty$-Lie groupoid
 
+$$
+  \begin{aligned}
+    b \mathfrak{g}
+    &:=
+    InitialObject( T U\downarrow \mathbb{L}^{Delta^{op}}\downarrow \mathbf{B}G)
+    \\
+    & =
+    \left(
+       \cdots
+       \tilde D(2,dim(G))
+       \stackrel{\to}{\stackrel{\to}{\to}}
+     \tilde D(1,dim(G))\stackrel{\to}{\to} *
+    \right)
+  \end{aligned}  
+  \,. 
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+The normalized cochain complex of the cosimplicial alghebra of functions on thi $b \mathfrak{g}$ is isomorphic to the ordinary [[Chevalley-Eilenberg algebra]] $(\wedge^\bullet \mathfrak{g}^*, [-,-]^*)$ of $\mathfrak{g}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [Spaces of infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) we have that for $C^\infty(\tilde D(k,dim(G)))_{top} \subset C^\infty(\tilde D(k,n))$ the subspace of those functions that are in the joint kernel of the co-degeneracy maps is naturally isomorpic to $\wedge^k (\mathbb{R}^{dim(G)})^*$, so that we have a natural isomorphism of vector spaces
+
+$$
+  N C^\infty(b \mathfrak{g})_k \simeq \wedge^k \mathfrak{g}^*
+  \,.
+$$
+
+By the fact that everything is [[simplicial skeleton|2-coskeletal]] it suffices to check that the differential in first degree
+
+$$
+  N C^\infty(\tilde D(1,dim(G)))
+  \stackrel{p_1^* + p_2^* - (\cdot)^*}{\to}
+  N C^\infty(\tilde D(2,dim(G)))
+$$
+
+is indeed the dual of the Lie bracket. But the product $\cdot_G : G \times G \to G$ restricted along $\tilde D(2,dim(G)) \hookrightarrow G \times G$ to the [[infinitesimal space]] $\tilde D(2, dim(G))$ linearizes in each of its arguments: for $(\vec x,\vec y)$ \in \tilde D(2,dim(G))$ we have
+
+$$
+  \vec x \cdot_G \vec y = 
+  \vec x \cdot \nabla_x \cdot_G (0,0)
+  + 
+  \vec y \cdot \nabla_y \cdot_G (0,0)
+  +
+  \vec x \cdot \nabla_x 
+  \vec y \cdot \nabla_y \cdot_G(0,0)
+  \,.
+$$
+
+Since thr origin here corresponds to the neutral element of $G$ and since with one of its arguments the neutral element the operaton $\cdot_G$ is the identity, and since the double derivative produces the Lie bracket (keeping in mind that $x^i y^j  + x^j y^i = 0$ in $\tilde D(2,dim(G))$), this is
+
+$$
+  \cdots = \vec x + \vec y + [\vec x, \vec y]
+  \,.
+$$
+
+Accordingly the alternating sum of co-face maps is
+
+$$
+  \begin{aligned}
+     d &= p_1^* + p_2^* - \cdot_G^* 
+     \\ & = p_1^* + p_2^* - ( p_1^* + p_2^* + [-,-]^*)
+     \\ & = - [-,-]^*
+  \end{aligned}
+$$
+
+as it should be for the Chevalley-Eilenberg algebra of a Lie algebra.
+
+=--
+
+The infinitesimal reasoning involved in this proof is discussed in section 6.8 of 
+
+* [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
+
+### Tangent Lie algebroid of a Lie algebra {#TangentOfLieAlgebra}
+
+
+We can form the tangent $\infty$-Lie algebroid of any $\infty$-Lie algebroid $\mathfrak{a}$ as
+
+$$
+  T \mathfrak{a}
+  = 
+  \int^{[n] \in \Delta} \Delta[n] \cdot T \mathfrak{a}_n
+  =
+  \int^{[n] \in \Delta} \Delta[n] \cdot (\mathfrak{a}_n)^{(\Delta^\bullet_{inf})}
+  \,.
+$$
+
+We want to claim now that for $\mathfrak{g}$ a Lie algebra, we have a canonical isomorphism
+
+$$
+  CE(T b \mathfrak{g}) \simeq W(\mathfrak{g})
+$$
+
+that identifies the [[Chevalley-Eilenberg algebra]] of the tangent Lie algebra of $b \mathbf{g}$ with the [[Weil algebra]] of $\mathfrak{g}$.
+
+
+The key observation for this is that in the [[bisimplicial set|bisimplicial object]]
+
+$$
+  \array{
+    && \vdots && \vdots && \vdots
+    \\
+    &\cdots&
+    \tilde D(3,dim(G))^{(\Delta^2_{inf})} && 
+    \tilde D(3,dim(G))^{(\Delta^1_{inf})} && 
+    \tilde D(3,dim(G))
+    \\
+    &&\downarrow \downarrow \downarrow  
+    && \downarrow \downarrow \downarrow 
+    && \downarrow \downarrow \downarrow
+    \\
+    &\cdots&
+    \tilde D(1,dim(G))^{(\Delta^2_{inf})} && 
+    \tilde D(1,dim(G))^{(\Delta^1_{inf})} && 
+    \tilde D(1,dim(G))
+    \\
+    && \downarrow \downarrow  
+    && \downarrow \downarrow && \downarrow \downarrow
+    \\
+     &\cdots& * &\stackrel{\to}{\stackrel{\to}{\to}}&  * 
+    &\stackrel{\to}{\to}& *
+  }
+$$
+
+* the functions on infinitesimal simplices in an infinitesimal space that vanish on degenerate simplices are already isomorphic to covectors at the origin;
+
+* the functions on infinitesimal $r$-simplices in a $\tilde D(k,dim(G))$ for $r \gt k$ which vanish on degenerate simplices already vanish entirely.
+
+Using this the total complex of $N C^\infty(-)$ of this bisimplicial set is manifestly isomorphic to the Weil algebra.
+
+
+...
 
 ## References
 
