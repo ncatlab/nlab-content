@@ -1,5 +1,4 @@
 
-> under construction
 
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
@@ -12,101 +11,84 @@
 
 ## Idea
 
-**$L_\infty$-algebroids** or **Lie $\infty$-algebroids** are to [[Lie ∞-groupoids]] as [[Lie algebras]] are to [[Lie groups]]. Hence $L_\infty$-algebroids are a [[horizontal categorification]] and [[vertical categorification]] of Lie algebras: they encompass $L_\infty$-[[L-∞-algebras|algebras]] as well as [[Lie algebroids]].
+**$\infty$-Lie algebroids** are to [[∞-Lie groupoids]] as [[Lie algebras]] are to [[Lie groups]]. 
 
-A Lie $\infty$-algebroid is a [[complex]] $g$ of [[modules]] over a [[ring]] $A_0$, satisfying some (complicated) conditions. It turns out that it is easier to formulate these conditions in terms of the [[Chevalley?Eilenberg algebra]] $CE(g)$ of $g$. This is a certain type of graded super commutative algebra constructed from $g$.
+* [[Lie group]] - [[Lie algebra]]
 
+* [[Lie groupoid]] - [[Lie algebroid]]
 
-## Definition
+* [[∞-group|∞-Lie group]] - [[L-infinity-algebra|∞-Lie algebra]]
 
-Let $dgAlg_{\mathbb{R}}^{op}$ be the [[opposite category]] of graded-commutative [[dg-algebra]]s equipped with the standard [[model structure on dg-algebras]]. An **$\infty$-Lie algebroid** is effectively a (fibrant) object in this category.
+* [[∞-Lie groupoid]] - **$\infty$-Lie algebroid** .
 
-See also [[rational homotopy theory in an (∞,1)-topos]].
+In terms of [[synthetic differential geometry]] an $\infty$-Lie algebroid may be thought of as an [[∞-Lie groupoid]] all whose [[k-morphism]]-spaces over a given object are [[infinitesimal space]]s.
 
-
-...
-
-> ...this here needs polishing...
-
-### Definition in terms of differential algebra
-
-
-+-- {: .un_defn}
-###### Definition (Lie $\infty$ Algebroid)
-
-A Lie $\infty$-algebroid $\mathfrak{a}$ of finite type over a [[smooth manifold]] $X$ is the following data:
-
-* A commutative algebra $A = \mathfrak{a}_0$, thought of as the ring of functions on a manifold $X$.
-
-* a non-positively graded complex $\mathfrak{a}$ of (finitely generated projective) $A$-modules
+Since in typical [[Models for Smooth Infinitesimal Analysis|convenient models for synthetic differential geometry]] these infinitesimal spaces are represented by formal [[duality]] in terms of their [[smooth algebra]]s of functions, it follows that when [[∞-groupoid]]s are incarnated as [[simplicial object|simplicial]] [[smooth space]]s, an $\infty$-Lie algebroid
 
 $$
-\dots \to \mathfrak{a}_{n}\to \mathfrak{a}_{n-1} \to \dots \to \mathfrak{a}_0.
+  \mathfrak{a} = \left(
+     \cdots \mathfrak{a}_2
+     \stackrel{\to}{\stackrel{\to}{\to}} \mathfrak{a}_1 \stackrel{\to}{\to} \mathfrak{a}_0
+  \right)
+$$ 
+
+may be modeled by [[cosimplicial algebra|cosimplicial]] [[smooth algebra]]s  
+
 $$
+  C^\infty(\mathfrak{a}) = \left(
+     \cdots C^\infty(\mathfrak{a}_2)
+     \stackrel{\leftarrow}{\stackrel{\leftarrow}{\leftarrow}} 
+     C^\infty(\mathfrak{a}_1)
+     \stackrel{\leftarrow}{\leftarrow} 
+     C^\infty(\mathfrak{a}_0)
+  \right)
+  \,.
+$$ 
 
-* A degree 1 derivation $Q$ on the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})=\wedge^\bullet_{A} \mathfrak{a}^* = \wedge^\bullet \mathfrak{a}^*$ of $\mathfrak{a}^*$, such that $Q^2=0$.
-=--
+Under the [[monoidal Dold-Kan correspondence]], these map by the [[Moore complex|normalized cochain complex functor]] $N$ to cochain [[dg-algebra]]s in non-negative degree:
 
-The Chevalley-Eilenberg algebra $CE(\mathfrak{a})$ of a Lie $\infty$-algebroid is a commutative [[semifree dga]], and any such (of non negative degree) is of the form $CE(\mathfrak{a})$ for some Lie $\infty$ algebroid.
-
-A morphism of Lie $\infty$ algebroids $g\to h$ is a linear map $\phi\colon CE(\mathfrak{h})\to CE(\mathfrak{g})$ of the  Chevalley-Eilenberg algebras in the opposite direction, respecting the grading and the differentials. 
-
-Notice that the first few terms of $\wedge^\bullet g^*$ in degree 0, 1 and 2, respectively, are
 $$
-  \wedge^\bullet g^*
-  =
-  \mathfrak{a}_0 \oplus \mathfrak{a}_1^* \oplus  (\mathfrak{a}_1^* \wedge_A \mathfrak{a}_1 \oplus \mathfrak{a}_2) \oplus \cdots 
+  CE(\mathfrak{a}) := N C^\infty(\mathfrak{a})
   \,.
 $$
 
-+-- {: .un_example}
-###### Example
-Take $\mathfrak{a} = \Gamma(T X)$ to be the $C^\infty(X)$-module of [[tangent vector fields]] on $X$, then $\wedge^\bullet_{C^\infty(X)} \mathfrak{a}^* = \wedge^\bullet_{C^\infty(X)} \Omega^1(X) = \Omega^\bullet(X)$. 
-=--
+This dg-algebra is usefully thought of as the [[Chevalley-Eilenberg algebra]] of the $\infty$-Lie algebroid. If $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]], then this is indeed the ordinary Chevalley-Eilenberg algebra of that Lie algebra. 
 
-+-- {: .un_remark}
-###### Remark
-There is plenty of room to fuss about the grading conventions. 
-=--
+In the literature on [[Lie algebroid]]s, however, $CE(\mathfrak{a})$ often goes by different names, such as "canonical complex" or "the complex that computes Lie algebroid cohomology". In the literature on what we here identify as $\infty$-Lie algebroids, the algebras $CE(\mathfrak{a})$ are often thought of as algebras of functions on [[NQ-supermanifold]]s.
 
-
-### The Chevalley-Eilenberg functor on Lie $\infty$-algebroids
-
-A Lie $\infty$-algebroid $g$ is a complex of $A_0$-modules, so corresponds to a bunch of [[vector bundles]] $E_i\to X_0$ over the underlying manifold $X_0$, where $g_i=\Gamma(E_i)$, and the differential of the complex gives fibrations 
+Accordingly, there is a bit of room for different approaches of how to define the [[(∞,1)-category]] of [[∞-Lie algebroid]]s. A very general abstract [[nPOV]] perspective proceeds via the notion of [[rational homotopy theory in an (∞,1)-topos]]: here the [[(∞,1)-topos]] $\mathbf{H}$ of the given notion of [[∞-Lie groupoid]]s is taken to be equipped with a specific line-object $R$, and the [[(∞,1)-category]] $\mathbf{L}$ of [[∞-Lie algebroid]]s is the [[reflective (∞,1)-subcategory]] that [[localization of an (∞,1)-category|localize]] $\mathbf{H}$ at those morphism that induce [[isomorphism]]s in the $R$-[[cohomology]] internal to $\mathbf{H}$
 
 $$
-\dots \to E_{-n}\to E_{-n+1}\to \dots \to E_0\to X_0
+  \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow}
+  \mathbf{H}
+  \,.
 $$
 
-So one can think of a Lie $\infty$-algebroid as a rather intricate classical geometric structure: vector bundles with [[extra stuff]]. These form a category. But taking the Chevalley--Ehresmann algebra gives a functor
+In the case that $\mathbf{H} = Sh_{(\infty,1)}(C)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on a [[site]] $C$ like the [[opposite category]] $Alg_{\mathbb{R}}^{op}$ of commutative (and suitably "small") [[algebra]]s, or the site $C = \mathbb{L}$ of [[smooth loci]], the opposite $C^\infty Alg^{op}$ of (suitably small) [[smooth algebra]], the line object may be taken to be the [[real number|real line]] in the corresponding in ternal incarnation, and one finds then that 
 
 $$
-  Lie \infty Algebroids \stackrel{CE(-)}{\to} sDGCAs
+  \mathbf{L} \simeq ([\Delta, C^\infty Alg]^op)^\circ
 $$
 
-from the category of Lie $\infty$-algebroids to the category of semi free Differential Graded Commutative algebras (sDGCAs).
+is the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by the the opposite of the [[model structure on cosimplicial rings|model structure on cosimplicial commutative (smooth) algebras]]. 
 
-Each SDGCA is the algebras of functions on a supermanifold, more precisely an [[NQ-supermanifold]]. So the CE functor gives a remarkable connection between classical geometry and super geometry.
+At least for the underlying plain algebras this is equivalent, by the [[monoidal Dold-Kan correspondence]], to the $(\infty,1)$-category presented by the opposite of the standard [[model structure on dg-algebras]] $(dgAlg^{op})^\circ$, for graded commutative cochain dg-algebras in non-negative degree. This is of course the category in which much of classical [[rational homotopy theory]] takes place, and indeed it has been noticed that much of classical rational homotopy theory may be understood as being about $\infty$-Lie theory. Notably the [[Sullivan construction]] of a [[topological space]] from a [[dg-algebra]] may be thought of as essentially being the [[Lie integration]] of the $\infty$-Lie algebroid corresponding to the dg-algebra to an [[∞-groupoid]]. This can straightforwardly be refined to an integration to an [[∞-Lie groupoid]].
 
-
-## Remarks
-
-* The definition of a Lie $\infty$-structure in terms of a dual differential graded-commutative algebra is the higher graded version of the definition of Lie algebras in terms of [Lie coalgebras](http://en.wikipedia.org/wiki/Lie_coalgebra).
 
 
 ## Special Cases
 
-* a Lie $\infty$-algebroid over a point, $X = pt$ is an **$L_\infty$-[[L-infinity-algebra|algebra]]**;
+* a $\infty$-Lie algebroid over the [[point]], $\mathfrak{a} = *$ is an **[[L-∞-algebra]]**;
 
-* an Lie $\infty$-algebroid $g$ with generators for $CE(g)$ concentrated in the first $n$ degrees is a **Lie $n$-algebroid**;
+* an $n$-[[truncated]] $\infty$-Lie algebroid is a **Lie $n$-algebroid**;
 
-* an Lie $\infty$-algebroid the differential of whose CE algebra is "co-binary", i.e. $d : \mathfrak{g}^* \to g^* \oplus g^* \wedge g^*$, is **strict**.
+* an $\infty$-Lie algebroid the differential of whose [[Chevalley-Eilenberg algebra]] is "co-binary", i.e. $d : \mathfrak{a}^* \to a^* \oplus a^* \wedge g^*$, is **strict**.
 
 So in particular
 
-* a Lie 1-algebroid is a **[[Lie algebroid]]**;
+* a 1-Lie algebroid is a **[[Lie algebroid]]**;
 
-* a Lie 1-algebroid over the point is a **Lie algebra**;
+* a 1-Lie algebroid over the point is a **[[Lie algebra]]**;
 
 * a Lie $n$-algebroid over a point is a **[[Lie n-algebra]]**.
 
@@ -124,13 +106,144 @@ So in particular
 * Standard examples of [[exterior differential system]]s are [[Chevalley?Eilenberg algebras]] of $L_\infty$-algebroids.
 
 
+## Examples
+
+### Tangent Lie algebroid
+
+The following example is in a way the archetypical example on which all others are modeled in a sense.
+
+For $X$ any [[smooth manifold]], there is a standard notion of the [[Lie algebroid]] which is the [[tangent Lie algebroid]] of $X$. As an $\infty$-Lie algebroid, this is the [[simplicial object|simplicial]] [[smooth locus]] given by the [[infinitesimal singular simplicial complex]] 
+
+$$
+  T X = 
+  \left(
+      \cdots 
+      X^{(\Delta^2_{inf})} 
+        \stackrel{\to}{\stackrel{\to}{\to}} 
+        X^{(\Delta^1_{inf})} 
+       \stackrel{\to}{\to} X
+  \right)
+$$
+
+of $X$. By the central observation on combinatorial [[differential forms in synthetic differential geometry]] by [[Anders Kock]], the [[Chevalley-Eilenberg algebra]] of this is indeed isomorphic to the [[de Rham complex]] of $X$:
+
+$$
+  CE(T X) := N C^\infty(T X) \simeq (\Omega^\bullet(X), d_{dR})
+  \,.
+$$
+
+For more details on the computations involved see [Spaces of infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) at [[infinitesimal object]].
+
+In particular for $X = \mathbb{R}^n$ a [[Cartesian space]], we have
+
+$$
+  T \mathbb{R}^n
+  =
+  \left(
+      \cdots 
+      \mathbb{R}^n \times \tilde D(2,n)
+        \stackrel{\to}{\stackrel{\to}{\to}} 
+        \mathbb{R}^n \times \tilde D(1,n)
+       \stackrel{\to}{\to} 
+       \mathbb{R}^n
+  \right)   
+  \,,
+$$
+
+where $\tilde D(k,n)$ is the [[smooth locus]] of [infinitesimal k-simplices](http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl) based at the origin in $\mathbb{R}^n$.
+
+### Ordinary Lie algebras
+
+
+Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$. We describe how $\mathfrak{g}$ looks when regarded as a special case of an $\infty$-Lie algebroid.
+
+Write 
+
+$$
+  \mathbf{B}G =
+  \left(
+     \cdots G \times G 
+     \stackrel{\to}{\stackrel{\to}{\to}} G \stackrel{\to}{\to} * 
+  \right)
+$$
+
+for the [[delooping]] [[groupoid]] of $G$, regarded as an an [[∞-Lie groupoid]] modeled by a simplicial [[smooth space]].
+
+We claim that a morphism 
+
+$$
+  \omega : T U \to \mathbf{B}G
+$$
+
+from the tangent Lie algebroid of some $U \in $ [[CartSp]] is [[groupoid of Lie-algebra valued forms|flat Lie-algebra valued form]] and how that can be used to find the [[Lie algebra]] $\mathfrak{g}$ as the infinitesimal sub-$\infty$-groupoid
+
+$$
+  \mathbf{b}\mathfrak{g} \hookrightarrow \mathbf{B}G
+$$
+
+inside $\mathbf{B}G$.
+
+Since $\mathbf{B}G$ is [[simplicial skeleton|2-coskeletal]] (being the [[nerve]] of a [[groupoid]]) a morphism $T U \to \mathbf{B}G$ is fixed already under its 2-[[truncated|truncation]]
+
+$$
+  \array{
+    U \times \tilde D(2,n) 
+     &\stackrel{\omega_2}{\to}& 
+    G \times G
+    \\
+    \downarrow \downarrow \downarrow && 
+    \downarrow^{p_2} \downarrow^{\cdot} \downarrow^{p_1} 
+    \\
+    U \times \tilde D(1,n) &\stackrel{\omega_1}{\to}& G
+    \\
+    \downarrow \downarrow && \downarrow \downarrow
+    \\
+    U &\to& *
+  }
+  \,.
+$$
+
+It is clear that $\omega_1$ factors through the inclusion $\tilde D(1,dim(G)) \hookrightarrow G$ that sends the unique point of $\tilde D(1, dim(G))$ to the neutral element (by respect for the degeneracy maps).
+Then from that one finds that $\omega_2$ factors through the inclusion $\tilde D(2, dim(G)) \hookrightarrow G \times G$ that sends the unique point of $\tilde D(2,dim(G))$ to $(e,e) \in G \times G$. And evidently these two factorizations are universal, in that every other factorization will uniquelyy factor through these
+
+$$
+  \array{
+    U \times \tilde D(2,n) 
+     &\stackrel{\omega_2}{\to}& 
+    \tilde D(2,dim(G))
+    &\hookrightarrow&
+    G \times G
+    \\
+    \downarrow \downarrow \downarrow 
+     && 
+    \downarrow^{p_2} \downarrow^{\cdot} \downarrow^{p_1} 
+    &&
+    \downarrow^{p_2} \downarrow^{\cdot} \downarrow^{p_1} 
+    \\
+    U \times \tilde D(1,n) 
+    &\stackrel{\omega_1}{\to}& 
+    \tilde D(1, dim(G))
+    &\hookrightarrow&
+    G
+    \\
+    \downarrow \downarrow 
+    && \downarrow \downarrow
+    && \downarrow \downarrow
+    \\
+    U &\to& * &\to& *
+  }
+  \,.
+$$
+
+
+
 ## References
 
-The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" as such is not as yet established in the literature, as most authors working with these objects think of them entirely in terms of [[NQ-supermanifolds]] and either ignore the relation to [[Lie theory]] or take it more or less for granted. 
+The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" as such is not as yet established in the literature, as most authors working with these objects think of them entirely in terms of [[dg-algebra]]s or [[NQ-supermanifolds]] and either ignore the relation to [[Lie theory]] or take it more or less for granted. 
 
 Possibly the first explicit appearance of the idea of $\infty$-Lie algebroids recognized in their full [[Lie theory|Lie theoretic]] meaning is
 
-* Pavol &Scaron;evera, _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
+* [[Pavol ?evera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
 
 which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, in hindsight one finds that much of this is already implicit in the much older theory of [[Sullivan model|Sullivan models]] in [[rational homotopy theory]], which is concerned with modelling _spaces_ by qDGCAs. That these spaces can be regarded as [[∞-groupoids]] and as [[Lie ∞-groupoids]] in particular is clear in hindsight, but was possibly first explicitly realized in the above reference. See also [[Lie integration]].
 
