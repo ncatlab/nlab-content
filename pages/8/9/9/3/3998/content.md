@@ -68,7 +68,7 @@ The simplest of the inversion identities expressing $\sum_{|A|=n}\prod_{i\in A} 
 $$
 \begin{aligned}
 \prod_{i=1}^\infty \cos\theta_i & = f_0 + \frac{1}{2} f_2 + \frac{1}{2 \cdot 4} f_4 + \frac{1}{2 \cdot 4 \cdot 6} f_6 + \frac{1}{2 \cdot 4 \cdot 6 \cdot 8} f_8 + \cdots \\
-\sum_{j=1}^\infty \sin\theta_j \prod_{i : i \neq j} \cos\theta_i & = f_1 + \frac{1}{2} f_3 + \frac{1}{2\cdot 4} f_5 + \frac{1}{2\cdot 4\cdot 6} f_7 + \cdots
+\sum_{j=1}^\infty \sin\theta_j \prod_{i : i \neq j} \cos\theta_i & = f_1 + \frac{1}{2} f_3 + \frac{1}{2\cdot 4} f_5 + \frac{1}{2\cdot 4\cdot 6} f_7 + \frac{1}{2 \cdot 4 \cdot 6 \cdot 8} f_9 + \cdots
 \end{aligned}
 $$
 
