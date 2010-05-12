@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic tanle of contents goes here
+{:toc}
+
+## Idea
 
 The **rough idea** is (but see the [caveat](#caveat) below) that the term **moduli space** is essentially a synonym for [[representable functor|representing object]] and for [[classifying space]]. People tend to say "classifying space" when in the context of [[topology]], and they tend to say _moduli space_ when in a context of [[complex geometry]] or [[algebraic geometry]]. 
 
@@ -10,7 +15,7 @@ So the term _fine moduli space_ mainly indicates that a given object that might 
 
 A coarse moduli space is one that at least has the right underlying [[set]] of points as the _right_ moduli stack has: as long as we don't look at families but just at single things, it does give the right information. From the point of view of [[derived algebraic geometry]], the coarse moduli spaces are 0-truncations of derived moduli stacks when they exist.
 
-## caveat {#caveat}
+### Caveat {#caveat}
 
 But one has to be **careful with this rough idea**: as there is usually some **implicit fine print** in the notion of moduli space: 
 
@@ -20,7 +25,7 @@ while [[classifying space]] is the term typically used for a [[representable fun
 
 below.
 
-#History#
+## History
 
 The term possibly originates with Riemann, who was the first to study what are now called moduli spaces of (compact) [[Riemann surface]]s. A "modulus" here is meant to be a _parameter_ that parameterizes isomorphism classes of Riemann surfaces.
 
@@ -30,11 +35,11 @@ Those classifying "spaces" that are called moduli spaces are typically [[orbifol
 
 So the term _fine moduli space_ mainly indicates that a given object that might be a [[Deligne-Mumford stack]] is actually just a plain [[scheme]]. But there is also the notion of **coarse moduli space**, which is a kind of conceptual hack designed to be able to keep thinking about what really wants to be a [[stack]] still as a plain [[sheaf]]:
 
-#Definition#
+## Definition
 
 ...
 
-## coarse moduli space ##
+### Coarse moduli space 
 
 A **coarse moduli space** for a [[presheaf]] $(Sch/\mathbb{C})^{op} \to Set$ on complex [[scheme]]s is a [[scheme]] $M \in Sch/\mathbb{C}$ equipped with a morphism 
 
@@ -52,7 +57,7 @@ b) given $M'$ and $\Psi_{M'} : F \to h_{M'}$ then there exists unique $M \to M'$
 So a coarse moduli space is one that at least has the right underlying set of points as the _right_ moduli stack has: as long as we don't look at families but just at single things, it does give the right information. From the point of view of [[derived algebraic geometry]], the coarse moduli spaces are 0-truncations of derived moduli stacks when they exist.
 
 
-# "... because they have automorphisms." {#because}
+## "... because they have automorphisms." {#because}
 
 A widespread slogan is 
 
@@ -72,7 +77,7 @@ Notice well the two assumptions that were made to make this argument work:
 
    For instance [[vector space]]s do certainly have nontrivial [[automorphism]]s. A (topological, say) family of vector space is a [[vector bundle]]. So a naive application of the above argument might lead one to conclude that there cannot be a classifying space of vector bundles!
 
-   But of course it is a standard fact that there there are [[topological space]]s $\mathcal{B} U(n)$ such that [[homotopy]] classes of continuous maps $X \to \mathcal{B} U(n)$ classify isomorphism classes of rank-$n$ [[vector bundle]]s. But this means that the functor that assigns families of vector bundles to topological space is -- while not [[representable functor|represntable]] in [[Top]] -- representable in the [[homotopy category]] $Ho(Top)$
+   But of course it is a standard fact that there there are [[topological space]]s $\mathcal{B} U(n)$ such that [[homotopy]] classes of continuous maps $X \to \mathcal{B} U(n)$ classify isomorphism classes of rank-$n$ [[vector bundle]]s. But this means that the functor that assigns families of vector bundles to topological space is -- while not [[representable functor|representable]] in [[Top]] -- representable in the [[homotopy category]] $Ho(Top)$
 
    $$
      Rank n VectBund(X)/iso  \sime Hom_{Ho(Top)}(X, \mathcal{B} U()n)
@@ -89,7 +94,7 @@ Notice well the two assumptions that were made to make this argument work:
 
 
 
-#related entries#
+## Related entries
 
 * [[Hilbert scheme]]
 
