@@ -37,6 +37,8 @@ The second condition says manifestly that a quasi-category is a simplicial set i
 
 The equivalence of these two definitions is due to [[Andre Joyal]] and recalled as [[Higher Topos Theory|HTT, corollary 2.3.2.2]].
 
+An **[[algebraic quasi-category]]** is a quasi-category equipped with a _choice_ of inner horn fillers. While quasi-categories provide a [[geometric definition of higher categories]], algebraic quasi-categories provide an [[algebraic definition of higher categories]].
+
 ## Remarks
 
 * Compare with the definition of a [[Kan complex]] in which _all_ horns are required to have fillers: a quasi-category is a structure slightly weaker than a Kan complex. Indeed, while we can think of a Kan complex as an [[∞-groupoid]] (that is an $(\infty,0)$-category), in which _all_ morphisms are [[equivalence]]s, a quasi-category is a model for an [[(∞,1)-category]], in which only all [[k-morphism]]s for $k \geq 2$ are required to be [[equivalence]]s.  
@@ -51,7 +53,7 @@ The equivalence of these two definitions is due to [[Andre Joyal]] and recalled 
 
 ### Higher associahedra in quasi-categories
 
-While the geometric definition of [[(∞,1)-category]] in terms of quasi-categories eleganty captures all the higher categorical data automatically, it may be of interest in applications to explicitly extract the associators and higher associators encoded by this structure, that would show up any any algebraic definition of the same categorical structure. 
+While the geometric definition of [[(∞,1)-category]] in terms of quasi-categories eleganty captures all the higher categorical data automatically, it may be of interest in applications to explicitly extract the associators and higher associators encoded by this structure, that would show up in any [[algebraic definition of higher categories|algebraic definition of the same categorical structure]], such as [[algebraic quasi-categories]].
 
 For a discussion of this see
 
