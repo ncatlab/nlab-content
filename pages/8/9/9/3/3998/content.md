@@ -58,7 +58,7 @@ There is a simple geometric interpretation of the expression on the right side o
 Are these four identities the first four terms in a sequence that continues?
 
 +-- {: .query}
-[[Michael Hardy]]: A student in India whom I encountered via the internet told me that the problem of proving the "conditional identity" that $4\sin\alpha\sin\beta\sin\gamma = sin(2\alpha) + \sin(2\beta) + \sin(2\gamma)$ if $\alpha+\beta+\gamma=\pi$ recurs perennially on the joint entrance exam of the Indian Institutes of Technology.  Hence "well known".
+[[Michael Hardy]]:  A student in India whom I encountered via the internet told me that the problem of proving the "conditional identity" that $4\sin\alpha\sin\beta\sin\gamma = sin(2\alpha) + \sin(2\beta) + \sin(2\gamma)$ if $\alpha+\beta+\gamma=\pi$ recurs perennially on the joint entrance exam of the Indian Institutes of Technology.  Hence "well known".
 =--
 
 ##Inversion formulas
