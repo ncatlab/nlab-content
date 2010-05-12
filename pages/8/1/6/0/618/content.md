@@ -111,15 +111,33 @@ Frequently, though, these covering families will satisfy at least some of the sa
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and for each $i$, so is $\{h_{i j}:U_{i j} \to U_i\}_{j\in J_i}$, then $\{f_i h_{i j}:U_{i j}\to U\}_{i\in I, j\in U_i}$ is also a covering family.
 
 
-## Examples 
+## Examples {#Examples}
 
-* As remarked above, the families of inclusions such that $U = \bigcup_i U_i$ form a coverage on the poset $O(X)$ of opens in a topological space.  Sheaves for this coverage are the usual notion of sheaf on a space.  It is subcanonical.
+* For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]], the collection of [[open cover]]s is a subcanonical coverage on $Op(X)$. I.e. a covering family on an open subset $U \subset X$ is a collection of further open subsets $\{U_i \subset X\}$ such that their union (in $X$) is $U$: $\cup_i U_i = U$. 
 
-* On the category [[Top]], there is a coverage whose covering families are the jointly-surjective families of open embeddings.  We may also consider jointly-surjective families of local homeomorphisms.  There are analogues for [[Diff]].
+  This is the standard choice of coverage on $Op(X)$. Sheaves for this coverage are the usual notion of sheaf on a topologcal space.  
 
-* There are many interesting coverages on the category of [[scheme|schemes]]; it was these examples which originally motivated Grothendieck to consider the notion.
+  One can restrict to [[good open cover]]s here and obtain an 
+  equivalent coverage. 
 
-* On any category there is the _trivial coverage_ which has no covering families at all.  Every presheaf is a sheaf for this coverage (and in particular, it is subcanonical).  The corresponding Grothendieck coverage consists of all sieves that contain a [[split epimorphism]].  (Note that every presheaf is a sheaf for any family containing a split epic.)
+* Similarly on (any [[small category|small]] version of) the category [[Top]] or [[Diff]] or similar categories of topological spaces possibly with extra [[stuff, structure, property|structure]], [[open cover]]s form a coverage.
+
+  Another choice of coverage is given by taking covering families to 
+  consist of [[étale map]]s, i.e. of local [[homeomorphism]]s. Notice that
+  every open cover $\{U_i \to X\}$ consist of local homeomorphisms and
+  in addition gives the local homeomorphism 
+  out of the [[coproduct]] $\coprod_i U_i \to X$.
+
+* On [[Diff]] also 
+  [[good open cover]]s form an equivalent coverage.   
+  While good open covers are not stable under pullback in [[Diff]],
+  every pullback of a good open cover gives an open cover that may be
+  refined by a good open cover. This is all we need in the definition of
+  coverage.
+
+* There are many interesting coverages on the category of [[scheme|schemes]]; it was these examples which originally motivated Grothendieck to consider the notion. See [[fpqc topology]], etc.
+
+* On any [[category]] there is the _trivial coverage_ which has no covering families at all.  Every presheaf is a sheaf for this coverage (and in particular, it is subcanonical).  The corresponding Grothendieck coverage consists of all sieves that contain a [[split epimorphism]].  (Note that every presheaf is a sheaf for any family containing a split epic.)
 
 * On any [[regular category]] there is a coverage, called the _regular coverage_, whose covering families are the singletons $\{f:V\to U\}$ where $f$ is a [[regular epimorphism]].  It is subcanonical.
 
