@@ -35,7 +35,19 @@ Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the bi
 
 (Basically that's the diagonal trick of [[Cantor's theorem]]).
 
-However, as $I^I$ is compact, $a$ has a convergent subnet.  An explicit construction of a convergent subset is as follows.  Define a "digit choice" function $c \colon I \to \{0,1\}$ such that $c(p)$ occurs infinitely often in the binary expansion of $p$.  Consider the subset $K$ of $I \times \mathcal{P}(\mathbb{N})$ consisting of pairs $(p,A)$ where $A \subseteq c^{-1}(c(p))$.  We put a partial ordering on this family by $(p,A) \preceq (q,B)$ if $B \subseteq A$.  We define a map $K \to \mathbb{N}$ by $(p,A) \mapsto \min A$.  This is order-preserving and hence defines a subnet of $a$.  We claim that this subnet converges.  The point is that when viewing $a$ as a function $\mathbb{N} \to I^I$ then the composition $K \to \mathbb{N} \to I^I \to I$ is eventually constant for any projection $e_p \colon I^I \in I$.
+However, as $I^I$ is compact, $a$ has a convergent subnet.  An explicit construction of a convergent subset, given a cluster point $a$, is as follows.  A function $a \colon I \to I$ is a cluster point of $(a_n)$ if, for any $p_1, \dots, p_n \in I$ the set
+
+$$
+A(p_1,\dots,p_n) \coloneqq \{k \in \mathbb{R} : a_k(p_i) = a(p_i) \forall i\}
+$$
+
+is infinite.  We index our subnet by the family of finite subsets of $I$ and define the subnet function $\mathcal{F}(I) \to \mathbb{N}$ to be
+
+$$
+\{p_1,\dots,p_n\} \mapsto \min A(p_1,\dots,p_n)
+$$
+
+This is a convergent subnet.
 
 # Properties #
 
