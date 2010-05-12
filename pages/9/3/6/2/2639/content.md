@@ -14,7 +14,7 @@ Analogously there is also a version of the theorem for bi-cosimplicial abelian g
 
 Let $A : \Delta^{op} \times \Delta^{op} \to Ab$ be a [[bisimplicial object|bisimplicial abelian group]]. Write 
 
-* $C Diag A$ for the [[Moore complex]] of its diagonal simplicial group $Diag A : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{A}{\to} Ab$;
+* $C_\bullet diag A$ for the [[Moore complex]] of its diagonal simplicial group $diag A : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{A}{\to} Ab$;
 
 * $Tot (C A)$ for the [[total complex]] of the [[double complex]] obtained by applying the [[Moore complex]] functor on both arguments of $A$.
 
@@ -22,10 +22,10 @@ Let $A : \Delta^{op} \times \Delta^{op} \to Ab$ be a [[bisimplicial object|bisim
 ###### Theorem
 **(Dold-Puppe generalization of Eilenberg-Zilber)**
 
-There is a [[quasi-isomorphism]] (even a chain-homotopy equivalence)
+There is a [[quasi-isomorphism]] (even a chain-[[homotopy equivalence]])
 
 $$
-  C Diag (A) \stackrel{\simeq}{\to} Tot C (A)
+  R : C_\bullet diag (A) \stackrel{\simeq}{\to} Tot C (A)
   \,.
 $$
 
@@ -35,12 +35,12 @@ $$
 ###### Remark
 
 
-Notice (see the discussion at [[bisimplicial set]]) that the diagonal simplicial set is isomorphic to the realization 
+Notice (see the discussion at [[bisimplicial set]]) that the diagonal simplicial set is isomorphic to the [[nerve and realization|realization]] given by the [[coend]]
 
 $$
-  Diag F_{\bullet,\bullet} 
+  diag F_{\bullet,\bullet} 
   \simeq 
-   \int^{[n] \in \Delta} \Delta^n \cdot F_{n,\bullet}
+   \int^{[n] \in \Delta} \Delta^n \times F_{n,\bullet}
   \,.
 $$
 
@@ -58,14 +58,46 @@ Let $A : \Delta \times \Delta \to Ab$ be a bi-cosimplicial abelian group. And le
 There is a [[natural isomorphism]]
 
 $$
-  H^\bullet C Diag(A)
+  H^\bullet C^\bullet diag(A)
   \simeq
-  H^\bullet Tot C(A)
+  H^\bullet Tot C^\bullet(A)
 $$ 
 
 =--
 
+## Applications 
+
+### Homology groups of products of topological spaces {#ProdTopSp}
+
+This is the original motivating application.
+
+Let $X$ and $Y$ be two [[topological space]]s. Their [[chain homology]] complexes $C_\bullet(X)$ and $C_\bullet(Y)$ are the [[Moore complex]]es of the simplicial abelian groups $\mathbb{Z}[Sing X]$ and $\mathbb{Z}[Sing Y]$. So from the Dold-Puppe [[quasi-isomorphism]] $R$ from above we have a [[quasi-isomorphism]]
+
+$$
+  \begin{aligned}
+    C_\bullet(X \times Y)
+    & :=
+    C_\bullet( \mathbb{Z}[Sing X \times Sing Y] )
+    \\
+    &=
+    C_\bullet( diag \mathbb{Z}[Sing X_\bullet] 
+      \otimes \mathbb{Z}[Sing Y_\bullet] )
+    \\
+    & \stackrel{R}{\to_\simeq}
+    Tot C_\bullet(\mathbb{Z}[Sing X]) \otimes C_\bullet(\mathbb{Z}[Sing Y])
+    \\
+    & = Tot C_\bullet(X) \otimes C_\bullet(Y) 
+  \end{aligned}
+$$
+
+and hence in particular an isomorphism in cohomology.
+
+
 ## References
+
+The original reference is
+
+* [[Samuel Eilenberg]], J. Zilber, _On Products of Complexes_ , Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) .
 
 A weak version of the simplicial statement is in theorem 8.1.5 in 
 
@@ -73,7 +105,7 @@ A weak version of the simplicial statement is in theorem 8.1.5 in
 
 The stronger version as stated above is in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
-* Goerss-Jardine, _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss|Goerss]]-Jardine, _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 The cosimplicial version of the theorem appears as theorem A.3 in
 
