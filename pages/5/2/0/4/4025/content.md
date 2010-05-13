@@ -5,14 +5,18 @@
 
 ## Idea
 
-The term **functional** is used to denote [[function]]s whose [[domain]] is a [[space]] that itself is or has the typical size of a [[mapping space]], so that the functional is a "a function of functions".
+Functional is just a $k$-valued function on a $k$-vector space.
 
-Two (at least) special cases of this have achieved precise mathematical formulation with a rich theory:
+Physicists and engineers usually talk about functions in terms of variables; and when the variables, i.e. [[domain]] are spaces of functions itself they are usually warned. In that case the [[domain]] is a [[space]] that itself is or has the typical size of a [[mapping space]], so that the functional is a "a function of functions".
 
-1. in  [[functional analysis]] one studies _linear_ functionals: linear [[function]]s on [[topological vector space]]s. This includes for instance [[distribution]]s.
+Some special cases include
 
-1. in [[variational calculus]] one studies certain functions on spaces of [[section]]s of [[jet bundle]]s. These are the kind of functionals that appear in [[physics]] as [[action functional]]s.
+* in linear [[functional analysis]] one most often studies continuous _linear_ functionals: linear [[function]]s on [[topological vector space]]s. This includes for instance [[distribution]]s.
+
+* in [[variational calculus]] one studies functions on spaces of [[section]]s of [[jet bundle]]s. For example, they appear in [[physics]] as [[action functional]]s.
  
+* various discretised versions are interesting in finte geometries as well as numerical analysis
+
 ## In functional analysis
 
 ### Definition
