@@ -1,4 +1,25 @@
-In [[classical physics]], every [[classical mechanics|classical mechanical]] system (possibly even with infinitely many [[degree of freedom|degrees of freedom]], as for a [[classical field theory]]) has an **action functional** on the space of [[path|paths]] in the [[configuration space]].  This determines the laws of motion by the **action principle**: the motion of a particle corresponds to a path in configuration space which minimizes (or at least extremises) the action functional.
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+In [[physics]] the dynamics of a system may be encoded by a [[functional]] -- called the **action functional** -- on its [[space]] of [[path space object|paths]] in its [[configuration space]]:
+
+* in [[classical mechanics]] and [[classical field theory]] -- by the **action principle** or **principle of least action** -- the extrema of the action functional -- obtained by [[variational calculus]] and given by [[Euler-Lagrange equation]]s -- encode the physically observable configurations  ;
+
+* in [[quantum mechanics]] and [[quantum field theory]] the evolution of the [[quantum state]]s is encoded by the integral -- the [[path integral]] -- of the exponentiated action functional over the space of field configurations.
+
+For emphasis the description of dynamics by action functionals is called the **Lagrangean** approach. Another forumlation of dynamics in physics that does not involve an action functional explicitly is [[Hamiltonian mechanics]] on [[phase space]]. At least in certain classes of cases the relation and equivalence of both approaches is understood. Generally the formulation of [[quantum field theory]] in terms of action functionals suffers from a lack of precise understanding of what the [[path integral]] over the action functional really means. 
+
+
+## Action functional as a local functional
 
 
 The action functional is normally obtained by integrating the [[Lagrangean]] function along the path; in the case of a continuum system, the Lagrangean function is obtained by integrating the Lagrangean density on space.  For a more manifestly [[relativity|relativistic]] formulation, we may obtain the action functional by integrating the Lagrangean density on [[spacetime]].
@@ -10,4 +31,3 @@ The action functional is normally obtained by integrating the [[Lagrangean]] fun
 The formulation of (3) above is still not manifestly coordinate indepdendent.  However, $\mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z\,\mathrm{d}t$ is simply the [[volume form]] on spacetime and $\dot{q}$ is merely one choice of coordinate on [[state space]] and could just as easily be replaced by a derivative with respect to any timelike coordinate on spacetime (or drop coordinates altogether).
 
 
-The [[path integral]] version of [[quantization]] emphasises the Lagrangean formalism and path integrals.  Most other approaches to quantization favor the Hamiltonian approach and [[phase space]].)  In the path integral approach, the amplitudes in [[quantum field theory]] are expressed in terms of the [[path integral]] of the action functional over the space of paths in the space of field configurations.
