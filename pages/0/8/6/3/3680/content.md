@@ -1,4 +1,9 @@
-[[!redirects cofinal (∞,1)-functor]]
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -174,3 +179,6 @@ This is due to [[Andre Joyal]]. A proof appears as [[Higher Topos Theory|HTT, pr
 Section 4.1 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+
+[[!redirects cofinal (∞,1)-functor]]
