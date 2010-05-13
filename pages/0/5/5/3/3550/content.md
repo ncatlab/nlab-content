@@ -1,13 +1,18 @@
 
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A **topological localization** is a special kind of left exact [[localization of an (∞,1)-category]]: 
+A **topological localization** is a left exact [[localization of an (∞,1)-category]] in the sense of [[reflective sub-(∞,1)-categories]] at a collection of [[monomorphism in an (∞,1)-category|monomorphism]].
 
-a topological localization of an [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is precsisely a localization at [[Cech cover]]s for a given [[Grothendieck topology]] on $C$, yielding the corresponding [[(∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]].
+A topological localization of an [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is precisely a localization at [[Cech cover]]s for a given [[Grothendieck topology]] on $C$, yielding the corresponding [[(∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]].
 
 $$
   Sh_{(\infty,1)}(C) \hookrightarrow PSh_{(\infty,1)}(C)
@@ -20,6 +25,10 @@ Notice that in general a topological localization is not a [[hypercomplete (∞,
 
 
 ## Definition
+
+Recall the definition and [properties of exact reflective sub-(∞,1)-categories](http://ncatlab.org/nlab/show/reflective+sub-(infinity%2C1)-category#ExactLocalizations). Roughly, a reflective sub $(\infty,1)$-category is obtained by localization at a collection $S$ of morphisms, and the embedding is _exact_ if this collection of morphisms is sufficiently stable under forming pullbacks.
+
+We now define such localizations where the collection $S$ consists of _monomorphisms_ .
 
 +-- {: .un_def }
 ###### Definition
@@ -58,7 +67,7 @@ $$
 
 which we may regard as a [[simplicial presheaf]] and hence as an object of $PSh_{(\infty,1)}(Diff)$.
 
-Then for $V$ any other manifold, we have that
+Then for $V$ any other [[manifold]], we have that
 
 $$
   PSh_{(\infty,1)}(V, Y(U))
@@ -66,13 +75,13 @@ $$
 
 is the [[∞-groupoid]] whose
 
-* objects are maps $V \to X$ that factor through one of the $U_i$;
+* [[object]]s are maps $V \to X$ that factor through one of the $U_i$;
 
-* there is a unique morphism between two such maps precisely if they factor through a double intersection $U_{i} \cap U_j$;
+* there is a unique [[morphism]] between two such maps precisely if they factor through a double intersection $U_{i} \cap U_j$;
 
 * and so on.
 
-In the [[homotopy category of an (∞,1)-category|homtoopy category]] of [[∞-groupoid]]s, this is equivalent to the [[0-groupoid]]/[[set]] of those maps $V \to X$ that factor through one of the $U_i$. This is a subset the 0-groupoid of $PSh_{(\infty)}(V,X)$, hence a [[direct sum]]mand.
+In the [[homotopy category of an (∞,1)-category|homtopy category]] of [[∞-groupoid]]s, this is equivalent to the [[0-groupoid]]/[[set]] of those maps $V \to X$ that factor through one of the $U_i$ (the). This is a subset the 0-groupoid of $PSh_{(\infty)}(V,X)$, hence a [[direct sum]]mand.
 
 =--
 
@@ -83,16 +92,18 @@ In the [[homotopy category of an (∞,1)-category|homtoopy category]] of [[∞-g
 Let $C$ be a [[presentable (∞,1)-category]] and 
 
 $$
-  D \hookrightarrow C
+  D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C
 $$
 
-a [[localization of an (∞,1)-category]] with respect to a [[localization of an (∞,1)-category|strongly saturated class]] $\bar S$ of morphisms in $C$ such that
+a [[reflective sub-(∞,1)-category]] that is obtained (as discussed there) by localization at a [[localization of an (∞,1)-category|strongly saturated class]] $\bar S$ of morphisms in $C$.
 
-* there is a subclass $S \subset \bar S$ of monomorphisms that generates $\bar S$;
+If this class $\bar S$ satisfies 
 
-* under [[pullback]] in $C$ elements in $\bar S$ pull back to elements in $\bar S$.
+* there is a subclass $S \subset \bar S$ of _monomorphisms_ that generates $\bar S$;
 
-Then $D \hookrightarrow C$ is called a **topological localization** of $C$.
+* under [[pullback]] in $C$ elements in $\bar S$ pull back to elements in $\bar S$;
+
+then $D \hookrightarrow C$ is called a **topological localization** of $C$.
 
 =--
 
@@ -105,7 +116,7 @@ This is [[Higher Topos Theory|HTT, def. 6.2.1.5]]
 
 Let $C$ be an [[(∞,1)-site]]. 
 
-Let $S$ be the collection of all monomorphisms $U \to Y(c)$ that correspond to covering [[sieve]]s in $C$. Say an object $C \in PSh_{(\infty,1)}(C)$ in the [[(∞,1)-category of (∞,1)-presheaves]] on $C$ is an **$(\infty,1)$-sheaf** if it is an $S$-[[local object]] (i.e. if it satisfies [[descent]] along all morphisms $U \to Y(c)$ coming from covering sieves).
+Let $S$ be the collection of all monomorphisms $U \to c$ to objects $c \in Y$ (under [[(infinity,1)-Yoneda lemma|Yoneda embedding]]) that correspond to [[covering]] [[sieve]]s in $C$. Say an object $c \in PSh_{(\infty,1)}(C)$ in the [[(∞,1)-category of (∞,1)-presheaves]] on $C$ is an **$(\infty,1)$-sheaf** if it is an $S$-[[local object]] (i.e. if it satisfies [[descent]] along all morphisms $U \to c$ coming from covering sieves).
 
 Write
 
@@ -113,11 +124,12 @@ $$
   Sh_{(\infty,1)}(C)  \hookrightarrow PSh_{(\infty,1)}(X)
 $$
 
-for the full subcategory spanned by $(\infty,1)$-sheaves.
+for the [[reflective sub-(∞,1)-category]] on these $(\infty,1)$-sheaves.
 
 =--
 
 This is [[Higher Topos Theory|HTT, def. 6.2.2.6]]
+
 
 ## Properties
 
@@ -125,7 +137,7 @@ This is [[Higher Topos Theory|HTT, def. 6.2.2.6]]
 ###### Proposition
 **sheaves form a topological localization**
 
-Let $C$ be a small [[(∞,1)-category]] with a [[Grothendieck topology]]. Then the inclusion
+Let $C$ be a [[small (∞,1)-category]] with a [[Grothendieck topology]]. Then the inclusion
 
 $$
   Sh_{(\infty,1)}(C)  \hookrightarrow PSh_{(\infty,1)}(X)
@@ -135,10 +147,13 @@ from above is a topological localization
 
 =--
 
+This is [[Higher Topos Theory|HTT, Lemma 6.2.2.7]].
+
+
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, Lemma 6.2.2.7]]
+...
 
 =--
 
@@ -146,15 +161,18 @@ This is [[Higher Topos Theory|HTT, Lemma 6.2.2.7]]
 ###### Proposition
 **all topological localizations arise this way**
 
-Let $C$ be a small [[(∞,1)-category]]. There is a bijection between [[Grothendieck topology|Grothendieck topologies]] on $X$ and equivalence classes of topological localizations of $PSh_{(\infty,1)}(C)$.
+Let $C$ be a [[small (∞,1)-category]]. There is a bijection between [[Grothendieck topology|Grothendieck topologies]] on $X$ and equivalence classes of topological localizations of $PSh_{(\infty,1)}(C)$.
 
 
 =--
 
+This is [[Higher Topos Theory|HTT, prop. 6.2.2.9]].
+
+
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, prop. 6.2.2.9]]
+...
 
 =--
 
@@ -167,10 +185,13 @@ Let $C$ be a [[presentable (∞,1)-category|presentable]] [[(n,r)-category|(n,1)
 
 =--
 
+This is [[Higher Topos Theory|HTT, prop. 6.4.3.9]].
+
+
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, prop. 6.4.3.9]].
+...
 
 =--
 
@@ -183,3 +204,8 @@ This means that every [[(n,1)-topos]] of $n$-sheaves is a localization at [[Cech
 that a [[simplicial presheaf]] that satisfies [[descent]] on all [[Cech cover]]s already satisfies descent for all _bounded_ hypercovers. If the simplicial presheaf is $n$-truncated for some $n$, then it won't "see" $k$-bounded hypercovers for large enough $k$ anyway, and hence it follows that truncated simplicial presheaces that satisfy Cech descent already satisfy hyperdescent. 
 
 This is in line with the above statement that for $n$-toposes with finite $n$ there is no distinction between Cech descent and hyperdescent. The distinction becomes visible only for untruncated $\infty$-presheaves.
+
+## References
+
+
+[[!redirects topological localizations]]
