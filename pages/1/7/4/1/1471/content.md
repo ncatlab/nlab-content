@@ -1,6 +1,16 @@
-#Definition#
 
-Let $\mathrm{Top}$ be the category of [[compactly generated space]]s and continuous maps, equipped with a [[Grothendieck topology]] given by usual open covers of topological spaces. This topology is subcanonical. Consider the 2-category $\mathrm{TopStack}$ of 1-[[stack]]s of [[groupoid]]s on $\mathrm{Top}$; by [[Yoneda embedding|Yoneda]] $\mathrm{Top}$ is a full [[subcategory]]. 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+A **topological stack** is a [[geometric stack]] on the [[site]] [[Top]].
+
+
+## Definition
+
+Let [[Top]] be the category of [[compactly generated space]]s and continuous maps, equipped with a [[Grothendieck topology]] given by usual open covers of topological spaces. This topology is subcanonical. Consider the 2-category $\mathrm{TopStack}$ of 1-[[stack]]s of [[groupoid]]s on $\mathrm{Top}$; by [[Yoneda embedding|Yoneda]] $\mathrm{Top}$ is a full [[subcategory]]. 
 
 By analogy with the case of [[algebraic stack]]s one says that a morphism of 1-stacks $f:X\to Y$ in $\mathrm{TopStack}$ is a **[[representable morphism of stacks]]** if for any morphism of 1-stacks $T\to Y$ from a (stack associated to a) topological space $T$ to $Y$ the pullback $T\times_Y X$ is isomorphic to (a stack associated to) a topological space. 
 
@@ -8,7 +18,7 @@ We say that a property $P$ of morphisms is *local on the target* if satisfaction
 
 
 
-Following Noohi, we say that 
+Following [[Behrang Noohi]], we say that 
 
 +-- {: .un_defn}
 ###### Definition
@@ -16,11 +26,13 @@ Following Noohi, we say that
 A 1-[[stack]] of [[groupoid]]s over $\mathrm{Top}$ having a representable epimorphism is a __pretopological stack__. Any map from a topological space $S$ to a pretopological stack $X$ is representable and the diagonal $X\to X\times X$ is representable as well. The pretopological stack is called __topological stack__ if the chart can be chosen to belong to a class of "local fibrations"; there are axioms which the class of local fibrations have to satisfy; there are several natural choices of this class which modify the variant of topological stacks considered. 
 =--
 
-#References#
+## References
 
-Articles by Behrang Noohi on this topic:
+Articles by [[Behrang Noohi]] on this topic:
 
 * Foundations of Topological Stacks I, [pdf] (http://arxiv.org/pdf/math.AG/0503247.pdf)
 * [Homotopy types of topological stacks] (http://front.math.ucdavis.edu/0808.3799)
 * [Mapping stacks of topological stacks](http://front.math.ucdavis.edu/0809.2373) 
 * K. Behrend, G. Ginot, B. Noohi, P. Xu, [String topology for stacks](http://front.math.ucdavis.edu/0712.3857)
+
+[[!redirects topological stacks]]
