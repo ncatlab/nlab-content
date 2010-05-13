@@ -40,3 +40,4 @@ Whenever $F$ is a left adjoint of $U$, we have that $U$ is a [[right adjoint]] o
 
 
 [[!redirects left adjoint -- history]]
+[[!redirects left adjoints]]
