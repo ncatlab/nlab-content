@@ -1,8 +1,13 @@
 
+
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
 </div>
 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ## Idea
 
@@ -26,7 +31,7 @@ There are other sites on wich one may want a smooth $\infty$-groupoid to be mode
 
 The key difference of $\mathbb{L}$ to [[Diff]] is that the former contains smooth [[infinitesimal space]]s. Therefore an $\infty$-Lie groupoid modeled on $\mathbb{L}$ may have spaces of [[k-morphism]]s that have infinitesimal extension in some direction. Notably one obtains a notion of $\infty$-Lie groupoids for which _all $k$-morphisms are infinitesimal_ in a precise sense. It sturns out that such **infinitesimal $\infty$-Lie groupoids** may be identified with [[∞-Lie algebroid]]s: generalizations to [[higher category theory]] of [[Lie algebra]]s and [[Lie algebroid]]s.
 
-## Relation between $\infty$-stacks on $Diff$ and on $CartSp$
+## Relation between $\infty$-groupoids modeled on $Diff$ and on $CartSp$
 
 In the literature on [[Lie groupoid]]s and [[differentiable stack]]s, these are traditionally conceived as [[stack]]s on the [[site]] [[Diff]] of all [[smooth manifold]]s. As mentioned above, for the purpose of encoding a smooth structure on a [[groupoid]] the category [[Diff]] regarded as a category of test objects is larger than necessary. After all, every manifold is, by definition, itself patched together from [[Cartesian space]]s, and passing to sheaves or stacks on a site really just means that one allows objects patched together from the objects in the site, so that one could just as well take the site to be just that of [[Cartesian space]]s in the first place.
 
@@ -41,18 +46,182 @@ induced from the [[full and faithful functor]] $CartSp \hookrightarrow Diff$. Un
 To see this, simply notice that every [[smooth manifold]] $X$ admits a [[good cover]] $\{U_i \to X\}$, where each $U_i$ is [[diffeomorphism|diffeomorphic]] to a [[Cartesian space]] (essentially by definition of [[manifold]]). By the [[sheaf]] condition, the value $A(X)$ of a sheaf on $X$ is determined by its value on these $U_i$. Hence the sheaf on [[Diff]] is already entirely determined by its restriction to [[CartSp]].
 
 
-An analogous discussion holds for $\infty$-stacks on these sites. To see what is going on, the following standard example should be a helpful illustration:
+An analogous discussion holds for $\infty$-stacks on these sites. To see what is going on, the following standard example should be a helpful illustration
+
+### Example: the smooth groupoid $\mathbf{B}G$
+
+Let $G$ be a [[Lie group]]. We shall write
+
+* $\mathbf{B}G : \mapsto G TrivBund(U) := (Hom_{Diff}(U,G) \stackrel{\to}{\to} *)$ ;
+
+* $G Bund : X \mapsto G Bund(X)$;
+
+for the functorial assignments of groupoids to smooth manifolds, where in the last case we assign the groupoid of $G$-[[principal bundle]]s and in the  first case the groupoid of _trivial_ $G$-principal bundles.
+
+Now let $X$ be any smooth manifold. We want to compute the groupoid of smooth $G$-principal bundles as the [[hom-object]] $X \to \mathbf{B}G$ in the [[(∞,1)-category of (∞,1)-sheaves]] on [[Diff]] or [[CartSp]]. In order to present that [[(∞,1)-category]], we shall make use of its [[model category]]-theoretic presentation in terms of the [[model structure on simplicial presheaves]] $sPSh(C)_{proj,loc}$. Then in order to compute the [[derived hom-space]] in question, we need to 
+
+1. find a cofibrant replacement $Y \stackrel{\simeq}{\to} X $ of $X$;
+
+1. find a fibrant replacement $A \stackrel{\simeq}{\to} B$ of $A$.
+
+1. compute the ordinary [[enriched functor category|enriched hom-object]]
+
+   $\mathbf{H}(X, \mathbf{B}G) = sPSh(Y,B) $
+
+The point now is that the kind of work one has to do to achieve this differs from $sPSh(CartSp)_{proj,loc}$ and $sPSh(Diff)_{proj,loc}$. But the outcome is the same:
+
+1. The approach traditionally used in the literature is, essentially, this: 
+   in $sPSh(Diff)_{proj,loc}$ the manifold $X$ is a 
+   [[representable functor|representable]] object, of course. This means
+   it is already cofibrant and we can simply take $Y = X$. 
+
+   On the other hand, in this model structure the presheaf $\mathbf{B}G$ is 
+   far from being fibrant. But $G Bund$, the closure of $\mathbf{B}G$ under
+   [[descent]], is of course its fibrant replacement, and the
+   canonical inclusin morpism
+   $\mathbf{B}G \to G Bund$ is a weak equivalence.
+
+   So finally we can compute 
+
+   $$
+     \mathbf{H}(X,\mathbf{B}G) = sPSh_{Diff}(X,G Bund)
+   $$
+
+   simply by the [[Yoneda lemma]] as
+
+   $$
+     \cdots \simeq G Bund(X)
+     \,.
+   $$
+
+   In conclusion here no work had to be done on the cofibrant replacement,
+   while lots of work has to be done on the fibrant replacement.
+   Notice that in order to compute the groupoid of $G$-principal bundles
+   on just $X$, we here first computed the corresponding groupoid
+   for each and every manifold, in that we first computed the full 
+   stack $G Bund$. (Of course in this simple example this is not
+   really a big deal, but it should be clear that for $G$ generalized
+   to any smooth [[∞-group]] and hence $G Bund$ to the $\infty$-stack
+   of $G$-[[principal ∞-bundle]]s, it does become quite a big deal).
+
+1. Now consider the same situation, but in $sPSh(CartSp)_{proj,loc}$. 
+   Here the technicalities reverse:
+
+   Now $X$ is (in general) no longer representable, hence it
+   is in general no longer cofibrant. We need to pass to a cofibrant
+   replacement $Y \to X$ instead. Such can be obtained for instance
+   by taking $Y$ to be the [[Cech nerve]] of a [[good cover]] of $X$.
+
+   On the other hand, now $\mathbf{B}G$ is already fibrant! Because the
+   fibrancy condition is that it satisfies [[descent]] along 
+   [[Cech nerve]]s $C(\{U_i\})$ of [[cover]]s 
+   $\{U_i \to U\}$ of objects $U$ in [[CartSp]].  But since every
+   $G$-principal bundle on a [[Cartesian space]] is necessarily equivalent
+   to the trivial one, we have that
+ 
+   $$
+     \mathbf{B}G(U) 
+     =
+     G TrivBund(U)
+     \simeq
+     G Bund(U)
+     \simeq
+     sPSh_{CartSp}(C(\{U_i\}), \mathbf{B}G)     
+   $$
+
+   because $U$ is topologically contractible. So $\mathbf{B}G$ _does_
+   satisfy descent -- not on [[Diff]], but on [[CartSp]].
+
+   In conclusion, here we may compute the hom-object as
+
+   $$
+     \mathbf{H}(X,\mathbf{B}G)
+     \simeq
+     sPSh_{CartSp}(C(\{U_i\}), \mathbf{B}G)
+     \,.
+   $$
+
+   On the right this is just the [[Cech cohomology]] of $X$ with values
+   in $\mathbf{B}G$ and hence indeed
+
+   $$
+     \simeq G Bund(X)
+     \,.
+   $$
+
+### Properties of the $(\infty,1)$-toposes
+
+
+One useful aspect of using the site [[CartSp]] to model smooth $\infty$-groupoids is that it is a _site of topologically contractible objects_ . Using this one can show that 
+
+$$
+  \mathbf{H} = Sh_{(\infty,1)}(CartSp) \simeq 
+  (sPSh(CartSp)_{proj, loc})^\circ
+$$
+
+is a [[locally contractible (∞,1)-topos]] and one can explicitly construct models for the corresponding [[schreiber:path ∞-groupoid]]-functor $\Pi : \mathbf{H} \to \infty Grpd$.
 
 ...
 
 
 
+## Strict smooth $\infty$-groupoids
+
+
+Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in sub-$(\infty,1)$-categories of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoid.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
+
+One well-known such notion is given by the [[Dold-Kan correspondence]]. This identifies [[chain complex]]es of [[abelian group]]s with strict and strictly [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] $\infty$-groupoids.
+
+Dropping the condition on symmetric monoidalness we obtain a more general such inclusion, a kind of non-abelian Dold-Kan correspondence: 
+
+the identification of [[crossed complex]]es of groupoids as precisely the [[strict omega-groupoid|strict ∞-groupoid]]s. This has been studied in particular in [[nonabelian algebraic topology]].
+
+So we have a sequence of inclusions
+
+$$
+  sAb
+  \simeq
+  Ch_\bullet(Ab)^+
+  \hookrightarrow
+  CrsdCplx
+  \simeq Str \omega Grpd
+  \stackrel{N}{\hookrightarrow}
+  KanCplx
+  \simeq
+  \infty Grpd
+$$
+
+of strict $\infty$-groupoids into all $\infty$-groupoids.
+
+Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at some point through the above inclusion are the following.
+
+* **restriction to abelian sheaf cohomology** -- Using the fact that the objects of $Sh_{(\infty,1)}(CartSp)$ are modeled by [[simplicial presheaves]] symmetric monoidal $\infty$-Lie groupoids are identified under the [[nLab:Dold-Kan correspondence]] with $\mathbb{N}$-graded [[nLab:chain complex|chain complexes]] of sheaves. To these the rich set of tools for [[abelian sheaf cohomology]] apply. 
+
+* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]]. This is described at 
+
+  * [[Verity on descent for strict omega-groupoid valued presheaves]].   
+
+## References
+
+in the (unfinished but noteworthy) notes
+
+* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+
+$\infty$-stacks on [[Diff]] considered, but there with an emphasis of the [[localization of an (infinity,1)-category]] to those that are in fact homotopy invariant and hence collapse to discrete $\infty$-groupoids. See also [[topological infinity-groupoid]].
+
+
 
 [[!redirects Lie infinity-groupoids]]
+[[!redirects Lie-infinity-groupoid]]
+
 [[!redirects infinity-Lie-groupoid]]
 [[!redirects infinity-Lie-groupoids]]
+
+[[!redirects infinity-Lie groupoid]]
+[[!redirects infinity-Lie groupoids]]
+
 [[!redirects Lie ∞-groupoid]]
 [[!redirects Lie ∞-groupoids]]
+
 [[!redirects ∞-Lie groupoid]]
 [[!redirects ∞-Lie groupoids]]
-[[!redirects Lie-infinity-groupoid]]
