@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -26,7 +25,6 @@ and many others.
 
 In general, if $U: C \to D$ is thought of as a forgetful functor and $F: D \to C$ is its left adjoint, then $F(x)$ is the __free $C$-object__ on an object $x$ of $D$.
 
+More generally, even if the entire left adjoint $F$ doesn't exist, a [[free object]] on $x$ can be defined using a universal property, as "what the value of $F(x)$ would be if $F$ existed."  Conversely, if a free object on $x$ exists for *all* $x\in D$, then the left adjoint $F$ can be assembled from them.
 
-[[!redirects free object]]
-[[!redirects free objects]]
 [[!redirects free construction]]
