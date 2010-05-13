@@ -1,3 +1,16 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
 A [[coproduct]] $a+b$ in a [[category]] is **disjoint** if
 
 1. the coprojections $a\to a+b$ and $b\to a+b$ are [[monomorphism|monic]], and 
@@ -22,6 +35,14 @@ An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to 
 
 Having disjoint (finite) coproducts is half of the condition for a category to be [[extensive category|extensive]].  Having all small disjoint coproducts is one of the conditions in Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]].
 
+
+## Generalizations ##
+
+A coproduct $a+b$ in a [[bicategory]] is disjoint if $a\to a+b$ and $b\to a+b$ are [[full and faithful functor|fully faithful]] and their [[comma object]] is initial.
+
+
+## Discussion
+
 +--{: .query}
 David Roberts says: This is probably a stupid question, but does the fact a coproduct $A\coprod B$ is disjoint imply that any map to it factors through either $A$ or $B$?  
 
@@ -29,10 +50,6 @@ Mike: No, it doesn't; consider the identity map of $A\coprod B$.  What is true i
 
 David R: Of course. And the intended application was something like a superextensive site - forming a Grothendieck pretopology with only singleton covering families from general covering families - so my question is more than answered.
 =--
-
-## Generalizations ##
-
-A coproduct $a+b$ in a [[bicategory]] is disjoint if $a\to a+b$ and $b\to a+b$ are [[full and faithful functor|fully faithful]] and their [[comma object]] is initial.
 
 
 [[!redirects disjoint coproducts]]
