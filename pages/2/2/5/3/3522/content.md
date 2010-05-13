@@ -19,13 +19,13 @@ Here is an overview of the relation between [[homotopy theory]]/[[∞-groupoid]]
 > based on a message by [[André Joyal]] to the Category Theory Mailing list, May 12, 2010
 
 Write $k[ [x] ]$ for the [[ring]] of [[formal power series]] in one
-variable over a [[field]] $k$. The ring $k[ [x] ]$ bears some ressemblances
+variable over a [[field]] $k$. The ring $k[ [x] ]$ bears some resemblances
 with the category of [[pointed object|pointed]] [[homotopy type]]s (= pointed spaces up to [[weak homotopy equivalence]]s). The category of pointed
 homotopy types is a ring (the product is the [[smash product]]
 and the sum is the [[wedge]]).
 
 
-The following disctionary indicates what the correspondence between the two subjects is.
+The following dictionary indicates what the correspondence between the two subjects is.
 
 * $k$ $\stackrel{corresponds to}{\mapsto}$ the category of [[pointed set]]s;
 
@@ -178,6 +178,38 @@ The following disctionary indicates what the correspondence between the two subj
 
 
 ...
+
+From a blog [discussion](http://golem.ph.utexas.edu/category/2008/12/smooth_structures_in_ottawa.html#c020698)
+
+Arone and Kankaanrinta in [The Goodwillie tower of the identity is a logarithm](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.8306) write
+
+>The Goodwillie tower of the identity...is a tower of functors and natural transformations, which starts with stable homotopy and converges to unstable homotopy. (p. 1)
+
+>...the Goodwillie tower is an inverse to stable homotopy in the same way as logarithm is an inverse to exponential. (p. 1)
+
+>It is the point of this paper that the Goodwillie tower is the homotopy theoretic analog of logarithmic expansion, rather than of Taylor series. (p. 6)
+
+What's going on, they say, is like finding a function of the form $a^{x - 1}$ which best approximates $x$. This is when $a = e$.
+
+The functor from spaces to spaces which sends $X$ to 
+
+$$
+\Omega^{\infty}\Sigma^{\infty} X = colim \Omega^n \Sigma^n X
+$$
+
+sends coproducts to products and is supposed to be like $e^{x - 1}$.
+(The "$-1$" comes about from issues to do with basepoints.)
+
+A homogeneous linear functor is defined to be one sending coproducts
+to products, so it is like an exponential.  Compared to an exponential, the identity functor is like a logarithm, so it has a non-trivial Taylor series.
+
+>...our point of view is that stable homotopy is analogous to the function $e^{x - 1}$ rather than to a linear function, and the Goodwillie tower is an infinite product, rather than an infinite sum, namely it is analogous to the product
+
+$$
+e^{x - 1} \cdot e^{-\frac{(x - 1)^2}{2}} \cdot e^{-\frac{(x - 1)^3}{3}} \ldots = e^{ln(1 + (x - 1))} = x. 
+$$
+
+>(p. 2)
 
 ## References
 
