@@ -26,7 +26,7 @@ The complementary notion of $n$-truncated object  is that of an [[n-connected ob
 
 An [[∞-groupoid]] $A \in \infty Grpd$ is **$n$-truncated** for $n \in \mathbb{N}$ if it is an [[n-groupoid]]:
 
-Precisely: in the model of [[∞-groupoid]]s given by [[Kan complex]]es $A$ is **$n$-truncated** if, the [[simplicial homotopy group]]s $\pi_k(A,x)$ are trivial for all $x$ and all $k \gt n$.
+Precisely: in the model of [[∞-groupoid]]s given by [[Kan complex]]es $A$ is **$n$-truncated** if the [[simplicial homotopy group]]s $\pi_k(A,x)$ are trivial for all $x$ and all $k \gt n$.
 
 =--
 
