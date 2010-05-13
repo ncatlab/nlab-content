@@ -412,6 +412,12 @@ After _Pursuing Stacks_, apparently the first to publish a detailed formalizatio
 
 * [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
 
+This has a followup construction in
+
+* [[Bertrand Toen]] and [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ , Proceedings of the
+Program Stacks, Intersection theory and Non-abelian Hodge Theory, MSRI, Berkeley, January-May 2002 ([arxiv:math/0212330](http://arxiv.org/abs/math/0212330)).
+
+
 Very similar constructions and statement then appeared in 
 
 * [[Pietro Polesello]] and [[Ingo Waschkies]], _Higher monodromy_ , Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150 ([pdf](http://www.intlpress.com/HHA/v7/n1/a7/v7n1a7.pdf)) 
@@ -634,6 +640,13 @@ $$
   \,.
 $$
 
+In 
+
+* [[Bertrand Toen]] and [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ , Proceedings of the
+Program Stacks, Intersection theory and Non-abelian Hodge Theory, MSRI, Berkeley, January-May 2002 ([arxiv:math/0212330](http://arxiv.org/abs/math/0212330)).
+
+this is discussed in the context of [[Segal-topos]]es.
+
 Very similar statements are discussed in
 
 * [[Mike Shulman]], _Parametrized spaces model locally constant homotopy sheaves_ ([arXiv:0706.2874](http://arxiv.org/abs/0706.2874))
@@ -641,7 +654,6 @@ Very similar statements are discussed in
 and, building on that, in example 1.8 of
 
 * [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
-
 
 A variant of this statement -- more general in one respect, less general in another -- appears in 
 
