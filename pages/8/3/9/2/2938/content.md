@@ -29,7 +29,7 @@ $$
 
 Write $\Omega^0(R/k) := R \simeq HH_0(R,R)$.
 
-For $n \geq 2$ Write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $Omega(R/k)$ with itself: the degree $n$-K&#228;h&#246;er-differentials.
+For $n \geq 2$ Write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $Omega(R/k)$ with itself: the degree $n$-K&#228;hler forms.
 
 +-- {: .num_theorem }
 ###### Theorem
