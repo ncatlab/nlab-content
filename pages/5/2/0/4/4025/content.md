@@ -17,7 +17,7 @@ Two (at least) special cases of this have achieved precise mathematical formulat
 
 ### Definition
 
-A **functional** is a map $V \to k$ in $Vect_k$ from a [[vector space]] to the ground [[field]] $k$. In the case that $V$ is a [[TVS]], this is necessarily a continuous map.
+A **functional** is a map $V \to k$ in $Vect_k$ from a [[vector space]] to the ground [[field]] $k$. In the case that $V$ is a [[TVS]], this is usually required to be a _continuous_ map (and so a map in an appropriate category of topological vector spaces).
 
 ### Remarks
 
