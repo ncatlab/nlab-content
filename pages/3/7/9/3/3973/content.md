@@ -40,8 +40,18 @@ fix a ground [[field]] $k$.
 
 Here we think of an algebra object $A \in (n-1)Vect$ as a basis for the $n$-vector space which is the $(n-1)$-category $A Mod$.
 
-
 With this defintion we have that $2 Vect$ is the [[2-category]] of $k$-[[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
+
+More generally, let $k$ here be a [[ring spectrum]]. Set
+
+
+* $(\infty,0)Vect_k := k$ -- a [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]];
+
+* $(\infty,1)Vect_k := k Mod$ the [[(∞,1)-category]] of modules over that ring spectrum;
+
+* $(\infty,1)Vect_k := k Mod$ the [[symmetric monoidal (∞,1)-category]] of modules over that ring spectrum;
+
+* $(\infty,n)Vect_k := (\infty,n-1) Mod$ the [[symmetric monoidal (∞,n)-category]] of modules over $(\infty,n-1)Mod$.
 
 ## $n$-Representations
 
