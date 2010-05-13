@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents
 {:toc}
@@ -127,7 +132,7 @@ A set of lecture notes on the [[model structure on simplicial presheaves]] with 
 * [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
 
 
-Details modeled on [[simplicially enriched category|simplicial categories]] have been developed in the series of articles by To&#235;n and Vezossi.
+Details modeled on [[simplicially enriched category|simplicial categories]] have been developed in the series of articles by To&euml;n and Vezossi.
 
 This article generalizes the notion of [[site]] and [[model structure on simplicial presheaves]] from 1-categorical sites to [[simplicially enriched category|simplicial sites]] and hence to a [[model structure on SSet-enriched presheaves]]:
 
