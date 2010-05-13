@@ -218,7 +218,7 @@ In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this
 
 ## Examples
 
-### Invariant polynomials on Lie algebras 
+### On Lie algebras 
 
 For $\mathfrak{a} = \mathfrak{g}$ an ordinary [[Lie algebra]], the above reproduces the ordinary definition of invariant polynomials on Lie algebras.
 
@@ -228,9 +228,11 @@ For instance for $\mathfrak{g}$ a semisimple Lie algebra with Killing form $P = 
 
 * the fact that it is closed under $d_{W(\mathfrak{g})}$ is precisely the statement that it is invariant.
 
-### On semisimple Lie algebra {#SemisimpLie}
+### On semisimple Lie algebras {#SemisimpLie}
 
-### Invariant polynomials on the tangent Lie algebroid
+...
+
+### On tangent Lie algebroids
 
 For $X$ a [[smooth manifold]], and invariant polynomial on the [[tangent Lie algebroid]] $\mathfrak{a} = T X$ is precisely a closed [[differential form]] on $X$.
 
