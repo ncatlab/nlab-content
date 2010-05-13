@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 A lax-idempotent 2-monad encodes a certain kind of [[stuff, structure, property|property-like structure]] that a category, or more generally an object of a 2-category, can carry.
@@ -40,7 +45,7 @@ A converse is given by Power _et. al._, who show that a 2-monad is a monad for f
 
 ## References
 
-* Kelly--Lack, _On property-like structures_, TAC 3(9), 1997.
+* [[Max Kelly]], [[Steve Lack]], _On property-like structures_, TAC 3(9), 1997.
 * Kock, _Monads for which structures are adjoint to units_, JPAA 104:41--59, 1995.
 * Power--Cattani--Winskel, _A representation result for free cocompletions_, JPAA 151:273--286, 2000.
 
