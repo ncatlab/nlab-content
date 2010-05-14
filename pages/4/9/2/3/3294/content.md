@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include functional analysis - contents]]
+</div>
+
+
 # Fr&#233;chet spaces
 * table of contents
 {: toc}
