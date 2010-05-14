@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include functional analysis - contents]]
+</div>
+
+
 # Banach spaces
 * table of contents
 {: toc}
