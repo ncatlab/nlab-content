@@ -1,4 +1,15 @@
-#Definition#
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Definition
 
 Given a [[site]] $S$, every [[Set]]-valued [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent) to a [[sheaf]] $\bar F$. This construction extends to a functor
 
@@ -69,9 +80,9 @@ really unnecessary for the examples above?
 =--
 
 
-#Construction#
+## Construction
 
-## In terms of matching families ##
+### In terms of matching families 
 
 A concrete component-based construction of sheafification proceeds via [[matching family|matching families]]. See there for details.
 
@@ -100,7 +111,7 @@ $$
 
 
 
-#Remarks#
+## Remarks
 
 * For more on the role of sheafification see [[category of sheaves]].
 
@@ -108,7 +119,7 @@ $$
 
 * The notion of sheafification also generalizes from the 1-categorical to the [[(infinity,1)-category|(infinity,1)-categorical]] context. See [[(infinity,1)-category of (infinity,1)-sheaves]]. 
 
-#References#
+## References
 
 The description of sheafification in terms of local isomorphisms is in section 16.3 (for [[Set]]-valued presheaves) and section 17.4 (for more general presheaves) of
 
@@ -116,7 +127,7 @@ The description of sheafification in terms of local isomorphisms is in section 1
 
 The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
 
-* Mac Lane, Moerdijk, [[Sheaves in Geometry and Logic]]
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]]
 
 Extension of sheafification of presheaves with values in other categories has been advanced in
 
