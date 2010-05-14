@@ -1,6 +1,11 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
-The left adjoint of a [[functor]], if it exists, is one of two best approximations to a [[weak inverse]] of that functor.  (The other best approximation is the functor\'s [[right adjoint]], if it exists.)  Note that a weak inverse itself, if it exists, must be a left adjoint.
+The left [[adjoint functor]] of a [[functor]], if it exists, is one of two best approximations to a [[weak inverse]] of that functor.  (The other best approximation is the functor\'s [[right adjoint]], if it exists. )  Note that a weak inverse itself, if it exists, must be a left adjoint, forming an [[adjoint equivalence]].
 
 A left adjoint to a [[forgetful functor]] is called a [[free functor]]; in general, left adjoints may be thought of as being defined freely, consisting of anything that an inverse might want, regardless of whether it works.
 
