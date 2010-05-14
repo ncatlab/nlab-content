@@ -1,4 +1,4 @@
-* [[functional analysis|Functional Analysis]]
+* **[[functional analysis|Functional Analysis]]**
 * [[TVS|Topological Vector Spaces]]
 * [[LCTVS|Locally Convex Topological Vector Spaces]]
 * Types of topological vector space
@@ -11,3 +11,5 @@
 * Topics in Functional Analysis
   * [[algebraic theories in functional analysis|Algebraic Theories in Functional Analysis]]
   * [[an elementary treatment of Hilbert spaces|An Elementary Treatment of Hilbert Spaces]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/functional+analysis+-+contents)</div>
