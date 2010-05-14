@@ -272,6 +272,34 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.5.8]].
 =--
 
 
+### Interaction with forming overcategories
+
+The following analog of the corresponding result for
+1-[[categories of presheaves]] holds for $(\infty,1)$-presheaves. See [[functors and comma categories]].
+
++-- {: .un_cor}
+###### Corollary
+**(forming overcategories commutes with passing to presheaves)**
+
+Let $C$ be a [[small (∞,1)-category]] and $p : K \to C$
+a [[diagram]]. Write $C_{/p}$ 
+and $PSh(C)/_{j p}$
+for the corresponding [[over quasi-category|over categories]], where 
+$j : C \to PSh(C)$ is the [[(∞,1)-Yoneda embedding]].
+
+Then we have an [[equivalence of quasi-categories|equivalence of (∞,1)-categories]]
+
+$$
+  PSh(C_{/p}) \stackrel{\simeq}{\to} PSh(C)_{/j p}
+  \,.
+$$
+
+=--
+
+
+This appears as [[Higher Topos Theory|HTT, 5.1.6.12]].
+
+
 
 ## $(\infty,1)$-subcategories of $(\infty)$-presheaf categories
 
