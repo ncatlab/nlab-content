@@ -45,7 +45,7 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 
 ##Nori motives##
 
-[[Madham Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _[[Nori's Tannakian theorem]]_. 
+[[Madhav Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _[[Nori's Tannakian theorem]]_. 
 
 
 ## Related entries##
@@ -97,6 +97,8 @@ Some most recent generalizations of the theory, using derivators and similar tec
 * D-C. Cisinski, F. D&#233;glise, _Triangulated categories of mixed motives_, [arxiv/0912.2110](http://arxiv.org/abs/0912.2110)
 
 * D-C. Cisinski, G. Tabuada, _Symmetric monoidal structure on Non-commutative motives_, [arxiv/1001.0228](http://arxiv.org/abs/1001.0228)
+
+* [[Goncalo Tabuada|G. Tabuada]], _Representability of bivariant cyclic cohomology in Non-commutative motives_, [arxiv/1005.2336](http://arxiv.org/abs/1005.2336)
 
 Some other aspects
 
