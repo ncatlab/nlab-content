@@ -1,5 +1,11 @@
+
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
+
 # Traces
-* tic
+* automatic table of contents goes here
 {: toc}
 
 
