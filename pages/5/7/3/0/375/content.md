@@ -1,4 +1,8 @@
 
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
 
 #Contents#
 * automatic table of contents goes here
