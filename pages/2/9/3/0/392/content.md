@@ -16,6 +16,6 @@ Frequently, in fact, it is conversely true that all herrings are red herrings.  
 
 * Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.  Likewise for related concepts such as [[2-limit]] and [[strict 2-limit]].
 
-* A $*$-[[star-autonomous category|autonomous category]] is not an [[autonomous category]], but rather the reverse: an autonomous (a.k.a. compact closed) category is a fairly special case of a $*$-autonomous one.
+* A $*$-[[star-autonomous category|autonomous category]] is not an [[autonomous category]], but the reverse is almost true: a *symmetric* autonomous (a.k.a. compact closed) category is a fairly special case of a $*$-autonomous one.
 
 * A [[linearly distributive category]] has essentially nothing to do with a [[distributive category]].
