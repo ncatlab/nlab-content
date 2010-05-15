@@ -1,4 +1,8 @@
 
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -19,7 +23,7 @@ Note: All compositions will be written in the traditional order, in which applic
 
 We work with familiar notions of the theory of bicategories (which, for reasons of consonance with 2-terminology, we also call 2-categories) but in some cases under new names. We calculate with pasting diagrams in 2-categories as if they were strict 2-categories. 
 
-Our notion of morphism between 2-categories has gone under various names: "homomorphism" in the sense of B&#233;nabou, also known as "pseudofunctor" or weak 2-functor, where the structural constraints are isomorphisms. Here they are simply called **2-functors**. 
+Our notion of morphism between 2-categories has gone under various names: "homomorphism" in the sense of B&eacute;nabou, also known as "pseudofunctor" or weak 2-functor, where the structural constraints are isomorphisms. Here they are simply called **2-functors**. 
 
 Each 2-category $B$ gives rise to a hom 2-functor $hom: B^{op} \times B \to Cat$, which we denote by $B(-, -)$, with the contravariant argument in the first place as is customary. 
 
@@ -31,7 +35,7 @@ F f \downarrow & \overset{\theta \cdot f}{\Rightarrow} & \downarrow G f\\
 F b & \underset{\theta b}{\to} & G b
 }$$ 
 
-These are called "oplax transformations" by some authors such as B&#233;nabou and "lax transformations" by other authors such as Johnstone; on this page we will simply call them (2-)**transformations**. A transformation is **strong** if the structural cells $\theta \cdot f$ are isomorphisms. 
+These are called "oplax transformations" by some authors such as B&eacute;nabou and "lax transformations" by other authors such as Johnstone; on this page we will simply call them (2-)**transformations**. A transformation is **strong** if the structural cells $\theta \cdot f$ are isomorphisms. 
 
 There is a well-known notion of morphism between transformation which has been called [[modification]]. We retain this usage, but as an aside we counsel against inventing a new term (e.g., "perturbation" between modifications) every time a new level of morphism is reached -- a more uniform terminology is called for. The term "transfor" (due to Sjoerd Crans) has been tentatively adopted elsewhere on this site; modifications may then be called **2-transfors**. 
 
@@ -171,7 +175,7 @@ and just like $\alpha$, $\alpha^-$ is definable in terms of global structure on 
 
 **Lemma 1:** If $\alpha$ is a right adjoint in $Hom_l(C, B)$, then the transformation $\alpha$ is strong. Consequently, if $\alpha^- \dashv \alpha$ is an adjoint equivalence, so that both $\alpha^- \dashv \alpha$ and $\alpha \dashv \alpha^-$, then $\alpha^- \dashv \alpha$ is a strong adjoint equivalence in $Hom_s(C, B)$. 
 
-**Proof:** Only the first statement requires proof. Given $r: c \to d$ in $C$, let $ev_c: Hom_l(C, B) \to B$ denote the 2-functor which evaluates at $c$ (keep in mind that the 1-cells in $Hom_l(C, B)$ are transformations which are oplax in the sense of B&#233;nabou), and let $ev_r: ev_c \to ev_d$ denote the evident transformation; this is _lax_ in the sense of B&#233;nabou. Then, by dualizing proposition 1, $ev_r(\alpha) = \alpha \cdot r$ is an isomorphism if $\alpha$ is a _right_ adjoint. Since $\alpha \cdot r$ is an isomorphism for all 1-cells $r$ in $C$, it follows that $\alpha$ is strong. $\Box$ 
+**Proof:** Only the first statement requires proof. Given $r: c \to d$ in $C$, let $ev_c: Hom_l(C, B) \to B$ denote the 2-functor which evaluates at $c$ (keep in mind that the 1-cells in $Hom_l(C, B)$ are transformations which are oplax in the sense of B&eacute;nabou), and let $ev_r: ev_c \to ev_d$ denote the evident transformation; this is _lax_ in the sense of B&eacute;nabou. Then, by dualizing proposition 1, $ev_r(\alpha) = \alpha \cdot r$ is an isomorphism if $\alpha$ is a _right_ adjoint. Since $\alpha \cdot r$ is an isomorphism for all 1-cells $r$ in $C$, it follows that $\alpha$ is strong. $\Box$ 
 
 This completes the argument that the symmetric monoidal structure on $Map(B)$ extends to $B$. 
 
