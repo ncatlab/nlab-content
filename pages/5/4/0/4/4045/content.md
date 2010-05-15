@@ -10,7 +10,9 @@
 
 ## With duals for objects
 
-* [[dualizable object]]
+* [[category with duals]] (list of them)
+
+* [[dualizable object]] (what they have)
 
 * [[rigid monoidal category]], a.k.a. [[autonomous category]]
 
@@ -22,7 +24,7 @@
 
 ## With duals for morphisms
 
-* [[dagger monoidal category]]
+* [[monoidal dagger-category]]
 
 * [[symmetric monoidal dagger-category]]
 
