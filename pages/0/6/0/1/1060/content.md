@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
 ## Definition ##
 
 A $*$-autonomous category \[1\] is a [[symmetric monoidal
