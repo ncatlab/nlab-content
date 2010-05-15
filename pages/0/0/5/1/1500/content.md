@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
 
 #Contents#
 * automatic tabke of contents goes here
@@ -34,6 +37,7 @@ Here are three things such that it'd be awesome if they were sorted out on this 
 
 3. Good notation distinguishing [[simple object|simple]] versus [[absolutely simple object|absolutely simple]] (is $End(V) = k$ or just $V$ has no nontrivial proper subobjects).
 
+
 Together 1 and 2 let you go between the two different obvious notions of semisimple which seem a bit muddled here when I clicked through the links.
 
 
@@ -42,5 +46,5 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 * Math Overflow, [Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting).
 * P. Etingof, D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
 * P. Etingof and D. Calaque, [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
-* M. M&#252;ger, [Tensor categories: A selective guided tour](http://arxiv.org/abs/0804.3587).
+* M. M&uuml;ger, [Tensor categories: A selective guided tour](http://arxiv.org/abs/0804.3587).
 * B. Bartlett, [On unitary 2-representations of finite groups and topological quantum field theory](http://arxiv.org/abs/0901.3975) (chapter 6).
