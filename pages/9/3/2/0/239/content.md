@@ -1,4 +1,14 @@
-#Idea#
+
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The term **tensor product** has many different but closely related meanings.
 
@@ -13,7 +23,7 @@ is a representing object for a suitable sort of _multilinear map_.  The most cla
 
 * Finally, tensor products in a multicategory and tensor products over monads in a bicategory are both special cases of tensor products in an [[virtual double category]].
 
-#Tensor product in a multicategory#
+## Tensor product in a multicategory
 
 If $M$ is a [[multicategory]] and $A$ and $B$ are objects in $M$, then the _tensor product_ $A \otimes B$ can be defined to be an object equipped with a [[universal construction|universal]] multimorphism  $A,B\to A \otimes B$.  Thus, any multimorphism  $A,B\to C$ factors uniquely through $A,B\to A \otimes B$ via a (1-ary) morphism $A \otimes B\to C$.
 
@@ -37,7 +47,7 @@ This may be the oldest notion of tensor product, since the definition of the int
 
 While the universal property referred to above (every bilinear map $A,B\to C$ factors uniquely through $A,B\to A\otimes B$ via a map $A\otimes B \to C$) suffices to define the tensor product, it does not suffice to prove that it is associative and unital.  For this we need the stronger property that any multilinear map $D_1,\dots,D_m,A,B,E_1,\dots, E_n \to C$ factors uniquely through $A,B\to A\otimes B$ via a multilinear map $D_1,\dots,D_m, A\otimes B ,E_1,\dots, E_n \to C$.
 
-#Tensor product of modules in a monoidal category#
+## Tensor product of modules in a monoidal category
 
 Let $R$ be a commutative ring and consider the multicategory $R$-Mod of $R$-modules and $R$-multilinear maps.  In this case the tensor product $A\otimes_R B$ of $R$-modules $A$ and $B$ can be constructed as the quotient of the tensor product $A\otimes B$ of their underlying abelian groups by the action of $R$; that is,
 $$ A\otimes_R B = A\otimes B / (a,r\cdot b) \sim (a\cdot r,b). $$
@@ -51,13 +61,13 @@ This tensor product can be generalized to the case when $R$ is not commutative, 
 
 * Conversely, if $R$ is a _commutative_ monoid in a symmetric monoidal category, there is a multicategory of $R$-modules whose tensor product agrees with the coequalizer defined above, but if $R$ is not commutative this is impossible.  However, see the section on tensor products in virtual double categories, below.
 
-#Tensor product of modules in a bicategory#
+## Tensor product of modules in a bicategory
 
 The tensor product of left and right modules over a noncommutative monoid in a monoidal category is a special case of the tensor product of modules for a [[monad]] in a [[bicategory]].  If $R: x\to x$ is a monad in a bicategory $B$, a right $R$-module is a 1-cell $A: y\to x$ with an action by $R$, a left $R$-module is a 1-cell $B: x\to z$ with an action by $R$, and their tensor product, if it exists, is a 1-cell $y\to z$ given by a similar coequalizer.  Regarding a monoidal category as a 1-object bicategory, this recovers the above definition.
 
 For example, consider the bicategory $V-Mat$ of $V$-valued [[matrix|matrices]] for some monoidal category $V$.  A monad in $V-Mat$ is a $V$-[[enriched category]] $A$, an $(A,I)$-bimodule is a functor $A\to V$, an $(I,A)$-bimodule is a functor $A^{op}\to V$, and their tensor product in $V-Mat$ is a classical construction called the **tensor product of functors**.  It can also be defined as a [[end|coend]].
 
-#Tensor product in a virtual double category#
+## Tensor product in a virtual double category
 
 A [[virtual double category]] is a common generalization of a multicategory and a bicategory (and actually of a [[double category]]).  Among other things, it has objects, 1-cells, and "multi-2-cells."  We leave it to the reader to define a notion of tensor product of 1-cells in such a context, analogous to the tensor product of objects in a multicategory.  A multicategory can be regarded as a 1-object virtual double category, so this generalizes the notion of tensor product in a multicategory.
 
