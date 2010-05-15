@@ -1,0 +1,28 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea 
+
+An _enriched natural transformation_ is the appropriate notion of morphism between functors enriched in a monoidal category $V$. 
+
+## Definition 
+
+Let $C$ and $D$ be categories [[enriched category|enriched]] in a monoidal category $V$, and let $F, G: C \to D$ be [[enriched functor|enriched functors]]. We abbreviate hom-objects $\hom_C(c, d)$ to $C(c, d)$. An **enriched natural transformation** $\eta: F \to G$ is a family of morphisms of $V$ 
+
+$$\eta c: I \to D(F c, G c)$$ 
+
+indexed over $Ob(C)$, such that for any two objects $c$, $d$ of $C$ the following diagram commutes: 
+
+$$\array{
+C(c, d) & \stackrel{\rho}{\cong} & C(c, d) \otimes I & \stackrel{G_{c, d} \otimes \eta c}{\to} & D(G c, G d) \otimes D(F c, G c) \\
+\stackrel{\lambda}{\cong} \downarrow & & & & \downarrow \circ_D \\
+I \otimes C(c, d) & \underset{\eta d \otimes F_{c, d}}{\to} & D(F d, G d) \otimes D(F c, F d) & \underset{\circ_D}{\to} & D(F c, G d) 
+}$$
+
+(Should expand to include other notions of enriched category.) 
+
+## Reference 
+
+* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
