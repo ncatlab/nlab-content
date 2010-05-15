@@ -62,6 +62,14 @@
 
 * [[modular tensor category]]
 
+## Examples
+
+* [[tensor product]]
+
+* [[closed monoidal structure on presheaves]]
+
+* [[Day convolution]]
+
 ## In higher category theory
 
 * [[monoidal 2-category]]
