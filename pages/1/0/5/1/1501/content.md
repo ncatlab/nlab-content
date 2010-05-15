@@ -15,14 +15,14 @@ A _rigid (monoidal) category_, also called an _autonomous (monoidal) category_ i
 
 A [[monoidal category]] is **rigid** if every [[object]] has [[dualizable object|duals]] on both sides.  If only one type of dual exists, we speak of **left rigid** (or left autonomous) or **right rigid** categories.
 
-Conventions differ regarding which type of duals are which.  One convention is as follows: a _right dual_ of an object $V$ in a monoidal category is an object $V^*$ equipped with unit $\eta : 1 \rightarrow V^* \otimes V$ and counit maps $\epsilon: V \otimes V^* \rightarrow 1$ satisfying the [[triangle identities]] (the snake diagrams), while a left dual is is the dual notion.  This convention fits in with the standardized conventions regarding [[adjoint functor]]s: anendofunctor $F : C \rightarrow C$ has a right adjoint $F^* : C \rightarrow C$ if and only if $F^*$ is a right dual of $F$ in the [[monoidal category]] $End(C)$. 
+Conventions differ regarding which type of duals are which.  One convention is as follows: a _right dual_ of an object $V$ in a monoidal category $M$ is an object $V^*$ equipped with unit $\eta : 1 \rightarrow V^* \otimes V$ and counit maps $\epsilon: V \otimes V^* \rightarrow 1$ satisfying the [[triangle identities]] (the snake diagrams), while a left dual is is the dual notion.  This convention fits in with the standardized conventions regarding [[adjoint functor]]s: anendofunctor $F : C \rightarrow C$ has a right adjoint $F^* : C \rightarrow C$ if and only if $F^*$ is a right dual of $F$ in the [[monoidal category]] $End(C)$. 
 
 
 ## Remarks
 
-Note that this definition only asserts the existence of the dual objects. It does _not_ assert that specific duals have been chosen.
+Note that this definition only asserts the existence of the dual objects. It does _not_ assert that specific duals have been chosen. However, the choice of duals is unique up to unique isomorphism, justifying reference to '[[the]]' dual of an object; in fact, this extends to a [[contravariant functor|contravariant]] [[anafunctor]] ${}^*\colon M \to M$.  (Using the [[axiom of choice]] to pick duals for every object at once, we can make this into a [[strict functor]].)
 
-Nor does it assert that the right dual of an object is isomorphic to its left dual: this need not be the case in general, though it is true in a [[braided monoidal category]], and thus automatically also in a [[symmetric monoidal category]].  A rigid monoidal category which is also symmetric is sometimes called [[compact closed category|compact closed]] or simply "compact".
+Nor does this definition assert that the right dual of an object is isomorphic to its left dual: this need not be the case in general, though it is true in a [[braided monoidal category]], and thus automatically also in a [[symmetric monoidal category]].  (A rigid monoidal category which is also symmetric is sometimes called [[compact closed category|compact closed]] or simply "compact".)
 
 In practice, algebraic geometers are the most frequent users of the term 'rigid', and they focus on the symmetric monoidal case, so they ignore the difference between right and left duals.
 
