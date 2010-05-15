@@ -2,6 +2,10 @@
 [[!include monoidal categories - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Definition ##
 
 A $*$-autonomous category \[1\] is a [[symmetric monoidal
@@ -72,7 +76,7 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 ## References ##
 
-1. Barr, Michael, _$*$-Autonomous Categories_. LNM 752,
+* Barr, Michael, _$*$-Autonomous Categories_. LNM 752,
    Springer-Verlag 1979.
 
 More references to come...
