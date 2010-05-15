@@ -1,6 +1,12 @@
+
 **[[physics]]**
 
-##Contents
+**[[higher category theory and physics|(higher) categegory theory and physics]]
+
+* [[category theory]]
+
+* [[higher category theory]]
+
 
 * **[[classical field theory|Classical Field Theory]]**
 
@@ -43,6 +49,18 @@
 
     * [[general relativity]]
 
+* **[[quantum mechanics|Quantum Mechanics]]**
+  
+  * [[quantum mechanics in terms of dagger-compact categories|in terms of ∞-compact categories]]
+
+  * [[Hamiltonian operator]]
+
+  * [[density matrix]]
+
+  * [[quantum information]]
+
+  * [[open quantum systems]]
+
 * **[[quantization|Quantization]]**
 
   * [[geometric quantization]]
@@ -53,15 +71,6 @@
 
   * [[semiclassical approximation]]
 
-* **[[quantum mechanics|Quantum Mechanics]]**
-  
-  * [[Hamiltonian operator]]
-
-  * [[density matrix]]
-
-  * [[quantum information]]
-
-  * [[open quantum systems]]
 
 * **[[quantum field theory|Quantum Field Theory]]**
 
