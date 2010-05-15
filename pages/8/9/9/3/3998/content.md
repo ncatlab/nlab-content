@@ -63,12 +63,15 @@ Are these four identities the first four terms in a sequence that continues?
 
 ##Inversion formulas
 
-The simplest of the inversion identities expressing $\sum_{|A|=n}\prod_{i\in A} \sin\theta_i \prod_{i\notin A} \cos\theta_i$ as a function of $f_0, f_1, f_2,\dots$ are the cases $n=0$ and $n=1$:
-
 $$
 \begin{aligned}
 \prod_{i=1}^\infty \cos\theta_i & = f_0 + \frac{1}{2} f_2 + \frac{1}{2 \cdot 4} f_4 + \frac{1}{2 \cdot 4 \cdot 6} f_6 + \frac{1}{2 \cdot 4 \cdot 6 \cdot 8} f_8 + \cdots \\
-\sum_{j=1}^\infty \sin\theta_j \prod_{i : i \neq j} \cos\theta_i & = f_1 + \frac{1}{2} f_3 + \frac{1}{2\cdot 4} f_5 + \frac{1}{2\cdot 4\cdot 6} f_7 + \frac{1}{2 \cdot 4 \cdot 6 \cdot 8} f_9 + \cdots
+\sum_{j=1}^\infty \sin\theta_j \prod_{i : i \neq j} \cos\theta_i & = f_1 + \frac{1}{2} f_3 + \frac{1}{2\cdot 4} f_5 + \frac{1}{2\cdot 4\cdot 6} f_7 + \frac{1}{2 \cdot 4 \cdot 6 \cdot 8} f_9 + \cdots \\
+\sum_{|A| = 2} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i & = \frac{1}{2} \left(f_2 + \frac{1}{2} f_4 + \frac{1}{2\cdot 4} f_6 + \frac{1}{2\cdot 4 \cdot 6} f_8 + \frac{1}{2\cdot 4\cdot 6\cdot 8} f_{10} + \cdots\right) \\
+\sum_{|A| = 3} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i & = \frac{1}{2} \left(f_3 + \frac{1}{2} f_5 + \frac{1}{2\cdot 4} f_7 + \frac{1}{2\cdot 4 \cdot 6} f_9 + \frac{1}{2\cdot 4\cdot 6\cdot 8} f_{11} + \cdots\right) \\
+\sum_{|A| = 4} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i & = \frac{1}{2\cdot 4} \left(f_4 + \frac{1}{2} f_6 + \frac{1}{2\cdot 4} f_8 + \frac{1}{2\cdot 4 \cdot 6} f_{10} + \frac{1}{2\cdot 4\cdot 6\cdot 8} f_{12} + \cdots\right) \\
+\sum_{|A| = 5} \prod_{i \in A} \sin\theta_i \prod_{i \notin A} \cos\theta_i & = \frac{1}{2\cdot 4} \left(f_5 + \frac{1}{2} f_7 + \frac{1}{2\cdot 4} f_9 + \frac{1}{2\cdot 4 \cdot 6} f_{11} + \frac{1}{2\cdot 4\cdot 6\cdot 8} f_{13} + \cdots\right) \\
+& \vdots
 \end{aligned}
 $$
 
