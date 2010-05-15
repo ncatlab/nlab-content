@@ -60,4 +60,8 @@ Like the [[axiom of choice]], the existence of a global choice operator is consi
 
 * See also Hilbert (1927), "The Foundations of Mathematics", pp. 464&#8211;479 in JvH.
 
+
 category: foundational axiom
+
+[[!redirects choice operator]]
+[[!redirects global choice operator]]
