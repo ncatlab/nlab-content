@@ -63,3 +63,4 @@ The main reference is the classic textbook about [[constructive quantum field th
 [[!redirects Osterwalder-Schrader theorem]]
 [[!redirects Osterwalder–Schrader theorem]]
 [[!redirects Osterwalder--Schrader theorem]]
+[[!redirects Osterwalder--Schrader axioms]]
