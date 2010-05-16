@@ -1,22 +1,27 @@
-# Idea
 
-A **cosmos** is a "good place in which to do category theory," including both ordinary and [[enriched category]] theory.
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-The word is chosen by analogy with [[topos]] which can be regarded as "a good place to do set theory," but there are notable differences between the two situations; a more direct [[vertical categorification|categorification]] of a topos is, unsurprisingly, a [[2-topos]].  In contrast, cosmoi also include [[enriched category]] theory, while toposes do not allow non-cartesian enrichment.
+## Idea
+
+A **cosmos** is a "good place in which to do category theory," including both ordinary [[category theory]] as well as [[enriched category]] theory.
+
+The word is chosen by analogy with [[topos]] which can be regarded as "a good place to do set theory," but there are notable differences between the two situations; a more direct [[vertical categorification|categorification]] of a topos is, unsurprisingly, a [[2-topos]].  In contrast, cosmoi also include [[enriched category]] theory, while toposes do not allow non-[[cartesian monoidal category|cartesian]] enrichment.
 
 There are a number of different, inequivalent, definitions of "cosmos" in the literature.
 
-# Benabou's definition
+## B&#233;nabou's definition
 
 Jean B&#233;nabou\'s original definition was that a **cosmos** $V$ is a [[complete category|complete]] and [[cocomplete category|cocomplete]] [[closed monoidal category|closed]] [[symmetric monoidal category]].  This is an ideal situation for studying categories [[enriched category|enriched]] over $V$.
 
-# Street's "fibrational cosmoi"
+## Street's "fibrational cosmoi"
 
 [[Ross Street]] has taken a different tack, defining a "cosmos" to be the collection of (enriched) categories and relevant structure for doing category theory, rather than the "base" category $V$ over which the enrichment occurs.
 
 In his paper "Elementary cosmoi," Street defined a **(fibrational) cosmos** to be a 2-category in which internal [[Grothendieck fibrations|fibrations]] are well-behaved and representable by a structure of "presheaf objects" (later realized to be a special sort of [[Yoneda structure]]).  Note that while this includes $Cat$, it does *not* include $V$-$Cat$ for non-cartesian $V$, since internal fibrations are poorly behaved there.
 
-# Street's second definition
+## Street's second definition
 
 In his paper "Cauchy characterization of enriched categories," Street instead defined a "cosmos" to be a [[2-category]] that behaves like the 2-category $V$-$Mod$ of enriched categories and [[profunctors]].  The precise definition: a cosmos is a 2-category (or [[bicategory]]) such that:
 * Small ([[2-limit|weak, or bi-]]) [[coproduct]]s exist.
