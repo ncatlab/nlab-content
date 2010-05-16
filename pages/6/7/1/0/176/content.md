@@ -13,7 +13,7 @@ A conformal field theory (CFT) is accordingly a functor on such a richer categor
 
 See the discussion at [[FQFT]] for more details.
 
-The low dimensional case of $2$-dimensional CFT is of course the best understood. It is in fact so predominant that in much of the literature CFT is understood to be $2$-dimensional.
+The low dimensional case of $2$-dimensional CFT is the least understood and the most interesting one. In d>2, the global transformations are given by the Poincare algebra, dilations and special conformal transformations. In $2$ dimensions, there are additionaly infinitely many local generators of conformal transformations whose commutation relations are given by the Virasoro algebra. In most of the literature, CFT is understood to be $2$-dimensional.
 
 $2$-dimensional conformal field theories have two major applications:
 
