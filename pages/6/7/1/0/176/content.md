@@ -96,27 +96,86 @@ $$
 Given axioms 1-4, the 2-point functions can be fully classified, see below.
 
 +-- {: .un_defn}
-###### Axiom 4
+###### Axiom 5
 **existence of the energy-momentum tensor**
 
-There are four fields $T{\mu, \nu}, \mu. \nu \in \{0, 1\}$ with the following properties:
+There are four fields $T_{\mu, \nu}, \mu. \nu \in \{0, 1\}$ with the following properties:
+
+Symmetry:
+$$
+T_{\mu, \nu} = T_{\nu, \mu}, \; T_{\mu, \nu}(z)^* = T_{\nu, \mu}(\theta (z))
 $$
 
 $$
-
+\partial_t T_{\mu, 0} + \partial_y T_{\mu, 1} = 0
 $$
 
+$T_{\mu, \nu}$ has scaling dimension 2 and the conformal spin $s$ is restricted by
 $$
-
-$$
-
+s(T_{00} - T_{11} \pm 2i \; T_{01}) = \pm 2
 $$
 =--
 
+The energy momentum tensor allows us to define two densly defined operators $L_{-n}, \overline{L_{-n}}$ that both define unitary representations of the [[Virasoro algebra]].
 
-...
++-- {: .un_prop}
+###### Proposition
+**L&#252;scher-Mack**
+
+T is holomorphic. Therefore, the operators
+$$
+L_{-n} := \frac{1}{2 \pi i} \oint_{| \zeta | = 1} \frac{T(\zeta)}{\zeta^{n+1}} d\zeta
+$$
+and
+$$
+\overline{L_{-n}} := \frac{1}{2 \pi i} \oint_{| \zeta | = 1} \frac{\overline{T}(\zeta)}{\zeta^{n+1}} d\zeta
+$$
+are well defined and satisfy the commutation relations of two commuting [[Virasoro algebras]] with the same central charge.
+=--
+
++-- {: .un_defn}
+###### Definition
+**primary field**
+
+A conformal field $\psi_i, i \in B_0$, is called a primary field if
+$$
+[L_n, \psi_i] =  z^{n+1} \partial_z \psi_i(z) + h_i (n+1) z^n \psi_i(z)
+$$
+and likewise for $\overline{z}$.
+=--
+
+So, primary fields are the fields whose correlation functions are covariant "infinitesimally" with respect to all holomorphic functions, the "infinitesimal symmetry" expressed in the definition.
+
+The fields are operator valued distributions and cannot be multiplied in general. The possibility of multiplication of fields evaluated at different points and some control of the singularities of this product are part of the axioms of conformal field theory:
+
++-- {: .un_defn}
+###### Pseudodefinition
+**operator product expansion**
+
+An operator product expansion (**OPE**) for a family of fields means that there is for all fields and all $z_1 \neq \z_2$ a relation of the form
+$$
+\psi_i(z_1) \psi_j(z_2) \sim \sum_{k \in B_0} C_{ijk} (z_1 - z_2)^{h_k - h_i - h_j} \psi_k(z_2)
+$$
+
+Here $\sim$ means modulo regular functions.
+=--
+
+A rigorous interpretation of an OPE would interpret the given relation as a relation of e.g. matrix elements or vacuum expectation values.
+
+An OPE is called **associative** if the expansion of a product of more than two fields does not depend on the order of the expansion of the products of two factors. 
+Since the OPE has no interpretation as defining products of operators, or more generally the product in a ring, the notion of associativity does not refer to the associativity of a product in a ring, as the term may suggest.
+
++-- {: .un_defn}
+###### Axiom 6
+**existence of associative operator product expansion**
+
+The primary fields have an associative OPE.
+=--
+
+
 
 ## Properties ##
+
 +-- {: .un_prop}
 ###### Proposition
 Any 2-point function satisfying axioms 1-4 has the following form:
