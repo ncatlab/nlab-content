@@ -164,7 +164,7 @@ $$
 the [[enriched functor category]] that encodes the $V$-[[module]]s of $A$, we have that the $V$-enriched [[endomorphism]] algebra $End(F) := [F,F]$ of the $V$-[[enriched functor]] $F : Rep(A) \to V$ is [[natural isomorphism|naturally isomorphic]] to $V$
 
 $$
-  End(A Mod \to V) \simeq A
+  End(A Mod \stackrel{F}{\to} V) \simeq A
   \,.
 $$
 
@@ -177,6 +177,13 @@ $$
 Apply the [[enriched Yoneda lemma]] verbatim as for the statement about permutation representations as above.
 
 =--
+
+Notice that the [[endomorphism]] object here is taken in the sense of enriched category theory, as described at [[enriched functor category]]. It is given by the [[end]] expression 
+
+$$
+  End(F) = \int_{N \in A Mod} V(F(N), F(N))
+  \,.
+$$
 
 The case of permutation representations is re-obtained by setting $V = $ [[Set]].
 
@@ -195,9 +202,10 @@ $$
 
 =--
 
+From this statement of Tannaka duality in $V$-enriched category theory
+now various special cases of interest follow, by simply choosing suitable enrichement categories $V$.
 
-
-### For linear modules and linear representations
+#### For algebra modules
 
 The general case of Tannaka duality for $V$-modules described above restricts to the classical case of Tannaka duality for linear representations by setting $V :=$ [[Vect]], the category of [[vector space]]s over some fixed [[ground field]].
 
@@ -219,8 +227,9 @@ in [[Vect]].
 
 =--
 
+#### For linear group representations
 
-Now for $G$ any [[group]], let $A = k[G]$ be its [[group algebra]]. Then the category of linear [[representation]]s of $G$ is 
+Still for the special case $V = Vect$, let now $G$ be a [[group]] and let the algeba in question specifically be its [[group algebra]] $A = k[G]$ . Then the category of linear [[representation]]s of $G$ is 
 
 $$
   Rep(G) \simeq k[G] Mod
@@ -240,6 +249,41 @@ $$
 $$
 
 =--
+
+
+#### For coalgebra comodules {#Coalgebras}
+
+If for $V$ we choose not [[Vect]] but its [[opposite category]] $Vect^{op}$, then a [[monoid]] object $A$ in $V$ is a [[coalgebra]] and $A Mod$ (or $A Mod^{op}$, rather) is the category of comodules over this coalgebra. Again we have a forgetful functor $F : A Mod \to Vect$
+
+In 
+
+* [[André Joyal]], [[Ross Street]], _An introduction to Tannaka duality and quantum groups_, [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)
+
+([proposition 5, page 40](http://www.maths.mq.edu.au/~street/CT90Como.pdf#page=40))
+
+and
+
+* Pierre Deligne, [[Catégories Tannakiennes]]
+
+it is shown that $A$ is recovered as the [[coend]]
+
+$$
+  \int^{N \in A Mod} F(N) \otimes F(N)^*
+$$
+
+in [[Vect]]. We see that this is yet again just a special case of Tannaka duality for $V$-modules, for the case $V = Vect^{op}$: the general statement says that $A$ is recovered as the [[end]]
+
+$$
+  A = \int_{N \in A Mod} V(F(N), F(N))
+$$
+
+in $Vect^{op}$. This isequivalently the [[coend]]
+
+$$
+  \cdots \simeq \int^{N \in A Mod}( Vect(F(N), F(N)))
+$$
+
+in $Vect$. Finally using that $Vect(V,W) \simeq V\otimes W^*$ the above coend expression follows.
 
 
 All from the [[enriched Yoneda lemma]]. And nothing else.
@@ -285,7 +329,7 @@ in [[∞Grpd]].
 
 =--
 
-### $\infty$-Galois theory
+#### $\infty$-Galois theory
 
 As a special case of this, we obtain a statement about $\infty$-Galois theory. For details and background see [[homotopy groups in an (∞,1)-topos]]. In that context one finds for a [[locally contractible space]] $X$ that the [[∞-groupoid]] of [[locally constant ∞-stack]]s on $X$ $LConst(X)$ is equivalent to $Rep_{\infty Grpd}(\Pi(X))$, where $\Pi(X)$ is the [[fundamental ∞-groupoid]] of $X$. 
 For $x \in X$ a point, write $F_x : LConst(X) \to \infty Grpd$ for the corresponding fiber functor.
