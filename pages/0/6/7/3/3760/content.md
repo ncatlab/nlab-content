@@ -20,9 +20,11 @@ For a presentation, you give a set of generators $X$, so there will be an epimor
 
 
 ##Definition##
-A  **presentation** of a group $G$ is a pair of sets, written $\langle X; R\rangle$ such that $F=\langle X\rangle$ is the [[free group]] on the set of letters $X$ and $N$ the [[normal subgroup|normal closure]] of the set of relators $R$, such that there is an isomorphism (specified) from $F/N$ to $G$.
+A  **presentation** of a group $G$ is a pair of sets, written $\langle X; R\rangle$ such that $F=\langle X\rangle$ is the [[free group]] on the set of letters $X$ and $N$ the [[normal subgroup|normal closure]] of the set of relators $R$, together with a specified isomorphism from $F/N$ to $G$.
 
-The specified isomorphism is often omitted as usually the set $X$ of generators is chosen as a subset of the set of elements of $G$. Sometimes it is convenient to assume otherwise and to give a specific function from a set $X$ to the set of elements of $G$, this then induces a group homomorphism from $F(X)$ to $G$, and we need that to be an epimorphism.
+The specified isomorphism is often omitted, as usually the set $X$ of generators is chosen as a subset of the set of elements of $G$.  In this case, but the universal properties of free groups and quotients, there is a unique map $F\to G$ which restricts to the inclusion of $X$, and thereby at most one map $F/N \to G$ which does so; this map is then the one asserted to be an isomorphism.
+
+Sometimes it is convenient to proceed otherwise, however, and to give a specific function from a set $X$ to the set of elements of $G$.  This function then induces a group homomorphism from $F=\langle X\rangle$ to $G$, and if this is a surjection, then we can find some $N$ (generators for its kernel) to produce a presentation of $G$.
 
 ##Examples##
 
