@@ -1,3 +1,11 @@
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  The axioms of ETCS can be summed up in one sentence as:
 
 * _The [[Set|category of sets]] is a [[well-pointed topos]] with a [[natural numbers object]] satisfying the [[axiom of choice]]._
@@ -15,7 +23,13 @@ Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative math
 *  Erik Palmgren, _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf))
 
 
-#Todd Trimble's exposition of ETCS#
+## Definition
+
+see
+
+* [[fully formal ETCS]]
+
+## Todd Trimble's exposition of ETCS
 
 [[Todd Trimble]] has a series of expositional writings on ETCS which provide a very careful introduction and at the same time a wealth of useful details.
 
