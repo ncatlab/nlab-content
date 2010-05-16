@@ -104,6 +104,34 @@ Thus we have a map $\bigotimes^{k-1} T(L M) \to \mathbb{R}$.  It can be shown th
 
 There is much more to tell in this particular story.  It is possible to replacing $S^1$ by a [[simplex]] (but keeping $L M$ the same) and so build up more complicated objects in $\Omega^*(L M)$.  This is the starting point of Chen's theory of [[iterated integrals]] and further developments of the theory can be found in the work of Jones, Getzler, and Petrack.
 
+## Transgression to mapping spaces in terms of internal homs {#InternalHom}
+
+> just a rough remark, for the moment
+
+At least for some cases of transgressoin to [[mapping space]]s, the concept has an [[nPOV]] description in terms of [[internal hom]]s.
+
+This makes crucial use of the [[nPOV]] notion of [[cohomology]], as described there.
+
+Let $\mathbf{H} = $ [[Top]] $\simeq$ [[∞Grpd]]. For $X \in \mathbf{H}$ and for $\Sigma$ a $k$-dimensional [[manifold]], and for $K$ an [[abelian group]] that is injective as a $\mathbb{Z}$-module, we may identify transgression to the mapping space $[\Sigma,X]$ as the composite
+
+$$
+  trans_\Sigma : \mathbf{H}(X,\mathbf{B}^n)
+  \stackrel{[\Sigma,-]}{\to}
+  \mathbf{H}([\Sigma,X], [\Sigma, \mathbf{B}^n K])
+  \stackrel{(\tau_{n-k})_*}{\to}
+  \mathbf{H}([\Sigma,X], \tau_{n-k} [\Sigma, \mathbf{B}^n K])
+  \simeq
+  \mathbf{H}([\Sigma,X], \mathbf{B}^{n-k} K)
+  \,.
+$$
+
+Here the first step is application of the [[internal hom]], then the second is postcomposition with [[truncated|truncation]], and then the last step uses the [[universal coefficient theorem]].
+
+> more details go here....
+
+This plays a role in the [[quantization]] process that yields [[FQFT]]s. For an application see [[Dijkgraaf-Witten theory]].
+
+> more details, and more polishing later...
 
 ## References
 
