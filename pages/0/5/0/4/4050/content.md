@@ -17,13 +17,13 @@ A _category with duals_ is a [[category]] with [[dual object|duals]].  This exis
 
 *  A __[[right autonomous category]]__ is a [[monoidal category]] in which every [[object]] is [[dualisable object|dualisable]] on the right.
 
-*  An __[[autonomous category]]__, or __[[rigid category]]__ is a monoidal category that is both left and right autonomous.  Note that any braided monoidal category is autonomous on both sides if it is autonomous on either side.
+*  An __[[autonomous category]]__, or __[[rigid category]]__ is a monoidal category that is both left and right autonomous. Note that any braided monoidal category is autonomous on both sides if it is autonomous on either side.
 
-*  A __[[pivotal category]]__ is an autonomous category equipped with a [[monoidal natural transformation|monoidal]] [[natural isomorphism]] from the [[identity functor]] to the [[double dual]] functor.  As with a braided autonomous category, a one-sided autonomous category with such an isomorphism is automatically two-sided autonomous.
+*  A __[[pivotal category]]__ is an autonomous category equipped with a [[monoidal natural transformation|monoidal]] [[natural isomorphism]] from the [[identity functor]] to the [[double dual]] functor. A one-sided autonomous category with such an isomorphism is automatically two-sided autonomous. Although each braided autonomous category has an isomorphism from $A$ to $A^{**}$, such a category is not necessarily pivotal because this isomorphism is not in general monoidal. On the other hand, every [[balanced monoidal category|balanced]] autonomous category is pivotal. 
 
-*  A __[[tortile category]]__, or __[[ribbon category]]__, is a [[braided monoidal category|braided]] pivotal category in which the [[braiding]] equals its own dual.
+*  A __[[tortile category]]__, or __[[ribbon category]]__, is a [[balanced monoidal category|balanced]] autonomous (therefore pivotal) category in which the [[twist]] on $A^*$ is the dual of the twist on $A$. 
 
-*  A __[[compact closed category]]__ is a [[symmetric monoidal category|symmetric]] tortile category.
+*  A __[[compact closed category]]__ is a [[symmetric monoidal category|symmetric]] tortile category, or equivalently, a symmetric autonomous category.
 
 *  The __$*$-[[star-autonomous category|autonomous categories]]__ do not really belong on this list; being $*$-autonomous is logically independent of being autonomous, and while $*$-autonomous categories have duals, these are not in general duals in the sense of a [[dualisable object]].  However, any compact closed category is $*$-autonomous.
 
