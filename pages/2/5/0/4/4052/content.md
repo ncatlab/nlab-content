@@ -1,12 +1,11 @@
-
 #Contents#
-* aautomatic table of contents goes here
+* automatic table of contents goes here
 {:toc}
 
 
 ## Idea
 
-The notion of **2-topos** is the generalization of the notion of [[topos]] from [[category theory]] to the [[higher category theory]] of [[2-categories]].
+The notion of **2-topos** is the generalization of the notion of [[topos]] from [[category theory]] to the [[higher category theory]] of [[2-categories]].  There are multiple conceivable such generalizations, depending in particular on whether one tries to generalize the notion of [[Grothendieck topos]] or of [[elementary topos]], and in the latter case what axioms one chooses to take as the basis for generalization.
 
 See also [[higher topos theory]].
 
