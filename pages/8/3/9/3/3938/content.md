@@ -112,7 +112,7 @@ At least for some cases of transgressoin to [[mapping space]]s, the concept has 
 
 This makes crucial use of the [[nPOV]] notion of [[cohomology]], as described there.
 
-Let $\mathbf{H} = $ [[Top]] $\simeq$ [[∞Grpd]]. For $X \in \mathbf{H}$ and for $\Sigma$ a $k$-dimensional [[manifold]], and for $K$ an [[abelian group]] that is injective as a $\mathbb{Z}$-module, we may identify transgression to the mapping space $[\Sigma,X]$ as the composite
+Let $\mathbf{H} = $ [[Top]] $\simeq$ [[∞Grpd]]. For $X \in \mathbf{H}$ and for $\Sigma$ a $k$-dimensional closed oriented [[manifold]], and for $K$ an [[abelian group]] that is injective as a $\mathbb{Z}$-module, we may identify transgression to the mapping space $[\Sigma,X]$ as the composite
 
 $$
   trans_\Sigma : \mathbf{H}(X,\mathbf{B}^n)
@@ -125,7 +125,7 @@ $$
   \,.
 $$
 
-Here the first step is application of the [[internal hom]], then the second is postcomposition with [[truncated|truncation]], and then the last step uses the [[universal coefficient theorem]].
+Here the first step is application of the [[internal hom]], then the second is postcomposition with [[truncated|truncation]], and then the last step uses the [[universal coefficient theorem]]. Note that the transgression map $trans_\Sigma$ depends on the choice of an equivalence $\tau_{n-k} [\Sigma, \mathbf{B}^n K]\simeq \mathbf{B}^{n-k} K$. Up to homotopy, this choice is precisely the datum of the [[orientation]] on $\Sigma$.
 
 > more details go here....
 
