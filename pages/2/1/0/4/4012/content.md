@@ -12,36 +12,61 @@ The archetypal examples are given by 2-monads $T$ on $Cat$ that take a category 
 
 ## Definition
 
-A [[2-monad]] $T$ on a [[2-category]] $K$ is called **lax-idempotent** if given any two (strict) $T$-algebras $a \colon T A \to A$, $b \colon T B \to B$ and a morphism $f \colon A \to B$, there exists a unique 2-cell $\bar f \colon b \circ T f \Rightarrow f \circ a$ making $(f,\bar f)$ a lax morphism of $T$-algebras.
+A [[2-monad]] $T$ on a [[2-category]] $K$ is called **lax-idempotent** if given any two (strict) $T$-algebras $a \colon T A \to A$, $b \colon T B \to B$ and a morphism $f \colon A \to B$, there exists a unique 2-cell $\bar f \colon b \circ T f \Rightarrow f \circ a$ making $(f,\bar f)$ a lax morphism of $T$-algebras:
+\[
+\array{
+T A & \overset{T f}{\to} & T B \\
+a \downarrow & \swArrow \bar f & \downarrow b \\
+A & \underset{f}{\to} & B
+}
+\]
 
-Lax-idempotent monads are also referred to as **Kock--Z&#246;berlein** or **KZ** monads.
+Dually, a 2-monad $T$ is called **colax-idempotent** if $f \colon A \to B$ gives rise to a colax $T$-morphism $(f,\tilde f)$:
+\[
+\array{
+T A & \overset{T f}{\to} & T B \\
+a \downarrow & \neArrow \tilde f & \downarrow b \\
+A & \underset{f}{\to} & B
+}
+\]
+
+Lax-idempotent monads are also called **Kock--Z&#246;berlein** or **KZ** monads.
 
 ### Equivalent conditions
 
-A 2-monad $T$ as above is lax-idempotent iff
+A 2-monad $T$ as above is lax-idempotent if and only if for any $T$-algebra $a \colon T A \to A$ there is a 2-cell $\theta_a \colon 1 \Rightarrow \eta A \circ a$ such that $(\theta_a ,1_{1_A})$ are the unit and counit of an [[adjunction]] $a \dashv \eta_A$.
 
-* for any $T$-algebra $a \colon T A \to A$ there is a 2-cell $\theta \colon 1 \Rightarrow \eta A \circ a$ such that $(\theta,1_{1_A})$ are the unit and counit of an [[adjunction]] $a \dashv \eta A$.
++-- { .proof}
+**Proof** (Adapted from Kelly--Lack).  The multiplication $\mu_A \colon T^2 A \to T A$ is a $T$-algebra on $T A$, and $\eta_A \colon A \to T A$ is a morphism from the underlying object of $a$ to that of $\mu_A$.  So there is a unique $\bar\eta_A \colon \mu_A \circ T \eta_A = 1_{T A} \Rightarrow \eta_A \circ a$ making $\eta_A$ into a lax $T$-morphism.  Set $\theta_a = \bar\eta_A$.  The [[adjunction|triangle equalities]] then require that:
 
-  Indeed, $\mu_A \colon T^2 A \to T A$ is a $T$-algebra on $T A$, and $\eta_A \colon A \to T A$ is a morphism from the underlying object of $a$ to that of $\mu_A$.  So there is a unique $\bar\eta_A \colon \mu_A \circ T \eta_A = 1_{T A} \Rightarrow \eta_A \circ a$ making $\eta_A$ into a lax $T$-morphism.  The [[adjunction|triangle equalities]] then require that:
-
-  1.  $a \bar\eta_A \colon a \Rightarrow a \circ \eta_A \circ a = a$ is equal to $1_a$.  The composite $a \circ \bar\eta_A$ makes $a \circ \eta_A$ a lax $T$-morphism from $a$ to $a$ (paste $\bar\eta_A$ with the identity square $a \circ \mu_A = a \circ T a$).  But $a \circ \eta_A = 1_A$, and $1_a$ also makes this into a lax $T$-morphism, so by uniqueness $a \bar\eta_A = 1_a$.
+  1.  $a \bar\eta_A \colon a \Rightarrow a \circ \eta_A \circ a = a$       is equal to $1_a$.  The composite $a \circ \bar\eta_A$ makes $a \circ \eta_A$ a lax $T$-morphism from $a$ to $a$ (paste $\bar\eta_A$ with the identity square $a \circ \mu_A = a \circ T a$).  But $a \circ \eta_A = 1_A$, and $1_a$ also makes this into a lax $T$-morphism, so by uniqueness $a \bar\eta_A = 1_a$.
 
   2. $\bar\eta_A \eta_A \colon \eta_A \Rightarrow \eta_A \circ a \circ \eta_A = \eta_A$ is equal to $1_{\eta_A}$.  But this follows directly from the unit coherence condition for the lax $T$-morphism $\bar\eta_A$.
 
-* Since $T$'s multiplication $\mu$ makes $T$ itself into a (generalized) $T$-algebra, the above implies (and in fact is implied by) the requirement that there exist a [[modification]] $\ell \colon 1_{T^2} \to \eta T \circ \mu$ making $(\ell,1_{1_T}) \colon \mu \dashv \eta T$.
+Conversely, suppose $\theta_a$, algebras $a,b$ on $A,B$ and $f \colon A \to B$ are given.  Take $\bar f$ to be the [[mate]] of $1_f \colon b \circ T f \circ \eta A = f \Rightarrow f$ with respect to the adjunctions $a \dashv \eta_A$ and $1 \dashv 1$, which is given in this case by pasting with $\theta_a$, so we have that $\bar f = b \circ T f \circ \theta_a$.  The mate of $\bar f$ in turn is given by $\bar f \circ \eta_A$, which because mates correspond bijectively is equal to $1_f$.  So $\bar f$ satisfies the unit condition.
 
-  Given an algebra $a \colon T A \to A$, the 2-cell $\theta$ is given by $T a \circ \ell_A \circ T \eta_A$.
+Consider the diagrams expressing the multiplication condition: because $a \circ \mu_A = a \circ T a$ (and the same for $b$), their boundaries are equal, so we have 2-cells $\alpha, \beta \colon b \circ T b \circ T^2 f \Rightarrow f \circ a \circ T a$.  Their mates under the adjunction $(T\theta_a, 1) \colon T a \dashv T\eta_A$ are given by pasting with $T \eta_A$.  One is $\bar f$ pasted with $T \bar f \circ T \eta_A = T(f \circ \eta_A) = T 1_f = 1_{T f}$, and the other is given by composing $T \eta_A$ with the identity $\mu_B \circ T^2 f = T f \circ \mu_A$ (and then pasting with $\bar f$), but because $\mu_A \circ T \eta_A = 1_{T A}$ this is also equal to $1_{T f}$.  The two original 2-cells are hence equal, because their mates are equal, and so $\bar f$ is indeed a lax $T$-morphism.
+=--
 
-* There is a modification $d \colon T \eta \to \eta T$ such that $d \eta = 1$ and $\mu d = 1$.
+Since $T$'s multiplication $\mu$ makes $T$ itself into a (generalized) $T$-algebra, the above implies (and in fact is implied by) the requirement that there exist a [[modification]] $\ell \colon 1_{T^2} \to \eta T \circ \mu$ making $(\ell,1) \colon \mu \dashv \eta T$.  Conversely, given an algebra $a \colon T A \to A$, the 2-cell $\theta_a$ is given by $T a \circ \ell_A \circ T \eta_A$.
 
-  Given $\ell$ as above, $d$ is given by $\ell \circ T \eta$.
+A different but equivalent condition is that there be a modification $d \colon T \eta \to \eta T$ such that $d \eta = 1$ and $\mu d = 1$; and given $\ell$ as above, $d$ is given by $\ell \circ T \eta$.
 
+Dually, for $T$ to be colax-idempotent, it is necessary and sufficient that:
+
+* For any $T$-algebra $a \colon T A \to A$ there is a 2-cell $\zeta_a \colon \eta_A \circ a \Rightarrow 1$ such that $(1,\zeta_a) \colon \eta_A \dashv a$.
+
+* There is a modification $m \colon \mu \circ \eta T \to 1$ making $(1,m) \colon \eta T \dashv \mu$.
+
+* There is a modification $e \colon \eta T \to T\eta$ such that $e\eta = 1$ and $\mu e = 1$.
 
 ## Examples
 
 As mentioned above, the standard examples of lax-idempotent 2-monads are those on $Cat$ whose algebras are categories with all colimits of a specified class.
 
 A converse is given by Power _et. al._, who show that a 2-monad is a monad for free cocompletions if and only if it is lax-idempotent and the unit $\eta$ is dense (plus a coherence condition).
+
+An important example of a colax-idempotent monad is the monad on $Cat/B$ that takes $p \colon E \to B$ to the projection $B/p \to p$ out of the [[comma category]].  The algebras for this monad are [[Grothendieck fibrations]] over $B$; see also [[fibration in a 2-category]].  The monad $p \mapsto p/B$ is lax-idempotent, and its algebras are opfibrations.
 
 ## References
 
@@ -50,6 +75,11 @@ A converse is given by Power _et. al._, who show that a 2-monad is a monad for f
 * Power--Cattani--Winskel, _A representation result for free cocompletions_, JPAA 151:273--286, 2000.
 
 [[!redirects KZ monad]]
+[[!redirects KZ-monad]]
 [[!redirects KZ doctrine]]
+[[!redirects KZ-doctrine]]
 
 [[!redirects lax-idempotent monad]]
+
+[[!redirects colax-idempotent 2-monad]]
+[[!redirects colax-idempotent monad]]
