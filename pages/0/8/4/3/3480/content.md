@@ -15,10 +15,12 @@ $$
 
 from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects.
 
+There is a general-abstract and concrete aspect to this, and a concrete one. The general abstract one says that an algebra $A$ is reconstructible in from the fiber functor on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructibl from the category of _dualizble_ (finite dimensional) modules, even if it is itself not finite dimensional.
+
 
 ## Statement
 
-Generally to some extent, and in various cases entirely, the statement of Tannaka duality is nothing but the [[Yoneda lemma]] of [[category theory]], in slight disguise, or rather of the [[enriched Yoneda lemma]] in [[enriched category theory]]. 
+So far the following examples concern the abstract aspect of Tannaka duality only, which is narrated here as a consequence of the [[enriched Yoneda lemma]] in [[enriched category theory]]. 
 
 ### For permutation representations 
 
@@ -271,7 +273,9 @@ $$
   \int^{N \in A Mod} F(N) \otimes F(N)^*
 $$
 
-in [[Vect]]. We see that this is yet again just a special case of Tannaka duality for $V$-modules, for the case $V = Vect^{op}$: the general statement says that $A$ is recovered as the [[end]]
+in [[Vect]], where the coend ranges over finite dimensional modules. 
+
+If $A$ itself is finite dimensional then this is yet again just a special case of Tannaka duality for $V$-modules, for the case $V = FinVect^{op}$: the general statement says that $A$ is recovered as the [[end]]
 
 $$
   A = \int_{N \in A Mod} V(F(N), F(N))
@@ -283,10 +287,8 @@ $$
   \cdots \simeq \int^{N \in A Mod}( Vect(F(N), F(N)))
 $$
 
-in $Vect$. Finally using that $Vect(V,W) \simeq V\otimes W^*$ the above coend expression follows.
+in $Vect$. Finally using that $FinVect(V,W) \simeq V\otimes W^*$ the above coend expression follows.
 
-
-All from the [[enriched Yoneda lemma]]. And nothing else.
 
 
 ### In higher category theory
