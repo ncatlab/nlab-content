@@ -8,6 +8,7 @@
 
 The notion of _K&#228;hler differential_ is a very general way to encode a notion of [[differential form]]: something that is dual to a [[derivation]] or [[vector field]].
 
+Conceptually, in dual language of algebras, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$.
 
 ### The ordinary definition and its insufficiency
 
@@ -414,14 +415,6 @@ This is Example 8.6. in
 #### Over simplicial rings
 
 If in the above setup we choose $K = sAb = [\Delta^{op}, Ab]$ the category of abelian [[simplicial group]]s, then $Mon(K)$ is the category of [[simplicial ring]]s. The category $Mon(K)^{op}$, regarded as a higher category, is the site used in [[higher geometry]] in place of $CRing^{}$
-
-
-## Leftover material
-
-> where would the following paragraph fit??
-
-> Conceptually, a symmetry of a commutative algebra $A$ is an [[automorphism]] $g\colon A\to A$, i.e., $g(a b)=g(a)g(b)$. The 'infinitesimal' symmetries are the [[derivations]] $X\colon A\to A$, with $X(a b)=X(a)b+X(a)b$. The [[module]] of K&#228;hler differentials $\Omega^1_K(A)$  parametrizes derivations, in the sense that every derivation $X$ corresponds uniquely to a morphism of $A$-modules $\mu_X: \Omega_K^1 (A)\to A$. 
-
 
 
 
