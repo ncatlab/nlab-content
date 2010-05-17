@@ -62,11 +62,13 @@ Dually, for $T$ to be colax-idempotent, it is necessary and sufficient that:
 
 ## Examples
 
-As mentioned above, the standard examples of lax-idempotent 2-monads are those on $Cat$ whose algebras are categories with all colimits of a specified class.
+As mentioned above, the standard examples of lax-idempotent 2-monads are those on $Cat$ whose algebras are categories with all colimits of a specified class.  Dually, there are colax-idempotent 2-monads which adjoin limits of a specified class.
 
 A converse is given by Power _et. al._, who show that a 2-monad is a monad for free cocompletions if and only if it is lax-idempotent and the unit $\eta$ is dense (plus a coherence condition).
 
 An important example of a colax-idempotent monad is the monad on $Cat/B$ that takes $p \colon E \to B$ to the projection $B/p \to p$ out of the [[comma category]].  The algebras for this monad are [[Grothendieck fibrations]] over $B$; see also [[fibration in a 2-category]].  The monad $p \mapsto p/B$ is lax-idempotent, and its algebras are opfibrations.
+
+This latter is actually a special case of a general situation.  If $T$ is a (2-)monad relative to which one can define [[generalized multicategories]], then often it induces a lax-idempotent 2-monad $\tilde{T}$ on the 2-category of such generalized multicategories (aka "virtual $T$-algebras"), such that (pseudo) $\tilde{T}$-algebras are equivalent to (pseudo) $T$-algebras.  When $T$ is the 2-monad whose algebras are strict 2-functors $B\to Cat$ and whose pseudo algebras are pseudofunctors $B\to Cat$, then a virtual $T$-algebra is a category over $B$, and it is a pseudo $\tilde{T}$-algebra just when it is an opfibration.  Similarly, there is a lax-idempotent 2-monad on the 2-category of [[multicategories]] whose pseudo algebras are [[monoidal categories]], and so on.
 
 ## References
 
@@ -79,7 +81,15 @@ An important example of a colax-idempotent monad is the monad on $Cat/B$ that ta
 [[!redirects KZ doctrine]]
 [[!redirects KZ-doctrine]]
 
+[[!redirects KZ monads]]
+[[!redirects KZ-monads]]
+[[!redirects KZ doctrines]]
+[[!redirects KZ-doctrines]]
+
 [[!redirects lax-idempotent monad]]
+[[!redirects lax-idempotent monads]]
 
 [[!redirects colax-idempotent 2-monad]]
 [[!redirects colax-idempotent monad]]
+[[!redirects colax-idempotent 2-monads]]
+[[!redirects colax-idempotent monads]]
