@@ -15,8 +15,41 @@ $$
 
 from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects.
 
-There is a general-abstract and concrete aspect to this, and a concrete one. The general abstract one says that an algebra $A$ is reconstructible in from the fiber functor on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructibl from the category of _dualizble_ (finite dimensional) modules, even if it is itself not finite dimensional.
+There is a general-abstract and concrete aspect to this, and a concrete one. The general abstract one says that an algebra $A$ is reconstructible in from the fiber functor on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructible from the category of _dualizble_ (finite dimensional) modules, even if it is itself not finite dimensional.
 
+More precisely, let $V$ be any enriching category (a [[locally small category|locally small]] [[closed monoidal category|closed]] [[symmetric monoidal category]] with all [[limit]]s). Then 
+
+
+1. we have in full generality that:
+
+   for 
+
+   * $A$ a [[monoid]] in $V$;
+
+   * $A Mod$ the $V$-[[enriched category]] of _all_ $A$-[[module]]s in $V$;
+
+   * $F : A Mod \to V$ the [[forgetful functor|forgetful]] _fiber functor_ ;
+
+   we have that $A$ is reobtained as 
+   the [[enriched functor category|enriched endomorphisms]] of $F$, 
+   giveny by the [[end]]
+
+   $$
+     A 
+     \simeq
+     End(F) := \int_{N \in A Mod} V(F(N), F(N))
+     \,.
+   $$
+
+   This is just the [[enriched Yoneda lemma]] in slight disguise.   
+
+1. In good cases this [[end]] is computed already by restriction to the 
+   [[full subcategory]] $A Mod_{dual}$ of [[dual object|dualizable modules]]
+
+   $$
+     \cdots \simeq \int_{N \in A Mod_{dual}} V(F(N), F(N))
+     \,.
+   $$
 
 ## Statement
 
