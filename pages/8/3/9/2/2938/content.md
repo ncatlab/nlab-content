@@ -98,15 +98,10 @@ The original source is
 
 Textbook references include
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ section 9.4
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ section 9.4 
 
+* [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603)) section 4, Theorem 9.1.3
 
-and 
-
-* [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603)) section 4
-
-where this appears as theorem 9.1.3.
-
-
+[[!redirects HKR theorem]]
 [[!redirects Hochschild–Kostant–Rosenberg theorem]]
 [[!redirects Hochschild--Kostant--Rosenberg theorem]]
