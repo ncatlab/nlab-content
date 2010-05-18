@@ -1,8 +1,20 @@
 Here we could experiment with SVG only...
 
 +-- {: .query}
-See also [[SVG Sandbox]] and [[Inclusion Sandbox]].
+See also [[SVG Sandbox > history]] and [[Inclusion Sandbox]].
 =--
+
+<svg width="4in" height="3in"
+ xmlns = 'http://www.w3.org/2000/svg'>
+    <foreignObject width="100" height="50">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <body>
+        <p>Here is a paragraph that requires word wrap</p>
+      </body>
+      </html>
+    </foreignObject>
+</svg>
+
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="75ex" height="25.6ex">
 <foreignObject x="4ex" y="4ex" width="17ex" height="4.8ex">
