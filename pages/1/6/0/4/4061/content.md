@@ -1,8 +1,12 @@
-The intention is to make a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and too obsolete books for any major purpose should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry. 
+The intention of this page is to list a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and too obsolete books for any major purpose should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry. 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ## Classical mathematical physics
 
-Here PDEs, ODEs, and integral equation of mathematical physics, special functions, [[generalized function]]s, analytic functions, basic [[functional analysis]], potential theory:
+Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical physics, special functions, [[generalized function]]s, analytic functions, basic [[functional analysis]], potential theory:
 
 * R. Courant, D. Hilbert, _Methods of mathematical physics_, 2 vols. 
 
@@ -13,6 +17,8 @@ Here PDEs, ODEs, and integral equation of mathematical physics, special function
 * V. Vladimirov, _Equations of mathematical physics_, Moscow, Izdatel'stvo Nauka, (1976. 528 p. Russian;  English edition, Mir 198x); _Generalized functions in mathematical physics_, Moscow
 
 ## Mathematical introduction to quantum mechanics
+
+on [[quantum mechanics]]:
 
 * Anthony Sudbery, _Quantum mechanics and the particles of nature: An outline for mathematicians_
 
@@ -36,7 +42,10 @@ Here PDEs, ODEs, and integral equation of mathematical physics, special function
 
 * A. Cannas da Silva, A. Weinstein, _Geometric models for noncommutative algebras_, 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
 
-## [[integrable system|Integrable systems]] and [[solitons]]
+## Integrable systems and solitons
+
+On [[integrable system]]s and [[soliton]]s:
+
 
 * O. Babelon, D. Bernard, M. Talon, *Introduction to classical integrable systems*, Cambridge Univ. Press 2003.
 
@@ -47,6 +56,8 @@ Here PDEs, ODEs, and integral equation of mathematical physics, special function
 * Ludwig D. Faddeev, Leon Takhtajan, _Hamiltonian methods in the theory of solitons_, Springer
 
 ## Modern mathematical approaches to QFT and strings
+
+On [[quantum field theory]] and [[string theory]]:
 
 * Yvonne Choquet-Bruhat, Cecile Dewitt-Morette, *Analysis, manifolds and physics*, 1982 and 2001
 
@@ -74,7 +85,9 @@ Here PDEs, ODEs, and integral equation of mathematical physics, special function
 
 * R. S. Ward, R. O. Wells, *Twistor geometry and field theory* (CUP, 1990)
 
-## [[CFT|Conformal field theory]] and vertex algebras
+## Conformal field theory and vertex algebras
+
+On [[conformal field theory]] and [[vertex operator algebras]]:
 
 * Martin Schottenloher, *A mathematical introduction to conformal field theory*
 
