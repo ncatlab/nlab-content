@@ -269,6 +269,10 @@ Derivators were also recently used by [[Gonçalo Tabuada]] in a universal charac
 
 * Gon&#231;alo Tabuada, "Higher K-theory via universal invariants" [arXiv](http://arxiv.org/abs/0706.2420).
 
+An informal discussion of derivators as a 2-categorical too for studying $(\infty,1)$-categories is at
+
+* [[Mike Shulman]], _Squeezing Higher Categories out of Lower Categories_ ([blog](http://golem.ph.utexas.edu/category/2010/05/squeezing_higher_categories_ou.html))
+
 [[!redirects derivators]]
 [[!redirects prederivator]]
 [[!redirects prederivators]]
