@@ -25,17 +25,17 @@ This is _not_ a contradiction to the statement that compact is equivalent to eve
 ### a Compact Space that is not Sequentially Compact ###
 A famous example of a space that is compact, but not sequentially compact, is the product space
 $$
-    I^{I} := [0, 1]^{[0, 1]}
+    \{0,1\}^{I} := \{0, 1\}^{[0, 1]}
 $$
 with the [[product topology]]. It is compact by the [[Tychonoff theorem]]. 
 
-Points of $I^{I}$ are functions $I \to I$, and the product topology is the topology of pointwise convergence.
+Points of $\{0,1\}^{I}$ are functions $I \to \{0,1\}$, and the product topology is the topology of pointwise convergence.
 
-Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the binary expansion of $x$.  Let $a \coloneqq (a_{n_k})$ be a subsequence and define $p_a \in I$ by the binary expansion that has a $0$ in the $n_k$th position if $k$ is even and a $1$ if $k$ is odd (and, for definiteness, define it to be $0$ elsewhere).  Then the projection of $(a_{n_k})$ at the $p_a$th coordinate is $1, 0, 1,0,...$ which is not convergent.  Hence $(a_{n_k})$ is not convergent.
+Define a sequence $(a_n)$ in $I^{I}$ with $a_n(x)$ being the nth digit in the binary expansion of $x$ (we make the convention that binary expansions do not end in sequences of $1$s).  Let $a \coloneqq (a_{n_k})$ be a subsequence and define $p_a \in I$ by the binary expansion that has a $0$ in the $n_k$th position if $k$ is even and a $1$ if $k$ is odd (and, for definiteness and to ensure that this fits with our convention, define it to be $0$ elsewhere).  Then the projection of $(a_{n_k})$ at the $p_a$th coordinate is $1, 0, 1,0,...$ which is not convergent.  Hence $(a_{n_k})$ is not convergent.
 
 (Basically that's the diagonal trick of [[Cantor's theorem]]).
 
-However, as $I^I$ is compact, $a$ has a convergent subnet.  An explicit construction of a convergent subset, given a cluster point $a$, is as follows.  A function $a \colon I \to I$ is a cluster point of $(a_n)$ if, for any $p_1, \dots, p_n \in I$ the set
+However, as $\{0,1\}^I$ is compact, $a$ has a convergent subnet.  An explicit construction of a convergent subset, given a cluster point $a$, is as follows.  A function $a \colon I \to \{0,1\}$ is a cluster point of $(a_n)$ if, for any $p_1, \dots, p_n \in I$ the set
 
 $$
 A(p_1,\dots,p_n) \coloneqq \{k \in \mathbb{R} : a_k(p_i) = a(p_i) \forall i\}
@@ -50,7 +50,7 @@ $$
 This is a convergent subnet.
 
 #### References ####
-This counterexample is also explained in item 105 of the book
+This counterexample is based on the one in item 105 of the book
 
 * Steen, Seebach: _Counterexamples in Topology_
 
@@ -63,6 +63,12 @@ The following is a list of properties of and pertaining to sequentially compact 
 1. For a [[metric space]], the notions of sequential compactness and compactness coincide.
 
 2. The [[Eberlein–Šmulian theorem]] states that in a [[Banach space]], for a subset with regard to the [[weak topology]], compactness and sequentially compactness are both equivalent to the weaker notion of [[countable compactness]].
+
+3. A [[countable]] product of sequentially compact spaces is again sequentially compact.
+
+   Let $\{X_k\}$ be a countable family of sequentially compact spaces.  Let $(a_l)$ be a sequence in $\prod X_k$.  For each $m$ we recursively define an infinite subset $A_m \subseteq A_{m-1} \subseteq \mathbb{N}$ with the property that the sequence $(a_l)_{l \in A_m}$ converges when projected down to $\prod_{k=1}^m X_k$.  Let $l_m = \min\{A_l\}$.  Consider the sequence $(a_{l_m})$.  For each $k$, we choose a limit $x_k$ of the projection of $(a_l)_{l \in A_k}$ to $X_k$.  Let $x = (x_k) \in \prod X_k$.  Let $U$ be a neighbourhood of $x$.  Then there is some $n \in \mathbb{N}$ and neighbourhood $U_n \subseteq \prod_{k=1}^n X_k$ of $(x_k)_{k=1}^n$ such that $U$ contains the preimage of $U_n$.  For $m \ge n$, the sequence $(l_m)$ is contained in $A_n$ and so the image of $(a_{l_m})$ converges to $(x_k)_{k=1}^n$.  Hence there is some $r$ such that for $m \ge r$, the projection of $a_{l_m}$ lies in $U_n$.  Hence for $m \ge r$, $a_{l_m} \in U$.  Thus $(a_{l_m})$ converges to $(x_k)$ and so $\prod X_k$ is sequentially compact.
+
+   This shows that the example of a compact space that is not sequentially compact is about as simple as can be.
 
 [[!redirects sequentially compact]]
 [[!redirects sequential compactness]]
