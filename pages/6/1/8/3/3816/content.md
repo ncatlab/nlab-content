@@ -8,4 +8,6 @@ A **soliton solution** of a nonlinear wave equation is a solution whose large am
 
 * [[Ludwig Fadeev|Ludwig D. Faddeev]], Leon Takhtajan, _Hamiltonian methods in the theory of solitons_, Springer, (transl. from Russian &#1043;&#1072;&#1084;&#1080;&#1083;&#1100;&#1090;&#1086;&#1085;&#1086;&#1074; &#1087;&#1086;&#1076;&#1093;&#1086;&#1076; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1089;&#1086;&#1083;&#1080;&#1090;&#1086;&#1085;&#1086;&#1074;. &#8212; &#1052;.: &#1053;&#1072;&#1091;&#1082;&#1072;. 1986.)
 
-* L. D. Faddeev, V. E. Korepin, _Quantum theory of solitons_, 1987
+* [[Ludwig Fadeev|L. D. Faddeev]], V. E. Korepin, _Quantum theory of solitons_, 1987
+
+[[!redirects solitons]]
