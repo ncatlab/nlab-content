@@ -8,3 +8,4 @@ More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective fu
 
 
 [[!redirects faithful]]
+[[!redirects faithful functors]]
