@@ -13,14 +13,20 @@
 
 In _synthetic differential geometry_ one formulates [[differential geometry]] axiomatically in [[topos]]es -- called [[smooth topos]]es --  of [[generalized smooth space]]s. 
 
-The main point of the axioms is to ensure that a well defined notion of [[infinitesimal space]]s exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about te role of infinitesimals in [[differential geometry]].
+The main point of the axioms is to ensure that a well defined notion of [[infinitesimal space]]s exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about the role of infinitesimals in [[differential geometry]].
 
 In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object]]s in the [[cartesian closed category]] $E$). So a tangent vector in this context literally is an _infinitesimal path_ in $X$.
 
 This way, in [[smooth topos]]es it is possible to give precise well-defined meaning to many of the familiar computations -- wide-spread in particular in the [[physics]] literature -- that compute with supposedly "infinitesimal" quantities.
 
-As quoted by Anders Kock in his book (see below), Sophus Lie once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see [[analytic versus synthetic]]) through lack of a formalized language.  Synthetic differential geometry provides this formalized language.
+As quoted by Anders Kock in his first book ([p. 9 ](http://home.imf.au.dk/kock/sdg99.pdf#page=9)), Sophus Lie once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see [[analytic versus synthetic]]) through lack of a formalized language:
 
+> "The reason why I have postponed for so long these investigations, which are basic to my other work in this field, is essentially the following. I found these theories originally by synthetic considerations. But I soon realized that, as expedient ( _zweckm&#228;ssig_ ) the synthetic method is for discovery, as difficult it is to give a clear exposition on synthetic investigations, which deal with objects that till now have almost exclusively been considered analytically. After long vacillations, I have decided to use a half synthetic, half analytic form. I hope my work will serve to bring justification to the synthetic method besides the analytical one."
+
+(Allgemeine Theorie der partiellen Differentialgleichungen erster
+Ordnung, Math. Ann. 9 (1876).)
+
+Synthetic differential geometry provides this formalized language.
 
 ## Axiomatics
 
@@ -124,11 +130,9 @@ $$
 
 This is discussed at
 
-* [[differential forms in synthetic differential geometry]]
+* <a href="http://ncatlab.org/nlab/show/infinitesimal+object#SpacOfInfSimpl">Spaces of infinitesimal k-simplices</a>
 
-and
-
-* [[Chevalley-Eilenberg algebra in synthetic differential geomet|Chevalley-Eilenberg algebra in synthetic differential geometry]].
+* [[differential forms in synthetic differential geometry]].
 
 
 ## References
