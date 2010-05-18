@@ -188,9 +188,11 @@ A proof of the full statement in terms of [[quasi-categories]] is sketched in
 
 * [[André Joyal]], _Notes on quasi-categories_ ([pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf)).
 
-An argument is also given in example 1.2.3 of
+Probably the first full proof in print is given in
 
-* [[Jacob Lurie]], _[[Ek-Algebras]]_ .
+* [[Jacob Lurie]], _[[Ek-Algebras]]_ ,
+
+where it appears in example 1.2.3 as a direct consequence of a more general statement, corollary 1.1.10.
 
 ### Other low-dimensional cases
 
