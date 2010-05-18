@@ -371,6 +371,8 @@ Following section 1.2 of
 
 we write $\tilde D(k,n)$ for the space of all infinitesimal $k$-simplices in $R^n$. More precisely, this is defined as the formal dual of the algebra $C^\infty(\tilde D(k,n))$ defined as follows.
 
+Functions on spaces of infinitesimal $k$-simplices turn out to be degree $k$-differential forms. This provides a "synthetic" way of precisely thinking of wedge produts $d x \wedge dy$ etc as products of infinitesimals. As the following computations do show, the skew-commutativity of the wedge product is an inherent consequence of the nature of infinitesimals.
+
 #### Definition
 
 +-- {: .un_def}
