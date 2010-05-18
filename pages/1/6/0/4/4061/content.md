@@ -18,7 +18,7 @@ Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical
 
 ## Mathematical introduction to quantum mechanics
 
-on [[quantum mechanics]]:
+On [[quantum mechanics]]:
 
 * Anthony Sudbery, _Quantum mechanics and the particles of nature: An outline for mathematicians_
 
@@ -79,11 +79,19 @@ On [[quantum field theory]] and [[string theory]]:
 
 * V. S. Varadarajan, *Supersymmetry for mathematicians: an introduction*, AMS and Courant Institute, 2004.
 
+* R. S. Ward, R. O. Wells, *Twistor geometry and field theory* (CUP, 1990)
+
 * R. E. Borcherds, A. Barnard, *Lectures on QFT*, [arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014)
+
+* [[Anton Kapustin]], Topological field theory, higher categories, and their applications, ICM 2010 survey
+
+### Branes (mathematical aspects)
 
 * Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009.
 
-* R. S. Ward, R. O. Wells, *Twistor geometry and field theory* (CUP, 1990)
+* Hisham Sati, [[Geometric and topological structures related to M-branes]], [arXiv:1001.5020](http://arXiv.org/abs/1001.5020)
+
+* A. N. Kapustin, [[Dmitri Orlov|D. O. Orlov]], _Lectures on mirror symmetry, derived categories, and $D$-branes_, Russian Mathematical Surveys, 2004, 59:5, 907&#8211;940 (Russian version: [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=772&volume=59&year=2004&issue=5&fpage=101&what=fullt&option_lang=eng), [arxiv version: [arxiv:math.AG/0308173](http://arxiv.org/abs/math.AG/0308173)).  
 
 ## Conformal field theory and vertex algebras
 
@@ -91,9 +99,11 @@ On [[conformal field theory]] and [[vertex operator algebras]]:
 
 * Martin Schottenloher, *A mathematical introduction to conformal field theory*
 
-* Philippe Di Francesco,Pierre Mathieu,David S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
+* Philippe Di Francesco, Pierre Mathieu, David S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
 
 * V. Kac, _Vertex algebras for beginners_, Amer. Math. Soc. 
+
+* B. Bakalov, A. Kirillov, _Lectures on tensor categories and modular functors_, AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
 ## Axiomatic quantum/statistical field theory and rigorous approaches to path integral
 
@@ -110,3 +120,7 @@ On [[conformal field theory]] and [[vertex operator algebras]]:
 * [http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References](http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References) (that list has most references in the area of theoretical physics and just a minority with rigor of mainstream mathematical physics)
 
 * in preparation: [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]
+
+* reference list of Movshev's sunysb [course on QM](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)
+
+* geometrical background for Kapustin's course at Caltech: [list](http://theory.caltech.edu/~kapustin/Ph229/recbooks.html)
