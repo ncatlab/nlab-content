@@ -63,3 +63,5 @@ and the pasting operations as above yield the usual definition of the isomorphis
 ## References
 
 * [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in Kelly (ed.), Category Seminar, LNM 420.
+
+* Tom Leinster, _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
