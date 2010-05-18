@@ -23,7 +23,9 @@ A cospan $A\to B \leftarrow C$ in a 2-category $K$ is **codiscrete** if it is co
 A **codiscrete cofibration** is a two-sided cofibration which is codiscrete as a cospan.
 
 
-### In enriched categories
+## Examples
+
+### Enriched categories
 
 We sketch a characterization of cofibrations in $V Cat$, where $V$ is any B&#233;nabou [[cosmos]].  Let $A\overset{f}{\to} B \overset{g}{\leftarrow} C$ be a cospan and let $D = (A\times I) +_A B +_C (C\times I)$.  We claim that $D$ has the following description.
 
@@ -51,6 +53,14 @@ Note that such a cofibration from $A$ to $C$ can be identified with the followin
 
 Now a 2-cell in $Cospan(A,C)$ is simply a natural transformation between functors $B \;\rightrightarrows\; X$ whose components on the images of $A$ and $C$ are isomorphisms.  Thus, if $B$ is a cofibration as above with the property that $B \setminus (A\cup C)$ is empty, then it must be codiscrete.  The converse is easy to check, taking $X$ to be the ordinal $4 = (0\le 1 \le 2\le 3)$ as a category.  But a gamut with $B'=\emptyset$ is nothing but a profunctor $A &#8696;C$; hence codiscrete cofibrations in $V Cat$ can be precisely identified with the collages of profunctors.
 
+### Toposes
+
+A codiscrete cofibration in the 2-category $Topoi$ of [[topoi]] can be identified with a [[left exact functor]].
+
+### Double categories
+
+Codiscrete cofibrations in the 2-category $Dbl$ of [[double categories]], [[double functors]], and [[horizontal transformations]] can be identified with [[double profunctors]].
+
 
 ## Construction of a proarrow equipment
 
@@ -74,10 +84,10 @@ The following definition is tentative.
 A 2-category with finite 2-colimits is **equippable** if it has a factorization system $(\mathcal{E},\mathcal{M})$ such that
 * Every morphism in $\mathcal{E}$ is representably co-faithful and co-conservative.
 * Every morphism in $\mathcal{M}$ is representably fully faithful.
-* Morphisms in $\mathcal{E}$ are closed under pushout and under copowers with $I$.
+* Morphisms in $\mathcal{M}$ are closed under pushout and under copowers with $I$.
 =--
 
-Co-conservative arrows are called **liberal**.  A **faithfully co-conservational bicategory**, in the sense of the paper (MB) referenced below, is an equippable bicategory in which $\mathcal{E}$ is precisely the class of liberal arrows, and all liberal arrows are also cofaithful.  The definition of equippable 2-category is a direct generalization of that of "faithfully co-conservational bicategory" to allow alternate factorization systems, so we will refer many proofs to their analogues in (MB).
+Co-conservative arrows are called **liberal**.  A **faithfully co-conservational bicategory**, in the sense of the paper (MB) referenced below, is an equippable bicategory in which $\mathcal{E}$ is precisely the class of liberal arrows, and all liberal arrows are also cofaithful; in this case the arrows of $\mathcal{M}$ are called **strong conservative**.  The definition of equippable 2-category is a direct generalization of that of "faithfully co-conservational bicategory" to allow alternate factorization systems, so we will refer many proofs to their analogues in (MB).
 
 +--{: .query}
 [[Mike Shulman]]: Disclaimer: I have not carefully checked that the above definition isolates exactly the properties necessary for the proofs to go through, but I believe it does.
@@ -85,15 +95,19 @@ Co-conservative arrows are called **liberal**.  A **faithfully co-conservational
 
 Examples include:
 
-* $V Cat$ is equippable for any suitable $V$, where $\mathcal{E}$ is the class of essentially surjective functors and $\mathcal{M}$ is the class of $V$-fully-faithful functors.
+* $V Cat$ is equippable for any suitable $V$, where $\mathcal{E}$ is the class of essentially surjective functors and $\mathcal{M}$ is the class of $V$-fully-faithful functors.  This is a special case of a general 2-categorical situation considered below.
 
-* A functor between [[Cauchy completion|Cauchy complete]] $V$-categories is essentially surjective if and only if it is liberal.  Therefore, $V Cat_{cc}$ is faithfully co-conservational.  However, $V Cat$ is not co-conservational: liberal functors between non-Cauchy-complete categories need not be preserved by pushout.
+* A functor between [[Cauchy completion|Cauchy complete]] $V$-categories is essentially surjective if and only if it is liberal.  Therefore, $V Cat_{cc}$ is faithfully co-conservational.  However, $V Cat$ is not co-conservational: strong-conservative functors between non-Cauchy-complete categories are not only $V$-fully faithful but closed under retracts, and these need not be preserved by pushout, even when $V=Set$.
 
 In an equippable 2-category $K$, we can define the composite of two codiscrete cofibrations $A \to B \leftarrow C$ and $C\to D \leftarrow E$ by first taking the pushout $B +_C D$, and then factoring the morphism $A+E \to B +_C D$ as an $\mathcal{E}$-map followed by an $\mathcal{M}$-map, $A+E \to G \to B +_C D$.  By (MB, 4.18), the resulting cospan $A \to D \leftarrow E$ is a cofibration, and since $A+E \to G$ is in $\mathcal{E}$, it is cofaithful and liberal, hence $G$ is codiscrete.
 
 One can then show (MB, section 4) that there is a 2-category $CdCofib(K)$ with the same objects as $K$ and with codiscrete cofibrations as 1-morphisms, and a locally fully faithful identity-on-objects (pseudo) 2-functor $(-)_* K\to CdCofib(K)$ such that each 1-morphism $f_*$ has a right adjoint.  Therefore, $K$ is canonically a [[2-category equipped with proarrows]] (hence the term "equippable").
 
 One can then impose additional axioms on $K$ to get good behavior of this equipment, and try to characterize the equipments arising in this way; see (MB, section 5) and (PC).
+
+### The strongly fully faithful factorization system
+
+...
 
 
 ## References
