@@ -36,7 +36,7 @@ Mo [label="Montel", href="http://ncatlab.org/nlab/show/Montel topological vector
 Sc [label="Schwartz", href="http://ncatlab.org/nlab/show/Schwartz topological vector space", shape=box];
 UB [label="Ultrabornological", href="http://ncatlab.org/nlab/show/Ultrabornological topological vector space", shape=box];
 Fr [label="Fr&#233;chet", href="http://ncatlab.org/nlab/show/Fr&#233;chet topological vector space", shape=box];
-DF [label="Dual-Fr&#233;chet", href="http://ncatlab.org/nlab/show/Dual-Fr&#233;chet topological vector space", shape=box];
+DF [label="DF", href="http://ncatlab.org/nlab/show/DF topological vector space", shape=box];
 No [label="Normed", href="http://ncatlab.org/nlab/show/Normed topological vector space", shape=box];
 Re [label="Reflexive", href="http://ncatlab.org/nlab/show/Reflexive topological vector space", shape=box];
 Cn [label="Convenient", href="http://ncatlab.org/nlab/show/Convenient topological vector space", shape=box];
