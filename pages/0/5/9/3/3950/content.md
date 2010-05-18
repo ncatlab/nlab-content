@@ -81,7 +81,7 @@ The following definition is tentative.
 
 +-- {: .un_defn}
 ###### Definition
-A 2-category with finite 2-colimits is **equippable** if it has a factorization system $(\mathcal{E},\mathcal{M})$ such that
+A 2-category with finite 2-colimits is **equippable** if it has a [[factorization system in a 2-category|factorization system]] $(\mathcal{E},\mathcal{M})$ such that
 * Every morphism in $\mathcal{E}$ is representably co-faithful and co-conservative.
 * Every morphism in $\mathcal{M}$ is representably fully faithful.
 * Morphisms in $\mathcal{M}$ are closed under pushout and under copowers with $I$.
