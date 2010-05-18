@@ -26,7 +26,7 @@ Notice (as discussed at the relevant entries) that
 
 * every combinatorial model category can be enhanced to a [[combinatorial simplicial model category]];
 
-* that the full [[enriched category|enriched]] subcategories $A^\cir$ of these on fibrant-cofibrant objects are the [[locally presentable (∞,1)-categories]];
+* that the full [[enriched category|enriched]] subcategories $A^\circ$ of these on fibrant-cofibrant objects are the [[locally presentable (∞,1)-categories]];
 
 * that under this correspondence the global [[model structure on simplicial presheaves]] models the corresponding [[(∞,1)-category of (∞,1)-presheaves]]
 
@@ -45,7 +45,7 @@ $$
   \,.
 $$
 
-This [[(∞,1)-category]] theortic interpretation of Dugger's theorem is is proposition A.3.7.6 in 
+This [[(∞,1)-category]] theortic interpretation of Dugger's theorem is proposition A.3.7.6 in 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
