@@ -268,6 +268,10 @@ with some constant $C_{ij} \in \mathbb{C}$.
 
 ## References ##
 
+The first real-comprehensive physics textbook on CFT was
+
+* Philippe Di Francesco,Pierre Mathieu,David S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
+
 ### CFT on the plane
 
 A textbook directed at mathematicians and explaining the "classical" concept of a CFT, i.e. without reference to categories, is this:
