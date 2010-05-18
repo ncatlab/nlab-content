@@ -16,7 +16,7 @@ Write $\square$ for the "free-living commutative square"
 $$\array{ & \overset{}{\to} & \\
   \downarrow && \downarrow\\
   & \underset{}{\to} & }$$
-and let $L$ and $R$ denote the upper-left [[span]] and the lower-right [[cospan]] as subcategories of $\square$, with inclusions $i\colon L\to \square$ and $j \colon R\to \square$.  An object $X\in D(\square)$ is said to be **cartesian** if the unit $X\to j_* j^* X$ is an isomorphism, and dually **cocartesian** if the counit $i_! i^* X\to X$ is an isomorphism.  Since $i$ and $j$ are fully faithful, it follows from a general theorem about derivators that $i_!$ and $j_*$ are also fully faithful; thus being cartesian is equivalent to being of the form $j_* Y$ for some $Y\in D(R)$, and likewise being cocartesian is equivalent to being of the form $i_! Z$.
+and let $L$ and $R$ denote the upper-left [[span]] and the lower-right [[cospan]] as subcategories of $\square$, with inclusions $i\colon L\to \square$ and $j \colon R\to \square$.  For a [[derivator]] $D$, an object $X\in D(\square)$ is said to be **cartesian** if the unit $X\to j_* j^* X$ is an isomorphism, and dually **cocartesian** if the counit $i_! i^* X\to X$ is an isomorphism.  Since $i$ and $j$ are fully faithful, it follows from a general theorem about derivators that $i_!$ and $j_*$ are also fully faithful; thus being cartesian is equivalent to being of the form $j_* Y$ for some $Y\in D(R)$, and likewise being cocartesian is equivalent to being of the form $i_! Z$.
 
 A derivator $D$ is **stable** (or **triangulated**) if it is [[pointed derivator|pointed]], and moreover an $X\in D(\square)$ is cartesian if and only if it is cocartesian.  Such a square is then called **bicartesian**.
 
