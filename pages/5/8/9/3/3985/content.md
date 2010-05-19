@@ -99,7 +99,7 @@ For $C$ an [[(∞,1)-category]] with small [[limit in a quasi-category|colimits]
 
 Notice that this definition has some immediate consequences:
 
-The identity $Id_\emptyset$ on the [[initial object]] of $C$, which is the initial object in $Func(\Delta[1],C)$ is in $S$, since it is the colimit of the empty diagram. Moreover, every [[equivalence in a quasi-category|equivalence]] is a [[pushout]] of $Id_{\emptyset}$$ so
+The identity $Id_\emptyset$ on the [[initial object]] of $C$, which is the initial object in $Func(\Delta[1],C)$ is in $S$, since it is the colimit of the empty diagram. Moreover, every [[equivalence in a quasi-category|equivalence]] is a [[pushout]] of $Id_{\emptyset}$ so
 
 * A strongly saturated class contains every [[equivalence in a quasi-category|equivalence]].
 
