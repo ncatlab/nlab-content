@@ -1,6 +1,16 @@
-##The idea
 
-In the category [[Set]] a 'pullback' is a subset of the cartesian product of two sets.  Given a diagram of sets and functions like this:
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+In the category [[Set]] a 'pullback' is a [[subset]] of the [[cartesian product]] of two [[set]]s.  Given a [[diagram]] of [[set]]s and [[function]]s like this:
+
 $$
   \array{
      && A &&&& B
@@ -18,11 +28,13 @@ $$
      
   }
 $$
+
 the 'pullback' of this diagram is the subset $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that $f(a) = g(b)$.  
 
-This construction comes up, for example, when $A$ and $B$ are fiber bundles over $C$: then $X$ as defined above is the product of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, a pullback is sometimes called a [[fibered product]].
+This construction comes up, for example, when $A$ and $B$ are [[fiber bundle]]s over $C$: then $X$ as defined above is the [[product]] of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, a pullback is sometimes called a [[fibered product]].
 
-Note that there are maps $p_A : X \to A$, $p_B : X \to B$ sending any $(a,b) \in X$ to $a$ and $b$, respectively.  These maps make this square commute:
+Note that there are maps $p_A : X \to A$, $p_B : X \to B$ sending any $(a,b) \in X$ to $a$ and $b$, respectively.  These maps make this [[commuting diagram|square commute]]:
+
 $$
   \array{
      &&&& X 
@@ -45,7 +57,8 @@ $$
   }
 $$
 
-In fact, the pullback is the [[universal property|universal]] solution to finding a commutative square like this.  In other words, given _any_ commutative square 
+In fact, the pullback is the [[universal property|universal]] solution to finding a commutative square like this.  In other words, given _any_ [[commutative diagram|commutative square]] 
+
 $$
   \array{
      &&&& Y
@@ -67,15 +80,21 @@ $$
      &&&&
   }
 $$
+
 there is a unique function $h: X \to Y$ such that 
+
 $$ q_A h = p_A $$
+
 and
+
 $$ q_B h = p_B .$$
+
 Since this universal property expresses the concept of pullback purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[limit]].
 
-##Definition
+## Definition
 
 A **pullback** is a [[limit]] of a [[diagram]] like this:
+
 $$
   \array{
      && a &&&& b
@@ -93,7 +112,9 @@ $$
      
   }
 $$
-Such a diagram is called a [[cospan]].  If the limit exists, we obtain a commutative square
+
+Such a diagram is also called a *pullback diagram** or a [[cospan]].  If the [[limit]] exists, we obtain a commutative square
+
 $$
   \array{
      &&&& x 
@@ -115,11 +136,63 @@ $$
      &&&&
   }
 $$
-and the object $x$ is also called the **pullback**.  It has the universal property already described above in the special case of the category $Set$.
+
+and [[generalized the|the]] object $x$ is also called the **pullback**. It is well defined up to unique [[isomorphism]]. It has the universal property already described above in the special case of the category $Set$.
 
 The last commutative square above is called a __pullback square__.
 
-Note that the concept of pullback is dual to the concept of [[pushout]]: that is, a pullback in $C$ is the same as a pushout in $C^{op}$.
+The concept of pullback is dual to the concept of [[pushout]]: that is, a pullback in $C$ is the same as a pushout in the [[opposite category]] $C^{op}$.
+
+## Properties
+
+### As an equalizer
+
+If [[product]]s exist in $C$, then the pullback
+
+$$
+  \array{
+     a \times_c b &\to& a
+     \\
+     \downarrow && \downarrow^{\mathrlap{f}}
+     \\
+     b &\stackrel{g}{\to}& c
+  }
+$$
+
+is equivalently the [[equalizer]]
+
+$$
+  a \times_c b \to a \times b \stackrel{\overset{f p_1}{\to}}{\underset{g p_2}{\to}}
+  c
+$$
+
+of the two morphisms induced by $f$ and $g$ out of the [[product]] of $a$ with $b$.
+
+### Pasting of pullbacks
+
+Consider a [[pasting diagram]] of the form
+
+$$
+  \array{
+     a &\to& b &\to& c
+     \\ 
+     \downarrow && \downarrow && \downarrow
+     \\
+     d &\to& e &\to& f
+  }
+  \,.
+$$
+
+This are three commuting squares: the two inner ones and the outer one.
+
++-- {: .un_prop}
+###### Proposition
+
+If either two of these three squares are pullback squares, then so is the third.
+
+=--
+
+
 
 ## See also:
 * [[base change]]
