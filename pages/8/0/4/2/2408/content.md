@@ -8,5 +8,7 @@ category: people
 [[!redirects Vladimir Drinfeld]]
 [[!redirects Vladimir Drinfel'd]]
 [[!redirects Vladimir Drinfel'd]]
+[[!redirects Drinfeld]]
+[[!redirects Drinfel'd]]
 [[!redirects Владимир Дринфельд]]
 [[!redirects Володимир Дрінфельд]]
