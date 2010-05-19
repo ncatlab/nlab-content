@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
 # Coproducts
 * tic
 {: toc}
