@@ -1,4 +1,13 @@
-#Definition#
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 An **equalizer** is a [[limit]] over a [[diagram]] of the shape 
 $$
@@ -19,7 +28,7 @@ This means that for $f : c \to d$ and $g : c \to d$ two [[parallel morphisms]] i
   * pulled back to $Eq(f,g)$ both morphisms become [[equality|equal]]: $ (Eq(f,g) \to c \stackrel{f}{\to} d) = (Eq(f,g) \to c \stackrel{g}{\to} d) $
   * and $Eq(f,g)$ is the universal object with this property.
 
-#Examples#
+## Examples
 
 * In $C =$ [[Set]] the equalizer of two functions of sets is the subset of elements of $c$ on which both functions coincide.
 $$
