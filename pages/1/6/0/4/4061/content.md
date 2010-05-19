@@ -68,7 +68,7 @@ while the classic reference for this is:
 
 * Eric Poisson, _A relativist's toolkit. The mathematics of black-hole mechanics._ ([http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete)) (computationally oriented)
 
-For supergravity see the appropriate chapters in the above listed collection by Deligne et al. and the above book by Ward and Wells; and mainstream theoretical physics gravity textbooks by Misner and Thorpe; Schutz; Landau-Lifschitz vol. 2; Wald etc. 
+See also the above book by Ward and Wells; and mainstream theoretical physics gravity textbooks by Misner and Thorpe; Schutz; Landau-Lifschitz vol. 2; Wald; [[Chandrasekhar]] etc. For the [[supergravity]] see the appropriate chapters in the above listed collection by Deligne et al. or the references listed at [[supergravity]]. 
 
 ## Integrable systems and solitons
 
