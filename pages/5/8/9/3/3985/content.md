@@ -768,7 +768,7 @@ To see this, notice that it has a left inverse $y \times_{L y} y \to y$, given b
 ###### Proposition
 **(recognition of exact localizations, II)**
 
-Let $C$ be a [[locally presentable (∞,1)-category]] with [[pullback stability|pullback-stable]] colimits.
+Let $C$ be a [[locally presentable (∞,1)-category]] with [[universal colimits]].
 
 Let $S_0 \subset Mor(C)$ be a class of morphisms, and $S$ its strongly saturated class. If elements in $S_0$ land in $S$ under pullback, then $S$ is closed under pullback.
 
@@ -780,6 +780,34 @@ This is [[Higher Topos Theory|HTT, 6.2.1.2]].
 ###### Proof
 
 Using the fact that by assumption colimits in $C$ are preserved by pullback, one finds that the class $S'$ of morphisms whose pullback lands in $S$ is strongly saturated. 
+
+For instance for 
+
+$$
+  \array{
+     a &\stackrel{f}{\to}& b
+     \\
+     \downarrow^{\mathrlap{s}} && \downarrow^{\mathrlap{f_* s}}
+     \\
+     c &\to& d
+  }
+$$
+
+a [[pushout]] diagram and $h : y \to d$ any morphism, we have by [[universal colimits]] that
+
+$$
+  \array{
+     a \times_d y &\stackrel{f \times_d y}{\to}& b \times_d y
+     \\
+     \downarrow^{\mathrlap{(h \times_d c)^* s}} 
+      && 
+     \downarrow^{\mathrlap{h^* (f_* s) }}
+     \\
+     c \times_d y &\to& y
+  }
+$$
+
+is a pushout. This says that if $s$ had the property that its pullback $h^* f$ is in $S$, then since $S$ is stable under pushout also the pullback $h^* (f_* s) $ of its pushout is in $S$.
 
 Since this includes $S_0$ and since $S$ is the smallest strongly saturated class of morphisms containing $S$, we have $S \subset S'$ and hence $S$ is stable under pullback.
 
