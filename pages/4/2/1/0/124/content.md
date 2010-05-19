@@ -28,7 +28,7 @@ A quick formal definition is that an **(elementary) topos** is a category which
 
 There are alternative ways to state the definition; for instance,
 
-1. finite limits and
+1. [[finite limit]]s and
 2. [[power objects]].
 
 In a way, however, these concise definitions can be misleading, because a topos has a great deal of other structure, which plays a very important role but just happens to follow automatically from these basic axioms.  Most importantly, a topos is:
