@@ -41,14 +41,39 @@ The same holds for sigma-finite measures and [[normal states]]: Every sigma-fini
 ## Examples ##
 
 ### Counterexample For Dimension Two ###
-The counterexample is from the book by Parthasarathy (see references), which uses a different terminology from what we did, so we will have to introduce some new concepts: 
+See example 8.1 in the book by Parthasarathy (see references).
+Our Hilbert space is $\mathbb{R}^2$. Projections $P$ on it are either identical zero, the identity, or projections on a one dimensional subspace, so that these $P$ can be written in the [[bra-ket notation]] as
+$$
+ P = |u \rangle \langle u|
+$$
+with a unit vector $u$, i.e. $u \in \mathbb{R}^2, \|u\| = 1$. In this finite dimensional case sigma-finite and finite are equivalent, and a finite probability measure is equivalent to a (complex valued) function such that
+$$
+f(c u) = f(u)
+$$ 
 
-+-- {: .un_def}
-###### Definition
-A sigma-finite measure with $\rho(\mathbb{1}) = 1$ is called a (quantum) **probability distribution**.
-=-- 
 
-...
+$$
+\sum_i f(u_i) = 1
+$$ 
+for every scalar $c$ of modulus one, every unit vector $u$ and every orthonormal basis $\{u_1, u_2\}$. If there is a state that extends such a measure and therefore restricts to such a measure on projections, there would be a linear operator $T$ such that
+$$
+f(u) = \langle u | Tu \rangle
+$$
+for all unit vectors $u$.
+
+It turns out however that the conditions imposed on $f$ are not enough in two dimensions to enforce this kind of linearity of $f$. Heuristically, in three dimensions there are more rotations than in two, therefore the "rotational invariance" of (the conditions imposed on) $f$ is more restrictive in three dimensions than it is in two dimensions.
+
+In two dimensions, choose a function $g$ on $[0, \frac{\pi}{2})$ such that $0 \le g(\theta) \le 1$ everywhere. There are no further restrictions, that is $g$ need not be continuous, for example. Now we can define a probability measure on the projections by
+$$
+f(u) = 
+\begin{cases}
+
+  g(\theta) \; \; \text{for} \; \; 0 \le \theta \lt \frac{\pi}{2} \\
+  1 - g(\theta -  \frac{\pi}{2}) \; \; \text{for} \; \; \frac{\pi}{2} \le \theta \lt \pi \\
+  f(-u) \; \; \text{as defined in the first two items, else}
+\end{cases}
+$$
+This probability measure will in general not extend to a state.
 
 ## References ##
 
