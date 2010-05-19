@@ -123,6 +123,7 @@
 
 * [[canonical model structure|on higher categories in general]]
 
+* [[canonical model structure|canonical/folk model structure on categories]]
 
 ### for $\infty$-sheaves / $\infty$-stacks
 
