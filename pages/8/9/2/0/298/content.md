@@ -56,6 +56,8 @@ There is an interesting theory of deformation quantization of VOAs from
 * [[Pavel Etingof]], [[David Kazhdan]], _Quantization of Lie bialgebras. V. Quantum vertex operator algebras_, 
 Selecta Math. (N.S.) 6 (2000), no. 1, 105--130, [MR2002i:17022](http://www.ams.org/mathscinet-getitem?mr=2002i:17022)
 
+* E. Frenkel, N. Reshetikhin, _Towards deformed chiral algebras_, [q-alg/9706023](http://arXiv.org/abs/q-alg/9706023)
+
 and of chiral algebras due [[Dmitry Tamarkin]].
 
 [[!redirects vertex algebra]]
