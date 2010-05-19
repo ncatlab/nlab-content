@@ -6,7 +6,7 @@
 
 ## Definition
 
-A **simple group** is a [[group]] with no quotient groups except for the trivial group $\{1\}$ and the group itself. 
+A **simple group** is a [[group]] with no [[quotient group]] except for the trivial group $\{1\}$ and the group itself. 
 
 Equivalently, a simple group is a group possessing only two [[normal subgroup|normal subgroups]]: the trivial subgroup and the group itself. 
 
