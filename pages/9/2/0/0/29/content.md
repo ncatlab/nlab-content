@@ -1,11 +1,23 @@
+
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
 ## Idea
 
-Two [[objects]] of a [[category]] are isomorphic if they describe essentially the same concept, only possibly with different names.  An isomorphism is a specific way of translating one object to an isomorphic one.  Note that it\'s often not enough to know *that* two objects are isomorphic; you may need to know *how* they are isomorphic, that is to know the specific isomorphism in question.
+An isomorphism is an invertible [[morphism]].
+
+Two [[objects]] of a [[category]] are **isomorphic** if they are _essentially equal_ without necessarily actuall being equal.  An **isomorphism** is a specific way of translating one object to an isomorphic one.  Note that it\'s often not enough to know *that* two objects are isomorphic; you may need to know *how* they are isomorphic, that is to know the specific isomorphism in question.
 
 
 ##Definitions
 
-An __isomorphism__, or __iso__ for short, is an invertible [[morphism]], i.e. a [[morphism]] with a 2-sided [[inverse]].  A morphism could be called __isic__ (following the more common 'monic' and 'epic') if it is an isomorphism, but it\'s more common to simply call it _invertible_.  Two [[objects]] $x$ and $y$ are __isomorphic__ if there exists an isomorphism from $x$ to $y$ (or equivalently, from $y$ to $x$).  An __[[automorphism]]__ is an isomorphism from one object to itself.
+An __isomorphism__, or __iso__ for short, is an invertible [[morphism]], i.e. a [[morphism]] with a 2-sided [[inverse]].  
+
+A morphism could be called __isic__ (following the more common 'monic' and 'epic') if it is an isomorphism, but it\'s more common to simply call it _invertible_.  Two [[objects]] $x$ and $y$ are __isomorphic__ if there exists an isomorphism from $x$ to $y$ (or equivalently, from $y$ to $x$).  An __[[automorphism]]__ is an isomorphism from one object to itself.
 
 
 ## Properties
@@ -21,10 +33,15 @@ In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s
 
 ## Examples
 
-Normally, an isomorphism is just called an __isomorphism__; indeed, this terminology was used in algebra before the advent of category theory.  However, other terminology is used in some fields:
+
 *  A __[[bijection]]__ is an isomorphism in [[Set]].
+
 *  A __[[homeomorphism]]__ is an isomorphism in [[Top]].
+
 *  A __[[diffeomorphism]]__ is an isomorphism in [[Diff]].
+
+* Every morphism in a [[groupoid]] is an isomorphism. 
+  By definition of groupoid.
 
 
 [[!redirects isomorphic]]
