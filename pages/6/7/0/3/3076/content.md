@@ -17,12 +17,15 @@
 
   * [[preserved limit]], [[reflected limit]], [[created limit]]
 
+  * [[product]], [[fiber product]], [[base change]], [[coproduct]], [[pullback]], [[pushout]], [[cobase change]], [[equalizer]], [[coequalizer]], [[join]], [[meet]]
+
 * [[Kan extension]]
+
+  * [[Yoneda extension]]
 
 * [[weighted limit]]
 
 * [[end|end and coend]]
-
 
 
 ## 2-Categorical
@@ -47,7 +50,13 @@
 
   * [[homotopy pullback]]
 
+  * [[homotopy fiber]]
+
 * [[homotopy colimit]]
+
+  * [[homotopy pushout]]
+
+  * [[homotopy cofiber]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-limits+-+contents)</div>
