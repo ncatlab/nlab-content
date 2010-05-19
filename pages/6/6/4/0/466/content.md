@@ -9,7 +9,9 @@
 
 ## Idea
 
-The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]] and [[universal construction]]. 
+The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]], [[universal construction]], and [[universal element]]. 
+
+In brief, the principle is that the identity morphism $id_x: x \to x$ is the universal [[generalized element]] of $x$. This simple principle is surprisingly pervasive throughout category theory. 
 
 ## Preliminaries
 
