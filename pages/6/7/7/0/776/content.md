@@ -1,3 +1,13 @@
+
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
+## Definition
+
+
 In a [[category]] $C$ a diagram of morphisms of $C$ 
 $$U \underoverset{b}{a}{\rightrightarrows} V \overset{c}{\rightarrow} X $$
 is called a **coequalizer** diagram if 
@@ -6,6 +16,8 @@ is called a **coequalizer** diagram if
 
 This concept is a special case of that of [[colimit]]; specifically, its the colimit of the diagram
 $$U \underoverset{b}{a}{\rightrightarrows} V .$$
+
+A coequalizer in $C$ is an [[equalizer]] in the [[opposite category]] $C^{op}$.
 
 [[!redirects coequalizers]]
 [[!redirects coequaliser]]
