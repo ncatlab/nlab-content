@@ -1,4 +1,15 @@
-A __fibre product__ or __fiber product__ is simply a [[product]] in a [[over category|slice category]].  The fibre product of two morphisms is the same as their [[pullback]]; accordingly, a fiber product more than two morphisms is often called a __wide pullback__. 
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+A __fibre product__ or __fiber product__ is a [[product]] in a [[over category|slice category]].  The fibre product of two morphisms is the same as their [[pullback]]; accordingly, a fiber product more than two morphisms is often called a __wide pullback__. 
 
 More explicitly, for $f : A \to C$ and $g : B \to C$ two [[morphism]]s in a [[category]] $C$, the fiber product $A \times_C B$
 of $A$ with $B$ over $C$ is, if it exists, [[generalized the|the]] [[pullback]]
@@ -26,7 +37,7 @@ I just thought it was policy here. That's what the [[HowTo]] page says anyway. -
 That\'s only for page titles.  (I know, because I wrote it!)  Actually, now that we have a usable system of redirects, even that may not be so important.  The English Wikipedia does fine with a policy only of including redirects for alternate spellings.  ---Toby
 =--
 
-#Examples#
+## Examples
 
 In $C =$ [[Set]] the fiber product is given by the usual formula
 $$
