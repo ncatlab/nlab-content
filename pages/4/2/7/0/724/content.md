@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
 If $x$ and $y$ are elements of a [[partial order|poset]], then their **join**, or **supremum**, is an element $x \vee y$ of the poset such that:
 * $x \leq x \vee y$ and $y \leq x \vee y$;
 * if $x \leq a$ and $y \leq a$, then $x \vee y \leq a$.
