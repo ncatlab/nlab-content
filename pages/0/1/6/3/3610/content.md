@@ -1,7 +1,10 @@
 
 <div class="rightHandSide toc" markdown="1">
 [[!include (infinity,1)-topos - contents]]
+***
+[[!include infinity-Lie theory - contents]]
 </div>
+
 
 
 #Contents#
