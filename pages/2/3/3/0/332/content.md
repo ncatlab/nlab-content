@@ -21,6 +21,7 @@ See also [[topology]].
 * [[spectrum (geometry)]]
 * [[algebraic variety]], [[normal variety]], [[hyperplane line bundle]]
 * [[hyperplane section theorem]], [[BBDG decomposition theorem]]
+* [[rational map]], [[rational variety]], [[unirational variety]], [[birational map]], [[birational geometry]], [[image of a rational map]]
 * [[algebraic space]], [[algebraic stack]], [[topological stack]]
 * [[quasicoherent sheaf]], [[coherent sheaf]], [[relative scheme]]
 * [[smooth scheme]], [[smooth morphism of schemes]], [[etale morphism]], [[formally smooth morphism]]
@@ -44,4 +45,4 @@ There are many entries on [[sheaf]], [[stack]], [[site]], [[locale]] and [[topos
 
 * [[germ]], [[etale space]], [[soft sheaf]], [[flabby sheaf]], [[fine sheaf]], [[Grothendieck topos]], [[Grothendieck topology]], [[(infinity,1)-topos]], [[smooth topos]], [[(infinity,1)-category of (infinity,1)-sheaves]], [[cover]], [[hypercover]], [[local object]], [[local isomorphism]], [[coverage]], [[local epimorphism]], [[hypercompletion]], [[sieve]], [[Verdier site]], [[Grothendieck fibration]], [[Pierce spectrum]], [[Stone duality]], [[point of a topos]], [[geometric morphism]]... 
 
-and pages on various [[cohomology|cohomologies]], including [[sheaf cohomology]], [[nonabelian cohomology]], [[differential cohomology]], [[Deligne cohomology]], [[etale cohomology]], [[equivariant cohomology]], [[Bredon cohomology]] and their cocycle classes including [[torsors]], [[gerbes]], [[principal 2-bundles]] as well as the related picture of the [[descent]] theory (cf. [[oriental]], [[descent for simplicial presheaves]]...).
+and pages on various [[cohomology|cohomologies]], including [[sheaf cohomology]], [[nonabelian cohomology]], [[differential cohomology]], [[Deligne cohomology]], [[etale cohomology]], [[equivariant cohomology]], [[Bredon cohomology]] and their cocycle classes including [[torsors]], [[gerbes]], [[principal 2-bundles]] as well as the related picture of the [[descent]] theory (cf. [[oriental]], [[descent for simplicial presheaves]]...). A modern systematic theory of cohomology and descent can be done using the language of $(\infinity,1)$-categories and abstract [[homotopy theory]], say via Quillen [[model categories]] (e.g. of [[simplicial presheaves]]).  
