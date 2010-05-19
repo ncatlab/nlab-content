@@ -14,7 +14,13 @@ $$
 
 and contains all but six of the other 25 [[sporadic finite simple groups]] as [[subquotient]]s. 
 
-One construction gives $M$ as the [[automorphism group]] of a 196884-dimensional [[algebra]] called the [[Griess algebra]].
+In a famous paper 
+
+* Griess, _The Friendly Giant_ , Inventiones (1981)
+
+the existence of the largest simple sporadic group was proved. The author constructs "by hand" a non-associative but commutative algebra of dimension 196883, and showed that the [[automorphism group]] of this algebra is the conjectured friendly giant/monster simple group. The name "Friendly Giant" for the Monster did not take on.
+
+After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman and/or Borcherds showed that the Griess algebra is just the degree 2 part of the infinite dimensional [[Moonshine vertex algebra]].
 
 See also [[Moonshine]].
 
