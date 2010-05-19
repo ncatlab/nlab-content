@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
 If $x$ and $y$ are elements of a [[partial order|poset]], then their **meet**, or **infimum**, is an element $x \wedge y$ of the poset such that:
 * $x \wedge y \leq x$ and $x \wedge y \leq y$;
 * if $a \leq x$ and $a \leq y$, then $a \leq x \wedge y$.
