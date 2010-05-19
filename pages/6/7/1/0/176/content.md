@@ -285,14 +285,19 @@ A survey of some of the basic manipulationsin chiral CFT, motivated from a [[pat
 See also the references at [[vertex operator algebra]].
 
 
-### CFT on surfaces of arbitrary genus
+### CFT on complex curves/surfaces of arbitrary genus
 
-The special case of _rational_ conformal field theory has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--[[Ingo Runkel|Runkel]]--Schweigert
+For chiral part see
+
+* Edward Frenkel, David Ben-Zvi: _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS 2001,
+xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], __Chiral algebras__, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
+
+For full CFT, The special case of _rational_ CFT has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--[[Ingo Runkel|Runkel]]--Schweigert
 
 * [FRS reviews](http://golem.ph.utexas.edu/string/archives/000747.html)
 
 * [The FRS theorem of RCFT](http://golem.ph.utexas.edu/string/archives/000813.html)
-
-
 
 [[!redirects CFT]]
