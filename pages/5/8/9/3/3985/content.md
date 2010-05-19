@@ -36,7 +36,7 @@ $$
   \,.
 $$
 
-If $L$ moreover preserves finite [[limit in a quasi-category|limits]], then the embedding is called **exact**.
+If $L$ moreover is a left [[exact functor]] in that it preserves [[finite limit|finite]] [[limit in a quasi-category|limits]], then the embedding is called **exact**.
 
 =--
 
@@ -47,7 +47,7 @@ $$
   Loc := R \circ L : C \to C
 $$ 
 
-may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to [[equivalence in a quasi-category|equivalence]]s in $D$. If $L$ preserves finite a limits (is a left [[exact functor]]), then this is an **exact localization**
+may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to [[equivalence in a quasi-category|equivalence]]s in $D$. If $L$ preserves [[finite limit]]s (is a left [[exact functor]]), then this is an **exact localization**
 
 
 ### Local objects and local morphisms
@@ -549,7 +549,7 @@ Finally we can use that $f$ is terminal in the full subcategory $D_c$ of $C_{c/}
 
 ### Exact localizations {#ExactLocalizations}
 
-Recall that the reflective subcategory $D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$ is **exact** -- or $L$ an **exact localization** -- if $L$ preserves finite [[limit in a quasi-category|limits]].
+Recall that the reflective subcategory $D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$ is **exact** -- or $L$ an **exact localization** -- if $L$ is a left [[exact functor]] in that it preserves [[finite limit|finite]] [[limit in a quasi-category|limits]].
 
 Recall also that by the above results, a reflective subcategory is characterized by the collection $S = L^{-1}(equiv) \subset Mor(C)$ of those morphisms, that $L$ sends to equivalences in $D$.
 
@@ -587,14 +587,16 @@ This is [[Higher Topos Theory|HTT, prop. 6.2.1.1]].
 +-- {: .proof}
 ###### Proof
 
-If $L$ preserves finite limits, then it preserves pullbacks,
+If $L$ preserves [[finite limit]]s, then it preserves [[pullback]]s,
 so that $L(f')$ is a pullback of the equivalence $L(f)$, hence itself
 an equivalence.
 
 So it remains to check that, conversely, stability of $S$ under pullback
-implies that $L$ preserves finite limits. By the properties of [[limit in a quasi-category|limits]] it suffices to check that $L$ preserves all pullbacks if $S$ is stable under pullback.
+implies that $L$ preserves [[finite limits]]. By a general characterization of left [[exact functor]]s (see there) it suffices to check that $L$ preserves the [[terminal object]] and all [[pullback]]s.
 
-We first check that in this case $L$ preserves [[product]]s. For that it is sufficient to check that the morphism $L(x \times y) \to L(x) \times L(y)$ induced from the units $i_x : x \to L x$ and $i_y : y \to L y$ is in $S$. From inspection of the diagram
+Since the terminal object is evidently $S$-local, we have $L * \simeq *$.
+
+Next we check that $L$ preserves [[product]]s, because we will need this to show that all binary pullbacks are preserved. For that it is sufficient to check that the morphism $L(x \times y) \to L(x) \times L(y)$ induced from the units $i_x : x \to L x$ and $i_y : y \to L y$ is in $S$. From inspection of the diagram
 
 $$
   \array{
@@ -602,7 +604,7 @@ $$
     \\
     \uparrow && \uparrow
     \\
-     x \times y &\to& L x \times y
+     x \times y &\stackrel{(i_x,Id)}{\to}& L x \times y
     \\
     \downarrow && \downarrow
     \\
@@ -703,7 +705,7 @@ $$
     &\stackrel{\overset{i_y f}{\to}}{\underset{i_y g}{\to}}&    
     L y
     \\
-    \downarrow && \downarrow^{(i_x, Id)} &&  \downarrow^{Id}
+    \downarrow && \downarrow^{\mathrlap{(i_x, Id)}} &&  \downarrow^{Id}
     \\
     L x \times_{L y}  z
     &\to&
@@ -715,30 +717,49 @@ $$
     && \downarrow^{\mathrlap{Id}}
     \\
     L x \times_{L y} L z
+    &\to&
+    L x \times L z
     &\stackrel{\overset{L f}{\to}}{\underset{L g}{\to}}&        
     L y
   }
 $$
 
-Now one checks easily that the two bottom left squares are [[pullback]] squares. So the two left vertical morphisms are pullbacks of $(Id, i_z)$ and $(Id, i_x)$, respectively. Since $L$ preserves products, as shown above, these two morphisms are in $S$. Hence by the assumed pullback-stablity of $S$ the last two left vertical morphisms are in $S$:
+It is immediate to check that the two bottom left squares are [[pullback]] squares. So the two left vertical morphisms are pullbacks of $(Id, i_z)$ and $(i_x, Id)$, respectively. Of morphisms of this form we had seen above that they are in $S$. Hence by the assumed pullback-stability of $S$ also $x \times_{L y} z \to L x \times_{L y} z \to L x \times_{L y} L z$ is in $S$.
 
 
 So it remains to show that $x \times_y z \to x \times_{L y} z$ is in $S$. 
-By doodling around a bit one finds that this morphism in turn may be expressed itself as the pullback 
+We claim that this morphism in turn may be expressed as a pullback 
 
 $$
   \array{
-    x \times_y z &\to& &\to& y
+    x \times_y z &\to& y
     \\
-    \downarrow && \downarrow &&  \downarrow
+    \downarrow && \downarrow
     \\
-    x \times_{L y} z &\to& x \times z &\to& y \times_{L y} y
+    x \times_{L y} z &\to& \times_{L y} y
   }
 $$
 
-of the diagonal $y \to y \times_{L y} y$.
+of the diagonal $y \to y \times_{L y} y$. To see this notice that cones $q$ over the corresponding pullback diagram are equivalently diagrams
 
-So now we need to show that _this_ is in $S$. We observe that it has a left inverse $y \times_{L y} y \to y$. So if finally we show that _this_ is in $S$, we are done. But this follows now from the assumptions, because this last morphism is the pullback of $y \to L y$ along itself
+$$
+  \array{
+     &&  q
+     \\
+     & \swarrow &\downarrow& \searrow
+     \\
+     x &\to& y &\leftarrow& z
+     \\
+     & \searrow &\downarrow& \swarrow
+     \\
+     && L y
+  }
+  \,.
+$$
+
+So now we need to show that the diagonal $y \to y \times_{L y} y$ is in $S$. 
+
+To see this, notice that it has a left inverse $y \times_{L y} y \to y$, given by any one of the two projections. So if finally we show that _this_ is in $S$, we are done, since $S$ satisfies 2-out-of-3. But this follows now from pullback stability of $S$, because this projection is the pullback of $y \to L y$ along itself.
 
 =--
 
@@ -753,10 +774,14 @@ Let $S_0 \subset Mor(C)$ be a class of morphisms, and $S$ its strongly saturated
 
 =--
 
+This is [[Higher Topos Theory|HTT, 6.2.1.2]].
+
 +-- {: .proof}
 ###### Proof
 
-Obsrve that the collection $S'$ of morphisms whose pullback lands in $S$ is stronglyy saturated. Since this includes $S_0$ and since $S$ is the smallest strongly saturated class of morphisms containing $S$, we have $S \subset S'$ and hence $S$ is stable under pullback.
+Using the fact that by assumption colimits in $C$ are preserved by pullback, one finds that the class $S'$ of morphisms whose pullback lands in $S$ is strongly saturated. 
+
+Since this includes $S_0$ and since $S$ is the smallest strongly saturated class of morphisms containing $S$, we have $S \subset S'$ and hence $S$ is stable under pullback.
 
 =--
 
