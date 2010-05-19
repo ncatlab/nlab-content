@@ -22,7 +22,7 @@ On [[quantum mechanics]]:
 
 * Anthony Sudbery, _Quantum mechanics and the particles of nature: An outline for mathematicians_
 
-* Leon A. Takhtajan, *Quantum mechanics for mathematicians*, Graduate Studies in Mathematics 95, Amer. Math. Soc. 2008.
+* Leon A. Takhtajan, *Quantum mechanics for mathematicians*, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
 
 ## Geometry and symmetries in classical and QM, but not much QFT 
 
@@ -49,7 +49,7 @@ On [[integrable system]]s and [[soliton]]s:
 
 * O. Babelon, D. Bernard, M. Talon, *Introduction to classical integrable systems*, Cambridge Univ. Press 2003.
 
-* T. Miwa, M. Jimbo, E. Date, _Solitons: Differential equations, symmetries and infinite dimensional algebras_, Cambridge Tracts in Mathematics 135, translated from Japanese by Miles Reid 
+* T. Miwa, M. Jimbo, E. Date, _Solitons: Differential equations, symmetries and infinite dimensional algebras_, Cambridge Tracts in Mathematics __135__, translated from Japanese by Miles Reid 
 
 * V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
 
@@ -61,7 +61,7 @@ On [[quantum field theory]] and [[string theory]]:
 
 * Yvonne Choquet-Bruhat, Cecile Dewitt-Morette, *Analysis, manifolds and physics*, 1982 and 2001
 
-* Albert Schwartz, *Quantum field theory and topology*, Grundlehren der Math. Wissen. 307, Springer 1993. (translated from Russian original)
+* Albert Schwartz, *Quantum field theory and topology*, Grundlehren der Math. Wissen. __307__, Springer 1993. (translated from Russian original)
 
 * Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) 
 
@@ -95,15 +95,20 @@ On [[quantum field theory]] and [[string theory]]:
 
 ## Conformal field theory and vertex algebras
 
-On [[conformal field theory]] and [[vertex operator algebras]]:
+On [[conformal field theory]] and its chiral part ([[vertex operator algebras]], [[chiral algebras]]):
 
-* Martin Schottenloher, *A mathematical introduction to conformal field theory*
+* Edward Frenkel, David Ben-Zvi: _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS 2001,
+xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
 
-* Philippe Di Francesco, Pierre Mathieu, David S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
+* Martin Schottenloher, *A mathematical introduction to conformal field theory* (CFT on the plane)
+
+* Philippe Di Francesco, Pierre Mathieu, David S&#233;n&#233;chal, _Conformal field theory_, Springer 1997 (comprehensive textbook for theoretical physicists)
 
 * V. Kac, _Vertex algebras for beginners_, Amer. Math. Soc. 
 
 * B. Bakalov, A. Kirillov, _Lectures on tensor categories and modular functors_, AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], __Chiral algebras__, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
 
 ## Axiomatic quantum/statistical field theory and rigorous approaches to path integral
 
@@ -113,7 +118,7 @@ On [[conformal field theory]] and [[vertex operator algebras]]:
 
 * James Glimm, Arthur Jaffe, *Quantum physics: a functional integral point of view*, Springer
 
-* Sergio Albeverio, Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Academic Press 1986 (there is also a Dover 2009 edition and a 1990 Russian translation)
+* Sergio Albeverio, Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Acad. Press 1986 (there is also a Dover 2009 edition, and a 1990 Russian translation)
 
 ## Other reference lists
 
