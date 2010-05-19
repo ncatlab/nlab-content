@@ -768,9 +768,9 @@ To see this, notice that it has a left inverse $y \times_{L y} y \to y$, given b
 ###### Proposition
 **(recognition of exact localizations, II)**
 
-Let $C$ be a [[locally presentable (∞,1)-category]] with [[universal colimits]].
+Let $C$ be a [[locally presentable (∞,1)-category]] with [[universal colimits]]. Let $S_0 \subset Mor(C)$ be a class of morphisms, and $S$ the smallest strongly saturated class containing it. 
 
-Let $S_0 \subset Mor(C)$ be a class of morphisms, and $S$ its strongly saturated class. If elements in $S_0$ land in $S$ under pullback, then $S$ is closed under pullback.
+If elements in $S_0$ land in $S$ under pullback, then $S$ is closed under pullback.
 
 =--
 
@@ -781,7 +781,7 @@ This is [[Higher Topos Theory|HTT, 6.2.1.2]].
 
 Using the fact that by assumption colimits in $C$ are preserved by pullback, one finds that the class $S'$ of morphisms whose pullback lands in $S$ is strongly saturated. 
 
-For instance for 
+In detail, for 
 
 $$
   \array{
@@ -809,7 +809,11 @@ $$
 
 is a pushout. This says that if $s$ had the property that its pullback $h^* f$ is in $S$, then since $S$ is stable under pushout also the pullback $h^* (f_* s) $ of its pushout is in $S$.
 
-Since this includes $S_0$ and since $S$ is the smallest strongly saturated class of morphisms containing $S$, we have $S \subset S'$ and hence $S$ is stable under pullback.
+Analogously one finds that the full subcategory of $Func(\Delta[1], C)$ on $S'$ is stable under pushout. 
+
+Finally, that $S'$ satisfies 2-out-of-3 is the [pasting law for pullbacks](http://ncatlab.org/nlab/show/pullback#Pasting) together with 2-out-of-3 in $S$. 
+
+Now by assumption $S_0 \subset S'$ and since $S$ is the smallest strongly saturated class of morphisms containing $S$, also $S \subset S'$, which says that $S$ is stable under pullback.
 
 =--
 
