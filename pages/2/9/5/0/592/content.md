@@ -1,4 +1,15 @@
-#The idea
+
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 In the category [[Set]] a 'pushout' is a quotient of the disjoint union of two sets.  Given a diagram of sets and functions like this:
 
@@ -84,7 +95,7 @@ and
 $$ h j_A = i_B .$$
 Since this universal property expresses the concept of pushout purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[colimit]].  
 
-#Definition
+## Definition
 
 A **pushout** is a [[colimit]] of a [[diagram]] like this:
 
@@ -135,5 +146,7 @@ $$
 and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$.
 
 Note that the concept of pushout is dual to the concept of [[pullback]]: that is, a pushout in $C$ is the same as a pullback in $C^{op}$.
+
+See [[pullback]] for more details.
 
 [[!redirects pushouts]]
