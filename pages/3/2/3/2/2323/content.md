@@ -67,6 +67,7 @@
 
   * [[model structure on simplicial presheaves]]
 
+  * [[Verity on descent for strict omega-groupoid valued presheaves|descent for ∞-stacks with values in strict ∞-groupoids]]
 
 ## Constructions  ##
 
