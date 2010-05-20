@@ -113,7 +113,7 @@ On [[quantum field theory]] and [[string theory]]:
 
 * R. E. Borcherds, A. Barnard, *Lectures on QFT*, [arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014)
 
-* [[Anton Kapustin]], Topological field theory, higher categories, and their applications, ICM 2010 survey, [arxiv](http://arxiv.org/abs/1004.2307)
+* [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, [arxiv/1004.2307](http://arxiv.org/abs/1004.2307)
 
 ### Branes (mathematical aspects)
 
@@ -158,7 +158,7 @@ The related subject of positive energy representations for loop groups is repres
 
 ## Other reference lists
 
-* [http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References](http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References) (that list has most references in the area of theoretical physics and just a minority with rigor of mainstream mathematical physics)
+* [http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References](http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References) (that list has mostly references in the area of theoretical physics and just a minority with rigor of mainstream mathematical physics)
 
 * in preparation: [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]
 
