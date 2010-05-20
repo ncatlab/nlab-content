@@ -2,6 +2,10 @@ A **subquotient** of an object $X$ in some category is a [[quotient object]] of 
 
 Just as subobjects of a set $X$ are in correspondence with predicates on $X$ and quotients of $X$ are in correspondence with [[equivalence relation]]s on $X$, subquotients of $X$ are in correspondence with [[partial equivalence relation]]s on $X$.
 
+###Examples###
+
+
+In [[Grp]], all but six of the 26 [[sporadic finite simple groups]] are subquotients of the [[Monster group]], the largest such group.
 
 [[!redirects subquotient object]]
 [[!redirects subquotient set]]
