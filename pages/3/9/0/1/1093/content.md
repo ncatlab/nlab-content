@@ -11,8 +11,7 @@
 
 ## Idea
 
-This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$ -- a [[Grothendieck topos]]. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. This entry here is to be compared with the entry [[(∞,1)-category of (∞,1)-sheaves]] of which it is the 1-categorical shadow. An exposition is at [[models for ∞-stack (∞,1)-toposes]].
-
+This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$ -- a [[Grothendieck topos]]. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. 
 
 ## Definition
 
@@ -52,6 +51,14 @@ In [[topos]]-theoretic language we therefore have that
 [[Grothendieck topos|Sheaf toposes]] are precisely the [[geometric embedding|subtoposes]] of [[presheaf]] toposes.
 
 =--
+
+## In higher category theory
+
+The notion of _category of sheaves_ has analogs in [[higher category theory]].
+
+For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-sheaves]].
+
+
 
 ## References
 
