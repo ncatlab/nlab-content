@@ -29,7 +29,13 @@
 
   * [[join of quasi-categories]]
 
-* [[(infinity,1)-functor|functor between quasi-categories]]
+* [[(∞,1)-functor]]
+
+  * [[exact (∞,1)-functor]]
+
+  * [[(∞,1)-category of (∞,1)-functors]]
+
+  * [[(∞,1)-category of (∞,1)-presheaves]]
 
 * **[[fibrations of quasi-categories|fibrations]]**
 
