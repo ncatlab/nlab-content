@@ -32,7 +32,7 @@ A [[TVS]] $E$ is **barreled** if every barrel is a neighborhood of zero.
 
 Sometimes [[locally convex]] is included in the definition, this is not implied by barreled as defined above, i.e. there are barreled spaces that are not locally convex.
 
-In the definition of **quasibarreled** the barrels are replaced by sets that are barrels and which absorb all bounded sets (sets with the latter property are also called **bornivorous**).
+In the definition of **quasibarreled** or **infrabarreled** the barrels are replaced by sets that are barrels and which absorb all bounded sets (sets with the latter property are also called **bornivorous**).
 
 ## Properties ##
 +-- {: .un_prop}
@@ -52,9 +52,15 @@ Since all [[locally convex]] [[TVS]] that are [[Baire spaces]] are barreled, the
 
 ## References ##
 
+See [[functional analysis bibliography]]
+
 The definition of quasibarreled is from
 
 * S.M. Khaleelulla: _Counterexamples in Topological Vector Spaces_
+
+It is called _infrabarreled_ in
+
+* H.H. Schaefer: _Topological vector spaces_
  
 
 [[!redirects barreled]]
@@ -75,3 +81,11 @@ The definition of quasibarreled is from
 [[!redirects quasibarreled spaces]]
 
 [[!redirects barrelled topological vector space]]
+
+[[!redirects infrabarreled topological vector space]]
+[[!redirects Infrabarreled topological vector space]]
+[[!redirects Infrabarreled space]]
+[[!redirects infrabarreled space]]
+[[!redirects Infrabarreled topological vector spaces]]
+[[!redirects Infrabarreled spaces]]
+[[!redirects infrabarreled spaces]]
