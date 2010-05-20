@@ -11,6 +11,8 @@
 
 A **finite limit** is a [[limit]] over a [[diagram]] that is a [[finite category]].
 
+More generally, in [[higher category theory]], a finite limit is a [[limit]] of a diagram that is a finite [[(n,r)-category]].
+
 
 ## Related concepts
 
@@ -20,3 +22,6 @@ A [[functor]] that preserves finite limits is a left [[exact functor]], or simpl
 
 
 [[!redirects finite limits]]
+
+[[!redirects finite colimit]]
+[[!redirects finite colimits]]
