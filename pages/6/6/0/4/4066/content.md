@@ -1,5 +1,9 @@
 
+#Contents#
+* aurtomatic tale of contents goes here
+{:toc}
 
+## Idea
 
 
 The **Monster group** $M$ is a [[finite group]] that is the largest of the [[sporadic finite simple group]]s. It has order
@@ -12,13 +16,19 @@ $$
  \end{aligned}
 $$
 
-and contains all but six of the other 25 [[sporadic finite simple groups]] as [[subquotient]]s. 
+and contains all but six of the other 25 [[sporadic finite simple groups]] as 
+[[subquotient]]s. 
 
-The Monster group was predicted to exist by Bernd Fischer and Robert Griess in 1973, as a [[simple group]] containing the [[Fischer groups]] and some other sporadic simple groups as subquotients. Subsequent work by Fischer, Conway, Norton and Thompson estimated the order of $M$ and discovered other properties and subgroups, assuming that it existed. In a famous paper 
+See also [[Moonshine]].
 
-* Griess, _The Friendly Giant_ , Inventiones (1982)
 
-Greiss proved the existence of the largest simple sporadic group. The author constructs "by hand" a non-associative but commutative algebra of dimension 196883, and showed that the [[automorphism group]] of this algebra is the conjectured friendly giant/monster simple group. The name "Friendly Giant" for the Monster did not take on.
+## History
+
+The Monster group was predicted to exist by [[Bernd Fischer]] and [[Robert Griess]] in 1973, as a [[simple group]] containing the [[Fischer groups]] and some other sporadic simple groups as subquotients. Subsequent work by Fischer, Conway, Norton and Thompson estimated the order of $M$ and discovered other properties and subgroups, assuming that it existed. In a famous paper 
+
+* [[Robert Griess]], _The Friendly Giant_ , Inventiones (1982)
+
+Griess proved the existence of the largest simple sporadic group. The author constructs "by hand" a non-associative but commutative algebra of dimension 196883, and showed that the [[automorphism group]] of this algebra is the conjectured friendly giant/monster simple group. The name "Friendly Giant" for the Monster did not take on.
 
 After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman and/or Borcherds showed that the Griess algebra is just the degree 2 part of the infinite dimensional [[Moonshine vertex algebra]].
 
@@ -27,7 +37,6 @@ After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman
 [[David Roberts]]: wasn't there some discussion on the cafe about the sporadic groups potentially being part of more systematic families of weaker structures? (monoids or something) If there are any references in that discussion they could perhaps be pulled in here and at [[classification of finite simple groups]] and/or [[sporadic finite simple group]].
 =--
 
-See also [[Moonshine]].
 
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
 " alt="The Monster" /></div>
