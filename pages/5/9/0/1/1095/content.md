@@ -3,65 +3,88 @@
 </div>
 
 
-This entry is about the general properties and characterization of [[(∞,1)-categories]] of [[(∞,1)-sheaves]] -- also known as [[∞-stack]] [[(∞,1)-topos]]es.
-
-The 1-categorical analog of the discussion is this entry is at [[category of sheaves]].
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-For any [[(∞,1)-category]] $C$ every [[(∞,1)-functor]] $\bar {(-)} : C \to D$ which admits a [[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] -- equivalently every [[(∞,1)-functor]] $L : C \to C$ which is 
-[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is a [[localization of an (∞,1)-category]] onto a [[reflective (∞,1)-subcategory]] characterized by the collection $W$ of [[morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]]. One can think of it 
-
-* as _inverting_ these morphisms;
-
-* as projecting onto those objects of $C$ which are [[local object|local]] with respect to these morphsims: those objects which sees $W$ as a collection of equivalences.
-
-Using the familiar characterization of the [[category of sheaves]] in the 1-categorical context, this straightforwardly suggests to characterize 
-_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(∞,1)-topoi]] as essential images of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors from [[(infinity,1)-category of (infinity,1)-functors|(∞,1)-categories of (∞,1)-presheaves]]
-
-$$
- \bar{(-)} : PSh(S) \to Sh(S)
-$$ 
-
-(called [[∞-stackification]], analogous to [[sheafification]])
-
-that have a 
-[[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] [[stuff, structure, property|forgetful]] functor
-
-$$
-  Sh(S) \hookrightarrow PSh(S)
-  \,.
-$$
-
+The notion of $(\infty,1)$-category of $(\infty,1)$-sheaves is the generalization of the notion of [[category of sheaves]] from [[category theory]] to the [[higher category theory]] of [[(∞,1)-categories]].
 
 ## Definition
 
-In the strict sense of the word, an [[(∞,1)-category]] of **$(\infty,1)$-sheaves** is a [[topological localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\incfty,1)}(C)$ on some small [[(∞,1)-category]] $C$
++-- {: .un_defn}
+###### Definition
+
+An **$(\infty,1)$-category of $(\infty,1)$-sheaves** is a [[reflective sub-(∞,1)-category]] 
 
 $$
-  Sh_{(\infty,1)}(C) \hookrightarrow PSh_{(\infty,1)}(C)
-  \,.
+  Sh(C) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  PSh(C)
 $$
 
-Notice that by the facts recalled there, every such topological localization corresponds uniquely, up to equivalence, to a choice of [[Grothendieck topology]] on $C$: the objects of $Sh_{(\infty,1)}(C)$ are those $(\infty,1)$-presheaves that satisfy [[descent]] with respect to [[Cech cover]]s of covering [[sieve]]s.
+of an [[(∞,1)-category of (∞,1)-presheaves]] such that 
 
-Often such $(\infty,1)$-sheaves are called **[[∞-stack]]**s. The counting is
+* $L$ is a [[topological localization]];
 
-* [[sheaf]] = 0-stack
+* equivalently: there is the structure of an [[(∞,1)-site]] on $C$ such that the objects of $Sh(C)$ are precisely those [[(∞,1)-presheaves]] $A$ that are [[local object]]s with respect to the _covering_ [[monomorphism in an (∞,1)-category|monomorphisms]] $p : U \to j(c)$ in $PSh(C)$ in that
 
-* (2,1)-sheaf = [[stack]]
+  $$
+    A(c) \simeq PSh(j(c),A) \stackrel{PSh(p,A)}{\to} PSh(U,A)
+  $$
 
-* (3,1)-sheaf = 2-stack
+  is an [[(∞,1)-equivalence]] in [[∞Grpd]]. 
+
+  This is the [[descent]] condition and the presheaves satisfying it are the
+  **[[(∞,1-sheaves)]]** .
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 6.2.2.6]].
+
+An $(\infty,1)$-category of $(\infty,1)$-sheaves is an [[(∞,1)-topos]].
+
+
+## Terminology
+
+Sometimes [[(∞,1)-sheaves]] are called **[[∞-stack]]**s, though sometimes the latter term is reserved for [[hypercomplete]] $(\infty,1)$-sheaves.
+
+The counting is
+
+* [[sheaf]] = 0-stack = 0-[[truncated]] $(\infty,1)$-sheaf
+
+* $(2,1)$-sheaf = [[stack]] = 1-truncated $(\infty,1)$-sheaf
+
+* $(3,1)$-sheaf = 2-stack = 2-truncated $(\infty,1)$-sheaf
 
 * etc
 
 * $(\infty,1)$-sheaf = [[∞-stack]].
 
-Notice also that [[topological localization]]s are usually not [[hypercomplete (∞,1)-topos]]es. With slight abouse of language, the objects of the [[hypercompletion]] may still be called "$\infty$-stack"s around here.
+
+## Properties
+
+We reproduce the proof that the two definitions above really are equivalent, i.e. that:
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an [[(∞,1)-site]], the full [[sub-(∞,1)-category]] of $PSh(C)$ on [[local object]]s with respect to the covering monomorphisms in $PSh(C)$ is indeed a [[topological localization]]. and hence $Sh(C)$ is indeed an exact [[reflective sub-(∞,1)-category]] of $PSh(C)$ and hence an [[(∞,1)-topos]]. 
+
+=--
+
+This is [[Higher Topos Theory|HTT, lemma 6.2.2.7]]
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
+
+
+
 
 
 ## Models 
@@ -87,19 +110,21 @@ This was later conceived in terms of a [[model structure on simplicial presheave
 
 B. To&euml;n, _Higher and derived stacks: a global overview_   ([arXiv](http://arxiv.org/abs/math/0604504)) .
 
-The full picture in terms of Grothendieck-$(\infty,1)$-topoi of $(\infty,1)$-sheaves is the topic of
+This concerns mostly [[hypercomplete]] $(\infty,1)$-sheaves, though.
 
-J. Lurie, [[Higher Topos Theory]].
+The full picture in terms of Grothendieck-[[(∞,1)-topos]]es of [[(∞,1)-sheaves]] is the topic of
 
-* localization $(\infty,1)$-functors ($(\infty,1)$-sheafification for the present purpose) are discussed in section 5.2.7;
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
-* local objects ($(\infty,1)$-sheaves for the present purpose) and [[local isomorphism]]s are discussed in section 5.5.4;
+  * localization $(\infty,1)$-functors ($(\infty,1)$-sheafification for the present purpose) are discussed in section 5.2.7;
 
-* the definition of $(\infty,1)$-topoi of $(\infty,1)$-sheaves is then definition 6.1.0.4 in section 6.1;
+  * local objects ($(\infty,1)$-sheaves for the present purpose) and [[local isomorphism]]s are discussed in section 5.5.4;
 
-* the characterization of $(\infty,1)$-sheaves in terms of [[descent|descent and codescent]] is in section 6.1.3 
+  * the definition of $(\infty,1)$-topoi of $(\infty,1)$-sheaves is then definition 6.1.0.4 in section 6.1;
 
-* the relation between the [[model structure on simplicial presheaves|Brown?Joyal?Jardine model]] and the general story is discussed at length in section 6.5.4
+  * the characterization of $(\infty,1)$-sheaves in terms of [[descent|descent and codescent]] is in section 6.1.3 
+
+  * the relation between the [[model structure on simplicial presheaves|Brown?Joyal?Jardine model]] and the general story is discussed at length in section 6.5.4
 
 
 [[!redirects (infinity,1)-category of (infinity,1)-sheaves]]
