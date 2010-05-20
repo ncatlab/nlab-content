@@ -26,6 +26,10 @@ See also [[reflexive Banach space]], [[bounded operator]], [[compact operator]],
 
 ## References
 
+See
+
+* [[functional analysis bibliography]]
+
 The [English Wikipedia entry](http://en.wikipedia.org/wiki/Functional_analysis) has a fair list of books on the subject. 
 
 There are also variations in $p$-[[adic analysis]] and a [[topos]]-theoretic approach initiated by (I think?) [[William Lawvere]].
