@@ -164,6 +164,8 @@ The related subject of positive energy representations for loop groups is repres
 
 * reference list of Movshev's sunysb [course on QM](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)
 
-* geometrical background for Kapustin's course at Caltech: [list](http://theory.caltech.edu/~kapustin/Ph229/recbooks.html)
+* geometrical background for [[Anton Kapustin]]'s course at Caltech: [list](http://theory.caltech.edu/~kapustin/Ph229/recbooks.html)
 
 * John Baez: _How to Learn Math and Physics_  ([here] (http://math.ucr.edu/home/baez/books.html))
+
+category: reference
