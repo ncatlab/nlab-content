@@ -1,4 +1,14 @@
-This entry is about a theorem by [[Dominic Verity]] that characterizes the [[descent]] condition for [[∞-stack]]s that take values not in arbitrary [[∞-groupoid]]s, but just in [[strict omega-groupoid]]s.
+
+<div class="rightHandSide toc" markdown="1">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
+This entry is about a theorem by [[Dominic Verity]] that characterizes the [[descent]] condition for [[(∞,1)-sheaves]]/[[∞-stack]]s that take values not in arbitrary [[∞-groupoid]]s, but in [[strict ∞-groupoid]]s.
+
+#Contents#
+
+## Verity's theorem
 
 The details are here:
 
@@ -12,25 +22,26 @@ Here is an abstract that served as an abstract for a talk on this at the _Austra
 
 >Recently I was asked by [[Urs Schreiber]] if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between [[Ross Street]]'s [descent construction](http://arxiv.org/abs/math.CT/0303175) for [[strict omega-category|strict omega-categories]] (or more precisely [[strict omega-groupoid]]s in this case) and the [[descent for simplicial presheaves|simplicial descent construction]] used to characterise the fibrant objects in [[model structure on simplicial presheaves|model categories of simplicial sheaves]].
 
-#Idea#
 
-Generally, [[models for infinity-stack (infinity,1)-toposes]] are provided by a [[model structure on simplicial presheaves|model structure on presheaves with values in simplicial sets]].
+## Idea
 
-As for all [[combinatorial simplicial model category|combinatorial simplicial model categories]] the $(\infty,1)$-topos [[presentable (infinity,1)-category|presented]] by this model structure is the full [[SSet]]-[[enriched category|enriched subcategory]] on fibrant and cofibrant objects.
+Generally, [[models for ∞-stack (∞,1)-toposes]] are provided by a [[model structure on simplicial presheaves|model structure on presheaves with values in simplicial sets]].
+
+As for all [[combinatorial simplicial model category|combinatorial simplicial model categories]] the $(\infty,1)$-topos [[presentable (∞,1)-category|presented]] by this model structure is the full [[SSet]]-[[enriched category|enriched subcategory]] on fibrant and cofibrant objects.
 
 By a theorem by Dugger-Isaksen-Hollander on the projective [[local model structure on simplicial presheaves]] the _fibrant_ simplicial presheaves are those that 
 
-* take values in [[infinity-groupoid]]s (i.e. the [[simplicial set]]s assigned by them are [[Kan complex]]es) 
+* take values in [[∞-groupoid]]s (i.e. the [[simplicial set]]s assigned by them are [[Kan complex]]es) 
 
 * and satisfy [[descent]].
 
-While general [[infinity-groupoid]]s are useful due to their generality and conceptual simplicity, for many concrete computations it is useful to get a more concrete [[algebraic definition of higher category|algebraic model]] and consider just [[strict omega-groupoid]]s. Under the [[oriental]]-[[nerve]] 
+While general [[∞-groupoid]]s are useful due to their generality and conceptual simplicity, for many concrete computations it is useful to get a more concrete [[algebraic definition of higher category|algebraic model]] and consider just [[strict omega-groupoid]]s. Under the [[oriental]]-[[nerve]] 
 
 $$
   Str \omega Grpd \stackrel{N}{\hookrightarrow} \infty Grpd
 $$
 
-the strict $\omega$-groupoids form a [[subcategory]] of all [[infinity-groupoid]]s. This is to be regarded as a refinement of the [[Dold-Kan correspondence]] which embeds strict $\omega$-groupoids _with abelian group structure_ equivalently modeled as [[chain complex]]es into all $\infty$-groupoids
+the strict $\omega$-groupoids form a [[subcategory]] of all [[∞-groupoid]]s. This is to be regarded as a refinement of the [[Dold-Kan correspondence]] which embeds strict $\omega$-groupoids _with abelian group structure_ equivalently modeled as [[chain complex]]es into all $\infty$-groupoids
 
 $$
   Ch_+
@@ -40,7 +51,7 @@ $$
   \,.
 $$
 
-It is a familiar process to restrict general [[infinity-stack]]s to those that factor through the entire inclusion: this is the topic of [[homological algebra]] and restricts the general notion of [[cohomology]] to that of [[abelian sheaf cohomology]].
+It is a familiar process to restrict general [[∞-stack]]s to those that factor through the entire inclusion: this is the topic of [[homological algebra]] and restricts the general notion of [[cohomology]] to that of [[abelian sheaf cohomology]].
 
 What we are interested in here is a notion in between the fully strictly abelian context and the fully general context: that of strict $\omega$-groupoid valued $\infty$-stacks inside all $\infty$-stacks. This may be thought of as [[nonabelian algebraic topology|nonabelian homological algebra]] that uses not [[chain complex]]es of sheaves but [[crossed complex]]es.
 
