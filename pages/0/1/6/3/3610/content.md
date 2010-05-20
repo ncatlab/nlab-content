@@ -39,11 +39,7 @@ Accodingly, the opposite $\mathbf{L}$ may be thought of as the **$(\infty,1)$-ca
 For the context of [[derived geometry]] take $\mathbf{L}$ to be given by the model structure on _all_ (unbounded) dg-algebras, corresponding to that on cosimplicial simplicial algebras.
 
 
-+-- {: .query}
-
-[[Urs Schreiber|Urs]]: Possibly there should be an intrinsic way to characterize $\mathbf{L}$ given $\mathbf{H}$. Something like like that $\mathbf{L}$ is the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induce isomorphisms on "rational cohomology" or the like.
-
-=--
+As discussed below, at least in good cases the inclusion $\mathbf{L} \hookrightarrow \mathbf{H}$ is the [[reflective sub-(∞,1)-category]] obtained by [[localization of an (∞,1)-category|localization]] at those morphisms that induce isomorphisms in [[cohomology]] with coefficients in the corresponding line object. 
 
 ### Rational structure and Lie theory
 
@@ -298,6 +294,37 @@ exhibts $\mathbf{L}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$.
 
 This appears as [To06, cor 2.2.3](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=44).
 
++-- {: .un_prop}
+###### Proposition
+
+The [[reflective (∞,1)-subcategory]] $\mathbf{L} \hookrightarrow \mathbf{H}$ is the full [[sub-(∞,1)-category]] of $\mathbf{H}$ on [[local object]]s with respect to morphisms that induce isomorphisms in [[cohomology]] with coefficients in $k$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [To06, theorem 2.2.9](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=48).
+
+=--
+
+Yet another characterization is 
+
++-- {: .un_prop}
+###### Proposition
+
+The full [[sub-(∞,1)-category]] $\mathbf{L} \hookrightarrow \mathbf{H}$ is the subcategory generated from the [[delooping]]s $\mathbf{B}^n k$ under [[limit in a quasi-category|(∞,1)-limits]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [To06, remark below theorem 2.2.9](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=49).
+
+=--
+
+Here under the [[monoidal Dold-Kan correspondence]] $\mathbf{B}^n k$ arises as the image of the [[dg-algebra]] $(k[n], d = 0)$. Notice that we may think of $\mathbf{B}k$ as being the ([[delooping]] of) the _simply connected_ Lie group integrating the 1-dimensional Lie algebra, of which $(k[1], d= 0)$ is the Chevalley-Eilenberg algebra.
 
 #### The well-adapted rational structure {#ToenWellAdapt}
 
