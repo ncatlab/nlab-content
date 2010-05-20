@@ -6,9 +6,28 @@ As [[TVS|topological vector spaces]] are [[uniform spaces]], it is appropriate t
 
 Where this gets interesting is in the question as to what _should_ be there.  To determine this, one has to have some method of discovering holes.  This is usually done by means of [[Cauchy nets]], but in a given application it may not be necessary that all holes be filled and this leads to weaker notions of completeness.
 
+The more general notions make sense for arbitrary [[topological vector spaces]] but some more refined notions are only used for [[locally convex topological vector spaces]].
+
 # Definitions
 
 In strict order of decreasing strength, we have the following notions of completeness.
+
++-- {: mynumdef #WeakCplt}
+###### Definition
+A [[locally convex topological vector space]] is **weakly complete** if it is complete for its weak topology.
+=--
+
+
++-- {: mynumdef #BCplt}
+###### Definition
+A [[locally convex topological vector space]] is **$B$-complete** or is a **Ptak space** if a subspace of its [[continuous dual]] is [[weakly closed]] whenever its intersection with any [[equicontinuous]] subset is weakly closed (in the subset).
+=--
+
++-- {: mynumdef #BCplt}
+###### Definition
+A [[locally convex topological vector space]] is **$B_r$-complete** if a dense subspace of its [[continuous dual]] is [[weakly closed]] whenever its intersection with any [[equicontinuous]] subset is weakly closed (in the subset).
+=--
+
 
 +-- {: mynumdef #Cplt}
 ###### Definition
