@@ -49,6 +49,13 @@ A [[topological vector space]] is **sequentially complete** or **semi-complete**
 A [[locally convex topological vector space]] is **locally complete** if for $B \subseteq E$ a [[bounded]], [[closed]], [[absolutely convex]] subset then its norm space, $E_B$, is a Banach space.
 =--
 
+# Properties
+##Sequentially Complete versus Locally Complete
+Sequentially complete implies locally complete because every locally Cauchy sequence is a Cauchy sequence. The inverse implication "locally complete" $\Rightarrow$ sequentially complete is true for example in metrizable locally convex topological vector spaces, but not in general: A Cauchy sequence will not be locally Cauchy in general.
+
+The problem to precisly characterize the spaces in which every convergent sequence is locally convergent is an open problem according to K&#246;the volume 1 (which is quite old, so it could have been solved in the meantime).
+
+
 # References
 
 See [[functional analysis bibliography]]
