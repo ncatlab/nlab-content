@@ -52,7 +52,7 @@ Global aspects of the geometry of spacetimes:
 
 After the introduction emphasis on asymtotics of spacetimes far from gravitation objects:
 
-* John Steward, _Advanced general relativity_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0752.53048&format=complete))
+* John Stewart, _Advanced general relativity_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0752.53048&format=complete))
 
 Despite its title the next monograph does not just present the Kerr spacetime, it illustrates many core features of GR with the Kerr spacetime as the prominent example:
 
