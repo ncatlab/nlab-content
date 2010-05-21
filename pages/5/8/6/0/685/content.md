@@ -1,6 +1,7 @@
-
 <div class="rightHandSide toc">
 [[!include infinity-limits - contents]]
+----
+[[!include 2-category theory - contents]]
 </div>
 
 
