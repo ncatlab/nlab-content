@@ -4,4 +4,6 @@ A [[functor]] $F:C\to D$ is **conservative** if it is "isomorphism-reflecting", 
 
 * Sometimes conservative functors are assumed to be [[faithful functor|faithful]] as well.  If $C$ has, and $F$ preserves, [[equalizer]]s, then conservativity implies faithfulness.
 
+* See [[conservative morphism]] for a generalization to an arbitrary [[2-category]].
+
 [[!redirects conservative functors]]
