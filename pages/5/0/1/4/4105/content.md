@@ -44,6 +44,8 @@
 
 * [[adjunction]]
 
+* [[mate]]
+
 * [[monad]]
 
 * [[cartesian object]]
