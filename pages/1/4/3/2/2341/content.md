@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 # Definition
 
 Let $C,D$ be [[2-categories]] and $F,G:C\to D$ be [[functors]].  An **icon** $\alpha:F\to G$ consists of the following:
