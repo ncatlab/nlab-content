@@ -1,4 +1,7 @@
-[[!redirects ?]]
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 Recall the notion of a [[Grothendieck fibration]].
 It [[Grothendieck fibration|generalizes]] to the notion of a fibration in a 2-category using [[Grothendieck fibration|Grothendieck fibrations]] themselves, using [[generalized element|generalized elements]]. We here give an alternative, yet equivalent, 2-categorical definition, trying to explain how it specializes to Grothendieck fibrations. The definition is from
 
