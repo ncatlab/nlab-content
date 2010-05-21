@@ -14,7 +14,7 @@ In strict order of decreasing strength, we have the following notions of complet
 
 +-- {: mynumdef #WeakCplt}
 ###### Definition
-A [[locally convex topological vector space]] is **weakly complete** if it is complete for its weak topology.
+A [[locally convex topological vector space]] is **weakly complete** if it is complete for its [[weak topology]].
 =--
 
 
@@ -31,7 +31,7 @@ A [[locally convex topological vector space]] is **$B_r$-complete** if a dense s
 
 +-- {: mynumdef #Cplt}
 ###### Definition
-A [[topological vector space]] is **complete** if every Cauchy net converges.
+A [[topological vector space]] is **complete** if every Cauchy [[net]] converges.
 =--
 
 +-- {: mynumdef #QuasiCplt}
@@ -51,7 +51,7 @@ A [[locally convex topological vector space]] is **locally complete** if for $B 
 
 # Properties
 ##Sequentially Complete versus Locally Complete
-Sequentially complete implies locally complete because every locally Cauchy sequence is a Cauchy sequence. The inverse implication "locally complete" $\Rightarrow$ sequentially complete is true for example in metrizable locally convex topological vector spaces, but not in general: A Cauchy sequence will not be locally Cauchy in general.
+Sequentially complete implies locally complete because every locally Cauchy sequence is a Cauchy sequence. The inverse implication "locally complete" $\Rightarrow$ sequentially complete is true for example in [[metrizable]] locally convex topological vector spaces, but not in general: A Cauchy sequence will not be locally Cauchy in general.
 
 The problem to precisly characterize the spaces in which every convergent sequence is locally convergent is an open problem according to K&#246;the volume 1 (which is quite old, so it could have been solved in the meantime).
 
