@@ -4,9 +4,9 @@
 
 ## Definition ##
 
-If $C$ and $D$ are [[categories]], a **profunctor** from $C$ to $D$ is a functor $D^{op}\times C \to Set$.  Such a  profunctor is usually written as $F\colon  C &#8696; D$.
+If $C$ and $D$ are [[categories]], a **profunctor** from $C$ to $D$ is a [[functor]] $D^{op}\times C \to Set$.  Such a  profunctor is usually written as $F\colon  C &#8696; D$.
 
-Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*).
+Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*). In particular the [[identity]] profunctor $Id \colon  C &#8696; C$ is represented by the identity functor and hence is given by the [[hom-functor]] $C(-,-) : C^{op} \times C \to Set$.
 
 The notion generalizes to many other kinds of categories.  For instance, if $C$ and $D$ are [[enriched category|enriched]] over some symmetric [[closed monoidal category]] $V$, then a profunctor from $C$ to $D$ is a $V$-functor $D^{op} \otimes C\to V$.  If they are [[internal categories]], then a profunctor $C &#8696; D$ is an [[internal diagram]] on $D^{op}\times C$, and so on.  There are also other equivalent definitions in each case; see below.
 
