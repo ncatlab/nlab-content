@@ -2,7 +2,7 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;-moz-border-radius:10px;background:#ffe;"}
 {:mynumprop: .num_prop style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;-moz-border-radius:10px;background:#eff;"}
 
-<div class="rightHandSide toc">
+<div class="rightHandSide toc" style="background-color:#fff;">
 [[!include functional analysis - contents]]
 </div>
 
