@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 A **2-monad** is a [[monad]] on a [[2-category]], or more generally a monad _in_ a [[3-category]].  This concept manifests at varying levels of strictness:
 
 * For a _strict 2-monad_ (which classically is called a simply a "2-monad"), the 2-category $K$ is a [[strict 2-category]], the functor $T:K\to K$ is a [[strict 2-functor]], and the transformations $\mu$ and $\eta$ are [[strict 2-natural transformation]]s and satisfy their laws strictly.  This is the same as a $Cat$-[[enriched category theory|enriched]] monad.  Strict 2-monads live naturally in [[strict 3-category|strict 3-categories]].
@@ -27,9 +31,9 @@ There are also 2-monads that specify [[property-like structure]].  For instance,
 ## References
 
 * R. Blackwell, G. M. Kelly, and A. J. Power, _Two-dimensional monad theory_, Jour. Pure Appl. Algebra 59 (1989), 1--41
-* F. Marmolejo, _Doctrines whose structure forms a fully faithful adjoint string_, Theory and Applications of Categories 3 (1997), 23--44. &lt;http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html>
-* [[Steve Lack|S. Lack]], _A coherent approach to pseudomonads_, Adv. Math. 152 (2000), 179--202. &lt;http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz>
-* G.M. Kelly and S. Lack, _On property-like structures_, Theory and Applications of Categories 3 (1997) 213--250.  &lt;http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html>
+* F. Marmolejo, _Doctrines whose structure forms a fully faithful adjoint string_, Theory and Applications of Categories 3 (1997), 23--44. <http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html>
+* [[Steve Lack|S. Lack]], _A coherent approach to pseudomonads_, Adv. Math. 152 (2000), 179--202. <http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz>
+* G.M. Kelly and S. Lack, _On property-like structures_, Theory and Applications of Categories 3 (1997) 213--250.  <http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html>
 * S. Lack, _Codescent objects and coherence_, JPAA 175 (2002), 223--241.
 * I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra 173 (2002), no. 3, 293--313. 
 
