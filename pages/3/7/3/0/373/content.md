@@ -1,4 +1,6 @@
 <div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+----
 [[!include higher category theory - contents]]
 </div>
 
@@ -18,12 +20,19 @@ It consists of
 
 * [[2-morphisms]] between morphisms.
 
+The morphisms can be composed along the objects, while the 2-morphisms can be composed in two different directions: along objects and along morphisms.  This is a "globular" description, which is the most commonly used, but there are (equivalent) variants which use different shapes of 2-morphism as basic.
 
-The original notion is that of a globular [[strict 2-category]], but the one most often used here is that of a [[bicategory]]. The concept generalizes to $n$-[[n-category|categories]].
+The concept generalizes to $n$-[[n-category|categories]] which have $k$-morphisms for all $k\le n$.
 
 ## Definition ##
 
-Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then a __$2$-category__ is an $\infty$-category such that every 3-morphism is an [[equivalence]], and all parallel pairs of $j$-morphisms are equivalent for $j \geq 3$. Thus, up to equivalence, there is no point in mentioning anything beyond $2$-morphisms, except whether two given parallel $2$-morphisms are equivalent. This definition may give a concept more general than your preferred definition of $2$-category, but it will be equivalent; basically, you may have to rephrase equivalence of $2$-morphisms as [[equality]].
+The easiest definition of 2-category is that it is a category [[enriched category|enriched]] over the [[cartesian monoidal category]] [[Cat]].  Thus it has a collection of objects, and for each pair of objects a category $hom(x,y)$.  The objects of these hom-categories are the morphisms, and the morphisms of these hom-categories are the 2-morphisms.  This produces the classical notion of [[strict 2-category]].
+
+For some purposes, this type of 2-category is too strict: one would like to allow composition of morphisms to be associative and unital only up to coherent invertible 2-morphisms.  A direct generalization of the above "enriched" definition produces the classical notion of [[bicategory]].
+
+One can also obtain notions of 2-category by specialization from the case of higher categories.  Specifically, if we fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict we wish, then we can define a __$2$-category__ to be an $\infty$-category such that every 3-morphism is an [[equivalence]], and all parallel pairs of $j$-morphisms are equivalent for $j \geq 3$.  It follows that, up to equivalence, there is no point in mentioning anything beyond $2$-morphisms, except whether two given parallel $2$-morphisms are equivalent.  In some models of $\infty$-categories, it is possible to make this precise by demanding that all parallel pairs of $j$-morphisms are actually *equal* for $j\geq 3$, producing a simpler notion of 2-category in which we can speak about [[equality]] of 2-morphisms instead of equivalence.
+
+All of the above definitions produce "equivalent" theories of 2-category, although in some cases (such as the fact that every bicategory is equivalent to a strict 2-category) this requires some work to prove.  On the nLab, we often use the word "2-category" in the general sense of referring to whatever model one may prefer, but usually one in which composition is weak; a [[bicategory]] is an adequate definition.  One should beware, however, that in the literature it is common for "2-category" to refer only to *strict* 2-categories.
 
 ## Types of morphisms
 
