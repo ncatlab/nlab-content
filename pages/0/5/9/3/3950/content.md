@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 # Contents
 * automatic table of contents
 {: toc}
@@ -48,9 +52,9 @@ Clearly $h$ must take the images of $f$ and $g$ to the images of $i$ and $j$, re
 
 It is then easy to check that if $f$ and $g$ are fully faithful with disjoint images and this condition holds, then $B$ is in fact a coalgebra for the comonad in question, i.e. a two-sided cofibration from $A$ to $C$.
 
-Note that such a cofibration from $A$ to $C$ can be identified with the following data: a category $B' = B\setminus (A\cup C)$, profunctors $m\colon A &#8696; B$, $n\colon B &#8696; C$, and $p\colon A &#8696; C$, and a morphism $n m \to p$ of profunctors.  Such a thing is sometimes called a **gamut** from $A$ to $C$.
+Note that such a cofibration from $A$ to $C$ can be identified with the following data: a category $B' = B\setminus (A\cup C)$, profunctors $m\colon A &#x21F8; B$, $n\colon B &#x21F8; C$, and $p\colon A &#x21F8; C$, and a morphism $n m \to p$ of profunctors.  Such a thing is sometimes called a **gamut** from $A$ to $C$.
 
-Now a 2-cell in $Cospan(A,C)$ is simply a natural transformation between functors $B \;\rightrightarrows\; X$ whose components on the images of $A$ and $C$ are isomorphisms.  Thus, if $B$ is a cofibration as above with the property that $B \setminus (A\cup C)$ is empty, then it must be codiscrete.  The converse is easy to check, taking $X$ to be the ordinal $4 = (0\le 1 \le 2\le 3)$ as a category.  But a gamut with $B'=\emptyset$ is nothing but a profunctor $A &#8696;C$; hence codiscrete cofibrations in $V Cat$ can be precisely identified with the collages of profunctors.
+Now a 2-cell in $Cospan(A,C)$ is simply a natural transformation between functors $B \;\rightrightarrows\; X$ whose components on the images of $A$ and $C$ are isomorphisms.  Thus, if $B$ is a cofibration as above with the property that $B \setminus (A\cup C)$ is empty, then it must be codiscrete.  The converse is easy to check, taking $X$ to be the ordinal $4 = (0\le 1 \le 2\le 3)$ as a category.  But a gamut with $B'=\emptyset$ is nothing but a profunctor $A &#x21F8;C$; hence codiscrete cofibrations in $V Cat$ can be precisely identified with the collages of profunctors.
 
 ### Toposes
 
@@ -63,7 +67,7 @@ Codiscrete cofibrations in the 2-category $Dbl$ of [[double categories]], [[doub
 
 ## Construction of a proarrow equipment
 
-The examples of profunctors suggest that given any 2-category $K$ with finite 2-colimits, we may try to canonically equip it with proarrows by defining the proarrows $A &#8696;C$ to be the codiscrete cofibrations.  The sticky point is then how to define units and composition of such proarrows in order to obtain an equipment.
+The examples of profunctors suggest that given any 2-category $K$ with finite 2-colimits, we may try to canonically equip it with proarrows by defining the proarrows $A &#x21F8;C$ to be the codiscrete cofibrations.  The sticky point is then how to define units and composition of such proarrows in order to obtain an equipment.
 
 The unit is obvious: we should take the unit proarrow of $A$ to be the cospan $A\to A\times I \leftarrow A$, which is always a codiscrete cofibration.
 
