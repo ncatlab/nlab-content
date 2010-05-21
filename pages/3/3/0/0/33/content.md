@@ -29,7 +29,7 @@ One may understand _vertical categorification_ as any operation that is a [[sect
 
 #### Examples ####
 
-* The maybe archetypical example of categorification as something that is taken by decatgeorification to the identity operation is the categorification of the [[set]] $\mathbb{N}$ of [[natural numbers]] to the [[category]] [[FinSet]] of [[finite sets]]:
+* The maybe archetypical example of categorification as something that is taken by decategorification to the identity operation is the categorification of the [[set]] $\mathbb{N}$ of [[natural numbers]] to the [[category]] [[FinSet]] of [[finite sets]]:
 
   The set $\mathbb{N}$ is a [[0-category]], while $FinSet$ is a [[1-category]]. The [[decategorification|isomorphism classes]] of $FinSet$ however are in canonical bijection with the elements of $\mathbb{N}$:
 
