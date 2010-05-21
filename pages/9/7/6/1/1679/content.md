@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 Just as a [[natural transformation]] between [[functor]]s is a
 collection of $1$-cells indexed by $0$-cells, a _modification_ between
 transformations is an indexed collection of 2-cells.
