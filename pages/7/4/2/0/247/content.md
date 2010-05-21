@@ -10,7 +10,8 @@ For my own reference: some pages that I'm planning to do some work on:
 * [[structured (infinity,1)-topos]] and [[classifying topos]]
 * [[generalized multicategory]], [[virtual double category]], [[virtual equipment]]
 * functoriality of [[codiscrete cofibrations]],
-* create a separate page [[two-sided fibration]].
+* create a separate page [[two-sided fibration]], also work on [[fibration in a 2-category]]
+* write about some specific 2-limits, like [[inserter]], [[inverter]], [[equifier]]
 * give an example at [[monadicity theorem]].
 
 And here's how to make a barred arrow $A &#8696; B$, since I always forget:
