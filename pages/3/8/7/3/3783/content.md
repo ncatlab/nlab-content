@@ -7,7 +7,7 @@
 The **Kerr spacetime**(s) is a (family of) certain [[Lorentzian manifold]]s / [[spacetime]]s. 
 The Kerr spacetime describes the ambient vacuum spacetime of a spherically symmetric rotating mass density, it can be extended in a way that this mass density degenerates to a singularity of spatial radius zero. This mathematical idealization is often said to describe a rotating black hole.
 
-The Kerr spacetimes are parametrized by two parameters m and a that have the physical interpretation of mass and angular momentum per unit mass respectively, of the rotating object they describe. In the degenerate case of a = 0 the Kerr spacetimes reduce to the [[Schwartzschild spacetime]]s.
+The Kerr spacetimes are parametrized by two parameters $m$ and $a$ that have the physical interpretation of mass and angular momentum per unit mass respectively, of the rotating object they describe. In the degenerate case of a = 0 the Kerr spacetimes reduce to the [[Schwartzschild spacetime]]s.
 
 ## Abstract ##
 ...
