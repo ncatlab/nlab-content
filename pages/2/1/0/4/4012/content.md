@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
 
 #Contents#
 * automatic table of contents goes here
