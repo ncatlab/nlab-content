@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 ## Definition
 
 A morphism $f\colon A\to B$ in a [[2-category]] $K$ is called **discrete** if it is representably [[faithful morphism|faithful]] and [[conservative morphism|conservative]], i.e. if for any $X$ the induced functor
