@@ -1,5 +1,6 @@
-
 <div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+----
 [[!include monoidal categories - contents]]
 </div>
 
