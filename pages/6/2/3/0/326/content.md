@@ -139,7 +139,23 @@ in [[Set]] is again a pullback diagram. A moment of reflection shows that this s
 
 ### Relation to profunctors
 
-A hom-functor $C^{op}\times C\to Set$ is also the identity [[profunctor]] $1_C: C &#x21F8; C$.
+The hom-functor $hom : C^{op}\times C\to Set$ is also the identity [[profunctor]] $1_C: C &#x21F8; C$.
+
+One way to see this is to notice that its [[adjunct]] 
+
+$$
+  C \to [C^{op}, Set]
+$$
+
+under the [[internal hom]] [[adjunction]] in the 1-category [[Cat]] is the functor
+
+$$
+  C \stackrel{id}{\to} C \stackrel{j}{\to} [C^{op}, Set]
+  \,,
+$$
+
+where $j$ is the [[Yoneda embedding]]. Profunctors $\mathbf{F} : C^{op} \times C \to Set$ whose hom-adjunct is of the form $C \stackrel{F}{\to} C \stackrel{j}{\to} [C^{op}, Set]$ for $F$ an ordinary functor are those in the inclusion of these ordinary functors into profunctors. So the hom-functor is the image of the identity functor under this inclusion.
+
 
 ## Examples
 
