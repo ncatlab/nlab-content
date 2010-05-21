@@ -28,3 +28,5 @@ $f_*(g) : A \stackrel{g}{\to} X \stackrel{f}{\to}Y $ we have $g = h$.
 * [[monomorphism in an (∞,1)-category]]
 
 [[!redirects monomorphisms]]
+[[!redirects monic]]
+[[!redirects monics]]
