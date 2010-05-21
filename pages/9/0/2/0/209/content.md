@@ -6,6 +6,7 @@ is [[injection|injective]].
 
 More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective functor|surjective]] &#8211; or loosely speaking, 'surjective on equations between given morphisms'.
 
+See also [[faithful morphism]] for a generalization to an arbitrary [[2-category]].
 
 [[!redirects faithful]]
 [[!redirects faithful functors]]
