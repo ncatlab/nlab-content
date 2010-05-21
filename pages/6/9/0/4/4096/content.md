@@ -2,18 +2,26 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;-moz-border-radius:10px;background:#ffe;"}
 {:mynumprop: .num_prop style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;-moz-border-radius:10px;background:#eff;"}
 
-# Idea
+<div class="rightHandSide toc">
+[[!include functional analysis - contents]]
+</div>
+
+#Contents#
+* autoamtic table of contents goes here
+{:toc}
+
+## Idea
 
 A **DF space** is a type of [[locally convex topological vector space]].  The basic idea is that a DF space is _morally_ the [[strong dual]] of a [[Fréchet space]].  That is, it has all the nice structure that such a dual would have but without the bother of actually having to be a dual space.
 
-# Definition
+## Definition
 
 +-- {: mynumdef #DFspace}
 ###### Definition
 A [[locally convex topological vector space]] is a **DF space** if it possesses a [[fundamental system|fundamental sequence]] of [[subsets of lctvs|bounded sets]] and if every [[subsets of lctvs|strongly bounded]] countable union of [[subsets of lctvs|equicontinuous]] subsets of the dual is again equicontinuous.
 =--
 
-# Properties
+## Properties
 
 1. The [[strong dual]] of a [[Fréchet space|metrisable]] locally convex topological vector space is a DF space.
 2. Every [[normable space]] is a DF space.
@@ -50,6 +58,6 @@ This is then a finite intersection of open sets in $B_l$ and so is open in $B_l$
 As this holds for any of the $B_l$s, it holds for any bounded set, whence the proposition from Schaefer applies to show that $B$ is a $0$-neighbourhood.  Thus $E$ possesses a bounded $0$-neighbourhood, whence is normable.
 =--
 
-# References
+## References
 
 See [[functional analysis bibliography]].
