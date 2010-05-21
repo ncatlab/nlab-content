@@ -15,9 +15,9 @@ $$
   hom : C^{op} \times C \to Set
 $$
 
-from the [[product category]] of the category $C$ with its [[opposite category]] to the category [[Set]] of [[set]]s, which sends
+from the [[product category]] of the category $C$ with its [[opposite category]] to the category [[Set]] of [[sets]], which sends
 
-* an [[object]] $(c, c') \in C^{op} \times C$, i.e. a pair of objects in $C$, to the [[hom-set]] $Hom_C(c,c')$ in $C$, the set of [[morphism]]s $q : c \to c'$ in $C$;
+* an [[object]] $(c, c') \in C^{op} \times C$, i.e. a pair of objects in $C$, to the [[hom-set]] $Hom_C(c,c')$ in $C$, the set of [[morphisms]] $q : c \to c'$ in $C$;
 
 * a morphism $(c,c') \stackrel{}{\to} (d,d')$, i.e. a pair of morphisms
 
@@ -98,18 +98,18 @@ $$
   \,.
 $$
 
-Functors of the form $C^{op} \to Set$ are called [[presheaves]] on $C$, and functors equivalent to $hom(-,c)$ are called [[representable functor]]s or **representable presheaves** on $C$.
+Functors of the form $C^{op} \to Set$ are called [[presheaves]] on $C$, and functors equivalent to $hom(-,c)$ are called [[representable functors]] or **representable presheaves** on $C$.
 
-Functors of the form $C \to Set$ are called [[copresheaves]] on $C$, and functors equivalent to $hom(c,-)$ are called co[[representable functor]]s or **representable copresheaves** on $C$.
+Functors of the form $C \to Set$ are called [[copresheaves]] on $C$, and functors equivalent to $hom(c,-)$ are called co[[representable functors]] or **representable copresheaves** on $C$.
 
 
 ### Preservation of limits
 
-The hom-functor preserves all [[limit]]s in both arguments separately. This means:
+The hom-functor preserves all [[limits]] in both arguments separately. This means:
 
-* for fixed object $c \in C$ the functor $hom(c,-) : C \to C$ sends limit [[diagram]]s in $C$ to limit diagrams in $C$;
+* for fixed object $c \in C$ the functor $hom(c,-) : C \to C$ sends limit [[diagrams]] in $C$ to limit diagrams in $C$;
 
-* for fixed object $c' \in C$ the functor $hom(-,c') : C^{op} \to C$ sends limit diagrams in $C^{op}$ -- which are [[colimit]] [[diagram]]s in $C$! -- to limit diagrams in $C$. 
+* for fixed object $c' \in C$ the functor $hom(-,c') : C^{op} \to C$ sends limit diagrams in $C^{op}$ -- which are [[colimit]] [[diagrams]] in $C$! -- to limit diagrams in $C$. 
 
 For instance for 
 
@@ -137,6 +137,9 @@ $$
 
 in [[Set]] is again a pullback diagram. A moment of reflection shows that this statement is _equivalent_ to the very definition of limit.
 
+### Relation to profunctors
+
+A hom-functor $C^{op}\times C\to Set$ is also a [[profunctor]] $C &#x21F8; C$.
 
 ## Examples
 
