@@ -1,4 +1,3 @@
-
 # Contents
 * automatic table of contents
 {: toc}
@@ -64,80 +63,131 @@ Codiscrete cofibrations in the 2-category $Dbl$ of [[double categories]], [[doub
 
 ## Construction of a proarrow equipment
 
-This suggests that given any 2-category $K$ with finite 2-colimits, we may try to canonically equip $K$ with proarrows by defining the proarrows $A &#8696;C$ to be the codiscrete cofibrations.  The sticky point is then how to define units and composition of such proarrows in order to obtain an equipment.
+The examples of profunctors suggest that given any 2-category $K$ with finite 2-colimits, we may try to canonically equip it with proarrows by defining the proarrows $A &#8696;C$ to be the codiscrete cofibrations.  The sticky point is then how to define units and composition of such proarrows in order to obtain an equipment.
 
 The unit is obvious: we should take the unit proarrow of $A$ to be the cospan $A\to A\times I \leftarrow A$, which is always a codiscrete cofibration.
 
-Composition is subtler.  The obvious way to compose codiscrete cofibrations $A \to B \leftarrow C$ and $C\to D \leftarrow E$, of course, is to take a [[pushout]] $B +_C D$.  It is not hard to show (see references):
+Binary composition is subtler.  The obvious way to compose codiscrete cofibrations $A \to B \leftarrow C$ and $C\to D \leftarrow E$, of course, is to take a [[pushout]] $B +_C D$.  It is not hard to show (see references):
 
 +-- {: .un_theorem}
 ###### Theorem
 In any 2-category with finite 2-colimits, if $B$ and $D$ are cofibrations, then so is $B +_C D$.
 =--
 
-However, $B +_C D$ will not be codiscrete even if $B$ and $D$ are.  In $V Cat$, if $B$ and $D$ are collages of profunctors $m$ and $n$, then $B +_C D$ represents the gamut consisting of $m$, $n$, and the composite profunctor $n m$, with the middle category being $C$.  Thus, in order to obtain the correct composite, we need to forget about $C$ somehow.  The best way to do this seems to be using a [[factorization system]] (in the weak 2-categorical sense), akin to the construction of the [[bicategory of relations]] from any [[regular category]].
+However, $B +_C D$ will not be codiscrete even if $B$ and $D$ are.  In $V Cat$, if $B$ and $D$ are collages of profunctors $m$ and $n$, then $B +_C D$ represents the gamut consisting of $m$, $n$, and the composite profunctor $n m$, with the middle category being $C$.  Thus, in order to obtain the correct composite, we need to forget about $C$ somehow.  The best way to do this seems to be using a [[factorization system in a 2-category]], akin the way in which we construct the [[bicategory of relations]] from any [[regular category]].
 
-The following definition is tentative.
+
+### Equippable 2-categories
+
+We are looking for a [[factorization system in a 2-category|2-categorical factorization system]] $(\mathcal{E},\mathcal{M})$ in $K$ such that if we have a two-sided cofibration $A\to C\leftarrow B$ and we factor $A+B \to C$ into an $\mathcal{E}$-map and an $\mathcal{M}$-map, then the resulting cospan $A\to E \leftarrow B$ is a codiscrete cofibration.  Codiscreteness means in particular that the $\mathcal{E}$-map $A+B\to E$ should be codiscrete, i.e. representably cofaithful and co-conservative.  Moreover, if $A\to C\leftarrow B$ was already a codiscrete cofibration, then $A+B\to C$ should already be in $\mathcal{E}$.  This suggests the following definition.
 
 +-- {: .un_defn}
 ###### Definition
-A 2-category with finite 2-colimits is **equippable** if it has a [[factorization system in a 2-category|factorization system]] $(\mathcal{E},\mathcal{M})$ such that
+A 2-category with finite 2-limits and 2-colimits is **pre-equippable** if it has a factorization system $(\mathcal{E},\mathcal{M})$ such that
 
-1. Every morphism in $\mathcal{E}$ is representably co-faithful and co-conservative.
-1. Any morphism which admits a reflection or coreflection (i.e. a left adjoint with invertible counit or a right adjoint with invertible unit) is in $\mathcal{M}$.
-1. If $A\to B \leftarrow C$ is a codiscrete cofibration, then $A+B \to C$ is in $\mathcal{E}$.
-1. Morphisms in $\mathcal{M}$ are closed under pushout and under copowers with $I$.
+* if $A\to C \leftarrow B$ is a codiscrete cofibration, then $A+B \to C$ is in $\mathcal{E}$, and
+* every morphism in $\mathcal{E}$ is representably co-faithful and co-conservative.
+
+It is **equippable** if in addition it satisfies:
+
+* Morphisms in $\mathcal{M}$ are closed under pushout and tensors with $I$.
 =--
 
-Co-conservative arrows are called **liberal**.  A **faithfully co-conservational bicategory**, in the sense of the paper (MB) referenced below, is an equippable bicategory in which $\mathcal{E}$ is precisely the class of liberal arrows, and all liberal arrows are also cofaithful; in this case the arrows of $\mathcal{M}$ are called **strong conservative**.  The definition of equippable 2-category is a direct generalization of that of "faithfully co-conservational bicategory" to allow alternate factorization systems, so we will refer many proofs to their analogues in (MB).
+Co-conservative morphisms are also called **liberal**.  Recall that by definition of codiscreteness, if $A\to C \leftarrow B$ is a codiscrete cofibration, then $A+B\to C$ is cofaithful and liberal; thus the first two conditions are compatible.
 
-We first observe a couple of basic properties.
+The example to keep in mind is $V Cat$, for any suitable $V$, where $\mathcal{E}$ is the class of essentially surjective $V$-functors and $\mathcal{M}$ is the class of $V$-fully-faithful functors.
 
 +-- {: .un_prop}
 ###### Proposition
-If $K$ is equippable, then every morphism in $\mathcal{M}$ is representably fully faithful.
+Any morphism which is right orthogonal to codiscrete cofibrations is [[fully faithful morphism|representably fully faithful]].  In particular, if $K$ is pre-equippable, then every morphism in $\mathcal{M}$ is representably fully faithful.
 =--
 +-- {: .proof}
 ###### Proof
-For any $X$ in $K$, we have a codiscrete cofibration $X\to X \times \mathbf{2} \leftarrow X$, and thus $X+X \to X\times\mathbf{2}$ is in $\mathcal{E}$.  But orthogonality with respect to all such morphisms is precisely representable fully-faithfulness.
-=--
-
-+-- {: .un_prop}
-###### Proposition
-Any [[inverter]] or [[equifier]] is in $\mathcal{M}$.
-=--
-+-- {: .proof}
-###### Proof
-Any inverter is always right orthogonal to any liberal morphism, and any equifier is always right orthogonal to any cofaithful morphism.  Thus this follows from the assumptions on $\mathcal{E}$.
+For any $X$ in $K$, we have a codiscrete cofibration $X\to X \times I \leftarrow X$, and thus $X+X \to X\times I$ is in $\mathcal{E}$.  But orthogonality with respect to all such morphisms is precisely representable fully-faithfulness.
 =--
 
 +-- {: .un_prop}
 ###### Proposition
-If $K$ has finite 2-limits, then for $(\mathcal{E},\mathcal{M})$ to make it equippable it suffices to know that
-1. All inverters and equifiers are in $\mathcal{M}$,
-1. If $A\to B \leftarrow C$ is a codiscrete cofibration, then $A+B \to C$ is in $\mathcal{E}$, and
-1. Morphisms in $\mathcal{M}$ are closed under pushout and under copowers with $I$.
+Any representably fully faithful morphism is right orthogonal to any [[cocomma object]].  In particular, $K$ is pre-equippable and every codiscrete cofibration is a cocomma object, then $\mathcal{M}$ is precisely the class of representably fully faithful morphisms.
 =--
 +-- {: .proof}
 ###### Proof
-If $K$ has all inverters, then a morphism is liberal iff it is left orthogonal to all inverters, and similarly for equifiers and cofaithfuls.  Also, if a morphism admits a left adjoint with invertible counit, then it is the inverter of the unit, and dually.
+Maps out of a cocomma object are in canonical correspondence with 2-cells in $K$.  But representable fully-faithfulness means that 2-cells lift uniquely along such a map.  Hence so do maps out of a cocomma object, and hence any representably fully faithful map is right orthogonal to all cocomma cospans.
 =--
 
-Examples include:
++-- {: .un_prop}
+###### Proposition
+If $K$ is pre-equippable, then any [[inverter]] or [[equifier]] is in $\mathcal{M}$, and every morphism in $\mathcal{E}$ is cofaithful and liberal.
+=--
++-- {: .proof}
+###### Proof
+Any inverter is always right orthogonal to any liberal morphism, and any equifier is always right orthogonal to any cofaithful morphism.
+=--
 
-* $V Cat$ is equippable for any suitable $V$, where $\mathcal{E}$ is the class of essentially surjective functors and $\mathcal{M}$ is the class of $V$-fully-faithful functors.  This is a special case of a general 2-categorical situation considered below.
 
-* A functor between [[Cauchy completion|Cauchy complete]] $V$-categories is essentially surjective if and only if it is liberal.  Therefore, $V Cat_{cc}$ is faithfully co-conservational.  However, $V Cat$ is not co-conservational: strong-conservative functors between non-Cauchy-complete categories are not only $V$-fully faithful but closed under retracts, and these need not be preserved by pushout, even when $V=Set$.  This example does show, however, that a given 2-category can admit more than one factorization system satisfying all but the final condition in the definition of equippable.
+### The construction
 
-In an equippable 2-category $K$, we can define the composite of two codiscrete cofibrations $A \to B \leftarrow C$ and $C\to D \leftarrow E$ by first taking the pushout $B +_C D$, and then factoring the morphism $A+E \to B +_C D$ as an $\mathcal{E}$-map followed by an $\mathcal{M}$-map, $A+E \to G \to B +_C D$.  By (MB, 4.18), the resulting cospan $A \to D \leftarrow E$ is a cofibration, and since $A+E \to G$ is in $\mathcal{E}$, it is cofaithful and liberal, hence $G$ is codiscrete.
+In an equippable 2-category, we can compose cofibrations in the desired way.
 
-One can then show (MB, section 4) that there is a 2-category $CdCofib(K)$ with the same objects as $K$ and with codiscrete cofibrations as 1-morphisms, and a locally fully faithful identity-on-objects (pseudo) 2-functor $(-)_* K\to CdCofib(K)$ such that each 1-morphism $f_*$ has a right adjoint.  Therefore, $K$ is canonically a [[2-category equipped with proarrows]] (hence the term "equippable").
++-- {: .un_prop}
+###### Proposition
+If $K$ is equippable, $A\to E \leftarrow B$ is a two-sided cofibration, and $A+B \to F \to E$ is an $(\mathcal{E},\mathcal{M})$-factorization, then $A\to F \leftarrow B$ is a codiscrete cofibration.  In particular, the category $CodCofib(A,B)$ is coreflective in the 2-category $Cofib(A,B)$.
+=--
++-- {: .proof}
+###### Proof
+Since $\mathcal{E}$-morphisms are cofaithful and liberal, $A\to F \leftarrow B$ is certainly codiscrete.  That it is a cofibration is proven as in (MB, 4.18).  Coreflectivity follows by orthogonality for the factorization system $(\mathcal{E},\mathcal{M})$, since all codiscrete cofibrations are in $\mathcal{E}$ by assumption.
+=--
+
+Therefore, in an equippable 2-category, we can define the composite of codiscrete cofibrations $A\to B\leftarrow C$ and $C\to D\leftarrow E$ to be the codiscrete coreflection of the cofibration $A \to B +_C D\leftarrow E$.
+
++-- {: .un_prop}
+###### Proposition
+If $K$ is equippable, there is a 2-category $CodCofib(K)$, with the same objects as $K$, and with codiscrete cofibrations as 1-morphisms.  Moreover, there is a locally fully faithful identity-on-objects (pseudo) 2-functor $(-)_* K\to CdCofib(K)$ such that each 1-morphism $f_*$ has a right adjoint.  Therefore, $K$ is canonically a [[2-category equipped with proarrows]] (hence the term "equippable").
+=--
++-- {: .proof}
+###### Proof
+This is essentially (MB, 4.20).
+=--
 
 One can then impose additional axioms on $K$ to get good behavior of this equipment, and try to characterize the equipments arising in this way; see (MB, section 5) and (PC).
 
-### The strongly fully faithful factorization system
 
-...
+### Canonical factorization systems
+
+Note that since coreflections are determined by a universal property, the composite of codiscrete cofibrations is independent of the chosen factorization system $(\mathcal{E},\mathcal{M})$.  In fact, there are two different "extreme" ways that we might try to define an equippable factorization system; we could either
+
+1. Define $\mathcal{E}$ to be generated by the class of liberal and cofaithful morphisms, or
+1. Define $\mathcal{E}$ to be generated by the class of codiscrete cofibrations.
+
+By "generated by" we mean that $\mathcal{M}$ is the class of all morphisms right orthogonal to the given class, and then $\mathcal{E}$ is the class of all morphisms left orthogonal to $\mathcal{M}$.  This implies, of course, that $\mathcal{E}$ contains the given generating class of morphisms.
+
+Neither of the above choices is guaranteed to produce a factorization system (since the factorizations may not exist), but if either one does, then that factorization system is automatically pre-equippable.  In the first case this is obvious, since all codiscrete cofibrations are cofaithful and liberal, while in the second case, it follows since inverters and equifiers are then necessarily in $\mathcal{M}$, and anything left orthogonal to inverters and equifiers must be cofaithful and liberal.  Thus, a 2-category is equippable if either of these two choices produces a factorization system for which $\mathcal{M}$ is closed under pullback and tensors with $I$.
+
++-- {: .un_prop}
+###### Proposition
+The (essentially surjective, $V$-fully faithful) factorization system is generated by the codiscrete cofibrations, and is equippable.
+=--
++-- {: .proof}
+###### Proof
+It suffices to show that a $V$-functor $f\colon A\to B$ is right orthogonal to codiscrete cofibrations if and only if it is $V$-fully faithful, i.e. each morphism $A(a,a') \to B(f a, f a')$ is an isomorphism in $V$.  For "if", it suffices to observe that $V$-fully faithful functors are right orthogonal to all essentially surjective ones, and any codiscrete cofibration is essentially surjective.  For "only if," suppose given $a,a'\in A$, let $X=Y=I$ be the unit $V$-category, consider the object $B(f a,f a')\in V$ as a $V$-profunctor $X \to Y$, and let $E$ be its [[collage]].  Then we have a square
+$$\array{X\sqcup Y & \overset{[a,a']}{\to} & A\\
+  \downarrow && \downarrow\\
+  E & \underset{[f a, f a']}{\to} & B}$$
+where the bottom arrow is the identity on the nontrivial hom-object $B(f a,f a')$.  A lifting in this square supplies a [[section]] of $A(a,a') \to B(f a, f a')$, and uniqueness of lifting against the collage of $A(a,a')$ (also as a profunctor $I\to I$) shows that it is an inverse isomorphism; hence $f$ is $V$-fully faithful.
+
+Finally, it is straightforward to verify that $V$-fully-faithful functors are closed under pushout and tensors with $I$.
+=--
+
++-- {: .un_prop}
+###### Proposition
+In $V Cat$, every liberal is automatically cofaithful, and there is a pre-equippable factorization system in which $\mathcal{E}$ is precisely the class of liberal morphisms.  However, it is not equippable, even when $V=Set$.
+=--
++-- {: .proof}
+###### Proof
+This is essentially (MB, 3.4).  In this case $\mathcal{M}$ consists of the $V$-fully faithful morphisms which are additionally closed under [[absolute colimits]], while $\mathcal{E}$ consists of the functors which are surjective up to absolute colimits ("Cauchy dense" functors).  When $V=Set$,  all absolute colimits are generated by retracts, and it is easy to construct an example of a fully faithful functor closed under retracts and a pushout of it which is no longer closed under retracts.
+=--
+
+An equippable 2-category with $\mathcal{E} =$ liberal cofaithfuls = liberals is called **faithfully co-conservational** in (MB).  This is the only case considered there, but the proofs generalize directly to any equippable 2-category.  Note that $V Cat$ is *not* faithfully co-conservational, since the above factorization system is only pre-equippable: $\mathcal{M}$ is not closed under pushout.  Its sub-2-category $V Cat_{cc}$ of [[Cauchy complete category|Cauchy complete]] $V$-categories is faithfully co-conservational, but this is arguably just because when restricted to $V Cat_{cc}$, the above factorization coincides with the other, better one.  Thus, it seems that perhaps in general it is better to consider the factorization system generated by the codiscrete cofibrations.
 
 
 ## References
