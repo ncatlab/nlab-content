@@ -139,7 +139,7 @@ in [[Set]] is again a pullback diagram. A moment of reflection shows that this s
 
 ### Relation to profunctors
 
-A hom-functor $C^{op}\times C\to Set$ is also a [[profunctor]] $C &#x21F8; C$.
+A hom-functor $C^{op}\times C\to Set$ is also the identity [[profunctor]] $1_C: C &#x21F8; C$.
 
 ## Examples
 
