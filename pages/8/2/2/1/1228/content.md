@@ -1,6 +1,10 @@
 <div class="rightHandSide toc">
+[[!include Yoneda lemma - contents]]
+***
 [[!include category theory - contents]]
 </div>
+
+
 
 #Contents#
 * automatic table of contents goes here
