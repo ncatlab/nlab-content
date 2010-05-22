@@ -1,6 +1,9 @@
 <div class="rightHandSide toc">
+[[!include Yoneda lemma - contents]]
+***
 [[!include quasi-category theory contents]]
 </div>
+
 
 # Yoneda lemma for $(\infty,1)$-categories
 * automatic table of contents goes here
