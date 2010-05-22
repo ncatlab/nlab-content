@@ -98,7 +98,7 @@ $$\Lambda:=Hom_D(X(\cdot),\cdot):\mathbb{P}^{op}\times D\to Set,$$
 so $\Lambda$ also gives a functor $\bar{X}: D\to [\mathbb{P}^{op},Set]$ by restriction to the second coordinate. 
 
 +--{.query}
-I know what is trying to be said by those last five words, but it's not a clean use of language. Actually, there's a technical word for it: "currying" (after Haskell Curry). That could link to another page. 
+I know what is trying to be said by those last five words, but it's not a clean use of language. Actually, there's a technical word for it: "[[currying]]" (after Haskell Curry). That could link to another page. 
 
 Also, the functor gotten from $\Lambda$ got turned around a little -- I fixed it.
 =--
