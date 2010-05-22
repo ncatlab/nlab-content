@@ -1,9 +1,10 @@
 <div class="rightHandSide toc">
 [[!include category theory - contents]]
 ***
+[[!include Yoneda lemma - contents]]
+***
 [[!include topos theory - contents]]
 </div>
-
 
 #Contents#
 * automatic table of contents goes here
