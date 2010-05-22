@@ -1,7 +1,7 @@
+
+
 <div class="rightHandSide toc">
-[[!include category theory - contents]]
-***
-[[!include higher category theory - contents]]
+[[!include quasi-category theory contents]]
 </div>
 
 
