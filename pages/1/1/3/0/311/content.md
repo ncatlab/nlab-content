@@ -12,22 +12,31 @@
 
 ## Idea 
 
-If $C$ is a [[locally small category]], then we say a [[functor]] 
+For $C$ is a [[locally small category]], a [[presheaf]] on $C$ or equivalently a [[functor]] 
 
 $$F: C^{op} \to Set$$ 
 
-is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a [[hom-functor]] $\hom_C(-, c): C^{op} \to Set$. The object $c$ is determined uniquely up to isomorphism, and is called a **representing object** for $F$. 
+on the [[opposite category]] of $C$ with values in [[Set]] is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a [[hom-functor]] $h_X := \hom_C(-, X): C^{op} \to Set$, which sends an object $U \in C$ to the [[hom-set]] $Hom_C(U,X)$ in $C$
 
+<img src="http://ncatlab.org/ericforgy/files/hx2.jpg" width = "200"/>
 
-Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
+and which sends a [[morphism]] $\alpha : U' \to U$ in $C$ to the [[function]] which sends each morphism $U \to X$ to the composite $U' \stackrel{\alpha}{\to} U \to X$
+
+<img src="http://ncatlab.org/ericforgy/files/hxalpha2.jpg" width = "400"/> 
+
+The object $X$ is determined uniquely up to [[isomorphism]] in $C$, and is called a **representing object** for $F$. 
+
+Representability is one of the most fundamental concepts of [[category theory]], with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
 ## Definition 
 
-More precisely, given a functor $F: C^{op} \to Set$ (also called a [[presheaf]] on $C$), a **representation** of $F$ is a specified natural isomorphism 
+### In ordinary category theory
+
+For a functor $F: C^{op} \to Set$ (also called a [[presheaf]] on $C$), a **representation** of $F$ is a specified [[natural isomorphism]] 
 
 $$\theta: \hom_C(-, c) \stackrel{\sim}{\to} F$$ 
 
-By the [[Yoneda lemma]], any such transformation $\theta$ (isomorphism or not) is uniquely determined by an element $\xi \in F(c)$. As above, the object $c$ is called a **representing object** (or often, **universal object**) for $F$, and the element $\xi$ is called a **universal element** for $F$. Again, it follows from the [[Yoneda lemma]] that the pair $(c, \xi)$ is determined uniquely up to unique isomorphism. 
+By the [[Yoneda lemma]], any such transformation $\theta$ (isomorphism or not) is uniquely determined by an element $\xi \in F(c)$. As above, the object $c$ is called a **representing object** (or often, **universal object**) for $F$, and the element $\xi$ is called a **[[universal element]]** for $F$. Again, it follows from the [[Yoneda lemma]] that the pair $(c, \xi)$ is determined uniquely up to unique isomorphism. 
 
 Following the proof of the Yoneda lemma, representability means precisely this: given any object $x$ of $C$ and any element $\alpha \in F(x)$, there exists a unique morphism $f: x \to c$ such that the function $F(f)$ carries the universal element $\xi \in F(c)$ to $\alpha \in F(x)$. Such a dry formulation fails to convey the remarkable power of this concept, which can really only be appreciated through the myriad examples which illustrate it. 
 
@@ -68,6 +77,14 @@ $$
 A $V$-enriched functor $F : C \to V$ is **representable** if there is $c \in C$ and a $V$-[[enriched natural transformation]] $\eta : F \to C(c,-)$.
 
 If $V$ is [[symmetric monoidal category|symmetric monoidal]] one can form the [[opposite category]] $C^{op}$ and have the analogous definition for representable functors $F : C^{op} \to V$.
+
+### In higher category theory
+
+The notion of representable functors has its straightforward analogs also in [[higher category theory]]. 
+
+* For [[2-category theory]] see ... .
+
+* For [[(∞,1)-category theory]] theory see [[(∞,1)-presheaf]]
 
 
 ## Examples 
