@@ -14,7 +14,7 @@ The [[Yoneda lemma]] implies that this functor is [[full and faithful functor|fu
 
 Recall from the discussion at [[representable presheaf]] that the presheaf represented by an objct $X$ of $C$ is the functor $h_X :C^{op} \to Set$ whose assignment is illustrated by
 
-<img src="http://ncatlab.org/ericforgy/files/hxalpha2.jpg" width = "400"/>
+<img src="http://ncatlab.org/ericforgy/files/hxalpha3.jpg" width = "400"/>
 
 Moreover, for $f : X \to Y$ an [[morphism]] in $C$, this induces a [[natural transformation]] $h_f : h_X \to h_Y$, whose component on $U$ in $X$ is illustrated by
 
