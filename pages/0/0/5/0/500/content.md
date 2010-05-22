@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include Yoneda lemma - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -109,4 +114,4 @@ by Yoneda reduction. This completes the induction.
 
 ## Blog resources
 
-Todd Trimble talks about Yoneda reduction on the $n$Caf&#233; [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365).
+[[Todd Trimble]] talks about Yoneda reduction on the $n$Caf&eacute; [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365).
