@@ -23,7 +23,7 @@ on the [[opposite category]] of $C$ with values in [[Set]] is **representable** 
 
 and which sends a [[morphism]] $\alpha : U' \to U$ in $C$ to the [[function]] which sends each morphism $U \to X$ to the composite $U' \stackrel{\alpha}{\to} U \to X$
 
-<img src="http://ncatlab.org/ericforgy/files/hxalpha2.jpg" width = "400"/> 
+<img src="http://ncatlab.org/ericforgy/files/hxalpha3.jpg" width = "400"/> 
 
 The object $X$ is determined uniquely up to [[isomorphism]] in $C$, and is called a **representing object** for $F$. 
 
