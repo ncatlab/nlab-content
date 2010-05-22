@@ -1,5 +1,20 @@
-**Cat** is a name for the category of all [[category|categories]].  To avoid set-theoretic problems related to Russell's paradox, it is typical to restrict $Cat$ to [[small category|small categories]].
 
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+**Cat** is a name for the [[category]] or [[2-category]] of all [[category|categories]].  
+
+
+## Definition
+
+To avoid set-theoretic problems related to Russell's paradox, it is typical to restrict $Cat$ to [[small category|small categories]].
 
 To be explicit, define **Cat** to be the category with:
 
@@ -7,7 +22,6 @@ To be explicit, define **Cat** to be the category with:
 * [[functor|functors]] as [[morphism|morphisms]].
 
 This is probably the most common meaning of $Cat$ in the literature.
-
 
 We more often use **Cat** to stand for the [[strict 2-category]] with:
 
