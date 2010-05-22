@@ -3,6 +3,8 @@
 [[!include model category theory - contents]]
 ***
 [[!include homotopy - contents]]
+***
+[[!include quasi-category theory contents]]
 </div>
 
 
