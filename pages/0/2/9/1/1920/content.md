@@ -121,7 +121,7 @@ Note also that for any virtual double category $X$, there is another virtual dou
 
 * More basically, we also have a "free strict monoidal category" monad on $Prof$, whose $T$-monoids on discrete categories are ordinary non-symmetric multicategories.  Noting that $Prof = Mod(Span)$, this $T$ is also $Mod(S)$, where $S$ is the "free monoid" monad on $Span = Span(Set)$.  In fact, quite generally for any monad $S$ on a virtual double category $X$, we can identify $S$-monoids in $X$ with $Mod(S)$-monoids in $Mod(X)$ on "discrete objects."
 
-* The [[ultrafilter monad]] $U$ on $Set$ has a "canonical" extension to the virtual double category $Rel$ of sets, functions, and binary relations.  Although $Rel$ is a pseudo double category, this monad is only a lax functor, and its $\mu$ and $\eta$ are only oplax.  The $U$-monoids in $Rel$ can be identified with [[topological spaces]], by an observation originally due to Barr.
+* The [[ultrafilter monad]] $U$ on $Set$ has a "canonical" extension to the virtual double category $Rel$ of sets, functions, and binary relations.  Although $Rel$ is a pseudo double category and this monad is a strict functor, $\eta$ is only oplax.  The $U$-monoids in $Rel$ can be identified with [[topological spaces]], by an observation originally due to Barr.
 
 * Similarly, the powerset monad $P$ on $Set$ extends to $Rel$ in a canonical way, and the $P$-monoids in $Rel$ are [[closure space]]s.
 
