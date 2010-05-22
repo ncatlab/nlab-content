@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -239,7 +244,7 @@ From there, you can see that any derivator is canonically enriched in the deriva
 The notion of derivator is originally due to [[Grothendieck]] in [[Pursuing Stacks]]. 
 The first thirteen chapters of a 2000 page manuscript of Grothendieck (in French) about derivators can be found at:
 
-* [[Alexander Grothendieck]],  _[Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
+* [[Alexander Grothendieck]],  _[Les D&eacute;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
 
 Independently, there is a version due to Heller (who called them "homotopy theories"):
 
