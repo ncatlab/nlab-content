@@ -4,6 +4,15 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+<p>Here is an ordered list:</p>
+<ol><li>Here is the first item.</li>
+<li>Here is the second item.</li></ol>
+<p>The difference between the previous items and the following ones is so remarkable that I want to take a break for a moment and remark upon it.</p>
+<ol start="3"><li>OK, now here is the third item.</li>
+<li>Item (4) obviates the need for item (5).</li>
+<li value="6">And therefore we go on to item (6).</li>
+<li>This is now item (7), automatically.</li></ol>
+<p>And that's the whole list!</p>
 
 Testing ... $\int_{0}^{1} \sin(3t) t^2 \mathrm{dt}$.
 
