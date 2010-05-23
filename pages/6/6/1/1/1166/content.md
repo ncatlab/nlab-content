@@ -1,19 +1,23 @@
-# Idea
+# Subsequential spaces
+* table of contents
+{: toc}
+
+## Idea
 
 A **subsequential space** is a set equipped with a notion of _sequential convergence_, giving it a "topology" in an informal sense.
 
 Any [[topological space]] (or more generally, any [[pseudotopological space]]) becomes a subsequential space with its standard notion of convergence, but only for a [[sequential space]] can the topology be recovered from sequential convergence.  In the other direction, not every subsequential space is induced by a topological one.  Despite these apparent drawbacks, subsequential spaces have a number of advantages; see below.
 
 
-# Definition
+## Definition
 
 A **subsequential space** is a set $X$ equipped with a relation between sequences and points, called "converges to," with the following properties.
 
 1. For every $x\in X$, the constant sequence $(x)$ converges to $x$.
 
-1. If a sequence $(x_n)$ converges to $x$, then so does any subsequence of $x$.
+2. If a sequence $(x_n)$ converges to $x$, then so does any subsequence of $x$.
 
-1. If, for some sequence $(x_n)$ and some point $x$, every subsequence of $(x_n)$ contains a further subsequence converging to $x$, then $(x_n)$ itself converges to $x$.
+3. If, for some sequence $(x_n)$ and some point $x$, every subsequence of $(x_n)$ contains a further subsequence converging to $x$, then $(x_n)$ itself converges to $x$.
 
 The final property can be stated less [[constructive mathematics|constructively]] as "if $(x_n)$ does not converge to $x$, then there is a subsequence $(x_{n_k})$ of $(x_n)$ such that no subsequence of $(x_{n_k})$ converges to $x$."
 
@@ -22,7 +26,7 @@ Note that this definition matches the definition of [[pseudotopological space]] 
 A subsequential space is said to be **sequentially [[Hausdorff space|Hausdorff]]** if each sequence converges to at most one limit.
 
 
-# Properties
+## Properties
 
 The definition of a subsequential space is arguably easier and more intuitive than that of a [[topological space]].  Continuity of functions between subsequential spaces is likewise easy to define by preservation of convergent sequences.
 
@@ -39,32 +43,12 @@ It follows that the [[geometric realization]] functor from [[simplicial set]]s c
 These properties of subsequential spaces should be compared with analogous ones for [[convergence space]]s and their relatives, such as [[pseudotopological space]]s.  The category $Conv$ of convergence spaces is also a complete and cocomplete quasitopos (hence, in particular, locally cartesian closed) and includes *all* of $Top$ as a reflective subcategory.  However, $Conv$ is not locally presentable and has no generator, and while the embedding of $Top$ into $Conv$ also preserves all limits (since it has a left adjoint), it actually preserves _fewer_ colimits than the embedding of $SeqTop$ into $SeqPsTop$.  In particular, it does _not_ preserve the colimits used in the construction of CW complexes: if you carry out the construction of a CW complex in $Conv$, in general the result won't even be a topological space.
 
 
-# Discussion
-
-+--{: .query}
-I\'m inclined to call such a thing a 'sequential [[convergence space]]'.  The category of convergence spaces is also quite nice; it\'s cartesian closed, has all limits, and has *all* colimits (and possibly the other properties).  Furthermore, it includes *all* of $Top$ as a reflective subcategory.  (I think that these results are in Lowen-Colebunder\'s book cited at [[filter]].)  ---Toby
-
-[[Mike Shulman|Mike]]: I accept your terminology.  The logic of "subsequential space" is that these are the subobjects of sequential spaces inside the Grothendieck topos of "consequential spaces," but that's not really very persuasive.  "Sequential convergence space" is unfortunately kind of long, but it is logical, and of course once one has established what sort of space one is working with in any particular context one is free to just call them "spaces."
-
-I added some remarks addressing the relationship to convergence spaces.  I also like convergence spaces (and their friends, like pseudotopological spaces) very much, and I'm sure they are important in some contexts, such as analysis or more point-set-y topology.   However, I think that probably sequential convergence spaces are a better choice for homotopy theory, for the reasons I gave above.
-
-_Toby_:  Ha, now I\'ve realised that 'sequential convergence space' is really not correct, since the last clause of the definition makes it a pseudotopological space!  So it should be 'sequential pseudotopological space', and now 'subsequential space' is looking nicer than ever.
-
-[[Mike Shulman|Mike]]: Okay.  I didn't realize at first that a "convergence space" is not the same as a pseudotopological space, since pseudotopological spaces seem to me the most natural notion of convergence for filters.  (Are there natural convergence spaces that are not pseudotopological?)  Move it back to [[subsequential space]] if you want.
-
-_Toby_:  First, I really ought to check that I\'ve got the definitions of 'convergence space' and 'Cauchy space' exactly correct.  (In particular, the former varies somewhat in early literature, much as 'topological space' did when it first came out.)  I don\'t *think* that the pseudotopological clause is in there, but ... I need to double-check.  (And if it\'s not, then I\'ll find you your counterexample too.)
-
-_Toby_:  Here\'s your counterexample: convergence almost everywhere.  With this convergence, the space of almost-everywhere defined real-valued Lebesgue-measureable functions on the real line is a sequential convergence space that is not pseudotopological.
-
-[[Mike Shulman|Mike]]: Huh, very interesting!
-=--
-
-
-# References
+## References
 
 * P. T. Johnstone, _On a topological topos_.  Proc. London Math. Soc. (3) 38 (1979) 237--271
 
 
+[[!redirects subsequential space]]
 [[!redirects subsequential spaces]]
 [[!redirects sequential pseudotopological space]]
 [[!redirects sequential pseudotopological spaces]]
