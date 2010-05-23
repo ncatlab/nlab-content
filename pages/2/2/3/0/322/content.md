@@ -22,7 +22,7 @@ The original definition is due to J.P. May and was given in his book _The Geomet
 Let $V$ be a [[symmetric monoidal category]]. A ( _permutative_ or _symmetric_ ) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the natural numbers $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
 
 * Right actions of [[symmetric group]]s $\rho_n: S_n \to \hom(F(n), F(n))$; 
-* An _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
+* A _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
 * Composition operations 
 $$F(k) \otimes F(n_1) \otimes F(n_2) \otimes \cdots \otimes F(n_k) \to F(n_1 + \ldots + n_k)$$
 [which we think of as the result of plugging the outputs of operations $\theta_1, \ldots, \theta_k$ into a $k$-ary operation $\theta$, to produce a new operation $\theta \circ (\theta_1 \otimes \ldots \otimes \theta_k)$]. 
@@ -41,7 +41,7 @@ $$F(k) \otimes \bigotimes_{i = 1}^n F(n_i) \to F(n_1 + \ldots + n_k)$$
 
 coequalizes a pair of automorphisms 
 
-$$\rho(\sigma) \otimes 1, 1 \otimes \lambda(\sigma): F(k) \otimes \bigotimes_{i=1}^n F(n_i) \stackrel{\to}{\to} F(k) \otimes \bigotimes_{i=1}^n F(n_i)$$ 
+$$\rho(\sigma) \otimes 1, 1 \otimes \lambda(\sigma): F(k) \otimes \bigotimes_{i=1}^n F(n_i) \;\rightrightarrows\; F(k) \otimes \bigotimes_{i=1}^n F(n_i)$$ 
 
 where $\sigma$ acts on the big tensor product on the left by permuting tensor factors in the obvious way. If $V$ has suitable colimits, this condition could be expressed in terms of tensor products over $S_n$. 
 
@@ -59,7 +59,7 @@ $$\theta \otimes x_1 \otimes \ldots \otimes x_n \mapsto \theta(x_1, \ldots, x_n)
 
 so that "elements" of $F(n)$ are interpreted as as $n$-ary operations on $v$. These data are subject to some natural conditions which implement this idea. 
 
-Perhaps the quickest way to define it is to suppose that $V$ is symmetric monoidal closed, and work by way of parallel to how [[representations]] or [[modules]] work. Just as an $R$-module (over a ring $R$) can be defined as a ring homomorphism 
+Perhaps the quickest way to define it is to suppose that $V$ is symmetric monoidal [[closed monoidal category|closed]], and work by way of parallel to how [[representations]] or [[modules]] work. Just as an $R$-module (over a ring $R$) can be defined as a ring homomorphism 
 
 $$R \to \hom(A, A)$$ 
 
@@ -81,7 +81,9 @@ The endomorphism operad composition is obtained by tensoring this last arrow wit
 
 $$\hom(v^{\otimes k}, v) \otimes \hom(v^{\otimes n_1 + \ldots + n_k}, v^{\otimes k}) \to \hom(v^{\otimes n_1 + \ldots + n_k}, v)$$ 
 
-A closely related way of defining an $F$-algebra is via the monad attached to an operad, which we will describe below. 
+A closely related way of defining an $F$-algebra is via the monad attached to an operad, which we will describe below.
+
+Note that this definition still makes sense when $v$ lives in any symmetric monoidal $V$-[[enriched category]], not only $V$ itself.
 
 ## A detailed conceptual treatment 
 
@@ -89,25 +91,25 @@ We describe here a compact one-sentence definition of operad first worked out by
 
 ### Preparation 
 
-Let $\mathbb{P}$ be the groupoid of finite cardinals with bijections as morphisms. Since $\mathbb{P}$ is the core groupoid of the category $Fin$ of finite cardinals and functions between them, the coproduct on $Fin$ restricts to a symmetric monoidal product called the cardinal sum on $\mathbb{P}$. 
+Let $\mathbb{P}$ be the [[groupoid]] of finite cardinals with [[bijections]] as morphisms. Since $\mathbb{P}$ is the [[core]] groupoid of the category $Fin$ of finite cardinals and functions between them, the [[coproduct]] on $Fin$ restricts to a symmetric monoidal product called the cardinal sum on $\mathbb{P}$. 
 
 +-- {: .un_remark style="margin-left:2em"}
 ###### Remark
 Under this symmetric monoidal structure, $\mathbb{P}$ may be characterized as the free symmetric strict monoidal category on one generator.
 =--
 
-The cardinal sum on $\mathbb{P}$ extends along the Yoneda embedding to a symmetric monoidal product $F \otimes G$ on the presheaf category $Psh(\mathbb{P}):=[\mathbb{P}^{op},Set]$. This is an instance of the [[Day convolution]]. 
+The cardinal sum on $\mathbb{P}$ extends along the [[Yoneda embedding]] to a symmetric monoidal product $F \otimes G$ on the [[presheaf category]] $Psh(\mathbb{P}):=[\mathbb{P}^{op},Set]$. This is an instance of the [[Day convolution]]. 
 
 +-- {: .un_note style="margin-left:2em"}
 ###### Warning
 By abuse of notation, we will also denote the presheaf category $Psh(\mathbb{P})$ equipped with the monoidal structure induced by the cardinal sum by $Psh(\mathbb{P})$.
 =--
 
-Since $Psh(\mathbb{P})$ is a [[presheaf]] category, it is cocomplete, and since the Day convolution is cocontinuous in each of its separate arguments we say that $Psh(\mathbb{P})$ is **symmetric monoidally cocomplete**. 
+Since $Psh(\mathbb{P})$ is a presheaf category, it is cocomplete, and since the Day convolution is [[cocontinuous functor|cocontinuous]] in each of its separate arguments we say that $Psh(\mathbb{P})$ is **symmetric monoidally cocomplete**. 
 
 +-- {: .un_note style="margin-left:2em"}
 ###### Note
-In addition to the standard coend formula, the Day convolution product on the $Psh(\mathbb{P})$ may be described by the rule:
+In addition to the standard [[coend]] formula, the Day convolution product on the $Psh(\mathbb{P})$ may be described by the rule:
 
 $$(F \otimes G)[S] = \sum_{S = T + U} F[T] \times G[U],$$ 
 
@@ -122,7 +124,7 @@ extends uniquely up to isomorphism to a symmetric monoidal _cocontinuous_ functo
 
 $$\hat{X}: Psh(\mathbb{P}) \to D,$$ 
 
-taking a presheaf $W: \mathbb{P}^{op} \to Set$ to the [[limit|weighted colimit]] $W \cdot X$.  
+taking a presheaf $W: \mathbb{P}^{op} \to Set$ to the [[weighted colimit]] $W \cdot X$.  
 
 +-- {: .un_remark style="margin-left:2em"}
 ###### Remark
@@ -141,7 +143,7 @@ Then we define $W \cdot_{\mathbb{P}} X$ to be the object representing the functo
 
 $$\Lambda_W:=Hom_Psh(\mathbb{P})(W,\Lambda(\cdot)):D\to Set$$ 
 
-whenever $\Lambda_W$ is representable.   
+whenever $\Lambda_W$ is [[representable functor|representable]].
 
 In general, weighted colimits may be described explicitly by coend formulas; here 
 
@@ -168,7 +170,7 @@ When $D$ is the symmetric monoidally cocomplete category $(Set, \times)$ and $x$
 
 $$\hat{F}(x) = \sum_n F(k) \otimes_{S_k} x^k$$ 
 
-is the value at $x$ of what Joyal calls the _analytic functor_ $\hat{F}: Set \to Set$ associated to a species $F$, which has been proposed as the categorification of the theory of exponential generating functions. The fact that $F \mapsto \hat{F}(x)$ is symmetric monoidal (cocontinuous) means that there is a canonical isomorphism
+is the value at $x$ of what Joyal calls the _analytic functor_ $\hat{F}: Set \to Set$ associated to a [[combinatorial species|species]] $F$, which has been proposed as the categorification of the theory of exponential [[generating function]]s. The fact that $F \mapsto \hat{F}(x)$ is symmetric monoidal (cocontinuous) means that there is a canonical isomorphism
 
 $$\hat{(F \otimes_{Day} G)}(x) \cong \hat{F}(x) \times \hat{G}(x)$$ 
 
@@ -207,15 +209,15 @@ A ($Set$-based) **operad** is a [[monoid]] in the [[monoidal category]] $(Psh(\m
 
 ### Remarks 
 
-* We can get different flavors of operad by considering different notions of monoidal category. For instance, for the theory of monoidal categories, the discrete category $\mathbb{N}$ plays the role of the free (strict) monoidal category on one generator, and $Set^{\mathbb{N}^{op}}$ the free monoidally cocomplete category on one generator. Similarly, for braided monoidal categories, we have the braid category $\mathbb{B}$, and $Set^{\mathbb{B}^{op}}$ is the free braided monoidally cocomplete category on one generator. Again, for cartesian categories, we have $Fin^{op}$ (the opposite of finite sets and functions) as the free cartesian category on one generator, and $Set^{Fin}$ is the free cartesian monoidally cocomplete category on one generator. In each of these cases we get a corresponding notion of operad by following the above treatment _mutatis mutandis_: nonpermutative operads, braided operads, cartesian operads (better known as [[Lawvere theory|Lawvere theories]]). 
+* We can get different flavors of operad by considering different notions of monoidal category. For instance, for the theory of monoidal categories, the discrete category $\mathbb{N}$ plays the role of the free (strict) monoidal category on one generator, and $Set^{\mathbb{N}^{op}}$ the free monoidally cocomplete category on one generator. Similarly, for braided monoidal categories, we have the braid category $\mathbb{B}$, and $Set^{\mathbb{B}^{op}}$ is the free braided monoidally cocomplete category on one generator. Again, for cartesian categories, we have $Fin^{op}$ (the opposite of finite sets and functions) as the free cartesian category on one generator, and $Set^{Fin}$ is the free cartesian monoidally cocomplete category on one generator. In each of these cases we get a corresponding notion of operad by following the above treatment _mutatis mutandis_: nonpermutative operads, braided operads, cartesian operads (better known as [[Lawvere theory|Lawvere theories]]).  These are all special cases of the notion of [[generalized multicategory]].
 
 * All of the above carries over to the enriched setting, where we work over a complete, cocomplete symmetric monoidal closed base category $V$. Here ordinary categories (like $\mathbb{N}, \mathbb{P}, \mathbb{B}, Fin$) are viewed as $V$-enriched by a simple change of base: change from [[hom-set]]s to [[hom-objects]] by applying the change of base functor 
 $$Set \to V$$ 
-that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the monoidal unit of $V$. 
+that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the monoidal unit of $V$.  These can also be defined in the framework of [[generalized multicategories]].
 
-* There are still other notions of operad; see for example the discussion of $T$-operads under the entry [[multicategory]] for more details. See also the general framework by Hyland, Fiore, and others [to be filled in]. 
+* The notion of generalized muticategories is even more general than this; for instance it also includes [[globular operads]] and [[topological spaces]].  See [[generalized multicategory]] for details.
 
-* In still other directions, there are for example notions of _cyclic operad_ and _modular operad_. Anyone want to take these up? 
+* In still other directions, there are for example notions of [[cyclic operad]] and [[modular operad]].  Anyone want to take these up? 
 
 ## The monad attached to an operad 
 
