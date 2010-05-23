@@ -5,3 +5,5 @@ Since [[Set]] is a [[balanced category]], bijections can also be characterized a
 
 [[!redirects bijective function]]
 [[!redirects bijective]]
+[[!redirects bijections]]
+[[!redirects bijective functions]]
