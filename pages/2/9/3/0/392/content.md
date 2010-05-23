@@ -19,3 +19,7 @@ Frequently, in fact, it is conversely true that all herrings are red herrings.  
 * A $*$-[[star-autonomous category|autonomous category]] is not an [[autonomous category]], but the reverse is almost true: a *symmetric* autonomous (a.k.a. compact closed) category is a fairly special case of a $*$-autonomous one.
 
 * A [[linearly distributive category]] has essentially nothing to do with a [[distributive category]].
+
+
+[[!redirects red herring]]
+[[!redirects red herring principle]]
