@@ -43,9 +43,8 @@ The fan theorem may be stated about *all* bars, not just the decidable ones.  Br
 In classical mathematics, the fan theorem is simply true.
 
 In constructive mathematics, the fan theorem is equivalent to any and all of the following statements:
-*  As a [[topological space]], [[Cantor space]] is localic.
-*  As a [[locale]], Cantor space has enough points.
-*  As a topological space, Cantor space is [[compact space|compact]].
+*  As a [[locale]], [[Cantor space]] has enough points.
+*  As a [[topological space]], Cantor space is [[compact space|compact]].
 *  As a topological space, the (located Dedekind) [[unit interval]] is [[compact space|compact]] (the [[Heine-Borel theorem|Heine–Borel theorem]]).
 *  Every [[uniformly continuous map|uniformly continuous]] function from Cantor space to the [[metric space]] $\dot{\mathbb{R}}^+$ of positive real numbers has a positive lower bound.
 *  Every [[uniformly continuous map|uniformly continuous]] function from the unit interval to $\dot{\mathbb{R}}^+$ has a positive lower bound.
@@ -58,17 +57,14 @@ In constructive mathematics, the fan theorem is equivalent to any and all of the
 
 It follows from any of these statements:
 *  The [[bar theorem]] holds.
-*  As a topological space, [[Baire space]] is localic.
-*  As a locale, Baire space has enough points.
+*  As a locale, [[Baire space]] has enough points.
 *  As a topological space, the [[unit interval]] is compact.
 *  Every pointwise-continuous function on Cantor space is uniformly continuous.
 *  Every pointwise-continuous function on the unit interval is uniformly continuous.
 
 I need to figure out how it relates to the various versions of [[Konig's lemma|König's Lemma]], as well as these statements (which are mutually equivalent):
-*  As a topological space, the unit interval is localic.
 *  As a locale, the unit interval has enough points.
-*  As a topological space, the [[real line]] is localic.
-*  As a locale, the real line (the [[locale of real numbers]]) has enough points.
+*  As a locale, the [[real line]] (the [[locale of real numbers]]) has enough points.
 
 Some of the results above may on [[countable choice]], but probably no more than $AC_{0,0}$ (which is choice for relations between $\mathbb{N}$ and itself).
 
