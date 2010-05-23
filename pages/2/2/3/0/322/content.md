@@ -219,13 +219,13 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 ## The monad attached to an operad 
 
-Each $Set$-based operad $M$ gives rise to a monad $\hat{M}$ on $Set$. Specifically, the monoidal category $Psh(\mathbb{P}, \circ)$ acts on $Set$ in such a way to give an [[actegory]] structure, and therefore an operad or $\circ$-monoid gives rise to a monad on $Set$. 
+Each $Set$-based operad $M$ gives rise to a monad $\hat{M}$ on $Set$. Specifically, the monoidal category $(Psh(\mathbb{P}), \circ, I)$ acts on $Set$ in such a way as to give an [[actegory]] structure, and therefore an operad or $\circ$-monoid gives rise to a monad on $Set$. 
 
-Here are the details. There is a strong [[monoidal functor]] 
+Here are the details. There is a functor 
 
-$$i: (Set, \times) \to (Psh(\mathbb{P}), \circ)$$ 
+$$i: Set \to Psh(\mathbb{P})$$ 
 
-which as a functor sends a set $X$ to the functor
+which sends a set $X$ to the functor
 
 $$\hat{X}: \mathbb{P}^{op} \to Set$$ 
 
@@ -233,7 +233,7 @@ taking $[n]$ to $X$ if $n = 0$, else to $0$. This functor is full and faithful; 
 
 $$Psh(\mathbb{P}) \times Set \stackrel{1 \times i}{\to} Psh(\mathbb{P}) \times Psh(\mathbb{P}) \stackrel{\circ}{\to} Psh(\mathbb{P})$$ 
 
-factors through $Set$ (conceptually, when one applies a formal operation to constants, the result is again a constant). This gives an action
+factors through the inclusion $i: Set \to Psh(\mathbb{P})$ (conceptually, when one applies a formal operation to constants, the result is again a constant). This gives an action
 
 $$Psh(\mathbb{P}) \times Set \to Set$$ 
 
@@ -259,6 +259,8 @@ which provide $\hat{M}$ with the structure of a monad.
 This definition of the associated monad carries over with ease to the enriched case, and to variants such as nonpermutative operads, braided operads, and cartesian operads (Lawvere theories). 
 
 Notice that an algebra for the operad $\hat{M}$ is a set $X$ equipped with a structure map $\alpha: M \circ X \to X$ which makes $i(X)$ a [[module]] over the monoid $M$ in the monoidal category $Psh(\mathbb{P})$. 
+
+See also related discussion at [[club]]. 
 
 ## Examples 
 
