@@ -120,6 +120,8 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 * \* `\circledS`: $&#x24C8;$
 * `\clubsuit`: $\clubsuit$
 * \* `\complement`: $&#x2201;$
+* `\coloneq`: $\coloneq$
+* `\coloneqq`: $\coloneqq$
 * `\cong`: $\cong$
 * `\coprod`: $\coprod$
 * \* `\copyright`: $&#xA9;$
