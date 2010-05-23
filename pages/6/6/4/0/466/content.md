@@ -64,7 +64,7 @@ $$
   \,.
 $$
 
-This is _natural_ in $c$ and $X$, i.e. there is in fact an [[isomorphism]] in the [[functor category]] $[C^{op} \times [C^{op},Set],Set]$ between the left and the right side.
+This is _[[natural transformation|natural]]_ in $c$ and $X$, i.e. there is in fact an [[isomorphism]] in the [[functor category]] $[C^{op} \times [C^{op},Set],Set]$ between the left and the right side.
 
 
 ### Proof {#Proof}
