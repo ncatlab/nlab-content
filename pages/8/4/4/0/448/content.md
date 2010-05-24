@@ -68,6 +68,38 @@ The second topology is the _coherent topology_: each geometric simplex $|s|$ con
 
 Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is an induced subspace inclusion $|s| \hookrightarrow |t|$. The space $|K|$ may then be characterized as the colimit in $Top$ of the diagram consisting of geometric simplices $|s|$ and inclusions between them, so that a function $f: |K| \to X$ is continuous if and only if its restriction to each simplex $|s|$ is continuous. In particular, the identity function $|K| \to |K|_d$ is continuous, so that the coherent topology contains the metric topology (and is often strictly larger). 
 
+### Triangulable spaces
+
+If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. 
+
+There is another stronger notion of triangulation used by topologists: a **piecewise-linear (PL) structure** on a space $X$ is a triangulation where the link of every simplex in $K$ is a PL triangulation of a sphere. 
+
++--{.query} 
+This is as best as I can make out from reading Wikipedia. The definition looks recursive. Obviously I haven't filled in the definition of link. 
+=-- 
+
+#### Examples from manifold theory
+
+* All [[manifold|smooth manifolds]] are triangulable and in fact admit PL structures. 
+
+* All topological manifolds in dimensions 2 and 3 admit PL structures, and are in fact smoothable (admit a smooth manifold structure). 
+
+* The $E_8$ [[E8 manifold|manifold]] does not admit a triangulation, much less a PL structure. 
+
+* In dimensions $n \geq 5$, the $(n-2)$-fold suspension of the [[Poincare sphere]] is homeomorphic to the $n$-sphere, hence is triangulable, but it does not admit a PL structure. 
+
+#### Relation to simplicial sets
+
+The following statement may seem obvious, but it requires careful proof: 
+
+* A space is triangulable if and only if it is homeomorphic to the geometric realization of a simplicial set. 
+
+As an important step: 
+
+* The geometric realization of the nerve of a poset is triangulable. 
+
+(These statements should actually be treated as conjectures for the moment until I write out careful proofs. The basic technique is subdivision.) 
+
 ## References
 
 A standard textbook reference is
