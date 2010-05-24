@@ -1,4 +1,8 @@
 
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 By **Top** is usually denoted the collection of [[topological space]]s and [[continuous map]]s between them.
 
 How exactly this is understood depends a bit on context: of course $Top$ forms an ordinary [[category]]. But it is also naturally an [[(∞,1)-category]]. This, in turn, may be [[presentable (∞,1)-category|presented]] by regarding $Top$ as a [[model category]] equipped with the [[model structure on topological spaces|Quillen model structure]].
