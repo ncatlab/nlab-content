@@ -43,11 +43,13 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 #References#
 
-* Gordon, Power, Street, _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp.
+* Gordon, Power, [[Ross Street|Street]], _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp.
 
-* Nick Gurski, _Algebraic tricategories_, Ph. D. Thesis.
+* [[Nick Gurski]], _Algebraic tricategories_, Ph. D. Thesis.
 
-* Tom Leinster, Higher operads, higher categories
+* [[Tom Leinster]], Higher operads, higher categories
+
+* Gray-categories support a [[canonical model structure]].  See [[Steve Lack]], _A Quillen model structure for Gray-categories_ [arxiv:1001.2366](http://arxiv.org/abs/1001.2366)
 
 
 [[!redirects Gray category]]
