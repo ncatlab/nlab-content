@@ -10,7 +10,7 @@ The Kerr spacetime describes the ambient vacuum spacetime of a spherically symme
 The Kerr spacetimes are parametrized by two parameters $m$ and $a$ that have the physical interpretation of mass and angular momentum per unit mass respectively, of the rotating object they describe. In the degenerate case of a = 0 the Kerr spacetimes reduce to the [[Schwartzschild spacetime]]s.
 
 ## Abstract ##
-...
+The definition states the components of the metric tensor in a specific coordinate system, the Boyer-Lindquist coordinates, and compares those to the Minkowski and Schwartzschild metrics. Some properties can be read off directly from the metric tensor, this is done in the properties paragraph.
 
 ## Definition ##
 The simplest description of the Kerr metric is by using spherical coordinates $r, \phi, \theta$ on the "space" $\mathbb{R}^3$ and a time coordinate $t \in \mathbb{R}$. In the context of the Kerr metric these coordinates are called **Boyer-Lindquist coordinates**.
@@ -73,8 +73,29 @@ The following table lists the components of the metric of Minkowski, Schwartzsch
 
 </table>
 
+One gets the [[Kerr-Newman metric]] for an electrically charged source with charge $e$ by replacing the definition of $\triangle$ with 
+
+$$
+\triangle = r^2 - 2 m r + a^2 + e^2
+$$ 
+
+The family of Kerr spacetimes is classified by the relation of the parameters $a$ and $m$:
+
+* $0 = a$ gives Schwartzschild spacetime
+
+* $0 \lt a^2 \lt m^2$ gives slowly rotating Kerr spacetime (**slow Kerr**)
+
+* $a^2 = m^2$ gives **extreme Kerr spacetime** and
+
+* $m^2 \lt a^2$ gives rapidly rotating Kerr spacetime (**fast Kerr**) 
+ 
 ## Properties ##
-...
+### Direct Consequences from the Definition ###
+There are several coordinate singularities, inlcuding the z-axis (where $\sin(\theta) = 0$) and where $\rho = 0$ and $\triangle = 0$. Points where $\triangle = 0$ define the horizons of Kerr spacetime.
+
+Both $\partial_t$ and $\partial_{\phi}$ are [[Killing vector field]]s, expressing the time invariance and the axial symmetry of the model respectively. Combining the sign changes $t \to -t, \phi \to -\phi$ gives an isometry: Letting time running backwards reverses the rotation.
+
+Kerr spacetime is **asymptotically flat**, that is the Kerr metric approximates the Minkowski metric for large $r$.
 
 ## Examples ##
 ...
