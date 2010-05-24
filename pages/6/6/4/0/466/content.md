@@ -55,16 +55,42 @@ One way to appreciate the meaning of this and of what the Yoneda lemma has to sa
 
 The Yoneda lemma states that the functor $Y$ has good properties which make this interpretation consistent.
 
-## The Yoneda Lemma
+## The Yoneda Lemma {#StatementOfYonedaLemma}
 
-Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$, then for all $c \in C$ there is a canonical [[isomorphism]]
+Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$. Let $c \in C$ be an [[object]].
+
+The Yoneda lemma asserts that the set of morphisms from the [[presheaf]] [[representable presheaf|represented by]] $c$ into any other presheaf $X$ is in natural bijection with the set $F(c)$ that this presheaf assigns to $c$.
+
+Formally:
+
++-- {: .un_prop}
+###### Proposition
+
+There is a canonical [[isomorphism]]
 
 $$
   [C^op,Set](C(-,c),X) \simeq X(c)
-  \,.
 $$
 
-This is _[[natural transformation|natural]]_ in $c$ and $X$, i.e. there is in fact an [[isomorphism]] in the [[functor category]] $[C^{op} \times [C^{op},Set],Set]$ between the left and the right side.
+natural in $c$.
+
+=--
+
+Here $[C^{op}, Set]$ denotes the [[functor category]], also denoted $Set^{C^{op}}$ and $C(-,c)$ the [[representable presheaf]]. This is the standard notation used mostly in pure [[category theory]] and [[enriched category theory]]. In other parts of the literature it is customary to denote the presheaf represented by $c$ as $h_c$. In that case the above is often written
+
+$$
+  Hom(h_c, X) \simeq X(c)
+$$
+
+or
+
+$$
+  Nat(h_c, X) \simeq X(c)
+$$
+
+to emphasize that the morphisms of presheaves are [[natural transformation]]s of the corresponding functors.
+
+
 
 
 ### Proof {#Proof}
