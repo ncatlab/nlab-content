@@ -40,3 +40,7 @@ Every regular [[second countable space]] is normal. Every [[paracompact space|pa
 ## References
 
 * Ryszard Engelking, __General topology__, (Monographie Matematyczne, tom 60) Warszawa 1977; expanded Russian edition Mir 1986.
+
+[[!redirects Normal space]]
+[[!redirects Normal spaces]]
+[[!redirects normal spaces]]
