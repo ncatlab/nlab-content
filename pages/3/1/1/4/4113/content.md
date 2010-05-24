@@ -1,6 +1,11 @@
-### Definition ###
 
-A (locally finite) **partition of unity** is a collection $\{u_j\}_J$ of continuous functions $u_j:X \to [0,1]$, $j\in J$ such that
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+Let $X$ be a [[topological space]]. A (locally finite) **partition of unity** on $X$ is a collection $\{u_j\}_J$ of [[continuous function]]s $u_j:X \to [0,1]$, $j\in J$ such that
 
  1. $\sum_J u_j(x) = 1$ for all $x\in X$
  2. For each $x\in X$, there is only a finite number of $j\in J$ such that $u_j(x) \neq 0$ (local finiteness condition).
@@ -17,11 +22,11 @@ $$
 [[David Roberts]]: I know this is standard usage, but it is a bit strange, because then $\{u_j\}$ is not subordinate to $\{u_j^{-1}(0,1]\}$, the open cover it defines. I know the definition is used so that the cover $\mathcal{U}$ doesn't need to be open, but it is a slight failing in my opinion.
 =--
 
-### Dold's trick ###
+## Dold's trick
 
 If one is given a non-locally finite partition of unity $\{u_j\}_J$, then often it can be refined into a locally finite partition of unity $\{v_j\}_J$. The open cover defined by $\{v_j\}_J$ then refines the open cover defined by $\{u_j\}_J$, and the former is [[locally finite cover|locally finite]].
 
-### Applications ###
+## Applications 
 
 Partitions of unity can be used in constructing maps from spaces to [[geometric realization]]s of [[simplicial spaces]] (incl. simplicial sets) - for example a [[classifying map]] for a $G$-[[bundle]] where $G$ is a [[Lie group]].
 
