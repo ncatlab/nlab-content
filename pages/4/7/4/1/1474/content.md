@@ -1,3 +1,14 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
+#Contents#
+* automtic table of contents goes here
+{:toc}
+
+## Idea
+
 A [[topological space]] (or more generally, a [[convergence space]]) is _Hausdorff_ if convergence is unique.  The concept can also be defined for [[locale]]s, but it is not as natural and a bit complicated.  A Hausdorff space is often called $T_2$, since this condition came second in the original list of four [[separation axioms]] (there are more now) satisfied by [[metric space]]s.
 
 Hausdorff spaces are a kind of [[nice topological space]]; they do not form a particularly [[nice category of spaces]] themselves, but many such nice categories consist of only Hausdorff spaces.  In fact, [[Felix Hausdorff]]\'s original definition of 'topological space' actually required the space to be Hausdorff, hence the name.  Certainly [[homotopy theory]] (up to [[weak homotopy equivalence]]) needs only Hausdorff spaces.  It is also common in analysis to assume that all spaces encountered are Hausdorff; if necessary, this can be arranged since every space has a Hausdorff quotient (in fact, the Hausdorff spaces form a [[reflective subcategory]] of [[Top]]), although usually an easier method is available than this sledgehammer.
