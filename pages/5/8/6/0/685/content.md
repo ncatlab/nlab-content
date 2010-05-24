@@ -74,18 +74,18 @@ Note that lax pullbacks are _not_ the same as comma objects.  In general comma o
 
 ## Finite Limits 
 
-A 2-limit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense.  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
+A 2-limit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense (defined in terms of [[computads]]; see Street's article "Limits indexed by category-valued 2-functors").  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
 
 
 ## References 
 
-* Street, "Limits indexed by category-valued 2-functors"
+* [[Ross Street]], "Limits indexed by category-valued 2-functors"
 
-* Kelly, "Elementary observations on 2-categorical limits"
+* [[Max Kelly]], "Elementary observations on 2-categorical limits"
 
-* Street, "Fibrations in Bicategories" and correction.
+* [[Ross Street]], "Fibrations in Bicategories" and correction.
 
-* Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+* [[Steve Lack]], [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
 
 
 [[!redirects 2-categorical limit]]
