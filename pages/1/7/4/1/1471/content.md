@@ -31,7 +31,7 @@ A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ having a representable ep
 
 This is what [[Behrang Noohi]] calls a __pretopological stack__  in Foundations I (see reference below). The terminology __topological stack__  is reserved for those stacks whose atlas can be chosen to belong to a class of "local fibrations"; there are axioms which the class of local fibrations have to satisfy; there are several natural choices of this class which modify the variant of topological stacks considered.
 
-Any map from a topological space $S$ to a topological stack $X$ is representable (i.e. diagonal $X\to X\times X$ is always representable). For a topological stack $Y$, if $P$ is invariant under restriction and local on the target, a representable morphism $f : X \to Y$ of 1-stacks has this property if there exists an atlas $T\to Y$ such that the inverse image $T\times_Y X\to X$ has property $P$. 
+Any map from a topological space $S$ to a topological stack $X$ is representable (i.e. diagonal $X\to X\times X$ is always representable). For a topological stack $Y$, if $P$ is invariant under restriction and local on the target, a representable morphism $f : X \to Y$ of 1-stacks has this property if there exists an atlas $T\to Y$ such that the induced map $X\times_Y T\to T$ has property $P$. 
 
 If $X_0 \to X$ is an atlas for a topological stack, then $X_0 \times_{X} X_0 \rightrightarrows X_0$ is a topological groupoid, $\mathbf{X}$. The stackification of the presheaf of groupoids $T \mapsto Hom((T^{id},\mathbf{X}))$ is (2-iso to) $X$ (where $T^{id}$ is $T$ considered as a topological groupoid with only identity arrows).
 
