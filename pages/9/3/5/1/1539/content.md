@@ -33,6 +33,8 @@ The object $\Omega$ above is sometimes called a **strong-subobject classifier**,
 
 * The category of [[diffeological space]]s is a quasitopos.
 
+* These are special cases of the general result: the category of [[concrete sheaves]] on a [[concrete site]] is a quasitopos (see Baez-Hoffnung).
+
 ## Extensivity and exactness
 
 A topos is always [[extensive category|extensive]] and [[exact category|exact]], but this is not the case for quasitopoi.
@@ -55,6 +57,8 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 *  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_, World Scientific, 1991. 
 
 * [[Peter Johnstone]], [[Sketches of an Elephant]], A2.6 and C2.2.
+
+* J. Baez, A. Hoffnung, _Convenient categories of smooth spaces_, to appear, Trans. AMS, ([arXiv](http://arxiv.org/abs/0807.1704))
 
 Need to reference work by various combinations of authors including Baez, Dolan, Hoffnung, and others on diffeological spaces and simplicial complexes... 
 
