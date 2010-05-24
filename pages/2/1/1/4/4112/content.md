@@ -1,3 +1,15 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 Cantor space, named after [[Georg Cantor]], is a famous [[space]].  Cantor studied it primarily as a [[subspace]] of the [[real line]], but it is also important as a space in its own right.
 
 
