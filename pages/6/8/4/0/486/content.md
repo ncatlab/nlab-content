@@ -1,5 +1,11 @@
-# Pretopoi
-* tic
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
 {: toc}
 
 
