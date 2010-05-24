@@ -1,11 +1,19 @@
 
-
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
 
 
 
 This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see [[topological space]].
 
 ***
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 __Topology__ is one of the basic fields of [[mathematics]].  The term is also used for a particular structure in a [[topological space]]; see [[topological structure]] for that.
 
@@ -14,7 +22,7 @@ The subject of topology deals with the expressions of continuity and boundary, a
 There are many cousins of topological spaces, e.g. sites, locales, topoi, higher topoi, uniform spaces and so on which specialize or generalize some aspect or structure usually found in [[Top]]. 
 One of the tools of topology, [[homotopy theory]], has long since crossed the boundaries of topology and applies to many other areas, thanks to many examples and motivations as well as of abstract categorical frameworks for homotopy like Quillen [[model categories]], Brown's [[category of fibrant objects|categories of fibrant objects]] and so on.
 
-#some entries related to topology#
+## Related entries
 
 * [[Top]], [[spectrum]], [[CW-complex]], [[general topology]]
 * [[induced topology]], [[subspace]]
