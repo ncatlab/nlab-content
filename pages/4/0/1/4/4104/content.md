@@ -14,13 +14,13 @@ $K$ ranging over compact subsets of $G$. Recall that a [[Radon measure]] on $G$ 
 
 $$\mu: C_c(G) \to \mathbb{R}$$ 
 
-which is _positive_ in the sense that $\mu(f) \geq 0$ whenever $f \geq 0$. This defines a measure $\hat{\mu}$ on the $\sigma$-algebra of Borel sets in the usual sense of measure, where 
+which is _positive_ in the sense that $\mu(f) \geq 0$ whenever $f \geq 0$. This defines a measure $\hat{\mu}$ on the $\sigma$-algebra of Borel sets in the usual sense of [[measure theory]], where 
 
 $$\hat{\mu}(B) = sup \{\mu(f): supp(f) = K \subseteq B, \rho_K(f) = 1\}$$ 
 
 By abuse of notation, we generally conflate $\mu$ and $\hat{\mu}$. 
 
-A (left) **Haar measure** on $G$ is a nonzero Radon measure $\mu$ such that 
+A **left Haar measure** on $G$ is a nonzero Radon measure $\mu$ such that 
 
 $$\mu(g B) = \mu(B)$$ 
 
@@ -29,3 +29,15 @@ for all $g \in G$ and all Borel sets $B$.
 ## Existence and Uniqueness 
 
 Any locally compact Hausdorff topological group $G$ admits a Haar mesaure that is unique up to scalar multiple. This result was first proven by Weil. A proof by be found in these online [notes](http://www.artofproblemsolving.com/LaTeX/Examples/HaarMeasure.pdf) by Rubinstein-Salzedo. 
+
+### Left and Right Haar Measures that differ
+The left and the right Haar measure may or may not coincide, groups for which they coincide are called **unimodular**.
+Consider the matrix subgroup
+$$
+G := \left\{ \begin{pmatrix} y & x \\ 0 & 1 \end{pmatrix} | x, y \in \mathbb{R}, y \gt 0  \right\}
+$$
+The left and right invariant measures are, respectively,
+$$
+  d\mu_L = y^{-2} dx dy,   d\mu_R = y^{-1} dx dy
+$$
+and so G is not unimodular.
