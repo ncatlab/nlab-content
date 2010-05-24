@@ -215,7 +215,11 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
 
+* [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
+
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
+
+* [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
 
 * [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
 
@@ -223,7 +227,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [The Tricki](http://www.tricki.org)
 
-* [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
 
 
 ## Probability and Statistics 
