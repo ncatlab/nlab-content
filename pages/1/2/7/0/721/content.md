@@ -1,43 +1,92 @@
-> **Note:** "pretopology" redirects here.  For a generalization of topological spaces based on neighborhoods, see [[pretopological space]].
 
-A Grothendieck pretopology is a collection of families of maps in a category which can be considered as [[cover|covers]].  It is sometimes known as a ''basis for a [[Grothendieck topology]]'', as a pretopology generates a Grothendieck topology.  Note that different pretopologies can generate the same Grothendieck topology.
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+
+> This entry is about the notion of [[site]]. For a generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
+
+***
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+A **Grothendieck pretopology** or **basis for a Grothendieck topology** is a collection of families of [[morphism]]s in a [[category]] which can be considered as [[cover|covers]].  
+
+Every Grothendieck pretopology genrates a Grothendieck topology. Different pretopologies may give rise to the same topology.
 
 An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck toplogy, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.
 
 
-##Definition##
-
-Let $S$ be a category. A __Grothendieck pretopology__ is a collection of families $\{\{U_i \to A\}_{i\in I}\}$, called covering families, for each object $A$, satisfying the following conditions:
-
-* If $A' \to A$ is an isomorphism, then $\{A' \to A\}$ is a covering
-family,
-
-* Given a covering family $\{U_i \to A\}_{i\in I}$ and a map $B \to
-A$, the pullbacks $B \times_A U_i$ exist and $\{B \times_A U_i \to
-B\}_{i\in I}$ is a covering family,
-
-* Given a covering family $\{U_i \to A\}_{i\in I}$ and for each $i \in
-I$ a covering family $\{V_{i j} \to U_i\}_{j\in J_i}$, then $\{V_{i j} \to
-A\}_{j\in J_i,i\in I}$ is a covering family.
-
-If we drop the first and third conditions, we obtain the notion of a [[coverage]]; conversely every coverage generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies.
 
 
-## Examples ##
+##Definition
 
-The prototype is the pretopology consisting of open covers of a
-topological space/manifold.  Other pretopologies on [[Top]] include:
++-- {: .un_defn}
+###### Definition
+
+Let $C$ be a [[category]] with [[pullback]]s. A **Grothendieck pretopology** or **basis (for a [[Grothendieck topology]])** on $C$ is an assignment to each [[object]] $U$ of $C$ of a collection of families $\{U_i \to U\}$ of morphisms, called **[[covering]] families** such that
+
+1. _isomorphisms cover_ -- every family consistsing of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\}$ is a covering family;
+
+1. _stability axiom_ -- the collection of covering families is stable under [[pullback]]: if $\{U_i \to U\}$ is a covering family and $f : V \to U$ is any morphism in $C$, then $\{f^* U_i \to V\}$ is a covering family;
+
+1. _transitivity axiom_ -- if $\{U_i \to U\}_{i \in I}$ is a covering family and for each $i$ also $\{U_{i,j} \to U_i\}_{j \in J_i}$ is a covering family, then also the family of composites $\{U_{i,j} \to U_i \to U\}_{i\in I, j \in J_i}$ is a covering family.
+
+=--
+
+If we drop the first and third conditions, we obtain the notion of a [[coverage]] on a category with pullbacks; conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies.
+
+
++-- {: .un_defn}
+###### Definition
+
+
+The [[Grothendieck topology]] on $C$ _generated_ from a basis of covering families is that for which a [[sieve]] $\{S_i \to U\}$ is covering precisely if it contains a covering family of morphisms.
+
+=--
+
+## Properties
+
+Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which generates it: this has as covering families precisely thoses families of morphisms that generate a covering sieve under completion under precomposition.
+
+
+
+## Examples 
+
+The prototype is the pretopology consisting of [[open cover]]s of a
+[[topological space]]/[[manifold]].  Other pretopologies on [[Top]] include:
 
 * [[local section|Local-section]]-admitting surjections
 * Surjective [[open map|open maps]]
 * Surjective [[topological submersion|topological submersions]]
 * Surjective [[local homeomorphism|local homeomorphisms]]
 
-An example for the category [[Diff]] of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single arrows. Such a pretopology is called a *singleton* pretopology (or, if you prefer the name [[coverage]], a singleton coverage).
+An example for the category [[Diff]] of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single morphisms. Such a pretopology is called a *singleton* pretopology (or, if you prefer the name [[coverage]], a singleton coverage).
 
 Most of the examples of [[coverage|coverages]] are in fact Grothendieck pretopologies.
 
-(Other examples ..)
+An example of a covergage that is not a pretopology is the coverage of [[good open cover]]s. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
 
+
+## References
+
+The defnition appears for instance as definition 2 on page 111 of
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
+
+
+[[!redirects Grothendieck pretopologies]]
 
 [[!redirects pretopology]]
+[[!redirects pretopologies]]
+
+[[!redirects basis for a topology]]
+[[!redirects bases for a topology]]
+
+
+[[!redirects basis for a Grothendieck topology]]
+[[!redirects bases for a Grothendieck topology]]
