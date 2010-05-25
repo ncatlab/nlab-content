@@ -5,7 +5,6 @@
 </div>
 
 
-
 #Contents#
 * tic
 {:toc}
@@ -494,7 +493,7 @@ This reduces to the ordinary notion of [[good cover]] as an open cover by contra
 
 
 
-### Cofibrant replacement
+### Cofibrant replacement {#CofibrantReplacement}
 
 In 
 
