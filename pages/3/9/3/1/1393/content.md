@@ -1,4 +1,10 @@
 
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+***
+[[!include cohomology - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -53,3 +59,6 @@ This is because
 [[!redirects constant infinity-stacks]]
 [[!redirects constant ∞-stack]]
 [[!redirects constant ∞-stacks]]
+
+[[!redirects constant (∞,1)-sheaf]]
+[[!redirects constant (∞,1)-sheaves]]
