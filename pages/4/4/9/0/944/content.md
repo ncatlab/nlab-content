@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 The __Sierpi&#324;ski space__ $\Sigma$ is the set of [[truth value]]s, classically $\{\bot, \top\}$, with the [[specialization topology]], in which $\{\bot\}$ is closed and $\{\top\}$ is open but not conversely.  (The opposite convention is also used.)
 
 This space is a classifier for closed subspaces of a [[topological space]] $X$ in that for any closed subspace $A$ of $X$ there is a unique continuous function $\chi_A: X \to S$ such that $A = \chi_A^{-1}(\bot)$.  Dually, it classifies open subspaces in that any open subspace $A$ is $\chi_A^{-1}(\top)$.  Note that the closed subsets and open subsets of $X$ are related by a [[bijection]] through [[complement]]ation; one gets a topology on the set of either by identifying the set with $\Top(X,\Sigma)$ for a suitable [[function space]] topology.
