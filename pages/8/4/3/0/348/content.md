@@ -1,26 +1,25 @@
-#Idea#
 
-A _sieve_ is a way to encode a morphism of [[presheaves]] that behaves like a [[cover]]. It is used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
+
+A **sieve in** a category $C$ is a [[full subcategory]] closed under precomposition with morphisms in $C$.
+
+A **sieve on** an object $X \in C$ is a sieve in the [[overcategory]] $C/X$: a collection of morphisms with codomain $X$ that are closed under precomposition with morphisms in $C$.
+
+Often in the literature the term is used in just the more specific second sense. And sieveves _on_ objects are mostly used in the context of [[Grothendieck topologies]] to encode [[presheaves]] that behaves like [[covering]]s. It is used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
 _Sieves_ are an equivalent way to encode [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
 
 The notion of _sieve_ is usually used when certain such subobjects are singled out as [[covers]] of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
 
-+-- {: .query}
-Urs, I changed 'coverage' back to 'Grothendieck topology' above, since it\'s specifically Grothendieck topologies that deal with covering sieves; coverages deal with arbitrary covering families (generally not sieves and generally not all of them), which is part of why coverages both can be more useful and are less canonical.
-
-[[Urs Schreiber|Urs]]: hm, okay. My impression was that the point of coverages is that we don't impose the four axioms of Grothendieck topology on the covering things, while we do keep the notion of sieves itself. Because "sieve" is really just another way to say "subfunctor of a representable" so the question really is: which collections of subfunctors of representables do we want to use as coverages.  For me the 1-line definition of "coverage" would be: choice of subcollection of all monois in a given 1-topos. That then makes sense also in non-presheaf topoi. For presheaf topoi it happens to have a reformulation in terms of sieves.
-
-So, in conclusion, I am thinking that the point of using more general coverages over Grothendieck topologies is not primarily to relax the closure under composition that makes a sieve a sieve. That's kind of a trivial thing. The point is that we don't need to impose the four axioms of a Grothendieck topology on the collection of all such.
-
-But maybe not. This is just so you know what I am thinking. :-)
-
-_Toby_:  Ah, now I see what you\'re saying!
-
-The problem is that the difference between a Grothendieck topology and a coverage is twofold: first, each individual covering family that appears in a Grothendieck topology is saturated (and so becomes a sieve); second, subject to the restriction that only sieves may appear, the class of covering families is saturated.  (I should write something about this at [[coverage]].)  You are thinking of dropping the second without changing the first.
-
-I know just the term for that: 'sifted coverage' (which may be found in the [[Elephant]]).
-=--
 
 A choice of collections of morphism $d \to c$ into an object $c \in C$  for each $d \in C$ reminds one of the [[representable functor]] [[presheaf]]
 $Y(c) := \hom_C(-, c): C^{op} \to Set$ which assigns to each $d \in C$ the set of _all_ morphisms from $d$ to $c$. Every choice of covers of $c$ is therefore for each $d \in C$ a subset of the value of this functor evaluated at $d$. This begins to look like an [[monomorphism|monic]] [[natural transformation]] into this functor. Indeed, it turns out that one can assume without restriction of generality that the assignment of covers of $c$ can always be extended to such a monic natural transformation, and hence one formalizes the notion of "collection of covers" of $c$ as a [[subobject]] $i: F \hookrightarrow \hom(-, c)$ of the functor represented by $c$: a _sieve_ at $c$. 
@@ -28,7 +27,7 @@ $Y(c) := \hom_C(-, c): C^{op} \to Set$ which assigns to each $d \in C$ the set o
 A dual notion is a [[cosieve]].
 
 
-#Definition#
+## Definition
 
 Let $C$ be a [[small category]].
 
@@ -43,7 +42,7 @@ Sometimes the condition of a sieve being closed under the operation of precompos
 This is probably called a _sieve_ because it "sifts out" the 'special' maps into $c$ from the set of _all_ maps into $c$.  (Note that 'sieve' is the noun, while 'sift' is the verb.)
 
 
-# Relation to subfunctors #
+## Relation to subfunctors 
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
 
@@ -71,29 +70,6 @@ or equivalently
 * $S_F = \coprod_{d \in Obj(C)}F(d)$.
 =--
 
-+-- {: .query}
-_Bruce_: Hey, if you are being extra careful here you should be saying that the sieve $S_F$ obtained from the subfunctor $F \hookrightarrow Y(c)$ is really the _image_ of $F$ (as you say below), i.e. if we write $i: F \hookrightarrow Y(c)$ for the explicit inclusion map, then for each $d$, $S_F(d) = Image of i_d in Hom(d,c)$. 
-
-Right now, this makes me _prefer_ the notion of 'sieve' to the notion of 'subfunctor of a representable'. The reason is that the elements of the sieve are actually morphisms in the category, whereas the subfunctor can be composed of 'abstract elements'. Why are you pushing the viewpoint of 'subfunctor of a representable'? Is it for later $\infty$-category purposes? If so, you should say that at the top of the article, so the reader understands why you are introducing extraneous 'abstract nonsense' elements into the conversation... :-)
-
-[[Urs Schreiber|Urs]]: thanks for the comment, Bruce! Here I would find it helpful if you could put in directly what you would find helpful. Because I am not sure. At the moment it says right at the beginning that sieves are a way to encode subfunctors of representables. This is the reason why we care about them.
-
-The point is really, as described in some detail at [[sheaf]], that we want to characterize certain morphisms of presheaves, called [[local isomorphisms]]. And it turns out that a lot is already gained once we understand all local isomorphisms that are monomorphisms (called then [[dense monomorphisms]]). And it turns out that among them in turn it suffices to look at those with representable codomain. These, finally, are seen to have a more pedestrian description in terms of sieves. That's why one cares about sieves.
-
-Should we say this here again? Maybe. But It is already described in some detail at [[sheaf]].
-
-But of course you are right to "prefer" sieves in a way: they are the explicit hand-on realization of some abstract nonsense. That's why one useses them. As a tool. But their raison d'etre is the abstract nonsense that they are a manifestation of. 
-
-[[Todd Trimble|Todd]]: I much prefer "subfunctor of a representable" on grounds of snappiness and immediate comprehension, but it may help (as I do myself) to think of 'subfunctor' here not in terms the general abstract notion of '[[subobject]]', but in terms of 'subset' of naive set theory. 
-
-The situation seems to be this: 'subobject' refers to an isomorphism class of monomorphisms. But probably most people think of isomorphism classes (or equivalence classes generally) as another layer of abstraction they would prefer to do without when they can; they would rather deal with concrete elements, picking out a distinguished representative of the class and working directly with that (for example, think of how we multiply in $\mathbb{Z}_{13}$ or something). So, instead of "isomorphism class of injective functions", they go straight to the actual subset inclusion in the class -- the 'image' as Bruce said -- as the distinguished element they want to get their hands on, formulated in the good old-fashioned language of naive sets and elements we grew up with, not this newfangled subobject nonsense. 
-
-Since presheaves $Set^{C^{op}}$ and sheaves are based on sets to begin with, we have that! So here there is no harm whatsoever in defining subfunctor in this concrete way, as an arrow $F \subseteq G$ whose components $F(c) \subseteq G(c)$ are literal subset inclusions. That's how I always picture these things myself, and it gives the notion of sieve straightaway, in a tight conceptual package. 
-
-_Toby_:  Funny *I* don\'t think of a subobject as a class of monomorphisms; I think of it as an individual monomorphism.  And yet, I don\'t pick a distinguished representative either!  Instead, I just remember that sometimes two subobjects are equal.
-
-It\'s really no different in principle from thinking about objects.  I don\'t work with isomorphism classes of objects, and I don\'t work in skeleta either.  I just work with objects, and sometimes two objects are isomorphic.
-=--
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -192,7 +168,7 @@ So the set is just the set of maps from $V$ to $X$ that factor through one of th
 
 
 
-#Examples#
+## Examples
 
 * For $X$ a [[topological space]] let $Op(X)$ be the [[category of open subsets]] of $X$ and consider presheaves $PSh(X) := [Op(X)^{op}, Set]$ on $X$. For any open subset $c = V \in Op(X)$ let $\{d_i\} = \{U_i\}$ be a cover of $V$ by open subsets $U_i$ in the ordinary sense (i.e. each $U_i$ is an open subset of $V$ and their joint union is $V$, $\bigcup_i U_i = V$), then  $\pi : (\coprod_i Y(U_i)) \stackrel{\coprod_i U_i \hookrightarrow_i X}{\to} Y(V)$ (with $Y$ the [[Yoneda embedding]]) is a [[local epimorphism]] of presheaves on $V$ and its [[image]] -- or equivalently its [[coimage]] -- is the subfunctor $(F := \bigcup_i Y(U_i)) \hookrightarrow Y(V)$ that sends each $W \in Op(X)$ to the set of maps $W \to V$ that factor through one of the $U_i$. The collection of all such maps for all choice of $W$ is the corresponding _covering sieve_ $\{ f : W \to V  \in Mor(S) \;|\; f = W \to U_i \to V  \}$.
 
@@ -201,7 +177,7 @@ So the set is just the set of maps from $V$ to $X$ that factor through one of th
 
 
 
-## A detailed description of what's going on ##
+### A detailed description of what's going on 
 
 The following is a pedagogical step-by-step description of the crucial aspects of sieves as covers.
 
@@ -483,7 +459,7 @@ When one passes from just presheaves to [[(∞,1)-presheaves]], then [[cover]]in
 
 
 
-# Recovering the sheaf condition from morphisms out of the sieve#
+## Recovering the sheaf condition from morphisms out of the sieve
 
 We now show that the subfunctor $F_S$ associated with a sieve $S$ coming from a cover $\{U_i \to X\}$ is the _right_ kind of morphism to require a [[sheaf]] to be a [[local object]] for, by demonstrating that using it the usual [[sheaf|sheaf condition]] on a presheaf with respect to the cover $\coprod_i U_i$ is reproduced:
 
@@ -548,41 +524,7 @@ $$
 
 and hence identifies $Hom(F,G)$ indeed as the set of [[descent]] data for the [[sheaf]] condition on $G$. 
 
-# Interpretation in terms of higher descent and codescent #
 
-
-This description contains in it the seed of its generalization from the context of [[sheaf|sheaves]] to that of [[descent]] for [[∞-stacks]]. 
-
-See also the discussion at [[?ech cover]].
-
-For $Y := \coprod_i U_i$ a cover, there is a [[simplicial presheaf]] $ Y_\bullet$ -- the [[?ech nerve]] of the cover -- that in degree $n$ is the $(n+1)$-fold [[fiber product]] $Y_n = Y^{[n+1]} = Y \times_X Y \times_X \cdots \times_X Y$.
-
-This may be regarded as an [[∞-groupoid]] valued presheaf.
-
-More algebraically, with $\Pi(\Delta^n)$ the free [[strict omega-groupoid]] on the standard filtered $n$-[[simplex]], $Y_\bullet$ is the [[nerve]] of the groupoid
-
-$$
-  Codesc(Y) := \int^{[n] \in \Delta} O([n])\cdot Y^{[n+1]}
-$$
-
-The sieve associated with the cover is the presheaf obtained by starting with the $\infty$-prestack represented by $Codesc(Y)$ and decategorifying, i.e. passing to equivalence classes.
-
-$$
-  \bigcup_i hom(-,U_i)
-  \simeq
-  hom(-, Codesc(Y))/_\sim
-  \,.
-$$
-
-
-Equivalently, for $A$ a [[presheaf]] regarded as a constant [[simplicial presheaf]] using the inclusion $const : $ [[Set]] $\hookrightarrow$ [[SSet]] we have
-
-$$
-  Hom_{SPSh}(Codesc(Y), A) \simeq Hom_{PSh}(Codesc(Y)/_\sim, A)
-  \,,
-$$
-
-simply because all the higher morphism of $Codesc(Y)$ have to map to identity morphisms in $A$.
 
 [[!redirects sieves]]
 
