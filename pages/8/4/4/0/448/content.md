@@ -5,23 +5,23 @@
 
 ## Definition
 
-A simplicial complex $K$ is a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **simplices**.  The simplices satisfy the condition that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex.  
+A _simplicial complex_ $K$ is a set of objects, $V(K)$, called **vertices** and a set, $S(K)$, of finite non-empty subsets of $V(K)$, called **[[simplex|simplices]]**.  The simplices satisfy the condition that if $\sigma \subset V(K)$ is a simplex and $\tau \subset \sigma$, $\tau \ne \emptyset$, then $\tau$ is also a simplex.  
 
 We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty.
 
 ## Simplicial complexes v. simplicial sets
 
-Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a simplicial set, you must pick a total order on the set of vertices. Without an order on the vertices you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. 
+Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a simplicial set, you must pick a [[total order]] on the set of vertices. Without an order on the vertices you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. 
 
-Indeed, simplicial sets are essentially (that is, up to equivalence) presheaves on the category of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. This works as follows: given a simplicial set $K = (V(K), S(K))$, define a presheaf $K^\sim: Fin_{inj}^{op} \to Set$ whose values are sets of injections $\phi$: 
+Indeed, simplicial sets are essentially (that is, up to equivalence) [[presheaves]] on the [[simplex category]] of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. This works as follows: given a simplicial set $K = (V(K), S(K))$, define a presheaf $K^\sim: Fin_{inj}^{op} \to Set$ whose values are sets of injections $\phi$: 
 
 $$K^\sim(B) \stackrel{def}{=} \{\phi: B \hookrightarrow V(K)| \phi(B) \in S(K)\}, \qquad K^\sim(i: A \to B)(\phi) \stackrel{def}{=} \phi \circ i$$ 
 
-This defines an evident functor 
+This defines an evident [[functor]] 
 
 $$SimpComplex \to Set^{Fin_{inj}^{op}}: K \mapsto K^\sim$$ 
 
-that is full and faithful. In fact, following a suggestion of James Dolan, Baez and Hoffnung characterize the category of simplicial complexes up to equivalence as the full subcategory of [[concrete sheaf|concrete sheaves]] on $Fin_{inj}$ with respect to the trivial [[Grothendieck topology|topology]] (where the only covering sieve $F \hookrightarrow hom(-, D)$ is the maximal sieve). 
+that is [[full andd faithful functor|full and faithful]]. In fact, following a suggestion of James Dolan, Baez and Hoffnung characterize the category of simplicial complexes up to equivalence as the full subcategory of [[concrete sheaf|concrete sheaves]] on $Fin_{inj}$ with respect to the trivial [[Grothendieck topology|topology]] (where the only covering sieve $F \hookrightarrow hom(-, D)$ is the maximal sieve). 
 
 It follows from this characterization that the category of simplicial complexes is a [[quasitopos]], and in particular is locally cartesian closed. The category of simplicial sets on the other hand is a [[topos]]. 
 
