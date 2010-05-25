@@ -1,4 +1,10 @@
 
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+***
+[[!include topos theory - contents]]
+</div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -7,7 +13,11 @@
 
 ## Definition
 
-A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X$ is called a **good cover** -- or **good open cover** if it is also an [[open cover]] -- if all the $U_i$ and all their nonempty finite intersections are [[contractible]].
+A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X$ is called a **good cover** -- or **good open cover** if it is
+
+1. an [[open cover]]
+
+1. such that all the $U_i$ and all their nonempty finite intersections are [[contractible]].
 
 
 
@@ -33,6 +43,8 @@ Then: the [[Cech nerve]] $C(\{U_i\}) \in sPSh(C)$ of a good open cover $\{U_i \t
 This is a special case of the [characterization of cofibrant objects in the projective structure](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects): the point is that the fact that the cover is _good_ means that the Cech nerve $C(\{U_i\})$ is degreewise a [[coproduct]] of [[representable functor|representables]]: every open contractible subset is isomorphic to an open ball, hence to an object in the site [[CartSp]].
 
 =--
+
+This has a useful application in the [[nerve theorem]].
 
 Notice that the [[descent]] condition for simplicial presheaves on [[CartSp]] at (good) covers is very weak, since all [[Cartesian space]]s are topologically contractible, so it is easy to find the fibrant objects $A \in sPSh(C)_{proj, loc}$ in the [[topological localization]] of $sPSh(C)_{proj}$ for the canonical [[coverage]] of [[CartSp]]. The above observation says that for computing the $A$-valued [[cohomology]] of a [[diffeological space]] $X$, it is sufficient to evaluate $A$ on (the Cech nerve of) a good cover of $X$.
 
