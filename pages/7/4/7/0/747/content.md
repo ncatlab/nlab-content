@@ -423,19 +423,55 @@ Something related to a **fibrant replacement** functor ("$\infty$-stackification
 In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement.
 
 
++-- {: .un_def }
+###### Definition
+
+A simplicial presheaf $X \in sPSh(C)$ is said to have **free degeneracies** or the **degenerate cells split off** if in each degree there is a [[subobject|sub]]-presheaf  $N_k \hookrightarrow X_k$ such that the canonical mophism
+
+$$
+  \coprod_{\underset{surj.}{\sigma : [k] \to [n]}} 
+  N_n \stackrel{\coprod_{\underset{surj.}{\sigma : [k] \to [n]}} \sigma^*}{\to} 
+  F_k
+$$ 
+
+is an [[isomorphism]].
+
+=--
+
+So if degenerate cells split off we have in particular that 
+
+$$
+  X_k = X_k^{nd} \coprod X_k^{dg}
+  \,,
+$$
+
+where $X_k^{nd}$ is the presheaf of non-degenerate $k$-cells and $X_k^{dg}$ is a separate presheaf containing all the degenerate cells (and itself a coproduct over separate presheaves for each degree and order of degeneracy).
+
+
 +-- {: .un_prop }
 ###### Proposition
 
-In the _projective_ [[local model structure on simplicial presheaves|local model structure]] all objects that are degreewise [[coproduct]]s of [[representable functor|representable]]s and satisfy a splitness condition (...) are cofibrant.
+In the _projective_ [[local model structure on simplicial presheaves|local model structure]] all objects that are 
+
+1. degreewise [[coproduct]]s of [[representable functor|representable]]s 
+
+1. and whose degenerate cells split off
+
+are cofibrant.
+
+=--
 
 This is in the proof of lemma 2.7 in section 9 of
 
 * [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
+
++-- {: .un_example }
+###### Example
+
+All [[?ech nerve]]s $C(\{U_i\})$ coming from an [[open cover]] have split degeneracies. The condition that the Cech nerve be degreewise a coproduct of representables is a condition akin to that of [[good open cover]]s (which is precisely the special case for $C = $ [[CartSp]]).
+
 =--
-
-This splitness condition is in particular satisfied by all [[?ech nerve]]s of covers by coproducts of representables.
-
 
 
 +-- {: .un_def }
@@ -507,6 +543,8 @@ This is in prop 2.8 of
 
 ## Localization and descent {#Descent}
 
+### Cech localization at Grothendieck (pre)topologies {#CechLocalization}
+
 We discuss some aspects of the [[Bousfield localization of model categories|left Bousfield localization]] at [[Grothendieck topologies]] and [[covering]] families. By the discussion at [[topological localization]] these are models for [[(∞,1)-categories of (∞,1)-sheaves]].
 
 The central reference is 
@@ -536,8 +574,61 @@ Let $C$ be a [[site]] given by a [[Grothendieck topology]]. The left [[Bousfield
 
 This is theorem A5 in [DugHolIsak](http://front.math.ucdavis.edu/0205.5027).
 
+This localization $sPSh(C)_{proj,cov}$ is the **Cech localization** of $sPSh(C)$ with respect to the given [[Grothendieck topology]]. It is a presentation of [[topological localization]] of an [[(∞,1)-category of (∞,1)-presheaves]] to an [[(∞,1)-category of (∞,1)-sheaves]].
 
-### Localization at a coverage {#LocalizationAtCoverage}
+$$
+  \array{
+    Sh_{(\infty,1)}(C) &\stackrel{\overset{L}{\to}}{\hookrightarrow}&
+    Psh_{(\infty,1)}(C)
+    \\
+    \uparrow^{\mathrlap{\simeq}}
+    &&
+    \uparrow^{\mathrlap{\simeq}}
+    \\
+    (sPSh(C)_{proj,cov})^\circ
+    &\stackrel{\overset{left. Bousf.}{\leftarrow}}{\underset{}{\to}}&
+    (sPSh(C)_{proj})^\circ
+  }
+  \,.
+$$
+
+The following definition and proposition provides information on what the general morphisms are which become weak equivalences after localization at 
+
++-- {: .un_def}
+###### Defintion
+
+Let $C$ be a [[site]]. A **[[local epimorphism]]** (or **generalized cover**) in $sPSh(C)$ is a morphism $f : E \to B$ of simplicial presheaves with the property that for every [[nab:representable functor|representable]] $U$ and every morphism $j(U) \to B$ there exists a [[covering]] [[sieve]] $\{U_i \to U\}$ such that for every $U_i \to U$ the composite $U_i \to U \to B$ has a lift $\sigma$ through $f$ 
+
+$$
+  \array{
+    j(U_i) &\stackrel{\exists \sigma}{\to}& F
+    \\
+    \downarrow && \downarrow
+    \\
+    j(U) &\stackrel{\forall}{\to} & B
+  }
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $f : E \to B$ a [[local epimorphism]] in $sPSh(C)$ in the above sense, its [[Cech nerve]] projection
+
+$$
+  C(E) \to B
+$$
+
+is a weak equivalence in $sPSh(C)_{prof, cov}$.
+
+=--
+
+This is [DugHolIsa, corollary A.3](http://front.math.ucdavis.edu/0205.5027).
+
+
+### Cech localization at a coverage {#LocalizationAtCoverage}
 
 
 In the literature localization of categories of simplicial presheaves is typically discussed with respect to a [[Grothendieck topology]] or a [[basis for a topology]]. Here we discuss aspects of localization at a  [[coverage]].
@@ -699,6 +790,16 @@ In total this shows that the localization at the [[coverage]] produces the [[top
 Properties of [[homotopy limit]]s and [[homotopy colimit]]s of simplicial presheaves are discussed at
 
 * [Homotopy (co)limits of simplicial (pre)sheaves](http://ncatlab.org/nlab/show/homotopy+limit#SimpSheaves)
+
+
+## Examples
+
+* A discussion of simplicial presheaves on $C = $ [[CartSp]] is at [[∞-Lie groupoid]].
+
+* A discussion of simplicial presheaves on $C = $ [[ThCartSp]]/[[smooth loci]] is at [[∞-Lie algebroid]].
+
+
+
 
 ## References
 
