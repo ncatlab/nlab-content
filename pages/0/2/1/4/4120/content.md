@@ -2,9 +2,9 @@
 There are different notions in mathematics called _basis_
 
 
-* [[base]]
+* [[base]] (for a topology on a set and related notions)
 
-* [[basis for a topology]]
+* [[basis for a topology]] (on a category)
 
 * [[basis of a vector space]]
 
