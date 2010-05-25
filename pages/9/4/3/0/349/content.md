@@ -37,6 +37,15 @@ A category equipped with a Grothendieck topology is called a [[site]].
 
 Given a Grothendieck topology $J$ on a [[small category]] $C$, one can define the category $Sh(C,J)$ of [[sheaves]] on $C$ relative to $J$, which is a [[reflective subcategory]] of the category $[C^{op},Set]$ of [[presheaves]] on $C$.  Thus we have a functor $C\to Sh(C,J)$ given by the composite of the [[Yoneda embedding]] with the reflection (or "sheafification").  This composite functor is [[full and faithful functor|fully faithful]] if and only if all representable presheaves are sheaves for $J$; a topology with this property is called [[subcanonical site|subcanonical]].
 
+## Saturation {#Saturation}
+
+Grothendieck topologies may be and in practice quite often are obtained as closures of collections of morphisms that are not yet closed under the operations above (that are not yet sieves, not yet pullback stable, etc.).
+
+Two notions of such unsaturated collections of morphisms inducing Grothendieck topologies are
+
+* [[basis for a topology]]
+
+* [[coverage]].
 
 ## Examples {#Examples}
 
