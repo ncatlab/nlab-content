@@ -2,6 +2,8 @@
 
 **[[topology]]**
 
+[[algebraic topology]]
+
 ## Basic concepts
 
 * [[space]]
@@ -23,24 +25,40 @@
 
   * [[covering space]]
 
+## Theorems
+
+* [[Whitehead's theorem]]
+
+* [[Freudenthal suspension theorem]]
+
+* [[nerve theorem]]
+
 ## Extra stuff, structure, properties
 
 * [[CW-complex]]
 
 * [[Hausdorff space]]
 
-* [[connected space]]
+* [[compact space]], [[paracompact space]]
 
-  * [[locally connected space]]
+* [[connected space]], [[locally connected space]], [[contractible space]], [[locally contractible space]]
 
 
 ## Examples
+
+* [[point]]
+
+* [[sphere]]
 
 * [[manifold]]
 
   * [[real line]]
 
+  * [[long line]]
+
 * [[Cantor space]]
+
+* [[Sierpinski space]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/topology+-+contents)</div>
