@@ -1,4 +1,3 @@
-
 There are different notions in mathematics called _basis_
 
 
@@ -6,6 +5,6 @@ There are different notions in mathematics called _basis_
 
 * [[basis for a topology]] (on a category)
 
-* [[basis of a vector space]]
+* [[basis of a free module]]
 
 ...
