@@ -526,8 +526,8 @@ Free loop space objects in the [[(∞,1)-topos]] of [[derived stack]]s on the si
 
 More information in the topological case is given in:
 
-* [[Ronnie Brown]] _On the homotopy 2-type of a free loop space_, ([arXiv](http://arxiv.org/abs/1003.5617))
+* [[Ronnie Brown]] _Crossed modules and the homotopy 2-type of a free loop space_, ([arXiv](http://arxiv.org/abs/1003.5617))
 
-which gives complete information on the 2-type of $LX$ for a space $X$ which is the classifying space of a crossed module of groups. 
+which gives complete information on the 2-type of $LX$ for a space $X$ which is the classifying space of a crossed module of groups. This generalises the above example of  $ \mathcal{L} \mathbf{B}G$. 
 
 [[!redirects free loop space objects]]
