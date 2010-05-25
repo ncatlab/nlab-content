@@ -1,7 +1,10 @@
 
 <div class="rightHandSide toc" markdown="1">
+[[!include homotopy - contents]]
+***
 [[!include (infinity,1)-topos - contents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -46,3 +49,5 @@ For instance the hypercomplete $(\infty,1)$-topos [[Top]] is presented by the mo
 The $(\infty,1)$-topos version is in section 6.5 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects Whitehead's theorem]]
