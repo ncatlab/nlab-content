@@ -16,7 +16,9 @@ One of the main purposes of a coverage is that it provides the minimum structure
 
 Another perspective on a coverage is that the covering families are "postulated well-behaved quotients."  That is, saying that $\{f_i:U_i\to U\}_{i\in I}$ is a covering family means that we want to think of $U$ as a well-behaved quotient (i.e. colimit) of the $U_i$.  Here "well-behaved" means primarily "stable under pullback."  In general, $U$ may or may not _actually_ be a colimit of the $U_i$; if it always is we call the site _subcanonical_.  From this perspective, the embedding of $C$ into its category of sheaves is "the free cocompletion of $C$ that takes covering families to well-behaved quotients"; compare how the [[Yoneda embedding]] of an arbitrary category $C$ into its category of [[presheaf|presheaves]] is its [[free cocompletion]], period.
 
-The traditional name for a coverage, with the extra saturation conditions imposed, is a [[Grothendieck topology]], and this is still widely used in mathematics.  Following the [[Elephant]], on this page we use _coverage_ for a pullback-stable system of covering families and _Grothendieck coverage_ if the extra saturation conditions are imposed.  See [[Grothendieck topology]] for a discussion of the objections to that term.
+The traditional name for a coverage, with the extra saturation conditions imposed, is a [[Grothendieck topology]], and this is still widely used in mathematics.  Following the [[Elephant]], on this page we use _coverage_ for a pullback-stable system of covering families and _Grothendieck coverage_ if the extra saturation conditions are imposed.  See [[Grothendieck topology]] for a discussion of the objections to that term. 
+
+A related notion is that of [[basis for a Grothendieck topology]], which is similar to the notion of coverage, and similarly induces a Grothendieck topology, but assumes existence of [[pullback]]s and closure of covering families under these pullbacks.
 
 
 ## Definition 
