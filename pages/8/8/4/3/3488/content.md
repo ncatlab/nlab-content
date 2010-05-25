@@ -216,6 +216,10 @@ exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. W
 [[!redirects locally contractible (∞,1)-topos]]
 [[!redirects n-connected (∞,1)-topos]]
 
+[[!redirects locally infinity-connected (∞,1)-topos]]
+[[!redirects locally ∞-connected (∞,1)-topos]]
+
+
 [[!redirects contractible (infinity,1)-topos]]
 [[!redirects contractible (∞,1)-topos]]
 [[!redirects contractible (infinity,1)-toposes]]
