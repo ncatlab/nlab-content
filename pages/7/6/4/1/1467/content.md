@@ -1,5 +1,10 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 # Compact spaces
-* tic
+* automatic table of contents goes here
 {: toc}
 
 
