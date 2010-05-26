@@ -38,7 +38,30 @@ of an [[(∞,1)-category of (∞,1)-presheaves]] such that
 
   This is the [[descent]] condition and the presheaves satisfying it are the
   **[[(∞,1)-sheaves]]** .
+  
+  Typically $U$ here is the [[Cech nerve]] 
 
+  $$
+    C(\{U_i\}) = \lim_{\to_{[n]}} U_{i_0, \cdots U_{i_n}}
+  $$ 
+
+  of a [[covering]] family $\{U_i \to c\}$ 
+  (where the colimit is the [[limit in a quasi-category|(∞,1)-categorical colimit]] or [[homotopy colimit]]) so that the above [[descent]] condition becomes 
+
+  $$
+    A(c) \simeq PSh(\lim_\to U_\cdots, A)
+   \simeq
+    \lim_{\leftarrow} A(U_\cdots)
+   =
+   \lim_{\leftarrow}
+   \left(
+      \cdots
+      \stackrel{\to}{\stackrel{\to}{\to}}
+      \prod_{i,j} A(U_i) \times_{A(c)} A(U_j) 
+      \stackrel{\to}{\to}\prod_i A(U_i)
+   \right)
+   \,.
+  $$
 
 =--
 
