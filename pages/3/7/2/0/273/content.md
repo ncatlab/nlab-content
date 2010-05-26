@@ -81,7 +81,22 @@ For more see
 
 * [[nonabelian group cohomology]].
 
+
+
 ### Nonabelian sheaf cohomology with constant coefficients {#NonabelianSheafCohomology}
+
+For $X$ a [[topological space]] and $A$ an [[∞-groupoid]], the standard way to define the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is to define it as the intrinsic cohomology as seen in [[∞Grpd]] $\simeq$ [[Top]]:
+
+$$
+  H(X,A) := \pi_0 Top(X, |A|) \simeq \pi_0 \infty Func(Sing X, A)
+  \,,
+$$
+
+where $|A|$ is the [[geometric realization]] of $A$ and $Sing X$ the [[fundamental ∞-groupoid]] of $X$.
+
+But both $X$ and $A$ here naturally can be regarded, in several way, as objects of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf (∞,1)-topos]]es $\mathbf{H} = Sh_{(\infty,1)}(C)$ over nontrivial [[(∞,1)-site]]s $C$. The intrinsic cohomology of such $\mathbf{H}$ is a [[nonabelian cohomology|nonabelian sheaf cohomology]]. The following discusses two such choices for $\mathbf{H}$ such that the corresponding nonabelian sheaf cohomology coincides with $H(X,A)$ (for [[paracompact space|paracompact]] $X$).
+
+##### Petit $(\infty,1)$-sheaf $(\infty,1)$-topos
 
 For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]] equipped with the canonical structure of an [[(∞,1)-site]], let 
 
@@ -91,32 +106,28 @@ $$
   Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))
 $$
 
-be the [[(∞,1)-category of (∞,1)-sheaves]] on $X$. 
+be the [[(∞,1)-category of (∞,1)-sheaves]] on $X$. The space $X$ itself is naturally identified with the [[terminal object]] $X = * \in Sh_{(\infty,1)}(X)$. This is the [[petit topos]] incarnation of $X$.
 
 Write
 
 $$
   (LConst \dashv \Gamma) :  Sh_{(\infty,1)}(X)
   \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
 $$
 
 be the [[global section]]s terminal [[geometric morphism]]. 
 
-For $A \in \infty Grpd$, the ([[nonabelian cohomology|nonabelian]]) [[cohomology]] of $X$ with coefficients in $A$ is usually defined in [[∞Grpd]]  $simeq $ [[Top]] as
+Under the [[constant (∞,1)-sheaf]] functor $LConst$ an an [[∞-groupoid]] $A \in \infty Grpd$ is regarded as an object $LConst A \in Sh_{(\infty,1)}(X)$. 
 
-$$
-  H(X,A) := \pi_0 Func(Sing X, A)
-  \,,
-$$
-
-where $Sing X$ is the [[fundamental ∞-groupoid]] of $X$. On the other hand, if we send $A$ into $Sh_{(\infty,1)}(X)$ via $LConst$, the there is the _intrinsic_ [[cohomology]] of the $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ with coefficients in the [[constant ∞-stack|constant (∞,1)-sheaf]] on $A$
+There is therefore the _intrinsic_ [[cohomology]] of the $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ with coefficients in the [[constant ∞-stack|constant (∞,1)-sheaf]] on $A$
   
 $$
   H'(X,A) := \pi_0 Sh_{(\infty,1)}(X)(X, LConst A)
   \,.
 $$
 
-Noticing that $X$ is in fact the [[terminal object]] of $Sh_{(\infty,1)}(X)$ and that $Sh_{(\infty,1)}(X)(X,-)$ is in fact that [[global section]]s functor, this is equivalently
+Notice that since $X$ is in fact the [[terminal object]] of $Sh_{(\infty,1)}(X)$ and that $Sh_{(\infty,1)}(X)(X,-)$ is in fact that [[global section]]s functor, this is equivalently
 
 $$
   \cdots \simeq \pi_0 \Gamma LConst A
@@ -135,10 +146,51 @@ $$
 
 =--
 
-This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. For more details see [[(∞,1)-category of (∞,1)-sheaves]].
+This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. See also [[(∞,1)-category of (∞,1)-sheaves]] for more.
 
 
+##### Gros $(\infty,1)$-sheaf $(\infty,1)$-topos
 
+Another alternative is to regard the space $X$ as an object in the [[gros topos|gors]] [[(∞,1)-sheaf]] topos $Sh_{(\infty,1)}(CartSp)$ over the [[site]] [[CartSp]], as described at [[∞-Lie groupoid]]. This has the special property that it is a [[locally ∞-connected (∞,1)-topos]], which means that the [[global section|terminal]] [[geometric morphism]] is an [[essential geometric morphism]]
+
+$$
+  (\Pi \dashv LConst \dashv \Gamma)
+  :
+  Sh_{(\infty,1)}(CartSp)
+  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  \infty Grpd
+  \,,
+$$
+
+with the further [[left adjoint]] $\Pi$ to $LConst$ being the intrinsic [[schreiber:path ∞-groupoid]] functor.  The intrinsic [[nonabelian cohomology]] in there also coincides with nonabelian cohomology in [[Top]]; even the full [[cocycle]] [[∞-groupoid]]s are equivalent:
+
++-- {: .un_theorem }
+###### Theorem
+
+For [[paracompact space|paracompact]] $X$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+
+$$
+  Sh_{(\infty,1)}(CartSp)(X, LConst A)
+  \simeq
+  Top(X, |A|)
+$$
+
+and hence in particular an isomorphism on cohomology
+
+$$
+  H(X,A) \simeq \pi_0   Sh_{(\infty,1)}(CartSp)(X, LConst A)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The key point is that for paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed in detail in the section <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">geometric realization</a> at [[schreiber:path ∞-groupoid]].
+
+Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv LConst)$, that is discussed in detail at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">Unstructured homotopy ∞-groupoid</a>.
+
+=--
 
 
 
