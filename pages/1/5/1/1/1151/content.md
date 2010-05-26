@@ -481,6 +481,8 @@ Several familiar "cohomology theories" are not so much genuine cohomology theori
 
 +--{.query}
 Zoran: I am not happy with this assertion. First of all the notion of the derived functor is fundamental and it makes sense even in setups when the injective resolutions do not exist. Abelian sheaf cohomology IS a derived functor of the global sections functor, not a specific technique to computing it. On the other hand, the injective resolutions ARE a specific technique to compute the derived functor. It is also not clear in this entry if it is about sheaves on topological spaces or on sites or some more general setup. 
+
+Urs: I have posted a reply <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=391&page=1#Item_5">here</a>. Let's sort this out, improve the entry and remove this query box here.
 =--
 
 
@@ -549,6 +551,29 @@ $$
 
 This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. See also [[(∞,1)-category of (∞,1)-sheaves]] for more.
 
+
+##### In terms of covering spaces {#InTermsOfCoveringSpaces}
+
+There is an equivalence between $(\infty,1)$-sheaves on $X$ and topological spaces over $X$, as described in detail at [[(∞,1)-sheaves and over-spaces]].
+
+Suppose that $X$ is a [[locally compact space|locally compact]] [[CW complex]].  In particular, this implies that it is [[m-cofibrant space|m-cofibrant]], i.e. every open subset of $X$ has the [[homotopy type]] of a CW complex.  That's what you need in order to conclude that taking sheaves of sections of spaces over $X$ is well-behaved homotopically, since only m-cofibrant spaces are good for mapping out of homotopically.  
+
+In
+
+* [[Mike Shulman]], _Parametrized spaces model locally constant homotopy sheaves_ ([artXiv:0706.2874](http://arxiv.org/abs/0706.2874))
+
+it is proved that the "sheaf of sections" functor
+
+$$ Top/X \to [Op(X)^{op},sSet] $$
+
+is the [[right adjoint]] in a [[right Quillen embedding]], i.e. a [[Quillen adjunction]] whose  [[derived functor|derived]] right adjoint is [[full and faithful functor|fully faithful]].  In other words, the homotopy theory of spaces over $X$ embeds in the homotopy theory of $(\infty,1)$-sheaves on $X$.  
+
+One can also identify its image as consisting of the [[locally constant (∞,1)-sheaves]].  This is a homotopical version of the identification of [[covering space]]s with [[locally constant sheaves]].
+
+Furthermore, if $f\colon X\to Y$ is a map of such spaces, then the pullback functor $f^\ast\colon Top/Y \to Top/X$ agrees with the [[inverse image]] functor $f^\ast$ for $(\infty,1)$-sheaves.  In particular, when $Y$ is a point and $A$ a space, then the constant $(\infty,1)$-sheaf $Const(A)$ is identified with (the sheaf of sections of) the space $X^\ast A = X\times A$ over $X$.  Therefore, the nonabelian cohomology of $X$ with coefficients in $Const(A)$ is the same as the maps in $Top/X$ from $X$ (the terminal object of $Top/X$) to $X^\ast A$.  Since the left adjoint of $X^\ast:Top \to Top/X$ just forgets the structure map to $X$, this is the same as maps in $Top$ from $X$ to $A$.  
+Thereby we recover Lurie's theorem, in the case when $X$ is a locally compact CW complex.
+
+...
 
 ##### Gros $(\infty,1)$-sheaf $(\infty,1)$-topos
 
