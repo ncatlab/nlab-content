@@ -23,20 +23,81 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X
 
 
 ## Properties {#Properties}
+ 
++-- {: .un_prop }
+###### Proposition
 
 Every [[paracompact space|paracompact]] [[manifold]] admits a good open cover.
 
-Because every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a geodesic in the neighborhood; see for example the remark after lemma 10.3 in Milnor's _Morse Theory_ , page 59). Provided that the neighborhoods are chosen small enough to guarantee uniqueness of the geodesic, it is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
+=--
+
++-- {: .proof}
+###### Proof
+
+Every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a geodesic in the neighborhood; see for example the remark after lemma 10.3 in Milnor's _Morse Theory_ , page 59). Provided that the neighborhoods are chosen small enough to guarantee uniqueness of the geodesic, it is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
+
+=--
+
++-- {: .un_cor }
+###### Corollary
+
+The [[category]] $Para$ paracompact manifolds admits a [[coverage]] whose covering families are good open covers.
+
+The same holds true for [[subcategories]] such as
+
+* [[Diff]] -- paracompact [[smooth manifold]]s;
+
+* [[CartSp]] -- [[Cartesian space]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is suficcient to check this in $Para$.
+We need to check that for $\{U_i \to U\}$ a good open cover and $f : V \to U$ any morphism, we get commuting squares
+
+$$  
+  \array{  
+     V_j &\to& U_{i(j)}
+     \\
+     \downarrow && \downarrow
+     \\
+     V &\stackrel{f}{\to}& U
+  }
+$$
+
+such that the $\{V_i \to V\}$ form a good open cover of $V$. 
+
+Now, while $Para$ does not have all [[pullback]]s, the pullback  of an [[open cover]] does exist, and since $f$ is necessarily a [[continuous function]] this is an [[open cover]] $\{f^* U_i \to V\}$. The $f^* U_i$ need not be contractible, but being open subsets of a paracompact manifold, they are themselves paracompact manifolds and hence admit themselves good open covers $\{W_{i,j} \to f^* U_i\}$.
+
+Then the family of composites $\{W_{i,j} \to f^* U_i \to V\}$ is clearly a good open cover of $V$.
+
+
+
+=--
+
+
++-- {: .un_prop }
+###### Proposition
 
 Every [[CW complex]] admits a good open cover. 
 
-Because: it suffices to prove that if $X$ admits a good open cover and $\phi: S^n \to X$ is an attaching map, then the pushout 
+=--
+
++-- {: .proof}
+###### Proof
+
+It suffices to prove that if $X$ admits a good open cover and $\phi: S^n \to X$ is an attaching map, then the [[pushout]]
+ 
 $$\array{
 S^n & \stackrel{\phi}{\to} & X \\
 i \downarrow & & \downarrow \\
 D^{n+1} & \to & Y
 }$$ 
-also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under finite intersections, and choose a contracting homotopy $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the convex hull of $S$. Then, if $V$ is relatively open in the boundary $S^n$, $Hull(V)$ is open in $D^{n+1}$. It follows that the image in $Y$ of 
+
+also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under finite intersections, and choose a contracting [[homotopy]] $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the [[convex hull]] of $S$. Then, if $V$ is relatively open in the boundary $S^n$, $Hull(V)$ is open in $D^{n+1}$. It follows that the image in $Y$ of 
 
 $$V_\alpha \coloneqq U_\alpha \cup Hull(\phi^{-1}(U_\alpha)) \subseteq X \cup D^{n+1}$$ 
 
@@ -61,7 +122,10 @@ $$
 
 These sets $V_\alpha$ together with $int(D^{n+1})$ form a good open cover of $Y$. 
 
-### $n$POV
+=--
+
+
+## $n$POV
 
 The following [[nPOV]] perspective on good open covers gives a useful general "explanation" for their relevance, which also explains the role of good covers in [[Cech cohomology]] generally and [[abelian sheaf cohomology]]  in particular.
 
