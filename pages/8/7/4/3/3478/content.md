@@ -23,7 +23,7 @@ One could also consider a basis of open sets such that the opens $U$ have trivia
 
 * Any [[CW-complex]] is locally contractible.
 
-> Any ideas for a locally relatively contractible space that is not locally contractible?
+> Any ideas for a semi-locally contractible space that is not locally contractible?
 
 ## Other viewpoints
 
@@ -37,4 +37,4 @@ If one considers [[fundamental ∞-groupoid]]s, the inclusion $U\to X$ being nul
 
 See also [[locally ∞-connected (∞,1)-topos]]. There a converse to this conjecture is stated:
 
-**Propositon** Let $C$ be a [[site]] coming from a [[covergae]] such that constant [[(∞,1)-presheaf|(∞,1)-presheaves]] satisfy [[descent]] over objects of $C$ with respect to the generating [[covering]] families. Then the [[(∞,1)-category of (∞,1)-sheaves]] $\mathbf{H} = Sh_{(\infty,1)}(C)$ is a [[locally ∞-connected (∞,1)-topos]].
+**Propositon** Let $C$ be a [[site]] coming from a [[coverage]] such that constant [[(∞,1)-presheaf|(∞,1)-presheaves]] satisfy [[descent]] over objects of $C$ with respect to the generating [[covering]] families. Then the [[(∞,1)-category of (∞,1)-sheaves]] $\mathbf{H} = Sh_{(\infty,1)}(C)$ is a [[locally ∞-connected (∞,1)-topos]].
