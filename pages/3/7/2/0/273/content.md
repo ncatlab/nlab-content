@@ -9,7 +9,7 @@
 
 ## Idea
 
-The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-space]]s in an [[∞-stack]][[(∞,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
+The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-space]]s in an [[(∞,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
 
 Therefore to amplify that one is looking at general [[cohomology]] without restricting to [[abelian sheaf cohomology|abelian cohomology]] one sometimes speaks of  **nonabelian cohomology**. 
 
@@ -94,9 +94,9 @@ $$
 
 where $|A|$ is the [[geometric realization]] of $A$ and $Sing X$ the [[fundamental ∞-groupoid]] of $X$.
 
-But both $X$ and $A$ here naturally can be regarded, in several way, as objects of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf (∞,1)-topos]]es $\mathbf{H} = Sh_{(\infty,1)}(C)$ over nontrivial [[(∞,1)-site]]s $C$. The intrinsic cohomology of such $\mathbf{H}$ is a [[nonabelian cohomology|nonabelian sheaf cohomology]]. The following discusses two such choices for $\mathbf{H}$ such that the corresponding nonabelian sheaf cohomology coincides with $H(X,A)$ (for [[paracompact space|paracompact]] $X$).
+But both $X$ and $A$ here naturally can be regarded, in several ways, as objects of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf (∞,1)-topos]]es $\mathbf{H} = Sh_{(\infty,1)}(C)$ over nontrivial [[(∞,1)-site]]s $C$. The intrinsic cohomology of such $\mathbf{H}$ is a [[nonabelian cohomology|nonabelian sheaf cohomology]]. The following discusses two such choices for $\mathbf{H}$ such that the corresponding nonabelian sheaf cohomology coincides with $H(X,A)$ (for [[paracompact space|paracompact]] $X$).
 
-##### Petit $(\infty,1)$-sheaf $(\infty,1)$-topos
+#### Petit $(\infty,1)$-sheaf $(\infty,1)$-topos
 
 For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]] equipped with the canonical structure of an [[(∞,1)-site]], let 
 
@@ -149,9 +149,9 @@ $$
 This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. See also [[(∞,1)-category of (∞,1)-sheaves]] for more.
 
 
-##### Gros $(\infty,1)$-sheaf $(\infty,1)$-topos
+#### Gros $(\infty,1)$-sheaf $(\infty,1)$-topos
 
-Another alternative is to regard the space $X$ as an object in the [[gros topos|gors]] [[(∞,1)-sheaf]] topos $Sh_{(\infty,1)}(CartSp)$ over the [[site]] [[CartSp]], as described at [[∞-Lie groupoid]]. This has the special property that it is a [[locally ∞-connected (∞,1)-topos]], which means that the [[global section|terminal]] [[geometric morphism]] is an [[essential geometric morphism]]
+Another alternative is to regard the space $X$ as an object in the [[gros topos|gros]] [[(∞,1)-sheaf]] topos $Sh_{(\infty,1)}(CartSp)$ over the [[site]] [[CartSp]], as described at [[∞-Lie groupoid]]. This has the special property that it is a [[locally ∞-connected (∞,1)-topos]], which means that the [[global section|terminal]] [[geometric morphism]] is an [[essential geometric morphism]]
 
 $$
   (\Pi \dashv LConst \dashv \Gamma)
@@ -191,7 +191,6 @@ The key point is that for paracompact $X$, the [[nerve theorem]] asserts that $\
 Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv LConst)$, that is discussed in detail at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">Unstructured homotopy ∞-groupoid</a>.
 
 =--
-
 
 
 ## Objects classified by nonabelian cohomology
