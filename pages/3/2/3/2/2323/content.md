@@ -49,11 +49,13 @@
 
   * [[Whitehead theorem]]
 
+* [[n-localic (∞,1)-topos]]
+
+* [[locally n-connected (n,1)-topos]]
+
 * [[structured (∞,1)-topos]]
 
   * [[geometry (for structured (∞,1)-toposes)]]
-
-* [[locally n-connected (n,1)-topos]]
 
 ## Models ##
 
