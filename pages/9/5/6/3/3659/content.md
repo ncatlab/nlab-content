@@ -18,7 +18,7 @@ We define the generating functional on $\mathcal{D}(\mathbb{R}^d)$
 $$
 S(f) := \integral e^{i \phi(f)} d\mu
 $$
-as the inverse Fourier transform of a Borel probability measure $d\mu$ on $mathcal{D}'(\mathbb{R}^d)$.
+as the inverse Fourier transform of a Borel probability measure $d\mu$ on $\mathcal{D}'(\mathbb{R}^d)$.
 
 * **OS0 (analyticity)**: For every finite set of test functions $f_1, f_2,...f_n$ and complex numbers $z:= (z_1, z_2, ...z_n)$ the function
 $$
