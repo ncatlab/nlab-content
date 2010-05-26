@@ -1,6 +1,9 @@
 <div class="rightHandSide toc">
 [[!include homotopy - contents]]
+***
+[[!include model category theory - contents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -8,10 +11,12 @@
 
 ## Definition
 
-In a [[category with weak equivalences]] and with [[products]] a **path space object** (often just called a **path object**) for an [[object]] $C$ is a factorization of the morphism $C \stackrel{Id \times Id}{\to} C \times C$ as
+In $C$ a [[category with weak equivalences]] and with [[products]] a **path space object** (often just called a **path object**) for an [[object]] $X$ is a factorization of the diagonal morphism $X \stackrel{(Id, Id)}{\to} X \times X$ into the [[product]] as
+
 $$
-  C \stackrel{s}{\to} C^I \stackrel{(d_0, d_1)}{\to} C \times C
+  X \stackrel{s}{\to} X^I \stackrel{(d_0, d_1)}{\to} X \times X
 $$
+
 such that $s$ is a weak equivalence.
 
 
@@ -21,6 +26,69 @@ If the category in question also has a notion of [[fibration]]s, such as in a [[
 $C^I \stackrel{(d_0, d_1)}{\to} C \times C$ in the definition of a path object is required to be a fibration.
 
 Path space objects are in particular guaranteed to exist in any [[model category]].
+
+## Examples
+
+### In model categories
+
+If $C$ is a [[model category]] then the factorization axiom ensures that for every object $X \in C$ there is a factorization of the diagonal 
+
+$$
+  X \stackrel{\simeq}{\to} X^I \stackrel{(d_0, d_1)}{\to} X \times X
+$$
+
+with the additional property that $X^I \to X \times X$ is a fibration.
+
+If $X$ itself is fibrant, then the projections $X \times X \to X$ are fibrations and moreover by 2-out-of-3 applied to the diagram
+
+$$
+  \array{
+    && X^I
+    \\
+    & {}^{\mathllap{s}}\nearrow && \searrow^{\mathrlap{d_i}}
+    \\
+    X &&\stackrel{Id}{\to}&& X
+  }
+$$
+
+are themselves weak equivalences $X^I \stackrel{\simeq}{\to} X$. This is a key property that implies the [[category of fibrant objects|factorization lemma]].
+
+If moreover the [[small object argument]] applies in the model catgeory $C$, then such factorizations, and hence path objects, may be chosen fonctorially: such that for each morphism $X \to Y$ the factorizations fit into a [[commuting diagram]]
+
+$$
+  \array{
+     X &\stackrel{\simeq}{\to} &X^I &\to & X \times X  
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    Y & \stackrel{\simeq}{\to} & Y^I &\to & Y \times Y  
+  }
+$$
+
+### In simplicial model categories
+
+If $C$ is a [[simplicial model category]], then the [[power]]ing over [[sSet]] can be used to explicitly construct functorial path objects for fibrant objcts $X$: define $X \to X^I \to X \times X$ to be the [[power]]ing of $X$ by the morphisms
+
+$$
+  \Delta[0] \coprod \Delta[0]
+  \stackrel{d_0, d_1}{\hookrightarrow} \Delta[1]
+  \stackrel{\simeq}{\to} 
+  \Delta[0]
+$$
+
+in $sSet_{Quillen}$. Notice that the first morphism is a cofibration and the second a weak equivalence in the standard [[model structure on simplicial sets]] and that all objects are cofibrant.
+
+Since by the axioms of an [[enriched model category]] the [[power]]in functor
+
+$$
+  (-)^{(-)} : sSet^{op} \times C \to C
+$$
+
+sends cofibrations and acyclic cofibrations in the first argument to fibratoins and acyclic fibrations inif the second argument is fibrant, and since this implies by the [[category of fibrant objects|factorization lemma]] that it then also preserves weak equivalences between cofibrant objects, it follows that $X^{\Delta[1]}$ is indeed a path object with the extra property that also the two morphisms $X^{\Delta[1]} \to X$ are acyclic fibratios.
+
+
+
+
 
 ## Related notions
 
