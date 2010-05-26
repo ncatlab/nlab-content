@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include topology - contents]]
 </div>
@@ -9,3 +8,4 @@ A [[topological space]] $X$ is **coherent** if
 
 * and form a [[coverage|basis for the topology]] of $X$.
 
+This is equivalent to saying that the [[topos of sheaves]] $Sh(X)$ on $X$ is a [[coherent topos]].
