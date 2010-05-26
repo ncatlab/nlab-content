@@ -23,7 +23,7 @@ What is this property?
 
 
 
-On the other hand, analysts run across semigroups often in the wild, and don\'t always want to add formal identities just to turn them into moniods.
+On the other hand, analysts run across semigroups often in the wild, and don\'t always want to add formal identities just to turn them into monoids.
 
 
 Another variant with strong links with category theory is that of [[inverse semigroup]]s, which [[Charles Ehresmann]] showed were closely related to [[ordered groupoid]]s. Inverse semigroups naturally occur when considering partial symmetries of an object.
