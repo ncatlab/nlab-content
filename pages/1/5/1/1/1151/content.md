@@ -556,7 +556,7 @@ This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. See also [[(∞,1)-categor
 
 There is an equivalence between $(\infty,1)$-sheaves on $X$ and topological spaces over $X$, as described in detail at [[(∞,1)-sheaves and over-spaces]].
 
-Suppose that $X$ is a [[locally compact space|locally compact]] [[CW complex]].  In particular, this implies that it is [[m-cofibrant space|m-cofibrant]], i.e. every open subset of $X$ has the [[homotopy type]] of a CW complex.  That's what you need in order to conclude that taking sheaves of sections of spaces over $X$ is well-behaved homotopically, since only m-cofibrant spaces are good for mapping out of homotopically.  
+Suppose that $X$ is a [[locally compact space|locally compact]] [[CW complex]].  In particular, this implies that it is "hereditarily [[m-cofibrant space|m-cofibrant]]," i.e. every open subset of $X$ has the [[homotopy type]] of a CW complex.  That's what you need in order to conclude that taking sheaves of sections of spaces over $X$ is well-behaved homotopically, since only m-cofibrant spaces are good for mapping out of homotopically.  
 
 In
 
@@ -570,7 +570,8 @@ is the [[right adjoint]] in a [[right Quillen embedding]], i.e. a [[Quillen adju
 
 One can also identify its image as consisting of the [[locally constant (∞,1)-sheaves]].  This is a homotopical version of the identification of [[covering space]]s with [[locally constant sheaves]].
 
-Furthermore, if $f\colon X\to Y$ is a map of such spaces, then the pullback functor $f^\ast\colon Top/Y \to Top/X$ agrees with the [[inverse image]] functor $f^\ast$ for $(\infty,1)$-sheaves.  In particular, when $Y$ is a point and $A$ a space, then the constant $(\infty,1)$-sheaf $Const(A)$ is identified with (the sheaf of sections of) the space $X^\ast A = X\times A$ over $X$.  Therefore, the nonabelian cohomology of $X$ with coefficients in $Const(A)$ is the same as the maps in $Top/X$ from $X$ (the terminal object of $Top/X$) to $X^\ast A$.  Since the left adjoint of $X^\ast:Top \to Top/X$ just forgets the structure map to $X$, this is the same as maps in $Top$ from $X$ to $A$.  
+Furthermore, if $f\colon X\to Y$ is a map of such spaces, then the pullback functor $f^*\colon Top/Y \to Top/X$ agrees with the [[inverse image]] functor $f^*$ for $(\infty,1)$-sheaves.  In particular, when $Y$ is a point and $A$ a space, then the constant $(\infty,1)$-sheaf $Const(A)$ is identified with (the sheaf of sections of) the space $X^* A = X\times A$ over $X$.  Therefore, the nonabelian cohomology of $X$ with coefficients in $Const(A)$ is the same as the maps in $Top/X$ from $X$ (the terminal object of $Top/X$) to $X^* A$.  Since the left adjoint of $X^*:Top \to Top/X$ just forgets the structure map to $X$, this is the same as maps in $Top$ from $X$ to $A$.
+
 Thereby we recover Lurie's theorem, in the case when $X$ is a locally compact CW complex.
 
 ...
