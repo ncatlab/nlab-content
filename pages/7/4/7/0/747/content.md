@@ -544,7 +544,7 @@ This is in prop 2.8 of
 
 ### Cech localization at Grothendieck (pre)topologies {#CechLocalization}
 
-We discuss some aspects of the [[Bousfield localization of model categories|left Bousfield localization]] at [[Grothendieck topologies]] and [[covering]] families. By the discussion at [[topological localization]] these are models for [[(∞,1)-categories of (∞,1)-sheaves]].
+We discuss some aspects of the [[Bousfield localization of model categories|left Bousfield localization]] of the projective global model structure on simplicial presheaves at [[Grothendieck topologies]] and [[covering]] families. By the discussion at [[topological localization]] these are models for [[topological localization]]s leading to [[(∞,1)-categories of (∞,1)-sheaves]].
 
 The central reference is 
 
