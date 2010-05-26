@@ -15,7 +15,33 @@ An [[(∞,1)-topos]] is **hypercomplete** if the [[Whitehead theorem]] is valid 
 
 Equivalently: if all its object are [[hypercomplete object]]s.
 
-Every [[∞-stack]] [[(∞,1)-topos]] has a [[hypercompletion]], the [[reflective sub-(∞,1)-category]] on its [[hypercomplete object]]s.
+Every[[(∞,1)-topos]] has a [[hypercompletion]], the [[reflective sub-(∞,1)-category]] on its [[hypercomplete object]]s.
+
+## Properties
+
++-- {: .un_lemma}
+###### Observation
+
+An $(\infty,1)$-topos that has [[point of a topos|enough points]] is hypercomplete.
+
+=--
+
+This is [[Higher Topos Theory|HTT, remark 6.5.4.7]].
+
++-- {: .proof}
+###### Proof
+
+Recall that a [[point of a topos|point of an (∞,1)-topos]] $\mathbf{H}$ is a [[geometric morphism]]  $p : \infty Grpd \stackrel{\overset{p^*}{\leftarrow}}{\underset{p_*}{\to}} \mathbf{H}$.
+
+And by definition $\mathbf{H}$ has _enough points_ if a morphism $F : X \to Y$ in $\mathbf{H}$ is an [[equivalence in a quasi-category|equivalence]] if for all points $p$, the [[stalk]] $p^* f$ is an equivalence in [[? Grpd]].
+
+But if $f$ is $\infty$-[[connected]] in $\mathbf{H}$, then so is $p^* f$ in [[∞Grpd]], which is hypercomplete, by [[Whitehead's theorem]], so that $p^* f$ is an equivalence.
+
+So in an $(\infty,1)$-topos with enough points all $\infty$-connected morphisms are equivalences.
+
+=--
+
+
 
 ## Models
 
