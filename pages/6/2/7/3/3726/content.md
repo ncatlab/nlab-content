@@ -1,3 +1,4 @@
+
 <div class="rightHandSide toc" markdown="1">
 [[!include (infinity,1)-topos - contents]]
 </div>
@@ -24,18 +25,38 @@ The [[Whitehead tower]] construction produces $n$-connected objects.
 +-- {: .un_defn}
 ###### Definition
 
-An object $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $n \in \mathbb{N}$ if
+An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $n \in \mathbb{N}$ if
 
-* the [[terminal object|terminal]] morphism $X \to *$ is an [[effective epimorphism]];
+1. the [[terminal object|terminal]] morphism $X \to *$ is an [[effective epimorphism]];
 
-* all [[homotopy groups in an (∞,1)-topos|categorical homotopy group]]
-  equal to or below degree $n$ are trivial.
+1. all [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]]
+   equal to or below degree $n$ are trivial.
+
+   $$
+     \pi_k(X) = * \;\;\; for k \leq n
+     \,.
+   $$
+  
+A [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos is $n$-connected if 
+
+1. it is an [[effective epimorphism]]
+
+1. regarded as an object in the 
+   [[over quasi-category|over-(∞,1)-category]] 
+   $\mathbf{H}_{/Y}$ all [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]]
+   equal to or below degree $n$ are trivial.
 
 =--
 
 By convention every object is $(-2)$-connected.
 
 This appears as [[Higher Topos Theory|HTT, def. 6.5.1.10]], but under the name "$(n+1)$-connective."
+
+
+## Properties
+
+
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -44,13 +65,33 @@ An object $X$ is $n$-connected (for $n \geq -2$) precisely if its [[n-truncated 
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]].
 
-This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]]
+
++-- {: .un_lemma}
+###### Observation
+
+Every [[equivalence in a quasi-category|equivalence]] is $\infty$-connected.
 
 =--
 
+This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 2]].
+
+**Remark** In a general $(\infty,1)$-topos the converse is not true: not every $\infty$-connected morphisms needs to be an equivalence. It is true in a [[hypercomplete (∞,1)-topos]].
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+The class of $n$-connected morphisms is stable under [[pullback]] and [[pushout]].
+
+If the pullback of a morphism along an [[effective epimorphism]] is $n$-connected, then so is the original morphism.
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 6]].
 
 
 ## Examples
@@ -59,6 +100,8 @@ This is [[Higher Topos Theory|HTT, prop. 6.5.1.12]]
 
 In the the [[(∞,1)-category]] [[Top]] we have
 
+* a (-1)-connected object is a [[contractible space]]
+
 * a 0-connected object is a [[connected space]].
 
 * a 1-connected object is a [[simply connected space]].
@@ -66,6 +109,8 @@ In the the [[(∞,1)-category]] [[Top]] we have
 
 
 [[!redirects connected]]
+[[!redirects connective]]
+
 [[!redirects n-connected object of an (∞,1)-category]]
 [[!redirects n-connected object of an (∞,1)-topos]]
 [[!redirects n-connected object of an (infinity,1)-category]]
