@@ -55,22 +55,33 @@ be $\infty$-[[differentiable stacks]] if one considers
 
 ## Definition {#Definition}
 
-A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X$ satisfying the following equivalent conditions:
- 
+### As a geometric embedding into a $(\infty,1)$-presheaf category
 
-* $X$ is an [[(∞,1)-category of (∞,1)-sheaves]] (meaning: of [[∞-stack]]s): 
+A [[Alexander Grothendieck|Grothendieck]]--[[Charles Rezk|Rezk]]--[[Jacob Lurie|Lurie]] **$(\infty,1)$-topos** $\mathbf{H}$ is an [[accessible (∞,1)-functor|accessibly embedded]] [[reflective sub-(∞,1)-category]] of an [[(∞,1)-category of (∞,1)-presheaves]]
 
-  there exists a small [[(∞,1)-category]] $C$ such that $X$ is a [[reflective (∞,1)-subcategory]] $X \stackrel{\overset{lex}{\leftarrow}}{\hookrightarrow} PSh_{(\infty,1)}(C)$ of the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ on $C$.
+$$
+  \mathbf{H}
+  \stackrel{\overset{lex}{\leftarrow}}{\hookrightarrow}
+  PSh_{(\infty,1)}(C)
+  \,.
+$$
 
-* $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
-  * $X$ is [[presentable (infinity,1)-category|presentable]];
-  * [[limit in quasi-categories|(∞,1)-colimits]] in $X$ [[universal colimits|are universal]];
-  * [[coproduct]]s in $X$ are [[disjoint coproduct|disjoint]];
-  * every [[groupoid object in an (infinity,1)-category|groupoid object]] in $X$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
+If this is a [[topological localization]] then $\mathbf{H}$ is an [[(∞,1)-category of (∞,1)-sheaves]].
+
+### By $(\infty,1)$-Giraud's axioms {#GiraudAxioms}
+
+Equivalently: an $(\infty,1)$-topos $\mathbf{H}$ is
+
+an [[(∞,1)-category]] that satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
+
+* $\mathbf{H}$ is [[presentable (infinity,1)-category|presentable]];
+* [[limit in quasi-categories|(∞,1)-colimits]] in $\mathbf{H}$ [[universal colimits|are universal]];
+* [[coproduct]]s in $\mathbf{H}$ are [[disjoint coproduct|disjoint]];
+* every [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathbf{H}$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
 
 The equivalence of these two characterizations is one of the main theorems of [[Higher Topos Theory|HTT]].
 
-The second characterization is derived from the following equivalent one:
+This is derived from the following equivalent one:
 
 an [[(∞,1)-topos]] is
 
