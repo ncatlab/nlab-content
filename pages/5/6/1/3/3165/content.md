@@ -10,7 +10,7 @@
 
 ## Idea 
 
-_Groupoid cohomology_ is the [[cohomology]] specifically of ordinary groupoids, more generally that of [[internal groupoid]]s.
+_Groupoid cohomology_ is the [[cohomology]] specifically of ordinary [[groupoids]], more generally that of [[internal groupoid]]s.
 
 Groupoid cohomology generalizes [[group cohomology]], which is the cohomology of [[delooping]] groupoids of groups. Analogously to abelian and [[nonabelian group cohomology]] there is abelian and [[nonabelian groupoid cohomology]].
 
