@@ -24,13 +24,20 @@ A derivator $D$ is **stable** (or **triangulated**) if it is [[pointed derivator
 
 ### Triangulation
 
-If $D$ is a stable derivator, then each category $D(X)$ is a [[triangulated category]]; we give the constructions when $X=1$.  The shift/suspension functor $S\colon D(1)\to D(1)$ is defined by 
+One of the central facts about stable derivators is:
+
++-- {: .un_theorem}
+###### Theorem (Maltsiniotis)
+If $D$ is a stable derivator, then each category $D(X)$ is a [[triangulated category]] in a canonical way.
+=--
+
+We describe the constructions when $X=1$.  The shift/suspension functor $S\colon D(1)\to D(1)$ is defined by 
 $$ S = b^* i_! a_* $$
 where $a\colon 1\to L$ is the inclusion of the top-left vertex of the span, and $b\colon 1\to \square$ is the inclusion of the bottom-right vertex of the square.  In other words, for an object $X\in D(1)$ its suspension is defined by the [[homotopy pushout]]
 $$\array{X & \overset{}{\to} & 0\\
   \downarrow && \downarrow\\
   0 & \underset{}{\to} & S X.}$$
-The stability axiom guarantees that $S$ is an equivalence of categories, its inverse being given by the obvious dual "loop space" construction.  This provides a motivation for the stability axiom: it is a generalization of the statement that every object is the loop space of its suspension and the suspension of its loop space.
+This makes sense in the more general context of any [[pointed derivator]], but the stability axiom guarantees that $S$ is actually an equivalence of categories.  Its inverse being given by the obvious dual "loop space" construction (which in a general pointed derivator is only right adjoint to it).  This provides a motivation for the stability axiom: it is a generalization of the statement that every object is the loop space of its suspension and the suspension of its loop space.
 
 Let $Q$ denote the category
 $$\array{ & \overset{}{\to} & & \to &\\
