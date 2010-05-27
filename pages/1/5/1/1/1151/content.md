@@ -49,7 +49,7 @@ gives the very general formal definition and discusses very general properties o
 
 * [Extra structure on cohomology](#ExtraStruc)
 
-describes addtition [[stuff, structure, property]] that may be present for certain choices of coefficient objects -- such as _gradings_ , group and ring-structures --_ and aspects of which are in different parts of the traditional literature often _required_ (differently) on cohomology.
+describes addtition [[stuff, structure, property]] that may be present for certain choices of coefficient objects -- such as _gradings_ , [[cohomology group]]- and ring-structures -- and aspects of which are in different parts of the traditional literature often _required_ (differently) on cohomology.
 
 The straightforward definition of cohomology in terms of mapping spaces in an [[(∞,1)-topos]] has some slight, but similarly straightforward, variants, notably that of _twisted cohomology_ (which includes other cases such as [[differential cohomology]]) and of [[equivariant cohomology]] (with its different flavors such as Borel-equivariant and [[Bredon cohomology]]). These are discussed in the section
 
@@ -59,7 +59,27 @@ before the next main section
 
 * [Examples](#Examples)
 
-then starts going through concrete examples in detail. The reader uneasy with the abstract generality of our perspective is advised to skip ahead to this section and find from a long list of examples discussed his or her favorite traditional notion of cohomology and how it fits into the general structure. 
+then starts going through concrete examples in detail. The reader uneasy with the abstract generality of our perspective is advised to skip ahead to this section and find from a long list of examples discussed his or her favorite 
+traditional notion of cohomology and how it fits into the general structure. 
+
+Finally we discuss _why_ the notion of cohomology is related to that of [[(∞,1)-topos]]es in 
+
+* [Relation to (∞,1)-topos theory](#ToposTheory) .
+
+Essentially nothing about this perspective on cohomology is really new, many aspects of it have been made explicit in the literature here and there. In fact, to some extent everything here is just an afterthought of the old seminal article
+
+* [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomologhy]]_ (1973),
+
+in the light of fully fledged [[(∞,1)-topos|(∞,1)-topos theory]], of which it is the effectively the seed, by noticing that this article secretly discusses precisely the [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[hypercomplete (∞,1)-topos]]es. At the same time, to some extent everything here is also an afterthought of the theory of cohomology in [[category theory|1-categorical]] [[topos theory]] as reviewed for instance in
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ , section I.4
+
+by noticing that the constructions on [[simplicial object]]s in [[topos]]es used there secretly precisely compute the [[derived hom-space|(∞,1)-categorical hom-objects]] of an [[(∞,1)-topos]] as presented by the [[model structure on simplicial sheaves]] on the underlying site.
+
+This and a list of other releated references and historical developments is given at
+
+* [References](#References).
+
 
 ## Tour through notions of cohomology {#Overview}
 
@@ -675,12 +695,58 @@ is another way to think of $\mathbf{H}(X,A)$.
 * [[monadic descent|Monadic cohomology]], like [[?ech cohomology]], is a way to compute [[cocycle]]s using tools from [[universal algebra]] in general and the theory of [[monad]]s in particular in the presence of extra 
 
 
-## History and references ##
+## Relation to (∞,1)-topos theory {#ToposTheory}
+
+Some of the abstract concepts in cohomology mentioned above make sense in any [[(∞,1)-category]]: we could in principle define [[cocycle]], [[characteristic class]], [[fiber sequence|long sequence in cohomology]], [[twisted cohomology]], etc. the way we did in an $(\infty,1)$-category that is not an [[(∞,1)-topos]], by defining it to be, resectively, a morphism $c : X \to A$, a morphism $\lambda : A \to B$, the [[homotopy fiber]] of $c$, the pullback along the morphism induced by postcomposition with $\lambda$, etc.
+
+Since all these concepts are so simple in the [[(∞,1)-category theory]] context, they seem to work very generally. One may therefore ask why it is that we require an $(\infty,1)$-topos structure in order to interpret these concepttually simple ingredients in terms of cohomology.
+
+There are two ways to answer this question: one is to observe that essentially all cohomology theories that have been considered do happen to have an interpretation in terms of intrinsic $(\infty,1)$-topos cohomology. This is discuss in 
+
+* [Historical aspects](ToposTheoryHistoricalAspects) .
+
+Given that, one can ask what it is _abstractly_ that we want to the notion of cohomology to do and to be, that forces the concept of $(\infty,1)$-topos on us. This is discuss in
+
+* [Abstract aspects](#ToposTheoryAbstractAspects).
+
+### Historical aspects {#ToposTheoryHistoricalAspects}
+
+
+As we have seen in the list of examples above, large numbers of examples of notions of cohomology do happen to have a natural interpretation in terms of intrinsic $(\infty,1)$-topos cohomology. There are some definitions of cohomology in the literature that are not equivalent to hom-spaces in an $(\infty,1)$-topos. But these tend to be _wrong_ definitions, as illustrated by the following example.
+
+
+In the literature there is a _naive_ definition of Lie group cohomology and and topological group cohomology, which is not interpretable in terms of hom-spaces in a more general $(\infty,1)$-category, either. But later it was found by Segal and then independently by Brylinski that there is a refinement of this definition, which is better behaved. This refinement, it turns out, does have an interpretation in terms of homs in an $(\infty,1)$-topos. This is described at [[group cohomology]].
+
+...
+
+### Abstract aspects {#ToposTheoryAbstractAspects}
+
+Apart from there being cocycles and coboundaries, in order to speak of _cohomology_ we tend to require these to do something: namely to classify something.
+
+Cocycles on some object $X do come with a notion of clasification of certain structures over $X$ in $(\infty)$-topos, as described in detail at [[principal ∞-bundle]]. As discussed in the proof there, for that classification to work, however, one needs 
+
+* [[pullback]]s, 
+
+* [[colimit]]s, 
+
+* [[universal colimits]],
+
+* [[groupoid object in an (infinity,1)-category|effective group objcts]]
+
+in the ambient [[(∞,1)-category]]. 
+
+Pullbacks are needed in order to obtain the [[principal ∞-bundle]] classified by a cocycle (as its [[homotopy fiber]]), universal colimits and effective group objects are needed in order to show that every principal $\infty$-bundle does come from a cocycle this way.
+
+But this list of properties is essentially that of the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-topos#GiraudAxioms">(∞,1)-Giraud axioms</a> that characterize those $(\infty,1)$-categories that are $(\infty,1)$-toposes.
+
+> ... needs to be expanded... 
+
+## History and references {#References}
 
 
 The general perspective on cohomology was essentially established 35 years ago in
 
-* Kenneth Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]] 
+* [[Kenneth Brown]], [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]] 
 
 and apparently known in one form or other before that.
 
@@ -719,7 +785,7 @@ This is propositon 6.5.2.1 in [[Jacob Lurie]]'s [[Higher Topos Theory]] and buil
 
 For a _motivation_ of these definitions from the point of view of cohomology as a homotopy hom-set of $\infty$-stacks see for instance the introductory pages of
 
-* Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)) .
+* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)) .
 
 The general abstract picture of cohomology as connected components of mapping spaces in [[(∞,1)-topos]]es is the topic of section 7.2.2 of
 
