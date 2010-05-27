@@ -10,7 +10,7 @@
 
 ## Definition 
 
-A [[topological space]] $X$ is **paracompact** if every open [[cover]]ing $U$ has a [[refinement]] by an open covering $V$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many open subsets in $V$ .
+A [[topological space]] $X$ is **paracompact** if every [[open cover]] $\{U_i \to X\}$ has a [[refinement]] by an open covering $\{V_j \to X\}$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many of the  open subsets $V_j$.
 
 Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well; the issues here are the same as those for [[compact space]]s.  In particular, a __paracompactum__ is a paracompact Hausdorff space.
 
