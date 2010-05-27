@@ -48,29 +48,17 @@ Testing ... $\int_{0}^{1} \sin(3t) t^2 \mathrm{dt}$.
 
 Let's quote some maths:
 
-> This is a quote
-$$
-x^2 + y^2
-$$
-This is afterwards
+I'm not sure, but I think you might be trying to make the quoting too smart. Dumber is probably better than smarter.
 
-This is after a line
+For example, instead of assuming a math mode is part of the previous quote, it might be better to assume it is not UNLESS the quote continues immediately and explicitly right after the math mode. For
 
-> This is a quote
-> $$
-x^2 + y^2
-> $$
-This is afterwards
+>Here is a quote followed by some math mode
+$$E = m c^2$$
+>To make the math mode part of the quote, it should be followed immediate by a following quote.
 
-This is after a line
-
-> This is a quote
-> $$
-> x^2 + y^2
-> $$
-This is afterwards
-
-This is after a line
+>Even if it is a blank quote line
+$$E = m c^2$$
+>
 
 category: meta
 
