@@ -99,7 +99,10 @@ Notice that this expected statement does require the assumption that $X$ is $k$-
 
 =--
 
+
 ## Truncation 
+
+### Definition
 
 Under mild conditions there is for each $n$ a universal way to send an arbitrary object $A$ to its $n$-truncation $\tau_{\leq n} A$. This is a general version of [[decategorification]] where [[k-morphism|n-morphism]]s are identified if they are connected by an invertible $(n+1)$-morphism.
 
@@ -126,17 +129,35 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
-
 This is [[Higher Topos Theory|HTT 5.5.6.18]].
 
-=--
 
 Indeed, as the notation suggests, $C_{\leq n}$ is the [[essential image]] of $C$ under $\tau_{\leq n}$. The image  $\tau_{\leq n} A$ of an object $A$ under this operation is the **$n$-truncation** of $A$.
 
+So $n$-truncated objects form a [[reflective sub-(∞,1)-category]] 
 
-### Postnikov tower
+$$
+  \tau_{\leq n} C
+  \stackrel{\overset{\tau_{\leq n}}{\leftarrow}}{\hookrightarrow}
+  C
+  \,.
+$$
+
+### Properties
+
++-- {: .un_prop}
+###### Proposition
+
+If $C$ is an [[(∞,1)-topos]], then truncation $\tau_{\leq n} : C \to C$ preserves finite [[limit in a quasi-category|products]].
+
+=--
+
+
+This is [[Higher Topos Theory|HTT, lemma 6.5.1.2]].
+
+
+
+#### Postnikov tower
 
 By the fact that the truncation functor $\tau_{\leq n}$ is a [[left adjoint]] one obtains canonical morphisms
 
@@ -161,6 +182,7 @@ $$
 is the [[Postnikov tower in an (∞,1)-category]] of $A$. See there for more details.
 
 
+
 ## Properties
 
 
@@ -173,14 +195,42 @@ For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-categor
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.6.5]].
 
+### Relation to homotopy groups {#RelationToHomotopyGroups}
 
-+-- {: .proof}
-###### Proof
+In an $(\infty,1)$-topos $C$ there is a notion of categorical [[homotopy groups in an (∞,1)-topos]]. For the $(\infty,1)$-topos [[∞Grpd]] given by the model of [[Kan complex]]es this coincides with the notion of [[simplicial homotopy groups]]:
 
-...
++-- {: .un_lemma}
+###### Observation
+
+An object $A$ in the [[(∞,1)-topos]] [[∞Grpd]] is $n$-truncated precisely if its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] $\pi_k(A)$ vanish for all $k \gt n$.
 
 =--
 
+This simple relation between $n$-truncation and categorical homotopy groups is almost, but not exactly true in an arbitrary [[(∞,1)-topos]].
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $X \in \mathbf{H}$ an $n$-truncated object.
+
+Then
+
+1. for $k \gt n$ we have for the [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] $\pi_k(A) = *$;
+
+1. if (for $n \geq 0$) $\pi_n(A) = *$, then $X$ is in fact $(n-1)$-truncated. 
+
+=--
+
+This implies 
+
++-- {: .un_corollary}
+###### Corollary
+
+If $X \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-truncated precisely if all categorical homotopy groups vanish $\pi_k(A) = *$ for $k \gt n$.
+
+=--
+
+**Notice.** If $A$ on the other hand is not truncated at all, then all its homotopy groups may be trivial and $A$ may still not be equivalent to the [[terminal object]]. This means that [[Whitehead's theorem]] may fail in a general [[(∞,1)-topos]] for untruncated objects. It holds, however, in [[hypercomplete (∞,1)-topos]]es.
 
 
 ## Examples
