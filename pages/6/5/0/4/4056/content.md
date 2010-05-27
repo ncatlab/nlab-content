@@ -90,3 +90,5 @@ A monograph stating and proving both the classical theorem and extensions to von
 The classical theorem is proved also in this monograph:
 
 * K.R. Parthasarathy: _An Introduction to Quantum Stochastic Calculus_ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0751.60046&format=complete))
+
+[[!redirects Gleason's Theorem]]
