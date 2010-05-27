@@ -41,6 +41,24 @@ So in an $(\infty,1)$-topos with enough points all $\infty$-connected morphisms 
 
 =--
 
++-- {: .un_lemma}
+###### Observation
+
+All [[geometric morphism]]s $X \to Y$ out of a hypercomplete $(\infty,1)$-topos $X$ factor through the hypercompletion $\hat Y$ of $Y$:
+
+the inclusion $\hat Y \hookrightarrow Y$ induces an equivalence
+
+$$
+  Geom(X,\hat Y) \stackrel{\simeq}{\to}
+  Geom(X,Y)
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.5.2.13]].
+
+
 
 
 ## Models
@@ -51,7 +69,94 @@ Hypercomplete [[∞-stack]] [[(∞,1)-topos]]es are precisely those that are [[p
 
 If the underlying ordinary [[category of sheaves|sheaf]] [[topos]] has [[point of a topos|enough points]], then this are equivalently the morphisms that induce [[stalk]]wise weak equivalences in the standard [[model structure on simplicial sets]].
 
-Contrary to that one can consider local models by [[Bousfield localization of model categories|left Bousfield localization]] of the global [[model structure on simplicial presheaves]] only at [[Cech cover]]s. This yield in general a non-hypercomplete $(\infty,1)$-topos.
+Contrary to that one can consider local models by [[Bousfield localization of model categories|left Bousfield localization]] of the global [[model structure on simplicial presheaves]] only at [[Cech cover]]s. This yield in general a non-hypercomplete [[(∞,1)-categories of (∞,1)-sheaves]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ [[site]], write $[C^{op}, sSet]_{inj,loc}$ for the Joyal-Jardine [[local model structure on simplicial presheaves]] (whose weak equivalence are morphisms that induce isomorphisms on homotopy-sheaves).
+
+The $(\infty,1)$-topos that this presents is the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] on $C$:
+
+$$
+  ([C^{op}, sSet]_{inj,loc})^\circ
+  \simeq
+  \widehat{ Sh_{(\infty,1)}(C)}
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.5.2.14]].
+
+
++-- {: .proof}
+###### Proof
+
+As discussed at [[(∞,1)-category of (∞,1)-presheaves]] we have that the global model structure presents the $(\infty,1)$-presheaves:
+
+$$
+  ([C^{op}, sSet]_{inj})^\circ \simeq PSh_{(\infty,1)}(C)
+  \,.
+$$
+
+For $\{U_i \to U\}$ a [[covering]] of an object in $C$, write $S(\{U_i\}) \hookrightarrow j(U)$ for the corresponding [[sieve]]/subfunctor, regarded as a simplicially constant simplicial presheaf.
+
+Observe that 
+
+1. every simplicially constant object is fibrant in $[C^{op}, sSet]_{inj}$ ;
+
+1. hence since every object is cofibrant, the morphism $S(\{U_i\}) \to j(U)$
+   is in $([C^{op}, sSet]_{inj})^\circ$;
+
+1. under the abocve identification it is an [[monomorphism in an (∞,1)-category|(∞,1)-monomorphism]] in $PSh_{(\infty,1)}(C)$.
+
+Therefore the [[topological localization]] of $PSh_{(\infty,1)}(C)$ at these monomorphisms, i.e. the [[(∞,1)-category of (∞,1)-sheaves]] on $C$ is presented by the [[Bousfield localization of model categories|left Bousfield localizaiton]] $[C^{op}, sSet]_{inj,cov}$ of $[C^{op}, sSet]_{inj}$ at these covering subfunctors.
+
+Next observe that every [[sieve]] inclusion $S(\{U_i\}) \to j(U)$ induces an isomorphism on homotopy sheaves: all homotopy sheaves in positive degree are trivial anyway, and in degree 0 they are equal, precisely because under (ordinarty) [[sheafification]] the subfunctor $S(\{U_i\})$ becomes isomorphic to $j(U)$). So these subfunctors form a proper subset of the class of weak equivalences of $[C^{op}, sSet]_{inj,loc}$.
+
+Therefore the [[Bousfield localization of model categories|left Bousfield localization]] at isos on homotopy sheaves can be done (if it exists, and we know it exists) in two steps, first localizing at just the covers, then at the isos on homotopy sheaves.
+
+The crucial observation now is that under the above identification, isos on homotopy sheaves in $[C^{op}, sSet]_{inj,loc}$ are precisely identified with the $\infty$-[[connected]] morphisms in $PSh_{(\infty,1)}(C)$. (...details...) 
+
+
+So in total we obatain the picture
+
+$$
+  \array{
+    \widehat{Sh_{(\infty,1)}(C)}
+    &
+     \stackrel{\overset{lex}{\leftarrow}}{\underset{}{\hookrightarrow}}
+    &
+    Sh_{(\infty,1)}(C)
+    &
+     \stackrel{\overset{lex}{\leftarrow}}{\underset{}{\hookrightarrow}}
+    &
+    PSh_{(\infty,1)}(C)
+    \\
+    \uparrow^{\mathrlap{\simeq}}
+    &&
+    \uparrow^{\mathrlap{\simeq}}
+    &&
+    \uparrow^{\mathrlap{\simeq}}
+    \\
+    ([C^{op}, sSet]_{inj,loc})^\circ
+    &
+    \stackrel{\overset{\mathbb{L} Id}{\leftarrow}}{\underset{\mathbb{R}Id}{\to}}
+    &
+    ([C^{op}, sSet]_{inj,cov})^\circ
+    &
+    \stackrel{\overset{\mathbb{L} Id}{\leftarrow}}{\underset{\mathbb{R}Id}{\to}}
+    &
+    ([C^{op}, sSet]_{inj})^\circ
+  }
+  \,.
+$$
+
+
+=--
+
 
 ### In classical topos theory
 
