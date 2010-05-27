@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include quasi-category theory contents]]
 </div>
@@ -38,17 +37,15 @@ The notion of *derivator* provides a way to correctly formulate such a question,
 
 Let [[Cat]] denote the [[2-category]] of [[large category|large]] [[categories]] (not necessarily even [[locally small category|locally small]]), and let $Dia$ be some 2-category of [[small categories]], thought of as **[[diagram]]s**.  One common choice is the 2-category of *all* small categories (which generates $Cat$), but we might also choose the 2-category of finite categories.  A **prederivator** with domain $Dia$ is a strict [[2-functor]]
 
-$$ Dia^{coop} \to Cat $$
+$$ Dia^{op} \overset{D}{\to} Cat $$
 
-As usual, $(-)^{coop}$ denotes the double dual of a 2-category, which reverses both 1-cells and 2-cells.  Thus, a prederivator is a "$Cat$-valued [[presheaf]]" on $Dia$.  Prederivators form a 2-category $PDer$ whose morphisms are [[pseudonatural transformations]] and whose 2-cells are [[modification]]s.
+As usual, $(-)^{op}$ denotes the 1-cell dual of a 2-category.  Thus, a prederivator is a "$Cat$-valued [[presheaf]]" on $Dia$.  Prederivators form a 2-category $PDer$ whose morphisms are [[pseudonatural transformations]] and whose 2-cells are [[modification]]s.
 
-+--{: .query}
-[[Mike Shulman]]: Is it universal to use $Dia^{coop}$ here?  It seems *much* more natural to me to use $Dia^{op}$, since we usually take limits and colimits of covariant functors, not contravariant ones.
-=--
+Another common convention is to use the double dual $Dia^{coop}$ which reverses both 1-cells and 2-cells, although confusingly sometimes in the literature this double dual is still denoted "$Dia^{op}$".  The motivation for the latter choice seems to be that then $D(A)$ is the category of "[[presheaves]] on $A$ with values in $D$" instead of the category of "[[diagrams]] of shape $A$ in $D$."  We have chosen the convention above since the main purpose of a derivator is a calculus of homotopy limits and colimits, and it is more usual to take limits and colimits of covariant functors.  However, since $Dia^{coop}$ is isomorphic to $Dia^{op}$ via the 2-functor $(-)^{op}$ (as long as $Dia$ is closed under opposite categories in $Cat$), there is really very little difference.
 
-There are two main motivating examples.  Firstly, any category $C$ defines a "representable" prederivator by the assignation $X\mapsto Hom(X^{op},C)$, sending $X\in Dia$ to the category of functors $X^{op}\to C$.  This defines an embedding of $Cat$ into $PDer$.
+There are two main motivating examples.  Firstly, any category $C$ defines a "representable" prederivator by the assignation $A\mapsto Hom(A,C)$, sending $A\in Dia$ to the category of functors $A\to C$.  This defines an embedding of $Cat$ into $PDer$.
 
-Secondly, if $C$ is any [[category with weak equivalences]], there is a prederivator $Ho(C)$ which sends $X\in Dia$ to the [[localization]]/[[homotopy category]] $Ho(C)(X)$ of $Hom(X^{op},C)$ relative to the [[model structure on functors|objectwise weak equivalences]] (as we allowed categories in $Cat$ to have large [[hom-set]]s, these localization exist).  In general, this is a non-representable prederivator, although of course if the weak equivalences are just the [[isomorphism]]s, it reduces to the representable case.  Note that to construct it, we don't need anything besides ordinary [[2-category|(2-)]][[category theory]]. 
+Secondly, if $C$ is any [[category with weak equivalences]], there is a prederivator $Ho(C)$ which sends $A\in Dia$ to the [[localization]]/[[homotopy category]] $Ho(C)(A)$ of $Hom(A,C)$ relative to the [[model structure on functors|objectwise weak equivalences]] (as we allowed categories in $Cat$ to have large [[hom-set]]s, these localization exist).  In general, this is a non-representable prederivator, although of course if the weak equivalences are just the [[isomorphism]]s, it reduces to the representable case.  Note that to construct it, we don't need anything besides ordinary [[2-category|(2-)]][[category theory]]. 
 
 ### Derivators
 
@@ -219,12 +216,12 @@ We write $Hom_!(D,D') = Der_!(D,D')$ for hom-categories in this 2-category.
 
 ### Free cocompletions
 
-Now, given a small category $X$, there is a $2$-functor, defined by evaluating at $X^{op}$
-$$Der_!\to Cat \quad , \qquad D\mapsto D(X^{op}).$$
-Note that, for any (pre)derivator $D$, the category $D(X^{op})$ is canonically equivalent to the category $Hom(X,D)$ of morphisms of *prederivators* from $X$ to $D$ (considering $X$ as a representable prederivator).  Of course, $X$ will usually not itself be a derivator, but nevertheless this $2$-functor is *representable* in the 2-category $Der_!$.
+Now, given a small category $X$, there is a $2$-functor, defined by evaluating at $X$
+$$Der_!\to Cat \quad , \qquad D\mapsto D(X).$$
+Note that, for any (pre)derivator $D$, the category $D(X)$ is canonically equivalent to the category $Hom(X,D)$ of morphisms of *prederivators* from $X$ to $D$ (considering $X$ as a representable prederivator).  Of course, $X$ will usually not itself be a derivator, but nevertheless this $2$-functor is *representable* in the 2-category $Der_!$.
 
 Thus, there exists a derivator $\widehat{X}$, endowed with a morphism of prederivators $h:X\to \widehat{X}$ (called the Yoneda embedding), such that, for any derivator $D$, composing with h defines an equivalence of categories
-$$Hom_!(\widehat{X},D)\simeq Hom(X,D)=D(X^{op}).$$
+$$Hom_!(\widehat{X},D)\simeq Hom(X,D)=D(X).$$
 In other words, the map $h:X\to \widehat{X}$ is the "free completion of $X$ by homotopy colimits" in the sense of derivators.
 
 Furthermore, $\widehat{X}$ can be described rather explicitly: it is the derivator associated to the [[model structure on simplicial presheaves|model category of simplicial presheaves]] on $X$.  In particular, the usual [[model structure on simplicial sets|homotopy theory of simplicial sets]] gives rise to the derivator $\widehat{*}$, where $*$ stands for the [[terminal object|terminal]] category.  Note that in order to conclude this, we didn't take for granted that [[homotopy type]]s should be important: its universal property is formulated purely with ordinary category theory.
