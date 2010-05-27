@@ -1,6 +1,33 @@
-#Definition#
 
-Let $F: J \to C$ be a [[diagram]] in a category $C$. 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+### As a contracted cylinder
+
+The **cone** over an [[object]] $X$ in a [[category]] with [[pushout]]s, [[terminal object]]  and with [[cylinder object]] $X \times I$ is the [[pushout]] $cone(X) := X\times I \coprod_X *$
+
+$$
+  \array{
+    X &\stackrel{d_1}{\to} & X \times I
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& cone(X)
+  }
+  \,.
+$$
+
+See also [[mapping cone]].
+
+
+
+
+### Over a diagram in a category
+
+Let $F: J \to C$ be a [[diagram]] in a [[category]] $C$. 
 
 If $c$ is an object of $C$, a **cone** from $c$ to $F$ is a [[natural transformation]] 
 $$T: \Delta(c) \to F$$ 
