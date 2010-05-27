@@ -65,7 +65,7 @@ A slightly more complicated but equivalent definition of topology is this:
 2.  $X$ itself is a union of elements of $\mathcal{O}$.
 3.  If $U,V \in \mathcal{O}$, then $U \cap V$ is contained in a union of elements of $\mathcal{O}$.
 
-Now any collection satisfying (2,3) is a __topological base__ (not necessarily saturated).
+Now any collection satisfying (2,3) is a __[[basis for a topology|topological base]]__ (not necessarily saturated).
 
 Given a topological subbase $\mathcal{O}$, we generate a base $\vec{\mathcal{O}}$ by closing under (2,3) in the first list; that is, if $\mathcal{O}$ is a topological subbase on a set $X$, then
 $$ \vec{\mathcal{O}} \coloneqq \{ \bigcap_{i=1}^n U_i \;|\; U_i \in \mathcal{O} \} $$
