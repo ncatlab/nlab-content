@@ -121,7 +121,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         3.  (none)
         4.  \* $Comp Haus Top$ is monadic
         5.  \* $Comp Haus Top A$ is monadic for $A$ a variety of algebras
-    3.  [[Gleason theorem|Gleason's Theorem]]
+    3.  [[Gleason's Theorem]]
         1.  [[projective object]]
         2.  (none)
         3.  (none)
