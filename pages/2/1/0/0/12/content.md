@@ -1,4 +1,4 @@
-This is a timeline of category theory and related mathematics.  For discussion about its aims and possible guidelines for people who wish to work on it, see the bottom.
+This is a timeline of [[category theory]] and related mathematics.  For discussion about its aims and possible guidelines for people who wish to work on it, see the bottom.
 
 
 #Timeline#
