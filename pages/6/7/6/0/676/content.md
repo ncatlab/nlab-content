@@ -1,7 +1,7 @@
 
 **[[physics]]**
 
-**[[higher category theory and physics|(higher) categegory theory and physics]]
+**[[higher category theory and physics|(higher) category theory and physics]]
 
 * [[category theory]]
 
