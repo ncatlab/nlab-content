@@ -106,7 +106,7 @@ This is a timeline of category theory and related mathematics.  For discussion a
 |1966| |[[William Lawvere]]| |[[ETAC]] (Elementary theory of abstract categories), first proposed axioms for $Cat$ or category theory using first-order logic|
 |1967| |[[Jean Bénabou]]| |[[bicategories]] (weak $2$-categories) and weak $2$-functors|
 |1967| |[[William Lawvere]]| |founds [[synthetic differential geometry]]|
-|1967| |Simon Kochen--Ernst Specker| |[[Kochen-Specker theorem]] in quantum mechanics|
+|1967| |[[Simon Kochen]]--[[Ernst Specker]]| |[[Kochen-Specker theorem]] in quantum mechanics|
 |1967| |[[Jean-Louis Verdier]]| |follwing Grothendieck's advice, defined triangulated categories and constructed [[derived categories]]; redefinition of [[derived functor]]s in terms of triangulated categories|
 |1967| |Peter Gabriel--Michel Zisman| |Famous book "Calculus of fractions and homotopy theory" sets a standard on the categorical approach to [[localization]] and axiomatizes [[simplicial homotopy theory]].|
 |1967| |[[Daniel Quillen]]| |[[Quillen model category|Quillen model categories]] and [[Quillen model functor]]s: A framework for doing homotopy theory in an axiomatic way in categories and an abstraction of [[homotopy category|homotopy categories]] in such a way that $h C = C[W^{-1}]$ where $W^{-1}$ consists of the inverted [[weak equivalence]]s of the Quillen model category $C$. Quillen model categories are homotopically complete and cocomplete, and come with a built-in [[Eckmann?Hilton duality]]|
