@@ -32,7 +32,7 @@ Although the first point seems to say that there is not a natural topology to ch
 
 Thus we are searching for a suitable family of linear functions $C^\infty(N,E) \to \mathbb{R}$.  From the characterisation of [[convenient vector spaces]], we want this family to satisfy the condition:
 
-> If $c \colon \mathbb{R} \to C^\infty(N,E)$ is a curve such that $l \circ c \colon \mathbb{R} \to \mathbb{R}$ is smooth for all $l$ in our family, then $c \in C^\infy(\mathbb{R}, C^\infty(N,E))$.
+> If $c \colon \mathbb{R} \to C^\infty(N,E)$ is a curve such that $l \circ c \colon \mathbb{R} \to \mathbb{R}$ is smooth for all $l$ in our family, then $c \in C^\infty(\mathbb{R}, C^\infty(N,E))$.
 
 This leads us to the definition of the family.
 
@@ -124,7 +124,8 @@ Now we apply the sequential compactness of $N$ to deduce that as $\hat{c}^{-1}(U
 Thus as $c$ was a generic smooth curve, $C^\infty(N,U)$ is a $0$-neighbourhood in $C^\infty(N,E)$.
 =--
 
-This result can fail if $N$ is not sequentially compact, as shown by the simplest example: $N = E = \mathbb{R}$.  For this example, the topologies involved are all the "standard" ones.  In particular, the $0$-neighbourhoods in $C^\infty(\mathbb{R},\mathbb{R})$ are defined by uniform convergence on compact subsets of $\mathbb{R}$.  Hence the set $\{f \colon \mathbb{R} \to \mathbb{R} : \abs{f(t)} \lt 1\}$ is not a $0$-neighbourhood.
+This result can fail if $N$ is not sequentially compact, as shown by the simplest example: $N = E = \mathbb{R}$.  For this example, the topologies involved are all the "standard" ones.  In particular, the $0$-neighbourhoods in $C^\infty(\mathbb{R},\mathbb{R})$ are defined by uniform convergence on compact subsets of $\mathbb{R}$.  Hence the set $\{f \colon \mathbb{R} \to \mathbb{R} : \lvert f(t)\rvert \lt 1\}$ is not a $0$-neighbourhood.
 
 ## Diffeomorphisms ##
 
+The last thing that we wish to note is that diffeomorphisms in $E$ extend to diffeomorphisms in $C^\infty(N,E)$.  That is, for $U, V \subseteq E$ open subsets (in the [[smooth topology|$c^\infty$-topology]]) and a diffeomorphism $\phi \colon U \to V$, we want to show that the induced map $C^\infty(N, U) \to C^\infty(N,V)$ is a diffeomorphism.  This follows from the functorality of the $C^\infty(N,-)$-construction.
