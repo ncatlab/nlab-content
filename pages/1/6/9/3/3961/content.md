@@ -74,7 +74,12 @@ Every uvw contains strictly more than one letter.
 +-- {: .proof}
 ###### Proof
 
-Use the above lemma and continue counting.
+Use the above lemma and continue counting:
+
+\[
+  1 + 1 = 2  \label{firstequation}
+  \,.
+\]
 
 
 =--
@@ -91,7 +96,7 @@ Every uvw contains exactly three letters.
 +-- {: .proof}
 ###### Proof
 
-Along the lines of the above proposition, we compute first $1 + 1 = 2$ and then conclude with
+Along the lines of the above proposition, we use equation \eqref{firstequation} and then conclude with
 
 $$
   2 + 1 = 3
