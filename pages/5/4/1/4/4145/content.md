@@ -1,0 +1,1 @@
+[[whiskypic.jpg:file]]
