@@ -6,8 +6,12 @@ various parts are done. A minimal template is given at the end which
 can be copy-and-pasted into newly created pages.  See [[HowTo]] for more details.
 
 category: meta
+[[!redirects template pages]]
+[[!redirects page template]]
+[[!redirects page templates]]
 
 ****
+
 
 #Contents#
 * the following line creates the automatic table of contents
@@ -167,12 +171,6 @@ The original definition appeared in section 3 of
 * FirstName LastName, _Title_ Journal ([arXiv](http://put.url/here), [pdf](http://another.url/)) .
 
 
-
-[[!redirects template pages]]
-[[!redirects page template]]
-[[!redirects page templates]]
-[[!redirects uvw]]
-
 ## Minimal Template Code ##
 
 ~~~~
@@ -192,4 +190,9 @@ The original definition appeared in section 3 of
 ## Examples ##
 
 ## References ##
+
+[[!redirects <put page name here>s]]
 ~~~~
+
+
+[[!redirects uvw]]
