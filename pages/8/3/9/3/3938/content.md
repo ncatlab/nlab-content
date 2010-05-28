@@ -115,7 +115,7 @@ This makes crucial use of the [[nPOV]] notion of [[cohomology]], as described th
 Let $\mathbf{H} = $ [[Top]] $\simeq$ [[∞Grpd]]. For $X \in \mathbf{H}$ and for $\Sigma$ a $k$-dimensional closed oriented [[manifold]], and for $K$ an [[abelian group]] that is injective as a $\mathbb{Z}$-module, we may identify transgression to the mapping space $[\Sigma,X]$ as the composite
 
 $$
-  trans_\Sigma : \mathbf{H}(X,\mathbf{B}^n)
+  trans_\Sigma : \mathbf{H}(X,\mathbf{B}^n K)
   \stackrel{[\Sigma,-]}{\to}
   \mathbf{H}([\Sigma,X], [\Sigma, \mathbf{B}^n K])
   \stackrel{(\tau_{n-k})_*}{\to}
