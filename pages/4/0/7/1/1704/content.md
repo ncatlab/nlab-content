@@ -37,7 +37,7 @@ $$
   \,.
 $$
 
-Conversely, for $G \in \mathbf{H}$ we say an object $\mathbf{B}G$ is a [[delooping]] of $\mathbf{H}$ if it has an essentially unique point and if $G \simeq \Omega \mathbf{B}G$. We call $G$ an **$\infty$-group**. More in detail, its structure as a [[groupoid object in an (∞,1)-category|group object in an (∞,1)-category]] is exhibited by the [[?ech nerve]] 
+Conversely, for $G \in \mathbf{H}$ we say an object $\mathbf{B}G$ is a [[delooping]] of $\mathbf{H}$ if it has an essentially unique point and if $G \simeq \Omega \mathbf{B}G$. We call $G$ an **[[∞-group]]**. More in detail, its structure as a [[groupoid object in an (∞,1)-category|group object in an (∞,1)-category]] is exhibited by the [[?ech nerve]] 
 
 $$
  \left(
@@ -212,9 +212,9 @@ The above shows how every cocycle $X \to \mathbf{B}G$ induces a map $P \to X$ eq
 
 +-- {: .un_defn}
 ###### Definition
-**($G$-action)**
+**(principal $G$-action)**
 
-Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. An [[action]] of $G$ on another object $V \in \mathbf{H}$ is a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $V//G \to G$ _over $G$_ in that we have a morphism of simplicial diagrams
+Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A principal [[action]] of $G$ on another object $V \in \mathbf{H}$ is a [[groupoid object in an (∞,1)-category|groupoid object in the (∞,1)-topos]] $V//G \to G$ _over $G$_ in that we have a morphism of simplicial diagrams
 
 $$
   \array{
@@ -233,10 +233,51 @@ $$
     \\
     V &\stackrel{}{\to}& {*}
   }
+  \,.
 $$
 
-such that the corresponding diagram of 
-[[homotopy colimit]]s
+We call the object with this structure of a
+[[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]], 
+or its colimit, the [[action groupoid]] of $G$ acting on $V$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+Since in the [[(∞,1)-topos]] $\mathbf{H}$ all groupoid objects are effective, this definition indeed implies the principality condition
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    V \times_X V \times_X V
+    &\stackrel{\simeq}{\to}& 
+    V \times G \times G
+    \\
+   \downarrow\downarrow\downarrow 
+    && \downarrow\downarrow\downarrow
+    \\
+    V \times_X V
+    &\stackrel{\simeq}{\to}& 
+    V \times G
+    \\
+    \downarrow\downarrow && \downarrow\downarrow
+    \\
+    V &\stackrel{}{\to}& {*}
+  }
+$$
+
+with $X := \lim_\to V \times G^\bullet$.
+
+
+=--
+
++-- {: .un_lemma}
+###### Lemma
+
+If $V \times G^\bullet $ is a principal action groupoid as above  then the
+induced diagram
 
 $$
    \array{
@@ -244,18 +285,35 @@ $$
       \\
       & \downarrow && \downarrow
       \\
-      V//G := & \lim_\to V\times G^{\times n} &\to&
-      \mathbf{B}G
+      V//G := & \lim_\to V\times G^{\times \bullet} &\to&
+      \mathbf{B}G 
    }
 $$
 
-is a [[homotopy pullback]].
-
-We call the object $V//G$ with this structure of a
-[[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] the [[action groupoid]] of $G$ acting on $V$.
+is a [[limit in a quasi-category|(∞,1)-pullback diagram]].
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Consider the [[pasting]] [[diagram]]
+
+$$
+  \array{
+    V \times_X V &\to& V &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    V &\to& X &\to& \mathbf{B}G
+  }
+  \,.
+$$
+
+The left square is a pullback by definition. By principality the top left object is $\simeq V \times G$, which says that also the outer rectangle is a pullback (as in the above lemma). Therefore by the pasting property of [[pullback]]s, also the right square is a pullback.
+
+
+=--
 
 
 +-- {: .un_def}
