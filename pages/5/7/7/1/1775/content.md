@@ -60,34 +60,83 @@ Therefore groupoid objects in an $(\infty,1)$-category play a central role in th
 Notice that one of the four characterizing properties of an [[(∞,1)-topos]] is that every groupoid object is effective. 
 
 
-## Definition
+## Definition (complete Segal-space style)
 
 
 ### Groupoid object
 
-In section 6.1.2 of
+The following definition follows in style the definition of a [[complete Segal space]] object.
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-a notion of [[groupoid]] object [[internalization|internal]] to an [[(∞,1)-category]] $\mathbf{C}$ is defined
-as [[homotopy]]-[[simplicial object]] in $\mathbf{C}$ given by an [[(∞,1)-functor]]
++-- {: .un_defn}
+###### Definition
+
+For $C$ an [[(∞,1)-category]], a **groupoid object** in $C$ is a [[simplicial object|simplicial]] [[diagram]]
 
 $$
-  C : \Delta^{op} \to \mathbf{C}
+  A : \Delta^{op} \to C
+$$ 
+
+such that for all partitions $S \cup S'$ of $[n]$ that share precisely one vertex $s$, we have that
+
+$$
+  \array{
+    A([n]) &\to & A(S)
+    \\
+    \downarrow && \downarrow
+    \\
+    A(S') &\to& A(\{s\})
+  }
 $$
 
-satisfying some conditions that make it look like the [[nerve]] of an [[internal category|internal]] [[groupoid]] (proposition 6.2.2.6 in [[Higher Topos Theory|HTT]]).
+is a [[limit in a quasi-category|pullback diagram]] in $C$. 
 
-Such a groupoid object with $C_0 = {*}$ is a group object.
+The $(\infty,1)$-category of groupoid objects in $C$ is the full [[sub-(∞,1)-category]] 
 
+$$
+  Grpd(C) \hookrightarrow Func(\Delta^{op}, C)
+$$
 
-If $C$ is the [[?ech nerve]] of a morphism $C_0 \to C_{-1}$  
+of the [[(∞,1)-category of (∞,1)-functors]] on those objects that are groupoid objects.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.1.2.6, item 4'']] with [[Higher Topos Theory|HTT, def. 6.1.2.7]].
+
++-- {: .un_def}
+###### Definition 
+
+A groupoid object $A : \Delta^{op} \to C$ is the **[[Cech nerve]]** of a morphism $A_0 \to B$ if 
+
+* $A$ is the restriction of an augmented simplicial object $A^+ : \Delta^{op}_a \to A$ with $A^*([-1] \to [0]) = A_0 \to B$;
+
+* the sub-[[diagram]]
+
+  $$
+    \array{
+      A_1 &\to& A_0
+      \\
+      \downarrow && \downarrow
+      \\
+      A_0 &\to& A_{-1}
+    }
+  $$
+  
+  of $A^+$ is a [[limit in a quasi-category|pullback]] diagram in $C$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, below prop. 6.1.2.11]].
+
+If $A$ is the [[?ech nerve]] of a morphism $A_0 \to A_{-1}$  
 then the groupoid object is [[delooping|deloopable]] in the groupoid sense.
 
-If furthermore the morphism $C_0 \to C_{-1}$ is the colimit $C_{-1} = colim_i C_i$ 
-over the groupoid object diagram (the $(\infty,1)$-analog of a [[quotient object]]), then the groupoid object is **effective** or: $C_0 \to C_{-1}$ is an **effective quotient**.
++-- {: .un_def}
+###### Definition 
 
-In an [[(∞,1)-topos]] every groupoid object has an effective quotient.
+A groupoid object $A : \Delta^{op} \to C$ is an **effective [[quotient object]]** if the [[limit in a quasi-category|colimit]] diagram $A^+ : \Delta_a^{op} \to C$ exists, such that $A$ is the [[Cech nerve]] of $A^+_0 \to A^+_{-1}$, i.e. of $A_0 \to \lim_\to A_\bullet$.
+
+=--
 
 ### Group object
 
@@ -103,6 +152,84 @@ $$
   \right)
   \,.
 $$
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+The $(\infty,1)$-category of groupoid objects in $C$ is a [[reflective sub-(∞,1)-category]]
+
+$$
+  Grpd(C)
+  \stackrel{\overset{}{\leftarrow}}{\hookrightarrow}
+  Func(\Delta^{op}, C)
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.1.2.9]].
+
+### Cech nerves
+
+Write $\Delta_a$ for the augmented [[simplex category]] (including the object $[-1]$).
+
++-- {: .un_prop}
+###### Proposition
+
+An augmented simplicial object $A^+ : \Delta_a^{op} \to C$ is the right [[Kan extension]] of its restriction to $[-1]$ and $[0]$
+
+$$
+  \array{
+    \{[-1] \leftarrow [0]\} &\stackrel{A^+|_{\leq 0}}{\to}& C
+    \\
+    \downarrow & \nearrow_{\mathrlap{A^+}}
+    \\
+    \Delta_a^{op}
+  }
+$$
+
+precisley if $A^+|_{\geq 0}$ is a groupoid object in $C$ and the [[diagram]]
+
+$$
+  \array{
+    A_1 &\to& A_0
+    \\
+    \downarrow && \downarrow
+    \\
+    A_0 &\to& A_{-1}
+  }
+$$
+
+is a [[limit in a quasi-category|pullback]] in $C$.
+
+=--
+
+### Effective quotients
+
+
++-- {: .un_prop}
+###### Proposition
+
+In $C = $ [[∞Grpd]] every groupoid object is an effective quotient. 
+
+=--
+
+This is [[Higher Topos Theory|HTT, below remark 6.1.2.15]] and [[Higher Topos Theory|HTT, cor. 6.1.3.20]].
+
+More generally, this is true for every [[(∞,1)-topos]].
+
++-- {: .un_prop}
+###### Proposition
+
+In $C$ is an [[(∞,1)-topos]], then every groupoid object in $C$ is an effective quotient. 
+
+=--
+
+This is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (4) iv)]].
+
+
 
 ## Examples
 
