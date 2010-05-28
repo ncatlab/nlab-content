@@ -38,6 +38,10 @@
 
   * [[etale cohomology]]
 
+  * [[crystalline cohomology]]
+
+  * [[syntomic cohomology]]
+
 * [[motivic cohomology]]
 
 * [[nonabelian cohomology]]
