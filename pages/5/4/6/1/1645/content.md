@@ -1,6 +1,9 @@
+
+
 <div class="rightHandSide toc">
-[[!include cohomology - contents]]
+[[!include physicscontents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -20,15 +23,15 @@ There are at least two things that are called _quantum anomalies_ in the context
 
 There are two major kinds of [[action functional]]s that may be anomalous in that they are not actually [[function]]s/[[functional]]s on the configuration space of fields, but just [[section]]s of some [[line bundle]]:
 
-* theories with fermions (see e.g. [[spinors in Yang-mills theory]])
+* theories with fermions (see e.g. [[spinors in Yang-Mills theory]])
 
 * [[gauge theory|gauge theories]] with higher degree gauge fields ([[differential cohomology|differential cocycles]] of higher degree.) 
 
 #### Fermionic anomalies
 
-The [[path integral]] for a [[quantum field theory]] with fermions can be decomposed into the integral over the fermionic dehrees of freedom follows by that over the bosonic degrees of freedom. The former, a [[Berezin integral]] is typically well defined for a fixed configuration of the bosonic fields, but does not produce a well defined function on the space of all bosonic fields: but a _twisted function_ , a section of some line bundle called a [[Pfaffian bundle]]. 
+The [[path integral]] for a [[quantum field theory]] with fermions can be decomposed into the integral over the fermionic degrees of freedom follows by that over the bosonic degrees of freedom. The former, a [[Berezin integral]] is typically well defined for a fixed configuration of the bosonic fields, but does not produce a well defined function on the space of all bosonic fields: but a _twisted function_ , a section of some line bundle called a [[Pfaffian line bundle]]. 
 
-So to even start making sense of the remaining path integral over the bosonic degree of freedom, this Pfaffian line bundle has to be trivializale. Its non-trivializty is the _fermionic anomaly_ .
+So to even start making sense of the remaining path integral over the bosonic degree of freedom, this Pfaffian line bundle has to be trivializale. Its non-trivializability is the _fermionic anomaly_ .
 
 
 #### Higher gauge-theoreric anomalies
@@ -41,12 +44,6 @@ For the moment see [[Green-Schwarz mechanism]] for more.
 ...
 
 ## Examples
-
-### Anomalous symmetry
-
-#### Conformal anomaly
-
-For the moment see [[Liouville cocycle]].
 
 ### Anomalous action functional
 
@@ -67,6 +64,15 @@ The [[sigma-model]] for a [[supersymmetry|supersymmetric]] fundamental brane on 
   * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
 
 * **Fivebrane structure** the worldvolume anomaly for the super-5-brane in [[dual heterotic string theory]] vanishes (essentially) when $X$ has [[Fivebrane structure]]. See there.
+
+
+### Anomalous symmetry
+
+#### Conformal anomaly
+
+For the moment see [[Liouville cocycle]].
+
+
 
 ## References
 
