@@ -17,7 +17,7 @@ $$
 \alpha\wedge *\beta= (\alpha|\beta)_g vol_g, \qquad \forall\alpha,\beta\in \wedge^k V^*,
 $$
 
-where $(\,|\,)$ is the nondegenerate symmetric bilinear form induced by $g$ on $\wedge^k V^*$ and $vol_g \in wedge^n V^*$ is the [[volume form]] induced by $g$.
+where $(\,|\,)$ is the nondegenerate symmetric bilinear form induced by $g$ on $\wedge^k V^*$ and $vol_g \in \wedge^n V^*$ is the [[volume form]] induced by $g$.
 
 If $e_1,\dots, e_n$ is a basis of $V$ and $e^1,\dots, e^n$ is the dual basis, so that $\alpha=\frac{1}{k!}\alpha_{i_1\dots i_k}e^{i_1}\wedge\cdots \wedge e^{i_k}$, then
 
