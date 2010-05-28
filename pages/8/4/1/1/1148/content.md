@@ -8,25 +8,27 @@
 
 ##Idea##
 
-The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf]] of abelian groups $F$ was originally defined as the value of the right [[derived functor]] of the [[global section]] functor.
+The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf]] of [[abelian group]]s $F$ was originally defined as the value of the right [[derived functor]] of the [[global section]] functor.
 
-But by embedding sheaves with values in abelian groups as special cases of [[simplicial presheaf|simplicial presheaves]] into the more general context of [[infinity-groupoid]] valued sheaves via the [[Dold-Kan correspondence]] and thus the abelian sheaf cohomology into the more general context of [[nonabelian cohomology]], this definition becomes equivalent to a special case of the general notion of [[nonabelian cohomology]] defined simply as the set of homotopy classes of maps
+But by embedding sheaves with values in abelian groups as special cases of [[simplicial presheaf|simplicial sheaves]] into the more general context of [[(∞,1)-sheaves|∞-groupoid-valued sheaves]] via the [[Dold-Kan correspondence]] and thus the abelian sheaf cohomology into the more general context of the intrinsic [[nonabelian cohomology]] of an [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(C)$, this definition becomes equivalent to a special case of the general notion of [[nonabelian cohomology]] defined simply as the set of homotopy classes of maps
 
 $$
-  H^n(X,F) = [X,\mathbf{B}^n F]
+  H^n(X,F) = \pi_0 \mathbf{H}(X,\mathbf{B}^n F)
 $$
 
-from the space $X$ regarded as a ("nonabelian"!) sheaf. 
+from the space $X$ regarded a ("nonabelian"!) sheaf, to the [[Eilenberg-MacLane object]] in degree $n$, defined by $F$. 
 
 The relation of this more conceptual and more general point of view on abelian sheaf cohomology to the original definition was originally clarified in 
 
-* K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
+* [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
 (whose proof is reproduced below). 
 
-With the modern understanding of the [[model structure on simplicial presheaves]] as a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] this says that ordinary abelian sheaf cohomology in fact computes the isomorphism classes of the [[infinity-stackification]] of a sheaf with values in complexes of abelian groups.
+Brown constructed effectively the [[homotopy category of an (∞,1)-category|homotopy category]] of $\mathbf{H}$ using a model of a [[category of fibrant objects]] paralleling the  [[model structure on simplicial presheaves]] as a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]]. This says that ordinary abelian sheaf cohomology in fact computes the equivalence classes of the [[∞-stackification]] of a sheaf with values in complexes of abelian groups.
 
-### more details on this idea ###
+The general [[(∞,1)-topos]]-theoreric perspective on cohomology is described in more detail at [[cohomology]]. The details on how to realize abelian sheaf cohomology as an example of this are discussed below.
+
+### More details on this idea ###
 
 Using the [[Dold-Kan correspondence]] in [[Higher Topos Theory|higher topos theory]], [[complex]]es of [[abelian sheaf|abelian sheaves]] can be understood as a generalization of [[topological space]]s, in a precise sense recalled below. 
 This induces a notion of cohomology of [[complex]]es of [[abelian sheaf|abelian sheaves]] from the familiar notion of cohomology of spaces.
@@ -44,7 +46,8 @@ In the 1-categorical [[model category|model theoretic models]] these hom-spaces 
 This, then, is the definition of sheaf cohomology as usually presented: the cohomology of the complex $R \Gamma(X,A)$.
 
 
-##Brown's theorem: abelian sheaf cohomology as a special case of nonabelian cohomology##
+##Brown's theorem: abelian sheaf cohomology as intrinsic (∞,1)-topos cohomology ##
+
 
 Under the [[Dold-Kan correspondence]] we have the following
 identification of sheaves taking values in [[chain complex]]es
@@ -224,6 +227,9 @@ $$
 
 * [[etale cohomology]]
 
+* [[crystalline cohomology]]
+
+* [[syntomic cohomology]]
 
 ##References##
 
@@ -237,6 +243,6 @@ Its discussion in the more general [[nonabelian cohomology]] and [[infinity-stac
 
 * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
-A discussion of the [[Čech cohomology]] description of sheaf cohomology along the above lines is in
+A discussion of the [[?ech cohomology]] description of sheaf cohomology along the above lines is in
 
 * Tibor Beke, _Higher &#268;ech Theory_ ([web](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
