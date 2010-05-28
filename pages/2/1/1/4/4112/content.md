@@ -67,7 +67,7 @@ Cantor space, especially in its guise as a subspace of the real line, is quite f
 
 *  Every compact [[metric space]] is (as a topological space) a [[quotient space]] of Cantor space.
 
-*  As a subspace of $\mathbb{R}$, the Cantor set is perfect and [[uncountable set|uncountable]] but of Lebesgue [[null set|measure zero]].
+*  As a subspace of $\mathbb{R}$, the Cantor set is perfect and [[uncountable set|uncountable]] but of [[Lebesgue measure|Lebesgue]] [[null set|measure zero]].
 
 *  The Cantor set is a precisely self-similar [[fractal]] with [[Hausdorff dimension]] $\log_3 2 \approx 0.631$.
 
