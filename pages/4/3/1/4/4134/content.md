@@ -41,4 +41,6 @@ $$
 
 where $*_g$ is the [[Hodge star operator]] defined by the Riemannian metric $g$, $R_g$ is the [[scalar curvarure]] and $d \mu_g$ is the [[volume form]].
  
-In [[conformal field theory]], the Liouville cocycle appears when one moves from genuine representations of 2-dimensional conformal cobordism to [[projective representation|projective representations]]. The obstruction for such a projective representation to be a genuine representation is precisely given by the central charge $c$; when $c\neq 0$, one says that the conformal field theory has a _conformal anomaly_.
+## In conformal field theory
+
+In [[conformal field theory]], the Liouville cocycle appears when one moves from genuine [[representation]]s of 2-dimensional conformal [[cobordism]]s to [[projective representation|projective representations]]. The obstruction for such a projective representation to be a genuine representation is precisely given by the central charge $c$; when $c\neq 0$, one says that the conformal field theory has a _conformal [[quantum anomaly|anomaly]]_.
