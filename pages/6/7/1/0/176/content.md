@@ -259,13 +259,14 @@ with some constant $C_{ij} \in \mathbb{C}$.
 
 ...
 
-## Remarks ##
+## Related entries
 
-...
+* [[Liouville cocycle]]
 
 * The target space structure corresponding to [[defect line]]s in 2d CFT are [[bi-brane]]s.
 
-...
+
+
 
 ## References ##
 
