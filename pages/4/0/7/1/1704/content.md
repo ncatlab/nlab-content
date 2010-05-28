@@ -123,7 +123,7 @@ Here the horizontal morphisms on the left are indeed equivalences, as indicated.
 +-- {: .proof}
 ###### Proof
 
-The defining [[homotopy pullback]] square for $P \times_X P$ is
+The defining [[limit in a quasi-category|(∞,1)-pullback]] square for $P \times_X$ is 
 
 $$
   \array{
@@ -135,7 +135,7 @@ $$
   }
 $$
 
-To compute this, we may attach the defining homotopy pullback square of $P$ to obtain
+To compute this, we may attach the defining $(\infty,1)$-pullback square of $P$ to obtain the [[pasting]] diagram
 
 $$
   \array{
@@ -148,7 +148,7 @@ $$
   }
 $$
 
-Since homotopy pullback squares paste to homotopy pullback squares, this says that $P \times_X P$ is the homotopy limit 
+By the [pasting law for pullbacks](http://ncatlab.org/nlab/show/pullback#Pasting), this says that $P \times_X P$ is the pullback
 
 $$
   \array{
@@ -161,7 +161,7 @@ $$
   }
 $$
 
-But again by the defnition of $P$, the lower horizontal morphism is homotopic to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also (equivalent to) the homotopy pullback
+Again by defnition of $P$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also (equivalent to) the pullback
 
 $$
   \array{
@@ -174,20 +174,61 @@ $$
   }
 $$
 
-This finally may be computed in turn as the pasting of two homotopy pullbacks
+This finally may be computed as the pasting of two pullbacks
 
 $$
   \array{
-    P \times_X P\simeq P \times G &\to& G &\to& {*}
+    P \times_X P &\simeq& P \times G &\to& G &\to& {*}
     \\
-    \downarrow && \downarrow && \downarrow
+    &&\downarrow && \downarrow && \downarrow
     \\
-    P &\to& {*} &\to& \mathbf{B}G
+    &&P &\to& {*} &\to& \mathbf{B}G
     \,.
   }
 $$
 
-of which the one on the right is the defining one of $G$ and the remaining one on the left is just a [[product]].
+of which the one on the right is the defining one for $G$ and the remaining one on the left is just a [[product]].
+
+Proceeding by induction from this case one finds analogousy that $P^{\times_X^{n+1}} \simeq P \times G^{\times_n}$: suppose this has been shown for $(n-1)$, then the defining pullback square for $P^{\times_X^{n+1}}$ is
+
+$$
+  \array{
+    P \times_X P^{\times_X^n}
+    &\to&
+    P
+    \\
+    \downarrow && \downarrow
+    \\
+    P^{\times_X^n}&\to& X
+  }
+  \,.
+$$
+
+We may again paste this to obtain
+
+$$
+  \array{
+    P \times_X P^{\times_X^n}
+    &\to&
+    P
+    &\to&
+    *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    P^{\times_X^n}&\to& X &\to& \mathbf{B}G
+  }
+$$
+
+and use from the previous induction step that
+
+$$
+  (P^{\times_X^n} \to X \to \mathbf{B}G) 
+  \simeq
+  (P^{\times_X^n} \to * \to \mathbf{B}G)
+$$
+
+to conclude the induction step with the same arguments as before.
 
 =--
 
@@ -201,9 +242,9 @@ For ordinary [[principal bundle]]s the following terminology is standard:
 
 * the morphism $P \times_X P \stackrel{}{\to} P \times G$ is the **division map**;
 
-* the fact that the division map is an equivalence is the **principality condition** on the action;
+* the fact that the division map is an equivalence is the **principality condition** on the $G$-action;
 
-* the image $\rho : P \times G \to P$ of the projection to the second factor $p_2 : P \times_X P \to P$ under this equaivelence is the **action** of $G$ on $P$.
+* the image $\rho : P \times G \to P$ under the division map of the projection $p_2 : P \times_X P \to P$ is the **[[action]]** of $G$ on $P$.
 
 =--
 
@@ -214,14 +255,14 @@ The above shows how every cocycle $X \to \mathbf{B}G$ induces a map $P \to X$ eq
 ###### Definition
 **(principal $G$-action)**
 
-Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A principal [[action]] of $G$ on another object $V \in \mathbf{H}$ is a [[groupoid object in an (∞,1)-category|groupoid object in the (∞,1)-topos]] $V//G \to G$ _over $G$_ in that we have a morphism of simplicial diagrams
+Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. A principal [[action]] of $G$ on another object $V \in \mathbf{H}$ is a [[groupoid object in an (∞,1)-category|groupoid object in the (∞,1)-topos]] $V//G \to G$ _over $G$_ in that we have a morphism of [[simplicial object]]s
 
 $$
   \array{
     \vdots && \vdots
     \\
     V \times G \times G
-    &\to& G \times G
+    &\stackrel{(p_2, p_3)}{\to}& G \times G
     \\
    \downarrow\downarrow\downarrow 
     && \downarrow\downarrow\downarrow
@@ -233,42 +274,53 @@ $$
     \\
     V &\stackrel{}{\to}& {*}
   }
-  \,.
 $$
 
-We call the object with this structure of a
-[[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]], 
-or its colimit, the [[action groupoid]] of $G$ acting on $V$.
+in $mathbf{H}$.
+
+We call the [[groupoid object in an (infinity,1)-category|groupoid object]] $(V \times G^\bullet)$ the **[[action groupoid]]** of the $G$-action on $V$. (For us it _defines_ this $G$-action.)
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-Since in the [[(∞,1)-topos]] $\mathbf{H}$ all groupoid objects are effective, this definition indeed implies the principality condition
+Since by one of the Giraud's axioms that hold in the [[(∞,1)-topos]] $\mathbf{H}$ all groupoid objects are <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Effective">effective</a> we have:
 
-$$
-  \array{
-    \vdots && \vdots
-    \\
-    V \times_X V \times_X V
-    &\stackrel{\simeq}{\to}& 
-    V \times G \times G
-    \\
-   \downarrow\downarrow\downarrow 
-    && \downarrow\downarrow\downarrow
-    \\
-    V \times_X V
-    &\stackrel{\simeq}{\to}& 
-    V \times G
-    \\
-    \downarrow\downarrow && \downarrow\downarrow
-    \\
-    V &\stackrel{}{\to}& {*}
-  }
-$$
+1. we may essentially identify the simplicial object $(V \times G^\bullet)$
+   with its [[limit in a quasi-category|(∞,1)-colimit]]
 
-with $X := \lim_\to V \times G^\bullet$.
+   $$
+     {\lim_\to}_n V \times G^{n} \;\;\; \in \mathbf{H}
+   $$
+
+   and we shall denote both by $V//G$.
+
+1. The above definition of $G$-action indeed _implies_ the principality condition
+
+   $$
+     \array{
+       \vdots && \vdots
+       \\
+       V \times_X V \times_X V
+       &\stackrel{\simeq}{\to}& 
+       V \times G \times G
+       \\
+      \downarrow\downarrow\downarrow 
+       && \downarrow\downarrow\downarrow
+       \\
+       V \times_X V
+       &\stackrel{\simeq}{\to}& 
+       V \times G
+       \\
+       \downarrow\downarrow && \downarrow\downarrow
+       \\
+       V &\stackrel{}{\to}& {*}
+     }
+   $$
+
+   where the base space $X := V//G$ is precisely the quotient object
+   in $\mathbf{H}$. This equivalence is precisely what effectivity means.
 
 
 =--
