@@ -5,7 +5,9 @@
 
 ## Definition
 
-Quite generally, in a [[category]] $C$ with [[pullback]]s (possibly [[homotopy pullback]]s), given a [[morphism]] $U \to X$ in $C$ its corresponding **&#268;ech nerve** $C(U)$ is the [[simplicial object]] in $C$ that in degree $k$ is given by the $k$-fold [[fiber product]] of $U$ over $X$ with itself :
+### In category theory
+
+In a [[category]] $C$ with [[pullback]]s (possibly [[homotopy pullback]]s), given a [[morphism]] $U \to X$ in $C$ its corresponding **&#268;ech nerve** $C(U)$ is the [[simplicial object]] in $C$ that in degree $k$ is given by the $k$-fold [[fiber product]] of $U$ over $X$ with itself :
 
 $$
   C(U) :=
@@ -17,12 +19,17 @@ $$
   \,.
 $$
 
-This mainly plays a role in the general context of the [[model structure on simplicial presheaves]], where &#268;ech covers are special cases of [[hypercover]]s. 
+
+### In $(\infty,1)$-category theory
+
+The notion of Cech nerve makes sense in any [[(∞,1)-category]] with [[limit in a quasi-category|(∞,1)-pullbacks]].
+
+See [[groupoid object in an (∞,1)-category]].
 
 
 ## Applications and occurences
 
-* The cohomology theory obtained by mapping out of &#268;ech covers instead of general [[hypercover]]s is [[Čech cohomology]].
+* The [[cohomology]] theory obtained by mapping out of [[?ech cover]]s instead of general [[hypercover]]s is [[?ech cohomology]].
 
 * A [[groupoid object in an (infinity,1)-category]] that is a &#268;ech nerve $U \to X$ exhibits $X$ as a [[delooping]].
 
@@ -36,12 +43,13 @@ This mainly plays a role in the general context of the [[model structure on simp
     \Pi_0 C(U) = \bigcup_i hom(-,U_i)
     \,.
   $$
+
   This is described in more detail in the section "Interpretation in terms of higher descent and codescent" at [[sieve]].
 
 
 [[!redirects Cech nerve]]
 [[!redirects Cech-nerve]]
-[[!redirects Čech nerve]]
-[[!redirects Čech-nerve]]
+[[!redirects ?ech nerve]]
+[[!redirects ?ech-nerve]]
 [[!redirects ?ech nerve]]
 [[!redirects ?ech-nerve]]
