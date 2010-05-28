@@ -89,16 +89,21 @@ This definition/characterization of profunctors works for internal categories as
 
 Yet another way of representing profunctors is via their [[collages]], also called [[cograph of a profunctor|cographs]].  The collage of a profunctor $H\colon C &#8696; D$ is, in particular, a category $\bar{H}$ equipped with functors $C\to \bar{H}$ and $D\to\bar{H}$ which are [[fully faithful functor|fully faithful]] and jointly bijective on objects.
 
-In fact, the objects of the [[undercategory]] $(C\sqcup D)/Cat$ which are collages of profunctors $C &#8696; D$ can be characterized, up to equivalence, as the *two-sided codiscrete cofibrations*, i.e. the two-sided discrete fibrations in $Cat^{op}$.  In simpler and more explicit language, these are the categories $M$ which contain $C$ and $D$ as disjoint full subcategories which are jointly-[[wide subcategory|wide]] (i.e. together contain all the objects), and such that there are no morphisms from an object of $C$ to an object of $D$.  Equivalently, they are the categories which admit a functor to the [[interval category]] $I$ such that $D$ is the fiber over $0$ and $C$ is the fiber over $1$.
+In fact, the objects of the [[undercategory]] $(C\sqcup D)/Cat$ which are collages of profunctors $C &#8696; D$ can be characterized, up to equivalence, as the two-sided [[codiscrete cofibrations]], i.e. the two-sided discrete fibrations in $Cat^{op}$.  In simpler and more explicit language, these are the categories $M$ which contain $C$ and $D$ as disjoint full subcategories which are jointly-[[wide subcategory|wide]] (i.e. together contain all the objects), and such that there are no morphisms from an object of $C$ to an object of $D$.  Equivalently, they are the categories which admit a functor to the [[interval category]] $I$ such that $D$ is the fiber over $0$ and $C$ is the fiber over $1$.
 
 When viewing a profunctor $H\colon C &#8696; D$ in this way, one may sometimes speak of elements of $H(d,c)$ as *heteromorphisms* from $d$ to $c$, since they are morphisms in the category $\bar{H}$ and can be "composed" with morphisms of $C$ and $D$ (this corresponds to the "action" of $C$ and $D$ on $H$ in the other formulations), but they go between objects of two different categories (namely $C$ and $D$).
 
-This characterization works just as well in both the internal and enriched case.  Perhaps surprisingly, it also tends to give the "right" notion of profunctor starting with many other, even more exotic, 2-categories.  However, it is trickier to figure out how to define the composite of profunctors viewed as codiscrete cofibrations.  References include:
+This characterization works just as well in both the internal and enriched case.  Perhaps surprisingly, it also tends to give the "right" notion of profunctor starting with many other, even more exotic, 2-categories.  However, it is trickier to figure out how to define the composite of profunctors viewed as codiscrete cofibrations; see [[codiscrete cofibration]].
 
-* [[Ross Street]], "Fibrations in bicategories"
+### Comparing fibrations and cofibrations
 
-* Carboni and Johnson and [[Ross Street|Street]] and [[Dominic Verity|Verity]], "Modulated bicategories"
+If $C \overset{g}{\to} \bar{H} \overset{f}{\leftarrow} D$ is a codiscrete cofibration representing a profunctor $H$ from $C$ to $D$, then the two-sided discrete fibration representing the same profunctor can be obtained as the [[comma category]] $(f\downarrow g)$ with its two projections to $C$ and $D$.
 
+Dually, if $C \overset{p}{\leftarrow} E \overset{q}{\to} D$ is a two-sided discrete fibration representing a profunctor from $C$ to $D$, then the codiscrete cofibration representing the same profunctor can be obtained as the [[cocomma object]] $(q\uparrow p)$ with the two inclusions of $C$ and $D$.
+
+In fact, in any 2-category with comma and cocomma objects,we have an [[adjunction]]
+$$ cocomma: Span(C,D) \;\rightleftarrows\; Cospan(C,D) : comma. $$
+One can show that comma objects are always discrete fibrations, and dually cocomma objects are always codiscrete cofibrations.  In $Cat$ and other similar 2-categories, this adjunction is [[idempotent adjunction|idempotent]] and restricts to an equivalence between the categories of discrete fibrations and codiscrete cofibrations (both of which are of course equivalent to the category of profunctors from $C$ to $D$).  This is a two-sided version of the [[Grothendieck construction]].
 
 ## Examples ##
 
