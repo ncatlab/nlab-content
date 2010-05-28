@@ -240,7 +240,7 @@ $$
   }
 $$
 
-where the equivalence is due to the fact that we have [[universal colimits]] in $PSh(C)$. This realizes $f$ as a colimit over morphisms of the form $f^* j(\Xi_k) to j(\Xi_k)$ that are each a pullback of a monomorphism. Sincemonomorphisms are stable under pullback, all these component morphisms are themselves monomorphisms.
+where the equivalence is due to the fact that we have [[universal colimits]] in $PSh(C)$. This realizes $f$ as a colimit over morphisms of the form $f^* j(\Xi_k) \to j(\Xi_k)$ that are each a pullback of a monomorphism. Sincemonomorphisms are stable under pullback, all these component morphisms are themselves monomorphisms.
 
 So every monomorphism in $S$ is generated from $S_0$, but by the assumption that $S$ is topological, it is itself entirely generated from monomorphisms, hence is generated from $S_0$.
 
