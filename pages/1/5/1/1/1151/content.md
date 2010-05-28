@@ -409,6 +409,8 @@ Classes of special cases of cohomologies with their own entries include
 
   * [[etale cohomology]]
 
+  * [[crystalline cohomology]]
+
 * [[motivic cohomology]]
 
 * [[nonabelian cohomology]]
