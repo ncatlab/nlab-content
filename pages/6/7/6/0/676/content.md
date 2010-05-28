@@ -53,13 +53,15 @@
   
   * [[quantum mechanics in terms of dagger-compact categories|in terms of ∞-compact categories]]
 
+  * [[quantum information]]
+
   * [[Hamiltonian operator]]
 
   * [[density matrix]]
 
-  * [[quantum information]]
+  * [[Kochen-Specker theorem]]
 
-  * [[open quantum systems]]
+  * [[Gleason's theorem]]
 
 * **[[quantization|Quantization]]**
 
@@ -71,7 +73,6 @@
 
   * [[semiclassical approximation]]
 
-
 * **[[quantum field theory|Quantum Field Theory]]**
 
   * Axiomatizations
@@ -82,14 +83,17 @@
 
       * [[local net]]
 
+      * [[Wightman axioms]]
+
       * [[Osterwalder-Schrader theorem]]
 
+      * [[spin-statistics theorem]]
 
     * [[FQFT|functorial QFT]]
 
       * [[(∞,n)-category of cobordisms]]
 
-      * [[cobordism hypothesis]]
+      * [[cobordism hypothesis]]-theorem
 
   * Tools
 
@@ -131,14 +135,16 @@
       * examples
         * [[electromagnetic field]]
         * [[Yang-Mills field]]
+
+          * [[Yang-Mills theory]]
+
+          * [[spinors in Yang-Mills theory]]
+
         * [[Kalb-Ramond field]]
         * [[supergravity C-field]]
         * [[RR field]]
         * [[D'Auria-Fre formulation of supergravity]]
         * [[gravity as a BF-theory]]
-    * [[Yang-Mills theory]]
-
-      * [[spinors in Yang-Mills theory]]
 
     * [[sigma-model]]
 
