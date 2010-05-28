@@ -165,6 +165,7 @@ Now, given such a square as above and $i\in I$, $j\in J$, we write $(i/L/j)$ for
 $$\big(\ell\in L,\, i\overset{\alpha}{\to} p(\ell),\, q(\ell)\overset{\beta}{\to} j\big).$$
 The morphisms of $(i/L/j)$ are morphisms $\gamma\colon \ell \to \ell'$ in $L$ which make the evident triangles commute.  Now there is a functor $r\colon (i/L/j) \to K(u(i),v(j))$ (the latter considered as a discrete category), which sends the above triple to the composite
 \[ u(i) \overset{u(\alpha)}{\to} u(p(\ell)) \overset{\mu}{\to} v(q(\ell)) \overset{v(\beta)}{\to} v(j) \label{commacomp}\]
+
 in $K$.
 
 +-- {: .un_theorem}
@@ -271,7 +272,11 @@ Derivators were also recently used by [[Gonçalo Tabuada]] in a universal charac
 
 * Gon&#231;alo Tabuada, "Higher K-theory via universal invariants" [arXiv](http://arxiv.org/abs/0706.2420).
 
-An informal discussion of derivators as a 2-categorical too for studying $(\infty,1)$-categories is at
+An introduction to some of the theory of pointed and stable derivators, in English, can be found in the paper:
+
+* [[Denis-Charles Cisinski]] and Amnon Neeman, "Additivity for derivator K-theory", [MR](http://www.ams.org/mathscinet-getitem?mr=2382732)
+
+An brief informal discussion of derivators as a 2-categorical tool for studying $(\infty,1)$-categories is contained in
 
 * [[Mike Shulman]], _Squeezing Higher Categories out of Lower Categories_ ([blog](http://golem.ph.utexas.edu/category/2010/05/squeezing_higher_categories_ou.html))
 
