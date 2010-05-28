@@ -697,7 +697,7 @@ is another way to think of $\mathbf{H}(X,A)$.
 
 ## Relation to (∞,1)-topos theory {#ToposTheory}
 
-Some of the abstract concepts in cohomology mentioned above make sense in any [[(∞,1)-category]]: we could in principle define [[cocycle]], [[characteristic class]], [[fiber sequence|long sequence in cohomology]], [[twisted cohomology]], etc. the way we did in an $(\infty,1)$-category that is not an [[(∞,1)-topos]], by defining it to be, resectively, a morphism $c : X \to A$, a morphism $\lambda : A \to B$, the [[homotopy fiber]] of $c$, the pullback along the morphism induced by postcomposition with $\lambda$, etc.
+Some of the abstract concepts in cohomology mentioned above make sense in any [[(∞,1)-category]]: we could in principle define [[cocycle]], [[characteristic class]], [[fiber sequence|long sequence in cohomology]], [[twisted cohomology]], etc. the way we did in an $(\infty,1)$-category that is not an [[(∞,1)-topos]], by defining it to be, respectively, a morphism $c : X \to A$, a morphism $\lambda : A \to B$, the [[homotopy fiber]] of $c$, the pullback along the morphism induced by postcomposition with $\lambda$, etc.
 
 Since all these concepts are so simple in the [[(∞,1)-category theory]] context, they seem to work very generally. One may therefore ask why it is that we require an $(\infty,1)$-topos structure in order to interpret these concepttually simple ingredients in terms of cohomology.
 
@@ -723,7 +723,7 @@ In the literature there is a _naive_ definition of Lie group cohomology and and 
 
 Apart from there being cocycles and coboundaries, in order to speak of _cohomology_ we tend to require these to do something: namely to classify something.
 
-Cocycles on some object $X do come with a notion of clasification of certain structures over $X$ in $(\infty)$-topos, as described in detail at [[principal ∞-bundle]]. As discussed in the proof there, for that classification to work, however, one needs 
+Cocycles on some object $X$ do come with a notion of clasification of certain structures over $X$ in $(\infty)$-topos, as described in detail at [[principal ∞-bundle]]. As discussed in the proof there, for that classification to work, however, one needs 
 
 * [[pullback]]s, 
 
@@ -791,7 +791,7 @@ The general abstract picture of cohomology as connected components of mapping sp
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-Notice that the discussion there is, as often in the literature, given from the perspectiv of a [[petit topos]], i.e. where one thinks of the [[(∞,1)-topos]] $\mathcal{X}$ as that of [[∞-stack]]s on a given [[space]] $X$ (instead of as a [[gros topos]] of _all_ generalized spaces, as we do in the above entry). Accordingly then from that perspective one wants to study the cohomology of $X$ itself, which corresponds to the [[terminal object]] in the $(\infty,1)$-topos. Accordingly, the cohomology in that section 7.2.2 is defined for the terminal coefficient object and for an [[Eilenberg-MacLane object]] $K(A,n)$:
+Notice that the discussion there is, as often in the literature, given from the perspective of a [[petit topos]], i.e. where one thinks of the [[(∞,1)-topos]] $\mathcal{X}$ as that of [[∞-stack]]s on a given [[space]] $X$ (instead of as a [[gros topos]] of _all_ generalized spaces, as we do in the above entry). Accordingly then from that perspective one wants to study the cohomology of $X$ itself, which corresponds to the [[terminal object]] in the $(\infty,1)$-topos. Accordingly, the cohomology in that section 7.2.2 is defined for the terminal coefficient object and for an [[Eilenberg-MacLane object]] $K(A,n)$:
 
 $$
   H^n(\mathcal{X},A) := \pi_0\mathcal{X}({*}, K(A,n))
