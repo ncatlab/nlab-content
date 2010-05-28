@@ -103,7 +103,7 @@ Therein Brown considers essnetially the [[model structure on simplicial presheav
 
 One can then understand various "cohomology theories" as nothing but tools for _computing_ $\pi_0 \mathbf{H}(X,A)$ using the known presentations of [[(∞,1)-categorical hom-space]]s: for instance [[?ech cohomology]] computes these spaces by finding cofibrant models for the domain $X$, called [[?ech nerve]]s. Dual to that, most texts on [[abelian sheaf cohomology]] find fibrant models for the codomain $A$: called injective resolutions. Both algorithms in the end compute the same intrinsically defined $(\infty,1)$-categorical hom-space.
 
-In other words, [[abelian sheaf cohomology]] is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]] (hence also [[deRham cohomology]], ...), or [[etale cohomology]], ... You name it.
+In other words, [[abelian sheaf cohomology]] is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]], [[deRham cohomology]], [[etale cohomology]], [[crystalline cohomology]], [[syntomic cohomology]], etc. You name it.
 
 But this also shows that abelian sheaf cohomology itself is just a very special case of cohomology in an $\infty$-stack $(\infty,1)$-topos: the [[stable (infinity,1)-category|stable]] or _maximally abelian_ case. For coefficient objects $A \in \mathbf{H}$ that are not maximally abelian (for instancce not degreewise in the image of the [[Dold-Kan correspondence]] for sheaf cohomology) the cohomology of an $\infty$-stack topos is a [[nonabelian cohomology]]. 
 
@@ -410,6 +410,8 @@ Classes of special cases of cohomologies with their own entries include
   * [[etale cohomology]]
 
   * [[crystalline cohomology]]
+
+  * [[syntomic cohomology]]
 
 * [[motivic cohomology]]
 
