@@ -12,7 +12,7 @@ A derivator $D\colon Dia^{op} \to Cat$ is **pointed**, or has a **zero object**,
 
 ## Properties
 
-### Extra adjoints to sieve extensions
+### Extraordinary inverse images
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -20,6 +20,8 @@ A derivator $D$ is pointed if and only if whenever $u\colon I\to J$ is a [[sieve
 =--
 
 The "if" direction of this is easy, since $u\colon \emptyset \to J$ is always a sieve, while $u_*\colon * \to U(J)$ assigns the terminal object of $D(J)$.  Thus, if $u_*$ has a further right adjoint, it must preserve colimits, and in particular its value must be an initial object (as well as a terminal one).  The converse is a "super-difficult" excercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf).
+
+These functors are sometimes referred to as *extraordinary* and *co-extraordinary inverse image* functors.
 
 
 ### Loop and suspension
@@ -33,6 +35,13 @@ and $\Gamma$ its full subcategory on $\{a,b,c\}$.
 Similarly, we have a [[loop space]] functor $\Omega\colon D 1 \to D 1$ defined as the composite
 $$ D 1 \overset{d_!}{\to} D \Gamma^{op} \overset{bcd_*}{\to} D \square \overset{a^*}{\to} D 1.$$
 where $\Gamma^{op}$ is the full subcategory of $\square$ on $\{b,c,d\}$.  One can verify that $\Sigma \dashv \Omega$; this also follows from the considerations below.
+
+In terms of the extraordinary inverse images, suspension can be defined as $\Sigma = t^? s_*$ and loop as $\Omega = s^! t_!$, where $s$ and $t$ are respectively the inclusion of $0$ and $1$ in the [[interval category]] $I = (0\to 1)$.  With this definition they are obviously adjoint.
+
++--{: .query}
+Presumably knowing the construction of the extraordinary inverse images would make clear that this definition is the same as the previous one.
+=--
+
 
 ### Relative diagram categories
 
