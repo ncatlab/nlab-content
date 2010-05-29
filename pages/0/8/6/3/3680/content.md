@@ -181,4 +181,15 @@ Section 4.1 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
+[[!redirects cofinal (infinity,1)-functor]]
 [[!redirects cofinal (∞,1)-functor]]
+[[!redirects cofinal (infinity,1)-functors]]
+[[!redirects cofinal (∞,1)-functors]]
+[[!redirects final (infinity,1)-functor]]
+[[!redirects final (∞,1)-functor]]
+[[!redirects final (infinity,1)-functors]]
+[[!redirects final (∞,1)-functors]]
+[[!redirects initial (infinity,1)-functor]]
+[[!redirects initial (∞,1)-functor]]
+[[!redirects initial (infinity,1)-functors]]
+[[!redirects initial (∞,1)-functors]]
