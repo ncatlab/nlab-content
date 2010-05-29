@@ -19,7 +19,7 @@ One of the most refined 1-categorical approximations to the context in which suc
 
 ## Entries on concepts in homological algebra ##
 
-* [[additive and abelian categories]], [[chain complex]], [[derived category]], [[triangulated category]], [[A-infinity category]], [[differential graded category]], [[stable infinity-category]], [[projective object]], [[derived functor]], [[injective object]]
+* [[additive and abelian categories]], [[chain complex]], [[derived category]], [[triangulated category]], [[A-infinity category]], [[differential graded category]], [[stable infinity-category]], [[projective object]], [[derived functor]], [[injective object]], [[five lemma]], [[snake lemma]], [[nonabelian homological algebra]], [[satellite]]
 
 
 ## References ##
@@ -34,7 +34,7 @@ One of the most refined 1-categorical approximations to the context in which suc
 
 * S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
 
-* [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
+* [[Jacob Lurie]], _Derived algebraic geometry I: [[Stable Infinity-Categories]]_, [math.CT/0608228](http://www.arXiv.org/abs/math.CT/0608228)
 
 * Springer Online Encyclopeadia of Mathematics: [homological algebra](http://eom.springer.de/H/h047710.htm)
 
@@ -42,22 +42,4 @@ One of the most refined 1-categorical approximations to the context in which suc
 
 * Charles Weibel, _A history of homological algebra_, [dvi](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
 
-
-## Discussion ##
-
-A previous version of this entry had triggered the following discussion:
-
-+-- {+ .query}
-_Zoran_: with this viewpoint objects are more important than  the task of defining derived functors; at least for many practioners the main task is to define derived versions of
-non-exact maps; measuring non-exactiness or if you like correcting it by total derived functors whenever necessaty. 
-Of course, it si srot in linearized contexts, that is why homotopical algebra is kind of subsuming the first. I hope some wording can incorporate the othe rpoint of view as well. Nonabelian homological algebra of Bourn, Borceux, Janlidze and others can not be done within homotopy theory, so there are generalization which are more categorical less 
-homotopical in nature. That is why they invented "protomodular categoriews", "homological categories", "semiabelian categories" and so on it seems to me (plus lookoing for setups for osme phenomena in universal algebra). So the natural setup for homological algebra is not necessarily within homotopical context. if it is then the stabel point of view above is correct. 
-
-
-[[Tim Porter|Tim]]: I would support a different wording as well. The above does not make clear that, say, group (co)homology or Lie algebra (co)homology might be considered as subclasses of 'homological algebra'.  It also does not really include the crossed homological algebra that Ronnie has developed.  There is also the point, which sometime I will make more precise, that homological algebra is a linearised version of homotopical algebra and that there are crossed, quadratic and so on versions intermediate between the two.  
-
-I am also slightly worried by too much emphasis on 'stable' as this can be a 'weasel word' like 'progress'!
-
-[[Urs Schreiber|Urs]]: please feel free to improve and expand on the wording! 
-
-=--
+* Francis Borceux, Dominique Bourn, [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]], Mathematics and Its Applications __566__, Kluwer 2004 
