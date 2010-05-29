@@ -8,3 +8,4 @@ Historically, identity elements (as above) came first, then [[identity function]
 
 
 [[!redirects identity]]
+[[!redirects identities]]
