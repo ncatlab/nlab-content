@@ -644,6 +644,15 @@ Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjun
 =--
 
 
+#### Motivic cohomology
+
+[[motivic cohomology|Motivic cohomology]] is the cohomology of
+the [[(∞,1)-topos]] of [[∞-stack]]s on the [[Nisnevich site]],
+usually restricted to coefficient objects that are 
+[[spectrum object|stable]] and [[A1-homotopy theory|A1-homotopy]]
+invariant.
+
+
 #### Hochschild and cyclic cohomology
 
 [[Hochschild cohomology]] 
@@ -655,14 +664,15 @@ There is a natural [[action]] of the circle $S^1$ on
 the [[free loop space object]] $\mathcal{L}X$ and the corresponding $S^1$-[[equivariant cohomology]] is [[cyclic cohomology]].
 
 
+#### Algebraic K-theory
 
-#### Motivic cohomology
+[[K-theory]] in its general form of [[algebraic K-theory]] is a way of turning a [[stable (∞,1)-category]] (which may be the [[derived category]] induced by an [[abelian category]] or [[Quillen exact category]]) into a [[spectrum]].
 
-[[motivic cohomology|Motivic cohomology]] is the cohomology of
-the [[(∞,1)-topos]] of [[∞-stack]]s on the [[Nisnevich site]],
-usually restricted to coefficient objects that are 
-[[spectrum object|stable]] and [[A1-homotopy theory|A1-homotopy]]
-invariant.
+Accordingly, an [[∞-stack]] with values in srable $(\infty,1)$-categories induces a spectrum valued $\infty$-stack after passing to its K-theory. Homming objects $X$ into these spectrum-valued $\infty$-stacks then produces the corresponding **K-cohomology** of $X$.
+
+This, too, goes back all the way to [[BrownAHT]], where in the second part the homotopy categories of spectrum-valued $\infty$-stacks is considered.
+
+...
 
 
 ## Tools for computing cohomology
