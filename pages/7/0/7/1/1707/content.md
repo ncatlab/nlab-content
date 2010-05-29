@@ -391,7 +391,7 @@ We now show that this is the correct cohomology theory, in that it computes the 
 +-- {: .un_prop }
 ###### Claim
 
-The Lie group cohomology $H^n(G,A)$ used in [Bry](http://arxiv.org/abs/math/0011069) is the intrinsic cohomology of the object $\mathbf{B}G$ in the [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$ of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on [[CartSp]]:
+The Lie group cohomology $H^n(G,A)$ used in [Bry](http://arxiv.org/abs/math/0011069) is the [[cohomology|intrinsic cohomology]] of the object $\mathbf{B}G$ in the [[(∞,1)-topos]] of [[∞-Lie groupoid]]s $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$, i.e. of the [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on [[CartSp]]:
 
 $$
   H^n_{diff}(G,A) \simeq \pi_0 Sh_{(\infty,1)}(CartSp)(\mathbf{B}G, \mathbf{B}^n A)
@@ -401,77 +401,11 @@ $$
 =--
 
 +-- {: .proof}
-###### Proof (roughly)
+###### Proof 
 
-To derive the explicit formulas in the literature, model $\mathbf{H}$ by the local _projective_ [[model structure on simplicial presheaves]] on [[CartSp]]. 
+The proof is spelled out at [[∞-Lie groupoid]].
 
-Fibrant objects are the Kan-complex valued objects that satisfy [[descent]] ob object of $CartSp$. By the special natur of the site [[CartSp]],  that descent condition is pretty trivial. For $A$ an abelian Lie group, $\mathbf{B}^n A $ satisfies descent on every $\mathbb{R}^n$: every $A$-[[principal infinity-bundle|principal n-bundle]] on the contractible $\mathbb{R}^n$ is equivalent to the trivial one.
-
-So for $G$ a Lie group, it remains to find a cofibrant replacement $Q(\mathbf{B}G)$ for $\mathbf{B}G$. With that in hand we have that the Lie group cohomology of $G$ is
-
-$$
-  H^p(G,A) = \pi_0 sPSh(Q(\mathbf{B}G), \mathbf{B}^n A)
-  \,.
-$$
-
-To find that cofibrant replacement, recall from the discussion of cofibrant objects in the projective model structure over $CartSp$ at [[model structure on simplicial presheaves]] that these are in particular given by _good covers_ : simplicial objects that are degreewise coproducts of representables such that in each degree the degenerate part splits off as a direct summand.
-
-To obtain this, write first
-
-$$
-  \mathbf{B}G = \int^{n} \Delta[n]\cdot(\mathbf{B}G)_n 
-  = \int^n \Delta[n] \cdot G^{n}
-  \,.
-$$ 
-
-By the [[Bousfield-Kan map]] this is weakly equivalent to
-
-$$
-  \simeq \int^n \mathbf{\Delta}[n] \cdot G^{n}
-$$ 
-
-with $\mathbf{\Delta}[n] = N(\Delta/[n])$, as described there.
-
-Then choose for each $p$ a good cover $U^{(p)} = \{U^{(p)}_{j_p}\}$. Let $C(U^{(p)})$ be the [[Cech nerve]] of this cover. This is a simplicial presheaf weakly equivalent to $G^p$. The representable $G^p$ are cofibrant as are the [[Cech nerve]]s of their good covers, and the left [[Quillen bifunctor]] $\int (-)\cdot (-) : [\Delta,sSet] \times [\Delta^{op}, sPSh(Cart)]_{proj} \to sPSh(C)$ preserves weak equivalences between cofibrant objects (with the cofibrant $\mathbf{\Delta} : \Delta \to sSet$ fixed), so we have
-
-$$
-  \cdots \simeq \int^n \mathbf{\Delta}[n] \cdot C(U^{(p)})
-  \,.
-$$
-
-Again by the [[Bousfield-Kan map]] this is
-
-$$
-  \simeq \int^n \Delta[n] \cdot C(U^{(p)})
-  \,.
-$$
-
-This is objectwise the realization of a [[bisimplicial set]] which, as described there, is the diagonal
-
-$$
-  \simeq diag( C(U^{(\bullet)})_\bullet )
-  \,.
-$$
-
-Since this is now degreewise a coproduct of representables and  still haas degeneracies being direct summands, this is cofibrant in $sPsh(CartSp)_{proj}^{loc}$. 
-
-So we find that the correct Lie group cohomology is given by
-
-$$
-  H^p(G,A) = \pi_0 sPSh( diag( C(U^{(\bullet)})_\bullet ), \mathbf{B}^n A )
-  \,.
-$$
-
-By the [[Eilenberg-Zilber theorem]] this is the cohomology of the total complex of abelian groups given by the double complex $C^\infty(U^{(\bullet)}_\bullet, A)$:
-
-$$
-  \cdots \simeq H^n Tot C^\infty(U^{(\bullet)}_\bullet, A)
-  \,.
-$$
-
-And this, finally, is indeed the definition of the smooth group cohomology $H^n_{diff}(G,A)$ of $G$ as given by Blanc, as for instance, in [Bry 2000, page 4](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=4).
-
-=--
+=---
 
 There is an evident morphism
 
