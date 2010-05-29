@@ -17,8 +17,10 @@ There is also an axiomatic definition of satellites and their relation to [[deri
 
 There are generalizations to non-[[additive category|additive categories]]. See
 
-* G. Z. Janelidze, On satellites in arbitrary categories, Bull. Georgian Acad. Sci. 82 (1976), no. 3, 529-532, in Russian, with a reprint translated in English at [arXiv:0809.1504](http://front.math.ucdavis.edu/0809.1504).
+* [[George Janelidze|G. Z. Janelidze]], On satellites in arbitrary categories, Bull. Georgian Acad. Sci. 82 (1976), no. 3, 529-532, in Russian, with a reprint translated in English at [arXiv:0809.1504](http://front.math.ucdavis.edu/0809.1504).
 
 for early work; and also in a bit different setup recent
 
-* A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91. 
+* [[Alexander Rosenberg|A. Rosenberg]], [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91. 
+
+[[!redirects satellites]]
