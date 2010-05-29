@@ -268,7 +268,7 @@ _Exercise: why is adherence to "speak no evil" necessary for Axiom 5 to be reaso
 
 ### Applications of collection
 
-One thing that Axiom 5 is good for is the recursive construction of sets.  For example, using Axioms 1-4 we can construct the sets $N$, $P(N)$, $P(P(N))$, and so on, but we cannot construct anything larger than all the sets in this sequence.  Axiom 5 allows us to do that.
+One thing that Axiom 5 is good for is the recursive construction of sets.  For example, using Axioms 1--4 we can construct the sets $N$, $P(N)$, $P(P(N))$, and so on, but we cannot construct anything larger than all the sets in this sequence.  Axiom 5 allows us to do that.
 
 (more detail to be added here...)
 
@@ -285,15 +285,15 @@ This is easily seen to be equivalent to asserting that all surjections are [[spl
 
 ## Constructive SEAR ##
 
-Axioms 1-5 of SEAR make perfect sense whether the ambient logic is [[classical logic|classical]] or [[intuitionistic logic|constructive]].  By Diaconescu's argument, Choice implies the logic is classical.
+Axioms 1--5 of SEAR make perfect sense whether the ambient logic is [[classical logic|classical]] or [[intuitionistic logic|constructive]].  By Diaconescu's argument, Choice implies the logic is classical.
 
-To obtain a [[predicative mathematics|predicative]] theory, Axiom 3 can be replaced by an appropriate weaker axiom, such as the existence of [[disjoint union]]s, [[quotient set]]s, and/or [[function sets]], or a structural version of the axiom of [[subset collection]].
+To obtain a [[predicative mathematics|predicative]] theory, Axiom 3 can be replaced by an appropriate weaker axiom, such as the existence of [[disjoint unions]] and [[quotient sets]].  If desired, we can also add [[function sets]] or even a structural version of the axiom of [[subset collection]]; as usual, function sets, subset collection, and power sets are all equivalent using classical logic.
 
 Compare [[Erik Palmgren]]\'s [constructive ETCS](http://www.math.uu.se/~palmgren/cetcs.pdf).
 
 ## Bounded SEAR and ETCS ##
 
-By **bounded SEAR** we mean the subtheory consisting of axioms 2-4 of SEAR plus
+By **bounded SEAR** we mean the subtheory consisting of axioms 2--4 of SEAR plus
 
 **Axiom 1B (Bounded relational comprehension):** _The same as Axiom 1, but the property $P$ must be bounded (it can only involve quantifiers over elements, not sets or relations)._
 
@@ -357,45 +357,6 @@ One can also write down stronger axioms on a topos such that if they are satisfi
 
 ## SEPS: Using pairs and subsets instead of relations
 
-+-- {: .query}
-This looks nice, and I think that it probably matches pretty closely the way that I usually think when reading ordinary mathematics.  I haven\'t read it very carefully yet, so take this with a grain of salt, but I think that it would be even more user-friendly to use sets, elements, and *subsets* (rather than binary relations) as the basic concepts.  Presumably you have to throw in ordered pairs too, but I think that this matches 'ordinary' language *very* closely.  ---Toby
-
-_Mike_: Yes, you're right, and I did think of something like that.  However, I haven't managed to find a good way to "throw in ordered pairs."  I'd like an axiom like "for any sets $A$ and $B$, there exists a set $A\times B$ such that ..." but what comes after "such that?"  With only sets, elements, and subsets as the other data, there's no way to relate the elements of $A\times B$ to the elements of $A$ and $B$.
-
-I guess one possible approach would be to make the construction of products an *operation*, rather than an existential axiom.  Then for every pair of sets $A$ and $B$ there would be a *specified* set $A\times B$, and for every pair of elements $x\in A$ and $y\in B$ there would be a *specified* element $(x,y)\in A\times B$, with an axiom asserting that every element of $A\times B$ is of the form $(x,y)$ for a unique $x$ and $y$.  I suppose we do tend to think more in terms like that, but it's less aesthetically pleasing to me because it's not really "structural" to specify a particular $A\times B$.  So now I'm undecided.
-
-_Toby_:  I don\'t see what\'s unstructural about that!  Although I think that we\'ve had this conversation before ....
-
-[[Mike Shulman]]: It feels unstructural because the element $(x,y)$ is no longer internally featureless; it has the intrinsic property of being the pair of $x$ and $y$.  I see "structural" as meaning that, among other things, isomorphic objects are indistinguishable; but with that approach, the selected product $A\times B$ is distinguishable from any other product.  (Additionally, in some metatheories it requires choice to get from one to the other.)
-
-I also feel that maybe viewing relations $A\looparrowright B$ as subsets of $A\times B$ is merely a habit ingrained in us by material set theory over the course of the 20th century, and thus something that structural set theory should try to wean us from.
-
-_Toby_:  I don\'t see how you would distinguish $A \times B$ from any other isomorphic object if you have no way to express that it equals *the* $A \times B$ in question.  More generally, strucuturalism to me isn\'t about using existential quantifiers all the time instead of operations.  In fact, I don\'t see how this is any different from your set $|\varphi|$.  (Possibly I should write SESAP out in full to make sure it does all work the same way.)  And the metatheories that think that they require choice to get an operation out of an existential statement have formalised things wrong; they should be using meta-anafunctors between the (syntactic or model) meta-categories.
-
-I also don\'t see what\'s material about conflating $A \looparrowright B$ with $\mathcal{P}(A \times B)$.  It\'s no different, really, from making $A \to B$ a part of $A \looparrowright B$.  Personally, I *prefer* to take sets and functions as the basic concepts; I saw $\mathbf{SEAR}$ as an attempt to make a structural theory that looks more like the na&#239;ve set theory that mathematicians use (but perhaps I misjudged the idea), and I think that making unary relations basic will be even more like that.  Really, any of these concepts (function, binary relation, unary relation) have a good claim for being a basic concept that should be axiomatised directly, rather than defined in terms of one of the others, and it\'s a fairly arbitrary choice which one we use.
-
-[[David Roberts]]: ...it makes sense to me that we probe the interior of a set by how it relates to other sets, and that we find out about the elements of a set by how it relates to the one-point set. But the aim seems to be useability by everyday mathematicians. That being said, this material seems easier to learn as a first approach to foundations (for undergraduates/early postgrads) than ZF or NBG, requiring less cruft to get to proving theorems.
-
-
-[[Mike Shulman]]: You're right that the given $A\times B$ couldn't be distinguished *in the theory itself* from any other product, but I think it would still clearly have a special status.  Also, it is definitely different from $|\varphi|$.   The tabulation axiom is a purely existential statement; it could be viewed as an "operation" from relations to tabulations, but nothing forces you to view it this way.  (And you can only avoid meta-choice by calling such an operation an anafunctor once you've *proven*, in the theory, that tabulations are unique up to unique isomorphism.)  By contrast, the product axiom would be irreducibly an operation; you can't (at least, I don't see how to) make it purely existential, because it is the *only* part of the theory that relates elements of different sets.  The product can only be characterized uniquely using "projection" functions, but in order to have functions you need relations, hence you need products....
-
-My original idea with SEAR was merely to give a proof-of-concept that structural set theory can be formalized with elements and without functions or categories.  But it does turn out looking much more like the set theory that mathematicians actually use, and making it even more so would definitely be a plus to getting structural set theory adopted more widely, which I'm all about.  Moreover, David's comment about it being easier to learn as a first approach to foundations is also an interesting point that I hadn't really thought about, and for that purpose subsets and pairs might also be better.  And I do admit that the tabulation axiom looks a little cumbersome; breaking it down into pairing and separation does feel cleaner.
-
-It also makes it look much more like type theory!  Which I suppose is not a bad thing.  Bounded SESAP will basically *be* the internal type theoretic language of a topos with NNO, and that's actually a really *good* thing; it will make internal logic feel more natural to anyone who is familiar with structural-set-theory foundations.
-
-I went ahead and had a go at a formalization using products down at the bottom of the page.  I have to say that "SESAP" doesn't ring as well.  (-:  But I think we could still call it SEAR even if the "relations" aren't quite a fundamental concept.  (Although if someone has a better name to suggest, I'm still listening.)  Actually, we could probably use the same name for all the different formalizations, explicitly allowing people the choice of whether to take functions or binary-relations or subsets+products as primary.  Everyone says "ZF" despite variations in the phrasing of the axioms, so the name of a theory doesn't have to be rigidly tied to a specific way of stating it.
-
-_Toby_:  I was going to call my version 'SEAPS' until I realised that the 'A' was in the wrong place ...
-
-[[David Roberts]]: How about SER and SEPS? And then SER-C and SEPS-C.
-
-[[Mike Shulman]]: I like SEAR better than SER, but SEPS isn't too bad.  Although I'd also still rather not make a big deal about the difference between the two.
-
-[[Mike Shulman]]: And actually, Subsets are just unary Relations.  So the version with subsets and products is also a theory of "sets, elements, and relations"---it's just that since it only uses unary relations, it also needs product operations on its sets and elements.
-
-_Toby_:  Well, yeah, but you\'ve been using 'relation' to mean a [[binary relation]], so I used another term.  But if one is naming an entire system, that may not matter.
-=--
-
 An alternate formulation of the theory, suggested by Toby, has four primitive notions: sets, elements, subsets, and a pairing operation.  Sets and elements are as before.  A *subset* is, like an element, attached to a certain set; it is always a subset *of* some set.  Thus we have a typing declaration $S\subseteq A$.  We also have a primitive notion of when an element $x\in A$ *belongs to* a subset $S\subseteq A$; thus now we have $x\in S$ as a possible assertion of the theory (analogous to $R(x,y)$ before).  We allow a typed equality predicate for subsets.  Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$.
 
 **Axiom 0** is the same as before.
@@ -416,7 +377,7 @@ Applying separation to subsets of $A\times B$ and composing $i$ with the product
 
 As stated SEAR includes a fundamental "equality" relation on elements of a given set.  However, we can also make equality into *structure*.  This is definitely not along the "more accessible to undergraduates" direction!  But it may sometimes be technically helpful.
 
-Consider a theory of *pre-sets*, *elements*, and *pre-relations* as in SEAR, with "pre-sets" replacing sets, except that there is no given equality relation on *anything*.  Axiom 0 requires no modification. In Axiom 1, we reinterpret the "uniqueness" clause as a *definition* of what it means for two parallel pre-relations to be equal, i.e. $\varphi=\psi$ if $\varphi(x,y)\Leftrightarrow\psi(x,y)$ for all $x$ and $y$ in the source and target of $\varphi$ and $\psi$.
+Consider a theory of *[[pre-sets]]*, *elements*, and *pre-relations* as in SEAR, with "pre-sets" replacing sets, except that there is no given equality relation on *anything*.  Axiom 0 requires no modification. In Axiom 1, we reinterpret the "uniqueness" clause as a *definition* of what it means for two parallel pre-relations to be equal, i.e. $\varphi=\psi$ if $\varphi(x,y)\Leftrightarrow\psi(x,y)$ for all $x$ and $y$ in the source and target of $\varphi$ and $\psi$.
 
 Before stating the version of Axiom 2 we need some definitions.  We define a **set** to be a preset $A$ equipped with an [[equivalence relation|equivalence pre-relation]] $=_A$.  A **relation** between sets $(A,{=_A})$ and $(B,{=_B})$ is a pre-relation $\varphi:A\looparrowright B$ which is *extensional* in the sense that if $\varphi(x,y)$, $x'=_A x$, and $y'=_B y$, then $\varphi(x',y')$.  Finally, a **function** $f:(A,{=_A}) \to (B,{=_B})$ is a relation which is (a) *[[entire relation|entire]]:* for any $x\in A$, there is a $y\in B$ with $f(x,y)$, and (b) *[[functional relation|functional]]:* if $f(x,y)$ and $f(x',y')$ and $y=_B y'$, then $x=_A x'$.
 
