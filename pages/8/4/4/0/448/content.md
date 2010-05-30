@@ -86,7 +86,7 @@ This is as best as I can make out from reading Wikipedia. The definition looks r
 
 * The $E_8$ [[E8 manifold|manifold]] does not admit a triangulation, much less a PL structure. 
 
-* In dimensions $n \geq 5$, the $(n-2)$-fold suspension of the [[Poincare sphere]] is homeomorphic to the $n$-sphere, hence is triangulable, but it does not admit a PL structure. 
+* In dimensions $n \geq 5$, the $(n-2)$-fold suspension of the [[Poincaré sphere]] is homeomorphic to the $n$-sphere, hence is triangulable, but it does not admit a PL structure. 
 
 #### Relation to simplicial sets
 
