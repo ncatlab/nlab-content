@@ -8,7 +8,7 @@ In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axi
 
 In elementary terms, COSHEP states that for every set $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]]. (Note that the full axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with algebra (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of constructivism, we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
 
-As in homological algebra, an object $P$ in a category $C$ is projective iff the hom-functor 
+As in homological algebra, an object $P$ in a category $C$ is (externally) projective iff the hom-functor 
 
 $$C(P, -): C \to Set$$ 
 
