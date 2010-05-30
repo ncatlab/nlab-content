@@ -1,3 +1,4 @@
+[[!redirects Poincare sphere]]
 The **Poincar&#233; sphere** is a "fake" 3-dimensional sphere: it is a smooth 3-dimensional manifold which has the same homology as the usual 3-sphere, but which is not homeomorphic to it. 
 
 Specifically, it is obtained as $SO(3)/I$ where $I$ is the icosahedral group of rotations (the subgroup of rotations which stabilize an icosahedron). 
