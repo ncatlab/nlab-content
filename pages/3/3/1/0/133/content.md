@@ -48,7 +48,7 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 
 There are a number of weaker axioms which are implied by the full axiom of choice.  Some of these are valid or accepted more generally than the full AC, and/or suffice for some of the usual applications of choice.
 
-* Many applications of choice in [[logic]], [[topology]], and [[algebra]] require only the [[ultrafilter principle]], or equivalently the *Boolean prime ideal theorem*.
+* Many applications of choice in [[logic]], [[topology]], and [[algebra]] require only the [[ultrafilter principle]] (UF), or equivalently the *Boolean prime ideal theorem*.
 
 * From the perspective of [[constructive mathematics]], the principle of [[excluded middle]] (EM) may be seen as a form of the axiom of choice; EM is equivalent to the statement that every [[Kuratowski-finite set]] is projective.
 
@@ -72,7 +72,7 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 
 * The [[axiom of determinacy]] is a natural statement in [[game theory]] that proves dependent choice but contradicts the full AC.
 
-* The assumption that every subset of the [[real line]] is [[Lebesgue measure|measurable]] is consistent with DC but not AC; it leads to a very nice setting for analysis called a [[dream universe]].
+* The assumption that every subset of the [[real line]] has the [[Baire property]] (BP) is consistent with DC but not AC; the same holds for the assumption that every subset of the real line is [[Lebesgue measure|measurable]] (LM) if at least one [[Grothendieck universe]] exists.  These assumptions leads to a very nice setting for analysis called [[dream mathematics]].
 
 * Any of the varieties of [[constructive mathematics]] that contradict excluded middle necessarily contradict choice, but they tend to be consistent with COSHEP.
 
@@ -81,7 +81,9 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 
 [[HAF|Eric Schechter's analysis book]] surveys several variants of AC and its negation with a view to applications of analysis, including this nice picture:
 
-![xxx](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/acchart.gif)
+![a Hasse diagram of variants of AC.](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/acchart.gif)
+
+(Here, UF, DC, CC, BP, and LM are as defined above.)
 
 
 ## See also
