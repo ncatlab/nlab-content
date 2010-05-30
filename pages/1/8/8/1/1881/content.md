@@ -86,9 +86,13 @@ $$ \array {
                  & {}_{push_A}\searrow &                                      & \nearrow_{pop_A} &                                       & \searrow^{push_A + id_I} \\
                  &                     & S_A                                  &                  & \underset{\iota_{S_A \otimes A,I}}\to &                          & S_A + I
    } $$
+The idea is that $push_A$ and $pop_A$ are as close to [[inverse morphism|inverses]] as reasonably possible, but $pop_A$ takes us to $S_A \otimes A + I$ rather than to $S_A \otimes A$, because of the empty stack.
 
-...
+Queues are a little more complicated.  An object of __queues__ on $A$ is an object $Q_A$ equipped with morphisms $ins_A\colon A \otimes Q_A \to Q_A$ and $rem_A\colon Q_A \to Q_A \otimes A + I$.  These operations are far from inverses, whereas popping a stack returns the last item to be pushed onto it, removing an item from a queue returns the *first* item to have been inserted into it.
 
++-- {: .query}
+What are the diagrams for this?  I seem to recall that we need a [[distributive category]]; in particular, we need a [[cartesian monoidal category]], so that $\otimes$ is $\times$.  But perhaps a [[2-rig]] will be sufficient?
+=--
 
 
 [[!redirects list]]
@@ -96,7 +100,11 @@ $$ \array {
 [[!redirects empty list]]
 [[!redirects concatenation]]
 [[!redirects cons]]
+
 [[!redirects free monoid]]
 [[!redirects free monoid functor]]
 [[!redirects free monoid monad]]
 [[!redirects list monad]]
+
+[[!redirects queue]]
+[[!redirects queues]]
