@@ -33,7 +33,8 @@ So, a __list__ is either the __empty list__ or the __cons__ (short for 'construc
 *  $a:b:c:()$,
 *  etc.
 
-Here, $a, b, c, \ldots$ are elements of $S$.  We may continue the 'etc' as far as we like, but no farther; while there are lists of arbitrarily long finite length, there are no lists of infinite length.  (We would get such lists, however, if we interpreted the definition [[corecursion|corecursively]].)  We normally abbreviate the lists above as follows:
+Here, $a, b, c, \ldots$ are elements of $S$.  We may continue the 'etc' as far as we like, but no farther; while there are lists of arbitrarily long finite length, there are no lists of infinite length.  (We would get such lists, however, if we interpreted the definition [[corecursion|corecursively]], known in computer science as a [[stream]].)  We normally abbreviate the lists above as follows:
+
 *  $()$,
 *  $(a)$,
 *  $(a,b)$,
@@ -41,6 +42,7 @@ Here, $a, b, c, \ldots$ are elements of $S$.  We may continue the 'etc' as far a
 *  etc.
 
 We still must define the monoidal structure on $S^*$; we define the __concatenation__ $x * y$ of $x$ and $y$ recursively in $x$.  To be explicit:
+
 *  $() * y = y$;
 *  $(a:x) * y = a:(x * y)$ (with parentheses for grouping, but the parentheses can be dropped now that have this definition).
 
@@ -71,14 +73,30 @@ The list monad bears the same relation to [[multicategories]] as the [[identity 
 
 ## Foundational relevance
 
-Every definition of free monoid makes use of some form of [[axiom of infinity]], either $\mathbf{N}$ directly or the ability form general inductive types.  Indeed, as $\mathbf{N} = pt^*$, the axiom of infnity follows from the existence of free monoids.
+Every definition of free monoid makes use of some form of [[axiom of infinity]], either $\mathbf{N}$ directly or the ability to form general inductive types.  Indeed, as $\mathbf{N} = pt^*$, the axiom of infinity follows from the existence of free monoids.
+
+
+## Stacks and queues
+
+In [[computer science]], lists often appear as _stacks_ (not to be confused with the [[stacks]] from higher sheaf theory) and _queues_.
+
+Fix a [[monoidal category]] that has [[coproducts]] with the [[unit object]] $I$.  Given an [[object]] $A$, an object of __stacks__ on $A$ is an object $S_A$ equipped with [[morphisms]] $push_A\colon S_A \otimes A \to S_A$ and $pop_A\colon S_A \to S_A \otimes A + I$ such that these diagrams commute:
+$$ \array {
+   S_A \otimes A &                     & \overset{\iota_{S_A \otimes A,I}}\to &                  & S_A \otimes A + I \\
+                 & {}_{push_A}\searrow &                                      & \nearrow_{pop_A} &                                       & \searrow^{push_A + id_I} \\
+                 &                     & S_A                                  &                  & \underset{\iota_{S_A \otimes A,I}}\to &                          & S_A + I
+   } $$
+
+...
+
 
 
 [[!redirects list]]
+[[!redirects lists]]
 [[!redirects empty list]]
 [[!redirects concatenation]]
 [[!redirects cons]]
+[[!redirects free monoid]]
 [[!redirects free monoid functor]]
 [[!redirects free monoid monad]]
 [[!redirects list monad]]
-[[!redirects lists]]
