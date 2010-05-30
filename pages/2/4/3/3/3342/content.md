@@ -91,6 +91,7 @@ with Tomita's Modular Theory", ([ESI preprint page] (http://www.esi.ac.at/prepri
 =--
 
 
+[[!redirects Haag-Kastler approach]]
 [[!redirects Haag-Kastler axioms]]
 [[!redirects Haag-Kastler axiom]]
 [[!redirects Haag–Kastler axioms]]
