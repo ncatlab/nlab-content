@@ -215,16 +215,6 @@ At this point, the reader could be forgiven for thinking that we have cleverly p
 
 As Todd pointed out, this is a special case of the [[Chu construction]]; the poset of disjoint pairs in $X$ is $Chu_{TV}(P X, \empty)$, where $TV$ is the [[enriched category|enriching]] category of [[truth value]]s.
 
-+--{.query} 
-_Todd_: This is interesting; it smells like a decategorified version of the [[Chu construction]], which takes a pair $(C, d)$ consisting of a symmetric monoidal category $C$ and an object $d$ therein, and produces a [[*-autonomous category]] whose objects are triples $(a, b, f: a \otimes b \to d)$, and whose dualizing object is $(d, I, d \otimes I \cong d)$ where $I$ is the monoidal unit. But I should think about it a bit more. 
-
-_Toby_:  Ah, so $C$ is the power set of $X$, $d$ is the empty set, and $\otimes$ is intersection, so we have $(A, B, A \cap B \subseteq \empty)$.  And (even constructively) $C$ is even a bi-complete closed monoidal category, that is (in this decategorified, truth-value enriched case) a complete Heyting algebra.  So we really are looking at $Chu(P X, \empty)$ here.  And let\'s see ... the internal hom $(A,B) \multimap (C,D)$ comes out to $((A \Rightarrow C) \cap (D \Rightarrow B), A \cap D) = ((A \cup D) \Rightarrow (B \cup C)), A \cap D)$, which comes with tensor tensor product $(A,B) \otimes (C,D) = (A \cap C, (A \Rightarrow D) \cap (C \Rightarrow B)) = (A \cap C, (A \cup C) \Rightarrow (B \cup D))$.
-
-Too bad that these operations don\'t seem to be relevant; if they\'d been $\setminus$ or $\uplus$ instead, then I\'d have been pretty pleased.  Still, $(A,B) \multimap [\empty] = (B,A) = \neg(A,B)$, so everything can be nicely described with that structure if we want.
-
-I was worried for a bit, since $Chu(P X, \empty)$ isn\'t constructively cartesian closed (although it is classically).  But intersection is not the relevant monoidal structure anymore.
-=--
-
 
 #### The $\sigma$-semi-algebra of complemented pairs
 
@@ -246,9 +236,9 @@ Given two Cheng measurable spaces $X$ and $Y$, an __almost function__ from $X$ t
 
 Cheng measurable spaces and measurable functions between them form a [[topological concrete category]]. 
 
-### In dream universes
+### In dream mathematics
 
-While measure theory only gets more complicated in constructive mathematics, it becomes much easier in [[dream universe|dream mathematics]].
+While measure theory only gets more complicated in constructive mathematics, it becomes much easier in [[dream mathematics]].
 
 ... more coming ...
 
