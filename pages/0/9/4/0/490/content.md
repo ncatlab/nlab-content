@@ -14,11 +14,12 @@ $$C(P, -): C \to Set$$
 
 takes epis to epis. This is the same as saying: given an epi $p: B \to A$ and a map $f: P \to A$, there exists a lift $g: P \to B$ in the sense that $f = p \circ g$. 
 
+
 ## Consequences
 
 As an axiom, this has important consequences for algebra; there, one often uses the axiom of choice to prove that categories of modules have enough projectives, on the grounds that the [[free functor|free]] modules are projective. But COSHEP is sufficient; while not every free module will be projective, one can still use COSHEP to find a [[projective resolution]] for every free module (and thus for every module).
 
-Another important consequence is the axiom of [[dependent choice]], and thus also of [[countable choice]], under the mild extra assumption that the terminal object is projective. 
+Another important consequence is the axiom of [[dependent choice]], and thus also of [[countable choice]], at least if we assume that the [[singleton]] (the [[terminal object]] in [[Set]]) is projective. 
 
 +-- {: .proof}
 ######Proof 
@@ -59,11 +60,12 @@ COSHEP also implies several weaker forms of choice, such as the [[axiom of multi
 Although perhaps not well known in the literature of [[constructive mathematics]], this axiom may be justified by the sort of reasoning usually accepted (except in the school of Fred Richman) to justify the axioms of countable choice and dependent choice (which it implies, as above). To be explicit, every set $A$ should have a 'completely presented' set of 'canonical' elements, that is elements given directly as they are constructed without regard for the [[equality relation]] imposed upon them. For canonical elements, equality is identity, so the BHK interpretation of logic justifies the axiom of choice for a completely presented set. This set is $P$, and $A$ is obtained from it as a [[quotient set|quotient]] by the relation of equality on $A$. This argument can be made precise in many forms of [[type theory]] (including those of Martin-L&#246;f and Thierry Coquand), which thus justify COSHEP, much as they are widely known to justify dependent choice.
 
 
-## In topos theory 
+## In topos theory
+{#topos}
 
 When working in the [[internal logic]] of a [[topos]], the "internal" meaning of COSHEP is "every object is covered by an [[internally projective object]]."  (Compare with the internal axiom of choice: every object is internally projective.)  Since every projective object is internally projective, if the topos itself has enough projectives, then it must satisfy internal COSHEP.
 
-For example, any [[presheaf]] topos has enough projectives, since any coproduct of representables is projective, and therefore it validates internal COSHEP.  In contrast, any topos that violates countable choice, of which there are plenty, must also violate internal COSHEP.
+For example, any [[presheaf]] topos has enough projectives, since any coproduct of representables is projective, and therefore it validates internal COSHEP.  In contrast, any topos that violates countable choice, of which there are plenty, must also violate internal COSHEP.  (Note that the terminal object of any topos is *internally* projective, so the proof above that COSHEP implies CC goes through.)
 
 An interesting example of a topos that has enough projectives and thus does satisfy internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]].  The reason for this is quite similar to the intuitive justification for COSHEP given above.
 
