@@ -1,0 +1,7 @@
+In [[computer science]], a __stream__ is a finite or infinite sequence, distinguished from a [[list]] (necessarily finite) or a [[sequence]] (usually assumed infinite).
+
+Let $A$ be a [[set]] (or [[object]] of any [[category]] $C$ where the following makes sense).  Consider the [[functor]] from [[Set]] (or $C$) to itself that maps $X$ to $X \times A + 1$, where $1$ is the [[singleton]] set (or [[terminal object]] of $C$) and $+$ is the operation of [[disjoint union]] (or [[coproduct]] in $C$).  Then the [[initial algebra]] $A^*$ of this functor is the [[free monoid]] (or free monoid object in $C$) on $A$, which is well known.  Less well known is the [[final coalgebra]] $A_*$ of this functor; it is the set (or object) of __streams__ on $A$.
+
+Classically, $A_* = A^* + A^{\mathbb{N}}$, where $N$ is the set of [[natural numbers]], in [[Set]].  In other categories, as well as in $Set$ in [[constructive mathematics]], this need not hold.  Intuitively, we cannot necessarily decide whether a given stream is a finite list or an infinite sequence until we reach the end, and we may never reach the end.  (Of course, if we *know* that we will never reach the end, then we know that it is infinite, but we do not know this just because we haven't reached the end so far.)
+
+An [[extended natural number]] is an element of $1_*$.  Classically, such an element is either a [[natural number]] or [[infinity]].
