@@ -8,12 +8,48 @@ In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axi
 
 In elementary terms, COSHEP states that for every set $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]]. (Note that the full axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with algebra (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of constructivism, we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
 
+As in homological algebra, an object $P$ in a category $C$ is projective iff the hom-functor 
+
+$$C(P, -): C \to Set$$ 
+
+takes epis to epis. This is the same as saying: given an epi $p: B \to A$ and a map $f: P \to A$, there exists a lift $g: P \to B$ in the sense that $f = p \circ g$. 
 
 ## Consequences
 
 As an axiom, this has important consequences for algebra; there, one often uses the axiom of choice to prove that categories of modules have enough projectives, on the grounds that the [[free functor|free]] modules are projective. But COSHEP is sufficient; while not every free module will be projective, one can still use COSHEP to find a [[projective resolution]] for every free module (and thus for every module).
 
-Another important consequence is the axiom of [[dependent choice]], and thus also of [[countable choice]]. To prove dependent choice (over a set $A$) from COSHEP, take the usual diagram for the universal property of a [[natural numbers object]] and interpret the arrows as [[entire relation]]s rather than functions. Take a projective resolution $P \to A$, note that a surjective function is the reverse of an entire relation, and replace entire relations out of the projective sets $1$ and $P$ with functions. This gives us (by [[recursion]]) the required function $N \to P \to X$.
+Another important consequence is the axiom of [[dependent choice]], and thus also of [[countable choice]], under the mild extra assumption that the terminal object is projective. 
+
++-- {: .proof}
+######Proof 
+Let $X$ be inhabited, so there exists an [[entire relation]] given by a jointly monic span 
+
+$$1 \stackrel{epi}{\leftarrow} U \stackrel{f}{\to} X,$$ 
+
+and similarly let 
+
+$$X \stackrel{epi \pi_1}{\leftarrow} R \stackrel{\pi_2}{\to} X$$ 
+
+be an [[entire relation|entire binary relation]]. Let $p: P \to X$ be a projective cover. Since $1$ is assumed projective, the cover $U \to 1$ admits a section $\sigma: 1 \to U$, and the element $f \sigma: 1 \to X$ lifts through $p$ to an element $x_0: 1 \to P$. Next, in the diagram below, $p$ lifts through the epi $\pi_1$ to a map $q: P \to R$, and then $\pi_2 q$ lifts through $p$ to a map $\phi$ (since $P$ is projective): 
+
+$$\array{
+ & & P  & \stackrel{\phi}{\to} & P \\
+ & \swarrow p & \downarrow q & & \downarrow p \\
+X & \underset{\pi_1}{\leftarrow} & R & \underset{\pi_2}{\to} & X
+}$$
+
+By the universal property of $\mathbb{N}$ (see [[recursion]]), there exists a unique map $h: \mathbb{N} \to P$ rendering commutative the diagram 
+
+$$\array{
+1 & \stackrel{0}{\to} & \mathbb{N} & \stackrel{s}{\to} & \mathbb{N} \\
+id \downarrow & & \downarrow h & & \downarrow h \\
+1 & \underset{x_0}{\to} & P & \underset{\phi}{\to} & P \\
+ & \swarrow p & \downarrow q & & \downarrow p \\
+X & \underset{\pi_1}{\leftarrow} & R & \underset{\pi_2}{\to} & X
+}$$
+
+Clearly $\langle p h, p h s \rangle : \mathbb{N} \to X \times X$ factors through $\langle \pi_1, \pi_2 \rangle : R \to X \times X$, i.e., $\forall_{n: \mathbb{N}} (p h(n), p h(n+1)) \in R$, thus proving that dependent choice holds under COSHEP. 
+=-- 
 
 COSHEP also implies several weaker forms of choice, such as the [[axiom of multiple choice]] and [[WISC]].  In [[predicative mathematics]], it can be combined with the existence of [[function sets]] to show the [[subset collection]] axiom.
 
