@@ -23,7 +23,7 @@ $$
   \lim_{\to} ( K' \stackrel{p}{\to} K \stackrel{F}{\to} C)  
 $$
 
-when either of these [[colimit]]s exist. 
+when either of these [[colimit]]s exist.
 
 ## Definition
 
@@ -112,7 +112,7 @@ This is [[Higher Topos Theory|HTT, cor. 4.1.2.6]].
 
 
 
-## Properties
+## Properties {#Properties}
 
 +-- {: .un_prop}
 ###### Proposition 
@@ -193,3 +193,15 @@ Section 4.1 of
 [[!redirects initial (∞,1)-functor]]
 [[!redirects initial (infinity,1)-functors]]
 [[!redirects initial (∞,1)-functors]]
+[[!redirects homotopy final functor]]
+[[!redirects homotopy final functors]]
+[[!redirects homotopically final functor]]
+[[!redirects homotopically final functors]]
+[[!redirects homotopy cofinal functor]]
+[[!redirects homotopy cofinal functors]]
+[[!redirects homotopically cofinal functor]]
+[[!redirects homotopically cofinal functors]]
+[[!redirects homotopy initial functor]]
+[[!redirects homotopy initial functors]]
+[[!redirects homotopically initial functor]]
+[[!redirects homotopically initial functors]]
