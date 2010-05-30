@@ -1,0 +1,4 @@
+The classical set theory, the axiom of **dependent choice** (DC) states that if $X$ is a nonempty (inhabited) set and if $R$ is a total binary relation on $X$, then there exists a sequence $x: \mathbb{N} \to X$ such that $(x_n, x_{n+1})$ belongs to $R$ for all $n \in \mathbb{N}$. In ZF, it is strictly weaker than the full axiom of choice, but strictly stronger than the axiom of countable choice. It is called _dependent_ choice because the available choices for $x_{n+1}$ depend on the choice of $x_n$ made at the previous stage. 
+
+Typical applications of dependent choice include K&#246;nig's theorem and the Baire category theorem for complete metric spaces. For a number of schools of constructive mathematics, dependent choice is considered an acceptable alternative to full AC, and the principle holds in quite a few toposes of interest to categorical logicians. 
+ 
