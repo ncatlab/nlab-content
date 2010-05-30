@@ -1,6 +1,6 @@
 ## Idea 
 
-If $G$ is a topological group, a _Haar measure_ is a translation-invariant measure on the [[Borel set]]s of $G$. The archetypal example of Haar measure is the Lebesgue measure on $\mathbb{R}^n$. 
+If $G$ is a [[topological group]], a _Haar measure_ is a translation-invariant measure on the [[Borel set]]s of $G$. The archetypal example of Haar measure is the [[Lebesgue measure]] on the [[cartesian space]] $\mathbb{R}^n$. 
 
 ## Definition 
 
