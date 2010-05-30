@@ -38,6 +38,8 @@ The basic assumption of the Haag--Kastler approach is that everything that can b
 
 Unlike the [[Wightman axioms]], the Haag--Kastler axioms do not need the notion of "[[physical field|field]]": the fields in the Wightman axioms are -- from the Haag--Kastler point of view -- only necessary to describe how the algebras of observables are constructed; any way to consistently construct the net of algebras would suffice.
 
+It is possible to prove both a [[spin-statistics theorem]] and a [[PCT theorem]] in the Haag-Kastler approach. The mathematically precise, model independent statements and their proofs are considered to be a major breakthrough of the theory.
+
 ## Example: Causal Nets of Operator Algebras on Minkowski Spacetime
 The nLab has a page with a specific choice of axioms and an exposition of some of their consequences here: [[Haag-Kastler vacuum representation]]
 
