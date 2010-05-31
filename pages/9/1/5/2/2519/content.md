@@ -3,7 +3,10 @@
 
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
+***
+[[!include topos theory - contents]]
 </div>
+
 
 #Contents#
 
