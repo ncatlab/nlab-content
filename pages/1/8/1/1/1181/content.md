@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+
 # Natural numbers object
 * tic
 {: toc}
