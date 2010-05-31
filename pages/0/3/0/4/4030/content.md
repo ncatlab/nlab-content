@@ -95,5 +95,15 @@ $$
 exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[Set]] as being the [[localization]] of $E$ at those morphisms that induce isomorphisms of connected components.
 
 
+## Examples {#Examples}
 
+* For $X$ a [[topological space]], the [[category of sheaves]] $Sh(X) := Sh(Op(X))$ is a locally connected topos precisely if $X$ is a [[locally connected space]]. The functor $\Pi_0$ sends a sheaf $F \in Sh(X)$ to the set of connected components of the coresponding [[etale space]].
+
+* For $C = $ [[CartSp]] the [[site]] of [[Cartesian space]] with their [[good open cover]] [[coverage]], we have that $Sh(CartSp)$ is locally connected.  An arbitrary $X \in Sh(CartSp)$ is sent to the [[colimit]] $\lim_\to X \in Set$. If $X$ is a [[diffeological space]] or even a [[smooth manifold]], then this is the set of connected components of the underlying topological space.
+
+* Generally, if $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sheaves]], then the left adjoint $\Pi_0$ exists and is given by the colimit functor, by the defining property of the colimit as a left [[Kan extension]] of presheaves.
+
+
+
+=--
 [[!redirects locally connected topoes]]
