@@ -17,9 +17,9 @@ A **natural numbers object** (NNO) in a topos is an [[object]] that behaves in t
 
 ##Definition
 
-### In a topos
+### In a topos or CCC
 
-A **natural numbers object** in a [[topos]] (or any [[cartesian closed category]]) $E$ with [[terminal object]] is 
+A **natural numbers object** in a [[topos]] (or any [[cartesian closed category]]) $E$ with [[terminal object]] $1$ is 
 
 * an [[object]] $\mathbb{N}$ in $E$ 
 
@@ -101,7 +101,7 @@ There are interesting cases in which such sheaf toposes contain objects that loo
 
 ## Properties
 
-Let $(f^* \dashv f_*) : F \stackrel{\overset{f^*}{\leftarrow}}{\overset{f_*}{\to}} E$ is a [[geometric morphism]] of toposes. If $N \in E$ is a natural numbers object, then $f^* N$ is a natural numbers object in $F$. ([[Elephant|Elephant, lemma 4.1.14]]).
+Let $(f^* \dashv f_*) : F \overset{f^*}\underset{f_*}\leftrightarrows E$ be a [[geometric morphism]] of toposes. If $N \in E$ is a natural numbers object, then $f^* N$ is a natural numbers object in $F$. ([[Elephant|Elephant, lemma 4.1.14]]).
 
 
 
