@@ -43,6 +43,10 @@
 
     * [[type theory]]
 
+    * [[subobject classifier]]   
+
+    * [[natural numbers object]]
+
 * [[quasitopos]]
 
 
@@ -65,6 +69,10 @@
 * [[connected topos]]
 
 * [[localic topos]]
+
+* [[classifying topos]]
+
+* [[smooth topos]]
 
 ## Cohomology and homotopy
 
