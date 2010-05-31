@@ -386,6 +386,11 @@ following
 
 and effectively rediscovers Segal's definition.
 
+See section 4 of
+
+* [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+
+for a review and applications.
 
 +-- {: .un_defn}
 ###### Definition
