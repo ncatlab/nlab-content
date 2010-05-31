@@ -275,6 +275,8 @@ As every [[(∞,1)-topos]], $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$ comes with it
 
 #### With constant coefficients
 
+We discus the [[cohomology|intrinsic cohomology]] of $\mathbf{H}$ with _constant_ coefficients, i.e. coefficients that are [[constant (∞,1)-sheaf|constant (∞,1)-sheaves]] on [[CartSp]].
+
 +-- {: .un_theorem }
 ###### Theorem
 
@@ -304,24 +306,43 @@ Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjun
 =--
 
 
-#### Differential cohomology of Lie groups
+#### Cohomology of Lie groups {#CohomologyOfLieGroups}
 
-Let $G$ be an ordinary [[Lie group]], regarded as a group object in $\mathbf{H}$ and $\mathbf{B}G \in \mathbf{H}$ its smooth [[delooping]] groupoid. Then we can define cohomology on $G$ with coefficients in $U(1)$ or some other abelian Lie group $A$ by
+We consider the cohomology in $\mathbf{H}$ of smooth [[delooping]] groupoids $\mathbf{B}G$ for $G$ an ordinary [[Lie group]]. This is a form of [[group cohomology]] for Lie groups.
 
 $$
   H^n(G,A) := \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n A)
   \,.
 $$
 
-The claim is that this reproduces the refined Lie group cohomology of Segal-Brylinski. 
-
-
+We discuss how this related to other definitions of <a href="http://ncatlab.org/nlab/show/group+cohomology#LieGroupcohomology">Lie group cohomology</a> in the literature.
 
 +-- {: .un_defn}
 ###### Definition
-**(Brylinski)**
+**(naive Lie group cohomology)**
 
-Let $G$ be a [[Lie group]] ([[paracompact space|paracompact]]) and $A$ an abelian Lie group.
+For $G$ a Lie group and $A$ an abelian Lie group and $n \in \mathbb{N}$ define $H^n_{rest}(G,A)$ to be the group of equivalence classes of cocycles given by [[smooth function]]s $G^\times_n \to A$ by coboundatries given by smooth functions $G^{\times_{n-1}} \to A$ subject to the usual relations.
+
+=--
+
+Observe that with $\mathbf{B}G = G^{\times_\bullet}$ regarded as an object of $sPSh(CartSp)$, this is
+
+$$
+  H^n_{rest}(G,A)
+  =
+  \pi_0 sPSh(\mathbf{B}G, \mathbf{B}^n A)
+  \,.
+$$
+
+Written this way it is evident that this definition misses to take into account any cofibrant replacement of $\mathbf{B}G$. 
+
+A more refined definition of cohomology of Lie groups has been given by Segal, which was later rediscovered by [[Jean-Luc Brylinski]], following Blanc.
+
++-- {: .un_defn}
+###### Definition
+**(differential Lie group cohomology)**
+
+Let $G$ be a [[paracompact space|paracompact]] [[Lie group]] and $A$ an abelian Lie group.
 
 For eack $k \in \mathbb{N}$ we can pick a [[good open cover]] $\{U^{k}_{i} \to G^{\times_k}| i \in I_k\}$ such that
 
@@ -342,7 +363,9 @@ For eack $k \in \mathbb{N}$ we can pick a [[good open cover]] $\{U^{k}_{i} \to G
     \,.
   $$
 
-Then the **differentiable group cohomology** of $G$ with coefficients in 
+For instance start with a [[good open cover]] $\{U^1_i \to G\}$ and define a good open cover $\{U^2_{i_0 i_1 i_2}\}$ of $G \times G$ by $U^2_{i_0 i_1 i_2} := d_0^* U^1_{i_0} \cap d_1^* U^1_{i_1} \cap d_2^* U^1_{i_2}$. And so on.
+
+Then the **<a href="http://ncatlab.org/nlab/show/group+cohomology#LieGroupcohomology">differentiable Lie group cohomology</a>** $H^\bullet_{diffr}(G,A)$ of $G$ with coefficients in 
 $A$ is the cohomology of the total complex of the [[Cech cohomology|Cech]]
 double complex $C^\infty( U^{\bullet}_{i_0, \cdots, i_\bullet} , A)$
 whose differentials are the alternating sums of the face maps 
@@ -355,40 +378,81 @@ $$
 
 =--
 
-
-
 This is definition 1.1 in 
 
 * [[Jean-Luc Brylinski]], _Differentiable cohomology of gauge groups_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf)).
 
-As discussed there, this is equivalent to other definitions, notably to a definition given earlier by Segal. We now claim that this definition computes the [[cohomology|intrinsic (∞,1)-topoos cohomology]] in the $(\infty,1)$-topos $\mathbf{H}$ of $\infty$-Lie groupoids of the [[delooping]] groupoid $\mathbf{B}G$ of $G$ with coefficients in the [[Eilenberg-MacLane object]] $\mathbf{B}^n A$ of $A$.
+As discussed there, this is equivalent to other definitions, notably to a definition given earlier by Segal. 
+
+
++-- {: .un_lemma}
+###### Observation
+
+There is a natural map
+
+$$
+  H^n_{restr}(G,A) \to H^n_{diffr}(G,A)
+$$
+
+obtained by pulling back globally defined cocycles and coboundaries to good covers.
+
+=--
+
+We can understand this differentiable Lie group cohomology in terms of maps out of a certain resolution of $\mathbf{B}G$ in $sPSh(CartSp)_{proj,cov}$:
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $G$ a paracompact Lie group, and $A$ an abelian Lie group and $n \in \mathbb{N}$, write $\mathbf{B}G$ for $G^{\times_\bullet}$ regarded as a simplicial [[diffeological space]], hence as a  [[simplicial presheaf|simplicial sheaf]] on [[CartSp]], and similarly regard $\mathbf{B}^n A$ as a simplicial presheaf on [[CartSp]], and then regard both these as objects of $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$. 
-
-Then the [[cohomology|intrinsic (∞,1)-topos cohomology]] of $\mathbf{B}G$ with coefficients in $\mathbf{B}^n A$ in $\mathbf{H}$ coincides with the differential Lie group cohomology:
+For $\{U^\bullet_{i_\bullet}\}$ a system of [[good open cover]]s as above, we obtain a simplicial diagram of [[Cech nerve]]s 
 
 $$
-  H^n_{diff}(G,A) \simeq
-  \pi_0 \mathbf{H}(\mathbf{B}G), \mathbf{B}^n A)
+  C : [k] \mapsto C(\{U^k_{i}\})
+$$
+
+which is degreewise a cofibrant resolution on $sPSh(CartSp)_{proj,cov}$ of $G^{\times_n}$. Its [[bisimplicial set|totalization]] [[coend]] is connected by a zig-zag of weak equivalences in $sPSh(CartSp)_{proj,cov}$ to $\mathbf{B}G$
+
+$$
+  \mathbf{B}G
+  \stackrel{\simeq}{\leftarrow}
+  \stackrel{\simeq}{\to}
+  \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})
+$$
+
+and we have
+
+$$
+  H^n_{diffr}(G,A)
+  =
+  \pi_0 sPSh(CartSp)(\int^{[k]} \Delta[k] \cdot C(\{U^k_i\}), \mathbf{B}^n A)
+  \,.
+$$
+
+=--
+
+The proof of this will also show the following
+
++-- {: .un_prop}
+###### Proposition
+
+Write $H^\bullet(G,A) := \pi_0 Sh_{(\infty,1)}(CartSp)(\mathbf{B}G, \mathbf{B}^n A)$ for the intrinsic cohomology of $\mathbf{B}G$ regarded as an object of the $(\infty,1)$-topos of $\infty$-Lie groupoids.
+
+There is a natural morphism
+
+$$
+  H^n_{diffr}(G,A) \to H^n(G,A)
   \,.
 $$
 
 =--
 
 
+
 +-- {: .proof}
 ###### Proof
 
-As discussed above, we [[presentable (∞,1)-category|present]] $\mathbf{H}$ by the projective [[Bousfield localization of model categories|left Bousfield localization]] $[CartSp^{op}, sSet]_{proj,cov}$ of the projective [[model structure on simplicial presheaves]] on [[CartSp]] at the [[Cech nerve]]s of [[good open cover]]s of objcts in [[CartSp]].
+Since $\mathbf{B}^n A$ does satisfy descent with respect to [[good open cover]]s of [[Cartesian space]]s (every $(n-1)$ $A$-[[bundle gerbe]] over an $\mathbb{R}^n$ is trivializable), to compute the intrinsic cohomology we have to find a cofibrant replacement for $\mathbf{B}G$.
 
-Both $\mathbf{B}G$ and $\mathbf{B}^n A$ are fibrant in $[C^{op},sSet]_{proj,cov}$, because they take objectwise values in [[Kan complex]]es and because on the contractible objects $\mathbb{R}^n$ which are the objcts in $CartSp$, both do satisfy [[descent]] with respect to [[good open cover]]s on [[Cartesian space]]s: every $G$-[[principal bundle]] on $\mathbb{R}^n$ is trivializable, as is every $\mathbf{B}^{n-1}A$-[[principal ∞-bundle]] ($(n-1)$-[[bundle gerbe]]).
- 
-To compute the intrinsic cohomology it therefore remains to find a suitable cofibrant replacement $\mathbf{B}G$. 
-
-We have that a cofibrant replacement of any paracompact [[manifold]] $X$ in $[CartSp^{op}, sSet]_{proj,cov}$ is given by the [[Cech nerve]] $C(\{U_i\}) \stackrel{\simeq}{\to} X$ of a [[good open cover]] $\{U_i \to X\}$, because this is evidently a [[local epimorphism]] as described at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CechLocalization">model structure on simplicial presheaves - Cech localization</a>.
+A cofibrant replacement of any paracompact [[manifold]] $X$ in $[CartSp^{op}, sSet]_{proj,cov}$ is given by the [[Cech nerve]] $C(\{U_i\}) \stackrel{\simeq}{\to} X$ of a [[good open cover]] $\{U_i \to X\}$, because this is evidently a [[local epimorphism]] as described at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CechLocalization">model structure on simplicial presheaves - Cech localization</a>.
 
 Therefore from a choice of compatible families of open covers 
 $\{U^k_i \to G^{\times k}\}$ as in the definition of differentiable group cohomology above, we obtain cofibrant replacements
@@ -397,7 +461,7 @@ $$
   C(\{U^k_i\}) \stackrel{\simeq}{\to} G^{\times_k}
 $$
 
-for each $k$, and arrangining themselves into a simplicial simplicial presheaf
+for each $k$, and arranging themselves into a simplicial simplicial presheaf
 
 $$
   C(\{U^\bullet_i\}) : \Delta^{op} \to [CartSp^{op}, sSet]
@@ -407,11 +471,13 @@ $$
 which is cofibrant in the injective [[model structure on functors]] 
 $[\Delta^{op}, [CartSp^{op}, sSet]_{proj,cov}]_{inj}$.
 
+Observe that the fact that this is inded a simplicial diagram in $sPSh(CartSp)$ is due to the extra compatibility condition in the above definition of differentiable Lie group cohomology.
+
 Notice from the discussion at [[model structure on simplicial presheaves]] that we have canonically another cofibrant replacement $Q (G^{\times_n})$ of $G^{\times_n}$ in $[CartSp^{op}, sSet]_{proj}$ which is functorial and has the special property that the [[bisimplicial set|diagonal]]
 
 $$
-  \int^{[n] \in \Delta}
-  \Delta[n] \cdot Q(G^{\times_n})
+  \int^{[k] \in \Delta}
+  \Delta[k] \cdot Q(G^{\times_k})
   \stackrel{\simeq}{\to}
   \mathbf{B}G
 $$
@@ -426,7 +492,7 @@ $$
 
 between cofibrant replacements of $G^{\times_\bullet}$.
 
-Write $\mathbf{\Delta}^\bullet : \Delta \to sSet : [n] \mapsto N(\Delta/[n])$ for the standard [[Bousfield-Kan map|Bousfield-Kan]] cofibrant replacement of the point, hence also of $\Delta$, in $[\Delta, sSet_{Quillen}]_{proj}$ (more discussion of this is at [[homotopy colimit]]).
+Write $\mathbf{\Delta}^\bullet : \Delta \to sSet : [k] \mapsto N(\Delta/[k])$ for the standard [[Bousfield-Kan map|Bousfield-Kan]] cofibrant replacement of the point, hence also of $\Delta$, in $[\Delta, sSet_{Quillen}]_{proj}$ (more discussion of this is at [[homotopy colimit]]).
 
 Then by the fact that the [[coend]] 
 
@@ -441,17 +507,17 @@ over the [[copower|tensoring]] $\otimes sSet_{Quillen} \times [CartSp^{op}, sSet
 $$
   \mathbf{B}G
   =
-  \int^{[n] \in \Delta}
-   \Delta[n] \cdot G^{\times_n}
+  \int^{[k] \in \Delta}
+   \Delta[k] \cdot G^{\times_n}
    \stackrel{\simeq}{\leftarrow}
-  \int^{[n] \in \Delta} \Delta[n] \cdot Q(G^{\times_n}))  
+  \int^{[k] \in \Delta} \Delta[k] \cdot Q(G^{\times_k}))  
    \stackrel{\simeq}{\leftarrow}
-  \int^{[n] \in \Delta} \mathbf{\Delta}[n] \cdot Q(G^{\times_n}))  
+  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot Q(G^{\times_k}))  
   \stackrel{\simeq}{\to}
   \stackrel{\simeq}{\leftarrow}
-  \int^{[n] \in \Delta} \mathbf{\Delta}[n] \cdot C(\{U^n_i\}))  
+  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot C(\{U^k_i\}))  
   \stackrel{\simeq}{\to}
-  \int^{[n] \in \Delta} \Delta[n] \cdot C(\{U^n_i\}))  
+  \int^{[k] \in \Delta} \Delta[k] \cdot C(\{U^k_i\}))  
 $$
 
 where
@@ -460,27 +526,36 @@ where
 
 * the second one is objectwise the [[Bousfield-Kan map]], hence also even a global weak equivalence;
 
-* the zig-zag is the image under the left Quillen functor $\int^{[n] \in \Delta} \mathbf{\Delta}[n] \cdot (-)$ (using that $\mathf{\Delta}$ is cofibrant) of the above zig-zag of weak equivalences between cofibrant objects;
+* the zig-zag is the image under the left Quillen functor $\int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot (-)$ (using that $\mathf{\Delta}$ is cofibrant) of the above zig-zag of weak equivalences between cofibrant objects;
 
-* the last one is again the global weak equivalence coming objectwise from the [[Bousfield-Kan map]];
+* the last one is again the global weak equivalence coming objectwise from the [[Bousfield-Kan map]].
 
-and where moreover, again by the left Quillen bifunctor property of $\int(-)\cdot(-)$ we have that $\int^{[n] \in \Delta} \mathbf{\Delta}[n] \cdot C(\{U^n_i\}))$ is cofibrant.
+This shows the first claim, that $\mathbf{B}G \stackrel{\simeq}{\leftarrow}\stackrel{\simeq}{\rightarrow} \int^{k} \Delta[k] \cdot C(\{U^k_i\})$.
 
-From this it first of all follows that the intrinsic cohomology in question is computed as
+Moreover, again by the left Quillen bifunctor property of $\int(-)\cdot(-)$ we have that $\int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot C(\{U^k_i\}))$ is cofibrant. Therefore the intrinsic cohomology $H^n(G,A)$ is
 
 $$
   \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n A)
   =
   [CartSp^{op}, sSet]_{proj,cov}
   \left(
-    \int^{[n] \in \Delta} \mathbf{\Delta}[n] \cdot C(\{U^n_i\}))
+    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot C(\{U^k_i\}))
     ,
     \mathbf{B}^n A
   \right)
   \,.
 $$
 
-Now we observe that $\mathbf{B}^n A$ is in the image of the [[Dold-Kan correspondence]] $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sAb] \stackrel{U}{\to} [CartSp^{op}, sSet]$ of the chain-complex valued presheaf $A[n] = A \otimes_\mathbb{Z} \mathbb{Z}[n]$ to reduce the computation of this simplicial hom-complex to that of a cochain complex:
+By pullback along the [[Bousfield-Kan map]] $\mathbf{\Delta[k]} \to \Delta[k]$ we have a natural morphism
+
+$$
+  \pi_0 sPSh(\int^{[k]} \Delta[k]\cdot C(\{U^k_i\}), \mathbf{B}^n A) \to H^n(G,A)
+  \,.
+$$
+
+It remains to show that the set on the left is the differentiable Lie group cohomology.
+
+For that observe that $\mathbf{B}^n A$ is in the image of the [[Dold-Kan correspondence]] $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sAb] \stackrel{U}{\to} [CartSp^{op}, sSet]$ of the chain-complex valued presheaf $A[n] = A \otimes_\mathbb{Z} \mathbb{Z}[n]$ to reduce the computation of this simplicial hom-complex to that of a cochain complex:
 
 $$
   \begin{aligned}
@@ -502,9 +577,7 @@ $$
   \,.
 $$
 
-Now it remains to observe that the Dold-kan correspondence respects weak equivalences and to use the last global weak equivbalence form above and then the [[Eilenberg-Zilber theorem]] to conclude that our cohomology is indeed the cohomology of the total complex of the double Cech complex of the chosen resolution.
-
-...
+Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the [[Eilenberg-Zilber theorem]] to identify the [[Moore complex]] of the [[bisimplicial set|diagonal]] to the [[total complex]] of the double complex of Moore complexes, the claim follows.
 
 =--
 
