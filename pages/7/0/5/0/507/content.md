@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
+
 The _Elephant_ is a book on [[topos|topos theory]] by [[Peter Johnstone]].
 
 
