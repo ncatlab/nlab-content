@@ -10,7 +10,7 @@
 
 
 ## Idea ##
-This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and time. The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this believe precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
+This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and time (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this believe precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
 
 Being "invariant" means that every process that can be observerd in our universe can be observed identically in the "mirror" universe, that is there is no experiment in our universe that cannot be duplicated in the mirror universe. 
 
@@ -28,7 +28,23 @@ For some time physicists believed that subsets of the PCT symmetry are respected
 ...
 
 ## Definition ##
-...
+
+### Definition in the Wightman approach ###
+The PCT theorem for Wightman fields (see [[Wightman axioms]]) was proved by Res Jost, see references.
+
+This proof clarified the different conditions one has to impose, these are:
+
+1. Covariance of the theory under the (connected part of the) [[Poincare group]].
+
+2. Positivity of the energy.
+
+3. There are only fields, which transform with respect to finite dimensional representations of the Lorentz group. (Transformation of the index space.)
+
+4. Locality, which means that for spacelike distances the Bose fields commute with all other fields and the Fermi fields anticommute with each other.
+
+5. The Minkowski space has even dimensions.
+
+6. To every field in the theory appears its conjugate complex partner.
 
 ### Definition in the Haag-Kastler approach ###
 Let $\mathcal{M}(\mathcal{J})$ be a [[AQFT|Haag-Kastler net]] on [[Minkowski spacetime]].
@@ -58,7 +74,16 @@ A PCT theorem in this approach is a theorem that states suffcient conditions suc
 
 ## References ##
 
+* Wikipedia: [CPT symmetry](http://en.wikipedia.org/wiki/CPT_symmetry)
+
+Jost's proof for Wightman fields:
+
+* Res Jost: _Eine Bemerkung zum CPT Theorem_ Helv. Phys. Acta 30 (1957), p.409-416
+
 * Borchers, Yngvason: _On the PCT--Theorem in the Theory of Local Observables_ [arXiv](http://arxiv.org/abs/math-ph/0012020)
 
 [[!redirects PCT]]
 [[!redirects PCT symmetry]]
+[[!redirects CPT]]
+[[!redirects CPT symmetry]]
+[[!redirects CPT theorem]]
