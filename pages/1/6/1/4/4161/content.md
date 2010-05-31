@@ -4,6 +4,28 @@
 </div>
 
 
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
+## Idea ##
+In [[quantum field theory]] all fields must transform according to a definite (finite dimensional) representation of the [[Poincare group]], which determines the [[spin]] of each field. From the representation theory of the [[Poincare group]] it is known that the spin $s$ is a number $s = \frac{n}{2}$ with $n \in \mathbb{N}$.
+
+On the other hand, if we take fields to be pointwise localized in the sense of the [[Wightman axioms]], then the locality axiom (also known as Einstein microcausality) says that spacelike separated field operators either commute or anticommute: Two Fermionic fields anticommute, two Bosonic fields commute, a Fermionic and a Bosonic field commute.
+
+The spin-statistics theorem states that fields with integer spin $s$ (n  is even) are Bosonic fields, fields with half-integer spin (n is uneven) are Fermionic fields. A better name for the theorem would therefore be spin- _commutation_ theorem, the name spin- _statistics_ theorem stems from the fact that Bosons (the particles associated to Bosonic fields) are social, multiple particles can exist in the same quantum state, while Fermions are not social: The [[Pauli exclusion principle]] says maximally one Fermion can exist in a given quantum state. This leads to different [[partition functions]] in [[statistical mechanics]] of systems consisting of Bosons only and of Fermions only, hence the name.
+
+The statement and proof of the theorem depend on the framework for [[quantum field theory]] that is used, therefore there are, strictly speaking, several versions of the spin-statistics theorem, but the _physical interpretation_ is always the same. 
+
+## Theorem
+
+### Theorem in the AQFT Framework
+In the [[Haag-Kastler approach]] the [[Bisognano-Wichmann theorem]] states a relation of the representation of the Poincare group on certain local algebras of [[local nets]] and their [[modular group]]s. If this relation holds for a given net, then this net is said to fulfill the Bisognano-Wichmann property.
+
+The Guido-Longo-paper cited in the references states the spin-statistics theorem for local nets with this property.
+
+...
+
 ## References
 
 The classical textbook reference is
@@ -17,3 +39,7 @@ The proof, which goes back originally to Fermi. There is also a more intuitive a
 An exposition is at
 
 * [[John Baez]], _Spin, Statistics, CPT and All That Jazz_ ([web](http://math.ucr.edu/home/baez/spin_stat.html))
+ 
+A statement and proof of both a spin-statistics and a PCT theorem in the [[Haag-Kastler approach]] can be found in this paper:
+
+* Daniele Guido, Roberto Longo: _An Algebraic Spin and Statistics Theorem_ ([arXiv] (http://arxiv.org/abs/funct-an/9406005))
