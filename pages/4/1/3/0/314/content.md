@@ -33,7 +33,7 @@ See also the analogous discussion at [[homotopy limit]].
 
 A limit is taken over a [[functor]] $F : D^{op} \to C$ and since the functor comes equipped with the information about what its domain is, one can just write $\lim F$ for its limit. But often it is helpful to indicate how the functor is evaluated on objects, in which case the limit is written $\lim_{d \in D} F(d)$; this is used particularly when $F$ is given by a formula (as with other notation with bound variables.)
 
-In some schools of mathematics, limits are called _projective limits_, while colimits are called _inductive limits_.  Also seen are (repsectively) _inverse limits_ and _direct limits_.  Both these systems of terminology are alternatives to using 'co-' when distinguishing limits and colimits.  The first system also appears in [[pro-object]] and [[ind-object]].
+In some schools of mathematics, limits are called _projective limits_, while colimits are called _inductive limits_.  Also seen are (respectively) _inverse limits_ and _direct limits_.  Both these systems of terminology are alternatives to using 'co-' when distinguishing limits and colimits.  The first system also appears in [[pro-object]] and [[ind-object]].
 
 Correspondingly, the symbols $lim_{\leftarrow}$ and $lim_{\rightarrow}$ are used instead of $lim$ and $colim$.  (Actually, the arrows should be directly underneath the '$lim$'s, something like ${\lim \atop \longleftarrow}$ and ${\lim \atop \longrightarrow}$.  But the text should also be at normal size.)
 
