@@ -338,7 +338,15 @@ Written this way it is evident that this definition misses to take into account 
 
 A more refined definition of cohomology of Lie groups has been given by Segal, which was later rediscovered by [[Jean-Luc Brylinski]], following Blanc.
 
+See section 4 of
+
+* [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+
+for a review and applications.
+
+
 +-- {: .un_defn}
+
 ###### Definition
 **(differential Lie group cohomology)**
 
