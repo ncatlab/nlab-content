@@ -358,7 +358,7 @@ A classical reference that considers the cohomology of Lie groups as topological
 
 * [[Armand Borel]], _Homology and cohomology of compact connected Lie groups_ ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1063923/pdf/pnas01596-0040.pdf))
 
-A correct definition of topological group cohomology has been given by Segal
+A corrected definition of topological group cohomology has been given by Segal
 
 * [[Graeme Segal]], _Cohomology of topological groups_ In Symposia Mathematica, Vol. IV (INDAM, Rome, 1968/69), pages 377{387. Academic Press, London, (1970).
 
@@ -376,7 +376,7 @@ $$
 
 for the naive notion of cohomology on $G$.
 
-The correct definition of Lie group cohomology, denoted here $H^n(G,A)$ or for emphasis $H^n_{diff}(G,A)$ was given in
+A refined definition of Lie group cohomology, denoted $H^n_{diff}(G,A)$, was given in
 
 * [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 
@@ -386,26 +386,52 @@ following
 
 and effectively rediscovers Segal's definition.
 
-We now show that this is the correct cohomology theory, in that it computes the intrinsic cohomology of [[group object in an (infinity,1)-category|group objects]] in the $(\infty,1)$-topos of $\infty$-Lie groupoids.
 
-+-- {: .un_prop }
-###### Claim
++-- {: .un_defn}
+###### Definition
+**(Brylinski)**
 
-The Lie group cohomology $H^n(G,A)$ used in [Bry](http://arxiv.org/abs/math/0011069) is the [[cohomology|intrinsic cohomology]] of the object $\mathbf{B}G$ in the [[(∞,1)-topos]] of [[∞-Lie groupoid]]s $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$, i.e. of the [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on [[CartSp]]:
+Let $G$ be a [[Lie group]] ([[paracompact space|paracompact]]) and $A$ an abelian Lie group.
+
+For eack $k \in \mathbb{N}$ we can pick a [[good open cover]] $\{U^{k}_{i} \to G^{\times_k}| i \in I_k\}$ such that
+
+* the index sets arrange themselves into a [[simplicial set]]
+  $I : [k] \mapsto I_k$;
+
+* and for $d_j(U^k_i)$ and $s_j(U^k_i)$ the images of the
+  face and degeneracy maps of $G^{\times\bullet}$ we have
+
+  $$
+    d_j(U^k_i) \subset U^{k-1}_{d_j(i)}
+  $$ 
+
+  and
+
+  $$
+    s_j(U^k_i) \subset U^{k+1}_{s_j(i)}
+    \,.
+  $$
+
+Then the **differentiable group cohomology** of $G$ with coefficients in 
+$A$ is the cohomology of the total complex of the [[Cech cohomology|Cech]]
+double complex $C^\infty( U^{\bullet}_{i_0, \cdots, i_\bullet} , A)$
+whose differentials are the alternating sums of the face maps 
+of $G^{\times_\bullet}$ and of the [[Cech nerve]]s, respectively:
 
 $$
-  H^n_{diff}(G,A) \simeq \pi_0 Sh_{(\infty,1)}(CartSp)(\mathbf{B}G, \mathbf{B}^n A)
-  \,.
+  H^n_{diff}(G,A) := H^n Tot C^\infty( U^{\bullet}_{i_0, \cdots, i_\bullet} , A)
 $$
+
 
 =--
 
-+-- {: .proof}
-###### Proof 
 
-The proof is spelled out at [[∞-Lie groupoid]].
 
-=---
+This is definition 1.1 in 
+
+* [[Jean-Luc Brylinski]], _Differentiable cohomology of gauge groups_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf)).
+
+As discussed there, this is equivalent to other definitions, notably to a definition given earlier by Segal. 
 
 There is an evident morphism
 
@@ -415,7 +441,16 @@ $$
 
 obtained by pulling back a globally defined smooth cocycle to a cover.
 
-For definiteness, by a _Lie group_ $G$ we now mean (following [Bry, page3](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=3)) a [[paracompact space|paracompact]] [[Frechet manifold]] equipped with a group structure such that the product and the inverse maps are smooth, and there is an everywhere defined exponential map $exp : \mathfrak{g} \to G$ where $\mathfrak{g}$ is the [[Lie algebra]] of $G$.
+At [[∞-Lie groupoid]] it is discussed that there is a further refinement
+
+$$
+  H^n_{diff}(G,A) \to H^n(\mathbf{B}G,A)
+  \,,
+$$
+
+where on the right we have the [[cohomology|intrinsic cohomology]] of [[∞-Lie groupoid]]s.
+
+From now on, for definiteness by a _Lie group_ $G$ we mean (following [Bry, page3](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=3)) a [[paracompact space|paracompact]] [[Frechet manifold]] equipped with a group structure such that the product and the inverse maps are smooth, and there is an everywhere defined exponential map $exp : \mathfrak{g} \to G$ where $\mathfrak{g}$ is the [[Lie algebra]] of $G$.
  
 
 +-- {: .un_prop }
@@ -446,9 +481,6 @@ This is [Bry, prop. 1.3](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#p
 
 
 =--
-
-
-**Remark** The second statement can also be seen using that $Sh_{(\infty,1)}(CartSp)$ is a [[locally contractible (∞,1)-topos]], which implies by adjuncton that $\mathbf{H}(\mathbf{B}G,LConst \mathbf{B}^n A) \simeq \infty Grpd(\Pi(X),\mathbf{B}^n A)$.
 
 
 +-- {: .un_prop }
