@@ -59,7 +59,7 @@ It turns out that a [[(0,1)-topos]] is essentially the same as a [[Heyting algeb
 
 ## Examples
 
-* [[real line]]
+* [[the locale of real numbers]]
 
 * [[Cantor space]]
 
