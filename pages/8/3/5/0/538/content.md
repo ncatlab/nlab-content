@@ -18,7 +18,7 @@ $$\left\{{f \atop g}\right\}$$
 
 ## Examples
 
-*  In [[Set]], the coproduct of a family of sets $(C_i)_{i\in I}$ is the [[disjoint union]] $\coprod_{i\in I} C_i$ of sets.
+*  In [[Set]], the coproduct of a [[family of sets]] $(C_i)_{i\in I}$ is the [[disjoint union]] $\coprod_{i\in I} C_i$ of sets.
 
 *  In [[Top]], the coproduct of a family of spaces $(C_i)_{i\in I}$ is the space whose set of points is $\coprod_{i\in I} C_i$ and whose open subspaces are of the form $\coprod_{i\in I} U_i$ (the internal [[disjoint union]]) where each $U_i$ is an [[open subspace]] of $C_i$.  This is typical of [[topological concrete categories]].
 
