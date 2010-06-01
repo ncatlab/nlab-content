@@ -72,7 +72,7 @@ commutes, where the vertical morphisms are unit and counit, respectively, and wh
 +-- {: .proof}
 ###### Proof
 
-The morphism $\phi : X \to f^* f_* A$ is the component of a natural transformation
+The morphism $\phi : X \to f^* f_* A$ is the component of a [[natural transformation]]
 
 $$
   \array{
@@ -86,7 +86,7 @@ $$
   \,.
 $$
 
-The composite $X \stackrel{\phi}{\to}  f^* f_ A \to A$ is the component of this composed with the counit $f^* f_* \Rightarrow Id$.
+The composite $X \stackrel{\phi}{\to}  f^* f_* A \to A$ is the component of this composed with the counit $f^* f_* \Rightarrow Id$.
 
 We may insert the 2-identity given by the zig-zag law
 
@@ -141,3 +141,6 @@ Connected surjective and local geometric morphisms are discussed in
 Further refinements are in 
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+
+
+[[!redirects essential geometric morphisms]]
