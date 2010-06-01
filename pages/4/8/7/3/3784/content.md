@@ -66,3 +66,4 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 [[!redirects space-time]]
 [[!redirects space time]]
+[[!redirects spacetimes]]
