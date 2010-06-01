@@ -41,7 +41,7 @@ This is intended to illustrate the concept that constructing a category of eleme
 
 #Properties#
 
-* The category of elements is naturally equipped with a _projection functor_ $\pi_P:El_P(C) \to C$ given by $(c,x)\mapsto c$ and $u\mapsto u$.  This projection is a [[Grothendieck fibration|discrete opfibration]] and can be viewed also as a $C$-indexed family of sets.
+* The category of elements is naturally equipped with a _projection functor_ $\pi_P:El_P(C) \to C$ given by $(c,x)\mapsto c$ and $u\mapsto u$.  This projection is a [[Grothendieck fibration|discrete opfibration]] and can be viewed also as a $C$-indexed [[family of sets]].
 
 ##Example: Action Groupoid##
 
