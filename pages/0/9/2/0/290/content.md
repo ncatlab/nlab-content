@@ -45,6 +45,8 @@ Both [[AQFT]] and [[FQFT]] involve the language of [[category theory]] and  [[hi
 
 * the notion of the [[(∞,n)-category of cobordisms]], which is thought to play a role analogous to and as fundamental as the [[sphere spectrum]] was motivated from [[FQFT]];
 
+* In early 1990s $A_\infty$-categories first appeared in works of Kontsevich and Fukaya on the categorical description of twisted sigma models what is then used in the formulation of [[homological mirror symmetry]].
+
 * the [[cobordism hypothesis]] was formulated by [[John Baez]] and [[Jim Dolan] in the context of extended [[topological quantum field theory|topological]] [[FQFT]].
 
 * various structures involving [[(∞,1)-operad]]s, such as [[topological chiral homology]] and [[blob homology]] are motivated by and find their application in the algebraic description of quantum field theory;
