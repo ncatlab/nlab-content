@@ -35,7 +35,7 @@ A [[product]] is a universal cone over a discrete diagram. In this section, we d
 Any [[cartesian product]] is a [[product]] in $Set$.
 =--
 
-To demonstrate, first note that a discrete diagram $F:J\to Set$ produces a family of sets $(A_i)$ with no functions between them. A cone over the discrete diagram consists of a set $T$ and a single component 
+To demonstrate, first note that a discrete diagram $F:J\to Set$ produces a [[family of sets]] $(A_i)$ with no functions between them. A cone over the discrete diagram consists of a set $T$ and a single component 
 
 $$\f_i:T\to A_i$$
 
