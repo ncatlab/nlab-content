@@ -20,7 +20,7 @@ This page develops a theory of universes in the [[structural set theory]] called
 * Dependent product - this is tricker and I'm not going to do that right now. 
 =--
 
-Fix a family of sets $U \looparrowright E$.
+Fix a [[family of sets]] $U \looparrowright E$.
 
 **Definition:** A family $a:I \looparrowright A$ is called _$U$-small_ if there is a function $f:I \to U$ such that for the composite relation $I \looparrowright E$ ...
 
