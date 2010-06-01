@@ -110,7 +110,7 @@ $$
   \,.
 $$
 
-This is sometimes called the **Quillen formula** for comuting homotopy colimits. Analogously with $P_{inj}$ a fibrant replacement functor for the injective model structure, we have
+This is sometimes called the **Quillen formula** for computing homotopy colimits. Analogously with $P_{inj}$ a fibrant replacement functor for the injective model structure, we have
 
 $$
   holim F \simeq lim P_{inj}(F)
@@ -302,7 +302,7 @@ both themselves left [[Quillen bifunctor]]s.
 Write
 
 $$
-  {*} : D \to SSet
+  {*} : D^{op} \to SSet
 $$
 
 for the functor that sends everything to the identity on the singleton set. This is both the tensor unit in the [[monoidal category]] $[D,SSet]$.
