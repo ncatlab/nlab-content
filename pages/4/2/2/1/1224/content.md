@@ -9,12 +9,80 @@
 
 ## Idea
 
-A [[functor]] $F : C \to D$ is **cofinal**, or just **final**, if we can restrict [[diagram]]s on $D$ to diagrams on $C$ along $F$ without changing their [[colimit]].  the dual notion is an **initial** functor.
+A [[functor]] $F : C \to D$ is **final** (often called **cofinal**), if we can restrict [[diagram]]s on $D$ to diagrams on $C$ along $F$ without changing their [[colimit]].  
 
-## Cofinal functors
+Dually, a functor is **initial** (sometimes called **co-cofinal**) if pulling back diagrams along it does not change the [[limit]]s of these diagrams.
 
-A [[functor]] $F : C \to D$ is **cofinal** if for every [[object]] $d \in D$ the [[comma category]] $(F/d)$ is non-empty and [[connected category|connected]].
+Beware that this property is pretty much unrelated to that of a functor being an [[initial object]] or [[terminal object]] in the [[functor category]] $[C,D]$.
 
+## Definition
+
++-- {: .un_def}
+###### Definition
+
+
+A [[functor]] $F : C \to D$ is **final** if for every [[object]] $d \in D$ the [[comma category]] $(F/d)$ is non-empty and [[connected category|connected]].
+
+A [[functor]] $F : C \to D$ is **initial** if the [[opposite category|opposite]] $F^{op} : C^{op} \to D^{op}$ is final, i.e. if for every [[object]] $d \in D$ the [[comma category]] $(d/F)$ is non-empty and [[connected category|connected]].
+
+=--
+
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+Let $F : C \to D$ be a [[functor]]
+
+The following conditions are equivalent.
+
+1. $F$ is final.
+
+1. For all functors $G : D \to Set$ the natural [[function]] between [[colimit]]s
+
+   $$
+     \lim_\to G \circ F \to \lim_{\to} G
+   $$
+
+   is a [[bijection]].
+
+
+1. For all categories $E$ and all functors $G : D \to E$ the natural [[morphism]] between [[colimit]]s
+
+   $$
+     \lim_\to G \circ F \to \lim_{\to} G
+   $$
+
+   is a [[isomorphism]].
+   
+
+
+1. For all functors $G : D^{op} \to Set$ the natural [[function]] between [[limit]]s
+
+   $$
+     \lim_\leftarrow G \to \lim_\leftarrow G \circ F^{op}
+   $$
+
+   is a [[bijection]].
+
+1. For all categories $E$ and all functors $G : D^{op} \to E$ the natural [[morphism]]
+
+   $$
+     \lim_\leftarrow G \to \lim_\leftarrow G \circ F^{op}
+   $$
+
+   is an [[isomorphism]].
+   
+1. For all $d \in D$ 
+
+   $$
+     {\lim_\to}_{c \in C} Hom_D(d,F(c)) \simeq *
+     \,.
+   $$
+
+
+=--
 
 ## Generalizations
 
@@ -22,9 +90,18 @@ The generalization of the notion of cofinal functor from [[category theory]] to 
 
 * [[cofinal (∞,1)-functor]].
 
+
+## References
+
+For instance section 2.5 of
+
+* Kashiwara, Shapira, _[[Categories and Sheaves]]_
+
 [[!redirects cofinal functor]]
 [[!redirects final functor]]
 [[!redirects cofinal functors]]
 [[!redirects final functors]]
 [[!redirects initial functor]]
 [[!redirects initial functors]]
+
+
