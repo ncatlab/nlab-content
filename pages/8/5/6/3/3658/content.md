@@ -186,3 +186,6 @@ The classic reference already listed by Wikipedia is of course:
 
 
 Raymond Streater relates some historical background about the book and the approach [on his webpage] (http://www.mth.kcl.ac.uk/~streater/wightman.html).
+
+[[!redirects Wightman theory]]
+[[!redirects Wightman approach]]
