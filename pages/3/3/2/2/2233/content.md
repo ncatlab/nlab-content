@@ -1,10 +1,16 @@
 <div class="rightHandSide toc">
-
 [[!include functorial quantum field theory - contents]]
-
+***
+[[!include physicscontents]]
 </div>
 
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
 
 _Extended quantum field theory_ (or _many-tiered quantum field theory_) is the [[higher category theory|higher categorical]] version of [[FQFT|functorial quantum field theory]]:
 
@@ -20,7 +26,7 @@ we have that
 
 For that reason extended QFT is also sometimes called **local** or **localized** QFT. In fact, the notion of locality in [[quantum field theory]] is precisely this notion of locality. And, as also discussed at [[FQFT]], this higher dimensional version of locality is naturally encoded in terms of [[higher category theory|n-functoriality]] of $Z$ regarded as a functor on a [[higher category theory|higher category]] of [[cobordism]]s.
 
-#The category of extended cobordisms#
+## The category of extended cobordisms
 
 The definition of a $j$-cobordism is recursive. A $(j+1)$-cobordism between $j$-cobordisms is a [[compact space|compact]] [[orientation|oriented]] $(j+1)$-dimensional [[smooth manifold]] with corners whose the boundary is the [[disjoint union]] of the target $j$-cobordism and the orientation reversal of the source $j$-cobordism.  (The base case of the recursion is the [[empty set]], thought of as a $(-1)$-dimensional manifold.)
 
@@ -35,7 +41,7 @@ See
 * [[extended cobordism]].
 
 
-#Definition#
+##  Definition
 
 Fix a [[base ring]] $R$, and let $C$ be the [[symmetric monoidal category|symmetric monoidal]] $n$-category of $n$-$R$-modules.
 
@@ -57,7 +63,7 @@ Here $n$ can range between $0$ and $d$. This generalizes to an arbitrary symmetr
 
 
 
-#Examples#
+## Examples
 
 $n=1$ gives ordinary [[TQFT]].
 
@@ -68,7 +74,7 @@ The most common cases for $C$ are
 *  $C = n Vect(R)$, the category of $n$-[[n-vector space|vector spaces]] over a field $R$.
 *  $C = n Mod(R)$, the (conjectured?) category of $n$-[[n-module|modules]] over a commutative ring $R$.
 
-#Construction of ETQFT's#
+## Construction of ETQFT's
 
 * By generators and relations
 
@@ -81,27 +87,27 @@ The most common cases for $C$ are
 Assume $Z: n Cob_d \rightarrow n Vect(R)$ is an extended TQFT. Since $Z$ maps the $(d-1)$-dimensional vacuum to $R$ as an $R$-vector space, by functoriality $Z$ is forced to map a $d$-dimensional closed manifold to an element of $R$. 
 Iterating this argument, one is naturally led to conjecture that, under the correct categorical hypothesis, the behaviour of $Z$ is enterely determined by its behaviour on $(d-n)$-dimensional manifolds. See details at [[cobordism hypothesis]].
 
-#Relation of ETQFT to AQFT#
+## Relation of ETQFT to AQFT
 
 See Urs Schreiber, [AQFT from n-functorial QFT](http://arxiv.org/abs/0806.1079).
 
-#Related entries#
+## Related entries
 
 More on extended QFTs is also at 
 
 * [[FQFT]]
 
-#References#
+## References
 
-* Daniel Freed, Remarks on Chern-Simons theory
+* [[Dan Freed]], Remarks on Chern-Simons theory
 
 * Daniel Freed, Quantum Groups from Path Integrals 
 
 * Daniel Freed, Higher Algebraic Structures and Quantization 
 
-* John Baez and James Dolan, Higher-dimensional Algebra and Topological Quantum Field Theory.  [arXiv](http://arxiv.org/abs/q-alg/9503002)
+* [[John Baez]] and [[James Dolan]], Higher-dimensional Algebra and Topological Quantum Field Theory.  [arXiv](http://arxiv.org/abs/q-alg/9503002)
 
-* [[Jacob Lurie]],  [[On the Classification of Topological Field Theories]]  
+* [[Jacob Lurie]],  _[[On the Classification of Topological Field Theories]]_  
 
 
 +-- {: .query}
