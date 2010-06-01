@@ -14,7 +14,7 @@ As such, the approach of AQFT is roughly dual to that of [[FQFT]], where instead
 
 One may roughly think of AQFT as being a formalization of what in basic [[quantum mechanics]] textbooks is called the **Heisenberg picture** of quantum mechanics. On the other hand [[FQFT]] axiomatizes the _Schr&ouml;dinger picture_ .
 
-The axioms of traditional AQFT enocde the properties of a [[local net]] of observables and are called the [[Haag-Kastler axioms]]. They are one of the oldest systems of axioms that seriously attempt to put [[quantum field theory]] on a solid conceptual footing. 
+The axioms of traditional AQFT encode the properties of a [[local net]] of observables and are called the [[Haag-Kastler axioms]]. They are one of the oldest systems of axioms that seriously attempt to put [[quantum field theory]] on a solid conceptual footing. 
 
 From the [[nPOV]] we may think of a [[local net]] as a co-flabby [[presheaf|copresheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
 
@@ -29,7 +29,7 @@ This is traditionally formulated (implicitly) as a structure in ordinary [[categ
 
 * [[blob homology]].
 
-On the other hand, all three of these encode what in phyics are called _Eudlidean_ quantum field theories, whereas only the notion of [[local net]] so far really incorporates crucially the fact that the underlying spacetime of a quantum field theory is a [[smooth Lorentzian space]].
+On the other hand, all three of these encode what in physics are called _Euclidean_ quantum field theories, whereas only the notion of [[local net]] so far really incorporates crucially the fact that the underlying spacetime of a quantum field theory is a [[smooth Lorentzian space]].
 
 In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], relating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
 
