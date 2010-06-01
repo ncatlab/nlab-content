@@ -19,10 +19,22 @@ takes epis to epis. This is the same as saying: given an epi $p: B \to A$ and a 
 
 As an axiom, this has important consequences for algebra; there, one often uses the axiom of choice to prove that categories of modules have enough projectives, on the grounds that the [[free functor|free]] modules are projective. But COSHEP is sufficient; while not every free module will be projective, one can still use COSHEP to find a [[projective resolution]] for every free module (and thus for every module).
 
-Another important consequence is the axiom of [[dependent choice]], and thus also of [[countable choice]], at least if we assume that the [[singleton]] (the [[terminal object]] in [[Set]]) is projective. 
++-- {: .un_prop}
+######Proposition
+In the presence of COSHEP, the following three axioms on [[Set]] are equivalent: 
+
+1. The axiom of [[dependent choice]], 
+
+1. The axiom of [[countable choice]], 
+
+1. Projectivity of the [[singleton]] (the [[terminal object]]) $1$. 
+
+=-- 
 
 +-- {: .proof}
 ######Proof 
+Condition 1 easily implies 2. Condition 2 says precisely that the [[natural numbers object]] $\mathbb{N}$ is externally projective, and since $1$ is a retract of $\mathbb{N}$, it is projective under condition 2, so 2 implies 3. It remains to show 3 implies 1. 
+
 Let $X$ be inhabited, so there exists an [[entire relation]] given by a jointly monic span 
 
 $$1 \stackrel{epi}{\leftarrow} U \stackrel{f}{\to} X,$$ 
@@ -51,6 +63,8 @@ X & \underset{\pi_1}{\leftarrow} & R & \underset{\pi_2}{\to} & X
 
 Clearly $\langle p h, p h s \rangle : \mathbb{N} \to X \times X$ factors through $\langle \pi_1, \pi_2 \rangle : R \to X \times X$, i.e., $\forall_{n: \mathbb{N}} (p h(n), p h(n+1)) \in R$, thus proving that dependent choice holds under COSHEP. 
 =-- 
+
+(An example of a topos in which COSHEP holds but $1$ is not projective is $Set^C$, where $C$ is the category with three objects and exactly two non-identity arrows $a \to b \leftarrow c$. For if $U: C \to Set$ is a functor with $U(a) = \{a_0\}$, $U(b) = \{b_0, b_1\}$, and $U(c) = \{c_0\}$, with $U(a \to b)(a_0) = b_0$ and $U(c \to b)(c_0) = b_1$, then the map $U \to 1$ is epi but has no section, so $1$ is not projective. On the other hand, as noted below, every presheaf topos satisfies COSHEP.) 
 
 COSHEP also implies several weaker forms of choice, such as the [[axiom of multiple choice]] and [[WISC]].  In [[predicative mathematics]], it can be combined with the existence of [[function sets]] to show the [[subset collection]] axiom.
 
