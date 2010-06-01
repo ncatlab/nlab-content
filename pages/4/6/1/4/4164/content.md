@@ -1,4 +1,9 @@
-[[!redirects Reeh-Schlieder Theorem]]
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
@@ -36,8 +41,9 @@ The Reeh-Schlieder theorem can be generalized from [[Minkowski spacetime]] to mo
 
 About work to avoid the Reeh-Schlieder theorem and its counter intuitive implications see this:
 
-* Hans Halvorson: _Reeh-Schlieder Defeats Newton-Wigner: On alternative localization schemes in relativistic quantum field theory_ ([arXiv](http://xxx.uni-augsburg.de/abs/quant-ph/0007060))
+* [[Hans Halvorson]], _Reeh-Schlieder Defeats Newton-Wigner: On alternative localization schemes in relativistic quantum field theory_ ([arXiv](http://xxx.uni-augsburg.de/abs/quant-ph/0007060))
 
 [[!redirects Reeh-Schlieder Theorem]]
 [[!redirects Reeh-Schlieder property]]
 [[!redirects Reeh-Schlieder Property]]
+
