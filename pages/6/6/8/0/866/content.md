@@ -5,7 +5,7 @@ A _relation_ is the extension of a [[predicate]].  That is, if you have a statem
 
 ### General case ###
 
-Given a family $(A_i)_{i: I}$ of [[set]]s, a **relation** on that family is a [[subset]] of the [[cartesian product]] $\prod_{i: I} A_i$.  Equivalently, a **relation** is a [[function]] from $\prod_{i: I} A_i$ to the set $\TV$ of [[truth value]]s (because $\TV$ is the [[subobject classifier]] in [[Set]]).
+Given a [[family of sets|family]] $(A_i)_{i: I}$ of [[set]]s, a **relation** on that family is a [[subset]] of the [[cartesian product]] $\prod_{i: I} A_i$.  Equivalently, a **relation** is a [[function]] from $\prod_{i: I} A_i$ to the set $\TV$ of [[truth value]]s (because $\TV$ is the [[subobject classifier]] in [[Set]]).
 
 
 ### Special cases ###
