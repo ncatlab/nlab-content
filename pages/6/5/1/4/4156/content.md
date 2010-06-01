@@ -49,7 +49,7 @@ This proof clarified the different conditions one has to impose, these are:
 ### Definition in the Haag-Kastler approach ###
 Let $\mathcal{M}(\mathcal{J})$ be a [[AQFT|Haag-Kastler net]] on [[Minkowski spacetime]].
 
-The PCT operator $\Theta$ is an anti-linear automorphism, that is for every local algebra $\mathcal{M}(\mathcal{O})$, elements $A, B \in \mathcal{M}(\mathcal{O})$ and $\lambda \in \mathbb{C}$ we have the relations
+A PCT operator $\Theta$ is an anti-linear automorphism, that is for every local algebra $\mathcal{M}(\mathcal{O})$, elements $A, B \in \mathcal{M}(\mathcal{O})$ and $\lambda \in \mathbb{C}$ we have the relations
 $$
 \Theta(AB) = \Theta(A) \Theta(B) \; \; \text{and} \; \; \Theta(\lambda A) = \overline \lambda \Theta(A)
 $$
@@ -64,7 +64,8 @@ $$
 $$
 
 Further, $\Theta$ has to transform every [[charged sector]] into its conjugate sector.
-A PCT theorem in this approach is a theorem that states suffcient conditions such that an PCT operator $\Theta$ exists.
+
+A PCT theorem in this approach is a theorem that states sufficient conditions such that a PCT operator $\Theta$ exists.
 
 ## Properties ##
 ...
