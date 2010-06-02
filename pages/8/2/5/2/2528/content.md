@@ -47,6 +47,8 @@ The sorts in [[Michael Makkai]]\'s [[FOLDS]] are presets.  FOLDS is very differe
 
 If you are willing to accept COSHEP, then you can define a preset to be a [[projective set]].  (With the full axiom of choice, therefore, a preset is simply a set.)  Alternatively, you might forgo presets as such but define a prefunction between sets to be an entire relation; although not everything translates, some of the properties are similar.
 
+See [[basic preset theory]] for an attempt at a basic ground theory that, with additional axioms, can turn into any of several variants.
+
 
 ## Applications
 
