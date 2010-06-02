@@ -62,29 +62,26 @@ The Grothendieck construction is one of the central aspects of [[category theory
 
 ## Definition 
 
+Let [[Cat]] be the [[2-category]] of [[categories]], [[functor]]s and [[natural transformation]]s.  In line with the philosophy of [[generalized universal bundles]], the "universal [[Cat]]-[[bundle]]" is $Cat_{*,\ell} \to Cat$.  Here $Cat_{*,\ell}$ denotes the (2-)category of "lax-[[pointed object|pointed]]" [[categories]], also known as the "lax slice" of $Cat$ under the [[terminal category]] $*\in Cat$.  Its objects are pointed categories, i.e. pairs $(A,a)$ where $A$ is a category and $a$ is an object of $A$, and its morphisms $(A,a) \to (B,b)$ are pairs $(f,\gamma)$ where $f\colon A\to B$ is a functor and $\gamma\colon f(a)\to b$ is a morphism in $B$.  The projection $Cat_{*,\ell} \to Cat$ is just the forgetful functor.
 
-Let [[Cat]] be the [[2-category]] of [[categories]], [[functor]]s and [[natural transformation]]s.,
-
-Recall from [[generalized universal bundle]] that the "universal [[Cat]]-[[bundle]]" is $Cat_* \to Cat$, where $Cat_*$ is the category of [[pointed object|pointed]] [[categories]].
-
-Then for $F : C^{op} \to Cat$ a [[pseudofunctor]] from the [[opposite categor]] of $C$ (which is just conventional, but useful), the **Grothendieck construction** for $F$ is the (strict) [[pullback]] $ p : \int F \to C$ of $Cat_* \to Cat$ along $F$:
+Then if $F\colon C \to Cat$ is a [[pseudofunctor]] from a category $C$ to $Cat$, the **Grothendieck construction** for $F$ is the (strict) [[2-pullback]] $ p : \int F \to C$ of $Cat_{*,\ell} \to Cat$ along $F$:
 
 $$
   \array{
-    \left(\int F\right)^{op} &\to& Cat_*
+    \int F &\to& Cat_{*,\ell}
     \\
-    {}^{\mathllap{p^{op}}}\downarrow && \downarrow
+    {}^{p}\downarrow && \downarrow
     \\
-    C^{op} &\stackrel{F}{\to}& Cat
+    C &\overset{F}{\to}& Cat
   }
   \,.
 $$
 
-This means that 
+This means that
 
 * the objects of $\int F$ are pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$ 
 
-* and morphisms in $\int F$ are given by pairs $(c \stackrel{f}{\to} c', \alpha : F(f)(a) \to a')$ with $f \in C^{op}$. This may be visualized as
+* and morphisms in $\int F$ are given by pairs $(c \overset{f}{\to} c', F(f)(a) \overset{\alpha}{\to} a')$. This may be visualized as
 
 $$
   \int F = 
@@ -92,7 +89,7 @@ $$
   \array{
     && {*}
     \\
-    & {}^a\swarrow &\Downarrow^{\alpha}& \searrow^{a'}
+    & {}^a\swarrow &\seArrow^{\alpha}& \searrow^{a'}
     \\
     F(c) && \stackrel{F(f)}{\to} && F(c')
     \\
@@ -106,10 +103,33 @@ $$
 This extends to a 2-functor between [[bicategories]]
 
 $$
-  \int \;\; : \;\; [C^{op}, Cat] \to Cat/C
+  \int \;\; : \;\; [C, Cat] \to Cat/C
 $$
 
 from [[pseudofunctor]]s on $C$ to the [[overcategory]] of [[Cat]] over $C$.
+
+The more commonly described version of this construction works instead on contravariant pseudofunctors, i.e. pseudofunctors $C^{op}\to Cat$.  In this case we use instead the "universal $Cat$-cobundle" $(Cat_{*,c})^{op} \to Cat^{op}$, where $(Cat_{*,c})$ is the colax slice, whose objects are  again pointed categories $(A,a)$, but whose morphisms $(A,a) \to (B,b)$ are pairs $(f,\gamma)$ where $f\colon A\to B$ and $\gamma\colon b \to f(a)$.  Now the 2-pullback
+
+$$
+  \array{
+    \int F &\to& (Cat_{*,c})^{op}
+    \\
+    {}^{\mathllap{p}}\downarrow && \downarrow
+    \\
+    C &\stackrel{F}{\to}& Cat^{op}
+  }
+  \,.
+$$
+
+describes a 2-functor
+
+$$ \int \quad\colon\quad [C^{op},Cat] \to Cat/C. $$
+
+In this case,
+
+* the objects of $\int F$ are again pairs $(c,a)$, where $c \in Obj(C)$ and $a \in Obj(F(c))$, but
+
+* the morphisms in $\int F$ from $(c,a)$ to $(c',a')$ are pairs $(c \overset{f}{\to} c', a \overset{\alpha}{\to} F(f)(a'))$.
 
 
 ## The equivalence between fibrations and pseudofunctors
@@ -124,7 +144,7 @@ and then state the main equivalence theorem.
 
 ### The bicategory of pseudofunctors.
 
-A [[pseudofunctor]] from a 1-[[category]] $C$ to a [[2-category]] $([[bicategory]]) $A$ is nothing but a [[2-functor]] between bicategories, with the ordinary category regarded as a special bicategory.
+A [[pseudofunctor]] from a 1-[[category]] $C$ to a [[2-category]] ([[bicategory]]) $A$ is nothing but a (non-strict) [[2-functor]] between bicategories, with the ordinary category regarded as a special bicategory.
 
 We write $[C^{op}, A]$ for the [[2-functor]] 2-category from the 
 [[opposite category]] of $C$ to $A$ (the $op$ here is just convention):
@@ -217,13 +237,15 @@ $$
   \,.
 $$
 
+In fact, it is more than that: it is an equivalence of [[strict 2-categories]], in the sense of strict 2-category theory, i.e. an equivalence of $Cat$-[[enriched categories]].
+
 When restricted to pseudofunctors that factor through [[Grpd]] $\hookrightarrow Cat$ it factors through [[fibrations in groupoids]]
 
 $$
   \int : [C^{op}, Grpd] \to Fib_{Grpd}(C)\hookrightarrow Cat/C
 $$
 
-and establishes an equivance of bicategories
+and establishes a similar equivalence
 
 $$
   [C^{op}, Grpd] \simeq Fib_{Grpd}(C)
