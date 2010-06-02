@@ -60,4 +60,6 @@ Selecta Math. (N.S.) 6 (2000), no. 1, 105--130, [MR2002i:17022](http://www.ams.o
 
 and of chiral algebras due [[Dmitry Tamarkin]].
 
+* Ruthi Hortsch, Igor Kriz, Ales Pultr, _A universal approach to vertex algebras_, [arxiv/1006.0027](http://arxiv.org/abs/1006.0027)
+
 [[!redirects vertex algebra]]
