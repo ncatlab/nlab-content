@@ -352,37 +352,20 @@ Compare this with the discussion at [[Kan extension]].
 
 From this perspective, a limit is a special case of a [[Kan extension]], as described there, namely a Kan extension to the [[point]].
 
-# Definition for $(\infty,1)$-categories #
+# Generalizations #
 
-The definition of a limit as a terminal cone
-has a straightforward generalization to the 
-context of 
-[[(infinity,1)-category|(infinity,1)-categories]].
+The notion of limit, being fundamental to category theory, generalizes to many other situations.  Examples include the following.
 
-
-+-- {: .un_defn}
-###### Definition
-
-For $K$ and $C$ two [[quasi-category|quasi-categories]] and $F : K \to C$ a morphism of [[quasi-category|quasi-categories]], the **limit** over $F$ is, if it exists, the [[terminal object in a quasi-category|quasi-categorical terminal object]] in the [[over quasi-category|over quasi-categories]] $C_{/F}$:
-
-$$
-  lim F := TerminalObj(C_{/F})
-  \,.
-$$
-
-=--
-
-For more details see [[limit in quasi-categories]].
-
-
-
+* In [[enriched category theory]] one has the notion of [[weighted limit]].  This makes sense in ordinary category theory as well, but it turns out that in that case all weighted limits reduce to ordinary "conical" ones.
+* Weighted limits generalize further to the notion of limit in a [[2-category equipped with proarrows]], or to a [[Yoneda structure]].
+* In [[2-category theory]] one has the notion of a [[2-limit]].
+* Similarly, in [[(infinity,1)-category]] theory there is a notion of a limit.  Using quasicategories as a model for $(\infty,1)$-categories, the definition is a straightforward extension of the one as a terminal cone: it is simply a [[terminal object in a quasi-category|quasi-categorical terminal object]] in the quasicategory of cones.  See [[limit in quasi-categories]].
+* One expects that similarly, all sorts of [[higher categories]] have their own appropriate notions of limit and colimit.  
 
 
 #Examples#
 
 * For a pedagogical list of examples see [[limits and colimits by example]].
-
-## Types of shapes of limit cones ##
 
 Here are some important examples of limits, classified by the shape of the [[diagram]]:
 
@@ -393,7 +376,37 @@ Here are some important examples of limits, classified by the shape of the [[dia
 * A limit over a [[finite category]] is a [[finite limit]].
 * Another important "shape" of limits are those that give rise to [[end]]s.
 
-##Properties#
+# Computation of limits #
+
+Frequently some limits can be computed in terms of other limits.  This makes things easier since we only have to assume that categories have, or functors preserve, some easier-to-verify class of limits in order to obtain results about a larger one.
+
+The most common example of this is the computation of limits in terms of products and equalizers.  Specifically, if the limit of $F : D^{op} \to C$ and the [[products]] $\prod_{d\in Obj(D)} F(d)$ and $\prod_{f\in Mor{d}} F(s(f))$ all exist, then $lim F$ is a [[subobject]] of $\prod_{d\in Obj(D)} F(d)$, namely the [[equalizer]] of
+
+$$
+  \prod_{d \in Obj(D)}
+  F(d)
+  \stackrel{\prod_{f \in Mor(d)} (F(f) \circ p_{t(f)}) }{\to}  
+  \prod_{f \in Mor(D)}
+  F(s(f))
+$$
+
+and
+
+$$
+  \prod_{d \in Obj(D)}
+  F(d)
+  \stackrel{\prod_{f \in Mor(d)} (p_{s(f)}) }{\to}  
+  \prod_{f \in Mor(D)}
+  F(s(f))  
+  \,.
+$$
+
+Conversely, if both of these products exist and so does the equalizer of this pair of maps, then that equalizer is a limit of $F$.  In particular, therefore, a category has all limits as soon asit has all products and equalizers, and a functor defined on such a category [[preserved limit|preserves]] all limits as soon as it preserves products and equalizers.
+
+Another example is that all [[finite limits]] can be computed in terms of [[pullbacks]] and a [[terminal object]].
+
+
+#Properties#
 
 +-- {: .un_prop}
 ###### Limits in Set are hom-sets
@@ -430,9 +443,10 @@ Let $D$ be a small category and let $D'$ be any category. Let $C$ be a category 
 +-- {: .un_prop}
 ###### Proposition -- right adjoints commute with limits
 
-Let $R : C \to C'$ be a functor that is [[right adjoint]] to some functor $L : C' \to C$. Let $D$ be a small category such that $C$ admits limits of shape $D$. Then $R$ commutes with $D$-shaped limits in $C$ in that
+Let $R : C \to C'$ be a functor that is [[right adjoint]] to some functor $L : C' \to C$. Let $D$ be a small category such that $C$ admits limits of shape $D$. Then $R$ [[preserved limit|commutes with]] $D$-shaped limits in $C$ in that
 
 for $F : D^{op} \to C$ some diagram, we have
+
 $$
   R(lim F) \simeq lim (R \circ F)
   \,.
@@ -480,34 +494,6 @@ $$
 ######Proof
 
 This follows from the above proposition and the characterization of the limit as right adjoint to the functor $const$ defined above in the section on adjoints.
-=--
-
-+-- {: .un_prop}
-###### Proposition -- limits are equalizers of products
-
-The limit of $F : D^{op} \to C$ is, if it exists, a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
-
-$$
-  \prod_{d \in Obj(D)}
-  F(d)
-  \stackrel{\prod_{f \in Mor(d)} (F(f) \circ p_{t(f)}) }{\to}  
-  \prod_{f \in Mor(D)}
-  F(s(f))
-$$
-
-and
-
-$$
-  \prod_{d \in Obj(D)}
-  F(d)
-  \stackrel{\prod_{f \in Mor(d)} (p_{s(f)}) }{\to}  
-  \prod_{f \in Mor(D)}
-  F(s(f))  
-  \,.
-$$
-
-In particular therefore, a category has all limits already if it has all products and equalizers.
-
 =--
 
 See [[limits and colimits by example]] for what this formula says for instance for the special case $C =$ [[Set]].
