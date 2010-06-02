@@ -19,13 +19,13 @@ The Reeh-Schlieder theorem is of central importance for the mathematical structu
 Complementary statements about the asymptotic "vacuum-like appearance" of localized observables exist, too, and are commonly called [[cluster theorem]]s.
 
 ## Abstract ##
-...
+We state the theorem for a vacuum representation on [[Minkowski spacetime]]. Since the theorem has some controverse consequences for the physical interpretation of the theory, some of which will be mentioned in the corresponding paragraph, we take a quick look at which axioms really enter into the proof of the theorem. The references include work on the generalization of the theorem to more general [[spacetimes]] as well as work concerned with dodging the theorem and its consequences by choosing an alternative set of axioms.
 
 ## Definition ##
 All necessary definitions can be found at [[Haag-Kastler vacuum representation]].
 
 ## the Theorem ##
-Both the statement and the proof we mention here refer to the [[Haag-Kastler vacuum representation]], but both the statement and the proof can be generalized resp. translated to different context, like e.g. to a [[Wightman theory]].
+Both the statement and the proof we mention here refer to the [[Haag-Kastler vacuum representation]], but both the statement and the proof can be generalized resp. translated to different contexts, like e.g. to a [[Wightman theory]], to more general spacetimes and to other states than the vacuum vector.
 
 +-- {: .un_theorem}
 ###### Reeh-Schlieder
@@ -38,7 +38,7 @@ This proof does not strive for maximal generality, for example we specialize to 
 
 First some preliminary observations:
 
-The covariance axiom says that we have a strongly continuous representation $U$ of the Poincare group on every local algebra, the SNAG-Theorem (see [[spectral measure]]) therefore provides us with a spectral measure for the translation subgroup $\mathcal{T}$, that we identify with $\mathbb{R}^4$
+The covariance axiom says that we have a strongly continuous representation $U$ of the Poincare group, the SNAG-Theorem (see [[spectral measure]]) therefore provides us with a spectral measure for the translation subgroup $\mathcal{T}$, that we identify with $\mathbb{R}^4$
 
 $$
 \mathcal{U}(x) = \int_{k\in \mathbb{R}^4} e^{i \langle x, k\rangle} \mathcal{P}(k) \qquad \forall x \in \mathcal{T} \cong \mathbb{R}^4
@@ -83,24 +83,51 @@ $$
 f_{v, A_0} (x) = \langle v, U(x) A_0 \Omega \rangle = \langle v, U(x) A_0 U(x)^{-1} \Omega \rangle = 0
 $$
 
-Now we see from our previous considerations that $f_{v, A_0}$ is holomorphic in a complex neighborhood of $V$, vanishes on $V$ and has therefore to vanish everywhere. 
+Now we see from our previous considerations that there is a function holomorphic in a complex neighborhood of $V$ that restricts to $f_{v, A_0}$ on $V$, vanishes on $V$ and has therefore to vanish everywhere. That means the previous equality holds for arbitrary translations $U(x), x \in \mathbb{R}^4$. 
 
-Recall that weak additivity holds in the vacuum representation. This implies that  $\langle v, R \Omega \rangle = 0$ for all $R \in \mathcal{R}$, the global algebra. But since $\mathcal{R} \Omega$ is dense in $\mathcal{H}$ by assumption (see the axiom about the existence of a vacuum vector), we get that $v$ must be zero, contradiction: $\Omega$ has to be cyclic for $\mathcal{M}(\mathcal{O})$.
+Recall that weak additivity holds in the vacuum representation. This together with the previous statement implies that  $\langle v, R \Omega \rangle = 0$ for all $R \in \mathcal{R}$, the global algebra. But since $\mathcal{R} \Omega$ is dense in $\mathcal{H}$ by assumption (see the axiom about the existence of a vacuum vector), we get that $v$ must be zero, contradiction: $\Omega$ has to be cyclic for $\mathcal{M}(\mathcal{O})$.
 
 Now the proof that $\Omega$ is separating for $\mathcal{M}(\mathcal{O})$:
 
-Choose a bounded open set $\mathcal{O}_2$ such that $\mathcal{O} \perp \mathcal{O}_2$, then by locality we have $\mathcal{M}(\mathcal{O}) \subseteq  (\mathcal{M}(\mathcal{O}_2))'$. We know already that $\Omega$ is cyclic for $(\mathcal{M}(\mathcal{O}_2))$, therefore it is separating for  $\mathcal{M}(\mathcal{O})$.
+Choose a bounded open set $\mathcal{O}_2$ such that $\mathcal{O} \perp \mathcal{O}_2$, then by locality we have $\mathcal{M}(\mathcal{O}) \subseteq  (\mathcal{M}(\mathcal{O}_2))'$. We know already that $\Omega$ is cyclic for $\mathcal{M}(\mathcal{O}_2)$, therefore it is separating for  $\mathcal{M}(\mathcal{O})$.
 
 =--
 
-Remark: TODO: which parts of the axioms are really necessary?
+## Preconditions Needed for the Proof ##
+Since the theorem and its consequences are counterintuitive for the physical interpretation of the theory, it is worthwhile to take a look which axioms enter the proof: Is the theorem a true feature of [[quantum field theory]] or is it an artifact caused by ill chosen assumptions?
+
+The proof that the vacuum vector is cyclic given in the previous paragraph makes use of:
+
+1. Strong representation of the translation subgroup and the spectrum condition.
+
+Note that we do not needed the representation of the whole Poincare group, but really only that of the translations.
+
+2. isotony,
+
+3. weak additivity and
+
+4. of course the existence of the vacuum vector itself and that $\mathcal{R} \Omega$ is dense in $\mathcal{H}$.
+
+Now weak additivity can be proven to hold using isotony and additiviy. 
+
+It is sometimes argued that the Reeh-Schlieder theorem - that is the part that the vacuum vector is cyclic for every local algebra - is somehow a contradiction to _locality_ . The remarkable fact in this context is that  **the locality axiom does not enter the proof** that the vacuum vector is cyclic. (It was used for the proof that the vacuum vector is also separating, though).
+
+For some further elaboration of this point see the paper by Halvorson cited in the references.
 
 ## Consequences ##
-As several authors note the fact that the vacuum vector is separable implies that there cannot be a number operator $N$ associated to any bounded open set $\mathcal{O}$, because $N$ would anihilate the vacuum vector.
+The fact that the vacuum vector is separating implies that there cannot be a number operator $N$ associated to any bounded open set $\mathcal{O}$, because $N$ would annihilate the vacuum vector. This implies that the notion of _particles_ in relativistic quantum physics cannot be quite as simple as in classical physics or in nonrelativistic quantum physics.
+
+More generally there cannot be a nonzero localized observable that annihilates the vacuum. This implies that the stress-energy tensor, if localized to a bounded region, cannot be a positive operator, since its expectation value in the vacuum is zero, in fact it cannot be bounded from below. This is sometimes mentioned as a pathology occuring in general spacetimes that do not have a global timelike [[Killing vector]] field, but in our context it actually holds in [[Minkowski spacetime]] in the vacuum state.
+
+The fact that the vacuum vector is cyclic means that any arbitrary state in the vacuum representation can be approximated by measurements in an arbitrary small bounded open region applied to the vacuum vector. This fact is sometimes referred to as the existence of [[vacuum fluctuations]]. A direct consequence of the Reeh-Schlieder theorem is therefore that to any regions $\mathcal{O}_1, \mathcal{O}_2$, no matter how far apart, there are many projections in the corresponding local algebras that are positively correlated in the vacuum state.
 
 ## References ##
 
 * Wikipedia on the [Reeh-Schlieder Theorem](http://en.wikipedia.org/wiki/Reeh%E2%80%93Schlieder_theorem)
+
+A discussion of the consequences for the physical interpretation of the Reeh-Schlieder theorem and further references can be found here:
+
+* Stephen J. Summers: _Yet More Ado About Nothing: The Remarkable Relativistic Vacuum State_ ([arXiv] (http://de.arxiv.org/abs/0802.1854v2))
 
 The Reeh-Schlieder theorem can be generalized from [[Minkowski spacetime]] to more general [[spacetimes]], see for example:
 
