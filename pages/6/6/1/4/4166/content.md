@@ -82,7 +82,7 @@ Here:
 
 * $K(-)$ denotes forming the [[algebraic K-theory]] spectrum of [[ring spectrum|ring spectra]].
 
-So by the general formula for algebraic K-theory for ring spectra, this is 
+So by the general formula for [[algebraic K-theory]] for [[ring spectrum|ring spectra]], this is 
 
 $$
  K(ku) \simeq \mathbb{Z} \times B Gl(ku)^+
@@ -218,5 +218,5 @@ $$
 (the first summand is $\zeta$, the second $\nu$).
 
 
-Th: Krogh has an [[orientation]] theory for 2-vector bundles which says that $j(\nu)$
+Thomas Krogh has an [[orientation]] theory for 2-vector bundles which says that $j(\nu)$
 is not orientable.
