@@ -44,4 +44,6 @@ There is also something relevant in this article:
 
 * [[Mathhieu Anel]], _Grothendieck topologies from unique factorization systems_ ([arXiv:0902.1130](http://arxiv.org/abs/0902.1130))
 
+* [[Mamuka Jibladze]], _Homotopy types for "gros" toposes_, thesis, [pdf](http://www.rmi.acnet.ge/~jib/thesis.pdf)
+
 [[!redirects gros topos]]
