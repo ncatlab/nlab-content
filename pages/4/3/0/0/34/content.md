@@ -69,7 +69,9 @@ Higher category theory is still very much in the making.
 
 * [[geometric definition of higher category]]
 
-  * [[(infinity,1)-category]]
+  * [[(∞,1)-category]]
+
+    * [[category with weak equivalences]]
 
     * [[quasi-category]]
 
@@ -79,19 +81,25 @@ Higher category theory is still very much in the making.
 
     * [[Segal category]]
 
-  * [[(infinity,2)-category]]
+  * [[(∞,2)-category]]
 
-  * [[(infinity,n)-category]]
+  * [[(∞,n)-category]]
 
 * [[algebraic definition of higher category]]
 
   * [[Trimble n-category]]
 
-  * [[weak omega-category]]
+  * [[weak ∞-category]]
 
-    * [[strict omega-category]]
+    * [[strict ∞-category]]
 
-  * [[A-infinity category]]
+  * [[simplicial T-complex]]
+
+  * [[model structure on algebraic fibrant objects|algebraic Kan-complex]]
+
+  * [[model structure on algebraic fibrant objects|algebraic quasi-category]]
+
+  * [[A-∞ category]]
 
   * [[dg-category]]
 
