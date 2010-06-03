@@ -592,9 +592,24 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 
 
 
+## Examples
 
 
+* [[Lie group]]
 
+* [[Lie groupoid]], [[differentiable stack]]
+
+  * [[Atiyah Lie groupoid]]
+
+  * [[path groupoid]]
+
+* Lie [[∞-group]]
+
+  * [[string 2-group]]
+
+  * [[fivebrane 6-group]]
+
+* [[schreiber:path ∞-groupoid]]
 
 
 
