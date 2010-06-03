@@ -14,5 +14,6 @@ Analogous to how the [[infinitesimal object|infinitesimal]] version of a [[Lie g
 ## Examples
 
 * [[string 2-group]]
+* The crossed module $Spin(n) \to O(n)$ gives rise to a Lie 2-group.
 
 [[!redirects Lie 2-groups]]
