@@ -21,11 +21,11 @@ If $S$ on the other hand is a category of _all test [[space]]s_ in some sense, s
 
 etc. one call $T$ a **gros topos** .
 
-Objects in a gros topos may be thought of as [[space]]s _modeled on $S$_ in the sense described at [[motivation for sheaves, cohomology and higher stacks]].
+Objects in a gros topos may be thought of as [[space]]s _modeled on $S$_ in the sense described at [[motivation for sheaves, cohomology and higher stacks]] and at [[space]].
 
-Also the objects in a petit topos $Sh(Op(X))$ are a kind of generalized spaces, but generalized spaces _over $X$_ on which the rigid structure of morphisms in $Op(X)$ (only inclusions of subsets, no more general maps) induces a correspondingly rigid structure so that they are not all that general. In fact, $Sh(Op(X))$ is equivalent to [[etale space]]s over $X$.
+Also the objects in a petit topos $Sh(Op(X))$ -- a [[category of sheaves]] on the [[category of open subsets]] of a [[topological space]] $X$ -- are a kind of generalized spaces, but generalized spaces _over $X$_ on which the rigid structure of morphisms in $Op(X)$ (only inclusions of subsets, no more general maps) induces a correspondingly rigid structure so that they are not all that general. In fact, $Sh(Op(X))$ is equivalent to [[etale space]]s over $X$.
 
-There is another notion of 'large' topos associated to a space $X$ (or more generally an object in a site), namely the topos of sheaves on the slice category $Top/X$, with the obvious notion of covering family; a family is covering if it is so under the functor $Top/X \to Top$. This site is often referred to as the _large site_ of $X$, as compared to the small site, which is $Op(X)$ as above. The topos $Sh(Top/X)$ can be viewed as spaces modelled $Top$ (or more generally some site), but parameterised by the representable sheaf $X$.
+There is another notion of 'large' topos associated to a space $X$ (or more generally an object in a site), namely the topos of sheaves on the [[slice category]] $Top/X$, with the obvious notion of covering family; a family is covering if it is so under the functor $Top/X \to Top$. This site is often referred to as the _large site_ of $X$, as compared to the small site, which is $Op(X)$ as above. The topos $Sh(Top/X)$ can be viewed as spaces modelled [[Top]] (or more generally some site), but parameterised by the representable sheaf $X$.
 
 ## Definition
 
