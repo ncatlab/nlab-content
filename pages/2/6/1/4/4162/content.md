@@ -1,10 +1,11 @@
-
 <div class="rightHandSide toc">
 [[!include physicscontents]]
 </div>
 
 **Under Construction**
-
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ## Bell's Theorem
 
