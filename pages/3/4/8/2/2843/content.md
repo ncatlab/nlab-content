@@ -53,3 +53,9 @@ We claim that $\nabla_i|_{U_i \cap U_j} = \nabla_j|_{U_i \cap U_j}$.  This is an
 ## Christoffel symbols ##
 
 In parts of the literature the Levi-Citita connection is treated in terms of [[Christoffel symbol]]s. See there for more details.
+
+## Applications in physics
+
+In the [[physics]], the theory of [[general relativity]] models the field of [[gravity]] in terms of the Levi-Civita connection on a [[Lorentzian manifold]]. See there for more details.
+
+
