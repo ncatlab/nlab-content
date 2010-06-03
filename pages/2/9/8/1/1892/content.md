@@ -37,7 +37,7 @@ Never worry about "breaking" or "ruining" anything. Each and every revision is s
 +-- {: .un_remark}
 ###### Learn by example
 
-A good way to learn about how to format $n$Lab pages is to hit the "Edit" button on an existing page, look at the content and see how it is written, then hit "Cancel". There will be no record that you ever hit "Edit".
+A good way to learn about how to format $n$Lab pages is to look at the source of another page.  Near the bottom of each page is a list of "views" (these are different displays of the page) one of which is "source".  This shows the raw code that generates that page and can be cut-and-pasted into another page.
 
 See the [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) to get an impression for what other contributors are working on currently.
 =--
