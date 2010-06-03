@@ -603,6 +603,8 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 
   * [[path groupoid]]
 
+* [[Lie 2-group]]
+
 * Lie [[∞-group]]
 
   * [[string 2-group]]
