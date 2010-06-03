@@ -18,6 +18,7 @@ in the multisymplectic **extended phase space** of an $n$-dimensional [[classica
 
 =--
 
+See also [[n-plectic geometry]].
 
 **Multisymplectic geometry** is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
 
@@ -461,7 +462,7 @@ In G. E. Kaiser, J. E. Marsden, Geometric methods in mathematical physics, Proc.
 
 * [21] D. J. Saunders, _The Geometry of Jet Bundles_ Lond. Math. Soc. Lect. Notes Ser. 142, Cambr. Univ. Pr., Cambridge, 1989.
 
-A [[higher category theory|higher categorial]] interpretation of 2-plectic geometry is given in
+A [[higher category theory|higher categorial]] interpretation of [[n-plectic geometry|2-plectic geometry]] is given in
 
 * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
