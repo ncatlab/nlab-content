@@ -21,9 +21,9 @@ Beware that this property is pretty much unrelated to that of a functor being an
 ###### Definition
 
 
-A [[functor]] $F : C \to D$ is **final** if for every [[object]] $d \in D$ the [[comma category]] $(F/d)$ is non-empty and [[connected category|connected]].
+A [[functor]] $F : C \to D$ is **final** if for every [[object]] $d \in D$ the [[comma category]] $(d/F)$ is non-empty and [[connected category|connected]].
 
-A [[functor]] $F : C \to D$ is **initial** if the [[opposite category|opposite]] $F^{op} : C^{op} \to D^{op}$ is final, i.e. if for every [[object]] $d \in D$ the [[comma category]] $(d/F)$ is non-empty and [[connected category|connected]].
+A [[functor]] $F : C \to D$ is **initial** if the [[opposite category|opposite]] $F^{op} : C^{op} \to D^{op}$ is final, i.e. if for every [[object]] $d \in D$ the [[comma category]] $(F/d)$ is non-empty and [[connected category|connected]].
 
 =--
 
@@ -84,11 +84,42 @@ The following conditions are equivalent.
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+If $F : C \to D$ is final then $C$ is connected precisely if $D$ is.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+
+If $F_1$ and $F_2$ are final, then so is their composite $F_1 \circ F_2$.
+
+If $F_2$ and the composite $F_1 \circ F_2$ are final, then so is $F_1$.
+
+If $F_1$ is a [[full and faithful functor]] and the composite is cofinal, then both functors seperately are cofinal.
+
+=--
+
+
+
 ## Generalizations
 
 The generalization of the notion of cofinal functor from [[category theory]] to [[(∞,1)-category|(∞,1)]]-[[higher category theory]] is described at
 
 * [[cofinal (∞,1)-functor]].
+
+
+
+## Examples
+
+* If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks that terminal object is final: for every $d \in D$ the [[comma category]] $d/F$ is equivalent to $*$. 
+
+  In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.
+
 
 
 ## References
