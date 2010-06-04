@@ -101,7 +101,21 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
 
 * For $C = $ [[CartSp]] the [[site]] of [[Cartesian space]] with their [[good open cover]] [[coverage]], we have that $Sh(CartSp)$ is locally connected.  An arbitrary $X \in Sh(CartSp)$ is sent to the [[colimit]] $\lim_\to X \in Set$. If $X$ is a [[diffeological space]] or even a [[smooth manifold]], then this is the set of connected components of the underlying topological space.
 
-* Generally, if $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sheaves]], then the left adjoint $\Pi_0$ exists and is given by the colimit functor, by the defining property of the colimit as a left [[Kan extension]] of presheaves.
+* Generally, if $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sheaves]], then the left adjoint $\Pi_0$ exists and is given by the [[colimit]] functor, by the defining property of the colimit as a left [[Kan extension]] of presheaves:
+
+  Write $L : PSh(C) \to Sh(C)$ for [[sheafification]] and assume that 
+  constant presheaves are sheaves. Then
+
+  $$
+    Hom_{Sh(C)}(X, L Const S)
+    \simeq
+    Hom_{PSh(C)}(X, L Const S)
+    \simeq
+    Hom_{PSh(C)}(X, Const S)
+    \simeq
+    Hom_{Set}(\lim_\to X, S)
+    \,.
+  $$
 
 
 
