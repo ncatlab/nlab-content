@@ -13,7 +13,15 @@ Analogous to how the [[infinitesimal object|infinitesimal]] version of a [[Lie g
 
 ## Examples
 
-* [[string 2-group]]
-* The crossed module $Spin(n) \to O(n)$ gives rise to a Lie 2-group.
+* Every [[crossed module]] of Lie groups $(H \to G )$, $G \to Aut(H)$ gives an example of a strict Lie 2-group, using the general relation between crossed modules and [[strict 2-group]]s. 
+
+  For instance the crossed module $Spin(n) \to O(n)$. Or $(U(1) \to 1)$.
+  Etc.
+
+* The [[string 2-group]] $String(G)$ 
+  has various different but equivalent incarnations
+  as a Lie 2-group. One is given by the [[crossed module]]
+  $\hat \Omega_* G \to P_* G$ internal to [[Frechet manifold|Frechet]]
+  Lie groups.
 
 [[!redirects Lie 2-groups]]
