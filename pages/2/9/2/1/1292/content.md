@@ -4,3 +4,11 @@ For any subcategory of an abelian category $A$ one denotes by $\bar{T}$ the full
 has a (nonzero) [[subobject]] from $T$. This becomes an idempotent operation on the class of subcategories of $A$ with $T\subset \bar{T}$ iff $T$ is [[topologizing subcategory|topologizing]].
 Moreover $\bar{T}$ is always thick in the stronger sense.
 [[Serre subcategory|Serre subcategories]] in the stronger sense are those subcategories which are stable under the operation $\bar{}$.
+
+
+[[!redirects thick subcategory]]
+[[!redirects thick subcategories]]
+[[!redirects epaisse subcategory]]
+[[!redirects epaisse subcategories]]
+[[!redirects épaisse subcategory]]
+[[!redirects épaisse subcategories]]
