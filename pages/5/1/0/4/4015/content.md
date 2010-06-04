@@ -28,9 +28,9 @@ Although the fan theorem is about bars, it is different from the [[bar theorem]]
 
 Let $\mathbb{B}$ be the set $\{0,1\}$ of binary digits (bits) and $\mathbb{N}$ the set $\{0,1,2,\ldots\}$ of natural numbers (numbers).  Given a [[set]] $A$, let $A^*$ be the set of finite sequences of elements of $A$, let $A^{\mathbb{N}}$ be the set of infinite sequences of elements of $A$, and let $\mathcal{P}_{\Delta}A$ be the set of decidable subsets of $A$.  Then the fan theorem is about (elements of) $\mathbb{B}^*$, $\mathbb{B}^{\mathbb{N}}$, and $\mathcal{P}_{\Delta}\mathbb{B}^*$.
 
-However, the sets $\mathbb{N}$, $\mathbb{B}^*$, and $\mathbb{N}^*$ are all isomorphic.  Similarly, the sets $\mathbb{B}^{\mathbb{N}}$, $\mathbb{N}^{\mathbb{N}}$, $\mathcal{P}_{\Delta}\mathbb{N}$, $\mathcal{P}_{\Delta}\mathbb{B}^*$, and $\mathcal{P}_{\Delta}\mathbb{N}^*$ are all isomorphic.  In much of the literature on bars, one tacitly uses all of these isomorphisms, taking $\mathbb{N}$ and $\mathbb{N}^{\mathbb{N}}$ as chosen representatives of their isomorphism classes.  Thus, everything in sight is either a natural number or an infinite sequence of natural numbers.
+However, the sets $\mathbb{N}$, $\mathbb{B}^*$, and $\mathbb{N}^*$ are all isomorphic.  Similarly, the sets $\mathbb{B}^{\mathbb{N}}$, $\mathcal{P}_{\Delta}\mathbb{N}$, $\mathcal{P}_{\Delta}\mathbb{B}^*$, and $\mathcal{P}_{\Delta}\mathbb{N}^*$ are all isomorphic.  In much of the literature on bars, one tacitly uses all of these isomorphisms, taking $\mathbb{N}$ and $\mathbb{B}^{\mathbb{N}}$ as chosen representatives of their isomorphism classes.  Thus, everything in sight is either a natural number or an infinite sequence of bits.
 
-The fan theorem is hard enough to understand when $\alpha$ is an infinite sequence and $\bar \alpha n$ is a finite sequence; it is even harder to understand when $\bar \alpha n$ is a number that bears no immediate relationship to the numbers in the sequence $\alpha$.
+The fan theorem is hard enough to understand when $\alpha$ is an infinite sequence of bits and $\bar \alpha n$ is a finite sequence of bits; it is even harder to understand when $\bar \alpha n$ is a natural number that bears no immediate relationship to the digits in the sequence $\alpha$.
 
 
 ### Variations
