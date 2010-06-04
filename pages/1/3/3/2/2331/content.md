@@ -217,6 +217,8 @@ __253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9);
 
 * W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
 
+* M. Talpo, [[Angelo Vistoli|A. Vistoli]], _Deformation theory from the point of view of fibered categories_, [arxiv/1006.0497](http://arxiv.org/abs/1006.0497)
+
 * B. Mazur, _Perturbations, deformations, and variations (and "Near-misses") in Geometry, Physics, and Number Theory_, [BAMS 41(3), 307-336](http://www.ams.org/bull/2004-41-03/S0273-0979-04-01024-9/S0273-0979-04-01024-9.pdf)
 
 * M. Artin, _Deformations of singularities_, TATA Lecture Notes vol. 54.
