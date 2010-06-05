@@ -10,6 +10,10 @@ See also
 
 ***
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ##General idea##
 
 A _bundle gerbe_ is a categorification of a transition function of a [[principal bundle]]. For that reason, it is sometimes also addressed as a _transition bundle_.
@@ -394,9 +398,13 @@ The generalization to unoriented surfaces (hence to type I strings) was given in
 
 * K. Waldorf, C. Schweigert & U. S., _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
 
+## Related entries
+
+* [[transgression of bundle gerbes]]
+
 ##References##
 
-Taken from two blog posts:
+The above was taken from two blog posts:
 
 * Urs Schreiber, [Bundle Gerbes: General Idea and Definition](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes.html)
 
