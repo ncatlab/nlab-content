@@ -54,6 +54,8 @@
 
 * [[geometric morphism]]
 
+  * [[direct image]]/[[inverse image]]
+
   * [[essential geometric morphism]]
 
   * [[geometric embedding]]
