@@ -17,7 +17,7 @@ A *cylinder on a presheaf* $X$ is a presheaf $I X$ with the following data:
 
 That is, a cylinder is an object $I X$ with the morphisms above making the diagram below commute: 
 
-
+(PLACEHOLDER!)
 
 A morphism of cylinders on presheaves $X$ and $Y$ is given by a pair of morphisms $\phi:X\to Y$ and $\psi:I X\to I Y$ making the following diagram commute:
 
