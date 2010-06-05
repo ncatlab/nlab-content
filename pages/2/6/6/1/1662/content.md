@@ -10,3 +10,7 @@ S          & \hookrightarrow & Y
 } $$
 
 For a generalisation to [[sheaf|sheaves]], see [[inverse image]].
+
+
+[[!redirects preimage]]
+[[!redirects preimages]]
