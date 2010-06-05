@@ -1,6 +1,6 @@
 ## Idea ##
 
-Let $C$ be a category with a [[pretopology]] $J$ (i.e. a [[site]]) and $a$ an object of $C$. As an analogy with sheaves on a topological space $X$, which are defined on the site $Op(X)$ of open sets of $X$, we can try to define sheaves on $a$, using the elements of covering families of $a$ from $J$. This is called the **small site** of $a$, in contrast to the [[large site of an object in a site|large site]] of $a$.
+Let $C$ be a category with a [[pretopology]] $J$ (i.e. a [[site]]) and $a$ an object of $C$. As an analogy with sheaves on a topological space $X$, which are defined on the site $Op(X)$ of open sets of $X$, we can try to define sheaves on $a$, using the elements of covering families of $a$ from $J$. This is called the **little site** of $a$, in contrast to the [[big site]] of $a$ which is the slice category $C/a$ with its induced topology.
 
 The [[topos]] of [[sheaves]] on the small site is the [[petit topos]] of $a$.
 
@@ -28,3 +28,7 @@ $$
 such that $v_0 \to u_0$ is an element of a covering family of $u_0$, so the arrows $w \to u_0$ and $w \to v_0$ really are morphisms of $J/a$. Then we say a covering family of $u_0\to a$ is a collection of triangles that, when we forget the maps to $a$, form a covering family of $u_0$ in $C$. This is at the very least a [[coverage]], and so we have a site.
 
 >To be continued...
+
+[[!redirects small site]]
+[[!redirects small sites]]
+[[!redirects little sites]]
