@@ -13,7 +13,7 @@ Some of the $n$lab entries related to __mathematical analysis__ include [[Weiers
 
 ## Foundations 
 
-Alternative [[foundations]], especially [[intuitionistic logic|intuitionistic]] and those using [[topos theory]] are of traditional interest to the [[category theory]] community. For example the [[synthetic differential geometry]] of Lawvere and Kock (more in next paragraph) and the [[nonstandard analysis]] of Robinson, and its variant, [[internal set]] theory of Nelson are some of the principal examples. See also [[Fermat theory]], [[natural numbers object]], [[infinitesimal number]] etc. Many statements are about the versions without the [[axiom of choice]] and so on; we like to state clean and minimal conditions when possible.  
+Alternative [[foundations]], especially [[constructive mathematics|constructive]] and those using [[topos theory]], are of traditional interest to the [[category theory]] community. For example the [[synthetic differential geometry]] of Lawvere and Kock (more in next paragraph) and the [[nonstandard analysis]] of Robinson, and its variant, [[internal set]] theory of Nelson are some of the principal examples. See also [[Fermat theory]], [[natural numbers object]], [[infinitesimal number]] etc. Many statements are about the versions without the [[axiom of choice]] and so on; we like to state clean and minimal conditions when possible.  
 
 
 ## Smoothness and generalized Lie theory
