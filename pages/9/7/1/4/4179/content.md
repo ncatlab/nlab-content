@@ -20,4 +20,4 @@ The idea here is that $x, x \ne 0$ is a term (like a [[piecewise-defined functio
 
 The version usually seen in elementary algebra textbooks,
 \[ \label{ambiguous} \frac {x^2} x = x,\; x \ne 0 ,\]
-is ambiguous and could mean either (eq:weak) or (eq:strong).  In any case, there is *no* need to add anything to (eq:correct); some textbooks do and some don\'t.
+is ambiguous and could mean either (eq:weak) or (eq:strong).  In any case, there is *no* need to add anything to (eq:correct) if one adopts Kleene equality; in practice, some textbooks do and some don\'t.
