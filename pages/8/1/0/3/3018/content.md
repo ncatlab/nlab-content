@@ -152,12 +152,14 @@ In fact, these lemmas essentially capture "all possible" ways in which extranatu
 
 * Eilenberg and Kelly, *A generalization of the functorial calculus*, J. Algebra 3 366--375 (1966)
 
+With the operation of "loop-free composition," extranatural transformations with a given target form a [[paracategory]].  And as we vary the source and target categories, they assemble into an [[extraordinary 2-multicategory]].
+
 
 # Profunctors
 
-Extranatural transformations can be understood in the abstract setting of an [[autonomous category|autonomous]] monoidal [[bicategory]] or [[proarrow equipment]].
+One abstract way to describe the structure of extranatural transformations is as an [[extraordinary 2-multicategory]].  Another abstract structure, which arguably arises more naturally in practice (but also includes more data than necessary), is an [[compact closed category|compact closed]] monoidal [[bicategory]], [[double category]], or [[proarrow equipment]].
 
-(more goes here...)
+More should go here, but for now see [[compact closed double category]].
 
 
 [[!redirects extranatural transformations]]
