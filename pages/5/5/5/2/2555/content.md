@@ -2,7 +2,56 @@
 [[!include homotopy - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
->for the moment we only have an entry on the functorial version: see [[cylinder functor]]
+## Idea
+
+The notion of a **cylinder object** in a [[category]] is an abstraction of the construction in [[Top]] which associates to any [[topological space]] $X$ the _cylinder_ $X \times [0,1]$ over $X$, where $[0,1]$ is the standard [[interval]].
+
+The cylinder $X \times [0,1]$ naturally comes equipped with a continuous map
+
+$$
+  X \coprod X \to X \times [0,1]
+$$
+
+that identifies $X$ as the two ends $X \times \{0\}$ and $X \times \{1\}$ of the cylinder, and with a map
+
+$$
+  X \times [0,1] \to X
+$$
+
+that collapses the cyclinder back onto $X$.
+
+The composite of these two maps is the codiagonal $(Id,Id) :  X \coprod X \to X$. Moreover, the cyclinder $X \times [0,1]$ is [[homotopy equivalence|homotopy equivalent]] to $X$. 
+
+These properties are the characterizing properties of the cyclinder that can be abstracted and realized in other categories.
+
+The notion dual to _cylinder object_ is [[path space object]]. Cylinder objects and path space objects are used to define [[left homotopies]] and [[right homotopies]], respectively.
+
+## Definition
+
+In a [[category with weak equivalences]] $C$ that has [[coproduct]]s a **cyclinder object** $Cyl(X)$ for an [[object]] $X$ is a factorization
+
+$$
+  X \coprod X \to Cyl(X) \stackrel{\simeq}{\to} X
+$$
+
+of the codiagonal $X \coprod X \to X$ out of the [[coproduct]] of $X$ with itself, such that $Cyl(X) \to X$ is a weak equivalence.
+
+In some situations the assignment of cylinder objects may exist functorially, in which case one speaks of a [[cylinder functor]].
+
+If $C$ has the structure of a [[model category]] then one usually demands moreover that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration. The fsctoization axiom of a model category ensures that for each object there is a cylinder object with this property.
+
+## Examples
+
+* In [[sSet]] equipped with the standard [[model structure on simplicial sets]] the standard cylinder object for any $S \in sSet$ is $S \times \Delta[1]$.
+
+## Related entries
+
+* [[mapping cylinder]]
+
+* [[path space object]]
 
 [[!redirects cylinder objects]]
