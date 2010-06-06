@@ -8,13 +8,13 @@ The definition is "unbiased" in that it comes with basic (partial) $n$-ary compo
 
 A **paracategory** is a [[quiver]] $C_1 \rightrightarrows C_0$ together with the following structure.  We write $C_n$ for the iterated pullback $C_1 \times_{C_0} \dots\times_{C_0} C_1$, the set of length-$n$ strings of composable arrows.
 
-* Partial functions $\circ_n \colon C_n \rightharpoonup C_1$, over $C_0\times C_0$
+* [[partial function|Partial functions]] $\circ_n \colon C_n &#8640; C_1$, over $C_0\times C_0$
 
 * $\circ_0 \colon C_0 \to C_1$ is total, so all identity arrows exist.
 
 * $\circ_1\colon C_1 \to C_1$ is the identity.
 
-* If $\circ_n \vec{y}$ is defined, then $\circ_{m+1+k}(\vec{x},\circ_n \vec{y},\vec{z}) = \circ_{m+n+k}(\vec{x}\vec{y}\vec{z})$ (the equality being [[Kleene equality]].
+* If $\circ_n \vec{y}$ is defined, then $\circ_{m+1+k}(\vec{x},\circ_n \vec{y},\vec{z}) = \circ_{m+n+k}(\vec{x},\vec{y},\vec{z})$ (the equality being [[Kleene equality]]).
 
 A **functor** between paracategories is a quiver morphism $f\colon C\to D$ such that if $\circ_n \vec{x}$ is defined, then so is $\circ_n \vec{f(x)}$ and it equals $f(\circ_n \vec{x})$.  A **Kleene functor** is a functor such that if $\circ_n \vec{f(x)}$ is defined, then so is $\circ_n \vec{x}$; this is equivalently a quiver morphism such that $\circ_n \vec{f(x)}=f(\circ_n \vec{x})$ is a [[Kleene equality]].
 
