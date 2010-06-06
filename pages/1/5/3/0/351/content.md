@@ -56,7 +56,7 @@ and considering extranatural transformations from the constant $1$ (the terminal
 
 # Composition
 
-Dinatural transformations cannot, in general, be composed with each other, although there are certain circumstances when they can be (such as when certain squares are pushouts or pullbacks, or when they are in fact ordinary natural transformations).  In general, what we can say is that dinatural transformations with fixed source and target form a [[paracategory]], and as we vary the source and target they form a [[2-multicategory with dinaturality]] (a cousin of an [[extraordinary 2-multicategory]]).
+Dinatural transformations cannot, in general, be composed with each other, although there are certain circumstances when they can be (such as when certain squares are pushouts or pullbacks, or when they are in fact ordinary natural transformations).  In general, what we can say is that dinatural transformations with fixed source and target form a [[paracategory]].
 
 
 # References
