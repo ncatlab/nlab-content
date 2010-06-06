@@ -133,11 +133,14 @@ By the usual reasoning (see e.g. [[Categories Work]], chapter IV, theorem 2), if
 It is clear that the definition in this form makes sense in every [[2-category]]. In slightly different terminology, the left Kan extension 1-cell $F:C\to D$ along a 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p^* = K(p,D):K(C',D)\to K(C,D)$.
 
 
-### Pointwise Kan extensions {#byColimits}
+### Pointwise Kan extensions
+If $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be computed in terms of these.  The requisite limits are most naturally expressed as [[weighted limits]], but in good cases they can be re-expressed in terms of [[end|(co)ends]] or conical colimits over [[comma categories]], which may be more familiar.  However, we first give a definition that doesn't rely on any computational framework:
++-- {: .un_defn}
+###### Definition
+A Kan extension is called _pointwise_ if and only if it is preserved by all representable functors ([[Categories Work]], theorem X.5.3).
+=--
 
-If $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be computed in terms of these.  The requisite limits are most naturally expressed as [[weighted limits]], but in good cases they can be re-expressed in terms of [[end|(co)ends]] or conical colimits over [[comma categories]], which may be more familiar.
-
-#### in terms of weighted (co)limits
+#### in terms of weighted (co)limits {#byColimits}
 
 Suppose given $F : C \to D$ and $p : C \to C'$ such that for every $c' \in C'$, the weighted limit
 $$
@@ -200,7 +203,7 @@ if it exists for all $c'$.  Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[com
 
 Not all Kan extensions in the universal-transformation sense defined above are _pointwise_ Kan extensions, i.e. computed as weighted (co)limits.  Non-pointwise Kan extensions can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not pointwise.
 
-The upshot is that if a pointwise extension exists then it is the same as the corresponding non-pointwise extension, but the converse does not always hold.  Instead a non-pointwise extension is pointwise if and only if it is preserved by all representable functors ([[Categories Work]], theorem X.5.3).
+The upshot is that if a pointwise extension exists then it is the same as the corresponding non-pointwise extension, but the converse does not always hold.  
 
 
 ### in $(\infty,1)$-categories 
