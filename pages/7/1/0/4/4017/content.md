@@ -6,6 +6,9 @@
 
 ## Related $n$Lab pages
 
+* [[adjoint functor theorem]]
 * [[AT category]]
+* [[paracategory]]
+
 
 category: people
