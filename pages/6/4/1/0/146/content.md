@@ -66,7 +66,7 @@ $$
   C_F := 
   \left\lbrace
      \array{
-        Y(V) &&\stackrel{Y(f)}{\to}&& Y(V')
+        Y(V) &&\stackrel{Y(g)}{\to}&& Y(V')
         \\
         & {}_f\searrow && \swarrow_{f'}
         \\
@@ -92,13 +92,19 @@ $$
   lim_{(Y(V) \to F) \in C_F} B(V)
  \end{aligned}
 $$
-by the [[Yoneda lemma]]. But the last term is
-seen by inspection to be equivalent to
+by the [[Yoneda lemma]]. 
+
+By the definition of a limit, we have that 
+
+$$\cdots=Hom_{[C_F^{op}, Set]}(pt,B),$$
+
+so for each natural transformation $\alpha \in Hom_{[C_F^{op}, Set]}(pt,B)$ and each object $h: Y(V)\to F\in C_F$, $\alpha_h$ is a map $\{*\}\to B(V)$, that is, it is an element of $B(V)$. However, by Yoneda, we know that each object $h:Y(V)\to F\in C_F$ specifies a unique element $h\in F(V)$. Then rephrasing this, $\alpha$ specifies a [[function]] $F(V)\to B(V)$.  The naturality of this assignment is guaranteed by the naturality of the map $\alpha$.  Then $\alpha$ induces a natural transformation $k^\alpha:F\to B$. It's easy to check that $k$ defines an isomorphism:
+
 $$
-  \cdots \simeq Hom_{[C^{op}, Set]}(F,B)
+  Hom_{[C_F^{op}, Set]}(pt,B) \simeq Hom_{[C^{op}, Set]}(F,B)
   \,.
 $$
-Since this holds for all $B$, the claim follows, again using [[Yoneda lemma|Yoneda]].
+Since this holds for all $B$, the claim follows, again using the [[Yoneda lemma|Yoneda lemma]].
 
 
 ## Special cases
