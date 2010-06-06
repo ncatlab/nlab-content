@@ -95,7 +95,7 @@ $$
 by the [[Yoneda lemma]]. But the last term is
 seen by inspection to be equivalent to
 $$
-  \cdots \simeq Hom_{[C^{op}, Set]}(F,G)
+  \cdots \simeq Hom_{[C^{op}, Set]}(F,B)
   \,.
 $$
 Since this holds for all $B$, the claim follows, again using [[Yoneda lemma|Yoneda]].
