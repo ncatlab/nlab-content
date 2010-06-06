@@ -30,7 +30,9 @@ First, given a [[manifold]] with a torsion-free [[connection]] $\nabla$ on its [
 $$  v \cdot w = \nabla_v w $$
 The definition of 'torsion-free' is precisely \eqref{basic_identity}.  The Lie algebra arising from this pre-Lie algebra is just the usual Lie algebra of vector fields.
 
-Second, suppose $O$ is a linear [[operad]] whose space of unary operations is $1$-dimensional, and let $A$ be the free $O$-[[algebra of an operad|algebra]] on one generator.  Then $A$ becomes a pre-Lie algebra in a manner described here:
+Second, suppose $O$ is a linear [[operad]] whose space of unary operations is $1$-dimensional, and let $A$ be the free $O$-[[algebra of an operad|algebra]] on one generator.  As a vector space we have
+$$  A = \bigoplus_{n \ge 0} O_n $$
+Moreover, $A$ becomes a pre-Lie algebra in a manner described here:
 
 * Dominique Manchon, [A short survey on pre-Lie algebras](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf)
 
@@ -44,7 +46,6 @@ Third, the Hochschild [[chain complex]] of any space, with grading shifted down 
 
 In fact it was Gerstenhaber who coined the term 'pre-Lie algebra', for this reason.
 
-
 ## Relation to the work of Connes and Kreimer
 
 The Connes--Kreimer Hopf algebra (or maybe its dual???) is a connected cocommutative [[Hopf algebra]], and thus by a theorem of Milnor and Moore it is the [[universal enveloping algebra]] of a Lie algebra.  This Lie algebra comes from a pre-Lie algebra, and this pre-Lie algebra is simply the free pre-Lie algebra on one generator.
@@ -55,6 +56,14 @@ $$\bigoplus_{n \ge 0} PL_n $$
 
 The space $PL_n$ has a basis given by labelled rooted [[trees]] with $n$ vertices, and the $i$th partial composite $s \circ_i t$ is given by summing all the possible ways of inserting the tree $t$ inside the tree $s$ at the vertex labelled $i$.  For details see:
 
-* F. Chapoton, M. Livernet, Pre-Lie algebras and the rooted trees operad, _Int. Math. Res. Not._ 2001 (2001), 395--408.
+* Fr&#233;d&#233;ric Chapoton, Muriel Livernet, Pre-Lie algebras and the rooted trees operad, _Int. Math. Res. Not._ 2001 (2001), 395-&#8211;408.
 
 This gives a kind of 'explanation' of the relation between the Connes--Kreimer Hopf algebra and rooted trees.
+
+## Self-referential mysteries ##
+
+Note the following strange self-referential features of the pre-Lie operad, which raise some interesting puzzles:
+
+As we have seen above, any linear operad $O$ with a 1d space of unary operations gives a pre-Lie algebra $\bigoplus O_n$.  But the operad for pre-Lie algebras, $PL$, is an operad of this type!  So, $\bigoplus PL_n$ is a pre-Lie algebra.   This in turn gives a Lie algebra.  What is this Lie algebra?
+
+Also, since $\bigoplus PL_n$ is a pre-Lie algebra, there is action of $PL$ on $\bigoplus PL_n$.  How does this look, explicitly?
