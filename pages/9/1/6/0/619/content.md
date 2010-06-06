@@ -13,7 +13,7 @@ $$
   \,.
 $$
 
-The left adjoint is sometimes called the __reflector__.
+The left adjoint is sometimes called the __reflector__, and a functor which is a reflector (or has a fully faithful right adjoint, which is the same up to equivalence) is called a __reflection__.  Of course, there are dual notions of __coreflective__, __coreflector__, and __coreflection__.
 
 The components of the unit 
 
@@ -134,4 +134,12 @@ Zoran: this is not universally accepted. In topos theory community yes. But in t
 
 [[!redirects reflector]]
 [[!redirects reflectors]]
+[[!redirects reflection]]
+[[!redirects reflections]]
 [[!redirects reflective subcategories]]
+[[!redirects coreflector]]
+[[!redirects coreflectors]]
+[[!redirects coreflection]]
+[[!redirects coreflections]]
+[[!redirects coreflective subcategory]]
+[[!redirects coreflective subcategories]]
