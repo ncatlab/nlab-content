@@ -289,7 +289,7 @@ $$
   f_* : PSh(Diff) \to PSh(CartSp)
 $$
 
-that simply restricts a sheaf on the category of all [[manifold]]s to those on just cartesian spaces clearly respects the [[sheaf]] condition.
+that simply restricts a sheaf on the category of all [[manifold]]s to those on just [[cartesian space]]s clearly respects the [[sheaf]] condition.
 
 Its [[left adjoint]] is given by the left [[Kan extension]] formula
 
@@ -782,6 +782,13 @@ In total this shows that the localization at the [[coverage]] produces the [[top
 
 
 =--
+
+
+## Closed monoidal structure
+
+If the underlying site has finite [[product]]s, then both the injective and the projective, the global and the local model structure on simplicial presheaves becomes a [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
+
+See for [here](http://www.math.univ-toulouse.fr/~toen/crm-2008.pdf#page=24).
 
 
 ## Homotopy (co)limits
