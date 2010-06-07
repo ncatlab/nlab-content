@@ -69,8 +69,32 @@ $$
 
 Therefore for $c$ a cofibrant object the condition is that $F(c,-) : D \to E$ preserves cofibrations and acyclic cofibrations. Similarly for $d$ cofibrant the condition is that $F(-,d) : C \to E$ preserves cofibrations and acyclic cofibrations.
 
+## Properties {#Properties}
 
 
++-- {: .un_prop}
+###### Proposition
+
+Let $\otimes : C \times D \to E$ be an [[adjunction of two variables]] between model categories and assume that $C$ and $D$ are [[cofibrantly generated model categories]]. Then $\otimes$ is a Quillen bifunctor precisely if it satisfies its axiomss on generating (acyclic) cofibrations, i.e. if for $f : c_1 \to c_2$ and $g : d_1 \to d_2$ we have for the morphism
+
+$$
+ (c_1 \otimes d_2) \coprod_{c_1 \otimes d_1} (c_2 \otimes d_1)
+  \to
+  c_2 \otimes d_2
+$$
+
+is 
+
+* a cofibration if both $f$ and $g$ are generating cofibrations;
+
+* an acyclic cofibration if one is a generating cofibration and the other a generating acyclic cofibration.
+
+
+=--
+
+This appears for instance as Corollary 4.2.5 in 
+
+* [[Mark Hovey]], _Model Categories_
 
 ## Applications ##
 
