@@ -73,7 +73,7 @@ A [[Birkhoff decomposition]] of a loop $\phi : S^1 \to G$ in a complex group $G$
     G = Hom(H,\mathbb{C})
    $$ 
 
-   then the Birkhoff decomposition always exists and is given by the formula</em>
+   then the Birkhoff decomposition always exists and is given by the formula
  
    $$
     \phi_- :  (X \in H) \mapsto Counit(X) 
