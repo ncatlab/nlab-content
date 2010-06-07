@@ -32,7 +32,7 @@ The definition of 'torsion-free' is precisely \eqref{basic_identity}.  The Lie a
 
 Second, suppose $O$ is a linear [[operad]] whose space of unary operations is $1$-dimensional, and let $A$ be the free $O$-[[algebra of an operad|algebra]] on one generator.  As a vector space we have
 $$  A = \bigoplus_{n \ge 1} O_n/S_n \, .$$
-Hhere $S_n$ is the symmetric group, which acts on the space $O_n$ of $n$-ary operations of $O$.  Moreover, $A$ becomes a pre-Lie algebra in a manner described here:
+Here $S_n$ is the [[symmetric group]], which acts on the space $O_n$ of $n$-ary operations of $O$.  Moreover, $A$ becomes a pre-Lie algebra in a manner described here:
 
 * Dominique Manchon, [A short survey on pre-Lie algebras](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf)
 
@@ -48,7 +48,7 @@ The Connes--Kreimer Hopf algebra (or maybe its dual???) is a connected cocommuta
 
 Pre-Lie algebras are algebras of a [[linear operad]] called $PL$.  The space $PL_n$ has a basis given by labelled rooted [[trees]] with $n$ vertices, and the $i$th partial composite $s \circ_i t$ is given by summing all the possible ways of inserting the tree $t$ inside the tree $s$ at the vertex labelled $i$.  For details see:
 
-* Fr&#233;d&#233;ric Chapoton, Muriel Livernet, Pre-Lie algebras and the rooted trees operad, _Int. Math. Res. Not._ 2001 (2001), 395-&#8211;408.
+* Fr&#233;d&#233;ric Chapoton, Muriel Livernet, Pre-Lie algebras and the rooted trees operad, _Int. Math. Res. Not._ 2001 (2001), 395-408.
 
 The free pre-Lie algebra on one generator is thus
 $$\bigoplus_{n \ge 1} PL_n /S_n  \, $$
