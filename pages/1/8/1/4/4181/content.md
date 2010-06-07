@@ -44,7 +44,7 @@ In fact it was Gerstenhaber who coined the term 'pre-Lie algebra', for this reas
 
 ## Relation to the work of Connes and Kreimer
 
-The Connes--Kreimer Hopf algebra (or maybe its dual???) is a connected cocommutative [[Hopf algebra]], and thus by a theorem of Milnor and Moore it is the [[universal enveloping algebra]] of a Lie algebra.  This Lie algebra comes from a pre-Lie algebra, and this pre-Lie algebra is simply the free pre-Lie algebra on one generator.
+The dual of the [Connes--Kreimer Hopf algebra](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) is a connected cocommutative [[Hopf algebra]], and thus by a theorem of Milnor and Moore it is the [[universal enveloping algebra]] of a Lie algebra.  This Lie algebra comes from a pre-Lie algebra, and this pre-Lie algebra is simply the free pre-Lie algebra on one generator.
 
 Pre-Lie algebras are algebras of a [[linear operad]] called $PL$.  The space $PL_n$ has a basis given by labelled rooted [[trees]] with $n$ vertices, and the $i$th partial composite $s \circ_i t$ is given by summing all the possible ways of inserting the tree $t$ inside the tree $s$ at the vertex labelled $i$.  For details see:
 
