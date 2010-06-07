@@ -62,7 +62,7 @@ $$
 for all $c \in C$ and $i : a \to b$ a generating cofibration in $A$. Here the dot denotes the tensoring of $A$ over sets, i.e. $C(c,-)\cdot a$ is the functor that sends $c' \in C$
 to the [[coproduct]] $\coprod_{C(c,c')} A$ of $|C(c,c')|$ copies of $A$.
 
-In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibration in $[C,A]_{inj}$. Similarly, every fibration in $[C,A]_{inj}$ is in particular a fibration in $[C,A]_[proj}$
+In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibration in $[C,A]_{inj}$. Similarly, every fibration in $[C,A]_{inj}$ is in particular a fibration in $[C,A]_{proj}$
 
 So the identity functors
 
