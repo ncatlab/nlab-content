@@ -21,3 +21,16 @@ The idea here is that $x, x \ne 0$ is a term (like a [[piecewise-defined functio
 The version usually seen in elementary algebra textbooks,
 \[ \label{ambiguous} \frac {x^2} x = x,\; x \ne 0 ,\]
 is ambiguous and could mean either (eq:weak) or (eq:strong).  In any case, there is *no* need to add anything to (eq:correct) if one adopts Kleene equality; in practice, some textbooks do and some don\'t.
+
+
+## Models
+
+In general, if $\Gamma$ is a [[context]] and $A$ is a [[type]], then the set of terms of type $A$ with free variables given by $\Gamma$ can be thought of as something like the set of [[sections]] of a [[product]] projection $\Gamma \times A \to \Gamma$.  Aside from the fact that we only get *definable* operations this way, we also get a finer notion of equality, as several distinct terms may denote equal operations.  However, that is where the proposition '$s = t$' comes in; it states that the terms $s$ and $t$ denote equal operations.
+
+If we now allow for terms for undefined expressions, then we get sections of the projection $\Gamma \times A_\bot \to \Gamma$ (where $X_\bot$ is the set of [[subsingletons]] of $X$).  Then Kleene equality denotes equality of these operations.
+
+If we instead use the [[partial order]] of inclusion of subsingletons, then we have __[[directed equality]]__ (which is not [[symmetric relation|symmetric]]).
+
+
+[[!redirects Kleene equality]]
+[[!redirects kleene equality]]
