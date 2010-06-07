@@ -63,9 +63,9 @@ For $L$ we apply the formally dual argument.
 
 =--
 
-### Of $sSet$-enriched adjunctions
+### Of $sSet$-enriched adjunctions {#sSet}
 
-Of particzular interest are [[SSet]]-[[enriched category theory|enriched]] adjunctions between [[simplicial model categories]], as these present [[adjoint (∞,1)-functors]], as the first proposition below asserts.
+Of particular interest are [[SSet]]-[[enriched category theory|enriched]] adjunctions between [[simplicial model categories]], as these present [[adjoint (∞,1)-functors]], as the first proposition below asserts.
 
 
 +-- {: .un_prop}
@@ -124,6 +124,20 @@ This is proposition A.3.7.2 in [[Higher Topos Theory|HTT]].
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+If $C$ and $D$ are [[simplicial model categories]] and $D$ is a left [[proper model category]], then an [[sSet]]-enriched adjunction
+
+$$
+  (L \dashv R) : C \stackrel{\leftarrow}{\to} D
+$$
+
+is a Quillen adjunction already if $L$ preserves cofibrations and $R$ just fibrant objects.
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
 
 
 ## Remarks
