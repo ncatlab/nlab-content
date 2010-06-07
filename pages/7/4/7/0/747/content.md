@@ -820,6 +820,60 @@ for $U \in C$ representable and $i : S \to T$ an (acylic) cofibration in $sSet_{
 =--
 
 
++-- {: .un_lemma}
+###### Lemma
+
+Let $C$ be a [[site]] with [[product]]s and let $[C^{op}, sSet]_{proj,cov}$ be the left [[Bousfield localization of model categories|Bousfield localization]] at the [[Cech nerve]] projections. 
+
+Then for $X$ any cofibrant object, the [[closed monoidal structure on presheaves]]-adjunction
+
+$$
+  (X \times (-) \dashv [X,-]) : [C^{op}, sSet]_{proj,cov}
+  \to 
+  [C^{op}, sSet]_{proj,cov}
+$$
+
+is a [[Quillen adjunction]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The above lemma implies that the [[left adjoint]] $X \times (-)$ preserves cofibrations. As discussed in the <a href="http://ncatlab.org/nlab/show/Quillen+adjunction#sSet">section on sSet-enriched adjunctions</a> at [[Quillen adjunction]] since the adjunction is $sSet$-enriched and since $[C^{op}, sSet]_{proj,cov}$ is a [[proper model category|left proper]] [[simplicial model category]] it suffices to check that $[X,-]$ preserves fibrant objects. 
+
+For that let $\{U_i \to U\}$ be a covering family and $C(\{U_i\})$ the corresponding [[Cech nerve]]. We need to check that if $A \in [C^{op}, sSet]_{proj,cov}$ is fibrant, then 
+
+$$
+  [C^{op}, sSet](U, [X,A]) \to [C^{op},sSet](C(\{U_i\}), [X,A])
+$$
+
+is an equivalence of [[Kan complex]]es.
+
+Writing $C(\{U_i\}) = \int^{[n]} \Delta[n] \cdot \coprod U_{i_0, \cdots, i_n}$ and using that the [[hom-functor]] preserves [[end]]s, this is eqivalent to 
+
+$$
+  [C^{op},sSet]( X \times C(\{U_i\}) \to X \times U , A)
+$$
+
+being an equivalence. Now we observe that $X \times C(\{U_i\}) \to X\times U$ is a [[local epimorphism]] in the above sense, namely a morphism such that for every morphism $V \to X \times U$ out of a representable, there is a lift $\sigma$
+
+$$
+  \array{
+     && X \times C(\{U_i\})
+     \\
+     & {}^{\mathllap{\sigma}}\nearrow & \downarrow
+     \\
+     V &\to& X \times U
+  }
+  \,.
+$$
+
+By the above discussion of the Cech-localization of $[C^{op}, sSet]_{proj}$, this is a local morphism, hence does produce an equivalence when hommed into the fibrant object $A$.
+
+=--
+
+
 ## Homotopy (co)limits
 
 Properties of [[homotopy limit]]s and [[homotopy colimit]]s of simplicial presheaves are discussed at
