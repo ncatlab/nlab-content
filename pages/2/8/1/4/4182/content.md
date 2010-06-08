@@ -1,1 +1,1 @@
-A **linear operad** is an [[operad]] in $Vect$.
+A **linear operad** is an [[operad]] in [[Vect]].
