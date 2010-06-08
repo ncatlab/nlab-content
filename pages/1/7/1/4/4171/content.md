@@ -335,8 +335,9 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 ## References
 
-1. [[Chris Rogers]], L-infinity algebras from multisymplectic geometry,  [arXiv:1005.2230](http://arxiv.org/abs/1005.2230).
-2. [[Chris Rogers]], Courant algebroids from categorified symplectic geometry,  [arXiv:1001.0040](http://arxiv.org/abs/1001.0040).
+* [[Chris Rogers]], _$L_\infty$ algebras from multisymplectic geometry_ ,  [arXiv:1005.2230](http://arxiv.org/abs/1005.2230).
+
+* [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_ ,  [arXiv:1001.0040](http://arxiv.org/abs/1001.0040).
 
 
 See also the references at [[multisymplectic geometry]] and [[n-symplectic manifold]].
