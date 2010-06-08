@@ -1,24 +1,45 @@
-#Idea#
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples consisting of
 
 * a [[manifold]] $X$
   : with the structure of a principal torus bundle $T^n \to X \to X/T^n$
+  -
+  modelling [[spacetime]]
+
 * equipped with an abelian $U(1)$-[[gerbe]] 
   : with connection
+  -
+  modelling the [[Kalb-Ramond field]]
+
 * and possibly with elements in [[twisted K-theory]]
   : refined to elements in [[differential K-theory|differential twisted K-theory]]
-* and notably equipped with
-  : a (pseudo)[[Riemannian metric]].
+  -
+  modelling the [[RR-field]]
+  
 
-The idea of **topological T-duality** is to disregard the Riemannian metric and the connection. 
+* and notably equipped with
+  : a (pseudo)[[Riemannian metric]]
+  -
+  modelling the field of [[gravity]].
+
+The idea of **topological T-duality** is to disregard the [[Riemannian metric]] and the connection and study the remaining "topological" structure.
 
 While the idea of [[T-duality]] originates in [[string theory]], topological T-duality has become a field of study in pure mathematics in its own right. 
 
 In the language of [[bi-brane]]s a topological T-duality transformation is a bi-brane of a special kind between the two gerbes involved. The induced pull-push operation (in [[groupoidification]] and [[geometric function theory]]) on (sheaves of sections of, or K-classes of) (twisted) vector bundles is essentially the Fourier--Mukai transformation. More on the bi-brane interpretation of (topological and non-topological) T-duality is in _SarkissianSchweigert08_.
 
 
-#Definition#
+## Definition
 
 Two tuples $(X_i \to B, G_i)_{i = 1,2}$ consisting of a $T^n$-bundle $X_i$ over a manifold $B$ and a line bundle gerbe $G_i \to X_i$ over $X$ are **topological T-duals** if there exists an isomorphism $u$ of the two line bundle gerbes pulled back to the [[pullback|fiber product]] correspondence space $X_1 \times_B X_2$:
 
@@ -44,7 +65,7 @@ $$
 of a certain prescribed form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9) of _BunkeRumpfSchick08_).
 
 
-#References#
+## References
 
 The simplest version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in 
 
@@ -64,13 +85,17 @@ and
 
 There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for instance at
 
-* V. Mathai & J. Rosenberg, _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
+* V. Mathai and [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
 
 The [[bi-brane]] perspective on T-duality is amplified in
 
-* G. Sarkissian and C. Schweigert, _Some remarks on defects and duality_ ([arXiv](http://arxiv.org/abs/0810.3159))
+* Gor Sarkissian and [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv](http://arxiv.org/abs/0810.3159))
 
-#Blog resources#
+The refinement of topology T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
+
+* [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and Differential K-Theory_ ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
+
+## Blog resources
 
 A transcript a a talk by Varghese Mathai on topological T-duality is here:
 
@@ -80,10 +105,3 @@ A transcript a a talk by Varghese Mathai on topological T-duality is here:
 
   * II: [T-dual K-classes by Fourier-Mukai](http://golem.ph.utexas.edu/string/archives/000828.html).
 
-Remarks on the relation to higher linear maps are at
-
-* U. Schreiber, _Fourier-Mukai, T-Duality and other linear 2-Maps_ ([blog](http://golem.ph.utexas.edu/string/archives/000825.html))
-
-The interpretation in terms of pull-push of sections of differential cocycles appears at
-
-* U. Schreiber, _QFT of Charged n-Particle: T-Duality_ ([blog](QFT of Charged n-Particle: T-Duality))
