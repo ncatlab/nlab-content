@@ -207,8 +207,9 @@ of [[sheaf]] [[topos|topoi]]
 
 * Generally, therefore, the left adjoint partner in 
 the adjoint pair defining a [[geometric morphism]]
-of [[topos|topoi]] is
-called the **inverse image functor**.
+of [[topos|topoi]] (or abelian categories of quasicoherent sheaves) is
+called the **inverse image functor**. In fact more general in geometry, 
+including [[noncommutative geometry|noncommutative]] morphisms often induce or are defined via pairs of adjoint functors among some associated categories of objects over a geometric space; then the left adjoint part is called the inverse image part. Geometers also often say inverse image for an arbitrary functor of the form $f^*$ in a [[fibered category]]. For abelian categories of sheaf-like objects, the corresponding higher derived functors of inverse image functors are sometimes called higher (derived) inverse image functors. 
 
 * The other adjoint to the [[direct image]], the [[adjoint functor|right adjoint]], is (if it exists) the [[restriction and extension of sheaves|extension]] of sheaves.
 
