@@ -272,7 +272,9 @@ The [[Liouville cocycle]] appears when one moves from genuine [[representation]]
 * The target space structure corresponding to [[defect line]]s in 2d CFT are [[bi-brane]]s.
 
 
+## CFT in AQFT language
 
+In [[AQFT]] conformal field theory is modeled in terms of [[local net]]s that are [[conformal net]]s.
 
 ## References ##
 
