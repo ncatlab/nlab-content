@@ -9,13 +9,6 @@ For example, you can start with the concept of [[abelian group]] and try removin
 * or remove associativity instead of inverses to get [[loop(algebra)|loops]];
 * etc (see [[group]] for more).
 
-+-- {: .query}
-I moved the full list to [[group]] so that this one would just have the few examples used below.  I would suggest that people add to or remove from the list above as they add to or remove from the examples below, and keep it fairly short.  (On the other hand, we might want to have, after the explanation, a more complete list of examples of centipede mathematics in general.  ---Toby
-
-[[John Baez]]: At some point in this article it might be amusing to have a rather large collection of structures lesser than groups, because this illustrates the slightly obsessive quality of centipede mathematics.  But you're right: it would be self-referential in a bad way if the above list became so long that it completely distracted people from the topic of centipede mathematics!
-
-=--
-
 What still works?  Abelian groups form an [[abelian category]], while groups only form a [[semi-abelian category]], so [[cohomology]] gets more complicated (see [[nonabelian cohomology]]) but still makes sense.  Monoid [[representation]]s (say on [[vector space]]s) make as much sense as group representations, but loop representations are not apparently meaningful.  (But like nonabelian cohomology, maybe somebody will make sense of them some day.)  Describing homomorphisms and presentations of monoids takes a little more care than for groups, while the na&#239;ve definitions continue to work for loops.  Sometimes things actually work better; [[group object]]s make sense only in a [[cartesian monoidal category]], while [[monoid object]]s make sense in any [[monoidal category]].  By seeing what are the salient features for making sense of things like cohomology and representation theory, we also see that we can generalise these, not by simply removing clauses from the definition of group, but by reworking the concept into such things as [[category|categories]] or [[quantum group]]s.
 
 Centipede mathematics in the context of [[foundations]] is often called __reverse mathematics__.  Here we remove axioms from [[set theory]] (or some other form of foundations) and consider what theorems can still be proved, which can be proved if reformulated into (obviously) classically equivalent forms, and which are lost entirely (ideally provably so).  On the Lab, some of us like to do this for [[constructive mathematics]], but it is also important for [[internalization]].  (Mainstream reverse mathematics has more to do with [[predicative mathematics]] than with either of these.)
