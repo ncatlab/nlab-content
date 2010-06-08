@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 #Contens#
 * automatic table of contents goes here
 {:toc}
@@ -91,7 +96,7 @@ $$
   (A_i, \lambda_{i j})
 $$   
 
-is a [[?ech cohomology|?ech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[differential cohomology|projection to deRham cohomology]] is the given Maxwell 2-form.
+is a [[Čech cohomology|Čech cocycle]] with coefficients in the degree 2 [[Deligne cohomology|Deligne complex]] whose [[differential cohomology|projection to deRham cohomology]] is the given Maxwell 2-form.
 
 
 The following describes more physical and historical details behind this argument.
@@ -172,7 +177,7 @@ $d \star F = 0$
 
 * **Gauss' law**: $div D = \rho$
 
-* **Amp&#232;re's law** $- \frac{d}{d t} D + rot H = j_{el}$
+* **Amp&egrave;re's law** $- \frac{d}{d t} D + rot H = j_{el}$
 
 
 ## The global picture ##
@@ -219,7 +224,7 @@ A central idea in this argument is famously due to Dirac. He thought of it as an
 The **experimental input from physics** 
 is the following
 
-1. **Maxwell's equations**  say that, at least locally on contractible patches $U \subset X$ of the underlying space(time), the electromagnetic field in the absence of magnetic current is encoded by a closed smooth 2-form $F \in \Omega^2(U)$ -- as described above. Poincar&#233;'s lemma implies then that there is a smooth 1-form $A \in \Omega^1(U)$ such that $F = d A$.
+1. **Maxwell's equations**  say that, at least locally on contractible patches $U \subset X$ of the underlying space(time), the electromagnetic field in the absence of magnetic current is encoded by a closed smooth 2-form $F \in \Omega^2(U)$ -- as described above. Poincar&eacute;'s lemma implies then that there is a smooth 1-form $A \in \Omega^1(U)$ such that $F = d A$.
 
 1. The **Lorentz force law** implies that the _action functional_ of an electrically charged particle is the functional that assigns to each local trajectory, i.e. to each path 
    $$
