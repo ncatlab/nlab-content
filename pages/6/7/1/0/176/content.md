@@ -302,7 +302,7 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], __Chiral algebras__, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
 
-For full CFT, The special case of _rational_ CFT has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--[[Ingo Runkel|Runkel]]--Schweigert
+For full CFT, The special case of _rational_ CFT has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--[[Ingo Runkel|Runkel]]--[[Christoph Schweigert|Schweigert]]
 
 * [FRS reviews](http://golem.ph.utexas.edu/string/archives/000747.html)
 
