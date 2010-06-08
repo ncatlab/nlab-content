@@ -44,14 +44,20 @@ In fact it was Gerstenhaber who coined the term 'pre-Lie algebra', for this reas
 
 ## Relation to the work of Connes and Kreimer
 
-The dual of the [Connes--Kreimer Hopf algebra](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) is a connected cocommutative [[Hopf algebra]], and thus by a theorem of Milnor and Moore it is the [[universal enveloping algebra]] of a Lie algebra.  This Lie algebra comes from a pre-Lie algebra, and this pre-Lie algebra is simply the free pre-Lie algebra on one generator.
+Connes and Kreimer formalized the process of [renormalization](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) using a certain [Hopf algebra] built from Feynman diagrams.  More abstractly we can understand the essence of their construction using a Hopf algebra built from rooted trees, as explained here:
+
+* John Baez, [This Week's Finds in Mathematical Physics (Week 299)](http://math.ucr.edu/home/baez/week299.html)
+
+The key is to form the free pre-Lie algebra on one generator, then turn this into a Lie algebra as described above, and then form the universal enveloping of that, which is a cocommutative Hopf algebra.  Finally, the restricted dual of this cocommutative Hopf algebra is the commutative Hopf algebra considered by Connes and Kreimer here:
+
+* Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and noncommutative geometry, _Commun. Math. Phys._ **199** (1998), 203-242.  ([arXiv](http://arxiv.org/abshep-th/9808042))
 
 Pre-Lie algebras are algebras of a [[linear operad]] called $PL$.  The space $PL_n$ has a basis given by labelled rooted [[trees]] with $n$ vertices, and the $i$th partial composite $s \circ_i t$ is given by summing all the possible ways of inserting the tree $t$ inside the tree $s$ at the vertex labelled $i$.  For details see:
 
 * Fr&#233;d&#233;ric Chapoton, Muriel Livernet, Pre-Lie algebras and the rooted trees operad, _Int. Math. Res. Not._ 2001 (2001), 395-408.
 
 The free pre-Lie algebra on one generator is thus
-$$\bigoplus_{n \ge 1} PL_n /S_n  \, $$
+$$\bigoplus_{n} PL_n /S_n  \, $$
 so the description of $PL_n$ in terms of rooted trees gives a kind of 'explanation' of the relation between the Connes--Kreimer Hopf algebra and rooted trees.
 
 ## Self-referential mysteries ##
@@ -59,7 +65,7 @@ so the description of $PL_n$ in terms of rooted trees gives a kind of 'explanati
 Pre-Lie algebras have a strange self-referential feature.
 Every operad of a large class gives a pre-Lie algebra, but the operad for pre-Lie algebras is one of this class!  This raises the following interesting puzzle.
 
-As we have seen above, for any linear operad $O$ with a 1d space of unary operations, the free $O$-algebra with one generator becomes a pre-Lie algebra.  But the operad for pre-Lie algebra is an operad of this type.  So, the free pre-Lie algebra on one generator becomes a pre-Lie algebra in this way.   But of course it already *is* a pre-Lie algebra!  Do these pre-Lie structures agree?
+As we have seen above, for any linear operad $O$, the free $O$-algebra with one generator becomes a pre-Lie algebra.  But the operad for pre-Lie algebra is an operad of this type.  So, the free pre-Lie algebra on one generator becomes a pre-Lie algebra in this way.   But of course it already *is* a pre-Lie algebra!  Do these pre-Lie structures agree?
 
 For the answer, see page 7 here:
 
