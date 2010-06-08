@@ -19,7 +19,8 @@ Actually the notion of operad (and allied notions such as [[PROP]], [[club]], [[
 
 The original definition is due to J.P. May and was given in his book _The Geometry of Iterated Loop Spaces_. Since the detailed definition is available from many sources, we will just sketch May's definition; in the section following this, we give a more detailed higher-level description which generalizes in a number of directions. 
 
-Let $V$ be a [[symmetric monoidal category]]. A ( _permutative_ or _symmetric_ ) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the natural numbers $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
+Let $V$ be a [[symmetric monoidal category]]. A 
+(_permutative_ or _symmetric_) **operad** in $V$ consists of objects $F(n)$ of $V$ indexed over the natural numbers $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
 
 * Right actions of [[symmetric group]]s $\rho_n: S_n \to \hom(F(n), F(n))$; 
 * A _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
