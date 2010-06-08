@@ -35,7 +35,7 @@ This procedure justifies itself mainly through the remarkable fact that the numb
 
 ## its combinatorial Hopf-algebraic interpretation ##
 
-The combinatorial Hopf algebraic approach to perturbative quantum field theory , see for instance
+The combinatorial Hopf algebraic approach to perturbative quantum field theory, see for instance
 
 * Hector Figueroa, Jose M. Gracia-Bondia, _Combinatorial Hopf algebras in quantum field theory I_ ([arXiv](http://arxiv.org/abs/hep-th/0408145)),
 
@@ -43,9 +43,11 @@ starts with the observation that the BPHZ-procedure can be understood
 
 * by noticing that there is secretly a natural [[group]] structure on the collection of amplitudes;
 
-* which is induced from the fact that there is secretly a natural [[Hopf algebra]] structure on the collection of graphs;
+* which is induced from the fact that there is secretly a natural [[Hopf algebra]] structure on the vector space whose basis consists of graphs;
 
 * and with respect to which the BPHZ-procedure is simply the [[Birkhoff decomposition]] of group valued functions on the circle into a divergent and a finite part.
+
+The Hopf algebra structure on the vector space whose basis consists of graphs can be understood most conceptually in terms of [[pre-Lie algebra|pre-Lie algebras]].
 
 ## the Connes-Kreimer theorem ##
 
