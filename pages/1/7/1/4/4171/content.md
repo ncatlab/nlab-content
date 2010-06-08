@@ -157,7 +157,7 @@ This satisfies
 So the Jacobi dientity fails up to an exact term. This will yield the structure of an [[L-infinity algebra]].
 
 
-**Theorem** (Chris Rogers)
+**Theorem**
 
 Given an $n$-plectic manifold $(X,\omega)$ we get a [[Lie n-algebra]] structure on the complex
 
@@ -306,7 +306,7 @@ The bracket on this $E$ is given by the skew-symmetrization of
 $$
   [ [ s(v_1)  \alpha_1, s(v_2) + \alpha_2 ] ] = s([v_1, v_2])
   + 
-  \mathcal{L}_{v_1} \alpha_2 - (d \alpha_2)(v_2, -)  
+  \mathcal{L}_{v_1} \alpha_2 - (d \alpha_2)(v_2, -) -   
   \omega(v_1, v_2, \cdots)
   \,.
 $$
@@ -321,7 +321,7 @@ $$
 
 exactly if $\alpha$ is Hamiltonian and $v = v_\alpha$.
 
-**Theorem** (Chris Rogers)
+**Theorem**
 
 Recall that to every [[Courant algebroid]] $E$ is associated a [[Lie 2-algebra]] $L_\infty(E)$.
 
@@ -335,10 +335,9 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 ## References
 
-* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
+1. [[Chris Rogers]], L-infinity algebras from multisymplectic geometry,  [arXiv:1005.2230](http://arxiv.org/abs/1005.2230).
+2. [[Chris Rogers]], Courant algebroids from categorified symplectic geometry,  [arXiv:1001.0040](http://arxiv.org/abs/1001.0040).
 
-...
 
 See also the references at [[multisymplectic geometry]] and [[n-symplectic manifold]].
-
 
