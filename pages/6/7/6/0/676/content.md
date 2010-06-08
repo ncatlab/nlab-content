@@ -90,6 +90,8 @@
         * [[operator algebra]]
 
         * [[local net]]
+  
+          * [[conformal net]]
 
       * [[Reeh-Schlieder theorem]]     
 
@@ -173,7 +175,8 @@
 
 * [[string theory|String Theory]]
 
-  * [[brane]], [[BPS-state]], [[Berkovits superstring]], [[orientifold]]
+  * [[brane]], [[BPS-state]], [[Berkovits superstring]], [[orientifold]],
+    [[T-duality]], [[topological T-duality]]
 
 * [[gnarly problems in physics|Gnarly problems in physics]]
 
