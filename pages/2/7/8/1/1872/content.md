@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+## Idea
 
 The _Yang--Mills field_ is the [[gauge theory|gauge field]] of [[Yang-Mills theory]]. 
 
