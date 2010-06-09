@@ -2,7 +2,7 @@ Poisson manifolds are a mathematical setup for [[classical mechanics]] with fini
 
 A __[[Poisson algebra]]__ is a commutative unital [[associative algebra]] $A$, in this case over the field of [[real number|real]] or [[complex numbers]], equipped with a Lie bracket $\{,\}:A\otimes A\to A$ such that, for any $f\in A$, $\{ f,-\}:A\to A$ is a [[derivation]] of $A$ as an associative algebra.
 
-A __Poisson manifold__ is a real smooth [[manifold]] $M$ together with a Lie algebra bracket $\{,\}:C^\infty(M)\times C^\infty(M)\to C^\infty(M)$ on the vector space of smooth functions on $M$ which together with the pointwise multiplication of functions makes it a Poisson algebra. As derivations of $C^\infty(M)$ correspond to smooth [[tangent vector fields]], for each $f\in C^\infty(M)$ there is a vector $X_f$ given by $X_f(g)=\{f,g\}$ and called the __Hamiltonian vector field__ corresponding to the function $f$, which is viewed as a classical hamiltonian function.  
+A __Poisson manifold__ is a real smooth [[manifold]] $M$ equipped with a __Poisson structure__. A Poisson structure is a Lie algebra bracket $\{,\}:C^\infty(M)\times C^\infty(M)\to C^\infty(M)$ on the vector space of smooth functions on $M$ which together with the pointwise multiplication of functions makes it a Poisson algebra. As derivations of $C^\infty(M)$ correspond to smooth [[tangent vector fields]], for each $f\in C^\infty(M)$ there is a vector $X_f$ given by $X_f(g)=\{f,g\}$ and called the __Hamiltonian vector field__ corresponding to the function $f$, which is viewed as a classical hamiltonian function.  
 
 Alternatively a Poisson structure on a manifold is given by a choice of smooth antisymmetric bivector called a __Poisson bivector__ $P\in\Lambda^2 T M$; then $\{f,g\}:=\langle df\otimes dg, P\rangle$. 
 
@@ -15,3 +15,4 @@ A morphism $h:M\to N$ of Poisson manifolds is a morphism of smooth manifolds suc
 
 [[!redirects Poisson manifolds]]
 [[!redirects Poisson bivector]]
+[[!redirects Poisson structure]]
