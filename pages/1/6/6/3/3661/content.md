@@ -69,9 +69,15 @@ The Conduch&#233; criterion can also be reformulated in a more conceptual way by
 
 * F. Conduch&#233;, \'Au sujet de l'existence d'adjoints &#224; droite aux foncteurs "image r&#233;ciproque" dans la cat&#233;gorie des cat&#233;gories\', *C.R. Acad. Sci. Paris* 275 (1972), A891--894.
 
+* J. Giraud, \'M&#233;thode de la descente\', *Bull. Math. Soc. Memoire* 2 (1964)
+
 The definitions and proofs of the above theorems, along with the 2-categorical generalization (Conduch&#233; considered only the 1-categorical case) can also be found in
 
 * [[Peter Johnstone]], "Fibrations and partial products in a 2-category", *Appl. Categ. Structures* 1 (1993), 141--179
+
+A description of the characterization in terms of lax normal functors can be found in
+
+* [[Ross Street], \'Powerful functors\', [pdf](http://www.math.mq.edu.au/~street/Pow.fun.pdf)
 
 [[!redirects Conduche functors]]
 [[!redirects Conduché functor]]
