@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include infinity-limits - contents]]
 </div>
@@ -11,11 +10,11 @@
 
 ## Idea
 
-The notion of **cofinal $(\infty,1)$-functor** is the generalization of the notion of [[cofinal functor]] from [[category theory]] to [[(∞,1)-category]]-theory.
+The notion of **final $(\infty,1)$-functor** (also called a **cofinal $(\infty,1)$-functor**) is the generalization of the notion of [[final functor]] from [[category theory]] to [[(∞,1)-category]]-theory.
 
-An [[(∞,1)-functor]] $p : K' \to K$ is cofinal precisely if precomposition with $p$ preserves [[colimit]]s: 
+An [[(∞,1)-functor]] $p : K' \to K$ is final precisely if precomposition with $p$ preserves [[colimit]]s: 
 
-if $p$ is cofinal then for for $F : K \to C$ any [[(∞,1)-functor]] we have
+if $p$ is final then for for $F : K \to C$ any [[(∞,1)-functor]] we have
 
 $$
   \lim_\to (K \stackrel{F}{\to} C)
@@ -30,9 +29,9 @@ when either of these [[colimit]]s exist.
 
 +-- {: .un_defn}
 ###### Definition 
-**(cofinal morphism of simplicial set)**
+**(final morphism of simplicial set)**
 
-A morphism $p : S \to T$ of [[simplicial set]]s is **cofinal** if for every [[fibrations of quasi-categories|right fibration]] $X \to T$ the induced morphism of simplicial sets
+A morphism $p : S \to T$ of [[simplicial set]]s is **final** if for every [[fibrations of quasi-categories|right fibration]] $X \to T$ the induced morphism of simplicial sets
 
 $$
   sSet_{/T}(T,X) \to sSet_{/T}(S,X)
@@ -43,7 +42,7 @@ is a [[homotopy equivalence]].
 
 =--
 
-So in the [[overcategory]] $sSet/T$ a cofinal morphism is an object such that morphisms out of it into any right fibration are the same as morphisms out of the [[terminal object]] into that right fibration.
+So in the [[overcategory]] $sSet/T$ a final morphism is an object such that morphisms out of it into any right fibration are the same as morphisms out of the [[terminal object]] into that right fibration.
 
 $$
   \left\{
@@ -77,7 +76,7 @@ This is equivalent to the following definition, in terms of the [[model structur
 +-- {: .un_prop}
 ###### Proposition 
 
-The morphism $p : S \to T$ is cofinal precisely if the terminal morphism $(p \to *) =   \left(
+The morphism $p : S \to T$ is final precisely if the terminal morphism $(p \to *) =   \left(
     \array{
       S &&\to&& T
       \\
@@ -99,7 +98,7 @@ This is [[Higher Topos Theory|HTT, prop. 4.1.2.5]].
 +-- {: .un_cor}
 ###### Corollary
 
-If $T$ is a [[Kan complex]] then $p : S \to T$ is cofinal precisely if it is a weak equivalence in the standard [[model structure on simplicial sets]]. 
+If $T$ is a [[Kan complex]] then $p : S \to T$ is final precisely if it is a weak equivalence in the standard [[model structure on simplicial sets]]. 
 
 =--
 
@@ -118,7 +117,7 @@ This is [[Higher Topos Theory|HTT, cor. 4.1.2.6]].
 ###### Proposition 
 **(preservation of undercategories and colimits)**
 
-A morphism $p : K' \to K$ of [[simplicial set]]s is cofinal precisely if for every [[quasicategory]] $C$
+A morphism $p : K' \to K$ of [[simplicial set]]s is final precisely if for every [[quasicategory]] $C$
 
 *  and for every morphism $\bar F : K^{\triangleright} \to C$ that exibits a [[colimit in a quasi-category|colimit co-cone in]] $C$, also $(K')^\triangleright \stackrel{p}{\to} K^{\triangleright} \stackrel{\bar F}{\to} C$ is a colimit co-cone.
 
@@ -145,9 +144,9 @@ The following result is the $(\infty,1)$-categorical analog of what is known as 
 
 +-- {: .un_theorem}
 ###### Theorem 
-**(recognition theorem for cofinal $(\infty,1)$-functors)**
+**(recognition theorem for final $(\infty,1)$-functors)**
 
-A morphism $p : K \to C$ of [[simplicial set]]s with $C$ a [[quasi-category]] is cofinal precisely if for each object $c \in C$ the [[comma category|comma]]-object $c/p := c/C \times_C K$ is weakly [[contractible]]. 
+A morphism $p : K \to C$ of [[simplicial set]]s with $C$ a [[quasi-category]] is final precisely if for each object $c \in C$ the [[comma category|comma]]-object $c/p := c/C \times_C K$ is weakly [[contractible]]. 
 
 =--
 
