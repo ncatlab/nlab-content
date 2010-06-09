@@ -16,7 +16,7 @@ The universal covering $SL(2, \C) \ltimes \R^4$ of the restriced Poincar&#233; g
 We talk about 4-dimensional Minkowski spacetime $\mathcal{Min}$ only, i.e. $\mathcal{Min}$ is the vector space $\R^{4} = \R \times \R^{3}$ equipped with the scalar product $\lt x, y \gt := x_0 y_0 - (\vec x, \vec y)$ with $( \cdot , \cdot  )$ being the Euclidean scalar product on $\R^{3}$.
 Open bounded subsets of $\mathcal{Min}$ will be denoted by $\mathcal{O}$. The union of these $\mathcal{O}$ form an index set $\mathcal{J}$, that is partially ordered by inclusion. 
 
-If two sets are spacelike seperated, this will be denoted by $\mathcal{O}_1 \perp \mathcal{O}_2$, the interior of the spacelike complement of a given set $\mathcal{O}$ will be denoted by $\mathcal{O}'$. 
+If two sets are spacelike seperated, this will be denoted by $\mathcal{O}_1 \perp \mathcal{O}_2$, the interior of the spacelike complement of a given set $\mathcal{O}$ will be denoted by $\mathcal{O}'$. The bounded open sets thus form a [[causal index set]].
 
 We denote the open forward (light)cone at x by $V_+(x)$, similar $V_-(x)$ is the open backward cone at $x$, if $x=0$ we simply write $V_+$ and $V_-$.
 A **double cone** of **diamond** is an intersection of an open forward cone and an open backward cone that is nonempty and will be denoted by $\mathcal{K}$. 
