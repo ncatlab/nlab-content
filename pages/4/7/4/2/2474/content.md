@@ -6,6 +6,7 @@ Every $C^*$-algebra can be realized (via the [[GNS construction]]) as a norm-clo
 
 See [[operator algebras]].
 
+There are different concepts for the [[tensor product]] of $C^*-algebras$, see for example [[spatial tensor product]].
 
 [[!redirects C-star algebra]]
 [[!redirects C-star-algebra]]
