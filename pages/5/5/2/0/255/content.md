@@ -118,13 +118,20 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
 ## References
 
-Five short videotaped lectures:
+* R. Street, _The formal theory of monads_, J. of Pure and Applied Algebra __2__ (1972), 149--168; R. Street, S. Lack, _The formal theory of monads II_, J. Pure Appl. Algebra __175__ (2002), No. 1-3,
+243--265.
 
-* [[The Catsters]], [Monads](http://www.youtube.com/view_play_list?p=0E91279846EC843E).
+* [[Francis Borceux|F. Borceux]], _Handbook of categorical algebra_,  vol. 2, Ch. 4 "Monads" 
 
-Introductory slides:
+An early collection of articles is
 
-* [[John Baez]], _[Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf): .
+* H. Appelgate, M. Barr, J. Beck, F. W. Lawvere, F. E. J. Linton,
+E. Manes, M. Tierney, F. Ulmer, _Seminar on triples and categorical
+homology theory_, ETH 1966/67, edited by B.~Eckmann, LNM 80, Springer 1969. 
+
+* [[The Catsters]], [Monads](http://www.youtube.com/view_play_list?p=0E91279846EC843E) (five short video lectures)
+
+* [[John Baez]], _[Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf)_ (Introductory slides).
 
 Book (recall that monads are also called 'triples'):
 
