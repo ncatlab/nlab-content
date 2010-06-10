@@ -47,7 +47,7 @@ _Elliptic spectra, the Witten genus and the theorem of the cube_,
 non abelian de Rham theory_, Chalmers University of
 Technology/The University of G&#246;teborg, 1990.
 
-{AJ} P. Aschieri and [[Bransilav Jurčo]], _Gerbes, M5-brane anomalies and $E_8$ gauge theory_, J. High Energy Phys. __0410__ (2004) 068,
+{AJ} P. Aschieri and [[Branislav Jurčo]], _Gerbes, M5-brane anomalies and $E_8$ gauge theory_, J. High Energy Phys. __0410__ (2004) 068,
 [arXiv:hep-th/0409200](http://arXiv.org/abs/hep-th/0409200).
 
 {AS1} M. Atiyah and G. Segal, _Twisted $K$-theory_,
