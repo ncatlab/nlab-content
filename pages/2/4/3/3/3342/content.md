@@ -112,3 +112,5 @@ with Tomita's Modular Theory", ([ESI preprint page] (http://www.esi.ac.at/prepri
 [[!redirects Araki–Haag–Kastler axiom]]
 [[!redirects Araki--Haag--Kastler axioms]]
 [[!redirects Araki--Haag--Kastler axiom]]
+[[!redirects Haag–Kastler net]]
+[[!redirects Haag-Kastler nets]]
