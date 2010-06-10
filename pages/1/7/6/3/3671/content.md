@@ -18,9 +18,6 @@ We consider the topological and geometric structures associated with cohomologic
 
 ## Bibliography
 
-> In fact not only that it is a good survey but it has a nice bibliography.
-> The main plan of this entry is to build a hyperlinked bibliography of the above article! 
-
 
 {AKMW} [[Orlando Alvarez]], T. P. Killingback, M. L. Mangano, and P. Windey,
 _String theory and loop space index theorems_,
