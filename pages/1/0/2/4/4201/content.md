@@ -1,0 +1,35 @@
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
+
+## Idea ##
+The concept of a causal complement is suitable to establish a [[causal disjointness relation]] on index sets where the indices are subsets of a given set. This generalizes the concept of causal complement of subsets of the [[Minkowski spacetime]], see for example [[Haag-Kastler vacuum representation]].
+
+## Definition ##
+Let $X$ be an arbitrary set and $M \subset X$. An assignment 
+$$
+M \mapsto M^{\perp} \subset X
+$$
+is called a **causal complement** if the following conditions hold:
+
+(i) $M \subseteq M^{\perp\perp}$
+
+(ii) $(\bigcup_j M_j)^{\perp} = \bigcap_j (M_j)^{\perp}$
+
+(iii) $M \bigcap M^{\perp} = \emptyset$
+
+A set $M$ is **causally closed** iff $M = M^{\perp\perp}$.
+
+The set $M^{\perp\perp}$ is the **causal closure** of $M$.
+
+## Properties ##
+Causal complements are always causally closed. The intersection of two causally closed sets is again a causally closed set. The causal complement of a set may be empty.
+
+A [[causal disjointness relation]] on an index set of subsets of a given set can be defined via
+$$
+M_1 \perp M_2 \; \text{iff} \; M_1 \subseteq (M_2)^{\perp}
+$$
+if all sets $M$ have a causal complement.
+
+[[!redirects causal complements]]
