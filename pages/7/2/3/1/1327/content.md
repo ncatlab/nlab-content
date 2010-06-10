@@ -86,3 +86,6 @@ A textbook discussion (slightly modified) is in section 1.6 of the book
 Further explanations and references are collected at
 
 * [AMS entry on associahedra](http://www.ams.org/featurecolumn/archive/associahedra.html)
+
+
+[[!redirects associahedra]]
