@@ -122,6 +122,16 @@ is homotopy exact, so $q_! \cong t^*$ and thus
 $$\Sigma \cong t^* p_! u_* s_* \cong t^? s_*.$$
 Dually, we can identify $\Omega \cong s^! t_!$, from which it again follows directly that $\Sigma \dashv \Omega$.
 
+### Enrichment over pointed sets
+
+Every pointed derivator can be canonically "enriched" over [[pointed sets]], in the sense that we can extend it to a functor $D':Set_* Cat \to Set_* CAT$ from small $Set_*$-enriched categories to large ones, satisfying analogues of the derivator axioms.  Specifically, if $C$ is a $Set_*$-category, define $\bar{C}$ to be $C$ with a [[zero object]] adjoined; this is the [[Cauchy completion]] of a $Set_*$-category.  Then set $D'(C) = D(\bar{C},0)$, the relative diagram category as defined above where the zero object must map to zero.
+
+Any $Set_*$-functor automatically preserves zero objects (since an object $x$ of a $Set_*$-category is zero iff its identity $id_x$ is the basepoint of the pointed homset $hom(x,x)$), so any $Set_*$-functor $u:A\to B$ induces a functor $(u,0):(\bar{A},0) \to (\bar{B},0)$, and hence a pullback $u^* = (u,0)^*:D'(B) \to D'(A)$.  As remarked above, this functor has left and right adjoints $u_!$ and $u_*$, obtained from left and right extension along $u$ followed by reflection or coreflection from $D(\bar{B})$ into $D(\bar{B},0)$.
+
+Thus we have a $Set_*$-analogue of the derivator axiom (Der3), existence of adjoints.  For the enriched axiom (Der2), conservativity, observe that if $I$ is the unit $Set_*$-category having one object $x$ with $hom(x,x) = S^0 = \{1_x, 0\}$, then $D'(I) \simeq D(*)$.  So the family of $Set_*$ functors $I \to A$ for any $Set_*$-category $A$ gives rise a family $*\to \bar{A}$ picking out the nonzero objects, but since any two zero objects are isomorphic, (Der2) for $D$ implies that the resulting family of functors $D'(A) \to D'(I)$ are jointly conservative.
+
+*Remaining to consider:* axiom (Der1) on coproducts, and axiom (Der4) on exact squares.
+
 
 ## The pointed reflection
 
