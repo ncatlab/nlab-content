@@ -20,6 +20,8 @@
 
 * [[pivotal category]]
 
+* [[spherical category]]
+
 * [[ribbon category]], a.k.a. [[tortile category]]
 
 * [[compact closed category]]
