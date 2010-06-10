@@ -16,9 +16,14 @@ Its critical points are holomorphically flat connections: $F^{0,2}_A = 0$. One w
 
 Under the [[mirror symmetry]], the holomorphic bundles correspond to the [[Lagrangian submanifold]]s in the mirror, and the stability condition restricts the attention to the [[special Lagrangian submanifold]]s in the mirror. 
 
-## Motivic DT invariants
+## Motivic DT invariants {#Motivic}
 
 A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given by [[Dominic Joyce]] and by [[Maxim Kontsevich]] and [[Yan Soibelman]]. 
+
+See 
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_ ([arXiv:0910.4315](http://arxiv.org/abs/0910.4315))
+
 
 ...
 
