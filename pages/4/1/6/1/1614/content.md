@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -26,6 +31,8 @@ In constrast to topological QFTs, non-topological quantum field theories in the 
 * $S =$ [[pseudo-Riemannian metric|pseudo-Riemannian structure]] $\to$ "relativistic QFT"
 
 #Examples#
+
+* [[2d TQFT]]
 
 * [[Dijkgraaf-Witten theory]]
 
