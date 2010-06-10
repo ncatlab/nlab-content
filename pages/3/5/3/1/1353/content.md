@@ -48,9 +48,21 @@ for $n = 1,2, \cdots$ and $k \in [n]$.
 
 =--
 
-(See reference below for more details.)
 
-A [[stratified simplicial set]] is a **weak complicial set** if it has the [[right lifting property]] with respect to all elementary anodyne extensions.  A [[complicial set]] is a weak complicial set in which such liftings are unique.
+
++-- {: .un_defn}
+###### Definition
+
+
+A [[stratified simplicial set]] is a **weak complicial set** if it has the [[right lifting property]] with respect to all 
+
+$\Lambda^k[n] \stackrel{\subset_r}{\hookrightarrow} \Delta^k[n]$  and
+$\Lambda^k[n]' \stackrel{\subset_e}{\hookrightarrow} \Delta^k[n]''$ 
+
+A [[complicial set]] is a weak complicial set in which such liftings are unique.
+
+=--
+
 
 ## Model structure
 
@@ -69,6 +81,8 @@ There is a [[model category]] structure that presents the [[(infinity,1)-categor
 * A simplicial set is a [[quasi-category]] if and only if it is a  weak complicial set when equipped with the stratification in which every simplex of dimension $\gt 1$ is thin, and only degenerate 1-simplices are thin.  This example is not saturated; in its saturation the thin 1-simplices are the internal equivalences in a quasi-category (equivalently, those that become isomorphisms in its [[homotopy category]]).  It presents the embedding of $(\infty,1)$-[[(infinity,1)-category|categories]] into weak $\omega$-categories.
 
   Note that 1-simplex equivalences in a quasi-category are automatically preserved by simplicial maps between quasi-categories; this is why $QCat$ can "correctly" be regarded as a full subcategory of $sSet$.  This is not true at higher levels; for instance not every simplicial map between nerves of strict $\omega$-categories necessarily preserves $\omega$-equivalence morphisms.
+
+
 
 
 ## References
