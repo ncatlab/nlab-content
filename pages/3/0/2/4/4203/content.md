@@ -16,7 +16,9 @@ The net is said to satisfy the **causality condition** in this case.
 ...
 
 ## Examples ##
-...
+The causality condition for [[Haag-Kastler nets]] means that the nets are causal nets with the [[causal index set]] given by bounded open sets of the [[Minkowski spacetime]].
+
+A stronger condition on a net of [[von Neumann algebras]] is duality, see [[dual net of von Neumann algebras]].
 
 ## References ##
 ...
