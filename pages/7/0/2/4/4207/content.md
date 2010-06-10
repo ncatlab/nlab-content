@@ -13,7 +13,7 @@ R = (\bigcup_k M_k){''}
 $$
 An index $i \in I$ satisfies **duality** if
 $$
-M_i = (\bigcup_{j \perp i} M_j)' \bigcap R = (\bigcap_{j \perp i} M_j^') \bigcap R = \bigcap_j M^c_j
+M_i = (\bigcup_{j \perp i} M_j)' \bigcap R = (\bigcap_{j \perp i} M_j^') \bigcap R = \bigcap_{j \perp i} M^c_j
 $$
 Here $M^c_j$ is the [[relative commutant]] of $M_j$ with respect to $R$.
 
@@ -24,7 +24,7 @@ A weaker concept is that of **essentially dual**:
 Define an extension $(\hat M_k)$ of the net $(M_k)$ via 
 
 $$
-\hat M_k = (\bigcup_{j \perp i} M_j)'
+\hat M_i = (\bigcup_{j \perp i} M_j)'
 $$
 This extension is not necessarily a [[causal net]] anymore. If it is, then it is dual by definition. The net $(M_k)$ is **essentially dual**, if the extended net $(\hat M_k)$ is dual, which is true iff $(\hat M_k)$ is causal.
 
