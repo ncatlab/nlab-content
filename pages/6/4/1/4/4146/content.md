@@ -81,43 +81,53 @@ We can state this equivalently as follows.  Given $b\in B$ and $c\in C$, define 
 $$(b/A/c) \to D(v(b),g(c))$$
 (considering the latter [[homset]] as a [[discrete category]]) which sends $(a,\alpha,\beta)$ to the composite $g(\alpha) \circ v(\beta)$, and the square is exact just when this functor is a bijection on [[connected component]]s.
 
-**Example:** Note that in the case of a square
+#### Examples
+
++--{: .un_example}
+###### Example
+Note that in the case of a square
 $$\array{A & \overset{u}{\to} & B\\
   \downarrow && \downarrow\\
   *& \underset{}{\to} & *}$$
 this characterization reduces to saying that for any $b\in B$, the category $b/u$ is connected.  This is the standard combinatorial characterization of a [[final functor]].
+=--
+
++--{: .un_example}
+###### Example
+This characterization implies directly that any [[cocomma square]] is exact, since the cocomma object of a cospan $C \overset{u}{\leftarrow} A \overset{f}{\to} B$ is precisely the [[cograph of a profunctor|cograph]] of the profunctor $C(u,1) \circ B(1,f)$.  This generalizes to any proarrow equipment (but unlike the case of comma squares, it does not generalize to [[homotopy exact squares]] unless we take a "homotopy cocomma object").
+=--
 
 ### Using comma objects {#CommaObj}
 
 Another approach is to argue as follows.  First note that any comma square of the form
 $$\array{v/d & \overset{}{\to} & C\\
-  \downarrow &\Downarrow& \downarrow^v\\
+  \downarrow &\swArrow& \downarrow^v\\
   * & \underset{d}{\to} & D}$$
 must be exact.  As observed above, this is one of the equivalent definitions of what it means to be a pointwise left Kan extension.  (Note that this ejects us from the world of enriched categories already.)  Dually,
 $$\array{d/g & \overset{}{\to} & *\\
-  \downarrow &\Downarrow& \downarrow^d\\
+  \downarrow &\swArrow & \downarrow^d\\
   B & \underset{g}{\to} & D}$$
 must also be exact, by definition of pointwise right Kan extensions.  Now suppose that a square
 $$\array{A & \overset{f}{\to} & B\\
-  ^u\downarrow & \Downarrow & \downarrow^v\\
+  ^u\downarrow & \swArrow & \downarrow^v\\
   C& \underset{g}{\to} & D}$$
 is given.  The Beck-Chevalley transformation $u_! f^* \to g^* v_!$ between functors $C\to M$ will be an isomorphism as soon as it is an isomorphism componentwise, i.e. when evaluated at every object of $c$.  In other words, we want the transformation $c^* u_! f^* \to c^* g^* v_!$ to be an isomorphism.  Now consider the composite square
 $$\array{u/c & \overset{q}{\to} & A & \overset{f}{\to} & B\\
-  ^p\downarrow & \Downarrow & \downarrow^u & \Downarrow & \downarrow^v\\
+  ^p\downarrow & \swArrow & \downarrow^u & \swArrow & \downarrow^v\\
   * & \underset{c}{\to}& C & \underset{g}{\to} & D.}$$
 Since the left-hand square is of the form considered above, it is exact, so $p_! q^* \to c^* u_!$ is an isomorphism.  Thus $c^* u_! f^* \to c^* g^* v_!$ is an isomorphism if and only if the composite
 $$ p_! q^* f^* \to c^* u_! f^* \to c^* g^* v_! $$
 is an isomorphism, but this is just the Beck-Chevalley transformation for the composite square
 $$\array{u/c & \overset{}{\to} & B\\
-  \downarrow &\Downarrow & \downarrow^v\\
+  \downarrow &\swArrow & \downarrow^v\\
   * & \underset{g(c)}{\to} & D.}$$
 So the given square is exact just when all of these squares are exact.  But we can also play the same game dually, so the given square is exact just when for any $c\in C$ and $b\in B$, the square
 $$\array{(b/A/c) & \overset{x}{\to} & *\\
-  ^y\downarrow &\Downarrow & \downarrow^{v(b)}\\
+  ^y\downarrow &\swArrow & \downarrow^{v(b)}\\
   * & \underset{g(c)}{\to} & D.}$$
 is exact.  However, the comma square
 $$\array{D(v(b),g(c)) & \overset{z}{\to} & *\\
-  ^w\downarrow &\Downarrow & \downarrow^{v(b)}\\
+  ^w\downarrow &\swArrow & \downarrow^{v(b)}\\
   * & \underset{g(c)}{\to} & D.}$$
 is always exact, as observed previously, and by the universal property of a comma square, the previous one factors through this one via a functor $r\colon (b/A/c) \to D(v(b),g(c))$.  Hence we have $y = w r$ and $x = z r$, and the Beck-Chevalley transformation for the $(b/A/c)$ square factors as
 $$y_! x^* \cong w_! r_! r^* z^* \to w_! z^* \overset{\cong}{\to} g(c)^* v(b)_!.$$
