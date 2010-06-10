@@ -22,6 +22,20 @@ Weak complicial sets are a joint generalization of
 
 ## Definition
 
++-- {: .un_defn}
+###### Definition
+
+Let
+
+* $\Delta^k[n]$ be the stratified simplicial set whose underlying simplicial set is the $n$-[[simplex]] $\Delta[n]$, and whose marked cells are precisely those simplices $[r] \to [n]$ that contain $\{k-1, k, k+1\} \cap [n]$;
+
+* $\Lambda^k[n]$ be the stratified simplicial set whose underlying simplicial set is the $k$-[[horn]] of $\Delta[n]$, with marked cells those that are marked in $\Delta^k[n]$;
+
+* $\Lambda^k[n]'$ be obtained from $\Delta^k[n]$ by making the $(k-1)$st $(n-1)$-face and the $(k+1)$st $(n-1)$ face thin;
+
+* $\Delta^k[n]''$ be obtained from $\Delta^k[n]$ by making all $(n-1)$-faces thin.
+
+
 An **elementary anodyne extension** in $Strat$, the category [[stratified simplicial sets]] is 
 
 * a **complicial horn extension** $\Lambda^k[n] \stackrel{\subset_r}{\hookrightarrow} \Delta^k[n]$ 
@@ -32,9 +46,11 @@ or
 
 for $n = 1,2, \cdots$ and $k \in [n]$.
 
+=--
+
 (See reference below for more details.)
 
-A [[stratified simplicial set]] is a **weak complicial set** if it has the right lifting property with respect to all elementary anodyne extensions.  A [[complicial set]] is a weak complicial set in which such liftings are unique.
+A [[stratified simplicial set]] is a **weak complicial set** if it has the [[right lifting property]] with respect to all elementary anodyne extensions.  A [[complicial set]] is a weak complicial set in which such liftings are unique.
 
 ## Model structure
 
