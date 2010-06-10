@@ -60,7 +60,7 @@ A poset is **[[locally finite poset|locally finite]]** if every closed bounded i
 
 ## Kinds of posets ##
 
-A poset with a [[top element]] and [[bottom element]] is called __bounded__.  (But note that a *subset* of a poset may be bounded without being a bounded poset itself.)
+A poset with a [[top element]] and [[bottom element]] is called __bounded__.  (But note that a *[[subset]]* of a poset may be bounded without being a bounded as a poset in its own right.)
 
 A poset with all [[meets]] and [[joins]] is called a __[[lattice]]__; if it has only one or the other, it is still a __[[semilattice]]__.
 
@@ -68,7 +68,8 @@ A poset in which every finite set has an upper bound (but perhaps not a *least* 
 
 As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is called __locally finite__ or a __[[causet]]__.
 
-If a poset has an unbounded infinite sequence it is an **unbounded poset**, that is there exists a sequence $(x_n)_{n=1}^{\infty}$ such that for every $y$ in the poset there is a $x_m$ with $y \leq x_m$.
+A poset with an unbounded [[infinite sequence]] is called __unbounded__.  That is, there exists a sequence $(x_n)_{n=1}^{\infty}$ such that for every $y$ in the poset there is a $x_m$ with $y \leq x_m$.  (Note that this condition is indepedent of being bounded.)
+
 
 ## In higher category theory ##
 
