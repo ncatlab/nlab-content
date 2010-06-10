@@ -8,7 +8,7 @@
 
 Consider a complex projective Calabi-Yau 3-manifold $X$ with volume form $vol_X$. R. Thomas considered in his 1997 thesis a holomorphic version of the [[Casson invariant]] which may be defined using the holomorphic Chern-Simons functional. 
 
-For a holomorphic connection $A = A_0 +\alpha$, the holomorhic Chern-Simons functional is given by 
+For a holomorphic connection $A = A_0 +\alpha$, the holomorphic Chern-Simons functional is given by 
 
 $$CS(A) = \int_X Tr(\bar\nabla_{A_0} \alpha\wedge\alpha +\frac{1}{2}\alpha\wedge\alpha\wedge\alpha) vol_X $$
 
