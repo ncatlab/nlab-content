@@ -68,6 +68,7 @@ A poset in which every finite set has an upper bound (but perhaps not a *least* 
 
 As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is called __locally finite__ or a __[[causet]]__.
 
+If a poset has an unbounded infinite sequence it is an **unbounded poset**, that is there exists a sequence $(x_n)_{n=1}^{\infty}$ such that for every $y$ in the poset there is a $x_m$ with $y \leq x_m$.
 
 ## In higher category theory ##
 
