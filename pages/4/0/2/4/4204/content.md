@@ -247,7 +247,7 @@ Here a map $X\to Y$ is $k$-connected if
 
 * $\pi_0(X) \to \pi_0(Y)$ is surjective;
 
-* $\pi_i(X,x) \to \pi_i(Y,f(x))$ is a bijection for $i \lt k$ and surjective $i =$.
+* $\pi_i(X,x) \to \pi_i(Y,f(x))$ is a bijection for $i \lt k$ and surjective $i = k$.
 
 This means precisely that the [[mapping cone]] is $k$-connected.
 
