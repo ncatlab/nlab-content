@@ -10,7 +10,7 @@ A *homotopy exact square* is the analogue of an [[exact square]] which applies t
 
 Let $A$, $B$, $C$, and $D$ be small [[categories]], and consider a square of [[functors]]
 $$\array{A & \overset{f}{\to} & B\\
-  ^u\downarrow & \Downarrow & \downarrow^v\\
+  ^u\downarrow & \swArrow & \downarrow^v\\
   C& \underset{g}{\to} & D}$$
 which is inhabited by a [[natural transformation]] (which might be an [[identity]]).  Let $M$ be either
 
