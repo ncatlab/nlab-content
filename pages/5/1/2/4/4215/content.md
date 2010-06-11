@@ -1,6 +1,12 @@
+This page is about conjunctions in double (or higher) categories; see [[logical conjunction]] (if we ever write it) for the [[meet]] of [[truth values]].
+
+***
+
+
 ## Idea
 
 A **conjunction** in a [[double category]] is a way of saying that a horizontal arrow and a vertical arrow are [[adjunction|adjoint]], even though they do not live in the same 2-category.
+
 
 ## Definition
 
@@ -32,9 +38,12 @@ Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each othe
 
 * If every vertical arrow in some double category $D$ has a right conjoint, then the functor $f\mapsto g$ is a [[pseudofunctor]] $V D^{op}\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and locally fully faithful by the mate correspondence.  If every vertical arrow also has a companion, then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
 
+
+[[!redirects conjunction]]
+[[!redirects conjunctions]]
+[[!redirects conjunctionss]]
 [[!redirects conjoint]]
 [[!redirects conjoints]]
-[[!redirects conjunctionss]]
 [[!redirects conjunction in a double category]]
 [[!redirects left conjoint]]
 [[!redirects right conjoint]]
