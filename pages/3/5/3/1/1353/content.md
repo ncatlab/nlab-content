@@ -27,7 +27,7 @@ Weak complicial sets are a joint generalization of
 
 Let
 
-* $\Delta^k[n]$ be the stratified simplicial set whose underlying simplicial set is the $n$-[[simplex]] $\Delta[n]$, and whose marked cells are precisely those simplices $[r] \to [n]$ that contain $\{k-1, k, k+1\} \cap [n]$;
+* $\Delta^k[n]$ be the [[stratified simplicial set]] whose underlying simplicial set is the $n$-[[simplex]] $\Delta[n]$, and whose marked cells are precisely those simplices $[r] \to [n]$ that contain $\{k-1, k, k+1\} \cap [n]$;
 
 * $\Lambda^k[n]$ be the stratified simplicial set whose underlying simplicial set is the $k$-[[horn]] of $\Delta[n]$, with marked cells those that are marked in $\Delta^k[n]$;
 
