@@ -54,7 +54,13 @@ $$
 
 That this is a bijection follows easily from the [[triangle identities]].  The 2-cells $\lambda$ and $\mu$ are called **mates** (or sometimes **conjugates**) with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
 
-## Naturality
+## Properties
+
+Strict [[2-functors]] preserve adjunctions and pasting diagrams, so that if $F \colon K \to J$ is a 2-functor and if $\lambda$ and $\mu$ are mates wrt $f \dashv u$ and $f' \dashv u'$ in $K$, then $F \lambda$ and $F \mu$ are mates wrt $F f \dashv F u$ and $F f' \dashv F u'$ in $J$.
+
+If $\alpha \colon F \Rightarrow G$ is a [[2-natural transformation]], then the naturality identities $\alpha_b \circ F f = G f \circ \alpha_a$ and $\alpha_a \circ F u = G u \circ \alpha_b$ are mates wrt $F f \dashv F u$ and $G f \dashv G u$.
+
+### Naturality
 
 There are two [[double categories]] with objects those of $K$, vertical arrows [[adjoint pairs]] in $K$ and horizontal arrows 1-cells of $K$.  In one the 2-cells are those of the form $\lambda$ above, while in the other they are those of the form $\mu$.  It is easily shown, as in Kelly--Street, that the triangle identities and the definition of composition of adjoints make these two double categories isomorphic.  So for any $K$ there is a double category $Adj(K)$, defined up to isomorphism as above but with mate-pairs in $K$ as 2-cells.
 
