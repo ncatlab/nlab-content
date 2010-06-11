@@ -14,7 +14,7 @@ $$
 $$
 Similarly, $(-2)$-categories form a $(-1)$-category (specifically, the true one).
 
-If we equip the category of $(-1)$-categories with the monoidal structure of [[conjunction]] (the logical AND operation), then a [[enriched category|category enriched]] over this is a [[partial order|poset]]; an enriched groupoid is a [[set]]. Notice that this doesn\'t fit the proper patterns of the [[periodic table]]; we see that $(-1)$-categories work better as either $0$-[[0-poset|poset]]s or as $(-1)$-[[(-1)-groupoid|groupoid]]s. Nevertheless, there is no better alternative for the term '$(-1)$-category'.
+If we equip the category of $(-1)$-categories with the monoidal structure of [[logical conjunction|conjunction]] (the logical AND operation), then a [[enriched category|category enriched]] over this is a [[partial order|poset]]; an enriched groupoid is a [[set]]. Notice that this doesn\'t fit the proper patterns of the [[periodic table]]; we see that $(-1)$-categories work better as either $0$-[[0-poset|poset]]s or as $(-1)$-[[(-1)-groupoid|groupoid]]s. Nevertheless, there is no better alternative for the term '$(-1)$-category'.
 
 For an introduction to $(-1)$-categories and $(-2)$-[[(-2)-category|categories]] see [page 11](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=11) and [page 34](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=34) of 
 
