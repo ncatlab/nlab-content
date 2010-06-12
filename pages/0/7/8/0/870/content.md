@@ -39,3 +39,11 @@ The first two rows of the intuitionistic/paraconsistent/classical duality genera
 | &#8942;                   |   | &#8942;                  |
 
 So in a way, all duality in category theory is a generalisation of de Morgan duality.
+
+
+[[!redirects de Morgan duality]]
+[[!redirects de Morgan dualities]]
+[[!redirects de Morgan dual]]
+[[!redirects de Morgan duals]]
+[[!redirects de Morgan law]]
+[[!redirects de Morgan laws]]
