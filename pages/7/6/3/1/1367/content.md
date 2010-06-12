@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include quasi-category theory contents]]
 </div>
@@ -223,3 +222,11 @@ The discussion of [[model category]] models is in A.3.4.
 
 
 [[!redirects (∞,1)-category of (∞,1)-functors]]
+[[!redirects (infinity,1)-functor category]]
+[[!redirects functor (infinity,1)-category]]
+[[!redirects (∞,1)-functor categories]]
+[[!redirects functor (∞,1)-categories]]
+[[!redirects (infinity,1)-functor category]]
+[[!redirects functor (infinity,1)-category]]
+[[!redirects (∞,1)-functor categories]]
+[[!redirects functor (∞,1)-categories]]
