@@ -22,18 +22,26 @@ More generally, if $p$ and $q$ are any two [[relations]] on the same domain, the
 
 ## Remarks
 
-As truth values form a poset, which is a degenerate kind of [[category]], so truth values under conjunction form a [[meet-semilattice]], which is a degenerate kind of [[cartesian monoidal category]].  Self-referentially, a [[poset]] is (up to [[equivalence of categories|equivalence]]) simply a [[category enriched]] over the cartesian monoidal category of truth values.  With [[implication]] as [[internal hom]], truth values form a [[closed cartesian category]].
+Conjunction is de Morgan dual to [[disjunction]].
 
 Like any meet, conjunction is an associative operation, so we can take the conjunction of any finite positive whole number of truth values; the conjunction is true if and only if all of the individual truth values are true.  Conjunction also has an [[identity element]], which is the [[truth|true]] truth value.  Some logics allow a notion of infinitary conjunction.  Indexed conjunction is [[universal quantification]].
 
+As truth values form a poset, which is a degenerate kind of [[category]], so truth values under conjunction form a [[meet-semilattice]], which is a degenerate kind of [[cartesian monoidal category]].  Self-referentially, a [[poset]] is (up to [[equivalence of categories|equivalence]]) simply a [[category enriched]] over the cartesian monoidal category of truth values.  With [[implication]] as [[internal hom]], truth values form a [[closed cartesian category]].
 
-## Rules
 
-That conjunction is a [[meet]] means that $p \wedge q$ may be proved in a [[context]] $\Gamma$ if and only if both $p$ and $q$ may be proved in $\Gamma$.  This directly yields the introduction and elimination rules for conjunction in [[natural deduction]]:
+## Rules of inference
+
+That conjunction is a [[meet]] means that $p \wedge q$ may be proved in a [[context]] $\Gamma$ if and only if both $p$ and $q$ may be proved in $\Gamma$.  This directly yields the [[rule of inference|introduction and elimination rules]] for conjunction in [[natural deduction]]:
 $$ \begin {gathered}
    \frac { \Gamma \vdash p ; \; \Gamma \vdash q } { \Gamma \vdash p \wedge q } \; \text {introduction} \\
    \frac { \Gamma \vdash p \wedge q } { \Gamma \vdash p } \; \text {elimination 0} \\
    \frac { \Gamma \vdash p \wedge q } { \Gamma \vdash q } \; \text {elimination 1} \\
+\end {gathered} $$
+
+Alternatively, we may use these slightly more complicated (but fewer) inductive forms:
+$$ \begin {gathered}
+   \frac { \Gamma \vdash p ; \; \Gamma \vdash q } { \Gamma \vdash p \wedge q } \; \text {introduction} \\
+   \frac { \Gamma , p , q \vdash r } { \Gamma , p \wedge q , \vdash r } \; \text {elimination} \\
 \end {gathered} $$
 
 In [[sequent calculus]], the same ideas become these rules:
