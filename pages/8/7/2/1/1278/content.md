@@ -478,7 +478,7 @@ and many more...
 
 ## talk notes ##
 
-* the talks by [[Dan Freed]], Schick, [[Ulrich Bunke]] and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
+* The talks by [[Dan Freed]], Schick, [[Ulrich Bunke]] and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
 
 
 
@@ -489,4 +489,8 @@ and many more...
 
 ## Differential non-abelian cohomology
 
-for the moment, see [[schreiber:Differential Nonabelian Cohomology]]
+* For the moment, see [[schreiber:Differential Nonabelian Cohomology]]
+
+* See also the talk by Urs Schreiber on `Background fields in twisted nonabelian differential cohomology' at  [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]].
+
+* [[tempUrsGoettingenTalk]]
