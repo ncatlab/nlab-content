@@ -21,3 +21,5 @@ Like any join, disjunction is an associative operation, so we can take the disju
 [[!redirects disjunction]]
 [[!redirects logical disjunction]]
 [[!redirects inclusive disjunction]]
+[[!redirects or]]
+[[!redirects inclusive or]]
