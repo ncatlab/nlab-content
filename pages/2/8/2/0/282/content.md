@@ -75,7 +75,7 @@ Currently a comprehensive **monograph** is in preparation on the subject of the 
 
 * &lt;http://www.bangor.ac.uk/r.brown/nonab-a-t.html>
 
-near the bottom of the page.
+near the bottom of the page. See reference below. 
 
 
 
@@ -105,7 +105,9 @@ Amer. Math. Soc., 55 (1949), 453--496.
 1. Brown, R. _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_, in Handbook of Algebra 6, Edited M. Hazewinkel, Elsevier, 2009. 
 
 1. Wensley, C.D. and Alp, M., XMOD, a GAP share package for
-computation with crossed modules, _GAP Manual_, (1997), 1355--1420. 
+computation with crossed modules, _GAP Manual_, (1997), 1355--1420.
+
+1. Brown, R., Higgins, P.J., and Sivera, R., _Nonabelian Algebraic Topology: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).   
 
 
 [[!redirects Nonabelian algebraic topology]]
