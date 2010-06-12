@@ -492,5 +492,3 @@ and many more...
 * For the moment, see [[schreiber:Differential Nonabelian Cohomology]]
 
 * See also the talk by Urs Schreiber on `Background fields in twisted nonabelian differential cohomology' at  [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]].
-
-* [[tempUrsGoettingenTalk]]
