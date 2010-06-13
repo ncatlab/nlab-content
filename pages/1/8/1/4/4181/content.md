@@ -46,7 +46,7 @@ In fact it was Gerstenhaber who coined the term 'pre-Lie algebra', for this reas
 
 Connes and Kreimer formalized the process of [renormalization](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) using a certain [Hopf algebra] built from Feynman diagrams.  More abstractly we can understand the essence of their construction using a Hopf algebra built from rooted trees, as explained here:
 
-* John Baez, [This Week's Finds in Mathematical Physics (Week 299)](http://math.ucr.edu/home/baez/week299.html) (which does not exist yet!)
+* John Baez, This Week's Finds in Mathematical Physics, Week 299.  ([web](http://math.ucr.edu/home/baez/week299.html))  ([blog](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html))
 
 The key is to form the free pre-Lie algebra on one generator, then turn this into a Lie algebra as described above, and then form the universal enveloping of that, which is a cocommutative Hopf algebra.  Finally, the restricted dual of this cocommutative Hopf algebra is the commutative Hopf algebra considered by Connes and Kreimer here:
 
@@ -60,13 +60,21 @@ The free pre-Lie algebra on one generator is thus
 $$\bigoplus_{n} PL_n /S_n  \, $$
 so the description of $PL_n$ in terms of rooted trees gives a kind of 'explanation' of the relation between the Connes--Kreimer Hopf algebra and rooted trees.
 
-## Self-referential mysteries ##
+## Self-referentiality ##
 
-Pre-Lie algebras have a strange self-referential feature.
-Every operad of a large class gives a pre-Lie algebra, but the operad for pre-Lie algebras is one of this class!  This raises the following interesting puzzle.
+Pre-Lie algebras have a strange self-referential feature.  Every operad of a large class gives a pre-Lie algebra, but the operad for pre-Lie algebras is one of this class!  This raises the following interesting puzzle.
 
 As we have seen above, for any linear operad $O$, the free $O$-algebra with one generator becomes a pre-Lie algebra.  But the operad for pre-Lie algebra is an operad of this type.  So, the free pre-Lie algebra on one generator becomes a pre-Lie algebra in this way.   But of course it already *is* a pre-Lie algebra!  Do these pre-Lie structures agree?
 
-For the answer, see page 7 here:
+The answer is no.  For an explanation, see page 7 here:
 
-* Dominique Manchon, [A short survey on pre-Lie algebras](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf)
+* Dominique Manchon, A short survey on pre-Lie algebras.  ([web](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf))
+
+## References ##
+
+The best overall introduction to pre-Lie algebras seems to be that by Dominique Manchon, cited above.  For two more introductions, try:
+
+* John Baez, This Week's Finds in Mathematical Physics, Week 299.  ([web](http://math.ucr.edu/home/baez/week299.html))  ([blog](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html))
+
+* Fr&#233;d&#233;ric Chapoton, Operadic point of view on the Hopf algebra of rooted trees.  ([web] (http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf">http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf))
+
