@@ -1,11 +1,10 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-Roughly speaking, a **factorization syste** on a [[category]] consists of two classes of maps, $L$ and $R$, such that every map factors into an $L$-map followed by an $R$-map, and the $L$-maps and $R$-maps satisfy some lifting or diagonal fill-in property.  The various ways of filling in the details give rise to many kinds of factorization systems:
+Roughly speaking, a **factorization system** on a [[category]] consists of two classes of maps, $L$ and $R$, such that every map factors into an $L$-map followed by an $R$-map, and the $L$-maps and $R$-maps satisfy some lifting or diagonal fill-in property.  The various ways of filling in the details give rise to many kinds of factorization systems:
 
 * In most of the literature, "factorization system" unqualified refers specifically to [[orthogonal factorization system]]s (OFS).
 
