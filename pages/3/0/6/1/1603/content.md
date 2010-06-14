@@ -62,5 +62,10 @@ A __[[group]]__ is an associative loop.
 *  The nonzero elements of a (not necessarily associative) [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
 
 
+## Applications
+
+Quasigroups have applications to the study of [[Latin square]]s (basically the 'sudoku squares' from the quotation above).
+
+
 [[!redirects loop(algebra)]]
 [[!redirects quasigroups]]
