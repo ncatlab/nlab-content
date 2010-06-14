@@ -42,7 +42,7 @@ An **elementary anodyne extension** in $Strat$, the category [[stratified simpli
 
 or
 
-* a **complicial thinness extension** $\Lambda^k[n]' \stackrel{\subset_e}{\hookrightarrow} \Delta^k[n]''$ 
+* a **complicial thinness extension** $\Delta^k[n]' \stackrel{\subset_e}{\hookrightarrow} \Delta^k[n]''$ 
 
 for $n = 1,2, \cdots$ and $k \in [n]$.
 
