@@ -68,7 +68,7 @@ As we have seen above, for any linear operad $O$, the free $O$-algebra with one 
 
 The answer is no.  For an explanation, see page 7 here:
 
-* Dominique Manchon, A short survey on pre-Lie algebras.  ([web](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf))
+* Dominique Manchon, A short survey on pre-Lie algebras.  ([pdf](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf))
 
 ## References ##
 
@@ -76,5 +76,5 @@ The best overall introduction to pre-Lie algebras seems to be that by Dominique 
 
 * John Baez, This Week's Finds in Mathematical Physics, Week 299.  ([web](http://math.ucr.edu/home/baez/week299.html))  ([blog](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html))
 
-* Fr&#233;d&#233;ric Chapoton, Operadic point of view on the Hopf algebra of rooted trees.  ([web] (http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf">http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf))
+* Fr&#233;d&#233;ric Chapoton, Operadic point of view on the Hopf algebra of rooted trees.  ([pdf](http://www-math.unice.fr/~patras/CargeseConference/ACQFT09_FredericCHAPOTON.pdf))
 
