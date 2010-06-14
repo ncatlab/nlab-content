@@ -39,7 +39,7 @@ $$
 <li>This is now item (7), automatically.</li></ol>
 <p>And that's the whole list!</p>
 
-Testing ... $\int_{0}^{1} \sin(3t) t^2 \mathrm{dt}$.
+Testing ... $\int_{0}^{1} \sin(3t) t^2 \mathrm{d}t$.
 
 {:l: style="float:left;width:4em; font-style:normal;"}
 
