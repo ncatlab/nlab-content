@@ -122,7 +122,7 @@ We may then form the canonical simplicial object $B(F, M, U)$. By general abstra
 
 +-- {: .un_prop}
 ######Proposition 
-The canonical simplicial map $B(F, M, U) \to 1_A$ is a simplicial homotopy equivalence. 
+The canonical simplicial map $B(F, M, U) \to 1_A$ is a simplicial [[homotopy equivalence]]. 
 =--
 
 #### Delooping machines #### 
@@ -131,7 +131,7 @@ The classic application of this two-sided bar construction was given by Peter Ma
 
 +-- {: .un_prop}
 ######Proposition 
-The canonical simplicial map $B(S^n, \Omega^n S^n, \Omega^n X) \to X$ is a simplicial homotopy equivalence. 
+The canonical simplicial map $B(S^n, \Omega^n S^n, \Omega^n X) \to X$ is a simplicial [[homotopy equivalence]]. 
 =--
 
 So if $Y$ is an $n$-fold loop space, the two-sided bar construction $B(S^n, \Omega^n S^n, Y)$ provides its $n$-fold delooping. 
