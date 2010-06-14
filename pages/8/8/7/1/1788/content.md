@@ -16,6 +16,17 @@ This is the first equation (ever)
 What you have just witnessed was equation number.. \eqref{first}.
 
 
+### Stacks
+
+This is a stack:
+
+$$
+  { {\Omega^1} \atop {\oplus \Omega^2}}
+$$
+
+(of symbols, that it).
+
+
 ### Numbered lists
 
 <p>Here is an ordered list:</p>
