@@ -34,7 +34,7 @@ With the aid of string diagrams, one may easily visualize the structure $\mathbf
 
 $$m^{\circ n}: 1 \to 1 \qquad y m^{\circ n}: 1 \to 2 \qquad m^{\circ n} x: 0 \to 1 \qquad y m^{\circ n} x: 0 \to 2,$$
 
-and the nonempty hom-categories $hom(i, j) = \mathbf{B}(i, j)$ may be described as follows: 
+and the nonempty hom-categories $hom(i, j) = \mathbf{I}(i, j)$ may be described as follows: 
 
 * $hom(1, 1)$ is isomorphic to the "algebraist's $\Delta_a$" (see [[simplex category]]): the category of finite ordinals and order-preserving maps; 
 
@@ -102,7 +102,7 @@ $$B(M, M, X)$$
 
 which may be regarded as a _cofibrant replacement_ of $X$, a simplicial $M$-algebra which as a simplicial object is homotopy-equivalent to the constant simplicial object at $X$. (More should be added here.) See also [[bar construction]]. 
 
-Rather more generally, if in addition $(Y, \beta: $ is a right $M$-module, we may denote the coequalizer of the pair 
+Rather more generally, if in addition $(Y, \beta: Y M \to Y$ is a right $M$-module, we may denote the coequalizer of the pair 
 
 $$Y M X \stackrel{\overset{\beta X}{\to}}{\underset{Y \alpha}{\to}} Y X$$ 
 
@@ -122,7 +122,7 @@ We may then form the canonical simplicial object $B(F, M, U)$. By general abstra
 
 +-- {: .un_prop}
 ######Proposition 
-There is a canonical simplicial map $B(F, M, U) \to 1_A$ which is a simplicial homotopy equivalence. 
+The canonical simplicial map $B(F, M, U) \to 1_A$ is a simplicial homotopy equivalence. 
 =--
 
 #### Delooping machines #### 
@@ -131,7 +131,7 @@ The classic application of this two-sided bar construction was given by Peter Ma
 
 +-- {: .un_prop}
 ######Proposition 
-There is a simplicial homotopy equivalence $B(S^n, \Omega^n S^n, \Omega^n X) \to X$. 
+The canonical simplicial map $B(S^n, \Omega^n S^n, \Omega^n X) \to X$ is a simplicial homotopy equivalence. 
 =--
 
 So if $Y$ is an $n$-fold loop space, the two-sided bar construction $B(S^n, \Omega^n S^n, Y)$ provides its $n$-fold delooping. 
