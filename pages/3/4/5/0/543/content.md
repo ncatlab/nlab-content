@@ -70,7 +70,7 @@ that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
 * The [[path space ]] of a topological space $X$
 
-* The [[Fukaya category]] $Fuk(X)$ of a topological space $X$
+* The [[Fukaya category]] $Fuk(X)$ of a topological space $X$ -- a [[Calabi-Yau A-∞ category]]
 
 * $A_\infty$-[[A-infinity-algebra|algebras]] as $A_\infty$-categories with one object.
 
