@@ -26,11 +26,20 @@ A [[locally convex topological vector space]], $E$, is said to be **locally comp
 
 The equivalence of these two forms part of Theorem 2.14 of [KM](#KM).
 
+## Properties
+
+The definition of a convenient vector space has a natural interpretation in terms of [[Frölicher space]]s. It may also be related to [[synthetic differential geometry]]: convenient vector spaces form a [[full subcategory]] of the [[Cahiers topos]].
 
 ##Reference
 
 * Andreas Kriegl, Peter Michor: _the convenient setting of global analysis_ (free download [here] (http://www.ams.org/publications/online-books/surv53-index))
 {#KM}
+
+Convenient vector spaces from the point of view of [[generalized smooth space]]s are considered in 
+
+* [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 1 (1986), p. 3-17, ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0))
+
+
 
 [[!redirects convenient vector spaces]]
 [[!redirects locally complete topological vector space]]
