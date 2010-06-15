@@ -32,6 +32,8 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Mina Aganagic, Hirosi Ooguri, Cumrun Vafa, Masahito Yamazaki, _Wall crossing and M-theory_, [arxiv/0908.1194](http://arxiv.org/abs/0908.1194)
 
+* M. Aganagic, _Wall crossing, quivers and crystals_, [arxiv/1006.2113](http://arxiv.org/abs/1006.2113)
+
 * S. Cecotti, C. Vafa, _BPS wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
 
