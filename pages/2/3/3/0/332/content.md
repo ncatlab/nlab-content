@@ -32,6 +32,7 @@ See also [[topology]].
 * [[Lie group]], [[Lie groupoid]], [[Lie algebroid]], [[Courant algebroid]], [[Atiyah Lie groupoid]]
 * [[Lie theory]], [[Lie's three theorems]], [[Erlangen program]]
 * [[ringed space]], [[ringed site]], [[ringed topos]], [[lined topos]]
+* [[sheaf of ideals]], [[defining sheaf]], [[conormal sheaf]], [[conormal bundle]], [[subscheme of an Abelian category]]
 * [[synthetic differential geometry]], [[infinitesimal object]], [[smooth topos]], [[Kock-Lawvere axiom]], [[infinitesimal singular simplicial complex]], [[differential forms in synthetic differential geometry]]
  
   * book entry [[Models for Smooth Infinitesimal Analysis]]
