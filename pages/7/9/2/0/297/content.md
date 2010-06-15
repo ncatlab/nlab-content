@@ -153,13 +153,15 @@ See
 
 ## homological FQFT (and TCFT) ##
 
-As usual, the problem of constructing FQFT becomes much more tractable when linear approximations are applied. In homological FQFT and in TCFT the Hom-spaces of the cobordism category (the moduli spaces of cobordisms with given punctures/boundaries) are approximated by complexes  of chains on them. This leads to formalization of $\infty$-functorial QFT in the context of differential graded algebra.
+As usual, the problem of constructing FQFT becomes much more tractable when linear approximations are applied. In homological FQFT and in [[TCFT]] the Hom-spaces of the cobordism category (the moduli spaces of cobordisms with given punctures/boundaries) are approximated by complexes  of chains on them. This leads to formalization of $\infty$-functorial QFT in the context of [[dg-algebra]].
 
-* Getzler
+* [[Ezra Getzler]], ...
 
-* Kontsevich
+  * [[TCFT]]
 
-* Costello
+* [[Maxim Kontsevich]], ...
+
+* [[Kevin Costello]], ...
  
   * [[factorization algebra]]
 
