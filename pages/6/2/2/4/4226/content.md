@@ -6,6 +6,8 @@ Motivic integration has been introduced in the talk of Maxim Kontsevich at Orsay
 
 * Jan Denef, Fran&#231;ois  Loeser, _Definable sets, motives and $p$-adic integrals_,  J. Amer. Math. Soc. __14__ (2001),  no. 2, 429--469, [doi](http://dx.doi.org/10.1090/S0894-0347-00-00360-X)
 
+* Jan Denef, Fran&#231;ois  Loeser, _Motivic integration and the Grothendieck group of pseudo-finite fields_ Proc. ICM, Vol. II (Beijing, 2002), 13--23, Higher Ed. Press, Beijing, 2002. 
+
 * R. Cluckers, F. Loeser, _Constructible motivic functions and motivic integration_, Invent. Math. __173__ (2008), 23--121 [math.AG/0410203](http://arxiv.org/abs/math/0410203)
 
 * Jan Denef, Fran&#231;ois  Loeser, _Germs of arcs on singular algebraic varieties and motivic integration_,  Invent. Math. __135__  (1999),  no. 1, 201--232.
