@@ -7,17 +7,9 @@
 * O. Schiffman, _Drinfeld realization of the elliptic Hall algebra_, [arxiv/1004.2575](http://arxiv.org/abs/1004.2575) 
 * [[Toen|B. Toen]], _Derived Hall algebras_, [arxiv/0501343](http://arxiv.org/abs/math/0501343)
 * [[Kontsevich|M. Kontsevich]], [[Yan Soibelman|Y. Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_, [arxiv/0910.4315](http://arxiv.org/abs/0910.4315)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological [[Hall algebra]], exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arxiv/1006.2706](http://arxiv.org/abs/1006.2706)
 * Description of seminar on stability conditions, Hall algebras and [[Stokes phenomenon|Stokes factors]] in Bonn 2009 ([[Daniel Huybrechts|D. Huybrechts]]), [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
 * wikipedia: [Hall algebra](http://en.wikipedia.org/wiki/Hall_algebra), [Ringel-Hall algebra](http://en.wikipedia.org/wiki/Ringel&#8211;Hall_algebra)
 * sbseminar blog: [Hall algebras and Donaldson-Thomas invariants-i](http://sbseminar.wordpress.com/2009/03/25/hall-algebras-and-donaldson-thomas-invariants-i)
 
 [[!redirects Hall algebras]]
-
----
-Handwritten scanned notes in Toen web unpubl folder, on Hall algebras in the derived context.
-
-Toen: Derived Hall algebras: Defines the derived Hall algebra ass to a dg-cat, which generalizes the Hall algebra of an abelian category. File Toen web publ dhall.pdf.
-
-Bergner: Derived Hall algebras for stable homotopy theories: &lt;http://front.math.ucdavis.edu/0910.1861>
-
-nLab page on [[nlab:Hall algebra]]
