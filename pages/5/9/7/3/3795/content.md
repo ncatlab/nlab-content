@@ -18,20 +18,15 @@ Under the [[mirror symmetry]], the holomorphic bundles correspond to the [[Lagra
 
 ## Motivic DT invariants {#Motivic}
 
-A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given by [[Dominic Joyce]] and by [[Maxim Kontsevich]] and [[Yan Soibelman]]. 
-
-See 
-
-* [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_ ([arXiv:0910.4315](http://arxiv.org/abs/0910.4315))
-
-
-...
+A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given by [[Dominic Joyce]] and by [[Maxim Kontsevich]] and [[Yan Soibelman]], see the references below. 
 
 ## References
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Motivic Donaldson-Thomas invariants: summary of results_ ([arXiv:0910.4315](http://arxiv.org/abs/0910.4315))
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315)
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Cohomological [[Hall algebra]], exponential Hodge structures and motivic Donaldson-Thomas invariants_, [arxiv/1006.2706](http://arxiv.org/abs/1006.2706) 
 
 * [[Dominic Joyce]], Yinan Song, _A theory of generalized Donaldson-Thomas invariants_, [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
 
