@@ -77,6 +77,8 @@
 
 ## model structures ##
 
+* [[Cisinski model structure]]
+
 ### for $\infty$-groupoids
 
 * [[model structure on topological spaces|on topological spaces]]
