@@ -52,3 +52,7 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 #Blog discussion#
 
 * David Corfield: [More on duality](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html)
+
+
+[[!redirects duality]]
+[[!redirects dualities]]
