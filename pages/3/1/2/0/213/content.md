@@ -84,6 +84,28 @@ The very general spaces modeled on $C^\infty Alg^{op}$ form the [[smooth topos]]
 On the other hand, considering [[locally ringed space]]s with local rings of functions in $(\infty,1)C^\infty Alg^{op}$  leads to the notion of [[derived smooth manifold]]s.
 
 
+## References {#References}
+
+There are various slight variations of the category $CartSp$ that one can consider without changing its basic properties as a category of test spaces for [[generalized smooth space]]s. A different choice that enjoys some popularity in the literature is the category of open (contractible) subsets of Euclidean spaces. For more references on this see [[diffeological space]].
+
+The [[site]] $ThCartSp$ of infinitesimally thickened Cartesian spaces is known as the site for the [[Cahiers topos]]. It is considered 
+
+in detal in section 5 of
+
+* [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0))
+
+and briefly mentioned in example 2) on p. 191 of
+
+* [[Anders Kock]], _Synthetic differential geometry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+
+following the original article
+
+* [[Eduardo Dubuc]], _Sur les modeles de la geometrie differentielle synthetique_ ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
+
+With an eye towards [[Frölicher space]]s the site is also considered in section 5 of 
+
+* [[Hirokazu Nishimura]], _Beyond the Regnant Philosophy of Manifolds_ ([arXiv:0912.0827](http://arxiv.org/abs/0912.0827))
+
 
 category: category
 
