@@ -44,10 +44,10 @@
 
   * [[smooth natural numbers]]
 
+* [[Cahiers topos]]
+
 ## Variations ##
 
 * [[synthetic differential supergeometry]]
-
-* [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/synthetic+differential+geometry+-+contents)</div>
