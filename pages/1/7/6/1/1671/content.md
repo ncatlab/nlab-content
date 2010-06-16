@@ -16,3 +16,5 @@ category: foundational axiom
 [[!redirects axiom of countable choice]]
 
 [[!redirects AC00]]
+
+[[!redirects weak countable choice]]
