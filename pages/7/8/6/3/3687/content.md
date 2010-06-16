@@ -5,7 +5,7 @@
 
 ## Idea
 
-To every complex 3-dimensional [[Calabi-Yau variety]] $X$ is associated a 2-dimensional [[sigma-model]] $N=2$-[[CFT|superconfomal field theory]] $SCFT(X)$. There is an involution $X \mapsto \hat X$ on the collection of Calabi-Yau spaces which exchanges the [[Hodge number]]s $h^{1,1}$ and $h^{1,2}$ such that $SCFT(X)$ is expected to be equivalent to $SCFT(\hat X)$. 
+To every complex 3-dimensional [[Calabi-Yau variety]] $X$ is associated a 2-dimensional [[sigma-model]] $N=2$-[[CFT|superconfomal field theory]] $SCFT(X)$. There is at least for some CY $X$ a map $X \mapsto \hat X$ which exchanges the [[Hodge number]]s $h^{1,1}$ and $h^{1,2}$ such that $SCFT(X)$ is expected to be equivalent to $SCFT(\hat X)$. 
 
 $$
   SCFT(X) \simeq SCFT(\hat X)
@@ -42,13 +42,27 @@ Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gr
 
 ## References
 
-* Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009. (very readable!)
+The original statement of the homological mirror symmetry conjecture is in
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, Proc. ICM Z&#252;rich 1994, [alg-geom/9411018](http://arxiv.org/abs/alg-geom/9411018)
 
-* C. Vafa, S-T. Yau editors, _Winter school on mirror symmetry, vector bundles, and Lagrangian submanifolds_, Harvard 1999, AMS, Intern. Press (includes A. Strominger, S-T. Yau, E. Zaslow, _Mirror symmetry is $T$-duality_  as pages  333--347; ). 
+A review and status report is in
+
+* M. Ballard, _Meet homological mirror symmetry_ ([arxiv:0801.2014](http://arxiv.org/abs/0801.2014))
+
+
+Other reviews include
+
+* Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009. (very readable!)
+
+
+The relation to [[T-duality]] was established in
 
 * Andrew Strominger, Shing-Tung Yau, Eric Zaslow, _Mirror Symmetry is T-Duality_, Nucl.Phys.B479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
+
+
+* C. Vafa, S-T. Yau editors, _Winter school on mirror symmetry, vector bundles, and Lagrangian submanifolds_, Harvard 1999, AMS, Intern. Press (includes A. Strominger, S-T. Yau, E. Zaslow, _Mirror symmetry is $T$-duality_  as pages  333--347; ). 
+
 
 * K. Hori, S. Katz, A. Klemm et al. _Mirror symmetry I_, AMS, Clay Math. Institute 2003.
 
@@ -61,6 +75,21 @@ Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gr
 * Yong-Geun Oh, Kenji Fukaya, _Floer homology in symplectic geometry and
 mirror symmetry_, Proc. ICM 2006, [pdf](http://www.math.wisc.edu/~oh/Oh-icm2006.pdf)
 
+
+
+
 * wikipedia: [mirror symmetry (string theory)](http://en.wikipedia.org/wiki/Mirror_symmetry_%28string_theory%29), [homological mirror symmetry](http://en.wikipedia.org/wiki/Homological_mirror_symmetry)
+
+### Complete proofs {#CompleteProofs}
+
+Here is a list with references that give complete proofs of homological mirror symmetry on certain (types of) spaces.
+
+* M. Abouzaid, I. Smith, _Homological mirror symmetry for the four-torus_ ([arXiv:0903.3065](http://arxiv.org/abs/0903.3065))
+
+* A. Polishchuk and E. Zaslow, _Categorical mirror symmetry: the elliptic curve_ , Adv. Theor. Math. Phys., 2:443470, 1998.
+
+* P. Seidel, _Homological mirror symmetry for the quartic surface_ ([arXiv:0310414](http://arxiv.org/abs/math/0310414))
+
+* Alexander I. Efimov, _Homological mirror symmetry for curves of higher genus_ ([arXiv:0907.3903](http://arxiv.org/abs/0907.3903))
 
 [[!redirects homological mirror symmetry]]
