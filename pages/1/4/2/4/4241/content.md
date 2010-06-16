@@ -1,0 +1,77 @@
+##The Idea##
+
+A rack is a set equipped with a binary operation satisfying axioms analogous to the second and third [[Reidemeister moves]] in knot theory.  The most commonly appearing racks in nature are [[quandle|quandles]], which satisfy an additional axiom analogous to the first Reidemeister move.
+
+While mainly used to obtain invariants of framed knots, racks are interesting algebraic structures in their own right: they capture the idea of an algebraic structure where every element acts as an automorphism of that structure.
+
+##Definition##
+
+A **rack** may be defined as a set $R$ with a binary operation $\triangleright$ such that
+for every $a, b, c \in R$ the **self-distributive law** holds:
+
+$$a \triangleright (b \triangleright c) = (a  \triangleright b)\triangleright (a \triangleright  c)$$
+
+and for every $a,b \in R$ there exists a unique
+$c \in R$ such that 
+
+$$a \triangleright c = b$$
+
+This definition, while terse and commonly used, is suboptimal for certain purposes because it contains an existential quantifier which is not really necessary. To avoid this,  we may write the unique $c \in R$ such that $a \triangleright c = b$ as $b \triangleleft a$.  We then have
+
+$$ a \triangleright c = b \iff  c = b \triangleleft a $$
+
+and thus 
+
+$$ a \triangleright (b \triangleleft a) = b$$ 
+
+and
+
+$$(a \triangleright b) \triangleleft a = b$$
+
+Using this idea, a rack may be equivalently defined as a set $R$ with two binary operations $\triangleright$ and $\triangleleft$ such that for all $a, b, c \in R$:
+
+\[ a \triangleright (b \triangleright c) = (a \triangleright b)\triangleright (a \triangleright  c)   \]
+
+\[ (c \triangleleft b) \triangleleft a = (c \triangleleft a)\triangleleft (b \triangleleft a)  \]
+
+\[ (a \triangleright b)\triangleleft a = b \]
+
+\[ a \triangleright (b \triangleleft a) = a \]
+
+It is convenient to say that the element $a \in R$ is **acting from the left** in the expression $a \triangleright b$, and **acting from the right** in the expression $b \triangleleft a$.  The third and fourth rack axioms then say that these left and right actions are inverses of each other.  Using this, we can eliminate either one of these actions from the definition of rack.  If we eliminate the right action and keep the left one, we obtain the terse definition given initially.   However, the longer definition makes it clear that racks are algebras of [[Lawvere theory]].
+
+##Notations and Conventions##
+
+Many different conventions are used in the literature on racks and quandles.  For example, many authors prefer to work with just the _right_ action.  Furthermore, the use of the symbols $\triangleright$ and $\triangleleft$ is by no means universal: many authors use exponential notation 
+
+$$ a \triangleright b = {}^a b $$
+
+and
+
+$$ b \triangleleft a = b^{a} $$
+
+while many others write
+
+$$ b \triangleleft a = b \star a $$
+
+We may equivalently define a rack in the following more conceptual manner: it is a set where each element acts on the left and right as [[automorphism|automorphisms]] of the rack, with the left action being the inverse of the right one.  In this definition, the fact that each element acts as automorphisms encodes the left and right self-distributivity laws, and also these laws:
+
+$$ a \triangleright (b \triangleleft c) = (a \triangleright b)\triangleleft (a \triangleright  c)$$ 
+
+$$(c \triangleright b) \triangleleft a = (c \triangleleft a)\triangleright (b \triangleleft a)$$
+
+which are consequences of the definition(s) given earlier.
+
+## References ##
+
+* Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
+
+* Sam Nelson, [Quandle theory](http://www.esotericka.org/pomona/quandles.html).
+
+* J. Scott Carter, [A survey of quandle ideas](http://arxiv.org/abs/1002.4429).
+
+* Seiichi Kamada, [Knot invariants derived from quandles and racks](http://arxiv.org/abs/math/0211096).
+
+* Alissa Crans, [Shelves, racks, spindles and quandles](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_.
+
+The last reference makes it clear that racks are algebras of a [[Lawvere theory]], so that racks may be defined in any [[category]] with [[finite products]].
