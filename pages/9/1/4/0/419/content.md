@@ -41,7 +41,7 @@ The central fact about a monoidal model category is that its homotopy category i
 
 * The category of [[chain complex]]es with the usual [[tensor product]] of chain complexes and the [[model structure on chain complexes|projective model structure]].
 
-* The category of [[pointed object|pointed]] topological spaces or simplicial sets with the [[smash product]].
+* The category of [[pointed object|pointed]] compactly generated topological spaces or simplicial sets with the [[smash product]].
 
 * Any of many modern model categories of [[spectrum|spectra]].  The standard example of a monoidal model category whose unit is not cofibrant is the category of EKMM S-modules.
 
