@@ -1,14 +1,40 @@
+
 #Contents#
 * automatic table of contents goes here
 {:toc} 
 
 ## Idea
 
-Mirror symmetry between two [[Calabi-Yau variety|Calabi?Yau varieties]] $X$ and $Y$ is a pair of [[isomorphism]]s between the N=2 super[[conformal field theory|conformal field theories]] called _A-model_ and the _B-model_ attached to $X$ and $Y$. These superconformal field theories were introduced via a twisting procedure from a nonlinear [[sigma model]] by Witten; and in fact these twists are topological field theories. 
+To every complex 3-dimensional [[Calabi-Yau variety]] $X$ is associated a 2-dimensional [[sigma-model]] $N=2$-[[CFT|superconfomal field theory]] $SCFT(X)$. There is an involution $X \mapsto \hat X$ on the collection of Calabi-Yau spaces which exchanges the [[Hodge number]]s $h^{1,1}$ and $h^{1,2}$ such that $SCFT(X)$ is expected to be equivalent to $SCFT(\hat X)$. 
 
-The mirror symmetry means more precisely that the A-model attached to $X$ is isomorphic as a N=1 superconformal field theory to the B-model attached to $Y$ and simultaneously the B-model attached to $X$ is isomorphic as a N=1 superconformal field theory to the A-model attached to $Y$. The topological A-model can be expressed in terms of [[symplectic geometry]] of a variety and the topological B-model can be expressed in terms of the [[algebraic geometry]] of a variety. [[category theory|Categorical]] expression of the A-model is the [[Fukaya category]] which can be understood as a [[stable (∞,1)-category]] representing the Lagrangean intersection theory on the underlying [[symplectic manifold]]; the categorical expression of the B-model is the stable $(\infty,1)$-category of [[coherent sheaf|coherent sheaves]] on the underlying complex algebraic variety. 
+$$
+  SCFT(X) \simeq SCFT(\hat X)
+  \,.
+$$
 
-The expression of mirror symmetry via $(\infty,1)$-categories is equivalent to the SCFT formulation according to the theorems of [[Maxim Kontsevich]] and independently by [[Kevin Costello]] which reconstruct the quantum field theory from a [[Calabi-Yau A-infinity-category]]. Kontsevich introduced the categorical variant in 1994 under the name **homological mirror symmetry**  and used the [[A-infinity-category|A∞-categories]] as a model for stable $(\infty,1)$-categories in his work. 
+This is called _mirror symmetry_ .
+
+In this form mirror symmetry remains a conjecture, not the least because for the moment there is no complete construction of these SCFTs. But to every such $SCFT(X)$ one can associate two [[TCFT]]s, $A(X)$ and $B(X)$, the [[A-model]] and the [[B-model]]. These $N=1$ supersymmetric field theories were obtained by [[Edward Witten]] using a "topological twist". The topological A-model can be expressed in terms of [[symplectic geometry]] of a variety and the topological B-model can be expressed in terms of the [[algebraic geometry]] of a variety. 
+
+These topological theories are easier to understand and do retain a little bit of the information encoded in the full SCFTs. In terms of these the statement of mirror symmetry says that passing to mirror CYs _exchanges_ the A-model with the $B$-model:
+
+$$
+  A(X) \simeq B(\hat X)
+  \,.
+$$
+
+By a version of the [[cobordism hypothesis]]-theorem, these [[TCFT]]s (see there) are encoded by [[A-∞ categories]] that are [[Calabi-Yau categories]]: the [[A-model]] by the [[Fukaya category]] $Fuk(X)$ of $X$ which can be understood as a [[stable (∞,1)-category]] representing the Lagrangean intersection theory on the underlying [[symplectic manifold]]; and the [[B-model]] by an [[enhanced triangulated category|enhancement]] of the [[derived category]] of [[coherent sheaves]] $D^b_\infty(\hat X)$ on $\hat X$.
+
+In terms of this data, mirror symmetry is the assertion that these [[A-∞ categories]] are equivalent
+
+$$
+  Fuk(X) \simeq D^b_\infty(\hat X)
+  \,.
+$$
+
+This was conjectured by [[Maxim Kontsevich]] in 1994 and is now pretty much established. Kontsevich introduced the categorical variant in 1994 under the name **homological mirror symmetry**  and used the [[A-infinity-category|A∞-categories]] as a model for [[stable (∞,1)-categories]] in his work. 
+
+The expression of mirror symmetry via $(\infty,1)$-categories is equivalent to the SCFT formulation according to the theorems of [[Maxim Kontsevich]] and independently by [[Kevin Costello]] (see [[TCFT]]) which reconstruct the quantum field theory from a [[Calabi-Yau category|Calabi-Yau A-infinity-category]]. 
 
 The mirror symmetry conjecture roughly claims that every Calabi-Yau 3-fold has a mirror. In fact one considers (mirror symmetry for) degenerating families for Calabi-Yau 3-folds in large volume limit (what can be expressed precisely via the Gromov-Hausdorff metric). The appropriate definition of (an appropriate version of) the [[Fukaya category]] of a symplectic manifold is difficult to achieve in desired generality. 
 Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gromov-Witten invariants (building up the [[quantum cohomology]]). Mirror symmetry is related to the [[T-duality]] on each fiber of an associated Lagrangian fibration (Strominger-Yau-Zaslow conjecture).  
