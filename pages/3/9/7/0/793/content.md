@@ -12,7 +12,7 @@
 
 Recall that a [[sigma-model]] is a [[quantum field theory]] that is induced from certain [[differential geometry|differential geometric]] and [[differential cohomology|differential cohomological]] data, to be thought of as describing the propagation of quantum objects of dimension $d$ in some space.
 
-The operation of **T-duality** is a map that interchanges pairs of such geometric data for 2-dimensional [[conformal field theory]] [[sigma-model]]s, such that the induced QFTs are equivalent.
+The operation of **T-duality** is a map that interchanges pairs of such geometric data for 2-dimensional [[conformal field theory]] [[sigma-model]]s, such that the induced QFTs are equivalent. 
 
 
 More specifically the space of [[differential geometry|differential geometric]] data consisting of
@@ -174,6 +174,15 @@ This sub-phenomenon is discussed in more detail at [[topological T-duality]].
 Another approach to the study of T-duality takes a somewhat complementary point of view and ignores the  [[Eilenberg-MacLane spectrum|integral cohomology]] class in $H^3(X,\mathbb{Z})$ of the [[gerbe]] but does consider the [[Riemannian metric]].
 
 In this context T-duality is described as an isomorphism of [[standard Courant algebroid]]s. This picture emerged in the study of [[generalized complex geometry]].
+
+## Examples of T-dual pairs
+
+
+One special cases of T-duality is [[mirror symmetry]].
+
+* Andrew Strominger, Shing-Tung Yau, Eric Zaslow, _Mirror Symmetry is T-Duality_, Nucl.Phys.B479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
+
+
 
 ## References
 
