@@ -1,0 +1,35 @@
+
+> under construction
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+What is called the _B-model_ is the 2-dimensional [[topological conformal field theory]] corresponding to the [[Calabi-Yau category]] of complexes of [[vector bundle]]s on a [[Calabi-Yau space]] $X$.
+
+The B-model arose in formal [[physics]] from considerations of [[string theory|superstring]]-propagation on Calabi-Yau spaces: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the supersymmetric [[sigma-model]] with target $X$ and then deforming it such that one of the super-[[Virasoro-algebra|Virasoro]] generators squares to 0. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
+
+By [[homological mirror symmetry]], the B-model is dual to the  [[A-model]].
+
+## References
+
+The motivation from the point of view of [[string theory]] is reviewed for instance in
+
+* [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166))
+
+The B-model on [[genus]]-0 [[cobordism]]s had been constructed in
+
+* S. Barannikov, [[Maxim Kontsevich]], _Frobenius manifolds and formality of Lie algebras of polyvector fields_ , (1997), [arXiv:math.QA/9710032](http://arxiv.org/abs/alg-geom/9710032)
+
+
+
+The construction of the B-model as a [[TCFT]] on [[cobordism]]s of arbitrary [[genus]] was given in 
+
+* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
+
