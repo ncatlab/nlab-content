@@ -31,6 +31,11 @@ The motivation from the point of view of [[string theory]] with an eye towards t
 
 * [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166))
 
+A summary of these two reviews is in 
+
+* H. Lee, _Review of topological field theory and homological mirror symmetry_ ([pdf](http://people.maths.ox.ac.uk/leeh/files/CYMSmini.pdf))
+
+
 The B-model on [[genus]]-0 [[cobordism]]s had been constructed in
 
 * S. Barannikov, [[Maxim Kontsevich]], _Frobenius manifolds and formality of Lie algebras of polyvector fields_ , (1997), [arXiv:math.QA/9710032](http://arxiv.org/abs/alg-geom/9710032)
