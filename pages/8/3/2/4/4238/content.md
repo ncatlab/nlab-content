@@ -66,7 +66,7 @@ The definition was given independently by
 
 and 
 
-* G. Segal, _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)).
+* G. Segal, _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf).
  
 The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
@@ -81,6 +81,10 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#168;urich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
 This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
+
+Here are notes from a seminar on these definitions and results:
+
+* [[Peter Teichner]] and [[Kevin Costello]] _TCFT seminar_ ([pdf notes](http://math.berkeley.edu/~cpries/Hot-Topics-07.pdf))
 
 [[!redirects topological conformal field theory]]
 [[!redirects topological conformal field theories]]
