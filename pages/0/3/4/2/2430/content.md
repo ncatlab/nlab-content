@@ -25,6 +25,14 @@
 
   * [[conformal field theory|CFT]]
 
+    * [[vertex operator algebra]]
+
+  * [[TCFT]]
+
+    * [[A-model]], [[B-model]]
+
+    * [[homological mirror symmetry]]
+
   * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
   * [[(2,1)-dimensional Euclidean field theory]]
