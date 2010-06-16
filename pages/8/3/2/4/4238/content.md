@@ -39,11 +39,24 @@ This means in particular that when two [[Riemann surface]]s $\Sigma_1$ and $\Sig
 
 ## Classification
 
-**Theorem** (Costello, following Kontsevich)
++-- {: .un_defn}
+###### Definition
+([[Kevin Costello|Costello]], following [[Maxim Kontsevich|Kontsevich]])
 
-1. The categroy of open TCFTs with set $\Lambda$ of D-branes is equivalent to that of [[Calabi-Yau categories]] with set $\Lambda$ of objects.
+1. The category of open TCFTs with set $\Lambda$ of D-branes is equivalent to that of [[Calabi-Yau categories]] with set $\Lambda$ of objects.
 
 1. The homology of the chain complex of closed states of the universal extension of an open TCFT to an open-closed TCFT is the [[]Hochschild homology]] of the corresponding [[Calabi-Yau category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+[Cos04](http://arxiv.org/abs/math/0412149)
+
+=--
+
+
 
 ## References
 
