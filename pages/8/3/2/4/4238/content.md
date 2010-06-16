@@ -52,7 +52,7 @@ This means in particular that when two [[Riemann surface]]s $\Sigma_1$ and $\Sig
 +-- {: .proof}
 ###### Proof
 
-[Cos04](http://arxiv.org/abs/math/0412149)
+In [Cos04](http://arxiv.org/abs/math/0412149) this is proven using information about cell decompositions of the moduli space of punctured Riemann surfaces, thus effectively presenting $Bord_2^{conf,dg}$ by generators-and-relations, The then theorem amounts to noticing that representations of these generators and relations define the operations in an $A_\infty$-category with pairing operation.
 
 =--
 
