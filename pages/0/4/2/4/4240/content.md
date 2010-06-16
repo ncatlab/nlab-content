@@ -1,8 +1,14 @@
+# Quandles
+* table of contents
+{: toc}
+
+
 ##The Idea##
 
 A quandle is a set equipped with a binary operation satisfying axioms analogous to the three [[Reidemeister moves]] in knot theory.  A quandle is a special case of a [[rack]].  
 
 While mainly used to obtain invariants of [[knot|knots]], quandles are interesting algebraic structures in their own right. In particular, the definition of a quandle axiomatizes the properties of conjugation in a group.  More abstractly, we can say that a quandle is an algebraic structure where every element acts as an automorphism of that structure, fixing that element.
+
 
 ##Definition##
 
@@ -13,6 +19,7 @@ $$ a \triangleright a = a $$
 or equivalently
 
 $$a \triangleleft a = a$$
+
 
 ##Examples##
 
@@ -43,6 +50,7 @@ $$ (b \triangleleft a) \triangleleft a = b$$
 
 Any [[symmetric space]] gives an involutory quandle, where $a \triangleright b$ is the result of 'reflecting $b$ through $a$'.
 
+
 ## References ##
 
 * Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
@@ -57,4 +65,8 @@ Any [[symmetric space]] gives an involutory quandle, where $a \triangleright b$ 
 
 * Alissa Crans, [Shelves, racks, spindles and quandles](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_.
 
-The last reference makes it clear that quandles are algebras of a [[Lawvere theory]], so that quandles may be defined in any [[category]] with [[product|finite products]].  It also shows that any Lie algebra gives a quandle in the category of cocommutative [[coalgebra|coalgebras]].
+The last reference makes it clear that quandles are algebras of a [[Lawvere theory]], so that quandles may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).  It also shows that any Lie algebra gives a quandle in the category of cocommutative [[coalgebra|coalgebras]].
+
+
+[[!redirects quandle]]
+[[!redirects quandles]]
