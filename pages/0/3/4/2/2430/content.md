@@ -29,7 +29,7 @@
 
   * [[TCFT]]
 
-    * [[A-model]], [[B-model]]
+    * [[A-model]], [[B-model]], [[Gromov-Witten theory]]
 
     * [[homological mirror symmetry]]
 
