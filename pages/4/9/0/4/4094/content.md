@@ -4,4 +4,11 @@ _Lev Landau_ (&#1051;&#1077;&#1074; &#1044;&#1072;&#1074;&#1080;&#1076;&#1086;&#
 
 See also [[Landau-Lifschitz]].
 
+
 category: people
+
+[[!redirects Lev Landau]]
+[[!redirects Лев Ландау]]
+[[!redirects Lev Lavidovich Landau]]
+[[!redirects Lev Lavidovič Landau]]
+[[!redirects Лев Давидович Ландау]]
