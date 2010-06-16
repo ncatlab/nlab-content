@@ -40,6 +40,16 @@ A Calabi-Yau category with a single object is the same (or rather the [[deloopin
 A **Calabi-Yau $A_\infty$-category** is an [[A-infinity category]] with the evident non-degenerate trace maps on hom-complexes, as above.
 
 
+## Examples
+
+Examples of $A_\infty$-CY categories:
+
+* the [[Fukaya category]] associated with a [[symplectic manifold]] $X$;
+
+* the $A_\infty$-category of complexes of vector bundles on a [[Calabi-Yau space]].
+
+* [[string topology]]: for $X$ a [[compact manifold|compact]] [[simply connected]] [[oriented]] [[manifold]], its cohomology $H^{\bullet}(X)$ is naturally a Calabi-Yau $A_\infty$-category with a single object.
+
 ## Properties
 
 Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This is where they get there name from, because these TCFTs in turn may be constructed from [[sigma-model]]s whose targets ar [[Calabi-Yau space]]s.
