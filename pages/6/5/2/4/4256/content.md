@@ -1,0 +1,1 @@
+* Dusa McDuff, Dietmar Salamon, _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs 1998. x+486 pp.
