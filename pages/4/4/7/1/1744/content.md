@@ -86,7 +86,9 @@ $$
 Simplicial sets isomorphic to objects in the image of $cosk_n$ are called **coskeletal** simplicial sets.
 
 
-## Properties
+## Properties {#Properties}
+
+### General
 
 +-- {: .un_prop}
 ###### Proposition
@@ -128,6 +130,11 @@ So in particular if $X$ is an $n$-coskeletal [[Kan complex]], all its [[simplici
 =--
 
 
+
+
+
+### Truncation and Postnikov towers {#Truncation}
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -139,11 +146,8 @@ $$
 
 induces an [[isomorphism]] on all [[simplicial homotopy group]]s in degree $\lt n$.
 
-
 =--
 
-
-### Relation to Postnikov towers
 
 It follows from the above that for $X$ a [[Kan complex]], the sequence
 
@@ -152,6 +156,11 @@ $$
 $$
 
 is a [[Postnikov tower]] for $X$.
+
+See also the discussion on [p. 140, 141](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf#page=3) of [DwKan1984](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf). 
+
+For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,1)-topos]] [[∞Grpd]] see [[n-truncated object in an (∞,1)-category]], example <a href="http://ncatlab.org/nlab/show/n-truncated+object+of+an+(infinity%2C1)-category#InInfGrpd">In ∞Grpd and Top</a>.
+
 
 ## Examples
 
