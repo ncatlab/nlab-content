@@ -42,16 +42,13 @@ $$
 0 \to \Lambda^r(R^r)\to \cdots \to \Lambda^2(R^r)\to R^r \to R \to R/(x_1,\ldots,x_r)R\to 0$$
 
 and the $R$-linear map $R^r\to R$ is given by the row vector $(x_1,\ldots,x_r)$. 
-$$
----
-For interpretation of Koszul complex as cofibrant replacement in cdgas (for algebras coing from a regular sequence), see Toen Essen talk, top of page 10.
 
-[arXiv:1004.0096](http://front.math.ucdavis.edu/1004.0096) The Koszul complex is the cotangent complex
-from arXiv Front: math.KT by Joan Milles
-We extend the Koszul duality theory of associative algebras to algebras over
-an operad. Recall that in the classical case, this Koszul duality theory relies
-on an important chain complex: the Koszul complex. We show that the cotangent
-complex, involved in the cohomology theory of algebras over an operad,
-generalizes the Koszul complex.
+A standard reference is 
 
-nLab page on [[nlab:Koszul complex]]
+* C. Weibel, _Homological algebra_
+
+A generalization of Koszul complexes to (appropriate resolutions of algebras over) operads is in 
+
+* Joan Mill&#232;s, _The Koszul complex is the cotangent complex_, MPIM2010-32, [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=4143) 
+
+[[!redirects Koszul complexes]]
