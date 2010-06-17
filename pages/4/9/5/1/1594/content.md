@@ -23,17 +23,17 @@ There is also a notion of finite stabilizers in [[algebraic geometry]]. A singul
 
 ## References
 
-* Ieke Moerdijk, _Orbifolds as Groupoids: an Introduction_ ([arXiv](http://arxiv.org/abs/math.DG/0203100) [blog](http://golem.ph.utexas.edu/string/archives/000733.html))
+* [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_ ([arXiv](http://arxiv.org/abs/math.DG/0203100) [blog](http://golem.ph.utexas.edu/string/archives/000733.html))
 
 * Eugene Lerman, _Orbifolds as stacks?_ ([arXiv](http://arxiv.org/abs/0806.4160))
 
 Orbifolds often appear as moduli spaces in differential geometric setting:
 
-* Dietmar Salamon, Joel W. Robbin, A construction of the Deligne--Mumford orbifold, J. Eur. Math. Society, ISSN 1435-9855, Vol. 8, N&#186; 4, 2006, 611-699 ([arXiv](http://arxiv.org/abs/math/0407090))
+* [[Dietmar Salamon]], [[Joel Robbin|Joel W. Robbin]], A construction of the Deligne--Mumford orbifold, J. Eur. Math. Society, ISSN 1435-9855, Vol. 8, N&#186; 4, 2006, 611-699 ([arXiv](http://arxiv.org/abs/math/0407090))
 
 An interesting generalization of an orbifold is so-called weighted branched manifold; see
 
-* Dusa McDuff, Groupoids, branched manifolds and multisections, J. Symplectic Geom. Volume 4, Number 3 (2006), 259-315 ([project euclid](http://projecteuclid.org/euclid.jsg/1180135649))
+* [[Dusa McDuff]], Groupoids, branched manifolds and multisections, J. Symplectic Geom. Volume 4, Number 3 (2006), 259-315 ([project euclid](http://projecteuclid.org/euclid.jsg/1180135649))
 
 Wikipedia [article](http://en.wikipedia.org/wiki/Orbifold) is mainly tailored toward Thurston's approach. 
 
