@@ -36,6 +36,8 @@ $$
 
 which is restriction to the basepoint. This morphism may be regarded as an object of the [[over quasi-category|over]] [[(∞,1)-topos]] $\mathbf{H}_{/X}$.
 
+### Of objects
+
 +-- {: .un_defn}
 ###### Definition
 **(categorical homotopy groups)**
@@ -79,14 +81,137 @@ $$
 
 is the [[sheaf topos]] $\tau_{\leq 0} \mathbf{H}_{/X}$. By the usual argument aboiut [[homotopy group]]s, these are trivial for $n = 0$ and [[abelian group|abelian]] for $n \geq 2$.
 
+### Of morphisms
 
+It is frequently useful to speak of homotopy groups of a [[morphism]] $f : X \to Y$ in an $(\infty,1)$-topos
 
++-- {: .un_defn}
+###### Definition
+**(homotopy groups of morphisms)**
+
+For $f : X \to Y$ a [[morphism]] in an [[(∞,1)-topos]] $\mathbf{H}$, its _homotopy groups_ are the homotopy groups in the above sense of $f$ regarded as an object of the [[over quasi-category|over (∞,1)-category]] $\mathbf{H}_{/Y}$.
+
+=--
+
+So the homotopy sheaf $\pi_n(f)$ of a morphism $f$ is an object of the [[over quasi-category|over (∞,1)-category]] $Disc((\mathbf{H}_{/Y})_{/f}) \simeq Disc(\mathbf{H}_{/f})$. This in turn is equivalent to $\cdots \simeq \mathbf{H}_{/X}$ by the map that sends an object
+
+$$
+  \array{
+    && Q
+    \\
+    & \swarrow && \searrow
+    \\
+    X &&\stackrel{f}{\to}&& Y
+  }
+$$
+
+in $\mathbf{H}_{/f}$ to
+
+$$
+  \array{
+    && Q
+    \\
+    & \swarrow 
+    \\
+    X
+  }
+  \,.
+$$
+
+The intuition is that the homotopy sheaf $\pi_n(f) \in Disc(\mathbf{H}_{/X})$ over a basepoint $x : * \in X$ is the homotopy group of the [[nLab:homotopy fiber]] of $f$ containing $x$ at $x$.
+
+**Examples** 
+
+If $Y = *$ then there is an essentially unique morphism $f : X \to *$ whose [[homotopy fiber]] is $X$ itself. Accordingly $\pi_n(f) \simeq \pi_n(X)$.
+
+If $X = *$ then the morphism $f : * \to Y$ is a point in $Y$ and the single [[homotopy fiber]] of $f$ is the [[loop space object]] $\Omega_f Y$.
 
 ## Properties
 
 ### In $\infty Grpd$
 
 For the case that $\mathbf{H} = $ [[∞Grpd]] $\simeq$ [[Top]], the $(\infty,1)$-topos theoretic definition of categorical homotopy groups in $\mathbf{H}$ reduces to the ordinary notion of [[homotopy group]]s in [[Top]]. For $\infty Grpd$ modeled by [[Kan complex]]es or the standard [[model structure on simplicial sets]], it reduces to the ordinary definition of [[simplicial homotopy group]]s.
+
+### Of homotopy groups of morphisms
+
+The  definition of the homotopy groups of a morphism $f : X \to Y$
+is equivalent to the following recursive definition
+
++-- {: .un_defn}
+###### Definition/Proposition
+**(recursive homotopy groups of morphisms)**
+
+For $n \geq 1$ we have 
+
+$$
+  \pi_n(f) \simeq \pi_{n-1}(X \to X \times_Y X)
+  \;\;\;
+  \in 
+  Disc(\mathbf{H}_{/X})
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, remark 6.5.1.3]].
+
+This is the generalization of the familiar fact that [[loop space object]]s have the same but shifted homotopy groups: In the special case that $X = *$ and $f$ is $f : * \to Y$ we have $X \times_Y X = \Omega_f Y$ and $X \to X \times_Y X$ is just $* \to \Omega_f Y$, so that 
+
+$$
+  \pi_n(f) = \pi_n(Y)
+$$
+
+and 
+
+$$
+  \pi_{n-1}(X \to X \times_Y X) \simeq \pi_{n-1} \Omega_f Y
+  \,.
+$$
+
++-- {: .un_prop }
+###### Proposition
+
+Given a sequence of morphisms $X \stackrel{f}{\to}Y \stackrel{g}{\to} Z$ in $\mathbf{H}$, there is a [[long exact sequence]]
+
+$$
+  \cdots
+  \to
+  f^* \pi_{n+1}(g) \stackrel{\delta_{n+1}}{\to}
+  \pi_n(f)
+  \stackrel{g \circ f}{\to}
+  \to 
+  f^* \pi_n(g)
+  \stackrel{\delta_n}{\to}
+  \pi_{n-1}(f)
+  \to
+  \cdots
+$$
+
+in the [[topos]] $Disc(\mathbf{H}_{/X})$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, remark 6.5.1.5]].
+
+
+### Behaviour under geometric morphisms
+
++-- {: .un_prop }
+###### Proposition
+
+Geometirc morphisms of $(\infty,1)$-topos preserve homotopy groups.
+
+If $k : \mathbf{H} \to \mathbf{K}$ is a [[geometric morphism]] of $(\infty,1)$-toposes then for $f : X \to Y$ any morphism in $\mathbf{H}$ there is a canonical [[isomorphism]]
+
+$$
+  k^* (\pi_n(f)) \simeq \pi_n(k^* f) 
+$$
+
+in $Disc(\mathbf{H}_{/k^* Y})$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, remark 6.5.1.4]].
 
 ### Connected and truncated objects
 
@@ -101,6 +226,9 @@ Let $X \in \mathbf{H}$.
   $X \to *$ is an [[effective epimorphism]] and if all categorical homotopy groups below degree $n$ are trivial.
 
 * The object $X$ is an **[[Eilenberg-MacLane object]]** of degree $n$ if it is both $n$-connected and $n$-truncated.
+
+
+
 
 ## Models
 
