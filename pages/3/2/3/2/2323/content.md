@@ -88,6 +88,8 @@
 
 * [[homotopy groups in an (∞,1)-topos|homotopy]]
 
+  * [[categorical homotopy groups in an (∞,1)-topos|categorical]]/[[geometric homotopy groups in an (∞,1)-topos|geometric]]
+
   * [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
 
   * [[Whitehead tower in an (∞,1)-topos|Whitehead tower]]
