@@ -123,7 +123,7 @@ For $X \in $ [[sSet]], the following are equivalent:
 +-- {: .un_remark}
 ###### Remark
 
-So in particular if $X$ is an $n$-coskeletal [[Kan complex]], all its [[simplicial homotopy group]]s above degree $n$ are trivial.
+So in particular if $X$ is an $n$-coskeletal [[Kan complex]], all its [[simplicial homotopy group]]s above degree $(n-1)$ are trivial.
 
 =--
 
@@ -137,7 +137,7 @@ $$
   X \to \mathbf{cosk}_n(X)
 $$
 
-induces an [[isomorphism]] on all [[simplicial homotopy group]]s in degree $\leq n$.
+induces an [[isomorphism]] on all [[simplicial homotopy group]]s in degree $\lt n$.
 
 
 =--
@@ -157,9 +157,9 @@ is a [[Postnikov tower]] for $X$.
 
 * The [[nerve]] of a [[category]] is a 2-coskeletal simplicial set.
 
-* A [[Kan complex]] that is $n$-coskeletal is (the [[nerve]] of) an [[n-groupoid]].
+* A [[Kan complex]] that is $(n+1)$-coskeletal is (the [[nerve]] of) an [[n-groupoid]].
 
-* A 0-coskeletal simplicial set $X$ is a [[contractible]] [[Kan complex]] , $X \stackrel{\simeq}{\to} *$ that is the [[nerve]] $X = N(C)$ of a [[groupoid]] $C$ that has a [[equivalence of categories]] $C \simeq *$.
+* A 0-coskeletal simplicial set $X$ is (-1)-[[truncated]] and hence either empty or a [[contractible]] [[Kan complex]] , $X \stackrel{\simeq}{\to} *$ that is the [[nerve]] $X = N(C)$ of a [[groupoid]] $C$ that has a [[equivalence of categories]] $C \simeq *$.
 
 
 
