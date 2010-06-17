@@ -241,7 +241,7 @@ diagonal, which is preserved by the finite limit preserving $F$.
 
 A presentable $(\infty,1)$-functor $F : C \to D$  between
 [[locally presentable (∞,1)-categories]] $C$ and $D$ commutes with 
-localization:
+truncation:
 
 $$
   F \circ \tau^C_{\leq k} \simeq \tau^D_{\leq k} \circ F
