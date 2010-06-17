@@ -604,7 +604,24 @@ See [[Higher Topos Theory|HTT, section 4.4.4]].
 
 If $C$ is [[presentable (infinity,1)-category|presented]] by a [[simplicial model category]] $A$, then it has all limits and colimits and its tensoring and cotentsoring over $\infty Grpd$ should be modeled by the [[derived functor]]s of the ordinary tensoring and cotensoring of $A$ over $sSet$.
 
-...
+This should follow from the above proposition: the powering in $A$ satisfies the [[natural isomorphism]]
+
+$$
+  sSet(S,A(c,d)) \simeq A(c \cdot S, d)
+  \,.
+$$
+
+For $c$ a cofibrant and $d$ a fibrant representative, we have that both sides here are [[Kan complex]]es that are equivalent to the corresponding [[derived hom space]]s in the corresponding $(\infty,1)$-category $C$, so that this translates into an equivalence
+
+$$
+  Hom_C(c \cdot S, d)
+  \simeq
+  \infty Grpd(S, Hom_C(c,d))
+  \,.
+$$
+
+By the above proposition, this means that the model category's tensoring $c \cdot S$ indeed models the $(\infty,1)$-categorical tensoring ${\lim_{\to}}_S c$.
+
 
 
 ## Examples
