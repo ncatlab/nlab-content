@@ -1,5 +1,5 @@
 _Floer homology_ is a common name for several similar frameworks of infinite-dimensional analogues of [[Morse homology]], related to certain elliptic operators. Some of these are related to [[symplectic geometry]] or [[contact geometry]] and another group is related to aspects of the geometry of 3-manifolds. Most important flavours are the **Floer-Oh homology for action functionals** which is important in the study of [[symplectic manifold]]s, its version for Lagrangean intersection theory and the instanton Floer homology studied by Andreas Floer and important in the study of 3-manifolds and the mathematics of [[gauge theories]]. 
 
-Floer homology for the [[action functional]] is a more systematic approach to the phenomena which were several years before Floer discovered in a historical article of Mikhail Gromov on J-holomorphic curves. 
+Floer homology for the [[action functional]] is a more systematic approach to the phenomena which were discovered several years before Floer in a historical article of [[Mikhail Gromov]] on J-holomorphic curves. 
 
 * [wikipedia](http://en.wikipedia.org/wiki/Floer_homology)
