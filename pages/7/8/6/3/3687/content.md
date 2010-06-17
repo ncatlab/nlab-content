@@ -16,20 +16,21 @@ This is called _mirror symmetry_ . At least in some cases this can be understood
 
 In this form mirror symmetry remains a conjecture, not the least because for the moment there is no complete construction of these SCFTs. But to every such $SCFT(X)$ one can associate two [[TCFT]]s, $A(X)$ and $B(X)$, the [[A-model]] and the [[B-model]]. These $N=1$ supersymmetric field theories were obtained by [[Edward Witten]] using a "topological twist". The topological A-model can be expressed in terms of [[symplectic geometry]] of a variety and the topological B-model can be expressed in terms of the [[algebraic geometry]] of a variety. 
 
-These topological theories are easier to understand and do retain a little bit of the information encoded in the full SCFTs. In terms of these the statement of mirror symmetry says that passing to mirror CYs _exchanges_ the A-model with the $B$-model:
+These topological theories are easier to understand and do retain a little bit of the information encoded in the full SCFTs. In terms of these the statement of mirror symmetry says that passing to mirror CYs _exchanges_ the A-model with the $B$-model and conversely:
 
 $$
-  A(X) \simeq B(\hat X)
+  A(X) \simeq B(\hat X),\,\,\,\,\,\,\,B(X)\simeq A(\hat X)
   \,.
 $$
 
 By a version of the [[cobordism hypothesis]]-theorem, these [[TCFT]]s (see there) are encoded by [[A-∞ categories]] that are [[Calabi-Yau categories]]: the [[A-model]] by the [[Fukaya category]] $Fuk(X)$ of $X$ which can be understood as a [[stable (∞,1)-category]] representing the Lagrangean intersection theory on the underlying [[symplectic manifold]]; and the [[B-model]] by an [[enhanced triangulated category|enhancement]] of the [[derived category]] of [[coherent sheaves]] $D^b_\infty(\hat X)$ on $\hat X$.
 
-In terms of this data, mirror symmetry is the assertion that these [[A-∞ categories]] are equivalent
+In terms of this data, mirror symmetry is the assertion that these [[A-∞ categories]] are equivalent and simultenously the same under exchange $X\leftrightarrow \hat{X}$:
 
 $$
-  Fuk(X) \simeq D^b_\infty(\hat X)
-  \,.
+  Fuk(X) \simeq D^b_\infty(\hat{X}),
+\,\,\,\, and \,\,\,\,
+Fuk(\hat{X}) \simeq D^b_\infty(X).
 $$
 
 This categorical formulation was introduced by [[Maxim Kontsevich]] in 1994 under the name **homological mirror symmetry**. The equivalence of the categorical expression of mirror symmetry to the SCFT formulation has been proven by [[Maxim Kontsevich]] and independently by [[Kevin Costello]], who showed how the datum of a topological conformal field theory is equivalent to the datum of a [[Calabi-Yau category|Calabi-Yau A-∞-category]](see [[TCFT]]).
