@@ -73,7 +73,7 @@ Some terminology:
 
 ### In terms of categorical homotopy groups 
 
-At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, more intrinsic, characterization of $n$-truncation in terms of [[homotopy group]]s:
+At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, more intrinsic, characterization of $n$-truncation in terms of [[categorical homotopy groups in an (∞,1)-topos]]:
 
 +-- {: .un_prop}
 ###### Proposition
@@ -143,7 +143,7 @@ $$
   \,.
 $$
 
-### Properties
+### Properties {#Properties}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -235,13 +235,33 @@ If $X \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-trunca
 
 ## Examples
 
-### In $\infty Grpd$ and in $Top$
+### In $\infty Grpd$ and in $Top$ {#InInfGrpd}
 
 An object in [[∞Grpd]] is $n$-truncated precisely if it is an [[n-groupoid]].
 
 Equivalently, an object in [[Top]] is $n$-truncated if it is (in the equivalence class of) a [[homotopy n-type]].
 
-When [[∞-groupoid]]s are modeled as [[Kan complex]]es, then an object $X \in \infty Grpd$ is $n$-truncated precisely if it is [[coskeleton|n-coskeletal]]. The truncation $X \to \tau_{\leq n} X$ is the counit of the [[coskeleton]] $X \to \mathbf{cosk}_n X$.
+When [[∞-groupoid]]s are modeled as [[Kan complex]]es, then an object $X \in \infty Grpd$ is $n$-truncated precisely if it is [[coskeleton|n-coskeletal]]. 
+
+> the following needs to be checked and better supported
+
+The truncation adjunction
+
+$$
+  \infty Grpd_{\leq n} \stackrel{\overset{\tau_{\leq n}}{\leftarrow}}{\hookrightarrow}
+  \infty Grpd
+$$
+
+is modeled by the [[simplicial skeleton|simplicial coskeleton]] operation
+
+$$
+  KanCplx_{n+1} \stackrel{\overset{tr_{n+1}}{\leftarrow}}{\underset{cosk_{n+1}}{\to}}
+  KanCplx
+$$
+
+on $KanCplx \subset$ [[sSet]].
+
+The map $X \to \tau_{\leq n} X$ is the unit of the [[coskeleton]] $X \to \mathbf{cosk}_{n+1} X$.
 
 
 ## References
