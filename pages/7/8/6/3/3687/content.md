@@ -55,7 +55,6 @@ Other reviews include
 
 * Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009. (very readable!)
 
-
 The relation to [[T-duality]] was established in
 
 * Andrew Strominger, Shing-Tung Yau, Eric Zaslow, _Mirror Symmetry is T-Duality_, Nucl.Phys.B479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
@@ -70,11 +69,15 @@ Further references include
 
 * Mark Gross, Bernd Siebert, _Mirror symmetry via logarithmic degeneration data I_, [math.AG/0309070](http://arxiv.org/abs/math/0309070), _From real affine geometry to complex geometry_, [math.AG/0703822](http://arxiv.org/abs/math/0703822), _Mirror symmetry via logarithmic degeneration data II_, [arxiv/0709.2290](http://arxiv.org/abs/0709.2290) 
 
+A. N. Kapustin, D. O. Orlov, _Lectures on mirror symmetry, derived categories, and D-branes_,  Uspehi Mat. Nauk __59__  (2004),  no. 5(359), 101--134;  translation in  Russian Math. Surveys __59__  (2004), no. 5, 907--940, [math.AG/0308173](http://arxiv.org/abs/math/0308173)
+
 * Maxim Kontsevich, Yan Soibelman, _Homological mirror symmetry and torus fibrations_, [math.SG/0011041](http://arxiv.org/abs/math/0011041)
 
 * Yong-Geun Oh, Kenji Fukaya, _Floer homology in symplectic geometry and mirror symmetry_, Proc. ICM 2006, [pdf](http://www.math.wisc.edu/~oh/Oh-icm2006.pdf)
 
 * wikipedia: [mirror symmetry (string theory)](http://en.wikipedia.org/wiki/Mirror_symmetry_%28string_theory%29), [homological mirror symmetry](http://en.wikipedia.org/wiki/Homological_mirror_symmetry)
+
+* partial notes from Miami 08 workshop: [miami08-notes](http://www-math.mit.edu/~auroux/frg/miami08-notes) and abstracts from [miami09](http://www-math.mit.edu/~auroux/frg/miami09-abstracts.html), [miami10](http://www-math.mit.edu/~auroux/frg/miami10-abstracts.html)
 
 ### Complete proofs {#CompleteProofs}
 
