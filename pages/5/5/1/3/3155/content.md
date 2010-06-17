@@ -1,6 +1,8 @@
-**Dmitri Orlov** is a Russian algebraic geometer. 
+**Dmitri Orlov** (&#1044;&#1084;&#1080;&#1090;&#1088;&#1080;&#1081; &#1054;&#1083;&#1077;&#1075;&#1086;&#1074;&#1080;&#1095; &#1054;&#1088;&#1083;&#1086;&#1074;) is a Russian algebraic geometer.
 
-He is one of the pioneers of the modern emerging framework which unites in a categorical approach commutative and [[noncommutative algebraic geometry]], via the study of enhanced triangulated categories of quasicoherent sheaves. 
+* [math-net.ru](http://www.mathnet.ru/php/person.phtml?&personid=11896&option_lang=eng) page 
+
+Orlov is one of the pioneers of the modern emerging categorical framework which unites the commutative and [[noncommutative algebraic geometry]], via the study of [[enhanced triangulated categories]] of [[quasicoherent sheaves]]. 
 
 * D. Orlov, _Quasi-coherent sheaves in commutative and non-commutative geometry_, Izv. RAN. Ser. Mat., 2003,  Volume 67,  Issue 3, Pages 119&#8211;138 (see also preprint version [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=57), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=56))
 
@@ -16,5 +18,11 @@ He is one of the pioneers of the modern emerging framework which unites in a cat
    * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
    * _II: pro-representability of the deformation functor_ [arXiv:math/0702839](http://arxiv.org/abs/math/0702839);
    * _III: abelian categories_ [arXiv:math/0702840](http://arxiv.org/abs/math/0702840)
+
+* D. Orlov, _Equivalences of derived categories of coherent sheaves_,  [MSRI lectures](http://www.msri.org/publications/ln/msri/2002/hodgetheory/orlov/1/index.html)
+
+* A. I. Bondal, D. O. Orlov, _Derived categories of coherent sheaves_, Proc. Internat. Congress of Mathematicians (Beijing, 2002)
+
+* A. N. Kapustin, D. O. Orlov, _Lectures on mirror symmetry, derived categories, and D-branes_,  Uspehi Mat. Nauk __59__  (2004),  no. 5(359), 101--134;  translation in  Russian Math. Surveys __59__  (2004), no. 5, 907--940, [math.AG/0308173](http://arxiv.org/abs/math/0308173)
 
 category: people
