@@ -57,6 +57,40 @@ In [Cos04](http://arxiv.org/abs/math/0412149) this is proven using information a
 =--
 
 
+## Worldsheet and effective background theories {#ActionFunctionals}
+
+One imagines generally that one obtains TCFTs, in their formal definition given above, from worldsheet [[action functional]]s as familiar from the physics literature (such as on the [[A-model]] and the [[B-model]]) by performing the [[path integral]] and finding from it a collection of [[differential form]]s on [[moduli space]] of bosonic field configurations.
+
+It seems there is at this point no literature giving a direct construction along these lines, but there is the following:
+
+In [Cos06](http://arxiv.org/abs/math/0605647) is constructed from the geometric input datum of a generalized [[Calabi-Yau space]] $(X,Q)$ and it is shown that
+
+1. there is a collection of differential forms $K_{g,h}(\cdots)$on the [[moduli space]] $\mathcal{M}_{g}^{h,n}$ of [[Riemann surface]]s such that these define a 2d TCFT;
+
+   (In the discussion leading up to Lemma 4.5.1 there. The proof that this yields a TCFT is theorem 4.5.4.)
+
+1. the partition function of the string perturbation series for the 
+   above TCFT is
+
+   $$
+     \sum_{{g,n \geq 0, h \gt 0} \atop {2g-2+h+\frac{n}{2}}}
+     \lambda^{2g-2+h}N^h
+     \frac{1}{n!}
+     \int_{\mathcal{M}_g^{h,n}}
+     K_{g,h}(a^\otimes n)
+   $$
+   
+   which is shown to be the partition function of a background 
+   [[Chern-Simons theory]] coming from the [[action functional]]
+
+   $$
+     a \mapsto S(a) = \int_X \frac{1}{2} a Q a + \frac{1}{3}a^3
+     \,.
+   $$
+
+So this construxts a 2d TCFT and shows that its effective background [[string theory]] is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the differential forms on moduli space considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in [Wit1995](http://arxiv.org/abs/hep-th/9207094) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
+
+So via the detour over the effective background field theory, this sort of shows that the physicist's A-model and B-model are indeed captured by the abstract [[FQFT]] definition of TCFT as given above.
 
 ## References
 
@@ -85,6 +119,15 @@ This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
 Here are notes from a seminar on these definitions and results:
 
 * [[Peter Teichner]] and [[Kevin Costello]] _TCFT seminar_ ([pdf notes](http://math.berkeley.edu/~cpries/Hot-Topics-07.pdf))
+
+Discussion of the construction of TCFTs from differential forms on moduli space and the way this induces effective background Chern-Simons theories is in
+
+* [[Kevin Costello]], _Topological conformal field theories and gauge theories_ ([arXiv](http://arxiv.org/abs/math/0605647))
+
+formalizing at least aspects of the observations in
+
+* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv](http://arxiv.org/abs/hep-th/9207094))
+
 
 [[!redirects topological conformal field theory]]
 [[!redirects topological conformal field theories]]
