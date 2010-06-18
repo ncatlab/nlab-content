@@ -3,6 +3,10 @@
 [[!include topos theory - contents]]
 </div>
 
+# Topological locales
+* tables of contents
+{: toc}
+
 ## Definition
 
 A [[locale]] is __topological__, or __spatial__, or has __enough points__ if it is [[isomorphism|isomorphic]] to the [[locale of opens]] of some [[topological space]].  
