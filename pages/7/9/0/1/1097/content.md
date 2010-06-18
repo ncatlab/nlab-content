@@ -22,8 +22,18 @@ $ of open subsets into each other.
 
 ## Remarks
 
-* The category $Op(X)$ is a [[partial order|poset]], in fact a [[frame]]; as a [[locale]], it is the [[locale of opens]] of $X$.
+* The category $Op(X)$ is a [[partial order|poset]], in fact a [[frame]]; it is the [[frame of opens]] of $X$.
 
 * The category $Op(X)$ is naturally equipped with the
 structure of a [[site]], where a collection $\{U_i \to U\}_i$ of morphisms is a cover precisely if their [[union]] in $X$ equals $U$:
 $$ \bigcup_i U_i = U .$$
+
+
+[[!redirects category of opens]]
+[[!redirects categories of opens]]
+[[!redirects category of open sets]]
+[[!redirects categories of open sets]]
+[[!redirects category of open subsets]]
+[[!redirects categories of open subsets]]
+[[!redirects category of open subspaces]]
+[[!redirects categories of open subspaces]]
