@@ -1,0 +1,7 @@
+
+
+## References
+
+* Hansj&#246;rg Geiges, _Contact geometry_ ([arXiv:math/0307242](http://arxiv.org/abs/math/0307242))
+
+* John Etnyre, _Introductory lectures on contact geometry_ Proc. Sympos. Pure Math.  71 (2003), 81-107.  ([pdf](http://people.math.gatech.edu/~etnyre/preprints/papers/contlect.pdf))
