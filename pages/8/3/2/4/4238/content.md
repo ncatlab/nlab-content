@@ -45,7 +45,7 @@ This means in particular that when two [[Riemann surface]]s $\Sigma_1$ and $\Sig
 
 1. The category of open TCFTs with set $\Lambda$ of D-branes is equivalent to that of [[Calabi-Yau categories]] with set $\Lambda$ of objects.
 
-1. The homology of the chain complex of closed states of the universal extension of an open TCFT to an open-closed TCFT is the [[]Hochschild homology]] of the corresponding [[Calabi-Yau category]].
+1. The homology of the chain complex of closed states of the universal extension of an open TCFT to an open-closed TCFT is the [[Hochschild homology]] of the corresponding [[Calabi-Yau category]].
 
 =--
 
@@ -112,7 +112,7 @@ The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
 following conjectures by [[Maxim Kontsevich]], e.g.
 
-* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#168;urich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
+* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
 This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
 
