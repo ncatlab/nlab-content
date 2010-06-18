@@ -163,6 +163,7 @@ Now recall that the [[categorical homotopy groups in an (∞,1)-topos]] of an ob
 By the discussion at <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">Tensoring and cotensoring with an ∞-groupoid</a> we have that this powering operation is on fibrant objects modeled by the powering in the [[sSet]]-[[enriched model category]] $[C^{op}, sSet]_{inj,cov}$. But the powering of [[simplicial presheaves]] by [[simplicial set]] is just objectwise the [[internal hom]] of simplicial sets. In terms of this are defined the objectwise [[simplicial homotopy group]]s and hence the Joyal-Jardine homotopy-presheaves.
 
 Furthermore, if $X \in [C^{op}, sSet]_{inj,cov}$ is fibrant, it satisfies [[descent for simplicial presheaves]] at [[Cech cover]]s. Since powering is a [[Quillen bifunctor]], the same is then true for $X^S$, formed in the model category, so $X^S$ is an $\infty$-stack. But that means its 0-[[truncated|truncation]] $\tau_{\leq 0}(X^{S^n})$ is an ordinary [[sheaf]]. 
+(Observe that truncation commutes with localization, as discussed <a href="http://ncatlab.org/nlab/show/n-truncated+object+of+an+(infinity%2C1)-category#GeneralPropsTruncation">here</a>.)
 
 In total this shows that _on fibrant objects_ $X$ in $[C^{op}, sSet]_{inj,cov}$, the Joyal-Jardine homotopy sheaves coincide with the $(\infty,1)$-categorical homotopy sheaves of the object $X$. 
 
