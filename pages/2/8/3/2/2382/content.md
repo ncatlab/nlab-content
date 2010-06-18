@@ -56,11 +56,17 @@
 
   * [[direct image]]/[[inverse image]]
 
-  * [[essential geometric morphism]]
+  * [[global section|global sections]]
 
   * [[geometric embedding]]
 
-  * [[global section|global sections]]
+  * [[essential geometric morphism]]
+
+    * [[locally connected geometric morphism]]
+
+    * [[base change]]
+
+    * [[etale geometric morphism]]
 
 * [[logical morphism]]
 
