@@ -9,7 +9,14 @@
 
 ## Idea
 
-The term _topological conformal field theory_ (TCFT) is used for a  linearization or [[stabilization]] of something that is like a [[conformal field theory]] (CFT) up to [[homotopy]]. It is a notion somewhere half-way between a (2-dimensional) [[TQFT]] and a [[CFT]]. This formalizes the physics notion of a _topologically twisted_ superconformal field theory, such as, notably, the [[A-model]] and the [[B-model]]. TCFTs are therefore a tool for formalizing [[homological mirror symmetry]]. 
+The term _topological conformal field theory_ (TCFT) is used for a  linearization or [[stabilization]] of something that is like a [[conformal field theory]] (CFT) up to [[homotopy]]. It is a notion somewhere half-way between a (2-dimensional) [[TQFT]] and a [[CFT]]. 
+
+> (Actually, the remnant of conformal structure here should be just 
+> an artefact of  the way to parameterize the moduli space of surfaces. 
+> As the classification result by Lurie discussed below shows, 
+> TCFTs are really $(\infty,2)$-TFTs.)
+
+This formalizes the physics notion of a _topologically twisted_ superconformal field theory, such as, notably, the [[A-model]] and the [[B-model]]. TCFTs are therefore a tool for formalizing [[homological mirror symmetry]]. 
 
 Recall that an ordinary [[conformal field theory]] (CFT) is, in [[FQFT]]-language, a [[symmetric monoidal functor]] on a [[category]] $Bord_2^{conf}$ whose objects are disjoint unions of intervals and circles, and whose [[morphism]]s are [[Riemann surface]]s with these 1d manifolds as incoming and outgoing punctures.
 
@@ -35,9 +42,39 @@ $$
 
 to the symmetric monoidal [[dg-category]] of chain complexes.
 
-This means in particular that when two [[Riemann surface]]s $\Sigma_1$ and $\Sigma_2$ are homologous as chains in the [[moduli space]] of Riemann surfaces, then the TCFT will send them to two equivalent morphisms $f_{\Sigma_1}$ and $f_{\Sigma_2}$ of chain complexes between the in- and the output states. The equivalence between $f_{\Sigma_1}$ and $f_{\Sigma_2}$, however, is not unique neither up to equivalence. Rather, it funtorially depends on the 1-chain realizing the homology equivalence between $\Sigma_1$ and $\Sigma_2$ as 0-chains in the moduli space. In particular, two non-homologous 1-chains between $\Sigma_1$ and $\Sigma_2$ will in general lead to non-equivalent equivalences between $f_{\Sigma_1}$ and $f_{\Sigma_2}$.
+This means in particular that when two [[Riemann surface]]s $\Sigma_1$ and $\Sigma_2$ are homologous as chains in the [[moduli space]] of Riemann surfaces, then the TCFT will send them to two equivalent morphisms $f_{\Sigma_1}$ and $f_{\Sigma_2}$ of chain complexes between the in- and the output states. The equivalence between $f_{\Sigma_1}$ and $f_{\Sigma_2}$, however, is not unique neither up to equivalence. Rather, it funtorially depends on the 1-chain realizing the homology equivalence between $\Sigma_1$ and $\Sigma_2$ as 0-chains in the moduli space. In particular, two non-homologous 1-chains between $\Sigma_1$ and $\Sigma_2$ will in general lead 
+to non-equivalent equivalences between $f_{\Sigma_1}$ and $f_{\Sigma_2}$.
+
+## Definition
+
+According to [[On the Classification of Topological Field Theories|ClassTFT]]
+the original definition of the domain for TCFTs can be formulated as follows (without reference to any conformal or Riemann structure). 
+
+**Definition**
+
+Let $\mathcal{OC}$ be the [[(infinity,1)-category]] described as follows:
+
+1. objects are oriented 1-manifolds with boundary;
+
+1. morphisms are oriented bordisms between 1-manifolds such that each
+   connected component has non-vanishing intersection with the codomain
+   1-manifold;
+
+1. the higher morphisms are given by orientation preserving
+   [[diffeomorphism]]s, isotopies between these, and so forth.
+
+Write $\mathcal{O}$ for the full [[sub-(∞,1)-category]] on 
+disjoint unions of intervals.
+
+This is [[On the Classification of Topological Field Theories|CassTFT, above theorem 4.2.13]].
+
 
 ## Classification
+
+### With coefficients in chain complexes
+
+The original statement of the classification result for TCFTs 
+concerned symmetric homotopy-monoidal functors $Bord_2^{conf,dg} \to Ch_\bullet$:
 
 +-- {: .un_defn}
 ###### Definition
@@ -55,6 +92,28 @@ This means in particular that when two [[Riemann surface]]s $\Sigma_1$ and $\Sig
 In [Cos04](http://arxiv.org/abs/math/0412149) this is proven using information about cell decompositions of the moduli space of punctured Riemann surfaces, thus effectively presenting $Bord_2^{conf,dg}$ by generators-and-relations, The then theorem amounts to noticing that representations of these generators and relations define the operations in an $A_\infty$-category with pairing operation.
 
 =--
+
+### General version
+
+
+**Theorem**
+
+Let $C$ be a [[symmetric monoidal (∞,1)-category]]. Then 
+symmetric monoidal [[(∞,1)-functor]]s
+
+$$
+  Z : \mathcal{O} \to C
+$$
+
+are equivalent to [[Calabi-Yau algebra object]]s $A$ in $C$:
+the functor $Z$ sends the point to $A$.
+
+This is the result of [Cos04](http://arxiv.org/abs/math/0412149)
+reformulated and generalized according to 
+[[On the Classification of Topological Field Theories|ClassTFT, theorem 4.2.14]].
+
+This is a special case of the general [[cobordism hypothesis]]-theorem.
+
 
 
 ## Worldsheet and effective background theories {#ActionFunctionals}
@@ -114,7 +173,11 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 
 * [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
-This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
+This classification is a precursor of the full [[cobordism hypothesis]]-theorem. This, and the reformulation of the original TCFT constructions in full generality is in 
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+
+
 
 Here are notes from a seminar on these definitions and results:
 
