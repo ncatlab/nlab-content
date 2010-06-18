@@ -9,7 +9,7 @@ See my [private $n$Lab area](http://ncatlab.org/davidroberts/show/HomePage) for 
 
 ## Selected writings ##
 
-* _Internal categories and anafunctors_ (PhD thesis, chapter I) 
+* _Internal categories and anafunctors_ (PhD thesis, chapter I - slightly old version) 
 ([pdf](http://ncatlab.org/davidroberts/files/internal_cats_and_anafunctors.pdf))
 
 This chapter is of independent interest, and is much smaller than the full thesis:
