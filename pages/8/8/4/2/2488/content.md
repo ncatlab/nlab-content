@@ -122,12 +122,12 @@ Notice that this expected statement does require the assumption that $X$ is $k$-
 
 ## Properties
 
-### Recursive definition
+### Recursive definition {#RecursiveDefinition}
 
 +-- {: .un_prop}
 ###### Proposition
 
-In an $(\infty,1)$-category with finite limits, a morphism
+In an $(\infty,1)$-category $C$ with finite limits, a morphism
 $f : X \to Y$ is $k$-truncated (for $k \geq -1$) precisely if the
 diagonal morphism $X \to X \times_Y X$ is $(k-1)$-truncated.
 
@@ -138,15 +138,59 @@ This is [[Higher Topos Theory|HTT, lemma 5.5.6.15]].
 +-- {: .proof}
 ###### Proof
 
-for $C = $ [[∞Grpd]] this is a classical statement of [[homotopy theory]].
+By definition $f$ is $k$-truncated if for each object 
+$d \in C$ we have that $C(d,f)$ is $k$-truncated in 
+[[∞Grpd]]. Since the [[hom-functor]]s $C(d,-)$ preserve
+finite [[limit in a quasi-category|limits]], wee have 
+in particular that $X \to X \times_Y X$ in $C$ 
+is $k$-truncated 
+if $C(d,X) \to C(d,X) \times_{C(d,Y)} C(d,X)$ is
+$k$-truncated for all $d$ in [[∞Grpd]]. Therefore it is 
+sufficient to prove the statement for
+morphisms in $C =$ [[∞Grpd]].
 
-The general case reduces to this one: for each object $D \in C$, het
-$j(D) : C \to \infty Grpd$ be the functor co-represented by it.
-These [[hom-functor]]s preserve in particular finite limits.
+So let now $f : X \to Y$ be a morphism of [[∞-groupoid]]s. 
+We may find a fibration $\bar \phi : \bar X \to \bar Y$ 
+between [[Kan complex]]es  in [[sSet]] that models $f : X \to Y$
+in the standard [[model structure on simplicial sets]], and by the
+standard rules for [[homotopy pullback]]s it follows that the object
+$X \times_Y X$ in $\infty$-Grpd is then modeled by the ordinary 
+[[pullback]] $\bar X \times_{\bar Y} \bar X$ in [[sSet]]. And the
+homotopy fibers of $f$ over $y \in Y$ are then given by the ordinary fibers 
+$\bar X_y$ of $\bar f$ in $sSet$.
 
-Moreover, by definition $f : X \to Y$ is $k$-truncated if 
-$j(D)(f) : C(D,X) \to C(D,Y)$ is $k$-truncated.
- 
+This way the statement is reduced to the following fact: a [[Kan complex]]
+$\bar X_y$ is $k$-truncated precisely if the [[homotopy fiber]]s of
+$\bar X_y \to \bar X_y \times \bar X_y$ are $(k-1)$-truncated.
+
+We write now $X$ for $\bar X_y$, for simplicity. To see the last statement, 
+let $(a,b) : * \to X \times X$ and compute the [[homotopy pullback]]
+
+$$
+  \array{
+     Q &\to& *
+     \\
+     \downarrow && \downarrow^{\mathrlap{(a,b)}}
+     \\
+     X &\to& X \times X
+  }
+$$
+
+as usual by replacing the right vertical morphism by the fibration
+$(X \times X)^I \times_{X \times X} (a,b) \to X \times X$
+and then forming the ordinary pullback. This shows that 
+$Q$ is equivalent to the space of paths $P_{a,b}X$ in $X$ from $a$ to $b$.
+(Use that gluing of [[path space object]]s at endpoints of 
+paths produces a new
+path space, see for instance section 4 of [[BrownAHT]]).
+
+If $X$ is [[connected]], then choosing any path $a \to b$ 
+gives an isomorphism from the the homotopy groups of $P_{a,b} X$
+to those of the [[loop space]] $\Omega_a X$. These latter are indeed those
+of $X$, shifted down in degree by one (as described for instance at
+[[fiber sequence]]).
+
+If $X$ is not connected, we can easily reduce to the case that it is.
 
 =--
 
