@@ -232,7 +232,7 @@ Let $X \in \mathbf{H}$.
 
 ## Models
 
-When the [[(∞,1)-topos]] $\mathbf{H}$ is [[presentable (∞,1)-category|presented]] by a [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{loc}$, then since this is an [[sSet]]-[[enriched model category]] structure the [[power]]ing by $\infty Grpd$ is modeled by the ordinary powering 
+When the [[(∞,1)-topos]] $\mathbf{H}$ is [[presentable (∞,1)-category|presented]] by a [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{loc}$, then since this is an [[sSet]]-[[enriched model category]] structure the [[power]]ing by $\infty Grpd$ is modeled, as described at, <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#ModelsForTensoring">$(\infty,1)$-limit -- Tensoring -- Models</a> by the ordinary powering 
 
 $$
   sSet^{op} \times [C^{op}, sSet] \to [C^{op}, sSet]
@@ -249,11 +249,11 @@ For $X \in [C^{op}, sSet]$ a presheaf, write
 
 * $\bar \pi_n(X) \to \bar \pi_0(X)$ for the [[sheafification]] of these presheaves.
 
-Then thes $\bar \pi_n(X) \to \bar \pi_0(X)$ are the sheaces of categorical homotopy groups of the object represented by $X$.
+Then thes $\bar \pi_n(X) \to \bar \pi_0(X)$ are the sheaves of categorical homotopy groups of the object represented by $X$.
 
 This definition of homotopy sheaves of [[simplicial presheaves]] is familiar from the Joyal-Jardine [[local model structure on simplicial presheaves]]. See for instance [page 4](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=4) of [Jard07](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf).
 
-
+> this needs more discussion
 
 
 ## References
