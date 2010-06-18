@@ -25,4 +25,10 @@ Orlov is one of the pioneers of the modern emerging categorical framework which 
 
 * A. N. Kapustin, D. O. Orlov, _Lectures on mirror symmetry, derived categories, and D-branes_,  Uspehi Mat. Nauk __59__  (2004),  no. 5(359), 101--134;  translation in  Russian Math. Surveys __59__  (2004), no. 5, 907--940, [math.AG/0308173](http://arxiv.org/abs/math/0308173)
 
+
 category: people
+
+[[!redirects Дмитрий Олегович Орлов]]
+[[!redirects Дмитрий Орлов]]
+[[!redirects Dmitri Olegovich Orlov]]
+[[!redirects Dmitri Orlov]]
