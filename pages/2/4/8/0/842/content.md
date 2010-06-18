@@ -602,16 +602,39 @@ See [[Higher Topos Theory|HTT, section 4.4.4]].
 
 #### Models
 
-If $C$ is [[presentable (infinity,1)-category|presented]] by a [[simplicial model category]] $A$, then it has all limits and colimits and its tensoring and cotentsoring over $\infty Grpd$ should be modeled by the [[derived functor]]s of the ordinary tensoring and cotensoring of $A$ over $sSet$.
++-- {: .un_lemma}
+###### Observation
 
-This should follow from the above proposition: the powering in $A$ satisfies the [[natural isomorphism]]
+
+If $C$ is [[presentable (infinity,1)-category|presented]] by a [[simplicial model category]] $A$, in that $C \simeq A^\circ$, then the 
+$(\infty,1)$-tensoring and $(\infty,1)$-cotensoring of $C$ over [[∞Grpd]]
+is modeled by the ordinary [[copower|tensoring]] and [[power|powering]]
+of $A$ over [[sSet]]:
+
+For $\hat c \in A$ cofibant and representing an object $c \in C$ and for $S \in sSet$ any simplicial set, we have an equivalence
 
 $$
-  sSet(S,A(c,d)) \simeq A(c \cdot S, d)
+  c \otimes S \simeq \hat C \cdot S
   \,.
 $$
 
-For $c$ a cofibrant and $d$ a fibrant representative, we have that both sides here are [[Kan complex]]es that are equivalent to the corresponding [[derived hom space]]s in the corresponding $(\infty,1)$-category $C$, so that this translates into an equivalence
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+The powering in $A$ satisfies the [[natural isomorphism]]
+
+$$
+  sSet(S,A(\hat c,\hat d)) \simeq A(\hat c \cdot S, \hat d)
+$$
+
+in [[sSet]].
+
+For $\hat c$ a cofibrant and $\hat d$ a fibrant representative, we have that both sides here are [[Kan complex]]es that are equivalent to the corresponding [[derived hom space]]s in the corresponding $(\infty,1)$-category $C$, so that this translates into an equivalence
 
 $$
   Hom_C(c \cdot S, d)
@@ -620,8 +643,10 @@ $$
   \,.
 $$
 
-By the above proposition, this means that the model category's tensoring $c \cdot S$ indeed models the $(\infty,1)$-categorical tensoring ${\lim_{\to}}_S c$.
+The claim then follows from the above proposition.
 
+
+=--
 
 
 ## Examples
