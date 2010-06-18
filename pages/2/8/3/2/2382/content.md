@@ -66,13 +66,13 @@
 
 ## Extra stuff, structure, properties
 
-* [[petit topos|petit topos/gros topos]]
-
-* [[locally connected topos]]
-
-* [[connected topos]]
+* [[topological locale]]
 
 * [[localic topos]]
+
+* [[petit topos|petit topos/gros topos]]
+
+* [[locally connected topos]], [[connected topos]]
 
 * [[classifying topos]]
 
