@@ -1,4 +1,8 @@
-#Definition#
+# Category of open subsets
+* table of contents
+{: toc}
+
+## Definition
 
 Given a [[topological space]] $X$, the **category of open subsets** $Op(X)$ of $X$ is the [[category]] whose
 
@@ -15,9 +19,10 @@ $
   }
 $ of open subsets into each other.
 
-#Remarks#
 
-* The category $Op(X)$ is a [[partial order|poset]].
+## Remarks
+
+* The category $Op(X)$ is a [[partial order|poset]], in fact a [[frame]]; as a [[locale]], it is the [[locale of opens]] of $X$.
 
 * The category $Op(X)$ is naturally equipped with the
 structure of a [[site]], where a collection $\{U_i \to U\}_i$ of morphisms is a cover precisely if their [[union]] in $X$ equals $U$:
