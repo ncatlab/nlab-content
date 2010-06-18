@@ -35,9 +35,7 @@
 
 ## Extra stuff, structure, properties
 
-* [[CW-complex]]
-
-* [[Hausdorff space]]
+* [[CW-complex]], [[Hausdorff space]], [[sober space]]
 
 * [[compact space]], [[paracompact space]]
 
