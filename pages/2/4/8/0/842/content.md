@@ -600,7 +600,7 @@ $$
 
 See [[Higher Topos Theory|HTT, section 4.4.4]].
 
-#### Models
+#### Models {#ModelsForTensoring}
 
 +-- {: .un_lemma}
 ###### Observation
