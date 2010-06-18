@@ -21,6 +21,8 @@ $$
   \,.
 $$
 
+This is the [[base change geometric morphism]] for the terminal morphism $X \to *$.
+
 **Definition**
 
 A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors as $\mathbf{K} \to \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ for some $X \in \mathbf{H}$ is called an **etale geometric morphism**.
