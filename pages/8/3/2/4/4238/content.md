@@ -51,8 +51,37 @@ According to [[On the Classification of Topological Field Theories|ClassTFT]]
 the original definition of the domain for TCFTs can be formulated as follows (without reference to any conformal or Riemann structure). 
 
 **Definition**
+The $(\infty,2)$-category $Bord^{nc}_2$ of non-compact 2-dimensional cobordism is defined as follows:
 
-Let $\mathcal{OC}$ be the [[(infinity,1)-category]] described as follows:
+* The objects of $Bord^{nc}_2$ are oriented 0-manifolds.
+
+* Given a pair of objects $X, Y \in Bord^{nc}_2$ , a 1-morphism from $X$ to $Y$ is an oriented bordism $B : X \to Y$.
+
+* Given a pair of 1-morphsims $B,B' : X \to Y$ in $Bord^{nc}_2$, a 2-morphism from $B$ to $B'$ in $Bord^{nc}_2$ is
+an oriented bordism $\Sigma: B \to B'$ (which is trivial along $X$ and $Y$) with the following property: every
+connected component of $\Sigma$ has nonempty intersection with $B'$.
+
+* Higher morphisms in $Bord^{nc}_2$ are given by (orientation preserving) diffeomorphisms, isotopies between
+diffeomorphisms, and so forth.
+
+Then, the [[cobordism hypothesis]]-theorem for $Bord^{nc}_2$ becomes
+
+**Theorem** 
+Let $C$ be a [[symmetric monoidal (∞,2)-category]]. Then 
+symmetric monoidal [[(∞,2)-functor]]s
+
+$$
+  Z : Bord^{nc}_2 \to C
+$$
+
+are equivalent to [[Calabi-Yau object]]s $A$ in $C$:
+the functor $Z$ sends the point to $A$.
+
+This is [[On the Classification of Topological Field Theories|CassTFT, theorem 4.2.11]]. One can "unfold" $Bord^{nc}_2$ and the theorem above, obtaining a statement in terms of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]]. Actually it was the unfolded version to be proven first, by [[Kevin Costello]] in [Cos04](http://arxiv.org/abs/math/0412149), in the particular case $C=Ch_\bullet$. We state it below in the general version given by [[Jacob Lurie]] in [[On the Classification of Topological Field Theories|CassTFT]].
+
+**Definition**
+
+Let $\mathcal{OC}$ be the [[(infinity,1)-category]] of open-closed strings, described as follows:
 
 1. objects are oriented 1-manifolds with boundary;
 
@@ -64,7 +93,7 @@ Let $\mathcal{OC}$ be the [[(infinity,1)-category]] described as follows:
    [[diffeomorphism]]s, isotopies between these, and so forth.
 
 Write $\mathcal{O}$ for the full [[sub-(∞,1)-category]] on 
-disjoint unions of intervals.
+disjoint unions of intervals (open strings sector).
 
 This is [[On the Classification of Topological Field Theories|CassTFT, above theorem 4.2.13]].
 
@@ -106,7 +135,7 @@ $$
 $$
 
 are equivalent to [[Calabi-Yau algebra object]]s $A$ in $C$:
-the functor $Z$ sends the point to $A$.
+the functor $Z$ sends the interval $[0,1]$ to $A$.
 
 This is the result of [Cos04](http://arxiv.org/abs/math/0412149)
 reformulated and generalized according to 
@@ -114,7 +143,7 @@ reformulated and generalized according to
 
 This is a special case of the general [[cobordism hypothesis]]-theorem.
 
-
+The idea of the proof is that a topological open string theory, i.e., a symmetric monoidal [[(∞,1)-functor]] $Z : \mathcal{O} \to C$ has a [[Kan extension]] to an open-closed topological string theory, i.e., to a symmetric monoidal [[(∞,1)-functor]] $Z : \mathcal{OC} \to C$, which is the unfolded version of a symmetric monoidal [[(∞,2)-functor]] from $Bord^{nc}_2$ to a symmetric monoidal $(\infty,2)$-category $C'$.
 
 ## Worldsheet and effective background theories {#ActionFunctionals}
 
