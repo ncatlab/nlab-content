@@ -9,6 +9,11 @@ The classical examples are of course groups and [[rings]], but also [[modules]] 
 
 Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] is rather a synonym for (for some people strict) $\infty$-[[infinity-groupoid|groupoid]] with a single object, hence nothing to do with $\Omega$-groups. 
 
++-- {: .query}
+[[John Baez]]: [Aleks Kleyn](http://AleksKleyn.blogspot.com/) would like a reference or two for work on this concept.  If you know one, please put it here and tell him.
+
+=--
+
 
 [[!redirects $\Omega$-groups]]
 [[!redirects Omega-groups]]
