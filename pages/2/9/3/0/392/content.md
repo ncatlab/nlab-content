@@ -14,21 +14,33 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary."
 
-* A nonassociative algebra is not an algebra in the usual sense used in [[linear algebra]]. This leads to the use of "[[associative algebra]]". What\'s worse, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
+* A nonassociative algebra is not an algebra in the usual sense used in [[linear algebra]], since algebras are by definition associative.  This leads to the technically redundant use of "[[associative algebra]]".  What\'s worse, a "nonassociative algebra" *might* happen to be associative; it just doesn\'t *have* to be!
 
-* A noncommutative [[ring]] may or may not be a ring, depending on one's definition (algebraic geometers frequently take "ring" to imply commutativity).  Like a nonassociative algebra, a noncommutative ring might happen to be commutative.
+* Similarly, [[noncommutative geometry]] is really about _not necessarily commutative_ or _possibly non-commutative_ geometry. In fact, many tools developed in "non-commutative geometry" are also useful tools in ordinary commutative geometry.
 
-  * Accordingly, [[noncommutative geometry]] is really about _not necessarily commutative_ or _possibly non-commutative_ geometry. In fact, many tools developed in "non-commutative geometry" are useful tools in just commutative geometry.
-
-* A [[weak factorization system]] is not a factorization system, as originally defined, but rather the reverse.  This has led to the use of [[orthogonal factorization system]] in place of "factorization system."
-
-* Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.  Likewise for related concepts such as [[2-limit]] and [[strict 2-limit]].
-
-* A [[star-autonomous category|*-autonomous category]] is not an [[autonomous category]], but the reverse is almost true: a *symmetric* autonomous (a.k.a. compact closed) category is a fairly special case of a $*$-autonomous one.
+* A [[star-autonomous category|*-autonomous category]] is not an [[autonomous category]], but the reverse is almost true: a *symmetric* autonomous (a.k.a. [[compact closed category|compact closed]]) category is a fairly special case of a $*$-autonomous one.  This red herring is apparently an accident of history: at the time *-autonomous categories were invented, "autonomous category" was sometimes used to mean a [[closed monoidal category]], of which *-autonomous categories are indeed a special case, but nowadays that usage has mostly disappeared.
 
 * A [[linearly distributive category]] has essentially nothing to do with a [[distributive category]].
 
 * If a [[localizer]] refers to a class of maps in a [[presheaf category]], as it sometimes does, then a [[basic localizer]], being a class of maps in [[Cat]], is not a localizer.
+
+Some adjectives are almost universally used as "red herring adjectives," i.e. placing that adjective in front of something makes it *more* general in some way.  Some red herring adjectives almost always have the same meaning, such as "pseudo" and "lax," but others, such as "weak," have different meanings in different contexts.
+
+* A [[weak factorization system]] is not a factorization system, as originally defined, but rather the reverse.  This has led some people to the use of [[orthogonal factorization system]] in place of the classical term "factorization system."
+
+* A [[weak limit]] is not a [[limit]] in a similar way: it satisfies only existence but not uniqueness.
+
+* Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.  Likewise for related concepts such as [[2-limit]] and [[strict 2-limit]].
+
+### Non-examples ###
+
+Some uses of terminology are similar in some ways, but don't quite fall under the same category.  For instance, in a number of cases mathematicians working in a particular field tend to omit [[dichotomy between nice objects and nice categories|niceness]] adjectives, e.g.:
+
+* The generally accepted *definition* of a [[ring]] does not include commutativity, but in [[algebraic geometry]] and [[commutative algebra]] it is almost universally assumed that all rings are commutative.
+
+* Algebraic topologists usually work with a [[convenient category of topological spaces]] rather than the category of all [[topological spaces]], but usually they simply say "space" to mean an object of their chosen convenient category.  Some algebraic topologists (particularly of the MIT school) take this even further and say "space" to mean [[simplicial set]].
+
+These terminological uses can create situations that appear similar to actual red herrings, such as the use of "noncommutative ring" by people who are familiar with using "ring" to mean "commutative ring."  However, since the actual definitions of terms like "ring" and "topological space" is generally accepted to be unchanged (as opposed to the commonly used abbreviations), these are not true red herrings.
 
 [[!redirects red herring]]
 [[!redirects red herring principle]]
