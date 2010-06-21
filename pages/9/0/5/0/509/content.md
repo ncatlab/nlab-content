@@ -1,3 +1,10 @@
+# Pointed objects
+* table of contents
+{: toc}
+
+
+## Idea
+
 In a [[category]] $C$ with a [[terminal object]], a **pointed object** is an [[object]] $X$ equipped with a [[global element]] $1\to X$, often called its _basepoint_.
 
 A pointed object is distinguished from an [[inhabited set|inhabited]] one in that the chosen point is _structure_ rather than a property.  In particular, a morphism of pointed objects is a morphism in the original category which preserves the points.  In other words, the category of pointed objects in $C$ is the [[under category|co-slice category]] $1/C$ under the terminal object.
@@ -5,21 +12,21 @@ A pointed object is distinguished from an [[inhabited set|inhabited]] one in tha
 There is an obvious [[forgetful functor]] from $1/C$ to $C$.  If $C$ has finite coproducts, this functor has a left [[adjoint functor]] which takes an object $X$ to the coproduct $1\sqcup X$, equipped with its obvious point.  This is often written $X_+$ and called "$X$ with a disjoint basepoint adjoined."
 
 
-## Examples ##
+## Examples
 
 * Pointed [[topological space|topological spaces]] and [[simplicial set|simplicial sets]] are important in [[homotopy theory]], where they are often called **based**.
 
 * Pointed $n$-[[n-category|categories]] figure prominently in the [[delooping hypothesis]]; see also [[k-tuply monoidal n-category]].  In particular, a fancy name for a pointed set is a _0-tuply monoidal 0-category_.
 
 
-## Zero objects and pointed categories ##
+## Zero objects and pointed categories
 
 The category of pointed objects in any category $C$ with a terminal object always has a [[zero object]], i.e. with an object which is both a [[terminal object|terminal]] and [[initial object|initial]]: this is the point itself regarded as a pointed object in the unique way.  A category with a zero object is sometimes called a [[pointed category]] (not to be confused with a pointed object in [[Cat]]).
 
 Conversely, if $C$ has a zero object, then every object is automatically pointed in a unique way, so that $C$ is equivalent to its category of pointed objects.
 
 
-## Closed and monoidal structure ##
+## Closed and monoidal structure
 
 If $C$ is a [[closed monoidal category]] with finite limits and $X$ and $Y$ are pointed objects in $C$, we can consider their pointed internal-hom (the "object of basepoint-preserving maps"), defined as the pullback
 $$
@@ -42,7 +49,7 @@ This construction is almost always applied only when $C$ is [[cartesian monoidal
 Moreover, if $C$ is a [[monoidal model category]] with cofibrant unit, then $1/C$ is also a monoidal model category, and the adjunction $1/C \rightleftarrows C$ is [[Quillen adjunction|Quillen]].
 
 
-#Kernels and cokernels#
+## Kernels and cokernels
 
 For a morphism $f : A \to B$ into an object $B$ equipped with a point $pt \stackrel{pt_B}{\to} B$, its _kernel_ $ker_{pt_B}(f)$ is the pullback
 
@@ -80,4 +87,6 @@ which is always naturally pointed as indicated.
 The notion of kernel in a category with zero morphism is obtained from this in the special case that all objects are assumed to be pointed, so that we are in a [[pointed category]] with zero-morphism $0 : A \to B$ given by 
 $A \to pt \stackrel{pt_B}{\to} B$.
 
+
+[[!redirects pointed object]]
 [[!redirects pointed objects]]
