@@ -1,6 +1,9 @@
 <div class="rightHandSide toc">
 [[!include physicscontents]]
+***
+[[!include AQFT and operator algebra contents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
