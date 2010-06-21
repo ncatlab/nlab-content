@@ -1,6 +1,10 @@
 
 **[[physics]]**
 
+* [[state]], configuration space;
+
+* propagation 
+
 **[[higher category theory and physics|(higher) category theory and physics]]
 
 * [[category theory]]
