@@ -1,8 +1,19 @@
-#Definition#
 
-A **von Neumann algebra** is a unital $*$-subalgebra of the algebra of bounded operators on a complex [[Hilbert space]], which is closed in weak operator topology. Clearly, they are automatically closed in norm topology, hence they form a (particularly nice) class of $C^*$-[[C*-algebra|algebras]]. 
+<div class="rightHandSide toc">
+[[!include AQFT and operator algebra contents]]
+</div>
 
-#Relevance#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+A **von Neumann algebra** is a unital $*$-subalgebra of the algebra of [[bounded operator]]s on a complex [[Hilbert space]], which is closed in [[weak operator topology]]. 
+
+Clearly, they are automatically closed in norm topology, hence they form a (particularly nice) class of $C^*$-[[C*-algebra|algebras]]. 
+
+## Relevance
 
 The [[Gelfand-Naimark theorem|Gel'fand–Naimark theorem]] states that there is a contravariant [[equivalence of categories|equivalence]] between the category of commutative von Neumann algebras and the category of localizable [[measurable space|measurable spaces]]; that is, the [[opposite category]] of one is equivalent to the other. General von Neumann algebras are seen then as a 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].
 
@@ -22,12 +33,13 @@ on hypothetical connections between CFT and elliptic cohomology, Stolz and Teich
 
 See also the [Wikipedia entry](http://en.wikipedia.org/wiki/Von_Neumann_algebra) entry for more on von Neumann algebras and a list of references and links.
 
-#Topics of interest for the understanding of AQFT
+## Topics of interest for the understanding of AQFT
+
 This paragraph will collect some facts of interest for the aspects of [[AQFT]] in the nLab.
 
 In this paragraph $\mathcal{M}$ will always be a von Neumann algebra acting on a Hilbert space $\mathcal{H}$ with commutant $\mathcal{M}'$.
 
-##Vectors
+### Vectors
 
 * Definition: A vector $x \in \mathcal{H}$ is **cyclic** if $\mathcal{M}x$ is dense in $\mathcal{H}$.
 
@@ -35,17 +47,18 @@ In this paragraph $\mathcal{M}$ will always be a von Neumann algebra acting on a
 
 * Theorem: The notions of cyclic and separating are dual with respect to the commutant, that is a vector is cyclic for $\mathcal{M}$ iff it is separating for $\mathcal{M}'$.
 
-##projections in von Neumann algebras
+### Projections in von Neumann algebras
 One crucial feature of von Neumann algebras is that they contain 
 "every projection one could wish for": there are three points that make this statement precise:
 
 * the linear combinations of projections are norm dense in a von Neumann algebra
 
-* Gleason's theorem
+* [[Gleason's theorem]]
 
 * Murray-von Neumann classification of factors 
 
-### projections are norm dense
+#### Projections are norm dense
+
 First let us note that every element $A$ of a von Neumann algebra can trivially be written as a sum of two selfadjoint elements:
 $$
 A = \frac{1}{2} (A + A^*) + \frac{1}{2} (A - A^*)
@@ -57,21 +70,22 @@ A = \integral_{-\|A\|}^{\|A\|} \lambda E(d\lambda)
 $$
 The integral converges in norm to A and all spectral projections are elements of the von Neumann algebra. It immediatly follows that the set of finite sums of multiples of projections is norm dense in every von Neumann algebra. 
 
-### Gleason's theorem {#GleasonsTheorem}
+#### Gleason's theorem {#GleasonsTheorem}
 
 See [[Gleason's theorem]].
 
-### Murray-von Neumann classification of factors 
+#### Murray-von Neumann classification of factors 
 To be done...
 
-### Modular Theory
-[[modular theory]]
+#### Modular Theory
 
-### Miscellaneous
+* [[modular theory]]
+
+###' Miscellaneous
 
 * [[split inclusion of von Neumann algebras]]
 
-#Remarks#
+## Remarks
 
 * Von Neumann algebras may also be defined abstractly as (abstract) $C^*$-algebras with a predual.
 
