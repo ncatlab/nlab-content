@@ -6,17 +6,13 @@
 
 A **triangulation** of a [[topological space]] $Y$ is a [[simplicial set]] $X$ together with a [[homeomorphism]] $h: R X \to Y$, where $R$ denotes the [[geometric realization]] [[functor]].
 
-(Often $Y$ here is taken to be a [[simplicial complex]], but the difference does not really matter here.)
+(Often $Y$ here is taken to be a [[simplicial complex]], but the difference does not really matter here. See the discussion at [[subdivision]].)
 
 Explicitly, $R X$ is given by a [[coend]] formula
 
 $$\int^{n \in \Delta} X(n) \cdot \sigma(n)$$
 
-where $\sigma: \Delta \to Top$ is the standard affine [[simplex]] functor. The functor $R$ is left exact, and in particular preserves products.
-
-+--{.query}
-Perhaps this last statement is sensitive to what we take $Top$ to be. I think it's okay if $Top$ is compactly generated spaces, but somebody please check.
-=--
+where $\sigma: \Delta \to Top$ is the standard affine [[simplex]] functor. Provided that $Top$ is interpreted as a [[nice category of spaces]] (such as $CGHaus$ -- see the discussion at [[geometric realization]]), the functor $R$ is left exact, and in particular preserves products.
 
 ### Standard affine simplex functor
 
