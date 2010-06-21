@@ -6,6 +6,8 @@
 
 * [[operator algebra]]
 
+* [[states in AQFT and operator algebra|state]]
+
 * [[local net]]
 
   * [[conformal net]]
