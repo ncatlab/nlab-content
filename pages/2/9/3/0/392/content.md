@@ -27,7 +27,7 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * Similarly, [[noncommutative geometry]] is really about _not necessarily commutative_ or _possibly non-commutative_ geometry. In fact, many tools developed in "non-commutative geometry" are also useful tools in ordinary commutative geometry.
 
-* A [[star-autonomous category|*-autonomous category]] is not an [[autonomous category]], but the reverse is almost true: a *symmetric* autonomous (a.k.a. [[compact closed category|compact closed]]) category is a fairly special case of a $*$-autonomous one.  This red herring is apparently an accident of history: at the time *-autonomous categories were invented, "autonomous category" was sometimes used to mean a [[closed monoidal category]], of which *-autonomous categories are indeed a special case, but nowadays that usage has mostly disappeared.
+* A [[star-autonomous category|*-autonomous category]] is not an [[autonomous category]], but the reverse is almost true: a *symmetric* autonomous (a.k.a. [[compact closed category|compact closed]]) category is a fairly special case of a $*$-autonomous one.  This red herring is apparently an accident of history: at the time $*$-autonomous categories were invented, "autonomous category" was sometimes used to mean a [[closed monoidal category]], of which $*$-autonomous categories are indeed a special case, but nowadays that usage has mostly disappeared.
 
 * A [[linearly distributive category]] has essentially nothing to do with a [[distributive category]].
 
@@ -48,7 +48,7 @@ Some uses of terminology are similar in some ways, but don't quite fall under th
 
 * The generally accepted *definition* of a [[ring]] does not include commutativity, but in [[algebraic geometry]] and [[commutative algebra]] it is an almost universal convention that all rings are taken to be commutative.  However, almost every book concerning the subject announces its conventions early on.  A closely related niceness condition is taking all modules to be unital.
 
-* Algebraic topologists usually work with a [[convenient category of topological spaces]] rather than the category of all [[topological spaces]], but usually they simply say "space" to mean an object of their chosen convenient category.  Some algebraic topologists (particularly of the MIT school) take this even further and say "space" to mean [[simplicial set]].
+* Algebraic topologists usually work with a [[convenient category of topological spaces]] rather than the category of all [[topological spaces]], but usually they simply say "space" to mean an object of their chosen convenient category.  Some algebraic topologists (particularly of the MIT school) take this even further and say "space" to mean [[simplicial set]]. In the Chicago school, this is stretched even further, with "space" meaning [[spectrum]].
 
 These terminological uses can create situations that appear similar to actual red herrings, such as the use of "noncommutative ring" by people who are familiar with using "ring" to mean "commutative ring."  However, since the actual definitions of terms like "ring" and "topological space" is generally accepted to be unchanged (as opposed to the commonly used abbreviations), these are not true red herrings.
 
