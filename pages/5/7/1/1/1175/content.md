@@ -55,7 +55,7 @@ One crucial feature of von Neumann algebras is that they contain
 
 * [[Gleason's theorem]]
 
-* Murray-von Neumann classification of factors 
+* Murray--von Neumann classification of factors 
 
 #### Projections are norm dense
 
@@ -74,14 +74,14 @@ The integral converges in norm to A and all spectral projections are elements of
 
 See [[Gleason's theorem]].
 
-#### Murray-von Neumann classification of factors 
+#### Murray--von Neumann classification of factors 
 To be done...
 
 #### Modular Theory
 
 * [[modular theory]]
 
-###' Miscellaneous
+### Miscellaneous
 
 * [[split inclusion of von Neumann algebras]]
 
@@ -112,8 +112,13 @@ Any objections to change the remarks accordingly?
 =--
 
 [[!redirects W*-algebra]]
-[[!redirects W-star-algebra]]
 [[!redirects W*-algebras]]
+[[!redirects W* algebra]]
+[[!redirects W* algebras]]
+[[!redirects W-star-algebra]]
 [[!redirects W-star-algebras]]
+[[!redirects W-star algebra]]
+[[!redirects W-star algebras]]
+[[!redirects von Neumann algebra]]
 [[!redirects von Neumann algebras]]
 [[!redirects von Neumann-algebra]]
