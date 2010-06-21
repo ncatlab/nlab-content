@@ -6,6 +6,10 @@
 
 * [[operator algebra]]
 
+  * [[C*-algebra]]
+
+  * [[von Neumann algebra]]
+
 * [[states in AQFT and operator algebra|state]]
 
 * [[local net]]
