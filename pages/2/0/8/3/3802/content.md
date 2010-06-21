@@ -1,3 +1,1 @@
-See [[Poincaré duality]]
-
-category: delete
+&lt; [[Poincar%C3%A9 duality]]
