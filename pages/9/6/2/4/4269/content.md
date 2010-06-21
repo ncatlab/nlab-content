@@ -23,18 +23,102 @@ $$
 
 This is the [[base change geometric morphism]] for the terminal morphism $X \to *$.
 
-**Definition**
+### For toposes
 
-A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors as $\mathbf{K} \to \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ for some $X \in \mathbf{H}$ is called an **etale geometric morphism**.
++-- {: .un_defn}
+###### Definition
 
-The terminology is motivated from the special case that $\mathbf{H}$ is a [[localic topos]] $Sh(S)$ over a [[topological space]] $S$ we have that $X \in Sh(S)$ corresponds to an [[etale space]] over $X$.
+A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors by an  $\mathbf{K} \stackrel{\simeq}{\to} \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ through such a projection, for some $X \in \mathbf{H}$ is called an **&#233;tale geometric morphism**.
+
+=--
+
+### For structured toposes
+
+If the [[(∞,1)-topos]]es in question are [[structured (∞,1)-topos]]es, then this is refined to the following
+
++-- {: .un_defn}
+###### Definition
+
+A morphism $f : (\mathcal{X}, \mathcal{O}_{\mathcal{X}}) \to (\mathcal{Y}, \mathcal{O}_{\mathcal{Y}})$ of [[structured (∞,1)-topos]]es is **&#233;tale** if
+
+1. the underlying morphism of $(\infty,1)$-toposes is an &#233;tale geometric morphism;
+
+1. the induced map $f^* \mathcal{O}_\mathcal{Y} \to \mathcal{O}_\mathcal{X}$
+   is an equivalence.
+
+
+=--
+
+This is [[Structured Spaces|StSp, Def. 2.3.1]].
+
+
+
+## Examples
+
+If $\mathbf{H}$ is a [[localic topos]] $Sh(S)$ over a [[topological space]] $S$ we have that $X \in Sh(S)$ corresponds to an [[étalé space]] over $X$ and $\mathbf{H}/X \to \mathbf{H}$ to an [[étale map]].
+
+
+If $\mathcal{G}$ is a [[geometry (for structured (∞,1)-toposes)]] 
+then for $f : U \to X$ an _admissible_ morphism in $\mathcal{G}$, 
+the induced morphism of [[structured (∞,1)-topos]]es
+
+$$
+  Spec^\mathcal{G} U \to Spec^{\mathcal{G}} X
+$$
+
+is an &#233;tale geometric morphism of structured $(\infty,1)$-toposes.
+
+This is [[Structured Spaces|StrSp, example 2.3.8]]. 
+
+
+
+
+
+
+
+  
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+**(recognition of &#233;tale geometric morphisms)**
+
+A [[geometric morphism]] $(f^* \dashv f_*) : \mathbf{K} \to \mathbf{H}$ is &#233;tale precisely if
+
+1. it is [[essential geometric morphism|essential]];
+
+1. $f_!$ is a [[conservative functor]];
+
+1. For every [[diagram]] $X \to Y \leftarrow f_! Z$ in $\mathbf{H}$ the
+   induced diagram
+
+   $$
+     \array{
+       f_!(f^* X \times_{f^* Y} Z) &\to& f_! Z
+       \\
+       \downarrow && \downarrow
+       \\
+       X &\to& Y
+     }
+   $$
+
+   is a [[pullback]] diagram.
+
+=--
+
+For [[(∞,1)-topos]]es this is [[Higher Topos Theory|HTT, prop. 6.3.5.11]].
 
 ## References
 
-For [[(infinity,1)-topos]]es this is in section 6.3.5 of 
+The notion of &#233;tale geometric morphisms between [[(∞,1)-topos]]es is introduced in section 6.3.5 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
+Discussion of the refinement to [[structured (∞,1)-topos]]es is in section 2.3 of
+
+* [[Jacob Lurie]], _[[Structured Spaces]]_ .
+ 
 
 [[!redirects etale geometric morphism]]
 [[!redirects etale geometric morphisms]]
