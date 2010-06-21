@@ -36,3 +36,9 @@ In infinite dimensional topological vector spaces over complex numbers, the noti
 See 
 
 * [[variational calculus]].
+
+[[!redirects functionals]]
+
+[[!redirects linear functional]]
+[[!redirects linear functionals]]
+
