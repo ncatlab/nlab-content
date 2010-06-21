@@ -23,4 +23,4 @@ The complex/oriented/etc. **cobordism ring** is the [[ring]] whose
 
 An useful review of the central definitions and theorems is in chapter 1 of
 
-* [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
+* [[Gerald Höhn]], _Komplexe elliptische Geschlechter und $S^1$-&#228;quivariante Kobordismustheorie_ (german) ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
