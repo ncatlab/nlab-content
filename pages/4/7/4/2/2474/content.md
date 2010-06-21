@@ -8,6 +8,8 @@ See [[operator algebras]].
 
 There are different concepts for the [[tensor product]] of $C^*-algebras$, see for example [[spatial tensor product]].
 
+A [[representation of a C-star algebra]] is a *-homomorphism of an abstract $C^*$-algebra to the [[bounded operator]]s on a [[Hilbert space]].
+
 [[!redirects C-star algebra]]
 [[!redirects C-star-algebra]]
 [[!redirects C* algebra]]
