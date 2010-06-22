@@ -8,7 +8,7 @@ This page lists counterexamples in [[algebra]].
 
 
 
-## Group Theory
+## Group Theory (including quasigroups, semigroups, etc)
 
 1. A non-[[abelian group|abelian]] [[group]], all of whose [[subgroup]]s are [[normal subgroup|normal]]:
 
@@ -32,7 +32,7 @@ This page lists counterexamples in [[algebra]].
    C_4 \times C_4, \qquad C_2 \times \langle a, b, | a^4 = 1, a^2 = b^2, a b = b a^3 \rangle
    $$
 
-1. A [[quasigroup]] that is not isomorphic to any [[loop]].
+1. A [[quasigroup]] that is not isomorphic to any [[loop (algebra)|loop]].
 
    $\{a, b, c\}$ with multiplication table:
 
@@ -61,7 +61,7 @@ This page lists counterexamples in [[algebra]].
 
 ## Ring Theory
 
-1. A [[ring]] that is right [[Notherian ring|Notherian]] but not left Notherian:
+1. A [[ring]] that is right [[Noetherian ring|Noetherian]] but not left Noetherian:
 
    Matrices of the form $\begin{bmatrix} a & b \\ 0 & c \end{bmatrix}$ where $a \in \mathbb{Z}$ and $b,c \in \mathbb{Q}$.
 
@@ -83,13 +83,13 @@ This page lists counterexamples in [[algebra]].
    \mathbb{Z} \to \mathbb{Q}
    $$
 
-1. A [[ring]] whose [[spec]] has non-[[open subset|open]] [[connected]] components.
+1. A [[ring]] whose [[spectrum|spec]] has non-[[open subset|open]] [[connected]] components.
 
    $$
    \prod_{n=1}^\infty \mathbb{F}_2
    $$
 
-1. A non-[[Noetherian]] [[ring]] $A$ such that all local rings on $Spec(A)$ are Noetherian.
+1. A non-[[Noetherian ring|Noetherian]] [[ring]] $A$ such that all local rings on $Spec(A)$ are Noetherian.
 
    $$
    \prod_{n=1}^\infty \mathbb{F}_2
