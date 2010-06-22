@@ -440,5 +440,6 @@ A very neat Tannaka theorem for stacks is proved in
 
 * remark of [Ben-Zvi on Tannaka reconstruction for monoidal categories](http://mathoverflow.net/questions/3446/tannakian-formalism/3467#3467)
 
+* [[David Kazhdan]], Michael Larsen, Yakov Varshavsky, _The Tannakian formalism and the Langlands conjectures_, [arxiv/1006.3864](http://arxiv.org/abs/1006.3864)
 
 [[!redirects Tannaka reconstruction]]
