@@ -1,6 +1,14 @@
 The term [[convenient category of topological spaces]] is used for a [[cartesian closed category]] of [[topological space]]s.   These are examples of [[nice category of spaces|nice categories of spaces]].
 
-One example is the category of [[compactly generated space]]s.
+A primary example is the category of [[compactly generated space]]s.
+
+While the authors of this article don't know whether there is a widely accepted precise definition of "convenient category of topological spaces", it seems reasonable and convenient to suppose it means a [[full subcategory|full]] [[replete subcategory]] $C$ of the category of all topological spaces such that at least the following conditions hold: 
+
+* Every [[CW complex]] is an object of $C$; 
+
+* $C$ is cartesian closed; 
+
+* $C$ is [[complete category|complete]] and [[cocomplete category|cocomplete]]. 
 
 
 ## References ##  
