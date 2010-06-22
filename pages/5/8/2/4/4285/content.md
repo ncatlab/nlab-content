@@ -12,16 +12,16 @@
 
 +-- {: .num_defn #Gdelta}
 ###### Definition
-A **G-delta**, $G_\delta$, subset of a [[topological space]] is a set that can be written as the intersection of a [[countable]] family of open sets.
+A **G-delta**, $G_\delta$, subset of a [[topological space]] is a set that can be written as the intersection of a [[countable family]] of open sets.
 =--
 
 ## Results
 
-One place where $G_\delta$-subsets occur is when looking at [[continuous]] maps from an arbitrary [[topological space]] to a [[metric space]] (or, more generally, a [[first countable]] space).  In particular, when considering continuous real-valued functions.  Thus we have the following connections to the [[separation axioms]].
+One place where $G_\delta$-subsets occur is when looking at [[continuous maps]] from an arbitrary [[topological space]] to a [[metric space]] (or, more generally, a [[first countable space]]).  In particular, when considering continuous real-valued functions.  Thus we have the following connections to the [[separation axioms]].
 
 +-- {: .num_theorem #PerNorm}
 ###### Theorem
-A [[normal space]] in which every closed set is a $G_\delta$-set is [[perfectly normal]].
+A [[normal space]] in which every closed set is a $G_\delta$-set is [[perfectly normal space|perfectly normal]].
 =--
 
 +-- {: .num_theorem #ComReg}
@@ -48,8 +48,38 @@ $$
 
 By construction, $f^{-1}(1) = \{v\}$.
 
-We need to prove that this is continuous.  First, note that if $f_n(x) \ne 0$ then $f_k(x) = 1$ for $k \lt n$ and if $f_n(x) \ne 1$ then $f_k(x) = 0$ for $k \gt n$.  Hence the preimage under $f$ of $(\frac{2^k-1}{2^k}, \frac{2^{k+1}-1}{2^{k+1})$ is $f_n^{-1}(0,1)$ and $f$ restricted to this preimage is a scaled translate of $f_n$.
+We need to prove that this is continuous.  First, note that if $f_n(x) \ne 0$ then $f_k(x) = 1$ for $k \lt n$ and if $f_n(x) \ne 1$ then $f_k(x) = 0$ for $k \gt n$.  Hence the preimage under $f$ of $(\frac{2^k-1}{2^k}, \frac{2^{k+1}-1}{2^{k+1}})$ is $f_n^{-1}(0,1)$ and $f$ restricted to this preimage is a scaled translate of $f_n$.
 From this, we deduce that the preimage of any open set not containing $1$ is open.  Thus $f$ is continuous everywhere except possibly at $v$.  Continuity at $v$ is similarly simple: given a set of the form $(1 -\epsilon,1]$ then there is some $n$ such that $2^{-n} \lt \epsilon$, whence $f^{-1}(1-\epsilon,1]$ contains all points such that $f_k(x) = 1$ for $k \le n$, which by construction is a neighbourhood of $v$.  Hence $f$ is continuous and has a single global maximum at $v$.
 =--
 
+
 [[!redirects G-delta]]
+[[!redirects G-∞]]
+[[!redirects G?]]
+[[!redirects G-delta subspace]]
+[[!redirects G? subspace]]
+[[!redirects G? subspace]]
+[[!redirects G-delta subspaces]]
+[[!redirects G-∞ subspaces]]
+[[!redirects G? subspaces]]
+[[!redirects G-delta subset]]
+[[!redirects G-∞ subset]]
+[[!redirects G? subset]]
+[[!redirects G-delta subsets]]
+[[!redirects G-∞ subsets]]
+[[!redirects G? subsets]]
+[[!redirects G-delta set]]
+[[!redirects G-∞ set]]
+[[!redirects G? set]]
+[[!redirects G-delta sets]]
+[[!redirects G-∞ sets]]
+[[!redirects G? sets]]
+[[!redirects G-delta subset of a topological space]]
+[[!redirects G-∞ subset of a topological space]]
+[[!redirects G? subset of a topological space]]
+[[!redirects G-delta subsets of a topological space]]
+[[!redirects G-∞ subsets of a topological space]]
+[[!redirects G? subsets of a topological space]]
+[[!redirects G-delta subsets of topological spaces]]
+[[!redirects G-∞ subsets of topological spaces]]
+[[!redirects G? subsets of topological spaces]]
