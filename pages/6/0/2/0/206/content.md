@@ -34,6 +34,10 @@ There are also few pages on various invariants of algebraic objects or operation
 
 For many algebraic structures a notion of [[action]] is defined; they embody "symmetry algebras" of some other algebraic objects. An action is expressed via a [[representation]] of one object as a subobject of a full object of another; or as a combination of the object which acts and which is acted upon (e.g. [[action groupoid]]). Objects with action are [[modules]] of the appropriate kind. The possibilities for realizing a given algebra via symmetries of another object are systematically studied in a field called [[representation theory]]. 
 
+See also 
+
+* [[counterexamples in algebra]].
+
 ## Further references
 
 * See [_Wikipedia_](http://en.wikipedia.org/wiki/Algebra)
