@@ -16,8 +16,13 @@
 
   * [[homeomorphism]]
 
-
 * [[Top]]
+
+  * [[nice topological space]]
+
+  * [[nice category of topological spaces]]
+
+  * [[convenient category of topological spaces]]
 
 * **[[homotopy theory]]**
 
