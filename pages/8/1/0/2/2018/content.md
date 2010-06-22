@@ -8,6 +8,7 @@ Spectra of noetherian rings are glued together to define [[noetherian scheme|loc
 Cf. [wikipedia](http://en.wikipedia.org/wiki/Noetherian_ring), [[noetherian object]].
 
 
+[[!redirects noetherian ring]]
 [[!redirects noetherian rings]]
 [[!redirects Noetherian ring]]
 [[!redirects Noetherian rings]]
