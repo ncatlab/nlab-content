@@ -1,15 +1,19 @@
 
 **[[physics]]**
 
-* [[state]], configuration space;
+[[books and reviews in mathematical physics|books and reviews]]
 
-* propagation 
-
-**[[higher category theory and physics|(higher) category theory and physics]]
+[[higher category theory and physics|(higher) category theory and physics]]
 
 * [[category theory]]
 
 * [[higher category theory]]
+
+***
+
+* [[state]], configuration space;
+
+* propagation 
 
 
 * **[[classical field theory|Classical Field Theory]]**
