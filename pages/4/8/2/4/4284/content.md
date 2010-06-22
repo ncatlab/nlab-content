@@ -1,20 +1,24 @@
-* tic
-{: .toc}
 
-Initial import of counterexamples taken from [this MO question](http://mathoverflow.net/questions/29006/counterexamples-in-algebra).
+This page lists counterexamples in [[algebra]].
 
 
-###Group Theory###
+#Contents#
+* automatic table of contents goes here.
+{:toc}
 
-1. A non-[[abelian group]], all of whose subgroups are [[normal subgroup|normal]]:
+
+
+## Group Theory
+
+1. A non-[[abelian group|abelian]] [[group]], all of whose [[subgroup]]s are [[normal subgroup|normal]]:
 
    $$
    Q \coloneqq \langle a, b | a^4 = 1, a^2 = b^2, a b = b a^3 \rangle
    $$
 
-1. A finitely presented, infinite, simple group
+1. A [[finitely presented group|finitely presented]], infinite, [[simple group]]
 
-   Thomson's group T.
+   [[Thomson's group]] T.
 
 1. A [[group]] that is not the [[fundamental group]] of any [[3-manifold]].
 
@@ -22,7 +26,7 @@ Initial import of counterexamples taken from [this MO question](http://mathoverf
    \mathbb{Z}^4
    $$
 
-1. Two finite non-isomorphic groups with the same order profile.
+1. Two [[finite group|finite]] non-[[isomorphism|isomorphic]] groups with the same [[order profile]].
 
    $$
    C_4 \times C_4, \qquad C_2 \times \langle a, b, | a^4 = 1, a^2 = b^2, a b = b a^3 \rangle
@@ -41,19 +45,19 @@ Initial import of counterexamples taken from [this MO question](http://mathoverf
    \end{matrix}
    $$
 
-1. A counterexample to the converse of Lagrange's theorem.
+1. A counterexample to the converse of [[Lagrange's theorem]].
 
-   The alternating group $A_4$ has order $12$ but no subgroup of order $6$.
+   The [[alternating group]] $A_4$ has order $12$ but no [[subgroup]] of order $6$.
 
-1. A finite group in which the product of two commutators is not a commutator.
+1. A [[finite group]] in which the product of two [[commutator]]s is not a commutator.
 
    $$
    G = \langle (a c)(b d), (e g)(f h), (i k)(j l), (m o)(n p), (a c)(e g)(i k), (a b)(c d)(m o), (e f)(g h)(m n)(o p), (i j)(k l)\rangle \subseteq S_{16}
    $$
 
-###Ring Theory###
+## Ring Theory
 
-1. A ring that is right [[Notherian ring|Notherian]] but not left Notherian:
+1. A [[ring]] that is right [[Notherian ring|Notherian]] but not left Notherian:
 
    Matrices of the form $\begin{bmatrix} a & b \\ 0 & c \end{bmatrix}$ where $a \in \mathbb{Z}$ and $b,c \in \mathbb{Q}$.
 
@@ -63,7 +67,7 @@ Initial import of counterexamples taken from [this MO question](http://mathoverf
    k[x,y]/(x^2, x y)
    $$
 
-1. A number ring that is a [[principal ideal domain]] that is not Euclidean.
+1. A [[number ring]] that is a [[principal ideal domain]] that is not Euclidean.
 
    $$
    \mathbb{Q}(\sqrt{-19})
@@ -75,7 +79,7 @@ Initial import of counterexamples taken from [this MO question](http://mathoverf
    \mathbb{Z} \to \mathbb{Q}
    $$
 
-1. A [[ring]] whose [[spec]] has non-open connected components.
+1. A [[ring]] whose [[spec]] has non-[[open subset|open]] [[connected]] components.
 
    $$
    \prod_{n=1}^\infty \mathbb{F}_2
@@ -87,13 +91,13 @@ Initial import of counterexamples taken from [this MO question](http://mathoverf
    \prod_{n=1}^\infty \mathbb{F}_2
    $$
 
-1. A number field whose ring of integers is Euclidean but not norm-Euclidean.
+1. A [[number field]] whose [[ring of integers]] is Euclidean but not norm-Euclidean.
 
    $$
    \mathbb{Q}(\sqrt{69})
    $$
 
-###Hopf Algebras###
+## Hopf Algebras
 
 1. A non-commutative and non-cocommutative [[Hopf algebra]]
 
@@ -109,16 +113,21 @@ Initial import of counterexamples taken from [this MO question](http://mathoverf
    \end{aligned}
    $$
 
-###Homological Algebra###
+## Homological Algebra
 
-1. An [[exact sequence]] that does not split:
+1. An [[exact sequence]] that does not [[split sequence|split]]:
 
    $$
-   0 {\times 2 \atop \to} \mathbb{Z} \to \mathbb{Z} \to \mathbb{Z}/2\mathbb{Z} \to 0
+   0 \stackrel{\times 2}{\to} \mathbb{Z} \to \mathbb{Z} \to \mathbb{Z}/2\mathbb{Z} \to 0
    $$
 
-###Galois Theory###
+## Galois Theory
 
-1. A polynomial, solvable in radicals, whose splitting field is not a radical extension of $\mathbb{Q}$.
+1. A [[polynomial]], solvable in [[radical]]s, whose [[splitting field]] is not a [[radical extension]] of $\mathbb{Q}$.
 
-   Take any cyclic cubic; that is, any cubic with rational coefficients, irreducible over the rationals, with Galois group cyclic of order $3$.
+   Take any cyclic cubic; that is, any cubic with rational coefficients, irreducible over the [[rational number|rational]]s, with [[Galois group]] cyclic of order $3$.
+
+
+## References
+
+The initial import of counterexamples in this entry was taken from [this MO question](http://mathoverflow.net/questions/29006/counterexamples-in-algebra).
