@@ -2,7 +2,6 @@
 * tic
 {: toc}
 
-
 ## Idea
 
 The separation axioms are a list of (originally four, now more) properties of a [[topological space]], all of which are satisfied by [[metric spaces]].  They all have to do with saying that two sets (of certain forms) in the space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense.  Often, the axioms can also be interpreted in a broader context, such as in a [[convergence space]] or in a [[locale]], or under weaker assumptions, such as those of [[constructive mathematics]] and [[predicative mathematics]].
@@ -20,18 +19,18 @@ Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
 *  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
    $$ F \cap G = \empty .$$
 *  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:
-   $$ (\exists\; U \stackrel{\circ}\ni F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\ni G,\; F \cap V = \empty) .$$
+   $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
    Notice that topologically disjoint sets must be disjoint.
 *  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
-   $$ (\exists\; U \stackrel{\circ}\ni F,\; U \cap G = \empty) \;\wedge\; (\exists\; V \stackrel{\circ}\ni G,\; F \cap V = \empty)
+   $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\wedge\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty)
    \;\;\equiv\;\;
-   \exists\; U \stackrel{\circ}\ni F,\; \exists\; V \stackrel{\circ}\ni G,\; U \cap G = \empty \;\wedge\; F \cap V = \empty .$$
+   \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap G = \empty \;\wedge\; F \cap V = \empty .$$
    Notice that separated sets must be topologically disjoint.
 *  They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
-   $$ \exists\; U \stackrel{\circ}\ni F,\; \exists\; V \stackrel{\circ}\ni G,\; U \cap V = \empty .$$
+   $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap V = \empty .$$
    Notice that sets separated by neighbourhoods must be separated.
 *  They are __separated by closed neighbourhoods__ if they have disjoint closed neighbourhoods:
-   $$ \exists\; U \stackrel{\circ}\ni F,\; \exists\; V \stackrel{\circ}\ni G,\; Cl(U) \cap Cl(V) = \empty .$$
+   $$ \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; Cl(U) \cap Cl(V) = \empty .$$
    Notice that sets separated by closed neighbourhoods must be separated by neighbourhoods.
 *  They are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps $F$ to $0$ and $G$ to $1$:
    $$ \exists\; f: S \to \mathbf{R},\; F \subseteq f^*(\{0\}) \;\wedge\; G \subseteq f^*(\{1\}) .$$
@@ -161,3 +160,4 @@ The English Wikipedia has [a decent article](http://secure.wikimedia.org/wikiped
 [[!redirects topologically disjoint sets]]
 [[!redirects separated sets]]
 [[!redirects separation axiom]]
+[[!redirects separation axioms]]
