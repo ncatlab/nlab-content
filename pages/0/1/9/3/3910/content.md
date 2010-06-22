@@ -21,3 +21,4 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 [[!redirects integer]]
 [[!redirects integers]]
+[[!redirects ring of integers]]
