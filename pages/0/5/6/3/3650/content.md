@@ -26,6 +26,10 @@ A geometric morphism $F \underoverset{f_*}{f^*}{\rightleftarrows} E$ is **locall
 
 If $f$ is locally connected, then it makes sense to think of the left adjoint $f_!$ as assigning to an object of $F$ its "set of connected components" in $E$.  In particular, if $f$ is locally connected, then it is moreover [[connected geometric morphism|connected]] if and only if $f_!$ preserves the terminal object.  However, not every connected geometric morphism is locally connected.
 
+## Examples
+
+If the terminal [[global section]] geometric morphism is locally connected, one speaks of a [[locally connected topos]].
+
 ## References
 
 * Section C3.3 of the [[Elephant]]
