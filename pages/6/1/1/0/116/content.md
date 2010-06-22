@@ -91,7 +91,7 @@ Notice that the relation between group objects and deloopable objects becomes mo
 
 Following the practice of [[centipede mathematics]], we can remove certain properties from the definition of group and see what we get:
 * remove inverses to get [[monoids]], then remove the identity to get [[semigroups]];
-* or remove associativity to get [[loop(algebra)|loops]], then remove the identity to get [[quasigroups]];
+* or remove associativity to get [[loop (algebra)|loops]], then remove the identity to get [[quasigroups]];
 * or remove all of the above to get [[magma|magmas]];
 * or instead allow (in a certain way) for the binary operation to be partial to get [[groupoids]], then remove inverses to get [[categories]], and then remove identities to get [[semicategory|semicategories]]
 * etc.
@@ -162,19 +162,6 @@ For more see [[counterexamples in algebra]].
 
    $$
    C_4 \times C_4, \qquad C_2 \times \langle a, b, | a^4 = 1, a^2 = b^2, a b = b a^3 \rangle
-   $$
-
-1. A [[quasigroup]] that is not isomorphic to any [[loop]].
-
-   $\{a, b, c\}$ with multiplication table:
-
-   $$
-   \begin{matrix}
-   * & a & b & c \\
-   a & a & c & b \\
-   b & c & b & a \\
-   c & b & a & c
-   \end{matrix}
    $$
 
 1. A counterexample to the converse of [[Lagrange's theorem]].
