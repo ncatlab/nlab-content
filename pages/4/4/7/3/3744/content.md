@@ -11,6 +11,9 @@ This page lays down a specific set of axioms of the [[Haag-Kastler axioms]] to [
 
 It is possible to construct examples that fulfill the axioms, to show that they are not empty, but we will not engage in this task here, at least not now. Note however that up to now there was no success in the task to construct systems in 4 dimensions with interactions, which has led to some doubts about the usefulness of this approach in the physics community: It has yet to be shown if the approach does or does not capture the essential features that makes possible the tremendous success of the standard model of particle physics.
 
+## Abstract
+We first collect some terms that are needed to then formulate the axioms of the vacuum representation. A few simple consequences are cited and some links to further concepts are provided.
+
 ###Notation
 
 ####The Poincar&#233; Group
@@ -149,7 +152,13 @@ $$
 
 * **theorem (triviality of algebras of points)**: The conclusion of the preceding statement holds if we put $b = 0$, i.e. if we consider the algebra associated with one point.
 
-_remark_(physical viewpoint): The preceding theorem is sometimes summarized as _there are no non-trivial observables at the point_. There are two possible ways to interpret this result: The pragmatic approach says that, since no detector can be built that measures observables precisley at one point of spacetime, there is no need of a theory to support the concept of observables localized at a point. The philosophical approach takes this one step further and states that our relativistic quantum theory tells us that the concepts of points and observables localized at points are an idealization with no relevance to nature.
+_Remark_ (physical viewpoint): The preceding theorem is sometimes summarized as _there are no non-trivial observables at the point_. There are two possible ways to interpret this result: The pragmatic approach says that, since no detector can be built that measures observables precisley at one point of spacetime, there is no need of a theory to support the concept of observables localized at a point. The philosophical approach takes this one step further and states that our relativistic quantum theory tells us that the concepts of points and observables localized at points are an idealization with no relevance to nature.
+
+There are several directions one can pursue next, for example 
+
+* the [[classification of local algebras]] or
+
+* [[superselection theory]]
 
 ## References
 This page is based upon:
