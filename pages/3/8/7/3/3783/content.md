@@ -171,5 +171,7 @@ Most textbooks about [[General Relativity]] have chapter about the Kerr spacetim
 [[!redirects Kerr spacetimes]]
 [[!redirects Kerr solution]]
 [[!redirects Kerr metric]]
+[[!redirects Kerr black hole]]
+[[!redirects Kerr-Newman black hole]]
 [[!redirects Boyer-Lindquist coordinates]]
 [[!redirects Boyer-Lindquist]]
