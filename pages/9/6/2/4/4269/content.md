@@ -7,6 +7,34 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+A [[sheaf]] $F$ on (the [[site]] [[category of open subsets|of open subsets]] of) a [[topological space]] $X$ corresponds to an [[étalé space]] $\pi_F : Y_F \to X$.  This space $Y_F$ has itself a [[sheaf topos]] associated to it, and the map $Y \to X$ induced a [[geometric morphism]] of [[sheaf topos]]es
+
+$$
+  \pi_F : Sh(Y_F) \to Sh(X)
+  \,.
+$$
+
+One find that due to the special nature of $Y$, the topos on the left is equivalent to the [[overcategory]] topos $Sh(X)/F$ and that the projection morphism above factors through a canonical standard [[geometric morphism]] $Sh(X)/F \to Sh(X)$
+
+$$
+  \pi_F : Sh(Y_F) \stackrel{\simeq}{\to} Sh(X)/F \to Sh(X)
+  \,.
+$$
+
+And conversely, every [[local homeomorphism]] $Y \to X$ of [[topological space]]s corresponds to a [[geometric morphism]] of sheaf toposes of this form.
+
+This motivates calling a [[geometric morphism]]
+
+$$
+  \mathcal{X} \to \mathcal{Y}
+$$
+
+a **local homeomorphism of toposes** or **&#233;tale geometric morphism** if it factors as an equivalence followed by a projection out of an overcategory topos.
+
+In particular if the topos is a locally ringed topos, or [[structured (∞,1)-topos]] it makes sense to require that the local homeomorphism is compatible with the extra structure.
+
 ## Definition
 
 For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], also the [[overcategory]] $\mathbf{H}_{/X}$ is a topos ($(\infty,1)$-topos, etc). This is sometimes called the [[gros topos]] associated to $X \in \mathbf{H}$.
@@ -28,7 +56,8 @@ This is the [[base change geometric morphism]] for the terminal morphism $X \to 
 +-- {: .un_defn}
 ###### Definition
 
-A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors by an  $\mathbf{K} \stackrel{\simeq}{\to} \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ through such a projection, for some $X \in \mathbf{H}$ is called an **&#233;tale geometric morphism**.
+A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors by geometric morphisms as  $\mathbf{K} \stackrel{\simeq}{\to} \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ up to an equivalence through such a projection, for some $X \in \mathbf{H}$ is called 
+**local homeomorphism of toposes** or an **&#233;tale geometric morphism**.
 
 =--
 
@@ -39,7 +68,7 @@ If the [[(∞,1)-topos]]es in question are [[structured (∞,1)-topos]]es, then 
 +-- {: .un_defn}
 ###### Definition
 
-A morphism $f : (\mathcal{X}, \mathcal{O}_{\mathcal{X}}) \to (\mathcal{Y}, \mathcal{O}_{\mathcal{Y}})$ of [[structured (∞,1)-topos]]es is **&#233;tale** if
+A morphism $f : (\mathcal{X}, \mathcal{O}_{\mathcal{X}}) \to (\mathcal{Y}, \mathcal{O}_{\mathcal{Y}})$ of [[structured (∞,1)-topos]]es is an **&#233;tale morphism** if
 
 1. the underlying morphism of $(\infty,1)$-toposes is an &#233;tale geometric morphism;
 
@@ -110,6 +139,10 @@ A [[geometric morphism]] $(f^* \dashv f_*) : \mathbf{K} \to \mathbf{H}$ is &#233
 For [[(∞,1)-topos]]es this is [[Higher Topos Theory|HTT, prop. 6.3.5.11]].
 
 ## References
+
+The notion of local homeomorphisms of toposes is page xyz in
+
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
 
 The notion of &#233;tale geometric morphisms between [[(∞,1)-topos]]es is introduced in section 6.3.5 of 
 
