@@ -1,7 +1,27 @@
 
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+***
+[[!include category theory - contents]]
+</div>
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
+
+
+## Idea
+
+In [[category theory]] a _cone_ over a [[commuting diagram]] is an [[object]] equipped with [[morphism]]s from it into each vertex of the diagram, such that all neew diagrams arising this way commute.
+
+A cone which is [[universal property|universal]] is a [[limit]].
+
+The dual notion is _[[cocone]]_ .
+
+Thsi definition generalizes to [[higher catergory theory]]. In particular in [[(∞,1)-category theory]] a cone over an [[∞-groupoid]] is essentially a cone in the sense of [[homotopy theory]].
+
 
 ## Definition
 
