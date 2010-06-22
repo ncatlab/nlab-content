@@ -167,7 +167,7 @@ $$
 
 For details on this see [[Quillen bifunctor]] or around page 9 of
 
-* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ .
+* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf)).
 
 From the fact that this is a Quillen bifunctor and using the observation that for the _trivial_ weight $W = const 1$ the wighted colimit reduces to an ordinary colimit, follows the above Bousfield-Kan-type formula for the homotopy colimit.
 
@@ -333,6 +333,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
+By the fact that the [[coend]] over the [[copower|tensor]] appearing here is a [[Quillen bifunctor]].
+
 This is disucssed for instance in section 4 of
 
 * [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
@@ -348,10 +350,10 @@ Let $D = \Delta^{op}$ be the [[opposite category]] of the [[simplex category]].
 +-- {: .un_prop }
 ###### Proposition
 
-A cofibrant replacement of the [[terminal object]] ${*}$ in the projective [[global model structure on functors]] $[\Delta, SSet]$ is the functor that assigns to $[n]$ the [[nerve]] of [[opposite category]] of the [[undercategory]] of $\Delta$ under $[n]$
+A cofibrant replacement of the [[terminal object]] ${*}$ in the projective [[global model structure on functors]] $[\Delta, SSet]$ is the the [[fat simplex]]-functor that assigns to $[n]$ the [[nerve]] of [[opposite category]] of the [[undercategory]] of $\Delta^{op}$ under $[n]$
 
 $$
-  N(-/\Delta)^{op} : \Delta \to SSet
+  N(-/\Delta^{op})^{op} : \Delta \to SSet
   \,.
 $$
 
