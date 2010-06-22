@@ -13,7 +13,7 @@ The notion of a causal [[net]] of algebras is a generalization of [[local nets]]
 
 
 ## Definition ##
-A [[net]] of [[algebras]] (A_i) is a **causal net** if the index set $I$ is a [[causal index set]] and for $i, j \in I, i \perp \j$ implies that $A_i$ and $A_j$ commute elementwise. 
+A [[net]] of [[algebras]] $(A_i)$ is a **causal net** if the index set $I$ is a [[causal index set]] and for $i, j \in I, i \perp \j$ implies that $A_i$ and $A_j$ commute elementwise. 
 
 The net is said to satisfy the **causality condition** in this case.
 
