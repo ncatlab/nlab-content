@@ -1,6 +1,6 @@
 ## Idea
 
-A _quasigroup_ is a generalization of a [[group]] without the associativity law or identity element.   A quasigroup with identity is called a [[loop:algebra|loop]].
+A _quasigroup_ is a generalization of a [[group]] without the associativity law or identity element.   A quasigroup with identity is called a _loop_.
 
 Note that, in the absence of associativity, it\'s not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
 
@@ -67,5 +67,7 @@ A __[[group]]__ is an associative loop.
 Quasigroups have applications to the study of [[Latin square]]s (basically the 'sudoku squares' from the quotation above).
 
 
-[[!redirects loop(algebra)]]
+[[!redirects quasigroup]]
 [[!redirects quasigroups]]
+[[!redirects loop (algebra)]]
+[[!redirects loop(algebra)]]
