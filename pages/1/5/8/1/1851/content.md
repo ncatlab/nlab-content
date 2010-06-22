@@ -1,5 +1,14 @@
 
-# Idea #
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 Maxwell's equations for the [[electromagnetic field]] $F \in \Omega^2(X)$ on a $d$-dimensional [[Riemannian manifold|pseudo-Riemannian space]] $X$ in the presence of [[electric current]] $j_{el} \in \Omega^{d-1}(X)$ read
 
@@ -29,7 +38,7 @@ Indeed, to circumvent dealing with this problem Dirac, in his original argument,
 
 It was Dan Freed who discussed that the global description of the [[electromagnetic field]] does make sense even in the presence of electric current if one generalizes the model of a degree-$2$ [[differential cohomology|differential cocycle]] to that of a [[twisted cohomology|twisted]] cocycle.
 
-* Dan Freed, _Dirac charge quantization and generalized differenbtial cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+* [[Dan Freed]], _Dirac charge quantization and generalized differenbtial cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
 
 The magnetic current $3$-form $j_{mag}$ is then realized as the curvature characteristic $3$-form of a degree-$3$ ordinary [[differential cohomology|differential cocycle]] $\hat j_{mag}$, the [[electromagnetic field]] $F$ is the curvature characteristic $2$-form of a degree-$2$ [[twisted cohomology|twisted]] differential cocycle $\hat F$ and the equation
 
@@ -42,7 +51,7 @@ expresses the twisting of $\hat F$ by $\hat j_{mag}$ at the level of curvature f
 This means that Dirac almost found [[bundle gerbe]]s already in 1931, had he not discussed only the neighbourhood of magnetic monopoles.
 
 
-# Magnetic charge anomaly #
+## Magnetic charge anomaly 
 
 Short of an experimental detection of magnetic monopoles the above considerations are of little practical relevance for ordinary [[electromagnetism]]. In their (straightforward) generalization to higher abelian [[gauge theory]] they do, however, serve to provide a more complete conceptual picture that provides the conceptual bases for effects such as the [[Green–Schwarz mechanism]].
 
