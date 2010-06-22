@@ -5,3 +5,7 @@ Black holes are considered theoretically for gravitational theories in various n
 Some candidate [[astrophysics|astrophysical]] objects which seem to point to black hole have been observed. 
 
 * [wikipedia](http://en.wikipedia.org/wiki/Black_hole)
+
+* [[Croatian black hole school]], 2010
+
+[[!redirects black holes]]
