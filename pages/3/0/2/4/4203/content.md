@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+   [[!include AQFT and operator algebra contents]]
+</div>
+
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
