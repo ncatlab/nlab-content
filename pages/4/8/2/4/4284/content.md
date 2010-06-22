@@ -131,6 +131,12 @@ This page lists counterexamples in [[algebra]].
 
    Take any cyclic cubic; that is, any cubic with rational coefficients, irreducible over the [[rational number|rational]]s, with [[Galois group]] cyclic of order $3$.
 
+2. A composition of two normal extensions need not be normal:
+
+$$
+   \mathbb{Q} \subset \mathbb{Q}(2^{1/2}) \subset \mathbb{Q}(2^{1/4})
+   $$
+
 
 ## References
 
