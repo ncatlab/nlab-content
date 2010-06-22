@@ -1,4 +1,15 @@
 
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 In [[electromagnetism]] the [[electromagnetic field]] is modeled by a degree 2 [[differential cohomology|differential cocycle]] $\hat F \in H(X, \mathbb{Z}(2)_D^\infty)$ (see [[Deligne cohomology]]) with curvature characteristic 2-form $F \in \Omega^2(X)$.
 
 With $\star$ denoting the [[Hodge star]] operator with respect to the corresponding pseudo-Riemannian metric on $X$, the right hand of
@@ -24,7 +35,7 @@ $$div j + \frac{\partial\rho}{\partial t} = 0$$
 
 which is a statement of the physical phenomenon of _charge conservation_ .
 
-# Remarks #
+## Remarks 
 
 * While electric current is modeled by just a differential form, magnetic charge has a more subtle model. See [[magnetic charge]] .
 
