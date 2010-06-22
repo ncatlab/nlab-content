@@ -46,27 +46,27 @@ On [[quantum mechanics]]:
 
 Global aspects of the geometry of spacetimes:
 
-* John K. Beem, Paul E. Ehrlich, Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete)) (global aspects)
+* John K. Beem, Paul E. Ehrlich, Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete)) (global aspects)
 
 * A Besse, _Einstein manifolds_, 2 vols. (differential geometry of solutions to Einstein equations, constant negative curvature, classification results, encyclopaedic)
 
-After the introduction emphasis on asymtotics of spacetimes far from gravitation objects:
+After the introduction emphasis on asymptotics of spacetimes far from gravitation objects:
 
 * John Stewart, _Advanced general relativity_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0752.53048&format=complete))
 
 Despite its title the next monograph does not just present the Kerr spacetime, it illustrates many core features of GR with the Kerr spacetime as the prominent example:
 
-* Barrett O'Neill, _The geometry of Kerr black holes._ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete)) 
+* Barrett O'Neill, _The geometry of Kerr black holes._ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete)) 
 
 Here is an introduction to spinors in GR: 
 
-* Peter O'Donnell, _Introduction to 2-spinors in general relativity._  ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1021.83001&format=complete)) 
+* Peter O'Donnell, _Introduction to 2-spinors in general relativity._  ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1021.83001&format=complete)) 
 
 while the classic reference for this is:
 
-* Roger Penrose, Wolfgang Rindler, _Spinors and spacetimes_ (2 vols, [vol 1, ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0538.53024&format=complete))
+* Roger Penrose, Wolfgang Rindler, _Spinors and spacetimes_ (2 vols, [vol 1, ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0538.53024&format=complete))
 
-* Eric Poisson, _A relativist's toolkit. The mathematics of black-hole mechanics._ ([http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete)) (computationally oriented)
+* Eric Poisson, _A relativist's toolkit. The mathematics of black-hole mechanics._ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1058.83002&format=complete)) (computationally oriented)
 
 See also the above book by Ward and Wells; and mainstream theoretical physics gravity textbooks by Misner, Thorne and Wheeler; Schutz; Landau-Lifschitz vol. 2; Wald; [[Chandrasekhar]] etc. For the [[supergravity]] see the appropriate chapters in the above listed collection by Deligne et al. or the references listed at [[supergravity]]. 
 
