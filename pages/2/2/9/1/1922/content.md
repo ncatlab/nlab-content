@@ -99,3 +99,4 @@ A bit stronger than regularity is _complete regularity_; a bit stronger than $T_
 [[!redirects T3 topology]]
 [[!redirects T3 axiom]]
 [[!redirects regular locale]]
+[[!redirects completely regular space]]
