@@ -14,26 +14,35 @@
 
 * [[local net]]
 
+  * [[causal net of algebras]]
+
   * [[conformal net]]
 
 * [[Haag-Kastler axioms]]
 
+  * [[Haag-Kastler vacuum representation]]
+
 ### Theorems
 
-* [[Reeh-Schlieder theorem]]     
-
-* [[Osterwalder-Schrader theorem]]
-
-* [[Fell's theorem]]
-
-* [[PCT theorem]]
-
-* [[Bisognano-Wichmann theorem]]
+#### Mathematical Tools
 
 * [[modular theory]]
 
-* [[spin-statistics theorem]]
+* [[Fell's theorem]]
 
+#### Euklidean QFT
+
+* [[Osterwalder-Schrader theorem]]
+
+#### Classical Theorems, Structure of Haag-Kastler Nets
+
+* [[Reeh-Schlieder theorem]]     
+
+* [[Bisognano-Wichmann theorem]]
+
+* [[PCT theorem]]
+
+* [[spin-statistics theorem]]
 
 
 
