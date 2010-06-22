@@ -1,4 +1,8 @@
 
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -40,7 +44,7 @@ Sometimes one also imposes these conditions to ensure better behavior of the res
 
 In a sense this is more of a "nice categories" approach than a "nice spaces" approach, because there is no known global property which would express what it means for a space to be tame. That is, there are many examples of o-minimal structures, but (it is conjectured) there is no maximal o-minimal structure, therefore no overarching meaning of what it would mean for a space to be tame. 
 
-Basically, an o-minimal structure $T$ is a collection $T_n \subseteq P(\mathbb{R}^n)$ which is closed under all first-order logic operations (e.g., complements, finite intersections, direct images under projections = existentially quantified sets, equality predicates, and the binary predicate $\lt$ on $\mathbb{R}$), and which satisfies the all-important o-minimality condition: the only sets belonging to $T_1$ are finite unions of points and intervals. The elements of $T$ may be called $T$-*definable sets*; the archetypal example is where $T$ is the collection of semi-algebraic sets (loci of polynomial inequalities) -- cf. the Tarski-Seidenberg theorem. The thrust of the o-minimality condition is to forbid sets like $\mathbb{N} \subseteq \mathbb{R}$ from being $T$-definable, which (following G&#246;del, Turing, Robinson, Matiyasevich, and others) would open the door to all sorts of pathological sets being $T$-definable as well. So you could think of o-minimality as a kind of logical "monster-barring" device, which happens to be quite effective. See van den Dries's book for a very illuminating discussion. 
+Basically, an o-minimal structure $T$ is a collection $T_n \subseteq P(\mathbb{R}^n)$ which is closed under all first-order logic operations (e.g., complements, finite intersections, direct images under projections = existentially quantified sets, equality predicates, and the binary predicate $\lt$ on $\mathbb{R}$), and which satisfies the all-important o-minimality condition: the only sets belonging to $T_1$ are finite unions of points and intervals. The elements of $T$ may be called $T$-*definable sets*; the archetypal example is where $T$ is the collection of semi-algebraic sets (loci of polynomial inequalities) -- cf. the Tarski-Seidenberg theorem. The thrust of the o-minimality condition is to forbid sets like $\mathbb{N} \subseteq \mathbb{R}$ from being $T$-definable, which (following G&ouml;del, Turing, Robinson, Matiyasevich, and others) would open the door to all sorts of pathological sets being $T$-definable as well. So you could think of o-minimality as a kind of logical "monster-barring" device, which happens to be quite effective. See van den Dries's book for a very illuminating discussion. 
 
 There are other approaches to tame topology (such as via Shiota's $\mathcal{X}$-sets), but I am less familiar with them.
 =--
@@ -90,7 +94,7 @@ Anyway, your plan sounds fine, although [[nice category of spaces]] might be ano
 
 [[Mike Shulman|Mike]]: I guess [[nice category of spaces]] would fit better with the existing cumbersomely-named [[dichotomy between nice objects and nice categories]].  I should have said that when people say "nice topological space" as a means of not having to worry about weak homotopy equivalences, they might as well mean (or maybe even "should" mean) m-cofibrant space.  If people do mean CW-complex for some more precise reason (such as wanting to induct up the cells), then they can say "CW complex" instead.
 
-Re: exponentials, the Stone-&#268;ech compactification of $Y^X$ will (as long as $Y^X$ isn't already compact) have more points than $Y^X$; but by the isomorphism $Hom(1,Y^X)\cong Hom(X,Y)$, points of an exponential space _have_ to be in bijection with continuous maps $X\to Y$.
+Re: exponentials, the Stone-&#x010c;ech compactification of $Y^X$ will (as long as $Y^X$ isn't already compact) have more points than $Y^X$; but by the isomorphism $Hom(1,Y^X)\cong Hom(X,Y)$, points of an exponential space _have_ to be in bijection with continuous maps $X\to Y$.
 
 _Toby_:  OK, I\'ll have to check how exactly they use the category of locally compact Hausdorff spaces.  (One way is to get compactly generated spaces, of course, but I thought that there was more to it than that.)  But anyway, I\'m happy with your plan and will help you carry it out.
 
