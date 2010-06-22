@@ -24,6 +24,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[beroal]]
 * [[Bruce Bartlett]]
 * [[Charles Rezk]]
+* [[Charles Siegel]]
 * [[Charles Wells]]
 * [[Chenchang Zhu]]
 * [[Chris]] (possibly one of the following Chrises)
