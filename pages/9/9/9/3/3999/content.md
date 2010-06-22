@@ -70,6 +70,24 @@ The following is a list of properties of and pertaining to sequentially compact 
 
    This shows that the example of a compact space that is not sequentially compact is about as simple as can be.
 
+4. The theorem that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism has a counterpart for sequentially compact spaces.
+
+   +-- {: .num_theorem #SeqCptReg}
+   ###### Theorem
+   Let $\mathcal{T}_1$ and $\mathcal{T}_2$ be two topologies on a set $X$ such that:
+
+   1. $\mathcal{T}_1 \supseteq \mathcal{T}_2$ (equivalently, the identity map on $X$ is continuous as a map $(X,\mathcal{T}_1) \to (X, \mathcal{T}_2)$)
+   2. $\mathcal{T}_1$ is sequentially compact
+   3. $\mathcal{T}_2$ is [[completely regular]] and singleton sets are [[G-delta]] sets,
+
+   then $\mathcal{T}_1 = \mathcal{T}_2$.
+   =--
+
+   +-- {: .proof}
+   ###### Proof
+   Let $V \subseteq X$ be such that $V \notin \mathcal{T}_2$.  Then it must be non-empty and there must be a point $v \in V$ such that $V$ is not a neighbourhood of $v$.  As $\mathcal{T}_2$ is completely regular and singleton sets are $G_\delta$ sets, there is a continuous function $g \colon (X, \mathcal{T}_2) \to \mathcal{R}$ such that $g^{-1}(0) = \{v\}$.  Since $V$ is not a neighbourhood of $v$, for each $n \in \mathbb{N}$, the set $g^{-1}(-\frac1n, \frac1n)$ is not wholly contained in $V$.  Thus for each $n$ there is a point $x_n \in X$ such that $x_n \notin V$ and $|g(x_n)| \lt \frac1n$.  As $\mathcal{T}_1$ is sequentially compact, this sequence has a $\mathcal{T}_1$-convergent subsequence, say $(x_{n_k})$ converging to $y$.  Since $g(x_n) \to 0$, $g(x_{n_k}) \to 0$ and thus $g(y) = 0$.  Thus $y = v$ and so $(x_{n_k}) \to v$ in $\mathcal{T}_1$.  As $x_{n_k}
+ \notin V$ for all $n_k$, and $v \in V$, it must be the case that $V$ is not a $\mathcal{T}_1$-neighbourhood of $v$.  Hence $V \notin \mathcal{T}_1$.  Thus $\mathcal{T}_1 \subseteq \mathcal{T}_2$, whence they are equal.
+   =--
 [[!redirects sequentially compact]]
 [[!redirects sequential compactness]]
 [[!redirects sequentially compact space]]
