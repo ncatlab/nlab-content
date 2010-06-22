@@ -1,0 +1,30 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+A power series in a variable $X$ with coefficients in a [[ring]] $R$ is a formal [[series]] of the form
+
+$$
+  \sum_{n = 0}^\infty a_n X^n
+$$
+
+with coefficients $(a_n \in R)_{n = 0}^\infty$. 
+
+The collection of power series in variable $X$ with coefficients in $R$ is denoted $R [ [ X ] ]$.
+
+If there is $k \in \mathbb{N}$ such that $a_n = 0 $ for all $n \gt k$ then this is a [[polynomial]] of degree $k$.
+
+## Examples
+
+For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] on the [[real line]], and for $f^{(n)} \in C^\infty(\mathbb{R})$ denoting its $n$th [[derivative]] its [[Taylor series]] (at 0) is the power series
+
+$$
+  \sum_{n = 0}^\infty  
+   \frac{1}{n!} f^{(n)}(0) x^n
+  \,.
+$$
+
+
