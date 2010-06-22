@@ -23,7 +23,7 @@ $$
 
 for the canonical cosimplicial [[simplicial set]] (the [[adjunct]] of the [[hom-functor]] $\Delta^{op} \times \Delta \to Set$).
 
-Write furthermore $N(\Delta/-) : \Delta \to Set^{\Delta^{op}}$ for the cosimplicial simplicial set which assigns to $[n]$ the [[nerve]] of the [[over category]] $\Delta / [n]$.
+Write furthermore $N(\Delta/-) : \Delta \to Set^{\Delta^{op}}$ for the [[fat simplex]], the  [[cosimplicial object|cosimplicial]] [[simplicial set]] which assigns to $[n]$ the [[nerve]] of the [[overcategory]] $\Delta / [n]$.
 
 The **Bousfield--Kan map of cosimplicial simplicial maps** is a canonical morphism
 
