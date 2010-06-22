@@ -8,7 +8,7 @@
 
 A **group** is a [[monoid]] in which every element has an [[inverse]] (necessarily unique).
 
-An **[[abelian group]]** is a group in which moreover the order in which two elements are multiplies is irrelevant.
+An **[[abelian group]]** is a group in which moreover the order in which two elements are multiplied is irrelevant.
 
 ## Delooping ##
 
@@ -54,7 +54,9 @@ $$
 To fix this, look at the category of [[pointed object|pointed]] groupoids with [[pointed functor|pointed functors]] and pointed natural transformations.  Between group homomorphisms as above, only identity transformations are pointed, so $Grp$ becomes a full sub-$2$-category of $Grpd_*$ (one that happens to be a $1$-[[1-category|category]]).  (Details may be found in the appendix to [[Lectures on n-Categories and Cohomology]] and should probably be added to [[pointed functor]] and maybe also [[k-tuply monoidal n-category]].)
 
 
-## Internalization ##
+## Generalizations
+
+### Internalization 
 
 A **[[group object]]** [[internalization|internal to]] a [[category]] $C$ with finite [[product|products]] is an object $G$ together with maps $mult:G\times G\to G$, $id:1\to G$, and $inv:G\to G$ such that various diagrams expressing associativity, unitality, and inverses commute.
 
@@ -64,7 +66,7 @@ For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [
 
 A group object in [[Grp]] is the same thing as an abelian group (see [[Eckmann-Hilton argument]]), and a group object in [[Cat]] is the same thing as an [[internal category]] in [[Grp]], both being equivalent to the notion of [[crossed module]]. 
 
-## Groups in higher categorical and homotopical contexts ##
+### In higher categorical and homotopical contexts
 
 Internalizing the notion of _group_ in [[higher category theory|higher categorical]] and [[homotopy theory|homotopical]] contexts yields various generalized notions. For instance
 
@@ -82,23 +84,8 @@ And the notion of [[loop space object]] and [[delooping]] makes sense (at least)
 
 Notice that the relation between group objects and deloopable objects becomes more subtle as one generalizes this way. For instance not every [[groupoid object in an (infinity,1)-category|group object in an (infinity,1)-category]] is [[delooping|deloopable]]. But every group object in an [[(infinity,1)-topos]] is.
 
-## Special types and classes
 
-* [[simple group]]
-
-* [[finite group]]
-
-  * [[classification of finite simple groups]]
-
-  * [[sporadic finite simple groups]]
-
-  * [[Monster group]]
-
-* [[topological group]]
-
-* [[Lie group]]
-
-## Weakened versions ##
+### Weakened axioms
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
 
@@ -108,5 +95,98 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
 * or remove all of the above to get [[magma|magmas]];
 * or instead allow (in a certain way) for the binary operation to be partial to get [[groupoids]], then remove inverses to get [[categories]], and then remove identities to get [[semicategory|semicategories]]
 * etc.
+
+## Examples
+
+### Special types and classes
+
+* [[simple group]]
+
+* [[finite group]]
+
+  * [[classification of finite simple groups]]
+
+  * [[sporadic finite simple groups]]
+
+* [[topological group]]
+
+* [[Lie group]]
+
+### Concrete examples
+
+Standard examples of [[finite group]]s include
+
+* [[symmetric group]]
+
+* [[cyclic group]]
+
+* [[Monster group]]
+
+Standard examples of non-finite groups include
+
+* group of [[integer]]s.
+
+Standard examples of [[Lie group]]s include
+
+* [[orthogonal group]]
+
+* [[unitary group]]
+
+* [[Spin group]]
+
+Standard examples of [[topological group]]s include
+
+* [[string group]]
+
+### Counterexamples
+
+For more see [[counterexamples in algebra]].
+
+1. A non-[[abelian group|abelian]] [[group]], all of whose [[subgroup]]s are [[normal subgroup|normal]]:
+
+   $$
+   Q \coloneqq \langle a, b | a^4 = 1, a^2 = b^2, a b = b a^3 \rangle
+   $$
+
+1. A [[finitely presented group|finitely presented]], infinite, [[simple group]]
+
+   [[Thomson's group]] T.
+
+1. A [[group]] that is not the [[fundamental group]] of any [[3-manifold]].
+
+   $$
+   \mathbb{Z}^4
+   $$
+
+1. Two [[finite group|finite]] non-[[isomorphism|isomorphic]] groups with the same [[order profile]].
+
+   $$
+   C_4 \times C_4, \qquad C_2 \times \langle a, b, | a^4 = 1, a^2 = b^2, a b = b a^3 \rangle
+   $$
+
+1. A [[quasigroup]] that is not isomorphic to any [[loop]].
+
+   $\{a, b, c\}$ with multiplication table:
+
+   $$
+   \begin{matrix}
+   * & a & b & c \\
+   a & a & c & b \\
+   b & c & b & a \\
+   c & b & a & c
+   \end{matrix}
+   $$
+
+1. A counterexample to the converse of [[Lagrange's theorem]].
+
+   The [[alternating group]] $A_4$ has order $12$ but no [[subgroup]] of order $6$.
+
+1. A [[finite group]] in which the product of two [[commutator]]s is not a commutator.
+
+   $$
+   G = \langle (a c)(b d), (e g)(f h), (i k)(j l), (m o)(n p), (a c)(e g)(i k), (a b)(c d)(m o), (e f)(g h)(m n)(o p), (i j)(k l)\rangle \subseteq S_{16}
+   $$
+
+
 
 [[!redirects groups]]
