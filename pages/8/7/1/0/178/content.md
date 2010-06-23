@@ -266,7 +266,7 @@ Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at 
   * [[Verity on descent for strict omega-groupoid valued presheaves]].   
 
 
-#### Circle $n$-Lie groupoids $\mathbf{B}^n U(1)$
+#### Circle $n$-Lie groupoids  {#BnU1}
 
 Write $U(1) = S^1 = \mathbb{R}/\mathbb{Z}$ for the [[abelian group|abelian]] [[Lie group]] called the [[circle group]] or 1-dimensional [[unitary group]].
 
@@ -305,13 +305,14 @@ For $n \geq 1$ the integral cohomology of a [[Cartesian space]] $\mathbb{R}^k$ v
 
 Now consider the delooping statement by induction. We need to show that for $n \geq 1$ the [[loop space object]] $\Omega \Xi(U(1)[n]) \simeq \Xi(U(1)[n-1])$. Since [[∞-stackification]] preserves fniite limits, it is sufficient to compute the [[homotopy pullback]] of $* \to \Xi(U(1)[n]) \leftarrow * $ in $[CartSp^{op}, sSet]_{proj}$.
 
-There we take a fibrant replacement of the morphism $* \to \Xi(U(1)[n])$ to be 
+Therefor we take a fibrant replacement of the morphism $* \to \Xi(U(1)[n])$ to be 
 
 $$
   \array{
     \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
     \\
     \downarrow
+    \\
     \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
   }
   \,.
@@ -325,8 +326,10 @@ $$
     &\to&
     \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
     \\
-    \Xi [0 \to 0  \to 0 \to \cdots \to 0]
     \downarrow && \downarrow
+    \\
+    \Xi [0 \to 0  \to 0 \to \cdots \to 0]
+    \to
     \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
   }
   \,,
@@ -346,9 +349,113 @@ We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])
 
 ##### Differential coefficients
 
-...
+We now describ a Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$.
+
+Recall for this that $\infty LieGrpd$ is a [[∞-connected (∞,1)-topos]], which means that we have [[(∞,1)-functor]]s
+
+$$
+  \infty LieGrpd
+  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  \infty Grpd
+$$
+
+and such that $LConst$ is a [[full and faithful (∞,1)-functor]]. Define from this the functors
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat}) :=
+  (LConst \Pi \dashv LConst \Gamma)
+  : 
+  \infty LieGrpd \to \infty LieGrpd
+$$
+
+and define for a [[pointed object]] $* \to A \in \infty LieGrpd$ the object $\mathbf{\flat}_{dR}A$ to be the [[pullback]]
+
+$$
+  \array{
+    \mathbf{\flat}_{dR} A &\to & \mathbf{\flat}A
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& A
+  }
+$$
+
+and the object $\mathbf{\Pi}_{dR}A$ to be the [[pushout]]
+
+$$
+  \array{
+    A &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}(A) &\to& \mathbf{\Pi}_{dR}(A)
+  }
+$$
+
+in $\infty LieGrpd$.
 
 
++-- {: .un_prop }
+###### Proposition
+
+A fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ of $\mathbf{\flat} \mathbf{B}^n U(1)$ is
+
+$$
+  \Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
+  \,.
+$$
+
+and of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is
+
+$$
+  \Xi[0 \to \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
+  \,.
+$$
+
+=--
+
+Notice that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines flat [[Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is that which computes [[de Rham cohomology]] in degree $n$.
+
+
++-- {: .proof}
+###### Proof
+
+Since the [[global section]] $\Gamma$ amounts to evaluation on the 
+point $\mathbb{R}^0$ and since conmstant simplicial presheaves on [[CartSp]]
+satisfy descent, we have that $\mathbf{\flat} \mathbf{B}^n U(1)$ is represented by $\Xi[const U(1) \to 0 \to \cdots \to 0]$. This is weakly equivalent to $\Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]$ by the [[Poincare lemma]] applied to each [[Cartesian space]] (using the same standard logic that proves the [[de Rham theorem]]).
+
+And so a fibration representing the counit $\mathbf{\flat} \mathbf{B}^n U(1) \to \mathbf{B}^n U(1)$ is the image under $\Xi$ of
+
+$$
+  \array{
+    C^\infty(-,U(1)) &\to& \Omega^1(-) &\to & \cdots &\to& \Omega^n_{cl}(-)
+    \\
+    \downarrow && \downarrow && && \downarrow
+    \\
+    C^\infty(-, U(1)) &\to& 0 &\to& \cdots &\to& 0
+  }
+  \,.
+$$
+
+The pullback 
+
+$$
+  \array{
+    \Xi[0 \to \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]
+    &\to&
+    \Xi[C^\infty(-,U(1)) \to \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]
+    \\
+    \downarrow && \downarrow
+    \\
+    \Xi[0 \to 0 \to \cdots \to 0]
+    &\to&
+    \Xi[C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+  }
+$$
+
+of this is a [[homotopy pullback]] and since fibrantions are stable under pullback, we find that the top left is indeed fibrant.
+
+=--
 
 
 ### Cohomology {#Cohomology}
