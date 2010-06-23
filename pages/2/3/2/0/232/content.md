@@ -193,23 +193,21 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A category enriched in [[Set]] is a [[locally small category]].
 
-* A category enriched in [[Vect]] is a [[linear category]].  Here Vect is the category of vector spaces over some fixed field $k$.  It is common to emphasize the dependence on $k$ and call a category enriched over Vect a **$k$-linear category**.
-
 * A category enriched in [[chain complex|chain complexes]] is a [[dg-category]].
 
-* A category enriched in [[simplicial set|simplicial sets]] is a [[simplicially enriched category|simplicial category]], and are one model for $(\infty,1)$-[[(infinity,1)-category|categories]].
+* A category enriched in [[simplicial set|simplicial sets]] is called a [[simplicially enriched category|simplicial category]], and these form one model for $(\infty,1)$-[[(infinity,1)-category|categories]].  But beware: the term 'simplicial category' is also used to mean a category [[internalization|internal to]] simplicial sets.  In fact, a category enriched in simplicial sets is a special case of a category internal to simplicial sets, namely one where the simplicial set of object is discrete.
 
-* Categories enriched in [[Top]] are also a model for $(\infty,1)$-categories.
+* A category enriched in [[Top]] is a [[topological category]].  These are also a model for $(\infty,1)$-categories.  But again, beware: the term 'topological category' is perhaps more commonly used to mean a category [[internalization|internal to]] Top.  And again: a category enriched in Top is a special case of one internal to Top, namely one where the space of objects is discrete.
 
 * A category enriched in [[Cat]] is a [[strict 2-category]].
 
 * A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|strict omega-categories]].
 
-* A [[ringoid]]/[[pre-additive category]] is a category enriched over [[Ab]].
+* An [[algebroid]], or [[linear category]], is a category enriched over [[Vect]].  Here Vect is the category of vector spaces over some fixed field $k$, equipped with its usual tensor product.  It is common to emphasize the dependence on $k$ and call a category enriched over Vect a **_K_-linear category**.  
 
-* An [[algebroid]]/[[linear category]] is a category enriched over [[Vect]].
+* More generally, if $K$ is any commutative ring, a category enriched over $K Mod$ is sometimes called a $K$-linear category.
 
-(In all these cases the standard monoidal structure on the monoidal categories is understood.)
+* In particular, taking $K = \mathbb{Z}$, a [[ringoid]] or [[pre-additive category]] is a category enriched over [[Ab]].
 
 * A (Lawvere) [[metric space]] is a category enriched over the poset $([0, \infty], \geq)$ of extended positive real numbers, where $\otimes$ is $+$.
 
