@@ -40,7 +40,7 @@
 
 ## Extra stuff, structure, properties
 
-* [[CW-complex]], [[Hausdorff space]], [[sober space]]
+* [[CW-complex]], [[Hausdorff space]], [[second-countable space]], [[sober space]]
 
 * [[compact space]], [[paracompact space]]
 
