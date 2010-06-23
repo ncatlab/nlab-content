@@ -14,13 +14,13 @@
 
 ## Idea
 
-In [[category theory]] a _cone_ over a [[commuting diagram]] is an [[object]] equipped with [[morphism]]s from it into each vertex of the diagram, such that all neew diagrams arising this way commute.
+In [[category theory]] a _cone_ over a [[commuting diagram]] is an [[object]] equipped with [[morphism]]s from it into each vertex of the diagram, such that all new diagrams arising this way commute.
 
 A cone which is [[universal property|universal]] is a [[limit]].
 
 The dual notion is _[[cocone]]_ .
 
-Thsi definition generalizes to [[higher category theory]]. In particular in [[(∞,1)-category theory]] a cone over an [[∞-groupoid]] is essentially a cone in the sense of [[homotopy theory]].
+This definition generalizes to [[higher category theory]]. In particular in [[(∞,1)-category theory]] a cone over an [[∞-groupoid]] is essentially a cone in the sense of [[homotopy theory]].
 
 
 ## Definition
@@ -71,4 +71,8 @@ It's called a cone because one pictures $c$ as sitting at the vertex, and the di
 A [[cocone]] in $C$ is precisely a cone in the [[opposite category]] $C^op$.
 
 
+### Over a diagram in an $(\infty,1)$-category
+
+For $F : D \to C$ a [[diagram]] of [[(∞,1)-categories]], i.e. an [[(∞,1)-functor]], the $(\infty,1)$-category of $(\infty,1)$-cones over $F$ is the [[over quasi-category]] denoted $C_{/F}$. Its objects are cones over $F$. Its [[k-morphism]]s are $k$-homotopies between cones. The [[limit in a quasi-category|(∞,1)-categorical limit]}] over $F$ is, if it exists, the [[initial object]] in $C_{/F}$.
+ 
 [[!redirects cones]]
