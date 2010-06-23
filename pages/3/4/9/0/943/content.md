@@ -3,9 +3,10 @@
 [[!include topology - contents]]
 </div>
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
+
 
 ## Idea
 
@@ -13,9 +14,10 @@ The term [[convenient category of topological spaces]] is used for a category of
 
 A primary example is the category of [[compactly generated space]]s.
 
-## Definition ## 
 
-While the authors of this article don't know whether there exists in the literature a widely accepted definition of "convenient category of topological spaces", we propose the following definition as reasonable and convenient (see also the discussion [below](http://ncatlab.org/nlab/show/convenient+category+of+topological+spaces#nice_versus_convenient_categories_of_spaces_6) on the distinction between "nice" and "convenient"): 
+## Definition
+
+While the authors of this article don't know whether there exists in the literature a widely accepted definition of "convenient category of topological spaces", we propose the following definition as reasonable and convenient (see also the discussion [below](#NvC) on the distinction between "nice" and "convenient"): 
 
 +-- {: .un_def}
 ######Definition
@@ -37,11 +39,14 @@ At times one might hope that $C$ is closed under open subspace inclusions as wel
 
 It may be well to note that colimits and limits in $C$ need not agree with the corresponding colimits and limits in $Top$, except under certain conditions. For example, because $C$ is a full subcategory of $Top$, the usual sorts of colimits used to present CW complexes are the same whether interpreted in $Top$ or in $C$. Also, if $C$ is closed under closed subspaces, an equalizer of a pair of maps between Hausdorff spaces in $C$ is the same whether computed in $Top$ or in $C$. On the other hand, products of $C$-objects in $Top$ need not land in $C$, so in that situation the product in $Top$ and the product in $C$ do not agree. 
 
-## Examples ## 
+
+## Examples
 
 To be written. 
 
-## "Nice" versus "convenient" categories of spaces ## 
+
+## "Nice" versus "convenient" categories of spaces
+{#NvC}
 
 A related entry is [[nice category of spaces]]. Here we explain the difference between "convenient" and "nice" categories of spaces. 
 
@@ -53,11 +58,12 @@ That a convenient category of topological spaces contains all the CW complexes w
 
 For example, the category of [[compact Hausdorff space]]s can be considered as being very nice for certain purposes, because it is monadic over $Set$ (!). It is, however, not "convenient", as it very far from being cartesian closed. Another example of a nice category of spaces, as explained by Johnstone (see the references below), is the category of [[sequential space]]s, but this too is not cartesian closed. In a different direction, there is the (complete, cocomplete) cartesian closed category of [[equilogical space]]s, but this is not a full subcategory of $Top$, and the core concerns of mathematicians working with equilogical spaces are somewhat different from those of algebraic topologists. 
 
-It should also be noted that "space" itself has a wider meaning than the technical notion of "topological space", even if topological intuitions come into play. For example, in domain theory, one often considers certain types of posets (for example, [[directed-complete partial order|dcpos]]) as certain types of "spaces". In this direction, we have that the category of dcpos and _Scott-continuous_ maps between them forms a complete, cocomplete, cartesian closed category. However, these types of spaces are quite far removed from the traditional concerns of geometry, hence are not "convenient" in the sense given above (despite the manifold relations between Scott continuity and the point-set topology which underlies the classical results on compactly generated spaces). In another direction, the category of locales is in some respects "nice", but these are not topological spaces either. 
+It should also be noted that "[[space]]" itself has a wider meaning than the technical notion of "[[topological space]]", even if topological intuitions come into play. For example, in domain theory, one often considers certain types of posets (for example, [[directed-complete partial order|dcpos]]) as certain types of "spaces". In this direction, we have that the category of dcpos and _Scott-continuous_ maps between them forms a complete, cocomplete, cartesian closed category. However, these types of spaces are quite far removed from the traditional concerns of geometry, hence are not "convenient" in the sense given above (despite the manifold relations between Scott continuity and the point-set topology which underlies the classical results on compactly generated spaces). In another direction, the category of [[locales]] is in some respects "nice", but these are not topological spaces either. 
 
 Along with the entry on [[nice category of spaces]], see also [[subsequential space]], [[Johnstone's topological topos]], and Spanier's [[quasitopological space]]s. None of these is convenient in the precise sense above. 
 
-## References 
+
+## References
 
 * [[Ronnie Brown]],  Function spaces and product topologies,  Quart. J. Math. (2) 15  (1964), 238--250.
 * [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
@@ -65,7 +71,8 @@ Along with the entry on [[nice category of spaces]], see also [[subsequential sp
 * Peter T. Johnstone, On a topological topos, Proc. London Math. Soc. (3) 38 (1979) 237&#8211;271.
 * Edwin Spanier, "Quasi-topologies", Duke Mathematical Journal 30 (1) (1963), 1&#8211;14.
 
-[[!redirects convenient category of spaces]]
 
+[[!redirects convenient category of topological spaces]]
 [[!redirects convenient categories of topological spaces]]
+[[!redirects convenient category of spaces]]
 [[!redirects convenient categories of spaces]]
