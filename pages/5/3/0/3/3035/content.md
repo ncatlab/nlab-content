@@ -3,6 +3,7 @@
 
 ## Background
 
+### Smooth structure
 
 * [[generalized smooth space]]
 
@@ -12,11 +13,25 @@
 
   * [[Frölicher space]]
 
+* [[smooth topos]]
+
+  * [[Cahiers topos]]
+
+### Higher groupoids
+
 * [[∞-groupoid]]
+
+  * [[groupoid]]
+
+  * [[2-groupoid]]
 
   * [[strict ∞-groupoid|strict ∞-groupoid]]
 
-  * [[crossed complex]]
+    * [[crossed complex]]
+
+  * [[simplicial group]]
+
+### Lie theory
 
 * [[Lie theory]]
 
@@ -29,7 +44,7 @@
 
 * [[∞-Lie groupoid]]
 
-  * [[schreiber:strict ∞-Lie groupoid|strict ∞-Lie groupoid]]
+  * [[∞-Lie groupoid|strict ∞-Lie groupoid]]
 
   * [[Lie group]]
 
