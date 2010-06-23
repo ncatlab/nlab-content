@@ -9,11 +9,14 @@
 
 ## Idea
 
-The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a __category enriched over $K$__ (also called a __category enriched in $K$__, or simply a __$K$-category__), say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a '[[hom-object]]' 
-$$ hom(x,y) \in K .$$
-We then mimic the usual definition of category.  In particular, composition is a morphism in $K$:
+Very often instead of merely having a _set_ of morphisms from one object to another, a category will have a _vector space_ of morphisms, or a _topological space_ or morphisms, or some other such thing.  This suggests that we should take the definition of ([[locally small category|locally small]]) category and generalize it by replacing the hom-sets by 'hom-objects', which are objects in a suitable category $K$.
+This gives the concept of 'enriched category'.
+
+The category $K$ must be [[monoidal category|monoidal]], so that we can define composition as a morphism
 $$ \circ : hom(y,z) \otimes hom(x,y) \to hom(x,z)  $$
-where $\otimes$ is the tensor product in $K$.
+So, a __category enriched over $K$__ (also called a __category enriched in $K$__, or simply a __$K$-category__), say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a '[[hom-object]]' 
+$$ hom(x,y) \in K .$$
+We then mimic the usual definition of category.  
 
 We may similarly define a _functor enriched over $K$_
 and a _natural transformation enriched over $K$_, obtaining a [[strict 2-category]] of $K$-enriched categories.  By general 2-category theory, we thereby obtain notions of _$K$-enriched adjunction_, _$K$-enriched equivalence_, and so on.
