@@ -1,6 +1,8 @@
 
 <div class="rightHandSide toc">
 [[!include functional analysis - contents]]
+***
+[[!include topology - contents]]
 </div>
 
 
