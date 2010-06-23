@@ -20,7 +20,7 @@
 
   * [[nice topological space]]
 
-  * [[nice category of topological spaces]]
+  * [[nice category of spaces]]
 
   * [[convenient category of topological spaces]]
 
