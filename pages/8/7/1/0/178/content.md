@@ -266,6 +266,89 @@ Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at 
   * [[Verity on descent for strict omega-groupoid valued presheaves]].   
 
 
+#### Circle $n$-Lie groupoids $\mathbf{B}^n U(1)$
+
+Write $U(1) = S^1 = \mathbb{R}/\mathbb{Z}$ for the [[abelian group|abelian]] [[Lie group]] called the [[circle group]] or 1-dimensional [[unitary group]].
+
+##### Delooping
+
+Write $\Xi : Ch_\bullet \to sAb \to sSet$ for the [[Dold-Kan correspondence]] functor and with convenient abuse of notation use the same symbold for its extension $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ to presheaves.
+
+Write 
+
+$$
+  U(1)[n] = [\cdots \to 0 \to U(1) \to 0 \to \cdtos \to 0]
+$$
+
+for the [[chain complex]] concentrated in degree $n$ on $U(1)$.
+
++-- {: .un_theorem }
+###### Theorem
+
+The presheaf $\Xi(U(1)[n]) \in [CartSp^{op}, sSet]_{proj,cov}$ is a fibrant
+model of the $n$-fold [[nLab:delooping]] of the group object $U(1)$ in $\infty LieGrpd$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The fibrant objects in question are those presheaves that are degreewise [[Kan complex]]es and that satisfy [[descent]] along [[good open cover]]s of [[Cartesian spaces]]. 
+
+For the first, notice that all objects in the image of the Dold-Kan map are Kan complexes. 
+
+For $n = 0$ the second condition says that the ordinary presheaf $Hom_{Diff}(-, U(1)) : CartSp^{op} \to Set \to sSet$ is in fact a [[sheaf]], which clearly it is. 
+
+For $n \geq 1$ the integral cohomology of a [[Cartesian space]] $\mathbb{R}^k$ vanishes and therefore every $U(1)$-cocycle in degree $n$ is trivializable. The automorphism of the trivial $n$-cocycle are precisely the $(n-1)$-cocycles. Continuing this way, one finds that the $n$-groupoid of $n$-cocycle is equivalent to the $n$-fold delooping of the group of 0-cocycle, which is $C^\infty(\mathbb{R}, U(1))$. This is the value of $\Xi(U(1)[n])$ on $\mathbb{R}^k$. Hence the [[descent]] condition is satisfied. 
+
+(Notice as before that here it is crucial that the [[site]] we use is [[CartSp]] and not all of [[Diff]].)
+
+Now consider the delooping statement by induction. We need to show that for $n \geq 1$ the [[loop space object]] $\Omega \Xi(U(1)[n]) \simeq \Xi(U(1)[n-1])$. Since [[∞-stackification]] preserves fniite limits, it is sufficient to compute the [[homotopy pullback]] of $* \to \Xi(U(1)[n]) \leftarrow * $ in $[CartSp^{op}, sSet]_{proj}$.
+
+There we take a fibrant replacement of the morphism $* \to \Xi(U(1)[n])$ to be 
+
+$$
+  \array{
+    \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+    \\
+    \downarrow
+    \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
+  }
+  \,.
+$$ 
+
+The underlying morphism of chain complexes is clearly surjective, hence a projective fibration, hence its image under $\Xi$ is a projective fibration. So the [[homotopy pullback]] in question is the ordinary [[pullback]]
+
+$$
+  \array{
+    Xi[0 \to C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+    &\to&
+    \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+    \\
+    \Xi [0 \to 0  \to 0 \to \cdots \to 0]
+    \downarrow && \downarrow
+    \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
+  }
+  \,,
+$$ 
+
+computed in $[CartSp^{op}, Ch_\bullet]$ and then using that 
+$\Xi$ is a right part of a [[Quillen adjunction]], hence [[right adjoint]] and hence preserves products.
+
+=--
+
++-- {: .un_def }
+###### Definition
+
+We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])$. This may be called the **circle Lie $n$-groupoid**.
+
+=--
+
+##### Differential coefficients
+
+...
+
+
 
 
 ### Cohomology {#Cohomology}
