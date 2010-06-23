@@ -193,6 +193,8 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A category enriched in [[Set]] is a [[locally small category]].
 
+* A category enriched in [[Vect]] is a [[linear category]].  Here Vect is the category of vector spaces over some fixed field $k$.  It is common to emphasize the dependence on $k$ and call a category enriched over Vect a **$k$-linear category**.
+
 * A category enriched in [[chain complex|chain complexes]] is a [[dg-category]].
 
 * A category enriched in [[simplicial set|simplicial sets]] is a [[simplicially enriched category|simplicial category]], and are one model for $(\infty,1)$-[[(infinity,1)-category|categories]].
