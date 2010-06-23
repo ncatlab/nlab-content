@@ -191,6 +191,20 @@ show that these two conditions in turn are equivalent.
 =--
 
 
+### In terms of products and equalizers
+
+A central theorem in ordinary [[category theory]] asserts that a [[category]] has [[limit]]s already if it has [[product]]s and [[equalizer]]s. The analog statement is true here:
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\kappa$ be a [[regular cardinal]]. An [[(∞,1)-category]] $C$ has all $\kappa$-small limits precisely if it has [[equalizer]]s and $\kappa$-small [[product]]s.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 4.4.3.2]].
+
+
 ### In terms of homotopy limits 
 
 The notion of [[homotopy limit]], which exists for [[model categories]] and in particular for [[simplicial model categories]] and in fact in all plain [[Kan complex]]-[[enriched categories]] -- as described in more detail at [[homotopy Kan extension]] -- is supposed to be a model for $(\infty,1)$-categorical limits. In particular, under sending the Kan-complex enriched categories $C$ to quasi-categories $N(C)$ using the [[homotopy coherent nerve]} functor, homotopy limits should precisely corespond to quasi-categorical limits. That this is indeed the case is asserted by the following statements.
