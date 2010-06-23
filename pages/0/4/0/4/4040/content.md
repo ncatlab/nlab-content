@@ -49,19 +49,17 @@
 
 ## Examples
 
-* [[point]]
+* [[point]], [[sphere]]
 
-* [[sphere]]
+* [[topological vector space]], [[Banach space]], [[Hilbert space]]
 
 * [[manifold]]
 
-  * [[real line]]
+  * [[real line]], [[long line]]
 
-  * [[long line]]
+* [[loop space]], [[path space]]
 
-* [[Cantor space]]
-
-* [[Sierpinski space]]
+* [[Cantor space]], [[Sierpinski space]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/topology+-+contents)</div>
