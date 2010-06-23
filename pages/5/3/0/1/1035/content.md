@@ -1,4 +1,15 @@
-#Definition#
+
+<div class="rightHandSide toc">
+[[!include enriched category theory contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Definition
 
 An **additive category** is
 
@@ -7,7 +18,7 @@ An **additive category** is
 
 * which admits finite [[products]] (and hence finite [[coproducts]]).
 
-# Remarks 
+## Remarks 
 
 * In any Ab-enriched category, any finite product is also a coproduct, and dually.  This includes the zero-ary case: any [[terminal object]] is also an [[initial object], hence a [[zero object]] (and dually).  Such products are sometimes called [[biproducts]] and sometimes [[direct sums]]; they are [[absolute limit|absolute limits]] for Ab-enrichment.  (This does not extend to infinite products and coproducts.)  In fact, an Ab-enriched category is [[Cauchy complete category|Cauchy complete]] just when it is additive and moreover its [[idempotents]] split.
 
