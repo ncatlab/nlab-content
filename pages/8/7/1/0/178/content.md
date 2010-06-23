@@ -457,6 +457,160 @@ of this is a [[homotopy pullback]] and since fibrantions are stable under pullba
 
 =--
 
+#### Lie groups {#LieGroups}
+
+Let $G$ be a [[Lie group]], regarded as an object of 
+$\mathbf{H} := \infty LieGrpd$. 
+
+##### Delooping
+
++-- {: .un_prop }
+###### Proposition
+
+A fibrant representative of the [[delooping]] object $\mathbf{B}G$
+in $[CartSp^{op}, sSet]_{proj}$ is given by the [[nerve]] of the
+one-objec [[Lie groupoid]]
+
+$$
+  N(G \stackrel{\to}{\to} *)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The presheaf is clearly objectwise a [[Kan complex]], being objectwise
+the nerve of a groupoid. It satisfies [[descent]] along [[good open cover]]s
+$\{U_i \to \mathbb{R}^n\}$ of [[Cartesian space]]s, because the descent $\infty$-groupoid $sPSh(C(\{U_i\}), \mathbf{B}G)$ is $G Bund(\mathbb{R}^n) \simeq G TrivBund(\mathbb{R}^n)$. 
+
+To show that $\mathbf{B}G$ is indeed the [[delooping]] object of $G$
+it is sufficient, due to the fact that fact that [[∞-stackification]] preserves finite limits to exhibit a [[homotopy pullback]] 
+$G \simeq * \times_{\mathbf{B}G} *$ in $[CartSp^{op}, sSet]_{proj}$.
+
+This is accomplished by the ordinary [[pullback]] of the 
+fibrant replacement diagram 
+
+$$
+  \array{
+    G &\to& N(G\times G \stackrel{\overset{p_1 \cdot p_2}{\to}}{\underset{p_1}{\to}} G)
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& N(G \stackrel{\to}{\to} *)
+  }
+  \,.
+$$
+
+See also the discussion at [[generalized universal bundle]].
+
+=--
+
+
+
+##### Differential coefficients
+
+We give a concrete representative for the $\infty$-groupoid $\mathbf{\flat} \mathbf{B}G = LConst \Gamma \mathbf{B}G$ in terms of [[Lie algebra]]-valued [[differential form]]s.
+
+
+Let $\Xi : CrsdCplx \to sSet$ now denote the inclusion of [[crossed complex]]es into all [[∞-groupoid]]s. 
+
++-- {: .un_prop }
+###### Proposition
+
+The object $\infty$-Lie groupoid $\mathbf{\flat}\mathbf{B}G \in \infty LieGrpd$ has a fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ given by
+
+$$
+  \mathbf{\flat}\mathbf{B}G 
+  =
+  \Xi[G\times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{
+   \overset{Ad_{p_1}(p_2)+ p_1 d p_1^{-1}}{\to}}{\underset{p_2}{\to}} \Omega^1_{flat}(-,\mathfrak{g})]
+  \,,
+$$
+
+where $\mathfrak{g}$ is the [[nLab:Lie algebra]] of $G$. 
+
+This is the [[groupoid of Lie-algebra valued forms]] restricted to flat forms.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the above discussion we have that the object in question is
+
+$$
+  \mathbb{L}Lconst \circ \mathbb{R}\Gamma \mathbf{B}G
+  \,,
+$$
+
+the image of $\mathbf{B}G$ under the right [[derived functor]] of 
+[[global section]]s and the left derived functor of 
+[[constant ∞-stack]]s. But since $\mathbf{B}G$ is fibrant 
+in $[CartSp^{op}, sSet_{Quillen}]_{proj,cov}$ and every object
+in $sSet_{Quillen}$ is cofibrant, this is simply
+
+$$
+  \cdots = Lconst \circ \Gamma \mathbf{B}G
+  =
+  N( const G \stackrel{\to}{\to} *)
+  \,.
+$$
+
+So first we have to show that this is equivalent to the [[nLab:groupoid of Lie-algebra valued forms|Lie groupoid of flat Lie-algebra valued 1-forms]].
+There is an evident morphism
+
+$$
+  N( const G \stackrel{\to}{\to} *) 
+  \to
+  N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{\to}{\to} 
+  \Omega^1_{flat}(-,\mathfrak{g}))
+$$
+
+that sends the single object to the trivial 1-form. We claim that this is objectwise an equivalence of groupoids: it is [[essentially surjective functor|essentially surjective]] since every flat $\mathfrak{g}$-valued 1-form on the [[contractible]] $\mathbb{R}^n$ is of the form $g d g^{-1}$ for some function $g : \mathbb{R}^n \to G$ (let $g(x) = P \exp(\int_{0}^x) A$ be the [[parallel transport]] of $A$ along any path from the origin to $x$). Since the gauge automorphism of the trivial $\mathfrak{g}$-valued 1-form are precisely given by the constant $G$-valued functions, this is also objectwise a [[full and faithful functor]]. 
+
+Finally we need to show that $N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{\to}{\to} \Omega^1_{flat}(-,\mathfrak{g}))$ is fibrant in $[CartSp^{op}, sSet]_{proj,cov}$. This can be seen by observing that this sheaf is the coefficient object that in [[Cech cohomology]] computes $G$-[[principal bundle]]s with flat [[connection on a bundle|connection]] and then reasoning as above: every $G$-principal bundle with flat connection is equivalent to a trivial $G$-principal bundle whose connection is given by a globally defined $\mathfrak{g}$-valued 1-form. Morphisms between these are precisely $G$-valued functions that act on the 1-forms by gauge transf&#244;rmations as in the [[groupoid of Lie-algebra valued forms]].
+
+=--
+
+A detailed discussion of how this arises concretely from the formula
+$[\mathbf{\Pi}_1(-), \mathbf{B}G]$ for the [[nLab:right adjoint]] of $\mathbf{\Pi} = LConst \circ \Pi$ and how it is the coefficient object for smooth flat $G$-principal bundles is in [SchrWalI](http://arxiv.org/abs/0705.0452).
+
+
+
+#### Strict Lie 2-groups {#StrictLie2Groups}
+
+Let now $G = \Xi[G_2 \to G_1]$ be a strict [[Lie 2-group]] coming from a smooth  [[crossed module]] $G_2 \to G_1 \to Aut(G_2)$.
+
+##### Delooping
+
++-- {: .un_prop }
+###### Proposition
+
+A fibrant representative of $\mathbf{B}G$ in $[CartSp^{op}, sSet]_{proj,cov}$ is given by the [[crossed complex]]
+
+$$
+  \Xi[G_2 \to G_1 \stackrel{\to}{\to} *]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As above.
+
+=--
+
+
+##### Differential coefficients
+
+...
+
+The analogous discussion for $G$ a Lie [[nLab:2-group]] and flat $G$-[[nLab:principal 2-bundle]]s is in [SchrWalII](http://arxiv.org/abs/0802.0663).
+
 
 ### Cohomology {#Cohomology}
 
@@ -779,11 +933,113 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 
 =--
 
+#### Smooth nonabelian cohomology in low degree
+
++-- {: .un_prop}
+###### Proposition
+
+Let $G$ be a [[Lie group]] and $\mathbf{B}G \in \mathbf{H} := \infty LieGrpd$ its [[delooping]] as discussed above. Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]]. Then
+
+$$
+  \mathbf{H}(X,\mathbf{B}G)
+  \simeq
+  G Bund(X)
+  \,.
+$$
+
+is equivalent to the groupoid of smooth $G$-[[principal bundle]]s on $X$. In particular
+
+$$
+  H^1(X,G) \simeq \pi_0 \mathbf{H}(X,\mathbf{B}G)
+$$
+
+is the [[nonabelian cohomology]] of $X$ with coefficients in $G$. 
+
+If $K$ is any other group with a smooth [[action]] on $X$ and $X//K$ the corresponding Lie [[action groupoid]], then 
+
+$$
+  \mathbf{H}(X//K, \mathbf{B}G) \simeq G Bund^K(X)
+$$
+
+is the groupoid of $K$-[[equivariant bundle|equivariant]] $G$-[[principal bundle]]s. In particular
+
+Analogously for $G$ a strict [[Lie 2-group]] we have that
+
+$$
+  \mathbf{H}(X, \mathbf{B}G) \simeq G Bund(X)
+$$
+
+is the [[2-groupoid]] of $G$-[[principal 2-bundle]]s.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Use that, as discussed above, a cofibrant representative for $X$
+in $[CartSp^{op}, sSet]_{proj,cov}$ is given by the [[Cech nerve]]
+$C(\{U_i\})$ of a [[good open cover]] $\{U_i \to X\}$.
+With that the above statement reduce to statements in 
+[[Cech cohomology]] that hold, with the above results on 
+the fibrant representative for $\mathbf{B}G$, effectively by defin&#238;tion.
+
+=--
+
+
+#### Flat Deligne cohomology
+
+Recall the expression for the fibrant representat&#238;ve of
+$\mathbf{\flat}\mathbf{B}^n U(1)$ from above.
+
++-- {: .un_corollary}
+###### Corollary
+
+For $X$ a [[paracompact space|paracompact]] [[smooth manifold]],
+we have that
+
+$$
+  H(X, \mathbf{\flat} \mathbf{B}^n U(1))
+  \simeq
+  \hat H^n_{flat}(X,U(1))
+$$
+
+is the flat [[Deligne cohomology]] of $X$ in degree $n$.
+
+=--
+
+#### Flat nonabelian cohomology
+
+For $G$ a Lie $n$-group, 
+recall the expression for the fibrant representat&#238;ve of
+$\mathbf{\flat}\mathbf{B}^n G$ from above.
+
++-- {: .un_corollary}
+###### Corollary
+
+For $X$ a [[paracompact space|paracompact]] [[smooth manifold]],
+we have that
+
+$$
+  H(X, \mathbf{\flat} \mathbf{B} G )
+  \simeq
+  \hat H^1_{flat}(X,G)
+  \simeq
+  \pi_0 G Bund_{flat}(X)
+$$
+
+is the flat [[nonabelian cohomology]] of $X$ with coefficients in $G$.
+
+=--
+
+
+
+
 ## The $(\infty,1)$-topos on $ThCartSp$ of $\infty$-Lie algebroids {#InfSheavesOnCartSp}
 
 If we pass from the [[site]] [[CartSp]] to the site [[ThCartSp]] of [[infinitesimal object|infinitesimally thickened]] [[Cartesian space]]s, then the objects in the corresponding $(\infty,1)$-topos are $\infty$-Lie groupoids whose spaces of $k$-morphisms may have [[nLab:infinitesimal object|infinitesimal extension]]. This then also inclused [[∞-Lie algebroid]]s.
 
-The $(\infty,1)$-topos $Sh_{(\inmfty,1)}(ThCartSp)$ is the $(\infty,1)$-categorical analog of the [[Cahiers topos]].
+The $(\infty,1)$-topos $Sh_{(\inmfty,1)}(ThCartSp)$ is the $(\infty,1)$-[[Cahiers topos]].
 
 ...
 
