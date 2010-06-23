@@ -1,3 +1,10 @@
+
+<div class="rightHandSide toc">
+[[!include enriched category theory contents]]
+</div>
+
+
+
 # $Ab$-enriched categories
 * tic
 {: toc}
