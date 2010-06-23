@@ -203,9 +203,9 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|strict omega-categories]].
 
-* A [[ringoid]] is a category enriched over [[Ab]].
+* A [[ringoid]]/[[pre-additive category]] is a category enriched over [[Ab]].
 
-* An [[algebroid]] is a category enriched over [[Vect]].
+* An [[algebroid]]/[[linear category]] is a category enriched over [[Vect]].
 
 (In all these cases the standard monoidal structure on the monoidal categories is understood.)
 
