@@ -30,3 +30,4 @@ _and this needs to be finished.  I don't have the head for this right now._
 [[!redirects Gelfand–Naimark–Segal construction]]
 [[!redirects Gelfand--Naimark--Segal construction]]
 [[!redirects GNS construction]]
+[[!redirects GNS-construction]]
