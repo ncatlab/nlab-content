@@ -129,6 +129,13 @@ To go from $SSet$-cat to $dg^+$-cat you need a bar /  cobar construction it seem
 =--
 
 
-[[!redirects differential graded category]]
+[[!redirects dg-category]]
 [[!redirects dg-categories]]
+[[!redirects dg category]]
+[[!redirects dg categories]]
+[[!redirects DG-category]]
+[[!redirects DG-categories]]
+[[!redirects DG category]]
+[[!redirects DG categories]]
+[[!redirects differential graded category]]
 [[!redirects differential graded categories]]
