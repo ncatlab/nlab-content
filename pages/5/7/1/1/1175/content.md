@@ -9,17 +9,17 @@
 
 ## Definition
 
-A **von Neumann algebra** is a unital $*$-subalgebra of the algebra of [[bounded operator]]s on a complex [[Hilbert space]], which is closed in [[weak operator topology]]. 
+A **von Neumann algebra** is a unital [[*-algebra|*-subalgebra]] of the algebra of [[bounded operator]]s on a complex [[Hilbert space]], which is closed in [[weak operator topology]]. 
 
 Clearly, they are automatically closed in norm topology, hence they form a (particularly nice) class of $C^*$-[[C*-algebra|algebras]]. 
 
 ## Relevance
 
-The [[Gelfand-Naimark theorem|Gel'fand–Naimark theorem]] states that there is a contravariant [[equivalence of categories|equivalence]] between the category of commutative von Neumann algebras and the category of localizable [[measurable space|measurable spaces]]; that is, the [[opposite category]] of one is equivalent to the other. General von Neumann algebras are seen then as a 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].
+The [[Gelfand-Naimark theorem|Gel'fand–Naimark theorem]] states that there is a contravariant [[equivalence of categories|equivalence]] between the [[category]] of commutative von Neumann algebras and the category of localizable [[measurable space|measurable spaces]]; that is, the [[opposite category]] of one is equivalent to the other. General von Neumann algebras are seen then as a 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].
 
-The importance of von Neumann algebras for ([[higher category theory|higher]]) [[category theory]] and topology lays in the evidence that von Neumann algebras are deeply connected with the low dimensional [[quantum field theory]] (2d CFT, TQFT in low dimensions, inclusions of factors, quantum groups and knot theory; elliptic [[cohomology]]: works of Wenzl, Vaughan Jones, Anthony Wasserman, Kerler, Kawahigashi, Ocneanu, Szlachanyi etc.). 
+The importance of von Neumann algebras for ([[higher category theory|higher]]) [[category theory]] and topology lays in the evidence that von Neumann algebras are deeply connected with the low dimensional [[quantum field theory]] (2d [[CFT]], [[TQFT]] in low dimensions, inclusions of [[von Neumann algebra factor|factor]]s, [[quantum group]]s and [[knot theory]]; [[elliptic cohomology]]: works of Wenzl, Vaughan Jones, Anthony Wasserman, Kerler, Kawahigashi, Ocneanu, Szlachanyi etc.). 
 
-The highlights of their structure theory include the results on classification of factors (A. Connes, 1970s) and theory of inclusions of subfactors (V. Jones). (Hilbert) bimodules over von Neumann algebras have a remarkable tensor product due Connes ([[Connes fusion]]). Following Segal's manifesto
+The highlights of their structure theory include the results on classification of [[von Neumann algebra factor|factors]] ([[Alain Connes]], 1970s) and theory of inclusions of subfactors (V. Jones). (Hilbert) [[bimodule]]s over von Neumann algebras have a remarkable tensor product due Connes ([[Connes fusion]]). Following Segal's manifesto
 
 * Graeme Segal, _Elliptic cohomology (after Landweber-Stong, Ochanine, Witten, and others)_. S&#233;minaire Bourbaki, Vol. 1987/88.  Ast&#233;risque  No. 161-162  (1988), Exp. No. 695, 4, 187--201 (1989).
 
@@ -27,27 +27,45 @@ and its update
 
 * G. Segal, _What is an elliptic object?_  Elliptic cohomology,  306--317, London Math. Soc. Lecture Note Ser., 342, Cambridge Univ. Press, Cambridge, 2007. 
 
-on hypothetical connections between CFT and elliptic cohomology, Stolz and Teichner have made a case for a role von Neumann algebras seem to play in a partial realization of that program:
+on hypothetical connections between [[CFT]] and [[elliptic cohomology]], Stolz and Teichner have made a case for a role von Neumann algebras seem to play in a partial realization of that program:
 
-* S. Stolz and P. Teichner, _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
+* [[Stefan Stolz]] and [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
 
 See also the [Wikipedia entry](http://en.wikipedia.org/wiki/Von_Neumann_algebra) entry for more on von Neumann algebras and a list of references and links.
 
 ## Topics of interest for the understanding of AQFT
 
-This paragraph will collect some facts of interest for the aspects of [[AQFT]] in the nLab.
+This paragraph will collect some facts of interest for the aspects of [[AQFT]].
 
-In this paragraph $\mathcal{M}$ will always be a von Neumann algebra acting on a Hilbert space $\mathcal{H}$ with commutant $\mathcal{M}'$.
+In this paragraph $\mathcal{M}$ will always be a von Neumann algebra acting on a [[Hilbert space]] $\mathcal{H}$ with [[commutant]] $\mathcal{M}'$.
 
 ### Vectors
 
-* Definition: A vector $x \in \mathcal{H}$ is **cyclic** if $\mathcal{M}x$ is dense in $\mathcal{H}$.
++-- {: .un_defn}
+###### Definition
 
-* Definition: A vector $x \in \mathcal{H}$ is **separating** if $M(x) = 0$ implies $M = 0$ for all $M \in \mathcal{M}$.
+A [[vector]] $x \in \mathcal{H}$ is a **[[cyclic vector]]** if $\mathcal{M}x$ is dense in $\mathcal{H}$.
 
-* Theorem: The notions of cyclic and separating are dual with respect to the commutant, that is a vector is cyclic for $\mathcal{M}$ iff it is separating for $\mathcal{M}'$.
+=--
+
++-- {: .un_defn}
+###### Definition
+
+A [[vector]] $x \in \mathcal{H}$ is a **[[separating vector]]** if $M(x) = 0$ implies $M = 0$ for all $M \in \mathcal{M}$.
+
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+
+The notions of cyclic and separating are dual with respect to the commutant, that is a vector is cyclic for $\mathcal{M}$ iff it is separating for $\mathcal{M}'$.
+
+=--
+
 
 ### Projections in von Neumann algebras
+
 One crucial feature of von Neumann algebras is that they contain 
 "every projection one could wish for": there are three points that make this statement precise:
 
