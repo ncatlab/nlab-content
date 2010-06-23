@@ -45,7 +45,7 @@ From the definitions, [[Hurewicz fibration]]s are necessarily [[Serre fibration]
 
 In general given two model structures with these inclusions, we get a third **mixed model structure** $(C_m, F_2, W_1)$ where the cofibrations $C_m$ are determined by the other two classes.
 
-On topological spaces, this model structure has weak homotopy equivalences for weak equivalences and Hurewicz fibrations for fibrations.  The cofibrant spaces (the [[m-cofibrant space]]s) are precisely those spaces that are weakly homotopy equivalent to [[CW complex]]es.
+On topological spaces, this model structure has weak homotopy equivalences for weak equivalences and Hurewicz fibrations for fibrations.  The cofibrant spaces (the [[m-cofibrant space]]s) are precisely those spaces that are homotopy equivalent to [[CW complex]]es.
 
 ## References 
 
