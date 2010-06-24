@@ -1,0 +1,1 @@
+The commutator of elements a and b of a group G is the element (a-inverse)(b-inverse)(a)(b). A common notation for the commutator of a and b is [a,b]. 
