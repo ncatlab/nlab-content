@@ -1,1 +1,29 @@
-The commutator of elements a and b of a group G is the element (a-inverse)(b-inverse)(a)(b). A common notation for the commutator of a and b is [a,b]. 
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+### In rings and algebras
+
+For $A$ a [[ring]] or [[associative algebra]], the **commutator** of two elements $x,y \in A$ is the element
+
+$$
+  [x,y] := x y - y x
+  \,.
+$$
+
+### In groups
+
+For $G$ a [[group]], the **group commutator** of two elements $a,b \in G$ is the element
+
+$$
+  [a,b] := a^{-1} b^{-1} a b
+  \,.
+$$
+
+## Properties
+
+* For $A$ an [[associative algebra]], the underlying [[vector space]] of $A$ equipped with the commutator bracket is a [[Lie algebra]] $(A,[-,-])$.
