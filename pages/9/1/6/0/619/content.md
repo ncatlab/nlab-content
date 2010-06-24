@@ -41,21 +41,17 @@ If the reflector $T$ is [[faithful functor|faithful]], the reflection is called 
 
 Given any adjoint pair $Q^*\dashv Q_*$ of functors  $Q^*:A\leftrightarrow B:Q_*$, the following are equivalent (Gabriel--Zisman):
 
-* The right adjoint $Q_*$ is [[full and faithful functor|fully faithful]].
+1. The right adjoint $Q_*$ is [[full and faithful functor|fully faithful]]. (In this case $B$ is equivalent to its essential image in $A$ under $Q_*$, a reflective full subcategory of $A$.) 
 
-* The counit $\epsilon : Q_* Q^*\to 1_A$ of the adjunction is a [[natural isomorphism]] of functors.
+2. The counit $\varepsilon : Q_* Q^*\to 1_A$ of the adjunction is a [[natural isomorphism]] of functors.
 
-* The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated to the adjunction is [[idempotent monad|idempotent]].
+3. The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated to the adjunction is [[idempotent monad|idempotent]].
 
-* Let $S$ be the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$; and $P_S:A\to A[S^{-1}]$ canonical [[localization]] functor; then the unique functor $H : A[S^{-1}]\to B$ such that $Q^* = H\circ P_S$ (given by the universal property of localization) is an equivalence of categories.
+4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$, then $Q^*: A \to B$ realizes $B$ as the [[localization]] of $A$ with respect to the class $S$. 
 
-+--{.query}
-Zoran: Gabriel--Zisman neglect the set theoretical issues on the EXISTENCE of localizations. Is the last conditions really equivalent or we need to make some set-theoretical assumptions ?
+This is a well-known set of equivalences concerning idempotent monads. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of algebras for the monad $i r$ on $A$, where $r: A \to B$ is the reflector. 
 
-[[Urs Schreiber]]: the point here is that the localization is not at any arbitrary set of morphisms, but at precisely the class that the left adjoint sends to equivalences. This is a very special class with very nice properties and is what makes the localization come out nicely. More details on this happen to be at [[reflective sub-(infinity,1)-category]].
-
-=--
-
+See also the related discussion at [[reflective sub-(infinity,1)-category]].
 
 ## Special cases
 
@@ -85,7 +81,7 @@ In the last case, note that if the unit is an *iso*morphism, then the inclusion 
 
 ## Properties
 
-A reflective subcategory is always closed under [[limit|limits]], and inherits [[colimit|colimits]] from the larger category by application of the reflector.
+A reflective subcategory is always closed under [[limit|limits]] (because the full inclusion is monadic, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector.
 
 
 ### Reflective subcategories of cartesian closed categories
