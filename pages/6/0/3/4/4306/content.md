@@ -3,3 +3,5 @@ A [[linear category]] is a category [[enriched category|enriched]] over [[Vect]]
 $$ F: hom(x,y) \to hom(F(x), F(y)) $$
 
 is linear for all $x,y \in C$.
+
+Note that a linear functor between linear [[additive categories]] is automatically [[additive functor|additive]].
