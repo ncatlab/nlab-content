@@ -1,0 +1,1 @@
+We say two finite groups have the same order profile if, for each integer m, they have the same number of elements of order m. 
