@@ -1,4 +1,4 @@
-The orthogonal subcategory problem for a class of morphisms $\Sigma$ in a category $C$ asks whether the full subcategory $\Sigma^\perp$ of objects [[orthogonal object|orthogonal]] to $\Sigma$ is a [[reflective subcategory]]. 
+The orthogonal subcategory problem for a class of morphisms $\Sigma$ in a category $C$ asks whether the full subcategory $\Sigma^\perp$ of objects [[orthogonality|orthogonal]] to $\Sigma$ is a [[reflective subcategory]]. 
 
 This problem is related to the problem of localization. Suppose $\Sigma^\perp$ is indeed a reflective subcategory; let $r: C \to \Sigma^\perp$ be the reflector (the left adjoint to the inclusion $i: \Sigma^\perp \to C$). 
 
