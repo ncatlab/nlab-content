@@ -63,7 +63,7 @@ $$   V^{\otimes p} \otimes V^{\otimes q} \to V^{\otimes (p+q)} $$
 
 This monoid object is called the [[tensor algebra]] of $V$.
 
-The [[symmetric group]] $S_n$ acts on $V^{\otimes n}$, and if $C$ is a [[linear category]] over a field of characteristic zero we can form the antisymmetrization map 
+The [[symmetric group]] $S_n$ acts on $V^{\otimes n}$, and if $C$ is a [[linear category]] over a [[field]] of [[characteristic]] zero, then we can form the antisymmetrization map 
 
 $$  p_A : V^{\otimes n} \to V^{\otimes n} $$
 
@@ -76,6 +76,8 @@ This is an [[idempotent]], so if idempotents split in $C$ we can form its [[coke
 $$  \Lambda V = \bigoplus_{n \ge 0} \Lambda^n V $$
 
 becomes a monoid object called the **exterior algebra** of $V$.
+
+If $C$ is a linear category over a field of positive characteristic (or more generally, over a [[commutative ring]] in which not every positive integer is invertible, that is which is not itself an [[associative algebra|algebra]] over the [[rational numbers]]), then we need a different construction of $\Lambda^n V$; we define ...
 
 
 ## Examples
@@ -111,7 +113,7 @@ On a [[manifold]] (or [[generalized smooth space]]) $X$, let $T^*X $ be the [[co
 
 ### Semi-free dg-algebras
 
-A [[semifree dga|semi-free dg-algebra]] is a [[dg-algebra]] whose underlying graded commutative algebra is free, i.e. is an exterior algebra. Examples include in particular [[Chevalley-Eilenberg algebra]]s of [[Lie algebra]]s, of [[L-∞ algebra]]s and [[Lie-∞ algebroid]]s. 
+A [[semifree dga|semi-free dg-algebra]] is a [[dg-algebra]] whose underlying graded commutative algebra is free, i.e. is an exterior algebra. Examples include in particular [[Chevalley-Eilenberg algebra]]s of [[Lie algebra]]s, of $L_\infty$-[[L-∞ algebra|algebras]] and [[Lie ∞-algebroids]]. 
 
 
 #### Differential forms / deRham complex
