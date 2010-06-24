@@ -34,9 +34,9 @@ More representative examples of Schur functors include:
 
 * For each $k \geq 0$, the $k^{th}$ [[tensor power]] $V \mapsto V^{\otimes k}$ is a Schur functor. 
 
-* For each $k \geq 0$, the $k^{th}$ [[symmetric power]] $V \mapsto Sym^k(V)$ is a Schur functor. 
+* For each $k \geq 0$, the $k^{th}$ [[symmetric power]] $V \mapsto S^k(V)$ is a Schur functor. 
 
-* For each $k \geq 0$, the $k^{th}$ [[alternating power]] $V \mapsto Alt^k(V)$ is a Schur functor. 
+* For each $k \geq 0$, the $k^{th}$ [[alternating power]] $V \mapsto \Lambda^k(V)$ is a Schur functor. 
 
 Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object|irreducible objects]], decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
