@@ -1,5 +1,4 @@
 
-> under construction
 
 #Contents#
 * automatic table of contents goes here
@@ -7,14 +6,23 @@
 
 ## Idea
 
-In the [[path integral]] [[quantization]] of [[quantum field theory]], the partial [[path integral]] of an [[action functional]] over just the [[fermionic field]]s yields in general not a function on the remaining space of bosonic fields, but a section of a [[line bundle]] on this bosonic configuration space. This is the _Pfaffian line bundle_
-of the family of [[Dirac operator]]s that enters the kinetic term of the [[fermionic field]]s in the [[action functional]]. It is a natural square root of the [[determinant line bundle]] of that [[Dirac operator]].
+A $B$-parameterized family of [[Dirac operator]]s on $d$-dimensional space gives rise to their [[determinant line bundle]] on $B$. If $d = 8k+2$ for $k \in \mathbb{N}$ this has a canonical square root line bundle, the **Pfaffian line bundle**.
 
-If this line bundle is non-trivial, one says its class is the fermionic [[quantum anomaly]] of the would-be QFT.
+## As quantum anomaly 
+
+In the [[path integral]] [[quantization]] of [[quantum field theory]], the partial [[path integral]] of an [[action functional]] over just the [[fermionic field]]s yields in general not a function on the remaining space of bosonic fields, but a section of a [[line bundle]] on this bosonic configuration space, the [[determinant line bundle]] of the family of [[Dirac operator]]s. The [[Lorentzian metric]] assumed in relativistic quantum field theory leads in the Wick-rotated theory to the passage to the square root of this line bundle.
+
+Therefore the nontriviality of the Pfaffian line bundle is in these dimensions the fermionic [[quantum anomaly]].
+
 
 ## References
 
-The worldsheet [[Green-Schwarz mechanism]] which trivializes the worldsheet Pfaffian line bundle, and its relation to [[string structure]]s that goes bak to Killingback and [[Edward Witten]] has been formalized in
+The general notion of Pfaffian line bundle is described in section 3 of
+
+* [[Dan Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
+
+
+The [[nLab:string theory|string]] worldsheet [[Green-Schwarz mechanism]] which trivializes the worldsheet Pfaffian line bundle, and its relation to [[string structure]]s that goes bak to Killingback and [[Edward Witten]] has been formalized in
 
 * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
 
