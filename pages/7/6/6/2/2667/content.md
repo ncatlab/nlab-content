@@ -11,10 +11,10 @@ $$F: FinVect_{\mathbb{C}} \to FinVect_{\mathbb{C}}$$
 
 on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor of this sort that is algebraic on homsets: the homsets are vector spaces, and we demand that for any pair of objects $V, W \in FinVect_{\mathbb{C}}$ the functor
 
-$$ F: hom(V,W) \to hom(F V , F W) $$
+$$ F: hom(V,W) \to hom(F(V) , F(W)) $$
 
 is a polynomial function from the vector space 
-$hom(V,W)$ to the vector space $hom(F V , F W)$
+$hom(V,W)$ to the vector space $hom(F(V), F(W))$
 
 In more modern treatments, a Schur functor is a functor defined (in a [[polymorphism|polymorphic]] way) on [[module|modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
 
@@ -24,11 +24,11 @@ It turns out that much of the theory of Schur functors can be generalized even f
 
 # Examples #
 
-The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on [[hom-set]]s 
+The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on [[hom-set|hom-sets]] 
 
 $$hom(V, W) \to hom(F(V), F(W))$$ 
 
-is not assumed to respect linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums, it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinVect_{\mathbb{C}}$. 
+is not assumed to respect the linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums (that is, [[biproduct|biproducts]], it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinVect_{\mathbb{C}}$. 
 
 More representative examples of Schur functors include: 
 
@@ -47,7 +47,9 @@ We need to lead up to a proof that the above conceptual definition of Schur func
 =--
 # Schur functors associated with Young diagrams #
 
-Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $Vect_{\mathbb{C}}$. Indeed, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] whose hom-objects are $\mathbb{Q}$-vector spaces. 
+Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   They also make sense on categories of group representations, chain complexes, group representations, coherent sheaves of vector spaces, and so on.  
+
+To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] enriched over $FinVect_k$, where $k$ is any field of characteristic zero.
 
 +--{.query}
 [[Todd Trimble]]: 
@@ -68,32 +70,42 @@ There is a version of the original Schur functors over $\mathbb{Z}$, given by te
 
 =-- 
 
-Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum of matrix algebras 
+Recall that the [[group algebra]] $k[S_n]$ decomposes as a direct sum of matrix algebras 
 
 $$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
 
-where $\lambda$ is indexed over Young diagrams and $V_\lambda$ is the corresponding irreducible representation, or, just at the level of $S_n$-representations, 
+where $\lambda$ ranges over all $n$-box Young diagrams,
+or in other words, isomorphism classes of irreducible representations of $S_n$, and for each Young diagram $V_\lambda$ is the corresponding irreducible representation.
+At the level of $S_n$-representations, we have
 
-$$\bigoplus_{\lambda'} V_{\lambda'}$$ 
+$$k[S_n] \cong \bigoplus_{\nu} V_{\nu}$$ 
 
-where this time $\lambda'$ ranges over $n$-box [[Young tableau]]x, and $V_\lambda'$ represents the irreducible subrepresentation attached to $\lambda$.  
+where this time $\nu$ ranges over $n$-box [[Young tableau]]x, and $V_\nu$ represents the irreducible subrepresentation of $k[S_n]$ attached to $\nu$.  
 
-This group algebra lives as a [[monoid]] in the symmetric monoidal category of finite-dimensional rational spaces $FinVect_{\mathbb{Q}}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
+This group algebra lives as a [[monoid]] in the symmetric monoidal category $FinVect_k$. We would like it to also live in $C$.  
 
-$$Sk \to C: \mathbb{Q}^n \mapsto I^n$$ 
+To achieve, this let $Sk$ be the skeleton of $FinVect_k$ consisting of the vector spaces $k^n$ and all linear maps between these.   There is an evident linear functor
 
-where $I^n$ is the $n$-fold coproduct of the monoidal unit $I$ of $C$. By left Kan extension along the inclusion $Sk \hookrightarrow Vect_{fd}$, we therefore obtain a canonical [[change of base]] functor 
+$$ Sk \to C $$
 
-$$i: FinVect_{\mathbb{Q}} \to C$$ 
+sending $k^n$ to $I^n$, where $I$ is the tensor unit in $C$.  
 
-which is in fact [[symmetric monoidal functor|symmetric monoidal]]. This means the change of base maps the group algebra $\mathbb{Q}[S_n]$ to a monoid in $C$, again denoted $\mathbb{Q}[S_n]$ by abuse of notation, and it maps each of the irreducible representations $V_\lambda$ to a corresponding module over the monoid $\mathbb{Q}[S_n]$ in $C$, which we again denote by $V_\lambda$. 
+By left Kan extension along the inclusion
+
+$$Sk \hookrightarrow FinVect_k$$ 
+
+we therefore obtain a functor 
+
+$$i: FinVect_k \to C$$ 
+
+which is in fact [[symmetric monoidal functor|symmetric monoidal]].  This therefore maps the group algebra $k[S_n]$ to a monoid in $C$, which we again denote $j[S_n]$ by abuse of notation.  It also maps each of the irreducible representations $V_\lambda$ to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\lambda$. 
 
 If $X$ is an object of $C$, the symmetric group $S_n$ has a
 representation on $X^{\otimes n}$.  It thus has a representation 
 
 $$V_\lambda \otimes X^{\otimes n}$$ 
 
-and we define $S_\lambda(X)$ to be the object of $S_n$-coinvariants of $V_{\lambda} \otimes X^{\otimes n}$:
+and we define $S_\lambda(X)$ to be the object of $S_n$-coinvariants of $V_{\lambda} \otimes X^{\otimes n}$, by which we mean:
 
 $$S_\lambda(X) = V_{\lambda} \otimes X^{\otimes n} / S_n$$
 
