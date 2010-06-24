@@ -13,3 +13,7 @@ $$
 $$
 
 This matters when discussing a [[natural transformation]] from one contravariant functor to another.
+
+
+[[!redirects contravariant functor]]
+[[!redirects contravariant functors]]
