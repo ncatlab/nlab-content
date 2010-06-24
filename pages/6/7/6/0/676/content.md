@@ -115,6 +115,8 @@
 
       * [[spin-statistics theorem]]
 
+        * [[boson]], [[fermion]]
+
     * [[FQFT|functorial QFT]]
 
       * [[cobordism]]
