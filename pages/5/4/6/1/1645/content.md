@@ -4,7 +4,7 @@
 [[!include physicscontents]]
 </div>
 
-
+^
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -29,7 +29,7 @@ There are two major kinds of [[action functional]]s that may be anomalous in tha
 
 #### Fermionic anomalies
 
-The [[path integral]] for a [[quantum field theory]] with fermions can be decomposed into the integral over the fermionic degrees of freedom follows by that over the bosonic degrees of freedom. The former, a [[Berezin integral]] is typically well defined for a fixed configuration of the bosonic fields, but does not produce a well defined function on the space of all bosonic fields: but a _twisted function_ , a section of some line bundle called a [[Pfaffian line bundle]]. 
+The [[path integral]] for a [[quantum field theory]] with fermions can be decomposed into the integral over the [[fermionic field]]s follows by that over the [[bosonic field]]s. The former, a [[Berezin integral]] is typically well defined for a fixed configuration of the bosonic fields, but does not produce a well defined function on the space of all bosonic fields: but a _twisted function_ , a section of some line bundle called a [[determinant line bundle]] or, in $8k+2$ dimensions, its square root, the [[Pfaffian line bundle]]. 
 
 So to even start making sense of the remaining path integral over the bosonic degree of freedom, this Pfaffian line bundle has to be trivializale. Its non-trivializability is the _fermionic anomaly_ .
 
