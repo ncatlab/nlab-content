@@ -34,11 +34,223 @@ There are other sites on wich one may want a smooth $\infty$-groupoid to be mode
 
 The key difference of $\mathbb{L}$ to [[Diff]] is that the former contains smooth [[infinitesimal space]]s. Therefore an $\infty$-Lie groupoid modeled on $\mathbb{L}$ may have spaces of [[k-morphism]]s that have infinitesimal extension in some direction. Notably one obtains a notion of $\infty$-Lie groupoids for which _all $k$-morphisms are infinitesimal_ in a precise sense. It sturns out that such **infinitesimal $\infty$-Lie groupoids** may be identified with [[∞-Lie algebroid]]s: generalizations to [[higher category theory]] of [[Lie algebra]]s and [[Lie algebroid]]s.
 
-## Relation between $\infty$-groupoids modeled on $Diff$ and on $CartSp$
+
+## The $(\infty,1)$-topos of $\infty$-Lie groupoids {#InfSheavesOnCartSp}
+
+We discuss in more detail some properties of the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[(∞,1)-sheaves]] on [[CartSp]].
+
++-- {: .un_defn}
+###### Definition
+
+Let $C = $ [[CartSp]] equipped with the structure of a [[site]] by the [[coverage]] of [[good open cover]]s.
+ 
+Write 
+
+$$
+  \infty LieGrpd := Sh_{(\infty,1)}(CartSp) 
+  \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  PSh_{(\infty,1)}(CartSp)
+$$
+
+for the corresponding [[(∞,1)-category of (∞,1)-sheaves]]. 
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+By the discussion at [Cech localizaton at a coverage](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage) this is modeled by the [[Bousfield localization of model categories|left Bousfield localization]] of $[CartSp^{op}, sSet]_{proj}$ at [[Cech nerve]]s of [[covering]] families.
+
+$$
+  \array{
+    Sh_{(\infty,1)}(CartSp) &\stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}&
+    PSh_{(\infty,1)}(CartSp)
+    \\
+    \uparrow^{\simeq} && \uparrow^{\simeq}
+    \\
+    ([CartSp^{op}, sSet]_{proj,cov})^\circ
+    &\stackrel{\overset{\mathbb{L} Id}{\leftarrow}}{\underset{\mathbb{R} Id}{\to}}&
+    ([CartSp^{op}, sSet]_{proj})^{\circ}
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $X$ be a [[smooth manifold]], regarded as an object in $sPSh(C)$. Let $\{U_i \to X\}$ be a [[good open cover]] of $X$ and $C(\{U_i\})$ the corresponding [[Cech nerve]]. Then 
+
+$$
+  C(\{U_i\}) \stackrel{\simeq}{\to} X
+$$
+
+is a weak equivalence in $[CartSp^{op}, sSet]_{proj,cov}$ and in fact a cofibrant replacement for $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The morphism $\coprod_i j(U_i) \to X$ of which $C(\{U_i\})$ is the [[Cech nerve]] of a [[local epimorphism]] in that for every $j(V) \to X$ there exists a [[covering]] family $\{V_i \to V\}$ and lifts $\sigma_i$
+
+$$
+  \array{
+    j(V_i) &\stackrel{\sigma_i}{\to}& \coprod_i j(U_i)
+    \\
+    \downarrow && \downarrow
+    \\
+    j(V) &\to& X 
+  }
+  \,.
+$$
+
+Namely take $\{V_i \to V\}$ to be simply (any open refinement of) the open cover of $X$ pulled back to $V$.
+
+By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CechLocalization">Cech localization at Grothendieck (pre)topologies</a> this implies that $C(\{U_i\}) \to X$ is a weak equivalence in $sPSh(C)_{proj,cov}$.
+
+Moreover, since the cover is _good_ the Cech nerve $C(\{U_i\})$ is degreewise a coproduct of representables. By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">cofibrant objects</a> this implies that it is cofibrant.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This fact related to the classical [[nerve theorem]] which asserts that the simplicial set obtained by contracting in $C(\{U_i\})$ all copies of [[Cartesian space]]s to the point is a model for the [[homotopy type]] of $X$.
+
+More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally ∞-connected (∞,1)-topos]]... 
+
+=--
+
+### $\infty$-Connectedness
+
++-- {: .un_lemma}
+###### Lemma
+
+The $(\infty,1)$-topos $\infty LieGrpd$ is an [[∞-connected (∞,1)-topos]].
+
+=--
+
+This means that the [[global section]] [[geometric morphism]] is [[essential geometric morphism|essential]] in that we have a triple of [[adjoint (∞,1)-functor]]s
+
+$$
+  (\Pi \dashv LConst \dashv \Gamma)
+  :
+  \infty LieGrpd \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
+  \infty Grpd
+$$
+
+and that $LConst$ is a [[nLab:full and faithful (∞,1)-functor]].
+
+Notice that this is the $\infty$-analog of the statement that $Sh(CartSp)$ is a [[connected topos]], as discussed in detail at [[diffeological space]].
+
++-- {: .proof}
+###### Proof
+
+The proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
+
+=--
+
++-- {: .un_lemma}
+###### Lemma
+
+In addition the [[(∞,1)-functor]] $\Pi$ preserves finite [[product]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
+
+=--
+
+We make the usual definitions in an [[∞-connected (∞,1)-topos]] as described in more detail at [[schreiber:path ∞-groupoid]] and at [[schreiber:differential cohomology in an (∞,1)-topos]]:
+
++-- {: .un_def}
+###### Definition
+
+Write
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat})
+  :=
+  (LConst \circ \Pi \dashv LConst \circ \Gamma)
+  :
+  \infty LieGrpd
+  \stackrel{\leftarrow}{\to}
+  \infty LieGrpd
+$$
+
+for the composite [[adjunction]]. For $X,A \in \infty LieGrpd$ we call $\mathbf{\Pi}$ the **Lie [[schreiber:homotopy ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}A$ the **flat $\infty$-Lie groupoid** of $A$.
+
+For $X \in \infty Grpd$ we write $\mathbf{\Pi}_{dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}(X)$, i.e. for the [[pushout]]
+
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathbf{\Pi}(X) &\to& \mathbf{\Pi}_{dR}(X)
+  }
+$$
+
+in $\infty LieGrpd$.
+
+For $* \to A \in \infty LieGrpd$ a [[pointed object]], we write $\mathbf{\flat}_{dR} A$ for the [[homotopy fiber]] of the counit $\mathbf{\flat}A \to A$, i.e. for the [[pullback]]
+
+$$
+  \array{
+    \mathbf{\flat}_{dR}A &\to& \mathbf{\flat}A
+    \\
+    \downarrow &\seArrow& \downarrow
+    \\
+    * &\to& A
+  }
+$$
+
+in $\infty LieGrpd$\,.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[(∞,1)-functor]] $\Pi : \infty LieGrpd \to \infty Grpd$ is the left [[derived functor]] of $\lim_\to : [CartSp^{op}, sSet]_{proj,cov} \to sSet_{Quillen}$. Use the above cofibrant replacement for $X$ degreewise with Dugger's general description of [projective cofibrant objects](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement) in $[CartSp^{op}, sSet]$ to compute the cofibrant replacement, then apply $\lim_\to$ and use that the [[colimit]] of a [[representable functor|representable]] is the point. The statement then is degreewise the classical [[nerve theorem]].
+
+A detailed proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
+
+=--
+
+
+### Geometric realization
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X$ be a [[simplicial manifold]] that is degreewise [[paracompact space|paracompact]], regarded as a [[simplicial object|simplicial]]
+[[diffeological space]], hence as an object in $[CartSp^{op}, sSet]$,
+hence as an object in $\infty LieGrpd$.
+
+Write $|X| \in $ [[Top]] for the [[geometric realization]] of the underlying [[simplicial object|simplicial]] [[topological space]]. Then
+
+$$
+  \Pi(X) \simeq |X| \in Top \simeq \infty Grpd
+  \,.
+$$
+
+=--
+
+
+### Relation to $(\infty,1)$-sheaves on all manifolds
 
 In the literature on [[Lie groupoid]]s and [[differentiable stack]]s, these are traditionally conceived as [[stack]]s on the [[site]] [[Diff]] of all [[smooth manifold]]s. As mentioned above, for the purpose of encoding a smooth structure on a [[groupoid]] the category [[Diff]] regarded as a category of test objects is larger than necessary. After all, every manifold is, by definition, itself patched together from [[Cartesian space]]s, and passing to sheaves or stacks on a site really just means that one allows objects patched together from the objects in the site, so that one could just as well take the site to be just that of [[Cartesian space]]s in the first place.
 
-More precisely, notice that we have an [[equivalence of categories]] between the [[category of sheaves]] on [[CartSp]] and on [[Diff]]
+More precisely, we have an [[equivalence of categories]] between the [[categories of sheaves]] on [[CartSp]] and on [[Diff]]
 
 $$
   Sh(Diff) \stackrel{\simeq}{\to} Sh(CartSp)
@@ -46,12 +258,9 @@ $$
 
 induced from the [[full and faithful functor]] $CartSp \hookrightarrow Diff$. Under this equivalence a sheaf on all of $Diff$ is simply restricted to just the subcategory [[CartSp]].
 
-To see this, simply notice that every [[smooth manifold]] $X$ admits a [[good cover]] $\{U_i \to X\}$, where each $U_i$ is [[diffeomorphism|diffeomorphic]] to a [[Cartesian space]] (essentially by definition of [[manifold]]). By the [[sheaf]] condition, the value $A(X)$ of a sheaf on $X$ is determined by its value on these $U_i$. Hence the sheaf on [[Diff]] is already entirely determined by its restriction to [[CartSp]].
+To see this, notice that every [[smooth manifold]] $X$ admits a [[good cover]] $\{U_i \to X\}$, where each $U_i$ is [[diffeomorphism|diffeomorphic]] to a [[Cartesian space]] (essentially by definition of [[manifold]]). By the [[sheaf]] condition, the value $A(X)$ of a sheaf on $X$ is determined by its value on these $U_i$. Hence the sheaf on [[Diff]] is already entirely determined by its restriction to [[CartSp]].
 
-
-An analogous discussion holds for $\infty$-stacks on these sites. To see what is going on, the following standard example should be a helpful illustration
-
-### Example: the smooth groupoid $\mathbf{B}G$
+An analogous discussion holds for [[(∞,1)-sheaves]] on these sites, which we illustrate by the following standard example.
 
 Let $G$ be a [[Lie group]]. We shall write
 
@@ -152,87 +361,15 @@ The point now is that the kind of work one has to do to achieve this differs fro
      \,.
    $$
 
-### Properties of the $(\infty,1)$-toposes
-
-
-One useful aspect of using the site [[CartSp]] to model smooth $\infty$-groupoids is that it is a _site of topologically contractible objects_ . Using this one can show that 
-
-$$
-  \mathbf{H} = Sh_{(\infty,1)}(CartSp) \simeq 
-  (sPSh(CartSp)_{proj, loc})^\circ
-$$
-
-is a [[locally contractible (∞,1)-topos]] and one can explicitly construct models for the corresponding [[schreiber:path ∞-groupoid]]-functor $\Pi : \mathbf{H} \to \infty Grpd$.
-
-...
 
 
 
-## The $(\infty,1)$-topos on $CartSp$ of $\infty$-Lie groupoids {#InfSheavesOnCartSp}
 
-We discuss in more detail some properties of the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[(∞,1)-sheaves]] on [[CartSp]].
-
-+-- {: .un_defn}
-###### Definition
-
-Let $C = $ [[CartSp]] equipped with the structure of a [[site]] by the [[coverage]] of [[good open cover]]s.
- 
-Write $Sh_{(\infty,1)}(CartSp) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}$ for the induced [[topological localization]]. 
-
-=--
-
-By the discussion at [Cech localizaton at a coverage](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage) this is modeled by the [[Bousfield localization of model categories|left Bousfield localization]] of $sPSh(CartSp)_{proj}$ at [[Cech nerve]]s of covering families.
-
-+-- {: .un_lemma}
-###### Lemma
-
-Let $X$ be a [[smooth manifold]], regarded as an object in $sPSh(C)$. Ket $\{U_i \to X\}$ be a [[good open cover]] of $X$ and $C(\{U_i\})$ the corresponding [[Cech nerve]]. Then 
-
-$$
-  C(\{U_i\}) \stackrel{\simeq}{\to} X
-$$
-
-is a weak equivalence in $sPSh(CartSp)_{proj,cov}$ and in fact a cofibrant replacement for $X$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The morphism $\coprod_i j(U_i) \to X$ of which $C(\{U_i\})$ is the Cech nerve of a [[local epimorphism]] in that for every $j(V) \to X$ there exists a [[covering]] family $\{V_i \to V\}$ and lifts $\sigma_i$
-
-$$
-  \array{
-    j(V_i) &\stackrel{\sigma_i}{\to}& \coprod_i j(U_i)
-    \\
-    \downarrow && \downarrow
-    \\
-    j(V) &\to& X 
-  }
-  \,.
-$$
-
-Namely take $\{V_i \to V\}$ to be simply (any open refinement of) the open cover of $X$ pulled back to $V$.
-
-By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CechLocalization">Cech localization at Grothendieck (pre)topologies</a> this implies that $C(\{U_i\}) \to X$ is a weak equivalence in $sPSh(C)_{proj,cov}$.
-
-Moreover, since the cover is _good_ the Cech nerve $C(\{U_i\})$ is degreewise a coproduct of representables. By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">cofibrant objects</a> this implies that it is cofibrant.
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-This fact related to the classical [[nerve theorem]] which asserts that the simplicial set obtained by contracting in $C(\{U_i\})$ all copies of [[Cartesian space]]s to the point is a model for the [[homotopy type]] of $X$.
-
-More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally ∞-connected (∞,1)-topos]]... 
-
-=--
 
 ### Strict smooth $\infty$-groupoids
 
 
-Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in sub-$(\infty,1)$-categories of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoid.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
+Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in [[sub-(∞,1)-categories]] of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoid.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
 
 One well-known such notion is given by the [[Dold-Kan correspondence]]. This identifies [[chain complex]]es of [[abelian group]]s with strict and strictly [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] $\infty$-groupoids.
 
@@ -263,7 +400,7 @@ Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at 
 
 * **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]]. This is described at 
 
-  * [[Verity on descent for strict omega-groupoid valued presheaves]].   
+* [[Verity on descent for strict omega-groupoid valued presheaves]].   
 
 
 #### Circle $n$-Lie groupoids  {#BnU1}
@@ -576,6 +713,7 @@ Finally we need to show that $N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stack
 
 A detailed discussion of how this arises concretely from the formula
 $[\mathbf{\Pi}_1(-), \mathbf{B}G]$ for the [[nLab:right adjoint]] of $\mathbf{\Pi} = LConst \circ \Pi$ and how it is the coefficient object for smooth flat $G$-principal bundles is in [SchrWalI](http://arxiv.org/abs/0705.0452).
+
 
 
 
@@ -1035,13 +1173,38 @@ is the flat [[nonabelian cohomology]] of $X$ with coefficients in $G$.
 
 
 
-## The $(\infty,1)$-topos on $ThCartSp$ of $\infty$-Lie algebroids {#InfSheavesOnCartSp}
+## The infinitesimally thickened $(\infty,1)$-topos $\infty$-Lie groupoids and $\infty$-Lie algebroids {#InfSheavesOnCartSp}
 
 If we pass from the [[site]] [[CartSp]] to the site [[ThCartSp]] of [[infinitesimal object|infinitesimally thickened]] [[Cartesian space]]s, then the objects in the corresponding $(\infty,1)$-topos are $\infty$-Lie groupoids whose spaces of $k$-morphisms may have [[nLab:infinitesimal object|infinitesimal extension]]. This then also inclused [[∞-Lie algebroid]]s.
 
-The $(\infty,1)$-topos $Sh_{(\inmfty,1)}(ThCartSp)$ is the $(\infty,1)$-[[Cahiers topos]].
+**Definition**
 
-...
+Write
+
+$$
+  \infty SDLieGrpd := Sh_{(\infty,1)}(ThCartSp)
+  \,.
+$$
+
+This is the $(\infty,1)$-[[Cahiers topos]].
+
+
+
+(...)
+
+### Relative $\infty$-connectedness
+
+
+$\infty SDLieGrpd$ is an <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#InfinitesimalExtension">infinitesimal thickening of the (∞,1)-topos</a> $\infty LieGrpd$.
+
+$$
+  \infty SDLieGrpd
+  \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{LConst_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
+  \infty LieGrpd
+  \,.
+$$
+
+
 
 ## Examples
 
@@ -1114,3 +1277,5 @@ $\infty$-stacks on [[Diff]] considered, but there with an emphasis of the [[loca
 
 [[!redirects ∞-Lie groupoid]]
 [[!redirects ∞-Lie groupoids]]
+
+[[!redirects ?LieGrpd]]
