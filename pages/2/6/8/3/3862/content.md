@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Determinants and bundles
 
 Multivectors $e_1\wedge\ldots\wedge e_n$ transform according to the rule involving determinants. In particular, the exterior product is good to express the $n$-volume of the parallelepiped spanned by $n$-vectors. 
@@ -29,6 +34,9 @@ Gr_{cpt}(H)\leftarrow \mathcal{B}\to Fred(H_+).
 $$
 The Quillen's determinant line bundle is defined in general on the whole $Fred(H_+)$ and its pullback to $\mathcal{B}$ is isomorphic to the pullback of the determinant bundle on $Gr_{cpt}(H)$; in fact the Quillen's version can be reconstructed from this pullback by certain quotienting construction. 
 
+## Pfaffian line bundle
+
+In dimens&#238;on $8^k+2$ for $k \in \mathbb{N}$ the determinant line bundle has a canon&#238;cal square root line bundle, the [[Pfaffian line bundle]].
 
 ## Applications
 
@@ -42,7 +50,7 @@ These determinant line bundles are important in the study of [[quantum anomaly|q
 
 * [[Dan Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
 
-* J.-M. Bismut, D.S. Freed, _The analysis of elliptic families.I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__, 1 (1986), 159-176, [euclid](http://projecteuclid.org/euclid.cmp/1104115586), _II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__, 1 (1986), 103-163. [euclid](http://projecteuclid.org/euclid.cmp/1104115934)
+* J.-M. Bismut, [[Dan Freed]], _The analysis of elliptic families.I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__, 1 (1986), 159-176, [euclid](http://projecteuclid.org/euclid.cmp/1104115586), _II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__, 1 (1986), 103-163. [euclid](http://projecteuclid.org/euclid.cmp/1104115934)
 
 * J-M. Bismut, _Quillen metrics and determinant bundles_, 2 conference lectures in honour of A. N. Tyurin, video at [link](http://www.mathnet.ru/php/presentation.phtml?presentid=62&option_lang=eng)
 
