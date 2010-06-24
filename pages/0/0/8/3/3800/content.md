@@ -1,12 +1,12 @@
 (under construction)
 
-**Algebrad** is a new notion due [[Nikolai Durov]], see conference talk  
+**Algebrad** is a new notion due [[Nikolai Durov]]; see the conference talk:
 
 * _Classifying vectoids and generalizations of operads_ , The International Conference "Contemporary Mathematics", June 12, 2009, [link](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=34084)
 
 A **vectoid** is a finitely complete and [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s, where all [[epimorphism]]s are universally [[effective epimorphism|effective]] and where the following "completeness/totality" axiom holds: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. 
 
-Vectoid is simultaneously generalizing  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topos|ringed topoi]]: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring.
+The concept of vectoid simultaneously generalizes  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topos|ringed topoi]]: intuitively it is roughly to the category of $O$-modules for a ringed topos $(X,O)$ what a [[generalized ring]] (algebraic monad in Set) is to a ring.
 There are monoidal, symmetric monoidal and usual variant of vectoids; for monoidal versions one needs to impose a cocontinuity of the tensor product in each argument, 
 Vectoids are organized in a 2-category $Vectoid$ of vectoids. The name vectoid because of some analogies of that 2-category with the category of vector spaces, including a universal property of an external tensor product between vectoids which is similar to the universal property of the tensor product for vector spaces; where (bi)cocontinuous functors are analogous to (bi)cocontinuous maps. A monad in the 2-category of vectoids, that is a monoid with respect to the composition product, is called an **algebrad**.
 
