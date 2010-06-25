@@ -57,7 +57,7 @@ More generally, suppose $C$ is any [[symmetric monoidal category]] and $V \in C$
 
 $$  T V = \bigoplus_{n \ge 0} V^{\otimes n} $$
 
-(which we write here as a [[direct sum]]), and if the tensor product distributes over these coproducts, $T V$ becomes a [[monoid]] object in $C$, with multiplication given by the the obvious maps
+(which we write here as a [[direct sum]]), and if the tensor product distributes over these coproducts, $T V$ becomes a [[monoid]] object in $C$, with multiplication given by the obvious maps
 
 $$   V^{\otimes p} \otimes V^{\otimes q} \to V^{\otimes (p+q)} $$
 
@@ -71,13 +71,13 @@ given by
 
 $$ p_A = \frac{1}{n!} \sum_{\sigma \in S_n} sgn(\sigma) \, \sigma $$
 
-This is an [[idempotent]], so if idempotents split in $C$ we can form its [[cokernel]], called the $n$th **antisymmetric tensor power** $\Lambda^n V$.  The coproduct
+This is an [[idempotent]], so if idempotents split in $C$ we can form its [[cokernel]], called the $n$th **antisymmetric tensor power** or **alternating power** $\Lambda^n V$.  The coproduct
 
 $$  \Lambda V = \bigoplus_{n \ge 0} \Lambda^n V $$
 
 becomes a monoid object called the **exterior algebra** of $V$.
 
-If $C$ is a linear category over a field of positive characteristic (or more generally, over a [[commutative ring]] in which not every positive integer is invertible, that is which is not itself an [[associative algebra|algebra]] over the [[rational numbers]]), then we need a different construction of $\Lambda^n V$; we define ...
+If $C$ is a linear category over a field of positive characteristic (or more generally, over a [[commutative ring]] in which not every positive integer is invertible, that is which is not itself an [[associative algebra|algebra]] over the [[rational numbers]]), then we need a different construction of $\Lambda^n V$.
 
 
 ## Examples
