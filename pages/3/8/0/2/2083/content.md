@@ -11,13 +11,11 @@ Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] 
 
 * [wikipedia](http://en.wikipedia.org/wiki/Group_with_operators)
 
-+-- {: .query}
-[[John Baez]]: [Aleks Kleyn](http://AleksKleyn.blogspot.com/) would like a reference or two for work on this concept.  If you know one, please put it here and tell him.
-
-=--
 * N. Bourbaki, _Algebra I_, ch. 1-3. 
 
-* E I Khukhro, LOCAL NILPOTENCY IN VARIETIES OF GROUPS WITH OPERATORS, 1994 Russ. Acad. Sci. Sb. Math. 78 379, [doi](http://dx.doi.org/10.1070/SM1994v078n02ABEH003475)
+* E I Khukhro, _Local nilpotency in varieties of groups with operators_, Russ. Acad. Sci. Sbornik Mat. 78 379, 1994[doi](http://dx.doi.org/10.1070/SM1994v078n02ABEH003475)
+
+* Grace Orzech, _Obstruction theory in algebraic categories I, II_, J. Pure Appl. Algebra __2__ (1972) 287-340, 315&#8211;340. 
 
 [[!redirects $\Omega$-groups]]
 [[!redirects Omega-groups]]
