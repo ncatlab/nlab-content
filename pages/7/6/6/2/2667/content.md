@@ -13,23 +13,23 @@ on the category of finite-dimensional complex [[vector space|vector spaces]].  N
 
 The irreducible representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so a Schur functor of this sort is named by a Young diagram. This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[cohomology]] classes on BGL, the classifying space for [[vector bundles]].  
 
-More generally, any finite direct sum of the Schur functors described above may be called a Schur functor.  This gives a category of Schur functors and natural transformations between them.  Since the coproduct of all the symmetric groups $S_n$ is equivalent to the groupoid of finite sets and bijections, say $FinSet^\times$, it is not surprising that this category of Schur functors is equivalent to the functor category
+More generally, any finite direct sum of the Schur functors described above may be called a Schur functor.  This gives a category of Schur functors and natural transformations between them.  Since the coproduct of all the symmetric groups $S_n$ is equivalent to the groupoid of finite sets and bijections, say $\mathbb{P}$, it is not surprising that this category of Schur functors is equivalent to the functor category
 
-$$  [FinSet^\times, FinVect_{\mathbb{C}}] \, , $$
+$$  [\mathbb{P}, FinVect_{\mathbb{C}}] \, , $$
 
 This category could be called the 'category of finite-dimensional complex representations of the groupoid of finite sets', or the 'category of finite-dimensional linear [[species]]'.  
 
 The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category of Schur functors
 
-$$  [FinSet^\times, FinVect_{\mathbb{C}}] \, , $$
+$$  [\mathbb{P}, FinVect_{\mathbb{C}}] \, , $$
 
 is of this sort.  But, it is also [[semisimple abelian category|semisimple]]: indeed, every Schur functor is a finite direct sum of 'irreducible' Schur functors, which correspond to Young diagrams.
 
-The category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $FinSet^\times$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets --- and since product distributes over disjoint union, $FinSet^\times$ is a [[rig category]].  This is all reflected in the category of Schur functors.
+The category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets --- and since product distributes over disjoint union, $\mathbb{P}$ is a [[rig category]].  This is all reflected in the category of Schur functors.
 
 On top of all this, it turns out that the composite of Schur functors is again a Schur functor.  In the classical literature this is called [[plethysm]].  This gives the category
 
-$$  [FinSet^\times, FinVect_{\mathbb{C}}] \, , $$
+$$  [\mathbb{P}, FinVect_{\mathbb{C}}] \, , $$
 
 yet another, perhaps unexpected monoidal structure.
 
