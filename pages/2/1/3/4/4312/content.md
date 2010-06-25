@@ -1,0 +1,1 @@
+A harmonic form is a differential form that is killed by the Laplacian.
