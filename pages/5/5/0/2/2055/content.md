@@ -136,7 +136,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom)
 
-* [My research in geometry]] (Aleks Kleyn)
+* [My research in geometry](http://alekskleyn.blogspot.com/) (Aleks Kleyn)
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com) (PhD student in quantum information)
 
