@@ -8,3 +8,7 @@ $$x\circ y \stackrel{def}{=} \frac{x\cdot y + y \cdot x}{2}.$$
 Such Jordan algebras are called __special__ Jordan algebras; all others are called __exceptional__.
 
 Among the exceptional Jordan algebras over the [[real numbers]], there is a remarkable $27$-dimensional example: the **Albert algebra** $\mathbb{Al}$ of self-adjoint $3\times 3$ [[matrix|matrices]] over the [[octonion|octonions]] with the same formula as above for the product in terms of matrix product. Notice that the octonions and their algebras of matrices are *not* associative algebras, but only [[alternative algebras]], so the Jordan identity for the Albert algebra is not automatic (it does not hold for all alternative algebras), but a consequence of more special circumstances.
+
+## References
+
+*  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_ (available for free from the authors [here](http://www.math.ntnu.no/~hanche/joa/))
