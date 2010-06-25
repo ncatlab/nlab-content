@@ -10,6 +10,9 @@ Let "$(H, G)$&#8230; be a [[2-group]]. An $(H, G)$&#8230;-bibundle is a (right) 
 For Lie groupoid $G$, a left (right) $G$-bundle $E$ over $X$ (equipped with  $\tau: X \to M$) is a left (right) $G$-action on $E$, and a $G$-invariant map
 $\pi: E  \to M$. A $G$-$H$-bibundle $E$ is a left $G$-bundle and a right $H$-bundle. [Morton talk](http://www.math.uwo.ca/~jmorton9/seminar/gpdrep.pdf)
 
+Let $G$ and $H$ be Lie groupoids. A manifold $M$ with a left $G$-action
+and a right $H$-action which commute, i.e., $(g \cdot m) \cdot h = g \cdot (m \cdot h)$, whenever defined, is called a smooth $G$-$H$ bibundle. Defn 2.8 [Stacky Lie Groupoids](http://arxiv.org/abs/math/0702399)
+
 ## References
 
 * [[Michael Murray]], _Bispaces and bibundles_ ([pdf slides](http://www.mpim-bonn.mpg.de/digitalAssets/7050_Murray.pdf))
