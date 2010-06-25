@@ -112,11 +112,11 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
 
 # References #
 
-* _Representable functors and operations on rings_, D. Tall and [[Gavin Wraith|G. Wraith]], Proc. London Math. Soc. (3), 1970
+* _Representable functors and operations on rings_, D. Tall and [[Gavin Wraith|G. Wraith]], Proc. London Math. Soc. (3), 1970, 619--643.
 
 * _Plethystic algebra_, J. Borger and B. Wieland, Adv. Math, 2005.  [[web](http://wwwmaths.anu.edu.au/~borger/papers/03/lambda.pdf)]
 
-* _The Hunting of the Hopf Ring_, [[Andrew Stacey|A. Stacey]] and S. Whitehouse,  Homology, Homotopy and Applications, Volume 11(2), 2009, p75-132, [online copy](http://intlpress.com/HHA/v11/n2/a6/).  [[arXiv](http://arxiv.org/abs/0711.3722)).
+* _The Hunting of the Hopf Ring_, [[Andrew Stacey|A. Stacey]] and S. Whitehouse,  Homology, Homotopy and Applications, Volume 11(2), 2009, 75--132.   [[online copy](http://intlpress.com/HHA/v11/n2/a6/)]  [[arXiv](http://arxiv.org/abs/0711.3722)).
 
 +-- {: .query}
 
