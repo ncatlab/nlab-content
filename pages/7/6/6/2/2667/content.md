@@ -222,9 +222,9 @@ U(D) & \underset{S_D}{\to} & U(D)
 
 (Coherent in the standard sense implied by strong naturality.) Following usual procedure in 2-category theory, a **morphism** between Schur functors is a modification $\phi: S \to T$ between such strong natural transformations. 
 
-## Discussion for module categories ##
+## Toward the conjecture ##
 
-In this discussion we assume that $SymMonLinCat_k$ is the 2-category of symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
+In this discussion we assume that $SymMonLinCat_k$ is the 2-category of small symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
 
 +-- {: .un_thm}
 ######Theorem 
@@ -233,7 +233,39 @@ $$U: SymMonLinCat_k \to Cat$$
 is representable, in fact is represented by the Cauchy completion of the $k$-linearization of the groupoid of finite permutations $\mathbb{P}$. (If $k \mathbb{P}$ denotes the $k$-linearization, then $\widebar{k \mathbb{P}}$ denotes its Cauchy completion.) 
 =-- 
 
-The proof is pretty straightforward; I'll write it up later. 
++-- {: .proof} 
+######Proof (Sketch)
+It is well-known that $\mathbb{P}$ is the representing object for the underlying 2-functor 
+
+$$u: SymMonCat \to Cat$$
+
+Let $SymMonLin$ denote the 2-category of symmetric monoidal $k$-linear (but not necessarily linearly Cauchy complete) categories, and let $Lin$ denote the 2-category of small $k$-linear categories. Let $L: Cat \to Lin$ denote $k$-linearization, given by change of hom-base 
+
+$$k \cdot - : Set \to Vect_k$$ 
+
+applied to a small $Set$-enriched category $(C_0, hom: C_0 \times C_0 \to Set)$ to yield a $k$-linear category $(C_0, C_0 \times C_0 \to Vect_k)$. This is left 2-adjoint to the underlying 2-functor $U: Lin \to Cat$, and the 2-adjunction $L \dashv U$ has a canonical lift to a 2-adjunction 
+
+$$(L^{\tilde}: SymMonCat \to SymMonLin) \dashv (U^{\tilde}: SymMonLin \to SymMonCat)$$ 
+
+Finally, let $LinCat$ denote the 2-category of $k$-linearly Cauchy-complete categories. The Cauchy completion gives a 2-functor $r: Lin \to LinCat$ which is left 2-adjoint to the forgetful 2-functor $i: LinCat \to Lin$, and the 2-adjunction $r \dashv i$ has a canonical lift to a 2-adjunction 
+
+$$(R: SymMonLin \to SymMonLinCat) \dashv (I: SymMonLinCat \to SymMonLin)$$ 
+
+Finally, the underlying functor $U: SymMonLinCat \to Cat$ is the evident composite 
+
+$$SymMonLinCat \stackrel{I}{\to} SymMonLin \stackrel{U^{\tilde}}{\to} SymMonCat \stackrel{u}{\to} Cat$$ 
+
+and therefore we have pseudonatural equivalences 
+
+$$\array{
+SymMonLinCat(R L^{\tilde} \mathbb{P}, -) & \cong & SymMonLin(L^{\tilde} \mathbb{P}, I-) \\
+ & \cong & SymMonCat(\mathbb{P}, U^{\tilde} I-) \\
+ & \cong & u U^{\tilde} I- \\
+ & \cong & U
+}$$ 
+
+which completes the proof. 
+=--
 
 Let us calculate this Cauchy completion. It is the linear category of all $k$-linear functors 
 
