@@ -245,7 +245,7 @@ $$k \cdot - : Set \to Vect_k$$
 
 applied to a small $Set$-enriched category $(C_0, hom: C_0 \times C_0 \to Set)$ to yield a $k$-linear category $(C_0, C_0 \times C_0 \to Vect_k)$. This is left 2-adjoint to the underlying 2-functor $U: Lin \to Cat$, and the 2-adjunction $L \dashv U$ has a canonical lift to a 2-adjunction 
 
-$$(L^{\tilde}: SymMonCat \to SymMonLin) \dashv (U^{\tilde}: SymMonLin \to SymMonCat)$$ 
+$$(L^{~}: SymMonCat \to SymMonLin) \dashv (U^{~}: SymMonLin \to SymMonCat)$$ 
 
 Finally, let $LinCat$ denote the 2-category of $k$-linearly Cauchy-complete categories. The Cauchy completion gives a 2-functor $r: Lin \to LinCat$ which is left 2-adjoint to the forgetful 2-functor $i: LinCat \to Lin$, and the 2-adjunction $r \dashv i$ has a canonical lift to a 2-adjunction 
 
@@ -253,18 +253,18 @@ $$(R: SymMonLin \to SymMonLinCat) \dashv (I: SymMonLinCat \to SymMonLin)$$
 
 Finally, the underlying functor $U: SymMonLinCat \to Cat$ is the evident composite 
 
-$$SymMonLinCat \stackrel{I}{\to} SymMonLin \stackrel{U^{\tilde}}{\to} SymMonCat \stackrel{u}{\to} Cat$$ 
+$$SymMonLinCat \stackrel{I}{\to} SymMonLin \stackrel{U^{~}}{\to} SymMonCat \stackrel{u}{\to} Cat$$ 
 
 and therefore we have pseudonatural equivalences 
 
 $$\array{
-SymMonLinCat(R L^{\tilde} \mathbb{P}, -) & \cong & SymMonLin(L^{\tilde} \mathbb{P}, I-) \\
- & \cong & SymMonCat(\mathbb{P}, U^{\tilde} I-) \\
- & \cong & u U^{\tilde} I- \\
+SymMonLinCat(R L^{~} \mathbb{P}, -) & \cong & SymMonLin(L^{~} \mathbb{P}, I-) \\
+ & \cong & SymMonCat(\mathbb{P}, U^{~} I-) \\
+ & \cong & u U^{~} I- \\
  & \cong & U
 }$$ 
 
-which completes the proof. 
+so that $R L^~ \mathbb{P} = \widebar{k \mathbb{P}}$ is the representing object. 
 =--
 
 Let us calculate this Cauchy completion. It is the linear category of all $k$-linear functors 
