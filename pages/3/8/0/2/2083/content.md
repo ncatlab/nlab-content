@@ -9,11 +9,15 @@ The classical examples are of course groups and [[rings]], but also [[modules]] 
 
 Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] is rather a synonym for (for some people strict) $\infty$-[[infinity-groupoid|groupoid]] with a single object, hence nothing to do with $\Omega$-groups. 
 
+* [wikipedia](http://en.wikipedia.org/wiki/Group_with_operators)
+
 +-- {: .query}
 [[John Baez]]: [Aleks Kleyn](http://AleksKleyn.blogspot.com/) would like a reference or two for work on this concept.  If you know one, please put it here and tell him.
 
 =--
+* N. Bourbaki, _Algebra I_, ch. 1-3. 
 
+* E I Khukhro, LOCAL NILPOTENCY IN VARIETIES OF GROUPS WITH OPERATORS, 1994 Russ. Acad. Sci. Sb. Math. 78 379, [doi](http://dx.doi.org/10.1070/SM1994v078n02ABEH003475)
 
 [[!redirects $\Omega$-groups]]
 [[!redirects Omega-groups]]
