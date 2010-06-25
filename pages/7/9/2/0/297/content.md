@@ -46,9 +46,13 @@ and a review of much of the existing material in the literature is in
 
 * Bruce H. Bartlett, _Categorical Aspects of Topological Quantum Field Theories_ ([arXiv](http://arxiv.org/abs/math/0512103)).
 
-The influential work by Moore and Segal on 2d TFTs is available as
+The influential work by Moore and Segal on open-closed 2d TFTs is available as
 
 * [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
+
+The same topic is studied by Lazariou:
+
+* [[C. I. Lazariou]], _On the structure of open-closed topological field theory in two dimensions_
 
 ##Non-topological FQFTs (especially conformal)## 
 
