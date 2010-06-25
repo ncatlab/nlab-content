@@ -86,7 +86,7 @@ A reflective subcategory is always closed under [[limit|limits]] (because the fu
 
 ### Reflective subcategories of cartesian closed categories
 
-In showing that a given category is cartesian closed, the following theorem is often useful (cf. A4.3.1 in the [[Elephant]]):
+In showing that a given category is [[cartesian closed category|cartesian closed]], the following theorem is often useful (cf. A4.3.1 in the [[Elephant]]):
 
 +-- {: .un_theorem}
 ###### Theorem
