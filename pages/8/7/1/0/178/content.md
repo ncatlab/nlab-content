@@ -2,14 +2,14 @@
 
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
-***
+***^
 [[!include (infinity,1)-topos - contents]]
 </div>
 
 
 
 #Contents#
-* automatic table of contents goes here
+* automatic table of con^tents goes here
 {:toc}
 
 ## Idea
@@ -125,7 +125,7 @@ More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally
 
 =--
 
-### $\infty$-Connectedness
+### $\infty$-Connectedness {#InfConnectedness}
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -207,7 +207,7 @@ $$
   \array{
     \mathbf{\flat}_{dR}A &\to& \mathbf{\flat}A
     \\
-    \downarrow &\seArrow& \downarrow
+    \downarrow &\swArrow& \downarrow
     \\
     * &\to& A
   }
@@ -414,10 +414,10 @@ Write $\Xi : Ch_\bullet \to sAb \to sSet$ for the [[Dold-Kan correspondence]] fu
 Write 
 
 $$
-  U(1)[n] = [\cdots \to 0 \to U(1) \to 0 \to \cdots \to 0]
+  U(1)[n] = [\cdots \to 0 \to C^\infty&#176;(-,U(1)) \to 0 \to \cdots \to 0]
 $$
 
-for the [[chain complex]] concentrated in degree $n$ on $U(1)$.
+for the [[chain complex]] of sheaves concentrated in degree $n$ on $U(1)$.
 
 +-- {: .un_theorem }
 ###### Theorem
@@ -480,60 +480,15 @@ $\Xi$ is a right part of a [[Quillen adjunction]], hence [[right adjoint]] and h
 +-- {: .un_def }
 ###### Definition
 
-We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])$. This may be called the **circle Lie $n$-groupoid**.
+We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])$. This may be called the **circle Lie $(n+1)$-group**.
 
 =--
 
 ##### Differential coefficients
 
-We now describe a Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$.
-
-Recall for this that $\infty LieGrpd$ is a [[∞-connected (∞,1)-topos]], which means that we have [[(∞,1)-functor]]s
-
-$$
-  \infty LieGrpd
-  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
-  \infty Grpd
-$$
-
-and such that $LConst$ is a [[full and faithful (∞,1)-functor]]. Define from this the functors
-
-$$
-  (\mathbf{\Pi} \dashv \mathbf{\flat}) :=
-  (LConst \Pi \dashv LConst \Gamma)
-  : 
-  \infty LieGrpd \to \infty LieGrpd
-$$
-
-and define for a [[pointed object]] $* \to A \in \infty LieGrpd$ the object $\mathbf{\flat}_{dR}A$ to be the [[pullback]]
-
-$$
-  \array{
-    \mathbf{\flat}_{dR} A &\to & \mathbf{\flat}A
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\to& A
-  }
-$$
-
-and the object $\mathbf{\Pi}_{dR}A$ to be the [[pushout]]
-
-$$
-  \array{
-    A &\to& * 
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{\Pi}(A) &\to& \mathbf{\Pi}_{dR}(A)
-  }
-$$
-
-in $\infty LieGrpd$.
+We now describe the Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$ as discussed at [∞-connectedness](#InfConnectedness).
 
 
-+-- {: .un_prop }
-###### Proposition
 
 A fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ of $\mathbf{\flat} \mathbf{B}^n U(1)$ is
 
@@ -550,8 +505,6 @@ $$
 $$
 
 =--
-
-Notice that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines flat [[Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is that which computes [[de Rham cohomology]] in degree $n$.
 
 
 +-- {: .proof}
@@ -591,6 +544,32 @@ $$
 $$
 
 of this is a [[homotopy pullback]] and since fibrantions are stable under pullback, we find that the top left is indeed fibrant.
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+We observe that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines flat [[Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is that which computes [[de Rham cohomology]] in degree $n$.
+
+Also notice that the complex that defines $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ has the following description in terms of hom-spaces of [[∞-Lie algebroid]]s.
+
+Write $N^\bullet(C^\bullet\bullet(\Delta[n]))$ for the [[Moore complex|normalized chain complex]] of the [[cochain on a simplicial set|cochains on the simplicial set]] given by the $n$-[[simplex]] $\Delta[n]$. Write also $^CE(b^n \mathbb{R})$ for the [[Chevalley-Eilenberg algebra]]
+of the [[L-∞-algebra]] $b^^n \mathbb{R}$, which is the [[dg-algebra]] on a single generator in degree $n$ with vanishing differential.
+
+With this notation we can express the flat de Rham object of $\mathbf{B}^n U(1)$
+as a hom-object of [[∞-Lie algebroid]]s:
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}^n U(1)
+  :
+  V \mapsto
+  \infty LieAlg( T V, b^n \mathbb{R})
+  :=
+  Hom_{dgAlg}( CE(b^n \mathbb{R}) , 
+   \Omega^\bullet(U)\otimes N^\bullet(C^\bullet(\Delta[\bullet])) )
+  \,.
+$$
 
 =--
 
@@ -647,7 +626,7 @@ See also the discussion at [[generalized universal bundle]].
 
 ##### Differential coefficients
 
-We give a concrete representative for the $\infty$-groupoid $\mathbf{\flat} \mathbf{B}G = LConst \Gamma \mathbf{B}G$ in terms of [[Lie algebra]]-valued [[differential form]]s.
+We give a concrete representative for the $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}G = LConst \Gamma \mathbf{B}G$ in terms of [[Lie algebra]]-valued [[differential form]]s.
 
 
 Let $\Xi : CrsdCplx \to sSet$ now denote the inclusion of [[crossed complex]]es into all [[∞-groupoid]]s. 
@@ -810,9 +789,64 @@ As above.
 
 ##### Differential coefficients
 
-...
+Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[dif^^ferential crossed module]] corresponding to the Lie [[strict 2-group]] $(G_2 \to G_1)$, regarded as an [[L-∞-algbra]]. Write $CE(\mathfrak{g}_2 \to \mathfrak{g}_1)$ for the corresponding [[Chevalley-Eilenberg algebra]].
 
-The analogous discussion for $G$ a Lie [[nLab:2-group]] and flat $G$-[[nLab:principal 2-bundle]]s is in [SchrWalII](http://arxiv.org/abs/0802.0663).
+
++-- {: .un_prop }
+###### Proposition
+
+The $\infty$-Lie groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is represented in $[CartSp^{op}, sSet]$ by
+
+$$
+  \begin{aligned}
+    V \mapsto & \infty LieAlgd(T V , [\mathfrak{g}_2 \to \mathfrak{g}_1] )
+    \\
+    Hom_{dgAlg}(CE(\mathfrak{g}_2 \to \mathfrak{g}_1), \Omega^\bullet(V)\otimes N^\bullet(C^\bullet(\Delta[\bullet])))
+  \end{aligned}  
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+In analogy to the above computations we resolve
+
+$$
+  \mathbf{\flat} \mathbf{B}[G_2 \to G_1]
+  \simeq
+  \Xi[
+    const G_2 \to const G_1 \stackrel{\to}{\to} *
+  ]
+$$
+
+by applying a non-commutative version of the [[Poincare lemma]]-reasoning to find
+
+$$
+  \cdots \simeq
+  \Xi[
+    C^\infty(-,G_2)
+    \stackrel{}{\to}
+    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
+    \times
+    C^\infty(-, G_1) \times \Omega^1(-, \mathfrak{g}_2)
+    \stackrel{\overset{}{\to}}{\underset{p_1}{\to}}
+    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
+  ]
+  \,.
+$$
+
+This is the 2-groupoid of flat Lie 2-algebra valued forms as described in 
+[SchrWalII](http://arxiv.org/abs/0802.0663).
+
+With this the [[homotopy pullback]] defining $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is the ordinary pullback in $[CartSp^{op}, sSet]$,
+which yields the stated result.
+
+=--
+
+
 
 
 ### Cohomology {#Cohomology}
