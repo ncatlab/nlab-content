@@ -61,7 +61,7 @@ Even though Schur functors do not respect the linear structure on homsets, the c
 
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   They also make sense on categories of group representations, chain complexes, group representations, coherent sheaves of vector spaces, and so on.  
 
-To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[category]] enriched over $FinVect_k$, where $k$ is any field of characteristic zero.   (In the present context, Cauchy completeness means that $C$ has [[biproducts]], also known as [[direct sums]], and also that [[idempotent|idempotents]] [[splitting|split]].)
+To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[category]] enriched over $Vect_k$, where $k$ is any field of characteristic zero.   (In the present context, Cauchy completeness means that $C$ has [[biproducts]], also known as [[direct sums]], and also that [[idempotent|idempotents]] [[splitting|split]].)
 
 Recall that the [[group algebra]] $k[S_n]$ decomposes as a direct sum of matrix algebras 
 
@@ -77,7 +77,7 @@ This group algebra lives as a [[monoid]] in the symmetric monoidal category $Fin
 
 ### Change of base ###
 
-To achieve this change of base, let $Mat$ be the $k$-linear category whose objects are integers $m \geq 0$ and whose morphisms $m \to n$ are $m \times n$ matrices with entries in $k$. There is an evident linear functor 
+To achieve this change of base, let $Mat$ be the $k$-linear category whose objects are integers $m \geq 0$ and whose morphisms $m \to n$ are $m \times n$ matrices with entries in $k$. Because $C$ is Cauchy complete and in particular has finite biproducts (direct sums), there is an evident linear functor 
 
 $$Mat \to C$$ 
 
@@ -103,9 +103,9 @@ There is exactly one symmetric monoidal linear functor
 $i: FinVect_k \to C$, up to symmetric monoidal linear isomorphism. 
 =--
 
-(As a matter of fact, $i: FinVect_k \to C$ can also be described as the left adjoint to the lax monoidal functor $\hom(I, -): C \to FinVect_k$, and it is well known that such left adjoints carry strong monoidal structure.) 
+(In the case where $C$ has arbitrary coproducts, one can think of $i: FinVect_k \to C$ as a piece of the functor $Vect_k \to C$ which is left adjoint to the lax monoidal functor $\hom(I, -): C \to Vect_k$. There is some general categorical lore that such left adjoints in the 2-category of (symmetric) monoidal categories and lax symmetric monoidal functors are automatically strong monoidal, and this is a case in point.) 
 
-This symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, as a [[monoid]] in the monoidal category $FinVect_k$, to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  It also maps each of the Young tableau representations $V_\nu$, as a module over $k[S_n]$ in $FinVect_k$, to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\nu$. 
+The symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, as a [[monoid]] in the monoidal category $FinVect_k$, to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  It also maps each of the Young tableau representations $V_\nu$, as a module over $k[S_n]$ in $FinVect_k$, to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\nu$. 
 
 ### Modules over a bimonoid ###
 
@@ -137,7 +137,7 @@ Consider next the **averaging operator** $e = \frac1{n!} \sum_{\sigma \in S_n} \
 
 $$e: V_\nu \otimes X^{\otimes n} \to V_\nu \otimes X^{\otimes n}$$ 
 
-This operator makes sense since $k$ has characteristic zero, and crucially, this operator is _idempotent_ (because $e = \sigma e$ for all $\sigma \in S_n$). Because we assume idempotents split in $C$, we have a (split) coequalizer 
+This operator makes sense since $k$ has characteristic zero (we can divide by $n!$), and crucially, this operator is _idempotent_ (because $e = \sigma e$ for all $\sigma \in S_n$). Because we assume idempotents split in $C$, we have a (split) coequalizer 
 
 $$V_\nu \otimes X^{\otimes n} \stackrel{\overset{e}{\to}}{\underset{1}{\to}} V_\nu \otimes X^{\otimes n} \to V_\nu \otimes_{S_n} X^{\otimes n}$$
 
@@ -186,43 +186,66 @@ The Schur functors described above are those corresponding to irreducible module
 
 _Todd_: To be related to composition of analytic functors a la Joyal species... We also have material on plethysm, Tall-Wraith monoid, etc. to be linked to. 
 
-## (Tentative) High-level description of Schur functors ##
+## Conceptual description of Schur functors ##
 
-As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pretty wide contexts, and the formula for the $S_\lambda$ is in some sense "polymorphic". The question arises as to the right way to give sense to such [[polymorphism]], or in other words the compatibility between these Schur functors across the various structured categories where they are defined. Here is a very general expression of that compatibility proposed by [[John Baez]]. 
+As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses: for fields $k$ of characteristic zero, they can be defined on any symmetric monoidal $k$-linear category $C$ satisfying the very mild cocompleteness condition of Cauchy completeness. So, for such $C$ we can define a Schur functor 
 
-The general idea is that Schur functors such as the $S_\lambda$ defined above on individual categories commute with suitable change-of-base functors between these categories. This commutation expresses a kind of naturality, for which we would like a clean and high-level description. 
+$$S_R: C \to C$$ 
 
-The above discussion shows that Schur functors $S_\lambda$ "live on" (are definable in terms of structure in) symmetric monoidal linear categories satisfying some (possibly mild) exactness or cocompleteness condition. 
-
-* "Linear" might mean here either enriched in $Ab$ (abelian groups) or enriched in $Vect$ (vector spaces over $\mathbb{Q}$) -- there are various possibilities. 
-
-* The exactness condition might mean (on the strong end of the spectrum) being abelian, or (on the weak end) being Cauchy complete in the enriched sense, i.e., additive and closed under splitting of idempotents, or (somewhere in the middle) being finitely cocomplete, i.e., additive and admitting coequalizers. We require that the tensor product of the symmetric monoidal structure preserve, in each of its separate arguments, any colimits assumed to exist. 
-
-Since the discussion is for now tentative, we'll hedge our bets and go with the vague term "linear" and tacitly understand there's also some exactness condition which will go unmentioned. 
-
-"Change of base" will mean a functor between symmetric monoidal linear categories preserving relevant structure: a symmetric monoidal linear functor which preserves some class of finite colimits, say either all finite colimits (right exactness) or just the absolute colimits (finite coproducts and split coequalizers: any linear functor preserves those). Again, in the tentative discussion we'll leave the exactness condition tacit but unmentioned, and just say "symmetric monoidal linear functor" to cover the type of change-of-base functor we're after. 
-
-Hence we have some 2-category $SymMonLin$ whose objects are "symmetric monoidal linear categories", whose 1-morphisms are "symmetric monoidal linear functors", and whose 2-morphisms are symmetric monoidal linear transformations. 
-
-Now Schur functors, while they are _defined_ in terms of such structure, are not assumed to _respect_ any of this structure except of course for the bare category structure, so they live as 1-morphisms in the 2-category $Cat$. However, they should be _polymorphically defined_: defined for every object $C$ of $SymMonLin$ and invariant with respect to change of base. The right way to say it is that there is a forgetful 2-functor 
-
-$$U: SymMonLin \to Cat$$ 
-
-and to propose the polymorphic definition: a **Schur functor** is a strong (i.e., pseudo) natural transformation from $U$ to itself. That is, a Schur functor is a family of functors 
-
-$$S_C: U(C) \to U(C)$$ 
-
-which commute with symmetric monoidal linear functors $f: C \to D$ up to (coherent) natural isomorphisms $S_f$:  
+and moreover, if $G: C \to D$ is a symmetric monoidal $k$-linear functor, the Schur functors on $C$ and $D$ are compatible in an evident sense, that the diagram 
 
 $$\array{
-U(C) & \overset{S_C}{\to} & U(C) \\
-U(f) \downarrow & S_f \swArrow & \downarrow U(f) \\
-U(D) & \underset{S_D}{\to} & U(D)
+C & \stackrel{S_{R, C}}{\to} & C \\
+G \downarrow & & \downarrow G \\
+D & \underset{S_{R, D}}{\to} & D
 }$$ 
 
-(Coherent in the standard sense implied by strong naturality.) Following usual procedure in 2-category theory, a **morphism** between Schur functors is a modification $\phi: S \to T$ between such strong natural transformations. 
+commutes up to a canonical isomorphism $\phi_G: G S_R \cong S_R G$, and these $\phi_G$ are suitably compatible with respect to composites of symmetric monoidal linear functors. 
 
-## Toward the conjecture ##
+In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The presence of the isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ may be a pleasant observation, but surely this is only exploiting a small part of the story of Schur functors, which are after all deeply studied and incredibly rich classical structures? 
+
+Let us put the question another way. So, the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal linear (Cauchy complete) categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$. Or rather, not quite natural in a strict sense (of strict commutativity where $G S_{R, C} = S_{R, D} G$), but "pseudonatural" in the sense of commuting up to isomorphism $\phi_G$, with the $\phi_G$ fitting together compatibly with respect to composition of $G$'s. Now pseudonaturality is a very general phenomenon in 2-category theory, and the question is: among all such pseudonatural transformations, what makes the Schur functors special? What extra properties pick out exactly the Schur functors from this class? 
+
+The perhaps surprising answer is: no extra properties! That is, the Schur functors are uniquely characterized as polymorphically defined functors that are compatible with change of base in the sense of giving rise to a pseudonatural transformation. 
+
+Let us now make this precise. Schur functors $S$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined. Let 
+
+$$U: SymMonLinCauch \to Cat$$ 
+
+be the evident forgetful 2-functor, from the 2-category of symmetric monoidal $k$-linearly Cauchy complete categories (and symmetric monoidal linear functors, etc.) to the 2-category of categories, functors, and natural transformations. 
+
+If $U, V$: S \stackrel{\to}{\to} C$ are two 2-functors between 2-categories, we have a general notion of pseudonatural transformation: 
+
++-- {: .un_def} 
+######Definition 
+A **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each 0-cell $s$ of $S$ a 1-cell $\phi(s): U(s) \to V(s)$ of $C$, and to each 1-cell $f: s \to t$ a 2-cell $\phi(f)$:  
+$$\array{
+U(s) & \stackrel{\phi(s)}{\to} & V(s) \\
+U(f) \downarrow & \phi(f) \swArrow & \downarrow V(f) \\
+U(t) & \underset{\phi(t)}{\to} & V(t)
+}$$ 
+such that the following pasting diagram equalities hold (to be filled in). 
+=-- 
+
+In 2-category theory, the correct notion of morphism between pseudonatural transformations is that of _modification_. 
+
++-- {: .un_def} 
+######Definition 
+With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transformations. A modification $x: \phi \to \psi$ is a rule which associates to each 0-cell $s$ of $S$ a 2-cell $x(s): \phi(s) \to \psi(t)$ of $C$, such that the following compatibility condition holds (to be filled in). 
+=-- 
+
+We now propose our conceptual definition of Schur functor. 
+
++-- {: .un_def} 
+######Definition 
+A **Schur functor** is a pseudonatural transformation $U \to U$, where 
+$$U: SymMonLinCauch \to Cat$$ 
+is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations. 
+=-- 
+
+What this proposed definition makes immediately clear is that _Schur functors can be composed_. This provides a satisfying conceptual explanation of the phenomenon of _plethysm_, as we will explore in the next two sections. 
+
+## Representability ##
 
 In this discussion we assume that $SymMonLinCat_k$ is the 2-category of small symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
 
