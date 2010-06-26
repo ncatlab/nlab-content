@@ -11,7 +11,7 @@ $$F: FinVect_{\mathbb{C}} \to FinVect_{\mathbb{C}}$$
 
 on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(V)$ is obtained by taking a [[tensor power]] of $V$, say $V^{\otimes n}$, and then picking out the subspace that transforms according to a particular [[irreducible representation]] of the [[symmetric group]] $S_n$, which acts on $V^{\otimes n}$ by permuting the tensor factors.  
 
-The irreducible representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so a Schur functor of this sort is named by a Young diagram. This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[cohomology]] classes on BGL, the classifying space for [[vector bundles]].  
+The irreducible representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so a Schur functor of this sort is named by a Young diagram.  This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[cohomology]] classes on $BGL$, the classifying space for [[vector bundles]].  
 
 More generally, any finite direct sum of the Schur functors described above may be called a Schur functor.  This gives a category of Schur functors and natural transformations between them.  Since the coproduct of all the symmetric groups $S_n$ is equivalent to the groupoid of finite sets and bijections, say $\mathbb{P}$, it is not surprising that this category of Schur functors is equivalent to the functor category
 
@@ -59,9 +59,26 @@ Even though Schur functors do not respect the linear structure on homsets, the c
 
 ## Schur functors associated with Young diagrams ##
 
-Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   They also make sense on categories of group representations, chain complexes, group representations, coherent sheaves of vector spaces, and so on.  
+Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   In fact they can be applied to any [[symmetric monoidal category|symmetric monoidal]]
+[[Cauchy complete category|Cauchy complete]] $k$-[[linear category]].  Here by **_k_-linear category** we mean a category enriched over $Vect_k$, where $k$ is a fixed field of characteristic zero.  Such a category is **Cauchy complete** when:
 
-To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[category]] enriched over $Vect_k$, where $k$ is any field of characteristic zero.   (In the present context, Cauchy completeness means that $C$ has [[biproducts]], also known as [[direct sums]], and also that [[idempotent|idempotents]] [[splitting|split]].)
+* it has [[biproducts]], also known as [[direct sums]], and 
+
+* [[idempotent|idempotents]] [[split+idempotent|split]].)
+
+Henceforth we shall use $C$ to stand for any symmetric monoidal Cauchy-complete $k$-linear category.  To illustrate the full breadth of this generalization, here are a few examples:
+
+* the category of [[representation|representations]] of any [[group]] on finite-dimensional vector spaces over $k$
+
+* the category of finite-dimensional [[super vector space|super vector spaces]], [[graded vector space|super vector spaces]] or [[chain complexes]] of vector spaces over $k$
+
+* for $k = \mathbb{R}$ (or $\mathbb{C})$, the category of finite-dimensional real (or complex) [[vector bundle|vector bundles]] over any [[topological space]], or smooth vector bundles over any smooth [[manifold]]
+
+* the category of finite-dimensional algebraic vector bundles over any [[algebraic variety]] (or more generally, [[scheme]] or [[algebraic stack]]) over $k$
+
+* the category of [[coherent sheaves]] of vector spaces over any algebraic variety (or scheme or algebraic stack) over $k$
+
+These examples can be hybridized, and thus multiply indefinitely: for example, we could take coherent sheaves of representations of some algebraic supergroup on super-vector spaces, etc..  
 
 Recall that the [[group algebra]] $k[S_n]$ decomposes as a direct sum of matrix algebras 
 
@@ -174,6 +191,16 @@ and then define
 
 $$  S_R(-) = \bigoplus_i S_{\lambda_i}(-) \, .$$ 
 
++-- {: .query}
+
+[[John Baez]]: I would like to simplify the above stuff so that Young diagrams and Young tableaux are no longer needed.  I believe all we need to know is some basic stuff about finite group representations.  Thanks to Maschke's theorem, $k[S_n]$ is a direct sum of matrix algebras, one for each irrep of $S_n$.  We can thus write $1 \in k[S_n]$ as a sum of minimal central idempotents $p_\lambda$, one for each irrep $\lambda$ of $S_n$.  These give idempotents on $X^{\otimes n}$ for any object $X$ in our category $C$.  Splitting these, we get the $S_\lambda(X)$.  
+
+That's the basic idea --- if you let me, Todd, I'll flesh it out and implement it above.  I think it would make the treatment shorter and eliminate the need for the reader to know about Young diagrams, at least at this stage of the proceedings.   And think that's really cool!  It means that we don't need Young diagrams to understand what a Schur functor is.   We only need them at a later stage, when we want to determine an explicit basis of simple objects in the category of Schur functors.  In short, Young diagrams become part of a _theorem_ about Schur functors, not part of their _definition_. 
+
+Somewhere, however --- apparently not yet! --- one special fact about $S_n$ looms large, namely that its representation theory is independent of the choice of our characteristic-zero field $k$.  More precisely: for any $k$, the minimal central idempotents in $k[S_n]$ actually lie in the subring $\mathbb{Q}[S_n]$.   This may become important when we try to eliminate mention of $k$ in an even more sophisticated characterization of Schur functors.   But it's also where Young diagrams come in: there's one minimal central idempotent in $k[S_n]$ for each $n$-box Young diagram, _regardless of $k$_.
+
+=--
+
 ### Schur functors are "natural" ### 
 
 Suppose now that we have a symmetric monoidal linear functor $G: C \to D$. We can think of $G$ as a "change of base category", and Schur functors are "natural" with respect to change of base. 
@@ -190,11 +217,9 @@ where the first isomorphism uses the symmetric monoidal structure of $G$; the se
 
 The same principle holds if $R$ is any representation, obtained as a direct sum of irreducible representations $V_\lambda$ (precisely because $G$ preserves direct sums). In summary, Schur functors $S_R$ transfer "naturally" across change of base functors $G: C \to D$. 
 
-
-
 ## Conceptual description of Schur functors ##
 
-As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses: for fields $k$ of characteristic zero, they can be defined on any symmetric monoidal $k$-linear category $C$ satisfying a mild cocompleteness condition (Cauchy completeness). So, for such $C$ we can define a Schur functor 
+As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses: for fields $k$ of characteristic zero, they can be defined on any symmetric monoidal $k$-linear category $C$ satisfying a mild cocompleteness condition: Cauchy completeness. So, for such $C$ we can define a Schur functor 
 
 $$S_R: C \to C$$ 
 
@@ -208,11 +233,11 @@ D & \underset{S_{R, D}}{\to} & D
 
 commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S_{R, C}$, and moreover these $\phi_G$ fit together sensibly when we compose symmetric monoidal linear functors. 
 
-In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ are a pleasant observation, but surely this is merely general nonsense of the larger story of Schur functors, which are after all deeply studied and incredibly rich classical constructions? 
+In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ are a pleasant observation, but surely this is merely some general nonsense in the larger story of Schur functors, which are after all deeply studied and incredibly rich classical constructions? 
 
-Let us put the question another way. So, the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal linear (Cauchy complete) categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$. [Or again, not quite natural in a strict sense (of strict commutativity where $G S_{R, C} = S_{R, D} G$), but _pseudonatural_ in the sense of commuting up to isomorphism $\phi_G$.] Now pseudonaturality is a very general phenomenon in 2-category theory, and the question is: among all such pseudonatural transformations, what is special about the Schur functors? What extra properties pick out exactly the Schur functors from this class? 
+Let us put the question another way.  We have seen the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal $k$-linear Cauchy complete categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$.  More precisely: not quite natural in a strict sense, but _pseudonatural_ in the sense of making the naturality squares commute up to isomorphism. Now pseudonaturality is a very general phenomenon in 2-category theory.  So the question is: among all such pseudonatural transformations, what is special about the Schur functors? What extra properties pick out exactly the Schur functors from this class? 
 
-The perhaps surprising answer is: no extra properties! That is, the Schur functors are _precisely_ those uniformly defined functors that are (pseudo)natural with respect to change of base! 
+The perhaps surprising answer is: no extra properties! That is, the Schur functors are _precisely_ those uniformly defined functors that are pseudonatural with respect to change of base! 
 
 Let us now make this precise. Schur functors $S$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined. Let 
 
@@ -397,3 +422,5 @@ The composition of these functors corresponds to a strange monoidal structure on
 $$M\boxtimes N=\mathrm{Ind}_{S_n\wr S_m}^{S_{mn}} M\wr N.$$
 
 The Schur functors described above are those corresponding to irreducible modules over $\mathbb{Q}$. 
+
+[[!redirects Schur functors]]
