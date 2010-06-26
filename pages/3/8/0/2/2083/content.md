@@ -9,11 +9,12 @@ The classical examples are of course groups and [[rings]], but also [[modules]] 
 
 Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] is rather a synonym for (for some people strict) $\infty$-[[infinity-groupoid|groupoid]] with a single object, hence nothing to do with $\Omega$-groups. 
 
-* [wikipedia](http://en.wikipedia.org/wiki/Group_with_operators)
+* Wikipedia, [Group with operators](http://en.wikipedia.org/wiki/Group_with_operators).
 
 * N. Bourbaki, _Algebra I_, ch. 1-3. 
 
-* E I Khukhro, _Local nilpotency in varieties of groups with operators_, Russ. Acad. Sci. Sbornik Mat. 78 379, 1994[doi](http://dx.doi.org/10.1070/SM1994v078n02ABEH003475)
+* E. I. Khukhro, _Local nilpotency in varieties of groups with operators_, Russ. Acad. Sci. Sbornik Mat. 78 379, 1994. 
+[[doi](http://dx.doi.org/10.1070/SM1994v078n02ABEH003475)]
 
 * Grace Orzech, _Obstruction theory in algebraic categories I, II_, J. Pure Appl. Algebra __2__ (1972) 287-340, 315&#8211;340. 
 
