@@ -173,7 +173,7 @@ In this language, the [[Tian-Todorov theorem]] on the unobstructedness of deform
 
 The following paper is a good introduction to these ideas:
 
-* Marco Manetti, Deformation theory via differential graded Lie algebras, http://arxiv.org/abs/math/0507284
+* Marco Manetti, _Deformation theory via differential graded Lie algebras_ , &#176;([arXiv:0507284](http://arxiv.org/abs/math/0507284))
 
 
 
