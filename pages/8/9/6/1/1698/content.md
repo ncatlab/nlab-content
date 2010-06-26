@@ -92,7 +92,7 @@ $$
 $$
 
 
-Since the $(\infty,1)$-categorical homotopy pullback comopose just as ordinary [[pullback]] diagrams do, it follows that the total outer square obtained this way is itself a homotopy pullback. But by definition of te [[loop space object]] $\Omega B$ this means that the kernel of the kernel is loops:
+Since the $(\infty,1)$-categorical pullback [satisfies the pasting law](http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting) just as ordinary [[pullback]] diagrams do, it follows that the total outer square obtained this way is itself a homotopy pullback. But by definition of te [[loop space object]] $\Omega B$ this means that the kernel of the kernel is loops:
 
 $$
   ker(ker(f)) \simeq \Omega B
