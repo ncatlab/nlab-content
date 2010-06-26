@@ -1,10 +1,19 @@
 <div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+***
 [[!include differential graded objects - contents]]
 </div>
 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
-A _differential graded Lie algebra_ is a [[Lie algebra]] [[internalization|internal to]] [[chain complex]]es. If these are taken in non-negative degree, then this is as _strict_ [[L-infinity-algebra]], i.e.an $L_\infty$-algebra in which only the unary and the binary brackets may be nontrivial.
+A **differential graded Lie algebra**, or **dg-Lie algebra** for short, is a [[Lie algebra]] [[internalization|internal to]] the [[category]] of [[chain complex]]es. 
+
+Equivalerntly this is as _strict_ [[L-∞-algebra]], i.e. an $L_\infty$-algebra in which only the unary and the binary brackets may be nontrivial.
 
 
 ##Differential graded Lie algebras
@@ -83,7 +92,7 @@ For instance, in the construction of the cobar one take the tensor algebra of th
 
 _Toby_:  One should be able to say something like, 'From a category-theoretic perpsective, a differential graded Lie algebra is simply an internal Lie algebra in an appropriate category of chain complexes.'.  This advertises what Urs says, that definitions come automatically from the category-theoretic perspective, without pretending that this will be simple to anyone coming from outside that perpsective.
 
-[[Zoran Škoda]]: Tim, your question about the intricacies of cobar construction in the category of chain complexes is an interesting one, which I can not fully answer, specially in a short answer. However, still the categorical picture simplifies the viewpoint and the definition at least,and gives a direction how to proceed there as well. Given a dgca
+[[Zoran ?koda]]: Tim, your question about the intricacies of cobar construction in the category of chain complexes is an interesting one, which I can not fully answer, specially in a short answer. However, still the categorical picture simplifies the viewpoint and the definition at least,and gives a direction how to proceed there as well. Given a dgca
 C one looks at the functor Tw(C,A) assigning to an algebra A the set of solution of the [[Maurer-Cartan equation]] $d t + t*t = 0$ where $*$ is the convolution product. Cobar construction is the (co)representative of this covariant functor. If you take Tw(C,A) as a contravariant functor on the coalgebras, for fixed A, then its representative is the bar construction (this is said in different words in entry [[twisting cochain]]). So bar and cobar construction are simply representatives of very natural functors; accidents of the realization of these functors by formulas in Ch are a bit unfortunate as you pointed out.
 =--
 
@@ -184,6 +193,14 @@ $$L\star L' = \mathbb{L}(V\oplus V')/{I,I'}.$$
 
 The differential on $L\star L'$ is the unique Lie algebra derivation extending $\partial$ and $\partial'$.
 
+
+## References
+
+(...)
+
+A discussion of how formal neighbourhoods of points in [[infinity-stack]]s are governed by dg-Lie algebras:
+
+* [[Jacob Lurie]], ([pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf))
 
 [[!redirects differential graded Lie algebras]]
 [[!redirects dg-Lie algebra]]
