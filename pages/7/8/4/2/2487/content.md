@@ -1,9 +1,10 @@
 Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the group of invertible linear transformations of the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ matrices with entries in $k$ having nonzero determinant.
 
-This group can be considered as a sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ carved out by the equations saying that the [[determinant]] of a matrix is zero.  (???)
+This group can be considered as a (quasi-affine) sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ defined by the condition that the [[determinant]] of a matrix is nonzero. It can be also presented as an affine subvariety of the affine space $M_{n \times n}(k) \times k$ defined by the equation $\det(M)t = 1$ (where $M$ varies over the factor $M_{n \times n}(k)$ and $t$ over the factor $k$). 
+
 This [[variety]] is an algebraic $k$-group, and if $k$ is the field of real or complex numbers it is a [[Lie group]] over $k$.
 
-One can in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]. 
+One can in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]; it is in fact an affine group scheme represented by the commutative ring $R = \mathbb{Z}[x_{11}, \ldots, x_{n n}, t]/(det(X)t - 1)$. 
 
 See also [[orthogonal group]]; [[unitary group]].
 
