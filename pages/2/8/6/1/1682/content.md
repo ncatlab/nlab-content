@@ -2,6 +2,11 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The [[generalized (Eilenberg-Steenrod) cohomology]] theory called __$\mathop{tmf}$__ is the one represented by the [[spectrum]] that is obtained as the [[homotopy limit]] of the spectra of all [[elliptic cohomology]] theories.
 
@@ -11,6 +16,15 @@ One of the greatest recent achievements in [[algebraic topology]] is the constru
 
 From this sheaf, one can recover the Adams-type spectral sequence associated to $\mathop{tmf}$. According to [[A Survey of Elliptic Cohomology|SEC]], this sheaf is actually the [[structured generalized space|structure sheaf]] of the moduli stack classifying "oriented elliptic curves" over commutative ring spectra, or, to be in the correct variance, over [[derived stack|derived affine schemes]]. 
 
+
+## Witten genus
+
+The $tmf$-[[spectrum]] is the codomain of the [[Witten genus]]
+
+$$ 
+  Bord_{(\infty,\infty)}^{String} \to tmf
+  \,.
+$$
 
 ## References ##
 
