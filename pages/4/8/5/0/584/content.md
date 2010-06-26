@@ -1,8 +1,9 @@
 <div class="rightHandSide toc">
-
+[[!include manifolds and cobordisms - contents]]
+***
 [[!include functorial quantum field theory - contents]]
-
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -89,6 +90,25 @@ $$
 This, then, is a model for the [[(∞,n)-category]] of extended $n$-dimensional cobordisms.
 
 
+## Properties {#Properties}
+
+For $n \to \infty$ we have that $Bord_{(\infty,\infty)}$ is the [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]] ($\simeq$ [[infinite loop space]]) $\Omega^\infty M O$ that underlies the [[Thom spectrum]].
+
+Its [[homotopy group]]s are the [[cobordism ring]]s
+
+$$
+  \pi_n Bord_{(\infty,\infty)} \simeq \Omega_n
+  \,.
+$$
+
+Therefore a symmetric monoidal  $\infty$-functor
+
+$$
+  Bord_{(\infty,\infty)} \to S
+$$
+
+to some symmetric monoidal $\infty$-groupoid $S$ is a [[genus]].
+
 ## References
 
 A specific realization of this idea in terms of [[(∞,n)-category]] modeled as [[n-fold complete Segal space]] is in (definition 2.2.9, page 36)
@@ -100,6 +120,10 @@ In that article a proof of the [[cobordism hypothesis]] is indicated.
 A detailed construction of the [[(n,r)-category|(2,2)-category]] of cobordisms is
 
 * [[Chris Schommer-Pries]], [[2-category of 2-dimensional cobordisms]] .
+
+For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spectrum]] and the [[cobordism ring]] see also
+
+$
 
 Other discussions of higher categories of cobordisms are
 
