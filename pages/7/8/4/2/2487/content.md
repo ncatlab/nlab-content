@@ -1,4 +1,7 @@
-Given a commutative [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the group of invertible $n\times n$ matrices with entries in $k$. It can be considered as a sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ carved out by the equations saying that the [[determinant]] of a matrix is zero. This [[variety]] is an algebraic $k$-group, and if $k$ is the field of real, complex or $p$-adic numbers, it is a [[Lie group]] over $k$.
+Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the group of invertible linear transformations of the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ matrices with entries in $k$ having nonzero determinant.
+
+This group can be considered as a sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ carved out by the equations saying that the [[determinant]] of a matrix is zero.  (???)
+This [[variety]] is an algebraic $k$-group, and if $k$ is the field of real or complex numbers it is a [[Lie group]] over $k$.
 
 One can in fact consider the set of invertible matrices over an arbitrary unital [[ring]], not necessarily commutative. Thus $GL_n: R\mapsto GL_n(R)$ becomes a [[presheaf]] of [[group]]s on $Aff=Ring^{op}$ where one can take rings either in commutative or in noncommutative sense. In the commutative case, this functor defines a [[group scheme]]. 
 
