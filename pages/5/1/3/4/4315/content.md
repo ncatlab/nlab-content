@@ -1,4 +1,8 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 A bibundle is a [[bundle]] with compatible [[actions]] on the left and right.
