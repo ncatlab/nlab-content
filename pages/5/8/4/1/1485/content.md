@@ -1,3 +1,12 @@
+
+<div class="rightHandSide toc">
+[[!include manifolds and cobordisms - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 A manifold is a space which looks locally like a Euclidean space, most commonly a finite-dimensional Euclidean space $\mathbb{R}^n$.
