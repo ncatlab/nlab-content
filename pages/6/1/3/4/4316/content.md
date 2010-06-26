@@ -15,9 +15,9 @@ It is named after [[Sergio Doplicher]], [[Rudolf Haag]] and [[J.E. Roberts]].
 
 In the following we consider the theory starting with a [[Haag-Kastler vacuum representation]] on [[Minkowski spacetime]].
 
-The DHR condition says that **all expectation values (of all observables) should approach the vacuum expectation values, uniformly, when the region of measurement is moved away from the origin.  
+The DHR condition says that **all expectation values (of all observables) should approach the vacuum expectation values, uniformly, when the region of measurement is moved away from the origin.** This is one possible abstraction of the situation in a high energy particle collider, where the registered events are localized both in time and in space.  
 
-This excludes long range forces like electromagnetism from consideration, because, by [[Gauss' law]], the electric charge in a finite region can be measured by the flux of the field strength through a sphere of arbitrary large radius. The DHR analysis is of interest nevertheless, because it has reached a certain maturity and is therefore an excellent object to study: see for example the [[Doplicher-Roberts reconstruction theorem]]. 
+The DHR condition excludes long range forces like electromagnetism from consideration, because, by [[Stokes' theorem]], the electric charge in a finite region can be measured by the flux of the field strength through a sphere of arbitrary large radius. The DHR analysis is of interest nevertheless, because it has reached a certain maturity and is therefore an excellent object to study: see for example the [[Doplicher-Roberts reconstruction theorem]]. 
 
 ## Abstract ##
 After the definition of admissible representations we collect some notions that will enable us to state a description of all admissible representations using intrinsic properties of the quasi-local algebra.
@@ -52,7 +52,7 @@ Recall that a mapping
 $$
 \rho: \mathcal{A} \to \mathcal{A}
 $$
-is called a **unital endomorphism** if $\rho$ is linear, multiplicative ($\rho(AB) = \rho(A) \rho(B)$) and $\rho(\mathbb{1}=1)$.
+is called a **unital endomorphism** if $\rho$ is linear, multiplicative ($\rho(AB) = \rho(A) \rho(B)$) and $\rho(\mathbb{1})=1$.
 =--
 
 We will drop "unitarily" from now on.
@@ -62,15 +62,64 @@ For any representation $\pi$ and endomorphism $\rho$ the composition $\pi \circ 
 First we define "unitarily equivalent" analog to the definition for [[representations of C-star algebras]]:
 
 +-- {: .un_defn}
-Two endomorphisms $\rho_1, \rho_2$ are **unitarily equivalent** if there is a [[unitary operator]] $U \in \mathcal{A}$ such that $\rho_1 = ad(U) \rho_2 = U \rho_2 U^{-1}$
+###### Definition
+Two endomorphisms $\rho_1, \rho_2$ are **unitarily equivalent** if there is a [[unitary operator]] $U \in \mathcal{A}$ such that $\rho_1 = ad(U) \rho_2 = U \rho_2 U^{-1}$. The endomorphisms $ad(U)$ with $U \in \mathcal{A}$ are called **inner automorphisms** (of $\mathcal{A}$).
 =--
 
+The DHR selection criterion selects representations that "look like the vaccum" on the causal complement of elements of our index set (in this case the double cones). The analog for endomorphims is this:
+
++-- {: .un_defn}
+###### Definition
+An endomorphim $\rho$ is **localized** or **localizable** if there is a bounded open set $\mathcal{O} \in \mathcal{J}$ such that $\rho$ is the identity on the algebra of the causal complement $\mathcal{A}(\mathcal{O}^{\perp})$. Such an endomorphism is **localized in $\mathcal{O}$**.
+=--
+
+We have to restrict the notion of "unitarily equivalent" to a "localized" version accordingly:
+
++-- {: .un_defn}
+###### Definition
+An element $A \in \mathcal{A}$ is a **local operator** if there is a double cone K such that $A \in \mathcal{M}(K)$. In particular, a local unitary operator $U$ is a **local unitary**, and two endomorphisms are **locally unitarily equivalent** if there is a unitary as in the definition of unitarily equivalent that is a local operator. 
+=--
+
+For an endomorphism $\rho$ let $\hat \rho$ be the equivalence class with respect to locally unitarily equivalence. Then we can define:
+
+
++-- {: .un_defn}
+###### Definition
+A localized endomorphism is **transportable** if for every bounded open set $\mathcal{O} \in \mathcal{J}$ there is a $\rho_0 \in \hat \rho$ that is localized in  $\mathcal{O}$.
+=--
+
+Transportable endomorphisms naturally form the objects of a category, the [[DHR category]].
+
 ## Properties ##
-...
+
++-- {: .un_theorem}
+###### Theorem
+
+**transportable endomorphisms are compatible with the net structure**
+
+Let $\rho$ be a transportable endomorphism that is localized in the double cone $K_0$, then for all double cones $K \supset K_0$, $\rho$ maps $\mathcal{M}(K)$ to itself.
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+
+**intrinsic characterization of admissible representations**
+
+A representation $\pi$ of $\mathcal{A}$ is admissible iff there is a transportable endomorphism $\rho$ such that $\pi$ is unitarily equivalent to $\pi_0 \circ \rho$.
+=--
+
+Reference: This is theorem 2.1.3 in the book by Baumg&#228;rtel
 
 ## References ##
 
 see [[AQFT]] ff.
+
+Of particular relevance (besides the original work of Doplicher and Roberts) are 
+
+* Hellmut Baumg&#228;rtel: _Operator algebraic Methods in Quantum Field Theory. A series of lectures._ Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
+
+* Hans Halvorson, Michael M&uuml;ger, _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
 
 [[!redirects DHR analysis]]
 [[!redirects Doplicher-Haag-Roberts superselection theory]]
