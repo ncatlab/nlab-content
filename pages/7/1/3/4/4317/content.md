@@ -22,7 +22,7 @@ While a rig can have the [[extra property]] of being commutative, a rig category
 
 +-- {: .un_thm}
 ###### Conjecture ([[John Baez]])
-Using a correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the initial symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here.   In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, _up to 2-isomorphism_.
+Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the initial symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here.   In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, _up to 2-isomorphism_.
 =--
 
 
