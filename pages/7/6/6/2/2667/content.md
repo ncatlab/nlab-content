@@ -353,7 +353,7 @@ In other words,
 
 +-- {: .un_thm}
 ######Theorem 
-The category of (abstract) Schur functors is equivalent to the category of species $\mathbb{P}^{op} \to FinVect_k$. 
+The category of (abstract) Schur functors is equivalent to the functor category $[\mathbb{P}^{op},FinVect_k]$. 
 =-- 
 
 We will accordingly call a species of the form $\mathbb{P}^{op} \to FinVect_k$ a **Schur object**. 
