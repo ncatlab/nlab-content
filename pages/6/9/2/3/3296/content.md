@@ -83,3 +83,5 @@ The [[Chern character]] is a natural characteristic class with values in real co
 * Johan L. Dupont, _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, 2003, 115 pp. [pdf](http://data.imf.au.dk/publications/ln/2003/imf-ln-2003-69.pdf)
 
 * R. Bott, L. W. Tu, _Differential forms in algebraic topology_, GTM __82__, Springer 1982.
+
+[[!redirects characteristic classes]]
