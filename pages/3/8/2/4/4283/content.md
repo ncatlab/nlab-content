@@ -30,11 +30,16 @@ Example:
  
 ## References ##
 
-See both [[AQFT]], [[QFT]] and [[Haag-Kastler axioms]]
-
 For the Wick--Wightman--Wigner picture of superselection sectors see
 
 * Wick, Wigner, Wightman: _The intrinsic parity of elementary particles_ (Phys. Rev. 88, 101-105, 1952)
+
+A brief survey of that is in [section 2.3](http://iopscience.iop.org/0034-4885/38/7/001/pdf/0034-4885_38_7_001.pdf#page=781)
+
+* R. F. Streater, _Outline of axiomatic relativistic quantum field theory_ ([pdf](http://iopscience.iop.org/0034-4885/38/7/001/pdf/0034-4885_38_7_001.pdf))
+
+See also [[AQFT]], [[QFT]] and [[Haag-Kastler axioms]].
+
 
 
 [[!redirects superselection theory]]
