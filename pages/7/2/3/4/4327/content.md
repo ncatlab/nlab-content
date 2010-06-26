@@ -1,0 +1,3 @@
+Given a [[field]] $k$, the **special linear group** $SL(n,k)$ (or $SL_n(k)$) is the group of linear transformations that preserve the [[volume form]] on the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ matrices with entries in $k$ having determinant $1$.
+
+This group can be considered as a sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ carved out by the equations saying that the [[determinant]] of a matrix is 1.  This [[variety]] is an algebraic group over $k$, and if $k$ is the field of real or complex numbers it is a [[Lie group]] over $k$.
