@@ -23,7 +23,7 @@ The cobordism ring here may be replaced by rings of cobordisms with extra struct
 
 ## Higher category theory interpretation
 
-The notion of genus finds its natural interpretation in [[higher category theory]], where it is refined to a morphism of [[symmetric monoidal (infinity,1)-category]] [[∞-groupoid]]s
+The notion of genus finds its natural interpretation in [[higher category theory]], where it is refined to a morphism of [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]]s
 
 $$
   \sigma : Bord_{(\infty,\infty)} \to S
