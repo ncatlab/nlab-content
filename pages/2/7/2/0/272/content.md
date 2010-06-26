@@ -70,11 +70,11 @@ This is, among other things, the ideal starting point for pure mathematicians wh
 
 An account written by mathematicians for mathematicians is this:
 
-* Hellmut Baumg&#228;rtel, Manfred Wollenberg: Causal nets of operator algebras, Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
+* Hellmut Baumg&#228;rtel, Manfred Wollenberg: _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
 
 and this:
 
-* Hellmut Baumg&#228;rtel: Operator algebraic Methods in Quantum Field Theory. A series of lectures. Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
+* Hellmut Baumg&#228;rtel: _Operator algebraic Methods in Quantum Field Theory. A series of lectures._ Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
 
 There is much more literature one should point to here, eventually. For instance for the connection between the AQFT axioms and the perturbative Feynman-integral techniques much used in [[quantum field theory]], see
 
