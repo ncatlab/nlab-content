@@ -12,17 +12,17 @@ A [[topological space|topological]] spectrum is an object in the universal [[sta
 
 Recall that the central characterization of a [[stable (∞,1)-category]] is that all objects $A$ have a [[delooping]] object $\mathbf{B}A$ that is written $\Sigma A$ in this context and called the _suspension_ of $A$. Thus a spectrum is like a [[topological space]] or [[∞-groupoid]] that may be [[delooping|delooped]] indefinitely.
 
+### Connective spectra
+
 In fact all ordinary [[topological spaces]] and [[∞-groupoids]] that have the property that all their [[deloopings]] exist give rise to special examples of spectra.  These are called the
 
-* **connective spectra**
+* **[[connective spectrum|connective spectra]]**
 
 * or **infinite [[loop spaces]]** 
 
-* or [[groupal n-groupoid|grouplike]] [[k-tuply monoidal n-category|stably monoidal]] $\infty$-[[∞-groupoid|groupoids]]
+* or [[group object in an (infinity,1)-category|grouplike]] [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoid]]s.
 
-* or [[symmetric monoidal (∞,1)-category|symmetic monoidal ∞-groupoids]].
-
-Connective spectra form a sub [[(∞,1)-category]] of spectra
+Connective spectra form a [[sub-(∞,1)-category]] of spectra
 
 $$
   Top \stackrel{\supset}{\leftarrow} ConnectSp(Top) \hookrightarrow Sp(Top)
@@ -99,7 +99,7 @@ One realization of this kind of idea is the notion of [[combinatorial spectrum]]
 
 * [[tmf]]
 
-* [[complex cobordism spectrum]]
+* [[Thom spectrum]], [[complex cobordism spectrum]]
 
 
 
