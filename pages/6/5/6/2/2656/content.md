@@ -3,6 +3,60 @@
 * automatic table of contents goes here
 {:toc}
 
+## The idea
+
+Young diagrams are used to describe many objects in algebra and combinatorics, including:
+
+* integer partitions.  For example, the integer partition 
+
+$$ 17 = 5 + 4 + 4 + 2 + 1 + 1 $$ 
+
+is drawn as the Young diagram
+
++-- {: #Young style="text-align:center"}
+<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <desc>Young diagram (5,4,4,2,1,1)</desc>
+ <g>
+  <title>Layer 1</title>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="30" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="50" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+  <rect x="70" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_4"/>
+  <rect x="90" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_5"/>
+  <rect x="10" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_6"/>
+  <rect x="30" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_7"/>
+  <rect x="50" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_8"/>
+  <rect x="70" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_9"/>
+  <rect x="10" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_10"/>
+  <rect x="30" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_11"/>
+  <rect x="50" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_12"/>
+  <rect x="70" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_13"/>
+  <rect x="10" y="70" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_14"/>
+  <rect x="30" y="70" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_15"/>
+  <rect x="10" y="90" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_16"/>
+  <rect x="10" y="110" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_17"/>
+ </g>
+</svg>
+=--
+
+* irreducible representations of the [[symmetric group|symmetric groups]] $S_n$
+
+* irreducible algebraic representations of the [[special linear group|special linear groups]] $SL(N)$
+
+* irreducible unitary representations of the [[special unitary group|special unitary groups]] $SU(N)$
+
+* [[characteristic classes]] for the [[general linear group|general linear groups]] $GL(N)$ 
+
+* [[characteristic classes]] for the [[unitary group|unitary groups]] $U(N)$
+
+* elementary [[symmetric functions]]
+
+* [[Schur functors]]
+
+* basis vectors for the free [[lambda-ring]] on one generator, $\Lambda$
+
+
 ## Young diagram 
 
 A **Young diagram** $F^\lambda$ also called **Ferrers diagram** is a graphical representation of an unordered integer partition $\lambda = (\lambda_1\ge\lambda_2\ge\ldots\ge\lambda_l$). If $\lambda\vdash n$ is a partition of $n$ then the Young
@@ -97,6 +151,3 @@ partitions, and let $\nu \le \mu$ be defined as $\forall i : \nu_i\le \mu_i$ (po
 * conjugation, weight, length extend to skew diagrams accordingly.
 
 A **filling** of a Young diagram with elements from a set $S$ is called a [[Young tableau]].
-
-
-See also [[Schur functor]]. 
