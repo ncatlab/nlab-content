@@ -190,9 +190,11 @@ where the first isomorphism uses the symmetric monoidal structure of $G$; the se
 
 The same principle holds if $R$ is any representation, obtained as a direct sum of irreducible representations $V_\lambda$ (precisely because $G$ preserves direct sums). In summary, Schur functors $S_R$ transfer "naturally" across change of base functors $G: C \to D$. 
 
+
+
 ## Conceptual description of Schur functors ##
 
-As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses: for fields $k$ of characteristic zero, they can be defined on any symmetric monoidal $k$-linear category $C$ satisfying the very mild cocompleteness condition of Cauchy completeness. So, for such $C$ we can define a Schur functor 
+As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses: for fields $k$ of characteristic zero, they can be defined on any symmetric monoidal $k$-linear category $C$ satisfying a mild cocompleteness condition (Cauchy completeness). So, for such $C$ we can define a Schur functor 
 
 $$S_R: C \to C$$ 
 
@@ -204,13 +206,13 @@ G \downarrow & & \downarrow G \\
 D & \underset{S_{R, D}}{\to} & D
 }$$ 
 
-commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S_{R, C}$, and moreover these $\phi_G$ fit together sensibly with respect to composites of symmetric monoidal linear functors. 
+commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S_{R, C}$, and moreover these $\phi_G$ fit together sensibly when we compose symmetric monoidal linear functors. 
 
-In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ make for a pleasant observation, but surely this is merely general nonsense of the larger story of Schur functors, which are after all deeply studied and incredibly rich classical constructions? 
+In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ are a pleasant observation, but surely this is merely general nonsense of the larger story of Schur functors, which are after all deeply studied and incredibly rich classical constructions? 
 
-Let us put the question another way. So, the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal linear (Cauchy complete) categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$. [Or again, not quite natural in a strict sense (of strict commutativity where $G S_{R, C} = S_{R, D} G$), but "_pseudonatural_" in the sense of commuting up to isomorphism $\phi_G$, with the $\phi_G$ fitting together compatibly with respect to composition of $G$'s.] Now pseudonaturality is a very general phenomenon in 2-category theory, and the question is: among all such pseudonatural transformations, what makes the Schur functors special? What extra properties pick out exactly the Schur functors from this class? 
+Let us put the question another way. So, the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal linear (Cauchy complete) categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$. [Or again, not quite natural in a strict sense (of strict commutativity where $G S_{R, C} = S_{R, D} G$), but _pseudonatural_ in the sense of commuting up to isomorphism $\phi_G$.] Now pseudonaturality is a very general phenomenon in 2-category theory, and the question is: among all such pseudonatural transformations, what is special about the Schur functors? What extra properties pick out exactly the Schur functors from this class? 
 
-The perhaps surprising answer is: no extra properties! That is, the Schur functors are uniquely characterized as uniformly defined functors that are (pseudo)natural with change of base! 
+The perhaps surprising answer is: no extra properties! That is, the Schur functors are _precisely_ those uniformly defined functors that are (pseudo)natural with respect to change of base! 
 
 Let us now make this precise. Schur functors $S$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined. Let 
 
@@ -253,6 +255,8 @@ What this proposed definition makes immediately clear is that _Schur functors ar
 
 Again, let $SymMonLinCauch_k$ is the 2-category of small symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
 
+To build a bridge from our abstract description of Schur functors as pseudonatural transformations to the more classical descriptions, we prove the following key result. 
+
 +-- {: .un_thm}
 ######Theorem 
 The underlying functor 
@@ -262,9 +266,9 @@ is representable, in fact is represented by the Cauchy completion of the $k$-lin
 
 +-- {: .proof} 
 ######Proof (Sketch)
-It is well-known that $\mathbb{P}$ is the representing object for the underlying 2-functor 
+It is well-known that the permutation category $\mathbb{P}$, whose objects are integers $m \geq 0$ and whose morphisms are precisely automorphisms $m \to m$ given by permutation groups $S_m$, is the representing object for the underlying 2-functor 
 
-$$U_0: SymMonCat \to Cat$$
+$$U_0: SymMonCat \to Cat.$$
 
 Let $SymMonLin$ denote the 2-category of symmetric monoidal $k$-linear (but not necessarily linearly Cauchy complete) categories, and let $Lin$ denote the 2-category of small $k$-linear categories. Let $k(-): Cat \to Lin$ denote $k$-linearization, given by change of hom-base 
 
@@ -310,24 +314,81 @@ $$(k S_n)^{op} \to Vect_k$$
 
 which are left adjoint to modules $k S_n \to Vect_k$. As is well known, these adjoint modules are the finitely generated projective right modules over $S_n$. 
 
-Hence an object of the Cauchy completion $\widebar{k \mathbb{P}}$ is given by a sequence of finitely generated projective $S_n$-modules, one for each $n$. 
+Hence an object of the Cauchy completion $\widebar{k \mathbb{P}}$ is given by a sequence of finitely generated projective $S_n$-modules, one for each $n$. Now in characteristic zero, Maschke's theorem (all short exact sequences of $S_n$-modules split) implies that all finitely generated $S_n$-modules are projective. Thus, finitely generated projective $S_n$-modules boil down to finite-dimensional representations of $S_n$. 
 
-Now in characteristic zero, Maschke's theorem (all short exact sequences of $S_n$-modules split) implies that all finitely generated $S_n$-modules are projective. Thus, finitely generated projective $S_n$-modules boil down to finite-dimensional representations of $S_n$. 
-
-Therefore an object of the Cauchy completion is a sequence of finite-dimensional $S_n$-modules, in other words a functor $\mathbb{P}^{op} \to Vect_k$ with values in spaces of finite dimension. In summary, then, we have the following result. 
+Therefore an object of the Cauchy completion is a sequence of finite-dimensional $S_n$-modules, in other words a functor $\mathbb{P}^{op} \to Vect_k$ valued in finite-dimensional spaces. In summary, we have the following result. 
 
 +-- {: .un_thm} 
 ######Theorem 
 The representing object $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of functors $\mathbb{P}^{op} \to FinVect_k$. 
 =-- 
 
-The linear symmetric monoidal structure is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is given by group homomorphisms 
+Functors of the form $\mathbb{P}^{op} \to V$ go by many names, but here we will call them _species_ (after Joyal). 
+
+The linear symmetric monoidal structure on species is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is at the object level given by adding integers, and on the morphism level given by group homomorphisms 
 
 $$S_m \times S_n \to S_{m+n}$$ 
 
-To be continued.    
+which juxtapose permutations. This is linearized to give algebra maps 
+
+$$k[S_m] \otimes k[S_n] \to k[S_{m+n}]$$ 
+
+which gives the structure of $k\mathbb{P}$. This structure uniquely extends to the Cauchy completion $\widebar{k\mathbb{P}}$, which is intermediate between $k\mathbb{P}$ and $Vect_k$-valued presheaves on $k\mathbb{P}$, according to Day convolution. The general formula for presheaves (species) $F, G: \mathbb{P}^{op} \to Vect_k$ is 
+
+$$(F \otimes G)(n) = \sum_{j+k = n} (F(j) \otimes G(k)) \otimes_{S_j \times S_k} S_n$$
+
+or, in other notation, 
+
+$$(F \otimes G)(n) = \sum_{j+k = n} Ind_{S_j \times S_k}^{S_n} F(j) \otimes G(k)$$
+
+and by restriction this formula gives the tensor product on species $F$ valued in finite-dimensional spaces. 
+
+This completes the description of the representing object $\widebar{k\mathbb{P}}$. 
+
+Now, having defined Schur functors abstractly as pseudonatural transformations $U \to U$, the representability theorem together with the 2-categorical Yoneda lemma means that the category of Schur functors is equivalent to the category of symmetric monoidal linear functors on $\widebar{k \mathbb{P}}$. Accordingly, we calculate 
+
+$$[U, U] \cong SymMonLinCauch(\widebar{k\mathbb{P}}, \widebar{k\mathbb{P}}) \cong U(\widebar{k\mathbb{P}})$$ 
+
+In other words, 
+
++-- {: .un_thm}
+######Theorem 
+The category of (abstract) Schur functors is equivalent to the category of species $\mathbb{P}^{op} \to FinVect_k$. 
+=-- 
+
+We will accordingly call a species of the form $\mathbb{P}^{op} \to FinVect_k$ a **Schur object**. 
+
+NB: This theorem refers only to the underlying category. In other words, this category certainy has linear tensor category structure as well, but this structure is not respected by Schur functor composition which we consider next. 
 
 ## Composition of Schur functors ##
+
+Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence to a monoidal structure on the underlying category of Schur objects $\mathbb{P}^{op} \to FinVect_k$, which we proceed to analyze. 
+
+It may be easier to do this in reverse. Start with a Schur object, i.e., a functor: 
+
+$$1 \stackrel{F}{\to} [\mathbb{P}^{op}, FinVect_k].$$ 
+
+This induces a symmetric monoidal functor, unique up to (unique) symmetric monoidal isomorphism: 
+
+$$\mathbb{P} \stackrel{F^\sim}{\to} [\mathbb{P}^{op}, FinVect_k]: m \mapsto F^{\otimes m}$$ 
+
+Here $F^{\otimes m}$ is a Day convolution product of $m$ copies of $F$. Finally, the functor $F^\sim$ is linearized and extended (uniquely) to the linear Cauchy completion, to give a symmetric monoidal linear functor on $\widebar{k \mathbb{P}}$. The efficient tensor product description is 
+
+$$- \otimes_{\mathbb{P}} F^\sim: [\mathbb{P}^{op}, FinVect_k] \to [\mathbb{P}^{op}, FinVect_k]$$ 
+
+as this manifestly preserves colimits in the blank argument and therefore all colimits needed for the Cauchy completion. (And since the extension to the Cauchy completion is unique, this formula must be correct!) 
+
+In the language of species, this construction is called the _substitution product_, and is denoted $G \circ F$. Thus, 
+
+$$G \circ F = G \otimes_{\mathbb{P}} F^\sim$$ 
+
+In notation which looks slightly less abstract, this is the Schur object given by the formula 
+
+$$(G \circ F)(n) = \bigoplus_{n \geq 0} G(n) \otimes_{S_n} F^{\otimes n}$$ 
+
+although 
+
+(To be continued.) 
 
 There's a Schur functor from a symmetric monoidal category to itself for every $\mathbb{Z}[S_n]$ module $M$, given by 
 $$S_M(X)=X^{\otimes n}\otimes_{\Z[S_n]}M.$$
@@ -336,5 +397,3 @@ The composition of these functors corresponds to a strange monoidal structure on
 $$M\boxtimes N=\mathrm{Ind}_{S_n\wr S_m}^{S_{mn}} M\wr N.$$
 
 The Schur functors described above are those corresponding to irreducible modules over $\mathbb{Q}$. 
-
-_Todd_: To be related to composition of analytic functors a la Joyal species... We also have material on plethysm, Tall-Wraith monoid, etc. to be linked to. 
