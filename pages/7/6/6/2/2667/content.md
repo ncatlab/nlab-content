@@ -174,17 +174,21 @@ and then define
 
 $$  S_R(-) = \bigoplus_i S_{\lambda_i}(-) \, .$$ 
 
-## Schur functors as actions of the plethystic monoidal category ##
+### Schur functors are "natural" ### 
 
-There's a Schur functor from a symmetric monoidal category to itself for every $\mathbb{Z}[S_n]$ module $M$, given by 
-$$S_M(X)=X^{\otimes n}\otimes_{\Z[S_n]}M.$$
+Suppose now that we have a symmetric monoidal linear functor $G: C \to D$. We can think of $G$ as a "change of base category", and Schur functors are "natural" with respect to change of base. 
 
-The composition of these functors corresponds to a strange monoidal structure on $\oplus_n\mathbb{Z}[S_n]$-mod, given by plethysm:
-$$M\boxtimes N=\mathrm{Ind}_{S_n\wr S_m}^{S_{mn}} M\wr N.$$
+That is to say: if $G$ is a symmetric monoidal $k$-linear functor $C \to D$, then by definition $G$ preserves tensor products (at least up to coherent natural isomorphism), and $G$ will automatically preserve both direct sums (by linearity) as well as splittings of idempotents (as all functors do). Therefore, for a Schur functor $S_\lambda(X) = V_\lambda \otimes_{S_n} X^{\otimes n}$, we have natural isomorphisms 
 
-The Schur functors described above are those corresponding to irreducible modules over $\mathbb{Q}$. 
+$$\array{
+S_{\lambda, D} (G X) = V_{\lambda, D} \otimes_{S_n} (G X)^{\otimes n} & \cong & V_{\lambda, D} \otimes_{S_n} G(X^{\otimes n}) \\
+ & \cong & G(V_{\lambda, C}) \otimes_{S_n} G(X^{\otimes n}) \\
+ & \cong & G(V_{\lambda, C} \otimes_{S_n} X^{\otimes n})
+}$$ 
 
-_Todd_: To be related to composition of analytic functors a la Joyal species... We also have material on plethysm, Tall-Wraith monoid, etc. to be linked to. 
+where the first isomorphism uses the symmetric monoidal structure of $G$; the second uses the fact that $V_{\lambda, D} \cong G(V_{\lambda, C})$ because there is, up to isomorphism, only one symmetric monoidal linear functor $FinVect_k \to D$; the third uses the symmetric monoidal structure again and preservation of idempotent splittings. 
+
+The same principle holds if $R$ is any representation, obtained as a direct sum of irreducible representations $V_\lambda$ (precisely because $G$ preserves direct sums). In summary, Schur functors $S_R$ transfer "naturally" across change of base functors $G: C \to D$. 
 
 ## Conceptual description of Schur functors ##
 
@@ -192,7 +196,7 @@ As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses
 
 $$S_R: C \to C$$ 
 
-and moreover, if $G: C \to D$ is a symmetric monoidal $k$-linear functor, the Schur functors on $C$ and $D$ are compatible in an evident sense, that the diagram 
+and moreover, if $G: C \to D$ is a symmetric monoidal $k$-linear functor, the Schur functors on $C$ and $D$ are "naturally" compatible, in the sense that the diagram 
 
 $$\array{
 C & \stackrel{S_{R, C}}{\to} & C \\
@@ -200,7 +204,7 @@ G \downarrow & & \downarrow G \\
 D & \underset{S_{R, D}}{\to} & D
 }$$ 
 
-commutes up to a canonical isomorphism $\phi_G: G S_R \cong S_R G$, and these $\phi_G$ are suitably compatible with respect to composites of symmetric monoidal linear functors. 
+commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S_{R, C}$, and moreover these $\phi_G$ are suitably compatible with composing symmetric monoidal linear functors. 
 
 In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The presence of the isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ may be a pleasant observation, but surely this is only exploiting a small part of the story of Schur functors, which are after all deeply studied and incredibly rich classical structures? 
 
@@ -214,7 +218,7 @@ $$U: SymMonLinCauch \to Cat$$
 
 be the evident forgetful 2-functor, from the 2-category of symmetric monoidal $k$-linearly Cauchy complete categories (and symmetric monoidal linear functors, etc.) to the 2-category of categories, functors, and natural transformations. 
 
-If $U, V$: S \stackrel{\to}{\to} C$ are two 2-functors between 2-categories, we have a general notion of pseudonatural transformation: 
+If $U, V: S \stackrel{\to}{\to} C$ are two 2-functors between 2-categories, we have a general notion of pseudonatural transformation: 
 
 +-- {: .un_def} 
 ######Definition 
@@ -231,7 +235,7 @@ In 2-category theory, the correct notion of morphism between pseudonatural trans
 
 +-- {: .un_def} 
 ######Definition 
-With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transformations. A modification $x: \phi \to \psi$ is a rule which associates to each 0-cell $s$ of $S$ a 2-cell $x(s): \phi(s) \to \psi(t)$ of $C$, such that the following compatibility condition holds (to be filled in). 
+With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transformations. A **modification** $x: \phi \to \psi$ is a rule which associates to each 0-cell $s$ of $S$ a 2-cell $x(s): \phi(s) \to \psi(t)$ of $C$, such that the following compatibility condition holds (to be filled in). 
 =-- 
 
 We now propose our conceptual definition of Schur functor. 
@@ -243,7 +247,7 @@ $$U: SymMonLinCauch \to Cat$$
 is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations. 
 =-- 
 
-What this proposed definition makes immediately clear is that _Schur functors can be composed_. This provides a satisfying conceptual explanation of the phenomenon of _plethysm_, as we will explore in the next two sections. 
+What this proposed definition makes immediately clear is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections. 
 
 ## Representability ##
 
@@ -305,3 +309,15 @@ $$(k S_n)^{op} \to Vect_k$$
 which are left adjoint to modules $k S_n \to Vect_k$. These are well known as the finitely generated projective modules over $S_n$. (Of course, in characteristic zero, all finitely generated $S_n$-modules are projective, by Maschke's theorem.) 
 
 To be continued. 
+
+## Schur functors as actions of the plethystic monoidal category ##
+
+There's a Schur functor from a symmetric monoidal category to itself for every $\mathbb{Z}[S_n]$ module $M$, given by 
+$$S_M(X)=X^{\otimes n}\otimes_{\Z[S_n]}M.$$
+
+The composition of these functors corresponds to a strange monoidal structure on $\oplus_n\mathbb{Z}[S_n]$-mod, given by plethysm:
+$$M\boxtimes N=\mathrm{Ind}_{S_n\wr S_m}^{S_{mn}} M\wr N.$$
+
+The Schur functors described above are those corresponding to irreducible modules over $\mathbb{Q}$. 
+
+_Todd_: To be related to composition of analytic functors a la Joyal species... We also have material on plethysm, Tall-Wraith monoid, etc. to be linked to. 
