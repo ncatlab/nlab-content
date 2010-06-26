@@ -2,6 +2,10 @@
 
 If a [[derivator]] is regarded as a "shadow" of an $(\infty,1)$-category, then an *enriched derivator* is an analogous shadow of an [[enriched category|enriched]] $(\infty,1)$-category.
 
++--{: .query}
+[[Peter LeFanu Lumsdaine]]: What does "enriched $(\infty,1)$-category" mean here? --- just one of the models for $(\infty,1)$-categories as (Top-, Kan-, SSet-)enriched categories, or actually some further idea of "$(\infty,1)$-category enriched in something"?  (The latter sounds an interesting idea, but I'm not quite sure how to imagine it!)
+=--
+
 ## Definitions
 
 There are several different things in which one could try to enrich a derivator.  It would be nice to be able to remain completely in the world of derivators by enriching a derivator over a [[monoidal derivator]].  However, it seems unlikely that the naive notion of monoidal derivator (a [[pseudomonoid]] in the 2-category of derivators) contains enough information to make this feasible, so we either have to augment that notion somehow, or enrich over something else.  At present, the latter is easier.
