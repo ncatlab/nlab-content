@@ -63,9 +63,9 @@ Symmetric functions play a fundamental role throughout [[representation theory]]
 
 We may also obtain $\Lambda(\mathbb{C})$ by taking the [[Grothendieck group]] of the symmetric monoidal abelian category of $\mathbb{C}$-linear [[species]].  This category is defined to be the functor category
 
-$$ [S, Fin Vect_{\mathbb{C}}] $$
+$$ [\mathbb{P}, Fin Vect_{\mathbb{C}}] $$
 
-where $S$ is the groupoid of [[finite sets]] and bijections, and $\FinVect_{\mathbb{C}}$ is the category of finite-dimensional complex vector spaces and linear maps.  This becomes a symmetric monoidal category thanks to [[Day convolution]].
+where $\mathbb{P}$ is the groupoid of [[finite sets]] and bijections, and $\FinVect_{\mathbb{C}}$ is the category of finite-dimensional complex vector spaces and linear maps.  This becomes a symmetric monoidal category thanks to [[Day convolution]].  For more on this, see [[Schur functor]].
 
 +-- {: .query}
 [[John Baez]]: Do we need the complex numbers in the previous paragraph, or will any field do equally well?  Maybe just any field of characteristic zero?  I really want to know!  Another way to put my question: take the category of representations of the permutation group $S_n$ in finite-dimensional vector spaces over the field $k$.  Take the Grothendieck group of this.  Does this depend on $k$?  Does something weird happen when $n$ is divisible by $char k$? 
@@ -84,3 +84,7 @@ _Toby_:  I\'m at the UCR library right now, and Serre\'s book is checked out, so
 _Gon&#231;alo Marques_: There\'s an exercise at the end of section 6.1 of Serre\'s book (page 64 of the french edition) that says that if $k$ is a field of characteristic $p \gt 0$ then the group algebra of the group $G$ is semisimple iff $p$ doesn\'t divide the order of $G$
 
 =--
+
+[[!redirects symmetric functions]]
+[[!redirects symmetric polynomial]]
+[[!redirects symmetric polynomials]]
