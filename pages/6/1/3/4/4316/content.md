@@ -20,11 +20,12 @@ The DHR condition says that **all expectation values (of all observables) should
 This excludes long range forces like electromagnetism from consideration, because, by [[Gauss' law]], the electric charge in a finite region can be measured by the flux of the field strength through a sphere of arbitrary large radius. The DHR analysis is of interest nevertheless, because it has reached a certain maturity and is therefore an excellent object to study: see for example the [[Doplicher-Roberts reconstruction theorem]]. 
 
 ## Abstract ##
+After the definition of admissible representations we collect some notions that will enable us to state a description of all admissible representations using intrinsic properties of the quasi-local algebra.
 
 ## Definition ##
 We start with a [[Haag-Kastler vacuum representation]] that we assume to be irreducible and [[Haag dual]].
 
-Let $\pi_0$ be the vacuum representation from now on, K denote double cones and $\mathcal{J}_0$ be the [[causal index set]] of double cones.
+Let $\pi_0$ be the vacuum representation from now on, K denote double cones and $\mathcal{J}_0$ be the [[causal index set]] of double cones, just as $\mathcal{O}$ are bounded open sets and $\mathcal{J}$ the [[causal index set]] of bounded open sets.
 
 Recall that the [[C-star algebra]]
 
@@ -44,6 +45,25 @@ A representation $\pi$ of the local algebra $\mathcal{A}$ is called (DHR) **admi
 =--
 
 Note that the equivalence of the representations is required for the causal complement of _all_ double cones, not a special one, so that the characterization that "the representations can not be distinguished at space-like infinity" is misleading.  
+
++-- {: .un_defn}
+###### Definition
+Recall that a mapping 
+$$
+\rho: \mathcal{A} \to \mathcal{A}
+$$
+is called a **unital endomorphism** if $\rho$ is linear, multiplicative ($\rho(AB) = \rho(A) \rho(B)$) and $\rho(\mathbb{1}=1)$.
+=--
+
+We will drop "unitarily" from now on.
+
+For any representation $\pi$ and endomorphism $\rho$ the composition $\pi \circ \rho$ is another representation. For this reason one can hope to gain some insights into the representations by studying the endomorphisms, while the set of endomorphisms has certainly more structure than that of representations: For example, endomorphisms may have inverses, and endomorphisms form a [[monoid]] by composition.
+
+First we define "unitarily equivalent" analog to the definition for [[representations of C-star algebras]]:
+
++-- {: .un_defn}
+Two endomorphisms $\rho_1, \rho_2$ are **unitarily equivalent** if there is a [[unitary operator]] $U \in \mathcal{A}$ such that $\rho_1 = ad(U) \rho_2 = U \rho_2 U^{-1}$
+=--
 
 ## Properties ##
 ...
