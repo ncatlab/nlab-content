@@ -40,15 +40,11 @@ is drawn as the Young diagram
 </svg>
 =--
 
-* irreducible representations of the [[symmetric group|symmetric groups]] $S_n$
+* irreducible representations of the [[symmetric group|symmetric groups]] $S_n$ over any field of characteristic zero
 
-* irreducible algebraic representations of the [[special linear group|special linear groups]] $SL(N)$
+* irreducible algebraic representations of the [[special linear group|special linear groups]] $SL(N,\mathbb{C})$
 
 * irreducible unitary representations of the [[special unitary group|special unitary groups]] $SU(N)$
-
-* [[characteristic classes]] for the [[general linear group|general linear groups]] $GL(N)$ 
-
-* [[characteristic classes]] for the [[unitary group|unitary groups]] $U(N)$
 
 * elementary [[symmetric functions]]
 
@@ -56,10 +52,16 @@ is drawn as the Young diagram
 
 * basis vectors for the free [[lambda-ring]] on one generator, $\Lambda$
 
+* [[flag varieties]] for the [[special linear groups]] $SL(N,k)$, where $k$ is any field
+
+* [[characteristic classes]] for complex [[vector bundles]]: that is, [[cohomology]] classes on the [[classifying spaces]] of the [[general linear groups]] $GL(N,\mathbb{C})$
+
+* [[characteristic classes]] for hemitian vector bundles: that is, [[cohomology]] classes on the [classifying spaces]] of the [[unitary groups]] $U(N)$
+
 
 ## Young diagram 
 
-A **Young diagram** $F^\lambda$ also called **Ferrers diagram** is a graphical representation of an unordered integer partition $\lambda = (\lambda_1\ge\lambda_2\ge\ldots\ge\lambda_l$). If $\lambda\vdash n$ is a partition of $n$ then the Young
+A **Young diagram** $F^\lambda$, also called **Ferrers diagram**, is a graphical representation of an unordered integer partition $\lambda = (\lambda_1\ge\lambda_2\ge\ldots\ge\lambda_l$). If $\lambda\vdash n$ is a partition of $n$ then the Young
 diagram has $n$ boxes. A partition can be addressed as a multiset over $\mathbb{N}$.
 
 There are two widely used such representations. The _English_ one using matrix
@@ -145,9 +147,13 @@ partitions, and let $\nu \le \mu$ be defined as $\forall i : \nu_i\le \mu_i$ (po
 </svg>
 =--
 
-* A skew diagram is called connected if all boxes share an edge.
-* A skew diagram is called a horizontal strip if every column contains at most one box.
-* A skew diagram is called vertical strip if every row contains at most one box.
+* A skew diagram is called **connected** if all boxes share an edge.
+* A skew diagram is called a **horizontal strip** if every column contains at most one box.
+* A skew diagram is called a **vertical strip** if every row contains at most one box.
 * conjugation, weight, length extend to skew diagrams accordingly.
 
 A **filling** of a Young diagram with elements from a set $S$ is called a [[Young tableau]].
+
+[[!redirects Young diagrams]]
+[[!redirects Ferrers diagram]]
+[[!redirects Ferrers diagrams]]
