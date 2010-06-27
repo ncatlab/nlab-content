@@ -56,7 +56,7 @@ where the the right-hand expression standard for the category with
 
 This category could be called the 'category of finite-dimensional complex representations of the groupoid of finite sets', but following the work of Joyal we shall call it the 'category of linear [[species]]'.  
 
-The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category $Schur_{\mathbb{C}}$
+The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category $Schur$
 has all these features.  But it is also [[semisimple abelian category|semisimple]]: indeed, every Schur functor is a finite direct sum of 'irreducible' Schur functors, which correspond to Young diagrams.
 
 The category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets --- and since product distributes over disjoint union, $\mathbb{P}$ is a [[rig category]].  This is all reflected in the category of Schur functors.
@@ -91,7 +91,7 @@ More representative examples of Schur functors include:
 
 Even though Schur functors do not respect the linear structure on homsets, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[simple objects]], decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
-## Schur functors on symmetric monoidal Cauchy-complete linear categories ##
+## Schur functors associated with Young diagrams ##
 
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   In fact they can be applied to any [[symmetric monoidal category|symmetric monoidal]]
 [[Cauchy complete category|Cauchy complete]] $k$-[[linear category]].  Here by **_k_-linear category** we mean a category enriched over $Vect_k$, where $k$ is a fixed field of characteristic zero.  Such a category is **Cauchy complete** when:
@@ -299,7 +299,7 @@ We now propose our conceptual definition of Schur functor:
 ######Definition 
 A **Schur functor** is a pseudonatural transformation $U \to U$, where 
 $$U: SymMonLinCauch \to Cat$$ 
-is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations.  For any field of characteristic zero, Schur functors and morphisms between them form a category $Schur_k$.
+is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations. 
 =-- 
 
 What this proposed definition makes immediately clear is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections. 
@@ -373,6 +373,23 @@ And then, in your big theorem below, you seem to be saying that in the examples 
   
 Very cool stuff.
 
+[[Todd Trimble|Todd]]: I'll respond in bits and pieces. Yes, precisely, you can rephrase the result I stated about $\mathbb{P}$ in terms of the free symmetric monoidal category on one generator. Thus, for the underlying functor $U: SymMonCat \to Cat$, the category of functors $1 \to U(M)$ (which is equivalent to $U(M)$) is equivalent to the category of symmetric monoidal functors $F(1) \to M$, or $\mathbb{P} \to M$. Hence $SymMon(\mathbb{P}, -)$ is equivalent to $U$. A reference might be your opetopes and weak n-cats paper with Jim, is it HDA3? :-) 
+
+As far as those adjunction liftings go: for one of them, I'm taking advantage of something special about Cauchy completion. As you know, Cauchy completion is something that makes sense generally in enriched category theory. The special feature I seem to be using is that if $A \otimes B$ denotes the tensor product of two $V$-enriched categories, then there is a canonical enriched equivalence  
+$$\overline{A} \otimes \overline{B} \simeq \overline{A \otimes B}$$
+So Cauchy completion is, I assert, a strong 2-monoidal) functor on $V$-$Cat$. If you accept that, then it is fairly automatic that the Cauchy completion of an enriched monoidal category (i.e., a pseudomonoid in $V$-$Cat$) is automatically a monoidal category. Therefore, the Cauchy completion monad lifts to the level of monoidal categories. 
+
+Jazzing this up slightly: Cauchy completion is actually 2-(symmetric monoidal) on $V$-$Cat$, and so takes pseudo-(commutative monoids) in $V$-$Cat$ (i.e., enriched symmetric monoidal categories) to pseudo-(commutative monoids). Hence the Cauchy completion monad lifts to the level of symmetric monoidal enriched categories. This sort of thing is generalizable to other sorts of doctrines involving operations $D^{\otimes n} \to D$ on $V$-$Cat$ -- hopefully the idea is clear by now. 
+
+Something similar is happening for the other adjunction lifting I cited, the one involving $k$-linearization. Here, we start with the fact that if $V$ is a nice closed category (here $Vect_k$) -- in particular cocomplete -- then the lax monoidal functor $\hom(I, -): V \to Set$ has a left adjoint $- \cdot I: Set \to V$ (here $k$-linearization) which is strong (symmetric) monoidal. This induces a 2-functor $Cat = Set$-$Cat \to V$-$Cat$ which is strong 2-monoidal. It therefore sends pseudomonoids in $Set$-$Cat$ to pseudomonoids in $V$-$Cat$. Even the lax monoidal 2-functor $V$-$Cat \to Set$-$Cat$ sends pseudomonoids to pseudomonoids. Therefore, the monoidal 2-adjunction between $Cat$ and $V$-$Cat$ lifts to the level of pseudomonoids. Something similar can be said for pseudo-(commutative monoids). 
+
+So getting now to your general question: if you have a 2-adjunction between 
+a 2-(monoidal category) $X$ and the 2-(monoidal category) $Cat$, and if this 2-adjunction is lax 2-monoidal, then we can lift to a 2-adjunction between $PseudoMon(X)$ and $PseudoMon(Cat)$. If the 2-adjunction is lax 2-(symmetric monoidal), then you can similarly lift to the level of pseudo-(commutative monoids) in $X$ and in $Cat$. That seems to be the principle I'm implicitly using in both cases. 
+
+As for your final question: if $U: X \to Cat$ is representable by an object $F(1)$ of $X$, then formally we have 
+$$[U, U] \simeq [hom_X(F(1), -), hom_X(F(1), -)] \simeq hom_X(F(1), F(1)) \simeq U(F(1))$$ 
+where the second equivalence is the 2-categorical Yoneda lemma and the third uses the equivalence $hom_X(F(1), -) \simeq U$. 
+
 =--
 
 
@@ -431,7 +448,7 @@ In other words,
 
 +-- {: .un_thm}
 ######Theorem 
-The category $Schur_k$ is equivalent to the functor category $[\mathbb{P}^{op},FinVect_k]$. 
+The category of (abstract) Schur functors is equivalent to the functor category $[\mathbb{P}^{op},FinVect_k]$. 
 =-- 
 
 We will accordingly call a species of the form $\mathbb{P}^{op} \to FinVect_k$ a **Schur object**. 
