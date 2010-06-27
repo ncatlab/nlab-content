@@ -8,6 +8,8 @@ One can in fact consider the set of invertible matrices over an arbitrary unital
 
 See also [[orthogonal group]]; [[unitary group]].
 
+[[!redirects general linear groups]]
+
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear group]]s. 
 
 See also [[Gauss decomposition]].
@@ -18,3 +20,5 @@ See also [[Gauss decomposition]].
 * O.T. O'Meara, _Lectures on Linear Groups_, Amer. Math. Soc., Providence, RI, 1974.
 
 * B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp. 
+
+[[!redirects general linear groups]]
