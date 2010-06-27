@@ -8,6 +8,8 @@ Lecture series:
 
 * Gaston Giribet (Buenos Aires):  Black hole physics and AdS3/CFT2 correspondence. (This includes Black hole physics in three-dimensional massive gravity, applications to four-dimensions (i.e. Kerr/CFT correspondence) and other topics (e.g. Lifshitz black holes).)
 
+* John Wang (Niagara Univ and Buffalo)
+
 * Dieter Van den Bleeken (Rutgers): BPS black holes and the attractor mechanism
 
 * Mario Pasquato (Pisa): Intermediate mass black holes - observational challenges
