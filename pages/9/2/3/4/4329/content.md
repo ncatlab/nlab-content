@@ -105,8 +105,9 @@ $$
 
 is [[generalized the|the]] **quasi-categorical pullback** of the diagram $F$.
 
+#### Pasting law {#QuasiCatPastingLaw}
 
-We have the following quasi-categorical analog of the familiar [pasting law of pushouts](http://ncatlab.org/nlab/show/pullback#Pasting) in ordinary [[category theory]]:
+We have the following quasi-categorical analog of the familiar [pasting law of pullbacks](http://ncatlab.org/nlab/show/pullback#Pasting) in ordinary [[category theory]]:
 
 A [[pasting]] diagram of two squares is a morphism
 
@@ -189,10 +190,95 @@ $$
 
 Notice that by definition of [[limit in a quasi-category]] the quasi-categorical pullback $\sigma(c) \times_{\sigma(f)} \sigma(d)$ is [[generalized the|the]] [[terminal object in a quasi-category|terminal object]] in $\mathcal{C}_{/\sigma(c,d,f)}$, while $\sigma(d) \times_{\sigma(d)} \sigma(e)$ is the terminal object in $\mathcal{C}_{/\sigma(b,d,e)}$. 
 
-The strategy now is to show that both these morphisms $\phi$ and $\psi$ are acyclic fibrations in the [[model structure for quasi-categories]]. That will imply that these terminal objects coincide as objects of $\mathcal{C}$.
+The strategy now is to show that both these morphisms $\phi$ and $\psi$ are acyclic [[Kan fibration]]s. That will imply that these terminal objects coincide as objects of $\mathcal{C}$.
 
-To see that, ...
+First notice that the inclusion   
 
+$$
+  \left(
+    \array{
+      && b 
+      \\
+      && \downarrow
+      \\
+      d &\to& e
+    }
+  \right)
+   \;\; \to \;\;
+  \left(
+    \array{
+      && b &\to& c
+      \\
+      && \downarrow && \downarrow
+      \\
+      d &\to& e &\to& f
+    }
+  \right)
+$$ 
+
+is a [[left anodyne morphism]], being the composite of [[pushout]]s of left [[horn]] inclusions
+
+$$
+  \begin{aligned}  
+  \left(
+    \array{
+      && b 
+      \\
+      && \downarrow
+      \\
+      d &\to& e
+    }
+  \right)
+  & \to 
+  \left(
+    \array{
+      && b &\to& c
+      \\
+      && \downarrow &&       
+      \\
+      d &\to& e
+    }
+  \right)
+  \\
+  & \to 
+  \left(
+    \array{
+      && b &\to& c
+      \\
+      && \downarrow && \downarrow 
+      \\
+      d &\to& e && f
+    }
+  \right)
+  \\
+  & \to 
+  \left(
+    \array{
+      && b &\to& c
+      \\
+      && \downarrow &\searrow& \downarrow 
+      \\
+      d &\to& e && f
+    }
+  \right)
+  \\
+  & \to 
+  \left(
+    \array{
+      && b &\to& c
+      \\
+      && \downarrow &\searrow& \downarrow 
+      \\
+      d &\to& e &\to& f
+    }
+  \right)
+ \end{aligned}
+  \,.
+$$
+
+One of the <a href="http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PropRightAnodyne">properties of left anodyne morphisms</a> is that restriction of [[over quasi-categories]] along left anodyne morphisms produces an acyclic [[Kan fibration]]. This shows the desired statement for $\psi$.
+
+To see that also $\phi$ is an acyclic fibration (...)
 
 =--
 
@@ -211,7 +297,7 @@ To see that, ...
 
 ### Fiber sequence
 
-If $\mathcal{C}$ has a [[terminal object]] and $* \to C \in \mathcal{C}$ is a [[pointed object]], then the **fiber** or **(\infty,1)-kernel** of a morphisms $f : B \to C$ is the $(\infty,1)$-pullback
+If $\mathcal{C}$ has a [[terminal object]] and $* \to C \in \mathcal{C}$ is a [[pointed object]], then the **fiber** or **$(\infty,1)$-kernel** of a morphisms $f : B \to C$ is the $(\infty,1)$-pullback
 
 $$
   \array{
