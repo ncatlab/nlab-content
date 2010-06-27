@@ -56,7 +56,7 @@ where the the right-hand expression standard for the category with
 
 This category could be called the 'category of finite-dimensional complex representations of the groupoid of finite sets', but following the work of Joyal we shall call it the 'category of linear [[species]]'.  
 
-The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category $Schur$
+The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category $Schur_{\mathbb{C}}$
 has all these features.  But it is also [[semisimple abelian category|semisimple]]: indeed, every Schur functor is a finite direct sum of 'irreducible' Schur functors, which correspond to Young diagrams.
 
 The category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets --- and since product distributes over disjoint union, $\mathbb{P}$ is a [[rig category]].  This is all reflected in the category of Schur functors.
@@ -91,7 +91,7 @@ More representative examples of Schur functors include:
 
 Even though Schur functors do not respect the linear structure on homsets, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[simple objects]], decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
-## Schur functors associated with Young diagrams ##
+## Schur functors on symmetric monoidal Cauchy-complete linear categories ##
 
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   In fact they can be applied to any [[symmetric monoidal category|symmetric monoidal]]
 [[Cauchy complete category|Cauchy complete]] $k$-[[linear category]].  Here by **_k_-linear category** we mean a category enriched over $Vect_k$, where $k$ is a fixed field of characteristic zero.  Such a category is **Cauchy complete** when:
@@ -299,7 +299,7 @@ We now propose our conceptual definition of Schur functor:
 ######Definition 
 A **Schur functor** is a pseudonatural transformation $U \to U$, where 
 $$U: SymMonLinCauch \to Cat$$ 
-is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations. 
+is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations.  For any field of characteristic zero, Schur functors and morphisms between them form a category $Schur_k$.
 =-- 
 
 What this proposed definition makes immediately clear is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections. 
@@ -431,7 +431,7 @@ In other words,
 
 +-- {: .un_thm}
 ######Theorem 
-The category of (abstract) Schur functors is equivalent to the functor category $[\mathbb{P}^{op},FinVect_k]$. 
+The category $Schur_k$ is equivalent to the functor category $[\mathbb{P}^{op},FinVect_k]$. 
 =-- 
 
 We will accordingly call a species of the form $\mathbb{P}^{op} \to FinVect_k$ a **Schur object**. 
