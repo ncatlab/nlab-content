@@ -32,7 +32,7 @@ references for details).
 
 An __oplax natural transformation__ is as above, only with the $2$-cells $\alpha_f$ reversed.  This distinction is not entirely consistent in the literature; see the discussion of terminology below.
 
-An (op)lax natural transformation $\alpha$ is a __[[pseudo-natural transformation]]__ if each $\alpha_f$ is [[isomorphism|invertible]], and a __strict natural transformation__ or __[[strict 2-natural transformation]]__ if each is an [[identity morphism|identity]].  
+An (op)lax natural transformation $\alpha$ is a __pseudonatural transformation__ if each $\alpha_f$ is [[isomorphism|invertible]], and a __strict natural transformation__ or __[[strict 2-natural transformation]]__ if each is an [[identity morphism|identity]].  
 
 In all of these cases, the word 'natural' is often dropped for brevity.
 
@@ -181,3 +181,5 @@ Note that both of these use somewhat outdated terminology.
 [[!redirects pseudo natural transformations]]
 [[!redirects pseudonatural transformation]]
 [[!redirects pseudonatural transformations]]
+[[!redirects pseudo-natural transformation]]
+[[!redirects pseudo-natural transformations]]
