@@ -28,4 +28,8 @@ $$
 
 ## References ##
 
-* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+
+* [[Mike Hopkins]] and others: _Talbot workshop on TMF_ ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/))
+
+On this side one can find diagrams showing the Adams spectral sequence for tmf.
