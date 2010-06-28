@@ -117,14 +117,24 @@ For instance section 7.1 and 7.2 of
 
 * [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ ([atXiv:math/0509264](http://arxiv.org/abs/math/0509264))
 
-[[!redirects Calabi-Yau categories]]
 
+[[!redirects Calabi-Yau category]]
+[[!redirects Calabi-Yau categories]]
+[[!redirects Calabi?Yau category]]
+[[!redirects Calabi?Yau categories]]
+[[!redirects Calabi--Yau category]]
+[[!redirects Calabi--Yau categories]]
+
+[[!redirects CY category]]
+[[!redirects CY categories]]
 [[!redirects CY-category]]
 [[!redirects CY-categories]]
 
-
 [[!redirects Calabi-Yau A-infinity category]]
 [[!redirects Calabi-Yau A-infinity categories]]
-
+[[!redirects Calabi-Yau A-infinity-category]]
+[[!redirects Calabi-Yau A-infinity-categories]]
 [[!redirects Calabi-Yau A-∞ category]]
 [[!redirects Calabi-Yau A-∞ categories]]
+[[!redirects Calabi-Yau A-∞-category]]
+[[!redirects Calabi-Yau A-∞-categories]]
