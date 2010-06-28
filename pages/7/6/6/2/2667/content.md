@@ -13,9 +13,9 @@ where $FinVect$ is the category of finite-dimensional complex [[vector space|vec
 
 For example:
 
-* For each $n \geq 0$, the $n^{th}$ [[symmetric algebra|symmetric power]] $V \mapsto S^n(V)$ is a Schur functor. 
+* For each $n \geq 0$, the $n^{th}$ [[symmetric power]] $V \mapsto S^n(V)$ is a Schur functor. 
 
-* For each $n \geq 0$, the $n^{th}$ [[exterior algebra|alternating power]] $V \mapsto \Lambda^n(V)$ is a Schur functor. 
+* For each $n \geq 0$, the $n^{th}$ [[alternating power]] $V \mapsto \Lambda^n(V)$ is a Schur functor. 
 
 More generally, irreducible complex representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors are usually described with the help of these.   An $n$-box Young diagram is simply a handy notation for a way of writing $n$ as a sum of natural numbers written in decreasing order.  For example, this 17-box Young diagram:
 
@@ -120,9 +120,19 @@ $F: \mathbb{P} \to FinVect$ such that $F(n) = \{0\}$ for all sufficiently large 
 
 This allows us to think of $Schur$ as a subcategory of the category of **representations** of $\mathbb{P}$, by which we simply mean functors $F : \mathbb{P} \to \Vect$.  Every irreducible representation of $\mathbb{P}$ is finite-dimensional: it is really just an irreducible representation of some group $S_n$.  Every representation of $\mathbb{P}$ is a direct sum of these irreducibles.  $Schur$ may be identified with the full subcategory consisting of _finite_ direct sums of irreducibles.
 
-The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   It is easy to check that $Schur$ inherits these features.  But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets.  Since product distributes over disjoint union, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these make the category of representations of $\mathbb{P}$ into a rig category as well.  The same is true for the subcategory $Schur$.
+The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   It is easy to check that $Schur$ inherits these features.  This gives $Schur$ two monoidal structures, $\oplus$ and $\otimes$, defined by
 
-On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, the **plethystic tensor product**.  Unlike the three previous monoidal structures, this one is not symmetric.   
+$$ (F \oplus G)(V) = F(V) \oplus G(V) $$
+
+and 
+
+$$ (F \otimes G)(V) = F(V) \otimes G(V) $$
+
+These make $Schur$ into a [[rig category]].
+
+But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets.  Since product distributes over disjoint union, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.  The same is true for the subcategory $Schur$.
+
+On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.   
 
 Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures.  Among other things, it is the free [[lambda-ring]] on one generator.   As we shall see, corresponds to the fact that $Schur$ is the free 
 [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
