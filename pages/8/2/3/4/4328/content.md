@@ -1,1 +1,1 @@
-An [[abelian category]] is **semisimple** if every object is a [[direct sum]] of [[simple object|simple objects]].
+An [[abelian category]] is **semisimple** if every object is a [[direct sum]] of [[simple object|simple objects]].  In other words, it is an abelian category that is [[semisimple category|semisimple]].
