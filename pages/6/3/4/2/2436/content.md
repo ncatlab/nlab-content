@@ -3,11 +3,14 @@
 </div>
 
 
-A **super vector space** is an [[object]] in the [[category]] [[SVect]]: as an object it is just a $\mathbb{Z}_2$-[[graded vector space]], but when tensoring them one uses the non-trivial [[symmetric monoidal category|symmetric monoidal structure]] on $\mathbb{Z}_2$-graded vector spaces.  In simple terms, this means that when switching two 'odd' vectors one introduces a minus sign:
+A **super vector space** is an [[object]] in the [[monoidal category]] [[SVect]]: as an object it is just a $\mathbb{Z}_2$-[[graded vector space]], but when [[tensor product|tensoring]] them one uses the non-trivial [[symmetric monoidal category|symmetric monoidal structure]] on $\mathbb{Z}_2$-graded vector spaces.  In simple terms, this means that when switching two 'odd' vectors one introduces a minus sign:
 
 $$ v \otimes w \mapsto (-1)^{deg(v) deg(w)} w \otimes v $$
 
 
-[[!redirects supervector space]]
-[[!redirects super-vector space]]
+[[!redirects super vector space]]
 [[!redirects super vector spaces]]
+[[!redirects supervector space]]
+[[!redirects supervector spaces]]
+[[!redirects super-vector space]]
+[[!redirects super-vector spaces]]
