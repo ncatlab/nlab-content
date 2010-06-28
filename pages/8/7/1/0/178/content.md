@@ -846,8 +846,64 @@ which yields the stated result.
 
 =--
 
+### General $\infty$-Lie groupoids
+
+#### Lie-integrated $\infty$-Lie groupoids
+
+Let $\mathfrak{a}$ be an [[∞-Lie algebroid]], dually equivalently its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$, a [[dg-algebra]].
+
++-- {: .un_def }
+###### Definition
+
+Write $\exp(\mathfrak{a}) \in [CartSp^{op}, sSet]$ for the object
+
+$$
+  U,[n] \mapsto
+  Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(\Delta^n_{Diff}) \otimes C^\infty(U))
+  \,.
+$$
+
+For $n \in \mathbb{N}$ 
+we say the Lie $n$-groupoid universally intergating $\mathfrak{a}$
+is the $n$-[[truncated|truncation]] of this object
+
+$$
+  \tau_n \exp(\mathfrak{a})
+  \,.
+$$
+
+Realized objectwise as the $(n+1)$-[[simplicial skeleton|simplicial coskelton]].
+
+=--
+
+##### Differential coefficients
+
++-- {: .un_prop }
+###### Proposition
 
 
+We have $\mathbf{\flat}(\tau_n \exp(\mathfrak{a}))$
+given by
+
+$$
+  U,[n] \mapsto \tau_n Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(\Delta^n_{Diff})
+  \otimes \Omega^\bullet(U))
+$$
+
+and $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$
+given by
+
+$$
+  U,[n] \mapsto \tau_n Hom_{dgAlg}(CE(\mathfrak{a}), 
+  \Omega^\bullet(\Delta^n_{Diff})
+  \otimes 
+  \Omega^{\bullet \geq 1}(U))
+  \,.
+$$
+
+=--
+
+(...)
 
 ### Cohomology {#Cohomology}
 
@@ -1461,4 +1517,4 @@ $\infty$-stacks on [[Diff]] considered, but there with an emphasis of the [[loca
 [[!redirects ∞-Lie groupoid]]
 [[!redirects ∞-Lie groupoids]]
 
-[[!redirects ?LieGrpd]]
+[[!redirects ?LieGrpd]]Coho
