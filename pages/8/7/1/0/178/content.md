@@ -9,7 +9,7 @@
 
 
 #Contents#
-* automatic table of con^tents goes here
+* automatic table of contents goes here
 {:toc}
 
 ## Idea
@@ -407,14 +407,14 @@ Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at 
 
 Write $U(1) = S^1 = \mathbb{R}/\mathbb{Z}$ for the [[abelian group|abelian]] [[Lie group]] called the [[circle group]] or 1-dimensional [[unitary group]].
 
-##### Delooping
+##### Delooping {#DeloopingBnU1}
 
 Write $\Xi : Ch_\bullet \to sAb \to sSet$ for the [[Dold-Kan correspondence]] functor and with convenient abuse of notation use the same symbols for its extension $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ to presheaves.
 
 Write 
 
 $$
-  U(1)[n] = [\cdots \to 0 \to C^\infty&#176;(-,U(1)) \to 0 \to \cdots \to 0]
+  U(1)[n] = [\cdots \to 0 \to C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
 $$
 
 for the [[chain complex]] of sheaves concentrated in degree $n$ on $U(1)$.
@@ -484,7 +484,7 @@ We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])
 
 =--
 
-##### Differential coefficients
+##### Differential coefficients {#DifferentialBnU1}
 
 We now describe the Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$ as discussed at [∞-connectedness](#InfConnectedness).
 
@@ -578,7 +578,7 @@ $$
 Let $G$ be a [[Lie group]], regarded as an object of 
 $\mathbf{H} := \infty LieGrpd$. 
 
-##### Delooping
+##### Delooping {#LieGroupsDelooping}
 
 +-- {: .un_prop }
 ###### Proposition
@@ -765,7 +765,7 @@ $$
 
 Let now $G = \Xi[G_2 \to G_1]$ be a strict [[Lie 2-group]] coming from a smooth  [[crossed module]] $G_2 \to G_1 \to Aut(G_2)$.
 
-##### Delooping
+##### Delooping {#StrictLie2GroupsDelooping}
 
 +-- {: .un_prop }
 ###### Proposition
