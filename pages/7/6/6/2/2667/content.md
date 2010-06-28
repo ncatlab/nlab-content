@@ -99,9 +99,11 @@ More generally, any finite direct sum of the Schur functors just described may a
 
 * For each $n \geq 0$, the $n^{th}$ [[tensor power]] $V \mapsto V^{\otimes n}$ is a Schur functor. 
 
-* If $F$ and $G$ are Schur functors, the functor $V \mapsto F(V) \otimes G(V)$ is a Schur functor
+* If $F$ and $G$ are Schur functors, of course the functor $V \mapsto F(V) \oplus G(V)$ is a Schur functor.
 
-*  If $F$ and $G$ are Schur functors, the composite functor $V \mapsto F(G(V))$ is a Schur functor.  This way of constructing Schur functors is known as [[plethysm]].
+* If $F$ and $G$ are Schur functors, the functor $V \mapsto F(V) \otimes G(V)$ is also a Schur functor.
+
+*  If $F$ and $G$ are Schur functors, the composite $V \mapsto F(G(V))$ is a Schur functor.  This way of constructing Schur functors is known as [[plethysm]].
 
 There is a category $Schur$ with these more general Schur functors as objects and natural transformations between them as morphisms.  In this article we would like to give a conceputal explanation of this category and some of its generalizations.
 
@@ -140,7 +142,7 @@ But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric
 
 To illustrate the full breadth of this generalization, here are a few examples:
 
-* the category [[Vect]], consisting of finite-dimensional vector spaces over any field $k$ of characteristic zero
+* the category [[Vect]], consisting of vector spaces over any field $k$ of characteristic zero
 
 * the category [[FinVect]], consisting of finite-dimensional vector spaces over $k$
 
@@ -236,11 +238,11 @@ It is easy to check that for any $x,y \in k[S_n]$,
 
 $$ \widetilde{x y} = \widetilde{x} \widetilde{y} $$
 
-So, for any Young symmetrizer $p_\lambda$, the morphism
+Thus for any Young symmetrizer $p_\lambda$, the morphism
 
 $$ \widetilde{p}_\lambda : X^{\otimes n} \to X^{\otimes n} $$
 
-is idempotent, simply because $p_\lambda$ itself is. 
+is idempotent, because $p_\lambda$ is. 
 
 ### Constructing Schur functors ###
 
