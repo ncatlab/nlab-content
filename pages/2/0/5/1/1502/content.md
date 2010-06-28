@@ -8,7 +8,7 @@ A _semisimple category_ is a category in which each object is a [[direct sum]] o
 
 #Definition#
 
-An [[abelian category]] is called **semisimple** if every object is a direct sum of finitely many [[simple objects]].
+An [[abelian category]] is called **semisimple** if every object is a direct sum of finitely many [[simple objects]].  See [[semisimple abelian category]].
 
 Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
 *  it has finite [[biproduct]]s (usually called '[[direct sum]]s'),
@@ -30,7 +30,7 @@ Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a 
 
    But in any case, it would be nice to have a discussion on how the "right definition" _implies_ that every object is isomorphic to a finite direct sum of representables.
 
-   Shouldn't you require that for simples, End(X,X) is a simple algebra, not necessarily the ground field? For example the category of H-modules where H is the quaternion algebra over the reals. Shouldn't this be semi-simple? -- Chris.
+   __[[Chris Schommer-Pries]]__: Shouldn't you require that for simples, End(X,X) is a simple algebra, not necessarily the ground field? For example the category of H-modules where H is the quaternion algebra over the reals. Shouldn't this be semi-simple?
 
    =--
 
