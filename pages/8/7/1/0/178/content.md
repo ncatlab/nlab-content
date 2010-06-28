@@ -848,7 +848,11 @@ which yields the stated result.
 
 ### General $\infty$-Lie groupoids
 
+
+
 #### Lie-integrated $\infty$-Lie groupoids
+
+> under construction
 
 Let $\mathfrak{a}$ be an [[∞-Lie algebroid]], dually equivalently its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$, a [[dg-algebra]].
 
@@ -876,7 +880,40 @@ Realized objectwise as the $(n+1)$-[[simplicial skeleton|simplicial coskelton]].
 
 =--
 
++-- {: .un_remark }
+###### Remark
+
+The underliny bare [[∞-groupoid]] $\Gamm \exp(\mathfrak{a) \in $ is the [[Sullivan construction]] on $CE(\mathfrak{a})$, familiar from [[rational homotopy theory]]. The fact that this construction may be thought of in terms of [[Lie integration]] was amplified in 
+
+* [[Ezra Getzlet]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv])
+
+
+There however only this bare $infty$-groupoid underlying the $\infty$-Lie groupoid $\exp(\mathfrak{a})$ is explicitly considered, the focus of the article being on the construciton of small equivalent models.
+
+A refinement of this construction to [[internal ∞-groupoid]]s in [[nLab:Banach space]]s was considered in 
+
+* [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv])
+
+The evident refinement of the [[Sullivan construction]] to $\infty$-Lie groupoids as considered here was mentioned around
+
+* [[Urs Schreiber|U.S.]], _Differential nonabelian cohomology_ talk at _Higher Structures in Math and Physics_ Lausanne (2008) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Lausanne.pdf))
+
+At that conference [[Urs Schreiber|we]] learned from [[Dmitry Roytenberg]] that he was working with the same idea. 
+
+In 
+
+* [[Pavol Severa]], _..._ 
+
+is given a proposall for how to realize Lie differentiation in this context. Below we will see that, in analogy to and generalizing the above examples, the Lie differentiation of $\tau_n \exp(\mathfrak{a})$ is canonically induced by passing to its intrinsic de Rham coefficient object $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$. Below in 
+[Infinitesimal differential coefficients](#InfinitesimalDifferentialCoefficients) we discuss how these are realized in terms of infinitesimal paths in the $\infty$-Lie groupoid. This is at least in spirit close to &Scaron;evera's construction. A more detailed discussion of the relation should be given somewhere, eventually.
+
+
+=--
+
+
 ##### Differential coefficients
+
+Above we have defined for every [[∞-Lie algebroid]] $\mathfrak{a}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{a})$ _integrating_ it. Now we consider the corresponding $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$.
 
 +-- {: .un_prop }
 ###### Proposition
@@ -1423,7 +1460,7 @@ in $\infty Grpd$\,.
 
 =--
 
-### Differential coefficients
+### Differential coefficients {#InfinitesimalDifferentialCoefficients}
 
 Let $G$ be one of the $\infty$-groups considered above
 ($G,\mathbf{B}^n U(1), [G_2 \to G_1]$ ) regarded now naturally as an object of $\infty SDGrpd$.
@@ -1517,4 +1554,4 @@ $\infty$-stacks on [[Diff]] considered, but there with an emphasis of the [[loca
 [[!redirects ∞-Lie groupoid]]
 [[!redirects ∞-Lie groupoids]]
 
-[[!redirects ?LieGrpd]]Coho
+[[!redirects ?LieGrpd]]
