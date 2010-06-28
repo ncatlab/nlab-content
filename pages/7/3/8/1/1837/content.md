@@ -25,6 +25,8 @@ Other examples include formal physical models.
 
 * [[Dijkgraaf-Witten theory]] is a gauge theory whose field configurations are $G$-[[principal bundle]]s for $G$ a finite group (these come with a unique [[connection on a bundle|connection]], so that in this simple case the connection is no extra datum).
 
+The group $G$ in these examples is called the [[gauge group]] of the theory.
+
 ### Higher and generalized gauge theories 
 
 The above examples of gauge fields consisted of cocycles in degree-$1$ [[differential cohomology]].
