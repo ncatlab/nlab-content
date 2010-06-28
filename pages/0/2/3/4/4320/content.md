@@ -78,3 +78,8 @@ followed by a morphism of commutative monoids
 $$ S V \to A  \, .$$
 
 SOMEONE DRAW A NICE COMMUTATIVE TRIANGLE, PLEASE!
+
+[[!redirects symmetric power]]
+[[!redirects symmetric powers]]
+[[!redirects symmetric tensor power]]
+[[!redirects symmetric tensor powers]]
