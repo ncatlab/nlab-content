@@ -63,7 +63,7 @@ becomes a monoid object called the **symmetric algebra** of $V$.
 
 If $C$ is a more general sort of symmetric monoidal category, then we need a different construction of $S^n V$.  For example, if $C$ is a symmetric monoidal category with finite colimits, we can simply define $S^n V$ to be the coequalizer of the action of the symmetric group $S_n$ on $V^{\otimes n}$.  And if $C$ also has countable coproducts, we can define 
 
-$$  S V = \bigsqcup_{n \ge 0} S^n V $$
+$$  S V = \coprod_{n \ge 0} S^n V $$
 
 Then, if the tensor product distributes over these colimits (as in a [[2-rig]]), $S V$ will become a [[internalization|commutative monoid object]] in $C$.  In fact, it will be the _free_ commutative monoid object on $V$, meaning that any morphism in $C$
 
@@ -75,10 +75,19 @@ $$ V \to S V $$
 
 followed by a morphism of commutative monoids
 
-$$ S V \to A  \, .$$
+$$ S V \to A  \, ,$$
 
-SOMEONE DRAW A NICE COMMUTATIVE TRIANGLE, PLEASE!
+as in this commutative triangle:
 
+$$ \array {
+     &          & S V \\
+     & \nearrow &                 & \searrow \\
+   V &          & \longrightarrow &          & A
+} $$
+
+
+[[!redirects symmetric algebra]]
+[[!redirects symmetric algebras]]
 [[!redirects symmetric power]]
 [[!redirects symmetric powers]]
 [[!redirects symmetric tensor power]]
