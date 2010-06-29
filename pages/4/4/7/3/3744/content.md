@@ -148,11 +148,22 @@ $$
            \mathcal{M}[x, y] := \cap_{[x, y] \subset \mathcal{O}} \mathcal{M}(\mathcal{O})
 $$
 
-* **Theorem (triviality of algebras of spacelike segments)**: If the segment $[x, x + b]$ is spacelike, i.e. $\langle b, b \rangle \lt 0$, and the vacuum respresentation has a unique vacuum vector, then $\mathcal{M}[x, x + b] = \mathbb{C} \mathbb{1}$, i.e. the algebra associated with the segment is trivial.
++-- {: .un_theorem}
+###### Theorem
+**triviality of algebras of spacelike segments**
 
-* **theorem (triviality of algebras of points)**: The conclusion of the preceding statement holds if we put $b = 0$, i.e. if we consider the algebra associated with one point.
+If the segment $[x, x + b]$ is spacelike, i.e. $\langle b, b \rangle \lt 0$, and the vacuum respresentation has a unique vacuum vector, then $\mathcal{M}[x, x + b] = \mathbb{C} \mathbb{1}$, i.e. the algebra associated with the segment is trivial.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+**triviality of algebras of points**
+The conclusion of the preceding statement holds if we put $b = 0$, i.e. if we consider the algebra associated with one point.
+=--
 
 _Remark_ (physical viewpoint): The preceding theorem is sometimes summarized as _there are no non-trivial observables at the point_. There are two possible ways to interpret this result: The pragmatic approach says that, since no detector can be built that measures observables precisley at one point of spacetime, there is no need of a theory to support the concept of observables localized at a point. The philosophical approach takes this one step further and states that our relativistic quantum theory tells us that the concepts of points and observables localized at points are an idealization with no relevance to nature.
+
+The local algebras fulfill the [[Borchers property]].
 
 There are several directions one can pursue next, for example 
 
