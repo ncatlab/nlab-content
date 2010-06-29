@@ -24,6 +24,7 @@ $$\array{P & \overset{}{\to} & * \\
   I& \hookrightarrow & F,}$$
 where the map labeled "0" picks out the element $0\in F$, then the object $P$ is initial (i.e. $0$ is not invertible, or equivalently not equal to $1$), and moreover the pullback is also a pushout (i.e. every element of $F$ is either $0$ or invertible).  Of course, in making these last two assertions we use the fact that we are allowing ourselves a limit-colimit sketch instead of just a limit sketch.
 
+Note that this gives us the notion of *discrete* field (see the next section).
 
 
 ## Constructive notions ##
@@ -75,10 +76,12 @@ _[[John Baez|John]] says_: Unlike the category of fields, the category of vector
 
 I have a question.  This article says the category of fields is 'accessible', and it says that an accessible category is the category of models of a [[sketch]].  What sort of sketch does the job for fields.  They're not models of a finite limits theory, so I assume we also need some colimits in our sketch.  How does this work?   Which  constructive definition(s) of field do we use?
 
-_[[Gon�alo Marques]]_:  The [[sketch]] for fields is described on page 248 of "Category theory for computing science" by Michael Barr and Charles Wells (3rd edition). They use what they call "finite discrete sketches". It does involve a cocone. 
+_[[Gonçalo Marques]]_:  The [[sketch]] for fields is described on page 248 of "Category theory for computing science" by Michael Barr and Charles Wells (3rd edition). They use what they call "finite discrete sketches". It does involve a cocone. 
 
 
+[[!redirects field]]
 [[!redirects fields]]
+
 [[!redirects discrete field]]
 [[!redirects discrete fields]]
 [[!redirects residue field]]
