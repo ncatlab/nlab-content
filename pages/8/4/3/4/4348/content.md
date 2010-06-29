@@ -6,7 +6,13 @@ from some groupoid $X$ to the groupoid of finite sets and bijections, which is t
 
 $$F: core(FinSet)^{op} \to Gpd $$
 
-We can think of this as a (suitably weakened) [[presheaf]] of groupoids on $core(FinSet)$.  But since a groupoid is equivalent to its opposite, we can also think of a stuff type as a functor
+The idea is to use the [[Grothendieck construction]] and define
+
+$$F(n) = p^{-1}(n)$$
+
+taking advantage of the fact that we may assume without loss of generality that $p$ is a [[fibration]].
+
+We can think of $F$ as a suitably weakened sort of [[presheaf]] of groupoids on $core(FinSet)$.  But since a groupoid is equivalent to its opposite, we can also think of a stuff type as a functor
 
 $$core(FinSet) \to Gpd $$
 
@@ -20,16 +26,18 @@ A stuff type can also be thought of as a [[categorification|categorified]] [[gen
 
 $$F: core(FinSet)^{op} \to Gpd $$
 
-assigns to the finite set $n$ the groupoid $F(n)$.  We can write $F$ as a power series where the coefficient of $Z^n$ is the groupoid $F(n)$.    In these terms, the structure type "being a finite set" is
+assigns to the finite set $n$ the groupoid $F(n)$.  We can write $F$ as a power series where the coefficient of $Z^n$ is the groupoid $F(n)$.    In these terms, the structure type 'being a finite set' is
 \[E^Z := \frac{1}{\overline{0!}} + \frac{1}{\overline{1!}}Z + \frac{1}{\overline{2!}}Z^2 + \cdots + \frac{1}{\overline{n!}}Z^n + \cdots,\]
 where $+$ is disjoint union, $//$ is the weak quotient, $n!$ is the permutation group $S_n$, and $1$ is the one-element set (since there's only one way to be finite).
 
-The structure type "being a totally ordered even set" is
+The structure type 'being a totally ordered even set' is
 \[\frac{1}{1-Z^2} := \frac{0!}{\overline{0!}} + 0Z + \frac{2!}{\overline{2!}}Z^2 + 0Z^3 + \cdots,\]
 since there are $n!$ ways to order a set with $n$ elements and $0$ ways for an odd set to be even.
 
 One advantage of stuff types over the more familiar structure types (i.e., species) is that they allow one to categorify the theory of [[Feynman diagram|Feynman diagrams]]:
 
-* John Baez and James Dolan, From finite sets to Feynman diagrams, in _Mathematics Unlimited - 2001 and Beyond_, vol. 1, eds. Bj&#246;rn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.  ([arXiv](http://arxiv.org/abs/math.QA/0004133))
+* [[John Baez]] and [[James Dolan]], From finite sets to Feynman diagrams, in _Mathematics Unlimited - 2001 and Beyond_, vol. 1, eds. Bj&#246;rn Engquist and Wilfried Schmid, Springer, Berlin, 2001, pp. 29-50.  ([arXiv](http://arxiv.org/abs/math.QA/0004133))
 
 * Jeffrey Morton, Categorified algebra and quantum mechanics, _Theory and Applications of Categories_, **16** (2006), 785--854. ([arXiv](http://arxiv.org/abs/math/0601458))
+
+* [[John Baez]], Fall 2003 to Spring 2004 [quantum gravity notes](http://math.ucr.edu/home/baez/qg-fall2003/).
