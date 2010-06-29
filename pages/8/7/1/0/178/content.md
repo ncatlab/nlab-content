@@ -245,6 +245,72 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+A proof is given at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">path oo-groupoid -- Geometric realization </a>
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Let $G$ be a [[well sectioned simplicial topological group]]. Write, as usual for [[simplicial group]]s, $\mathbf{B}G := \bar W G$ for its <a href="http://ncatlab.org/nlab/show/simplicial+group#Delooping">delooping</a>.
+
+Regard $\mathbf{B}G$ in the canonical way as an object of $[CartSp,sSet]$.
+Let $X_\bullet \in [CartSp^{op}, sSet]$ be any other simplicial topological space and let $X \to \mathbf{B}G$ be a morphism. Then:
+
+on such morphisms [[geometric realization]] $X_\bullet \mapsto |X_\bullet| \int^{[n]} \Delta^n_{Top} \times X_n \in Top$ preserves [[homotopy fiber]]s up to weak equivalence.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In unpublished notes, [[Danny Stevenson]] and [[David Roberts]] show that under [[geometric realization]] the <a href="http://ncatlab.org/nlab/show/simplicial+group#UniversalBundle">universal simplicial principal bundle</a>
+$\mathbf{E}G := W G \to \bar W G$ maps to the universal $|G|$-[[principal bundle]] $\mathcal{E} |G| \to \mathcal{B}|G|$ in [[Top]].
+
+But (as described at [[homotopy fiber]] and [[generalized universal bundle]]) the universal bundle is a means to compute homotopy fibers:
+
+the ordinary [[pullback]]
+
+$$
+  \array{
+    P_\bullet &\to& W G
+    \\
+    \downarrow && \downarrow
+    \\
+    X_\bullet &\to& \bar W G
+  }
+$$
+
+computes the homotopy fiber of $X_\bullet \to \bar W G$. Since geometric realization preserves [[pullback]]s, this is sent to the pullback square
+
+$$
+  \array{
+    |P_\bullet| &\to& \mathcal{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    |X_\bullet| &\to& \mathcal{B}G
+  }
+$$
+
+in [[Top]]. Again, this computes the homotopy fiber of the bottom morphism, up to equivalence.
+
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+The functor $\Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd$ preserves homotopy fibers of morphisms represented by degreewise [[paracompact space|paracompact]] simplicial topological spaces $X_\bullet \to \mathbf{B}G$ as above.
+
+=--
+
+> may need to polish the technical assumopptions...
+
 
 ### Relation to $(\infty,1)$-sheaves on all manifolds
 
