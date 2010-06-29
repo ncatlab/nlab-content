@@ -1,5 +1,3 @@
-
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -89,23 +87,18 @@ such that
   Write $D^b(X)$ for the bounded [[derived category]] of 
   that of [[coherent sheaves]] on $X$. 
 
-  Then $D^b(X)$ is a CY  $A_\infty$-category in a naive way:
+  Then $D^b(X)$ is a CY $A_\infty$-category in a naive way:
 
   * the non-binary composition maps are all trivial;
 
-  * the pairing is [[Serre duality]].
+  * the pairing is given by [[Serre duality]] (one needs also a choice of trivialization of the canonical bundle of $X$)
 
-  This is however not the morally correct CY $A_\infty$-structure associated
-  with a Calabi-Yau. The correct one is 
-  the $A_\infty$-category of complexes of vector bundles 
-  on a [[Calabi-Yau space]]. 
-  See [page 35](http://arxiv.org/PS_cache/math/pdf/0509/0509264v2.pdf#page=35)
-  of [Cos05](http://arxiv.org/abs/math/0509264).
+This is however not the morally correct CY $A_\infty$-structure associated with a Calabi-Yau. A correct choice is, for example, the [[Dolbeault cohomology|Dolbeault]] dg enhancement of the derived category; see section 2.2 of [Cos05](http://arxiv.org/abs/math/0509264).
 
 
-* The [[Fukaya category]] associated with a [[symplectic manifold]] $X$.
+* The [[Fukaya category]] associated with a [[symplectic manifold]] $X$. But see mathoverflow for more discussion: &lt;http://mathoverflow.net/questions/13114/are-fukaya-categories-calabi-yau-categories>
 
-* [[string topology]]: for $X$ a [[compact space|compact]] [[simply connected]] [[orientation|oriented]] [[manifold]], its cohomology $H^{\bullet}(X)$ is naturally a Calabi-Yau $A_\infty$-category with a single object.
+* [[string topology]]: for $X$ a [[compact space|compact]] [[simply connected]] [[orientation|oriented]] [[manifold]], its cohomology $H^{\bullet}(X)$ is naturally a Calabi-Yau $A_\infty$-category with a single object. The $A_\infty$ structure comes from the homological perturbation lemma. One could also use the dg algebra of cochains $C^\bullet(X)$.
 
 ## Properties
 
@@ -113,9 +106,11 @@ Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is w
 
 ## References
 
-For instance section 7.1 and 7.2 of
+* [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
 
-* [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ ([atXiv:math/0509264](http://arxiv.org/abs/math/0509264))
+* [[Kontsevich]], [[Soibelman]]. _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry_ &lt;http://arxiv.org/abs/math/0606241>
+
+* Cho, Lee. Notes on Kontsevich-Soibelman's theorem about cyclic A-infinity algebras &lt;http://arxiv.org/abs/1002.3653>
 
 
 [[!redirects Calabi-Yau category]]
