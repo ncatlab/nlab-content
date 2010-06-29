@@ -328,7 +328,7 @@ Let us put the question another way.  We have seen the Schur functors $S_R$ are 
 
 The perhaps surprising answer is: no extra properties! That is, the Schur functors $S_R$ are _precisely_ those functors that are defined on all symmetric monoidal Cauchy complete linear $C$ and that are pseudonatural with respect to change of base $G: C \to D$! 
 
-Let us now make this precise. Schur functors $S_R$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined.   This focuses our attention on the 'forgetful' 2-functor
+Let us now make this precise. Schur functors are defined on certain symmetric monoidal linear categories, but they respect neither the symmetric monoidal structure nor the linear structure.  So, we have to forget some of the structure of the objects on which Schur functors are defined.   This focuses our attention on the 'forgetful' 2-functor
 
 $$U: SymMonLinCauch \to Cat$$ 
 
@@ -507,7 +507,7 @@ which juxtapose permutations. This is linearized to give algebra maps
 
 $$k[S_m] \otimes k[S_n] \to k[S_{m+n}]$$ 
 
-which gives the monoidal category structure of $k\mathbb{P}$. This monoidal structure uniquely extends to the Cauchy completion $\widebar{k\mathbb{P}}$, which is intermediate between $k\mathbb{P}$ and $Vect$-valued presheaves on $k\mathbb{P}$, according to Day convolution. The general formula for the Day convolution product applied to presheaves $F, G: \mathbb{P}^{op} \to Vect$ is 
+which gives the monoidal category structure of $k\mathbb{P}$. This monoidal structure uniquely extends via [[Day convolution]] to the Cauchy completion $\widebar{k\mathbb{P}}$, which is intermediate between $k\mathbb{P}$ and $Vect$-valued presheaves on $k\mathbb{P}$. The general formula for the Day convolution product applied to presheaves $F, G: \mathbb{P}^{op} \to Vect$ is 
 
 $$(F \otimes G)(n) = \sum_{j+k = n} (F(j) \otimes G(k)) \otimes_{S_j \times S_k} S_n$$
 
@@ -515,7 +515,7 @@ or, in other notation,
 
 $$(F \otimes G)(n) = \sum_{j+k = n} Ind_{S_j \times S_k}^{S_n} F(j) \otimes G(k)$$
 
-and by restriction this formula gives the tensor product on polynomial species. It is a kind of categorification of the usual definition of product of (ordinary) polynomials, where given 
+and by restriction this formula gives the tensor product on polynomial species. It is a kind of categorification of the usual definition of product of ordinary polynomials, where given 
 
 $$F(x) = \sum_{0 \leq j \leq M} \frac{f_j x^j}{j!} \qquad G(x) = \sum_{0 \leq k \leq N} \frac{g_k x^k}{k!}$$
 
@@ -523,11 +523,11 @@ the $n^{th}$ Taylor coefficient of the product $F(x)G(x)$ is
 
 $$\sum_{j+k = n} \frac{n!}{j! k!} f_j g_k$$ 
 
-So in summary, 
+So in summary: 
 
 +-- {: .un_thm} 
 ######Theorem 
-The representing object $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of polynomial species $\mathbb{P}^{op} \to FinVect$. 
+$\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of polynomial species. 
 =-- 
 
 Now, having defined Schur functors abstractly as pseudonatural transformations $U \to U$, the representability theorem together with the 2-categorical Yoneda lemma means that the category of Schur functors is equivalent to the category of symmetric monoidal linear functors on $\widebar{k \mathbb{P}}$. Accordingly, we calculate 
