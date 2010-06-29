@@ -415,17 +415,17 @@ The free commutative ring on a 1-element set is
 
 $$ F(1) \cong \mathbb{Z}[x] $$
 
-and homomorphisms from $F(1)$ to any commutative ring $R$ are in one-to-one correspondence with elements of the underlying set $U(R)$, since
+and homomorphisms from $F(1)$ to any commutative ring $R$ are in one-to-one correspondence with elements of the underlying set of $R$, since
 
 $$ U(R) = hom(1, U(R)) = hom(F(1), R) \, . $$
 
-So, we say $F(1)$ [[representable functor|represents]] the functor $U$.   This makes it easy to show that the set of natural transformations from $U$ to itself is isomorphic to the underlying set $U(F(1))$:
+So, we say $F(1)$ [[representable functor|represents]] the functor $U$.   This makes it easy to show that the set of natural transformations from $U$ to itself is isomorphic to the underlying set of $\mathbb{Z}[x]$, namely $U(F(1))$:
 
 $$hom(U,U) \simeq hom(hom(F(1), -), hom(F(1), -)) \simeq hom(F(1), F(1)) \simeq U(F(1))$$ 
 
 In the first step here we use the representability $U = hom(F(1), -)$; in the second we use the [[Yoneda lemma]], and in the third  we use the adjointness between $U$ and $F$.   
 
-We shall use a categorified version of this argument to prove that $Schur$ is the category of endomorphisms of the 2-functor
+We shall carry out a categorified version of this argument to prove that $Schur$ is the category of endomorphisms of the 2-functor
 
 $$U: SymMonLinCauch \to Cat$$ 
 
@@ -452,17 +452,19 @@ It is well-known that the permutation category $\mathbb{P}$, whose objects are i
 
 $$U_0: SymMonCat \to Cat \, .$$
 
-Let $SymMonLin$ denote the 2-category of small symmetric monoidal linear (but not necessarily Cauchy complete) categories, and let $Lin$ denote the 2-category of small linear categories. Let $k(-): Cat \to Lin$ denote linearization, given by change of hom-base 
+Let $SymMonLin$ denote the 2-category of small symmetric monoidal linear (but not necessarily Cauchy complete) categories, and let $Lin$ denote the 2-category of small linear categories. Let $k(-): Cat \to Lin$ denote linearization, given by change of base 
 
 $$k \cdot - : Set \to Vect$$ 
 
-applied to a small $Set$-enriched category $(C_0, hom: C_0 \times C_0 \to Set)$ to yield a linear category $(C_0, C_0 \times C_0 \to Vect)$. $k(-): Cat \to Lin$ is left 2-adjoint to the underlying 2-functor $u: Lin \to Cat$, and the 2-adjunction $k(-) \dashv u$ has a lifts to the level of symmetric monoidal structure, where we obtain a 2-adjunction 
+applied to a $Set$-enriched category $(C_0, hom: C_0 \times C_0 \to Set)$ to yield a linear category $(C_0, C_0 \times C_0 \to Vect)$. $k(-): Cat \to Lin$ is left 2-adjoint to the underlying 2-functor $U_0: Lin \to Cat$.  For this, we use the fact that if $V$ is a nice closed category (here $Vect$) -- in particular cocomplete -- then the lax monoidal functor $\hom(I, -): V \to Set$ has a left adjoint $- \cdot I: Set \to V$ (here linearization) which is strong (symmetric) monoidal. This induces a 2-functor $Cat = Set$-$Cat \to V$-$Cat$ which is strong 2-symmetric monoidal.  It therefore sends symmetric pseudomonoids in $Set$-$Cat$ to symmetric pseudomonoids in $V$-$Cat$.  In other words, it sends symmetric monoidal categories to symmetric monoidal linear categories.  Therefore, the 2-adjunction $k(-) \dashv U_0$ between $Cat$ and $LinCat$ lifts to one between $SymMonCat$ and $SymMonLinCat$:  
 
 $$(k(-): SymMonCat \to SymMonLin) \dashv (U_1: SymMonLin \to SymMonCat)$$ 
 
 Finally, let $LinCauch$ denote the 2-category of small Cauchy complete linear categories. The linear Cauchy completion gives a 2-reflector $\widebar{(-)}: Lin \to LinCat$ which is left 2-adjoint to the 2-embedding $i: LinCauch \to Lin$, and again the 2-adjunction $\widebar{(-)} \dashv i$ lifts to the level of symmetric monoidal structure to give a 2-adjunction 
 
 $$(\widebar{(-)}: SymMonLin \to SymMonLinCauch) \dashv (U_2: SymMonLinCauch \to SymMonLin)$$ 
+
+For this, the key fact is that if $A \otimes B$ denotes the tensor product of two $V$-enriched categories, then there is a canonical enriched functor  $\overline{A} \otimes \overline{B} \simeq \overline{A \otimes B}$ making Cauchy completion into a lax 2-monoidal functor on $V$-$Cat$.  Even better, it is lax 2-symmetric monoidal.   So, it sends symmetric pseudomonoids to symmetric pseudomonoids.  In this case, then, it sends symmetric monoidal linear categories to symmetric monoidal linear Cauchy-complete categories.
 
 Putting this all together, the underlying functor $U: SymMonLinCauch \to Cat$ is the evident composite 
 
@@ -482,44 +484,7 @@ so that $\widebar{k \mathbb{P}}$ is the representing object.
 
 +-- {: .query}
 
-[[John Baez]]: Todd, you write "It is well-known that the permutation category $\mathbb{P}$, whose objects are integers $m \geq 0$ and whose morphisms are precisely automorphisms $m \to m$ given by permutation groups $S_m$, is the representing object for the underlying 2-functor $U_0: SymMonCat \to Cat.$"  Could you provide a reference?  It seems obvious to me, but I'm really bad at proving these obvious-sounding things.  
-
-Isn't this statement a way of saying that $\mathbb{P}$ is the free symmetric monoidal category on one object?   It seems you're starting with that idea and then using a chain of pseudoadjunctions to show that:
-
-* $k \mathbb{P}$ is the free symmetric monoidal linear category on one object, and 
-
-* $\overline{k \mathbb{P}}$ is the free symmetric monoidal Cauchy complete linear category on one object.
-
-Maybe something very general is going on here, which I shudder to contemplate.  We know that if $X$ is a 2-category of pseudoalgebras for some pseudomonoid on $Cat$, we get a pseudoadjunction 
-
-$$  U : X \to Cat $$ 
-
-$$  F: Cat \to X $$
-
-But in the examples we're dealing with --- namely $X = SymMonCat, SymMonLin$ and $SymMonLinCauch$ --- the forgetful 2-functor $U$ is representable by $F(1)$.  How often is that true?   Always, or only when some nice condition holds?
-
-And then, in your big theorem below, you seem to be saying that in the examples we're dealing with, $U(F(1))$ can be recovered as the category of pseudonatural transformations from $U$ to itself, and modifications between these.  How often is that true?
-  
-Very cool stuff.
-
-[[Todd Trimble|Todd]]: I'll respond in bits and pieces. Yes, precisely, you can rephrase the result I stated about $\mathbb{P}$ in terms of the free symmetric monoidal category on one generator. Thus, for the underlying functor $U: SymMonCat \to Cat$, the category of functors $1 \to U(M)$ (which is equivalent to $U(M)$) is equivalent to the category of symmetric monoidal functors $F(1) \to M$, or $\mathbb{P} \to M$. Hence $SymMon(\mathbb{P}, -)$ is equivalent to $U$. A reference might be your opetopes and weak n-cats paper with Jim, is it HDA3? :-) 
-
-As far as those adjunction liftings go: for one of them, I'm taking advantage of something special about Cauchy completion. As you know, Cauchy completion is something that makes sense generally in enriched category theory. The special feature I seem to be using is that if $A \otimes B$ denotes the tensor product of two $V$-enriched categories, then there is a canonical enriched equivalence  
-$$\overline{A} \otimes \overline{B} \simeq \overline{A \otimes B}$$
-So Cauchy completion is, I assert, a strong 2-monoidal) functor on $V$-$Cat$. If you accept that, then it is fairly automatic that the Cauchy completion of an enriched monoidal category (i.e., a pseudomonoid in $V$-$Cat$) is automatically a monoidal category. Therefore, the Cauchy completion monad lifts to the level of monoidal categories. 
-
-Jazzing this up slightly: Cauchy completion is actually 2-(symmetric monoidal) on $V$-$Cat$, and so takes pseudo-(commutative monoids) in $V$-$Cat$ (i.e., enriched symmetric monoidal categories) to pseudo-(commutative monoids). Hence the Cauchy completion monad lifts to the level of symmetric monoidal enriched categories. This sort of thing is generalizable to other sorts of doctrines involving operations $D^{\otimes n} \to D$ on $V$-$Cat$ -- hopefully the idea is clear by now. 
-
-Something similar is happening for the other adjunction lifting I cited, the one involving linearization. Here, we start with the fact that if $V$ is a nice closed category (here $Vect$) -- in particular cocomplete -- then the lax monoidal functor $\hom(I, -): V \to Set$ has a left adjoint $- \cdot I: Set \to V$ (here linearization) which is strong (symmetric) monoidal. This induces a 2-functor $Cat = Set$-$Cat \to V$-$Cat$ which is strong 2-monoidal. It therefore sends pseudomonoids in $Set$-$Cat$ to pseudomonoids in $V$-$Cat$. Even the lax monoidal 2-functor $V$-$Cat \to Set$-$Cat$ sends pseudomonoids to pseudomonoids. Therefore, the monoidal 2-adjunction between $Cat$ and $V$-$Cat$ lifts to the level of pseudomonoids. Something similar can be said for pseudo-(commutative monoids). 
-
-So getting now to your general question: if you have a 2-adjunction between 
-a 2-(monoidal category) $X$ and the 2-(monoidal category) $Cat$, and if this 2-adjunction is lax 2-monoidal, then we can lift to a 2-adjunction between $PseudoMon(X)$ and $PseudoMon(Cat)$. If the 2-adjunction is lax 2-(symmetric monoidal), then you can similarly lift to the level of pseudo-(commutative monoids) in $X$ and in $Cat$. That seems to be the principle I'm implicitly using in both cases. 
-
-As for your final question: if $U: X \to Cat$ is representable by an object $F(1)$ of $X$, then formally we have 
-$$[U, U] \simeq [hom_X(F(1), -), hom_X(F(1), -)] \simeq hom_X(F(1), F(1)) \simeq U(F(1))$$ 
-where the second equivalence is the 2-categorical Yoneda lemma and the third uses the equivalence $hom_X(F(1), -) \simeq U$. 
-
-[[Todd Trimble]] I better make a note of a dumb thing I said above. It's certainly false that Cauchy completion is strong monoidal with respect to the usual tensor product of $V$-categories. It is however lax monoidal I believe, and that's good enough for the purposes above. 
+[[John Baez]]: I took remarks from this query box and used them to improve the proof above.  However, it could still use more improvement.
 
 =--
 
@@ -643,15 +608,64 @@ of strong monoidal equivalence from $(Schur, \boxtimes)$ to the monoidal categor
 
 The tensor product $\boxtimes$ on $Schur$ goes by another name: it is the **plethystic tensor product**. 
 
-+-- {: .query}
+## Old Stuff 
 
 [[John Baez]]: this stuff should go somewhere, perhaps:
+
++-- {: .query}
+
 
 The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on [[hom-set|hom-sets]] 
 
 $$hom(V, W) \to hom(F(V), F(W))$$ 
 
 is not assumed to respect the linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums (that is, [[biproduct|biproducts]], it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinVect$. 
+
+=--
+
+[[John Baez]]: This stuff should get worked into the discussion near the end of how Schur functors are like polynomials...
+
++-- {: .query}
+
+### Modules over a bimonoid ###
+
+Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a [[bialgebra]] --- or in fancier language, a  [[bimonoid]] in the symmetric monoidal category $FinVect_k$.  Since $i : FinVect_k \to C$ is a symmetric monoidal functor, this means that $i$ carries $k[S_n]$ to a  bimonoid in $C$.  As noted above, we call this bimonoid by the same name, $k[S_n]$.
+
+The category of modules over a bimonoid is a monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
+
+$$\delta: k[S_n] \to k[S_n] \otimes k[S_n] \,,$$
+
+the tensor product $V \otimes W$ of two $k[S_n]$-modules in $C$ carries a module structure where the action is defined by 
+
+$$k[S_n] \otimes V \otimes W \stackrel{\delta \otimes 1_{V \otimes W}}{\to} k[S_n] \otimes k[S_n] \otimes V \otimes W \stackrel{1 \otimes \sigma \otimes 1}{\to} k[S_n] \otimes V \otimes k[S_n] \otimes W \stackrel{\alpha_V \otimes \alpha_W}{\to} V \otimes W$$ 
+
+where $\sigma$ is a symmetry isomorphism and $\alpha_V$, $\alpha_W$ are the actions on $V$ and $W$. 
+
+Now we consider a particular case of tensor product representations. If $X$ is an object of $C$, the symmetric group $S_n$ has a representation on $X^{\otimes n}$. (Indeed, for each $\sigma \in S_n$, there is a corresponding symmetry isomorphism $X^{\otimes n} \to X^{\otimes n}$. From this one may construct an action 
+
+$$k[S_n] \otimes X^{\otimes n} \cong \bigoplus_{\sigma \in S_n} I \otimes X^{\otimes n} \to X^{\otimes n}$$ 
+
+which is the required representation.) So, if $V_\nu$ is a Young tableau representation of $k[S_n]$ in $C$, we obtain a tensor product representation 
+
+$$V_\nu \otimes X^{\otimes n}$$ 
+
+of $k[S_n]$ in $C$. 
+
+Consider next the **averaging operator** $e = \frac1{n!} \sum_{\sigma \in S_n} \sigma$: 
+
+$$e: V_\nu \otimes X^{\otimes n} \to V_\nu \otimes X^{\otimes n}$$ 
+
+This operator makes sense since $k$ has characteristic zero, and crucially, this operator is _idempotent_ (because $e = \sigma e$ for all $\sigma \in S_n$). Because we assume idempotents split in $C$, we have a (split) coequalizer 
+
+$$V_\nu \otimes X^{\otimes n} \stackrel{\overset{e}{\to}}{\underset{1}{\to}} V_\nu \otimes X^{\otimes n} \to V_\nu \otimes_{S_n} X^{\otimes n}$$
+
+This coequalizer is indeed the object of $S_n$-coinvariants of $V_\nu \otimes X^{\otimes n}$, i.e., the joint coequalizer of the diagram consisting of all arrows
+
+$$V_\nu \otimes X^{\otimes n} \stackrel{\sigma \cdot-}{\to} V_\nu \otimes X^{\otimes n}$$
+
+ranging over $\sigma \in S_n$ (it is the joint coequalizer because $e = \sigma e$ for all $\sigma$). 
+
+We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $\nu$. 
 
 =--
 
