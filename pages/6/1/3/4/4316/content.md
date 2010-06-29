@@ -110,7 +110,17 @@ Let $\rho$ be a transportable endomorphism that is localized in the double cone 
 A representation $\pi$ of $\mathcal{A}$ is admissible iff there is a transportable endomorphism $\rho$ such that $\pi$ is unitarily equivalent to $\pi_0 \circ \rho$.
 =--
 
-Reference: This is theorem 2.1.3 in the book by Baumg&#228;rtel
+Reference: This is theorem 2.1.3 in the book by Baumg&#228;rtel.
+
++-- {: .un_theorem}
+###### Theorem
+
+**product of causally disjoint localized endomorphisms is commutative**
+
+Let $\rho_1, \rho_2$ be transportable endomorphisms localized in $K_1, K_2$ respectivley with $K_1 \perp K_2$, then $\rho_1 \rho_2 = \rho_2 \rho_1$.
+=--
+
+Note that the product of equivalenc classes is well defined, and $\hat \rho_1 \hat \rho_2 = \widehat{\rho_1\rho_2}$. Therefore the theorem above implies that the product of equivalence classes is commutative.
 
 ## References ##
 
