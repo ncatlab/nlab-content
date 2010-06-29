@@ -24,7 +24,7 @@ and relatins as follows
 
 1. the obvious associativity relation
 
-the universal [[formal group law]] is the power series
+the universal [[formal group law]] is the formal power series
 
 $$
   \ell(x,y) = \sum_{i,j} a_{i j} x^j y^j \in L[[x,y]]
@@ -33,23 +33,21 @@ $$
 in two variables with coefficients in the Lazard ring.
 
 
-For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in power series in x,y with coefficients in S$ there is a unique morphism $L \to S$ that sends $\ell$ to $g$.
+For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in S[ [x,y] ]$ there is a unique morphism $L \to S$ that sends $\ell$ to $g$.
 
 
 We now describe Quillen's theorem on how the Lazard ring is the cohomlogy ring of peridodic complex cobrdism theory over the point.
 
-**Theorem (Quillen)** Let $M P $ denote the peridodic [[complex cobordism cohomology theory]]. Its [[cohomology ring]] $M P(*)$ over the point together with its [[formal group law]] is naturally isomorphic to the universal Lazard ring with its formal group law $(L,\ell)$
+**Theorem (Quillen)** Let $M P $ denote the peridodic [[complex cobordism cohomology theory]]. Its [[cohomology ring]] $M P(*)$ over the point together with its [[formal group law]] is naturally isomorphic to the universal Lazard ring with its formal group law $(L,\ell)$.
 
-how one might make a [[formal group law]] $(R,f(x,y))$ into a cohomology theory
-
-use the classifying map $M P({*}) \to R$
+This can be used to make a cohomology theory out of a [[formal group law]] $(R,f(x,y))$. Namely, one can use the classifying map $M P({*}) \to R$
 to build the [[tensor product]] 
 
 $$
-  E^n(X) := M P^n(X) \otimes_{M P({*})} R
+  E^n(X) := M P^n(X) \otimes_{M P({*})} R,
 $$ 
-
-this construction could however break the left exactness condition. However, $E$ built this way will be left exact of the ring morphism $M P{{*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger).
+for any $n\in\mathbb{Z}$.
+This construction could however break the left exactness condition. However, $E$ built this way will be left exact if the ring morphism $M P({*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger).
 
 #related entries#
 
