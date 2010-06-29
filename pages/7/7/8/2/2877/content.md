@@ -30,7 +30,8 @@ As [[Hopf algebroid]]s generalize (function algebras on) groupoids, there is a w
 
 *  Gabriella B&#246;hm, _Galois theory for Hopf algebroids_, Annali dell'Universita di Ferrara, Sez VII, Sci. Mat., Vol. LI (2005) 233--262 [math.QA/0409513](http://arxiv.org/abs/math.QA/0409513)
 
+See also
 
-
+* Tomasz Brzezi&#324;ski, _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213).
 
  
