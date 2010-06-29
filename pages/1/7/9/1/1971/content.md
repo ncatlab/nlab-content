@@ -1,4 +1,8 @@
-##Idea##
+# Symmetric functions
+* table of contents
+{: toc}
+
+## Idea
 
 A symmetric function is roughly a [[polynomial]] that is invariant under permutation of the variables.  However, this is only strictly correct if the number of variables is finite, and symmetric functions depend on a countably infinite number of variables.   The only symmetric *polynomials* in infinitely many variables are the constants.  To fix this, we allow infinitely many terms, as long as the *degree* is finite. 
 
@@ -16,9 +20,10 @@ $$ \sum_{i \lt j} x_i x_j .$$
 
 (The homogeneous symmetric functions of degree $0$ are just the constants, as usual.)
 
-##Definition##
 
-Let $\Lambda_n$ be the [[ring]] consisting of polynomials in $n$ variables $x_1, \dots, x_n$ that are invariant under all permutations of the variables; these are the **symmetric functions in $n$ variables** or **symmetric polynomials** in $n$ variables.   The rings $\Lambda_n$ are [[grading|graded]] by degree in the usual way, and there are homomorphisms of graded rings
+## Definitions
+
+Let $\Lambda_n$ be the [[ring]] consisting of polynomials in $n$ variables $x_1, \dots, x_n$ that are invariant under all permutations of the variables; these are the **symmetric functions in $n$ variables** or **symmetric polynomials** in $n$ variables.   The rings $\Lambda_n$ are [[graded ring|graded]] by degree in the usual way, and there are homomorphisms of graded rings
 
 $$ \Lambda_{n+1} \hookrightarrow \Lambda_{n} ,$$
 
@@ -59,7 +64,8 @@ Actually, on second glance, I don't understand the description of the maps in th
 [[Mike Shulman]]: Thanks!  Here's what I get from the Wikipedia article: the projections are easy to define.  They are surjective and turn out to have sections (as ring homomorphisms).  The ring of symmetric functions can be defined either as the colimit of the sections, or as the the limit of the projections _in the category of graded rings_.  The limit in the category of all rings would contain too much stuff.
 =--
 
-##Properties##
+
+## Properties
 
 Symmetric functions play a fundamental role throughout [[representation theory]], [[combinatorics]] and [[algebraic topology]].  The ring of symmetric functions, $\Lambda$, has many interesting properties.   For example, it is the free $\lambda$-[[lambda-ring|ring]] on one generator (a coincidence of notation that has not been ignored).  It is also a [[plethory]].  There are various bases of $\Lambda$ whose elements are in natural one-to-one correspondence with [[Young diagram|Young diagrams]]. 
 
@@ -76,9 +82,10 @@ $$ F: \mathbb{P} \to Vect_{k} $$
 
 with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ for $n$ sufficiently large.   The category of Schur functors is again a [[semisimple category|semisimple abelian category]] with a basis of objects given by irreducible [[representation|representations]] of [[symmetric groups]], so its Grothendieck ring is again $\Lambda$.   For more on this, see [[Schur functor]].
 
-## References ##
 
-* Michiel Hazewinkel, Witt vectors, Part 1.  ([arXiv](http://arxiv.org/abs/0804.3888)
+## References
+
+* Michiel Hazewinkel, Witt vectors, Part 1.  ([arXiv](http://arxiv.org/abs/0804.3888))
 
 +-- {: .query}
 [[John Baez]]: Do we need the complex numbers in the previous paragraph, or will any field do equally well?  Maybe just any field of characteristic zero?  I really want to know!  Another way to put my question: take the category of representations of the permutation group $S_n$ in finite-dimensional vector spaces over the field $k$.  Take the Grothendieck group of this.  Does this depend on $k$?  Does something weird happen when $n$ is divisible by $char k$? 
@@ -94,9 +101,10 @@ _John_: Right, Maschke's theorem says that all reps of a group of order $k$ are 
 _Toby_:  I\'m at the UCR library right now, and Serre\'s book is checked out, so I can\'t tell you whether it\'s in there or not.  But it might be.
 
 _Gon&#231;alo Marques_: There\'s an exercise at the end of section 6.1 of Serre\'s book (page 64 of the french edition) that says that if $k$ is a field of characteristic $p \gt 0$ then the group algebra of the group $G$ is semisimple iff $p$ doesn\'t divide the order of $G$
-
 =--
 
+
+[[!redirects symmetric function]]
 [[!redirects symmetric functions]]
 [[!redirects symmetric polynomial]]
 [[!redirects symmetric polynomials]]
