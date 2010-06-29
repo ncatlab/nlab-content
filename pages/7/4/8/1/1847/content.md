@@ -144,6 +144,10 @@ Care should be taken as to which category one constructs partitions of unity on 
 
 *  the English Wikipedia\'s [article](http://en.wikipedia.org/wiki/Paracompact_space)
 
+Some properties of paracompact spaces are listed and proven in
+
+* [http://www.helsinki.fi/~hjkjunni/top9.pdf](http://www.helsinki.fi/~hjkjunni/top9.pdf)
+
 A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Čech cohomology]] is around page 32 of
 
 * **Bry** Brylinski, _Loop spaces, characteristic classes geoemetric quantization_
