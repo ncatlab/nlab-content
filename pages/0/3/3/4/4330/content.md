@@ -14,7 +14,7 @@ In Richard P. Stanley's book _Enumerative Combinatorics_, he discusses the origi
 
 * D. E.  Littlewood, Invariant theory, tensors and group characters, _Philos. Trans. Roy. Soc. London. Ser. A._ **239**, (1944), 305--365.
 
-The term "plethysm" was suggested to Littlewood by M. L. Clark after the Greek word _plethysmos_, or &#960;&#955;&#951;&#952;&#957;&#963;&#956;o&#950;, meaning "multiplication".  (The Greek is approximate here.)
+The term 'plethysm' was suggested to Littlewood by M. L. Clark after the Greek word _plethysmos_, or &#960;&#955;&#951;&#952;&#957;&#963;&#956;o&#950;, meaning 'multiplication'.  (The Greek is approximate here.)  The related term _plethys_ in Greek means mass or quantity, and this in turn comes from the Greek verb _plethein_, which means 'to be full'.
 
 Some aspects of plethysm appear (partly through exercises) in the representation theory textbook by Fulton and Harris. 
 
