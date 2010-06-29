@@ -59,11 +59,12 @@ We will drop "unitarily" from now on.
 
 For any representation $\pi$ and endomorphism $\rho$ the composition $\pi \circ \rho$ is another representation. For this reason one can hope to gain some insights into the representations by studying the endomorphisms, while the set of endomorphisms has certainly more structure than that of representations: For example, endomorphisms may have inverses, and endomorphisms form a [[monoid]] by composition.
 
-First we define "unitarily equivalent" analog to the definition for [[representations of C-star algebras]]:
+First we define "unitarily equivalent" and "intertwiner" analog to the definition for [[representations of C-star algebras]]:
 
 +-- {: .un_defn}
 ###### Definition
 Two endomorphisms $\rho_1, \rho_2$ are **unitarily equivalent** if there is a [[unitary operator]] $U \in \mathcal{A}$ such that $\rho_1 = ad(U) \rho_2 = U \rho_2 U^{-1}$. The endomorphisms $ad(U)$ with $U \in \mathcal{A}$ are called **inner automorphisms** (of $\mathcal{A}$).
+An element $R \in \mathcal{A}$ such that $R \rho_1 = \rho_2 R$, not necessarily unitary, is called an **intertwiner** or **intertwining operator**.
 =--
 
 The DHR selection criterion selects representations that "look like the vaccum" on the causal complement of elements of our index set (in this case the double cones). The analog for endomorphims is this:
