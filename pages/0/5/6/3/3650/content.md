@@ -14,7 +14,7 @@ A [[geometric morphism]] is *locally connected* if it behaves as though its fibe
 
 ## Definition
 
-A geometric morphism $F \underoverset{f_*}{f^*}{\rightleftarrows} E$ is **locally connected** if it satisfies the following equivalent conditions:
+A geometric morphism $F \underoverset{f_*}{f^*}{\leftrightarrows} E$ is **locally connected** if it satisfies the following equivalent conditions:
 
 1. It is [[essential geometric morphism|essential]], i.e. $f^*$ has a left adjoint $f_!$, and moreover $f_!$ can be made into an $E$-[[indexed functor]].
 
