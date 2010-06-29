@@ -1,8 +1,8 @@
-A 'stuff type' is a type of [[stuff]] that can placed on finite sets, e.g. 'being a 2-colored finite set', or 'being the first of two finite sets'.  To make this precise, we define a __stuff type__ to be a functor
+A 'stuff type' is a type of [[stuff]] that can placed on [[finite sets]], e.g. 'being a 2-colored finite set', or 'being the first of two finite sets'.  To make this precise, we define a __stuff type__ to be a [[functor]]
 
 $$p: X \to core(FinSet)$$
 
-from some groupoid $X$ to the groupoid of finite sets and bijections, which is the [[core]] of the category [[FinSet]].  Equivalently, we can think of a stuff type as a functor (of a suitably weakened sort, namely a [[pseudofunctor]]) 
+from some [[groupoid]] $X$ to the groupoid of finite sets and bijections, which is the [[core]] of the category [[FinSet]].  Equivalently, we can think of a stuff type as a [[2-functor]] (of a suitably weakened sort, namely a [[pseudofunctor]]) 
 
 $$F: core(FinSet)^{op} \to Gpd $$
 
@@ -16,11 +16,13 @@ We can think of $F$ as a suitably weakened sort of [[presheaf]] of groupoids on 
 
 $$core(FinSet) \to Gpd $$
 
-If the functor
+If a stuff type
 
-$$X \to core(FinSet)$$
+$$p: X \to core(FinSet)$$
 
-is faithful, we call this stuff type a [[structure type]].  Structure types are also called [[species]], and they can be thought of as presheaves of _sets_.
+is faithful, we call it a [[structure type]].  Structure types are also called [[species]], and they can be thought of as presheaves of _sets_
+
+$$F: core(FinSet)^{op} \to Set $$
 
 A stuff type can also be thought of as a [[categorification|categorified]] [[generating function]].   Whereas a generating function assigns a number to each [[natural number]] (or [[finite set]]), a stuff type assigns a [[groupoid]].  Namely, the stuff type
 
@@ -40,4 +42,4 @@ One advantage of stuff types over the more familiar structure types (i.e., speci
 
 * Jeffrey Morton, Categorified algebra and quantum mechanics, _Theory and Applications of Categories_, **16** (2006), 785--854. ([arXiv](http://arxiv.org/abs/math/0601458))
 
-* [[John Baez]], Fall 2003 to Spring 2004 [quantum gravity notes](http://math.ucr.edu/home/baez/qg-fall2003/).
+* [[John Baez]], Fall 2003 to Spring 2004 [seminar notes](http://math.ucr.edu/home/baez/qg-fall2003/).
