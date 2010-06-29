@@ -8,7 +8,7 @@
 
 An object $X$ in a category $C$ with a [[zero object]] $0$ is __simple__ if there are precisely two [[subobjects]] of $X$: $0$ and $X$. 
 
-Note that $0$ itself is *not* simple, as it has only *one* subobject.  This is similar to the issues discussed at [[connected space]].
+Note that $0$ itself is *not* simple, as it has only *one* subobject.  It is [[too simple to be simple]].
 
 In [[constructive mathematics]], we want to phrase the definition as: a subobject of $X$ is $0$ if and only if it is not $X$.
 
