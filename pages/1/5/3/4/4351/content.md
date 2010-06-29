@@ -51,7 +51,7 @@ $$
 
 This is to be thought of as the hyperring of [[integer]]s modulo the relation "is 0 or not 0": think of $0 \in \mathbf{K}$ as being the integer 0 and of $1 \in \mathbf{K}$ as being _any_ non-zero integer, then the addition rule says that 0 plus any non-zero integer is non-zero, and that the sum of a non-zero integer with another non-zero integer is either zero or non-zero.
 
-### The hyperfield $\mathbf{S}$
+### The signature hyperfield $\mathbf{S}$
 
 Let $\mathbf{S} = \{0,1,-1\}$ be the hyperfield with multiplication induced from $\mathbb{Z}$ and with addition given by 0 being the additive unit and the laws
 
@@ -76,9 +76,16 @@ $$
 
 ## References
 
-The notion of hyperring and hyperfield is due to Krasner. For a review see section 2 of
+The notion of hyperring and hyperfield is maybe (?) due to Krasner. An early reference is
 
-* [[Alain Connes]], [[Caterina Consani]], _The hyperring of ad&#232;le classes_ ([arXiv](http://arxiv.org/abs/1001.4260))
+* D. Stratigopoulos, _Hyperanneaux non commutatifs: Hyperanneaux, hypercorps, hypermodules, hyperespaces vectoriels et leurs propri&#233;t&#233;s &#233;l&#233;mentaires_ (French) C. R. Acad. Sci. Paris S&#233;r. A-B 269 (1969) A489&#8211;A492.
+
+Modern applications in connection to the [[field with one element]] are discussed in 
+
+* [[Alain Connes]], [[Caterina Consani]], _The hyperring of ad&#232;le classes_ ([arXiv:1001.4260](http://arxiv.org/abs/1001.4260))
+
+* [[Alain Connes]], [[Caterina Consani]], _From monoids to hyperstructures: in search of an absolute arithmetic_ ([arXiv:1006.4810](http://uk.arxiv.org/abs/1006.4810))
+
 
 [[!redirects hyperrings]]
 [[!redirects hyper-ring]]
