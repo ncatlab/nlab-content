@@ -134,7 +134,7 @@ This is recognized as the construction appearing in the factorization lemma in t
 
 ## Decalage comonad 
 
-Decalage also has an abstract nonsense description as follows. The simplicial category, as a monoidal category $(\Delta, +, 0)$ equipped with the monoid $1$, is the "walking monoid", i.e., is initial among monoidal categories equipped with a monoid. Therefore $\Delta^{op}$ is the walking comonoid; as a result, there is a comonad 
+Decalage also has an abstract [[category theory|category theoretic]] description as follows. The [[simplex category]], as a [[monoidal category]] $(\Delta, +, 0)$ equipped with the [[monoid]] $1$, is the "[[walking structure|walking]] [[monoid]]", i.e., is initial among monoidal categories equipped with a monoid. Therefore $\Delta^{op}$ is the walking [[comonoid]]; as a result, there is a [[comonad]] 
 
 $$- + 1: \Delta^{op} \to \Delta^{op}$$ 
 
