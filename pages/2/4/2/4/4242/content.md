@@ -23,11 +23,11 @@ By [[homological mirror symmetry]], the B-model is dual to the  [[A-model]].
 
 The B-model was first conceived in
 
-* [[Edward Witten]], _Topological Sigma Models_ m Commun. Math. Phys. 118 (1988) 411.
+* [[Edward Witten]], _Topological sigma models_, Commun. Math. Phys. __118__ (1988) 411--449, [euclid](http://projecteuclid.org/euclid.cmp/1104162092), [MR90b:81080](http://www.ams.org/mathscinet-getitem?mr=0958805)
 
 An early review is in 
 
-* [[Edward Witten]]. _Mirror manifolds and topological field theory_ . In Essays on mirror manifolds, pages 120&#8211;158. Int. Press, Hong Kong, 1992. ([arXiv:hep-th/9112056](http://arxiv.org/abs/hep-th/9112056)).
+* [[Edward Witten]]. _Mirror manifolds and topological field theory_, in: Essays on mirror manifolds, pp. 120&#8211;-158. Int. Press, Hong Kong, 1992. ([arXiv:hep-th/9112056](http://arxiv.org/abs/hep-th/9112056)).
 
 The motivation from the point of view of [[string theory]] with an eye towards the appearance of the Calabi-Yau categories is reviewed for instance in
 
@@ -48,3 +48,4 @@ The construction of the B-model as a [[TCFT]] on [[cobordism]]s of arbitrary [[g
 
 * [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
 
+Overflow discussion: [higher-genus-closed-string-b-model](http://mathoverflow.net/questions/8692/higher-genus-closed-string-b-model)
