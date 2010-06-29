@@ -479,6 +479,8 @@ As for your final question: if $U: X \to Cat$ is representable by an object $F(1
 $$[U, U] \simeq [hom_X(F(1), -), hom_X(F(1), -)] \simeq hom_X(F(1), F(1)) \simeq U(F(1))$$ 
 where the second equivalence is the 2-categorical Yoneda lemma and the third uses the equivalence $hom_X(F(1), -) \simeq U$. 
 
+[[Todd Trimble]] I better make a note of a dumb thing I said above. It's certainly false that Cauchy completion is strong monoidal with respect to the usual tensor product of $V$-categories. It is however lax monoidal I believe, and that's good enough for the purposes above. 
+
 =--
 
 ### Structure of the representing object
