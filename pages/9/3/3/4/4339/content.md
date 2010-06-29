@@ -10,7 +10,7 @@ Examples include:
 *  [[one|1]] is not a [[prime number]].
 *  The [[trivial ring]] is not a [[field]].
 *  The [[zero object]] is not a [[simple object]] (which is the trope-namer).
-*  The [[empty space]] is not a [[connected space]].
+*  The [[empty space]] is not a [[connected space]] (although one can argue about this, depending on the definition of "connected").
 *  The [[improper ideal]] is not a [[maximal ideal]] or a [[prime ideal]].
 *  The [[improper filter]] is not an [[ultrafilter]].
 
