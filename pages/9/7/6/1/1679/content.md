@@ -2,12 +2,18 @@
 [[!include 2-category theory - contents]]
 </div>
 
+# Modifications
+* table of contents
+{: toc}
+
+## Idea
+
 Just as a [[natural transformation]] between [[functor]]s is a
 collection of $1$-cells indexed by $0$-cells, a _modification_ between
 transformations is an indexed collection of 2-cells.
 
 
-## Definitions ##
+## Definitions
 
 To be most general, start with [[lax natural transformation|lax transformations]]
 $\alpha, \beta : F \dot{\to} G : C \to D$. Given those, a modification
@@ -29,10 +35,11 @@ When you get tired of thinking individually about $n$-categories, functors, tran
 (Some discussion from here has also been moved to there.)
 
 
-## References ##
+## References
 
 [[Tom Leinster]], _Basic bicategories_,
 [arXiv](http://arxiv.org/abs/math/9810017).
 
 
+[[!redirects modification]]
 [[!redirects modifications]]
