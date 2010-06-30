@@ -6,7 +6,7 @@ For example, the $n^{th}$ [[exterior power]] functor $\Lambda^n$ is a Schur func
 
 $$  V \mapsto \Lambda^2 S^2(V) $$
 
-as a direct sum of Schur functors coming from [[Young diagrams]].    And, this is the sort of problem people study when they talk about "plethysm".
+as a direct sum of Schur functors coming from [[Young diagrams]].    This is the sort of problem people study when they talk about "plethysm".
 
 ## History and references
 
@@ -14,7 +14,7 @@ In Richard P. Stanley's book _Enumerative Combinatorics_, he discusses the origi
 
 * D. E.  Littlewood, Invariant theory, tensors and group characters, _Philos. Trans. Roy. Soc. London. Ser. A._ **239**, (1944), 305--365.
 
-The term 'plethysm' was suggested to Littlewood by M. L. Clark after the Greek word _plethysmos_, or &#960;&#955;&#951;&#952;&#957;&#963;&#956;o&#950;, meaning 'multiplication'.  (The Greek is approximate here.)  The related term _plethys_ in Greek means mass or quantity, and this in turn comes from the Greek verb _plethein_, which means 'to be full'.
+The term 'plethysm' was suggested to Littlewood by M. L. Clark after the Greek word _plethysmos_, or &#960;&#955;&#951;&#952;&#965;&#963;&#956;&#972;&#962;, which means 'multiplication' in modern Greek (though apparently the meaning goes back to ancient Greek).  The related term _plethys_ in Greek means 'a big number' or 'a throng', and this in turn comes from the Greek verb _plethein_, which means 'to be full', 'to increase', 'to fill', etc.  
 
 Some aspects of plethysm appear (partly through exercises) in the representation theory textbook by Fulton and Harris. 
 
