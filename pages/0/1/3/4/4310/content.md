@@ -24,13 +24,13 @@ More tersely, and also more precisely, a biring is a [[internalization|commutati
 
 Equivalently, a biring is a commutative ring $R$ equipped with a lift of the functor 
 
-$$ hom(-, R) : CommRing \to Set $$
+$$ hom(R, -) : CommRing \to Set $$
 
 to a functor
 
-$$ hom(-, R) : CommRing \to CommRing $$
+$$ hom(R, -) : CommRing \to CommRing $$
 
-Birings form a [[monoidal category]] thanks to our ability to  composite functors of this form.  A [[monoid object]] in this monoidal category is called a [[plethory]].  A plethory is an example of a [[Tall–Wraith monoid]].
+Birings form a [[monoidal category]] thanks to the fact that functors of this form are closed under composition.  A [[monoid object]] in this monoidal category is called a [[plethory]].  A plethory is an example of a [[Tall–Wraith monoid]].
 
 The most important example of a biring is $\Lambda$, the ring of [[symmetric polynomials]].  This is actually a plethory.
 
