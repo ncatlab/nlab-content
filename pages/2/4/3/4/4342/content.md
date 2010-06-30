@@ -81,7 +81,7 @@ _Remark_: The [[Haag-Kastler vacuum representation]] that we talk about here sat
 
 +-- {: .proof}
 ###### Sketch of the Proof
-Let $\pi_1, \pi_2$ be admissible representations and $\rho_1, \rho_2$ be their transportable endomorphisms localized in $K_1, K_2$ respectively. Choose a double cone $K_0 \in \mathcal{J}_0$ that contains $K_1$ and $K_2$. Since the local von Neumann algebra $\mathcal{M}(K_0)$ is not trivial, it contains a nontrivial projection $E$, that is $0 \le E \le \mathbb{1}$.
+Let $\pi_1, \pi_2$ be admissible representations and $\rho_1, \rho_2$ be their transportable endomorphisms localized in $K_1, K_2$ respectively. Choose a double cone $K_0 \in \mathcal{J}_0$ that contains $K_1$ and $K_2$. Since the local von Neumann algebra $\mathcal{M}(K_0)$ is not trivial, it contains a nontrivial projection $E$, that is $0 \lt E \lt \mathbb{1}$.
 
 Thanks to the Borchers property there is a double cone $K$ containing the closure of $K_0$, and partial isometries $W_1, W_2 \in \mathcal{M}(K)$ such that $W_1 W_1^* = E, W_2 W_2^* = \mathbb{1} - E$. 
 
