@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+   [[!include AQFT and operator algebra contents]]
+</div>
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
@@ -11,7 +15,7 @@ The Borchers property is therefore often used as an "intermediate technical assu
 Sometimes this property is also abbreviated as "property B".
 
 ## Definition ##
-Let $\mathcal{M}(\mathcal{O})$ be a net of [[von Neumann algebras]] indexed by bounded open subsets of [[Minkowski spacetime]], for more details see [[Haag-Kastler vacuum representation]] for more details, 
+Let $\mathcal{M}(\mathcal{O})$ be a net of [[von Neumann algebras]] indexed by bounded open subsets of [[Minkowski spacetime]], for more details see [[Haag-Kastler vacuum representation]], 
 
 +-- {: .un_defn}
 ###### Definition
