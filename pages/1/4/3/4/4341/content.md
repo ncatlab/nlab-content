@@ -14,7 +14,7 @@ between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, 
 
 ## References
 
-* A [Caf&#233; comment](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) about walking objects (among other things).
+* A [Caf&#233; post](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) about walking objects (among other things), including a [comment](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) that explains the terminology.
 
 
 [[!redirects walking]]
