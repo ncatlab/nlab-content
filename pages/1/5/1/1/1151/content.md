@@ -45,11 +45,11 @@ gives a tour through the zoo of cohomology theories traditionally known, indicat
 
 * [Definition](#Definition)
 
-gives the very general formal definition and discusses very general properties of and constructions in cohomology theory, such as the terminology of _[[cocycle]]s_ and _coboundaries_ of _[[principal ∞-bundle|objects classified]]_ by cohomology, of _[[characteristic class]]es_ of these objects, and so on. In particular the section
+gives the very general formal definition and discusses very general properties of and constructions in cohomology theory, such as the terminology of _[[cocycle]]s_ and _coboundaries_ of _[[principal ∞-bundle|objects classified]]_ by cohomology, of _[[characteristic class]]es_ of these objects, of [[Postnikov tower in an (infinity,1)-category|Postnikov towers]] and [[Whitehead tower in an (infinity,1)-topos|Whitehead towers]], and so on. In particular the section
 
 * [Extra structure on cohomology](#ExtraStruc)
 
-describes addtition [[stuff, structure, property]] that may be present for certain choices of coefficient objects -- such as _gradings_ , [[cohomology group]]- and ring-structures -- and aspects of which are in different parts of the traditional literature often _required_ (differently) on cohomology.
+describes addtitional [[stuff, structure, property]] that may be present for certain choices of coefficient objects -- such as _gradings_ , [[cohomology group]]- and ring-structures -- and aspects of which are in different parts of the traditional literature often _required_ (differently) on cohomology.
 
 The straightforward definition of cohomology in terms of mapping spaces in an [[(∞,1)-topos]] has some slight, but similarly straightforward, variants, notably that of _twisted cohomology_ (which includes other cases such as [[differential cohomology]]) and of [[equivariant cohomology]] (with its different flavors such as Borel-equivariant and [[Bredon cohomology]]). These are discussed in the section
 
@@ -70,7 +70,7 @@ Essentially nothing about this perspective on cohomology is really new, many asp
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ (1973),
 
-in the light of fully fledged [[(∞,1)-topos|(∞,1)-topos theory]], of which it is the effectively the seed, by noticing that this article secretly discusses precisely the [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[hypercomplete (∞,1)-topos]]es. At the same time, to some extent everything here is also an afterthought of the theory of cohomology in [[category theory|1-categorical]] [[topos theory]] as reviewed for instance in
+in the light of fully fledged [[(∞,1)-topos|(∞,1)-topos theory]], of which it is effectively the seed, by noticing that this article secretly discusses precisely the [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[hypercomplete (∞,1)-topos]]es. At the same time, to some extent everything here is also an afterthought of the theory of cohomology in [[category theory|1-categorical]] [[topos theory]] as reviewed for instance in
 
 * [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ , section I.4
 
@@ -83,13 +83,13 @@ This and a list of other releated references and historical developments is give
 
 ## Tour through notions of cohomology {#Overview}
 
-The statement of this slogan is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A := K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
+The statement of the above slogan is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A := K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
 
 $$
   \pi_0 \mathbf{H}(X,K(\mathbb{Z},n)) = H^n(X,\mathbb{Z})
 $$
 
-coincides with the "ordinary" [[integral cohomology]] of $X$.
+coincides with the "ordinary" [[integral cohomology]] of $X$, modeled as its [[singular cohomology]].
 
 This definition in [[Top]] alone already goes a long way. By the [[Brown representability theorem]] all cohomology theories that are called [[generalized (Eilenberg-Steenrod) cohomology]] theories are of this form, for $A$ a topological space that is part of a [[spectrum]]. This includes everything that is traditionally just called "a [[cohomology theory]]", such as [[K-theory]], [[elliptic cohomology]], [[tmf]], [[complex cobordism cohomology theory|complex cobordism]], etc.
 
@@ -97,7 +97,7 @@ Another big complex of notions of cohomology that on first sight maybe does not 
 
 Indeed, it turns out that an old result from the 1960s, **Verdier's hypercovering theorem** effectively shows that what was introduced as [[abelian sheaf cohomology]] is really nothing but an instance of the above general setup. A particularly clear-sighted understanding of this fact was presented in 
 
-* Ken Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]].
+* [[Kenneth Brown]], [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]].
 
 Therein Brown considers essnetially the [[model structure on simplicial presheaves]] -- which today is known to be one of the standard [[models for ∞-stack (∞,1)-toposes]] $\mathbf{H}$ -- rederives Verdier's hypercovering theorem and shows that ordinary [[abelian sheaf cohomology]] is indeed nothing but $\pi_0 \mathbf{H}(X,A)$ in such an [[(∞,1)-topos]], for the special case that the [[simplicial presheaf]] $A$ happens to be objectwise in the image of the [[Dold-Kan correspondence]], i.e. for the special case that $A$ is a _maximally abelian_ [[∞-stack]].
 
@@ -105,11 +105,11 @@ One can then understand various "cohomology theories" as nothing but tools for _
 
 In other words, [[abelian sheaf cohomology]] is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]], [[deRham cohomology]], [[etale cohomology]], [[crystalline cohomology]], [[syntomic cohomology]], etc. You name it.
 
-But this also shows that abelian sheaf cohomology itself is just a very special case of cohomology in an $\infty$-stack $(\infty,1)$-topos: the [[stable (infinity,1)-category|stable]] or _maximally abelian_ case. For coefficient objects $A \in \mathbf{H}$ that are not maximally abelian (for instancce not degreewise in the image of the [[Dold-Kan correspondence]] for sheaf cohomology) the cohomology of an $\infty$-stack topos is a [[nonabelian cohomology]]. 
+But this also shows that abelian sheaf cohomology itself is just a very special case of cohomology in an $\infty$-stack $(\infty,1)$-topos: the [[stable (infinity,1)-category|stable]] or _maximally abelian_ case. For coefficient objects $A \in \mathbf{H}$ that are not maximally abelian (for instance not degreewise in the image of the [[Dold-Kan correspondence]] for sheaf cohomology) the cohomology of an $\infty$-stack topos is a [[nonabelian cohomology]]. 
 
 Often in the literature the term "nonabelian cohomology" is restricted to [[nonabelian group cohomology]], which is indeed one special case. Another familiar special case is cohomology in [[Top]] with coefficients in the [[classifying space]] $\mathcal{B}G$ of a (possibly nonabelian) [[group]] $G$ (which is of course not part of a [[spectrum]], in general). This degree 1 nonabelian cohomology classifies $G$-[[principal bundle]]s. 
 
-If the group $G$ here is generalized to a (possibly nonabelian) [[2-group]], the coefficient object $\mathcal{B}G$ gives degree 2 nonabelian cohomology in [[Top]], which classifies nonabelian [[gerbe]]s and, more generally, [[principal 2-bundle]]s. The celebrate treatise by Giraud _Cohomologie non ab&#233;lienne_ is concerned with this case. In fact, Giraud considered [[gerbe]]s on [[stack]]s and hence was implicitly really computing cohomology in a [[stack]] 2-topos with both the domain and the coefficient object allowed to have nontrivial [[homotopy group (of an infinity-stack)|homotopy groups of stacks]] in degree 2.
+If the group $G$ here is generalized to a (possibly nonabelian) [[2-group]], the coefficient object $\mathcal{B}G$ gives degree 2 nonabelian cohomology in [[Top]], which classifies nonabelian [[gerbe]]s and, more generally, [[principal 2-bundle]]s. The celebrate treatise by Giraud _Cohomologie non ab&#233;lienne_ is concerned with this case. In fact, Giraud considered [[gerbe]]s on [[stack]]s and hence was implicitly really computing cohomology in a [[stack]] [[2-topos]] with both the domain and the coefficient object allowed to have nontrivial [[homotopy group (of an infinity-stack)|homotopy groups of stacks]] in degree 2.
 
 Conceptually, with [[higher topos theory]] in hand, there is no problem in generalizing nonabelian cohomology and its relation to gerbes and principal bundles further from stacks to [[∞-stack]]s. For instance, while the discussion of [[spin group|spin structure]] on a [[space]]/[[∞-stack]] requires a 1-stack coefficient object and classifies principal bundles, and the discussion of [[string structure]] requires a 2-stack coefficient object and classifies [[gerbe]]s and [[principal 2-bundle]]s, the next case of [[fivebrane group|fivebrane structure]] requires 6-stack coefficient objects and classifies principal 6-bundles. Generally, we may speak of [[principal ∞-bundle]]s in any [[(∞,1)-topos]] $\mathbf{H}$: these are nothing but the [[homotopy fiber]]s of the corresponding ("nonabelian") [[cocycle]]s, which are just morphisms $X \to A$ in $\mathbf{H}$.
 
@@ -119,14 +119,14 @@ Conversely, given an unconstrained (unstable) [[(∞,1)-topos]] $\mathbf{H}$ wit
 
 An example of this is [[motivic cohomology]] and motivic [[homotopy]]: this is the cohomology given by [[derived hom space|(∞,1)-categorical hom spaces]] in the [[(∞,1)-topos]] of [[∞-stack]]s on the [[Nisnevich site]]: motivic cohomology proper is that where the coefficient objects happen to be components of [[spectrum object]]s and [[A1-homotopy theory|A1-homotopy invariant]]. For instance the [[Chow group]]s are precisely the cohomology in this sense with coefficients in the [[Eilenberg-MacLane object]]s of this [[(∞,1)-topos]]. From this perspective, hom-spaces into more general objects in this $(\infty,1)$-topos could be called _nonabelian motivic cohomology_ . 
 
-A noteworthy example the restriction to homotopy invariant objects in an $(\infty,1)$-topos, hence to its [[homotopy localization]] is the internal cohomology of the $(\infty,1)$-topos of $\infty$-stacks on the [[site]] [[Top]] (topological $\infty$-stacks): when restricted to homotopy local objects this turns out to be just the ordinary cohomology in [[Top]]. This is described in more detail at [[topological ∞-groupoid]].
+A noteworthy example for the restriction to homotopy invariant objects in an $(\infty,1)$-topos, hence to its [[homotopy localization]], is the internal cohomology of the $(\infty,1)$-topos of $\infty$-stacks on the [[site]] [[Top]] (topological $\infty$-stacks): when restricted to homotopy local objects this turns out to be just the ordinary cohomology in [[Top]]. This is described in more detail at [[topological ∞-groupoid]].
 
 There are some slight variations on the theme that cohomology is all about connected components of hom-spaces in [[(∞,1)-topos]]es: by looking at [[homotopy fiber]]s of such  [[derived hom space|(∞,1)-categorical hom-spaces]] instead, one finds [[twisted cohomology]]. The most prominent example is [[twisted K-theory]]: in degree 0 this is the study of the homotopy fiber of the morphism of $(\infty,1)$-categorical hom-space $Top(-,\mathcal{B}PU(n)) \to Top(-,\mathcal{B}^2 U(1))$ that sends a projective [[unitary group|unitary]] [[principal bundle]] (hence its [[associated bundle|associated]] [[vector bundle]]) to the [[lifting gerbe]] for the lift of its structure group to the full [[unitary group]].
 
 Another example of [[twisted cohomology]] is [[differential cohomology]]: differential cohomology refinements of abelian [[generalized (Eilenberg-Steenrod) cohomology]] theories with coefficient objects a [[spectrum]] $E$ is the study of the [[homotopy fiber]]s of the [[Chern character]] map $ch : \mathbf{H}(X,E) \to \Omega^\bullet_{dR}(X)\otimes \pi_\bullet(E)$ from $E$-cohomology to [[deRham cohomology]]. 
 This classifies (abelian versions of) [[connection on a bundle|connections]] on the underlying bundles, for instance [[Simons-Sullivan structured bundle]]s (vector bundles with connection).
 
-By generalizing the notion of [[Chern character]] to richer $(\infty,1)$-toposes, one obtains by the same token a notion of [[schreiber:differential nonabelian cohomology]] encoding connections on general [[principal ∞-bundle]]s and associated [[schreiber:∞-vector bundle]]s.
+By generalizing the notion of [[Chern character]] to richer $(\infty,1)$-toposes, one obtains by the same token a notion of [[schreiber:differential cohomology in an (∞,1)-topos]] encoding connections on general [[principal ∞-bundle]]s and associated [[schreiber:∞-vector bundle]]s.
 
 
 
@@ -820,35 +820,6 @@ Another reference with a  discussion of cohomology in the general sense discusse
 * [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
 
 
-
-## Discussion ##
-
-+-- {: .query}
-Is it really true/known that *all* forms of cohomology is subsumed in this definition? I would be really happy if this was true, but I am not convinced yet. Some questions:
-
-Is it true that cohomology theories defined for algebraic varieties over a field of characteristic p, or over a p-adic field, are subsumed in the above definition? Examples: Crystalline cohomology, rigid cohomology, syntomic cohomology. If so, is this explained somewhere? Is it clear to anyone that the language of infinity-stacks is the right one if you are trying to understand cohomology of "arithmetic schemes", i.e. schemes over base rings like the integers?
-
-For applications of many cohomology theories in arithmetic geometry, it is of crucial importance that the cohomology groups carry "extra structure", for example Galois action, Frobenius action, or Hodge structure. Is it the case that the language of infinity-stacks is the most natural language for understanding such "extra structure"? Has anyone thought about this at all?
-
-Am grateful for any (partial) answers or references.
-
-[[Urs Schreiber|Urs]]: Thanks for the question. What is subsumed in the definition below is
-
-* every kind of [[abelian sheaf cohomology]];
-
-* [[nonabelian cohomology|nonabelian sheaf cohomology]];
-
-* generalized Eilenberg-Steenrod-type [abelian cohomology](http://en.wikipedia.org/wiki/List_of_cohomology_theories) 
-
-The observation of the unity of these goes back to at least [[BrownAHT]], the main new bit here being that the model-theoretic constructions used there (or rather the [[category of fibrant objects|Brown category]] used there) is nicely understood as presenting $(\infty,1)$-categories, which unifies the picture still a bit more.
-
-Please correct me if the following is wrong, but my understanding is that for instance [crystalline cohomology](http://en.wikipedia.org/wiki/Crystalline_cohomology) is a kind of sheaf cohomology, too, where the only terminological twist is that we say that the crystalline cohomology of some site is by definition the sheaf cohomology of a certain other site associated to it (its crystalline site). Similarly for syntomic cohomology and the syntomic site.
-
-So I would tend to think that all these are subsumed under abelian sheaf cohomology. But I'd be grateful for being corrected here, if necessary.
-
-
-
-=--
 
 
 [[!redirects cohomologies]]
