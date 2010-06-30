@@ -20,7 +20,7 @@ The DHR condition says that **all expectation values (of all observables) should
 The DHR condition excludes long range forces like electromagnetism from consideration, because, by [[Stokes' theorem]], the electric charge in a finite region can be measured by the flux of the field strength through a sphere of arbitrary large radius. The DHR analysis is of interest nevertheless, because it has reached a certain maturity and is therefore an excellent object to study: see for example the [[Doplicher-Roberts reconstruction theorem]]. 
 
 ## Abstract ##
-After the definition of admissible representations we collect some notions that will enable us to state a description of all admissible representations using intrinsic properties of the quasi-local algebra.
+After the definition of admissible representations we collect some notions that will enable us to state a description of all admissible representations using intrinsic properties of the quasi-local algebra. The central concept that we define is that of a **transportable endomorphism**, these form the objects of a category, the [[DHR category]].
 
 ## Definition ##
 We start with a [[Haag-Kastler vacuum representation]] that we assume to be irreducible and [[Haag dual]].
@@ -111,6 +111,26 @@ A representation $\pi$ of $\mathcal{A}$ is admissible iff there is a transportab
 =--
 
 Reference: This is theorem 2.1.3 in the book by Baumg&#228;rtel.
+
++-- {: .un_theorem}
+###### Theorem
+
+**stability of admissible representations**
+
+(i)  finite direct sums of admissible representations are admissible.
+
+(ii) subrepresentations of admissible representations are admissible.
+=--
+
+For transportable endomorphisms we get even more:
+
++-- {: .un_theorem}
+###### Theorem
+
+**products**
+The product, i.e. the concatenation, of transportable endomorphisms is a transportable endomorphism. 
+=--
+
 
 +-- {: .un_theorem}
 ###### Theorem
