@@ -16,13 +16,13 @@
 
 ## Idea 
 
-In great generality, a _homotopy limit_ is a way of constructing appropriate sorts of [[limit]]s in a [[higher category theory|(weak) higher category]] and in general and in [[( ,1)-category]] theory in particular, using some _presentation_ of that higher category by a [[category theory|1-categorical]] structure.  The general study of such presentations is [[homotopy theory]].
+In great generality, a _homotopy limit_ is a way of constructing appropriate sorts of [[limit]]s in a [[higher category theory|(weak) higher category]] and in general and in [[(∞,1)-category]] theory in particular, using some _presentation_ of that higher category by a [[category theory|1-categorical]] structure.  The general study of such presentations is [[homotopy theory]].
 
-In classical homotopy theory, the presentation is given by a [[category with weak equivalences]], possibly satisfying extra axioms such as those of a [[homotopical category]], a [[category of fibrant objects]], or a [[model category]].  Such structures are considered to present an [[( ,1)-category]], and homotopy limits give a way of constructing the appropriate sort of [[limit in a quasi-category|( ,1)-categorical limits]].
+In classical homotopy theory, the presentation is given by a [[category with weak equivalences]], possibly satisfying extra axioms such as those of a [[homotopical category]], a [[category of fibrant objects]], or a [[model category]].  Such structures are considered to present an [[(∞,1)-category]], and homotopy limits give a way of constructing the appropriate sort of [[limit in a quasi-category|(∞,1)-categorical limits]].
 
 In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it may presents an "enriched $(\infty,1)$-category" or be a more powerful presentation of a bare $(\infty,1)$-category (notably if the enrichment is over [[sSet]]).  In the [[enriched category theory]] context the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which may construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category" or may be a more powerful tool for constructing plain $(\infty,1)$-categorical limits (in particular if the enrichment is over [[sSet]]).  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
-Maybe the most commonly encountered setup for homotopy limits is that where the [[( ,1)-category]] in question is [[presentable ( ,1)-category|presented]] by a [[simplicial model category]]. See also [[homotopy Kan extension]], of which (globally defined) homotopy (co)limits are a special case.
+Maybe the most commonly encountered setup for homotopy limits is that where the [[(∞,1)-category]] in question is [[presentable (∞,1)-category|presented]] by a [[simplicial model category]]. See also [[homotopy Kan extension]], of which (globally defined) homotopy (co)limits are a special case.
 
 
 ## Definitions 
@@ -93,7 +93,7 @@ $$
 
 (All proofs and other technical details on this are at [[homotopy Kan extension]].)
 
-These present directly the corresponding [[adjoint ( ,1)-functor]]s (as described there)
+These present directly the corresponding [[adjoint (∞,1)-functor]]s (as described there)
 
 $$
   (\infty,1)Func(D,C^\circ)
@@ -218,9 +218,9 @@ When a strict homotopy limit exists, an arbitrary homotopy limit may be defined 
 
 It is noteworthy that the homotopy limit and colimit in a [[category with weak equivalences]] are drastically different from the from the ordinary [[limit]] and colimit in the corresponding [[homotopy category]]: the universal property of the full $(\infty,1)$-categorical limits and colimits crucially does take into account the explicit higher cells and does not work just up to any higher cells.
 
-This (obvious) observation is a very old one and can be seen to be one of the driving forces behind the insight that just working with [[homotopy categories]] misses crucial information, something which today is understood as the statement that a homotopy category is just the [[decategorification]] of an [[( ,1)-category]].
+This (obvious) observation is a very old one and can be seen to be one of the driving forces behind the insight that just working with [[homotopy categories]] misses crucial information, something which today is understood as the statement that a homotopy category is just the [[decategorification]] of an [[(∞,1)-category]].
 
-While the full theory of [[( ,1)-categories]] is one way to impose the correct notion of higher categorical limits, there are other ways to deal with issue. Due to [[Alexander Grothendieck]] is the technique of using **[[derivator]]s** for keeping track of homotopy limits.
+While the full theory of [[(∞,1)-categories]] is one way to impose the correct notion of higher categorical limits, there are other ways to deal with issue. Due to [[Alexander Grothendieck]] is the technique of using **[[derivator]]s** for keeping track of homotopy limits.
 
 Roughly, the idea of a derivator is that while the single [[homotopy category]] $Ho(C)$ of a category $C$ with weak equivalences is not sufficient information, the homotopy limit of a diagram in $[D,C]$ _is_ encoded in the homotopy category $Ho([D,C])$ of that [[functor category]] (this is after all the domain of the plain 1-categorical [[derived functor]] of the limit functor). Accordingly, what is called the [[derivator]] of a category with weak equivalences $C$ is a collection of _all_ the homotopy categories $Ho([D,C])$ of _all_ the possible [[diagram]] categories $[D,C]$, as $D$ runs over all small categories. See there for more details.
 
@@ -379,7 +379,7 @@ This is famously the formula introduced and used by Bousfield and Kan (but there
 
 ##### Homotopy pushouts
 
-Let in the above general formula $D = \{a \leftarrow c to b\}$ be the [[walking structure|walking]] [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushouts**.
+Let in the above general formula $D = \{a \leftarrow c to b\}$ be the [[walking]] [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushouts**.
 
 In this simple case, we have the following simple observation:
 
@@ -681,7 +681,7 @@ _Descent objects_ as they appear in [[descent|descent and codescent]] are natura
 
 ### Homotopy (co)limits of simplicial pre(sheaves) {#SimpSheaves}
 
-The local [[model structure on simplicial presheaves]] $SPSh(C)_{proj/inj}^{loc}$ over a [[site]] $C$  serve as [[models for  -stack ( ,1)-toposes]]. 
+The local [[model structure on simplicial presheaves]] $SPSh(C)_{proj/inj}^{loc}$ over a [[site]] $C$  serve as [[models for ∞-stack (∞,1)-toposes]]. 
 
 Here we discuss some properties of homotopy limits and colimits in such model categories of simplicial presheaves.
 
@@ -695,7 +695,7 @@ $$
 
 of simplicial (pre)sheaves. One would like this to extend to a [[Quillen adjunction]] that recalls the fact that it came from a geometric morphism by the fact that the [[left adjoint]] [[inverse image]] functor $SSh(C') \to SSh(C)$ preserves finite homotopy limits.
 
-In particular, if $C$ and $C'$ have the same underlying category but $C'$ the trivial [[coverage]], then the [[geometric morphism]] in question is the inclusion of a [[reflective subcategory]] which typically induces a [[Bousfield localization]] of model categories that models the injection of a [[reflective ( ,1)-subcategory]] of [[ -stack]]s into $\infty$-presheaves. Here the morphism $SPSh(C') \to SPSh(C)$ is $\infty$-stackification and should preserve finite homotopy limits.
+In particular, if $C$ and $C'$ have the same underlying category but $C'$ the trivial [[coverage]], then the [[geometric morphism]] in question is the inclusion of a [[reflective subcategory]] which typically induces a [[Bousfield localization]] of model categories that models the injection of a [[reflective (∞,1)-subcategory]] of [[∞-stack]]s into $\infty$-presheaves. Here the morphism $SPSh(C') \to SPSh(C)$ is $\infty$-stackification and should preserve finite homotopy limits.
 
 The following result says that a strong version of this statement is true, at least for the preservation of homotopy pullbacks.
 
