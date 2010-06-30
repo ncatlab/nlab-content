@@ -129,6 +129,42 @@ This functor $\mathbb{Z}$ has the following properties:
 Simplicial groups are models for [[∞-group]]s. For details see
 <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">models for group objects in ∞Grpd</a>.
 
+### Equivalence to connected $\infty$-groupoids
+
+Simplicial groups are a model for [[∞-group]]s. Another equivalent model is that of [[connected]] [[Kan complex]]es. 
+
+At the abstract level of [[(∞,1)-category theory]] this equivalence is induced by forming [[loop space object]]s and [[delooping]]
+
+$$
+  \Omega
+  :
+  \infty Grpd_{con} \stackrel{\leftarrow}{\to}
+  \infty Grp
+  :
+  \mathbf{B}
+  \,.
+$$
+
+This [[equivalence of quasi-categories|(∞,1)-equivalence]] is modeled by a [[Quillen equivalence]] of [[model categories]] whose [[right adjoint]] Quillen functor is the operation $\overline{W}$ discussed above.
+
+$$
+  \mathcal{G} : sSet_0 \stackrel{\stackrel{\simeq_{Quillen}}{\leftarrow}}{\to} sGrp
+  : \overline{W}
+  \,.
+$$
+
+This is for instance in 
+
+* Goerss, Jardine, _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+
+The Quillen equivalence itself is in section 6 there.
+
+See also <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">group object in an (∞,1)-category -- models for groups in ∞Grpd</a>.
+
+
+
+
+
 ## Delooping and simplicial principal bundles  {#DeloopingAndBundle}
 
 For $G$ a simplicial group, we describe its [[delooping]] [[Kan complex]] $\mathbf{B}G  \in sSet$ and the corresponding [[generalized universal bundle]] $\mathbf{E}G \to \mathbf{B}G$ such that the ordinary [[pullback]]
@@ -410,6 +446,19 @@ The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting functio
 An explicit version of the statement that [[twisted Cartesian product]]s are nothing but pullbacks of a [[generalized universal bundle]] is on [page 148](http://ncatlab.org/timporter/files/menagerie10.pdf#page=148) of
 
 * [[Tim Porter]], _[[timporter:crossed menagerie]]_
+
+On [page 239](http://ncatlab.org/timporter/files/menagerie10.pdf#page=239) there it is mentioned that
+
+$$
+  G \to W G \to \overline{W}G
+$$
+
+is a model for the [[loop space object]] [[fiber sequence]]
+
+$$
+  G \to * \to \mathbf{B}G
+  \,.
+$$
 
 One place in the literature where the observation that $W G $ is the [[decalage]] of $\overline{W}G$ is mentioned fairly explicitly is page 85 of
 
