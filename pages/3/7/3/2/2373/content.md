@@ -52,9 +52,9 @@
 
   * [[0-category]]
 
-  * [[(-1)-category]]
+  * [[(?1)-category]]
 
-  * [[(-2)-category]]
+  * [[(?2)-category]]
 
 * [[categorification]]/[[decategorification]]
 
