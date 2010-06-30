@@ -5,7 +5,7 @@
 </div>
 
 
-A _(-1)-category_ is a [[truth value]]. Compare the concept of [[0-category]] (a [[set]]) and [[(-2)-category]] (which is trivial). The point of (-1)-categories (a kind of [[negative thinking]]) is that they complete some patterns in the [[periodic table]] of $n$-categories. (They also shed light on the theory of [[homotopy group]]s and [[n-stuff]].)
+A _$(-1)$-category_ is a [[truth value]]. Compare the concept of [[0-category]] (a [[set]]) and [[(−2)-category]] (which is trivial). The point of $(-1)$-categories (a kind of [[negative thinking]]) is that they complete some patterns in the [[periodic table]] of $n$-categories. (They also shed light on the theory of [[homotopy group]]s and [[n-stuff]].)
 
 For example, there should be a $0$-category of $(-1)$-categories; this is the set of truth values, classically
 $$
@@ -26,4 +26,7 @@ $(-1)$-categories and $(-2)$-categories were discovered (or invented) by [[James
 [Property, structure and stuff](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html).  See also [[stuff, structure, property]] for more on that material.
 
 
+[[!redirects (-1)-category]]
 [[!redirects (-1)-categories]]
+[[!redirects (−1)-category]]
+[[!redirects (−1)-categories]]
