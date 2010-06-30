@@ -432,7 +432,7 @@ The key is that $Schur$ is the free symmetric monoidal linear Cauchy-complete ca
 
 +-- {: .query}
 
-I added explanatory remarks above.
+I added explanatory remarks above.  Okay?
  
 =-- 
 
@@ -489,7 +489,7 @@ so that $\widebar{k \mathbb{P}}$ is the representing object.
 
 +-- {: .query}
 
-[[John Baez]]: I took remarks from the query box here and used them to improve the proof above.  However, it could still use more improvement.
+[[John Baez]]: I took remarks from the query box here and used them to improve the proof above.  However, it could still use more improvement.  Could you polish it up a bit, Todd?
 
 =--
 
@@ -523,7 +523,7 @@ $$(F G)(n) = \sum_{j+k = n} (F(j) \otimes G(k)) \otimes_{S_j \times S_k} k[S_n]$
 
 +-- {: .query}
 
-Todd had written $S_n$ where I have put $k[S_n]$ here.
+[[John Baez]]: Todd had written $S_n$ where I have put $k[S_n]$ here.  Okay?
  
 =-- 
 
