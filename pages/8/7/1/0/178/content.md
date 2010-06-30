@@ -432,7 +432,7 @@ The point now is that the kind of work one has to do to achieve this differs fro
 
 
 
-### Strict smooth $\infty$-groupoids
+### Strict $\infty$-Lie groupoids
 
 
 Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in [[sub-(∞,1)-categories]] of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoid.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
@@ -915,6 +915,21 @@ which yields the stated result.
 ### General $\infty$-Lie groupoids
 
 
+#### Simplicial Lie and diffeological groups {#SimplicialSmoothGroups}
+
+Every [[connected]] object $X \in \infty Lie Grpd$ is -- by definition -- the [[delooping]] $X = \mathbf{B}G$ of a Lie [[∞-group]] $G = \Omega X$, its [[loop space object]] formed in $\infty LieGrpd$. Since the discussion of [[group object in an (infinity,1)-category|group objects]], [[loop space  object]]s etc. involves only finite [[limit in a quasi-category|(∞,1)-limits]] and [[∞-stackification]] preserves these, this may be discussed in the [[(∞,1)-category of (∞,1)-presheaves]] on [[CartSp]]. Since there $(\infty,1)$-limits are computed objectwise, an [[∞-group]] object $G$ in $\infty LieGrpd$ is modeled by a [[(∞,1)-presheaf]] with values in [[∞-group]]s in [[∞Grpd]].
+
+By standard results on <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity,1)-category#ModelsInInfGrpd">Models for group objects in ∞Grpd</a> the latter may equivalently be modeled by [[simplicial group]]s. A simplicial group is possibly weak [[∞-groupoid]] equipped with a _strict_ group object structure. While [[strict omega-groupoid|strict ∞-groupoids]] with weak group object structure do not model all [[∞-group]]s, weak $\infty$-groupoids with strict group structure do.
+
+There is a good supply of standard results for and constructions with [[simplicial group]]s which makes this model useful for applications.
+
+##### Delooping
+
+For the moment see [simplicial group - delooping](http://ncatlab.org/nlab/show/simplicial+group#Delooping).
+
+##### Simplicial principal bundles
+
+For the moment see the discussion about geometric realization further above.
 
 #### Lie-integrated $\infty$-Lie groupoids
 
@@ -1550,26 +1565,6 @@ $$
 
 ## Examples
 
-### Finite 
-
-* [[Lie group]]
-
-* [[Lie groupoid]], [[differentiable stack]]
-
-  * [[Atiyah Lie groupoid]]
-
-  * [[path groupoid]]
-
-* [[Lie 2-group]]
-
-* Lie [[∞-group]]
-
-  * [[string 2-group]]
-
-  * [[fivebrane 6-group]]
-
-* [[schreiber:path ∞-groupoid]]
-
 ### Infinitesimal
 
 * [[∞-Lie algebroid]]
@@ -1593,7 +1588,40 @@ $$
   * [[Courant algebroid]]
 
 
+### Non-infinitesimal
 
+* [[Lie group]]
+
+* [[Lie groupoid]], [[differentiable stack]]
+
+  * [[Atiyah Lie groupoid]]
+
+  * [[path groupoid]]
+
+* [[Lie 2-group]]
+
+* Lie [[∞-group]]
+
+  * [[string 2-group]]
+
+    For $\mathfrak{g}$ a [[semisimple Lie algebra]], 
+    $\mu \in CE(\mathfrak{g})$ the normalized 
+    [[Lie algebra cohomology|Lie algebra 3-cocycle]] and 
+    $\mathfrak{g}_{\mu}$ the corresponding [[string Lie 2-algebra]], 
+    the **[[string 2-group]]** is
+
+    $$
+      \mathbf{B}String(G) := \tau_1 \exp(\mathfrak{g}_\mu)
+      \,.
+    $$    
+
+    It has a model by a 
+    [[paracompact space|paracompact]] [[diffeological space|diffeological]]
+    [[strict 2-goup]] $[\hat \Omega G \to P G]$.
+
+  * [[fivebrane 6-group]]
+
+* [[schreiber:path ∞-groupoid]]
 
 ## References
 
