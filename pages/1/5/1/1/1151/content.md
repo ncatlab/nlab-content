@@ -147,7 +147,7 @@ Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\m
 
 * the [[morphism]]s $\lambda : c_1 \to c_2$ in $\mathbf{H}(X,A)$ are the
   **coboundaries**. Two cocycles connected by a coboundary 
-  are **cohomologoues**. (More specifically, a cocycle cohomologous to the
+  are **cohomologous**. (More specifically, a cocycle cohomologous to the
   trivial cocycle is called a coboundary.)
 
 * the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ of 
