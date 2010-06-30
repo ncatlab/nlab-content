@@ -375,7 +375,7 @@ With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transform
 
 +-- {: .query}
 
-We need a 'tin can diagram' here!
+[[John Baez]]: We need a 'tin can diagram' here!
  
 =-- 
 
@@ -432,7 +432,7 @@ The key is that $Schur$ is the free symmetric monoidal linear Cauchy-complete ca
 
 +-- {: .query}
 
-I added explanatory remarks above.  Okay?
+[[John Baez]]: I added explanatory remarks above.  Okay?
  
 =-- 
 
