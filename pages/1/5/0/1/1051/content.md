@@ -12,7 +12,7 @@ Note that the terminology varies.  Especially in algebra, a directed limit may b
 Directed (co)limits were studied in algebra (as projective and inductive limits) before the general notion of limit in category theory.  The elementary definition still seen there follows.
 
 
-## Epxlicit definition #
+## Explicit definition #
 
 Let $C$ be a [[category]].
 
