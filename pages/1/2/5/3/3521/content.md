@@ -4,7 +4,18 @@
 {:toc}
 
 
+## Idea
+
+The **d&#233;calage** construction $Dec X \to X$ on a [[simplicial set]] $X$ is an explicit formula for the based [[path space object]] $X^{I} \times_{X} X_0$ of $X$.
+
+In particular if $X$ is a [[connected]] [[Kan complex]] hence the [[delooping]] $\mathbf{B}G$ of an [[∞-group]] $G$, then $Dec \mathbf{B}G = \mathbf{E}G $ is the [[principal bundle|principal]] [[generalized universal bundle]] of $G$.
+
+If $G$ happens to be the incarnation of an [[∞-group]] with strict group operations, i.e. a [[simplicial group]], then $\mathbf{B}G$ is traditionally denoted $\overline{W}G$ and $Dec \mathbf{B}G = \mathbf{E}G$ is traditionally denoted $W G$.
+
 ## Definition 
+
++-- {: .un_defn}
+###### Definition
 
 The **d&#233;calage** $Dec\, Y$ of a [[simplicial set]] $Y$, is the simplicial set obtained by shifting every dimension down by one, 'forgetting' the last face and degeneracy  of $Y$ in each dimension:
 
@@ -13,23 +24,79 @@ The **d&#233;calage** $Dec\, Y$ of a [[simplicial set]] $Y$, is the simplicial s
 * $s_k^{n,Dec \,Y}  = s^{n+1,Y}_{k}$.
 
 
-This simplicial set comes with a natural projection, $d_{last} : Dec\, Y \to Y$, given by the 'left over' face map.     Moreover this map gives a [[homotopy equivalence]]
+This simplicial set comes with a natural projection, $d_{last} : Dec\, Y \to Y$, given by the 'left over' face map.     
 
-$$Dec\,Y \simeq const(Y_0),$$
+=--
 
-between $Dec\, Y$ and the constant simplicial set on $Y_0$. 
+## Properties
 
-The same construction works in other contexts, as is easily seen. The case of $Dec G$ for $G$ a [[simplicial group]] is important in the simplicial theory of algebraic models for [[homotopy n-type]]s.
+The main statement about $Dec X$ is that it is the based [[path space object]] of $X$, as we show in the following proposition. To appreciate this statement, it may be useful to recall the following:
 
-The map $d_{last} : Dec\, Y \to Y$, is a [[Kan fibration]], and in particular, in the simplicial group case, $d_{last} : Dec\, G \to G$, is an epimorphism.  Taking the kernel of this and then applying $\pi_0$, yields a [[crossed module]] constructed from the [[Moore complex]] of $G$
+the full subcategory of [[sSet]] on [[Kan complex]]es is naturally a [[category of fibrant objects]]. Given a [[connected]] object $C$ in $KanCplx$ and a morphism $f : B \to C$ the [[homotopy fiber]] of $f$, i.e. the [[homotopy pullback]] in $KanCplx$, hence the  [[(∞,1)-pullback]] in [[∞Grpd]]
 
-$$NG_1/d_2(NG_2)\to NG_0,$$
+$$
+  \array{
+    hoker f &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    B &\stackrel{f}{\to}& C
+  }
+$$
 
-which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$.
+is known (see [[homotopy limit]]) to be computed by the ordinary [[limit]] 
 
-+-- {: .query}
+$$
+  \array{
+    hoker f &\to& C^{\Delta[1]}\times_C * &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    && C^{\Delta[1]} &\to& C 
+    \\
+    \downarrow && \downarrow
+    \\
+    B &\stackrel{f}{\to}& C
+  }
+  \,.
+$$
 
-[[Urs Schreiber]]: It should be possible to write $Dec Y$ as the [[pullback]] $Q$ 
+This in turn may be computed as two consecutive [[pullback]]s, as indicated (both sub-rectangles in the above limit diagram are pullbacks). The following proposition asserts that the intermediate pullback here is the decalage construction.
+
+It is a general fact in a [[category of fibrant objects]], part of the statement known as the [[category of fibrant objects|factorization lemma]] that if $C$ is a [[Kan complex]] then $C^{\Delta[1]} \times_C * \to C$ is a [[Kan fibration]] that is a replacement of $* \to C$ in that there is a commuting diagram
+
+$$
+  \array{
+    * &\stackrel{\simeq}{\to}& C^{\Delta[1]}\times_C *
+    \\
+    \downarrow && \downarrow
+    \\
+    C &\stackrel{=}{\to}& C
+  }
+$$
+
+where the top morphism is a [[weak homotopy equivalence]]. For more on this see [[generalized universal bundle]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+For any $Y \in sSet$, the decalage construction computes the based path object in that
+
+$$
+  Dec Y \simeq Y^{\Delta[1]} \times_Y Y_0
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+First we check that this pullback 
 
 $$
   \array{
@@ -41,11 +108,10 @@ $$
   }
 $$
 
-in [[sSet]]. Shouldn't it? 
 
-Let me check this. First I check that this pullback has the property that $Q_n = Y_{n+1}$.
+has the property that $Q_n = Y_{n+1}$.
 
-For this I use expression of the $(n+1)$-simplex as the cone over the $n$-simplex, which is exhibted by the pushout diagram
+For this use expression of the $(n+1)$-[[simplex]] as the [[cone]] over the $n$-simplex, which is exhibted by the [[pushout]] diagram
 
 $$
   \array{
@@ -67,7 +133,7 @@ $$
 
 (See for instance page 25 [here](http://arxiv.org/PS_cache/arxiv/pdf/0809/0809.4221v1.pdf#page=25)).
 
-Applying $Hom_{\Delta}(-,Y)$ to this pushout diagram yields the pullback diagram
+Applying the [[hom-functor]] $Hom_{\Delta}(-,Y)$ to this pushout diagram yields the pullback diagram
 
 $$
   \array{
@@ -110,26 +176,27 @@ That produces all the faces except that of the form $(0,1,2, \cdots, n-1,n),(0,0
 
 An entirely analogous argument applies for the degeneracy maps.
 
-Finally, check that if $Y$ is a Kan complex, we have a Kan fibration $Q \to Y$ induced from the other inclusion $\Delta[n] \times \{0\} \to \Delta[n] \times \Delta[1]$ not used above. This is then the vertical morphism in the diagram
+=--
 
-$$
-  \array{
-    Q &\to& const(Y_0)
-    \\
-    \downarrow && \downarrow
-    \\
-    Y^{\Delta[1]} &\stackrel{d_1}{\to}& Y
-    \\
-    {}^{\mathllap{d_0}}\downarrow
-    \\
-    Y
-  }
-$$
+By the general properties in a [[category of fibrant objects]] we have for $Y$ a [[Kan complex]] that the projection $d_0 : Y^{\Delta[1]} \to Y$  is an acyclic Kan fibration. Since these are stable under pullback, we have
 
-This is recognized as the construction appearing in the factorization lemma in the [[category of fibrant objects]] of Kan complexes (described also at [[homotopy pullback]] and [[generalized universal bundle]]), hence is a [[Kan fibration]], as described there.
++-- {: .un_cor}
+###### Corollary
 
+For $Y$ a [[Kan complex]] the canonical morphism, $Dec Y \to const Y_0$ is an acyclic fibration, hence in particular a [[weak homotopy equivalence]].
 
 =--
+
+Similarly the following is a special case of the general factorization lemma
+
+
++-- {: .un_cor}
+###### Corollary
+
+For $C$ a [[Kan complex]], the canonical morphism $Dec C \to C$ is a [[Kan fibration]].
+
+=--
+
  
 
 ## Decalage comonad 
@@ -166,6 +233,31 @@ A $P$-coalgebra partitions $X$ into path components and exhibits contractibility
 
  Using either the simplicial [[comonadic resolution]] generated by the above comonad or directly using ordinal sum, we get a [[bisimplicial set]] known as the [[total decalage|total décalage]] of $Y$. This will be explored more fully in a separate entry.
 
+## Examples
+
+### Simplicial groups
+
+If $Y = G$ is a [[simplicial group]] then $d_{last} : Dec\, G \to G$, is an [[epimorphism]].  Taking the [[kernel]] of this and then applying $\pi_0$ (taking [[connected]] components), yields a [[crossed module]] constructed from the [[Moore complex]] of $G$
+
+$$NG_1/d_2(NG_2)\to NG_0,$$
+
+which has kernel $\pi_1(G)$ and cokernel $\pi_0(G)$.
+
+
+
+### Universal simplicial bundles
+
+If $G$ is a [[simplicial group]] and $\mathbf{B}G := \overline{W}G \in KanCplx$ its [simplicial delooping](http://ncatlab.org/nlab/show/simplicial+group#Delooping) then $Dec \overline{W}G \to \overline{W}G$ is the Kan fibration traditionally denoted
+
+$$
+  W G \to \overline{W}G
+$$
+
+which is the [universal simplicial G-principal bundle](http://ncatlab.org/nlab/show/simplicial+group#PrincipalBundles).
+
+
+
+
 ## Literature
 
 A reasonably full discussion of the d&#233;calage can be found in Luc Illusie's thesis, 
@@ -177,6 +269,7 @@ It is used in Duskin's Memoir,
 
 * [[John Duskin]], 1975, _Simplicial methods and the interpretation of "triple" cohomology_, number  163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc.
 
+Page 85 of that article seems to be one of the few places in the literature where the (straightforward) observation that $W G$ is $Dec \overline{W}G$ is made explicit.
 
 The notion of decalage is widely appearing since the paper introducing the method of [[cohomological descent]] in [[Hodge theory]]:
 
