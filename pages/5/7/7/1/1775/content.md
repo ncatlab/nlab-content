@@ -270,7 +270,7 @@ There is a [[model category]] structure that presents the [[(∞,1)-category]] o
 The operation of forming [[loop space object]]s constitutes a [[Quillen equivalence]] between these two model structures
 
 $$
-  \Omega : sSet_0 \stackrel{\simeq_{Quillen}}{\to} sGrpd
+  \Omega : sSet_0 \stackrel{\simeq_{Quillen}}{\to} sGrp
   \,.
 $$
 
