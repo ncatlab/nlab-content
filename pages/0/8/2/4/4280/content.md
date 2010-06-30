@@ -6,7 +6,7 @@
 
 ## Idea
 
-This page will collect a few notions and facts about representations of [[C-star algebras]] that are of importance to [[AQFT]]. Maybe some of those will be moved to their own page in the future...
+This page will collect a few notions and facts about [[representations]] of [[C-star algebras]] that are of importance to [[AQFT]]. Maybe some of those will be moved to their own page in the future...
 
 In [[AQFT]] the observables are given by a [[causal net of algebras]], usually $C^*-$algebras. A concrete physical system corresponds to a [[state]] of the algebra of all observables, which leads, via the [[GNS-construction]], to a representation of this algebra on a concrete Hilbert-space. In this way the familiar picture of [[quantum mechanics]] reappears. The interpretation of states and their representation as modelling concrete physical systems means that a systematic study of all representation of a given algebra of observables is central to [[AQFT]].
 
@@ -14,7 +14,7 @@ In [[AQFT]] the observables are given by a [[causal net of algebras]], usually $
 
 +-- {: .un_def}
 ###### Definition
-A **representation** of a $C^*-algebra$ $A$ on a [[Hilbert space]] $H$ is a $*$-homomorphism from $A$ to the algebra of [[bounded operators]] on $H$.
+A **representation** $\pi$ of a $C^*-algebra$ $A$ on a [[Hilbert space]] $H$ is a $*$-homomorphism from $A$ to the algebra of [[bounded operators]] on $H$.
 =--
 
 Note that the _continuity_ is not an axiom, but a theorem, it follows from the algebraic properties.
@@ -32,6 +32,16 @@ Given two representations $\pi_1$ on $H_1$ and $\pi_2$ on $H_2$, if there is a [
 In the context of [[AQFT]] the term 'intertwiner' is mostly used in the specific sense defined here.
 
 From the physical viewpoint unitarily equivalent representations describe the same system, so that the classification of not unitarily equivalent representations is an important topic.
+
++-- {: .un_def}
+###### Definition
+If there is a subspace $H_1$ of the Hilbert space $H$ which is invariant under $\pi(A)$, that is $\pi(A)(H_1) \subseteq H_1$, then the restriction of the representation to $H_1$ is again a representation of $A$, it is called a **subrepresentation** of $\pi$. 
+=--
+
++-- {: .un_def}
+###### Definition
+Given a family $(\pi_i, H_i)$ of representations, we can form the direct sum $H := \oplus H_i$ of the Hilbert spaces and define a new representation $\pi := \oplus \pi$ via $\pi(A) | H_i := \pi_i$. This is the **direct sum of representations**.
+=--
 
 
 ## References
