@@ -16,7 +16,7 @@ sending each directed graph to the [[free functor|free]] category on that graph.
 
 #Definition#
 
-The **walking directed graph** $X$ is the [[category]] with
+The **[[walking structure|walking]] directed graph** $X$ is the [[category]] with
 
 * one object $X_0$, called the object of _vertices_;
 
