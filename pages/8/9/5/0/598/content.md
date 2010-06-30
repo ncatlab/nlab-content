@@ -298,7 +298,7 @@ $$
 $$
 
 
-### Principal bundles
+### Principal bundles {#PrincipalBundles}
 
 
 +-- {: .un_def}
@@ -404,6 +404,10 @@ The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting functio
 1. section 21 which establishes that $W G \to \bar W G$ is the PTCP for some universal twisting function $r(G)$.
 
 1. lemma 21.9 states in the language of composites of twisting functions that every PTCP comes from composing a cocycle $Y \to \bar W G$ with the universal twisting function $r(G)$. In view of the relation to pullbacks in item 1, this yields the statement in the form we stated it above.
+
+One place in the literature where the observation that $W G $ is the [[decalage]] of $\overline{W}G$ is mentioned fairly explicitly is page 85 of
+
+* [[John Duskin]], _Simplicial methods and the interpretation of "triple" cohomology_, number  163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc. (1975)
 
 
 ## References 
