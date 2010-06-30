@@ -2,4 +2,4 @@ A _0-groupoid_ is a [[set]]. This terminology may seem strange at first, but it 
 
 For example, there should be a $1$-groupoid of $0$-groupoids; this is the [[underlying groupoid]] of the [[Set|category of sets]]. Then a [[enriched category|groupoid enriched]] over this is a $1$-groupoid (more precisely, a [[locally small category|locally small groupoid]]). Furthermore, an enriched category is a [[category]] (or $1$-category), so a $0$-groupoid is the same as a [[0-category]].
 
-One can continue to define a [[(-1)-groupoid]] to be a [[truth value]] and a [[(-2)-groupoid]] to be a triviality (that is, there is exactly one).
+One can continue to define a [[(−1)-groupoid]] to be a [[truth value]] and a [[(−2)-groupoid]] to be a triviality (that is, there is exactly one).
