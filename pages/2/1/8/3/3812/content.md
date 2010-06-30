@@ -28,7 +28,7 @@ $$\{(x_0, x_1, \ldots, x_n): 0 = x_0 \leq x_1 \leq \ldots \leq x_n = 1\}$$
 
 topologized as a subspace $\{0 \leq x_1 \leq \ldots \leq x_{n-1} \leq 1\}$ of $I^{n-1}$. This produces the functor $\sigma: \Delta \to Top$.
 
-A second way of understanding $\sigma$ is by taking advantage of the fact that the algebraist's $\Delta$ is the walking [[monoid]]. This means that given a monoidal structure on $Top$ and a monoid $M$ therein, there is a unique monoidal functor $\sigma: \Delta \to Top$ which sends the generic monoid $[0]$ to the monoid $M$. To this end, take the monoidal product on $Top$ to be "topological simplicial join": the join $X \star Y$ of two spaces $X$, $Y$ may be defined to be the pushout of the diagram
+A second way of understanding $\sigma$ is by taking advantage of the fact that the algebraist's $\Delta$ is the [[walking structure|walking]] [[monoid]]. This means that given a monoidal structure on $Top$ and a monoid $M$ therein, there is a unique monoidal functor $\sigma: \Delta \to Top$ which sends the generic monoid $[0]$ to the monoid $M$. To this end, take the monoidal product on $Top$ to be "topological simplicial join": the join $X \star Y$ of two spaces $X$, $Y$ may be defined to be the pushout of the diagram
 
 $$X \stackrel{\pi_1}{\leftarrow} X \times Y \stackrel{1_X \times \{0\} \times 1_Y}{\to} X \times I \times Y \stackrel{1_X \times \{1\} \times 1_Y}{\leftarrow} X \times Y \stackrel{\pi_2}{\to} Y$$
 
