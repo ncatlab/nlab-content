@@ -2,15 +2,16 @@
 * tic
 {: toc}
 
-
-##Idea#
+## Idea
 
 [[category theory|Category theory]] frequently allows to give precise and useful formalized meanings to "everyday" terms, at least terms used everyday by practicing mathematicians. 
 
 It was indeed introduced originally in order to formalize the use of the notion "natural" in mathematics. Another frequently recurring pair of terms in math are "extra structure" and "extra properties", to which we add the more general concept of "extra stuff". In discussion among Jim Dolan, John Baez and Toby Bartels, the following useful formalization of these concepts in category theoretic terms was established.
 
+This is needed to understand the generalisation from [[structure type]] to [[stuff type]].
 
-##Definitions
+
+## Definitions
 
 To begin with, let $C$ and $D$ be [[groupoid]]s, and let $F: C \to D$ be a [[functor]].  By fiat, declare $F$ to be a [[forgetful functor]].  Then
 * $F$ **forgets nothing** if it is an [[equivalence of categories]];
@@ -30,7 +31,7 @@ _Toby_:  Well, 'property' *can* be a mass noun in English, but not in this sense
 =--
 
 
-### Interpretation in terms of k-surjectivity##
+### Interpretation in terms of k-surjectivity
 
 The pattern here is best understood in terms of the notion of [[k-surjective functor|essentially k-surjective functor]]. 
 
@@ -69,12 +70,12 @@ This formalism does *not* capture the intuition so well, and in fact the 'proper
 See also the examples below.
 
 
-### Generalization to higher groupoids##
+### Generalization to higher groupoids
 
 The formulation in terms of $k$-surjectivity induces an immediate generalization of the notions of stuff, structure and properties to the context of [[infinity-category|infinity-groupoids]].  Baez's students speak of "2-stuff," "3-stuff," and so on.   Of course, structure and properties can then be called 0-stuff and $(-1)$-stuff, respectively.
 
 
-###Generalization to categories and higher categories##
+### Generalization to categories and higher categories
 
 The theory is easiest when restricted to groupoids as above; for [[category|categories]], there are several ways to go.  One is to keep the definition as phrased above (a functor between categories forgets only properties if it is fully faithful, forgets at most structure if it is faithful, etc.).  Another is to apply the above definition instead to the functor between the [[core|underlying groupoids]] of the categories in question.
 
@@ -85,7 +86,7 @@ A third option is to define a new notion: a functor **forgets at most property-l
 Property-like structure becomes much more prevalent for higher categories.  For example, the forgetful functor from the 2-category of [[cartesian monoidal categories]] (and product-preserving functors) to [[Cat]] is essentially $(k\ge 2)$-surjective, and its induced functor between 2-groupoids is essentially $(k\ge 1)$-surjective; thus it forgets property-like structure.  See also [[lax-idempotent 2-monad]].
 
 
-## A factorisation system #
+## A factorisation system
 
 Just as the category [[Set]] has the best known $2$-way [[factorization system|factorisation system]], in which every [[function]] is factored into a [[surjection]] followed by an [[injection]], so the [[2-category]] [[Cat]] has a $3$-way factorisation system, in which every functor is factored into parts which forget 'purely' stuff, structure, and properties.
 
@@ -105,10 +106,10 @@ $$ C \stackrel{F_2}\to 2 im F \stackrel{F_1}\to 1 im F \stackrel{F_0}\to D ,$$
 where $F_2$ forgets purely stuff, $F_1$ forgets purely structure, and $F_0$ forgets only properties.
 
 
-##Examples#
+## Examples
 
 
-### The classical categories of sets with extra structure ##
+### The classical categories of sets with extra structure
 
 The classical examples are the forgetful functors to [[Set]]  that define the classical categories such as [[Top]], [[Grp]], [[Vect]], etc. All these categories are categories of <em>sets equipped with extra structure</em> (e.g. with a topology, with a group structure, etc). Accordingly the obvious functors to [[Set]] are 
 
@@ -117,8 +118,8 @@ The classical examples are the forgetful functors to [[Set]]  that define the cl
 
 Hence indeed, by the above yoga, they forget this extra structure but remember the stuff in question (the underlying set).
 
-### More examples ##
 
+### More examples
 
 The embedding of abelian groups into all groups, $F :$ [[Ab]] $\to$ [[Grp]] is faithful and full, but not essentially surjective. Hence it should remember stuff and structure but forget properties. Indeed, the property it forgets is the property "is abelian" which is a property of the group _structure_ sitting on the underlying set of a group. Hence the sequence of functors
 $$
@@ -146,7 +147,8 @@ $$
 $$
 So a pair of abelian groups (from the perspective of the underlying set of the first one) consists of the *property* that the set is inhabited, then the *structure* of an abelian group on that set, and finally extra *stuff* consisting of the entire second group.
 
-## Logical interpretation #
+
+## Logical interpretation
 
 In [[logic]] a property $P$ is given by a [[predicate]], which we may think of as an operation that takes a thing $x$ to the [[truth value]] of the statement "$x$ has  property $P$".  Note that a truth value is a $(-1)$-[[(-1)-groupoid|groupoid]]; we get structure and stuff by replacing this with a [[set]] (a $0$-[[0-groupoid|groupoid]]) or a [[groupoid]] (a $1$-[[1-groupoid|groupoid]]) and we get $n$-stuff by replacing this with an $n$-[[n-groupoid|groupoid]].
 
@@ -205,19 +207,24 @@ Lest we forget, to be even more simple than an extra property, the groupoid of $
 For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the subobject classifier is the  [[universal fibration of (∞,1)-categories]] $Z|_{\infty Grpd} \to \infty Grpd$. See also section 6.1.6 _$\infty$-Topoi and Classifying objects_ of [[Higher Topos Theory|HTT]].
 
 
-##References#
+## References
 
 * [original UseNet discussion](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html) on `sci.physics.research` in 1998;
 * a pedagogical comparison to quadratic, linear, and constant polynomials ([PDF](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf)) by Toby Bartels in 2004;
 * [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420)).
 
 
-[[!redirects extra properties]]
+[[!redirects property]]
+[[!redirects properties]]
 [[!redirects extra property]]
-[[!redirects extra structures]]
+[[!redirects extra properties]]
+[[!redirects structure]]
+[[!redirects structures]]
 [[!redirects extra structure]]
+[[!redirects extra structures]]
+[[!redirects stuff]]
 [[!redirects extra stuff]]
 [[!redirects n-stuff]]
+[[!redirects extra n-stuff]]
 [[!redirects property-like structure]]
 [[!redirects property, structure, stuff]]
-[[!redirects structure]]
