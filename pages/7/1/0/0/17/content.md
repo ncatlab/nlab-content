@@ -217,6 +217,7 @@ which produces
 First quantization is a mystery, but second quantization is a functor. 
 =--
 
+
 ## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
 
 As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
