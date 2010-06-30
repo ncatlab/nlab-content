@@ -18,7 +18,7 @@ The truth is commonly denoted $true$, $T$, $\top$, or $1$.
 
 ### In classical logic
 
-In [[classical logic]], there are two [[truth values]]: true and [[false]].  Classical logic is perfectly symmtric between truth and falsehood; see [[de Morgan duality]].
+In [[classical logic]], there are two [[truth values]]: true and [[false]].  Classical logic is perfectly symmetric between truth and falsehood; see [[de Morgan duality]].
 
 
 ### In constructive logic
@@ -45,7 +45,7 @@ The same is true in the archetypical [[(∞,1)-topos]] [[∞Grpd]]. From that pe
 
 * a set as a 0-[[truncated]] $\infty$-groupoid: a [[0-groupoid]];
 
-* a [[subsingleton]] set as (-1)-[[truncated]] $\infty$-groupoids: a [[(-1)-groupoid]];
+* a [[subsingleton]] set as a (-1)-[[truncated]] $\infty$-groupoid: a [[(-1)-groupoid]];
 
 * the singleton set as the $(-2)$-[[truncated]] $\infty$-groupoid: the unique (up to equivalence) [[(-2)-groupoid]].
 
