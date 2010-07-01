@@ -34,5 +34,6 @@ A structure type is a special case of a stuff type, so see [[stuff type]] for mo
 
 * [[John Baez]], ...
 
+
+[[!redirects structure type]]
 [[!redirects structure types]]
-[[!redirects combinatorial species]]
