@@ -157,3 +157,4 @@ A general notion of categorification for structures defined by [[cartesian monad
 [[!redirects categorification]]
 [[!redirects ∞-categorification]]
 [[!redirects categorifications]]
+[[!redirects categorify]]
