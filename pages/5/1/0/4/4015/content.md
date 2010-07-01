@@ -1,3 +1,9 @@
+# The fan theorem
+* table of contents
+{: toc}
+
+## Introduction
+
 The fan theorem is one of the basic principles of [[intuitionism]] that make it more specific (even in mathematical practice, independent of any philosophical issues) than garden-variety [[constructive mathematics]].  In [[classical mathematics]], the fan theorem is true.
 
 
@@ -82,7 +88,7 @@ I should write down the classical proof (which uses [[excluded middle]] and some
 ## References
 
 *  Thanks to Giovanni Curi on [constructive news](http://groups.google.com/group/constructivenews/browse_thread/thread/9d57fa99e67e8782).
-*  [Frank Waaldijk](http://home.kpn.nl/sufra/mathematics.html) pointed out exactly why point-wise analysis needs the fan theorem.
+*  [Frank Waaldijk](http://www.fwaaldijk.nl/mathematics.html) pointed out exactly why point-wise analysis needs the fan theorem.
 
 I need to find and read this one:
 
@@ -93,3 +99,6 @@ More links that I need to keep in mind:
 *  &lt;http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html>
 *  &lt;http://www.jaist.ac.jp/is/labs/ishihara-lab/wcalm2010/berger.pdf>
 *  &lt;http://www.cairn.info/revue-internationale-de-philosophie-2004-4-page-483.htm>
+
+
+[[!redirects fan theorem]]
