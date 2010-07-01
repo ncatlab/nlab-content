@@ -2,7 +2,6 @@
 * tic
 {: toc}
 
-
 ## Idea
 
 A compactum, or compact Hausdorff space, is a space in which every limit that should exist does exist and does so uniquely.
@@ -32,7 +31,7 @@ Note that every compact Hausdorff space (topological or localic) is not only reg
 
 ## In weak foundations
 
-In the absence of the axiom of choice, and especially in [[constructive mathematics]], the best definition of compactum seems to be a compact regular locale.  That is, it is the category of compact regular locales that has all of the nice properties, forming a [[nice category of spaces]], and that has the desired examples, such as the [[unit interval]].  (See the discussion at [[Tychonoff theorem]] for an example of how the category of compact Hausdorff topological spaces might fail to be nice; see [Frank Waaldijk's PhD thesis](http://home.kpn.nl/sufra/foundations%20of%20constructive%20mathematics.pdf) (pdf) for a thorough discussion of what is needed to make the unit interval a compact Hausdorff topological space.)
+In the absence of the axiom of choice, and especially in [[constructive mathematics]], the best definition of compactum seems to be a compact regular locale.  That is, it is the category of compact regular locales that has all of the nice properties, forming a [[nice category of spaces]], and that has the desired examples, such as the [[unit interval]].  (See the discussion at [[Tychonoff theorem]] for an example of how the category of compact Hausdorff topological spaces might fail to be nice; see [Frank Waaldijk's PhD thesis](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (pdf) for a thorough discussion of what is needed to make the unit interval a compact Hausdorff topological space.)
 
 The monadic definition, in particular, falls quite flat without some form of the axiom of choice; even [[excluded middle]] and [[COSHEP]] are powerless here.  In fact, it is quite consistent to assume that every ultrafilter is principal (a strong denial of the ultrafilter principle), in which case $\beta$ is the [[identity monad]].  Then a compactum would be just a set if that were the definition used.
 
@@ -44,12 +43,13 @@ On the other hand, it is the monadic definition that gives an [[algebraic catego
 The monad $\beta$ is commutative, so every $\beta S$ is itself a compactum.  The functor $\beta: Set \to Comp$ is [[left adjoint]] to the [[forgetful functor]] $Comp \to Set$.  Assuming the ultrafilter principle, this can be generalised to a functor $\beta: Top \to Comp$ (identifying a set with its [[discrete space]]) that is left adjoint to the forgetful functor $Comp \to Top$.  This (or at least its restriction to [[Tychonoff space]]s) is the __Stone--&#268;ech compactification__ functor.  We have a similar Stone-&#268;ech compactification functor $Loc \to Comp$; we do not need the ultrafilter principle here if $Comp$ is defined in terms of locales.
 
 
-[[!redirects compact Hausdorff space]]
-[[!redirects compact Hausdorff topological space]]
-[[!redirects compact regular locale]]
+[[!redirects compactum]]
 [[!redirects compacta]]
+[[!redirects compact Hausdorff space]]
 [[!redirects compact Hausdorff spaces]]
+[[!redirects compact Hausdorff topological space]]
 [[!redirects compact Hausdorff topological spaces]]
+[[!redirects compact regular locale]]
 [[!redirects compact regular locales]]
 [[!redirects Stone-∞ech compactification]]
 [[!redirects Stone-Cech compactification]]
