@@ -2,6 +2,8 @@
 [[!include cohomology - contents]]
 </div>
 
+> under construction
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -9,18 +11,16 @@
 
 ## Idea
 
-Differential cohomology is a refinement of ordinary [[cohomology]] such that a differential cocycle is to its underlying ordinary cocycle as a bundle with connection is to its underlying bundle.
+Differential cohomology is a refinement of ordinary [[cohomology]] such that a differential cocycle is to its underlying ordinary [[cocycle]] as a [[connection on a bundle|bundle with connection]] is to its underlying [[principal bundle|bundle]].
 
 The details of a formulation of differential cohomology depend on how the generalized [[cohomology]] theory itself is formulated.
 
 The best known version of differential cohomology is a differential refinement of generalized cohomology in the sense of  the generalized Eilenberg--Steenrod axioms. This is a [[stable (infinity,1)-category|stable]] version of generalized cohomology.
 
-A differential refinement of non-stable, i.e. [[nonabelian cohomology]] is developed [[schreiber:Differential Nonabelian Cohomology|here]].
-
 
 ## Differential stable cohomology 
 
-A standard definition of differential cohomology is in terms of a homtopy fiber product of a generalized Eilenberg--Steenrod cohomology theory with the complex of differential forms over real cohomology:
+A standard definition of differential cohomology is in terms of a [[homotopy pullback]] of a generalized Eilenberg-Steenrod cohomology theory with the complex of differential forms over real cohomology:
 
 Let $\Gamma^\bullet$ be a generalized cohomology theory in the sense of the generalized Eilenberg--Steenrod axioms, and let 
 $\Gamma^\bullet \to H^\bullet(-,\mathbb{R}) \otimes \Gamma^\bullet(*)$ be a morphism to real singular cohomology with coefficients in the ring of $\Gamma$-cohomology of the point. Then the differential refinement of $\Gamma^q$, the degree $q$**differential $\Gamma$-cohomology** is the [[homotopy pullback]] $\bar \Gamma^\bullet$ in
@@ -458,6 +458,15 @@ If we don't require compatibility with $S^1$-integration, then there
 are "exotic" abelian group structures on $\hat K^1$.
 =--
 
+#### Examples
+
+##### Differential cobordism cohomology theory
+
+A model for a multiplicative differential refinement of [[complex cobordism cohomology theory]], the theory represented by the [[Thom spectrum]] is in 
+
+* [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schr&#246;der,  Moritz Wiethaup,  _Landweber exact formal group laws and smooth cohomology theories_ ([arXiv:0711.1134](http://arxiv.org/abs/0711.1134))
+
+See [[differential cobordism cohomology theory]]
 
 ## References
 
@@ -482,13 +491,3 @@ and many more...
 
 
 
-## blog discussion
-
-* [(Generalized) Differential Cohomology and Lie Infinity-Connections](http://golem.ph.utexas.edu/category/2008/02/lie_infinityconnections_and_ge.html)
-
-
-## Differential non-abelian cohomology
-
-* For the moment, see [[schreiber:Differential Nonabelian Cohomology]]
-
-* See also the talk by Urs Schreiber on `Background fields in twisted nonabelian differential cohomology' at  [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]].
