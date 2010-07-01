@@ -5,9 +5,13 @@
 
 * [[differential cohomology]]
 
+  * [[differential K-theory]]
+
 * [[topological T-duality]]
 
 * [[quantum anomaly]]
 
 
 category: people
+
+[[!redirects Uli Bunke]]
