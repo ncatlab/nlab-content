@@ -1,3 +1,16 @@
+# Apartness relations
+* table of contents
+{: toc}
+
+## Idea
+
+An apartness relation is a [[binary relation]] that, instead of saying when two things are the same (as an [[equivalence relation]]), states when two things are different.
+
+Apartness relations are most used in [[constructive mathematics]]; in [[classical mathematics]], equivalence relations can take their place (mediated by [[negation]]).
+
+
+## Definitions
+
 A set $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as the set of objects) [[enriched category|enriched]] over the [[cartesian monoidal category]] $TV^\op$, that is the [[opposite category|opposite]] of the [[partial order|poset]] of [[truth value|truth values]], made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $TV$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a groupoid enriched over the cartesian category $TV$ *itself*). But in [[constructive mathematics]] (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour.
 
 Of course, nobody but a category-theorist would use the above as a *definition* of an apartness relation. Normally, one defines an apartness relation on $S$ as a binary relation $\#$ satisyfing these three properties:
@@ -11,7 +24,8 @@ The [[negation]] of an apartness relation is an equivalence relation. (The conve
 
 If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f: S \to T$ is _strongly extensional_ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functor]]s between $TV^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is strict.)
 
-# The category of inequality spaces
+
+## The category of inequality spaces
 
 By an _inequality space_, I mean a set equipped with a tight apartness relation. By a _map_, I mean a strongly extensional function between inequality spaces.
 
@@ -21,7 +35,8 @@ We can say, however, that it has coproducts indexed by inequality spaces, althou
 
 If you generalise from inequality spaces to allow non-tight apartness relations, then you get (at first) a different category. However, now you also have 2-morphisms which serve to identify unequal but equivalent (that is, not apart) elements of a space, so the resulting bicategory is equivalent to the category of inequality spaces.
 
-# Topological aspects
+
+## Topological aspects
 
 Let $S$ be a set equipped with a tight apartness relation $\ne$. Using $\ne$, many topological notions may be defined on $S$. (It\'s not really necessary that the apartness be tight; this corresponds to the $T_0$ [[separation axiom]] in topology.)
 
@@ -43,7 +58,8 @@ Recall that in ordinary topology, a function between [[Hausdorff space]]s is con
 
 One important topological concept that doesn\'t appear classically is locatedness; in an inequality space, a subset $A$ is _located_ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood of $x$ (not necessarily $U$) is contained in $\tilde A$. Note that every point is located. (For an example of a set that need not be located, consider $\{x: S | p\}$, where $p$ is an arbitrary truth value. In an inhabited space, this set is located iff $p$ is true or false.)
 
-## Relation to metric spaces
+
+### Relation to metric spaces
 
 Recall that, as Bill Lawvere taught us, a [[metric space]] is a groupoid enriched over the category $([0,\infty[^\op,+)$ of nonnegative real numbers, ordered in reverse, and made monoidal under addition. (Actually, you get a metric only if you impose a tightness condition, although again you can recover this up to equivalence from the 2-morphisms. Furthermore, Lawvere advocated using $[0,\infty]$ instead of $[0,\infty[$, and also dropping the symmetry requirement to get enriched categories instead of groupoids. Thus, he dealt with extended quasipseudometric spaces. These details are not really important here.)
 
@@ -53,13 +69,15 @@ The topological properties of metric spaces fit well with those of inequality sp
 
 In analysis, many spaces are given as [[gauge space]]s, that is by families of pseudometrics; these also become inequality spaces by declearing that $x \ne y$ iff $d(x,y) > 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.) Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).
 
-## Relation to proximity spaces
 
-The constructive theory of [[proximity space]]s is based on a generalisation of apartness relations (which here go between *points*) to an apartness relation between *sets*.  These are called _apartness spaces_; just as apartness relations (between points) are classically equivalent to equivalence relations, so apartness spaces are classically equivalent to proximity spaces, with two sets being proximate if and only if they are not apart.
+### Relation to proximity spaces
+
+The constructive theory of [[proximity space]]s is based on a generalisation of apartness relations (which here go between *points*) to an apartness relation between *sets*.  These are called _[[apartness space]]s_; just as apartness relations (between points) are classically equivalent to equivalence relations, so apartness spaces are classically equivalent to proximity spaces, with two sets being proximate if and only if they are not apart.
 
 Of course, any apartness space has an apartness relation between points: $x$ and $y$ are apart iff $\{x\}$ and $\{y\}$ are apart.
 
-# In algebra
+
+## In algebra
 
 Since inequality spaces have finite limits, the usual constructions of [[universal algebra]] apply; it\'s straightforward to define inequality [[group]]s, inequality [[ring]]s, and so on.
 
@@ -67,12 +85,13 @@ The various subsets that appear in algebra (such as [[ideal]]s and [[coset]]s) b
 
 Prime ideals are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \in A$ whenever $x y \in A$) is _antiprime_ if $1 \in A$ and $x y \in A$ whenever $x, y \in A$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
 
-# References
 
-The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. The great reference for all things topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://home.kpn.nl/sufra/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
+## References
+
+The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
 
 
-# Discussion
+## Discussion
 
 _[[Urs Schreiber|Urs]] says_: What you say at the entry [[vector space]] about the relation between apartness relations and topology and the continuum sounds very interesting. It would be nice if you could move these comments here and maybe flesh them out a little. Because, while it sounds interesting, I don't yet understand what you are saying!
 
