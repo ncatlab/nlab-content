@@ -225,7 +225,25 @@ On the left we have the Joyal--Tierney and Luo--Bubenik--Tim [[model structures 
 
 (...have to check here the relation $Sh(X,SGrpd)\leftrightarrow PSh(X, SGrpd)$)
 
+### Reedy and intermediate model structures
 
+To some extent the injective and projective model structures on simplicial presheaves are the two extremes of a larger family of model structures on simplicial presheaves that all have the same weak equivalences but different classes of cofibrations.
+
+Notably if the domain $C$ has the special property that it is a [[Reedy category]] there is the  [[Reedy model structure]] on $[C, sSet]$. Its class of cofibrations is intermediate that of the projective and the injective [[model structure on functors]] and we have [[Quillen equivalence]]s
+
+$$
+  [C,sSet]_{proj} \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [C,sSet]_{Reedy}
+  \stackrel{\overset{Id}{\leftarrow}}{\underset{Id}{\to}}
+  [C,sSet]_{inj}
+  \,.
+$$
+
+For general $C$, there is still a whole family of model structures on $[C^{op}, sSet]$ that interpolates between the injective and the projective model structure. This is discussed in
+
+* Jardine, _Intermediate model structures for simplicial presheaves_ , Canad. Math. Bull. 49(3) (2006), 407&#8211;413.
+
+  a review in on [p. 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=12) of [Field Lectures: Simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf)
 
 ### Dependence on the underlying site
 
