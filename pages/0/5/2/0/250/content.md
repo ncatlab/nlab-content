@@ -10,7 +10,7 @@
 
 ## Idea
 
-A linear category, or algebroid, is a [[category]] whose [[hom-sets]] are all [[vector spaces]] (or [[modules]]) and whose composition operation is bi-[[linear]].  This concept is a [[horizontal categorification]] of the concept of (unital associative) [[unital associative algebra|algebra]].
+A linear category, or algebroid, is a [[category]] whose [[hom-sets]] are all [[vector spaces]] (or [[modules]]) and whose composition operation is [[bilinear map|bilinear]].  This concept is a [[horizontal categorification]] of the concept of (unital associative) [[unital associative algebra|algebra]].
 
 
 ## Definitions
