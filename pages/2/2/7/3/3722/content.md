@@ -8,3 +8,6 @@ For a point-based notion of space such as a [[topological space]], a closed subs
 [[!redirects closed subspace]]
 [[!redirects closed subset]]
 [[!redirects closed set]]
+[[!redirects closed subspaces]]
+[[!redirects closed subsets]]
+[[!redirects closed sets]]
