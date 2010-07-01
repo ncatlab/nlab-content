@@ -80,22 +80,22 @@ $$
 Under [[groupoid cardinality]] 
 
 $$
-  |-| : \infty Grpd_{tame} \to \mathbb{R}
+  {|-|} : \infty Grpd_{tame} \to \mathbb{R}
 $$
 
 every (tame) [[∞-groupoid]] is mapped to a [[real number]]
 
 $$
-  X \mapsto |X| := \sum_{[x] \in \pi_0(X)}\prod_{i = 1}^{\infty} (\pi_i(X,x)^{(-1)^{i}})
+  X \mapsto {|X|} := \sum_{[x] \in \pi_0(X)}\prod_{i = 1}^{\infty} (\pi_i(X,x)^{(-1)^{i}})
   \,.
 $$
 
 A species $\mathbf{X}$ assigns an [[∞-groupoid]] $\mathbf{X}_n$ to each [[natural number]] $n \in \mathbb{Z}$. Therefore under [[groupoid cardinality]] we may naturally think of a tame species as mapping to a [[power series]]
 
 $$
-  \mathbf{X} \mapsto |\mathbf{X}|
+  \mathbf{X} \mapsto {|\mathbf{X}|}
   :=
-  \sum_{n = 0}^{\infty} \frac{1}{n!} |\mathbf{X}_n| z^n
+  \sum_{n = 0}^{\infty} \frac{1}{n!} {|\mathbf{X}_n|} z^n
   \in 
   \mathbb{R}[ [ z ] ]
   \,.
@@ -106,14 +106,14 @@ This cardinality operation maps the above addition and multiplication of combina
 That [[coproduct]] of species maps to sum of their cardinalities is trivial. That [[Day convolution]] of species maps under cardinality to the product of their cardinality series depends a little bit more subtly on the combinatorial prefactors:
 
 $$
-  | A \otimes B |
+  {| A \otimes B |}
   =
-  |A| \cdot |B|
+  {|A|} \cdot {|B|}
   =
   \sum_{n=0}^\infty 
    \frac{1}{n!}
    \sum_{k+l = n} \frac{n!}{k! l!} 
-   |A_k| \cdot |B_l|
+   {|A_k|} \cdot {|B_l|}
   \,.
 $$
 
@@ -137,6 +137,8 @@ See also
 
 * Fran&#231;ois Bergeron, Species and Variations on the Theme of Species, invited talk at [Category Theory and Computer Science '04](http://www.itu.dk/research/theory/ctcs2004/), Copenhagen (2004). Slides ([pdf](http://bergeron.math.uqam.ca/Especes_trans.pdf)).
 
+
 [[!redirects homotopical species]]
 [[!redirects (infinity,1) species]]
 [[!redirects ∞-species]]
+[[!redirects combinatorial species]]
