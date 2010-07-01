@@ -1,10 +1,14 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
+
 # Constructive mathematics
 * tic
 {: toc}
 
 ## Idea
 
-Broadly speaking, __constructive mathematics__ is mathematics done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent; these variations may be seen in the list of schools below.  However, it is probably best to use more precise terms (predicativism, intuitionism, etc) in this case.
+Broadly speaking, __constructive mathematics__ is [[mathematics]] done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent; these variations may be seen in the list of schools below.  However, it is probably best to use more precise terms (predicativism, intuitionism, etc) in this case.
 
 __Constructivism__ is the philosophy that such mathematics is useful, or (more strongly) that non-constructive mathematics is wrong.  Historically, constructive mathematics was first pursued explicitly by mathematicians who believed the latter.  However, many modern mathematicians who do constructive mathematics do it not because of any philosophical belief about the wrongness of non-constructive mathematics, but because constructive mathematics is interesting in its own right.  In the '[pluralist](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.9892)' approach to the [[foundations]] of mathematics, a constructive proof (when it exists) is better because it is valid in more versions of mathematics, but a classical proof remains valid for classical mathematics.
 
@@ -192,7 +196,7 @@ Paul Taylor (1996). Intuitionistic Sets and Ordinals. Available (with several ot
 
 Joyal, A. and Moerdijk, I. (1995).  Algebraic set theory.
 
-Frank Waaldijk (2003). [on the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://home.kpn.nl/sufra/foundations%20of%20constructive%20mathematics.pdf) (PDF).
+Frank Waaldijk (2003). [on the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
 
 Most books on [[topos]] theory include some discussion of their [[internal logic|internal]] constructive logic.  One good reference is Part D of _Sketches of an elephant (vol. 2)_ by Peter Johnstone.
 
@@ -234,4 +238,6 @@ into the text somewhere?  It's too good a quote to pass up. I also love:
 =--
 
 
+[[!redirects constructive]]
 [[!redirects constructivism]]
+[[!redirects constructive mathematics]]
