@@ -65,13 +65,11 @@ This we may think of as being the hyperring of [[integer]]s modulo the relation 
 
 **Proposition**
 
-We have
+To each element, $\phi$, of $Hom(\mathbb{Z}[X], \mathbf{S})$ there corresponds an extended real number, $Re(\phi) \in [-\infty, \infty]$ given as a Dedekind cut. This is a surjective mapping. The inverse image of each real algebraic number contains three elements, while that of a nonalgebraic number is a singleton. For real algebraic $\alpha$, the three homomorphisms from $\mathbb{Z}[X]$ to $\mathbf{S}$ are
 
 $$
-  Hom(\mathbb{Z}[X], \mathbf{S}) \simeq \mathbb{R}
-  \,.
+P(T) \mapsto \underset{\epsilon \to 0+} {lim} sign P(\alpha + t \epsilon), t \in \{-1, 0, 1\}.
 $$
-
 
 
 ## References
