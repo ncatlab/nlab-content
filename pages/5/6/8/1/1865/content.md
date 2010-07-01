@@ -1,15 +1,19 @@
 
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea 
 
-As every [[generalized (Eilenberg-Steenrod) cohomology]] theory, [[K-theory]] has a refinement to [[differential cohomology]].
+_Differential K-theoiry_ is the refinement of the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[K-theory]] to [[differential cohomology]].
 
 In as far as we can think of cocycles in [[K-theory]] as represented by [[vector bundle]]s or [[vectorial bundle]]s, cocycles in differential K-theory may be represented by [[vector bundle]]s [[connection on a bundle|with connection]].
 
-There are various different models that differ in the concrete realization of these cocycles.
+There are various different models that differ in the concrete realization of these cocycles and in their extra properties.
 
 ## The Simons-Sullivan model 
 
@@ -104,12 +108,27 @@ Moreover...
 
 ## The Bunke-Schick model 
 
-Bunke and Schick in a series of articles developed a model of differential K-theory in terms of bundles of Dirac operator... ...
+[[Uli Bunke]] and [[Thomas Schick]] developed in a series of articles a differential-geometric cocycle model of differential K-theory where cocycles are given by smooth families of [[Dirac operator]]s.
 
-* U. Bunke, _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
+The basic article is
+
+* [[Ulrich Bunke]], [[Thomas Schick]], _Smooth K-Theory_ ([arXiv:0707.0046](http://arxiv.org/abs/0707.0046))
+
+Re survey talk is
+
+* [[Ulrich Bunke]], _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
+
+The [[equivariant cohomology]] version of this is in
+
+* [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold $K$-Theory_ ([arXiv:0905.4181](http://arxiv.org/abs/0905.4181))
+
+A construction of [[differential cobordism cohomology]] theory in terms of explicit geoimetric cocycles is in
+
+* [[Ulrich Bunke]], [[Thomas Schick]], [[Ingo Schroeder]], [[Moritz Wiethaup]] _Landweber exact formal group laws and smooth cohomology theories_ ([arXiv:0711.1134](http://arxiv.org/abs/0711.1134))
+
+By tensoring this with the suitable ring, this also gives a model for differential K-theory, as well as for [[differential elliptic cohomology]].
 
 
-(...)
 
 
 ## Examples 
