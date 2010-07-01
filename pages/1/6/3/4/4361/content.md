@@ -1,0 +1,1 @@
+The __upper interval topology__ on a [[proset]] $X$ is given by taking the [[down sets]] in $X$ as generating the [[closed subsets]].
