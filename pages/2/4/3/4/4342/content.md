@@ -134,6 +134,42 @@ $$
 which shows that the tensor product of intertwiners is an intertwiner for the tensor product of endomorphisms. The unit object is the identity endomorphism $\mathbb{1} \in \mathcal{A}$, left and right unitor and the associator are the identities, that is, $\Delta$ is **strict**.
 =--
 
+Now to the braiding. The braiding is symmetric in $d \ge 3$ dimensions only, this has a topological reason: The causal complement of a double cone is pathwise connected in $d \ge 3$ dimensions only, but not in $d \le 2$ dimensions.
+
+_Remark_: When we talk about $d = 1$ dimensions we mean one space dimension and zero time dimensions, so that a double cone in this context is simply an open interval, and spacelike separated double cones are simply disjoint open intervals.
+
+To define the braiding we will need the following concepts:
+
++-- {: .un_defn}
+###### Definition
+For transportable endomorphisms $\rho, \sigma$ choose causally separated double cones $K_1 \perp K_2$ and $\rho_0 \in \hat \rho$ localized in $K_1$ and $\sigma_0 \in \hat \sigma$ localized in $K_2$. These endomorphisms $\rho_0, \sigma_0$ are then called **spectator endomorphisms** of $\rho$ and $\sigma$.
+=--
+
+Note that it is a theorem that causally disjoint transportable endomorphisms commute, therefore spectator endomorphisms always commute.
+
++-- {: .un_defn}
+###### Definition
+For transportable endomorphisms $\rho, \sigma$ and spectator endomorphisms $\rho_0, \sigma_0$ choose unitary interwiners $U \in Hom(\rho, \rho_0)$ and $V \in \Hom(\sigma, \sigma_0)$. Such unitaries are called **transporters**.
+=--
+
+Obviously both spectator endomorphisms and transporters are not unique, in general.
+
++-- {: .un_defn}
+###### Definition
+For transportable endomorphisms $\rho, \sigma$, spectator endomorphisms $\rho_0, \sigma_0$ and transporters U, V define the **permutator** or **permutation symmetry** via
+$$
+\epsilon(\rho, \sigma) := (V^* \otimes U^*) (U \otimes V)
+$$
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The permutators are well defined and independent of the choice of spectator endomorphisms and transporters.
+
+=--
+
 ## References ##
 
 See [[DHR superselection theory]]
