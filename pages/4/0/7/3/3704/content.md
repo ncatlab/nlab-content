@@ -30,6 +30,14 @@ Let $(C,\otimes,I, \dagger)$ be a $\dagger$-compact category.
 
 We list various concepts in quantum mechanics and their corresponding incarnation in terms of structures in $C$.
 
+### Classical measurement outcomes
+
+An observable in quantum mechanics formulated on a [[Hilbert space]] is modeled by a self-adjoint operator, and the classical measurement outcomes of this operator provide, at least under some assumptions, an [[orthogonal basis]] on the [[Hilbert space]].
+
+That, more abstractly, the notion of orthognal basis of an object can be phrased intrinsically inside any suitable $\dagger$-compact category is the point made in 
+
+* [[Bob Coecke]], [[Dusko Pavlovic]], [[Jamie Vicary]], _A new description of orthogonal bases_ ([arXiv:0810.0812](http://arxiv.org/abs/0810.0812))
+
 ### Complex phases
 
 The underlying "algebra of quantum amplitudes" of the corresponding quantum mechanical system is the [[endomorphism]] [[monoid]] of the tensor unit
