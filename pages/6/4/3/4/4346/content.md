@@ -31,7 +31,7 @@ This definition makes sense also if the net consists of $*$-algebras only, of co
 
 Chapter 6 of:
 
-* Hellmut Baumg&#228;rtel: _Operator algebraic Methods in Quantum Field Theory. A series of lectures._ Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
+* Hellmut Baumg&#228;rtel, Manfred Wollenberg: _Causal nets of operator algebras._ Berlin: Akademie Verlag 1992 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0749.46038&format=complete))
 
 
 [[!redirects net of C-star-systems]]
