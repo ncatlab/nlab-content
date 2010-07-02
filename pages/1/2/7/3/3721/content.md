@@ -2,7 +2,11 @@ A [[subspace]] $A$ of a [[space]] $X$ is __open__ if the [[inclusion function|in
 
 For a point-based notion of space such as a [[topological space]], an open subspace is the same thing as an __open subset__.
 
-(There is a lot more to say, about convergence spaces, locales, smooth spaces, etc, but right now I just want to get the redirects in.)
+In [[locale]] theory, every open $U$ in the locale defines an open subspace which is given by the [[nucleus]]
+$$ j_{U}\colon V \mapsto U \Rightarrow V .$$
+The idea is that this subspace is the part of $X$ which involves only $U$, and we may identify $V$ with $U \Rightarrow V$ when we are looking only at $U$.
+
+(There is a lot more to say, about convergence spaces, smooth spaces, etc.)
 
 
 [[!redirects open subspace]]
@@ -11,3 +15,6 @@ For a point-based notion of space such as a [[topological space]], an open subsp
 [[!redirects open subsets]]
 [[!redirects open set]]
 [[!redirects open sets]]
+
+[[!redirects open sublocale]]
+[[!redirects open sublocales]]
