@@ -617,6 +617,7 @@ of strong monoidal equivalence from $(Schur, \boxtimes)$ to the monoidal categor
 
 The tensor product $\boxtimes$ on $Schur$ goes by another name: it is the **plethystic tensor product**. 
 
+
 ## References ##
 
 A nice quick introduction to Schur functors can be found here:
@@ -625,18 +626,18 @@ A nice quick introduction to Schur functors can be found here:
 
 A good overall reference to Young diagrams is:
 
-* William Fulton, _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U.\ Press, 1997.
+* William Fulton, _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997.
 
 Species were invented here:
 
-* Andr&#233; Joyal, Une th&#233;orie combinatoire des s&#233;ries formelles, <i>Adv. Math</i> <b>42</b> (1981), 1-82.
+* Andr&#233; Joyal, Une th&#233;orie combinatoire des s&#233;ries formelles, _Adv. Math_ **42** (1981), 1--82.
 
-* Andr&#233;  Joyal: Foncteurs analytiques et esp&egrave;ces des
-structures, in _Combinatoire &#201;num&#233;rative_, Lecture Notes in Mathematics **1234**, Springer, Berlin, 1986, pp.\ 126-159.  
+* Andr&#233;  Joyal: Foncteurs analytiques et esp&egrave;ces des structures, in _Combinatoire &#201;num&#233;rative_, Lecture Notes in Mathematics **1234**, Springer, Berlin, 1986, pp. 126--159.  
 
 A standard reference is:
 
 * Fran&#231;ois Bergeron, Gilbert Labelle, Pierre Leroux, _Combinatorial Species and Tree-like Structures_, Cambridge University Press, Cambridge 1998.
+
 
 ## Old Stuff ##
 
