@@ -16,7 +16,7 @@ satisfying the condition (really a [[universal property]])
 
 $$(x \wedge a) \leq b \qquad if\;and\;only\;if \qquad x \leq (a \Rightarrow b)$$ 
 
-Alternatively, a Heyting algebra could be described as a [[partial order|poset]] which is [[finitely complete category|finitely complete]], finitely cocomplete, and cartesian closed (equivalently, a poset which is [[bicartesian closed category|bicartesian closed]]); the implication $a\Rightarrow b$ plays the role of an [[exponential object]] $b^a$. Insofar as all these properties of a poset are described by universal properties, the Heyting algebra operations are _[[categorical operation|categorical]]_ in the sense of logic; that is, a poset can carry at most one structure of Heyting algebra. 
+Alternatively, a Heyting algebra could be described as a [[partial order|poset]] which is [[finitely complete category|finitely complete]], finitely cocomplete, and cartesian closed (equivalently, a poset which is [[bicartesian closed category|bicartesian closed]]); the implication $a\Rightarrow b$ plays the role of an [[exponential object]] $b^a$. Insofar as all these properties of a poset are described by universal properties, being a Heyting algebra is a [[property-like structure]] on a poset; a poset can be a Heyting algebra in at most one way. 
 
 In logic, Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
 
@@ -52,7 +52,7 @@ In any Heyting algebra $L$, we may define a negation operator
 
 $$\neg: L^{op} \to L$$ 
 
-by $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of the lattice. A Heyting algebra is Boolean if the double negation 
+by $\neg x = (x \Rightarrow 0)$, where $0$ is the bottom element of the lattice. A Heyting algebra is Boolean if the [[double negation]] 
 
 $$\neg \neg: L \to L$$ 
 
@@ -64,7 +64,7 @@ $$(\neg a \vee b) \leq (a \Rightarrow b)$$
 
 and another characterization of Boolean algebra is a Heyting algebra in which this is an equality for all $a, b$. 
 
-There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the double negation operator. A useful lemma in this regard is 
+There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the [[double negation]] operator. A useful lemma in this regard is 
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -72,7 +72,7 @@ There are several ways of passing back and forth between Boolean algebras and He
 The double negation $\neg \neg: L \to L$ is a [[monad]] that preserves finite meets. 
 =--
 
-The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg: \Omega \to \Omega$ defines a Lawvere-Tierney [[site|topology]]. 
+The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg: \Omega \to \Omega$ defines a [[Lawvere–Tierney topology]]. Similarly, we get the [[double negation sublocale]] of any [[locale]].
 
 Now let $L_{\neg\neg}$ denote the poset of _regular_ elements of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is regular if and only if it is the interior of its closure.) With the help of the lemma above, we may prove
 
