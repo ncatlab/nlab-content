@@ -365,7 +365,7 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 * Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
 
   * "Sheaves in Geometry and Logic" by Mac Lane and Moerdijk
-  * "Topoi: the categorical analysis of logic" by Goldblatt 
+  * "Topoi: the categorial analysis of logic" by Goldblatt 
 
 * Part D of [[Elephant|Sketches of an Elephant]] is comprehensive.
 
@@ -383,3 +383,4 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 [[!redirects syntactic categories]]
 
 [[!redirects categorical logic]]
+[[!redirects categorial logic]]
