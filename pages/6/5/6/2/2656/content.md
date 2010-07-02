@@ -154,6 +154,21 @@ partitions, and let $\nu \le \mu$ be defined as $\forall i : \nu_i\le \mu_i$ (po
 
 A **filling** of a Young diagram with elements from a set $S$ is called a [[Young tableau]].
 
+## References ##
+
+For a quick online introduction to Young diagrams, try:
+
+* Alexander Yong, What is...a Young Tableau, _Notices of the American Mathematical Society_ *54* (February 2007), 240&#8211;241.   ([web](http://www.ams.org/notices/200702/whatis-yong.pdf))
+
+A nice introduction to Young diagrams can be found here:
+
+* William Fulton and Joe Harris, _Representation Theory: a First Course_, Springer, Berlin, 1991.
+
+A more detailed reference is:
+
+* William Fulton, _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U.\ Press, 1997.
+
+F
 [[!redirects Young diagrams]]
 [[!redirects Ferrers diagram]]
 [[!redirects Ferrers diagrams]]
