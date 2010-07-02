@@ -34,7 +34,7 @@ However, the subspaces that we really want in categories such as [[Ban]] are the
 
 ### Sublocales
 
-... [[sublocale]] ... [[nucleus]] ...
+Given a [[locale]] $L$, which can also be thought of as a [[frame]], a [[sublocale]] of $L$ is given by a [[nucleus]] on the frame $L$.  Even if $L$ is [[topological locale|topological]], so that $L$ can be identified with a [[sober space|sober]] [[topological space]], still there are generally many more sublocales of $L$ than the topological ones.
 
 
 ### Submanifolds
