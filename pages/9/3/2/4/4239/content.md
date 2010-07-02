@@ -98,7 +98,7 @@ This is however not the morally correct CY $A_\infty$-structure associated with 
 
 * The [[Fukaya category]] associated with a [[symplectic manifold]] $X$. But see mathoverflow for more discussion: &lt;http://mathoverflow.net/questions/13114/are-fukaya-categories-calabi-yau-categories>
 
-* [[string topology]]: for $X$ a [[compact space|compact]] [[simply connected]] [[orientation|oriented]] [[manifold]], its cohomology $H^{\bullet}(X)$ is naturally a Calabi-Yau $A_\infty$-category with a single object. The $A_\infty$ structure comes from the homological perturbation lemma. One could also use the dg algebra of cochains $C^\bullet(X)$.
+* [[string topology]]: for $X$ a [[compact space|compact]] [[simply connected]] [[orientation|oriented]] [[manifold]], its cohomology $H^{\bullet}(X)$ is naturally a Calabi-Yau $A_\infty$-category with a single object. The $A_\infty$ structure comes from the [[homological perturbation lemma]]. One could also use the dg algebra of cochains $C^\bullet(X)$.
 
 ## Properties
 
