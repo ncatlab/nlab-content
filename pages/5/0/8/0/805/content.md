@@ -233,6 +233,8 @@ Other projects:
 
 5) Get a job! :)
 
+I guess 3) and 5) are taken care of now.
+
 If anyone wants to talk about the first item that would be great.  I guess this is my new recruiting station to get people to talk to me about math.
 =--
 
