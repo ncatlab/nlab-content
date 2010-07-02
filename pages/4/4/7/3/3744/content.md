@@ -7,7 +7,7 @@
 {:toc}
 
 ## Idea
-This page lays down a specific set of axioms of the [[Haag-Kastler axioms]] to [[AQFT]], knowing that this set is not _the set_ of Haag-Kastler axioms, but one specific choice. The purpose is to state and prove some of the classical results of the theory in a mathematically precise and model independent way. In fact some experts will find the chosen axioms to be stronger than necessary, this is deliberatly so to ease the exposition.
+This page lays down a specific set of axioms of the [[Haag-Kastler axioms]] to [[AQFT]], knowing that this set is not _the set_ of Haag-Kastler axioms, but one specific choice. The purpose is to state and prove some of the classical results of the theory in a mathematically precise and model independent way. In fact some experts will find the chosen axioms to be stronger than necessary, this is deliberately so to ease the exposition.
 
 It is possible to construct examples that fulfill the axioms, to show that they are not empty, but we will not engage in this task here, at least not now. Note however that up to now there was no success in the task to construct systems in 4 dimensions with interactions, which has led to some doubts about the usefulness of this approach in the physics community: It has yet to be shown if the approach does or does not capture the essential features that makes possible the tremendous success of the standard model of particle physics.
 
@@ -17,16 +17,16 @@ We first collect some terms that are needed to then formulate the axioms of the 
 ###Notation
 
 ####The Poincar&#233; Group
-The universal covering $SL(2, \C) \ltimes \R^4$ of the restriced Poincar&#233; group $\mathcal{P}^{\dagger}_+$ will be denoted by $\mathcal{P}$, the abelian subgroup of all translations by $\mathcal{T}$.
+The universal covering $SL(2, \C) \ltimes \R^4$ of the restricted Poincar&#233; group $\mathcal{P}^{\dagger}_+$ will be denoted by $\mathcal{P}$, the abelian subgroup of all translations by $\mathcal{T}$.
 
 ####The Minkowski Spacetime
 We talk about 4-dimensional Minkowski spacetime $\mathcal{Min}$ only, i.e. $\mathcal{Min}$ is the vector space $\R^{4} = \R \times \R^{3}$ equipped with the scalar product $\lt x, y \gt := x_0 y_0 - (\vec x, \vec y)$ with $( \cdot , \cdot  )$ being the Euclidean scalar product on $\R^{3}$.
 Open bounded subsets of $\mathcal{Min}$ will be denoted by $\mathcal{O}$. The union of these $\mathcal{O}$ form an index set $\mathcal{J}$, that is partially ordered by inclusion. 
 
-If two sets are spacelike seperated, this will be denoted by $\mathcal{O}_1 \perp \mathcal{O}_2$, the interior of the spacelike complement of a given set $\mathcal{O}$ will be denoted by $\mathcal{O}'$. The bounded open sets thus form a [[causal index set]].
+If two sets are spacelike separated, this will be denoted by $\mathcal{O}_1 \perp \mathcal{O}_2$, the interior of the spacelike complement of a given set $\mathcal{O}$ will be denoted by $\mathcal{O}'$ or $\mathcal{O}^{\perp}$. The bounded open sets thus form a [[causal index set]].
 
 We denote the open forward (light)cone at x by $V_+(x)$, similar $V_-(x)$ is the open backward cone at $x$, if $x=0$ we simply write $V_+$ and $V_-$.
-A **double cone** of **diamond** is an intersection of an open forward cone and an open backward cone that is nonempty and will be denoted by $\mathcal{K}$. 
+A **double cone** or **diamond** is an intersection of an open forward cone and an open backward cone that is nonempty and will be denoted by $\mathcal{K}$. 
 
 An important class of unbounded regions are the **wedges**: Choose an inertial frame and define the right wedge as
 $$
@@ -41,7 +41,7 @@ While the definition of the right wedge depends on the chosen initial frame, the
 ####Operator Algebras
 See [[operator algebra]] and [[von Neumann algebra]] here on the nLab.
 
-Von Neumann algebras $\mathcal{M}$ will always be concrete operator algebras acting on a given Hilbert space $\mathcal{H}$, as is the rule in the literature (see also [[von Neumann algebra]] here on the nLab). The commutant of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
+Von Neumann algebras $\mathcal{M}$ will always be concrete operator algebras acting on a given Hilbert space $\mathcal{H}$, as is the rule in the literature (see also [[von Neumann algebra]]). The commutant of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
 $$
       \mathcal{M}_1 \vee \mathcal{M}_2 :=  {(\mathcal{M}_1 \cup \mathcal{M}_2)}''
 $$
@@ -68,11 +68,11 @@ See [planetmath] (http://planetmath.org/encyclopedia/BanachSpaceValuedAnalyticFu
 A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilbert space $(\mathcal{H})$, indexed by $\mathcal{O} \in \mathcal{J}$, is called a **vacuum respresentation** (on the 4-dimensional Minkowski spacetime) if it satisfies the following axioms:
 
 +-- {: .num_theorem #isotony}
-* (V1) **isotony**: $\mathcal{O}_1 \subset \mathcal{O}_2 implies \mathcal{M}(\mathcal{O}_1) \subseteq \mathcal{M}(\mathcal{O}_2)$
+* (V1) **isotony**: $\mathcal{O}_1 \subset \mathcal{O}_2$ implies $\mathcal{M}(\mathcal{O}_1) \subseteq \mathcal{M}(\mathcal{O}_2)$
 =--
 
 +-- {: .num_theorem #additivity}
-* (V2) **additivity**: $\mathcal{O} = \bigcup_j \mathcal{O}_j$ implies  $\mathcal{M}(\mathcal{O}) = ( \bigcup_j \mathcal{M}(\mathcal{O}_j) )'' $ 
+* (V2) **additivity**: $\mathcal{O} = \bigcup_j \mathcal{O}_j$  implies   $\mathcal{M}(\mathcal{O}) = ( \bigcup_j \mathcal{M}(\mathcal{O}_j) )'' $ 
 =--
 
 +-- {: .num_theorem #locality}
