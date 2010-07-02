@@ -5,14 +5,14 @@
 
 ## Idea
 
-A __discrete space__ is, in general, an object of a [[concrete category]] of spaces that is [[free functor|free]] on its underlying set.  Every [[topological concrete category]] has discrete spaces; so do many other categories, such as [[Diff]] and [[Hausdorff space|Haus Top]].
+A __discrete space__ is, in general, an object of a [[concrete category]] $Sp$ of spaces that is [[free functor|free]] on its underlying set.  Every [[topological concrete category]] has discrete spaces; so do many other categories, such as [[Diff]] and [[Hausdorff space|Haus Top]].  Non-concrete categories of spaces, such as [[Loc]], usually also have discrete spaces; the concept makes sense as long as there is a given [[forgetful functor]] from $Sp$ to [[Set]].
 
 
 ## Definition
 
-For this to make sense, we want the functor
+We want the functor
 $$ Set \stackrel{F}\to Sp \stackrel{U}\to Set $$
-to be ([[natural isomorphism|naturally isomorphic]] to) the [[identity functor]] on [[Set]], where $F: Set \to Sp$ is [[adjoint functor|left adjoint]] to the [[forgetful functor]] $U: Sp \to Set$.  (This is true, for example, if $Sp$ is [[Top]], [[Diff]], [[Loc]], etc, although $Loc$ is not quite a concrete category since the forgetful functor from [[locale]]s is not faithful.)
+to be ([[natural isomorphism|naturally isomorphic]] to) the [[identity functor]] on [[Set]], where $F: Set \to Sp$ is [[adjoint functor|left adjoint]] to the [[forgetful functor]] $U: Sp \to Set$.  (This is true, for example, if $Sp$ is [[Top]], [[Diff]], [[Loc]], etc.)
 
 Assuming that $U$ is [[faithful functor|faithful]] (as it should be when $Sp$ is a concrete category), we can characterise a discrete space $X$ as one such that every function from $X$ to $Y$ (for $Y$ any space) is a morphism of spaces.  (More precisely, this means that every function from $U(X)$ to $U(Y)$ is the image under $U$ of a morphism from $X$ to $Y$.)
 
@@ -21,7 +21,7 @@ A [[topological space]] is discrete in the sense above only if the [[diagonal ma
 
 ## Examples
 
-The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology.  This same space serves as a discrete object in many subcategories and supercategories of $Top$, from [[convergence space]]s (where the only proper filter that converges to a point is the free ultrafilter at that point) to (say) paracompact Hausdorff spaces (because a discrete topological space has those properties).  It is also [[sober space|sobre]] and thus serves as a discrete [[locale]], whose corresponding [[frame]] is the [[power set]] of $X$; see [[CABA]].
+The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology.  This same space serves as a discrete object in many subcategories and supercategories of $Top$, from [[convergence space]]s (where the only proper filter that converges to a point is the free ultrafilter at that point) to (say) paracompact Hausdorff spaces (because a discrete topological space has those properties).  It is also [[sober space|sober]] and thus serves as a discrete [[locale]], whose corresponding [[frame]] is the [[power set]] of $X$; see [[CABA]].
 
 A discrete [[uniform space]] $X$ has all [[reflexive relations]] as [[entourages]], or equivalently all [[covers]] as [[uniform cover]]s.  It is the only uniformity (on a given set) whose underlying topology is discrete.
 
@@ -31,3 +31,8 @@ Strictly speaking, there is no discrete [[metric space]] on any set with more th
 [[!redirects discrete space]]
 [[!redirects discrete spaces]]
 [[!redirects discrete topology]]
+[[!redirects discrete topologies]]
+[[!redirects discrete topological space]]
+[[!redirects discrete topological spaces]]
+[[!redirects discrete locale]]
+[[!redirects discrete locales]]
