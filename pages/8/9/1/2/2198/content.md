@@ -27,7 +27,7 @@ There are many variations possible in the list of axioms; one important conseque
 
 *  _isotony_:  if $A\subset C$ and $B\subset D$, then $C\;\delta\;D$ if $A\;\delta\;B$.
 
-It is also possible to write the definition in terms of the apartness relation or the relation $\ll$.  In particular, a (set--set) __apartness space__ is a set $X$ equipped with a binary relation $\bowtie$ on $P(X)$ such that the [[negation]] of $\bowtie$ is a proximity relation.  This is the preferred formulation in [[constructive mathematics]] (although you\'ll want to rephrase the definition axiom by axiom to remove spurious double negations).
+It is also possible to write the definition in terms of the apartness relation or the relation $\ll$.  In particular, a (set--set) __apartness space__ is a set $X$ equipped with a binary relation $\bowtie$ on $P(X)$ such that the [[negation]] of $\bowtie$ is a proximity relation.  This is the preferred formulation in [[constructive mathematics]] (although you\'ll want to rephrase the definition axiom by axiom to remove spurious [[double negations]]).
 
 
 ## Relation to other topological structures
