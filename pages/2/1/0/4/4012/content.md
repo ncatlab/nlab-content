@@ -8,9 +8,9 @@
 
 ## Idea
 
-A lax-idempotent 2-monad encodes a certain kind of [[stuff, structure, property|property-like structure]] that a category, or more generally an object of a 2-category, can carry.
+A lax-idempotent 2-monad encodes a certain kind of [[stuff, structure, property|property-like structure]] that a category, or more generally an object of a [[2-category]], can carry.
 
-The archetypal examples are given by 2-monads $T$ on $Cat$ that take a category $C$ to the free cocompletion $T C$ of $C$ under a given class of colimits -- then an algebra $T C \to C$ is a category $C$ with all such colimits, which are of course essentially unique.  Moreover, given thus-cocomplete categories $C$ and $D$, a functor $F \colon C \to D$, and a diagram $S$ in $C$, there is a unique arrow $colim T F S \to F(colim S)$ given by the universal property of the colimit.  It is this property that lax-idempotence generalizes.
+The archetypal examples are given by [[2-monads]] $T$ on [[Cat]] that take a [[category]] $C$ to the [[free cocompletion]] $T C$ of $C$ under a given class of [[colimits]] -- then an [[algebra of a monad|algebra]] $T C \to C$ is a category $C$ with all such colimits, which are of course essentially unique.  Moreover, given thus-cocomplete categories $C$ and $D$, a functor $F \colon C \to D$, and a diagram $S$ in $C$, there is a unique arrow $colim T F S \to F(colim S)$ given by the universal property of the colimit.  It is this property that lax-idempotence generalizes.
 
 
 ## Definition
@@ -73,11 +73,13 @@ An important example of a colax-idempotent monad is the monad on $Cat/B$ that ta
 
 This latter is actually a special case of a general situation.  If $T$ is a (2-)monad relative to which one can define [[generalized multicategories]], then often it induces a lax-idempotent 2-monad $\tilde{T}$ on the 2-category of such generalized multicategories (aka "virtual $T$-algebras"), such that (pseudo) $\tilde{T}$-algebras are equivalent to (pseudo) $T$-algebras.  When $T$ is the 2-monad whose algebras are strict 2-functors $B\to Cat$ and whose pseudo algebras are pseudofunctors $B\to Cat$, then a virtual $T$-algebra is a category over $B$, and it is a pseudo $\tilde{T}$-algebra just when it is an opfibration.  Similarly, there is a lax-idempotent 2-monad on the 2-category of [[multicategories]] whose pseudo algebras are [[monoidal categories]], and so on.
 
+
 ## References
 
 * [[Max Kelly]], [[Steve Lack]], _On property-like structures_, TAC 3(9), 1997.
 * Kock, _Monads for which structures are adjoint to units_, JPAA 104:41--59, 1995.
 * Power--Cattani--Winskel, _A representation result for free cocompletions_, JPAA 151:273--286, 2000.
+
 
 [[!redirects KZ monad]]
 [[!redirects KZ-monad]]
@@ -89,10 +91,12 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 [[!redirects KZ doctrines]]
 [[!redirects KZ-doctrines]]
 
+[[!redirects lax-idempotent 2-monad]]
+[[!redirects lax-idempotent 2-monads]]
 [[!redirects lax-idempotent monad]]
 [[!redirects lax-idempotent monads]]
 
 [[!redirects colax-idempotent 2-monad]]
-[[!redirects colax-idempotent monad]]
 [[!redirects colax-idempotent 2-monads]]
+[[!redirects colax-idempotent monad]]
 [[!redirects colax-idempotent monads]]
