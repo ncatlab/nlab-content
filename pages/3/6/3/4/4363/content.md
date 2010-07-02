@@ -69,7 +69,7 @@ Make sure that the claims directed to be checked above are straightforward calcu
 
 ## Relation to sublocales
 
-Let $L$ be a [[locale]].  Then we simply *define* a __[[sublocale]]__ of $L$ to be a nucleus on the underlying frame of $L$.
+Let $L$ be a [[locale]].  Then we define a __[[sublocale]]__ of $L$ to be a quotient frame of $L$, which corresponds to a nucleus on $L$ as above.
 
 There is nothing to be proved here, but there are ideas to motivate.  The elements of the frame $L$ correspond to opens in the locale $L$.  A subspace of a locale corresponds to a quotient frame, because we identify two opens if they 'agree on the sublocale'.  Given an open $a$, there will always be a largest open that is identified with $a$, so we can also describe a subspace of a locale as an operation that maps each open to its largest representative open.  This map is the nucleus $j$.
 
