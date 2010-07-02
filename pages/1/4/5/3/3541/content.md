@@ -181,7 +181,11 @@ This was further developed in
 
 A recently revised presentation on this:
 
-* [[Ian Durham]], Categorical quantum channels: Attacking the quantum version of Birkhoff's theorem with category theory ([pdf](apstalk2.pdf:file))
+* [[Ian Durham]], Categorical quantum channels: Attacking the quantum version of Birkhoff's theorem with category theory ([[apstalk2.pdf:file]])
+
++-- {: .query}
+I guess that this is all right as an introduction to quantum channels, but the connection to category theory really isn\'t made; it\'s almost two disjoint talks interwoven.  (The category theory in there is also very vaguely defined, but maybe it was good enough in context.)  ---[[Toby Bartels]]
+=--
 
 
 [[!redirects quantum channel]]
