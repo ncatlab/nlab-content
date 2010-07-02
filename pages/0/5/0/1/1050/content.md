@@ -76,7 +76,7 @@ Frequently the term "left exact" is restricted to the case that $C$ has all [[fi
 Conceivably, it might be used also in the more general case, but to refer to a weaker notion: a functor that preserves those finite limits that exist.  Certainly that\'s how I would interpret 'finitely continuous functor'.  ---Toby
 =--
 
-Left exactness is sometimes abbreviated **lex**.  In particular, $Lex$ is the 2-category of categories with finite limits and lex functors.  See also [[continuous functor]].
+Left exactness is sometimes abbreviated **lex**.  In particular, [[Lex]] is the 2-category of categories with finite limits and lex functors.  See also [[continuous functor]].
 
 ## In higher category theory
 
