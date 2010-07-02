@@ -58,20 +58,22 @@ This approach to nuclei is not appropriate in a [[predicative mathematics|predic
 
 Let $L$ be a frame, and let $j$ be a nucleus on $L$.
 
-Let $L/j$ be the [[subset]] of $L$ consisting of the $j$-closed elements of $L$ (those elements $a$ such that $j(a) = a$).  Note that, by property (3) above, we may interpret $j$ as a function $j\colon L \to L/j$.  In this way, check that $j$ becomes a [[surjection|surjective]] frame [[homomorphism]].  Since [[Frm]] is an [[algebraic category]], this means that $L/j$ is a [[regular quotient]] of $L$.
+Let $L/j$ be the [[subset]] of $L$ consisting of the $j$-closed elements of $L$ (those elements $a$ such that $j(a) = a$).  Note that, by property (3) above, we may interpret $j$ as a function $j^*\colon L \to L/j$, which is a [[surjection|surjective]] frame [[homomorphism]].  Since [[Frm]] is an [[algebraic category]], this means that $L/j$ is a [[regular quotient]] of $L$.
 
-Conversely, suppose that $M$ is any regular quotient of $L$; that is, we have a surjective frame homomorphism $k\colon L \to M$.  Since $k$ is a frame homomorphism, it has (by the [[adjoint functor theorem]]) a [[left adjoint]] $k^*\colon M \to L$.  Let $j\colon L \to L$ be the [[composite]] of $k$ followed by $k^*$.  Then we may check that $j$ is a nucleus, and $k^*$ is a frame [[isomorphism]] from $M$ to $L/j$.
+Conversely, suppose that $M$ is any regular quotient of $L$; that is, we have a surjective frame homomorphism $k\colon L \to M$.  Since $k$ is a frame homomorphism, it has (by the [[adjoint functor theorem]]) a [[right adjoint]] $k_*\colon M \to L$.  Let $j\colon L \to L$ be the [[composite]] of $k$ followed by $k_*$.  Then we may check that $j$ is a nucleus, and $k_*$ is a frame [[embedding]] whose [[image]] is $L/j$.
 
 +-- {: .query}
-Make sure that the claims directed to be checked above are straightforward calculations.
+Make sure that the claims in the paragraph above are straightforward calculations.
 =--
+
+In short, given a nucleus $j$, we have an [[adjunction]] $j^*\colon L \rightleftarrows L/j: j_*$, where $j^*$ is a surjective homomorphism and $j_*$ is the [[inclusion function]]; while, given a surjective homomorphism $k$, we have an adjunction $k\colon L \rightleftarrows M: k_*$, where $k_* \circ k$ is a nucleus and $k_*$ is an embedding.
 
 If we think of $L$ as a [[locale]], then we define a __[[sublocale]]__ of $L$ to be a quotient frame of $L$, which corresponds to a nucleus on $L$ as above.
 
 
 ## Categorification
 
-If you [[categorify]] from locales to [[toposes]], then nuclei become [[Lawvere–Tierney topologies]].
+If you [[categorify]] from locales to [[toposes]], then nuclei become [[Lawvere–Tierney topologies]], and the operation of the nucleus becomes [[sheafification]].
 
 
 ## References
