@@ -8,13 +8,18 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 
 1. $C$ has all small [[colimit|colimits]], the category $C_{fp}$ is [[essentially small category|essentially small]], and any object in $C$ is a [[filtered colimit]] of the canonical diagram of finitely presentable objects mapping into it.
 1. $C$ is the category of models for a finitary [[essentially algebraic theory]].
-   +-- {: .query}
-   Does this essentially algebraic theory also have to be finitary?; that is, if it\'s an [[algebraic theory]], then it\'s a [[Lawvere theory]]?  ---Toby
 
-   [[Mike Shulman|Mike]]: Yes, it certainly has to be finitary.  Possibly the standard meaning of "essentially algebraic" implies finitarity, though, I don't know.
++-- {: .query}
+
+   [[Toby Bartels|Toby]]: Does this essentially algebraic theory also have to be finitary?; that is, if it\'s an [[algebraic theory]], then it\'s a [[Lawvere theory]]?  
+   
+[[Mike Shulman|Mike]]: Yes, it certainly has to be finitary.  Possibly the standard meaning of "essentially algebraic" implies finitarity, though, I don't know.
 
    _Toby_:  I wouldn\'t use 'algebraic' that way; see [[algebraic theory]].
-   =--
+
+   [[John Baez]]: How come the first sentence of [this paper](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf) seems to suggest that the category of models of _any_ category with finite limits is locally finitely presentable?  I don't see any 'finitarity' constraint.  Does this contradict what Mike is saying, or am I just confused?
+
+=--
 1. $C$ is equivalent to the category of finite-limit-preserving functors $D \to Set$ for some small category $D$ with finite limits.
 1. $C_{fp}$ has finite colimits, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{fp}^{op},Set]$ identifies $C$ with the category of finite-limit-preserving functors $C_{fp}^{op} \to Set$.
 1. $C$ is the category of models for a finite limit [[sketch]].
