@@ -8,7 +8,7 @@
 
 ## Idea
 
-A _category with duals_ is a [[category]] with [[dual object|duals]].  This exists in several flavours; this list is mostly taken from a recent `categories@mta.ca` post from [[Peter Selinger]].
+A _category with duals_ is a [[category]] where objects and/or morphisms have [[dual object|duals]].  This exists in several flavours; this list is mostly taken from a recent 'categories@mta.ca' post from [[Peter Selinger]].
 
 
 ## Categories with duals for objects
@@ -36,7 +36,7 @@ One might write something about these too, or put them on a separate page.  In t
 ## References
 
 *  Peter Selinger, [`categories` post of 2010-05-15](http://permalink.gmane.org/gmane.science.mathematics.categories/5805);
-*  Peter Selinger, _[A survey of graphical languages for monoidal categories](http://arxiv.org/abs/0908.3347)_ (which I haven\'t read yet).
+*  Peter Selinger, _[A survey of graphical languages for monoidal categories](http://arxiv.org/abs/0908.3347)_ 
 
 
 [[!redirects category with duals]]
