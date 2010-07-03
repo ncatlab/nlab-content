@@ -6,6 +6,10 @@ The structure required on $C$ is often referred to as a [[doctrine]].  The quest
 
 Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
 
+#Definition
+
+See [[internal category]] for the definition.
+
 #Examples#
 
 * [[monoid|Monoids]] can be internalized in the doctrine of [[monoidal category|monoidal categories]].  For example:
