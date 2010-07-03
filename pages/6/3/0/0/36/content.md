@@ -1,4 +1,8 @@
-#Idea#
+# Internalisation
+* table of contents
+{: toc}
+
+## Idea
 
 Many structures whose "traditional" definition takes place in [[Set]] (or some other familiar category) can be formulated "internally" to any other category (or categorical structure) $C$ with "enough structure."
 
@@ -6,11 +10,8 @@ The structure required on $C$ is often referred to as a [[doctrine]].  The quest
 
 Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
 
-#Definition
 
-See [[internal category]] for the definition.
-
-#Examples#
+## Examples
 
 * [[monoid|Monoids]] can be internalized in the doctrine of [[monoidal category|monoidal categories]].  For example:
 
@@ -38,7 +39,10 @@ See [[internal category]] for the definition.
 
 * Pretty much any structure at all in mathematics can be internalized in a [[topos]].  Note, though, that since the [[internal logic]] of a topos is constructive, differences in axiomatization that make no difference classically can result in actual differences in behavior in a topos.  See [[constructive mathematics]] for some examples.  On the other hand, if the topos satisfies the [[axiom of choice]] (and in particular is [[Boolean topos|Boolean]]), then this complication won\'t happen.
 
-#Internalization versus enrichment#
+* Categories themselves can be internalised, as algebras of an [[essentially algebraic theory]] (giving [[strict categories]]), in any [[finitely complete category]]; see [[internal category]].
+
+
+## Internalization versus enrichment
 
 In the case of categories, there is a dichotomy between [[internal category|internal categories]] and [[enriched category|enriched categories]], both of which are ways of generalizing the notion of category.  In some cases, one is a special case of the other, but in general they are incomparable.
 
@@ -46,7 +50,8 @@ As described on this page, __internalization__ is a quite general phenomenon, of
 
 Perhaps from the perspective of this page, internal categories and enriched categories are just two _different_ ways of internalizing the notion of category in two _different_ doctrines?
 
-#General Results#
+
+## General Results
 
 Often, the structure on the ambient category $C$ allowing a certain type of structure to be internalized in it is itself a [[vertical categorification|categorified]] version of that same structure (for example, monoids in monoidal categories).  This is an example of the [microcosm principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html).
 
@@ -60,3 +65,4 @@ A very different sort of general result has to do with the [[internal logic]] of
 [[!redirects Internalization]]
 [[!redirects internal to]]
 [[!redirects internalisation]]
+[[!redirects internalization]]
