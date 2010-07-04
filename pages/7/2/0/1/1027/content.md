@@ -9,9 +9,9 @@
 
 ## Definition
 
-A __fibre product__ or __fiber product__ is a [[product]] in a [[over category|slice category]].  The fibre product of two morphisms is the same as their [[pullback]]; accordingly, a fiber product more than two morphisms is often called a __wide pullback__. 
+A __fibre product__ or __fiber product__ is a [[product]] in a [[over category|slice category]] $\mathcal{C} \downarrow C$.  The fibre product of two morphisms $f: A \to C$, $g: B \to C$ is the same as their [[pullback]]; accordingly, a fiber product more than two morphisms $f_i : A_i \to C$ is often called a __wide pullback__. 
 
-More explicitly, for $f : A \to C$ and $g : B \to C$ two [[morphism]]s in a [[category]] $C$, the fiber product $A \times_C B$
+More explicitly, for $f : A \to C$ and $g : B \to C$ two [[morphism]]s in a [[category]] $\mathcal{C}$, the fiber product $A \times_C B$
 of $A$ with $B$ over $C$ is, if it exists, [[generalized the|the]] [[pullback]]
 
 $$
