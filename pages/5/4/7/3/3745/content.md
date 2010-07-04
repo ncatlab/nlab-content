@@ -79,3 +79,5 @@ Now consider two copies of a channel $\varepsilon: A \to R(A)$.  Coecke's model 
 </svg>
 
 and I'll have to come back to this...
+
+[[!redirects graphical quantum channels]]
