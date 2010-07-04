@@ -1,13 +1,18 @@
 
-#Idea#
+# Finite objects
 * autmatic table of contents goes here
 {:toc}
+
+## Idea
 
 A [[finite object]] in a [[category]] is a generalisation of the notion of [[finite set]] in [[Set|the category of sets]].
 
 As there are already at least five distinct notions of finite set in [[constructive mathematics]], so there must be at least five distinct notions of finite object internal to a topos.  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions.  Only some are mentioned below.
 
-# Definitions
+Also beware that the term 'finite object' is also used in a much more general sense to mean a [[compact object]].
+
+
+## Definitions
 
 The _external_ version of a "finite set" in the strictest sense is usually called a **finite cardinal**.  This is an object $[n]$ which is the pullback of $N_{\lt}\to N$ along some [[global element]] $n:1\to N$.  Here $N$ is a [[natural numbers object]] and $N_{\lt} \hookrightarrow N\times N$ is its strict order relation.  We can then consider [[subobject]]s, [[quotient object]]s, and [[subquotient object]]s of finite cardinals to obtain external versions of subfinite, finitely indexed, and subfinitely indexed sets.
 
@@ -18,6 +23,7 @@ The _internal_ version of a "finite set" is an object $X$ such that "$X$ is a fi
 Likewise, the internal version of "finitely indexed set" is one which is locally a quotient of a finite cardinal, and so on.  An "internally finitely indexed" object is generally called a _$K$-finite object_, and an "internally subfinitely indexed" one is called a _$\tilde{K}$-finite object_.  Since it is still provable in the internal logic that any decidable finitely indexed set is finite, the "internally finite" objects can be characterized as the _decidable $K$-finite objects_.
 
 The decidable $K$-finite objects in any topos also form a Boolean topos whose subobject classifier is $2$; it can be regarded as the "[[stack]] completion" of the topos of finite cardinals.  The category of $K$-finite objects is a topos if and only if every $K$-finite object is decidable, and the category of $\tilde{K}$-finite objects is a topos if (but not only if) the subobject classifier is $K$-finite.
+
 
 ## Examples
 
@@ -45,3 +51,5 @@ _Mike_: Okay (to the move).  To the question, I'm realizing more and more that I
 =--
 
 
+[[!redirects finite object]]
+[[!redirects finite objects]]
