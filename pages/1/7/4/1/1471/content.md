@@ -51,9 +51,11 @@ By Yoneda, $Hom(T,Bun_G) \cong Bun_G(T)$ for all $T$. Moreover, if $H$ is anothe
 
 Articles by [[Behrang Noohi]] on this topic:
 
-* Foundations of Topological Stacks I, [pdf] (http://arxiv.org/pdf/math.AG/0503247.pdf)
-* [Homotopy types of topological stacks] (http://front.math.ucdavis.edu/0808.3799)
-* [Mapping stacks of topological stacks](http://front.math.ucdavis.edu/0809.2373) 
-* K. Behrend, G. Ginot, B. Noohi, P. Xu, [String topology for stacks](http://front.math.ucdavis.edu/0712.3857)
+* _[Foundations of Topological Stacks I](http://arxiv.org/abs/math.AG/0503247)_
+* _[Homotopy types of topological stacks](http://front.math.ucdavis.edu/0808.3799)_
+* _[Mapping stacks of topological stacks](http://front.math.ucdavis.edu/0809.2373)_
+* K. Behrend, G. Ginot, B. Noohi, P. Xu, _[String topology for stacks](http://front.math.ucdavis.edu/0712.3857)_
 
+
+[[!redirects topological stack]]
 [[!redirects topological stacks]]
