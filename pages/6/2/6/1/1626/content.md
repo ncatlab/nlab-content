@@ -51,7 +51,7 @@ There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y
 
 $$Conn(x) \subseteq QConn(x)$$ 
 
-and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below). 
+and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below), but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace]] of the [[real line]]). 
 
 For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
 
@@ -64,7 +64,7 @@ In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0,
 +-- {: .un_remark}
 ###### Warning
 
-It is not generally true that a space is the coproduct (in $Top$) of its connected components. For example, the connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the singletons, but the coproduct of the singleton subspaces carries the discrete topology; another example with this feature is the set of rational numbers with its absolute-value topology (the one induced as a subset of the real line).
+It is not generally true that a space is the coproduct (in $Top$) of its connected components. For example, the connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the singletons, but the coproduct of the singleton subspaces carries the discrete topology; another example with this feature is the set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
 =--
 
 
