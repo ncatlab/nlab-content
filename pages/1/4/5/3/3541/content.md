@@ -8,13 +8,20 @@
 
 ## Idea
 
-In [[quantum mechanics]], a _quantum operation_ is simply a morphism in the category of [[density matrices]], i.e. a linear map that
+Any physical process is supposed to take [[physical state]]s into physical states. If we use [[density matrices]] to describe states in [[quantum mechanics]], then it must be some operation that sends density matrices to density matrices: it should be a [[linear map]] of [[vector space]]s
+
+$$
+  U : Mat(n \times n, \mathbb{C}) \to Mat(k \times k, \mathbb{C})
+$$
+
+that preserves the subset of density matrices, in that it 
 
 * preserves the trace of matrices;
 
 * takes hermitian matrices with non-negative eigenvalues to hermitian matrices with non-negative eigenvalues.
 
 The notion of a quantum operation is built from the [[Stinespring factorization theorem]].
+
 
 ## Definition
 
@@ -133,6 +140,14 @@ This was further developed in
 A recently revised presentation that could use some work, but hopefully serves to encourage further development from the [[nPOV]] is:
 
 * [[Ian Durham]], Categorical quantum channels: Attacking the quantum version of Birkhoff's theorem with category theory ([[apstalk2.pdf:file]])
+
++-- {: .query}
+I guess that this is all right as an introduction to quantum channels, but the connection to category theory really isn\'t made; it\'s almost two disjoint talks interwoven.  (The category theory in there is also very vaguely defined, but maybe it was good enough in context.)  ---[[Toby Bartels]]
+
+I'm not completely opposed to removing it.  The talk was limited to 10 minutes with 2 minutes for questions so I was trying to squeeze a lot in.  But the general approach to quantum channels was ripped straight from the nLab and was a bit different than most attendees were used to.
+
+Anyway, the big reason I put it here is that I thought it might inspire someone to assist with further development of the idea.  --[[Ian Durham]]
+=--
 
 
 [[!redirects quantum channel]]
