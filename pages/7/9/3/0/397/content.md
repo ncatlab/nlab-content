@@ -38,6 +38,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Daniel de França MTd2|Daniel de França]] [[Daniel de Fran?a MTd2|MTd2]]
 * [[Daniel Schäppi]]
 * [[divbyzero|Dave Richeson]]
+* [[David Carchedi|David]] [[David  Carchedi|Carchedi]]
 * [[David Corfield]]
 * [[davidfsnyder|David F. Snyder]]
 * [[david karapetyan|David Karapetyan]]
