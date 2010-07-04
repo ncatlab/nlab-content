@@ -6,13 +6,14 @@
 
 A **connected limit** is a [[limit]] over a [[connected category]]. Similarly, a **connected colimit** is a colimit over a connected category. 
 
+
 ## Connection with wide pullbacks
 
-A basic example of a connected limit is a [[wide pullback]], where the limit is taken over a diagram whose underlying shape is the poset obtained by adjoining a terminal element to a discrete poset. 
+A basic example of a connected limit is a [[wide pullback]], where the limit is taken over a diagram whose underlying shape is the [[poset]] obtained by adjoining a [[top element|terminal element]] to a [[set|discrete poset]]. 
 
 +-- {: .un_lem}
 ######Lemma 
-A category $C$ with all wide pullbacks and a terminal object $1$ is complete. If $C$ is complete and $F: C \to D$ preserves wide pullbacks and the terminal object, then it preserves all limits. 
+A category $C$ with all wide pullbacks and a [[terminal object]] $1$ is [[complete category|complete]]. If $C$ is complete and $F: C \to D$ preserves wide pullbacks and the terminal object, then it preserves all limits. 
 =-- 
 
 +-- {: .proof}
@@ -28,7 +29,7 @@ From products and equalizers, we can get arbitrary limits.
 
 +-- {: .un_thm}
 ######Theorem
-Let $C$ be a complete category, and let $D$ be locally small. Then a functor $G: C \to D$ preserves connected limits if and only if it preserves wide pullbacks. 
+Let $C$ be a complete category, and let $D$ be [[locally small category|locally small]]. Then a functor $G: C \to D$ preserves connected limits if and only if it preserves wide pullbacks. 
 =-- 
 
 +-- {: .proof}
@@ -44,11 +45,13 @@ $$C \stackrel{\hom(d, G-)}{\to} Set/I \stackrel{\sum}{\to} Set$$
 preserves connected limits, for every object $d$. Since this is the same composite as in (1), and since the representables $\hom(d, -)$ jointly reflect arbitrary limits, we conclude that $G$ preserves connected limits. 
 =-- 
 
-In particular, for $C$ complete, a functor $G: C \to D$ that preserves wide pullbacks also preserves equalizers. 
+In particular, for $C$ complete, a functor $G: C \to D$ that preserves wide pullbacks also preserves [[equalizers]]. 
+
 
 ## Related pages
 
 * [[parametric right adjoint]]
 
 
+[[!redirects connected limit]]
 [[!redirects connected limits]]
