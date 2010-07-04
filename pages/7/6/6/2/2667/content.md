@@ -107,7 +107,7 @@ More generally, any finite direct sum of the Schur functors just described may a
 
 There is a category $Schur$ with these more general Schur functors as objects and natural transformations between them as morphisms.  In this article we would like to give a conceputal explanation of this category and some of its generalizations.
 
-For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works.   Even better, the resulting category $\Schur$ has has a nice description in terms of groupoid of finite sets and bijections.  We will find it convenient to work with a skeleton of this groupoid, namely the **permutation groupoid**
+For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works.   Even better, the resulting category $\Schur$ has has a nice description in terms of groupoid of finite sets and bijections.  We will find it convenient to work with a skeleton of this groupoid, namely the [[permutation groupoid]]:
 
 $$ \mathbb{P} = \bigsqcup_{n \ge 0} S_n \, , $$
 
