@@ -10,28 +10,17 @@
 
 ## Idea
 
-In [[quantum mechanics]], a _quantum operation_ is a morphism in the category of [[density matrices]].
-
->Editing the following material:
->a _[[quantum state|state]]_ of a physical system with $n \in \mathbb{N}$ degrees of freedom may be thought of as being encoded by a complex [[hermitian matrix|hermitian]] $n \times n$ [[matrix]] $\rho \in Mat(n\times n, \mathbb{C})$ with non-negative [[eigenvalue]]s and unit [[trace]]. This is called a [[density matrix]].
-
-Any physical process is supposed to take physical states into physical states. Hence it must be some operation that sends density matrices to density matrices: it should be a linear map of [[vector space]]s
-
-$$
-  U : Mat(n \times n, \mathbb{C}) \to Mat(k \times k, \mathbb{C})
-$$
-
-that preserves the subset of density matrices, in that it 
+In [[quantum mechanics]], a _quantum operation_ is a morphism in the category of [[density matrices]], i.e. a linear map that
 
 * preserves the trace of matrices;
 
 * takes hermitian matrices with non-negative eigenvalues to hermitian matrices with non-negative eigenvalues.
 
-The relevance of this concept of **(completely) positive trace-preserving maps (CPTP)** apparently became widely recognized due to the article
+The relevance of this concept of _(completely) positive trace-preserving maps (CPTP)_ apparently became widely recognized due to the article
 
 * Choi, _Completely positive linear maps on complex matrices_ , Linear Algebra and its Applications Volume 10, Issue 3, June 1975, Pages 285-290
 
-The concept was picked up in the physics literature, where (completely) positive trace-preserving maps are referred to as **quantum operations** or **quantum channels**, reflecting the physical interpretation of these maps: 
+The concept was picked up in the physics literature, where (completely) positive trace-preserving maps are referred to as _quantum operations_ or _quantum channels_, reflecting the physical interpretation of these maps: 
 
 Notably in [[quantum information theory]] one thinks of each way to send a signal from one quantum system to another as being modeled by such a map.
 
@@ -184,17 +173,20 @@ This was further developed in
 
 * [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
 
-A recently revised presentation on this:
+A recently revised presentation that could use some work, but hopefully serves to encourage further development from the nPOV is:
 
 * [[Ian Durham]], Categorical quantum channels: Attacking the quantum version of Birkhoff's theorem with category theory ([[apstalk2.pdf:file]])
 
-+-- {: .query}
-I guess that this is all right as an introduction to quantum channels, but the connection to category theory really isn\'t made; it\'s almost two disjoint talks interwoven.  (The category theory in there is also very vaguely defined, but maybe it was good enough in context.)  ---[[Toby Bartels]]
+#Discussion
 
-I'm not completely opposed to removing it.  The talk was limited to 10 minutes with 2 minutes for questions so I was trying to squeeze a lot in.  But the general approach to quantum channels was ripped straight from the nLab and was a bit different than most attendees were used to.
+[[Eric]]: This is material pulled from the above. I hope we can move it somewhere more appropriate (rather than delete it).
 
-Anyway, the big reason I put it here is that I thought it might inspire someone to assist with further development of the idea.  --[[Ian Durham]]
-=--
+>In [[quantum mechanics]], a _[[quantum state|state]]_ of a physical system with $n \in \mathbb{N}$ degrees of freedom may be thought of as being encoded by a complex [[hermitian matrix|hermitian]] $n \times n$ [[matrix]] $\rho \in Mat(n\times n, \mathbb{C})$ with non-negative [[eigenvalue]]s and unit [[trace]]. This is called a [[density matrix]].
+
+>Any physical process is supposed to take physical states into physical states. Hence it must be some operation that sends density matrices to density matrices: it should be a linear map of [[vector space]]s
+$$
+  U : Mat(n \times n, \mathbb{C}) \to Mat(k \times k, \mathbb{C})
+$$
 
 
 [[!redirects quantum channel]]
