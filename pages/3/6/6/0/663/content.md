@@ -16,20 +16,26 @@ As the domains of the operations are given by the solutions to equations, they m
 
 ## Definition
 
-As alluded to above, the most concide and elegant definition is through category theory: 
+As alluded to above, the most concide and elegant definition is through category theory.  The traditional definition is this:
 
 +-- {: .un_def}
 ######Definition 
-An **finitary essentially algebraic theory** is a [[finitely complete category]]. A (set-theoretic) **model** of an essentially algebraic theory $T$ is a [[functor]]  
+An **essentially algebraic theory** or **finite limits theory** is a category that is [[finitely complete category|finitely complete]], i.e., has all finite limits.  A **model** of an essentially algebraic theory $T$ is a [[functor]]  
 
 $$F: T \to Set$$ 
 
-which is left exact, i.e., preserves all finite limits. 
-=-- 
+that is [[left exact]], i.e., preserves all finite limits.  A **homomorphism** of models is a natural transformation
 
-Under this notion, homomorphisms of models are defined to be natural transformations between left exact functors. Models of an essentially algebraic theory $T$ and their homomorphisms form a category $Mod(T) = Lex(T, Set)$. 
+$$ \alpha : F \to F'$$
 
-A more traditonal syntactic definition (following Adamek--Rosicky; see the references below) is as follows: 
+between left exact functors $F, F' : T \to Set$.  Models of an essentially algebraic theory $T$ and the homomorphisms between them form a category $Mod(T) = Lex(T, Set)$.  
+
+More generally, for any category with finite limits $X$, we can define the category of **models of $T$ in $X$**, $Lex(T, X)$, which has left exact functors $F: T \to X$ as objects and natural transformations between these as morphisms.
+=--
+
+However, the finiteness restriction on the limits above is not part of the core concept of an 'essentially algebraic' structure, so one may prefer to call a category with finite limits an **finitary** essentially algebraic theory.  We do this in what follows.
+
+A more traditional syntactic definition (following Adamek--Rosicky; see the references below) is as follows: 
 
 +-- {: .un_def}
 ######Definition
