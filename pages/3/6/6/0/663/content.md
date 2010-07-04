@@ -5,13 +5,14 @@
 
 ## Idea
 
-A mathematical structure is _essentially algebraic_ if its definition involves [[functional relation|partially defined operations]] satisfying equational laws, where the domain of any given operation is a subset where various other operations happen to be equal.  And actual [[algebraic theory]] is one where all operations are total [[function]]s.
+A mathematical structure is _essentially algebraic_ if its definition involves [[functional relation|partially defined operations]] satisfying equational laws, where the domain of any given operation is a subset where various other operations happen to be equal.  An actual [[algebraic theory]] is one where all operations are total [[function]]s.
 
-The most familiar example may be the (strict) notion of [[category]]: a [[small category]] consists of a set $C_0$ of objects, a set $C_1$ of morphisms, source and target maps $s,t : C_1 \to C_0$ and so on, but composition is only defined for pairs of morphisms where the source of one happens to equal the target of the other.
+The most familiar example may be the ([[strict category|strict]]) notion of [[category]]: a [[small category]] consists of a set $C_0$ of objects, a set $C_1$ of morphisms, source and target maps $s,t : C_1 \to C_0$ and so on, but composition is only defined for pairs of morphisms where the source of one happens to equal the target of the other.
 
 Essentially algebraic theories can be understood through [[category theory]] at least when they are finitary, so that all operations have only finitely many arguments.  This gives a generalisation of [[Lawvere theory|Lawvere theories]], which describe finitary [[algebraic theory|algebraic theories]].
 
-As the domains of the operations are given by the solutions to equations, they may be understood using the notion of [[equalizer]].  So, just as a Lawvere theory is defined using a category with finite [[product]]s, an essentially algebraic theory is defined using a category with finite [[limit|limits]] &#8212; or in other words, finite products and also equalizers (from which all other finite limits, including [[pullback]]s, may be derived).
+As the domains of the operations are given by the solutions to equations, they may be understood using the notion of [[equalizer]].  So, just as a Lawvere theory is defined using a category with finite [[product]]s, a finitary essentially algebraic theory is defined using a category with [[finite limits]] &#8212; or in other words, finite products and also equalizers (from which all other finite limits, including [[pullback]]s, may be derived).
+
 
 ## Definition
 
@@ -19,7 +20,7 @@ As alluded to above, the most concide and elegant definition is through category
 
 +-- {: .un_def}
 ######Definition 
-An **essentially algebraic theory** is a [[finitely complete category]]. A (set-theoretic) **model** of an essentially algebraic theory $T$ is a [[functor]]  
+An **finitary essentially algebraic theory** is a [[finitely complete category]]. A (set-theoretic) **model** of an essentially algebraic theory $T$ is a [[functor]]  
 
 $$F: T \to Set$$ 
 
@@ -28,15 +29,15 @@ which is left exact, i.e., preserves all finite limits.
 
 Under this notion, homomorphisms of models are defined to be natural transformations between left exact functors. Models of an essentially algebraic theory $T$ and their homomorphisms form a category $Mod(T) = Lex(T, Set)$. 
 
-A more traditonal syntactic definition (following Adamek-Rosicky; see the references below) is as follows: 
+A more traditonal syntactic definition (following Adamek--Rosicky; see the references below) is as follows: 
 
 +-- {: .un_def}
 ######Definition
-An _essentially algebraic theory_ is a quadruple 
+An __essentially algebraic theory__ is a quadruple 
 
 $$\Gamma = (\Sigma, E, \Sigma_t, Def)$$ 
 
-where $\Sigma$ is a many-sorted [[signature (in logic)|signature]] consisting only of finitary operation symbols, $E$ is a set of $\Sigma$-equations, $\Sigma_t \subseteq \Sigma$ is a set of operation symbols called "total", and $Def$ is a function which assigns, to each operation $\sigma \in \Sigma - \Sigma_t$ of type $\prod_{i \in I} s_i \to s$, a set $Def(\sigma)$ of $\Sigma_t$-equations involving only variables $x_i \in Var(s_i)$. 
+where $\Sigma$ is a many-sorted [[signature (in logic)|signature]] consisting only of operation symbols, $E$ is a set of $\Sigma$-equations, $\Sigma_t \subseteq \Sigma$ is a set of operation symbols called "total", and $Def$ is a function which assigns, to each operation $\sigma \in \Sigma - \Sigma_t$ of type $\prod_{i \in I} s_i \to s$, a set $Def(\sigma)$ of $\Sigma_t$-equations involving only variables $x_i \in Var(s_i)$. 
 
 A (set-theoretic) **model** $M$ of a theory $\Gamma$ assigns to each sort $s$ a set $M(s)$, to each operation symbol $\sigma: \prod_{i \in I} s_i \to s$ of $\Sigma$ a _partial_ function 
 $$M(\sigma): \prod_{i \in I} M(s_i) \to M(s)$$
@@ -53,22 +54,23 @@ $M(\sigma)(a)$ is defined if and only if all the equations in $Def(\sigma)$ are 
 
 Homomorphisms of models $\theta: M \to M'$ are defined in the standard way: a collection of functions $\theta(s): M(s) \to M'(s)$ for each sort of the signature $\Sigma$ which are compatible with the $M(\sigma), M'(\sigma)$ in the evident way. 
 
-The point is that either notion of theory may be used to specify the same category of models, and that 
+The point is that (in the finitary case) either notion of theory may be used to specify the same category of models, and that 
 
 +-- {: .standout}
 
-Categories of models of essentially algebraic theories are precisely equivalent to [[locally presentable category|locally finitely presentable categories]]. These are equivalent to categories of models of finite limit sketches. 
+Categories of models of finitary essentially algebraic theories are precisely equivalent to [[locally presentable category|locally finitely presentable categories]]. These are equivalent to categories of models of finite limit sketches. 
 
 =--
 
+
 ## Examples
 
-* A (multisorted) [[Lawvere theory]] $T$ is the same thing (has the same models) as an essentially algebraic theory in which all operations are total. If $C_T$ is the opposite of the category of finitely presented $T$-algebras, then the category of models is equivalent to $Lex(C, Set)$. 
+* A (multisorted) [[Lawvere theory]] $T$ is the same thing (has the same models) as a finitary essentially algebraic theory in which all operations are total. If $C_T$ is the opposite of the category of finitely presented $T$-algebras, then the category of models is equivalent to $Lex(C, Set)$. 
 
-* As mentioned above, categories are models of an essentially algebraic theory. 
+* As mentioned above, categories are models of a finitary essentially algebraic theory. 
 
 * An equational [[Horn theory]] is essentially algebraic, but not all essentially algebraic theories are equational Horn theories. Perhaps surprisingly, $Cat$ is not the category of models of any equational Horn theory, nor is even the category $Pos$ of posets. See [this paper](ftp://132.206.150.195/pub/barr/pdffiles/horn.pdf) by Barr for a proof. 
 
 
-
+[[!redirects essentially algebraic theory]]
 [[!redirects essentially algebraic theories]]
