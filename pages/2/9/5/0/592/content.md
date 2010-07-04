@@ -145,10 +145,12 @@ $$
 
 and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$. 
 
-The concept of pushout is a special case of the notion of **wide pushout**, where one takes the colimit of a diagram which consists of a set of arrows $\{f_i: c \to a_i\}_{i \in I}$. Thus an ordinary pushout is the case where $I$ has cardinality 2. 
+The concept of pushout is a special case of the notion of **[[cofiber coproduct|wide pushout]]** (compare [[wide pullback]]), where one takes the colimit of a diagram which consists of a set of arrows $\{f_i: c \to a_i\}_{i \in I}$. Thus an ordinary pushout is the case where $I$ has cardinality $2$. 
 
 Note that the concept of pushout is dual to the concept of [[pullback]]: that is, a pushout in $C$ is the same as a pullback in $C^{op}$.
 
 See [[pullback]] for more details.
 
+
+[[!redirects pushout]]
 [[!redirects pushouts]]
