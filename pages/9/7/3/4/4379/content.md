@@ -1,0 +1,1 @@
+See the slides about "downcasing types" at [this link](http://angg.twu.net/math-b.html#unilog-2010) - especially the pages called "Cartesianness (2)" and "Cleavages".
