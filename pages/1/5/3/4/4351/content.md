@@ -56,7 +56,7 @@ This is to be thought of as the hyperring of [[integer]]s modulo the relation "i
 
 Let $\mathbf{S} = \{0,1,-1\}$ be the hyperfield with multiplication induced from $\mathbb{Z}$ and with addition given by 0 being the additive unit and the laws
 
-* $1+1 = \{0\}$;
+* $1+1 = \{1\}$;
 
 * $-1 + -1 = \{-1\}$
 
