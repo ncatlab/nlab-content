@@ -939,17 +939,31 @@ Let $\mathfrak{a}$ be an [[∞-Lie algebroid]], dually equivalently its [[Cheval
 
 +-- {: .un_def }
 ###### Definition
+**(forms on the simplex)**
 
-Write $\exp(\mathfrak{a}) \in [CartSp^{op}, sSet]$ for the object
+Write $\Delta_{Diff} : \Delta \to CartSp \hookrightarrow sPSh(CartSp)$ for the cosimplicial object induced from the standard [[nLab:interval object]] $* \stackrel{0}{\to} \mathbb{R} \stackrel{1}{\leftarrow} 1$ in [[CartSp]], i.e. the object of standard smooth simplices.
+
+Write $\Omega^\bullet_{si}(\Delta^n_{Diff})$ for the [[dg-algebra]] of those differential forms on $\Delta^n_{Diff}$ that have the property that for every $k \in \mathbb{N}$ every $k$-face of $\Delta^n_R$ has an open neighbourhood of its boundary such that the form restricted to that face is constant in the direction perpendicular to that boundary.
+
+=--
+
+
++-- {: .un_def }
+###### Definition
+
+Let $\mathfrak{g}$ be an [[L-∞-algebra]], dually characterized by its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g}) \in dfAlg$.
+
+Write $\exp(\mathfrak{g}) \in [CartSp^{op}, sSet]$ for the object
 
 $$
   U,[n] \mapsto
-  Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(\Delta^n_{Diff}) \otimes C^\infty(U))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet_{si}(\Delta^n_{Diff}) \otimes C^\infty(U))
   \,.
 $$
 
+
 For $n \in \mathbb{N}$ 
-we say the Lie $n$-groupoid universally intergating $\mathfrak{a}$
+we say the Lie $n$-groupoid universally intergating $\mathfrak{g}$
 is the $n$-[[truncated|truncation]] of this object
 
 $$
@@ -957,39 +971,78 @@ $$
   \,.
 $$
 
-Realized objectwise as the $(n+1)$-[[simplicial skeleton|simplicial coskelton]].
+Realized objectwise as the $(n+1)$-[[simplicial skeleton|simplicial coskelton]]
+
+$$
+  U,[n] \mapsto
+  \mathbf{cosk}_{n+1}
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet_{si}(\Delta^n_{Diff}) \otimes C^\infty(U))
+  \,.
+$$
 
 =--
 
 +-- {: .un_remark }
 ###### Remark
 
-The underliny bare [[∞-groupoid]] $\Gamm \exp(\mathfrak{a) \in $ is the [[Sullivan construction]] on $CE(\mathfrak{a})$, familiar from [[rational homotopy theory]]. The fact that this construction may be thought of in terms of [[Lie integration]] was amplified in 
+The generalization of this procedure from $\infty$-Lie algebras $\mathfrak{g}$ to [[∞-Lie algebroid]]s $\mathfrak{a}$ is essentially straightforward, except for a slight technicality: instead of the presheaf construction $U \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), C^\infty(U) \otimes \Omega^\bullet(\Delta^n_{Diff}))$ one needs to consider the construction
+
+$$
+  conc(U \mapsto Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(U \times \Delta^n_{Diff})))
+  \,,
+$$
+
+where $conc$ denotes the operation of passing to [[concrete presheaves]].
+
+=--
+
+
++-- {: .un_remark }
+###### Remark
+
+The bare [[∞-groupoid]] 
+
+$$
+\Gamma \exp(\mathfrak{a) 
+ : [n] \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta_{Diff}^{n}))
+$$ 
+
+underlying the untruncated $\infty$-Lie groupoid integrating $\mathfrak{g}$ is essentiall the [[Sullivan construction]] on $CE(\mathfrak{g})$, familiar from [[rational homotopy theory]]. The fact that this construction may be thought of in terms of [[Lie integration]] was amplified in 
 
 * [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv])
 
-
-There however only this bare $infty$-groupoid underlying the $\infty$-Lie groupoid $\exp(\mathfrak{a})$ is explicitly considered, the focus of the article being on the construciton of small equivalent models.
+There however only this bare $infty$-groupoid underlying the $\infty$-Lie groupoid $\exp(\mathfrak{a})$ is explicitly considered, the focus of the article being on the construction of small equivalent models.
 
 A refinement of this construction to [[internal ∞-groupoid]]s in [[nLab:Banach space]]s was considered in 
 
 * [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv])
 
-The evident refinement of the [[Sullivan construction]] to $\infty$-Lie groupoids as considered here was mentioned around
+The evident refinement of the [[Sullivan construction]] to $\infty$-Lie groupoids as considered here, parameterized over smooth test spaces, was mentioned around
 
 * [[Urs Schreiber|U.S.]], _Differential nonabelian cohomology_ talk at _Higher Structures in Math and Physics_ Lausanne (2008) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Lausanne.pdf))
 
-At that conference [[Urs Schreiber|we]] learned from [[Dmitry Roytenberg]] that he was working with the same idea. 
+and was considered around the same times also by [[Dmitry Roytenberg]]. 
 
 In 
 
 * [[Pavol Severa]], _..._ 
 
-is given a proposall for how to realize Lie differentiation in this context. Below we will see that, in analogy to and generalizing the above examples, the Lie differentiation of $\tau_n \exp(\mathfrak{a})$ is canonically induced by passing to its intrinsic de Rham coefficient object $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$. Below in 
+is given a proposal for how to realize Lie differentiation in this context. Below we will see that, in analogy to and generalizing the above examples, the Lie differentiation of $\tau_n \exp(\mathfrak{g})$ is canonically induced by passing to its intrinsic de Rham coefficient object $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$. Below in 
 [Infinitesimal differential coefficients](#InfinitesimalDifferentialCoefficients) we discuss how these are realized in terms of infinitesimal paths in the $\infty$-Lie groupoid. This is at least in spirit close to &Scaron;evera's construction. A more detailed discussion of the relation should be given somewhere, eventually.
 
 
 =--
+
+
+
+
+
+***
+
+
+
+
+
 
 
 ##### Differential coefficients
