@@ -931,11 +931,10 @@ For the moment see [simplicial group - delooping](http://ncatlab.org/nlab/show/s
 
 For the moment see the discussion about geometric realization further above.
 
+
 #### Lie-integrated $\infty$-Lie groupoids
 
 > under construction
-
-Let $\mathfrak{a}$ be an [[∞-Lie algebroid]], dually equivalently its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$, a [[dg-algebra]].
 
 +-- {: .un_def }
 ###### Definition
@@ -951,9 +950,9 @@ Write $\Omega^\bullet_{si}(\Delta^n_{Diff})$ for the [[dg-algebra]] of those dif
 +-- {: .un_def }
 ###### Definition
 
-Let $\mathfrak{g}$ be an [[L-∞-algebra]], dually characterized by its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g}) \in dfAlg$.
+Let $\mathfrak{g}$ be an [[L-∞-algebra]], dually characterized by its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g}) \in dgAlg$.
 
-Write $\exp(\mathfrak{g}) \in [CartSp^{op}, sSet]$ for the object
+Write $\exp(b \mathfrak{g}) \in [CartSp^{op}, sSet]$ for the object
 
 $$
   U,[n] \mapsto
@@ -1035,10 +1034,104 @@ is given a proposal for how to realize Lie differentiation in this context. Belo
 
 
 
+##### Examples
+
+###### Integration of a Lie algebra
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathfrak{g}$ be an ordinary finite-dimensional [[Lie algebra]] and write $G$ for the corresponding simply connected [[Lie group]].
+
+We have
+
+$$
+  \mathbf{B}G \simeq \tau_1 \exp(b \mathfrak{g})
+$$ 
+
+=--
 
 
-***
++-- {: .proof}
+###### Proof
 
+We observe that $\exp(\mathfrak{g})$ has a single object. 
+A [[k-morphism]] in $\exp(\mathfrak{g})$ is a  flat 
+$\mathfrak{g}$-valued 1-form on $\Delta^k_{Diff}$. Hence morphisms
+of $\tau_1 \exp(\mathfrak{g})$ are 
+smooth $\mathfrak{g}$-valued 1-forms
+on the interval, two of them are connected by a 
+contractibel space of higher cells if they may be 
+interpolated by a flat $\mathfrak{g}$-valued 1-form on the 
+disk. That this collection of morphisms modulo this relation is indeed 
+the simply connected Lie group $G$, with its standard smooth structure,
+is reviewed and discussed in detail in 
+
+* [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackest_
+  ([arXiv](http://arxiv.org/abs/math/0105033))
+
+
+=--
+
+
+###### Integration of $b^n \mathbb{R}$
+
++-- {: .un_def}
+###### Definition
+
+Write $b^n \mathbb{R}$ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a single generator in degree $(n+1)$ and vanishing differential.
+
+Write $e b^n \mathbb{R}$ for the dg-algebra on one generator in degree $(n+1)$ and one in degree $(n+2)$ and the differential taking the former to the latter.
+
+=--
+
+
+
++-- {: .un_lemma}
+###### Lemma
+
+For each $n \in \mathbb{N}$ the diagram
+
+$$
+  \array{
+    \exp(b^n \mathbb{R}) &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \exp(e b^n \mathbb{R}) &\to& \exp(b^{n+1}\mathbb{R})
+  }
+$$
+
+is a pullback diagram in $sPSh(CartSp)$. Moreover, there is a morphism of diagrams
+
+$$
+  \array{
+    \exp(b^{n} \mathbb{R})
+    &\to&
+    \exp(e b^{n} \mathbb{R})
+    &\to& 
+    \exp(b^{n+1} \mathbb{R})
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{B}^n \mathbb{R} &\to& \mathbf{E}\mathbf{B}^n \mathbb{R}
+    &\to&
+    \mathbf{B}^{n+1} \mathbb{R}
+  }
+$$
+
+where the vertical morphisms are acyclic fibrations, induced by sending differential $n$-forms on the $n$-simplex to their integral over that $n$-simplex. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The key fact underlying this is that Aa closed smooth $n$-form on the $n$-sphere may be extended smoothly to a closed $n$-form on the $(n+1)$-ball precisely if its integral over the sphere vanishes. 
+
+From this it follows that also every closed $n$-form on the $k$-sphere for $k \gt n$ may be extended as a closed $n$-form to the $(n+1)$-ball. The same holds for smooth families of forms. This implies that $\exp(b^n \mathbb{R}) \to \mathbf{B}^n \mathbb{R}$ is an acyclic fibration for all $n$.
+
+=--
 
 
 
