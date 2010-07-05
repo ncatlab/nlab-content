@@ -39,6 +39,8 @@ The definition is due to [[Peter Freyd]] in apparently unpublished work.  It has
 * [[Claudio Hermida|Hermida]] and Mateus, "Paracategories II: Adjunctions, fibrations and
 examples from probabilistic automata theory"
 
+ see also [[Aut]]
+
 [[!redirects paracategories]]
 [[!redirects precategory]]
 [[!redirects precategories]]
