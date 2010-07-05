@@ -183,8 +183,8 @@ and
 
 * Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part II: Spectral theory, self adjoint operators in Hilbert space." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47002&format=complete))
 
+ see also [[Ban]]
 
-[[!redirects Ban]]
 [[!redirects Banach spaces]]
 [[!redirects normed vector space]]
 [[!redirects pseudonormed vector space]]
