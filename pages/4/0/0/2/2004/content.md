@@ -36,3 +36,5 @@ This encompasses for example the theory of (op)monoidal monads and corresonding 
 [[!redirects Eilenberg-Moore object]]
 [[!redirects Eilenberg–Moore object]]
 [[!redirects Eilenberg--Moore object]]
+[[!redirects Alg(T)]]
+[[!redirects T-Alg]]
