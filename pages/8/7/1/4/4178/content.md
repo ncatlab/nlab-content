@@ -36,10 +36,7 @@ The definition is due to [[Peter Freyd]] in apparently unpublished work.  It has
 
 * [[Claudio Hermida|Hermida]] and Mateus, "Paracategories I: Internal Paracategories and Saturated Partial Algebras"
 
-* [[Claudio Hermida|Hermida]] and Mateus, "Paracategories II: Adjunctions, fibrations and
-examples from probabilistic automata theory"
-
- see also [[Aut]]
+* [[Claudio Hermida|Hermida]] and Mateus, "Paracategories II: Adjunctions, fibrations and examples from probabilistic automata theory"
 
 [[!redirects paracategories]]
 [[!redirects precategory]]
