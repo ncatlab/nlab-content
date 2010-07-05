@@ -37,7 +37,7 @@ In fact, we have:
 Boolean rings and Boolean algebras are equivalent.
 =--
 
-This extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$.
+This extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$. The category of boolean rings is [[BooRng]].
 
 Here is a very convenient result: although a Boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
