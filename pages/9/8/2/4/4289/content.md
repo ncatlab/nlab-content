@@ -1,4 +1,4 @@
-The __Croatian Black Hole School__ is a school inspired by the traditional Modave school in Belgium takes place on 21--25 June 2010 at [Trpanj](http://hr.wikipedia.org/wiki/Trpanj), on the peninsula Pelje&#353;ac in southern Croatia. The lectures and housing for most people were organized at Pansion Lovi&#353;ka whose personel was very kind and helpful. The organizer was [[Jarah Evslin]] and the main topic is the physics of [[black holes]], both theoretical and observational. 
+The __Croatian Black Hole School__ is a school inspired by the traditional Modave school in Belgium&#269; it took place on 21--25 June 2010 at [Trpanj](http://hr.wikipedia.org/wiki/Trpanj), on the peninsula Pelje&#353;ac in southern Croatia. The lectures and housing for most people were organized at Pansion Lovi&#353;ka whose personel was very kind and helpful. The organizer was [[Jarah Evslin]] and the main topic is the physics of [[black holes]], both theoretical and observational. 
 
 The official web page is [http://antimodave.jimdo.com](http://antimodave.jimdo.com).
 
