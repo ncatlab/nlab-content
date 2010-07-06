@@ -4,7 +4,7 @@
 
 ## Definition 
 
-Let $R$ be an ordered field. A **semialgebraic set** is a subset of a product space $R^n$ that is a Boolean combination of sets defined by polynomial inequalities: 
+Let $R$ be an [[order]]ed [[field]]. A **semialgebraic set** is a subset of a product space $R^n$ that is a Boolean combination of sets defined by polynomial inequalities: 
 
 $$\{(x_1, \ldots, x_n) \in R^n: p(x_1, \ldots, x_n) \geq 0\}$$ 
 
