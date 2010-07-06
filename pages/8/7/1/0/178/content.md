@@ -185,7 +185,7 @@ $$
   \infty LieGrpd
 $$
 
-for the composite [[adjunction]]. For $X,A \in \infty LieGrpd$ we call $\mathbf{\Pi}$ the **Lie [[schreiber:homotopy ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}A$ the **flat $\infty$-Lie groupoid** of $A$.
+for the composite [[adjunction]]. For $X,A \in \infty LieGrpd$ we call $\mathbf{\Pi}_{inf}$ the **Lie [[schreiber:path ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}_{inf}A$ the **flat $\infty$-Lie groupoid** of $A$.
 
 For $X \in \infty Grpd$ we write $\mathbf{\Pi}_{dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}(X)$, i.e. for the [[pushout]]
 
@@ -1140,30 +1140,194 @@ From this it follows that also every closed $n$-form on the $k$-sphere for $k \g
 
 ##### Differential coefficients
 
-Above we have defined for every [[∞-Lie algebroid]] $\mathfrak{a}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{a})$ _integrating_ it. Now we consider the corresponding $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$.
+Above we have defined for every [[L-∞-algebra]] $\mathfrak{g}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{g})$ _integrating_ it. Now we consider the corresponding de Rham $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{g})$.
 
-+-- {: .un_prop }
-###### Proposition
-
-
-We have $\mathbf{\flat}(\tau_n \exp(\mathfrak{a}))$
-given by
+First we produce a resolution of the underlying bare $\infty$-groupoid
 
 $$
-  U,[n] \mapsto \tau_n Hom_{dgAlg}(CE(\mathfrak{a}), \Omega^\bullet(\Delta^n_{Diff})
-  \otimes \Omega^\bullet(U))
-$$
-
-and $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{a})$
-given by
-
-$$
-  U,[n] \mapsto \tau_n Hom_{dgAlg}(CE(\mathfrak{a}), 
-  \Omega^\bullet(\Delta^n_{Diff})
-  \otimes 
-  \Omega^{\bullet \geq 1}(U))
+  \mathbf{\flat}\exp(\mathfrak{g}) : (U,[n]) \mapsto 
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^n_{Diff}))
   \,.
 $$
+
++-- {: .un_def }
+###### Definition
+
+Write $\exp(\mathfrak{g}) Bund_{flat}$ for the simplicial presheaf given by
+
+$$
+  \exp(\mathfrak{g})Bund_{flat}
+  :
+  (U,[n]) \mapsto
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^n_{Diff}))
+  \,.
+$$
+
+=--
+
+Here and in the following it is understood that diferential forms on a space that contains a $\Delta^n_{Diff}$ as a factor have _sitting instants_ : for every $k$ and every $k$-face of $\Delta^n_{Diff}$ there is a neighbourhood of the boundary of that face on which the form is constant in the direction perpendicular to that boundary.
+
+
+
+
++-- {: .un_lemma }
+###### Lemma
+
+The canonical morphism
+
+$$
+  \mathbf{\flat}\exp(\mathfrak{g})
+  \to
+  \exp(\mathfrak{g}) Bund_{flat}
+$$
+
+is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
+
+=--
+
+
+Below we use this to factor the inclusion $\mathbf{\flat} \exp(\mathfrak{g}) \to \exp(\mathfrak{g})$ as $  \mathbf{\flat}\exp(\mathfrak{g})
+ \stackrel{\simeq}{\to} \exp(\mathfrak{g}) Bund_{flat} \to \exp(\mathfrak{g})$ with the last morphism being a fibration.
+
++-- {: .proof}
+###### Proof
+
+The morphism of simplicial presheaves is on each object $U$ the morphism of simplicial sets
+
+$$
+  \alpha(U)
+  :
+  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
+  \to
+  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet \times U))
+$$
+
+which is given degreewise by postcomposition with the morphisms of dg-algebras
+$\Omega^\bullet(\Delta^n_{Diff}) \to \Omega^\bullet(\Delta^n_{Diff})\otimes \Omega^\bullet(U)$ that sends $\omega$ to $\omega \otimes 1$.
+
+To show that for fixed $U$ this is a weak equivalence in the standard [[model structure on simplicial sets]] we produce objectwise a left inverse 
+
+$$
+  F_U
+  :
+  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet \times U))
+  \to
+  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
+$$
+
+and show that this is an acyclic fibration of simplicial sets. The statement then follows by 2-out-of-3.
+
+We take $F_U$ to be given by evaluation at $0 \in U$, i.e. by postcomposition with the morphisms
+
+$$
+  \Omega^\bullet(\Delta^n \times U)
+  \stackrel{Id \times 0^*}{\to}
+  \Omega^\bullet(\Delta^n \times * )
+  =
+  \Omega^\bullet(\Delta^n)
+  \,.
+$$
+
+
+Recall that the morphism $F_U$ will be an acyclic [[Kan fibration]] precisely if all diagrams of the form
+
+$$  
+  \array{
+    \partial \Delta[n] &\to&
+    Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet \times U))
+    \\
+    \downarrow && \downarrow^\mathrlap{F_U}
+    \\
+    \Delta[n]
+    &\to&
+    Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
+  }
+$$
+
+have a lift. Since the differential forms on the simplices have sitting instances, we may for convenience equivalently reformulate this in terms of spheres as follows:
+
+for every morphism $CE(\mathfrak{g}) \to \Omega^\bullet(D^n)$ and morphism $CE(\mathfrak{g}) \to \Omega^\bullet(U \times S^{n-1})$ such that the diagram
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\to& \Omega^\bullet(U \times S^{n-1})
+    \\
+    \downarrow && \downarrow
+    \\
+    \Omega^\bullet(D^n) &\to& \Omega^\bullet(S^{n-1})
+  }
+$$
+
+commutes, this may be factored as
+
+$$
+  \array{
+   CE(\mathfrak{g})
+   \\
+   & \searrow
+   \\
+   &&\Omega^\bullet(U \times D^n)
+   &\to& \Omega^\bullet(U \times S^{n-1})
+    \\
+    &&\downarrow && \downarrow
+    \\
+    &&\Omega^\bullet(D^n) &\to& \Omega^\bullet(S^n)
+  }
+  \,.
+$$
+
+This factorization we now construct. 
+
+Let first $f : [0,1] \to [0,1]$ be any smoothing function, i.e. a [[smooth function]] which is non-decreasing, onto, and constant in a neighbourhood of the boundary. Define a smooth map
+
+$$
+  U \times [0,1] \to U 
+$$
+
+by 
+
+$$
+  (u,\sigma) \mapsto u \cdot f(1-\sigma)
+  \,,
+$$
+
+where we use the multiplicative structure on the [[Cartesian space]] $U$. This function is the identity at $\sigma = 0$ and is the constant map to the origin at $\sigma = 1$. It exhibits a smooth contraction of $U$.
+
+Pullback of differential forms along this map produces a morphism
+
+$$
+  \Omega^\bullet(U \times S^{n-1}) 
+  \to 
+  \Omega^\bullet(U \times S^{n-1} \times [0,1])
+$$
+
+which is such a form $\omega$ is sent to a form which in a neighbourhood $(1-\epsilon,1]$ of $1 \in [0,1]$ is constant along $(1-\epsilon,1] \times U$ on the value $(0 \otimes Id_{S^{n-1}})^* \omega$. 
+
+We can then glue to the morphism
+
+$$
+  CE(\mathfrak{g}) \to
+  \Omega^\bullet(U \times S^{n-1})
+  \to
+  \Omega^\bullet(U \times [0,1] \times S^{n-1})
+$$
+
+the morphism
+
+$$
+  CE(\mathfrak{g}) \to \Omega^\bullet(D^n)
+  \to
+  \Omega^\bullet(U \times \{1\} \times D^n)
+$$
+
+by smoothly identifying the union $[0,1] \times S^{n-1} \coprod_{S^{n-1}} D^n$ with another copy of $D^n$ to obtain in total a morphism
+
+$$
+  CE(\mathfrak{g}) \to \Omega^\bullet(U \times D^n)
+$$
+
+with the desired properties.
+
 
 =--
 
@@ -1743,7 +1907,7 @@ in $\infty Grpd$\,.
 
     It has a model by a 
     [[paracompact space|paracompact]] [[diffeological space|diffeological]]
-    [[strict 2-goup]] $[\hat \Omega G \to P G]$.
+    [[strict 2-group]] $[\hat \Omega G \to P G]$.
 
   * [[fivebrane 6-group]]
 
