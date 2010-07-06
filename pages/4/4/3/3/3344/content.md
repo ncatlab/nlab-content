@@ -1,4 +1,4 @@
-In 1980-s, [[Grothendieck]] introduced test categories to make the variants of the [[homotopy theory]] based on the usage if combinatorial models with some kind of cell structure (e.g. simplicial, cubical and cellular sets) independent of a particular combinatorial model.
+In 1980-s, [[Grothendieck]] in _Pursuing Stacks_ introduced test categories to make the variants of the [[homotopy theory]] based on the usage if combinatorial models with some kind of cell structure (e.g. simplicial, cubical and cellular sets) independent of a particular combinatorial model.
 
 Given any small category $\mathcal{C}$, one considers $\mathcal{C}$-sets, i.e. contravariant functors from $\mathcal{C}$ to $Set$. Given an object $c\in C$, one considers the [[representable functor]] $Hom_{\mathcal{C}}(-,c)=:\Delta^c$. If $X:\mathcal{C}\to Set$ is a $\mathcal{C}$-set, the elements of $X(c)$ are called the $c$-cells. By Yoneda, they correspond to the natural transformations $\Delta^c\to X$. Let the **cell category** of $X$, denoted $i_{\mathcal{C}} X$, be the full subcategory of the [[overcategory]] $\mathcal{C}Set/X$ whose objects are the transformations of the form $\Delta^c\to X$. The correspondence $X\mapsto i_{\mathcal{C}}X$ extends to a functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ which has a right adjoint $i_{\mathcal{C}}^*:Cat\to\mathcal{C}Set$ whose object part is given by the formula
 
@@ -21,6 +21,13 @@ Then one proceeds with $\mathcal{A}$-sets.
 
 If $\mathcal{A}$ is a test category and $\mathcal{C}$ any small category whose classifying space is contractible (which may or may not be a test category itself), then their cartesian product $\mathcal{A}\times\mathcal{C}$ is a test category. 
 
+* [[Georges Maltsiniotis]], _La th&#233;orie de l'homotopie de Grothendieck_, Ast&#233;risque, 301, pp. 1-140, (2005) (see
+[html](http://people.math.jussieu.fr/~maltsin/textes.html))
+
+* [[Alexandre Grothendieck]], _Pursuing stacks_, [djvu](http://people.math.jussieu.fr/~maltsin/groth/ps/Pursuing_Stacks.djvu)
+
 * J. F. Jardine, _Categorical homotopy theory_, Homot. Homol. Appl. __8__ (1), 2006, pp.71&#8211;144, [pdf](http://www.intlpress.com/HHA/v8/n1/a3/v8n1a3.pdf)
 
 * D-C. Cisinski, [[joyalscatlab:Les préfaisceaux comme type d'homotopie]], Asterisque __308__.
+
+[[!redirects test categories]]
