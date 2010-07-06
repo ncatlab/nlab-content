@@ -1,24 +1,24 @@
-The __Croatian Black Hole School__ is a school inspired by the traditional Modave school in Belgium takes place on 21--25 June 2010 at [Trpanj](http://hr.wikipedia.org/wiki/Trpanj), on the Pelje&#353;ac Peninsula in southern Croatia. The organizer is [[Jarah Evslin]] and the main topic is the physics of [[black holes]], both theoretical and observational. 
+The __Croatian Black Hole School__ is a school inspired by the traditional Modave school in Belgium takes place on 21--25 June 2010 at [Trpanj](http://hr.wikipedia.org/wiki/Trpanj), on the peninsula Pelje&#353;ac in southern Croatia. The lectures and housing for most people were organized at Pansion Lovi&#353;ka whose personel was very kind and helpful. The organizer was [[Jarah Evslin]] and the main topic is the physics of [[black holes]], both theoretical and observational. 
 
-The web page is [here](http://antimodave.jimdo.com).
+The official web page is [http://antimodave.jimdo.com](http://antimodave.jimdo.com).
 
 Lecture series:
 
 * Chethan Krishnan (SISSA): Quantum field theory and black holes 
 
-* Gaston Giribet (Buenos Aires):  Black hole physics and AdS3/CFT2 correspondence. (This includes Black hole physics in three-dimensional massive gravity, applications to four-dimensions (i.e. Kerr/CFT correspondence) and other topics (e.g. Lifshitz black holes).)
+* [Gaston Giribet](http://www.df.uba.ar/users/gaston) (Buenos Aires):  Black hole physics and AdS3/CFT2 correspondence. (This includes Black hole physics in three-dimensional massive gravity, applications to four-dimensions (i.e. Kerr/CFT correspondence) and other topics (e.g. Lifshitz black holes).)
 
-* John Wang (Niagara Univ and Buffalo)
+* [John Wang](http://www.niagara.edu/chemistry-faculty/showfaculty/133) (Niagara Univ and Buffalo) Introduction into the physics of black holes
 
-* Dieter Van den Bleeken (Rutgers): BPS black holes and the attractor mechanism
+* [Dieter Van den Bleeken](http://www.physics.rutgers.edu/people/pips/vandenBleeken.html) (Rutgers): BPS black holes and the attractor mechanism
 
-* Mario Pasquato (Pisa): Intermediate mass black holes - observational challenges
+* [[Mario Pasquato]] (Pisa): Intermediate mass black holes - observational challenges
 
-* Malcolm Fairbairn (King's College):  Cosmology, astrophysics and astrophysical black goles 
+* [Malcolm Fairbairn](http://www.kcl.ac.uk/schools/pse/physics/people/academic/fairbairn) (King's College):  Cosmology, astrophysics and astrophysical black goles 
 
-* Holger Nielsen: Black hole information paradox
+* Holger Nielsen: discussion sessions -- Black hole information paradox
 
-Key words and related entries: AdS3/CFT2, Hawking radiation, [[asymptotic isometry]], [[intermediate mass black hole]], [[cosmology]], [[string theory]], horizon, information paradox, [[supersymmetry]], [[supergravity]], [[observing black holes]]
+Key words and related entries: AdS3/CFT2, Penrose diagram, Hawking radiation, [[asymptotic isometry]], [[intermediate mass black hole]], [[cosmology]], [[string theory]], horizon, information paradox, [[supersymmetry]], [[supergravity]], [[observing black holes]]
 
 [[!redirects Croatian Black Hole School]]
 [[!redirects Croatian black hole school]]
