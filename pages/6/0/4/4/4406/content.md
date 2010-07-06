@@ -17,3 +17,17 @@ Real closed fields can be equivalently characterized by any of the following pro
 1. The intermediate value theorem holds for all polynomials with coefficients in $F$. 
 
 (More to be added.) 
+
+## Examples 
+
+1. The real numbers form a real closed field. 
+
+1. Real [[algebraic number]]s form a real closed field. 
+
+1. [[surreal number|Surreal numbers]] form a (large) real closed field. 
+
+1. Any [[o-minimal structure|o-minimal]] ordered ring structure $R$ is real closed. 
+
+1. Given an o-minimal ordered ring $R$, the ring of germs at infinity of definable functions $R \to R$ in any o-minimal expansion of $(R, 0, 1, +, -, \cdot, \lt)$ form a real closed field. 
+
+Other examples? 
