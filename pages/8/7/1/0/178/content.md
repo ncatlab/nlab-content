@@ -2,7 +2,7 @@
 
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
-***^
+***
 [[!include (infinity,1)-topos - contents]]
 </div>
 
@@ -781,12 +781,13 @@ The diagram
 
 $$
   \array{
-     \Omega^1_{flat}(-,\mathfrak{g) &\to&
-     \Xi[C^\infty(-,G)\times \Omega^1_{flat}(-,G) \stackrel{\t}{\to} \Omega^1_{flat}(-,\mathfrak{g})]
+     \Omega^1_{flat}(-,\mathfrak{g}) 
+     &\to&
+     \Xi[C^\infty(-,G)\times \Omega^1_{flat}(-,G) \stackrel{\to}{\to} \Omega^1_{flat}(-,\mathfrak{g})]
      \\
      \downarrow && \downarrow
      \\
-     * &\to& \Xi[C^\infty(-,G) \stackrel{\to}}{\to} *]
+     {*} &\to& \Xi[C^\infty(-,G) \stackrel{\to}{\to} *]
   }
 $$
 
@@ -855,7 +856,7 @@ As above.
 
 ##### Differential coefficients
 
-Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[dif^^ferential crossed module]] corresponding to the Lie [[strict 2-group]] $(G_2 \to G_1)$, regarded as an [[L-∞-algbra]]. Write $CE(\mathfrak{g}_2 \to \mathfrak{g}_1)$ for the corresponding [[Chevalley-Eilenberg algebra]].
+Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[differential crossed module]] corresponding to the Lie [[strict 2-group]] $(G_2 \to G_1)$, regarded as an [[L-∞-algebra]]. Write $CE(\mathfrak{g}_2 \to \mathfrak{g}_1)$ for the corresponding [[Chevalley-Eilenberg algebra]].
 
 
 +-- {: .un_prop }
@@ -864,11 +865,9 @@ Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[dif^^fe
 The $\infty$-Lie groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is represented in $[CartSp^{op}, sSet]$ by
 
 $$
-  \begin{aligned}
-    V \mapsto & \infty LieAlgd(T V , [\mathfrak{g}_2 \to \mathfrak{g}_1] )
-    \\
-    Hom_{dgAlg}(CE(\mathfrak{g}_2 \to \mathfrak{g}_1), \Omega^\bullet(V)\otimes N^\bullet(C^\bullet(\Delta[\bullet])))
-  \end{aligned}  
+    V \mapsto 
+    Hom_{dgAlg}(CE(\mathfrak{g}_2 \to \mathfrak{g}_1), 
+    \Omega^{\bullet \geq 1}(V)\otimes N^\bullet(C^\bullet(\Delta[\bullet])))
   \,.
 $$
 
@@ -1002,8 +1001,9 @@ where $conc$ denotes the operation of passing to [[concrete presheaves]].
 The bare [[∞-groupoid]] 
 
 $$
-\Gamma \exp(\mathfrak{a) 
- : [n] \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta_{Diff}^{n}))
+\Gamma \exp(\mathfrak{a} )
+ : [n] \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), 
+    \Omega^\bullet(\Delta_{Diff}^{n}))
 $$ 
 
 underlying the untruncated $\infty$-Lie groupoid integrating $\mathfrak{g}$ is essentiall the [[Sullivan construction]] on $CE(\mathfrak{g})$, familiar from [[rational homotopy theory]]. The fact that this construction may be thought of in terms of [[Lie integration]] was amplified in 
@@ -1687,26 +1687,6 @@ in $\infty Grpd$\,.
 
 =--
 
-### Differential coefficients {#InfinitesimalDifferentialCoefficients}
-
-Let $G$ be one of the $\infty$-groups considered above
-($G,\mathbf{B}^n U(1), [G_2 \to G_1]$ ) regarded now naturally as an object of $\infty SDGrpd$.
-
-
-+-- {: .un_prop}
-###### Proposition
-
-We have
-
-$$
-  \mathbf{\flat}_{dR} \mathbf{B}G
-  \simeq
-  \mathbf{\flat}_{inf} \mathbf{B}\mathfrak{g}
-$$
-
-=--
-
-(...)
 
 
 ## Examples
