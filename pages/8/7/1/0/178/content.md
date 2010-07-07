@@ -5,7 +5,7 @@
 ***
 [[!include (infinity,1)-topos - contents]]
 </div>
-^
+
 
 
 #Contents#
@@ -1138,9 +1138,11 @@ From this it follows that also every closed $n$-form on the $k$-sphere for $k \g
 
 
 
-##### Differential coefficients
+##### Differential coefficients {#DifferentialCoefficientsOfLieInt}
 
 Above we have defined for every [[L-∞-algebra]] $\mathfrak{g}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{g})$ _integrating_ it. Now we consider the corresponding de Rham $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{g})$.
+
+Recall that in the above examples we saw for $G$ a Lie $\infty$-group that the underlying discrete Lie $\infty$-groupoid $\mathbf{\flat} \mathbf{B}G$ is resolved by the presheaf $G TrivBund_{flat}$ of trivial $G$-principal $\infty$-bundles with flat connection. From this resolution the de Rham object $\mathbf{\flat}_{dR} \mathbf{B}G$ is obtained as an ordinary pullback of presheaves. These statements we now produce in the full generality of an $\infty$-Lie group obtained from the integration of an $L_\infty$-algebra.
 
 First we produce a resolution of the underlying bare $\infty$-groupoid
 
@@ -1385,9 +1387,13 @@ $$
 extending the lift. From these lifts all the required lifts are obtained by precomposition with some evident smooth retractions.
 
 
-The idea of the proof is that the lifts in question are obtained from solving differential equations with boundary conditions, and exist due to the existence of these solutions. Since the idea is simple but the system of differential equations can be big and involved, we write out the construction in simple cases and trust that the generalization is evident.
+The idea of the proof is that the lifts in question are obtained from solving differential equations with boundary conditions, and exist due to the existence of solutions of first order systems of partial differential equations and the Bianchi identities for flat $L_\infty$-algebra valued forms. 
 
-To warm up, consider the case where $\mathfrak{g} = b^n \mathfrak{u}(1)$, i.e. where $CE(\mathfrak{g})$ is given by a single generator in degree $n+1$ and vanishing differential. First $n = 0$.
+
+**1st case: $\mathfrak{g} = \mathfrak{u}(1)$**
+
+To warm up, consider the simplest case where $\mathfrak{g} = \mathfrak{u}(1)$.
+
 
 Then a morphism $C(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1]) \otimes C^\infty(U)$ is an element $A_v(u) d v + A_\sigma(u) d \sigma $ that satisfies
 
@@ -1402,16 +1408,22 @@ $$
   \,.
 $$
 
-To lift this to a morphism $CE(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1])$ that restricts to the former for $\sigma = 0$ we need to add a term $A_u(u,\sigma) d u$. This needs to satisfy the differential equation
+To lift this to a morphism $CE(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1])$ that restricts to the former for $\sigma = 0$ we need to add a term $A_u(u,\sigma) d u$. That satisfies the differential equations
 
 $$
   \partial_\sigma A_u = \partial_u A_\sigma
+$$
+
+and 
+
+$$
+  \partial_v A_u = \partial_u A_v
   \,.
 $$
 
-For the given initial value at $\sigma = 0$ this has a unique solution and defines $A_u$ on all of $[0,1]$.
+The first one already uniquely defines and fixes $A_u$: since the value of $A_0$ at $\sigma = 0$ is given, this differential equation has a unique solution along $\sigma \in [0,1]$. 
 
-For this to be a consistent solution it must also be true that
+So it remains to check that this unique solution to the first equation also solves the second
 
 $$
   \partial_v A_u = \partial_u A_v
@@ -1435,68 +1447,162 @@ $$
 
 so that indeed this is equal. This constitutes the required lift.
 
-For a general Lie algebra $\mathfrak{g}$ with dual basis $\{t^a\}$ and structue constants $C^a{}_{b c}$ we get the analogous discussion with structure constant terms thrown in:
+**2nd case: $\mathfrak{g} an arbitrary Lie algebra$**
 
-the original element is a collection of 1-forms $A^a_v(u) d v + A^a_\sigma(u) d \sigma $ satisfying
+Now let $\mathfrak{g}$ be an arbitrary Lie algebra. Choose a dual basis $\{t^a\}$ and structue constants $C^a{}_{b c}$. We get a discussion analogous to the above with structure constant terms thrown in:
+
+the original element is a collection of 1-forms $A^a_v d v + A^a_\sigma d \sigma $ satisfying
 
 $$
-  \partial_\sigma A_v^a = \partial_v A_\sigma + C^a{}_{b c} A_\sigma^b \wedge A_v^c
+  \partial_\sigma A_v^a = \partial_v A_\sigma 
+   - C^a{}_{b c} A_v^b A_\sigma^c
   \,.
 $$
 
-We lift by adding a term $A_u^a d u$ that solves the differential equation
+We lift by adding a term $A_u^a d u$ that is uniquely fixed by the condition that it solves the differential equation
 
 $$
-  \partial_\sigma A_u = \partial_u A_\sigma + C^a{}_{b c} A_\sigma^b \wedge A_u^c
+  \partial_\sigma A_u = \partial_u A_\sigma 
+  - C^a{}_{b c} A_\sigma^b  A_u^c
+$$
+
+for given boundary value at $\sigma = 0$.
+
+We need to show that the lift found this way also satisfies the equation
+
+$$
+  F_{v u}^a
+  :=
+  \partial_v A^a_u - \partial_u A^a_v + C^a{}_{b c} A_v^b A_u^c = 0
   \,.
 $$
 
-Again, for the given boundary condition at $\sigma = 0$ this has a unique solution. And since the boundary lift at $\sigma = 0$ satisfies
+By assumption, this is true at $\sigma = 0$. We now show that the $\sigma$-derivative of this expression satisfies the Binachi-type equation
 
 $$
-  \partial_v A_u(\sigma = 0) = \partial_u A_v(\sigma = 0)
-  + C^a{}_{b c} A_v^b(\sigma = 0) \wedge A_u^c(\sigma = 0)
-$$
-
-it is sufficient to check that we have equality of derivatives
-
-$$
-  \partial_\sigma \partial_v A_u 
-  = \partial_\sigma \partial_u A_v
-  + 
-  C^a{}_{b c} \partial_\sigma A_v^b 
-  \wedge A_u^c
-  +
-  C^a{}_{b c} A_v^b 
-  \wedge \partial_\sigma A_u^c
+  \partial_\sigma F^a_{v u} 
+  = 
+  C^a{}_{b c} A^b_\sigma F^c_{v u} 
   \,.
 $$
 
-The left hand is
+A solution to this differential equation with initial value 0 is $F^a_{v u} = 0$. Since this solution is guaranteed to be unique, we will have shown our claim.
+
+Now compute:
 
 $$
-  \partial_v \partial_\sigma A_u = 
-  \partial_v \partial_u A_\sigma 
-  + 
-  \partial_v(
-  C^a{}_{b c} A_\sigma^b \wedge A_u^c)
-$$
+  \begin{aligned}
+    \partial_\sigma F^a_{u v} 
+    &:=
+    \partial_\sigma \partial_u A^a_v -
+    \partial_\sigma \partial_v A^a_u
+    +
+    \partial_\sigma C^a{}_{b c} A_u^b A^c_v
+    \\
+    & =
+    \partial_u \partial_\sigma  A^a_v -
+    \partial_v \partial_\sigma  A^a_u
+    +
+    \partial_\sigma C^a{}_{b c} A_u^b \wedge A^c_v
+    \\
+    &=
+    \partial_u 
+    (\partial_v A^a_\sigma - C^a{}_{b c} A^b_\sigma A^c_v)
+    -
+    \partial_v 
+    (\partial_u A^a_\sigma - C^a{}_{b c} A^b_\sigma A^c_u)
+    +
+    \partial_\sigma C^a{}_{b c} A_u^b A^c_v
+    \\
+    & =
+    \partial_u C^a{}_{b c} A^b_\sigma A^c_v
+    -
+    \partial_v C^a{}_{b c} A^b_\sigma A^c_u
+    +
+    \partial_\sigma C^a{}_{b c} A_u^b A^c_v    
+    \\
+    & =
+    C^a{}_{b c} A^b_\sigma  (\partial_u A^c_v - 
+    \partial_v A^c_u)
+    +
+    C^a{}_{b c} 
+     (\partial_\sigma A^b_u - C^b{}_{d e} A^d_u A^e_\sigma)
+     A^c_v
+    -
+    C^a{}_{b c} 
+     (\partial_\sigma A^b_\nu - C^b{}_{d e} A^d_v A^e_\sigma)
+     A^b_u
+   + 
+   \partial_\sigma C^a{}_{b c} A^b_v A^c_u
+   \\
+   & =
+   C^a{}_{b c} A^c_\sigma F^b_{u v}   
+\end{aligned}
+  \,.
+$$  
 
-whereas the right hand is 
+Here in the last step we use the [[Jacobi identity]]
 
 $$
-  \partial_u \partial_\v A^a_\sigma
+  C^a{}_{b c} C^b{}_{d e}
   +
-  \partial_u(C^a{}_{^b c} A^b_v \wedge A^c_\sigma)
+  C^a{}_{b d} C^b{}_{e c}
   +
-  \partial_\sigma(C^a{}_{^b c} A^b_u \wedge A^c_v)
+  C^a{}_{b e} C^b{}_{c d}
+  = 0
+  \,.
 $$
-  
+
+
+**general case**
+
+For $\mathfrak{g}$ a general $L_\infty$-algebra, the computation is essentially as above for the Lie algebra case only that all indices become multi-indices in a suitable sense. 
+
+For instance the structure constants  now have components of arbitrary arity. But for the discussion of the lift it is still always just the components with two legs along the $u$-, $v$-, $\sigma$- direction that matter, all other indices just run along.
+
+I'll try to think of a convenient notation to express this.
+
+=--
+
+With $\mathbf{\flat}\exp(\mathfrak{g}) \to \exp(\mathfrak{g})$ realized as a fibration between fibrant objects, we now obtain the de Rham coefficient object $\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ as an ordinary pullback, as in the above discussions.
+
++-- {: .un_corollary}
+###### Corollary
+
+For $\mathfrak{g}$ an $L_\infty$-algebra, a representive in $[CartSp^{op}, sSet]_{proj}$ of the object $\mathbf{\flat}_{dR} \exp(\mathfrak{g})$ is the presheaf
+
+$$
+  (U,[n])
+  \mapsto
+   Hom_{dgAlg}(
+     CE(\mathfrak{g}),
+     \Omega^{\bullet\geq 1,\bullet}(U \times \Delta^n_{Diff})
+  )
+  \,,
+$$
+
+where the notation on the right denotes the dg-algebra of differential forms on $U \times\Delta^n_{Diff}$ that (apart from having setting instants on the faces of $\Delta^n_{Diff}$) are along $U$ of non-vanishing degree.
+
+=--
+
+Compare this to the more explicit examples that we had discussed above.
+
++-- {: .un_corollary}
+###### Corollary
+
+All statements go through verbatim for the $n$-truncation $\tau_n \exp(\mathfrak{g})$.
+
 (...)
 
 =--
 
-(...)
++-- {: .un_remark}
+###### Remark
+
+Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[concrete presheaf]]) of $G TrivBund_{flat} \simeq \mathbf{\flat} \mathbf{B}G$. And $\mathbf{\flat}_{dR}\mathbf{B}G$, being the kernel of the concretization map, is in a sense the maximally non-concrete sub-presheaf of $G TrivBund_{flat}$.
+
+=--
+
 
 ### Cohomology {#Cohomology}
 
