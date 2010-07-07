@@ -5,7 +5,7 @@
 ***
 [[!include (infinity,1)-topos - contents]]
 </div>
-
+^
 
 
 #Contents#
@@ -1389,7 +1389,7 @@ The idea of the proof is that the lifts in question are obtained from solving di
 
 To warm up, consider the case where $\mathfrak{g} = b^n \mathfrak{u}(1)$, i.e. where $CE(\mathfrak{g})$ is given by a single generator in degree $n+1$ and vanishing differential. First $n = 0$.
 
-Then a morphism $C(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1]) \otimes C^\infty(U)$ is an element $A_v(u) d v + A_\sigma(u) d \sigma + A_{v \sigma}(u) d v \wedge d \sigma $ that satisfies
+Then a morphism $C(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1]) \otimes C^\infty(U)$ is an element $A_v(u) d v + A_\sigma(u) d \sigma $ that satisfies
 
 $$
   \partial_v A_u = \partial_u A_v
