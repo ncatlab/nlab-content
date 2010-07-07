@@ -35,12 +35,22 @@ Sasha Rosenberg had defended in 1973 dissertation at Moscow State University stu
 
 * V. A. Lunts, A. L. Rosenberg, _Differential calculus in noncommutative algebraic geometry I. D-calculus on noncommutative rings_, MPI 1996-53 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3894), II. D-Calculus in the braided case. The localization of quantized enveloping algebras, MPI 1996-76 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3916)
 
+* V. A. Lunts, A. L. Rosenberg, _Kashiwara theorem for hyperbolic algebras_,
+MPIM1999-82, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=947), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=948)
+
 * M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-35 ([dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303),[ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331)), _Noncommutative spaces and flat descent_, MPI-2004-36 [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2304),[ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2332), _Noncommutative stacks_, MPI-2004-37 [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305),[ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333)
 
 * M. Kontsevich, A. Rosenberg, _Noncommutative smooth spaces_,  The Gelfand Mathematical Seminars, 1996--1999,  85--108, Gelfand Math. Sem., Birkh&#228;user Boston, Boston, MA, 2000; ([arXiv:math/9812158](http://arxiv.org/abs/math/9812158))
 
 * A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
 
+* A. Rosenberg, _Spectra of noncommutative spaces_, MPIM2003-110, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=1945), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=1946)
+
+* A. Rosenberg, _Underlying spaces of noncommutative schemes_, 
+MPIM2003-111, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=1947), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=1948)
+
+* A. Rosenberg, _Noncommutative spaces and schemes_, 
+MPIM1999-84, [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=949), [ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=950)
 
 [[!redirects Sasha Rosenberg]]
 [[!redirects Sasha Rozenberg]]
