@@ -36,7 +36,7 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 1. If $F$ is real closed, then the field of [[Puiseux series]] over $F$ is also real closed. 
 
-1. More generally, given a real closed field $F$, the field of [[Hahn series]] over $F$ with [[valuation|value group]] $G$ (an ordered group) is real closed provided that $G$ is divisible. 
+1. More generally, given a real closed field $F$, the field of [[Hahn series]] over $F$ with [[valuation ring|value group]] $G$ (an ordered group) is real closed provided that $G$ is divisible. 
 
 1. Any [[o-minimal structure|o-minimal]] ordered ring structure $R$ is a real closed field. 
 
