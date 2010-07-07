@@ -1331,6 +1331,171 @@ with the desired properties.
 
 =--
 
++-- {: .un_lemma }
+###### Lemma
+
+The canonical morphism
+
+$$
+  \exp(\mathfrak{g}) Bund_{flat}
+  \to 
+  \exp(\mathfrak{g})
+$$
+
+is a fibration in $[CartSp^{op}, sSet]_{proj}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Over each $U \in CartSp$
+the morphisms is induced from the morphism of dg-algebras
+
+$$
+  \Omega^\bullet(U) \to C^\infty(U)
+$$
+
+that discards all differential forms of non-vanishing degree. 
+
+It will be sufficient to show that for 
+
+$$
+  CE(\mathfrak{g}) 
+    \to 
+   \Omega^\bullet(
+     D^n \times [0,1]
+   )
+   \otimes' C^\infty(U)
+$$
+
+a morphism and 
+
+$$
+  CE(\mathfrak{g}) \to \Omega^\bullet(D^n \times U)
+$$
+
+a lift of its restriction to $\sigma = 0 \in [0,1]$ we have a
+lift 
+
+$$
+  CE(\mathfrak{g}) \to \Omega^\bullet(D^n \times [0,1] \times U)
+$$
+
+extending the lift. From these lifts all the required lifts are obtained by precomposition with some evident smooth retractions.
+
+
+The idea of the proof is that the lifts in question are obtained from solving differential equations with boundary conditions, and exist due to the existence of these solutions. Since the idea is simple but the system of differential equations can be big and involved, we write out the construction in simple cases and trust that the generalization is evident.
+
+To warm up, consider the case where $\mathfrak{g} = b^n \mathfrak{u}(1)$, i.e. where $CE(\mathfrak{g})$ is given by a single generator in degree $n+1$ and vanishing differential. First $n = 0$.
+
+Then a morphism $C(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1]) \otimes C^\infty(U)$ is an element $A_v(u) d v + A_\sigma(u) d \sigma + A_{v \sigma}(u) d v \wedge d \sigma $ that satisfies
+
+$$
+  \partial_v A_u = \partial_u A_v
+$$
+
+and 
+
+$$
+  \partial_\sigma A_v = \partial_v A_\sigma
+  \,.
+$$
+
+To lift this to a morphism $CE(\mathfrak{g}) \to \Omega^\bullet(D^1 \times U \times [0,1])$ that restricts to the former for $\sigma = 0$ we need to add a term $A_u(u,\sigma) d u$. This needs to satisfy the differential equation
+
+$$
+  \partial_\sigma A_u = \partial_u A_\sigma
+  \,.
+$$
+
+For the given initial value at $\sigma = 0$ this has a unique solution and defines $A_u$ on all of $[0,1]$.
+
+For this to be a consistent solution it must also be true that
+
+$$
+  \partial_v A_u = \partial_u A_v
+$$
+
+for all $\sigma$. It is true by assumption at $\sigma = 0$, so it is sufficient to show that the $\sigma$-derivatives of both sides coincide.
+
+On the left we have 
+
+$$
+  \partial_\sigma \partial_v A_u = \partial_v \partial_\sigma A_u =
+  \partial_v \partial_u A_\sigma
+$$
+
+by the above, and similarly on the right
+
+$$
+  \partial_\sigma \partial_u A_v = \partial_u \partial_\sigma A_v = 
+  \partial_u \partial_v A_\sigma
+$$
+
+so that indeed this is equal. This constitutes the required lift.
+
+For a general Lie algebra $\mathfrak{g}$ with dual basis $\{t^a\}$ and structue constants $C^a{}_{b c}$ we get the analogous discussion with structure constant terms thrown in:
+
+the original element is a collection of 1-forms $A^a_v(u) d v + A^a_\sigma(u) d \sigma $ satisfying
+
+$$
+  \partial_\sigma A_v^a = \partial_v A_\sigma + C^a{}_{b c} A_\sigma^b \wedge A_v^c
+  \,.
+$$
+
+We lift by adding a term $A_u^a d u$ that solves the differential equation
+
+$$
+  \partial_\sigma A_u = \partial_u A_\sigma + C^a{}_{b c} A_\sigma^b \wedge A_u^c
+  \,.
+$$
+
+Again, for the given boundary condition at $\sigma = 0$ this has a unique solution. And since the boundary lift at $\sigma = 0$ satisfies
+
+$$
+  \partial_v A_u(\sigma = 0) = \partial_u A_v(\sigma = 0)
+  + C^a{}_{b c} A_v^b(\sigma = 0) \wedge A_u^c(\sigma = 0)
+$$
+
+it is sufficient to check that we have equality of derivatives
+
+$$
+  \partial_\sigma \partial_v A_u 
+  = \partial_\sigma \partial_u A_v
+  + 
+  C^a{}_{b c} \partial_\sigma A_v^b 
+  \wedge A_u^c
+  +
+  C^a{}_{b c} A_v^b 
+  \wedge \partial_\sigma A_u^c
+  \,.
+$$
+
+The left hand is
+
+$$
+  \partial_v \partial_\sigma A_u = 
+  \partial_v \partial_u A_\sigma 
+  + 
+  \partial_v(
+  C^a{}_{b c} A_\sigma^b \wedge A_u^c)
+$$
+
+whereas the right hand is 
+
+$$
+  \partial_u \partial_\v A^a_\sigma
+  +
+  \partial_u(C^a{}_{^b c} A^b_v \wedge A^c_\sigma)
+  +
+  \partial_\sigma(C^a{}_{^b c} A^b_u \wedge A^c_v)
+$$
+  
+(...)
+
+=--
+
 (...)
 
 ### Cohomology {#Cohomology}
