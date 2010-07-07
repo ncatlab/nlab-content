@@ -11,9 +11,7 @@
 
 ### For topological spaces
 
-For $X$ a [[topological space]], a **basis for the topology** of $X$ is a collection of [[open subset]]s -- called basic open subsets or generating open subsets -- such that every open subset is a union of basic ones.
-
-See also [[base]].
+For $X$ a [[topological space]], a __[[base]]__ for the topology of $X$ is a collection of [[open subset]]s -- called basic open subsets or generating open subsets -- such that every open subset is a union of basic ones.
 
 If we think of the topology on $X$ as being encoded in the standard [[Grothendieck topology]] that it induces on its [[category of open subsets]] $Op(X)$, then a basis for the topology induces a _[[coverage]]_ on $Op(X)$, whose covering families are the open covers by basic open subsets, which generates this Grothendieck topology.
 
@@ -49,8 +47,13 @@ We list examples for bases of topological spaces. For examples of bases of Groth
 
 
 
+[[!redirects base for a topology]]
 [[!redirects basis for a topology]]
-
 [[!redirects bases for a topology]]
+[[!redirects base for the topology]]
+[[!redirects basis for the topology]]
 [[!redirects bases for the topology]]
 
+[[!redirects topological base]]
+[[!redirects topological basis]]
+[[!redirects topological bases]]
