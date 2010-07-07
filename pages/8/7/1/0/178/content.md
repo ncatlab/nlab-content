@@ -620,23 +620,6 @@ We observe that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that
 
 Also notice that the complex that defines $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ has the following description in terms of hom-spaces of [[∞-Lie algebroid]]s.
 
-Write $N^\bullet(C^\bullet\bullet(\Delta[n]))$ for the [[Moore complex|normalized chain complex]] of the [[cochain on a simplicial set|cochains on the simplicial set]] given by the $n$-[[simplex]] $\Delta[n]$. Write also $^CE(b^n \mathbb{R})$ for the [[Chevalley-Eilenberg algebra]]
-of the [[L-∞-algebra]] $b^^n \mathbb{R}$, which is the [[dg-algebra]] on a single generator in degree $n$ with vanishing differential.
-
-With this notation we can express the flat de Rham object of $\mathbf{B}^n U(1)$
-as a hom-object of [[∞-Lie algebroid]]s:
-
-$$
-  \mathbf{\flat}_{dR} \mathbf{B}^n U(1)
-  :
-  V \mapsto
-  \infty LieAlg( T V, b^n \mathbb{R})
-  :=
-  Hom_{dgAlg}( CE(b^n \mathbb{R}) , 
-   \Omega^\bullet(U)\otimes N^\bullet(C^\bullet(\Delta[\bullet])) )
-  \,.
-$$
-
 =--
 
 #### Lie groups {#LieGroups}
@@ -700,7 +683,7 @@ Let $\Xi : CrsdCplx \to sSet$ now denote the inclusion of [[crossed complex]]es 
 +-- {: .un_prop }
 ###### Proposition
 
-The object $\infty$-Lie groupoid $\mathbf{\flat}\mathbf{B}G \in \infty LieGrpd$ has a fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ given by
+The $\infty$-Lie groupoid $\mathbf{\flat}\mathbf{B}G \in \infty LieGrpd$ has a fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ given by
 
 $$
   \mathbf{\flat}\mathbf{B}G 
@@ -865,9 +848,14 @@ Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[differe
 The $\infty$-Lie groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is represented in $[CartSp^{op}, sSet]$ by
 
 $$
-    V \mapsto 
-    Hom_{dgAlg}(CE(\mathfrak{g}_2 \to \mathfrak{g}_1), 
-    \Omega^{\bullet \geq 1}(V)\otimes N^\bullet(C^\bullet(\Delta[\bullet])))
+  \cdots \simeq
+  \Xi[
+    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
+    \times
+    \Omega^1(-, \mathfrak{g}_2)
+    \stackrel{\overset{}{\to}}{}{\to}}
+    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
+  ]
   \,.
 $$
 
@@ -933,13 +921,13 @@ For the moment see the discussion about geometric realization further above.
 
 #### Lie-integrated $\infty$-Lie groupoids {#LieIntegrated}
 
-> under construction
+We discuss here $\infy$-Lie groupoids that arise as the [[Lie integration]] of an [[∞-Lie algebroid]].
 
 +-- {: .un_def }
 ###### Definition
 **(forms on the simplex)**
 
-Write $\Delta_{Diff} : \Delta \to CartSp \hookrightarrow sPSh(CartSp)$ for the cosimplicial object induced from the standard [[nLab:interval object]] $* \stackrel{0}{\to} \mathbb{R} \stackrel{1}{\leftarrow} 1$ in [[CartSp]], i.e. the object of standard smooth simplices.
+Write $\Delta_{Diff} : \Delta \to CartSp \hookrightarrow sPSh(CartSp)$ for the cosimplicial object of standard smooth simplices.
 
 Write $\Omega^\bullet_{si}(\Delta^n_{Diff})$ for the [[dg-algebra]] of those differential forms on $\Delta^n_{Diff}$ that have the property that for every $k \in \mathbb{N}$ every $k$-face of $\Delta^n_R$ has an open neighbourhood of its boundary such that the form restricted to that face is constant in the direction perpendicular to that boundary.
 
