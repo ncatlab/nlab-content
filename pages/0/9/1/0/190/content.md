@@ -14,7 +14,7 @@
 
 ## Definition
 
-To avoid set-theoretic problems related to Russell's paradox, it is typical to restrict $Cat$ to [[small category|small categories]].
+To avoid set-theoretic problems related to Russell's paradox, it is typical to restrict $Cat$ to [[small category|small categories]].  But see [[CAT]] for alternatives.
 
 To be explicit, define **Cat** to be the category with:
 
@@ -45,8 +45,6 @@ As a $2$-category, $Cat$ could even include (some) [[large category|large catego
 
 
 By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|category]] are [[equivalence of categories|equivalent]].  In contexts without choice, it is usually better to use anafunctors all along; if necessary, use $Str Cat$ for the strict $2$-category.  Even without choice, a functor or anafunctor between categories is an [[equivalence]] in the anabicategory $Cat$ iff it is [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  However, the weak inverse of such a functor may not be a functor, so it need not be an equivalence in $Str Cat$.  We can regard $Cat$ as obtained from $Str Cat$ using [[homotopy theory]] by "formally inverting" the essentially surjective and fully faithful functors as [[weak equivalence]]s.
-
-  see also [[CAT]]
 
 
 category: category
