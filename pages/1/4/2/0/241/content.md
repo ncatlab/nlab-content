@@ -65,7 +65,7 @@ These conditions are equivalent to
 * a locally small [[pretopos|infinitary pretopos]] with a small generating set.
 
 
-See [[Elephant]], theorem 2.2.8.
+See [[Elephant]], theorem C.2.2.8.
 
 (See [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).)
 
