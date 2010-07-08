@@ -5,20 +5,19 @@
 
 ## Idea and definition ##
 
-Classically, a **Schur functor** is a specific sort of [[functor]] 
+Classically, a 'Schur functor' is a specific sort of [[functor]] 
 
 $$F: FinVect \to FinVect$$ 
 
-where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space 
-$X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.  
+where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.   In fact, Schur functors can be defined on a large class of categories resembling $FinVect$: for example, categories of group representations, or vector bundles, or coherent sheaves.  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be 'naturally' --- or more precisely, 'pseudonaturally' defined on all symmetric monoidal linear Cauchy complete categories.
 
-The most famous examples are these:
+The most famous examples of Schur functors are these:
 
 * For each $n \geq 0$, the $n^{th}$ [[symmetric power]] $X \mapsto S^n(X)$ is a Schur functor. 
 
 * For each $n \geq 0$, the $n^{th}$ [[alternating power]] $X \mapsto \Lambda^n(X)$ is a Schur functor. 
 
-More generally, irreducible complex representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors are usually described with the help of these.   An $n$-box Young diagram is simply a handy notation for a way of writing $n$ as a sum of natural numbers written in decreasing order.  For example, this 17-box Young diagram:
+More generally, irreducible complex representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors are usually described with the help of these.   An $n$-box Young diagram is simply a pictorial way of writing $n$ as a sum of natural numbers listed in decreasing order.  For example, this 17-box Young diagram:
 
 +-- {: #Young style="text-align:center"}
 <svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -49,13 +48,13 @@ More generally, irreducible complex representations of $S_n$ correspond to $n$-b
 
 describes the partition of $17$ as $5 + 4 + 4 + 2 + 1 + 1$.  However, it also can be used to construct an irreducible complex representation of the permutation group $S_{17}$, and thus a Schur functor.  
 
-In general, the recipe is this:
+In general, here is the recipe for constructing the Schur functor $S_\lambda$ associated to an $n$-box Young diagram $\lambda$.   For now we only say what this functor does to objects (that is, finite-dimensional vector spaces):
 
-* Given an $n$-box Young diagram, say $\lambda$, and a vector space $X$, we first form the tensor power $X^{\otimes n}$.  We think of each factor in this tensor power as corresponding to a specific box of the Young diagram.  
+* Given an $n$-box Young diagram $\lambda$ and a vector space $X$, we first form the tensor power $X^{\otimes n}$.  We think of each factor in this tensor power as corresponding to a specific box of the Young diagram.  
 
 * Then we pick out the subspace of $X^{\otimes n}$ consisting of tensors that are _unchanged_ by any permutation that interchanges two boxes in the same _row_.  
 
-* Then we project this subspace onto the space of tensors that _change sign_ under any permutation that interchanges two boxes in the same _column_.  The result is called $S_\lambda(X)$, where $S_\lambda$ is the **Schur functor** corresponding to $\lambda$.
+* Then we project this subspace onto the space of tensors that _change sign_ under any permutation that interchanges two boxes in the same _column_.  The result is called $S_\lambda(X)$, where $S_\lambda$ is the Schur functor corresponding to $\lambda$.
 
 It is easy to see from this description that:
 
@@ -80,7 +79,7 @@ relation between Young diagrams and representations of the symmetric groups.  Th
 $$   V_\lambda = p_\lambda \mathbb{C}[S_n] \subseteq \mathbb{C}[S_n] $$
 has an obvious right action of the algebra $\mathbb{C}[S_n]$, and 
 thus becomes a representation of the group $S_n$.  In fact, it is 
-an _irreducible_ representation of $S_n$, and _every irreducible representation of $S_n$ is isomorphic to one of this form_.  Even better, this recipe sets up a one-to-one correspondence between $n$-box Young diagrams and isomorphism classes of irreducible representations of $S_n$.
+an irreducible representation of $S_n$, and every irreducible representation of $S_n$ is isomorphic to one of this form.  Even better, this recipe sets up a one-to-one correspondence between $n$-box Young diagrams and isomorphism classes of irreducible representations of $S_n$.
 
 (Strictly speaking, to think of $p_\lambda$ as an element of $\mathbb{C}[S_n]$, we must choose a way to label the boxes of the Young diagram with numbers $1, \dots, n$.  Such an identification is called a **Young tableau**.  For our purposes it will cause no harm to randomly choose a Young tableau for each Young diagram, since different choices give isomorphic representations $V_\lambda$.  In other contexts, the difference between various choices of Young tableaux can be extremely important.)
 
@@ -93,23 +92,23 @@ $$ \array{ S_\lambda(X) &=& p_\lambda X^{\otimes n} \\
 }
 $$
 These isomorphisms here are natural, so there is no harm in _defining_ the Schur functor $S_\lambda$ by
-$$   S_\lambda(--) = V_\lambda \otimes_{\mathbb{C}[S_n]} (--)^{\otimes n} $$
+$$   S_\lambda(-) = V_\lambda \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} $$
 This formula defines the Schur functor not only on objects but also on morphisms.  Even better, we can use the same formula to define a functor 
 $$  S_R : FinVect \to FinVect $$
 for _any_ representation $R$ of $S_n$, as follows:
-$$   S_R(--) = R \otimes_{\mathbb{C}[S_n]} (--)^{\otimes n} \, . $$
-These more general functors are also known as **Schur functors**.
+$$   S_R(-) = R \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} \, . $$
+These more general functors are still called **Schur functors**.
 
 ## The category of Schur functors
 
-Still more generally, any finite direct sum of the Schur functors just described may also be called a Schur functor.   In other words, if $R = \{R_n\}$ where $R_n$ a finite-dimensional representation of $S_n$, and only finitely many of these representations are nonzero, then we define the **Schur functor**
-$$   S_R(--) = \bigoplus_{n \ge 0}$ R_n \otimes_{\mathbb{C}[S_n]} (--)^{\otimes n} \, . $$
+Even more generally, any finite direct sum of the Schur functors just described may also be called a Schur functor.   In other words, if $R = \{R_n\}_{n \ge 0}$ where $R_n$ a finite-dimensional representation of $S_n$, and only finitely many of these representations are nonzero, then we define the **Schur functor**
+$$   S_R(-) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} \, . $$
 
-This more general definition includes many interesting examples:
+This more general definition has the advantage of including many interesting examples:
 
 * For each $n \geq 0$, the $n^{th}$ [[tensor power]] $V \mapsto V^{\otimes n}$ is a Schur functor. 
 
-* If $F$ and $G$ are Schur functors, of course the functor $V \mapsto F(V) \oplus G(V)$ is a Schur functor.
+* If $F$ and $G$ are Schur functors, the functor $V \mapsto F(V) \oplus G(V)$ is a Schur functor.
 
 * If $F$ and $G$ are Schur functors, the functor $V \mapsto F(V) \otimes G(V)$ is also a Schur functor.
 
@@ -134,7 +133,7 @@ assigns to any finite set a _set_ of structures of some type.  Thanks to the 'fr
 $$F: Set \to Vect \, ,$$
 we can linearize any ordinary species $S$ and obtain a linear species $F \circ S$.  This process is extremely important in the work of [[Marcelo Aguiar]] and [[Swapneel Mahajan]]:
 
-* [[Marcelo Aguiar]] and [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf)
+* [[Marcelo Aguiar]] and [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf))
 
 However, not all $Vect$-valued species correpond to Schur functors, because we have defined Schur functors to arise from _finite_ direct sums of irreducible representations of permutation groups.   So, $Schur$ is equivalent to the category where:
 
@@ -143,8 +142,8 @@ However, not all $Vect$-valued species correpond to Schur functors, because we h
 * Morphisms are natural transformations.
 
 We call this the **category of polynomial species**.  The reason for the term 'polynomial' is that any functor of the form
-$$   S_R(X) = \bigoplus_{n \ge 0}$ R_n \otimes_{\mathbb{C}[S_n]} X^{\otimes n} $$
-gives rise to a formal power series called its **generating function**
+$$   S_R(X) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} X^{\otimes n} $$
+gives rise to a formal power series called its **generating function**: 
 $$      \sum_{n \ge 0} \frac{dim(R_n) x^n}{n!}  \, $$
 and this power series is a polynomial precisely when $R$ is a polynomial species.
 
@@ -651,24 +650,35 @@ The tensor product $\boxtimes$ on $Schur$ goes by another name: it is the **plet
 
 ## References ##
 
-A nice quick introduction to Schur functors can be found here:
+A nice introduction to Schur functors can be found here:
 
 * William Fulton and Joe Harris, _Representation Theory: a First Course_, Springer, Berlin, 1991.
 
-A good overall reference to Young diagrams is:
+For a quick online introduction to [[Young tableaux]] and representations of the [[symmetric groups]], try:
 
-* William Fulton, _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997.
+* Yufei Zhao, Young tableaux and the representations
+of the symmetric group, MIT.  ([web](http://www.thehcmr.org/issue2_2/tableaux.pdf))
 
-Species were invented here:
+For more details on these topics, see:
+
+* William Fulton, _Young Tableaux, with Applications to 
+Representation Theory and Geometry_, Cambridge U. Press, 1997.
+
+* B. E. Sagan, _The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions_, Springer, Berlin, 2001.
+
+[[species|Species]] were invented here:
 
 * Andr&#233; Joyal, Une th&#233;orie combinatoire des s&#233;ries formelles, _Adv. Math_ **42** (1981), 1--82.
 
-* Andr&#233;  Joyal: Foncteurs analytiques et esp&egrave;ces des structures, in _Combinatoire &#201;num&#233;rative_, Lecture Notes in Mathematics **1234**, Springer, Berlin, 1986, pp. 126--159.  
+* Andr&#233; Joyal: Foncteurs analytiques et esp&egrave;ces des structures, in _Combinatoire &#201;num&#233;rative_, Lecture Notes in Mathematics **1234**, Springer, Berlin, 1986, pp. 126--159.  
 
-A standard reference is:
+A standard reference on species is:
 
 * Fran&#231;ois Bergeron, Gilbert Labelle, Pierre Leroux, _Combinatorial Species and Tree-like Structures_, Cambridge University Press, Cambridge 1998.
 
+Here is an important new book on combinatorics which emphasizes the use of $Vect$-valued species:
+
+* [[Marcelo Aguiar]] and [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf))
 
 ## Old Stuff ##
 
