@@ -96,14 +96,14 @@ The [[locale of real numbers]] is generated from the locally cartesian poset $S 
 
 ## Use in predicative mathematics
 
-We call a frame (or locale) $L$ __accessible__ if it is isomorphism to $Sh(S)$ for some [[small category|small]] site $S$.  In [[classical mathematics]], an accessible frame must be small, but this fails in [[predicative mathematics]].  (Conversely, any small frame is trivially accessible; take $S$ to be $L$ with its canonical coverage.)  Since many predicativists have philosophical objections to working with large objects at all, they may work prefer to work with small sites directly.  Whatever the philosophy, we may use the category of small sites in place of the category of accessible locales, or at any rate use this to prove that the latter category is essentially [[moderate category]].
+We call a frame (or locale) $L$ __accessible__ if it is [[isomorphism|isomorphic]] to $Sh(S)$ for some [[small category|small]] site $S$.  (Compare the concept of [[accessible category]], restricted to the case of a [[cocomplete category|cocomplete]] [[pretopos]].)  In [[classical mathematics]], an accessible frame must be small, but this fails in [[predicative mathematics]].  (Conversely, any small frame is trivially accessible; take $S$ to be $L$ with its canonical coverage.)  Since many predicativists have philosophical objections to working with large objects at all, they may work prefer to work with small sites directly.  Whatever the philosophy, we may use small sites in place of accessible locales, or at any rate use this to prove that the category of the latter is [[essentially moderate category|essentially moderate]].
 
 [[formal topology|Formal topology]] is a programme for [[topology]] which is based on using small sites.  However, formal topologists also require a positivity predicate on their sites; the intended interpretation is that $u$ is positive iff (thinking of it as if it were a subset of a topological space) it is [[inhabited subset|inhabited]].  I need to figure out why this is necessary; it may be for predicativist or constructivist reasons (since the formal topologists are both at once).
 
 
 ## Non-locally cartesian sites
 
-I am a little unsure about how to do this.  On the one hand, we can define a [[coverage]] on a category that is not locally cartesian with only a little extra trouble, and to do this analogously here would keep a coverage on an arbitrary [[poset]] $S$ as a relation between $S$ and its power set.  On the other hand, the logical interpretation of a site begs to be interpreted as a sequent in [[geometric logic]], so that the left hand side should be a [[list]]; that is, a coverage on $S$ should be realtion between the [[free monoid]] on $S$ and the power set.
+I am a little unsure about how to do this.  On the one hand, we can define a [[coverage]] on a category that is not locally cartesian with only a little extra trouble, and to do this analogously here would keep a coverage on an arbitrary [[poset]] $S$ as a relation between $S$ and its power set.  On the other hand, the logical interpretation of a site begs to be interpreted as a sequent in [[geometric logic]], so that the left hand side should be a [[list]]; that is, a coverage on $S$ should be relation between the [[free monoid]] on $S$ and the power set.
 
 
 ## References
@@ -139,3 +139,8 @@ I am a little unsure about how to do this.  On the one hand, we can define a [[c
 [[!redirects base of a locale]]
 [[!redirects bases of a locale]]
 [[!redirects bases of locales]]
+
+[[!redirects accessible frame]]
+[[!redirects accessible frames]]
+[[!redirects accessible locale]]
+[[!redirects accessible locales]]
