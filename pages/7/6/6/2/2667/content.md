@@ -7,9 +7,9 @@
 
 Classically, a 'Schur functor' is a specific sort of [[functor]] 
 
-$$F: FinVect \to FinVect$$ 
+$$S: FinVect \to FinVect$$ 
 
-where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.   In fact, Schur functors can be defined on a large class of categories resembling $FinVect$: for example, categories of group representations, or vector bundles, or coherent sheaves.  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be 'naturally' --- or more precisely, 'pseudonaturally' defined on all symmetric monoidal linear Cauchy complete categories.
+where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $S(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.   In fact, Schur functors can be defined on a large class of categories resembling $FinVect$: for example, categories of group representations, or vector bundles, or coherent sheaves.  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be 'naturally' --- or more precisely, 'pseudonaturally' defined on all symmetric monoidal linear Cauchy complete categories.
 
 The most famous examples of Schur functors are these:
 
@@ -64,7 +64,7 @@ It is easy to see from this description that:
 
 We can also think of this relation between Young diagrams and Schur functors in a slightly more abstract way using the [[group algebra]] of the symmetric group, $\mathbb{C}[S_n]$.  Suppose $\lambda$ is an $n$-box Young diagram.  Then we can think of the operation 'symmetrize with respect to permutations of the boxes in each row' as an element $p^S_\lambda \in \mathbb{C}[S_n]$.  Similarly, we can think of the operation 'antisymmetrize with respect to permutations of the boxes in each column' as an element $p^A_\lambda \in \mathbb{C}[S_n]$.  By construction, each of these elements is [[idempotent]]:
 $$ (p^A_\lambda)^2 = p^A_\lambda \, , \; \; (p^S_\lambda)^2 = p^S_\lambda  $$
-Now, it is easy to see that the product of commuting idempotents is idempotent.   The elements $p_S$ and $p_A$ do not commute, but amazingly, their product 
+Now, it is easy to see that the product of commuting idempotents is idempotent.   The elements $p^S_\lambda$ and $p^A_\lambda$ do not commute, but amazingly, their product 
 $$ p_\lambda = p^A_\lambda p^S_\lambda $$
 is still idempotent!  
 
@@ -120,26 +120,24 @@ As a warm-up, let us note that $\Schur$ has has a nice description in terms of g
 $$ \mathbb{P} = \bigsqcup_{n \ge 0} S_n \, , $$
 where objects are natural numbers, all morphisms are automorphisms, and the automorphisms of $n$ form the group $S_n$.   In other words, it is a functor 
 $$R : \mathbb{P} \to Vect $$  
-But conceptually, the importance of $\mathbb{P}$ is that it is a [[skeleton]] of the groupoid of finite sets and bijections.  So
-$$ \mathbb{P} \simeq core(FinSet) $$
-and a functor of the above sort may be reinterpreted as a functor
-$$  R: core(FinSet) \to Vect  \, .$$
+But conceptually, the importance of $\mathbb{P}$ is that it is a [[skeleton]] of the groupoid of finite sets and bijections.  So,
+$$ \mathbb{P} \simeq core(FinSet) \, .$$
 
-So, any Schur functor gives a functor
+As a result, any Schur functor gives a functor
 $$    R : core(FinSet) \to Vect $$
 Following Joyal's work on combinatorics, such functors are known as $Vect$-valued [[species]], or $Vect$-valued [[structure type|structure types]].  The idea here is that a $Vect$-valued species assigns to any finite set a vector space of 'structures' of some type, just as an ordinary species
-$$   S : core(FinSet) \to Set $$
+$$    T : core(FinSet) \to Set $$
 assigns to any finite set a _set_ of structures of some type.  Thanks to the 'free vector space on a set' functor 
 $$F: Set \to Vect \, ,$$
-we can linearize any ordinary species $S$ and obtain a linear species $F \circ S$.  This process is extremely important in the work of [[Marcelo Aguiar]] and [[Swapneel Mahajan]]:
+we can linearize any ordinary species $T$ and obtain a linear species $F \circ T$.  This process is extremely important in the work of [[Marcelo Aguiar]] and [[Swapneel Mahajan]]:
 
 * [[Marcelo Aguiar]] and [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf))
 
-However, not all $Vect$-valued species correpond to Schur functors, because we have defined Schur functors to arise from _finite_ direct sums of irreducible representations of permutation groups.   So, $Schur$ is equivalent to the category where:
+However, not all $Vect$-valued species correposnd to Schur functors, because we have defined Schur functors to arise from _finite_ direct sums of irreducible representations of permutation groups.   So, $Schur$ is equivalent to the category where:
 
-* Objects are **polynomial species**: that is, functors $R: core(Fin\Set) \to FinVect$ such that $R(n) = \{0\}$ for all sufficiently large finite sets $n$.
+* objects are **polynomial species**: that is, functors $R: core(Fin\Set) \to FinVect$ such that $R(n) = \{0\}$ for all sufficiently large finite sets $n$;
 
-* Morphisms are natural transformations.
+* morphisms are natural transformations.
 
 We call this the **category of polynomial species**.  The reason for the term 'polynomial' is that any functor of the form
 $$   S_R(X) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} X^{\otimes n} $$
@@ -155,7 +153,7 @@ and
 
 $$ (F \otimes G)(V) = F(V) \otimes G(V) $$
 
-These make $Schur$ into a [[rig category]].
+Since $\otimes$ distributes over $\oplus$, these make $Schur$ into a [[rig category]].
 
 But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product $\times$ and disjoint union $+$ of finite sets.  Since $\times$ distributes over $+$, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.  The same is true for the subcategory $Schur$.  
 
@@ -169,9 +167,7 @@ We have described Schur functors as special functors
 
 $$  F: FinVect \to FinVect  $$
 
-But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts.  
-For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works.   
-More importantly, Schur functors can be applied to any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]].  Here by **linear category** we mean a category enriched over $Vect$, the category of vector spaces over $k$.  Such a category is **Cauchy complete** when:
+But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts. For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works. More importantly, Schur functors can be applied to any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]].  Here by **linear category** we mean a category enriched over $Vect$, the category of vector spaces over $k$.  Such a category is **Cauchy complete** when:
 
 * it has [[biproducts]], also known as [[direct sums]], and 
 
