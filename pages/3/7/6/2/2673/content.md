@@ -1,12 +1,17 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea
 
-The [[action functional]] of [[gravity]] was originally conceived as a functional on the space of [[pseudo-Riemannian metric]]s of a [[manifold]] $X$. Later on it was realized that it may alternatively naturally be thought of as a functional on the space of [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]]. This is known as the **first order formalism** or the **Palatini formalism**.
+The [[action functional]] of [[gravity]] was originally conceived as a [[functional]] on the space of [[pseudo-Riemannian metric]]s of a [[manifold]] $X$. Later on it was realized that it may alternatively naturally be thought of as a functional on the space of [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]] -- essentially the [[Levi-Civita connection]]. This is known as the **first order formalism** or the **Palatini formalism**. The [[field strength]] of gravity -- the [[Riemann tensor]] -- is the [[curvature]] of [[Levi-Civita connection]].
 
-The first order formalism is also the formalism in which [[supergravity]] has to be formulated.
+The first order formalism is also the formalism in which [[supergravity]] has to be formulated. 
 
-#References#
+See also [[gravity as a BF-theory]].
+
+## References
 
 A decent introduction is in sections 4 and 5 of 
 
