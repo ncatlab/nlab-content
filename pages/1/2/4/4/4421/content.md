@@ -48,7 +48,8 @@ $$
 
 ## As secondary characteristic forms
 
-If the differential form $A \in \Omega^1(P,\mathfrak{g})$ is _flat_ in that $F_A = 0$ the curvature invariant $\langle F_A \wedge \cdots \wedge F_A\rangle$ is uninteresting, but now the Chern-Simons form is closed and hence now it represents a class in [[de Rham cohomology]] encoded by $A$. This is often called a _secondary curvature invariant_ .
+If a [[curvature characteristic form]] _vanishes_ (for instance if the [[connection on a bundle|connection]] is flat or the degree of the curvature characteristic form is simply greater than the dimension of $X$) the corresponding Chern-Simons form is a [[closed form]]. So in this case the [[de Rham cohomology]] class of the curvature characteristic form becomes trivial, but the Chern-Simons form provides another de Rham class. This is therefore called a **secondary characteristic class**.
+
 
 ...
 
