@@ -1,0 +1,7 @@
+
+In [[algebraic geometry]] the local model is an [[affine scheme]]: affine schemes are glued in various topologies like Zariski and flat to obtain [[algebraic schemes]], [[algebraic space]]s and so on. 
+
+Grothendieck emphasised the [[relative point of view]]: the main foundational effort should be devoted to the study of properties of morphisms rather than spaces. Thus one can consider an [[affine morphism]] instead of an affine scheme; affine morphism $f: X\to S$ can be considered as a relative affine scheme over $S$, intuitively a bundle of affine schemes. If $S$ is itself an affine scheme, corresponding to a ring $R_S$ and $f$ is affine then $f$ is the opposite of a morphism $f^\circ : R_S\to R_X$ where $X = Spec R_X$. 
+
+By the [[Gabriel-Rosenberg theorem]] a scheme can be reconstructed from the category of quasicoherent sheaves over a scheme. Thus one is tempted to replace the properties of morphisms by properties of the "geometric functors" among the corresponding categories of quasicoherent sheaves. The properties of affine morphisms were first elucidated in [[Jean-Pierre Serre|Serre]]'s criterium of affiness. It appears that the direct image functor $f_* : Qcoh_S\to Qcoh_X$ of an affine morphism $f:X\to S$ is faithful and having its own right adjoint $f_!$. The adjunction $f^*\dashv f_*$ induces a monad making $Qcoh_X$ monadic over $Qcoh_S$. If $S$ were just $Spec \mathbb{Z}$ then this is clear as then $X = Spec R_X$ and $Qcoh_X = {}_R Mod$. 
+
