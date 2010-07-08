@@ -1,4 +1,7 @@
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ## Idea
 
@@ -14,4 +17,5 @@ two connections on a bundle are taken to be equivalent, if the gauge transformat
 
 ## Details
 
-Details are currently still in a subsection at [[differential K-theory]].
+Details are currently still in <a href="http://ncatlab.org/nlab/show/differential+K-theory#SimonsSullivanModel">this subsection</a> at [[differential K-theory]].
+
