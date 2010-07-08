@@ -74,7 +74,7 @@ One has to be careful about the following variations on this theme
 
 ### Finitely presentable objects {#FinitelyPresentableObject}
 
-Sometimes the notion _compact object_  is called **finitely presentable object** or **object of finite presentation** (see the [references](references) below.)
+Sometimes the notion _compact object_  is called **finitely presentable object** or **object of finite presentation** (see the [references](#references) below.)
 
 +--{: .query}
 
