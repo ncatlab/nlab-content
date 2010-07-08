@@ -15,7 +15,7 @@ In as far as we can think of cocycles in [[K-theory]] as represented by [[vector
 
 There are various different models that differ in the concrete realization of these cocycles and in their extra properties.
 
-## The Simons-Sullivan model 
+## The Simons-Sullivan model {#SimonsSullivanModel}
 
 This section discusses the model presented in
 
