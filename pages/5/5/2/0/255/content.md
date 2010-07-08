@@ -9,7 +9,13 @@
 
 ##Idea
 
-A _monad_ abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of [[extra structure]] on an object of a category.
+A _monad_ is an [[endomorphism]] in a [[2-category]] equipped with the structure of a [[monoid]]: a 2-morphism from the composite of the morphism to itself, and one from the identity endomorphism to it, satisfying associativity and uniticity.
+
+In the same spirit there is a notion of [[module over a monad]].
+
+Monads are often considered in the 2-category [[Cat]] where they are given by [[endofunctor]]s with a monoid structure on them.  Modules over monads _in_ [[Cat]] _and on_ [[Set]] encode algebraic structures on sets. Therefore modules over a monad are also called _algebras_ overa monad.
+
+In this way, a _monad_ abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of [[extra structure]] on an object of a category.
 
 Classically, if $\mathbf{T}$ is an algebraic theory (e.g. the theory of groups), a $\mathbf{T}$-structure on a set tells us how to interpret various _terms_ (e.g. $(a\cdot c)$) formed from elements of the set, subject to certain _axioms_ (e.g. $(a\cdot (b\cdot c))=((a\cdot b)\cdot c)$).  A monad collects this up into a functor $T$.  For a set $X$, $T X$ is the set of all terms of the theory formed from elements of $X$, with terms identified if axioms force them to be equal.  For groups, $T X$ is thus the (underlying set of the) [[free group]] of formal words $a \cdot b \cdot \cdots \cdot s$ from $X$; the fact that $T$ gives [[free object|free]] structures turns out to be [[monadic adjunction|typical]].
 
@@ -18,7 +24,9 @@ To capture the theory fully, we need to include a little more data: a natural ma
 
 ##Definition
 
-A _monad_ on a category $C$ is a monoid in the strict monoidal category $End(C)$ of endofunctors in $C$ (where the tensor product of natural transformations is the [[horizontal composition]]).  
+### In Cat
+
+A _monad_ in [[Cat]] on a [[category]] $C$ is a [[monoid]] in the strict [[monoidal category] $End(C)$ of [[endofunctor]]s in $C$ (where the [[tensor product]] of [[natural transformation]]s is the [[horizontal composition]]).  
 
 More explicitly a monad on $C$ consists of
 
@@ -32,6 +40,10 @@ More explicitly a monad on $C$ consists of
 
 If we consider $C$ as an object in the 2-category $Cat$ of categories, functors and natural transformations, then we see that $(C,T,\mu,\eta)$ is a 4-tuple of a 0-cell, 1-cell and two 2-cells satisfying some diagrams.  
 Thus this makes sense in arbitrary 2-category and even a [[bicategory]].  If $\mathcal{B}$ is a bicategory, a monad on an object $C$ of $\mathcal{B}$ consists of a 1-cell $T: C \to C$ together with 2-cells $\eta, \mu$ satisfying axioms as before, but with associativity coherences taken into account (monad with underlying object $C$ in $\mathcal{B}$ is the same as a monoid in the monoidal category $Hom_{\mathcal{B}}(C,C)=\mathcal{B}(C,C)$).
+
+### In a general 2-category
+
+More generally, for an [[object]] $C$ in any [[2-category]] $\mathcal{B}$ a _monad on $C$_ is a [[monoid]] in the [[monoidal category]] $End_{\mathcal{B}}(C)$.
 
 ###In string diagrams
 
