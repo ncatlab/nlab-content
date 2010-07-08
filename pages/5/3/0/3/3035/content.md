@@ -1,5 +1,5 @@
 
-**[[schreiber:∞-Lie theory|∞-Lie theory]]**
+**[[∞-Lie theory]]**
 
 ## Background
 
@@ -131,10 +131,11 @@
 
 ## ∞-Chern-Weil theory ##
 
-* [[invariant polynomial|invariant polynomial on ∞-Lie algebroid]]
+* [[schreiber:∞-Lie algebroid valued differential forms]]
 
-* [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]]
+* [[curvature characteristic form]]
 
+* [[Chern-Simons form]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Lie+theory+-+contents)</div>
