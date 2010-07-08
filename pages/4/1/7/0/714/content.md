@@ -207,7 +207,8 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 
 
-## Extensions and generalizations
+## Variants
+
 
 ### Model structure on &#8224;-categories {#ModelStructure}
 
@@ -250,6 +251,19 @@ of &#8224;-category is homotopy essentially algebraic
 There a homotopy limit sketch whose category of models (in spaces)
 is [[Quillen equivalence|Quillen equivalent]] to the model category $DCat$. This is true also for the model category Cat.
 
+### $\dagger$-simplicial set
+
+> the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
+
+A &#8224;-[[simplicial set]] can be defined to be a simplicial set $X$ equipped with an involutive [[isomorphism]] $\dagger :X\to X^{op}$ which is the identity on 0-cells.
+The category of &#8224;-simplicial sets (and dagger preserving maps)
+is the category of [[presheaf|presheaves]] on the category whose objects are the ordinals $[n]$, but where the maps $[m]\to [n]$ are order reversing or preserving.
+
+
+#### $\dagger$-Graphs
+
+* [[dagger-graph]]
+
 
 ###  $(\infty,1)$-&#8224;-categories {##oo1Version}
 
@@ -257,11 +271,10 @@ is [[Quillen equivalence|Quillen equivalent]] to the model category $DCat$. This
 > the following is based on a remark by [[Andre Joyal]], posted to the CategoryTheory mailing list on Jan 6, 2010
 
 
-There should be a notion of &#8224;-[[quasi-category]].
+There should be a notion of &#8224;-[[quasi-category]] based on $\dagger$-simplicial sets as ordinary quasi-categories are based on ordinary simplicial sets.
 
-A &#8224;-[[simplicial set]] can be defined to be a simplicial set $X$ equipped with an involutive [[isomorphism]] $\dagger :X\to X^{op}$ which is the identity on 0-cells.
-The category of &#8224;-simplicial sets (and dagger preserving maps)
-is the category of [[presheaf|presheaves]] on the category whose objects are the ordinals $[n]$, but where the maps $[m]\to [n]$ are order reversing or preserving.
+(...)
+
 
 
 
