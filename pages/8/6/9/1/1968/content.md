@@ -6,6 +6,7 @@ He has worked for many years now editing,  extending and completing the work of 
 
 * _La K-th&#233;orie d'un d&#233;rivateur triangul&#233;_ (suivi d'un appendice par B. Keller) dans "Categories in Algebra, Geometry and Mathematical Physics", Contemp. Math. __431__, pp. 341-368, (2007); Version preprint: [ps](http://people.math.jussieu.fr/~maltsin/ps/streetfest.ps) (2005)
 
-* _Cat&#233;gories triangul&#233;es sup&#233;rieures_, Pr&#233;-preprint [ps](http://people.math.jussieu.fr/~maltsin/ps/triansup.ps)(2005)
+* _Cat&#233;gories triangul&#233;es sup&#233;rieures_, Pr&#233;-preprint [ps](http://people.math.jussieu.fr/~maltsin/ps/triansup.ps) (2005)
+
 
 category: people
