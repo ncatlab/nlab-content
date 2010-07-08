@@ -2078,7 +2078,7 @@ $$
   \infty SDGrpd
 $$
 
-for the composite [[adjunction]]. For $X,A \in \infty SDGrpd$ we call $\mathbf{\Pi}$ the **Lie [[schreiber:infinitesimal homotopy ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}A$ the **infinitesimally flat $\infty$-Lie groupoid** of $A$.
+for the composite [[adjunction]]. For $X,A \in \infty SDGrpd$ we call $\mathbf{\Pi}$ the **Lie [[schreiber:path ∞-groupoid|infinitesimal homotopy ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}A$ the **infinitesimally flat $\infty$-Lie groupoid** of $A$.
 
 For $X \in \infty Grpd$ we write $\mathbf{\Pi}_{inf,dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}_{inf}(X)$, i.e. for the [[pushout]]
 
