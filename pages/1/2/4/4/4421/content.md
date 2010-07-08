@@ -13,8 +13,10 @@ A _Chern-Simons form_ $CS(A)$ is a [[differential form]] naturally associated to
 
 $$
   d_{dR} CS(A) = \langle F_A \wedge \cdots \wedge F_A \rangle
-  \,.
+  \,,
 $$
+
+where $F_A \in \Omega^2(X,\mathfrak{g})$ is the [[curvature]] 2-form of $A$.
 
 More generally, for $A,A' \in \Omega^1(P, \mathfrak{g})$ two $\mathfrak{g}$-valued 1-forms and for $\hat A \in \Omega^1(P \times [0,1],\mathfrak{g})$ a "path of connections", the Chern-Simons form relative to $A$ and $A'$ is a form that trivializes the _difference_ between the two curvature characteristic forms
 
@@ -46,14 +48,14 @@ $$
 
 ## As secondary characteristic forms
 
-If the differential form $A \in \Omega^1(P,\mathfrak{g})$ is _flat_ in that $F_A = 0$ the curvature invariant $\langle F_A \wedge \cdots \wedge F_A\rangle$ is uninteresting, but now the the Chern-Simons form is closed and hence now it represents a class in [[de Rham cohomology]] encoded by $A$. This is often called a _secondary curvature invariant_ .
+If the differential form $A \in \Omega^1(P,\mathfrak{g})$ is _flat_ in that $F_A = 0$ the curvature invariant $\langle F_A \wedge \cdots \wedge F_A\rangle$ is uninteresting, but now the Chern-Simons form is closed and hence now it represents a class in [[de Rham cohomology]] encoded by $A$. This is often called a _secondary curvature invariant_ .
 
 ...
 
 
 ### Chern-Simons theory
 
-In particular on a 3-dimensionak [[smooth manifold]] $X$ necessarily the Chern-Simons 3-form is closed. The [[functional]]
+In particular on a 3-dimensional [[smooth manifold]] $X$ necessarily the Chern-Simons 3-form is closed. The [[functional]]
 
 $$
   (A \in \Omega^1(X,\mathfrak{g}))
@@ -64,6 +66,67 @@ $$
 is the [[action functional]] of the [[quantum field theory]] called [[Chern-Simons theory]].
 
 More generally, for $X$ a $(2n-1)$-dimensional [[smooth manifold]] and $\langle -,\cdots, -\rangle$ an invariant polynomial of arity $n$, the analous formula defines the [[action functional]] of  $(2n+1)$-dimensional Chern-Simons theory.
+
+## In terms of $\infty$-Lie algebroids
+
+As discussed at [[invariant polynomial]], Chern-Simons elements int the [[Weil algebra]] $W(\mathfrak{g})$ of a [[Lie algebra]] $\mathfrak{g}$ induce the transgression between invariant polynomials and cocycles in [[Lie algebra cohomology]].
+
+For 
+
+$$
+  \array{
+    T_{vert} P &\stackrel{A_{vert}}{\to}& \mathfrak{g}
+    \\
+    \downarrow && \downarrow
+    \\
+    T P &\stackrel{(A,F_A)}{\to}& inn(\mathfrak{g})
+    \\
+    \downarrow && \downarrow
+    \\
+    T X &\stackrel{(P_i(F_A))}{\to}& \prod_i b^{n_i} \mathfrak{u}(1)
+  }
+$$
+
+the data of an [[Ehresmann connection]] on a $G$-[[principal bundle]] expressed as a diagram of [[∞-Lie algebroid]]s with the [[curvature characteristic form]]s on the bottom, a choice of transgression element $cs_P$ for an [[invariant polynomial]] $P$ in transgression with a Lie algebra cocycle $\mu$ induces a diagram
+
+$$
+  \array{
+    \mathfrak{g} &\stackrel{\mu}{\to}& b^n \mathfrak{u}(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    inn(\mathfrak{g}) &\stackrel{(cs_P,P)}{\to}& e b^{n} \mathfrak{u}(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    \prod_i b^{n_i}\mathfrak{u}(1) &\stackrel{p_i}{\to}& b^{n+1} \mathfrak{u}(1)
+  }
+  \,.
+$$
+
+The [[pasting]] of this to the above [[Ehresmann connection]] expresses in the middle horizontal morphism the Chern-Simons form $cs_P(A)$ and its [[curvature characteristic form]] $P(F_A)$
+
+$$
+  \array{
+    T_{vert} P &\stackrel{A_{vert}}{\to}& \mathfrak{g} &\stackrel{\mu}{\to}& 
+    b^n \mathfrak{u}(1)
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    T P &\stackrel{A}{\to}& inn(\mathfrak{g})
+    &\stackrel{(cs_P,P)}{\to}&
+    e b^n \mathfrak{u}(1)
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    T X &\stackrel{(P_i)}{\to}& \prod_i b^{n_i} \mathfrak{u}(1)
+    &\stackrel{p_i}{\to}&
+    b^{n+1} \mathfrak{u}(1)
+  }
+  \,.
+$$
+
+
 
 ## References
 
@@ -76,3 +139,6 @@ A combinatorial formula of the kind these authors were looking for was however (
 
 * [[Jean-Luc Brylinski]], [[Dennis McLaughlin]] _&#268;ech cocycles for characteristic classes_ , Comm. Math. Phys.  178  (1996) ([pdf](http://www.springerlink.com/content/762g1m76jp6425x5/))
 
+The [[L-∞-algebra]]-formulation is discussed in [SSS08](http://arxiv.org/abs/0801.3480).
+
+[[!redirects Chern-Simons forms]]
