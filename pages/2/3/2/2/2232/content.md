@@ -41,5 +41,6 @@ _Toby_:  I\'ll try to get John\'s attention.
 _Toby_:  H\'m, John is 'too busy' until September 22.  ('_')
 =--
 
+A special case is the [[center of an abelian category]] which has a special entry because of a number of special applications and properties. 
 
 [[!redirects centre]]
