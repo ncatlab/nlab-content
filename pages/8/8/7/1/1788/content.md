@@ -95,7 +95,7 @@ $$E = m c^2$$
 
 <a href="http://arxiv.org/find/grp_math/1/au:+Nishimura/0/1/0/all/0/1?skip=0&query_id=2c78a1a2f35a7b36">arXiv on Nishimura</a>
 
-
+[[planar algebra]]
 
 &#10179;$&#x27C3;$&#x27C3;
 
