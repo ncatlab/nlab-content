@@ -66,13 +66,13 @@ _Eilenberg--Moore object_ to be defined in any bicategory.
 
 ## Tensor product
 
-Given bimodules $x' : r &#8696; s$ and $x : s &#8696; t$, where $r,s,t$ are monads on $c,b,a$ respectively, we may be able to form the **tensor product** $x \otimes_s x' : r &#8696; t$ just as in the case of bimodules over rings.  If the hom-categories of the bicategory $K$ have [[coequalizer]]s that are preserved by composition on both sides, then the tensor product is given by the coequalizer in $K(c,a)$
+Given bimodules $x' : r &#8696; s$ and $x : s &#8696; t$, where $r,s,t$ are monads on $c,b,a$ respectively, we may be able to form the **tensor product** $x \otimes_s x' : r &#8696; t$ just as in the case of bimodules over rings.  If the hom-categories of the bicategory $K$ have [[reflexive coequalizer]]s that are preserved by composition on both sides, then the tensor product is given by the reflexive coequalizer in $K(c,a)$
 $$
 \array{
   x s x' & \overset{\to}{\to} & x x' & \to x \otimes_s x'
 }
 $$
-where the parallel arrows are the two induced actions $\rho x'$ and $x \lambda$ on $s$.  It is straightforward, though a little tedious, to show that this is an $r,t$-bimodule, the conditions following from those on $x,x'$ together with the fact that coequalizers are [[epimorphism]]s and that (because of the condition on $K$) whiskering one coequalizer diagram on either side results in another.
+where the parallel arrows are the two induced actions $\rho x'$ and $x \lambda$ on $s$.  It is straightforward, though a little tedious, to show that this is an $r,t$-bimodule, the conditions following from those on $x,x'$ together with the fact that reflexive coequalizers are [[epimorphism]]s and that (because of the condition on $K$) whiskering one reflexive coequalizer diagram on either side results in another.
 
 If $K$ satisfies the above conditions then there is a bicategory $Mod(K)$ consisting of monads, bimodules and bimodule morphisms in $K$.
 
