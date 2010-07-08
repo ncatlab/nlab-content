@@ -1,6 +1,6 @@
 Book entry
 
-*  Francis Borceux, Dominique Bourn, _Mal'cev, protomodular, homological and semi-abelian categories_, Mathematics and Its Applications __566__, Kluwer 2004
+* [[Francis Borceux]], [[Dominique Bourn]], _Mal'cev, protomodular, homological and semi-abelian categories_, Mathematics and Its Applications __566__, Kluwer 2004
 
 
 # Contents:
