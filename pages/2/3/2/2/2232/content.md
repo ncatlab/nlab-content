@@ -1,13 +1,26 @@
-In general, the _center_ (or _centre_) of an object $X$ is the collection of things which "commute with all elements of $X$."  This has a number of specific incarnations.
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+In general, the _center_ (or _centre_) of an algebraic object $X$ is the collection of things which "commute with all elements of $X$."  This has a number of specific incarnations.
+
+## Defintions
+
+### Of groups and monoids
 
 The original example is the __center__ $Z(G)$ of a [[group]] $G$, which is defined to be the [[subgroup]] consisting of all elements $g\in G$ such that for all elements $h\in H$ the equality $g h=h g$ holds.  The center is an [[abelian group|abelian]] subgroup, but not every abelian subgroup is in the center.  See also [[centralizer]].
 
-The center of a group can be generalized to the center of a [[monoid]] in an obvious way.
+This notion of center of a group can be generalized to the center of a [[monoid]] in an obvious way.
+
+### Of Lie algebras
 
 The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $z\in L$. There are generalizations for some other kinds of algebras.
 
 
-## Centers of categories and higher categories
+### Of categories and higher categories
 
 The centre of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the center of a category $C$ is defined to be the commutative monoid $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$.  It is straightforward to check that this reduces to the usual definition if $C$ is a monoid, considered as a one-object category.
 
@@ -40,6 +53,8 @@ _Toby_:  I\'ll try to get John\'s attention.
 
 _Toby_:  H\'m, John is 'too busy' until September 22.  ('_')
 =--
+
+#### Of abelian categories
 
 A special case is the [[center of an abelian category]] which has a special entry because of a number of special applications and properties. 
 
