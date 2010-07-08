@@ -135,18 +135,6 @@ This was further developed in
 
 * [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
 
-A recently revised presentation that could use some work, but hopefully serves to encourage further development from the [[nPOV]] is:
-
-* [[Ian Durham]], Categorical quantum channels: Attacking the quantum version of Birkhoff's theorem with category theory ([[apstalk2.pdf:file]])
-
-+-- {: .query}
-I guess that this is all right as an introduction to quantum channels, but the connection to category theory really isn\'t made; it\'s almost two disjoint talks interwoven.  (The category theory in there is also very vaguely defined, but maybe it was good enough in context.)  ---[[Toby Bartels]]
-
-I'm not completely opposed to removing it.  The talk was limited to 10 minutes with 2 minutes for questions so I was trying to squeeze a lot in.  But the general approach to quantum channels was ripped straight from the nLab and was a bit different than most attendees were used to.
-
-Anyway, the big reason I put it here is that I thought it might inspire someone to assist with further development of the idea.  --[[Ian Durham]]
-=--
-
 
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
