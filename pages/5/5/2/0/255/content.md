@@ -18,18 +18,20 @@ To capture the theory fully, we need to include a little more data: a natural ma
 
 ##Definition
 
-A _monad_ on a category $C$ consists of
+A _monad_ on a category $C$ is a monoid in the strict monoidal category $End(C)$ of endofunctors in $C$ (where the tensor product of natural transformations is the [[horizontal composition]]).  
+
+More explicitly a monad on $C$ consists of
 
 * an [[endofunctor]] $T : C \to C$, and
 
 * a pair of [[natural transformations]] $\eta: 1_C \to T$ (the _unit_ of $T$) and $\mu: T^2 \to T$ (the _multiplication_), such that
 
-* $\eta$ is a unit for $\mu$, i.e. $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$, and
+* there exists $\eta$ which is a unit for $\mu$, i.e. $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$, and
 
 * $\mu$ is associative, i.e. $\mu \cdot (T \circ \mu) = \mu \cdot (\mu \circ T)$.
 
-This generalises evidently from categories to the objects of any [[bicategory]].  If $\mathcal{B}$ is a bicategory, a monad on an object $C$ of $\mathcal{B}$ consists of a 1-cell $T: C \to C$ together with 2-cells $\eta, \mu$ satisfying axioms as before.
-
+If we consider $C$ as an object in the 2-category $Cat$ of categories, functors and natural transformations, then we see that $(C,T,\mu,\eta)$ is a 4-tuple of a 0-cell, 1-cell and two 2-cells satisfying some diagrams.  
+Thus this makes sense in arbitrary 2-category and even a [[bicategory]].  If $\mathcal{B}$ is a bicategory, a monad on an object $C$ of $\mathcal{B}$ consists of a 1-cell $T: C \to C$ together with 2-cells $\eta, \mu$ satisfying axioms as before, but with associativity coherences taken into account (monad with underlying object $C$ in $\mathcal{B}$ is the same as a monoid in the monoidal category $Hom_{\mathcal{B}}(C,C)=\mathcal{B}(C,C)$).
 
 ###In string diagrams
 
@@ -69,6 +71,8 @@ Among higher-category theorists, it's tempting to suggest that this is the most 
 [[Peter LeFanu Lumsdaine]]: I'd been thinking the same; so I've re-organised things as you suggest, and added an "idea" section.  I think that probably goes into too much detail now, especially since "generalised algebraic theory" is only one of many ideas of what a monad is, but someone else can probably cut it down more dispassionately than I can :-)
 
 [[Mike Shulman]]: I don't think it needs any cutting down.  If anything, one could add more description of all the other things that a monad is.
+
+[[Zoran ?koda]]: I do not like the idea section. It describes a very special case of monad theory as the principal motivation, namely of monads in the category of sets. I know lots of heavy monad users, including mine, who almost never use monads to describe algebraic theories. For Jon Beck the principal motivation is cohomology theory, for some is the descent theory, for some generalized module theory, for some equivariance, for some relativizing affiness in algebraic geometry...
 =--
 
 
@@ -137,5 +141,5 @@ Book (recall that monads are also called 'triples'):
 
 * [[Michael Barr]] and [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
 
-
+* T. M. Fiore, N. Gambino, J. Kock,  _Monads in double categories_, [arxiv/1006.0797](http://arxiv.org/abs/1006.0797)
 [[!redirects monads]]
