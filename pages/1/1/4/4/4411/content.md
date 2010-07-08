@@ -18,7 +18,7 @@ Suppose $x$, $y$ are nonzero non-unit elements of $R$. Either $x/y$ or $y/x$ bel
 
 ## The valuation function 
 
-The nonzero elements of $K$ may be partially ordered as follows: write $x \leq y$ if $x/y$ belongs to $R$. For any two nonzero elements $x$, $y$ of K$, exactly one of the following conditions holds: 
+The nonzero elements of $K$ may be partially ordered as follows: write $x \leq y$ if $x/y$ belongs to $R$. For any two nonzero elements $x$, $y$ of $K$, exactly one of the following conditions holds: 
 
 * $x/y$ is a non-unit of $R$; 
 
@@ -50,7 +50,7 @@ $$v: K \to G \cup \{0\}$$
 
 (where $G$ is a totally ordered group, extended to a totally ordered monoid $G \cup \{0\}$ as above), satisfying conditions 1 - 4 listed above. Two valuations $v$, $v'$ are **equivalent** if there is an isomorphism 
 
-$$\phi: G \cup \{0\} \to G' \cup \{0}$$ 
+$$\phi: G \cup \{0\} \to G' \cup \{0\}$$ 
 
 of totally ordered monoids such that $v' = \phi \circ v$. In fact, valuations $v$ may be [[preorder|preordered]]: if we regard $v$ as a special sort of group homomorphism $v: K^* \to G$, then define $v \leq v'$ if there is a surjective homomorphism of ordered groups $\phi: G \to G'$ such that $v' = \phi \circ v$. 
 
