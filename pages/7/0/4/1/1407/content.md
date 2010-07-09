@@ -52,6 +52,11 @@ These aspects have motivated the impression that the string perturbation series 
 
 ## References
 
+For a list of literature see
+
+* [[books about string theory]].
+
+
 String theory leads a life somewhere in between the usual physics literature and the usual math literature. Large parts of it are still lacking a satisfactory mathematical formulation. But every now and then one aspect of the huge edifice of string theory finds a well defined formalization and branches off as a branch of pure mathematics. Famous examples are
 
 * [[FQFT|topological field theory]]
@@ -88,6 +93,5 @@ A book trying to summarize the state of the art of capturing mathematical struct
 
 * [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
-See also [[books about string theory]].
 
 [[!redirects superstring theory]]
