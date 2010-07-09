@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include physicscontents]]
 </div>
@@ -50,5 +49,6 @@ The study of [[brane]]s in the Poisson sigma-model is started in
 
 * Damien Calaque, Giovanni Felder, Carlo A. Rossi, _Deformation quantization with generators and relations_ ([arXiv:0911.4377](http://arxiv.org/abs/0911.4377))
 
+* Andrea Ferrario, _Poisson Sigma Model with branes and hyperelliptic Riemann surfaces_ ([arXiv:0709.0635](http://arxiv.org/abs/0709.0635))
 
 [[!redirects Poisson sigma model]]
