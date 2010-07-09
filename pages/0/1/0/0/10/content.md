@@ -51,7 +51,7 @@ Each type of theory may be considered a $2$-theory, or [[doctrine]].
 
 ## Examples 
 
-### The classifying topos for groups. 
+### For groups. 
 
 As a warm-up, we first discuss the classifying category for the theory of groups $T$ _qua_ essentially algebraic theory, i.e., we give a finitely complete category $Lex[T]$ equipped with a "generic group". This works much the same way as the [[Lawvere theory]] for groups, which is the category opposite to the category of finitely generated free groups, except that we have to "close up" the Lawvere theory under all finite limits. 
 
@@ -62,7 +62,7 @@ $$F(m) \rightrightarrows F(n)$$
 between finitely generated free groups. It may be shown that $Lex[T]$ is finitely complete, and the "generic group" inside $Lex[T]$ is $F(1)$, the free group on one generator, just as it is for the [[Lawvere theory]] (see the discussion at that entry). 
 
 
-### Classifying toposes for cover-preserving flat functors on a site
+### For cover-preserving flat functors on a site
 
 
 Any small [[site]] of definition for a
@@ -99,13 +99,17 @@ constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos
 
 This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
 
-### The classifying topos for intervals. 
+### For intervals. 
 
 ...
 
-### The classifying topos for local rings
+### For local rings
 
 The classifying topos for [[local ring|local rings]] is ... 
 
+
+### For principal bundles
+
+See [[Diaconescu's theorem]].
 
 [[!redirects Another page]]
