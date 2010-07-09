@@ -6,7 +6,7 @@ Lecture series:
 
 * Chethan Krishnan (SISSA): Quantum field theory and black holes 
 
-* [Gaston Giribet](http://www.df.uba.ar/users/gaston) (Buenos Aires):  Black hole physics and AdS3/CFT2 correspondence. (This includes Black hole physics in three-dimensional massive gravity, applications to four-dimensions (i.e. Kerr/CFT correspondence) and other topics (e.g. Lifshitz black holes).)
+* [[Gaston Giribet]] (Buenos Aires):  Black hole physics and AdS3/CFT2 correspondence. (This includes Black hole physics in three-dimensional massive gravity, applications to four-dimensions (i.e. Kerr/CFT correspondence) and other topics (e.g. Lifshitz black holes).)
 
 * [John Wang](http://www.niagara.edu/chemistry-faculty/showfaculty/133) (Niagara Univ and Buffalo) Introduction into the physics of black holes
 
@@ -18,7 +18,7 @@ Lecture series:
 
 * Holger Nielsen: discussion sessions -- Black hole information paradox
 
-Key words and related entries: AdS3/CFT2, Penrose diagram, Hawking radiation, [[asymptotic isometry]], [[intermediate mass black hole]], [[cosmology]], [[string theory]], horizon, information paradox, [[supersymmetry]], [[supergravity]], [[observing black holes]]
+Key words and related entries: [[AdS-CFT|AdS3/CFT2]], Penrose diagram, Hawking radiation, [[asymptotic isometry]], [[intermediate mass black hole]], [[cosmology]], [[string theory]], horizon, information paradox, [[supersymmetry]], [[supergravity]], [[observing black holes]]
 
 [[!redirects Croatian Black Hole School]]
 [[!redirects Croatian black hole school]]
