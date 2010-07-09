@@ -9,12 +9,12 @@ Recall that a [[topological space]] is a [[set]] equipped with a [[topological s
 
 A __bicontinous map__ is a [[function]] between bitopological spaces that is [[continuous map|continuous]] with respect to each topological structures.
 
-Bitopological spaces and bicontinuous maps form a [[category]] $Bitop$.
+Bitopological spaces and bicontinuous maps form a [[category]] $Bi Top$.
 
 
 ## Remarks
 
-It is interesting and perhaps surprising that many advanced topological notions can be described using bitopological spaces, even when you would not na&#239;vely think that there are two topologies around.  (At least, that\'s my vague memory of what they were good for.  I think that this was in some book by Isbell.)
+It is interesting and perhaps surprising that many advanced topological notions can be described using bitopological spaces, even when you would not na&#239;vely think that there are two topologies around.  (At least, that\'s my vague memory of what they were good for.  I think that this was in some article by Isbell.)
 
 
 ## References
