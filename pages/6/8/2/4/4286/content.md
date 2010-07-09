@@ -36,6 +36,13 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 * [[Croatian black hole school]], 2010
 
+* Barrett O'Neill, _The geometry of Kerr black holes_
+
+* S. Chandrasekhar, _The mathematical theory of black holes_
+
+* G. T. Horowitz, A. Strominger, _Counting states of near-extremal black holes_, Phys. Rev. Lett. 77 (1996) 2368&#8211;2371, [hep-th/9602051](http://arxiv.org/abs/hep-th/9602051).
+
+* R. D'Auria, P. Fre', _BPS black holes in [[supergravity]]_, [hep-th/9812160](http://arxiv.org/abs/hep-th/9812160)
 
 [[!redirects black holes]]
 [[!redirects black hole spacetime]]
