@@ -15,7 +15,7 @@ The **Yoneda lemma for bicategories** is a version of the [[Yoneda lemma]] that 
 
 $$ [C^{op},Cat](C(-,x), F) \simeq F(x) $$
 
-which is pseudonatural in $x$ and $F$, and which is given by evaluation at $1_x$, i.e. $\alpha\colon C(-,x)\to F$ maps to $\alpha_x(1_x)$.
+which is [[pseudonatural transformation|pseudonatural]] in $x$ and $F$, and which is given by evaluation at $1_x$, i.e. $\alpha\colon C(-,x)\to F$ maps to $\alpha_x(1_x)$.
 
 For bicategories $A$ and $B$, $[A,B]$ denotes the bicategory of [[pseudofunctors]], [[pseudonatural transformations]], and [[modifications]] from $A$ to $B$.  Note that it is a strict 2-category as soon as $B$ is.
 
@@ -29,7 +29,7 @@ A detailed proof of the bicategorical Yoneda lemma seems to be hard to find in t
 
 ### Explicit proof
 
-An explicit proof, involving many diagrams, has been written up by [[Igor Bakovic]] and can be found [here](http://www.irb.hr/korisnici/ibakovic/yoneda.pdf).
+An explicit proof, involving many diagrams, has been written up by [[Igor Baković]] and can be found [here](http://www.irb.hr/korisnici/ibakovic/yoneda.pdf).
 
 ### High-technology proof
 
