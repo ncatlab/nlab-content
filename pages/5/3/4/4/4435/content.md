@@ -28,6 +28,14 @@ One finds that
 
 * $[\iota_v, \iota_w] = 0$.
 
-These relations are sometimes called **Cartan calculus**. The first one is sometimes calledd **Cartan's magic formula**.
+These relations are sometimes called **Cartan calculus**. The first one is sometimes called **Cartan's magic formula**.
+
+There is a closely related Cartan model for equivariant cohomology, see 
+
+* V. Guillemin, S. Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
+
+Expression Cartan calculus is also used for noncommutative analogues, see e.g.
+
+* P. Schupp, _Cartan calculus: differential geometry for quantum groups_,  Quantum groups and their applications in physics (Varenna, 1994),  507--524, Proc. Internat. School Phys. Enrico Fermi, 127, IOS, Amsterdam, 1996. 
 
 [[!redirects Cartan's magic formula]]
