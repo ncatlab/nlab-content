@@ -1,5 +1,5 @@
 
-#effective epimorphism#
+# Effective epimorphisms
 * automatic table of contents goes here
 {:toc}
 
@@ -25,6 +25,7 @@ The reader should be aware, however, that some writers use "effective epimorphis
 In other words this says that $f : c \to d$ is effective if $d$ is the [[coimage]] of $f$.
 
 Sometimes we say that such morphism $f$ is an [[effective quotient]].
+
 
 ## Remarks 
 
@@ -90,10 +91,11 @@ As far as I can see Lurie doesn't define the term "regular epimorphism" at all.
 
 It's very late here and I shouldn't be working anymore, but apart from that I'd say you'd be safe with doing what you propose to do. I am not sure which hypothetical theorem you mean. Seems like just a definition is needed for that particular statement. 
 
-_Toby_:  Ah, I see, it\'s 'effective epimorphism' that Lurie defines for an $(\infty,1)$-semitops, while 'regular epimorphism' is never defined.
+_Toby_:  Ah, I see, it\'s 'effective epimorphism' that Lurie defines for an $(\infty,1)$-semitopos, while 'regular epimorphism' is never defined.
 
 =--
 
 
 [[!redirects effective epi]]
+[[!redirects effective epimorphism]]
 [[!redirects effective epimorphisms]]
