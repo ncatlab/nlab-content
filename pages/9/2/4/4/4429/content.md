@@ -21,10 +21,10 @@ of the [[curvature]] 2-form $F_A \in \Omega^2(P, \mathfrak{g})$ of any [[connect
 This is a map from the first [[nonabelian cohomology]] of $X$ with coefficients in $G$ to the [[de Rham cohomology]] of $X$
 
 $$
-  curv : H^1(X,G) \to \prod_{n_i} H_{dR}^{2 n_i}(X)
+  char : H^1(X,G) \to \prod_{n_i} H_{dR}^{2 n_i}(X)
 $$
 
-where $i$ runs over a set of generators of the invariant polynomials. This is the analogy in [[nonabelian differential cohomology|nonabelian]] [[differential cohomology]] of the generalized [[Chern character]] map in [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod]]-[[differential cohomology]].
+where $i$ runs over a set of generators of the invariant polynomials. This is the analogy in [[nonabelian cohomology|nonabelian]] [[differential cohomology]] of the generalized [[Chern character]] map in [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod]]-[[differential cohomology]].
 
 
 ## In terms of $\infty$-Lie algebroids
