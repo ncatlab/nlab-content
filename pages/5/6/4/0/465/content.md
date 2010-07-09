@@ -3,6 +3,16 @@
 {:toc}
 
 
+## Idea
+
+An [[epimorphism]] is _regular_ if it behaves like a [[covering]].
+
+
+* [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
+
+* [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
+
+
 ## Definition 
 
 A **regular epimorphism** is a [[morphism]] $f : c \to d$ (in a given [[category]]) that is the [[coequalizer]] of _some_ parallel pair of morphisms, i.e. if there exists _some_ [[colimit]] diagram of the form
