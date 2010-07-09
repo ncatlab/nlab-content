@@ -18,6 +18,10 @@ A _Grothendieck 2-topos_ is a [[2-category]] of [[2-sheaves]] over a [[2-site]].
 
 See also [[higher topos theory]].
 
+## Examples
+
+The archetypical 2-topos is [[Cat]].
+
 ## References
 
 * [[Mike Shulman]], _[[michaelshulman:What is a 2-topos]]?_
