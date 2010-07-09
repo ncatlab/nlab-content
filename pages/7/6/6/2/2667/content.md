@@ -120,7 +120,7 @@ each $R_n$ is a finite-dimensional representation of $S_n$, and only finitely ma
 
 * natural transformations between such functors as morphisms.
 
-In the rest of this article, we would like to give a conceputal explanation of this category.  
+In the rest of this article, we would like to give a conceptual explanation of this category.  
 
 As a warm-up, let us note that $\Schur$ has has a nice description in terms of groupoid of finite sets and bijections.  This groupoid is the [[core]] of the category [[FinSet]], so it is denoted $core(FinSet)$.   What is the relation between Schur functors and this groupoid.  Every Schur functor is a finite direct sum of Schur functors coming from irreducible representations of symmetric groups $S_n$ for various $n$.  But what sort of entity is a _direct sum of representations of symmetric groups $S_n$ for various $n$?_  It is nothing but a representation of the [[permutation groupoid]]:
 $$ \mathbb{P} = \bigsqcup_{n \ge 0} S_n \, , $$
