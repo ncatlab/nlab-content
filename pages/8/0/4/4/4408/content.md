@@ -27,7 +27,7 @@ A __coverage__ on $S$ (properly a __$(0,1)$-coverage__) is a [[binary relation]]
 
 (Compare the conditions on a $1$-[[coverage]].)  Given an element $u$ of $S$ and a [[subset]] $V$ of $S$, if
 $$ u \rhd V ,$$
-then we say that $V$ is a __cover__ of $u$.
+then we say that $V$ is a __[[cover]]__ of $u$ or that $u$ is __covered__ by $V$.
 
 A __site__ (properly a __$(0,1)$-site__) is a semilattice (or locally cartesian poset) equipped with a coverage.
 
@@ -55,7 +55,7 @@ Given a site $S$, a __sheaf__ on $S$ (properly a __$(0,1)$-sheaf__; compare [[(i
 
 The sheaves on a site form a [[frame]] $Sh(S)$ under inclusion, which may alternately be interpreted as a [[locale]].
 
-Every element of $S$ may be interpreted as a sheaf on $S$; given two elements $u,v$ of $S$, $u$ belongs to the __sheaf represented__ by $v$ if and only if $u \leq v$.
+Every element of $S$ may be interpreted as a sheaf on $S$; given two elements $u,v$ of $S$, $u$ belongs to the __sheaf [[represented functor|represented]]__ by $v$ if and only if $u \leq v$; that is, $v$ represents its [[down set]].
 
 The frame of sheaves is given by a [[universal property]].  If $L$ is a frame, we make $L$ into a site using its canonical coverage (see the examples below).  Then the operation from elements of $S$ to sheaves on $S$ is a morphism of sites; furthermore, given any morphism of sites from $S$ to a frame $L$ (with its canonical coverage), there exists a unique frame [[homomorphism]] from $Sh(S)$ to $L$ that makes the obvious triangle commute.
 
@@ -96,14 +96,14 @@ The [[locale of real numbers]] is generated from the locally cartesian poset $S 
 
 ## Use in predicative mathematics
 
-We call a frame (or locale) $L$ __accessible__ if it is [[isomorphism|isomorphic]] to $Sh(S)$ for some [[small category|small]] site $S$.  (Compare the concept of [[accessible category]], in the case of a [[cocomplete category|cocomplete]] [[pretopos]].)  In [[classical mathematics]], an accessible frame must be small, but this fails in [[predicative mathematics]].  (Conversely, any small frame is trivially accessible; take $S$ to be $L$ with its canonical coverage.)  Since many predicativists have philosophical objections to working with large objects at all, they may work prefer to work with small sites directly.  Whatever the philosophy, we may use small sites in place of accessible locales, or at any rate use this to prove that the category of the latter is [[essentially moderate category|essentially moderate]].
+We call a frame (or locale) $L$ __accessible__ if it is [[isomorphism|isomorphic]] to $Sh(S)$ for some [[small category|small]] site $S$.  (Compare the concept of [[accessible category]], in the case of a [[cocomplete category|cocomplete]] [[pretopos]].)  In [[classical mathematics]], an accessible frame must be small, but this fails in [[predicative mathematics]].  (Conversely, any small frame is trivially accessible; take $S$ to be $L$ with its canonical coverage.)  Since many predicativists have philosophical objections to working with large objects at all, they may prefer to work with small sites directly.  Whatever the philosophy, we may use small sites in place of accessible locales, or at any rate use this to prove that the category of the latter is [[essentially moderate category|essentially moderate]].
 
 [[formal topology|Formal topology]] is a programme for [[topology]] which is based on using small sites.  However, formal topologists also require a positivity predicate on their sites; the intended interpretation is that $u$ is positive iff (thinking of it as if it were a subset of a topological space) it is [[inhabited subset|inhabited]].  I need to figure out why this is necessary; it may be for predicativist or constructivist reasons (since the formal topologists are both at once).
 
 
 ## Non-locally cartesian sites
 
-I am a little unsure about how to do this.  On the one hand, we can define a [[coverage]] on a category that is not locally cartesian with only a little extra trouble, and to do this analogously here would keep a coverage on an arbitrary [[poset]] $S$ as a relation between $S$ and its power set.  On the other hand, the logical interpretation of a site begs to be interpreted as a sequent in [[geometric logic]], so that the left hand side should be a [[list]]; that is, a coverage on $S$ should be relation between the [[free monoid]] on $S$ and the power set.
+I am a little unsure about how to do this.  On the one hand, we can define a [[coverage]] on a category that is not locally cartesian with only a little extra trouble, and to do this analogously here would keep a coverage on an arbitrary [[poset]] $S$ as a relation between $S$ and its power set.  On the other hand, the logical interpretation of a site begs to be interpreted as a sequent in [[geometric logic]], so that the left hand side should be a [[list]]; that is, a coverage on $S$ should be relation between the [[free monoid]] on $S$ and the power set.  Hopefully these are equivalent in some appropriate way.
 
 
 ## References
