@@ -3,22 +3,22 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
-The familiar notion of the image of a map of sets may be formalized to yield a notion of image for morphisms in an arbitrary [[category]].
+The familiar notion of the image of a map between [[set]]s, i.e. morphisms in [[Set]]^, may be formalized to yield a notion of image for [[morphism]]s in an arbitrary [[category]].
 
 
-# Definitions #
+## Definitions 
 
 There are several definitions that are equivalent when they jointly apply.
 
 
-## In terms of subobjects ##
+### In terms of subobjects 
 
 Let $C$ be a [[category]], and $f: c \to d$ be a [[morphism]]. The **image** of $f$ is the smallest [[subobject]] $s \subseteq d$ through which $f$ factors (if it exists). There is a [[duality|dual]] notion of _[[coimage|co-image]]_: the largest [[quotient object|quotient]] (in the co-subobject sense) of $c$ through which $f$ factors. 
 
 
-### Remarks ###
+**Remarks**
 
 * If $C$ admits equalizers, and if $i: k \to d$ represents the image of $f: c \to d$, then the unique map $q: c \to k$ such that $f = i q$ is an epimorphism. Thus, in a finitely complete category in which every morphism admits an image, one obtains in this way an [[weak factorization system|epi-mono factorization]], but the factorization may not have particularly good properties (in particular, the factorization through the image might not be stable with respect to [[pullback]]). 
 
@@ -27,7 +27,7 @@ Let $C$ be a [[category]], and $f: c \to d$ be a [[morphism]]. The **image** of 
 * In [[Cat]], the __image__ of a [[functor]] $F:A\to B$ is the smallest [[subcategory]] of $B$ which contains images through $F$ of all morphisms in $A$.  Some of the morphisms in the image may not be images of any morphism in $A$; all morphisms in the image of $F$ are [[composite|compositions]] in $B$ of $B$-composable sequences of images of morphisms in $A$ which themselves do not necessarily form $A$-composable sequences of morphisms in $A$. Sometimes the notion of   [[essential image]] is more appropriate; as the essential image is only [[equivalence of categories|equivalent]] to the image, this is somewhat $2$-[[2-category|category]]-theoretic point of view.  
 
 
-## as a left adjoint functor ##
+### As a left adjoint functor
 
 Alternatively, let $C/d$ be the [[over category|slice category]] over $d$, and let $Mono(C)/d$ be the full subcategory whose objects are monos into $d$. Assuming images exist in $C$, taking the image of a map $f: c \to d$ provides a [[adjoint functor|left adjoint]] 
 
@@ -36,7 +36,7 @@ $$C/d \to Mono(C)/d$$
 to the inclusion $Mono(C)/d \hookrightarrow C/d$. 
 
 
-## as an equalizer ##
+### As an equalizer {#AsEqualizer}
 
 If the category $C$ admits finite [[limits]] and [[colimits]], then the image $Im f$ of a morphism $f : c \to d$ my be expressed as 
 
@@ -161,7 +161,7 @@ exists uniquely.
 =--
 
 
-### Remarks ###
+**Remarks**
 
 * If $u$ is an [[isomorphism]] then $f$ is called a [[strict morphism]].
 
@@ -173,5 +173,6 @@ exists uniquely.
 
   * in a [[presentable (infinity,1)-category]] or [[model category]] there is the notion of [[homotopy image]].
 
+* If the factorization of a morphism $f$ through its image is by an [[îsomorphism]] then the morphism probably deserves to be called an [[embedding]].
 
 [[!redirects images]]
