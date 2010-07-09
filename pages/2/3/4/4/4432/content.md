@@ -3,3 +3,5 @@ Swapneel Mahajan works on categories, higher categorical structures, and their a
 * Marcelo Aguiar and Swapneel Mahajan, _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf))
 
 See also Mahajan's ([website](http://www.math.iitb.ac.in/~swapneel/)).
+
+category: people
