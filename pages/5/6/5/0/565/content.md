@@ -7,6 +7,7 @@
 
 A _concrete category_' is a [[category]] that looks like a category of "sets with extra [[stuff, structure, property|structure]]".
 
+
 ## Definition
 
 A __concrete category__ is a category $C$
@@ -24,7 +25,10 @@ to the category [[Set]];
 The object $c_0$ is called a [[generator]] of the category.
 
 
-**Remark.** Sometimes (often?) the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunction]]s.
++-- {: .un_remark}
+###### Remark
+Sometimes (often?) the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunction]]s.
+=--
 
 
 ## Examples
@@ -39,4 +43,13 @@ This abstract nonsense indicates the usual collection of examples of concrete ca
 
 * A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]].
 
+
+## Generalisations
+
+One can consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in _[[The Joy of Cats]]_.  Then the (small) concrete categories over $X$ form a [[2-category]] $Cat(X)$.
+
+
+[[!redirects concrete category]]
 [[!redirects concrete categories]]
+[[!redirects CAT(X)]]
+[[!redirects Cat(X)]]
