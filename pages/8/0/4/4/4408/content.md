@@ -1,26 +1,26 @@
 
-# $0$-sites
+# $(0,1)$-sites
 * table of contents
 {: toc}
 
 ## Idea
 
-A $0$-site is a [[decategorification]] of a [[site]] (which may also be called a $1$-site). For the [[categorification]], see [[infinity-site]].
+A $(0,1)$-site (or $0$-site) is a [[decategorification]] of a [[site]] (which may also be called a $1$-site or $(1,1)$-site). For the [[categorification]], see [[(infinity,1)-site]].
 
-Just as a site is a [[category]] with a [[coverage]], whose ([[set]]-valued) [[sheaves]] form a [[Grothendieck topos]], so a $0$-site is a [[poset]] with a coverage, whose $0$-sheaves ([[truth value]]-valued sheaves) form a [[locale]].
+Just as a site is a [[category]] with a [[coverage]], whose ([[set]]-valued) [[sheaves]] form a [[Grothendieck topos]], so a $(0,1)$-site is a [[poset]] with a coverage, whose $(0,1)$-sheaves ([[truth value]]-valued sheaves) form a [[locale]].
 
-As locale theory serves as an approach to [[topology]] in which locales take the role traditionally held by [[topological spaces]], so $0$-sites take the role traditionally held by [[topological bases]].
+As locale theory serves as an approach to [[topology]] in which locales take the role traditionally held by [[topological spaces]], so $(0,1)$-sites take the role traditionally held by [[topological bases]].
 
-A [[formal topology]] is a $0$-site equipped with a 'positivity' predicate.
+A [[formal topology]] is a $(0,1)$-site equipped with a 'positivity' predicate.
 
-In the rest of this article, by 'site' we mean a $0$-site.
+In the rest of this article, by 'site' we mean a $(0,1)$-site.
 
 
 ## Definitions
 
 Let $S$ be a [[meet-semilattice]].  (Actually, it is not necessary that the [[poset]] $S$ have *all* finitary [[meets]] but only *[[bounded meet|bounded]]* ones.  That is, if $v, w \leq u$ for some fixed $u$, then $v \wedge w$ must exist, but not otherwise.  Such a poset $S$ is a semilattice if and only if it has a [[top element]].  Compare the notion of [[locally cartesian category]].)
 
-A __coverage__ on $S$ (properly a __$0$-coverage__) is a [[binary relation]] $\rhd$ between $S$ and its [[power set]] that satisfies these conditions:
+A __coverage__ on $S$ (properly a __$(0,1)$-coverage__) is a [[binary relation]] $\rhd$ between $S$ and its [[power set]] that satisfies these conditions:
 
 *  If $u \rhd V$ and $v \in V$, then $v \leq u$;
 *  If $u \rhd V$ and $w \leq u$, then $w \rhd \{ v \wedge w \;|\; v \in V \}$.
@@ -29,7 +29,7 @@ A __coverage__ on $S$ (properly a __$0$-coverage__) is a [[binary relation]] $\r
 $$ u \rhd V ,$$
 then we say that $V$ is a __cover__ of $u$.
 
-A __site__ (properly a __$0$-site__) is a semilattice (or locally cartesian poset) equipped with a coverage.
+A __site__ (properly a __$(0,1)$-site__) is a semilattice (or locally cartesian poset) equipped with a coverage.
 
 Given two sites $S$ and $T$, a __morphism of sites__ from $S$ to $T$ is a semilattice [[homomorphism]] $f\colon S \to T$ that respects covers in the sense that
 
@@ -46,12 +46,12 @@ Note that if $S$ and $T$ are not semilattices (but may be only locally cartesian
 
 ## Sheaves
 
-Given a site $S$, a __sheaf__ on $S$ (properly a __$0$-sheaf__; compare [[infinity-sheaf]]) is a [[subset]] $I$ of $S$ satisfying these conditions:
+Given a site $S$, a __sheaf__ on $S$ (properly a __$(0,1)$-sheaf__; compare [[(infinity,1)-sheaf]]) is a [[subset]] $I$ of $S$ satisfying these conditions:
 
 *  If $u \leq v$ and $v \in I$, then $u \in I$; and
 *  If $u \rhd V$ and $V \subseteq I$, then $u \in I$.
 
-(Compare the conditions on a $1$-[[sheaf]].)  The first condition alone states that $I$ is a __[[lower subset]]__ (a $0$-[[presheaf]]).
+(Compare the conditions on a $1$-[[sheaf]].)  The first condition alone states that $I$ is a __[[lower subset]]__ (a $(0,1)$-[[presheaf]]).
 
 The sheaves on a site form a [[frame]] $Sh(S)$ under inclusion, which may alternately be interpreted as a [[locale]].
 
@@ -96,7 +96,7 @@ The [[locale of real numbers]] is generated from the locally cartesian poset $S 
 
 ## Use in predicative mathematics
 
-We call a frame (or locale) $L$ __accessible__ if it is [[isomorphism|isomorphic]] to $Sh(S)$ for some [[small category|small]] site $S$.  (Compare the concept of [[accessible category]], restricted to the case of a [[cocomplete category|cocomplete]] [[pretopos]].)  In [[classical mathematics]], an accessible frame must be small, but this fails in [[predicative mathematics]].  (Conversely, any small frame is trivially accessible; take $S$ to be $L$ with its canonical coverage.)  Since many predicativists have philosophical objections to working with large objects at all, they may work prefer to work with small sites directly.  Whatever the philosophy, we may use small sites in place of accessible locales, or at any rate use this to prove that the category of the latter is [[essentially moderate category|essentially moderate]].
+We call a frame (or locale) $L$ __accessible__ if it is [[isomorphism|isomorphic]] to $Sh(S)$ for some [[small category|small]] site $S$.  (Compare the concept of [[accessible category]], in the case of a [[cocomplete category|cocomplete]] [[pretopos]].)  In [[classical mathematics]], an accessible frame must be small, but this fails in [[predicative mathematics]].  (Conversely, any small frame is trivially accessible; take $S$ to be $L$ with its canonical coverage.)  Since many predicativists have philosophical objections to working with large objects at all, they may work prefer to work with small sites directly.  Whatever the philosophy, we may use small sites in place of accessible locales, or at any rate use this to prove that the category of the latter is [[essentially moderate category|essentially moderate]].
 
 [[formal topology|Formal topology]] is a programme for [[topology]] which is based on using small sites.  However, formal topologists also require a positivity predicate on their sites; the intended interpretation is that $u$ is positive iff (thinking of it as if it were a subset of a topological space) it is [[inhabited subset|inhabited]].  I need to figure out why this is necessary; it may be for predicativist or constructivist reasons (since the formal topologists are both at once).
 
@@ -113,24 +113,38 @@ I am a little unsure about how to do this.  On the one hand, we can define a [[c
 
 [[!redirects 0-site]]
 [[!redirects 0-sites]]
+[[!redirects (0,1)-site]]
+[[!redirects (0,1)-sites]]
 
 [[!redirects 0-coverage]]
 [[!redirects 0-coverages]]
+[[!redirects (0,1)-coverage]]
+[[!redirects (0,1)-coverages]]
 
 [[!redirects morphism of 0-sites]]
 [[!redirects morphisms of 0-sites]]
+[[!redirects morphism of (0,1)-sites]]
+[[!redirects morphisms of (0,1)-sites]]
 [[!redirects 0-site morphism]]
 [[!redirects 0-site morphisms]]
+[[!redirects (0,1)-site morphism]]
+[[!redirects (0,1)-site morphisms]]
 
 [[!redirects 0-sheaf]]
 [[!redirects 0-sheaves]]
+[[!redirects (0,1)-sheaf]]
+[[!redirects (0,1)-sheaves]]
 
 [[!redirects frame of 0-sheaves]]
 [[!redirects frames of 0-sheaves]]
+[[!redirects frame of (0,1)-sheaves]]
+[[!redirects frames of (0,1)-sheaves]]
 [[!redirects frame of sheaves]]
 [[!redirects frames of sheaves]]
 [[!redirects locale of 0-sheaves]]
 [[!redirects locales of 0-sheaves]]
+[[!redirects locale of (0,1)-sheaves]]
+[[!redirects locales of (0,1)-sheaves]]
 [[!redirects locale of sheaves]]
 [[!redirects locales of sheaves]]
 
