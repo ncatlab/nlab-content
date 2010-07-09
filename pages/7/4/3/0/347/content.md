@@ -70,4 +70,3 @@ of a topological space or manifold. This is a priori an independent notion of co
 
 
 [[!redirects covers]]
-[[!redirects covering]]
