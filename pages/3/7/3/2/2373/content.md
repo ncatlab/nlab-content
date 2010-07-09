@@ -36,25 +36,24 @@
 
   * [[n-category]] = (n,n)-category
 
+    * [[2-category]], [[(2,1)-category]]
+
+    * [[1-category]]
+
+    * [[0-category]]
+
+    * [[(?1)-category]]
+
+    * [[(?2)-category]]
+
   * [[n-poset]] = (n&#8722;1,n)-category
+
+    * [[2-poset]]
 
   * [[n-groupoid]] = (n,0)-category
 
-  * [[2-category]]
+    * [[2-groupoid]], [[3-groupoid]]
 
-  * [[(2,1)-category]]
-
-  * [[2-groupoid]]
-
-  * [[2-poset]]
-
-  * [[1-category]]
-
-  * [[0-category]]
-
-  * [[(?1)-category]]
-
-  * [[(?2)-category]]
 
 * [[categorification]]/[[decategorification]]
 
