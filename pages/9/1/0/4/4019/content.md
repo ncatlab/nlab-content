@@ -13,7 +13,7 @@
 Linear operators on [[Hilbert spaces]] are continuous precisely iff they are bounded. A bornological space retains this property by definition.
 
 +-- {: .standout}
-The discussion below is about bornological CVSes, but there is a more general notion of [[bornological space]]; see Wikipedia.
+The discussion below is about bornological CVSes, but there is a more general notion of [[bornological space]].
 =--
 
 ## Abstract ##
@@ -48,12 +48,6 @@ Every metrizible locally convex space is bornological, that is every [[Fréchet 
 * Helmut Sch&#228;fer: _Topological Vector Spaces_, chapter 8. 
 
   
-
-[[!redirects bornology]]
-[[!redirects bornological]]
-[[!redirects bornological space]]
-[[!redirects bornological spaces]]
-
 [[!redirects bornologification]]
 
 [[!redirects bornological vector space]]
