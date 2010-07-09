@@ -1,10 +1,15 @@
+
+<div class="rightHandSide toc">
+[[!include topos theory - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf]]. 
+The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf]]: it is a [[2-sheaf]].
 
 Or rather, it is the half-categorification of a sheaf where the _codomain_ is categorified (from [[Set]] to [[Cat]] or [[Grpd]]). If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
 
