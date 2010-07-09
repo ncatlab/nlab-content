@@ -362,4 +362,8 @@ which discusses the relevance of Chern-Simons forms in [[differential K-theory]]
 
 The [[L-∞-algebra]]-formulation is discussed in [SSS08](http://arxiv.org/abs/0801.3480).
 
+An abstract algebraic model of the algebra of Chern's characteristic classes and Chern-Simons secondary characteristic classes and of the gauge group action on this algebra (which also enables some noncommutative generalizations) is pioneered in 2 articles
+
+* Israel M. Gelfand, Mikhail M. Smirnov, _The algebra of Chern-Simons classes, the Poisson bracket on it, and the action of the gauge group_,  Lie theory and geometry, 261--288, Progr. Math. __123__, Birkh&#228;user 1994; _Chern-Simons classes and cocycles on the Lie algebra of the gauge group_, The Gelfand Mathematical Seminars, 1993--1995,  101--122, Birkh&#228;user 1996.
+
 [[!redirects Chern-Simons forms]]
