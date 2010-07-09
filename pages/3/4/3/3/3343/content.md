@@ -6,7 +6,7 @@
 
 Books:
 
-* Dale Husem&#246;ller, [[Michael Joachim]], Branislav Jur&#269;o, Martin  Schottenloher, _Basic bundle theory and K-cohomology invariants_, Springer Lecture Notes in Physics __726__, 2008, [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf)
+* [[Dale Husemöller]], [[Michael Joachim]], Branislav Jur&#269;o, Martin  Schottenloher, _Basic bundle theory and K-cohomology invariants_, Springer Lecture Notes in Physics __726__, 2008, [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf)
 
 * nCafe discussion on above book: [blog](http://golem.ph.utexas.edu/category/2007/12/basic_bundle_theory_and_kcohom.html)
 
@@ -16,7 +16,7 @@ Some articles mentioned in $n$lab or $n$cafe:
 
 * _Classical Yang-Baxter equations and quantum integrable systems ([[Gaudin models]])_, pp. 1616-6361 in Springer Lect. Notes in Physics __370__ (1990) [doi](http://dx.doi.org/10.1007/3-540-53503-9)
 
-* Igor Bakovi&#263;, Branislav Jur&#269;o, _The classifying topos of a topological bicategory_, Homology, homotopy and applications 12(1), 279-300 (2010), [published files](http://www.intlpress.com/HHA/v12/n1/a14), [arxiv/0902.1750](http://arxiv.org/abs/0902.1750), [cafe](http://golem.ph.utexas.edu/category/2009/02/bakovi_and_juro_on_classifying.html).
+* [[Igor Baković]], Branislav Jur&#269;o, _The classifying topos of a topological bicategory_, Homology, homotopy and applications 12(1), 279-300 (2010), [published files](http://www.intlpress.com/HHA/v12/n1/a14), [arxiv/0902.1750](http://arxiv.org/abs/0902.1750), [cafe](http://golem.ph.utexas.edu/category/2009/02/bakovi_and_juro_on_classifying.html).
 
 category: people
 
