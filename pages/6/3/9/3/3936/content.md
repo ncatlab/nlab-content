@@ -17,7 +17,7 @@ The term **structure** is often used to mean a realization of types, operations,
 
 ### For Lawvere theories
 
-For $Syn(T)$ the [[syntactic category]] of a [[Lawvere theory]], and for $C$ any category with finite [[limit]]s, a _model_ for $T$ in $C$ is a product-preservinf functor
+For $Syn(T)$ the [[syntactic category]] of a [[Lawvere theory]], and for $C$ any category with finite [[limit]]s, a _model_ for $T$ in $C$ is a product-preserving functor
 
 $$
   N : Syn(T) \to C
