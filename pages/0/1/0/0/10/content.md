@@ -74,7 +74,7 @@ The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]
 
 ### For principal bundles
 
-For any (discrete) group $G$, the category of $G$-sets is the classifying topos for principal $G$-bundles.  For example, if $X$ is any topological space, geometric morphisms from the topos of [[sheaves]] on $X$ to $G Set$ are the same as principal $G$-bundles over $X$.  As a result, the category of $G$-sets is sometimes denoted $B G$.   
+For any (discrete) group $G$, the category of $G$-sets is the classifying topos for $G$-[[principal bundle]]s.  For example, if $X$ is any [[topological space]], geometric morphisms from the topos $Sh(X)$ of [[sheaves]] on $X$ to $G Set$ are the same as $G$-principal bundles over $X$.  As a result, the category of $G$-sets is sometimes denoted $B G$.   
 
 This idea admits generalizations to [[topological groups]] --- or more precisely, [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[Diaconescu's theorem]].
 
