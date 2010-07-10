@@ -10,25 +10,59 @@
 
 ## The idea 
 
-The 'classifying topos' for a given type of mathematical structure --- for example a group, a ring, a category, etc. --- is roughly a topos $S[T]$ such that [[geometric morphisms]] $f: E \to S[T]$ are the same as structures of this sort in the topos $E$.  One can think of classifying topoi as a grand generalization of the notion of [[classifying space]] in topology.
+
+The _classifying topos_ for a given type of mathematical structure $T$ --- for example the structures: "[[group]]", "[[torsor]]", "[[ring]]", "[[category]]"  etc. --- is a [[topos]] $S[T]$ such that [[geometric morphisms]] $f: E \to S[T]$ are the same as structures of this sort in the topos $E$, i.e. groups [[internalization|internal to]] $E$, torsors internal to $E$, etc. 
+
+In particular for $E$ a [[sheaf topos]] on a [[topological space]] $X$ and $G$ a (bare, i.e. discrete) [[group]], a $G$-torsor in $E$ is a $G$-[[principal bundle]] over $X$. There is a classifying topos denoted $B G$, such that the [[groupoid]] $G Bund(X)$ of $G$-[[principal bundle]]s over $X$ is equivalent to geometric morphims $Sh(X) \to B G$:
+
+$$
+  G Bund(X) \simeq Topos(Sh(X), B G)
+  \,.
+$$
+
+This is evidently analogous to the notion of [[classifying space]] in [[topology]], which for the discrete group $G$ is a [[topological space]] $\mathcal{B} G$ such that
+
+$$
+  \pi_0 G Bund(X) \simeq \pi_0 Top(X, \mathcal{B}G)
+  \,.
+$$
+
+Hence one can think of classifying topoi as a grand generalization of the notion of [[classifying space]] in topology.
 
 ## Definition
 
-For a given [[geometric theory]] $T$, a **classifying [[topos]]** for $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
+In a tautological way, every topos $F$ is the classifying topos for something, namely for the categories of [[geometric morphism]]s $E \to F$ into it. The concept of [[geometric theory]] allows to usefully interpret these categories as _categories of certain structures in $E$_ :
+
+as decribed in [Geometric theories -- In terms of sheaf topoi](http://ncatlab.org/nlab/show/geometric+theory#InTermsOfSheafTopoi), every [[sheaf topos]] $F$ is a completion $S[T]$ of the [[syntactic category]] $C_T$ of _some_ [[geometric theory]] $T$
+
+$$
+  F \simeq S[T]  
+  \,.
+$$
+
+And structures of type $T$ in $E$ is what geometric morphisms $E \to F$ classify.
+
+So the **classifying [[topos]]** for the geometric theory $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
 
 If $C_T$ is the [[syntactic category]] of $T$, so that $T$-models are the same as [[geometric category|geometric functors]] out of $C_T$, then this universal model can be identified with a certain geometric functor
+
 $$
   U : C_T \to S[T]
   \,.
 $$
+
 Its universality property means that any geometric functor
+
 $$
   X : C_T \to E
 $$
+
 factors essentially uniquely as
+
 $$
   X : C_T \stackrel{U}{\to} S[T] \stackrel{f^*}{\to} E
 $$
+
 for $U$ the universal model and $f^*$ the [[left adjoint]] part of a [[geometric morphism]].  More precisely, composition with $U$ defines an equivalence between the category of geometric morphisms $E\to S[T]$ and the category of geometric functors $C_T\to E$.
 
 Classifying toposes can also be defined over any base topos $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "bounded $S$-topos."
@@ -49,9 +83,15 @@ Each type of theory may be considered a $2$-theory, or [[doctrine]].  Furthermor
 
 ## Examples 
 
+### For objects
+
+The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the classifying topos _for objects_
+
+For $E$ any topos, a geometric morphism $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$.
+
 ### For groups
 
-As a warm-up, we start with the finite products theory of groups. This theory has a classifying category $C_{fp}(Grp)$.  $C_{fp}(Grp)$ is a category with finite products equipped with an object $G$, the "[[walking]] group", a morphism $m: G \times G \to G$ describing multiplication, a morphism $inv : G \to G$ describing inverses, and a morphism $i: 1 \to G$ describing the identity element of $G$, obeying the usual group axioms.   For any category with finite products, say $E$, a finite-product-preserving functor $f: C_{fp}(Grp) \to E$ is the same as a [[group object]] in $E$.   For more details, see [[Lawvere theory]].
+We discuss the [[essentially algebraic theory|finite product theory]] of [[group]]s. This theory has a classifying category $C_{fp}(Grp)$.  $C_{fp}(Grp)$ is a category with finite products equipped with an object $G$, the "[[walking]] group", a morphism $m: G \times G \to G$ describing multiplication, a morphism $inv : G \to G$ describing inverses, and a morphism $i: 1 \to G$ describing the identity element of $G$, obeying the usual group axioms.   For any category with finite products, say $E$, a finite-product-preserving functor $f: C_{fp}(Grp) \to E$ is the same as a [[group object]] in $E$.   For more details, see [[Lawvere theory]].
 
 We can promote $C_{fp}(Grp)$ to a category with finite limits, $C_{fl}(Grp)$, by adjoining all finite limits.   One way to do this is to take the category of models of $C_{fp}(Grp)$ in Set, which is simply $Grp$, and then take the full subcategory of [[finitely presentable object|finitely presentable]] groups.  By [[Gabriel-Ulmer duality]], the opposite of this is $C_{fl}(Grp)$.
 For any category with finite products, say $E$, a left exact functor $f: C_{fp}(Grp) \to E$ is the same as a [[group object]] in $E$.
@@ -71,12 +111,6 @@ The discussion above for groups can be repeated verbatim for rings, since they t
 ### For local rings
 
 The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.
-
-### For principal bundles
-
-For any (discrete) group $G$, the category of $G$-sets is the classifying topos for $G$-[[principal bundle]]s.  For example, if $X$ is any [[topological space]], geometric morphisms from the topos $Sh(X)$ of [[sheaves]] on $X$ to $G Set$ are the same as $G$-principal bundles over $X$.  As a result, the category of $G$-sets is sometimes denoted $B G$.   
-
-This idea admits generalizations to [[topological groups]] --- or more precisely, [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[Diaconescu's theorem]].
 
 ### Any Grothendieck topos 
 
@@ -122,6 +156,35 @@ $$
 constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos]] $Sh_{(\infty,1)}(\mathcal{G})$ and exhibits it as the classifying topos for such models (geometries):
 
 This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
+
+### For principal bundles
+
+#### Over bare groups
+
+For any (bare / discrete) [[group]] $G$, the presheaf topos
+
+$$
+  B G := G Set
+$$
+
+of $G$-sets (objects are [[set]]s equipped with a $G$-[[action]], morphisms are $G$-equivariant maps between these) is the classifying topos for $G$-[[torsor]]s. 
+
+For example, if $X$ is a [[topological space]], geometric morphisms from the [[sheaf topos]] $Sh(X)$ of [[sheaves]] on (the [[category of open subsets]] of) $X$ to $G Set$ are the same as $G$-[[principal bundle]]s over $X$
+
+$$
+  G Bund(X) \simeq Topos(Sh(X), G Set)
+  \,.
+$$
+
+#### Over topological groups
+
+If $G$ is a general [[topological group]] we have the  is a [[simplicial object|simplicial]] [[topological space]] $G^{\times \bullet}$. The category $Sh(G^{\times \bullet})$ of [[sheaves on a simplicial topological space|sheaves on this simplicial space]] is a topos. 
+
+This is such that for $X$ a topological space, geometric morphisms $Sh(X) \to Sh(G^{\times \bullet})$ classifies topological $G$-principal bundles on $X$.
+
+This idea admits generalizations to [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[Diaconescu's theorem]].
+
+
 
 ## References ##
 
