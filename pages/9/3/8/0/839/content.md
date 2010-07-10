@@ -29,4 +29,11 @@ A [[semi-strict infinity-category|semistrict]] [[algebraic definition of higher 
 
 An entirely strict algebraic model for 3-groupoids (which no longer models all [[homotopy 3-type]]s) is a 3-[[truncated]] [[strict omega-groupoid]].
 
+## References ##
 
+* Simona Paoli, Semistrict models of connected 3-types and Tamsamani's weak 3-groupoids, _Journal of Pure and Applied Algebra_
+**211** (2007), 801-820.
+
+* Carlos Simpson, Homotopy types of strict 3-groupoids.  ([arXiv](http://arxiv.org/abs/math/9810059))
+
+ 
