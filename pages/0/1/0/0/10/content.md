@@ -8,6 +8,10 @@
 * automatic table of contents goes here
 {:toc}
 
+## The idea 
+
+The 'classifying topos' for a given type of mathematical structure --- for example a group, a ring, a category, etc. --- is roughly a topos $S[T]$ such that [[geometric morphisms]] $f: E \to S[T]$ are the same as structures of this sort in the topos $E$.  One can think of classifying topoi as a grand generalization of the notion of [[classifying space]] in topology.
+
 ## Definition
 
 For a given [[geometric theory]] $T$, a **classifying [[topos]]** for $T$ is a [[Grothendieck topos]] $S[T]$ equipped with a "universal model $U$ of $T$".  This means that for any Grothendieck topos $E$ together with a model $X$ of $T$ in $E$, there exists a unique (up to isomorphism) [[geometric morphism]] $f: E \to S[T]$ such that $f^*$ maps the $T$-model $U$ to the model $X$.  More precisely, for any Grothendieck topos $E$, the category of $T$-models in $E$ is equivalent to the category of geometric morphisms $E \to S[T]$.
@@ -29,41 +33,61 @@ for $U$ the universal model and $f^*$ the [[left adjoint]] part of a [[geometric
 
 Classifying toposes can also be defined over any base topos $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "bounded $S$-topos."
 
-## Properties
-
-Any [[Grothendieck topos]] can be thought of as a 'classifying topos'. A useful discussion of this idea starts
-[here](http://golem.ph.utexas.edu/category/2007/10/geometric_representation_theor_2.html#c012724).
-
 
 ## Background on the theory of theories
 
 
-The notion of _classifying topos_ is part of a trend, begun by [[Bill Lawvere|Lawvere]], of viewing a mathematical [[theory]] as a category with suitable exactness properties and which contains a "generic model", and a model of the theory as a functor which preserves those properties. The original example is that of finitary [[algebraic theory]], which was reformulated in terms of [[finitely complete category|categories with finite products]] (see [[Lawvere theory]]). 
+The notion of _classifying topos_ is part of a trend, begun by [[Bill Lawvere|Lawvere]], of viewing a mathematical [[theory]] as a category with suitable exactness properties and which contains a "generic model", and a model of the theory as a functor which preserves those properties. The original example is that of a 'finite products theory':
 
-* **Algebraic theory.** Roughly speaking, a (finitary) algebraic theory is any theory which can be formulated in the language of categories with finite [[product]]s. An example would be the theory of groups. As explained in the entry for [[Lawvere theory]], each algebraic theory has a Lawvere theory which is a "classifying category" for that theory, in that models for the theory correspond precisely to product-preserving functors coming out of the Lawvere theory.
+* **Finite products theory.**  Roughly speaking, a 'finite products theory', 'Lawvere theory', or 'algebraic theory' is a theory describing some mathematical structure that can be defined in an arbitrary category with finite products.  An example would be the theory of [[groups]]. As explained in the entry for [[Lawvere theory]], for each such theory $T$ there is a category with finite products $C_{fp}[T]$, which serves as a "classifying category" for $T$, in that models of $T$ in the category of sets correspond to product-preserving functors $f : C_{fp}[T] \to Set$.   More generally, for any category with finite products, say $E$, models of $T$ in $E$ correspond to product-preserving functors $f : C_{fp}[T] \to E$.   
 
-* **Essentially algebraic theory.** Next up the line is the notion of (finitary) [[essentially algebraic theory]]. This is any theory which can be formulated in the language of [[finitely complete category|categories with finite limits]]. An example would be the theory of categories. Again, every essentially algebraic theory admits a classifying category: a [[finitely complete category]] with a "generic model", such that models of the theory correspond to left exact functors coming out of that category. 
+* **Finite limits theory.** Next up the line is the notion of  'finite limits theory', sometimes called an [[essentially algebraic theory]].  This is roughly a theory describing some structure that can be defined in an arbitrary category with finite limits (also called a [[finitely complete category]]).  An example of a finite limits theory would be the theory of categories.   (The notion of 'category' requires finite limits, while the notion of 'group' does not, because categories but not groups involve a _partially defined_ operation, namely composition of morphisms.)    Every finite limits theory $T$ admits a classifying category $C_{fl}(T)$: a finitely complete category such that models of $T$ in a category $E$ with finite limits correspond to functors $f: C_{fl}(T) \to E$ that preserve finite limits.  (Such functors are called [[left exact]], or 'lex' for short.)  
 
-* **Geometric theory.** Further up the line (and speaking roughly), a [[geometric theory]] is a theory which can be formulated in that fragment of first-order logic that deals in finite limits and arbitrary (small) colimits. Certain exactness properties which come into play here, but there are two basic ideas to keep in mind. One is that a geometric theory has a classifying category: a category having those exactness properties (viz., a Grothendieck topos) and possessing a "generic object" for that theory. The other is that a geometric morphism $ f_*: E \to S[T] $ is tantamount to a left exact left adjoint $ f^*: S[T] \to E $, which preserves such finite limits and small colimits ($ f_* $ is the right adjoint of $ f^* $). The left exact left adjoint would thus be a model of that theory, much as models of an essentially algebraic theory are left exact functors out of the classifying category for that theory. 
+* **Geometric theory.** Further up the line, a [[geometric theory]] is roughly a theory which can be formulated in that fragment of first-order logic that deals in finite limits and arbitrary (small) colimits. Certain exactness properties which come into play here, but there are two basic ideas to keep in mind. One is that a geometric theory has a classifying category: a category having those exactness properties (viz., a Grothendieck topos) and possessing a "generic object" for that theory. The other is that a geometric morphism $ f_*: E \to S[T] $ has a [[left exact]] [[left adjoint]] $ f^*: S[T] \to E $.   We can think of $f^*$ as a model of $T$, much as models of an essentially algebraic theory are left exact functors out of the classifying category for that theory. 
 
-Each type of theory may be considered a $2$-theory, or [[doctrine]].
-
+Each type of theory may be considered a $2$-theory, or [[doctrine]].  Furthermore, each type of theory can be promoted to a theory "further up the line".  To go from a finite products theory $T$ to the corresponding finite limits theory we can take the opposite of the category of [[finitely presentable object|finitely presentable models]] of $T$ in $Set$, thanks to [[Gabriel-Ulmer duality]].  To go from finite limits theory to the corresponding classifying topos we can take the category of presheaves.
 
 ## Examples 
 
-### For groups. 
+### For groups
 
-As a warm-up, we first discuss the classifying category for the theory of groups $T$ _qua_ essentially algebraic theory, i.e., we give a finitely complete category $Lex[T]$ equipped with a "generic group". This works much the same way as the [[Lawvere theory]] for groups, which is the category opposite to the category of finitely generated free groups, except that we have to "close up" the Lawvere theory under all finite limits. 
+As a warm-up, we start with the finite products theory of groups. This theory has a classifying category $C_{fp}(Grp)$.  $C_{fp}(Grp)$ is a category with finite products equipped with an object $G$, the "[[walking]] group", a morphism $m: G \times G \to G$ describing multiplication, a morphism $inv : G \to G$ describing inverses, and a morphism $i: 1 \to G$ describing the identity element of $G$, obeying the usual group axioms.   For any category with finite products, say $E$, a finite-product-preserving functor $f: C_{fp}(Grp) \to E$ is the same as a [[group object]] in $E$.   For more details, see [[Lawvere theory]].
 
-Thus, we take $Lex[T]$ to be the category opposite to the category of _finitely presented groups_: those groups $G$ which arise as coequalizers of diagrams 
+We can promote $C_{fp}(Grp)$ to a category with finite limits, $C_{fl}(Grp)$, by adjoining all finite limits.   One way to do this is to take the category of models of $C_{fp}(Grp)$ in Set, which is simply $Grp$, and then take the full subcategory of [[finitely presentable object|finitely presentable]] groups.  By [[Gabriel-Ulmer duality]], the opposite of this is $C_{fl}(Grp)$.
+For any category with finite products, say $E$, a left exact functor $f: C_{fp}(Grp) \to E$ is the same as a [[group object]] in $E$.
 
-$$F(m) \rightrightarrows F(n)$$ 
+We can further promote $C_{fl}(Grp)$ to a [[Grothendieck topos]] by taking the category of [[presheaves]].  This gives the classifying topos for groups:
+$$       S[Grp] = Set^{C_{fl}(Grp)^{op}}  \, . \]
+For any Grothendieck topos, say $E$, a left exact left adjoint functor $ f^*: S[T] \to E $ is the same as a [[group object]] in $E$.
 
-between finitely generated free groups. It may be shown that $Lex[T]$ is finitely complete, and the "generic group" inside $Lex[T]$ is $F(1)$, the free group on one generator, just as it is for the [[Lawvere theory]] (see the discussion at that entry). 
+### For rings
 
+The discussion above for groups can be repeated verbatim for rings, since they too are described by a finite products theory.
+
+### For intervals
+
+[[Andre Joyal]] showed that $Set^{{\Delta}^{op}}$, the category of [[simplicial sets]], is the classifying topos for [[interval objects]].  For example, a geometric morphism from $Set$ to $Set^{{\Delta}^{op}}$ is an **interval** in $Set$, meaning a linearly ordered set with a top and bottom element.  
+
+### For local rings
+
+The classifying topos for [[local ring|local rings]] is the [[big Zariski topos]] of the [[scheme]] $Spec(\mathbb{Z})$.
+
+### For principal bundles
+
+For any (discrete) group $G$, the category of $G$-sets is the classifying topos for principal $G$-bundles.  For example, if $X$ is any topological space, geometric morphisms from the topos of [[sheaves]] on $X$ to $G Set$ are the same as principal $G$-bundles over $X$.  As a result, the category of $G$-sets is sometimes denoted $B G$.   
+
+This idea admits generalizations to [[topological groups]] --- or more precisely, [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[Diaconescu's theorem]].
+
+### Any Grothendieck topos 
+
+In fact, _any_ [[Grothendieck topos]] can be thought of as a classifying topos.  This is related to the discussion above, since Joyal and Tierney showed that any Grothendieck topos is equivalent to the $B G$ for some localic groupoid $G$.  A useful discussion of this idea starts
+[here](http://golem.ph.utexas.edu/category/2007/10/geometric_representation_theor_2.html#c012724).
+
+### Any topos of presheaves
+
+As a special case of the above, any presheaf topos, i.e. any topos of the form $Set^{C^{op}}$, is the classifying topos for [[flat functors]] from $C$.  In other words, geometric morphisms $E \to Set^{C^{op}}$ are the same as flat functors $C \to E$.  If $C$ has finite limits, a flat functor $C \to E$ is the same as a functor that preserves finite limits.  
 
 ### For cover-preserving flat functors on a site
-
 
 Any small [[site]] of definition for a
 [[Grothendieck topos]] $E$ can be considered as a 
@@ -99,17 +123,13 @@ constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos
 
 This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
 
-### For intervals. 
+## References ##
 
-...
+* [[Ieke Moerdijk]],  The classifying topos of a continuous groupoid I, _Trans. A.M.S._ **310** (1988), 629-668.
 
-### For local rings
+* [[Ieke Moerdijk]], The classifying topos of a continuous groupoid  II, _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_, **31** no. 2 (1990), 137-168.  ([web](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1990__31_2_137_0))
 
-The classifying topos for [[local ring|local rings]] is ... 
+* [[Ieke Moerdijk]], Classifying spaces and classifying topoi, _Lecture Notes in Math._ **1616**, Springer-Verlag, New York, 1995.
 
-
-### For principal bundles
-
-See [[Diaconescu's theorem]].
 
 [[!redirects Another page]]
