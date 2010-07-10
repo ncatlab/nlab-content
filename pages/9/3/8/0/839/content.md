@@ -32,7 +32,7 @@ An entirely strict algebraic model for 3-groupoids (which no longer models all [
 ## References ##
 
 * Simona Paoli, Semistrict models of connected 3-types and Tamsamani's weak 3-groupoids, _Journal of Pure and Applied Algebra_
-**211** (2007), 801-820.
+**211** (2007), 801-820. ([arXiv](http://arxiv.org/abs/math/0607330))
 
 * Carlos Simpson, Homotopy types of strict 3-groupoids.  ([arXiv](http://arxiv.org/abs/math/9810059))
 
