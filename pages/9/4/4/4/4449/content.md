@@ -21,6 +21,8 @@ $$
 
 in the [[2-category of toposes]] is called the [[classifying topos]] of $\mathcal{G}$.
 
+This has an explicit description along the lines discussed at [[sheaves on a simplicial topological space]].
+
 **Proposition** (Joyal-Tierney)
 
 For every [[Grothendieck topos]] $E$ there is a [[localic groupoid]] $\mathcal{G}$ such that $E \simeq Sh(\mathcal{G})$.
