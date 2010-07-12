@@ -35,7 +35,7 @@ If $H\rightarrowtail G$ is a localic subgroup, we construct its closure $\bar{H}
 
 ## Localic groupoids
 
-An important generalization of localic groups is to _localic groupoids_ , i.e. internal [[groupoids]] in the category of locales.  Localic groupoids are important, among other reasons, because every [[Grothendieck topos]] can be presented as the [[topos]] of equivariant [[sheaves]] on some localic groupoid.  This fact is due to [[Andre Joyal|Joyal]] and Tierney.
+An important generalization of localic groups is to _localic groupoids_ , i.e. internal [[groupoids]] in the category of locales.  Localic groupoids are important, among other reasons, because every [[Grothendieck topos]] can be presented as the [[topos]] of equivariant [[sheaves]] on some localic groupoid.  This fact is due to [[Andre Joyal|Joyal]] and Tierney. For more see [[classifying topos of a localic groupoid]].
 
 ## References
 
