@@ -2,14 +2,23 @@
 [[!include topos theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
+
+## Idea
 
 The notion of $(0,1)$-topos is that of [[topos]] in the context of [[(0,1)-category]] theory (see [[(n,r)-category]]).
 
 The notion of $(0,1)$-topos is essentially equivalent to that of [[Heyting algebra]]; similarly, a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a [[locale]].
 
 
-#References#
+
+Notice that every $(1,1)$-[[Grothendieck topos]] comes from a [[localic groupoid]], i.e. a [[groupoid]] [[internal category|internal to]] locales, hence a groupoid internal to $(0,1)$-toposes. See [[classifying topos of a localic groupoid]] for more.
+
+
+## References
 
 section 6.4.2 of 
 
