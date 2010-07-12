@@ -9,7 +9,7 @@
 
 ## Idea
 
-Very often instead of merely having a _set_ of morphisms from one object to another, a category will have a _vector space_ of morphisms, or a _topological space_ or morphisms, or some other such thing.  This suggests that we should take the definition of ([[locally small category|locally small]]) category and generalize it by replacing the hom-sets by 'hom-objects', which are objects in a suitable category $K$.
+Very often instead of merely having a _set_ of morphisms from one object to another, a category will have a _vector space_ of morphisms, or a _topological space_ of morphisms, or some other such thing.  This suggests that we should take the definition of ([[locally small category|locally small]]) category and generalize it by replacing the hom-sets by 'hom-objects', which are objects in a suitable category $K$.
 This gives the concept of 'enriched category'.
 
 The category $K$ must be [[monoidal category|monoidal]], so that we can define composition as a morphism
