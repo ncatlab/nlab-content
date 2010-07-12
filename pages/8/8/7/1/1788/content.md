@@ -97,6 +97,8 @@ $$E = m c^2$$
 
 [[planar algebra]]
 
+[[Freyd cover]]
+
 &#10179;$&#x27C3;$&#x27C3;
 
 
