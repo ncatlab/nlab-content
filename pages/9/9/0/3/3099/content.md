@@ -51,7 +51,7 @@ $$
 
 ### Operations on species
 
-There are in fact 5 important monoidal structures on the category of species.  For a discussion of all five, you'll currently have to read about [[Schur functors]], where these operations are discussed in the context of $Fin\Vect$-valued species, i.e. $Fin\Vect$-valued presheaves on the groupoid of finite sets.  But here here are two:
+There are in fact 5 important monoidal structures on the category of species.  For a discussion of all five, you'll currently have to read about [[Schur functors]], where these operations are discussed in the context of $Fin\Vect$-valued species, i.e. $Fin\Vect$-valued presheaves on the groupoid of finite sets.  But here are two:
 
 #### Sum
 
@@ -64,7 +64,7 @@ $$
 
 #### Product
 
-The category $core(FinSet)$ becomes a [[monoidal category]] under disjoint union of fiite sets. This monoidal structure $(core(FinSet), \coprod)$ induces canonically the [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$.
+The category $core(FinSet)$ becomes a [[monoidal category]] under disjoint union of finite sets. This monoidal structure $(core(FinSet), \coprod)$ induces canonically the [[Day convolution]] monoidal structure on $Species := PSh(core(FinSet))$.
 
 For $A$ and $B$ two combinatorial species, their product is given by the [[coend]]
 
