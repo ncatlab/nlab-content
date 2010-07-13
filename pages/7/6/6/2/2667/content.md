@@ -131,7 +131,7 @@ $$ \mathbb{P} \simeq core(FinSet) \, .$$
 
 As a result, any Schur functor gives a functor
 $$    R : core(FinSet) \to Vect $$
-Following Joyal's work on combinatorics, such functors are known as $Vect$-valued [[species]], or $Vect$-valued [[structure type|structure types]].  The idea here is that just as an ordinary Set-valued species 
+Following [[Andre Joyal|Joyal]]'s work on combinatorics, such functors are known as $Vect$-valued [[species]], or $Vect$-valued [[structure type|structure types]].  The idea here is that just as an ordinary Set-valued species 
 $$    T : core(FinSet) \to Set $$
 assigns to any finite set a _set_ of structures of some type,
 a $Vect$-valued species assigns to any finite set a _vector space_ of structures of some type,   Thanks to the 'free vector space on a set' functor 
@@ -677,9 +677,9 @@ Representation Theory and Geometry_, Cambridge U. Press, 1997.
 
 [[species|Species]] were invented here:
 
-* Andr&#233; Joyal, Une th&#233;orie combinatoire des s&#233;ries formelles, _Adv. Math_ **42** (1981), 1--82.
+* [[André Joyal]], Une th&#233;orie combinatoire des s&#233;ries formelles, _Adv. Math_ **42** (1981), 1--82.
 
-* Andr&#233; Joyal: Foncteurs analytiques et esp&egrave;ces des structures, in _Combinatoire &#201;num&#233;rative_, Lecture Notes in Mathematics **1234**, Springer, Berlin, 1986, pp. 126--159.  
+* [[André Joyal]]: Foncteurs analytiques et esp&egrave;ces des structures, in _Combinatoire &#201;num&#233;rative_, Lecture Notes in Mathematics **1234**, Springer, Berlin, 1986, pp. 126--159.  
 
 A standard reference on species is:
 
