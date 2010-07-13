@@ -1,4 +1,74 @@
-+-- {: .standout}
+$\eta _c\left(\text{Id}_c\right)\text{  }\in \text{  }X(c)$
+
+$\eta _c\left(\text{Id}_c\right) \in  X(c)$
+
+<math xmlns='http://www.w3.org/1998/Math/MathML'
+
+    mathematica:form='StandardForm'
+
+    xmlns:mathematica='http://www.wolfram.com/XML/'>
+
+ <mrow>
+
+  <mrow>
+
+   <msub>
+
+    <mi>&#951;</mi>
+
+    <mi>c</mi>
+
+   </msub>
+
+   <mo>&#8290;</mo>
+
+   <mrow>
+
+    <mo>(</mo>
+
+    <msub>
+
+     <mi>Id</mi>
+
+     <mi>c</mi>
+
+    </msub>
+
+    <mo>)</mo>
+
+   </mrow>
+
+  </mrow>
+
+  <mtext> </mtext>
+
+  <mo>&#8712;</mo>
+
+  <mtext> </mtext>
+
+  <mrow>
+
+   <mi>X</mi>
+
+   <mo>&#8290;</mo>
+
+   <mrow>
+
+    <mo>(</mo>
+
+    <mi>c</mi>
+
+    <mo>)</mo>
+
+   </mrow>
+
+  </mrow>
+
+ </mrow>
+
+</math>
+
+-- {: .standout}
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
 
