@@ -30,9 +30,29 @@ Strictly speaking, there is no discrete [[metric space]] on any set with more th
 
 [[!redirects discrete space]]
 [[!redirects discrete spaces]]
+
 [[!redirects discrete topology]]
 [[!redirects discrete topologies]]
+[[!redirects discrete topological structure]]
+[[!redirects discrete topological structures]]
 [[!redirects discrete topological space]]
 [[!redirects discrete topological spaces]]
+
+[[!redirects discrete uniformity]]
+[[!redirects discrete uniformities]]
+[[!redirects discrete uniform structure]]
+[[!redirects discrete uniform structures]]
+[[!redirects discrete uniform space]]
+[[!redirects discrete uniform spaces]]
+
+[[!redirects discrete metric]]
+[[!redirects discrete metrics]]
+[[!redirects discrete metric space]]
+[[!redirects discrete metric spaces]]
+[[!redirects discrete extended metric]]
+[[!redirects discrete extended metrics]]
+[[!redirects discrete extended metric space]]
+[[!redirects discrete extended metric spaces]]
+
 [[!redirects discrete locale]]
 [[!redirects discrete locales]]
