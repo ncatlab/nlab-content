@@ -11,7 +11,9 @@
 
 A **strict $\omega$-groupoid** or **strict $\infty$-groupoid**is a [[strict ∞-category]] in which all [[k-morphism]]s have a strict [[inverse]] for all $k \in \mathbb{N}$
 
-By a result by Brown and Higgins, going back to insights by Whitehead, $\omega$-groupoids are equivalent to [[crossed complex]]es.
+By a result by Brown and Higgins, going back to insights by Whitehead, $\omega$-groupoids are equivalently modeled by [[crossed complex]]es.
+
+Strict $\infty$-groupoids form one of the vertices of the [[cosmic cube]] of [[higher category theory]].
 
 ## References
 
@@ -24,6 +26,9 @@ The equivalence of strict $\omega$-groupoids and [[crossed complex]]es is discus
 * [[Ronnie Brown]], [[Philip Higgins]], _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
 
 
+
+[[!redirects strict ∞-groupoid]]
+[[!redirects strict ∞-groupoids]]
 
 [[!redirects strict ∞-groupoid]]
 [[!redirects strict ∞-groupoids]]
