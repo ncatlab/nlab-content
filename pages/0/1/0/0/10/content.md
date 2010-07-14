@@ -9,7 +9,7 @@
 
 ## The idea 
 
-
+^
 The _classifying topos_ for a given type of mathematical structure $T$ --- for example the structures: "[[group]]", "[[torsor]]", "[[ring]]", "[[category]]"  etc. --- is a ([[Grothendieck topos|Grothendieck]]) [[topos]] $S[T]$ such that [[geometric morphisms]] $f: E \to S[T]$ are the same as structures of this sort in the topos $E$, i.e. groups [[internalization|internal to]] $E$, torsors internal to $E$, etc.  In other words, a classifying topos is a [[representing object]] for the functor which sends a topos $E$ to the category of structures of the desired sort in $E$.
 
 In particular for $E$ a [[sheaf topos]] on a [[topological space]] $X$ and $G$ a (bare, i.e. discrete) [[group]], a $G$-torsor in $E$ is a $G$-[[principal bundle]] over $X$. There is a classifying topos denoted $B G$, such that the [[groupoid]] $G Bund(X)$ of $G$-[[principal bundle]]s over $X$ is equivalent to geometric morphims $Sh(X) \to B G$:
@@ -222,6 +222,95 @@ If $G$ is a general [[topological group]] we have the  is a [[simplicial object|
 This is such that for $X$ a topological space, geometric morphisms $Sh(X) \to Sh(G^{\times \bullet})$ classifies topological $G$-principal bundles on $X$.
 
 This idea admits generalizations to [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[classifying topos of a localic groupoid]] .
+
+
+#### The universal $G$-bundle topos {#UniversalBundle}
+
+At [[generalized universal bundle]] and [[principal ∞-bundle]] it is discussed that the principal bundle classified by a morphims into a classifying object is its [[homotopy fiber]], and how the universal bundle is a replacement of the point such that its ordinary pullback models that [[homotopy pullback]].
+
+Concretely, for $G$ a [[group]] and $\mathbf{B}G = \{\bullet \stackrel{g \in G}{\to} \bullet\}$ in [[∞Grpd]] its [[delooping]] [[groupoid]], the universal $G$-bundle is really just the point inclusion
+
+$$
+  \array{
+    * 
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G
+  }
+$$
+
+in that for $X \to \mathbf{B}G$ a morphism, the corresponding $G$-[[principal ∞-bundle]] in [[? Grpd]] is the [[homotopy pullback]]
+
+$$
+  \array{
+    P &\to& *
+    \\
+    \downarrow &{}^{\simeq}\swArrow& \downarrow
+    \\
+    X &\to& \mathbf{B}G 
+  }
+  \,.
+$$
+
+We can send this morphism $(* \to \mathbf{B}G)$ in [[Grpd]] with 
+
+$$
+  PSh(-) : Grpd \to Toposes
+$$
+
+to the [[2-category of toposes]] to get a [[geometric morphism]]
+
+$$
+  \array{
+    PSh(*) = Set
+    \\
+    \downarrow^{\mathrlap{p}}
+    \\
+    PSh(\mathbf{B}G) = Set^G
+  }
+  \,.
+$$
+
+By the rules of morphisms of [[site]]s we have that the [[inverse image]] $p^* : PSh(\mathbf{B}G) \to Set$ is precomposition with $p : * \to \mathbf{B}G$, i.e. the functor that just forgets the $G$-action on a set. 
+
+Its [[right adjoint]] [[direct image]] $p_* : Set \to PSh(\mathbf{B}G)$ is the functor
+
+$$
+  p_* : S \mapsto S \times G
+$$
+
+which sends a set $S$ to the $G$-set $S \times G$ equipped with the evident $G$-action induced by that of $G$ on itself.
+
+Because for $(V,\rho)$ any set with $G$-action $\rho$ we have naturally
+
+$$
+  Hom_{Set}(S,V) \simeq Hom_{Set^G}(S \times G, (V,\rho))
+  \,.
+$$
+
+The object 
+
+$$
+  p_*(*) = G \in PSh(\mathbf{B}G)
+$$
+
+singled out this way in this way is the universal object in $Set^G$, namely $G$ equipped with the canonical $G$-action on itself.
+
+It ought to be true that the topos-incarnation of the $G$-principal bundle on a topological space $X$ classified by a [[geometric morphism]] $Sh(X) \to PSh(\mathbf{B}G)$ is the $(2,1)$-pullback
+
+$$
+  \array{
+    \mathcal{P} &\to& Set
+    \\
+    \downarrow &{}^{\simeq}\swArrow& \downarrow
+    \\
+    Sh(X) &\to& PSh(\mathbf{B}G)
+  }
+  \,.
+$$
+
+> needs more discussion...
 
 ## Classifying topos as a generalization of the notion of classifying space in topology
 
