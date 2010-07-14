@@ -1,8 +1,23 @@
-[[!redirects strict ∞-groupoid]]
-[[!redirects strict ∞-groupoids]]
 
-#Idea#
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
 
-A __strict $\omega$-groupoid__ is a [[strict omega-category]] in which all morphisms have a strict [[inverse]] at every level.
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+A **strict $\omega$-groupoid** or **strict $\infty$-groupoid**is a [[strict ∞-category]] in which all [[k-morphism]]s have a strict [[inverse]] for all $k \in \mathbb{N}$
 
 By a result by Brown and Higgins, going back to insights by Whitehead, $\omega$-groupoids are equivalent to [[crossed complex]]es.
+
+## References
+
+The equivalence of strict $\omega$-groupoids and [[crossed complex]]es is discussed in 
+
+* [[Ronnie Brown]], P. J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
+
+[[!redirects strict ∞-groupoid]]
+[[!redirects strict ∞-groupoids]]
