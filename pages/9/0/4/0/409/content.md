@@ -15,9 +15,15 @@ By a result by Brown and Higgins, going back to insights by Whitehead, $\omega$-
 
 ## References
 
+A textbook reference is
+
+* [[Ronnie Brown]],  [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_ .
+
 The equivalence of strict $\omega$-groupoids and [[crossed complex]]es is discussed in 
 
-* [[Ronnie Brown]], P. J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
+* [[Ronnie Brown]], [[Philip Higgins]], _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
+
+
 
 [[!redirects strict ∞-groupoid]]
 [[!redirects strict ∞-groupoids]]
