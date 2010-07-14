@@ -4,9 +4,7 @@
 
 ## Idea
 
-A _crossed complex_ (of groupoids) is a nonabelian and [[horizontal categorification|many object]] generalization of a chain complex of abelian groups.
-
-Crossed complexes were defined by Blakers in 1948 (following a suggestion of Eilenberg) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by Huebschmann to group cohomology in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
+A _crossed complex_ (of [[groupoid]]s) is a nonabelian and [[horizontal categorification|many object]] generalization of a [[chain complex]] of [[abelian group]]s.
 
 Crossed complexes are an equivalent way to encode the information contained in [[strict ∞-groupoids]]: the groups appearing in the crossed complex in degree $n \geq 2$ are the source-fibers of the collection of $n$-morphisms of the $\omega$-groupoid.
 
@@ -14,25 +12,25 @@ See also [[homotopy n-type]].
 
 One way to think of a crossed complex is as a chain complex in which the bottom part is a crossed module and the rest is a chain complex of modules over the fundamental group of the crossed complex (that is its cokernel).  This is easy to think of in the case where there is a single object (*crossed complex of groups*), and it is a simple step to extend to the many object case.
 
+
+
+## History
+
+Crossed complexes were defined by Blakers in 1948 (following a suggestion of [[Samuel Eilenberg]]) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by [[Johannes Huebschmann]] to [[group cohomology]] in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
+
 ## Examples
 
-If $X_*$ is a [[filtered space]], then there is a crossed complex $\Pi X_*$ which in dimension 0 is $X_0$, in dimension 1 is the [[fundamental groupoid]] $\pi_1(X_1,X_0)$ and   in dimension $n \gt 1$ is the family of relative homotopy groups $\{\pi_n(X_n,X_{n-1},p) : p\in X_0\}$.  This gives a functor $\Pi$ from filtered spaces to crossed complexes, which may be used to construct the generalisation of the [[Dold-Kan correspondence]], which in this case goes between crossed complexes and [[simplicial T-complex]]es.  
+### In low degree
 
-An important special case of the above is when the filtered space is a CW-complex and the filtration is by skeleta.  Particularly useful instances of this are the $n$-cubes and $n$-simplices, with their CW-filtration.  We obtain $\Pi(I^n)$ and $\Pi(\Delta^n)$.  These are used to define cubical and simplicial nerves of a crossed complex and these in turn define the [[Dold-Kan correspondence]] mentioned above.  For instance if $C$ is a crossed complex, then its simplicial nerve is the simplicial set with $Ner(C)_n = Crs(\Pi(\Delta^n),C)$ in dimension $n$.
+In low degrees crossed complexes are the following:
 
+* A crossed complex of length 0 is a [[Set|set]].
 
+* A crossed complex of length 1 is a [[groupoid]].
 
-## Remarks
+* A crossed complex of length 2 is a [[crossed module]], which is equivalent to a strict kind of [[2-group]] by the Brown-Spencer Theorem,
+(R. Brown and C.B. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a  topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.)
 
-* In low degrees crossed complexes are the following:
-  * A crossed complex of length 0 is a [[Set|set]].
-  * A crossed complex of length 1 is a [[groupoid]].
-  * A crossed complex of length 2 is a [[crossed module]], which is equivalent to a strict kind of [[2-group]] by the Brown-Spencer Theorem,
-(R. Brown and C.B. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a 
-topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.)
-
-A survey of the use of crossed complexes is in 
-R. Brown _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_,  to appear in Michiel Hazewinkel (ed.), Handbook of Algebra, volume 6, Elsevier, 2008/2009. (available as [math.AT/0212274 v7](http://arxiv.org/abs/math.AT/0212274)).
 
 +--{.query}
 [[Tim Porter|Tim]]: One of many terminological problems that arise in this stuff is whether 'length' of a chain complex or crossed complex refers to the number of transitions/arrows or the number of nodes /groups or whatever?
@@ -41,6 +39,14 @@ R. Brown _Crossed complexes and homotopy groupoids as non commutative tools for 
 =--
 
 A discussion of the kind of homotopy types modelled by crossed complexes, namely a _linear_ model, and a conjecture as to how to extend this, is in [[homotopy n-type]]. 
+
+### Specific examples
+
+If $X_*$ is a [[filtered space]], then there is a crossed complex $\Pi X_*$ which in dimension 0 is $X_0$, in dimension 1 is the [[fundamental groupoid]] $\pi_1(X_1,X_0)$ and   in dimension $n \gt 1$ is the family of relative homotopy groups $\{\pi_n(X_n,X_{n-1},p) : p\in X_0\}$.  This gives a functor $\Pi$ from filtered spaces to crossed complexes, which may be used to construct the generalisation of the [[Dold-Kan correspondence]], which in this case goes between crossed complexes and [[simplicial T-complex]]es.  
+
+An important special case of the above is when the filtered space is a CW-complex and the filtration is by skeleta.  Particularly useful instances of this are the $n$-cubes and $n$-simplices, with their CW-filtration.  We obtain $\Pi(I^n)$ and $\Pi(\Delta^n)$.  These are used to define cubical and simplicial nerves of a crossed complex and these in turn define the [[Dold-Kan correspondence]] mentioned above.  For instance if $C$ is a crossed complex, then its simplicial nerve is the simplicial set with $Ner(C)_n = Crs(\Pi(\Delta^n),C)$ in dimension $n$.
+
+
 
 ## Crossed complexes as Moore complexes
 
@@ -55,7 +61,7 @@ if quite easy to do. We will usually state results below for the group case, lea
 
 ## From simplicial group(oid)s to crossed complexes
 
-It is fairly clear that crossed complexes / group(oid) $T$-complexes correspond to simplicial group(oid)s in which certain  equations hold.  It therefore is reasonable that they are equivalent to a variety / [[reflective subcategory]] in the category, $SSet Grpd$, of simplicially enriched groupoids.  (The discussion in the entry on [[group T-complex]] is relevant here.)
+It is fairly clear that crossed complexes / group(oid) $T$-complexes correspond to [[simplicial group]](oid)s in which certain  equations hold.  It therefore is reasonable that they are equivalent to a variety / [[reflective subcategory]] in the category, $SSet Grpd$, of simplicially enriched groupoids.  (The discussion in the entry on [[group T-complex]] is relevant here.)
 
 There is a functor $C(-)$ from simplicial groups to crossed complexes given by 
 
@@ -72,7 +78,21 @@ a variety in the category of all simplicial groups.
 
 ## References
 
-See refences by Ronnie Brown and collaborators at [[nonabelian algebraic topology]].
+Textbook treatment is in 
+
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
+
+* [[Tim Porter]], _[[timporter:crossed menagerie|Crossed Menagerie]]_ .
+
+A survey of the use of crossed complexes is in 
+
+* [[Ronnie Brown]], _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_,  to appear in Michiel Hazewinkel (ed.), Handbook of Algebra, volume 6, Elsevier, 2008/2009. ([arxiv:math.AT/0212274 v7](http://arxiv.org/abs/math.AT/0212274)).
+
+
+The equivalence of [[strict omega-groupoid]]s and crossed complexes is discussed in 
+
+* [[Ronnie Brown]], P. J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
+
 
 For the relation to [[group cohomology]] see
 
