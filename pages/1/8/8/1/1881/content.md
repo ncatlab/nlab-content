@@ -1,3 +1,9 @@
+# Lists and free monoids
+* table of contents
+{: toc}
+
+## Idea
+
 Given a [[set]] $S$, the __free monoid__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __concatenation__.  The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$.
 
 
@@ -51,7 +57,7 @@ One can now show that concatenation is associative with the empty list as identi
 
 ### By general abstract nonsense
 
-In the course of proving that the category [[Mon]] of monoids is a [[complete category]], one normally shows that the [[forgetful functor]] $U$ (from $Mon$ to the category [[Set]] of sets) preserves all [[limit]]s.  Thus, the [[adjoint functor theorem]] defines a [[left adjoint]] to $U$ if a size condition is met; this adjoint is the functor $*$ that takes a set to its free monoid $S^*$.
+In the course of proving that the category [[Mon]] of monoids is a [[complete category]], one normally shows that the [[forgetful functor]] $U$ (from $Mon$ to the category [[Set]] of sets) preserves all [[limits]].  Thus, the [[adjoint functor theorem]] defines a [[left adjoint]] to $U$ if a size condition is met; this adjoint is the functor $*$ that takes a set to its free monoid $S^*$.
 
 To be sure, meeting the solution set condition basically requires starting the constructions in one of the other definitions above; but the proofs may all be thrown onto the adjoint functor theorem.
 
@@ -97,6 +103,9 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 [[!redirects list]]
 [[!redirects lists]]
+[[!redirects finite list]]
+[[!redirects finite lists]]
+
 [[!redirects empty list]]
 [[!redirects concatenation]]
 [[!redirects cons]]
