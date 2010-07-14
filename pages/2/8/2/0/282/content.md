@@ -105,7 +105,7 @@ A _[[module over a groupoid]]_ is a collection of [[abelian group]]s equipped wi
 ###### Definition
 **(module over a groupoid)**
 
-Let $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G})$ be a [[groupoid]]. A **module over the groupoid** $\mathcal{G}$ is a collection $\{N_x\}_{x \in \mathcal{G}_0}$ of [[abelian group]]s equipped with a collection of maps
+Let $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0)$ be a [[groupoid]]. A **module over the groupoid** $\mathcal{G}$ is a collection $\{N_x\}_{x \in \mathcal{G}_0}$ of [[abelian group]]s equipped with a collection of maps
 
 $$
   N_x \times \mathcal{G}(x,y) \to N_y
@@ -115,6 +115,53 @@ that are linear and respect the groupoid composition in the obvious way.
 
 
 =--
+
+###### 7.1.iii The category of crossed complexes
+
+* [[crossed complex]]
+
+
+###### 7.1.iv Homotopy and homology groups of crossed complexes
+
+
+(...)
+
+###### 7.1.v The fundamental crossed complex functor
+
+
++-- {: .un_def}
+###### Definition
+**(fundamental crossed complex)**
+
+Let $X_\bullet$ be a [[filtered space]]. 
+
+Write $\Pi_1(X_1,X_0)$ for the subgroupo&#238;d of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects that are in $X_0$.
+
+The **fundamental crossed complex** $\Pi X_\bullet$ of $X$ is the [[crossed complex]]
+
+with 
+
+$$
+  (\Pi X_\bullet)_1 = \Pi_1(X_1,X_0)
+$$
+
+and
+
+$$
+  (\Pi X_\bullet)_n
+  :=
+  \coprod_{x \in X_0}
+  \pi_n(X_n, X_{n-1}, x)
+  \;\;\;\;
+  for n \geq 2
+  \,,
+$$
+
+where $\pi_n(X_n, X_{n-1}, x)$ is the [[relative homotopy group]] obtained by equivalence classes of maps from the pointed $n$-disk into $X$ such that the disk lands in $X_n$, its boundary in $X_{n-1}$ and its basepoint on $x$.
+
+
+=--
+
 
 
 ##### 7.4 Crossed complexes and chain complexes
@@ -137,11 +184,14 @@ Write $Crs$ for the [[category]] of [[crossed complex]]es.
 
 =--
 
+###### 7.4.iii The derived chain complex of a crossed complex
+
+
 +-- {: .un_def}
 ###### Definition
 **(chain complex from a crossed complex)**
 
-Define a functor $\nabla : Crs \to Chn$ as follows:
+Define a functor $\nabla : Crs \to Chn$ from [[crossed complex]]es to [[modules over groupoids]] as follows:
 
 For $C$ a [[crossed complex]] we set for $n \geq 3$ 
 
@@ -156,11 +206,14 @@ and for $n \leq 2$ it is given by ...
 This is definition 7.4.20.
 
 
+###### 7.4.v The right adjoint of the derived functor
+
+
 +-- {: .un_def}
 ###### Definition
 **(crossed complex from a chain complex)**
 
-For $A$ a [[chain complex]] of [[module]]s over a [[groupoid]] $\mathcal{H}$, let $\Theta A \in Crs$ be the [[crossed complex]]
+For $A$ a [[chain complex]] of [[modules over a groupoid]] $\mathcal{H}$, let $\Theta A \in Crs$ be the [[crossed complex]]
 
 $$
   \Theta A := \kappa^* \Theta' A
@@ -192,8 +245,35 @@ $$
   \kappa : P(U A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
 $$
 
-is the canonical covering morphism from above (...)
+is the canonical covering morphism from above.
 
+$$
+  \array{
+    \cdots \to & 
+    (\Theta A)_3
+    &\to&
+    (\Theta A)_2
+    &\to&
+    (\Theta A)_1
+    &\to&
+    P(A_0, \mathcal{H})
+    \\
+    & \doiwnarrow && \downarrow && \downarrow && \downarrow
+    \\
+    \cdots \to & 
+    A_3
+    &\stackrel{\parital_3}{\to}&
+    A_2
+    &\stackrel{(0,\partial_2)}{\to}&
+    \mathcal{H} \ltimes A_1
+    &\stackrel{(1, \partial_1)}{\to}&
+    \mathcal{H} \ltimes A_0    
+  }
+  \,.
+$$
+
+
+Here $\mathcal{H} \ltimes A_1$ acts on $A_n$ for $n \geq 2$ via the projection $\mathcal{H} \ltimes A_1 \to \mathcal{H}$, i.e. $A_1$ acts trivially.
 (...)
 
 =--
