@@ -59,7 +59,7 @@ applications of the "appropriate" (whatever that is!) structures rather than coh
 
 > The natural extension of this observation is to construct a [[strict cubical omega-groupoid|strict cubical ∞-groupoid]] $\rho X_*$ of a _[[filtered space]]_ $X_*$, and find its relation to the quite classical homotopically defined fundamental crossed complex functor $\Pi: (filtered spaces) \to (crossed complexes)$. The proofs here are non trivial. By proving using $\rho$ a colimit theorem for $\Pi$ one can shortcut [[singular homology]], and obtain old and new results in algebraic topology, including some explicit calculations of homotopy groups, even  as modules over the fundamental group. This working with filtered space is not unreasonable since they abound. For example, classifying spaces often come with convenient filtrations, as do [[geometric realisation]]s of [[simplicial set|simplicial]] or [[cubical set|cubical]] sets. These ideas generalise of course to [[multifiltered space]]s or $n$-cubes of spaces. It is not so clear that one _must_ work with a kind of bare topological space, and so have little handle on which to construct invariants, except say by first taking a singular complex, or using multipaths. 
 
-> The main idea of the [[Higher Homotopy van Kampen Theorem]]s is to model algebraically the gluing of homotopy types, or limited models of such. 
+> The main idea of the [[higher homotopy van Kampen Theorem]]s is to model algebraically the gluing of homotopy types, or limited models of such. 
 
 > An indication of a beginnings of a &#268;ech type approach to nonabelian cohomology using groupoids and crossed complexes is given in the new book, Chapter 12. This has not been developed in terms of [[sheaf theory]]. 
 
@@ -126,7 +126,7 @@ that are linear and respect the groupoid composition in the obvious way.
 
 (...)
 
-###### 7.1.v The fundamental crossed complex functor
+###### 7.1.v The fundamental crossed complex functor {#FundamentalCrossedComplex}
 
 
 +-- {: .un_def}
@@ -164,7 +164,7 @@ where $\pi_n(X_n, X_{n-1}, x)$ is the [[relative homotopy group]] obtained by eq
 
 
 
-##### 7.4 Crossed complexes and chain complexes
+##### 7.4 Crossed complexes and chain complexes {#CrsdAndChainCplx}
 
 +-- {: .un_def}
 ###### Definition
@@ -183,6 +183,38 @@ This is Def. 7.4.1.
 Write $Crs$ for the [[category]] of [[crossed complex]]es.
 
 =--
+
+###### 7.4.i Adjoint module and augmentation module
+
++-- {: .un_def}
+###### Definition
+
+Given a [[module over a groupoid]] $(N,\mathcal{G})$, the **semidirect product groupoid** $\mathcal{G} \ltimes N$ has the same objects as $\mathcal{G}$ and morphisms
+
+$$
+  (\mathcal{G} \ltimes N)(p,q) = \mathcal{G}(p,q) \ltimes N(q)
+$$
+
+with composition given by the action of $\mathcal{G}$ on $N$.
+
+
+=--
+
+This is def. 7.4.5
+
+
++-- {: .un_def}
+###### Definition
+
+For $(t : N \to \mathcal{G}_0,\mathcal{G})$ a [[module over a groupoid]], write $P(N,\mathcal{G})$ for the groupoid $\mathcal{G}$ pulled back to the underlying set of $N$:
+
+an object of $P(N,\mathcal{G})$ is an element in $N$ and a morphism $n_1 \to n_2$ is a morphism $\mathcal{G}(t(n_1),t(n_2))$.
+
+=--
+
+This is def. 7.4.9.
+
+
 
 ###### 7.4.iii The derived chain complex of a crossed complex
 
@@ -206,7 +238,20 @@ and for $n \leq 2$ it is given by ...
 This is definition 7.4.20.
 
 
-###### 7.4.v The right adjoint of the derived functor
++-- {: .un_example}
+###### Example
+**(ordinary abelian chain complex as crossed complex)**
+
+
+Let $C_\bullet$ be an ordinary [[chain complex]] of abelian groups, i.e. a chain complex of [[module over a groupoid|modules over the trivial groupoid]].
+
+Then $(\Theta C)_1$ is the groupoid with objects $C_0$ and morphisms $\{x \stackrel{b}{\to} x + \partial b\}$. And for $n \geq 2$ we have that $(\Theta C)_2$ is $\coprod_{x \in C_0} C_n$.
+
+
+=--
+
+
+###### 7.4.v The right adjoint of the derived functor {#CrsFromCh}
 
 
 +-- {: .un_def}
@@ -242,7 +287,7 @@ $$
 and where 
 
 $$
-  \kappa : P(U A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
+  \kappa : P(A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
 $$
 
 is the canonical covering morphism from above.
@@ -281,7 +326,7 @@ Here $\mathcal{H} \ltimes A_1$ acts on $A_n$ for $n \geq 2$ via the projection $
 +-- {: .un_prop}
 ###### Proposition
 
-These form a pair &#244;f [[adjoint functor]]s
+These form a pair of [[adjoint functor]]s
 
 $$
   (\nabla \dashv \Theta)
@@ -301,9 +346,29 @@ This is proposition 7.4.29.
 
 #### 8 The Higher Homotopy van Kampen Theorem and its applications
 
-* [[hîgher homotopy van Kampen theorem]]
+* [[higher homotopy van Kampen theorem]]
 
 #### 9 Tensor products and homotopies of crossed complexes
+
+##### 9.9 The homotopy addition lemma for a simplex {#HomotopyAdditionSimplex}
+
+For $\Delta^n$ the topological $n$-simplex regarded as a [[filtered space]] in the canonical way, the fundamental crossed complex $\Pi X^n$ is a groupoid-version of the $n$-[[oriental]]: the free [[strict ∞-groupoid]] on a single $n$-simplex.
+
+
+
+##### 9.10 Simplicial sets and crossed complexes {#SimpSetAndCrs}
+
+By the discussion at [The homotopy addition lemma for a simplex](#HomotopyAdditionSimplex) the [fundamental crossed complex](#FundamentalCrossedComplex) $\Pi \Delta^n$ plays the role of the free strict $n$-groupoid on the $n$-[[simplex]].
+
+The [[cosimplicial object|cosimplicial]] $\infty$-groupoid
+
+$$
+  \Pi \Delta^\bullet : 
+  \Delta \to Crs \simeq Str \infty Grpd
+$$
+
+induced by the discussion at [[nerve and realization]] a simplicial [[nerve]] operation on [[strict ∞-groupoid]] -- an [[∞-nerve]]:
+
 
 +-- {: .un_def}
 ###### Definition
@@ -323,31 +388,58 @@ This is definition 9.10.2.
 ###### Proposition
 **(Dold-Kan map)**
 
-For $D \in Chn$ a [[chain complex]] (of [[abelian groups]]), we may regard it as a [[crossed complex]] $\Theta D$, hence as a [[strict ∞-groupoid]] $q \Theta D$. The [[∞-nerve]] $N^\Delta q \Theta D$ of this is the [[Kan complex]] underlying the image of $D$ under the [[Dold-Kan correspondence]] $Chn \to sAb$.
+For $D \in Chn$ a [[chain complex]] (of [[abelian groups]]), we may regard it as a [[crossed complex]] $\Theta D$ as described at [Crossed complex from chain complex](#CrsFromCh), hence as a [[strict ∞-groupoid]]. 
+
+The [[∞-nerve]] $N^\Delta \Theta D \in $ [[sSet]] (described in [Crossed complexes and simplicial sets](#SimpSetAndCrs)) of this is the [[Kan complex]] underlying the image of $D$ under the [[Dold-Kan correspondence]] $Chn \to sAb$.
 
 $$
   \begin{aligned}
-    N^\Delta (q \Theta D) & = N^\Delta \Theta D
+    N^\Delta (\Theta D)  &= \simeq Crs(\Pi \Delta^\bullet, \Theta D)
     \\
-    & \simeq Crs(\Pi \Delta^r, \Theta D)
+    & \simeq Chn( \nabla \Pi \Delta^\bullet, D)
     \\
-    & \simeq Chn( \nabla \Pi \Delta^r, D)
-    \\
-    & \simeq Chn( C_\bullet \Delta^r , D) 
+    & \simeq Chn( C_\bullet \Delta^\bullet , D) 
   \end{aligned}
   \,.
 $$
 
-Here $C_\bullet \Delta r$ is the standard [[chain complex]] of chains on the simplicial $r$-[[simplex]] as discussed at [[cochain on a simplicial set|chains on a simplicial set]].
+Here $C_\bullet \Delta^n$ is the standard [[chain complex]] of chains on the simplicial $r$-[[simplex]] as discussed at [[cochain on a simplicial set|chains on a simplicial set]].
 
 =--
 
-This appears as _BrHiSi Remark 9.10.6_ .
-
-(...)
+This appears as _Remark 9.10.6_ together with its _footnote 116_ .
 
 
++-- {: .un_remark}
+###### Remark
 
+In the [[cosmic cube]] of [[higher category theory]] this realizes two edges
+
+$$
+  \array{
+    ChainCplx &\stackrel{\Theta}{\hookrightarrow}&
+    CrossedCplx
+    &\stackrel{N^\Delta}{\hookrightarrow}&
+    KanCplx
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    &&
+    \downarrow^{\mathrlap{\simeq}}
+    &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    StrAb Str\infty Grpd
+    &\hookrightarrow&
+    Str \infty Grpd
+    &\hookrightarrow&
+    \infty Grpd
+  }
+$$
+
+including [[strict ∞-groupoid]]s with strict abelian [[∞-group]]-structure -- modeled as [[chain complex]]es of [[abelian group]]s -- into [[strict ∞-groupoid]]s -- modeled as [[crossed complex]]es -- into all [[∞-groupoid]]s
+-- modeled as [[Kan complex]]es. The composite is the map $Ch_\bullet \to sAb \to KanCplx$ to [[simplicial group]]s from the [[Dold-Kan correspondence]].
+
+=-- 
 
 #### 10 Resolutions
 
