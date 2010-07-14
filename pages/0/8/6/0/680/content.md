@@ -3,7 +3,7 @@
 * automatic toc
 {:toc}
 
-#Idea#
+## Idea
 
 The _Dold--Kan correspondence_ asserts that the [[nerve and realization]] [[adjunction]] between abelian 
 [[simplicial groups]] and [[chain complexes]] encodes
@@ -30,7 +30,7 @@ Since every [[simplicial group]] is a [[Kan complex]], one can equivalently read
 The fact that this involves _[[abelian group|abelian]]_ groups is essential for the correspondence. However, a similar correspondence still holds in a slightly more nonabelian context.  This and various other generalizations are described further below.
 
 
-#Details#
+## Details
 
 We now spell out technical details of the classical Dold--Kan correspondence.
 
@@ -253,12 +253,12 @@ is an isomorphism of all $j \lt n$. For $j = n-1$ this is then the desired resul
 
 Now consider the free chain complex on $\Delta^n$...
 
-# Generalizations and enhancements #
+## Generalizations and enhancements 
 
 There are various generalizations and enhancements of the
 Dold--Kan correspondence.
 
-## Quillen equivalence of model categories {#ModelCatVersion}
+### Quillen equivalence of model categories {#ModelCatVersion}
 
 There are natural and standard [[model category]] structures on the categories involved in the Dold-Kan correspondence, and with respect to these the correspondence is a [[Quillen equivalence]].
 
@@ -274,7 +274,7 @@ This is summarized with further pointers to the literature in [section 4.1](http
 
 * Schwede, Shipley, _Equivalence of monoidal model categories_ ([pdf](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf))
 
-## Monoidal version ##
+### Monoidal version 
 
 Both the category of simplicial abelian groups as well as the category of nonnegatively graded [[category of chain complexes|chain complexes]] of abelian groups carry a standard structure of a [[monoidal category]].  For simplicial abelian groups this is the levelwise or 'pointwise' tensor product
 $$  (A \otimes B)_n = A_n \otimes B_n $$
@@ -374,7 +374,7 @@ These [remarks by Kathryn Hess](http://golem.ph.utexas.edu/category/2009/11/dold
 >As to the Hopf algebra/bialgebra question, I admit I've often been guilty of referring to loop space homology as a "graded Hopf algebra", without any mention of antipode.  I was happy to learn a few years ago that connected graded bialgebras admit a unique antipode, as Mike has already pointed out.  On the chain level, if the simplicial group you're considering is reduced (i.e., has a unique 0-simplex), then its normalized chain complex is a connected dg bialgebra and therefore a dg Hopf algebra.
 
 
-## Dual Dold--Kan correspondence ##
+### Dual Dold--Kan correspondence 
 
 There is a version relating [[cochain complexes]] in non-negative degree to cosimplicial abelian groups.  Indeed,
 replacing the abelian category $A$ by its [[opposite category]] $A^{op}$ in the Dold--Puppe theorem above, we instantly see:
@@ -424,7 +424,7 @@ This statement is reviewed and various further references are given in [section 
 Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, [arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289).
 
 
-## Nonabelian versions ##
+### Nonabelian versions 
 
 In a series of articles by Brown and Higgins, based on old work by Whitehead, the above was generalized to
 
@@ -445,7 +445,7 @@ full analysis as yet of the actual form of this monad.
 
 
 
-## Version for Lie algebras ## 
+### Version for Lie algebras 
 
 In rational homotopy theory, Quillen proved and used an analogous statement for Lie algebras: Quillen equivalence between the reduced rational dg Lie algebras and reduced rational simplicial Lie algebras:
 
@@ -453,7 +453,7 @@ In rational homotopy theory, Quillen proved and used an analogous statement for 
 
 
 
-## Parameterized version ##
+### Parameterized version 
 
 The statement of the Dold--Kan correspondence generalizes to
 [[sheaf|sheaves]] with values in the respective categories and this way from [[? Grpd]] to more general $(\infty,1)$-[[(infinity,1)-topos|topoi]]:
@@ -483,7 +483,7 @@ See page 9,10 of
 
 * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
-## $(\infinity,1)$-Version ##
+### $(\infinity,1)$-Version 
 
 There is a version of the Dold--Kan correspondence in the context of $(\infty,1)$-[[(infinity,1)-category|categories]]:
 
@@ -500,13 +500,13 @@ This is [theorem 12.8, p. 50](http://www.math.harvard.edu/~lurie/topoibook/DAGI.
 
 * [[Jacob Lurie]], [[Stable ∞-Categories]] 
 
-## Dendroidal version ##
+### Dendroidal version 
 
 There is a version of the Dold--Kan correspondence with [[simplicial sets]] generalized to [[dendroidal sets]]. This is described in
 
 * [[Javier Gutierrez|Javier Gutiérrez]], [[Andor Lukacs]], [[Ittay Weiss]], _Dold-Kan correspondence for dendroidal abelian groups_ ([arXiv](http://arxiv.org/abs/0909.3995))
 
-## Related nerve constructions ## 
+### Related nerve constructions 
 
 This gives a pattern for constructing simplicial structures, often called the _simplicial [[nerve]]_,  from algebraic structures. 
 
@@ -526,8 +526,12 @@ This includes the case when $C$ is a [[crossed module]] (of groupoids) regarded 
 An obvious analogue gives cubical or globular nerves. 
 
 
+## Interpretation in higher category theory
 
-#References#
+For the role of the Dold-Kan-correspondence in the light of [[higher category theory]] see the [[cosmic cube of higher category theory]].
+
+
+## References
 
 Historical references for the Dold--Kan correspondence are
 
