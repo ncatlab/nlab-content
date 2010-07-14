@@ -1,4 +1,4 @@
-_Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://www.bangor.ac.uk/~mas010/index.html) and his collaborators. The idea is to redo and enhance [[algebraic topology]] by making use of the tool of [[strict omega-groupoid]]s and in particular the [[crossed complex]]es equivalent to them, which generalize the complexes of _abelian_ groups traditionally used in algebraic topology.
+_Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://www.bangor.ac.uk/~mas010/index.html) and his collaborators. &#206;t redoes and enhances [[algebraic topology]] by making use of the tool of [[strict ∞-groupoid]]s and in particular the [[crossed complex]]es equivalent to them, which generalize the [[chain complex]]es of _abelian_ groups used in trditional algebraic topology.
 
 #Contents#
 * automatic table of contents goes here
@@ -6,7 +6,7 @@ _Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://
 
 ## History
 
-I hope it is helpful to relate my ([[Ronnie Brown]]\'s) experiences from the 1960s and later with [[nonabelian cohomology]].
+I hope it is helpful to relate my ([[Ronnie^ Brown]]\'s) experiences from the 1960s and later with [[nonabelian cohomology]].
 
 In writing my book on [[topology]] in the 1960s, I got offended by having to make a detour to get the [[fundamental group]] of the circle, and then was attracted by [[Paul Olum]]'s paper referenced below. I extended Olum's work to a [[Mayer-Vietoris sequence|Mayer?Vietoris type sequence]] in the second paper below, 
 and this enabled one to compute the fundamental group of, for example,  a [[wedge product|wedge]] of circles.
@@ -65,6 +65,151 @@ An obvious gap is also that of extending [[Grothendieck]]'s work on the fundamen
 
 * One of the main motivations for the development of Nonabelian algebraic topology was the observation that the [Seifert-van Kampen theorem](http://en.wikipedia.org/wiki/Seifert%E2%80%93van_Kampen_theorem) is most naturally understood as being not about homotopy groups, but about the [[fundamental groupoid|fundamental ∞-groupoid]] of a space. Since the assignment of fundamental $\infty$-groupoids to spaces is an $\infty$-category-valued co-presheaf, one can understand this in the context of [[nonabelian cosheaf homotopy]]. Remarks on this are in the blog entry [Codescent and the van Kampen theorem](http://ncatlab.org/nlab/show/nonabelian+cosheaf+homotopy).
 
+## Results
+
+(...)
+
++-- {: .un_def}
+###### Definition
+**(groupoid module chain complexes)**
+
+Write $Chn$ for the [[category]] of [[chain complex]]es of modules over a [[groupoid]].  
+
+=--
+
+This is Def. 7.4.1.
+
++-- {: .un_def}
+###### Definition
+**(groupoid module chain complexes)**
+
+Write $Crs$ for the [[category]] of [[crossed complex]]es.
+
+=--
+
++-- {: .un_def}
+###### Definition
+**(chain complex from a crossed complex)**
+
+Define a functor $\nabla : Crs \to Chn$ as follows:
+
+For $C$ a [[crossed complex]] we set for $n \geq 3$ 
+
+$$
+  (\nabla C)_n := C_n \;\;\;\; for n \geq 3
+$$
+
+and for $n \leq 2$ it is given by ...
+
+=--
+
+This is definition 7.4.20.
+
+
++-- {: .un_def}
+###### Definition
+**(crossed complex from a chain complex)**
+
+For $A$ a [[chain complex]] of [[module]]s over a [[groupoid]] $\mathcal{H}$, let $\Theta A \in Crs$ be the [[crossed complex]]
+
+$$
+  \Theta A := \kappa^* \Theta' A
+  \,,
+$$
+
+where
+
+$$
+  \Theta' A :=
+  \left[
+    A_n 
+      \stackrel{\partial_n}{\to}
+    A_{n-1}
+     \stackrel{}{\to}
+     \cdots
+     \stackrel{}{\to}
+    A_{3}
+    \stackrel{\partial_3}{\to}
+    A_2
+    \stackrel{(0,\partial_2)}{\to}
+    \mathcal{H}\ltimes A_1
+  \right]
+$$
+
+and where 
+
+$$
+  \kappa : P(U A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
+$$
+
+is the canonical covering morphism from above (...)
+
+(...)
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+These form a pair &#244;f [[adjoint functor]]s
+
+$$
+  (\nabla \dashv \Theta)
+  : 
+  Chn
+  \stackrel{\overset{\nabla}{\leftarrow}}{\underset{\Theta}{\to}}
+  Crs
+$$
+
+where...
+
+=--
+
+This is proposition 7.4.29.
+
+(...)
+
++-- {: .un_def}
+###### Definition
+**(simplicial nerve)**
+
+Let $C$ be a [[crossed complex]]. Its **simplicial [[nerve]]** $N^\Delta C \in  $ [[sSet]] is
+
+$$
+  (N^\Delta C)_n := Crs(\Pi \Delta^n, C)
+$$
+
+=--
+
+This is definition 9.10.2.
+
++-- {: .un_prop}
+###### Proposition
+**(Dold-Kan map)**
+
+For $D \in Chn$ a [[chain complex]] (of [[abelian groups]]), we may regard it as a [[crossed complex]] $\Theta D$, hence as a [[strict ∞-groupoid]] $q \Theta D$. The [[∞-nerve]] $N^\Delta q \Theta D$ of this is the [[Kan complex]] underlying the image of $D$ under the [[Dold-Kan correspondence]] $Chn \to sAb$.
+
+$$
+  \begin{aligned}
+    N^\Delta (q \Theta D) & = N^\Delta \Theta D
+    \\
+    & \simeq Crs(\Pi \Delta^r, \Theta D)
+    \\
+    & \simeq Chn( \nabla \Pi \Delta^r, D)
+    \\
+    & \simeq Chn( C_\bullet \Delta^r , D) 
+  \end{aligned}
+  \,.
+$$
+
+Here $C_\bullet \Delta r$ is the standard [[chain complex]] of chains on the simplicial $r$-[[simplex]] as discussed at [[cochain on a simplicial set|chains on a simplicial set]].
+
+=--
+
+This appears as _BrHiSi Remark 9.10.6_ .
+
+(...)
+
 ## References
 
 Ronnie Brown has published a long series of articles over the years developing the ideas of nonabelian algebraic topology. 
@@ -111,3 +256,4 @@ computation with crossed modules, _GAP Manual_, (1997), 1355--1420.
 
 
 [[!redirects Nonabelian algebraic topology]]
+[[!redirects Nonabelian Algebraic Topology]]
