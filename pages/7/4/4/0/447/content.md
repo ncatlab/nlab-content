@@ -140,3 +140,5 @@ R(X \times Y) & \cong & R((\int^m X(m) \cdot \Delta(-, n)) \times (\int^n Y(n) \
 }$$ 
 where in each of the second and penultimate lines, we twice used the fact that $- \times -$ preserves colimits in its separate arguments (i.e., the fact that the nice category $Space$ is cartesian closed), and the remaining lines used the fact that $R$ preserves colimits, and also products of representables by the first paragraph of this proof. 
 =--
+
+[[!redirects geometric realisation]]
