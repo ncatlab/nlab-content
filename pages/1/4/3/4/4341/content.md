@@ -12,6 +12,8 @@ between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, 
 
 * The augmented/algebraists [[simplex category]] is the *walking [[monoid]]* (in a [[monoidal category]]).
 
+* The [[syntactic category]] of a [[theory]] $T$ in some [[doctrine]] $D$ is the "walking $T$-model" (in a $D$-category).  In particular, the [[classifying topos]] of a [[geometric theory]] $T$ is the "walking $T$-model" *qua* [[Grothendieck topos]] (where the morphisms are the left-adjoint parts of [[geometric morphisms]]).
+
 ## References
 
 * A [Caf&#233; post](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) about walking objects (among other things), including a [comment](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) that explains the terminology.
