@@ -93,6 +93,29 @@ applications of the "appropriate" (whatever that is!) structures rather than coh
 
 * [[crossed complex]]
 
+##### 7.1 Our basic categories and functors
+
+###### 7.1.i The category of filtered topological spaces
+
+###### 7.1.ii Modules over groupoids
+
+A _[[module over a groupoid]]_ is a collection of [[abelian group]]s equipped with a linear  [[action]] by a [[groupoid]].
+
++-- {: .un_def}
+###### Definition
+**(module over a groupoid)**
+
+Let $\mathcal{G} = (\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G})$ be a [[groupoid]]. A **module over the groupoid** $\mathcal{G}$ is a collection $\{N_x\}_{x \in \mathcal{G}_0}$ of [[abelian group]]s equipped with a collection of maps
+
+$$
+  N_x \times \mathcal{G}(x,y) \to N_y
+$$
+
+that are linear and respect the groupoid composition in the obvious way.
+
+
+=--
+
 
 ##### 7.4 Crossed complexes and chain complexes
 
