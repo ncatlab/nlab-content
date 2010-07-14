@@ -1,4 +1,4 @@
-_Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://www.bangor.ac.uk/~mas010/index.html) and his collaborators. &#206;t redoes and enhances [[algebraic topology]] by making use of the tool of [[strict ∞-groupoid]]s and in particular the [[crossed complex]]es equivalent to them, which generalize the [[chain complex]]es of _abelian_ groups used in trditional algebraic topology.
+_Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://www.bangor.ac.uk/~mas010/index.html) and his collaborators. It redoes and enhances [[algebraic topology]] by making use of the tool of [[strict ∞-groupoid]]s and in particular the [[crossed complex]]es equivalent to them, which generalize the [[chain complex]]es of _abelian_ groups used in traditional algebraic topology.
 
 #Contents#
 * automatic table of contents goes here
@@ -6,7 +6,7 @@ _Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://
 
 ## History
 
-I hope it is helpful to relate my ([[Ronnie^ Brown]]\'s) experiences from the 1960s and later with [[nonabelian cohomology]].
+I hope it is helpful to relate my ([[Ronnie Brown]]\'s) experiences from the 1960s and later with [[nonabelian cohomology]].
 
 In writing my book on [[topology]] in the 1960s, I got offended by having to make a detour to get the [[fundamental group]] of the circle, and then was attracted by [[Paul Olum]]'s paper referenced below. I extended Olum's work to a [[Mayer-Vietoris sequence|Mayer?Vietoris type sequence]] in the second paper below, 
 and this enabled one to compute the fundamental group of, for example,  a [[wedge product|wedge]] of circles.
