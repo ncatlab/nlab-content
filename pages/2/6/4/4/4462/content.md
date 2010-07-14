@@ -8,11 +8,19 @@ __Anatolij Illarionovi&#269; &#352;ir&#353;ov__ (Anatoly/Anatolii Illarinovich S
 
 * A. I. &#352;ir&#353;ov, _Some algorithm problems for Lie algebras_ (Russian) Sibirsk. Mat. &#381;. __3__ 1962, 292--296, [MR0183753](http://www.ams.org/mathscinet-getitem?mr=0183753)
 
+
 category: people
-[[!redirects Anatolii Širšov]]
-[[!redirects Anatoli Širšov]]
-[[!redirects Anatoliy Širšov]]
-[[!redirects Anatolii Shirshov]]
+
+[[!redirects Anatoli Shirshov]]
+[[!redirects Anatoly Shirshov]]
 [[!redirects Anatoliy Shirshov]]
+[[!redirects Anatolii Shirshov]]
+[[!redirects Anatolij Shirshov]]
+[[!redirects Anatoli Širšov]]
+[[!redirects Anatoly Širšov]]
+[[!redirects Anatoliy Širšov]]
+[[!redirects Anatolii Širšov]]
 [[!redirects Anatolij Širšov]]
 [[!redirects Anatolij Illarionovič Širšov]]
+[[!redirects Анатолий Ширшов]]
+[[!redirects Анатолий Илларионович Ширшов]]
