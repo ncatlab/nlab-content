@@ -5,7 +5,7 @@ While Dedekind completeness was traditionally described in the context of the [[
 ##Definition##
 
 +--{: .query}
-[[David Roberts]]: I lifted the following from Paul Taylor's page on Dedekind cuts. It clearly needs expanding.
+[[David Roberts]]: I lifted the following from [Paul Taylor's page](http://www.paultaylor.eu/ASD/dedras/classical) on Dedekind cuts. It clearly needs expanding.
 =--
 
 **Definition**: Let $(S,\lt)$ be a set with a [[total order]]. $S$ is **Dedekind complete** if every pair of subsets $D, U \subset S$ that satisfies the axioms for a cut is of the form
