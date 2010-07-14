@@ -39,7 +39,7 @@ Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$
 
 ## Cohomology
 
-Under the [[Brown representability theorem]] the Thom spectrum represents the [[generalized (Eilenberg-Steenrod) cohomology]] theoryy called [[complex cobordism cohomology theory|cobordism cohomology theory]].
+Under the [[Brown representability theorem]] the Thom spectrum represents the [[generalized (Eilenberg-Steenrod) cohomology]] theory called [[complex cobordism cohomology theory|cobordism cohomology theory]].
 
 ## References
 
