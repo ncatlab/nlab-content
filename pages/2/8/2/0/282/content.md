@@ -1,4 +1,3 @@
-[[!redirects nonabelian algebraic topology]]
 
 This entry is about the book
 
@@ -487,5 +486,8 @@ computation with crossed modules, _GAP Manual_, (1997), 1355--1420.
 1. Brown, R., Higgins, P.J., and Sivera, R., _Nonabelian Algebraic Topology: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).   
 
 
+[[!redirects nonabelian algebraic topology]]
 [[!redirects Nonabelian algebraic topology]]
 [[!redirects Nonabelian Algebraic Topology]]
+
+category: reference
