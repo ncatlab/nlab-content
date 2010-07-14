@@ -490,3 +490,6 @@ discusses simplicial groups in the context of [[nonabelian algebraic topology]].
 
 
 [[!redirects simplicial groups]]
+
+[[!redirects simplicial abelian group]]
+[[!redirects simplicial abelian groups]]
