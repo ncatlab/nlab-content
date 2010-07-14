@@ -261,6 +261,10 @@ Then you can make a link to it, from that page or from another one, with the syn
 
      [a link](/nlab/show/some+page#anchorname)
 
+Of course, you can link to it from outside the nLab by adding `http://ncatlab.org` at the beginning of the link.
+
+Note that if you skip the first step, it is still *possible* to create a link to a subsection, since (at least if the page has a table of contents) every section on the page is automatically assigned an HTML anchor by Instiki.  However, using such links is *not* encouraged, since the automatically generated anchor names will change whenever the page is rearranged and go away if a manual anchor name is added, which will cause such links to break.
+
 When you write a numbered theorem, you can also simultaneously create an anchor by writing:
 
      +-- {: .num_theorem #theoremname}
