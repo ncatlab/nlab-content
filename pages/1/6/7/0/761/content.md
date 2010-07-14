@@ -1,3 +1,14 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+(...)
+
+## Details
+
 For the van Kampen theorem for the [[fundamental groupoid]] it is convenient to define $\pi_1(X,X_0)$ of a space $X$ and a set $X_0$ to be the full subgroupoid of $\pi_1 X$ on the set $X \cap X_0$. Suppose $X_* =(X,X_0)$ is a pair consisting of a space $X$ and a set $X_0$ of base points. We say $X_*$ is _connected_ if $X_0$ meets each path component of $X$. 
 
 
@@ -14,7 +25,7 @@ If the pairs of  spaces $U^f_*$ are  connected for all 1-,2-, or 3-fold  interse
 =--
 
 
-# Remarks # 
+**Remarks**
 
 1. Emphasising the connectivity result becomes more  important for [[higher homotopy van Kampen theorem]]s. 
 
@@ -53,3 +64,13 @@ For all I know, there may be advantages in replacing loop space theory by a many
 Quickly reducing a groupoid to one object is to me a bit like _always_ choosing a basis for a vector space. 
 
 =--
+
+
+## Generalizations
+
+* [[higher homotopy van Kampen theorem]]
+
+## References
+
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
+
