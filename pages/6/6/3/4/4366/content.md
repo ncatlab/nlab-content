@@ -1,5 +1,8 @@
 
-* [Click here for homepage with most of these articles](http://www-personal.umd.umich.edu/~tmfiore/)
+
+## Publications
+
+[Click here for homepage with most of these articles](http://www-personal.umd.umich.edu/~tmfiore/)
 
 * Thomas M. Fiore, Nicola Gambino and Joachim Kock. Monads in double categories. 
 To appear in the _Journal of Pure and Applied Algebra_. 31 pages.
