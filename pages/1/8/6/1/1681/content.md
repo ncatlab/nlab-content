@@ -47,6 +47,7 @@ $$
 
 Therefore Eilenberg--Mac Lane spaces constitute a [[spectrum]]: the [[Eilenberg?Mac Lane spectrum]].
 
+In general, if $A$ is an abelian [[topological group]], then there exist a model for the [[classifying space]] $\mathcal{B}A$ which is an abelian topological group. Iterating this construction, one has a notion of $\mathcal{B}^n A$ and a model for it which is an abelian topological group. If moreover $A$ is discrete, then $\mathcal{B}A=|\mathbf{B}A|=K(A,1)$, and one inductively sees that $\mathcal{B}^n A=|\mathbf{B}^n A|=K(A,n)$. Therefore one has a model for $K(A,n)$ which is an abelian topological group.
 
 
 
