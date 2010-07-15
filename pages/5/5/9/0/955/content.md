@@ -1,4 +1,9 @@
+
 # The Isbell Envelope of a Category
+* table of contents
+{: toc}
+
+## Idea
 
 Given a category $\mathcal{T}$ of "test objects", one can consider "things" which $\mathcal{T}$ can detect.  If one already has a class of objects in mind, one can consider $\mathcal{T}$-structures on those objects by looking at morphisms to and from objects of $\mathcal{T}$.  Then one considers questions only in so far as they can be distinguished after mapping into $\mathcal{T}$.  A simple example is that of smooth [[manifold]]s where many questions are solved by transporting the problem to Euclidean spaces via charts.  Another example is the use of weak topologies on locally convex topological spaces.  Without a class of objects in mind, the natural definition of an object probeable by $\mathcal{T}$-objects involves presheaves and copresheaves and is as follows.
 
@@ -260,4 +265,7 @@ Hence $X$ is $F$--concrete.
 =--
 
 
+[[!redirects Isbell envelope]]
+[[!redirects Isbell envelopes]]
 [[!redirects generalized object]]
+[[!redirects generalized objects]]
