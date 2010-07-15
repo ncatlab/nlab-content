@@ -1,6 +1,15 @@
-In higher category theory, there are several periodic tables, analogous to the the period table of chemical elements. Just as this table allowed &#1052;&#1077;&#1085;&#1076;&#1077;&#1083;&#1077;&#1077;&#1074; to [predict the existence of undiscovered elements](https://secure.wikimedia.org/wikipedia/en/wiki/Mendeleev%27s_predicted_elements) in the table\'s gaps, so these periodic tables sometimes inspire us to invent new varieties of $n$-categories.
 
-# History
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+In [[higher category theory]], there are several periodic tables, analogous to the the periodic table of chemical elements. Just as this table allowed &#1052;&#1077;&#1085;&#1076;&#1077;&#1083;&#1077;&#1077;&#1074; to [predict the existence of undiscovered elements](https://secure.wikimedia.org/wikipedia/en/wiki/Mendeleev%27s_predicted_elements) in the table\'s gaps, so these periodic tables sometimes inspire us to invent new varieties of $n$-categories.
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## History
 
 The first periodic table of $n$-categories was a slightly distorted version of the periodic table of $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories.
 
@@ -18,7 +27,7 @@ We now recognise that a $0$-tuply monoidal $n$-category should be *pointed*, lea
 
 Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) about how these don't end up quite right if you just look at $(k-1)$-simply connected $(n+k)$-categories, but in all cases we have analyzed they do come out correct if you look at the pointed versions.  More on this can be found in the appendix to  [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
 
-# Examples
+## Examples
 
 ... appearances in TWF, filling gaps, the first extension to small $n$, the established literature on $(n,r)$-categories, the stabilisation hypothesis, the tangle hypothesis, the table with Lie algebroids and the like, the appendix to John\'s and Mike\'s paper; most of these individual tables will have their own pages; ...
 
