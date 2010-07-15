@@ -63,6 +63,17 @@ Let us say (without making any assertion that this is good or permanent terminol
 1. it has a [[strict initial object]] $0$ (equivalently, its [[subobject]] [[preorders]] have pullback-stable bottom elements), and
 1. whenever $A\rightarrowtail X$ and $B\rightarrowtail X$ are disjoint subobjects (i.e. $A\cap B=0$), they have a pullback-stable union (which is then automatically a disjoint and stable coproduct).
 
+This is intended to complete the table of analogies:
+
+|some | all |
+|-----|-----|
+|regular category       |exact category     |
+|coherent category      |pretopos           |
+|pre-lextensive category|lextensive category|
+
+Regular/exact categories have quotients of (some) [[congruences]].  Exact categories have quotients of all congruences, while regular ones have quotients only of congruences that are [[kernel pairs]].  Another way to say that is that in a regular category, you can conclude that the quotient of some congruence exists if you can exhibit another object of which the quotient would be a [[subobject]] if it existed.  Similarly, pre-/lextensive categories have [[disjoint unions]].  Lextensive categories have all disjoint unions (= [[coproducts]]), while in a pre-lextensive category you can conclude that a pair of objects $X,Y$ have a disjoint union if you can exhibit another object in which $X$ and $Y$ can be embedded disjointly.  Finally, coherent categories/pretoposes have both quotients and
+disjoint unions, or equivalently quotients and not-necessarily-disjoint unions, with the same sort of relationship between the two.
+
 Evidently a pre-lextensive category is lextensive as soon as any two objects can be embedded disjointly in a third.  Pre-lextensive categories also suffice for the interpretation of [[internal logic|disjunctive logic]].
 
 Being pre-lextensive is also sufficient to define the extensive topology and show that it is subcanonical, since it implies that whatever disjoint coproducts exist must be pullback-stable.  The codomain fibration of a pre-lextensive category is not necessarily a stack for its extensive topology, but this condition is weaker than extensivity.  It is true, however, that if $C$ is a pre-lextensive category whose codomain fibration is a stack for its extensive topology, and in which the disjoint coproduct $1+1$ exists, then $C$ is extensive, for arbitrary disjoint (binary) coproducts can then be obtained by descent along the covering family $(1\to 1+1, 1\to 1+1)$.
