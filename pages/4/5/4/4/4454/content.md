@@ -140,7 +140,7 @@ yields in total the map $ChnCplx \to sAb$ from [[chain complex]]es to [[simplici
 
 ### Strictly stable strict $\infty$-groupoids in strictly stable $\infty$-groupoids
 
-A strictly stable strict ∞-groupoid is modeled by a [[chain complex]] of abelian groups. Under [[∞-nerve]] it embeds into all [[strictly ∞-groupoid]]s, modeled as [[spectrum|spectra]].
+A strictly stable strict ∞-groupoid is modeled by a [[chain complex]] of abelian groups. Under [[∞-nerve]] it embeds into all [[strictly stable ∞-groupoid]]s, modeled as [[spectrum|spectra]].
 
 $$
   \array{
