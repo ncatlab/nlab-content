@@ -19,7 +19,7 @@ From this $\infty$-point of view it seems a bit pointless to say "stack" instead
 
 More concretely this means that a stack on a [[site]] $S$ is 
 
-* a ([[pseudofunctor|pseudo]]-)[[functor]]from  $S^{op}$ to the 2-category [[Cat]] of categories or [[Grpd]] of groupoids;
+* a ([[pseudofunctor|pseudo]]-)[[functor]] from  $S^{op}$ to the 2-category [[Cat]] of categories or [[Grpd]] of groupoids;
 
 * that satisfies [[descent]].
 
