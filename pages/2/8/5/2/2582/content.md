@@ -1,4 +1,3 @@
-
 #Contents#
 
 * automatic table of contents goes here
@@ -45,6 +44,14 @@ $$
 $$
 
 where each $X\langle n\rangle \to X\langle n-1 \rangle$ induces isomorphisms on [[homotopy group]]s $\pi_i$ for $i\gt n$ and such that $X\langle n\rangle$ is $n$-[[connected]] (has trivial [[homotopy group]]s $\pi_i$ for $i \leq n$).
+The homotopy long exact sequence then shows that the fiber of $X\langle n\rangle \to X\langle n-1 \rangle$ is a $K(\pi_{n-1}(X,x),n-1)$ [[Eilenberg-Mac Lane space]]. One has a model for $K(\pi_{n-1}(X,x),n-1)$ which is an abelian topological group; this has a remarkable consequence when $(X,x)=(G,e)$ is a [[topological group]]. Indeed, in this case one sees inductively that $G\langle n\rangle$ has a model which is a topological group, which is an abelian group extension:
+
+$$
+1\to K(\pi_{n-1}(X,x),n-1) \to G\langle n\rangle \to G\langle n-1 \rangle \to 1
+$$
+
+For instance, the [[string group]] can be realized as a topological group as a $K(\mathbb{Z},2)$-extension of the [[spin group]].
+
 
 For $n=0$ we require that $X\langle 0 \rangle \hookrightarrow X$ is the inclusion of the path-component of $x$. Really this is defined up to [[homotopy (as an operation)|homotopy]], but we have a canonical model. If $X$ is locally connected and semilocally path-connected, then $X\langle 1\rangle$ can be chosen as the [[universal covering space]]. 
 
