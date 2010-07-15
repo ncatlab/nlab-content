@@ -137,9 +137,11 @@
 
 ## Extra properties and structure
  
-* [[k-tuply monoidal n-category]]
-
 * [[cosmic cube]]
+
+  * [[k-tuply monoidal n-category]]
+  
+  * [[strict ∞-category]], [[strict ∞-groupoid]]
 
 * [[stable (∞,1)-category]]
 
