@@ -3,7 +3,7 @@ This entry is about the book
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _Nonabelian Algebraic Topology_ Tracts in Mathematics 16, European Mathematical Society ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html), [full pdf](http://www.bangor.ac.uk/%7Emas010/arbrsbookb-e0410.pdf))
 
-which treats [[algebraic topology]] using tools of [[strict ∞-groupoid]]-theory: notably the traditional [[homological algebra]] use of [[chain complex]]es of abelian groups is generalized to [[crossed complex]]es, and emphasis is put on the notion of [[fundamental groupoid]] and its strict [[higher category theory|higher categorical]] generalizations to the [[fundamental ∞-groupoid]] over ^the bare [[homotopy group]]s of a space.
+which treats [[algebraic topology]] using tools of [[strict ∞-groupoid]]-theory: notably the traditional [[homological algebra]] use of [[chain complex]]es of abelian groups is generalized to [[crossed complex]]es, and emphasis is put on the notion of [[fundamental groupoid]] and its strict [[higher category theory|higher categorical]] generalizations to the [[fundamental ∞-groupoid]] over the bare [[homotopy group]]s of a space.
 
 One of the main motivations for the development of Nonabelian Algebraic Topology was the observation that the [[Seifert-van Kampen theorem]] is most naturally understood as being not about [[homotopy group]]s, but about the [[fundamental ∞-groupoid]] of a space and may be generalized to the [[higher homotopy van Kampen theorem]] this way. 
 
@@ -236,7 +236,7 @@ Write $Crs$ for the [[category]] of [[crossed complex]]es.
 
 =--
 
-###### 7.4.i Adjoint module and augmentation module
+###### 7.4.i Adjoint module and augmentation module {#AdjointModule}
 
 +-- {: .un_def}
 ###### Definition
@@ -257,6 +257,7 @@ This is def. 7.4.5
 
 +-- {: .un_def}
 ###### Definition
+**(covering morphism)**
 
 For $(t : N \to \mathcal{G}_0,\mathcal{G})$ a [[module over a groupoid]], write $P(N,\mathcal{G})$ for the groupoid $\mathcal{G}$ pulled back to the underlying set of $N$:
 
@@ -290,21 +291,9 @@ and for $n \leq 2$ it is given by ...
 This is definition 7.4.20.
 
 
-+-- {: .un_example}
-###### Example
-**(ordinary abelian chain complex as crossed complex)**
-
-
-Let $C_\bullet$ be an ordinary [[chain complex]] of abelian groups, i.e. a chain complex of [[module over a groupoid|modules over the trivial groupoid]].
-
-Then $(\Theta C)_1$ is the groupoid with objects $C_0$ and morphisms $\{x \stackrel{b}{\to} x + \partial b\}$. And for $n \geq 2$ we have that $(\Theta C)_2$ is $\coprod_{x \in C_0} C_n$.
-
-
-=--
-
-
 ###### 7.4.v The right adjoint of the derived functor {#CrsFromCh}
 
+We describe a construction of a [[crossed complex]] from a [[chain complex]] of [[modules over a groupoid]] $(A_n, \mathcal{H})$. Recall the definition of the [semidirect product groupoid](#AdjointModule)  $\mathcal{H} \ltimes A_n$.
 
 +-- {: .un_def}
 ###### Definition
@@ -342,7 +331,7 @@ $$
   \kappa : P(A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
 $$
 
-is the canonical covering morphism from above.
+is the [canonical covering morphism](#AdjointModule) from above.
 
 $$
   \array{
@@ -355,11 +344,11 @@ $$
     &\to&
     P(A_0, \mathcal{H})
     \\
-    & \doiwnarrow && \downarrow && \downarrow && \downarrow
+    & \downarrow && \downarrow && \downarrow && \downarrow
     \\
     \cdots \to & 
     A_3
-    &\stackrel{\parital_3}{\to}&
+    &\stackrel{\partial_3}{\to}&
     A_2
     &\stackrel{(0,\partial_2)}{\to}&
     \mathcal{H} \ltimes A_1
@@ -369,11 +358,28 @@ $$
   \,.
 $$
 
-
 Here $\mathcal{H} \ltimes A_1$ acts on $A_n$ for $n \geq 2$ via the projection $\mathcal{H} \ltimes A_1 \to \mathcal{H}$, i.e. $A_1$ acts trivially.
 (...)
 
+Finally set $\Theta(A)_0 := A_0$.
+
 =--
+
++-- {: .un_example}
+###### Example
+**(ordinary abelian chain complex as crossed complex)**
+
+
+Let $C_\bullet$ be an ordinary [[chain complex]] of abelian groups, i.e. a chain complex of [[module over a groupoid|modules over the trivial groupoid]].
+
+Then $(\Theta C)_1$ is the groupoid with objects $C_0$ and morphisms $\{x \stackrel{b}{\to} (x + \partial b)\}$. And for $n \geq 2$ we have that $(\Theta C)_n$ is $\coprod_{x \in C_0} C_n$.
+
+
+=--
+
+
+
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -578,7 +584,7 @@ The [[∞-nerve]] $N^\Delta \Theta D \in $ [[sSet]] (described in [Crossed compl
 By definition we have
 
 $$
-  N^\Delta (\Theta D)  := \simeq Crs(\Pi \Delta^\bullet, \Theta D)
+  N^\Delta (\Theta D)  := Crs(\Pi \Delta^\bullet, \Theta D)
   \,.
 $$
 
