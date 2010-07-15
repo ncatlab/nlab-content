@@ -3,7 +3,7 @@ This entry is about the book
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _Nonabelian Algebraic Topology_ Tracts in Mathematics 16, European Mathematical Society ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html), [full pdf](http://www.bangor.ac.uk/%7Emas010/arbrsbookb-e0410.pdf))
 
-which treats [[algebraic topology]] using tools of [[strict ∞-groupoid]]-theory: notably the traditional [[homological algebra]] use of [[chain complex]]es of abelian groups is generalized to [[crossed complex]]es, and emphasis is put on the notion of [[fundamental groupoid]] and its strict [[higher category theory|higher categorical]] generalizations to the [[fundamental ∞-groupoid]] over the bare [[homotopy group]]s of a space.
+which treats [[algebraic topology]] using tools of [[strict ∞-groupoid]]-theory: notably the traditional [[homological algebra]] use of [[chain complex]]es of abelian groups is generalized to [[crossed complex]]es, and emphasis is put on the notion of [[fundamental groupoid]] and its strict [[higher category theory|higher categorical]] generalizations to the [[fundamental ∞-groupoid]] over ^the bare [[homotopy group]]s of a space.
 
 One of the main motivations for the development of Nonabelian Algebraic Topology was the observation that the [[Seifert-van Kampen theorem]] is most naturally understood as being not about [[homotopy group]]s, but about the [[fundamental ∞-groupoid]] of a space and may be generalized to the [[higher homotopy van Kampen theorem]] this way. 
 
@@ -268,7 +268,7 @@ This is def. 7.4.9.
 
 
 
-###### 7.4.iii The derived chain complex of a crossed complex
+###### 7.4.iii The derived chain complex of a crossed complex {#ChainOfCrossed}
 
 
 +-- {: .un_def}
@@ -400,6 +400,130 @@ This is proposition 7.4.29.
 
 * [[higher homotopy van Kampen theorem]]
 
+##### 8.4 The chain complex of a filtered space and of a CW-complex {#ChainCplxOfFilteredSpace}
+
+Let all [[topological space]]s $X$ in the following by [[Hausdorff space]]s that admit a [[universal cover]]. $\hat X$.
+
++-- {: .un_def}
+###### Definition
+**(homology chain complex of a filtered space)**
+
+For $X = (X_\bullet)$ a [[filtered space]] define a [[chain complex]] of [[modules over a groupoid]] $\mathcal{C}_\bullet(X)$ as follows.
+
+The [[groupoid]] $\mathcal{G} := \Pi_1(X,X_0)$ is the full subgroupoid of the [[fundamental groupoid]] of $X$ on points in $X_0$.
+
+For $x_0 \in X$ let $\hat X(x_0) := \coprod_y \Pi_1(y,x_0)$ be the standard model for the [[universal cover]] of $X$ in terms of homotopy classes of paths into $x_0$. 
+
+For all $x \in X_0 = Obj(\Pi_1(X,X_0))$ take the [[module over a groupoid|modules over]] $\Pi_1(X,X_0)$ to be the [[relative homology group]]s
+
+$$
+  (\mathcal{C}_0 X)_x := H_0(\hat X_0(x))
+$$
+
+and for $n \geq 1$
+
+$$
+  (\mathcal{C}_n X)_x := H_n(\hat X_n(x),\hat X_{n-1}(x) )
+  \,.
+$$
+
+The action of $\Pi_1(X,X_0)$ on this is the evident one induced by composition of paths.
+
+This extends to a [[functor]]
+
+$$
+  \mathcal{C}_\bullet : FTop \to Chn
+  \,.
+$$
+
+=--
+
+This is _def 8.4.1_
+
+The next proposition asserts that this notion of chain complex of a filtered topological space is reproduced by the combination of
+
+* the [fundamental crossed complex](#FundamentalCrossedComplex) $\Pi X_\bullet$
+
+* and the [chain complex of a crossed complex](#ChainOfCrossed) $\nabla \Pi X_\bullet$.
+
++-- {: .un_prop}
+###### Proposition
+
+If the [[filtered space]] $X_\bullet$ is [[connected space|connected]] then there is a [[natural isomorphism]]
+
+$$
+  \mathcal{C}_\bullet X \simeq \nabla \Pi X
+  \,.
+$$
+
+=--
+
+This is _proposition 8.4.2_ . Use the [[Hurewicz theorem|relative Hurewicz theorem]] to translate from [[homotopy group]]s to [[homology group]]s.
+
+###### Example: Chains on the $n$-simplex
+
++-- {: .un_example}
+###### Example
+**(chains on the $n$-simplex)**
+
+Consider $X = \Delta^n$, the standard topological $n$-[[simplex]] regarded as a [[filtered space]] with the union of its $k$-faces in degree $k$.
+
+Notice that since $\Delta^n$ is a [[simply connected space]] in this case we have that for each basepoint $x \in (\Delta^n)_0$ the universal cover $\hat X_{x} = X$ coincices with $X$.
+
+We have that
+
+$$
+  \mathcal{C}_\bullet \Delta^n \simeq \nabla \Pi \Delta^n
+  \simeq
+   N_\bullet \Delta[n]
+$$
+
+is, over each vertex $x \in (\Delta^n)_0$, the [[Dold-Kan correspondence|normalized chain complex]] of [[cochain on a simplicial set|chains on the simplicial set]] $\Delta[n]$ 
+
+$$
+  \mathcal{C}_0 \Delta^n = \mathbb{Z}^{n+1}
+  \;\;\;\;\;
+  (\mathcal{C}_0 \Delta^n)_x = \mathbb{Z}$$
+
+$$
+  (\mathcal{C}_1 \Delta^n)_{x} = \mathbb{Z}^n 
+$$
+
+etc.
+
+$$
+  (\mathcal{C}_n \Delta^n)_x = \mathbb{Z}
+  \,.
+$$
+
+We have moreover that $\Pi_1(\Delta^n, (\Delta^n)_0)$ is the [[codiscrete groupoid]] on $n+1$ objects. It acts on the $\mathcal{C}_k(\Delta^n)$ by identity maps
+
+$$
+  (x_i \to x_j) : (\mathcal{C}_{k} \Delta^n)_{x_i} 
+  \stackrel{=}{\to}
+  (\mathcal{C}_{k} \Delta^n)_{x_j}
+  \,.
+$$
+
+It follows in particular that for $D_\bullet$ an ordinary [[chain complex]] of [[abelian group]]s regarded as a complex of [[modules over a groupoid]] in the trivial way, morphisms of modules over groupoids
+
+$$
+  \mathcal{C}_\bullet \Delta^n \to D
+$$
+
+are canonically identified with morphisms of ordinary chain complexes of abelian groups
+
+$$
+  N_\bullet \Delta[n] \to D
+  \,.
+$$
+
+For more on this see [Dold-Kan map and omega-nerve](#DoldKanMap).
+
+=--
+
+
+
 #### 9 Tensor products and homotopies of crossed complexes
 
 ##### 9.9 The homotopy addition lemma for a simplex {#HomotopyAdditionSimplex}
@@ -436,30 +560,45 @@ $$
 
 This is definition 9.10.2.
 
+###### Remark 9.10.6 (Dold-Kan map and $\omega$-nerve) {#DoldKanMap}
+
 +-- {: .un_prop}
 ###### Proposition
 **(Dold-Kan map)**
 
-For $D \in Chn$ a [[chain complex]] (of [[abelian groups]]), we may regard it as a [[crossed complex]] $\Theta D$ as described at [Crossed complex from chain complex](#CrsFromCh), hence as a [[strict ∞-groupoid]]. 
+For $D \in Chn$ a [[chain complex]] (of [[abelian groups]]) regarded as a chain complex of  [[modules over a groupoid|modules over]] the trivial groupoid, we may regard it as a [[crossed complex]] $\Theta D$ as described at [Crossed complex from chain complex](#CrsFromCh), hence as a [[strict ∞-groupoid]]. 
 
 The [[∞-nerve]] $N^\Delta \Theta D \in $ [[sSet]] (described in [Crossed complexes and simplicial sets](#SimpSetAndCrs)) of this is the [[Kan complex]] underlying the image of $D$ under the [[Dold-Kan correspondence]] $Chn \to sAb$.
 
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition we have
+
 $$
-  \begin{aligned}
-    N^\Delta (\Theta D)  &= \simeq Crs(\Pi \Delta^\bullet, \Theta D)
-    \\
-    & \simeq Chn( \nabla \Pi \Delta^\bullet, D)
-    \\
-    & \simeq Chn( C_\bullet \Delta^\bullet , D) 
-  \end{aligned}
+  N^\Delta (\Theta D)  := \simeq Crs(\Pi \Delta^\bullet, \Theta D)
   \,.
 $$
 
-Here $C_\bullet \Delta^n$ is the standard [[chain complex]] of chains on the simplicial $r$-[[simplex]] as discussed at [[cochain on a simplicial set|chains on a simplicial set]].
+By [[adjunction]] $(\Pi \dashv \Theta)$ with the [Theta-map](spring) this is equivalently
+
+$$
+  \cdots \simeq Chn( \nabla \Pi \Delta^\bullet, D)
+$$
+
+Using the propositions and examples discussed at [Chain complex of a filtered space](#ChainCplxOfFilteredSpace) we have that $\nabla \Pi \Delta^n$ is standard normalized [[chain complex]] $N_\bullet \Delta[n]$ of chains on the simplicial $n$-[[simplex]] as discussed at [[cochain on a simplicial set|chains on a simplicial set]] and [[Dold-Kan correspondence]], but regarded as a complex of [[modules over a groupoid|modules over the groupoid]] $\Pi_1(\Delta^n, (\Delta^n)_0)$. But since the groupoid action on $D$ is trivial, the above is equivalent to
+
+$$
+  \cdots \simeq Chn( N_\bullet \Delta^\bullet , D) 
+  \,.
+$$
+
 
 =--
 
-This appears as _Remark 9.10.6_ together with its _footnote 116_ .
+This appears as _remark 9.10.6_ together with its _footnote 116_ .
 
 
 +-- {: .un_remark}
