@@ -31,7 +31,7 @@ The equivalence of strict $\omega$-groupoids and [[crossed complex]]es is discus
 
 * [[Ronnie Brown]], [[Philip Higgins]], _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
 
-
+Notice that this article says "$\infty$-groupoid" for _strict globular $\infty$-groupoid_ and "$\omega$-groupoid" for _strict cubical $\infty$-groupoid_ .
 
 [[!redirects strict ∞-groupoid]]
 [[!redirects strict ∞-groupoids]]
