@@ -5,7 +5,9 @@
 
 ## Idea 
 
-A **hyperring** is like a [[ring]] not with an underlying [[abelian group]] but an underlying [[canonical hypergroup]].
+A **hyperring** is like a [[ring]] not with an underlying [[abelian group]] but an underlying [[canonical hypergroup]]. 
+
+It is a [[hypermonoid]] with additional ring-like [[stuff, structure, property|structure and properties]].
 
 This means that in a hyperring $R$ addition is a multi-valued operation.
 
