@@ -42,7 +42,7 @@ $$s_{i}^{2} = 1, \qquad s_i s_j \ldots = s_j s_i \ldots$$
 
 where the words on either side of the second equation alternate between $s_i$ and $s_j$ and have length $m_{i j}$. 
 
-The Boolean Hecke algebra of a Coxeter group $W$ is a quantale whose underlying sup-lattice is $P W$, and whose quantalic multiplication is uniquely determined by a hypermonoid structure which satisfies 
+The Boolean [[Hecke algebra]] of a Coxeter group $W$ is a quantale whose underlying sup-lattice is $P W$, and whose quantalic multiplication is uniquely determined by a hypermonoid structure which satisfies 
 
 $$\{s_i\} \cdot \{s_i\} = \{s_i, 1\}, \qquad s_i s_j \ldots = s_j s_i \ldots$$ 
 
@@ -66,13 +66,13 @@ Hence $P(W) \cong P(B\backslash G/B)$ as sup-lattices, but the algebra structure
 
 #### Other examples 
 
-The Boolean Hecke algebra is a [[deformation]] of the Coxeter group algebra. Under certain conditions, other deformations of group or monoid algebras can be exploited to yield hypermonoids. 
+Hecke algebras are a [[deformation]] of the Coxeter group algebra. Under certain conditions, other deformations of group or monoid algebras of monoids $M$ can be exploited to yield hypermonoids. 
 
 For example, if the multiplication table of such a deformation is given by equations 
 
 $$g_i g_j = \sum_k a_{i j}^{k} g_k$$ 
 
-where all the $a_{i j}$ are nonnegative rational numbers of which at least one is nonzero, then we may obtain a hypermonoid by replacing each positive $a_{i j}^{k}$ by $1$ and interpreting the sum as a join. This procedure may be termed "Booleanization". For example, in the case of Hecke algebras, we have 
+where all the $a_{i j}^k$ are nonnegative rational numbers of which at least one is nonzero for each pair $i, j$, then we may obtain a hypermonoid by replacing each positive $a_{i j}^{k}$ by $1$ and interpreting the sum as a join in the Boolean algebra $P(M)$. This procedure may be termed "Booleanization". For example, in the case of Hecke algebras, we have 
 
 $$s_{i}^{2} = \frac{q-1}{q} s_i + \frac1{q}$$ 
 
@@ -80,7 +80,9 @@ and if the parameter $q$ is specialized to positive integer values (e.g., powers
 
 In general the principle is this: if the structure coefficients $a_{i j}^{k}$ belong to a [[rig]] $A$, so that we have a deformation $A[M]_d$ of a monoid rig, and if one is provided with a rig homomorphism $p: A \to\mathbf{2} = (\{0, 1\}, + = \vee, \cdot = \wedge)$ then there is a Booleanized hypermonoid structure defined by the composite 
 
-$$M \times M \stackrel{mult}{\to} A[M]_d \cong A \otimes_A A[M]_d \stackrel{p \otimes_A 1}{\to} \mathbf{2} \otimes_A A[M]_d = \mathbf{2}[M]_d \hookrightarrow P(M)$$ 
+$$M \times M \stackrel{mult}{\to} A[M]_d \cong A \otimes_A A[M]_d \stackrel{p \otimes_A 1}{\to} \mathbf{2} \otimes_A A[M]_d \cong \mathbf{2}[M]_d \hookrightarrow P(M)$$ 
+
+For instance, there is a unique rig homomorphism $p: \mathbb{Q}_+ \to \mathbf{2}$ from the rig of nonnegative rational numbers. 
 
 ## References 
 
