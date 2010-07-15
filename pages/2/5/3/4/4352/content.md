@@ -7,6 +7,7 @@
 
 A **hypergroup** is a [[algebra|algebraic]] structure similar to a [[group]], but where the composition operation does not just take two elements to a single product element in the group, but to a subset of elements of the group.
 
+It is a [[hypermonoid]] with additional groupal [[stuff, structure, property|structure and property]].
 
 ## Definition
 
@@ -27,3 +28,10 @@ taking values in [[non-empty subsets]] of $H$, and a zero element $0 \in H$, suc
 ## Examples
 
 The additive structure underlying a [[hyperring]] is a canonical hypergroup. See there for more examples.
+
+
+[[!redirects hypergroup]]
+[[!redirects hypergroups]]
+
+
+[[!redirects canonical hypergroups]]
