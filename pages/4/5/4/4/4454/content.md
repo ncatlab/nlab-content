@@ -95,7 +95,7 @@ $$
 
 ### Strictly stable strict $\infty$-groupoids in strict $\infty$-groupoids
 
-A strictly stable strict ∞-groupoid is modeled by a [[chain complex]] of abelian groups. Under the embedding $\Theta$ of complexes into [[crossed complex]]es it embeds into [[strict ∞-groupoid]]s.
+A strictly stable strict ∞-groupoid is modeled by a bounded-below [[chain complex]] of abelian groups. Under the embedding $\Theta$ of complexes into [[crossed complex]]es it embeds into [[strict ∞-groupoid]]s.
 
 $$
   \array{
@@ -140,7 +140,7 @@ yields in total the map $ChnCplx \to sAb$ from [[chain complex]]es to [[simplici
 
 ### Strictly stable strict $\infty$-groupoids in strictly stable $\infty$-groupoids
 
-A strictly stable strict ∞-groupoid is modeled by a [[chain complex]] of abelian groups. Under [[∞-nerve]] it embeds into all ([[connective spectrum|connective]]) [[spectra]]s, modeled as [[spectrum object]]s in [[Kan complex]]es.
+A strictly stable strict ∞-groupoid is modeled by a bounded-below [[chain complex]] of abelian groups. Under [[∞-nerve]] it embeds into all ([[connective spectrum|connective]]) [[spectra]]s, modeled as [[spectrum object]]s in [[Kan complex]]es.
 
 $$
   \array{
@@ -156,7 +156,7 @@ $$
 
 ### Strictly stable $\infty$-groupoids in all $\infty$-groupoids
 
-A strictly stable ∞-groupoid is modeled by a [[spectrum]]. It embeds into all [[∞-groupoid]]s.
+A strictly stable ∞-groupoid is modeled by a connective [[spectrum]].  The forgetful functor to [[∞-groupoid]]s is also called $\Omega^\infty$ or the "zeroth-space functor."
 
 
 
