@@ -43,7 +43,7 @@ At the same time, an examination of the proof of the [[van Kampen theorem]] for 
 > It seemed to me  unfortunate that this work aroused the opposition, for reasons never explained to me, of Frank Adams,  who told people the whole programme was "ridiculous". His opinion became the opposite only when I told him (1985?) of the extension to the non simply connected case of the Blakers-Massey description of $\pi_3$ of a triad, using the nonabelian tensor product (work with [[Jean-Louis Loday]]). 
 
 > The higher order van Kampen theorems, and the often nonabelian calculations which result,  have not been obtained by cohomological methods, but only by working directly  with structures appropriate to the geometry of higher homotopies, i.e. forms of strict [[n-fold category|multiple]]
-groupoids. This confirms the comment of [[Philip Hall]], Philip Higgins' supervisor, that one should not try to force the geometry into a given algebraic mode, but search for the algebra which models the geometry. So it seems to me that algebraic topology has  been mainly restricted to, or not got out of,  the single base point and "group", not "groupoid", mode, nor appreciated the possibilities of
+groupoids. This confirms the comment of [[Philip Hall]], Philip Higgins' supervisor, that one should not try to force the geometry into a given ^^algebraic mode, but search for the algebra which models the geometry. So it seems to me that algebraic topology has  been mainly restricted to, or not got out of,  the single base point and "group", not "groupoid", mode, nor appreciated the possibilities of
 [[colimit]] type theorems in algebraic (and geometric?) topology -- no algebraic or geometric topology text (except mine!) mentions the higher order van Kampen work with Philip Higgins.
 
 > You can also see this restriction in the contrast between the unsymmetrical, choice laden,  definition of the second relative homotopy group, with its compositions in one direction (recall the limitations of "Lineland" described in "Flatland") and the definition of the fundamental [[double groupoid]] of a pointed pair of spaces $\rho_2(X,A)$, with its compositions in $2$ directions. 
@@ -127,6 +127,7 @@ that are linear and respect the groupoid composition in the obvious way.
 
 ###### 7.1.v The fundamental crossed complex functor {#FundamentalCrossedComplex}
 
+The notion of [[fundamental groupoid]] of a [[topological space]] generalizes to a notion of [[fundamental ∞-groupoid]]. There is a strict version of this (which loses some information): the fundamental strict $\infty$-groupoid. In a [[filtered space]] $X_\bullet$ one can consider the variant where the [[k-morphism]]s of the fundamental $\infty$-groupoid are constrained to lie in $X_k$. The _fundamental crossed complex_ of a filtered space is the equivalent [[crossed complex]] incarnation of the fundamental strict $\infty$-groupoid of a filtered space.
 
 +-- {: .un_def}
 ###### Definition
@@ -134,7 +135,7 @@ that are linear and respect the groupoid composition in the obvious way.
 
 Let $X_\bullet$ be a [[filtered space]]. 
 
-Write $\Pi_1(X_1,X_0)$ for the subgroupo&#238;d of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects that are in $X_0$.
+Write $\Pi_1(X_1,X_0)$ for the subgroupoid of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects that are in $X_0$.
 
 The **fundamental crossed complex** $\Pi X_\bullet$ of $X$ is the [[crossed complex]]
 
@@ -158,6 +159,60 @@ $$
 
 where $\pi_n(X_n, X_{n-1}, x)$ is the [[relative homotopy group]] obtained by equivalence classes of maps from the pointed $n$-disk into $X$ such that the disk lands in $X_n$, its boundary in $X_{n-1}$ and its basepoint on $x$.
 
+
+=--
+
++-- {: .un_example}
+###### Example
+**(fundamental crossed complex of the $n$-simplex)**
+
+The topological $n$-[[simplex]] $\Delta^n$ is canonically a [[filtered space]] with $(\Delta^n)_k$ being the union of its $k$-faces.
+
+Then we have that $\Pi_1((\Delta^n)_1, (\Delta^n)_0)$ is the groupoid whose objects are the $n+1$ vertices of $\Delta^n$ and which has precisely one morphism $x_i \to x_j$ for each ordered pair $x_i,x_j \in (\Delta^n)_0$
+(all of them being [[isomorphism]]s)
+
+$$
+  \Pi_1((\Delta^2)_1,(\Delta^2)_0) = 
+  \left\{
+     \array{
+     && x_1
+     \\
+     & \nearrow\swarrow && \searrow \nwarrow
+     \\
+    x_0 &&\stackrel{\leftarrow}{\to}&& x_2
+    }
+  \right\}
+  \,.
+$$
+
+At any $x_i$ the relative homotopy group $\pi_2((\Delta^n)_2,(\Delta^n)_1, x_i)$ is a group on the set of 2-faces that have $x_i$ as a 0-face: there is a unique homotopy class of disks in $\Delta^n$ that sits in the 2-faces $(\Delta^n)$, whose base point is at $x_j$ and whose boundary runs along the boundary of a given 2-face of $\Delta^n$.
+
+So (using the equivalence of crossed complexes with strict $\omega$-groupoids) for instance $\Pi \Delta^2$ is generated from $\Pi_1((\Delta^2)_1,(\Delta^2)_0)$ as above and a 2-cell
+
+$$
+  \array{
+     && x_1
+     \\
+     & \swarrow &\Downarrow& \nwarrow
+     \\
+    x_0 &&\to&& x_2
+    }
+$$
+
+under whiskering and composition. For instance whiskering this with $x_1 \to x_2$ yields the 2-morphism
+
+$$
+  \array{
+     && x_1
+     \\
+     & \swarrow &\Downarrow& \searrow
+     \\
+    x_0 &&\to&& x_2
+    }
+  \,.
+$$
+
+Generally, $\Pi \Delta^n$ is the $n$-groupoid freely generated from $k$-morphisms for each $k$-face of $\Delta^n$.
 
 =--
 
