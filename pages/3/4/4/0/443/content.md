@@ -1,8 +1,15 @@
+# $Rel$
+* table of contents
+{: toc}
+
+## Idea
+
 Roughly speaking, $Rel$ is the category where the objects are sets and the morphisms are (binary) [[relation]]s between sets. It becomes a [[2-category]] (in fact, a [[2-poset]]) by taking 2-cells to be inclusions of relations. 
+
 
 ## Definition
 
-$Rel$ is a 2-poset (a [[enriched category|category enriched]] in the category of [[partial order|poset]]s), whose objects or 0-cells are sets, whose morphisms or 1-cells $X \to Y$ are relations $R \subseteq X \times Y$, and whose 2-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
+$Rel$ is a 2-poset (a [[enriched category|category enriched]] in the category of [[partial order|poset]]s), whose objects or $0$-cells are sets, whose morphisms or $1$-cells $X \to Y$ are relations $R \subseteq X \times Y$, and whose $2$-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
 $$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \hookrightarrow X \times Z$$ 
 and the _identity_ $1_X: X \to X$ is the [[equality relation]], in other words the usual diagonal embedding 
 $$\{(x, x): x \in X\} \hookrightarrow X \times X.$$ 
@@ -10,6 +17,7 @@ $$\{(x, x): x \in X\} \hookrightarrow X \times X.$$
 Another important operation on relations is _taking the opposite_: any relation $R: X \to Y$ induces a relation 
 $$R^{op} = \{(y, x) \in Y \times X: (x, y) \in R\} \hookrightarrow Y \times X$$ 
 and this operation obeys a number of obvious identities, such as $(S \circ R)^{op} = R^{op} \circ S^{op}$ and $1_X^{op} = 1_X$. 
+
 
 ## Relations and spans
 
@@ -21,6 +29,7 @@ and a relation from $X$ to $Y$ is just a [[subobject]] of the terminal span, in 
 
 To each span $S$ from $X$ to $Y$, there is a corresponding relation from $X$ to $Y$, defined by taking the [[image]] of the unique morphism of spans $S \to X \times Y$ between $X$ and $Y$. It may be checked that this yields a lax morphism of bicategories 
 $$Span \to Rel$$ 
+
 
 ## Relations in a category
 
@@ -42,8 +51,14 @@ which says that the functional relation is _total_, and the counit amounts to a 
 $$\langle 1, f \rangle \circ \langle f, 1 \rangle \subseteq 1_d$$ 
 which says the functional relation is _well-defined_. 
 
+
 ## Generalizations 
 
 See [[allegory]], [[cartesian bicategory]]. 
 
+
 category: category
+
+[[!redirects Rel]]
+[[!redirects REL]]
+[[!redirects rel]]
