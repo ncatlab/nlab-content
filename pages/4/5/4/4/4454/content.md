@@ -140,15 +140,16 @@ yields in total the map $ChnCplx \to sAb$ from [[chain complex]]es to [[simplici
 
 ### Strictly stable strict $\infty$-groupoids in strictly stable $\infty$-groupoids
 
-A strictly stable strict ∞-groupoid is modeled by a [[chain complex]] of abelian groups. Under [[∞-nerve]] it embeds into all [[strictly stable ∞-groupoid]]s, modeled as [[spectrum|spectra]].
+A strictly stable strict ∞-groupoid is modeled by a [[chain complex]] of abelian groups. Under [[∞-nerve]] it embeds into all ([[connective spectrum|connective]]) [[spectra]]s, modeled as [[spectrum object]]s in [[Kan complex]]es.
 
 $$
   \array{
-    ChnCplx &\stackrel{\N^\Delta}{\hookrightarrow}& Sp(Top)
+    ChnCplx^+ 
+    &\stackrel{\Sigma^\infty \N^\Delta \Theta}{\hookrightarrow}& Sp(KanCplx)
     \\
     \downarrow && \downarrow
     \\
-    StrAb Str \infty Grpd &\hookrightarrow& StrStab \infty Grpd
+    StrAb Str \infty Grpd &\hookrightarrow& Sp(\infty Grpd)
   }
   \,.
 $$
