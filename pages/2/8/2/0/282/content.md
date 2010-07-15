@@ -162,6 +162,10 @@ where $\pi_n(X_n, X_{n-1}, x)$ is the [[relative homotopy group]] obtained by eq
 
 =--
 
+See also section 1 of
+
+* [[Ronnie Brown]], [[Rafael Sivera]], _Normalization of the fundamental crossed complex of a simplicial set_ ([arXiv:math/0611728](http://arxiv.org/abs/math/0611728), [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.63.9955&rep=rep1&type=pdf))
+
 +-- {: .un_example}
 ###### Example
 **(fundamental crossed complex of the $n$-simplex)**
@@ -185,7 +189,7 @@ $$
   \,.
 $$
 
-At any $x_i$ the relative homotopy group $\pi_2((\Delta^n)_2,(\Delta^n)_1, x_i)$ is a group on the set of 2-faces that have $x_i$ as a 0-face: there is a unique homotopy class of disks in $\Delta^n$ that sits in the 2-faces $(\Delta^n)$, whose base point is at $x_j$ and whose boundary runs along the boundary of a given 2-face of $\Delta^n$.
+At any $x_i$ the relative homotopy group $\pi_2((\Delta^n)_2,(\Delta^n)_1, x_i)$ is a group on the set of 2-faces that have $x_i$ as a 0-face: there is a unique homotopy class of disks in $\Delta^n$ that sits in the 2-faces $(\Delta^n)_2$, whose base point is at $x_j$ and whose boundary runs along the boundary of a given 2-face of $\Delta^n$.
 
 So (using the equivalence of crossed complexes with strict $\omega$-groupoids) for instance $\Pi \Delta^2$ is generated from $\Pi_1((\Delta^2)_1,(\Delta^2)_0)$ as above and a 2-cell
 
@@ -205,12 +209,14 @@ $$
   \array{
      && x_1
      \\
-     & \swarrow &\Downarrow& \searrow
+     & \swarrow &\swArrow& \searrow
      \\
     x_0 &&\to&& x_2
     }
   \,.
 $$
+
+One sees that $\Pi \Delta^2$ is the strict groupoidification of the second [[oriental]].
 
 Generally, $\Pi \Delta^n$ is the $n$-groupoid freely generated from $k$-morphisms for each $k$-face of $\Delta^n$.
 
