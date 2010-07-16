@@ -127,6 +127,8 @@ More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally
 
 ### $\infty$-Connectedness {#InfConnectedness}
 
+We discuss that $\infty LieGrpd$ is an [[∞-connected (∞,1)-topos]] and recall the notions of intrinsic de Rham objects induced from that.
+
 +-- {: .un_lemma}
 ###### Lemma
 
@@ -168,6 +170,8 @@ The proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88
 
 =--
 
+#### Path $\infty$-groupoids and flat objects
+
 We make the usual definitions in an [[∞-connected (∞,1)-topos]] as described in more detail at [[schreiber:path ∞-groupoid]] and at [[schreiber:differential cohomology in an (∞,1)-topos]]:
 
 +-- {: .un_def}
@@ -187,7 +191,12 @@ $$
 
 for the composite [[adjunction]]. For $X,A \in \infty LieGrpd$ we call $\mathbf{\Pi}_{inf}$ the **Lie [[schreiber:path ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}_{inf}A$ the **flat $\infty$-Lie groupoid** of $A$.
 
-For $X \in \infty Grpd$ we write $\mathbf{\Pi}_{dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}(X)$, i.e. for the [[pushout]]
+=--
+
+
+#### Coefficients for $\infty$-Lie algebra valued differential forms
+
+For $X \in \infty LieGrpd$ we write $\mathbf{\Pi}_{dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}(X)$, i.e. for the [[pushout]]
 
 $$
   \array{
@@ -217,17 +226,39 @@ in $\infty LieGrpd$\,.
 
 =--
 
-+-- {: .proof}
-###### Proof
+#### The canonical $\mathfrak{g}$-valued form on an $\infty$-Lie group $G$
 
-The [[(∞,1)-functor]] $\Pi : \infty LieGrpd \to \infty Grpd$ is the left [[derived functor]] of $\lim_\to : [CartSp^{op}, sSet]_{proj,cov} \to sSet_{Quillen}$. Use the above cofibrant replacement for $X$ degreewise with Dugger's general description of [projective cofibrant objects](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement) in $[CartSp^{op}, sSet]$ to compute the cofibrant replacement, then apply $\lim_\to$ and use that the [[colimit]] of a [[representable functor|representable]] is the point. The statement then is degreewise the classical [[nerve theorem]].
+For $G \in \infty LieGrpd$ an [[∞-group]] with [[delooping]] $\mathbf{B}G$ consider the double [[(∞,1)-pullback]] diagram
 
-A detailed proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
+$$
+  \array{
+    G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\flat}_{dR} \mathbf{B}G &\to& \mathbf{\flat} \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+  \,.
+$$
 
-=--
+The bottim square is an [[(∞,1)-pullback]] by definition. By the pasting law for $(\infty,1)$-pullbacks, the top square being an $(\infty,1)$-pullback implies that the outer rectangle is, too, which identifies $G$ as the top pullback.
 
+This induces a canonical element in the $G$-valued intrinsic de Rham cohomology of $G$:
 
-### Geometric realization
+$$
+  (G \to \mathbf{\flat}_{dR} \mathbf{B}G)
+  \in
+  \mathbf{H}_{dR}(G, \mathbf{B}G)
+  \,.
+$$
+
+This we may identify with the $\infty$-groupoid analog of the [[Maurer-Cartan form]] on a Lie group $G$.
+
+#### Geometric realization
 
 +-- {: .un_prop}
 ###### Proposition
@@ -248,7 +279,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-A proof is given at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">path oo-groupoid -- Geometric realization </a>
+The [[(∞,1)-functor]] $\Pi : \infty LieGrpd \to \infty Grpd$ is the left [[derived functor]] of $\lim_\to : [CartSp^{op}, sSet]_{proj,cov} \to sSet_{Quillen}$. Use the above cofibrant replacement for $X$ degreewise with Dugger's general description of [projective cofibrant objects](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement) in $[CartSp^{op}, sSet]$ to compute the cofibrant replacement, then apply $\lim_\to$ and use that the [[colimit]] of a [[representable functor|representable]] is the point. The statement then is degreewise the classical [[nerve theorem]].
+
+A detailed proof can be found at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">path ∞-groupoid -- Unstructured homotopy ∞-groupoid</a>.
 
 =--
 
@@ -271,9 +304,7 @@ on such morphisms [[geometric realization]] $X_\bullet \mapsto |X_\bullet| \int^
 In unpublished notes, [[Danny Stevenson]] and [[David Roberts]] show that under [[geometric realization]] the <a href="http://ncatlab.org/nlab/show/simplicial+group#UniversalBundle">universal simplicial principal bundle</a>
 $\mathbf{E}G := W G \to \bar W G$ maps to the universal $|G|$-[[principal bundle]] $\mathcal{E} |G| \to \mathcal{B}|G|$ in [[Top]].
 
-But (as described at [[homotopy fiber]] and [[generalized universal bundle]]) the universal bundle is a means to compute homotopy fibers:
-
-the ordinary [[pullback]]
+But (as described at [[homotopy fiber]] and [[generalized universal bundle]]) the universal bundle is a means to compute homotopy fibers: the ordinary [[pullback]]
 
 $$
   \array{
@@ -309,7 +340,7 @@ The functor $\Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd$ preserves homotopy f
 
 =--
 
-> may need to polish the technical assumopptions...
+> may need to polish the technical assumptions...
 
 
 ### Relation to $(\infty,1)$-sheaves on all manifolds
