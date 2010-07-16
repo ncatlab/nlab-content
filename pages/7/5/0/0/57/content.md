@@ -16,29 +16,29 @@ It turns out that if the [[∞-Lie algebroid]]s $\mathfrak{a}$ involved are inca
 
 This statement was made explicit for [[dg-Lie algebra]]s in
 
-* [[Vladimir Hinich]], _Descent of deligne groupoids_ . Internat. Math. Res. Notices, 5:223&#8211;239, 1997.
+* [[Vladimir Hinich]], _Descent of Deligne groupoids_, Internat. Math. Res. Notices, 5:223&#8211;239, 1997 ([doi](http://dx.doi.org/10.1155/S1073792897000160), [preprint ddg.pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/ddg.pdf))
 
 and for general [[L-∞-algebra|∞-Lie algebra]]s 
 
-* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, ([arXiv](http://arxiv.org/abs/math/0404003))
+* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, ([math.AT/0404003](http://arxiv.org/abs/math/0404003))
 
 (whose main point is the discussion of a gauge condition applicable for nilpotent $L_\infty$-algebras that cuts down the result of the Sullivan construction to a much smaller but equivalent model)
 
 and
 
-* [[Andre Henriques]], _Integrating $L_\infty$ algebras_,([arXiv](http://arxiv.org/abs/math.AT/0603563))
+* [[Andre Henriques]], _Integrating $L_\infty$ algebras_, Compos. Math. __144__  (2008), no. 4, 1017--1045 ([doi](http://dx.doi.org/10.1112/S0010437X07003405),[math.AT/0603563](http://arxiv.org/abs/math.AT/0603563))
 
-(whose origin possibly preceeds that of the previous article and which considers [[Banach manifold]] structure on the resulting [[∞-groupoid]]s).
+(whose origin possibly preceeds that of Getzler's article and which considers [[Banach manifold]] structure on the resulting [[∞-groupoid]]s).
 
 For general [[∞-Lie algebroid]]s the general idea has been indicated in 
 
-* [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080)).
+* [[Pavol ?evera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:math.SG/0105080](http://arxiv.org/abs/math.SG/0105080)).
 
 There is an evident generalization of the [[Sullivan construction]] viewed this way that yields [[∞-Lie groupoid]]s (i.e. including the smooth structure). This is discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegrated">∞-Lie groupoid</a>.
 
-That the traditional Lie integration of [[Lie algebra]]s and [[Lie algebroid]]s to [[Lie group]]s and [[Lie groupoid]]s (including the smooth structure) is indeed a special case of this becomes more or less explicitly manifest in
+The traditional Lie integration of [[Lie algebra]]s and [[Lie algebroid]]s to [[Lie group]]s and [[Lie groupoid]]s (including the smooth structure) is indeed a special case is exhibited in
 
-* [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv](http://arxiv.org/abs/math/0105033))
+* [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv:math.DG/0105033](http://arxiv.org/abs/math/0105033))
 
 
 ## Definition
@@ -120,7 +120,7 @@ is the [[delooping]] one-object groupoid of the simply connected [[Lie group]] $
 
 ### Integration of Lie 2-algebras
 
-For $\mathfrak{g}_\mu$ the [[string Lie 2-algebra]] it is effectively shown in 
+If $\mathfrak{g}_\mu$ is the [[string Lie 2-algebra]] it is effectively shown in 
 
 * Andr&eacute; Henriques, _Integrating $L_\infty$ algebras_,([arXiv](http://arxiv.org/abs/math.AT/0603563))
 
