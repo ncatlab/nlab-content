@@ -1,19 +1,19 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-For $G$ a [[Lie group]], its [[delooping]] $\mathbf{B}G$ is a smooth [[groupoid]], which we may think of as a [[groupoid]] [[internal category|internal to]] [[smooth spaces]].
+The [[∞-Lie groupoid|Lie groupoid]] of _Lie algebra valued forms_ is a kind of differential refinement of the [[delooping]] [[∞-Lie groupoid|Lie groupoid]] $\mathbf{B}G$ of a [[Lie group]] $G$:
 
-According to the theory of [[models for ∞-stack (∞,1)-toposes]] this is to be thought of as modeling the corresponding [[smooth ∞-stack]] $G Bund(-)$ of smooth $G$-[[principal bundles]] obtained after [[∞-stackification]].
+its $U$-parameterized smooth families of objects are _Lie algebra valued forms_ on $U$. Its $U$-parameterized families of morphisms are gauge transformations of these forms by $G$-valued [[smooth function]]s on $U$.
 
-The [[cohomology]] with coefficients in $\mathbf{B}G$ is degree 1 smooth [[nonabelian cohomology]].
-
-Let $g := Lie(G)$ be the [[Lie algebra]] of $G$.
-
-The _groupoid of $g$-valued differential forms_ , denoted here $\bar \mathbf{B}G$, is the refinement of $\mathbf{B}G$ in [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]].
-
+For more see the discussion at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">∞-Lie groupoid -- Lie groups</a>.
 
 ## Definition 
 
@@ -37,7 +37,8 @@ The groupoid $\bar \mathbf{B}G$ is canonically equivalent to the smooth groupoid
     A' = Ad_h(A) - h^* \bar \theta
   $$
 
-Here $\bar \theta$ is the right invariant canonical $g$-valued 1-form on $G$. A more sloppy but common way to write this is   $A' = Ad_h(A) + h d h^{-1}$.
+Here $\bar \theta$ is the right invariant [[Maurer-Cartan form]] on $G$. A more sloppy but common way to write this is   $A' = Ad_h(A) + h d h^{-1}$.
+
 =--
 
 
@@ -77,14 +78,14 @@ For $G = U(n)$ these differential cocycles model the [[Yang-Mills field]] in phy
 
 ## References
 
-The idea goes back to [[John Baez]]. For a detailed history see the discussion at [[schreiber:Differential Nonabelian Cohomology]].
+Details are in
 
-The details are in
-
-* U. Schreiber, Konrad Waldorf, _Parallel Transport and Functors_ ([arXiv](http://arxiv.org/abs/0705.0452))
-
+* [[Urs Schreiber|U.S.]], [[Konrad Waldorf]], _Parallel Transport and Functors_ ([arXiv](http://arxiv.org/abs/0705.0452))
 
 The definition in terms of differential forms is def 4.6 there. The equivalence to $[P_1(-), \mathbf{B}G]$ is proposition 4.7.
 
 
-[[Note on Formatting|?]]
+[[!redirects Lie-algebra valued 1-form]]
+[[!redirects Lie-algebra valued 1-forms]]
+[[!redirects Lie-algebra valued differential 1-form]]
+[[!redirects Lie-algebra valued differential 1-forms]]
