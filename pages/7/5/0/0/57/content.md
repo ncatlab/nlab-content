@@ -10,102 +10,125 @@
 
 ## Idea
 
-Given an $L_\infty$-[[Lie infinity-algebroid|algebroid]] (for instance a Lie algebra, or a [[Lie algebroid]] or an $L_\infty$-[[L-infinity-algebra|algebra]]) $\mathfrak{g}$ and given a $d$-dimensional manifold $P^d$ diffeomorphic to the $d$-dimensional disk $D^d$, let a **$d$-path in $\mathfrak{g}$** be a morhism of $L_\infty$-[[Lie infinity-algebroid|algebroid]]s
+Lie integration is a process in that assigns to a [[Lie algebra]] $\mathfrak{g}$ -- or more generally an [[L-∞-algebra|∞-Lie algebra]] or [[∞-Lie algebroid]] -- a [[Lie group]] -- or more generally [[∞-Lie groupoid]] -- that is [[infinitesimal space|infinitesimally]] modeled by $\mathfrak{g}$.
+
+It turns out that if the [[∞-Lie algebroid]]s $\mathfrak{a}$ involved are incarnated dually in the form of their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{a})$ then the bare [[∞-groupoid]] integrating them (i.e. ignoring the smooth structure) is effectively given by the [[Sullivan construction]] applied to the [[dg-algebra]] $\mathfrak{a}$.
+
+This statement was made explicit for [[dg-Lie algebra]]s in
+
+* [[Vladimir Hinich]], _Descent of deligne groupoids_ . Internat. Math. Res. Notices, 5:223&#8211;239, 1997.
+
+and for general [[L-∞-algebra|∞-Lie algebra]]s 
+
+* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, ([arXiv](http://arxiv.org/abs/math/0404003))
+
+(whose main point is the discussion of a gauge condition applicable for nilpotent $L_\infty$-algebras that cuts down the result of the Sullivan construction to a much smaller but equivalent model)
+
+and
+
+* [[Andre Henriques]], _Integrating $L_\infty$ algebras_,([arXiv](http://arxiv.org/abs/math.AT/0603563))
+
+(whose origin possibly preceeds that of the previous article and which considers [[Banach manifold]] structure on the resulting [[∞-groupoid]]s).
+
+For general [[∞-Lie algebroid]]s the general idea has been indicated in 
+
+* [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080)).
+
+There is an evident generalization of the [[Sullivan construction]] viewed this way that yields [[∞-Lie groupoid]]s (i.e. including the smooth structure). This is discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegrated">∞-Lie groupoid</a>.
+
+That the traditional Lie integration of [[Lie algebra]]s and [[Lie algebroid]]s to [[Lie group]]s and [[Lie groupoid]]s (including the smooth structure) is indeed a special case of this becomes more or less explicitly manifest in
+
+* [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv](http://arxiv.org/abs/math/0105033))
+
+
+## Definition
+
+Given an [[∞-Lie algebroid]] $\mathfrak{a}$ (for instance a [[Lie algebra]], or a [[Lie algebroid]] or an [[L-∞-algebra]]) and $d \in \mathbb{N}$, a **$d$-path** in the $\infty$-Lie algebroid is a morphism of $\infty$-Lie algebroids
+
+
 $$
-  \Sigma : T P^d \to \mathfrak{g}
-  \,,
+  \Sigma : T \Delta^d_{Diff} \to \mathfrak{a}
 $$ 
-where $T P^d$ denotes the _tangent Lie algebroid_ of $P^d$ (see the list of examples [[Lie algebroid|here]]).
 
-By restricting such morphisms to parts of the boundary of $P^d$, the collections of all such $L_\infty$-algebroid $d$-paths naturally arrange themselves in diagrams of the form
+from the [[tangent Lie algebroid]] $T \Delta^d_{Diff}$ of the standard smooth $d$-[[simplex]] to $\mathfrak{a}$.
+
+
+These $d$-paths naturally form a [[simplicial set]] 
 
 $$
-  S^\bullet(\mathfrak{g})
+  \exp(\mathfrak{a})
   :=
-  (
-  \cdots 
-  \to
-  Hom_{L_\infty Alg}(T P^2, \mathfrak{g})
-  \to
-  Hom_{L_\infty Alg}(T P^1, \mathfrak{g})
-  \to
-  Hom_{L_\infty Alg}(T P^0, \mathfrak{g})
-  )
+  \left(
+   \cdots    
+   Hom(T \Delta^2, \mathfrak{a})
+   \stackrel{\t}{\stackrel{\to}{\to}}
+   Hom(T \Delta^1, \mathfrak{a})
+   \stackrel{\to}{\to}
+   Hom(T \Delta^0, \mathfrak{g})
+  \right)
+$$
+
+which is a [[Kan complex]] under mild technical fine-tuning of the definition of $d$-paths.
+
+Since morphisms of [[∞-Lie algebroid]]s are dually equivalent to [[dg-algebra]] morphisms of their [[Chevalley-Eilenberg algebra]], the above is equivalent to
+
+$$
+   \exp(\mathfrak{a})
+   :=
+   (
+   \cdots 
+   Hom(CE(\mathfrak{a}), \Omega^\bullet(\Delta^2))
+   \stackrel{\to}{\stackrel{\to}{\to}}
+   Hom(CE(\mathfrak{a}), \Omega^\bullet(\Delta^1))
+   \stackrel{\to}{\to}
+   Hom(CE(\mathfrak{a}), \Omega^\bullet(\Delta^0))
+   )
   \,.
 $$
 
-In particular
+Here we used that the Chevalley&#8211;Eilenberg algebra of the [[tangent Lie algebroid]] is the [[de Rham complex]] of differential forms.
+This is recognized as the [[Sullivan construction]] in [[rational homotopy theory]] for $CE(\mathvrak{a})$.
 
-* if $P^d = \Delta^d$ is the standard $d$-simplex, $d$-paths in $\mathfrak{g}$ naturally form a [[simplicial set]];
-
-* if $P^d = D^d$ is the standard $d$-disk, $d$-paths in $\mathfrak{g}$ naturally form a [[globular set]].
-
-Notice that morphisms of $L_\infty$-algebroids are, essentially by [[Lie infinity-algebroid|definition]], dual to morphisms of [[Lie infinity-algebroid|qDGCA]]s, so that the above can be equivalently rewritten as
+This gives the universal $\infty$-groupoid integrating $\mathfrak{a}$. If $\mathfrak{a}$ is $n$-[[truncated]] then this construction will not yield in general an $n$-truncated [[∞-groupoid]] $\exp(\mathfrak{a})$. Instead one wants to truncate it to
 
 $$
-  S^\bullet(\mathrak{g})
-  :=
-  (
-  \cdots 
-  \to
-  Hom_{qDGCAs}(CE(\mathfrak{g}), \Omega^\bullet(P^2))
-  \to
-  Hom_{qDGCAs}(CE(\mathfrak{g}), \Omega^\bullet(P^1))
-  \to
-  Hom_{qDGCAs}(CE(\mathfrak{g}), \Omega^\bullet(P^0))
-  )
+  \tau_n \exp(\mathfrak{a})  
   \,.
 $$
 
-Here we used that the Chevalley&#8211;Eilenberg algebra of the tangent Lie algebroid is the deRham complex of differential forms, see the list of examples [[Lie algebroid|here]].
 
-In this form these graded (simplicial/globular) sets associated to a [[Lie infinity-algebroid|qDGCA]] have been familiar as the [[Sullivan construction]] in [[rational homotopy theory]] since the late 1960s. In this context the interpretation of [[Lie infinity-algebroid|qDGCA]]s as Chevalley&#8211;Eilenberg algebras of $L_\infty$-algebroids is not usually mentioned, however, instead these differential algebras are thought of, equivalently, as models for deRham algebras of certain spaces.
+## Examples
 
-But with the interpretation of qDGCAs as $L_\infty$-algebroids in hand, it is natural to ask for extra properties and structure on $S^\bullet(\mathfrak{g})$ that would allow to interpret $S^\infty(\mathfrak{g})$ as the graded set underlying an [[infinity-groupoid]].
+For more on this see (for the moment) <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegrated">Lie integrated ∞-Lie groupoids</a>.
 
-This step, obvious as it may be with hindsight, was only made a few years ago. The general idea has been described  first in the article
 
-* Pavol &Scaron;evera, _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080)).
+### Integration of Lie algebras
 
-Of course one wants to regard in this context $S^\bullet(\mathfrak{g})$ not just as a graded _set_ but as a graded _space_. In
+In 
 
-* Ezra Getzler, _Lie theory for nilpotent L-infinity algebras_, ([arXiv](http://arxiv.org/abs/math/0404003))
+* [[Marius Crainic]], [[Rui Fernandes]], _Integrability of Lie brackets_ ([arXiv](http://arxiv.org/abs/math/0105033))
 
-this $S^\bullet(\mathfrak{g})$ was realized 
+it is effectively shown that for $\mathfrak{g}$ a (finite-dimensional) [[Lie algebra]] we have
 
-* as [[internalization|internal to]] [[Diff]] for the case that $\mathfrak{g}$ is a nilpotent $L_\infty$-algebra;
+$$
+  \tau_1 \exp(\mathfrak{g}) = \mathbf{B}G
+$$
 
-* as having the property of being a [[Kan complex]].
+is the [[delooping]] one-object groupoid of the simply connected [[Lie group]] $G$ corresponding to $G$ under [[Lie's three theorems]].
 
-This then makes $S^\bullet(\mathfrak{g})$ a _Lie $\infty$-groupoid_, which is regarded as the structure which _Lie-integrates_ $\mathfrak{g}$ in the context of [[Lie theory]].
 
-Various variations of this theme are possible: in
+
+### Integration of Lie 2-algebras
+
+For $\mathfrak{g}_\mu$ the [[string Lie 2-algebra]] it is effectively shown in 
 
 * Andr&eacute; Henriques, _Integrating $L_\infty$ algebras_,([arXiv](http://arxiv.org/abs/math.AT/0603563))
 
-(whose origin possibly preceeds that of the previous article)
-$S^\bullet(\mathfrak{g})$ is realized [[internalization|internal to]] [[Banach manifold]]s, for $\mathfrak{g}$ an $L_\infty$-algebra.
+that 
 
-## The main technical issue: truncation and quotienting
+$$
+  \tau_2 \exp(\mathfrak{g}_\mu) \simeq \mathbf{B}String(G)
+$$
 
-The main technical point in these constructions is to ensure that the general construction can be realized internal to a category of well-behaved spaces. In particular, usually one wants to integrate a Lie $n$-algebroid to a Lie $n$-groupoid, which means that $S^\bullet(\mathfrak{g})$ has to be _truncated_ after degree $n$ and _quotienting_ out $(n+1)-cells$ by replacing the space of $n$-paths $S^n(\mathfrak{g})$ in the $L_\infty$-algebroid with the _quotient space_ $S^n(\mathfrak{g})/S^{n+1}(\mathfrak{g})$ of $n$-paths modulo $(n+1)$-dimensional homotopy.
+is the [[string 2-group]]. 
 
-By the old [[dichotomy between nice objects and nice categories]], the more well-behaved a space is the less likely is this quotient still to be well behaved. 
-
-One can 
-
-* either carefully try to cut down $S^\bullet(\mathfrak{g})$ to something small and well behaved (this is the strategy in Getzler's work [#](http://arxiv.org/abs/math/0404003));
-
-* or one realizes these quotients as suitable [[generalized smooth space|generalized spaces]] (this is the strategy in Zhu's work [[Lie theory for stacky Lie groupoids|#]]).
-
-
-##Lie integration in low categorical dimension##
-
-Unsurprisingly, the properties of this general construction are best studied and understood for $\mathfrak{g}$ a Lie $n$-algebroid for low $n$. For $n=1$ it reproduces ordinary [[Lie theory]] and in particular [[Lie's three theorems]] (see there for details), at least if one passes to [[generalized smooth space]]s.
-
-
-
-## Remark
-
-There is a way to understand [[Lie integration]] as being about forming fundamental $\infty$-groupoids of certain [[generalized smooth space]]s. This is described at
-[[Schreiber:Lie theory|Lie theory]] in the [private $n$Lab area](http://ncatlab.org/schreiber/show/HomePage).
