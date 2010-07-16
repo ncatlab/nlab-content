@@ -234,7 +234,7 @@ $$
   \array{
     G &\to& *
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{\theta}}\downarrow && \downarrow
     \\
     \mathbf{\flat}_{dR} \mathbf{B}G &\to& \mathbf{\flat} \mathbf{B}G
     \\
@@ -250,13 +250,50 @@ The bottim square is an [[(∞,1)-pullback]] by definition. By the pasting law f
 This induces a canonical element in the $G$-valued intrinsic de Rham cohomology of $G$:
 
 $$
-  (G \to \mathbf{\flat}_{dR} \mathbf{B}G)
+  (\theta : G \to \mathbf{\flat}_{dR} \mathbf{B}G)
   \in
   \mathbf{H}_{dR}(G, \mathbf{B}G)
   \,.
 $$
 
 This we may identify with the $\infty$-groupoid analog of the [[Maurer-Cartan form]] on a Lie group $G$.
+
+#### The vertical form on a $G$-principal $\infty$-bundle {#VerticalForm}
+
+
+For $P \to X$ the $G$-[[principal ∞-bundle]] classified by a morphism $X \to \mathbf{B}G$  in $\infty LieGrpd$, for each point $x : * \to X$ the pasting diagram of [[(∞,1)-pullback]] squares
+
+$$
+  \array{
+    G \simeq P_x &\to& P &\to& *
+    \\
+    {}^{\mathllap{\theta}_x}\downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{\flat}_{dR} \mathbf{B}G
+    &\to&
+    At(P)
+    &\to&
+    \mathbf{\flat} \mathbf{B}G
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    * &\to&
+    X
+    &\to&
+    \mathbf{B}G
+  }
+$$
+
+exhibits the canonical $\mathfrak{g}$-valued vertical intrinsic form 
+
+$$
+  (\theta_x : P_x \to \mathbf{\flat}_{dR}\mathbf{B}G)
+  \in 
+  \mathbf{H}_{dR}(P_x, \mathbf{B}G)
+$$
+
+on the fiber $P_x$ of $P$ over $x$.
+
 
 #### Geometric realization
 
