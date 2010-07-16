@@ -1,8 +1,9 @@
-[[!redirects Chern-Weil homomorphism]]
 
 Let $G$ be a Lie subgroup of $GL(n,F)$ where $F$ is the field of real or complex number or the division ring of quaternions. 
-Chern-Weil theory is centered around the construction assigning to a smooth $G$-bundle over a manifold, admitting a globally defined connection, and a $G$-invariant homogeneous polynomial $P$, a characteristic class given as the cohomology class $[P(F)]$ of the invariant polynomial applied to the curvature of 
-any chosen connection on the fiber bundle (the cohomology class is independent of the choice of the connection). The algebra of $G$-invariant polynomials is called the [[Weil algebra]] and depends only on the tangent Lie algebra of $G$. There is a [[noncommutative geometry|noncommutative]] analogue due to Alekseev and Meinrenken.
+Chern-Weil theory is centered around the construction assigning to a smooth $G$-[[principal bundle]] over a [[manifold]], admitting a [[connection on a bundle|connection]], and a homogeneous  $G$-[[invariant polynomial]] $P$, a [[characteristic class]] given as the cohomology class $[P(F)]$ of the invariant polynomial applied to the [[curvature]] of 
+any chosen connection on the fiber bundle (the cohomology class is independent of the choice of the connection). The algebra of $G$-[[invariant polynomial]]s is inside the [[Weil algebra]] and depends only on the tangent [[Lie algebra]] of $G$. There is a [[noncommutative geometry|noncommutative]] analogue due to Alekseev and Meinrenken.
+
+See [[Weil homomorphism]].
 
 #References#
 
