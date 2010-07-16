@@ -11,6 +11,28 @@ We may think of this operation as the analog of _linearizing_ a space. Turning a
 
 This is what Goodwillie calculus studies.
 
+Let $F: \mathcal{C} \to \mathcal{D}$ (where $\mathcal{C}$ and $\mathcal{D}$ are each either $Top_*$, the category of pointed topological spaces, or $Spec$, the category of spectra) be a pointed homotopy functor. Associate with $F$ a sequence of spectra, called the derivatives of $F$, denoted by $\partial_1 F, \partial_2 F,\cdots, \partial_n F, \cdots$, or, collectively, by $\partial_* F$. For each $n$ the spectrum $\partial_n F$ has a natural action of the symmetric group $\Sigma_n$. Thus, $\partial_* F$ is a symmetric sequence of spectra.
+
+The derivatives of $F$ contain substantial information about the homotopy type of $F$. We can form a sequence of 'approximations' to $F$ together with natural transformations forming a so-called *Taylor tower*. This tower takes the form
+
+$$
+F \to \cdots \to P_n F \to P_{n-1} F \to \cdots\to P_0 F
+$$
+
+with $P_n F$ being the universal *n-excisive* approximation to $F$. (A functor is $n$-excisive if it takes any $n + 1$-dimensional cube with homotopy pushout squares for faces to a homotopy cartesian cube.) For 'analytic' $F$, this tower converges for sufficiently highly connected $X$, that is
+
+$$
+F(X) \simeq \underset{n}{holim} P_n F(X).
+$$
+
+The fibre $D_n F$ of the map $P_n F \to P_{n-1} F$ is an *n-homogeneous* functor in an appropriate sense, and is determined by $\partial_n F$, via the following formula. If $F$ takes values in $Spec$ then
+
+$$
+D_n F(X) \simeq (\partial_n F \wedge X^{\wedge n})_{h \Sigma_n}.
+$$
+
+If $F$ takes values in $Top_*$ then one needs to prefix the right hand side with $\Omega^{\infty}$.
+
 
 ### Analogy between homotopy theory and calculus {#Analogy}
 
@@ -240,6 +262,8 @@ Geom. Topol. 7 (2003), 645--711 [journal](http://www.msp.warwick.ac.uk/gt/2003/0
 * Andrew Mauer-Oats, _Algebraic Goodwillie calculus and a cotriple model for the remainder_, Trans. Amer. Math. Soc. __358__  (2006),  no. 5, 1869--1895 [journal](http://www.ams.org/tran/2006-358-05/S0002-9947-05-03936-X/home.html), [math.AT/0212095](http://arxiv.org/abs/math/0212095)
 
 * Georg Biedermann, Boris Chorny, Oliver R&#246;ndigs, _Calculus of functors and model categories_, Adv. Math., __214__, n. 1 (2007) 92--115, [doi](http://dx.doi.org/10.1016/j.aim.2006.10.009), [math.AT/0601221](http://arxiv.org/abs/math/0601221)
+
+* Gregory Arone and Michael Ching, _Operads And Chain Rules For The Calculus Of Functors_, [preprint](http://www.math.uga.edu/~mching/Work/chain-rule-spaces-final.pdf)
 
 A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
 
