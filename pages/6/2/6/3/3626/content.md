@@ -44,3 +44,5 @@ If $\mu \circ \delta = 1$, a Frobenius algebra is said to be **special**.
 Frobenius algebras also have nice [[PROPs]]. The PROP for a commutative Frobenius algebra is 2Cob and the PROP for a special commutative Frobenius algebra is Span(FinSet).
 
 In some sense, special commutative Frobenius algebras are dual to commutative [[bialgebra|bialgebras]], whose PROP is Cospan(FinSet).
+
+[[!redirects Frobenius algebras]]
