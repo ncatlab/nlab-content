@@ -12,19 +12,17 @@
 
 ## Idea
 
-The **Cosmic Cube of [[higher category theory]]** is the name for a  [[diagram]] whose vertices correspond to special types of [[(n,r)-categories]], notably to $(n,r)$-categories with especially rigid [[stuff, structure, property|property and structure]].
+The **Cosmic Cube of [[higher category theory]]** is the name for a  [[diagram]] whose vertices correspond to special types of [[n-categories]].   The cube looks like this:
 
+[[cosmiccube.jpg:pic]]
 
+We may take $n = \infty$ here as well, and we may also consider a version for [[(n,r)-categories]].  The three axes correspond to:
 
-Its three axes each correspond to 
+* making $n$-categories 'groupoidal' --- that is, making morphisms invertible, thus passing from general $n$-categories to _[[n-groupoids]]_;
 
-* _groupoidal_ $\infty$-categories, i.e. [[(∞,0)-categories]], i.e. [[∞-groupoid]]s;
+* making $n$-categories strict, thus passing from general $n$-categories to _[[strict n-categories|strict]]_ $n$-categories; 
 
-* _[[strict ∞-categories|strict]]_ $\infty$-categories; 
-
-* _[[symmetric monoidal category|symmetric monoidal]]_ $\infty$-categories.
-
-
+* making $n$-categories symmetric monoidal or 'stable', thus passing from general $n$-categories to _[[symmetric monoidal category|symmetric monoidal]]_ $n$-categories.
 
 ### In terms of homotopy theory {#HomotopyTheory}
 
@@ -33,22 +31,22 @@ Each vertex of the cube can also be understood as corresponding to a version of 
 $\infty$-groupoids yield ordinary [[homotopy theory]], symmetric monoidal and groupal $\infty$-groupoids correspond to [[stable homotopy theory]], strictly abelian strict $\infty$-groupoids correspond to [[homological algebra]]. $\infty$-Categories that are not $\infty$-groupoids correspond to [[directed homotopy theory]].
 
 
-[[cosmiccube.jpg:pic]]
+
 
 
 ## Vertices of the cube
 
+Here we list the 8 vertices of the cube in the case of $\infty$-categories.
+
 ### Strict $\infty$-categories
 
 * [[strict ∞-category]] 
-^^
 
 ### Strict $\infty$-groupoids
 
 * [[strict ∞-groupoid]] 
 
 * [[crossed complex]]
-
 
 ### Stably monoidal $\infty$-categories
 
