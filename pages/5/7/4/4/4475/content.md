@@ -1,4 +1,4 @@
-__Shahn Majid__ is an English mathematical physicist, an expert on Hopf algebras and quantum/[[noncommutative geometry]]. Shahn is a Prof. at the Dept. of math. Queen Mary University in London.
+__Shahn Majid__ is an English [[mathematical physics|mathematical physicist]], an expert on [[Hopf algebras]] and quantum/[[noncommutative geometry]]. He is a Professor at the Department of Mathematics of the Queen Mary University in London.
 
 * [wikipedia](http://en.wikipedia.org/wiki/Shahn_Majid)
 
