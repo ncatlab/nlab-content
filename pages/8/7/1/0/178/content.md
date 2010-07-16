@@ -226,7 +226,7 @@ in $\infty LieGrpd$\,.
 
 =--
 
-#### The canonical $\mathfrak{g}$-valued form on an $\infty$-Lie group $G$
+#### The canonical form on an $\infty$-Lie group $G$ {#CanonicalForm}
 
 For $G \in \infty LieGrpd$ an [[∞-group]] with [[delooping]] $\mathbf{B}G$ consider the double [[(∞,1)-pullback]] diagram
 
@@ -704,9 +704,9 @@ See also the discussion at [[generalized universal bundle]].
 
 
 
-##### Differential coefficients
+##### Differential coefficients {#DiffCoeffsForLieGroup}
 
-We give a concrete representative for the $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}G = LConst \Gamma \mathbf{B}G$ in terms of [[Lie algebra]]-valued [[differential form]]s.
+For $G$ an ordinary [[Lie group]], we give a concrete representative for the $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}G = LConst \Gamma \mathbf{B}G$ in terms of [[Lie algebra]]-valued [[differential form]]s.
 
 
 Let $\Xi : CrsdCplx \to sSet$ now denote the inclusion of [[crossed complex]]es into all [[∞-groupoid]]s. 
@@ -767,7 +767,7 @@ $$
 
 that sends the single object to the trivial 1-form. We claim that this is objectwise an equivalence of groupoids: it is [[essentially surjective functor|essentially surjective]] since every flat $\mathfrak{g}$-valued 1-form on the [[contractible]] $\mathbb{R}^n$ is of the form $g d g^{-1}$ for some function $g : \mathbb{R}^n \to G$ (let $g(x) = P \exp(\int_{0}^x) A$ be the [[parallel transport]] of $A$ along any path from the origin to $x$). Since the gauge automorphism of the trivial $\mathfrak{g}$-valued 1-form are precisely given by the constant $G$-valued functions, this is also objectwise a [[full and faithful functor]]. 
 
-Finally we need to show that $N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{\to}{\to} \Omega^1_{flat}(-,\mathfrak{g}))$ is fibrant in $[CartSp^{op}, sSet]_{proj,cov}$. This can be seen by observing that this sheaf is the coefficient object that in [[Cech cohomology]] computes $G$-[[principal bundle]]s with flat [[connection on a bundle|connection]] and then reasoning as above: every $G$-principal bundle with flat connection is equivalent to a trivial $G$-principal bundle whose connection is given by a globally defined $\mathfrak{g}$-valued 1-form. Morphisms between these are precisely $G$-valued functions that act on the 1-forms by gauge transf&#244;rmations as in the [[groupoid of Lie-algebra valued forms]].
+Finally we need to show that $N( G \times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{\to}{\to} \Omega^1_{flat}(-,\mathfrak{g}))$ is fibrant in $[CartSp^{op}, sSet]_{proj,cov}$. This can be seen by observing that this sheaf is the coefficient object that in [[Cech cohomology]] computes $G$-[[principal bundle]]s with flat [[connection on a bundle|connection]] and then reasoning as above: every $G$-principal bundle with flat connection is equivalent to a trivial $G$-principal bundle whose connection is given by a globally defined $\mathfrak{g}$-valued 1-form. Morphisms between these are precisely $G$-valued functions that act on the 1-forms by gauge transformations as in the [[groupoid of Lie-algebra valued forms]].
 
 =--
 
@@ -837,6 +837,118 @@ $$
   \mathbf{\flat}_{dR} \mathbf{B}G : 
   U \mapsto Hom_{dgAlg}(CE(\mathfrak{g}),(\Omega^\bullet(U), d_{dR}))
   \,,
+$$ 
+
+=--
+
+##### The canonical form on $G$ {#CanonicalFormOnLieGroup}
+
+The following proposition asserts that the abstract $(\infty,1)$-topos-theoretic definition of the canonical $\mathfrak{g}$-valued form on an $\infty$-Lie group $G$ given [above](CanonicalForm) reduces indeed to the ordinary notion of [[Maurer-Cartan form]] when $G$ is an ordinary [[Lie group]].
+
+Recall from the [discussion of differential coefficients](#DiffCoeffsForLieGroup) above that the $\infty$-Lie groupoid $\mathbf{\flat}_{dR} \mathbf{B}G$ is modeled by the 0-truncated simplicial sheaf of flat $\mathfrak{g}$-valued forms.
+
++-- {: .un_prop }
+###### Proposition
+
+For $G$ a [[Lie group]], 
+the canonical morphism $G \to \mathbf{\flat}_{dR}\mathbf{B}G$ is modeled in $[CartSp^{op}, sSet]$ by the morphism of presheaves 
+
+$$
+  Hom_{Diff}(-,G) \to \Omega^1_{flat}(-,\mathfrak{g})
+$$
+
+given by
+
+$$
+  (g : U \to G) \mapsto (g^* \theta =: g^{-1} d g)
+  \,,
+$$
+
+where $\theta$ is the [[Maurer-Cartan form]] on $G$.
+
+=--
+
+**Remark.** By the general identification of differential forms on presheaves/[[diffeological space]]s, this morphism _is_ indeed the [[Maurer-Cartan form]] $\theta$ on $G$.
+
++-- {: .proof}
+###### Proof
+
+
+we need to compute the double [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\flat}_{dR} \mathbf{B}G &\to& \mathbf{\flat} \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+  \,.
+$$
+
+In the above [discussion of differential coefficients](#DiffCoeffsForLieGroup) we already modeled the lower $(\infty,1)$-pullback square by the ordinary pullback in $[CartSp^{op}, sSet]$ of the presheaf that assigns to $U$ the [[groupoid of Lie-algebra valued forms|groupoid of flat Lie-algebra valued forms]] on $U$:
+
+$$
+  \mathbf{\flat} \mathbf{B}G : U \mapsto 
+  \{
+     A \stackrel{g}{\to} Ad_g A + g^* \theta 
+     | A \in \Omega^1_{flat}(U,\mathfrak{g}), g \in C^\infty(U,G)
+  \}
+  \,.
+$$
+
+We need to form the [[homotopy pullback]] of the point in this -- which is the vanishing form $A = 0$. A standard fibrant replacement of $* \to \mathbf{\flat}\mathbf{B}G $ (as discussed at [[generalized universal bundle]]) for this is given by the presheaf 
+
+$$
+  U \mapsto 
+  \left\{
+    \array{
+       && A_0 = 0
+       \\
+       & {}^{\mathllap{g_1}}\swarrow && \searrow^{\mathrlap{g_2}}
+       \\
+       A_1 &&\stackrel{h}{\to}&& A_2
+    }
+  \right\}
+  \,,
+$$
+
+where on the right the commuting triangle in $\mathbf{\flat}_{dR}\mathbf{B}G (U)$ is a morphism from $(g_1,A_1)$ to $(g_2,A_2)$.
+
+The pullback of this along the above model for $\mathbf{\flat}_{dR}\mathbf{B}G \to \mathbf{\flat}\mathbf{B}G$ is the 0-truncated sheaf
+
+$$
+
+  U \mapsto 
+  \left\{
+    \array{
+       A_0 = 0
+       \\
+       \downarrow^{\mathrlap{g}}
+       \\
+       g^* \theta
+    }
+  \right\}
+  \,.
+$$
+
+First of all we see that this is indeed weakly equivalent (indeed isomorphic) to $G$, as it sould be. But the point is that we see from the above pullback that the projection $G \to \mathbf{\flat}_{dR}\mathbf{B}G$ is modeled by the morphisms of presheaves
+
+
+$$
+  Hom_{Diff}(-,G) \to \Omega^1_{flat}(-,\mathfrak{g})
+$$
+
+which is the codomain evaluation of the above cone morphisms:
+
+$$
+  (0 \stackrel{g}{\to} g^* \theta) \mapsto (g^* \theta = g^{-1} d g)
+  \,.
 $$ 
 
 =--
