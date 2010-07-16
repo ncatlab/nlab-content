@@ -66,7 +66,7 @@ Hence $P(W) \cong P(B\backslash G/B)$ as sup-lattices, but the algebra structure
 
 #### Other examples 
 
-Hecke algebras are a [[deformation]] of the Coxeter group algebra. Under certain conditions, other deformations of group or monoid algebras of monoids $M$ can be exploited to yield hypermonoids. 
+Hecke algebras are a [[deformation theory|deformation]] of the Coxeter group algebra. Under certain conditions, other deformations of group or monoid algebras of monoids $M$ can be exploited to yield hypermonoids. 
 
 For example, if the multiplication table of such a deformation is given by equations 
 
