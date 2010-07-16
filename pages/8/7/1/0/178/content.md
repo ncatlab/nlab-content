@@ -996,7 +996,7 @@ $$
     \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
     \times
     \Omega^1(-, \mathfrak{g}_2)
-    \stackrel{\overset{}{\to}}{}{\to}}
+    \stackrel{\to}{\to}
     \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
   ]
   \,.
