@@ -1064,7 +1064,7 @@ For the moment see the discussion about geometric realization further above.
 
 #### Lie-integrated $\infty$-Lie groupoids {#LieIntegrated}
 
-We discuss here $\infy$-Lie groupoids that arise as the [[Lie integration]] of an [[∞-Lie algebroid]].
+We discuss here $\infty$-Lie groupoids that arise as the [[Lie integration]] of an [[∞-Lie algebroid]].
 
 +-- {: .un_def }
 ###### Definition
