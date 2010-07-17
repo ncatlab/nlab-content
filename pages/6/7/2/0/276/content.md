@@ -186,6 +186,161 @@ Notice that this article says "$\infty$-groupoid" for _strict globular $\infty$-
 
 =--
 
+This is a nonabelian and globular version of the [[Dold-Kan correspondence]].
+
+### From chain complexes of modules
+
+We describe a construction of a crossed complex from a [[chain complex]] of [[modules over a groupoid]] $(A_n, \mathcal{H})$. As a special case it in particular gives an map of ordinary [[chain complex]]es of [[abelian group]]s into the category of [[crossed complex]]es, and hence into [[strict ∞-groupoid]]s. See also [[Nonabelian Algebraic Topology]].
+
+Recall the definition of the [semidirect product groupoid](#AdjointModule)  $\mathcal{H} \ltimes A_n$.
+
++-- {: .un_def}
+###### Definition
+**(crossed complex from a chain complex)**
+
+For $A$ a [[chain complex]] of [[modules over a groupoid]] $\mathcal{H}$, let $\Theta A \in Crs$ be the [[crossed complex]]
+
+$$
+  \Theta A := \kappa^* \Theta' A
+  \,,
+$$
+
+where
+
+$$
+  \Theta' A :=
+  \left[
+    A_n 
+      \stackrel{\partial_n}{\to}
+    A_{n-1}
+     \stackrel{}{\to}
+     \cdots
+     \stackrel{}{\to}
+    A_{3}
+    \stackrel{\partial_3}{\to}
+    A_2
+    \stackrel{(0,\partial_2)}{\to}
+    \mathcal{H}\ltimes A_1
+  \right]
+$$
+
+and where 
+
+$$
+  \kappa : P(A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
+$$
+
+is the [canonical covering morphism](#AdjointModule) from above.
+
+$$
+  \array{
+    \cdots \to & 
+    (\Theta A)_3
+    &\to&
+    (\Theta A)_2
+    &\to&
+    (\Theta A)_1
+    &\to&
+    P(A_0, \mathcal{H})
+    \\
+    & \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    \cdots \to & 
+    A_3
+    &\stackrel{\partial_3}{\to}&
+    A_2
+    &\stackrel{(0,\partial_2)}{\to}&
+    \mathcal{H} \ltimes A_1
+    &\stackrel{(1, \partial_1)}{\to}&
+    \mathcal{H} \ltimes A_0    
+  }
+  \,.
+$$
+
+Here $\mathcal{H} \ltimes A_1$ acts on $A_n$ for $n \geq 2$ via the projection $\mathcal{H} \ltimes A_1 \to \mathcal{H}$, i.e. $A_1$ acts trivially.
+(...)
+
+Finally set $\Theta(A)_0 := A_0$.
+
+=--
+
+We spell out what this boils down to explicitly.
+
+**Explicit description**
+
+Let $A_\bullet$ be a [[chain complex]] of [[modules over a groupoid|modules over the groupoid]] $\mathcal{H}$. Then the [[crossed complex]] $\Theta(A)$ is the following.
+
+* Its set of objects is $\Theta(A)_0 = A_0$.
+
+  Remember that $A_0$ itself is a module over $\matcal{H} = (\mathcal{H}_1 \stackrel{\to}{\to} \mathcal{H}_0)$, so that $A_0 = \corpdod_{p \in \mathcal{H}_0} (A_0)_p$.
+
+* For $x \in (A_0)_p$ and $y \in (A_0)_q$ a morphism in $\Theta(A)_1$ from $x$ to $y$ is labeled by $h \in \mathcal{H}_1$ and $a \in (A_1)_q$
+
+  $$
+    x \stackrel{(h,a)}{\to} (y = \rho(h)(x) - \partial a)
+    \,,
+  $$
+
+  where $\rho$ denotes the [[action]] of $\mathcal{H}$ on $A_0$.
+
+  The composition law is given by
+
+  $$
+    \array{
+       && y
+       \\
+       & {}^{\mathllap{(h_1, a_1)}}\nearrow && \searrow^{\mathrlap{(h_2,a_2)}}
+       \\
+       x &&\stackrel{(h_1 \circ h_2, \rho(h_2)(a_1) + a_2)}{\to}&& z
+    }
+    \,.
+  $$
+
+* For $k \geq 2$ the family of groups $\Theta(A)_k$ is over $x \in (A_0)_p$ the group $(A_k)_q$
+
+  $$
+    \Theta(A)_{k \geq 2} = \coprod_{p \in \mathcal{H}_0} \coprod_{x\in (A_0)_q} (A_k)q
+  $$
+
+* The boundary maps and actions are the obvious ones...
+
+
++-- {: .un_example}
+###### Example
+**(ordinary abelian chain complex as crossed complex)**
+
+
+Let $C_\bullet$ be an ordinary [[chain complex]] of abelian groups, i.e. a chain complex of [[module over a groupoid|modules over the trivial groupoid]].
+
+Then $(\Theta C)_1$ is the groupoid with objects $C_0$ and morphisms $\{x \stackrel{b}{\to} (x + \partial b)\}$. And for $n \geq 2$ we have that $(\Theta C)_n$ is $\coprod_{x \in C_0} C_n$.
+
+
+=--
+
+
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+These form a pair of [[adjoint functor]]s
+
+$$
+  (\nabla \dashv \Theta)
+  : 
+  Chn
+  \stackrel{\overset{\nabla}{\leftarrow}}{\underset{\Theta}{\to}}
+  Crs
+$$
+
+where...
+
+=--
+
+This is proposition 7.4.29.
+
+(...)
 
 
 ## Examples
