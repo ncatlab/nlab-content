@@ -2,6 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
 A _crossed complex_ (of [[groupoid]]s) is a nonabelian and [[horizontal categorification|many object]] generalization of a [[chain complex]] of [[abelian group]]s.
@@ -20,12 +21,17 @@ Crossed complexes were defined by Blakers in 1948 (following a suggestion of [[S
 
 ## Definition
 
-A **crossed complex** $C$ is 
+### As sequences of groups and groupoids {#SequencesOfGroups}
+
++-- {: .un_defn}
+###### Definition
+
+A **crossed complex** ("of groupoids") $C$ is 
 
 * a [[groupoid]]  $C_1 \stackrel{\overset{\delta_t}{\to}}{\underset{\delta_s}
 {\to}} C_0$
 
-* together with a sequence of skeletal groupoids $C_k$ of $C_0$ for $k \geq 0$ indexed by $C_0$, i.e. bundles of groups, [[abelian group|abelian]] for $k \geq 3$, sitting in a diagram 
+* together with a sequence of [[skeleton|skeletal]] groupoids $(C_k)_{k = 2}^\infty$ over $C_0$, i.e. of  bundles $C_k = \coprod_{x \in C_0} (C_k)_x$ of groups over $C_0$, [[abelian group|abelian]] for $k \geq 3$,  sitting in a diagram 
 
   $$
     \array{
@@ -60,9 +66,21 @@ such that
 
 * $\delta_{k-1} \circ \delta_k = 0$ for $k \geq 3$.
 
-## Equivalence to strict $\infty$-groupoids
+There is an obvious notion of [[morphism]]s $f : C \to D$ of crossed complexes, being sequences of maps $(f_k : C_k \to D_k)$ preserving all the above structure. The resulting [[category]] is often denoted $Crs$ or $CrsCpx$. 
 
-For $\mathcal{G}$ a globular [[strict ∞-groupoid]]
+=--
+
+
+### From strict $\infty$-groupoids
+
+While the above definition of a crossed complex is slightly baroque, it can naturally be understood as being precisely the data obtained from a [[globular set|globular]] [[strict ∞-groupoid]] by retaining for $k \geq 2$ precisely only those [[k-morphism]]s whose source is a an identity $k-1$-morphisms on an object.
+
+
++-- {: .un_defn}
+###### Definition
+**(crossed complex associated to a strict $\infty$-groupoid)**
+
+For $\mathcal{G}$ a [[globular set|globular]] [[strict ∞-groupoid]]
 
 $$
   \cdots
@@ -76,23 +94,97 @@ $$
   \mathcal{G}_0
 $$
 
-the corresponding crossed complex $[\mathcal{G}]$ is defined by
+the corresponding crossed complex $[\mathcal{G}]$ is defined as follows:
 
-* $[\mathcal{G}]_1 \stackrel{\to}{\to} [\mathcal{G}]_0$ :=
-  $\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0$;
+* the groupoid $[\mathcal{G}]_1 \stackrel{\to}{\to} [\mathcal{G}]_0$ 
+  is just the groupoid 
+    $\mathcal{G}_1 \stackrel{\to}{\to} \mathcal{G}_0$; 
+  underlying $\mathcal{G}$ by forgetting all 
+  [[k-morphism]]s for $k \geq 2$
 
-* for $k \geq 2$ $[\mathcal{G}]_k$ is the bundle of groups which over
-  $x \in \mathcal{G}_0$ is the group of [[k-morphism]]s of $\mathcal{G}$
-  that start at the identity on $x$:
+* for $k \geq 2$ the bundle of groups $[\mathcal{G}]_k$ 
+  is over
+  $x \in \mathcal{G}_0$ the group of [[k-morphism]]s of $\mathcal{G}$
+  whose source is the the identity on $x$:
 
   $$
     [\mathcal{G}]_k := \coprod_x s_k^{-1}(Id_x)
-    \,.
+    \,,
   $$
 
-The action of $[\mathcal{G}]_1$ on $[\mathcal{G}]_k$ is given by whiskering/conjugation of $k$-morphisms by 1-morphisms. The boundary maps $\delata : [\mathcal{G}]_{k} \to [\mathcal{G}]_{k-1}$ are the original target maps $t$, sending a $k$-morphisms with source an identity on an object to its target $k-1$-morphism.
+  where the group operation is given by the horizontal composition of 
+  [[k-morphism]]s (along objects). By the [[Eckmann-Hilton argument]] this
+  is indeed an [[abelian group]] structure for $k \geq 3$.
+
+* The [[action]] of $[\mathcal{G}]_1$ on $[\mathcal{G}]_k$ is given by whiskering/conjugation of [[k-morphism]]s by 1-morphisms in $\mathcal{G}$. 
+
+* The boundary maps $\delta := t : [\mathcal{G}]_{k} \to [\mathcal{G}]_{k-1}$ are the restrictions of the target maps $t : \mathcal{G}_k \to \mathcal{G}_{k-1}$, sending a $k$-morphisms with source an identity on an object to its target $k-1$-morphism.
 
 
+=--
+
+
+Write $Str \infty Grpd$ for the 1-[[category]] of [[globular set|globular]] [[strict ∞-groupoids]]. The above construction defines an evident [[functor]]
+
+$$
+  [-] : Str \infty Grpd \to CrsCplx
+  \,.
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+The functor
+
+$$
+ [-] : Str \infty Grpd \to CrsCplx
+$$
+
+is an [[equivalence of categories]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The idea of the proof is that a [[strict ∞-groupoid]] may completely be reconstructed from its objects, 1-morphisms and those $(k \geq 2)$-morphisms that start at an identity by using the action of the 1-morphisms on the higher morphisms induced by conjugation.
+
+For instance a [[2-morphism]]
+
+$$
+  \array{
+    & \nearrow  \searrow^{\mathrlap{f}}
+    \\
+    x &\Downarrow& y
+    \\
+    & \searrow \nearrow_{\mathllap{g}}
+  }
+$$
+
+is, by the [[exchange law]], equal to the horizontak composite of the 2-morphism 
+
+
+$$
+  \array{
+    & \nearrow  \searrow^{\mathrlap{f}}
+    \\
+    x &\Downarrow& y & \stackrel{f^{-1}}{\to} & x
+    \\
+    & \searrow \nearrow_{\mathllap{g}}
+  }
+$$
+
+(whose source is the identity on $x$) with the 1-morphisms $f$.
+
+A detailed proof is in 
+
+* [[Ronnie Brown]], [[Philip Higgins]], _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
+
+Notice that this article says "$\infty$-groupoid" for _strict globular $\infty$-groupoid_ and "$\omega$-groupoid" for _strict cubical $\infty$-groupoid_ .
+
+
+=--
 
 
 
@@ -100,30 +192,122 @@ The action of $[\mathcal{G}]_1$ on $[\mathcal{G}]_k$ is given by whiskering/conj
 
 ### In low degree
 
-In low degrees crossed complexes are the following:
+Say that a crossed complex $C$ is $n$-[[truncated]] if $C_k$ is trivial for $k \gt k$. 
 
-* A crossed complex of length 0 is a [[Set|set]].
+Then
 
-* A crossed complex of length 1 is a [[groupoid]].
+* 0-[[truncated]] crossed complexes are canonically equivalent to [[set]]s, equivalent to [[homotopy n-type|homotopy 0-type]]s.
 
-* A crossed complex of length 2 is a [[crossed module]], which is equivalent to a strict kind of [[2-group]] by the Brown-Spencer Theorem,
-(R. Brown and C.B. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a  topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.)
+* 1-[[truncated]] crossed complexes are canonically equivalently to [[groupoid]]s, equivalent to [[homotopy n-type|homotopy 1-type]]s).
+
+* 2-[[truncated]] crossed complexes are equivalent to strict [[2-groupoid]]s equivalent to [[homotopy n-type|homotopy 2-type]]s.
+
+  2-[[truncated]] and 0-[[connected]] crossed complex, i.e. a 2-truncated one for which $C_0 = *$ is the point is the same as a [[crossed module]] of groups. The equivalence of these to [[strict 2-group]]s is due to
+
+  R. Brown and C.B. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a  topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.)
+
+A discussion of the kind of homotopy types generally modelled by crossed complexes, namely a _linear_ model is in [[homotopy n-type]]. 
+
+### Abelian chain complexes
+
+The notion of crossed complex generalizes the notion of [[chain complex]] of [[abelian group]]s. Clearly in degree $k \geq 3$ a crossed complex with $C_0 = *$ _is_ a chain complex of abelian groups. To regard the first 2 degrees $A_1 \stackrel{\delta}{\to} A_0$ of a chain complex of abelian groups as a crossed module, form the groupoid
+
+$$
+  A_0 \times A_1 \stackrel{\overset{p_1 + \delta}{\to}}{\underset{p_1}{\to}}
+  A_0
+$$
+
+and take the action of this groupoid on all $C_k$ to be trivial. This yields a functor
+
+$$
+  \thets : ChainCplx(Ab) \to CrsCpl
+$$
+
+that embeds chain complexes of abelian groups into crossed complexes. 
+
+### Complex of modules over a groupoid
+
+The embedding of chain complexes of abelian groups into crossed complexes generalizes to an embedding of chain complexs of [[modules over a groupoid]]
+
+$$
+  \theta : ChainCplx(GrpdMod) \to CrsCplx
+  \,.
+$$
+
+For details see _[[Nonabelian Algebraic Topology]]_, [section 7.4.v](#http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#CrsFromCh).
 
 
-+--{.query}
-[[Tim Porter|Tim]]: One of many terminological problems that arise in this stuff is whether 'length' of a chain complex or crossed complex refers to the number of transitions/arrows or the number of nodes /groups or whatever?
+### Fundamental crossed complex
 
-(Alex Nelson): I think that the "length" refers to the number of morphisms. I suspect this since a length 0 chain complex is a set, which makes intuitive sense if it's just a single object without any morphisms...but I may be (and probably am) wrong.
+If $X_*$ is a [[filtered space]], there is a crossed complex $\Pi X_*$ -- the [fundamental crossed complex](http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#FundamentalCrossedComplex) which corresponds to a (filtered and) [[strict ∞-groupoid]] version of the [[fundamental ∞-groupoid]] of $X$. In degree 1 it is the subgroupoid $\Pi_1(X_1,X_0)$ of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects in $X_0$. 
+In degree $n \gt 1$ it is the family of [[relative homotopy group]]s $\{\pi_n(X_n,X_{n-1},p) : p\in X_0\}$.  
+
+This gives a functor $\Pi$ from filtered spaces to crossed complexes, which may be used to construct the generalisation of the [[Dold-Kan correspondence]], which in this case goes between crossed complexes and [[simplicial T-complex]]es.  
+
+### Fundamental crossed complex of the $n$-simplex
+
+An important special case of the above is when the filtered space is a [[CW-complex]] and the filtration is by skeleta.  Particularly useful instances of this are the $n$-cubes and $n$-simplices, with their CW-filtration.  We obtain $\Pi(I^n)$ and $\Pi(\Delta^n)$.  These are used to define cubical and simplicial [[nerve]]s of a crossed complex and these in turn define the [[Dold-Kan correspondence]] mentioned above.  For instance if $C$ is a crossed complex, then its simplicial nerve is the simplicial set with $Ner(C)_n = 
+Crs(\Pi(\Delta^n),C)$ in dimension $n$.
+
+
++-- {: .un_example}
+###### Example
+**(fundamental crossed complex of the $n$-simplex)**
+
+The topological $n$-[[simplex]] $\Delta^n$ is canonically a [[filtered space]] with $(\Delta^n)_k$ being the union of its $k$-faces.
+
+Then we have that $\Pi_1((\Delta^n)_1, (\Delta^n)_0)$ is the groupoid whose objects are the $n+1$ vertices of $\Delta^n$ and which has precisely one morphism $x_i \to x_j$ for each ordered pair $x_i,x_j \in (\Delta^n)_0$
+(all of them being [[isomorphism]]s)
+
+$$
+  \Pi_1((\Delta^2)_1,(\Delta^2)_0) = 
+  \left\{
+     \array{
+     && x_1
+     \\
+     & \nearrow\swarrow && \searrow \nwarrow
+     \\
+    x_0 &&\stackrel{\leftarrow}{\to}&& x_2
+    }
+  \right\}
+  \,.
+$$
+
+At any $x_i$ the relative homotopy group $\pi_2((\Delta^n)_2,(\Delta^n)_1, x_i)$ is a group on the set of 2-faces that have $x_i$ as a 0-face: there is a unique homotopy class of disks in $\Delta^n$ that sits in the 2-faces $(\Delta^n)_2$, whose base point is at $x_j$ and whose boundary runs along the boundary of a given 2-face of $\Delta^n$.
+
+So (using the equivalence of crossed complexes with strict $\omega$-groupoids) for instance $\Pi \Delta^2$ is generated from $\Pi_1((\Delta^2)_1,(\Delta^2)_0)$ as above and a 2-cell
+
+$$
+  \array{
+     && x_1
+     \\
+     & \swarrow &\Downarrow& \nwarrow
+     \\
+    x_0 &&\to&& x_2
+    }
+$$
+
+under whiskering and composition. For instance whiskering this with $x_1 \to x_2$ yields the 2-morphism
+
+$$
+  \array{
+     && x_1
+     \\
+     & \swarrow &\swArrow& \searrow
+     \\
+    x_0 &&\to&& x_2
+    }
+  \,.
+$$
+
+One sees that $\Pi \Delta^2$ is the strict groupoidification of the second [[oriental]].
+
+Generally, $\Pi \Delta^n$ is the $n$-groupoid freely generated from $k$-morphisms for each $k$-face of $\Delta^n$.
+
 =--
 
-A discussion of the kind of homotopy types modelled by crossed complexes, namely a _linear_ model, and a conjecture as to how to extend this, is in [[homotopy n-type]]. 
 
-### Specific examples
 
-If $X_*$ is a [[filtered space]], then there is a crossed complex $\Pi X_*$ which in dimension 0 is $X_0$, in dimension 1 is the [[fundamental groupoid]] $\pi_1(X_1,X_0)$ and   in dimension $n \gt 1$ is the family of relative homotopy groups $\{\pi_n(X_n,X_{n-1},p) : p\in X_0\}$.  This gives a functor $\Pi$ from filtered spaces to crossed complexes, which may be used to construct the generalisation of the [[Dold-Kan correspondence]], which in this case goes between crossed complexes and [[simplicial T-complex]]es.  
-
-An important special case of the above is when the filtered space is a CW-complex and the filtration is by skeleta.  Particularly useful instances of this are the $n$-cubes and $n$-simplices, with their CW-filtration.  We obtain $\Pi(I^n)$ and $\Pi(\Delta^n)$.  These are used to define cubical and simplicial nerves of a crossed complex and these in turn define the [[Dold-Kan correspondence]] mentioned above.  For instance if $C$ is a crossed complex, then its simplicial nerve is the simplicial set with $Ner(C)_n = 
-Crs(\Pi(\Delta^n),C)$ in dimension $n$.
 
 ## Crossed complexes as Moore complexes
 
@@ -168,7 +352,7 @@ A survey of the use of crossed complexes is in
 
 The equivalence of [[strict omega-groupoid]]s and crossed complexes is discussed in 
 
-* [[Ronnie Brown]], P. J. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
+* [[Ronnie Brown]], [[Philip Higgins]], _The equivalence of $\infty$-groupoids and crossed complexes_ , Cah. Top. G&#233;om. Diff. 22, 371-386, 1981. ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/x-comp.pdf)) 
 
 Notice that this article says "$\infty$-groupoid" for _strict globular $\infty$-groupoid_ and "$\omega$-groupoid" for _strict cubical $\infty$-groupoid_ .
 
