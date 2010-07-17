@@ -293,7 +293,9 @@ This is definition 7.4.20.
 
 ###### 7.4.v The right adjoint of the derived functor {#CrsFromCh}
 
-We describe a construction of a [[crossed complex]] from a [[chain complex]] of [[modules over a groupoid]] $(A_n, \mathcal{H})$. Recall the definition of the [semidirect product groupoid](#AdjointModule)  $\mathcal{H} \ltimes A_n$.
+We describe a construction of a [[crossed complex]] from a [[chain complex]] of [[modules over a groupoid]] $(A_n, \mathcal{H})$. As a special case it in particular gives an map of ordinary [[chain complex]]es of [[abelian group]]s into the category of [[crossed complex]]es, and hence into [[strict ∞-groupoid]]s.
+
+Recall the definition of the [semidirect product groupoid](#AdjointModule)  $\mathcal{H} \ltimes A_n$.
 
 +-- {: .un_def}
 ###### Definition
@@ -364,6 +366,47 @@ Here $\mathcal{H} \ltimes A_1$ acts on $A_n$ for $n \geq 2$ via the projection $
 Finally set $\Theta(A)_0 := A_0$.
 
 =--
+
+We spell out what this boils down to explicitly.
+
+**Explicit description**
+
+Let $A_\bullet$ be a [[chain complex]] of [[modules over a groupoid|modules over the groupoid]] $\mathcal{H}$. Then the [[crossed complex]] $\Theta(A)$ is the following.
+
+* Its set of objects is $\Theta(A)_0 = A_0$.
+
+  Remember that $A_0$ itself is a module over $\matcal{H} = (\mathcal{H}_1 \stackrel{\to}{\to} \mathcal{H}_0)$, so that $A_0 = \corpdod_{p \in \mathcal{H}_0} (A_0)_p$.
+
+* For $x \in (A_0)_p$ and $y \in (A_0)_q$ a morphism in $\Theta(A)_1$ from $x$ to $y$ is labeled by $h \in \mathcal{H}_1$ and $a \in (A_1)_q$
+
+  $$
+    x \stackrel{(h,a)}{\to} (y = \rho(h)(x) - \partial a)
+    \,,
+  $$
+
+  where $\rho$ denotes the [[action]] of $\mathcal{H}$ on $A_0$.
+
+  The composition law is given by
+
+  $$
+    \array{
+       && y
+       \\
+       & {}^{\mathllap{(h_1, a_1)}}\nearrow && \searrow^{\mathrlap{(h_2,a_2)}}
+       \\
+       x &&\stackrel{(h_1 \circ h_2, \rho(h_2)(a_1) + a_2)}{\to}&& z
+    }
+    \,.
+  $$
+
+* For $k \geq 2$ the family of groups $\Theta(A)_k$ is over $x \in (A_0)_p$ the group $(A_k)_q$
+
+  $$
+    \Theta(A)_{k \geq 2} = \coprod_{p \in \mathcal{H}_0} \coprod_{x\in (A_0)_q} (A_k)q
+  $$
+
+* The boundary maps and actions are the obvious ones...
+
 
 +-- {: .un_example}
 ###### Example
@@ -588,7 +631,7 @@ $$
   \,.
 $$
 
-By [[adjunction]] $(\Pi \dashv \Theta)$ with the [Theta-map](spring) this is equivalently
+By [[adjunction]] $(\Pi \dashv \Theta)$ with the [Theta-map](#CrsFromCh) this is equivalently
 
 $$
   \cdots \simeq Chn( \nabla \Pi \Delta^\bullet, D)
