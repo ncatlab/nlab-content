@@ -1,10 +1,70 @@
-Let $K$ be a [[field]]; all $K$-[[associative algebra|algebras]] will be assumed [[unital algebra|unital]]. A [[commutative algebra|commutative]] $K$-algebra $A$ is __separable__ if it is [[projective object|projective]] as a $K$-[[module]] and also projective as $A\otimes_K A$-module.
+## The idea ##
 
-A finite-dimensional commutative $K$-algebra $A$ is separable iff it is a finite product of [[separable field extension]]s of $K$. Equivalently it is projective as $A\otimes_K A$-module. Every separable $K$-algebra is a [[filtered colimit]] of finite-dimensional separable $K$-algebras. 
+The concept of separable algebra is a strengthening of the concept of [[semisimple algebra]].  
 
-Separable algebras play a major role in the [[Galois theory]] of extensions of algebras. The [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of combination of [[covering space]] and separable algebra business.
+## Definition ##
 
-There are further generalizations, leading to [[separable functor]]s ...
+There are a several equivalent characterizations of separable algebras.  For all of these we fix a [[field]] $k$.  In what follows, all $k$-algebras will be assumed [[associative algebra|associative]] and [[unital algebra|unital]]. 
 
+First, a $k$-algebra $A$ is defined to be **separable** if for every [[field extension]] $K$ of $k$, the algebra $A \otimes_k K$ is semisimple.
+
+Second, a $k$-algebra $A$ is separable if and only if it is [[projective module|projective]] when considered as a left module of $A^e = A \otimes_k A^{op}$ in the usual way.
+
+Third, a $k$-algebra $A$ is separable if and only if it is [[flat module|flat]] when considered as a right module of $A^e$ in the obvious (but perhaps not quite standard) way.  
+
+Fourth, a $k$-algebra $A$ is separable if and only if the $A^e$-module morphism 
+$$ \array{
+m : & A^e &\to & A  \\
+     & a \otimes b & \mapsto & a b 
+}
+$$
+has a left inverse, that is a $A^e$-module morphism
+$$  f: A \to  A^e  $$
+with $f m = 1_{A^e}$.
+
+We can also state the last characterization in a more grungy way in terms of the element $p = f(1)$.  Namely, a $k$-algebra $A$ is separable if and only if there exists an element 
+
+$$ p = \sum_{i=1}^n a_i \otimes b_i  \in A^e $$
+
+such that 
+
+$$ \sum_{i=1}^n a_i b_i = 1 $$  
+
+and 
+
+$$ a p = p a $$
+
+for all $a \in A$.  Such an element $p$ is called a **separability idempotent**, since it satisfies $p^2 = p$. 
+
+## Classification ##
+
+There is a classification theorem for separable algebras: separable algebras are the same as finite products of matrix algebras over [[division algebras]] whose centers are finite dimensional [[separable field extension|separable field extensions]] of the field ''K''.  
+
+If ''K'' is a [[perfect field]] --- for example a field of characteristic zero, or a finite field, or an algebraically closed field --- then every extension of ''K'' is separable.  As a result, if ''K'' is a perfect field, separable algebras are the same as finite products of matrix algebras over division algebras whose centers are finite-dimensional field extensions of the field ''K''.  In other words, if ''K'' is a perfect field, there is no difference between a separable algebra over ''K'' and a finite-dimensional [[semisimple algebra]] over ''K''.
+
+## Relation to Frobenius algebras ##
+
+A result of Eilenberg and Nakayama that any separable algebra can be given the structure of a symmetric [[Frobenius algebra]].  Since the underlying vector space of a Frobenius algebra is isomorphic to its dual, any Frobenius algebra is necessarily finite dimensional, and so the same is true for separable algebras.  For more details, see:
+
+* Samuel Eilenberg and Tadasi Nakayama, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1-16. 
+([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
+
+A separable algebra is said to be '''strongly separable''' if there exists a separability idempotent $p$ that is '''symmetric''', meaning
+
+$$ p = \sum_{i=1}^n a_i \otimes b_i = \sum_{i=1}^n b_i \otimes a_i $$
+
+An algebra is strongly separable if and only if its trace form is nondegenerate, thus making the algebra into a special Frobenius algebra.   
+
+For more details, see:
+
+* Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([web](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
+
+## In algebraic geometry ##
+
+Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business.  A bit more precisely: if we work over a field $k$, the &#233;tale site is the opposite of the category of commutative separable $k$-algebras.   A  commutative $k$-algebra $A$ is separable iff it is a finite product of [[separable field extensions]] of $k$.  
+
+Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $K$-algebra is a [[filtered colimit]] of finite-dimensional separable $K$-algebras.   
+
+There are further generalizations, leading to [[separable functor|separable functors]]...
 
 [[!redirects separable algebras]]
