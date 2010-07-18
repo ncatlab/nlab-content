@@ -1,0 +1,1 @@
+If a subset $k$ of a field $K$ is a subfield, we call the larger field $K$ an **extension** of the field $k$. 
