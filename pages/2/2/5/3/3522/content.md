@@ -31,7 +31,7 @@ $$
 D_n F(X) \simeq (\partial_n F \wedge X^{\wedge n})_{h \Sigma_n}.
 $$
 
-If $F$ takes values in $Top_*$ then one needs to prefix the right hand side with $\Omega^{\infty}$.
+If $F$ takes values in $Top_*$ then one needs to prefix the right hand side with $\Omega^{\infty}$. (Arone & Ching)
 
 
 ### Analogy between homotopy theory and calculus {#Analogy}
