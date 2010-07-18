@@ -61,7 +61,9 @@ For more details, see:
 
 ## In algebraic geometry ##
 
-Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business.  A bit more precisely: if we work over a field $k$, the &#233;tale site is the opposite of the category of commutative separable $k$-algebras.   A  commutative $k$-algebra $A$ is separable iff it is a finite product of [[separable field extensions]] of $k$.  
+Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business. Lieven Le Bruyn has written "in categorical terms, studying the monoidal cat of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This stuff would be nice to make precise...
+
+A  commutative $k$-algebra $A$ is separable iff it is a finite product of [[separable field extensions]] of $k$.  
 
 Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $k$-algebra is a [[filtered colimit]] of finite-dimensional separable $k$-algebras.   (Isn't this in conflict with the claim above that all separable $k$-algebras _are_ finite-dimensional???)
 
