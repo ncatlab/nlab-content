@@ -1,6 +1,6 @@
 ## The idea ##
 
-The concept of separable algebra is a strengthening of the concept of [[semisimple algebra]].  
+The concept of separable algebra is a strengthening of the concept of [[semisimple algebra]], and a generalization of the concept of a [[separable field extension]].
 
 ## Definition ##
 
@@ -38,9 +38,9 @@ for all $a \in A$.  Such an element $p$ is called a **separability idempotent**,
 
 ## Classification ##
 
-There is a classification theorem for separable algebras: separable algebras are the same as finite products of matrix algebras over [[division algebras]] whose centers are finite dimensional [[separable field extension|separable field extensions]] of the field ''K''.  
+There is a classification theorem for separable algebras: separable algebras are the same as finite products of matrix algebras over [[division algebras]] whose centers are finite dimensional [[separable field extension|separable field extensions]] of the field $k$.  
 
-If ''K'' is a [[perfect field]] --- for example a field of characteristic zero, or a finite field, or an algebraically closed field --- then every extension of ''K'' is separable.  As a result, if ''K'' is a perfect field, separable algebras are the same as finite products of matrix algebras over division algebras whose centers are finite-dimensional field extensions of the field ''K''.  In other words, if ''K'' is a perfect field, there is no difference between a separable algebra over ''K'' and a finite-dimensional [[semisimple algebra]] over ''K''.
+A [[perfect field]] is one for which every extension of is [[separable field extension|separable]].  Examples include fields of characteristic zero, or finite fields, or a algebraically closed fields, or extensions of perfect fields.  If $k$ is a perfect field, separable algebras are the same as finite products of matrix algebras over division algebras whose centers are finite-dimensional field extensions of the field $k$.  In other words, if $k$ is a perfect field, there is no difference between a separable algebra over $k$ and a finite-dimensional [[semisimple algebra]] over $k$.
 
 ## Relation to Frobenius algebras ##
 
@@ -63,7 +63,7 @@ For more details, see:
 
 Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business.  A bit more precisely: if we work over a field $k$, the &#233;tale site is the opposite of the category of commutative separable $k$-algebras.   A  commutative $k$-algebra $A$ is separable iff it is a finite product of [[separable field extensions]] of $k$.  
 
-Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $K$-algebra is a [[filtered colimit]] of finite-dimensional separable $K$-algebras.   
+Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $k$-algebra is a [[filtered colimit]] of finite-dimensional separable $k$-algebras.   (Isn't this in conflict with the claim above that all separable $k$-algebras _are_ finite-dimensional???)
 
 There are further generalizations, leading to [[separable functor|separable functors]]...
 
