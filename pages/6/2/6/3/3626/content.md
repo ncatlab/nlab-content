@@ -1,4 +1,4 @@
-# Frobenius algebras
+# Frobenius algebra
 * table of contents
 {: toc}
 
@@ -47,21 +47,28 @@ A theorem of Eilenberg and Nakayama says that in the category of vector spaces o
 
 ### Special Frobenius algebras ###
 
-If $\mu \circ \delta = 1$, a Frobenius algebra is said to be **special**.   In the category of vector spaces, an associative unital algebra can be equipped with the structure of a special Frobenius algebra if and only if the bilinear pairing
+If $\mu \circ \delta = 1$, a Frobenius algebra is said to be **special**.   In the category of vector spaces, any element $a$ of an associative unital algebra gives a left multiplication map 
+$$ \array{ 
+L_a : &A &\to& A \\
+      &b &\mapsto& a b 
+}
+$$
+which in turn gives a bilinear pairing $g: A \times A \to k$ defined by
 $$ g(a,b) = tr(L_a L_b) $$
+One can show that the algebra $A$ can be equipped with the structure of a special Frobenius algebra if and only if $g$
 is nondegenerate, i.e., if there is an isomorphism $A \to A^*$ given by
-$$ a \mapsto g(a, -) \,. $$
+$$ a \mapsto g(a, -)  $$
 In this case, there is just one way to make $A$ into a special Frobenius algebra, namely by taking the counit to be 
 $$ \epsilon(a) = tr(L_a) $$
 (In any Frobenius algebra, the unit, multiplication and counit determine the comultiplication.)  
 
-In fact, all the results of the previous paper generalize to Frobenius algebras in any symmetric monoidal category, since the proofs can be done using string diagrams.  
+In fact, all the results of the previous paragraph generalize to Frobenius algebras in any symmetric monoidal category, since the proofs can be done using string diagrams.  
 
-An associative unital algebra for which the bilinear pairing $g$ is nondegenerate is called **strongly separable**.  More detailed results on these depend on working in the category of vector spaces over a field $k$.  For example, the algebra of $n \times n$ matrices with entries in the field $k$ is strongly separable if and only if $n$ is not divisible by the characteristic of $k$.  For more details, see:
+An associative unital algebra for which the bilinear pairing $g$ is nondegenerate is called **strongly separable**.  So, any strongly separable algebra becomes a special Frobenius algebra in a unique way.  For more details, see [[separable algebra]] and this reference:
 
 * Marcelo Aguiar, [A note on strongly separable algebras](http://www.math.tamu.edu/~maguiar/strongly.ps.gz), Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60. 
 
-We should warn the reader that these authors call a special Frobenius algebra 'separable':
+We should warn the reader that the following authors call a special Frobenius algebra 'separable':
 
 * R. Rosebrugh, N. Sabadini and R.F.C. Walters, Generic commutative separable algebras and cospans of graphs, Theory and Applications of Categories 15 (Proceedings of CT2004), 164-177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
 
@@ -73,9 +80,12 @@ If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger =
 
 ## PROPs for Frobenius algebras ##
 
-Certain kinds of Frobenius algebras have nice [[PROPs]].  The PROP for commutative Frobenius algebras is [[2Cob]] and the PROP for special commutative Frobenius algebras is Span(FinSet).   Is there an elegant description of the PROP for Frobenius algebras in general?
+Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by Aaron Lauda.  The PROP for commutative Frobenius algebras is [[2Cob]], as noted by many people and formally proved by Lowell Abrams:
 
-In some sense, special commutative Frobenius algebras are dual to commutative [[bialgebra|bialgebras]], whose PROP is Cospan(FinSet).  For details, see the paper by R. Rosebrugh, N. Sabadini and R.F.C. Walters cited above, and also this paper by Lack:
+* Joachim Kock, Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
+   
+The PROP for special commutative Frobenius algebras is Span(FinSet), as proved by Rosebrugh, Sabadini and Walters.
+This is worth comparing to the PROP for commutative [[bialgebra|bialgebras]], which is Cospan(FinSet).  For details, see the paper by R. Rosebrugh, Sabadini and Walters cited above, and also this paper by Lack:
 
 * Stephen Lack, Composing PROPs, Theory and Applications of Categories 13(2004), 147-163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
 
@@ -93,6 +103,8 @@ and [week299](http://math.ucr.edu/home/baez/week299.html).
 
 * Joachim Kock, _Frobenius Algebras and 2d Topological Quantum Field Theories_, Cambridge U. Press, Cambridge, 2004.
 
+* Joachim Kock, Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
+   
 * Stephen Lack, Composing PROPs, Theory and Applications of Categories 13(2004), 147-163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
 
 * R. Rosebrugh, N. Sabadini and R.F.C. Walters, Generic commutative separable algebras and cospans of graphs, Theory and Applications of Categories 15 (Proceedings of CT2004), 164-177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
