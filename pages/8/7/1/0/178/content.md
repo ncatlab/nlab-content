@@ -752,9 +752,16 @@ $$
   \,.
 $$
 
-See also the discussion at [[generalized universal bundle]].
+See also the discussion at [[generalized universal bundle]]. More on this in the next section.
 
 =--
+
+##### The universal $G$-principal bundle
+
+$\mathbf{E}G = (\mathbf{B}G \times_{\mathbf{B}G} * ) = G//G$.
+
+(...)
+
 
 ##### $G$-principal bundles
 
@@ -1167,6 +1174,58 @@ $$
 
 =--
 
+##### The universal $G$-connection on the universal $G$-principal bundle
+
+> _under construction_
+
+The universal $G$-principal bundle $\mathbf{E}G = G//G$ is in fact naturally itself groupal: it has canonically the structure of a strict Lie [[2-group]].
+
+In the next section we discuss Lie 2-groups and the canonical differential forms on these. Applied to $\mathbf{E}G$, this turns out to be the universal [[Ehresmann connection]] on $\mathbf{E}G$. 
+
+We form as before the pullback
+
+$$
+  \array{
+    \mathbf{E}_{diff}G &\to& (\mathbf{\flat} \mathbf{E}G)^I \times_{\mathbf{\flat} \mathbf{E}G} * 
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\flat}_{dR}\mathbf{E}G &\to& \mathbf{\flat} \mathbf{E}G
+  }
+$$
+
+to find the groupoid $\mathbf{E}_{diff} G \simeq \mathbf{E}G$
+
+$$
+  \mathbf{E}_{diff}G = 
+  \left\{
+    \array{
+        && (0,0)
+       \\
+       & {}^{\mathllap{(g_1,a_1)}}\swarrow &
+          {}^{\mathllap{f}}\swArrow
+       & \searrow^{\mathrlap{(g_2,a_2)}}
+       \\
+      (g_1^{-1} d g_1, d a_1 + [a_1 \wedge a_1])
+      &\stackrel{(f,f^{-1} d f)}{\to}&&&
+      (g_2^{-1} d g_2, d a_2 + [a_2 \wedge a_2])
+    }
+  \right\}
+$$
+
+
+The universal form on $\mathbf{E}G$ 
+
+$$
+  \theta_{\mathbf{E}G} : 
+  \mathbf{E}G 
+  \stackrel{\simeq}{\leftarrow}
+  \mathbf{E}_{diff}G
+  \to
+  \mathbf{\flat}_{dR} \mathbf{B E}G
+  \,.
+$$
+
 
 #### Strict Lie 2-groups {#StrictLie2Groups}
 
@@ -1202,57 +1261,86 @@ Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[differe
 +-- {: .un_prop }
 ###### Proposition
 
-The $\infty$-Lie groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is represented in $[CartSp^{op}, sSet]$ by
+The $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} G_1]$ is represented in $[CartSp^{op}, sSet]$ by the Lie [[2-groupoid]] which on $U \in CartSp$ s the following 2-groupoid:
 
-$$
-  \cdots \simeq
-  \Xi[
-    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
-    \times
-    \Omega^1(-, \mathfrak{g}_2)
-    \stackrel{\to}{\to}
-    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
-  ]
-  \,.
-$$
+* an [[object]] is a pair 
+
+  $$
+    A \in \Omega^1(U,\mathfrak{g}_1)\,, \;\;\;
+    B \in \Omega^2(U,\mathfrak{g}_2)
+  $$ 
+  
+  such that 
+
+  $$
+    \delta_* B + d A + [A \wedge A] = 0
+  $$
+
+  and
+
+  $$
+    d B + [A \wedge B] = 0
+    \,.
+  $$
+
+* a [[morphism]] $(g,a) : (A,B) \to (A',B')$ is a pair
+
+  $$  
+    g \in C^\infy(U,G_1)\,,\;\;\; a \in \Omega^1(U,\mathfrak{g}_2)
+  $$
+
+  such that
+
+  $$
+    A' = g^{-1} A g + g^{-1} d g + \delta_* a
+  $$
+
+  and
+
+  $$
+    B' = \alpha(g)(B) + d a + [a \wedge a] + \alpha(A \wedge a)
+    \;
+  $$
+
+* a [[2-morphism]] $f : (\lambda,a) \to (\lambda', a')$ is a function
+
+  $$
+    f \in C^\infty(U,G_2)
+  $$
+
+  such that 
+
+  $$
+    g' = g \delta(f)
+  $$
+ 
+  and
+
+  $$
+    a' = f^{-1} a f + f^{-1} d f + (f,A')
+  $$
+
+and composition is defined as follows
+
+(...)
 
 =--
 
+Up to signs, prefactors and conventions.
+
+This is the 2-groupoid of (flat) [[Lie 2-algebra]] valued forms as described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of [SchrWalII](http://arxiv.org/abs/0802.0663). See there for details for the moment.
+
++-- {: .un_cor }
+###### Corollary
+
+The 2-groupoid $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is as the one above, discarding the piece $C^\infty(-,G_1)$ in the 1-morphisms and the piece $C^\infty(-,G_2)$ in the 2-morphismms.
+
+=--
 
 +-- {: .proof}
 ###### Proof
 
-In analogy to the above computations we resolve
-
-$$
-  \mathbf{\flat} \mathbf{B}[G_2 \to G_1]
-  \simeq
-  \Xi[
-    const G_2 \to const G_1 \stackrel{\to}{\to} *
-  ]
-$$
-
-by applying a non-commutative version of the [[Poincare lemma]]-reasoning to find
-
-$$
-  \cdots \simeq
-  \Xi[
-    C^\infty(-,G_2)
-    \stackrel{}{\to}
-    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
-    \times
-    C^\infty(-, G_1) \times \Omega^1(-, \mathfrak{g}_2)
-    \stackrel{\overset{}{\to}}{\underset{p_1}{\to}}
-    \Omega^\bullet_{\flat}(-,\mathfrak{g}_2 \to \mathfrak{g}_1)
-  ]
-  \,.
-$$
-
-This is the 2-groupoid of flat Lie 2-algebra valued forms as described in 
-[SchrWalII](http://arxiv.org/abs/0802.0663).
-
-With this the [[homotopy pullback]] defining $\mathbf{\flat}_{dR} \mathbf{B}[G_2 \to G_1]$ is the ordinary pullback in $[CartSp^{op}, sSet]$,
-which yields the stated result.
+Form the defining pullback as before. (...)
 
 =--
 
