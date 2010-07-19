@@ -1174,28 +1174,28 @@ $$
 
 =--
 
-##### The universal $G$-connection on the universal $G$-principal bundle
+##### The universal $G$-connection on the universal $G$-principal bundle {#LieGroupUniversalConnection}
 
 > _under construction_
 
 The universal $G$-principal bundle $\mathbf{E}G = G//G$ is in fact naturally itself groupal: it has canonically the structure of a strict Lie [[2-group]].
 
-In the next section we discuss Lie 2-groups and the canonical differential forms on these. Applied to $\mathbf{E}G$, this turns out to be the universal [[Ehresmann connection]] on $\mathbf{E}G$. 
+In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms on these. Applied to $\mathbf{E}G$, this turns out to be the universal [[Ehresmann connection]] on $\mathbf{E}G$. 
 
-We form as before the pullback
+To obatin the [[Maurer-Cartan form]] $\theta_{\mathbf{E}G}$ on the 2-group $\mathbf{E}G$ we form as before the pullback
 
 $$
   \array{
     \mathbf{E}_{diff}G &\to& (\mathbf{\flat} \mathbf{E}G)^I \times_{\mathbf{\flat} \mathbf{E}G} * 
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{\theta_{\mathbf{E}G}}}\downarrow && \downarrow
     \\
     \mathbf{\flat}_{dR}\mathbf{B}\mathbf{E}G &\to& 
    \mathbf{\flat} \mathbf{B}\mathbf{E}G
   }
 $$
 
-to find the groupoid $\mathbf{E}_{diff} G \simeq \mathbf{E}G$
+to find, using the formulas from [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group), the groupoid $\mathbf{E}_{diff} G \simeq \mathbf{E}G$
 
 $$
   \mathbf{E}_{diff}G = 
@@ -1207,17 +1207,15 @@ $$
           {}^{\mathllap{f}}\swArrow
        & \searrow^{\mathrlap{(g_2,a_2)}}
        \\
-      (g_1^{-1} d g_1 + a_1, d a_1 + [a_1 \wedge a_1])
+      (A_1 = g_1^{-1} d g_1 + a_1, F_{A_1})
       &&\stackrel{(e,q)}{\to}&&
-      (g_2^{-1} d g_2 + a_2, d a_2 + [a_2 \wedge a_2])
+      (A_2 = g_2^{-1} d g_2 + a_2, F_{A_2})
     }
   \right\}
 $$
 
-spring
 
-
-The universal form on $\mathbf{E}G$ 
+The universal form on $\mathbf{E}G$ is given by the [[anafunctor]] morphism
 
 $$
   \theta_{\mathbf{E}G} : 
@@ -1226,9 +1224,83 @@ $$
   \mathbf{E}_{diff}G
   \to
   \mathbf{\flat}_{dR} \mathbf{B E}G
+$$
+
+which projects to the codomain of these cones and hence picks out the connection 1-form $A$ and its curvature 2-form $F_A$.
+
+This fits into a diagram 
+
+$$
+  \array{
+    G &\stackrel{\theta_G}{\to}& \mathbf{\flat}_{dR} \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}& \mathbf{\flat}_{dR} \mathbf{B E}G
+  }
   \,.
 $$
 
+The quotient of $\mathbf{E}_{diff}G$ by $G$ is the groupoid
+
+$$
+  \mathbf{B}G_{diff}
+  = 
+  \left\{
+    (A \in \Omega^1(-,\mathfrak{g}))
+     \stackrel{(g \in C^\infty(-,G), a \in \Omega^1(-,\mathfrak{g})}{\to}
+     (A' = g^{-1}(A + d)g + a \in \Omega^1(-,\mathfrak{g}))    
+  \right\}
+  \,.
+$$
+
+The canonical propjection
+
+$$
+  \mathbf{B}G \stackrel{\simeq}{\leftarrow}
+  \mathbf{B}_{diff}G
+$$
+
+is a weak equivalence and the projection $\mathbf{E}_{diff}G \to \mathbf{B}_{diff} G$ is a fibration. 
+
+In total we find a model for the universal (pseudo-)[[Ehresmann connection]] on the universal $G$-principal bundle
+
+$$
+  \array{
+    G &\stackrel{\theta_G}{\to}& \mathbf{\flat}_{dR} \mathbf{B}G
+    &&& vertical\; form
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}& \mathbf{\flat}_{dR} \mathbf{B E}G
+    &&&
+   connection \; and \; curvature
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}_{diff} G &\to& \prod_{i} \mathbf{\flat}_{dR}\mathbf{B}^{n_i} \mathbb{R}
+    &&&
+    curvature\; characteristic\; class
+  }
+$$
+
+where the bottom right morphism picks out the [[invariant polynomial]]s applied to the [[curvature]].
+
+Since in $\mathbf{H}_{dR}(X, \prod_{i} \mathbf{\flat}_{dR}\mathbf{B}^{n_i} \mathbb{R})$ every class has a representative given by a globally defined form, we can assume such globally defined [[curvature characteristic form]]s given. Then for $\{U_i \to X\}$ a [[good open cover]] a classifying morphism
+
+$$
+  X \stackrel{\simeq}{\leftarrow} C(\{U_i\}) \to \mathbf{B}_{diff}G
+$$
+
+picks a Cech cocycle for a $G$-principal bundle together with a pseudo-connection on it that satisfies on double intersections the ordinary gauge transformation law, hence an ordinary connection. The pullback of $\mathbf{E}_{diff}G$ along this gives the local trivialization groupoid $\hat P$ of the corresponding principal bundle $P$ and the induced intrinsic form
+
+$$
+  \hat P \to \mathbf{E}_{diff}G \to \mathbf{\flat}_{dR}(\mathbf{B E}G)
+$$
+
+picks out the [[Ehresmann connection]] form on $P$.
+
+> ...under construction...
 
 #### Strict Lie 2-groups {#StrictLie2Groups}
 
@@ -1256,7 +1328,7 @@ As above.
 =--
 
 
-##### Differential coefficients
+##### Differential coefficients {#DiffCoeffsForLie2Group}
 
 Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[differential crossed module]] corresponding to the Lie [[strict 2-group]] $(G_2 \to G_1)$, regarded as an [[L-∞-algebra]]. Write $CE(\mathfrak{g}_2 \to \mathfrak{g}_1)$ for the corresponding [[Chevalley-Eilenberg algebra]].
 
