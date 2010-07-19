@@ -23,6 +23,12 @@ Then we can make two constructions from this scheme:
 
   * One special case is when this is an [[action groupoid]].  The resulting simplicial scheme should be thought of as the Borel space for the action on $Y$.
 
++--{: .query}
+[[David Roberts]]: One could write $Y \sslash X$ for this nerve, as you are considering it as the weak or homotopy quotient. This would help when trying to draw diagrams of simpilicial schemes.
+
+[[Ben Webster]]: Sorry, that is way too confusing for me.  Double-slashes are for [[GIT quotient|GIT quotients]] in my world. ... (further discussion about fonts and TeX commands have been removed by the [[lab elves]])
+=--
+
 
 ##Linearization, and the function sheaf correspondence
 
