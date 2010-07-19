@@ -84,6 +84,14 @@ For more details, see:
 
 More generally, if $k$ is any unital [[commutative ring]], we can define a separable $k$-algebra to be an algebra $A$ such that $A$ is projective as a module over $A^e = A \otimes_k A^{op}$.  
 
+As in the case of algebras over a field, an algebra $A$ over a commutative ring $k$ is separable if and only if the $A^e$-module epimorphism 
+$$ \array{
+m : & A^e &\to & A  \\
+     & a \otimes b & \mapsto & a b 
+}
+$$
+splits, and this in turn is equivalent to the existence of a separability idempotent.
+
 If a separable algebra $A$ is also projective as a module over $k$, it must be finitely generated as a $k$-module.  For more details see:
 
 * F. DeMeyer and E. Ingraham, _Separable Algebras over Commutative Rings_, Lecture Notes in Mathematics **181**, Springer, Berlin, 1971.
@@ -92,7 +100,7 @@ If a separable algebra $A$ is also projective as a module over $k$, it must be f
 
 Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business. Lieven Le Bruyn has written "in categorical terms, studying the monoidal cat of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This stuff would be nice to make precise...  
 
-Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $k$-algebra is a [[filtered colimit]] of finite-dimensional separable $k$-algebras.   
+Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $k$-algebra is a [[filtered colimit]] of finite-dimensional separable $k$-algebras???
 
 There are further generalizations, leading to [[separable functor|separable functors]]...
 
