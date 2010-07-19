@@ -27,9 +27,7 @@ is an isomorphism of $V$ with its dual space $V^*$. In such a case, $\epsilon$ i
 
 From this definition it is easy to see that every Frobenius algebra in [[Vect]] is necessarily finite-dimensional.
 
-There are about a dozen equivalent definitions of a Frobenius algebra. Ross Street lists most of them here:
-
-* R. Street, Frobenius monads and pseudomonoids, _J. Math. Phys._ **45** (2004).  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+There are about a dozen equivalent definitions of a Frobenius algebra. [Ross Street (2004)](#Street2004) lists most of them.
 
 ## Types of Frobenius algebras
 
@@ -64,15 +62,9 @@ $$ \epsilon(a) = tr(L_a) $$
 
 In fact, all the results of the previous paragraph generalize to Frobenius algebras in any symmetric monoidal category, since the proofs can be done using string diagrams.  
 
-An associative unital algebra for which the bilinear pairing $g$ is nondegenerate is called **strongly separable**.  So, any strongly separable algebra becomes a special Frobenius algebra in a unique way.  For more details, see [[separable algebra]] and this reference:
+An associative unital algebra for which the bilinear pairing $g$ is nondegenerate is called **strongly separable**.  So, any strongly separable algebra becomes a special Frobenius algebra in a unique way.  For more details, see [[separable algebra]] and [Aguiar (2000)](#Aguiar2000).
 
-* Marcelo Aguiar, [A note on strongly separable algebras](http://www.math.tamu.edu/~maguiar/strongly.ps.gz), Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60. 
-
-We should warn the reader that the following authors call a special Frobenius algebra 'separable':
-
-* R. Rosebrugh, N. Sabadini and R.F.C. Walters, Generic commutative separable algebras and cospans of graphs, Theory and Applications of Categories 15 (Proceedings of CT2004), 164-177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
-
-This usage conflicts with the standard definition of a [[separable algebra]] in the category of vector spaces over a field, so we suggest avoiding it.
+We should warn the reader that [Rosebrugh et al (2005)](#Rosebrugh2005) call a special Frobenius algebra 'separable'. This usage conflicts with the standard definition of a [[separable algebra]] in the category of vector spaces over a field, so we suggest avoiding it.
 
 ### &#8224;-Frobenius algebras ###
 
@@ -80,33 +72,40 @@ If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger =
 
 ## PROPs for Frobenius algebras ##
 
-Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by Aaron Lauda.  The PROP for commutative Frobenius algebras is [[2Cob]], as noted by many people and formally proved by Lowell Abrams:
-
-* Joachim Kock, Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
+Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by Aaron Lauda.  The PROP for commutative Frobenius algebras is [[2Cob]], as noted by many people and formally proved by Lowell Abrams; see [Kock (2006)](#Kock2006).
    
-The PROP for special commutative Frobenius algebras is Span(FinSet), as proved by Rosebrugh, Sabadini and Walters.
-This is worth comparing to the PROP for commutative [[bialgebra|bialgebras]], which is Cospan(FinSet).  For details, see the paper by R. Rosebrugh, Sabadini and Walters cited above, and also this paper by Lack:
+The PROP for special commutative Frobenius algebras is Span(FinSet), as proved by Rosebrugh, Sabadini and Walters. This is worth comparing to the PROP for commutative [[bialgebra|bialgebras]], which is Cospan(FinSet).  For details, see [Rosebrugh et al (2005)](#Rosebrugh2005), and also [Lack (2004)](#Lack2004).
 
-* Stephen Lack, Composing PROPs, Theory and Applications of Categories 13(2004), 147-163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
 
 ## References ##
 
-* Lowell Abrams, Two-dimensional topological quantum field theories and Frobenius algebra, _Jour. Knot. Theory and its Ramifications_ **5** (1996), 569-587. 
+* Lowell Abrams, 1996, Two-dimensional topological quantum field theories and Frobenius algebra, _Jour. Knot. Theory and its Ramifications_ **5** (1996), 569--587. 
+{#Abrams1996}
 
-* Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([web](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
+* Marcelo Aguiar, 2000, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51--60.  ([gzipped postscript](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
+{#Aguiar2000}
 
-* John Baez, This Week's Finds in Mathematical Physics, [week268](http://math.ucr.edu/home/baez/week268.html)
-and [week299](http://math.ucr.edu/home/baez/week299.html).
+* John Baez, This Week's Finds in Mathematical Physics, [week268](http://math.ucr.edu/home/baez/week268.html) and [week299](http://math.ucr.edu/home/baez/week299.html).
+{#BaezTWF}
 
-* Samuel Eilenberg and Tadasi Nakayama, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1-16. 
-([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
+* Samuel Eilenberg and Tadasi Nakayama, 1955, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1--16. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
+{#Eilenberg1955}
 
-* Joachim Kock, _Frobenius Algebras and 2d Topological Quantum Field Theories_, Cambridge U. Press, Cambridge, 2004.
+* Joachim Kock, 2004, _Frobenius Algebras and 2d Topological Quantum Field Theories_, Cambridge U. Press, Cambridge, 2004.
+{#Kock2004}
 
-* Joachim Kock, Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
-   
-* Stephen Lack, Composing PROPs, Theory and Applications of Categories 13(2004), 147-163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
+* Joachim Kock, 2006, Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
+{#Kock2006}
 
-* R. Rosebrugh, N. Sabadini and R.F.C. Walters, Generic commutative separable algebras and cospans of graphs, Theory and Applications of Categories 15 (Proceedings of CT2004), 164-177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
+* Stephen Lack, 2004, Composing PROPs, Theory and Applications of Categories 13 (2004), 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
+{#Lack2004}
 
+* R. Rosebrugh, N. Sabadini and R.F.C. Walters, 2005, Generic commutative separable algebras and cospans of graphs, Theory and Applications of Categories 15 (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
+{#Rosebrugh2005}
+
+* R. Street, 2004, Frobenius monads and pseudomonoids, _J. Math. Phys._ **45** (2004).  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+{#Street2004}
+
+
+[[!redirects Frobenius algebra]]
 [[!redirects Frobenius algebras]]
