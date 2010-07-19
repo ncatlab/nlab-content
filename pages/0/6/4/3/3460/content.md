@@ -1,3 +1,7 @@
+# Contents
+* table of contents
+{: toc}
+
 ## The idea ##
 
 The concept of separable algebra is a strengthening of the concept of [[semisimple algebra]], and a generalization of the concept of a [[separable field extension]].
@@ -8,9 +12,9 @@ There are a several equivalent characterizations of separable algebras.  For all
 
 First, a $k$-algebra $A$ is defined to be **separable** if for every [[field extension]] $K$ of $k$, the algebra $A \otimes_k K$ is semisimple.
 
-Second, a $k$-algebra $A$ is separable if and only if it is [[projective module|projective]] when considered as a left module of $A^e = A \otimes_k A^{op}$ in the usual way.
+Second, a $k$-algebra $A$ is separable if and only if it is [[flat module|flat]] when considered as a right module of $A^e = A \otimes_k A^{op}$ in the obvious (but perhaps not quite standard) way.  
 
-Third, a $k$-algebra $A$ is separable if and only if it is [[flat module|flat]] when considered as a right module of $A^e$ in the obvious (but perhaps not quite standard) way.  
+Third, a $k$-algebra $A$ is separable if and only if it is [[projective module|projective]] when considered as a left module of $A^e$ in the usual way.
 
 Fourth, a $k$-algebra $A$ is separable if and only if the $A^e$-module morphism 
 $$ \array{
@@ -22,19 +26,18 @@ has a left inverse, that is a $A^e$-module morphism
 $$  f: A \to  A^e  $$
 with $f m = 1_{A^e}$.
 
-We can also state the last characterization in a more grungy way in terms of the element $p = f(1)$.  Namely, a $k$-algebra $A$ is separable if and only if there exists an element 
+It is easy to see that the third and fourth definitions are equivalent.  We have an epimorphism of $A^e$-modules
+$$  A^e \stackrel{m}{\longrightarrow} A \to 0 $$
+If $f$ as above exists, this splits, so $A$ is a summand of a free $A^e$-module, namely $A^e$ itself, so $A$ is projective as an $A^e$-module.  Conversely, if $A$ is projective, any epimorphism to $A$ splits.
 
+We can also state the fourth characterization in a more grungy way in terms of the element $p = f(1)$.  Namely, a $k$-algebra $A$ is separable if and only if there exists an element 
 $$ p = \sum_{i=1}^n a_i \otimes b_i  \in A^e $$
-
 such that 
-
 $$ \sum_{i=1}^n a_i b_i = 1 $$  
-
 and 
-
 $$ a p = p a $$
-
 for all $a \in A$.  Such an element $p$ is called a **separability idempotent**, since it satisfies $p^2 = p$. 
+While grungy, finding a separability idempotent is a practical way to prove that an algebra is separable.
 
 ## Classification ##
 
@@ -44,28 +47,52 @@ A [[perfect field]] is one for which every extension of is [[separable field ext
 
 ## Relation to Frobenius algebras ##
 
-A result of Eilenberg and Nakayama that any separable algebra can be given the structure of a symmetric [[Frobenius algebra]].  Since the underlying vector space of a Frobenius algebra is isomorphic to its dual, any Frobenius algebra is necessarily finite dimensional, and so the same is true for separable algebras.  For more details, see:
+A result of Eilenberg and Nakayama that any [[separable algebra]] over a field $k$ can be given the structure of a [[Frobenius algebra|symmetric Frobenius algebra]].  Since the underlying vector space of a Frobenius algebra is isomorphic to its dual, any Frobenius algebra is necessarily finite dimensional, and so the same is true for separable algebras.  For more details, see:
 
 * Samuel Eilenberg and Tadasi Nakayama, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9** (1955), 1-16. 
 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
 
-A separable algebra is said to be '''strongly separable''' if there exists a separability idempotent $p$ that is '''symmetric''', meaning
-
+A separable algebra is said to be **strongly separable** if there exists a separability idempotent $p$ that is **symmetric**, meaning
 $$ p = \sum_{i=1}^n a_i \otimes b_i = \sum_{i=1}^n b_i \otimes a_i $$
+Any strongly separable algebra can be made into a [[Frobenius algebra|special Frobenius algebra]] in a unique way.
 
-An algebra is strongly separable if and only if its trace form is nondegenerate, thus making the algebra into a special Frobenius algebra.   
+There is an equivalent characterization of strongly separable algebras which makes this fact clearer.  Any element $a$ of an associative unital algebra gives a left multiplication map 
+$$ \array{ 
+L_a : &A &\to& A \\
+      &b &\mapsto& a b 
+}
+$$
+When $A$ is finite-dimensional, there is a bilinear pairing $g: A \times A \to k$ defined by
+$$ g(a,b) = tr(L_a L_b) $$
+An algebra $A$ is strongly separable if and only if $g$
+is **nondegenerate**, i.e., if there is an isomorphism $A \to A^*$ given by
+$$ a \mapsto g(a, -)  $$
+In this case, there is just one way to make $A$ into a special Frobenius algebra, namely by defining the counit to be 
+$$ \epsilon(a) = tr(L_a) $$
+
+Here are some examples of strongly separable algebras:
+
+* the algebra of $n \times n$ matrices with entries in the field $k$ is strongly separable if and only if $n$ is not divisible by the characteristic of $k$.  
+
+* the group algebra $k[G]$ of a finite group is strongly separable if and only if the order of $G$ is not divisible by the characteristic of $k$.
 
 For more details, see:
 
 * Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([web](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
 
+## Over commutative rings ##
+
+More generally, if $k$ is any unital [[commutative ring]], we can define a separable $k$-algebra to be an algebra $A$ such that $A$ is projective as a module over $A^e = A \otimes_k A^{op}$.  
+
+If a separable algebra $A$ is also projective as a module over $k$, it must be finitely generated as a $k$-module.  For more details see:
+
+* F. DeMeyer and E. Ingraham, _Separable Algebras over Commutative Rings_, Lecture Notes in Mathematics **181**, Springer, Berlin, 1971.
+
 ## In algebraic geometry ##
 
-Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business. Lieven Le Bruyn has written "in categorical terms, studying the monoidal cat of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This stuff would be nice to make precise...
+Commutative separable algebras are important in algebraic geometry.    The concept of [[etale morphism|étale cover]] in [[algebraic geometry]] is sort of a combination of [[covering space]] and separable algebra business. Lieven Le Bruyn has written "in categorical terms, studying the monoidal cat of commutative separable $k$-algebras is the same as studying the &#233;tale site of $k$".   This stuff would be nice to make precise...  
 
-A  commutative $k$-algebra $A$ is separable iff it is a finite product of [[separable field extensions]] of $k$.  
-
-Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $k$-algebra is a [[filtered colimit]] of finite-dimensional separable $k$-algebras.   (Isn't this in conflict with the claim above that all separable $k$-algebras _are_ finite-dimensional???)
+Separable algebras play a major role in the [[Galois theory]] of extensions of algebras.  Every separable $k$-algebra is a [[filtered colimit]] of finite-dimensional separable $k$-algebras.   
 
 There are further generalizations, leading to [[separable functor|separable functors]]...
 
