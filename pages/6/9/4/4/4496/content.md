@@ -1,0 +1,1 @@
+Hypercohomology is a generalization of [[derived functor]] [[cohomology]]. Whereas derived functor cohomology works for single objects, hypercohomology works for complexes of objects.
