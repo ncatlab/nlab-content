@@ -756,11 +756,35 @@ See also the discussion at [[generalized universal bundle]]. More on this in the
 
 =--
 
-##### The universal $G$-principal bundle
+##### The universal $G$-principal bundle {#UniversalLieGroupPrincipalBundle}
 
-$\mathbf{E}G = (\mathbf{B}G \times_{\mathbf{B}G} * ) = G//G$.
+The universal $G$-principal bundle is a replacement of the point inclusion $* \to \mathbf{B}G$ by a fibration $\mathbf{E}G \to \mathbf{B}G$.
 
-(...)
+For $G$ an ordinary [[group]] one model for this is given by the Lie groupoid
+
+$$
+  \mathbf{E}G = (G\times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G)
+  \,,
+$$
+
+which is the [[action groupoid]] $G//G$ of $G$ acting on itself.
+
+One noteworthy aspect of this object is that it is itself groupal, in fact itself a Lie [[strict 2-group]] in a way that is compatible with the canonical inclusion $G \to \mathbf{E}G$.
+
+To emphasize this group structure, we also write $INN(G)$ for this groupoid, following [SchrRob](#http://arxiv.org/abs/0708.1741). The corresponding [[crossed module]] is
+
+$$
+ [INN(G)] = (G \stackrel{Id}{\to} G)
+ \,.
+$$
+
+Accordingly we write $\mathbf{B E}G$ or $\mathbf{B}INN(G)$ for the 2-groupoid given by the Lie [[crossed complex]]
+
+$$
+  (G \stackrel{Id}{\to}G \stackrel{\to}{\to} * ) 
+  \,.
+$$
+
 
 
 ##### $G$-principal bundles
@@ -1178,57 +1202,87 @@ $$
 
 > _under construction_
 
-The universal $G$-principal bundle $\mathbf{E}G = G//G$ is in fact naturally itself groupal: it has canonically the structure of a strict Lie [[2-group]].
+We have seen [above](#UniversalLieGroupPrincipalBundle) that the universal $G$-principal bundle $\mathbf{E}G$ is itself naturally modeled as a Lie [[2-group]] $INN(G)$. In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms with values in a [[Lie 2-algebra]] on these. We shall now discuss how, in a sense, for the Lie 2-group $\mathbf{E}G = INN(G)$ this universal form is the _universal [[Ehresmann connection]]_ on the universal $G$-principal bundle. The reader not familiar with the section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) should skip this section here to come back later. This section here is a corollary or special case of example application of that section.
 
-In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms on these. Applied to $\mathbf{E}G$, this turns out to be the universal [[Ehresmann connection]] on $\mathbf{E}G$. 
-
-To obatin the [[Maurer-Cartan form]] $\theta_{\mathbf{E}G}$ on the 2-group $\mathbf{E}G$ we form as before the pullback
+The Lie 2-group $INN(G)$ is the one coming from the [[crossed module]] $(G \stackrel{Id}{\to} G)$. Its [[Lie 2-algebra]] is accordingly that given by the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$. In section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we find a replacement for $\mathbf{\flat}\mathbf{B} INN(G)$ and $\mathbf{\flat}_{dR} \mathbf{B}INN(G)$ that induces a realization of the Maurer-Cartan form on the Lie 2-group $\mathbf{E}G$ in terms of a span
 
 $$
   \array{
-    \mathbf{E}_{diff}G &\to& (\mathbf{\flat} \mathbf{E}G)^I \times_{\mathbf{\flat} \mathbf{E}G} * 
+    \mathbf{E}_{diff} G &\stackrel{\theta_{\mathbf{E}G}}{\to}&
+    \mathbf{\flat}_{dR}\mathbf{B} INN(G)
     \\
-    {}^{\mathllap{\theta_{\mathbf{E}G}}}\downarrow && \downarrow
+    \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathbf{\flat}_{dR}\mathbf{B}\mathbf{E}G &\to& 
-   \mathbf{\flat} \mathbf{B}\mathbf{E}G
+    \mathbf{E}G
   }
 $$
 
-to find, using the formulas from [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group), the groupoid $\mathbf{E}_{diff} G \simeq \mathbf{E}G$
+realized as follows. The Lie groupoid $\mathbf{E}_{diff}(G)$ is given by
 
 $$
-  \mathbf{E}_{diff}G = 
+  \mathbf{E}_{diff}G 
+  :
+  U 
+  \mapsto
   \left\{
+     \left.
     \array{
         && (0,0)
        \\
        & {}^{\mathllap{(g_1,a_1)}}\swarrow &
-          {}^{\mathllap{f}}\swArrow
+          {}^{\mathllap{f^{-1}}}\swArrow
        & \searrow^{\mathrlap{(g_2,a_2)}}
        \\
       (A_1 = g_1^{-1} d g_1 + a_1, F_{A_1})
-      &&\stackrel{(e,q)}{\to}&&
+      &&\stackrel{(e,\lambda)}{\to}&&
       (A_2 = g_2^{-1} d g_2 + a_2, F_{A_2})
     }
+    right|
+     \begin{array}
+       A_i \in \Omega^1(U,\mathfrak{g})  
+       \\
+       g_i \in C^\infty(U,G)
+       \\
+       f \in C^\infty(U,G)
+     \end{array}
   \right\}
 $$
 
-
-The universal form on $\mathbf{E}G$ is given by the [[anafunctor]] morphism
+where the cone on the right is a 2-cell in the model for $\mathbf{\flat}_{dR}\mathbf{B}INN(G)$ and constitutes a morphism from the object 
 
 $$
-  \theta_{\mathbf{E}G} : 
-  \mathbf{E}G 
-  \stackrel{\simeq}{\leftarrow}
-  \mathbf{E}_{diff}G
-  \to
-  \mathbf{\flat}_{dR} \mathbf{B E}G
+  \array{
+    0
+    \\
+    \doownarrow^{\mathrlap{(g_1,a_1)}}
+    \\
+    (A_1 = g_1^{-1} d g_1 + a_1, F_{A_1})
+  }
 $$
 
-which projects to the codomain of these cones and hence picks out the connection 1-form $A$ and its curvature 2-form $F_A$.
+to the object 
 
-This fits into a diagram 
+$$
+  \array{
+    0
+    \\
+    \doownarrow^{\mathrlap{(g_2,a_2)}}
+    \\
+    (A_2 = g_2^{-1} d g_2 + a_2, F_{A_2})
+  }
+  \,.
+$$
+
+From the description of the resolution for $\mathbf{\flat}\mathbf{B}INN(G)$ in [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we have that in such a morphism the label $g_1$, $g_2$ and $f$ are related by
+
+$$
+  g_2 = f g_1
+  \,. 
+$$
+
+A little inspection shows that all the rest of the data is already fixed by this. Therefore the evident forgetful furnctor $\mathbf{E}_{diff} G \to \mathbf{E}G$ is clearly over each $U$ an [[essentially surjective functor|essentially surjective]] and [[full and faithful functor]], hence indeed a weak equivalence.
+
+The canonical form $\theta_{\mathbf{E}G}$ itself is given by projection onto the codomain of these cones, as for the canonical form on $G$ discussed above. This way we find that the canonical forms on $G$ and on $\mathbf{E}(G) = INN(G)$ fit into a diagram
 
 $$
   \array{
@@ -1236,32 +1290,60 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}& \mathbf{\flat}_{dR} \mathbf{B E}G
+    \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}& \mathbf{\flat}_{dR} \mathbf{B }INN(G)
   }
   \,.
 $$
 
-The quotient of $\mathbf{E}_{diff}G$ by $G$ is the groupoid
+Observe that the $G$-action on $\mathbf{E}G$ lifts immediately to an action on the slightly bigger model $\mathbf{E}_{diff}G$, where it is still principal: the only element that leveas any objects or morphisms in $\mathbf{E}_{diff}G$  fixed is the neutral element. 
+
+By the general properties discussed at [[simplicial principal bundle]] it follows that the quotient map 
 
 $$
-  \mathbf{B}G_{diff}
-  = 
+  \mathbf{E}_{diff}G \to \mathbf{B}_{diff}G := (\mathbf{E}_{diff}G)/G
+$$
+
+is a [[Kan fibration]] that exhibits a $G$-principal bundle. We find that the based object $\mathbf{B}_{diff}G$ appearing here is
+
+$$
+  \mathbf{B}_{diff}G 
+  :
+  U 
+  \mapsto
   \left\{
-    (A \in \Omega^1(-,\mathfrak{g}))
-     \stackrel{(g \in C^\infty(-,G), a \in \Omega^1(-,\mathfrak{g})}{\to}
-     (A' = g^{-1}(A + d)g + a \in \Omega^1(-,\mathfrak{g}))    
+     \left.
+        (a_1) \stackrel{(f,\lambda)}{\to} A_2 = g^{-1}(A_1 + d)g + \lambda
+    right|
+     \begin{array}
+       a_i, \lambda \in \Omega^1(U,\mathfrak{g})  
+       \\
+       f \in C^\infty(U,G)
+     \end{array}
   \right\}
   \,.
 $$
 
-The canonical propjection
+The evident forgetful functor $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \mathbf{B}_{diff} G$ is, similar to the previous argument, a weak equivalence.
+
+Therefore the morphism of Lie groupoids
 
 $$
-  \mathbf{B}G \stackrel{\simeq}{\leftarrow}
+  \mathbf{E}_{diff}G \to \mathbf{B}_{diff}G
+$$
+
+that we have obtained is indeed another model for the universal $G$-principal bundle. For $\{U_i \to X\}$ a [[good open cover]] of a smooth manifold $X$ and $C(\{U_i\})$ the [[Cech nerve|Cech groupoid]] we have that a morphism
+
+$$
+  X \stackrel{\simeq}{\leftarrow}
+  C(\{U_i\})
+  \stackrel{(A_i g_{i j}, \lambda_{i j})}{\to}
   \mathbf{B}_{diff}G
 $$
 
-is a weak equivalence and the projection $\mathbf{E}_{diff}G \to \mathbf{B}_{diff} G$ is a fibration. 
+of groupoid-valued presheaves is a $G$-[[Cech cohomology|Cech cocycle]] on $X$ _together with_ on each patch $U_i$ a choise of [[Lie-algebra valued 1-form]] $A_i \in \Omega^1(U_i, \mathfrak{g})$. These 1-forms do _not_ need to satisfy any condition on double overlaps (yet): by the above characterization the failur of the $(A_i)$ to satisfy the usual Cech-de Rham cocycle condition for a conneciton on a bundle is measure on double overlaps by the forms $\lambda_{i j}$. This is sometimes called a _pseudo-connection_ . 
+
+
+
 
 In total we find a model for the universal (pseudo-)[[Ehresmann connection]] on the universal $G$-principal bundle
 
@@ -1278,7 +1360,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{B}_{diff} G &\to& \prod_{i} \mathbf{\flat}_{dR}\mathbf{B}^{n_i} \mathbb{R}
+    \mathbf{B}_{diff} G &\to& \prod_{i} \mathbf{\flat}_{dR}\tilde \mathbf{B}^{n_i} \mathbb{R}
     &&&
     curvature\; characteristic\; class
   }
