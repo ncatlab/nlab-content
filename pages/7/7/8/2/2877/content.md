@@ -2,21 +2,21 @@ There are many approaches to the generalizations of [[principal bundles]] to var
 
 In [[noncommutative algebraic geometry]], the most studied is the case in which the base and total space are affine, i.e. each represented by a single algebra, say base by $U$ and the total space by $E$. If the structure group is a [[Hopf algebra]], then the standard requirement is that $E$ is a right $H$-comodule algebra which is a [[Hopf-Galois extension]] of $U$. One generalization of this picture are the "coalgebra bundles" 
 
-* T. Brzezi&#324;ski, S. Majid, _Coalgebra bundles_, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)). 
+* [[T. Brzeziński]], [[Shahn Majid|S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)). 
 
 In that case, the Hopf algebra is replaced by a [[coalgebra]] $C$, the total space by an algebra which is a $C$-comodule, bu then an entwining structure is needed as an additional structure, and again a version of a Galois condition is required. The entwining which is a mixed [[distributive law]] is in fact in a role of lifting certain induced action of a monoidal category associated to $C$ from the base ground scheme cf.
 
-* Z. &#352;koda, _Distributive laws for actions of monoidal categories_, [math.CT/0406310](http://arxiv.org/abs/math.CT/0406310).
+* [[Z. Škoda]], _Distributive laws for actions of monoidal categories_, [math.CT/0406310](http://arxiv.org/abs/math.CT/0406310).
 
 The liftings can be defined more generally in nonaffine situations leading to the concept of [[geometrically admissible action]]s as in 
 
-* Z. &#352;koda, _Some equivariant constructions in noncommutative algebraic geometry_, Georgian Mathematical Journal 16 (2009), No. 1, 183--202, [arXiv:0811.4770](http://arxiv.org/abs/0811.4770).
+* [[Z. Škoda]], _Some equivariant constructions in noncommutative algebraic geometry_, Georgian Mathematical Journal 16 (2009), No. 1, 183--202, [arXiv:0811.4770](http://arxiv.org/abs/0811.4770).
 
 The Galois condition can then be defined locally on some compatible cover. A generalized version of the Schneider's descent theorem hold in this generality. 
 
 As a particular case, this allows the $H$-comodule algebras which are not Hopf-Galois extension of their coinvariants but became so when localizing on some affine biflat coaction compatible cover by affine biflat localizations (see [[zoranskoda:gluing categories from localizations|here]]). In other words the localized algebras are Hopf-Galois extensions (for example [[crossed product algebra]]s) of the [[localized coinvariant]]s as in 
 
-* Z. &#352;koda, _Localizations for construction of quantum coset spaces_, [math.QA/0301090](http://front.math.ucdavis.edu/math.QA/0301090),  Banach Center Publ. __61__, pp. 265--298, Warszawa 2003; 
+* [[Z. Škoda]], _Localizations for construction of quantum coset spaces_, [math.QA/0301090](http://front.math.ucdavis.edu/math.QA/0301090),  Banach Center Publ. __61__, pp. 265--298, Warszawa 2003; 
 
 * Z. &#352;koda, _Coherent states for Hopf algebras_, Letters in Mathematical Physics __81__, N.1, pp. 1-17, July 2007. (earlier arXiv version: [math.QA/0303357](http://arxiv.org/abs/math.QA/0303357)).
  
@@ -32,6 +32,8 @@ As [[Hopf algebroid]]s generalize (function algebras on) groupoids, there is a w
 
 See also
 
-* Tomasz Brzezi&#324;ski, _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213).
+* [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213).
 
- 
+[[!redirects noncommutative principal bundles]]
+[[!redirects quantum principal bundle]]
+[[!redirects quantum principal bundles]]
