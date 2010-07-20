@@ -21,9 +21,9 @@ Then we can make two constructions from this scheme:
 
 * There is a [[simplicial object|simplicial]] scheme $N(X\rightrightarrows Y)$ given by the [[nerve]] of $X\rightrightarrows Y$ (this sends $\Delta^n$ to $X\times_Y X\times_Y\cdots  \times_Y X$, with the obvious face and degeneracy maps).
 
-  * One special case is when this is an [[action groupoid]], for an algebraic group $G$ (say) acting on $Y$.  The resulting simplicial scheme should be thought of as the Borel space for the action on $Y$. The notation $Y//G$ for this 'homotopy' or weak quotient is used in other fields, but conflicts here with [[GIT quotient|GIT quotients]]. ([[David Roberts|DR]]: note that $//$ should really be '$\sslash$', but that doesn't always render properly for some reason)
+  * One special case is when this is an [[action groupoid]], for an algebraic group $G$ (say) acting on $Y$.  The resulting simplicial scheme should be thought of as the Borel space for the action on $Y$. The notation $Y \sslash G$ (or $Y//G$ if the first version doesn\'t render properly) for this 'homotopy' or weak quotient is used in other fields, but this conflicts here with [[GIT quotient|GIT quotients]].
 
-  * More generally, but for this notational clash, $Y//X$ could denote the nerve. Another option is $NY$, where $Y$ denotes the whole groupoid, rather than just the scheme of arrows.
+  * More generally, but for this notational clash, $Y//X$ could denote the nerve. Another option is $\mathcal{N}Y$, where $Y$ denotes the whole groupoid, rather than just the scheme of arrows.
 
 
 ##Linearization, and the function sheaf correspondence
