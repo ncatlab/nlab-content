@@ -20,6 +20,8 @@ For motivation, background and further details see
 * [[gerbe]]
 * [[principal 2-bundle]].
 
+A model for principal $\infty$-bundles is given by [[simplicial principal bundle]]s.
+
 ## Definition in a general $(\infty,1)$-topos 
 
 We define $G$-principal $\infty$-bundles in the general context of an [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$, with $G$ a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]].
@@ -442,9 +444,7 @@ given by the [[hom-set]] in the [[homotopy category of an (infinity,1)-category|
 
 ### Connections on $G$-principal $\infty$-bundles
 
-By refining the classifying [[nonabelian cohomology|cocycles]] $g : X \to \mathbf{B} G$ to cocycles 
-$\Pi(X) \to \mathbf{B} G$
-on higher [[path groupoids]] of $X$, one obtains higher versions of the notion of [[connection on a bundle]]. This is described in more detail at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]].
+For some comments on the generalization of the notion of [[connection on a bundle]] to principal $\infty$-bundles see [[schreiber:differential cohomology in an (∞,1)-topos -- survey]].
 
 ## Concrete realizations 
 
@@ -565,12 +565,6 @@ $$
 a functor that sends all morphisms to weak
 equivalences of simplicial sets.
 
-+--{: .query}
-[[David Roberts]]: Do you mean ordinary functor or something weaker? Unless you have something weaker, then all those weak equivalences are actually isomorphisms. Also cf [[simplicial localization]].
-
-[[Urs Schreiber|Urs]]: right, $C$ is allowed to be a _category_, not required to be a groupoid. I have corrected that now. See the beginning of [Jardine's article](http://www.math.uiuc.edu/K-theory/0723/diagrams3.pdf).
-
-=--
 
 Let now for each object $c \in C$
 
@@ -601,6 +595,10 @@ is a homotopy pullback
 This classical construction is recalled in the introduction of
 
 * Jardine, _Diagrams and torsors_ ([pdf](http://www.math.uiuc.edu/K-theory/0723/diagrams3.pdf))
+
+### In simplicial sets / Kan complexes
+
+See [[simplicial principal bundle]].
 
 
 
