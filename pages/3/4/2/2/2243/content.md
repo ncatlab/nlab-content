@@ -72,6 +72,9 @@
 
 * [[?ech cohomology]]
 
+* [[hypercohomology]]
+
+
 ### Variants ###
 
 * [[equivariant cohomology]]
