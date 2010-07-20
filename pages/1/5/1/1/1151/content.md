@@ -429,6 +429,8 @@ Classes of special cases of cohomologies with their own entries include
 
 * [[?ech cohomology]]
 
+* [[hypercohomology]]
+
 * [[twisted cohomology]]
 
 * [[equivariant cohomology]]
