@@ -1402,15 +1402,33 @@ So define $\mathbf{\flat}_{dR}\tilde \mathbf{B}^n \mathbb{R}$ to be the Lie grou
 
 * $U$-parameterized families of morphisms are $(n-1)$-forms modulo $d$ : $\\kappa \in \Omega^{n-1}(U)/{in d}$.
 
-Then evaluation of curvature in invariant polynomials yields a morphism
+Then evaluation of curvature in invariant polynomials yields yields a morphism
 
 $$
   \mathbf{\flat}_{dR} \mathbf{B}  INN(G)
   \to
-  \prod_i \mathbf{\flat}_{dR}\tilde \mathbf{B}^{n_i} \mathbb{R}
+  \tilde \mathbf{\flat}_{dR} \prod_i  \mathbf{B}^{n_i} \mathbb{R}
 $$
 
-that fits into  the above diagram.
+where $i$ ranges over the generators of invariant polynomials and $n_i$ is the degree of the $i$th generator, that fits into  the above diagram for $Q$.
+
+This morphism sends over $U \in $ [[CartSp]] the form $A \in \Omega^1(U,\mathfrak{g})$ to a collection $\sum_i P_i(F_{A_i})$ of [[curvature characteristic form]]s and sends any morphism between two such forms (which, recall, need not be a gauge transformation of forms but may involve a shift of conneciton forms) to the [[Chern-Simons form]] interpolating between these, which is indeed well defined modulo exact forms
+
+$$
+  curv_G : 
+  \left(
+    (A, F_A) 
+    \stackrel{\lambda}{\to}
+    (A', F_{A'})
+  \right)  
+  \;\;\;
+  \mapsto
+  \;\;\;
+  \sum_i P_i(F_A)
+  \stackrel{\sum_i CS(A,A')}{\to}
+  \sum_i P_i(F_{A'})
+  \,.
+$$
 
 ###### The universal connection
 
@@ -1429,29 +1447,88 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{B}_{diff} G &\to& \prod_{i} \mathbf{\flat}_{dR}\tilde \mathbf{B}^{n_i} \mathbb{R}
+    \mathbf{B}_{diff} G 
+    &\stackrel{char_G}{\to}& 
+    \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
     &&&
     curvature\; characteristic\; class
   }
+  \,.
 $$
 
-where the bottom right morphism picks out the [[invariant polynomial]]s applied to the [[curvature]].
-
-Since in $\mathbf{H}_{dR}(X, \prod_{i} \mathbf{\flat}_{dR}\mathbf{B}^{n_i} \mathbb{R})$ every class has a representative given by a globally defined form, we can assume such globally defined [[curvature characteristic form]]s given. Then for $\{U_i \to X\}$ a [[good open cover]] a classifying morphism
+The morphism
 
 $$
-  X \stackrel{\simeq}{\leftarrow} C(\{U_i\}) \to \mathbf{B}_{diff}G
+  char_G : \mathbf{B}G_{diff} \to \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
 $$
 
-picks a Cech cocycle for a $G$-principal bundle together with a pseudo-connection on it that satisfies on double intersections the ordinary gauge transformation law, hence an ordinary connection. The pullback of $\mathbf{E}_{diff}G$ along this gives the local trivialization groupoid $\hat P$ of the corresponding principal bundle $P$ and the induced intrinsic form
+that arises from pushing down the canonical form/universal pseudo-connection on $\mathbf{E}G$ is the **universal [[curvature characteristic form]]** . We notice that cohomology with coefficients in $\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}$ sits in the [[de Rham cohomology]] $\prod_i H^{n_i}_{dR}(X)$ and that every cohomology class in there has a representative
 
 $$
-  \hat P \to \mathbf{E}_{diff}G \to \mathbf{\flat}_{dR}(\mathbf{B E}G)
+  \array{
+    C(\{U_i\})
+    &\to&
+    \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+    \\
+    X
+  }
 $$
 
-picks out the [[Ehresmann connection]] form on $P$.
+given by a collection of globally defined form, in other words we have representatives for each cohomology that extend as
 
-> ...under construction...
+$$
+  \array{
+    C(\{U_i\})
+    &\to&
+    \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow & \nearrow
+    \\
+    X
+  }
+  \,.
+$$
+
+Picking one such reprresentative for each class yields a morphism
+
+$$
+  \prod_i H^{n_i}_{dR}(X) \to 
+   \mathbf{H}(X,\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R})
+  \,.
+$$
+
+By the general reasoning of [[schreiber:differential cohomology in an (∞,1)-topos]] we have that the differential cocycles proper are those in the homotopy pullback $\mathbf{H}_{diff}(X,\mathbf{B}G)$ of this morphism along the curvature class morphism
+
+$$
+  \array{
+    \mathbf{H}_{diff}(X,\mathbf{B}G) &\to& \prod_i H^{n_i}_{dR}(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}(X,\mathbf{B}G) &\stackrel{char_G}{\to}&
+    \mathbf{H}(X,\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R})
+  }
+ \,.
+$$
+
+Using again the result from [[simpliciall principal bundle]] that the quotient map of a principal simplicial $G$-action is a Kan fibration, we find hat the bottom morphism evaluated on a Cech nerve is a Kan fibration, so that this homotopy pullback is computed as the ordinary pullback of cocycles.
+
+It follows that a differential cocycle is a pseudo-connection on a bundle, that does satisfy the condition that the connection forms $(A_i)$ induce on double overlaps _exact_ [[Chern-Simons form]]s interpolating between their [[curvature characteristic form]]s. This is solved in particular by proper connections. 
+
+This way the connection cocycle condition is imposed after all on the differential cocycles, even though the universal conneciton is a pseudo-connection.
+
+###### Differential K-theory classes
+
+But notice that in the above differential cohomology we have _coboundaries_ that are more general than usual gauge transformations of connections.
+
+Again by the nature of $\tilde \mathbf{\flat}_{dR} \mathbf{B}^{n_i} \mathbb{R}$ we have that a coboundary between $(A_i, g_{i j})$ and $(A'_i, g'_{i j})$ is a transformation such that the interpolating [[Chern-Simons form]]s of the [[curvature characteristic form]]s are exact. 
+
+This equivalence relation is that defining [[Simons-Sullivan structured bundle]]s. For $G = U$ the [[unitary group]] these represent classes in the [[differential K-theory]] of $X$. 
+
+
+... (under construction)... 
 
 #### Strict Lie 2-groups {#StrictLie2Groups}
 
