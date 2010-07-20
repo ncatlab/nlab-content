@@ -9,6 +9,10 @@ A [[differentiable map]] $f : X \to Y$ between two [[manifold]]s is called a _su
 
 It is also possible to write a definition that makes no reference to differentials and applies to non-differentiable maps, even between non-differentiable manifolds.
 
++-- {: .query}
+I think that I have a book by Lang with this in it; I\'ll add it when I find it.  ---Toby
+=--
+
 ## Properties
 
 While the [[category]] [[Diff]] (finite dimensional) [[smooth manifold]]s does not have all [[pullback]]s,  the [[pullback]] along a submersion always exists. This is because a submersion is [[transverse maps|transversal]] to every other smooth map into its codomain.
