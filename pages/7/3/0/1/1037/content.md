@@ -1,14 +1,40 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide .toc}
+##Other Relevant Pages##
++-- {: .dropDown}
+###Mathematics###
++-- {: .hide}
 [[!include mathematicscontents]]
+=--
+=--
 ***
++-- {: .dropDown}
+###Higher Category Theory###
++-- {: .hide}
 [[!include higher category theory - contents]]
+=--
+=--
 ***
++-- {: .dropDown}
+###Quasi-Category Theory###
++-- {: .hide}
 [[!include quasi-category theory contents]]
+=--
+=--
 ***
++-- {: .dropDown}
+###(∞,1)-Topos Theory###
++-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
+=--
+=--
 ***
++-- {: .dropDown}
+###Model Category Theory###
++-- {: .hide}
 [[!include model category theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 
@@ -101,7 +127,7 @@ be $\infty$-[[differentiable stack]]s if one considers
 
 ## First part, sections 1-4
 
-Based on work by Andr&eacute; Joyal on the [[quasi-category]] model for [[(∞,1)-categories]], Lurie presents a comprehensive account of the theory of [[(∞,1)-categories]] including the definitions and properties of all the standard items familiar from category theory (limits, fibrations, etc.)
+Based on work by Andr&#233; Joyal on the [[quasi-category]] model for [[(∞,1)-categories]], Lurie presents a comprehensive account of the theory of [[(∞,1)-categories]] including the definitions and properties of all the standard items familiar from category theory (limits, fibrations, etc.)
 
 ## Second part, sections 5-7 ##
 
@@ -133,7 +159,7 @@ The book discusses crucial concepts and works out plenty of detailed properties.
 
 * [section 6.2](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=459) 
 [section 6.5](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=521) 
-and : relation to the Brown-Joyal-Jardine-To&euml;n
+and : relation to the Brown-Joyal-Jardine-To&#235;n
 theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model structure on simplicial presheaves]].
 
 
