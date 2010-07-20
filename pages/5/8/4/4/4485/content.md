@@ -25,7 +25,7 @@ Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]]
 
 The [[algebraic geometry]] analogue of a submersion is a [[smooth morphism]].
 
-The analogue between arbitrary [[topological spaces]] (not manifolds) is simply an [[open map]].
+The analogue between arbitrary [[topological spaces]] (not manifolds) is simply an [[open map]]. There is also [[topological submersion]], of which there are two versions.
 
 
 [[!redirects submersion]]
