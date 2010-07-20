@@ -13,9 +13,10 @@ Two maps $f : X \to Z$ and $g : Y \to Z$ of [[manifold]]s are _transversal_ roug
 Two maps $f : X \to Z$ and $g : Y \to Z$ of [[manifold]]s are _transversal_ if for all point $x \in X$ and $y \in Y$ with $f(x) = z = g(y)$ the differentials of $f$ and $g$ in these points span the entire tangent space at $z$ in that
 
 $$
-  im(d f) \oplus im(d g) \simeq T_z Z
+  im(d f) + im(d g) \simeq T_z Z
   \,.
 $$
+Note that this is not required to be a direct sum. Also, if $f$ (say) is a [[submersion]], then it is transversal to all $g$.
 
 ## Remarks 
 
