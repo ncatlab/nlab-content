@@ -8,4 +8,8 @@ Some interesting subclasses are [[Lie algebra]], [[Jordan algebra]], [[Leibniz a
 
 Mathematicians working in the field of nonassociative algebras often say simply 'algebra' meaning a nonassociative algebra.
 
+
+[[!redirects nonassociative algebra]]
 [[!redirects nonassociative algebras]]
+[[!redirects non-associative algebra]]
+[[!redirects non-associative algebras]]
