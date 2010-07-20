@@ -1,9 +1,9 @@
 
 A [[differentiable map]] $f : X \to Y$ between two [[manifold]]s is called a _submersion_ precisely if its [[differential]] $d f : T X \to T Y$ is for every point $x \in X$ a [[surjection]] $d f_x : T_x X \to T_{f(x)} Y$.
 
-This property is useful because the pullback in the category $Diff$ of (finite dimensional) smooth manifolds of a submersion and any other map always exists. This is because a submersion is [[transverse smooth maps|transverse]] to every other smooth map into its codomain.
+This property is useful because the [[pullback]] in the [[category]] [[Diff]] of (finite dimensional)  [[smooth manifold]]s of a submersion and any other map always exists. This is because a submersion is [[transverse maps|transverse]] to every other smooth map into its codomain.
 
-Surjective submersions form a singleton [[Grothendieck pretopology]] on $Diff$, and so are used in [[internal category|internal]] category theory when using $Diff$ as the ambient category.
+Surjective submersions form a singleton [[Grothendieck pretopology]] on [[Diff]], and so are used in [[internal category|internal]] [[category theory]] when using $Diff$ as the ambient category.
 
 
 [[!redirects submersions]]
