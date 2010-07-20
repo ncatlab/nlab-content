@@ -11,8 +11,14 @@ A Frobenius algebra in a [[monoidal category]] is a quadruple $(A, \delta, \epsi
 
 1. $(A, \mu, \eta)$ is a [[monoid]],
 1. $(A, \delta, \epsilon)$ is a [[comonoid]], and
-1. $(1 \otimes \mu) \circ (\delta \otimes 1) = \delta \circ \mu = (\mu \otimes 1) \circ (1 \otimes \delta)$.
+1. the **Frobenius laws** hold: $(1 \otimes \mu) \circ (\delta \otimes 1) = \delta \circ \mu = (\mu \otimes 1) \circ (1 \otimes \delta)$.
 =--
+
+In terms of string diagrams, this definition says:
+
+[[frobenius_algebra.jpg:pic]]
+
+The first line here shows the associative law and left/right unit laws for a [[monoid]].  The second line shows the coassociative law and left/right counit laws for a [[comonoid]].  The third line shows the Frobenius laws.
 
 Frobenius algebras were originally formulated in the category of vector spaces with the following equivalent definition:
 
@@ -38,7 +44,7 @@ We can define 'commutative' Frobenius algebras in any [[symmetric monoidal categ
 ### Symmetric Frobenius algebras ###
 
 We can define 'commutative' or 'symmetric' Frobenius algebras in any [[symmetric monoidal category]].  A Frobenius algebra $A$ is **symmetric** if 
-$$\epsilon S_{A,A} = \epsilon \, $$
+$$\epsilon \circ S_{A,A} = \epsilon \, $$
 where $S_{A,A} : A \otimes A \to A \otimes A$ is the symmetry.  Any commutative Frobenius algebra is symmetric, but not conversely: for example the algebra of $n \times n$ matrices with entries in a field, with its usual trace as $\epsilon$, is symmetric but not commutative when $n \gt 1$.  
 
 A theorem of Eilenberg and Nakayama says that in the category of vector spaces over a field $k$, an algebra $A$ can be equipped with the structure of a symmetric Frobenius algebra if (but not only if) it is **separable**, meaning that for any field $K$ extending $k$, $A \otimes_k K$ is a [[semisimple algebra|semisimple]] algebra over $K$.   
@@ -79,38 +85,72 @@ If a Frobenius algebra lives in a monoidal [[†-category]], $(\delta)^\dagger =
 
 ## PROPs for Frobenius algebras ##
 
-Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by Aaron Lauda.  The PROP for commutative Frobenius algebras is [[2Cob]], as noted by many people and formally proved by Lowell Abrams; see [Kock (2006)](#Kock2006).
-   
-The PROP for special commutative Frobenius algebras is Span(FinSet), as proved by Rosebrugh, Sabadini and Walters. This is worth comparing to the PROP for commutative [[bialgebra|bialgebras]], which is Cospan(FinSet).  For details, see [Rosebrugh et al (2005)](#Rosebrugh2005), and also [Lack (2004)](#Lack2004).
+Certain kinds of Frobenius algebras have nice [[PROPs]] or [[PRO|PROs]].  The PRO for Frobenius algebras is the monoidal category of planar thick tangles, as noted by Aaron Lauda [Lauda (2006)](#Lauda2006) and illustrated here:
+
+[[frobenius_algebra.jpg:pic]]
+
+Lauda and Pfeiffer [Lauda (2008)](#Lauda2008) showed that the PROP for _symmetric_ Frobenius algebras is the category of 'topological open strings', since it obeys this extra axiom:
+
+[[symmetric_frobenius_algebra_law.jpg:pic]]
+
+The PROP for _commutative_ Frobenius algebras is [[2Cob]], as noted by many people and formally proved by Lowell Abrams [Abrams (1996)](#Abrams1996).  This means that any commutative Frobenius algebra gives a 2d [[TQFT]].  See [Kock (2006)](#Kock2006) for a history of this subject and [Kock (2004)](#Kock2004) for a detailed introduction.  In 2Cob, the circle is a Frobenius algebra.  The monoid laws look like this:
+
+[[monoid_laws.jpg:pic]]
+
+The comonoid laws look like this:
+
+[[comonoid_laws.jpg:pic]]
+
+The Frobenius laws look like this:
+
+[[frobenius_laws.jpg:pic]]
+
+and the commutative law looks like this:
+
+[[commutative_law.jpg:pic]]
+
+The PROP for _special_ commutative Frobenius algebras is Span(FinSet), as proved by Rosebrugh, Sabadini and Walters.  This is worth comparing to the PROP for commutative [[bialgebra|bialgebras]], which is Cospan(FinSet).  For details, see [Rosebrugh et al (2005)](#Rosebrugh2005), and also [Lack (2004)](#Lack2004).  
+
+A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to the genus of a 2-manifold, since in terms of pictures, the 'specialness' axioms $m \circ \delta = 1$ says that
+
+[[special_law.jpg:pic]]
+
+
 
 
 ## References ##
 
-* Lowell Abrams, 1996, Two-dimensional topological quantum field theories and Frobenius algebra, _Jour. Knot. Theory and its Ramifications_ **5**, 569--587. 
+* Lowell Abrams (1996), Two-dimensional topological quantum field theories and Frobenius algebra, _Jour. Knot. Theory and its Ramifications_ **5**, 569--587. 
 {#Abrams1996}
 
-* Marcelo Aguiar, 2000, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([gzipped postscript](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
+* Marcelo Aguiar (2000), A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, **65**, 51--60.  ([gzipped postscript](http://www.math.tamu.edu/~maguiar/strongly.ps.gz))
 {#Aguiar2000}
 
 * John Baez, This Week's Finds in Mathematical Physics, [week268](http://math.ucr.edu/home/baez/week268.html) and [week299](http://math.ucr.edu/home/baez/week299.html).
 {#BaezTWF}
 
-* Samuel Eilenberg and Tadasi Nakayama, 1955, On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9**, 1--16. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
+* Samuel Eilenberg and Tadasi Nakayama (1955), On the dimension of modules and algebras. II. Frobenius algebras and quasi-Frobenius rings, _Nagoya Math. J._ **9**, 1--16. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.nmj/1118799677))
 {#Eilenberg1955}
 
-* Joachim Kock, 2004, _Frobenius Algebras and 2d Topological Quantum Field Theories_, Cambridge U. Press, Cambridge.
+* Joachim Kock (2004), _Frobenius Algebras and 2d Topological Quantum Field Theories_, Cambridge U. Press, Cambridge.
 {#Kock2004}
 
-* Joachim Kock, 2006, Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
+* Joachim Kock (2006), Remarks on the history of the Frobenius equation.  ([web](http://mat.uab.es/~kock/TQFT.html#history))
 {#Kock2006}
 
-* Stephen Lack, 2004, Composing PROPs, Theory and Applications of Categories **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
+* Aaron Lauda (2006), Frobenius algebras and ambidextrous adjunctions, _Theory and Applications of Categories_ **16**, 84-122.   ([web](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html)  ([arXiv](http://arxiv.org/abs/math/0502550)) 
+{#Lauda2006}
+
+* Aaron Lauda and Hendryk Pfeiffer (2008), Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155**, 623-666. ([web](http://arxiv.org/abs/math/0602047))
+{#Lauda2008}
+
+* Stephen Lack (2004), Composing PROPs, _Theory and Applications of Categories_ **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
 {#Lack2004}
 
-* R. Rosebrugh, N. Sabadini and R.F.C. Walters, 2004, Generic commutative separable algebras and cospans of graphs, Theory and Applications of Categories 15 (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
+* R. Rosebrugh, N. Sabadini and R.F.C. Walters (2005), Generic commutative separable algebras and cospans of graphs, _Theory and Applications of Categories_ **15** (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
 {#Rosebrugh2005}
 
-* R. Street, 2004, Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+* R. Street (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
 {#Street2004}
 
 
