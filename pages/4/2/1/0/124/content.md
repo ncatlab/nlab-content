@@ -1,9 +1,23 @@
 
-+-- {: .rightHandSide .toc .dropDown}
+
+
++-- {: .rightHandSide .toc}
+##Context##
++-- {: .dropDown}
+###Topos theory###
++-- {: .hide}
 [[!include topos theory - contents]]
+=--
+=--
 ***
++-- {: .dropDown}
+###Category theory###
++-- {: .hide}
 [[!include category theory - contents]]
 =--
+=--
+=--
+
 
 # Contents #
 * autamatic table of contents goes here
