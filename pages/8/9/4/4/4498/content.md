@@ -75,6 +75,17 @@ This appears as Lemma 18.2 in [MaySimpOb](#MaySimplicialObjects).
 
 ## The universal simplicial $G$-principal bundle
 
+Recall from [[generalized universal bundle]] that a universal $G$-principal simplicial bundle should be a principal bundle $\mathbf{E}G \to \mathbf{B}G$ such that every other $G$-principal simplicial bundle $P \to X$ arises up to equivalence as the [[pullback]] of $\mathbf{E}G$ along a morphism $X \to \mathbf{B}G$.
+
+A standard model for the [[delooping]] [[Kan complex]] $\mathbf{B}G$ for $G$ a simplicial group goes by the name 
+
+$$
+  \bar W G
+  \,.
+$$ 
+
+This is described at <a href="http://ncatlab.org/nlab/show/simplicial%20group#Delooping">simplicial group - delooping</a>. The following establishes a model for the universal simplicial bundle over this model of $\mathbf{B}G$.
+
 ### Definition
 
 +-- {: .un_def}
@@ -83,7 +94,7 @@ This appears as Lemma 18.2 in [MaySimpOb](#MaySimplicialObjects).
 For $G$ a simplicial group, define the [[simplicial set]] $W G$ to be the [[decalage]] of $\overline{W}G$
 
 $$
-  W := Dec \overline{W}G
+  W G := Dec \overline{W}G
   \,.
 $$
 
