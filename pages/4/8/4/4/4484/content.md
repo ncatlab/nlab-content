@@ -11,6 +11,7 @@ For an [[internal category]], this is not always possible. But if one has a noti
 
 In the case of [[topological categories]] (perhaps only [[groupoid]]s), the existence of such local sections forces the space of isomorphism classes to be discrete.
 
+**Note:** The terminology 'local' refers to local on the object of objects, not local in the usual sense of category theory, that is, for each hom-set.
 
 ## Definition
 
