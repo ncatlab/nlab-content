@@ -5,11 +5,9 @@
 
 ## Idea 
 
-A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the corresponding completion of the set $\mathbb{Q}$ of rational numbers.
+A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the [[complete space|completion]] of the set $\mathbb{Q}$ of rational numbers. Here we are using the usual [[order|ordering]] of rational numbers; other ordings will give the $p$-[[adic number|adic numbers]] instead.
 
-Here we are using the usual [[order|ordering]] of rational numbers; other ordings will give the $p$-[[adic number|adic numbers]] instead.
-
-Together with its cartesian powers -- the [[cartesian spaces]] $\mathbb{R}^n$ -- the continuum encodes one basic idea of of _continuous space_.  The notion of (especially smooth) [[manifold]] is modeled on this notion.  It provides one of the basic models of [[space]], notably the standard model for _physical space_ and _time_ (see [[spacetime]]), at least in [[classical physics]].
+Together with its cartesian powers -- the [[cartesian spaces]] $\mathbb{R}^n$ -- the continuum encodes one basic idea of of _continuous space_; see [[cartesian space]].  The notion of (especially smooth) [[manifold]] is modeled on this notion.  These provides some of the basic models of [[space]], notably the standard model for _physical space_ and _time_ (see [[spacetime]]), at least in [[classical physics]].
 
 
 ### History of formalisations
@@ -145,13 +143,21 @@ Another variant of $\mathbb{R}$ as topological spaces is the
 
 ## Generalisations
 
-Of course, one can generalise real numbers to [[complex number]]s and other kinds of [[hypercomplex number]]s.
+The term 'real number' was originally introduced to indicate that one is *not* considering the generalistion to [[complex numbers]] or other kinds of [[hypercomplex numbers]].  Accordingly, that term 'real' may sometimes be used for another generalisation of real numbers to indicate again that one is not considering a complexification.
 
-The [[extended real number]]s include $\pm\infty$ as well as the ordinary (or _bounded_) real numbers.  [[lower real|Lower reals]], [[upper reals]], and [[MacNeille real number|MacNeille reals]] are important variations in [[constructive mathematics]], although with [[excluded middle]] they are (at least if bounded) the same as ordinary real numbers.
+The [[extended real number]]s include $\pm\infty$ as well as the real numbers; one may speak of _finite numbers_ or _bounded numbers_ to indicate that one is not considering this extension.  [[lower real|Lower reals]], [[upper reals]], and [[MacNeille real number|MacNeille reals]] are generalisations studied in [[constructive mathematics]], although with [[excluded middle]] they are (at least if bounded) the same as ordinary real numbers; one may speak of _located numbers_ to indicate that one is not considering such extensions.
 
-[[surreal number|Surreal numbers]] and the [[hyperreal number]]s of [[nonstandard analysis]] are two ways to include [[infinite number|infinite]] and [[infinitesimal number|infinitesimal]] versions of real numbers.
+[[surreal number|Surreal numbers]] and the [[hyperreal number]]s of [[nonstandard analysis]] are two ways to include [[infinite number|infinite]] and [[infinitesimal number|infinitesimal]] versions of real numbers; one may speak of _standard numbers_ to indicate that one is not considering such extensions.
 
-In [[descriptive set theory]], one often says 'real number' for an element of [[Baire space]] $\mathbb{B}$.  By the [[Schroeder-Bernstein theorem]], the sets $\mathbb{R}$ and $\mathbb{B}$ are [[bijection|isomorphic]].  Constructively, $\mathbb{B}$ can still be thought of as the set of [[irrational number]]s.
+In [[descriptive set theory]], one often says 'real number' for an element of [[Baire space]] $\mathbb{B}$.  This is not really a generalisation; by the [[Schroeder-Bernstein theorem]], the sets $\mathbb{R}$ and $\mathbb{B}$ are [[bijection|isomorphic]].  Constructively, $\mathbb{B}$ can still be thought of as the set of [[irrational number|irrational numbers]], so this use of the term may actually be a restriction.
+
+[[floating-point number|Floating-point numbers]] are often used in computer programming to reprsent real numbers, but they do not behave very well; one may speak of _infinite-precision numbers_ to indicate that one\'s programming environment models '[*real* real numbers](http://math.fau.edu/richman/HTML/mm2.htm)'.
+
+As mentioned above, the $p$-[[adic number|adic numbers]] for various [[prime numbers]] $p$ are variations on the theme of real numbers; real numbers may be thought of as _$0$-adic numbers_.  Similarly, the real numbers are _characteristic-$0$ numbers_ since they are based on the [[prime field]] $\mathbb{Q}$; one could also start the construction with a different [[characteristic]] (although it makes more sense to get analogues of complex numbers than of real numbers).
+
+Finally, one can consider points on a [[noncommutative geometry|noncommutative]] line instead of the usual _commutative numbers_.
+
+So in summary, this page is about the _real, finite, located, standard, analytic, infinite-precision, $0$-adic, characteristic-$0$, commutative numbers_.
 
 
 [[!redirects real number]]
