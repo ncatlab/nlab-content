@@ -1,9 +1,9 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide .toc .dropDown}
 [[!include topos theory - contents]]
 ***
 [[!include category theory - contents]]
-</div>
-
+=--
 
 # Contents #
 * autamatic table of contents goes here
