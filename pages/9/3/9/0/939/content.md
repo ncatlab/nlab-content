@@ -33,27 +33,29 @@ H. Appelgate, M. Barr, J. Beck, F. W. Lawvere, F. E. J. Linton, E, Manes, M. Tie
 
 Michael Barr, Charles Wells, _Toposes, triples and theories_, Springer-Verlag 1985; [web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) 
 
-G. B&#246;hm, Internal bialgebroids, entwining structures
-and corings, AMS Contemp. Math. 376 (2005) 207--226; [arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)
+G. B&#246;hm, _Internal bialgebroids, entwining structures
+and corings_, AMS Contemp. Math. 376 (2005) 207--226; [arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)
 
-T. Brzezi&#324;ski, S. Majid, Coalgebra bundles, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)).
+[[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  191  (1998),  no. 2, 467--492 ([arXiv version](http://arxiv.org/abs/q-alg/9602022)).
 
-T. Brzezi&#324;ski, R. Wisbauer, Corings and comodules, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+T. Brzezi&#324;ski, R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
 
-T. F. Fox, M. Markl, Distributive laws, bialgebras, and cohomology.  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),  167--205, 
+T. F. Fox, M. Markl, _Distributive laws, bialgebras, and cohomology_,  Operads: Proceedings of Renaissance Conferences (Hartford, CT/Luminy, 1995),  167--205, 
 Contemp. Math. 202, AMS 1997. 
 
-S. Lack, Composing PROPS, [Theory Appl. Categ.](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html) 13 (2004), No. 9, 147--163.
+S. Lack, _Composing PROPS_, [Theory Appl. Categ.](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html) 13 (2004), No. 9, 147--163.
 
-S. Lack, R. Street, The formal theory of monads II, Special volume celebrating the 70th birthday of Professor Max Kelly.
+S. Lack, R. Street, _The formal theory of monads II_, Special volume celebrating the 70th birthday of Professor Max Kelly.
 J. Pure Appl. Algebra 175 (2002), no. 1-3, 243--265. 
 
-M. Markl, Distributive laws and Koszulness.  Ann. Inst. Fourier (Grenoble)  46  (1996),  no. 2, 307--323 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=AIF_1996__46_2_307_0))
+M. Markl, _Distributive laws and Koszulness_,  Ann. Inst. Fourier (Grenoble)  46  (1996),  no. 2, 307--323 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=AIF_1996__46_2_307_0))
 
-R. Street, The formal theory of monads, J. Pure Appl. Alg. 2, 149--168 (1972)
+[[Ross Street|R. Street]], _The formal theory of monads_, J. Pure Appl. Alg. 2, 149--168 (1972)
 
-Z. &#352;koda, Distributive laws for monoidal categories ([arXiv:0406310](http://front.math.ucdavis.edu/math.CT/0406310)); Equivariant monads and equivariant lifts versus a 2-category of distributive laws ([arXiv:0707.1609](http://front.math.ucdavis.edu/0707.1609)); Bicategory of entwinings  ([arXiv:0805.4611](http://arxiv.org/abs/0805.4611))
+[[Z. Škoda]], _Distributive laws for monoidal categories_ ([arXiv:0406310](http://front.math.ucdavis.edu/math.CT/0406310)); _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_ ([arXiv:0707.1609](http://front.math.ucdavis.edu/0707.1609)); _Bicategory of entwinings_  ([arXiv:0805.4611](http://arxiv.org/abs/0805.4611))
 
-Z. &#352;koda, Some equivariant constructions in noncommutative geometry, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
+[[Z. Škoda]], _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
 
-R. Wisbauer, Algebras versus coalgebras.  Appl. Categ. Structures  16  (2008),  no. 1-2, 255--295.
+R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  (2008),  no. 1-2, 255--295.
+
+[[!redirects distributive laws]]
