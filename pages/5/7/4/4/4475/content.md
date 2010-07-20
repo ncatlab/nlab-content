@@ -7,3 +7,5 @@ __Shahn Majid__ is an English [[mathematical physics|mathematical physicist]], a
 * academic [webpage](http://www.maths.qmul.ac.uk/~majid/Welcome.html)
 
 category: people
+
+[[!redirects S. Majid]]
