@@ -1,11 +1,21 @@
 
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide .toc}
+##Context##
++-- {: .dropDown}
+###$\infty$-Lie theory###
++-- {: .hide}
 [[!include infinity-Lie theory - contents]]
+=--
+=--
 ***
++-- {: .dropDown}
+###$(\infty,1)$-Topos theory###
++-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
-
+=--
+=--
+=--
 
 
 #Contents#
@@ -1202,10 +1212,10 @@ $$
 
 > _under construction_
 
-We have seen [above](#UniversalLieGroupPrincipalBundle) that the universal $G$-principal bundle $\mathbf{E}G$ is itself naturally modeled as a Lie [[2-group]] $INN(G)$. In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms with values in a [[Lie 2-algebra]] on these. We shall now discuss how, in a sense, for the Lie 2-group $\mathbf{E}G = INN(G)$ this universal form is the _universal [[Ehresmann connection]]_ on the universal $G$-principal bundle. The reader not familiar with the section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) should skip this section here to come back later. This section here is a corollary or special case of example application of that section.
+We have seen [above](#UniversalLieGroupPrincipalBundle) that the universal $G$-principal bundle $\mathbf{E}G$ is itself naturally modeled as a Lie [[2-group]] $INN(G)$. In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms with values in a [[Lie 2-algebra]] on these. We shall now discuss how, in a sense, for the Lie 2-group $\mathbf{E}G = INN(G)$ this universal form is the _universal [[Ehresmann connection]]_ on the universal $G$-principal bundle. The reader not familiar with the section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) should skip this section here to come back later. This section here is a corollary or special case or example application of that section.
 
 
-###### The universal pseudo-connection
+###### The universal pseudo-connection {#LieGroupUniversalConnectionPseudo}
 
 
 The Lie 2-group $INN(G)$ is the one coming from the [[crossed module]] $(G \stackrel{Id}{\to} G)$. Its [[Lie 2-algebra]] is accordingly that given by the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$. In section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we find a replacement for $\mathbf{\flat}\mathbf{B} INN(G)$ and $\mathbf{\flat}_{dR} \mathbf{B}INN(G)$ that induces a realization of the Maurer-Cartan form on the Lie 2-group $\mathbf{E}G$ in terms of a span
@@ -1239,15 +1249,15 @@ $$
       (A_1 = g_1^{-1} d g_1 + a_1, F_{A_1})
       &&\stackrel{(e,\lambda)}{\to}&&
       (A_2 = g_2^{-1} d g_2 + a_2, F_{A_2})
-    }
+     }
      \;\;\; | \;\;\;
-     \begin{array}
+     \array{
        A_i \in \Omega^1(U,\mathfrak{g})  
        \\
        g_i \in C^\infty(U,G)
        \\
        f \in C^\infty(U,G)
-     \end{array}
+     }
   \right\}
   \,,
 $$
@@ -1317,11 +1327,11 @@ $$
   \left\{
         (a_1) \stackrel{(f,\lambda)}{\to} A_2 = g^{-1}(A_1 + d)g + \lambda
     \;\;\; | \;\;\;
-     \begin{array}
+     \array{
        a_i, \lambda \in \Omega^1(U,\mathfrak{g})  
        \\
        f \in C^\infty(U,G)
-     \end{array}
+     }
   \right\}
   \,.
 $$
@@ -1355,7 +1365,7 @@ $$
 Such dataa is sometimes called a _pseudo-connection_ . 
 
 
-###### The universal curvature characteristic forms
+###### The universal curvature characteristic forms {#LieGroupUniversalConnectionCurvature}
 
 In order to obtain the universal [[curvature characteristic form]]s of the universal pseudo-connection we need to find the universal coefficient object in the bottom right of
 
@@ -1389,7 +1399,7 @@ $$
      \\
      \uparrow && \uparrow
     \\
-    inv(\mathfrak{g}) &\stackrel{0}{\leftarrow& inv(\mathfrak{g})
+    inv(\mathfrak{g}) &\stackrel{0}{\leftarrow}& inv(\mathfrak{g})
   }
   \,,
 $$
@@ -1400,7 +1410,7 @@ So define $\mathbf{\flat}_{dR}\tilde \mathbf{B}^n \mathbb{R}$ to be the Lie grou
 
 * $U$-parameterized families of objects are closed $n$-forms $\omega \in \Omega^n_{closed}(U)$;
 
-* $U$-parameterized families of morphisms are $(n-1)$-forms modulo $d$ : $\\kappa \in \Omega^{n-1}(U)/{in d}$.
+* $U$-parameterized families of morphisms are $(n-1)$-forms modulo $d$ : $\kappa \in \Omega^{n-1}(U)/{in d}$.
 
 Then evaluation of curvature in invariant polynomials yields yields a morphism
 
@@ -1430,9 +1440,9 @@ $$
   \,.
 $$
 
-###### The universal connection
+###### The universal connection {#LieGroupUniversalConnectionProper}
 
-In total we find a model for the universal (pseudo-)[[Ehresmann connection]] on the universal $G$-principal bundle
+In total we find a model for the universal (pseudo-)[[Ehresmann connection]] on the universal $G$-principal bundle in terms of a diagram
 
 $$
   \array{
@@ -1462,7 +1472,7 @@ $$
   char_G : \mathbf{B}G_{diff} \to \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
 $$
 
-that arises from pushing down the canonical form/universal pseudo-connection on $\mathbf{E}G$ is the **universal [[curvature characteristic form]]** . We notice that cohomology with coefficients in $\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}$ sits in the [[de Rham cohomology]] $\prod_i H^{n_i}_{dR}(X)$ and that every cohomology class in there has a representative
+that arises from pushing down the canonical form/universal pseudo-connection $\theta_{\mathbf{E}G}$ on $\mathbf{E}G$ is the **universal [[curvature characteristic form]]** . We notice that cohomology with coefficients in $\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}$ sits in the [[de Rham cohomology]] $\prod_i H^{n_i}_{dR}(X)$ and that every cohomology class in there has a representative
 
 $$
   \array{
@@ -1476,7 +1486,7 @@ $$
   }
 $$
 
-given by a collection of globally defined form, in other words we have representatives for each cohomology that extend as
+given by a collection of globally defined forms, in other words we have representatives for each cohomology class that extend as
 
 $$
   \array{
@@ -1491,7 +1501,7 @@ $$
   \,.
 $$
 
-Picking one such reprresentative for each class yields a morphism
+Picking one such representative for each class yields gives a morphism
 
 $$
   \prod_i H^{n_i}_{dR}(X) \to 
@@ -1513,15 +1523,15 @@ $$
  \,.
 $$
 
-Using again the result from [[simpliciall principal bundle]] that the quotient map of a principal simplicial $G$-action is a Kan fibration, we find hat the bottom morphism evaluated on a Cech nerve is a Kan fibration, so that this homotopy pullback is computed as the ordinary pullback of cocycles.
+Using again the result from the discussion at [[simplicial principal bundle]] that the quotient map of a principal simplicial $G$-action is a Kan fibration, we find hat the bottom morphism evaluated on a Cech nerve is a Kan fibration, so that this homotopy pullback is computed as the ordinary pullback of cocycles.
 
 It follows that a differential cocycle is a pseudo-connection on a bundle, that does satisfy the condition that the connection forms $(A_i)$ induce on double overlaps _exact_ [[Chern-Simons form]]s interpolating between their [[curvature characteristic form]]s. This is solved in particular by proper connections. 
 
 This way the connection cocycle condition is imposed after all on the differential cocycles, even though the universal conneciton is a pseudo-connection.
 
-###### Differential K-theory classes
+###### Differential K-theory classes {#LieGroupUniversalConnectionKTheory}
 
-But notice that in the above differential cohomology we have _coboundaries_ that are more general than usual gauge transformations of connections.
+But notice that in the above differential cohomology cocycle groupoid $\mathbf{H}_{diff}(X, \mathbf{B}G)$ we have _coboundaries_ that are more general than usual gauge transformations of connections:
 
 Again by the nature of $\tilde \mathbf{\flat}_{dR} \mathbf{B}^{n_i} \mathbb{R}$ we have that a coboundary between $(A_i, g_{i j})$ and $(A'_i, g'_{i j})$ is a transformation such that the interpolating [[Chern-Simons form]]s of the [[curvature characteristic form]]s are exact. 
 
@@ -1558,7 +1568,9 @@ As [above](#LieGroupsDelooping) for Lie groups.
 
 ##### Differential coefficients {#DiffCoeffsForLie2Group}
 
-Write $[\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1]$ for the [[differential crossed module]] with action $\alpha_* : \mathfrak{g}_1 \to der(\mathfrak{g}_2)$ corresponding to the Lie [[strict 2-group]] [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$ with action $\alpha : G_1 \to Aut(G_2)$. 
+We work out, following the [general definition](#CoeffsLieAlgForms) the coefficient object for [[2-groupoid of Lie 2-algebra valued forms|Lie 2-algabra valued forms]] $\mathbf{\flat}_{dR} \mathbf{B}[G_2\to G_1]$ for $(G_2 \to G_1)$ a Lie [[crossed module]].
+
+Write $[\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1]$ for the corresponding [[differential crossed module]] with action $\alpha_* : \mathfrak{g}_1 \to der(\mathfrak{g}_2)$ corresponding to the Lie [[strict 2-group]] [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$ with action $\alpha : G_1 \to Aut(G_2)$. 
 
 +-- {: .un_prop }
 ###### Proposition
