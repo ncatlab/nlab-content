@@ -27,6 +27,23 @@ A topological groupoid $X_1 \rightrightarrows X_0$ is **locally trivial** if for
 
 Clearly for a Lie groupoid $X_1^{iso} = X_1$. It is simple to show from the definition that for a transitive Lie groupoid, $(s,t)$ has local sections. Ehresmann goes on to show a link between smooth [[principal bundles]] and transitive, locally trivial Lie groupoids. See [[locally trivial category]] for details.
 
+### The (2,1)-category of Lie groupoids {#2CatOfGrpds}
+
+
+As usual for internal categories, the naive 2-category of internal groupoids, internal [[functor]]s and internal [[natural transformation]]s is not quite "correct". One sign of this is that the [[axiom of choice]] fails in [[Diff]] so that an internal functor which is an [[essentially surjective functor]] and a [[full and faithful functor]] may still not have an internal weak inverse.
+
+One way to deal with this is to equip the 2-category with some structure of a [[homotopical category]] and allow morphisms of Lie groupoids to be [[anafunctor|2-anafunctor]]s, i.e. [[span]]s of internal functors $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$.
+
+Such generalized morphisms -- called _Morita morphisms_ or _generalized morphisms_ in the literature -- are sometimes modeled as [[bibundle]]s and then called [[Hilsum-Skandalis morphism]]s.
+
+Another equivalent approach is to embed Lie groupoids into the context of [[2-topos]] theory:
+
+The [[2-topos|(2,1)-topos]] $Sh_{(2,1)}(Diff)$ of [[stack]]s/[[2-sheaves]] on [[Diff]] may be understood as a nice [[2-category]] of general groupoids _modeled on_ [[smooth manifold]]s. The degreewise [[Yoneda embedding]] allows to emebed groupoids internal to $Diff$ into stacks on $Diff$.
+
+Regarded inside this wider context, Lie groupoids are identified with [[differentiable stack]]s. The [[(n,r)-category|(2,1)-category]] of Lie groupoids is then the full sub-$(2,1)$-category of $Sh_{(2,1)}(Diff)$ on differentiable stacks.
+
+For more comments on this, see also the beginning of [[∞-Lie groupoid]].
+
 ## Lie algebroids
 
 As the [[infinitesimal space|infinitesimally]] approximation to a [[Lie group]] is a [[Lie algebra]], so the infinitesimal approximation to a Lie groupoid is a [[Lie algebroid]].
