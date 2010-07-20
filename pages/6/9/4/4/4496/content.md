@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide .toc}
 ##Context##
 +-- {: .dropDown}
@@ -18,7 +16,9 @@
 
 ## Idea
 
-By _hypercohomology_ is usually meant is a generalization of [[derived functor]] [[cohomology]]. Whereas derived functor cohomology works for single objects, hypercohomology works for complexes of objects.
+By _hypercohomology_ is usually meant is a generalization of [[derived functor]] [[cohomology]]. Whereas derived functor cohomology works for single objects, hypercohomology works for complexes of objects. Hypercohomology of an object considered as a complex concentrated in degree zero agrees with cohomology of the object.
+
+In the literature, hypercohomology is typically denoted by blackboard bold.
 
 In terms of the general [[nPOV]] on [[cohomology]] (as described there) this just means the following:
 
@@ -79,4 +79,6 @@ For a bit more on this see also the discussion at [[abelian sheaf cohomology]].
     ]
     \,.
   $$  
+
+* In the context of algebraic geometry, "de Rham cohomology" refers to the hypercohomology of the [[de Rham complex]] $\Omega^\bullet$. At least for nice varieties, say [[smooth morphism|smooth]] and [[proper morphism|proper]], this "de Rham cohomology" agrees with the classical de Rham cohomology of the [[GAGA|analytification]]. See [this discussion](http://mathoverflow.net/questions/17937/algebraic-de-rham-cohomology-vs-analytic-de-rham-cohomology) on MathOverflow. Note that, in the algebraic category, the cohomology of the constant sheaf $\underline{\mathbb{C}}$ is not the right thing to consider, for constant sheaves on [[irreducible space]]s are [[flasque]], hence [[acyclic]].
 
