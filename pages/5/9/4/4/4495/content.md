@@ -1,0 +1,1 @@
+The higher direct image functors are the [[derived functor]]s of the [[pushforward]] functor.
