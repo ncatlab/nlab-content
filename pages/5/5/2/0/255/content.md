@@ -154,4 +154,6 @@ Book (recall that monads are also called 'triples'):
 * [[Michael Barr]] and [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
 
 * T. M. Fiore, N. Gambino, J. Kock,  _Monads in double categories_, [arxiv/1006.0797](http://arxiv.org/abs/1006.0797)
+
+* Gabriella B&#246;hm, Stephen Lack, [[Ross Street]], _Weak bimonads_, [arxiv/1002.4493](http://arxiv.org/abs/1002.4493)
 [[!redirects monads]]
