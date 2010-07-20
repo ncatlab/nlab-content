@@ -12,7 +12,7 @@ In terms of coordinates, the map $f$ is a submersion at a point $p\colon X$ if a
 
 ## Properties
 
-While the [[category]] [[Diff]] (finite dimensional) [[smooth manifold]]s does not have all [[pullback]]s,  the [[pullback]] along a submersion always exists. This is because a submersion is [[transverse maps|transversal]] to every other smooth map into its codomain.
+While the [[category]] [[Diff]] of (finite dimensional) [[smooth manifold]]s does not have all [[pullback]]s,  the [[pullback]] along a submersion always exists. This is because a submersion is [[transverse maps|transversal]] to every other smooth map into its codomain.
 
 The [[surjection|surjective]] submersions (that is the submersions that are also [[epimorphism]]s in [[Diff]]) are [[regular epimorphism]]s.
 
