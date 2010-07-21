@@ -1,6 +1,6 @@
 Given an $A$-[[coring]] or even a more general additive [[comonad]] with a [[grouplike element]] there are several related (but in general nonequivalent) notions of connections.
 
-As explained in [[grouplike element]], to an $A$-coring $C$ with a grouplike elements one associates a [[semi-free differential graded algebra]] $\Omega A = \Omega(A,C)$, sometimes called its (generalized) Amitsur complex. The simplest notion of a connection for the coring $C$ is a [[connection for a differential graded algebra|connection]] for the corresponding Amitsur complex. 
+As explained in [[grouplike element]], to an $A$-coring $C$ with a grouplike element one associates a [[semi-free differential graded algebra]] $\Omega A = \Omega(A,C)$, sometimes called its (generalized) Amitsur complex. The simplest notion of a connection for the coring $C$ is a [[connection for a differential graded algebra|connection]] for the corresponding Amitsur complex. 
 
 Let now $A$ be a $k$-algebra and $(C,\Delta,\epsilon)$ be an $A$-coring with grouplike element $g$ and $(\Omega A,d)$ its [[Amitsur complex]]. 
 
@@ -42,13 +42,16 @@ As usually, we define a **flat connection** as a connection whose curvature vani
 
 In this setting one again has a bijection between flat connections and descent data. 
 
+## Literature and links
+
 * P. Nuss, Noncommutative descent and non-abelian cohomology,  $K$-Theory  12  (1997),  no. 1, 23--74. 
 
-* T. Brzezi&#324;ski, R. Wisbauer, Corings and comodules, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+* [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series __309__, Cambridge 2003.
 
-* C. Menini, Talk at MSRI: Connections, symmetry operators and descent data for triples, 1999, [link](http://www.msri.org/communications/ln/msri/1999/hopfalg/menini/1/index.html)
+* C. Menini, Talk at MSRI: _Connections, symmetry operators and descent data for triples_, 1999, [link](http://www.msri.org/communications/ln/msri/1999/hopfalg/menini/1/index.html)
 
-* C. Menini, D. &#350;tefan, Descent theory and Amitsur cohomology of triples, J. Algebra 266 (2003), no. 1, 261--304. 
+* C. Menini, D. &#350;tefan, _Descent theory and Amitsur cohomology of triples_, J. Algebra __266__ (2003), no. 1, 261--304. 
 
+* [[T. Brzeziński]], _Flat connections and (co)modules_, [in:] New Techniques in Hopf Algebras and Graded Ring Theory, S Caenepeel and F Van Oystaeyen (eds), Universa Press, Wetteren, 2007 pp. 35-52   [arxiv:math.QA/0608170](http://arxiv.org/abs/math.QA/0608170)
 
 [[!redirects connection for coring]]
