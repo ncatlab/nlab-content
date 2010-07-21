@@ -8,15 +8,14 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
-=--
-***
-+-- {: .dropDown}
 ###Category theory###
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
+
+
 
 
 # Contents #
