@@ -319,7 +319,7 @@ $$
 on the fiber $P_x$ of $P$ over $x$.
 
 
-#### Geometric realization
+#### Geometric realization {#GeometricRealization}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -527,7 +527,7 @@ The point now is that the kind of work one has to do to achieve this differs fro
 ### Strict $\infty$-Lie groupoids
 
 
-Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in [[sub-(∞,1)-categories]] of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoid.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
+Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in [[sub-(∞,1)-categories]] of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoids.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
 
 One well-known such notion is given by the [[Dold-Kan correspondence]]. This identifies [[chain complex]]es of [[abelian group]]s with strict and strictly [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] $\infty$-groupoids.
 
@@ -538,27 +538,29 @@ the identification of [[crossed complex]]es of groupoids as precisely the [[stri
 So we have a sequence of inclusions
 
 $$
-  sAb
-  \simeq
-  Ch_\bullet(Ab)^+
-  \hookrightarrow
-  CrsdCplx
-  \simeq Str \omega Grpd
-  \stackrel{N}{\hookrightarrow}
-  KanCplx
-  \simeq
-  \infty Grpd
+  \array{
+     ChainCplx &\hookrightarrow& CrsCpl &\hookrightarrow& KanCplx
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     StrAb Str\infty Grpd &\hookrightarrow&
+     Str \infty Grpd
+     &\hookrightarrow&
+     \infty Grpd 
+  }
 $$
 
-of strict $\infty$-groupoids into all $\infty$-groupoids.
+of strict $\infty$-groupoids into all $\infty$-groupoids. See also the [[cosmic cube]] of [[higher category theory]]. 
 
-Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at some point through the above inclusion are the following.
+Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at some point through the above inclusion are the following:
 
 * **restriction to abelian sheaf cohomology** -- Using the fact that the objects of $Sh_{(\infty,1)}(CartSp)$ are modeled by [[simplicial presheaves]] symmetric monoidal $\infty$-Lie groupoids are identified under the [[nLab:Dold-Kan correspondence]] with $\mathbb{N}$-graded [[nLab:chain complex|chain complexes]] of sheaves. To these the rich set of tools for [[abelian sheaf cohomology]] apply. 
 
 * **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]]. This is described at 
 
-* [[Verity on descent for strict omega-groupoid valued presheaves]].   
+  * [[Verity on descent for strict omega-groupoid valued presheaves]].   
+
+It should be noticed that for $\infty$-stacks of $\infty$-groupoids the intuition from the [[homotopy hypothesis]] no longer quite applies, necessarily. For instance under [geometric realization](#GeometricRealization) $\Pi : \infty LieGrpd \to \infty Grpd$ already strict $\infty$-groupoid-valued presheaves exhaust all [[homotopy type]]s in [[∞Grpd]] $\simeq$ [[Top]]: because already all 0-[[truncated]] objects (set-values sheaves) exhaust all homotopy types, as the geometric geometric realization does not produces the [[categorical homotopy groups in an (∞,1)-topos]], but the [[geometric homotopy groups in an (∞,1)-topos]].
 
 
 #### Circle $n$-Lie groupoids  {#BnU1}
@@ -814,7 +816,7 @@ and the $G$-[[principal bundle]] $P \to X$ corresponding to a [[cocycle]] $X \to
 +-- {: .proof}
 ###### Proof
 
-By the discussion at ... we have that a cofibrant replacement for $X$ in the model $[CartSp^{op}, sSet]_{proj,cov}$ for $\infty LieGrpd$ is civen by the [[Cech nerve]] $C\{U_i\}$ of a [[good open cover]] $\{U_i \to X\}$. It follows that $\pi_0 \infty LieGrpd(X,\mathbf{B}G)$ is the [[Cech cohomology]] of $X$ with coefficients in $G$ (see there for details).
+By the discussion at [[model structure on simplicial presheaves]] we have that a cofibrant [[resolution]] for $X$ in the model $[CartSp^{op}, sSet]_{proj,cov}$ for $\infty LieGrpd$ is civen by the [[Cech nerve]] $C\{U_i\}$ of a [[good open cover]] $\{U_i \to X\}$. It follows that $\pi_0 \infty LieGrpd(X,\mathbf{B}G)$ is the [[Cech cohomology]] of $X$ with coefficients in $G$ (see there for details).
 
 Concretely, a cocycle 
 
@@ -1260,7 +1262,7 @@ $$
   \,,
 $$
 
-where the cone on the right is a 2-cell in the model for $\mathbf{\flat}\mathbf{B E}G$ and constitutes a morphism from the object 
+where the [[cone]] on the right is a [[2-morphism]] in the model for $\mathbf{\flat}\mathbf{B E}G$ for the 2-group $\mathbf{E}G$ as described [here](#http://ncatlab.org/nlab/show/Lie+infinity-groupoid#DiffCoeffsForLie2Group) and constitutes a morphism from the object 
 
 $$
   \array{
@@ -1357,14 +1359,27 @@ $$
   \,.
 $$
 
-
-By inspection (or by the general properties discussed at [[simplicial principal bundle]]) it follows that the quotient map 
+It follows that the [[coequalizer]] $\mathbf{B}_{diff}G$ of
 
 $$
-  \mathbf{E}_{diff}G \to \mathbf{B}_{diff}G := (\mathbf{E}_{diff}G)/G
+  G \times \mathbf{E}G \stackrel{\to}{\to}
+  \mathbf{E}G
 $$
 
-is a [[Kan fibration]] that exhibits a $G$-principal bundle. We find that the base object $\mathbf{B}_{diff}G$ appearing here is
+is the presheaf which over $U \in CartSp$ coequalizes the maps given by
+
+$$
+  (h,(g,a)) \mapsto (g,a)
+$$
+
+and 
+
+$$
+  (h,(g,a)) \mapsto (g\cdot h,a)
+  \,,
+$$
+
+respectively. This is the presheaf
 
 $$
   \mathbf{B}_{diff}G 
@@ -1372,7 +1387,9 @@ $$
   U 
   \mapsto
   \left\{
-        (A_1) \stackrel{(f,\lambda)}{\to} A_2 = g^{-1}(A_1 + d)g + \lambda
+        a_1 \stackrel{f,\lambda}{\to} ( a_2
+          = f^{-1}(a_1 + d)f - \lambda
+        )
     \;\;\; | \;\;\;
      \array{
        a_i, \lambda \in \Omega^1(U,\mathfrak{g})  
@@ -1380,6 +1397,13 @@ $$
        f \in C^\infty(U,G)
      }
   \right\}
+  \,.
+$$
+
+The projection map $\mathbf{E}_{diff}G \to \mathbf{B}_{diff} G$ is on objects given by
+
+$$
+  (g,a) \mapsto a
   \,.
 $$
 
@@ -1391,7 +1415,12 @@ $$
   \mathbf{E}_{diff}G \to \mathbf{B}_{diff}G
 $$
 
-that we have obtained is indeed another model for the universal $G$-principal bundle, somewhat bigger than the canonical one. For $\{U_i \to X\}$ a [[good open cover]] of a smooth manifold $X$ and $C(\{U_i\})$ the [[Cech nerve|Cech groupoid]] we have that a morphism
+that we have obtained is indeed another model for the universal $G$-principal bundle, somewhat bigger than the canonical one. 
+
+
+**Cocycles with values in $\mathbf{B}_{diff}G$.
+
+For $\{U_i \to X\}$ a [[good open cover]] of a [[paracompact space|paracompact]] [[smooth manifold]] $X$ and $C(\{U_i\})$ the [[Cech nerve|Cech groupoid]] we have that a morphism
 
 $$
   X \stackrel{\simeq}{\leftarrow}
@@ -1409,7 +1438,7 @@ $$
   \,.
 $$ 
 
-Such data is sometimes called a _pseudo-connection_ . By itself it contains no information (otherwise $\mathbf{B}_{diff} G \to \mathbf{B}G$ would not be a weak equivalence) but it does serve to model the universal [[curvature characteristic form]] as a  2-[[anafunctor]] out of $\mathbf{B}G$. We will see below that in the homotopy fibers of the morphism that this induces on cocycles, we do find the genuine (non-pseudo) connection forms.
+Such data is sometimes called a _pseudo-connection_ . By itself it contains no information (and otherwise $\mathbf{B}_{diff} G \to \mathbf{B}G$ would not be a weak equivalence) but it does serve to model the universal [[curvature characteristic form]] as a  2-[[anafunctor]] out of $\mathbf{B}G$. We will see [below](#http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroupUniversalConnectionProper) that in the [[homotopy fiber]]s of the morphism that this induces on cocycles, we do find the genuine (non-pseudo) connection forms.
 
 
 ###### The universal curvature characteristic forms {#LieGroupUniversalConnectionCurvature}
@@ -1563,7 +1592,7 @@ $$
   \,.
 $$
 
-By the general reasoning of [[schreiber:differential cohomology in an (∞,1)-topos]] we have that the differential cocycles proper are those in the homotopy pullback $\mathbf{H}_{diff}(X,\mathbf{B}G)$ of this morphism along the curvature class morphism
+By the general reasoning of [[schreiber:differential cohomology in an (∞,1)-topos]] we have that the differential cocycles proper are those in the [[homotopy pullback]] $\mathbf{H}_{diff}(X,\mathbf{B}G)$ of this morphism along the curvature class morphism
 
 $$
   \array{
@@ -1726,8 +1755,39 @@ Form the defining pullback as before. (...)
 
 =--
 
+#### Examples
+
+##### The String Lie 2-group
+
+There is a strict Lie 2-group model for the [[string Lie 2-group]].
+
+**Proposition** 
+
+The [[string Lie 2-algebra]] in the form $\mathfrak{g}_\mu$ is equivalent to the strict [[Lie 2-algebra]] given by the [[differential crossed module]] $\hat \Omega \mathfrak{g} \to P \mathfrak{g}$, where...
+
+(...)
+
+We now describe three different but equivalent strict Lie 2-group models for the String 2-group. 
+
+(...)
+
+###### Connections
+
+(...)
+
+##### The Fivebrane Lie 6-group
+
+There is a strict Lie 6-group model of the [[fivebrane Lie 6-group]].
+
+There is a strict Lie 2-group model for the [[string Lie 2-group]]
+
+###### Connections
+
+(...)
+
 ### General $\infty$-Lie groupoids
 
+We now discuss general, not-necessarily strict $\infty$-Lie groupoids.
 
 #### Simplicial Lie and diffeological groups {#SimplicialSmoothGroups}
 
