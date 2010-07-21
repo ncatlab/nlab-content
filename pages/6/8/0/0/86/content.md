@@ -204,11 +204,13 @@ a notion of [[volume of a Lie groupoid]].
 
 
 
-## References
+## References and related entries
+
+* [[homotopy BV algebra]]
 
 A comprehensive recent review is
 
-* Carlo Albert, Bea Bleile and J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
+* Carlo Albert, Bea Bleile, J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
 
 Other introductions include
 
@@ -224,11 +226,9 @@ deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch
 
 The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
 
-* E. Witten, _A note on the antibracket formalism_, Modern Physics Letters A, 5 7, 487--494 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
+* [[E. Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, 5 7, 487--494 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
 
-## Related entries
-
-* [[homotopy BV algebra]]
+* MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
 
 [[!redirects BV-theory]]
 [[!redirects BV theory]]
