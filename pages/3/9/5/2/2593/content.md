@@ -14,9 +14,13 @@
 
 ## Definition
 
-The abelian cohomology of a [[Lie algebra]] $\mathfrak{g}$ is the [[chain homology and cohomology|cochain cohomology]] of its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$. See also [[nonabelian Lie algebra cohomology]]. 
+The abelian [[cohomology]] of a $k$-[[Lie algebra]] $\mathfrak{g}$ with coefficients in the left $\mathfrak{g}$-module $M$ is defined as $H^*_{Lie}(\mathfrak{g},M) = Ext_{U\mathfrak{g}}^*(k,M)$ where $k$ is the ground field understood as a trivial module over the universal enveloping algebra $U\mathfrak{g}$. In particular it is a derived functor. 
 
-The degree $n$ Lie algebra cohomology computes the [[homotopy (as an operation)|homotopy]] classes of $L_\infty$-[[L-∞-algebra|algebra]] morphisms
+Before this approach was advanced in Cartan-Eilenberg's _Homological algebra_, Lie algebra cohomology and homology were defined by Chevalley-Eilenberg with a help of concrete Koszul-type resolution which is in this case a chain complex $Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)$ where the first argument $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is naturally equipped with a differential to start with (see below). This first argument underlines a differential graded commutative algebra called the Chevalley-Eilenberg algebra, which is in $n$lab denoted (as well as its higher categorical analogues) by $CE(\mathfrak{g})$. 
+
+There is also [[nonabelian Lie algebra cohomology]]. 
+
+The degree $n$ Lie algebra cohomology with trivial coefficients computes the [[homotopy (as an operation)|homotopy]] classes of $L_\infty$-[[L-∞-algebra|algebra]] morphisms
 
 $$
   \mathfrak{g} \to b^{n-1} \mathfrak{u}(1)
@@ -54,6 +58,10 @@ of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].   This is [[T
 ### Ordinary Lie algebras
 
 * [Springer online enc:Lie algebra cohomology](http://eom.springer.de/C/c023140.htm)
+
+* [wikipedia](http://en.wikipedia.org/wiki/Lie_algebra_cohomology)
+
+* Charles Weibel, _Homological algebra_, ch. 7, Cambridge Studies in Adv. Math. __38__, CUP 1994
 
 ### Super Lie algebras
 
