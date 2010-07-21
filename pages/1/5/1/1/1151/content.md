@@ -1,17 +1,13 @@
 
-
-+-- {: .rightHandSide .toc}
-##Context##
-+-- {: .dropDown}
-###Cohomology###
-+-- {: .hide}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
 =--
-=--
-***
-+-- {: .dropDown}
-###$(\infty,1)$-Topos theory###
-+-- {: .hide}
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 =--
