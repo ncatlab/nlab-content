@@ -1,15 +1,13 @@
 
 
 +-- {: .rightHandSide}
-
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
++--{: .hide}
 [[!include topos theory - contents]]
 [[!include category theory - contents]]
-{: .hide}
 =--
-
-
+=--
 =--
 
 
