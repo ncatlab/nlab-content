@@ -13,6 +13,11 @@ The Chevalley-Eilenberg complex is usually defined a bit more generally for [[Li
 
 The [[chain homology and cohomology|cohomology]] of the Chevalley-Eilenberg complex is called [[Lie algebra cohomology]].
 
+# References #
+
+* MathOverflow: [definitions of Chevalley-Eilenberg complex](http://mathoverflow.net/questions/8460/chevalley-eilenberg-complex-definitions)
+
+* C. Chevalley, S. Eilenberg, _Cohomology theory of Lie groups and Lie algebras_, Trans. Amer. Math. Soc. 63, (1948). 85--124.
 
 [[!redirects Chevalley-Eilenberg complex]]
 [[!redirects Chevalley?Eilenberg cochain complex]]
