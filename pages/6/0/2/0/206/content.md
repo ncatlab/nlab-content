@@ -28,11 +28,11 @@ Various fields of mathematics or mathematical concepts can be manipulated in an 
 
 ## Related entries
 
-The $n$lab has a number of entries on particular algebraic structures ([[monoid]], [[semigroup]], [[group]], [[ring]], [[noetherian ring]], [[quasigroup]], [[associative algebra]], [[Lie algebra]], [[coalgebra]], [[dg-algebra]], [[bialgebra]], [[graded algebra]], [[Hopf algebra]], [[coring]], [[quasitriangular bialgebra]], [[lattice]], [[rig]], $\Omega$-[[$\Omega$-group|group]], [[field]], [[perfect field]], [[skewfield]], [[free field]], [[vector space]], [[vertex operator algebra]], [[crossed module]], [[chain complex]], [[hyperring]], [[hyperfield]] etc.), entries on their structural features, parts, "envelopes" or localizations ([[ideal]], [[center]], [[centralizer]], [[normal subgroup]], [[normal closure]], [[normalizer]], [[holomorph]], [[Ore set]], [[Ore localization]], [[enveloping algebra]], [[universal enveloping algebra]]) and on algebraic structures internal to other categories ([[topological group]], [[Lie group]], [[Lie groupoid]], [[algebraic group]], [[formal group]], [[dg-algebra]] etc). 
+The $n$lab has a number of entries on particular algebraic structures ([[monoid]], [[semigroup]], [[group]], [[ring]], [[noetherian ring]], [[quasigroup]], [[associative algebra]], [[Lie algebra]], [[coalgebra]], [[dg-algebra]], [[bialgebra]], [[graded algebra]], [[Hopf algebra]], [[coring]], [[quasitriangular bialgebra]], [[lattice]], [[rig]], $\Omega$-[[$\Omega$-group|group]], [[field]], [[perfect field]], [[skewfield]], [[free field]], [[vector space]], [[vertex operator algebra]], [[crossed module]], [[chain complex]], [[hypermonoid]], [[hyperring]], [[hyperfield]] etc.), entries on their structural features, parts, "envelopes" or localizations ([[ideal]], [[center]], [[centralizer]], [[normal subgroup]], [[normal closure]], [[normalizer]], [[holomorph]], [[Ore set]], [[Ore localization]], [[enveloping algebra]], [[universal enveloping algebra]]) and on algebraic structures internal to other categories ([[topological group]], [[Lie group]], [[Lie groupoid]], [[algebraic group]], [[formal group]], [[dg-algebra]] etc). 
 
 There are also few pages on various invariants of algebraic objects or operations on algebraic expressions, e.g. on [[resultants]] of polynomials, [[determinant]] of a matrix, [[quasideterminant]] of a matrix with noncommutative entries.   
 
-For many algebraic structures a notion of [[action]] is defined; they embody "symmetry algebras" of some other algebraic objects. An action is expressed via a [[representation]] of one object as a subobject of a full object of another; or as a combination of the object which acts and which is acted upon (e.g. [[action groupoid]]). Objects with action are [[modules]] of the appropriate kind. The possibilities for realizing a given algebra via symmetries of another object are systematically studied in a field called [[representation theory]]. 
+For many algebraic structures a notion of [[action]] is defined; they embody "symmetry algebras" of some other algebraic objects. An action is expressed via a [[representation]] of one object as a subobject of a full object of another; or as a combination of the object which acts and which is acted upon (e.g. [[action groupoid]]). Objects with action are [[modules]] of the appropriate kind (possibly dualized: [[comodule]], [[contramodule]]; multiple, e.g. [[bimodule]]; or homotopized like $A_\infty$-modules). The possibilities for realizing a given algebra via symmetries of another object are systematically studied in a field called [[representation theory]]. 
 
 See also 
 
@@ -44,3 +44,4 @@ See also
 
 
 [[!redirects algebras]]
+[[!redirects algebraist]]
