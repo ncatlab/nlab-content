@@ -1,8 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Mathematics
++--{: .hide}
 [[!include mathematicscontents]]
----
+=--
+#### Category theory
++--{: .hide}
 [[!include category theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * tic
@@ -349,7 +359,7 @@ Other standard references include:
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [free online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)
 * [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
-[free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&amp;seq=&amp;view=50&amp;frames=0&amp;pagenum=1)
+[free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
 * [[Tom Leinster]], _Higher operads, higher categories_ [free online] (http://arxiv.org/PS_cache/math/pdf/0305/0305049v1.pdf)
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 * [[Peter Johnstone]], _Topos theory_
