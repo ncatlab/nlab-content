@@ -45,7 +45,7 @@ Literature on [[string theory]].
 
 * David Tong, _Lectures on string theory_, [arxiv/0908.0333](http://front.math.ucdavis.edu/0908.0333)
 
-* Alvarez E., Meessen P. "String primer", hep-th/9810240
+* E. Alvarez, P. Meessen, _String primer_, [hep-th/9810240](http://arxiv.org/abs/hep-th/9810240)
 
 ## Major collections
 
@@ -56,6 +56,8 @@ Literature on [[string theory]].
 * B. Green, _The elegant universe: superstrings, hidden dimensions, and the quest for the ultimate theory_
 
 * Michio Kaku, various volumes
+
+* video and slides of Witten's KITP overview [Future of String Theory](http://online.itp.ucsb.edu/online/kitp25/witten)
 
 ## Big mathematically inclined surveys
 
