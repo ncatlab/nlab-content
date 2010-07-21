@@ -19,6 +19,8 @@ on [[homological algebra]].
 
 ## 3 Tor and Ext
 
+[[Tor]] and [[Ext]]
+
 ## 4 Homological dimension
 
 ## 5 Spectral sequences
@@ -31,13 +33,13 @@ on [[homological algebra]].
 
 ## 7 Lie algebra homology and cohomology
 
-* [[Lie algebra cohomology]]
+* [[Lie algebra homology]], [[Lie algebra cohomology]]
 
 ## 8 Simplicial methods in homological algebra
 
 ### 8.1 Simplicial object
 
-* [[simplicial object]]
+* [[simplicial object]] 
 
 ### 8.2 Operations on simplicial objects 
 
@@ -55,7 +57,7 @@ on [[homological algebra]].
 
 ### 8.6 Canonical resolutions
 
-* [[monad]](=triple)/[[bar construction]]
+* [[monad]](=triple)/[[bar construction]], [[comonad]], [[classifying space]]
 
 
 ### 8.7 Cotriple homology 
@@ -143,3 +145,5 @@ on [[homological algebra]].
 * [[adjoint functor]]
 
 category: reference
+
+[[!redirects An introduction to homological algebra]]
