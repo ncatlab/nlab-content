@@ -1,9 +1,24 @@
 
-# Idea #
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 The notion of _homotopy image_ generalizes the notion of [[image]] of a morphism in a [[category]] to that of a morphism in a [[presentable (infinity,1)-category]] or [[model category]].
 
-# Definition #
+## Definition 
 
 One of the definitions of the [[image]] of a morphism $f : c \to d$ is in terms of universal [[subobject]]s -- i.e. universal [[monomorphism]]s -- through which  $f$ factors.
 
@@ -23,7 +38,9 @@ Let $C$ be an $S$ [[enriched model category]] satisfying some assumptions... .
 
 =--
 
+## References
+
 This is definition 2.36 in 
 
-* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+* [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
