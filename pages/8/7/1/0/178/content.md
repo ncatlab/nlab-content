@@ -759,16 +759,15 @@ $$
     \\
     * &\to& N(G \stackrel{\to}{\to} *)
   }
-  \,.
 $$
 
-See also the discussion at [[generalized universal bundle]]. More on this in the next section.
+as discussed at [[universal principal ∞-bundle]].
 
 =--
 
 ##### The universal $G$-principal bundle {#UniversalLieGroupPrincipalBundle}
 
-The universal $G$-principal bundle is a replacement of the point inclusion $* \to \mathbf{B}G$ by a fibration $\mathbf{E}G \to \mathbf{B}G$.
+The [[universal principal ∞-bundle|universal G-principal bundle]] is a replacement of the point inclusion $* \to \mathbf{B}G$ by a fibration $\mathbf{E}G \to \mathbf{B}G$.
 
 For $G$ an ordinary [[group]] one model for this is given by the Lie groupoid
 
@@ -779,7 +778,7 @@ $$
 
 which is the [[action groupoid]] $G//G$ of $G$ acting on itself.
 
-One noteworthy aspect of this object is that it is itself groupal, in fact itself a Lie [[strict 2-group]] in a way that is compatible with the canonical inclusion $G \to \mathbf{E}G$.
+One noteworthy aspect of this object is that it is itself groupal, in fact itself a Lie [[strict 2-group]] in a way that is compatible with the canonical inclusion $G \to \mathbf{E}G$: it is an example of a [[groupal model for universal principal ∞-bundles]].
 
 To emphasize this group structure, we also write $INN(G)$ for this groupoid, following [SchrRob](#http://arxiv.org/abs/0708.1741). The corresponding [[crossed module]] is
 
