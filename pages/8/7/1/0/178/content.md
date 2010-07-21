@@ -1,21 +1,18 @@
 
-
-+-- {: .rightHandSide .toc}
-##Context##
-+-- {: .dropDown}
-###$\infty$-Lie theory###
-+-- {: .hide}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
-=--
-***
-+-- {: .dropDown}
-###$(\infty,1)$-Topos theory###
-+-- {: .hide}
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
@@ -43,9 +40,9 @@ Regarding a groupoid internal to manifolds $\mathcal{G}$ as a [[stack]] $\mathca
 
 Not every stack on [[Diff]] comes from a [[groupoid]] $\mathcal{G}$ [[internalization|internal to]] [[Diff]] this way. For instance the ([[stackification]] of the) [[groupoid of Lie-algebra valued forms]] for some [[Lie group]] $G$ is a [[concrete presheaf|non-concrete]] stack, which can never be represented by an internal groupoid. Still, most operations that one may want to apply to internal groupoids also make sense for general stacks on [[Diff]]. Indeed, some operations that one may want to apply to internal groupoids take values not in internal groupoids, but in more general stacks: the [[2-category]] $Sh_{(2,1)}(Diff)$ of all stacks on $Diff$ is formally more well behaved than the sub-category of [[differentiable stack]]s inside it. One useful way to formalize all the nice structure that $Sh_{(2,1)}(Diff)$ has is to see that this is a [[2-topos]].
 
-Therefore it is quite useful to think off _every_ stack on $Diff$ as encoding a _smooth groupoid_ and to think of the study of Lie groupoids as being the theory of the [[2-topos]] $Sh_{(2,1)}(Diff)$. The higher version of [[Lie theory]] takes place here. The groupoids internal to $Diff$ are special nice objects in this 2-topos: the [[geometric stack]]s.
+Therefore it is quite useful to think of _every_ stack on $Diff$ as encoding a _smooth groupoid_ and to think of the study of Lie groupoids as being the theory of the [[2-topos]] $Sh_{(2,1)}(Diff)$. The groupoids internal to $Diff$ are special nice objects in this 2-topos: the [[geometric stack]]s.
 
-For this reason, here we shall find it useful to adopt the term _Lie groupoid_ for a general objects in $Sh_{(2,1)}(Diff)$ and to speak of Lie groupoids _[[representable functor|represented]]_ in [[smooth manifold]]s or [[geometric stack]]s if we mean groupoids internal to manifolds, under the embedding indicated above.
+For this reason, here we shall find it useful to adopt the term _Lie groupoid_ for a general objects in $Sh_{(2,1)}(Diff)$ and to speak of Lie groupoids _[[representable functor|represented]]_ in [[smooth manifold]]s or of [[geometric stack]]s if we mean groupoids internal to manifolds, under the embedding indicated above.
 
 
 ### $\infty$-Lie groupoids as $(\infty,1)$-sheaves / $\infty$-stacks
@@ -1247,9 +1244,9 @@ $$
           {}^{\mathllap{f^{-1}}}\swArrow
        & \searrow^{\mathrlap{(g_2,a_2)}}
        \\
-      (A_1 = g_1^{-1} d g_1 + a_1, F_{A_1})
+      (A_1 = g_1^{-1} d g_1  + g_1^{-1}a_1 g_1, F_{A_1})
       &&\stackrel{(e,\lambda)}{\to}&&
-      (A_2 = g_2^{-1} d g_2 + a_2, F_{A_2})
+      (A_2 = g_2^{-1} d g_2  + g_2^{-1}a_2 g_2, F_{A_2})
      }
      \;\;\; | \;\;\;
      \array{
@@ -1312,13 +1309,62 @@ $$
 
 Observe that the $G$-action on $\mathbf{E}G$ lifts immediately to an action on the slightly bigger model $\mathbf{E}_{diff}G$, where it is still principal: the only element that leaves any objects or morphisms in $\mathbf{E}_{diff}G$  fixed is the neutral element. 
 
-By the general properties discussed at [[simplicial principal bundle]] it follows that the quotient map 
+Explicitly, we have that over $U \in CartSp$ an element $h \in G(U) = C^\infty(U,G)$ acts on a morphism given by a cone as above by
+
+$$
+  \left(
+    \array{
+        && (0,0)
+       \\
+       & {}^{\mathllap{(g_1,a_1)}}\swarrow &
+          {}^{\mathllap{f^{-1}}}\swArrow
+       & \searrow^{\mathrlap{(g_2,a_2)}}
+       \\
+      (A_1 = g_1^{-1} d g_1  + g_1^{-1}a_1 g_1, F_{A_1})
+      &&\stackrel{(e,\lambda)}{\to}&&
+      (A_2 = g_2^{-1} d g_2  + g_2^{-1}a_2 g_2, F_{A_2})
+     }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+    \array{
+        && (0,0)
+       \\
+       & {}^{\mathllap{(g_1 h,a_1)}}\swarrow &
+          {}^{\mathllap{(f h)^{-1}}}\swArrow
+       & \searrow^{\mathrlap{(g_2 h,a_2)}}
+       \\
+      ((g_1 h)^{-1} d (g_1 h)  + (g_1 h)^{-1}a_1 g_1 h, h^{-1}F_{A_1} h)
+      &&\stackrel{(e,\lambda)}{\to}&&
+      ((g_2 h)^{-1} d (g_2 h)  + (g_2 h)^{-1}a_2 g_2 h, h^{-1}F_{A_1} h)
+     }
+  \right)
+  \,,
+$$
+
+hence in particular by gauge transformations of the connection forms
+
+$$
+  A_i \mapsto h^{-1} A_i h + h^{-1} A_i h
+$$
+
+and of the curvatures
+
+$$
+  F_{A_i} \mapsto h^{-1} F_{A_i} h
+  \,.
+$$
+
+
+By inspection (or by the general properties discussed at [[simplicial principal bundle]]) it follows that the quotient map 
 
 $$
   \mathbf{E}_{diff}G \to \mathbf{B}_{diff}G := (\mathbf{E}_{diff}G)/G
 $$
 
-is a [[Kan fibration]] that exhibits a $G$-principal bundle. We find that the based object $\mathbf{B}_{diff}G$ appearing here is
+is a [[Kan fibration]] that exhibits a $G$-principal bundle. We find that the base object $\mathbf{B}_{diff}G$ appearing here is
 
 $$
   \mathbf{B}_{diff}G 
@@ -1326,7 +1372,7 @@ $$
   U 
   \mapsto
   \left\{
-        (a_1) \stackrel{(f,\lambda)}{\to} A_2 = g^{-1}(A_1 + d)g + \lambda
+        (A_1) \stackrel{(f,\lambda)}{\to} A_2 = g^{-1}(A_1 + d)g + \lambda
     \;\;\; | \;\;\;
      \array{
        a_i, \lambda \in \Omega^1(U,\mathfrak{g})  
@@ -1386,7 +1432,32 @@ $$
   \,.
 $$
 
-We obtain such from those combinations of the universal [[curvature]] form in $\theta_{\mathbf{E}G}$ that are invariant under the $G$-action which defines the quotient $\mathbf{E}_{diff}G \to \mathbf{B}_{diff}G = (\mathbf{E}_{diff}G)/G$. These are [[invariant polynomial]]s evaluated on the [[curvature form]]s. 
+This is the [[coequalizer]] of the two composite maps
+
+$$
+  G \times \mathbf{E}G \stackrel{\overset{\theta_{\mathbf{E}G}\circ \rho}{\to}}{\underset{\theta_{\mathbf{E}G}\circ p_1}{\to}}
+  \mathbf{\flat}_{dR} \mathbf{E}G
+  \,.
+$$
+
+The bottom one picks the codomain of the cones depicted above, and the top one first acts with $G$ as described above, and then picks the codomain. On objects the bottom is given by
+
+$$
+  (h, (g,a, F_A)) \mapsto (A:= g^{-1} d g + g^{-1} a g, F_A)
+$$
+
+whereas the top map is
+
+$$
+  (h, (g,a)) \mapsto (h^{-1} A h + h^{-1} d h, h^{-1} F_A h)
+  \,.
+$$
+
+So the action divides out gauge transformations.
+
+
+We therefore obtain elements in the coequalizer from the [[curvature characteristic form]]s: if $A$ and $A'$ are related by a gauge transformation, then for each [[invariant polynomial]] $P_i$ we have $P(F_A) = P_{F_{A'}}$.
+
 
 So define $\mathbf{\flat}_{dR}^{inv}\mathbf{B E} G$ to be the Lie groupoid whose
 
@@ -1639,7 +1710,7 @@ and composition is defined as follows
 
 =--
 
-This is the [[2-groupoid of Lie 2-algebra-valued forms]] as described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of [SchrWalII](http://arxiv.org/abs/0802.0663). There are many possible conventions. The above is supposed to describe the _bidual_ [[opposite 2-category]] of the 2-groupoid as defined in that article, with the direction of 1- and 2-morphisms reversed. 
+This is the [[2-groupoid of Lie 2-algebra valued forms]] as described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of [SchrWalII](http://arxiv.org/abs/0802.0663). There are many possible conventions. The above is supposed to describe the _bidual_ [[opposite 2-category]] of the 2-groupoid as defined in that article, with the direction of 1- and 2-morphisms reversed. 
 
 +-- {: .un_cor }
 ###### Corollary
