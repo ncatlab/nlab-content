@@ -235,3 +235,7 @@ The interpretation of the BV quantum master equation as a description of closed 
 [[!redirects BV-BRST formalism]]
 [[!redirects BV-BRST quantization]]
 [[!redirects BV-BRST quantisation]]
+[[!redirects BV/BRST formalism]]
+[[!redirects BV/BRST quantization]]
+[[!redirects BV/BRST quantisation]]
+  
