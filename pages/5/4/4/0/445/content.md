@@ -1,5 +1,16 @@
-#Contents#
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
@@ -173,6 +184,13 @@ exists uniquely.
 
   * in a [[presentable (infinity,1)-category]] or [[model category]] there is the notion of [[homotopy image]].
 
-* If the factorization of a morphism $f$ through its image is by an [[îsomorphism]] then the morphism probably deserves to be called an [[embedding]].
+* If the factorization of a morphism $f$ through its image is by an [[isomorphism]] then the morphism probably deserves to be called an [[embedding]].
+
+## In higher category theory
+
+In [[higher category theory]] there are generalizations of the notion of image. See
+
+* [[essential image]] (of a [[functor]])
+* [[homotopy image]].
 
 [[!redirects images]]
