@@ -62,4 +62,8 @@ and of chiral algebras due [[Dmitry Tamarkin]].
 
 * Ruthi Hortsch, Igor Kriz, Ales Pultr, _A universal approach to vertex algebras_, [arxiv/1006.0027](http://arxiv.org/abs/1006.0027)
 
+Much algebraic insight to algebaric structures in CFT is in unfinished notes
+
+* [[A. Beilinson]], [[B. Feigin]], B. Mazur, _Notes on conformal field theory_, &lt;http://www.math.sunysb.edu/~kirillov/manuscripts.html>
+
 [[!redirects vertex algebra]]
