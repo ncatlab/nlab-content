@@ -2,10 +2,22 @@
 [[!include 2-category theory - contents]]
 </div>
 
-A lax natural transformation is a transformation (i.e.
-$0$-cell indexed collection of $1$-cells, like a [[natural transformation]]) that commutes up to a
-coherent $2$-cell.
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The notion of  _lax natural transformation_ is a generalization of the notion of [[natural transformation]] from [[category theory]] to [[higher category theory]].
+
+As a natural transformation is a [[morphism]] between two [[functor]]s between [[categories]], a lax natural transformation is a morphism between [[2-functor]]s between [[2-categories]]:
+
+where a natural transfomation has a commuting naturality square, a lax natural transformation has a possibly [[2-morphism]] filling that square.
+
+If that 2-morphism is required to be invertible, one speaks of a [[pseudonatural transformation]].
+
+In general [[higher category theory]], a lax natural transformaiton is a [[k-transfor|1-transfor]].
 
 ## Definitions ##
 
