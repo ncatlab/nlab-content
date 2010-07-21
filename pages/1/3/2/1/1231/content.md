@@ -57,4 +57,4 @@ Koszul duality is also discussed in [[John Baez]]' [This Week's Finds in Mathema
 
 * [Week 238](http://math.ucr.edu/home/baez/week238.html), [Week 239](http://math.ucr.edu/home/baez/week239.html)
 
-and at MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)
+in "the Everything Seminar" [koszul-duality-and-lie-algebroids](http://cornellmath.wordpress.com/2008/03/25/koszul-duality-and-lie-algebroids) and at MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)
