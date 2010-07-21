@@ -1212,18 +1212,20 @@ $$
 
 > _under construction_
 
-We have seen [above](#UniversalLieGroupPrincipalBundle) that the universal $G$-principal bundle $\mathbf{E}G$ is itself naturally modeled as a Lie [[2-group]] $INN(G)$. In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms with values in a [[Lie 2-algebra]] on these. We shall now discuss how, in a sense, for the Lie 2-group $\mathbf{E}G = INN(G)$ this universal form is the _universal [[Ehresmann connection]]_ on the universal $G$-principal bundle. The reader not familiar with the section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) should skip this section here to come back later. This section here is a corollary or special case or example application of that section.
+We have seen [above](#UniversalLieGroupPrincipalBundle) that the universal $G$-principal bundle $\mathbf{E}G$ is itself naturally modeled as a Lie [[2-group]]. In the next section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we discuss Lie 2-groups and the canonical differential forms with values in a [[Lie 2-algebra]] on these. We shall now discuss how, in a sense, for the Lie 2-group $\mathbf{E}G$ this universal form is the _universal [[Ehresmann connection]]_ on the universal $G$-principal bundle. The reader not familiar with the section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) should skip this section here to come back later. This section here is a corollary or special case or example application of that section.
 
 
 ###### The universal pseudo-connection {#LieGroupUniversalConnectionPseudo}
 
 
-The Lie 2-group $INN(G)$ is the one coming from the [[crossed module]] $(G \stackrel{Id}{\to} G)$. Its [[Lie 2-algebra]] is accordingly that given by the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$. In section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we find a replacement for $\mathbf{\flat}\mathbf{B} INN(G)$ and $\mathbf{\flat}_{dR} \mathbf{B}INN(G)$ that induces a realization of the Maurer-Cartan form on the Lie 2-group $\mathbf{E}G$ in terms of a span
+The Lie 2-group $\mathbf{E}G$ is the one coming from the [[crossed module]] $(G \stackrel{Id}{\to} G)$. Its [[Lie 2-algebra]] is accordingly that given by the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$. The [[Chevalley-Eilenberg algebra]] of this Lie 2-algebra is the [[Weil algebra]] of the Lie algebra $\mathfrak{g}$.
+
+In section [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we find a replacement for $\mathbf{\flat}\mathbf{B} \mathbf{E}G$ and $\mathbf{\flat}_{dR} \mathbf{B E}G$ that induces a realization of the Maurer-Cartan form on the Lie 2-group $\mathbf{E}G$ in terms of a span
 
 $$
   \array{
     \mathbf{E}_{diff} G &\stackrel{\theta_{\mathbf{E}G}}{\to}&
-    \mathbf{\flat}_{dR}\mathbf{B} INN(G)
+    \mathbf{\flat}_{dR}\mathbf{B E}G 
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -1262,7 +1264,7 @@ $$
   \,,
 $$
 
-where the cone on the right is a 2-cell in the model for $\mathbf{\flat}_{dR}\mathbf{B}INN(G)$ and constitutes a morphism from the object 
+where the cone on the right is a 2-cell in the model for $\mathbf{\flat}\mathbf{B E}G$ and constitutes a morphism from the object 
 
 $$
   \array{
@@ -1287,7 +1289,7 @@ $$
   \,.
 $$
 
-From the description of the resolution for $\mathbf{\flat}\mathbf{B}INN(G)$ in [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we have that in such a morphism the label $g_1$, $g_2$ and $f$ are related by
+From the description of the resolution for $\mathbf{\flat}\mathbf{B E}G$ in [Differential coefficients for Lie 2-groups](#DiffCoeffsForLie2Group) we have that in such a morphism the label $g_1$, $g_2$ and $f$ are related by
 
 $$
   g_2 = f g_1
@@ -1296,7 +1298,7 @@ $$
 
 A little inspection shows that all the rest of the data is already fixed by this. Therefore the evident forgetful furnctor $\mathbf{E}_{diff} G \to \mathbf{E}G$ is clearly over each $U$ an [[essentially surjective functor|essentially surjective]] and [[full and faithful functor]], hence indeed a weak equivalence.
 
-The canonical form $\theta_{\mathbf{E}G}$ itself is given by projection onto the codomain of these cones, as for the canonical form on $G$ discussed above. This way we find that the canonical forms on $G$ and on $\mathbf{E}(G) = INN(G)$ fit into a diagram
+The canonical form $\theta_{\mathbf{E}G}$ itself is given by projection onto the codomain of these cones, as for the canonical form on $G$ discussed above. This way we find that the canonical forms on $G$ and on $\mathbf{E}(G)$ fit into a diagram
 
 $$
   \array{
@@ -1304,12 +1306,12 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}& \mathbf{\flat}_{dR} \mathbf{B }INN(G)
+    \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}& \mathbf{\flat}_{dR} \mathbf{B E}G
   }
   \,.
 $$
 
-Observe that the $G$-action on $\mathbf{E}G$ lifts immediately to an action on the slightly bigger model $\mathbf{E}_{diff}G$, where it is still principal: the only element that leveas any objects or morphisms in $\mathbf{E}_{diff}G$  fixed is the neutral element. 
+Observe that the $G$-action on $\mathbf{E}G$ lifts immediately to an action on the slightly bigger model $\mathbf{E}_{diff}G$, where it is still principal: the only element that leaves any objects or morphisms in $\mathbf{E}_{diff}G$  fixed is the neutral element. 
 
 By the general properties discussed at [[simplicial principal bundle]] it follows that the quotient map 
 
@@ -1362,7 +1364,7 @@ $$
   \,.
 $$ 
 
-Such dataa is sometimes called a _pseudo-connection_ . 
+Such data is sometimes called a _pseudo-connection_ . By itself it contains no information (otherwise $\mathbf{B}_{diff} G \to \mathbf{B}G$ would not be a weak equivalence) but it does serve to model the universal [[curvature characteristic form]] as a  2-[[anafunctor]] out of $\mathbf{B}G$. We will see below that in the homotopy fibers of the morphism that this induces on cocycles, we do find the genuine (non-pseudo) connection forms.
 
 
 ###### The universal curvature characteristic forms {#LieGroupUniversalConnectionCurvature}
@@ -1376,53 +1378,34 @@ $$
     \downarrow && \downarrow
     \\
     \mathbf{E}_{diff}G &\stackrel{\theta_{\mathbf{E}G}}{\to}&
-    \mathbf{\flat}_{dR}\mathbf{B} INN(G)
+    \mathbf{\flat}_{dR}\mathbf{B E}G 
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{B}_{diff} G &\to& Q
+    \mathbf{B}_{diff} G &\to& \mathbf{\flat}_{dR}^{inv} \mathbf{B E}G
   }
   \,.
 $$
 
 We obtain such from those combinations of the universal [[curvature]] form in $\theta_{\mathbf{E}G}$ that are invariant under the $G$-action which defines the quotient $\mathbf{E}_{diff}G \to \mathbf{B}_{diff}G = (\mathbf{E}_{diff}G)/G$. These are [[invariant polynomial]]s evaluated on the [[curvature form]]s. 
 
-Indeed the [[Chevalley-Eilenberg algebra]] the Lie algebra coefficient $\mathfrak{g}$ in $\mathbf{\flat}_{dR} \mathbf{B}G$ is the of the Lie algebra itself, while that of $\mathbf{\flat}_{dR} \mathbf{B} INN(G)$ is that of the [[Lie 2-algebra]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$ which is the [[Weil algebra]] of $\mathfrak{g}$, and the algebra of invariant polynomials inside the Weil algebra $inv(\mathfrak{g}) \hookrightarrow W(\mathfrak{g})$ is precisely characterized as being the universal object that is invariant under $G$-actions on $W(\mathfrak{g})$ in the strong sense that we have a commuting diagram
+So define $\mathbf{\flat}_{dR}^{inv}\mathbf{B E} G$ to be the Lie groupoid whose
 
-$$
-  \array{
-     CE(\mathfrak{g}) &{\swarrow \nwarrow^0} \atop {\nwarrow \searrow}& CE(\mathfrak{g})
-     \\
-     \uparrow && \uparrow
-    \\
-     W(\mathfrak{g}) &{\swarrow \nwarrow^0} \atop {\nwarrow \searrow}& W(\mathfrak{g})
-     \\
-     \uparrow && \uparrow
-    \\
-    inv(\mathfrak{g}) &\stackrel{0}{\leftarrow}& inv(\mathfrak{g})
-  }
-  \,,
-$$
+* $U$-parameterized families of objects are collections $(P_i(F_{A}))$ of [[curvature characteristic form]]s (for some connection form $A \in \Omega^1(U,\mathfrak{g})$ which is not part of the data)
 
-of inner derivations. 
-
-So define $\mathbf{\flat}_{dR}\tilde \mathbf{B}^n \mathbb{R}$ to be the Lie groupoid whose
-
-* $U$-parameterized families of objects are closed $n$-forms $\omega \in \Omega^n_{closed}(U)$;
-
-* $U$-parameterized families of morphisms are $(n-1)$-forms modulo $d$ : $\kappa \in \Omega^{n-1}(U)/{in d}$.
+* $U$-parameterized families of morphisms are collections of [[Chern-Simons form]]s $(CS_i(A,A'))$  modulo exact forms interpolating between these.
 
 Then evaluation of curvature in invariant polynomials yields yields a morphism
 
 $$
   \mathbf{\flat}_{dR} \mathbf{B}  INN(G)
   \to
-  \tilde \mathbf{\flat}_{dR} \prod_i  \mathbf{B}^{n_i} \mathbb{R}
+  \mathbf{\flat}^{inv}_{dR} \mathbf{B E}G
 $$
 
 where $i$ ranges over the generators of invariant polynomials and $n_i$ is the degree of the $i$th generator, that fits into  the above diagram for $Q$.
 
-This morphism sends over $U \in $ [[CartSp]] the form $A \in \Omega^1(U,\mathfrak{g})$ to a collection $\sum_i P_i(F_{A_i})$ of [[curvature characteristic form]]s and sends any morphism between two such forms (which, recall, need not be a gauge transformation of forms but may involve a shift of conneciton forms) to the [[Chern-Simons form]] interpolating between these, which is indeed well defined modulo exact forms
+This morphism sends over $U \in $ [[CartSp]] the form $A \in \Omega^1(U,\mathfrak{g})$ to a collection $\sum_i P_i(F_{A})$ of [[curvature characteristic form]]s and sends any morphism between two such forms (which, recall, need not be a gauge transformation of forms but may involve a shift of conneciton forms) to the [[Chern-Simons form]] interpolating between these, which is indeed well defined modulo exact forms
 
 $$
   curv_G : 
@@ -1459,7 +1442,7 @@ $$
     \\
     \mathbf{B}_{diff} G 
     &\stackrel{char_G}{\to}& 
-    \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
+    \mathbf{\flat}^{inv}_{dR} \mathbf{B E}G
     &&&
     curvature\; characteristic\; class
   }
@@ -1469,16 +1452,17 @@ $$
 The morphism
 
 $$
-  char_G : \mathbf{B}G_{diff} \to \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
+  char_G : \mathbf{B}G_{diff} \to 
+  \mathbf{\flat}^{inv}_{dR} \mathbf{B E}G
 $$
 
-that arises from pushing down the canonical form/universal pseudo-connection $\theta_{\mathbf{E}G}$ on $\mathbf{E}G$ is the **universal [[curvature characteristic form]]** . We notice that cohomology with coefficients in $\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}$ sits in the [[de Rham cohomology]] $\prod_i H^{n_i}_{dR}(X)$ and that every cohomology class in there has a representative
+that arises from pushing down the canonical form/universal pseudo-connection $\theta_{\mathbf{E}G}$ on $\mathbf{E}G$ is the **universal [[curvature characteristic form]]** . We notice that cohomology with coefficients in $\mathbf{\flat}_{dR}^{inv} \mathbf{B E}G$ sits in the [[de Rham cohomology]] $\prod_i H^{n_i}_{dR}(X)$ and that every cohomology class in there has a representative
 
 $$
   \array{
     C(\{U_i\})
     &\to&
-    \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
+    \mathbf{\flat}_{dR}^{inv} \mathbf{B E}G
     \\
     {}^{\mathllap{\simeq}}\downarrow
     \\
@@ -1492,7 +1476,7 @@ $$
   \array{
     C(\{U_i\})
     &\to&
-    \tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R}
+    \mathbf{\flat}_{dR}^{inv} \mathbf{B E}G
     \\
     {}^{\mathllap{\simeq}}\downarrow & \nearrow
     \\
@@ -1505,7 +1489,7 @@ Picking one such representative for each class yields gives a morphism
 
 $$
   \prod_i H^{n_i}_{dR}(X) \to 
-   \mathbf{H}(X,\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R})
+   \mathbf{H}(X,\mathbf{\flat}_{dR}^{inv} \mathbf{B E}G)
   \,.
 $$
 
@@ -1518,12 +1502,12 @@ $$
     \downarrow && \downarrow
     \\
     \mathbf{H}(X,\mathbf{B}G) &\stackrel{char_G}{\to}&
-    \mathbf{H}(X,\tilde \mathbf{\flat}_{dR} \prod_{i} \mathbf{B}^{n_i} \mathbb{R})
+    \mathbf{H}(X,\mathbf{\flat}_{dR}^{inv} \mathbf{B E}G)
   }
  \,.
 $$
 
-Using again the result from the discussion at [[simplicial principal bundle]] that the quotient map of a principal simplicial $G$-action is a Kan fibration, we find hat the bottom morphism evaluated on a Cech nerve is a Kan fibration, so that this homotopy pullback is computed as the ordinary pullback of cocycles.
+Using that the quotient map is a Kan fibration, we find hat the bottom morphism evaluated on a Cech nerve is a Kan fibration, so that this homotopy pullback is computed as the ordinary pullback of cocycles.
 
 It follows that a differential cocycle is a pseudo-connection on a bundle, that does satisfy the condition that the connection forms $(A_i)$ induce on double overlaps _exact_ [[Chern-Simons form]]s interpolating between their [[curvature characteristic form]]s. This is solved in particular by proper connections. 
 
@@ -1533,7 +1517,7 @@ This way the connection cocycle condition is imposed after all on the differenti
 
 But notice that in the above differential cohomology cocycle groupoid $\mathbf{H}_{diff}(X, \mathbf{B}G)$ we have _coboundaries_ that are more general than usual gauge transformations of connections:
 
-Again by the nature of $\tilde \mathbf{\flat}_{dR} \mathbf{B}^{n_i} \mathbb{R}$ we have that a coboundary between $(A_i, g_{i j})$ and $(A'_i, g'_{i j})$ is a transformation such that the interpolating [[Chern-Simons form]]s of the [[curvature characteristic form]]s are exact. 
+Again by the nature of $\mathbf{\flat}_{dR}^{inv} \mathbf{B E}G$ we have that a coboundary between $(A_i, g_{i j})$ and $(A'_i, g'_{i j})$ is a transformation such that the interpolating [[Chern-Simons form]]s of the [[curvature characteristic form]]s are exact. 
 
 This equivalence relation is that defining [[Simons-Sullivan structured bundle]]s. For $G = U$ the [[unitary group]] these represent classes in the [[differential K-theory]] of $X$. 
 
