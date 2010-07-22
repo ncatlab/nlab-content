@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
 =--
 =--
 
@@ -23,7 +27,7 @@
 
 For $G$ a model for an [[∞-group]], there is often a model for the [[universal principal ∞-bundle]] $\mathbf{E}G$ that itself carries a group structure such that the canonical inclusion $G \to \mathbf{E}G$ is a homomorphism of group objects. This extra groupal structure is important for various constructions.
 
-## For ordinary groups
+## For ordinary groups {#OrdinaryGroups}
 
 For $G$ an ordinary bare [[group], the [[action groupoid]] $\mathbf{E}G = G//G$ of the right multiplcation action of $G$ on itself 
 
@@ -90,6 +94,27 @@ Since the $W$ construction discussed above is functorial, this generalizes to pr
 
 (...)
 
+## For $\infty$-Lie groups
+
+In the [[(∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s we can obtain [[∞-group]]s by [[Lie integration]] of [[L-∞-algebra|∞-Lie algebra]]s.
+
+Corresponding to this is a construction of Lie-integrated groupal universal principal $\infty$-bundles:
+
+for $\mathfrak{g}$ an $L_\infty$-algebra, there is an $L_\infty$-algebra $inn(\mathfrak{g})$, defined such that its [[Chevalley-Eilenberg algebra]] is the [[Weil algebra]] $W(\mathfrak{g})$ of $\mathfrak{g}$:
+
+$$
+  CE(inn(\mathfrak{g})) = W(\mathfrak{g})
+  \,.
+$$
+
+Under [[Lie integration]] this gives a groupal model for the universal principal $\infty$-bundle over the [[∞-Lie group]] that integrates $\mathfrak{g}$.
+
+This is described at
+
+<a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntUnivBund">The Lie-integrated universal principal ∞-bundle</a>
+
+
+
 ## References
 
 The observation that for $G$ an ordinary [[group]], its [[action groupoid]] sequence $G \to G//G \to \mathbf{B}G$ -- which is the [[strict 2-group]] coming from the [[crossed module]] $(G \stackrel{Id}{\to} G)$ - maps under the [[nerve]] to the universal $G$-bundle appeared in
@@ -110,6 +135,11 @@ The [[simplicial group]] structure on $G \to \mathbf{E}G$ for $G$ a general [[si
 A general abstract construction of this simplicial group strufture is discussed in
 
 * [[David Roberts]], [[Danny Stevenson]], _notes in preparation_
+
+The use of [[L-∞-algebra]]s $inn(\mathfrak{g})$ as $L_\infty$-algebraic models for universal $\mathfrak{g}$-principal bundle (evident as it is) was considered as such in 
+
+* [[nLab:Hisham Sati]], [[nLab:Urs Schreiber|U.S.]], [[nLab:Jim Stasheff]],
+  _$L_\infty$-algebra connections_ in Fauser (eds.) Recent Developments in QFT, Birkh&#228;user ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
 
 [[!redirects groupal model for universal principal ∞-bundles]]
 [[!redirects groupal models for universal principal ∞-bundles]]
