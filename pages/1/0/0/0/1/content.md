@@ -2,7 +2,8 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Content###
+###Content### {: .clickToReveal}
+###Content### {: .clickToHide tabindex="0"}
 #### Mathematics
 +--{: .hide}
 [[!include mathematicscontents]]
