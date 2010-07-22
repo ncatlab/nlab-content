@@ -12,6 +12,8 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 A morphism $h:M\to N$ of Poisson manifolds is a morphism of smooth manifolds such that, for all $f,g\in C^\infty(N)$, $\{f\circ h, g\circ h\}_M = \{f,g\}_N$. 
 
+[[Kontsevich formality]] implies that every Poisson manifold has a canonical [[deformation quantization]].
+
 
 [[!redirects Poisson manifolds]]
 [[!redirects Poisson bivector]]
