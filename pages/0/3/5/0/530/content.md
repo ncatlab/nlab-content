@@ -1,20 +1,39 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-## Essentially surjective, faithful, and full functors
+## Idea
 
-The standard stuff: 
+The notion of _$k$-surjective functor_ is the continuation of the sequence of notions
 
-* &lt;http://math.ucr.edu/home/baez/qg-spring2004/discussion.html>
+* [[essentially surjective functor]]
 
-* [[stuff, structure, property]]
+* essentially surhective and [[full functor]]
+
+* essentially surjective and [[full and faithful functor]]
+
+from [[category theory]] to an infinite sequence of notions in [[higher category theory]].
+
+Roughly, a functor $F : C \to D$ between [[∞-categories]] $C$ and $D$ is _$k$-surjective_ if for each bounary of a [[k-morphism]]s in $C$, each $k$-morphism between the image of that boundary in $D$ is in the image of $F$.
 
 
 ## Generalization to $\infty$-categories
 
 ### $k$-Surjectivity
+
+For the moment, this here describes the notion for _globular_ models of $\infty$-categories. See below for the simplicial reformulation.
 
 An $\omega$-functor $f : C \to D$ between $\infty$-[[infinity-category|categories]] is 
 0-surjective if $f_0 : C_0 \to D_0$ is an epimorphism.
@@ -70,7 +89,7 @@ For $C$ and $D$ [[categories]] we have
 =--
 
 
-### In terms of lifting diagrams 
+### In terms of lifting diagrams {#Lifting}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -166,7 +185,7 @@ The general idea of $k$-surjectivity is described around [definition 4](http://a
 
 The concrete discussion in the context of [[strict omega-category|strict omega-categories]] is in
 
-* Yves Lafont, Francois M&eacute;tayer, Krzysztof Worytkiewicz, _A folk model structure on $\omega$-cat_ ([arXiv](http://arxiv.org/abs/0712.0617)).
+* Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on $\omega$-cat_ ([arXiv](http://arxiv.org/abs/0712.0617)).
 
 For the analogous discussion for simplicial sets see 
 
