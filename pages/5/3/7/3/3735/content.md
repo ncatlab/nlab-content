@@ -14,11 +14,11 @@
 
 category:people
 
+[[!redirects D. Kaledin]]
 [[!redirects Dmitry Kaledin]]
 [[!redirects Dmitri Kaledin]]
 [[!redirects Dmitriy Kaledin]]
 [[!redirects Dmitrij Kaledin]]
 [[!redirects Dmitriĭ Kaledin]]
 [[!redirects Дмитрий Каледин]]
-
 [[!redirects Дмитрий Борисович Каледин]]
