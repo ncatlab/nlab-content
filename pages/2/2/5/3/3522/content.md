@@ -243,6 +243,16 @@ Eric Finster's [research statement](http://people.virginia.edu/~elf9e/research.p
 
 >One tantalizing aspect of the Goodwillie calculus is that it suggests the possibility of thinking geometrically about the global structure of homotopy theory. In this interpretation, the category of spectra plays the role of the tangent space to the category of spaces at the one-point space. Moreover, the identity functor from spaces to spaces is not linear...and one can interpret this as saying that spaces have some kind of non-trivial curvature.
 
+However, Goodwillie remarks in the [report](http://www.mfo.de/programme/schedule/2004/14/OWR_2004_17.pdf) (p. 905) on a Oberwolfach meeting.:
+
+>Rhetorical question: If the first derivative of the identity is the identity matrix, why is the second derivative not zero? Answer: Some of the terminology of homotopy calculus works better for functors from spaces to spectra than for functors from spaces to spaces. Specifically, since "linearity" means taking pushout squares to pullback squares, the identity functor is not linear and the composition of two linear functors is not linear.
+
+>Attempted cryptic remark: Unlike the category of spectra, where pushouts are the same as pullbacks, the category of spaces may be thought of has having nonzero curvature.
+
+>Correction: After the talk Boekstedt asked about that remark. We discussed the matter at length and found more than one connection on the category of spaces, but none that was not flat. In fact curvature is the wrong thing to look for. There are in some sense exactly two tangent connections on the category of spaces (or should we say on any model category?). Both are  flat and torsion-free. There is a map between them, so it is meaningful to subtract them. As is well-known in differential geometry, the difference between two connections is a 1-form with values in endomorphisms (whereas the curvature is a 2-form with values in endomorphisms). Thus there is a way of discussing the discrepancy between pushouts and pullbacks in the language of differential geometry, but it is a tensor field of a different type from what I had guessed.
+
+This is from the [report](http://www.mfo.de/programme/schedule/2004/14/OWR_2004_17.pdf) (p. 905) on a Oberwolfach meeting. The table on p. 900 also makes comparisons to differential geometry.
+
 ## References
 
 An introductory article is
