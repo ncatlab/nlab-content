@@ -1,10 +1,18 @@
 [[!include contents]]
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Content###
+#### Mathematics
++--{: .hide}
 [[!include mathematicscontents]]
-***
+=--
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 [[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].  
 
@@ -26,7 +34,7 @@ We all make notes as we read papers, read books and doodle on pads of paper. The
 
 For more see [[About]].
 
-We originally designed this place as as an adjunct to the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), but it\'s more independent now. 
+We originally designed this place as as an adjunct to the [$n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/), but it\'s more independent now. 
 
 ## Discussion 
 
