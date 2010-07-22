@@ -3,8 +3,10 @@
 * a bibliography at [webpage](http://itp.ac.ru/en/persons/feigin-boris-lvovich) at Landau Institute of Theoretical Physics
 * [dedications](http://www.ams.org/distribution/mmj/vol4-3-2004/dedication.html) to B.F. in a special volume in his honour
 * math [genealogy](http://genealogy.math.ndsu.nodak.edu/id.php?id=52952) page
-* [German wikipedia](http://de.wikipedia.org/wiki/Boris_Lwowitsch_Feigin), 
+* [German wikipedia](http://de.wikipedia.org/wiki/Boris_Lwowitsch_Feigin)
+
 category: people
 
+[[!redirects Boriw Feigin]]
 [[!redirects Borya Feigin]]
 [[!redirects B. Feigin]]
