@@ -1,6 +1,25 @@
-# Idea #
 
-Under rather general conditions a functor
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
+
+Under rather general conditions a [[functor]]
 
 $$
   S_C : S \to C
@@ -11,6 +30,8 @@ into a [[cocomplete category]] $C$ (possibly a $V$-[[enriched category]] with $V
 $$
   N : C \stackrel{\leftarrow}{\to} [S^{op}, V] : |-|
 $$
+
+between $C$ and the [[category of presheaves]] $PSh(C) = [S^{op}, V]$ on $S$ (here $V$ = [[Set]] for the unenriched case)
 
 where 
 
@@ -25,11 +46,11 @@ Here "$S$" is supposed to be suggestive of a category of certain "[[geometric sh
 =--
 
 
-# Definition #
+## Definition 
 
 We place ourselves in the context of $V$-[[enriched category theory]]. The reader wishing to stick to the ordinary notions in [[locally small category|locally small categories]] takes $V$= [[Set]].
 
-The _realization_ operation is the left [[Kan extension]] of $S_C : S \to C$ along the [[Yoneda embedding]] $S \hookrightarrow [S^{op},V]$:
+The _realization_ operation is the left [[Kan extension]] of $S_C : S \to C$ along the [[Yoneda embedding]] $S \hookrightarrow [S^{op},V]$ (i.e. the [[Yoneda extension]]):
 
 $$
   \array{
@@ -124,7 +145,7 @@ where in the last step we used the definition of the
 
 =--
 
-#Remarks#
+## Remarks
 
 * In many cases we have $V = Set$ and the [[copower|tensoring]] of an object $c$ over a set $I$ is given by coproducts as
   $$  
@@ -133,22 +154,24 @@ where in the last step we used the definition of the
   $$
   This is the case for instance for the below examples of realization of simplicial sets, nerves of categories and the Dold--Kan correspondence.
 
-# Examples #
+## Examples 
 
-## Topological realization of simplicial sets ##
+### Topological realization of simplicial sets 
 
 A classical examples is given by the [[simplicial object|cosimplicial]] [[topological space]]
-  $$
-    \Delta_{Top} : \Delta \to Top
-  $$
-  that sends the abstract $n$-simplex $[n]$ to the standard topological $n$-simplex $\Delta_{Top}[n] \subset \mathbb{R}^n$.
+
+$$
+  \Delta_{Top} : \Delta \to Top
+$$
+
+that sends the abstract $n$-simplex $[n]$ to the standard topological $n$-simplex $\Delta_{Top}[n] \subset \mathbb{R}^n$.
   
 * The corresponding realization is [[geometric realization]];
 
 * The corresponding [[nerve]] is the [[singular simplicial complex]] of [[∞-groupoid]] functor.
 
 
-## Nerve of categories ##
+### Nerve of categories 
 
 Pretty much every notion of [[category]] and [[higher category theory|higher category]] comes, or should come, with its notion of simplicial nerve, induced from a functor
   $$
@@ -166,7 +189,7 @@ Pretty much every notion of [[category]] and [[higher category theory|higher cat
 * The induced realization operation is the operation of forming the free $\omega$-category on a simplicial set. See [[oriental]] for more details.
 
 
-## Dold--Kan correspondence ##
+### Dold--Kan correspondence 
 
 The [[Dold?Kan correspondence]] is the nerve/realization adjunction for the [[homology]] functor
   $$
@@ -176,7 +199,7 @@ The [[Dold?Kan correspondence]] is the nerve/realization adjunction for the [[ho
 
 * The induced realization is the normalized [[Moore complex]] functor extended from $\Delta$ to all [[simplicial sets]].
 
-## Simplicial models for $(\infty,1)$-categories ##
+### Simplicial models for $(\infty,1)$-categories 
 
 The canonical cosimplicial [[simplicially enriched category]]
 
@@ -185,12 +208,16 @@ $$
 $$
 
 induces the [[homotopy coherent nerve]] of [[SSet]]-[[enriched category|enriched categories]] and establishes the relation between the [[quasi-category]]
-and the simplicially enriched model for [[(infinity,1)-category|(infinity,1)-categories]].
+and the simplicially enriched model for [[(infinity,1)-category|(infinity,1)-categories]]. See
 
-# References #
+* [[relation between quasi-categories and simplicial categories]].
 
-The notion of nerve and realization (not with these names yes) was introduced and proven to be an [[adjunction]] in section 3 of
+## References 
+
+The notion of nerve and realization (not with these names yet) was introduced and proven to be an [[adjunction]] in section 3 of
 
 * [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
 
-In that article, as an example of the general mechanism, also the [[Dold?Kan correspondence]] was found and discussed, independently of the work by Dold and Puppe shortly before, who used a much less general-nonsense approach.
+In fact, in that very article apparantly what is now called [[Kan extension]] is first discussed.
+
+Also, in that article, as an example of the general mechanism, also the [[Dold?Kan correspondence]] was found and discussed, independently of the work by Dold and Puppe shortly before, who used a much less general-nonsense approach.
