@@ -53,4 +53,6 @@ Special topics:
 
 * [[George M. Bergman]], Adam O. Hausknecht, _Cogroups and co-rings in categories of associative rings_, A.M.S. Math. Surveys and Monographs __45__, ix+388 pp., 1996; ISBN 0-8218-0495-2. [MR 97k:16001](http://www.ams.org/mathscinet-getitem?mr=97k:16001) [errata and updates](http://math.berkeley.edu/~gbergman/papers/updates/coalg.html).
 
+* [[T. Brzeziński]], L. Kadison, [[R. Wisbauer]], _On coseparable and biseparable corings_,  Hopf algebras in noncommutative geometry and physics,  71--87, Lecture Notes in Pure and Appl. Math., 239, Dekker, New York, 2005. 
+
 [[!redirects corings]]
