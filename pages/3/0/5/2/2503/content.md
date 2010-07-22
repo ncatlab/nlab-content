@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -11,32 +18,28 @@
 
 ## Idea
 
-The string Lie 2-algebra is the [[infinitesimal object|infinitesimal approximation]] to the [[string 2-group]].
+The _string Lie 2-algebra_ is the [[infinitesimal object|infinitesimal approximation]] to the [[Lie 2-group]] called the [[string 2-group]].
 
-In the strict sense of the word, the String Lie 2-algebra $\mathfrak{string}(n)$ is a shifted [[L-infinity-algebra|∞-Lie algebra]] central extension
+It is a shifted [[L-infinity-algebra|∞-Lie algebra]] central extension
 
 $$
   0 \to \mathbf{b} \mathfrak{u}(1) \to \mathfrak{string}(n)
   \to \mathfrak{so}(n) \to 0
 $$
 
-of the [[Lie algebra]] $\mathfrak{so}(n)$ by the [[L-infinity-algebra|Lie 2-algebra]] $\mathbf{b} \mathfrak{u}(1)$.
-
-This central extension is controled by the canonical (up to normalization) [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu$ on $\mathfrak{so}(n)$.
-
-When $\mu$ is normalized such that it represents the image in [[deRham cohomology]] of the generator of the [[integral cohomology]] $H^3(X,Spin(n))$ then the corresponding String Lie 2-algebra is the Lie 2-algebra of the [[String Lie 2-group]].
-
-More generally, for $\mathfrak{g}$ an [[L-infinity-algebra|∞-Lie algebra]] and $\mu \in CE(\mathfrak{g})$ an $\infty$-Lie algebra cocycle (a closed element in the [[Chevalley?Eilenberg algebra]] of $\mathfrak{g}$) of degree $k$, there is a corresponding shifted central extension
+of the [[Lie algebra]] $\mathfrak{so}(n)$ by the [[Lie 2-algebra]] $\mathbf{b} \mathfrak{u}(1)$. This central extension is the one by the canonical (up to normalization) [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu$ on $\mathfrak{so}(n)$, which may itself be understood as a morphism
 
 $$
-  0 \to \mathbf{b}^{k-2} \mathfrak{u}(1) \to \mathfrak{g}_\mu  \to \mathfrak{g} \to 0
+  \mu : \mathfrak{so}(n) \to b^2 \mathrak{u}(1)
   \,.
 $$
 
-For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[super Poincare Lie algebra]] by a [[super Lie algebra]] 4-cocycle.
+When $\mu$ is normalized such that it represents the image in [[deRham cohomology]] of the generator of the [[integral cohomology]] $H^3(X,Spin(n))$ of the [[Spin group]], then the [[Lie integration]] of the  String Lie 2-algebra is the [[String Lie 2-group]].
 
 
 ## Definition
+
+### In components
 
 As with any [[L-∞ algebra]], we may define the String Lie 2-algebra $\mathfrak{string}(n)$ equivalently in terms of its [[Chevalley?Eilenberg algebra]].
 
@@ -47,7 +50,7 @@ $$
   \,,
 $$
 
-well defined up to normalization ($\langle - , \rangle$ is the canonical bilinear symmetric invariant form on $\mathfrak{g}$ and $[-,-]$ the Lie bracket), which is closed
+well defined up to normalization ($\langle - ,- \rangle$ is the canonical bilinear symmetric [[invariant polynomial]] on $\mathfrak{g}$ and $[-,-]$ the Lie bracket), which is closed in $CE(\mathfrak{g})$
 
 $$
   d_{\mathfrak{g}} \mu = 0
@@ -96,6 +99,117 @@ $$
 [x,y,z]_3=\mu(x,y,z)\cdot \beta,
 $$
 where $\beta:\langle b\rangle\to\mathbb{R}$ is the dual of $b$.
+
+### As a homotopy fiber {#AsHomotopyFiber}
+
+Up to equivalence, the string Lie 2-algebra is the [[homotopy fiber]] of the cocycle $\mu : \mathfrak{so}(n) \to \mathbf{b}^2 \mathfrak{u}(1)$, hence is the canonical $\mathbf{b} \mathfrak{u}(1)$-[[principal ∞-bundle]] over $\mathfrak{so}(n)$.
+
+Here we take by definition the [[(∞,1)-category]] of [[∞-Lie algebroid]]s to be that [[presentable (∞,1)-category|presented]] by the opposite (after passing to [[Chevalley-Eilenberg algebra]]s) of the [[model structure on dg-algebra]]s. In terms of dg-algebras, the cocycle is dually a morphism
+
+$$
+  CE(\mathfrak{so}(n)) \leftarrow CE(\mathbf{b}^2 \mathfrak{u}(1)) : \mu
+$$ 
+
+and the [[homotopy fiber]] in question is dually modeled by the [[homotopy pushout]] 
+
+$$
+  \array{
+    && 0
+    \\
+    && \uparrow
+    \\
+    CE(\mathfrak{so}(n)) &\stackrel{\mu}{\leftarrow}&
+    CE(\mathbf{b}^2 \mathfrak{u}(1))
+  }
+  \,.
+$$
+
+By the general rules for computing [[homotopy pushout]]s, this may be computed by an ordinary [[pushout]] if we choose a  [[resolution]] of $CE(\mathbf{b}^2 \mathfrak{u}(1)) \to 0$ by a cofibration and ensure that all three objects in the pushout diagram are cofibrations.
+
+For the resolution we take the standard one by the CE-algebra of the $\mathbf{b}^2 \mathfrak{u}(1)$-[[universal principal ∞-bundle]] $\mathbf{e b} \mathfrak{u}(1)$, which is the dg-algebra
+
+$$
+  CE(\mathbf{e b} \mathfrak{u}(1)) = (\wedge^\bullet( \langle b\rangle \oplus \langle c\rangle ), d)
+$$
+
+where $b$ is a generator of degree 2, $c$ one of degree 3 and the differential is given by
+
+$$
+  d b = c
+$$
+
+and 
+
+$$
+  d c = 0
+  \,.
+$$
+
+The morphism $CE(\mathbf{b}^2 \mathfrak{u}(1)) \to CE(e b \mathfrak{u}(1))$ is the one that identifies the two degree-3 generators.
+
+Now $CE(\mathbf{b}^2 \mathfrak{u}(1))$ and $CE(\mathbf{e b} \mathfrak{u}(1))$ are [[Sullivan algebra]]s, hence are cofibrant objects in the [[model structure on dg-algebra]]s. The dg-algebra $CE(\mathfrak{g})$ is not quite a Sullivan algebra, but almost: it is a [[semifree dga]] and only fails to have the filtering property on the differential.  It seems we claim that this is sufficient to compute the homotopy pushout. (...details...) 
+
+One observes now that 
+
+$$
+  \array{
+    CE(\mathfrak{string}) &\leftarrow& CE(\mathbf{e b} \mathfrak{u}(1))
+    \\
+    \uparrow && \uparrow
+    \\
+    CE(\marthfrak{so}(n)) &\leftarrow& CE(\mathbf{b}^2 \mathfrak{u}(1))
+  }
+$$
+
+is a [[pushout]] diagram.  Dually, this exhibits $\mathfrak{string}$ as the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathfrak{string}(n) &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathfrak{so}(n) &\stackrel{\mu}{\to}& \mathbf{b}^2 \mathfrak{u}(1)
+  }
+  \,.
+$$
+
+And this may be taken to be the abstract definition of the string Lie 2-algebra.
+
+By the general logic of [[fiber sequence]]s this implies that also
+
+$$  
+  \mathbf{b} \mathfrak{u}(1) \to \mathfrak{string} \to \mathfrak{so}(n)
+$$
+
+is a fiber sequence. By analogous reasoning as before, we see that this is modeled by the ordinary pushout
+
+$$
+  \array{
+    CE(\mathbf{b} \mathfrak{u}(1)) &\leftarrow& *
+    \\
+    \uparrow && \uparrow
+    \\
+    CE(\mathfrak{string}) &\leftarrow& CE(\mathfrak{g})
+  }
+  \,.
+$$
+
+This is indeed a homotopy pushout even without resolving the point, because $CE(\mathfrak{string}) \leftarrow CE(\mathfrak{g})$ is already a cofibration, being the pushout of a pufibration by the above.
+
+## Generalizations
+
+More generally, for $\mathfrak{g}$ an [[L-infinity-algebra|∞-Lie algebra]] and $\mu \in CE(\mathfrak{g})$ an $\infty$-Lie algebra cocycle (a closed element in the [[Chevalley?Eilenberg algebra]] of $\mathfrak{g}$) of degree $k$, there is a corresponding shifted central extension
+
+$$
+  0 \to \mathbf{b}^{k-2} \mathfrak{u}(1) \to \mathfrak{g}_\mu  \to \mathfrak{g} \to 0
+  \,.
+$$
+
+For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[super Poincare Lie algebra]] by a [[super Lie algebra]] 4-cocycle.
+
+
+
 ## References
 
 In one incarnation or other the String Lie 2-algebra has been considered in literature of [[dg-algebra]]s, but its [[Lie theory|Lie theoretic]] interpretation as a Lie 2-algebra has been made fully explicit only in
@@ -104,17 +218,22 @@ In one incarnation or other the String Lie 2-algebra has been considered in lite
 
 After its relation to the [[String Lie 2-group]] under [[Lie integration]] was established by  in
 
-* Andr&eacute; Henriques, _Integrating $L_\infty$-algebras_
+* [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv:0603563](http://arxiv.org/abs/math/0603563))
 
 and 
 
 * Crans, Baez, Schreiber, Stevenson, _From loop groups to 2-groups_, 
 
-it was reconsidered in a wider $\infty$-Lie theoretic context in 
+It was reconsidered also in 
 
 * Sati, Schreiber, Stasheff, _$L_\infty$-algebra connections_
 
 where also the relation to the [[supergravity Lie 3-algebra]] and other structures is discussed.
 
+The super-$L_\infty$-version of the string $L_\infty$-algebras were considered in
+
+* [[John Baez]], [[John Huerta]], _Division Algebras and Supersymmetry II_ ([arXiv:1003.3436](http://arxiv.org/abs/1003.3436)).
+
+See also [[division algebra and supersymmetry]].
 
 [[!redirects string Lie 2-algebra]]
