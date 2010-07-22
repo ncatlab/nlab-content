@@ -1,0 +1,13 @@
+[[!redirects Joao Faria Martins]]
+
+* [website](http://ferrari.dmat.fct.unl.pt/~jnm/)
+
+## related $n$Lab entries
+
+* [[path n-groupoid]]
+
+* [[principal 2-bundle]]
+
+* [[3-groupoid of Lie 3-algebra valued forms]]
+
+category: people
