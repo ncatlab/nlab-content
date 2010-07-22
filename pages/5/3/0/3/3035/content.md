@@ -66,9 +66,13 @@
 
 * [[Lie algebra]]
 
+* [[Lie 2-algebra]]
+
 * [[strict Lie 2-algebra]]
 
   * [[differential crossed module]]
+
+* [[Lie 3-algebra]]
 
 * [[Lie ∞-algebroid representation]]
 
@@ -90,9 +94,18 @@
 
 * [[nonabelian Lie algebra cohomology]]
 
-## ∞-Chern-Weil theory ##
+## $\infty$-Connections
 
 * [[schreiber:∞-Lie algebroid valued differential forms]]
+
+* [[groupoid of Lie-algebra valued forms]]
+
+* [[2-groupoid of Lie 2-algebra valued forms]]
+
+* [[3-groupoid of Lie 3-algebra valued forms]]
+
+
+## ∞-Chern-Weil theory ##
 
 * [[curvature]]
 
@@ -103,6 +116,8 @@
 * [[Chern-Weil homomorphism]]
 
 * [[Chern-Simons form]]
+
+
 
 
 ## Examples
