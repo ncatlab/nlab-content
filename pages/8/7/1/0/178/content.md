@@ -1757,7 +1757,7 @@ Form the defining pullback as before. (...)
 
 #### Examples
 
-##### The String Lie 2-group
+##### The String Lie 2-group {#String2Group}
 
 There is a strict Lie 2-group model for the [[string Lie 2-group]].
 
@@ -1809,6 +1809,9 @@ For the moment see the discussion about geometric realization further above.
 #### Lie-integrated $\infty$-Lie groupoids {#LieIntegrated}
 
 We discuss here $\infty$-Lie groupoids that arise as the [[Lie integration]] of an [[∞-Lie algebroid]].
+
+
+##### Lie integration {#LieIntegration}
 
 +-- {: .un_def }
 ###### Definition
@@ -1885,11 +1888,13 @@ underlying the untruncated $\infty$-Lie groupoid integrating $\mathfrak{g}$ is e
 
 * [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv])
 
-There however only this bare $infty$-groupoid underlying the $\infty$-Lie groupoid $\exp(\mathfrak{a})$ is explicitly considered, the focus of the article being on the construction of small equivalent models.
+following Hinich.
 
 A refinement of this construction to [[internal ∞-groupoid]]s in [[nLab:Banach space]]s was considered in 
 
 * [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv])
+
+For more see [[Lie integration]].
 
 The evident refinement of the [[Sullivan construction]] to $\infty$-Lie groupoids as considered here, parameterized over smooth test spaces, was mentioned around
 
@@ -1906,6 +1911,102 @@ is given a proposal for how to realize Lie differentiation in this context. Belo
 
 
 =--
+
+
+##### The Lie-integrated universal principal $\infty$-bundle {#LieIntUnivBund}
+
+We describe a construction of the [[universal principal ∞-bundle]]
+of a [Lie integrated](#LieIntegration) $\infty$-Lie group $G$.
+
+Let $\mathfrak{g}$ be a [[Lie n-algebra]]. The construction we consider works for choices $n \in \mathbb{N}$ such that the $\infty$-Lie groupoid
+
+$$
+  \tau_{\leq n}\exp(\mathfrak{g})
+$$
+
+is equivalent to 
+
+$$
+  \mathbf{B}G := \tau_{\leq {n+1}} \exp(\mathfrak{g})
+  \,,
+$$
+
+i.e. that we can truncate the [[Sullivan construction]] one degree "too high" without picking up a superfluous homotopy group (see [[Lie integration]] for details on this). 
+
+**Example.** This is for instance the case for $\mathfrak{g}$ an ordinary [[Lie algebra]], $n = 1$: in that case $\tau_{\leq 1}\exp(\mathfrak{g})$ is the one-object Lie groupoid $\mathbf{B}G$  for $G$ the simply connected Lie group integrating it, and since for every Lie algebra we have $\pi_2(G) = 0$ there is a trivial [[homotopy group]] in degree 2 and so (by the discussion at [[Lie integration]]) $\mathbf{B}G \simeq \tau_{\leq 2}\exp(\mathfrak{g})$.
+
+The 1-morphism in $\tau_{\leq 2}\exp(\mathfrak{g})$ are based paths in $G$, the [[2-morphism]]s are homotopy-classes (rel boundary) of surfaces in $G$. The equivalence $\exp_{\leq 2} \exp(\mathfrak{g}) \to \mathbf{B}G$ is obtained by sending a path to its endpoint. This situation is discussed in detail at [The string Lie 2-group](#String2Group).
+
+
++-- {: .un_def}
+###### Definition
+
+For $\mathfrak{g}$ an [[L-∞-algebra]] write $inn(\mathfrak{g})$ for the
+$L_\infty$-algebra whose [[Chevalley-Eilenberg algebra]] is the [[Weil algebra]] $W(\mathfrak{g})$ of $\mathfrak{g}$:
+
+$$
+  CE(inn(\mathfrak{g})) = W(\mathfrak{g})
+  \,.
+$$
+
+=--
+
+The $L_\infty$-algebra $inn(\mathfrak{g})$ is an _$L_\infty$-algebroidal model_ for the universal $\mathfrak{g}$-principal bundle, in analogy to a [[groupal model for universal principal ∞-bundles]].
+
++-- {: .un_example}
+###### Example
+**(Cartan model)**
+
+For $\mathfrak{g}$ an ordinary [[Lie algebra]], the [[Lie 2-algebra]] $inn(\mathfrak{g})$ is the one coming from the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$. That this is a Lie 2-algebraic model for the <a href="http://ncatlab.org/nlab/show/groupal+model+for+universal+principal+infinity-bundles#OrdinaryGroups">Segal groupal model of the universal G-bundle</a> is implicit in the [[Cartan model of equivariant cohomology]], which is a [[Lie algebroid]]-model of the [[Borel construction]] $\mathbf{E}G \times_G V$.
+
+=--
+
++-- {: .un_def}
+###### Definition
+**(integrated universal principal $\infty$-bundle)**
+
+The [[Lie integration]] of $inn(\mathfrak{g})$ we write
+
+$$
+  \mathbf{B}\mathbf{E}G := \tau_{\leq {n+1}}\exp(inn(\mathfrak{g})))
+  \,.
+$$
+
+The canonical inclusion $\mathfrak{g} \to inn(\mathfrak{g})$ induces a morphism of $\infty$-Lie groupoids
+
+$$
+  \tau_{n+1}\exp(\mathfrak{g} \to inn(\mathfrak{g}))
+  :
+  \mathbf{B}G \to \mathbf{B}\mathbf{E}G
+  \,.
+$$
+
+This induces the corresponding morphism of [[∞-Lie group]]s.
+
+$$
+  G \to \mathbf{E}G
+  \,.
+$$
+
+=--
+
+
++-- {: .un_prop}
+###### Observation
+
+Since $W(\mathfrak{g})$ is contractible (has vanishing cochain cohomology) we have a weak equivalence
+
+$$
+  \mathbf{E}G \simeq *
+  \,.
+$$
+
+So the construction $\mathbf{E}G = \tau_{n+1}\exp(\mathfrak{g})$ is a [[groupal model for universal principal ∞-bundles]].
+
+=--
+
+(...)
+
 
 
 
