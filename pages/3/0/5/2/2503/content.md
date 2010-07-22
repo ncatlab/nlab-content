@@ -59,7 +59,7 @@ Hence this is the canonical (up to normalization) 3-cocycle in the [[Lie algebra
 The Chevalley--Eilenberg algebra of $\mathfrak{string}(n)$ is
 
 $$
-  CE(\mathfrak{string}(n)) = (\wedge^\bullet \mathfrak{g}^* \oplus \langle b\rangle, d_{\mathfrak{string}})
+  CE(\mathfrak{string}(n)) = (\wedge^\bullet (\mathfrak{g}^* \oplus \langle b\rangle), d_{\mathfrak{string}})
   \,,
 $$
 
@@ -82,7 +82,20 @@ where
 
 That the differential defined this way is indeed of degree +1 and squares to 0 is precisely the fact that $\mu$ is a degree 3-cocycle of $\mathfrak{g}$.
 
-
+One can equivalently describe the $L_\infty$-algebra structure of $\mathfrak{string}(n)$ in terms of lots of brackets 
+$$
+[-,-,\dots,-]_k:\wedge^k \mathfrak{string}(n)\to \mathfrak{string}(n),
+$$
+of degree $2-k$.
+In addition to the Lie bracket of $\mathfrak{g}$, there is only a further nontrivial bracket: it is the 3-bracket
+$$
+[-,-,-]_3:\wedge^3 \mathfrak{g}\to \langle b\rangle^*
+$$
+given by
+$$
+[x,y,z]_3=\mu(x,y,z)\cdot \beta,
+$$
+where $\beta:\langle b\rangle\to\mathbb{R}$ is the dual of $b$.
 ## References
 
 In one incarnation or other the String Lie 2-algebra has been considered in literature of [[dg-algebra]]s, but its [[Lie theory|Lie theoretic]] interpretation as a Lie 2-algebra has been made fully explicit only in
