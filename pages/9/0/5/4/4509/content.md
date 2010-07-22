@@ -17,6 +17,8 @@
 
 In a [[homotopical category]] $C$, a _resolution_ of an object $X$ is another object $\hat X$ equipped with a weak equivalence $\hat X \to X$ or $X \to \hat X$ such that $\hat X$ has certain nice properties that $X$ lacks.
 
+See also [[simplicial resolution]].
+
 ## In a model category
 
 If $C$ is a [[model category]] then the most important resolutions are _cofibrant resolutions_ and _fibrant resolutions_ .
