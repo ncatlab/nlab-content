@@ -25,9 +25,11 @@
 
   * [[2-groupoid]]
 
-  * [[strict ∞-groupoid|strict ∞-groupoid]]
+  * [[strict ∞-groupoid]]
 
     * [[crossed complex]]
+
+* [[∞-group]]
 
   * [[simplicial group]]
 
@@ -46,36 +48,38 @@
 
   * [[∞-Lie groupoid|strict ∞-Lie groupoid]]
 
-  * [[Lie group]]
-
   * [[Lie groupoid]]
 
     * [[differentiable stack]]
 
     * [[orbifold]]
 
+* [[∞-Lie group]]
 
+  * [[Lie group]]
+
+  * [[Lie 2-group]]
 
 ## ∞-Lie algebroids
 
-* [[Lie-∞-algebroid]]
-
-* [[L-∞-algebra]]
-
-* [[Lie algebroid]]
-
-* [[Lie algebra]]
-
-* [[Lie 2-algebra]]
-
-* [[strict Lie 2-algebra]]
-
-  * [[differential crossed module]]
-
-* [[Lie 3-algebra]]
+* [[∞-Lie algebroid]]
+  
+  * [[Lie algebroid]]
 
 * [[Lie ∞-algebroid representation]]
 
+
+* [[L-∞-algebra]]
+
+  * [[Lie algebra]]
+
+  * [[Lie 2-algebra]]
+
+    * [[strict Lie 2-algebra]]
+
+    * [[differential crossed module]]
+
+* [[Lie 3-algebra]]
 
 
 ## Integration and differentiation
