@@ -1,8 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-***
+=--
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -199,11 +208,14 @@ In particular, if we simply drop the condition that the dg-algebra be generated 
 
 * So in particular 
 
-  * an $L_\infty$-algebra generated just in degree 1 is an ordinary [[Lie algebra]];
+  * an $L_\infty$-algebra generated just in degree 1 is an ordinary **[[Lie algebra]]** ;
 
-  * an $L_\infty$-algebra generated just in degree 1 and 2 is a [[Lie 2-algebra]];
+  * an $L_\infty$-algebra generated just in degree 1 and 2 is a **[[Lie 2-algebra]]** ;
 
-  * an $L_\infty$-algebra generated just in degree 1 and 2 and with at most binary brackets is a [[strict Lie 2-algebra]], equivalently encoded in a [[differential crossed module]].
+    * an $L_\infty$-algebra generated just in degree 1 and 2 and with at most binary brackets is a **[[strict Lie 2-algebra]]** , equivalently encoded in a [[differential crossed module]].
+
+  * an $L_\infty$-algebra generated just in degree 1, 2 and 3 is a **[[Lie 3-algebra]]** ;
+
 
 * The skew-symmetry of the Lie bracket is retained strictly in $L_\infty$-algebras. It is expected that weakening this, too, yields a more general [[vertical categorification]] of Lie algebras. For $n=2$ this has been worked out by Dmitry Roytenberg: [On weak Lie 2-algebras](http://arxiv.org/abs/0712.3461).
 
@@ -226,7 +238,7 @@ A quick web entry is:
 
 See also for instance section 3.1 of:
 
-Alberto S. Cattaneo, Florian Sch&auml;tz, _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
+Alberto S. Cattaneo, Florian Sch&#228;tz, _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
 
 The standard reference for Lie 2-algebras is:
 
