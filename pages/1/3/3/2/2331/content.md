@@ -169,12 +169,13 @@ In this approach, one begins with an object $X$ (for example a scheme, or a comp
 
 In the case of a compact complex manifold, the dgLa in question is given by the so-called Kodaira-Spencer dgLa: holomorphic vector fields tensor $(0,q)$-forms (this is just the [[Dolbeault cohomology|Dolbeault resolution]] of the sheaf of holomorphic vector fields). In the case of an associative algebra (or a dg algebra, or an A-infinity algebra, or a dg category, or an A-infinity category), the appropriate dgLa is the Hochschild complex with the Hochschild differential and the Gerstenhaber bracket.
 
-In this language, the [[Tian-Todorov theorem]] on the unobstructedness of deformations of [[Calabi-Yau manifold]]s translates to the statement that the Kodaira-Spencer dgLa of a Calabi-Yau manifold is [[formal]]. Barannikov-Kontsevich proved more generally that the dgLa given by holomorphic polyvector fields tensor $(0,q)$-forms on a Calabi-Yau manifold is formal. The deformation-theoretic consequence is that the "extended deformations" of Calabi-Yau manifolds are unobstructed. These "extended deformations" should be realized by certain $A_\infty$ deformations of (a dg enhancement of) the derived category of coherent sheaves on the Calabi-Yau.
+In this language, the [[Tian-Todorov theorem]] on the unobstructedness of deformations of [[Calabi-Yau manifold]]s translates to the statement that the Kodaira-Spencer dgLa of a Calabi-Yau manifold is homotopy abelian --- that is, it is quasi-isomorphic to an abelian dg Lie algebra. Barannikov-Kontsevich proved more generally that the dgLa given by holomorphic polyvector fields tensor $(0,q)$-forms on a Calabi-Yau manifold is homotopy abelian. The deformation-theoretic consequence is that the "extended deformations" of Calabi-Yau manifolds are unobstructed. These "extended deformations" should be realized by certain $A_\infty$ deformations of (a dg enhancement of) the derived category of coherent sheaves on the Calabi-Yau.
 
 The following paper is a good introduction to these ideas:
 
 * Marco Manetti, _Deformation theory via differential graded Lie algebras_ , &#176;([arXiv:0507284](http://arxiv.org/abs/math/0507284))
 
+The Kontsevich and Soibelman references below are also good.
 
 
 ## Related entries 
