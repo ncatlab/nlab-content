@@ -8,9 +8,51 @@
 {:toc}
 
 
+## Idea
+
+The _Chevalley-Eilenberg algebra_ $CE(\mathfrak{g})$ of a [[Lie algebra]] is a [[differential graded algebra]] of elements dual to $\mathfrak{g}$ whose [[differential]] encodes the Lie bracket on $\mathfrak{g}$.
+
+The [[cochain cohomology]] of the underlying cochain complex is the [[Lie algebra cohomology]] of $\mathfrak{g}$.
+
+This generalizes to a notion of Chevalley-Eilenberg algebra for $\mathfrak{g}$ an [[L-∞-algebra]].
+
+## Grading conventions {#GradingConvention}
+
+This differential-graded subject is somewhat notorious for a plethora of equivalent but different conventions on gradings and signs. 
+
+For the following we adopt the convention that for $V$ an $\mathbb{N}$-[[graded vector space]] we write
+
+$$
+  \begin{aligned}
+    \wedge^\bullet V &:= Sym(V[1])
+     \\
+      & = k \oplus (V_0) \oplus (V_1 \oplus V_0 \wedge V_0) \oplus 
+     (V_2 \oplus V_1 \otimes V_0 \oplus V_0 \wedge V_0 \wedge V_0)
+     \oplus \cdots
+  \end{aligned}
+$$
+
+for the [[free construction|free]] graded-commutative algebra on the graded vector space obtained by shifting $V$ _up_ in degree by one.
+
+Here the elements in the $n$th term in paranthesis are in degree $n$.
+
+A plain vector space, such as the dual $\mathfrak{g}^*$ of the vector space underlying a Lie algebra, we regard here as a $\mathbb{N}$-graded vector space in degree 0. For such, $\wedge^\bullet \mathfrak{g}^*$ is the ordinary [[Grassmann algebra]] over $\mathfrak{g}^*$, where elements of $\mathfrak{g}^*$ are generators of degree 1.
+
+
+
 ## Of a Lie algebra
 
-The _Chevalley-Eilenberg algebra_ $CE(\mathfrak{g})$ of a finite dimensional [[Lie algebra]] $\mathfrak{g}$ is the [[semifree dga|semifree]] graded-commutative [[dg-algebra]] whose underlying graded algebra is the [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^*$ and whose [[differential]] $d$ is on $\mathfrak{g}^*$ the dual of the Lie bracket
+The _Chevalley-Eilenberg algebra_ $CE(\mathfrak{g})$ of a finite dimensional [[Lie algebra]] $\mathfrak{g}$ is the [[semifree dga|semifree]] graded-commutative [[dg-algebra]] whose underlying graded algebra is the [[Grassmann algebra]] 
+
+$$
+  \wedge^\bullet \mathfrak{g}^*
+  = 
+  k \oplus \mathfrak{g}^* \oplus (\mathfrak{g}^* \wedge \mathfrak{g}^* ) \oplus \cdots
+$$ 
+
+(with the $n$th skew-symmetrized power in degree $n$)
+
+and whose [[differential]] $d$ (of degree +1) is on $\mathfrak{g}^*$ the dual of the Lie bracket
 
 $$
   d|_{\mathfrak{g}^*} := [-,-]^* : \mathfrak{g}^* \to \mathfrak{g}^* \wedge \mathfrak{g}^*
@@ -47,6 +89,7 @@ $$
   (\wedge^\bullet \mathfrak{g}^* , d )
   \,.
 $$
+
 
 ## For $L_\infty$-algebras
 
