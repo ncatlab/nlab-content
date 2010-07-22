@@ -1,12 +1,24 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
+
+* [[groupoid of Lie-algebra valued forms]]
+
+* 2-groupoid of Lie 2-algebra valued forms
+
+* [[3-groupoid of Lie 3-algebra valued forms]]
 
 ## Idea
 
