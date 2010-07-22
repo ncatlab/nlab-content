@@ -122,6 +122,7 @@ The analogs of topos theory in [[higher category theory]] is [[higher topos theo
 
 * A bit of theory also exists for [[2-topos]]es.
 
+* By [[negative thinking]], a [[(0,1)-topos]] is a [[Heyting algebra]].
 
 
 ## References {#References}
