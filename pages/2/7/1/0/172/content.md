@@ -1,8 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-***
+=--
+#### Higher geometry
++--{: .hide}
 [[!include higher geometry - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
