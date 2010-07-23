@@ -1,7 +1,13 @@
-* for disambiguation see [[homotopy]]
 
-#Idea#
+* This page is about homotopy as an operation.  For homotopy as a transformation, see [[homotopy]].
 
+***
+
+# Homotopy sets in homotopy categories
+* table of contents
+{: toc}
+
+## Idea
 
 +-- {: .standout}
  The following abstract nonsense is a bit tentative.
@@ -51,9 +57,10 @@ as the **homotopy of $X$ with co-coefficients in $B$** (or efficients in $B$ if 
 Examples of such constructions exist, but are rarely thought of (or even recognized as) generalizations of the notion of homotopy. Rather, by the above duality, the same situation is usually regarded in the context of [[cohomology]], which, still by the above duality, is just as well.
 =--
 
-##An experimental attempt to dualize the [[cohomology]] page##
 
-###Examples###
+## An experimental attempt to dualize the [[cohomology]] page
+
+### Examples
 
 *  classes of special cases of homotopies with their own entries include (create page if you think it might work)
    * [[group homotopy]]
@@ -63,3 +70,7 @@ Examples of such constructions exist, but are rarely thought of (or even recogni
    * [[?ech homotopy]]
    * differential homotopy
    * twisted homotopy
+
+
+[[!redirects homotopy as an operation]]
+[[!redirects homotopy (as an operation)]]
