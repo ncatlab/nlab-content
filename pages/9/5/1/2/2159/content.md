@@ -11,10 +11,14 @@ Some references:
 
 *  A.B. Goncharov, _The pentagon relation for the quantum dilogarithm and quantized $M_{0,5}$_, [arxiv:0706.4054](http://arxiv.org/abs/0706.4054)
 
-*  V. V. Fock, A. B. Goncharov, _The quantum dilogarithm and representations quantum cluster varieties_, [arxiv:math/0702397](http://arxiv.org/abs/math/0702397)
+*  V. V. Fock, A. B. Goncharov, _The quantum dilogarithm and representations of quantum cluster varieties_, [arxiv:math/0702397](http://arxiv.org/abs/math/0702397)
 
 * V. V. Fock, A. B. Goncharov, _Cluster ensembles, quantization and the dilogarithm II: The intertwiner_, [arxiv:math/0702398](http://arxiv.org/abs/math/0702398)
 
 * Ettore Aldrovandi, Leon A. Takhtajan, _Generating functional in CFT and effective action for twodimensional quantum gravity on higher genus Riemann surfaces_, Comm. Math. Phys. 188 (1997), no. 1, 29--67; _Generating functional in CFT on Riemann surfaces. II. Homological aspects_, Comm. Math. Phys. 227 (2002), no. 2, 303--348, [arXiv:math.AT/0006147](http://arxiv.org/abs/math.AT/0006147). 
 
 * R. M. Kashaev, _Quantization of Teichmuller spaces and the quantum dilogarithm_, Lett. Math. Phys., Vol. 43, No. 2, 1998
+
+* R.M.Kashaev, _The hyperbolic volume of knots from the quantum dilogarithm_, Letters in mathematical physics __39__, n3, 1997
+
+* Aug 9-13, 2010 -- workshop on quantum dilogarithm in Aarhus: [web](http://www.qgm.au.dk/events/quantumdilogarithm)
