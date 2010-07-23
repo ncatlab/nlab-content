@@ -14,6 +14,8 @@ For my own reference: some pages that I'm planning to do some work on:
 * give a definition at [[2-limit]]
 * write about some specific 2-limits, like [[inserter]], [[inverter]], [[equifier]]
 * give an example at [[monadicity theorem]].
+* [[image]]
+* copy some stuff over from my personal web
 
 And here's how to make a barred arrow $A &#8696; B$, since I always forget:
 
