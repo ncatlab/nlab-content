@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _string Lie 2-algebra_ is the [[infinitesimal object|infinitesimal approximation]] to the [[Lie 2-group]] called the [[string 2-group]].
+The _string Lie 2-algebra_ is the [[infinitesimal object|infinitesimal approximation]] to the [[Lie 2-group]] that is called the [[string 2-group]].
 
 It is a shifted [[L-infinity-algebra|∞-Lie algebra]] central extension
 
@@ -27,7 +27,7 @@ $$
   \to \mathfrak{so}(n) \to 0
 $$
 
-of the [[Lie algebra]] $\mathfrak{so}(n)$ by the [[Lie 2-algebra]] $\mathbf{b} \mathfrak{u}(1)$. This central extension is the one by the canonical (up to normalization) [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu$ on $\mathfrak{so}(n)$, which may itself be understood as a morphism
+of the [[Lie algebra]] $\mathfrak{so}(n)$ by the [[Lie 2-algebra]] $\mathbf{b} \mathfrak{u}(1)$ which is classified by the canonical (up to normalization) [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu$ on $\mathfrak{so}(n)$, which may itself be understood as a morphism
 
 $$
   \mu : \mathfrak{so}(n) \to b^2 \mathfrak{u}(1)
@@ -39,9 +39,15 @@ When $\mu$ is normalized such that it represents the image in [[deRham cohomolog
 
 ## Definition
 
-### In components
+We spell out first an explicit algebraic realization of the string Lie 2-algebra and then give its abstract definition as a [[homotopy fiber]] or [[principal ∞-bundle]].
+
+### In components {#InComponents}
 
 As with any [[L-∞ algebra]], we may define the String Lie 2-algebra $\mathfrak{string}(n)$ equivalently in terms of its [[Chevalley?Eilenberg algebra]].
+
+There are various equivalent models we discuss a small one with a trinary bracket, and an infinite dimensional model which is however strict in that it comes from a [[differential crossed module]].
+
+#### Skeletal model
 
 Write $\mathfrak{g} := \mathfrak{so}(n)$ in the following. The [[Chevalley?Eilenberg algebra]] $CE(\mathfrak{g})$ of $\mathfrak{g}$ has a degree 3 element
 
@@ -99,6 +105,20 @@ $$
 [x,y,z]_3=\mu(x,y,z)\cdot \beta,
 $$
 where $\beta:\langle b\rangle\to\mathbb{R}$ is the dual of $b$.
+
+#### Strict Lie 2-algebra model 
+
+**Proposition** The string Lie 2-algebra given above is equivalent to the infinite-dimensional Lie 2-algebra coming from the [[differential crossed module]]
+
+$$
+  \hat \Omega \mathfrak{g} \to P \mathfrak{g}
+$$
+
+of the universal central extension of the [[loop Lie algebra]] mapping into the path Lie algebra, which acts on the former in the evident way.
+
+This is proven in [BCSS](#BCSS).
+
+
 
 ### As a homotopy fiber {#AsHomotopyFiber}
 
@@ -217,15 +237,20 @@ In one incarnation or other the String Lie 2-algebra has been considered in lite
 * [[John Baez]], [[Alissa Crans]], Higher-dimensional Algebra V: Lie 2-algebras, _Theory and Applications of Categories_ **12** (2004), 492-528.  ([web](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html))
 ([arXiv:math.QA/0307263](http://arxiv.org/abs/math.QA/0307263))
 
-After its relation to the [[String Lie 2-group]] under [[Lie integration]] was established by Henriques in
+In 
 
 * [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv:0603563](http://arxiv.org/abs/math/0603563))
 
-and 
+the string Lie 2-algebra is integrated to the [[string 2-group]] using the general abstract method described at [[Lie integration]]. 
 
-* [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]] and [[Danny Stevenson]], From loop groups to 2-groups, _Homotopy, Homology and Applications_ **9** (2007), 101-135.  ([arXiv:math.QA/0504123](http://arxiv.org/abs/math.QA/0504123))
+In
 
-it was reconsidered also in 
+* [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]] and [[Danny Stevenson]], From loop groups to 2-groups, _Homotopy, Homology and Applications_ **9** (2007), 101-135.  ([arXiv:math.QA/0504123](http://arxiv.org/abs/math.QA/0504123)) 
+  {#BCSS}
+
+the equivalent strict model given by a differential crossed module is found, which is then integrated termwise as ordinary Lie algebras to a [[crossed module]] of Frechet-Lie groups, hence to a Lie [[strict 2-group]] model of the String Lie 2-group.
+
+The string Lie 2-algebra is also considered in a certain context in 
 
 * Sati, Schreiber, Stasheff, _$L_\infty$-algebra connections_
 
