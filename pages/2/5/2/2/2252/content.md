@@ -51,6 +51,9 @@ In a fundamental article in [[noncommutative algebraic geometry]],
 
 Kapranov introduced objects which should be interpreted as the infinitesimal neighborhoods of those commutative schemes with a closed immersion into a noncommutative scheme which is locally isomorphic to the spectrum of a free associative algebra. 
 
+A topologists viewpoint:
+
+* Neil P. Strickland, _Formal schemes and formal groups_, [math.AT/0011121](http://arxiv.org/abs/math.AT/0011121)
 
 #Basic literature#
 
