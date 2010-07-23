@@ -1,5 +1,7 @@
 **Dmitry Kaledin** (sometimes transliterated as Dmitri) is a Russian mathematician. 
 
+Kaledin has proved some cases of the [[degeneration conjecture]] of [[Maxim Kontsevich]].
+
 * [homepage at Russian Academy of Sciences](http://www.mi.ras.ru/~kaledin), [arXiv papers](http://arxiv.org/find/math/1/au:+Kaledin_D/0/1/0/all/0/1) 
 
 * D. Kaledin, _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex); and related but different [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul)
