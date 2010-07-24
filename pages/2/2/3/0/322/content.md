@@ -13,6 +13,7 @@
 
 An **operad** is a gadget used to describe algebraic structures in [[symmetric monoidal category|symmetric monoidal categories]].  An operad is like a [[Lawvere theory]] in that it can be used to describe structures having finitary operations obeying equational laws.  However, unlike Lawvere theories, operads can be applied to general symmetric monoidal categories where the tensor product might not be the cartesian product. 
 
+
 Actually the notion of operad (and allied notions such as [[PROP]], [[club]], [[multicategory]] and so on) come in many flavors. Originally used in algebraic topology to provide a systematic formalism for describing the internal operations which exist on iterated loop spaces, the basic idea is quite flexible and adaptable to many categorical situations, and the importance of operads continues to grow. 
 
 ## The rough definition 
@@ -349,6 +350,14 @@ $$
 Let $V$ be a [[cartesian monoidal category]] and $K = {*}$ the terminal collection, which is the [[terminal object]] in each degree, with, necessarily, trivial $\Sigma_n$-action.
 
 The free operad on this should be the $V$-[[A-infinity operad]] it consists in degree $n$ of precisely $|\Sigma_n|$-operations per $n$-ary planar tree. So every planar $n$-ary tree is regarded by the operad as one distinct operation to multiply $n$ elements, and freely adjoining to each tree a $\Sigma_n$-action amounts to not dividing out any commutativity symmetry on these operations.
+
+Riemann surfaces operad (TO BE EXPANDED)
+
+Deligne-Mumford opeard (TO BE EXPANDED)
+
+Little discs operad, framed little discs operad (TO BE EXPANDED) -- See [[Deligne conjecture]]
+
+
 
 
 ## Model structures on operads 
