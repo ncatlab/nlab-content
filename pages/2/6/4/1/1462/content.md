@@ -1,12 +1,20 @@
-#Idea#
+# Coimages
+* table of contents
+{: toc}
+
+## Idea
 
 The coimage of a morphism is the notion [[duality|dual]] to its [[image]].
 
-#Definition#
+You cannot have an image or coimage without the other; the general theory is at [[image]].
+
+
+## Definition
 
 The **coimage** of a [[morphism]] $f : c \to d$ in a [[category]] $C$ is the [[image]] of the corresponding morphism in the [[opposite category]] $C^{op}$.
 
-## In terms of colimits ##
+
+### In terms of colimits
 
 If $C$ has finite [[limit]]s and [[colimit]]s, then the coimage of a morphism $f : c \to d$ is
 $$
@@ -49,6 +57,10 @@ $$
 is an [[epimorphism]]. 
 
 
-#Remarks#
+## Remarks
 
 * Morphisms for which image and coimage coincide (in a certain sense) are [[strict morphism]]s.
+
+
+[[!redirects coimage]]
+[[!redirects coimages]]
