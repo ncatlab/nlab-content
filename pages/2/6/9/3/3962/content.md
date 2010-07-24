@@ -11,22 +11,22 @@
 
 Any local field is one of the following types: 
 
-* Characteristic zero. In this case local fields $F$ are completions of [[number field]]s with respect to metrics induced by [[valuation]]s. The valuations may be 
+* Characteristic zero. In this case local fields $F$ are [[complete space|completions]] of [[number field]]s with respect to metrics induced by [[valuation]]s. The valuations may be 
 
-  * Archimedean. Here for every $x \in F$, there exists $n \in \mathbb{N}$ such that $\|n x\| \gt 1$, where $\| \cdot \|$ is the valuation. The local fields in this case are isomorphic as topological fields to $\mathbb{R}$ or $\mathbb{C}$. 
+  * Archimedean. Here for every $x \in F$, there exists $n \in \mathbb{N}$ such that ${\|n x\|} \gt 1$, where ${\| \cdot \|}$ is the valuation. The local fields in this case are isomorphic as topological fields to $\mathbb{R}$ or $\mathbb{C}$. 
 
-  * Nonarchimedean. Such valuations are discrete valuations, and are the completions of discrete valuations induced by prime ideals $v$ of the ring of algebraic integers $\mathcal{O}_k$ in a number field $k$. The valuation on the number field is defined by $\|x\|_v = q^{-n}$ where $q$ is the cardinality of the finite field $\mathcal{O}_k/v$, and $n$ is the least integer such that $x \in v^n$. The completion is called the $v$-**adic completion** and is denoted $k_v$. 
+  * Nonarchimedean. Such valuations are discrete valuations, and are the completions of discrete valuations induced by prime ideals $v$ of the ring of algebraic integers $\mathcal{O}_k$ in a number field $k$. The valuation on the number field is defined by ${\|x\|_v} = q^{-n}$ where $q$ is the cardinality of the [[finite field]] $\mathcal{O}_k/v$, and $n$ is the least integer such that $x \in v^n$. The completion is called the **$v$-adic completion** and is denoted $k_v$. 
 
-* Characteristic $p \gt 1$. In this case local fields are fields of Laurent series $\mathbb{F}_q((t))$ over a finite field $\mathbb{F}_q$ of cardinality $q = p^n$; here $\|f(t)\| = q^{-n}$ where $f(t) = a_n t^n + a_{n+1}t^{n+1} + \ldots$. The valuation is nonarchimedean. 
+* Characteristic $p \gt 1$. In this case local fields are fields of [[Laurent series]] $\mathbb{F}_q((t))$ over a finite field $\mathbb{F}_q$ of cardinality $q = p^n$; here ${\|f(t)\|} = q^{-n}$ where $f(t) = a_n t^n + a_{n+1}t^{n+1} + \ldots$. The valuation is nonarchimedean. 
 
-Local fields are technically useful in modern number theory; for example in formulating local-to-global principles, and in formulations of class field theory following Tate's thesis. Part of the technical convenience resides in the fact that one can effectively do Fourier analysis on them; as additive topological groups, they are self-dual locally compact abelian groups (in the sense of [[Pontrjagin dual|Pontryagin duality]]). 
+Local fields are technically useful in modern [[number theory]]; for example in formulating local-to-global principles, and in formulations of [[class field theory]] following Tate's thesis. Part of the technical convenience resides in the fact that one can effectively do [[Fourier analysis]] on them; as additive [[topological abelian group|topological groups]], they are self-dual locally compact abelian groups (in the sense of [[Pontrjagin dual|Pontryagin duality]]). 
  
 
 ## Relation to local rings (warning)
 
 It is possible to misconstrue "local field" in several different ways, to wit: 
 
-* As meaning "field of fractions of an integral domain that is a local ring". 
+* As meaning "[[field of fractions]] of an [[integral domain]] that is a [[local ring]]". 
 
 * As meaning "field of fractions of an integral domain that arises as the completion of a local ring with respect to its canonical valuation". 
 
@@ -36,10 +36,14 @@ The second misinterpretation is a little more subtle; it is quite true that the 
 
 * The archimedean local fields $\mathbb{R}$, $\mathbb{C}$ do _not_ arise this way; 
 
-* Under the $m$-[[adic topology]], the completion of a local ring $R$ with maximal ideal $m$, i.e., the inverse [[limit]] of the [[diagram]] 
+* Under the $m$-[[adic topology]], the completion of a local ring $R$ with maximal ideal $m$, i.e., the [[inverse limit]] of the [[diagram]] 
 $$\ldots R/m^{n+1} \stackrel{proj}{\to} R/m^n \to \ldots \to R/m$$
 is typically not compact (and its field of fractions is not locally compact). It is of course compact if each $R/m^n$ is finite with the discrete topology, and we remark that finite local rings are precisely of the form $\mathcal{O}/p^n$ where $p$ is a prime in a number field $\mathcal{O}$, or of the form $\mathbb{F}_q[t]/t^n$. (Hm, is that right?)
 
 Both points indicate that the provenance of "local" in "local field" (the terminology is due to Weil, I believe) is probably the local compactness of the topology; the fact that the nonarchimedean local fields do arise as completions with respect to discrete valuations tied to local ring structure (in the algebraic sense) can be seen as a happy coincidence between two senses of "local". (Or unhappy, depending on one's point of view!) 
 
 There is a functor from the category of nonarchimedean local fields to the category of local rings, which assigns the maximal compact subring to a local field $k$. This is a local ring $\mathcal{O}$ whose field of fractions is $k$ again. We reiterate, however, that this construction does not apply to archimedean local fields (isomorphic to $\mathbb{R}$ or $\mathbb{C}$). 
+
+
+[[!redirects local field]]
+[[!redirects local fields]]
