@@ -35,7 +35,7 @@ A limit is taken over a [[functor]] $F : D^{op} \to C$ and since the functor com
 
 In some schools of mathematics, limits are called _projective limits_, while colimits are called _inductive limits_.  Also seen are (respectively) _inverse limits_ and _direct limits_.  Both these systems of terminology are alternatives to using 'co-' when distinguishing limits and colimits.  The first system also appears in [[pro-object]] and [[ind-object]].
 
-Correspondingly, the symbols $lim_{\leftarrow}$ and $lim_{\rightarrow}$ are used instead of $lim$ and $colim$.  (Actually, the arrows should be directly underneath the '$lim$'s, something like ${\lim \atop \longleftarrow}$ and ${\lim \atop \longrightarrow}$.  But the text should also be at normal size.)
+Correspondingly, the symbols $\underset{\leftarrow}lim$ and $\underset{\rightarrow}\lim$ are used instead of $\lim$ and $\colim$.
 
 Confusingly, many authors restrict the meanings of these alternative terms to (co)limits whose sources are [[direction|directed set]]s; see [[directed limit]].  In fact, this is the original meaning; projective and inductive limits in this sense were studied in algebra before the general category-theoretic notion of (co)limit.
 
