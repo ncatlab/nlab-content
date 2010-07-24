@@ -3,27 +3,24 @@
 [[!include infinity-limits - contents]]
 </div>
 
-
-#Contents#
+# Directed colimits
 * automatic table of contents goes here
 {:toc}
 
-
 ## Abstract definition 
 
-A **directed colimit** is a [[colimit]] $\lim_\to F$ of a functor $F : J \to C$ whose [[source]] [[category]] $J$ is an (upward)-[[direction|directed set]].  
+A __directed colimit__ is a [[colimit]] $\underset{\to}\lim F$ of a functor $F\colon J \to C$ whose [[source]] [[category]] $J$ is an (upward)-[[direction|directed set]].
 
 More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a **$\kappa$-directed set** $J$ is a [[poset]] in which every subset of cardinality $\lt \kappa$ has an upper bound. Then a colimit over a functor $J \to C$ is called **$\kappa$-directed colimit**.
 
-If the directed set is an [[ordinal]], one speaks of a [[sequential limit]].
+If the directed set is an [[ordinal]], one speaks of a [[sequential colimit]].
 
-The [[duality|dual]] notion is that of _[[directed limit]]_, a [[limit]] of a functor whose source is a downward-directed set.
+The [[duality|dual]] notion is that of [[codirected limit]], a [[limit]] of a functor whose source is a downward-directed set.
 
 
+## Terminology
 
-### Terminology
-
-Note that the terminology varies.  Especially in algebra, a directed colimit may be called an '[[inductive limit]]' or '[[direct limit]]'; it\'s also possible to distinguish these so that a direct limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[colimit]]s as an alternative terminology.  (The corresponding dual terms are '[[projective limit]]' and '[[inverse limit]]' for [[limit]]s.)
+Note that the terminology varies.  Especially in algebra, a directed colimit may be called an '[[inductive limit]]' or '[[direct limit]]'; it\'s also possible to distinguish these so that a direct limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[colimits]] as an alternative terminology.  (The corresponding dual terms are '[[projective limit]]' and '[[inverse limit]]' for [[limits]].)
 
 Directed (co)limits were studied in algebra (as inductive and projective limits) before the general notion of limit in category theory.  The elementary definition still seen there follows.
 
@@ -39,7 +36,7 @@ An __inductive system__ in $C$ consists of a [[direction|directed set]] $I$, a f
 Then an __inductive cone__ of this inductive system is an object $X$ and a family of __inductions__ $\iota_i: A_i \to X$ such that
 $$ \iota_i = f_{ij} ; \iota_j .$$
 
-Finally, an __inductive limit__ of the inductive system is an inductive cone ${\textstyle \lim \atop \textstyle \longrightarrow}_i A_i$ (where both $f$ and $\iota$ are suppressed in the notation, each in its own way) which is [[universal property|universal]] in that, given any inductive cone $X$, there exists a unique morphism $u: {\textstyle \lim \atop \textstyle \longrightarrow}_i A_i \to X$ such that
+Finally, an __inductive limit__ of the inductive system is an inductive cone $\underset{\to}\lim_i A_i$ (where both $f$ and $\iota$ are suppressed in the notation, each in its own way) which is [[universal property|universal]] in that, given any inductive cone $X$, there exists a unique morphism $u\colon \underset{\to}\lim_i A_i \to X$ such that
 $$ \iota_i = \iota_i ; u $$
 (where the left-hand $\iota$ is from the cone $X$ and the right-hand $\iota$ is from the limit).
 
@@ -59,9 +56,10 @@ The fact that directed colimits suffice to obtain all filtered ones may be regar
 
 ### In algebra
 
-An inductive limit in algebra is usually defined as a [[quotient object|quotient]] of a [[disjoint union]].  To be precise, ${\textstyle \lim \atop \textstyle \longrightarrow}_i A_i$ is the disjoint union $\biguplus_{i: I} A_i$ with $x: A_i$ identified with $y: A_j$ if
+An inductive limit in algebra is usually defined as a [[quotient object|quotient]] of a [[disjoint union]].  To be precise, $\underset{\to}\lim_i A_i$ is the disjoint union $\biguplus_{i: I} A_i$ with $x: A_i$ identified with $y: A_j$ if
 $$ f_{ik}(x_i) = f_{ik}(x_j) $$
 for some $k$.  Here it is important that $C$ is a [[concrete category]] and that $I$ is a directed set (rather than merely a [[partial order|poset]]); this construction doesn\'t generalise very well.
+
 
 ### In accessible category theory 
 
@@ -75,5 +73,6 @@ A [[Pruefer group]] $Z_{p^\infty}$ (for $p$ a [[prime number]]) is an inductive 
 A [[stalk]] $F_x$ (for $F$ a [[sheaf]] on a [[topological space $S$ and $x$ an element of $S$) is an inductive limit of $F(U)$ (for $U$ an open neighbourhood of $x$).
 
 
+[[!redirects directed colimit]]
 [[!redirects directed colimits]]
 [[!redirects Directed colimits]]
