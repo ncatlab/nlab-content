@@ -59,9 +59,9 @@ to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a singl
 Suppose that $M$ is closed under composition, and that $f = m e$ is an image factorization relative to $M$.  Then $e$ has the property that if $e = n g$ for some $n\in M$, then $n$ is an isomorphism --- for then we would have $f = (m n) g$ and so by universality of images, $m$ would factor through $m n$.  In particular, if $M$ is the class of all monomorphisms and $C$ has [[equalizers]], then $e$ is an [[extremal epimorphism]].
 
 If $C$ has [[pullbacks]] and $M$ is closed under pullbacks, then we can say more: $e$ is [[orthogonality|orthogonal]] to $M$.  For if
-$$\array{ & \overset{h}{\to} & \\
+$$\array{a & \overset{h}{\to} & b\\
   ^e\downarrow && \downarrow^n\\
-  & \underset{k}{\to} & }$$
+  c  & \underset{k}{\to} & d}$$
 is a commutative square with $n\in M$, then the pullback $k^*n$ is an $M$-morphism through which $e$ factors.  Hence $k^*n$ must be an isomorphism, and so the square admits a diagonal filler, which is unique since $n\in M$ is monic.  It follows that if all $M$-images exist in $C$, then $M$ is the right class of an [[orthogonal factorization system]], and $M$-images are precisely the factorizations in this OFS.
 
 Conversely, it is easy to see that if $(E,M)$ is an OFS on a category $C$, then all $M$-images exist and are given by the factorizations of the OFS.  Therefore, to give a notion of image is more or less equivalent to giving an orthogonal factorization system.
@@ -72,12 +72,12 @@ Note that the notion of factorization system is self-dual.  Therefore, if $(E,M)
 
 However, see below for additional remarks on the usage of the terms "image" and "coimage."
 
-## Construction using limits
+## Construction using limits {#AsEqualizer}
 
-If the category $C$ admits finite [[limits]] and [[colimits]], then the image $Im f$ of a morphism $f : c \to d$ my be expressed as 
+Suppose that the category $C$ admits finite [[limits]] and [[colimits]], and that $M=RegMono$ consists of the [[regular monomorphisms]].  Then the $M$-image of a morphism $f : c \to d$ may be constructed as
 
 $$
-  Im f \simeq lim (d \stackrel{\to}{\to} d \sqcup_c d)
+  Im f \simeq lim (d \rightrightarrows d \sqcup_c d)
   \,,
 $$
 
@@ -94,76 +94,44 @@ $$
   \,.
 $$
 
-In other words, the image is the [[equalizer]] of the [[cokernel pair]].
+In other words, the **regular image** is the [[equalizer]] of the [[cokernel pair]].  To see that this is in fact the $RegMono$-image, we first note that it is of course a regular monomorphism by definition, and then invoke the fact that in a category with finite limits and colimits, a monomorphism is regular if and only if it is the equalizer of its cokernel pair.
 
-This is [[isomorphism|isomorphic]] to the [[pullback]] $d \times_{d \sqcup_c d} d$
+Dually, the **regular coimage** of a morphism is the [[coequalizer]] of its [[kernel pair]].  In [[Set]] (and more generally in any [[topos]]) these two constructions coincide, but in general they are distinct.  For example, in [[Top]] the regular image is the set-theoretic image topologized as a subspace of the [[target|codomain]], while the regular coimage is the set-theoretic image topologized as a quotient space of the [[source|domain]].
 
-$$
- im f \simeq d \times_{d \sqcup_c d} d
- \,.
-$$
+Note that some authors drop the "regular" and simply call these constructions the **image** and **coimage** respectively.  This can be confusing, however, since in many cases (such as in any [[regular category]]) the *regular coimage* coincides with the $M$-image for $M=Mono$ the class of all monomorphisms, which it is also natural to simply call the *image*.
 
-So in the diagram
+### Comparison of regular images and coimages
 
-$$
-  \array{
-    c &&\stackrel{f}{\to}&& d
-    \\
-    & \searrow && \nearrow
-    \\
-    \downarrow^f
-    && im f&&
-    \downarrow
-    \\
-    & \swarrow
-    \\
-    d
-    &&\to&&
-    d \sqcup_c d
-  }
-$$
+Suppose that $M_1$ and $M_2$ are two classes with $M_1\subseteq M_2$.  If $f$ has both an $M_1$-image $im_1(f)$ and an $M_2$-image $im_2(f)$, then by universality, the latter must factor through the former.  See [[2-stage factorization system]].
 
-the outer square is a [[pushout]] and the inner one is a [[pullback]].
-
-Since $im f$ is an [[equalizer]], the morphism
-
-$$
-  im f \to d
-$$
-
-is a [[monomorphism]]. In fact it is necessarily a [[regular monomorphism]].
+As a special case of this, we have:
 
 +-- {: .un_lemma}
 ###### Lemma
-
-There is a unique  morphism
-
+If $C$ has finite limits and colimits, then there is a unique map
 $$
  u :  coim f \to im f
 $$
-
-from the [[coimage]] to the image of $f$ such that
-
+from its regular coimage to its image such that
 $$
   f = (c \to coim f \stackrel{u}{\to} im f \to d)
   \,.
 $$
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Because $f$ coequalizes $c \times_d c \stackrel{\to}{\to} c$, a morphism $h$ in 
+Because $f$ coequalizes $c \times_d c \rightrightarrows c$, a morphism $h$ in 
 
 $$
   \array{
     c 
-      &\times_d c \stackrel{\to}{\to}&
+      &\times_d c \rightrightarrows&
     c
     &\stackrel{f}{\to}&
     d
-    &\stackrel{\to}{\to}&
+    &\rightrightarrows&
     d \sqcup_{c} d
     \\
    && {}^{\;}\downarrow^{epi} &{}^{h}\nearrow& {}^{\;}\uparrow^{mono}
@@ -174,16 +142,16 @@ $$
 
 exists uniquely.
 
-Because $c \to coim f$ is [[epimorphism|epi]] it follows that $h$ equalizes $d \stackrel{\to}{\to} d \sqcup_c d$ and hence $u$ in the diagram
+Because $c \to coim f$ is [[epimorphism|epi]] it follows that $h$ equalizes $d \rightrightarrows d \sqcup_c d$ and hence $u$ in the diagram
 
 $$
   \array{
     c 
-      &\times_d c \stackrel{\to}{\to}&
+      &\times_d c \rightrightarrows&
     c
     &\stackrel{f}{\to}&
     d
-    &\stackrel{\to}{\to}&
+    &\rightrightarrows&
     d \sqcup_{c} d
     \\
    && {}^{\;}\downarrow^{epi} &{}^{h}\nearrow& {}^{\;}\uparrow^{mono}
@@ -196,20 +164,7 @@ exists uniquely.
 
 =--
 
-
-**Remarks**
-
-* If $u$ is an [[isomorphism]] then $f$ is called a [[strict morphism]].
-
-* So if $C$ has finite limits and colimits and every morphism is a [[strict morphism]] we get an [[weak factorization system|epi-mono factorization]] of every morphism $f : c \to d$ through its image $\simeq$ coimage.
-
-* there are various generalizations of the notion of image to [[higher category theory|higher categorical]] contexts
-
-  * in [[Cat]] there is the notion of [[essential image]] of a [[functor]]
-
-  * in a [[presentable (infinity,1)-category]] or [[model category]] there is the notion of [[homotopy image]].
-
-* If the factorization of a morphism $f$ through its image is by an [[isomorphism]] then the morphism probably deserves to be called an [[embedding]].
+If this map $u$ is an [[isomorphism]], then $f$ is sometimes called a [[strict morphism]].  In particular, if $C$ has finite limits and colimits and every morphism is a strict morphism, then the regular image and regular coimage factorizations coincide and give an epi-mono factorization system.
 
 
 ## In higher category theory 
@@ -221,19 +176,20 @@ In [[higher category theory]] there are generalizations of the notion of image, 
 
 However, it is not clear that either serves as the proper categorification of the notion described above.
 
-There are several properties we might want a 'higher image' to have. For example, in an $2$-category, we might want isomorphic 1-cells to have equivalent images. In **Cat**, we might want the image of a functor between discrete categories to be its image as a function.
+There are several properties we might want a 'higher image' to have. For example, in an $2$-category, we might want isomorphic 1-cells to have equivalent images. In **Cat**, we might want the image of a functor between discrete categories to be its image as a function.  One fruitful direction is to study a [[factorization system in a 2-category]].
+
 
 ### In $(\infty,1)$-category theory {#InfImage}
- 
-Probably an **$(\infty,1)$-image** of a morphism $f : c \to d$ in an [[(∞,1)-category]] with [[(∞,1)-limit]]s and -colimits should be defined to be the [[(∞,1)-limit]] over the [[Cech nerve|Cech co-nerve]] of $f$:
+
+A **(regular) $(\infty,1)$-image** of a morphism $f : c \to d$ in an [[(∞,1)-category]] with [[(∞,1)-limit]]s and -colimits should be defined to be the [[(∞,1)-limit]] over the [[Cech nerve|Cech co-nerve]] of $f$:
 
 $$
   im f := \lim_{\leftarrow}
   \left(
-    d \stackrel{\to}{\to} d \coprod_c d 
-    \stackrel{\to}{\stackrel{\to}{\to}}
+    d \rightrightarrows d \coprod_c d 
+    \stackrel{\to}{\rightrightarrows}
     d \coprod_c d \coprod_c d
-    \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+    \stackrel{\to}{\stackrel{\to}{\rightrightarrows}}
     \cdots
   \right)
   \,.
