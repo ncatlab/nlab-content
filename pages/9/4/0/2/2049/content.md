@@ -79,7 +79,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         8.  (none)
         9.  (none)
         10. $Loc$ is not well-powered
-        11. $0$-[[0-coverage|coverage]], $0$-[[0-site|site]], $0$-[[0-sheaf|sheaf]]
+        11. [[(0,1)-coverage|coverage]], [[(0,1)-site|site]], [[(0,1)-sheaf|sheaf]]
         12. $Loc$ is complete
         13. [[locally compact space]]
         14. (none)
