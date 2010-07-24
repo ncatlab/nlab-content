@@ -1,25 +1,25 @@
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Idea
 
-The axioms of a [[category]] ensure that every _finite_ number of composable morphisms has a (unique) composite.
+The axioms of a [[category]] ensure that every _finite_ number of composable morphisms has a (unique) [[composite]].
 
 _Transfinite composition_ is a means to talk about morphisms in a category that behave as if they were the result of composing infinitely many morphisms.
 
 
-## Definition ##
+## Definition
 
 Let $\alpha$ denote in the following some [[ordinal number]] regarded as a [[poset]], hence as a [[category]] itself. Let $0 \in Obj(\alpha)$ be the smallest element (when $\alpha$ is [[inhabited set|inhabited]]).
 
 Let $C$ be a [[category]], $X$ an object of $C$, and $I \subset Mor(C)$ a [[class]] of morphisms in $C$. A **transfinite composition** of morphisms in $I$ is the morphism
 $$
-  X \to Y := colim (F)
+  X \to Y \coloneqq colim (F)
 $$
 from a [[diagram]]
 $$
-  F : \alpha \to C
+  F\colon \alpha \to C
 $$
 into its [[colimit]], schematically
 
@@ -36,7 +36,6 @@ $$
   }  
   \,,
 $$
-
 
 where the diagram is such that 
 
@@ -60,7 +59,7 @@ For purposes of [[constructive mathematics]], the continuity condition should be
 This actually includes $F(0) = X$ as a special case but says nothing when $\beta$ is a successor (so the successor clause is still required).
 
 
-## Applications ##
+## Applications
 
 Transfinite composition plays a role in
 
@@ -69,12 +68,14 @@ Transfinite composition plays a role in
 * [[cofibrantly generated model category|cofibrantly generated model categories]] .
 
 
-## References ##
+## References
 
 The above formulation is taken from page 6 of 
 
 * Tibor Beke, _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv.org/abs/math.CT/0102087))
 
+
 [[!redirects transfinite composite]]
 [[!redirects transfinite composites]]
+[[!redirects transfinite composition]]
 [[!redirects transfinite compositions]]
