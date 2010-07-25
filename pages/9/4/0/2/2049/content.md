@@ -80,8 +80,8 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         9.  (none)
         10. $Loc$ is not well-powered
         11. [[(0,1)-coverage|coverage]], [[(0,1)-site|site]], [[(0,1)-sheaf|sheaf]]
-        12. $Loc$ is complete
-        13. [[locally compact space]]
+        12. [[localic product]]
+        13. (none)
         14. (none)
     3.  Coherent locales
         1.  [[compact element]] (in a lattice)
