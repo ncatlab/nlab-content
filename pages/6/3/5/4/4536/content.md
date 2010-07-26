@@ -31,9 +31,9 @@ $$
 
 The principal example is that of a [[Lie algebra]]: here the Jacobi identity by definition holds for all triples of elements (and the bracket is skew-symmetric).
 
-### Relation to Leibniz identity
+### Relation to the Leibniz identity
 
-If the bracket $[-,-]$ is skew-symmetric the Jacobi identity for all triples is equivalent to the **Leibniz identity** that for all $x,a,b$, 
+If the bracket $[-,-]$ is skew-symmetric the Jacobi identity for all triples is equivalent to the **[[Leibniz identity]]** that for all $x,a,b$, 
 the linear map $ad_x = [x,-] : \mathfrak{g} \to \mathfrak{g}$ is a [[derivation]] with respect to the Lie bracket:
 
 $$
@@ -83,4 +83,8 @@ On the other hand, in terms of the [[Chevalley?Eilenberg algebra]] this is still
 
 
 [[!redirects Jacobi identity]]
-[[!redirects Leibniz identities]]
+[[!redirects Jacobi identities]]
+[[!redirects jacobiator]]
+[[!redirects jacobiators]]
+[[!redirects Jacobiator]]
+[[!redirects Jacobiators]]
