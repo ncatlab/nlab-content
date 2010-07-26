@@ -28,6 +28,14 @@ If you see a new citation of $n$Lab or $n$Caf&#233; material anywhere, please ad
 
   * [[johnbaez:Towards Higher Categories]]
 
+* [[David Roberts]], _Fundamental Bigroupoids and 2-Covering Spaces_ (PhD thesis, [[Fundamental Bigroupoids and 2-Covering Spaces|nLab page]])
+
+  cites: 
+
+  * [[Trimble n-category]]
+
+  * [[covering space]]
+
 ## citations of $n$Caf&#233; entries ##
 
 * [[Andrew Stacey]], _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
