@@ -2856,6 +2856,8 @@ Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[con
 
 ##### $\infty$-Chern-Weil homomorphism {#ChernWeilHomomorphism}
 
+... under construction ...
+
 The ordinary [[Chern-Weil homomorphism]] constructs [[curvature characteristic form]]s for $G$-[[principal bundle]]s from [[invariant polynomial]]s of [[Lie algebra]]s. The notion of [[invariant polynomial]] generalizes straightforwardly from Lie algebras to [[∞-Lie algebra]]s. We discuss a generalization of the Chern-Weil homomorphism for $\infty$-Lie groups in the image of the [[Lie integration]] map applied to an $\infty$-Lie algebra $\mathfrak{g}$.
 
 We discuss how to construct for each $\infty$-Lie algebra $\mathfrak{g}$ with [[Lie integration]] $\mathbf{B}G := \tau_n \exp(\mathfrak{g})$ from each [[infinity-Lie algebra cohomology|∞-Lie n-cocycle]] $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ in transgression with an [[invariant polynomial]] $P$ a morphism
@@ -2935,7 +2937,7 @@ has a lift over each $U \in CartSp$, hence that the morphism on the right is ove
 
 
 
-Let $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ be an [[infinity-Lie algeba cohomology|∞-Lie algebra cocycle]] which is in transgression with an [[invariant polynomial]] $P$, where the transgression is induced from a Chern-Simons element $cs_P$. This data is a diagram
+Let $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ be an [[infinity-Lie algebra cohomology|∞-Lie algebra cocycle]] which is in transgression with an [[invariant polynomial]] $P$, where the transgression is induced from a Chern-Simons element $cs_P$. This data is a diagram
 
 $$
   \array{
@@ -2970,7 +2972,7 @@ $$
   \,.
 $$
 
-This integrates to a moprhism 
+This integrates to a morphism 
 
 $$
     \hat \mathbf{B}_{diff}G \stackrel{\int \mu}{\to}
@@ -2983,7 +2985,83 @@ and $\mathbf{B}^n \mathbb{R}/K
   \stackrel{\simeq}{\leftarrow} \mathbf{B}^n_{diff} \mathbb{R}/K$
 are the [[resolution]]s.
 
+The following proposition asserts that this definition does indeed capture the ordinary Chern-Weil homomorphism.
 
+Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]], $G$ a [[Lie group]] and $P \to X$ a $G$-[[principal bundle]] classified by a morphisms $X \to \mathbf{B}G$ in $\infty LieGrpd$, hence a [[Cech cohomology|Cech cocycle]] given by a span
+
+$$
+  X \stackrel{\simeq}{\leftarrow}
+  Y
+  \to \mathbf{B}G
+$$
+
+in $[CartSp^{op}, sSet]_{proj}$.
+
+Let $\langle \cdots \rangle$ be an $n$-ary [[invariant polynomial]] on $\mathfrak{g}$
+
++-- {: .un_prop}
+###### Proposition
+
+The composite
+
+$$
+  X \to \mathbf{B}G \to \mathbf{\flat}_{dR}\mathbf{B}^{2n} U(1)
+$$
+
+in $\infty LieGrpd$, i.e. the morphism given by a zig zag
+
+$$
+  X 
+   \stackrel{\simeq}{\leftarrow}
+  Y 
+   \stackrel{}{\to}
+  \mathbf{B}G
+   \stackrel{\simeq}{\leftarrow}
+  \mathbf{B}_{diff}G
+  \to
+  \mathbf{\flat}_{dR}\mathbf{B}^{2n} U(1)  
+$$
+
+in $[CartSp^{op}, sSet]_{proj,cov}$ represents the [[de Rham cohomology]] class of the [[curvature characteristic form]]
+
+$$
+  [\langle F_\nabla \wedge \cdots \wedge F_\nabla\rangle]
+  \in
+  H^{2n}(X)
+$$
+
+of any [[connection on a bundle|connection]] $\nabla$ on $P$.
+
+
+=---
+
++-- {: .proof}
+###### Proof
+
+... sketch, am being interrupted ...
+
+By possibly refining the cover $Y$, we may lift the given cocycle $\mathbf{B}G$-cocycle to a $\mathbf{B}_{diff}G$ cocycle which on patches $U_i$ assigns the local curvature forms $A_i$ of $\nabla$.
+
+To a double intersection this cocycle assigns a based path $\gamma_{i j}$ in $G$ with endpoint $g_{i j}$. By the discussion at [[Chern-Simons form]] we find that the corresponding image of $\langle ... \rangle$ is the Chern-Simons form $CS(A_i,A_j)$ for this path of gauge transformations. Since $A_i$ and $A_j$ are components of a genuine connection (which always exsist), this form is closed. 
+
+Similarly for higher paths. It follows that the cocycle in $\mathbf{\flat}_{dR} \mathbf{B}^{2n }U(1) = (\Omega^1(-) \stackrel{d_{dR}}{\to}\cdots \stackrel{d_{dR}}{\to}\Omega^{2n}_{closed}(-))$ that we obtain looks like
+
+$$
+  (\langle F_{A_i} \wedge \cdots \wedge F_{A_i}\rangle, CS(A_i,A_j), \lambda_{i j k}, \cdots)
+  \,.
+$$
+
+Using a [[partition of unity]] this is coboundant to a cocycle of the form
+
+$$
+  (\langle F_{A_i} \wedge \cdots \wedge F_{A_i}\rangle + d something,0, 0, \cdots)
+  \,.
+$$
+
+This represents a globally defined form which differs from $\langle F_{\nabla}\wedge \cdots F_\nabla\rangle$ by an exact form.
+
+ 
+=--
 
 
 ### Cohomology {#Cohomology}
