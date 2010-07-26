@@ -1,6 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Stable homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
@@ -233,7 +245,7 @@ or
 
 A link for discussion and a list of source material for  'd&#233;rivateurs' can be found at
 
-* A. Grothendieck,  [Les D&eacute;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)
+* A. Grothendieck,  [Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)
 
 This includes copies of the first thirteen chapters of a 2000 page manuscript of Grothendieck. 
 
