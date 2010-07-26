@@ -13,7 +13,7 @@ The _Poisson $\sigma$-model_ is a 2-dimensional [[sigma-model]] [[quantum field 
 
 In his solution of the problem of [[deformation quantization]] [[Maxim Kontsevich]] showed that correlators for the 2-string interaction (the correlator on the worldsheet that is a disk with three marked points on its boundary) describe a product operation which is a deformation of the [[Poisson bracket]] on the target space. This solves the formal [[deformation quantization]] problem of the phase space in [[quantum mechanics]] by identifying the quantum algebra with the _open string algebra_ of a [[string theory]] on that target.
 
-The principal variant of the nonlinear Poisson sigma model is sometimes called Cattaneo-Felder model. The graphical expansion used in Kontsevich's approach to the deformation quantization is explained via a Feynman diagram expansion in this model. 
+The principal variant of the nonlinear Poisson sigma model is sometimes called Cattaneo-Felder model who have shown the graphical expansion used in Kontsevich's approach to the deformation quantization is explained via a Feynman diagram expansion in this model. 
 
 If one considers [[brane]]s in the target space of the Poisson sigma-model, then then algebra of open strings that used to be just the deformation of the Poisson algebra becomes an [[A-infinity algebra|A-infinity algebroid]]. (See the references below).
 
@@ -21,7 +21,13 @@ If one considers [[brane]]s in the target space of the Poisson sigma-model, then
 
 ## References
 
-The notion of Poisson sigma model  was originally introduced by Schaller, Strobl and Ikeda, motivated from an attempt to unify several two-dimensional models of [[gravity]] and to cast them into a common form with [[Yang-Mills theory|Yang-Mills theories]].
+The notion of Poisson sigma model  was originally introduced by P. Schaller, T. Strobl and K. Ikeda, motivated from an attempt to unify several two-dimensional models of [[gravity]] and to cast them into a common form with [[Yang-Mills theory|Yang-Mills theories]].
+
+* P. Schaller, T. Strobl, _Poisson structure induced (topological) field theories_, Modern Phys. Lett. A 9 (1994), no. 33, 3129--3136, [doi](http://dx.doi.org/10.1142/S0217732394002951); _Introduction to Poisson $\sigma$-models_,  Low-dimensional models in statistical physics and quantum field theory (Schladming, 1995),  321--333, Lecture Notes in Phys. __469__, Springer 1996.
+
+* Thomas Strobl, _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. [doi](http://dx.doi.org/10.1103/PhysRevLett.93.211601)
+
+* M. Bojowald, A. Kotov, T. Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  54  (2005),  no. 4, 400--426, [doi](http://dx.doi.org/10.1016/j.geomphys.2004.11.002)
 
 The detailed argument by Cattaneo and Felder on how Kontsevich's formula for the deformation quantization star product is the 3-point function of the Poisson sigma-model is in
 
