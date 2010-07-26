@@ -13,19 +13,24 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
 
-## For nonassociative algebras
+The Jacobi identity is an important equational identity that holds in [[Lie algebras]] and is also of interest in other [[nonassociative algebra|algebras]].  It can be generalised to [[higher algebra]]s.
 
-### Standard definition
 
-Given a [[nonassociative algebra]] $\mathfrak{g}$ over a field or a ring $k$, whose bilinear product is denoted by bracket $[,]:\mathfrak{g}\otimes\mathfrak{g}\to\mathfrak{g}$, the Jacobi identity for a triple of elements $x,y,z \in \mathfrak{g}$ is 
+## For $1$-algebras
+
+### Definition
+
+Given a [[nonassociative algebra]] $\mathfrak{g}$ over a field or a ring $k$, whose bilinear product is denoted by bracket $[,]:\mathfrak{g}\otimes\mathfrak{g}\to\mathfrak{g}$, the __Jacobi identity__ holds for a triple of elements $x,y,z \in \mathfrak{g}$ if
 
 $$
   [x,[y,z]] + [y,[z,x]] + [z,[x,y]] = 0
   \,.
 $$
 
-The principal example is a $k$-Lie algebra: then the Jacobi identity holds for all triples of elements, as well as antisymmetry. 
+The principal example is a $k$-[[Lie algebra]]: then the Jacobi identity holds for all triples of elements, as well as antisymmetry. 
+
 
 ### Relation to Leibniz identity
 
@@ -44,26 +49,28 @@ $$
   \,.
 $$
 
-Left and right [[Leibniz algebras]] generalize Lie algebras by having a left or right Leibniz identity, but not necessarily antisymmetry of the bracket. In particular, Jacobi identity, and left and right Leibniz identities do not need to coincide. 
+Left and right [[Leibniz algebras]] generalize Lie algebras by having a left or right Leibniz identity, but not necessarily antisymmetry of the bracket. In particular, Jacobi identity, and left and right Leibniz identities do not need to coincide without antisymmetry. 
 
-### In terms of Chevalley-Eilenberg algebras
 
-A useful way to think of Jacobi identity for finite-dimensional Lie algebras, is dually in terms of the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ of the Lie algebra $\mathfrak{g}$ (see there for details). In terms of this [[dg-algebra]] $(\wedge^\bullet \mathfrak{g}^*, d_{\mathfrak{g}})$ the Lie barcket is encoded in the [[differential]]
+### In terms of Chevalley--Eilenberg algebras
+
+A useful way to think of Jacobi identity for finite-dimensional Lie algebras, is dually in terms of the [[Chevalley?Eilenberg algebra]] $CE(\mathfrak{g})$ of the Lie algebra $\mathfrak{g}$ (see there for details). In terms of this [[dg-algebra]] $(\wedge^\bullet \mathfrak{g}^*, d_{\mathfrak{g}})$, the Lie bracket is encoded in the [[differential]]
 
 $$
   d_{\mathfrak{g}}|_{\mathfrak{g}^*} := [-,-]^* : \mathfrak{g}^* \to \mathfrak{g}^* \wedge \mathfrak{g}^* 
 $$
 
-and the Jacobi identity is equivalent to the statement that this differential squares to 0
+and the Jacobi identity is equivalent to the statement that this differential squares to $0$
 
 $$
   d \circ d = 0
   \,.
 $$
 
+
 ## For $L_\infty$-algebras
 
-When Lie algebras are generalized to [[∞-Lie algebra]]s the Jacobi identity in terms of the binary bracket is relaxed to hold only up to a natural isomorphism called _jacobiator_ $[-,-,-] : \mathfrak{g}_0 \vee \mathfrak{g}_0 \vee \mathfrak{g}_0 \to \mathfrak{g}_1$
+When Lie algebras are generalized to [[∞-Lie algebra]]s, the Jacobi identity in terms of the binary bracket is relaxed to hold only up to a [[natural isomorphism]] called __jacobiator__ $[-,-,-] : \mathfrak{g}_0 \vee \mathfrak{g}_0 \vee \mathfrak{g}_0 \to \mathfrak{g}_1$
 
 $$
   [x,[y,z]] + [y,[z,x]] + [z,[x,y]]  = 
@@ -73,6 +80,8 @@ $$
 
 where $\delta$ is the differential. 
 
-On the other hand, in terms of the [[Chevalley-Eilenberg algebra]] this is still encoded in just $d \circ d  = 0$ (see there for details).
+On the other hand, in terms of the [[Chevalley?Eilenberg algebra]] this is still encoded in just $d \circ d  = 0$ (see there for details).
 
+
+[[!redirects Jacobi identity]]
 [[!redirects Leibniz identities]]
