@@ -1,8 +1,7 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
-
 
 ## Definitions
 
@@ -22,7 +21,7 @@ $$
   \,,
 $$
 
-This identity is called the __Leibniz rule__; compare it to the product rule in ordinary calculus (first written down by [[Gottfried Leibniz]]).
+This identity is called the __[[Leibniz rule]]__; compare it to the product rule in ordinary calculus (first written down by [[Gottfried Leibniz]]).
 
 
 ### Derivations with values in a bimodule
@@ -131,23 +130,28 @@ A variation of this example is given by the [[Kähler differentials]]. These pro
 
 ### Derivations of smooth functions
 
-**Proposition** Let $X$ be a [[smooth manifold]] and $C^\infty(X)$ its algebra of smooth functions. Then the morphism
++-- {: .un_prop}
+###### Proposition
+Let $X$ be a [[smooth manifold]] and $C^\infty(X)$ its algebra of smooth functions. Then the morphism
 
 $$
   Vect(X) \to Der(C^\infty(X))
 $$
 
 that sends a [[vector field]] $v$ to the derivation $v(-) : C^\infty(X) \to C^\infty(X)$ is a bijection.
+=--
 
-**Proof** This is true because $C^\infty(X)$ satisfies the [[Hadamard lemma]].
++-- {: .proof}
+###### Proof
+This is true because $C^\infty(X)$ satisfies the [[Hadamard lemma]].
 
-Since every smooth manifold is locally isomorphic $\mathbb{R}^n$, it suffices to consider this case. By the [[Hadamard lemma]] every function $f \in C^\infty(\mathbb{R}^n)$ may be written as
+Since every smooth manifold is locally isomorphic to $\mathbb{R}^n$, it suffices to consider this case. By the [[Hadamard lemma]] every function $f \in C^\infty(\mathbb{R}^n)$ may be written as
 
 $$
   f(x) = f(0) + \sum_i x_i g_i(x)
 $$
 
-for smooth $\{g_i \in C^\infty(X)\}$ with $g_i(0) = \frac{\partial f}{\partial x_i}(0)$. Since any derivation $\delta : C^\infty(X) \to C^\infty(X)$ satisfiesthe the Leibniz rule, it follows that
+for smooth $\{g_i \in C^\infty(X)\}$ with $g_i(0) = \frac{\partial f}{\partial x_i}(0)$. Since any derivation $\delta : C^\infty(X) \to C^\infty(X)$ satisfies the the Leibniz rule, it follows that
 
 $$
   \delta(f)(0) = \sum_i \delta(x_i) \frac{\partial f}{\partial x_i}(0)
@@ -161,14 +165,20 @@ $$
 $$
 
 then it follows that $\delta$ is the derivation coming from $v_\delta$ under $Vect(X) \to Der(C^\infty(X))$.
+=--
 
 ### Derivations of continuous functions {#DerOfContFuncts}
 
 Let now $X$ be a [[topological space|topological]] [[manifold]] and $C(X)$ the algebra of continuous real-valued functions on $X$. 
 
-**Proposition** The derivations $\delta : C(X) \to C(X)$ are all tivial.
++-- {: .un_prop}
+###### Proposition
+The derivations $\delta : C(X) \to C(X)$ are all tivial.
+=--
 
-**Proof** Observe that generally every derivation vanishes on the function 1 that is constant on $1 \in \mathbb{R}$. Therefore it is sufficient to show that if $f \in C(X)$ vanishes at $x_0 \in X$ also $\delta(f)$ vanishes att $x_0$, because we may write every function $g$ as $(g  - g(x_0)) + g(x_0)$.
++-- {: .proof}
+###### Proof
+Observe that generally every derivation vanishes on the function 1 that is constant on $1 \in \mathbb{R}$. Therefore it is sufficient to show that if $f \in C(X)$ vanishes at $x_0 \in X$ also $\delta(f)$ vanishes att $x_0$, because we may write every function $g$ as $(g  - g(x_0)) + g(x_0)$.
 
 So let $f \in C(X)$ with $f(x_0) = 0$. Then we may write $f$ as a product
 
@@ -205,9 +215,8 @@ $$
     g_1(x_0) \delta(g_2(x_0)) = 0
   \,.
 $$
+=--
 
 
-
+[[!redirects derivation]]
 [[!redirects derivations]]
-[[!redirects Leibniz rule]]
-[[!redirects Leibniz identity]]
