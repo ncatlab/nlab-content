@@ -9,7 +9,7 @@
 </div>
 
 
-An $A_\infty$-ring is a [[monoid in an (∞,1)-category]] when the latter is additive, e.g. a [[stable (infinity,1)-category|stable category]]. Alternative one can take a model which is a (non-homotopic) additive monoidal category, but the monoid is replaced by an algebra over a resolution of the associative operad.
+An $A_\infty$-ring is a [[monoid in an (∞,1)-category|monoid]] in an additive (that is, [stable (infinity,1)-category|stable]) (∞,1)-category. Alternatively one can take a model which is a (non-homotopic) additive monoidal category, but the monoid is replaced by an algebra over a resolution of the associative operad.
 
 For example there is a variant for the [[stable (∞,1)-category of spectra]]. Sometimes this is called an [[associative ring spectrum]].
 
