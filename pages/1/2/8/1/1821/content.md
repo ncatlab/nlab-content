@@ -1,6 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
+
 
 >entry left in unfinished state as I have to run now, please feel free to polish
 
@@ -30,9 +42,9 @@ This entry describes how these standard definition of chain homology and cohomol
 
 The main statement is that
 
-* the na&iuml;ve [[homology]] groups of a [[chain complex]] are really its [[homotopy groups]], in the abstract sense (i.e. with the chain complex regarded as a model for a space/$\infty$-groupoid);
+* the na&#239;ve [[homology]] groups of a [[chain complex]] are really its [[homotopy groups]], in the abstract sense (i.e. with the chain complex regarded as a model for a space/$\infty$-groupoid);
 
-* the na&iuml;ve cohomology groups of a cochain complex are really the abstract [[cohomology groups]] of the dual [[chain complex]].
+* the na&#239;ve cohomology groups of a cochain complex are really the abstract [[cohomology groups]] of the dual [[chain complex]].
 
 ## Preliminaries 
 
