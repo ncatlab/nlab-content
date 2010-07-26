@@ -194,10 +194,9 @@ And this turns out to be one of the most useful perspectives on $L_\infty$-algeb
 
 In particular, if we simply drop the condition that the dg-algebra be generated in positive degree and allow it to be generated in non-negative degree, we have the notion of the (Chevalley-Eilenberg algebra of) an [[L-infinity-algebroid]]. 
 
+### In terms of algebras over an operad
 
-
-
-
+$L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibrant resolution of the [[Lie operad]]. 
 
 
 ## Special cases and generalizations ##
@@ -223,6 +222,17 @@ In particular, if we simply drop the condition that the dg-algebra be generated 
 
 * An $L_\infty$-algebra with only $D_n$ non-vanishing is called an **[[n-Lie algebra]]** -- to be distinguished from a _Lie $n$-algebra_ ! However, in large parts of the literature $n$-Lie algebras are considered for which $D_n$ is _not_ of the required homogeneous degree in the grading, or in which no grading is considered in the first place. Such $n$-Lie algebras are not special examples of $L_\infty$-algebras, then. For more see [[n-Lie algebra]].
 
+## Relation to $\infty$-Lie groupoids
+
+In generalization to how a [[Lie algebra]] integrates to a [[Lie group]], $L_\infty$-algebras integrate to [[∞-Lie group]]s.
+
+See 
+
+[[Lie integration]]
+
+and
+
+<a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegrated">Lie integrated ∞-Lie groupoids</a>.
 
 ## References ##
 
@@ -238,7 +248,7 @@ A quick web entry is:
 
 See also for instance section 3.1 of:
 
-Alberto S. Cattaneo, Florian Sch&#228;tz, _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
+Alberto S. Cattaneo, Florian Sch&auml;tz, _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
 
 The standard reference for Lie 2-algebras is:
 
@@ -258,6 +268,12 @@ For more general 'weak Lie 2-algebras', see:
 [[!redirects L-∞ algebras]]
 [[!redirects L-∞-algebra]]
 [[!redirects L-∞-algebras]]
+
+[[!redirects ∞-Lie algebra]]
+[[!redirects ∞-Lie-algebra]]
+[[!redirects ∞-Lie algebras]]
+[[!redirects ∞-Lie-algebras]]
+
 
 [[!redirects Lie n-algebra]]
 [[!redirects L-n-algebra]]
