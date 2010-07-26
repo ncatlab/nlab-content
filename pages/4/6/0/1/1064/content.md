@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
 There is a sequence of extra [[stuff, structure, property|structure and property]] on a [[category]] that makes this category behave like a general context for [[homological algebra]]. In order of increasing structure and property this is:
 
 1. **[[Ab-enriched category]]**:
