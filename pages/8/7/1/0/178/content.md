@@ -2161,10 +2161,9 @@ So the construction $\mathbf{E}G = \tau_{n+1}\exp(\mathfrak{g})$ is a [[groupal 
 
 (...)
 
-
-
-
 ##### Examples
+
+We spell out some examples of [[Lie integration]].
 
 ###### Integration of a Lie algebra
 
@@ -2204,7 +2203,7 @@ is reviewed and discussed in detail in
 =--
 
 
-###### Integration of $b^n \mathbb{R}$
+###### Integration to $\mathbf{B}^n \mathb{R}$ {#IntegrationOfBnR}
 
 +-- {: .un_def}
 ###### Definition
@@ -2265,8 +2264,126 @@ From this it follows that also every closed $n$-form on the $k$-sphere for $k \g
 
 
 
+##### Integration of $\infty$-Lie algebra cocycles
+
+For $\mathfrak{g}$ an [[∞-Lie algebra]], an $n$-cocycle on $\mathfrak{g}$ (with "values in the trivial module $\mathbb{R}$") is a morphism
+
+$$
+  \mu : \mathfrak{g} \to b^{n-1} \mathbb{R}
+  \,.
+$$
+
+Dually this is a [[dg-algebra]]-morphism of [[Chevalley-Eilenberg algebra]]s
+
+$$
+  CE(\mathfrak{g}) \leftarrow CE(b^{n-1}\mathbb{R}) : \mu
+  \,.
+$$
+
+Since the dg-algebra on the right is [[semifree dga|semifree]] on a single generator in degree $(n+1)$ and with vanishing differential, this is the same as a closed element in the CE-algebra
+
+$$
+  \mu \in \wedge^n \mathfrak{g}^* \;\;\; d_{\mathfrak{g}} \mu = 0
+  \,.
+$$
+
+Applying the [[Lie integration]] functor $\exp(-)$ we obtain a morphism between the $\infty$-Lie groupoid incarnations of $\mathfrak{g}$ and $b^{n-1}\mathbb{R}$
+
+$$
+  \exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1}\mathbb{R})
+  \,.
+$$
+
+Remember that the [[Lie integration]] proper of a Lie $k$-algebra $\mathfrak{g}$ is the $k$-[[truncated|truncation]] 
+
+$$
+  \mathbf{B}G := \tau_k \exp(\mathfrak{g})
+$$
 
 
+of $\exp(\mathfrak{g})$. Similarly, the Lie integration of $b^{n-1} \mathbb{R}$ is the $n$-truncation, which by [Integration of abelian L-infinity algebras](#IntegrationOfBnR) is
+
+$$
+  \tau_n \exp(b^{n-1} \mathbb{R})
+  \simeq
+  \mathbf{B}^n \mathbb{R}
+  \,.
+$$
+
+In general $k$ and $n$ will differ. The integration of the cocycle involves finding a discrete $\infty$-group $K$ such that the morphism nevertheless lifst to
+
+$$
+  \array{
+    \tau_n \exp(\mathfrak{g}) &\stackrel{\tau_n \exp(\mu)}{\to}& \tau_n(b^{n-1} \mathbb{R}) 
+      \simeq \mathbf{B}^n \mathbb{R}
+    \\
+    \downarrow && \downarrow
+    \\
+    \tau_k \exp(\mathfrak{g})
+    &\to&
+    \mathbf{B}^n \mathbb{R}/K
+  }
+$$
+
+###### The String 3-cocycle
+
+For $\mathfrak{g}$ a semisimple Lie algebra with binary [[invariant polynomial]] $\langle -,-\rangle$, we have a canonical 3-cocycle
+
+$$
+  \mu = \langle -, [-,-]\rangle \in CE(\mathfrak{g})
+  \,.
+$$
+
+Since this controls the [[string Lie 2-algebra]], we call it the String-cocycle.
+
+We have that $\tau_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G$ for $G$ the simply connected Lie group integrating $\mathfrak{g}$. On the other hand, since $\tau_3(G) \simeq \mathbb{Z}$ we have the pushout
+
+$$
+  \array{
+    \mathbf{B}^3 \mathbb{Z} &\to& \tau_3 \exp(\mathfrak{g})
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{E} \mathbf{B}^2 \mathbb{Z} &\to& \tau_3 \exp(\mathfrak{g})/\mathbb{Z}
+  }
+$$
+
+and a weak equivalence $\tau_3 \exp(\mathfrak{g})/\mathbb{Z} \to \mathbf{B}G$.
+
+Accordingly, the Lie algebra 3-cocycle integrates to a Lie group [[cocycle]] 
+
+$$
+  \array{
+    \tau_3 \exp(\mathfrak{g}) &\stackrel{\exp(\mu)}{\to}&
+    \mathbf{B}^3 \mathbb{R}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G &\stackrel{\int_\mu}{\to}&
+    \mathbf{B}^3 (\mathbb{R}/\mathbb{Z})
+  }
+  \,.
+$$
+
+Unwinding the definitions, we see that 
+
+* $\tau_3 \exp(\mathfrak{g})$ has as 1-morphisms based paths in $G$, as 2-morphisms based surfaces in $G$; as 3-morphisms unique morphisms between any pair of parallel 2-morphisms;
+
+* the integrated cocycle $\int_\mu$ takes on 3-morphism the value obtained by choosing a 3-ball $\sigma : \Sigma_3 \to G$ cobounding the boundary 2-morphisms-surfaces (which always exists since $\pi_2(G) = 0$) and sending it to the 3-morphism labeled by $\int_{\Sigma_3} \sigma^* \mu \in \mathbb{R}/\mathbb{Z}$, which is well defined since $\mu$ has integral periods on $G$ (times some normalization constant).
+
+We find that the [[string 2-group]] is the [[homotopy fiber]] of this integrated cocycle, i.e the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{B}String_\mu(G) &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G &\stackrel{\int \mu}{\to}& \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
+  }
+$$
+
+in $\mathbf{H}$.
 
 ##### Differential coefficients {#DifferentialCoefficientsOfLieInt}
 
@@ -2732,6 +2849,17 @@ All statements go through verbatim for the $n$-truncation $\tau_n \exp(\mathfrak
 Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[concrete presheaf]]) of $G TrivBund_{flat} \simeq \mathbf{\flat} \mathbf{B}G$. And $\mathbf{\flat}_{dR}\mathbf{B}G$, being the kernel of the concretization map, is in a sense the maximally non-concrete sub-presheaf of $G TrivBund_{flat}$.
 
 =--
+
+
+
+##### $\infty$-Chern-Weil homomorphism
+
+The ordinary [[Chern-Weil homomorphism]] constructs [[curvature characteristic form]]s for $G$-[[principal bundle]]s from [[invariant polynomial]]s of [[Lie algebra]]s. The notion of [[invariant polynomial]] generalizes straightforwardly from Lie algebras to [[L-∞-algebra|∞-Lie algebra]]s. We discuss a generalization of the Chern-Weil homomorphism for $\infty$-Lie groups in the image of the [[Lie integration]] map applied to an $\infty$-Lie algebra $\mathfrak{g}$.
+
+
+
+
+
 
 
 ### Cohomology {#Cohomology}
@@ -3316,9 +3444,11 @@ in $\infty Grpd$\,.
 
 ## References
 
+> ... to be done ... not even close to a beginning of anything comprehensive ...
+
 For more references see 
 
-* [[Lie theory]].
+* [[Lie theory]], [[Lie integration]] etc. 
 
 Some useful notes on the topic of $\infty$-stacks on the site [[Diff]] is in the (unfinished but noteworthy) notes
 
