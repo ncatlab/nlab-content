@@ -29,12 +29,11 @@ $$
   \,.
 $$
 
-The principal example is a $k$-[[Lie algebra]]: then the Jacobi identity holds for all triples of elements, as well as antisymmetry. 
-
+The principal example is that of a [[Lie algebra]]: here the Jacobi identity by definition holds for all triples of elements (and the bracket is skew-symmetric).
 
 ### Relation to Leibniz identity
 
-In the presence of antisymmetry, the Jacobi identity for all triples is equivalent to the **Leibniz identity** that for all $x,a,b$, 
+If the bracket $[-,-]$ is skew-symmetric the Jacobi identity for all triples is equivalent to the **Leibniz identity** that for all $x,a,b$, 
 the linear map $ad_x = [x,-] : \mathfrak{g} \to \mathfrak{g}$ is a [[derivation]] with respect to the Lie bracket:
 
 $$
