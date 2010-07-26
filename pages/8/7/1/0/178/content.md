@@ -556,11 +556,165 @@ Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at 
 
 * **restriction to abelian sheaf cohomology** -- Using the fact that the objects of $Sh_{(\infty,1)}(CartSp)$ are modeled by [[simplicial presheaves]] symmetric monoidal $\infty$-Lie groupoids are identified under the [[nLab:Dold-Kan correspondence]] with $\mathbb{N}$-graded [[nLab:chain complex|chain complexes]] of sheaves. To these the rich set of tools for [[abelian sheaf cohomology]] apply. 
 
-* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]]. This is described at 
+* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]] in [Verity09](#Verity).
 
-  * [[Verity on descent for strict omega-groupoid valued presheaves]].   
 
 It should be noticed that for $\infty$-stacks of $\infty$-groupoids the intuition from the [[homotopy hypothesis]] no longer quite applies, necessarily. For instance under [geometric realization](#GeometricRealization) $\Pi : \infty LieGrpd \to \infty Grpd$ already strict $\infty$-groupoid-valued presheaves exhaust all [[homotopy type]]s in [[∞Grpd]] $\simeq$ [[Top]]: because already all 0-[[truncated]] objects (set-values sheaves) exhaust all homotopy types, as the geometric geometric realization does not produces the [[categorical homotopy groups in an (∞,1)-topos]], but the [[geometric homotopy groups in an (∞,1)-topos]].
+
+#### Descent for strict $\infty$-Lie groupoids {#DescentForStrictInf}
+
+We state a useful theorem for the computation of [[descent]] for presheaves with values in [[strict ∞-groupoid]]s. Recall the standard terminology for [[descent]], i.e. for the $(\infty,1)$-categorical [[sheaf]]-condition:
+
+For $U \in C$ a representable (here $C = $ [[CartSp]] for our purposes), $Y,A \in [C^{op}, sSet]$ simplicial presheaves and $p : Y \to U$ a morphism, we say that $A$ _satisfies [[descent]]_ along $p$ or equivalently that $A$ is a $p$-[[local object]] if the canonical morphism
+
+$$
+  A(U) \stackrel{=}{\to}
+  [C^{op}, sSet](U,A) 
+  \to 
+  [C^{op}, sSet](Y,A)
+$$
+
+is a weak equivalence. Here the first equality is the enriched [[Yoneda lemma]]. By the [[co-Yoneda lemma]] we may decompose $Y$ into itsw cells as
+
+$$
+  Y = \int^{[n] \in \Delta} \Delta[n] \cdot Y_n
+  \,,
+$$
+
+where in the integrand we have the [[copower|tensoring]] of $[C^{op}, sSet]$ over [[sSet]]. Using that the enriched [[hom-functor]] sends coends to ends, the enriched [[hom-functor]] on the right we may equivalently write out as an [[end]]
+
+$$
+  \begin{aligned}
+    [C^{op}, sSet](Y,A) 
+    & =
+    [C^{op}, sSet](\int^{[n] \in \Delta} \Delta[n] \cdot Y_n ,A)
+    \\
+    & = 
+    \int_{[n] \in \Delta}[C^{op}, sSet](\Delta[n] \cdot Y_n ,A)
+    \\
+    & =
+    \int_{[n] \in \Delta} sSet(\Delta[n], [C^{op}, sSet](Y_n, A))
+    \\
+    & =
+    \int_{[n] \in \Delta} sSet(\Delta[n], A(Y_\bullet))
+    \\
+    & =:Desc(Y,A)
+  \end{aligned}  
+$$
+
+(equality signs denote [[isomorphism]]s), where in the second but last line we again used the [[copower|tensoring]] of [[simplicial presheaves]] $[C^{op}, sSet]$ over [[sSet]].
+
+In the last line we have the _totalization_ of the cosimplicial [[simplicial object]]
+
+$$
+  A(Y_\bullet) : \Delta \to sSet
+  \,,
+$$
+
+sometimes called the _descent object_ of $A$ relative to $Y$, even though in this case it is really nothing but the hom-object of $Y$ into $A$. If $A$ is fibrant and $Y$ cofibrant, then $Desc(Y,A)$ is  a Kan complex: the _descent $\infty$-groupoid_ .
+
+Now suppose that $\mathcal{A} : C^{op} \to Str \infty Grpd$ is a presheaf with values in [[strict ∞-groupoid]]s. In the context of strict $\infty$-groupoids the standard $n$-[[simplex]] is given by the $n$th [[oriental]] $O(n)$. This allows to perform a construction that looks like a descent object in $Str\infty Grpd$:
+
++-- {: .un_def }
+###### Definition
+**(Ross Strees)**
+
+The descent object for $\mathcal{A} \in [C^{op}, Str \infty Grpd]$ relative to $Y \in [C^{op}, sSet]$ is
+
+$$
+  Desc(Y,\mathcal{A}) := \int_{[n] \in \Delta} Str\infty Cat(O(n), \mathcal{A}(Y_n))
+  \;\in Str \infty Grpd
+  \,,
+$$
+
+where the [[end]] is taken in $Str \infty Grpd$. 
+
+=--
+
+This objects had been suggested by [[Ross Street]] to be the right descent object for strict $\infty$-category-valued presheaves in [Street03](#Street03) 
+
+Under the [[∞-nerve]] functor $N_O : Str\infty Grpd \to sSet$ this yields a [[Kan complex]] $N_0 Desc(Y,\mathcal{A})$. On the other hand, applying the $\omega$-nerve directly to $\mathcal{A}$ yields a simplicial presheaf $N_O\mathcal{A}$ to which the above simplicial descent applies. 
+
+The following theorem asserts that under certain conditions both notions coincide.
+
++-- {: .un_theorem }
+###### Theorem
+**(Dominic Verity)**
+
+If $\mathcal{A} : C^{op}, Str \infty Grpd$ and $Y : C^{op} \to sSet$ are such that $N_O \mathcal{A}(Y_\bullet) : \Delta \to sSet$ is fibrant in the [[Reedy model structure]] $[\Delta, sSet_{Quillen}]_{Reedy}$, then 
+
+$$ 
+  N_O Desc(Y,\mathcal{A}) \stackrel{\simeq}{\to} Desc(Y, N_O \mathcal{A})
+$$
+
+is a [[weak homotopy equivalence]] of [[Kan complex]]es.
+
+=--
+
+This is proven in [Verity09](#Verity).
+
+
++-- {: .un_corollary }
+###### Corollary
+
+If $Y \in [C^{op}, sSet]$ is such that $Y_\bullet : \Delta \to [C^{op}, Set] \hookrightarrow [C^{op}, sSet]$ is cofibrant in $[\Delta, [C^{op}, sSet]_{proj}]_{Reedy}$ then for $\mathcal{A} : C^{op} \to Str \infty Grpd$ we have
+
+$$ 
+  N_O Desc(Y,\mathcal{A}) \stackrel{\simeq}{\to} Desc(Y, N_O \mathcal{A})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $Y_\bullet$ is Reedy cofibrant, then by definition the canonical morphisms
+
+$$
+  \lim_{\to}( ([n] \stackrel{+}{\to} [k]) \mapsto Y_k ) \to Y_n
+$$
+
+are cofibrations in $[C^{op}, sSet]_{proj}$. Since the latter is an $sSet_{Quillen}$ [[enriched model category]] and $N_O \mathcal{A}$ is fibrant, it follows that the [[hom-functor]] $[C^{op}, sSet](-, N_O \mathcal{A})$ sends cofibrations to fibrations, so that
+
+$$
+  N_O\mathcal{A}(Y_n)
+  \to
+  \lim_{\leftarrow}( [n]\stackrel{+}{\to} [k] \mapsto N_O\mathcal{A}(Y_k))
+$$ 
+
+is a [[Kan fibration]]. But this says that $N_O \mathcal{A}(Y_\bullet)$ is Reedy fibrant, so that the assumption  of Verity's theorem is met.
+
+=--
+
++-- {: .un_corollary }
+###### Corollary
+
+For $Y$ the [[Cech nerve]] of a [[good open cover]] $\{U_i \to X\}$ of a [[manifold]] $X$ and any $\mathcal{A} : CartSp^{op} \to Str \infty Grpd$ we have that
+
+$$
+  [C^{op}, sSet](Y,N_O \mathcal{A})
+  \simeq
+  N_O Desc(Y_\bullet, \mathcal{A})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above is sufices to note that $Y_\bullet$ is cofibrant in $[\Delta^{op}, [C^{op}, sSet]_{proj}]_{Reedy}$ if $Y$ is the [[Cech nerve]] of a good open cover. By the assumption of good open cover we have that $Y$ is degreewise a coproduct of representables and that the inclusion of all degenerate $n$-cells into all $n$-cells is a full inclusion into a coproduct, i.e. an inlusion of the form
+
+$$
+  \coprod_{i \in I} U_i \to \coprod_j U_{j \in J}
+$$
+
+induced from an inclusion of subsets $I \hookrightarrow J$. Since all representables are cofibrant in $[C^{op}, sSet]_{proj}$ such an inclusion is a cofibration.
+
+=--
+
+In conclusion we find that for determining the $\infty$-stack condition for _strict_ $\infty$-Lie groupoids we may equivalently use Street's formula for strict $\infty$-groupid valued presheaves. This is sometimes useful for computations in low categorical degree. 
 
 
 #### Circle $n$-Lie groupoids  {#BnU1}
@@ -3162,13 +3316,24 @@ in $\infty Grpd$\,.
 
 ## References
 
-in the (unfinished but noteworthy) notes
+For more references see 
+
+* [[Lie theory]].
+
+Some useful notes on the topic of $\infty$-stacks on the site [[Diff]] is in the (unfinished but noteworthy) notes
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
-$\infty$-stacks on [[Diff]] considered, but there with an emphasis of the [[localization of an (infinity,1)-category]] to those that are in fact homotopy invariant and hence collapse to discrete $\infty$-groupoids. See also [[topological ∞-groupoid]].
+However, there the emphasis is on the [[localization of an (infinity,1)-category|localization]] to those $\infty$-stacks that are in fact homotopy invariant and hence collapse to discrete $\infty$-groupoids. See also [[topological ∞-groupoid]].
 
 
+The proposal for descent objects for strict $\infty$-groupoid-valued presheaves discussed in [Descent for strict infinity-groupoids](#DescentForStrictInf) appeared in 
+
+* [[Ross Street]], _Categorical and combinatorial aspects of descent theory_ ([arXiv](http://arxiv.org/abs/math/0303175)) {#Street03}
+
+The relation to the general descent condition is discussed in
+
+* [[Dominic Verity]], _[Relating descent notions](Verity on descent for strict omega-groupoid valued presheaves)_ {#Verity}
 
 [[!redirects Lie infinity-groupoids]]
 [[!redirects Lie-infinity-groupoid]]
