@@ -1,4 +1,25 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
 
 In a [[cubical set]], you are guaranteed for every $n$-cell (which can be drawn as a 1-cell)
 
@@ -29,7 +50,7 @@ is regarded as a degenerate cube by the cubical set in all the possible ways.
 
 So it's a very natural condition,  particularly if you think of all these cubical cells as cubical paths in some space.
 
-#Definition#
+## Definition
 
 If $K= \{K_n| n \geq 0\}$ is a [[cubical set]], then a **connection structure on $K$** consists of functions $\Gamma^+_i, \Gamma^- _i: K_n \to K_{n+1}$, $i=1, \ldots \, , n; n \geq 1$, satisfying the relations for $\alpha, \beta=\pm$: 
 
@@ -84,9 +105,9 @@ The first hint of such a general structure came in the paper by Brown and Spence
 
 
 
-##References## 
+## References
 
-* R. Brown and C.B. Spencer,  "Double groupoids and crossed modules'', Cah.  Top. G&#233;om. Diff. 17 (1976) 343--362.
+* [[Ronnie Brown]] and C.B. Spencer,  "Double groupoids and crossed modules'', Cah.  Top. G&#233;om. Diff. 17 (1976) 343--362.
 
 * Evrard, M., "Homotopie des complexes simpliciaux et cubiques", Preprint(1976).
 
