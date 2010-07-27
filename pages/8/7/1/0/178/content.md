@@ -2387,6 +2387,25 @@ $$
 
 in $\mathbf{H}$.
 
+###### Parallel transport: integration of $\infty$-Lie algebra valued differential forms {#ParallelTransport}
+
+A special case of the general notion of cocycle in an [[∞-Lie algebroid]] is of general interest: for $X$ a [[nLab:smooth manifold]] write $T X$ for the [[tangent Lie algebroid]] of $X$. For $\mathfrak{g}$ any [[∞-Lie algebra]] or [[∞-Lie algebroid]], a _cocycle_ on $T X$ with coefficients in $\mathfrak{g}$, i.e. a morphism
+
+$$
+  \omega : T X \to \mathfrak{g}
+$$
+
+is a collection of flat [[schreiber:∞-Lie algebroid valued differential forms]]. In the special case that $\mathfrak{g}$ is an ordinary Lie algebra, this reduces to the standard notion of flat [[Lie-algebra valued 1-form]] with vanishing [[curvature]] 2-form.
+
+The integration of $T X$ is (at least locally) the [[schreiber:path ∞-groupoid]]. The integration of the cocycle $\omega$ is its [[parallel transport]]
+
+$$
+  \exp(\omega) :  \mathbf{\Pi}(X) \to \exp(\mathfrak{g})
+  \,.
+$$
+
+(...)
+
 ##### Differential coefficients {#DifferentialCoefficientsOfLieInt}
 
 Above we have defined for every [[L-∞-algebra]] $\mathfrak{g}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{g})$ _integrating_ it. Now we consider the corresponding de Rham $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{g})$.
