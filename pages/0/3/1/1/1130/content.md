@@ -1,16 +1,22 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential-graded objects
++--{: .hide}
 [[!include differential graded objects - contents]]
-</div>
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
-
-
-
-
-
 
 
 
