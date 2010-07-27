@@ -1,6 +1,23 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential-graded objects
++--{: .hide}
 [[!include differential graded objects - contents]]
-</div>
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 Given a set $G$, an __$G$-graded vector space__ is a map $V$
 assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f : V \to W$ assigns to each element $g \in G$ a linear operator $f_g : V_g \to W_g$.
@@ -15,7 +32,7 @@ By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$. 
 
 It is also interesting to consider $G$-graded objects in other categories.  A _$G$-graded object_ in the category $C$ is a functor $F :G \to C$, and the category of $G$-graded objects in $C$ is the [[functor category]] $C^G$.
 
-#Remarks#
+## Remarks
 
 For the case that $G$ is a group,
 this means that the category of $G$-graded vector spaces is a [[vertical categorification|categorification]] of the [[category algebra|group algebra]] of $G$, where numbers are replaced by vector spaces. Recalling from the remark in [[category algebra]] that the group algebra of a group can be identified with the monoid of spans of the form
@@ -55,11 +72,11 @@ Here $2Vect$ denotes some version of the category of 2-vector spaces with the pr
 
 More details on this perspective on graded vector spaces are in [[schreiber:Nonabelian cocycles and their quantum symmetries]].
 
-#Special case of $\mathbb{Z}$-graded vector spaces.#
-
-#Lexicon#
+## Special case of $\mathbb{Z}$-graded vector spaces.
 
 The case  $G = \mathbb{Z}$ serves as a base for many other applications of the same basic idea. It has some of its own 'traditional' terminology and structure that links it to [[differential object|differential objects]], so that a 'differential graded vector space' is a [[chain complex]] of vector spaces. We will use 'gvs' as an abbreviation for this sort of graded vector space and 'dgvs' for the differential form. (Of course, the theory easily adapts to handle graded modules over a ring, and with some restriction, to graded groups.) Basing algebras on dgvs gives differential graded algebras ([[dg-algebra]]) and so on.
+
+## Concepts
 
 The entry  here will be  a sort of lexicon of some terms which are taken from a source on [[rational homotopy theory]]. This will be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made. There WILL initially be some duplication but that will be eliminated later on.
 
@@ -73,7 +90,7 @@ The lexicon will be spread over a number of entries with links given in the tabl
 
 
 
-**(Pre-)graded vector spaces**
+### (Pre-)graded vector spaces
 
  A _pre-$\mathbb{Z}$-graded vector space_ (pre-gvs) is a direct sum $V = \bigoplus_{p\in \mathbb{Z}} V_p$.  The elements of $V_p$ are said to be _homogeneous of degree $p$_.  If $x \in V_p$, write $|x| = p$. 
 
@@ -97,7 +114,7 @@ $$Hom(V,W) = \bigoplus_p Hom_p(V,W).$$
 
 Of course, we now have two notations for the same object, ${pre GVS}(V,W) = Hom_0(V,W)$.
 
-**Suspension**
+### Suspension
 
 If $r\in \mathbb{Z}$, the $r$-suspension of $V$ is given by $(s^r V)_n = V_{n-r}.$
 
@@ -106,7 +123,7 @@ We will need $s$, the 1-suspension, and $s^{-1}$ in particular.  Of course, $(s^
 (This is the basic example of the **suspension functor** discussed in [[triangulated category]].)
 
 
-**Duals**
+### Duals
 
 The dual of a (pre-)gvs $V$ is $\#V$ defined by 
 
@@ -135,7 +152,7 @@ In particular, for $f$ an isomorphism
 $$( ^t f)^{-1} = (-1)^{|f|} ^t (f^{-1}).$$
 
 
-**Duality**
+### Duality
 
 Let $V$ be a gvs, by convention in the duality
 
@@ -154,7 +171,7 @@ This sign convention is needed to ensure that $s s^{-1} = id$.
 
 
 
-**Tensor products**
+### Tensor products
 
 The _tensor product_ of two pre-gvs, $V$ and $W$, is $V\otimes W$, where
 
