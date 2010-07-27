@@ -1,4 +1,19 @@
-# Idea #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 Under the [[Dold-Kan correspondence]] [[∞-groupoids]] with strict abelian group structure (modeled by [[Kan complexes]] that are [[simplicial object|simplicial]] abelian groups) are identified with non-negatively graded [[chain complexes]] of abelian groups
 
@@ -23,7 +38,7 @@ Of course historically the development of concepts was precisely the oppposite: 
 But conceptually it is useful to understand homology as a special kind of [[homotopy]]. This is maybe most vivid in the [[duality|dual]] picture: [[cohomology]] derives its name from that fact that [[chain homology and cohomology]] are dual concepts. But later generalizations of [[cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] and further to [[nonabelian cohomology]] showed that the restricted notion of homology is an insufficient dual model for cohomology: what cohomology is really dual to is the more general concept of [[homotopy]].  More on this is at [[cohomotopy]] and [[Eckmann-Hilton duality]].
 
 
-#Definition#
+## Definition
 
 The category of abelian groups is in particular an [[abelian category]].
 We can define [[chain complexes]] and their homology in any [[abelian category]] $C$. 
@@ -79,7 +94,7 @@ $$
 
 * If $H_n(V) \simeq 0$ then one says that the complex $V$ is [[exact sequence|exact]] in degree $n$.
 
-# Examples #
+## Examples 
 
 In the special case that $C$ is the category of abelian groups, or of vector spaces, this definition reduces to the more familiar simpler statement:
 
@@ -90,4 +105,5 @@ $$
   \,.
 $$
 
-[[Note on Formatting|?]]
+[[!redirects homology group]]
+[[!redirects homology groups]]
