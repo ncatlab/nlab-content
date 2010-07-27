@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential-graded objects
+#### Rational homotopy theory
 +--{: .hide}
 [[!include differential graded objects - contents]]
 =--
@@ -161,7 +161,7 @@ $$
 
 of rational $n$-spheres. 
 
-Moreover, Lie groups are [[formal homotopy type]]s, whose [[Sullivan model]] has a [[quasi-isomorphism]] to its [[chain and cochain cohomology|cochain cohomology]].
+Moreover, Lie groups are [[formal homotopy type]]s, whose [[Sullivan model]] has a [[quasi-isomorphism]] to its [[cochain cohomology]].
 
 ### Rational classifying spaces of compact Lie groups
 
@@ -172,7 +172,7 @@ $$
   \,,
 $$
 
-where $P_{k_i}$ is a generator in degre $2 k_i$.
+where $P_{k_i}$ is an [[invariant polynomial]] generator in degre $2 k_i$.
 
 Indeed, also these classifying spaces are [[formal homotopy type]]s and hence a [[Sullivan model]] for $\mathcal{B}G$ is given by $(H^\bullet(\mathcal{B}G,\mathbb{R}), d=0)$.
 
