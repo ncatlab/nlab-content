@@ -1,11 +1,11 @@
-* [[differential object|differential]] [[graded object|graded objects]]
+**[[differential object|differential]] [[graded object|graded objects]]**
 
 and
 
-* [[rational homotopy theory]]
+**[[rational homotopy theory]]**
 
 
-## Contents ##
+## Basic dg-definitions 
 
 * [[graded vector space]]
 
@@ -27,9 +27,30 @@ and
 
 * [[simplicial local system]]
 
+## Rational spaces
 
-## related topics ##
+* [[rational space]]
 
-* [[Lie theory|(higher) Lie theory]]
+  * [[formal space]]
+
+* [[rationalization]]
+
+* [[Sullivan construction]]
+ 
+  * [[Lie integration]]
+
+* [[Sullivan model]]
+
+
+## Related topics
+
+* [[homological algebra]]
+
+* [[homotopy theory]]
+
+* [[stable homotopy theory]]
+
+* [[∞-Lie theory]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/differential+graded+objects+-+contents)</div>
