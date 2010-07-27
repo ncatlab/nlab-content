@@ -1,9 +1,23 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential-graded objects
++--{: .hide}
 [[!include differential graded objects - contents]]
-</div>
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-**Definition**
+## Definition
 
 **Differential (pre-)graded vector spaces.**
 (We continue from [[graded vector space|graded vector spaces]] with the terminology of pre-gvs for the general case and gvs for the positively or negatively graded ones.)
@@ -40,13 +54,13 @@ This induces $H(f): H(V,\partial)\to H(V',\partial').$
 We get a category $pre -  DGVS$ and $H$ is a functor $H : pre\! -\! DGVS\to pre\!-\! GVS$.
 
 
-**Weak equivalences or [[quasi-isomorphism|quasi-isomorphisms]]**
+### Weak equivalences 
 
 If $f: (V,\partial)\to (V',\partial')$ in {\sf pre-DGVS}, then $f$ is a **weak equivalence** or [[quasi-isomorphism]] if $H(f)$ is an isomorphism.  In this case we write $f: (V,\partial)\stackrel{\simeq}{\to} (V',\partial')$
 
 
 
-**Homotopies**
+### Homotopies
 
 Let  $f,f' : (V,\partial)\to (V',\partial')$ be two morphisms in $pre-DGVS$. We say $f$ and $f'$ are **homotopic** denoted $f\sim f'$ if $f-f'$ is a boundary in $(Hom(V,V'),D)$, i.e., there is some $h : V \to V'$ of degree +1 such that $f-f' = Dh = \partial' h + h\partial$.
 
@@ -62,13 +76,13 @@ Let  $f,f' : (V,\partial)\to (V',\partial')$ be two morphisms in $pre-DGVS$. We 
 (ii) If $(V,\partial)$ is contractible, then it is acyclic and conversely.  The converse depends strongly on our working with vector spaces.  If we worked with modules over a commutative ring, $k$, then the correct result would be ''If $(V,\partial)$ is acyclic and projective in each dimension, then it is contractible.'' This is important when looking at, for instance, diagrams of dgvs since even if each individual object in the diagram may be contractible, it might be impossible to pick the contracting homotopies to give a map of diagrams, i.e., to be compatible with the structural maps.
 
 
-**Suspension for (pre-) dgvs**
+### Suspension for (pre-) dgvs
 
 If $(V,\partial)$ is a pre-dgvs, then its $r$-suspension $(s^rV,\partial)$, is the $r$-suspension, $s^rV$, of $V$ together with the differential
 
 $$\partial s^rv = (-1)^rs^r(\partial v).$$
 
-**Tensor product of (pre-) dgvs**
+### Tensor product of (pre-) dgvs
 
 If $(V,\partial)$, and $(V',\partial')$ are pre-dgvs, then we give the tensor product, $V\otimes V'$, the differential given on generators by
 
@@ -78,13 +92,13 @@ and we denote the result by $(V,\partial)\otimes (V', \partial')$. We have ([[Ku
 $$H((V,\partial)\otimes (V', \partial')) \cong H(V,\partial)\otimes H(V', \partial').$$
 
 
-**Duals of (pre-)dgvs**
+###Duals of (pre-)dgvs
 
 The dual $\#(V,\partial) = (\# V,\#\partial)$ of a pre-dgvs $(V,\partial)$ is given by $\# V$ with differential $(\# \partial ) = - ^t \partial$.  This satisfies 
 
 $$\langle(\# \partial)f; v\rangle + (-1)^{|f|}\langle f; \partial v\rangle = 0.$$
 
-**Chains and cochains: terminology**
+### Chains and cochains: terminology
 
 If $(V,\partial)$ is a pre-dgvs with 'lower grading' that is the summands are written $V_p$, then $(V,\partial)$ may be called a [[chain complex]] and terms such as _cycle_, _boundary_, [[homology]] are used with the usual meanings. 
 
