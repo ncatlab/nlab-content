@@ -31,11 +31,11 @@ Let $C_\bullet$ be a [[chain complex]] of [[free construction|free]] [[abelian g
 
 $$
   0 \to 
-   Ext^1(H_{n-1}(C, \mathbb{Z}), B)
+   Ext^1(H_{n-1}(C, \mathbb{Z}), A)
    \to 
-   H^n(C, B) 
+   H^n(C, A) 
    \to 
-   Hom(H_n(C,\mathbb{Z}), B)
+   Hom(H_n(C,\mathbb{Z}), A)
    \to 
    0
   \,,
