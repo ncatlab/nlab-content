@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Rational homotopy theory
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
 =--
 =--
 
@@ -199,7 +203,9 @@ In particular, if we simply drop the condition that the dg-algebra be generated 
 $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibrant resolution of the [[Lie operad]]. 
 
 
-## Special cases and generalizations ##
+## Examples
+
+### Special cases
 
 * An $L_\infty$-algebra for which $V$ is concentrated in the first $n$ degree is a **Lie $n$-algebra** (sometimes also: "$L_n$-algebra").
 
@@ -221,6 +227,10 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 * The [[horizontal categorification]] of $L_\infty$-algebras are $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
 
 * An $L_\infty$-algebra with only $D_n$ non-vanishing is called an **[[n-Lie algebra]]** -- to be distinguished from a _Lie $n$-algebra_ ! However, in large parts of the literature $n$-Lie algebras are considered for which $D_n$ is _not_ of the required homogeneous degree in the grading, or in which no grading is considered in the first place. Such $n$-Lie algebras are not special examples of $L_\infty$-algebras, then. For more see [[n-Lie algebra]].
+
+### Concrete examples
+
+* For every $\infty$-Lie algebra $\mathfrak{g}$ there is its [[automorphism ∞-Lie algebra]]. In terms of [[rational homotopy theory]] this models the rational automorphism group of the [[rational space]] corresponding to $\mathfrak{g}$.
 
 ## Relation to $\infty$-Lie groupoids
 
