@@ -1,10 +1,17 @@
-<div class="rightHandSide toc">
-[[!include mathematicscontents]]
-***
-[[!include higher category theory - contents]]
-***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
 [[!include category theory - contents]]
-</div>
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
 
 > parts of this entry are beginning to look good. But this entry needs more. More motivation, more motivating examples, more of the big picture.
 
