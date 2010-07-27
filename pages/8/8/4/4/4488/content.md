@@ -202,3 +202,6 @@ The 2-groupoid of Lie 2-algebra valued forms described in [definition 2.11](http
 See also
 
 <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#ConnectionOn2Bundle">differential cohomology in an (∞,1)-topos -- survey - connections on 2-bundles</a>.
+
+[[!redirects Lie 2-algebra valued forms]]
+[[!redirects Lie 2-algebra valued differential forms]]
