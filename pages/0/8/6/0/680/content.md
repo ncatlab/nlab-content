@@ -268,9 +268,10 @@ is an isomorphism of all $j \lt n$. For $j = n-1$ this is then the desired resul
 
 Now consider the free chain complex on $\Delta^n$...
 
+
 ## Generalizations and enhancements 
 
-There are various generalizations and enhancements of the
+There are various variants, generalizations and enhancements of the
 Dold--Kan correspondence.
 
 ### Quillen equivalence of model categories {#ModelCatVersion}
@@ -439,6 +440,38 @@ This statement is reviewed and various further references are given in [section 
 Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, [arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289).
 
 
+
+### Globular and cubical version {#GlobularAndCubical}
+
+There are versions of the Dold-Kan correspondence for other [[geometric shapes for higher structures]] than the [[simplex]], also for the [[globe]] and the [[cube]].
+
+
++-- {: .num_theorem }
+###### Theorem (globular Dold-Kan correspondence)
+
+Write [[Ab]] for the category of [[abelian group]]s. (Could be any [[additive category]] with [[kernel]]s for the following to be true). Then the following categories of structures [[internalization|internal to]] $Ab$ are equivalent.
+
+1. The category of [[chain complex]]es (in non-negative degree).
+
+1. The category of [[crossed complex]]es.
+
+1. The category of [[cubical set]]s with [[connection on a cubical set]].
+
+1. The category of cubical [[strict ∞-groupoid]]s.
+
+1. The category of [[globe|globular]] [[strict ∞-groupoid]]s.
+
+=--
+
+A proof with references to the rich literature can be found for instance in 
+
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_ 
+
+see the section  [Cubical Dold-Kan theorem](http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#CubicalDoldKan).
+
+This version of the Dold-Kan theorem reproduces the simplicial Dold-Kan theorem after application of the [[omega-nerve]], i.e. the simplicial Dold-Kan correspondence factors through the globular one via the $\omega$-nerve. This is discussed in more detail below in the section [Interpretation in higher category theory](InterpretationHigherCategoryTheory).
+
+
 ### Nonabelian versions 
 
 In a series of articles by Brown and Higgins, based on old work by Whitehead, the above was generalized to
@@ -541,9 +574,112 @@ This includes the case when $C$ is a [[crossed module]] (of groupoids) regarded 
 An obvious analogue gives cubical or globular nerves. 
 
 
-## Interpretation in higher category theory
+## Interpretation in higher category theory {#InterpretationHigherCategoryTheory}
 
-For the role of the Dold-Kan-correspondence in the light of [[higher category theory]] see the [[cosmic cube of higher category theory]].
+It was mentioned above that the standard simplicial Dold-Kan correspondence $Ch_\bullet(Ab) \stackrel{\leftarrow}{\to} sAb$ may be understood as identifyinfg strictly abelian  [[strict ∞-groupoid]]s among all [[∞-groupoid]]s. This statement is also surveyed and put into a larger context at [[cosmic cube of higher category theory]]. 
+
+We now give a formal version of this statement, following an observation by [[Richard Garner]]. A different but closely analogous sequence of arguments to the same extent is also in the book
+
+* [[Ronnie Brown]], _[[Nonabelian Algebraic Topology]]_
+
+see <a href="http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#DoldKanMap">Dold-Kan map and omega-nerve</a>.
+
++-- {: .un_defn}
+###### Definition
+
+Write
+
+$$
+  (L \dashv R) : Ch_\bullet(Ab)^+ \stackrel{\leftarrow}{\to}
+  Str \infty Cat(Ab) 
+  \stackrel{\leftarrow}{\to}
+  Str \infty Cat(Set)
+$$
+
+for the [[adjunction]] obtained by composing the [globular Dold-Kan correspondence](#GlobularAndCubical) with the forgetful functor which forgets the abelian group structure on a strict $\infty$-category in the image of the globular/cubical Dold-Kan map.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The functor
+
+$$
+  C_\bullet : \Delta \to Ch_\bullet^+
+$$
+
+which sends a [[simplex]] to its (non-normalized) chain complex factors as
+
+$$
+  C_\bullet : \Delta \stackrel{\mathcal{O}}{\to} Str \infty Cat
+  \stackrel{L}{\to} Ch_\bullet^+
+  \,,
+$$
+
+where the cosimplicial strict $\infty$-category $\mathcal{O}$ is the [[oriental]] functor.
+
+=--
+
+This is a remark by [[Richard Garner]] posted <a href="http://golem.ph.utexas.edu/category/2010/07/the_doldkan_theorem_two_questi.html#c034102">here</a>.
+
++-- {: .proof}
+###### Proof
+
+Use that $\mathcal{O}(n)$ is the [[free construction|free]] strict $\infty$-category on a [[computad]].
+
+Observe that $L$ sends a strict $\omega$-category $X$ to the chain complex obtained from the abelian reflexive globular set $X \times \mathb{Z}$. In particular the value on the $n$-[[globe]] is the chain complex
+
+$$
+  \mathbb{Z} \to \mathbb{Z}\oplus\mathbb{Z} \to 
+   \mathbb{Z}\oplus\mathbb{Z} \to \cdots \to
+   \mathbb{Z}\oplus\mathbb{Z}
+$$
+
+with $(n+1)$ terms and differential given by $x \mapsto (x, -x)$ in each dimension. 
+
+Moreover, the value of $L$ on the boundary of the $n$-globe is the chain complex obtained from this by removing the uppermost copy of $\mathbb{Z}$.
+
+Given a [[computad]] $C$, the associated abelian chain complex $L C$ has for $(L C)_n$ the free abelian group on the set of generating $n$-cells of $C$, and differential given by $\partial x = \sum_j t_j - \sum_i s_i$, where $\{s_i\}$ and $\{t_i\}$ are the sets of source- and or target-cells, respectively. A glance at [[Ross Street]]'s presentation of the [[oriental]]s shows that $L(\mathcal{O}(n)) = C_\bullet(\Delta[n])$.
+
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+
+The simplicial Dold-Kan map
+
+$$
+  Hom(C_\bullet \Delta[n], -) : Ch_\bullet + \to sSet 
+$$
+
+(for the non-normalized chain complex)
+
+factors as the identification of chain complexes with strictly abelian strict $\infty$-groupoids, followed by the functor that forgets the abelian structue and then followed by the [[omega-nerve]] operation that embeds strict $\infty$-groupoids into all $\infty$-groupoids.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Use the above adjunction and proposition to write for $K_\bullet$ a chain complex
+
+$$
+  Hom_{Ch_\bullet}(C_\bullet \Delta[n], K)
+  =
+  Hom_{Ch_\bullet}(L \mathcal{O}(n), K)
+  =
+  Hom_{Str \infty Cat}(\mathcal{O}(n), R K)
+  =
+  N (R K)_n
+  \,.
+$$
+
+=--
+
+**Remark** The alternative construction in [[Nonabelian Algebraic Topology]] yields properly homs out of the normalized chain complex $N_\bullet \Delta[n]$ instead. Moreover, it factors also versions of the nonabelian Dold-Kan correspondence through the $\omega$-nerve.
 
 
 ## References
