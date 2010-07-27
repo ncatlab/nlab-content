@@ -81,6 +81,9 @@
 
 * [[Lie 3-algebra]]
 
+  * [[differental 2-crossed module]]
+
+* [[dg-Lie algebra]]
 
 ## Integration and differentiation
 
