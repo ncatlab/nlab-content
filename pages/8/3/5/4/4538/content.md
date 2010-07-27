@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $C_\bullet$ a [[chain complex]] (of [[abelian group]]s) and $F$ a [[field]] the [[homology group]] $H_p(C,F)$ and the [[cohomomology group]] $H^p(C,F)$ are related simply by dualization
+For $C_\bullet$ a [[chain complex]] (of [[abelian group]]s) and $F$ a [[field]] the [[homology group]] $H_p(C,F)$ and the [[cohomology group]] $H^p(C,F)$ are related simply by dualization
 
 $$
   H^p(C,F) \simeq Hom_F(H_p(C,F), F)
