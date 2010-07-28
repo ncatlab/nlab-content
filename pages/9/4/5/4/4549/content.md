@@ -1,0 +1,44 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+Given [[connection on a bundle]] $\nabla$ over a [[space]] $X$, its [[parallel transport]] around some loop $\gamma : [0,1] \to X$, $\gamma(0) = \gamma(1) = x_0$ yields an element 
+
+$$
+  hol_\nabla(\gamma) \in G
+$$ 
+
+in the [[automorphism group]] of the [[fiber]] $P_{x_0}$ of the bundle. This is the **holonomy** of $\nabla$ around $\gamma$.
+
+## Properties
+
+(...)
+
+The [[Ambrose-Singer theorem]] states that the [[Lie algebra]] of the holonomy group of a [[connection on a bundle]] $\nabla$ on $X$ at a point $x \in X$ is spanned by the [[parallel transport]] $Ad_{tra_\nabla(\gamma)}(F_A(v \vee w))$ of the [[curvature]] $F_A$ evaluated on any $v \vee w \in \wedge^2 T_y X$ at $y \in X$ along any path $\gamma$ from $x \to y$.
+
+We may think of $Id + \Ad_{tra_\nabla(\gamma)}(F_A(\phi))$ as being the holonomy around the loop obtained by
+
+1. going along $\gamma$ from $x$ to $y$
+
+1. going around the [[infinitesimal space|infinitesimal]] parallelogram spanned by $v$ and $w$;
+
+1. coming back to $x$ along the reverse path $\gamma$.
+
+
++-- {: .un_theorem}
+###### Theorem
+**(Ambrose-Singer)**
+
+(...)
+
+=--
+
+
+## Applications
+
+(...)
+
+[[!redirects holonomies]]
