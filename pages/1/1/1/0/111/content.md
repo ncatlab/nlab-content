@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
 [[!include category theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -39,7 +46,7 @@ A _category_ $C$ consists of
 
   * one writes $f : x \to y$ if $s(f) = x$ and $t(f) = y$;
 
-* a rule which assigns to any pair of morphisms $f$, $g$ such that $t(f) = s(g)$ their _composite_ morphism $g \circ f \in C_1$ (also  written $g f$ or sometimes $f;g$&mdash; see [[diagrammatic order]]);
+* a rule which assigns to any pair of morphisms $f$, $g$ such that $t(f) = s(g)$ their _composite_ morphism $g \circ f \in C_1$ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
 
 * a rule which assigns to each object $x$ a morphism $1_x$, the _identity_ morphism on $x$;
 
@@ -59,7 +66,7 @@ People often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of m
 
 ### Size Issues
 
-The attentive reader will note that we said a category has a 'collection' of objects and a 'collection' of morphisms.  A category is said to be [[small category|small]] if these collections are sets &mdash; as opposed to [[proper class|proper classes]], for example.  (The alternatives depend on ones [[foundations|foundations for mathematics]].)
+The attentive reader will note that we said a category has a 'collection' of objects and a 'collection' of morphisms.  A category is said to be [[small category|small]] if these collections are sets &#8212; as opposed to [[proper class|proper classes]], for example.  (The alternatives depend on ones [[foundations|foundations for mathematics]].)
 
 Similarly, a category is [[locally small category|locally small]] if $hom(x,y)$ is a set for every pair of objects $x,y$ in that category.  The above examples of "concrete" categories are all locally small but not small (unless one restricts their objects in some way).
 
