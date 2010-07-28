@@ -1,4 +1,21 @@
-# Idea
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 There are two common ways to define a [[category]]:
 
@@ -11,7 +28,7 @@ In [[logic|logical]] terms, the first is formulated as a $2$-sorted theory in [[
 However, there is a third way of defining a category which uses only one collection (representing the collection of morphisms) and thus is formulated as an untyped (or $1$-sorted) first-order theory.  Note that this is *not* the usual way of replacing sorts with predicates, but instead a slightly clever trick.  The basic idea is that an [[object]] can be identified with its [[identity morphism]].  This reformulation is occasionally useful, but mostly for technical reasons.
 
 
-# Definition
+## Definition
 
 A **category** (single-sorted version) is a [[collection]] $C$, whose elements are called _morphisms_, together with two functions $s,t:C\to C$ and a [[partial function]] $\circ:C\times C\dashrightarrow C$, such that:
 
@@ -31,23 +48,23 @@ Finally, a **[[natural transformation]]** between functors $f,g:C\to D$ of singl
 It can now be proved that single-sorted categories, functors, and natural transformations form a $2$-[[2-category]] which is (strictly) [[equivalence of categories|equivalent]] to the usual $2$-category [[Cat]].
 
 
-# Remarks
+## Remarks
 
-## Specializations
+### Specializations
 
 A [[monoid]] is a single-sorted category in which $s$ is a constant function (hence so is $t$, and they are equal).  This works up to [[isomorphism of categories]], not merely equivalence, so single-sorted categories may seem to be a more direct [[oidification]] of monoids than the usual categories.
 
-## Internalization
+### Internalization
 
 The usual definition of an [[internal category]] is two-sorted, but the one-sorted definition can also be interpreted [[internalization|internally]].  While the usual notion of internal category requires the [[ambient category]] only to have [[pullbacks]], the one-sorted version appears to require one to make sense of an "internal partial binary operation."  However, since in this case the domain of $\circ$ is specified explicitly in the definition, one can just require $\circ$ to be an ordinary morphism whose domain is the pullback of $s$ and $t$; thus only pullbacks are required for the single-sorted definition as well.
 
 It is easy to see that any internal two-sorted category gives an internal one-sorted category (consider the object of arrows).  The converse is true as long as the ambient category has [[split idempotents]], for then given an internal one-sorted category we can split either $s$ or $t$ to obtain an object of objects.  In general, however, the two concepts are not equivalent.
 
-## Generalization
+### Generalization
 
 There exist similar single-sorted definitions of $n$-[[n-categories|categories]] and [[∞-categories]].
 
 
-# References
+## References
 
 * _[[Categories Work]]_, I.1 and XII.5.
