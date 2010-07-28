@@ -1,8 +1,17 @@
-<div class="rightHandSide toc">
-[[!include infinity-limits - contents]]
-***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
 [[!include category theory - contents]]
-</div>
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
 
 
 #Contents#
