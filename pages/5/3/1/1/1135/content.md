@@ -1,4 +1,16 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+## Idea
 
 The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[groups]], [[rings]] without unit, [[associative algebras]] without unit, [[Lie algebras]], as nicely as the axioms of an [[abelian category]] captures the properties of the categories of [[abelian groups]] and of [[modules]].
 
@@ -13,7 +25,7 @@ _Toby_:  The category of unital rings and unitary ring homomorphisms has no zero
 =--
 
 
-#Definition#
+## Definition
 
 A [[category]] $C$ is **semi-abelian** if it
 
@@ -60,12 +72,12 @@ $$\array{P & \to & A\times B\\
 in which both legs are split monics.  Filling in one of the equivalent definitions of Barr-exactness, the equivalence of the two lists of axioms reduces to showing that in a Barr-exact category with coproducts and a zero object, protomodularity is equivalent to the Split Short Five Lemma; see the paper referenced below for a proof.
 
 
-#Remarks#
+## Dold-Kan correspondence
 
 * In its most general form, the [[Dold-Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
 
 
-#Examples#
+## Examples
 
 * Every [[abelian category]] is semi-abelian.  Conversely, a semi-abelian category is abelian if and only if it is [[additive category|additive]] (since any exact additive category is abelian), and if and only if its opposite is semi-abelian.
 
@@ -95,12 +107,12 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 * The categories of [[crossed module|crossed modules]], [[crossed complex]]es, and their friends are semi-abelian; see example 2.6(4) of the paper referenced below.
 
 
-#References#
+## References
 
 
-* George Janelidze, L&#225;szl&#243;e M&#225;rki, Walter Tholen, _Semi-Abelian Categories_ ([web](http://citeseer.ist.psu.edu/old/janelidze00semiabelian.html))
+* [[George Janelidze]], L&#225;szl&#243;e M&#225;rki, [[Walter Tholen]], _Semi-Abelian Categories_ ([web](http://citeseer.ist.psu.edu/old/janelidze00semiabelian.html))
 
-* Dominique Bourn, Francis Borceux, _Mal'cev, protomodular, homological and semi-abelian categories_, Kluwer 2004.
+* [[Dominique Bourn], [[Francis Borceux]], _Mal'cev, protomodular, homological and semi-abelian categories_, Kluwer 2004.
 
 [[!redirects semiabelian category]]
 [[!redirects semiabelian categories]]
