@@ -1,6 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
-__Nonabelian homological algebra__ studies the generalizations of elements of homological algebra to 1-categories which are not abelian. For example, the 5-lemma, 9-lemma, the [[snake lemma]] are some of the "elements" which can be generalized to a wide class of categories. Typical classes of categories suitable for some elements of homological algebra are [[protomodular categories]], homological categories, and [[semi-abelian categories]]. 
+__Nonabelian homological algebra__ studies the generalizations of elements of [[homological algebra]] to ambient [[categories]] which are not [[abelian categories]]. 
+
+For example, the [[5-lemma]], [[9-lemma]], the [[snake lemma]] are some of the "elements" which can be generalized to a wide class of categories. Typical classes of categories suitable for some elements of homological algebra are [[protomodular categories]], homological categories, and [[semi-abelian categories]]. 
 
 ## Terminology and relations to other fields
 
@@ -16,8 +33,8 @@ A recent independent development is the work of [[Alexander Rosenberg]] listed b
 
 ## References
 
-* Francis Borceux, Dominique Bourn, [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]], Mathematics and Its Applications __566__, Kluwer 2004
+* [[Francis Borceux]], [[Dominique Bourn]], [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]], Mathematics and Its Applications __566__, Kluwer 2004
 
 * [[George Janelidze|G. Z. Janelidze]], _On [[satellites]] in arbitrary categories_, Bull. Georgian Acad. Sci. __82__ (1976), no. 3, 529-532, in Russian, with a reprint translated in English at [arXiv:0809.1504](http://front.math.ucdavis.edu/0809.1504).
 
-* A. Rosenberg, [Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623), 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
+* [[Alexander Rosenberg]], _[Homological algebra of noncommutative 'spaces' I](http://www.mpim-bonn.mpg.de/preprints/send?bid=3623)_ , 199 pages, preprint Max Planck, Bonn: MPIM2008-91.
