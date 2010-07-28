@@ -21,7 +21,7 @@ from a [[diagram]]
 $$
   F\colon \alpha \to C
 $$
-into its [[colimit]], schematically
+into its [[colimit]] in the [[coslice category]] $X/C$, schematically
 
 $$
   \array{
@@ -53,8 +53,7 @@ Because of the first clause, we really do not need to mention $X$ in the data ex
 
 For purposes of [[constructive mathematics]], the continuity condition should be stated as follows:
 
-* For *every* ordinal $\beta$, $F$ restricted to $\{\gamma \;|\; \gamma \leq \beta\}$ is a colimiting cone in $C$
-  for the disjoint union of $\{X\}$ and the restriction of $F$ to $\{\gamma + 1 \;|\; \gamma \lt \beta\}$.
+* For *every* ordinal $\beta \lt \alpha$, $F$ restricted to $\{\gamma \;|\; \gamma \leq \beta\}$ is a colimiting cone in $C$ for the disjoint union of $\{X\}$ and the restriction of $F$ to $\{\gamma + 1 \;|\; \gamma \lt \beta\}$.
 
 This actually includes $F(0) = X$ as a special case but says nothing when $\beta$ is a successor (so the successor clause is still required).
 
@@ -65,7 +64,7 @@ Transfinite composition plays a role in
 
 * the [[small object argument]];
 
-* [[cofibrantly generated model category|cofibrantly generated model categories]] .
+* [[cofibrantly generated model category|cofibrantly generated model categories]].
 
 
 ## References
