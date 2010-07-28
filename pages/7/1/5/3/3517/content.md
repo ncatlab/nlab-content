@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -19,15 +29,24 @@ B_1 & \to & B_2 & \to & B_3 & \to & B_4 &\to & B_5
 
 where the top and bottom are [[exact sequence|exact sequences]]. For simplicity we denote all the differentials in both exact sequences by $d$.
 
-Then: 
++-- {: .un_lemma}
+###### Lemma
+**(five lemma)**
 
-1) If $f_2$ and $f_4$ are epis and $f_5$ is mono, then $f_3$ is epi. If 
 
-2) $f_2$ and $f_4$ are monic and $f_1$ is epi, then $f_3$ is mono. 
+* 1) If $f_2$ and $f_4$ are epis and $f_5$ is mono, then $f_3$ is epi. 
 
-1+2) If $f_2$ and $f_4$ are isos, $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
+* 2) If $f_2$ and $f_4$ are monic and $f_1$ is epi, then $f_3$ is mono. 
 
-*Proof.* We can embed into a category of left modules over a fixed ring (though this requires the category to be small, one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the diagram chasing using elements in that setup. We prove only 1) as 2) is dual. 
+* 1+2) If $f_2$ and $f_4$ are isos, $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+We can embed into a category of left modules over a fixed ring (though this requires the category to be small, one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the diagram chasing using elements in that setup. We prove only 1) as 2) is dual. 
 
 The proof of 1) is by contradiction. Suppose $f_3$ is not epi, hence there is $b\in B_3$ which is not in the image of $f_3$. Since $f_4$ is epi, one can choose an element $a_4\in A_4$ such that $f_4(a_4) = d(b)$. Now $$0 = d^2 b = d f_4 (a_4) = f_5 d (a_4)$. Since $f_5$ is monic that means that $d a_4 = 0$ as well. By the exactness of the upper row, that means there is $a_3\in A_3$ such that 
 $d a_3 = a_4$, hence also $d f_3 (a_3) = f_4 d (a_3) = f_4(a_4) = d
@@ -36,6 +55,8 @@ b$. We would like that $f_3(a_3)$ be equal to $b$ but this is not so, we just se
 $$f_3 (d a_2 + a_3) = df_2(a_2)+f_3(a_3) = db'+f_3(a_3) = b - f_3(a_3)+f_3(a_3) = b$$ 
 
 with contradiction. 
+
+=--
 
 ## Short split five lemma
 
@@ -50,3 +71,5 @@ $$\array{L & \overset{l}{\to} & H & \overset{q}{\to} & C\\
 where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]]s, if $u$ and $v$ are [[isomorphism]]s then so is $w$.
 
 [[!redirects 5-lemma]]
+[[!redirects 5 lemma]]
+[[!redirects five-lemma]]
