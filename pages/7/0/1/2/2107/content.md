@@ -1,6 +1,11 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Motivation
 
-Sometimes in the place where we expect Lie algebras, some noncommutative phenomena occur and we need to drop out the requirement of antisymmetry of the brackets. 
+Sometimes in the place where we expect [[Lie algebra]]s, some noncommutative phenomena occur and we need to drop out the requirement of antisymmetry of the brackets. 
 
 [[Jean-Louis Loday]] introduced Leibniz algebras, because of considerations in [[algebraic K-theory]]. Roughly speaking the [[Lie algebra homology]] is related to the appearance of cyclic homology (as it is manifest in the original work of Tsygan and then of Loday-Quillen). 
 
@@ -24,7 +29,7 @@ In other words, the left $ad$-map, $a \mapsto (ad_l a = [a,-]:L\to L)$ is a [[de
 
 ## Relation to Lie algebras in Loday-Pirashvili category
 
-There is a remarkable obesrvation of Loday and Pirashvili that in the [[Loday–Pirashvili tensor category]] of linear maps with (exotic) "infinitesimal tensor product", the category of internal Lie algebras has the category of, say left, Leibniz $k$-algebras as a full subcategory.  
+There is a remarkable observation of Loday and Pirashvili that in the [[Loday–Pirashvili tensor category]] of linear maps with (exotic) "infinitesimal tensor product", the category of internal Lie algebras has the category of, say left, Leibniz $k$-algebras as a full subcategory.  
 
 ## Terminology
 
