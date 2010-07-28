@@ -1,8 +1,14 @@
 
-<div class="rightHandSide toc">
-[[!include topology - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
 
 This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see [[topological space]].
@@ -77,3 +83,12 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 * [[marked simplicial set]], [[model structure on marked simplicial over-sets]], [[topos]], [[Higher Topos Theory]]
 * [[stable (infinity,1)-category]], [[commutative ring spectrum]]
 * [[dendroidal set]], [[model structure on dendroidal sets]], [[cubical set]], [[cellular set]], [[Theta space]]
+
+
+## References
+
+(...)
+
+* [[Neil Strickland]], _A bestiary of topological objects_ ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/bestiary/bestiary.pdf))
+
+(...)
