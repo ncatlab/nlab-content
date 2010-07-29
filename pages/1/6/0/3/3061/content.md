@@ -46,6 +46,8 @@ One can describe non-flat connections without leaving the context of Lie algebro
 
 ## References
 
+* M. F. Atiyah, _Complex analytic connections in fibre bundles_, Trans. Amer. Math. Soc. 85 (1957), 181--207, [doi](http://dx.doi.org/10.2307/1992969),[MR0086359](http://www.ams.org/mathscinet-getitem?mr=0086359) 
+
 A discussion with an emphasis on the relation to [[connection on a bundle|connections]] and [[Lie 2-algebra]]s is on the first pages of
 
 * Danny Stevenson, Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
