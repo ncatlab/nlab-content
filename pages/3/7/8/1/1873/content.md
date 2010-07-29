@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
 =--
 =--
 
@@ -117,3 +121,5 @@ See also
 [[!redirects Lie-algebra valued 1-forms]]
 [[!redirects Lie-algebra valued differential 1-form]]
 [[!redirects Lie-algebra valued differential 1-forms]]
+
+[[!redirects groupoid of Lie-algebra valued 1-forms]]
