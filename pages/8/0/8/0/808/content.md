@@ -10,6 +10,8 @@ A **connection** can mean
 
 * [[connection for a differential graded algebra]]
 
+* [[p-connection]] for a smooth map $p$ of smooth schemes or analytic spaces
+
 * [[connection for a coring]]
 
 which are all very similar or special cases of each other, and also
