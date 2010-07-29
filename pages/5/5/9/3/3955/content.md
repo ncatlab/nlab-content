@@ -7,7 +7,7 @@
 
 ## Idea ##
 
-The category of [[smooth manifolds]] is not [[cartesian closed]], even when [[infinite dimensional manifolds]] are allowed.  However, that does not mean that _no_ mapping spaces between certain smooth manifolds can be given the structure of a smooth manifold.  This is true when the source is compact.  Thus, in particular, this applies to [[loop spaces]].
+The category of [[smooth manifolds]] is not [[cartesian closed]], even when [[infinite-dimensional manifold]]s are allowed.  However, that does not mean that _no_ mapping spaces between certain smooth manifolds can be given the structure of a smooth manifold.  This is true when the source is compact.  Thus, in particular, this applies to [[loop spaces]].
 
 The method of proving this depends mostly on the structure of the target and only minimally on that of the source.  It is not hard to generalise it to manifolds with boundary (to get, for example, [[path spaces]]), or even manifolds with corners.  This raises the obvious question as to how general this result can be made.  The purpose of this page is to determine the answer.  Our conjecture is the following:
 
@@ -44,7 +44,7 @@ Finally, let us note that the main results about the linear model spaces are rec
 
 ## Charts 
 
-Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a [[sequentially compact]] [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a family of subsets of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
+Let $M$ be a smooth manifold (possibly infinite dimensional) modelled on the [[convenient vector space]] $V$.  Let $N$ be a [[sequentially compact]] [[Frölicher space]].  Let $\{P_i : P_i \subseteq M\}$ be a family of submanifolds of $M$.  Let $\{Q_i : Q_i \subseteq N\}$ be a [[family of subsets]] of $N$ with the same indexing set.  We consider the space $C^\infty(N,M;Q_i,P_i)$ of smooth maps $N \to M$ which map each $Q_i$ into the corresponding $P_i$.  As a smooth manifold, $M$ naturally has the structure of a Fr&#246;licher space so this mapping space is well-defined.
 
 We assume that the _pair_ $(M,\{P_i\})$ admits a [[local addition]].  By that, we mean that $M$ admits a local addition, say $\eta$, with the property that it restricts to a local addition on each $P_i$.  We shall also assume, for simplicity, that the domain of $\eta$ is $T M$.
 
