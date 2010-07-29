@@ -1,8 +1,17 @@
-[[!redirects Weil homomorphism]]
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -84,3 +93,6 @@ So this kind of diagram may be thought of as inducing the Weil-homomorphism mapp
 ## References
 
 See [[Chern-Weil theory]].
+
+
+[[!redirects Weil homomorphism]]
