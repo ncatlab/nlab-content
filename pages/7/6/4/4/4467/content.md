@@ -57,7 +57,11 @@ The last example is not predicative, and this is in part *why* one studies forma
 
 ## References
 
-*  [[Givoanni Sambin]], _Some points in formal topology_, [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf)
+*  Fourman and Grayson (1982), _Formal Spaces_ --- the original development
+*  [[Giovanni Sambin]] (1987), _Intuitionistic formal spaces_, [pdf](http://www.math.unipd.it/~sambin/txt/ifs87-97.pdf)
+   *  This is the probably the main reference on the subject.
+   *  Warning: although you can ignore the material about [[foundations]] and [[type theory]], if you read any of it, the term 'category' means (roughly) [[proper class]]; this was common in type theory in the 1980s but has (fortunately) since been abandoned.
+*  [[Giovanni Sambin]] (2001), _Some points in formal topology_, [pdf](http://www.math.unipd.it/~sambin/txt/SP.pdf) --- newer results, alternative formulations, etc
 
 
 [[!redirects formal topology]]
