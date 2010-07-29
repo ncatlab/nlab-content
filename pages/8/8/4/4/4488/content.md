@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
