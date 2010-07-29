@@ -24,9 +24,9 @@ A Lie algebroid over a [[manifold]] $X$ is
 
  * a [[vector bundle]] $E \to X$;
 
- * equipped with a Lie brackets $[\cdot,\cdot] : \Gamma(E)\otimes \Gamma(E) \to \Gamma(E)$ on its space of sections;
+ * equipped with a Lie brackets $[\cdot,\cdot] : \Gamma(E)\otimes \Gamma(E) \to \Gamma(E)$ (over the ground field) on its space of sections;
 
- * a morphisms of vector bundles $\rho : E \to TX$;
+ * a morphisms of vector bundles $\rho : E \to TX$, whose tangent map preserves the bracket: $(d\rho)([\xi,\zeta]_{\Gamma E}) = [d\rho(\xi),d\rho(\zeta)]_{\Gamma TX}$;
 
  * such that the _Leibniz rule_ holds: for all $X, Y \in \Gamma(E)$ and all $f \in C^\infty(X)$ we have
 $$
@@ -136,9 +136,23 @@ The extent to which Lie algebroids are to [[Lie groupoid|Lie groupoids]] as Lie 
 
 ## Literature  ##
 
-One of the earliest reference seems to be
+The concept of Lie algebroid is introduced in
+
+* Jean Pradines, _Th&#233;orie de Lie pour les groupo&#239;des diff&#233;rentiables. Calcul diff&#233;renetiel dans la cat&#233;gorie des groupo&#239;des infinit&#233;simaux_, C. R. Acad. Sci. Paris S&#233;r. A-B 264 1967 A245--A248, [MR0216409](http://www.ams.org/mathscinet-getitem?mr=0216409)
+
+In algebra a generalization of Lie algebroid, the Lie pseduoalgebra or Lie-Rinehart algebra/pair has been introduced more than a dozen of times under various names starting in early 1950-s. Atiyah's construction of Atiyah sequence is published in 1957 and Rinehart's paper in 1963. 
+
+Historically is also important reference
 
 * [[Ted Courant]], _Tangent Lie algebroid_ ([pdf](http://www.iop.org/EJ/article/0305-4470/27/13/026/ja941326.pdf))
 
+Contemporary textbooks:
+
+* K. C. H. Mackenzie, _General theory of Lie groupoids and Lie algebroids,_ Cambridge University Press, 2005, xxxviii + 501 pages 
+([website](http://kchmackenzie.staff.shef.ac.uk/gt.html))
+
+* K. C. H. Mackenzie, _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
+
+* [[Janez Mr?un]], [[Ieke Moerdijk]], _Introduction to foliations and Lie groupoids_, Cambridge Studies in Advanced Mathematics __91__, Cambridge University Press 2003. x+173 pp. ISBN: 0-521-83197-0
 
 [[!redirects Lie algebroids]]
