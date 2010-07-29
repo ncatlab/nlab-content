@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
 [[!include homotopy - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -146,7 +157,7 @@ See for instance [section 1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 
 ## simplicial sheaves ##
 
-The point of the axioms of a category of fibrant objects is that when passing from [[infinity-groupoid]]s to [[infinity-stack]]s, i.e. to [[sheaf|sheaves]] with values in [[infinity-groupoid]]s, the obvious na&iuml;ve way to lift the model structure from $\infty$-groupoids to sheaves of $\infty$-groupoids fails, as the required lifting axioms will be satisfied only locally (e.g. [[stalk]]wise).
+The point of the axioms of a category of fibrant objects is that when passing from [[infinity-groupoid]]s to [[infinity-stack]]s, i.e. to [[sheaf|sheaves]] with values in [[infinity-groupoid]]s, the obvious na&#239;ve way to lift the model structure from $\infty$-groupoids to sheaves of $\infty$-groupoids fails, as the required lifting axioms will be satisfied only locally (e.g. [[stalk]]wise).
 
  One can get around this by employing a more sophisticated [[model category]] structure as described at [[model structure on simplicial presheaves]], but often it is useful to use a more lightweight solution and consider sheaves with values in $\infty$-groupoids just as a category of fibrant objects, thereby effectively dispensing with the troublesome lifting property (as all mention of cofibrations is dropped):
 
@@ -474,7 +485,7 @@ of fibrant objects.
 +-- {: .proof}
 ###### Proof
 
-Below is proven the _factorization lemma_
+Below is proven the _[[factorization lemma]]_
 that holds in any category of fibrant objects.
 This implies in particular that every morphism
 
@@ -596,7 +607,7 @@ is also a weak equivalence.
 
 # Generalized universal bundles and the factorization lemma #
 
-A central lemma in the theory of categories of fibrant objects is the following
+A central lemma in the theory of categories of fibrant objects is the following [[factorization lemma]].
 
 +-- {: .un_lemma }
 ###### Lemma (factorization lemma)
@@ -2195,3 +2206,6 @@ for application to [[homotopical cohomology theory]].
 A review is in [section I.9](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi) of 
 
 * P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+
+
+[[!redirects categories of fibrant objects]]
