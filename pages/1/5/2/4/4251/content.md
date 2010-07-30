@@ -1,7 +1,18 @@
 
-<div class="rightHandSide toc" markdown="1">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 This is a sub-entry of [[homotopy groups in an (∞,1)-topos]].
@@ -556,7 +567,7 @@ $$
 
 of [[locally constant ∞-stack]]s on $X$ and [[Kan fibration]]s over the [[fundamental ∞-groupoid]] $\Pi(X) = Sing(X)$.
 
-But Kan fibrations over a Kan complex such as $\Pi(X)$ are equivalently [[left fibration]]s (as discussed there) and by by the [[(∞,1)-Grothendieck construction]] these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$. So under the [[(∞,1)-Grothendieck construction]] To&euml;n's result does actually produce an equivalence
+But Kan fibrations over a Kan complex such as $\Pi(X)$ are equivalently [[left fibration]]s (as discussed there) and by by the [[(∞,1)-Grothendieck construction]] these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$. So under the [[(∞,1)-Grothendieck construction]] To&#235;n's result does actually produce an equivalence
 
 $$
   LConst(X) \simeq Func(\Pi(X), \infty Grpd)
