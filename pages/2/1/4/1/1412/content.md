@@ -1,10 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-
-***
-
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
+=--
+=--
+=--
 
 
 
@@ -78,7 +85,7 @@ This is a general strategy that one can adopt: suppose I dream up a space but do
 * Let's now call the space which I dreamed up $X$, the generic symbol for spaces. For every space $U$ that you come up with, I do some secret computation and then present you with the result: I hand you a [[set]], let's call it $X(U)$, and tell you  that this is the set of ways that $U$ can be mapped into $X$:
 
   : $X(U) = \{ $ways to map $U$ into some hypothetical $X \}$
-  : &emsp;&emsp;=: {probes of $X$ by $U$}.
+  : &#8195;&#8195;=: {probes of $X$ by $U$}.
 
 * will you be able, in general, to guess my space $X$ from this information $U \mapsto X(U)$? No. So, to be fair, I should provide a bit more information: what you need to know to actually get a feeling for what my space $X$ is like is an idea about how different ways of probing my space relate to each other.
  
