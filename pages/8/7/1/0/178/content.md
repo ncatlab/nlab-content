@@ -2408,7 +2408,7 @@ $$
 
 ##### Differential coefficients {#DifferentialCoefficientsOfLieInt}
 
-Above we have defined for every [[L-∞-algebra]] $\mathfrak{g}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{g})$ _integrating_ it. Now we consider the corresponding de Rham $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{g})$.
+Above we have defined for every [[∞-Lie algebra]] $\mathfrak{g}$ a tower of $\infty$-Lie groupoids  $\tau_n \exp(\mathfrak{g})$ _integrating_ it. Now we consider the corresponding de Rham $\infty$-Lie groupoids $\mathbf{\flat}_{dR} \tau_n \exp(\mathfrak{g})$.
 
 Recall that in the above examples we saw for $G$ a Lie $\infty$-group that the underlying discrete Lie $\infty$-groupoid $\mathbf{\flat} \mathbf{B}G$ is resolved by the presheaf $G TrivBund_{flat}$ of trivial $G$-principal $\infty$-bundles with flat connection. From this resolution the de Rham object $\mathbf{\flat}_{dR} \mathbf{B}G$ is obtained as an ordinary pullback of presheaves. These statements we now produce in the full generality of an $\infty$-Lie group obtained from the integration of an $L_\infty$-algebra.
 
@@ -2873,7 +2873,169 @@ Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[con
 
 
 
-##### $\infty$-Chern-Weil homomorphism {#ChernWeilHomomorphism}
+###### Simplicial de Rham complex {#DeRhamOfSimplicialManifold}
+
+
+For the [circle n-groupoid](#BnU1) $\mathbf{B}^{n}U(1)$ we have now obtained two different models for its de Rham coefficient object $\mathbf{\flat}_{dR}\mathbf{B}^n U(1)$:
+
+1. The image under the [[Dold-Kan correspondence|Dold-Kan map]] 
+   $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ of the
+   complex of sheaves of forms
+
+   $$
+     \mathbf{\flat}_{dR}^{chn}\mathbf{B}^n \mathbb{R}
+     :=
+     \Xi
+     (\Omega^1(-) \stackrel{d_{dR}}{\to}
+     \Omega^2(-) \stackrel{d_{dR}}{\to}
+     \cdots
+     \Omega^n_{cl}(-))
+     \,.
+   $$
+
+   (This is discussed <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+examples#FlatCircleCohomology">here</a>).
+
+1. The $(n+1)$-[[coskeleton]] of the simplicial presheaf
+
+   $$
+     \mathbf{\flat}^{simp}_{dR}\mathbf{B}^n \mathbb{R}
+     :
+     U,[k] \mapsto \tilde \Omega^n_{cl}^n(U \times \Delta^k)
+     \,,
+   $$
+
+   where the tilde indicates the subset of all those forms with at least one leg along $U$.
+
+   (This is the result of the [Lie integration algorithm](#DifferentialCoefficientsOfLieInt).)
+
+There is an evident degreewise map
+
+$$
+  \int_{\Delta^k} :
+  \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}
+  \to  
+  \mathbf{\flat}_{dR}^{chn} \mathbf{B}^n \mathbb{R}
+$$
+
+that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^n)$ to its [[fiber integration]] $\int_{\Delta^k} \omega$.
+
++-- {: .un_prop}
+###### Proposition
+
+This map yields a morphism of simplicial presheaves
+
+$$
+  \int : 
+   \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}
+     \to
+   \mathbf{\flat}_{dR}^{chn} \mathbf{B}^n \mathbb{R}
+$$
+
+which is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[Dold-Kan correspondence]] we may check the statement for 
+sheaves of (normalized) chain complexes.
+
+Notice that the chain complex differential on the forms 
+$\omega \in \Omega^n_{cl}(U \times \Delta^k)$ on simplices
+sends a form to the alternating sum of its restriction to the faces of the
+simplex. Postcomposed with the integration map this is the operation
+$\omega \mapsto \int_{\partial \Delta^k} \omega$.
+
+Conversely, first integrating over the simplex and then applying the de Rham differential on $U$ yields
+
+$$
+  \begin{aligned}
+     \omega \mapsto d_U \int_{\Delta^k} \omega
+      &= 
+      \int_{\Delta^k} d_U \omega
+      \\
+      & = - \int_{\Delta^k} d_{\Delta^k} \omega
+      \\
+      & = - \int_{\partial \Delta^k} \omega
+  \end{aligned}
+$$
+
+using that $\omega$ is closed, so that $d_{dR} \omega = (d_U + d_{\Delta^k}) \omega = 0$.
+
+Therefore we have indeed objectwise a chain map.
+
+To see that it gives a weak equivalence we need to check that this chain map is a [[quasi-isomorphism]].
+
+From the construction of both objects we know that they have the same cohomology, and that is concentrated in degree $n$, where it is $\Omega^1_{cl}(U)$. Therefore it is in fact sufficient to check that the integration map is onto in degree $n$. 
+
+That amounts to observing that every 1-form $\alpha \in \Omega^1(U)$ may be obtained by integration of a closed $n$-form on $U \times \Delta^k$. This is clearly the case, for instance take $\frac{1}{c} \alpha \wedge d x^1 \wedge \cdots \wedge d x^{k} - \frac{1}{c} (d_U \alpha) \wedge x^1 \wedge d x^2 \wedge \cdots \wedge d x^k$.
+
+=--
+
+
+For $X_\bullet$ a [[simplicial manifold]], there are two main models for the [[simplicial de Rham complex]] of $X$.
+
+1. the [[total complex]] of the [[double complex]] $\Omega^\bullet(X_\bullet)$;
+
+1. The complex whose elements in degree $n$ are collections
+   
+   $$
+     \{\omega_p \in \Omega^n(X_p \times \Delta^p)\}_{p = 0}^\infty
+   $$
+
+   subject to the conditions
+
+   $$
+     (id \times (\Delta^{p-1} \stackrel{\sigma_i}{\to} \Delta^p))^*
+     \omega_p
+     =
+     ((X_p \stackrel{\delta_i}{\to} X_{p-1}) \times id)^* \omega_{p-1}
+   $$
+
+   for all $p,i$.
+
+   And...
+
+And there is a [[quasi-isomorphism]] between these two complexes, given by integrating forms over simplices.
+
+We want to claim now that cocycle $\infty$-groupoids of these cochain complexes and the quasi-isomorphism relating them is nothing but the hom-complex of $X_\bullet$ into our above two models $\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}$ and the weak equivalence relating them:
+
+$$
+  [CartSp^{op}, sSet](X_\bullet, \int )
+  : 
+  [CartSp^{op}, sSet](X_\bullet, \mathbf{\flat}_{dR}^{simp}, \mathbf{B}^n \mathbb{R})
+  \to
+  [CartSp^{op}, sSet](X_\bullet, \mathbf{\flat}_{dR}^{chn}, \mathbf{B}^n \mathbb{R})
+  \,.
+$$
+
+In fact, this gives a natural way to understand where the second definition for the simplicial de Rham complex comes from: its $n$-cocycles are diagrams of sheaves on $CartSp$ of the form
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    X_2 &\stackrel{\omega_2}{\to}& \Omega^n_{cl}(- \times \Delta^2)
+    \\
+    \downarrow \downarrow \downarrow && 
+     \downarrow \downarrow \downarrow
+    \\
+    X_1 &\stackrel{\omega_1}{\to}& \Omega^n_{cl}(- \times \Delta^1)
+    \\
+    \downarrow \downarrow && \downarrow \downarrow
+    \\
+    X_0 &\stackrel{\omega_0}{\to}& \Omega^n_{cl}(-)
+  }
+  \,.
+$$
+
+But these are exactly the diagrams that encode the morphisms of simplicial presheaves $\omega : X_\bullet \to \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}$.
+
+(...)
+
+
+###### $\infty$-Chern-Weil homomorphism {#ChernWeilHomomorphism}
 
 ... under construction ...
 
