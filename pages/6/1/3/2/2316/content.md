@@ -163,7 +163,7 @@ of rational $n$-spheres.
 
 Moreover, Lie groups are [[formal homotopy type]]s, whose [[Sullivan model]] has a [[quasi-isomorphism]] to its [[cochain cohomology]].
 
-### Rational classifying spaces of compact Lie groups
+### Rational classifying spaces of compact Lie groups {#RationalClassifyingSpace}
 
 With $G$ as above, let $\mathcal{B}G$ be the corresponding [[classifying space]].  Then
 
