@@ -105,3 +105,6 @@ Although nets are perhaps more familiar, due to their similarity to sequences, o
 
 [[!redirects net]]
 [[!redirects nets]]
+
+[[!redirects subnet]]
+[[!redirects subnets]]
