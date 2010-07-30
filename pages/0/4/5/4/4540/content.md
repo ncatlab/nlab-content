@@ -59,3 +59,13 @@ for more.
 [[!redirects L-∞-algebra cohomology]]
 [[!redirects L-∞ algebra cohomology]]
 [[!redirects Lie ∞-algebra cohomology]]
+
+[[!redirects ∞-Lie algebra cocycle]]
+[[!redirects L-∞-algebra cocycle]]
+[[!redirects L-∞ algebra cocycle]]
+[[!redirects Lie ∞-algebra cocoycle]]
+
+[[!redirects ∞-Lie algebra cocycles]]
+[[!redirects L-∞-algebra cocycles]]
+[[!redirects L-∞ algebra cocycles]]
+[[!redirects Lie ∞-algebra cocoycles]]
