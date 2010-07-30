@@ -1,3 +1,7 @@
+# The Tychonoff Theorem
+* table of contents
+{: toc}
+
 ## Statement 
 
 The **Tychonoff theorem** is a theorem of [[topology]], which in its classical form is equivalent to the [[axiom of choice]].  Spellings vary; the theorem is named after &#1040;&#1085;&#1076;&#1088;&#1077;&#1081; &#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1077;&#1074;&#1080;&#1094; &#1058;&#1080;&#1093;&#1086;&#1085;&#1086;&#1074;, whose name becomes 'Andrey Nikolayevich Tikhonov' in modern English (BGN/PCGN) transliteration, but he originally published in German as 'A.N. Tychonoff'.
@@ -7,6 +11,7 @@ The theorem states that a [[product]] of [[topological space|spaces]] (indexed o
 Notice that no choice whatsoever is needed to prove the analogous theorem for [[locale]]s: even in [[constructive mathematics]], a product of locales is compact if each of the locales is compact.  From that perspective, the statement equivalent to the axiom of choice is this: a product of locales is spatial if each of the locales is spatial.  Either of these may be considered a Tychonoff theorem for locales.
 
 To prove the Tychonoff theorem for [[Hausdorff space]]s only, the full axiom of choice is not needed; the [[ultrafilter theorem]] (and possibly [[excluded middle]]) are enough.
+
 
 ## Proof via ultrafilter convergence 
 
@@ -32,6 +37,7 @@ _Todd_: I wrote John Bell about this, and he kindly responded. Apparently you ar
 
 _Toby_:  Great, hard results!  Although I\'m not sure that his ultrafilter theorem is the same as mine, since he talks about ultrafilters in arbitrary distributive lattices, while I would use [[ultrafilter|a constructively stronger definition]] of ultrafilter in a powerset.  But I should be able to figure out what carries over, now that I have a result to go for.
 =--
+
 
 ## Proof of converses
 
