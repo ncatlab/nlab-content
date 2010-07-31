@@ -11,7 +11,7 @@ but whose multiplication is
 
 $$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g)$$
 
-for $\delta, \gamma \in \Gamma,\; h,g \in G$. This is called in
+for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$. This is called in
 group theory the semidirect product (see for example the [Wikipedia entry](http://en.wikipedia.org/wiki/Semi-direct_product)) and written $\Gamma \rtimes \, G$.
 There is a projection morphism $p:\Gamma \rtimes \, G \to G$ ,
 $(\gamma, g) \to g$. A section $s$ of this can be identified with a
