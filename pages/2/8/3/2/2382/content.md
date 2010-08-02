@@ -60,13 +60,19 @@
 
   * [[geometric embedding]]
 
-  * [[essential geometric morphism]]
+  * [[locally connected geometric morphism]]
 
-    * [[locally connected geometric morphism]]
+    * [[essential geometric morphism]]
 
-    * [[base change]]
+    * [[connected geometric morphism]]
 
-    * [[etale geometric morphism]]
+  * [[base change]]
+
+  * [[etale geometric morphism]]
+
+  * [[localic geometric morphism]]
+
+  * [[hyperconnected geometric morphism]]
 
 * [[logical morphism]]
 
