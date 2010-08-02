@@ -3908,3 +3908,5 @@ The relation to the general descent condition is discussed in
 [[!redirects ∞-Lie groupoids]]
 
 [[!redirects ?LieGrpd]]
+
+[[!redirects Lie-infinity groupoid]]
