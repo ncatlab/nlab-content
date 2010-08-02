@@ -47,11 +47,40 @@ One can also define an [[action of a category on a set|action of a category]] $D
 
 Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]].
 
+## Actions of a [[group object]]
+
+Suppose we have a  [[group object]], $G$, in a category, $C$, with binary [[product]]s and a [[terminal object]] $*$. There is an alternative way of viewing group actions so that we can talk about $G$ action on an object $X$ of $C$.
+
+By the adjointness relation between cartesian product $A\times ?$ and function set $?^A$ in [[Set]], a group homomorphism
+
+$$\alpha: G\to Aut(X)$$
+corresponds to a function
+
+$$act: G\times X\to X$$
+which will have various properties encoding that $\alpha$ was a homomorphism of groups:  
+
+$$act(g_1g_2,x) = act(g_1,act(g_2,x))$$
+
+$$act(1,x) = x$$
+
+and these can be encoded diagrammatically.
+
+Because of this, we can **define** an action of a group object $G$ on an object $X$ to be a morphism
+$$act: G\times X\to X$$
+satisfying conditions that certain diagrams (left to the reader) encoding these two rules, commute.
+
+The advantage of this is that it does not require the category $C$ to have internal automorphism group objects for all objects being considered.
+
+As an example, within the category of [[profinite group]]s, not all objects have automorphism groups for which the natural topology is profinite, because of that profinite group actions are sometimes given in this form or are restricted to actions on objects for which the automorphism group is naturally profinite. 
+
+
 +--{.query}
 I am wondering if we will need the notion of action which works in categories with product, i.e. $G\times X\to X$ and so on. There is also an action of one Lie algebra on another (for instance in some definitions of crossed module of Lie algebra, where $Aut$ is replaced by the Lie algebra of derivations. (a similar situation would seem to exist in various other categories where action is needed in a slightly wider context. I think most would be covered by an enriched setting but I am not sure.) Thoughts please.[[Tim Porter|Tim]]
 
 Yes, I think certainly all those types of action should eventually be described somewhere, possibly on this page.  -Mike
 
+
+[[Tim Porter|Tim]]: I have added some of this above.  There should be mention of actions of a monoid in a monoidal category on other objects, perhaps.
 =--
 
 
