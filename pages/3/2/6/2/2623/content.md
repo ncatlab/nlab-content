@@ -163,3 +163,6 @@ Some heavywheight automated computations using this formalism are discussed in
 
 * Broadhurst, [[Dirk Kreimer]], _Renormalization automated by Hopf algebra_ ([arXiv:hep-th/9810087](http://arxiv.org/abs/hep-th/9810087)
 
+Other articles
+
+* [[R. E. Borcherds]], _Renormalization and quantum field theory_, [arxiv/1008.0129](http://arxiv.org/abs/1008.0129) 
