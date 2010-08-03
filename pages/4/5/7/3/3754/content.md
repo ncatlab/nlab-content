@@ -6,4 +6,4 @@ A **semifunctor** $F$ from a [[semicategory]] $C$ to a semicategory $D$ is a map
 
 ## Examples
 
-The embedding of a category into another category where $F(id_X)$ maps to a nontrivial idempotent endomorphism of $F(X)$ is a semifunctor.  
+The embedding of a category into another category where $F$ maps $id_X$ to a nontrivial idempotent endomorphism of $F(X)$ is a semifunctor but not a functor.  
