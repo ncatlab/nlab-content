@@ -4,4 +4,9 @@ _Richard Ewen Borcherds_ is a professor of mathematics at University of Californ
 
 * [wikipedia](http://en.wikipedia.org/wiki/Richard_Borcherds)
 
+[[!redirects R. E. Borcherds]]
+[[!redirects Richard Ewen Borcherds]]
+[[!redirects Richard E. Borcherds]]
+[[!redirects R. Borcherds]]
+
 category: people
