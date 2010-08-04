@@ -479,7 +479,7 @@ The author has also written a paper on [[canonical quantization]]:
 * I.V. Kanatchikov, _DeDonder-Weyl theory and a hypercomplex extension of quantum mechanics to field theory_ , ([arXiv:hep-th/9810165](http://arxiv.org/abs/hep-th/9810165v1))
 
 
-Kanatchikov's "algebra of observables" is a [[Gerstenhaber algebra]] . The relationship between it and the [[Lie superalgebra]] of observables constructed by Forger, Paufler, and Roemer is discussed in this paper:
+Kanatchikov's "algebra of observables" is what he calls a "higher-order Gerstenhaber algebra". (The "bracket" in this structure fails to satisfy Leibniz's rule as a derivation of the product.) The relationship between it and the [[Lie superalgebra]] of observables constructed by Forger, Paufler, and Roemer is discussed in this paper:
 
 
 * M. Forger, C. Paufler, and H. Roemer, _The Poisson Bracket for Poisson Forms in Multisymplectic Field Theory_ , ([arXiv:math-ph/0202043](http://arxiv.org/abs/math-ph/0202043v1))
