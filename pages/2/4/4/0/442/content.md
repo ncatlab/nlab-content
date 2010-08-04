@@ -1,11 +1,12 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
 In his 1963 doctoral dissertation, Bill Lawvere introduced a new categorical method for doing [[universal algebra]], alternative to the usual way of presenting an algebraic concept by means of its logical [[signature (in logic)|signature]] (with generating operations satisfying equational axioms). The rough idea is to define an [[algebraic theory]] as a [[category]] with finite [[product]]s and possessing a "generic algebra" (e.g., a generic [[group]]), and then define a [[model]] of that [[theory]] (e.g., a group) as a product-preserving [[functor]] out of that [[category]]. This type of category is what is nowadays called a _Lawvere algebraic theory_, or just Lawvere theory. 
+
 
 ## Definition
 
@@ -14,6 +15,7 @@ $$Fin^{op} \to T$$
 that takes the 1-element cardinal to $x$ is commonly supposed to be surjective on objects (rather than, less evilly, [[essentially surjective functor|essentially surjective]]), or even an isomorphism on objects so that each morphism $x^n \to x$ has a well-defined [[signature (in logic)|arity]] $n$. 
 
 A **[[model]]** of $T$ is a product-preserving functor $T \to Set$, and _homomorphism of models_ is a natural transformation between such functors. A _morphism_ of theories $T \to T'$ is again a product-preserving functor. Thus, $Fin^{op}$ (the "theory of [[equality]]") is initial in the category of Lawvere theories. 
+
 
 ## Examples
 
@@ -67,6 +69,7 @@ All of the discussion above for the case of groups generalizes to any finitary [
 
 As discussed in the article on [[operad|operads]], the notion of Lawvere theory may also be formulated in terms of operads relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
 
+
 ## Remarks
 
 1. If $C$ is a category with finite products, then a group (object) in $C$ may be defined as a product-preserving functor $T_{Grp} \to C$. For example, a topological group may be identified with a functor $T_{Grp} \to Top$, and a Lie group with a product-preserving functor $T_{Grp} \to Man$ into the category of smooth [[manifold]]s. An analogous statement holds for any finitary algebraic theory, when formulated in terms of its Lawvere theory $T$. 
@@ -75,14 +78,26 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 
 1. As _finite-product theories_, Lawvere theories are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, regular theories, geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
 
+
 ## Variations
 
 * A **multisorted** or multityped Lawvere theory for a given set of sorts $S$ is a category with finite products $C$ together with a function $i: S \to Ob(C)$ such that every object of $C$ is isomorphic to a finite product of objects of the form $i(S)$. An example is the theory for ring-module pairs, which may be regarded as a two-sorted theory in which one sort is interpreted as a ring and the other as a module over that ring. 
 
+* An [[infinitary Lawvere theory]] allows for infinitary operations.  An example is the theory of [[suplattices]], where we have, for every [[cardinal number]] $n$, an operation to take the [[supremum]] of $n$ elements.  While Lawvere theories correspond to finitary monads on $Set$, infinitary Lawvere theories correspond to arbitrary monads.
+
 * A [[Fermat theory]] is a Lawvere theory equipped with a notion of differentiation.
 
-[[!redirects finite-product theory]]
-[[!redirects finite product theory]]
-[[!redirects finite-products theory]]
-[[!redirects finite products theory]]
+
+[[!redirects Lawvere theory]]
 [[!redirects Lawvere theories]]
+[[!redirects finitary Lawvere theory]]
+[[!redirects finitary Lawvere theories]]
+
+[[!redirects finite-product theory]]
+[[!redirects finite-product theories]]
+[[!redirects finite product theory]]
+[[!redirects finite product theories]]
+[[!redirects finite-products theory]]
+[[!redirects finite-products theories]]
+[[!redirects finite products theory]]
+[[!redirects finite products theories]]
