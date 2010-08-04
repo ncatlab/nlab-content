@@ -178,6 +178,8 @@ Similarly, one can express the descent properties of higher stacks via the usual
 
 ## References
 
+See also [[deformation theory]] and references therein.
+
 * [[Alexander Grothendieck]], _Cat&#233;gories cofibr&#233;es additives et complexe cotangent relatif_, Lec. Notes in Math. __79__
 
 * L. Illusie, _Complexe cotangent et d&#233;formations I_, Lec. Notes Math. __239__, Springer 1971, xv+355 pp.; _II_, LNM __283__, Springer 1972. vii+304 xv+355 pp. 
@@ -191,6 +193,8 @@ Similarly, one can express the descent properties of higher stacks via the usual
 * S. Schwede, _Spectra in model categories and applications to the algebraic cotangent complex_, J. Pure Appl. Alg. __120__, 77--104 (1997) (<a href="http://dx.doi.org/10.1016/S0022-4049(96)00058-8">doi</a>)
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ section 8.8.
+
+* [[Gabrielle Vezzosi]], _A note on the cotangent complex in derived algebraic geometry_, [arxiv/1008.0601](http://arxiv.org/abs/1008.0601)
 
 A short exposition (from the point of view of [[formal schemes]]) is in
 
