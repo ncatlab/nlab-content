@@ -259,7 +259,9 @@ Chris Schommer-Pries
 
 >So now why should spectra/cohomology theories be thought of as linear functors? Well if you think of spectra as analogous to abelian groups, then applying a spectrum to a space (i.e. smashing with it) is a linearization of that space.
 
->Following this analogy, if we now have any old functor from space to spaces we can take its fibrant replacement in W-spaces. This is a linear functor which is the best approximation to the original functor. So it is like taking a derivative of a function. Goodwillie's insight was to extend this analogy to encompass the rudiments of calculus. There is in fact  a whole series of model categories on functors from spaces to spaces where the fibrant objects are Goodwillie's polynomial functors of degree n.
+>Following this analogy, if we now have any old functor from space to spaces we can take its fibrant replacement in $W$-spaces. This is a linear functor which is the best approximation to the original functor. So it is like taking a derivative of a function. Goodwillie's insight was to extend this analogy to encompass the rudiments of calculus. There is in fact  a whole series of model categories on functors from spaces to spaces where the fibrant objects are Goodwillie's polynomial functors of degree $n$.
+
+See also Eric Finster's blog post [Thoughts on the Goodwillie Calculus](http://curiousreasoning.wordpress.com/2010/08/02/thoughts-on-the-goodwillie-calculus/)
 
 ## References
 
