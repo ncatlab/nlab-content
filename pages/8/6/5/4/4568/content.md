@@ -144,9 +144,10 @@ $$
 and in particular at the image of the identity therein.
 
 The first part comes from $F\eta$ at $F(X)$.  For each $s_0 \in S$, we have a function $\eta_{X,s_0} \colon X_{s_0} \to \mathcal{D}\left(\prod_{s \in S} D_s^{X_s}, D_{s_0}\right)$ and thus a morphism
-$$
+\begin{equation}
+\label{eq:prod}
 \prod_{s \in S} D_s^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)}  \to \prod_{s \in S} D_s^{X_s}
-$$
+\end{equation}
 What this does is the following: it sends component corresponding to the $(s,x)$th projection to the $x$th component and all other components are forgotten.
 Thus we have a morphism:
 $$
@@ -155,7 +156,54 @@ $$
 $$
 Under this, the identity morphism goes to the projection morphism described just above.
 
-Now we apply $\epsilon F$.  
+Now we apply $\epsilon F$ to get a morphism:
+$$
+\mathcal{D}\left(
+\prod_{s \in S} D_s^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)}, \prod_{s \in S} D_s^{X_s}\right)
+\to \mathcal{D}\left( \prod_{s \in S} D_s^{X_s},  \prod_{s \in S} D_s^{X_s}\right)
+$$
+To find this element, we consider the diagram:
+$$
+\array{
+\mathcal{D}\left(
+\prod_{s \in S} D_s^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)},
+\prod_{s \in S} D_s^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)}\right)
+&\overset{\epsilon }{\to}&
+\mathcal{D}\left( \prod_{s \in S} D_s^{X_s},
+\prod_{s \in S} D_s^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)}\right)
+& \cong &
+\prod_{s \in S} \mathcal{D}\left( \prod_{s'' \in S} D_{s''}^{X_{s''}},
+ D_s\right)^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)} \\
+\downarrow & & \downarrow & & \downarrow \\
+\mathcal{D}\left(
+\prod_{s \in S} D_s^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)}, \prod_{s \in S} D_s^{X_s}\right)
+&\overset{\epsilon }{\to}&
+\mathcal{D}\left( \prod_{s \in S} D_s^{X_s},  \prod_{s \in S} D_s^{X_s}\right)
+& \cong &
+  \prod_{s \in S}\mathcal{D}\left( \prod_{s'' \in S} D_{s''}^{X_{s''}}, D_s\right)^{X_s}
+}
+$$
+In this diagram, we have left off the subscript on $\epsilon$ for conciseness.  The vertical morphism is that induced by the projection from \eqref{eq:prod}.  Since we want to have this projection itself in the lower-left, an obvious place to start is with the identity in the top-left.  The right-hand square commutes since the vertical maps are projections.  Starting with the identity in the top-left, we get the "Yoneda element" corresponding to $\epsilon$ in the top-right.  That element can be written $(f)_f$.  The vertical map selects the $p_{s,x}$th element of the list and puts it in the $(s,x)$th slot.  As this is the projection $p_{s,x}$, when moving back to the lower-middle, we obtain the identity morphism as required.
 
-_in progress_
+Now let us turn to the other half.  We need to consider the composition:
+$$
+U \overset{\eta U}{\to} U F U \overset{U \epsilon}{\to} U
+$$
+So we need to start with a covariant product-preserving functor $V \colon \mathcal{D} \to Set$ and apply $U$.  Then we are looking at a morphism of graded sets from
+$$
+\big(s \mapsto V(D_s)\big)
+$$
+to itself.  So we pick $s_0 \in S$ and look at the function
+$$
+V(D_{s_0}) \to \mathcal{D}\left(\prod_{s \in S} D_s^{V(D_s)}, D_{s_0}\right) \to V(D_{s_0}).
+$$
+
+We start with the function defined by the unit $\eta$:
+$$
+V(D_{s_0}) \to \mathcal{D}\left(\prod_{s \in S} D_s^{V(D_s)}, D_{s_0}\right)
+$$
+which sends $v \in V(D_{s_0})$ to the projection $\prod_{s \in S} D_s^{V(D_s)} \to D_{s_0}$ which corresponds to the $v$th factor of the $s_0$th factor.
+
+
+_under construction_
 =--
