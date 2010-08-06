@@ -3,12 +3,14 @@
 [[!include mathematicscontents]]
 </div>
 
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A __set theory__ is a theory of [[sets]].
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
 
 ## Na&#239;ve set theory
 
@@ -29,6 +31,7 @@ Georg Cantor is credited with being the first to think about sets this
 deeply; although he did not propose a system of general rules for
 valid set-making operations, he recognised that some sets were
 'inconsistent'.  Gottlob Frege\'s set theory was found (by Bertrand Russell) to be logically trivial because he was too careless in this regard.
+
 
 ## Axiomatic set theory
 
@@ -51,6 +54,7 @@ and
 
 ZFC is an example of a material set theory, while [[ETCS]] is an example of a
 structural one.  From a model of either kind of set theory we can construct a model of the other, so the two are, broadly speaking, equivalent.  A more precise statement is that the two kinds of theories form categories related by the [[material-structural adjunction]].
+
 
 ### Material set theory
 
@@ -171,6 +175,7 @@ More generally, I think that one should be able to use subtypes without becoming
 As for whether a set theory can be both material and structural, I would expect some particularly degenerate examples to be both, and I would also expect it possible to create a hybrid version which is neither.  I see these concepts more as orthogonal complements than as logical complements.
 =--
 
+
 ### Structural set theory
 
 A structural set theory, on the other hand, looks more like [[type
@@ -186,6 +191,7 @@ to handle some esoteric parts of modern mathematics, although it
 suffices for most everyday uses.  Another structural set theory, which is stronger than ETCS and less closely tied to category theory, is [[SEAR]].
 
 A tentative formal definition of what makes a set theory "structural" can be found at [[structural set theory]].
+
 
 ## Definitional set theory
 
@@ -212,5 +218,8 @@ theory is interpreted in the [[internal logic]] of some
 [[ambient category]], often called a "category of classes".
 
 
-[[!redirects material set theory]]
+[[!redirects set theory]]
 [[!redirects set theories]]
+
+[[!redirects material set theory]]
+[[!redirects material set theories]]
