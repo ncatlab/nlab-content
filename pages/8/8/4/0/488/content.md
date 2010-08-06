@@ -1,5 +1,4 @@
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -26,6 +25,9 @@ Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in 
 With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Boolean topos. This includes [[Set]] and models of [[ETCS]].
 
 
+[[!redirects Boolean topos]]
 [[!redirects boolean topos]]
 [[!redirects Boolean topoi]]
 [[!redirects boolean topoi]]
+[[!redirects Boolean toposes]]
+[[!redirects boolean toposes]]
