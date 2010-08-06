@@ -65,7 +65,7 @@ $$
 $$
 is a set.  We define a function $[V_1,V_2] \to \prod_{s \in S} Set(V_1(D_s), V_2(D_s))$ by sending a natural transformation $\alpha \colon V_1 \to V_2$ to the product of its values at each $D_s$.  That is,
 \begin{equation}
-\label{eq:natrans}
+\label{natrans}
 \alpha \mapsto \big(\alpha_{D_s}\big)_{s \in S}.
 \end{equation}
 
@@ -76,14 +76,394 @@ $$
 for some sets $X_s$.   For each $s \in S$ and $x \in X_s$, there is a projection $p_{s,x} \colon \prod_{s \in S} D_s^{X_s} \to D_s$.
 As $V_1$ and $V_2$ are product-preserving, we have isomorphisms
 $$
-V_i\left( \prod_{s \in S} D_s^{X_s}\right) \cong  \prod_{s \in S} V_i(D_s)^{X_s}
+ \cong  \prod_{s \in S} V_i(D_s)^{X_s}
 $$
 commuting with the projections.
 Thus for each $s \in S$ and $x \in X_s$, we have the following commutative diagram.
 
-*insert diagram here*
+<svg width="655" height="229" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="37480">
+ <g>
+  <title>Layer 1</title>
+  <foreignObject height="30" width="110.000001" font-size="16" id="svg_37480_1" y="48" x="175">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>1</mn>
+      </msub>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mo rspace="thinmathspace" lspace="thinmathspace">&#8719;</mo>
+        <mrow>
+         <mi>s</mi>
+         <mo>&#8712;</mo>
+         <mi>S</mi>
+        </mrow>
+       </msub>
+       <msubsup>
+        <mi>D</mi>
+        <mi>s</mi>
+        <mrow>
+         <msub>
+          <mi>X</mi>
+          <mi>s</mi>
+         </msub>
+        </mrow>
+       </msubsup>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+     <annotation encoding="application/x-tex">V_1\left( \prod_{s \in S} D_s^{X_s}\right)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_37480_2" height="30" width="110" font-size="16" y="48" x="370">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>2</mn>
+      </msub>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mo rspace="thinmathspace" lspace="thinmathspace">&#8719;</mo>
+        <mrow>
+         <mi>s</mi>
+         <mo>&#8712;</mo>
+         <mi>S</mi>
+        </mrow>
+       </msub>
+       <msubsup>
+        <mi>D</mi>
+        <mi>s</mi>
+        <mrow>
+         <msub>
+          <mi>X</mi>
+          <mi>s</mi>
+         </msub>
+        </mrow>
+       </msubsup>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+     <annotation encoding="application/x-tex">V_2\left( \prod_{s \in S} D_s^{X_s}\right)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="30" width="110" font-size="16" id="svg_37480_26" y="198" x="175">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>1</mn>
+      </msub>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mi>D</mi>
+        <mi>s</mi>
+       </msub>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+     <annotation encoding="application/x-tex">V_1\left(D_s\right)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_37480_27" height="30" width="110" font-size="16" y="199" x="370">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>2</mn>
+      </msub>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mi>D</mi>
+        <mi>s</mi>
+       </msub>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+     <annotation encoding="application/x-tex">V_2\left(D_s\right)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line marker-end="url(#se_marker_end_svg_37480_41)" id="svg_37480_41" y2="187" x2="232" y1="81" x1="230" stroke-width="2" stroke="#000000" fill="none"/>
+  <line id="svg_37480_42" marker-end="url(#se_marker_end_svg_37480_42)" y2="188" x2="424" y1="82" x1="425" stroke-width="2" stroke="#000000" fill="none"/>
+  <foreignObject height="29.000001" width="66" font-size="16" id="svg_37480_43" y="129.999998" x="164">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>1</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>p</mi>
+       <mrow>
+        <mi>s</mi>
+        <mo>,</mo>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">V_1(p_{s,x})</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_37480_44" height="29.000001" width="66" font-size="16" y="129" x="425">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>2</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>p</mi>
+       <mrow>
+        <mi>s</mi>
+        <mo>,</mo>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">V_2(p_{s,x})</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line marker-end="url(#se_marker_end_svg_37480_60)" id="svg_37480_60" y2="211" x2="392.999996" y1="211" x1="262" stroke-width="2" stroke="#000000" fill="none"/>
+  <foreignObject height="20" width="48" font-size="16" id="svg_37480_61" y="187" x="304">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>&#951;</mi>
+       <mrow>
+        <msub>
+         <mi>D</mi>
+         <mi>s</mi>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">\eta_{D_s}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line marker-end="url(#se_marker_end_svg_37480_62)" id="svg_37480_62" y2="61" x2="368.000006" y1="61" x1="287.000002" stroke-width="2" stroke="#000000" fill="none"/>
+  <foreignObject height="38" width="85.000002" font-size="16" id="svg_37480_63" y="30.000002" x="284.999994">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>&#951;</mi>
+       <mrow>
+        <msub>
+         <mo rspace="thinmathspace" lspace="thinmathspace">&#8719;</mo>
+         <mrow>
+          <mi>s</mi>
+          <mo>&#8712;</mo>
+          <mi>S</mi>
+         </mrow>
+        </msub>
+        <msubsup>
+         <mi>D</mi>
+         <mi>s</mi>
+         <mrow>
+          <msub>
+           <mi>X</mi>
+           <mi>s</mi>
+          </msub>
+         </mrow>
+        </msubsup>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">\eta_{\prod_{s \in S} D_s^{X_s}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_37480_64" height="30" width="110.000001" font-size="16" y="48" x="0">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mo rspace="thinmathspace" lspace="thinmathspace">&#8719;</mo>
+       <mrow>
+        <mi>s</mi>
+        <mo>&#8712;</mo>
+        <mi>S</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mi>V</mi>
+       <mn>1</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>D</mi>
+       <mi>s</mi>
+      </msub>
+      <msup>
+       <mo stretchy="false">)</mo>
+       <mrow>
+        <msub>
+         <mi>X</mi>
+         <mi>s</mi>
+        </msub>
+       </mrow>
+      </msup>
+     </mrow>
+     <annotation encoding="application/x-tex">\prod_{s \in S} V_1(D_s)^{X_s}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_37480_88" height="30" width="110.000001" font-size="16" y="48" x="545">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mo rspace="thinmathspace" lspace="thinmathspace">&#8719;</mo>
+       <mrow>
+        <mi>s</mi>
+        <mo>&#8712;</mo>
+        <mi>S</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mi>V</mi>
+       <mn>2</mn>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>D</mi>
+       <mi>s</mi>
+      </msub>
+      <msup>
+       <mo stretchy="false">)</mo>
+       <mrow>
+        <msub>
+         <mi>X</mi>
+         <mi>s</mi>
+        </msub>
+       </mrow>
+      </msup>
+     </mrow>
+     <annotation encoding="application/x-tex">\prod_{s \in S} V_2(D_s)^{X_s}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <line marker-start="url(#se_marker_start_svg_37480_112)" marker-end="url(#se_marker_end_svg_37480_112)" id="svg_37480_112" y2="61" x2="175" y1="61" x1="113" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-start="url(#se_marker_start_svg_37480_113)" marker-end="url(#se_marker_end_svg_37480_113)" id="svg_37480_113" y2="61" x2="546" y1="61" x1="481" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_marker_end_svg_37480_114)" id="svg_37480_114" y2="197" x2="458" y1="74" x1="594" stroke-width="2" stroke="#000000" fill="none"/>
+  <line marker-end="url(#se_marker_end_svg_37480_115)" id="svg_37480_115" y2="201" x2="199" y1="75" x1="60" stroke-width="2" stroke="#000000" fill="none"/>
+  <foreignObject height="20" width="48" font-size="16" id="svg_37480_116" y="137" x="92">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>p</mi>
+       <mrow>
+        <mi>s</mi>
+        <mo>,</mo>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">p_{s,x}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_37480_117" height="20" width="48" font-size="16" y="137" x="511">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>p</mi>
+       <mrow>
+        <mi>s</mi>
+        <mo>,</mo>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">p_{s,x}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject height="20" width="48" font-size="16" id="svg_37480_128" y="41" x="491">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mo>&#8773;</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">\cong</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_37480_129" height="20" width="48" font-size="16" y="40" x="120">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <mo>&#8773;</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">\cong</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <path marker-end="url(#se_marker_end_svg_37480_135)" id="svg_37480_135" d="m63,45c170.666672,-57.333336 353.333344,-60.666664 533,2" stroke-dasharray="5,5" stroke-width="2" stroke="#000000" fill="none"/>
+ </g>
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_41">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_42">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_60">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_62">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_115">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_112">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_37480_112">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_113">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="leftarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_37480_113">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m0,50l100,40l-30,-40l30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_114">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_37480_135">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+ </defs>
+</svg>
 
-Since this holds for all $s \in S$ and $x \in X_s$, by the basic properties of products, there is a unique morphism $\prod_{s \in S} V_1(D_s)^{X_s} \to   \prod_{s \in S} V_2(D_s)^{X_s}$ making the diagram commute.  This morphism is normally written $\prod_{s \in S} \alpha_{D_s}^{X_s}$.  Thus under the isomorphism $d$ above, $\alpha_D$ is taken to $\prod_{s \in S} \alpha_{D_s}^{X_s}$.  As this holds for all $D \in \mathcal{D}$, $\alpha$ is completely determined by the $\alpha_{D_s}$, whence the map in \ref{eq:natrans} is injective.
+Since this holds for all $s \in S$ and $x \in X_s$, by the basic properties of products, there is a unique morphism $\prod_{s \in S} V_1(D_s)^{X_s} \to   \prod_{s \in S} V_2(D_s)^{X_s}$ making the diagram commute.  This morphism is normally written $\prod_{s \in S} \alpha_{D_s}^{X_s}$.  Thus under the isomorphism $d$ above, $\alpha_D$ is taken to $\prod_{s \in S} \alpha_{D_s}^{X_s}$.  As this holds for all $D \in \mathcal{D}$, $\alpha$ is completely determined by the $\alpha_{D_s}$, whence the map in \eqref{natrans} is injective.
 
 Hence $[V_1,V_2]$ is a subset of a set and thus a set.
 =--
@@ -145,7 +525,7 @@ and in particular at the image of the identity therein.
 
 The first part comes from $F\eta$ at $F(X)$.  For each $s_0 \in S$, we have a function $\eta_{X,s_0} \colon X_{s_0} \to \mathcal{D}\left(\prod_{s \in S} D_s^{X_s}, D_{s_0}\right)$ and thus a morphism
 \begin{equation}
-\label{eq:prod}
+\label{prod}
 \prod_{s \in S} D_s^{\mathcal{D}\left(\prod_{s' \in S} D_{s'}^{X_{s'}},D_s\right)}  \to \prod_{s \in S} D_s^{X_s}
 \end{equation}
 What this does is the following: it sends component corresponding to the $(s,x)$th projection to the $x$th component and all other components are forgotten.
@@ -183,7 +563,7 @@ $$
   \prod_{s \in S}\mathcal{D}\left( \prod_{s'' \in S} D_{s''}^{X_{s''}}, D_s\right)^{X_s}
 }
 $$
-In this diagram, we have left off the subscript on $\epsilon$ for conciseness.  The vertical morphism is that induced by the projection from \eqref{eq:prod}.  Since we want to have this projection itself in the lower-left, an obvious place to start is with the identity in the top-left.  The right-hand square commutes since the vertical maps are projections.  Starting with the identity in the top-left, we get the "Yoneda element" corresponding to $\epsilon$ in the top-right.  That element can be written $(f)_f$.  The vertical map selects the $p_{s,x}$th element of the list and puts it in the $(s,x)$th slot.  As this is the projection $p_{s,x}$, when moving back to the lower-middle, we obtain the identity morphism as required.
+In this diagram, we have left off the subscript on $\epsilon$ for conciseness.  The vertical morphism is that induced by the projection from \eqref{prod}.  Since we want to have this projection itself in the lower-left, an obvious place to start is with the identity in the top-left.  The right-hand square commutes since the vertical maps are projections.  Starting with the identity in the top-left, we get the "Yoneda element" corresponding to $\epsilon$ in the top-right.  That element can be written $(f)_f$.  The vertical map selects the $p_{s,x}$th element of the list and puts it in the $(s,x)$th slot.  As this is the projection $p_{s,x}$, when moving back to the lower-middle, we obtain the identity morphism as required.
 
 Now let us turn to the other half.  We need to consider the composition:
 $$
@@ -204,6 +584,17 @@ V(D_{s_0}) \to \mathcal{D}\left(\prod_{s \in S} D_s^{V(D_s)}, D_{s_0}\right)
 $$
 which sends $v \in V(D_{s_0})$ to the projection $\prod_{s \in S} D_s^{V(D_s)} \to D_{s_0}$ which corresponds to the $v$th factor of the $s_0$th factor.
 
-
-_under construction_
+Now we apply $\epsilon$.  This gives us a natural transformation
+$$
+ \mathcal{D}\left(\prod_{s \in S} D_s^{V(D_s)}, - \right) \to V(-)
+$$
+which we evaluate at $D_{s_0}$ (technically, which we evaluate at $(s \mapsto D_s)$ which we then evaluate at $s_0$).  This natural transformation is determined by an element of $V\left(\prod_{s \in S} D_s^{V(D_s)}\right)$ and the element that we want is the image of that element under the function induced by the projection:
+$$
+V\left(\prod_{s \in S} D_s^{V(D_s)}\right) \overset{V(p_{s_0,v})}{\to} V(D_{s_0})
+$$
+As $V$ is product-preserving, we can rearrange this to:
+$$
+\prod_{s \in S} V(D_s)^{V(D_s)} \overset{p_{s_0,v}}{\to} V(D_{s_0}).
+$$
+The projection selects the $(s_0,v)$th term of the element in question, and this element is, by definition, $v$.  Hence the induced function on $V(D_{s_0})$ is the identity and the adjunction is shown.
 =--
