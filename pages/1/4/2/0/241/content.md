@@ -23,7 +23,7 @@ $$
 
 in a [[presheaf]] category.
 
-This is equivalently [[category of sheaves]] ([[Set]]-valued [[presheaves]] satisfying the sheaf condition) over a [[small category|small]] [[site]].
+This is equivalently the [[category of sheaves]] ([[Set]]-valued [[presheaves]] satisfying the sheaf condition) over a [[small category|small]] [[site]].
 
 =--
 
@@ -48,12 +48,11 @@ By the general theory of [[geometric morphisms]], every Grothendieck topos sits 
 * Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
 
 
-##Giraud\'s axioms##
+## Giraud\'s axioms
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
-Giraud's theorem characterises Grothendieck toposes as follows:
-
+Giraud\'s theorem characterises a Grothendieck topos as follows:
 
 * a [[locally small category]] with a small [[generating set]],
 * with all finite [[limits]],
@@ -62,14 +61,11 @@ Giraud's theorem characterises Grothendieck toposes as follows:
 
 These conditions are equivalent to
 
-* a locally small [[pretopos|infinitary pretopos]] with a small generating set.
+* a locally small [[infinitary pretopos]] with a small generating set.
 
+See the [[Elephant]], theorem C.2.2.8.  See also [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).
 
-See [[Elephant]], theorem C.2.2.8.
-
-(See [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).)
-
-This characterisation may be suitable even when the base category $S$ is only a [[pretopos]], although in that case a Grothendieck 'topos' need not actually be a topos. More generally, a Grothendieck topos will inherit properites from $S$, not only having a [[subobject classifier]], but also (for example) having a [[natural numbers object]]. Thus the concept makes sense even with weak [[foundations]] of mathematics, although it may not have all of the usual properties.
+This characterisation may be suitable even when the base category $S$ is only a [[pretopos]], although in that case a Grothendieck 'topos' need not actually be a topos. More generally, a Grothendieck topos will inherit properites from $S$, not only having [[power objects]], but also (for example) having a [[natural numbers object]]. Thus the concept makes sense even with weak [[foundations]] of mathematics, although it may not have all of the usual properties.
 
 
 ## Generalizations ##
