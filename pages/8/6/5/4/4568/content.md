@@ -18,9 +18,11 @@ There are also many-sorted infinitary Lawvere theories, as well as $\kappa$-ary 
 
 ## Definitions
 
-A __many-sorted infinitary Lawvere theory__ is a [[locally small category]] $\mathcal{D}$ with all small [[products]] and equipped with a small family $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.
+A __many-sorted infinitary Lawvere theory__ is a [[locally small category]] $\mathcal{D}$ with all small [[products]] and a small collection $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.
 
-Given a small [[set]] $S$, an __$S$-sorted infinitary Lawvere theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with a [[functor]] from $S$ to $\mathcal{D}$ such that every object in $\mathcal{D}$ is a small product of objects in the image of $S$.  Note than any many-sorted infinitary Lawvere theory $(\mathcal{D},\mathcal{R})$ may be interpreted as an $S$-sorted infinitary Lawvere theory, where $S$ is the index set of the family $\mathcal{R}$.
+Given a small [[set]] $S$, an __$S$-sorted infinitary Lawvere theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an $S$-indexed family $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.  (Note that an $S$-indexed family of objects is precisely a [[functor]] to $\mathcal{D}$ from the [[discrete category]] on $S$.)
+
+If $(\mathcal{D},\mathcal{R})$ is an $S$-sorted infinitary Lawvere theory, then $\mathcal{D}$ is a many-sorted infinitary Lawvere theory; conversely, any many-sorted infinitary Lawvere theory may be interpreted as an $S$-sorted infinitary Lawvere theory, where $S$ is (the set of isomoprhism classes of) an appropriate family $\mathcal{R}$ and the $S$-indexed family is given by the identity indexing.
 
 An __unsorted infinitary Lawvere theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an object $R$ (so that $(\mathcal{D},R)$ is a [[pointed category]]) such that every object is [[isomorphic]] to $R^n$ for some small cardinal number $n$.  An __infinitary Lawvere theory__ is by default an unsorted infinitary Lawvere theory, invoking the [[red herring principle]].  Note that an unsorted infinitary Lawvery theory is the same thing as a $1$-sorted infinitary Lawvere theory.
 
