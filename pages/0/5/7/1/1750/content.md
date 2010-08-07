@@ -2,19 +2,11 @@
 [[!include 2-category theory - contents]]
 </div>
 
-Recall the notion of a [[Grothendieck fibration]].
-It [[Grothendieck fibration|generalizes]] to the notion of a fibration in a 2-category using [[Grothendieck fibration|Grothendieck fibrations]] themselves, using [[generalized element|generalized elements]]. We here give an alternative, yet equivalent, 2-categorical definition, trying to explain how it specializes to Grothendieck fibrations. The definition is from
+## Idea
 
-*  [[Ross Street]], Fibrations in bicategories. Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0))
+Recall the notion of a [[Grothendieck fibration]]: it is given by a [[functor]] $p \colon E \to B$ whose fibres $E_b$ are functorial in $b \in B$.
 
-and is recalled in Mark Weber's paper [[Bibliography|Yoneda Structure from 2-toposes]], the main source for this page.
-
-Fix a 2-category $\mathcal{K}$. For any two morphisms
-$f: A \to C$ and $c: B \to C$, let $f/g$ be the corresponding [[comma object]] and let $f/=g$ be their [[pullback]].
-
-A morphism $p:A \to B$ in it is a **fibration** when for all morphism $f: X \to B$, the canonical map $i: f/=p \to f/p$ has a [[right adjoint]] in $\mathcal{K} / X$.
-
-The purpose of this page is the following result:
+This idea may be generalized to work in any suitable [[2-category]], in any of several equivalent ways, the simplest being the 'representable' definition given at [[Grothendieck fibration]].  When the underlying 2-category is $Cat$, the definitions reduce to the traditional one.
 
 +-- {: .standout #ElemFibSpecializesToCat }
 
@@ -22,44 +14,87 @@ When $\mathcal{K}$ is [[Cat]], fibrations in this sense are precisely [[Grothend
 
 =--
 
-This surely needs some unfolding. First, recall that the
-2-category $Cat/X$ has objects the functors $C \to X$, as morphisms the commuting triangles
+## Definition
+
+Fix a 2-category $\mathcal{K}$.  Recall that for any two morphisms $f: A \to C$ and $g: B \to C$, $f/g$ denotes their [[comma object]].  Let $f/_=g$ be their [[pullback]].
+
+A morphism $p \colon E \to B$ in $\mathcal{K}$ is a **fibration** when any of the following holds:
+
+* $p_* = \mathcal{K}(X,p) \colon \mathcal{K}(X,E) \to \mathcal{K}(X,B)$ is a fibration in $Cat$ for each $X \in \mathcal{K}$, and for all $f \colon Y \to X$ in $\mathcal{K}$
+$$
+\array{
+  \mathcal{K}(X,E) & \overset{f^*}{\to} & \mathcal{K}(Y,E) \\
+  \mathllap{p_*} \downarrow & & \downarrow \mathrlap{p_*} \\
+  \mathcal{K}(X,B) & \overset{f^*}{\to} & \mathcal{K}(Y,B)  
+}
+$$
+is a morphism of fibrations.
+
+* For every morphism $f: X \to B$, the canonical map $i: f/_=p \to f/p$ has a [[right adjoint]] in the [[slice category]] $\mathcal{K} / X$.
+
+* The canonical map $i \colon p \to B/p$ has a right adjoint in $\mathcal{K} / B$.
+
+* $p \colon E \to B$ is an algebra for the [[2-monad]] $L$ on $\mathcal{K}/B$ given by $L p = A/p$.
+
+
+## Details
+
+Spelling out the first, 'representable', definition, we have that a 2-cell $\eta \colon b \to b' \colon X \to B$ is $p$-cartesian if $f^*\eta = \eta f$ is $p_*$-cartesian for every $f \colon Y \to X$. Then $p$ is a fibration in $\mathcal{K}$ if for every 2-cell $\beta \colon a \to p b$ there is a cartesian $\hat\beta \colon b' \to b$ such that $p b' = a$ and $p \hat\beta = \beta$.
+
+The third definition is perhaps the simplest.  Of course, it is implied by the second, but perhaps surprisingly the converse is also true.  (**Insert proof here**).
+
+**Proposition.** _A functor $p \colon E \to B$ is a cloven fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$._
+
++-- {: .proof }
+_Proof._
+First, recall that the 2-category $Cat/X$ has objects the functors $C \to X$, as morphisms the commuting triangles
 $$\array{C & \stackrel{h}{\to} & C' \\ & f \searrow \swarrow g &  \\  & X,  & }$$
 and as 2-cells the natural transformations $\alpha : h_1 \to h_2$ such that $g\alpha = id_f$.
 
-Next, recall that for $f: X \to B$ and $p: A \to B$ the comma object $f/p$ has objects the triples $(x, a, \alpha)$, with $\alpha: f(x) \to p(a)$. We will abbreviate the latter as just $\alpha$.
+Next, recall that the [[comma category]] $B/p$ has objects the triples $(x, e, k)$, with $k \colon x \to p e$.  Let $\pi \colon B/p \to B$ denote the projection $(x, e, k) \mapsto x$.
 
-The pullback $f/=p$ has objects the pairs $(x, a)$ with 
-$f(x) = p(a)$, and 
-the above mentioned canonical morphism $f/=p \to f/p$ is simply the inclusion functor of identity maps $id: f(x) \to p(a)$. 
+The canonical morphism $p \to B/p$ is simply the inclusion functor of identity maps $i b = 1 \colon p b \to p b$.
 
-Somewhat unprecisely, seeing both categories $f/p$ and $f/=p$ as sitting over $X$ means that functors between those should be the identity on the $x$ component, and natural transformations should have the identity as their $x$ component.
+Somewhat imprecisely, seeing both categories $E$ and $B/p$ as sitting over $B$ means that functors between those should be the identity on the $b$ component, and natural transformations should have the identity as their $b$ component.
 
-Let us concentrate on the case $X = B$. Then the pullback category $f/=p$ has as objects the pairs $(b, a)$ such that 
-$b = p(a)$, i.e., just objects $a$ of $A$. And similarly, its morphisms are just morphisms of $A$.
+To give an adjunction $i \dashv r$ it suffices to give, for each $k \colon x \to p e$ in $B/p$, an object $r k$ in $E$ such that $p r k = x$ and an arrow $i r k = 1_x \to k$ in $B/p$ that is [[universal arrow|universal]] from $i$ to $k$.  For the adjunction to live in $Cat/B$ we must have that $\pi \circ i r k = 1_{p r k} = 1_x$, so the universal arrow must be of the form
+$$
+\array{
+  x & \overset{1}{\to} & x \\
+  \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
+  x & \overset{k}{\to} & p e
+}
+$$
+and thus amounts to a choice of $\epsilon_k \colon r k \to e$ in $E$ such that $p \epsilon_k = k$.
 
-Assuming a right adjoint $q$ to $i$, $q$ sends a morphism $\alpha: b \to p(a)$ to some object $q(\alpha)$ of $A$, which $i$ then sends to the identity on $pq(\alpha)$, or more exactly the triple $(pq(\alpha), q(\alpha), id_{pq(\alpha)})$.
+The universal property of $\epsilon_k$ tells us that for any other morphism in $B/p$ from some $i y$ to $k$, i.e., for any $y$ and any pair $(f,g)$ making the square
+$$
+\array{
+  p y & \stackrel{1}{\to} & p y \\
+  \mathllap{f} \downarrow & & \downarrow \mathrlap{p g} \\
+  x & \stackrel{k}{\to} & p e
+}
+$$
+commute, there is a unique map $h \colon y \to r k$ in $B$ such that the above square factors in $B/p$ as
+$$
+\array{
+  p y & \stackrel{1}{\to} & p y \\
+  \mathllap{p h} \downarrow &  & \downarrow \mathrlap{p h} \\
+  \mathllap{p r k =} x & \stackrel{1}{\to} & x \mathrlap{= p r k}\\
+  \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
+  x & \stackrel{\k}{\to} & p e.
+}
+$$
 
-The counit for the corresponding adjunction has to be a morphism in $f/p$ from the latter to $\alpha$ itself, i.e., a pair $(\epsilon_0, \epsilon_1)$ making the square
-$$\array{pq(\alpha) & \stackrel{id}{\to} & pq(\alpha) \\
-\epsilon_1 \downarrow & & \downarrow p(\epsilon_0) \\
-b & \stackrel{\alpha}{\to} & p(a)}$$
-commute.
+In other words, the universal property provides a unique $h$ such that $\epsilon_k h = g$ and $p h = f$, which exactly asserts that $\epsilon_k$ is a [[Grothendieck fibration|cartesian]] lift of $k$.
 
-But, as a 2-cell in $Cat/B$, this pair must have $\epsilon_1 = id$, hence the counit is actually providing an arrow $\epsilon_0$ in $A$, sent to $\alpha$ by $p$.
+So the existence of a right adjoint to $i$ means precisely that for each morphism $k \colon x \to p e$ a choice is given of a cartesian lift of $k$, which means in turn that $p$ is a cloven fibration.
 
-Moreover, its universal property tells us that for any other morphism in $f/p$ from some $i(a')$ to our $\alpha$, i.e., for any $a'$ and any pair $(h,k)$ making the square
-$$\array{p(a') & \stackrel{id}{\to} & p(a') \\
-k \downarrow & & \downarrow p(h) \\
-b & \stackrel{\alpha}{\to} & p(a)}$$
-commute, there is a unique map $m: a' \to q(\alpha)$ in $A$ such that the above square factors in $f/p$ as
-$$\array{
-p(a') & \stackrel{id}{\to} & p(a') \\
-p(m) \downarrow &  & \downarrow p(m) \\
-pq(\alpha) & \stackrel{id}{\to} & pq(\alpha) \\
-id \downarrow & & \downarrow p(\epsilon_0) \\
-b & \stackrel{\alpha}{\to} & a.}$$
+=--
 
-In other words, the universal property provides a unique $m$ such that $\epsilon_0 m = h$ and $p(m) = k$, which exactly asserts that $\epsilon_0$ is [[Grothendieck fibration|cartesian]]. 
+## References
 
-Hence $p$ is a Grothendieck fibration. The other implication remains to be proved, but not today.
+* [[Ross Street]], _Fibrations in bicategories_. Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
+
+*  Mark Weber, _Yoneda structure from 2-toposes_.  Applied Categorical Structures 15:259--323 (2007).
+
