@@ -4,7 +4,7 @@
 
 ## Definition
 
-Given [[category|categories]] $C$ and $D$, the **functor category** -- written $D^C$ or $[C,D]$ -- is the category whosse
+Given [[category|categories]] $C$ and $D$, the **functor category** -- written $D^C$ or $[C,D]$ -- is the category whose
 
 * [[object]]s are [[functor|functors]] $F: C \to D$  
 
