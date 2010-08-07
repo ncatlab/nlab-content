@@ -6,7 +6,7 @@
 
 Recall the notion of a [[Grothendieck fibration]]: it is given by a [[functor]] $p \colon E \to B$ whose fibres $E_b$ are functorial in $b \in B$.
 
-This idea may be generalized to work in any suitable [[2-category]], in any of several equivalent ways, the simplest being the 'representable' definition given at [[Grothendieck fibration]].  When the underlying 2-category is $Cat$, the definitions reduce to the traditional one.
+This idea may be generalized to work in any suitable [[2-category]], in any of several equivalent ways, the most straightforward being the 'representable' definition given at [[Grothendieck fibration]].  The definitions are justified by the fact that:
 
 +-- {: .standout #ElemFibSpecializesToCat }
 
@@ -39,9 +39,9 @@ is a morphism of fibrations.
 
 ## Details
 
-Spelling out the first, 'representable', definition, we have that a 2-cell $\eta \colon b \to b' \colon X \to B$ is $p$-cartesian if $f^*\eta = \eta f$ is $p_*$-cartesian for every $f \colon Y \to X$. Then $p$ is a fibration in $\mathcal{K}$ if for every 2-cell $\beta \colon a \to p b$ there is a cartesian $\hat\beta \colon b' \to b$ such that $p b' = a$ and $p \hat\beta = \beta$.
+Spelling out the first definition, we have that a 2-cell $\eta \colon b \to b' \colon X \to E$ is $p$-cartesian if $f^*\eta = \eta f$ is $p_*$-cartesian for every $f \colon Y \to X$. Then $p$ is a fibration in $\mathcal{K}$ if for every 2-cell $\beta \colon a \to p b$ there is a cartesian $\hat\beta \colon b' \to b$ such that $p b' = a$ and $p \hat\beta = \beta$.
 
-The third definition is perhaps the simplest.  Of course, it is implied by the second, but perhaps surprisingly the converse is also true.  (**Insert proof here**).
+The third definition is perhaps the simplest.  Of course, it is implied by the second, but the converse is also true by the pasting lemma for comma objects.
 
 **Proposition.** _A functor $p \colon E \to B$ is a cloven fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$._
 
@@ -62,7 +62,7 @@ $$
 \array{
   x & \overset{1}{\to} & x \\
   \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
-  x & \overset{k}{\to} & p e
+  x & \underset{k}{\to} & p e
 }
 $$
 and thus amounts to a choice of $\epsilon_k \colon r k \to e$ in $E$ such that $p \epsilon_k = k$.
@@ -72,7 +72,7 @@ $$
 \array{
   p y & \stackrel{1}{\to} & p y \\
   \mathllap{f} \downarrow & & \downarrow \mathrlap{p g} \\
-  x & \stackrel{k}{\to} & p e
+  x & \underset{k}{\to} & p e
 }
 $$
 commute, there is a unique map $h \colon y \to r k$ in $B$ such that the above square factors in $B/p$ as
@@ -82,7 +82,7 @@ $$
   \mathllap{p h} \downarrow &  & \downarrow \mathrlap{p h} \\
   \mathllap{p r k =} x & \stackrel{1}{\to} & x \mathrlap{= p r k}\\
   \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
-  x & \stackrel{\k}{\to} & p e.
+  x & \underset{k}{\to} & p e.
 }
 $$
 
@@ -94,7 +94,7 @@ So the existence of a right adjoint to $i$ means precisely that for each morphis
 
 ## References
 
-* [[Ross Street]], _Fibrations in bicategories_. Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
+* [[Ross Street]], Fibrations in bicategories. _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_, 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
 
-*  Mark Weber, _Yoneda structure from 2-toposes_.  Applied Categorical Structures 15:259--323 (2007).
+*  Mark Weber, Yoneda structure from 2-toposes.  _Applied Categorical Structures_ 15:259--323 (2007).
 
