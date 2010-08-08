@@ -98,10 +98,10 @@ Since every $\infty$-groupoid is fibrant, this model category category of strict
 $$
   H(\mathbf{B}G, \mathbf{B}^n K)
   =
-  colim_{Y \stackrel{\simeq}{\to}\gt \mathbf{B}G} Hom(Y,\mathbf{B}^n K)
+  colim_{Y \stackrel{\sim}{\twoheadrightarrow} \mathbf{B}G} Hom(Y,\mathbf{B}^n K)
 $$
 
-where the colimit is over all strict $\omega$-groupoids $Y$ with $Y  \to \mathbf{B}G$ an acyclic fibration, which here is a [[k-surjective functor]] for all $k$.
+where the colimit is over all strict $\omega$-groupoids $Y$ with $Y  \stackrel{\sim}{\twoheadrightarrow} \mathbf{B}G$ an acyclic fibration, which here is a [[k-surjective functor]] for all $k$.
 
 On the other hand, since also the full model structure is around, this colimit localizes on the cofibrant replacement $Y = F(N(\mathbf{B}G))$ of $\mathbf{B}G$. But this is nothing but the free strict $\omega$-groupoid on the [[nerve]] of $\mathbf{B}G$, which is the usual bar resolution of $G$ (see the discusson at [[nerve]]):
 
@@ -133,7 +133,7 @@ $$
     & {}^{g_1}\nearrow && \searrow^{g_2}
     \\
     {*}
-    &&\stackrel{g_1 g_2}{\to}&&
+    &&\stackrel{g_1 g_2}{\to {*}
   }
   \right|
   g_1, g_2 \in G
@@ -212,7 +212,7 @@ $$
     & {}^{g_1}\nearrow && \searrow^{g_2}
     \\
     {*}
-    &&\stackrel{g_2 g_1}{\to}&&
+    &&\stackrel{g_2 g_1}{\to}&& {*}
   }
   \right)
   \;\;\;
@@ -225,7 +225,7 @@ $$
     & {}^{{*}}\nearrow &\Downarrow^{c(g_1,g_2)}& \searrow^{{*}}
     \\
     {*}
-    &&\stackrel{{*}}{\to}&&
+    &&\stackrel{{*}}{\to}&& {*}
   }
   \right)
 $$
@@ -246,7 +246,7 @@ $$
     \uparrow^{g_1} &&{}^{g_2 g_1}\nearrow&& \downarrow^{g_3}
     \\
     {*}
-    &&\stackrel{g_3 g_2 g_1}{\to}&&
+    &&\stackrel{g_3 g_2 g_1}{\to}&&{*}
   }
   \;\;\;\;
   \Rightarrow
@@ -257,7 +257,7 @@ $$
     \uparrow^{g_1} &&\searrow^{g_3 g_2}&& \downarrow^{g_3}
     \\
     {*}
-    &&\stackrel{g_3 g_2 g_1}{\to}&&
+    &&\stackrel{g_3 g_2 g_1}{\to}&&{*}
   }
   \right)
   \\
@@ -271,7 +271,7 @@ $$
     \downarrow^{{*}}
     \\
     {*}
-    &&\stackrel{{*}}{\to}&&
+    &&\stackrel{{*}}{\to}&&{*}
   }
   \;\;\;\;
   \stackrel{Id}{\Rightarrow}
@@ -283,7 +283,7 @@ $$
     &\searrow^{{*}}&\Downarrow^{c(g_2, g_3)}& \downarrow^{{*}}
     \\
     {*}
-    &&\stackrel{{*}}{\to}&&
+    &&\stackrel{{*}}{\to}&&{*}
   }
   \right)
   \end{aligned}  
