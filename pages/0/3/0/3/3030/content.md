@@ -64,7 +64,7 @@ It is a familiar fact that abelian group cohomology classifies (shifted) central
 
 $$
   \array{
-    \mathbf{B}^{n-1} K& \to&\hat G &\to& {*}
+    \mathbf{B}^{n-1} K& \to&\mathbf{B}\hat G &\to& {*}
     \\
     \downarrow &&\downarrow && \downarrow 
     \\
