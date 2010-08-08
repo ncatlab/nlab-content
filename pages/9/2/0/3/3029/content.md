@@ -12,7 +12,7 @@ We say that a sequence of [[group]]s
 \[\label{shortExtension} 1\to K
 \overset{i}\to G\overset{p}\to B\to 1\]
 
-is **exact** if $i$ is [[monomorphism]], $p$ an [[epimorphism]] and $Ker(p)=Im(i)$. If $K$ and $B$ are given groups, then any exact sequence of the form above is called an **extension** of $B$ by $K$ (some say conversely of $K$ by $B$). Letters are here chosen to suggest that $B$ is a base to which $G$ projects and $K$ is the *[[kernel]]* of $i$ and for $G$ itself we often say that it is a group extension of $B$ by $K$. 
+is **exact** if $i$ is [[monomorphism]], $p$ an [[epimorphism]] and $Ker(p)=Im(i)$. In terms of one-object groupoids, this is equivalent to saying that $\mathbf{B}K\to \mathbf{B}G\to \mathbf{B}B$ is a [[fibration sequence]]. If $K$ and $B$ are given groups, then any exact sequence of the form above is called an **extension** of $B$ by $K$ (some say conversely of $K$ by $B$). Letters are here chosen to suggest that $B$ is a base to which $G$ projects and $K$ is the *[[kernel]]* of $i$ and for $G$ itself we often say that it is a group extension of $B$ by $K$. 
 
 If $K$ is abelian then we write $0$ instead of $1$ at the left start of the sequence, and if $B$ is exact we do the same at the right-hand end of the sequence. 
 
