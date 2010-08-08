@@ -10,32 +10,31 @@ The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for
 
 ##Definition##
 
-* The __simplex category__ $\Delta$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] [[inhabited set|inhabited]] linear [[quivers]].
+* The **augmented simplex category** $\Delta_a$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] linear [[quivers]], or equivalently the category of finite [[total order|totally ordered sets]], or finite ordinals, and order-preserving functions between them:
 $$
   \{c_0 \to c_1 \to \cdots \to c_n\}
   \,.
 $$
 
+* The **simplex category** $\Delta$ is the [[full subcategory]] of $\Delta_a$ (and hence of $Cat$) consisting of the finite **[[inhabited set|inhabited]]** linear quivers, non-empty linear orders or non-zero ordinals.
 
-* Equivalently: $\Delta$ is the category of finite inhabited [[total order|totally ordered sets]] and order-preserving functions between them.
+### Details ###
 
-### Detailed description ###
+First of all, it is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
 
-In more details, $\Delta$ looks as follows.
+#### The augmented simplex category $\Delta_a$
 
-First of all, it is common, convenient and without risk to use a [[skeleton]] of $\Delta$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
+With the above in mind, the augmented simplex category $\Delta_a$ can be presented as follows:
 
-Often the _simplex category_ is defined to be the following [[skeleton]]:
-
-* objects are the finite totally ordered sets $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ for all $n \in \mathbb{N}$;
+* objects are the finite totally ordered sets $[n] := \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
 
 * morphisms are order-preserving functions $[n] \to [m]$ -- these are _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
 
-  * **face maps**: $\delta_i := \delta_i^n : [n-1] \hookrightarrow [n]$ is the injection missing $i \in [n]$;
+  * **face maps**: $\delta_i := \delta_i^n : [n-1] \hookrightarrow [n]$ is the injection whose image leaves out $i \in [n]$;
 
   * **degeneracy maps**: $\sigma_i := \sigma_i^n : [n+1] \to  [n]$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i$.
 
-These morphism generate $\Delta$ subject to the following relations, called the **simplicial relations**
+These morphisms generate $\Delta_a$ subject to the following relations, called the **simplicial relations** or **simplicial identities**:
 
 $$
   \array{
@@ -45,7 +44,7 @@ $$
      &
      for i \lt j
      \\
-     \sigma_j^n \circ \delta_i^{n+1}
+     \sigma_j^n \circ \sigma_i^{n+1}
      =
      \sigma_i^{n-1} \circ \sigma_{j+1}^n
      &
@@ -71,11 +70,71 @@ $$
 $$
 
 
-##Remarks##
+#### The unaugmented simplex category $\Delta$
 
-### simplicial sets ###
+The category $\Delta$ is given by the full subcategory of $\Delta_a$ that leaves out $[0]$.  Usually the objects are reindexed to start from 0, so that $[n] \in \Delta = [n+1] \in \Delta_a$.  Authors who use the unaugmented category then often retain this numbering for $\Delta_a$, writing $[-1]$ for its initial object $\{\,\}$.
 
-[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. 
+## Monoidal structure ##
+
+The addition of natural numbers extends to a [[tensor product]]-type functor on both $\Delta$ and $\Delta_a$. If we visualise an object, $[n]$ of $\Delta_a$, as above, as a totally ordered set
+$\{0 \lt 1 \lt  \cdots \lt n-1\}$, then from two such $[m]$ and $[n]$, we can form a new one by making all the elements of $[n]$ strictly greater than those in $[m]$.  Thus
+$$
+[m] \oplus [n] = \{0 \lt 1 \lt  \cdots \lt m-1 \lt 0^*\lt 1^* \lt \cdots \lt (n-1)^*\}
+$$
+where $k^*$ denotes $k$ considered as an element of $[n]$.
+
+Clearly $\oplus : \Delta \times \Delta \to \Delta$ acts on objects as
+$$
+  [n] \oplus [m] = [n + m],
+$$
+On morphisms, given $f : [m] \to [m']$ and $g : [n] \to [n']$, we have 
+$$
+  (f\oplus g)(i) = \left\lbrace
+     \array{
+       f(i) & if 0 \leq i  \leq m - 1
+       \\
+       m' + g(i-m) & if m \lt i \leq (m+n-1)
+     }
+  \right.
+  \,.
+$$
+so that $f \oplus g$ can be visualised as $f$ and $g$ placed side by side.
+
+It is easy to see now that $(\Delta_a,\oplus,[0])$ is a [[strict monoidal category]].
+
+It is important to note that this tensor does _not_ give a monoidal structure to $\Delta$, as it does not have a unit.  The unit that would be needed would be the empty ordinal, and, as that _is_ there in $\Delta_a$, that does become a monoidal category.
+
+Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
+
+## $\Delta$ and $\Delta_a$ as 2-categories ##
+
+Being full subcategories of the [[2-category]] $Cat$, $\Delta$ and $\Delta_a$ are themselves 2-categories: their [[2-cells]] $f \Rightarrow g$ are given by the pointwise order on monotone functions.  Equivalently, they are generated under (vertical and [[horizontal composition|horizontal]]) composition by the inequalities
+$$ \delta^n_{i+1} \leq \delta^n_i \qquad \qquad \sigma^n_i \leq \sigma^n_{i+1} \, .$$
+Of course, the ordinal sum functor $\oplus$ extends to a [[2-functor]] in the obvious way.
+
+For each $n$ there is a string of [[adjunctions]]
+$$
+  \delta^n_{n-1} \dashv \sigma^n_{n-2} \dashv \delta^n_{n-2} \dashv
+  \cdots \dashv \delta^n_1 \dashv \sigma^n_0 \dashv \delta^n_0
+$$
+where the counit of $\sigma_i \dashv \delta_i$ and the unit of $\delta_{i+1} \dashv \sigma_i$ are identities.
+
+For each $n \geq 2$, the object $[n+1]$ is given by the [[pushout]]
+$$
+\array{
+[n-1] & \overset{\delta_0}{\to} & [n] \\
+\mathllap{\scriptsize{\delta_{n-1}}} \downarrow & & \downarrow \mathrlap{\scriptsize{\delta_0}} \\
+[n] & \underset{\delta_0}{\to} & [n+1]
+}
+$$
+
+This means that $\Delta_a$ is generated as a 2-category by these pushouts and by taking adjoints of morphisms.
+
+## Remarks ##
+
+### Simplicial sets ###
+
+[[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]], and presheaves on $\Delta_a$ are **augmented** simplicial sets.
 
 Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$.
 
@@ -84,49 +143,6 @@ The face and degeneracy maps and the relation they satisfy are geometrically bes
 * the face map $Y(\delta_i) : \Delta^{n-1} \to \Delta^{n}$ injects the standard simplicial $(n-1)$-simplex as the $i$th face into the standard simplicial $n$-simplex;
 
 * the degeneracy map $Y(\sigma_i) : \Delta^{n+1} \to \Delta^{n}$ projects the standard simplicial $(n+1)$-simplex onto the standard simplicial $n$-simplex by collapsing its vertex number $i$ onto the face opposite to it.
-
-
-
-### augmented simplex category ###
-
-* Often, it is highly convenient to extend the category $\Delta$ to contain also the empty totally ordered set $[-1] := \emptyset$. This is called the _augmented_ simplex category $\Delta_a$, and presheaves on it are **augmented simplicial sets**. The category $\Delta_a$ may be characterized as the initial strict monoidal category equipped with a monoid; the monoidal product is **ordinal sum**, and the monoidal unit is the empty ordinal. This style of definition also opens up the possibility of using string diagrams to visualize the structure of $\Delta_a$ and of the [[cube category]] $\Box$. 
-
-
-## monoidal structure ##
-
-The idea of addition of natural numbers extends, and adapts, to give a [[tensor product]]-type functor on both $\Delta$ and $\Delta_a$. If we visualise an object, $[n]$ of $\Delta$, as above, as a totally ordered set
-$\{0 \lt 1 \lt  \cdots \lt n\}$, then from two such $[m]$ and $[n]$, we can form a new one by making all the elements of $[n]$, strictly greater than those in $[m]$. (It can be convenient to adopt the following notational device here. Add an ${}^*$ to each element of $[n]$ just as a label (a different font would serve the same purpose), so we form a new ordinal $[m]+[n] = \{0 \lt 1 \lt  \cdots \lt m \lt 0^*\lt 1^* \lt  \cdots \lt n^*\}$.) Clearly we have 
-$$
-  + : \Delta \times \Delta \to \Delta
-$$
-
-acts on objects 
-
-$$
-  [n] + [m] = [n + m + 1],
-$$
-
-but that is not really where the subtleties  are apparent, they are clearer with the morphisms. On morphisms given $f : [m] \to [m']$ and $g : [n] \to [n']$, we have 
-
-$$
-  (f+g)(i) = \left\lbrace
-     \array{
-       f(i) & if 0 \leq i  \leq m
-       \\
-       g(i-m-1) + m' + 1 & if m \lt i \leq (m+n+1)
-     }
-  \right.
-  \,.
-$$
-
-It is important to note that this tensor does _not_ give a monoidal structure to $\Delta$, as it does not have a unit.  The unit that would be needed would be the empty ordinal, and, as that _is_ there in $\Delta_a$, that does become a monoidal category.
-
-
-Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
-
-+--{.query}
-[[Tim Porter|Tim]]: a neat notation for the ordinal sum is $\oplus$ read as 'o plus' with 'o' recalling 'ordinal' and 'plus .... . In editing the above I did not change the pre-existing notation, but would have liked to!
-=--
 
 
 #### realization and nerve ####
