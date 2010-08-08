@@ -22,9 +22,7 @@ $$
 
 First of all, it is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
 
-#### The augmented simplex category $\Delta_a$
-
-With the above in mind, the augmented simplex category $\Delta_a$ can be presented as follows:
+With this in mind, the **augmented simplex category** $\Delta_a$ can be presented as follows:
 
 * objects are the finite totally ordered sets $[n] := \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
 
@@ -69,10 +67,7 @@ $$
   \right.
 $$
 
-
-#### The unaugmented simplex category $\Delta$
-
-The category $\Delta$ is given by the full subcategory of $\Delta_a$ that leaves out $[0]$.  Usually the objects are reindexed to start from 0, so that $[n] \in \Delta = [n+1] \in \Delta_a$.  Authors who use the unaugmented category then often retain this numbering for $\Delta_a$, writing $[-1]$ for its initial object $\{\,\}$.
+The (unaugmented) **simplex category** $\Delta$ is given by the full subcategory of $\Delta_a$ that leaves out $[0]$.  Usually the objects are reindexed to start from 0, so that $[n] \in \Delta = [n+1] \in \Delta_a$.  Authors who use the unaugmented category then often retain this numbering for $\Delta_a$, writing $[-1]$ for its initial object $\{\,\}$.
 
 ## Monoidal structure ##
 
@@ -128,7 +123,25 @@ $$
 }
 $$
 
-This means that $\Delta_a$ is generated as a 2-category by these pushouts and by taking adjoints of morphisms.
+This means that $\Delta_a$ is generated as a 2-category by these pushouts and by taking adjoints of morphisms.  Its monoidal structure is also determined in this way: for each $n$, write $\bot_n = \delta_{n-1}\cdots\delta_2\delta_1$ for the (morphism $[1] \to [n]$ corresponding to the) least element $0$ of $[n]$, and $\top_n = \delta_0\cdots\delta_0\delta_0$ for the greatest.  Then there are [[cospans]] $[1] \to [n] \leftarrow [1]$ given by $\top_n$ and $\bot_n$, and each such is equivalent to the $(n-1)$ fold cospan composite (i.e. pushout) of $[1] \to [2] \leftarrow [1]$ with itself.  The ordinal sum $[n] \oplus [m]$ is given by the composite
+$$
+\array{
+  & & & & [n] \oplus [m] & & & & \\
+  & & & \nearrow & & \nwarrow & & & \\
+  & & [n] & & & & [m] & & \\
+  & \nearrow & & \nwarrow & & \nearrow & & \nwarrow & \\
+  [1] & & & & [1] & & & & [1]
+}
+$$
+The universal property of pushouts, together with those of the initial and terminal objects $[0],[1]$, then suffices to define $\oplus$ as a 2-functor.
+
+## Universal properties ##
+
+The object $[1]$ is [[terminal object|terminal]] in $\Delta_a$, so that there are unique morphisms $[0] \to [1] \leftarrow [2]$ that make $[1]$ into a [[monoid object]].  $\Delta_a$ thus becomes the universal category-equipped-with-a-monoid, in the sense that for any strict monoidal category $B$, there is a bijection between monoids $(M,m,u)$ in $B$ and strict [[monoidal functors]] $\Delta_a \to B$ such that $[1] \mapsto m$, $\sigma_0 \mapsto m$ and $\delta_0 \mapsto u$.
+
+In particular, for $K$ a 2-category, [[monads]] in $K$ correspond to 2-functors $\mathbf{B}\Delta_a \to K$, where $\mathbf{B}\Delta_a$ is $\Delta_a$ considered as a one-object 2-category.  Because monads in $K$ are also the same as [[lax functors]] $1 \to K$, this correspondence exhibits $\mathbf{B}\Delta_a$ as the [[lax morphism classifier]] for the terminal category $1$.
+
+When $\Delta_a$ is considered as a 2-category, a similar argument to the above shows that the one-object [[3-category]] $\mathbf{B}\Delta_a$ classifies [[lax-idempotent monads]]: given a 3-category $M$ and a lax-idempotent monad $t$ therein, there is a unique 3-functor $\mathbf{B}\Delta_a \to M$ sending $[1]$ to $t$, essentially because $\sigma^1_0 \dashv \delta^1_0 = \delta^0_0 \oplus [1]$ with identity counit.
 
 ## Remarks ##
 
