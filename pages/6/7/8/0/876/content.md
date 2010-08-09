@@ -1,7 +1,13 @@
+# Disjoint unions
+* table of contents
+{: toc}
+
+## Idea
+
 The _disjoint union_ is a [[coproduct]] in [[Set]], the category of [[sets]].
 
 
-# Definition #
+## Definition
 
 Given any family $(A_i)_{i:I}$ of sets, the (external) __disjoint union__ $\biguplus_i A_i$ (also written $\sum_i A_i$, $\coprod_i A_i$, etc) of the family is the set of all (ordered) pairs $(i,a)$ with $i$ in the index set $I$ and $a$ in $A_i$.
 
@@ -10,7 +16,7 @@ As stated, the second element of such a pair depends on the first element, which
 There is a natural [[injection]] $A_j \to \biguplus_i A_i$ (mapping $a$ to $(j,a)$) for each index $j$, and its common to treat $A_j$ as a [[subset]] of $\biguplus_i A_i$.  So if no confusion can result (in particular, when the notation for an elements of $A_j$ always makes the ambient set clear), one often suppresses the index in the notation for an element of the disjoint union.
 
 
-# Special cases #
+## Special cases
 
 Given sets $A$ and $B$, the disjoint union of the binary family $(A,B)$ is written $A \uplus B$ (also $A + B$, $A \amalg B$, etc); its elements may be written (if care is needed) as $(0,a)$ and $(1,b)$, $(1,a)$ and $(2,b)$, $\iota{a}$ and $\kappa{b}$, and in many other styles.
 
@@ -23,7 +29,7 @@ Given a set $A$, the disjoint union of the unary family $(A)$ may be identified 
 The disjoint union of the empty family $()$ is [[empty set|empty]]; it has no elements.
 
 
-# Internal version #
+## Internal version
 
 (This is internal in the sense of 'internal direct sum', not [[internalization]].  For that, just see [[coproduct]].)
 
