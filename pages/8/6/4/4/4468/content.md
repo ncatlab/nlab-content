@@ -13,7 +13,7 @@ A more subtle definition is needed in [[constructive mathematics]]; compare the 
 
 There are two definitions, one of which is useful predicatively but not constructively, and one of which is useful constructively but not predicatively.
 
-*  Let $L$ be a [[preordered set]], and let $x$ be an element of $L$.  Then $x$ is __positive__ if $x$ is there exists an element $y$ such that $x \leq y$ is false.
+*  Let $L$ be a [[preordered set]], and let $x$ be an element of $L$.  Then $x$ is __positive__ if there exists an element $y$ such that $x \leq y$ is false.
 
 *  Let $L$ be a [[preordered set]], and let $x$ be an element of $L$.  There may be many ways to write $x$ as a [[join]] of some [[subset]] $A$ of $L$.  If in every such way, $A$ is [[inhabited subset|inhabited]], then $x$ is __positive__.
 
@@ -27,7 +27,7 @@ There does not seem to be any way to define the notion of positive element in a 
 *  Whenever $x$ is positive and $x$ is the join of $A$, then some element of $A$ is positive;
 *  If $x$ is the join of $A$ on the assumption that $x$ is positive, then $x$ really is the join of $A$.
 
-Then one can prove, predicatively but not constructively, that every poset has a unique positivity predicate, which must match the first definition above; and one prove, constructively but not predicatively, that every poset has a unique positivity predicate, which must match the second definition above.
+Then one can prove, predicatively but not constructively, that every poset has a unique positivity predicate, which must match the first definition above; and one can prove, constructively but not predicatively, that every poset has a unique positivity predicate, which must match the second definition above.
 
 Such a positivity predicate is used in [[formal topology]].
 
