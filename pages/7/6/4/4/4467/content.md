@@ -37,9 +37,9 @@ We interpret the elements of $S$ as __basic opens__ in the formal space.  We cal
 
 Some immediate points to notice:
 
-*  If we drop (1), then the hypothesis of (1) defines an [[equivalence relation]] on $S$ which is a [[congruence]] for $\top$, $\cap$, $\lhd$, and $\vdash$, so that we may simply pass to the [[quotient set]].
+*  If we drop (1), then the hypothesis of (1) defines an [[equivalence relation]] on $S$ which is a [[congruence]] for $\top$, $\cap$, $\lhd$, and $\vdash$, so that we may simply pass to the [[quotient set]].  In appropriate foundations, we can allow $S$ to be a [[preset]] originally, then use (1) as a definition of equality.
+*  We can prove that $(S,\cap,\top)$ is a bounded [[semilattice]]; if (as the notation suggests) we interpret this as a [[meet]]-semilattice, then $a \leq b$ if and only if $a \lhd \{b\}$.  Conversely, we could require that $(S,\cap,\top)$ be a semilattice originally, then let (1) say that $a \leq b$ whenever $a \lhd \{b\}$.
 *  The predicate $\vdash$ is uniquely definable in an impredicative treatment; we can prove that $a$ is [[positive element|positive]] if and only if every cover of $a$ is inhabited.
-*  We can prove that $(S,\cap,\top)$ is a bounded [[semilattice]]; if (as the notation suggests) we interpret this as a [[meet]]-semilattice, then $a \leq b$ if and only if $a \lhd \{b\}$.
 
 
 ## Examples
