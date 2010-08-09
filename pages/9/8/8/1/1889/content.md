@@ -51,3 +51,4 @@ Often the term lax functor is often used for $n$-functors $F : C \to D$ whose do
 [[!redirects oplax functor]]
 [[!redirects lax n-functor]]
 [[!redirects lax 2-functor]]
+[[!redirects lax functors]]
