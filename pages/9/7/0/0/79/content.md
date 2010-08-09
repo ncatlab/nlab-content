@@ -35,6 +35,8 @@
 
   * [[higher geometry]]
 
+  * [[Lie theory]]
+
 * [[algebra|Algebra]]:
 
   * [[universal algebra]]
