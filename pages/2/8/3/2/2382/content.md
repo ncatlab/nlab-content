@@ -13,7 +13,7 @@
 
 ## Toposes ##
 
-* [[0-topos]]: [[Heyting algebra]], [[locale]]
+* [[(0,1)-topos]]: [[Heyting algebra]], [[locale]]
 
 * [[pretopos]]
 
