@@ -78,7 +78,9 @@ See also section A.3.2 of
 
 ### References
 
-* [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_
+* [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
+
+* MathOverflow: [cofibrations-of-simplical-categories-in-the-bergner-model-structure...](http://mathoverflow.net/questions/34959/cofibrations-of-simplical-categories-in-the-bergner-model-structure-induce-c)
 
 [[!redirects model structure on SSet-categories]]
 [[!redirects model structure on simplicial categories]]
