@@ -43,7 +43,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 ### Forums
 
 
-* [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
+* [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/) and [daughters](http://stackexchange.com) of &lt;http://area51.stackexchange.com>, including [math.stackexchange](http://math.stackexchange.com) dedicated to lower level math questions ("MathUnderflow") and [tex.stackexchange](http://tex.stackexchange.com) about TeX and LaTeX.
 
 * [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/) For discussions about material (both maths and metas) here on the nLab.
 
@@ -89,7 +89,9 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski) (analysis, esp. summation formulas, probability distributions, stochastic processes...)
 
-* Edinburgh Mathematical Physics Group [blog](http://empg.maths.ed.ac.uk/blog)
+* empg -- Edinburgh Mathematical Physics Group [blog](http://empg.maths.ed.ac.uk/blog)
+
+* [equalis](http://www.equalis.com) Online community about SciLab and computing
 
 * [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
@@ -294,6 +296,8 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Detexify](http://detexify.kirelabs.org/classify.html) for finding LaTeX symbols by drawing them.
 
 * [LaTeX on Blogger](http://watchmath.com/vlog/?p=438) for installing LaTeX on Blogger.
+
+
 
 
 category: meta
