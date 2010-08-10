@@ -1,36 +1,17 @@
+> under construction
 
-> under construction -- for the moment see the closely related entry on [[Hochschild cohomology]] for more background
+Cyclic homology and cyclic cohomology...See also [[cycle category]], [[cyclic object]].
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+* [[J-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. 301, Springer 2nd ed.
 
-## Idea
+* [[Masoud Khalkhali]], _A short survey of cyclic cohomology_, [arxiv/1008.1212](http://arxiv.org/abs/1008.1212)
 
-+-- {: .standout}
+* [[Alain Connes]], _Noncommutative geometry_, Academic Press 1994, 661 p. [PDF](http://www.alainconnes.org/docs/book94bigpdf.pdf) 
 
-**Cyclic cohomology** is the $S^1$-[[equivariant cohomology]] refinement of [[Hochschild cohomology]]: the [[cohomology]] $H_{S^1}(\mathcal{L}X,A)$ of [[free loop space object]]s equivariant under the natural circle action on $\mathcal{L}X.$ 
+* [[D. Kaledin]], _Tokyo lectures "Homological methods in non-commutative geometry"_, [pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex); and related but different [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul)
 
-=--
+* [[D. Kaledin]], _Cyclic homology with coefficients_, [math.KT/0702068](http://arxiv.org/abs/math.KT/0702068), to appear in Yu. Manin's 70th anniversary volume.
 
-Hochschild cohomology on $X$ -- the cohomology of $\mathcal{L}X$ --  realizes (analogs of) [[differential form]]s on $X$. The circle action on $\mathcal{L}X$ induces a [[differential]] on these forms. The $S^1$-invariant part of the cohomology is therefore given by (the analog of) _closed_ differential forms.
+* [[Max Karoubi]], _Homologie cyclique et K-th&#233;orie_, Ast&#233;rique __149__, Soci&#233;t&#233; Math&#233;matique de France (1987). 
 
-## References
-
-* [[Jacek Brodzki]], _An introduction to K-theory and cyclic cohomology_ ([arXiv:funct-an/9606001](http://arxiv.org/abs/funct-an/9606001))
-
-* J. Cuntz, D. Quillen, _Operators on noncommutative differential forms and cyclic homology_ Geometry, topology and physics, 77--111 Conf. Proc. Lecture Notes Geom. Topology, IV, Internat. Press, Cambridge, MA 1995
-
-Lecture notes on [[Hochschild cohomology]] with some pointers to cyclic aspects are in section 4 and later of 
-
-* [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
-
-A lucid and inovative treatement of cyclic homology is in 
-
-* D. Kaledin, _Cyclic homology with coefficients_, [math.KT/0702068](http://arxiv.org/abs/math.KT/0702068), to appear in Yu. Manin's 70th anniversary volume.
-
-* D. Kaledin, _Homological methods in noncommuttaive geometry_, lecture notes, Tokyo 2008, [pdf](http://imperium.lenin.ru/~kaledin/math/tokyo/final.pdf)
-
-To have a cyclic cohomology for an algebra over an operad, the operad needs to be a [[cyclic operad]]:
-
-* E. Getlzer, M. M. [[Kapranov]], _Cyclic operads and cyclic cohomology_, in Geometry, topology and physics (1995), pp. 167--201, [pdf](http://www.math.northwestern.edu/~getzler/Papers/cyclic.pdf)
+[[!redirects cyclic homology]]
