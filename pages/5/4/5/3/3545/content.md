@@ -40,7 +40,7 @@ In [[rational homotopy theory]] [[rational topological space]]s are encoded in t
 
 Examples are
 
-* [[Kähler manifold]]s;
+* compact [[Kähler manifold]]s (e.g. smooth projective varieties);
 
 * [[Lie group]]s;
 
