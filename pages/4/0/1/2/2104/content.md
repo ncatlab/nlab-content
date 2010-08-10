@@ -15,7 +15,7 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
 ## Related entries and references
 
-* [[geometric quantization]], [[deformation quantization]], [[semiclassical approximation]], [[BV theory]]
+* [[geometric quantization]], [[deformation quantization]], [[semiclassical approximation]], [[BV-BRST formalism]]
 * [[path integral]], [[exercise in groupoidification - the path integral]]
 
 A general geometrically inclined introduction can be found in 
@@ -29,3 +29,5 @@ A proposal for a full formalization of the notion of quantization for "finite" t
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
 
 A historical discussion by [[Zoran Škoda|one]] of the $n$labizants is here: [mathlight:quantization](http://mathlight.wordpress.com/2010/03/19/quantization). See also Urs's manifesto at [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]].
+
+* [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
