@@ -23,8 +23,9 @@
 {:toc}
 
 ##Purpose
+{#purpose}
 
-We think of this wiki as our **lab book** that we happen to keep lying around openly.  
+We think of this wiki as our **lab book** that we happen to keep lying around openly.
 
 +-- {: .standout}
 
