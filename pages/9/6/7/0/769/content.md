@@ -53,19 +53,11 @@ $$
   D & \underset{h}{\to} & C & \underset{g}{\to} & B
 }
 $$
-Then if any two of the following hold, so does the third:
+where the right-hand square is a comma square.  Then
 * the whole diagram is a comma square
-* the right-hand square is a comma square
 * the left-hand square is a (2-)pullback square
 
-+-- {: .proof}
-_Proof._ There is a commuting triangle of functors
-$$
-\hom(-,P) \to LaxSq(-,\overset{h}{\to}\overset{g}{\to}\overset{f}{\leftarrow}) = \hom(-,P) \to Sq(-,\overset{h}{\to}\overset{p}{\leftarrow}) \to LaxSq(-,\overset{h}{\to}\overset{g}{\to}\overset{f}{\leftarrow})
-$$
-where $Sq$ and $LaxSq$ give the obvious categories of commuting and 'lax' squares (i.e. squares containing a 2-cell),
-determined by pasting with the whole diagram, the left square and the right square, respectively.  The result follows from the 2-out-of-3 property for equivalences.
-=--
+The proof is analogous to that at [[pullback]].
 
 ## Examples
 
