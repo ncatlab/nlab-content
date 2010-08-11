@@ -125,7 +125,7 @@ On [[quantum field theory]] and [[string theory]]:
 
 * Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009.
 
-* Hisham Sati, [[Geometric and topological structures related to M-branes]], [arXiv:1001.5020](http://arXiv.org/abs/1001.5020)
+* Hisham Sati, [[Geometric and topological structures related to M-branes]], part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arxiv/1007.5419](http://arxiv.org/abs/1007.5419)); part _III: Twisted higher structures_ ([http://arxiv.org/abs/1008.1755](http://arxiv.org/abs/1008.1755))
 
 * A. N. Kapustin, [[Dmitri Orlov|D. O. Orlov]], _Lectures on mirror symmetry, derived categories, and $D$-branes_, Russian Mathematical Surveys, 2004, 59:5, 907&#8211;940 (Russian version: [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=772&volume=59&year=2004&issue=5&fpage=101&what=fullt&option_lang=eng), [arxiv version: [arxiv:math.AG/0308173](http://arxiv.org/abs/math.AG/0308173)).  
 
