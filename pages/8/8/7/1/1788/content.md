@@ -1,3 +1,9 @@
++-- {: .standout}
+Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
+=--
+
+***
+
 $\eta _c\left(\text{Id}_c\right)\text{  }\in \text{  }X(c)$
 
 $\eta _c\left(\text{Id}_c\right) \in  X(c)$
@@ -67,12 +73,6 @@ $\eta _c\left(\text{Id}_c\right) \in  X(c)$
  </mrow>
 
 </math>
-
--- {: .standout}
-Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
-=--
-
-***
 
 ### Numbered equations
 
