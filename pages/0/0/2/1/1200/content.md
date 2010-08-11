@@ -1,8 +1,13 @@
-# Idea #
+# Ordinal numbers
+* table of contents
+{: toc}
+
+## Idea
 
 The _ordinal number_ (or just _ordinals_) constitute a generalisation of a [[natural numbers]] to possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
 
-# Definition #
+
+## Definition
 
 Na&#239;vely, an **ordinal number** should be an [[isomorphism]] class of [[well-ordered sets]], and the **ordinal rank** of a well-ordered set $S$ would be its isomorphism class.  That is:
 1. every well-ordered set has a unique ordinal number as its ordinal rank;
@@ -15,7 +20,7 @@ Taking this definition literally in material [[set theory]], each ordinal is the
 
 * An __ordinal__ is a [[transitive set|transitive]] [[pure set]] $X$ which is [[well-ordered]] by the membership relation $\in$.  Then the __ordinal rank__ of a well-ordered set $S$ is the unique ordinal number that is isomorphic (as a well-ordered set) to $S$; it is a theorem that this exists, satisfying (1--3).
 
-In the presence of the [[axiom of foundation]], $\in$ is automatically a [[well-founded relation]], so it suffices to require that $\in$ be a [[transitive relation]] on $X^+ = X \cup \{X\}$.
+These pure sets are the __von Neumann ordinals__.  In the presence of the [[axiom of foundation]], $\in$ is automatically a [[well-founded relation]], so it suffices to require that $\in$ be a [[transitive relation]] on $X^+ = X \cup \{X\}$.
 
 From the perspective of structural [[set theory]], it is [[evil]] to care about distinctions between isomorphic objects, and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
 
@@ -23,13 +28,8 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 
 However, one still may need sets of ordinals, that is sets that serve as the target of an ordinal rank function satisfying (1--3) on any (small) collection of well-ordered sets.  One can construct this as a [[quotient set]] of that collection.
 
-+--{: .query}
-_Mike_: I don't understand that last paragraph.
 
-_Toby_:  See [[cardinal number]].
-=--
-
-# Properties
+## Properties
 
 The class of ordinals is itself [[well-ordered]].  There are many equivalent ways to define this ordering.  One is that $\alpha\lt\beta$ iff $\alpha$ is isomorphic to a proper _initial segment_ of $\beta$ (that is, a subset $S\subsetneq \beta$ such that $b\in S$ and $a\lt b$ imply $a\in S$).  With the von Neumann definition, this is equivalent to simply saying that $\alpha\in\beta$.
 
@@ -40,4 +40,14 @@ In the presence of the [[axiom of choice]], a [[cardinal number]] can be defined
 
 [[!redirects ordinal]]
 [[!redirects ordinals]]
+[[!redirects ordinal number]]
 [[!redirects ordinal numbers]]
+
+[[!redirects von Neumann ordinal]]
+[[!redirects von Neumann ordinals]]
+[[!redirects Von Neumann ordinal]]
+[[!redirects Von Neumann ordinals]]
+[[!redirects von Neumann ordinal number]]
+[[!redirects von Neumann ordinal numbers]]
+[[!redirects Von Neumann ordinal number]]
+[[!redirects Von Neumann ordinal numbers]]
