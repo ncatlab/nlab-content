@@ -77,6 +77,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Concrete Nonsense](http://concretenonsense.wordpress.com) (combinatorics, [[Lie algebras]], [[representation theory]], [[algebraic geometry]])
 
+* [Chromotopy](http://chromotopy.org) ("chromatic") stable homotopy theory blog
+
 * [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on [[algebra]], representation theory, and Olympiad-style problem-solving
 
 * [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com) (dynamical systems, ergodic theory, radnomness in number sequences, Ricci flow)
