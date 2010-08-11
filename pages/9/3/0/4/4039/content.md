@@ -17,6 +17,8 @@ There are strong [[cohomology|cohomological]] tools for studying variational cal
 
 * Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
 
-...
+* Olga Krupkov&#225;, _The geometry of ordinary variational equations_, Springer 1997, 251 p.
+
+* Peter Olver, _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
 
 [[!redirects calculus of variations]]
