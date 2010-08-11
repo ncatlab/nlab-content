@@ -6,8 +6,7 @@
 * automatic table of contents goes here
 {:toc}
 
-
-##Idea
+## Idea
 
 A _monad_ is an [[endomorphism]] in a [[2-category]] equipped with the structure of a [[monoid]]: a 2-morphism from the composite of the morphism to itself, and one from the identity endomorphism to it, satisfying associativity and uniticity.
 
@@ -88,7 +87,7 @@ Among higher-category theorists, it's tempting to suggest that this is the most 
 =--
 
 
-##Remarks
+## Remarks
 
 * Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$).  In even older literature, they are also referred to as **standard constructions**, from Beck's discovery of them as a unifying description of the constructions of various homology theories.
 
@@ -99,23 +98,27 @@ Among higher-category theorists, it's tempting to suggest that this is the most 
 
 Monads on [[partial order|posets]] are particularly simple.  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
 
-Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Set]].  For example, the operation taking a set $S$ to the underlying set of the [[free monoid]] on $S$ may be extended to a monad, the [[list monad]].
+Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Set]].  For example, the operation taking a set $S$ to the underlying set of the [[free monoid]] on $S$ may be extended to a monad, the [[list monad]]; the operation taking $S$ to the underlying set of the free [[pointed set]] on $S$ may be extended to the successor monad (see below).
 
 An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
+
 ### The Successor Monad
 
-The successor monad is an example of monad on the $\subset$ partial order on $Set$. We may as well have $S X=X\cup\{X\}$ and then for $f:X\to Y$
-$$ S f(x)=\left\{ \begin{matrix} f(x) & x\in X \\ Y & x = X \end{matrix} \right.$$
-The structure map $\eta_X$ is the inclusion of $X$ in $S X$; the map $\mu_X:S S X\to S X$ restricts to $S X$ as the identity, and futhermore has $\mu_X(S X)=X$.
+The successor monad is an example of monad on $Set$. We define $S X$ as a [[disjoint union]] of $S$ and a [[singleton set]].  In [[material set theory]] (with the [[axiom of foundation]]), it is handy to define this as $S X \coloneq X \cup\{X\}$; then for $f\colon X \to Y$,
+$$ S f(x) \coloneqq \left\{ \begin{matrix} f(x) & x \in X \\ Y & x = X \end{matrix} \right .$$
+The structure map $\eta_X$ is the [[inclusion function|inclusion]] of $X$ in $S X$; the map $\mu_X\colon S S X \to S X$ [[restriction|restricts]] to $S X$ as the [[identity function|identity]], and futhermore has as [[image]] $\mu_X(S X) = X$.
 
-The set of morphisms in the [[Kleisli Category]] of $(S,\eta,\mu)$ from $X$ to $Y$ is canonically equivalent to the set of _partial functions_ from $X$ to $Y$; its [[Steenrod-Moore Category]] is equivalent to the category of pointed sets and pointed maps, i.e. morphisms $1\to X$ and commuting squares between such morphisms.
+The [[hom-set]] of morphisms in the [[Kleisli category]] of $(S,\eta,\mu)$ from $X$ to $Y$ is canonically equivalent (using [[excluded middle]]) to the set of [[partial functions]] from $X$ to $Y$; its [[Eilenberg?Moore category]] is equivalent to the category of [[pointed sets]] and pointed maps, i.e. functions of the form $1 \to X$ and commuting squares between such morphisms.
 
-The Successor monad as defined here is also interesting in that it stabilizes the (finite) von Neumann ordinals and *monotone* maps between them, and that $\eta$ and $\mu$ are also monotone.  Thus the successor monad restricts as a monad to a skeleton of the augmented [[simplex category]].  Furthermore, every monotone map of ordinals can be written as a composite of arrows of the form $S^k \mu_l$ and $S^m \eta_n$.
+The successor monad as defined here is also interesting in that it stabilizes the finite [[von Neumann ordinals]] and *monotone* maps between them, and that $\eta$ and $\mu$ are also monotone.  Thus the successor monad restricts as a monad to the augmented [[simplex category]].  Furthermore, every monotone map of finite ordinals can be written as a composite of arrows of the form $S^k \mu_l$ and $S^m \eta_n$.
 
 +-- {: .query}
 [[JCMcKeown]]: I want to say something like $(S,\eta,\mu)$ _generates_ the (skeletal augmented) simplex category; there is surely a right way to say that, but what is it?
+
+_Toby_:  I don\'t think that it\'s quite true that $S$ generates the simplex category, because you need an object to start applying it to.  But I\'d agree that $(S,\eta,\mu)$ generates it starting from $0$.  I don\'t know any slick way to say that.
 =--
+
 
 ## Algebras/modules over a monad {#Algebras}
 
