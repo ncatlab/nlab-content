@@ -25,9 +25,11 @@ The notion of Poisson sigma model  was originally introduced by P. Schaller, T. 
 
 * P. Schaller, T. Strobl, _Poisson structure induced (topological) field theories_, Modern Phys. Lett. A 9 (1994), no. 33, 3129--3136, [doi](http://dx.doi.org/10.1142/S0217732394002951); _Introduction to Poisson $\sigma$-models_,  Low-dimensional models in statistical physics and quantum field theory (Schladming, 1995),  321--333, Lecture Notes in Phys. __469__, Springer 1996.
 
-* Thomas Strobl, _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. [doi](http://dx.doi.org/10.1103/PhysRevLett.93.211601)
+* [[Thomas Strobl]], _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. [doi](http://dx.doi.org/10.1103/PhysRevLett.93.211601)
 
 * M. Bojowald, A. Kotov, T. Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  54  (2005),  no. 4, 400--426, [doi](http://dx.doi.org/10.1016/j.geomphys.2004.11.002)
+
+* Ctirad Klim&#269;&#237;k, [[T. Strobl]], _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344, <a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi</a> 
 
 The detailed argument by Cattaneo and Felder on how Kontsevich's formula for the deformation quantization star product is the 3-point function of the Poisson sigma-model is in
 
