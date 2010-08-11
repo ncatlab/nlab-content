@@ -140,7 +140,7 @@ we can linearize any ordinary species $T$ and obtain a linear species $F \circ T
 
 * [[Marcelo Aguiar]] and [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf))
 
-However, not all $Vect$-valued species correposnd to Schur functors, because we have defined Schur functors to arise from _finite_ direct sums of irreducible representations of permutation groups.   So, $Schur$ is equivalent to the category where:
+However, not all $Vect$-valued species corresond to Schur functors, because we have defined Schur functors to arise from _finite_ direct sums of irreducible representations of permutation groups.   So, $Schur$ is equivalent to the category where:
 
 * objects are **polynomial species**: that is, functors $R: core(Fin\Set) \to FinVect$ such that $R(n) = \{0\}$ for all sufficiently large finite sets $n$;
 
