@@ -5,7 +5,7 @@
 
 ## Idea
 
-**Variational calculus** is [[differential calculus]] for [[functional]]s. 
+**Variational calculus** deals with local extremization of [[functionals]] employing some aspects of the [[differential calculus]] on spaces of [[functional]]s. 
 
 Specifically, it studies the critical points, i.e. the points where the first variational derivative of a functional vanishes, for functionals on spaces of [[section]]s of [[jet bundle]]s. The kinds of equations specifying these critical points are [[Euler-Lagrange equation]]s.
 
@@ -17,8 +17,8 @@ There are strong [[cohomology|cohomological]] tools for studying variational cal
 
 * Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
 
-* Olga Krupkov&#225;, _The geometry of ordinary variational equations_, Springer 1997, 251 p.
-
 * Peter Olver, _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
+
+* Olga Krupkov&#225;, _The geometry of ordinary variational equations_, Springer 1997, 251 p.
 
 [[!redirects calculus of variations]]
