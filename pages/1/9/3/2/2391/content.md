@@ -71,7 +71,7 @@ The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the sub
 
 #Terminology and history
 
-$Q$-category originally standed as "almost quotient category", presumably because of its role in the theory of Gabriel localization. The sheaf formalism in terms of $Q$-categories has been introduced in the mimeographed
+$Q$-category originally standed as "almost quotient category", presumably because of its role in the theory of [[Gabriel localization]]. The sheaf formalism in terms of $Q$-categories has been introduced in the mimeographed
 notes
 
 * A. Rosenberg, _Q-categories, sheaves and localization_, (in Russian) Seminar on supermanifolds __25__, Leites ed. Stockholms Universitet 1988 (there is a recent partial English translation)
@@ -82,10 +82,10 @@ The formalism has been recently used (and shortly surveyed) in
 
 and also used in the general definition of "noncommutative" stacks in
 
-* M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-37 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305))
+* [[M. Kontsevich]], [[A. Rosenberg]], _Noncommutative spaces_, preprint MPI-2004-37 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305))
 
 The epipresheaf condition for the Q-category of nilpotent (infinitesimal) thickenings is in the Kontsevich-Rosenberg paper interpreted as [[formally smooth morphism|formal smoothness]] what is further studied in 
 
-* T. Brzezi&#324;ski, _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113-124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
+* [[T. Brzeziński]], _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113-124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
 
 [[!redirects Q-categories]]
