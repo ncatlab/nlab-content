@@ -1,0 +1,3 @@
+In $n$lab, the entry [[smooth algebra]] is dedicated to the notion of $C^\infty$-rings, hence it is coming from an extension of the theory of [[differentiable manifold]]s. On the other hand in commutative algebra and in the study of associative lagebras there are many notions of smoothness, regularity and formal smoothness which correspond to nonsingularity in an algebraic category, while the algebras are quite different from the $C^\infty$-setup. In [[algebraic geometry]], Grothendieck introduced many notions of [[smooth scheme|smoothness for commutative algebraic schemes]] (they say 19 different notions). See also [[formally smooth morphism]]. 
+
+* W.F. Schelter, _Smooth algebras_, J. Algebra 103 (1986), 677&#8211;685.
