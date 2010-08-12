@@ -2,12 +2,11 @@
 * table of contents
 {: toc}
 
-
 ## Idea
 
-An extended real number is usually a [[real number]], but it might be $\pm\infty$.  We can also think of an extended real number as a number of the form $\log(1/t - 1)$ for $t \in [0,1]$ (including $t = 0,1$) or a number of the form $\tan t$ for $t$ a real number (including an odd multiple of $\pi$).
+An extended real number is usually a [[real number]], but it might be $\pm\infty$.  We can also think of an extended real number as a number of the form $\log(1/t - 1)$ for $t \in [0,1]$ (including $t = 0,1$) or a number of the form $\tan t$ for $t$ a real number (including an odd multiple of $\pi/2$).
 
-There are actually two slightly different notions that both go by the name 'extended real number': one in which $\infty$ and $-\infty$ are identified, and one in which they are not.  The former kind forms a [[quotient set|quotient space]] of the latter.
+There are actually two slightly different notions that both go by the name 'extended real number': one in which $\infty$ and $-\infty$ are distinct (the logarithm), and one in which they are identified (the tangent).  The latter kind forms a [[quotient set|quotient space]] of the former.
 
 
 ## Definitions
@@ -26,11 +25,11 @@ So let an __extended Dedekind cut__ be a pair $(L,U)$ of sets of [[rational numb
 *  Whenever $a \lt b$ are rational numbers, either $a \in L$ or $b \in U$.
 *  If $a \in L$ and $b \in U$, then $a \lt b$.
 
-The usual slight variations available in the notion of Dedekind cut apply here as well, in the same ways.
+(The usual slight variations available in the notion of Dedekind cut apply here as well, in the same ways.)
 
 If $L$ is empty, then $U$ must be the set of all rational numbers; this extended cut represents $-\infty$.  If $U$ is empty, then $L$ must be the set of all rational numbers; this extended cut represents $\infty$.  An extended Dedekind cut is __bounded__ if instead $L$ and $U$ are both [[inhabited set|inhabited]].  The bounded cuts are the usual Dedekind cuts that represent real numbers.  So the only change is that we no longer require this boundedness condition.
 
-The space of extended real numbers in this sense is often denoted $\overline{\mathbb{R}}$.
+The space of extended real numbers in this sense is often denoted $\overline{\mathbb{R}}$.  As a [[topological space]] (or [[locale]], constructively), it is the [[end compactification]] of the [[locally compact space]] $\mathbb{R}$.
 
 
 ### As ratios of real numbers
@@ -41,7 +40,7 @@ So let a __nontrivial ratio__ of real numbers be a pair $(a,b)$ of real numbers 
 
 If $b \ne 0$, then the nontrivial ratio $a &#8758; b$ is equivalent to $a/b &#8758; 1$ and represents the real number $a/b$.  The nontrivial ratios $a &#8758; 0$ for $a \ne 0$ are all equivalent and represent $\infty$.  (The ratio $0 &#8758; 0$ is considered trivial and does not represent any extended real number.)
 
-This is a special case of forming the [[projective line]] of a [[field]], in this case the field of real numbers.  Accordingly, the space of extended real numbers in this sense is often denoted $\mathbb{P}\mathbb{R}^1$.
+This is a special case of forming the [[projective line]] of a [[field]], in this case the field of real numbers.  Accordingly, the space of extended real numbers in this sense is often denoted $\mathbb{P}\mathbb{R}^1$.  As a [[topological space]] (or [[locale]], constructively), it is the [[one-point compactification]] of the [[locally compact space]] $\mathbb{R}$.
 
 
 ## Orders
