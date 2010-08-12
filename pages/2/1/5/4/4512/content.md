@@ -15,4 +15,6 @@ Other references
 * J. G&#243;mez-Torrecillas, _Separable functors in [[corings]]_, 
 Int. J. of Math. and Math. Sci. __30__ (2002), 4, Pages 203-225, [doi](http://dx.doi.org/10.1155/S016117120201270X), [pdf](http://www.emis.de/journals/HOA/IJMMS/Volume30_4/225.pdf)
 
+* A. Ardizzoni, _Separable functors and [[formal smoothness]]_,  J. K-Theory  1  (2008),  no. 3, 535--582, [math.QA/0407095](http://arxiv.org/abs/math.QA/0407095), [doi](http://dx.doi.org/10.1017/is007011015jkt012), [MR2009k:16069](http://www.ams.org/mathscinet-getitem?mr=2009k:16069)
+
 [[!redirects separable functors]]
