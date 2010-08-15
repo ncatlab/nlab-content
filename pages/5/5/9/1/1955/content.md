@@ -18,7 +18,7 @@ K&#228;hler differentials are traditionally conceived in terms of an algebraic c
 
 below.
 
-The definition, concrete as it is, applies of course also to function rings on spaces not modeled on $CRing^{op}$, such as rings $C^\infty(X)$ of smooth functions on a smooth [[manifold]]. One might expect that the module of K&#228;hler differentials $\Omega_K(Spec C^\infty(X))$ of $C^\infty(X)$, regarded as an ordinary [[ring]], does reproduce the familiar notion of smooth [[differential form]]s on a [[manifold]]. But it does not. This is discussed in the section
+The definition, concrete as it is, applies of course also to function rings on spaces not modeled on $CRing^{op}$, such as rings $C^\infty(X)$ of smooth functions on a [[smooth manifold]]. One might expect that the module of K&#228;hler differentials $\Omega_K(Spec C^\infty(X))$ of $C^\infty(X)$, regarded as an ordinary [[ring]], does reproduce the familiar notion of smooth [[differential form]]s on a [[manifold]]. But it does not. This is discussed in the section
 
 * [Over smooth rings regarded as ordinary rings](#SmoothOrPlain).
 
@@ -230,7 +230,7 @@ We have seen that we define K&#228;hler differentials $\Omega^1_K(A)$ for any [[
 
 The following special case deserves special attention:
 
-The algebra $A = C^\infty(X)$ of smooth functions on some smooth space $X$ (a smooth [[manifold]] or a [[generalized smooth space]]) is in particular a commutative algebra. So one might think that its K&#228;hler differentials form the ordinary [[differential form]]s on $X$ -- in analogy to the case when $A$ consists of the algebraic functions on an affine [[algebraic variety]] in which case K&#228;hler differentials are often taken as a _definition_ of 1-forms.  
+The algebra $A = C^\infty(X)$ of smooth functions on some smooth space $X$ (a [[smooth manifold]] or a [[generalized smooth space]]) is in particular a commutative algebra. So one might think that its K&#228;hler differentials form the ordinary [[differential form]]s on $X$ -- in analogy to the case when $A$ consists of the algebraic functions on an affine [[algebraic variety]] in which case K&#228;hler differentials are often taken as a _definition_ of 1-forms.  
 
 #### The problem and its solution
 
