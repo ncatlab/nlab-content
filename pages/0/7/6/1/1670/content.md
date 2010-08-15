@@ -1,3 +1,7 @@
+# Moore closures
+* table of contents
+{: toc}
+
 ## Idea
 
 The concept of Moore closure is a very general idea of what it can mean for a set to be closed under some condition.  It includes, as special cases, the operation of [[closed subspace|closure]] in a [[topological space]], many examples of generation of structures from [[base|bases]] and even [[subbase|subbases]], and generating [[subalgebras]] from subsets of an algebra.
