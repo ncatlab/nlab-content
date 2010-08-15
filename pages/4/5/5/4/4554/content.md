@@ -37,7 +37,7 @@ $$
 
 where 
 
-1. $i$ is the [[right inverse]] to a trivial fibration, hence in particular a weak equivalence;
+1. $i$ is a [[right inverse]] to a trivial fibration, hence in particular a weak equivalence;
 
 1. $p$ is a fibration.
 =--
