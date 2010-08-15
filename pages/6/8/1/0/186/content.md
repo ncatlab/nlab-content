@@ -1,4 +1,10 @@
-Generalised smooth spaces are, roughly speaking, generalisations of smooth [[manifolds]].  Their _raison d'etre_ is the following
+# Generalised smooth spaces
+* table of contents
+{: toc}
+
+## Idea
+
+Generalised smooth spaces are, roughly speaking, generalisations of [[smooth manifolds]].  Their _raison d'etre_ is the following
 
 > Manifolds are fantastic spaces.  It's a pity that there aren't more of them.
 
@@ -8,7 +14,8 @@ Often the examples of spaces that one would like to consider as manifolds are fo
 
 Another obvious question to ask is what tools and techniques can be extrapolated from smooth manifolds to generalised smooth spaces.  In addition, whilst some techniques have obvious generalisations there may be some hidden twists that are not apparent on just smooth manifolds.
 
-#Examples#
+
+## Examples
 
 According to the general nonsense of [[space and quantity]], generalized smooth spaces may be determined by [[sheaf|sheaves]] on smooth test spaces, in which case we call them [[smooth spaces]] here, or by co-(pre)sheaves on test spaces, in which case we call them [[structured generalized spaces]] here.
 
@@ -33,7 +40,6 @@ According to the general nonsense of [[space and quantity]], generalized smooth 
 
   * [[Froelicher space|Frölicher spaces]]
 
-
 The relationships between (some) of the categories can be sumarised by the following diagram.
 
 $$
@@ -52,7 +58,8 @@ Thanks, Toby.  I was just heading over to see if I could fix it myself but you b
 It it helps any, I think that the problem was that the alphabetic text (but not the dates) *began* where it ought to have been *centred*.  ---Toby
 =--
 
-#Literature#
+
+## Literature
 
 Eventually the following will be a _commented_ list -- promised.
 
@@ -80,18 +87,19 @@ Concerning [[smooth ∞-stacks]] there is useful material in
 
 * Daniel Dugger, _Sheaves and homotopy theory_ ([web](http://math.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
-#Remarks#
+
+## Remarks
 
 Dual to generalized smooth spaces are [[generalized smooth algebra|generalized smooth algebras]] of functions on them, according to the general lore of [[space and quantity]].
 
-#Further discussion#
+
+## Further discussion
 
 We had extensive discussion of generalized smooth spaces at the $n$-Caf&#233;:
 
  * _Comparative Smootheology_ ([I](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html), [II](http://golem.ph.utexas.edu/category/2008/04/comparative_smootheology_ii.html), [III](http://golem.ph.utexas.edu/category/2008/09/comparative_smootheology_iii.html))
 
  * [_Convenient categories of smooth spaces_](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html)
-
 
  * [_Spivak on derived manifolds_](http://golem.ph.utexas.edu/category/2008/08/david_spivak_on_derived_manifo.html)
 
@@ -103,10 +111,10 @@ We had extensive discussion of generalized smooth spaces at the $n$-Caf&#233;:
 [[Andrew Stacey|Andrew]]: That's actually a question I'd quite like to study here.  All of the definitions of "generalised smooth space" (that have underlying sets) induce a topology on that underlying set.  Some have it built in (Chen's early definitions, for example, and Smith spaces and differentiable modules) but even if it is not there you can induce it from the plots or functions.  They are not, in general, going to be locally contractible but there are some pathologies that are ruled out.
 
 [[David Roberts|David R]]: Clearly the philosophy behind smooth spaces means we have to keep what we get, and not fuss about how ugly the spaces might be. What interests me is what the fundamental group(oid) is going to look like. Will it be a [[profinite group]]? A [[pro-group]]? A smooth group? I suppose one could start with the smooth space of loops, and form the smooth quotient space under the relation of homotopy - but what does it look like?
-
-
 =--
 
-[[Note on Formatting|?]]
 
+[[!redirects generalized smooth space]]
 [[!redirects generalized smooth spaces]]
+[[!redirects generalised smooth space]]
+[[!redirects generalised smooth spaces]]
