@@ -5,7 +5,7 @@
 
 ## Idea
 
-The smooth loop space of a smooth [[manifold]], say $M$, is the [[space]] of smooth maps from the circle, $S^1$, to $M$.  It naturally carries the structure of a [[diffeological space]] or [[Frolicher space]] and can be given compatibly the structure of an infinite dimensional [[Frechet manifold|Fréchet manifold]].
+The smooth loop space of a [[smooth manifold]], say $M$, is the [[space]] of smooth maps from the circle, $S^1$, to $M$.  It naturally carries the structure of a [[diffeological space]] or [[Frolicher space]] and can be given compatibly the structure of an infinite dimensional [[Frechet manifold|Fréchet manifold]].
 
 By extending the idea of a manifold to that of a [[generalized smooth space]], smooth loop spaces can be viewed as the result of applying the [[internal hom]]-functor $[-,-] : Sh(CartSp)^{op} \times Sh(CartSp) \to Sh(CartSp)$ in the [[category of sheaves]] on the [[site]] [[CartSp]] with the circle as the source:
 
@@ -26,7 +26,7 @@ $$
   F: Frech \to Diff
 $$
 
-from [[Frechet manifold|Fréchet manifold]]s to [[diffeological space]]s defined in the same way as the well-known functor from smooth [[manifold]]s to [[diffeological space]]s: a plot is precisely a smooth map $c : U \to L X$, where $U$ is an object in the domain category, e.g. an open subset of some $\mathbb{R}^n$.
+from [[Frechet manifold|Fréchet manifold]]s to [[diffeological space]]s defined in the same way as the well-known functor from [[smooth manifold]]s to [[diffeological space]]s: a plot is precisely a smooth map $c : U \to L X$, where $U$ is an object in the domain category, e.g. an open subset of some $\mathbb{R}^n$.
 
 (Notice that a theorem of M. Losik says that the functor F is [[full and faithful functor|full and faithful]], just like that including manifolds into diffeological spaces!)
 
@@ -197,7 +197,7 @@ Thus $\phi_{1 2}^L = \Phi_{1 2}$ and so the transition functions are diffeomorph
 
 +-- {: .num_remark #extension}
 ###### Remark
-This construction easily generalises quite widely.  Very little of the  structure of $S^1$ was used at all: that mainly came in in the smooth structure of $L \mathbb{R}^n$.  The key structure of $M$ was the local addition and thus one could regard this as a construction of [[locally additive spaces]].  For more on the possible extensions, see the references.
+This construction easily generalises quite widely.  Very little of the  structure of $S^1$ was used at all: that mainly came in in the smooth structure of $L \mathbb{R}^n$.  The key structure of $M$ was the local addition and thus one could regard this as a construction of [[locally additive space|locally additive spaces]].  For more on the possible extensions, see the references.
 =--
 
 ## As the loop space object of the smooth path groupoid {#AsLoopObj}
@@ -227,7 +227,7 @@ $$
 
 ### Generalization to $\infty$-Lie groupoids
 
-You might think: well, now let $X \in Sh_{(\infty,1)}(Diff)$ be a smooth [[manifold]] regarded as a [[representable functor|representable]] object in the [[(∞,1)-category of (∞,1)-sheaves]] of [[∞-stack]]s on [[Diff]] or maybe better in Sh_{(\infty,1)}(CartSp) on [[CartSp]] -- i.e. of [[Lie ∞-groupoid]]s -- , we play the same trick and compute the [[homotopy pullback]] $Q$
+You might think: well, now let $X \in Sh_{(\infty,1)}(Diff)$ be a [[smooth manifold]] regarded as a [[representable functor|representable]] object in the [[(∞,1)-category of (∞,1)-sheaves]] of [[∞-stack]]s on [[Diff]] or maybe better in Sh_{(\infty,1)}(CartSp) on [[CartSp]] -- i.e. of [[Lie ∞-groupoid]]s -- , we play the same trick and compute the [[homotopy pullback]] $Q$
 
 $$
   \array{
@@ -258,7 +258,7 @@ $$
 
 instead of $X$ when we regard the topological space $X$ as an object of the [[(∞,1)-category]] of topological spaces! For more on this, see the discussion at [[homotopy hypothesis]].
 
-If instead we had interpreted the topological space $X$ as a representable object, hence as a [[discrete category|categorically discrete]] object in the $(∞,1)$-category of [[topological ∞-groupoid]]s, we would have seen the same phenomenon as for the smooth $X$ above: its [[loop sppace object]] would have been the point.
+If instead we had interpreted the topological space $X$ as a representable object, hence as a [[discrete category|categorically discrete]] object in the $(\infty,1)$-category of [[topological ∞-groupoid]]s, we would have seen the same phenomenon as for the smooth $X$ above: its [[loop space object]] would have been the point.
 From this perspective now it is clear how the abstract notion of [[loop space object]] corresponds to the geometrically expected one: for a geometric [[space]] $X$, its loop space is the [[loop space object]] of its [[fundamental ∞-groupoid]].
 
 This statement can be given sense in all context where the underlying [[topos]] of our ambient [[(∞,1)-topos]] of [[space]]s is a [[lined topos]]: we need to know which object $R$ is the standard _line_ or [[interval object]]. This determines the _geometric paths_ in a space. Taking these geometric paths to be the [[morphism]]s of a [[fundamental ∞-groupoid]] then makes the geometric paths into "categorical paths", i.e. into morphisms. These then are what the abstract definition of [[loop space object]] can see.
@@ -268,7 +268,7 @@ And indeed, whenever the underlying [[topos]] of [[space]]s that we are looking 
 
 ### The concrete definition
 
-So for $X$ a smooth [[manifold]], regarded as a representable object in the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[Lie ∞-groupoid]]s we have now that the homotopy pullback of any point ${*} \to X \hookrightarrow \Pi(X)$ along itself in the [[schreiber:path ∞-groupoid]] $\Pi(X)$ does indeed produce the expected [[Lie ∞-groupoid]] $\Omega_x X$  in 
+So for $X$ a [[smooth manifold]], regarded as a representable object in the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[Lie ∞-groupoid]]s we have now that the homotopy pullback of any point ${*} \to X \hookrightarrow \Pi(X)$ along itself in the [[schreiber:path ∞-groupoid]] $\Pi(X)$ does indeed produce the expected [[Lie ∞-groupoid]] $\Omega_x X$  in 
 
 $$
   \array{
