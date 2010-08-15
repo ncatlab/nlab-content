@@ -7,7 +7,7 @@
 
 ## Idea
 
-In analogy to how a [[Diff|smooth manifold]] is a [[manifold]] modeled on a space $\mathbb{R}^n$ in [[CartSp]], a _Fr&#233;chet manifold_ is a [[manifold]] modeled on a [[Fréchet space]].
+In analogy to how a [[smooth manifold]] is a [[manifold]] modeled on a space $\mathbb{R}^n$ in [[CartSp]], a _Fr&#233;chet manifold_ is a [[manifold]] modeled on a [[Fréchet space]].
 
 
 ## Examples
