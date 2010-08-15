@@ -82,7 +82,7 @@ $$
   Diff \hookrightarrow \mathcal{T}
 $$
 
-from the [[category]] [[Diff]] of smooth [[manifold]]s into it, that takes the real line $\mathbb{R}$ to the [[lined topos|line object]] $R$.
+from the [[category]] [[Diff]] of [[smooth manifold]]s into it, that takes the real line $\mathbb{R}$ to the [[lined topos|line object]] $R$.
 
 In these _well adapted models_ ordinary [[differential geometry]] is therefore faithfully embedded. 
 
@@ -113,7 +113,7 @@ is a smooth topos. This is described in section 9.3 of
 
 * [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-Notice that despite the name of that book, this model is _not_ a well adapted model in that ordinary smooth [[manifold]]s do not embed full and faithfully into this topos. 
+Notice that despite the name of that book, this model is _not_ a well adapted model in that ordinary [[smooth manifold]]s do not embed full and faithfully into this topos. 
 
 Instead, interpreting the internal notion of manifold described in that book -- called _formal manifolds_ in the model $\mathcal{T} = PSh((k-Alg^{finp})^{op})$ produces something like [[formal scheme]]s over $k$. 
 
