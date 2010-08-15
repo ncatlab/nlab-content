@@ -14,14 +14,14 @@ Classically, we have:
 
 +-- {: .un_defn}
 
-A __Grothendieck topos__ $\mathcal{T}$ is a [[geometric embedding]]
+A __Grothendieck topos__ $\mathcal{T}$ is a category that admits a [[geometric embedding]]
 
 $$
   \mathcal{T} \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
   PSh(C)
 $$
 
-in a [[presheaf]] category.
+in a [[presheaf]] category, i.e., a full and faithful functor that has a left exact left adjoint. 
 
 This is equivalently the [[category of sheaves]] ([[Set]]-valued [[presheaves]] satisfying the sheaf condition) over a [[small category|small]] [[site]].
 
