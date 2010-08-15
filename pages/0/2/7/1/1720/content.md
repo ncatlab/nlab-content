@@ -75,7 +75,7 @@ A class of model structures which tends to be _not_ left proper are model struct
 
 For instance 
 
-* the standard model structure on [[simplicial object|simplicial]] _[[associative unital algebra]]s (weak equivalences ad fibrations are those of the underlying simplicial sets) is _not_ left proper (see [Rezk2000, example 2.11](http://arxiv.org/PS_cache/math/pdf/0003/0003065v1.pdf#page=5))
+* the standard model structure on [[simplicial object|simplicial]] _[[associative unital algebra]]s (weak equivalences and fibrations are those of the underlying simplicial sets) is  _not_  left proper (see [Rezk2000, example 2.11](http://arxiv.org/PS_cache/math/pdf/0003/0003065v1.pdf#page=5))
 
 But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _is_ left proper. This is discussed [below](#ProperEquivModels).
 
