@@ -25,7 +25,7 @@ The [[opposite category]] of the [[category]] of $C^\infty$-rings is the categor
 
 ## Motivating example
 
-For $X$ a smooth [[manifold]], the assignment
+For $X$ a [[smooth manifold]], the assignment
 
 $$
   \mathbb{R}^n \mapsto C^\infty(X,\mathbb{R}^n)
@@ -161,7 +161,7 @@ the **smooth tensor product over $C$** of $A$ and $B$.
 +-- {: .un_defn}
 ###### Definition
 
-For $X$ a smooth [[manifold]], the smooth algebra 
+For $X$ a [[smooth manifold]], the smooth algebra 
 $C^\infty(X)$ is the functor
 
 $$
@@ -312,7 +312,7 @@ Here
 +-- {: .un_defn}
 ###### Definition
 
-For $X$ a smooth [[manifold]], the smooth algebra 
+For $X$ a [[smooth manifold]], the smooth algebra 
 $C^\infty(X)$ is the functor
 
 $$
@@ -567,7 +567,7 @@ By the properties of $C^\infty(X)$ for $X$ a smooth manifold discussed below, th
 +-- {: .un_prop}
 ###### Proposition ([[Models for Smooth Infinitesimal Analysis|MSIA]], prop. 2.5, 2.6 )
 
-Let $f : X \to Z$ and $g : Y \to Z$ be  [[transversal maps]] of smooth [[manifold]]s. Then the functor $C^\infty(-)$ sends the [[pullback]]
+Let $f : X \to Z$ and $g : Y \to Z$ be  [[transversal maps]] of [[smooth manifold]]s. Then the functor $C^\infty(-)$ sends the [[pullback]]
 
 $$
   \array{
@@ -764,7 +764,7 @@ but examples of the concept are older. A discussion from the point of view of [[
 
 * G. Kainz, A. Kriegl, [[Peter Michor]], _$C^\infty$-algebras from the functional analytic view point_ Journal of pure and applied algebra 46 (1987) ([pdf](http://www.mat.univie.ac.at/~michor/c-oo-alg.pdf))
 
-A characterization of those $C^\infty$-rings that are algebras of smooth functions on some smooth [[manifold]] is given in 
+A characterization of those $C^\infty$-rings that are algebras of smooth functions on some [[smooth manifold]] is given in 
 
 * [[Peter Michor]], [[Jiri Vanzura]], _Characterizing algebras of $C^\infty$-functions on manifolds_ ([pdf](http://www.emis.de/journals/CMUC/pdf/cmuc9603/michor.pdf))
 
