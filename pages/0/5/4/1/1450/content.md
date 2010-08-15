@@ -64,7 +64,7 @@ However, with a a sufficiently general perspective on [[higher geometry]] one fi
 ## Well adapted models
 {#wellAdaptedModels}
 
-A [[topos]] $E$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it, in particular if there is a [[full and faithful functor]] [[Diff]] $\to E$ from the category of ordinary smooth [[manifold]]s into $E$. 
+A [[topos]] $E$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it, in particular if there is a [[full and faithful functor]] [[Diff]] $\to E$ from the category of ordinary [[smooth manifold]]s into $E$. 
 
 A standard model for well adapted synthetic toposes is obtained in terms of sheaves on duals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook _[[Models for Smooth Infinitesimal Analysis]]_. 
 
