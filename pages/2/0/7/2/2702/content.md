@@ -5,7 +5,7 @@
 
 ## Definition
 
-A (smooth) _simplicial manifold_ is a [[simplicial object]] in the [[category]] [[Diff]] of ([[smooth manifold|smooth]]) [[manifold]].
+A (smooth) _simplicial manifold_ is a [[simplicial object]] in the [[category]] [[Diff]] of [[smooth manifolds]].
 
 ## Constructions on simplicial manifolds 
 
