@@ -112,6 +112,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Peter C Marks]]
 * [[Peter LeFanu Lumsdaine]]
 * [[Peter Selinger]]
+* [[PrimeDeGold]]
 * [[Rafael Borowiecki]]
 * [[Rasmus Bentmann]]
 * [[Reid Barton]]
