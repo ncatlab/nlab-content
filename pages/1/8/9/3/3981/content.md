@@ -9,7 +9,7 @@
 
 ## Manifolds as Fr&#246;licher Spaces ##
 
-Any smooth [[manifold]] defines a Fr&#246;licher space with curves $C^\infty(\mathbb{R}, M)$ and functions $C^\infty(M, \mathbb{R})$.
+Any [[smooth manifold]] defines a Fr&#246;licher space with curves $C^\infty(\mathbb{R}, M)$ and functions $C^\infty(M, \mathbb{R})$.
 
 ## The Pinched Plane ##
 
