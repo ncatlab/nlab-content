@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
 =--
 =--
 
@@ -43,3 +47,6 @@ There is also some result by Bourbaki that I have to look up that numerable cove
 Another one by Dold, will look it up - it talks about stacked covers in the appendix: these are useful for 'decomposing' numerable covers of products to a sort of parameterised version depending on a numerable cover of the first factor. This is important in looking at concordance of numerable bundles.
 
 [[!redirects numerable open covers]]
+
+[[!redirects numerable cover]]
+[[!redirects numerable covers]]
