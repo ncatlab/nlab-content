@@ -27,7 +27,7 @@ satsifying these conditions:
    *  $c(f,i) = f$ for every element $f$ of $M$ such that $s(f) = x$.
 *  For $f, g, h$ elements of $M$ such that $s(f) = t(g)$ and $s(g) = t(h)$, we have $c(c(f,g),h) = c(f,c(g,h))$.
 
-Note that a partial function from $p: X \dashrightarrow Y$ is formalised as a [[functional relation]], that is a relation $\phi: X \to Y$ such that $b = c$ whenever $\phi(a,b)$ and $\phi(a,c)$ both hold (for elements $a$ of $X$ and $b,c$ of $Y$).  We say that $p(x)$ is _defined_ if there is $y$ such that $\phi(x,y)$ holds; in that case, such $y$ is unique and we denote it $p(x)$.  This notation can be eliminated from the language using existential quantification, the same as when $p$ is a function.
+Note that a partial function from $p: X \dashrightarrow Y$ is formalised as a [[functional relation]], that is a relation $\phi: X \to Y$ such that $b = c$ whenever $\phi(a,b)$ and $\phi(a,c)$ both hold (for elements $a$ of $X$ and $b,c$ of $Y$).  We say that $p(x)$ is _defined_ if there is $y$ such that $\phi(x,y)$ holds; in that case, such $y$ is unique and we denote it $p(x)$.  This notation can be eliminated from the language using [[existential quantification]], the same as when $p$ is a function.
 
 
 ## Small universe version
