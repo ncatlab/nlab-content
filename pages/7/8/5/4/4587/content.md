@@ -10,5 +10,6 @@ We do have an entry on [[prime numbers]] that you might contribute to, but if wh
 &#8212;[[Toby Bartels]]
 =--
 
+category: people
 
 [[!redirects spam: PrimeDeGold]]
