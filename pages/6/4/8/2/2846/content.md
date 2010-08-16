@@ -47,7 +47,7 @@ Stronger large cardinal axioms can be characterized, or defined, as the critical
 
 ### In structural set theory
 
-Any elementary embedding of models of ZF induces a [[conservative functor|conservative]] [[logical functor]] between their categories of sets.  In fact, it is much more than that; a conservative logical functor preserves and reflects only first-order logic with bounded quantifiers, while an e.e. preserves and reflects all first-order logic.
+Any elementary embedding of models of ZF induces a [[conservative functor|conservative]] [[logical functor]] between their categories of sets.  In fact, it is much more than that; a conservative logical functor preserves and reflects only first-order logic with [[bounded quantifiers]], while an e.e. preserves and reflects all first-order logic.
 
 The structural meaning of elementary embeddings seems not to be well-explored.
 
