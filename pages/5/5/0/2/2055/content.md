@@ -1,4 +1,12 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
 [[!include contents]]
+=--
+=--
+=--
 
 
 This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog), [wikis](http://en.wikipedia.org/wiki/Wiki), and other online resources about mathematics. 
