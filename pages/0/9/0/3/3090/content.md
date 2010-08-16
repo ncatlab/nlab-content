@@ -10,7 +10,7 @@
 =--
 =--
 
-**Serre fibration** $\Leftarrow$ [[Hurewicz fibration]] $\Rightarrow$ [[Dold fibration]]
+**Serre fibration** $\Leftarrow$ [[Hurewicz fibration]] $\Rightarrow$ [[Dold fibration]] $\Leftarrow$ [[shrinkable map]]
 
 #Contents#
 * automatic table of contents goes here
