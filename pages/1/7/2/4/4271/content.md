@@ -3,7 +3,7 @@
 [[!include physicscontents]]
 </div>
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -18,11 +18,21 @@ The precise mathematical notion of _state_ depends on what formalization is used
 
 ### In classical mechanics
 
-In simple situations of [[classical mechanics]] a state is a point in [[phase space]] -- some [[symplectic manifold]].
+In simple situations of [[classical mechanics]], a state is a point in [[phase space]] -- some [[symplectic manifold]].
 
 ### In quantum mechanics
 
-In simple situations in [[quantum mechanics]] as state is a ray in a [[Hilbert space]] --  the Hilbert space of states.
+In simple situations in [[quantum mechanics]], a state is a ray in a [[Hilbert space]] -- the Hilbert space of states.
+
+### In statistical physics
+
+In [[statistical physics]], a state may encode less than maximal information.  Fairly generally, we have a complex $C^*$-[[C-star-algebra|algebra]] $A$ of [[observables]] and a __state__ is a positive-semidefinite linear operator $\rho\colon A \to \mathbb{C}$ such that $\rho(1) = 1$.  A state $\rho$ is __pure__ if, whenever we have $\rho = a \sigma + b \tau$ for $\sigma, \tau$ also states and $0 \leq a, b \leq 1$, then either $a = 0$ (hence $b = 1$) or $b = 0$ (hence $a = 1$); conversely, a state $\rho$ is __mixed__ if we ever have $\rho = a \sigma + b \tau$ for $\sigma, \tau$ also states and $0 \lt a, b \lt 1$.
+
+If $A$ is the algebra of continuous complex-valued functions on some [[compactum]] $X$, then the pure states on $A$ correspond precisely to the points in $X$; so pure states here are the states of classical mechanics (at least for a compact phase space).  Mixed states, however, correspond more generally to [[Radon measure|Radon]] [[probability measures]] on $X$, with the pure states as the [[Dirac delta measure]]s.
+
+On the other hand, if $A$ is the algebra of all [[bounded operators]] on some [[Hilbert space]] $H$, then the pure states on $A$ correspond precisely to the rays in $H$.  Mixed states, however, correspond more generally to [[density matrices]] on $H$, with the pure states those matrices of the form ${|\psi\rangle}{\langle\psi|}$ for some unit vector ${|\psi\rangle}$.
+
+In each case, a pure state is a state of maximal information, while a mixed state is a state with less than maximal information.  In the classical case, we may say that a pure state is a state of *complete* information, but this does not work in the quantum case; from the perspective of the information-theoretic or Bayesian interpretation of quantum physics, this inability to have complete information, even when having maximal information, is the key feature of quantum physics that distinguishes it from classical physics.
 
 ### In FQFT
 
@@ -37,9 +47,13 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 ### In AQFT
 
-Dually, in the [[AQFT]] formulation of [[quantum field theory]] a physical system is encoded by a [[local net]] of [[operator algebra]]s. These are to be interpreted as _algebras of observables_ . Since each observable is supposed to have a given value on a given state, a state here is a [[linear functional]] on the operator algebra of observables. For more on this see
+Dually, in the [[AQFT]] formulation of [[quantum field theory]] a physical system is encoded by a [[local net]] of [[operator algebra]]s. These are to be interpreted as _algebras of observables_. Since each observable is supposed to have a given value on a given state, a state here is a [[linear functional]] on the operator algebra of observables. For more on this see
 
 * [[states in AQFT and operator algebra]].
 
+
+[[!redirects state]]
 [[!redirects states]]
-[[!redirects space of states]].
+[[!redirects physical state]]
+[[!redirects physical states]]
+[[!redirects space of states]]
