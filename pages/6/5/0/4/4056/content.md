@@ -3,23 +3,28 @@
 [[!include physicscontents]]
 </div>
 
-#Contents#
+# Contents
 * the following line creates the automatic table of contents
 {:toc}
 
+## Idea
 
-## Idea ##
-The classical Gleanson's theorem says that a state of the [[C-star algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
+The classical Gleanson's theorem says that a [[state]] of the [[C-star algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
 
 It is possible to extend the theorem to certain types of [[von Neumann algebras]] (e.g. obviously factors of type $I_2$ have to be excluded).
 
+
 ### Implications for Quantum Logic
+
 Roughly, Gleason's theorem says that "a quantum state is completly determined by only knowing the answers to all of the possible yes/no questions".
 
-## Abstract ##
+
+## Abstract
+
 ...
 
-## Definitions ##
+
+## Definitions
 
 +-- {: .un_def}
 ###### Definition
@@ -28,30 +33,34 @@ Let $\rho: \mathcal{P} \to [0, 1]$ such that for every finite family $\{ P_1, ..
 If the family is not finite, but countable, then $\rho$ is a **sigma-finite measure**.
 =--
 
-## The Theorem ##
 
-### classical Gleason's theorem
+## The Theorem
+
+### Classical Gleason's Theorem
 
 +-- {: .un_theorem}
 ###### Theorem
-If $dim(\mathcal{H}) \neq 2$ then each finitley additive measure on $\mathcal{P}$ can be uniquely extended to a state on $\mathcal{B}(\mathcal{H})$. Conversly the restriction of every state to $\mathcal{P}$ is a finitley additive measure on $\mathcal{P}$.
+If $dim(\mathcal{H}) \neq 2$ then each finitely additive measure on $\mathcal{P}$ can be uniquely extended to a state on $\mathcal{B}(\mathcal{H})$. Conversly the restriction of every state to $\mathcal{P}$ is a finitley additive measure on $\mathcal{P}$.
 
-The same holds for sigma-finite measures and [[normal states]]: Every sigma-finite measure can be extended to a normal state and every normal state restricts to a sigma-finite measure.
+The same holds for sigma-finite measures and [[normal state|normal states]]: Every sigma-finite measure can be extended to a normal state and every normal state restricts to a sigma-finite measure.
 =--
 
+
 ### Extension to Certain Types of von Neumann Algebras
+
 ...
 
 
-## Examples ##
+## Examples
 
-### Counterexample For Dimension Two ###
+### Counterexample For Dimension Two
+
 See example 8.1 in the book by Parthasarathy (see references).
 Our Hilbert space is $\mathbb{R}^2$. Projections $P$ on it are either identical zero, the identity, or projections on a one dimensional subspace, so that these $P$ can be written in the [[bra-ket notation]] as
 $$
- P = |u \rangle \langle u|
+ P = {|u \rangle} {\langle u|}
 $$
-with a unit vector $u$, i.e. $u \in \mathbb{R}^2, \|u\| = 1$. In this finite dimensional case sigma-finite and finite are equivalent, and a finite probability measure is equivalent to a (complex valued) function such that
+with a unit vector $u$, i.e. $u \in \mathbb{R}^2, {\|u\|} = 1$. In this finite dimensional case sigma-finite and finite are equivalent, and a finite probability measure is equivalent to a (complex valued) function such that
 $$
 f(c u) = f(u)
 $$ 
@@ -62,7 +71,7 @@ $$
 $$ 
 for every scalar $c$ of modulus one, every unit vector $u$ and every orthonormal basis $\{u_1, u_2\}$. If there is a state that extends such a measure and therefore restricts to such a measure on projections, there would be a linear operator $T$ such that
 $$
-f(u) = \langle u | Tu \rangle
+f(u) = {\langle u | T u \rangle}
 $$
 for all unit vectors $u$.
 
@@ -80,7 +89,8 @@ f(u) =
 $$
 This probability measure will in general not extend to a state.
 
-## References ##
+
+## References
 
 * Wikipedia on [Gleason's theorem] (http://en.wikipedia.org/wiki/Gleason%27s_theorem)
 
@@ -98,8 +108,8 @@ The classical theorem is proved also in this monograph:
 
 
 [[!redirects Gleason's theorem]]
-[[!redirects Gleason's Theorem]]
 [[!redirects Gleason's theorem]]
-[[!redirects Gleason's Theorem]]
 [[!redirects Gleason theorem]]
+[[!redirects Gleason's Theorem]]
+[[!redirects Gleason's Theorem]]
 [[!redirects Gleason Theorem]]
