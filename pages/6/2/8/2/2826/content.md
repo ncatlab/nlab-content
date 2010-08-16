@@ -10,7 +10,7 @@
 =--
 
 
-[[Serre fibration]]  $\Leftarrow$ [[Hurewicz fibration]] $\Rightarrow$ **Dold fibration**
+[[Serre fibration]]  $\Leftarrow$ [[Hurewicz fibration]] $\Rightarrow$ **Dold fibration**$\Leftarrow$ [[shrinkable map]]
 
 #Contents#
 * automatic table of contents goes here
@@ -18,7 +18,7 @@
 
 ## Idea ##
 
-A **Dold fibration** is a continuous map of [[topological space]]s that allows [[right lifting property|lifting]] of [[homotopies]], with initial condition agreeing with a given map up to a [[vertical homotopy]].
+A **Dold fibration** is a continuous map of [[topological space]]s that allows [[right lifting property|lifting]] of [[homotopies]], with initial condition agreeing with a given map up to a vertical homotopy.
 
 
 ## Definition ##
