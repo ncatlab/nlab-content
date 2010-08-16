@@ -16,10 +16,6 @@
 
 * [[group cohomology]], [[nonabelian group cohomology]]
 
-* [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]]
-
-* [[∞-Lie algebra cohomology]]
-
 * [[groupoid cohomology]], [[nonabelian groupoid cohomology]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
@@ -44,21 +40,17 @@
 
   * [[syntomic cohomology]]
 
-* [[motivic cohomology]]
+  * [[motivic cohomology]]
 
 * [[nonabelian cohomology]]
 
-  * [[principal bundle]]
-
-    * [[Atiyah Lie groupoid]]
-
-  * [[principal 2-bundle]]/[[gerbe]]
-
   * [[principal ∞-bundle]]
 
-    * [[universal principal ∞-bundle]]
+    * [[universal principal ∞-bundle]], [[groupal model for universal principal ∞-bundles]]
 
-    * [[groupal model for universal principal ∞-bundles]]
+    * [[principal bundle]], [[Atiyah Lie groupoid]]
+
+    * [[principal 2-bundle]]/[[gerbe]]
 
   * [[locally constant ∞-stack|covering ∞-bundle]]/[[local system]]
 
@@ -66,19 +58,18 @@
 
   * [[quantum anomaly]]
 
-    * [[Spin structure]]
+    * [[Spin structure]], [[String structure]], [[Fivebrane structure]]
 
-    * [[String structure]]
+* [[∞-Lie algebra cohomology]]
 
-    * [[Fivebrane structure]]
+  * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]], [[Lie algebra extensions]]
+
 
 * [[Hochschild cohomology]]
 
   * [[cyclic cohomology]]
 
-* [[?ech cohomology]]
-
-* [[hypercohomology]]
+* [[?ech cohomology]], [[hypercohomology]]
 
 
 ### Variants ###
