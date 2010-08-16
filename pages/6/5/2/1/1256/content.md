@@ -14,7 +14,7 @@ Coherent logic (including sequents, as above) is the [[internal logic]] of a [[c
 
 * Sometimes coherent logic is called *geometric logic*, but that term now more commonly used for the analogous fragment of infinitary logic which allows disjunctions over arbitrary sets (though still only finitary conjunctions).  See [[geometric logic]].
 
-* Occasionally the existential quantifiers in coherent logic are further restricted to range only over *finitely presented types*.
+* Occasionally the [[existential quantifiers]] in coherent logic are further restricted to range only over *finitely presented types*.
 
 [[!redirects coherent theory]]
 [[!redirects coherent theories]]
