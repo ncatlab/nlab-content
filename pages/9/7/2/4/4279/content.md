@@ -11,7 +11,7 @@ This entry describes a concrete formalization of the general notion of [[state]]
 
 ## Idea ##
 
-The [[Heisenberg picture]] of [[quantum mechanics]] is sometimes formalized by describing the observables of a quantum system by an [[operator algebra]], and the _state_ of the system as a state of the algebra. 
+The [[Heisenberg picture]] of [[quantum mechanics]] is sometimes formalized by describing the [[observables]] of a quantum system by an [[operator algebra]], and the [[state]] of the system as a state of the algebra. 
 
 The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited it's name from the physical concept. 
 This is the viewpoint of the [[AQFT]] approach to [[quantum field theory]], especially of the [[Haag-Kastler approach]].
@@ -24,10 +24,10 @@ The definition of a state relies on the notion of positivity of the elements of 
 
 +-- {: .un_def}
 ###### Definition
-An element A of an (abstract) $C^*$-algebra is called **positive** if it is self-adjoint and its spectrum is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given $C^*$-algebra).
+An element $A$ of an (abstract) $C^*$-algebra is called **positive** if it is self-adjoint and its spectrum is contained in $[0, \infinity)$. We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given $C^*$-algebra).
 =--
 
-Remark: This defintion is motivated by the Hilbert space situation, where an operator $A \in \mathcal{B} (\mathcal{H})$ is called positive if for every vector $x \in \mathcal{H}$ the inequality $ \langle x, A x \rangle \ge 0$ holds. If the abstract $C^*$-algebra of the definition above is represented on a Hilbert space, then we see that by [[functional calculus]] we can define a self adjoint operator $B$ by $B := f(A)$ with $f(t) := t^{1/2}$ and get  $ \langle x, A x \rangle = \langle B x, B x \rangle \ge 0$. This shows that the positive elements of the abstract algebra, if represented on a Hilbert space, become positive operators as defined here in the Hilbert space setting.
+Remark: This defintion is motivated by the Hilbert space situation, where an operator $A \in \mathcal{B} (\mathcal{H})$ is called positive if for every vector $x \in \mathcal{H}$ the inequality $ \langle x, A x \rangle \ge 0$ holds. If the abstract $C^*$-algebra of the definition above is represented on a Hilbert space, then we see that by [[functional calculus]] we can define a self adjoint operator $B$ by $B \coloneqq f(A)$ with $f(t) := t^{1/2}$ and get  $ \langle x, A x \rangle = \langle B x, B x \rangle \ge 0$. This shows that the positive elements of the abstract algebra, if represented on a Hilbert space, become positive operators as defined here in the Hilbert space setting.
 
 +-- {: .un_def}
 ###### Definition
@@ -48,9 +48,9 @@ Combined definition and theorem: A **normal state** $\rho$ is a state that satis
 
 * $\rho$ is ultra-weak continuous.
 
-* There is an operator A of trace class of $\mathcal{H}$ with tr(A) = 1 such that $\rho(\pi(R)) = tr(A \pi(R))$ for all $R \in \mathcal{R}$.
+* There is an operator $A$ of [[trace class]] of $\mathcal{H}$ with $tr(A) = 1$ such that $\rho(\pi(R)) = tr(A \pi(R))$ for all $R \in \mathcal{R}$.
 
-The last one is most frequently used by physicists, in that context the operator $A$ is also called a density matrix or density operator.
+The last one is most frequently used by physicists, in that context the operator $A$ is also called a [[density matrix]] or density operator.
 
 Reference: Kadison and Ringrose, definition 7.1.11 and theorem 7.1.12.
 
@@ -82,7 +82,7 @@ The state space is non-empty (define a state on the subalgebra $\mathbb{C} \math
 A **pure state** is a state that is an extreme point of the state space.
 =--
 
-The term "pure" originates from the notion of [[entanglement]], a pure state is not a superposition of two distinct other states.
+The term "pure" originates from the notion of [[entanglement]], a pure state is not a mixture of two distinct other states.
 
 ## Properties ##
 An important theorem for the physical interpretation of states is [[Fell's theorem]].
@@ -94,4 +94,22 @@ An important theorem for the physical interpretation of states is [[Fell's theor
 
 We refer to the references at [[operator algebra]]
 
+
+[[!redirects state of an operator algebra]]
+[[!redirects states of an operator algebra]]
 [[!redirects states of operator algebras]]
+[[!redirects state on an operator algebra]]
+[[!redirects states on an operator algebra]]
+[[!redirects states on operator algebras]]
+[[!redirects state in AQFT]]
+[[!redirects states in AQFT]]
+[[!redirects state in operator algebra]]
+[[!redirects states in operator algebra]]
+[[!redirects state in AQFT and operator algebra]]
+[[!redirects states in AQFT and operator algebra]]
+[[!redirects state of an algebra]]
+[[!redirects states of an algebra]]
+[[!redirects states of algebras]]
+[[!redirects state on an algebra]]
+[[!redirects states on an algebra]]
+[[!redirects states on algebras]]
