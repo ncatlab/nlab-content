@@ -160,7 +160,7 @@ classifies the subset
 $$\{ (x, S) : x \in_X A \Rightarrow x \in_X S \} \hookrightarrow X \times PX$$
 
 Finally, in the pullback diagram above, we are pulling back the operator $\chi_A \Rightarrow -$ against $t_X$.  But, from [last
-time](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic), that was exactly the method we used to construct universal quantification.  That is, given a subset
+time](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic), that was exactly the method we used to construct [[universal quantification]].  That is, given a subset
 
 $$R \subseteq X \times Y$$
 
