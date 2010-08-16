@@ -221,7 +221,25 @@ $$
 sends the unshifted generators $t^a$ to differential forms $A^a$ and sends the shifted generators $\sigma t^a$ to their [[curvature]]. The respect for the differential on the shifted generators is the [[Bianchi identity]] on these curvatures.
 
 
-## Relation to invariant polynomials and Chern-Simons elements
+## Relation to other concepts
+
+### $\infty$-Lie algebra valued differential forms {#LieAlgValuedForms}
+
+For $\mathfrak{g}$ an [[∞-Lie algebra]],  $X$ a [[smooth manifold]], $\mathfrak{g}$-valued differential forms are morphisms
+
+$$
+  (A,F_A) : W(\mathfrak{g}) \to \Omega^\bullet(X)
+  \,.
+$$
+
+The image of the unshifted generators $A : \wedge^1 \mathfrak{g}^* \to \Omega^\bullet(X)$ are the forms themselves, the image of the shifted generators $F_A : \wedge^1 \mathfrak{g}^*[1]$ are the corresponding [[curvature]]s. The respect for the differential on the shifted generators are the [[Bianchi identity]] on the curvatures.
+
+Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$.
+
+More on this at [[schreiber:curvature of ∞-Lie algebroid valued differential forms]].
+
+
+### Invariant polynomials and Chern-Simons elements
 
 A [[cocycle]] in the [[∞-Lie algebra cohomology]] of the [[∞-Lie algebra]] $\mathfrak{g}$ is a closed element in the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$.
 
@@ -243,9 +261,25 @@ $$
 
 to the unshifted copy, hence to the [[Chevalley-Eilenberg algebra]], is the cocycle that is in transgression with $\langle - \rangle$.
 
+For 
 
+$$
+  (A,F_A) : W(\mathfrak{g}) \to \Omega^\bullet(X)
+$$
 
+a collection of $\mathfrak{g}$-valued differential forms (as [above](LieAlgValuedForms)) and $\langle -\rangle  : CE(b^{n-1}\mathbb{R}) \to W(\mathfrak{g})$ an [[invariant polynomial]], the composite
 
+$$
+  \langle F_A\rangle
+  :
+  CE(b^{n-1}\mathbb{R})
+  \stackrel{\langle - \rangle}{\to}
+  W(\mathfrak{g})
+  \stackel{(A,F_A)}{\to}
+  \Omega^\bullet(X)
+$$
+
+is the corresponding [[curvature characteristic form]], a closed $n$-form on $X$. For $(\langle - \rangle, cs) : W(b^{n-1}) \to W(\mathfrak{g})$ the corresponding Chern-Simons element we have that $cs(A,F_A)$ is the corresponding [[Chern-Simons form]] on $X$.
 
 
 
