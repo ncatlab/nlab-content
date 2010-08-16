@@ -24,7 +24,12 @@
 
 ## Idea
 
-While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevalley-Eilenberg complex]], some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something that is action of another Lie algebra up to an inner automorphism. 
+Abstractly, nonabelian Lie algebra cohomology is the restriction of the general notion of [[∞-Lie algebra cohomology]] to [[cocycle]]s of the form $\mathfrak{g} \to der \mathfrak{h}$, where $\mathfrak{g}$ and $\mathfrak{h}$ are ordinary [[Lie algebra]]s and $der(-)$ denotes the Lie algebra of [[derivation]]s.
+
+
+Traditionally abelian [[Lie algebra cohomology]] is conceived as the cohomology of the [[Chevalley-Eilenberg complex]] of a Lie algebra and some nonabelian generalizations of this model have been given in the literature. We show below how these definitions are the [[nonanelian cohomology]] special cases of the general abstract definition of [[∞-Lie algebra cohomology]].
+
+The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something that is action of another Lie algebra up to an inner automorphism. 
 
 For example the problem of extensions of Lie algebras by nonabelian Lie algebras leads to 1,2,3 nonabelian cocycles; 2-cocycles are analogues of [[group extension|factor systems]].
 
