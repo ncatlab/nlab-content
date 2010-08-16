@@ -23,7 +23,7 @@ $$\pi: R^{n+1} \to R^n: (x_1, \ldots, x_{n+1}) \mapsto (x_1, \ldots, x_n)$$
 is also a semi-algebraic set. 
 =-- 
 
-This remarkable theorem has far-reaching consequences for the theory of ordered fields. For one, it is called a "quantifier elimination" result because it says that any first-order predicate in the theory of ordered fields (with [[signature]] $(0, 1, +, -, \cdot, \lt)$) is equivalent to a predicate which is quantifier-free. This follows from a straightforward induction coupled with the observation that the Tarski-Seidenberg theorem directly says that if a predicate $R(x_1, \ldots, x_n, y)$ is a Boolean combination of atomic formulas (thus defining a semi-algebraic set), then  
+This remarkable theorem has far-reaching consequences for the theory of ordered fields. For one, it is called a "quantifier elimination" result because it says that any first-order [[predicate]] in the theory of ordered fields (with [[signature]] $(0, 1, +, -, \cdot, \lt)$) is equivalent to a predicate which is [[quantifier]]-free. This follows from a straightforward induction coupled with the observation that the Tarski--Seidenberg theorem directly says that if a predicate $R(x_1, \ldots, x_n, y)$ is a Boolean combination of atomic formulas (thus defining a semi-algebraic set), then  
 
 $$\{(x_1, \ldots, x_n): \exists_y R(x_1, \ldots, x_n, y)\}$$ 
 
