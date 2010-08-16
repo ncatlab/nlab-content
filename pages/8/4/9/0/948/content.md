@@ -63,7 +63,7 @@ For example, classically one often speaks about "nonempty" sets, meaning a set w
 
 ### Bifurcation of notions ###
 
-On the other hand, differences in axiomatization or definition that make no difference classically can result in actual differences in behavior in a topos.  Therefore, classically equivalent notions often "bifurcate" (or "trifurcate" or worse) into multiple inequivalent constructive ones.  This tends to happen whenever a concept involves _negation_ and, to a lesser degree, _disjunction_ and _existential quantification_.  In some cases there is a "correct" constructive version of the definition, although it may take some thought to uncover it, but in many cases more than one of the resulting concepts is important and useful.  For example:
+On the other hand, differences in axiomatization or definition that make no difference classically can result in actual differences in behavior in a topos.  Therefore, classically equivalent notions often "bifurcate" (or "trifurcate" or worse) into multiple inequivalent constructive ones.  This tends to happen whenever a concept involves _[[negation]]_ and, to a lesser degree, _[[disjunction]]_ and _[[existential quantification]]_.  In some cases there is a "correct" constructive version of the definition, although it may take some thought to uncover it, but in many cases more than one of the resulting concepts is important and useful.  For example:
 
 * There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
 
