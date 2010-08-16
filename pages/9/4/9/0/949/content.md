@@ -34,7 +34,7 @@ The constructive school generally accepts the [[axiom of replacement]] but not u
 
 Na&#239;vely, the axiom of separation says that, if $A$ is a set and $P$ is a [[function]] from $A$ to the set of [[truth value]]s, then there is a set
 $$ \{ A | P \} = \{ x \in A \;|\; P(x) \} .$$
-To be precise, however, this $P$ should be written as a [[predicate]] in the language of set theory.  The form of separation justified by type theory and such structural set theories as [[ETCS]] requires the quantifiers in this predicate to be guarded; unbounded separation is the generalisation of this to unbounded quantifiers.
+To be precise, however, this $P$ should be written as a [[predicate]] in the language of set theory.  The form of separation justified by type theory and such structural set theories as [[ETCS]] requires the [[quantifiers]] in this predicate to be guarded; unbounded separation is the generalisation of this to unguarded quantifiers.
 
 (We need more on this, particularly with regards to the classical school and replacement.)
 
