@@ -1,8 +1,18 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-***
+=--
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 
@@ -333,7 +343,7 @@ $$
 $$
 
 This shows that morphisms $\mathfrak{g} \to Der(\mathfrak{k})$ are
-in bijection to the nonabelian coccles.
+in bijection to the nonabelian cocycles.
 
 It remains to show that the homotopies map to coboundaries. For that
 we may take in $\infty Lie$ the standard [[cylinder object]] of some
@@ -380,11 +390,7 @@ $$
 
 along the above lines.
 
-=--
-
-+-- {: .query}
-
-There is a slight gap here, concerning the fact that $CE(Der(\mathfrak{k}))$ may not be a Sullivan algebra, and hence not cofibrant in the [[model structure on dg-algebras]]: while it is of course a [[semifree dga]], it need not satisfy that additional nilpotency condition. I'll try to think what to do about that... -[[Urs Schreiber|Urs]]
+Notice that in $dgAlg^{op}$ every object is cofibrant, so that this is indeed a left homotopy. See [[∞-Lie algebra cohomology]] for more on this.
 
 =--
 
