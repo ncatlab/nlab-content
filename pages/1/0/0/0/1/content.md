@@ -1,14 +1,13 @@
-[[!include contents]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Content### {: .clickToReveal}
-###Content### {: .clickToHide tabindex="0"}
-#### Mathematics
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
+[[!include contents]]
+=--
 +--{: .hide}
 [[!include mathematicscontents]]
 =--
-#### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
