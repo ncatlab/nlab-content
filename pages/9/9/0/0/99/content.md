@@ -182,65 +182,6 @@ d_A f(x)= -f d_{W(\mathfrak{g})} (d_{CE(\mathfrak{g})}(t))=
 -f d_{W(\mathfrak{g})}(d_{W(\mathfrak{g})}(t)-x)=f d_{W(\mathfrak{g})}(x).
 $$
 
-
-(old proof)
-
-
-Let $f : W(\mathfrak{g}) \to A$ be a dg-algebra morphism. By the fact that $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ is a free graded-commutative algebra, this is fixed already by its value on the generators in $\mathfrak{g}^*$ and $\mathfrak{g}^*[1]$ and only further subject to the respect for the differentials.
-
-This respect for the differentials implies that the value $f(\sigma(t))$ of $f$ on the shifted generators $\sigma(t)$ is uniquely fixed by its value on the unshifted generators $t$. From 
-
-$$
-  \begin{aligned}
-    0 &=
-    f(d_{W(\mathfrak{g})} t) - d_A f(t)
-    \\
-    & =
-    f(d_{CE(\mathfrak{g})} t) + f(\sigma(t)) - d_A f(t)
-  \end{aligned}
-$$
-
-we find that in order to have a dg-algebra homomorphism, it must be true that
-
-$$
-  f(\sigma(t)) = d_A f(t) - f(d_{CE(\mathfrak{g})} t)
-  \,.
-$$ 
-
-So it only remains to check that this assignment does in turn imply that $f$ commutes with the differentials also on the shifted generators, i.e. that also
-
-$$
-  0 = f(d_{W(\mathfrak{g})} \sigma t) - d_A f(\sigma t)
-$$
-
-for all $t \in \mathfrak{g}^*$. To see this, apply $d_A$ to the above assignment, and use $d_A \circ d_A = 0$ to get
-
-$$
-  d_A f(\sigma(t)) = - d_A f( d_{CE(\mathfrak{g})} t)
-  \,.
-$$
-
-Now observe that on the right we have $d_A \circ f$ applied to an expression entirely in the unshifted generators. On these we already know that the differential commutes with the morphism, so that this is
-
-$$
-  \cdots = - f (d_{W(\mathfrak{g})} \circ d_{CE(\mathfrak{g})} t)
-  \,.
-$$
-
-Using now again the definition of $d_{W(\mathfrak{g})}$ on unshifted generators and the fact that $d_{CE(\mathfrak{g})}^2 = 0$ this is
-
-$$
-  \cdots = - f \sigma d_{CE(\mathfrak{g}) }t 
-  \,.
-$$
-
-Comparing with the above unique solution of the action of $d_{W(\mathfrak{g})}$, we find that indeed this is
-
-$$
-  \cdots = f d_{W(\mathfrak{g})} \sigma t
-  \,.
-$$
-
 =--
 
 **Example**
@@ -264,7 +205,25 @@ $$
 sends the unshifted generators $t^a$ to differential forms $A^a$ and sends the shifted generators $\sigma t^a$ to their [[curvature]]. The respect for the differential on the shifted generators is the [[Bianchi identity]] on these curvatures.
 
 
-## Relation to invariant polynomials and Chern-Simons elements
+## Relation to other concepts
+
+### $\infty$-Lie algebra valued differential forms {#LieAlgValuedForms}
+
+For $\mathfrak{g}$ an [[∞-Lie algebra]],  $X$ a [[smooth manifold]], $\mathfrak{g}$-valued differential forms are morphisms
+
+$$
+  (A,F_A) : W(\mathfrak{g}) \to \Omega^\bullet(X)
+  \,.
+$$
+
+The image of the unshifted generators $A : \wedge^1 \mathfrak{g}^* \to \Omega^\bullet(X)$ are the forms themselves, the image of the shifted generators $F_A : \wedge^1 \mathfrak{g}^*[1]$ are the corresponding [[curvature]]s. The respect for the differential on the shifted generators are the [[Bianchi identity]] on the curvatures.
+
+Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$.
+
+More on this at [[schreiber:curvature of ∞-Lie algebroid valued differential forms]].
+
+
+### Invariant polynomials and Chern-Simons elements
 
 A [[cocycle]] in the [[∞-Lie algebra cohomology]] of the [[∞-Lie algebra]] $\mathfrak{g}$ is a closed element in the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$.
 
@@ -286,11 +245,25 @@ $$
 
 to the unshifted copy, hence to the [[Chevalley-Eilenberg algebra]], is the cocycle that is in transgression with $\langle - \rangle$.
 
+For 
 
+$$
+  (A,F_A) : W(\mathfrak{g}) \to \Omega^\bullet(X)
+$$
 
+a collection of $\mathfrak{g}$-valued differential forms (as [above](LieAlgValuedForms)) and $\langle -\rangle  : CE(b^{n-1}\mathbb{R}) \to W(\mathfrak{g})$ an [[invariant polynomial]], the composite
 
+$$
+  \langle F_A\rangle
+  :
+  CE(b^{n-1}\mathbb{R})
+  \stackrel{\langle - \rangle}{\to}
+  W(\mathfrak{g})
+  \stackrel{(A,F_A)}{\to}
+  \Omega^\bullet(X)
+$$
 
-
+is the corresponding [[curvature characteristic form]], a closed $n$-form on $X$. For $(\langle - \rangle, cs) : W(b^{n-1}) \to W(\mathfrak{g})$ the corresponding Chern-Simons element we have that $cs(A,F_A)$ is the corresponding [[Chern-Simons form]] on $X$.
 
 ## Examples
 
