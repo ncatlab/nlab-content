@@ -20,7 +20,7 @@ A _shrinkable map_ $p:X \to Y$ in the [[category]] [[Top]] is a map with a secti
 
 ## Properties
 
-Every shrinkable map is a [[Dold fibration]].
+Every shrinkable map is a [[Dold fibration]]. This result follows from a theorem of Dold about [[locally homotopy trivial map]]s being the same as Dold fibrations. It should be obvious that a shrinkable map is globally homotopy trivial, with trivial fibre.
 
 ## Examples
 
