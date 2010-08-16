@@ -1,16 +1,19 @@
+# Measure spaces
+* table of contents
+{: toc}
+
+## Idea
+
 Measure spaces are used in the general theory of measure and [[integration]], somewhat analogous to the role played by [[topological spaces]] in the study of continuity.
-
-
-## Idea ##
 
 For the general theory of measure spaces, we first need a _[[measurable space]]_ $(X, \Sigma)$, that is a [[set]] equipped with a collection $\Sigma$ of __measurable sets__ complete under certain operations.  Then this becomes a measure space $(X, \Sigma, \mu)$ by throwing in a [[function]] $\mu$ from $\Sigma$ to the a space of values (such as the [[real line]]) that gets along with the set-theoretic operations that $\Sigma$ has.  If $E$ is a measurable set, then $\mu(E)$ is called the __measure__ of $E$ with respect to $\mu$.
 
 
-## Notation ##
+## Notation
 
 The original notation for an integral (going back to [[Gottfried Leibniz]]) was
 \[ \label{Leibniz} \int_a^b f(x) \mathrm{d}x \]
-(where $f(x)$ would replaced by some formula in the variable $x$).  In modern measure theory, we can now understand this as the integral of the [[measurable function]] $f$ on the [[interval]] $[a,b]$ relative to [[Lebesgue measure]].  If we wish to generalise from Lebesgue measure to an arbitrary measure $\mu$ and generalise from $[a,b]$ to an arbitrary measurable set $S$, then we can write
+(where $f(x)$ would be replaced by some formula in the variable $x$).  In modern measure theory, we can now understand this as the integral of the [[measurable function]] $f$ on the [[interval]] $[a,b]$ relative to [[Lebesgue measure]].  If we wish to generalise from Lebesgue measure to an arbitrary measure $\mu$ and generalise from $[a,b]$ to an arbitrary measurable set $S$, then we can write
 \[ \label{full} \int_S f(x) \mu(\mathrm{d}x) \]
 instead.  Now, if $f$ is not given by a formula, then there is no need for the dummy variable $x$, which gives
 \[ \label{simple} \int_S f \mu .\]
@@ -22,18 +25,18 @@ This last notation, however, hides the fact that integrating a function with res
 
 See [Usenet discussion](http://groups.google.com/group/sci.math.research/browse_thread/thread/e28593bfd6b83aac/67a61d19e8f4d57f), and contrast (eq:switched) with the [Stieltjes integral](http://secure.wikimedia.org/wikipedia/en/wiki/Stieltjes_integral).  The notation (eq:simple) has also been used in an introductory graduate-level course by [[John Baez]].
 
-It is also possibly to take the entire expression '$\mathrm{d}\mu$' as the name of the measure, writing $\mathrm{d}\mu(A)$ even where the common notation is $\mu(A)$.  In that case, the common expression (eq:excessive) is literally the same as (what would otherwise be) (eq:simple), although (eq:switched) is not quite the same as (what would otherwise be) (eq:full).
+It is also possible to take the entire expression '$\mathrm{d}\mu$' as the name of the measure, writing $\mathrm{d}\mu(A)$ even where the common notation is $\mu(A)$.  In that case, the common expression (eq:excessive) is literally the same as (what would otherwise be) (eq:simple), although (eq:switched) is not quite the same as (what would otherwise be) (eq:full).
 
 There is also some variation in notation as to whether to use a roman '$\mathrm{d}$' or an italic '$\mathit{d}$'; roman is more common in England and italic in America.  But of course, that variation should not cause any difficulties!
 
 
-## Definitions ##
+## Definitions
 
 A __measure space__ is a [[measurable space]] equipped with a measure.  There are many different kinds of measures; we start with the most specific and then consider generalisations.  The motivating example is [[Lebesgue measure]] on the [[real line]].
 
 Let $(X, \Sigma)$ be a measurable space.  A __probability measure__ on $X$ (due to Kolmogorov) is a [[function]] $\mu$ from the collection $\Sigma$ of measurable sets to the unit [[interval]] $[0,1]$ such that:
 
-1.  The measure of the [[empty set]] is [[zero]]:  $mu(\emptyset) = 0$;
+1.  The measure of the [[empty set]] is [[zero]]:  $\mu(\emptyset) = 0$;
 1.  The measure of the entire space is [[one]]:  $\mu(X) = 1$;
 1.  Countable additivity:  $\mu(\bigcup_{i = 1}^{\infty} S_i) = \sum_{i=1}^{\infty} \mu(S_i)$ whenever the $S_i$ are mutually [[disjoint sets|disjoint]].
 
@@ -57,7 +60,7 @@ _Toby_:  Well, they are still operations that make both $\Sigma$ and $\mathbf{R}
 =--
 
 
-### Generalisations ###
+### Generalisations
 
 From now on, we drop (2); the next step is to generalise the [[target]] of $\mu$, as follows:
 *  Use $\mathbf{R} = ]-\infty,\infty[$ for a __finite measure__.
@@ -85,7 +88,7 @@ Yet another possibility is to drop countable additivity, replacing it with finit
 Finally, an __extended measure__ takes values in the set $[-\infty,\infty]$ of extended real numbers.  Here we have the problem that, even when considering finite additivity, we might have to add $\infty$ and $-\infty$.  While we might simply require that this never happens (so that at least one of $\mu(S)$ and $\mu(T)$ must be finite if they have opposite signs and $S \cap T = \empty$), this is not include some examples that we want.  To deal with this, we define an extended measure to be a formal difference $\mu^+ - \mu^-$ of positive measures; $\mu(S) = \mu^+(S) - \mu^-(S)$ whenever this is not of the form $\infty - \infty$ and is otherwise underfined.  Note that the set of extended measures on $X$ is a [[quotient set]] of the set of pairs of positive measures; we say that $\mu = \nu$ if $\mu(S) = \nu(S)$ whenever either side is defined, that is if they are the same as [[partial functions]] from $S$ to $[-\infty,\infty]$.
 
 
-### Constructive theory ###
+### Constructive theory
 
 In Henry Cheng\'s [[constructive mathematics|constructive]] theory of measure, the definition of [[measurable space]] becomes more complicated; the main point is that a single measurable set $S$ is replaced by a _complemented pair_ $(S,T)$.  Once that is understood, very little needs to be changed to define a measure space.
 
@@ -102,7 +105,7 @@ I need to check Bishop & Bridges to see if there are any other changes, but I do
 =--
 
 
-### Subsidiary definitions ###
+### Subsidiary definitions
 
 Given a measure space $(X,\Sigma,\mu)$, a __$\mu$-null $\Sigma$-measurable set__ is a measurable set $N$ such that $\mu(S) = 0$ whenever $S \subseteq N$ is measurable; a __$\mu$-null set__ is any subset of a null measurable set.  In a positive measure space, we don\'t have to bother with $S$; $N$ will be a null measurable set as long as $\mu(N) = 0$.
 
@@ -119,7 +122,7 @@ Recall that a $\Sigma$-[[measurable function]] from $(X,\Sigma)$ to some other m
 A __$\mu$-integrable function__ is a $\mu$-measurable function $f$ such that the integral $\int_S f \mu$ (as defined below) exists for every measurable set $S$; it is enough to check $S = X$.  On a signed measure space, we may equivalently say that it is a $\mu$-measurable function $f$ such that the extended measure $f \mu$ is actually a finite measure.  (In any case, we get a finite measure $f \mu$ if $f$ is integrable.)
 
 
-### Integration ###
+### Integration
 
 In the following, 'measurable' will mean $\mu$-measurable.  That is, we assume that $\mu$ is complete and identify $\mu$-equivalent functions.  We will also assume that $\mu$ is a positive measure until I make sure of what must be done to generalise.
 
@@ -176,12 +179,12 @@ The [[Radon-Nikodym derivative]] is about reversing this.
 Other topics: absolute continuity, etc.
 
 
-##Noncommutative measure theory##
+## Noncommutative measure theory
 
 Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]] $L^\infty(X,\mu)$ where $(X,\mu)$ is some measure space. Conversely, if $(X,\mu)$ is a $\sigma$-finite measure space, then $L^\infty(X,\mu)$ is a commutative von Neumann algebra. This is similar to the correspondence between commutative $C^*$-[[C-star algebra|algebras]] and [[locally compact Hausdorff space]]s, which is the central approach to [[noncommutative geometry]]. It is useful to exploit the intuition that the theory of (noncommutative) von Neumann algebras is a noncommutative analogue of classical measure theory.
 
 
-##Discussion##
+## Discussion
 
 [[Eric]]: Some day this should hopefully tie into the beautiful stuff on [[Leinster measure]] ([blog](http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html)).
 
@@ -203,29 +206,61 @@ _Toby_:  I should note that, even given what I wrote above, there is still a *sl
 =--
 
 
+[[!redirects measure space]]
 [[!redirects measure spaces]]
 [[!redirects measure]]
 [[!redirects measures]]
+
 [[!redirects probability measure]]
+[[!redirects probability measures]]
+
 [[!redirects finite measure]]
+[[!redirects finite measures]]
 [[!redirects positive measure]]
+[[!redirects positive measures]]
 [[!redirects signed measure]]
+[[!redirects signed measures]]
 [[!redirects complex-valued measure]]
+[[!redirects complex-valued measures]]
 [[!redirects valued measure]]
+[[!redirects valued measures]]
 [[!redirects V-valued measure]]
+[[!redirects V-valued measures]]
+
 [[!redirects finitely additive measure]]
+[[!redirects finitely additive measures]]
 [[!redirects extended measure]]
+[[!redirects extended measures]]
 [[!redirects sigma-finite measure]]
+[[!redirects sigma-finite measures]]
 [[!redirects ∞-finite measure]]
+[[!redirects ∞-finite measures]]
+
 [[!redirects null set]]
+[[!redirects null sets]]
 [[!redirects full set]]
+[[!redirects full sets]]
 [[!redirects complete measure]]
+[[!redirects complete measures]]
+
 [[!redirects finitely measurable set]]
+[[!redirects finitely measurable sets]]
 [[!redirects sigma-finitely measurable set]]
+[[!redirects sigma-finitely measurable sets]]
 [[!redirects ∞-finitely measurable set]]
+[[!redirects ∞-finitely measurable sets]]
+
 [[!redirects integral of a measure]]
+[[!redirects integrals of a measure]]
+[[!redirects integrals of measures]]
 [[!redirects integral with respect to a measure]]
+[[!redirects integrals with respect to a measure]]
+[[!redirects integrals with respect to measures]]
 [[!redirects simple function]]
+[[!redirects simple functions]]
 [[!redirects integrable function]]
+[[!redirects integrable functions]]
 [[!redirects absolutely integrable function]]
+[[!redirects absolutely integrable functions]]
 [[!redirects Lebesgue space]]
+[[!redirects Lebesgue spaces]]
