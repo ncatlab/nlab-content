@@ -7,7 +7,7 @@ Specifically, the language is a [[type theory]] $L(E)$ where:
 * the **terms** of type $B$ in variables $x_i$ of type $X_i$ are morphisms from the product of the $X_i$ to $B$
 * the **formulas** are terms of type $\Omega$, where $\Omega$ is the [[subobject classifier]];
 * the propositional logical connectives are induced from the internal [[Heyting algebra]] structure of $\Omega$;
-* the (type-bounded) quantifiers are induced from the internal completeness of $\Omega$ (i.e., the quantifiers are given by suitable morphisms from internal powers of $\Omega$ to $\Omega$)
+* the (type-bounded) [[quantifiers]] are induced from the internal completeness of $\Omega$ (i.e., the quantifiers are given by suitable morphisms from internal powers of $\Omega$ to $\Omega$)
 * for each type $X$ there are also two binary relations $=_X$ (defined applying the diagonal map to the product term of the arguments) and $\in_X$ (defined applying the evaluation map to the product of the term and the power term of the arguments);
 * a formula is true if the arrow which interprets it factors through the arrow $true: 1 \to \Omega$.
 * one can also construct type families and dependent types, just as in any [[locally cartesian closed category]]: the types indexed by elements of some closed type $A$ are the objects of the slice category over $A$; sums and products of type families (i.e., $\Sigma$- and $\Pi$-types) are given by the left and right adjoints to change-of-base functors, respectively. As these slice categories will be topoi themselves, all the above structure can be interpreted for type families as well
