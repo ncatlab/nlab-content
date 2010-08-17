@@ -244,11 +244,39 @@ $$
 
 =--
 
+Or in other words, if $\bar \mathfrak{g}$ is the $\infty$-Lie algebra whose underlying graded vector space is that of $\mathfrak{g}$, but all whose brackets vanish, then 
+
+$$
+  F(\mathfrak{g}) = W(\bar \mathfrak{g})
+  \,.
+$$
+
+Notice the evident
+
++-- {: .un_lemma}
+###### Observation
+
+The [[cochain cohomology]] of $F(\mathfrak{g})$ vanishes.
+
+=--
+
+An elementary way to see this is to observe that a $d_{F}$-closed element is one in the shifted copy $\wedge^\bullet (\mathfrak{g}^*[1])$, and a coboundary for it is obtained by shifting in each summand in a sum decomposition into homogenous elements one of the factors down.
+
+More formally, let $K := \sigma^{-1} : F(\mathfrak{g}) \to F(\mathfrak{g})$ be the degree down-shift isomorphism $\mathfrak{g}^*[1] \to \mathfrak{g}^*$ extended as a graded derivation of degree -1, then 
+
+$$
+  [d_{F(\mathfrak{g})}, K] = Id : F(\mathfrak{g}) \to F(\mathfrak{g})
+$$
+
+and hence for any $\omega \in F(\mathfrak{g})$ such that $d_{F(\mathfrak{g})} \omega = 0$ we have $\omega = d_{F(\mathfrak{g})} K \omega$.
+
+
+
 +-- {: .un_prop}
 ###### Lemma
 
 
-There is an [[isomorphism]] of [[dg-algebra]]s 
+Given $\mathfrak{g}$, there is an [[isomorphism]] of [[dg-algebra]]s 
 
 $$
   f : F(\mathfrak{g}) \to W(\mathfrak{g})
@@ -285,11 +313,20 @@ $$
 =--
 
 
+
 +-- {: .un_cor}
 ###### Corollary
 
 
 The [[cochain cohomology]] of the Weil algebra of an $L_\infty$-algebra is trivial.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is the point. Dually, the $\infty$-Lie algebra $inn(\mathfrak{g})$ is a model for the point. In fact, one can see that $inn(g)$ is the [[universal principal ∞-bundle]] over $\mathfrak{g}$ in the canonical [[model category|model]] for the [[(∞,1)-topos]] [[?LieGrpd]]. In fact, it is a [[groupal model for universal principal ∞-bundles]]. This is discussed at [[∞-Lie algebra cohomology]].
 
 =--
 
