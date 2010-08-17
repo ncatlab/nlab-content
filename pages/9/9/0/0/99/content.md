@@ -99,7 +99,7 @@ $$
   \right)
 $$
 
-where $\sigma|_{\mathfrak{a}^*} : \mathfrak{a}^* \to \mathfrak{a}^*[1]$ is the canonical degree-shifting isomorphism, and in $\sigma \circ d_{\mathrm{CE}(\mathfrak{a})} \circ \sigma^{-1}$ its left appearance is its extension as a degree +1 [[derivation]] of commutative garded algebras, $\sigma:\wedge^\bullet \mathfrak{a}^*\to W({\mathfrak{a})$.
+where $\sigma|_{\mathfrak{a}^*} : \mathfrak{a}^* \to \mathfrak{a}^*[1]$ is the canonical degree-shifting isomorphism, and in $\sigma \circ d_{\mathrm{CE}(\mathfrak{a})} \circ \sigma^{-1}$ its left appearance is its extension as a degree +1 [[derivation]] of commutative garded algebras, $\sigma:\wedge^\bullet \mathfrak{a}^*\to W(\mathfrak{a})$.
 
 ## Properties {#Properties}
 
