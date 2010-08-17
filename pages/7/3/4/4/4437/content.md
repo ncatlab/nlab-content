@@ -14,13 +14,14 @@
 =--
 
 
-## Idea
 
 * [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
 
 * [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
 
+## Idea
 
-See also [[cover]], [[covering space]].
+
+See [[cover]], [[covering space]].
 
 
