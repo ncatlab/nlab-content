@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -8,7 +17,7 @@
 
 ## Idea
 
-An isomorphism is an invertible [[morphism]].
+An _isomorphism_ is an invertible [[morphism]].
 
 Two [[objects]] of a [[category]] are **isomorphic** if they are _essentially equal_ without necessarily actuall being equal.  An **isomorphism** is a specific way of translating one object to an isomorphic one.  Note that it\'s often not enough to know *that* two objects are isomorphic; you may need to know *how* they are isomorphic, that is to know the specific isomorphism in question.
 
