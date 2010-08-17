@@ -1,7 +1,13 @@
+# SEAR+$\varepsilon$
+* table of contents
+{: toc}
+
+## Goal
+
 The goal of this page is to prove that a non-extensional [[choice operator]] is conservative over a theory without AC.  I'll take the theory without AC to be [[SEAR]], for definiteness and since that's where [[Mike Shulman|I'm]] most comfortable.
 
 
-# Defining SEAR+$\varepsilon$
+## Defining SEAR+$\varepsilon$
 
 For the theory with a non-extensional choice operator, consider the following theory, which is a variant of the version of SEAR without fundamental equality described at [[SEAR]].  There are four basic sorts: *pre-sets*, *pre-relations*, *elements*, and *operations* (or *pre-functions*).  Each element belongs to a pre-set, and each pre-relation and operation has a source and target which are pre-sets.  For a prerelation $\phi:A\looparrowright B$ and $x\in A$, $y\in B$, we have the assertion $\phi(x,y)$, and for an operation $f:A\rightsquigarrow B$ and $x\in A$ we have an element $f(x)\in B$.  There is no predefined notion of equality of anything.   Axioms 0 and 1 of SEAR are unmodified, except that the uniqueness clause of the latter is interpreted as a *definition* of when two parallel pre-relations are called "equal".  We also impose
 
@@ -19,7 +25,7 @@ Now Axiom 2 can be taken to read: For any sets $A,B$ and any relation $\varphi:A
 We call this theory $SEAR+\varepsilon$.  Clearly the sets, elements (with defined equality), and relations in any model of $SEAR+\varepsilon$ satisfy the axioms of SEAR.  Conversely, from any model of SEAR-C we can construct a model of $SEAR+\varepsilon$ by taking the pre-sets, pre-relations, and operations to be the SEAR-C sets, relations, and functions respectively.  With this interpretation axiom $1+\varepsilon$ is precisely the SEAR-C [[axiom of choice]].  The question is whether we can get $SEAR+\varepsilon$ without assuming or implying choice.
 
 
-# Conservativity over COSHEP
+## Conservativity over COSHEP
 
 Our goal is to prove that $SEAR+\varepsilon$ is conservative over SEAR. 
 But since I haven't quite figured out how to do that (or, to be fair, even whether it's true), as a warm-up let's prove that the same thing is true when we add [[COSHEP]], a choice-like axiom notably weaker than full AC, to both sides.
@@ -48,7 +54,7 @@ Therefore, any statement in the language of SEAR which is true in all models of 
 Note that the model of $SEAR+\varepsilon$ we've just constructed also satisfies COSHEP (as it must, given its equivalence to $V$).  In fact, if a model of $SEAR+\varepsilon$ admits an "identity" equivalence pre-relation $\equiv_A$ on every pre-set, and relative to which all pre-relations and operations are extensional, then it must satisfy COSHEP---for then every set $(A,{=_A})$ is the surjective image of the set $(A,{\equiv_A})$, which is projective by Axiom $1+\varepsilon$.
 
 
-# Without COSHEP
+## Without COSHEP
 
 Now [[Toby Bartels|I]] step in to say: $\mathbf{SEAR} + \varepsilon \vDash COSHEP$.
 
@@ -67,11 +73,7 @@ Suppose $f:A\rightsquigarrow B$ is an operation.  Define $K_f:A\looparrowright A
 Similarly, suppose $\varphi:A\looparrowright B$ is a pre-relation.  Define $R_\varphi:A\looparrowright A$ by $R_\varphi(x,x')$ iff $\varphi(x,y)\Leftrightarrow\varphi(x',y)$ for all $y\in B$.  Then $R_\varphi$ is an equivalence pre-relation, so if $x\equiv_A x'$, then $R_\varphi(x,x')$ and so $\varphi(x,y)\Leftrightarrow\varphi(x',y)$ for all $y\in B$.
 =--
 
-Of course, as you point out, this is very impredicative.  (Palmgren's CETCS actually includes COSHEP, but if you removed it then adding $\varepsilon$ wouldn't (seemingly) imply it.)
-
-*  _Toby_:  Fixed.
-
-Does that mean that your original [suggestion](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026817) would only acceptable be for someone who either (1) accepts COSHEP or (2) doesn't accept (quantification over) powersets?
+Of course, as you point out, this is very impredicative.  Does that mean that your original [suggestion](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026817) would only acceptable be for someone who either (1) accepts COSHEP or (2) doesn't accept (quantification over) powersets?
 
 _Toby_:  That may be so; I hadn\'t thought through all of the implications, so I was hoping otherwise.  However, I\'m not sure that $\varepsilon$ has to work as in Axiom $1 + \varepsilon$; how about this?
 
@@ -84,13 +86,13 @@ Add a symbol (actually several symbols) to the language for an operation that as
 *  an injective function $i_A: A \to A'$,
 *  and an element $\epsilon_A$ of $A'$;
 
-then add the axiom that, $\epsilon_A$ belongs to the image of $i_A$ if (hence iff) $A$ is inhabited.
+then add the axiom that $\epsilon_A$ belongs to the image of $i_A$ if (hence iff) $A$ is inhabited.
 =--
 
 With excluded middle, this is a theorem with $A + 0^A$ for $A'$ as in the discussion at [[choice operator]].  But even this may be too strong; I really want to say that $\epsilon_A$ takes values in $A_\bot$ (the set of subsingleton subsets of $A$) with $\epsilon_A$ an inhabited subsingleton if (hence iff) $A$ is inhabited, but the existence of $A_\bot$ is itself impredicative (in the presence of function sets) since $1_\bot$ is the set of truth values.
 
 
-# Without COSHEP, predicatively
+## Without COSHEP, predicatively
 
 Okay, second try.  Define **constructive SEAR** to use [[intuitionistic logic]] and consist of Axioms 0, 1B, 2, and 4 of SEAR (no power sets) together with
 
