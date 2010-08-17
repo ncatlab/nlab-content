@@ -309,7 +309,7 @@ $$
   f^{-1} : \sigma(t) \mapsto \sigma(t) - d_{CE(\mathfrak{g})}(t)
   \,.
 $$
-
+Note that the isomorphism $f$ is precisely the dgca isomorphism induced between $W(\overline\mathfrak{g})$ and  $W(\mathfrak{g})$ by the identity of $\mathfrak{g}^*$ as a graded vector spaces morphism $\overline{\mathfrak{g}}^*\to\mathfrak{g}^*$.
 =--
 
 
@@ -326,7 +326,7 @@ The [[cochain cohomology]] of the Weil algebra of an $L_\infty$-algebra is trivi
 ###### Remark
 
 
-This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is the point. Dually, the $\infty$-Lie algebra $inn(\mathfrak{g})$ is a model for the point. In fact, one can see that $inn(g)$ is the [[universal principal ∞-bundle]] over $\mathfrak{g}$ in the canonical [[model category|model]] for the [[(∞,1)-topos]] [[?LieGrpd]]. In fact, it is a [[groupal model for universal principal ∞-bundles]]. This is discussed at [[∞-Lie algebra cohomology]].
+This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is the point. Dually, the $\infty$-Lie algebra $inn(\mathfrak{g})$ is a model for the point. In fact, one can see that $inn(\mathfrak{g})$ is the [[universal principal ∞-bundle]] over $\mathfrak{g}$ in the canonical [[model category|model]] for the [[(∞,1)-topos]] [[?LieGrpd]]. In fact, it is a [[groupal model for universal principal ∞-bundles]]. This is discussed at [[∞-Lie algebra cohomology]].
 
 =--
 
