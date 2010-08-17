@@ -53,12 +53,6 @@ Zermelo\'s original version consists of axioms (1--5) and (7--9), in a somewhat 
 
 The most well-known foundations for [[constructive mathematics]] through material set theory are [[Peter Aczel]]\'s __constructive Zermelo--Frankel set theory__ ($CZF$) and [[John Myhill]]\'s __intuitionistic Zermelo--Fraenkel set theory__ ($IZF$).  $CZF$ uses axioms (1--8) and (10), usually weak forms, in intuitionistic logic; specifically, it uses Bounded Separation for (5), Strong Collection for (6), and an intermediate (Subset Collection) form of (7).  $IZF$ is simliar, but it uses Full Separation for (5) and the full strength of (7); Myhill\'s original version uses only Replacement for (6), but Collection (equivalent to Strong Collection using Full Separation) is standard now.  Note that adding (9) to $IZF$ implies [[excluded middle]] and so makes $ZFC$.  However, some authors like to include a weak form of (9), such as [[dependent choice]] or [[COSHEP]].
 
-+--{: .query}
-[[Mike Shulman]]: Also, I thought that IZF included full power sets (7).  That's what Wikipedia says, and it's how Joyal-Moerdijk use "IZF."  I don't think I have anything by Myhill to look at, though.
-
-_Toby_:  Wait, didn\'t I include Power Sets in $IZF$?  I meant to!  Fixed.
-=--
-
 [[Mike Shulman]]\'s unfinished survey of material and structural set theories takes $CPZ^{\circlearrowleft-}$ as the most basic form; it consists of (1--4) and the weakest versions (Bounded Separation and Weak Replacement) of (5&6) in intuitionistic logic.  Adding (10) gives $CPZ^{-}$, adding (8) gives $CPZ^{\circlearrowleft}$, and adding both gives $CPZ$, __constructive pre-Zermelo set theory__.  Shulman gives systematic notation for other versions, which includes those above.
 
 Myhill has another version, __constructive set theory__ ($CST$); this consists of (1--4), Bounded Separation for (5), Replacement for (6), the weakest (Exponentiation) form of (7), (8), and a weak version (Dependent Choice) of (9).  It also uses a variation of the language, with urelements for natural numbers; note that the existence of $\omega$ still follows using (6).  This classifies $CST$ as $\mathrm{C}{\Pi}ZF^{\circlearrowleft} + DC$ in Shulman\'s system if one ignores the use of urelements and strengthens Replacement to Strong Collection.
@@ -66,7 +60,7 @@ Myhill has another version, __constructive set theory__ ($CST$); this consists o
 
 ### Class theories
 
-__Morse--Kelley class theory__ ($MK$) features both [[sets]] and [[proper classes]].  This allows it to strengthen (5) to Full Comprehension, since $\phi$ can include [[quantification]] over classes; the same holds in (6) and (10), although this does not add any additional strength.  __Von Neumann--Bernays--G&#246;del class theory__ ($NBG$) uses the same language, but it still uses only Full Separation for (5).  This makes it conservative over $ZFC$ and also allows for a finite axiomatisation; we replace the formulas in (5) and (6) with classes, and add some special cases of (5) for subclasses, one for each logical connective.  (It is provable that plain $ZF$, if consistent, cannot be finitely axiomatized in the same first-order language; $NBG$ escapes this conclusion by extending the language with the notion of classes.)
+__Morse--Kelley class theory__ ($MK$) features both [[sets]] and [[proper classes]].  This allows it to strengthen (5) to Full Comprehension, since $\phi$ can include [[quantification]] over classes; the same holds in (6) and (10), although this does not add any additional strength.  __Von Neumann--Bernays--G&#246;del class theory__ ($NBG$) uses the same language as $MK$, but it still uses only Full Separation for (5).  This makes it conservative over $ZFC$ and also allows for a finite axiomatisation; we replace the formulas in (5) and (6) with classes, and add some special cases of (5) for subclasses, one for each logical connective.  (It is provable that plain $ZF$, if consistent, cannot be finitely axiomatized in its own first-order language; $NBG$ escapes this conclusion by extending the language with the notion of classes.)
 
 One can also rework all of the weak versions of set theory above into a class theory like $NBG$, which is conservative over the original set theory.  One can also use a class theory like $MK$, although this destroys any attempt to use a weak version of (5).
 
