@@ -25,7 +25,11 @@
 
 ## Idea
 
+Ordinary [[Chern-Weil theory]] is about [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal bundle]]s for $G$ a [[Lie group]], equivalently of the [[classifying space]] $\mathcal{B}G$ of that Lie group.
+
 By _$\infty$-Chern-Weil theory_ we want to understand the generalization of ordinary [[Chern-Weil theory]] to [[(∞,1)-category theory]]: where [[Lie group]]s are generalized to [[∞-Lie group]]s, [[Lie algebra]]s are generalized to [[∞-Lie algebra]]s and [[principal bundle]]s to [[principal ∞-bundle]]s.
+
+So $\infty$-Chern-Weil theory produces [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal ∞-bundle]]s for $G$ an [[∞-Lie group]], equivalently of the corresponding [[classifying space]]s $\mathcal{B}G$.
 
 Using the notion of [[schreiber:differential cohomology in an (∞,1)-topos]] applied to the [[(∞,1)-topos]] $\mathbf{H} =$[[?LieGrpd]] of [[∞-Lie groupoids]] there is a very general abstract notion of refinement of [[characteristic class]]es in [[cohomology]] to [[curvature characteristic forms|curvature characteristic classes]] in [[differential cohomology]]. &#228;
 
@@ -37,7 +41,7 @@ This model is build on concrete constructions in [[differential geometry]] and c
 
 The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ through the whole _smooth_ [[Whitehead tower]] of $G$, which involves not just [[Lie group]]s but [[∞-Lie group]]s. Such an extension constitutes a refined cohomological invariant, in that it computes the intrinsic $G$-Chern-character, in a way that we describe [below](#ChernCharacter). 
 
-The need to consider this refined invariant arose in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSI</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and ordinary [[differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ . This is a natural object in higher Chern-Weil theory.
+The need to consider this refined invariant arose in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSI</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and [[ordinary differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ . This is a natural object in higher Chern-Weil theory.
 
 The following restates this in more technical detail.
 
@@ -55,7 +59,7 @@ $$
 Spin Bund(X)/ \sim = H(X,\mathbf{B}G)
 $$
 
-of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to ordinary [[differential cohomology]] $H_{diff}^4(X)$
+of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to [[ordinary differential cohomology]] $H_{diff}^4(X)$
 
 $$
   \frac{1}{2} \hat p_1 : H(X, \mathbf{B}Spin) \to H_{diff}^4(X)
