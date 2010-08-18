@@ -33,6 +33,15 @@ The main construction in ∞-Chern-Weil theory is a concrete _model_ or _present
 
 This model is build on concrete constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
 
+### Motivation and problems
+
+The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ through the whole _smooth_ [[Whitehead tower]] of $G$, which involves not just [[Lie group]]s but [[∞-Lie group]]s. Such an extension constitutes a refined cohomological invariant, in that it computes the intrinsic $G$-Chern-character, in a way that we describe [below](#ChernCharacter). 
+
+The need to consider this refined invariant arose in the study of the [[differential cohomology]] of [[string theory background]]s induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSI</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and ordinary [[differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ . This is a natural object in higher Chern-Weil theory.
+
+The following restates this in more technical detail.
+
+(...)
 
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
@@ -583,7 +592,7 @@ We will now use this existence of $\infty$-connections to make a statement on pr
 
 
 
-### Chern character {#RefinedCharacteristics}
+### Chern character {#ChernCharacter}
 
 
 Above we have considered [∞-Lie algebra valued connections](#InfinityLieAlgebraConnection) and their [curvature characteristic forms](#InfChernWeil). We now wish to show how these model the intrinsic [[Chern character in an (∞,1)-topos]].
