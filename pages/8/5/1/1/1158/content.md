@@ -15,6 +15,8 @@
 
 ## Idea
 
+Deligne cohomology is an [[abelian sheaf cohomology]] that models [[ordinary differential cohomology]].
+
 The standard _Deligne complex_ (of [[abelian sheaf cohomology|abelian sheaves]]) is under the [[Dold-Kan correspondence]] the sheaf of
 [[n-groupoid]]s of smooth [[n-functor]]s from the [[path n-groupoid]] to the $n$-fold [[delooping]] $\mathbf{B}^n U(1)$:
 
