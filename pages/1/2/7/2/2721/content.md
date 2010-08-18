@@ -1,10 +1,13 @@
 
-> under construction
-
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -14,30 +17,31 @@
 ## Idea
 
 
-For every [[Lie algebra]] or [[L-infinity algebra|∞-Lie algebra]] or [[Lie ∞-algebroid|∞-Lie algebroid]] $\mathfrak{a}$ there is its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$ and its [[Weil algebra]] $W(\mathfrak{a})$ and a [[dg-algebra]] morphism
+For every [[Lie algebra]] or [[∞-Lie algebra]] or [[∞-Lie algebroid]] $\mathfrak{a}$ there is its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$ and its [[Weil algebra]] $W(\mathfrak{a})$ and a canonical [[dg-algebra]] morphism
 
 $$
   CE(\mathfrak{a}) \leftarrow W(\mathfrak{a})
   \,.
 $$ 
 
-An invariant polynomial on $\mathfrak{a}$ is a closed element in $W(\mathfrak{a})$ that is invariant under those isomorphisms of the identitys on $W(\mathfrak{g})$ that cover an isomorphism of the identity on $CE(\mathfrak{g})$.
+Recall that a [[∞-Lie algebra cohomology|cocycle]] on $\mathfrak{a}$ is a closed element in $CE(\mathfrak{a})$. An invariant polynomial is a closed elements in $W(\mathfrak{a})$ that sits in the shifted copy $\wedge^\bullet (\mathfrak{a}^*[1])$.
 
-The [[dg-algebra]] $inv(\mathfrak{a})$ of **invariant polynomials** on $\mathfrak{a}$ sits in the [[kernel]] of this map
+This means that for $X \in \mathfrak{a}$, for $\iota_X : W(\mathfrak{a}) \to W(\mathfrak{a})$ the contraction derivation and $ad_X := [d_W, \iota_X]$ the corresponding [[Lie derivative]], we have in particular that an invariant polynomial $\langle -\rangle \in W(\mathfrak{a})$ is invariant in the sense that 
 
 $$
-  CE(\mathfrak{a}) \leftarrow W(\mathfrak{a})
-  \leftarrow
-  inv(\mathfrak{a})
+  ad_X \langle -\rangle = 0
   \,.
-$$ 
+$$
+
+For $\mathfrak{a} = \mathfrak{g}$ an ordinary [[Lie algebra]], an invariant polynomial on $\mathfrak{g}$ is precisely a symmetric multilinear map on $\mathfrak{g}$ which is $ad$-invariant in the ordinary sense.
 
 
 ## Definition
 
-### Concrete definition
++-- {: .un_defn}
+###### Definition
 
-For $\mathfrak{a}$ an [[Lie ∞-algebroid|∞-Lie algebroid]] (of finite type, i.e. degreewise finite dimensional) with [[Chevalley-Eilenberg algebra]] 
+For $\mathfrak{a}$ an [[∞-Lie algebroid]] (of finite type, i.e. degreewise of finite rank) with [[Chevalley-Eilenberg algebra]] 
 
 $$
   CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{a}^*, d_{CE(\mathfrak{a}}))
@@ -49,99 +53,149 @@ $$
   W(\mathfrak{a}) = (\wedge^\bullet (\mathfrak{a}^* \oplus \mathfrak{a}^*[1]), d_{W(\mathfrak{a})})
 $$
 
-an **invariant polynomial** on $\mathfrak{a}$ is an elements $P \in W(\mathfrak{a})$ with the property that
+an **invariant polynomial** on $\mathfrak{a}$ is an elements $\langle - \rangle \in W(\mathfrak{a})$ with the property that
 
-* $P$ is a wedge product of generators in the shifted copy of 
+* $\langle - \rangle$ is a wedge product of generators in the shifted copy of 
   $\mathfrak{a}^*$ $W(\mathfrak{a})$, i.e.
 
   $$
-    P \in \wedge^\bullet \mathfrak{a}^*[1]
+    \langle - \rangle \in \wedge^\bullet \mathfrak{a}^*[1]
   $$
 
-* it is closed in $W(\mathfrak{a})$ in that $d_{W(\mathfrak{a})} P = 0$.
+  or equivalently: for all $x \in \mathfrak{a}$ and $\iota_X : W(\mathfrak{a}) \to W(\mathfrak{a})$ the contraction [[derivation]], we have
+
+  $$
+    \iota_x \langle -\rangle = 0
+    \,;
+  $$
+
+* it is closed in $W(\mathfrak{a})$ in that $d_{W(\mathfrak{a})} \langle - \rangle = 0$.
+
+=--
 
 
-### Conceptual definition
++-- {: .un_remark}
+###### Remark
 
 
-We give an equivalent but more conceptual [[nPOV]] definition of invariant polynomials.
-
-#### Preliminaries
-
-Write $T \mathfrak{a}$ for the tangent $\infty$-Lie algebroid of $\mathfrak{a}$, characterized by the fact that this is the $\infty$-Lie algebroid whose Chevalley-Eilenbeg algebra is the Weil algebra of $\mathfrak{a}$,
+This implies that for 
 
 $$
-  CE(T \mathfrak{a}) = W(\mathfrak{a})
+  ad_x := [d_{W(\mathfrak{a})}, \iota_X]
+$$
+
+the [[Lie derivative]] in $W(\mathfrak{a})$ along $x \in \mathfrak{a}$, which encodes the coadjoint action of $\mathfrak{a}$ on $W(\mathfrak{a})$, we have
+
+$$
+  ad_x \langle - \rangle = 0
+$$
+
+for all $x$. But the condition for an invariant polynomial is stronger than these ad-invariances. For instance there are  [[∞-Lie algebra cohomology|∞-Lie algebra cocycles]] $\mu \in CE(\mathfrak{g})$ which when regarded as elements in $W(\mathfrak{g})$ are ad-invariant. But being entirely in the un-shifted copy, $\mu \in \wedge^\bullet \mathfrak{g}^*$, these are not invariant polynomials.
+
+=--
+
+## Role in $\infty$-Chern-Weil theory
+
+In ($\infty$-)[[Chern-Weil theory]] the crucial role played by the invariant polynomials is their relation to [[∞-Lie algebra cocycle]]s. One may understand invariant invariant polynomials as extending under [[Lie integration]] $\infty$-Lie algebra cocycles from [[cohomology]] to [[differential cohomology]].
+
+
+### Transgression cocycles and Chern-Simons elements {#TransgressionCocycles}
+
+
++-- {: .un_defn}
+###### Definition
+**(Chern-Simons elements and transgression cocycles)**
+
+Let $\mathfrak{a} = \mathfrak{g}$ be an [[∞-Lie algebra]]. Since the [[cochain cohomology]] of the [[Weil algebra]] $W(\mathfrak{g})$ is trivial, for every invariant polynomial $\langle -\rangle \in W(\mathfrak{g})$ there is necessarily an element $cs \in W(\mathfrak{g})$ with
+
+$$
+  d_{W(\mathfrak{g})} cs = \langle -\rangle
   \,.
 $$
 
-Write $i_{\mathfrak{a}} : \mathfrak{a} \to T \mathfrak{a}$ for the canonical inclusion, which dually corresponds to the projection
+This we call a [[Chern-Simons form|Chern-Simons element]] for $\langle -\rangle$.
+
+This element $cs$ will in general not sit entirely in the shifted copy. Its restriction
 
 $$
-  CE(\mathfrak{a}) \leftarrow W(\mathfrak{a}) : i_{\mathfrak{a}}^*
-  \,.
+  \mu := cs|_{\wedge^\bullet \mathfrak{g}^*} \in CE(\mathfrak{g})
 $$
 
-For $n \in \mathbb{N}$, write $b^n \mathbb{R} = Lie (\mathbf{B}\mathbb{R})$ for the $\infty$-Lie algebroid whose CE-algebra is given by a single generator $c$ in degree $n$ with vanishing differential
+is a [[∞-Lie algebra cohomology|∞-Lie algebra cocycle]]. We say this is _in transgression_ with $\langle -\rangle$.
 
-$$
-  CE(b^n \mathbb{R}) = (\wedge^\bullet \langle c\rangle, d = 0)
-  \,.
-$$
-
-Its tangent $\infty$-Lie algebroid $T b^n \mathbb{R}$ is given by the CE-algebra
-
-$$
-  CE(T b^n \mathbb{R}) = 
-  W(b^n \mathbb{R})
-  =
-  (\wedge^\bullet \langle c, d c\rangle)
-  \,.
-$$
-
-
-#### The invariance condition
-
-A closed differential form on $\mathfrak{a}$ is precisely a commuting diagram
+In total this construction yields a commuting diagram
 
 $$
   \array{
-    \mathfrak{a} &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    T \mathfrak{a} &\to& b^n \mathbb{R}
+     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{n-1}\mathbb{R})
+     &&& cocycle
+     \\
+     \uparrow && \uparrow
+     \\
+     W(\mathfrak{g}) &\stackrel{(cs,\langle -\rangle)}{\leftarrow}&
+     W(b^{n-1} \mathbb{R})
+     &&&
+     Chern-Simons-element
+     \\
+     \uparrow && \uparrow
+     \\
+     inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
+     CE(b^n \mathbb{R})
+     &&&
+     invariant\; polynomial
   }
+  \,,
 $$
 
-of $\infty$-Lie algebroids, namely a commuting diagram
+where $b^{n-1}\mathbb{R}$ denotes the [[∞-Lie algebra]] whose CE-algebra has a single generator in degree $n$ and vanishing differential, and where $CE(b^n \mathbb{R}) = inv(b^{n-1}\mathbb{R})$ is the algebra of invariant polynomials of $b^{n-1} \mathbb{R}$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The element $\mu \in CE(\mathfrak{g})$ associated to an invariant polynomial $\langle -\rangle$ by the above procedure is indeed a cocycle, and its cohomology class is independent of the choice of the element $cs$ involved.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The procedure tahat assigns $\mu$ to $\langle- \rangle$ is illustarted by the following diagram
 
 $$
   \array{
-    CE(\mathfrak{a}) &\leftarrow& \mathbb{R}
+    0 && \langle-\rangle &\leftarrow & \langle-\rangle
     \\
-    \uparrow^{\mathrlap{i^*}} && \uparrow
+    \;\;\uparrow^{\mathrlap{d_{CE(\mathfrak{g})}}}
+    &&
+    \;\;\uparrow^{\mathrlap{d_{W(\mathfrak{g})}}}
     \\
-    W(\mathfrak{a}) &\stackrel{P}{\leftarrow}& CE(b^n \mathbb{R})
+    \mu &\leftarrow& cs
+    \\
+    \\
+    \\
+    \\
+    CE(\mathfrak{a})
+    &\leftarrow&
+    W(\mathfrak{a})
+    &\leftarrow&
+    inv(\mathfrak{a})    
   }
 $$
 
-of [[dg-algebra]]s: this says precisely that $P$ is a closed element of degree $n$ in $W(\mathfrak{a})$ that vanishes under $i^*$.
+From the fact that all morphisms involved respect the differential and from the fact that the image of $\langle-\rangle$ in $CE(\mathfrak{g})$ vanishes it follows that 
 
-We claim now that the fact that $P$ not just vanishes under $i^*$ but satisfies the above condition that it sits entirely in the shifted copy of generators is equivalent to the following diagrammatic statement: 
+* the element $\mu$ satisfies $d_{CE(\mathfrak{a})} \mu = 0$, hence that it is an [[∞-Lie algebra cohomology|∞-Lie algebra cocycle]];
 
-for every diagram
+* any two different choices of $cs$ lead to cocylces $\mu$ that are cohomologous.
 
-...
+=--
 
 
-## Properties
+This construction exhibits effectively the preimage of the [[connecting homomorphism]] in the [[cochain cohomology]] sequence induced by $W(\mathfrak{g}) \to CE(\mathfrak{g})$:
 
-### Transgression cocycles {#TransgressionCocycles}
-
-We describe how to an [[nLab:∞-Lie algebroid]] invariant polynomial $\omega$ we associate an [[∞-Lie algebroid]] cocycle $\nu$ that is _in transgression with_ $\omega$.
-
-The [[dg-algebra]] of invariant polynomials is a sub-dg-alghebra of the kernel of the morphism $i^* : W(\mathfrak{a}) \to CE(\mathfrak{a})$ from the [[Weil algebra]] to the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$
+The [[dg-algebra]] of invariant polynomials is a sub-dg-algebra of the kernel of the morphism $i^* : W(\mathfrak{a}) \to CE(\mathfrak{a})$ from the [[Weil algebra]] to the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$
 
 $$
   inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a}) = ker(W(\mathfrak{a}) \to CE(\mathfrak{a}))
@@ -166,7 +220,7 @@ $$
   \,.
 $$
 
-We say that $\mu \in CE(\mathfrak{a})$ is in transgression with $\omega \in inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a})$ if their classes map to each other under the connecting homomorphism $\delta$:
+We say that $\mu \in CE(\mathfrak{a})$ is in transgression with $\omega \in inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a})$ if their classes map to each other under the [[connecting homomorphism]] $\delta$:
 
 $$
   \delta : [\mu] \mapsto [\omega]
@@ -174,46 +228,112 @@ $$
 $$
 
 
-1. We first regard the invariant polynomial $\omega$ as an element of the [[Weil algebra]] $W(\mathfrak{a})$ under the inclusion $inv(\mathfrak{a}) \hookrightarrow W(\mathfrak{a})$, where, by the very definiton of invariant polynomials, it is closed: $d_{W(\mathfrak{a})} \omega = 0$.
+**Example.** In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section [On semisimple Lie algebras](#SemisimpLie)
 
-1. then we find an element $cs_\omega \in W(\mathfrak{a})$ with the property that $d_{W(\mathfrak{a})} cs_\omega = \omega$. This is guranteed to exist because $W(\mathfrak{a})$ has trivial cohomology.
+### Chern-Simons and curvature characteristic forms
 
-1. then we send this element $cs_\omega\in W(\mathfrak{a})$ along the restriction map $W(\mathfrak{a}) \to CS(\mathfrak{a})$ to an elemeent we call $\nu$.
+For $\mathfrak{g}$ a [[∞-Lie algebra|Lie n-alghebra]], let $\mathbf{B}G := \mathbf{cosk}_{n+1} \exp(\mathfrak{g})$ be the [[∞-Lie group]] obtained by [[Lie integration]] from it.
 
-The procedure is illustarted by the following diagram
+For $X$ a [[paracompact space|paracompact]] [[smooth manifold]] with [[good open cover]] $\{U_i \to X\}$ whose [[Cech nerve]] we write $C(U)$, a [[cocycle]] for a $G$-[[principal ∞-bundle]] on $X$ is cocycle with coefficients in the simplicial sheaf
+
+$$
+  \mathbf{B}G = 
+  \mathbf{cosk}_{n+1}((U,[k]) \mapsto \{ 
+     C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+     \leftarrow
+     CE(\mathfrak{g})
+  \})
+  \,.
+$$
+
+
+We say an $\infty$-connection on this is an extension to a cocycle with coefficients in the simplicial sheaf
+
+$$
+  \mathbf{B}G_{diff} = 
+  \mathbf{cosk}_{n+1}((U,[k]) \mapsto \left\{ 
+    \array{
+       C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+       &\leftarrow&
+       CE(\mathfrak{g})
+       &&& underlying \; cocycle
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^k)
+       &\stackrel{}{\leftarrow}&
+       W(\mathfrak{g})
+       &&&
+       connection
+     }
+  \right\}
+  \,.
+$$
+
+The diagrams on the left encode those $\mathfrak{g}$-valued forms on $U \times \Delta^k$ whose [[curvature]] vanishes on $\Delta^k$. One can show that one can always find a _genuine_ $\infty$-connection: one for which the curvatures have no leg along $\Delta^k$, in that they land in $\Omega^\bullet(U) \otimes C^\infty(\Delta^k)$. For tose the above diagram extends to
 
 $$
   \array{
-    0 && \omega &\leftarrow & \omega
-    \\
-    \;\;\uparrow^{\mathrlap{d_{CE(\mathfrak{a})}}}
-    &&
-    \;\;\uparrow^{\mathrlap{d_{W(\mathfrak{a})}}}
-    \\
-    \nu &\leftarrow& cs(\omega)
-    \\
-    \\
-    \\
-    \\
-    CE(\mathfrak{a})
-    &\leftarrow&
-    W(\mathfrak{a})
-    &\leftarrow&
-    inv(\mathfrak{a})    
-  }
+     C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+     &\leftarrow&
+     CE(\mathfrak{g})
+     &&& underlying \; cocycle
+     \\
+     \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^k)
+     &\stackrel{}{\leftarrow}&
+     W(\mathfrak{g})
+     &&&
+     connection
+     \\
+     \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U) \otimes C^\infty(\Delta^k)
+     &\leftarrow&
+     inv(\mathfrak{g})
+     &&&
+     curvature
+   }
+$$ 
+
+By [[pasting]]-postcomposition with the above diagrams for an invariant polynomial we obtain connections with values in $b^n \mathbb{R}$
+
 $$
+  \array{
+     C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+     &\leftarrow&
+     CE(\mathfrak{g})
+     &\stackrel{\mu}{\leftarrow}&
+     CE(b^{n-1}\mathbb{R})
+     &&& underlying \; cocycle
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^k)
+     &\stackrel{}{\leftarrow}&
+     W(\mathfrak{g})
+     &\stackrel{(cs,\langle- \rangle)}{\leftarrow}&
+     W(b^{n-1}\mathbb{R})
+     &&&
+     Chern-Simons forms
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U) \otimes C^\infty(\Delta^k)
+     &\leftarrow&
+     inv(\mathfrak{g})
+     &\stackrel{\langle -\rangle}{\leftarrow}&
+     CE(b^n \mathbb{R})
+     &&&
+     curvature\;characteristic\;form
+   }
+  \,,
+$$ 
 
-From the fact that all morphisms involved respect the differential and from the fact that the image of $\omega$ in $CE(\mathfrak{a})$ vanishes it follows that 
+where in the bottom row we have the [[curvature characteristic forms]] $\langle F_\nabla\rangle$ coresponding to the connection, and in the middle the corresponding [[Chern-Simons forms]].
 
-* this element $\nu$ satisfies $d_{CE(\mathfrak{a})} \nu = 0$, hence that it is an $\infty$-Lie algebroid cocycle.
-
-* any two different choices of $cs_\omega$ lead to cocylces $\mu$ that are cohomologous.
-
-We say $\nu$ is a cocycle _in transgression with_ $\omega$. 
-We may call $cs_{\omega}$ here a _Chern-Simons element_ of $\omega$. Because for $A : T X \to T \mathfrak{a}$ any collection of [[schreiber:∞-Lie algebroid valued differential forms]] coming dually from a dg-morphism $\Omega^\bullet(X) \leftarrow W(\mathfrak{a}) : A$ the image $\omega(A)$ of $\omega$ will be a curvature characteristic form and the image $cs_\omega(A)$ its corresponding Chern-Simons form. 
-
-In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section [On semisimple Lie algebras](#SemisimpLie)
-
+More details for the moment at [[schreiber:differential cohomology in an (∞,1)-topos -- examples]].
 
 
 ## Examples
