@@ -50,7 +50,6 @@ $$
 from isomorphism classes of topological $Spin$-principal bundles to 4th integral cohomology.
 
 If we assume that $X$ is a [[smooth manifold]] then we may consider the set
-
 $$
 Spin Bund(X)/\sim = H(X,\mathbf{B}G)
 $$
@@ -171,7 +170,7 @@ These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
 
-For $G,A$ [nLab:∞-group]]s in an [[nLab:∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="spring">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="spring">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
+For $G,A$ [[∞-group]]s in an [[∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="spring">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="spring">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
 
 For $G$ an ordinary [[nLab:Lie group]] regarded naturally as an object in $\mathbf{H} = $ [[nLab:?LieGrpd]], we show that the ordinary [[nLab:Chern-Weil homomorphism]] for $G$-[[nLab:principal bundle]]s may be understood as a concrete _model_ for this simple abstract situation, which applies to those characteristic classes $c$ that happen to be in the image of the [Lie intgeration of Lie algebra cocycles](spring).
 
