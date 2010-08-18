@@ -33,11 +33,11 @@ The main construction in ∞-Chern-Weil theory is a concrete _model_ or _present
 
 This model is build on concrete constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
 
-### Motivation and problems
+### Motivation {#Motivation}
 
 The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ through the whole _smooth_ [[Whitehead tower]] of $G$, which involves not just [[Lie group]]s but [[∞-Lie group]]s. Such an extension constitutes a refined cohomological invariant, in that it computes the intrinsic $G$-Chern-character, in a way that we describe [below](#ChernCharacter). 
 
-The need to consider this refined invariant arose in the study of the [[differential cohomology]] of [[string theory background]]s induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSI</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and ordinary [[differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ . This is a natural object in higher Chern-Weil theory.
+The need to consider this refined invariant arose in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSI</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and ordinary [[differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ . This is a natural object in higher Chern-Weil theory.
 
 The following restates this in more technical detail.
 
@@ -52,10 +52,10 @@ from isomorphism classes of topological $Spin$-principal bundles to 4th integral
 If we assume that $X$ is a [[smooth manifold]] then we may consider the set
 
 $$
-  Spin Bund(X)/\sim = H(X,\mathbf{B}G)$
+  Spin Bund(X)/\sim = H(X,\mathbf{B}G)
 $$
 
-of isomorphism classes of smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to ordinary [[differential cohomology]] $H_{diff}^4(X)$
+of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to ordinary [[differential cohomology]] $H_{diff}^4(X)$
 
 $$
   \frac{1}{2} \hat p_1 : H(X, \mathbf{B}Spin) \to H_{diff}^4(X)
@@ -68,7 +68,7 @@ $$
   \frac{1}{2} \hat p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
 
-of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth morphisms between these. And \mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are morphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
+of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth morphisms between these. And $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are morphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
 
 The additional information provided by this in particular allows to form the [[homotopy fiber]] of the refined characteristic class $\frac{1}{2} \hat p_1$. 
 To see the relevance of this, recall (from [[string structure]]) that the [[homotopy fiber]] of the unrefined fractional Pontryagin class, i.e. the [[(∞,1)-pullback]]
@@ -140,7 +140,7 @@ $$
   }
 $$
 
-is the [[8-groupoid|n-groupoid]] of smooth [[fivebrane structure]]s on $X$. Its differential refinement
+is the [[n-groupoid|8-groupoid]] of smooth [[fivebrane structure]]s on $X$. Its differential refinement
 
 $$
   \array{
