@@ -46,5 +46,16 @@ Conversely, assume $X$ is indecomposable.  Given $k \colon X \to \coprod_i U_i$,
 
 If $C$ is a [[presheaf category]] $[S^{op}, Set]$ (thus a [[Grothendieck topos]] and so _a fortiori_ (infinitary) extensive), then it is easy to see that the [[representable functors]] $S(-,s)$ are connected and so indecomposable.  Conversely, the objects of $[S^{op}, Set]$ that are indecomposable as well as [[projective object|projective]] are precisely the objects of the [[Cauchy completion]] of $S$.
 
+
+## Indecomposability vs irreducibility
+{#irreducible}
+
+An [[indecomposable representation]] is precisely an indecomposable object in an appropriate category $Rep$ of [[representations]], as one would expect.  In contrast, an [[irreducible representation]] is precisely a [[simple object]] in $Rep$.  Every irreducible representation is indecomposable, but the converse holds only in special situations (such as the category of finite-dimensional linear representations of a real semisimple Lie group).
+
+However, one level [[decategorified]], an [[irreducible element]] of a [[poset]] $P$ is precisely an indecomposable object of $P$ when thought of as a [[thin category]].  In contrast, a simple object is analogous to an [[atomic element]], although they are not the same thing.  (One might say that atomic = $0$-simple.)  Again, every atomic element is irreducible, but the converse holds only in special situations (such as the power set of any set).
+
+The bottom line is that 'irreducible' and 'indecomposable' sometimes mean the same thing but sometimes don\'t, and 'irreducible' doesn\'t even mean the same thing across different fields.
+
+
 [[!redirects indecomposable object]]
 [[!redirects indecomposable objects]]
