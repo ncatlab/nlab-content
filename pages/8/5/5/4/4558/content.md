@@ -34,6 +34,12 @@
 
 * [[differential cobordism cohomology]]
 
+## Higher nonabelian differential cohomology
+
+* [[∞-Chern-Weil theory]]
+
+  * [[∞-Lie algebra cohomology]], [[∞-Lie groupoid]]
+
 ## In physics
 
 * [[gauge theory]], [[gauge field]]
@@ -54,5 +60,5 @@
 
 
 
-[[!redirects cohomology – contents]]
+[[!redirects cohomology ? contents]]
 [[!redirects cohomology -- contents]]
