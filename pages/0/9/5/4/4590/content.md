@@ -46,9 +46,12 @@ Conversely, assume $X$ is indecomposable.  Given $k \colon X \to \coprod_i U_i$,
 
 If $C$ is a [[presheaf category]] $[S^{op}, Set]$ (thus a [[Grothendieck topos]] and so _a fortiori_ (infinitary) extensive), then it is easy to see that the [[representable functors]] $S(-,s)$ are connected and so indecomposable.  Conversely, the objects of $[S^{op}, Set]$ that are indecomposable as well as [[projective object|projective]] are precisely the objects of the [[Cauchy completion]] of $S$.
 
-[[Introduction to Higher-Order Categorical Logic|Lambek & Scott]] give a different definition of indecomposability.  Generalizing their definition slightly, we may say that an object $X$ is **indecomposable** (in the sense of Lambek--Scott) if any jointly epimorphic family $\{U_i \to X\}_i$ of arrows into $X$ contains at least one epimorphism $U_i \twoheadrightarrow X$, and moreover the unique arrow $0 \to X$ is not epic (this to ensure that 0 is not indecomposable).
 
-If the epi $U_i \twoheadrightarrow X$ is required to be [[regular epimorphism|regular]], then in an _extensive_ category the Lambek--Scott definition implies that given above: if $k \colon X \cong \coprod_i U_i$, then the family $\{k^{-1} \iota_i \colon U_i \to \coprod_i U_i \cong X\}_i$ is jointly epi, so it contains a regular epi $\iota_i k^{-1}$.  But extensivity implies that the $\iota_i$ are mono, and since isos are mono so is the composite $\iota_i k^{-1}$, hence it is iso.  The converse does not hold in general, but it does hold if $X$ is [[projective object|projective]].  See [this](http://mathoverflow.net/questions/35855/indecomposable-objects-in-a-category) MathOverflow thread for a discussion.
+## Lambek--Scott indecomposability
+
+[[Introduction to Higher-Order Categorical Logic|Lambek & Scott]] give a different definition of indecomposability.  Generalizing their definition slightly, we may say that an object $X$ is **indecomposable** (in the sense of Lambek--Scott) if any [[jointly epimorphic family]] $\{U_i \to X\}_i$ of arrows into $X$ contains at least one [[epimorphism]] $U_i \twoheadrightarrow X$, and moreover the unique arrow $0 \to X$ is not epic (this to ensure that $0$ is not indecomposable).
+
+If the epi $U_i \twoheadrightarrow X$ is required to be [[regular epimorphism|regular]], then in an _[[extensive category]]_ the Lambek--Scott definition implies that given above: if $k \colon X \cong \coprod_i U_i$, then the family $\{k^{-1} \iota_i \colon U_i \to \coprod_i U_i \cong X\}_i$ is jointly epic, so it contains a regular epi $\iota_i k^{-1}$.  But extensivity implies that each $\iota_i$ is a mono, and (since isos are monos) is the composite $\iota_i k^{-1}$, hence it is an iso.  The converse does not hold in general, but it does hold if $X$ is [[projective object|projective]].  See [this MathOverflow thread](http://mathoverflow.net/questions/35855/indecomposable-objects-in-a-category) for a discussion.
 
 
 ## Indecomposability vs irreducibility
