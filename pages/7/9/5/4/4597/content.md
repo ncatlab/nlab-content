@@ -50,6 +50,7 @@ $$
 from isomorphism classes of topological $Spin$-principal bundles to 4th integral cohomology.
 
 If we assume that $X$ is a [[smooth manifold]] then we may consider the set
+
 $$
 Spin Bund(X)/\sim = H(X,\mathbf{B}G)
 $$
