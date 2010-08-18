@@ -63,7 +63,7 @@ There are variations of this definition, with some technical differences in the 
 
 ### Examples
 
-* Differential integral cohomology $\bar H^\bullet(-,\mathbb{Z})$ is modeled by 
+* The [[ordinaty differential cohomology]] $\bar H^\bullet(-,\mathbb{Z})$ is modeled by 
 
   * [[Deligne cohomology]];
 
@@ -71,11 +71,13 @@ There are variations of this definition, with some technical differences in the 
  
   * higher circle [[bundle gerbe]]s with connection;
 
+  * [[circle n-bundles with connection]].
+
 * apart from that people studied mainly [[differential K-theory]].
 
 In [[physics]] differential cocycles model [[gauge theory|gauge fields]]. 
 
-* Cocycles in ordinary differential cohomology (e.g. [[Deligne cohomology]]) model
+* Cocycles in [[ordinary differential cohomology]] (e.g. [[Deligne cohomology]]) model
 
   * in degree 2: the [[electromagnetic field]] 
 
