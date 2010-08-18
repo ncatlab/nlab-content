@@ -37,9 +37,88 @@ The main construction in ∞-Chern-Weil theory is a concrete _model_ or _present
 
 This model is build on concrete constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
 
-### Motivation {#Motivation}
+## Motivation {#Motivation}
 
 The central motivation for the study of a higher generalization of ordinary [[Chern-Weil theory]] is the interest in extending the [[Chern-Weil homomorphism]] for a given [[Lie group]] $G$ through the whole _smooth_ [[Whitehead tower]] of $G$, which involves not just [[Lie group]]s but [[∞-Lie group]]s. Such an extension constitutes a refined cohomological invariant, in that it computes the intrinsic $G$-Chern-character, in a way that we describe [below](#ChernCharacter). 
+
+### Fractional differential classes
+
+Since $\infty$-Chern Weil theory handles [[characteristic class]]es on [[classifying space]]s more general than $\mathcal{B}G$ for $G$ an ordinary [[Lie group]], it handles refinements even of characteristic classes, before even passing to their differential refinement. We give some examples of such _fractional characteristic classes_ .
+
+It is a familiar classical fact that the first [[Pontryagin class]] 
+
+$$
+  p_1 : \mathcal{B}SO \to \mathcal{B}^4 \mathbb{Z}
+  \,,
+$$
+
+which represents the generator of the fourth [[integral cohomology]] of the [[classifying space]] $B SO$ of the [[special orthogonal group]] allows a division by 2 when pulled back one step along the [[Whitehead tower]], in that there is a [[commuting diagram]]
+
+$$
+  \array{
+     \mathcal{B} Spin &\stackrel{\frac{1}{2}p_1}{\to}& \mathcal{B}^4 \mathbb{Z}
+     \\
+     \downarrow && \downarrow^{\mathrlap{\cdot 2}}
+     \\
+     \mathcal{B} SO &\stackrel{p_1}{\to}& \mathcal{B}^4 \mathbb{Z}
+  }
+  \,,
+$$
+
+where the top horizonal morphism represents the generator of the 4th integral cohomology of the classifying space of the [[spin group]] and the right vertical morphism is induced by multiplication by 2 on the additive group of [[integer]]s.
+
+This means that for $X$ [[manifold]] with [[spin structure]] exhibited by a classifying map $\hat g$
+
+$$
+  \array{
+     && \mathcal{B} Spin &\stackrel{\frac{1}{2}p_1}{\to}& \mathcal{B}^4 \mathbb{Z}
+     \\
+     & {}^{\mathllap{\hat g}}\nearrow & \downarrow && \downarrow^{\mathrlap{\cdot 2}}
+     \\
+     X &\stackrel{g}{\to}& \mathcal{B} SO &\stackrel{p_1}{\to}& \mathcal{B}^4\mathbb{Z}
+  }
+$$
+
+of its [[tangent bundle]] $T X$, the characteristc class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $t X$ regarded as an $SO$-[[associated bundle]] contains less information then the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vajishes, while the latter need not.
+
+This familiar situation poses no problem to classical [[Chern-Weil theory]], because both the [[special orthogonal group]] as well as the [[spin group]] of course have canonical structures of [[Lie group]]s, so that the [[Chern-Weil homomorphism]] may be applied to either.
+
+But this is no longer the case as we keep climbing up the [[Whitehead tower]] of the [[orthogonal group]]. In the next step the second [[Pontryagin class]] $p_2 : \mathcal{B}SO \to \mathcal{B}^8 \mathbb{Z}$ may be divided by 6 when pulled back to the classifying space of the [[string group]] (<a href="http://ncatlab.org/schreiber/edit/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">SSSII</a>) 
+
+$$
+  \array{
+     \mathcal{B} String &\stackrel{\frac{1}{6}p_2}{\to}& \mathcal{B}^8 \mathbb{Z}
+     \\
+     \downarrow && \downarrow^{\mathrlap{\cdot 6}}
+     \\
+     \mathcal{B} SO &\stackrel{p_2}{\to}& \mathcal{B}^8 \mathbb{Z}
+  }
+  \,,
+$$
+
+As before, this means that if a space $X$ admits a [[string structure]], then the characteristic class $p_2(X)$ contains much less information then the fractional refinement $\frac{1}{6}p_2(X)$ that it admits. In particular, the former may vanish if for the degree 8 cohomology group of $X$ has 6-[[torsion]], while the latter need not vanish.
+
+For purposes of ordinary cohomology this is no problem, but for the differential refinement by ordinary [[Chern-Weil theory]] it is: the [[string group]] does not admit a [[Lie group]] structure (not a finite dimensional one at least, and an infinite dimensional one is not known) and hence standard [[Chern-Weil theory]] cannot produce the differential refinement of the fractional class $\frac{1}{6}p_2$.
+
+But $\infty$-Chern-Weil theory can: there is a natural smooth refinement of the [[string group]] to a [[Lie 2-group]]: the [[string 2-group]]. We write $\mathbf{B}String$ for the corresponding [[delooping]] [[∞-Lie groupoid]]. And the fractional second Pontryagin class does refine to a [[characteristic class]]
+
+$$
+  \frac{1}{6} : \mathbf{B}String \to \mathbf{B}^7 U(1)
+$$
+
+in $\mathbf{H} = $ [[?LieGrpd]]. And there we do have a differential refinement
+
+$$
+  \frac{1}{6}\hat p_2 : \mathbf{H}(-, \mathbf{B}String)
+  \to 
+  \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
+$$
+
+of this class to one with values in [[ordinary differential cohomology]]. 
+
+This kind of refinement we discuss in a bit more detail in the next section.
+
+### Higher differential string structures
 
 The need to consider this refined invariant arose in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSI</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and [[ordinary differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ . This is a natural object in higher Chern-Weil theory.
 
@@ -121,6 +200,8 @@ may be identified as the $\infty$-groupoid of _differential string-structures_ .
 
 * a choice of trivialization of this Chern-Simons 2-gerbe -- this is the [[homotopy]] [[2-morphism]] in the middle of the above pullback diagram.
 
+We may think of this as a refinement of [[secondary characteristic class]]es: the curvature form itself vanishes and so the [[Chern-Simons form]]-connection itself constitutes cohomological data.
+
 So far this uses mostly just a bit of [[(∞,1)-category theory]] or at least some [[homotopy theory]]. The first glimpse of something beyond ordinary [[Chern-Weil theory]] appearing is the $\infty$-groupoid $\mathbf{H}(X,\mathbf{B}String)$ which may be thought of as the [[3-groupoid]] of _smooth_ [[string 2-group]]-[[principal 2-bundle]]s.
 
 But suppose we fix an $X$ such that $H(X, \mathbf{B}String)$ is nontrivial. Then we can continue the procees to higher degrees:
@@ -177,6 +258,12 @@ is the 8-groupoid $Fivebrane_{diff}(X)$ of _differential fivebrane structures_ .
 These are the kinds of structures that naturally live in $\infty$-Chern-Weil theory. And this is only the second step in the [[Whitehead tower]] of the [[orthogonal group]]. There is an infinite tower of differential $(4k+1)$-brane structures above this, whose cocycles are given by $\infty$-connections on [[principal ∞-bundle]]s and their corresponding Chern-Simons circle $n$-bundles with connection. 
 
 These are the kind of structures that $\infty$-Chern-Weil theory studies.
+
+
+
+
+
+
 
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
@@ -1330,7 +1417,7 @@ $$
      && 
      \exp(\mathfrak{g} \to inn(\mathfrak{g}))/_{\sim_3,\mathbb{Z}}
      &\stackrel{\exp(\mu,P)}{\to}&
-     \exp(\mathfrak{b^2 \mathbb{R}} \to inn(b^2 \mathbb{R}))/_{\sim_3,\mathbb{Z}}
+     \exp(b^2 \mathbb{R} \to inn(b^2 \mathbb{R}))/_{\sim_3,\mathbb{Z}}
     &\to&
     \exp(* \to b^3 \mathbb{R})
     \\
