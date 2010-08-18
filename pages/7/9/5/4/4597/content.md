@@ -41,7 +41,132 @@ The need to consider this refined invariant arose in the study of the [[differen
 
 The following restates this in more technical detail.
 
-(...)
+For $G = Spin$ the [[spin group]], the first nontrivial [[characteristic class]] is the first fractional [[Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B}G \to K(\mathbb{Z}, 4)$ being a cocycle in ordinary [[integral cohomology]] $H^4(\mathcal{B}Spin, \mathbb{Z})$. This induces a map
+
+$$
+  H^1(X, Spin) = H(X, \mathcal{B}Spin) \to H^4(X, \mathbb{Z})
+$$
+
+from isomorphism classes of topological $Spin$-principal bundles to 4th integral cohomology.
+
+If we assume that $X$ is a [[smooth manifold]] then we may consider the set
+
+$$
+  Spin Bund(X)/\sim = H(X,\mathbf{B}G)$
+$$
+
+of isomorphism classes of smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to ordinary [[differential cohomology]] $H_{diff}^4(X)$
+
+$$
+  \frac{1}{2} \hat p_1 : H(X, \mathbf{B}Spin) \to H_{diff}^4(X)
+  \,.
+$$
+
+The first point of passing to a [[higher category theory]]-refinement of this situation is that it allows to refine, in turn, this morphism of cohomology _sets_ to a morphism
+
+$$
+  \frac{1}{2} \hat p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
+$$
+
+of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth morphisms between these. And \mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are morphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
+
+The additional information provided by this in particular allows to form the [[homotopy fiber]] of the refined characteristic class $\frac{1}{2} \hat p_1$. 
+To see the relevance of this, recall (from [[string structure]]) that the [[homotopy fiber]] of the unrefined fractional Pontryagin class, i.e. the [[(∞,1)-pullback]]
+
+$$
+  \array{
+     \mathbf{H}(X,\mathbf{B}String) &\to& * 
+     \\
+     \downarrow &\swArrow_\simeq& \downarrow
+     \\
+     \mathbf{H}(X,\mathbf{B}G) 
+     &\stackrel{\frac{1}{2} p_1}{\to}&
+     \mathbf{H}(X, \mathbf{B}^3 U(1))
+  }
+$$
+
+defines the $\infty$-groupoid $\mathbf{H}(X, \mathbf{B}String)$ of [[string structure]]s on $X$ (smooth, but not "differential").
+
+Accordingly, the [[∞-groupoid]] $String_{diff}(X)$ obtained this way as homotopy fiber of the differentially refined class, i.e. as the [[(∞,1)-pullback]]
+
+$$
+  \array{
+     String_{diff}(X) &\to& * 
+     \\
+     \downarrow &\swArrow_\simeq& \downarrow
+     \\
+     \mathbf{H}(X,\mathbf{B}G) 
+     &\stackrel{\frac{1}{2}\hat p_1}{\to}&
+     \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
+  }
+$$
+
+may be identified as the $\infty$-groupoid of _differential string-structures_ . A cocycle in there is naturally identified with a tuple consisting of
+
+* a smooth $Spin$-[[principal bundle]] $P \to X$;
+
+* with [[connection on a bundle|connection]] $\nabla$
+
+* the [[Chern-Simons 2-gerbe]] with connection $CS(\nabla)$ induced by this;
+
+* a choice of trivialization of this Chern-Simons 2-gerbe -- this is the [[homotopy]] [[2-morphism]] in the middle of the above pullback diagram.
+
+So far this uses mostly just a bit of [[(∞,1)-category theory]] or at least some [[homotopy theory]]. The first glimpse of something beyond ordinary [[Chern-Weil theory]] appearing is the $\infty$-groupoid $\mathbf{H}(X,\mathbf{B}String)$ which may be thought of as the [[3-groupoid]] of _smooth_ [[string 2-group]]-[[principal 2-bundle]]s.
+
+But suppose we fix an $X$ such that $H(X, \mathbf{B}String)$ is nontrivial. Then we can continue the procees to higher degrees:
+
+the next topological characteristic class is the second fractional [[Pontryagin class]] $\frac{1}{6}p_2 : \mathcal{B}String \to \mathcal{B}^7 U(1)$. Since the [[string group]] does not have the structure of a [[Lie group]], this cannot be refined to [[differential cohomology]] using ordinaty [[Chern-Weil theory]]. However, in terms of $\infty$-Chern-Weil theory it can:
+
+we may obtain a refinement
+
+$$
+  \frac{1}{6}\hat p_2 : \mathbf{H}(-\mathbf{B}String) \to 
+  \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
+$$
+
+that maps smooth [[string 2-group]]-[[principal 2-bundle]]s to their [Chern-Simons circle 7-bundle with connection](#FivebraneStructure). This is an example of the higher version of the [[Chern-Weil homomorphism]]. 
+
+And naturally we are then entitled to form its [[homotopy fiber]]s and produce the [[n-groupoid|8-groupoid]] of differential fivebrane structures $Fivebrane_{diff}(X)$. For that recall again from [[fivebrane structure]] that the homotopy fiber of the bare cocycles
+
+$$
+  \array{
+    \mathbf{H}(X, \mathbf{B}Fivebrane) &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow+
+    \\
+    \mathbf{H}(X, \mathbf{B}String) 
+    &\stackrel{\frac{1}{6}\hat p_2}{\to}&
+    \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))
+  }
+$$
+
+is the [[8-groupoid|n-groupoid]] of smooth [[fivebrane structure]]s on $X$. Its differential refinement
+
+$$
+  \array{
+    Fivebrane_{diff}(X) &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow+
+    \\
+    \mathbf{H}(X, \mathbf{B}String) 
+    &\stackrel{\frac{1}{6}\hat \hat p_2}{\to}&
+    \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))
+  }
+$$
+
+is the 8-groupoid $Fivebrane_{diff}(X)$ of _differential fivebrane structures_ . Cocycles in here are naturally identified with tuples of
+
+* a $String$-[[principal 2-bundle]] $P \to X$;
+
+* equipped with a [2-connection](#InfinityLieAlgebraConnection) $\nabla$;
+
+* the Chern-Simons circle 7-bundle $CS_7(\nabla)$ with connection induced by it;
+
+* a choice of trivialization of $CS_7(\nabla)$.
+
+These are the kinds of structures that naturally live in $\infty$-Chern-Weil theory. And this is only the second step in the [[Whitehead tower]] of the [[orthogonal group]]. There is an infinite tower of differential $(4k+1)$-brane structures above this, whose cocycles are given by $\infty$-connections on [[principal ∞-bundle]]s and their corresponding Chern-Simons circle $n$-bundles with connection. 
+
+These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
