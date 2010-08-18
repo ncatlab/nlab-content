@@ -1,6 +1,16 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
 This entry is about the article
 
-* [[Mike Hopkins]], I. Singer, [[Quadratic Functions in Geometry, Topology,and M-Theory]] ([arXiv](http://arxiv.org/abs/math.AT/0211216))
+* [[Mike Hopkins]], I. Singer, _Quadratic Functions in Geometry, Topology,and M-Theory_ ([arXiv](http://arxiv.org/abs/math.AT/0211216))
 
 on [[differential cohomology]], higher [[gauge field]]s appearing in [[string theory]] and their [[quantum anomaly|quantum anomalies]].
 
