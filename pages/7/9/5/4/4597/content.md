@@ -50,9 +50,8 @@ $$
 from isomorphism classes of topological $Spin$-principal bundles to 4th integral cohomology.
 
 If we assume that $X$ is a [[smooth manifold]] then we may consider the set
-
 $$
-  Spin Bund(X)/\sim = H(X,\mathbf{B}G)
+Spin Bund(X)/\sim = H(X,\mathbf{B}G)
 $$
 
 of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to ordinary [[differential cohomology]] $H_{diff}^4(X)$
