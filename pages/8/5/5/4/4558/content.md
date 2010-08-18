@@ -26,7 +26,9 @@
 
 ## Higher abelian differential cohomology
 
-* [[differential character]]s, [[Deligne cohomology]]
+* [[ordinary differential cohomology]]
+
+  * [[differential character]]s, [[Deligne cohomology]], [[circle n-bundle with connection]], [[bundle gerbe|bundle gerbe with connection]]
 
 * [[differential K-theory]]
 
