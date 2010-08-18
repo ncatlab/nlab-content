@@ -296,13 +296,13 @@ For $G$ a discrete group, write $V^G$ for the category of objects of $V$ equippe
 The category of **collections** of $V$ is
 
 $$
-  V Coll := \prod_{n \in \mathbb{N}} V^{\Sigma_n}
+  V Coll := \prod_{n \in \mathbb{N}} V^{S_n}
   \,.
 $$
 
 =--
 
-Notice that both $\Sigma_0$ and $\Sigma_1$ are the trivial group.
+Notice that both $S_0$ and $S_1$ are the trivial group.
 
 So a $V$-operad $P$ is a special $V$-collection with extra structure relating its components. This gives an evident [[forgetful functor]] $U : V Operad \to V Coll$ and its [[left adjoint]], the free operad functor
 
@@ -347,9 +347,9 @@ $$
 
 ### Examples
 
-Let $V$ be a [[cartesian monoidal category]] and $K = {*}$ the terminal collection, which is the [[terminal object]] in each degree, with, necessarily, trivial $\Sigma_n$-action.
+Let $V$ be a [[cartesian monoidal category]] and $K = {*}$ the terminal collection, which is the [[terminal object]] in each degree, with, necessarily, trivial $S_n$-action.
 
-The free operad on this should be the $V$-[[A-infinity operad]] it consists in degree $n$ of precisely $|\Sigma_n|$-operations per $n$-ary planar tree. So every planar $n$-ary tree is regarded by the operad as one distinct operation to multiply $n$ elements, and freely adjoining to each tree a $\Sigma_n$-action amounts to not dividing out any commutativity symmetry on these operations.
+The free operad on this should be the $V$-[[A-infinity operad]] it consists in degree $n$ of precisely $|S_n|$-operations per $n$-ary planar tree. So every planar $n$-ary tree is regarded by the operad as one distinct operation to multiply $n$ elements, and freely adjoining to each tree a $S_n$-action amounts to not dividing out any commutativity symmetry on these operations.
 
 Riemann surfaces operad (TO BE EXPANDED)
 
