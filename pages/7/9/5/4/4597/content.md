@@ -56,7 +56,7 @@ from isomorphism classes of topological $Spin$-principal bundles to 4th integral
 If we assume that $X$ is a [[smooth manifold]] then we may consider the set
 
 $$
-Spin Bund(X)/ \sim = H(X,\mathbf{B}G)
+Spin Bund(X)/ \sim = H(X,\mathbf{B}Spin)
 $$
 
 of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to [[ordinary differential cohomology]] $H_{diff}^4(X)$
@@ -66,13 +66,19 @@ $$
   \,.
 $$
 
-The first point of passing to a [[higher category theory]]-refinement of this situation is that it allows to refine, in turn, this morphism of cohomology _sets_ to a morphism
+The first point of passing to a [[higher category theory]]-refinement of this situation is that it allows to refine, in turn, these morphism of cohomology _sets_ to morphism
+
+$$
+  \frac{1}{2} p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
+$$
+
+and
 
 $$
   \frac{1}{2} \hat p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
 
-of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth morphisms between these. And $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are morphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
+of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth homomorphisms between these. Similarly $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>-[[principal ∞-bundles|principal 3-bundles]], while $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ is accordingly the [[n-groupoid|4-groupoid]] whose objects are  [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are homomorphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
 
 The additional information provided by this in particular allows to form the [[homotopy fiber]] of the refined characteristic class $\frac{1}{2} \hat p_1$. 
 To see the relevance of this, recall (from [[string structure]]) that the [[homotopy fiber]] of the unrefined fractional Pontryagin class, i.e. the [[(∞,1)-pullback]]
@@ -175,9 +181,9 @@ These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
 
-For $G,A$ [nLab:∞-group]]s in an [[nLab:∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="spring">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="spring">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
+For $G,A$ [nLab:∞-group]]s in an [[nLab:∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
 
-For $G$ an ordinary [[nLab:Lie group]] regarded naturally as an object in $\mathbf{H} = $ [[nLab:?LieGrpd]], we show that the ordinary [[nLab:Chern-Weil homomorphism]] for $G$-[[nLab:principal bundle]]s may be understood as a concrete _model_ for this simple abstract situation, which applies to those characteristic classes $c$ that happen to be in the image of the [Lie intgeration of Lie algebra cocycles](spring).
+For $G$ an ordinary [[nLab:Lie group]] regarded naturally as an object in $\mathbf{H} = $ [[nLab:?LieGrpd]], we show that the ordinary [[nLab:Chern-Weil homomorphism]] for $G$-[[nLab:principal bundle]]s may be understood as a concrete _model_ for this simple abstract situation, which applies to those characteristic classes $c$ that happen to be in the image of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie intgeration of Lie algebra cocycles</a>.
 
 More generally, this construction applies for $G$ an [[nLab:∞-Lie group]] with [[nLab:∞-Lie algebra]] $\mathfrak{g}$ and $c$ a characteristic class on $\mathbf{B}G$ that arises from Lie integration of a cocycle in the [[nLab:∞-Lie algebra cohomology]] of $\mathfrak{g}$.
 
@@ -345,9 +351,9 @@ We may identify cocycles with values in $\mathbf{B}G_{diff}$ as _(pseudo)-$\inft
 
 ### $\infty$-Lie algebra valued connections {#InfinityLieAlgebraConnection}
 
-We discuss now a generalization of the notion of [[nLab:connection on a bundle]] to [[∞-Lie algebroid valued differential forms|∞-Lie algebra valued connection]] on [[nLab:principal ∞-bundle]]s. It generalizes the notion of (pseudo-)connections on abelian $\infty$-bundles discussed [above](#AbGerbesConnection) and serves to interpolate from a principal $\infty$-bundle to its [[nLab:curvature characteristic form]]s and hence to implement the [∞-Chern-Weil homomorphism](#InfChernWeil).
+We discuss now a generalization of the notion of [[nLab:connection on a bundle]] to [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued connection]]s on [[nLab:principal ∞-bundle]]s. It generalizes the notion of (pseudo-)connections on abelian $\infty$-bundles discussed [above](#AbGerbesConnection) and serves to interpolate from a principal $\infty$-bundle to its [[nLab:curvature characteristic form]]s and hence to implement the [∞-Chern-Weil homomorphism](#InfChernWeil).
 
-From the discussion at [differential cohomology in an (∞,1)-topos -- Local connections](#spring) we have that these may be represented by cocycles with values in the presheaf of diagrams
+From the discussion at <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#Connections">differential cohomology in an (∞,1)-topos -- Local connections</a> we have that these may be represented by cocycles with values in the presheaf of diagrams
 
 $$
   \array{
@@ -1462,7 +1468,7 @@ $$
 
 =--
 
-In terms of just the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration in the above sense, this has been considered in [SatiSchreiberStasheffIII](spring). 
+In terms of just the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration in the above sense, this has been considered in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SatiSchreiberStasheffIII</a>. 
 
 For the case where the twist is given just by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[nLab:bundle gerbe]]s, has been given in ([Waldorf09](http://arxiv.org/PS_cache/arxiv/pdf/0906/0906.0117v1.pdf)).
 
