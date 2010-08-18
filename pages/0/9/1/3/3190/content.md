@@ -6,3 +6,5 @@
 
 
 category: people
+
+[[!redirects R. Bott]]
