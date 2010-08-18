@@ -12,6 +12,8 @@ Note that $0$ itself is *not* simple, as it has only *one* subobject.  It is [[t
 
 In [[constructive mathematics]], we want to phrase the definition as: a subobject of $X$ is $0$ if and only if it is not $X$.
 
+In an [[abelian category]] $C$, every morphism between simple objects is either a zero morphism or an isomorphism. If $C$ is also enriched in finite-dimensional vector spaces over an algebraically closed field, it follows that $\hom(X, Y)$ has dimension 0 or 1. 
+
 ## Examples ##
 
 * In the category [[Vect]] of [[vector spaces]] over some field $k$, the irreducible objects are precisely the [[line]]s: 1-dimensional vector spaces, i.e. $k$ itself, up to [[isomorphism]].
