@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -289,3 +304,5 @@ Its analog for sheaves, theorem 2.1 there, is due to
 * K. Brown, Gersten, ...
 
 That the local projective model structure (directly defined) is indeed the left Bousfield localization of the global projective model structure is lemma 4.3 there.
+
+[[!redirects local model structures on simplicial presheaves]]
