@@ -1,11 +1,27 @@
-A __family__ of things consists of an __index set__ $I$ (whose [[elements]] are the __indices__ of the family) and, for each index $k$, a thing $x_k$.  One can also speak of an __$I$-indexed family__ of things.
+The term 'family' is often used as a synonym for '[[collection]]' (especially in the sense of [[subset]]).  However, if we use it more precisely, then a __family__ of things consists of an __index set__ $I$ (whose [[elements]] are the __indices__ of the family) and, for each index $k$, a thing $x_k$.  One can also speak of an __$I$-indexed family__ of things.  An __[[ordered pair]]__ is a $2$-indexed family; an __[[infinite sequence]]__ is an $\mathbb{N}$-indexed family.
 
-As a whole, this family may be denoted $(x_k \;|\; k\colon I)$, $(x_k)_{k\colon I}$, $(x_k)_k$, $(x_k)$, $(x)$, or $x$.  Sometimes one sees braces used instead of parentheses, giving the same notation for a family as for a [[set]], although this is falling out of fashion.  Finally, instead of $k\colon I$, one can see the [[type]] of $k$ indicated using any other method, especially $k \in I$ (which ultimately derives from [[material set theory]]).
+As a whole, this family may be denoted $(x_k \;|\; k\colon I)$, $(x_k)_{k\colon I}$, $(x_k)_k$, or simply $x$.  Sometimes one sees braces used instead of parentheses, giving the same notation for a family as for a [[collection]], although this is falling out of fashion; the parentheses ultimately come from notation for [[ordered pairs]].  One can also use notation for [[functions]], such as $\lambda\, k\colon S.\; x_k$ or $(k \mapsto x_k)$.  Finally, instead of $k\colon I$, one can see the [[type]] of $k$ indicated using any other method, especially $k \in I$ (which ultimately derives from [[material set theory]]).
 
-Formally, a family of things should be distinguished from a [[collection]] of things; properly, it is the *[[image]]* of a family of things that is a collection, usually a [[subset]] of an appropriate ambient set of things.  On the other hand, often the difference between a family and a collection is unimportant, and the two may be used interchangeably.  (For example, one can take the *[[union]]* of either a family of subsets or a collection of subsets, with equivalent results; but one can only take the *sum* of a family of [[real numbers]].)
+Formally, a family of things should be distinguished from a [[collection]] of things; properly, it is the *[[image]]* of a family of things that is a collection, usually a [[subset]] of an appropriate ambient set of things.  On the other hand, often the difference between a family and a collection is unimportant, and the two may be used interchangeably.  (For example, one can take the [[union]] of either a family of subsets or a collection of subsets, with equivalent results; but one can take the sum of only a family of [[cardinal numbers]].)
 
 We have been vague about 'thing' so far.  The easiest case is when the things form a [[set]] $S$; then an $I$-indexed __family of elements__ of $S$ is simply a [[function]] to $S$ from $I$.  If things form a category $C$, then an $I$-indexed __family of objects__ of $C$ is a [[functor]] to $C$ from the [[discrete category]] on $I$, and an $I$-indexed __family of morphisms__ of $C$ is similarly a functor to the [[arrow category]] of $C$.
 
-In weak [[foundations]], it may be tricky to specify exactly what a [[family of sets]] is, if one cannot literally speak of a functor from a discrete category to [[Set]].  On the other hand, there is no difficulty in speaking of a __family of subsets__ of a given set $S$; this is simply a [[binary relation]] between $S$ and some index set $I$, writing $a \in x_k$ to denote that the $S$-element $a$ is related to the index $k$.
+In [[foundations]] without [[proper classes]], it may be tricky to specify exactly what a [[family of sets]] is, if one cannot literally speak of a functor from a discrete category to the [[large category]] [[Set]]; see the article.  On the other hand, there is no difficulty in speaking of a [[family of subsets]] of a given set; even in [[predicative mathematics]] (where one cannot speak of the [[power set]]), a __family of subsets__ of $S$ is simply a [[binary relation]] between $S$ and some index set $I$, writing $a \in x_k$ to denote that the $S$-element $a$ is related to the index $k$.
 
-In foundations where it makes sense, one should probably allow the indices of a family to form a [[preset]] in general.
+
+[[!redirects family]]
+[[!redirects families]]
+[[!redirects indexed family]]
+[[!redirects indexed families]]
+[[!redirects index set]]
+[[!redirects index sets]]
+[[!redirects index preset]]
+[[!redirects index presets]]
+
+[[!redirects family of elements]]
+[[!redirects families of elements]]
+
+[[!redirects family of objects]]
+[[!redirects families of objects]]
+[[!redirects family of morphisms]]
+[[!redirects families of morphisms]]
