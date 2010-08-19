@@ -79,7 +79,7 @@ $$
   }
 $$
 
-of its [[tangent bundle]] $T X$, the characteristc class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $t X$ regarded as an $SO$-[[associated bundle]] contains less information then the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vajishes, while the latter need not.
+of its [[tangent bundle]] $T X$, the characteristc class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $t X$ regarded as an $SO$-[[associated bundle]] contains less information then the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vanishes, while the latter need not.
 
 This familiar situation poses no problem to classical [[Chern-Weil theory]], because both the [[special orthogonal group]] as well as the [[spin group]] of course have canonical structures of [[Lie group]]s, so that the [[Chern-Weil homomorphism]] may be applied to either.
 
@@ -268,7 +268,7 @@ These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
 
-For $G,A$ [nLab:∞-group]]s in an [[nLab:∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
+For $G,A$ [[nLab:∞-group]]s in an [[nLab:∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
 
 For $G$ an ordinary [[nLab:Lie group]] regarded naturally as an object in $\mathbf{H} = $ [[nLab:?LieGrpd]], we show that the ordinary [[nLab:Chern-Weil homomorphism]] for $G$-[[nLab:principal bundle]]s may be understood as a concrete _model_ for this simple abstract situation, which applies to those characteristic classes $c$ that happen to be in the image of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie intgeration of Lie algebra cocycles</a>.
 
