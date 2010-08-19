@@ -2,9 +2,11 @@ Given an [[object]] $X$ in some [[category]], a family $(f_i\colon U_i \to X)_i$
 
 Dually, a family $(f_i\colon X \to U_i)_i$ of morphisms from $X$ is a __monic source__, or a __jointly monic family__ if, given any two morphisms $g, h\colon Y \to X$ such that $f_i \circ g = f_i \circ h$ for all $i$, it follows that $g = h$.
 
-A single morphism $U \to X$ or $X \to U$ is an [[epimorphism]] if and only it forms an epic sink by itself, and a [[monomorphism]] iff it forms a monic source by itself.  And the [[empty set|empty]] family of morphisms with domain $X$ is a monic source iff $X$ is a [[subterminal object]] (and dually).
+Sometimes we are interested only in [[small families]] of morphisms, but if so then it is best to say so explicitly.
 
-Finally, if the [[coproduct]] $\coprod_i U_i$ exists, then a family $(f_i\colon U_i \to X)_i$ is an epic sink iff the induced map $\coprod_i U_i \to X$ is an epimorphism (and dually).  Note, though, that in the definition of epic sink, the indexing family $\{i\}$ need not be [[small set|small]], so that even if the category is [[cocomplete category|cocomplete]] this coproduct might not exist.
+A single morphism $U \to X$ is an [[epimorphism]] if and only it forms an epic sink by itself; conversely, a sink $(f_i\colon U_i \to X)_i$ is epic iff the induced map $\coprod_i U_i \to X$ is an epimorphism, assuming that the [[coproduct]] $\coprod_i U_i$ exists.  (Note, though, that for a large family of morphisms, this coproduct might not exist even if the category has all small coproducts.)  Dual results hold for [[monomorphisms]] and [[products]].
+
+Finally, the [[empty family]] of morphisms with domain $X$ is a monic source iff $X$ is a [[subterminal object]] (and dually).
 
 
 [[!redirects epic sink]]
