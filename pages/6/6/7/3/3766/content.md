@@ -4,7 +4,7 @@ Liouville [[integrable systems]] can always be phrased in the form of a Lax pair
 
 The elliptic Calogero-Moser system is an example of Hitchin system. 
 
-For other purposes than integrable systems, e.g. in representation theory, one can consider Hitchin fibration over other ground fields. [[Alexander Beilinson]] and [[Vladimir Drinfeld]] have shown the importance of Hitchin fibration in the geometric Langlands program. Ngo (with Laumon) has studied a Hitchin fibration to prove an important step in Langlands program, so called Fundamental Lemma, which was conjectural from 1970-s and is one of the main mathematical discoveries in last decade. 
+For other purposes than integrable systems, e.g. in representation theory, one can consider Hitchin fibration over other ground fields. [[Alexander Beilinson]] and [[Vladimir Drinfeld]] have shown the importance of Hitchin fibration in the geometric Langlands program. Ng&#244; B&#7843;o Ch&#226;u (with Laumon) has studied a Hitchin fibration to prove an important step in Langlands program, so called Fundamental Lemma, which was conjectural from 1970-s and is one of the main mathematical discoveries in last decade. For this achievement, Ng&#244;  was awarded the Fields medal at ICM 2010 in Hyderabad ([link](http://www.icm2010.org.in/imu-prizes/prize-winners-2010/fields-medal-ngo-bao-chau)). 
 
 ## References and links
 
@@ -18,7 +18,7 @@ See also [[moduli space of bundles]].
 
 * A. Beilinson, V. Drinfeld, _Quantization of Hitchin's integrable system and Hecke eigensheaves_, [pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf)
 
-* Ngo Bao Chau, _Le lemme fondamental pour les algebres de Lie_, [arxiv/0806.4566](http://arxiv4.library.cornell.edu/abs/0806.4566)
+* Ng&#244; B&#7843;o Ch&#226;u, _Le lemme fondamental pour les algebres de Lie_, [arxiv/0806.4566](http://arxiv4.library.cornell.edu/abs/0806.4566)
 
 * Carlos T. Simpson, _Higgs bundles and local systems_, Publ. Math&#233;matiques de l'IH&#201;S, 75 (1992), p. 5-95, [numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0)
 
@@ -27,6 +27,8 @@ See also [[moduli space of bundles]].
 $n$POV to representation theoretic aspects in a special case is explored in 
 
 * David Nadler, _Springer theory via the Hitchin fibration_, [arxiv/0806.4566](http://arxiv.org/abs/0806.4566)
+
+* James Arthur, _The Work of Ng&#244; B&#7843;o Ch&#226;u_, Proc. ICM Hyderabad 2010, [pdf](http://www.icm2010.org.in/wp-content/icmfiles/laudaions/fields2.pdf)
 
 [[!redirects Hitchin system]]
 [[!redirects Hitchin integrable system]]
