@@ -1,0 +1,11 @@
+A __family__ of things consists of an __index set__ $I$ (whose [[elements]] are the __indices__ of the family) and, for each index $k$, a thing $x_k$.  One can also speak of an __$I$-indexed family__ of things.
+
+As a whole, this family may be denoted $(x_k \;|\; k\colon I)$, $(x_k)_{k\colon I}$, $(x_k)_k$, $(x_k)$, $(x)$, or $x$.  Sometimes one sees braces used instead of parentheses, giving the same notation for a family as for a [[set]], although this is falling out of fashion.  Finally, instead of $k\colon I$, one can see the [[type]] of $k$ indicated using any other method, especially $k \in I$ (which ultimately derives from [[material set theory]]).
+
+Formally, a family of things should be distinguished from a [[collection]] of things; properly, it is the *[[image]]* of a family of things that is a collection, usually a [[subset]] of an appropriate ambient set of things.  On the other hand, often the difference between a family and a collection is unimportant, and the two may be used interchangeably.  (For example, one can take the *[[union]]* of either a family of subsets or a collection of subsets, with equivalent results; but one can only take the *sum* of a family of [[real numbers]].)
+
+We have been vague about 'thing' so far.  The easiest case is when the things form a [[set]] $S$; then an $I$-indexed __family of elements__ of $S$ is simply a [[function]] to $S$ from $I$.  If things form a category $C$, then an $I$-indexed __family of objects__ of $C$ is a [[functor]] to $C$ from the [[discrete category]] on $I$, and an $I$-indexed __family of morphisms__ of $C$ is similarly a functor to the [[arrow category]] of $C$.
+
+In weak [[foundations]], it may be tricky to specify exactly what a [[family of sets]] is, if one cannot literally speak of a functor from a discrete category to [[Set]].  On the other hand, there is no difficulty in speaking of a __family of subsets__ of a given set $S$; this is simply a [[binary relation]] between $S$ and some index set $I$, writing $a \in x_k$ to denote that the $S$-element $a$ is related to the index $k$.
+
+In foundations where it makes sense, one should probably allow the indices of a family to form a [[preset]] in general.
