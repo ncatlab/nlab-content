@@ -18,6 +18,8 @@ Selected links and papers:
 
 * J. Kamnitzer, _Mirkovi&#263;-Vilonen cycles and polytopes_, Ann. Math. __171__ (2010), no. 1, 245&#8211;294, [pdf](http://annals.princeton.edu/annals/2010/171-1/annals-v171-n1-p04-p.pdf)
 
+* Croatian wikipedia [page](http://hr.wikipedia.org/wiki/Ivan_Mirkovi%C4%87)
+
 category: people
 
 [[!redirects Ivan Mirković]]
