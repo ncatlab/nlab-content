@@ -16,21 +16,20 @@ One normally writes the value of the sequence $a$ at the argument $i$ as $a_i$ r
 
 ## Generalisations
 
+### Nets
+
 Infinite sequences are often used in topology, but for topology in general, one needs to generalise to [[nets]], also called _Moore--Smith sequences_.  Here one replaces the domain $\mathbb{N}$ by any arbitrary [[direction|directed set]].
 
-Even for situations (such as metric spaces) where sequences classically suffice, the [[constructive mathematics|constructive]] definition of an infinite sequence in $X$ arguably should be a __sequential net__: a [[multi-valued function]] from $\mathbb{N}$ to $X$, that is a [[span]] $\mathbb{N} \leftarrow A \rightarrow X$ where the map $A \to \mathbb{N}$ is a [[surjection]].  (This is a special case of an alternative definition of [[net]] that uses only [[partially ordered]] directed sets.)  In some [[foundations]] of mathematics, you can get the same result by defining a sequential net to be a __presequence__: a [[prefunction]] (which is like a function but need not preserve [[equality]]) from $\mathbb{N}$.
 
-For example, every [[real number]] (defined as a located Dedekind cut) may be represented as a sequential Cauchy net, even when they might not all be represented as Cauchy sequences.  Many usual properties of [[metric spaces]] and other [[sequential spaces]] also hold constructively using sequential nets.
+### Sequential nets
 
-Why are sequential nets not commonly seen?  Using either [[excluded middle]] or [[countable choice]], every sequential net is equivalent as a net (in the sense that it has the same [[eventuality filter]]) to a sequence.  So for the purposes of [[topology]], at least, there is no added generality.  Most mathematicians accept at least one of the needed logical principles ($EM$ or $CC$), and most mathematicians that doubt one still accept the other, so this better concept (if indeed it is better) is not widely appreciated.  But there are [[toposes]], even widely studied ones, in which neither principle is valid.  (To be precise, the principle needed is [[weak countable choice]].)
+Recall that [[weak countable choice]] is a rather weak version of the [[axiom of choice]] that is accepted even in most schools of [[constructive mathematics]]; it follows separately from both [[excluded middle]] and [[countable choice]].  However, when it fails (as it does in the [[internal language]] of some widely studied [[toposes]], such as the [[topos of sheaves]] over the [[real line]]), then some important results about sequences fail, including many standard results in [[topology]].  In this case, we may want a slight generalisation that we call _sequential nets_.
 
-+--{: .query}
-[[Mike Shulman|Mike]]: I think that redefining a "sequence" to be a certain sort of net creates too much confusion relative to the potential gain.  If you want to use nets, you can just say "net."  If you want to work with the restricted sort of net whose order is induced by a surjection to $N$, then I would suggest introducing a new term for those, like $\omega$-net (since there is an obvious generalization replacing $\omega$ by any other ordinal).  But sequences are used all over the place in mathematics, not just in topology, and the meaning of "sequence" as "function defined on $N$" is so universal that I don't think one should mess with it.
+A __sequential net__ is a [[multi-valued function]] from $\mathbb{N}$ to $X$, that is a [[span]] $\mathbb{N} \leftarrow A \rightarrow X$ where the map $A \to \mathbb{N}$ is a [[surjection]].  Note that $A$ inherits the structure of a directed set via $A \to \mathbb{N}$, so that $A \to X$ is a net.  As a net, every sequential net is equivalent (in the sense of corresponding to the same [[filter]]) to some sequence, if you assume WCC.  Without WCC, however, this equivalence fails.
 
-_Toby_:  Of course you're right that we can't just change the definition in mathematics as a whole, only in those contexts where (considering the intended applications) this is equivalent (given WCC) to the standard one.  That this was my intent was hardly clear above, so I rewrote that.  I certainly can't just say 'net'; '$\omega$-net' might work, although I have a vague feeling that that already means something.  I usually say 'presequence' to myself, but that is from a chain of related terms that is hard to motivate in isolation.  'sequential net' might work.
+(Using a multi-valued function here is a special case of an alternative definition of [[net]] that uses only [[partially ordered]] directed sets; see [[net]].  In some [[foundations of mathematics]], we can get the same result by defining a sequential net to be a __presequence__: a [[prefunction]] $\mathbb{N}$, which is like a function but need not preserve [[equality]].)
 
-There is a bit of related stuff at [[net]] too, by the way.  I ought to get my own web here and use it to explain the foundations of mathematics from presets (type theory without identity types), where this comes naturally.
-=--
+Without WCC, many of the usual properties of [[metric spaces]] and other [[sequential spaces]] fail, but they continue to hold using sequential nets in the place of sequences.  For example, every (located Dedekind) [[real number]] may be represented as a sequential Cauchy net, even when they might not all be represented as Cauchy sequences; see [[Cauchy real number]].
 
 
 [[!redirects sequence]]
