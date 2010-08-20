@@ -5,9 +5,9 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 ***
 
 
-$\\\\eta _c\\\\left(\\\\text{Id}_c\\\\right)\\\\text{  }\\\\in \\\\text{  }X(c)$
+$\\eta_c\\left(\\text{Id}_c\\right)\\text{  }\\in \\text{  }X(c)$
 
-$\\\\eta _c\\\\left(\\\\text{Id}_c\\\\right) \\\\in  X(c)$
+$\\eta _c\\left(\\text{Id}_c\\right) \\in  X(c)$
 
 <math xmlns=\\\'http://www.w3.org/1998/Math/MathML\\\'
 
@@ -79,12 +79,12 @@ $\\\\eta _c\\\\left(\\\\text{Id}_c\\\\right) \\\\in  X(c)$
 
 This is the first equation (ever)
 
-\\\\[
-  1+1 = 2 \\\\label{first}
-  \\\\,.
-\\\\]
+\\[
+  1+1 = 2 \\label{first}
+  \\,.
+\\]
 
-What you have just witnessed was equation number.. \\\\eqref{first}.
+What you have just witnessed was equation number.. \\eqref{first}.
 
 
 ### Stacks
@@ -92,7 +92,7 @@ What you have just witnessed was equation number.. \\\\eqref{first}.
 This is a stack:
 
 $$
-  { {\\\\Omega^1} \\\\atop {\\\\oplus \\\\Omega^2}}
+  { {\\Omega^1} \\atop {\\oplus \\Omega^2}}
 $$
 
 (of symbols, that is).
@@ -113,7 +113,7 @@ $$
 <li>This is now item (7), automatically.</li></ol>
 <p>And that\\\'s the whole list!</p>
 
-Testing ... $\\\\int_{0}^{1} \\\\sin(3t) t^2 \\\\mathrm{d}t$.
+Testing ... $\\int_{0}^{1} \\sin(3t) t^2 \\mathrm{d}t$.
 
 {:l: style=\\\"float:left;width:4em; font-style:normal;\\\"}
 
@@ -121,7 +121,7 @@ Testing ... $\\\\int_{0}^{1} \\\\sin(3t) t^2 \\\\mathrm{d}t$.
 * *1.1*{:l} in
 * *2*{:l} order
 * *3.1*{:l} is
-* *3.2*{:l} markdown\\\'s
+* *3.2*{:l} markdown\\\\\\\'s
 * *3.3*{:l} way
 
 {:d: style=\\\"float:left; font-style:normal;\\\"}
@@ -140,7 +140,7 @@ Testing ... $\\\\int_{0}^{1} \\\\sin(3t) t^2 \\\\mathrm{d}t$.
 : is
 
 *3.2*{:d}
-: markdown\\\'s
+: markdown\\\\\\\'s
 
 *3.3*{:d}
 : way
