@@ -1,4 +1,3 @@
-
 # Contents
 * table of contents
 {: toc}
@@ -37,7 +36,7 @@ $$ O_{U, V} = \{f \in Y^X: U \ll f^{-1}(V)\} .$$
 
 If $X$ and $Y$ are Hausdorff, then this topology on $Y^X$ coincides with the [[compact-open topology]].
 
-### In terms of convergence
+### In terms of convergence {#ViaConvergence}
 
 Exponentiable (i.e. core-compact) spaces can also be characterized in terms of [[ultrafilter]] convergence.  Recall that a topological space can equivalently be defined as a [[lax algebra]] for the ultrafilter monad $U$ on the [[(1,2)-category]] [[Rel]] of sets and relations.  In other words, it consists of a set $X$ and a relation $R\colon U X \to X$ called "convergence", such that $id_X \subseteq R \circ \eta$ and $R\circ U R \subseteq R\circ \mu$, where $\eta$ and $\mu$ are the unit and multiplication of the ultrafilter monad, regarded as relations.  In the paper
 
