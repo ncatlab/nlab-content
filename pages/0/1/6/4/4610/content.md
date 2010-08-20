@@ -1,12 +1,8 @@
+
 A _sifted colimit_ is a [[colimit]] of a [[diagram]] $D \to C$ where $D$ is a [[sifted category]] (in analogy with a [[filtered colimit]], involving diagrams of shape a [[filtered category]]). Such limits commute with finite [[products]] in $Set$ by definition.
 
-+-- {: .query}
-Does this mean a colimit of a diagram $J\colon D \to C$ where $D$ has this property?
-
-[[David Roberts]]: Yes.
-=--
-
 A motivating example is a [[reflexive coequalizer]]. In fact, sifted colimits can "almost" be characterized as combinations of [[filtered colimits]] and reflexive coequalizers.
+
 
 ## References
 
