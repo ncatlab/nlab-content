@@ -8,7 +8,7 @@ A motivating example is a [[reflexive coequalizer]]. In fact, sifted colimits ca
 
 *  P. Gabriel and F. Ulmer, Lokal Pr&#228;sentierbare Kategorien, Springer LNM
 221, Springer-Verlag 1971
-*  J. Adamek, J. Rosicky, E.M. Vitale, _What are sifted colimits?_, TAC \textbf{23} (2010) pp. 251&#8211;260.
+*  J. Adamek, J. Rosicky, E.M. Vitale, _What are sifted colimits?_, TAC **23** (2010) pp. 251&#8211;260.
 
 
 [[!redirects sifted colimit]]
