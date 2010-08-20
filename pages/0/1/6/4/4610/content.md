@@ -1,13 +1,18 @@
-A sifted colimit is a [[colimit]] of a [[category]] $D$ where the [[diagonal functor]] $\Delta\colon D \rightarrow D \times D$ is [[final functor|final]]. Such limits commute with finite [[products]] in $Set$.
+A _sifted colimit_ is a [[colimit]] of a [[diagram]] $D \to C$ where $D$ is a [[sifted category]] (in analogy with a [[filtered colimit]], involving diagrams of shape a [[filtered category]]). Such limits commute with finite [[products]] in $Set$ by definition.
 
 +-- {: .query}
 Does this mean a colimit of a diagram $J\colon D \to C$ where $D$ has this property?
+
+[[David Roberts]]: Yes.
 =--
 
 A motivating example is a [[reflexive coequalizer]]. In fact, sifted colimits can "almost" be characterized as combinations of [[filtered colimits]] and reflexive coequalizers.
 
+## References
 
-*  J. Adamek. _What are sifted colimits?_
+*  P. Gabriel and F. Ulmer, Lokal Pr&#228;sentierbare Kategorien, Springer LNM
+221, Springer-Verlag 1971
+*  J. Adamek, J. Rosicky, E.M. Vitale, _What are sifted colimits?_, TAC \textbf{23} (2010) pp. 251&#8211;260.
 
 
 [[!redirects sifted colimit]]
