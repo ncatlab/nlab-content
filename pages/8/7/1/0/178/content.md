@@ -871,89 +871,6 @@ Also notice that the complex that defines $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)
 
 =--
 
-##### Intrinsic De Rham cohomology of $B^n U(1)$ {#DeRhamBnU(1)}
-
-+-- {: .un_prop }
-###### Proposition
-
-For $n \geq 1$ we have that the intrinsic de Rham cohomology of $\mathbf{B}^n U(1)$ in degree $(n+1)$ is $\mathbb{R}$. 
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We first observe that this statement would be easy to prove if we did not have to pass to a cofibrant [[resolution]] of $\mathbf{B}^n U(1)$ for computing the [[derived hom-space]] in the projectve [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,cov}$. For then we would compute, using the [above](#DifferentialBnU1) fibrant model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$
-
-$$
-  \begin{aligned}
-    & [CartSp^{op}, sSet](\;\;\Xi(C^\infty(-U(1))[n]), \;\;\Xi[\Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]\;\;)
-    \\
-    & \simeq
-    [CartSp^{op}, Ch_\bullet](\;\; N \Xi(C^\infty(-U(1))[n]), \;\;\Omega^1(-) \to \cdots \to \Omega^n_{cl}(-) \;\;)
-    \\
-    & \simeq
-    [CartSp^{op}, Ch_\bullet](\;\; C^\infty(-U(1))[n], \;\; \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-) \;\; )
-   \\
-    &\simeq
-    [CartSp^{op}, Ab](\;\; C^\infty(-,U(1)), \;\; \Omega^1(-) \;\;)
-  \end{aligned}
-  \,,
-$$
-
-where $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ is the [[Dold-Kan correspondence]] map.
-
-To see what this last set is, notice that if we forgot the abelian group structure, and looked at the last hom-set as one of sheaves, we find by the [[Yoneda lemma]] that is is the set $\Omega^1(U(1))$ of 1-forms. Among these the forms $\omega \in \Omega^1(U(1))$ that do respect the group structure are those such that for all $U \in CartSp$ and all $f,g : U \to U(1)$ we have
-
-$$
-  f^* \omega + g^* \omega = (f \cdot g)^* \omega
-  \,.
-$$
-
-A little reflection shows that this is satisfied precisely by the constant forms, i.e. those that are a linear multiple of the [[Maurer-Cartan form]] on $U(1)$. Hence the above hom-complex is indeed just
-
-$$
-  \cdots \simeq \mathbb{R}
-  \,.
-$$
-
-But $\mathbf{B}^n U(1)$ is not cofibrant in $[CartSp^{op}, sSet]_{proj}$. We will pass now to a cofibrant [[resolution]] and discuss that computing the homs out of that does nevertheless reduce to the above computation.
-
-By Dugger's <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement">construction of cofibrant replacements in the projective model structure</a> we have that a cofibrant replacement for a simplciial presheaf $A$ is given by the diagonal of the [[bisimplicial set|bisimplicial presheaf]] which in degree $(n,k)$ has
-
-$$
-  \coprod_{U_n \to U_{n-1} \to \cdots \to U_0 \to A_k} U_n
-  \,,
-$$
-
-where the coproduct ranges over all sequences of morphisms of representables $U_i \in CartSp$ into $A_k$. And face and degeneracy maps are the evident ones. 
-
-As a warmup, we discuss this first for $\mathbf{B}^1 U(1)$. Write $Q(\mathbf{B}^1 U(1)) \stackrel{\simeq}{\to} \mathbf{B}^n U(1)$ for the above cofibrant replacement. 
-
-Then a morphism $Q(\mathbf{B} U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ is a collection of horizontal morphisms in the diagram
-
-$$
-  \array{
-     \Delta[2] &\to& \coprod_{U_0 \to U_1 \to U:2 \to U(1)} \Omega^2_{cl}(U_0) \times \Omega^1(U_0)\times \Omega^1(U_0)
-     \\
-     \downarrow \downarrow \downarrow &&
-     \downarrow \downarrow \downarrow
-     \\
-     \Delta[1] &\to& \coprod_{U_0 \to U_1 \to U(1)} \Omega^2_{cl}(U_0) \times \Omega^1(U_0)
-     \\
-     \downarrow \downarrow &&
-     \downarrow \downarrow
-     \\
-     \Delta[0]
-     &\to&
-     \coprod_{U_0 \in CartSp} \Omega^2_{cl}(U_0)
-  }
-$$
-
-Now...
-
-
-=--
 
 
 #### Lie groups {#LieGroups}
@@ -3745,26 +3662,273 @@ the fibrant representative for $\mathbf{B}G$, effectively by defin&#238;tion.
 =--
 
 
-#### Flat Deligne cohomology
 
-Recall the expression for the fibrant representat&#238;ve of
-$\mathbf{\flat}\mathbf{B}^n U(1)$ from above.
 
-+-- {: .un_corollary}
-###### Corollary
+#### Intrinsic De Rham cohomology of $B^n U(1)$ {#DeRhamBnU(1)}
 
-For $X$ a [[paracompact space|paracompact]] [[smooth manifold]],
-we have that
+
+
++-- {: .un_prop }
+###### Proposition
+
+For $n \geq 1$ we have that the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic de Rham cohomology</a> of the <a href="BnU1">circle n-groupoid</a> $\mathbf{B}^n U(1)$ is concentrated in degree $(n+1)$, where it is  $\mathbb{R}$:
 
 $$
-  H(X, \mathbf{\flat} \mathbf{B}^n U(1))
-  \simeq
-  \hat H^n_{flat}(X,U(1))
+  H(\mathbf{B}^n, \mathbf{\flat}_{dR} \mathbf{B}^{k} U(1) )
+  =
+  \left\{
+    \array{
+       \mathbb{R} & for \; k = n+1
+       \\
+       0 & otherwise
+    }
+  \right.
 $$
-
-is the flat [[Deligne cohomology]] of $X$ in degree $n$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+We first observe that the statement in degree $n+1$ would be easy to prove if we did not have to pass to a cofibrant [[resolution]] of $\mathbf{B}^n U(1)$ for computing the [[derived hom-space]] in the projectve [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,cov}$. For then we would compute, using the [above](#DifferentialBnU1) fibrant model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$
+
+$$
+  \begin{aligned}
+    & [CartSp^{op}, sSet](\;\;\Xi(C^\infty(-U(1))[n]), \;\;\Xi[\Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]\;\;)
+    \\
+    & \simeq
+    [CartSp^{op}, Ch_\bullet](\;\; N \Xi(C^\infty(-U(1))[n]), \;\;\Omega^1(-) \to \cdots \to \Omega^n_{cl}(-) \;\;)
+    \\
+    & \simeq
+    [CartSp^{op}, Ch_\bullet](\;\; C^\infty(-U(1))[n], \;\; \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-) \;\; )
+   \\
+    &\simeq
+    [CartSp^{op}, Ab](\;\; C^\infty(-,U(1)), \;\; \Omega^1(-) \;\;)
+  \end{aligned}
+  \,,
+$$
+
+where $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ is the [[Dold-Kan correspondence]] map.
+
+To see what this last set is, notice that if we forgot the abelian group structure, and looked at the last hom-set as one of sheaves, we find by the [[Yoneda lemma]] that is is the set $\Omega^1(U(1))$ of 1-forms. Among these the forms $\omega \in \Omega^1(U(1))$ that do respect the group structure are those such that for all $U \in CartSp$ and all $f,g : U \to U(1)$ we have
+
+$$
+  f^* \omega + g^* \omega = (f \cdot g)^* \omega
+  \,.
+$$
+
+A little reflection shows that this is satisfied precisely by the constant forms, i.e. those that are a linear multiple of the [[Maurer-Cartan form]] on $U(1)$. Hence the above hom-complex is indeed just
+
+$$
+  \cdots \simeq \mathbb{R}
+  \,.
+$$
+
+But $\mathbf{B}^n U(1)$ is not cofibrant in $[CartSp^{op}, sSet]_{proj}$. We will pass now to a cofibrant [[resolution]] and discuss that computing the homs out of that does nevertheless reduce to the above computation.
+
+By Dugger's <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement">construction of cofibrant replacements in the projective model structure</a> we have that a cofibrant replacement for a simplciial presheaf $A$ is given by the diagonal of the [[bisimplicial set|bisimplicial presheaf]] which in degree $(n,k)$ has
+
+$$
+  \coprod_{U_n \to U_{n-1} \to \cdots \to U_0 \to A_k} U_n
+  \,,
+$$
+
+where the coproduct ranges over all sequences of morphisms of representables $U_i \in CartSp$ into $A_k$. And face and degeneracy maps are the evident ones. 
+
+As a warmup, we discuss this first for $\mathbf{B}^1 U(1)$. Write $Q(\mathbf{B}^1 U(1)) \stackrel{\simeq}{\to} \mathbf{B}^n U(1)$ for the above cofibrant replacement. 
+
+Then a morphism $Q(\mathbf{B} U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ is a collection of horizontal morphisms in the diagram
+
+$$
+  \array{
+     \Delta[2] &\to& \coprod_{U_0 \to U_1 \to U:2 \to U(1)} \Omega^2_{cl}(U_0) \times \Omega^1(U_0)\times \Omega^1(U_0)
+     \\
+     \downarrow \downarrow \downarrow &&
+     \downarrow \downarrow \downarrow
+     \\
+     \Delta[1] &\to& \coprod_{U_0 \to U_1 \to U(1)} \Omega^2_{cl}(U_0) \times \Omega^1(U_0)
+     \\
+     \downarrow \downarrow &&
+     \downarrow \downarrow
+     \\
+     \Delta[0]
+     &\to&
+     \coprod_{U_0 \in CartSp} \Omega^2_{cl}(U_0)
+  }
+$$
+
+Explicitly, such a cocycle is
+
+* a collection $\{\lambda_{U} \in \Omega^2_{cl}(U) | U \in CartSp\}$;
+
+* a collection $\{\omega_{U_0 \to U_1 \to U(1)} \in \Omega^1(U_9)\}$ 
+
+such that 
+
+* for all $f : U_0 \to U_1$ we have
+  $f^* \lambda \lambda_{U_1}  = 
+  \lambda_{U_0} + \omega_{U_0 \stackrel{f}{\to} U_1 \to U(1)}$;
+
+* for all $U_0 \stackrel{f}{\to} U_1 \to U_2 \to U(1)\times U(1)$ we have
+  
+  $$
+    \omega_{U_0 \to U_1 \to U(1)\times U(1) \stackrel{p_1}{\to} U(1)}
+    + 
+    f^* \omega_{U_1 \to U_2 \to U(1) \times U(1) \stackrel{p_2}{\to} U(1)}
+    =
+    \omega_{U_0 \to U_2 \to U(1) \times U(1) \stackrel{\cdot}{\to} U(1)}
+  $$
+
+* for all $U$ we have $\omega_{U \stackrel{Id}{\to} U \to \stackrel{e}{\to} U(1)} = 0$.
+
+A coboundary between two such cocycles is 
+
+* for all $U \in CartSp$ a $\kappa_U \in \Omega^1(U)$
+
+such that
+
+* $\lambda'_U = \lambda_U + d \kappa_U$;
+
+* $\omega'_{U_0 \stackrel{f}{\to} U_1 \to U(1)} = \omega_{U_0 \stackrel{f}{\to} U_1 \to U(1)} + f^* \kappa_{U_1} - \kappa_{U_0}$.
+
+We claim that any such cocycle $(\lambda,\omega)$ is coboundant to 
+one such that
+
+* for all $U$ we have $\lambda_U = 0$;
+
+* for all $U_0 \stackrel{f}{\to} U(1)$ we have 
+  $\omega_{U_0 \stackrel{f}{\to} U_1 \stackrel{e}{\to} U(1)} = 0$.
+
+The coboundary establishing this is given by setting
+
+$$
+  \kappa_U := \omega_{U \to * \stackrel{e}{\to} U(1)}
+  \,.
+$$ 
+
+This follows from the cocycle law for for maps of the form 
+
+$$
+  \array{
+    && U_1
+    \\
+    & {}^{\mathrlap{f}}\nearrow && \searrow
+    \\
+    U_0 &&\to&& *
+    \\
+    & {}_{\mathllap{const_{e,e}}}\searrow && \swarrow_{\mathrlap{const_{e,e}}}
+    \\
+    &&
+    U(1) \times U(1)
+  }
+$$
+
+which asserts that
+
+$$
+  \omega_{U_0 \stackrel{f}{\to} U_1 \stackrel{e}{\to} U(1)}
+  =
+  \omega_{U_0 \to * \stackrel{e}{\to} U(1)}
+  -
+  f^* \omega_{U_1 \to * \stackrel{e}{\to} U(1)}
+  \,.
+$$
+
+Moreover we claim that such cocycles with $\lambda_U = 0$ for all $U$ and $\omega_{U_0 \to U_1 \stackrel{e}{\to} U(1)}$ for all $U_0 \stackrel{f}{\to} U_1$ have no nontrivial automorphisms. Because such an automorphism would be given by a collection $\kappa_U \in \Omega^1_{cl}(U)$ of closed 1-forms for each $U \in CartSp$, such that in particular for all $U_0 \stackrel{f}{\to} U_1 $ we'd have
+$\kappa_{U_0} = f^* \kappa_{U_1}$. Clearly for any choice of $\kappa_U$s, one can find $f$ such that this is not satisfied.
+
+This shows that the cohomology in question is the set of cocycles as above, satisfying the two extra constraints. Now using the cocycle law for the diagram
+
+$$
+  \array{
+    && U_0
+    \\
+    & {}^{\mathllap{Id}}\nearrow && \searrow^{\mathrlap{f}}
+    \\
+    U_0 &&\to&& U_1
+    \\
+    & {}_{(h,const_e)}\searrow && \swarrow_{\mathrlap{(g,const_e)}}
+    \\
+    &&
+    U(1) \times U(1)
+  }
+$$
+
+we find 
+
+$$
+  \omega_{U_0 \stackrel{f}{\to} U_1 \to U(1)}
+  =
+  \omega_{U_0 \stackrel{Id}{\to} U_0 \to U(1)}
+  + 
+  \omega_{U_0 \stackrel{f}{\to} U_1 \stackrel{e}{\to} U(1)}
+$$
+
+and using it for
+
+$$
+  \array{
+    && U_1
+    \\
+    & {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{Id}}
+    \\
+    U_0 &&\to&& U_1
+    \\
+    & {}_{(const_e,h)}\searrow && \swarrow_{\mathrlap{(const_e,g)}}
+    \\
+    &&
+    U(1) \times U(1)
+  }
+$$
+
+we find
+
+$$
+  \omega_{U_0 \stackrel{f}{\to} U_1 \to U(1)}
+  =
+  \omega_{U_0 \stackrel{f}{\to} U_1 \stackrel{e}{\to} U(1)}
+  + 
+  f^* \omega_{U_1 \stackrel{Id}{\to} U_1 \to U(1)}
+  \,.
+$$
+
+In view of the above gauge condition this is equivalently
+
+$$  
+  \omega_{U_0 \stackrel{f}{\to} U_1 \to U(1)}
+  =
+  \omega_{U_0 \stackrel{Id}{\to} U_0 \to U(1)}
+  =
+  f^* \omega_{U_1 \stackrel{Id}{\to} U_1 \to U(1)}  
+  \,.
+$$
+
+This says that $\omega_{U_0 \stackrel{f}{\to} U_1 \to U(1)} =: \omega_{U_0 \to U(1)}$ in fact only depends on the domain of $f$, hence only on the map $h : U_0 \to U(1)$ and that as such these forms constitute the components of a morphism of sheaves
+
+$$
+  C^\infty(-,U(1)) \to \Omega^1(-)
+  \,.
+$$
+
+But this means that the cocycle $Q(\mathbf{B}U(1)) \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ indeed factors through $Q(\mathbf{B}U(1)) \to \mathbf{B}U(1)$ and therefore the naive computation at the beginning indeed applies and shows that these cocycle are in bijection with multiples of the standard [[Maurer-Cartan form]] on $U(1)$, hence with $\mathbb{R}$, so that
+
+$$
+  H(\mathbf{B}U(1), \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)) = 
+  \mathbb{R}
+  \,.
+$$
+
+The same kind of argument as above shows that for $k \geq 2$ cocycles $Q(\mathbf{B}U(1)) \to \mathbf{\flat}_{dR}\mathbf{B}^k U(1)$ have underlying them sheaf morphisms $C^\infty(-,U(1)) \to \Omega^{k-1}(-)$. But all these are necessarily trivial, due to the fact that $U(1)$ is 1-dimensional. Finally the same argument that above showed that no nontrivial automorphisms of certain cocycles exist shows that no nontrivial morphisms $Q(\mathbf{B} U(1)) \to \mathbf{\flat}_{dR} \mathbf{B}U(1)$ exist.
+
+This establishes the theorem for the de Rham cohomology of $\mathbf{B} U(1)$. We now need to argue that for $\mathbf{B}^n U(1)$ with $n \gt 1$ the analogous reasoning applies
+
+(...) 
+
+=--
+
+
+
+
 
 #### Flat nonabelian cohomology
 
@@ -3790,7 +3954,9 @@ is the flat [[nonabelian cohomology]] of $X$ with coefficients in $G$.
 
 =--
 
+#### Differential cohomology with coefficients in $B^n U(1)$
 
+See [[circle n-bundle with connection]].
 
 
 ## The infinitesimally thickened $(\infty,1)$-topos $\infty$-Lie groupoids and $\infty$-Lie algebroids {#InfSheavesOnCartSp}
