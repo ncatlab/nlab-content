@@ -3671,10 +3671,10 @@ the fibrant representative for $\mathbf{B}G$, effectively by defin&#238;tion.
 +-- {: .un_prop }
 ###### Proposition
 
-For $n \geq 1$ we have that the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic de Rham cohomology</a> of the <a href="BnU1">circle n-groupoid</a> $\mathbf{B}^n U(1)$ is concentrated in degree $(n+1)$, where it is  $\mathbb{R}$:
+For $n \geq 1$ we have that the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic de Rham cohomology</a> of the <a href="BnU1">circle n-groupoid</a> $\mathbf{B}^n U(1)$ in $\mathbf{H} = \infty LieGrpd$ is concentrated in degree $(n+1)$, where it is  $\mathbb{R}$:
 
 $$
-  H(\mathbf{B}^n, \mathbf{\flat}_{dR} \mathbf{B}^{k} U(1) )
+  H(\mathbf{B}^n U(1), \mathbf{\flat}_{dR} \mathbf{B}^{k} U(1) )
   =
   \left\{
     \array{
@@ -3684,6 +3684,29 @@ $$
     }
   \right.
 $$
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+By the discussion at [circle n-group -- differential coefficients](#DifferentialBnU1) above, we have that $\mathbf{\flat}_{dR} \mathbf{B}^k U(1) \simeq \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}$, reflecting the familiar fact that since $Lie(U(1)) \simeq Lie(\mathbb{R})$ we have that $Lie(U(1))$-valued forms are naturally identified with plain $\mathbb{R} = Lie(\mathbb{R})$-valued forms. Therefore the above may equivalently be restated as
+
+$$
+  H^{k}_{dR}(\mathbf{B}^n U(1))
+  :=
+  H(\mathbf{B}^n U(1), \mathbf{\flat}_{dR} \mathbf{B}^{k} \mathbb{R} )
+  =
+  \left\{
+    \array{
+       \mathbb{R} & for \; k = n+1
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
 
 =--
 
@@ -3710,7 +3733,7 @@ $$
 
 Here we use that since $\mathbf{\flat}_{dR}$ is a [[right adjoint]], it commutes with forming [[loop space object]]s.
 
-The main work is involved in establishing the statement for $k = n+1 = 2$, which we now spell out.
+Using this, the main work in proving the theorem is involved in establishing the statement for $k = n+1 = 2$, which we now spell out.
 We note that this would be easy to prove if we did not have to pass to a cofibrant [[resolution]] of $\mathbf{B}^n U(1)$ for computing the [[derived hom-space]] in the projectve [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,cov}$. For then we would compute, using the [above](#DifferentialBnU1) fibrant model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$
 
 $$
@@ -3756,7 +3779,7 @@ $$
 
 where the coproduct ranges over all sequences of morphisms of representables $U_i \in CartSp$ into $A_k$. And face and degeneracy maps are the evident ones. 
 
-So we prove now that the computation of $\mathbf{H}(\mathbf{B}U(1), \mathbf{\flat}_{dR}\mathbf{B}^2 U(1))$ does reduce to this computation. Write $Q(\mathbf{B}^1 U(1)) \stackrel{\simeq}{\to} \mathbf{B}^n U(1)$ for the above cofibrant replacement. 
+So we prove now that the computation of $\mathbf{H}(\mathbf{B}U(1), \mathbf{\flat}_{dR}\mathbf{B}^2 U(1))$ does reduce to the above computation of morphisms out of $\mathbf{B}U(1)$. Write $Q(\mathbf{B}^1 U(1)) \stackrel{\simeq}{\to} \mathbf{B}^n U(1)$ for the above cofibrant replacement. 
 
 Then a morphism $Q(\mathbf{B} U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ is a collection of horizontal morphisms in the diagram
 
@@ -3855,8 +3878,8 @@ $$
   \,.
 $$
 
-Moreover we claim that such cocycles with $\lambda_U = 0$ for all $U$ and $\omega_{U_0 \to U_1 \stackrel{e}{\to} U(1)}$ for all $U_0 \stackrel{f}{\to} U_1$ have no nontrivial automorphisms. Because such an automorphism would be given by a collection $\kappa_U \in \Omega^1_{cl}(U)$ of closed 1-forms for each $U \in CartSp$, such that in particular for all $U_0 \stackrel{f}{\to} U_1 $ we'd have
-$\kappa_{U_0} = f^* \kappa_{U_1}$. Clearly for any choice of $\kappa_U$s, one can find $f$ such that this is not satisfied.
+Moreover we claim that such cocycles with $\lambda_U = 0$ for all $U$ and $\omega_{U_0 \to U_1 \stackrel{e}{\to} U(1)}$ for all $U_0 \stackrel{f}{\to} U_1$ have no nontrivial morphisms between them, which means that these do constitute unique representatives of their cohomology classes. This is because such a morphism would be given by a collection $\kappa_U \in \Omega^1_{cl}(U)$ of closed 1-forms for each $U \in CartSp$, such that in particular for all $U_0 \stackrel{f}{\to} U_1 $ we'd have
+$\kappa_{U_0} = f^* \kappa_{U_1}$. Clearly for any choice of $\kappa_U$s, one can find $f$ such that this is not satisfied. For instance simply take $f : U \to *$, which imposes the relation $\kappa_U = 0$ explicitly.
 
 This shows that the cohomology in question is the set of cocycles as above, satisfying the two extra constraints. Now using the cocycle law for the diagram
 
