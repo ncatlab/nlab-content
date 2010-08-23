@@ -109,7 +109,7 @@ $$
 in $\mathbf{H} = $ [[?LieGrpd]]. And there we do have a differential refinement
 
 $$
-  \frac{1}{6}\hat p_2 : \mathbf{H}(-, \mathbf{B}String)
+  \frac{1}{6}\hat p_2 : \mathbf{H}_{conn}(-, \mathbf{B}String)
   \to 
   \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
 $$
@@ -148,13 +148,13 @@ $$
 The first point of passing to a [[higher category theory]]-refinement of this situation is that it allows to refine, in turn, these morphism of cohomology _sets_ to morphism
 
 $$
-  \frac{1}{2} p_1 : H(X, \mathbf{B}Spin) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
+  \frac{1}{2} p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
 $$
 
 and
 
 $$
-  \frac{1}{2} \hat p_1 : H(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
+  \frac{1}{2} \hat p_1 : \mathbf{H}_{conn}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
 
 of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth homomorphisms between these. Similarly $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>-[[principal ∞-bundles|principal 3-bundles]], while $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ is accordingly the [[n-groupoid|4-groupoid]] whose objects are  [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are homomorphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
@@ -184,7 +184,7 @@ $$
      \\
      \downarrow &\swArrow_\simeq& \downarrow
      \\
-     H(X,\mathbf{B}G) 
+     \mathbf{H}(X,\mathbf{B}G) 
      &\stackrel{\frac{1}{2}\hat p_1}{\to}&
      \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
   }
@@ -211,7 +211,7 @@ the next topological characteristic class is the second fractional [[Pontryagin 
 we may obtain a refinement
 
 $$
-  \frac{1}{6}\hat p_2 : H(-\mathbf{B}String) \to 
+  \frac{1}{6}\hat p_2 : \mathbf{H}_{conn}(-\mathbf{B}String) \to 
   \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
 $$
 
@@ -239,7 +239,7 @@ $$
     \\
     \downarrow &\swArrow_{\simeq}& \downarrow+
     \\
-    H(X, \mathbf{B}String) 
+    \mathbf{H}_{conn}(X, \mathbf{B}String) 
     &\stackrel{\frac{1}{6}\hat \hat p_2}{\to}&
     \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))
   }
@@ -512,17 +512,17 @@ $$
 +-- {: .un_remark }
 ###### Remark
 
-For given $U,[k]$ the commuting diagram of [[nLab:dg-algebra]] morphism encodes a collection of [[∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] on $U \times\Delta^k$ such that their [[curvature]] forms have no components with all legs on $\Delta^k$.
+For given $U,[k]$ the commuting diagram of [[nLab:dg-algebra]] morphism encodes a collection of [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] on $U \times\Delta^k$ such that their [[curvature]] forms have no components with all legs on $\Delta^k$.
 
 =--
 
 +-- {: .un_def }
 ###### Definition
-**(coefficient for genuine $\infty$-Lie algebra valued connections)**
+**(coefficient for $\infty$-Lie algebra valued connections)**
 
 Write $\mathbf{B}G_{conn} \hookrightarrow \mathbf{B}G_{diff}$
 for the sub-presheaf assigning to $(U,[k])$ only those 
-[[∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] whose [[curvature]] forms have _no_ leg along $\Delta^n$.
+[[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] whose [[curvature]] forms have _no_ leg along $\Delta^n$.
 
 This are those morphisms of [[nLab:dg-algebra]]s $\Omega^\bullet(U \times \Delta^k) \leftarrow W(\mathfrak{g})$ such that the underlying morphism of graded algebras fits into a diagram
 
@@ -615,6 +615,17 @@ $$
 
 Such $\infty$-Lie algebra valued connection data was introduced and studied in (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">SSSI</a>).
 
++-- {: .un_def }
+###### Definition
+
+We write
+
+$$
+  \mathbf{H}_{conn}(-, \mathbf{B}G) := \mathbf{H}(-, \mathbf{B}G_{conn})
+  \,.
+$$
+
+=--
 
 ### Curvature characteristics {#InfChernWeil}
 
@@ -748,7 +759,7 @@ In $\mathbf{H} = $ [[nLab:?LieGrpd]] over a [[nLab:paracompact space|paracompact
 
 By the assumptions on $X$, there is a [[nLab:good open cover]] $\{U_i \to X\}$ and a [[nLab:partition of unity]] $(\rho_i \in C^\infty(U_i))$ subordinate to that cover. 
 
-Let $C(\{U_i\})$ be the [[nLab:Cech nerve]] of the cover and let $g : C(\{U_i\}) \to cosk_{n+1} \exp(\mathfrak{g})$ be a cocycle for the given $G$-principal $\infty$-bundle on $X$. This is given by a collection of [[∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]]
+Let $C(\{U_i\})$ be the [[nLab:Cech nerve]] of the cover and let $g : C(\{U_i\}) \to cosk_{n+1} \exp(\mathfrak{g})$ be a cocycle for the given $G$-principal $\infty$-bundle on $X$. This is given by a collection of [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]]
 
 $$
   ( C^\infty(U_{i_0, \cdots i_k})\otimes \Omega^\bullet(\Delta^k) 
@@ -817,7 +828,7 @@ We will now use this existence of $\infty$-connections to make a statement on pr
 ### Chern character {#ChernCharacter}
 
 
-Above we have considered [∞-Lie algebra valued connections](#InfinityLieAlgebraConnection) and their [curvature characteristic forms](#InfChernWeil). We now wish to show how these model the intrinsic [[Chern character in an (∞,1)-topos]].
+Above we have considered [∞-Lie algebra valued connections](#InfinityLieAlgebraConnection) and their [curvature characteristic forms](#InfChernWeil). We now wish to show how these model the intrinsic [[schreiber:Chern character in an (∞,1)-topos]].
 
 $$
   ch_{\mathbf{B}G} : \mathbf{B}G \to \mathbf{\Pi}(\mathbf{B}G) \to \mathbf{\Pi}(\mathbf{B}G)\otimes R
@@ -1198,7 +1209,7 @@ So far this is at the level of cohomology classes. If we lift the classification
 
 $$
   \frac{1}{2}\hat p_1 :
-  \mathbf{H}(X,\mathbf{B}Spin)
+  \mathbf{H}_{conn}(X,\mathbf{B}Spin)
   \to 
   \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
@@ -1221,7 +1232,7 @@ $$
     \\
     \downarrow &{}^{\simeq}& \downarrow
     \\
-    \mathbf{H}(X,\mathbf{B}Spin(n)) &\to& \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
+    \mathbf{H}_{conn}(X,\mathbf{B}Spin(n)) &\to& \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
   }
   \,.
 $$
@@ -1239,7 +1250,7 @@ $$
     \\
     \downarrow &{}^{\simeq}& \downarrow
     \\
-    \mathbf{H}(X,\mathbf{B}Spin(n)) &\to& \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
+    \mathbf{H}_{conn}(X,\mathbf{B}Spin(n)) &\to& \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
   }
 $$
 
@@ -1289,7 +1300,7 @@ $$
   \frac{1}{6}\hat p_2 : 
   \mathbf{H}(X,\mathbf{B}String)
   \to
-  \maathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
+  \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
 $$
 
 of $\infty$-groupoids of cocycles, whose [[nLab:homotopy fiber]]s are
@@ -1302,7 +1313,7 @@ $$
     \downarrow && \downarrow
     \\
     \mathbf{H}(X,\mathbf{B}String)
-    &\stackrel{frac{1}{6}\hat p_2}{\to}&
+    &\stackrel{\frac{1}{6}\hat p_2}{\to}&
     \mathbf{H}(X,\mathbf{B}^7 U(1))
   }
   \,.
@@ -1509,7 +1520,7 @@ This composite morphism is a model for the differential cohomology refinement
 
 $$
   \frac{1}{2}\hat p_1 : 
-  \mathbf{H}(-,\mathbf{B}Spin)
+  \mathbf{H}_{conn}(-,\mathbf{B}Spin)
   \to 
   \mathbf{H}_{diff}(-, \mathbf{B}^3 U(1))
 $$
@@ -1526,7 +1537,7 @@ Let
 
 $$
   \frac{1}{2}\hat p_1 : 
-  \mathbf{H}(-,\mathbf{B}Spin)
+  \mathbf{H}_{conn}(-,\mathbf{B}Spin)
   \to
   \mathbf{H}_{diff}(-, \mathbf{B}^3 U(1))
 $$
@@ -1546,7 +1557,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{H}(X,\mathbf{B}Spin)
+    \mathbf{H}_{conn}(X,\mathbf{B}Spin)
     &\stackrel{\frac{1}{2}\hat p_1}{\to}&
     \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
   }
@@ -1555,14 +1566,14 @@ $$
 
 =--
 
-In terms of just the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration in the above sense, this has been considered in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SatiSchreiberStasheffIII</a>. 
+In terms of just the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration in the above sense, this has been considered in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>. 
 
 For the case where the twist is given just by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[nLab:bundle gerbe]]s, has been given in ([Waldorf09](http://arxiv.org/PS_cache/arxiv/pdf/0906/0906.0117v1.pdf)).
 
-We describe now the Lie integration of the $\infty$-Lie algebraic model in [SatiSchreiberStasheffIII](spring) to a model of the above homotopy pullback.
+We describe now the Lie integration of the $\infty$-Lie algebraic model in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a> to a model of the above homotopy pullback.
 
 In order to compute the homotopy pullback as an ordinary pullback, we want to model the morphism     
-$\mathbf{H}(X,\mathbf{B}Spin) \stackrel{\frac{1}{2}\hat p_1}{\to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ in $\infty Lie Grpd$ by a fibration in $[CartSp^{op}, sSet]_{proj,cov}$. To that end, we replace the Lie algebra $\mathfrak{g}$ by an equivalent Lie 3-algebra
+$\mathbf{H}_{conn}(X,\mathbf{B}Spin) \stackrel{\frac{1}{2}\hat p_1}{\to} \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ in $\infty Lie Grpd$ by a fibration in $[CartSp^{op}, sSet]_{proj,cov}$. To that end, we replace the Lie algebra $\mathfrak{g}$ by an equivalent Lie 3-algebra
 
 +-- {: .un_def }
 ###### Definition
@@ -1621,7 +1632,7 @@ With this observation we can read off the cocycles in $String_{diff,tw}(X)$ from
 #### The Fivebrane-lifting Chern-Simons 6-bundle with connection {#FivebraneStructure}
 
 
-We show now that the Lie integration of the differential $\infty$-Lie algebra cocycle corresponding to the degree 7 cocycle on the [[nLab:string lie 2-algebra]] $\mathfrak{string}$
+We show now that the Lie integration of the differential $\infty$-Lie algebra cocycle corresponding to the degree 7 cocycle on the [[nLab:string Lie 2-algebra]] $\mathfrak{string}$
 
 $$
   \exp(\mathfrak{string} \to inn(\mathfrak{string}))/\sim
@@ -1636,7 +1647,7 @@ is a model for the differential refinement of the second fractional Pontryagin c
 $$
   \frac{1}{6}p_2
   : 
-  \mathbf{H}(-, \mathbf{B}String)
+  \mathbf{H}_{conn}(-, \mathbf{B}String)
   \to
   \mathbf{H}_{diff}(-, \mathbf{B}^7 U(1))
   \,.
@@ -1652,7 +1663,7 @@ Let
 
 $$
   \frac{1}{6}\hat p_2 : 
-  \mathbf{H}(-,\mathbf{B}String)
+  \mathbf{H}_{conn}(-,\mathbf{B}String)
   \to
   \mathbf{H}_{diff}(-, \mathbf{B}^7 U(1))
 $$
@@ -1672,14 +1683,14 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{H}(X,\mathbf{B}String)
+    \mathbf{H}_{conn}(X,\mathbf{B}String)
     &\stackrel{\frac{1}{6}\hat p_2}{\to}&
     \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
   }
   \,.
 $$
 
-In terms of the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration in the above sense , this has been considered in (SatiSchreiberStasheffIII). 
+In terms of the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration in the above sense , this has been considered in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>
 
 (...)
 
