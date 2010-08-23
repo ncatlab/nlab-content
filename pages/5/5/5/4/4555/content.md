@@ -22,6 +22,10 @@ Accordingly, Cheeger-Simons differential characters model [[connection on a bund
 The definition of CS-differential characters encodes rather directly the higher dimensional notion of [[parallel transport]] of such higher connections: a CS-character is a rule that assigns values in $U(1)$ to $n$-dimensional  surfaces $\Sigma_n \to X$ in a manifold $X$, such that whenever $\Sigm_n = \partial \Sigma_{n+1}$ is the boundary of a $\phi : \Sigma_{n+1} \to X$, this assignment coincides with the integral $\int_{\Sigma_{n+1}} \phi^* F$ of a smooth [[curvature]] $(n+1)$-form $F \in \Omega^{n+1}_{cl}(X)$.
 
 
+## As secondary characteristic classes
+
+Since Cheeger-Simons characters enocde information beyond the [[curvature characteristic form]] which represents the underlying [[characteristic class]] in de Rham cohomology, they are frequently called [[secondary characteristic class]]es, in particular if the curvature characteristic form vanishes so that the corresponding [[Chern-Simons form]] becomes exact.
+
 ## References
 
 The original article is
