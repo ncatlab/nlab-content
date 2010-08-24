@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
 [[!include topology - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -39,6 +44,8 @@ for the [[simplicial set]] obtained by replacing in $C(\{U_i\})$ each [[direct s
 This is [[homotopy equivalence|homotopy equivalent]] to $X$.
 
 =--
+
+This is usually attributed to ([Borsuk1948](#Borsuk)).
 
 ## $(\infty,1)$-Topos-theoretic interpretation
 
@@ -78,6 +85,16 @@ Regarded from this perspective, the nerve theorem states that with ([[paracompac
 
 ## References
 
-The nerve theorem appears as corollary 4G.3 in 
+The nerve theorem is usually attributed to
 
-* [[Allen Hatcher]], _Algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+* K. Borsuk, _On the imbedding of systems of compacta in simplicial complexes_ , Fund. Math 35, (1948) 217-234
+{#Borsuk}
+
+A review appears as corollary 4G.3 in the texbook
+
+* [[Allen Hatcher]], _Algebraic topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)) .
+
+Some slightly stronger statements are discussed in
+
+* Anders Bj&#246;rner, _Nerves, fibers and homotopy groups_ , Journal of combinatorial theory, series A, 102 (2003), 88-93
+
