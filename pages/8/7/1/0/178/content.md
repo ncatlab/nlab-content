@@ -354,7 +354,7 @@ Let $G$ be a [[well sectioned simplicial topological group]]. Write, as usual fo
 Regard $\mathbf{B}G$ in the canonical way as an object of $[CartSp,sSet]$.
 Let $X_\bullet \in [CartSp^{op}, sSet]$ be any other simplicial topological space and let $X \to \mathbf{B}G$ be a morphism. Then:
 
-on such morphisms [[geometric realization]] $X_\bullet \mapsto |X_\bullet| \int^{[n]} \Delta^n_{Top} \times X_n \in Top$ preserves [[homotopy fiber]]s up to weak equivalence.
+on such morphisms [[geometric realization]] $X_\bullet \mapsto |X_\bullet| :=  \int^{[n]} \Delta^n_{Top} \times X_n \in Top$ preserves [[homotopy fiber]]s up to weak equivalence.
 
 
 =--
@@ -402,6 +402,9 @@ The functor $\Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd$ preserves homotopy f
 =--
 
 > may need to polish the technical assumptions...
+
+
+One application of this result is in the construction of lifts of [[Whitehead tower]]s in [[∞Grpd]] $\simeq$ [[Top]] to $\infty LieGrpd$. This we discuss in the section [Smooth Whitehead towers](#SmoothWhitehead).
 
 
 ### Relation to $(\infty,1)$-sheaves on all manifolds {#CartSpAndDiff}
@@ -4002,6 +4005,199 @@ is the flat [[nonabelian cohomology]] of $X$ with coefficients in $G$.
 
 See [[circle n-bundle with connection]].
 
+### Smooth Whitehead towers {#SmoothWhitehead}
+
+Given a [[Lie group]] $G$, we may regard it either as a [[topological group]] and form the [[classifying space]] $\mathcal{B}G \in $ [[Top]] $\simeq$ [[∞Grpd]], or we may form its [[delooping]] [[Lie groupoid]] $\mathbf{B}G \in \infty LieGrpd$, as discussed in the [section on Lie groups](#LieGroups) above.
+By the discussion in the [section on geometric realization](#GeometricRealization) we have that under the canonical geometric realization functor
+
+$$
+  \Pi : \infty LieGrpd \to \infty Grpd \simeq Top
+$$
+
+we have
+
+$$
+  \mathcal{B}G \simeq \Pi(\mathbf{B}G)
+  \,.
+$$
+
+Analogous statements hold for $\infty$-Lie groups. For instance by the same result we have that the [circle n-groupoid](#BnU1) $\mathbf{B}^n U(1)$ maps to the [[Eilenberg-MacLane space]]
+
+$$
+  \Pi(\mathbf{B}^n U(1)) \simeq K(\mathbb{Z}, n+1)
+  \,.
+$$
+
+This means that given a [[cocycle]]
+
+$$
+  c : \mathcal{B}G \to K(\mathbb{Z},n+1)
+$$
+
+in [[integral cohomology]] (defining a [[characteristic class]]), it is of interest to ask of this morphism also lifts through $\Pi$ to a morphism
+
+$$
+  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)
+  \,.
+$$
+
+Classes of examples of such lifts have been described in the section on [integration of ∞-Lie algebra cocycles](#IntegrationOfCocycles). 
+
+By general reasoning, the extensions/[[principal ∞-bundle]]s classified by such cocycles are their [[homotopy fiber]]
+
+$$
+  \array{
+     \mathbf{B}\hat G &\to& *
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{B}G &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^n U(1)
+  }
+$$
+
+in $\infty LieGrpd$ and
+
+$$
+  \array{
+     \mathcal{B}\hat G &\to& *
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathcal{B}G &\stackrel{c}{\to}& K(\mathbb{Z}, n)
+  }
+$$
+
+in $Top \simeq \infty Grpd$. By the theorem discussed in the section on [Geometric realization](#GeometricRealization) we have that these two homotopy fibers correspond to each other under $\Pi : \infty LieGrpd \to \infty Grpd$:
+
+$$
+  \Pi(\mathbf{B}\hat G) \simeq \mathcal{B}\hat G
+  \,.
+$$
+
+So this means with a smooth lift of a cocycle, we automatically obtain the corresponding  smooth lift of the extension that it classifies (assuming that the simplicial topological group $G$ is well-sectioned). This is notably useful for finding smooth lifts of [[Whitehead tower]]s. Examples of this we discuss in the following.
+
+
+#### The smooth Whitehead tower of the orthogonal group
+
+Let $O$ denote the [[orthogonal group]], regarded as a [[Lie group]]. We discuss steps of the [[Whitehead tower]] of $O$ refined to $\infty LieGrpd$.
+
+##### First Stiefel-Whitney class
+
++-- {: .un_prop}
+###### Proposition
+
+A lift of the [[Stiefel-Whitney class]] $w_1 : \mathcal{B}O \to K(\mathbb{Z}_2,1) \in Top \simeq \infty Grpd$ to $\infty LieGrpd$ is given by the morphism
+
+$$
+  \mathbf{w}_1 : \mathbf{B}O \to \mathbf{B}\mathbb{Z}_2
+$$
+
+of [[Lie groupoid]]s that delooping of the group homomorphism that sends $g \in O$ to its signature $\sigma(g) \in \mathbb{Z}_2$, where $\sigma(g) = 1$ if $g$ is in the connected component of $O$ (is orientation preserving as an orthogonal map) and $\sigma(g) = -1$ otherwise.
+
+=--
+
+We may compute the [[principal bundle]] in $\infty LieGrpd$ classified by $\mathbf{w}_1$ as the ordinry [[pullback]] of $\mathbf{E} \mathbb{Z}_2 \to \mathbf{B}\mathbb{Z}_2$, where $\mathbf{E}\mathbb{Z}_2$ is the groupoid $\mathbb{Z}_2 \times \mathbb{Z}_2 \stackrel{\ovserset{\cdot}{\to}}{\underset{p_1}{\to} \mathbb{Z}_2}$.
+
+The resulting pullback groupoid
+
+$$
+  \array{
+    Q &\to& \mathbf{E}\mathbb{Z}_2
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}O &\stackrel{\mathbf{w}_1}{\to}& \mathbf{B}\mathbb{Z}_2
+  }
+$$
+
+has two objects, $s = +1,-1$ and morphisms of the form $s \stackrel{g}{\to} \sigma(g)\cdot s$ for $g \in O$. The smooth structure is that induced from $O$.
+
+Evidently the canonical embedding $\mathbf{B} SO \to Q$ which sends a morphism $\bullet \stackrel{h}{\to} \bullet$ for $h \in SO$ an element of the [[special orthogonal group]] is an [[essentially surjective functor]] and a [[full and faithful functor]] and hence an equivalence of $\infty$-Lie groupoids. 
+
+This establishes the [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    \mathbf{B} SO &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathbf{B} O &\stackrel{\mathbf{w}_1}{\to}& 
+    \mathbf{B}\mathbf{Z}_2
+  }
+$$
+
+in $\infty LieGrpd$, covering under $\Pi$ the pullback
+
+$$
+  \array{
+    \mathcal{B} SO &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathcal{B} O &\stackrel{w_1}{\to}& \mathcal{B}\mathbf{Z}_2
+  }
+  \,.
+$$
+
+##### Second Stiefel-Whitney class
+
+(...)
+
+$$
+  \array{
+    \mathbf{B} Spin &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathbf{B} SO &\stackrel{\mathbf{w}_2}{\to}& 
+    \mathbf{B}^2 \mathbf{Z}_2
+  }
+$$
+
+(...)
+
+##### First fractional Pontryagin class
+
+(...)
+
+$$
+  \array{
+    \mathbf{B} String &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathbf{B} Spin &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}& 
+    \mathbf{B}^3 U(1)
+  }
+$$
+
+(...)
+
+[[string 2-group]]
+
+
+
+##### Second fractional Pontryagin class
+
+$$
+  \array{
+    \mathbf{B} Fivebrane &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathbf{B} String &\stackrel{\frac{1}{6}\mathbf{p}_2}{\to}& 
+    \mathbf{B}^7 U(1)
+  }
+$$
+
+(...)
+
+[[fivebrane 6-group]]
+
+
+
+
 
 ## The infinitesimally thickened $(\infty,1)$-topos $\infty$-Lie groupoids and $\infty$-Lie algebroids {#InfSheavesOnCartSp}
 
@@ -4048,7 +4244,7 @@ $$
 
 =--
 
-This induces the follo^wing infinitesimal analogs of the structures discussed above for $\infty LieGrpd$
+This induces the following infinitesimal analogs of the structures discussed above for $\infty LieGrpd$
 
 
 +-- {: .un_def}
