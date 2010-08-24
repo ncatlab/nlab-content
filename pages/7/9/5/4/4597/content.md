@@ -1178,151 +1178,86 @@ This is described in detail in [SchrWalIII](), subject to the extra constraint t
 
 ### Twisted differential $String-$ and $Fivebrane$-structures {#DiffStringStruc}
 
-We discuss a motivating class of example for the notion of an $\infty$-Chern-Weil homomorphism in $\mathbf{H} =$ [[nLab:?LieGrpd]]. Details on this are [below](#StringStructure).
-
-Consider the [[nLab:spin group]] $G =  Spin$. Its topological [[nLab:classifying space]] $\mathcal{B}G$ has $H^4(\mathcal{B}G, \mathbb{Z}) \simeq \mathbb{Z}$, and the generator of this cohomology group is the [[nLab:characteristic class]] called $\frac{1}{2}p_1$.
+We discuss now in detail refined Chern-Weil morphisms
 
 $$
-  H^1(X,G)
-  = H(X, \mathcal{B}G) \stackrel{\frac{1}{2}p_1}{\to} H(X, \mathcal{B}^4 \mathbb{Z})
-  = H^4(X,\mathcal{Z})
-  \,.
-$$
-
-If a $G$-[[nLab:principal bundle]] $P \to X$ is _smooth_ , then this topological cohomology class in $H^1(X,\mathcal{B}G)$ has a counterpart in [[nLab:differential geometry]]:
-the [[nLab:Chern-Weil homomorphism]] produces from any choice of [[nLab:connection on a bundle|connection]] $\nabla$ on $P$ a smooth [[nLab:differential form|differential 4-form]] $\langle F_\nabla \wedge F_\nabla \rangle \in \Omega^4_{cl}(X)$, representing a class in $H_{dR}^4(X)$: the [[nLab:curvature characteristic form]].  Under the [[nLab:de Rham theorem|de Rham isomorphism]], these classes match.
-
-But even more is true: even the precise way in which the differential 4-form refines the integral 4-class has a natural expression: we have a $U(1)$-2-gerbe with connection, equivalently a 
-$\mathbf{B}^3 U(1)$-[[nLab:principal ∞-bundle|principal 3-bundle]] with connection $String(P,\nabla) \in H_{diff}(X,\mathbf{B}^3 U(1))$
-which interpolates between the integral and the differential class, in that these are its images under the two natural projections
-
-$$
-    H_{diff}(X,\mathbf{B}^3 U(1)) \to H^4_{dR}(X) \times H^4(X,\mathbb{Z})    
-$$
-
-$$
-  String(P,\nabla) \mapsto (\langle F_\nabla \wedge F_\nabla\rangle, \frac{1}{2}p_1(P))
-  \,.
-$$
-
-So far this is at the level of cohomology classes. If we lift the classification of principal bundles from the $(\infty,1)$-topos $Top$ to $\mathbf{H} = \infty Lie Grpd$, then we can refine  all this to a map of cocycle $\infty$-groupoids
-
-$$
-  \frac{1}{2}\hat p_1 :
-  \mathbf{H}_{conn}(X,\mathbf{B}Spin)
+  \hat \mathbf{c}
+  :
+  \mathbf{H}_{conn}(X,\mathbf{B}G)
   \to 
-  \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
+  \mathbf{H}_{diff}(X, \mathbf{B}^n U(1))
 $$
 
-which covers the underlying characteristic class
+that send [∞-connections](#InfinityLieAlgebraConnection) on $G$-[[principal InfinityLieAlgebraConnection-bundle]]s to [[circle n-bundles with connection]] that represent a given [[characteristic class]]. $c : \mathbf{B}G \to \mathbf{B}^n U(1)$ with coefficients in the [circle n-groupoid](#http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1). 
+
+Specifically, we consider the first two steps in the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothWhitehead">smooth refinement of the Whitehead tower</a> of the [[orthogonal group]] $O$ that are controled by [[∞-Lie algebra cohomology]].
+
+The smooth Whitehead tower of $O$ in [[?LieGrpd]] starts as 
 
 $$
-  \frac{1}{2}p_1 : \mathbf{H}(X,\mathbf{B}G) \to 
-  \mathbf{H}(X,\mathbf{B}^3 U(1))
-  \,.
+  \cdots \to \mathbf{B}Spin \to \mathbf{B} SO \to \mathbf{B}O
+  \,,
 $$
 
-Recall that a [[nLab:string structure]] on $X$ is an element in the homotopy kernel of this class. More precisely, the $\infty$-groupoid of [[nLab:string structure]]s on $X$ is the [[nLab:homotopy fiber]] of $\frac{1}{2}p_1$. 
+where
 
-Therefore we say the $\infty$-groupoid of [[nLab:string structure|differential string structure]]s is the [[nLab:(∞,1)-pullback]]
+* the [[delooping]] $\mathbf{B} SO$ of the [[special orthogonal group]] is the $\mathbb{Z}_2$-[[principal bundle]] over $\mathbf{B}O$ classified by the [[cocycle]] $\mathbf{B}O \to \mathbf{B} \mathbb{Z}_2$ that sends an elemen $k \in O$ to $+1$ if it is in the connected component of the identity and to $-1$ if it is not. This means we have an [[(∞,1)-pullback]] diagram
+
+  $$
+    \array{
+      \mathbf{B} SO &\to& * 
+      \\
+      \downarrow && \downarrow
+      \\
+      \mathbf{B} O &\stackrel{\mathbf{w}_1}{\to}& \mathbf{B} \mathbb{Z}_2
+    }
+    \;
+  $$
+
+* the [[delooping]] $\mathbf{B} Spin$ of the [[spin group]] is the is the $\mathbf{B}\mathbb{Z}_2$-[[principal 2-bundle]] over $\mathbf{B} SO$ classified by the [[Stiefel-Whitney class]] $\mathbf{B} SO \to \mathbf{B}^2 \mathbb{Z}$
+
+  $$
+    \array{
+      \mathbf{B} Spin &\to& * 
+      \\
+      \downarrow && \downarrow
+      \\
+      \mathbf{B} SO &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+    }
+    \;
+  $$
+
+Since these two steps are controled by the [[torsion]]-group $\mathbb{Z}_2$ they have no nontrivial refinement to differential cohomology. The next step however is controled by what in the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]] is the first [[fractional Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B} Spin \to \mathcal{B}^4 \mathbb{Z}$ and which lifts through the [[schreiber:path ∞-groupoid functor]] $\Pi : \infty LieGrpd \to \infty Grpd$ to a characteristic class in $\mathbf{H} = $ [[?LieGrpd]] (as discussed there) $\frac{1}{2} p_1 : \mathbf{B} Spin \to \mathbf{B}^3 U(1)$ with coefficients in the smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 3-groupoid</a>. This cocycle does arise as the [[Lie integration]] $\exp(\mu)$ of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu = \langle -,[-,-]\rangle: \mathfrak{so} \to b^2 \mathbb{R}$.
+
+The [[principal ∞-bundle|principal 3-bundle]] that this classifies is the [[delooping]] $\mathbf{B} String$ of the [[string 2-group]] $String$
 
 $$
   \array{
-    String_{diff}(X) &\to& *
+    \mathbf{B} String &\to& * 
     \\
-    \downarrow &{}^{\simeq}& \downarrow
+    downarrow && \downarrow
     \\
-    \mathbf{H}_{conn}(X,\mathbf{B}Spin(n)) &\to& \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
+    \mathbf{B} Spin &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}& \mathbf{B}^3 U(1)
   }
   \,.
 $$
 
-Cocycles in $String_{diff}(X)$ are pairs consisting of a $Spin$-principal bundle with connection $\nabla$ and a trivialization of the corresponding String-lifting [[nLab:Chern-Simons 2-gerbe]] with connection
-$CS(\nabla)$ and curvature $\langle F_\nabla \wedge F_\nabla\rangle$.
-
-More generally, we can define the $\infty$-groupoid of 
-**twisted differential string structures** as the $(\infty,1)$-pullback of all
-degree 4 differential classes.
+Notice that the fact that this is an [[(∞,1)-pullback]] implies that for any $X\in \mathbf{H} = \infty LieGrpd$ also
 
 $$
   \array{
-    String_{diff}(X) &\to& H_{diff}(X,\mathbf{B}^3 U(1))
+    \mathbf{H}(X,\mathbf{B} String) &\to& * 
     \\
-    \downarrow &{}^{\simeq}& \downarrow
+    downarrow && \downarrow
     \\
-    \mathbf{H}_{conn}(X,\mathbf{B}Spin(n)) &\to& \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
+    \mathbf{H}(X,\mathbf{B} Spin) &\to& \mathbf{H}(X,\mathbf{B}^3 U(1))
   }
+  \,,
 $$
 
-A cocycle in $String_{diff}(X)$ over a given class is a $G$-principal bundle with  connection $\nabla$ together with a cocycle between the Chern-Simons 2-gerbe of that data and the fixed 2-gerbe with connection.
+which exhibits the [[2-groupoid]] $\mathbf{H}(X,\mathbf{B}String)$ of  [[string structure]]s.
 
-What makes all this work is that the characteristic class $\frac{1}{2}p_1$ has an infinitesimal origin: it arises by Lie integration of an invariant polynomial on the Lie algebra  $\mathfrak{so}$. This $\infty$-Lie integration of invariant polynomials on Lie algebras
-is what secretly underlies the Chern-Weil homomorphism.
-
-But the above discussion suggests that we may want to go further: the characteristic class $\frac{1}{2}p_1(P)$ vanishes precisely if $P$ has [[nLab:string structure]]. This means
-that its classifying map $X \to \mathbf{B}G$ lifts through the [[nLab:string 2-group]] projection $\mathbf{B}String \to \mathbf{B}Spin$. In fact we have a [[nLab:fiber sequence]]
-
-$$
-  \array{
-     \mathbf{B}String &\to& *
-     \\
-     \downarrow && \downarrow
-     \\
-     \mathbf{B}Spin
-     &\stackrel{\frac{1}{2}p_1}{\to}&
-     \mathbf{B}^3 U(1)
-  }
-$$
-
-in $\infty Lie Grpd$ which induces a fiber sequence of cocycle $\infty$-groupoids
-
-$$
-  \array{
-     \mathbf{H}(X,\mathbf{B}String) &\to& *
-     \\
-     \downarrow && \downarrow
-     \\
-     \mathbf{H}(X,\mathbf{B}Spin)
-     &\stackrel{\frac{1}{2}p_1}{\to}&
-     \mathbf{H}(X,\mathbf{B}^3 U(1))
-  }
-  \,.
-$$
-
-This means in particular that if we do have a (differential) String-structure $\in String_{diff}(X)$, then we may consider the $String$-principal 2-bundle $\hat P$ that lifts the $Spin$-bundle $P$.
-
-Now, there is a higher degree cocycle analogous to $\frac{1}{2}p_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$. That's $\frac{1}{6}p_2 : \mathbf{B}String \to \mathbf{B}^7 U(1)$. It corresponds to the 
-canonical degree 8-cocycle on the Lie algebra $\mathfrak{so}$. But it is also an invariant polynomial on the [[nLab:string Lie 2-algebra]] $\mathfrak{string}$.
-
-This suggests that we find a refined Chern-Weil homomorphism for String-principal 2-bundles with connection, such that we obatain a morphism
-
-$$
-  \frac{1}{6}\hat p_2 : 
-  \mathbf{H}(X,\mathbf{B}String)
-  \to
-  \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
-$$
-
-of $\infty$-groupoids of cocycles, whose [[nLab:homotopy fiber]]s are
-**twisted differential 5-brane structures** on $X$
-
-$$
-  \array{
-    Fivebrane_{diff}(X) &\to& H_{diff}(X,\mathbf{B}^7 U(1))
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{H}(X,\mathbf{B}String)
-    &\stackrel{\frac{1}{6}\hat p_2}{\to}&
-    \mathbf{H}(X,\mathbf{B}^7 U(1))
-  }
-  \,.
-$$
-
-The local connection form data on these twisted differential string and fivebrane structures was discussed in ([SatiSchreiberStasheffIII]()).
-
-(...)
-
+As we refine in this diagram the bottom morphism to differential cohomology, we obtain correspondingly differential string structures.
 
 
 
