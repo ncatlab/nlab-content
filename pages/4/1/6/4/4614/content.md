@@ -54,7 +54,7 @@ If $X_\bullet : \Delta^{op} \to Set \hookrightarrow Top$ is a degreewise [[discr
 +-- {: .un_prop}
 ###### Proposition
 
-Geometric realization preserves [[pullback]]s: for $X_\bullet \to Y_\bullet \lefarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}$ there are [[natural transformation|natural]] [[homeomorphism]]s
+Geometric realization preserves [[pullback]]s: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphism]]s
 
 $$
   |X_\bullet| \times_{|Y_\bullet|} |Z_\bullet|
