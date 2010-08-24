@@ -1188,7 +1188,7 @@ $$
   \mathbf{H}_{diff}(X, \mathbf{B}^n U(1))
 $$
 
-that send [∞-connections](#InfinityLieAlgebraConnection) on $G$-[[principal InfinityLieAlgebraConnection-bundle]]s to [[circle n-bundles with connection]] that represent a given [[characteristic class]]. $c : \mathbf{B}G \to \mathbf{B}^n U(1)$ with coefficients in the [circle n-groupoid](#http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1). 
+that send [∞-connections](#InfinityLieAlgebraConnection) on $G$-[[principal ∞-bundle]]s to [[circle n-bundles with connection]] that represent a given [[characteristic class]]. $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ with coefficients in the [circle n-groupoid](#http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1). 
 
 Specifically, we consider the first two steps in the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothWhitehead">smooth refinement of the Whitehead tower</a> of the [[orthogonal group]] $O$ that are controled by [[∞-Lie algebra cohomology]].
 
@@ -1227,7 +1227,7 @@ where
     \;
   $$
 
-Since these two steps are controled by the [[torsion]]-group $\mathbb{Z}_2$ they have no nontrivial refinement to differential cohomology. The next step however is controled by what in the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]] is the first [[fractional Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B} Spin \to \mathcal{B}^4 \mathbb{Z}$ and which lifts through the [[schreiber:path ∞-groupoid functor]] $\Pi : \infty LieGrpd \to \infty Grpd$ to a characteristic class in $\mathbf{H} = $ [[?LieGrpd]] (as discussed there) $\frac{1}{2} p_1 : \mathbf{B} Spin \to \mathbf{B}^3 U(1)$ with coefficients in the smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 3-groupoid</a>. This cocycle does arise as the [[Lie integration]] $\exp(\mu)$ of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu = \langle -,[-,-]\rangle: \mathfrak{so} \to b^2 \mathbb{R}$.
+Since these two steps are controled by the [[torsion]]-group $\mathbb{Z}_2$ they have no nontrivial refinement to differential cohomology. The next step however is controled by what in the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]] is the first [[fractional Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B} Spin \to \mathcal{B}^4 \mathbb{Z}$ and which lifts through the [[schreiber:path ∞-groupoid]] functor $\Pi : \infty LieGrpd \to \infty Grpd$ to a characteristic class in $\mathbf{H} = $ [[?LieGrpd]] (as discussed there) $\frac{1}{2} p_1 : \mathbf{B} Spin \to \mathbf{B}^3 U(1)$ with coefficients in the smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 3-groupoid</a>. This cocycle does arise as the [[Lie integration]] $\exp(\mu)$ of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu = \langle -,[-,-]\rangle: \mathfrak{so} \to b^2 \mathbb{R}$.
 
 The [[principal ∞-bundle|principal 3-bundle]] that this classifies is the [[delooping]] $\mathbf{B} String$ of the [[string 2-group]] $String$
 
@@ -1235,7 +1235,7 @@ $$
   \array{
     \mathbf{B} String &\to& * 
     \\
-    downarrow && \downarrow
+    \downarrow && \downarrow
     \\
     \mathbf{B} Spin &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}& \mathbf{B}^3 U(1)
   }
@@ -1248,7 +1248,7 @@ $$
   \array{
     \mathbf{H}(X,\mathbf{B} String) &\to& * 
     \\
-    downarrow && \downarrow
+    \downarrow && \downarrow
     \\
     \mathbf{H}(X,\mathbf{B} Spin) &\to& \mathbf{H}(X,\mathbf{B}^3 U(1))
   }
