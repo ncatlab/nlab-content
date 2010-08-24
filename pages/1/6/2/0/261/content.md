@@ -1,3 +1,13 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+=--
+=--
+
 #Content#
 * automatic table of contents goes here
 {:toc}
@@ -189,7 +199,7 @@ Here are some examples:
 
 * Let $E = \Cat$ and $F$ be the functor $[n] \mapsto [n]$ (the inclusion of posets into categories). The right adjoint is the nerve functor $N$ described above. The left adjoint ${\tau}_1$ takes a simplicial set to its **fundamental category**. 
 
-* Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}_n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **geometric realization**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}^n$.
+* Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}_n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **[[geometric realization]]**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}^n$.
 
 * (Barycentric) subdivision and extension $\sd: \Simp\Set \leftrightarrow \Simp\Set :\ex$.
 
@@ -221,14 +231,8 @@ More advanced treatments include
 
 * P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
-+--{: .query}
-[[Tim Porter|Tim]]:  We seem to have managed to have two notations for the basic simplices in simplicial sets.  There are pages with $\Delta[n]$ and those with $\Delta^n$. (I prefer the former.) This is confusing! 
-
-My preferred notation is $\Delta[n]$ for the representable simplicial set $\Delta(-,[n])$, with its geometric realisation being $\Delta^n$. These are quite different beasties and it seems a shame to use the same notation for both. Should we rationalise/standardise the notation?
-
-[[Urs Schreiber|Urs]]: would be fine with me 
-(I am probably responsible for much of the $\Delta^n$s) -- on the other hand, globally consistent notation over the $n$Lab will generally be a challange. But we should try. Yes.
-
-=--
 
 [[!redirects simplicial sets]]
+
+[[!redirects cosimplicial set]]
+[[!redirects cosimplicial sets]]
