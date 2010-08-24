@@ -328,7 +328,7 @@ Let $X$ be a [[simplicial manifold]] that is degreewise [[paracompact space|para
 [[diffeological space]], hence as an object in $[CartSp^{op}, sSet]$,
 hence as an object in $\infty LieGrpd$.
 
-Write $|X| \in $ [[Top]] for the [[geometric realization]] of the underlying [[simplicial object|simplicial]] [[topological space]]. Then
+Write $|X| \in $ [[Top]] for the [[geometric realization of simplicial topological spaces]]. Then
 
 $$
   \Pi(X) \simeq |X| \in Top \simeq \infty Grpd
@@ -354,7 +354,7 @@ Let $G$ be a [[well sectioned simplicial topological group]]. Write, as usual fo
 Regard $\mathbf{B}G$ in the canonical way as an object of $[CartSp,sSet]$.
 Let $X_\bullet \in [CartSp^{op}, sSet]$ be any other simplicial topological space and let $X \to \mathbf{B}G$ be a morphism. Then:
 
-on such morphisms [[geometric realization]] $X_\bullet \mapsto |X_\bullet| :=  \int^{[n]} \Delta^n_{Top} \times X_n \in Top$ preserves [[homotopy fiber]]s up to weak equivalence.
+on such morphisms [[geometric realization of simplicial spaces]] $X_\bullet \mapsto |X_\bullet| :=  \int^{[n]} \Delta^n_{Top} \times X_n \in Top$ preserves [[homotopy fiber]]s (up to weak equivalence).
 
 
 =--
@@ -362,7 +362,7 @@ on such morphisms [[geometric realization]] $X_\bullet \mapsto |X_\bullet| :=  \
 +-- {: .proof}
 ###### Proof
 
-In unpublished notes, [[Danny Stevenson]] and [[David Roberts]] show that under [[geometric realization]] the <a href="http://ncatlab.org/nlab/show/simplicial+group#UniversalBundle">universal simplicial principal bundle</a>
+In unpublished notes, [[Danny Stevenson]] and [[David Roberts]] show that under [[geometric realization of simplicial topological spaces]] the universal [[simplicial principal bundle]] (see there)
 $\mathbf{E}G := W G \to \bar W G$ maps to the universal $|G|$-[[principal bundle]] $\mathcal{E} |G| \to \mathcal{B}|G|$ in [[Top]].
 
 But (as described at [[homotopy fiber]] and [[generalized universal bundle]]) the universal bundle is a means to compute homotopy fibers: the ordinary [[pullback]]
@@ -377,7 +377,7 @@ $$
   }
 $$
 
-computes the homotopy fiber of $X_\bullet \to \bar W G$. Since geometric realization preserves [[pullback]]s, this is sent to the pullback square
+computes the homotopy fiber of $X_\bullet \to \bar W G$. Since [[geometric realization of simplicial spaces]] preserves [[pullback]]s (see there), this is sent to the pullback square
 
 $$
   \array{
@@ -4086,13 +4086,13 @@ Let $O$ denote the [[orthogonal group]], regarded as a [[Lie group]]. We discuss
 +-- {: .un_prop}
 ###### Proposition
 
-A lift of the [[Stiefel-Whitney class]] $w_1 : \mathcal{B}O \to K(\mathbb{Z}_2,1) \in Top \simeq \infty Grpd$ to $\infty LieGrpd$ is given by the morphism
+A lift of the first [[Stiefel-Whitney class]] $w_1 : \mathcal{B}O \to K(\mathbb{Z}_2 ,1) \in Top \simeq \infty Grpd$ to $\infty LieGrpd$ is given by the morphism
 
 $$
   \mathbf{w}_1 : \mathbf{B}O \to \mathbf{B}\mathbb{Z}_2
 $$
 
-of [[Lie groupoid]]s that delooping of the group homomorphism that sends $g \in O$ to its signature $\sigma(g) \in \mathbb{Z}_2$, where $\sigma(g) = 1$ if $g$ is in the connected component of $O$ (is orientation preserving as an orthogonal map) and $\sigma(g) = -1$ otherwise.
+of [[Lie groupoid]]s that is the delooping of the group homomorphism that sends $g \in O$ to its signature $\sigma(g) \in \mathbb{Z}_2$, where $\sigma(g) = 1$ if $g$ is in the connected component of $O$ (is orientation preserving as an orthogonal map) and $\sigma(g) = -1$ otherwise.
 
 =--
 
