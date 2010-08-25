@@ -125,10 +125,17 @@ A good notion of a generalized [[space]] modeled on objects in a category $C$ is
 We are interested here in that case that 
 
 $$
-  C \subset T Alg^{op}
+  C \hookrightarrow T Alg^{op}
 $$ 
 
-is a [[nLab:small category|small]] [[nLab:full subcategory]] of the [[nLab:opposite category]] of $T$-algebras, for $T$ an abelian Lawvere theory. In the remainder of this section we assume such a choice to be fixed. Below in the section on [Examples and applications](#Examples) we discuss concrete choices of interest.
+is a [[small category|small]] [[full subcategory]] of the [[nLab:opposite category]] of $T$-algebras, for $T$ an abelian Lawvere theory. In the remainder of this section we assume such a choice to be fixed. Below in the section on [Examples and applications](#Examples) we discuss concrete choices of interest.
+
+Notice that such a choice induces also a full subcategory of (co)simplicial objects
+
+$$
+  C^{\Delta^{op}} \hookrightarow (T Alg^\Delta)^{op}
+  \,.
+$$
 
 
 #### The prolonged Yoneda embedding {#ProlongedYoneda}
@@ -248,7 +255,7 @@ $$
  
 =--
 
-In the next section we see that $(\mathcal{O} \dashv j)$ forms an [[nLab:sSet]]-[[nLab:Quillen adjunction]].
+In the next section we see that $(\mathcal{O} \dashv j)$ forms a [[simplicial Quillen adjunction]].
 
 
 
@@ -376,13 +383,13 @@ If for all (hyper-)covers $f$ we have that $H^0(\mathcal{O}(f))$ and  $H^1(\math
 +-- {: .un_theorem}
 ###### Proposition
 
-When restricted to $C^\Delta^{op} \subset (T Alg^\Delta)^{op}$ the functor $j$ is _homotopy full and faithful_ in that for all $A \in C^{\Delta^{op}}$ we have that the canonical morphism
+When restricted along $C^\Delta^{op} \subset (T Alg^\Delta)^{op}$ the functor $j$ is _homotopy full and faithful_ in that for all $A \in C^{\Delta^{op}}$ we have that the canonical morphism
 
 $$
   A \to \mathbb{L}\mathcal{O} \; \mathbb{R}j \; A
 $$
 
-is an isomorphism in the [[nLab:homotopy category]] $Ho(T Alg^\Delta_{proj})$.
+into the image of the [[derived functor]]s of $j$ and $\mathcal{O}$ is an [[isomorphism]] in the [[homotopy category]] $Ho(T Alg^\Delta_{proj})$.
 
 =--
 
@@ -400,7 +407,7 @@ In terms of the [[(∞,1)-category theory]] that is presented by the model categ
 +-- {: .un_cor}
 ###### Corollary
 
-The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] of the [[nLab:reflective sub-(∞,1)-category]]
+The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] of the [[reflective sub-(∞,1)-category]]
 
 $$
   \mathbf{L}(C) \stackrel{\stackrel{\mathcal{O}}{\leftarrow}}{\hookrightarrow}
@@ -408,6 +415,8 @@ $$
 $$
 
 of the [[nLab:(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ which is the [[nLab:localization of an (∞,1)-category|localization]] at those morphisms that induce isomorphisms in $R$-cohomology, for $R$ the [canonical line object](#Line).
+
+Here $\mathbf{L}(C)$ is the [[full sub-(∞,1)-category]] of $((T Alg^\Delta_{proj})^{op})^\circ$ on those objects in the homotopy-essential image of the inclusion $C^{\Delta^{op}} \to (T Alg^\Delta)^{op}$.
 
 =--
 
@@ -425,13 +434,49 @@ The conditons of the above theorem are satisfied for instance for
 
   In this case the adjunction is that considered in ([To&#235;n](#Toen)).
 
-* $T$ the theory of [[nLab:smooth algebra]]s and $J$ the topology of the [[nLab:Cahiers topos]]. This is what we discuss in more detail below.
+* $T$ the theory of [[nLab:smooth algebra]]s and $C \hookrightarrow T Alg^{op}$ the [[site]] of the [[Cahiers topos]]. This is what we discuss in more detail below.
 
 =--
 
+### Rational homotopy theory
+
+$T$ the Lawvere theory of $\mathbb{Q}$-algebras. Then $(\mathcal{O} \dashv j)$ reproduces the setup discussed at [[rational homotopy theory in an (∞,1)-topos]].
+
+### $\infty$-Lie theory
+
+$T = $ [[CartSp]] the ([[syntactic category]] of the) Lawvere theory of [[smooth algebra]]s. A [[Fermat theory]]. $C \subset CartSp Alg$ the [[site]] for the [[Cahiers topos]].
+
+#### The infinitesimal path $\infty$-groupoid of a manifold
+
+(...)
 
 
-### The tangent category of $C^\infty Ring$
+
+For $U \in CartSp$ let
+
+$$
+   U^{\Delta^\bullet_{inf}} \in C^{\Delta^{op}}
+$$
+
+be the simplicial object of <a href="http://ncatlab.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">infinitesimal simplices</a> in $U$.
+
+**Definition**
+
+We call
+
+$$
+  \mathbf{\Pi}_{inf}(U)
+  :=
+  \mathbb{R}j\; (U^{\Delta^\bullet_{inf}})
+  \in 
+  [C^{op}, sSet]
+$$
+
+the infinitesimal path $\infty$-Lie groupoid of $U$.
+
+(...)
+
+#### The tangent category of smooth algebras
 
 (...)
 
@@ -445,10 +490,14 @@ This serves the purpose of presenting the $\infty$-stack of $\infty$-vector bund
 
 (...)
 
-### The infinitesimal path $\infty$-groupoid of a manifold
+
+### $\infty$-Lie algebra cohomology
 
 (...)
 
+Passing along the embedding $\mathbf{L} \hookrightarrow \mathbf{H}$ we may compute [[∞-Lie algebra cohomology]] in $\mathbf{H}$.
+
+(...)
 
 ## Appendix
 
@@ -571,7 +620,7 @@ over ordinary commutative $k$-algebras. See also [[rational homotopy theory in a
 
 The generalization to arbitrary abelian $T$-algebras and the application to synthetic differential geometry is the content of 
 
-* [[Herman Stel]], _Affine approximation of smooth $\infty$-stacks_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
+* [[Herman Stel]], _Function algebras on $\infty$-stacks -- Synthetic differental $\infty$-groupoids_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
 
 on which this entry here is based.
 
