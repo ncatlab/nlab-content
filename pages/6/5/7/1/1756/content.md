@@ -72,7 +72,9 @@ For $L$ we apply the formally dual argument.
 
 ### Of $sSet$-enriched adjunctions {#sSet}
 
-Of particular interest are [[SSet]]-[[enriched category theory|enriched]] adjunctions between [[simplicial model categories]], as these present [[adjoint (∞,1)-functors]], as the first proposition below asserts.
+Of particular interest are [[SSet]]-[[enriched category theory|enriched]] adjunctions between [[simplicial model categories]]: [[simplicial Quillen adjunctions]]. 
+
+These present [[adjoint (∞,1)-functors]], as the first proposition below asserts.
 
 
 +-- {: .un_prop}
