@@ -19,7 +19,7 @@
 
 ## Definition
 
-A _simplicial Quillen adjunction_ is an [[adjunction]] 
+A _simplicial Quillen adjunction_ is an [[sSet]]-[[enriched Quillen adjunction]]: an [[adjunction]] 
 
 $$
   (L \dashv R) : C \stackrel{\leftarrow}{\to} D
@@ -28,6 +28,8 @@ $$
 of [[sSet]]-[[enriched functor]]s between [[simplicial model categories]] $C$ and $D$, such that the underlying adjunction of ordinary functors is a [[Quillen adjunction]] between the [[model category]] structures underlying the simplicial model categories.
 
 ## Properties
+
+### Presentation of $\infty$-adjunctions
 
 Simplicial Quillen adjunctions model pairs of [[adjoint (∞,1)-functor]]s in a fairly immediate manner: their restriction to fibrant-cofibrant objects is the [[sSet]]-[[enriched functor]] that presents the $(\infty,1)$-[[derived functor]] under the model of [[(∞,1)-categories]] by [[simplicially enriched categories]]. 
 
@@ -58,49 +60,35 @@ This is proposition 5.2.4.6 in [[Higher Topos Theory|HTT]].
 
 =--
 
+### Recognition {#Recognition}
 
-The following proposition states conditions undeer which a Quillen adjunction may be detected already from knowing of the right adjoint only that it preserves fibrant objects (instead of all fibrations).
+The following proposition states conditions under which a simplicial Quillen adjunction may be detected already from knowing of the right adjoint only that it preserves fibrant objects (instead of all fibrations).
+
 
 +-- {: .un_prop}
 ###### Proposition
 
-The underlying [[adjunction]] of an [[SSet]]-[[enriched category theory|enriched]]-[[adjunction]] 
-
-$$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
-  D
-$$
-
-between [[simplicial model categories]] $C$ and $D$, where $D$ is a [[left proper model category]] is a Quillen adjunction precisely if
-
-* $R$ preserves fibrant objects
-
-* $L$ preserves cofibrations.
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is proposition A.3.7.2 in [[Higher Topos Theory|HTT]].
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-If $C$ and $D$ are [[simplicial model categories]] and $D$ is a left [[proper model category]], then an [[sSet]]-enriched adjunction
+If $C$ and $D$ are [[simplicial model categories]] and $D$ is a left [[proper model category]], then for an [[sSet]]-enriched adjunction
 
 $$
   (L \dashv R) : C \stackrel{\leftarrow}{\to} D
 $$
 
-is a Quillen adjunction already if $L$ preserves cofibrations and $R$ just fibrant objects.
+to be a Quillen adjunction it is already sufficient that $L$ preserves cofibrations and $R$ just fibrant objects.
 
 =--
 
 This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
+
++-- {: .un_remark}
+###### Remark
+
+This is in particular useful for finding simplicial Quillen adjunctions into [[Bousfield localization of model categories|left Bousfield localizations]] of left proper model categories: the left Bousfield localization preserves the left properness, and the fibrant objects in the Bousfield localized structure have a good characterization: they are the fibrant objects in the original model structure that are also [[local object]]s with respect to the set of morphisms at which one localizes. 
+
+Therefore for $D$ the left Bousfield localization of a simplicial left proper model category $E$ at class $S$ of morphisms, for checking the Quillen adjunction property of $(L \dashv R)$ it is sufficient to check that $L$ preserves cofibrations, and that $R$ takes fibrant objects $c$ of $C$ to such fibrant objects of $E$ that have the property that for all $f \in S$ the [[derived hom-space]] map $\mathbb{R}Hom(f,R(c))$ is a weak equivalence.
+
+=--
+
 
 
 [[!redirects simplicial Quillen adjunctions]]
