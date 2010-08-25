@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -49,13 +55,13 @@ bla bla bla
 
  * Sullivan,...
 
- * &Scaron;evera,...
+ * &#352;evera,...
 
  * Getzler,...
 
  * Henriques,...
 
- * &Scaron;evera,...
+ * &#352;evera,...
 
 
 ## Entries related to Lie theory
