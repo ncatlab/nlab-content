@@ -1,7 +1,18 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Enriched category theory
++--{: .hide}
 [[!include enriched category theory contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
@@ -76,3 +87,7 @@ Copowers are frequently called _tensors_ and a $V$-category having all copowers 
 The notion of copowering has evident analogs in [[higher category theory]].
 
 For the notion of copowering in [[(∞,1)-category theory]] see the section <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">Tensoring</a> at [[limit in a quasi-category]].
+
+[[!redirects copowers]]
+
+[[!redirects tensoring]]
