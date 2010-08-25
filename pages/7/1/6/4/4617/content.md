@@ -27,7 +27,7 @@ $$
   \mathbf{L} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H} = Sh_{(\infty,1)}(C \subset T Alg^{op})
 $$
 
-of the $(\infty,1)$-topos of $(\infty,1)$-sheaves over duals of $T$-algebras at those morphisms that induce isomorphisms in cohomology with coefficients the canonical $T$-line object. In as far as objects of $\mathbf{H}$ have the interpretation of [[∞-Lie groupoid]]s the objects of $\mathbf{L}$ have the interpretatin of [[∞-Lie algebroid]]s.
+of the $(\infty,1)$-topos of $(\infty,1)$-sheaves over duals of $T$-algebras at those morphisms that induce isomorphisms in cohomology with coefficients the canonical $T$-line object. In as far as objects of $\mathbf{H}$ have the interpretation of [[∞-Lie groupoid]]s the objects of $\mathbf{L}$ have the interpretation of [[∞-Lie algebroid]]s.
 
 For the special case where $T$ is the theory of ordinary commutative algebras this reproduces the situation of ([To&#235;n](#Toen)) and many statements are straightforward generalizations from that situation. For the case that $T$ is the theory of _[[smooth algebra]]s_ ($C^\infty$-rings) we obtain a refinement of this to the context of synthetic differential geometry. 
 
