@@ -43,7 +43,7 @@ A good general notion of function algebras on generalized [[space]]s are $T$-alg
 
 We recall some basics and then discuss a [[model category]] structure on cosimplicial $T$-algebras for the cases that $T$ contains the theory of [[abelian group]]s.
 
-#### $T$-Algebras
+#### $T$-Algebras {#TAlgebras}
 
 A [[Lawvere theory]] may be thought of as a generalization of the theory of ordinary [[associative algebra]]s. 
 
@@ -97,7 +97,7 @@ The free $T$-algebra $F_T(1)$ on a single generator may be thoigh of as the $T$-
 
 We say more on the canonical $T$-line object below in [The Line object](#Line)
 
-#### Model structure on cosimplicial $T$-algebras
+#### Model structure on cosimplicial $T$-algebras {#ModelTAlg}
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -133,7 +133,7 @@ is a [[small category|small]] [[full subcategory]] of the [[nLab:opposite catego
 Notice that such a choice induces also a full subcategory of (co)simplicial objects
 
 $$
-  C^{\Delta^{op}} \hookrightarow (T Alg^\Delta)^{op}
+  C^{\Delta^{op}} \hookrightarrow (T Alg^\Delta)^{op}
   \,.
 $$
 
@@ -207,7 +207,7 @@ coend-form (the [[nLab:co-Yoneda lemma]]).
 #### The line object
 
 
-Recall that we write $F_T(*)$ for the free $T$-algebra on a single generator. 
+Recall from [above](#TAlgebras) that we write $F_T(*)$ for the free $T$-algebra on a single generator. 
 
 +-- {: .un_def}
 ###### Definition
@@ -219,7 +219,7 @@ We call $R := j(F_T(*))$ the **line object** in $[C^{op}, sSet]$.
 +-- {: .un_lemma}
 ###### Observation
 
-This presheaf $R$ is the one that sends a $T$-algebra $B \in T Alg$ to its underlying set $U_T(B)$
+As a presheaf, the line object $R$ sends a $T$-algebra $B \in T Alg$ to its underlying set $U_T(B)$
 
 $$
   R : B \mapsto T Alg(F_T(*), B) \simeq Set(*, U_T(B)) \simeq U_T(B)
@@ -228,10 +228,12 @@ $$
 
 =--
 
+This characterization may look simpler, but does not capture the important fact that homming into $R$ produces _$T$-algebras of functions_ . This is what the following definition deals with.
 
 
 +-- {: .un_def}
 ###### Definition
+**($T$-algebras of functions)**
 
 For $X \in [C^{op}, sSet]$, the [[nLab:cosimplicial set]] 
 
@@ -259,23 +261,32 @@ In the next section we see that $(\mathcal{O} \dashv j)$ forms a [[simplicial Qu
 
 
 
-#### Model structure on simplicial presheaves
+#### Model structure on simplicial presheaves {#ModelPresheaves}
+
+Write $[C^{op}, sSet]_{proj}$ for the global projective [[model structure on simplicial presheaves]] over $C$. With the simplicial enrichment $[C^{op}, sSet]_s$ this is naturally a [[simplicial model category]].
+
+Let $S \subset mor [C^{op}, sSet]$ be a class of [[hypercover]]s. 
+
++-- {: .un_def}
+###### Definition
+
+Write $[C^{op}, sSet]_{proj,loc}$ for the 
+[[left Bousfield localization]] $[C^{op}, sSet]_{proj}$ at this class.
+
+=--
+
+By general results on Bousfield localization, this exists always for $S$ a [[small set]], notably for $f$ the set of [[Cech nerve]] projections $C(U) \to X$ for [[cover]]s $\{U_i \to X\}$ of the [[Grothendieck topology]] on $C$. By general results on the [[local model structure on simplicial presheaves]], the localization also exists for $S$ the class of all hypercovers. 
 
 (...)
-
-[[nLab:model structure on simplicial presheaves]]
-
-(...)
-
 
 ### The Yoneda-Quillen-adjunction
 
-Fix an abelian Lawvere thery $T$. We relate the model structure on cosimplicial $T$-algebras with that of simplicial presheaves on $C \subset T Alg^{op}$.
+We relate now the [model structure on cosimplicial T-algebras](#ModelTAlg) with the [model structure on simplicial presheaves](#ModelPresheaves) over $C \subset T Alg^{op}$ using the [function algebra functor](#Line) $\mathcal{O}$ and the [prolonged Yoneda embedding](#ProlongedYoneda) $j$.
 
 +-- {: .un_theorem}
 ###### Theorem
 
-The functors $j$ and $\mathcal{O}$ discussed [above](#Line) constitute an [[simplicial Quillen adjunction]] 
+The functors $j$ and $\mathcal{O}$ constitute an [[simplicial Quillen adjunction]] 
 
 $$
   (\mathcal{O} \dashv j) : 
@@ -362,28 +373,67 @@ This establishes that $j$ is a right Quillen functor and completes the proof.
 
 =--
 
-The following theorem says that the obstructions to making this Quillen adjunction descent to [[nLab:local model structures on simplicial presheaves]] are mild.
+
+The following theorems say that the obstructions to making this Quillen adjunction descent to [[nLab:local model structures on simplicial presheaves]] are mild.
+
++-- {: .un_prop}
+###### Proposition
+
+Let $J$ be a [[subcanonical coverage]] on $C \subset (TAlg^\Delta)^{op}$, $X \in Ob(C)$ and $f : Y \to j(X)$ a [[hypercover]] with respect to $J$.
+
+Then for $i \gt 1$ we have that $f$ induces an isomorphism in $R$-cohomology in degree $i$: $H^i(\mathcal{O}(f))$ is an [[nLab:isomorphism]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
+
 
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $J$ be a [[nLab:subcanonical coverage]] on $C \subset (TAlg^\Delta)^{op}$, $X \in Ob(C)$ and $f : Y \to j(X)$ a [[nLab:hypercover]] with respect to $J$.
+If for all (hyper-)covers $f \in S$ we have that $H^0(\mathcal{O}(f))$ and  $H^1(\mathcal{O}(f))$ are isomorphisms then $(\mathcal{O} \dashv j)$ is a [[simplicial Quillen adjunction]] to the [[local model structure on simplicial presheaves]].
 
-Then for $i \gt 1$ we have that $H^i(\mathcal{O}(f))$ is an [[nLab:isomorphism]].
+$$
+  (\mathcal{O} \dashv j) : 
+  (TAlg^\Delta_{proj})^{op}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\hookrightarrow}}
+  [C^{op}, sSet]_{proj, loc}
+  \,.
+$$
+
 
 =--
 
-+-- {: .un_theorem}
-###### Theorem
 
-If for all (hyper-)covers $f$ we have that $H^0(\mathcal{O}(f))$ and  $H^1(\mathcal{O}(f))$ are isomorphisms then $(\mathcal{O} \dashv j)$ becomes a [[simplicial Quillen adjunction]] to the [[local model structure on simplicial presheaves]].
++-- {: .proof}
+###### Proof
+
+By the previous proposition we have that under the given assumptions every (hyper-)cover $f : Y\to X $ in $[C^{op}, sSet]$ is taken by $\mathcal{O}$ to a weak equivalence.
+
+Using this we can follow the remainder of the argument of [To&#235;n, prop. 2.2.2](#Toen):
+
+Since the [[model structure on simplicial presheaves]] is a [[left proper model category]] and since [[left Bousfield localization]] preserves left properness, we have that $[C^{op}, sSet]_{proj,loc}$ is [[proper model category|left proper]]. Since moreover left Bousfield localization does not change the class of cofibrations, we know that $\mathcal{O}$ still preserves cofibrations.
+
+Then by the <a href="http://ncatlab.org/nlab/show/simplicial+Quillen+adjunction#Recognition">recognition theorem for simplicial Quillen adjunction</a> it is sufficient to check that $j$ sends fibrant objects $A \in (T Alg^\Delta_{proj})^{op}$ to [[local object]]s with respect to the morphisms $f$.
+
+Since by definition of hypercovers, their domain and codomain is cofibrant (codomain because it is a representable, domain by assumption that it is a degreewise coproduct of representables with disjoint degeneracies, see the discussion of cofibrancy in the projective structure at [[model structure on simplicial presheaves]]), this means that it is sufficient to check that for all $f$ and fibrant $c$ we have that $[C^{op}, sSet]_s(f, j(c))$ is a weak equivalence. But by the adjunction $(\mathcal{O} \dashv j)$ this is isomorphically $(T Alg^\Delta)^{op}(\mathcal{O}(f), c)$. 
+
+Now by the above propositions and assumptions, we have that $\mathcal{O}(f)$ is a weak equivalence. Since all objects in $(T Alg^\Delta_{proj})^{op}$ are cofibrant, it is a weak equivalence between cofibrant objects.  With the [[factorization lemma]] it follows that in an [[enriched model category]] the enriched hom of a weak equivalence into a fibrant object is a weak equivalence.
 
 =--
+
 
 +-- {: .un_theorem}
 ###### Proposition
 
-When restricted along $C^\Delta^{op} \subset (T Alg^\Delta)^{op}$ the functor $j$ is _homotopy full and faithful_ in that for all $A \in C^{\Delta^{op}}$ we have that the canonical morphism
+When restricted along $C^{\Delta^{op}} \subset (T Alg^\Delta)^{op}$ the functor $j$ is _homotopy full and faithful_ in that for all $A \in C^{\Delta^{op}}$ we have that the canonical morphism
 
 $$
   A \to \mathbb{L}\mathcal{O} \; \mathbb{R}j \; A
@@ -396,7 +446,7 @@ into the image of the [[derived functor]]s of $j$ and $\mathcal{O}$ is an [[isom
 +-- {: .proof}
 ###### Proof
 
-With the above, this follows essentially verbatim as the proof of the analogous corollary 2.2.3 in ([To&#235;n](#Toen)), to which this reduces for $T$ the theory of ordinary commutative $k$-algebras.
+With the above results, this follows verbatim as the proof of the analogous  ([To&#235;n, corollary 2.2.3](#Toen)).
 
 =--
 
@@ -416,7 +466,7 @@ $$
 
 of the [[nLab:(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ which is the [[nLab:localization of an (∞,1)-category|localization]] at those morphisms that induce isomorphisms in $R$-cohomology, for $R$ the [canonical line object](#Line).
 
-Here $\mathbf{L}(C)$ is the [[full sub-(∞,1)-category]] of $((T Alg^\Delta_{proj})^{op})^\circ$ on those objects in the homotopy-essential image of the inclusion $C^{\Delta^{op}} \to (T Alg^\Delta)^{op}$.
+Here $\mathbf{L}(C)$ is the full [[sub-(∞,1)-category]] of $((T Alg^\Delta_{proj})^{op})^\circ$ on those objects in the homotopy-essential image of the inclusion $C^{\Delta^{op}} \to (T Alg^\Delta)^{op}$.
 
 =--
 
@@ -498,6 +548,17 @@ This serves the purpose of presenting the $\infty$-stack of $\infty$-vector bund
 Passing along the embedding $\mathbf{L} \hookrightarrow \mathbf{H}$ we may compute [[∞-Lie algebra cohomology]] in $\mathbf{H}$.
 
 (...)
+
+## Function algebra on derived $\infty$-stacks
+
+In a higher categorical context, it is unnatural to constrain the site $T Alg^{op}$ to be a 1-category, as so far we do above. A complete $(\infty,1)$-category theoretic setup would replace the [[algebraic theory]] $T$ with an [[(∞,1)-algebraic theory]], let $T Alg_{(\infty,1)}$ be its [[(∞,1)-category]] of algebras and equip $C \subset T Alg_{(\infty,1)}$ with the structure of an [[(∞,1)-site]].
+
+In an intermedite step, if $T$ remains an ordinary algebraic theory, but is regarded as an $(\infty,1)$-algebraic theory, its $(\infty,1)$-algebras $A \in T Alg_{(\infty,1)}$ are typically modeled by _simplicial_ $T$-algebras . In that case the above setup produces an adjunction between simplicial presheaves on duals of simplicial algebras, and cosimplicial simplicial algebras.
+
+For $T$ the theory of ordinary commutative algebras, this yields a derived extension of Toen's setup that has been considered in ([BenZvi-Nadler2010](#BenZviNadler)). For $T$ the theory of smooth algebras, simplicial $T$-algebras are the objects studied in ([Spivak](#Spivak)) as models for [[derived smooth manifold]]s.
+
+
+
 
 ## Appendix
 
@@ -627,8 +688,13 @@ on which this entry here is based.
 The considerations in 
 
 * [[David Spivak]], _Derived smooth manifolds_  Duke Math. J. Volume 153, Number 1 (2010), 55-128. ([pdf](http://www.uoregon.edu/~dspivak/derived-smooth-manifolds.pdf))
+{#Spivak}
 
 on [[derived smooth manifold]]s may be considered as complementary to the approach taken here: there simplicial $C^\infty$-rings are considered, instead of cosimplicial ones. A fully comprehensive treatment of _derived synthetic differential geometry_ would consider the combination of both aspects: simplicial presheaves on duals of simplicial $C^\infty$-rings with a functor $\mathcal{O}$ taking them to cosimplicial-simplicial $C^\infty$-rings. 
 
+For ordinary commutative algebras the generalizaton of Toen's setup to geometry over duals of simplicial algebras is used for instance in
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
+{#BenZviNadler}
 
 [[!redirects function algebras on ∞-stacks]]
