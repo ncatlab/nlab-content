@@ -21,6 +21,8 @@ Often this is called just a _simplicial space_ , if the context is clear.
 
 A special case is that of [[simplicial manifold]]s.
 
+Often one is interested in simplicial topological spaces with extra nice properties. See [[nice simplicial topological space]] for more on that.
+
 ## Applications
 
 As with simplicial objects in general, simplicial spaces may serve to model [[internal ∞-groupoid]]s in [[Top]]. Notably there is a rich theory of [[simplicial topological group]]s.
