@@ -41,7 +41,9 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in [[Set]] is a [[simplicial set]].
 
-* A simplicial object in a category of [[presheaf|presheaves]] is a [[simplicial presheaf]].
+* A simplicial object in a category of [[presheaves]] is a [[simplicial presheaf]].
+
+* A simplicial object in [[Top]] is a [[simplicial topological space]].
 
 * A simplicial object in [[Diff]] is a [[simplicial manifold]].
 
@@ -131,3 +133,6 @@ $$
 
 [[!redirects category of simplicial objects]]
 [[!redirects category of cosimplicial objects]]
+
+[[!redirects categories of simplicial objeects]]
+[[!redirects categories of cosimplicial objects]]
