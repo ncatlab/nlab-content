@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -118,7 +124,7 @@ This is the special case of a [[Lie-Rinehart pair]] $(A,\mathfrak{g})$ where the
 $$
   0 \to ad P \to At(P) \to T X \to 0
 $$
-known as the **Atiyah sequence**. For some $n$-Caf&eacute; blog discussion of this see [n-Transport and Higher Schreier theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html).
+known as the **Atiyah sequence**. For some $n$-Caf&#233; blog discussion of this see [n-Transport and Higher Schreier theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html).
 
 * The **vertical tangent Lie algebroid** $T_{vert}Y \hookrightarrow T Y$ of a smooth map $\pi : Y \to X$ of manifolds is the sub-Lie algebroid of the tangent Lie algebroid $T Y$ defined as follows:
 
