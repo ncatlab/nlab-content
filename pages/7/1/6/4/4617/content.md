@@ -102,7 +102,7 @@ We say more on the canonical $T$-line object below in [The Line object](#Line)
 +-- {: .un_theorem}
 ###### Theorem
 
-There is a [[model structure on cosimplicial abelian groups]] $Ab^\Delta_{proj}$ whose weak equivalences are the morphism that induce [[quasi-isomorphism]] under passage to [[Dold-Kan correspondence|normalized cochain complexes]] and fibrations are the degreewise surjections.  
+There is a [[cofibrantly generated model category|cofibrantly generated]] [[model structure on cosimplicial abelian groups]] $Ab^\Delta_{proj}$ whose weak equivalences are the morphism that induce [[quasi-isomorphism]] under passage to [[Dold-Kan correspondence|normalized cochain complexes]] and fibrations are the degreewise surjections.  
 
 With respect to the [canonical sSet-enrichment](#Enrichment) of the [[category of cosimplicial objects]] $Ab^{\Delta}$, this
 is a [[simplicial model category]].
@@ -110,12 +110,55 @@ is a [[simplicial model category]].
 For $ab_T : \mathcal{Ab} \to T$ any abelian Lawvere theory, the [[adjunction]]
 
 $$
-  T Alg^{\Delta} \stackrel{\leftarrow}{\to} Ab^\Delta
+  ((ab_*)^\Delta \dashv (ab^*)^\Delta ) 
+   : T Alg^{\Delta} \stackrel{\overset{ab_*}{\leftarrow}}{\underset{ab^*}{\to}} Ab^\Delta
 $$
 
-induces a [[transferred model structure]] $T Alg^{\Delta}_{proj}$ on the category of cosimplicial $T$-algebras which is also a [[simplicial model category]] with respect to its [standard sSet-enrichment](#Enrichment).
+induces a [[transferred model structure]] $T Alg^{\Delta}_{proj}$ on the category of cosimplicial $T$-algebras, whose weak equivalences and fibrations are those morphisms that under $(ab^*)^\Delta$ become weak equivalences and fibrations, respectively, in $Ab^\Delta_{proj}$.
+
+This, too, is a [[simplicial model category]] with respect to its [standard sSet-enrichment](#Enrichment).
 
 =--
+
++-- {: .proof}
+###### Proof
+
+The simplicial enrichment of $Ab^\Delta_{proj}$ is discussed at [[model structure on cosimplicial abelian groups]]. We here give the proof of the transferred simplicial model structure on $T Alg^\Delta_{proj}$.
+
+By the facts recalled at [[transferred model structure]], we need to check that $T Alg^\Delta_{proj}$ 
+
+* has a fibrant replacement functor;
+
+* has functorial [[path space object]]s for fibrant objects
+
+and for the simplicial enrichment that
+
+* $(ab^*)^\Delta$ preserves the [[power]]ing.
+
+The first condition is trivial, since all objects are fibrant. The last condition is evidently satisfied, since 
+
+$$
+  U(A^S)_n = U(\prod_{S_n} A_n) = \prod_{S_n} U(A_n) = ((U(A))^S)_n
+  \,.
+$$
+
+Using this, we claim that we can take the path space object functor to be given by [[power]]ing with the simplicial interval
+
+$$ 
+ (-)^I : A \mapsto A^{\Delta[1]}
+ \,.
+$$
+
+This is because $\Delta[0] \coprod \Delta[0] \hookrightarrow \Delta[1] \to \Delta[0]$ factors the co-diagonal in $sSet_{Quillen}$ by a cofibration followed by a weak equivalence between cofibrant objects. Accordingly the induced
+
+$$
+  A \to A^I \to A \times A 
+$$
+
+factors the digonal, and the morphism on the left is a weak equivalence, since it is the image under the left Quillen functor $A^{(-)}$ of a weak equivalence between cofibrant objects (and by the [[factorization lemma]] such weak equivalences are preserved by left Quillen functors).
+
+=--
+
 
 
 ### Simplicial presheaves on duals of $T$-algebras
