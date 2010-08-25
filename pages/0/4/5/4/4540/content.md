@@ -34,7 +34,7 @@ obtained as the [[localization of an (∞,1)-category|localization]] of $\mathbf
 
 An [[∞-Lie algebra]] $\mathfrak{g}$ is a [[connected]] object in $\mathbf{L}$ and **$\infty$-Lie algebra cohomology** is the [[cohomology|intrinsic cohomology]] of $\mathbf{H}$ restricted to $\mathbf{L}$.
 
-Typically $\mathbf{L}$ is [[presentable (∞,1)-category|presented]] by the [[opposite category|opposite]] of a [[model structure on cosimplicial rings|model structure on cosimplicial/cochain algebras]]: the [[Chevalley-Eilenberg algebra]]s of the given [[∞-Lie algebroid]]s. In terms of that model cocycle in $\infty$-Lie algebra cohomology have explicit and familiar algebraic expressions. These we discuss in 
+Typically $\mathbf{L}$ is [[presentable (∞,1)-category|presented]] by the [[opposite category|opposite]] of a [[function algebras on ∞-stacks|model structure on cosimplicial/cochain algebras]]: the [[Chevalley-Eilenberg algebra]]s of the given [[∞-Lie algebroid]]s. In terms of that model cocycle in $\infty$-Lie algebra cohomology have explicit and familiar algebraic expressions. These we discuss in 
 
 * [Explicit definition](#ExplicitDefinition) .
 
@@ -80,7 +80,7 @@ for more.
 
 We may understand the above definitions of $\infty$-Lie algebra cocycles as a special case of the general notion of the [[cohomology|intrinsic cohomology]] of an [[(∞,1)-topos]] by embedding $\infty$-Lie algebras as [[infinitesimal space|infinitesimal]] [[∞-Lie group]]s into the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoid]]s.
 
-Recall from [[rational homotopy theory in an (∞,1)-topos]] that [[∞-Lie algebroid]]s form the [[reflective sub-(∞,1)-category]] 
+Recall from [[function algebras on ∞-stacks]] that [[∞-Lie algebroid]]s form the [[reflective sub-(∞,1)-category]] 
 
 $$
   \mathbf{L}
@@ -88,9 +88,9 @@ $$
   \mathbf{H}
 $$
 
-of a corresponding [[(∞,1)-topos]] $\matthbf{H}$ of structured $\infty$-groupoids admitting a notion of rational homotopy theory in that sense.
+of a corresponding [[(∞,1)-topos]] $\mathbf{H}$ of structure $\infty$-groupoids.
 
-As is (or will be) described at [[?LieGrpd]], one realization of this general situation for genuine $\infty$-Lie groupoids is as follows:
+As described at [[?LieGrpd]], one realization of this general situation for genuine $\infty$-Lie groupoids is as follows:
 
 Let [[ThCartSp]] be the [[site]] of [[infinitesimal object|infinitesimally]] thickened [[Cartesian space]]s. This is the site for the [[Cahiers topos]]. Then the [[(∞,1)-category of (∞,1)-sheaves]] $\mathbf{H} = Sh(ThCartSp)$ we may take to be the $(\infty,1)$-topos of synthetics $\infty$-Lie groupoids. We have then a [[simplicial Quillen adjunction]]
 
@@ -99,7 +99,7 @@ $$
   [ThCartSp^{op}, sSet]_{proj,loc}
 $$
 
-between the [[opposite category|opposite]] of the [[model structure on cosimplicial smooth algebras]]. This models the reflective inclusion of [[∞-Lie algebroid]]s into all synthetic differential $\infty$-groupoids
+between the [[opposite category|opposite]] of the [[function algebras on ∞-stacks|model structure on cosimplicial smooth algebras]]. This models the reflective inclusion of [[∞-Lie algebroid]]s into all synthetic differential $\infty$-groupoids
 
 $$
   \infty LieAlg stackrel{\leftarrow}{\hookrightarrow}
@@ -107,7 +107,7 @@ $$
   \,.
 $$
 
-Details on this are the subject of a Master thesis by Herman Stel, which will be filled in here when officially available. But the model structure on cosimplicial [[smooth algebra]]s is the [[transferred model structure]] of the [[model structure on cosimplicial rings]], and for the following discussion we can essentially just as well use the analogous Quillen adjunction without the smooth structure originally considered by [[Bertrand Toen]]
+Details on this are at [[function algebras on ∞-stacks]]. But the [[function algebras on ∞-stacks|model structure on cosimplicial smooth algebras]]s is the [[transferred model structure]] of the [[model structure on cosimplicial rings]], and for the following discussion we can essentially just as well use the analogous Quillen adjunction without the smooth structure originally considered by [[Bertrand Toen]]
 
 $$
   (CAlg^\Delta)^{op} \stackrel{\leftarrow}{\hookrightarrow}
