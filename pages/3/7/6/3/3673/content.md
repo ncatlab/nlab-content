@@ -86,7 +86,7 @@ $$
   X^t \to X^s \times_{Y^s} Y^{t}
 $$
 
-is a fibration, which is a weak equivalence if at least one of the two input morphisms is. By the induced model structure, this is checked by applying $U$. But by assumption $U$ commutes with the powering, and since $U$ is a [[right adjoint]] it commutes with taking the pullback, to that under $U$ the morphism is
+is a fibration, which is a weak equivalence if at least one of the two input morphisms is. By the induced model structure, this is checked by applying $U$. But by assumption $U$ commutes with the powering, and since $U$ is a [[right adjoint]] it commutes with taking the pullback, so that under $U$ the morphism is
 
 $$
   U(X)^t \to U(X)^s \times_{U(Y)^s} U(Y)^{t}
@@ -99,6 +99,8 @@ which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyc
 
 
 ## Examples
+
+* The [[model structure on algebraic fibrant objects]] is transferred from the underlying model category by forgetting the choice of fillers.
 
 ...
 
