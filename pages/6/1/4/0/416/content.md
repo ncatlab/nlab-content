@@ -1,7 +1,18 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Enriched category theory
++--{: .hide}
 [[!include enriched category theory contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
@@ -27,6 +38,8 @@ where $C(-,-)$ is the $V$-valued hom of $C$ and $V(-,-)$ is the internal-hom of 
 * Powers are frequently called _cotensors_ and a $V$-category having all powers is called _cotensored_, while the word "power" is reserved for the case $V=Set$.  However, there seems to be no good reason for making this distinction.  Moreover, the word "tensor" is fairly overused, and unfortunate since a tensor (= a [[copower]]) is a colimit, while a cotensor (= power) is a limit.
 
 [[!redirects cotensor]]
+[[!redirects cotensoring]]
+
 [[!redirects powers]]
 [[!redirects cotensors]]
 [[!redirects cotensored category]]
