@@ -34,7 +34,7 @@ For the special case where $T$ is the theory of ordinary commutative algebras th
 As an application, we show how Anders Kock's simplicial model for synthetic combinatorial differential forms finds a natural interpretation as the differentiable $\infty$-stack of infinitesimal paths of a manifold. This construction is an $\infty$-categorical and synthetic differential resolution of the _de Rham space_ functor introduced by Grothendieck for the cohomological description of flat connections. We observe that also the construction of the $\infty$-stack of modules lifts to the synthetic differential setup and thus obtain a notion of synthetic $\infty$-vector bundles with flat connection.
 
 
-## General theory
+## Models for $\infty$-stacks and their function algebras {#Models}
 
 
 ### Cosimplicial $T$-algebras
@@ -450,12 +450,14 @@ With the above results, this follows verbatim as the proof of the analogous  ([T
 
 =--
 
-###  Localization of the $(\infty,1)$-topos at $R$-cohomology
+##  Localization of the $(\infty,1)$-topos at $R$-cohomology
 
-In terms of the [[(∞,1)-category theory]] that is presented by the model category theoretic structures that we considered, the above model theoretic results serve to establish the following intrinsic statement
 
-+-- {: .un_cor}
-###### Corollary
+In this section we discuss that in terms of the [[(∞,1)-category theory]] 
+that is [[presentable (∞,1)-category|presented]] by the model category theoretic structures [above](#Models), these serve to establish the following intrinsic statement.
+
++-- {: .un_theorem}
+###### Theorem
 
 The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] of the [[reflective sub-(∞,1)-category]]
 
@@ -464,13 +466,80 @@ $$
   Sh_{(\infty,1)}(C)
 $$
 
-of the [[nLab:(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ which is the [[nLab:localization of an (∞,1)-category|localization]] at those morphisms that induce isomorphisms in $R$-cohomology, for $R$ the [canonical line object](#Line).
+of the [[nLab:(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ which is the [[nLab:localization of an (∞,1)-category|localization]] at those morphisms that induce isomorphisms in $R$-cohomology, for $R$ the [canonical T-line object](#Line).
 
 Here $\mathbf{L}(C)$ is the full [[sub-(∞,1)-category]] of $((T Alg^\Delta_{proj})^{op})^\circ$ on those objects in the homotopy-essential image of the inclusion $C^{\Delta^{op}} \to (T Alg^\Delta)^{op}$.
 
 =--
 
+
+### $R$-Cohomology
+
+Since the $T$-line $R \in [C^{op}, sSet]$ canonically has the structure of an [[abelian group]] in $[C^{op}, sSet]$. As such it presents a 0-[[truncated]] [[∞-group]] in $Sh_{(\infty,1)}(C)$, and so we may consider its [[Eilenberg-MacLane object]]s $\matbf{B}^n R$ for $n \in \mathbb{N}$.
+
+
+Write $\Xi : Ch^\bullet_+ \to Ab^\Delta$ for the dual [[Dold-Kan correspondence]] map. Notice that $F_{Ab}(*) = \mathbb{Z}$, the free abelian group on a single generator. Write $F_{Ab}(*)[n]$ for the [[cochain complex]] concentrated in degree $n$ on $F_{Ab}(*)$. For $ab_* : Ab \to T Alg$ the left adjoint to the underlying abelian group functor $ab^* : T Alg \to Ab$ we have then thagt $ab_* \Xi (F_{Ab}(*)[n])$ is the cosimplicial $T$-algebra which in degree $k$ is a product of copies of the free $T$-algebra corresponding to the product of copies $\mathbb{Z}$ in $\Xi \mathbb{Z}[n]$.
+
+
+We claim that 
+$$
+  \mathbf{B}A \simeq j(ab_* \Xi(F_{Ab}(*)[n])
+$$
+
+**Proposition**
+
+For $X \in [C^{op}, sSet]$, the [[cohomology|intrinsic cohomology]] $H(X, \mathbf{B}^n R)$ with coefficients in $R$ is the [[cochain cohomology]] $H^n(\mathbb{L}\mathcal{O}(X))$ of the cochain complex  of its cosimplicial function algebra.
+
+Proof.
+
+Notice that $ab_* \Xi(F_{Ab}(*)[n]$ is fibrant in $(T Alg^\Delta_{proj})^{op}$. Then
+
+
+$$
+  \begin{aligned}
+    H(X,\mathbf{B}^n R)
+    & =
+    Ho_{[C^{op}, sSet]_{proj}}(X, j(ab_* \Xi(F_{Ab}(*)[n]))
+    \\
+    & \simeq
+    Ho_{(T Alg^\Delta_{proj})^{op}}(\mathbb{L}\mathcal{O}(X), 
+     ab_* \Xi(F_{Ab}(*)[n])
+    \\
+    & \simeq
+    Ho_{(T Alg^\Delta_{proj})}( 
+        ab_* \Xi(F_{Ab}(*)[n]),
+       \mathbb{L}\mathcal{O}(X)
+    )
+    \\
+    & \simeq 
+    Ho_{(T Alg^\Delta_{proj})}( 
+        \Xi(F_{Ab}(*)[n]),
+       ab^* \mathbb{L}\mathcal{O}(X)
+    )
+    \\
+    & \simeq 
+    Ho_{Ch^\bullet}( 
+        F_{Ab}(*)[n],
+       N^\bullet ab^* \mathbb{L}\mathcal{O}(X)
+    )
+    \\
+    & =
+    Ho_{Ch^\bullet}( 
+        \mathbb{Z}[n],
+       N^\bullet ab^* \mathbb{L}\mathcal{O}(X)
+    )
+    \\
+    & \simeq
+    H^n(\mathbb{L}\mathcal{O}(X))
+  \end{aligned}
+$$
+
 (...)
+
+### $R$-Local objects
+
+(...)
+
 
 ## Examples and applications {#Examples}
 
