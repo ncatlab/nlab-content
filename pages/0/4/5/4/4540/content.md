@@ -92,7 +92,7 @@ of a corresponding [[(∞,1)-topos]] $\matthbf{H}$ of structured $\infty$-groupo
 
 As is (or will be) described at [[?LieGrpd]], one realization of this general situation for genuine $\infty$-Lie groupoids is as follows:
 
-Let [[ThCartSp]] be the [[site]] of [[infinitesimal object|infinitesimally]] thickened [[Cartesian space]]s. This is the site for the [[Cahiers topos]]. Then the [[(∞,1)-category of (∞,1)-sheaves]] $\mathbf{H} = Sh(ThCartSp)$ we may take to be the $(\infty,1)$-topos of synthetics $\infty$-Lie groupoids. We have then a [[simplicial model category|simplicial]] [[Quillen adjunction]]
+Let [[ThCartSp]] be the [[site]] of [[infinitesimal object|infinitesimally]] thickened [[Cartesian space]]s. This is the site for the [[Cahiers topos]]. Then the [[(∞,1)-category of (∞,1)-sheaves]] $\mathbf{H} = Sh(ThCartSp)$ we may take to be the $(\infty,1)$-topos of synthetics $\infty$-Lie groupoids. We have then a [[simplicial Quillen adjunction]]
 
 $$
   (C^\infty Alg^{\Delta})^{op} \stackrel{\leftarrow}{\hookrightarrow}
