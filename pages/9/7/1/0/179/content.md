@@ -66,7 +66,9 @@ This dg-algebra is usefully thought of as the [[Chevalley-Eilenberg algebra]] of
 
 In the literature on [[Lie algebroid]]s, however, $CE(\mathfrak{a})$ often goes by different names, such as "canonical complex" or "the complex that computes Lie algebroid cohomology". In the literature on what we here identify as $\infty$-Lie algebroids, the algebras $CE(\mathfrak{a})$ are often thought of as algebras of functions on [[NQ-supermanifold]]s.
 
-Accordingly, there is a bit of room for different approaches of how to define the [[(∞,1)-category]] of [[∞-Lie algebroid]]s. A very general abstract [[nPOV]] perspective proceeds via the notion of [[rational homotopy theory in an (∞,1)-topos]]: here the [[(∞,1)-topos]] $\mathbf{H}$ of the given notion of [[∞-Lie groupoid]]s is taken to be equipped with a specific line-object $R$, and the [[(∞,1)-category]] $\mathbf{L}$ of [[∞-Lie algebroid]]s is the [[reflective (∞,1)-subcategory]] that [[localization of an (∞,1)-category|localize]] $\mathbf{H}$ at those morphism that induce [[isomorphism]]s in the $R$-[[cohomology]] internal to $\mathbf{H}$
+Accordingly, there is a bit of room for different approaches of how to define the [[(∞,1)-category]] of [[∞-Lie algebroid]]s. A very general abstract [[nPOV]] perspective proceeds via the notion of [[function algebras on ∞-stacks]]:
+
+here the [[(∞,1)-topos]] $\mathbf{H}$ of the given notion of [[∞-Lie groupoid]]s is taken to be equipped with a specific line-object $R$, and the [[(∞,1)-category]] $\mathbf{L}$ of [[∞-Lie algebroid]]s is the [[reflective (∞,1)-subcategory]] that [[localization of an (∞,1)-category|localize]] $\mathbf{H}$ at those morphism that induce [[isomorphism]]s in the $R$-[[cohomology]] internal to $\mathbf{H}$
 
 $$
   \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow}
@@ -389,6 +391,12 @@ Using this the total complex of $N C^\infty(-)$ of this bisimplicial set is mani
 
 ...
 
+## Related concepts
+
+### $\infty$-Lie algebroid valued differential forms
+
+see [[schreiber:∞-Lie algebroid valued differential forms]]
+
 ## References
 
 The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" as such is not as yet established in the literature, as most authors working with these objects think of them entirely in terms of [[dg-algebra]]s or [[NQ-supermanifolds]] and either ignore the relation to [[Lie theory]] or take it more or less for granted. 
@@ -397,7 +405,15 @@ Possibly the first explicit appearance of the idea of $\infty$-Lie algebroids re
 
 * [[Pavol ?evera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
 
-which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, in hindsight one finds that much of this is already implicit in the much older theory of [[Sullivan model|Sullivan models]] in [[rational homotopy theory]], which is concerned with modelling _spaces_ by qDGCAs. That these spaces can be regarded as [[∞-groupoids]] and as [[Lie ∞-groupoids]] in particular is clear in hindsight, but was possibly first explicitly realized in the above reference. See also [[Lie integration]].
+which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, in hindsight one finds that much of this is already implicit in the much older theory of [[Sullivan model|Sullivan models]] in [[rational homotopy theory]], which is concerned with modelling _[[topological space]]s_ by [[dg-algebras]]. That these spaces can be regarded as [[∞-groupoids]] and as [[∞-Lie groupoids]] in particular is clear in hindsight, but was possibly first explicitly realized in the above reference. See also [[Lie integration]], [[rational homotopy theory in an (∞,1)-topos]] and [[function algebras on ∞-stacks]].
+
+The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such appears in 
+
+* Hisham Sati, Urs Schreiber, Jim Stasheff, _Twisted differential string- and  fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">ref</a>)
+
+The term also appears in
+
+* Andrew James Bruce, _From $L_{\infty}$-algebroids to higher Schouten/Poisson structures_ ([arXiv:1007.1389](http://arxiv4.library.cornell.edu/abs/1007.1389))
 
 [[!redirects L-infinity-algebroid]]
 [[!redirects L-infinity algebroid]]
@@ -420,3 +436,6 @@ which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, 
 
 [[!redirects ∞-Lie algebroid]]
 [[!redirects ∞-Lie algebroids]]
+
+[[!redirects infinity-Lie algebroid]]
+[[!redirects infinity-Lie algebroids]]
