@@ -134,5 +134,5 @@ $$
 [[!redirects category of simplicial objects]]
 [[!redirects category of cosimplicial objects]]
 
-[[!redirects categories of simplicial objeects]]
+[[!redirects categories of simplicial objects]]
 [[!redirects categories of cosimplicial objects]]
