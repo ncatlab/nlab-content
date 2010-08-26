@@ -474,6 +474,7 @@ Now by the above propositions and assumptions, we have that $\mathcal{O}(f)$ is 
 
 =--
 
+The following proposition asserts that the Quillen adjunction that we have established is very special, in that it is the model-category theoretic analog of a [[reflective subcategory]]. Below in the section [Localization of the (∞,1)-topos at R-cohomology](#Intrinsic) we see that this indeed presents such a reflective inclusion in [[(∞,1)-category theory]].
 
 +-- {: .un_theorem}
 ###### Proposition
@@ -495,7 +496,9 @@ With the above results, this follows verbatim as the proof of the analogous  ([T
 
 =--
 
-##  Localization of the $(\infty,1)$-topos at $R$-cohomology
+
+
+##  Localization of the $(\infty,1)$-topos at $R$-cohomology {#Intrinsic}
 
 In this section we discuss that in terms of the [[(∞,1)-category theory]] 
 that is [[presentable (∞,1)-category|presented]] by the model category theoretic structures [above](#Models), these serve to establish the following intrinsic statement.
@@ -506,14 +509,12 @@ that is [[presentable (∞,1)-category|presented]] by the model category theoret
 The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] of the [[reflective sub-(∞,1)-category]]
 
 $$
-  \mathbf{L}(C) \stackrel{\stackrel{\mathcal{O}}{\leftarrow}}{\hookrightarrow}
+  \mathbf{L}_C \stackrel{\stackrel{\mathcal{O}}{\leftarrow}}{\hookrightarrow}
   \mathbf{H}:=
   Sh_{(\infty,1)}(C)
 $$
 
-of the [[nLab:(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ which is the [[nLab:localization of an (∞,1)-category|localization]] at those morphisms that induce isomorphisms in $R$-cohomology, for $R$ the [canonical T-line object](#Line).
-
-Here $\mathbf{L}(C)$ is the full [[sub-(∞,1)-category]] of $((T Alg^\Delta_{proj})^{op})^\circ$ on those objects in the homotopy-essential image of the inclusion $C^{\Delta^{op}} \to (T Alg^\Delta)^{op}$.
+of the [[nLab:(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$, where $\mathbb{L}_C$ is  the [[nLab:localization of an (∞,1)-category|localization]] at those morphisms that induce isomorphisms in intrinsic $R$-[[cohomology]], for $R$ the [canonical T-line object](#Line).
 
 =--
 
