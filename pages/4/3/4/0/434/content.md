@@ -32,3 +32,7 @@
 * [[pure set]]
 * [[set theory]]
 * [[truth value]]
+
+
+[[!redirects foundations and logic]]
+[[!redirects logic and foundations]]
