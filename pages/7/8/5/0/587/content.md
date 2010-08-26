@@ -1,10 +1,10 @@
 <div class="rightHandSide toc">
 [[!include type theory - contents]]
 </div>
-#Contents#
+
+# Contents
 * automatic table of contents goes here
 {:toc}
-
 
 ## Idea
 
@@ -152,3 +152,6 @@ Of course, one thing that contexts do is to form an honest category even if you 
 
 [[!redirects context]]
 [[!redirects contexts]]
+
+[[!redirects category of contexts]]
+[[!redirects categories of contexts]]
