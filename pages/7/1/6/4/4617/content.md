@@ -440,6 +440,8 @@ Then for $i \gt 1$ we have that $f$ induces an isomorphism in $R$-cohomology in 
 
 +-- {: .un_theorem}
 ###### Theorem
+**(passage to local model structure)**
+{#PassageToLocalTheorem}
 
 If for all (hyper-)covers $f \in S$ we have that $H^0(\mathcal{O}(f))$ and  $H^1(\mathcal{O}(f))$ are isomorphisms then $(\mathcal{O} \dashv j)$ is a [[simplicial Quillen adjunction]] to the [[local model structure on simplicial presheaves]].
 
@@ -495,7 +497,6 @@ With the above results, this follows verbatim as the proof of the analogous  ([T
 
 ##  Localization of the $(\infty,1)$-topos at $R$-cohomology
 
-
 In this section we discuss that in terms of the [[(∞,1)-category theory]] 
 that is [[presentable (∞,1)-category|presented]] by the model category theoretic structures [above](#Models), these serve to establish the following intrinsic statement.
 
@@ -506,6 +507,7 @@ The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-
 
 $$
   \mathbf{L}(C) \stackrel{\stackrel{\mathcal{O}}{\leftarrow}}{\hookrightarrow}
+  \mathbf{H}:=
   Sh_{(\infty,1)}(C)
 $$
 
@@ -515,58 +517,86 @@ Here $\mathbf{L}(C)$ is the full [[sub-(∞,1)-category]] of $((T Alg^\Delta_{pr
 
 =--
 
+We obtain a proof of this after the following discussions.
 
 ### $R$-Cohomology
 
-Since the $T$-line $R \in [C^{op}, sSet]$ canonically has the structure of an [[abelian group]] in $[C^{op}, sSet]$. As such it presents a 0-[[truncated]] [[∞-group]] in $Sh_{(\infty,1)}(C)$, and so we may consider its [[Eilenberg-MacLane object]]s $\matbf{B}^n R$ for $n \in \mathbb{N}$.
+Since $T$ is assumed to be an abelian Lawvere theory, the [T-line object](#Line) $R \in [C^{op}, sSet]$ canonically has the structure of an abelian [[group object]] in $[C^{op}, sSet]$. As such it presents a 0-[[truncated]] [[∞-group]] in the $Sh_{(\infty,1)}(C)$, and so we may consider its [[Eilenberg-MacLane object]]s $\mathbf{B}^n R$ for $n \in \mathbb{N}$.
 
 
-Write $\Xi : Ch^\bullet_+ \to Ab^\Delta$ for the dual [[Dold-Kan correspondence]] map. Notice that $F_{Ab}(*) = \mathbb{Z}$, the free abelian group on a single generator. Write $F_{Ab}(*)[n]$ for the [[cochain complex]] concentrated in degree $n$ on $F_{Ab}(*)$. For $ab_* : Ab \to T Alg$ the left adjoint to the underlying abelian group functor $ab^* : T Alg \to Ab$ we have then thagt $ab_* \Xi (F_{Ab}(*)[n])$ is the cosimplicial $T$-algebra which in degree $k$ is a product of copies of the free $T$-algebra corresponding to the product of copies $\mathbb{Z}$ in $\Xi \mathbb{Z}[n]$.
+The following proposition provides a model for these Eilenberg-MacLane objects.
 
+Write $\Xi : Ch^\bullet_+ \to Ab^\Delta$ for the dual [[Dold-Kan correspondence]] map. Notice that the free $\mathcal{Ab}$-algebra is $F_{Ab}(*) = \mathbb{Z}$, the free abelian group on a single generator, the [[integer]]. Write $F_{Ab}(*)[n] = \mathbb{Z}[n]$ for the [[cochain complex]] concentrated in degree $n$ on $F_{Ab}(*)$. For $ab_* : Ab \to T Alg$ the left adjoint to the underlying abelian group functor $ab^* : T Alg \to Ab$ we have then thagt $ab_* \Xi (F_{Ab}(*)[n])$ is the cosimplicial $T$-algebra which in degree $k$ is a product of copies of the free $T$-algebra corresponding to the product of copies $\mathbb{Z}$ in $\Xi \mathbb{Z}[n]$.
 
-We claim that 
++-- {: .un_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$ the object $\mathbf{B}^n R \in Sh_{(\infty,1)}(C)$ is presented in $[C^{op}, sSet]_{proj,loc}$ by
+
 $$
-  \mathbf{B}A \simeq j(ab_* \Xi(F_{Ab}(*)[n])
+  \mathbf{B}^n R_{chn} := j(ab_* \Xi(F_{Ab}(*)[n])
+  \,.
 $$
 
-**Proposition**
+=--
 
-For $X \in [C^{op}, sSet]$, the [[cohomology|intrinsic cohomology]] $H(X, \mathbf{B}^n R)$ with coefficients in $R$ is the [[cochain cohomology]] $H^n(\mathbb{L}\mathcal{O}(X))$ of the cochain complex  of its cosimplicial function algebra.
+Every [[(∞,1)-topos]] such as $\mathbf{H} = Sh_{(\infty,1)}(C)$ comes with its [[cohomology|intrinsic notion of abelian cohomology]]: for $X \in \mathbf{H}$ any object and for $A \in \mathbf{H}$ a [[∞-group]] object with arbitrary [[delooping]]s $\mathbf{B}^n A$, the $n$th cohomology group of $X$ with coefficients in $A$ is
 
-Proof.
+$$
+  H^n(X,A) := \pi_0 \mathbf{H}(X,\mathbf{B}^n A)
+  \,.
+$$
 
-Notice that $ab_* \Xi(F_{Ab}(*)[n]$ is fibrant in $(T Alg^\Delta_{proj})^{op}$. Then
+In terms of the [[model category]] presentation by $[C^{op}, sSet]_{proj,loc}$ and writing $X \in [C^{op}, sSet]$ for a representative of $X \in \mathbf{H}$ this is the [[hom-set]] in the [[homotopy category]]
 
+$$
+  \cdots \simeq Ho_{[C^{op}, sSet]_{proj,loc}}(X, \mathbf{B}^n A_{chn})
+  \,.
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+For $X \in [C^{op}, sSet]$ representing an object $X \in \mathbf{H}$, the intrinsic $R$-cohomology of $X$ coincides with the [[cochain cohomology]] of its cosimplicial function algebra $\mathbb{L}\mathcal{O}(X) \in T Alg^\Delta$:
+
+$$
+  H^n(X,R) \simeq H^n( \mathbb{L} \mathcal{O}(X))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that $ab_* \Xi(\mathbb{Z}[n])$, being the image of a cofibrant object in $Ab^\Delta$, is cofibrant in $T Alg^\Delta_{proj}$, hence fibrant in 
+$(T Alg^\Delta_{proj})^{op}$. 
+
+Using this, we comute as follows
 
 $$
   \begin{aligned}
     H(X,\mathbf{B}^n R)
     & =
-    Ho_{[C^{op}, sSet]_{proj}}(X, j(ab_* \Xi(F_{Ab}(*)[n]))
+    Ho_{[C^{op}, sSet]_{proj}}(X, j(ab_* \Xi(\mathbb{Z}[n]))
     \\
     & \simeq
     Ho_{(T Alg^\Delta_{proj})^{op}}(\mathbb{L}\mathcal{O}(X), 
-     ab_* \Xi(F_{Ab}(*)[n])
+     ab_* \Xi(\mathbb{Z}[n])
     \\
     & \simeq
     Ho_{(T Alg^\Delta_{proj})}( 
-        ab_* \Xi(F_{Ab}(*)[n]),
+        ab_* \Xi(\mathbb{Z}[n]),
        \mathbb{L}\mathcal{O}(X)
     )
     \\
     & \simeq 
-    Ho_{(T Alg^\Delta_{proj})}( 
-        \Xi(F_{Ab}(*)[n]),
+    Ho_{(Ab^\Delta_{proj})}( 
+        \Xi(\mathbb{Z}[n]),
        ab^* \mathbb{L}\mathcal{O}(X)
     )
     \\
     & \simeq 
-    Ho_{Ch^\bullet}( 
-        F_{Ab}(*)[n],
-       N^\bullet ab^* \mathbb{L}\mathcal{O}(X)
-    )
-    \\
-    & =
     Ho_{Ch^\bullet}( 
         \mathbb{Z}[n],
        N^\bullet ab^* \mathbb{L}\mathcal{O}(X)
@@ -576,6 +606,10 @@ $$
     H^n(\mathbb{L}\mathcal{O}(X))
   \end{aligned}
 $$
+
+=--
+
+This is essentially the argument of ([To&#235;n, corollary 2.2.6](#Toen)).
 
 (...)
 
@@ -604,9 +638,122 @@ The conditons of the above theorem are satisfied for instance for
 
 $T$ the Lawvere theory of $\mathbb{Q}$-algebras. Then $(\mathcal{O} \dashv j)$ reproduces the setup discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
-### $\infty$-Lie theory
+### $\infty$-Lie theory in the $\infty$-Cahiers topos
 
-$T = $ [[CartSp]] the ([[syntactic category]] of the) Lawvere theory of [[smooth algebra]]s. A [[Fermat theory]]. $C \subset CartSp Alg$ the [[site]] for the [[Cahiers topos]].
+In this section we study the general theory for the case that
+
+* $T := $ [[CartSp]] is the ([[syntactic category]] of the) Lawvere theory of [[smooth algebra]]s.
+
+Write $Smooth Alg := T Alg$ for the category of smooth algebras. Sheaf toposes on sub-sites $C \subset Smooth Alg^{op}$ are well known to provide [[smooth topos]]es that are [[Models for Smooth Infinitesimal Analysis|well adapted models]] for [[synthetic differential geometry]].
+
+We consider here the choice
+
+* $C \subset Smooth Alg^{op}$ is the [[site]] for the [[Cahiers topos]].
+
++-- {: .un_defn}
+###### Definition
+
+The [[Cahiers topos]] is the [[sheaf topos]] $Sh(ThCartSp)$ on the [[site]] [[ThCartSp]] $\subset CartSp Alg^{op}$ with [[coverage]] given by the families $\{U_i \times S \stackrel{(p,Id)}{\to} X \times S\}$, where $U \in $ [[CartSp]], $S$ is an [[infinitesimal space]] (the dual of a Weil algebra) and where $\{U_i \to X\}$ is a [[good open cover]] in [[CartSp]]. 
+
+The **$(\infty,1)$-Cahiers-topos** is the [[(∞,1)-category of (∞,1)-sheaves]] on [[ThCartSp]] with respect to the good open cover coverage.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The good open cover [[coverage]] generates the [[Grothendieck topology]] of all [[open cover]]s on [[CartSp]].  Therefore the sheaf toposes on $ThCartSp$ with covering families coming from all open covers of Cartesian spaces is equivalent to the sheaf topos on $ThCartSp$ with only good open covering.
+
+By the discussioin at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage">Cech localization of simplicial presheaves at a coverage</a>, the analogous statement holds true for the [[(∞,1)-topos]]es over these sites. 
+
+Therefore we may model $Sh_{(\infty,1)}(ThCartSp_{good-open})$ by the [[left Bousfield localization]] of $[ThCartSp^{op}, sSet]_{proj}$ at the [[Cech nerve]]s of all good open cover. Notice that the construction of [[good open cover]]s (see there) on [[paracompact space]]s (such as [[Cartesian space]]s) by geodescally convex regions shows that we may always find a good open cover all whose finite non-empty intersections are [[diffeomorphism|diffeomorphic]] to an open ball, hence to a Cartesian space. We shall adopt for the present purposes therefore that a cover $\{U_i \to X\}$ is _good_ if all finite intersections are isomorphic to Cartesian spaces. 
+
+The point is that with this definition, the [[Cech nerve]] $C(U) \in [ThCartSp^{op}, sSet]_{proj}$ is cofibrant, by the <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">characterization of cofibrant objects</a> in the projective model structure. 
+
+As a consequence of this, we have the following useful technical result.
+
+=--
+
+
++-- {: .un_lemma}
+###### Definition/Observation
+
+Write $[ThCartSp^{op}, sSet]_{proj,cov}$ for the [[left Bousfield localization]] of the global projective model structure $[ThCartSp^{op}]_{proj}$ at the [[Cech nerve]]s $C(U) \to X\times S$ of [[good open cover]]s $\{U_i \times S \to X \times S\}$ in [[ThCartSp]].
+
+We have that 
+
+* this presents the $(\infty,1)$-Cahiers topos $Sh_{(\infty,1)}(ThCartSp) \simeq ([ThCartSp^{op}, sSet]_{proj,cov})$;
+
+* the fibrant objects of $[ThCartSp^{op}, sSet]_{proj,cov}$ are precisely those fibrant objects  $A \in [ThCartSp^{op}, sSet]_{proj}$ such that for all goop open covers $\{ U_i \times S \to X \times S\}$ with Cech nerve $p_U : C(U) \to X \times S$ we have that 
+
+  $$
+    [ThCartSp^{op}, sSet]( p_U , A )
+  $$
+
+  is a weak equivalence (of [[Kan complex]]es).
+
+=--
+
++-- {: .un_lemma}
+###### Lemma
+
+The Cech nerves projeections $p_U : C(U) \to X \times S$ induce isomorphisms on the cohomology of their cosimplicial function algebras: $H^p(\mathcal{O}(p_U))$ is an isomorphism, for all $p \in \mathbb{N}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a standard fact about [[Cech cohomology]]. An explicit way to see it is to choose a smooth [[partition of unity]] subordinate to the cover. See <a href="http://ncatlab.org/nlab/show/partition+of+unity#CechCoboundaries">Coboundaries for Cech cocycles</a>.
+
+=--
+
+This means that the assumptions of the [Theorem on passage to the local model structure](#PassageToLocalTheorem) are satisfied.
+
++-- {: .un_corollary}
+###### Corollary
+
+We have a [[simplicial Quillen adjunction]]
+
+$$
+  (Smooth Alg^\Delta_{proj})^{op}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
+  [ThCartSp^{op}, sSet]_{proj,cov}
+  \,.
+$$
+
+=--
+
+#### $\infty$-Lie algebroids
+
++-- {: .un_def}
+###### Definition
+
+The objects of the $(\infty,1)$-Cahiers topos we call **synthetic differential** [[∞-Lie groupoid]]s.
+
+The objects of the reflective sub-$(\infty,1)$-category of $R$-local objects in the $(\infty,1)$-Cahiers topos 
+
+$$
+  \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow}
+  \mathbf{H} = Sh_{(\infty,1)}(ThCartSp)
+$$
+
+we call **[[∞-Lie algebroid]]**s. 
+
+A [[connected]] $\infty$-Lie algebroid we call an **[[∞-Lie algebra]]**.
+
+
+
+=--
+
+
+(...)
+
+Passing along the embedding $\mathbf{L} \hookrightarrow \mathbf{H}$ we may compute [[∞-Lie algebra cohomology]] in $\mathbf{H}$.
+
+(...)
+
+
 
 #### The infinitesimal path $\infty$-groupoid of a manifold
 
@@ -634,7 +781,9 @@ $$
   [C^{op}, sSet]
 $$
 
-the infinitesimal path $\infty$-Lie groupoid of $U$.
+the infinitesimal path $\infty$-Lie groupoid of $U$. 
+
+Or the **path $\infty$-Lie algebroid** .
 
 (...)
 
@@ -653,13 +802,6 @@ This serves the purpose of presenting the $\infty$-stack of $\infty$-vector bund
 (...)
 
 
-### $\infty$-Lie algebra cohomology
-
-(...)
-
-Passing along the embedding $\mathbf{L} \hookrightarrow \mathbf{H}$ we may compute [[∞-Lie algebra cohomology]] in $\mathbf{H}$.
-
-(...)
 
 ## Function algebra on derived $\infty$-stacks
 
