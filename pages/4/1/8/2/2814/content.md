@@ -58,6 +58,9 @@ $$
 
 If $F$ is strong monoidal then this is an ordinary [[2-functor]]. If it is strict monoidal, then this is a [[strict 2-functor]].
 
+## String diagrams
+
+Just like monoidal categories, monoidal functors have a [[string diagram]] calculus; see [these slides](http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf) for some examples.
 
 [[!redirects lax monoidal functor]]
 [[!redirects strict monoidal functor]]
