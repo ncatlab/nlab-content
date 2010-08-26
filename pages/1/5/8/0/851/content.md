@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
@@ -50,17 +58,13 @@ be an [[(∞,1)-functor]] -- a morphism of simplicial sets.
    a natural bijection of hom-sets
 
    $$
-    Hom_{SSet}(S, C_{F/})
+    Hom_{sSet}(S, C_{F/})
      \cong
-     (Hom_{(K\downarrow SSet)})(i_K , F)
+     (Hom_{(K\downarrow SSet)})(i_{K,S} , F)
      \,,
    $$
 
-   where
-
-   * $K \star S $ is the [[join of simplicial sets]] of $S$ with $K$;
-
-   * the map i_K is the canonical map $K\to K\star S$.
+   where $i_{K,S} : K \to K \star S$ is the canonical inclusion of $K$ into its [[join of simplicial sets]] with $S$.
 
    Concretely, the underlying simplicial set of $C_{F/}$ is given by 
 
