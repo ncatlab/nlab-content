@@ -27,7 +27,7 @@ an [[adjunction]] with $U$ [[right adjoint]], under certain conditions it is pos
 
 Typically this arises in situations where $D$ consist of the "same" objects as $C$ but equipped with extra [[stuff, structure, property]], and $U$ is the corresponding [[forgetful functor]] sending objects in $D$ to their underlying objects in $C$. Then $F$ is the corresponding [[free functor]].
 
-## Properties
+## Definition and Existence
 
 Let $C$ be a [[cofibrantly generated model category]] and
 
@@ -55,6 +55,53 @@ Sufficient conditions for this to define a cofibrantly generated model category 
    * and $D$ has functorial [[path object]]s for fibrant objects.
 
 =--
+
+## Properties
+
+### General
+
++-- {: .un_lemma}
+###### Observation
+
+If $C$ carries the structure of a [[right proper model category]], then also the transferred model structure on $D$ is right proper.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  \array{
+     A \times_C B &\stackrel{f}{\to}& B
+     \\
+     \downarrow && \downarrow^{\mathrlap{\in Fib}}
+     \\
+     A &\stackrel{\simeq}{\to}& C
+  }
+$$
+
+be a [[pullback]] diagram in $D$, with the bottom morphism a weak equivalence and the right morphism a fibration. We need to show that then also the top morphism $f$ is a weak equivalence. By definition of transfer, this is equivbalent to $$U(f)$ being a  weak equivalence in $C$. 
+
+Since $U$ is a [[right adjoint]] it preserves pullbacks, so that also
+
+$$
+  \array{
+     U(A \times_{C} B) &\stackrel{U(f)}{\to}& U(B)
+     \\
+     \downarrow && \downarrow^{\mathrlap{\in Fib}}
+     \\
+     U(A) &\stackrel{\simeq}{\to}& U(C)
+  }
+$$
+
+is a pullback diagram in $C$. Since by definition of the transferred model strucure this is still the pullback of a weak equivalence along a fibration, and since $C$ is assumed to be right proper, it follows that $U(f)$ is a weak equivalence in $C$, hence that $f$ is a weak equivalence in $D$.
+
+
+=--
+
+
 
 ### Enrichment {#Enrichment}
 
