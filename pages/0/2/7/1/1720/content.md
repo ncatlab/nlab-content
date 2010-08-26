@@ -132,7 +132,7 @@ This is theorem 2.18 in
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $T$ be a simplicial (possibly multi-colored) [[theory]], and let $T Alg$ be the corresponding category of simplicial T-algebras. This carries a model category structure where the fibrations and weak equivalences are those of the underlyin simoplicial sets in the standard [[model structure on simplicial sets]]. 
+Let $T$ be a simplicial (possibly multi-colored) [[theory]], and let $T Alg$ be the corresponding category of simplicial T-algebras. This carries a model category structure where the fibrations and weak equivalences are those of the underlying simplicial sets in the standard [[model structure on simplicial sets]]. 
 
 Then there exists a morphism of siplicial theories $T \to S$ such that
 
