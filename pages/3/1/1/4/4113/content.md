@@ -67,7 +67,7 @@ This implies that (loc. finite) [[numerable covers]] are cofinal in induced cove
 Partitions of unity can be used in constructing maps from spaces to [[geometric realization]]s of [[simplicial spaces]] (incl. simplicial sets) - for example a [[classifying map]] for a $G$-[[bundle]] where $G$ is a [[Lie group]].
 
 
-### Coboundaries for Cech cocycles
+### Coboundaries for Cech cocycles {#CechCoboundaries}
 
 Partitions of unity can be used to give explicit coboundaries for the cocycles of the complex of functions on a cover.
 
