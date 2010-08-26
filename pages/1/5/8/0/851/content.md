@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include quasi-category theory contents]]
 </div>
@@ -52,10 +51,8 @@ be an [[(∞,1)-functor]] -- a morphism of simplicial sets.
 
    $$
     Hom_{SSet}(S, C_{F/})
-     \simeq
-     (Hom_{sSet})_{F}(
-       K \star S , C
-     )
+     \cong
+     (Hom_{(K\downarrow SSet)})(i_K , F)
      \,,
    $$
 
@@ -63,9 +60,7 @@ be an [[(∞,1)-functor]] -- a morphism of simplicial sets.
 
    * $K \star S $ is the [[join of simplicial sets]] of $S$ with $K$;
 
-   * the [[hom-set]] on the right is the subset of 
-     morphism of simplicial sets $f : K \star S  \to C$ 
-     such that $f|_K = F$.
+   * the map i_K is the canonical map $K\to K\star S$.
 
    Concretely, the underlying simplicial set of $C_{F/}$ is given by 
 
