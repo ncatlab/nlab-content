@@ -592,7 +592,7 @@ $$
 
 The conditons of the above theorem are satisfied for instance for
 
-* $T$ the theory of ordinary commutative algebras over a field $k$ and $J$ the xyz-topology.
+* $T$ the theory of ordinary commutative algebras over a field $k$ and $J$ the [[fpqc topology]].
 
   In this case the adjunction is that considered in ([To&#235;n](#Toen)).
 
