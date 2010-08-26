@@ -90,7 +90,7 @@ This way of talking has even been formalised in (Bishop, 1967) with a convention
 Bishop gives in his introduction several statements, suitable for use as $x$ above, including:
 * excluded middle itself, which Bishop call the 'principle of omniscience';
 * the '[[limited principle of omniscience]]': any infinite sequence in $\{0,1\}^N$ is either all $0$ or has at least one $1$;
-* the '[[lesser limited principle of omniscience]]': for any two infinite sequence in $\{0,1\}^N$ that do not both have at least one $1$, one of them does not have at least one $1$;
+* the '[[lesser limited principle of omniscience]]': for any two infinite sequence in $\{0,1\}^N$ that do not both have at least one $1$, at least one of these sequences does not have at least one $1$;
 * others.
 
 At one point in his book, while discussing the possibility of a pointwise-continuous function $[0,1] \to R$ that is not uniformly continuous (a 'Specker function', which Markov\'s school claims to exist), Bishop seems to assert that this theorem is both '<i>not</i>' true and '<i>not</i>' false; he does not put it this way, so this may not be exactly what he meant, but there is no contradiction if it is. (But *is* a contradiction, even in intuitionistic logic, if a statment is both 'not' true and 'not' false; indeed, the definition of 'false' may be taken to be 'not true'.)
