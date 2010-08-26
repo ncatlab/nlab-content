@@ -42,13 +42,43 @@ Analogous statements apply to the category of unbounded chain complexes and the 
 
 ### For unbounded chain complexes
 
-See the references by Spaltenstein and Hinich below
+See the [references](#References) by Spaltenstein and Hinich below.
 
+## Definitions 
 
+(...)
 
-## History and references
+### Model structures on cochain complexes in non-negative degree
 
-Of course the above description of categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
+Let $C$ be an [[abelian category]]. 
+
+Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [[cosimplicial object]]s in $C$ is equivalent to the catagory $Ch^\bullet_+(C)$ of [[cochain complex]]es in non-negative degree. This means that we can transfer results discussed at [[model structure on cosimplicial objects]] to cochain complexes (see [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf) for more).
+
+Let $G \in Obj(C)$ be a [[class]] of objects, such that $C$ has enough $G$-[[injective object]]s. 
+
+Then there is a model category structure $Ch^\bullet_+(C)_G$ whose
+
+* weak equivalences are maps $f : X \to Y$ such that for each $A \in G$ the induced map $C(Y,A) \to C(X,A)$ is a [[quasi-isomorphism]] of chain complexes of abelian groups;
+
+* $f$ is a cofibration if it is $G$-monic in positive degree;
+
+* $f$ is a fibration if it is degreewise a [[split epimorphism]] with $G$-injective kernel.
+ 
+If for example we take $G$ to be the class of all objects of $C$, then this induces a model structure $Ch^\bullet_+(C)_{tot}$ whose
+
+* weak equivalences are cochain [[homotopy equivalence]]s;
+
+* fibrations are morphisms that are degreewise [[split epimorphism]]s;
+
+* cofibration are morphisms that are in positive degree [[split monomorphism]]s.
+
+As an examp&#223;le of that, if $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence. 
+
+This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebra]]s over a field. 
+
+## History and references {#References}
+
+Of course the description of model categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
 
 While the homotopical treatment of weak equivalences of chain complexes ([[quasi-isomorphism]]s) in [[homological algebra]] is at the beginning of all studies of higher categories and a "folk theorem" ever since
 
@@ -64,10 +94,11 @@ The projective model structure is discussed after that in
 
 * [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
 
-
 Variant model structures on chain complexes are discussed in
 
 * [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_ ([pdf](http://jdc.math.uwo.ca/papers/relative.pdf))
+
+### For unbounded chain complexes
 
 Work specifically on model structures on unbounded complexes includes the following.
 
@@ -86,3 +117,5 @@ shown that there is a model category structure on the category of unbounded chai
 
 
 [[!redirects model structures on chain complexes]]
+
+[[!redirects model structures on cochain complexes]]
