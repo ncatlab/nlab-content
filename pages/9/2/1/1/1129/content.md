@@ -123,7 +123,7 @@ Using [Baer's criterion](#Baer) one finds that
 
 **Proposition** An abelian group $A$ is injective precisely if it is a [[divisible group]], in that for all [[integer]]s $n \in \mathbb{N}$ we have $n G = G$.
 
-So in particular the group of [[rational number]]s $\mathbb{Q}$ is injective in [[Ab]], the additive group underlying any [[vector space]], the quotient of any injective group by any other group.
+So in particular the group of [[rational number]]s $\mathbb{Q}$ is injective in [[Ab]], as is the additive group of [[real number]]s $\mathbb{R}$ and generally that underlying any [[field]]. The additive group underlying any [[vector space]] is injective. The [[quotient]] of any injective group by any other group is injective.
 
 _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ for $n \gt 1$.
 
