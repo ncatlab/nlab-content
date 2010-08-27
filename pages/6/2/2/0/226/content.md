@@ -1,11 +1,24 @@
-We assume you know the [usual definition](http://en.wikipedia.org/wiki/Vector_space#Definition) of a vector space over a field $k$.
 
-The [[category]] of vector spaces is called [[Vect]], or 
-$Vect_k$ if we wish to make the field $k$ explicit.  This category has vector spaces over $k$ as objects, and linear maps between these as morphisms.
+#Contents#
+* table of contents
+{:toc}
 
-Vector spaces over fields are a special case of [[module|modules]] of [[ring|rings]]. A vector space over the field $F$ is just an $R$-module where the ring $R$ happens to be the field $k$, and a linear map between vector spaces is then an $R$-module morphism.  So, the category $Vect_k$ is the same as the category $R Mod$ when $R = k$.  There is a lot of nice abstract stuff to be said about the category $R Mod$ --- see the entry on [[module|modules]].
+## Defintiion
 
-#Discussion#
+A for $k$ a [[field]], a _vector space_ is [[module]] (in [[Ab]]) over the [[ring]] $k$.
+
+The [[category]] of vector spaces is typically denoted [[Vect]], or 
+$Vect_k$ if we wish to make the field $k$ explicit. So
+
+$$
+  Vect_k := k Mod
+  \,.
+$$
+
+This category has vector spaces over $k$ as objects, and $k$-linear maps between these as morphisms.
+
+
+## Discussion
 
 _[[Eric Forgy]] says_: Is there a nice _arrow theoretic_ way to define vector spaces?
 
