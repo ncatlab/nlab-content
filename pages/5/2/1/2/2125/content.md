@@ -115,7 +115,7 @@ and with more details in
 
 =--
 
-While the nerve functor $\Xi : Ch_+ \to sAb$ fails to be monoidal in such a direct way, it turns out to be monoidal in a suitable [[higher category theory|higher categorical]], i.e. [[homotopy theory|homotopical]] way.
+Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a monoidal and an opmonoidal structure.  This monoidal structure can also be given in a [[higher category theory|higher categorical]], i.e. [[homotopy theory|homotopical]] way.
 This is the content of the following statements.
 
 In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s 
