@@ -1,6 +1,6 @@
 Given any [[object]] $X$ in any [[category]] $C$, the [[subobjects]] of $X$ form a [[poset]], called (naturally enough) the __poset of subobjects__ of $X$, or the __subobject poset__ of $X$.
 
-If $C$ is [[finitely complete category|finitely complete]], then the subobjects form a [[semilattice]], so we may speak of the __semilattice of subobjects__.  In any [[coherent category]], the subobjects form a [[lattice]], so we may speak of the __lattice of subobjects__.  In any [[Heyting category]] (and more particularly in any [[topos]]), the subobjects of $X$ form a [[Heyting algebra]], so we may speak of the __algebra of subobjects__.  The reader can probably think of other variations on this theme.
+If $C$ is [[finitely complete category|finitely complete]], then the subobjects form a meet-[[semilattice]], so we may speak of the __semilattice of subobjects__.  In any [[coherent category]] (such as a [[pretopos]]), the subobjects form a distributive [[lattice]], so we may speak of the __lattice of subobjects__.  In any [[Heyting category]] (and more particularly in any [[topos]]), the subobjects of $X$ form a [[Heyting algebra]], so we may speak of the __algebra of subobjects__.  The reader can probably think of other variations on this theme.
 
 Sometimes it is the __poset of [[regular subobjects]]__ that really matters (although these are the same in any [[pretopos]], and more particularly in any topos).
 
