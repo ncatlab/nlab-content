@@ -101,6 +101,7 @@ We say more on the canonical $T$-line object below in [The Line object](#Line)
 
 +-- {: .un_theorem}
 ###### Theorem
+{#ModelTransferToTAlg}
 
 There is a [[cofibrantly generated model category|cofibrantly generated]] [[model structure on cosimplicial abelian groups]] $Ab^\Delta_{proj}$ whose weak equivalences are the morphism that induce [[quasi-isomorphism]] under passage to [[Dold-Kan correspondence|normalized cochain complexes]] and fibrations are the degreewise surjections.  
 
@@ -613,7 +614,6 @@ $$
 
 This is essentially the argument of ([To&#235;n, corollary 2.2.6](#Toen)).
 
-(...)
 
 ### $R$-Local objects
 
@@ -645,8 +645,41 @@ $\mathbb{R}Hom_{[C^{op}, sSet]_{proj,loc}}(f,K)$
 =--
 
 
++-- {: .un_prop}
+###### Proposition
 
-(...)
+The $R$-local objects of $[C^{op}, sSet]_{proj,loc}$ span precisely the homotopy-essential image of the restriction of $j$ to $C^{\Delta^{op}}$
+
+$$
+  C^{\Delta^{op}} \hookrightarrow (T Alg^{\Delta})^{op}
+  \stackrel{j}{\to}
+  [C^{op}, sSet]_{proj,cov}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+We may explicitly see this by observing that the proof of 
+([To&#235;n, theorem 2.2.9](#Toen)) goes through verbatim: it only uses the general properties of the $(\mathcal{O} \dashv j)$-adjunction that we have established above, as well as the fact that $T Alg^{\Delta}_{proj}$ is a 
+[[cofibrantly generated model category]] for $T$ the theory of ordinary
+commutative algebras. But by our [result on the model structure on TAlg](#ModelTransferToTAlg) we have that for general $T$ this is the [[transferred model structure]] of the [[model structure on cosimplicial abelian groups]], which is cofibrantly generated. Hence by the general properties of transferred model structures, also $T Alg^\Delta_{proj}$ is.
+
+But more abstractly, we can also simply use the general theory of [[reflective sub-(∞,1)-categories]] and their characterization as the reflective [[localization of an (∞,1)-category]] at a set of weak equivalences: from the above we know that on the full sub-$(\infty,1)$-category of $((T Alg^\Delta_{proj})^{op})^\circ$ on the objects in $C^{\Delta^{op}} \hookrightarrow (T Alg^\Delta)^{op}$ is a reflective sub-$(\infty,1)$-category 
+
+$$
+  \mathbf{L} \stackrel{\overset{\mathbb{L} \mathcal{O}}{\hookrightarrow}}{\underset{\mathbb{R} i}{\to}}
+  \mathbf{H} := Sh_{(\infty,1)}(C)
+$$ 
+
+and that the left adjoint to the embedding inverts precisely the $R$-equivalences. Hence $\mathbf{L}$ is the full sub-$(\infty,1)$-category of $\mathbf{H}$ on $R$-local objects.
+
+=--
+
+
 
 
 ## Examples and applications {#Examples}
