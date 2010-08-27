@@ -16,12 +16,13 @@
 
 ## Idea
 
-A **Sullivan model** of a [[rational space]] $X$ is a particularly well-behaved [[dg-algebra]] [[quasi-isomorphism|quasi-isomorphic]] to the dg-algebra of Sullivan forms on $X$:
+A **Sullivan model** of a [[rational space]] $X$ is a particularly well-behaved commutative [[dg-algebra]] [[quasi-isomorphism|quasi-isomorphic]] to the dg-algebra of Sullivan forms on $X$.
+These _Sullivan algebras_ are precisely the cofibrant objects in the standard [[model structure on dg-algebras]].
 
 Sullivan models are a central tool in [[rational homotopy theory]].
 
-## Definition
 
+## Definition
 
 
 Sullivan models are particularly simple [[dg-algebra]]s that are equivalent to the dg-algebras of Sullivan differrential forms on topological spaces. Conversely, every rational space can be obtained from a dg-algebra and the _minimal_ Sullivan algebras proovide convenient representatives that correspond bijectively to rational homtopy types under this correspondence.
@@ -86,6 +87,50 @@ holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the 
 
 See also the section [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
 
+
++-- {: .un_remark }
+###### Remark
+
+The special condition on the ordering in the relative Sullivan algebra says precisely that these morphisms are composites of [[pushout]]s of the [[cofibrantly generated model category|generating cofibrations]] of the [[model structure on dg-algebras]], which are the inclusions
+
+$$
+  S(n) \hookrightarrow D(n)
+  \,,
+$$
+
+where 
+
+$$
+  S(n) = (\wedge^\bullet \langle c \rangle, d= 0)
+$$ 
+
+is the dg-algebra on a single generator in degree $n$ with vanishing differential, and where
+
+$$
+  S(n) = (\wedge^\bullet (\langle b \rangle \oplus \langle c \rangle), d b = c, d c = 0)
+$$ 
+
+with $b$ an additional generator in degree $n-1$.
+
+Therefore for $A \in dgAlg$ dg-algebra, a pushout
+
+$$
+  \array{
+     S(n) &\stackrel{\phi}{\to}& A
+     \\
+     \downarrow && \downarrow
+     \\
+     D(n) &\to& (B \otimes \wedge^ \bullet \langle b \rangle, d b = \phi) 
+  }
+$$ 
+
+is precisely a choice $\phi \in A$ of a $d_A$-closed element in degree $n$
+and results in adjoining to $A$ the element $b$ whose differential is
+$d b = \phi$. This gives the condition in the above definition: the differential of any new element has to be one of the old elements.
+
+Notice that it follows in particular that the cofibrations in $dgAlg_{proj}$ are precisely all the [[retract]]s of relative Sullivan algebra inclusions.
+
+=--
 
 +-- {: .un_remark }
 ###### Remark
