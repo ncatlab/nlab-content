@@ -1,8 +1,13 @@
-[[!redirects presentable (infinity,1)-category]]
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -303,3 +308,5 @@ with section A.3.7 establishing the relation [[combinatorial model categories]] 
 [[!redirects locally presentable (infinity,1)-categories]]
 [[!redirects locally presentable (∞,1)-category]]
 [[!redirects locally presentable (∞,1)-categories]]
+
+[[!redirects presentable (infinity,1)-category]]
