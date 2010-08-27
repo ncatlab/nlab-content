@@ -28,6 +28,13 @@ The dual notion is [[split monomorphism]].
 
 * The [[axiom of choice]] internal to a category $C$ can be phrased as "all epimorphisms are split."  In [[Set]] this is equivalent to the usual axiom of choice; in many other categories it is just false.
 
+## Applications
+
+The notion of split epimorphism arises often as a condition on fibrations in [[categories of chain complexes]]. See there for details
+
+## Examples
+
+* In [[Vect]], every epimorphism is split. For $\phi : V \to W$ a surjective linear map, we can find an isomorphism $V \simeq ker(\phi) \oplus V'$. Then $\phi|_{V'}$ is an isomorphism, and its inverse $W \to V' \hookrightarrow ker(\phi) \oplus V'$ is a section of $\phi$.
 
 [[!redirects split epimorphism]]
 [[!redirects split epimorphisms]]
