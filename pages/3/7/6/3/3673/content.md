@@ -29,13 +29,22 @@ Typically this arises in situations where $D$ consist of the "same" objects as $
 
 ## Definition and Existence
 
++-- {: .un_def}
+###### Definition
+
+
 Let $C$ be a [[cofibrantly generated model category]] and
 
 $$
   (F \dashv U )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
 $$
 
-an [[adjunction]] with [[right adjoint]] $U$. Say a morphism in $D$ is a fibration or weak equivalence precisely if its image under $U$ is, respectively, in $C$.
+an [[adjunction]] with [[right adjoint]] $U$. 
+
+
+Say a morphism in $D$ is a fibration or weak equivalence precisely if its image under $U$ is, respectively, in $C$.
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
@@ -50,11 +59,25 @@ Sufficient conditions for this to define a cofibrantly generated model category 
 
    this is the case in particular if
 
-   * $D$ has a fibrant replacement functor;
+   * $D$ has a fibrant [[resolution|replacement]] functor;
 
    * and $D$ has functorial [[path object]]s for fibrant objects.
 
+If these conditions are met, then for $I$ (resp. $J$) the set of generating (acyclic) cofibrations in $C$, the image set $F(I)$ (resp. $F(J)$) forms the set of generating (acyclic) cofibrations in $D$.
+
 =--
+
++-- {: .proof}
+###### Proof
+
+One uses the [[small object argument]] repeatedly.
+
+The argument goes back to section II.4 of ([Quillen](#Quillen)). A proof for one set of sufficient conditions in is chapter II of ([GoerssJardine](#GoerssJardine)). Then ([Crans](#Crans)).
+
+
+
+=--
+
 
 ## Properties
 
@@ -158,11 +181,22 @@ which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyc
 
 ## References
 
-The study of transfer of model structures in this sense is apperently originally due to 
+The arguments for transfer of model structures go back to
+
+* Quillen, _Homotopical Algebra_ , Lecture Notes in Math. 43, Springer-Verlag, Berlin-eidelberg-New York, 1967.
+{#Quillen}
+
+Proofs can be found in 
+
+* [[Paul Goerss]], Jardine, J. F., _Simplicial homotopy theory_ , Progress Mathematics 174, Birkh&#168;auser Verlag, Basel, 1999.
+{#GoerssJardine}
+
+The explicit study of transfer of model structures (on categories of sheaves) is apperently originally due to 
 
 * [[Sjoerd Crans]], _Quillen closed model structure for sheaves_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.7459))
+{#Crans}
 
-Summaries and further pointers to the literature happen to be on [p. 20](http://arxiv.org/PS_cache/math/pdf/0609/0609537v2.pdf#page=20) of
+A summary of the result is on [p. 20](http://arxiv.org/PS_cache/math/pdf/0609/0609537v2.pdf#page=20) of
 
 * [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
 
