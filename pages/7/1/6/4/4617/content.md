@@ -557,6 +557,7 @@ $$
 
 +-- {: .un_prop}
 ###### Proposition
+{#RCohomologyByO}
 
 For $X \in [C^{op}, sSet]$ representing an object $X \in \mathbf{H}$, the intrinsic $R$-cohomology of $X$ coincides with the [[cochain cohomology]] of its cosimplicial function algebra $\mathbb{L}\mathcal{O}(X) \in T Alg^\Delta$:
 
@@ -615,6 +616,35 @@ This is essentially the argument of ([To&#235;n, corollary 2.2.6](#Toen)).
 (...)
 
 ### $R$-Local objects
+
++-- {: .un_def}
+###### Definition
+
+We say a morphism $f : X \to Y$ in $[C^{op}, sSet]$ is an **$R$-equivalence** if it induces isomorphisms in $R$-cohomology. 
+
+$$
+  H^i(f,R) : H^i(Y,R) \stackrel{\simeq}{\to} H^i(X,R)
+  \,.
+$$
+
+By the [above proposition](#RCohomologyByO) this is equivalent to 
+saying that the [[derived functor]] $\mathbb{L}\mathcal{O}$ takes
+$f$ to a weak equivalence.
+
+We say an object $K \in [C^{op}, sSet]_{proj,loc}$ is an **$R$-[[local object]]** if for all $R$-equivalences $f$ we have that
+
+$$
+  \mathbf{H}(f,K) : \mathbf{H}(Y,K) \to \mathbf{H}(X,K)
+$$
+
+is an equivalence, equivalently if the [[derived hom-space]]
+functor produces a weak equivalence
+$\mathbb{R}Hom_{[C^{op}, sSet]_{proj,loc}}(f,K)$ 
+(of [[Kan complex]]es).
+
+=--
+
+
 
 (...)
 
