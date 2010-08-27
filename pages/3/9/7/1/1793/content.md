@@ -54,6 +54,8 @@ Let $C$ be an [[abelian category]].
 
 Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [[cosimplicial object]]s in $C$ is equivalent to the catagory $Ch^\bullet_+(C)$ of [[cochain complex]]es in non-negative degree. This means that we can transfer results discussed at [[model structure on cosimplicial objects]] to cochain complexes (see [Bousfield2003, section 4.4](http://arxiv.org/PS_cache/math/pdf/0312/0312531v1.pdf) for more).
 
+#### General results
+
 Let $G \in Obj(C)$ be a [[class]] of objects, such that $C$ has enough $G$-[[injective object]]s. 
 
 Then there is a model category structure $Ch^\bullet_+(C)_G$ whose
@@ -72,9 +74,65 @@ If for example we take $G$ to be the class of all objects of $C$, then this indu
 
 * cofibration are morphisms that are in positive degree [[split monomorphism]]s.
 
-As an examp&#223;le of that, if $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence. 
+As an example of that, if $C = $ [[Vect]] is a category of [[vector space]]s over some field, we have that every epi/mono splits and that every [[quasi-isomorphism]] is a homotopy equivalence. 
 
 This is the model structure which induces the [[transferred model structure|transferred]] [[model structure on dg-algebra]]s over a field. 
+
+#### The projective model structure {#CochainNonNegProj}
+
+We record a detailed proof of the following statement.
+
++-- {: .un_prop}
+###### Proposition
+
+The catgeory $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
+
+* fibrations the degreewise surjections;
+
+* weak equivalences the [[quasi-isomorphism]]s.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+As usual, write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
+
+
+**Lemma**
+
+The canonical inclusions $0 \to \mathbb{Z}[n]$ and $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ are cofibrations, in that they  have the [[left lifting property]] against acyclic fibrations.
+
+Proof.  Let $\iota : A \to B$ be an acylic fibration. We need to construct a lift in 
+
+$$
+  \array{
+     \mathbb{Z}[n] &\stackrel{f}{\to}& A
+     \\
+     \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\iota}
+     \\
+     \mathbb{Z}[n-1,n] &\stackrel{g}{\to}& B
+  }
+  \,.
+$$
+
+First consider the case $n \gt 0$. Then such a lift
+is equivalently an element $\sigma \in A_{n-1}$ such that 
+
+* $d_A \sigma = f_n(1)$
+
+* $\iota_{n-1}(\sigma) = g_{n-1}(1)$.
+
+Now...
+
+(...out of time...to be continued...)
+
+
+
+=--
+
 
 ## History and references {#References}
 
