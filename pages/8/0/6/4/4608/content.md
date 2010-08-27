@@ -13,42 +13,43 @@
 * table of contents
 {:toc}
 
+## Idea
 
-## Definition
+Let $Ab^{\Delta}$ be the [[category of cosimplicial objects]] in the category [[Ab]] of [[abelian group]]s -- the category of _cosimplicial abelian groups_ .
 
-Let $Ab^{\Delta}$ be the [[category of cosimplicial objects]] in the category [[Ab]] of [[abelian group]]s.
+This entry discusses structures of [[model categories]] on $Ab^\Delta$.
 
-Write $N : Ab^{\Delta} \to Ch^\bullet_+$ for the normalized cochain complex [[Dold-Kan correspondence]] functor to non-negatively graded [[cochain complex]]es.
+By the dual [[Dold-Kan correspondence]] there is an [[equivalence of categories]] $Ab^\Delta \stackrel{\overset{\Xi}{\leftarrow}}{\underset{N}{\to}} Ch^\bullet_+(Ab)$ with the [[category of cochain complexes]] in non-negative degree. Since [[Ab]] is an [[abelian category]], we have by general results various <a href="http://ncatlab.org/nlab/show/model+structure+on+chain+complexes#CochainNonNeg">model structures on cochain complexes</a>. Via the Dold-Kan equivalence, all of these induce model structures on $Ab^\Delta$.
 
-Say that a morphism $f$ in $Ab^{\Delta}$ is
 
-* a _fibration_ if it is degreewise a [[surjection]];
 
-* a _weak equivalence_ if $N(f)$ is a [[quasi-isomorphism]].
+## Properties
 
+### Simplicial enrichment
+
+Since [[Ab]] has all [[limit]]s and [[colimit]]s, the [[category of cosimplicial objects]] (as described there) $Ab^\Delta$ inherits canonically the structure of an [[sSet]]-[[enriched category]] which is [[power]]ed and [[copower]]ed. 
 
 
 +-- {: .un_prop}
 ###### Proposition
 
-With these definitions, cosimplicial abelian groups form a [[model category]] $Ab^\Delta_{proj}$.
-
-With respect to the canonical [[sSet]]-[[enriched category]]-structure on $Ab^{\Delta}$ (described at [[category of cosimplicial objects]]) this is a [[simplicial model category]].
+The canonical $sSet$-enrichement of $Ab^\Delta$ is compatible with the model category structure $Ab^\Delta_{proj}$ (fibrations the degreewise epis, weak equivalences the quasi-isomorphisms) in that the combination gives $Ab^\Delta$ the structure of a [[simplicial model category]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-(...)
 
-To show the structure of an [[sSet]]-[[enriched model category]] we need to show that for $i : C \to C'$ any cofibration in the standard [[model structure on simplicial sets]] and $j : X \to Y$ a fibration of cosimplcial abelian groups the morphism 
+We need check the [[pushout-product axiom]] of an [[enriched model category]] of the standard [[model structure on simplicial sets]] $sSet_{Quillen}$
+
+So we need to show that for $i : C \to C'$ any cofibration in $sSet_{Quillen}$ and $j : X \to Y$ a fibration of cosimplcial abelian groups (degreewise surjection) the morphism 
 
 $$
   k : X^{C'} \to X^C \times_{Y^C} Y^{C'}
 $$ 
 
-induced by the [[power]]ind is a fibration, which is acyclic if $i$ or $j$ is.
+induced by the [[power]]ing $(-)^(-) : Ab^\Delta \times sSet \to Ab^\Delta$ is a fibration, which is acyclic if $i$ or $j$ is.
 
 That $k$ is a fibration is easily checked. To see acyclicity we first notice the following 
 
@@ -105,13 +106,9 @@ is a weak equivalence. Since by the above lemma also $X^i : X^{C'} \to X^C$ is a
 
 An analogous argument shows that $k$ is a weak equivalence if $j$ is.
 
+This argument is essentially that on page 41 of ([To&euml;n](#Toen))
 
 =--
-
-
-## Properties
-
-Under the dual [[Dold-Kan correspondence]] the model structure on cosimplicial groups is equivalent to the [[model structure on chain complexes|model structure on cochain complexes]] in non-negative degree.
 
 
 
@@ -119,6 +116,7 @@ Under the dual [[Dold-Kan correspondence]] the model structure on cosimplicial g
 
 The [[model structure on cosimplicial algebras]] is discussed in detail in
 
-* [[Bertrand Toen]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+* [[Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+{#Toen}
 
 The above proof that $Ab^\Delta_{proj}$ is a simplicial model category mimics the proof on page 41 there. Indeed, the claim is that the model structure on cosimplicial algebras is the [[transferred model structure]] induced by the above from the evident forgetful functor.
