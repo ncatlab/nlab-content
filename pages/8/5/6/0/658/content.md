@@ -1,8 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Enriched category theory
++--{: .hide}
 [[!include enriched category theory contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -10,11 +19,11 @@
 
 ## Definition ##
 
-If $C$ and $D$ are [[categories]], a **profunctor** from $C$ to $D$ is a [[functor]] $D^{op}\times C \to Set$.  Such a  profunctor is usually written as $F\colon  C &#x21F8; D$.
+If $C$ and $D$ are [[categories]], a **profunctor** from $C$ to $D$ is a [[functor]] $D^{op}\times C \to Set$.  Such a  profunctor is usually written as $F\colon  C &#8696; D$.
 
-Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#x21F8; D$ and $D(f,1)\colon D &#x21F8; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*). In particular the [[identity]] profunctor $Id \colon  C &#x21F8; C$ is represented by the identity functor and hence is given by the [[hom-functor]] $C(-,-) : C^{op} \times C \to Set$.
+Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C &#8696; D$ and $D(f,1)\colon D &#8696; C$, defined by $D(1,f)(d,c) = D(d,f(c))$ and $D(f,1)(c,d) = D(f(c),d)$.  These profunctors are called *representable* (or sometimes one of them is *corepresentable*). In particular the [[identity]] profunctor $Id \colon  C &#8696; C$ is represented by the identity functor and hence is given by the [[hom-functor]] $C(-,-) : C^{op} \times C \to Set$.
 
-The notion generalizes to many other kinds of categories.  For instance, if $C$ and $D$ are [[enriched category|enriched]] over some symmetric [[closed monoidal category]] $V$, then a profunctor from $C$ to $D$ is a $V$-functor $D^{op} \otimes C\to V$.  If they are [[internal categories]], then a profunctor $C &#x21F8; D$ is an [[internal diagram]] on $D^{op}\times C$, and so on.  There are also other equivalent definitions in each case; see below.
+The notion generalizes to many other kinds of categories.  For instance, if $C$ and $D$ are [[enriched category|enriched]] over some symmetric [[closed monoidal category]] $V$, then a profunctor from $C$ to $D$ is a $V$-functor $D^{op} \otimes C\to V$.  If they are [[internal categories]], then a profunctor $C &#8696; D$ is an [[internal diagram]] on $D^{op}\times C$, and so on.  There are also other equivalent definitions in each case; see below.
 
 A profunctor is also sometimes called a **[[bimodule|(bi)module]]** or a **distributor** or a **correspondence**, though the latter word is also used for a [[span]].  The term "module" tends to be common in Australia, especially in the enriched case; here the intuition is that for one-object $V$-categories, i.e. monoids in $V$, profunctors really are the same as [[bimodules]] between such monoids in the usual sense.  "Profunctor" is perhaps more common in the Set-based and internal cases (but is also used in the enriched case); here the intuition is that a profunctor is a generalization of a functor, via the construction of "representable" profunctors.  Jean B&#233;nabou, who invented the term and originally used "profunctor," now prefers "distributor," which is supposed to carry the intuition that a distribut**or** generalizes a funct**or** in a similar way to how a [[distribution]] generalizes a [[function]].
 
@@ -23,7 +32,7 @@ Note that the convention that a profunctor is a functor $D^{op}\times C \to Set$
 
 ## The bicategory of profunctors
 
-Profunctors are composed by using a [[coend]] to "trace out" the middle variable.  Specifically, for profunctors $F : C &#x21F8; D$ and $G : D &#x21F8; E$, their composite $G \circ F: C &#x21F8; E$ is defined to be
+Profunctors are composed by using a [[coend]] to "trace out" the middle variable.  Specifically, for profunctors $F : C &#8696; D$ and $G : D &#8696; E$, their composite $G \circ F: C &#8696; E$ is defined to be
 
 $$
   G \circ F := \int^{d \in D} F(d,-)\otimes G(-,d)
@@ -46,7 +55,7 @@ The construction of the "representable" profunctors $D(1,f)$ and $D(f,1)$ from a
 ## Alternative definitions ##
 
 
-### In terms of colimit-preserving functors on presheaf categories ###
+### In terms of colimit-preserving functors on presheaf categories {#FuncsOnPresheaves}
 
 A basic fact (e.g. Kashiwara, Schapira, [[Categories and Sheaves]], corollary 2.7.4, page 63) is that for $A$ a [[cocomplete category]], [[cocontinuous functor|colimit-preserving functors]] from [[presheaf|presheaves]] on some category $C$ to $A$ are canonically equivalent to functors from $C$ to $A$: we have an equivalence of [[functor category|functor categories]]
 
@@ -93,11 +102,11 @@ This definition/characterization of profunctors works for internal categories as
 
 ### In terms of two-sided codiscrete cofibrations
 
-Yet another way of representing profunctors is via their [[collages]], also called [[cograph of a profunctor|cographs]].  The collage of a profunctor $H\colon C &#x21F8; D$ is, in particular, a category $\bar{H}$ equipped with functors $C\to \bar{H}$ and $D\to\bar{H}$ which are [[fully faithful functor|fully faithful]] and jointly bijective on objects.
+Yet another way of representing profunctors is via their [[collages]], also called [[cograph of a profunctor|cographs]].  The collage of a profunctor $H\colon C &#8696; D$ is, in particular, a category $\bar{H}$ equipped with functors $C\to \bar{H}$ and $D\to\bar{H}$ which are [[fully faithful functor|fully faithful]] and jointly bijective on objects.
 
-In fact, the objects of the [[undercategory]] $(C\sqcup D)/Cat$ which are collages of profunctors $C &#x21F8; D$ can be characterized, up to equivalence, as the two-sided [[codiscrete cofibrations]], i.e. the two-sided discrete fibrations in $Cat^{op}$.  In simpler and more explicit language, these are the categories $M$ which contain $C$ and $D$ as disjoint full subcategories which are jointly-[[wide subcategory|wide]] (i.e. together contain all the objects), and such that there are no morphisms from an object of $C$ to an object of $D$.  Equivalently, they are the categories which admit a functor to the [[interval category]] $I$ such that $D$ is the fiber over $0$ and $C$ is the fiber over $1$.
+In fact, the objects of the [[undercategory]] $(C\sqcup D)/Cat$ which are collages of profunctors $C &#8696; D$ can be characterized, up to equivalence, as the two-sided [[codiscrete cofibrations]], i.e. the two-sided discrete fibrations in $Cat^{op}$.  In simpler and more explicit language, these are the categories $M$ which contain $C$ and $D$ as disjoint full subcategories which are jointly-[[wide subcategory|wide]] (i.e. together contain all the objects), and such that there are no morphisms from an object of $C$ to an object of $D$.  Equivalently, they are the categories which admit a functor to the [[interval category]] $I$ such that $D$ is the fiber over $0$ and $C$ is the fiber over $1$.
 
-When viewing a profunctor $H\colon C &#x21F8; D$ in this way, one may sometimes speak of elements of $H(d,c)$ as *heteromorphisms* from $d$ to $c$, since they are morphisms in the category $\bar{H}$ and can be "composed" with morphisms of $C$ and $D$ (this corresponds to the "action" of $C$ and $D$ on $H$ in the other formulations), but they go between objects of two different categories (namely $C$ and $D$).
+When viewing a profunctor $H\colon C &#8696; D$ in this way, one may sometimes speak of elements of $H(d,c)$ as *heteromorphisms* from $d$ to $c$, since they are morphisms in the category $\bar{H}$ and can be "composed" with morphisms of $C$ and $D$ (this corresponds to the "action" of $C$ and $D$ on $H$ in the other formulations), but they go between objects of two different categories (namely $C$ and $D$).
 
 This characterization works just as well in both the internal and enriched case.  Perhaps surprisingly, it also tends to give the "right" notion of profunctor starting with many other, even more exotic, 2-categories.  However, it is trickier to figure out how to define the composite of profunctors viewed as codiscrete cofibrations; see [[codiscrete cofibration]].
 
@@ -163,7 +172,7 @@ There is a discussion of profunctors in the recently republished:
 * J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
 Excellent  notes from a course on _distributors_ given by 
-Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher, are available from his website  <http://www.mathematik.tu-darmstadt.de/~streicher>.
+Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher, are available from his website  &lt;http://www.mathematik.tu-darmstadt.de/~streicher>.
 
 * A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
 
