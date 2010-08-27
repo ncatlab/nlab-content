@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -108,5 +120,8 @@ see proposition 6.14 and remark 6.18.
 [[!redirects symmetric monoidal (infinity,1)-category of presentable (inf]]
 [[!redirects Pr(∞,1)Cat]]
 
+[[!redirects presentable (infinity,1)-category]]
+
 
 category: categories
+
