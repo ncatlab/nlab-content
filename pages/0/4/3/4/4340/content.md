@@ -30,7 +30,7 @@ Constructive logic is still [[two-valued logic|two-valued]] in the sense that an
 
 ### In a topos
 
-In terms of the [[internal logic]] of a [[topos]], $true$ is the [[top element]] in the [[poset]] of [[subobjects]] of the [[terminal object]].
+In terms of the [[internal logic]] of a [[topos]] (or other [[category]]), $true$ is the [[top element]] in the [[poset of subobjects]] of any given [[object]] (where each object corresponds to a [[context]] in the internal language).
 
 However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $true$ and $false$.
 
