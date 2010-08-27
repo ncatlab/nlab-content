@@ -21,15 +21,15 @@
 
 ## Abstract
 
-For $T$ any abelian [[Lawvere theory]], we establish a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the Quillen adjunction models the localization 
+For $T$ any abelian [[Lawvere theory]], we establish a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the Quillen adjunction models small objects relative to a choice of a small full subcategory $C \subset T Alg^{op}$  of the localization 
 
 $$
-  \mathbf{L} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H} = Sh_{(\infty,1)}(C \subset T Alg^{op})
+  \mathbf{L} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H} = Sh_{(\infty,1)}(C )
 $$
 
-of the $(\infty,1)$-topos of $(\infty,1)$-sheaves over duals of $T$-algebras at those morphisms that induce isomorphisms in cohomology with coefficients the canonical $T$-line object. In as far as objects of $\mathbf{H}$ have the interpretation of [[∞-Lie groupoid]]s the objects of $\mathbf{L}$ have the interpretation of [[∞-Lie algebroid]]s.
+of the $(\infty,1)$-topos of $(\infty,1)$-sheaves over duals of $T$-algebras at those morphisms that induce isomorphisms in cohomology with coefficients the canonical $T$-line object. 
 
-For the special case where $T$ is the theory of ordinary commutative algebras this reproduces the situation of ([To&#235;n](#Toen)) and many statements are straightforward generalizations from that situation. For the case that $T$ is the theory of _[[smooth algebra]]s_ ($C^\infty$-rings) we obtain a refinement of this to the context of synthetic differential geometry. 
+For the special case where $T$ is the theory of ordinary commutative algebras this reproduces the situation of ([To&#235;n](#Toen)) and many statements are straightforward generalizations from that situation. For the case that $T$ is the theory of _[[smooth algebra]]s_ ($C^\infty$-rings) we obtain a refinement of this to the context of synthetic differential geometry. In these cases, in as far as objects in $\mathbf{H}$ may be understood as [[∞-Lie groupoid]]s, the objects in $\mathbf{L}$ may be understood as [[∞-Lie algebroid]]s. 
 
 As an application, we show how Anders Kock's simplicial model for synthetic combinatorial differential forms finds a natural interpretation as the differentiable $\infty$-stack of infinitesimal paths of a manifold. This construction is an $\infty$-categorical and synthetic differential resolution of the _de Rham space_ functor introduced by Grothendieck for the cohomological description of flat connections. We observe that also the construction of the $\infty$-stack of modules lifts to the synthetic differential setup and thus obtain a notion of synthetic $\infty$-vector bundles with flat connection.
 
@@ -507,7 +507,7 @@ that is [[presentable (∞,1)-category|presented]] by the model category theoret
 +-- {: .un_theorem}
 ###### Theorem
 
-The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] of the [[reflective sub-(∞,1)-category]]
+The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-category|presentation]] models $C$-small objects (...) the inthe [[reflective sub-(∞,1)-category]]
 
 $$
   \mathbf{L}_C \stackrel{\stackrel{\mathcal{O}}{\leftarrow}}{\hookrightarrow}
@@ -648,11 +648,11 @@ $\mathbb{R}Hom_{[C^{op}, sSet]_{proj,loc}}(f,K)$
 +-- {: .un_prop}
 ###### Proposition
 
-The $R$-local objects of $[C^{op}, sSet]_{proj,loc}$ span precisely the homotopy-essential image of the restriction of $j$ to $C^{\Delta^{op}}$
+The $R$-local objects of $[C^{op}, sSet]_{proj,loc}$ that are equivalent to those in the image of $C^{\Delta^{op}} \hookrightarrow [C^{op}, sSet]$ span precisely the homotopy-essential image of the restriction of $\mathbb{R}j$ to $C^{\Delta^{op}}$
 
 $$
   C^{\Delta^{op}} \hookrightarrow (T Alg^{\Delta})^{op}
-  \stackrel{j}{\to}
+  \stackrel{\mathbb{R}j}{\to}
   [C^{op}, sSet]_{proj,cov}
   \,.
 $$
