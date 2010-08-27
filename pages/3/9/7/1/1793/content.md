@@ -48,7 +48,7 @@ See the [references](#References) by Spaltenstein and Hinich below.
 
 (...)
 
-### Model structures on cochain complexes in non-negative degree
+### Model structures on cochain complexes in non-negative degree {#CochainNonNeg}
 
 Let $C$ be an [[abelian category]]. 
 
