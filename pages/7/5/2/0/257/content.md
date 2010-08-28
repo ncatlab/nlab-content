@@ -48,15 +48,28 @@ If the model category happens to be a [[combinatorial simplicial model category]
 
 ## Definition
 
-A **model structure** on a category $K$ consists of three distinguished classes of morphisms - the **cofibrations** $C$, the **fibrations** $F$, and the **weak equivalences** $W$ - satisfying the following two properties.
+A **model structure** on a [[category]] $C$ consists of three distinguished [[classe]]s of [[morphism]]s - the **cofibrations** $C$, the **fibrations** $F$, and the **weak equivalences** $W$ - satisfying the following two properties.
 
-(i) $W$ makes $K$ into a [[category with weak equivalences]], meaning that it is closed under **2-out-of-3**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
+* (i) $W$ makes $K$ into a [[category with weak equivalences]], meaning that it is closed under **2-out-of-3**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
 
-(ii) $(C, F \cap W)$ and $(C \cap W, F)$ are two [[weak factorization system|weak factorization systems]] on $K$.
+* (ii) $(C, F \cap W)$ and $(C \cap W, F)$ are two [[weak factorization system|weak factorization systems]] on $K$.
 
-A **model category** is a complete and cocomplete category $K$ with a model structure $(C,F,W)$.  (Quillen's original definition required only finite limits and colimits, which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.)
+A **model category** is a [[complete category|complete]] and [[cocomplete category]] $K$ with a model structure $(C,F,W)$.  
 
-One says that an object is **cofibrant** if the map $0\to X$ from the [[initial object]] is a cofibration, and **fibrant** if the map $X\to 1$ to the [[terminal object]] is a fibration.  Often, the fibrant and cofibrant objects are the ones one is "really" interested in, but the category consisting only of these is not well-behaved (as a 1-category).  The factorizations supply fibrant and cofibrant replacement functors which allow us to treat any object of the model category as a 'model' for its fibrant-cofibrant replacement.
+**Remark.** (Quillen's original definition required only finite limits and colimits, which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.)
+
+**Terminilogy**
+
+* The morphisms in $W \cap F$ (the fibrations that are also weak equivalences) are called **trivial fibrations** or **acyclic fibrations** 
+
+* The morphisms in $W \cap C$ (the cofibrations that are also weak equivalences) are called **trivial cofibrations** or **acyclic cofibrations**. 
+
+
+* An object is called **cofibrant** if the unique morphism $\emptyset \to X$ from the [[initial object]] is a cofibration
+
+* An object is called **fibrant** if the unique morphism $X\to *$ to the [[terminal object]] is a fibration.  
+
+Often, the fibrant and cofibrant objects are the ones one is "really" interested in, but the category consisting only of these is not well-behaved (as a 1-category).  The factorizations supply fibrant and cofibrant replacement functors which allow us to treat any object of the model category as a 'model' for its fibrant-cofibrant replacement.
 
 
 ## Variants 
