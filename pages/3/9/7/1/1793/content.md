@@ -105,7 +105,7 @@ As usual, write $\mathbb{Z}[n]$ for the complex concentrated on the additive gro
 
 The canonical inclusions $0 \to \mathbb{Z}[n]$ and $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ are cofibrations, in that they  have the [[left lifting property]] against acyclic fibrations.
 
-Proof.  Let $\iota : A \to B$ be an acylic fibration. We need to construct a lift in 
+_Proof._  Let $p : A \stackrel{\simeq}{\to} B$ be an acylic fibration. We need to construct a lift in 
 
 $$
   \array{
