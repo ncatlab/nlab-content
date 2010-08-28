@@ -48,22 +48,20 @@ If the model category happens to be a [[combinatorial simplicial model category]
 
 ## Definition
 
-A **model structure** on a [[category]] $C$ consists of three distinguished [[classe]]s of [[morphism]]s - the **cofibrations** $C$, the **fibrations** $F$, and the **weak equivalences** $W$ - satisfying the following two properties.
+A **model structure** on a [[category]] $C$ consists of three distinguished [[class]]es of [[morphism]]s - the **cofibrations** $Cof \subset Mor(C)$, the **fibrations** $Fib$, and the **weak equivalences** $W$ - satisfying the following two properties.
 
-* (i) $W$ makes $K$ into a [[category with weak equivalences]], meaning that it is closed under **2-out-of-3**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
+* (i) $W$ makes $C$ into a [[category with weak equivalences]], meaning that it is closed under **2-out-of-3**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
 
-* (ii) $(C, F \cap W)$ and $(C \cap W, F)$ are two [[weak factorization system|weak factorization systems]] on $K$.
+* (ii) $(Cof, Fib \cap W)$ and $(Cof \cap W, Fib)$ are two [[weak factorization system|weak factorization systems]] on $C$.
 
-A **model category** is a [[complete category|complete]] and [[cocomplete category]] $K$ with a model structure $(C,F,W)$.  
+A **model category** is a [[complete category|complete]] and [[cocomplete category]] $K$ with a model structure $(Cof,Fib,W)$.  
 
-**Remark.** (Quillen's original definition required only finite limits and colimits, which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.)
 
-**Terminilogy**
+**Terminology**
 
-* The morphisms in $W \cap F$ (the fibrations that are also weak equivalences) are called **trivial fibrations** or **acyclic fibrations** 
+* The morphisms in $W \cap Fib$ (the fibrations that are also weak equivalences) are called **trivial fibrations** or **acyclic fibrations** 
 
-* The morphisms in $W \cap C$ (the cofibrations that are also weak equivalences) are called **trivial cofibrations** or **acyclic cofibrations**. 
-
+* The morphisms in $W \cap Cof$ (the cofibrations that are also weak equivalences) are called **trivial cofibrations** or **acyclic cofibrations**. 
 
 * An object is called **cofibrant** if the unique morphism $\emptyset \to X$ from the [[initial object]] is a cofibration
 
@@ -74,6 +72,22 @@ Often, the fibrant and cofibrant objects are the ones one is "really" interested
 
 ## Variants 
 
+### Slight variations on the axioms
+
+Quillen's original definition required only finite limits and colimits, which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.
+
+Some authors, notably [[Mark Hovey]], require that the factorizations given by (ii) are actually _functorial_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
+
+### Enhancements of the axioms
+
+There are several extra conditions that strengthen the notion of a model category:
+
+* A [[monoidal model category]] is [[monoidal category]] that is also a model category in a compatible way.
+
+* An [[enriched model category]] is an [[enriched category]] over a monoidal category, that is also a model category in a compatible way.
+
+### Weaker axiom systems
+
 There are several notions of [[category with weak equivalences]] with similar but less structure than a full model category.
 
 * A [[category of fibrant objects]] has a notion of just weak equivalences and fibrations, none of cofibrations.  As the name implies, all of its objects are fibrant; the canonical example is the subcategory of fibrant objects in a model category.
@@ -83,11 +97,13 @@ There are several notions of [[category with weak equivalences]] with similar bu
 There is also a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
 
 
-## Notes
 
-* Some authors, notably Mark Hovey, require that the factorizations given by (ii) are actually _functorial_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
 
-* As a consequence of the above definition, the classes $C, F,$ and $W$ are all closed under retracts and composition and contain the isomorphisms of $K$. This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
+## Properties
+
+As a consequence of the definition, the classes $Cof, Fib$, and $W$ are all closed under [[retract]]s in the [[arrow category]] $Arr C$ and under composition and contain the [[isomorphism]]s of $C$. 
+
+This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from axioms (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
 
 
 ## Examples
