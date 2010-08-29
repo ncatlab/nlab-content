@@ -80,7 +80,7 @@ This is the model structure which induces the [[transferred model structure|tran
 
 #### The projective model structure {#CochainNonNegProj}
 
-We record a detailed proof of the following statement.
+We record a detailed proof, following ([Stel](#Stel)), of 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -164,6 +164,11 @@ The projective model structure is discussed after that in
 Variant model structures on chain complexes are discussed in
 
 * [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_ ([pdf](http://jdc.math.uwo.ca/papers/relative.pdf))
+
+An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
+
+* [[nLab:Herman Stel]], _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras -- with Applications to ∞-Lie Theory]]_ (2010)
+{#Stel}
 
 ### For unbounded chain complexes
 
