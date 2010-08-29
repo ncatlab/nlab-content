@@ -82,8 +82,8 @@ This is the model structure which induces the [[transferred model structure|tran
 
 We record a detailed proof, following ([Stel](#Stel)), of 
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .un_theorem}
+###### Theorem
 
 The catgeory $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
 
@@ -93,55 +93,144 @@ The catgeory $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[
 
 =--
 
+We prove this in a sequence of lemmas.
+
++-- {: .un_def}
+###### Definition
+
+As usual, for $n \in \mathbb{N}$ write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and for $n \geq 1$  write $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
+
+For $n = 0$ let $\mathbb{Z}[-1,0] = 0$, for convenience.
+
+=--
+
+
+
+
+
++-- {: .un_lemma}
+###### Lemma
+
+For all $n \in \mathbb{N}$ the canonical maps $0 \to \mathbb{Z}[n]$ and $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ are cofibrations, in that they  have the [[left lifting property]] against acyclic fibrations.
+
+=--
 
 +-- {: .proof}
 ###### Proof
 
 
-As usual, for $n \in \mathbb{N}$ write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and for $n \geq 1$  write $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
+Let $p : A \stackrel{\simeq}{\to} B$ be an acylic fibration, that is degreewise surjective and an isomorphism on cohomology. 
+
+For consider $\mathbb{Z}[0]\to 0$. We need to construct lifts
+
+$$
+  \array{
+     \mathbb{Z}[0] &\stackrel{f}{\to}& A
+     \\
+     \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{p}
+     \\
+     0 &\stackrel{}{\to}& B
+  }
+  \,.
+$$
+
+Since $p(f_0(1)) = 0$ we have by using that $p$ is a quasi-iso that $f_0(1) = 0 \; mod\; im d_A$. But in degree 0 this means that $f_0(1) = 0$. And so the unique possible lift in the above diagram does exist.
 
 
-**Lemma**
-
-The canonical inclusions $0 \to \mathbb{Z}[n]$ and $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ are cofibrations, in that they  have the [[left lifting property]] against acyclic fibrations.
-
-_Proof._  Let $p : A \stackrel{\simeq}{\to} B$ be an acylic fibration, that is degreewise surjctive and an isomorphism on cohomology. We need to construct a lift in 
+Consider now $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ for $n \geq 1$. We need to construct a lift in all diagrams of the form
 
 $$
   \array{
      \mathbb{Z}[n] &\stackrel{f}{\to}& A
      \\
-     \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\iota}
+     \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{p}
      \\
      \mathbb{Z}[n-1,n] &\stackrel{g}{\to}& B
   }
   \,.
 $$
 
-First consider the case $n \gt 0$. Then such a lift
-is equivalently an element $\sigma \in A_{n-1}$ such that 
+Such a lift is equivalently an element $\sigma \in A_{n-1}$ such that 
 
 * $d_A \sigma = f_n(1)$
 
 * $p_{n-1}(\sigma) = g_{n-1}(1)$.
 
-Since $p$ is a quasi-isomorphism, we have 
+Since $p$ is a quasi-isomorphism, and since it takes the closed element $f_n(1) \in A_n$ to the exact element $p_n(f_n(1)) = d_B g_{n-1}(1)$ it follows that $f_n(1)$ itself must be exact in that there is $z \in A_{n-1}$ with $d_A z = f_n(1)$. Pick such.
+
+So then $d_B ( p(z) - g_{n-1}(1) ) = 0$ and again using that $p$ is a quasi-isomorphism this means that there must be a closed $a \in A_{n-1}$ such that $p(a) = p(z)- g_{n-1}(1) + d_B b$ for some $b \in B_{n-2}$. Choose such $a$ and $b$.
+
+Since $p$ is degreewise onto, there is $a'$ with $p(a') = b$. Choosing this the above becomes $p(a) = p(z) - g_{n-1}(1) + p(d_A a')$. 
+
+Set then 
 
 $$
-  (p_n|_{ker d_A})^{-1}(im d_B^n ) = im d_A
+  \sigma := z - a + d_A a'
   \,.
 $$
 
-And because $p_n(f_n(1)) = d_B g_{n-1} \in im d_B$ this implies that there is some $z \in A_{n-1}$ with $d_A z = f_n(1)$.
+It follows with the above that this satisfies the two conditions on $\sigma$: 
 
-Now...
+$$
+  \begin{aligned}
+     d_A \sigma &= d_A z - d_A a + d_A d_A a' 
+     \\
+     & =
+     d_A z 
+     \\
+      & = f_n(1)
+  \end{aligned}
+$$
 
-(...out of time...to be continued...)
+$$
+  \begin{aligned}
+     p( \sigma ) &=  p(z) - p(a) + p(d_A a')
+     \\
+     & = g_{(n-1)}(1)
+  \end{aligned}
+  \,.
+$$
 
+Finally consider $0 \to \mathbb{Z}[n]$ for all $n$. We need to produce lifts in
 
+$$
+  \array{
+     0 &\stackrel{}{\to}& A
+     \\
+     \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{p}
+     \\
+     \mathbb{Z}[n] &\stackrel{g}{\to}& B
+  }
+  \,.
+$$
+
+Such a lift is a choice of element $\sigma \in A_n$ such that
+
+* $d_A \sigma = 0$;
+
+* $p(\sigma) = g_n(1)$;
+
+Since $g_n(1)$ is closed and $p$ a surjective quasi-isomorphism, we may find a closed $a \in A_n$ and an $a' \in A_{n-1}$ such that 
+$p (a) = g_{n}(1) + d_B(p(a'))$. Set then
+
+$$
+  \sigma := a - d_A a'
+  \,.
+$$
 
 =--
 
++-- {: .un_lemma}
+###### Lemma
+
+For all $n \in \mathbb{N}$, the morphism $0 \to \mathbb{Z}[n-1,n]$
+are acyclic cofibrations, in that they have the [[left lifting property]] again all degreewise surjections.
+
+=--
+
+(...)
+
+(... out of times.. to be continued ...)
 
 ## History and references {#References}
 
