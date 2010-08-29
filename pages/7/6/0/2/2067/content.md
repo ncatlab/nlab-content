@@ -1,8 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
-
+=--
+=--
+=--
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -52,6 +61,8 @@ This has its analog in [[higher category theory|higher categories]].
 ## Definition
 
 ### In categories
+
+#### Traditional definition
 
 +-- {: .un_defn}
 ###### Definition
@@ -120,9 +131,14 @@ exists.
 
 =--
 
-This definition may equivalently be formulated as follows.
 
-Let 
+#### Reformulations {#CartInOrdCatReformulation}
+
+We discuss equivalent reformulations of the above definition of Cartesian
+morphism that lend themselves better to generalization to 
+[[higher category theory]].
+
+For the following, we need this notionation: let 
 
 * $X/x_2$ by the [[overcategory]] of $X$ over the object $x_2$;
 
@@ -145,39 +161,122 @@ Let
  
   are objects $a$ of $X$ eqipped with morphisms to $x_1$ and $x_2$ such that the obvious triangle commutes, and whose morphisms are morphisms between these tip objects such that all diagrams in sight commute.
 
-* similarly $Y/p(f)$.
-
-
-The relevance of the notion of cartesian morphism is as an ingredient in the following definition.
+* similarly for $Y/p(f)$.
 
 
 
++-- {: .un_prop}
+###### Proposition
 
-
-+-- {: .un_defn}
-###### Observation
-
-The condition that $f$ is cartesian with respect to $p$ 
-is equivalently the condition that the functor
+The condition that $f \in Mor X$ is a Cartesian morphism with respect to $p : X \to Y $  is equivalent to the condition that the functor
 
 $$
-  X/f \to X/{x_2} \times_{Y/{p(x_2)}} Y/p(f)
+  \phi : X/f \to X/{x_2} \times_{Y/{p(x_2)}} Y/p(f)
 $$
 
-into the [[pullback]] of the obvious projection $X/{x_2} \to S/p(x_2)$ along the projection $S/p(f) \to S/p(x_2)$ is a [[k-surjective functor|surjective equivalence]]
+into the (strict) [[pullback]] of the obvious projection $X/{x_2} \to Y/p(x_2)$ along the projection $Y/p(f) \to Y/p(x_2)$ induced by the commutativity of
 
 $$
   \array{
-    X/f &\to& Y/p(f)
+    X/f &\stackrel{\phi_2}{\to}& Y/p(f)
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{\phi_1}}\downarrow && \downarrow
     \\
     X/{x_2} &\to& Y/{p(x_2)}
   }
+$$
+
+is a [[k-surjective functor|surjective equivalence]], and this in turn is equivalent to it being an [[isomorphism]] of categories.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is immediate to see that $\phi$ being an isomorphism of categories is equivalent to the condition that $f$ is a Cartesian morphism. We discuss that that just the condition that $\phi$ is a surjective equivalence already implies that it is an isomorphism of categories.
+
+So assume now that $\phi$ is a surjective equivalence.
+
+Notice that objects in the pullback category are compatible pairs
+
+$$
+  \left(
+  \left(
+  \array{
+     && a 
+     \\
+     &&& \searrow
+     \\
+     x_1 &&\stackrel{f}{\to}&& x_2
+  }
+  \right) \in X/_{x_2}
+  \;\;\;\;\;\;\,,\;\;\;\;\;\;
+  \left(
+  \array{
+     && b 
+     \\
+     & \swarrow && \searrow
+     \\
+     p(x_1) &&\stackrel{p(f)}{\to}&& p(x_2)
+  }
+  \right)
+   \in Y/p(f)
+  \right)
   \,.
 $$
 
+We have a $\phi$ being _surjective_ on object means that every such pair is in the image of some object 
+
+$$
+  \left(
+  \array{
+     && a 
+     \\
+     &{}^{\mathllap{g}}\swarrow&& \searrow
+     \\
+     x_1 &&\stackrel{f}{\to}&& x_2
+  }
+  \right)
+  \in X_{f}
+  \,,
+$$
+
+and hence that every filler _exists_ . Assume two such fillers $g$ and $g'$. Then by the fact that an [[equivalence of categories]] is an isomorphism on corresponding hom-sets, it follows that there must be a unique morphism in $X/f$ connecting them 
+
+$$
+  \array{
+     && a
+     \\
+     &{}^{\mathllap{g}}\swarrow & \downarrow^{\mathrlap{h}} & \searrow
+     \\
+     && a
+    \\
+     \downarrow & {}^{\mathllap{g'}}\swarrow && \searrow & \downarrow
+     \\
+     x_1 &&\stackrel{f}{\to}&& x_2
+  }
+$$
+
+such that this maps under $\phi$ to the identity morphism in the pullback category. But in particular this maps to the morphism
+
+$$
+  \array{
+     && a
+     \\
+     && \downarrow^{\mathrlap{h}} & \searrow
+     \\
+     && a
+    \\
+     & && \searrow & \downarrow
+     \\
+      &&&& x_2
+  }
+$$
+
+in $X/{x_2}$ and evidently is the identity there if and only if $h$ is the identity. Hence this maps also to the identity in the pullback category if and only if $h$ is the identity. So $h$ must be the identity. So if two lifts of an object through the surjective equivalence $\phi$ exist, they must already be equal. Hence the surjective equivalence $\phi$ is even an isomorphism on objects and hence an isomorphism of categories.
+
 =--
+
 
 
 +-- {: .un_defn}
