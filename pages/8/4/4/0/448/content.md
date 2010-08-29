@@ -68,6 +68,8 @@ The second topology is the _coherent topology_: each geometric simplex $|s|$ con
 
 Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is an induced subspace inclusion $|s| \hookrightarrow |t|$. The space $|K|$ may then be characterized as the colimit in $Top$ of the diagram consisting of geometric simplices $|s|$ and inclusions between them, so that a function $f: |K| \to X$ is continuous if and only if its restriction to each simplex $|s|$ is continuous. In particular, the identity function $|K| \to |K|_d$ is continuous, so that the coherent topology contains the metric topology (and is often strictly larger). 
 
+* **Warning:** The geometric realization of a simplicial complex does not preserve products. Indeed, the product of two intervals in the category of simplicial complexes is the tetrahedron! 
+
 ### Triangulable spaces
 
 If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. 
