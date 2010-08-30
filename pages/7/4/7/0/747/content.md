@@ -494,8 +494,11 @@ This is in the proof of lemma 2.7 in section 9 of
 
 +-- {: .un_example }
 ###### Example
+**(split hypercovers)**
 
-All [[?ech nerve]]s $C(\{U_i\})$ coming from an [[open cover]] have split degeneracies. The condition that the Cech nerve be degreewise a coproduct of representables is a condition akin to that of [[good open cover]]s (which is precisely the special case for $C = $ [[CartSp]]).
+If $Y \to X$ is an acyclic fibration in the local projective model structure with $X$ a representable and $Y$ cofibration in the above way, it is called a **[[split hypercover]]** .
+
+All [[?ech nerve]]s $C(\{U_i\})$ coming from an [[open cover]] have split degeneracies. The condition that the Cech nerve be degreewise a coproduct of representables is a condition akin to that of [[good open cover]]s (which is precisely the special case for $C = $ [[CartSp]]). This is then a split hypercover of _height_ 0.
 
 =--
 
