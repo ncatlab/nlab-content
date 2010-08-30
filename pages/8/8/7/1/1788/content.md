@@ -4,8 +4,6 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
-$\neq$
-
 $\eta_c\left(\text{Id}_c\right)\text{  }\in \text{  }X(c)$
 
 $\eta _c\left(\text{Id}_c\right) \in  X(c)$
