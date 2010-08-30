@@ -103,7 +103,7 @@ We say more on the canonical $T$-line object below in [The Line object](#Line)
 ###### Theorem
 {#ModelTransferToTAlg}
 
-There is a [[cofibrantly generated model category|cofibrantly generated]] [[model structure on cosimplicial abelian groups]] $Ab^\Delta_{proj}$ whose weak equivalences are the morphism that induce [[quasi-isomorphism]] under passage to [[Dold-Kan correspondence|normalized cochain complexes]] and fibrations are the degreewise surjections.  
+There is a [[cofibrantly generated model category|cofibrantly generated]] [[model structure on cosimplicial abelian groups]] $Ab^\Delta_{proj}$ whose weak equivalences are the morphisms that induce [[quasi-isomorphism]] under passage to [[Dold-Kan correspondence|normalized cochain complexes]] and fibrations are the degreewise surjections.  
 
 With respect to the [canonical sSet-enrichment](#Enrichment) of the [[category of cosimplicial objects]] $Ab^{\Delta}$, this
 is a [[simplicial model category]].
@@ -124,13 +124,43 @@ This, too, is a [[simplicial model category]] with respect to its [standard sSet
 +-- {: .proof}
 ###### Proof
 
-The simplicial enrichment of $Ab^\Delta_{proj}$ is discussed at [[model structure on cosimplicial abelian groups]]. We here give the proof of the transferred simplicial model structure on $T Alg^\Delta_{proj}$.
+The proof of the existence of the [[model structure on cochain complexes]] in non-negative degree -- $Ch^\bulet_+(Ab)$ -- whose fibratins are the _degreewise surjections_ (and weak equivalences the usual [[quasi-isomorphism]])s is spelled out <a href="http://ncatlab.org/nlab/show/model+structure+on+chain+complexes#CochainNonNegProj">here</a>.
+
+By the dual [[Dold-Kan correspondence]] $Ab^\Delta \simeq Ch^\bullet_+(Ab)$ this induces the [[model structure on cosimplicial abelian groups]] whose fibrations are the degreewise surjections (using that the [[Moore complex|normalized cochain complex functor]] sends surjections to surjections).
+
+That with the standard structure of an [[sSet]]-[[enriched category]] on $Ab^\Delta$ this constitutes a [[simplicial model category]]-structure is proven <a href="http://ncatlab.org/nlab/show/model+structure+on+cosimplicial+abelian+groups#SimplicialEnrichmentOfProjective">here</a>.
+
+Now we use the basic fact of [[Lawvere theories]] that any morphism $f : T_1 \to T_2$ of such induces a pair of [[adjoint functor]]s
+
+$$
+  (f_* \dashv f^*) : T_2 Alg \stackrel{\overset{f_*}{\leftarrow}}{\underset{f^*}{\to}}
+  T_1 Alg
+$$
+
+between their categories of algebras: the <a href="http://ncatlab.org/nlab/show/Lawvere%20theory#AdjCatAlgs">adjunction of relatively free algebras</a>.
+
+Since by assumption that our $T$ is an abelian Lawvere theory we are given a morphism $ab : Ab \to T$ from the theory of [[abelian group]]s, this means that we have an [[adjunction]] 
+
+$$
+  (ab_* \dashv ab^*) : T Alg \stackrel{\overset{ab_*}{\leftarrow}}{\underset{ab^*}{\to}}
+  Ab
+$$
+
+and hence also an adjunction
+
+$$
+  (ab_*^\Delta \dashv (ab^*)^\Delta) : T Alg^\Delta \stackrel{\overset{}{\leftarrow}}{\underset{}{\to}}
+  Ab^\Delta
+  \,.
+$$
+
+We need to check that the [[right adjoint]] $(ab^*)^\Delta$ induces the [[transferred model structure]] on $T Alg^\Delta$ from the above model structure $Ab^\Delta_{proj}$. 
 
 By the facts recalled at [[transferred model structure]], we need to check that $T Alg^\Delta_{proj}$ 
 
 * has a fibrant replacement functor;
 
-* has functorial [[path space object]]s for fibrant objects
+* has functorial [[path space object]]s for fibrant objects;
 
 and for the simplicial enrichment that
 
@@ -139,11 +169,11 @@ and for the simplicial enrichment that
 The first condition is trivial, since all objects are fibrant. The last condition is evidently satisfied, since 
 
 $$
-  U(A^S)_n = U(\prod_{S_n} A_n) = \prod_{S_n} U(A_n) = ((U(A))^S)_n
+  U_T(A^S)_n = U_T(\prod_{S_n} A_n) = \prod_{S_n} U_T(A_n) = ((U_T(A))^S)_n
   \,.
 $$
 
-Using this, we claim that we can take the path space object functor to be given by [[power]]ing with the simplicial interval
+Using this, we claim that we can take the path space object functor to be given by [[power]]ing with the simplicial [[interval]]
 
 $$ 
  (-)^I : A \mapsto A^{\Delta[1]}
@@ -319,9 +349,8 @@ Write $[C^{op}, sSet]_{proj,loc}$ for the
 
 =--
 
-By general results on Bousfield localization, this exists always for $S$ a [[small set]], notably for $f$ the set of [[Cech nerve]] projections $C(U) \to X$ for [[cover]]s $\{U_i \to X\}$ of the [[Grothendieck topology]] on $C$. By general results on the [[local model structure on simplicial presheaves]], the localization also exists for $S$ the class of all hypercovers. 
+By general results on left Bousfield localization, this exists always for $S$ a [[small set]], notably for $f$ the set of [[Cech nerve]] projections $C(U) \to X$ for [[cover]]s $\{U_i \to X\}$ of the [[Grothendieck topology]] on $C$. By general results on the [[local model structure on simplicial presheaves]], the localization also exists for $S$ the class of all hypercovers. 
 
-(...)
 
 ### The Yoneda-Quillen-adjunction
 
@@ -423,9 +452,9 @@ The following theorems say that the obstructions to making this Quillen adjuncti
 +-- {: .un_prop}
 ###### Proposition
 
-Let $J$ be a [[subcanonical coverage]] on $C \subset (TAlg^\Delta)^{op}$, $X \in Ob(C)$ and $f : Y \to j(X)$ a [[hypercover]] with respect to $J$.
+Let $J$ be a [[subcanonical coverage]] on $C \subset (TAlg^\Delta)^{op}$, $X \in Ob(C)$ and $f : Y \to j(X)$ a [[split hypercover]] with respect to $J$.
 
-Then for $i \gt 1$ we have that $f$ induces an isomorphism in $R$-cohomology in degree $i$: $H^i(\mathcal{O}(f))$ is an [[nLab:isomorphism]].
+Then for $i \neq  1$ we have that $f$ induces an isomorphism in $R$-cohomology in degree $i$: $H^i(\mathcal{O}(f)) : H^i(\mathcal{O}(X)) \stackrel{\simeq}{\to} H^i(\mathcal{O}(Y))$ .
 
 =--
 
@@ -433,7 +462,73 @@ Then for $i \gt 1$ we have that $f$ induces an isomorphism in $R$-cohomology in 
 +-- {: .proof}
 ###### Proof
 
-(...)
+Regard $f$ as a [[simplicial object]] in the [[overcategory]]
+
+$$
+  Sh(C)/X \simeq Sh(C/X)
+  \,.
+$$
+
+Write 
+
+$$
+  \bar f \in Ab(Sh(C)/X)^{\Delta^{op}}
+$$ 
+
+for the degreewise free abelian group object of that, a simplicial object in the category of abelian group objects in the sheaf topos over $C$. By a classical result (...), the [[chain homology]] of the corresponding normalized chain complex vanishes in positive degree:
+
+$$
+  H_{n \geq 1}(\bar f) = 0
+  \,.
+$$
+
+
+Let now by the [[Freyd-Mitchell embedding theorem]]
+
+$$
+  i : Ab(Sh(C/Y)) \hookrightarrow R Mod
+$$
+
+be a [[full and faithful functor]] from the [[abelian category]] of abelian group object into the category of $R$-[[module]] over some ring $R$. 
+
+Write $K \in R Mod$ for the canonical $T$-[line object](#Line) regarded first as the abelian group object $U_T(-) \times X \in Ab(Sh(C/X))$ and then injected with $i$ into $R Mod$.
+
+
+Using this, the cochain cohomology $H^i(\mathcal{O}(Y_\bullet))$ that we are after is equivalently the cohomology of
+
+$$
+  \begin{aligned}
+    \mathcal{O}(Y)
+    & \simeq Sh(C)^\Delta(Y_\bullet, U_T(-))
+    \\
+    & \simeq Sh(C)/X(f_\bullet , U_T(-) \times X)
+    \\
+    & \simeq Ab(Sh(C)/X)( \bar f_\bullet, U_T(-)\times X)
+    \\
+    & \simeq R Mod( i(\bar f_\bullet), i(U_T(-) \times X) )
+    \\
+    & \simeq R Mod( i(\bar f_\bullet), K )
+  \end{aligned}
+  \,.
+$$
+
+To compute this, we use the [[universal coefficient theorem]], which says that we have an [[exact sequence]]
+
+$$
+  0 \to Ext^1(H_{n-1}(i(\bar f_\bullet), K))
+  \to H^n(R Mod(i(\bar f_\bullet), K))
+  \to Ab(H_n(i(\bar f_\bullet)), C)
+  \to 0
+  \,.
+$$
+
+By the above fact that the homology $H_n(i(\bar f))$ vanishes in positive degree, this gives finally that 
+
+$$
+  H^n(\mathcal{O}(Y))
+$$
+
+vanishes in degree $n \geq 2$. That it also vanishes in degree 0 is seen to be equivalent to the sheaf condition on $X$, which is true by the assumption that we are working with a [[subcanonical coverage]].
 
 =--
 
@@ -444,7 +539,7 @@ Then for $i \gt 1$ we have that $f$ induces an isomorphism in $R$-cohomology in 
 **(passage to local model structure)**
 {#PassageToLocalTheorem}
 
-If for all (hyper-)covers $f \in S$ we have that $H^0(\mathcal{O}(f))$ and  $H^1(\mathcal{O}(f))$ are isomorphisms then $(\mathcal{O} \dashv j)$ is a [[simplicial Quillen adjunction]] to the [[local model structure on simplicial presheaves]].
+If for all split (hyper-)covers $f \in S$ we have that $H^1(\mathcal{O}(f))$ is an isomorphisms then $(\mathcal{O} \dashv j)$ is a [[simplicial Quillen adjunction]] to the [[local model structure on simplicial presheaves]].
 
 $$
   (\mathcal{O} \dashv j) : 
