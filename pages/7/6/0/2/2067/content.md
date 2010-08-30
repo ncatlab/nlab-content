@@ -131,6 +131,15 @@ exists.
 
 =--
 
++-- {: .un_defn}
+###### Definition
+**(Grothendieck fibration)**
+
+If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism , one says that $p$ is a [[Grothendieck fibration]].
+
+=--
+
+
 
 #### Reformulations {#CartInOrdCatReformulation}
 
@@ -193,7 +202,7 @@ is a [[k-surjective functor|surjective equivalence]], and this in turn is equiva
 +-- {: .proof}
 ###### Proof
 
-It is immediate to see that $\phi$ being an isomorphism of categories is equivalent to the condition that $f$ is a Cartesian morphism. We discuss that that just the condition that $\phi$ is a surjective equivalence already implies that it is an isomorphism of categories.
+It is immediate to see that $\phi$ being an isomorphism of categories is equivalent to the condition that $f$ is a Cartesian morphism. We discuss that just the condition that $\phi$ is a surjective equivalence already implies that it is an isomorphism of categories.
 
 So assume now that $\phi$ is a surjective equivalence.
 
@@ -225,7 +234,7 @@ $$
   \,.
 $$
 
-We have a $\phi$ being _surjective_ on object means that every such pair is in the image of some object 
+We have that $\phi$ being _surjective_ on object means that every such pair is in the image of some object 
 
 $$
   \left(
@@ -241,7 +250,7 @@ $$
   \,,
 $$
 
-and hence that every filler _exists_ . Assume two such fillers $g$ and $g'$. Then by the fact that an [[equivalence of categories]] is an isomorphism on corresponding hom-sets, it follows that there must be a unique morphism in $X/f$ connecting them 
+and hence that every filler _exists_ . Assume two such fillers $g$ and $g'$. Then by the fact that an [[equivalence of categories]] is a surjection (even an isomorphism) on corresponding hom-sets, it follows that there exists (even uniquely) a morphism in $X/f$ connecting them 
 
 $$
   \array{
@@ -278,14 +287,6 @@ in $X/{x_2}$ and evidently is the identity there if and only if $h$ is the ident
 =--
 
 
-
-+-- {: .un_defn}
-###### Definition
-**(Grothendieck fibration)**
-
-If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism , one says that $p$ is a [[Grothendieck fibration]].
-
-=--
 
 
 ### In $(\infty,1)$-categories
