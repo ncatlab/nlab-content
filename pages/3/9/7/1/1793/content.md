@@ -514,4 +514,5 @@ shown that there is a model category structure on the category of unbounded chai
 
 [[!redirects model structures on chain complexes]]
 
+[[!redirects model structure on cochain complexes]]
 [[!redirects model structures on cochain complexes]]
