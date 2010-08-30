@@ -1,4 +1,24 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 Depending a bit on context, a _hypercover_ is a local weak equivalence or local acyclic fibration in the [[model structure on simplicial presheaves]] for a given [[site]] $C$.
 
@@ -12,13 +32,8 @@ More generally in the standard [[local model structure on simplicial presheaves]
 
 Generally, [[cohomology]] defined in terms of the [[(∞,1)-topos]] [[presentable (infinity,1)-category|presented]] by the hypercompleted [[local model structure on simplicial presheaves]] has been regarded as the "right" notion of cohomology. In particular that coincides with standard [[abelian sheaf cohomology]] when restricted to the abelian case.
 
-On the other hand, more rencently in
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
-
-it is argued that the [[(∞,1)-topos]] coming from just localizing at [[?ech covers]] is in fact better behaved in many respects.
-
-#Origin of the term#
+## Origin of the term
 
 The term _hypercover_ originates in the fact that for
 $\pi : Y \to X$ any [[regular epimorphism]], hence an 
@@ -42,7 +57,7 @@ is obtained by starting with a cover $Y \to X$, then choosing
 a cover of the fiber product $Y \times_X Y$, and so on.
 
 
-#Characterization by lifting property#
+## Characterization by lifting property
 
 Hypercovers are usually (for instance in the [[model structure on simplicial sets]] characterized as being those
 morphisms $\pi : Y \to X$ for which all images 
@@ -78,7 +93,7 @@ $$
   \,.
 $$
 
-#Hypercovers in different model categories#
+## Hypercovers in different model categories
 
 In the context of the [[model structure on simplicial sets]], these are the hypercovers proper. In the context of 
 the [[folk model structure]] on 
@@ -87,7 +102,7 @@ this are the
 $\omega$-functors which are $k$-[[k-surjective functor|surjective]]
 for all $k$.
 
-#Relation to fibrations#
+## Relation to fibrations
 
 The condition on hypercovers, being _acyclic fibrations_ is closely related to the condition on _fibrations_. Usually the lifting property for fibrations is obtained from that for hypercovers by removing in the boundary $\partial C^n$ of the standard $n$-cell one face.
 
@@ -96,8 +111,12 @@ For instance the definition of a hypercover of simplicial sets becomes that of a
 In the globular set by replacing the inclusion $\partial G^n \hookrightarrow G^n$ of the boundary of the standard $n$-[[globe]] into the $n$-globe with the inclusion $G^{n-1} \hookrightarrow G^n$ of the standard $(n-1)$-globe (which is one-half of the full boundary), the above lifting condition is that of fibrations in the [[folk model structure]] on [[∞-groupoids]].
 
 
+## Furhter conditions
 
-#Reference#
+A hypercover in the projective [[local model structure on simplicial presheaves]] that also satisfies a cofibrancy condition is called a [[split hypercover]].
+
+
+## Reference
 
 See the remark at the end of section 2, on p. 6 of
 
