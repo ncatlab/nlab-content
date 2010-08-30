@@ -12,4 +12,10 @@ This is useful to obtain conformal symmetry algebras in some physical theories o
 
 * Marc Henneaux, Claudio Teitelboim, _Asymptotically anti-de Sitter spaces_,  Comm. Math. Phys. __98__, Number 3 (1985), 391-424, [euclid](http://projecteuclid.org/euclid.cmp/1103942446)
 
+New developments
+
+* Marc Henneaux, Soo-Jong Rey, _Nonlinear W(infinity) algebra as asymptotic symmetry of 3-dimensional higher spin Anti-de Sitter gravity_, [arxiv/1008.4579](http://arxiv.org/abs/1008.4579)
+
+[[!redirects asymptotic symmetry]]
+[[!redirects asymptotic symmetries]]
 [[!redirects asymptotic isometries]]
