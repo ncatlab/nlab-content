@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+=--
+=--
+
+> This entry is about the notion of (co)skeleta of simplicial sets. For the notion of skeleton of a category see [[skeleton]].
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
