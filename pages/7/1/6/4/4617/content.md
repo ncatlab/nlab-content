@@ -278,7 +278,7 @@ coend-form (the [[nLab:co-Yoneda lemma]]).
 
 
 
-#### The line object
+#### The line object {#Line}
 
 
 Recall from [above](#TAlgebras) that we write $F_T(*)$ for the free $T$-algebra on a single generator. 
@@ -359,7 +359,7 @@ We relate now the [model structure on cosimplicial T-algebras](#ModelTAlg) with 
 +-- {: .un_theorem}
 ###### Theorem
 
-The functors $j$ and $\mathcal{O}$ constitute an [[simplicial Quillen adjunction]] 
+The functors $j$ and $\mathcal{O}$ constitute a [[simplicial Quillen adjunction]] 
 
 $$
   (\mathcal{O} \dashv j) : 
@@ -381,7 +381,7 @@ $$
 \begin{aligned}
   (T Alg^\Delta)^{op}(\mathcal{O}(X), A)
   & :=
-  (T Alg^\Delta)^{op}(A(-), [C^{op}, sSet](X, j(F_T(-))))
+  T Alg^\Delta (A(-), [C^{op}, sSet](X, j(F_T(-))))
   \\
   & \simeq
   \int_{k \in T} \int_{[n] \in \Delta}
