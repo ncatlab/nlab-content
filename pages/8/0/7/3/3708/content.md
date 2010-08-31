@@ -285,7 +285,22 @@ Finally we come to the proof of the [full theorem above](#TangentOfSmoothAlgTheo
 
 The above lemma shows that $T_{SmoothAlg} \simeq SmoothAlg \times_{Ring} T_{Ring}$ is a bijection on objects. 
 
-To check bijection on corresponding [[hom-set]]s we again use the above Hadamard-quotient formula. (...)
+Since the [[pullback]]s that are involved in the definition of the tangent category $T_{SmoothAlg}$ are preserved by the [[right adjoint]] forgetful functor $U : SmoothAlg \to Ring$ (a special case of the general facts about <a href="http://ncatlab.org/nlab/show/Lawvere+theory#AdjCatAlgs">Relative free T-algebra adjunctions</a>), checking bijection on [[hom-set]]s 
+
+$$
+  T_{SmoothAlg}(A\to R_1,B \to R_2) \to SmoothAlg \times_{Ring} T_{Ring} ((U(A), R_1), (U(B), R_2))
+$$
+
+amounts to checking for each $f : R_1 \to R_2$ bijections of hom-sets of abelian group objects 
+
+$$
+  Ab(SmoothAlg/R_1)(A, f^* B) 
+  \to 
+  Ab(Ring/U(R_1))(U(A), f^* U(B))
+  \,.
+$$
+
+That this is a bijection is the statement of the above lemma.
 
 =--
 
