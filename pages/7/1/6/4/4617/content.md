@@ -339,7 +339,7 @@ In the next section we see that $(\mathcal{O} \dashv j)$ forms a [[simplicial Qu
 
 Write $[C^{op}, sSet]_{proj}$ for the global projective [[model structure on simplicial presheaves]] over $C$. With the simplicial enrichment $[C^{op}, sSet]_s$ this is naturally a [[simplicial model category]].
 
-Let $S \subset mor [C^{op}, sSet]$ be a class of [[hypercover]]s. 
+Let $S \subset mor [C^{op}, sSet]$ be a class of [[split hypercover]]s. 
 
 +-- {: .un_def}
 ###### Definition
@@ -349,7 +349,7 @@ Write $[C^{op}, sSet]_{proj,loc}$ for the
 
 =--
 
-By general results on left Bousfield localization, this exists always for $S$ a [[small set]], notably for $f$ the set of [[Cech nerve]] projections $C(U) \to X$ for [[cover]]s $\{U_i \to X\}$ of the [[Grothendieck topology]] on $C$. By general results on the [[local model structure on simplicial presheaves]], the localization also exists for $S$ the class of all hypercovers. 
+By general results on left Bousfield localization, this exists always for $S$ a [[small set]], notably for $f$ the set of [[Cech nerve]] projections $C(U) \to X$ for [[cover]]s $\{U_i \to X\}$ of the [[Grothendieck topology]] on $C$. By general results on the [[local model structure on simplicial presheaves]], the localization also exists for $S$ the class of all (split) hypercovers. 
 
 
 ### The Yoneda-Quillen-adjunction
@@ -475,7 +475,7 @@ $$
   \bar f \in Ab(Sh(C)/X)^{\Delta^{op}}
 $$ 
 
-for the degreewise free abelian group object of that, a simplicial object in the category of abelian group objects in the sheaf topos over $C$. By a classical result (...), the [[chain homology]] of the corresponding normalized chain complex vanishes in positive degree:
+for the degreewise free abelian group object of that, a simplicial object in the category of abelian group objects in the sheaf topos over $C$. The [[chain homology]] of the corresponding normalized chain complex vanishes in positive degree (as discussed <a href="http://ncatlab.org/nlab/show/hypercover#HypercoverHomology">here</a>):
 
 $$
   H_{n \geq 1}(\bar f) = 0
