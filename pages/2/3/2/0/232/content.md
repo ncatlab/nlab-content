@@ -21,7 +21,7 @@
 
 ## Idea
 
-The notion of _enriched category_ is a generalization of the notioon of [[category]].
+The notion of _enriched category_ is a generalization of the notion of [[category]].
 
 Very often instead of merely having a _[[set]]_ of [[morphism]]s from one [[object]] to another, a category will have a _[[vector space]]_ of morphisms, or a _[[topological space]]_ of morphisms, or some other such thing.  This suggests that we should take the definition of ([[locally small category|locally small]]) category and generalize it by replacing the [[hom-set]]s by _hom-objects_ , which are objects in a suitable category $K$.
 This gives the concept of 'enriched category'.
