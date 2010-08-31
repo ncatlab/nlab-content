@@ -21,15 +21,15 @@
 
 ## Idea
 
-Given a category $\mathcal{T}$ of "test objects", one can consider "things" which $\mathcal{T}$ can detect.  If one already has a class of objects in mind, one can consider $\mathcal{T}$-structures on those objects by looking at morphisms to and from objects of $\mathcal{T}$.  Then one considers questions only in so far as they can be distinguished after mapping into $\mathcal{T}$.  A simple example is that of smooth [[manifold]]s where many questions are solved by transporting the problem to Euclidean spaces via charts.  Another example is the use of weak topologies on locally convex topological spaces.  Without a class of objects in mind, the natural definition of an object probeable by $\mathcal{T}$-objects involves presheaves and copresheaves and is as follows.
+Given a [[category]] $\mathcal{T}$ of "test objects", one can consider "things" which $\mathcal{T}$ can detect.  If one already has a class of [[object]]s in mind, one can consider $\mathcal{T}$-structures on those objects by looking at [[morphism]]s to and from objects of $\mathcal{T}$.  Then one considers questions only in so far as they can be distinguished after mapping into $\mathcal{T}$.  A simple example is that of smooth [[manifold]]s where many questions are solved by transporting the problem to Euclidean spaces via charts.  Another example is the use of weak topologies on locally convex topological spaces.  Without a class of objects in mind, the natural definition of an object probeable by $\mathcal{T}$-objects involves presheaves and copresheaves and is as follows.
 
 +-- {: .num_defn #IsbellEnvelope}
 ###### Definition
 Let $\mathcal{T}$ be an [[small category|essentially small]] category.  The _Isbell envelope_ of $\mathcal{T}$, written $E(\mathcal{T})$, is the category whose objects are triples $(P,F,c)$ where
 
-1. $P$ is a contravariant functor $\mathcal{T} \to Set$ (a presheaf),
-2. $F$ is a covariant functor $\mathcal{T} \to Set$ (a co-presheaf),
-3. $c : P \times F \to \mathcal{T}(-,-)$ is a natural transformation of bifunctors $\mathcal{T}^{op} \times \mathcal{T} \to Set$.
+1. $P$ is a [[contravariant functor]] $\mathcal{T} \to Set$ (a [[presheaf]]),
+2. $F$ is a [[covariant functor]] $\mathcal{T} \to Set$ (a [[copresheaf]]),
+3. $c : P \times F \to \mathcal{T}(-,-)$ is a [[natural transformation]] of bifunctors $\mathcal{T}^{op} \times \mathcal{T} \to $ [[Set]].
 
 and where a morphism $X \to Y$ is a pair of natural transformations $(\alpha,\beta)$ with $\alpha : P_X \to P_Y$ $\beta : F_Y \to F_X$ which satisfy the relation $c_X(-,\beta -) = c_Y(\alpha -,-)$.
 =--
@@ -46,18 +46,19 @@ There is an obvious embedding of $\mathcal{T}$ as a full subcategory of $E(\math
 T \mapsto (\mathcal{T}(-,T), \mathcal{T}(T,-), \circ)
 \]
 
-Identifying $\mathcal{T}$ with its image, we have natural isomorphisms
+Identifying $\mathcal{T}$ with its image, we have [[natural isomorphism]]s
 
 \[
 \mathcal{T}^g(T,X) \cong P_X(T), \qquad \mathcal{T}^g(X,T) \cong F_X(T)
 \]
 
-_Other elementary properties to follow_
 =--
+
+_Other elementary properties to follow_
 
 ## Profunctors
 
-The Isbell envelope of a category can be viewed as a category of [[distributor|profunctors]].
+The Isbell envelope of a category can be viewed as a category of [[profunctors]].
 In short, the Isbell envelope of $\mathcal{T}$ consists of the _lax factorisations of $Hom$ through $1$_.
 
 Let us spell this out.
@@ -90,7 +91,7 @@ Translating this back to the language of functors yields the following definitio
 
 +-- {: .num_defn #ConcIsbellEnvelope}
 ###### Definition
-Let $\mathcal{T}$ and $\mathcal{U}$ be categories with a faithful functor $\mathcal{T} \to \mathcal{U}$ which we shall write as $T \mapsto |T|$.  The _$\mathcal{U}$-concrete  Isbell envelope_ of $\mathcal{T}$, which we shall write $E_{\mathcal{U}}(\mathcal{T})$, is the category whose objects are triples $(U,P,F)$ where
+Let $\mathcal{T}$ and $\mathcal{U}$ be categories with a [[faithful functor]] $\mathcal{T} \to \mathcal{U}$ which we shall write as $T \mapsto |T|$.  The _$\mathcal{U}$-concrete  Isbell envelope_ of $\mathcal{T}$, which we shall write $E_{\mathcal{U}}(\mathcal{T})$, is the category whose objects are triples $(U,P,F)$ where
 
 1. $U$ is an object of $\mathcal{U}$,
 2. $P : \mathcal{T} \to Set$ is a subfunctor of the (contravariant) functor $T \mapsto \mathcal{U}(|T|,U)$,
@@ -109,14 +110,15 @@ Having a background category ensures that the size issues with natural transform
 
 ## Enrichment
 
-These notions can be considered in the enriched setting by replacing $Set$ wherever it occurs (explicitly or implicitly) by the enriching category.
+These notions can be considered in the setting of [[enriched category theory]] by replacing [[Set]] wherever it occurs (explicitly or implicitly) by the enriching category.
 
 ## Isbell Duality
 
-Within the Isbell envelope of $\mathcal{T}$ one can consider various subcategories where the objects satisfy extra conditions.  An obvious condition is that the presheaf is actually a sheaf.  Another useful condition is that of Isbell Duality.
+Within the Isbell envelope of $\mathcal{T}$ one can consider various [[subcategories]] where the objects satisfy extra conditions.  An obvious condition is that the presheaf is actually a sheaf.  Another useful condition is that of [[Isbell duality]].
 
 +-- {: .num_defn #IsbelDuality}
 ###### Definition
+
 An object $X$ of $E(\mathcal{T})$ is said to be _$P$-saturated_ if the obvious natural transformations
 
 \[
@@ -129,13 +131,13 @@ are isomorphisms.  It is said to be _$F$-saturated_ if the obvious natural trans
 F_X(T) \to NatTrans(P_X,P_T)
 \]
 
-are isomorphisms.  It is said to satisfy _Isbell duality_ if it is both $P$- and $F$-saturated.
+are isomorphisms.  It is said to satisfy _[[Isbell duality]]_ if it is both $P$- and $F$-saturated.
 =--
 
-Within $E(\mathcal{T})$ one can consider the full subcategories of $P$-saturated objects, of $F$-saturated objects, and those satisfying Isbell duality.  Clearly, the last is the intersection of the first two.  There are idempotent functors onto the first two categories given by replacing one of $P_X$ or $F_X$ by the natural transformations of the other.  An interesting question is to ask whether or not the obvious iteration stabilises after a finite number of steps (which would result in an object satisfying Isbell duality).
+Within $E(\mathcal{T})$ one can consider the [[full subcategories]] of $P$-saturated objects, of $F$-saturated objects, and those satisfying Isbell duality.  Clearly, the last is the intersection of the first two.  There are idempotent functors onto the first two categories given by replacing one of $P_X$ or $F_X$ by the natural transformations of the other.  An interesting question is to ask whether or not the obvious iteration stabilises after a finite number of steps (which would result in an object satisfying Isbell duality).
 
 
-If the test category has, or "morally has", a representable functor to $Set$ then there is a strong relationship between saturation and concreteness.
+If the test category has, or "morally has", a [[representable functor]] to $Set$ then there is a strong relationship between saturation and concreteness.
 
 +-- {: .num_defn #ConstSep}
 ###### Definition
