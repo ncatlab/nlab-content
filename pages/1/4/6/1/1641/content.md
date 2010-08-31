@@ -2,21 +2,7 @@
 
 The term 'topological category' is traditional, and comes from the frequent examples in [[topology]].  It does *not* mean an [[internal category]] or [[enriched category]] in [[Top]]!  (Fortunately the term [[topological groupoid]] is not taken by this tradition; indeed, the only groupoid that is a topological category over $Set$ is [[terminal category|trivial]].  On the other hand, they do seem to use the term 'topological functor', which here we avoid.)
 
-+-- {: .query}
-[[David Roberts]]: How about saying _a category is topological_ instead of/as well as topological category? From the other side, people (used to) refer to _continuous categories_ when talking about categories in Top. This brings clashes of its own, when extending this to continuous functors!
 
-_Toby_:  Yeah, we need a better name.  But 'topological category' seems firmly entrenched; even my phrasing '$C$ is topological over $D$' is something that I\'ve never seen in the wild.  Perhaps something that focuses on the forgetful functor $U: C \to D$?  (But 'topological functor' and 'topological bundle' have their own meanings that we don\'t want to mess with.)
-
-I\'m hoping that somebody will come up with a good suggestion, actually.
-
-[[Tim Porter|Tim]]: On the terminology, a category as such is NOT 'topological'.  Pedantically a concrete category can be topological, but this requires that the $U : C\to sets$ is specified. Adamek, Herrlich
-and Strecker, in their book ACC (see references) use _topological concrete category_ in the index, although slip back to _topological category_ in the main discussion. Perhaps that is the solution.
-_Thinks: stuff, structure, properties!!!!!_
-
-_Toby_:  Your pedantic point is acknowledged below; more importantly, I like your suggested terminology.  It\'s not perfect, as $C$ can be topological over $D$ without either being concrete (although perhaps we should say that $C$ is concrete over $D$? what would that mean exactly?), but it solves the problem of what to call the page, I think.  (Since page moves are easily reversible, I\'ll move it to [[topological concrete category]] now, but other good suggestions are still welcome!)
-
-Update:  Looks like ACC uses 'topological functor' too; let\'s just avoid that, shall we?
-=--
 
 
 ## Idea
@@ -97,6 +83,26 @@ It also follows that $U$ is a [[Grothendieck fibration|fibration]] and opfibrati
 *  If a single algebra $X$ has been given the structure of several spaces, then there are a _supremum_ structure and an _infimum_ structure on $X$ induced (as the initial and final structures) by the various incarnations of its [[identity morphism|identity]] homomorphism.  Exploiting this shows how to construct final structures out of initial ones and conversely.
 *  If $X$ is a [[regular monomorphism|regular]] [[subobject|subalgebra]] of some $U(S)$, then the inclusion homomorphism makes $X$ into a _subspace_ of $S$, which is also a subobject in $C$.  Every regular subobject of $S$ is of this form; note however that there may be nonregular subobjects in $C$ even if all subobjects in $D$ are regular.
 
+## Discussion
+
+
+Here is some old discussion about terminology
+
++-- {: .query}
+[[David Roberts]]: How about saying _a category is topological_ instead of/as well as topological category? From the other side, people (used to) refer to _continuous categories_ when talking about categories in Top. This brings clashes of its own, when extending this to continuous functors!
+
+_Toby_:  Yeah, we need a better name.  But 'topological category' seems firmly entrenched; even my phrasing '$C$ is topological over $D$' is something that I\'ve never seen in the wild.  Perhaps something that focuses on the forgetful functor $U: C \to D$?  (But 'topological functor' and 'topological bundle' have their own meanings that we don\'t want to mess with.)
+
+I\'m hoping that somebody will come up with a good suggestion, actually.
+
+[[Tim Porter|Tim]]: On the terminology, a category as such is NOT 'topological'.  Pedantically a concrete category can be topological, but this requires that the $U : C\to sets$ is specified. Adamek, Herrlich
+and Strecker, in their book ACC (see references) use _topological concrete category_ in the index, although slip back to _topological category_ in the main discussion. Perhaps that is the solution.
+_Thinks: stuff, structure, properties!!!!!_
+
+_Toby_:  Your pedantic point is acknowledged below; more importantly, I like your suggested terminology.  It\'s not perfect, as $C$ can be topological over $D$ without either being concrete (although perhaps we should say that $C$ is concrete over $D$? what would that mean exactly?), but it solves the problem of what to call the page, I think.  (Since page moves are easily reversible, I\'ll move it to [[topological concrete category]] now, but other good suggestions are still welcome!)
+
+Update:  Looks like ACC uses 'topological functor' too; let\'s just avoid that, shall we?
+=--
 
 ## References
 
