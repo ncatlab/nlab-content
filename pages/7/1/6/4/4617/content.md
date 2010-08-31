@@ -21,7 +21,7 @@
 
 ## Abstract
 
-For $T$ any abelian [[Lawvere theory]], here we discuss, following ([To&#235;n](#Toen)) and ([Stel](#Stel)), a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the Quillen adjunction models small objects relative to a choice of a small full subcategory $C \subset T Alg^{op}$  of the localization 
+For $T$ any abelian [[Lawvere theory]], here we discuss, following ([To&#235;n](#Toen)) and ([Stel](#Stel)), a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the Quillen adjunction models small objects relative to a choice of a small full subcategory $T\subset C \subset T Alg^{op}$  of the localization 
 
 $$
   \mathbf{L} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H} = Sh_{(\infty,1)}(C )
@@ -199,7 +199,7 @@ A good notion of a generalized [[space]] modeled on objects in a category $C$ is
 We are interested here in that case that 
 
 $$
-  C \hookrightarrow T Alg^{op}
+  T \subset C \hookrightarrow T Alg^{op}
 $$ 
 
 is a [[small category|small]] [[full subcategory]] of the [[nLab:opposite category]] of $T$-algebras, for $T$ an abelian Lawvere theory. In the remainder of this section we assume such a choice to be fixed. Below in the section on [Examples and applications](#Examples) we discuss concrete choices of interest.
@@ -280,6 +280,7 @@ coend-form (the [[nLab:co-Yoneda lemma]]).
 
 #### The line object {#Line}
 
+The adjunction that we shall be concerned with is essentially [[Isbell duality]]. We recall some basics of <a href="http://ncatlab.org/nlab/show/Isbell+duality#FunctionAlgebrasOnPresheaves">Function T-algebras on presheaves</a>.
 
 Recall from [above](#TAlgebras) that we write $F_T(*)$ for the free $T$-algebra on a single generator. 
 
