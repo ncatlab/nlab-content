@@ -145,25 +145,23 @@ $$
 
 =--
 
+### Isbell envelope
+
+See [[Isbell envelope]].
+
 ## Examples
 
-### Function $T$-Algebras on presheaves
+### Function $T$-Algebras on presheaves {#FunctionAlgebrasOnPresheaves}
 
 Let $\mathcal{V}$ be any [[cartesian closed category]]. 
 
 Let $C := T$ be the [[syntactic category]] of a $\mathcal{V}$-enriched [[Lawvere theory]], that is a $\mathcal{V}$-category with finite [[product]]s such that all objects are generated under products from a single object $1$.
 
-Write $T Alg := [C,\mathcal{V}]_\times$ for category of product-preserving functors: the category of $T$-algebras. This comes with the canonical forgetful functor
+Then write $T Alg := [C,\mathcal{V}]_\times$ for category of product-preserving functors: the category of $T$-algebras. This comes with the canonical forgetful functor
 
 $$
-  U_T : T Alg \to \mathcal{V}
+  U_T : T Alg \to \mathcal{V} :   A \mapsto A(1)
 $$
-
-$$
-  A \mapsto A(1)
-  \,.
-$$
-
 
 Write 
 
@@ -171,7 +169,12 @@ $$
   F_T : T^{op} \hookrightarrow T Alg
 $$ 
 
-for the [[Yoneda embedding]]. Call 
+for the [[Yoneda embedding]]. 
+
++-- {: .un_def}
+###### Definition
+
+Call 
 
 $$
   \mathbb{A}_T := Spec(F_T(1))  \in [C^{op}, \mathcal{V}]
@@ -179,6 +182,7 @@ $$
 
 the **$T$-line object**.
 
+=--
 
 +-- {: .un_lemma}
 ###### Observation
@@ -221,3 +225,84 @@ by the above adjunction and then by the [[Yoneda lemma]].
 
 =-- 
 
+
+All this generalizes to the following case:
+
+instead of setting $C := T$ let more generally
+
+$$
+  T \subset C \subset T Alg^{op}
+$$
+
+be a [[small category|small]] [[full subcategory]] of $T$-algebras, containing all the free $T$-algebras.
+
+Then the original construction of $\mathcal{O} \dashv Spec$ no longer makes sense, but that in terms of the line object still does
+
++-- {: .un_prop}
+###### Proposition
+
+Set
+
+$$
+ Spec A : B \mapsto T Alg(A,B)
+$$
+
+and
+
+$$
+  \mathcal{O}(X) : k \mapsto 
+  [C^{op}, \mathcal{V}](X, Spec(F_T(k)))
+  \,.
+$$
+
+Then we still have an adjunction
+
+$$
+  (\mathcal{O} \dashv Spec)
+  :
+  T Alg^{op}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  [C^{op}, \mathcal{V}]
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+$$
+  \begin{aligned}
+    T Alg^{op}(\mathcal{O}(X), A)
+    & :=
+    \int_{k \in T} \mathcal{V}( A(k), \mathcal{O}(X)(k) )
+    \\
+    & := 
+    \int_{k \in T} \mathcal{V}( A(k), [C^{op}, \mathcal{V}](X, Spec(F_T(k))) )
+    \\
+    & := \int_{k \in T} \int_{B \in C}
+    \mathcal{V}(A(k), \mathcal{V}(X(B), T Alg(F_T(k), B) ))
+    \\
+    & \simeq \int_{k \in T} \int_{B \in C}
+    \mathcal{V}(A(k), \mathcal{V}(X(B), B(k) ))
+    \\
+    & \simeq \int_{k \in T} \int_{B \in C}
+    \mathcal{V}(X(B), \mathcal{V}(A(k), B(k) ))
+    \\
+    & =: \int_{B \in C} \mathcal{V}(X(B), T Alg(A,B))
+    \\
+    & =:
+    \int_{B \in C} \mathcal{V}(X(B), Spec(A)(B))
+    \\
+    & =:
+    [C^{op}, Set](X,Spec(A))
+  \end{aligned}
+  \,.
+$$
+
+The first step that is not a definition is the [[Yoneda lemma]]. The step after that is the symmetric-closed-monoidal structure of $\mathcal{V}$.
+
+=--
