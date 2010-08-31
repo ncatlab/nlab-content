@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Freyd-Mitchell embedding theorem_ says that every [[abelian category]] is a [[full subcategory]] of a [[category of modules]] over some [[ring]] $R$ and that the embedding is an [[exact functor]].
+The _Freyd--Mitchell embedding theorem_ says that every [[abelian category]] is a [[full subcategory]] of a [[category of modules]] over some [[ring]] $R$ and that the embedding is an [[exact functor]].
 
 ## Details
 
@@ -57,9 +57,9 @@ Going further, we can try to characterize functors between categories of $R$-mod
 ###### Watts' Theorem
 If $B$ is an an $S$-$R$-bimodule, the functor
 
-$$ B \otimes_R - : R Mod \to S Mod $$
+$$ B \otimes_R -\colon R Mod \to S Mod $$
 
-is [[right exact functor|right exact]] and preserves [[small category|small]] [[coproducts]].  Conversely, if $F: Mod_R \to Mod_S$ is right exact and that preserves small coproducts, it is naturally isomorphic to $B \otimes_R -$ where $B$ is the $S$-$R$-bimodule $F R$.  
+is [[right exact functor|right exact]] and preserves [[small category|small]] [[coproducts]].  Conversely, if $F\colon Mod_R \to Mod_S$ is right exact and that preserves small coproducts, it is naturally isomorphic to $B \otimes_R -$ where $B$ is the $S$-$R$-bimodule $F R$.  
 =--
 
 +-- {: .proof}
@@ -88,9 +88,19 @@ Apart from the above references...
 
 ...an introductory survey is for instance also in section 3 of 
 
-* Geillan Aly, _Abelian Categories and the Freyd-Mitchell
-Embedding Theorem_ ([pdf](http://math.arizona.edu/~galy/research/ab_categories.pdf))
+* Geillan Aly, _Abelian Categories and the Freyd-Mitchell Embedding Theorem_ ([pdf](http://math.arizona.edu/~galy/research/ab_categories.pdf))
 
 
-[[!redirects Mitchell's theorem]]
+[[!redirects Freyd-Mitchell embedding theorem]]
+[[!redirects Freyd–Mitchell embedding theorem]]
+[[!redirects Freyd--Mitchell embedding theorem]]
+[[!redirects Freyd-Mitchell embedding]]
+[[!redirects Freyd–Mitchell embedding]]
+[[!redirects Freyd--Mitchell embedding]]
+[[!redirects Freyd-Mitchell theorem]]
+[[!redirects Freyd–Mitchell theorem]]
+[[!redirects Freyd--Mitchell theorem]]
+
 [[!redirects Mitchell theorem]]
+[[!redirects Mitchell's theorem]]
+[[!redirects Mitchell's theorem]]
