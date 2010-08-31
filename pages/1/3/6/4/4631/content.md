@@ -14,7 +14,7 @@
 
 ## Idea
 
-An _augmented simplcial set_ $X$ is a [[presheaf]] on the augmented [[simplex category]] $\Delta_+$,
+An _augmented simplicial set_ $X$ is a [[presheaf]] on the augmented [[simplex category]] $\Delta_+$,
 
 $$
   X : \Delta^{op}_+ \to Set
@@ -22,6 +22,8 @@ $$
 $$
 
 So its restriction along $\Delta \hookrightarrow \Delta_+$ is an ordinary [[simplicial set]].
+
+This can also be described as a simplicial set $X$ with a map to a constant simplicial set $X_{-1}$.
 
 
 ## Definitions
