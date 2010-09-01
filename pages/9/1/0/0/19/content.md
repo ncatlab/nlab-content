@@ -360,7 +360,7 @@ Other standard references include:
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [free online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)
 * [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
 [free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
-* [[Tom Leinster]], _Higher operads, higher categories_ [free online] (http://arxiv.org/PS_cache/math/pdf/0305/0305049v1.pdf)
+* [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 * [[Peter Johnstone]], _Topos theory_
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ [free online](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf)
