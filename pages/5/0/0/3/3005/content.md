@@ -95,7 +95,21 @@ There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 
 
 The monadicity theorem plays a central role in [[monadic descent]].
 
+## More literature
 
+* wikipedia: [monadicity theorem](http://en.wikipedia.org/wiki/Beck%27s_monadicity_theorem)
+
+* M. Barr, C. Wells, Triples, toposes, and theories, Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983, [ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)
+
+* [[descent]], [[FGA explained]], [[SGA 1]], [[Benabou-Roubaud theorem| Bénabou-Roubaud's theorem]]
+
+* [[Jean Bénabou]], [[Jacques Roubaud]], Monades et descente, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98
+
+* Du&#353;ko Pavlovi&#263;, Categorical interpolation: descent and the Beck-Chevalley condition without direct images,  Category theory Como 1990, pp. 306--325, Lecture Notes in Mathematics 1488, Springer 1991
+
+* Pierre Deligne, [[Catégories Tannakiennes]], Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp. 111-195.
+
+* Francis Borceux, Handbook of categorical algebra, in 3 vols. 
 
 [[!redirects Beck's Monadicity Theorem]]
 [[!redirects Beck's Monadicity Theorem]]
