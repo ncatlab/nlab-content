@@ -74,6 +74,14 @@ $$
 
 =--
 
++-- {: .un_remark}
+###### Remark
+
+This is also called [[Isbell duality]]. Objects which are preserved by $\mathcal{O} \circ Spec$ or $Spec \mathcal{O}$ are called **Isbell self-dual** .
+
+=--
+
+
 The proof is mostly a tautology after the notation is unwinded. The mechanism of the proof may still be of interest and be relevant for generalizations and for less tautological variations of the setup. We therefore spell out several proofs.
 
 +-- {: .proof}
@@ -465,3 +473,4 @@ A generalization of the latter to $\infty$-stacks over duals of algebras of arbi
 * [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
 {#Stel}
 
+[[!redirects Isbell conjugacy]]
