@@ -9,19 +9,17 @@
 
 * [[stable homotopy theory]]
 
-#Contents
+
+# Higher algebraic theories
+
+* [[(∞,1)-algebraic theory]]
 
 * [[(∞,1)-monad]]
 
 * [[(∞,1)-operad]]
 
-  * [[operad]]
 
-  * [[algebra over an operad]]
-
-  * [[A-∞ algebra]]
-
-  * [[L-∞ algebra]]
+# Higher algebras
 
 * [[monoidal (∞,1)-category]]
 
@@ -31,7 +29,6 @@
 
   * [[commutative monoid in an (∞,1)-category]]
 
-
 * symmetric monoidal (∞,1)-category of spectra
 
   * [[smash product of spectra]]
@@ -40,9 +37,19 @@
 
   * [[ring spectrum]]
 
-  * [[A-∞ ring]]
+* [[A-∞ ring]]
 
-  * [[E-∞ ring]]
+* [[E-∞ ring]]
+
+# Models for higher algebras
+
+* [[simplicial ring]]
+
+* [[dg-algebra]]
+
+* [[A-∞ algebra]]
+
+* [[L-∞ algebra]]
 
 
 * [[derived algebraic geometry]]
