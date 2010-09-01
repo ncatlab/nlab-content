@@ -47,9 +47,12 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in [[Diff]] is a [[simplicial manifold]].
 
+* A simplicial object in the category [[Grp]] of [[groups]] is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
+
+A simplicial object in [[Ring]] is a [[simplicial ring]].
+
 * A cosimplicial object in the category of [[rings]] ([[algebras]]) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
 
-* A simplicial object in the category [[Grp]] of [[groups]] is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
 
 * A simplicial object in a category of simplicial objects is a [[bisimplicial object]].
 
