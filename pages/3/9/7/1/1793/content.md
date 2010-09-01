@@ -467,6 +467,95 @@ and as such inherits its left lefting properties.
 This series of lemmas establishes the claimed model structure
 on $Ch^\bullet_+(Ab)$.
 
+### Model structure on unbounded chain complexes {#OnUnbounded}
+
+#### General results
+
+Let $\mathcal{A}$ be an [[abelian category]] with all [[limit]]s and 
+[[colimit]]s.
+
+Write $Ch(\mathcal{A})$ for [[category of chain complexes|category of unbounded chain complexes]] in $\mathcal{A}$. 
+
+Following [Christensen-Hovey](#ChristensenHovey) there is a family of model category structures on $Ch(\mathcal{A})$, all refining the [[category with weak equivalences]] given by [[quasi-isomorphism]]s, but where the fibrations are degreewise surjections in a generalized sense, a sense that is parameterized by a choice of _projective class_ . 
+
+{#ProjectiveClass}
+
++-- {: .un_defn}
+###### Definition
+
+A **projective class** on $\mathcal{A}$ is a collection $\mathcal{P} \subset ob \mathcal{A}$ of [[object]]s and a collection $\mathcal{E} \subset mor \mathcal{A}$ of [[morphism]]s, such that
+
+* $\mathcal{E}$ is precisely the collection of $\mathcal{P}$-epic maps;
+
+* $\mathcal{P}$ is precisely the collection of all objects $P$ such that each map in $\mathcal{E}$ is $P$-epic.
+
+=--
+
+{#TrivialProjectiveClass}
+
++-- {: .un_example}
+###### Example
+
+Taking $\mathcal{P} := ob \mathcal{A}$ to be the class of _all_ objects yields a projective class -- called the *trivial projective class** . The corresponding morphisms are the class $\mathcal{E}$ of all [[split epimorphism]]s in $\mathcal{A}$.
+
+=--
+
+{#PullbackProjectiveClass}
+
++-- {: .un_example}
+###### Example
+
+Let $R$ be a [[ring]] and $\mathcal{A} = $ $R$-[[Mod]] be the category of $R$-[[module]]s. Choosing $\mathcal{P}$ to be the class of all summands of [[direct sums]] of [[finitely presented]] modules yields a projective class.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+Given a pair of [[adjoint functor]]s 
+
+$$
+  (F \dahsv U) : \mathcal{A} \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} \mathcal{B}
+$$ 
+
+between [[abelian categories]] and given $(\mathcal{P}, \mathcal{E})$ a projective class in $\mathcal{B}$ then its **pullback projective class** $(U * \mathcal{P}, U^* \mathcal{E})$ along $U$ on $\mathcal{A}$ is defined by
+
+* $U^* \mathcal{P} := \{retracts\;of\; F P | P \in \mathcal{P}\}$
+
+ 
+=--
+
++-- {: .un_theorem}
+###### Definition/Theorem
+
+Given a projective class $\mathcal{P}$ in $\mathcal{A}$, call a morphism $f \in Ch(\mathcal{A)$ 
+
+* a fibration if $\mathcal{A}(P,f)$ is a surjection in [[Ab]] for all $P \in \mathcal{P}$;
+
+* a weak equivalence if it is a [[quasi-isomorphism]]. 
+
+Then this constitutes a [[model category]] structure precisely if cofibrant [[resolution]]s exist, which is the case in particular if
+
+1. $\mathcal{P}$ is the [pullback projective class](#PullbackProjectiveClass) of a [trivial projective class](#TrivialProjectiveClass) along a functor $U$ that preserves countable [[direct sum]]s;
+
+1. blah-blah
+
+
+When the structure exists, it is a [[proper model category]].
+
+
+=--
+
+This is theorem 2.2 in [Christensen-Hovey](#ChristensenHovey).
+
+#### Examples 
+
+Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
+
+* The **categorical projective class** on $\mathcal{A}$ is the [projective class](#ProjectiveClass) with $\mathcal{P}$ the class of [[sirect sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has as fibrations the degreewise surjections.
+
+* The **pure projective class** on $\mathcal{A}$ has as $\mathcal{P}$ summands of sums of finitely presented modules. Fibrations in the corresponding model structure are the maps that are degreewise those epimorphisms that appear in $\mathcal{P}$-exact sequences.
+
 ## History and references {#References}
 
 Of course the description of model categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
@@ -484,10 +573,6 @@ it seems that the injective model structure on chain complexes has been made ful
 The projective model structure is discussed after that in 
 
 * [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
-
-Variant model structures on chain complexes are discussed in
-
-* [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_ ([pdf](http://jdc.math.uwo.ca/papers/relative.pdf))
 
 An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
 
@@ -507,9 +592,21 @@ on how to do homological algebra with unbounded complexes (in both sides) where 
 * V. Hinich, _Homological algebra of homotopy algebras_, Comm. Algebra, vol. 25 (1997), no. 10, 3291-3323
 ([pdf at author's page](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf)) 
 
-shown that there is a model category structure on the category of unbounded chain complexes, reproduced Spaltenstein's results from that perspective and extended them widely. See also
+shown that there is a model category structure on the category of unbounded chain complexes, reproduced Spaltenstein's results from that perspective and extended them widely. 
 
-* J. D. Christensen, Derived categories and projective classes, 2005 ([hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Christensen/derived))
+The article variant model structures on chain complexes are discussed in
+
+* [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_ ([pdf](http://jdc.math.uwo.ca/papers/relative.pdf))
+{#ChristensenHovey}
+
+discusses model structures on unbounded chain complexes with generalized notions of epimorphisms induced from "projectve classes".
+
+
+See also 
+
+* [[Dan Christensen]], _Derived categories and projective classes_ , (2005) ([hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Christensen/derived))
+
+
 
 
 [[!redirects model structures on chain complexes]]
