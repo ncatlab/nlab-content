@@ -21,7 +21,7 @@
 
 ## Abstract
 
-For $T$ any abelian [[Lawvere theory]], here we discuss, following ([To&#235;n](#Toen)) and ([Stel](#Stel)), a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the Quillen adjunction models small objects relative to a choice of a small full subcategory $T\subset C \subset T Alg^{op}$  of the localization 
+For $T$ any abelian [[Lawvere theory]], here we discuss -- in a variation of the theme of [[Isbell duality]] and following ([To&#235;n](#Toen)), ([Ben-ZviNadler](BenZviNadler)) and ([Stel](#Stel)) --  a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the Quillen adjunction models small objects relative to a choice of a small full subcategory $T\subset C \subset T Alg^{op}$  of the localization 
 
 $$
   \mathbf{L} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H} = Sh_{(\infty,1)}(C )
@@ -411,7 +411,7 @@ $$
  \,,
 $$
 
-where the crucial step is the isomorphism $B(-) \simeq T Alg(F_T(-), B)$ for the line object discussed [above](#Line). 
+where the crucial step is the isomorphism $B(-) \simeq T Alg(F_T(-), B)$ for the line object discussed [above](#Line). This computation is just simplicial-degreewise the adjunction discussed at <a href="http://ncatlab.org/nlab/show/Isbell%20duality#FunctionAlgebrasOnPresheaves">Isbell duality -- Function T-algebras on presheaves</a>.
 
 That this lifts to an $sSet$-enriched adjunction follows with the [prolonged Yoneda lemma](#ProlongedYoneda) $j(A) \simeq (T Alg^\Delta)^{op}_s(-,A)$ and the $sSet$-[[nLab:tensoring]] and [[nLab:cotensoring]] of $[C^{op}, sSet]_s$ and $(T Alg^\Delta)^{op}_s$:
 
