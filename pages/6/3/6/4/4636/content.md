@@ -6,13 +6,21 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
-#### Enriched category theory
+#### $(\infty,1)$-Category theory
 +--{: .hide}
-[[!include enriched category theory contents]]
+[[!include quasi-category theory contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
 =--
 =--
 =--
@@ -41,7 +49,7 @@ Write $[\mathcal{C}^{op}, \mathcal{V}]$ and $[\mathcal{C}, \mathcal{V}]$ for the
 +-- {: .un_prop}
 ###### Proposition
 
-There is an $V$-[[adjunction]]
+There is a $V$-[[adjunction]]
 
 $$
   (\mathcal{O} \dashv Spec)
@@ -67,8 +75,10 @@ $$
 
 =--
 
+The proof is mostly a tautology after the notation is unwinded. The mechanism of the proof may still be of interest and be relevant for generalizations and for less tautological variations of the setup. We therefore spell out several proofs.
+
 +-- {: .proof}
-###### Proof
+###### Proof A
 
 Use the [[end]]-expression for the [[hom-object]]s of the [[enriched functor categories]] to compute
 
@@ -102,6 +112,124 @@ $$
 =--
 
 Notice that apart from writing out or hiding the ends, the only step that is not a definition is precisely the middle one, where we used that $\mathcal{V}$ is a [[symmetric monoidal category|symmetric]] [[closed monoidal category]].
+
+The following proof does not use ends and needs instead slightly more preparation, but has then the advantage that its structue goes through also in great generality in [[higher category theory]].
+{#ProofB}
+
++-- {: .proof}
+###### Proof B
+
+Notice that 
+
+**Lemma 1:** $Spec(\mathcal{V}(c,-)) \simeq \mathcal{V}(-,c)$
+
+because we have a natural isomorphism
+
+$$
+  \begin{aligned}
+    Spec(\mathcal{V}(c,-))(d) 
+    & :=
+    [C,\mathcal{V}](\mathcal{V}(c,-), \mathcal{V}(d,-))
+    \\
+    & \simeq
+    \mathcal{V}(d,c)
+  \end{aligned}
+$$ 
+
+by the [[Yoneda lemma]].
+
+From this we get
+
+**Lemma 2:** $[C^{op}, \mathcal{V}](Spec \mathcal{V}(c,-), Spec A) \simeq 
+    [C,\mathcal{V}](A, \mathcal{V}(c,-))$
+
+by the sequence of natural isomorphisms
+
+$$
+  \begin{aligned}
+     [C^{op}, \mathcal{V}](Spec \mathcal{V}(c,-), Spec A)
+     & \simeq
+     [C^{op}, \mathcal{V}](\mathcal{V}(-,c), Spec A)
+     \\
+     & \simeq (Spec A)(c)
+     \\
+     & := [C, \mathcal{V}](A, \mathcal{V}(c,-))
+  \end{aligned}
+  \,,
+$$
+
+where the first is Lemma 1 and the second the [[Yoneda lemma]].
+
+Since (by what is sometimes called the [[co-Yoneda lemma]]) every object $X \in [C^{op}, \mathcal{V}]$ may be written as a [[colimit]]
+
+$$
+  X \simeq {\lim_\to}_i \mathcal{V}(-,c_i) 
+$$
+
+over [[representable functor|representables]] $\mathcal{V}(-,c_i)$ we have
+
+$$
+  X \simeq {\lim_\to}_i Spec(\mathcal{V}(c_i,-))
+  \,.
+$$
+
+In terms of the same diagram of representables it then follows that
+
+**Lemma 3:** 
+
+$$
+  \mathcal{O}(X) \simeq {\lim_{\leftarrow}}_i \mathcal{V}(c_i,-)
+$$
+
+because using the above colimit representation and the Yoneda lemma we have natural isomorphisms
+
+$$
+  \begin{aligned}
+     \mathcal{O}(X)(d) 
+     &=
+     [C^{op}, \mathcal{V}](X, \mathcal{V}(-,c))
+     \\
+     & \simeq
+     [C^{op}, \mathcal{V}]({\lim_\to}_i \mathcal{V}(-,c_i), \mathcal{V}(-,c))
+     \\
+     & \simeq
+     {\lim_\leftarrow}_i [C^{op}, \mathcal{V}](\mathcal{V}(-,c_i), \mathcal{V}(-,c))
+     \\
+     & \simeq 
+     {\lim_\leftarrow}_i \mathcal{V}(c_i,c)
+  \end{aligned}
+  \,.
+$$
+
+
+Using all this we can finally obtain the adjunction in 
+question by the following sequence of natural isomorphisms
+
+$$
+  \begin{aligned}
+     [C,\mathcal{V}]^{op}(\mathcal{O}(X), A)
+     & 
+     \simeq
+     [C,\mathcal{V}](A, {\lim_\leftarrow}_i \mathcal{V}(c_i,-), )
+     \\
+     & \simeq 
+     {\lim_{\leftarrow}}_i [C, \mathcal{V}](A, \mathcal{V}(c_i,-))
+     \\
+     & \simeq 
+     {\lim_{\leftarrow}}_i [C^{op}, \mathcal{V}](Spec \mathcal{V}(c_i,-), Spec A)
+     \\
+     & \simeq
+     [C^{op}, \mathcal{V}]({\lim_{\to}}_i  Spec \mathcal{V}(c_i,-), Spec A)
+     \\
+     & \simeq
+     [C^{op}, \mathcal{V}](X, Spec A)     
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+The pattern of this proof has the advantage that it goes through in great generality also on [[higher category theory]] without reference to a higher notion of enriched category theory.
 
 ## Properties
 
@@ -306,3 +434,20 @@ $$
 The first step that is not a definition is the [[Yoneda lemma]]. The step after that is the symmetric-closed-monoidal structure of $\mathcal{V}$.
 
 =--
+
+### Function $k$-algebras on derived $\infty$-stacks {#FuncCompDerStacks}
+
+The structure of our [Proof B](#ProofB) above goes through in higher category theory. 
+
+Formulated in terms of [[derived stack]]s over the [[(∞,1)-category]] of [[dg-algebra]]s, this is essentially the argument appearing on [page 23](http://arxiv.org/PS_cache/arxiv/pdf/1002/1002.3636v1.pdf#page=23) of ([Ben-ZviNadler](#Ben-ZviNadler)).
+
+### Function $T$-algebras on $\infty$-stacks
+
+for the moment see [[function algebras on ∞-stacks]]
+
+## References
+
+Isbell duality for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of duals of [[dg-algebra]]s is discussed around page 32 of
+
+* [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
+{#Ben-ZviNadler}
