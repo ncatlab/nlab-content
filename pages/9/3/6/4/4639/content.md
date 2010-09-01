@@ -9,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents 
 {:toc}
 
@@ -23,18 +23,17 @@ We discuss here how in the context of [[space]]s modeled on duals of [[algebra o
 For $T$ (the [[syntactic category]] of) any [[Lawvere theory]] we have that [[Isbell conjugation]] 
 
 $$
-  (\mathcal{O} \dashv Spec)
-  : 
+  (\mathcal{O} \dashv Spec)\colon 
    T Alg^{op} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
    Sh(C)
 $$
 
 relates $T$-algebras to the [[sheaf topos]] over duals $T \hookrightarrow C \subset T Alg^{op}$ of $T$-algebras, for $C$ a [[small category|small]] [[full subcategory]] with [[subcanonical coverage]].
 
-By the <a href="http://ncatlab.org/nlab/show/Lawvere%20theory#FreeAlgebras">free T-algebra adjunction</a>
+By the [free T-algebra adjunction](http://ncatlab.org/nlab/show/Lawvere+theory#FreeAlgebras)
 
 $$
-  (F_T \dashv U_T) : T Alg \stackrel{\overset{F_T}{\leftarrow}}{\underset{U_T}
+  (F_T \dashv U_T)\colon T Alg \stackrel{\overset{F_T}{\leftarrow}}{\underset{U_T}
 {\to}}
   Set
 $$
@@ -47,7 +46,7 @@ we have the free $T$-algebra $F_T(*) \in TAlg$ on a single generator.
 The **$T$-line object** is 
 
 $$
-  \mathbb{A}_T := Spec F_T(*) \in Sh(C)
+  \mathbb{A}_T \coloneqq Spec F_T(*) \in Sh(C)
   \,.
 $$
 
@@ -57,15 +56,14 @@ $$
 
 * For $T$ the theory of ordinary [[associative algebra]]s over a [[ring]] $R$, we have that $\mathbb{A}_T = \mathbb{A}_R$ is what is called the _[[affine line]]_ over $R$.
 
-* For $T := Smooth :=$ [[CartSp]] the theory of [[smooth algebra]]s, we have that $\mathbb{A}_{Smooth} = \mathbb{R}$ is the [[real line]] regarded as a [[diffeological space]].
+* For $T \coloneqq Smooth \coloneqq$ [[CartSp]] the theory of [[smooth algebra]]s, we have that $\mathbb{A}_{Smooth} = \mathbb{R}$ is the [[real line]] regarded as a [[diffeological space]].
 
 ### The group object
 
-For $\mathcal{Ab}$ the [[Lawvere theory]] of [[abelian group]]s, say that a morphism $ab : \mathcal{Ab} \to T$ of Lawvere theories is an **abelian Lawvere theory**. Algebras over abelian Lawvere theories have underlying abelian groups
+For $\mathcal{Ab}$ the [[Lawvere theory]] of [[abelian group]]s, say that a morphism $ab\colon \mathcal{Ab} \to T$ of Lawvere theories is an **abelian Lawvere theory**. Algebras over abelian Lawvere theories have underlying abelian groups
 
 $$
-  (ab_* \dashv ab^*)
-  :
+  (ab_* \dashv ab^*)\colon
   T Alg \stackrel{\overset{ab_*}{\leftarrow}}{\underset{ab^*}{\to}}
   Ab
   \,.
@@ -96,3 +94,4 @@ in the context of [[function algebras on ∞-stacks]].
 
 
 [[!redirects line object]]
+[[!redirects line objects]]
