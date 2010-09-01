@@ -93,7 +93,7 @@ We now look at model category structure on _strictly_ product preserving functor
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a category with finite [[product]], and let $sAlg(C) \subset Func(C,sSet)$ be the [[full subcategory]] on the [[functor category]] from $C$ to [[sSet]] that preserve these products.  
+Let $C$ be a category with finite [[product]], and let $sAlg(C) \subset Func(C,sSet)$ be the [[full subcategory]] of the [[functor category]] from $C$ to [[sSet]] on those functors that preserve these products.  
 
 Then $sAlg(C)$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are objectwise those in the standard [[model structure on simplicial sets]]. 
 
@@ -143,7 +143,26 @@ A comprehensive statement of these facts is in [[Higher Topos Theory|HTT, sectio
 
 ## Examples
 
-### Smooth $(\infty,1)$-algebras
+### Simplicial 1-algebras
+
+For $T$ (the [[syntactic category]] of) an ordinary [[algebraic theory]] (a [[Lawvere theory]]) let $T Alg$ be the category of its ordinary algebras, the ordinary product-preserving functors $T \to Set$.
+
+We may regard $T$ as an $(\infty,1)$-category and consider its $(\infty,1)$-algebras. By the above discussion, these are modeled by product-presering functors $T \to sSet$. But this are equivalently [[simplicial object]]s in $T$-algebras
+
+$$
+  [T, sSet]_\times \simeq T Alg^{\Delta^{op}}
+  \,.
+$$
+
+So we find that simplicial $T$-1-algebras model $T$-$(\infty,1)$-algebras.
+
+For emphasis, in the following we say this again for special choices of $T$.
+
+#### Simplicial rings
+
+Let $T$ be the [[syntactic category]] of the [[Lawvere theory]] of [[ring]], regarded as an $(\infty,1)$-category. Then by the above [[simplicial ring]]s are models for the $T$-$(\infty,1)$-algebras.
+
+#### Simplicial smooth algebras
 
 The [[Lawvere theory]] whose syntactic category with finite products is [[CartSp]] has as algebra [[smooth algebra]]s. The same theory, regarded as an $(\infty,1)$-algebraic theory, has as algebras **[[smooth (∞,1)-algebra]]s. 
 
@@ -151,6 +170,10 @@ These  were considered for the discussion of [[derived smooth manifold]]s in
 
 * [[David Spivak]], _Derived smooth manifolds_ ([arXiv:0810.5174](http://arxiv.org/abs/0810.5174))
 
+
+### Simplicial theories
+
+There is a notion of _simplicial algebraic theory_ that captures some class of $(\infty,1)$-algebraic theories. For the moment see section 4 of ([Rezk](#Rezk))
 
 ## References
 
@@ -177,6 +200,7 @@ A detailed account in the context of a general theory of [[(∞,1)-category of (
 The [[model category]] [[presentable (infinity,1)-category|presentations]] of $(\infty,1)$-algebras is studied in 
 
 * [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_ ([math/0003065](http://arxiv.org/abs/math/0003065)) ,
+{#Rezk}
 
 where it is shown that every such model is [[Quillen equivalence|Quillen equivalent]] to a left [[proper model category]]. The article uses a monadic definition of $(\infty,1)$-algebras.
 
