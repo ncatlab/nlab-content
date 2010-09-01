@@ -1,12 +1,17 @@
-[[!redirects smooth topoi]]
-[[!redirects smooth toposes]]
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
 [[!include synthetic differential geometry - contents]]
-***
+=--
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 
@@ -147,3 +152,6 @@ This means that universal constructions in a smooth topos may yield different re
 +--{.query}
 Zoran: In derived geometry we want to go to derived infinity-stacks, not just infinity stacks. The embedding into infinity stacks is commuting with pullbacks, but not the one into derived infinity stacks. At least in algebraic world, and if I understand what Spivak has for spectra it is the same story.
 =--
+
+[[!redirects smooth topoi]]
+[[!redirects smooth toposes]]
