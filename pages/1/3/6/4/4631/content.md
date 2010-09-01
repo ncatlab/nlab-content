@@ -21,9 +21,9 @@ $$
   \,.
 $$
 
-So its restriction along $\Delta \hookrightarrow \Delta_+$ is an ordinary [[simplicial set]].
+So its [[restriction]] along $\Delta \hookrightarrow \Delta_+$ is an ordinary [[simplicial set]].
 
-This can also be described as a simplicial set $X$ with a map to a constant simplicial set $X_{-1}$.
+This can also be described as a simplicial set $X$ with a map (a [[natural transformation]]) to a [[constant functor|constant]] simplicial set $X_{-1}$.
 
 
 ## Definitions
@@ -31,15 +31,15 @@ This can also be described as a simplicial set $X$ with a map to a constant simp
 Explicitly, an __augmented simplicial set__ consists of
 
 *  for each [[integer]] $n \geq -1$, a [[set]] $X_n$ (so an [[infinite sequence]] $(X_{-1},X_0,X_1,X_2,\ldots)$ of sets),
-*  for each integer $n \geq -1$ and each [[natural number]] $m \leq n$, a __face map__ ...,
-*  for each integer $n \geq -1$ and each natural number $m \leq n$, a __degeneracy map__ ...,
+*  for each integer $n \geq -1$ and each [[natural number]] $m \leq n$, a __face map__ $s^n_m\colon X_n \to X_{n-1}$,
+*  for each integer $n \geq -1$ and each natural number $m \leq n$, a __degeneracy map__ $d^n_m\colon X_n \to X_{n+1}$,
 *  satisfying the [[simplicial identities]].
 
 Above, we use the traditional system of numbering for a [[simplicial set]].  However, part of the motivation behind augmented simplicial sets is that this is a more sensible numbering system:
 
 *  for each [[natural number]] $n$, a [[set]] $X_n$ (so an [[infinite sequence]] $(X_0,X_1,X_2,\ldots)$ of sets),
-*  for each natural number $n$ and each natural number $m \lt n$, a __face map__ ...
-*  for each natural number $n$ and each natural number $m \lt n$, a __degeneracy map__ ...
+*  for each natural number $n$ and each natural number $m \leq n$, a __face map__ $s^n_m\colon X_{n+1} \to X_n$,
+*  for each natural number $n$ and each natural number $m \lt n$, a __degeneracy map__ $d^n_m\colon X_n \to X_{n+1}$,
 *  satisfying the [[simplicial identities]].
 
 
