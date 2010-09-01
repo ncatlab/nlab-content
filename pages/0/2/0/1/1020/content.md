@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-The left [[adjoint functor]] of a [[functor]], if it exists, is one of two best approximations to a [[weak inverse]] of that functor.  (The other best approximation is the functor\'s [[right adjoint]], if it exists. )  Note that a weak inverse itself, if it exists, must be a left adjoint, forming an [[adjoint equivalence]].
+The left part of a pair of [[adjoint functor]]s is one of two best approximations to a [[weak inverse]] of the other functor of the pair.  (The other best approximation is the functor\'s [[right adjoint]], if it exists. )  Note that a weak inverse itself, if it exists, must be a left adjoint, forming an [[adjoint equivalence]].
 
 A left adjoint to a [[forgetful functor]] is called a [[free functor]]; in general, left adjoints may be thought of as being defined freely, consisting of anything that an inverse might want, regardless of whether it works.
 
