@@ -1,6 +1,6 @@
 One of the series of Grothendieck's works is FGA (see entry [[EGA]] for overall description of EGA, FGA and SGA). A summer school in Trieste 2003, has tried to summarize some of the main historical breakthroughs of FGA in modern exposition. The proceedings of that school are an updated version of freely available materials on the ICTP web.
 
-* Barbara Fantechi, Lothar G&#246;ttsche, Luc Illusie, Steven L. Kleiman, Nitin Nitsure, Angelo Vistoli, _Fundamental algebraic geometry. Grothendieck's FGA explained_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. 2005. x+339 pp. MR2222646 (2007f:14001)  
+* Barbara Fantechi, Lothar G&#246;ttsche, Luc Illusie, Steven L. Kleiman, Nitin Nitsure, Angelo Vistoli, _Fundamental algebraic geometry. Grothendieck's FGA explained_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. 2005. x+339 pp. [MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001)  
 
 ### Contents
 
