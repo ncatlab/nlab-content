@@ -1,10 +1,18 @@
 
-<div class="rightHandSide toc">
-[[!include synthetic differential geometry - contents]]
-***
-[[!include compact object - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
