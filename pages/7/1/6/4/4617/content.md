@@ -21,13 +21,13 @@
 
 ## Abstract
 
-For $T$ any abelian [[Lawvere theory]], here we discuss -- in a variation of the theme of [[Isbell conjugation]] and following ([To&#235;n](#Toen)), ([Ben-ZviNadler](BenZviNadler)) and ([Stel](#Stel)) --  a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the left adjoint of the Quillen adjunction is given by sending $\infty$-stacks to their cosimplicial algebras of functions on them with values in the canonical $T$-line object, and the adjunction models small objects relative to a choice of a small full subcategory $T\subset C \subset T Alg^{op}$  of the localization 
+For $T$ any abelian [[Lawvere theory]], here we discuss -- in a variation of the theme of [[Isbell conjugation]], in generalization of ([To&#235;n](#Toen)) and following ([Stel](#Stel)) --  a [[simplicial Quillen adjunction]] between model category structures on cosimplicial $T$-algebras and on simplicial presheaves over duals of $T$-algebras. We find mild general conditions under which this descends to the local model structure that models $\infty$-stacks over duals of $T$-algebras. In these cases the left adjoint of the Quillen adjunction is given by sending $\infty$-stacks to their cosimplicial $T$-algebras of functions with values in the canonical $T$-[[line object]], and the adjunction models small objects relative to a choice of a small full subcategory $T\subset C \subset T Alg^{op}$  of the localization 
 
 $$
   \mathbf{L} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H} = Sh_{(\infty,1)}(C )
 $$
 
-of the $(\infty,1)$-topos of $(\infty,1)$-sheaves over duals of $T$-algebras at those morphisms that induce isomorphisms in cohomology with coefficients the canonical $T$-line object. 
+of the $(\infty,1)$-topos of $(\infty,1)$-sheaves over duals of $T$-algebras at those morphisms that induce isomorphisms in cohomology with coefficients the canonical $T$-[[line object]]. 
 
 For the special case where $T$ is the theory of ordinary commutative algebras this reproduces the situation of ([To&#235;n](#Toen)) and many statements are straightforward generalizations from that situation. For the case that $T$ is the theory of _[[smooth algebra]]s_ ($C^\infty$-rings) we obtain a refinement of this to the context of synthetic differential geometry. In these cases, in as far as objects in $\mathbf{H}$ may be understood as [[∞-Lie groupoid]]s, the objects in $\mathbf{L}$ may be understood as [[∞-Lie algebroid]]s. 
 
@@ -89,13 +89,13 @@ $$
 
 is isomorphic to $A$.
 
-The free $T$-algebra $F_T(1)$ on a single generator may be thoigh of as the $T$-algebra of functions on the  **$T$-line**. For instance
+The free $T$-algebra $F_T(1)$ on a single generator may be thought of as the $T$-algebra of functions on the  **$T$-line**. For instance
 
 * for $T = k$ we have that $F_T(1) = k[X]$ is the free $k$-algebra on a single generator $X$;
 
 * for $T = CartSp$ we have that $F_T(1) = C^\infty(\mathbb{R})$.
 
-We say more on the canonical $T$-line object below in [The Line object](#Line)
+We say more on the canonical $T$-[[line object]] below in [The Line object](#Line)
 
 #### Model structure on cosimplicial $T$-algebras {#ModelTAlg}
 
