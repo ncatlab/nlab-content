@@ -1,13 +1,34 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents
 {:toc}
 
 ## Idea
 
-One way to think of simplicial rings is this:
+A _simplicial ring_ is a [[simplicial object]] in the [[category]] [[Ring]] or [[ring]]s.
 
-the category [[Ring]]${}^{op}$ is naturally equipped with the structure of a [[geometry (for structured (infinity,1)-toposes)|pregeometry]]. The corresponding [[geometry (for structured (∞,1)-toposes)]] is $SRing^{op}$, the opposite of the category of simplicial rings.
+It may be understood conceptually as follows:
+
+* as ordinary rings are algebras over the orrdinary [[algebraic theory]] $T$ of rings, if we regard this as an [[(?1)-algebraic theory]] then simplicial rings model the $(\infty,1)$-algebras over that;
+
+* the category [[Ring]]${}^{op}$ is naturally equipped with the structure of a [[geometry (for structured (infinity,1)-toposes)|pregeometry]]. The corresponding [[geometry (for structured (∞,1)-toposes)]] is $sRing^{op}$, the opposite of the category of simplicial rings.
+
+
 
 ## Definition
 
@@ -17,7 +38,7 @@ A **simplicial ring** is a [[simplicial object]] in the [[category]] [[Ring]] of
 
 There is an evident notion of [[(∞,1)-category]] of [[module]]s over a simplicial ring. The corresponding [[bifibration]] $SMod \to SRing$ of modules over simplicial ring has the remarkable property that it is equivalently to that [[tangent (∞,1)-category]] of the [[(∞,1)-category]] of simplicial rings.
 
-### Model category presentation
+### Model category presentation {#ModelCatOnSimplicialModules}
 
 We describe the [[model category]] presentation of the [[(∞,1)-category]] of modules over simplicial rings.
 
