@@ -40,7 +40,19 @@ In general, if $U: C \to D$ is thought of as a forgetful functor and $F: D \to C
 More generally, even if the entire left adjoint $F$ doesn't exist, a [[free object]] on $x$ can be defined using a universal property, as "what the value of $F(x)$ would be if $F$ existed."  Conversely, if a free object on $x$ exists for *all* $x\in D$, then the left adjoint $F$ can be assembled from them.
 
 
+## Cofree functors
+
+Dually, a __cofree functor__ is a [[right adjoint]] to a forgetful functor; these seem to be less common.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors are sometimes called __fascist functors__.
+
+
 [[!redirects free functor]]
 [[!redirects free functors]]
 [[!redirects free construction]]
 [[!redirects free constructions]]
+
+[[!redirects cofree functor]]
+[[!redirects cofree functors]]
+[[!redirects co-free functor]]
+[[!redirects co-free functors]]
+[[!redirects fascist functor]]
+[[!redirects fascist functors]]
