@@ -42,7 +42,7 @@ More generally, even if the entire left adjoint $F$ doesn't exist, a [[free obje
 
 ## Cofree functors
 
-Dually, a __cofree functor__ is a [[right adjoint]] to a forgetful functor; for the classical functors which forget algebraic structure, cofree functors are less common than free functors.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors have sometimes been called __fascist functors__. Some discussion of this joke may be found at the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1768&Focus=15392#Comment_15392). 
+Dually, a __cofree functor__ is a [[right adjoint]] to a forgetful functor; for the classical functors which forget algebraic structure, cofree functors are less common than free functors.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors have sometimes been called __fascist functors__. Some discussion of this joke may be found at the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1768). 
 
 ### Examples
 
