@@ -1435,7 +1435,7 @@ their domain.
 
 For $A,B \in \mathbf{C}$, right homotopy
 is an equivalence relation on the 
-[[hom-set]] $\mathbbf{C}(A,B)$.
+[[hom-set]] $\mathbf{C}(A,B)$.
 
 =--
 
