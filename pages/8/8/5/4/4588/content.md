@@ -1,6 +1,8 @@
 
 _Rod McGuire_
 
+<!-- regular html comment --> 
+
 xxxx < xxxx
 
 math test: $A=B$. 
