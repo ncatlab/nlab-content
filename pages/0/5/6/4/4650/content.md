@@ -14,11 +14,16 @@ A\ar[r]_{e} %26 B \ar@/_1pc/[l]_{s} \ar@%3C.5ex%3E [r]^{f}\ar@%3C-.5ex%3E[r]_{g}
 }" />
 </center>
 
-in which $se = id_A$, $tg = id_B$ and $tf = es$ (we used here Leibniz order for composition of morphisms). 
+in which $s e = id_A$, $t g = id_B$ and $t f = e s$ (we used here Leibniz order for [[composition]] of morphisms). 
 
-Surely, $f$ and $g$ can be interchanged in the definition (matter of unimportant convention). 
+Surely, $f$ and $g$ can be interchanged in the definition (a matter of unimportant convention). 
 
 Every split fork is an [[absolute limit|absolute]] [[equalizer]].
 
+
+[[!redirects split equalizer]]
 [[!redirects split equalizers]]
+[[!redirects split equaliser]]
+[[!redirects split equalisers]]
 [[!redirects split fork]]
+[[!redirects split forks]]
