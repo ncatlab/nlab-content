@@ -29,3 +29,4 @@ two connections on a bundle are taken to be equivalent, if the gauge transformat
 
 Details are currently still in <a href="http://ncatlab.org/nlab/show/differential+K-theory#SimonsSullivanModel">this subsection</a> at [[differential K-theory]].
 
+[[!redirects Simons-Sullivan structured buindles]]
