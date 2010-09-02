@@ -3,7 +3,7 @@
 
 # Idea #
 
-A _biproduct_ in a [[category]] $C$ is an operation that is both a [[product]] and a [[coproduct]].  Finite biproducts are best known from [[additive category|additive categories]] and their generalisations.
+A _biproduct_ in a [[category]] $C$ is an operation that is both a [[product]] and a [[coproduct]], in a compatible way.  Finite biproducts are best known from [[additive category|additive categories]] and their generalisations.
 
 Morphisms between finite biproducts are encoded in a [[matrix calculus]].
 
