@@ -19,7 +19,7 @@
 * table of contents
 {: toc}
 
-#Idea#
+## Idea
 
 A _category of fibrant objects_ is a [[category with weak equivalences]] equipped with extra structure somewhat weaker than that of a [[model category]]. 
 
@@ -75,13 +75,13 @@ This data has to satisfy the following properties:
 
 
 
-#Examples#
+## Examples
 
-## full subcategories of model categories ##
+### Full subcategories of model categories 
 
 The tautological example is the [[full subcategory]] of any [[model category]] on all objects which are fibrant. 
 
-## $\infty$--groupoids ##
+### $\infty$-Groupoids ##
 
 This includes notably all models for categories of [[infinity-groupoid]]s:
 
@@ -155,7 +155,7 @@ See for instance [section 1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 
   But then, often it is useful to model Kan complexes using the [[Dold-Kan correspondence]], and then the second example becomes relevant, where no longer ever object is cofibrant.
 
-## simplicial sheaves ##
+### Simplicial sheaves 
 
 The point of the axioms of a category of fibrant objects is that when passing from [[infinity-groupoid]]s to [[infinity-stack]]s, i.e. to [[sheaf|sheaves]] with values in [[infinity-groupoid]]s, the obvious na&#239;ve way to lift the model structure from $\infty$-groupoids to sheaves of $\infty$-groupoids fails, as the required lifting axioms will be satisfied only locally (e.g. [[stalk]]wise).
 
@@ -391,7 +391,7 @@ The category of fibrant objects $SSh(X)$
 is in fact the motivating example in [[BrownAHT]]. Notice that the [[homotopy category]] in question coincides with that using the [[model structure on simplicial presheaves]], so that the category of fibrant objects of stalk-wise Kan sheaves is a model for the homotopy category of [[infinity-stack]]s.
 
 
-### Example ###
+#### Example 
 
 Let $G$ be a topogical [[group]] and recall that
 $\mathbf{B} G$ denotes the corresponding one-object
@@ -440,7 +440,7 @@ $$
 
 
 
-## cats of fib objects from cats of fib objects ##
+### Cats of fib objects from cats of fib objects 
 
 The following constructions produce new categories
 of fibrant objects from the data provided from a given one.
@@ -522,7 +522,7 @@ in $\mathbf{C}^F_B$.
 
 
 
-# Simple consequences of the definition #
+## Simple consequences of the definition 
 
 Before looking at more sophisticated constructions, we record the following direct consequences of the definition
 of a category of fibrant objects.
@@ -605,7 +605,7 @@ is also a weak equivalence.
 =--
 
 
-# Generalized universal bundles and the factorization lemma #
+## Generalized universal bundles and the factorization lemma
 
 A central lemma in the theory of categories of fibrant objects is the following [[factorization lemma]].
 
@@ -902,7 +902,7 @@ $$
 
 =--
 
-#More sophisticated consequences of the definition#
+## More sophisticated consequences of the definition
 
 Using the factorization lemma, one obtaines the following
 further useful statements about categories of fibrant
@@ -1222,7 +1222,7 @@ in the closely related work
 
 
 
-# Homotopy fiber product #
+## Homotopy fiber product 
 
 Using the existence of [[path object|path space objects]] one can construct specific [[homotopy pullback]]s
 called  _homotopy fiber products_ .
@@ -1361,7 +1361,7 @@ $A \times_C C^I \times_C B  \to A$ is.
 =--
 
 
-# Homotopies #
+## Homotopies  {#Homotopies}
 
 
 +-- {: .un_defn}
@@ -1964,7 +1964,7 @@ lemma on homotopy-commutative completions of diagrams.
 
 
 
-# The homotopy category #
+## The homotopy category  {#HomotopyCategory}
 
 We discuss now 
 that the structure of a category of fibrant objects on a 
@@ -2149,7 +2149,7 @@ now follows from the general formula for
 [[calculus of fractions|left multiplicative system]]
 of weak equivalences.
 
-# Pointed category of fibrant objects #
+## Pointed category of fibrant objects 
 
 If the category $C$ of fibrant objects has an initial object which _coincides_ with the terminal object $e$, i.e. a [[zero object]], then $C$ is a [[pointed category]]. In this case we have the following additional concepts and structures.
 
@@ -2187,7 +2187,7 @@ Any loop object $\Omega B$ becomes a group object in $Ho_C$, i.e. a group [[inte
 
 
 
-# Application in cohomology theory #
+## Application in cohomology theory 
 
 When the catgegory of fibrant objects is that of locally Kan simplicial sheaves, the [[hom-set]]s of its 
 [[homotopy category]] compute generalized notions of [[cohomology]].
@@ -2195,7 +2195,7 @@ When the catgegory of fibrant objects is that of locally Kan simplicial sheaves,
 At [[abelian sheaf cohomology]] is a detailed discussion of how the ordinary notion of sheaf cohomology arises as a special case of that.
 
 
-#References#
+## References
 
 The notion of _category of fibrant objects_ was introduced and the above results obtained in
 
