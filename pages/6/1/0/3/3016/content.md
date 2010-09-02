@@ -43,9 +43,9 @@ the nPOV asserts that
 
 =--
 
-## The role of the $n$POV
+## The role of the $n$POV {#RoleOfnPOV}
 
-Practitioners of category theory have often attempted to express the striking power of category theory (or general conceptual methods), sometimes through aphorism, sometimes through metaphor. Early on, Peter Freyd wrote 
+Practitioners of category theory have often attempted to express the striking power of category theory (or general conceptual methods), sometimes through aphorism, sometimes through metaphor. Early on, [[Peter Freyd]] wrote 
 
 > Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial.
 
