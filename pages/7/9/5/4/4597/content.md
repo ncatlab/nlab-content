@@ -27,7 +27,7 @@
 
 Ordinary [[Chern-Weil theory]] is about [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal bundle]]s for $G$ a [[Lie group]], equivalently of the [[classifying space]] $\mathcal{B}G$ of that Lie group.
 
-By _$\infty$-Chern-Weil theory_ we want to understand the generalization of ordinary [[Chern-Weil theory]] to [[(∞,1)-category theory]]: where [[Lie group]]s are generalized to [[∞-Lie group]]s, [[Lie algebra]]s are generalized to [[∞-Lie algebra]]s and [[principal bundle]]s to [[principal ∞-bundle]]s.
+Under _$\infty$-Chern-Weil theory_ we want to understand the generalization of this to [[(∞,1)-category theory]]: where [[Lie group]]s are generalized to [[∞-Lie group]]s, [[Lie algebra]]s are generalized to [[∞-Lie algebra]]s and [[principal bundle]]s to [[principal ∞-bundle]]s.
 
 So $\infty$-Chern-Weil theory produces [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal ∞-bundle]]s for $G$ an [[∞-Lie group]], equivalently of the corresponding [[classifying space]]s $\mathcal{B}G$.
 
@@ -260,7 +260,14 @@ These are the kinds of structures that naturally live in $\infty$-Chern-Weil the
 These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
 
+## Preparatory concepts
 
+
+General $\infty$-Chern-Weil theory, as described below, is naturally formulated in the context of [[(infintiy,1)-topos theory]] and some of its aspects can only be understood from that perspective.
+
+However, unwinding the abstract higher topos theoretic concepts in terms of 1-categoriecal models yields concrete structures in familiar contexts of [[differential geometry]] that connect to various classical and familiar concepts. Since a full appreciation of the abstract formulation benefits from having a feeling for how these concrete models work out, the reader may at this point wish to look into some such basic aspects. These may be found behind the following link
+
+* [[infinity-Chern-Weil theory -- preperatory concepts]].
 
 
 
