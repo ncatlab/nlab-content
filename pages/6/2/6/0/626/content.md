@@ -37,4 +37,17 @@ Since a monoidal category is just a special case (namely the one-object case) of
 
 * Peter Selinger, _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf))
 
+* Ross Street, [Low dimensional topology and higher-order categories](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps)
+
+* Ross Street, "Categorical structures"
+
+## Details
+
+* Joyal and Street, "The geometry of tensor calculus"
+
+* Todd Trimble, [Surface diagrams](/toddtrimble/published/Surface+diagrams)
+
 [[!redirects string diagrams]]
+[[!redirects surface diagram]]
+[[!redirects surface diagrams]]
+[[!redirects graphical calculus]]
