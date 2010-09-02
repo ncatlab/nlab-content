@@ -1,28 +1,73 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
-_under construction_
-
-#Content
+#Contents#
+* table of contents
 {:toc}
 
-#Idea
+## Idea
 
-In [[perturbation theory]], the Dyson series is a perturbative expansion of a [[unitary]] time evolution operator, $U(t,t_{0})$, primarily employed in quantum field theory.  While it is asymptotically divergent, the second-order deviation from experimental data is on the order of $10^{-10}$ paradoxically making it the most empirically accurate prediction in all of physics.  It is a starting point for the use of [[Feynman diagram]]s.
+The _Dyson formula_ is an expression for the solution of the [[Schrödinger equation]] in _time dependent_ [[quantum mechanics]].
 
-#The Dyson series
+It expresses the [[parallel transport]] of the [[Hamiltonian operator]] regarded as a Hermitian-operator valued 1-form on the time axis.
 
-The Dyson series is given as
+## Definition
 
-$U(t,t_{0})=\sum_{n=0}^{\infty} U_{n}(t,t_{0}) = \mathcal{T}e^{-i\int_{t_{0}}^{t}d\tau V(\tau)}$
 
-where $\mathcal{T}$ is a time-ordering operator and $V$ is the interaction portion of the Hamiltonian.
+In time-dependent [[quantum mechanics]] dynamics is encoded in a [[Lie-algebra valued 1-form]]
 
-#Use as an operator
+$$
+  A = i H \,d t \in \Omega^1(\mathbb{R}, \mathfrak{u}(V))
+$$
 
-Applying $U(t,t_{0})$ to some initial [[quantum state]] $|\psi(t_{0})\rangle$, we have
+on the [[real line]] (time) with values in the [[Lie algebra]] of the [[unitary group]] on a [[Hilbert space]] $V$. 
 
-$|\psi(t)\rangle = U(t,t_{0})|\psi(t_{0})\rangle = \sum_{n=0}^{\inty}\frac{(-i)^{n}}{n!}\left(\prod_{k=1}^{n}\int_{t_{0}}^{t}dt_{k}\right)\mathcal{T}\left\{\prod_{k=1}^{n}e^{iH_{0}t_{k}}Ve^{-iH_{0}t_{k}}\right\}|\psi(t_{0})\rangle$.
+For $t  = Id : \mathbb{R} \to \mathbb{R}$ the canonical coordinate function and $d t \in \Omega^1(\mathbb{R})$ accordingly the corresponding canonical basis 1-form, the Lie-algebra valued coefficient
+
+$$
+  i H : \mathbb{R} \to \mathfrak{u}(V)
+$$
+
+of $A$ is called the [[Hamiltonian]] operator. If $H$ is a constant function, one speaks of _time-independent_ quantum mechanics.
+
+A [[state]] of the system is a function
+
+$$
+  \psi : \mathbb{R} \to V
+  \,.
+$$
+
+A _physical state_ is a solution to the [[Schrödinger equation]]
+
+$$
+  d \psi + A \cdot \psi = 0
+$$
+
+or equivalently
+
+$$
+ \partial_t \psi = i H \psi 
+  \,.
+$$
+
+This [[differential equation]] is that which defines the [[parallel transport]] of $A$. Its unique solution for given $\psi(0)$ is written
+
+$$
+  \psi(t) = P \exp(\int_{[0,t]} i H(t) \, d t) \cdot \psi_0
+  \,.
+$$
+
+This is called the **Dyson formula** . In the special case of time-independent quantum mechanics this becomes an ordinary exponential of an ordinary integral.
+
+
+ 
 
 [[!redirects Dyson series]]
