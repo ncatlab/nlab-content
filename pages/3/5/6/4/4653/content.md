@@ -10,6 +10,6 @@
 =--
 
 
-A _matrix Lie group_ is a [[Lie group]] that is canonically a subgroup of the [[general linear group]] $GL_n$ on $\mathbb{R}^n$ or $\mathbb{C}^n$.
+A _matrix Lie group_ is a [[Lie group]] that is canonically a [[subgroup]] of the [[general linear group]] $GL_n$ on $\mathbb{R}^n$ or $\mathbb{C}^n$.
 
 See also [[matrix Lie algebra]].
