@@ -43,4 +43,12 @@ zz
 
 Ending svg test
 
+auto inserted DBE div
+
+<div class='DBE' markdown='1'
+ json='{"id":"NEW","type":"Category","page":"[Rod McGuire]"}'>
+ UNGENERATED
+ <span class='DBE'/>
+</div>
+
 category: people
