@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include 2-category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -89,9 +95,9 @@ I also think there is a very good reason to use that convention. Namely, given a
 
 This isn't just for consistency and predictability, but so that we can apply _theorems_ of 2-monad theory without having to worry about the words being swapped around on us.  For example, [[doctrinal adjunction]] says that given a 2-monad $T$ on a 2-category $K$, two $T$-algebras $A$ and $B$, and an adjunction $f:A\leftrightarrows B:g$ in $K$, to give the left adjoint $f$ the structure of a colax $T$-morphism is the equivalent to giving the right adjoint $g$ the structure of a lax $T$-morphism.  This is one of those insufficiently-well-known facts that is frequently rediscovered in special cases.  For instance, given an adjunction between monoidal categories, to make the left adjoint a colax monoidal functor is the same as to make the right adjoint a lax monoidal functor.  And if I have a lax natural transformation $\alpha:F\to G$ such that each component $\alpha_A$ has a left adjoint, then those left adjoints automatically form an oplax natural transformation.  I think this would be unutterably confusing if "lax natural transformations" were the _oplax_ $T$-morphisms. 
 
-[[Todd Trimble]]: I got around finally to consulting Ross Street about this, and Steve Lack also entered the discussion. I think you may be right (Mike) and I wrong about which is more common in Australia; certainly Kelly for example goes along with B&eacute;nabou. 
+[[Todd Trimble]]: I got around finally to consulting Ross Street about this, and Steve Lack also entered the discussion. I think you may be right (Mike) and I wrong about which is more common in Australia; certainly Kelly for example goes along with B&#233;nabou. 
 
-However, the feelings about that in Australia may be slightly less sanguine then yours. Ross says he has at times felt this was the wrong direction (see for example Coherence for Tricategories, where the direction goes the other way). For example, the direction for monoidal natural transformations is the reverse of B&eacute;nabou's. When Ross asked Steve if his opinion on this were strong or lax, he replied: 
+However, the feelings about that in Australia may be slightly less sanguine then yours. Ross says he has at times felt this was the wrong direction (see for example Coherence for Tricategories, where the direction goes the other way). For example, the direction for monoidal natural transformations is the reverse of B&#233;nabou's. When Ross asked Steve if his opinion on this were strong or lax, he replied: 
 
 "I don't think I'd say I have a strong opinion.
 
@@ -105,7 +111,7 @@ However, the feelings about that in Australia may be slightly less sanguine then
 
 Ross summarized his feelings by emphasizing the wisdom of being flexible in these matters. Both directions arise and are important. 
 
-Ross also mentioned that the lax terminology began with the paper "Two constructions on lax functors", where the transformations in B&eacute;nabou's direction were dubbed "left lax", and the ones in the other "right lax". Perhaps we could use this terminology ourselves to avoid confusion, and cite this paper as reference. Your thoughts? 
+Ross also mentioned that the lax terminology began with the paper "Two constructions on lax functors", where the transformations in B&#233;nabou's direction were dubbed "left lax", and the ones in the other "right lax". Perhaps we could use this terminology ourselves to avoid confusion, and cite this paper as reference. Your thoughts? 
 
 [[Mike Shulman]]: I don't really understand the point of view that "the more important" direction should be called lax and "the less important" direction oplax.  Are limits called "limits" rather than "colimits" because they're "more important"?  I wouldn't say so---it's just that we need to have some convention about which one gets the prefix.  As Ross said, both directions arise and are important, but that doesn't mean we should be inconsistent in naming them.  (Maybe inconsistency isn't what he means by "being flexible," but then I don't know what he means.)  Wouldn't it be confusing if the word "limit" meant either (what we now call) "limit" or "colimit" depending on which one a particular author cared more about at the moment?  And there are so many other *really* poor choices of terminology in mathematics, that I'm surprised people choose to fight a battle about the positioning of an "op."
 
