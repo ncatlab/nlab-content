@@ -72,7 +72,7 @@ $$
 +-- {: .un_defn}
 ###### Definition
 
-For $T$ an abelian Lawvere theory, by its underlying abelian group we have that $\mathcal{A}_T$ inherits the structure of an abelian [[group object]] in $Sh(C)$. Write
+For $T$ an abelian Lawvere theory, by its underlying abelian group we have that $\mathbb{A}_T$ inherits the structure of an abelian [[group object]] in $Sh(C)$. Write
 
 $$
   \mathbb{G}_T \in Ab(Sh(C))
