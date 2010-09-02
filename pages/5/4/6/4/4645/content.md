@@ -1,0 +1,1292 @@
+
+> This is a subentry of [[∞-Chern-Weil theory]]. While there the general theory is discussed, this entry here considers some basic constructions in the tradittional language of [[differential geometry]] that connect explcitly to basic concepts of ordinary [[Chern-Weil theory]].
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In [[(∞,1)-category theory]] these generalize to connections on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. $\infty$-Chern-Weil theory deals with these higher connections and their relation to [[ordinary differential cohomology]].
+
+Here we describe some introducory basics of the general theory in concrete terms.
+
+## Preparatory concepts
+
+
+### Parallel transport in low dimensions {#LowDimension}
+
+A central aspect of our development is that we shall understand [[connection on a bundle|connections]] and [[differential cohomology|differential cocycles]] in terms of the [[parallel transport]] along paths and higher dimensional paths that that they induce. The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]] in generalized spaces.
+
+In the following subsections we describe the concept of a smooth [[path groupoid]] $P_1(X)$ of a [[smooth manifold]] $X$ and more generally of a smooth [[path n-groupoid]] $P_n(X)$ for low $n \in \mathbb{N}$, and how smooth functors $P_n(X) \to A$ out of these encode [[differential form]]s and [[connection on a bundle|connections]] on [[principal bundle]]s, [[vector bundle]]s and (abelian and nonabelian) [[gerbe]]s in terms of their [[nLab:parallel transport]] along curves and surfaces.
+
+The idea of these constructions was first described in 
+
+* [[John Baez]], [[Urs Schreiber|U.S.]], _Higher Gauge Theory_ ,in _Categories in Algebra, Geometry and Mathematical Physics_ , eds. A. Davydov et al, Contemp. Math. 431, AMS, Providence, Rhode Island, 2007, pp. 7-30 ([arXiv:math/0511710](http://arxiv.org/abs/math/0511710))
+
+refining and generalizing older ideas and results in the literature, as recounted at <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">References -- Connections -- In terms of parallel transport</a>.
+
+A detailed account of the description of ordnary bundles with connection in the style that prepares the ground for our developments here is in 
+
+* [[Urs Schreiber|U. S.]] [[nLab:Konrad Waldorf]], _Parallel transport and functors_ ([arXiv](http://arxiv.org/abs/0705.0452)) J. Homotopy Relat. Struct. 4, 187-244 (2009) .
+
+A detailed account of the description of (abelian and nonabelian) [[nLab:gerbe]]s/[[nLab:bundle gerbe]]s/[[nLab:principal 2-bundle]]s in the style that we shall generalize to an $(\infty,1)$-topos theoretical context here is in
+
+* [[Urs Schreiber|U.S.]], [[nLab:Konrad Waldorf]], 
+
+  _Smooth Functors vs. Differential Forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
+
+  _Connections on nonabelian gerbes and their holonomy_ ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923)).
+
+These low-categorical developments constitute the archetype for all of the [[nLab:(∞,1)-category]] theoretic develoments that are described [below](#Cohomolohy) and ought to provide the necessary intuition for what our abstract [[nLab:higher category theory|higher category theoretic]] machniery achieves, but from categorical dimension 3 on the direct description in terms of [[nLab:algebraic definition of higher categories|algebraic models]] such as the [[nLab:bicategories]] used there becomes increasingly unwieldy, and a description in terms of abstract [[nLab:higher category theory]] and realizations in terms of [[nLab:geometric definition of higher categories|geometric models for higher categories]] is called for. 
+
+
+#### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
+
+We describe the standard notion of a [[nLab:connection on a bundle]] but from a point of view that carries in it the seed for the general concept of differential cohomology that we describe here. This also serves to introduce in simple explicit terms several of the concepts that we shall formalize later in abstract [[nLab:(∞,1)-topos]] theory.
+
+Let $G$ be a [[nLab:Lie group]] and $X$ a [[nLab:smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
+
+From this data we naturally obtain several smooth [[nLab:groupoid]]s.
+
+From the group $G$ we canonically obtain a [[nLab:groupoid]] that we write $\mathbf{B}G$. Formally this groupoid is
+
+$$
+  \mathbf{B}G = (G \stackrel{\to}{\to} *)
+$$
+
+with composition canonically induced from the product in $G$. A useful cartoon of this groupoid is
+
+$$
+  \mathbf{B}G = 
+  \left\{
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
+      \\
+      \bullet &&\stackrel{g_2 \cdot g_1 }{\to}&& \bullet
+    }
+  \right\}
+$$
+
+where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention that does not matter up to equivalence.)
+
+The fact that $G$ is a [[nLab:Lie group]] implies that this is in fact an [[nLab:internal category|internal groupoid]] in the [[nLab:category]] [[nLab:Diff]] of [[nLab:manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[nLab:smooth function]]s. 
+
+Also the smooth manifold $X$ may be regarded as a groupoid -- a groupoid with only identity morphisms -- internal to the category of smooth manifolds. Its cartoon description is simply
+
+$$
+  X = \{x \stackrel{id}{\to} x \}
+  \,.
+$$
+
+But there are other groupoids associated with $X$:
+
+to any [[nLab:open cover]] $\{U_i \to X\}_{i \in I}$ is canonically associated a [[nLab:groupoid]] which we denote $C(\{U_i\})$ -- the [[nLab:Cech nerve|Cech groupoid]] of the cover. Formally we may write this groupoid as
+
+$$
+  C(\{U_i\})
+  =
+  \left(
+    \coprod_{i,j} U_i \cap U_j
+    \stackrel{\overset{p_1}{\to}}{\underset{p_2}{\to}}
+    \coprod_i U_i
+  \right)
+  \,.
+$$
+
+A usefull cartoon description of this groupoid is
+
+$$
+  C(\{U_i\})
+  = 
+  \left\{
+    \array{
+       && (x,j)
+       \\
+       & \nearrow && \searrow
+       \\
+      (x,i) &&\to&& (x,j)
+    }
+  \right\}
+  \,.
+$$
+
+This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose.
+
+There is a canonicel [[nLab:functor]]
+
+$$
+  C(\{U_i\}) \to X : (x,i) \mapsto x
+  \,.
+$$
+
+This functor is evidently [[nLab:essentially surjective functor|essentially surjective]] and [[nLab:full and faithful functor|full and faithful]]. This means that it establishes an [[nLab:equivalence of categories|equivalence of groupoids]] between $C(\{U_i\})$ and $X$. But moreover, the functor respects the smooth structure of these groupoids: its components are [[nLab:smooth function]]s. Hence this is a functor internal to the category of smooth manifolds. However, even though the underlying bare functor is essentially surjective and full and faithful and therefore is guaranteed to have a homotopy-inverse functor, that homotopy-inverse never has smooth component maps, unless $X$ itself is a [[nLab:Cartesian space]] and the chosen cover is trivial. 
+
+We do however want to think of $C(\{U_i\})$ as being equivalent to $X$ even as a smooth groupoid. And moreover, we shall think of $C(\{U_i\})$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[nLab:good open cover]] in that all its finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are diffeomorphic to a [[nLab:Cartesian space]] $\mathbb{R}^k$. 
+
+We shall discuss later in which precise sense this condition makes $C(\{U_i\})$ _good_ in the sense that smooth functors out of $C(\{U_i\})$ model the correct notion of morphism out of $X$ in the context of smooth groupoids. The formalization of this statement is what [[nLab:(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
+
+&#212;bserve then that a [[nLab:functor]]
+
+$$
+  g : C(\{U_i\}) \to \mathbf{B}G
+$$
+
+is given in components precisely by a collection of maps
+
+$$
+  \{g_{i j} : U_{i j} \to G \}_{i,j \in I}
+$$
+
+such that on $U_{i j k}$ the equality $g_{j k} g_{i j}  = g_{i k}$ of functions holds:
+
+$$
+  \left(
+    \array{
+       && (x,j)
+       \\
+       & \nearrow && \searrow
+       \\
+      (x,i) &&\to&& (x,j)
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_{i j}(x)}}\nearrow
+       && \searrow^{\mathrlap{g_{j k}(x)}}
+       \\
+      \bullet &&\stackrel{g_{i k}(x)}{\to}&& \bullet
+    }
+  \right)
+  \,.
+$$
+
+Demanding that the functor $g$ respects the smooth structure means that the functions $g_{i j}$ are smooth functions. In that case these functions encode the cocycle or transition functions of a smooth $G$-[[nLab:principal bundle]] on $X$. It is then evident that we have the following functorial description of smooth $G$-principal bundles.
+
+
++-- {: .un_prop}
+###### Observation
+
+There is an [[nLab:equivalence of categories]]
+
+$$
+  SmoothFunc(C(\{U_i\}), \mathbf{B}G)
+  \simeq
+  G Bund(X)
+$$
+
+between the [[nLab:functor category]] of smooth functors and smooth natural transformations, and the groupoid of smooth $G$-[[nLab:principal bundle]]s on $X$. 
+
+=--
+
+It is no coincidence that this statemment looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[nLab:homotopy]]-classes of morphisms of [[nLab:topological space]]s 
+
+$$
+  \pi_0 Top(X, \mathcal{B}G)
+  \simeq
+  \pi_0 G Bund(X)
+  \,,
+$$
+
+where $\mathcal{B}G \in $ [[nLab:Top]] is the topological [[nLab:classifying space]] of $G$. In fact the category [[nLab:Top]] of topological spaces, regarded as an [[nLab:(∞,1)-category]], is the archetypical [[nLab:(∞,1)-topos]] the way that [[nLab:Set]] is the archetypical [[nLab:topos]]. And it is equivalent to [[nLab:∞Grpd]], the $(\infty,1)$-category of bare [[nLab:∞-groupoid]]s. What we are seeing above is a first indication of how [[nLab:cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra [[nLab:structure]].
+
+What we are after is an equivalence of categories of the above functorial form for the case that the bundles are equipped with a [[nLab:connection on a bundle]].
+
+For that purpose we consider now the [[nLab:path groupoid]]
+$\mathbf{P}_1(X)$, defined to be the groupoid whose objects are the points of $X$, and whose morphisms are equivalence classes of smooth maps $\gamma : [0,1] \to X$ that are constant in a neighbourhood of the boundary of the interval, and where two such maps are regarded as equivalent if they can be connected by a smooth homotopy $[0,1]^2 \to X$ that is of rank $\leq 1$.
+
+Such a map $\gamma$ constitutes a path between its endpoint $x = \gamma(0)$ and $y = \gamma(1)$, and we regard it as a morphism $[\gamma] : x \to y$ in $P_1(X)$. The composition of these morphisms is given by concatenation of paths. 
+
+A cartoon of this [[nLab:path groupoid]] is
+
+$$
+  \mathbf{P}_1(X)
+  = 
+  \left\{
+    \array{
+      && y
+      \\
+      & {}^{\mathrlap{[\gamma_1]}}\nearrow && \searrow^{\mathrlap{[\gamma_2]}}
+      \\
+      x &&\stackrel{[\gamma_2 \circ \gamma_1 ]}{\to}&& z
+    }
+  \right\}
+  \,.
+$$
+
+There is no good way to realize this groupoid as being internal to manifolds. But it has an nevertheless has an evident and natural smooth structure: we may declare that a family $f : \mathbb{R}^n \to Mor(\mathbf{P}_1(X))$ of morphisms of $P_1(X)$ parameterized over a [[nLab:Cartesian space]] $\mathbb{R}^n$ is a _smooth_ family if there is a [[nLab:smooth function]]  $\tilde f : \mathbb{R}^n \times [0,1] \to X$ such that $f(u)(-) = \tilde f(u,-)$.
+
+Possibly a more familiar groupoid is the [[nLab:fundamental groupoid]] $\mathbf{\Pi}_1(X)$ of $X$. This is defined essentially as $\mathbf{P}_1(X)$, only that here here morphisms are full [[nLab:homotopy]]-classes of paths, not just [[nLab:thin homotopy]] classes. This inherits a notion of smooth families of morphisms as before, but only the constant family is smooth in this case. We write $\Pi_1(X) \in Grpd$ for the underlying bare [[nLab:fundamental groupoid]] of $X$.
+
+There is a canonical projection functor $P_1(X) \to \mathbf{\Pi}_1(X)$ that sends a path to its homotopy class. This is a smooth functor in the above sense.
+
+Similarly we can also conceive the smooth structure of $\mathbf{B}G$ in terms of smooth families of morphisms in the obvious way. We say then that a morphism between such groupoids equipped with an information about smooth families is a functor that takes smooth families to smooth families. 
+
+Later on we formalize this by saying that $\mathbf{P}_1(X)$, $\mathbf{\Pi}_1(X)$ as well as $\mathbf{B}G$ etc. are groupoids [[nLab:internal category|internal to]] the category of [[nLab:diffeological space]]s and that smooth functors are functors internal to that category.
+
+With these definitions we now find the following equivalence of categories
+
++-- {: .un_prop}
+###### Proposition
+
+There is a natural equivalence of categories 
+
+$$
+  SmoothFunc(\mathbf{P}_1(X), \mathbf{B}G)
+  \simeq
+  G TrivBund_{\nabla}(X)
+ \,.
+$$
+
+=--
+
+Here the groupoid on the right the [[nLab:groupoid of Lie-algebra valued forms]] on $X$, which may be thought of as the groupoid of _trivial_ $G$-principal bundles on $X$ equipped with connection. It is the groupoid whose
+
+* objects are [[nLab:Lie algebra]]-valued [[nLab:differential form]]s 
+  $A \in \Omega^1(X,\mathfrak{g})$;
+
+* morphisms $\lambda : A \to A'$ are smooth $G$-valued functions $\lambda \in C^\infty(X,G)$ such that $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1}$.
+
+* composition of morphisms is the product of $G$-valued functions.
+
+This equivalence is canonical: it identifies a differential form $A$ with the [[nLab:parallel transport]] that it induces: the smooth functor $tra_A : P_1(X) \to \mathbf{B}G$ corresponding to $A$ sends a path $\gamma : [0,1] \to X$ to the parallel transport
+
+$$
+  P \exp(\int_0^1 \gamma^* A)
+  \,,
+$$ 
+
+which is defined to be the value at 1 of the unique $G$-valued function $f : [0,1] \to G$ that solves the differential equation $d f = r_*(f)(A)$ with boundary condition $f(0) = e$, where $r(g) : G \to G$ is the right action of $G$ on itself.
+
+From this description and classical results it is clear that we have
+
++-- {: .un_prop}
+###### Observation
+
+The smooth functor $tra_A : \mathbf{P}_1(X) \to \mathbf{B}G$ factors through the [[nLab:fundamental groupoid]] $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ precisely if $A$ is a _flat_ $\mathfrak{g}$-valued differential form, in that $F_A := d_{dR} A + [A \wedge A] = 0$.
+
+=--
+
+All these constructions are [[nLab:natural transformation|natural]] in $X$. This means that they extend in to functors
+
+$$
+  \mathbf{B}G_{diff'}
+  :=
+  SmoothFunc(\mathbf{P}_1(-), \mathbf{B}G)
+  \simeq
+  (C^\infty(-,G) \times \Omega^1(-,\mathfrak{g})
+  \stackrel{\overset{}{\to}}{\underset{p_1}{\to}}
+  \Omega^1(-,\mathfrak{g}))
+  : 
+  Diff^{op} \to Grpd
+$$
+
+and
+
+$$
+  \mathbf{\flat} \mathbf{B}G
+  :=
+  SmoothFunc(\mathbf{\Pi}_1(-), \mathbf{B}G)
+  \simeq
+  (C^\infty(-,G) \times \Omega_{flat}^1(-,\mathfrak{g})
+  \stackrel{\overset{}{\to}}{\underset{p_1}{\to}}
+  \Omega_{flat}^1(-,\mathfrak{g}))
+  : 
+  Diff^{op} \to Grpd
+  \,.
+$$
+
+As our notation means to suggest, it makes sense to think of these
+functors as assigning to a space $U$ the the smooth families of maps into some implicitly defined smooth groupoid. When we formalize this in terms of [[nLab:(∞,1)-topos]] theory further below, we find an [[nLab:adjunction]] of the form
+
+$$
+  Hom(\mathbf{\Pi}_1(X), \mathbf{B}G)
+  \simeq
+  Hom(X, \mathbf{\flat}\mathbf{B}G)
+$$
+
+and
+
+$$
+  Hom(\mathbf{P}_1(X), \mathbf{B}G)
+  \simeq
+  Hom(X, (\mathbf{B}G)_{diff'})
+  \,.
+$$
+
+In terms of functors internal to [[nLab:diffeological space]]s, this is realized as follows: for $\{U_i \to X\}$ a (good) open cover as before, define a group $\mathbf{P}_1(C(\{U_i\}))$ that combines the [[nLab:Cech nerve|Cech groupoid]] with the [[nLab:path groupoid]]: its morphisms are generated from the morphisms of $C(\{U_i\})$ and $\mathbf{P}_1(X)$, subject to the relation indicated by the following cartoon description
+
+
+$$
+  \mathbf{P}_1(C(\{U_i\}))
+  =
+  \left\{
+    \array{
+      (x,i) &\stackrel{\gamma_i}{\to}& (y,i)
+      \\
+      \downarrow && \downarrow
+      \\
+      (x,j) &\stackrel{\gamma_j}{\to}& (y,j)
+    }
+  \right\}
+  \,.
+$$
+
+In terms of this we have 
+
++-- {: .un_prop}
+###### Proposition
+
+$$
+  SmoothFunc(\mathbf{P}_1(C(\{U_i\})), \mathbf{B}G)
+  \simeq
+  SmoothFunc(C(\{U_i\}), (\mathbf{B}G)_{diff'})
+  \simeq G Bund_\nabla(X)
+  \,,
+$$
+
+=--
+
+where on the right we have the groupoid of $G$-[[nLab:principal bundle]]s [[nLab:connection on a bundle|with connection]] on $X$.
+
+
+#### Connections on gerbes and principal 2-bundles {#ConnectionOn2Bundle}
+
+Above we described [[nLab:cocycle]]s for smooth 
+$G$-[[nLab:principal bundle]]s on $X$ in terms of smooth functors
+
+$$
+  X \stackrel{\simeq}{\leftarrow} C(\{U_i\}) \stackrel{g}{\to} \mathbf{B}G
+$$
+
+and cocycles for bundles with connection in terms of smooth functors
+
+$$
+  \mathbf{P}_1(X) \stackrel{\simeq}{\leftarrow} \mathbf{P}_(C(\{U_i\}))   
+  \stackrel{g}{\to} \mathbf{B}G
+$$
+
+out of the [[nLab:path groupoid]].
+
+This suggests an evident generalization to higher categorical dimension.
+
+Let $G$ be a strict [[nLab:Lie 2-group]] coming from a [[nLab:crossed module]] $[G_2 \stackrel{\delta}{\to} G_1]$. Then $\mathbf{B}G$ is the strict 2-groupoid coming from the [[nLab:crossed complex]] $[G_2 \to G_2 \stackrel{\to}{\to} *]$.
+
+For instance if $K$ is an [[nLab:abelian group]] then $\mathbf{B}K$ is the 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ the 2-group coming from the complex $[K \to 1 \to 1]$.
+
+Write $\mathbf{P}_2(X)$ for the smooth [[nLab:path n-groupoid|path 2-groupoid]] of $X$. 
+
++-- {: .un_prop}
+###### Proposition
+
+There is a natural canonical equivalence of [[nLab:2-categories]]
+
+$$
+  Smooth2Func(\mathbf{P}_2(X), \mathbf{B}G)
+  \simeq
+  G Triv2Bund_{\nabla,F_2=0}(X)
+$$
+
+where on the right we have the 2-category whose
+
+* objects are pairs $A \in \Omega^1(X,\mathfrak{g}_1)$, 
+  $B \in \Omega^2(X,\mathfrak{g}_2)$ such that
+  the 2-form curvature 
+ 
+  $$
+    F_2(A,B) := d_{dR} A + [A \wedge A] + \delta_* B
+  $$
+
+  vanishes
+
+* morphisms $(\lambda,a) : (A,B) \to (A',B')$ 
+  are pairs $a \in \Omega^1(X,\mathfrak{g}_2)$, 
+  $\lambda \in C^\infty(X,G_1)$ such that
+  $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + \delta_* a$
+  and $B' = \lambda(B) + d_{dR} a + [A\wedge a]$
+
+* 2-morphims are ...
+
+=--
+
+This is the [[nLab:2-groupoid of Lie 2-algebra valued forms]] restricted to those [[nLab:Lie 2-algebra]] valued forms whose 2-form curvature vanishes.
+
+Under this equivalence, a 2-functor $tra_{(A,B)}$ factors through the fundamental 2-group $\mathbf{P}_2(X) \to \mathbf{\Pi}_2(X)$ precisely if also the 3-form curvature 
+
+$$
+  F_3(A,B) := d_{dR} B + [A \wedge B]
+$$
+
+vanishes.
+
+This is in [SchrWalII](http://arxiv.org/abs/0802.0663).
+
+As before, this is entirely natural in $X$, so that we that we get a presheaf of 2-groupoids
+
+$$
+  \mathbf{B}G_{diff'} : U \mapsto
+  Smooth2Func(\mathbf{P}_2(U), \mathbf{B}G)
+  \,.
+$$
+
+
++-- {: .un_prop}
+###### Proposition
+
+
+Let $\{U_i \to X\}$ be a [[nLab:good open cover]] of $X$ and $C(\{U_i\})$ the corresponding [[nLab:Cech nerve|Cech groupoid]] internal to [[nLab:diffeological space]]s. 
+
+We have a natural equivalence of [[nLab:bicategories]]
+
+$$
+  Smooth2Func(\mathbf{P}_2(C(\{U_i\})), \mathbf{B}^2 U(1))
+  \simeq
+  Smooth2Func(C(\{U_i\}), \mathbf{B}^2 U(1)_{diff'})
+  \simeq
+  U(1) Gerb_\nabla(X)
+  \,,
+$$
+
+where on the right we have the bicategory of $U(1)$-[[nLab:bundle gerbe]]s with connection.
+
+=--
+
+This is in [SchrWalIII](http://arxiv.org/abs/0808.1923).
+
+It is immediate to remove by hand the constraint that the 2-form curvature has to vanish, and thereby obtain the full Lie [[nLab:2-groupoid of Lie 2-algebra valued forms]]. All cocycle descriptions go through as before, essentially the only difference now being that there is no constraint on the 2-form curvature on a $G$-principal 2-bundle.
+
+These unconstrained cocycles for [[nLab:automorphism 2-group]] $AUT(H)$-[[nLab:principal 2-bundle]]s (i.e. for $H$-[[nLab:gerbe]]s) have been proposed in [BreMes2001](http://arxiv.org/abs/math/0106083). See the references <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#ConnectionOnNonabelianGerbes">here</a>.
+
+While we can remove this constraint by hand, the question remains what this amounts to conceptually.  In particular: what is the right notion of morphisms / coboundaries between general differential nonabelian 2-cocycles and what classification properties do the resulting cocycle 2-groupoids and cohomology sets have? In order to address these questions, we will now take another look at the relation between connections and their curvature.
+
+
+
+#### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
+
+Above we described connections on [[nLab:principal bundle]]s and on [[nLab:gerbe]]s and [[nLab:principal 2-bundle]]s in terms of their [[nLab:parallel transport]] manifested as a smooth $n$-functor out of the [[nLab:path groupoid]] $\mathbf{P}_1(-)$ and the [[nLab:path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(-)$.
+
+From various points of view the [[nLab:fundamental groupoid]] $\mathbf{\Pi}_1(-)$ and the fundamental 2-groupoid $\mathbf{\Pi}_2(-)$ and ultimately the [[homotopy ∞-groupoid]] $\mathbf{\Pi}(-) := \mathbf{\Pi}_{\infty}(-)$ are more fundamental than the [[nLab:path n-groupoid]] $\mathbf{P}_n$. We have seen above for low $n$ that parallel transport on $\mathbf{P}_n$ factors through $\mathbf{\Pi}_n$ precisely if the corresponding connections are flat. This is a drastic restriction, of course. But due to the nice fundamental nature of $\mathbf{\Pi}$, the _obstructions_ to equipping a [[nLab:principal ∞-bundle]] with a flat $\infty$-connection organize themselves neatly into a cohomology theory, namely a [[nLab:twisted cohomology]] theory with the twist being _$\infty$-[[curvature]]_ .  The general abstract definition of differential cohomology as curvature-twisted flat differential cohomology in the precise sense of [[nLab:twisted cohomology]] is our main goal in the sections <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCoeffs">Differential cohomology with groupal coefficients</a>/<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#WithCurvatureClasses">with non-groupal coefficients</a>. As a preparation for that general treatment we now look at connections on ordinary bundles along these lines.
+
+To start with, it is worth noticing that in a higher categorical context flat connections do encode a fair amount of non-trivial information. For instance by the above propositions we have for the structure [[nLab:2-group]] $G := \mathbf{E}U(1) = [U(1) \stackrel{id}{\to} U(1)]$ that the parallel surface transport with coefficients in $\mathbf{B}G$ is given by a 1-form $A$ and a 2-form $B$, where $A$ is arbitrary and $B$ is restricted to be the curvature $B = F_A = d_{dR} A$ of $A$. This is quite restrictive as a 2-connection, but it contains all the local information of an unconstrained 1-connection on a [[nLab:line bundle]]! And in fact when regarded as the connection on a line bundle the flatness of the 2-connection $(A,B)$ is an important statement about the 1-connection: it is precisely the [[nLab:Bianchi identity]] $d_{dR} B = d_{dR} F_A = 0$. 
+
+This is the simplest example of a general phenomenon: flat $(n+1)$-connections serve to encode the [[curvature]] of non-flat $n$-connections. 
+
+We shall now systematize this observation and show how line bundles with non-flat connection may be  expressed in terms of flat parallel 2-transport out of the fundamental 2-groupoid $\mathbf{\Pi}_2(-)$. Then we give the analogous discusion for connection on general $G$-principal bundles. It is this description of differential cohomology which we then generalize verbatim to a notion of differential cohomology with coefficients in [[nLab:∞-group]]s in gebenral [[nLab:(∞,1)-topos]]es below.
+
+##### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
+
+Write $\mathbf{B}U(1) \to \mathbf{E}\mathbf{B}U(1) \to \mathbf{B}^2 U(1)$
+for the sequence of smooth 2-groupoids that under the [[nLab:Dold-Kan correspondence]] come from the sequence of chain complexes
+
+$$
+  [1 \to U(1) \to 1] \to [U(1) \to U(1) \to 1] \to [U(1) \to 1 \to 1]
+  \,.
+$$
+
+By the above discussion we have that under the equivalence
+
+$$
+  Smooth2Func(\mathbf{P}_2(X), \mathbf{B}\mathbf{E}U(1))
+  \simeq
+  \mathbf{E}U(1) Triv2Bund_{\nabla}
+$$
+
+smooth 2-functors $\mathbf{\Pi}_2(X) \to \mathbf{E}\mathbf{B}U(1)$ correspond to pairs $(A,B)$ with $A \in \Omega^1(X)$, $B \in \Omega^2(X)$ and $B := F_A = d_{dR} A$.
+
+Therefore a morphism
+
+$$
+  \array{
+    C(\{U_i\}) &\to& \mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}_2(C(\{U_i\})) &\to& \mathbf{E}\mathbf{B}U(1)
+  }
+$$
+
+of smooth 2-groupoids is a cocycle for a line bundle equipped with a [[nLab:pseudo-connection]]. Forming the [[nLab:pasting]] composite
+
+$$
+  \array{
+    C(\{U_i\}) &\to& \mathbf{B}U(1) &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}_2(C(\{U_i\})) &\to& \mathbf{E}\mathbf{B}U(1)
+    &\to&
+    \mathbf{B}^2 U(1)
+  }
+$$
+
+projects out the curvature 2-form $\mathbf{\Pi}_2(X) \to \mathbf{B}^2 U(1)$ of this bundle.
+
+Write $\mathbf{B}U(1)_{diff}$ for the 2-groupoid valued presheaf
+
+$$
+  \mathbf{B}U(1)_{diff} :
+  U
+  \mapsto 
+  \left\{
+  \array{
+    U &\to& \mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}_2(U) &\to& \mathbf{E}\mathbf{B}U(1)
+  }
+  \right\}
+$$
+
+The forgetful morphism $\mathbf{B}U(1) \stackrel{\simeq}{\leftarrow} \mathbf{B}U(1)_{diff}$ is a weak equivalence. A lift
+
+$$
+  \array{
+    && \mathbf{B}U(1)_{diff}
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    \\
+    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}U(1)
+  }
+$$
+
+always exists. It corresponds to putting a connection on line bundle. 
+
+Consider also the presheaf
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
+  :
+  U
+  \mapsto
+  \left\{
+    \array{
+      U &\to& *
+      \\
+      \downarrow && \downarrow
+      \\
+      \mathbf{\Pi}_2(U) &\to& \mathbf{B}^2 U(1)
+    }
+  \right\}
+  \,.
+$$
+
+
++-- {: .un_prop}
+###### Proposition
+
+We have equivalences
+
+$$
+  SmoothFunc(C(\{U_i\}), \mathbf{B}U(1)_{diff})
+  \simeq
+  U(1) Bund(X)
+$$
+
+and
+
+$$
+  SmoothFunc(C(\{U_i\}), \mathbf{\flat}_{dR}\mathbf{B}^2 U(1))
+  \simeq
+  [\Omega^1(X) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(X)]
+  \,.
+$$
+
+
+=--
+
+
+Forming the above [[nLab:pasting]] composite induces a morphism 
+
+$$
+  curv : \mathbf{B}U(1)_{diff} \to \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)
+  \,.
+$$
+
+In total we have a 2-[[nLab:anafunctor]]
+
+$$
+  \mathbf{B}U(1) \stackrel{\simeq}{\leftarrow}
+  \mathbf{B}U(1)_{diff} 
+  \stackrel{curv}{\to}
+  \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)
+$$
+
+of smooth 2-groupoids, which we call the [[curvature]] [[nLab:characteristic class]] of $\mathbf{B}U(1)$.
+
++-- {: .un_prop}
+###### Proposition
+
+The 2-groupoid $\mathbf{H}_{diff}(X,\mathbf{B}(1))$ which is
+given by the [[nLab:pullback]]
+
+$$
+  \array{
+    \mathbf{H}_{diff}(X,\mathbf{B}U(1))
+    &\to&
+    H^2_{dR}(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    SmoothFunc(C(\{U_i\}), \mathbf{B}U(1)_{diff})
+    &\stackrel{curv}{\to}&
+    SmoothFunc(C(\{U_i\}), \mathbf{\flat}_{dR}\mathbf{B}U(1))
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    SmoothFunc(C(\{U_i\}), \mathbf{B}U(1))
+  }
+$$
+
+is the disjoint union over the second de Rham cohomology of $X$ of the groupoids of $U(1)$-principal bundles with curvature 2-form a fixed representative of the given cohomology class.
+
+
+=--
+
+The general formalism of pseudo-conections in intrinsic differential geometry is at <a href="http://ncatlab.org/schreiber/edit/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#LocalConnectionForms">Differential cohomology -- Local connection forms</a>. Details on the description of $U(1)$-principal bundles are at [[differential cohomology in an (∞,1)-topos]] in the paragraph <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CircleBundlesConnection">Circle bundles with connection</a>.
+
+
+##### Of $G$-principal bundles 
+
+Above we described connections on $U(1)$-principal bundles as a means to interpolate from cocycles with values in $\mathbf{B}U(1)$ to cocycles with values in $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ by passing through a 2-[[nLab:anafunctor]]
+
+$$
+  \mathbf{B}U(1)
+  \stackrel{\simeq}{\leftarrow}
+  \mathbf{B}U(1)_{diff}
+  \to
+  \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
+$$
+
+of smooth 2-groupoids with codomain the double
+[[nLab:delooping]] of $U(1)$. As a reflection of the fact that 
+this double delooping exists and is an [[nLab:Eilenberg-MacLane object]]
+the curvature detected by this morphism is a single differential 2-form.
+
+However, as soon as the group $U(1)$ is replaced by a _nonabelian_ [[nLab:Lie group]] $G$, such as the
+[[nLab:orthogonal group]] $O(n)$ or the [[nLab:unitary group]] $U(n)$,
+only the single delooping $\mathbf{B}G$ exists. In this case 
+the role of the double delooping in the curvature characteristic class
+is played by a different object whose conceptual nature we survey below in 
+the section on [curvature characteristic classes](#CurvatureClasses). For the moment here we shall be content with a somewhat ad hoc definition of this coefficient object.
+
+What is straightforward to see is what object should replace $\mathbf{B}U(1)_{diff}$. We shall write $INN(G)$ for the [[nLab:Lie 2-group]]
+coming from the [[nLab:crossed module]] $[G \stackrel{Id}{\to} G]$. This may be thought of as a [[nLab:groupal model for universal principal ∞-bundles|groupal model for the universal G-principal bundle]]. 
+
+As a special case of the above propositon on smooth 2-functors, we have that under the equivalence
+
+$$
+  Smooth2Func(\mathbf{P}_2(U), \mathbf{B}INN(g))
+  \stackrel{\simeq}{\to}
+  INN(G) Triv2Bund_{flat}(U)
+$$
+
+smooth 2-functors $\mathbf{\Pi}_2(U) \to \mathbf{B}INN(G)$ are identified with pairs $(A,B)$ consisting of
+
+* a $\mathfrak{g}$-valued 1-form $A \in \Omega^1(U,\mathfrak{g})$;
+
+* a $\mathfrak{g}$-valued 2-form $B \in \Omega^2(U,\mathfrak{g})$;
+
+* subject to the constraint that 
+
+  * $B = F_A$ is the [[nLab:curvature]] 2-form of $A$;
+
+  * $d B + [A \wedge B] = 0$.
+
+While this is a flat connection as a 2-connection, it does encode precisely the datum of a general local 1-connection. Moreover, the flatness of the 2-connection is precisely the [[nLab:Bianchi identity]] of the 1-connection.
+
+This might suggest that we can model a $G$-principal 1-bundle with arbitrary connection in terms of functors $\mathbf{\Pi}_2(C(\{U_i\})) \to \mathbf{B}INN(G)$. However, it is a bit more subtle than that: in particular the object $\mathbf{B}INN(G)$ is weakly equivalent to the point, $\mathbf{B}INN(G)$. In fact $INN(G)$ equipped with the canonical projectin $INN(G) \to \mathbf{B}G$ is a multiplicative model for the _universal_ $G$-[[nLab:principal 2-bundle]]. This means that _up to homotopy_ , 2-functors $tra_{A,F_A} : \mathbf{\Pi}_2(U) \to \mathbf{B} INN(G)$ are all trivial. 
+
+We can see this concretely by again invoking the above explicit equivalence of 2-categories: under this equivalence a transformation
+
+$$
+  tra_((A,F_A)) \Rightarrow tra_{(A',F_{A'})}
+$$
+
+corresponds precisely to a pair $(\lambda,a)$ with
+
+* $\lambda \in C^\infty(U,G)$ 
+
+* $a \in \Omega^1(U,\mathfrak{g})$ 
+
+such that
+
+$$
+  A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + a
+  \,.
+$$
+ 
+Except for the last term, this is the equation for a gauge
+transformation of a connection 1-form. The last summand, however,
+is an arbitrary _shift_ of the connection. Simply by choosing $a$
+appropriately we find for every 2-functor $tra_{(A,F_A)}$ a transformation
+to the trivial one $tra_{(0,0)}$.
+
+This means that by itself, $Smooth2Func(\mathbf{P}_2(U), \mathbf{B}INN(G))$ is a resolution of the point, in much the same way as a  [[nLab:generalized universal bundle|universal bundle]] is a resolution of a point. In both cases the relevance of these objects is as a means to model a higher categorical operation by a strict rpresentative.
+
+Concretely, in our situation the object we can build using 2-functors $\mathbf{\Pi}_2(U) \to \mathbf{B}INN(G)$ is $\mathbf{B}G_{diff}$, a resolution of $\mathbf{B}G$ that interpolates between $\mathbf{B}G$ and its curvature characteristics.
+
+Consider the category $\mathbf{B}G_{diff}(U)$ whose
+
+* objects are commuting diagrams
+
+  $$
+    \array{
+      U &\to& \mathbf{B}G
+      \\
+      \downarrow && \downarrow
+      \\
+      \mathbf{\Pi}_2(U) &\to& \mathbf{B} INN(G)
+    }
+  $$
+
+  in the category of diffeological 2-groupoids;
+
+* morphisms are homotopies of diagrams
+
+  $$
+    \array{
+      U &{{\nearrow \searrow} \atop {\to}}& \mathbf{B}G
+      \\
+      \downarrow && \downarrow
+      \\
+      \mathbf{\Pi}_2(U) &{{\nearrow \searrow} \atop {\to}}& \mathbf{B} INN(G)
+    }
+    \,.
+  $$
+
+* 2-morphisms are modification of such homotopies.
+
+We may think of the lower horizontal morphism as encoding arbitrary local connection forms and arbitrary gauge transformations and shifts of these. But since it is constrained to fit into this commuting diagram, the components $\lambda$ of the gauge transformations themselves are constrained to compose without themselves being shifted.
+
+Precisely: under the above equivalences, the groupoid $\mathbf{B}G_{diff}$ is identified as follows:
+
+* objects are 1-forms $A \in \Omega^1(U,\mathfrak{g})$;
+
+* morphisms $(\lambda,a) : A \to A'$ are pairs consisting of functions $\lambda \in C^\infty(U,G)$ and 1-forms $a \in \Omega^1(U,\mathfrak{g})$
+
+  such that $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + a$
+
+* there are _no_ non-trivial 2-morphisms (while these are present in $INN(G)Triv2Bund_\nabla(U)$).
+
+One sees that the evident projection function
+
+$$
+  \mathbf{B}G_{diff}(U) \to \mathbf{B}G(U)
+$$
+
+is [[nLab:essentially surjective functor|essentially surjective]], [[nLab:full and faithful functor|full and faithful]], precisely because of the presence of the connection shift form $a \in \Omega^1(U,\mathfrak{g})$ in the definition of the morphisms.
+
+All this is functorial in $U$, so that in summary we have found a weak equivalence
+
+$$
+  \mathbf{B}G \stackrel{\simeq}{\leftarrow}
+  \mathbf{B}G_{diff}
+$$
+
+of smooth 2-grupoids. The above discussion shows that a lift $\nabla$ of a $G$-cocycle $g$ through this equivalence
+
+$$
+  \array{
+    && \mathbf{B}G_{diff}
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    \\
+    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+is precisely a choice of _pseudo-connection_ on a [[nLab:Cech cohomology|Cech-cocycle]] for a $G$-[[nLab:principal bundle]]: a choice on each patch $U_i$ of a 1-form $A_i \in \Omega^1(U_i, \mathfrak{g})$.
+
+There is, at this point, _no_ condition on the compatibility of these 1-forms on double intersections $U_i \cap U_j$. Therefore the term "pseudo-connection". 
+
+
+As we shall discuss below in the section [∞-Lie algebra valued connectons](#LieConnections), we can find a natural morphism 
+
+$$
+  ch_G : \mathbf{B}_{diff}G \to (\mathbf{\Pi}\mathbf{B}G)\otimes \mathbb{R} \simeq \prod_i \mathbf{B}^{n_i}\mathbb{R}
+$$ 
+
+into a natural curvature coefficient object. This way the differential cocycle becomes represented by a diagram of the form
+
+$$
+  \array{
+    Y &\stackrel{g}{\to}& \mathbf{B}G &&& underlying\;cocycle
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}_2(Y) &\to& \mathbf{B}INN(G) &&& connection\;and\;curvature
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}(X) &\to&  \prod_i \mathbf{B}^{n_i} \mathbb{R}
+    &&&
+    curvature\;characteristic\;forms
+  }
+  \,.
+$$
+
+
+The cocycles in the bottom have equivalent representatives in ordinary [[nLab:de Rham cohomology]]. And in the [[nLab:homotopy fiber]] of $ch_G$ over these nice representatives, we find those $G$-cocycles with pseudo-connection whose pseudo-connection is in fact a genuine connection.
+
+In order to describe this curvature characteristic class, we now invoke [below](#LieConnections) a little bit of [[nLab:Chern-Weil theory]]
+with the tools of  [[nLab:∞-Lie theory]].
+
+
+
+### $\infty$-Lie algebra valued connections {#LieConnections}
+
+Above we considered connections encoded in terms of [[nLab:parallel transport]] along paths and surfaces, and saw that this definition implies that connections are locally given by [[nLab:Lie-algebra valued 1-forms]] [[nLab:Lie 2-algebra valued differential forms]].
+
+Now we pass to what is to some extent the reverse construction: we define a notion of [[∞-Lie algebroid valued differential forms]] and show how by a variant of [[nLab:Lie integration]] these define parallel transport and connections on higher bundles.
+
+The material here was considered in
+
+* [[Hisham Sati]], [[Urs Schreiber|U.S.]], [[Jim Stasheff]],
+  _$L_\infty$-algebra connections_ in Fauser (eds.) Recent Developments in QFT, Birkh&#228;user ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+
+and further studied in 
+
+* [[nLab:Hisham Sati]], [[nLab:Urs Schreiber|U.S.]], [[nLab:Jim Stasheff]], _Twisted differential String- and Fivebrane structures_ ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001)).
+
+In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic construction follows from a general abstract definitions of [[schreiber:differential cohomology in an (∞,1)-topos]].
+
+  
+#### $\infty$-Lie algebras
+
+An ordinary [[Lie algebra]] is an [[infinitesimal space|infinitesimal]] approximation to a [[Lie group]]. This statement generalizes as we pass to higher groupoids. 
+
+We had already seen above the infinitesimal approximation of a [[Lie 2-group]]: this is a [[nLab:Lie 2-algebra]]. If the Lie 2-group is a smooth [[strict 2-group]] it is encoded equivalently by a [[crossed module]] of ordinary Lie groups, and the corresponding [[Lie 2-algebra]] is given by a [[differential crossed module]] of ordinary [[Lie algebra]]s.
+
+One categorical dimension higher, a semistrict 3-group -- a [[nLab:Gray group]] -- is encoded by a [[2-crossed module]] of ordinary groups, and its infinitesimal approximation is a Lie 3-algebra which is encoded by a [[differential 2-crossed module]] of ordinary Lie algebras.
+
+If instead of [[vertical categorification|vertically]] we move in [[horizontal categorification|horizontally]] in categorical dimension we find that the infinitesimal approximation to a [[nLab:Lie groupoid]] is a [[nLab:Lie algebroid]]. 
+
+And going in both directions: the infinitesimal approximatin to a Lie 2-groupoid is a _Lie 2-algebroid_ . Famous examples of these are for instance [[nLab:Courant algebroid]]s.
+
+All these algebraic notions are special cases of the general notion of [[nLab:∞-Lie algebroid]]s, which are precisely the infinitesimal approximations to general [[nLab:∞-Lie groupoid]]s. The infinitesimal approximation of a general [[nLab:∞-Lie group]] is an [[nLab:∞-Lie algebra]], usually called an _$L_\infty$-algebra_ . The general study of these concepts and their interrelation is the topic of [[Lie theory in an (∞,1)-topos]]. Here we shall for the moment concentrate on describing $\infty$-Lie algebras.
+
+One way to approach the definition of $\infty$-Lie algebras starts with the following standard observation:
+
++-- {: .un_prop}
+###### Observation
+
+For $\mathfrak{g}$ a vector space, write $\vee^\bullet \mathfrak{g}$ for the [[nLab:free construction|free]] graded-co-commutative [[nLab:coalgebra]] on $\mathfrak{g}$, with $\mathfrak{g}$ regarded as being in degree -1. (Over a field of [[nLab:characteristic]] 0, its underlying vector space is isomorphic to that of the [[nLab:exterior algebra]] $\wedge^\bullet \mathfrak{g}$, but we shall write $\vee^\bullet \mathfrak{g}$ to remind us of the coalgebra structure. )
+
+Then structures of a [[nLab:differential graded coalgebra]] on $\vee^\bullet \mathfrak{g}$ given by co[[nLab:derivation]]s $D : \vee^\bullet \mathfrak{g} \to \vee^\bullet \mathfrak{g}$ of degree +1 and with $D \circ D = 0$, are in bijection with structures of a [[nLab:Lie algebra]] on $\mathfrak{g}$:
+
+the restriction $D : \mathfrak{g} \vee \mathfrak{g} \to \mathfrak{g}$ encodes precisely a skew symmetric bracket and $D$ is entirely fixed by this restriction, and the condition $D^2  = 0$ is equivalent to the [[nLab:Jacobi identity]] satisfied by this bracket.
+
+=--
+
+This way of looking at Lie algebras suggests an evident generalization:
+
++-- {: .un_def}
+###### Definition
+**($L_\infty$-algebra)**
+
+An _[[nLab:L-∞-algebra]]_ is an $\mathbb{N}$-[[nLab:graded vector space]] $\mathfrak{g}$ (which we take to be in non-positive degree) equipped a coderivation $D : \vee^\bullet \mathfrak{g} \to \vee^\bullet \mathfrak{g}$ of degree +1 with $D^2 = 0$.
+
+=--
+
+We say that $\mathfrak{g}$ is of [[nLab:finite type]] if it is degreewise finite-dimensional. In that case degreewise linear dualization of vector spaces maps the free graded-commutative coalgebra $\vee^\bullet \mathfrak{g}$ to the [[nLab:Grassmann algebra]] 
+
+$$
+  \wedge^\bullet \mathfrak{g}^*
+  = 
+  k
+  \oplus (\mathfrak{g}^*_0)
+  \oplus (\mathfrak{g}_0^* \wedge \mathfrak{g}_0^* \oplus \mathfrak{g}_1^*)
+  \oplus 
+  (\mathfrak{g}^*_0 \wedge \mathfrak{g}^*_0 \wedge \mathfrak{g}^*_0
+   \oplus \mathfrak{g}^*_1 \otimes \mathfrak{g}^*_0
+   \oplus \mathfrak{g}^*_2)
+  \oplus
+  \cdots
+  \,,
+$$
+
+where the $n$th term in paranthesis is in degree $n$, and the dual $d = D^* : \wedge^\bullet \mathfrak{g}^* \to \wedge^\bullet \mathfrak{g}^*$ of the coderivation, acting as $d \omega = \omega(D(-))$, makes this a graded-commutative [[nLab:semifree dga|semifree]] [[nLab:differential graded algebra]]. This we write
+
+$$
+  CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^* , d_{\mathfrak{g}})
+$$
+
+and call the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$. (For $\mathfrak{g}$ an ordinary Lie algebra, this is the ordinary notion of Chevalley-Eilenberg algebra over the trivial module.)
+
+In fact, this construction establishes a _bijection_ between [[nLab:semifree dga]]s in non-negative degree and [[nLab:∞-Lie algebra]]s: every semifree dg-algebra is the Chevalley-Eilenberg algebra of some -- uniquely specified -- $L_\infty$-algebra.
+
+While equivalent, the dual description is more familiar in the literature., notably due to all the rich supply of techniques from [[nLab:Sullivan model]]s in [[nLab:rational homotopy theory]]. In fact the notion of [[nLab:Lie integration]] (see there for details and references) of $L_\infty$-algebras to [[nLab:∞-Lie groupoid]]s may be understood as being essentially nothing but the [[nLab:Sullivan construction]] in rational homotopy theory. 
+
+Therefore we shall often think of $\infty$-Lie alghebras dually in terms of their Chevalley-Eilenberg algebras. Notably we identify the standard [[nLab:model structure on dg-algebra]] as a [[nLab:presentable (∞,1)-category|presentation]] of the [[nLab:(∞,1)-category]] of $\infty$-Lie algebras, which we write
+
+$$
+  \infty Lie Alg := (dgAlg^{op})^\circ
+  \,.
+$$
+
+#### $\infty$-Cartan-Chern-Weil theory
+
+The notion of [[nLab:Lie algebra cohomology]] has a straightforward generalization to a notion of [[nLab:∞-Lie algebra cohomology]]. In fact, in the light of $\infty$-Lie algebras, the concept becomes simpler.
+
+For $n \in \mathbb{N}$ we write $b^n \mathbb{R}$ for the $\infty$-Lie algebras defined as follows: it's [[nLab:Chevalley-Eilenberg algebra]] is generated from a single element $c$ in degree $n$ and has vanishing differential
+
+$$
+  CE(b^{n-1}\mathbb{R}) = (\wedge^\bullet \langle c\rangle, d = 0)
+  \,.
+$$
+
+This is effectively the [[nLab:Eilenberg-MacLane object]] $K(n,\mathbb{R})$ in the [[nLab:(∞,1)-category]] of $\infty$-Lie algebras. For $\mathfrak{g}$ any $\infty$-Lie algebra, we say that an $n$-cocycle on $\mathfrak{g}$ is a morphism
+
+$$
+  \mu : \mathfrak{g} \to b^n \mathbb{R}
+$$
+
+of $\infty$-Lie algebras. Dually, this is a morphism of [[nLab:dg-algebra]]s
+
+$$
+  CE(\mathfrak{g}) \leftarrow CE(b^n \mathbb{R}) : \mu
+$$
+
+between the [[nLab:Chevalley-Eilenberg algebra]]s. By the nature of $CE(b^n \mathbb{R})$ this in turn is the same as an element
+
+$$
+  \mu \in \wedge^n \mathfrak{g}^*
+$$
+
+in $CE(\mathfrak{g})$ of degree $n$, which is closed
+
+$$
+  d_\mathfrak{g} \mu = 0
+  \,.
+$$
+
+For $\mathfrak{g}$ an ordinary [[nLab:Lie algebra]] this is traditionally taken as the very definition of [[nLab:Lie algebra cohomology]] (with values in the trivial module): the [[nLab:chain homology and cohomology|cochain cohomology]] of the Chevalley-Eilenberg complex. For our purposes it is useful to emphasize the equivalent description in terms of morphisms of $\infty$-Lie algebas:
+
+there is a precise sense in which an [[nLab:∞-Lie algebra]] is an [[nLab:infinitesimal space|infinitesimal]] [[nLab:∞-Lie group]]]. As we shall discuss below in [Cohomology](#Cohomology), the latter are naturally objects in an [[nLab:(∞,1)-topos]] of [[nLab:∞-Lie groupoid]]s and every $(\infty,1)$-topos comes with its [[nLab:cohomology|intrinsic cohomology]], where an [[nLab:cocycle|intrinsic cocycle]] on an object $X$ with coefficients in an object $A$ is nothing but a morphism $X \to A$. Our general definition of [[differential cohomology in an (∞,1)-topos]] is built on this fact.
+
+In such generality we may in fact think of any morphism $\mathfrak{g} \to \mathfrak{h}$ of $\infty$-Lie algebras as a _cocycle_ on $\mathfrak{g}$ with values in $\mathfrak{h}$, even if $\mathfrak{h}$ is not an [[nLab:Eilenberg-MacLane object]]. Such a general notion of cohomology is known as [[nLab:nonabelian cohomology]]. And indeed, restricted to the case that $\mathfrak{g}$ is an ordinary Lie algebra, this reproduces the notion of [[nLab:nonabelian Lie algebra cohomology]].
+
+Every (nonabelian) cocyle $\mu : \mathfrak{h} \to \mathfrak{g}$ classifies something: its [[nLab:homotopy fiber]]. This is the [[nLab:homotopy pullback]] $\mathfrak{p} \to \mathfrak{h}$ of the point along $\mu$:
+
+$$
+  \array{
+     \mathfrak{p} &\to& *
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathfrak{h} &\stackrel{\mu}{\to}& \mathfrak{g}
+  }
+  \,.
+$$
+
+This $\mathfrak{p} \to \mathfrak{h}$ is the _extension_ of $\mathfrak{h}$ by the [[nLab:loop space object]] $\Omega \mathfrak{g}$ of $\mathfrak{g}$ that is classified by the cocycle.
+
+There is a standard algorithm for computing such [[nLab:homotopy pullback]]s in terms of ordinary pullbacks of [[nLab:resolution]]s. For that, one finds an $\infty$-Lie algebra $inn(\mathfrak{g})$ and a morphism $inn(\mathfrak{g}) \to \mathfrak{g}$ such that this morphism is a fibration in the ambient [[nLab:model category|model category structure]] and such that we have a diagram
+
+$$
+  \array{
+    inn(\mathfrak{g}) &\stackrel{\simeq}{\to}& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathfrak{g} &\stackrel{=}{\to}& \mathfrak{g}
+  }
+  \,,
+$$
+
+where the top morphism is a weak equivalence. Such an object $inn(\mathfrak{g})$ is a [[nLab:universal principal ∞-bundle]]. In fact, here it is a [[nLab:groupal model for universal principal ∞-bundles|groupal universal principal ∞-bundle]] in a sense, in that it carries the structure of an $\infty$-Lie algebra.
+
+There is a standard choice for $inn(\mathfrak{g})$. This is such that its [[nLab:Chevalley-Eilenberg algebra]] is the [[nLab:Weil algebra]] of $\mathfrak{g}$: $CE(inn(\mathfrak{g})) = W(\mathfrak{g})$. This is the [[nLab:semifree dga]] whose underlying graded algebra is $\wedge^\bullet( \mathfrak{g}^* \oplus \mathfrak{g}^*[1] )$, and whose differential is the one uniquely fixed by the fact that its restriction to $\wedge^1 \mathfrak{g}^*$ is $d_{inn(\mathfrak{g})} = d_{\mathfrak{g}} + \sigma$, where $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ is the canonical degree shift morphism.
+
+In <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntUnivBund">∞-Lie groupoid -- the Lie-integrated universal principal ∞-bundle</a> we discuss how under [[nLab:Lie integration]] the $\infty$-Lie algebra $\mathfrak{g}$ turns into the one-object [[nLab:delooping]] $\infty$-groupoid $\mathbf{B}G$ of the corresponding [[nLab:∞-Lie group]], while $inn(\mathfrak{g})$ integrates to the delooping $\mathbf{B}\mathbf{E}G$ of a [[nLab:groupal model for universal principal ∞-bundles|groupal model]] for the $G$-[[nLab:universal principal ∞-bundle]] $\mathbf{E}G$.
+
+We may think of $CE(\mathfrak{g})$ as the 
+<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CanonmicalFormOnG">left-invariant differential forms on the ∞-Lie group</a> $G$, and of $W(\mathfrak{g}) = CE(inn(\mathfrak{g}))$ correspondingly as the canonical forms on the $G$-[[nLab:universal principal ∞-bundle]]. For $G$ an ordinary [[nLab:Lie group]] this statement of course goes all the way back to [[nLab:Élie Cartan]].
+
+We obtain the following picture.
+
+$$
+  \array{
+    delooped\; \infty group
+    &&&
+    \mathbf{B}G && \mathfrak{g} && 
+    CE(\mathfrak{g}) &&& Chevalley-Eilenberg\;algebra
+    \\
+    &&& \downarrow && \downarrow && \uparrow 
+    \\
+    delooped\;groupal\;universal\;\infty bundle
+    &&&
+    \mathbf{B E}G && 
+     inn(\mathfrak{g}) 
+     &&
+     W(\mathfrak{g}) = CE(inn(\mathfrak{g})) &&& Weil\;algebra
+    \\
+    &&&
+    \downarrow 
+      &&
+    \downarrow 
+      &&
+    \uparrow
+    \\
+    rationalized\;classifying\;space
+    &&&
+    \prod_i \mathbf{B}^{n_i} \mathbb{R} 
+    &&
+    \prod_i b^{n_i-1} \mathbb{R}
+    && inv(\mathfrak{g})
+    &&&
+    algebra\;of\;invariant\;polynomials
+    \\
+    \\
+    &&&
+    &\stackrel{Lie integration}{\leftarrow}& 
+  }
+$$
+
+Here we added in the bottom row the [[nLab:invariant polynomial]]s on the $\infty$-Lie algebra $\mathfrak{g}$. This are those elements of the [[nLab:Weil algebra]] that are invariant under the action of $\mathfrak{g}$ on $inn(\mathfrak{g})$ in a strong sense. The corresponding $\infty$-Lie algebra is a collection of abelian $\infty$-Lie algebras $\prod_i b^{n_i-1}\mathbb{R}$, one factor for each indecomposable invariant polynomial. 
+
+This may be understood as an approximation to the in general not existent _double_ delooping $\mathbf{B} \mathbf{B}G$ of $G$. We may think of the invariant polynomials as differential forms on $\mathbf{B}G$ itself.
+
++-- {: .un_prop}
+###### Classical fact
+
+For $G$ a [[nLab:compact space|compact]] [[nLab:Lie group]], the [[nLab:rationalization]] $\mathcal{B}G \otimes \mathbb{R}$ of the [[nLab:classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[nLab:Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[nLab:invariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
+
+=--
+
+The projection morphism
+
+$$
+  inn(\mathfrak{g}) \to \prod_i b^{n_i} \mathbb{R}
+$$
+
+we shall now identify as inducing the $\infty$-Lie theoretic analog of the [[nLab:Chern-Weil homomorphism]] which computes [[nLab:curvature characteristic form]]s from connections on [[nLab:principal ∞-bundle]]s.
+
+
+#### The $\infty$-Chern-Weil homomorphism 
+
+
+It had been known in parts of the literature for a long time that there is a nice way to think of the integration of a [[nLab:Lie algebra]] to a [[nLab:Lie group]] in terms of forming _paths_  in the Lie algebra, equivalently, in terms of flat [[nLab:Lie-algebra valued 1-forms]]. But the full impact of this observation only became manifest when the procedure was generalized to [[nLab:Lie algebroid]]s and [[nLab:∞-Lie algebra]]s. (See the discussion and references at [[nLab:Lie integration]].)
+
+
+For $X$ a [[nLab:smooth manifold]], write $T X$ for its [[nLab:tangent Lie algebroid]]. For $\mathfrak{g}$ any [[nLab:∞-Lie algebra]], we say that a morphism
+
+$$
+  \omega : T X \to \mathfrak{g}
+$$
+
+is a collection of _flat_ $\mathfrak{g}$-[[∞-Lie algebroid valued differential forms|valued 1-forms]]. In the special case that $\mathfrak{g}$ is an ordinary Lie algebra, this reduces to the standard notion of [[nLab:Lie-algebra valued 1-form]]s on $X$ whose [[nLab:curvature]] 2-form vanishes.
+
+We shall see in <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#ParallelTransport">∞-Lie groupoid parallel transport</a> that the [[nLab:Lie integration]] of such _cocycles_ on the [[nLab:tangent Lie algebroid]] are the [[nLab:infinitesimal space|infinitesimal]] anlog of the flat [[nLab:parallel transport]]
+
+$$
+  \mathbf{\Pi}(X) \to \mathbf{B}G
+$$
+
+that we considered above in [Parallel transport in low dimensions](#LowDimension).
+
+Accordingly, we may say that an abstract _path_ in $\mathfrak{g}$ is a morphism
+
+$$
+  T \Delta^1_{diff} \to \mathfrak{g}
+  \,,
+$$
+
+where by $\Delta^n_{diff}$ we denotes the standard $n$-[[nLab:simplex]] regarded as a smooth manifold (striictly speaking: with boundary and corners, but in fact we may restrict attention to paths that are constant perpendicular to any boundary in a neighbourhood of that boundary). Accordingly, a 2-dimensional path or homotopy between such paths is a morphism
+
+$$
+  T \Delta^2_{diff} \to \mathfrak{g}
+$$
+
+that restricts to given paths on the boundary of the 2-simplex. If we consider paths modulo such homotopies, we obtain the [[nLab:fundamental groupoid]] of $\mathfrak{g}$. It is a central fact this is the one-object grouoid $\mathcal{B}G = \{\bullet \stackrel{g}{\to} \bullet | g \in G\}$ whose set of morphisms is the set of elements of the simply-connected Lie group that integrates $G$ in ordinary [[nLab:Lie theory]].
+
+If instead we do not divide out homotopies, we obtain an full [[nLab:∞-groupoid]] given by the [[nLab:Kan complex]]
+
+$$
+  [n] \mapsto \left\{ T \Delta^n \to \mathfrak{g}\right\}
+  \,.
+$$
+
+Dually, in terms of [[nLab:Chevalley-Eilenberg algebra]]s this is 
+
+$$
+  [n] \mapsto Hom_{dgAlg}{CE(\mathfrak{g}), \Omega^\bullet(\Delta^n)}
+  \,.
+$$
+
+There is a natural way to define a _smooth family_ of such paths parameterized over a smooth test space $U$. We write
+
+$$
+  \exp(\mathfrak{g}) : U,n \mapsto
+  Hom_{dgAlg}{CE(\mathfrak{g}), C^\infty(U) \otimes'\Omega^\bullet(\Delta^n)}
+  \,.
+$$
+
+We shall see later (...) that this is a [[nLab:simplicial presheaf]] which represents the $\infty$-Lie algebra $\mathfrak{g}$ as an [[nLab:∞-Lie groupoid]].
+
+There is a somewhat bigger version of this, which is however weakly equivalent
+
+
+$$
+  \exp(\mathfrak{g})_{diff}
+  : 
+   U, n
+ \mapsto 
+  \left\{
+    \array{
+       C^\infty(U)\otimes \Omega^\bullet(\Delta^n_{Diff})
+       &\leftarrow&
+       CE(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^n_{Diff})
+      &\leftarrow&
+      W(\mathfrak{g})
+    }
+  \right\}
+  \,.
+$$
+
+This assigns to a smooth test space $U$ the $\infty$-groupoid whose objects are non-flat $\mathfrak{g}$-valued forms, morphisms are paths of gauge transformations of these, 2-morphisms are homotopies of paths of gauge transformations, and so on.
+
+We have that $\exp(\mathfrak{g})_{diff}$ is a [[nLab:resolution]] of $\exp(\mathfrak{g})$ 
+
+$$
+  \exp(\mathfrak{g}) \stackrel{\simeq}{\leftarrow}
+  \exp(\mathfrak{g})_{diff}
+  \,.
+$$
+
+We also consider the object
+
+$$
+  \mathbf{\flat}_{dR} \prod_i \exp(b^{n_i-1}\mathbb{R})
+  : 
+  U,n
+  \mapsto
+  \left\{
+    \array{
+       C^\infty(U)\otimes \Omega^\bullet(\Delta^n_{Diff})
+       &\leftarrow&
+       0
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^n_{Diff})
+      &\leftarrow&
+      inv(\mathfrak{g})
+    }
+  \right\}
+  \,.
+$$
+
+We have then a natural [[nLab:anafunctor|anamorphism]]
+
+$$
+  ch_{\exp(\mathfrak{g})}
+  :
+  \exp(\mathfrak{g}) 
+   \stackrel{\simeq}{\leftarrow}
+  \exp(\mathfrak{g})_{diff}
+  \to
+  \mathbf{\flat}_{dR} \prod_i \exp(b^{n_i-1}\mathbb{R}) 
+$$
+
+given by pasting-postcomposition with the universal $\mathfrak{g}$-princicpal $\infty$-bundle
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\leftarrow& 0
+    \\
+    \uparrow && \uparrow
+    \\
+     W(\mathfrak{g}) &\leftarrow& inv(\mathfrak{g})
+  }
+  \,.
+$$
+
+This descends to the $\infty$-Lie groups integrating $\mathfrak{g}$ and obtained by truncation of $\exp(\mathfrak{g})$
+
+$$
+  ch_{G}
+  :
+  \mathbf{B}G
+   \stackrel{\simeq}{\leftarrow}
+  \mathbf{B}_{diff}G
+  \to
+  \mathbf{\flat}_{dR} \prod_i \mathbf{B}^{n_i}\mathbb{R}
+  \,.
+$$
+
+
+This is the **$\infty$-Chern-Weil homomorphism**.
+
+
+The details of this are described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#ChernWeilHomomorphism">∞-Lie groupoid -- Chern-Weil homomorphism</a>
+
+
+For $X$ a smooth manifold, we have that 
+
+$$
+  X \stackrel{\simeq}{\leftarrow}
+  Y
+  \to \mathbf{B}G
+$$
+
+is the cocycle for a $G$-[[nLab:principal ∞-bundle]]. A lift (which always exists) to 
+
+$$
+  X \stackrel{\simeq}{\leftarrow}
+  Y
+  \to \mathbf{B}_{diff}G
+$$
+
+is a _connection_ on this principal $\infty$-bundle. The projection
+
+$$
+  X \stackrel{\simeq}{\leftarrow}
+  Y
+  \to \mathbf{B}_{diff}G
+  \stackrel{ch_G}{\to}
+  \mathbf{\flat}_{dR} \prod_i \mathbf{B}^{n_i} \mathbb{R}
+$$
+
+are the corresponding [[nLab:curvature characteristic form]]s. They are locally obtained by projecting in the diagram
+
+
+$$
+  \array{
+    C^\infty(U)\otimes' \Omega^\bullet(\Delta^n)
+    &\leftarrow&
+    CE(\mathfrak{g})
+    &&&
+    flat\;vertical\;form
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(U \times \Delta^n)
+    &\leftarrow&
+    W(\mathfrak{g})
+    &&&
+    connection\;and\;curvature
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(U \times \Delta^n)
+    &\leftarrow&
+    inv(\mathfrak{g}) 
+    &&&
+    curvature\;characteristic\;forms
+ }
+$$
+
+from the top two thirds to the bottom row. In this form $\infty$-Lie algebra valued connections were considered in <a href="http://arxiv.org/abs/0801.3480">SSSI</a>. 
+
