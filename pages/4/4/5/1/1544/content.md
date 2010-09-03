@@ -310,6 +310,15 @@ $$
 
 Connections on [[tangent bundle]]s play an important role for instance on  [[Riemannian manifold]]s and [[pseudo-Riemannian metric|pseudo-Riemannian manifold]]s. From the end of the 19th century and the beginning of the 20th centure originates a language to talk about these in terms of [[Christoffel symbol]]s. 
 
+### Connections in physics
+
+In [[physics]] connections on bundles model [[gauge field]]s. 
+
+* The [[electromagnetic field]] is a connection on a [[circle group]]-principal bundle;
+
+* A [[Yang-Mills field]] more generally is a connection on a [[unitary group]]-principal bundle.
+
+* The field of [[gravity]] is encoded in a connection on the [[orthogonal group]]-principal bundle to which the [[tangent bundle]] is [[associated bundle|associated]].
 
 ## Generalizations
 
@@ -333,7 +342,9 @@ Basic facts about connections, such as the existence proof in terms of Cech cocy
 
 * [[Theodore Voronov]], _Differential Geometry, &#167;3 Connection on a vector bundle_ ([pdf](http://www.maths.manchester.ac.uk/~tv/Teaching/Differential%20Geometry/2008-2009/lecture3.pdf))
 
+Further discussion of the functorial point of view on connections is at
 
+* [[∞-Chern-Weil theory -- preparatory comments]]
 
 [[!redirects connections on a bundle]]
 [[!redirects connections on bundles]]
