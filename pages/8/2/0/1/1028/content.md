@@ -24,7 +24,7 @@ eq\ar[r]_{e} %26 x \ar@%3C.5ex%3E [r]^{f}\ar@%3C-.5ex%3E[r]_{g} %26 y
 </center>
 
 
-over a [[diagram]] of the shape 
+over a parallel pair i.e. of the [[diagram]] of the shape 
 
 $$
   \left\lbrace
@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-(A [[fork]] diagram).
+(See also [[fork]] diagram).
 
 This means that for $f : x \to y$ and $g : x \to y$ two [[parallel morphisms]] in a [[category]] $C$, their equalizer is, if it exists
 
