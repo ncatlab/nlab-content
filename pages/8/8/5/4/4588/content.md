@@ -47,7 +47,19 @@ auto inserted DBE div
 
 <div class='DBE' markdown='1'
  json='{"id":"NEW","type":"Category","page":"[Rod McGuire]"}'>
- UNGENERATED
+ <div><span>{"id":"NEW","type":"Category","page":"[Rod McGuire]"}</span></div>
+ <div markdown='1'><span>$NEW$ Category</span></div>
+ <table><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[Rod McGuire]</td></tr></table>
+ <span class='DBE'/>
+</div>
+
+and another one
+
+<div class='DBE' markdown='1'
+ json='{"id":"NEWNEW","type":"Category","page":"[Rod McGuire]"}'>
+ <div><span>{"id":"NEWNEW","type":"Category","page":"[Rod McGuire]"}</span></div>
+ <div markdown='1'><span>$NEWNEW$ Category</span></div>
+ <table><tr><td>id</td><td>NEWNEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[Rod McGuire]</td></tr></table>
  <span class='DBE'/>
 </div>
 
