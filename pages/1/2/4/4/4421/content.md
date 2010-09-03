@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### $\infty$-Chern-Weil theory
 +--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include infinity-Chern-Weil theory - contents]]
 =--
 #### Differential cohomology
 +--{: .hide}
@@ -58,7 +58,8 @@ $$
 
 It is sufficient to discuss properties of Chern-Simons forms for $\mathfrak{g}$-valued 1-forms. The corresponding statements for connections on a $G$-bundle follow straightforwardly.
 
-### Paths of connections
+
+### Paths of connections {#PathsOfConnections}
 
 Let $U$ be a [[smooth manifold]]. 
 
@@ -269,13 +270,13 @@ The Chern-Simons form $\int_{[0,1]} P(F_{\hat A} \wedge \cdots \wedge F_{\hat A}
 
 
 
-## In $\infty$-Chern-Weil theory {#HigherOrderChernSimonsForms}
+## In $\infty$-Chern-Weil theory {#InInfCSTheory}
 
 We discuss now a more encompassing perspective on Chern-Simons forms the way it occurs in [[∞-Chern-Weil theory]].
 
-### Prerequisites
+### Prerequisites {#PrerequisitesHigher}
 
-We need to collect a few notions describes elsewhere, on which the following discussion is based.
+We need to collect a few notions described elsewhere, on which the following discussion is based.
 
 For $\mathfrak{g}$ a [[Lie algebra]] or more generally an [[∞-Lie algebra]]  we have the following [[dg-algebra]]s naturally associated with it:
 
@@ -406,28 +407,211 @@ $$
     \leftarrow
      W(b^k \mathbb{R})
     \})
-    \to 
+    \;\;\;\;\to \;\;\;\;
     \Xi(  \stackrel{d_{dR}}{\to}\Omega^{k-1}(-)\stackrel{d_{dR}}{\to}\Omega^k_{closed}(-))  
 $$
 
 to the image of the $\mathbb{R}$-[[Deligne complex]] of sheaves 
 under the [[Dold-Kan correspondence]].
 
-### Higher order  Chern-Simons form
 
-With all of the above in hand, we can make now the following definition:
+### Higher order Chern-Simons form {#HigherOrderChernSimonsForms}
 
-For $\{U_i \to X\}$ a [[good open cover]] of the manifold $X$ and
+With all of the above in hand, we can make now the following observations:
 
-for $\nabla : C(U) \to \mathbf{B}G_{diff}$ a [[pseudo-connection]] on $X$ with values in $\mathfrak{g}$, its **order $n$ Chern-Simons forms** are the $n$-cells in the image of the canonical composite morphism
+For $X$ a smooth manifold and $\mathfrak{g}$ an [[∞-Lie algebra]]
+with coefficient for pseudo-connections being $\mathbf{B}G_{diff}$ as above, a morphism
 
 $$
-  C(U) \stackrel{\nabla}{\to}
-  \mathbf{B}G_{diff} \to \Xi( \cdots \stackrel{d_{dR}}{\to}\Omega^{k-1}(-)\stackrel{d_{dR}}{\to}\Omega^k_{cl}(-))
+  A : X \to \mathbf{B}G_{diff}
+$$
+
+of simplicial presheaves (no resolution on the left, since we are concentrating on globally defined forms for the present purpose) is effectively a $\mathfrak{g}$-values differential form on $X$
+
+For $\mu$ a cocycle on $\mathfrak{g}$ and $\langle -,-\rangle$ a corresponding invariant polynomial the composite
+
+$$
+  X \to \mathbf{B}G_{diff} \to \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}
+$$
+
+discussed above produces the corresponding [[curvature characteristic form]].
+
+A [[homotopy]] 
+
+$$
+  (\nabla \to \nabla') : X \cdot \Delta[1] \to \mathbf{B}G_{diff}
+$$
+
+is a smooth path in the space of $\mathfrak{g}$-valued forms on $X$. Under the [[adjunction]]
+
+$$
+  [X \cdot \Delta[1], \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}]
+  \simeq
+  [X, \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}^{\Delta[1]}]
+$$
+
+this corresponds to a $(k-1)$-form on $X$ this is the Chern-Simons form
+
+$$
+  CS(\nabla \to \nabla') : X \to \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}^{\Delta[1]}
   \,.
 $$
 
-> It is an exercise now to work this out and compare with the previous definition. We shall do so in a little while, after we had a bit of breakfast.
+The higher homotopies are higher order Chern-Simons forms.
+
+
+The following proposition says this in a more precise way for ordinary Chern-Simons forms.
+
+#### Ordinary Chern-Simons forms revisited {#OrdinaryCSRevisited}
+
+We now show how the [traditional definition](#PathsOfConnections) of Chern-Simons forms is reproduced by the [general abstract](#HigherOrderChernSimonsForms) mechanism.
+
++-- {: .un_prop}
+###### Proposition
+**(ordinary Chern-Simons form)**
+
+Let $\mathfrak{g}$ be a [[Lie algebra]], and $\langle -,-\rangle \in W(\mathfrak{g})$ an  [[invariant polynomial]]. 
+
+Then morphisms (of simplicial presheaves)
+
+$$
+  A : X \to \mathbf{B}G_{diff}
+$$
+
+are in canonical bijection with [[Lie-algebra valued 1-forms]] $A \in \Omega^1(X,\mathfrak{g})$. Morphisms
+
+$$
+  X \to \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}
+$$
+
+are in canonical bijection with closed $k$-forms on $X$ and composition with the morphism 
+
+$$
+  \mathbf{B}G_{diff} \to \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}
+$$
+
+discussed [above](#PrerequisitesHigher) and under this canonical identification the composite
+
+$$
+  \langle F_A \rangle : X \stackrel{A}{\to}
+   \mathbf{B}G_{diff} \stackrel{}{\to}
+  \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}
+$$
+
+is the corresponding [[curvature characteristic form]].
+
+Homotopies
+
+$$
+  (A_1 \stackrel{\gamma}{\to} A_2)  : X\times \Delta[1] \to \mathbf{B}G_{diff}
+$$
+
+are in canonical bijection with smooth paths in the space of $\mathfrak{g}$-valued 1-forms on $X$ and under composition with $\mathbf{B}G_{diff} \to \mathbf{\flat}_{dR}\mathbf{B}^k \mathbb{R}$ these identify with the corresponding Chern-Simons form
+
+$$
+  \langle F_A\rangle
+  \stackrel{CS(A \stackrel{\gamma}{\to} A')}{\to}
+  \langle F_{A'}\rangle
+  : 
+  X \to (\mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn})^{\Delta[1]}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a straightforward unwinding of the definitions. We spell it out in the following in order to highlight the way the mechanism works.
+
+By the [[Yoneda lemma]] and the definition of $\mathbf{B}G_{diff}$, a morphism $X \to \mathbf{B}G_{diff}$ is equivalently a diagram
+
+$$
+  \array{
+    C^\infty(X) \otimes \Omega^\bullet(\Delta^0) &\leftarrow& CE(\mathfrak{g})
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(X) \otimes \Omega^\bullet(\Delta^0)
+    &\stackrel{(A,F_A)}{\leftarrow}&
+    W(\mathfrak{g})
+  }
+  \,.
+$$
+
+Since $CE(\mathfrak{g})$ is trivial in degree 0 and since $C^\infty(X)\otimess \Omega^\bullet(\Delta^0)$ is trivial above degree 0, the top morphism is necessarily 0 and the commutativity of the diagram is an empty condition.
+
+The bottom morphism on the other hand enccodes precisely a $\mathfrak{g}$-valued form, as discussed in some detail at [[Weil algebra]].
+
+Composition with the morphism $\mathbf{B}G_{diff} \to \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}$ is composition of the bottom morphism of the above digram with $W(\mathfrak{g}) \leftarrow CE(b^{k-1}\mathbb{R}) : \langle - \rangle$ followed by [[fiber integration]] of the resulting $k$-form
+
+$$
+  \Omega^\bullet(X)\otimes \Omega^\bullet(\Delta^0)
+  \stackrel{(A,F_A)}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{\langle - \rangle}{\leftarrow}
+  CE(b^{k-1}\mathbb{R})
+  : 
+  \langle F_A \rangle
+$$
+
+over the point. This fiber integration is of course trivial, so that we find that indeed $X \stackrel{(A,F_A)}{\to} \mathbf{B}G_{diff} \stackrel{\langlw - \rangle}{\to} \mathbf{\flat}_{dR} \mathbf{B}^k \mathbb{R}_{chn}$ is the [[curvature characteristic form]] defined on $\langle -\rangle$ on $A$.
+
+Next, a homotopy $(A \stackrel{\gamma}{\to} A') : X \cdot \Delta[1] \to \mathbf{B}G_{diff}$ is (again by the [[Yoneda lemma]]) a diagram
+
+$$
+  \array{
+    C^\infty(X) \otimes \Omega^\bullet(\Delta^1) 
+    &\stackrel{\lambda}{\leftarrow}& CE(\mathfrak{g})
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(X) \otimes \Omega^\bullet(\Delta^0)
+    &\stackrel{(A,F_A) \stackrel{\gamma}{\to} (A',F_{A'})}{\leftarrow}&
+    W(\mathfrak{g})
+  }
+  \,.
+$$
+
+The top morphism defines an $X$-parameterized family of $\mathfrak{g}$-valued 1-form on the interval $[0,1]$, which is canonically identified with a smooth function $g : X \times [0,1] \to G$ into the simply connected [[Lie group]] [[Lie integration|integrating]]] $\mathfrak{g}$ based at the identity, $g(x,0) = e$, by the formula
+
+$$
+  \lambda = g^* \theta
+$$
+
+where $\theta \in \Omega^1(G, \mathfrak{g})$ is the [[Maurer-Cartan form]] on $G$,
+
+or conversely by [[parallel transport]]
+
+$$
+  f(x,s) = P \exp(\int_{[0,s]} \lambda(x,s) d s)
+$$
+
+We may think of this as a smooth _path of gauge transformations_ . 
+
+The bottom morphism encodes a $\mathfrak{g}$-valued form
+
+$$
+  \hat A + \lambda \in \Omega^1(X \times [0,1] , \mathfrak{g})
+$$
+
+with $\hat A \in \Omega^1(X,\mathfrak{g}) \otimes C^\infty([0,1])$ and $\lambda$ as before, such that $\hat A(s = 0) = A$ and $\hat A(s = 1) = A'$.
+
+This is a _smooth path in the space of 1-forms_ . In the case that $\lambda = 0$ this is a _pure shift path_ in the [terminology above](#PathsOfConnections). we look at this case in the following, for ease of notation.
+
+Under composition with $W(\mathfrak{g}) \leftarrow CE(b^{k-1}\mathbb{R}) : \langle -\rangle$ this becomes a $k$-form
+
+$$
+  \langle F_{\hat A } \rangle \in \Omega^{k}(X)\otimes C^\infty(\Delta^1)\oplus \Omega^{k-1}(X)\otimes \Omega^1(\Delta^1)
+  \,.
+$$
+
+The [[fiber integration]] of this over $\Delta^1$ is manifestly the same operation as that in the definition of the Chern-Simons form [above](#PathsOfConnections).
+
+=--
+
+
+
 
 ## As secondary characteristic forms
 
