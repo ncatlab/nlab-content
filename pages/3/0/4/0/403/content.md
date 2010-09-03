@@ -162,7 +162,7 @@ If $C$ is an internal category in some category $A$, (which thus has, at least, 
 
  * $N(C)_0 = C_0$, the 'object of objects' of $C$;
  * $N(C)_1  = C_1$, the 'object of arrows' of $C$;
- * $N(C)_2 = C_1 \times_{C_0} C_1$ the object of composable pairs of arrows of $C$;
+ * $N(C)_2 = C_1 \times_{C_0} C_1$ the object of [[composable pairs]] of arrows of $C$;
 * $N(C)_3 = C_1 \times_{C_0} C_1\times_{C_0} C_1$, the object of composable triples of arrows;
 
 and so on.  Face and degeneracy morphisms are induced from the structural moprhisms of $C$ in a fairly obvious way.
