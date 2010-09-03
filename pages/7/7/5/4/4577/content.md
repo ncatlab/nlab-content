@@ -1,4 +1,9 @@
-__Baues-Wirsching cohomology of small categories__
+The cohomology of (small) categories went through several preliminary stages before the major publication by Baues and Wirshing.  The actual method and ideas that they use can be found earlier in an unpublished document by Charles Wells from 1979. (A version of that is available [here](http://www.cwru.edu/artsci/math/wells/pub/pdf/catext.pdf).)
+
+
+
+
+__Baues-Wirsching cohomology of small categories:  References__
 
 * [[Hans Joachim Baues]], G&#252;nther Wirsching, _Cohomology of small categories_,  J. Pure Appl. Algebra  38  (1985),  no. 2-3, 187--211, [doi](http://dx.doi.org/10.1016/0022-4049(85)90008-8), [MR87g:18013](http://www.ams.org/mathscinet-getitem?mr=87g:18013) 
 
