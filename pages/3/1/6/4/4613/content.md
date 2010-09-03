@@ -10,8 +10,14 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
 =--
 =--
+=--
+
+
 
 # Contents
 * automatic table of contents goes here
