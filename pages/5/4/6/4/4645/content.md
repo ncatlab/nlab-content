@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+=--
+=--
+
+
 > This is a subentry of [[∞-Chern-Weil theory]]. While there the general theory is discussed, this entry here considers some basic constructions in the tradittional language of [[differential geometry]] that connect explcitly to basic concepts of ordinary [[Chern-Weil theory]].
 
 
@@ -1290,3 +1301,5 @@ $$
 
 from the top two thirds to the bottom row. In this form $\infty$-Lie algebra valued connections were considered in <a href="http://arxiv.org/abs/0801.3480">SSSI</a>. 
 
+
+[[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
