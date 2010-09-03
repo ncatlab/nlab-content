@@ -31,11 +31,29 @@ Under _$\infty$-Chern-Weil theory_ we want to understand the generalization of t
 
 So $\infty$-Chern-Weil theory produces [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal ∞-bundle]]s for $G$ an [[∞-Lie group]], equivalently of the corresponding [[classifying space]]s $\mathcal{B}G$.
 
-Using the notion of [[schreiber:differential cohomology in an (∞,1)-topos]] applied to the [[(∞,1)-topos]] $\mathbf{H} =$[[?LieGrpd]] of [[∞-Lie groupoids]] there is a very general abstract notion of refinement of [[characteristic class]]es in [[cohomology]] to [[curvature characteristic forms|curvature characteristic classes]] in [[differential cohomology]]. &#228;
+Ordinary Chern-Weil theory is formulated in the context of [[differential geometry]]. We need to widen this context somewhat in order that it can accomodate the relevant higher structures and so we place ourselves in the context of the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoids]].
 
-The main construction in ∞-Chern-Weil theory is a concrete _model_ or _presentation_ of this very abstract operation in terms of [[Lie integration]] of objects in [[∞-Lie algebra cohomology]]. This construction is seen to be the higher analog of the [[Chern-Weil homomorphism]]. Its crucial intermediate step is the definition and construction of _$\infty$-connections_ on [[principal ∞-bundle]]s. 
+In every $(\infty,1)$-topos that admits a notion of differential cohomology,  there is a general abstract notion of refinement of [[characteristic class]]es in [[cohomology]] to [[curvature characteristic forms|curvature characteristic classes]] in [[ordinary differential cohomology]]. 
 
-This model is build on concrete constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
+The main construction in ∞-Chern-Weil theory is a concrete _model_ or _presentation_ of this abstract operation. This model is constructed in terms of [[Lie integration]] of objects in [[∞-Lie algebra cohomology]]. This construction is the higher analog of the [[Chern-Weil homomorphism]]. Its crucial intermediate step is the definition and construction of _$\infty$-connections_ on [[principal ∞-bundle]]s. 
+
+This model itself is after all built on concrete familiar constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
+
+We start with providing some 
+
+* [Motivation](#Motivation)
+
+for the study of higher Chern-Weil theory. As a warmup for the full theory, we then look at some
+
+* [Preparatory concepts](#PreparatoryConcepts)
+
+which are special cases of the full theory either in low categorical degree or with attention restricted to the $\infty$-Lie algebraic aspects, before integration. Then in 
+
+* [∞-Chern-Weil theory](#ChernWeil)
+
+we discuss the general definition of $\infty$-connections and of the Chern-Weil homomorphism and discuss some general properties. Then we turn to discussing
+
+* [Examples](#Examples)
 
 ## Motivation {#Motivation}
 
@@ -43,7 +61,7 @@ The central motivation for the study of a higher generalization of ordinary [[Ch
 
 ### Fractional differential classes
 
-Since $\infty$-Chern Weil theory handles [[characteristic class]]es on [[classifying space]]s more general than $\mathcal{B}G$ for $G$ an ordinary [[Lie group]], it handles refinements even of characteristic classes, before even passing to their differential refinement. We give some examples of such _fractional characteristic classes_ .
+Since $\infty$-Chern Weil theory handles [[characteristic class]]es on [[classifying space]]s more general than $\mathcal{B}G$ for $G$ an ordinary [[Lie group]], it is concerned with refinements of characteristic classes, even before passing to their differential refinement. We give some examples of such _fractional characteristic classes_ .
 
 It is a familiar classical fact that the first [[Pontryagin class]] 
 
@@ -52,7 +70,7 @@ $$
   \,,
 $$
 
-which represents the generator of the fourth [[integral cohomology]] of the [[classifying space]] $B SO$ of the [[special orthogonal group]] allows a division by 2 when pulled back one step along the [[Whitehead tower]], in that there is a [[commuting diagram]]
+which represents the generator of the fourth [[integral cohomology]] of the [[classifying space]] $\mathcal{B} SO$ of the [[special orthogonal group]] allows a division by 2 when pulled back one step along the [[Whitehead tower]] to the classifying space of the [[spin group]], in that there is a [[commuting diagram]]
 
 $$
   \array{
@@ -65,7 +83,7 @@ $$
   \,,
 $$
 
-where the top horizonal morphism represents the generator of the 4th integral cohomology of the classifying space of the [[spin group]] and the right vertical morphism is induced by multiplication by 2 on the additive group of [[integer]]s.
+where the top horizonal morphism represents a generator of the 4th integral cohomology of the classifying space of the [[spin group]] and the right vertical morphism is induced by multiplication by 2 on the additive group of [[integer]]s.
 
 This means that for $X$ [[manifold]] with [[spin structure]] exhibited by a classifying map $\hat g$
 
@@ -79,7 +97,7 @@ $$
   }
 $$
 
-of its [[tangent bundle]] $T X$, the characteristc class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $t X$ regarded as an $SO$-[[associated bundle]] contains less information then the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vanishes, while the latter need not.
+of its [[tangent bundle]] $T X$, the characteristc class $p_1(T X) : X \stackrel{g}{\to} \mathcal{B}SO \stackrel{p_1}{\to} \mathcal{B}^4 \mathbb{Z}$ of $T X$ regarded as an $SO$-[[associated bundle]] contains less information than the class $\frac{1}{2}p_1(T X) : X \stackrel{\hat g}{\to} \mathcal{B}Spin \stackrel{\frac{1}{2}p_1}{\to} \mathcal{B}^4 \mathbb{Z}$. For instance if the 4th cohomology of $X$ happens to be 2-[[torsion]], the former class entirely vanishes, while the latter need not.
 
 This familiar situation poses no problem to classical [[Chern-Weil theory]], because both the [[special orthogonal group]] as well as the [[spin group]] of course have canonical structures of [[Lie group]]s, so that the [[Chern-Weil homomorphism]] may be applied to either.
 
@@ -96,41 +114,42 @@ $$
   \,,
 $$
 
-As before, this means that if a space $X$ admits a [[string structure]], then the characteristic class $p_2(X)$ contains much less information then the fractional refinement $\frac{1}{6}p_2(X)$ that it admits. In particular, the former may vanish if for the degree 8 cohomology group of $X$ has 6-[[torsion]], while the latter need not vanish.
+As before, this means that if a space $X$ admits a [[string structure]], then the characteristic class $p_2(X)$ contains less information than the fractional refinement $\frac{1}{6}p_2(X)$ that it admits. In particular, the former may vanish if for the degree 8 cohomology group of $X$ has 6-[[torsion]], while the latter need not vanish.
 
-For purposes of ordinary cohomology this is no problem, but for the differential refinement by ordinary [[Chern-Weil theory]] it is: the [[string group]] does not admit a [[Lie group]] structure (not a finite dimensional one at least, and an infinite dimensional one is not known) and hence standard [[Chern-Weil theory]] cannot produce the differential refinement of the fractional class $\frac{1}{6}p_2$.
+For purposes of ordinary cohomology this is no problem, but for the differential refinement by ordinary [[Chern-Weil theory]] it is: the [[string group]] does not admit a [[Lie group]] structure (necessarily not a finite dimensional one, and an infinite dimensional one is not known) and hence standard [[Chern-Weil theory]] cannot produce the differential refinement of the fractional class $\frac{1}{6}p_2$.
 
-But $\infty$-Chern-Weil theory can: there is a natural smooth refinement of the [[string group]] to a [[Lie 2-group]]: the [[string 2-group]]. We write $\mathbf{B}String$ for the corresponding [[delooping]] [[∞-Lie groupoid]]. And the fractional second Pontryagin class does refine to a [[characteristic class]]
-
-$$
-  \frac{1}{6} : \mathbf{B}String \to \mathbf{B}^7 U(1)
-$$
-
-in $\mathbf{H} = $ [[?LieGrpd]]. And there we do have a differential refinement
+But $\infty$-Chern-Weil theory can: there is a natural smooth refinement of the [[string group]] to a [[Lie 2-group]]: the [[string 2-group]]. We write $\mathbf{B}String$ for the corresponding [[delooping]] [[∞-Lie groupoid]]. The fractional second Pontryagin class does lift to this smooth refinement to produce a [[characteristic class]]
 
 $$
-  \frac{1}{6}\hat p_2 : \mathbf{H}_{conn}(-, \mathbf{B}String)
+  \frac{1}{6}\mathbf{p}_2 : \mathbf{B}String \to \mathbf{B}^7 U(1)
+$$
+
+internal to $\mathbf{H} = $ [[?LieGrpd]]. Since this now lives in a smooth context, it does now have a differential Chern-Weil refinement
+
+$$
+  \frac{1}{6}\hat \mathbf{p}_2 : \mathbf{H}_{conn}(-, \mathbf{B}String)
   \to 
   \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
 $$
 
-of this class to one with values in [[ordinary differential cohomology]]. 
+that takes $String$-[[principal 2-bundle]]s with 2-connection to degree 8-cocycles in [[ordinary differential cohomology]]. 
 
 This kind of refinement we discuss in a bit more detail in the next section.
 
 ### Higher differential string structures
 
-The need to consider this refined invariant arose in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSI</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and [[ordinary differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ . This is a natural object in higher Chern-Weil theory.
+The need to consider these refined differential invariants of fractional characteristic classes arose in the study of the [[differential cohomology]] of [[string theory]] backgrounds induced by [[quantum anomaly]]-cancellation: the [differential string- and fivebrane structures](#DiffStringStruc) which one encounters there as refining the ordinary [[string structure]]s and [[fivebrane structure]]s are the first steps of the extension from ordinary to higher Chern-Weil theory. For example the differential form data of a twisted differential string structure constitutes (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>) what in the string theory literature is called the [[Green-Schwarz mechanism]]. While this still can and has been captured with tools of ordinary Chern-Weil theory and [[ordinary differential cohomology]], its natural simple formulation is only in higher Chern-Weil theory. Going beyond that, the magnetic dual Green-Schwarz mechanism can be seen to encode a _twisted differential fivebrane structure_ and this is not practical to be studied without some higher geometry.
 
-The following restates this in more technical detail.
+ 
+The following restates this in a bit more technical detail.
 
-For $G = Spin$ the [[spin group]], the first nontrivial [[characteristic class]] is the first fractional [[Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B}G \to K(\mathbb{Z}, 4)$ being a cocycle in ordinary [[integral cohomology]] $H^4(\mathcal{B}Spin, \mathbb{Z})$. This induces a map
+For $G = Spin$ the [[spin group]], the first nontrivial [[characteristic class]] is the first fractional [[Pontryagin class]] given by a [[cocycle]] $\frac{1}{2}p_1 : \mathcal{B}G \to K(\mathbb{Z}, 4)$ in ordinary [[integral cohomology]] $H^4(\mathcal{B}Spin, \mathbb{Z})$. This induces a map
 
 $$
   H^1(X, Spin) = H(X, \mathcal{B}Spin) \to H^4(X, \mathbb{Z})
 $$
 
-from isomorphism classes of topological $Spin$-principal bundles to 4th integral cohomology.
+from isomorphism classes of topological $Spin$-[[principal bundle]]s to degree 4 integral cohomology.
 
 If we assume that $X$ is a [[smooth manifold]] then we may consider the set
 
@@ -138,29 +157,35 @@ $$
 Spin Bund(X)/ \sim = H(X,\mathbf{B}Spin)
 $$
 
-of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to [[ordinary differential cohomology]] $H_{diff}^4(X)$
+of [[isomorphism]]-classes of _smooth_ $Spin$-[[principal bundle]]s. Here and in all of the following, the boldface "$\mathbf{B}G$" indicates a refinement, here of the bare classifying space $\mathcal{B}G$ to a smooth incarnation.
+
+Then ordinary [[Chern-Weil theory]] provides a refinement of the fractional Pontryagin class $H(X, \mathbf{B}Spin) \to H^4(X,\mathbb{Z})$ to a map to [[ordinary differential cohomology]] $H_{diff}^4(X)$
 
 $$
   \frac{1}{2} \hat p_1 : H(X, \mathbf{B}Spin) \to H_{diff}^4(X)
   \,.
 $$
 
-The first point of passing to a [[higher category theory]]-refinement of this situation is that it allows to refine, in turn, these morphism of cohomology _sets_ to morphism
+The first point of passing to a [[higher category theory]]-refinement of this situation is that it allows to refine, in turn, these morphisms of cohomology _sets_ to morphisms
 
 $$
-  \frac{1}{2} p_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
+  \frac{1}{2} \mathbf{p}_1 : \mathbf{H}(X, \mathbf{B}Spin) \to \mathbf{H}(X,\mathbf{B}^3 U(1))
 $$
 
 and
 
 $$
-  \frac{1}{2} \hat p_1 : \mathbf{H}_{conn}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
+  \frac{1}{2} \hat \mathbf{p}_1 : \mathbf{H}_{conn}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
 
-of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth homomorphisms between these. Similarly $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[n-groupoid|4-groupoid]] whose objects are smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>-[[principal ∞-bundles|principal 3-bundles]], while $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ is accordingly the [[n-groupoid|4-groupoid]] whose objects are  [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are homomorphisms between these, whose 2-morphisms are higher homotopies between those, and to forth. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components.
+of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth homomorphisms between these. Similarly $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[3-groupoid] whose objects are smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>-[[principal ∞-bundles|principal 3-bundles]], while $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ is accordingly the [[3-groupoid]] whose objects are  [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are homomorphisms between these, whose 2-morphisms are higher homotopies between those. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components:
 
-The additional information provided by this in particular allows to form the [[homotopy fiber]] of the refined characteristic class $\frac{1}{2} \hat p_1$. 
-To see the relevance of this, recall (from [[string structure]]) that the [[homotopy fiber]] of the unrefined fractional Pontryagin class, i.e. the [[(∞,1)-pullback]]
+$$
+  \frac{1}{2}p_1 = \pi_0(\frac{1}{2}\mathbf{p}_1)
+  \,.
+$$
+
+This refinement to cocylce $\infty$-groupoids notably has the consequence that it allows us to produce the [[homotopy fiber]]s of these morphisms.  To see the relevance of this, recall (from _[[string structure]]_ ) that the [[homotopy fiber]] of the not differentially refined fractional Pontryagin class, whis is the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -169,14 +194,15 @@ $$
      \downarrow &\swArrow_\simeq& \downarrow
      \\
      \mathbf{H}(X,\mathbf{B}G) 
-     &\stackrel{\frac{1}{2} p_1}{\to}&
+     &\stackrel{\frac{1}{2} \mathbf{p}_1}{\to}&
      \mathbf{H}(X, \mathbf{B}^3 U(1))
   }
+  \,,
 $$
 
-defines the $\infty$-groupoid $\mathbf{H}(X, \mathbf{B}String)$ of [[string structure]]s on $X$ (smooth, but not "differential").
+defines the $\infty$-groupoid $\mathbf{H}(X, \mathbf{B}String)$ of [[string structure]]s on $X$ ( _smooth_ , but not _differential_ ).
 
-Accordingly, the [[∞-groupoid]] $String_{diff}(X)$ obtained this way as homotopy fiber of the differentially refined class, i.e. as the [[(∞,1)-pullback]]
+We can now replace in the the class $\frac{1}{2}\mathbf{p}_1$ by its differential refinement $\frac{1}{2}\hat \mathbf{p}_1$ and obtain an [[∞-groupoid]] $String_{diff}(X)$ that differentially refines the 2-groupoid $\mathbf{H}(X,\mathbf{B}String)$ of String-structures as the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -184,40 +210,39 @@ $$
      \\
      \downarrow &\swArrow_\simeq& \downarrow
      \\
-     \mathbf{H}(X,\mathbf{B}G) 
-     &\stackrel{\frac{1}{2}\hat p_1}{\to}&
+     \mathbf{H}_{conn}(X,\mathbf{B}G) 
+     &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
      \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))
   }
+  \,.
 $$
 
-may be identified as the $\infty$-groupoid of _differential string-structures_ . A cocycle in there is naturally identified with a tuple consisting of
+This $String_{diff}(X)$ we may callthe $\infty$-groupoid of _differential string-structures_ . A cocycle in there is naturally identified with a tuple consisting of
 
-* a smooth $Spin$-[[principal bundle]] $P \to X$;
-
-* with [[connection on a bundle|connection]] $\nabla$
+* a smooth $Spin$-[[principal bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$;
 
 * the [[Chern-Simons 2-gerbe]] with connection $CS(\nabla)$ induced by this;
 
 * a choice of trivialization of this Chern-Simons 2-gerbe -- this is the [[homotopy]] [[2-morphism]] in the middle of the above pullback diagram.
 
-We may think of this as a refinement of [[secondary characteristic class]]es: the curvature form itself vanishes and so the [[Chern-Simons form]]-connection itself constitutes cohomological data.
+We may think of this as a refinement of [[secondary characteristic class]]es: the first Pontryagin [[curvature characteristic form]] $\langle F_\nabla \wedge F_\nabla \rangle$ itself is constrained to vanish, and so the [[Chern-Simons form]] 3-connection itself constitutes cohomological data.
 
-So far this uses mostly just a bit of [[(∞,1)-category theory]] or at least some [[homotopy theory]]. The first glimpse of something beyond ordinary [[Chern-Weil theory]] appearing is the $\infty$-groupoid $\mathbf{H}(X,\mathbf{B}String)$ which may be thought of as the [[3-groupoid]] of _smooth_ [[string 2-group]]-[[principal 2-bundle]]s.
+So far this uses mostly just a little bit of [[(∞,1)-category theory]] or at least some [[homotopy theory]]. The first glimpse of something beyond ordinary [[Chern-Weil theory]] appearing is the $\infty$-groupoid $\mathbf{H}(X,\mathbf{B}String)$ which may be thought of as the [[2-groupoid]] of _smooth_ [[string 2-group]]-[[principal 2-bundle]]s.
 
 But suppose we fix an $X$ such that $H(X, \mathbf{B}String)$ is nontrivial. Then we can continue the procees to higher degrees:
 
-the next topological characteristic class is the second fractional [[Pontryagin class]] $\frac{1}{6}p_2 : \mathcal{B}String \to \mathcal{B}^7 U(1)$. Since the [[string group]] does not have the structure of a [[Lie group]], this cannot be refined to [[differential cohomology]] using ordinaty [[Chern-Weil theory]]. However, in terms of $\infty$-Chern-Weil theory it can:
+the next topological characteristic class is the second fractional [[Pontryagin class]] $\frac{1}{6}p_2 : \mathcal{B}String \to \mathcal{B}^7 U(1)$. Since the [[string group]] does not have the structure of a [[Lie group]], this cannot be refined to [[differential cohomology]] using ordinary [[Chern-Weil theory]]. However, in terms of $\infty$-Chern-Weil theory it can:
 
-we may obtain a refinement
+we may obtain a smooth refinement
 
 $$
-  \frac{1}{6}\hat p_2 : \mathbf{H}_{conn}(-\mathbf{B}String) \to 
+  \frac{1}{6}\hat \mathbf{p}_2 : \mathbf{H}_{conn}(-\mathbf{B}String) \to 
   \mathbf{H}_{diff}(X,\mathbf{B}^7 U(1))
 $$
 
-that maps smooth [[string 2-group]]-[[principal 2-bundle]]s to their [Chern-Simons circle 7-bundle with connection](#FivebraneStructure). This is an example of the higher version of the [[Chern-Weil homomorphism]]. 
+that maps smooth [[string 2-group]]-[[principal 2-bundle]]s with 2-connectins to their [Chern-Simons circle 7-bundle with connection](#FivebraneStructure). This is an example of the higher version of the [[Chern-Weil homomorphism]]. 
 
-And naturally we are then entitled to form its [[homotopy fiber]]s and produce the [[n-groupoid|8-groupoid]] of differential fivebrane structures $Fivebrane_{diff}(X)$. For that recall again from [[fivebrane structure]] that the homotopy fiber of the bare cocycles
+And naturally we are then entitled to form its [[homotopy fiber]]s and produce the [[n-groupoid|7-groupoid]] of _[differential fivebrane structures](#DiffFivebraneStrucs)_ -- $Fivebrane_{diff}(X)$. For that recall again from [[fivebrane structure]] that the homotopy fiber of the smooth but non-differential cocycles
 
 $$
   \array{
@@ -226,12 +251,12 @@ $$
     \downarrow &\swArrow_{\simeq}& \downarrow+
     \\
     \mathbf{H}(X, \mathbf{B}String) 
-    &\stackrel{\frac{1}{6}p_2}{\to}&
+    &\stackrel{\frac{1}{6}\mathbf{p}_2}{\to}&
     \mathbf{H}(X, \mathbf{B}^7 U(1))
   }
 $$
 
-is the [[n-groupoid|8-groupoid]] of smooth [[fivebrane structure]]s on $X$. Its differential refinement
+is the [[n-groupoid|7-groupoid]] of smooth [[fivebrane structure]]s on $X$. Its differential refinement
 
 $$
   \array{
@@ -240,36 +265,36 @@ $$
     \downarrow &\swArrow_{\simeq}& \downarrow+
     \\
     \mathbf{H}_{conn}(X, \mathbf{B}String) 
-    &\stackrel{\frac{1}{6}\hat \hat p_2}{\to}&
+    &\stackrel{\frac{1}{6}\hat \mathbf{p}_2}{\to}&
     \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))
   }
 $$
 
-is the 8-groupoid $Fivebrane_{diff}(X)$ of _differential fivebrane structures_ . Cocycles in here are naturally identified with tuples of
+we may therefore call the 7-groupoid $Fivebrane_{diff}(X)$ of _differential fivebrane structures_ . Cocycles in here are naturally identified with tuples of
 
-* a $String$-[[principal 2-bundle]] $P \to X$;
+* a $String$-[[principal 2-bundle]] $P \to X$, equipped with a [2-connection](#InfinityLieAlgebraConnection) $\nabla$;
 
-* equipped with a [2-connection](#InfinityLieAlgebraConnection) $\nabla$;
-
-* the Chern-Simons circle 7-bundle $CS_7(\nabla)$ with connection induced by it;
+* the Chern-Simons [[circle n-bundle with connection|circle 7-bundle]] $CS_7(\nabla)$ with connection induced by it;
 
 * a choice of trivialization of $CS_7(\nabla)$.
 
-These are the kinds of structures that naturally live in $\infty$-Chern-Weil theory. And this is only the second step in the [[Whitehead tower]] of the [[orthogonal group]]. There is an infinite tower of differential $(4k+1)$-brane structures above this, whose cocycles are given by $\infty$-connections on [[principal ∞-bundle]]s and their corresponding Chern-Simons circle $n$-bundles with connection. 
+These are the kinds of structures that naturally live in $\infty$-Chern-Weil theory. And this is only the second step in the [[Whitehead tower]] of the [[orthogonal group]]. There is an infinite tower of differential $(4k+1)$-brane structures above this, whose cocycles are given by $\infty$-connections on principal $\infty$-bundles and their corresponding Chern-Simons circle $n$-bundles with connection. 
 
 These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
 
-## Preparatory concepts
+## Preparatory concepts {#PreparatoryConcepts}
 
 
-General $\infty$-Chern-Weil theory, as described below, is naturally formulated in the context of [[(infintiy,1)-topos theory]] and some of its aspects can only be understood from that perspective.
+General $\infty$-Chern-Weil theory, as described below, is naturally formulated in the context of [[(infinity,1)-topos]]-theory and some of its aspects can only be understood from that perspective.
 
 However, unwinding the abstract higher topos theoretic concepts in terms of 1-categoriecal models yields concrete structures in familiar contexts of [[differential geometry]] that connect to various classical and familiar concepts. Since a full appreciation of the abstract formulation benefits from having a feeling for how these concrete models work out, the reader may at this point wish to look into some such basic aspects. These may be found behind the following link
 
-* [[infinity-Chern-Weil theory -- preperatory concepts]].
+* [[infinity-Chern-Weil theory -- preparatory concepts]].
 
+Then in 
 
+* [](#ChernWeil)
 
 
 
@@ -995,7 +1020,7 @@ defines a closed 8-form on $X$. This is the curvature characeristic form given b
 
 
 
-## Examples
+## Examples {#Examples}
 
 
 ### Principal 1-bundles with connection
@@ -1604,7 +1629,7 @@ The discussion is entirely analogous to the discussion of the differential refin
 
 (...)
 
-#### Differential fivebrane structures
+#### Differential fivebrane structures {#DiffFivebraneStrucs}
 
 Let 
 
