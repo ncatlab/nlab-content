@@ -292,10 +292,6 @@ However, unwinding the abstract higher topos theoretic concepts in terms of 1-ca
 
 * [[infinity-Chern-Weil theory -- preparatory concepts]].
 
-Then in 
-
-* [](#ChernWeil)
-
 
 
 ## $\infty$-Chern-Weil theory {#ChernWeil}
