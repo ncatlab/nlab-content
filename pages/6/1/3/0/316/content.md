@@ -6,19 +6,18 @@
 </div>
 
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
 
 ## Idea
 
-In [[category theory]] a _cone_ over a [[commuting diagram]] is an [[object]] equipped with [[morphism]]s from it into each vertex of the diagram, such that all new diagrams arising this way commute.
+In [[category theory]], a _cone_ over a [[diagram]] $F\colon J \to C$ is an [[object]] $c$ in $C$ equipped with a [[morphism]] from $C$ to each vertex of $F$, such that every *new* triangle arising in this way [[commutative triangle|commutes]].
 
 A cone which is [[universal property|universal]] is a [[limit]].
 
-The dual notion is _[[cocone]]_ .
+The dual notion is _[[cocone]]_, where $c$ is equipped with a morphism *to* $c$ *from* each vertex of $F$ (but $c$ itself still belongs to $C$).
 
 This definition generalizes to [[higher category theory]]. In particular in [[(∞,1)-category theory]] a cone over an [[∞-groupoid]] is essentially a cone in the sense of [[homotopy theory]].
 
