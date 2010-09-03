@@ -1,9 +1,18 @@
 
 
-+-- {: .rightHandSide .toc .dropDown}
-[[!include infinity-Lie theory - contents]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
 =--
-
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
 
 
 #Contents#
