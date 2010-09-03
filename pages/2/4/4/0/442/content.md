@@ -5,19 +5,55 @@
 
 ## Idea
 
-The notion of _Lawvere theory_ is a joint generalization of the notionss of [[group]], [[ring]], [[associative algebra]], etc. 
+The notion of _Lawvere theory_ is a joint generalization of the notions of [[group]], [[ring]], [[associative algebra]], etc. 
 
 In his 1963 doctoral dissertation, Bill Lawvere introduced a new categorical method for doing [[universal algebra]], alternative to the usual way of presenting an algebraic concept by means of its logical [[signature (in logic)|signature]] (with generating operations satisfying equational axioms). The rough idea is to define an [[algebraic theory]] as a [[category]] with finite [[product]]s and possessing a "generic algebra" (e.g., a generic [[group]]), and then define a [[model]] of that [[theory]] (e.g., a group) as a product-preserving [[functor]] out of that [[category]]. This type of category is what is nowadays called a _Lawvere algebraic theory_, or just Lawvere theory. 
 
 
 ## Definition
 
-A **Lawvere [[theory]]** or **finite-product theory** is (equivalently enoded by its [[syntactic category]] which is) a [[category]] $T$ with finite cartesian [[product|products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). 
++-- {: .un_defn}
+###### Definition
 
-A _morphism_ of theories $T \to T'$ is a product-preserving functor. 
+A **Lawvere [[theory]]** or **finite-product theory** is (equivalently enoded by its [[syntactic category]] which is) a [[category]] $T$ with finite [[products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n = x \times x \times \cdots \times x$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). 
 
-A **[[model]]** of $T$ -- an **[[algebra over a Lawvere theory|algebra over the Lawvere theory]]** or simply **$T$-algebra** -- is a product-preserving [[functor]] $T \to Set$, and _homomorphism of $T$-algebras_ is a [[natural transformation]] between such functors. 
+A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[functor]]. 
 
+=--
+
++-- {: .un_remark}
+###### Remark
+
+For $T$ a Lawvere theory, we are to think of the [[hom-set]] $T(n,1)$ as the set of $n$-ary operations defined by the theory. For instance for $T$ the theory of [[abelian group]]s, we have $T(2,1) = \{+,-\}$ and also $T(0,1) = \{0\}$. 
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+A **[[model]]** of $T$ -- an **[[algebra over a Lawvere theory|algebra over the Lawvere theory]]** or simply **$T$-algebra** -- is a product-preserving [[functor]] 
+
+$$
+  A : T \to Set
+  \,,
+$$ 
+
+and _homomorphism of $T$-algebras_ is a [[natural transformation]] between such functors. 
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+Such a functor picks a single [[set]] $U(A) := A(1)$ and picks for every $n$-ary abstract operation $\phi \in T(n,1)$ an actual $n$-ary operation on the elements of this set
+
+$$
+  A(\phi) : U(A)^n \to U(A)
+$$
+
+such that these operations are all compatible with each other in the way governed by the composition rules of morphisms in $T$.
+
+=--
 
 
 ### Remarks
