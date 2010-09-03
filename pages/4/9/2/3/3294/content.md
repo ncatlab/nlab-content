@@ -8,7 +8,6 @@
 * table of contents
 {: toc}
 
-
 ## Idea
 
 Fr&#233;chet spaces are particularly well-behaved [[topological vector spaces]] (TVSes).  Every [[Cartesian space]] is a Fr&#233;chet space, but there are also infinite-dimensional examples.  It is possible to do calculus on Fr&#233;chet spaces, yet they are more general than [[Banach spaces]]; as such, they are popular as test spaces for possibly infinite-dimensional [[manifolds]]; see [[Fréchet manifold]].
@@ -40,3 +39,6 @@ The [[Lebesgue space]] $L^p(\mathbb{R})$ is *not* a Fr&#233;chet space, because 
 
 
 [[!redirects Frechet space]]
+[[!redirects Frechet spaces]]
+[[!redirects Fréchet space]]
+[[!redirects Fréchet spaces]]
