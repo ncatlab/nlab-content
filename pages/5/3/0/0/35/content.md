@@ -12,7 +12,7 @@ A _Lie groupoid_ is a [[groupoid]] with smooth structure The notion of Lie group
 
 ## Definition
 
-A Lie groupoid is an [[internal category|internal groupoid]] in [[Diff]]. One can define a Lie groupoid to be an [[Ehresmann internal category|internal groupoid in the sense of Ehresmann]], which includes as data the manifold of composable pairs, or take the conventional route and specify that the source and target maps are [[submersion]]s. This ensures the [[pullback]] exists to define said manifold or composable pairs.
+A Lie groupoid is an [[internal category|internal groupoid]] in [[Diff]]. One can define a Lie groupoid to be an [[Ehresmann internal category|internal groupoid in the sense of Ehresmann]], which includes as data the manifold of [[composable pairs]], or take the conventional route and specify that the source and target maps are [[submersion]]s. This ensures the [[pullback]] exists to define said manifold or composable pairs.
 
 Note that originally Lie groupoids were called _differentiable groupoids_ (and also one considered differentiable _categories_). Sometime in the 1980s there was a change of terminology. (reference?)
 
