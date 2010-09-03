@@ -4,7 +4,7 @@
 
 ## Definition
 
-The **category algebra** $k[C]$ over a [[ground field]] $k$ of a small [[category]] $C$ is the [[vector space]] whose basis is  the morphisms of $C$, where the product of two morphisms $f$ and $g$ is defined to be their composite if composable, and 0 otherwise:
+The **category algebra** $k[C]$ over a [[ground field]] $k$ of a small [[category]] $C$ is the [[vector space]] whose basis is  the morphisms of $C$, where the product of two morphisms $f$ and $g$ is defined to be their composite if [[composable pair|composable]], and $0$ otherwise:
 $$
   f \cdot g := \left\lbrace
     \array{
