@@ -127,6 +127,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com)
 
+* [Martin's Blog](http://www.martinorr.name/blog) Martin Orr: algebraic geometry especially abelian varieties, Galois representations
+
 * [Math-Blog](http://math-blog.com) (6 people blog: math books, university math, popular math etc.)
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
