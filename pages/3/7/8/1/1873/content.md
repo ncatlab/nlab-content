@@ -6,12 +6,14 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
-#### Differential cohomology
+#### $\infty$-Chern-Weil theory
 +--{: .hide}
-[[!include differential cohomology - contents]]
+[[!include infinity-Chern-Weil theory - contents]]
 =--
 =--
 =--
+
+
 
 * **groupoid of Lie-algebra valued forms**
 
