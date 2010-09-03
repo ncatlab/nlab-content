@@ -246,7 +246,7 @@ This is easy to see in low dimensions:
     \,.
   $$
 
-More in detail, one may think of the incoming two adjacent 1-cells here as _not_ being the composite of these two morphism, but just as a sequence of two composable morphisms, and should think of the existence of the 2-morphism $\phi$ here as being a **compositor** in a [[bicategory]] that shows how the composable pair i composed to the morphism $d_1 \phi$.
+More in detail, one may think of the incoming two adjacent $1$-cells here as _not_ being the composite of these two morphism, but just as a [[composable pair]], and should think of the existence of the 2-morphism $\phi$ here as being a **compositor** in a [[bicategory]] that shows how the composable pair is composed to the morphism $d_1 \phi$.
 
 So if an $\infty$-groupoid is thought of as a [[geometric shapes for higher structures|globular]] [[Batanin ∞-category| ∞-category]] in which all [[k-morphism]]s are invertible, then the corresponding Kan complex is the [[nerve]] or rather the [[∞-nerve]] of this [[∞-category]].
 
