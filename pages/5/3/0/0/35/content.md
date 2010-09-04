@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * autmatic table of contents goes here
@@ -12,9 +19,22 @@ A _Lie groupoid_ is a [[groupoid]] with smooth structure The notion of Lie group
 
 ## Definition
 
-A Lie groupoid is an [[internal category|internal groupoid]] in [[Diff]]. One can define a Lie groupoid to be an [[Ehresmann internal category|internal groupoid in the sense of Ehresmann]], which includes as data the manifold of [[composable pairs]], or take the conventional route and specify that the source and target maps are [[submersion]]s. This ensures the [[pullback]] exists to define said manifold or composable pairs.
+As an _object, a _ _Lie groupoid_ $X$ is understood to be an [[internal category|internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]].
 
-Note that originally Lie groupoids were called _differentiable groupoids_ (and also one considered differentiable _categories_). Sometime in the 1980s there was a change of terminology. (reference?)
+To ensure that this definition makes sense, one needs to ensure that the space $Mor(X) \times_{s,t} Mor(X)$ of composable [[morphism]]s is an object of [[Diff]]. This is achieved either by adopting the definition of [[Ehresmann internal category|internal groupoid in the sense of Ehresmann]], which includes as data the [[smooth manifold]] of [[composable pairs]], or by taking the conventional route and demanding that the source and target maps $s,t : Mor(X) \to Obj(X)$ are [[submersion]]s. This ensures the [[pullback]] exists to define said manifold or composable pairs.
+
+But for most practical purposes, the apparently evident [[2-category]] $Grpd(Diff)$ of such internal groupoids, [[internal functor]]s and internal [[natural transformation]]s is _not_ the correct 2-category to consider. One way to see this is that the [[axiom of choice]] fails in [[Diff]], which means that an internal functor $X \to Y$ of internal groupoids which is [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]] may nevertheless not be an equivalence, in that it may not have a weak inverse in $Grpd(Diff)$.
+
+See the section [2-Category of Lie groupoids](#2CatOfGrpds) below.
+
+
+
+
+### Terminology
+
+Originally Lie groupoids were called (by Ehresmann) _differentiable groupoids_ (and also one considered differentiable _categories_). Sometime in the 1980s there was a change of terminology to _Lie groupoid_ and [[differentiable stack]]s. (reference?)
+
+
 
 ### Specialisations
 
@@ -30,7 +50,7 @@ Clearly for a Lie groupoid $X_1^{iso} = X_1$. It is simple to show from the defi
 ### The (2,1)-category of Lie groupoids {#2CatOfGrpds}
 
 
-As usual for internal categories, the naive 2-category of internal groupoids, internal [[functor]]s and internal [[natural transformation]]s is not quite "correct". One sign of this is that the [[axiom of choice]] fails in [[Diff]] so that an internal functor which is an [[essentially surjective functor]] and a [[full and faithful functor]] may still not have an internal weak inverse.
+As usual for internal categories, the naive 2-category of internal groupoids, [[internal functor]]s and internal [[natural transformation]]s is not quite "correct". One sign of this is that the [[axiom of choice]] fails in [[Diff]] so that an internal functor which is an [[essentially surjective functor]] and a [[full and faithful functor]] may still not have an internal weak inverse.
 
 One way to deal with this is to equip the 2-category with some structure of a [[homotopical category]] and allow morphisms of Lie groupoids to be [[anafunctor|2-anafunctor]]s, i.e. [[span]]s of internal functors $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$.
 
@@ -56,11 +76,23 @@ See
 
 * [[∞-Lie groupoid]]
 
+## Examples
+
+* For every [[Lie group]] $G$ the one-object [[delooping]] groupoid $\mathbf{B}G$ is a Lie groupoid.
+
+  The Lie group itself is a 0-[[truncated]] [[group object]] in the 2-category or Lie groupoids.
+
+* For every $G$-[[principal bundle]] $P \to X$ there is its [[Atiyah Lie groupoid]] $At(P)$.
+
+* The [[fundamental groupoid]] $\Pi_1(X)$ of a smooth manifold is naturally a Lie groupoid.
+
+* The [[path groupoid]] of a smooth manifold is naturally a groupoid internal to [[diffeological space]]s (a "diffeological groupoid").
+
 ## References
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
 
-* [[Charles Ehresmann]], _Cat&#233;gories topologiques et cat&#233;gories diff&#233;rentiables_ Colloque de G&eacute;ometrie Differentielle Globale (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
+* [[Charles Ehresmann]], _Cat&#233;gories topologiques et cat&#233;gories diff&#233;rentiables_ Colloque de G&#233;ometrie Differentielle Globale (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
 
 Reviews and developments of the theory of Lie groupoids include
 
