@@ -36,7 +36,7 @@ Consider first the construction of internal conjunction $\wedge: \Omega \times \
 
 ### Colimits of nerves 
 
-A [question](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1284) was brought to the nForum on [[colimit]]s of [[nerve]]s, conjecturing the following which we state as a proposition (proof below): 
+A [question](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1284) was brought to the nForum on [[colimit]]s of [[nerve]]s, conjecturing the following which we state as a proposition (proof below): 
 
 +-- {: .un_prop}
 ###### Proposition
