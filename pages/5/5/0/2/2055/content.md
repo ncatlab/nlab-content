@@ -53,7 +53,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/) and [daughters](http://stackexchange.com) of &lt;http://area51.stackexchange.com>, including [math.stackexchange](http://math.stackexchange.com) dedicated to lower level math questions ("MathUnderflow") and [tex.stackexchange](http://tex.stackexchange.com) about TeX and LaTeX.
 
-* [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/) For discussions about material (both maths and metas) here on the nLab.
+* [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) For discussions about material (both maths and metas) here on the nLab.
 
 ### Collections
 
