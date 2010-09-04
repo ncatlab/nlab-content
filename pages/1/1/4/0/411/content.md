@@ -51,7 +51,7 @@ of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos
 
 ***
 
-**First list** --- No previous list --- [[2009 January changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+**First list** --- No previous list --- [[2009 January changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 ***
 
