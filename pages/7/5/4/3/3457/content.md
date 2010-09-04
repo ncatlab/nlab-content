@@ -9,7 +9,7 @@ Zoran: I do not understand this statement. Analytic spaces have a different stru
 
 However, the term is also used in a [[duality|dual]] sense in [[ring]] theory:
 
-*  An &#233;tale map between [[commutative rings]] is a ring homomorphism with the property that, when viewed as a morphism between [[affine schemes]], it is &#233;tale.  See [this comment by Harry Gindi](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=716&page=1#Item_25) for a purely ring-theoretic characterisation.
+*  An &#233;tale map between [[commutative rings]] is a ring homomorphism with the property that, when viewed as a morphism between [[affine schemes]], it is &#233;tale.  See [this comment by Harry Gindi](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=716&page=1#Item_25) for a purely ring-theoretic characterisation.
 
    Zoran: that is the infinitesimal lifting property for smooth morphisms, need an additional condition in general. 
 
