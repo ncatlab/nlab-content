@@ -11,5 +11,15 @@ A subset of a singleton is called a _[[subsingleton]]_.
 Everything above can be generalised from the [[Set|category of sets]] to any [[topos]].
 
 
+[[!redirects singleton]]
+[[!redirects singletons]]
+
 [[!redirects singleton set]]
+[[!redirects singleton sets]]
+[[!redirects one-element set]]
+[[!redirects one-element sets]]
+[[!redirects 1-element set]]
+[[!redirects 1-element sets]]
+
 [[!redirects singleton subset]]
+[[!redirects singleton subsets]]
