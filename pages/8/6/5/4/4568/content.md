@@ -39,7 +39,7 @@ A __finitary Lawvere theory__ is a locally small pointed category $(\mathcal{D},
 
 [Freyd and Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html) have shown that a category $\mathcal{D}$ is [[small category|small]] if and only if both $\mathcal{D}$ and the [[functor category]] $[\mathcal{D},Set]$ are locally small.  Analogously, it seems that a category $\mathcal{D}$ with products may be given the structure of a many-sorted infinitary Lawvere theory if and only if both $\mathcal{D}$ and $Prod[\mathcal{D},Set]$ (the category of [[product-preserving functor]]s from $\mathcal{D}$ to $Set$, a [[full subcategory]] of $[\mathcal{D},Set]$) are locally small.  In both cases, the 'only if' part is straightfoward, but we haven't yet proved the 'if' part.
 
-See [the n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1673) for more preliminary results.
+See [the n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1673) for more preliminary results.
 
 
 ## Algebraic Categories
