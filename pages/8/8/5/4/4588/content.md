@@ -45,22 +45,11 @@ Ending svg test
 
 auto inserted DBE div
 
-<div class='DBE' markdown='1'
- json='{"id":"NEW","type":"Category","page":"[Rod McGuire]"}'>
- <div><span>{"id":"NEW","type":"Category","page":"[[Rod McGuire]]"}</span></div>
- <div markdown='1'><span>$NEW$ Category</span></div>
- <table><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
- <span class='DBE'/>
-</div>
+undefined
 
 and another one
 
-<div class='DBE' markdown='1'
- json='{"id":"NEWNEW","type":"Category","page":"[[Rod McGuire]]"}'>
- <div markdown='1'>$NEWNEW$ Category</div>
- <table markdown='1'><tr><td>id</td><td>NEWNEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
- <span class='DBE'/>
-</div>
+undefined
 
 The above example without the DIV wrapper. Internal DIV 1:
 
@@ -112,5 +101,20 @@ A test to see if LaTex can appear in an internal link:
 Try[[Rod McGuire|$Set_*$]] here.
 
 Try using A tag with markdown=1: <a markdown='1' href="/nlab/show/Rod+McGuire">$Set_*$</a>. OK?
+
+
+<div class='DBE' markdown='1'
+ id='%7B%22id%22%3A%22NEWone%22%2C%22type%22%3A%22Category%22%2C%22page%22%3A%22%5B%5BRod%20McGuire%5D%5D%22%7D'
+ json='{"id":"NEWone","type":"Category","page":"[[Rod McGuire]]"}'>
+<table markdown="1"><tr><td>id</td><td>NEWone</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
+ <span class='DBE'/>
+</div>
+
+<div class='DBE' markdown='1'
+ id='%7B%22id%22%3A%22NEWtwo%22%2C%22type%22%3A%22Category%22%2C%22page%22%3A%22%5B%5BRod%20McGuire%5D%5D%22%7D'
+ json='{"id":"NEWtwo","type":"Category","page":"[[Rod McGuire]]"}'>
+<table markdown="1"><tr><td>id</td><td>NEWtwo</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
+ <span class='DBE'/>
+</div>
 
 category: people
