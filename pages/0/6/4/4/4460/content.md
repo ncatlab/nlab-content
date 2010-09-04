@@ -22,7 +22,7 @@ Sibirsk. Mat. &#381;. __3__ 1962, 292--296, [MR0183753](http://www.ams.org/maths
 
 * L. A. Bokut', _Unsolvability of the word problem and subalgebras of finitely presented Lie algebras_, Izv. Akad. Nauk S.S.S.R. Ser. Mat. __36__ (1972), 1173-1219 (Russian).
 
-See [[zoranskoda:diamond lemma]] and the discussion starting [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1538&Focus=13776#Comment_13776).
+See [[zoranskoda:diamond lemma]] and the discussion starting [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1538&Focus=13776#Comment_13776).
 
 * L. A. Bokut, Y. Fong, W-F. Ke, _Composition-diamond lemma for associative conformal algebras_, J. Algebra __272__  (2004),  no. 2, 739--774.
 
