@@ -2,9 +2,9 @@
 [[!include all changes]]
 </div>
 
-The **[new version of latest changes at the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)** has gone live.
+The **[new version of latest changes at the Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)** has gone live.
 
-The instructions are at [this Forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=98), where you can also ask questions if you have any.
+The instructions are at [this Forum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=98), where you can also ask questions if you have any.
 
 The announcement of the change and the reasons for it have been [archived](http://ncatlab.org/nlab/revision/2009+September+changes/397).
 
@@ -16,7 +16,7 @@ The announcement of the change and the reasons for it have been [archived](http:
 
 ***
 
-[[2008 changes|First list]] --- [[2009 September changes|Previous list]] --- No next list --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+[[2008 changes|First list]] --- [[2009 September changes|Previous list]] --- No next list --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 
 ***
