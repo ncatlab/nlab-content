@@ -16,7 +16,7 @@
 
 ## Idea 
 
-A _path $n$-groupoid_  $P_n(X)$ of a smooth space (or [[generalized smooth space]]) $X$ is 
+A _path $n$-groupoid_  $P_n(X)$ of a smooth space (or [[generalized smooth space]]) $X$ is a [[diffeological n-groupoid]] which is
 
 * a generalization of the [[path groupoid]] to higher categorical dimension 
 
