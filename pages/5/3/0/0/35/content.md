@@ -114,7 +114,7 @@ See
     }
   $$
 
-  is a Lie groupoid equivalent to this pricipal bundle $P$.
+  is a Lie groupoid equivalent to this principal bundle $P$.
 
   (For more on the general phenomenon of which this is a special case see [[principal ∞-bundle]] and [[universal principal ∞-bundle]].)
 
