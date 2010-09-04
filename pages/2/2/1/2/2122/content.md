@@ -1,4 +1,4 @@
-The idea here is to create an enormous list of well-known categories and their properties.  As the list gets large we'll have to figure out a good structure for it, but right now I'll just do a few entries in alphabetical order.  [[Andrew Stacey]] solicits input about making this a real database; see [the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=57).
+The idea here is to create an enormous list of well-known categories and their properties.  As the list gets large we'll have to figure out a good structure for it, but right now I'll just do a few entries in alphabetical order.  [[Andrew Stacey]] solicits input about making this a real database; see [the Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=57).
 
 We can import new entries by looking at [category:category](http://ncatlab.org/nlab/list/category), which should have all articles dedicated to specific categories.
 
