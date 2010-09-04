@@ -18,7 +18,7 @@ A _directed space_ is a [[topological space]] $X$ in which not every singular ce
 
 Is the boundary of a directed $k$-cell a directed $(k-1)$-chain?
 
-[Edit: I've started a thread on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=84). I think we can remove this query box.]
+[Edit: I've started a thread on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=84). I think we can remove this query box.]
 
 [[Urs Schreiber]]: okay, thanks. So that means the above Idea section needs to be improved then!
 
@@ -120,7 +120,7 @@ Further references atre given in [[directed homotopy theory]].
 
 ## Discussion
 
-* See also the discussion at the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=84).
+* See also the discussion at the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=84).
 
 The above defined directed _topological_ spaces. My impression is that [[Eric Forgy|Eric]] was interested in more general concepts. But the above definition has a straightforward generalization away from topological spaces.  The general strategy is really: start with a category with [[interval object]] and consider then the category whose objects are pairs $(X, d X)$ for $X$ an object and $d X$ a subobject of $[I,X]$, and whose morpshism are morphisms $X \to Y$ that take $d X$ to $d Y$.
 
