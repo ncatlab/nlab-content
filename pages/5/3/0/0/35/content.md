@@ -78,17 +78,18 @@ See
 
 ## Examples
 
+* Every [[smooth manifold]] $X$ is a 0-[[truncated]] Lie groupoid.
+
 * For every [[Lie group]] $G$ the one-object [[delooping]] groupoid $\mathbf{B}G$ is a Lie groupoid.
 
-* Every [[Lie 2-group]] is in particular a Lie groupoid: a [[group object]] in the category of Lie groupoids
+* The Lie group $G$ itself is a 0-[[truncated]] [[group object]] in the 2-category or Lie groupoids.
+
+* Every [[Lie 2-group]] is in particular a Lie groupoid: a [[group object]] in the category of Lie groupoids.
 
 * The [[inner automorphism 2-group]] $\mathbf{E}G = INN(G) = G//G$ is a Lie groupoid. There is an obvious morphism $\mathbf{E}G \to \mathbf{B}G$.
 
-  The Lie group itself is a 0-[[truncated]] [[group object]] in the 2-category or Lie groupoids.
-
 * For every $G$-[[principal bundle]] $P \to X$ there is its [[Atiyah Lie groupoid]] $At(P)$.
 
-* Every [[smooth manifold]] $X$ is a 0-[[truncated]] Lie group.
 
 * The [[fundamental groupoid]] $\Pi_1(X)$ of a smooth manifold is naturally a Lie groupoid.
 
