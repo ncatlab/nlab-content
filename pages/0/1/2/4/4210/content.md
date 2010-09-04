@@ -3,7 +3,7 @@
 [[!include monoidal categories - contents]]
 </div>
 
-#Contemts#
+# Spherical categories
 * automatic table of contents goes here
 {:toc}
 
@@ -11,9 +11,10 @@
 
 A _spherical category_ is a  [[monoidal category]] with [[dualizable object|dual]]s that behaves as if its morphisms can be drawn and moved around on a sphere.
 
+
 ## Definition
 
-A **spherical category** is a [[pivotal category]] if the left and right [[trace]] operation on all objects coincide
+A **spherical category** is a [[pivotal category]] where the left and right [[trace]] operations coincide on all objects.
 
 
 ## References
@@ -26,4 +27,6 @@ A review is in section 2.3 of
 
 * [[Michael Müger]], _From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence of tensor categories_ ([arXiv:0111204](http://arxiv.org/abs/math/0111204))
 
+
+[[!redirects spherical category]]
 [[!redirects spherical categories]]
