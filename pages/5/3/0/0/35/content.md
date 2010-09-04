@@ -27,7 +27,7 @@ But for most practical purposes, the apparently evident [[2-category]] $Grpd(Dif
 
 See the section [2-Category of Lie groupoids](#2CatOfGrpds) below.
 
-
+A bit more general than a Lie groupoid is a [[diffeological groupoid]].
 
 
 ### Terminology
@@ -58,7 +58,7 @@ Such generalized morphisms -- called _Morita morphisms_ or _generalized morphism
 
 Another equivalent approach is to embed Lie groupoids into the context of [[2-topos]] theory:
 
-The [[2-topos|(2,1)-topos]] $Sh_{(2,1)}(Diff)$ of [[stack]]s/[[2-sheaves]] on [[Diff]] may be understood as a nice [[2-category]] of general groupoids _modeled on_ [[smooth manifold]]s. The degreewise [[Yoneda embedding]] allows to emebed groupoids internal to $Diff$ into stacks on $Diff$.
+The [[2-topos|(2,1)-topos]] $Sh_{(2,1)}(Diff)$ of [[stack]]s/[[2-sheaves]] on [[Diff]] may be understood as a nice [[2-category]] of general groupoids _modeled on_ [[smooth manifold]]s. The degreewise [[Yoneda embedding]] allows to emebed groupoids internal to $Diff$ into stacks on $Diff$. this wider context contains for instance also [[diffeological groupoid]]s.
 
 Regarded inside this wider context, Lie groupoids are identified with [[differentiable stack]]s. The [[(n,r)-category|(2,1)-category]] of Lie groupoids is then the full sub-$(2,1)$-category of $Sh_{(2,1)}(Diff)$ on differentiable stacks.
 
@@ -92,7 +92,7 @@ See
 
 * The [[fundamental groupoid]] $\Pi_1(X)$ of a smooth manifold is naturally a Lie groupoid.
 
-* The [[path groupoid]] of a smooth manifold is naturally a groupoid internal to [[diffeological space]]s (a "diffeological groupoid").
+* The [[path groupoid]] of a smooth manifold is naturally a [[diffeological groupoid]].
 
 * The [[Cech groupoid]] $C(U)$ of a [[cover]] $\{U_i \to X\}$ of a smooth manifold is a Lie groupoid. 
 
