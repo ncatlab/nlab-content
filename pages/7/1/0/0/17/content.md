@@ -209,7 +209,7 @@ Note that a query block should be less permanent than the rest of the page; once
 
 If you want to ask a question of a specific person, then you can place a query block on their user page (which is just a page whose title is their name). You should be able to find all user pages [here](http://ncatlab.org/nlab/list/people).
 
-If your comment or question is more general than a specific page or person, then try the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Previous discussions have been on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).  These previous discussions should not be added to but you may find your question answered there.  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]].  As this is a Wiki, if you find an answer to your question and feel it should be added to one of those then do so.
+If your comment or question is more general than a specific page or person, then try the [n-Forum](http://n/~stacey/Mathforge/nForum/).  Previous discussions have been on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).  These previous discussions should not be added to but you may find your question answered there.  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]].  As this is a Wiki, if you find an answer to your question and feel it should be added to one of those then do so.
 
 ##How to make a standout box##
 
@@ -228,7 +228,7 @@ First quantization is a mystery, but second quantization is a functor.
 
 ## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
 
-As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
+As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
 
 However, you do not need any password to **see** the stylesheet tweaks on the various webs, so if you see a feature that you would like on one of the other webs (including the main one), then go to the "Edit Web" link at the bottom of that web\'s [[HomePage]] to view the 'Stylesheet tweaks >>'.
 
@@ -319,7 +319,7 @@ It is also important that the section headings not contain anything that shouldn
 
 ## How to draw commutative diagrams and pictures {#diagrams}
 
-The itex syntax accepted by the nlab doesn't understand the syntax of any diagram-drawing package akin to xypic or tikz.  (Many of us would love to improve matters; see the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=2), and chime in if you have any suggestions.)  At present there are basically three ways to make diagrams: hack it together with arrays, include an image file, or include SVG.
+The itex syntax accepted by the nlab doesn't understand the syntax of any diagram-drawing package akin to xypic or tikz.  (Many of us would love to improve matters; see the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=2), and chime in if you have any suggestions.)  At present there are basically three ways to make diagrams: hack it together with arrays, include an image file, or include SVG.
 
 1. _Use arrays or matrices_.  For example,
 
