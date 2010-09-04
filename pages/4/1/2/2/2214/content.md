@@ -4,7 +4,7 @@
 
 Archive of changes made during September 2009.
 The substantive content of this page should **not** be altered.
-The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) and the reasons for it have been [archived](http://ncatlab.org/nlab/revision/2009+September+changes/397).
+The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5) and the reasons for it have been [archived](http://ncatlab.org/nlab/revision/2009+September+changes/397).
 
 ***
 
@@ -196,7 +196,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
   * [[Mike Shulman]]: I guess that would be me.
 
-  * [[Andrew Stacey]]: Great!  I have a [forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=85) for you.  Of course, anyone else interested in using Emacs for editing nLab pages is welcome to join in.
+  * [[Andrew Stacey]]: Great!  I have a [forum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=85) for you.  Of course, anyone else interested in using Emacs for editing nLab pages is welcome to join in.
 
 * [[Ivo]] created [[free groupoid]] and [[Urs Schreiber]] went over it and added links, and typeset math.
 
@@ -248,7 +248,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
 * [[Mike Shulman]]: More at [[SEAR]], including how to eliminate equality entirely, and how to prove the SEAR Collection axiom from ZF.
 
-* [[Urs Schreiber]]: many thanks to [[Jon Awbrey]] for providing help with automatic TOCs. Great that it works now, but why does it? What does that funny "tic" thing achieve? Let's discuss this on the forum -- [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=82&page=1#Item_1) -- and summarize the result at [[HowTo]] eventually 
+* [[Urs Schreiber]]: many thanks to [[Jon Awbrey]] for providing help with automatic TOCs. Great that it works now, but why does it? What does that funny "tic" thing achieve? Let's discuss this on the forum -- [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=82&page=1#Item_1) -- and summarize the result at [[HowTo]] eventually 
 
 *  [[Toby Bartels]]:  Working the foundations at [[SEAR]], [[pure set]], and [[natural numbers in SEAR]].
 
@@ -277,7 +277,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
 * [[Urs Schreiber]] 
 
-  * created [[functorial quantum field theory - contents]] and added it as a floating table of contents to relevant entries -- trusting that the related issues currently [discussed on the forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61&page=1#Item_9) will eventually be solved by CSS means
+  * created [[functorial quantum field theory - contents]] and added it as a floating table of contents to relevant entries -- trusting that the related issues currently [discussed on the forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=61&page=1#Item_9) will eventually be solved by CSS means
 
   * created [[bordism categories following Stolz-Teichner]]
 
@@ -402,7 +402,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
     all still mighty rough, but I think valuable raw material to base further editorial developments on
 
-* [[Andrew Stacey]] I have replied to Zoran's points over on the n-Forum at [this discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) since that seems a better place to have a discussion than here.
+* [[Andrew Stacey]] I have replied to Zoran's points over on the n-Forum at [this discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=64) since that seems a better place to have a discussion than here.
 
 * [[Urs Schreiber]]: 
 
@@ -534,7 +534,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
   * created an entry [[inbound citations]] and linked to it from the main table of contents. Let me know what you think of this suggestion. See also the blog entry on it [here](http://golem.ph.utexas.edu/category/2009/09/inbound_citations.html).
 
-* [[Jon Awbrey]] added a [link to a Forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71) at [[relation theory]].
+* [[Jon Awbrey]] added a [link to a Forum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=71) at [[relation theory]].
 
 * [[Mike Shulman]]: Two questions at [[graph of a functor]].  One of them spills over into [[cograph of a functor]] and [[weak pullback]].
 
@@ -644,9 +644,9 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
 ## 2009-09-11
 
-* [[Andrew Stacey]] there's a [discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) going on at the forum about designing a better system for recording these latest changes.  If you have an opinion, please contribute!  At the moment, it's going on what Toby, Mike, and I think which may not be a representable sample.
+* [[Andrew Stacey]] there's a [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=64) going on at the forum about designing a better system for recording these latest changes.  If you have an opinion, please contribute!  At the moment, it's going on what Toby, Mike, and I think which may not be a representable sample.
 
-   Also, there was a brief glitch in the system that led to entities begin translated into their unicode counterparts (don't worry if that doesn't make sense).  Unfortunately, this wasn't compatible with iTeX and there may be a few 'Unknown character's lurking around.  If you spot one, [let me know](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=65) and I'll go catch it with my butterfly net.  (It's important to let me know rather than just correcting it yourself as it _really_ messes up the `diff`s so I need to fix it properly rather than just papering over the cracks.)
+   Also, there was a brief glitch in the system that led to entities begin translated into their unicode counterparts (don't worry if that doesn't make sense).  Unfortunately, this wasn't compatible with iTeX and there may be a few 'Unknown character's lurking around.  If you spot one, [let me know](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=65) and I'll go catch it with my butterfly net.  (It's important to let me know rather than just correcting it yourself as it _really_ messes up the `diff`s so I need to fix it properly rather than just papering over the cracks.)
 
 *  [[Toby Bartels]]:
    *  A bit at [[lax natural transformation]], which I really only mention since it\'s been discussed so much lately.
@@ -666,7 +666,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
 * [[Zoran ?koda]]: stub [[derivator]] including few lines from [[triangulated category]]; maybe more discussion from there should be moved to [[derivator]] and just left a short notice at triangulated category on derivators (it seems in fact one wanted to talk about _triangulated derivators_!!), because t.cat. are a wide topic and the entry may expand in many different directions, while the motivation and the discussion may be useful at derivator. but have no time to decide and think of what is sensitive. Somebody should copy the axioms from Maltsionitis' notes for derivator.
 
-* [[Jon Awbrey]] began watering his trans-plants at [[cactus language]] --- bit by bit, you have to be very incre-mental with cacti --- and started a [parallel (tangential?) discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=69) at the $n$-forum.
+* [[Jon Awbrey]] began watering his trans-plants at [[cactus language]] --- bit by bit, you have to be very incre-mental with cacti --- and started a [parallel (tangential?) discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=69) at the $n$-forum.
 
 * [[Zoran ?koda]]: additions to [[deformation theory]], [[derived algebraic geometry]]; created [[cotangent complex]].
 
@@ -686,7 +686,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
 * [[Urs Schreiber]] slightly edited [[A Survey of Elliptic Cohomology - formal groups and cohomology]] and added plenty of links 
 
-* [[Toby Bartels]]:  More at [[graph]] and [[center]], since there is no [RSS feed](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64).
+* [[Toby Bartels]]:  More at [[graph]] and [[center]], since there is no [RSS feed](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=64).
 
 * [[Jon Awbrey]] is leaving the fray at _The World According To [[graph|Graph]]_ --- which is clearly becoming more "productive" than "creative" --- and suggests, as an interim measure, that he be allowed to store a few standard definitions at [[graph theory]].
 
@@ -895,7 +895,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Va
 
   * merged the former material at [[∞-topos]] with that at [[higher topos theory]] and expanded and slightly rearranged the latter. 
 
-  * coded the "floating tables of contents" for the topic clusters at [[mathematics]] and [[rational homotopy theory]] according to [[Andrew Stacey]]'s suggestion on the nForum -- see [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61&page=1#Comment_743)
+  * coded the "floating tables of contents" for the topic clusters at [[mathematics]] and [[rational homotopy theory]] according to [[Andrew Stacey]]'s suggestion on the nForum -- see [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=61&page=1#Comment_743)
 
 * [[Rafael Borowiecki]]:
 
@@ -1003,7 +1003,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
 * [[Zoran ?koda]]: created [[fibration of points]] following [[Borceux-Bourn]].
 
-* [[Andrew Stacey]]: I have implemented all the little database tweaks that were needed and done my best to reverse all the truncations.  Please see [this comment](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=52&page=2#Item_22) for details.  Please also check if a long page is how it ought to be (thinking particularly of the timeline).
+* [[Andrew Stacey]]: I have implemented all the little database tweaks that were needed and done my best to reverse all the truncations.  Please see [this comment](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=52&page=2#Item_22) for details.  Please also check if a long page is how it ought to be (thinking particularly of the timeline).
 
    The main thing to note is that although the limits are larger and are sufficient to accommodate all that was on the old lab, _there are still limits_.  In particular, page names and redirects are limited to 100 characters.  Page contents is a little bigger!
 
@@ -1019,7 +1019,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
   * created entries for [[Saunders MacLane]], [[Gonzalo Reyes]] and [[Ieke Moerdijk]] and included links to them where we cite these people as authors (but I will have missed many pages where we do)
 
-  * am asking for discussion of my latest formatting decision concerning these floating tables of contents [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61) on the forum
+  * am asking for discussion of my latest formatting decision concerning these floating tables of contents [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=61) on the forum
 
   * expanded the entry [[dg-algebra]], moved the discussion there to the bottom, as I think it has been addressed (but Toby, let me know if not)
 
@@ -1115,7 +1115,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
   I don't know why splitting the timeline up wouldn't feel like 2009.  I think that _long_ pages are a hangover from the _old days_.  We should have shorter pages included in to bigger pages (which, incidentally, is what MediaWiki does only it does it without telling you).  "Pages" should be layered so that a visitor gets a broad overview first, then clicks through to get finer and finer details.  One long page seems to miss the point of hyperlinks.
 
-  However, as has been pointed out in elsewhere, this is a lousy place to have a discussion.  These are interesting points to discuss, but distracting on this page, so if anyone would like to pursue them further, I suggest we shift it over to the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
+  However, as has been pointed out in elsewhere, this is a lousy place to have a discussion.  These are interesting points to discuss, but distracting on this page, so if anyone would like to pursue them further, I suggest we shift it over to the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
 
   What is more important is to let me know (preferably on the forum) of any other issues with the migrated site.  Now that my eyes have uncrossed, I've realised that I was misreading the MySQL article on storage limits and we _can_ have superlong pages so we will.  Soon.  I promise.
 
@@ -1142,7 +1142,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
 * [[Rafael Borowiecki]]: Just as an interesting fact the new timeline which is not finished is 113kb, then extract the 4 or so long entries that were moved to separate pages and add literature, references and the long discussions. So how are other sites doing it? It looks like it is just nLab that runs into different troubels (even before the migration). I could mention more such as line breaks that is not working smooth or at all, but not now. I can not compare it to many sites but one is wikipedia. Even for editing as Zoran &#352;koda mentioned, wikipedia has no problem in editing parts of a page. I don't know which technology nLab is using (except a part of it is called instiki) but how about an upgrade to such technology as wikipedia is using? In fact everything that i noticed don't work here work in wikipedia. In all, the timeline could be split in two year parts and one main page with discussions, but i don't really like it. Then it would not feel like 2009.
 
-  * [[Mike Shulman]]: Hmm, [deja vu](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=28).
+  * [[Mike Shulman]]: Hmm, [deja vu](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=28).
 
 * [[Zoran ?koda]]: Thanks, Andrew a lot for all you are doing. Good night! I am loggin here another concern about terminology abstract nonsense. I am moving much in (predominantly noncommutative and algebraic) geometric
 community and my exprience is that when somebody says they proved a fact by abstract nonsense it is NOT confined to categorical methods only but to any CLEAN and GENERAL methods "from the book" as opposed to specific unclean improvizations tailored to a very specific circumstance in question. 
@@ -1209,7 +1209,7 @@ community and my exprience is that when somebody says they proved a fact by abst
 
 * [[Andrew Stacey]]: The migrating eagle has landed.
 
-  There will inevitably be hiccoughs, hangups, and hassles.  Please log them over at the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Also, if you notice weird behaviour then there may be an explanation of it over there (just because I know what causes it doesn't mean I've implemented the fix yet).
+  There will inevitably be hiccoughs, hangups, and hassles.  Please log them over at the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Also, if you notice weird behaviour then there may be an explanation of it over there (just because I know what causes it doesn't mean I've implemented the fix yet).
 
 * [[Urs Schreiber]]
 
@@ -1246,7 +1246,7 @@ community and my exprience is that when somebody says they proved a fact by abst
 
 ***
 
-[[2008 changes|First list]] --- [[2009 August changes|Previous list]] --- [Next list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+[[2008 changes|First list]] --- [[2009 August changes|Previous list]] --- [Next list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5) --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 ***
 
