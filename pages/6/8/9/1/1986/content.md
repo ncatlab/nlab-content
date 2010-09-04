@@ -54,7 +54,7 @@ The substantive content of this page should **not** be altered.
 
 * [[Lab Elf|Lab Elf (public relations)]]: the migration will happen this week.  I had hoped to get everything done before the semester started at the Cobblers School, but was not able to do so, which means it has to fit in around my schedule.  What I don't want to do is do the migration, then go off for another violin lesson, and come back a few hours later to find that you've all crashed the site again.
 
-  Once that has been done, then the technical department can get on with figuring out how to improve things around here.  However, whinging on this page is pretty pointless.  If there's some feature you'd like implemented then you could bug the [[Jacques Distler|Chief Lab Elf]] himself (though rumour has it that he's quite busy at the moment) or [[Andrew Stacey|one of]] [[Toby Bartels|the minions]], but a __much better idea__ would be to start a discussion about it over on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Treat it as a _lab elf notice board_.  If there's something you want __all__ denizens of the lab to see, put it here, but if it's primarily for the lab elves, put it on the forum.
+  Once that has been done, then the technical department can get on with figuring out how to improve things around here.  However, whinging on this page is pretty pointless.  If there's some feature you'd like implemented then you could bug the [[Jacques Distler|Chief Lab Elf]] himself (though rumour has it that he's quite busy at the moment) or [[Andrew Stacey|one of]] [[Toby Bartels|the minions]], but a __much better idea__ would be to start a discussion about it over on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Treat it as a _lab elf notice board_.  If there's something you want __all__ denizens of the lab to see, put it here, but if it's primarily for the lab elves, put it on the forum.
 
   (Note: the high honour of being a Lab Elf is one that anyone can have.  There are various sub-departments, all with different roles and skills.)
 
@@ -166,7 +166,7 @@ The substantive content of this page should **not** be altered.
 
 ## 2009-08-28
 
-*  [[Andrew Stacey]] solicits input about making the [[database of categories]] a real database; see [the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=57).
+*  [[Andrew Stacey]] solicits input about making the [[database of categories]] a real database; see [the Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=57).
 
 *  Welcome, Jon!  It would be ideal if you actually wrote about this material instead of just linking to discussion elsewhere; hopefully, you\'re already planning to do this.  Assuming that you wrote the material linked elsewhere (or have permission from those who did write it), you could mostly copy and paste it here; we regulars would be happy to help with formatting and the like.  Some more technical notes: we have a convention of lowercase page titles, so that people can make links to your pages from the middle of sentences; and speaking of making links, you should probably link this stuff from the main [[logic]] page.  (I\'ll do some of this right now.)  ---[[Toby Bartels]]
 
@@ -277,7 +277,7 @@ The substantive content of this page should **not** be altered.
 
 * [[Andrew Stacey]] pondered the format of [[database of categories]].
 
-   By the way, it would still be really useful if people could take a look at the migrated n-lab.  The __main__ question I want to know is whether the pages look right.  The migration involved a step or two that were pretty much guesswork and I want to know whether I guessed right or not.  If a page looks horribly wrong, or something doesn't work how it ought, please let me know.  The best ways to let me know are either by email or by [commenting over at the forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=52).
+   By the way, it would still be really useful if people could take a look at the migrated n-lab.  The __main__ question I want to know is whether the pages look right.  The migration involved a step or two that were pretty much guesswork and I want to know whether I guessed right or not.  If a page looks horribly wrong, or something doesn't work how it ought, please let me know.  The best ways to let me know are either by email or by [commenting over at the forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=52).
 
 * [[David Roberts]]: trivial comment at [[synthetic differential geometry]] in response to Mike.
 
@@ -434,7 +434,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
   * [[Andrew Stacey]]: I'm hesitant to weigh in on this as I'm as guilty as everyone else, but merely flagging something here is not really enough.  We should all think about how to organise the material here to make it easily findable.  Of course, linking from related page to related page is good, but there should also be some hierarchical organisation.  For example, there should be a philosophy index page and [[foundations and philosophy]] should be on it.  Perhaps, appropriately enough, we should make more use of the [category](http://golem.ph.utexas.edu/instiki/show/Categories) features in Instiki.  At the moment, we have the following categories: biography, category, delete, drafts, foundational axiom, lexicon, meta, people, place, redirect, reference, spam.
 
-   This comment is getting a little long, so I've started a [forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=53) with more details on how to implement this, so please reply there.
+   This comment is getting a little long, so I've started a [forum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=53) with more details on how to implement this, so please reply there.
     
 
 ## 2009-08-19
@@ -955,7 +955,7 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
 ***
 
-[[2008 changes|First list]] --- [[2009 July changes|Previous list]] --- [[2009 September changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+[[2008 changes|First list]] --- [[2009 July changes|Previous list]] --- [[2009 September changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 ***
 
