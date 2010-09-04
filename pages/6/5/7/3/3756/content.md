@@ -36,7 +36,7 @@ If there are hidden identity morphisms, then to say the triangle commutes is to 
 
 [[David Roberts]]: No: the above version $e^2 = e$ is correct. For both of these wrong statements, you are assuming that arrows somehow cancel. Especially the first one, think of it in terms of dimensional analysis. If you have a quantity in physics with dimensions of something else cubed, it cannot have the dimensions of that original thing (unless both are dimensionless). But this is only a rough analogy, please don't read anything deep into it. In my comment in reply to Harry's $e^2 = e$ being a loop, then I said I would draw this as a commuting triangle. I wouldn't draw a loop (i.e. an endomorphism) (resp. a degenerate loop) as a triangle (resp. commuting triangle) in any circumstances, because we are not given that the loop factors into a composite of other arrows.
 
-[[Eric]]: Thanks David. I think I've managed to boil it down to the basic disagreement. It is about "shape dependence". I reject the notion of shape dependence. The morphism $f:X\to X$ is a loop and this loop is the same as $f:X\righttoleftarrow$. I [explain this](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=332&Focus=7368#Comment_7368) on the n-Forum. The point is, you can accept shape dependence, in which case I agree with everything you say. Or you reject shape dependence and work with semidiagrams instead.
+[[Eric]]: Thanks David. I think I've managed to boil it down to the basic disagreement. It is about "shape dependence". I reject the notion of shape dependence. The morphism $f:X\to X$ is a loop and this loop is the same as $f:X\righttoleftarrow$. I [explain this](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=332&Focus=7368#Comment_7368) on the n-Forum. The point is, you can accept shape dependence, in which case I agree with everything you say. Or you reject shape dependence and work with semidiagrams instead.
 
 +-- {: .query}
 I don\'t think that there\'s any doubt that $e^2 = e$ is the intended interpretation of the second diagram by everybody who uses commutative diagrams.  The fact that the same object $X$ shows up twice is irrelevant; the whole point of putting $X$ in there twice is because you *don\'t* want parallel identity arrows.  Of course, you can invent an alternative interpretation if you want, but I don\'t think that you\'ll find any usage to match it in the wild.  ---Toby
@@ -53,7 +53,7 @@ The rough is idea is:
 $$\text{Higher Connection Flat}\quad\quad\simeq\quad\quad\text{Higher Diagram Commutes}$$
 
 +--{.standout}
-[Domenico](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=723&Focus=5015#Comment_5015): I guess this is well known, but let me try writing it here and see what happens.
+[Domenico](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=723&Focus=5015#Comment_5015): I guess this is well known, but let me try writing it here and see what happens.
 
 If a connection on a principal G-bundle is locally represented by the 1-form $\omega$ with values in $\mathfrak{g}$, then the connection is flat if and only if the curvature 2-form $F=d\omega+\frac{1}{2}[\omega,\omega]$ vanishes, that is, if $\omega$ is a solution of the Maurer-Cartan equation.
 
@@ -65,7 +65,7 @@ once curvature has come in, we can repeat the argument: now we have a 2-flat con
 =--
 
 +--{.standout}
-[Domenico](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=723&Focus=5050#Comment_5050): I think I could take the task of working a bit on oo-Lie algebroid valued forms in the direction sketched above. yet, I'd like to still discuss it a bit here, sicne I'm now thinking of some more radical change. what I'm thinking is that the one-step definition as it is now is too strict. I mean, we are now defining flat $\mathfrak{a}$-connections as a morphism $\prod^{inf}(X)\to\mathfrak{a}$, and then general connections as something which becomes flat in a single step, i.e., going from $\mathfrak{a}$ to $cone(\mathfrak{a}$). why should we restrict to this? it would be natural to consider thigs that become flat in 2 sterps, 3, steps, and so on. eventually we could have things which "become flat after infinity steps" (and by the way this vague notion seems to me to better fit with classical $\mathfrak{g}$-connections).
+[Domenico](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=723&Focus=5050#Comment_5050): I think I could take the task of working a bit on oo-Lie algebroid valued forms in the direction sketched above. yet, I'd like to still discuss it a bit here, sicne I'm now thinking of some more radical change. what I'm thinking is that the one-step definition as it is now is too strict. I mean, we are now defining flat $\mathfrak{a}$-connections as a morphism $\prod^{inf}(X)\to\mathfrak{a}$, and then general connections as something which becomes flat in a single step, i.e., going from $\mathfrak{a}$ to $cone(\mathfrak{a}$). why should we restrict to this? it would be natural to consider thigs that become flat in 2 sterps, 3, steps, and so on. eventually we could have things which "become flat after infinity steps" (and by the way this vague notion seems to me to better fit with classical $\mathfrak{g}$-connections).
 
 let us see things the other way round: when we say flat, we mean flat in an $\infty$-categorical sense, so let us stress this by saying that a morphism $\prod^{inf}(X)\to\mathfrak{a}$ is an $\infty$-flat connection with values in $\mathfrak{a}$. then, what we are currently calling non-necessarily-flat $\mathfrak{a}$-connections would be the $(\infty-1)$-flat connections with values in $\mathfrak{a}$. but starting from $\infty$ is not too practical.., let us start from 0 instead.
 
@@ -80,8 +80,8 @@ I have a vague feeling that starting with a 0-falt $\mathfrak{o}(n)$-connection 
 
 ##References
 
-* n-Forum: [Is every connection flat?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=723&page=1)
-* n-Forum: [functor](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=332&Focus=7304#Comment_7304)
+* n-Forum: [Is every connection flat?](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=723&page=1)
+* n-Forum: [functor](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=332&Focus=7304#Comment_7304)
 * Eric\'s web: [[ericforgy:Shape Dependence in Commutative Diagrams]]
 
 
