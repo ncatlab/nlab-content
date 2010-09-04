@@ -1,3 +1,5 @@
+[[!redirects infinity-Chern-Weil theory -- preparatory concepts]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,7 +12,7 @@
 =--
 
 
-> This is a subentry of [[∞-Chern-Weil theory]]. While there the general theory is discussed, this entry here considers some basic constructions in the tradittional language of [[differential geometry]] that connect explcitly to basic concepts of ordinary [[Chern-Weil theory]].
+> This is a subentry of [[∞-Chern-Weil theory]]. While there the general theory is discussed, this entry here considers some basic constructions in the traditional language of [[differential geometry]] that connect explcitly to basic concepts of ordinary [[Chern-Weil theory]].
 
 
 #Contents#
@@ -1301,5 +1303,50 @@ $$
 
 from the top two thirds to the bottom row. In this form $\infty$-Lie algebra valued connections were considered in <a href="http://arxiv.org/abs/0801.3480">SSSI</a>. 
 
+
+## Summary
+
+This section gives a concise summary of the constructions introduced above.
+
+### For $G$-principal 1-budles
+
+We have the following [[diffeological n-groupoid|diffeological 1- or 2-groupoids]].
+
+* $\mathbf{\Pi}_1(X)$ -- the [[fundamental groupoid]] of $X$;
+
+* $\mathbf{P}_1(X)$ -- the [[path groupoid]] of $X$
+
+* $\mathbf{\Pi}_2(X)$ the [[path n-groupoid|fundamental path 2-groupoid]].
+
+Let $G$ be a [[Lie group]]. We have the following Lie groupoids associated with that
+
+* $\mathbf{B}G$ -- the coefficient for $G$-[[principal bundle]]s;
+
+* $INN(G) = G//G$ -- the [[inner automorphism 2-group]] of $G$, a [[groupal model for universal principal infinity-bundles|groupal model for the universal principal bundle]];
+
+* $\mathbf{B}INN(G)$ -- the coeffiecient for $INN(G)$-[[principal 2-bundle]];
+
+* $\mathbf{B}G_{conn} := Hom_(Grpd(Diffeo))(\mathbf{P}_1(-), \mathbf{B}G)$ -- the coefficient for $G$-principal bundles with [[connection on a bundle|connection]];
+
+* $\mathbf{\flat} \mathbf{B}G := Hom_{Grpd(Diffeo)}(\Pi_2(-), \mathbf{B}INN(G))$ the coefficient for flat $G$-principal bundles with flat connection;
+
+* $\mathbf{\flat} \mathbf{B}INN(G) := [\Pi_2(-), \mathbf{B}INN(G)]$ the coefficient for flat $INN(G)$-principal 2-bundles;
+
+* $\mathbf{B}G_{diff} := \mathbf{\flat}\mathbf{B}INN(G) \times_{\mathbf{B}INN(G)} \mathbf{B}G $ -- the coefficient for $G$-principal bundle]]s with [[pseudo-connection]];
+
+
+We have the following morphisms between these:
+
+* $X \to \mathbf{P}_1(X)$ -- includion of constant paths into all paths;
+
+* $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ -- sends [[thin-homotopy]]-classes of paths to their full homotopy classes;
+
+* $\mathbf{\flat}\mathbf{B}G \to \mathbf{B}G_{conn}$ -- the morphism induced by that which forgets that a connection is flat;
+
+* $\mathbf{B}G_{conn} \to \mathbf{B}G$ -- forgets the connection on a $G$-bundle, induced locally by $U \to \mathbf{P}_1(U)$;
+
+* $\mathbf{B}G_{conn} \to \mathbf{\flat} \mathbf{B}INN(G)$ -- the morphism that fills in the integrated curvature between paths enclosing a surface;
+
+* $\mathbf{B}G_{conn} \to \mathbf{B}G_{diff}$ the morphism that regards an ordinary connection as a special case of a pseud-connection, induced as a morphism into a pullback by the two morphisms $\mathbf{B}G_{conn} \to \mathbf{B}G$ and $\mathbf{B}G_{conn} \to \mathbf{\flat} \mathbf{B}INN(G)$;
 
 [[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
