@@ -1332,7 +1332,7 @@ Let $G$ be a [[Lie group]]. We have the following Lie groupoids associated with 
 
 * $\mathbf{\flat} \mathbf{B}INN(G) := [\Pi_2(-), \mathbf{B}INN(G)]$ the coefficient for flat $INN(G)$-principal 2-bundles;
 
-* $\mathbf{B}G_{diff} := \mathbf{\flat}\mathbf{B}INN(G) \times_{\mathbf{B}INN(G)} \mathbf{B}G $ -- the coefficient for $G$-principal bundle]]s with [[pseudo-connection]];
+* $\mathbf{B}G_{diff} := \mathbf{\flat}\mathbf{B}INN(G) \times_{\mathbf{B}INN(G)} \mathbf{B}G $ -- the coefficient for $G$-[[principal bundle]]s with [[pseudo-connection]];
 
 
 We have the following morphisms between these:
@@ -1347,6 +1347,6 @@ We have the following morphisms between these:
 
 * $\mathbf{B}G_{conn} \to \mathbf{\flat} \mathbf{B}INN(G)$ -- the morphism that fills in the integrated curvature between paths enclosing a surface;
 
-* $\mathbf{B}G_{conn} \to \mathbf{B}G_{diff}$ the morphism that regards an ordinary connection as a special case of a pseud-connection, induced as a morphism into a pullback by the two morphisms $\mathbf{B}G_{conn} \to \mathbf{B}G$ and $\mathbf{B}G_{conn} \to \mathbf{\flat} \mathbf{B}INN(G)$;
+* $\mathbf{B}G_{conn} \to \mathbf{B}G_{diff}$ the morphism that regards an ordinary connection as a special case of a pseudo-connection, induced as a morphism into a pullback by the two morphisms $\mathbf{B}G_{conn} \to \mathbf{B}G$ and $\mathbf{B}G_{conn} \to \mathbf{\flat} \mathbf{B}INN(G)$;
 
 [[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
