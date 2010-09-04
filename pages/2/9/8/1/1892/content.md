@@ -47,7 +47,7 @@ Never worry about "breaking" or "ruining" anything. Each and every revision is s
 
 A good way to learn about how to format $n$Lab pages is to look at the source of another page.  Near the bottom of each page is a list of "views" (these are different displays of the page) one of which is "source".  This shows the raw code that generates that page and can be cut-and-pasted into another page.
 
-See the [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) to get an impression for what other contributors are working on currently.
+See the [latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5) to get an impression for what other contributors are working on currently.
 =--
 
 
@@ -129,7 +129,7 @@ This results in a [Link to the n-Cafe](http://golem.ph.utexas.edu/category/2009/
 
 ### Log your changes ###
 
-In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  Click on "Start a new discussion," enter a descriptive title, and then describe the changes you made.  Please include a link to the page(s) you edited; the same link syntax `[[page name]]` to nlab pages works on the "latest changes" forum.  You'll have to either create an account at the forum, or reply to a captcha in order to post as a guest.  For more detailed instructions, see the sticky post at the top of the link.
+In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5).  Click on "Start a new discussion," enter a descriptive title, and then describe the changes you made.  Please include a link to the page(s) you edited; the same link syntax `[[page name]]` to nlab pages works on the "latest changes" forum.  You'll have to either create an account at the forum, or reply to a captcha in order to post as a guest.  For more detailed instructions, see the sticky post at the top of the link.
 
 
 ### Pat yourself on the back ###
