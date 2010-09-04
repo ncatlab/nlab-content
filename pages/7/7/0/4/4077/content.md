@@ -1,5 +1,5 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -10,7 +10,7 @@ A **simple group** is a [[group]] $G$ with exactly two [[quotient group]]s: the 
 
 Equivalently, a simple group is a group possessing exactly two [[normal subgroup|normal subgroups]]: the [[trivial subgroup]] $\{1\}$ and the group $G$ itself. 
 
-Note that the [[trivial group]] does not itself count as simple, on the grounds that it has only *one* quotient group (or only one normal subgroup).  It may be possible to find authors that use "at most" in place of "exactly", thereby allowing the trivial group to be simple.  (Compare [[prime number]], [[connected space]], etc.)
+Note that the [[trivial group]] does not itself count as simple, on the grounds that it has only *one* quotient group (or only one normal subgroup).  It may be possible to find authors that use "at most" in place of "exactly", thereby allowing the trivial group to be simple.  (Compare [[too simple to be simple]].)
 
 
 ## Properties
