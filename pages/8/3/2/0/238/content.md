@@ -306,7 +306,7 @@ The substantive content of this page should **not** be altered.
 
   * added an "Idea" section to [[Moore complex]], edited the section headers a bit -- and have a question onm terminology: isn't this really the "normalized chain complex" whereas the Moore complex is the one on all cells with differential the  alternating sum of face maps?
 
-  * created [[organization of the nLab]] -- please see there for what this is about (or in fact, see the corresponding [nForum thread](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=36&page=1#Item_2) that is being linked to there)
+  * created [[organization of the nLab]] -- please see there for what this is about (or in fact, see the corresponding [nForum thread](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=36&page=1#Item_2) that is being linked to there)
 
   * added references to Goerss-Jardine's _Simplicial homotopy theory_ to [[Dold-Kan correspondence]] and [[Moore complex]]
 
@@ -668,7 +668,7 @@ The substantive content of this page should **not** be altered.
 
 ***
 
-[[2008 changes|First list]] --- [[2009 May changes|Previous list]] --- [[2009 July changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+[[2008 changes|First list]] --- [[2009 May changes|Previous list]] --- [[2009 July changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 ***
 
