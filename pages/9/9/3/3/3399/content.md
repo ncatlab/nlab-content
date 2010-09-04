@@ -1,5 +1,6 @@
 # Directed joins
-
+* table of contents
+{: toc}
 
 ## Idea
 
@@ -8,11 +9,11 @@ A __directed join__ is simply a [[join]] of a [[directed set]].
 
 ## Definitions
 
-More precisely, if $P$ is a [[poset]] and $D$ is a [[subset]] of $P$, then we can consider the join $\bigvee D$ (if it exists) of $D$ in $P$.  Since $D$ is a poset in its own right, we can also consider whether $D$ is directed set.  If so, then $\bigvee D$ (if it exists) is a __directed join__ in $P$.  Sometimes one denotes that $\bigvee D$ is a directed join by making a little arrow out of the upper-right flank of the symbol (so it\'s a mix of '$\bigvee$' and '$\nearrow$').  Unfortunately, I haven\'t found that symbol in iTeX or Unicode.
+More precisely, if $P$ is a [[poset]] and $D$ is a [[subset]] of $P$, then we can consider the join $\bigvee D$ (if it exists) of $D$ in $P$.  Since $D$ is a poset in its own right, we can also consider whether $D$ is directed set.  If so, then $\bigvee D$ (if it exists) is a __directed join__ in $P$.  Sometimes one denotes that $\bigvee D$ is a directed join by making a little arrow out of the upper-right flank of the symbol (so it\'s a mix of '$\bigvee$' and '$\nearrow$').  Unfortunately, I haven\'t found that symbol in LaTeX or Unicode.
 
 A __codirected meet__ in $P$ is a directed join in $P^\op$, but people don\'t talk about those so much.
 
-By default, we mean *finitely* directed sets, that is $\aleph_0$-directed.  If instead we take the join of a $\kappa$-directed set (for some [[cardinal number]] $\kappa$), then we have a __$\kappa$-directed join__.
+By default, we mean *finitely* directed sets, that is $\aleph_0$-directed.  If instead we take the join of a $\kappa$-directed set (for some [[regular cardinal]] $\kappa$), then we have a __$\kappa$-directed join__.
 
 
 ## Properties
@@ -34,8 +35,9 @@ DCPOs are studied widely in [[domain theory]].
 
 
 [[!redirects directed join]]
-[[!redirects directed meet]]
-[[!redirects codirected meet]]
 [[!redirects directed joins]]
+
+[[!redirects directed meet]]
 [[!redirects directed meets]]
+[[!redirects codirected meet]]
 [[!redirects codirected meets]]
