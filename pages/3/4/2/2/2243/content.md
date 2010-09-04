@@ -14,7 +14,7 @@
 
 * [[singular cohomology]]
 
-* [[group cohomology]], [[nonabelian group cohomology]]
+* [[group cohomology]], [[nonabelian group cohomology]], [[Lie group cohomology]]
 
 * [[groupoid cohomology]], [[nonabelian groupoid cohomology]]
 
