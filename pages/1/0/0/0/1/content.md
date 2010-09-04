@@ -40,7 +40,7 @@ We originally designed this place as as an adjunct to the [$n$-Category Caf&#233
 
 ## Discussion 
 
-While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum). We inform ourselves about latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5). Have a look around there. 
+While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). We inform ourselves about latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5). Have a look around there. 
 
 ## Contributing 
 
