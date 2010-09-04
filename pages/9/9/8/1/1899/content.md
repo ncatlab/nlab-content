@@ -122,7 +122,7 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
 
 [[Andrew Stacey]]: I changed the $V$ to $\mathcal{V}$ in line with the notation from _The Hunting of the Hopf Ring_.  Should there be a lab standard on fonts for categories, objects, functors, and the like?
 
-_Toby_:  Based on [this discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=37), '$\mathcal{V}$' is more likely to cause problems for people that haven\'t installed appropriate fonts.  (Not that I\'m changing it back, mind you ....)
+_Toby_:  Based on [this discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=37), '$\mathcal{V}$' is more likely to cause problems for people that haven\'t installed appropriate fonts.  (Not that I\'m changing it back, mind you ....)
 
 [[John Baez]]: I hate 'fancy fonts for fancy gizmos', because they mainly serve to make gizmos seem fancy and intimidating.  That's why I had changed $\mathcal{V}$ to $V$.  I think I'll change it back again, just to annoy Andrew.  It's just a category with products, for god's sake!  Surely we can't insist on calligraphic font whenever we see one of those: must we say $\mathcal{Set}$?  (Yes, I'm being ornery.)
 
