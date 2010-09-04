@@ -8,7 +8,7 @@ The procedure is: go to the [nForum Help me! I'm trying to understand Bakalov an
 
 * pg 112, bottom of proof of Theorem 5.3.8, "the Dehn twist axiom MF7" should read MS7, I believe. [[Bruce Bartlett]]
 
-### How does the "s" map work? ([nForum link](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1099&page=1)) 
+### How does the "s" map work? ([nForum link](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1099&page=1)) 
 
 [[Bruce Bartlett]]: I don't understand the $s$ map in Example 5.1.11 in the online version of the book. It's supposed to be the automorphism
  \[
