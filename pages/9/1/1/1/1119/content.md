@@ -538,7 +538,7 @@ For past versions of this page beyond its own history, start [here](http://ncatl
 
 ***
 
-[[2008 changes|First list]] --- [[2009 February changes|Previous list]] --- [[2009 April changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+[[2008 changes|First list]] --- [[2009 February changes|Previous list]] --- [[2009 April changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 ***
 
