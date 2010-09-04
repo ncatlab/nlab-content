@@ -92,10 +92,14 @@ A test of a table inside a table inside of a table
 Make sure table captions work:
 
 <table markdown='1'>
- <caption>$Set_*$ a [[category]]</caption>
- <tr><td>co product</td><td>a [[disjoint union]] where the argument's points are glued together</td></tr>
+ <caption>$Set_*$ a [[category]] of [[pointed set]] objects</caption>
+ <tr><td>id</td><td>Set_*</td></tr>
+ <tr><td>type</td><td>[[category]]</td></tr>
+ <tr><td>objects</td><td>[[pointed set|pointed sets]]</td></tr>
  <tr><td>initial object</td><td>a pointed singleton set</td></tr>
- <tr><td>has a zero</td><td>[[true]]</td></tr>
+ <tr><td>product</td><td>a [[cartesian product]] where the point is the [[ordered pair|pair]] of the argument points</td></tr>
+ <tr><td>co product</td><td>a [[disjoint union]] where the argument's points are glued together</td></tr>
+ <tr><td>has a zero object</td><td>[[true]]</td></tr>
 </table>
  
 Test to make sure id attribute is retained. a DIV:
