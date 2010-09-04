@@ -1,6 +1,14 @@
-A category is (sometimes) called _pointed_ if it has a [[zero object]]. Every such category (at least if [[locally small category|locally small]]) may be interpreted as [[enriched category|enriched]] over the category of [[pointed set]]s (but not necessarily the other way around).
 
-#Remarks#
+# Pointed categories
+* table of contents
+{: toc}
+
+## Definition
+
+A category is (sometimes) called __pointed__ if it has a [[zero object]]. Every such category (at least if [[locally small category|locally small]]) may be interpreted as [[enriched category|enriched]] over the category of [[pointed set]]s (but not necessarily the other way around).
+
+
+## Remarks
 
 * The terminology certainly comes from the fact that every category of [[pointed object]]s has a [[zero object]]: the point.
 
@@ -9,3 +17,7 @@ A category is (sometimes) called _pointed_ if it has a [[zero object]]. Every su
 * Notice that this notion of pointed is _not_ related to usage such as in [[well-pointed topos]].  Nor is it to be confused with a [[pointed object]] in [[Cat]], which is just a category equipped with a chosen object (which need not be initial or terminal).
 
 * A slight weakening of the concept of a pointed category is that of a [[quasi-pointed category]].
+
+
+[[!redirects pointed category]]
+[[!redirects pointed categories]]
