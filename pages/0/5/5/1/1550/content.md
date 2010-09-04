@@ -187,7 +187,8 @@ $$
   * added explicit description of colimits in $Set$ to [[limits and colimits by example]] -- I have a dumb question: frequently I want to use displayed math equations in a bullet list item. But more often than not when I try this the parser gets very mixed up and produces weirly formatted output -- what am I doing wrong??
 
 # 2009-05-21 #
-* [[Bruce Bartlett|Bruce]] added link to Evan Jenkins' notes of the [[Northwestern TFT Conference 2009]], and changed text+math font on the nLab to a serif theme by editing the CSS. This will only be for one day, just to create awareness of what's possible. Discussion on the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=23).
+
+* [[Bruce Bartlett|Bruce]] added link to Evan Jenkins' notes of the [[Northwestern TFT Conference 2009]], and changed text+math font on the nLab to a serif theme by editing the CSS. This will only be for one day, just to create awareness of what's possible. Discussion on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=23).
 
 # 2009-05-20 #
 * [[Chris Brav|Chris]] started work on section 5 of BZFN
@@ -326,7 +327,7 @@ for the journal club on geometric $\infty$-function theory.
 
 # 2009-05-11 #
 
-*  [[Toby Bartels]]:  I moved all of the <abbr title="scalable vector graphics">SVG</abbr> out of article pages and into included subpages as described at [[HowTo]].  (Note that this is supposed to be a temporary fix until we get a working automated system to include somehthing like TikZ; see [the discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=20).)
+*  [[Toby Bartels]]:  I moved all of the <abbr title="scalable vector graphics">SVG</abbr> out of article pages and into included subpages as described at [[HowTo]].  (Note that this is supposed to be a temporary fix until we get a working automated system to include somehthing like TikZ; see [the discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=20).)
 
 * [[Urs Schreiber|Urs]]:
 
@@ -342,7 +343,7 @@ for the journal club on geometric $\infty$-function theory.
 
 *  [[Toby Bartels]]:
    *  Added a sort of logical interpretation to [[stuff, structure, property]].  (This has some links that ought to be filled out.)
-   *  There\'s more work going on at [[SVG Sandbox]] and being discussed in [a Forum post](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=20).  See also the new [[Inclusion Sandbox]].
+   *  There\'s more work going on at [[SVG Sandbox]] and being discussed in [a Forum post](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=20).  See also the new [[Inclusion Sandbox]].
    *  There\'s been some work recently at [[generalized element]], in response to a reader\'s question.
 
 # 2009-05-08 #
@@ -353,7 +354,7 @@ for the journal club on geometric $\infty$-function theory.
 
   * tied up the loose end at [[descent]] using the expected result that Dominic Verity was kind enough to proof on request and then confirm by private communication
 
-* [[Andrew Stacey|Andrew]]: (I forget whether I'm supposed to add this to my earlier comment, or here, or add a word of this to each of the other entries of the day).  I've created [[SVG Sandbox]] expressly for the purpose of mucking about with SVGs to get them to look right.  My rationale is explained at the top of that page, together with some suggestions on how it might work.  The point is that one SVG can be rather large and I think that putting them in the regular Sandbox to test stuff is a bit anti-social.  Hopefully we can get stuff in the [[FAQ]] and [[HowTo]] on good ways of importing SVGs as there seem to be a few "special features".  I've shifted the recent SVG-related stuff from the original [[Sandbox]] to the [[SVG Sandbox]], but I shifted the discussion that Bruce started to the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
+* [[Andrew Stacey|Andrew]]: (I forget whether I'm supposed to add this to my earlier comment, or here, or add a word of this to each of the other entries of the day).  I've created [[SVG Sandbox]] expressly for the purpose of mucking about with SVGs to get them to look right.  My rationale is explained at the top of that page, together with some suggestions on how it might work.  The point is that one SVG can be rather large and I think that putting them in the regular Sandbox to test stuff is a bit anti-social.  Hopefully we can get stuff in the [[FAQ]] and [[HowTo]] on good ways of importing SVGs as there seem to be a few "special features".  I've shifted the recent SVG-related stuff from the original [[Sandbox]] to the [[SVG Sandbox]], but I shifted the discussion that Bruce started to the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
 
   * [[Urs Schreiber|Urs]]: I believe [[Mike Shulman|Mike]] had requested that we announce each change here always on the very top of the list, even if we had earlier logs the same day with other people's logs already on top of them. Seems to be a reasonable practice if the point of this page here is to alert others of changes. Which it is. So, yes, the way you did it should be the preferred way.
 
@@ -521,7 +522,7 @@ for the journal club on geometric $\infty$-function theory.
 
 ***
 
-[[2008 changes|First list]] --- [[2009 April changes|Previous list]] --- [[2009 June changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+[[2008 changes|First list]] --- [[2009 April changes|Previous list]] --- [[2009 June changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 ***
 
