@@ -60,7 +60,7 @@ $$
 \mu_X (M)(A) := \int_{P(X)} \tau(A) M(d\tau).
 $$
 
-[[Ernst-Erich Doberkat]] in <a href="https://eldorado.uni-dortmund.de/bitstream/2003/2717/1/147.pdf">Characterizing the Eilenberg-Moore Algebras for a Monad of Stochastic Relations</a> works out the [[algebra over a monad|algebra]]s for the Giry monad. We want measurable maps between $P(X)$ and $X$, such that the 'fibres' are convex and closed, and such that $\delta_{x}$, the delta distribution on $x$, is in the fibre over $x$. And there's another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
+[[Ernst-Erich Doberkat]] in [Characterizing the Eilenberg-Moore Algebras for a Monad of Stochastic Relations](https://eldorado.tu-dortmund.de/bitstream/2003/2717/1/147.pdf) works out the [[algebra over a monad|algebra]]s for the Giry monad. We want measurable maps between $P(X)$ and $X$, such that the 'fibres' are convex and closed, and such that $\delta_{x}$, the delta distribution on $x$, is in the fibre over $x$. And there's another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
 Now, as ever, $P(X)$ will support an algebra, $\mu_{X}: P(P(X)) \to P(X)$. This is the analogue of a [[free construction|free]] [[group]] being an algebra of the group monad. But just as there are many interesting groups which are not free, we should want to find algebras of Giry's monad which are not of the $\mu_{X}$ form. Doberkat shows that for such an algebra $X$ must be connected, and suggests this example
 
@@ -77,7 +77,7 @@ Doberkat has a longer article on [[Eilenberg-Moore algebra]]s of the Giry monad 
 Doberkat's work relates to the category of Polish spaces with continuous maps. He notes that it would be interesting to develop the theory for the general case of Borel measurable maps.
 
 
-There are interesting developments of the representation of probability theory through monads, such as Abramsky et al.'s [Nuclear and Trace Ideals in Tensored &#8727;-Categories](http://arxiv.org/PS_cache/math/pdf/9805/9805102.pdf), which looks to work Giry's monad into a context even more closely resembling the category of relations.
+There are interesting developments of the representation of probability theory through monads, such as Abramsky et al.'s [Nuclear and Trace Ideals in Tensored &#8727;-Categories](http://arxiv.org/abs/math/9805102), which looks to work Giry's monad into a context even more closely resembling the category of relations.
 
 
 * Mich&#232;le Giry, _A categorical approach to probability theory_  Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math., 915, Springer.
