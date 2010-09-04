@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -117,7 +118,8 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
   (this can be done because $\pi_2(G) = 0$).
 
 
-**Proposition**
++-- {: .un_prop }
+###### Proposition
 
 The [[Cech cohomology]] cocycle with coefficients in $\mathbf{B}^3 \mathbb{R}/\mathbb{Z}$ which is given by
 
@@ -149,6 +151,7 @@ where
 
 * $CS(...)$ denotes the [[Chern-Simons form]] of the given $\}mathfrak{g}$-valued 1-form
 
+=--
 
 +-- {: .proof}
 ###### Proof
@@ -166,20 +169,67 @@ So the only mystery about this construction is really: where does it come from? 
 
 ### In $\infty$-Chern-Weil theory {#InInfChernWeil}
 
-Here we describe the construction of $\hat c(\nabla)$ in terms of the general methods described at [[∞-Chern-Weil theory]].
+The above Cech-Deligne cocycle construction of $\hat c(\nabla)$ may be understood as a special case of the general construction of Chern-Weil homomorphism by the methods discussed at [[∞-Chern-Weil theory]]. 
 
-Let $\mathfrak{g} = \mathfrak{so}$ be the [[Lie algebra]] of the [[special orthogonal group]]. Write $P = \langle -,-\rangle \in W(\mathfrak{g})$ for the canonical binary [[invariant polynomial]].
+We first give now the main statement of how this works, and then afterwards explain where the various ingredients come from.
 
-The corresponding [[Lie algebra cohomology|3-cocycle]] is $\mu : \mathfrak{so} \to b^2 \mathbb{R}$
++-- {: .un_prop }
+###### Proposition
+
+Let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\langle -\rangle \in W(\mathfrak{g})$ its canonical [[Killing form]] [[invariant polynomial]], $\mu = \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the corresponding [[Lie algebra cohomology|Lie algebra cocycle]], $cs \in W(\mathfrak{g})$ the Chern-Simons elements exhibiting the transgression betweemn the two, $G$ the [[simply connected]] [[Lie group]] [[Lie integration|integrating]] it.
+
+Write $\exp(\mu) : \mathbf{B}G \to \mathbf{B}^3 U(1)$ for the [[cocycle]] in [[Lie group cohomology]] obtained by <a href="http://www.ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of $\mu$</a> and write $\mathbf{B}^3 U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)$ for the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CanonmicalFormOnG">canonical curvature invariant</a>.
+
+Then:
+
+for $X$ a [[smooth manifold]] and $X \to \mathbf{B}G$ a cocycle for a $G$-[[principal bundle]], the composite morphism 
 
 $$
-  \mu = \langle -, [-,-]\rangle \in CE(\mathfrak{g})
-  \,.
+  X \to \mathbf{B}G \stackrel{\exp(\mu)}{\to} \mathbf{B}^3 U(1) \stackrel{}{\to} \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)
+$$ 
+
+in [[?LieGrpd]] is modeled in the [[model structure on simplicial presheaves]] by the span of morphism
+
+$$
+  \array{
+     && 
+     \exp(\mathfrak{g} \to inn(\mathfrak{g}))/_{\sim_3,\mathbb{Z}}
+     &\stackrel{\exp((cs,P))}{\to}&
+     \exp(b^2 \mathbb{R} \to inn(b^2 \mathbb{R}))/_{\sim_3,\mathbb{Z}}
+    &\to&
+    \exp(* \to b^3 \mathbb{R})
+    \\
+    &{}^{\mathllap{\hat \nabla}}\nearrow& \downarrow^{\mathrlap{\simeq}} 
+    && \downarrow^{\mathrlap{\simeq}}
+    && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && \exp(\mathfrak{g})_{\sim_3, \mathbb{Z}}
+    &\stackrel{\exp(\mu)}{\to}&
+    \exp(b^2 \mathbb{R})_{\sim_3 / \mathbb{Z}}
+    && \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{simp}
+    \\
+    & {}^{\hat g}\nearrow & \downarrow^{\mathrlap{\simeq}} 
+    && \downarrow^{\mathrlap{\simeq}}
+    && {}^{\mathllap{\int_{\Delta^\bullet}}}\downarrow^{\mathrlap{\simeq}}
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}G && \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
+   && \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{chn}
+   \\
+   \downarrow^{\mathrlap{\simeq}}
+   \\
+   X
+  }
 $$
 
-As a Lie algebra cocycle it is the one that classifies the [[nLab:string Lie 2-algebra]] extension $\mathfrak{string} \to \mathfrak{o} \to b^2$
+and the total outer composite $C(U) \to \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{chn}$ has as components precisely the Cech-Deligne cocycle discussed [above](#InCechDelineCohomology).
 
-Reecall first the [[Lie integration]] of this bare cocycle:
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Recall first the [[Lie integration]] of this bare cocycle:
 
 The simply connected Lie group $G = Spin$ corresponding to $\mathfrak{g}$ has $\pi_2(G) = 0$ and $\pi_3(G) = \mathbb{Z}$. The Lie integrated model for $\mathbf{B}G$ on which the cocycle integrates is
 
@@ -279,7 +329,7 @@ $$
     \\
     & {}^{\hat g}\nearrow & \downarrow^{\mathrlap{\simeq}} 
     && \downarrow^{\mathrlap{\simeq}}
-    && \downarrow^{\mathrlap{\simeq}}
+    && {}^{\mathllap{\int_{\Delta^\bullet}}}\downarrow^{\mathrlap{\simeq}}
     \\
     C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}G && \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
    && \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{chn}
@@ -325,12 +375,7 @@ $$
 
 Similarly we may transport the connection 1-forms around over the higher simplices to obtain $\hat A_{i j k}$ and $\hat A_{i j k l}$. This defines a lift $\hat \nabla : C(\{U_i\}) \to \exp(\mathfrak{g} \to inn(\mathfrak{g}))/_{\sim_3, \mathbb{Z}}$.
 
-By collecting all this data, we find
-
-+-- {: .un_prop }
-###### Proposition
-
-The composite morphism
+By collecting all this data, we find that the composite morphism
 
 $$
   C(\{U_i\})
@@ -365,7 +410,7 @@ See ([CJMS](#CJMS), [Waldorf CS](#WaldorfCS)) (...)
 
 ## References
 
-### Cech-Deligne cohomology
+### The Cech-Deligne cohomology realization
 
 As cocycles in [[Cech cohomology|Cech]]-[[Deligne cohomology]] the Chern-Simons 2-gerbe has been constructed explicitly in 
 
@@ -400,4 +445,3 @@ Here are some slides from talks:
 
 * [[Krzysztof Gawedzki]], _Wess-Zumino-Witten and Chern-Simons theories for non-simply connected Lie groups_ ([pdf](http://dftuz.unizar.es/ftzar/activities/highenergy09_talks/gawedzki.pdf))
 
-[[!redirects Chern-Simons 2-gerbes]]
