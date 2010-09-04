@@ -15,5 +15,5 @@ As with [[Hasse diagram]], I *think* that declaring it to be smallest in unneces
 
 _Toby_:  It would not be a Hasse diagram, but also its quiver would not be a poset, so that\'s taken care of.
 
-However, the basic idea was wrong anyway, as shown by your counterxample [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=237&page=1#Item_8).
+However, the basic idea was wrong anyway, as shown by your counterxample [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=237&page=1#Item_8).
 =--
