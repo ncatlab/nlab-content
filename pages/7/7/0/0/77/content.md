@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
-#### Higher algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
-=--
 =--
 =--
 
@@ -60,6 +56,10 @@ See
 * [[Lie integration]];
 
 * [[Lie theory]].
+
+## Special properties
+
+* [[semisimple Lie algebra]]
 
 ## Higher Lie algebras
 
