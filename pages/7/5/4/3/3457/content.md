@@ -5,7 +5,9 @@ An &#233;tale map is a local [[isomorphism]].  Exactly what this means depends o
 *  For an &#233;tale map between [[schemes]], see [[étale morphism]].
 *  &#201;tale maps between [[analytic space]]s are closely related to &#233;tale maps between schemes, while also a special case of an &#233;tale map between smooth spaces. 
 
++-- {: .query}
 Zoran: I do not understand this statement. Analytic spaces have a different structure sheaf; in general nilpotent elements are allowed. This is additional structure not present in theory of smooth spaces. 
+=--
 
 However, the term is also used in a [[duality|dual]] sense in [[ring]] theory:
 
