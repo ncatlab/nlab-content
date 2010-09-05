@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contens#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -32,6 +32,7 @@ In the presence of [[magnetic charge]] the electromagnetic field is modeled by a
 
 The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]] is the [[Kalb-Ramond field]].
 
+
 ## History
 
 ...historical section eventually goes here..
@@ -40,7 +41,6 @@ The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]]
 ...electricity and magnetism were discovered independently, Maxwell's equations in classical vector analysis which allows the formulation as a tensor $F$ as below, and "magnetism is a consequence of electrostatics and covariance, hence the composite noun electromagnetism"...
 
 (...)
-
 
 
 
@@ -119,7 +119,7 @@ is a [[?ech cohomology|?ech cocycle]] with coefficients in the degree 2 [[Delign
 The following describes more physical and historical details behind this argument.
 
 
-## The local picture #
+## The local picture
 
 In modern notation what Maxwell discovered in the 1860s is that locally, when physical spacetime is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional Minowski space $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field $\vec E = \left[ \array{E_1 \\ E_2 \\ E_3} \right]$ and magnetic field $\vec B = \left[ \array{B_1 \\ B_2 \\ B_3} \right]$ combine into a differential [[differential form|2-form]]
 
@@ -197,7 +197,7 @@ $d \star F = 0$
 * **Amp&#232;re's law** $- \frac{d}{d t} D + rot H = j_{el}$
 
 
-## The global picture ##
+## The global picture
 
 Maxwell's original equations determine what the 
 electromagnetic field is _locally_. After a while it was dicovered that globally the situation is more complicated.
@@ -232,7 +232,7 @@ This happens when the manifold in question has nontrivial topology, or if there 
 The reasoning underlying Dirac's argument is described in the next subsection.
 
 
-### The quantization condition ###
+### The quantization condition
 
 In this section we describe how one finds from physical arguments that, indeed, the electromagnetic field is modeled by a differential refinement of an cocycle in degree 2 integral cohomology.
 
@@ -303,7 +303,7 @@ There are other slight variants of formalizations the above physical input that 
   In this form now, the object $tra$ manifestly satisfies the axioms of a [[Cheeger-Simons differential character]]. These are well known to represent cocycle in degree 2 integral [[differential cohomology]].
 
 
-### Dirac's original argument ###
+### Dirac's original argument
 
 Dirac originally presented the following reasoning, which captures the main point of the above considerations.
 
@@ -338,9 +338,12 @@ In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. Whi
 
 ...have to run...
 
-#Geometric origins of inhomogeneous media#
 
->This section is tentative and probably even controversial. By no means is it generally accepted to be correct, but it is worth writing down if for no other reason than to elicit disagreement in which case we'd learn something.
+## Geometric origins of inhomogeneous media
+
++-- {: .standout}
+This section is tentative and probably even controversial. By no means is it generally accepted to be correct, but it is worth writing down if for no other reason than to elicit disagreement in which case we'd learn something.
+=--
 
 As inhabitants of the earth, we all sit in a bath of electromagnetic radiation, both man made and natural. This radiation permeates our bodies which are made up of dielectric, magnetic, and conducting materials, i.e. body tissue. Just as geometry is encoded in the metric tensor and manifests itself via the Hodge star, so too do the electromagnetic constitutive equations. For example, in linear media we have the simple constitutive relations
 
@@ -366,7 +369,8 @@ where $v = \frac{1}{\sqrt{\mu\epsilon}}$ (Note: $v = c$ in vacuum). For more det
 
 What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star. Conversely, it means that geometrical properties of matter can be interpreted electromagnetically.
 
-# References #
+
+## References
 
 Maxwell's equations originate in
 
@@ -378,7 +382,8 @@ Dirac's quantization argument appeared in
 
 * [Differential Forms in Electromagnetic Theory](http://eceformsweb.groups.et.byu.net/forms-home.html)
 
-#Discussion#
+
+## Discussion
 
 +--{.query}
 
@@ -444,3 +449,7 @@ The cloaking stuff is interesting. When I was in grad school, it was known how t
 I would be remiss not to mention an unofficial mentor of mine, i.e. someone whose work I've always admired greatly, Alain Bossavit. It could very well have been some of his earlier papers you're thinking about.
 
 By the way, Bruce, after glancing at that paper, you might find a comment I recently made at the n-Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1034&Focus=7775#Comment_7775) interesting. In grad school, I simulated a 1-dimensional event horizon as a potential boundary condition for electromagnetic simulations. It is pretty fun :) I don't think it is a secret that you can map various solutions of Einstein's field equations to analogous electromagnetic media in flat Minkowski space. The analogy between geometry and media is deeper than the attention it receives would suggest.
+
+
+[[!redirects electromagnetic field]]
+[[!redirects electromagnetic fields]]
