@@ -2,7 +2,7 @@
 This page is meant to provide a general example and template for new
 [[nLab:HomePage|nLab]]-pages. You can look at **[its source
 code](http://ncatlab.org/nlab/source/template+page)** to see how the
-various parts are done. A minimal template is given at the end which
+various parts are done. A minimal template is given first which
 can be copy-and-pasted into newly created pages.  See [[HowTo]] for more details.
 
 category: meta
@@ -10,13 +10,57 @@ category: meta
 [[!redirects page template]]
 [[!redirects page templates]]
 
-****
+## Minimal Template Code
 
+Remove any sections that you don\'t use.
 
-#Contents#
+~~~~
+
+# Contents (or put a title here)
 * the following line creates the automatic table of contents
 {:toc}
 
+## Idea ##
+
+...
+
+
+## Abstract ##
+
+...
+
+
+## Definition ##
+
+...
+
+
+## Properties ##
+
+...
+
+
+## Examples ##
+
+...
+
+
+## References ##
+
+...
+
+
+[[!redirects <put page name here>]]
+[[!redirects <put page name here>s]]
+
+~~~~
+
+****
+
+
+# Contents
+* the following line creates the automatic table of contents
+{:toc}
 
 ## Idea
 
@@ -52,19 +96,16 @@ A uvw is just what it looks like.
 
 ## Properties
 
-
 +-- {: .un_lemma }
 ###### Lemma
 
 Every uvw contains at least one letter.
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
 By inspection.
-
 =--
 
 
@@ -72,7 +113,6 @@ By inspection.
 ###### Proposition
 
 Every uvw contains strictly more than one letter.
-
 =--
 
 +-- {: .proof}
@@ -84,17 +124,13 @@ Use the above lemma and continue counting:
   1 + 1 = 2  \label{firstequation}
   \,.
 \]
-
-
 =--
-
 
 
 +-- {: .un_theorem}
 ###### Theorem
 
 Every uvw contains exactly three letters.
-
 =--
 
 +-- {: .proof}
@@ -131,8 +167,7 @@ commutes.
 +-- {: .un_corollary}
 ###### Corollary
 
-No uvw contains more than three letters
-
+No uvw contains more than three letters.
 =--
 
 
@@ -149,11 +184,12 @@ No uvw contains more than three letters
 +-- {: .query}
 _[[Urs Schreiber|First person]]_:  I listed all of the special cases that I know above, but didn\'t Grothendieck study an important version too?
 
-_[[Toby Bartels|Second person]]_:  No, you're thinking of Lawvere.  When I find the reference, I'll put it here.
+_[[Toby Bartels|Second person]]_:  No, you\'re thinking of Lawvere.  When I find the reference, I\'ll put it here.
 =--
 
 
-### Specific examples {#Specific_examples}
+### Specific examples
+{#Specific_examples}
 
 For ease of reference, we will number the examples.
 
@@ -169,30 +205,6 @@ For ease of reference, we will number the examples.
 The original definition appeared in section 3 of
 
 * FirstName LastName, _Title_ Journal ([arXiv](http://put.url/here), [pdf](http://another.url/)) .
-
-
-## Minimal Template Code ##
-
-~~~~
-#Contents#
-* the following line creates the automatic table of contents
-{:toc}
-
-
-## Idea ##
-
-## Abstract ##
-
-## Definition ##
-
-## Properties ##
-
-## Examples ##
-
-## References ##
-
-[[!redirects <put page name here>s]]
-~~~~
 
 
 [[!redirects uvw]]
