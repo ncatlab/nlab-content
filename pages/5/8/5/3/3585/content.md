@@ -7,12 +7,12 @@ The theory of hyperfunctions, created by the Japanese school of [[Mikio Sato]], 
 
 Hyperfunctions are a very useful tool in the study of [[D-modules]], holonomic systems of differential equations, and especially some aspects of [[symplectic geometry]] and [[harmonic analysis]] that are part of [[microlocal analysis]], especially [[algebraic microlocalization]]. 
 
-This page is about hyperfunctions of one variable only, for the multiple variable case see [[hyperfunctions of multiple variables]].
+This page is about hyperfunctions of one variable only, for the multiple variable case see [[hyperfunction of multiple variables]].
 
 ## Abstract
 We define hyperfunctions and explain some basic properties.
 
-The theory of hyperfunctions of one variable is considerably easier than the one for multiple variables, for this reason we will split the exposition to handle the one dimensional case first, and then generalize to multiple dimensions: [[hyperfunctions of multiple variables]].
+The theory of hyperfunctions of one variable is considerably easier than the one for multiple variables, for this reason we will split the exposition to handle the one dimensional case first, and then generalize to multiple dimensions: [[hyperfunction of multiple variables]].
 
 The exposition of the one dimensional theory will try to illuminate the following points:
 
@@ -22,7 +22,7 @@ A basic strategy of the exposition will therefore be to stress both similarities
 
 2. Hyperfunctions require less technical machinery, at least in one dimension, since they can be defined and studied with basic complex analysis only. That will nevertheless make it possible to give a rigorous definitions of otherwise only formal expressions that are often used by engineers and physicists, like $\int_a^b \delta (x) dx$.
 
-3. Hyperfunctions and their [[microfunctions]] both form [[flabby sheaves]], which is the starting point of a study of singularities of hyperfunctions and the [[algebraic analysis]] of systems of [[differential equations]].
+3. Hyperfunctions and their [[microfunction]]s both form [[flabby sheaves]], which is the starting point of a study of singularities of hyperfunctions and the [[algebraic analysis]] of systems of [[differential equations]].
 
 ##Definition
 
@@ -55,8 +55,8 @@ $$
 
 \begin{cases}
 
-  1, & \text{if } x \gt 0  \\
-  0, & \text{if } x \lt 0
+  1, & \text{if}\; x \gt 0  \\
+  0, & \text{if}\; x \lt 0
 
 \end{cases}
 
@@ -284,6 +284,8 @@ It is possible to use hyperfunctions as an introduction to generalized functions
 
 * Urs Graf: _Introduction to hyperfunctions and their integral transforms._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05662238&format=complete))
 
+
+[[!redirects hyperfunction]]
 [[!redirects hyperfunctions]]
 [[!redirects Sato's hyperfunction]]
 [[!redirects Sato's hyperfunctions]]
