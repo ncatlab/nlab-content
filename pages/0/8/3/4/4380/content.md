@@ -5,3 +5,6 @@ I am rewriting (slowly at the moment, but the holidays are coming!) my package t
 
 
 category: people
+
+[[!redirects Eduardo Ochs]]
+[[!redirects EduardoOchs]]
