@@ -29,7 +29,7 @@ The notion of Poisson sigma model  was originally introduced by P. Schaller, T. 
 
 * M. Bojowald, A. Kotov, T. Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  54  (2005),  no. 4, 400--426, [doi](http://dx.doi.org/10.1016/j.geomphys.2004.11.002)
 
-* Ctirad Klim&#269;&#237;k, [[T. Strobl]], _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344, <a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi</a> 
+* Ctirad Klim&#269;&#237;k, [[Thomas Strobl|T. Strobl]], _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344, <a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi</a> 
 
 The detailed argument by Cattaneo and Felder on how Kontsevich's formula for the deformation quantization star product is the 3-point function of the Poisson sigma-model is in
 
