@@ -1,8 +1,12 @@
-There are few mutually unrelated notions denoted by "crystal" in mathematics. One can of course talk about mathematical models of physical crystals and their geometry, this will presumably not be a subject of attention in $n$lab. Another, is an intermediary notion leading to [[crystal basis|crystal bases]] of [[Kashiwara]] and of Lusztig, thus one associates a crystal to a [[quantized enveloping algebra]]. Finally, there are **crystals due Grothendieck** to which this entry is dedicated.
 
-#Contents#
+# Contents
 * differential crystals
 {:toc}
+
+## Idea
+
+There are few mutually unrelated notions denoted by "crystal" in mathematics. One can of course talk about mathematical models of physical crystals and their geometry, this will presumably not be a subject of attention in $n$lab. Another, is an intermediary notion leading to [[crystal basis|crystal bases]] of [[Kashiwara]] and of Lusztig, thus one associates a crystal to a [[quantized enveloping algebra]]. Finally, there are **crystals due Grothendieck** to which this entry is dedicated.
+
 
 ## Overview
 
@@ -18,6 +22,7 @@ But Grothendieck considered not only descent for quasicoherent sheaves but also 
 
 Moreover this has also a crystalline version: **crystals of affine schemes**. This corresponds to a nonlinear version of D-modules, called **D-schemes** (also called [[diffieties]] by Vinogradov). As D-modules correspond to solutions of systems of linear differential equations, D-schemes correspond to systems of nonlinear ones. One has also analytic version (analytic D-spaces).
 
+
 ## Related entries and references
 
 * [[Grothendieck connection]], [[D-module]]
@@ -31,4 +36,5 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 * mathoverflow: [The Infinitesimal topos in positive characteristic](http://mathoverflow.net/questions/15795/the-infinitesimal-topos-in-positive-characteristic)
 
 
-
+[[!redirects crystal]]
+[[!redirects crystals]]
