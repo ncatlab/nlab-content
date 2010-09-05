@@ -135,23 +135,41 @@ The table inside EXAMPLE test1:
 LATEST TESTS:
 
 <div class='DBE' markdown='1'
- id='ungeneratedDBE'
- json='{"id":"NEW","type":"category","page":"[[Rod McGuire]]"}'>
- UNGENERATED
+ id='%7B%22id%22%3A%22NEW%22%2C%22type%22%3A%22category%22%2C%22page%22%3A%22%5B%5BRod%20McGuire%5D%5D%22%7D'
+ json='{"id":"NEW","type":"category","page":"[[Rod McGuire]]"}'><table markdown="1"><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
  <span class='DBE'/>
 </div>
 
 xx
 
 <table class='DBE' markdown='1'
- id='{"id":"NEW","type":"category","page":"[[Rod+McGuire]]"}'>
- <caption>Ungenerated DBE table</caption>
-</table>
+ id='{"id":"NEW","type":"category","page":"[[Rod+McGuire]]"}'><table markdown="1"><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod+McGuire]]</td></tr></table>
+ </table>
 <span class='DBE'/>
 
+cccc
+
+<table class='DBE' markdown='1'
+ id='{"id":"NEWxxx","type":"category","page":"[[Rod+McGuire]]"}'><table markdown="1"><tr><td>id</td><td>NEWxxx</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod+McGuire]]</td></tr></table>
+ </table>
+<span class='DBE'/><!-- span flags end of DBE table - don't remove -->
+
+
+
+
+<table class='DBE' markdown='1'
+ id='{"id":"xxxNEW","type":"category","page":"[[Rod+McGuire]]"}'><table markdown="1"><tr><td>id</td><td>xxxNEW</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod+McGuire]]</td></tr></table>
+ </table>
+<span class='DBE'/><!-- span flags end of DBE table - don't remove -->
+
+
+
+<table class='DBE' markdown='1'
+ id='{"id":"zzzNEW","type":"category","page":"[[Rod+McGuire]]"}'>
+ <caption>Ungenerated DBE table</caption>
+</table>
+<span class='DBE'/><!-- span flags end of DBE table - don't remove -->
+
 category: people
-
-
-
 
 
