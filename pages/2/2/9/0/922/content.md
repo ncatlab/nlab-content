@@ -1,12 +1,20 @@
-#Definition#
+# Twisting cochains
+* table of contents
+{: toc}
+
+## Definition
+
 Let $(C,d_C)$ be a dg-[[coalgebra]] with comultiplication $\Delta$ and $(A,d_A)$ a [[dg-algebra]] with multiplication $\mu$. A __twisting cochain__ is a morphism $\tau:C\to A[1]$ such that the following [[Maurer-Cartan equation]] holds:
 $$d_A\circ\tau+\tau\circ d_C+\mu\circ(\tau\otimes\tau)\circ\Delta = 0.$$
 Notice that the last, perturbation term describes the square $\tau\star\tau$ in the [[convolution]] algebra of homogeneous maps in $\mathrm{Hom}(C,A)$.
 
-#Relation to the adjunction bar-cobar#
+
+## Relation to the adjunction bar-cobar
+
 Let $\mathrm{Cogc}$ be the category of cocomplete dg-co(al)gebras and $\mathrm{Alg}$ the category of dg-algebras. There is a [[bar and cobar construction|bar-construction]] functor $B :\mathrm{Alg}\to\mathrm{Cogc}$ which is a [[adjoint functor|right adjoint]] to the [[bar and cobar construction|cobar-construction]] functor $\Omega:\mathrm{Cogc}\to\mathrm{Alg}$. Starting from a map $f\in\mathrm{Cogc}(C,B A)$, one constructs a twisting cochain $\tau_f$ by postcomposing $f: C\to B A$ by the natural projection $B A\to A[1]$; the [[Maurer-Cartan equation]] for $\tau_f$ translates to saying that $f$ is a chain map, $d_{B A}\circ f = f\circ d_C$. One then replaces $\tau_f$ by the composition of the evident canonical map $\tau_0:\Omega C\to C[-1]$ (called the _canonical twisting cochain_) and $\tau_f[-1]:C[-1]\to A$ to obtain a morphism $f':\Omega C\to A$. The Maurer--Cartan equation for $\tau$ is equivalent also to saying that $f'$ is a chain map, i.e. $d_A\circ f'=f'\circ d_{\Omega C}$.
 
-#Some usages of twisting cochains#
+
+## Some usages of twisting cochains
 
 A twisting cochain is a datum used to define the [[twisted tensor product]] $L\otimes_\tau M$ for any right $C$-co[[module]] $L$ and any left $A$-module $M$,
 as well as the [[twisted module of homomorphisms]] $\mathrm{Hom}_\tau(N,P)$ where $N$ is a left $C$-dg-comodule and $P$ a left $A$-dg-module.
@@ -19,7 +27,8 @@ is a quasiisomorphism. In that case, Keller calls the triple $(C,A,\tau)$ the _K
 $$H_* C = \mathrm{Tor}^A_*(k,k)\quad \text{and}\quad H^* A = \mathrm{Ext}_C(k,k)$$
 where $k$ is the [[ground field]]. Notice that such a formulation of Koszul duality using coalgebras and coderived categories avoids various finiteness conditions present when Koszul duality is phrased as relating algebras to algebras.
 
-#Remarks#
+
+## Remarks
 
 Moore was one of the people who studied the subject of 'differential coalgebra', including twisting cochains, in the 1960s and 1970s and gave a survey of the area during his ICM address.
 
@@ -48,18 +57,20 @@ So let us continue to have various individually "unbalanced" points of view expl
 _Toby_:  Knowing basically nothing about this, I prefer to see various people explain their own perspectives.  Even if they don\'t try to take the work to integrate them.
 =--
 
-#References# 
+
+## References
+
 * Edgar H. Brown Jr. Twisted tensor products. I.  Ann. of Math. (2)  69  (1959) 223--246.
 
-* Kenji Lef&#232;vre-Hasegawa, Sur les A-infini cat&#233;gories, (<a href="http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf">pdf</a>)
+* Kenji Lef&#232;vre-Hasegawa, Sur les A-infini cat&#233;gories, ([pdf](http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf))
 
 * V. A. Smirnov, Simplicial and operad methods in algebraic topology, Transl. Math. Monogr. 198, AMS 2001 (transl. by G. L. Rybnikov) 
 
-* D. Barnes and L. A. Lambe, A Fixed Point Approach to Homological Perturbation Theory, with Don Barnes, Proc. AMS, 112 (1991), 881-892. 
+* D. Barnes and L. A. Lambe, A Fixed Point Approach to Homological Perturbation Theory, with Don Barnes, Proc. AMS, 112 (1991), 881--892. 
 
-* K. Hess, The cobar construction: a modern perspective (<a href="http://sma.epfl.ch/~hessbell/Minicourse_Louvain_Notes.pdf">pdf</a>) (lecture notes from a minicourse at Louvain)
+* K. Hess, The cobar construction: a modern perspective ([pdf](http://sma.epfl.ch/~hessbell/Minicourse_Louvain_Notes.pdf)) (lecture notes from a minicourse at Louvain)
 
-* Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, Deformation theory of objects in homotopy and derived categories, (<a href="http://arxiv.org/abs/math/0702838">part 1</a>, <a href="http://arxiv.org/abs/math/0702839">part 2</a>, <a href="http://arxiv.org/abs/math/0702840">part 3</a>)
+* Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, Deformation theory of objects in homotopy and derived categories, [part 1](http://arxiv.org/abs/math/0702838), [part 2](http://arxiv.org/abs/math/0702839), [part 3](http://arxiv.org/abs/math/0702840))
 
 * N. R. O'Brian, Geometry of twisting cochains.  Compositio Math.  63  (1987),  no. 1, 41--62.
 
@@ -67,4 +78,8 @@ _Toby_:  Knowing basically nothing about this, I prefer to see various people ex
 
 * Henri Gillet, The $K$-theory of twisted complexes, in "Applications of algebraic $K$-theory to algebraic geometry and number theory", Part I, II (Boulder, Colo., 1983), 159--191, Contemp. Math., 55, AMS 1986. 
 
-* Richard M. Hain, Twisted cochains and duality between minimal algebras and minimal Lie algebras, Trans. AMS 277, 1 (1983) 397-411.
+* Richard M. Hain, Twisted cochains and duality between minimal algebras and minimal Lie algebras, Trans. AMS 277, 1 (1983) 397--411.
+
+
+[[!redirects twisting cochain]]
+[[!redirects twisting cochains]]
