@@ -168,5 +168,5 @@ A discussion of differential string structures in terms of [[bundle 2-gerbe]]s i
 
 The [[∞-Lie algebra cohomology]]-data for the description of twisted differential string structures in terms of [[∞-Chern-Weil homomorphism]] is in 
 
-* Sati, S., Stasheff, _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
+* H. Sati, U. Schreiber, J. Stasheff, _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
 
