@@ -21,7 +21,7 @@
 
 1. [[Cheeger-Simons differential character]]s;
 
-1. [[Deligne cohomology]];
+1. [[Deligne cohomology]];\p
 
 1. abelian $n$-[[nLab:gerbe]]s ([[nLab:bundle gerbe]]s) with connection.
 
@@ -423,7 +423,7 @@ $$
 
 By the [[nLab:Poincare lemma]] applied to each [[nLab:Cartesian space]], this is indeed a fibration.
 
-In the [next section](#AbGerbesConnection) we give the proof of this (simple) claim. Here in the warmup phase we instead want to discuss the geometric interpretation of this resolution, along the lines of the section <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#CurvatureCharacteristicsI">curvature characteristics of 1-bundles</a> in the [[differential cohomology in an (∞,1)-topos -- survey|survey-part]]
+In the [next section](#AbGerbesConnection) we give the proof of this (simple) claim. Here in the warmup phase we instead want to discuss the geometric interpretation of this resolution, along the lines of the section <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#CurvatureCharacteristicsI">curvature characteristics of 1-bundles</a> in the [[schreiber:differential cohomology in an (∞,1)-topos -- survey|survey-part]].
 
 
 +-- {: .un_prop }
@@ -1118,7 +1118,7 @@ To see that we have a chain map, let $\omega$ be a $U$-familiy of closed $n$-for
 $$
   \int_{\Delta^n} \sum_k (-1)^k \delta_k^* \omega
   =
-  \pm \int_{\partial Delta^{n+1}} \omega
+  \pm \int_{\partial \Delta^{n+1}} \omega
   =
   \pm \int_{\Delta^{n+1}} d_{\Delta^n} \omega
   =
@@ -1408,6 +1408,27 @@ $$
 where the restriction to the top morphism is the underlying cocycle and the restriction to the bottom morphism the curvature form.
 
 The generalization to such diagram cocycles from $b^{n-1}\mathbb{R}$ to general [[nLab:∞-Lie algebra]]s $\mathfrak{g}$ we discuss below in [∞-Lie algebra valued connections](#InfinityLieAlgebraConnection).
+
+## Examples
+
+For $n = 1$ a circle $n$-bundle with connection in the sense discussed here is indeed an ordinary hermitian [[line bundle]] or equivalently $U(1)$-[[principal bundle]] with connection.
+
+For $n = 2$ a circle 2-bundle with connection is equivalent to a [[bundle gerbe]] with connection (at least over a smooth manifold. Over an [[orbifold]] the definition given here does produce the correct [[equivariant cohomology]], which is different from that of bundle gerbes that are equivariant in the ordinary sense.)
+
+Classes of examples of higher circle bundles with connection are provided by [[∞-Chern-Weil theory]] which provides homomorphisms of the form
+
+$$
+  \mathbf{H}_{conn}(X,\mathbf{B}G) \to \mathbf{H}_{diff}(X, \mathbf{B}^n U(1))
+  \,.
+$$
+
+See for instance 
+
+* [[Chern-Simons circle 3-bundle]]
+
+for the class of circle 3-bundles that arise as differential refinements of degree 4 [[characteristic class]]es such as the [[Pontryagin class]].
+
+
 
 [[!redirects circle n-bundles with connection]]
 [[!redirects circle n-bundles with connections]]
