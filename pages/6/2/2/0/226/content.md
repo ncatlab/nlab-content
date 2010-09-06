@@ -1,17 +1,17 @@
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
-## Defintiion
+## Definition
 
-A for $k$ a [[field]], a _vector space_ is [[module]] (in [[Ab]]) over the [[ring]] $k$.
+A for $k$ a [[field]], a __vector space__ over $k$ is [[module]] over the [[ring]] $k$.  Sometimes a vector space over $k$ is called a __$k$-linear space__.  (Compare '$k$-[[linear map]]'.)
 
 The [[category]] of vector spaces is typically denoted [[Vect]], or 
 $Vect_k$ if we wish to make the field $k$ explicit. So
 
 $$
-  Vect_k := k Mod
+  Vect_k \coloneqq k Mod
   \,.
 $$
 
@@ -33,4 +33,7 @@ For some reason this is different when rings are refined to _fields_ and modules
 _[[Eric Forgy|Eric]] says_: Could you somehow define a vector space as a "degroupoidified" groupoid? That would be pretty.
 
 
+[[!redirects vector space]]
 [[!redirects vector spaces]]
+[[!redirects linear space]]
+[[!redirects linear spaces]]
