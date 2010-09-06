@@ -129,15 +129,15 @@ $$
 
 is well defined and represents the class $c(P) \in H^4(X)$ in [[integral cohomology]]. 
 
-Moreover, this refine to the Cech-[[Deligne cohomology]] given by
+Moreover, this refines to the cocycle in Cech-[[Deligne cohomology]] that is given by
 
 $$
   \left(
      CS(\sigma_i^* A)
      \,,\;\;
-     \int_{\Delta^1} CS(\hat g_{i j}^* A)
+     \int_{\Delta^1} CS(P\cdot \hat g_{i j}^* A)
      \,,\;\;
-     \int_{\Delta^2} CS(\hat g_{i j k}^* A)
+     \int_{\Delta^2} CS(P\cdot \hat g_{i j k}^* A)
      \,,\;\;
      \int_{\Delta^3} \hat g_{i j k l}^* \mu
   \right)
@@ -145,11 +145,13 @@ $$
 
 where
 
-* $A \in \Omega^1(P,\mathfrak{g})$ is the incarnation of the connection $\nabla$ as an [[Ehresmann connection]] given by a gllobally defined 1-form on $A$;
+* $A \in \Omega^1(P,\mathfrak{g})$ is the incarnation of the connection $\nabla$ as an [[Ehresmann connection]] given by a gllobally defined 1-form $A$ on the total space $P \to X$ of the bundle;
 
 * $\sigma_i : U_i \to P$ are the local [[section]]s of $P \to X$ that induce the original Cech cocycle $(g_{i j} := \sigma_i \cdot \sigma_j^{-1})$;
 
-* $CS(...)$ denotes the [[Chern-Simons form]] of the given $\}mathfrak{g}$-valued 1-form
+* $P \cdot \hat g_{i j} : \Delta^1 \to P$ is given by the right [[action]] of $G$ on $P$ and analogously for the other terms;
+
+* $CS(...)$ denotes the [[Chern-Simons form]] of the given $\}mathfrak{g}$-valued 1-form.
 
 =--
 
@@ -158,8 +160,7 @@ where
 
 First notice that this is indeed well-defined: by compactness and simplicty of $G$ we have$\pi_3(G) = \mathbb{Z}$. By assumption on $\mu \in \Omega^3(G)$ we have that for any map $f : S^3 \to G$ we have $\int_{S^3} f^*\mu \in \mathbb{Z} \subset \mathbb{R}$. This implies that $c(g)$ is indeed a Cech cocycle.
 
-
-Then the proof is effectively just the observation that the given collection of differential forms indeed does refine this to a Deligne cocycle, and that therefore we can read off the image of the integral cohomoloy class $[c(g)]$ in de Rham cohomology from the curvature 4-form of this Deligne cocycle. That is by construction $\langle F_\nabla \wedge F_\nabla \rangle \in \Omega^4_{cl}(X)$, which by [[Chern-Weil theory]] is indeed the image of the claimed integral class.
+Then the proof is effectively just the observation that the given collection of differential forms indeed does refine this to a Cech-cocycle with coefficients in the Deligne complex, and that therefore we can read off the image of the integral cohomoloy class $[c(g)]$ in de Rham cohomology from the curvature 4-form of this Deligne cocycle. That is by construction $\langle F_\nabla \wedge F_\nabla \rangle \in \Omega^4_{cl}(X)$, which by [[Chern-Weil theory]] is indeed the image of the claimed integral class.
 
 =--
 
