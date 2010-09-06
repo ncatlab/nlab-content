@@ -21,11 +21,11 @@
 
 1. [[Cheeger-Simons differential character]]s;
 
-1. [[Deligne cohomology]];\p
+2. [[Deligne cohomology]];
 
-1. abelian $n$-[[nLab:gerbe]]s ([[nLab:bundle gerbe]]s) with connection.
+3. abelian $n$-[[nLab:gerbe]]s ([[nLab:bundle gerbe]]s) with connection.
 
-In degree 2 it classifies ordinary [[nLab:circle group]]-[[nLab:principal bundles]] [[nLab:connection on a bundle|with connection]].
+In degree $2$ it classifies ordinary [[nLab:circle group]]-[[nLab:principal bundles]] [[nLab:connection on a bundle|with connection]].
 
 We discuss here how this ordinary differential cohomology theory is reproduced as the [[schreiber:differential cohomology in an (∞,1)-topos|intrinsic differential cohomology]] of the [[(∞,1)-topos]] $\mathbf{H} = $ [[nLab:?LieGrpd]] with coefficients in the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie n-groups</a> $\mathbf{B}^{n+1} U(1)$. We may think of this as describing connections on $\mathbf{B}^n U(1)$-[[nLab:principal ∞-bundle]]s in $\infty Lie Grpd$ in the sense described in detail at [[∞-Chern-Weil theory]].
 
