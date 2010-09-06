@@ -9,7 +9,6 @@
 =--
 =--
 
-> under construction
 
 #Contents#
 * automatic table of contents goes here
@@ -19,7 +18,7 @@
 
 The _string 2-group_ is a [[Lie infinity-groupoid|Lie 2-group]]-refinement of the [[topological group]] called the [[string group]].
 
-The topological string group is the homotopy fiber in [[Top]] of the first fractional [[Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B}Spin \to \mathbf{B}^4 \mathbb{Z}$. The string 2-group is the homotopy fiber in [[?LieGrpd]] of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>  $\frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$.
+The topological string group is the [[homotopy fiber]] in [[Top]] of the first fractional [[Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B}Spin \to \mathbf{B}^4 \mathbb{Z}$. The string 2-group is the homotopy fiber in [[?LieGrpd]] of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>  $\frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$.
 
 ### Motivation from quantum physics
 
@@ -38,86 +37,99 @@ The _kinematics_ of the "spinning string" called the [[heterotic string]] requir
 Such a lift classifies a topological [[string group]]-[[principal bundle]] on $X$. But the _dynamics_ of the string is determined by a differential refinement of this [[nonabelian cohomology]] class (aspects of this are described at [[schreiber:twisted differential String- and Fivebrane structures]]): it is given by a _smooth_ $String(n)$-[[schreiber:principal 2-bundle with connection|principal 2-bundle with connection]].
 
 In order to make sense of this one needs an incarnation and refinement of the topological [[string group]] inside an [[(infinity,1)-topos]] of [[Lie infinity-groupoid]]s. This is what the string 2-group accomplishes.
- 
+
+
+
+## Definition
+
+Let $\mathfrak{g} = \mathfrak{so}$ be the [[orthogonal Lie algebra]] and $\mu = \langle  . , [-,-]\rangle\in CE(\mathfrak{so})$ the canonical cocycle in [[Lie algebra cohomology]] corresponding to the [[Killing form]] [[invariant polynomial]], normalized such that its continuation to a left-invariant 3-form on the [[spin group]] represents the image in deRham cohomology of a generator of the [[integral cohomology]] group $H^3(Spin,\mathbb{Z}) \simeq \mathbb{Z}$.
+
+Then by <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">integration of Lie algebra cocycles</a> we get a morphism
+
+$$
+  \frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)
+$$
+
+in the [[(∞,1)-topos]] [[?LieGrpd]]. 
+
+Concretely, in terms of the [[model structure on simplicial presheaves]] over the [[site]] [[CartSp]], this is given as follows: the 3-[[coskeleton]] $\mathbf{cosk}_3 \exp(\mathfrak{g})$ of the [[simplicial presheaf]]
+
+$$
+  \exp(\mathfrak{g}) : (U,[n]) \mapsto Hom_{dgAlg}(CW(\mathfrak{g}), C^\infty(U)\otimes\Omega^\bullet(\Delta^n))
+$$
+
+is an equivalent [[resolution]] of $\mathbf{B}G := \{G \stackrel{\to}{\to} *\}$, and the cocycle $\frac{1}{2}\mathbf{p}_1$ is given by the [[anafunctor]]
+
+$$
+  \array{
+    &&\mathbf{cosk}_3 \ing_{\Delta^\bullet}\exp(\mu) &\stackrel{\exp(\mu)}{\to}&
+    \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
+    \\
+    &&\downarrow^{\mathrlap{\simeq}}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+where the top horizontal morphism sends a 3-morphism $C^\infty(U)\otimes\Omega^\bullet(\Delta) \leftarrow CE(\mathfrak{g})$ to the composite $C^\infty(U)\otimes\Omega^\bullet(\Delta) \stackrel{\leftarrow}{\leftarrow} CE(\mathfrak{g}) \leftarrow CE(b^2 \mathbb{R}) : \mu(A)$, regards that as a $U$-family of 3-forms and performs [[fiber integration]] over the 3-simplex, regarding the result modulo $\mathbb{Z}$.
+
++-- {: .un_defn}
+###### Definition
+
+The delooping of the string Lie 2-group is the [[homotopy fiber]] 
+
+$$
+  \array{
+    \mathbf{B}String &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}Spin &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}&
+    \mathbf{B}^3 U(1)
+  }
+$$
+
+in [[?LieGrpd]].
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+By the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">theorem on geometric realization</a> $|-| : \infty LieGrpd \stackrel{\Pi}{\to} \infty Grpd \stackrel{\simeq}{\to} Top$ it follows that the geometric realizaton of $\mathbf{B}String$ is $\mathcal{B}String$, the homotopy fiber in [[Top]] of
+
+$$
+  \array{
+    \mathcal{B}String &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathcal{B}Spin &\stackrel{\frac{1}{2}{p}_1}{\to}&
+    \mathcal{B}^4 \mathbb{Z}
+  }
+  \,.
+$$
+
+
+=--
+
+
+
+## Models
+
+There are various equivalent constructions that should eventually be described here in detail. For the time being this here is very incomplete and -- notably -- biased. But it should improve eventally.
+
 ### As an integration of the String Lie 2-algebra 
 
 The string Lie 2-group is the result of applying [[Lie integration]] to the [[String Lie 2-algebra]] for the case that the Lie algebra 3-cocycle this is  normalized so that its image as a left-invariant 3-form on the [[spin group]] is the image in [[deRham cohomology]] of the generator of the degree [[integral cohomology]] group $H^3(Spin(n), \mathbb{Z}) \simeq \mathbb{Z}$.
 
-...
-
-### In terms of Whitehead towers in a smooth $(\infty,1)$-topos 
-
-
-Just as the [[topological group|topological]] [[string group]] is the element above the  [[spin group]] in the [[Whitehead tower]] of $O(n)$ inside the [[(∞,1)-topos]] [[Top]] -- in terms of [[delooping]]s
-
-$$
- (
-  \cdots
-  \to
-  \mathcal{B} String(n)
-  \to 
-  \mathcal{B} Spin(n)
-  \to \mathcal{B}SO(n) \to \mathcal{B}O(n)
-  )
-  \in Top
-  \,,
-$$
-
-so the **string 2-group** is the [[Whitehead tower]] element above $Spin(n)$, but now regarded in an [[(∞,1)-topos]] $\mathbf{H}$ of smooth [[∞-groupoid]]s. In terms of [[delooping]]s:
-
-$$
- (
-  \cdots
-  \to
-  \mathbf{B} String(n)
-  \to 
-  \mathbf{B} Spin(n)
-  \to 
-  \mathbf{B}SO(n) 
-  \to 
-  \mathbf{B}O(n)
-  )
-  \in \mathbf{H}
-  \,.
-$$
-
-
-It is in $\mathbf{H}$ the [[homotopy fiber]] of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth class</a>
-
-$$
-  \frac{1}{2}\mathbf{p}_1
-  :
-  \mathbf{B} Spin(n)
-  \stackrel{}{\to}
-  \mathbf{B}^3 U(1)
-$$
-
-that is the  [[Lie group cohomology]]-cocycle that integrates the normalized canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu_3 \in CE(\mathfrak{so}(n))$.
-
-**Remark.** Notice that in the existing literature the smooth [[group cohomology|group cocycles]] of a [[Lie group]] are _defined_ to be simplicial morphisms out of 
-
-$$
-  (\cdots  G\times G\stackrel{\stackrel{\to}{\to}}{\to}G\stackrel{\to}{\to}{*})
-  \,.
-$$
-
-With that definition, $\frac{1}{2}p_1$ does _not exist_ as a smooth cocycle. But, while that definition is copied verbatim from the correct definition in [[Top]], it is _not_ the right general definition for [[Lie group cohomology]]. See [[Lie group cohomology]] for more.
-...
-
-
-## Constructions 
-
-There are various equivalent constructions that should eventually be described here in detail. For the time being this here is very incomplete and -- notably -- biased. But it should improve eventally.
-
-### As a weak Lie 2-group
-
-... Henriques...
+([Henriques](#Henriques)).
 
 ### As a strict Lie 2-group
 
-A realization of the string 2-group as a [[strict 2-group]] [[internalization|internal]] to [[diffeological space]]s was given in 
+A realization of the string 2-group as a [[strict 2-group]] [[internalization|internal]] to [[diffeological space]]s was given in ([BCSS](#BCSS)).
 
-* Baez, Crans, Schreiber, Stevenson, _From loop groups to 2-groups_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BCSS">web</a>)
 
 This is one of three different (there should be more), weakly equivalent such [[strict 2-group]] [[internalization|internal]] to [[diffeological space]] models that are discussed in the (to date unpublished)
 
@@ -192,148 +204,21 @@ where
 
 ### As a finite-dimensional weak Lie 2-group 
 
-...Schommer-Pries ...
-
-
-### By co-killing of homotopy groups in the smooth $(\infty,1)$-topos ##
-
-...The smooth version of $\frac{1}{2}p_1 : \mathbf{B}Spin(n) \to \mathbf{B}^3 R//Z$ is constructed as follows.
-
-Use the [[models for infinity-stack (infinity,1)-toposes|model]] given by the [[model structure on simplicial presheaves]] on [[Diff]] or similar. All [[simplicial presheaf|simplicial presheaves]] appearing are actually simplicial [[concrete sheaf|concrete sheaves]] hence simplicial [[diffeological space]]s.
-
-The cocycle is a span in this context out of an acyclic fibration over $\mathbf{B}Spin(n)$ (an [[anafunctor]])
-
-$$
-  \array{
-    \mathbf{B}Q
-    &\stackrel{f}{\to}&
-    \mathbf{B}^3 R/Z
-    \\
-    \downarrow^{\simeq}
-    \\
-    \mathbf{B}Spin(n)
-  }
-  \,.
-$$
-
-The resolution $\mathbf{B}Q$ may be chosen as the 3-[[coskeleton]] on the complex whose 1-cells are smooth paths in $Spin(n)$ starting at the neutral element, 2-cells smooth 2-[[simplex]]es in $Spin(n)$, 3-cells smooth 3-[[simplex]]es
-
-$$
-  \mathbf{B}Q
-  :=
-  cosk_3
-  \left(
-  \array{
-    \\     
-    hom_*(\Delta^3_{Diff}, G)
-   \\    
-    \downarrow \downarrow \downarrow\downarrow
-    \\     
-    hom_*(\Delta^2_{Diff}, G)
-   \\    
-    \downarrow \downarrow \downarrow
-    \\     
-    hom_*(\Delta^1_{Diff}, G)
-    \\
-    \downarrow \downarrow
-    \\
-    *
-  }
-  \right)
-$$
+([Schommer-Pries](#Schommer-Pries))
 
 
 
-
-The projection to $\mathbf{B}Spin(n)$ takes paths to their endpoint. Because $\pi_2(Spin(n)) = 0$ this is indeed a weak equivalence, where we  make use of the [[Steenrod approximation theorem]] (specifically prop 13 [here](http://www.emis.de/journals/AM/09-2/am1753.pdf#page=8)):
-
-the morphism $\mathbf{B}Q \to \mathbf{B} G$ is an acyclic Kan-fibration: given the boundary of a smooth $k$-simplex in $G$ for $k \leq 3$, there is a continuous map flling it and hence also a smooth $k$-simplex filling it. Above degree 3 both $\mathbf{B}Q$ and $\mathbf{B}Q$ have unique sphere fillers.
-
-
-
-
-Then let $\mu_3 \in \Omega^3(Spin(n))$ be the above-mentioned de-Rham representative of the generator of $H^3(Spin(n), \mathbb{Z}) \simeq \mathbb{Z}$.  The morphism $f$ in the above reads in 3-simplices $[\phi : \Delta^3_{Diff} \to Spin(n)]$ and sends them to
-
-$$
-  \int_{\Delta^3_{Diff}} \phi^* \mu_3
-  \;\;
-  \in R/Z
-  \,.
-$$
-
-This is well defined because $\mu_3$ has integral periods. 
-
-That defines the smooth version of the cocycle. Notice how $Q$ is a considerably "bigger" resolution of $Spin(n)$ than the familiar bar resolution, which doesn't work here in the smooth case, as mentioned above.
-
-Then using this the smooth string 2-group is defined abstractly as the [[homotopy fiber]]
-
-$$ 
-  \array{
-     \mathbf{B} String &\to&  {*}
-     \\
-     \downarrow && \downarrow
-     \\
-     \mathbf{B}Q &\stackrel{f}{\to}& \mathbf{B}^3 R/Z
-     \\
-     \downarrow^{\simeq}
-     \\
-     \mathbf{B}Spin(n)
-  }
-  \,.
-$$
-
-Let now $\mathbf{B}^3 U(1)$ be the [[omega-nerve]] of the [[strict omega-groupoid]] corresponding to the [[crossed complex]] $(U(1) \to 1 \to 1 \stackrel{\to}{\to} *)$ and similarly $\mathbf{E}\mathbf{B}^2 U(1)$ that of the crossed complex $U(1) \stackrel{Id}{\to} U(1) \to  1 \stackrel{\to}{\to} *$. We may then compute the homotopy fiber as the ordinary [[pullback]]
-
-$$
-  \array{
-    \mathbf{B}String &\to& \mathbf{E}\mathbf{B}^2 U(1)
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{B}Q &\to& \mathbf{B}^3 U(1)
-  }
-$$
-
-in simplicial presheaves, from which we find
-
-$$
-  \mathbf{B}String
-  \simeq
-  cosk_3
-  \left(
-  \array{
-    \\     
-    \mathbf{B}String_3 \subset hom_*(\Delta^3_{Diff}, G)\times (U(1))^4
-    \\    
-    \downarrow \downarrow \downarrow\downarrow
-    \\     
-    hom_*(\Delta^2_{Diff}, G) \times U(1)
-    \\    
-    \downarrow \downarrow \downarrow
-    \\     
-    hom_*(\Delta^1_{Diff}, G)
-    \\
-    \downarrow \downarrow
-    \\
-    *
-  }
-  \right)
-  \,,
-$$
-
-where the subobject in degree 3 is that of 3-balls such that the integral of $\mu_3$ over them yields in $\mathbb{R}/\mathbb{Z}$ the signed product of the $U(1)$-labels of the four faces.
-
-...
 
 ## References
 
-* Henriques
+* [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv:math/0603563](http://arxiv.org/abs/math/0603563))
+{#Henriques}
 
-* BCSS
+* BCSS, _From loop groups to 2-groups_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BCSS">web</a>)
+{#BCSS}
 
-* Schommer-Pries
-
-* etc ...
+* [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+{#Schommer-Pries}
 
 
 [[!redirects String 2-group]]
