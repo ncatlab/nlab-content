@@ -179,9 +179,21 @@ Is this really what Mac Lane said in his foundations section (especially, on pag
 &#10179;$&#x27C3;$&#x27C3;
 
 
-
-
-
++-- {: .query .clickDown tabindex="0"}
+###Testing### {: .clickToReveal}
+###One-two-three### {: .clickToHide tabindex="0"}
++--{: .hide}
+Trying out a thing
+=--
++--{: .hide}
++--{: .query}
+ is this a good idea, or not?
+=--
+=--
++--{: .hide}
+another...
+=--
+=--
 
 
 ***
