@@ -21,13 +21,21 @@ A _Lie algebra_ is the [[infinitesimal object|infinitesimal]] approximation to a
 
 ### Ordinary definition
 
-A _Lie algebra_ is a [[vector space]] $\mathfrak{g}$ equuipped with a bilinear skew-symmetric map $[-,-]  _\mathfrak{g} \vee \mathfrak{g} \to \mathfrak{g}$ which satisfies the [[Jacobi idenity]]:
+A _Lie algebra_ is a [[vector space]] $\mathfrak{g}$ equuipped with a bilinear skew-symmetric map $[-,-]  _\mathfrak{g} \vee \mathfrak{g} \to \mathfrak{g}$ which satisfies the [[Jacobi identity]]:
 
 $$
   \forall x,y,z \in \mathfrak{g} : [x,[y,z]] + [z,[x,y]] + [y,[z,x]] = 0
   \,.
 $$
 
+A [[homomorphism]] of Lie algebras is a linear map $\phi : \mathfrak{g} \to \mathfrak{h}$ such that for all $x,y \in \mathfrak{g}$ we have
+
+$$
+  \phi([x,y]_{\mathfrak{g}}) = [\phi(x),\phi(y)]_{\mathfrak{h}}
+  \,.
+$$
+
+This defines the [[category]] [[LieAlg]] of Lie algebras.
 
 ### In a general linear category
 
@@ -58,6 +66,8 @@ See
 * [[Lie theory]].
 
 ## Special properties
+
+* [[simple Lie algebra]]
 
 * [[semisimple Lie algebra]]
 
