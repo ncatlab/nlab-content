@@ -175,7 +175,7 @@ So the only mystery about this construction is really: where does it come from? 
 
 The above Cech-Deligne cocycle construction of $\hat c(\nabla)$ may be understood as a special case of the general construction of Chern-Weil homomorphism by the methods discussed at [[∞-Chern-Weil theory]]. 
 
-We first give now the main statement of how this works, and then afterwards explain where the various ingredients come from.
+We briefly recall the general approach and then spell out the details.
 
 The basic ingredients in [[∞-Chern-Weil theory]] that give the refinement of a [[characteristic class]] to a morphism
 
@@ -185,7 +185,7 @@ $$
 
 from the $G$-principal bundles with connection to [[ordinary differential cohomology]] are this:
 
-1. for a given [[Lie algebra]] $\mahfrak{g}$ the realization of the corresponding [[Lie group]] as a truncation of the simplicial presheaf
+1. for a given [[Lie algebra]] $\mathfrak{g}$ the realization of the corresponding [[Lie group]] as a truncation of the simplicial presheaf
 
    $$
      (U,[n]) \mapsto \{C^\infty(U)\otimes \Omega^\bullet(\Delta^n) \leftarrow CE(\mathfrak{g})\}
@@ -222,21 +222,21 @@ from the $G$-principal bundles with connection to [[ordinary differential cohomo
         \right\}
       $$
 
-  1. thickening the Lie algebra cocycle by its [[invariant polynomial]]
-     and Chern-Simons element
+   1. thickening the Lie algebra cocycle by its [[invariant polynomial]]
+      and Chern-Simons element
+ 
+      $$
+        \array{
+           CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{k-1}\mathbb{R})
+           \\
+           \uparrow && \uparrow
+           \\
+           W(\mathfrak{g}) &\stackrel{(cs,\langle -\rangle)}{\leftarrow}&
+           W(b^{k-1} \mathbb{R})
+        }
+      $$
 
-     $$
-       \array{
-          CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{k-1}\mathbb{R})
-          \\
-          \uparrow && \uparrow
-          \\
-          W(\mathfrak{g}) &\stackrel{(cs,\langle -\rangle)}{\leftarrow}&
-          W(b^{k-1} \mathbb{R})
-       }
-     $$
-
-  and then postcomposing with that.
+   and then postcomposing with that.
 
 
 For the case at hand, let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\langle -\rangle \in W(\mathfrak{g})$ its canonical [[Killing form]] [[invariant polynomial]], $\mu = \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the corresponding [[Lie algebra cohomology|Lie algebra cocycle]], $cs \in W(\mathfrak{g})$ the Chern-Simons elements exhibiting the transgression betweemn the two, $G$ the [[simply connected]] [[Lie group]] [[Lie integration|integrating]] it.
@@ -250,7 +250,9 @@ First consider the bare cocycle for the Chern-Simons circle 3-bundle as the <a h
 Consider the [[simplicial presheaf]]
 
 $$
-  \exp(\mathfrak{g}) : (U,[n]) \{C^\infty(U) \otimes \Omega^\bullet(\Delta^n) \leftarrow CE(\mathfrak{g})\} 
+  \exp(\mathfrak{g}) : (U,[n]) 
+   \mapsto 
+  \{C^\infty(U) \otimes \Omega^\bullet(\Delta^n) \leftarrow CE(\mathfrak{g})\} 
   \,,
 $$
 
@@ -267,7 +269,7 @@ $$
   \mathbf{cosk}_3 \exp(\mathfrak{g}) \to \mathbf{B}G
 $$
 
-from the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ to the [[delooping]] of the simply connected Lie group $G$ which is given on 1-morphisms by [[parallel transport]] is an equivalence ( in the [[model structure on simplicial presheave]] $[CartSp^{op}, sSet]_{proj}$).
+from the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ to the [[delooping]] of the simply connected Lie group $G$ which is given on 1-morphisms by [[parallel transport]] is an equivalence ( in the [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj}$).
 
 =--
 
@@ -275,7 +277,7 @@ from the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ to the [[delooping]] of the si
 ###### Proof
 
 
-Use that a $\mthfrak{g}$-valued 1-form on the interval is canonically identified with a based path in $G$. Then use that for $k \leq 2$ we have $\pi_k(G) = 0$. See [[Lie integration]] for more.
+Use that a $\mathfrak{g}$-valued 1-form on the interval is canonically identified with a based path in $G$. Then use that for $k \leq 2$ we have $\pi_k(G) = 0$. See [[Lie integration]] for more.
 
 =--
 
@@ -303,7 +305,7 @@ $$
   \int_{\Delta^\bullet}  : \exp(b^2 \mathbb{R}) \stackrel{\simeq}{\to} \mathbf{B}^3 \mathbb{R}
 $$
 
-discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfBnR">Integration to Line n-groups</a> with the evident quotient $\mathbf{B}^3 \mathbb{R} \to \maathbf{B}^3 \mathbb{R}/mathbb{Z}$, where the copy of $\mathbb{Z}$ in $\mathbb{R}$ is the lattice of periods of $\mu$ over 3-speheres in $G$.
+discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfBnR">Integration to Line n-groups</a> with the evident quotient $\mathbf{B}^3 \mathbb{R} \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}$, where the copy of $\mathbb{Z}$ in $\mathbb{R}$ is the lattice of periods of $\mu$ over 3-speheres in $G$.
 
 =--
 
@@ -318,13 +320,15 @@ $$
   \,.
 $$
 
-The right veritcal morphism sends this its [[fiber integration]]
+The right vertical morphism sends this to the [[fiber integration]]
 
 $$
   U \mapsto \int_{\Delta^3} \mu(A) \;\;\; \in \mathbb{R} 
 $$
 
-and regards the result then modulo $\mathbb{Z}$. That this indeed gives a morphism down at the bottom is the statement that for a 4-morphism in $\mathbf{cosk}_3 \exp(\mathfrak{g})$ -- which is a 3-sphere $V : S^3 \to G$ -- we have that $int_{S^3} V^* \mu(A) = 0 mod \mathbb{Z}$, which is true by the fact that we take $\mathbb{Z}$ to be precisely generated by these periods. (Alternatively we can assume $\mu$ to be  normalized such that it generates the image in deRham cohomology of $H^3(G,\mathbb{Z}) \simeq \mathbb{Z}$).
+and regards the result then modulo $\mathbb{Z}$. That this indeed gives a morphism down at the bottom is the statement that for a 4-morphism in $\mathbf{cosk}_3 \exp(\mathfrak{g})$ -- which is a 3-sphere $V : S^3 \to G$ -- we have that $\int_{S^3} V^* \mu(A) = 0 \;mod\; \mathbb{Z}$, which is true by the fact that we take $\mathbb{Z}$ to be precisely generated by these periods. (Alternatively we can assume $\mu$ to be  normalized such that it generates the image in deRham cohomology of $H^3(G,\mathbb{Z}) \simeq \mathbb{Z}$).
+
+We shall by slight abuse of notation write $\exp(\mu)$ also for the morphism $\mathbf{cosk}_3 \exp(\mathfrak{g}) \to \mathbf{B}^3 \mathbb{R}/\mathbb{Z}$.
 
 
 +-- {: .un_lemma }
@@ -342,7 +346,7 @@ For $\{U_i \to X\}$ a [[cover]] and $C(U) \in [CartSp^{op}, sSet]_{proj}$ the co
        \\
        & {}^{\mathllap{\hat g}}\nearrow & \downarrow^{\mathrlap{\simeq}}
        \\
-       C(U) &\stackrel{g}{\to}&
+       C(U) &\stackrel{g}{\to}& \mathbf{B}G
     }
   $$
 
@@ -350,222 +354,182 @@ For $\{U_i \to X\}$ a [[cover]] and $C(U) \in [CartSp^{op}, sSet]_{proj}$ the co
 
 =--
 
++-- {: .un_def }
+###### Definition
+
+Write $\exp(\mathfrak{g})_{diff}$ for the [[simplicial presheaf]]
+
+$$
+  (U,[n]) \mapsto
+  \left\{
+    \array{
+      C^\infty(U)\otimes \Omega^\bullet(\Delta^n)
+      &\stackrel{}{\leftarrow}& CE(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+      &\leftarrow&
+      W(\mathfrak{g})
+    }
+  \right\}
+  \,.
+$$
+
+=--
+
+Its 3-[[coskeleton]] $\mathbf{cosk}_3 \exp(\mathfrak{g} \to inn(\mathfrak{g}))$ is the coefficient for $G$-principal bundles with [[pseudo-connection]] adapted to the model $\mathbf{cosk}_3 \exp(\mathfrak{g})$ for $\mathbf{B}G$.
+
++-- {: .un_lemma }
+###### Lemma
+
+Pseudo-connections $\hat \nabla$
+
+$$
+  \array{
+    && \mathbf{cosk}_3 \exp(\mathfrak{g})_{diff}
+    \\
+    &{}^{\mathllap{\hat \nabla}}\nearrow& \downarrow^{\mathrlap{\simeq}}
+    \\
+    && \mathbf{cosk}_3 \exp(\mathfrak{g})
+    \\
+    & {}^{\mathllap{\hat g}}\nearrow & \downarrow^{\mathrlap{\simeq}}
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+which are _genuine_ $\infty$-connections in that their curvature components have no leg along the simplicial directions are in bijection with ordinary connections on the $G$-bundle given by $C(U) \to \mathbf{B}G$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+On single patches $\hat \nabla$ is a collection of $\mathfrak{g}$-valued 1-forms $A_i \in \Omega^1(U_i, \mathfrak{g})$.
+
+
+On double intersection it is a collection
+
+$$
+  \hat A_{i j} = A_{i j} + \lambda_{i j} \in 
+  \Omega^1(U_i \cap U_j, \mathfrak{g})\otimes C^\infty(\Delta^1) \oplus
+   C^\infty(U)\otimes \Omega^1(\Delta^1, \mathfrak{g})
+  \subset \Omega^1(U_i \cap U_j  \times \Delta^1, \mathfrak{g})
+$$
+
+whose restriction $\lambda_{i j}$ to $\Delta^1$ is the given path $\hat g_{i j}$ that is being covered. The condition that the curvature of $\hat A_{i j}$ has no component in the simplicial direction is the [[differential equation]]
+
+$$
+  \frac{\partial}{\partial t} A_{i j} = d_U (\lambda_{i j})_t + [(\lambda_{i j})_t, A_{i j}]
+ \,.
+$$
+
+This differential equation has a unique solition for the boundary condition $A_{i j}(0) = A_i$ given by
+
+$$
+  A_{i j}(t) = \hat g_{i j}(t)^{-1}(A_i + d)\hat g_{i j}(t)
+  \,.
+$$
+
+(To see this, use the formulas from [[parallel transport]]. If we assume just for notational simplicity that we are dealing with a [[matrix Lie algebra]] then we have $\frac{\partial}{\partial t} \hat g_{i j} = \hat g_{i j} \cdot \lambda$ (by definition) and using that the claim follows.)
+
+In particular this implies  the forms on single patches satisfy the ordinary cocycle relation
+
+$$
+  A_{i j}(1) = A_j = g_{i j}^{-1}(A_i + d)g_{i j}
+$$
+
+for connections. 
+
+Similarly there are differential equations on 2-simplices and 3-simplices with unique solutions.
+
+=--
+
+
++-- {: .un_lemma }
+###### Observation
+
+Pasting postcomposition with the diagram
+
+$$
+  \array{
+     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^2 \mathbb{R})
+     \\
+     \uparrow && \uparrow
+     \\
+     W(\mathfrak{g}) &\stackrel{(cs,\langle \rangle)}{\leftarrow}& 
+     W(b^2 \mathbb{R})
+  }
+$$
+
+indudes a morphism $\exp(\mathfrak{g})_{diff} \to \exp(b^2\mathbb{R})_{diff}$ and we obtain a commuting diagram
+
+$$  
+  \array{
+     \exp(\mathfrak{g})_{diff} &\to& \exp(b^2\mathbb{R})_{diff}
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{cosk}_3\exp(\mathfrak{g})_{diff} &\to& 
+     \mathbf{B}^3 U(1)_{chn,diff}
+  }
+$$
+
+that covers the corresponding diagram we had before.
+
+=--
+
+Here we are using the object $\mathbf{B}^3 U(1)_{ch,diff}$ described in detail at [[circle n-bundle with connection]].
+
++-- {: .un_remark }
+###### Remark
+
+The deeper reason for this construction is that the zig-zag comosite 
+
+$$
+  \mathbf{B}G
+  \stackrel{\simeq}{\leftarrow}
+  \mathbf{cosk}_3\exp(\mathfrak{g})_{diff}
+  \to 
+  \mathbf{B}^3 U(1)_{diff,chn}
+  \to
+  \mathbf{\flat}_{dR}\mathbf{B}^4 U(1)_{chn}
+$$
+
+of morphisms of simplicial presheaves models the intrinsically defined morphism
+
+$$
+  \mathbf{B}G \to \mathbf{\flat}_{dR}\mathbf{B}^4 U(1)
+$$
+
+in the [[(∞,1)-topos]] [[?LieGrpd]].
+
+=--
 
 
 +-- {: .un_prop }
 ###### Proposition
 
-
-Write $\exp(\mu) : \mathbf{B}G \to \mathbf{B}^3 U(1)$ for the [[cocycle]] in [[Lie group cohomology]] obtained by <a href="http://www.ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of $\mu$</a> and write $\mathbf{B}^3 U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)$ for the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CanonmicalFormOnG">canonical curvature invariant</a>.
-
-Then:
-
-for $X$ a [[smooth manifold]] and $X \to \mathbf{B}G$ a cocycle for a $G$-[[principal bundle]], the composite morphism 
-
-$$
-  X \to \mathbf{B}G \stackrel{\exp(\mu)}{\to} \mathbf{B}^3 U(1) \stackrel{}{\to} \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)
-$$ 
-
-in [[?LieGrpd]] is modeled in the [[model structure on simplicial presheaves]] by the span of morphism
+The outer composite morphism
 
 $$
   \array{
-     && 
-     \exp(\mathfrak{g} \to inn(\mathfrak{g}))/_{\sim_3,\mathbb{Z}}
-     &\stackrel{\exp((cs,P))}{\to}&
-     \exp(b^2 \mathbb{R} \to inn(b^2 \mathbb{R}))/_{\sim_3,\mathbb{Z}}
-    &\to&
-    \exp(* \to b^3 \mathbb{R})
+    && \mathbf{cosk}_3 \exp(\mathfrak{g})_{diff}
+    &\stackrel{\exp((cs,\langle -\rangle))}{\to}&
+    \mathbf{B}^3 U(1)_{diff}
     \\
-    &{}^{\mathllap{\hat \nabla}}\nearrow& \downarrow^{\mathrlap{\simeq}} 
-    && \downarrow^{\mathrlap{\simeq}}
-    && \downarrow^{\mathrlap{\simeq}}
+    &{}^{\mathllap{\hat \nabla}}\nearrow& \downarrow^{\mathrlap{\simeq}}
     \\
-    && \exp(\mathfrak{g})_{\sim_3, \mathbb{Z}}
-    &\stackrel{\exp(\mu)}{\to}&
-    \exp(b^2 \mathbb{R})_{\sim_3 / \mathbb{Z}}
-    && \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{simp}
+    && \mathbf{cosk}_3 \exp(\mathfrak{g})
     \\
-    & {}^{\hat g}\nearrow & \downarrow^{\mathrlap{\simeq}} 
-    && \downarrow^{\mathrlap{\simeq}}
-    && {}^{\mathllap{\int_{\Delta^\bullet}}}\downarrow^{\mathrlap{\simeq}}
+    & {}^{\mathllap{\hat g}}\nearrow & \downarrow^{\mathrlap{\simeq}}
     \\
-    C(U) &\stackrel{g}{\to}& \mathbf{B}G && \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
-   && \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{chn}
-   \\
-   \downarrow^{\mathrlap{\simeq}}
-   \\
-   X
+    C(U) &\stackrel{g}{\to}& \mathbf{B}G
   }
 $$
 
-and the total outer composite $C(U) \to \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{chn}$ has as components precisely the Cech-Deligne cocycle discussed [above](#InCechDelineCohomology).
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-Recall first the [[Lie integration]] of this bare cocycle:
-
-The simply connected Lie group $G = Spin$ corresponding to $\mathfrak{g}$ has $\pi_2(G) = 0$ and $\pi_3(G) = \mathbb{Z}$. The Lie integrated model for $\mathbf{B}G$ on which the cocycle integrates is
-
-$$
-  \mathbf{B}G \stackrel{\simeq}{\leftarrow}
-  \mathbf{cosk}_3 (\exp(\mathfrak{g})
-  =
-  \mathbf{cosk}_3(
-  (U,[k]) \mapsto 
-  \Omega^1_{flat}(\Delta^k,\mathfrak{g}) \otimes C^\infty(U))
-  )
-  \,.
-$$
-
-The weak equivalence to $\mathbf{B}G$ is given by [[nLab:parallel transport]]: it sends a flat $\mathfrak{g}$-valued form $A = \lambda d t$ with $\lambda \in C^\infty(U,\mathfrak{g})$ to the group element $P \exp(\int_0^1 \lambda d t)$.
-
-Two such 1-forms $\lambda d t$ and $\lambda' d t$ are equivalent in $\mathbf{cosk}_3 \exp(\mathfrak{g})$ precisely if they are the restrictions of a flat $\mathfrak{g}$-valued 1-form on the disk, which indeed, by the [[nonabelian Stokes theorem]] is the case precisely if their parallel transport coincides. By identifying the basepoint with the neutral element in $G$, flat $\mathfrak{g}$-valued 1-form on $\Delta^k$ correspond bijectively with smooth maps $\Delta^k \to G$. Since $\pi_2(G)$ vanishes, any two such flat 1-forms on disks with coinciding boundary can be filled by a 3-ball. The coskeleton operation finally identifies all 3-balls with coinciding boundary. 
-
-The integrated cocycle
-
-$$
-  \exp(\mu)
-  : 
-  \mathbf{cosk}_3 \exp(\mathfrak{g})
-  \to 
-  \mathbf{B}^3 \mathbb{R}/\mathb{Z}
-$$
-
-sends a 3-ball $\sigma : \Delta^3 \to G$ to the integral of $\mu$ over it
-
-$$
-  \exp(\mu) : \sigma \mapsto \int_{\Delta^3} \sigma^* \mu \; mod \mathbb{Z}
-  \,.
-$$
-
-Now given a Cech cocycle $\{g_{i j}\}$ for a $G$-bundle, we may always find a refined cover $\{U_i \to X\}$ on which the cocycle lifts to this resolution
-
-$$
-  \array{
-    && \exp(\mathfrak{g})_{\sim_3, \mathbb{Z}}
-    \\
-    & {}^{\hat g}\nearrow & \downarrow
-    \\
-    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}G
-  }
-  \,.
-$$
-
-Choosing $\hat g$ amounts to
-
-1. choosing on each double intersection $U_{i} \cap U_j$ a smooth based family of paths $\hat g_{i j} : U_i \cap U_j \times \Delta^1 \to G$ such that $\hat g_{i j}(0) = e$ and $\hat g_{i j}(1) = g_{i j}$;
-
-1. choosing on each triple intersection a smooth family of based disks $\hat g_{i j k} : U_i \cap U_j \cap U_k \times \Delta^2 \to G$ in $G$, cobounding these paths.
-
-1. choosing on each quadruple intersection a smooth family of based balls $\hat g_{i j k l} : U_i \cap U_j \cap U_k \cap U_l \times \Delta^3 \to G$ in $G$, cobounding these disks, or rather their homotopy class, relative boundaries, $[\hat g_{i j k l}]$.
-
-That these choices exist locally, and hence for sufficiently refined cover $\{U_i \to X\}$ is the fact that $\pi_0(G) = *$ and $\pi_1(G) = 0$ and $\pi_2(G) = 0$, which is essential part of the statement that the morphism $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \exp(\mathfrak{g})/_{\sim_3}$ that we are lifting through is indeed a weak equivalence.
-
-The characteristic class corresponding to the Lie integated cocycle $\exp(\mu)$ is then modeled by the morphism
-
-$$
-  \array{
-    && \exp(\mathfrak{g})_{\sim_3, \mathbb{Z}}
-    &\stackrel{\exp(\mu)}{\to}&
-    \exp(b^2 \mathbb{R})_{\sim_3 / \mathbb{Z}}
-    \\
-    & {}^{\hat g}\nearrow & \downarrow^{\mathrlap{\simeq}} && 
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}G && \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
-  }
-$$
-
-which on quadruple intersections takes $[\hat g_{i j k l}]$ to $\int_{\Delta^3} \hat g_{i j k l}^* \mu  mod \; \mathbb{Z}$.
-
-This [[Cech cohomology]] model for $\frac{1}{2}p_1$ is the one discussed [above](#InCechDelineCohomology).
-
-We now further resolve this model in order to lift the characteristic class to differential cohomology.
-
-$$
-  \array{
-     && 
-     \exp(\mathfrak{g} \to inn(\mathfrak{g}))/_{\sim_3,\mathbb{Z}}
-     &\stackrel{\exp(\mu,P)}{\to}&
-     \exp(b^2 \mathbb{R} \to inn(b^2 \mathbb{R}))/_{\sim_3,\mathbb{Z}}
-    &\to&
-    \exp(* \to b^3 \mathbb{R})
-    \\
-    &{}^{\mathllap{\hat \nabla}}\nearrow& \downarrow^{\mathrlap{\simeq}} 
-    && \downarrow^{\mathrlap{\simeq}}
-    && \downarrow^{\mathrlap{\simeq}}
-    \\
-    && \exp(\mathfrak{g})_{\sim_3, \mathbb{Z}}
-    &\stackrel{\exp(\mu)}{\to}&
-    \exp(b^2 \mathbb{R})_{\sim_3 / \mathbb{Z}}
-    && \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{simp}
-    \\
-    & {}^{\hat g}\nearrow & \downarrow^{\mathrlap{\simeq}} 
-    && \downarrow^{\mathrlap{\simeq}}
-    && {}^{\mathllap{\int_{\Delta^\bullet}}}\downarrow^{\mathrlap{\simeq}}
-    \\
-    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}G && \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
-   && \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)_{chn}
-  }
-  \,.
-$$
-
-For the connection $\hat \nabla$ we need to choose
-
-1. $\mathfrak{g}$-valued 1-forms $A_i \in \Omega^1(U_i, \mathfrak{g})$;
-
-1. $\mathfrak{g}$-valued 1-forms $\hat A_{i j} = A_{i j} + \lambda_{i j} \in \Omega^1(U_{i j} \times \Delta^1)$ whose restriction $\lambda_{i j}$ to $\Delta^1$ is the given path in $G$;
-
-1. etc.
-
-Recall that we say this forms a _genuine_ connection if the coresponding [[curvature]] 2-forms have no component along the simplices.
-
-We can build a genuine connection $\hat \nabla$ from the cocycle $\{g_{i j}, A_i\}$ for an ordinary connection 
-on the underlying ordinary cocycle $g_{i j}$: take $\hat A_{i j}(0) = A_i$ and then let $\hat A_{i j}$ be the unique solution to the differential equation
-
-$$
-  \frac{\partial}{\partial t} A_{i j}
-  =
-  d \lambda_t + [\lambda_t, \hat A_{i j}]
-  \,.
-$$
-
-This is precisely the condition that he curvature 2-form has no component along the 1-simplex.
-
-In other words, if $\hat g_{i j} : U_{i j } \times \Delta^1 \to G$ is the path obtained from parallel transport of $\lambda$, then we set
-
-$$
-  A_{i j}(t) := \hat g_{i j}(t)^{-1} (A_i + d) \hat g_{i j}(t)
-  \,.
-$$
-
-Notably, by the fact that $\{A_i, g_{i j}\}$ is assumed to be a cocycle for an ordinary connection, this way we have
-
-$$
-  A_{i j}(1) = g_{i j}^{-1} (A_i + d) g^{i j} = A_j
- \,.
-$$
-
-Similarly we may transport the connection 1-forms around over the higher simplices to obtain $\hat A_{i j k}$ and $\hat A_{i j k l}$. This defines a lift $\hat \nabla : C(\{U_i\}) \to \exp(\mathfrak{g} \to inn(\mathfrak{g}))/_{\sim_3, \mathbb{Z}}$.
-
-By collecting all this data, we find that the composite morphism
-
-$$
-  C(\{U_i\})
-  \stackrel{\hat \nabla}{\to}
-  \exp(\mathfrak{g} \to inn(\mathfrak{g})/_\sim
-  \stackrel{\exp(\mu,P)}{\to}
-  \exp(b^2 \mathbb{R} \to inn(b^2 \mathbb{R})/_\sim
-  \stackrel{\int_{\Delta^\bullet}}{\to}
-  \mathbf{B}^3 U(1)_{diff}
-$$
-
-is the Cech-Deligne cocycle
+is precisely the Cech-Deligne cocycle
 
 $$
   (CS(A_i), \int_{\Delta^1} CS(\hat A_{i j} ), \int_{\Delta^2} CS(\hat A_{i j k}), \int_{\Delta^3} \mu(A_{i j k l}))
@@ -577,8 +541,35 @@ This is is exactly equal to the cocycle discussed [above](#InCechDelineCohomolog
 
 =--
 
+Notice by the way that this construciton also serves as a manifest proof that this collection of data indeed does constitute a Deligne cocycle.
 
 
++-- {: .proof}
+###### Proof
+
+This is a matter of plugging the above pieces into each other. For instance on double intersections we have that the 3-form $CS(\hat A_{i j})$ is the image of the degree 3-generator on $W(b^2 \mathbb{R})$ under the composite
+
+$$
+  \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+  \stackrel{\hat A_{i j}}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{(cs,\langle -\rangle)}{\leftarrow}
+  W(b^2 \mathbb{R})
+  \,.
+$$
+
+The remaining fiber integration is then that exhibiting the equivalence of simplicial differential forms
+
+$$
+  \int_{\Delta^\bullet} : 
+  \mathbf{\flat}_{dR} \mathbf{B}^3 U(1)_{diff,simp}
+    \stackrel{\simeq}{\to}
+  \mathbf{\flat}_{dR} \mathbf{B}^3 U(1)_{diff,chn}
+$$
+
+that is described in some detail at <a href="http://ncatlab.org/nlab/show/circle+n-bundle+with+connection#U1FromLieIntegration">Circle n-bundle with connection -- models from ∞-Lie integration</a>.
+
+=--
 
 
 
@@ -609,7 +600,7 @@ Conceived as a genuine [[gerbe]] the Chern-Simons 2-gerbe appears in
 
 Among the first references to apply specifically [[bundle gerbe]] technology to this construction is 
 
-* [[Alan Carey]] and [[Stuart Johnson]] and [[Michael Murray]] and [[Danny Stevenson]] and [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_ Communications in Mathematical Physics, 259 (3). (2005) ([arXiv]())
+* [[Alan Carey]], Stuart Johnson, [[Michael Murray]], [[Danny Stevenson]] and [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_ Communications in Mathematical Physics, 259 (3). (2005) ([arXiv]())
 {#CJMS}
 
 This was later refined in 
