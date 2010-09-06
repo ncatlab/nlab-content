@@ -43,6 +43,8 @@ $$
  
   [[Urs Schreiber|Urs]]: something is missing here: the homotopy category of an $(\infty,1)$-category is supposed to be enriched in $Ho_{Top}$, I think
 
+_Harry Gindi_: Urs, here's what we need: Let $\mathbf{h}:sSet\to Ho(sSet)$ be the localization functor.  This functor is lax monoidal by the fact that the cartesian monoidal product is a left-quillen bifunctor for $sSet$. This gives a canonical functor $h:sSet-Cat\to Ho(sSet)-Cat$ given by the identity on objects and: $Map_{h C}(A,B):=\mathbf{h} Map_{C}(A,B)$.   Then since $Hom_C(A,B)=Hom_{sSet}(\Delta^0,Map_{C}(A,B))$, it is easy to see that $Hom_{hC}(A,B)=Hom_{Ho(sSet)}(\mathbf{h} \Delta^0, \mathbf{h} Map_C(A,B))=\pi_0 Map_C(A,B)$.  
+
 =--
 
 
