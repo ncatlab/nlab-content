@@ -228,7 +228,7 @@ $$
 $$
 
 
-**Example.** In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section [On semisimple Lie algebras](#SemisimpLie)
+**Example.** In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section [On semisimple Lie algebras](#SemisimpLie).
 
 ### Chern-Simons and curvature characteristic forms
 
@@ -350,7 +350,7 @@ For instance for $\mathfrak{g}$ a semisimple Lie algebra with Killing form $P = 
 
 ### On semisimple Lie algebras {#SemisimpLie}
 
-...
+See [[Killing form]].
 
 ### On tangent Lie algebroids
 
