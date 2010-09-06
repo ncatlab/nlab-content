@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 > under construction
 
@@ -11,7 +17,9 @@
 
 ## Idea
 
-The _string 2-group_ is a _smooth_ [[2-group]] incarnation of the [[topological group]] called the [[string group]].
+The _string 2-group_ is a [[Lie infinity-groupoid|Lie 2-group]]-refinement of the [[topological group]] called the [[string group]].
+
+The topological string group is the homotopy fiber in [[Top]] of the first fractional [[Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B}Spin \to \mathbf{B}^4 \mathbb{Z}$. The string 2-group is the homotopy fiber in [[?LieGrpd]] of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>  $\frac{1}{2}\mathbf{p}_1 : \mathbf{B}Spin \to \mathbf{B}^3 U(1)$.
 
 ### Motivation from quantum physics
 
@@ -39,10 +47,6 @@ The string Lie 2-group is the result of applying [[Lie integration]] to the [[St
 
 ### In terms of Whitehead towers in a smooth $(\infty,1)$-topos 
 
-+-- {: .query}
-
-[[Urs Schreiber]]: the following should be the right general-nonsense point of view, see [[Whitehead tower in an (∞,1)-topos]]
-=--
 
 Just as the [[topological group|topological]] [[string group]] is the element above the  [[spin group]] in the [[Whitehead tower]] of $O(n)$ inside the [[(∞,1)-topos]] [[Top]] -- in terms of [[delooping]]s
 
@@ -78,17 +82,17 @@ $$
 $$
 
 
-It is in $\mathbf{H}$ the [[homotopy fiber]] of the morphism
+It is in $\mathbf{H}$ the [[homotopy fiber]] of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth class</a>
 
 $$
-  \frac{1}{2}p_1
+  \frac{1}{2}\mathbf{p}_1
   :
   \mathbf{B} Spin(n)
   \stackrel{}{\to}
   \mathbf{B}^3 U(1)
 $$
 
-that is the smooth [[group cohomology|group cocycle]] that integrates the normalized canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu_3 \in CE(\mathfrak{so}(n))$.
+that is the  [[Lie group cohomology]]-cocycle that integrates the normalized canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu_3 \in CE(\mathfrak{so}(n))$.
 
 **Remark.** Notice that in the existing literature the smooth [[group cohomology|group cocycles]] of a [[Lie group]] are _defined_ to be simplicial morphisms out of 
 
@@ -97,12 +101,9 @@ $$
   \,.
 $$
 
-With that definition, $\frac{1}{2}p_1$ does _not exist_ as a smooth cocycle. But, while that definition is copied verbatim from the correct definition in [[Top]], it is **not the right general definition** for smooth [[group cohomology]]. Instead, the right definition is given by  the [[category theory|general nonsense]] of [[cohomology]] in an [[(infinity,1)-topos]] $\mathbf{H}$:
- a smooth [[group cohomology|group cocycle]] on the [[Lie group]] $G$ is a morphism out of its [[delooping]] but regarded in $\mathbf{H}$. This $\mathbf{H}$ in turn is [[models for infinity-stack (infinity,1)-toposes|modeled]] by [[simplicial presheaves]] which for the present purposes we may assume to be [[simplicial object|simplicial]] [[diffeological space]]s. But in that context there are considerably "bigger" resolutions of $\mathbf{B}G$ than the one above. (In fact the one above is just $\mathbf{B}G$ in $\mathbf{H}$ itself). The 3-cocycle $\frac{1}{2}p_1$ is a morphism out of one of these bigger resolutions. More on that below.
-
+With that definition, $\frac{1}{2}p_1$ does _not exist_ as a smooth cocycle. But, while that definition is copied verbatim from the correct definition in [[Top]], it is _not_ the right general definition for [[Lie group cohomology]]. See [[Lie group cohomology]] for more.
 ...
 
-So the string 2-group is a smooth [[2-group]] incarnation of...
 
 ## Constructions 
 
@@ -116,7 +117,7 @@ There are various equivalent constructions that should eventually be described h
 
 A realization of the string 2-group as a [[strict 2-group]] [[internalization|internal]] to [[diffeological space]]s was given in 
 
-* Baez, Crans, Schreiber, Stevenson, ([arXiv]())
+* Baez, Crans, Schreiber, Stevenson, _From loop groups to 2-groups_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BCSS">web</a>)
 
 This is one of three different (there should be more), weakly equivalent such [[strict 2-group]] [[internalization|internal]] to [[diffeological space]] models that are discussed in the (to date unpublished)
 
