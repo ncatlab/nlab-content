@@ -1,6 +1,34 @@
 
 _Rod McGuire_
 
+<b>Start semi-official examples</b>
+
+<table class='DBE' markdown='1'
+ id='{"id":"monoid","type":"monoid &lt; category","objects":{"type":"singleton &lt; set","size":"=1"}}'><table markdown="1"><tr><td>id</td><td>monoid</td></tr><tr><td>type</td><td>monoid &lt; category</td></tr><tr><td>objects</td><td><table markdown="1"><tr><td>type</td><td>singleton &lt; set</td></tr><tr><td>size</td><td>=1</td></tr></table>
+ </td></tr></table>
+ </table>
+<span class='DBE'/>
+
+<table class='DBE' markdown='1'
+ id='{"id":"order","type":"order &lt; category","homs":{"type":"set","member":{"type":"singleton &lt; set","size":"=1"}}}'><table markdown="1"><tr><td>id</td><td>order</td></tr><tr><td>type</td><td>order &lt; category</td></tr><tr><td>homs</td><td><table markdown="1"><tr><td>type</td><td>set</td></tr><tr><td>member</td><td><table markdown="1"><tr><td>type</td><td>singleton &lt; set</td></tr><tr><td>size</td><td>=1</td></tr></table>
+ </td></tr></table>
+ </td></tr></table>
+ </table>
+<span class='DBE'/>
+
+<table class='DBE' markdown='1'
+ id='{"id":"Set","type":"Set &lt; category","initial object":{"type":"empty &lt; set","size":"=0"},"terminal object":{"type":"singleton &lt; set","size":"=1"}}'><table markdown="1"><tr><td>id</td><td>Set</td></tr><tr><td>type</td><td>Set &lt; category</td></tr><tr><td>initial object</td><td><table markdown="1"><tr><td>type</td><td>empty &lt; set</td></tr><tr><td>size</td><td>=0</td></tr></table>
+ </td></tr><tr><td>terminal object</td><td><table markdown="1"><tr><td>type</td><td>singleton &lt; set</td></tr><tr><td>size</td><td>=1</td></tr></table>
+ </td></tr></table>
+ </table>
+<span class='DBE'/>
+
+<table class='DBE' markdown='1'
+ id='{"id":"pair set","type":"pair &lt; set","size":"&#8712;{1, 2}"}'><table markdown="1"><tr><td>id</td><td>pair set</td></tr><tr><td>type</td><td>pair &lt; set</td></tr><tr><td>size</td><td>&#8712;{1, 2}</td></tr></table>
+ </table>
+<span class='DBE'/>
+
+<b>End semi-official examples</b>
 
 HTML comments only sometimes work
 
@@ -224,5 +252,16 @@ xx<span class='DBE'/>
 
 
 end single example
+
+<b>Upshot of the above - REXML thinks XML attribute values need to be ampersand encoded</b>
+
+This should generate an error, though as far as I can tell from the specs and how Firefox works you are not required to ampersand encode a "&lt;" inside the value of an attribute, though you can. Inspect the ids of:
+
+<div id="a&lt;b" markdown='1'>a div with <code>id="a&amp;lt;b"</code></div>
+
+<div id="a<b" markdown='1'>a div with <code>id="a&lt;b"</code></div>
+
+ 
+
 
 category: people
