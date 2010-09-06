@@ -5,4 +5,9 @@
 
 * [[exotic smooth structure]]
 
+
 category: people
+
+[[!redirects Torsten Asselmeyer-Maluga]]
+[[!redirects Torsten Asselmeyer]]
+[[!redirects Torsten Maluga]]
