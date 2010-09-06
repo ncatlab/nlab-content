@@ -1,16 +1,31 @@
 
-> this entry needs to be merged/harmonized with [[derived hom space]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
-#Simplicial localisation
-* a table of contents that doesn't contain itself
+
+> See also [[derived hom space]]
+
+#Simplicial localisation#
+* table of contents
 {:toc}
 
 
 ## Idea 
 
-A [[homotopical category]] is a [[category]] $C$ equipped with the information that some of its [[morphisms]], specifically, a subcategory $W \supset Core(C)$, are to be regarded as "weakly invertible".  One way to make this notion precise is through the concept of __simplicial localization__:
+A [[category with weak equivalences]] or  [[homotopical category]] is a [[category]] $C$ equipped with the information that some of its [[morphisms]], specifically, a subcategory $W \supset Core(C)$, are to be regarded as "weakly invertible".  One way to make this notion precise is through the concept of __simplicial localization__:
 
-The _simplicial localization_ $L C$ of a category $C$ is an [[(∞,1)-category]] realized concretely as a [[simplicially enriched category]] which is such that the original category injects into it,  $C \hookrightarrow L C$, such that every morphism in $C$ that is labeled as a weak equivalence becomes an actual equivalence in the sense of morphisms in [[(infinity,1)-categories]] in $L C$. And $L C$ is in some sense universal with this property.
+The _simplicial localization_ $L C$ of a category $C$ is an [[(∞,1)-category]] realized concretely as a [[simplicially enriched category]] which is such that the original category injects into it,  $C \hookrightarrow L C$, such that every morphism in $C$ that is labeled as a weak equivalence becomes an actual equivalence in the sense of morphisms in [[(∞,1)-categories]] in $L C$. And $L C$ is in some sense universal with this property.
 
 Passing to the [[homotopy category of an (∞,1)-category]] of $L C$ then reproduces the [[homotopy category]] that can also directly be obtained from $C$:
 
