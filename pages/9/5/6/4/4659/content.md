@@ -19,6 +19,7 @@ A [[Lie algebra]] is __semisimple__ if it is the [[direct sum]] of [[simple Lie 
 
 (Notice that this is not quite the same as a [[semisimple object]] in the [[category]] of Lie algebras, because a simple Lie algebra is not quite the same as a [[simple object]] in the [[LieAlg]]. But this is the standard terminology convention.)
 
+By [[Lie integration]] semisimple Lie algebras correspond to [[Lie group]]s that are [[semisimple Lie group]]s.
 
 ## Properties
 
