@@ -1,4 +1,3 @@
-[[!redirects ∞-Chern-Weil theory]]
 
 
 
@@ -1303,101 +1302,7 @@ The content of this subsection is at [[Chern-Simons 2-gerbe|Chern?Simons 2-gerbe
 
 #### Differential string structures
 
-Let 
-
-$$
-  \frac{1}{2}\hat p_1 : 
-  \mathbf{H}_{conn}(-,\mathbf{B}Spin)
-  \to
-  \mathbf{H}_{diff}(-, \mathbf{B}^3 U(1))
-$$
-
-be the differential refinement of the first fractional Pontryagin class discussed [above](#StringStructure).
-
-+-- {: .un_def }
-###### Definition
-
-For $X \in \mathbf{H} =$ [[nLab:?LieGrpd]], the $\infty$-groupoid  of **differential string-structures** $String_{diff}(X)$ is the [[nLab:homotopy fiber]] of    $\frac{1}{2}p_1(X) : \mathbf{H}(X,\mathbf{B}Spin) \to \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1))$.
-
-More generally, the $\infty$-groupoid of **twisted differential string structures** is the [[nLab:(∞,1)-pullback]] $String_{diff,tw}(X)$ in
-
-$$
-  \array{
-    String_{diff,tw}(X) &\to& H_{diff}(X,\mathbf{B}^3 U(1))
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{H}_{conn}(X,\mathbf{B}Spin)
-    &\stackrel{\frac{1}{2}\hat p_1}{\to}&
-    \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
-  }
-  \,.
-$$
-
-=--
-
-In terms of just the underlying $\infty$-Lie algebra valued local connection data, i.e. before Lie integration in the above sense, this has been considered in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>. 
-
-For the case where the twist is given just by globally defined 3-forms, i.e. by  trivial 2-gerbes with connection, essentially this definition, explicitly modeled on [[nLab:bundle gerbe]]s, has been given in ([Waldorf09](http://arxiv.org/PS_cache/arxiv/pdf/0906/0906.0117v1.pdf)).
-
-We describe now the Lie integration of the $\infty$-Lie algebraic model in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a> to a model of the above homotopy pullback.
-
-In order to compute the homotopy pullback as an ordinary pullback, we want to model the morphism     
-$\mathbf{H}_{conn}(X,\mathbf{B}Spin) \stackrel{\frac{1}{2}\hat p_1}{\to} \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ in $\infty Lie Grpd$ by a fibration in $[CartSp^{op}, sSet]_{proj,cov}$. To that end, we replace the Lie algebra $\mathfrak{g}$ by an equivalent Lie 3-algebra
-
-+-- {: .un_def }
-###### Definition
-
-Let $\hat \mathfrak{g}$ be the $\infty$-Lie algebra defined by the fact that its [[nLab:Chevalley-Eilenberg algebra]] is
-
-$$
-  CE(\hat \mathfrak{g}) = 
-  (\wedge^\bullet(  \mathfrak{g}^* \oplus \langle b\rangle \oplus \langle c \rangle ), d)
-  \,,
-$$
-
-with $b$ a generator in degree 2, and $c$ a generator in degree 3, and with differential
-
-$$
-  d|_{\mathfrak{g}^*} = [-,-]^*
-  \,; 
-$$
-
-$$
-  d : b \mapsto \langle - , [-,-]\rangle + c
-$$
-
-$$
-  d : c \mapsto 0
-  \,.
-$$
-
-=--
-
-+-- {: .un_prop }
-###### Proposition
-
-The canonical correspondence
-
-$$
-  \array{
-    \mathbf{cosk}_3\exp(\hat \mathfrak{g})
-    &\to&
-    \mathbf{B}^3 U(1)
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    \mathbf{B}G
-  }
-$$
-
-obtained by projecting out onto the 3-forms induced by the generator $c$ and then integrating is another model for $\frac{1}{2}p_1$, with the special property that the top morphism is a fibration in $[CartSp^{op}, sSet]_{proj}$.
-
-=--
-
-With this observation we can read off the cocycles in $String_{diff,tw}(X)$ from the diagrams of dg-algebras in SSSIII.
-
-(...)
+The content of this section is at [[differential string structure]].
 
 #### The Fivebrane-lifting Chern-Simons 6-bundle with connection {#FivebraneStructure}
 
@@ -1466,4 +1371,6 @@ In terms of the underlying $\infty$-Lie algebra valued local connection data, i.
 
 ***
 
+[[!redirects ∞-Chern-Weil theory]]
 
+[[!redirects ∞-Chern-Weil homomorphism]]
