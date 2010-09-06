@@ -31,7 +31,7 @@ a bundle 2-gerbe over a manifold $X$ is
 
 * a morhims of bundle gerbes $\pi_1^* \mathcal{L} \otimes\pi_2^* \mathcal{L} \to \pi_1^* \mathcal{L}$;
 
-* which is associative up to a choice of ccoherent 2-morphisms.
+* which is associative up to a choice of coherent 2-morphisms.
 
 ## Examples
 
@@ -39,8 +39,15 @@ a bundle 2-gerbe over a manifold $X$ is
 
 ## References
 
-Bundle 2-gerbes were introduced in
+Bundle 2-gerbes were briefly introduced in
 
-* [[Danny Stevenson]], _Bundle 2-gerbes_ ([arXiv:math/0106018](http://arxiv.org/abs/math/0106018))
+* A.L. Carey, M.K. Murray, B.L. Wang, _Higher bundle gerbes and cohomology classes in gauge theories_ ([arXiv:hep-th/9511169](http://arxiv.org/abs/hep-th/9511169))
 
-[!redirects bundle 2-gerbe]
+and further developed in
+
+* [[Danny Stevenson]], _Bundle 2-gerbes_ ([arXiv:math/0106018](http://arxiv.org/abs/math/0106018)),
+
+drawing on ideas from Stevenson's PhD thesis ([arXiv:math/0004117](http://arxiv.org/abs/math/0004117)).
+
+
+[[!redirects bundle 2-gerbe]]
