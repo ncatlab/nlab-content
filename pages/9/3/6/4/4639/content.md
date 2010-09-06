@@ -13,6 +13,13 @@
 * table of contents 
 {:toc}
 
+## In linear algebra
+
+In [[linear algebra]] over a [[field]] $k$, the _line_ is the field $k$ regarded as a [[vector space]] over itself. More generally, _a line_ is a vector space [[isomorphic]] to this, i.e. any 1-dimensional $k$-vector space.
+
+The [[real line]] $\mathbb{R}$ models the naive intuition of the geometric line in [[Euclidean geometry]].
+
+In many contexts of modern mathematics, however, _line_ implicitly refers to the complex line $\mathbb{C}$ (which as a real vector space is the [[complex plane]]!). For instance this is the line usually meant when speaking of [[line bundle]]s.
 
 ## Over an algebraic theory
 
@@ -93,5 +100,13 @@ The notion of a line object over general abelian Lawvere theories has been consi
 in the context of [[function algebras on ∞-stacks]].
 
 
+## In a monoidal category
+
+Given a [[monoidal category]] $C$, one may define a _line object in $C$_ to be an object $L$ such that the tensoring [[functor]]  $- \otimes L : C \to C$ has an [[inverse]].
+
+
 [[!redirects line object]]
 [[!redirects line objects]]
+
+[[!redirects line]]
+[[!redirects lines]]
