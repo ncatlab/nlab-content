@@ -1,22 +1,10 @@
 
 _Rod McGuire_
 
+
 HTML comments only sometimes work
 
 <!-- regular html comment --> 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 xxxx < xxxx
 
@@ -166,12 +154,13 @@ cccc
 
 
 <table class='DBE' markdown='1'
- id='{"id":"zzzNEW","type":"category","page":"[[Rod+McGuire]]"}'>
- <caption>Ungenerated DBE table</caption>
-</table>
+ id='{"id":"zzzNEW","type":"category","page":"[[Rod+McGuire]]"}'><table markdown="1"><tr><td>id</td><td>zzzNEW</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod+McGuire]]</td></tr></table>
+ </table>
 <span class='DBE'/><!-- span flags end of DBE table - don't remove -->
 
 test if trailing multiline comments work
+
+ungenerated case
 
 <table class='DBE' markdown='1'
  id='{"id":"xyzzzNEW","type":"category","page":"[[Rod+McGuire]]"}'>
@@ -181,8 +170,59 @@ test if trailing multiline comments work
  a = {a: 1, b: 2}
  -->
 
-end test
+generated case
+
+<table class='DBE' markdown='1'
+ id='{"id":"xyzzzNEW","type":"category","page":"[[Rod+McGuire]]"}'><table markdown="1"><tr><td>id</td><td>xyzzzNEW</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod+McGuire]]</td></tr></table>
+ </table>
+<span class='DBE'/><!-- span flags end of DBE table - don't remove
+ a = {a: 1, b: 2}
+ -->
+
+end trailing comment test
+
+Does a single example work?
+
+1) removed content
+
+2) changed left bracket inside text to lt
+
+3) took out space before closing table tag
+
+4) changed "isin" and "cbracket" symbols in text attribute to names "isin" and "lcb" and "rcb".
+
+5) UGH. Got rid of extra starting table tag.
+
+6) Put back full id and put space before caption line
+
+7) put caption back on end of preceding line
+
+8) changed angle bracket in text in id to "lt"
+
+9) Cloned example into 3 cases and regenerated.
+
+1 - broke pattern so won't be regenerated (sill contains caption)
+
+<table class='DBE' markdown='1'
+ id='{"id":"pair set","type":"pair lt set","size":"&#8712;{1, 2}"}'><caption>removed content</caption>
+</table>
+xx<span class='DBE'/>
+
+2 - this should be regenerated
+
+<table class='DBE' markdown='1'
+ id='{"id":"pair set","type":"pair lt set","size":"&#8712;{1, 2}"}'><table markdown="1"><tr><td>id</td><td>pair set</td></tr><tr><td>type</td><td>pair lt set</td></tr><tr><td>size</td><td>&#8712;{1, 2}</td></tr></table>
+ </table>
+<span class='DBE'/>
+
+3 -  this has the "lt" replaced with ampersand encoding.
+
+<table class='DBE' markdown='1'
+ id='{"id":"pair set","type":"pair &lt; set","size":"&#8712;{1, 2}"}'><table markdown="1"><tr><td>id</td><td>pair set</td></tr><tr><td>type</td><td>pair &lt; set</td></tr><tr><td>size</td><td>&#8712;{1, 2}</td></tr></table>
+ </table>
+<span class='DBE'/>
+
+
+end single example
 
 category: people
-
-
