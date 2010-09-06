@@ -83,7 +83,7 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
     \hat g_{i j} : (U_i \cap U_j) \times \Delta^1 \to G
   $$
 
-  such that $\hat g_{i j}(x,0 ) = e$ is the identity in $g$, and such that such that \hat g_{i j}(x,1) = g_{i j}(x)$;
+  such that $\hat g_{i j}(x,0 ) = e$ is the identity in $g$, and such that such that $\hat g_{i j}(x,1) = g_{i j}(x)$;
 
 * on triple intersections, choose smooth functions
 
@@ -99,7 +99,7 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
       \\
       & {}^{\mathllap{\hat g_{i j}}}\nearrow 
       &\Downarrow^{\mathrlap{\hat g_{i j k}}}& 
-      \searrow^{\mathrlap{\hat g_{j k}}}
+      \searrow^{g_{i j} \cdot \mathrlap{\hat g_{j k}}}
       \\
       e &&\underset{\hat g_{i k}}{\to}&& g_{i k}
     }
@@ -124,7 +124,8 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
 The [[Cech cohomology]] cocycle with coefficients in $\mathbf{B}^3 \mathbb{R}/\mathbb{Z}$ which is given by
 
 $$
-  c(g)_{i j k l} := \int_{\Delta^3} \hat g_{i j k l}^* \mu \;\; mod \mathbb{Z} 
+  c(g)_{i j k l} := \int_{\Delta^3} \hat g_{i j k l}^* \mu 
+  \;\;\;\;\; mod \mathbb{Z} 
 $$
 
 is well defined and represents the class $c(P) \in H^4(X)$ in [[integral cohomology]]. 
@@ -135,23 +136,25 @@ $$
   \left(
      CS(\sigma_i^* A)
      \,,\;\;
-     \int_{\Delta^1} CS(P\cdot \hat g_{i j}^* A)
+     \int_{\Delta^1} CS((P\cdot \hat g_{i j})^* A)
      \,,\;\;
-     \int_{\Delta^2} CS(P\cdot \hat g_{i j k}^* A)
+     \int_{\Delta^2} CS((P\cdot \hat g_{i j k})^* A)
      \,,\;\;
      \int_{\Delta^3} \hat g_{i j k l}^* \mu
+     \;\;\; mod \mathbb{Z}
   \right)
+  \,,
 $$
 
 where
 
-* $A \in \Omega^1(P,\mathfrak{g})$ is the incarnation of the connection $\nabla$ as an [[Ehresmann connection]] given by a gllobally defined 1-form $A$ on the total space $P \to X$ of the bundle;
+* $A \in \Omega^1(P,\mathfrak{g})$ is the incarnation of the connection $\nabla$ as an [[Ehresmann connection]] given by a glbally defined 1-form on the total space $P \to X$ of the bundle;
 
 * $\sigma_i : U_i \to P$ are the local [[section]]s of $P \to X$ that induce the original Cech cocycle $(g_{i j} := \sigma_i \cdot \sigma_j^{-1})$;
 
 * $P \cdot \hat g_{i j} : \Delta^1 \to P$ is given by the right [[action]] of $G$ on $P$ and analogously for the other terms;
 
-* $CS(...)$ denotes the [[Chern-Simons form]] of the given $\}mathfrak{g}$-valued 1-form.
+* $CS(...)$ denotes the [[Chern-Simons form]] of the given $\mathfrak{g}$-valued 1-form.
 
 =--
 
@@ -174,10 +177,184 @@ The above Cech-Deligne cocycle construction of $\hat c(\nabla)$ may be understoo
 
 We first give now the main statement of how this works, and then afterwards explain where the various ingredients come from.
 
+The basic ingredients in [[∞-Chern-Weil theory]] that give the refinement of a [[characteristic class]] to a morphism
+
+$$
+  \mathbf{H}_{conn}(X,\mathbf{B}G) \to \mathbf{H}_{diff}(X, \mathbf{B}^k U(1))
+$$
+
+from the $G$-principal bundles with connection to [[ordinary differential cohomology]] are this:
+
+1. for a given [[Lie algebra]] $\mahfrak{g}$ the realization of the corresponding [[Lie group]] as a truncation of the simplicial presheaf
+
+   $$
+     (U,[n]) \mapsto \{C^\infty(U)\otimes \Omega^\bullet(\Delta^n) \leftarrow CE(\mathfrak{g})\}
+   $$
+
+   (see [[Lie integration]]);
+
+1. the observation that, up to subtleties with the truncation, a [[Lie algebra cohomology|Lie algebra cocycle]] 
+
+   $$
+     CE(\mathfrak{g}) \leftarrow CE(b^{k-1}\mathbb{R}) : \mu
+   $$
+
+   induces therefore an integrated cocycle $\mathbf{B}G \to \mathbf{B}^k U(1)$;
+
+1. the observation that this is lifted to connections and differential refinement by 
+
+   1. thickening the simplicial presheaf for $\mathbf{B}G$ to
+
+      $$
+        (U,[n]) \mapsto
+        \left\{
+          \array{
+              C^\infty(U) \otimes \Omega^\bullet(\Delta^n)
+              &\stackrel{\mu}{\leftarrow}&
+              CE(\mathfrak{g})
+              \\
+              \uparrow && \uparrow
+              \\
+              \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^n)
+              &\stackrel{(A,F_A)}{\leftarrow}&
+              W(\mathfrak{g})
+          }
+        \right\}
+      $$
+
+  1. thickening the Lie algebra cocycle by its [[invariant polynomial]]
+     and Chern-Simons element
+
+     $$
+       \array{
+          CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{k-1}\mathbb{R})
+          \\
+          \uparrow && \uparrow
+          \\
+          W(\mathfrak{g}) &\stackrel{(cs,\langle -\rangle)}{\leftarrow}&
+          W(b^{k-1} \mathbb{R})
+       }
+     $$
+
+  and then postcomposing with that.
+
+
+For the case at hand, let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\langle -\rangle \in W(\mathfrak{g})$ its canonical [[Killing form]] [[invariant polynomial]], $\mu = \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the corresponding [[Lie algebra cohomology|Lie algebra cocycle]], $cs \in W(\mathfrak{g})$ the Chern-Simons elements exhibiting the transgression betweemn the two, $G$ the [[simply connected]] [[Lie group]] [[Lie integration|integrating]] it.
+
+First consider the bare cocycle for the Chern-Simons circle 3-bundle as the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of the cocycle </a> $\mu$.
+
+
++-- {: .un_def }
+###### Definition
+
+Consider the [[simplicial presheaf]]
+
+$$
+  \exp(\mathfrak{g}) : (U,[n]) \{C^\infty(U) \otimes \Omega^\bullet(\Delta^n) \leftarrow CE(\mathfrak{g})\} 
+  \,,
+$$
+
+where here and in the following differential forms $\omega$ on simplices are taken to have _sitting instants_ in that for all $k \in \mathbb{N}$ there exists for every $k$-face of $\Delta^n$ an open neighbourhood such that $\omega$ restricted to that open neighbourhood is constant in the direction perpendicular to the boundary.
+
+=--
+
++-- {: .un_lemma }
+###### Lemma
+
+The canonical map 
+
+$$
+  \mathbf{cosk}_3 \exp(\mathfrak{g}) \to \mathbf{B}G
+$$
+
+from the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ to the [[delooping]] of the simply connected Lie group $G$ which is given on 1-morphisms by [[parallel transport]] is an equivalence ( in the [[model structure on simplicial presheave]] $[CartSp^{op}, sSet]_{proj}$).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Use that a $\mthfrak{g}$-valued 1-form on the interval is canonically identified with a based path in $G$. Then use that for $k \leq 2$ we have $\pi_k(G) = 0$. See [[Lie integration]] for more.
+
+=--
+
+
 +-- {: .un_prop }
 ###### Proposition
 
-Let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\langle -\rangle \in W(\mathfrak{g})$ its canonical [[Killing form]] [[invariant polynomial]], $\mu = \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the corresponding [[Lie algebra cohomology|Lie algebra cocycle]], $cs \in W(\mathfrak{g})$ the Chern-Simons elements exhibiting the transgression betweemn the two, $G$ the [[simply connected]] [[Lie group]] [[Lie integration|integrating]] it.
+There is a commuting diagram
+
+$$
+  \array{
+    \exp(\mathfrak{g}) &\stackrel{\exp(\mu)}{\to}& \exp(b^2 \mathbb{R})
+    \\
+    \downarrow && \downarrow^{\mathrlap{\int_{\Delta^\bullet}}}
+    \\
+    \mathbf{cosk}_3 \exp(\mathfrak{g}) &\stackrel{}{\to}&
+    \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
+  }  
+  \,,
+$$
+
+where the right vertical morphism is the composite of the equivalence
+
+$$
+  \int_{\Delta^\bullet}  : \exp(b^2 \mathbb{R}) \stackrel{\simeq}{\to} \mathbf{B}^3 \mathbb{R}
+$$
+
+discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfBnR">Integration to Line n-groups</a> with the evident quotient $\mathbf{B}^3 \mathbb{R} \to \maathbf{B}^3 \mathbb{R}/mathbb{Z}$, where the copy of $\mathbb{Z}$ in $\mathbb{R}$ is the lattice of periods of $\mu$ over 3-speheres in $G$.
+
+=--
+
+The top morphism sends a $U$-family of 3-morphisms $C^\infty(U) \otimes \Omega^\bullet(\Delta 3) \stackrel{A}{\leftarrow} CE(\mathfrak{g})$ -- which we may  think of as a $U$-family of based 3-balls $\Sigma : U \times \Delta^3 \to G$ -- to the family of 3-forms
+
+$$
+  C^\infty(U) \otimes \Omega^\bullet(\Delta 3) \stackrel{\Sigma}{\leftarrow} CE(\mathfrak{g})
+  \stackrel{\mu}{\leftarrow}
+  CE(b^2 \mathbb{R})
+  : 
+  \mu(A)
+  \,.
+$$
+
+The right veritcal morphism sends this its [[fiber integration]]
+
+$$
+  U \mapsto \int_{\Delta^3} \mu(A) \;\;\; \in \mathbb{R} 
+$$
+
+and regards the result then modulo $\mathbb{Z}$. That this indeed gives a morphism down at the bottom is the statement that for a 4-morphism in $\mathbf{cosk}_3 \exp(\mathfrak{g})$ -- which is a 3-sphere $V : S^3 \to G$ -- we have that $int_{S^3} V^* \mu(A) = 0 mod \mathbb{Z}$, which is true by the fact that we take $\mathbb{Z}$ to be precisely generated by these periods. (Alternatively we can assume $\mu$ to be  normalized such that it generates the image in deRham cohomology of $H^3(G,\mathbb{Z}) \simeq \mathbb{Z}$).
+
+
++-- {: .un_lemma }
+###### Observation
+
+For $\{U_i \to X\}$ a [[cover]] and $C(U) \in [CartSp^{op}, sSet]_{proj}$ the corresponding [[Cech nerve]] we have that
+
+* a morphism $g : C(U) \to \mathbf{B}G$ is precisely a Cech 1-cocycle with values in $G$;
+
+* a lift
+
+  $$
+    \array{
+       && \mathbf{cosk}_3 \exp(\mathfrak{g})
+       \\
+       & {}^{\mathllap{\hat g}}\nearrow & \downarrow^{\mathrlap{\simeq}}
+       \\
+       C(U) &\stackrel{g}{\to}&
+    }
+  $$
+
+  is precisely a lift of this cocycle to a system of paths, triangles and tetrahedra in $G$, as [above](#InCechDelineCohomology).
+
+=--
+
+
+
++-- {: .un_prop }
+###### Proposition
+
 
 Write $\exp(\mu) : \mathbf{B}G \to \mathbf{B}^3 U(1)$ for the [[cocycle]] in [[Lie group cohomology]] obtained by <a href="http://www.ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of $\mu$</a> and write $\mathbf{B}^3 U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^4 U(1)$ for the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CanonmicalFormOnG">canonical curvature invariant</a>.
 
