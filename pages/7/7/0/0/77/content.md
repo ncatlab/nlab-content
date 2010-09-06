@@ -67,6 +67,8 @@ See
 
 ## Special properties
 
+* [[abelian Lie algebra]]
+
 * [[simple Lie algebra]]
 
 * [[semisimple Lie algebra]]
