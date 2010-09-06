@@ -575,7 +575,45 @@ that is described in some detail at <a href="http://ncatlab.org/nlab/show/circle
 
 ### As a bundle 2-gerbe
 
-See ([CJMS](#CJMS), [Waldorf CS](#WaldorfCS)) (...)
+We indicate (for the moment) the way the Chern-Simons 3-bundle is realized as a [[bundle 2-gerbe]] (for instance in [CJMS](#CJMS) and [Waldorf CS](#WaldorfCS)) .
+
+One first constructs the canonical [[bundle gerbe]] $\mathcal{G} \to G$ on the Lie group and notices that (more or less implicitly by recourse to its [[delooping]] 2-gerbe on $\mathbf{B}G$) that this has a _multiplicative structure_ .
+
+Using this one see that for $P \to X$ any $G$-[[principal bundle]] and $P^{[2]} : = P \times_X P \to P \times G$ the principality isomorphism, the pullback of $\mathcal{G}$ along 
+
+$$
+  f : P^{[2]} \to P \times G \stackrel{p_2}{\to} G
+$$
+
+serves to provide the diagram
+
+$$
+  \array{
+     f^* \mathcal{G}
+     \\
+     \downarrow
+     \\
+     P^{[2]} &\stackrel{\to}{\to}& P
+     \\
+     && \downarrow
+     \\
+     && X
+  }
+$$
+
+on which the pullback of the multiplicative structure on $\mathcal{G}$ induces the structure of a bundle 2-gerbe, in that we get morphisms of bundle gerbes
+
+$$
+  \mu : \pi_0^* f^* \mathcal{G} \otimes \pi_2^* f^* \mathcal \to \pi_2^* f^* \mathcal{G}
+$$
+
+that are associative up to a higher coherent morphisms, etc.
+
+## Related concepts
+
+* The [[higher parallel transport]] of a Chern-Simons circle 3-bundle is the [[action functional]] for [[Chern-Simons theory]].
+
+* For the case that $G = O$ is the [[orthogonal group]] and $X \to \mathbf{B}O$ the classifying map of the [[tangent bundle]] of $X$, a trivialization of the corresponding Chern-Simons 3-bundle is a [[string structure]] on $X$. A trivialization of the Chern-Simons 3-bundle _with connection_ is a [[differential string structure]] on $X$.
 
 ## References
 
