@@ -18,6 +18,7 @@
   * [[FAQ|FAQ]]
   * [[Contributors]]
   * [[inbound citations|Inbound Citations]]
+  * [[Uploaded Files]]
   * [[Sandbox|Sandbox]]
 
 
