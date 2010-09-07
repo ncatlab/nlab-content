@@ -1,3 +1,5 @@
+## Overview
+
 _String diagrams_ are a graphical calculus for expressing operations in a [[monoidal category]]. The idea is roughly to think of objects in a monoidal category as "strings" and a morphism from one tensor product to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
 
 * putting strings next to each other denotes the monoidal product, and having no string at all denotes the unit;
@@ -6,48 +8,66 @@ _String diagrams_ are a graphical calculus for expressing operations in a [[mono
 
 * bending strings around corresponds to dualities on [[dualizable object]]s (if any).
 
-There are many additional structures on monoidal categories (see the article by Selinger below for an overview) which encode further geometric properties. For instance
+Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
+
+## Variations
+
+There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encode further geometric properties.  For instance:
 
 * in monoidal categories which are _[[ribbon category|ribbon categories]]_ the strings from above behave as if they have a small transversal extension which makes them behave as ribbons. Accordingly, there is a _twist_ operation in the axioms of a ribbon category and graphically it corresponds to twisting the ribbons by 180 degrees.
 
+* in a [[traced monoidal category]], the trace can be represented by bending an output string around to connect to an input, even though if the objects are not dualizable the individual "bends" do not represent anything.
+
 * in monoidal categories which are _[[spherical category|spherical]]_ all strings behave as if drawn on a sphere.
 
-* one can also describe [[monoidal functors]] in several ways; see for instance [these slides](http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf).
+* string diagrams can be extended to represent [[monoidal functors]] in several ways.  One nice way is described in [these slides](http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf), and can also be done with "3D regions" as drawn [here](http://golem.ph.utexas.edu/category/2010/08/the_geometry_of_monoidal_fibra.html#c034428).
 
-* etc.
+* there is also a string diagram calculus for [[bicategories]], which extends that for monoidal categories regarded as one-object bicategories.  Thus, the strings now represent 1-cells and the nodes 2-cells, leaving the two-dimensional planar regions cut out by the strings to represent the 0-cells.  This makes it manifest that in general, string diagram notation is _Poincar&#233; dual_ to the [[globe|globular]] notation: where one uses $d$-dimensional symbolds the other uses $(2-d)$-dimensional symbols.
 
-Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
+* Similarly, one can extend this to "surface diagrams" for [[3-categories]] (including [[monoidal bicategories]]) and so on; see for instance [[toddtrimble:Surface diagrams|here]].
 
-##String diagrams for bicategories
+* A string diagram calculus for [[monoidal fibrations]] can be obtained as a generalization of C.S. Peirce's "existential graphs."  The ideas are essentially contained in [this paper](http://people.cs.uchicago.edu/~brady/beta98.ps) by Brady and Trimble, and was discussed [here](http://golem.ph.utexas.edu/category/2010/08/the_geometry_of_monoidal_fibra.html).
 
-Since a monoidal category is just a special case (namely the one-object case) of a [[bicategory]], there is also a string diagram calculus for bicategories. This makes it manifest that the string diagram notation is _Poincar&#233; dual_ to the [[globe|globular]] notation: where one uses $d$-dimensional symbolds the other uses $(2-d)$-dimensional symbols.
+* String diagrams for [[closed monoidal categories]] are similar to those for [[autonomous categories]], but a bit subtler, involving "boxes" to separate parts of the diagram.  They were used informally [here](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation), but can also be done in essentially the same way as the [[proof net]]s used in [[intuitionistic logic|intuitionistic]] [[linear logic]]; see [this paper](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf).  Proof nets for [[classical mathematics|classical]] linear logic similarly give string diagrams for [[*-autonomous categories]].
+
+See the article by Selinger below for more examples.
 
 ##See also
 [[sharing graph]]
 
 #References#
 
-##Introductory material
+## Introductory material
 
-* John Baez, QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)) Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/))
+* [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
+
+* John Baez and Mike Stay, _Physics, Topology, Logic and Computation: A Rosetta Stone_, [arXiv](http://arxiv.org/abs/0903.0340)
 
 * The Catsters (Simon Willerton), _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
 
-##Surveys
+## Surveys
 
 * Peter Selinger, _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf))
 
-* Ross Street, [Low dimensional topology and higher-order categories](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps)
+* [[Ross Street]], [Low dimensional topology and higher-order categories](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps) -- talks about surface diagrams and includes some pictures (PS version only).
 
-* Ross Street, "Categorical structures"
+* Ross Street, "Categorical structures" -- discusses string diagrams for bicategories.
 
 ## Details
 
-* Joyal and Street, "The geometry of tensor calculus"
+* [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011.
+
+* [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_, draft available [here](http://www.math.mq.edu.au/~street/GTCII.pdf).
+
+* [[Andre Joyal]] and [[Ross Street]], "Planar Diagrams and Tensor Algebra," available [here](http://www.math.mq.edu.au/~street/PlanarDiags.pdf).
+
+* Joyal and Street and [[Dominic Verity|Verity]], "Traced monoidal categories"
 
 * Todd Trimble, [Surface diagrams](/toddtrimble/published/Surface+diagrams)
 
 [[!redirects string diagrams]]
+[[!redirects circuit diagram]]
+[[!redirects circuit diagrams]]
 [[!redirects surface diagram]]
 [[!redirects surface diagrams]]
 [[!redirects graphical calculus]]
