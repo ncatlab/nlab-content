@@ -8,7 +8,7 @@
 Entropy is a measure of disorder, given by the amount of [[information]] necessary to precisely specify the [[state]] of a system.
 
 
-## Definitions
+## Mathematical definitions
 
 We can give a precise [[mathematics|mathematical]] definition of the entropy in [[probability theory]].
 
