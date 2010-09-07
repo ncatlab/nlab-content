@@ -29,7 +29,7 @@ a bundle 2-gerbe over a manifold $X$ is
 
 * on the [[fiber product]] $Y \times_X Y$ a [[bundle gerbe]] $\mathcal{L} \to Y\times_X Y$;
 
-* a morhims of bundle gerbes $\pi_1^* \mathcal{L} \otimes\pi_2^* \mathcal{L} \to \pi_1^* \mathcal{L}$;
+* a morphims of bundle gerbes $\pi_1^* \mathcal{L} \otimes\pi_2^* \mathcal{L} \to \pi_1^* \mathcal{L}$;
 
 * which is associative up to a choice of coherent 2-morphisms.
 
