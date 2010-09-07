@@ -3,7 +3,22 @@
 * table of contents
 {:toc}
 
+## Idea
+
+An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [[topological manifold]] $M$ which makes the resulting [[smooth manifold]] not diffeomorphic to the smooth manifold given by a 'standard' smooth structure on $M$. For example, Milnor gave the first examples of exotic smooth structures on spheres, which inherit a standard smooth structure from Euclidean space, which is identified as a smooth manifold in the usual way.
+Note however that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$, but no other $\mathbb{R}^n$ for $n\neq 4$.
+
+(Actually it is interesting that there is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets - D.R.)
+
+Moise proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are homeomorphic are diffeomorphic.
+
 ## References
+
+Something should go here about Milnor! eg
+
+* Milnor, John W. (1956), "On manifolds homeomorphic to the 7-sphere", Annals of Mathematics (Annals of Mathematics) 64 (2): 399&#8211;405
+
+
 
 ### In applications to physics
 
