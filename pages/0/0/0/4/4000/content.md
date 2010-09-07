@@ -210,13 +210,13 @@ from the $G$-principal bundles with connection to [[ordinary differential cohomo
         \left\{
           \array{
               C^\infty(U) \otimes \Omega^\bullet(\Delta^n)
-              &\stackrel{\mu}{\leftarrow}&
+              &\stackrel{}{\leftarrow}&
               CE(\mathfrak{g})
               \\
               \uparrow && \uparrow
               \\
               \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^n)
-              &\stackrel{(A,F_A)}{\leftarrow}&
+              &\stackrel{A}{\leftarrow}&
               W(\mathfrak{g})
           }
         \right\}
