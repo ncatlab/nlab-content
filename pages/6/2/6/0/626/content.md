@@ -1,3 +1,8 @@
+
+# String diagrams
+* table of contents
+{: toc}
+
 ## Overview
 
 _String diagrams_ are a graphical calculus for expressing operations in a [[monoidal category]]. The idea is roughly to think of objects in a monoidal category as "strings" and a morphism from one tensor product to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
@@ -9,6 +14,7 @@ _String diagrams_ are a graphical calculus for expressing operations in a [[mono
 * bending strings around corresponds to dualities on [[dualizable object]]s (if any).
 
 Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
+
 
 ## Variations
 
@@ -32,12 +38,15 @@ There are many additional structures on monoidal categories, or similar structur
 
 See the article by Selinger below for more examples.
 
-##See also
-[[sharing graph]]
 
-#References#
+## See also
 
-## Introductory material
+*  [[sharing graph]]
+
+
+## References
+
+### Introductory material
 
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
@@ -45,7 +54,8 @@ See the article by Selinger below for more examples.
 
 * The Catsters (Simon Willerton), _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
 
-## Surveys
+
+### Surveys
 
 * Peter Selinger, _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf))
 
@@ -53,7 +63,8 @@ See the article by Selinger below for more examples.
 
 * Ross Street, "Categorical structures" -- discusses string diagrams for bicategories.
 
-## Details
+
+### Details
 
 * [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011.
 
@@ -65,6 +76,8 @@ See the article by Selinger below for more examples.
 
 * Todd Trimble, [Surface diagrams](/toddtrimble/published/Surface+diagrams)
 
+
+[[!redirects string diagram]]
 [[!redirects string diagrams]]
 [[!redirects circuit diagram]]
 [[!redirects circuit diagrams]]
