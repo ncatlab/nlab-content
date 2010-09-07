@@ -239,7 +239,7 @@ from the $G$-principal bundles with connection to [[ordinary differential cohomo
    and then postcomposing with that.
 
 
-For the case at hand, let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\langle -\rangle \in W(\mathfrak{g})$ its canonical [[Killing form]] [[invariant polynomial]], $\mu = \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the corresponding [[Lie algebra cohomology|Lie algebra cocycle]], $cs \in W(\mathfrak{g})$ the Chern-Simons elements exhibiting the transgression betweemn the two, $G$ the [[simply connected]] [[Lie group]] [[Lie integration|integrating]] it.
+For the case at hand, let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\langle -\rangle : CE(b^3\mathbb{R})\to W(\mathfrak{g})$ its canonical [[Killing form]] [[invariant polynomial]], $\mu = \langle -,[-,-]\rangle: CE(b^2\mathbb{R})\to CE(\mathfrak{g})$ the corresponding [[Lie algebra cohomology|Lie algebra cocycle]], $cs: W(b^2\mathbb{R})\to W(\mathfrak{g})$ the Chern-Simons elements exhibiting the transgression betweemn the two, $G$ the [[simply connected]] [[Lie group]] [[Lie integration|integrating]] it.
 
 First consider the bare cocycle for the Chern-Simons circle 3-bundle as the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of the cocycle </a> $\mu$.
 
