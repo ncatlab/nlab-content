@@ -13,7 +13,7 @@
 
 A theory of _quantum gravity_ is supposed to be a [[quantum field theory]] (QFT) -- or something similar -- that corresponds to the [[classical field theory]] of [[gravity]], possibly by [[quantization]].
 
-There are various proposals for what quantum gravity might be, but a comprehensive theory is missing to date. This is in stark contrast to the situation for the other fundamental [[force]]s of the [[standard model of particle physics]]: these are [[Yang-Mills field]]s, whose nature as QFTs is, while subtle, well understood. Indeed, the theoretical and experimental sucess of [[Yang-Mills theory]] is the main reason for the belief that QFT is the right framework for fundamental phyysics, and that also the field of gravity must have a description in this form. 
+There are various proposals for what quantum gravity might be, but a comprehensive theory is missing to date. This is in stark contrast to the situation for the other fundamental [[force]]s of the [[standard model of particle physics]]: these are [[Yang-Mills field]]s, whose nature as QFTs is, while subtle, well understood. Indeed, the theoretical and experimental sucess of [[Yang-Mills theory]] is the main reason for the belief that QFT is the right framework for fundamental physics, and that also the field of gravity must have a description in this form. 
 
 Indeed, a model of fundamental physics where Yang-Mills fields are quantized but gravity is not is incomplete and arguably even inconsistent. Central motivating examples for this come from [[black hole]]-physics:
 
