@@ -1,34 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## References
 
 ### In applications to physics
 
-A survey is in 
+A survey of the application to [[physics]] is in 
 
 * [[Torsten Asselmeyer-Maluga]], [[Carl Brans]], _Exotic smoothness and physics. Differential topology and spacetime models_ Singapore: World Scientific (2007) ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1177.83001&format=complete))
 
 
-#### String theory
-
-An argument for interpreting exotic smooth spheres as [[gravitational instanton]]s and to cancel the gravitational anomalies of superstring theory is in
-
-* [[Edward Witten]], _Global gravitational anomalies_ Comm. Math. Phys. Volume 100, Number 2 (1985), 197--229.  ([web](http://projecteuclid.org/euclid.cmp/1103943444))
-
-The influence of exotic smoothness for Kaluza--Klein models was discussed here:
-
-* [[Matthias Kreck]], [[Stefan Stolz]], _A diffeomorphism classification of $7$-dimensional homogeneous Einstein manifolds with $\mathfrak{su}(3) \times \mathfrak{su}(2) \times \mathfrak{u}(1)$-symmetry_ Ann. Math. 127, (1988), 373--388.
-
-A discussion of topological effects (also of string theory) in relation to exotic smoothness is in
-
-* [[Ryan Rohm]], _Topological Defects and Differential Structures_ Annals Of Physics, 189, (1989), 223--239.
-
-There are also some relations between string backgrounds, quantum D-branes and exotic $\mathbb{R}^4$
-
-* [[Torsten Asselmeyer-Maluga]], [[Jerzy Król]] _Exotic smooth $\mathbb{R}^4$, geometry of string backgrounds and quantum D-branes_, [arXiv](http://arxiv.org/abs/1006.2642)
-
-
 #### General relativity
 
-Brans was the first who considered exotic $4$-manifolds from the general relativity point of view:
+Brans was the first who considered exotic $4$-manifolds from the [[general relativity]] point of view:
 
 * [[Carl Brans]], [[Duane Randall]] _Exotic differentiable structures and general relativity_ Gen. Rel. Grav., 25 (1993) 205--220
 
@@ -43,9 +29,10 @@ A more philosohphical discussion can be found in:
 * [[Carl Brans]] _Absolulte spacetime: the twentieth century ether_ Gen. Rel. Grav. 31, (1999),  597--609
 
 
+
 #### Generation of source terms (fields)
 
-Brans conjectured in the papers above, that exotic smoothness should be a source of an additional gravitational field (Brans conjecture). This conjecture was confirmed for compact $4$-manifolds (using implicitly a mapping of basic classes):
+Brans conjectured in the papers above, that exotic smoothness should be a source of an additional [[gravity|gravitational field]] (Brans conjecture). This conjecture was confirmed for compact $4$-manifolds (using implicitly a mapping of basic classes):
 
 * [[Torsten Asselmeyer]] _Generation of source terms in general relativity by differential structures_ Class. Quant. Grav. 14, (1996), 749--758
 
@@ -53,9 +40,10 @@ Using the invariant of L. Taylor [arXiv](http://de.arxiv.org/abs/math/9807143), 
 
 * [[Jan S?adkowski]] _Gravity on exotic R4 with few symmetries_ Int.J. Mod. Phys. D, 10, (2001) 311--313
 
-Via a detailed analysis of the Casson handle (as the main object to construct exotic smoothness for $4$-manifolds via the Akbulut cork), it is possible to get the action of Dirac field and of the gauge bosons from the Einstein--Hilbert action (witha boundary term) in:
+Via a detailed analysis of the Casson handle (as the main object to construct exotic smoothness for $4$-manifolds via the Akbulut cork), it is possible to get the action of Dirac field and of the gauge bosons from the [[Einstein-Hilbert action]] (witha boundary term) in:
 
 * [[Torsten Asselmeyer-Maluga]], [[Helge Rose']] _On the geometrization of matter by exotic smoothness_, [arXiv:1006.2230](http://arxiv.org/abs/1006.2230)
+
 
 
 #### Gerbes, WZW models, foliations
@@ -64,26 +52,48 @@ The first paper describes a construction of an exotic $\mathbb{R}^4$ via a codim
 
 * [[Torsten Asselmeyer-Maluga]], [[Jerzy Król]] _Gerbes, SU(2) WZW models and exotic smooth $\mathbb{R}^4$_ [arXiv](http://arxiv.org/abs/0904.1276)
 
-Then one gets various relations to orbifolds and the WZW model (level of the conformal field theory)
+Then one gets various relations to [[orbifold]]s and the [[WZW model]] (level of the conformal field theory)
 
 * [[Torsten Asselmeyer-Maluga]], [[Jerzy Król]] _Gerbes on orbifolds and exotic smooth $\mathbb{R}^4$_ [arXiv](http://arxiv.org/abs/0911.0271)
 
 
 #### Quantum (field) theory
 
-The first real connection between exotic smoothness and QFT is Wittens TQFT:
+The first real connection between exotic smoothness and [[quantum field theory]] is Wittens TQFT:
 
 * [[Edward Witten]], _Topological quantum field theory_ Comm. Math. Phys., 117, (1988), 353--386.
 
 and the whole work of Seiberg and Witten leading to the celebrated invariants.
 
-The first conjectured (direct) relation (identifying submanifolds with operators) to quantum mechanics (using singular connections) was established here:
+The first conjectured (direct) relation (identifying submanifolds with operators) to [[quantum mechanics]] (using singular connections) was established here:
 
 * [[Torsten Asselmeyer-Maluga]], [[Helge Rose']] _Differential Structures -- the Geometrization of Quantum Mechanics_ [arXiv](http://arxiv.org/abs/gr-qc/0511089)
 
-Using the relation to foliations and noncommutative geometry for the leave space, one can reproduce the vacuum sector of a QFT (the factor $III_1$) via exotic smoothness as explained here:
+Using the relation to foliations and [[noncommutative geometry]] for the leave space, one can reproduce the vacuum sector of a QFT (the [[von Neumann algebra factor|factor]] $III_1$) via exotic smoothness as explained here:
 
-* [[Torsten Asselmeyer-Maluga]], [[Jerzy Król]] _Exotic smooth $\mathbb{R}^4$, noncommutative algebras and quantization_ [arXiv](http://arxiv.org/abs/1001.0882)
+* [[Torsten Asselmeyer-Maluga]], [[Jerzy Król]] _Exotic smooth $\mathbb{R}^4$, noncommutative algebras and quantization_ [arXiv](http://arxiv.org
+/abs/1001.0882)
+
+#### String theory
+
+An argument for interpreting exotic smooth spheres as [[gravitational instanton]]s and to cancel the gravitational anomalies of [[string theory]] is in
+
+* [[Edward Witten]], _Global gravitational anomalies_ Comm. Math. Phys. Volume 100, Number 2 (1985), 197--229.  ([web](http://projecteuclid.org/euclid.cmp/1103943444))
+
+The influence of exotic smoothness for [[Kaluza-Klein model]]s was discussed here:
+
+* [[Matthias Kreck]], [[Stefan Stolz]], _A diffeomorphism classification of $7$-dimensional homogeneous Einstein manifolds with $\mathfrak{su}(3) \times \mathfrak{su}(2) \times \mathfrak{u}(1)$-symmetry_ Ann. Math. 127, (1988), 373--388.
+
+A discussion of topological effects (also of string theory) in relation to exotic smoothness is in
+
+* [[Ryan Rohm]], _Topological Defects and Differential Structures_ Annals Of Physics, 189, (1989), 223--239.
+
+There are also some relations between string backgrounds, quantum [[D-brane]]s and exotic $\mathbb{R}^4$
+
+* [[Torsten Asselmeyer-Maluga]], [[Jerzy Król]] _Exotic smooth $\mathbb{R}^4$, geometry of string backgrounds and quantum D-branes_, [arXiv](http://arxiv.org/abs/1006.2642)
+
+
+
 
 
 #### Model theory
