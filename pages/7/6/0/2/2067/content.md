@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -626,3 +625,7 @@ See also the references at [[Grothendieck fibration]].
 [[!redirects cocartesian morphism]]
 [[!redirects coCartesian morphism]]
 [[!redirects cocartesian morphisms]]
+[[!redirects cartesian arrow]]
+[[!redirects cartesian arrows]]
+[[!redirects Cartesian arrow]]
+[[!redirects Cartesian arrows]]
