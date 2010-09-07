@@ -5,12 +5,14 @@
 
 ## Idea
 
-An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [[topological manifold]] $M$ which makes the resulting [[smooth manifold]] not diffeomorphic to the smooth manifold given by a 'standard' smooth structure on $M$. For example, Milnor gave the first examples of exotic smooth structures on spheres, which inherit a standard smooth structure from Euclidean space, which is identified as a smooth manifold in the usual way.
-Note however that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$, but no other $\mathbb{R}^n$ for $n\neq 4$.
+An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [[topological manifold]] $X$ which makes the resulting [[smooth manifold]] be [[diffeomorphism|non-diffeomorphic]] to the smooth manifold given by some evident 'standard' smooth structure on $X$. 
 
-(Actually it is interesting that there is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets - D.R.)
+Milnor gave the first examples of exotic smooth structures on [[sphere]]s. These inherit a canonical smooth structure from their canonical embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
-Moise proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are homeomorphic are diffeomorphic.
+There exist uncountably many exotic smooth structures on $\mathbb{R}^4$, which is not the case on $\mathbb{R}^n$ for $n\neq 4$.
+There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets.
+
+Moise proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are [[homeomorphism|homeomorphic]] are [[diffeomorphism|diffeomorphic]].
 
 ## References
 
@@ -53,7 +55,7 @@ Brans conjectured in the papers above, that exotic smoothness should be a source
 
 Using the invariant of L. Taylor [arXiv](http://de.arxiv.org/abs/math/9807143), Sladkowski confirmed the conjecture for the exotic $\mathbb{R}^4$ in:
 
-* [[Jan S?adkowski]] _Gravity on exotic R4 with few symmetries_ Int.J. Mod. Phys. D, 10, (2001) 311--313
+* [[Jan Sładkowski]] _Gravity on exotic R4 with few symmetries_ Int.J. Mod. Phys. D, 10, (2001) 311--313
 
 Via a detailed analysis of the Casson handle (as the main object to construct exotic smoothness for $4$-manifolds via the Akbulut cork), it is possible to get the action of Dirac field and of the gauge bosons from the [[Einstein-Hilbert action]] (witha boundary term) in:
 
@@ -111,28 +113,6 @@ There are also some relations between string backgrounds, quantum [[D-brane]]s a
 
 
 
-#### Model theory
-
-Here is a list of papers by Kr&#243;l who considered exotic smoothness and its relation to [[model theory]] (used to interpret physical measurement results in quantum theory).
-
-* [[Jerzy Król]] _Background independence in quantum gravity and forcing constructions_ Found. of Physics, 34, (2004), 361--403
-
-* [[Jerzy Król]] _Exotic smoothness and non-commutative spaces.the model-theoretic approach_ Found. of Physics, 34, (2004), 843--869
-
-* [[Jerzy Król]] _Model theory and the AdS/CFT correspondence_ presented at the IPM String School and Workshop, Queshm Island, Iran, 05--14. 01. 2005, [arXiv](http://arxiv.org/abs/hep-th/0506003)
-
-* [[Jerzy Król]] _A model for spacetime: The role of interpretation in some grothendieck topoi_ Found. Phys., 36, (2006), 1070--∞
-
-* [[Jerzy Król]] _A model for spacetime ii. the emergence of higher dimensions and field theory/strings dualities_ Found. Phys., 36 (2006), 1778--∞
-
-* [[Jerzy Król]] _Structure of spacetime and topos theory_ talk presented at 42 nd Karpacz Winter School of Theoretical Physics, L&#261;dek Zdr&#243;j, 5--11. 02. 2006, Int. J. Geom. Meth. Mod. Phys. 4 No3, 1--7 (2007)
-
-* [[Jerzy Król]] _Higher YM theories and the compactification in string theory_  Acta Phys. Polon. B38 (2007) 3641--3646
-
-* [[Jerzy Król]] _Higher symmetry of gravity and the cosmological constant problem_ PASCOS2008, Waterloo, Kanada, pirsa.org/08060091 (2008).
-
-* [[Jerzy Król]] _$2$-Groups and gravity_ talk presented at The Jubilee 40th Symposium on Mathematical Physics "Geometry & Quanta" Toru&#324;, June 25--28, 2008
-
  
 #### Cosmology
 
@@ -146,7 +126,7 @@ Then this idea was used to discuss a model of the cosmos including the cosmologi
 
 An overview can be also found in
 
-* [[Jan S?adkowski]] _Exotic smoothness and astrophysics_ Act. Phys. Polon. B, 40, (2009), 3157--3163
+* [[Jan Sładkowski]] _Exotic smoothness and astrophysics_ Act. Phys. Polon. B, 40, (2009), 3157--3163
 
 
 #### Quantum gravity
