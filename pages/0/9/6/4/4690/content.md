@@ -15,11 +15,11 @@
 
 ## Idea
 
-The _Einstein-Hilbert action_ is the [[action functional]] that defines the dynamics [[gravity]] in [[general relativity]]. It is a canonical invariant of [[pseudo-Riemannian manifold]]s.
+The _Einstein-Hilbert action_ is the [[action functional]] that defines the dynamics of [[gravity]] in [[general relativity]]. It is a canonical invariant of [[pseudo-Riemannian manifold]]s.
 
 ## Definition
 
-For $(X,g)$ a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]], its **vaccuum Einstein-Hilbert action** is the number
+For $(X,g)$ a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]], its **vacuum Einstein-Hilbert action** is the number
 
 $$
   (X,g) := \int_X R(g) dvol(g)
