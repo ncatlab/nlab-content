@@ -18,7 +18,7 @@ Lecture series:
 
 * Holger Nielsen: discussion sessions -- Black hole information paradox
 
-Key words and related entries: [[AdS-CFT|AdS3/CFT2]], Penrose diagram, Hawking radiation, [[asymptotic isometry]], [[intermediate mass black hole]], [[cosmology]], [[string theory]], horizon, information paradox, [[supersymmetry]], [[supergravity]], [[observing black holes]]
+Key words and related entries: [[AdS-CFT|AdS3/CFT2]], Penrose diagram, Hawking radiation, [[asymptotic isometry]], [[intermediate mass black hole]], [[cosmology]], [[string theory]], horizon, information paradox, [[supersymmetry]], [[supergravity]], [[observing black holes]], [[quantum gravity]]
 
 [[!redirects Croatian Black Hole School]]
 [[!redirects Croatian black hole school]]
