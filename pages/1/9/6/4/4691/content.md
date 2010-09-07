@@ -7,6 +7,8 @@
 
 Entropy is a measure of disorder, given by the amount of [[information]] necessary to precisely specify the [[state]] of a system.
 
+Entropy is important in [[information theory]] and [[statistical physics]].
+
 
 ## Mathematical definitions
 
@@ -17,39 +19,40 @@ We can give a precise [[mathematics|mathematical]] definition of the entropy in 
 
 This is just a preliminary definition.
 
-The __entropy measure__ of a probability $p$ (which is a [[real number]] in the [[unit interval]]) is
+The __entropy measure__ of a probability (a [[real number]] in the [[unit interval]]) $p$ is
++-- {: .query}
+I made up the term 'entropy measure', since most sources seem to just call it 'entropy', but it\'s *not* actually an entropy of anything.  Is there a better term?  &#8212;[[Toby Bartels]]
+=--
 $$ h(p) \coloneqq - p \log p $$
-(or more precisely $h(p) \coloneqq \lim_{q \searrow p} (- q \log q)$, so that the expression is defined when $p = 0$).  Notice that, despite the minus sign, entropy is positive (since $\log p \leq 0$ for $p \leq 1$).
+(or more precisely $h(p) \coloneqq \lim_{q \searrow p} (- q \log q)$, so that the expression is defined when $p = 0$).  Notice that, despite the minus sign in this formula, $h$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$).  It is also important that $h$ is [[convex function|concave]].  Both $h(0)$ and $h(1)$ are $0$; the idea is that a probability of either $0$ or $1$ represents maximum information (one way or another) and minimum uncertainty.
 
-This entropy is $0$ when $p$ is $0$ or $1$; the idea is that either $0$ or $1$ represents maximum information and minimum uncertainty.  The maximum value (minimum information, maximum uncertainty) is $\frac{1}{2} \log 2$, which occurs when $p = 1/2$.
-
-We have not specified the base of the [[logarithm]], which amounts to a constant factor, which we think of as specifying the [[unit of measurement]] of entropy.  Common choices are $2$ (whose unit is the bit), $\mathrm{e}$ (whose unit is the nat), $10$ (whose unit is the bel), and $\root{10}{10}$ (whose unit is the decibel).
+We have not specified the base of the [[logarithm]], which amounts to a constant factor, which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $3$ (trit), $\mathrm{e}$ (nat or neper), $10$ (bel, originally a unit of power intensity in telegraphy), and $\root{10}{10}$ (decibel: $1/10$ of a bel).
 
 
-### Entropy of a $\sigma$-algebra with respect to a probability measure
+### Entropy of a $\sigma$-algebra on a probability space
 
-This is the general mathematical definition of entropy.
+This is a general mathematical definition of entropy.
 
 Given a probability [[measure space]] $(X,\mu)$ and a $\sigma$-[[sigma-algebra|algebra]] $\mathcal{M}$ of [[measurable sets]] in $X$, the __entropy__ of $\mathcal{M}$ with respect to $\mu$ is
 \[ \label{general} H_\mu(\mathcal{M}) \coloneqq \sup \{ \sum_{A \in \mathcal{F}} h(\mu(A)) \;|\; \mathcal{F} \subseteq \mathcal{M},\; {|\mathcal{F}|} \lt \aleph_0,\; X = \biguplus \mathcal{F} \} .\]
 
-In words, we take a [[supremum]], over all ways of expressing $X$ as an internal [[disjoint union]] of [[finite set|finitely many]] measurable sets in the $\sigma$-algebra $\mathcal{M}$, of the sum, over these measurable sets, of the entropy measures of the measures of these sets.
+In words, the entropy is the [[supremum]], over all ways of expressing $X$ as an internal [[disjoint union]] of [[finite set|finitely many]] elements of the $\sigma$-algebra $\mathcal{M}$, of the sum, over these measurable sets, of the entropy measures of the measures of these sets.  This supremum can also be expressed as a [[convergence|limit]] as we take $\mathcal{F}$ to be finer and finer, since $h$ is concave and the partitions are [[directed set|directed]].
 
-(Without loss of generality, we do not need the elements of $\mathcal{F}$ to be [[disjoint sets|disjoint]], as long as their intersections are [[null sets]].  Similarly, we do not need their [[union]] to be all of $X$, as long as their union is a [[full set]].  In [[constructive mathematics]] we *must* weaken the latter condition in this way.)
+(Without loss of generality, we do not need the elements of $\mathcal{F}$ to be [[disjoint sets|disjoint]], as long as their intersections are [[null sets]].  Similarly, we do not need their [[union]] to be all of $X$, as long as their union is a [[full set]].  In [[constructive mathematics]], it seems that we *must* weaken the latter condition in this way.)
 
-This definition is very general, and it instructive to look at special cases.
-
-
-### Entropy of the $\sigma$-algebra of all measurable sets
-
-Given a probability space $(X,\mu)$, the __entropy__ of this probability space is entropy, with respect to $\mu$, of the $\sigma$-algebra of *all* measurable subsets of $X$.
+This definition is very general, and it is instructive to look at special cases.
 
 
-### Entropy of a partition
+### Entropy of a probability space
 
-Recall that a __partition__ of a set $X$ is a [[family of subsets]] of $X$ such that $X$ is the [[union]] of the family and any two distinct elements of the family are [[disjoint sets]].  That is, the supremum in the formula above is taken over finite partitions of $X$ into elements of $\mathcal{M}$.
+Given a probability space $(X,\mu)$, the __entropy__ of this probability space is the entropy, with respect to $\mu$, of the $\sigma$-algebra of *all* measurable subsets of $X$.
 
-Every partition of a measure space $X$ into measurable sets (indeed, any family of measurable subsets of $X$) generates a $\sigma$-algebra of measurable sets on $X$.  The __entropy__ of a measurable partition $\mathcal{P}$ of a probability measure space $(X,\mu)$ is defined to be the entropy, with respect to $\mu$, of the $\sigma$-algebra generated by $\mathcal{P}$.  The formula (eq:general) may then be written
+
+### Entropy of a partition of a probability space
+
+Recall that a __[[partition]]__ of a set $X$ is a [[family of subsets|family]] $\mathcal{P}$ of $X$ such that $X$ is the [[union]] of $\mathcal{P}$ and any two distinct elements of $\mathcal{P}$ are [[disjoint sets|disjoint]].  (That is, the supremum in (eq:general) is taken over finite partitions of $X$ into elements of $\mathcal{M}$.)
+
+Every partition of a measure space $X$ into measurable sets (indeed, any family of measurable subsets of $X$) generates a $\sigma$-algebra of measurable sets.  The __entropy__ of a measurable partition $\mathcal{P}$ of a probability measure space $(X,\mu)$ is the entropy, with respect to $\mu$, of the $\sigma$-algebra generated by $\mathcal{P}$.  The formula (eq:general) may then be written
 \[ \label{partition} H_\mu(\mathcal{P}) = \sum_{A \in \mathcal{P}} h(\mu(A)) = - \sum_{A \in \mathcal{P}} \mu(A) \log \mu(A) ,\]
 since an infinite sum (of positive terms) may also be defined as a supremum.  (Actually, the supremum in the infinite sum does not quite match the supremum in (eq:general), so there is a bit of a theorem to prove here.)
 
@@ -58,23 +61,24 @@ In most of the following special cases, we will consider only partitions, althou
 
 ### Entropy of (a partition of) a discrete probability space
 
-Recall that a __discrete probability space__ is a [[set]] $X$ equipped with a function $\mu\colon X \to [0,1]$ such that $\sum_{i \in X} \mu(i) = 1$.  We make $X$ into a measure space (with every subset measurable) by defining $\mu(A) \coloneqq \sum_{i \in A} \mu(i)$.  Since every set is measurable, any partition of $X$ is a partition into measurable sets.
+Recall that a __discrete probability space__ is a [[set]] $X$ equipped with a function $\mu\colon X \to [0,1]$ such that $\sum_{i \in X} \mu(i) = 1$; since $\mu(i) \gt 0$ for only countable many $i$, we may assume that $X$ is [[countable set|countable]].  We make $X$ into a measure space (with every subset measurable) by defining $\mu(A) \coloneqq \sum_{i \in A} \mu(i)$.  Since every set is measurable, any partition of $X$ is a partition into measurable sets.
 
 Given a discrete probability space $(X,\mu)$ and a partition $\mathcal{P}$ of $X$, the __entropy__ of $\mathcal{P}$ with respect to $\mu$ is defined to be the entropy of $\mathcal{P}$ with respect to the probability measure induced by $\mu$.  Simplifying (eq:partition), we find
 $$ H_\mu(\mathcal{P}) = \sum_{A \in \mathcal{P}} h(\sum_{i \in A} \mu(i)) = - \sum_{A \in \mathcal{P}} (\sum_{i \in A} \mu(i)) \log (\sum_{i \in A} \mu(i)) .$$
 
 More specially, the __entropy__ of the discrete probability space $(X,\mu)$ is the entropy of the partition of $X$ into [[singletons]]; we find
 $$ H_\mu(X) = \sum_{i \in X} h(\mu(i)) = - \sum_{i \in X} \mu(i) \log \mu(i) .$$
+This is actually a special case of the entropy of a probability space, since the $\sigma$-algebra generated by the singletons is the power set of $X$ (at least when $X$ is countable, and the formulas agree in any case).
 
 Yet more specially, the __entropy__ of a [[finite set]] $X$ is the entropy of $X$ equipped with the uniform discrete probability measure; we find
 \[ \label{Boltzmann} H_{unif}(X) = - \sum_{i \in X} \frac{1}{|X|} \log \frac{1}{|X|} = \log {|X|} ,\]
-which is probably the earliest mathematical formula for entropy, due to Boltzmann.
+which is probably the earliest mathematical formula for entropy, due to Boltzmann.  (Its physical interpretation appears below.)
 
 
 ### Entropy with respect to an absolutely continuous probability measure on the real line
 
-Recall that a [[Borel measure]] $\mu$ on an [[interval]] $X$ in the [[real line]] is __[[absolutely continuous measure|absolutely continuous]]__ if $\mu(A) = 0$ whenever $A$ is a [[null set]] with respect to [[Lebesgue measure]].  In this case, we can take the [[Radon-Nikodym derivative]] of $\mu$ with respect to Lebesgue measure, to get an [[integrable function]] $\mu'$, called the __probability distribution function__; we recover $\mu$ by
-\[ \label{pdf} \mu(A) = \int_A \mu'(x) \mathrm{d}x ,\]
+Recall that a [[Borel measure]] $\mu$ on an [[interval]] $X$ in the [[real line]] is __[[absolutely continuous measure|absolutely continuous]]__ if $\mu(A) = 0$ whenever $A$ is a [[null set]] (with respect to [[Lebesgue measure]]).  In this case, we can take the [[Radon-Nikodym derivative]] of $\mu$ with respect to Lebesgue measure, to get an [[integrable function]] $f$, called the __probability distribution function__; we recover $\mu$ by
+\[ \label{pdf} \mu(A) = \int_A f(x) \mathrm{d}x ,\]
 where the integral is taken with respect to Lebesgue measure.
 
 If $\mathcal{P}$ is a partition of an interval $X$ into [[Borel sets]], then the __entropy__ of $\mathcal{P}$ with respect to an integrable function $f$ is the entropy of $\mathcal{P}$ with respect to the measure induced by $f$ using the integral formula (eq:pdf); we find
@@ -84,7 +88,7 @@ On the other hand, the __entropy__ of the probability distribution space $(X,f)$
 $$ H_f(X) = - \int f(x) \log f(x) \mathrm{d}x $$
 by a fairly complicated argument.
 +-- {: .query}
-I haven\'t actually managed to check this argument yet, although I remember it as a true fact.
+I haven\'t actually managed to check this argument yet, although my memory tags it as a true fact.  &#8212;Toby
 =--
 Note that this $\sigma$-algebra is *not* generated by a partition.
 
@@ -93,9 +97,9 @@ Note that this $\sigma$-algebra is *not* generated by a partition.
 
 In the analogy between [[classical physics]] and [[quantum physics]], we move from probability distributions on a [[phase space]] to [[density operators]] on a [[Hilbert space]].
 
-So just as the entropy of a probability distribution $f$ on phase space $X$ is given by $- \int f \log f$, so the __entropy__ of a density operator $\rho$ is
+So just as the entropy of a probability distribution $f$ is given by $- \int f \log f$, so the __entropy__ of a density operator $\rho$ is
 $$ H_\rho \coloneqq = - Tr (\rho \log \rho) ,$$
-using the [[functional calculus]] on the Hilbert space.
+using the [[functional calculus]].
 
 These are both special cases of the entropy of a [[state]] on a $C^*$-[[C-star-algebra|algebra]].
 
@@ -104,11 +108,11 @@ There is a way to fit this into the framework given by (eq:general), but I don\'
 
 ## Physical entropy
 
-As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, neither of these is the usual entropy in [[physics]].
+As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, these are __microscopic entropy__, which is not the usual entropy in [[thermodynamics]] and most other branches of [[physics]].  (In particular, microscopic entropy is conserved, while macrosocpic entropy increases with time.)
 
-Instead, physicists use *coarse-grained* entropy, which corresponds mathematically to taking the entropy of a $\sigma$-algebra much smaller than the $\sigma$-algebra of all measurable sets.  Given a classical system with $N$ microscopic degrees of freedom, we identify $n$ macroscopic degrees of freedom that we can reasonably expect to measure, giving a map from $\mathbb{R}^N$ to $\mathbb{R}^n$ (or more generally, a map from an $N$-dimensional microscopic phase space to an $n$-dimensional macroscopic phase space). Then the $\sigma$-algebra of all measurable sets in $\mathbb{R}^n$ [[pullback|pulls back]] to a $\sigma$-algebra on $\mathbb{R}^N$, and the __macroscopic physical entropy__ of a statistical state is the entropy of this $\sigma$-algebra.
+Instead, physicists use *coarse-grained* entropy, which corresponds mathematically to taking the entropy of a $\sigma$-algebra much smaller than the $\sigma$-algebra of all measurable sets.  Given a classical system with $N$ microscopic degrees of freedom, we identify $n$ macroscopic degrees of freedom that we can reasonably expect to measure, giving a map from $\mathbb{R}^N$ to $\mathbb{R}^n$ (or more generally, a map from an $N$-dimensional microscopic phase space to an $n$-dimensional macroscopic phase space). Then the $\sigma$-algebra of all measurable sets in $\mathbb{R}^n$ [[pullback|pulls back]] to a $\sigma$-algebra on $\mathbb{R}^N$, and the __macroscopic entropy__ of a statistical state is the entropy of this $\sigma$-algebra.  (Typically, $N$ is on the order of Avogardo\'s number, while $n$ is rarely more than half a dozen, and often as small as $2$.)
 
-Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$.  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is almost never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics.)
+Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$.  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
 
 
 [[!redirects entropy]]
