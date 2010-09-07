@@ -105,7 +105,7 @@ $$
     \downarrow && \downarrow
     \\
     \mathbf{H}_{conn}(X,\mathbf{B}Spin)
-    &\stackrel{\frac{1}{2}\hat p_1}{\to}&
+    &\stackrel{\frac{1}{2}\hat \mathbf{p}_1}{\to}&
     \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
   }
   \,,
@@ -137,7 +137,7 @@ $$
     &\to&
     H_{dR}^4(X)
     \\
-    \downarrow && \downnarrow
+    \downarrow && \downarrow
     \\
     [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})
     &\stackrel{curv}{\to}&
@@ -151,7 +151,7 @@ $$
   \hat \mathbf{B}G \to \mathbf{B}^3 U(1)_{diff,simp}
 $$
 
-in the projective [[model structure on simplical presheaves]] that models the morphism $\frac{1}{2}\mathbf{p}_1$, for that allows to compute the [[homotopy pullback]] in questions (as described there) by an ordinary pullback along $[CartSp^{op}, sSet](C(U), \hat \mathbf{B}G) \to [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})$.
+in the projective [[model structure on simplicial presheaves]] that models the morphism $\frac{1}{2}\mathbf{p}_1$, for that allows to compute the [[homotopy pullback]] in questions (as described there) by an ordinary pullback along $[CartSp^{op}, sSet](C(U), \hat \mathbf{B}G) \to [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})$.
 
 To that end, we replace the [[Lie algebra]] $\mathfrak{g}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)).
 
@@ -199,7 +199,7 @@ which includes the generator $c$.
 +-- {: .un_lemma }
 ###### Lemma
 
-Composition with $CE(\mathfrak{\hat g}) \leftarrow CE(b^2 \mathbb{R})$ induces a fibration
+Composition with $CE(\hat \mathfrak{g}) \leftarrow CE(b^2 \mathbb{R})$ induces a fibration
 
 $$
   \array{
@@ -220,14 +220,14 @@ in $[CartSp^{op}, sSet]_{proj}$.
 +-- {: .proof}
 ###### Proof
 
-A 3-morphism in $\mathbf{cosk}_3 \exp(\hat \mathfrak{g})$ is a based 3-ball $\phi : \Delta^3 \to G$ together with a 2-form $B \in \Omega^2(D^3)$. The morphism sends this to the number 
+A 3-morphism in $\mathbf{cosk}_3 \exp(\hat \mathfrak{g})$ is a based 3-ball $\phi : \Delta^3 \to G$ together with a 2-form $B \in \Omega^2(D^3)$, all with sitting instants at the boundaries. The morphism sends this to the number 
 
 $$
   \int_{\Delta^3} (\phi^* \langle \theta\wedge [\theta\wedge \theta]\rangle + d B) \;\; \in \mathbb{R}\;\; mod \;\; \mathbb{Z}
   \,,
 $$
 
-where $\theta$ is the [[Maurer-Cartan form]]. By the integrality of $\mu$ = \langle -,[-,-]\rangle$ this is well defined.
+where $\theta$ is the [[Maurer-Cartan form]] on $Spin$. By the integrality of $\mu = \langle -,[-,-]\rangle$ this is well defined.
 
 Now for
 
@@ -241,7 +241,9 @@ $$
   }
 $$
 
-a lifting problem, with $c \in U(1)$, and $f : S^2 \to G$ an extension is given by extending $f$ along a smooth [[retract]] $D^3 \to S^2$ identifying the upper hemisphere, and extending $B$ to any 2-form $\hat B \in \Omega^2(D^3 )$ such that $\int_{S^2} B = c - \int_{D^3} \langle \theta\wedge [\theta\wedge \theta]\rangle$. Such a $B$ can always be found. And the same is true for $U$-parameterized families of this problem.
+a lifting problem, with $c \in U(1)$, and $f : \Lambda[3]^i \to D^2 \to G$ a map on the horn, with sitting instants, a lift is given by extending $f$ along a smooth [[retract]] $\pi : D^3 \to D^2$ identifying the upper hemisphere as $\pi^* f : \Delta^3 \to D^3 \to  G $, and extending $B$ to any 2-form $\hat B \in \Omega^2(D^3 )$ such that $\int_{S^2} B = c - \int_{D^3} \pi^*f^*\langle \theta\wedge [\theta\wedge \theta]\rangle$. Such a $B$ can always be found:
+
+pick and 2-form $B_2$ on $D^2$ with sitting instants that matches $B$ at the boundary, then goes smoothly to 0 away from the boundary and becomes non-vanishing $B_2^{inn} \in \Omega^2(U \subset D^2)$ with non-vanishing surface integral in the interior of $D^2$. Together with $B$ this gives a smooth 2-form on $S^2$. By letting this smoothly decay to 0 radially along $D^3$ it can always be extended to $D^3$. By rescaling $B_2^{inn}$ appropriately, any integral value can be obtained. And this construction evidently goes through for $U$-parameterized families of this problem.
 
 All other lifting problems are trivial, hence we have for each $U \in $ [[CartSp]] a [[Kan fibration]], hence a fibration in $[CartSp^{op}, sSet]_{proj}$.
 
