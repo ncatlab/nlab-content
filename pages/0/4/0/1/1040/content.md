@@ -2,6 +2,8 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a category $C$ such th
 
 1. $\mu: T T \to T$ is a [[natural transformation|natural isomorphism]]. 
 
+1. All components of $\mu: T T \to T$ are monic.
+
 1. The maps $T\eta, \eta T: T \to T T$ are equal. 
 
 1. For every $T$-algebra ($T$-module)
@@ -9,7 +11,31 @@ $(M,u)$, the corresponding $T$-action $u: T M \to M$ is an isomorphism.
 
 1. The forgetful functor $C^T \to C$ (where $C^T$ is the [[Eilenberg-Moore category]] of $T$-algebras) is a [[full and faithful functor]].
 
-The last statement means that in such a case $C^T$ is, up to equivalence a full [[reflective subcategory]] of $C$.  Conversely, the monad induced by any reflective subcategory is idempotent, so giving an idempotent monad on $C$ is equivalent to giving a reflective subcategory of $C$.
+1. There exists an adjunction $F\dashv U$ such that the induced monad $(FU, F\epsilon U)$ is isomorphic to $(T,\mu)$ and $U$ is fully faithful. 
+
+_Proof of equivalence (in more than one way)._  $1\Rightarrow 2$ is trivial.
+
+$2\Rightarrow 3$ Compositions $\mu\circ T\eta$ and $\mu\circ\eta T$ are always the identity (unit axioms for the monad), and in particular agree; if $\mu$ has all components monic, this implies $T\eta = \eta T$. 
+
+$3\Rightarrow 4$ Compatibility of action and unit is $u \circ \eta_M = id_M$, hence also $T(u)\circ T(\eta_M) = id_{T M}$. If $T\eta = \eta T$ then this 
+implies $id_M = T(u)\circ \eta_{T M} = \eta_M\circ U$, where the naturality of $\eta$ is used in the second equality. Therefore we exhibited $\eta_M$ both as a left and a right inverse of $u$. 
+
+$4\Rightarrow 1$ If every action is iso, then the components of multiplication $\mu_M : TTM\to TM$ are isos as a special case, namely of the free action on $TM$. 
+
+$4\Rightarrow 5$ For any monad $T$, the forgetful functor from Eilenberg-Moore category $C^T$ to $C$ is faithful: a morphism of $T$-algebras is always a morphism of underlying objects in $C$. To show that it is also full, we consider any pair $(M,u)$, $(M',u')$ in $C^T$ 
+and must show that any $f: M\to M'$ is actually 
+a map $f : (M,u)\to (M',u')$; i.e. $u'\circ Tf = f\circ u$. But we know that $\eta_M, \eta_{M'}$ are inverses of $u,u'$ respectively and 
+the naturality for $\eta$ says $\eta_{M'}\circ f = Tf \circ \eta_M$. Compose that equation with $u$ on the right and $u'$ on the left with the result (notice that we used just the invertibility of $u$).  
+
+$5\Rightarrow 6$ Trivial, because the Eilenberg-Moore construction induces the original monad by the standard recipe. 
+
+$6\Rightarrow 3$ By $6$ the counit $\epsilon$ is iso, hence $U\epsilon F$ has a unique 2-sided inverse; by triangle identities, $T\eta$ and $\eta T$ are both right inverses of $U\epsilon F$, hence 2-sided inverses, hence they are equal.
+
+$6\Rightarrow 1$ If $F\dashv U$ is an adjunction with $U$ fully faithful, 
+then the counit $\epsilon$ is iso. The induced monad has multiplication 
+$\mu = U\epsilon F$ hence iso; every isomorphic monad is also iso. Q. E. D. 
+
+Part 5 means that in such a case $C^T$ is, up to equivalence a full [[reflective subcategory]] of $C$.  Conversely, the monad induced by any reflective subcategory is idempotent, so giving an idempotent monad on $C$ is equivalent to giving a reflective subcategory of $C$.
 
 In the language of [[stuff, structure, property]], an idempotent monad may be said to equip its algebras with _properties only_ (since $C^T\to C$ is fully faithful), unlike an arbitrary monad, which equips its algebras with _at most structure_ (since $C^T\to C$ is, in general, faithful but not full).
 
