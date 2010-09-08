@@ -221,7 +221,7 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
   * an $L_\infty$-algebra generated just in degree 1, 2 and 3 is a **[[Lie 3-algebra]]** ;
 
-* if $\mathfrak{g}$ is a Lie algebra over $\mathbf{K}$, and $b^{k-1}\mathbb{K}$ is the complex consisting of the field $\mathbb{K}$ in degree $1-k$, then an $L_\infty$-algebra morphism from $\mathfrak{g}$ to $b^{k-1}\mathbb{K}$ is precisely a degree $k$ [[Lie algebra cocycle|Lie algebra cohomology]].
+* if $\mathfrak{g}$ is a Lie algebra over $\mathbf{K}$, and $b^{k-1}\mathbb{K}$ is the complex consisting of the field $\mathbb{K}$ in degree $1-k$, then an $L_\infty$-algebra morphism from $\mathfrak{g}$ to $b^{k-1}\mathbb{K}$ is precisely a degree $k$ [[Lie algebra cohomology|Lie algebra cocycle]].
 
 * The skew-symmetry of the Lie bracket is retained strictly in $L_\infty$-algebras. It is expected that weakening this, too, yields a more general [[vertical categorification]] of Lie algebras. For $n=2$ this has been worked out by Dmitry Roytenberg: [On weak Lie 2-algebras](http://arxiv.org/abs/0712.3461).
 
@@ -267,7 +267,7 @@ The standard reference for Lie 2-algebras is:
 
 For more general 'weak Lie 2-algebras', see:
 
-* Dmitry Roytenberg, _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
+* [[Dmitry Roytenberg]], _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
 
 
 [[!redirects L-infinity-algebras]]
