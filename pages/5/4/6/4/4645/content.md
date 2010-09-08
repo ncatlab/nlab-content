@@ -61,7 +61,7 @@ We end by indicating how under [[Lie integration]] this lifts to the full [[∞-
 
 ### Principal $n$-bundles in low dimension {#PrincipalNBundles}
 
-#### Ordinary smooth principal bundles
+#### Ordinary smooth principal bundles {#PrincipalBundles}
 
 Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
 
@@ -154,7 +154,7 @@ $$
 
 This functor is an [[internal functor]] in [[Diff]] and moreover it is evidently [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]]. This means that it exhibits a _weak equivalence_  of the Lie groupoids, which we write  $C(U) \stackrel{\simeq}{\to}X$. However, even though the underlying functor of bare groupoids is essentially surjective and full and faithful and therefore is guaranteed to have a homotopy-inverse functor, that homotopy-inverse never has smooth component maps, unless $X$ itself is a [[Cartesian space]] and the chosen cover is trivial. 
 
-We do however want to think of $C(U)$ as being equivalent to $X$ even as a Lie groupoid. And moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to a [[Cartesian space]] $\mathbb{R}^k$. 
+We do however want to think of $C(U)$ as being equivalent to $X$ even as a Lie groupoid. And moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{dim X}$. 
 
 We shall discuss later in which precise sense this condition makes $C(U)$ _good_ in the sense that smooth functors out of $C(U)$ model the correct notion of morphism out of $X$ in the context of smooth groupoids (namely it will mean that $C(U)$ is cofibrant in a suitable [[model category]] structure on the category of Lie groupoids). The formalization of this statement is what [[(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
 
@@ -406,7 +406,9 @@ $$
      \\
      X &\stackrel{}{\to}& \mathbf{B}G
      \\
+     .
      \\
+     .
      \\
      \\
      \\
@@ -415,7 +417,245 @@ $$
   \,.
 $$
 
+#### Cech 2-cocycles
+
+The discussion above of $G$-principal bundles was all based on the [[Lie groupoid]]s $\mathbf{B}G$ and $\mathbf{E}G$ that are canonically induced by a [[Lie group]] $G$. We now discuss the case where $G$ is generalized to a [[Lie 2-group]]. The above discussion will go through essentially verbatim, only that we pick up [[2-morphism]]s everywhere. This is the first step towards higher Chern-Weil theory. The resulting generalization of the notion of principal bundle is that of [[principal 2-bundle]]. For historical reasons these are known in the literature often as [[gerbe]]s or as [[bundle gerbe]]s. 
+
+Write $U(1) = \mathbb{R}/\mathbb{Z}$ for the [[circle group]]. We have already seen above the groupoid $\mathbf{B}U(1)$ obtained from this. But since $U(1)$ is an [[abelian group]] this groupoid has the special property that it still has itself the structure of an [[group object]]. This makes it what is called a [[2-group]]. Accordingly, we may form its [[delooping]] once more to arrive at a [[Lie 2-groupoid]] $\mathbf{B}^2 U(1)$.
+
+Its cartonn picture is
+
+$$
+  \mathbf{B}^2 U(1) = 
+  \left\{
+     \array{
+        && \bullet
+        \\
+        & {}^{\mathllap{Id}}\nearrow 
+        & \Downarrow^{\mathrlap{g}}& 
+        \searrow^{\mathrlap{Id}}
+        \\
+        \bullet &&\underset{Id}{\to}&& \bullet
+     }
+  \right\}
+$$
+
+for $g \in U(1)$. Both [[horizontal composition]] as well as [[vertical composition]] of the 2-morphisms is given by the product in $U(1)$.
+
+Let again $X$ be a smooth manifold with [[good open cover]] $\{U_i \to X\}$. The corresponding [[Cech groupoid]] we may also think of as a Lie 2-groupoid, 
+
+$$
+  C(U) = 
+  \left(
+     \coprod_{i, j, k} U_i \cap U_j \cap U_k
+     \stackrel{\to}{\stackrel{\to}{\to}}
+     \coprod_{i, j}
+     U_i \cap U_j
+     \stackrel{\to}{\to}
+     \coprod_i U_i
+  \right)
+  \,.
+$$
+
+What we see here are the first stages of the full [[Cech nerve]] of the cover. Eventually we will be looking at this object in its entirety, since for all degrees this is always a _good_ replacement of the manifold $X$.
+
+So we look now at 2-[[anafunctor]]s given by spans 
+
+$$
+  \array{
+    C(U) &\stackrel{g}{\to}& \mathbf{B}^2 U(1)
+    \\
+    \downarrow^{\simeq}
+    \\
+    X
+  }
+$$
+
+of internal [[2-functor]]s. These will model direct morphisms $X \to \mathbf{B}^2 U(1)$ in the $(\infty,1)$-topos. It is straightforward to read off that the smooth 2-functor $g : C(U) \to \mathbf{B}^2 U(1)$ is given by the data of a 2-cocycle in the [[Cech cohomology]] of $X$ with coefficients in $U(1)$. On [[2-morphism]]s it specifies an assignment
+
+$$
+  g 
+   \;\; : \;\;
+   \left(
+       && (x,j)
+       \\
+       & \nearrow &\Downarrow& \searrow
+       \\
+      (x,i) &&\to&& (x,k)
+   \right)
+   \;\;\;
+   \mapsto
+   \;\;\;
+  \left\{
+     \array{
+        && \bullet
+        \\
+        & {}^{\mathllap{Id}}\nearrow 
+        & \Downarrow^{\mathrlap{g_{i j k}(x)}}& 
+        \searrow^{\mathrlap{Id}}
+        \\
+        \bullet &&\underset{Id}{\to}&& \bullet
+     }
+  \right\}    
+$$
+
+that is given by a collection of smooth functions
+
+$$
+  (g_{i j k} : U_i \cap U_j \cap U_k \to U(1))
+$$
+
+and on [[3-morphism]]s it gives a constraint on these functions, since there are only identity 3-morphisms in $\mathbf{B}^2 U(1)$
+
+$$
+  \begin{aligned}
+  \left(
+  \array{
+    (x,j) &&\stackrel{g_2}{\to}&& (x,k)
+    \\
+    \uparrow^{} &&{}^{}\nearrow&& \downarrow^{}
+    \\
+    (x,i)
+    &&\stackrel{}{\to}&& (x,l)
+  }
+  \;\;\;\;
+  \Rightarrow
+  \;\;\;\;   
+  \array{
+    (x,j) &&\stackrel{}{\to}&& (x,k)
+    \\
+    \uparrow^{} &&\searrow^{}&& \downarrow^{}
+    \\
+    (x,i)
+    &&\stackrel{}{\to}&& (x,l)
+  }
+  \right)
+  \\
+  & \mapsto
+  \left(
+  \array{
+    \bullet &&\stackrel{}{\to}&& \bullet
+    \\
+    \uparrow^{} &\Downarrow^{g_{i j k}(x)}
+    &{}^{}\nearrow&\Downarrow^{g_(i k l)(x)}& 
+    \downarrow^{}
+    \\
+    \bullet
+    &&\stackrel{}{\to}&& \bullet
+  }
+  \;\;\;\;
+  \stackrel{Id}{\Rightarrow}
+  \;\;\;\;   
+  \array{
+    \bullet &&\stackrel{}{\to}&& \bullet
+    \\
+    \uparrow^{} &\Downarrow^{g_{i j l}(x)}
+    &\searrow^{}&\Downarrow^{g_{j k l}(x)}& \downarrow^{}
+    \\
+    \bullet
+    &&\stackrel{}{\to}&& \bullet
+  }
+  \right)
+  \end{aligned}  
+  \,.
+$$
+
+This cocycle condition
+
+$$
+  g_{i j k} \cdot g_{i k l} = g_{i j l} \cdot g_{j k l}
+$$
+
+is that known from [[Cech cohomology]].
+
+Following the general abstract formalism, it is again straightforward to find the total space of the $\mathbf{B}U(1)$-[[principal 2-bundle]] that is classified by such a cocycle.
+
+For that we need to get the 2-groupoid $\mathbf{B} \mathbf{B}U(1)$ and the 2-functor $\mathbf{E} \mathbf{B} U(1) \to \mathbf{B}^2 U(1)$ that exhibuits the [[universal principal ∞-bundle|universal principal 2-bundle]] over $U(1)$.
+
+It is easy to guess what this should be, but there is also a systematic way to derive this, which works in full generality:
+
+#### Universal principal $n$-bundles
+
+For $G$ any group object, what the [[universal principal ∞-bundle]] is a good replacement for the point inclusion $* \to \mathbf{B}G$.
+
+Write 
+
+$$
+  \mathbf{B}G^I
+  :=
+  [\Delta[1], \mathbf{B}G]
+$$
+
+for the [[path space object]] of $\mathbf{B}G$. For $G$ an ordinary group this is also known as the [[arrow category]] of $\mathbf{B}G$.
+
+There are two canonical projections $d_i : \mathbf{B}G^I \to \mathbf{B}G$. 
+Define $\mathbf{E}G$ to be the [[pullback]]
+
+$$
+  \array{
+    \mathbf{E}G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G^I &\stackrel{d_1}{\to}& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{d_0}}
+    \\
+    \mathbf{B}G
+  }
+  \,.
+$$
+
+For $G$ an ordinary Lie group, this reproduces the groupoid $\mathbf{E}G$ discussed [above](#PrincipalBundles). 
+
+For detailed illustration of what $\mathbf{E}G$ looks like for $G$ a [[2-group]], see ([RobertsSchreiber](#RobertsSchreiber)).
+
 #### Circle 2-bundles
+
+(...)
+
+We find that $\tilde P$ in the [[pullback]] diagram
+
+$$
+  \array{
+    \tilde P &\to& \mathbf{E}\mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}^2 U(1)
+    \\
+    \downarow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+is equivalent what in the literature is called a central extension of the Cech groupoid, or a [[bundle gerbe]] relative to $\coprod_i U_i$.
+
+(...)
+
+
+
+#### String 2-bundles
+
+(...)
+
+[[string Lie 2-group]]
+
+$$
+  \array{
+    \tilde P &\to& \mathbf{E}String
+    \\
+    \downarrow && \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B} String
+    \\
+    \downarow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
 
 (...)
 
@@ -914,7 +1154,7 @@ is the disjoint union over the second de Rham cohomology of $X$ of the groupoids
 
 =--
 
-The general formalism of pseudo-conections in intrinsic differential geometry is at <a href="http://ncatlab.org/schreiber/edit/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#LocalConnectionForms">Differential cohomology -- Local connection forms</a>. Details on the description of $U(1)$-principal bundles are at [[differential cohomology in an (∞,1)-topos]] in the paragraph <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CircleBundlesConnection">Circle bundles with connection</a>.
+The general formalism of pseudo-conections in intrinsic differential geometry is at <a href="http://ncatlab.org/schreiber/edit/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#LocalConnectionForms">Differential cohomology -- Local connection forms</a>. Details on the description of $U(1)$-principal bundles are at [[schreiber:differential cohomology in an (∞,1)-topos]] in the paragraph <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CircleBundlesConnection">Circle bundles with connection</a>.
 
 
 ##### Of $G$-principal bundles 
@@ -1109,7 +1349,7 @@ with the tools of  [[nLab:∞-Lie theory]].
 
 Above we considered connections encoded in terms of [[nLab:parallel transport]] along paths and surfaces, and saw that this definition implies that connections are locally given by [[nLab:Lie-algebra valued 1-forms]] [[nLab:Lie 2-algebra valued differential forms]].
 
-Now we pass to what is to some extent the reverse construction: we define a notion of [[∞-Lie algebroid valued differential forms]] and show how by a variant of [[nLab:Lie integration]] these define parallel transport and connections on higher bundles.
+Now we pass to what is to some extent the reverse construction: we define a notion of [[schreiber:∞-Lie algebroid valued differential forms]] and show how by a variant of [[nLab:Lie integration]] these define parallel transport and connections on higher bundles.
 
 The material here was considered in
 
@@ -1394,7 +1634,7 @@ $$
   \,.
 $$
 
-We shall see later (...) that this is a [[nLab:simplicial presheaf]] which represents the $\infty$-Lie algebra $\mathfrak{g}$ as an [[nLab:∞-Lie groupoid]].
+We shall see later (...) that this is a [[simplicial presheaf]] which represents the $\infty$-Lie algebra $\mathfrak{g}$ as an [[∞-Lie groupoid]].
 
 There is a somewhat bigger version of this, which is however weakly equivalent
 
@@ -1600,5 +1840,129 @@ We have the following morphisms between these:
 * $\mathbf{B}G_{conn} \to \mathbf{\flat} \mathbf{B}INN(G)$ -- the morphism that fills in the integrated curvature between paths enclosing a surface;
 
 * $\mathbf{B}G_{conn} \to \mathbf{B}G_{diff}$ the morphism that regards an ordinary connection as a special case of a pseudo-connection, induced as a morphism into a pullback by the two morphisms $\mathbf{B}G_{conn} \to \mathbf{B}G$ and $\mathbf{B}G_{conn} \to \mathbf{\flat} \mathbf{B}INN(G)$;
+
+
+
+### For the $\infty$-Chern-Weil homomorphism
+
+For $\mathfrak{g}$ an [[∞-Lie algebra]] we have the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$, the [[Weil algebra]] $W(\mathfrak{g})$ and the algebra of [[invariant polynomial]]s $inv(\mathfrak{g})$, with canonical morphisms
+
+$$
+  \array{
+    CE(\mathfrak{g})  &&& G
+    \\
+    \uparrow &&& \downarrow 
+    \\
+    W(\mathfrak{g}) &&& \mathbf{E}G
+    \\
+    \uparrow &&& \downarrow
+    \\
+    inv(\mathfrak{g}) &&& \mathbf{B}G
+  }
+  \,.
+$$
+
+A [[cocycle]] $\mu$ in the [[∞-Lie algebra cohomology]] of $\mathfrak{g}$ coming by transgression from an [[invariant polynomial]] $\langle - \rangle$ mediated by a Chern-Simons element $cs$ is exhibited by a diagram
+
+$$
+  \array{
+     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}&
+     CE(b^{k} \mathbb{R})
+     \\
+     \uparrow && \uparrow
+     \\
+     W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}&
+     W(b^k \mathbb{R})
+     \\
+     \uparrow && \uparrow
+     \\
+     inv(\mathfrak{g})
+     &\stackrel{\langle -\rangle}{\leftarrow}&
+     inv(b^k \mathbb{R}) & = CE(b^{k+1} \mathbb{R})
+  }
+  \,.
+$$
+
+
+
+A connection with values in $\mathfrak{g}$ is encoded by [[simplicial presheaves]] that assign sets of diagrams of the form
+
+$$
+  \array{
+     C^\infty(U)\otimes \Omega^\bullet(\Delta^n)
+     &\stackrel{A_{vert}}{\leftarrow}&
+     CE(\mathfrak{g})
+     &&&
+     flat\;vertical\;form
+     \\
+     \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+     &\stackrel{A}{\leftarrow}&
+     W(\mathfrak{g})
+     &&& 
+     connection
+     \\
+     \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)\otimes C^\infty(\Delta^n)
+     &\stackrel{\langle F_A\rangle}{\to}&
+     inv(\mathfrak{g})
+     &&&
+     curvature
+  }
+  \,.
+$$
+
+The $\infty$-Chern-Weil homomorphism is at this level of local data the operation that takes the $\mathfrak{g}$-connection to a $b^k \mathbb{R}$-conneciton by forming the [[pasting]] composite of these two diagrams
+
+$$
+  \array{
+     C^\infty(U)\otimes \Omega^\bullet(\Delta^n)
+     &\stackrel{A_{vert}}{\leftarrow}&
+     CE(\mathfrak{g})
+     &\stackrel{\mu}{\leftarrow}&
+     CE(b^k \mathbb{R})
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+     &\stackrel{A}{\leftarrow}&
+     W(\mathfrak{g})
+     &\stackrel{cs}{\leftarrow}&
+     W(b^k \mathbb{R})
+     &&&
+     Chern-Simons\;form
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+     &\stackrel{\langle F_A\rangle}{\to}&
+     inv(\mathfrak{g})
+     &\stackrel{\langle -\rangle}{\leftarrow}&
+     inv(b^k \mathbb{R})
+     &&&
+     curvature\;characteristic\;form
+  }
+  \,.
+$$
+
+
+
+## References
+
+The [[universal principal ∞-bundle|universal principal 2-bundle]] $\mathbf{E}G$ and its [[groupal model for universal principal ∞-bundles|groupal model]] $INN(G)$ is discussed in detail in
+
+* [[David Roberts]], [[Urs Schreiber]], _The inner automorphism 3-group of a strict 2-group_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsSchreiber">web</a>).
+{#RobertsSchreiber}
+
+The Yoga of $\infty$-Lie algebra valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
+
+* SSS, _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+{#SSSI}
+
+For further references see 
+
+* [[schreiber:differential cohomology in an (∞,1)-topos -- references]].
 
 [[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
