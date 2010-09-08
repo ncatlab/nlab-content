@@ -27,8 +27,39 @@ Here we describe some introducory basics of the general theory in concrete terms
 
 ## Preparatory concepts
 
+Two simple special cases of general $\infty$-Chern-Weil theory are obtained by
 
-### Principal $n$-bundles in low dimension
+1. restricting attention to _low categorical degree_ , 
+
+   studying [[principal bundle|principal 1-bundle]]s, [[principal 2-bundle]]s and maybe 3-bundles; in terms of [[groupoid]]s, [[2-groupoid]]s and maybe [[3-groupoid]]s;
+
+1. restricting attention to _infinitesimal aspects_ 
+
+   studying not [[∞-Lie groupoid]]s but just their [[∞-Lie algebroid]]s. In terms of this it is easy to raise categorical degree to $n = \infty$, but this misses various global [[cohomology|cohomological]] effects (very similar to how [[rational homotopy theory]] deswcribes just non-torsion phenomena of genuine [[homotopy theory]]).
+
+These are the special cases that this introduction concentrates on.
+
+We start by describing 
+
+* [Smooth principal n-bundles](#PrincipalNBundles)
+
+for low $n$ in detail, connecting them to standard theory, but presenting everything in such as way as to allow straightforward generalization to the full discussion of [[principal ∞-bundle]]s.
+
+Then in the same spirit we discuss
+
+* [Connections on principal n-bundles](#LowDimension)
+
+for low $n$ in a fashion that connects to the ordinary notion of [[parallel transport]] and points the way to the fully-fledged formulation in terms of the [[schreiber:path ∞-groupoid]] functor.
+
+This leads to differential-form expressions that we shall then finally reformulate in terms of 
+
+* [∞-Lie algebra valued connections](#LieConnections).
+
+We end by indicating how under [[Lie integration]] this lifts to the full [[∞-Chern-Weil theory]].
+
+
+
+### Principal $n$-bundles in low dimension {#PrincipalNBundles}
 
 #### Ordinary smooth principal bundles
 
@@ -69,7 +100,7 @@ $$
   \mathbf{B}G \in LieGrpd
 $$
 
-for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbold, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[?LieGrpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
+for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[?LieGrpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
 
 [^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $\mathcal{B}G$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is in a way the origin of differential cohomology.
 
@@ -95,7 +126,7 @@ $$
   \,.
 $$
 
-A usefull cartoon description of this groupoid is
+A useful cartoon description of this groupoid is
 
 $$
   C(\{U_i\})
@@ -221,7 +252,7 @@ $$
 which sends
 
 $$
-  (g_1 \to g_2) \mapsto $(\bullet \stackrel{g_2^{-1} g_1}{\to} \bullet)$
+  (g_1 \to g_2) \mapsto (\bullet \stackrel{g_2^{-1} g_1}{\to} \bullet)
   \,.
 $$
 
@@ -240,6 +271,7 @@ $$
      X
   }
 $$
+
 in the category $Grpd(Diff)$.
 
 
@@ -258,7 +290,7 @@ $$
   \,,
 $$
 
-where there is a unique morphism as indicated, whenever the group labels match as indicated. Due to this uniqueness, this Lie groupoid is weakly equivalent to one that comes just from a manifold $P$
+where there is a unique morphism as indicated, whenever the group labels match as indicated. Due to this uniqueness, this Lie groupoid is weakly equivalent to one that comes just from a manifold $P$ (it is 0-[[truncated]])
 
 $$
   \tilde P \stackrel{\simeq}{\to} P
@@ -272,7 +304,38 @@ $$
   \,,
 $$
 
-where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functins $(g_{i j})$. We may think of $\tilde P$ as _being_$P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
+where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functins $(g_{i j})$. We may think of $\tilde P$ as _being_ $P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
+
+While the fact that the $P$ obrained this way does indeed have a principal $G$-[[action]] on it is easy to see in components, but for later generalizations it is crucial that we can also recover this in a general abstract way. For notice that there is a canonical [[action]]
+
+$$
+  (\mathbf{E}G) \times G \to \mathbf{E}G
+  \,.
+$$
+
+Then consider the [[pasting]] diagram of pullbacks
+
+$$
+  \array{
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+  \,.
+$$
+
+The morphism $\tilde P \times G \to \tilde P$ is the principal $G$-[[action]] of $G$ on $\tilde P$.
+
 
 In summary we find
 
@@ -300,9 +363,61 @@ $$
   \,,
 $$
 
-where $\mathcal{B}G \in $ [[Top]] is the topological [[nLab:classifying space]] of $G$. In fact the category [[nLab:Top]] of topological spaces, regarded as an [[nLab:(∞,1)-category]], is the archetypical [[nLab:(∞,1)-topos]] the way that [[Set]] is the archetypical [[nLab:topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra [[nLab:structure]].
+where $\mathcal{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. In fact the category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
+
+In fact, all of the statements that we considered so far becomes conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we condisered is just a model for the [[homotopy pullback]] of just the _point_ 
 
 
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+     \\
+     {}
+     \\
+     {}
+     \\
+     & in\;the\;model\;category &
+  }
+  \;\;\;\;\;\;\;
+  \array{
+     \vdots && \vdots
+     \\
+     P \times G &\to& G
+     \\
+     \downarrow && \downarrow
+     \\
+     P &\to& * 
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow 
+     \\
+     X &\stackrel{}{\to}& \mathbf{B}G
+     \\
+     \\
+     \\
+     \\
+     \\
+     & in\;the\;(\infty,1)-topos
+  }
+  \,.
+$$
+
+#### Circle 2-bundles
+
+(...)
 
 
 ### Parallel transport in low dimensions {#LowDimension}
