@@ -1,24 +1,34 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
-On a [[Riemannian manifold]], a __geodesic__ (or geodesic line, geodesic path) is a path which locally minimizes the length between its end points. In other words, 
-it is a critical point of the functional of length 
+On a [[Riemannian manifold]] $(X,g)$, a __geodesic__ (or geodesic line, geodesic path) is a path which locally minimizes the length between its end points. In other words, it is a [[critical point]] of the [[functional]] of length 
 
 $$
-\int_C \sqrt{g(\stackrel{\cdot}{x}(t),\stackrel{\cdot}{x}(t))} dt
+  (x : I \to M) 
+   \mapsto 
+   \int_I \sqrt{g(\stackrel{\cdot}{x}(t),\stackrel{\cdot}{x}(t))} dt
 $$
 
-on the appropriate space of curves, where $g$ is the metric tensor
-and hence it satisfies the corresponding [[Euler-Lagrange equation]]s, namely for geodesic $x : I\to M$ on a Riemannian manifold $M$, the [[covariant derivative]] (for [[Levi-Civita connection]])
+on the appropriate space of curves $I \to X$, where $g$ is the [[metric]] tensor. Hence it satisfies the corresponding [[Euler-Lagrange equation]]s, namely for geodesic $x : I\to M$ on a Riemannian manifold $M$, the [[covariant derivative]] (for the [[Levi-Civita connection]])
 
 $$
 \nabla_{\stackrel{\cdot}{x}} \stackrel{\cdot}{x} = 0
 $$
 
-vanishes. In local coordinates, with [[Christoffel symbol]]s $\Gamma^i_{jk}$ the Euler-Lagrange equations for geodesics form a system 
+vanishes. 
+
+In local coordinates, with [[Christoffel symbol]]s $\Gamma^i_{jk}$ the Euler-Lagrange equations for geodesics form a system 
 
 $$
 \frac{d^2 x^i}{dt^2} + \sum_{jk} \Gamma^i_{jk}(x) \frac{d x^j}{dt} \frac{d x^k}{dt} = 0.
 $$
+
+So this means that a curve is a _geodesic_ if at every point its [[tangent vector]] is the [[parallel transport]] of the tangent vector at the start point along the curve.
+
 
 ## Links and literature
 
