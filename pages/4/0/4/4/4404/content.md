@@ -7,19 +7,26 @@
 
 An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [[topological manifold]] $X$ which makes the resulting [[smooth manifold]] be [[diffeomorphism|non-diffeomorphic]] to the smooth manifold given by some evident 'standard' smooth structure on $X$. 
 
-Milnor gave the first examples of exotic smooth structures on [[sphere]]s. These inherit a canonical smooth structure from their canonical embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
+Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]], finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
-There exist uncountably many exotic smooth structures on $\mathbb{R}^4$, which is not the case on $\mathbb{R}^n$ for $n\neq 4$.
-There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets.
+Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Taubes, Donaldson, Freedman-Kirby - years?), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$. There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets.
 
-Moise proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are [[homeomorphism|homeomorphic]] are [[diffeomorphism|diffeomorphic]].
+Moise (year?) proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are [[homeomorphism|homeomorphic]] are [[diffeomorphism|diffeomorphic]]. In this way the 3-sphere $S^3$ inherits a unique differentiable structure, no matter which $\mathbb{R}^4$ it is considered to be embedded in.
 
 ## References
 
-Something should go here about Milnor! eg
 
 * Milnor, John W. (1956), "On manifolds homeomorphic to the 7-sphere", Annals of Mathematics (Annals of Mathematics) 64 (2): 399&#8211;405
 
+* E. Moise
+
+* M. Freedman, R. Kirby
+
+* S. Donaldson
+
+* C. Taubes
+
+(see Wikipedia ([spheres](http://en.wikipedia.org/wiki/Exotic_sphere#References), [$R^4$](http://en.wikipedia.org/wiki/Exotic_R4#References)) for more for now)
 
 
 ### In applications to physics
