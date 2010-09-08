@@ -38,12 +38,11 @@ In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any intere
 
 There is a further generalization to [[quadratic operad]]s, predicted in 
 
-* [[Maxim Kontsevich|M. Kontsevich]], _Formal (non)commutative symplectic geometry_,  The Gel&#697;fand Mathematical Seminars, 1990--1992,  173--187, Birkh&#228;user, Boston, MA, 1993. 
+* [[Maxim Kontsevich|M. Kontsevich]], _Formal (non)commutative symplectic geometry_,  The Gel&#697;fand Mathematical Seminars, 1990--1992,  173--187, Birkh&#228;user, Boston, MA, 1993 (cf. [[formal noncommutative symplectic geometry]]).
 
 and developed in
 
-* [[Victor Ginzburg|V. Ginzburg]], [[Mikhail Kapranov|M. Kapranov]], _Koszul duality for operads_,  Duke Math. J.  76  (1994),  no. 1, 203--272 ([arXiv](http://front.math.ucdavis.edu/0709.1228))
-
+* [[Victor Ginzburg]], [[Mikhail Kapranov]], _Koszul duality for operads_, Duke Math. J. __76__ (1994),  no. 1, 203--272; reprint [arxiv/0709.1228](http://arxiv.org/abs/0709.1228); *Erratum to: Koszul duality for operads*, Duke Math. J. __80__ (1995),  no. 1, 293. 
 
 ##Other references
 
