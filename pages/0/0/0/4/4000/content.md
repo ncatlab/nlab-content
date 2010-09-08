@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _Chern-Simons 2-gerbe_ is a cocycle in degree 4 [[ordinary differential cohomology]] that is canonically associated to a $G$-[[principal bundle]] with [[connection on a bundle|connection]].
+A _Chern-Simons circle 3-bundle_ is the [[circle n-bundle with connection]]  classified by the cocycle in degree 4 [[ordinary differential cohomology]] that is canonically associated to a $G$-[[principal bundle]] with [[connection on a bundle|connection]].
 
 For $G$ a [[Lie group]] and $c : \mathcal{B}G \to K(\mathbb{Z},4)$ a cocycle for a degree 4 [[characteristic class]] in [[integral cohomology]] and $X$ a [[smooth manifold]], [[Chern-Weil theory]] provides a morphism (the refined [[Chern-Weil homomorphism]])
 
