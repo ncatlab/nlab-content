@@ -1,0 +1,3 @@
+In macroscopic thermodynamic systems one deals with a large number of microscopic particles. The number of particles is, for 'human sized' systems (e.g. engines, rooms), roughly on the order of the _Avogadro constant_ (or \'Avogadro's number\' in historical usage). This constant is used as a scaling factor between macroscopic and microscopic observations.
+
+More formally, the **Avogadro constant** expresses the number of elementary entities per [[mole]] of substance and it has the value $6.02214179(30)\times 10^{23} mol^{-1}$.
