@@ -30,10 +30,9 @@ Analogous statements apply to the dual Dod-Kan correspondence, where the monoids
 
 A crucial fact about the [[Dold-Kan correspondence]] is that
 
-* The two functors in the Dold-Kan correspondence respects these monoidal structures, the are (lax) [[monoidal functor]]s.
+* The two functors in the Dold-Kan correspondence individually respect these monoidal structures, in the sense that they are lax [[monoidal functors]].
 
-But their [[adjunction]] fails to be a [[monoidal adjunction]]. As a result, thesy do not induce an [[equivalence of categories]] or even an adjunction between (co)simplicial rings and (co)chain complexes.
-
+However, the [[adjunction]] fails to be a [[monoidal adjunction]] of any sort (i.e. the unit and counit are not monoidal natural transformations).  (Note that if it were a monoidal adjunction, then by [[doctrinal adjunction]], both functors would necessarily be strong monoidal, and hence an equivalence of monoidal categories.)  As a result, the Dold-Kan equivalence of categories does not induce an [[equivalence of categories]] or even an adjunction between (co)simplicial rings and (co)chain complexes.
 
 There are two different versions of the monoidal Dold-Kan corespondence, which are almost but apparently not entirely formal duals of each other (at least not in the detailed constructions):
 
@@ -64,9 +63,7 @@ $$
   N_\bullet : sAb \to Ch_+
 $$
 
-is a [[monoidal functor|symmetric lax monoidal]] as well as [[lax comonoidal functor|lax comonoidal]]. And in a compatible way: it is actually a _Frobenius monoidal functor_ .
-
-
+are both [[monoidal functor|lax symmetric monoidal]] as well as [[lax comonoidal functor|colax monoidal]] (but *not* colax *symmetric* monoidal).  Moreover, the lax and colax structures are compatible: they are actually [[Frobenius monoidal functors]].
 =--
 
 +-- {: .proof}
@@ -118,19 +115,15 @@ and with more details in
 
 =--
 
-Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a monoidal and an opmonoidal structure.  (See te formula on the top of page 296 of Schwede-Shipley.) This monoidal structure can also be given in a [[higher category theory|higher categorical]], i.e. [[homotopy theory|homotopical]] way.
-This is the content of the following statements.
+Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a lax monoidal and a colax symmetric monoidal structure.  (See the formula on the top of page 296 of Schwede-Shipley.)
 
 In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s 
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 
-
-Further work along such lines is
+Note that the colax structure of $N$ and the lax structure of $\Xi$ are not symmetric, i.e. they do not respect the symmetry of the monoidal structure.  They do, however, respect it up to homotopy, i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in
 
 * Birgit Richter, _Symmetry properties of the Dold-Kan correspondence_ ([pdf](http://www.math.uni-hamburg.de/home/richter/doldkan.pdf))
-
-This shows that the Dold-Kan map from Chain complexes to simplicial abelian groups is, while not a [[monoidal category|monoidal functor]], an [[E-k-operad|E-infinity monoidal functor]].
 
 This implies that generalized [[Eilenberg?Mac Lane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
 
