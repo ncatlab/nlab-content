@@ -74,7 +74,7 @@ $$
 
 =--
 
-Notice that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines _flat_ [[nLab:Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is essentially that which defines [[nLab:de Rham cohomology]] in degree $n \gt 1$ (see [below](#OrdinaryDeRham)).
+Notice that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines _flat_ [[nLab:Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is essentially that which defines [[nLab:de Rham cohomology]] in degree $n \gt 1$ (see [below](#OrdinaryDeRham)). Also notice that we denoted by $d_{dR}$ also the differential $C^\infty(-,U(1)) \stackrel{d_{dR} log}{\to} \Omega^1(-)$; this is to stress that we are looking at $U(1)$ as the quotient $\mathbb{R}/\mathbb{Z}$.
 
 
 +-- {: .proof}
@@ -533,11 +533,11 @@ $$
     \\
     [CartSp^{op},sSet](C(\{U_i\}), \mathbf{B}_{diff}U(1))
     &\stackrel{curv}{\to}&
-    [CartSp^{op},sSet](C(\{U_i\}), \mathbf{B}^2_{dR} U(1))
+    [CartSp^{op},sSet](C(\{U_i\}), \flat_{dR}\mathbf{B}^2 U(1))
   }
 $$
 
-(because the bottom vertical morphism is a fibration, by the fact that our model for $\mathbf{B}_{diff} U(1) \to \mathbf{B}^2_{dR}U(1)$ is a fibration, that $C(\{U_i\})$ is cofibrant and using the axioms of the [[nLab:sSet]]-[[nLab:enriched model category]] $[CartSp^{op}, sSet]_{proj}$).
+(because the bottom vertical morphism is a fibration, by the fact that our model for $\mathbf{B}_{diff} U(1) \to \flat_{dR}\mathbf{B}^2 U(1)$ is a fibration, that $C(\{U_i\})$ is cofibrant and using the axioms of the [[nLab:sSet]]-[[nLab:enriched model category]] $[CartSp^{op}, sSet]_{proj}$).
 
 +-- {: .un_prop}
 ###### Observations
