@@ -14,3 +14,4 @@ Specifically, the restriction $\mathbf{B}\Omega_x \Pi(X) \hookrightarrow \Pi(X) 
 
 * Monodromy trasnformation, at Springer [eom](http://eom.springer.de/m/m064700.htm)
 
+[[!redirects monodromies]]
