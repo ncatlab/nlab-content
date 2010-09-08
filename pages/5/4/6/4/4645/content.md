@@ -28,6 +28,283 @@ Here we describe some introducory basics of the general theory in concrete terms
 ## Preparatory concepts
 
 
+### Principal $n$-bundles in low dimension
+
+#### Ordinary smooth principal bundles
+
+Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
+
+We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalizatoin to a description of [[principal ∞-bundle]]s.
+
+The first observation is that from $X$ and $G$ we naturally obtain the following [[groupoid]]s.
+
+From the group $G$ we canonically obtain a [[groupoid]] that we write $\mathcal{B}G$ and call the [[delooping]] groupoid of $G$. Formally this groupoid is
+
+$$
+  \mathcal{B}G = (G \stackrel{\to}{\to} *)
+$$
+
+with composition canonically induced from the product in $G$. A useful cartoon of this groupoid is
+
+$$
+  \mathcal{B}G = 
+  \left\{
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{g_1}}\nearrow 
+      &=& 
+      \searrow^{\mathrlap{g_2}}
+      \\
+      \bullet &&\stackrel{g_2 \cdot g_1 }{\to}&& \bullet
+    }
+  \right\}
+$$
+
+where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention that does not matter up to equivalence.)
+
+But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathcal{B}G$  that makes it a a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
+
+$$
+  \mathbf{B}G \in LieGrpd
+$$
+
+for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbold, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[?LieGrpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
+
+[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $\mathcal{B}G$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is in a way the origin of differential cohomology.
+
+Also the smooth manifold $X$ may be regarded as a [[Lie groupoid]] -- a groupoid with only identity morphisms. Its cartoon description is simply
+
+$$
+  X = \{x \stackrel{id}{\to} x \}
+  \,.
+$$
+
+But there are other groupoids associated with $X$:
+
+Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. To this is canonically associated the [[Cech groupoid]] $C(\{U_i\})$. Formally we may write this groupoid as
+
+$$
+  C(\{U_i\})
+  =
+  \left(
+    \coprod_{i,j} U_i \cap U_j
+    \stackrel{\overset{p_1}{\to}}{\underset{p_2}{\to}}
+    \coprod_i U_i
+  \right)
+  \,.
+$$
+
+A usefull cartoon description of this groupoid is
+
+$$
+  C(\{U_i\})
+  = 
+  \left\{
+    \array{
+       && (x,j)
+       \\
+       & \nearrow &=& \searrow
+       \\
+      (x,i) &&\to&& (x,j)
+    }
+  \right\}
+  \,.
+$$
+
+This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s so that $C(U)$ becomes a Lie groupoid.
+
+There is a canonical [[functor]]
+
+$$
+  C(\{U_i\}) \to X \;\; :\;\; (x,i) \mapsto x
+  \,.
+$$
+
+This functor is an [[internal functor]] in [[Diff]] and moreover it is evidently [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]]. This means that it exhibits a _weak equivalence_  of the Lie groupoids, which we write  $C(U) \stackrel{\simeq}{\to}X$. However, even though the underlying functor of bare groupoids is essentially surjective and full and faithful and therefore is guaranteed to have a homotopy-inverse functor, that homotopy-inverse never has smooth component maps, unless $X$ itself is a [[Cartesian space]] and the chosen cover is trivial. 
+
+We do however want to think of $C(U)$ as being equivalent to $X$ even as a Lie groupoid. And moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to a [[Cartesian space]] $\mathbb{R}^k$. 
+
+We shall discuss later in which precise sense this condition makes $C(U)$ _good_ in the sense that smooth functors out of $C(U)$ model the correct notion of morphism out of $X$ in the context of smooth groupoids (namely it will mean that $C(U)$ is cofibrant in a suitable [[model category]] structure on the category of Lie groupoids). The formalization of this statement is what [[(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
+
+We now observe then that a [[functor]]
+
+$$
+  g : C(U) \to \mathbf{B}G
+$$
+
+is given in components precisely by a collection of functions
+
+$$
+  \{g_{i j} : U_{i j} \to G \}_{i,j \in I}
+$$
+
+such that on each $U_i \cap U_k \cap U_j$ the equality $g_{j k} g_{i j}  = g_{i k}$ of functions holds:
+
+$$
+  \left(
+    \array{
+       && (x,j)
+       \\
+       & \nearrow && \searrow
+       \\
+      (x,i) &&\to&& (x,j)
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_{i j}(x)}}\nearrow
+       && \searrow^{\mathrlap{g_{j k}(x)}}
+       \\
+      \bullet &&\stackrel{g_{i k}(x)}{\to}&& \bullet
+    }
+  \right)
+  \,.
+$$
+
+Demanding that the functor $g$ respects the smooth structure means that the functions $g_{i j}$ are [[smooth function]]s. Smooth functions $\{g_{i j}\}$ satisfying $g_{i j}  g_{j k} = g_{i k}$ are precisely in bijection with smooth functors $g : C(U) \to X$.
+
+It is well known that such collections of functions characterize $G$-[[principal bundle]]s on $X$. While this is a classical fact, we shall now describe a way to derive it that is true to the Lie-groupoid-context and that will make clear how smooth principal $\infty$-bundles work.
+
+First observe that in total we have discussed so far [[span]]s of smooth functors of the form
+
+$$
+  \array{
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+  \,.
+$$
+
+Such spans of functors, whose left leg is a weak equivalence, are sometimes known as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of Lie groupoids. 
+
+Now consider yet another ie groupoid canonically associated with $G$: we shall write $\mathbf{E}G$ for the groupoid whose formal description is
+
+$$
+  \mathbf{E}G  = 
+  \left(
+    G \times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G 
+  \right)
+$$
+
+with the evident composition operation. The cartoon description of this groupoid is
+
+$$
+  \mathbf{E}G
+  = 
+  \left\{
+     \array{
+        && g_2
+        \\
+        & \nearrow &=& \searrow
+        \\
+        g_1 &&\stackrel{}{\to}&& g_3
+     }
+  \right\}
+  \,,
+$$
+
+where we don't need to further label the morphisms, since there is a _unique_ morphism for every ordered pair $(g_1, g_2)$ of elements in $G$. This again inherits an evident smooth structure from the smooth structure of $G$ and hence becomes a Lie groupoid.
+
+There is an evident [[forgetful functor]]
+
+$$
+  \mathbf{E}G \to \mathbf{B}G
+$$
+
+which sends
+
+$$
+  (g_1 \to g_2) \mapsto $(\bullet \stackrel{g_2^{-1} g_1}{\to} \bullet)$
+  \,.
+$$
+
+Consider then the [[pullback]] diagram
+
+$$
+  \array{
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+$$
+in the category $Grpd(Diff)$.
+
+
+The object $\tilde P$ is the Lie groupoid whose cartoon description is
+
+
+$$
+  \array{
+    \tilde P = 
+    \left\{
+       \array{
+          (x,i,g_1) &&\stackrel{}{\to}&& (x,j,g_2 = g_1 g_{i j}(x))
+       }
+   \right\}
+  }
+  \,,
+$$
+
+where there is a unique morphism as indicated, whenever the group labels match as indicated. Due to this uniqueness, this Lie groupoid is weakly equivalent to one that comes just from a manifold $P$
+
+$$
+  \tilde P \stackrel{\simeq}{\to} P
+  \,.
+$$
+
+This $P$ is traditionally written as
+
+$$
+  P = \left( \coprod_{i} U_i \times G \right)_{\sim}
+  \,,
+$$
+
+where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functins $(g_{i j})$. We may think of $\tilde P$ as _being_$P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
+
+In summary we find
+
++-- {: .un_prop}
+###### Observation
+
+There is an [[equivalence of categories]]
+
+$$
+  SmoothFunc(C(\{U_i\}), \mathbf{B}G)
+  \simeq
+  G Bund(X)
+$$
+
+between the [[nLab:functor category]] of smooth functors and smooth natural transformations, and the groupoid of smooth $G$-[[nLab:principal bundle]]s on $X$. 
+
+=--
+
+It is no coincidence that this statemment looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[homotopy]]-classes of morphisms of [[topological space]]s 
+
+$$
+  \pi_0 Top(X, \mathcal{B}G)
+  \simeq
+  \pi_0 G Bund(X)
+  \,,
+$$
+
+where $\mathcal{B}G \in $ [[Top]] is the topological [[nLab:classifying space]] of $G$. In fact the category [[nLab:Top]] of topological spaces, regarded as an [[nLab:(∞,1)-category]], is the archetypical [[nLab:(∞,1)-topos]] the way that [[Set]] is the archetypical [[nLab:topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra [[nLab:structure]].
+
+
+
+
 ### Parallel transport in low dimensions {#LowDimension}
 
 A central aspect of our development is that we shall understand [[connection on a bundle|connections]] and [[differential cohomology|differential cocycles]] in terms of the [[parallel transport]] along paths and higher dimensional paths that that they induce. The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]] in generalized spaces.
@@ -59,157 +336,17 @@ These low-categorical developments constitute the archetype for all of the [[nLa
 
 We describe the standard notion of a [[nLab:connection on a bundle]] but from a point of view that carries in it the seed for the general concept of differential cohomology that we describe here. This also serves to introduce in simple explicit terms several of the concepts that we shall formalize later in abstract [[nLab:(∞,1)-topos]] theory.
 
-Let $G$ be a [[nLab:Lie group]] and $X$ a [[nLab:smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
-
-From this data we naturally obtain several smooth [[nLab:groupoid]]s.
-
-From the group $G$ we canonically obtain a [[nLab:groupoid]] that we write $\mathbf{B}G$. Formally this groupoid is
+Recall the discussion of principal bundles [above](#spring) and in particular the equivalence of groupoids
 
 $$
-  \mathbf{B}G = (G \stackrel{\to}{\to} *)
-$$
-
-with composition canonically induced from the product in $G$. A useful cartoon of this groupoid is
-
-$$
-  \mathbf{B}G = 
-  \left\{
-    \array{
-      && \bullet
-      \\
-      & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
-      \\
-      \bullet &&\stackrel{g_2 \cdot g_1 }{\to}&& \bullet
-    }
-  \right\}
-$$
-
-where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention that does not matter up to equivalence.)
-
-The fact that $G$ is a [[nLab:Lie group]] implies that this is in fact an [[nLab:internal category|internal groupoid]] in the [[nLab:category]] [[nLab:Diff]] of [[nLab:manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[nLab:smooth function]]s. 
-
-Also the smooth manifold $X$ may be regarded as a groupoid -- a groupoid with only identity morphisms -- internal to the category of smooth manifolds. Its cartoon description is simply
-
-$$
-  X = \{x \stackrel{id}{\to} x \}
-  \,.
-$$
-
-But there are other groupoids associated with $X$:
-
-to any [[nLab:open cover]] $\{U_i \to X\}_{i \in I}$ is canonically associated a [[nLab:groupoid]] which we denote $C(\{U_i\})$ -- the [[nLab:Cech nerve|Cech groupoid]] of the cover. Formally we may write this groupoid as
-
-$$
-  C(\{U_i\})
-  =
-  \left(
-    \coprod_{i,j} U_i \cap U_j
-    \stackrel{\overset{p_1}{\to}}{\underset{p_2}{\to}}
-    \coprod_i U_i
-  \right)
-  \,.
-$$
-
-A usefull cartoon description of this groupoid is
-
-$$
-  C(\{U_i\})
-  = 
-  \left\{
-    \array{
-       && (x,j)
-       \\
-       & \nearrow && \searrow
-       \\
-      (x,i) &&\to&& (x,j)
-    }
-  \right\}
-  \,.
-$$
-
-This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose.
-
-There is a canonicel [[nLab:functor]]
-
-$$
-  C(\{U_i\}) \to X : (x,i) \mapsto x
-  \,.
-$$
-
-This functor is evidently [[nLab:essentially surjective functor|essentially surjective]] and [[nLab:full and faithful functor|full and faithful]]. This means that it establishes an [[nLab:equivalence of categories|equivalence of groupoids]] between $C(\{U_i\})$ and $X$. But moreover, the functor respects the smooth structure of these groupoids: its components are [[nLab:smooth function]]s. Hence this is a functor internal to the category of smooth manifolds. However, even though the underlying bare functor is essentially surjective and full and faithful and therefore is guaranteed to have a homotopy-inverse functor, that homotopy-inverse never has smooth component maps, unless $X$ itself is a [[nLab:Cartesian space]] and the chosen cover is trivial. 
-
-We do however want to think of $C(\{U_i\})$ as being equivalent to $X$ even as a smooth groupoid. And moreover, we shall think of $C(\{U_i\})$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[nLab:good open cover]] in that all its finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are diffeomorphic to a [[nLab:Cartesian space]] $\mathbb{R}^k$. 
-
-We shall discuss later in which precise sense this condition makes $C(\{U_i\})$ _good_ in the sense that smooth functors out of $C(\{U_i\})$ model the correct notion of morphism out of $X$ in the context of smooth groupoids. The formalization of this statement is what [[nLab:(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
-
-&#212;bserve then that a [[nLab:functor]]
-
-$$
-  g : C(\{U_i\}) \to \mathbf{B}G
-$$
-
-is given in components precisely by a collection of maps
-
-$$
-  \{g_{i j} : U_{i j} \to G \}_{i,j \in I}
-$$
-
-such that on $U_{i j k}$ the equality $g_{j k} g_{i j}  = g_{i k}$ of functions holds:
-
-$$
-  \left(
-    \array{
-       && (x,j)
-       \\
-       & \nearrow && \searrow
-       \\
-      (x,i) &&\to&& (x,j)
-    }
-  \right)
-  \mapsto
-  \left(
-    \array{
-       && \bullet
-       \\
-       & {}^{\mathllap{g_{i j}(x)}}\nearrow
-       && \searrow^{\mathrlap{g_{j k}(x)}}
-       \\
-      \bullet &&\stackrel{g_{i k}(x)}{\to}&& \bullet
-    }
-  \right)
-  \,.
-$$
-
-Demanding that the functor $g$ respects the smooth structure means that the functions $g_{i j}$ are smooth functions. In that case these functions encode the cocycle or transition functions of a smooth $G$-[[nLab:principal bundle]] on $X$. It is then evident that we have the following functorial description of smooth $G$-principal bundles.
-
-
-+-- {: .un_prop}
-###### Observation
-
-There is an [[nLab:equivalence of categories]]
-
-$$
-  SmoothFunc(C(\{U_i\}), \mathbf{B}G)
+  Hom_{Grpd(Diffeol)}(C(U), \mathbf{B}G)
   \simeq
   G Bund(X)
 $$
 
-between the [[nLab:functor category]] of smooth functors and smooth natural transformations, and the groupoid of smooth $G$-[[nLab:principal bundle]]s on $X$. 
+given by an [[good open cover]] $\{U_i \to X\}$.
 
-=--
-
-It is no coincidence that this statemment looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[nLab:homotopy]]-classes of morphisms of [[nLab:topological space]]s 
-
-$$
-  \pi_0 Top(X, \mathcal{B}G)
-  \simeq
-  \pi_0 G Bund(X)
-  \,,
-$$
-
-where $\mathcal{B}G \in $ [[nLab:Top]] is the topological [[nLab:classifying space]] of $G$. In fact the category [[nLab:Top]] of topological spaces, regarded as an [[nLab:(∞,1)-category]], is the archetypical [[nLab:(∞,1)-topos]] the way that [[nLab:Set]] is the archetypical [[nLab:topos]]. And it is equivalent to [[nLab:∞Grpd]], the $(\infty,1)$-category of bare [[nLab:∞-groupoid]]s. What we are seeing above is a first indication of how [[nLab:cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra [[nLab:structure]].
-
-What we are after is an equivalence of categories of the above functorial form for the case that the bundles are equipped with a [[nLab:connection on a bundle]].
+What we are after is an equivalence of categories of this functorial form for the case that the bundles are equipped with a [[connection on a bundle]].
 
 For that purpose we consider now the [[nLab:path groupoid]]
 $\mathbf{P}_1(X)$, defined to be the groupoid whose objects are the points of $X$, and whose morphisms are equivalence classes of smooth maps $\gamma : [0,1] \to X$ that are constant in a neighbourhood of the boundary of the interval, and where two such maps are regarded as equivalent if they can be connected by a smooth homotopy $[0,1]^2 \to X$ that is of rank $\leq 1$.
