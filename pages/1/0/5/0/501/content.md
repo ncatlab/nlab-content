@@ -43,17 +43,6 @@ The above definition of "finite," and hence all the above definitions except for
 
 _Toby_: Can you think of a way to define these notions of finite without a set of truth values and without a natural numbers object? Equivalently, can you define them in an arbitrary [[locally cartesian closed category|locally cartesian closed]] [[pretopos]]?  (Use the axiom of [[subset collection|subobject collection]] if necessary.)
 
-+--{: .clickDown tabindex="0"}
-+--{: .clickToReveal}
-#### Spoilers! 
-=--
-+--{: .clickToHide tabindex="0"}
-#### Spoilers!
-+--{: .query}
-JCMcKeown: This is admittedly vague, but doesn't basic model theory kill this idea?  By Loewenheim-Skolem there isn't a first-order theory whose category of models is (equivalent to) $FinSet$; If there's a $V$, there are nonstandard models of $Th(\mathbf{HF},\in)$ and of $Th(FinSet)$ in $V$ because of the usual Goedel nonsense.  Perhaps I'm missing something --- I must confess I'm still flumoxed by internal logics, aliisque.
-=--
-=--
-=--
 
 ## Finite objects in a topos
 
