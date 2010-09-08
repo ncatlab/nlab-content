@@ -6,7 +6,7 @@
 
 * [[string theory]]
 
-* [[Gromov-Witten invariants]]
+* [[Gromov-Witten invariants]], [[Rozansky-Witten invariant]]
 
 
 >clearly, this list is supposed to be expanded, eventually...
@@ -14,3 +14,4 @@
 category: people
 
 [[!redirects E. Witten]]
+[[!redirects Witten]]
