@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -11,7 +18,7 @@
 
 There is an obvious [[functor]]
 $$
-  diff : Lie Gp \to Lie Alg
+  Lie : Lie Gp \to Lie Alg
 $$
 which sends every [[Lie group]] to its [[Lie algebra]] and every homomorphism of Lie groups to the corresponding homomorphism of Lie algebras. 
 
@@ -21,19 +28,13 @@ Lie's three theorems establish the following properties of this functor.
 
   2. **Lie II** 
      If $G$ and $H$ are Lie groups 
-     with Lie algebras $\mathfrak{g} = diff(G)$ and $\mathfrak{h} = diff(H)$;
+     with Lie algebras $\mathfrak{g} = Lie(G)$ and $\mathfrak{h} = Lie(H)$;
       such that $G$ is simply connected;
       and if $f : \mathfrak{g} \to \mathfrak{h}$ is a morphism of Lie algebras;
-      then there is a unique morphism $F : G \to H$ of Lie groups lifting $g$, i.e. such that $f = diff(F)$.  
+      then there is a unique morphism $F : G \to H$ of Lie groups lifting $g$, i.e. such that $f = Lie(F)$.  
 
-  3. **Lie III** **$diff$ is surjective on objects**: to every Lie algebra  $\mathfrak{g}$ there is a Lie group $G$ such that $\mathfrak{g} = diff(G)$. Moreover, there exists such $G$ which is simply connected.
+  3. **Lie III** **$Lie$ is surjective on objects**: to every Lie algebra  $\mathfrak{g}$ there is a Lie group $G$ such that $\mathfrak{g} = Lie(G)$. Moreover, there exists such $G$ which is simply connected.
 
-+-- {: .query}
-[[Andrew Stacey]]:
-Is $diff$ a standard name for this functor?  It seems a little prone to being confused with the diffeomorphism group of $G$ as a smooth manifold.
-
-_Toby_:  I would call the latter functor $Diff$, but I agree that it\'s rather similar.  The problem is that the standard name for $diff$, as far as I can tell, is `\mathfrak{\lowercase{`$-$`}}`, if you see what I mean, and that\'s an even less convenient name.
-=--
 
 ##Restriction to simply connected Lie groups
 
@@ -67,7 +68,7 @@ Lie II for Lie groupoids was proven in
 
 and
 
-* I. Moerdijk and J Mr&ccaron;un, _On integrability of infinitesimal actions_, Amer. J. Math. 124(3):567-593, 2002
+* I. Moerdijk and J Mr&#269;un, _On integrability of infinitesimal actions_, Amer. J. Math. 124(3):567-593, 2002
 
 **_Lie III_ for Lie groupoids** does _not_ hold in direct generalization: 
 
