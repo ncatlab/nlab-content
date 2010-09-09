@@ -222,22 +222,40 @@ from the $G$-principal bundles with connection to [[ordinary differential cohomo
         \right\}
       $$
 
-   1. thickening the Lie algebra cocycle by its [[invariant polynomial]]
-      and Chern-Simons element
+   1. thickening the Lie algebra cocycle by its Chern-Simons element
  
-      $$
+      
+
+$$
         \array{
            CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{k-1}\mathbb{R})
            \\
            \uparrow && \uparrow
            \\
-           W(\mathfrak{g}) &\stackrel{(cs,\langle -\rangle)}{\leftarrow}&
+           W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}&
            W(b^{k-1} \mathbb{R})
-        }
+ }
       $$
 
-   and then postcomposing with that.
 
+   and then postcomposing with that. Note that the above diagram is part of a larger diagram involving the invariant polynomial $\langle-\rangle$ for $\mu$ and exhibiting the Chern-Simons element as a transgression element between these two:
+
+$$
+        \array{
+           CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{k-1}\mathbb{R})
+           \\
+           \uparrow && \uparrow
+           \\
+           W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}&
+           W(b^{k-1} \mathbb{R})
+\\
+ \uparrow && \uparrow
+           \\
+           inv(\mathfrak{g}) &\stackrel{\langle-\rangle}{\leftarrow}&
+           inv(b^{k-1} \mathbb{R})
+        }
+      $$
+Also note that $inv(b^{k-1} \mathbb{R})\cong CE(b^k \mathbb{R})$.
 
 For the case at hand, let $\mathfrak{g}$ be a [[semisimple Lie algebra]], $\langle -\rangle : CE(b^3\mathbb{R})\to W(\mathfrak{g})$ its canonical [[Killing form]] [[invariant polynomial]], $\mu = \langle -,[-,-]\rangle: CE(b^2\mathbb{R})\to CE(\mathfrak{g})$ the corresponding [[Lie algebra cohomology|Lie algebra cocycle]], $cs: W(b^2\mathbb{R})\to W(\mathfrak{g})$ the Chern-Simons elements exhibiting the transgression between the two, $G$ the [[simply connected]] [[Lie group]] [[Lie integration|integrating]] it.
 
