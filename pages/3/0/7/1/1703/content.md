@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include cohomology - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -9,42 +15,75 @@
 
 ## Idea
 
-A _principal 2-bundle_ is a [[vertical categorification|categorification]] of a [[principal bundle]]. It is closely related to and in fact a generalization (in the case of a single group rather than a sheaf of groups) of the concept [[gerbe]] (although that concept could easily be further generalised to match). See [[gerbe (general idea)]] for more background.
+A _principal 2-bundle_ is the generalization of a $G$-[[principal bundle]] over a [[group]] $G$ to a principal structure over a [[2-group]]. It is a special case of a [[principal ∞-bundle]].
 
+For $G = AUT(H)$ the [[automorphism 2-group]] of a group $G$, $G$-principal bundles are equivalent to $H$-[[gerbe]] (see [[gerbe (general idea)]] for more background.). An $H$-[[nonabelian bundle gerbe]] is a model for the total space of an $AUT(H)$-principal 2-bundle.
+
+An expository introduction to the concepts is at [[infinity-Chern-Weil theory introduction]].
 
 ## Definition
 
-Recall first the situation for ordinary [[principal bundles]]:
-
-As essentially originally due to an an old observation by Segal, recalled in the context of interest here in
-
-* [[Urs Schreiber]], [[David Roberts]], _The inner automorphism 3-group of a strict 2-group_ ([arXiv](http://arxiv.org/abs/0708.1741))
-
-for $G$ a [[group]] and $\mathbf{B} G$ the corresponding one-object [[groupoid]], a $G$-[[principal bundle]] $P \to X$ is a bundle of "spaces" (in whatever context of [[space and quantity|generalized space]] one works) that arises as the [[homotopy limit|homotopy pullback]] of the point (see [[generalized universal bundle]]) along a morphism $X \to \mathbf{B}G $ in the right higher category of groupoids (for instance given by an [[anafunctor]])
+For $G$ a [[Lie 2-group]], a $G$-principal 2-bundle $P \to X$ is a [[Lie groupoid]] that arises as the [[homotopy fiber]] of a [[cocycle]] $X \to \mathbf{B}G$ in [[?LieGrpd]], i.e. as an [[(∞,1)-pullback]] of the form
 
 $$
- \array{
-  P &\to& {*}
-  \\
-  \downarrow && \downarrow
-  \\
-  X &\to& \mathbf{B} G
- }
+  \array{
+    P &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    X &\to& \mathbf{B}G
+  }
   \,.
 $$
 
-This is a very general construction that is to be interpreted and makes sense with all objects here appearing as generalized spaces called [[∞-stacks]], in practice in particular [[presentable (infinity,1)-category|presented]] using the [[model structure on simplicial presheaves]]. The general idea used here is described at [[motivation for sheaves, cohomology and higher stacks]] and at [[gerbe (general idea)]]. 
+By the general rules of [[homotopy pullback]]s, this may be modeled by an ordinary pullback of [[Lie 2-groupoid]]s of the form
 
-This general description of higher bundles internal to generalized spaces modeled as [[∞-stacks]] is discussed in
+$$
+  \array{
+    P &\to& \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    C(U) &\to& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+  \,,
+$$
+
+where $\mathbf{E}G$ is the [[universal principal infinity-bundle|universal principal 2-bundle]] ([RS](#RS)).
+
+## Connections 
+
+An ordinary [[principal bundle]] may be equipped with a [[connection on a bundle|connection]] by refining the cocycle
+
+$$
+  X \to \mathbf{B} G
+$$
+
+to a cocycle
+
+$$
+  P_1(X) \to \mathbf{B} G
+$$
+
+where $P_1(X)$ is the [[path groupoid]] of $X$.
+
+Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B}H$ to cocycles out of a higher path groupoid. Details on this are at [[schreiber:differential cohomology in an (∞,1)-topos -- survey]]. 
+
+## References
+
+The general description of higher bundles internal to generalized spaces modeled as [[∞-stacks]] is discussed in
 
 * Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/abs/math.AT/0605198)) .
-
 
 The above situation of ordinary $G$-[[principal bundles]] is section 2.1 _[[torsor|Torsors]] for [[sheaves]] of groups_ in that article. The generalization to principal 2-bundles and [[principal ∞-bundles]] is then briefly indicated in section 2.2, _Diagrams and torsors_ .
 
 The point is that in the [[(∞,1)-topos]] of topological or smooth or whatever [[∞-groupoids]] (i.e. in the [[(∞,1)-category]] of [[∞-stacks]] on our category of [[space and quantity|test spaces]]) the above situation generalizes straightforwardly:
 
-For $H$ a [[2-group]], an $H$-principal $2$-bundle is a fibration of groupoids $P \to X$ that arises as the [[fibration sequence|homotopy fiber]] of a classifying morphism $X \to \mathbf{B}H$ (a $2$-[[2-anafunctor|anafunctor]])
+For $G$ a [[2-group]], a $G$-principal $2$-bundle is a fibration of groupoids $P \to X$ that arises as the [[fibration sequence|homotopy fiber]] of a classifying morphism $X \to \mathbf{B}G$ (a $2$-[[2-anafunctor|anafunctor]])
 
 $$
  \array{
@@ -52,12 +91,17 @@ $$
   \\
   \downarrow && \downarrow
   \\
-  X &\to& \mathbf{B}H
+  X &\to& \mathbf{B}G
  }
   \,.
 $$
 
-As ordinary [[principal bundles]], these gadgets may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsors]] equipped with 2-group [[action]], or certain variants of this. 
+This may be modeled by the pullback of the [[universal principal infinity-bundle|universal principal 2-bundle]] as described in
+
+* [[Urs Schreiber]], [[David Roberts]], _The inner automorphism 3-group of a strict 2-group_ ([arXiv](http://arxiv.org/abs/0708.1741))
+{#RS}
+
+As ordinary [[principal bundles]], the gadgets obtained this way may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsors]] equipped with 2-group [[action]], or certain variants of this. 
 
 Maybe the earliest explicit description of a principal $\infty$-bundle using a [[geometric definition of higher category]] is
 
@@ -86,7 +130,7 @@ A description of higher principal bundles (see also [[principal ∞-bundle]]) in
 
 The relation of such 2-categorical constructions of 2-bundles to the one of simplicially modeled $\infty$-bundles by Glenn was established in
 
-* Igor Bakovi&cacute;, _Bigroupoid 2-torsors_ ([pdf](http://edoc.ub.uni-muenchen.de/9209/1/Bakovic_Igor.pdf)).
+* [[Igor Bakovic]], _Bigroupoid 2-torsors_ ([pdf](http://edoc.ub.uni-muenchen.de/9209/1/Bakovic_Igor.pdf)).
 
 Still more explicit descriptions of these constructions are given in 
 
@@ -102,22 +146,6 @@ This is for instance in
 
 Notice that [[torsor]] is just another word for (internal) [[principal bundle]].
 
-## Connections 
 
-An ordinary [[principal bundle]] may be equipped with a [[connection on a bundle|connection]] by refining the cocycle
-
-$$
-  X \to \mathbf{B} G
-$$
-
-to a cocycle
-
-$$
-  P_1(X) \to \mathbf{B} G
-$$
-
-where $P_1(X)$ is the [[path groupoid]] of $X$.
-
-Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B}H$ to cocycles out of a higher path groupoid. Details on this are at [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]]. 
 
 [[!redirects principal 2-bundles]]
