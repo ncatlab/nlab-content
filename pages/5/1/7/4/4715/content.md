@@ -1,7 +1,8 @@
 ## Idea
 
 A ribbon graph (also called fat graph) is a finite connected graph equipped with a cyclic ordering on the half edges incident to each vertex; it is
-also required that the valence of each vertex is at least 3. 
+also required that the valence of each vertex is at least 3. To each ribbon graph, one can associate an oriented surface with boundary by replacing edges
+by thin oriented rectangles (ribbons) and glueing them together at all vertices according to the chosen cyclic order.
 
 ## Definition
 
@@ -26,15 +27,15 @@ A forest $F$ (disjoint union of trees) spans a graph $\Gamma$ if it contains all
 
 A morphism of graphs $\Gamma_0\to\Gamma_1$ is defined as an isomorphism $\Gamma_0/F\to\Gamma_1$ where $F$ is a spanning forest of $\Gamma_0$. Morphisms of such graphs are both epi and mono. 
 
-For  a ribbon graph, the set of leaves of any tree inherits a cyclic order. Thus $\Gamma/F$ has a canonical structure a ribbon graph. This makes the following definition possible: A morphism of ribbon graphs is the morphism of underlying graphs which respects the ordering on the vertices; i.e.  $\Gamma_0/F\to\Gamma_1$ is an isomorphism of ribbon graphs. Every endomorphism of a ribbon graph is an automorphism and for any two ribbon graphs $\Gamma$ and $\Gamma'$, the set $Aut(\Gamma)$ acts freely on $Hom(\Gamma,\Gamma')$ on the right and $Aut(\Gamma')$ acts freely on it from the left. 
+For  a ribbon graph, the set of leaves of any tree inherits a cyclic order. Thus $\Gamma/F$ has a canonical structure a ribbon graph. This makes the following definition possible: A morphism of ribbon graphs is the morphism of underlying graphs which respects the ordering on the vertices; i.e.  $\Gamma_0/F\to\Gamma_1$ is an isomorphism of ribbon graphs. Every endomorphism of a ribbon graph is an automorphism and for any two ribbon graphs $\Gamma$ and $\Gamma'$, the set $Aut(\Gamma)$ acts freely on $Hom(\Gamma,\Gamma')$ on the right and $Aut(\Gamma')$ acts freely on $Hom(\Gamma,\Gamma')$ from the left. 
 
-Let $\mathcal{Fat}$ denote the category of ribbon graphs and ribbon automorphisms. Strebel proved that the geometric realization $|\mathcal{Fat}|$ of the category of ribbon graphs decmposes into a direct sum of classifying spaces of all [[mapping class group]]s $M^s_g$ 
+Let $\mathcal{Fat}$ denote the category of ribbon graphs and ribbon automorphisms. Strebel proved that the geometric realization $|\mathcal{Fat}|$ of the category of ribbon graphs decomposes into a direct sum of classifying spaces of all [[mapping class group]]s $M^s_g$ 
 
 $$
 |\mathcal{Fat}| = \coprod_{g,s} BM^s_g
 $$
 
-$M^s_g$ is a mapping class group of a surface of genus $g$ with $s$ punctures. 
+$M^s_g$ is a mapping class group of a surface of genus $g$ with $s$ punctures. Alternatively, one can instead of the geometric realization take a moduli space of ribbon graphs with metric. A **metric** on a ribbon graph is a positive real valued function on the set of edges. 
 
 ## Applications
 
@@ -48,6 +49,8 @@ $M^s_g$ is a mapping class group of a surface of genus $g$ with $s$ punctures.
 
 * R. C. Penner, _The decorated Teichm&#252;ller space of punctured surfaces_, Commun. Math. Phys. __113__ (2) (1987) 299--339. [MR89h:32044](http://www.ams.org/mathscinet-getitem?mr=89h:32044)
 
+* John Harer, _The cohomology of the moduli space of curves_, Lec. Notes in Math. __1337__, p. 138&#8211;221. Springer, Berlin, 1988.
+
 * M. Mulas, M. Penkava, _Ribbon graphs, quadratic differentials on Riemann surfaces, and algebraic curves defined over_ $\overline{\bold Q}$. Mikio Sato: a great Japanese mathematician of the twentieth century.  Asian J. Math. __2__ (1998),  no. 4, 875--919. 
 
 * [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121, [pdf](http://193.51.104.7/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf)
@@ -55,5 +58,7 @@ $M^s_g$ is a mapping class group of a surface of genus $g$ with $s$ punctures.
 * Ib Madsen, Michael Weiss, _The stable moduli space of Riemann surfaces: [[Mumford's conjecture]]_,  Ann. of Math. (2) __165__ (2007), no. 3, 843--941, [MR2009b:14051](http://www.ams.org/mathscinet-getitem?mr=2009b:14051), [doi](http://dx.doi.org/10.4007/annals.2007.165.843)
 
 * J. Conant, K. Vogtmann, _On a theorem of Kontsevich_, [math.QA/0208169](http://arxiv.org/abs/math/0208169)
+
+* Gabriele Mondello, _Riemann surfaces, ribbon graphs and combinatorial classes_, [pdf](http://www.mat.uniroma1.it/~mondello/me/papers/ober-definitive.pdf)
 
 [[!redirects ribbon graphs]]
