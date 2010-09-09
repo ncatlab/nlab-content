@@ -39,9 +39,13 @@ constitute the [[Fenchel-Nielsen coordinates]] on
 
 Also use $\theta_i := t_i/\ell_i \in \mathbb{R}/\mathbb{Z}$
 
-This constitutes is a real analytic [[atlas]] of Teichm&#252;ller space. On $M$ this  redudcs to coordinates $t_i \in \mathbb{R}/{\ell_i \mathbb{Z}}$, and these
-constitute a real analytic atlas of moduli space.
+This constitutes is a real analytic [[atlas]] of Teichm&#252;ller space. On $M$ this  reduces to coordinates $t_i \in \mathbb{R}/{\ell_i \mathbb{Z}}$, 
+and these constitute a real analytic atlas of moduli space.
 
 ## References
 
 * Kathy Paur, _The Fenchel-Nielson coordinates of Teichm&#252;ller spaces_ ([pdf](http://www-math.mit.edu/phase2/UJM/vol1/PAUR-F.PDF))
+* Werner Fenchel, [[Jakob Nielsen]], reprinted in _Discontinuous groups of isometries in the hyperbolic plane_, edited by Asmus L. Schmidt; De Gruyter Studies in Math. __29__, 2003.
+
+[[!redirects Fenchel-Nielsen coordinates]] 
+[[!redirects Fenchel-Nielsen coordinate]] 
