@@ -1,4 +1,4 @@
-Not to be confused with the unit of an [[adjunction]].
+Not to be confused with the [[unit of an adjunction]] (although that is actually a very special case).
 
 ****
 
@@ -8,34 +8,79 @@ Not to be confused with the unit of an [[adjunction]].
 
 ## Idea
 
-A unit is a [[quantity]] $u$ such that every other quantity (of a certain type) is a multiple of $u$.
+A unit is a [[quantity]] $u$ such that every other quantity (of a certain type) is a multiple (in a certain sense) of $u$.
 
 
 ## Definitions
 
-Exactly what this means depends on context.
+Exactly what this means depends on context.  A very general definition is this:
+
+Given [[sets]] $R$ and $M$, and a [[function]] ${\cdot}\colon R \times M \to M$, an [[element]] $u$ of $M$ is a __unit__ (relative to the operation ${\cdot}$) if, given any element $x$ of $M$, there exists a unique element $a$ of $R$ such that $x = a \cdot u$.
+
+That is, every element of $M$ is a multiple (in a unique way) of $u$, where 'multiple' is defined in terms of the operation ${\cdot}$.
 
 
 ### Units in rings
 
-In a [[commutative ring]] (or [[rig]]) $R$, a __unit__ is an [[element]] of $R$ that has an [[inverse element|inverse]].  Of course, a commutative ring $R$ is a [[field]] just when every non-[[zero]] element is a unit.  In a noncommutative [[ring]], we distinguish _left_ and _right_ units.
+If $R$ is a [[ring]] (or [[rig]]), then $R$ comes equipped with a multiplication map ${\cdot}\colon R \times R \to R$.  So $R$ can play the role of both $R$ and $M$ above, although there are two ways to do this: on the left and on the right.
 
-If $u$ is a left unit in a ring, then any other element $x$ is a left multiple of $u$:
-$$ x = (x u^{-1}) u .$$
-Similarly, if $u$ is a right unit, then $x$ is a right multiple of $u$:
-$$ x = u (u^{-1} x) .$$
+We find that $u$ is a __left unit__ if and only if $u$ has a [[left inverse]], and $u$ is a __right unit__ if and only if $u$ has a [[right inverse]].  First, an element $u$ with an inverse is a unit because, given any element $x$, we have
+$$ x = (x u^{-1}) u $$
+(on the left) or
+$$ x = u (u^{-1} x) $$
+(on the right).  Conversely, a unit must have an inverse, since there must a solution to
+$$ 1 = a u $$
+(on the left) or
+$$ 1 = u a $$
+(on the right).
+
+In a [[commutative ring]] (or rig), a __unit__ is an element of $R$ that has an [[inverse element|inverse]], period.  Of course, a commutative ring $R$ is a [[field]] just when every non-[[zero]] element is a unit.
+
+
+### Units in monoids
+
+Notice that addition plays no role in the characterisation about of a unit in a ring.  Accordingly, a unit in a [[monoid]] may be defined in precisely the same way.
+
+A [[group]] is precisely a monoid in which every element is a unit.
+
+
+### Units in rngs or semigroups
+
+In a [[rng]] (or, ignoring addition, in a [[semigroup]]), we cannot speak of inverses of elements.  However, we can still talk about units; $u$ is a __left unit__ if, for every $x$, there is an $a$ such that
+$$ x = a u ;$$
+and $u$ is a __right unit__ if, for every $x$, there is an $a$ such that
+$$ x = u a .$$
+
+
+### Units in nonassocative rings or magmas
+
+In a [[nonassociative algebra|nonassociative ring]] (or, ignoring addition, in a [[magma]]), even if we have an identity element, an invertible element might not be a unit.  So we must use the same explicit definition as in a rng (or semigroup) above.
+
+A [[quasigroup]] is precisely a magma in which every element is a two-sided unit.
+
 
 ### Units in modules
 
-If $R$ is a commutative ring (or a rig) and $M$ an $R$-[[module]], then a __unit__ in $M$ is an element $m\in M$ such that every other $n\in M$ can be written as $n = r \cdot m$ for some $r\in R$.  This is the same as a [[generator]] of $M$ as an $R$-module.  If $R$ is noncommutative, we distinguish left and right units (or generators).  Note that a unit in $R$ _qua_ ring is the same as a unit in $R$ _qua_ $R$-module.
+If $R$ is a [[ring]] (or [[rig]]) and $M$ an $R$-[[module]], then a __unit__ in $M$ is an element $u \in M$ such that every other $x \in M$ can be written as $x = a u$ (or $x = u a$ for a right module) for some $a \in R$.  This is the same as a [[generator]] of $M$ as an $R$-module.  There is no need to distinguish left and right units unless $M$ is a [[bimodule]].  Note that a (left or right) unit in $R$ _qua_ ring is the same as a unit in $R$ _qua_ (left or right) $R$-module.
+
 
 ### Units of measurement
 
-In [[physics]], the quantities of a given dimension generally form an $\mathbb{R}$-[[line]], a $1$-dimensional [[vector space]] over the [[real numbers]].  Since $\mathbb{R}$ is a field, any non-[[zero]] quantity is a unit, called in this context a __unit of measurement__.
+In [[physics]], the quantities of a given dimension generally form an $\mathbb{R}$-[[line]], a $1$-dimensional [[vector space]] over the [[real numbers]].  Since $\mathbb{R}$ is a field, any non-[[zero]] quantity is a unit, called in this context a __unit of measurement__.  This is actually a special case of a unit in a module, where $R \coloneqq \mathbb{R}$ and $M$ is the line in question.
 
-Often (but not always) these quantities form an [[orientation|oriented]] line, so that nonzero quantities are either positive or negative.  Then we usually also require a unit of measurement to be positive.  In fact, for some dimensions, such as temperature, there is no meaning to a negative quantity, in which case the quantities actually form a module over the rig $\mathbb{R}_{\ge 0}$ and every nonzero element is "positive."
+Often (but not always) these quantities form an [[orientation|oriented]] line, so that nonzero quantities are either positive or negative.  Then we usually also require a unit of measurement to be positive.  In fact, for some dimensions, there is no physical meaning to a negative quantity, in which case the quantities actually form a module over the rig $\mathbb{R}_{\ge 0}$ and every nonzero element is "positive."
 
 For example, the [[kilogramme]] is a unit of mass, because any mass may be expressed as a real multiple of the kilogramme.  Further, it is a positive unit; the mass of any physical object is a nonnegative quantity (so that mass quantities actually form an $\mathbb{R}_{\ge 0}$-module) and may be expressed as a nonnegative real multiple of the kilogramme.
+
+
+## Identities as units
+
+Often the term 'unit' (or 'unity') is used as a synonym for '[[identity element]]', especially when this identity element is denoted $1$.  For example, a 'ring with unit' (or 'ring with unity') is a ring with an identity (used by authors who say 'ring' for a rng).  Of course, a rng with identity has a unit, since $1$ itself is a unit.
++-- {: .query}
+I haven\'t managed to find either a proof or a counterexample to the converse: that a rng with a unit must have an identity.
+=--
+
+It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
 
 
 [[!redirects unit]]
