@@ -26,7 +26,7 @@ In [[constructive mathematics]], and internally to a [[topos]], a number of clas
 
 In constructive mathematics, one is usually interested in the finite sets, although the finitely indexed sets are also sometimes useful. Note that a finitely indexed set with [[decidable object|decidable equality]] must actually be finite.
 
-Finite sets are always [[projective object|projective]]; that is, the "finite [[axiom of choice]]" always holds.  However, if some set (even a finite one) with at least $2$ distinct elements is [[choice object|choice]], or if every $2$-indexed set is projective, then the logic must be classical (see [[excluded middle]] for a proof).
+Finite sets are always [[projective object|projective]]; that is, the "finite [[axiom of choice]]" always holds.  However, if a finite set with $2$ elements (or any set, finite or not, with at least $2$ distinct elements) is [[choice object|choice]], or if every finitely-indexed set (or even any $2$-indexed set) is projective, then the logic must be classical (see [[excluded middle]] for a proof).
 
 
 ## Finiteness without infinity
