@@ -1,6 +1,6 @@
 #Definition#
 
-A **retraction** of a [[morphism]] $f : A \to B$ is a one-sided inverse: a [[morphism]] $\rho : B \to A$ such that
+A **retraction** of a [[morphism]] $f : A \to B$ is a __left-[[inverse]]__: a [[morphism]] $\rho : B \to A$ such that
 $$
   A \stackrel{f}{\to} B \stackrel{\rho}{\to} A
 $$
@@ -12,3 +12,12 @@ $$
 .$$
 
 A **[[split monomorphism]]** is a morphism that *has* a retraction; a **[[split epimorphism]]** is a morphism that *is* a retraction.
+
+
+[[!redirects retraction]]
+[[!redirects retractions]]
+
+[[!redirects left inverse]]
+[[!redirects left inverses]]
+[[!redirects left-inverse]]
+[[!redirects left-inverses]]
