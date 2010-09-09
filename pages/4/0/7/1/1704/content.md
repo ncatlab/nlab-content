@@ -670,9 +670,34 @@ by Bartels, Bakovi&cacute;, Wockel, etc., as referenced at [[principal 2-bundle]
 
 ## Examples
 
-* A [[Chern-Simons 2-gerbe]] is effectively a (cocycle for a) $\mathbf{B}^2 U(1)$-principal 3-bundle.
+### Ordinary principal bundles
 
-...
+For $G$ an ordinary [[Lie group]], a $G$-principal bundle in the $(\infty,1)$-topos $\mathbf{H} = $ [[?LieGrpd]] is an ordinary $G$-[[principal bundle]].
+
+### Circle $n$-bundles
+
+For $G = \mathbf{B}^{n-1} U(1) \in $ [[?LieGrpd]], the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie n-group</a>, a $G$-principal $\infty$-bundle is a **circle $n$-bundle**.
+
+See [[circle n-bundle with connection]].
+
+Classes of examples include
+
+* the [[Chern-Simons circle 3-bundle]].
+
+### Bundle gerbes
+
+* A [[bundle gerbe]]  is a concrete model for the total space [[groupoid]] of the total space of a $\mathbf{B}U(1)$-[[principal 2-bundle]]. 
+
+  More generally, a [[nonabelian bundle gerbe]] is a concrete model for the [[groupoid]] of the total space of a general [[principal 2-bundle]].
+
+* A [[bundle 2-gerbe]]  is a concrete model for the total space [[2-groupoid]] of the total space of a $\mathbf{B}^2 U(1)$-principal 3-bundle. 
+
+  More generally, a [[nonabelian bundle 2-gerbe]] is a concrete model for the [[2-groupoid]] of the total space of a general principal 3-bundle.
+
+  Classes of examples include
+
+  * the [[Chern-Simons bundle 2-gerbe]].
+ 
 
 ## References
 
