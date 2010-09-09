@@ -419,7 +419,7 @@ $$
   \,.
 $$
 
-#### Cech 2-cocycles {#Cech2Cocycles}
+#### Cech cocycles {#Cech2Cocycles}
 
 The discussion above of $G$-principal bundles was all based on the [[Lie groupoid]]s $\mathbf{B}G$ and $\mathbf{E}G$ that are canonically induced by a [[Lie group]] $G$. We now discuss the case where $G$ is generalized to a [[Lie 2-group]]. The above discussion will go through essentially verbatim, only that we pick up [[2-morphism]]s everywhere. This is the first step towards higher Chern-Weil theory. The resulting generalization of the notion of principal bundle is that of [[principal 2-bundle]]. For historical reasons these are known in the literature often as [[gerbe]]s or as [[bundle gerbe]]s. 
 
@@ -689,7 +689,7 @@ Above we saw $\mathbf{B}U(1)$-[[principal 2-bundle]]s. The groupoid $\mathbf{B}U
 
 An example of a nonabelian Lie 2-group is the [[string Lie 2-group]] $String$. A quick way to udnerstand the meaning of this 2-group is from the fact that:
 
-**Fact** Given a [[spin-group]]-[[principal bundle]] $P \to X$, its [[Pontryagin class]] classifies a _circle 3-bundle_  (a [[bundle 2-gerbe]]) called the [[Chern-Simons circle 3-bundle]]. The nontriviality of this is precisely the obstruction to liftin $P$ to a a $String$-principal 2-bundle.
+**Fact** Given a [[spin group]]-[[principal bundle]] $P \to X$, its [[Pontryagin class]] classifies a _circle 3-bundle_  (a [[bundle 2-gerbe]]) called the [[Chern-Simons circle 3-bundle]]. The nontriviality of this is precisely the obstruction to liftin $P$ to a a $String$-principal 2-bundle.
 
 
 Again, we can construct Lie 2-groupoids equivalent to the total space of a $String$-principal 2-bundle classified by a cocycle $g : C(U) \to \mathbf{B}String$ by forming the pullback.
@@ -702,7 +702,7 @@ $$
     \\
     C(U) &\stackrel{g}{\to}& \mathbf{B} String
     \\
-    \downarow^{\mathrlap{\simeq}}
+    \downarrow^{\mathrlap{\simeq}}
     \\
     X
   }
