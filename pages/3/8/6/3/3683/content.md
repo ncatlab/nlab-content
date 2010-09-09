@@ -40,6 +40,10 @@ and the canonical operator method_, Nauka, Moscow, 1978.
 
 * Richard J. Szabo, _Equivariant cohomology and localization of path integrals_, Lecture Notes in Physics, N.S. Monographs __63__. Springer  2000. xii+315 pp. (early version: _Equivariant localization of path integrals_, [hep-th/9608068](http://arxiv.org/abs/hep-th/9608068))
 
+* M. F. Atiyah, _Circular symmetry and stationary phase approximation_, Asterisque __131__ (1985) 43--59
+
+* N. Berline, [[Ezra Getzler]], M. Vergne, _Heat kernels and Dirac operators_, Grundlehren __298__, Springer 1992, "Text Edition" 2003. 
+
 * Albert Schwarz, Oleg Zaboronsky, _Supersymmetry and localization_, Comm. Math. Phys. __183__, 2 (1997), 463-476, [euclid](http://projecteuclid.org/euclid.cmp/1158328185)
 
 * [[Albert Schwarz]], _Semiclassical approximation in [[Batalin-Vilkovisky quantization|Batalin-Vilkovisky formalism]]_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246). 
