@@ -3,7 +3,7 @@
 Every subgroup of a [[free group|free discrete group]] is free.
 =--
 
-Nielsen's theorem is the weaker form proved by J. Nielsen in 1921 saying that every finitely generated subgroup of a free group is free. [[Otto Schreier]] proved in 1927 the theorem in full generality.
+Nielsen's theorem is the weaker form proved by [[Jakob Nielsen]] in 1921 saying that every finitely generated subgroup of a free group is free. [[Otto Schreier]] proved in 1927 the theorem in full generality.
 
 The algebraic proof of this theorem is rather long and complicated and it is usually based on Nielsen's method of short cancellations in [[combinatorial group theory]] based on words (Nielsen's transformations of words, word length functions, ...). The class of [[projective group]]s ([[projective object]]s in [[Grp|the category of groups]]) coincides with the class of free groups. 
 
