@@ -165,7 +165,10 @@ $$
 
 ### As the total space of a principal 2-bundle {#AsTotalSpace}
 
-**Proposition.** The Lie groupoid $P_{(Y,L,\mu)}$ defined by a bundle gerbe is in [[?LieGrpd]] the [[(∞,1)-pullback]]
++-- {: .un_prop}
+###### Proposition
+
+The Lie groupoid $P_{(Y,L,\mu)}$ defined by a bundle gerbe is in [[?LieGrpd]] the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -179,12 +182,17 @@ $$
 
 of a [[cocycle]] $[g] \in H(X,\mathbf{B}^2 U(1)) \simeq H^3(X,\mathbb{Z})$. 
 
-**Proof**
+=--
+
+In fact a somewhat stronger statement is true, as shown in the following proof.
+
++-- {: .proof}
+###### Proof
 
 We can assume without restriction that the bundle $L$ in the data of the bundle gerbe is actually the trivial $U(1)$-bundle $L = Y \times_X Y \times U(1)$ by refining, if necessary, the surjective submersion $Y$ by a [[good open cover]]. In that case we may identify $\mu$ with a $U(1)$-valued function
 
 $$
-  \mu : Y \times_X Y \times_X Y  \to (1)
+  \mu : Y \times_X Y \times_X Y  \to U(1)
 $$
 
 which in turn we may identify with a smooth 2-[[anafunctor]]
@@ -200,9 +208,80 @@ $$
   \,.
 $$
 
+From here on the computation is a special case of the general theory of [[groupoid cohomology]] and the extensions classified by it.
+
 Then recall from [[universal principal infinity-bundle]] that we model the $(\infty,1)$-pullbacks that defines principal $\infty$-bundles in terms of ordinary pullbacks of the universal $\mathbf{B}U(1)$-principal 2-bundle $\mathbf{E}\mathbf{B}U(1) \to \mathbf{B}^2 U(1)$.
 
-We find that $\mathbf{E}\mathbf{B}U(1)$ is the Lie 2-groupoid with a single objects, $U(1)$ worth of 1-morphisms and unique 2-morphism between these. It follows that we have a square
+We may model all this in the case at hand in terms of [[strict omega-groupoid|strict 2-groupoip]]s. Then using an evident cartoon-notation we have
+
+$$
+  \mathbf{B}^2 U(1)
+  = 
+  \left\{
+    \array{
+       & \nearrow \searrow
+       \\
+       \bullet &\Downarrow^{\mathrlap{c \in U(1)}}& \bullet
+       \\
+       & \searrow \nearrow
+    }
+  \right\}
+$$
+
+and $\mathbf{E}\mathbf{B}U(1)$ is the 2-groupoid whose _morphisms_ are diagrams
+
+$$
+  \array{
+      && \bullet
+      \\
+      & \nearrow &\swArrow_{c}& \searrow
+     \\
+     \bullet &&\to&& \bullet
+  }
+$$
+
+in $\mathbf{B}^2 U(1)$ with composition given by horizontal [[pasting]]
+
+$$
+  \array{
+     &&& \bullet
+     \\
+     & \swarrow &\swArrow_{c_1} & \downarrow &\swArrow_{c_2}& \searrow
+    \\
+    \bullet &\to&& \bullet &&\to& \bullet
+  }
+$$
+
+and 2-morphisms are paper-cup diagrams
+
+$$
+  \array{
+      && \bullet
+      \\
+      & \nearrow &\swArrow_{c}& \searrow
+     \\
+     \bullet &&\to&& \bullet
+     \\
+     & \searrow &\swArrow_{k}& \swarrow
+     \\
+     && \bullet
+  }
+  \;\;\;\;\;
+  =
+  \;\;\;\;\;
+  \array{
+      && \bullet
+      \\
+      & \nearrow &\swArrow_{c k}& \searrow
+     \\
+     \bullet &&\to&& \bullet
+  }
+  \,.
+$$
+
+So $\mathbf{E}\mathbf{B}U(1)$ is the Lie 2-groupoid with a single object, with  $U(1)$ worth of 1-morphisms and unique 2-morphism between these.
+
+From this we read of that 
 
 $$
   \array{
@@ -218,9 +297,61 @@ $$
   }
 $$
 
-which is a [[pullback]] square (in the category of [[simplicial presheaves]] over [[CartSp]]).
+is indeed a [[pullback]] square (in the category of [[simplicial presheaves]] over [[CartSp]]). The morphisms of the pullback Lie groupoid are pairs of diagrams
+
+$$
+  \array{
+      && \bullet
+      \\
+      & \nearrow &\swArrow_{c}& \searrow
+     \\
+     \bullet &&\to&& \bullet
+     \\
+     \\
+     (x,i) &&\to&& (x,j)
+  }
+$$
+
+hence form a trivial $U(1)$-bundle over the morphisms of $C(U)$, and the 2-morphims are pairs consisting of 2-morphisms 
+
+$$
+  \array{
+     && (x,j)
+     \\
+     & \nearrow &\swArrow& \searrow
+     \\
+     (x,i) &&\to&& (x,k)
+  }
+$$
 
 
+in $C(U)$ and paper-cup diagrams of the form
+
+$$
+  \array{
+     &&& \bullet
+     \\
+     & \swarrow &\swArrow_{c_1} & \downarrow &\swArrow_{c_2}& \searrow
+    \\
+    \bullet &\to&& \bullet &&\to& \bullet
+    \\
+    & \searrow &&\swArrow_{\mu_{i j k}(x)}&&& \swarrow
+  }
+  \;\;\;\;
+  =
+  \;\;\;\;
+  \array{
+      && \bullet
+      \\
+      & \nearrow &\swArrow_{c_1 c_2 \mu_{i j k}(x)}& \searrow
+     \\
+     \bullet &&\to&& \bullet
+   }
+$$
+
+in $\mathbf{B}^2 U(1)$, which exhibits indeed the composition operation in $P_{(Y,L,\mu)}$.
+
+=--
 
 ## Connections
 
