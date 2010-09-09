@@ -136,9 +136,10 @@ Some users have personal areas of the _n_-Lab where they can have password prote
 ### I got "Access denied" when editing a page.
 
 The _n_-Lab has a spam filter that checks your IP against a blacklist.  The blacklists used are maintained by [spamcop.net](http://www.spamcop.net/) and [spamhaus.org](http://www.spamhaus.org/).  IPs are added to these lists if they are detected doing things usually associated with computers infected with viruses.  There are instructions on the webpages for finding out if your IP has been added to these lists and what to do to remove your IP from them.  Three things to point our are:
-   1. The _n_-Lab cannot remove your IP from the list, you have to do that yourself.
-   2. The _n_-Lab is not going to remove its spam protection.
-   3. If you got your IP dynamically (e.g. using some wireless providers) it is entirely possible that it is not your computer that was behaving badly but a previous one using the same IP.  A quick workaround is to disconnect from the network and try reconnecting (sometimes you have to wait a bit before reconnecting to get a new IP).  Of course, you should ensure that your virus software is up to date.
+
+1. The _n_-Lab cannot remove your IP from the list, you have to do that yourself.
+2. The _n_-Lab is not going to remove its spam protection.
+3. If you got your IP dynamically (e.g. using some wireless providers) it is entirely possible that it is not your computer that was behaving badly but a previous one using the same IP.  A quick workaround is to disconnect from the network and try reconnecting (sometimes you have to wait a bit before reconnecting to get a new IP).  Of course, you should ensure that your virus software is up to date.
 
 ### I got "Internal application error" when doing something.
 
