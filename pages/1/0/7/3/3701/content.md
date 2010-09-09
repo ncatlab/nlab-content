@@ -34,7 +34,93 @@ Property (1) is motivated because $(a,b)$ is [[empty subset|empty]] whenever $a 
 
 We call the combined hypothesis of this property a __zigzag__; each hypothesis $a_i \sim b_i$ is a __zig__, and each hypothesis $b_i \gt a_{i^+}$ is a __zag__.  To indicate the length of a zigzag, we will count the zigs; the zigzag (eq:zigzag) has $n$ zigs (and $n - 1$ zags).  A typical nondegenerate zigzag with $3$ zigs is shown below; it consists of $3$ overlapping open intervals, each of which belongs to a given open set; we are motivated to conclude that the entire interval from $a_1$ to $b_3$ belongs to that open set.
 
-<center><a href="http://www.codecogs.com/eqnedit.php?latex=\xymatrix%20{%20a_1%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20%26%20%26%20a_2%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_1%20\ar%20[l]%20%26%20%26%20a_3%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_2%20\ar%20[l]%20%26%20%26%20%26%20b_3}"><img src="http://latex.codecogs.com/gif.latex?\xymatrix%20{%20a_1%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20%26%20%26%20a_2%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_1%20\ar%20[l]%20%26%20%26%20a_3%20\ar%20@/^1pc/%20[rrrr]%20^%20{\sim}%20%26%20b_2%20\ar%20[l]%20%26%20%26%20%26%20b_3}" title="\xymatrix { a_1 \ar @/^1pc/ [rrrr] ^ {\sim} &amp; &amp; &amp; a_2 \ar @/^1pc/ [rrrr] ^ {\sim} &amp; b_1 \ar [l] &amp; &amp; a_3 \ar @/^1pc/ [rrrr] ^ {\sim} &amp; b_2 \ar [l] &amp; &amp; &amp; b_3}" /></a></center>
+<center><svg width="250" height="56" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="97629">
+ <g>
+  <title>Layer 1</title>
+  <foreignObject height="24" width="250" font-size="16" id="svg_97629_1" y="32" x="0">
+   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>a</mi>
+       <mn>1</mn>
+      </msub>
+      <mspace width="2em"/>
+      <msub>
+       <mi>a</mi>
+       <mn>2</mn>
+      </msub>
+      <mo>&#10229;</mo>
+      <msub>
+       <mi>b</mi>
+       <mn>1</mn>
+      </msub>
+      <mspace width="2em"/>
+      <msub>
+       <mi>a</mi>
+       <mn>3</mn>
+      </msub>
+      <mo>&#10229;</mo>
+      <msub>
+       <mi>b</mi>
+       <mn>2</mn>
+      </msub>
+      <mspace width="2em"/>
+      <msub>
+       <mi>b</mi>
+       <mn>3</mn>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">a_1\qquad a_2\longleftarrow b_1\qquad a_3\longleftarrow b_2\qquad b_3</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <g id="svg_97629_4">
+   <path marker-end="url(#se_marker_end_svg_97629_2)" id="svg_97629_2" d="m13,36c21.666656,-22.666656 61.388885,-20.333344 78,1" stroke="#000000" fill="none"/>
+   <foreignObject height="20" width="12" font-size="16" id="svg_97629_3" y="0" x="45">
+    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+     <semantics>
+      <mrow>
+       <mo>~</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">~</annotation>
+     </semantics>
+    </math>
+   </foreignObject>
+  </g>
+  <g id="svg_97629_5">
+   <path id="svg_97629_6" marker-end="url(#se_marker_end_svg_97629_2)" d="m151,36c21.666656,-22.666656 61.388885,-20.333344 78,1" stroke="#000000" fill="none"/>
+   <foreignObject id="svg_97629_7" height="20" width="12" font-size="16" y="0" x="183">
+    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+     <semantics>
+      <mrow>
+       <mo>~</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">~</annotation>
+     </semantics>
+    </math>
+   </foreignObject>
+  </g>
+  <g id="svg_97629_13">
+   <path id="svg_97629_14" marker-end="url(#se_marker_end_svg_97629_2)" d="m60.75,36c33.124969,-22.666656 93.854156,-20.333344 119.25,1" stroke="#000000" fill="none"/>
+   <foreignObject id="svg_97629_15" height="20" width="18.346154" font-size="16" y="0" x="109.673076">
+    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+     <semantics>
+      <mrow>
+       <mo>~</mo>
+      </mrow>
+      <annotation encoding="application/x-tex">~</annotation>
+     </semantics>
+    </math>
+   </foreignObject>
+  </g>
+ </g>
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_97629_2">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+ </defs>
+</svg></center>
 
 Thus the zigzag property for $n = 2$ is property (3), the zigzag property for $n = 1$ is trivial (if $a \sim b$, then $a \sim b$), and the zigzag property for $n \gt 2$ may be proved by [[induction]].  (There is also a sense in which the zigzag property for $n = 0$ is property (1), but I haven\'t quite got my head around that.)
 
