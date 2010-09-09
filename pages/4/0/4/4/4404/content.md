@@ -8,24 +8,50 @@ An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [
 
 Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]], finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
-Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \leq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. 
+Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \geq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. Then Kervaire and Milnor (1963) proved that there are only finitely many exotic smooth structures on all spheres in dimension 5 or higher. A complete classification for manifolds in dimension 5 and higher was established by Kirby and Siebenman (1977) using obstruction theory.
 
-Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Taubes 1987, Donaldson 1990, Freedman-Kirby 1986), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$. There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets.
+Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Gompf 1985, Freedman/Taylor 1986, Taubes 1987), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$ (Stallings, Zeeman 1962). There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets (DeMichelis, Freedman 1992).
 
-Moise (year?) proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are [[homeomorphism|homeomorphic]] are [[diffeomorphism|diffeomorphic]]. In this way the 3-sphere $S^3$ inherits a unique differentiable structure, no matter which $\mathbb{R}^4$ it is considered to be embedded in.
+There are two classes of exotic $\mathbb{R}^4$'s: large and small. A large exotic $\mathbb{R}^4$ cannot be embedded in the 4-sphere $S^4$ whereas a small exotic $\mathbb{R}^4$ admits such an embedding. A large exotic $\mathbb{R}^4$ is constructed by using the failure to smoothly split a smooth 4-manifold (the K3 surface for instance) as connected sum of some factors (where a topological splitting exits). The small exotic $\mathbb{R}^4$ (or ribbon $\mathbb{R}^4$) is constructed by using the failure of the smooth h cobordism theorem in dimension 4 (Donaldson 1987, 1990). Bizaca and Gompf (1996) are able to present an infinte handly body of a small exotic $\mathbb{R}^4$ which serve as a coordinate representation.
+
+Moise (1952) proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are [[homeomorphism|homeomorphic]] are [[diffeomorphism|diffeomorphic]]. In this way the 3-sphere $S^3$ inherits a unique differentiable structure, no matter which $\mathbb{R}^4$ it is considered to be embedded in.
+
+Rado (1925) proved that in dimension 2 there are no exotic differentiable structures (or the uniqueness of the standard structure). The classification of 1-dimensional manifolds and the uniqueness of the smooth structure can be found in the Appendix of Milnor (1965b).
 
 ## References
 
 
 * Milnor, John W. (1956), "On manifolds homeomorphic to the 7-sphere", Annals of Mathematics (Annals of Mathematics) 64 (2): 399&#8211;405
 
-* E. Moise
+* Smale, Stephen (1962), "On the structure of manifolds" , Amer. J. of Math. 84 : 387-399
 
-* M. Freedman, R. Kirby
+* Milnor, John W. (1965), _Lectures on the h-cobordism theorem_ (Princeton Univ. Press, Princeton)
 
-* S. Donaldson
+* Kervaire, Michel; Milnor, John W. (1963) "Groups of homotopy spheres: I", Ann. Math. 77, pp. 504 - 537.
 
-* C. Taubes
+* Kirby, R.; Siebenmann, L. (1977) _Foundational essays on topologieal manifolds, smoothings, and triangulations_, Ann. Math. Studies (Princeton University Press, Princeton).
+
+* Stallings, John R.; Zeeman, E. C. (1962), "The piecewise-linear structure of Euclidean space", Proceedings of the Cambridge Philosophical Society 58: 481&#8211;488
+
+* Moise, Edwin E. (1952) "Affine structures on 3-manifolds", Ann. Math. 56, pp. 96-114
+
+* Freedman, Michael H.; Taylor, L. (1986) "A universal smoothing of four-space", J. Diff. Geom. 24, pp. 69-78
+
+* De Michelis, S.; Freedman, Michael H. (1992) "Uncountable many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
+
+* Donaldson, Simon (1987) "Irrationality and the h-cobardism conjecture", J. Diff. Geom. 26, pp. 141-168.
+
+* Donaldson, Simon (1990) "Polynomial invariants for smooth four manifolds", Topology 29, pp. 257-315.
+
+* Gompf, Robert (1985) An infinite set of exotic $\mathbb{R}^4$'s, J. Diff. Geom. 21, pp. 283-300.
+
+* Taubes, Clifford (1987) "Gauge theory on asymptotically periodic 4-manifolds", J. Diff. Geom. 25, pp. 363-430
+
+* Bizaca, Z.; Gompf, Robert (1996) "Elliptic surfaces and some simple exotic $\mathbb{R}^4$'s", J. Diff. Geom. 43, pp. 458-504.
+
+* Rado, T. (1925) "&#220;ber den Begriff der Riemannschen Fl&#228;che" , Acta Litt. Scient. Univ. Szegd 2, pp. 101-121
+
+* Milnor, John W. (1965b) _Topology from the Differentiable Viewpoint_ (University Press of Virginia)
 
 (see Wikipedia ([spheres](http://en.wikipedia.org/wiki/Exotic_sphere#References), [$R^4$](http://en.wikipedia.org/wiki/Exotic_R4#References)) for more for now)
 
