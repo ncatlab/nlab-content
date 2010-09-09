@@ -1,241 +1,228 @@
-"Bundle gerbes" are special realizations of [[gerbe]]s in [[differential geometry]].
 
-See also
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
-* [[gerbe (as a stack)]]
-
-* [[gerbe (general idea)]]
-
-
-
-***
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-##General idea##
+## Idea
 
-A _bundle gerbe_ is a categorification of a transition function of a [[principal bundle]]. For that reason, it is sometimes also addressed as a _transition bundle_.
+A _bundle gerbe_ is a special model for the total space [[Lie groupoid]] of a $\mathbf{B}U(1)$-[[principal 2-bundle]] for $\mathbf{B}U(1)$ the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>.
 
-Despite its name, a bundle gerbe is not a [[gerbe]]. A gerbe is rather a categorification of the [[sheaf of sections]] of a fiber bundle.
+More generally, for $G$ a more general [[Lie 2-group]] (often taken to be the [[automorphism 2-group]] $G = AUT(H)$ of a [[Lie group]] $H$), a [[nonabelian bundle gerbe]] for $G$ is a model for the total space groupoid of a $G$-[[principal 2-bundle]].
 
-A fiber bundle can be characterized (up to isomorphism) 
-in several different ways, for instance as
+The definition of _bundle gerbe_ is not in fact a special case (nor a generalization) of the definition of [[gerbe]], even though there are equivalences relating both concepts.
 
-* a fibration,
-* a sheaf of sections,
-* a transition function,
-* an Atiyah groupoid extension.
+## Definition
 
-If it is a principal $U(1)$-bundle or a complex line bundle, it can also be characterized as
+A **bundle gerbe'* over a [[smooth manifold]] $X$ is 
 
-*  an element in second integral cohomology.
+* a [[surjective submersion]]
 
-Each of these descriptions has a categorification. They go, respectively, by the name
-
-* a 2-bundle,
-* a gerbe,
-* a bundle gerbe,
-* an Atiyah 2-groupoid extension,
-* an element in third integral cohomology.
-
-The degree to which these have been 
-studied and understood differs. In as far as they have been understood, one finds essentially the expected equivalences. In particular, bundle gerbes are equivalent to a certain sub-$2$-category of gerbes, and are classified by third integral cohomology.
-
-This cohomological classification has, historically, been one of the main motivations for the development of gerbes and bundle gerbes. For that reason, bundle gerbes are sometimes addressed as a "geometric realization of third integral cohomology", in the same sense that complex line bundles are a "geometric realization of second integral cohomology".
-
-Of course this classification by integral cohomology applies only to what should be more precisely called _complex line bundle gerbes_ or $U(1)$-principal bundle gerbes, which were introduced by Murray. Other notions of bundle gerbes can be defined, and in particular nonabelian principal bundle gerbes have been studied by Aschieri-Cantini--Jur&#269;o.
-
-It turns out that line bundle gerbes can alternatively be regarded as central extensions of groupoids. This is not to be confused with the (2-)groupoid extension mentioned above.
-
-
-##Definition##
-
-A bundle gerbe over a space $X$ is 
-
-* a regular epimorphism 
-$$
+  $$
       \array{
           Y
           \\
-          \pi \downarrow
+          \downarrow^{\mathrlap{\pi}}
           \\
           X
       }
     $$
 
-* a fiber bundle 
-$$
-        \array{
-           B
+* together with a $U(1)$-[[principal bundle]]
+
+  $$
+      \array{
+           L
            \\
-           p \downarrow \;\;
+           \downarrow^{\mathrlap{p}}
            \\
-           Y^{[2]}
+           Y \times_X Y
         }
     $$
-over the fiber product $Y^{[2]}$ of $Y$ with itself, i.e.
-$$
+
+  over the [[fiber product]] of $Y$ with itself, i.e.
+
+  $$
     \array{
           L
           \\
-          p \downarrow \;\;
+          \downarrow^{\mathrlap{p}}
           \\
-          Y^{[2]} &\stackrel{\rightarrow}{\rightarrow}& Y
+          Y \times_X Y &\stackrel{\overset{\pi_1}{\rightarrow}}{\underset{\pi_2}{\rightarrow}}& Y
           \\
-          && \pi \downarrow \;\;
+          && \downarrow^{\mathrlap{\pi}}
           \\
           && 
           X
       }
      \,,
-$$
+  $$
 
-*  together with a notion of product $\otimes$ of fibers of $B$;
+* an [[isomorphism]]
 
-* on $Y^{[3]}$ an isomorphism
    $$
-     \mu : \pi_{12}^*B \;\otimes\; \pi_{23}^*B \;\stackrel{\sim}{\to}\; \pi_{13}^* B
-     \,,
+     \mu : 
+     \pi_{12}^*L \otimes
+     \pi_{23}^*L 
+     \to 
+     \pi_{13}^* L
    $$
-    which satisfies an associativity relation on $Y^{[4]}$.
 
-Here $\pi_{12}, \pi_{23}, \pi_{13}$ are the three obvious maps
-    $$
-       Y^{[3]} \stackrel{\stackrel{\rightarrow}{\rightarrow}}{\rightarrow}
-       Y^{[2]}
-       \,.
-    $$
+   of $U(1)$-bundles on $Y \times_X Y \times_X Y$
 
-For line bundle gerbes, $X$ is taken to be a smooth space, $\pi : Y \to X$ 
-a [[surjective submersion]], $B$ a smooth line bundle and $\mu$ a smooth
-isomorphism. This case was introduced by Murray in 
-[dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015).
+* such that this satisfies the evident associativity condition on
+  $Y\times_X Y \times_X Y \times_X Y$.
 
+Here $\pi_{12}, \pi_{23}, \pi_{13}$ are the three maps
 
-For (nonabelian) $G$-principal bundle gerbes, one chooses $B$ to be a 
-$G$-principal [[bibundle]], which is a bundle that is $G$-principal both
-for a left and a right $G$ action, which mutually commute. In other words,
-the fibers of $B$ are $G$-bitorsors. This allows to define the product as
 $$
-  p_{12}^* B \;\otimes\; p_{23}^* B \;:=\; p_{12}^* B \;\times_G\; p_{23}^* B
-  \,.
+  Y^{[3]} \stackrel{\stackrel{\rightarrow}{\rightarrow}}{\rightarrow}
+   Y^{[2]}
 $$
-This case was introduced by Aschieri, Cantini & Jur&#269;o in
-[hep-th/0312154](http://arxiv.org/abs/hep-th/0312154).
 
-For complex line bundle gerbes
-the above definition can be understood as obtained from the definition of a transition
-function of a line bundle by replacing the monoid of complex numbers 
-by the monoidal category of lines ($1$-dimensional complex vector spaces);
-and by replacing equations between numbers by coherent (here: associative)
-isomorphisms of vector spaces. Such a replacement is known as [[vertical categorification|categorification]].
+in the [[Cech nerve]] of $Y \to X$.
 
-Analogously, for principal bundle gerbes 
-the above definition can be understood as obtained from the definition of a transition
-function of a principal $G$-bundle by replacing the group $G$
-by the 2-group 
+In a [[nonabelian bundle gerbe]] the bundle $L$ is generalized to a [[bibundle]].
+
+
+## Interpretation {#Interpretation}
+
+A bundle gerbe may be understood as a specific model for the total space [[Lie groupoid]] of a [[principal 2-bundle]]. 
+
+We first describe this Lie groupoid in
+
+* [As a groupoid extension](#AsGroupoidExtension)
+
+and then describe how this is the total space of a principal 2-bundle in
+
+* [As the total space of a 2-bundle](#AsTotalSpace).
+
+### As a groupoid extension {#AsGroupoidExtension}
+
+Give a surjective submersion $\pi : Y \to X$, write 
+
 $$
-  G\mathrm{BiTor}
-$$
-of $G$-bitorsors,
-and by replacing equations between group elements by coherent (here: associative)
-isomorphisms of bitorsors. 
-
-
-##Interpretations##
-
-###in terms of categorified transition functions###
-
-In order to see this more explicitly, consider the special case where $Y = \mathbf{U}$
-is a good covering of $X$ by open contractible sets $\{U_i\}$
-$$
-  Y := \sqcup_i U_i
-  \,,
+  C(Y) := \left(
+    Y \times_X Y \stackrel{\to}{\to} Y
+  \right)
 $$ 
-with
+
+for the corresponding [[Cech groupoid]]. Notice that this is a [[resolution]] of the [[smooth manifold]] $X$ itself, in that the canonical projection is a weak equivalence (see [[infinity-Lie groupoid]] for details)
+
 $$
-\array{
-  Y 
-  \\
-  \downarrow
-  \\
-  X
-}
-$$
-being the obvious map which embeds a point in $U_i \subset X$ into $X$. Then
-$Y^{[2]}$ is the disjoint union of double intersections of these open sets
-$$
-  Y^{[2]} = \sqcup_{i,j} U_i \cap U_j
+  \array{
+     C(Y)
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
   \,.
 $$
 
-The transition function of a local trivialization with respect to $Y$ of a complex 
-line bundle on $X$ is nothing but a complex function 
+The data of a bundle gerbe $(Y,L,\mu)$ induces a [[Lie groupoid]] $P_{(Y,L,\mu)}$ which is a $\mathbf{B}U(1)$-extension of $C(Y)$, exhibiting a [[fiber sequence]]
+
 $$
-  g : Y^{[2]} \to \mathbb{C}
+  \mathbf{B}U(1) \to P_{(Y,L,\mu)} \to X
   \,.
 $$
-satisfying
-$$
-  g_{ij} g_{jk} = g_{ik}
-$$
-on each triple intersection $U_i \cap U_j \cap U_k$,
-where $g_{ij}$ denotes the restriction of $g$ to to $U_i \cap U_j \subset Y^{[2]}$.
 
-This is equivalent to saying that
+
+This Lie groupoid is the groupoid whose space of morphisms is the total space $L$ of the $U(1)$-bundle
+
 $$
-  p_{12}^* g \, p_{23}^* g = p_{13}^* g
+  P_{(Y,L,\mu)} = 
+  \left(
+    L \stackrel{\overset{\pi_1 \circ p}{\to}}{\underset{\pi_2 \circ p}{\to}} Y
+  \right)
+$$
+
+with composition given by the composite
+
+$$
+  L \times_{s,t} L
+  \stackrel{\simeq}{\to}
+  \pi_{12}^* L \times \pi_{23}^3* L
+  \stackrel{}{\to}
+  \pi_{12}^* L \otimes \pi_{23}^3* L
+  \stackrel{\mu}{\to}
+  \pi_{13}^* L
+  \to
+  L
   \,.
 $$
-Replacing this equation of (functions with values in) complex numbers by a coherent isomorphism of complex 1-dimensional vector spaces leads to the definition of a line bundle gerbe.
 
-###in terms of groupoid extensions###
 
-To any morphism
+### As the total space of a principal 2-bundle {#AsTotalSpace}
+
+**Proposition.** The Lie groupoid $P_{(Y,L,\mu)}$ defined by a bundle gerbe is in [[?LieGrpd]] the [[(∞,1)-pullback]]
+
 $$
-  Y \to X
-$$
-in a category with pullbacks, we may associate the groupoid
-$$
-  Y^\bullet := Y^{[2]} \stackrel{\to}{\to} Y
-$$
-whose object of objects is $Y$, whose object of morphisms is $Y^{[2]}$ and whose
-composition law is given by the unique vertical morphsim in
-$$
-\array{
-   &     &      & Y^{[3]}
-  \\
-  &  & \swarrow &&\searrow
-  \\
-  & Y^{[2]} & &&&  Y^{[2]}
-  \\
-  &\swarrow&  &&& \searrow
-  \\
-  Y &&& \downarrow &&& Y
-  \\
-  & \nwarrow &&&& \nearrow
-  \\
-  &&& Y^{[2]}
-}
- \,.
+  \array{
+     P_{(Y,L,\mu)} &\to& *
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow
+     \\
+     X &\stackrel{g}{\to}& \mathbf{B}^2 U(1)
+  }
 $$
 
-For instance, for $\pi : Y \to X$ a surjective submersion, the objects of $Y^\bullet$ are the points
-of $Y$, and there is a unique morphism $y_1 \to y_2$ whenever $\pi(y_1) = \pi(y_2)$.
+of a [[cocycle]] $[g] \in H(X,\mathbf{B}^2 U(1)) \simeq H^3(X,\mathbb{Z})$. 
 
-The above definition of a bundle gerbe can be understood as an _enrichment_
-of this groupoid in the sense of [[enriched category|enriched categories]]. For line bundle gerbes the enrichment
-is over $1D\mathrm{Vect}$, for principal bundle gerbes the enrichment is over 
-$G\mathrm{BiTor}$.
+**Proof**
 
-For line bundle gerbes this is often expressed as saying that a line bundle gerbe is
-a $U(1)$-central extension of $Y^\bullet$.
+We can assume without restriction that the bundle $L$ in the data of the bundle gerbe is actually the trivial $U(1)$-bundle $L = Y \times_X Y \times U(1)$ by refining, if necessary, the surjective submersion $Y$ by a [[good open cover]]. In that case we may identify $\mu$ with a $U(1)$-valued function
+
+$$
+  \mu : Y \times_X Y \times_X Y  \to (1)
+$$
+
+which in turn we may identify with a smooth 2-[[anafunctor]]
+
+$$
+  \array{
+    C(U) &\stackrel{\mu}{\to}& \mathbf{B}^2 U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+  \,.
+$$
+
+Then recall from [[universal principal infinity-bundle]] that we model the $(\infty,1)$-pullbacks that defines principal $\infty$-bundles in terms of ordinary pullbacks of the universal $\mathbf{B}U(1)$-principal 2-bundle $\mathbf{E}\mathbf{B}U(1) \to \mathbf{B}^2 U(1)$.
+
+We find that $\mathbf{E}\mathbf{B}U(1)$ is the Lie 2-groupoid with a single objects, $U(1)$ worth of 1-morphisms and unique 2-morphism between these. It follows that we have a square
+
+$$
+  \array{
+    P_{(Y,L,\mu)} &\to& \mathbf{E} \mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    C(U) &\stackrel{\mu}{\to}& \mathbf{B}^2 U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+which is a [[pullback]] square (in the category of [[simplicial presheaves]] over [[CartSp]]).
 
 
 
-##Connections##
+## Connections
 
 As bundle gerbes are a [[vertical categorification|categorification]] of transitions in fiber bundles,
 bundle gerbes with connection are a categorification of transitions in
@@ -331,9 +318,9 @@ $\Sigma(G\mathrm{BiTor})$. This is discussed in
 [math.DG/0511710](http://arxiv.org/abs/math.DG/0511710).
 
 For the more general case a choice for these conditions that harmonizes with the
-conditions found for (proper) gerbes with connection by Breen & Messing in
+conditions found for (proper) gerbes with connection by Breen &amp; Messing in
 [math.AG/0106083](http://arxiv.org/abs/math.AG/0106083) has
-been given by Aschieri, Cantini & Jur&#269;o in  
+been given by Aschieri, Cantini &amp; Jur&ccaron;o in  
 [hep-th/0312154](http://arxiv.org/abs/hep-th/0312154).
 
 ###Surface transport###
@@ -361,7 +348,7 @@ respectively, and which assigns the exponentiated integrals of the 2-form over f
 
 For the abelian case (line bundle gerbes) this procedure has been first described in
 
-* K. Gawedzki & N. Reis, _WZW branes and Gerbes_
+* K. Gawedzki &amp; N. Reis, _WZW branes and Gerbes_
 ([arXiv](http://arxiv.org/abs/hep-th/0205233))
 
 based on
@@ -371,7 +358,7 @@ Commun. Math. Phys. 100 (1985), 279-309.
 
 Further discussion can be found in 
 
-* A. Carey, S. Johnson & M. Murray, _Holonomy on D-branes_, ([arXiv](http://arxiv.org/abs/hep-th/0204199))
+* A. Carey, S. Johnson &amp; M. Murray, _Holonomy on D-branes_, ([arXiv](http://arxiv.org/abs/hep-th/0204199))
 
 Gawedzki and Reis showed this way that the Wess-Zumino term in the WZW-model is nothing but the surface holonomy of a (line bundle) gerbe.
 
@@ -396,7 +383,7 @@ and similarly in
 
 The generalization to unoriented surfaces (hence to type I strings) was given in
 
-* K. Waldorf, C. Schweigert & U. S., _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
+* K. Waldorf, C. Schweigert &amp; U. S., _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
 
 ## Related entries
 
@@ -404,10 +391,9 @@ The generalization to unoriented surfaces (hence to type I strings) was given in
 
 ##References##
 
-The above was taken from two blog posts:
+The notion of _bundle gerbe_ as such was introduced in
 
-* Urs Schreiber, [Bundle Gerbes: General Idea and Definition](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes.html)
+* [[Michael Murray]], _Bundle gerbes_ ([arXiv:dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015))
 
-* Urs Schreiber, [Bundle Gerbes: Connections and Surface Transport](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes_connections_and.html)
 
 [[!redirects bundle gerbes]]
