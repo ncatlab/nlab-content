@@ -8,6 +8,8 @@ An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [
 
 Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]], finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
+Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \leq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. 
+
 Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Taubes 1987, Donaldson 1990, Freedman-Kirby 1986), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$. There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets.
 
 Moise (year?) proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are [[homeomorphism|homeomorphic]] are [[diffeomorphism|diffeomorphic]]. In this way the 3-sphere $S^3$ inherits a unique differentiable structure, no matter which $\mathbb{R}^4$ it is considered to be embedded in.
@@ -88,11 +90,19 @@ The first real connection between exotic smoothness and [[quantum field theory]]
 
 and the whole work of Seiberg and Witten leading to the celebrated invariants.
 
+The relation to particle physics by using the algebra of smooth functions can be found in
+
+* [[Jan Sładkowski]] _Exotic smoothness, noncommutative geometry and particle physics_ Int. J. Theor. Phys., 35, (1996), 2075&#8211;2083
+
+* [[Jan Sładkowski]] _Exotic smoothness and particle physics_ Acta Phys. Polon., B 27, (1996), 1649&#8211;1652
+
+* [[Jan Sładkowski]] _Exotic smoothness, fundamental interactions and noncommutative geometry_ [arXiv] (http://arxiv.org/abs/hep-th/9610093)
+
 The relation between TQFT and differential-topological invariants of smooth manifolds was clearified in:
 
-[[Hendryk Pfeiffer]] _Quantum general relativity and the classification of smooth manifolds_ [arXiv](http://arxiv.org/abs/gr-qc/0404088)
+* [[Hendryk Pfeiffer]] _Quantum general relativity and the classification of smooth manifolds_ [arXiv](http://arxiv.org/abs/gr-qc/0404088)
 
-[[Hendryk Pfeiffer]] _Diffeomorphisms from finite triangulations and absence of 'local' degrees of freedom_ Phys.Lett. B, 591, (2004), 197-201 
+* [[Hendryk Pfeiffer]] _Diffeomorphisms from finite triangulations and absence of 'local' degrees of freedom_ Phys.Lett. B, 591, (2004), 197-201 
 
 The first conjectured (direct) relation (identifying submanifolds with operators) to [[quantum mechanics]] (using singular connections) was established here:
 
