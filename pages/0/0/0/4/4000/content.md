@@ -656,3 +656,4 @@ Here are some slides from talks:
 
 * [[Krzysztof Gawedzki]], _Wess-Zumino-Witten and Chern-Simons theories for non-simply connected Lie groups_ ([pdf](http://dftuz.unizar.es/ftzar/activities/highenergy09_talks/gawedzki.pdf))
 
+[[!redirects Chern-Simons bundle 2-gerbe]]
