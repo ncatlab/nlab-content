@@ -48,7 +48,7 @@ See also
 * [[groupal model for universal principal ∞-bundles]].
 
 
-## Definition in a general $(\infty,1)$-topos 
+## Definition
 
 We define $G$-principal $\infty$-bundles in the general context of an [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$, with $G$ a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]].
 
@@ -93,6 +93,7 @@ $$
 $$
 
 of ${*} \to \mathbf{B}G$.
+
 
 ### $G$-principal $\infty$-bundles {#GeneralPrincBund}
 
