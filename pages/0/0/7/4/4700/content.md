@@ -1,3 +1,9 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 This entry will be (for now) both about graph homology and about graph cohomology, which were originally introduced by Maxim Kontsevich; 
 once the material grows, it can be separated into two entries.
 It is about the same as the __Feynman transform__ in the theory of operads, as christenized by [[Getzler]] and [[Kapranov]] and figuring out in the operad textbook of Markl and Stasheff.
