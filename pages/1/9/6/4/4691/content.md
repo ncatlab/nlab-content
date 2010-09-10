@@ -112,7 +112,13 @@ As hinted above, any probability distribution on a [[phase space]] in [[classica
 
 Instead, physicists use *coarse-grained* entropy, which corresponds mathematically to taking the entropy of a $\sigma$-algebra much smaller than the $\sigma$-algebra of all measurable sets.  Given a classical system with $N$ microscopic degrees of freedom, we identify $n$ macroscopic degrees of freedom that we can reasonably expect to measure, giving a map from $\mathbb{R}^N$ to $\mathbb{R}^n$ (or more generally, a map from an $N$-dimensional microscopic phase space to an $n$-dimensional macroscopic phase space). Then the $\sigma$-algebra of all measurable sets in $\mathbb{R}^n$ [[pullback|pulls back]] to a $\sigma$-algebra on $\mathbb{R}^N$, and the __macroscopic entropy__ of a statistical state is the entropy of this $\sigma$-algebra.  (Typically, $N$ is on the order of [[Avogadro constant|Avogadro's number]], while $n$ is rarely more than half a dozen, and often as small as $2$.)
 
-Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$.  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
+Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$.  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  
+
++--{: .query}
+[[David Roberts]]: there would of course be physical constraints - speeds are bounded by $c$, for instance, and discretisation of energy - so in reality, the fibre probably turns out to be finite after a detailed analysis. Even allowing an 'almost uniform' probability distribution (one which is decaying fast enough, but slowly as possible) is not physically unreasonable and seems to get around the problem. But this is just heuristics, I haven't checked anything.
+=--
+
+This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
 
 
 [[!redirects entropy]]
