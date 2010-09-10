@@ -117,7 +117,7 @@ a: "x",
 
 ## !Label examples with sometimes !Atom wrappers ##
 
-### 2 column ###
+### !Label 2 column ###
 
 <pre>{"a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
 
@@ -129,37 +129,35 @@ a: "x",
 <!-- 2c --><tr><td>!Atom</td><td>z</td></tr><tr><td>!Label</td><td>qq</td></tr></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
-### 2 column !NoBang ###
+### !Label 2 column !NoBang ###
 <pre>{"!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
 
 <table class='DBE' markdown='1'
  id='{"!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
 <!-- 2c --><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
 <!-- 2c --><tr><td>c</td><td><table markdown="1">
-<!-- 2c --><tr><td>d</td><td>y</td></tr><tr><td>e</td><td><table markdown="1">
-<!-- 2c --></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
+<!-- 2c --><tr><td>d</td><td>y</td></tr><tr><td>e</td><td>z</td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
-### 1 column ###
+### !Label 1 column ###
 <pre>{"!Columns":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
 
 <table class='DBE' markdown='1'
- id='{"!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
-<!-- 2c --><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
-<!-- 2c --><tr><td>c</td><td><table markdown="1">
-<!-- 2c --><tr><td>d</td><td>y</td></tr><tr><td>e</td><td><table markdown="1">
-<!-- 2c --></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
+ id='{"!Columns":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
+<!-- 1c --><tr><td><table><tr><th>!Columns</th></tr><tr><td>1</td></tr></table></td></tr><tr><td><table><tr><th>a</th></tr><tr><td>x</td></tr></table></td></tr><tr><td><table><tr><th>b</th></tr><tr><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>!Label</th></tr><tr><td>pp</td></tr></table></td></tr><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>!Atom</th></tr><tr><td>z</td></tr></table></td></tr><tr><td><table><tr><th>!Label</th></tr><tr><td>qq</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
-### 1 column !NoBang ###
+### !Label 1 column !NoBang ###
 <pre>{"!Columns":"1","!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
 
 <table class='DBE' markdown='1'
  id='{"!Columns":"1","!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
 <!-- 1c --><tr><td><table><tr><th>a</th></tr><tr><td>x</td></tr></table></td></tr><tr><td><table><tr><th>b</th></tr><tr><td><table markdown="1">
 <!-- 1c --><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td><table markdown="1">
-<!-- 1c --></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>z</td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 
