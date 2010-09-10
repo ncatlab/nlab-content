@@ -6,6 +6,8 @@
 
 An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [[topological manifold]] $X$ which makes the resulting [[smooth manifold]] be [[diffeomorphism|non-diffeomorphic]] to the smooth manifold given by some evident 'standard' smooth structure on $X$. 
 
+## Properties
+
 Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]], finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
 Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \geq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. Then Kervaire and Milnor (1963) proved that there are only finitely many exotic smooth structures on all spheres in dimension 5 or higher. A complete classification of smooth, PL and topological structures on manifolds in dimension 5 and higher was established by Kirby and Siebenman (1977) using obstruction theory.
@@ -20,6 +22,7 @@ Rado (1925) proved that in dimension 2 there are no exotic differentiable struct
 
 ## References
 
+### For the mathematical theory
 
 * Milnor, John W. (1956), "On manifolds homeomorphic to the 7-sphere", Annals of Mathematics (Annals of Mathematics) 64 (2): 399&#8211;405
 
@@ -56,12 +59,13 @@ Rado (1925) proved that in dimension 2 there are no exotic differentiable struct
 (see Wikipedia ([spheres](http://en.wikipedia.org/wiki/Exotic_sphere#References), [$R^4$](http://en.wikipedia.org/wiki/Exotic_R4#References)) for more for now)
 
 
-### In applications to physics
+### For applications to physics
 
-A survey of the application to [[physics]] is in 
+A survey of applications of the theory of exotic smooth structures in [[physics]] is in 
 
 * [[Torsten Asselmeyer-Maluga]], [[Carl Brans]], _Exotic smoothness and physics. Differential topology and spacetime models_ Singapore: World Scientific (2007) ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1177.83001&format=complete))
 
+below we list more references sorted by the kind of physical application they deal with.
 
 #### General relativity
 
