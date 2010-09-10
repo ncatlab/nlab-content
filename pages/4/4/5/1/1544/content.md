@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### $\infty$-Chern-Weil theory
 +--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include infinity-Chern-Weil theory - contents]]
 =--
 #### Differential cohomology
 +--{: .hide}
@@ -13,6 +13,15 @@
 =--
 =--
 
+* **connection on a bundle**
+
+* [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
+
+* [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
+
+* [[connection on an ∞-bundle]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -331,8 +340,15 @@ Generalizing the parallel transport definition from ordinary manifolds to [[supe
 
 When the notion of connection on a principal bundle is slightly coarsened, i.e. when more connections are regarded as being ismorphic than usual, one arrives at a structure called a [[Simons-Sullivan structured bundle]]. This has the special property that for $G = U$  the [[unitary group]], the corresponding [[Grothendieck group]] of such bundles is a model for [[differential K-theory]].
 
+### Connections on a principal $\infty$-bundle
+
+
+See [[connection on a principal ∞-bundle]].
+
+
 
 ## References
+
 
 References for the description of connections in terms of their parallel transport are collected at 
 
@@ -342,9 +358,6 @@ Basic facts about connections, such as the existence proof in terms of Cech cocy
 
 * [[Theodore Voronov]], _Differential Geometry, &#167;3 Connection on a vector bundle_ ([pdf](http://www.maths.manchester.ac.uk/~tv/Teaching/Differential%20Geometry/2008-2009/lecture3.pdf))
 
-Further discussion of the functorial point of view on connections is at
-
-* [[∞-Chern-Weil theory -- preparatory comments]]
 
 [[!redirects connections on a bundle]]
 [[!redirects connections on bundles]]
