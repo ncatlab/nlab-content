@@ -475,8 +475,8 @@ For some comments on the generalization of the notion of [[connection on a bundl
 
 ## Concrete realizations 
 
-We discuss realizations of the general idea in various
-[[(∞,1)-toposes]].
+We discuss realizations of the general definition in various
+[[(∞,1)-toposes]] $\mathbf{H}$.
 
 ### In topological spaces 
 
