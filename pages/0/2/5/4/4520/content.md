@@ -19,6 +19,10 @@
 
 * **3-groupoid of Lie 3-algebra valued forms**
 
+* [[∞-groupoid of ∞-Lie-algebra valued forms]]
+
+
+***
 
 #Contents#
 * automatic table of contents goes here
