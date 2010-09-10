@@ -188,9 +188,15 @@ os.a[0]
 <!-- 2c --><tr><td>a</td><td></td><td>[["b", "c"], ["d", "e"]]</td></tr></table>
 <span class='DBE'/>
 
+### hand fed example to show the GM script is working ###
 
+<pre>
+x = {a: [['b', 'c'], ['d', 'e']]};
 
+genEntry(x) =>
+</pre>
 
+<table markdown="1"> <!-- 2c --><tr><td>a</td><td></td><td><table markdown="1"> <!-- 2c --><tr><td>0</td><td></td><td><table markdown="1"> <!-- 2c --><tr><td>0</td><td></td><td>b</td></tr><tr><td>1</td><td></td><td>c</td></tr></table></td></tr><tr><td>1</td><td></td><td><table markdown="1"> <!-- 2c --><tr><td>0</td><td></td><td>d</td></tr><tr><td>1</td><td></td><td>e</td></tr></table></td></tr></table></td></tr></table>
 
 The END.
 
