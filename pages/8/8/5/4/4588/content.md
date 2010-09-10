@@ -1,5 +1,13 @@
 
-0) Display of <code>&lt;pre></code> is rather ugly with all the extra white space. It really needs some CSS styling.
+# TITLE #
+* the following line creates the automatic table of contents
+{:toc}
+
+## Ugly display of "pre" blocks ##
+
+(I had to take wraping pre in <code>&lt;code;></code> to get title acceptible)
+
+Display of <code>&lt;pre></code> is rather ugly with all the extra white space. It really needs some CSS styling.
 
 <pre>o = {a: 1,
      b: 2
@@ -13,13 +21,17 @@ o = {a: 1,
     }
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-1) Example showing correct ampersand escaping in ID attribute, td as textnode, td containg XML. Note that spaces are INCORRECTLY stripped from around QUOT APOS and the <code>code</code> item.
+## Working Ampersand Escaping ##
+
+Example showing correct ampersand escaping in ID attribute, td as textnode, td containg XML. Note that spaces are INCORRECTLY stripped from around QUOT APOS and the <code>code</code> item.
 
 <table class='DBE' markdown='1'
  id='{"id":"NEW","type":"category","page":"[[Rod McGuire]]","!AsXML":{"junkX":"1"},"junk":"a &apos; b \" c &lt; d > e &amp; f","junkX":"a &apos; b \" c &lt;code>XxX&lt;/code> d &amp; e"}'><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr><tr><td>!AsXML</td><td><table markdown="1"><tr><td>junkX</td><td>1</td></tr></table></td></tr><tr><td>junk</td><td>a ' b " c &lt; d > e &amp; f</td></tr><tr><td>junkX</td><td>a ' b " c <code>XxX</code> d &amp; e</td></tr></table>
 <span class='DBE'/>
 
-2) Giving table captions example. A caption property can be plain text (!Caption) where the characters "<" and ">" can appear but wind up being escaped, or XML (!XMLCaption) where those brackets if they appear are assumed to delimit XHTML entities such as <code>&lt;code></code>. 
+## Captions in Tables ##
+
+Giving table captions example. A caption property can be plain text (!Caption) where the characters "<" and ">" can appear but wind up being escaped, or XML (!XMLCaption) where those brackets if they appear are assumed to delimit XHTML entities such as <code>&lt;code></code>. 
 
 <pre>{"!Caption": "top caption",
  id: "test1",
@@ -37,9 +49,10 @@ o = {a: 1,
  id='{"!Caption":"top caption","id":"test1","a":"x","b":{"c":{"d":"y","e":"z","!XMLCaption":"internal &lt;code>XML&lt;/code> caption"},"f":"w"}}'><caption>top caption</caption><tr><td>!Caption</td><td>top caption</td></tr><tr><td>id</td><td>test1</td></tr><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1"><tr><td>c</td><td><table markdown="1"><caption>internal <code>XML</code> caption</caption><tr><td>d</td><td>y</td></tr><tr><td>e</td><td>z</td></tr><tr><td>!XMLCaption</td><td>internal &lt;code>XML&lt;/code> caption</td></tr></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table>
 <span class='DBE'/>
 
+## 2 column vs. 1 column ##
 3) 2 column vs 1 column-with-header display examples.
 
-3a) 2 column
+### 2 column ###
 
 <pre>{a: "x",
  b: {c:         {d: "y", e: "z"},
@@ -52,7 +65,8 @@ o = {a: 1,
  id='{"a":"x","b":{"c":{"d":"y","e":"z"},"f":"w"}}'><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1"><tr><td>c</td><td><table markdown="1"><tr><td>d</td><td>y</td></tr><tr><td>e</td><td>z</td></tr></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table>
 <span class='DBE'/>
 
-3b) example with some internal objects displayed in 1 column-with-header (full display)
+### Some internal 1 columns ###
+Example with some internal objects displayed in 1 column-with-header (full display)
 
 <pre>{a: "x",
  b: {"!Columns": 1, 
@@ -68,6 +82,7 @@ o = {a: 1,
  id='{"a":"x","b":{"!Columns":1,"c":{"!Columns":1,"d":"y","e":"z"},"f":"w"}}'><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1"><tr><td><table><tr><th>!Columns</th></tr><tr><td>1</td></tr></table></td></tr><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1"><tr><td><table><tr><th>!Columns</th></tr><tr><td>1</td></tr></table></td></tr><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>z</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
+### 1 column with !NoBang ###
 3c) 1 column-with-header with top level <code>!NoBang: 1</code> that suppresses property names that start with bang (!).
 
 <pre>{"!NoBang": 1,
@@ -85,6 +100,37 @@ a: "x",
  id='{"!NoBang":1,"a":"x","b":{"!Columns":1,"c":{"!Columns":1,"d":"y","e":"z"},"f":"w"}}'><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1"><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1"><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>z</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
+
+## !Label examples with sometimes !Atom wrappers ##
+
+### 2 column ###
+
+<pre>{"a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
+
+<table class='DBE' markdown='1'
+ id='{"a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1"><tr><td>!Label</td><td>pp</td></tr><tr><td>c</td><td><table markdown="1"><tr><td>d</td><td>y</td></tr><tr><td>e</td><td><table markdown="1"><tr><td>!Atom</td><td>z</td></tr><tr><td>!Label</td><td>qq</td></tr></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
+<span class='DBE'/>
+
+### 2 column !NoBang ###
+<pre>{"!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
+
+<table class='DBE' markdown='1'
+ id='{"!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1"><tr><td>c</td><td><table markdown="1"><tr><td>d</td><td>y</td></tr><tr><td>e</td><td><table markdown="1"></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
+<span class='DBE'/>
+
+### 1 column ###
+<pre>{"!Columns":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
+
+<table class='DBE' markdown='1'
+ id='{"!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1"><tr><td>c</td><td><table markdown="1"><tr><td>d</td><td>y</td></tr><tr><td>e</td><td><table markdown="1"></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
+<span class='DBE'/>
+
+### 1 column !NoBang ###
+<pre>{"!Columns":"1","!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}</pre>
+
+<table class='DBE' markdown='1'
+ id='{"!Columns":"1","!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'><tr><td><table><tr><th>a</th></tr><tr><td>x</td></tr></table></td></tr><tr><td><table><tr><th>b</th></tr><tr><td><table markdown="1"><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1"><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td><table markdown="1"></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+<span class='DBE'/>
 
 
 The END.
