@@ -23,6 +23,13 @@
 
 ***
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[connection on a 2-bundle]] that is presented in the form of a [[gerbe]].
 
 ## References
 
