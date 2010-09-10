@@ -17,6 +17,8 @@
 
 ## Idea
 
+A _circle $n$-bundle with connection_ is a [[connection on an ∞-bundle]] on a $\mathbf{B}^{n-1}U(1)$-[[principal ∞-bundle]], for $\mathbf{B}^{n-1}U(1)$ the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie n-group</a>.
+
 [[ordinary differential cohomology|Ordinary differential cohomology]] is well known to be modeled by
 
 1. [[Cheeger-Simons differential character]]s;
