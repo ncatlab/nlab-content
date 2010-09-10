@@ -27,8 +27,8 @@ Example showing correct ampersand escaping in ID attribute, td as textnode, td c
 
 <table class='DBE' markdown='1'
  id='{"id":"NEW","type":"category","page":"[[Rod McGuire]]","!AsXML":{"junkX":"1"},"junk":"a &apos; b \" c &lt; d > e &amp; f","junkX":"a &apos; b \" c &lt;code>XxX&lt;/code> d &amp; e"}'>
-<!-- 2c --><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr><tr><td>!AsXML</td><td><table markdown="1">
-<!-- 2c --><tr><td>junkX</td><td>1</td></tr></table></td></tr><tr><td>junk</td><td>a ' b " c &lt; d > e &amp; f</td></tr><tr><td>junkX</td><td>a ' b " c <code>XxX</code> d &amp; e</td></tr></table>
+<!-- 2c --><tr><td>id</td><td></td><td>NEW</td></tr><tr><td>type</td><td></td><td>category</td></tr><tr><td>page</td><td></td><td>[[Rod McGuire]]</td></tr><tr><td>!AsXML</td><td></td><td><table markdown="1">
+<!-- 2c --><tr><td>junkX</td><td></td><td>1</td></tr></table></td></tr><tr><td>junk</td><td></td><td>a ' b " c &lt; d > e &amp; f</td></tr><tr><td>junkX</td><td></td><td>a ' b " c <code>XxX</code> d &amp; e</td></tr></table>
 <span class='DBE'/>
 
 ## Captions in Tables ##
@@ -49,9 +49,9 @@ Giving table captions example. A caption property can be plain text (!Caption) w
 
 <table class='DBE' markdown='1'
  id='{"!Caption":"top caption","id":"test1","a":"x","b":{"c":{"d":"y","e":"z","!XMLCaption":"internal &lt;code>XML&lt;/code> caption"},"f":"w"}}'><caption>top caption</caption>
-<!-- 2c --><tr><td>!Caption</td><td>top caption</td></tr><tr><td>id</td><td>test1</td></tr><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
-<!-- 2c --><tr><td>c</td><td><table markdown="1"><caption>internal <code>XML</code> caption</caption>
-<!-- 2c --><tr><td>d</td><td>y</td></tr><tr><td>e</td><td>z</td></tr><tr><td>!XMLCaption</td><td>internal &lt;code>XML&lt;/code> caption</td></tr></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table>
+<!-- 2c --><tr><td>!Caption</td><td></td><td>top caption</td></tr><tr><td>id</td><td></td><td>test1</td></tr><tr><td>a</td><td></td><td>x</td></tr><tr><td>b</td><td></td><td><table markdown="1">
+<!-- 2c --><tr><td>c</td><td></td><td><table markdown="1"><caption>internal <code>XML</code> caption</caption>
+<!-- 2c --><tr><td>d</td><td></td><td>y</td></tr><tr><td>e</td><td></td><td>z</td></tr><tr><td>!XMLCaption</td><td></td><td>internal &lt;code>XML&lt;/code> caption</td></tr></table></td></tr><tr><td>f</td><td></td><td>w</td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 ## 2 column vs. 1 column ##
@@ -68,9 +68,9 @@ Giving table captions example. A caption property can be plain text (!Caption) w
 
 <table class='DBE' markdown='1'
  id='{"a":"x","b":{"c":{"d":"y","e":"z"},"f":"w"}}'>
-<!-- 2c --><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
-<!-- 2c --><tr><td>c</td><td><table markdown="1">
-<!-- 2c --><tr><td>d</td><td>y</td></tr><tr><td>e</td><td>z</td></tr></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table>
+<!-- 2c --><tr><td>a</td><td></td><td>x</td></tr><tr><td>b</td><td></td><td><table markdown="1">
+<!-- 2c --><tr><td>c</td><td></td><td><table markdown="1">
+<!-- 2c --><tr><td>d</td><td></td><td>y</td></tr><tr><td>e</td><td></td><td>z</td></tr></table></td></tr><tr><td>f</td><td></td><td>w</td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 ### Some internal 1 columns ###
@@ -88,9 +88,9 @@ Example with some internal objects displayed in 1 column-with-header (full displ
 
 <table class='DBE' markdown='1'
  id='{"a":"x","b":{"!Columns":1,"c":{"!Columns":1,"d":"y","e":"z"},"f":"w"}}'>
-<!-- 2c --><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>!Columns</th></tr><tr><td>1</td></tr></table></td></tr><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>!Columns</th></tr><tr><td>1</td></tr></table></td></tr><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>z</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table>
+<!-- 2c --><tr><td>a</td><td></td><td>x</td></tr><tr><td>b</td><td></td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>!Columns</th></tr><tr><td></td><td>1</td></tr></table></td></tr><tr><td><table><tr><th>c</th></tr><tr><td></td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>!Columns</th></tr><tr><td></td><td>1</td></tr></table></td></tr><tr><td><table><tr><th>d</th></tr><tr><td></td><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td></td><td>z</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td></td><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 ### 1 column with !NoBang ###
@@ -109,9 +109,9 @@ a: "x",
 
 <table class='DBE' markdown='1'
  id='{"!NoBang":1,"a":"x","b":{"!Columns":1,"c":{"!Columns":1,"d":"y","e":"z"},"f":"w"}}'>
-<!-- 2c --><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>z</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table>
+<!-- 2c --><tr><td>a</td><td></td><td>x</td></tr><tr><td>b</td><td></td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>c</th></tr><tr><td></td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td></td><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td></td><td>z</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td></td><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 
@@ -123,10 +123,10 @@ a: "x",
 
 <table class='DBE' markdown='1'
  id='{"a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
-<!-- 2c --><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
-<!-- 2c --><tr><td>!Label</td><td>pp</td></tr><tr><td>c</td><td><table markdown="1">
-<!-- 2c --><tr><td>d</td><td>y</td></tr><tr><td>e</td><td><table markdown="1">
-<!-- 2c --><tr><td>!Atom</td><td>z</td></tr><tr><td>!Label</td><td>qq</td></tr></table></td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
+<!-- 2c --><tr><td>a</td><td></td><td>x</td></tr><tr><td>b</td><td>pp</td><td><table markdown="1">
+<!-- 2c --><tr><td>!Label</td><td></td><td>pp</td></tr><tr><td>c</td><td></td><td><table markdown="1">
+<!-- 2c --><tr><td>d</td><td></td><td>y</td></tr><tr><td>e</td><td>qq</td><td><table markdown="1">
+<!-- 2c --><tr><td>!Atom</td><td></td><td>z</td></tr><tr><td>!Label</td><td></td><td>qq</td></tr></table></td></tr><tr><td>f</td><td></td><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 ### !Label 2 column !NoBang ###
@@ -134,9 +134,9 @@ a: "x",
 
 <table class='DBE' markdown='1'
  id='{"!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
-<!-- 2c --><tr><td>a</td><td>x</td></tr><tr><td>b</td><td><table markdown="1">
-<!-- 2c --><tr><td>c</td><td><table markdown="1">
-<!-- 2c --><tr><td>d</td><td>y</td></tr><tr><td>e</td><td>z</td></tr><tr><td>f</td><td>w</td></tr></table></td></tr></table></td></tr></table>
+<!-- 2c --><tr><td>a</td><td></td><td>x</td></tr><tr><td>b</td><td>pp</td><td><table markdown="1">
+<!-- 2c --><tr><td>c</td><td></td><td><table markdown="1">
+<!-- 2c --><tr><td>d</td><td></td><td>y</td></tr><tr><td>e</td><td>qq</td><td>z</td></tr><tr><td>f</td><td></td><td>w</td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 ### !Label 1 column ###
@@ -144,10 +144,10 @@ a: "x",
 
 <table class='DBE' markdown='1'
  id='{"!Columns":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
-<!-- 1c --><tr><td><table><tr><th>!Columns</th></tr><tr><td>1</td></tr></table></td></tr><tr><td><table><tr><th>a</th></tr><tr><td>x</td></tr></table></td></tr><tr><td><table><tr><th>b</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>!Label</th></tr><tr><td>pp</td></tr></table></td></tr><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>!Atom</th></tr><tr><td>z</td></tr></table></td></tr><tr><td><table><tr><th>!Label</th></tr><tr><td>qq</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+<!-- 1c --><tr><td><table><tr><th>!Columns</th></tr><tr><td></td><td>1</td></tr></table></td></tr><tr><td><table><tr><th>a</th></tr><tr><td></td><td>x</td></tr></table></td></tr><tr><td><table><tr><th>b</th></tr><tr><td>pp</td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>!Label</th></tr><tr><td></td><td>pp</td></tr></table></td></tr><tr><td><table><tr><th>c</th></tr><tr><td></td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td></td><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>qq</td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>!Atom</th></tr><tr><td></td><td>z</td></tr></table></td></tr><tr><td><table><tr><th>!Label</th></tr><tr><td></td><td>qq</td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td></td><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
 
 ### !Label 1 column !NoBang ###
@@ -155,10 +155,41 @@ a: "x",
 
 <table class='DBE' markdown='1'
  id='{"!Columns":"1","!NoBang":"1","a":"x","b":{"!Label":"pp","c":{"d":"y","e":{"!Atom":"z", "!Label":"qq"},"f":"w"}}}'>
-<!-- 1c --><tr><td><table><tr><th>a</th></tr><tr><td>x</td></tr></table></td></tr><tr><td><table><tr><th>b</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>c</th></tr><tr><td><table markdown="1">
-<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>z</td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+<!-- 1c --><tr><td><table><tr><th>a</th></tr><tr><td></td><td>x</td></tr></table></td></tr><tr><td><table><tr><th>b</th></tr><tr><td>pp</td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>c</th></tr><tr><td></td><td><table markdown="1">
+<!-- 1c --><tr><td><table><tr><th>d</th></tr><tr><td></td><td>y</td></tr></table></td></tr><tr><td><table><tr><th>e</th></tr><tr><td>qq</td><td>z</td></tr></table></td></tr><tr><td><table><tr><th>f</th></tr><tr><td></td><td>w</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
 <span class='DBE'/>
+
+## Array example ##
+
+It looks here that JSON.stringify and JSON.parse really don't know how to handle arrays.
+
+<pre>
+x = {a: [['b', 'c'], ['d', 'e']]};
+
+x.a[0];
+=> b,c
+
+s = JSON.stringify(x)
+=>  {"a":"[[\"b\", \"c\"], [\"d\", \"e\"]]"}
+
+os = JSON.parse(s)
+=> [object Object]
+
+uneval(os)
+=> ({a:"[[\"b\", \"c\"], [\"d\", \"e\"]]"})
+
+os.a[0]
+=> [
+</pre>
+
+<table class='DBE' markdown='1'
+ id='{"a":[[\"b\", \"c\"], [\"d\", \"e\"]]"}'>
+<!-- 2c --><tr><td>a</td><td></td><td>[["b", "c"], ["d", "e"]]</td></tr></table>
+<span class='DBE'/>
+
+
+
 
 
 The END.
