@@ -1515,7 +1515,7 @@ If instead of [[vertical categorification|vertically]] we move in [[horizontal c
 
 And going in both directions: the infinitesimal approximatin to a Lie 2-groupoid is a _Lie 2-algebroid_ . Famous examples of these are for instance [[nLab:Courant algebroid]]s.
 
-All these algebraic notions are special cases of the general notion of [[nLab:∞-Lie algebroid]]s, which are precisely the infinitesimal approximations to general [[nLab:∞-Lie groupoid]]s. The infinitesimal approximation of a general [[nLab:∞-Lie group]] is an [[nLab:∞-Lie algebra]], usually called an _$L_\infty$-algebra_ . The general study of these concepts and their interrelation is the topic of [[Lie theory in an (∞,1)-topos]]. Here we shall for the moment concentrate on describing $\infty$-Lie algebras.
+All these algebraic notions are special cases of the general notion of [[nLab:∞-Lie algebroid]]s, which are precisely the infinitesimal approximations to general [[nLab:∞-Lie groupoid]]s. The infinitesimal approximation of a general [[nLab:∞-Lie group]] is an [[nLab:∞-Lie algebra]], usually called an _$L_\infty$-algebra_ . The general study of these concepts and their interrelation is the topic of [[schreiber:Lie theory in an (∞,1)-topos]]. Here we shall for the moment concentrate on describing $\infty$-Lie algebras.
 
 One way to approach the definition of $\infty$-Lie algebras starts with the following standard observation:
 
@@ -1614,7 +1614,7 @@ $$
 
 For $\mathfrak{g}$ an ordinary [[nLab:Lie algebra]] this is traditionally taken as the very definition of [[nLab:Lie algebra cohomology]] (with values in the trivial module): the [[nLab:chain homology and cohomology|cochain cohomology]] of the Chevalley-Eilenberg complex. For our purposes it is useful to emphasize the equivalent description in terms of morphisms of $\infty$-Lie algebas:
 
-there is a precise sense in which an [[nLab:∞-Lie algebra]] is an [[nLab:infinitesimal space|infinitesimal]] [[nLab:∞-Lie group]]]. As we shall discuss below in [Cohomology](#Cohomology), the latter are naturally objects in an [[nLab:(∞,1)-topos]] of [[nLab:∞-Lie groupoid]]s and every $(\infty,1)$-topos comes with its [[nLab:cohomology|intrinsic cohomology]], where an [[nLab:cocycle|intrinsic cocycle]] on an object $X$ with coefficients in an object $A$ is nothing but a morphism $X \to A$. Our general definition of [[differential cohomology in an (∞,1)-topos]] is built on this fact.
+there is a precise sense in which an [[nLab:∞-Lie algebra]] is an [[nLab:infinitesimal space|infinitesimal]] [[nLab:∞-Lie group]]]. As we shall discuss below in [Cohomology](#Cohomology), the latter are naturally objects in an [[nLab:(∞,1)-topos]] of [[nLab:∞-Lie groupoid]]s and every $(\infty,1)$-topos comes with its [[nLab:cohomology|intrinsic cohomology]], where an [[nLab:cocycle|intrinsic cocycle]] on an object $X$ with coefficients in an object $A$ is nothing but a morphism $X \to A$. Our general definition of [[schreiber:differential cohomology in an (∞,1)-topos]] is built on this fact.
 
 In such generality we may in fact think of any morphism $\mathfrak{g} \to \mathfrak{h}$ of $\infty$-Lie algebras as a _cocycle_ on $\mathfrak{g}$ with values in $\mathfrak{h}$, even if $\mathfrak{h}$ is not an [[nLab:Eilenberg-MacLane object]]. Such a general notion of cohomology is known as [[nLab:nonabelian cohomology]]. And indeed, restricted to the case that $\mathfrak{g}$ is an ordinary Lie algebra, this reproduces the notion of [[nLab:nonabelian Lie algebra cohomology]].
 
@@ -2045,8 +2045,8 @@ $$
      \\
      \uparrow && \uparrow
      \\
-     \Omega^\bullet(U)\otimes C^\infty(\Delta^n)
-     &\stackrel{\langle F_A\rangle}{\to}&
+     (\Omega^\bullet(U)\otimes C^\infty(\Delta^n))_{closed}
+     &\stackrel{\langle F_A\rangle}{\leftarrow}&
      inv(\mathfrak{g})
      &&&
      curvature
@@ -2076,8 +2076,8 @@ $$
      \\
      \uparrow && \uparrow && \uparrow
      \\
-     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
-     &\stackrel{\langle F_A\rangle}{\to}&
+     (\Omega^\bullet(U)\otimes C^\infty(\Delta^n))_{closed}
+     &\stackrel{\langle F_A\rangle}{\leftarrow}&
      inv(\mathfrak{g})
      &\stackrel{\langle -\rangle}{\leftarrow}&
      inv(b^k \mathbb{R})
