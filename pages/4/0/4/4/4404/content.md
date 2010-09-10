@@ -8,7 +8,7 @@ An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [
 
 Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]], finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
-Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \geq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. Then Kervaire and Milnor (1963) proved that there are only finitely many exotic smooth structures on all spheres in dimension 5 or higher. A complete classification for manifolds in dimension 5 and higher was established by Kirby and Siebenman (1977) using obstruction theory.
+Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \geq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. Then Kervaire and Milnor (1963) proved that there are only finitely many exotic smooth structures on all spheres in dimension 5 or higher. A complete classification of smooth, PL and topological structures on manifolds in dimension 5 and higher was established by Kirby and Siebenman (1977) using obstruction theory.
 
 Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Gompf 1985, Freedman/Taylor 1986, Taubes 1987), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$ (Stallings, Zeeman 1962). There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets (Freedman/Taylor 1986, DeMichelis/Freedman 1992).
 
@@ -187,7 +187,7 @@ A semi-classical approach to the functional integral is discussed here:
 
 * [[Christofer Duston]] _Exotic smoothness in 4 dimensions and semiclassical Euclidean quantum gravity_ [arxiv](http://arxiv.org/abs/0911.4068)
 
-A complete expression for the state sum in [[quantum gravity]] for compact $4$-manifolds by inclusion of exotic smoothness using the knot surgery
+A complete expression for the state sum in [[quantum gravity]] for compact $4$-manifolds by inclusion of exotic smoothness using the knot surgery a la Fintushel and Stern
 
 * [[Torsten Asselmeyer-Maluga]], _Exotic smoothness and quantum gravity_ , Class. Quantum Grav. 27 (2010) 165002. ([web](http://stacks.iop.org/0264-9381/27/165002)) or ([arXiv](http://arxiv.org/abs/1003.5506))
 
