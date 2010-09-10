@@ -35,6 +35,8 @@ The _2-groupoid of Lie 2-algebra valued forms_ is the 2-[[truncated]] [[∞-Lie 
 
 This is the [[higher category theory|higher category]] generalization of the [[groupoid of Lie-algebra valued forms]].
 
+A [[cocycle]] with coefficients in this 2-groupoid is a [[connection on a 2-bundle]].
+
 ## Definition
 
 Consider a Lie [[strict 2-group]] $G$ corresponding to a Lie [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$ with action $\alpha : G_1 \to Aut(G_2)$.  Write $\mathbf{B}G$ for the corresponding [[delooping]] 2-groupoid, the one coming from the [[crossed complex]]
