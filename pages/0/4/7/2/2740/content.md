@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -23,11 +28,41 @@ at [[n-symplectic manifold]].
 Let $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ be a Poisson structure on
 $X$, regarded as a bivector.
 
-This is an element of degree 2 in the [[exterior algebra]]
- $\wedge^\bullet \Gamma(T X)$ of multivector fields on $X$. The Lie
+### As vector-bundle with anchor
+
+In terms of the vector-bundle-with anchor definition of [[Lie
+algebroid]] the **Poisson Lie algebroid** $\mathfrak{P}(X,\pi)$ corresponding to $\pi$ is the [[cotangent bundle]]
+
+$$
+  \array{
+      T^* X &&\stackrel{\pi(-)}{\to}&& T X
+      \\
+      & \searrow && \swarrow
+      \\
+      && X
+  }
+$$
+
+equipped with the anchor map that sends a 1-form $\alpha$ to the vector obtained by contraction with the bivector $\pi$: $\alpha \mapsto \pi(\alpha,-)$.
+
+The bracket $[-,-] : \Omega^1(X) \wedge \Omega^(X) \to \Omega^1(X)$ is given by
+
+$$
+ [\alpha,\beta] = \mathcal{L}_{\pi(\alpha)} \beta - \mathcal{L}_{\pi(\beta)} \alpha -d(\pi(\alpha,\beta))\,,
+$$
+
+where $\mathcal{L}$ denotes the [[Lie derivative]]. On a coordinate patch this reduces simply to $[d x^i , d x^j] = d_{dR} \pi^{i j}$.
+
+
+### Chevalley-Eilenberg algebra
+
+We describe the [[Chevalley-Eilenberg algebra]] of the Poisson Lie algebra given by $\pi$, which defines it dually.
+
+Notice that $\pi$ is an element of degree 2 in the [[exterior algebra]]
+ $\wedge^\bullet \Gamma(T X)$ of [[multivector field]]s on $X$. The Lie
  bracket on [[tangent bundle|tangent vector]]s in $\Gamma(T X)$
- extends to a bracket $[-,-]_{Sch$ on multivector field, the
- **Schouten bracket**. The defining property of the Poisson structure
+ extends to a bracket $[-,-]_{Sch}$ on multivector field, the
+ **[[Schouten bracket]]**. The defining property of the Poisson structure
  $\pi$ is that
 
 $$
@@ -38,28 +73,54 @@ $$
 This makes 
 
 $$
-  d_{CE(X,\pi)} := [\pi, -] : CE(X,\pi) \to CE(X,\pi)
+  d_{CE(\mathfrak{P}(X,\pi))} := [\pi, -] : CE(\mathfrak{P}(X,\pi)) \to CE(\mathfrak{P}(X,\pi)))
 $$ 
 
-into a differential of degree +1 that squares to 0. We write
-$CE(X,\pi)$ for the exterior algebra equipped with this
-differential. Then $CE(X,\pi)$ is the [[Chevalley-Eilenberg algebra]]
-of some [[Lie algebroid]]. This is the **Poisson Lie algebroid** of
-$(X,\pi)$.
+into a differential of degree +1 on multivector fields, that squares to 0. We write $CE(\mathfrak{P}(X,\pi))$ for the exterior algebra equipped with this
+differential. 
 
-In terms of the vector-bundle-with anchor definition of [[Lie
-algebroid]] this is
+
+## Properties
+
+### Cohomology {#Cohomology}
+
+We discuss aspects of the [[∞-Lie algebra cohomology|∞-Lie algebroid cohomology]] of $\mathfrak{P}(X,\pi)$.
+
+We shall be lazy (and follow tradition) and write the following formulas in a local coordinate patch $\{x^i\}$ for $X$.
+
+Then the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P}(X,\pi))$ is generated from the $x^i$ and the $\partial_i$, and the [[Weil algebra]] $W(\mathfrak{P}(X,\pi))$ is generated from $x^i$, $\partial_i$ and their shifted partners, which we shall write $\mathbf{d} x^i$ and $\mathbf{d}\partial_i$. The differential on the Weil algebra we may then write
 
 $$
-  \array{
-      T^* X &&\stackrel{\pi(-)}{\to}&& T X
-      \\
-      & \searrow && \swarrow
-      \\
-      && X
-  }
+  d_{W(\mathfrak{P}(X,\pi))} = [\pi,-]_{Sch} + \mathbf{d}
   \,.
 $$
+
+Notice that $\pi \in CE(\mathfrak{P}(X,\pi))$ is a [[∞-Lie algebra cohomology|Lie algebroid cocycle]], since
+
+$$
+  d_{CE(\mathfrak{P}(X,\pi))} \pi = [\pi,\pi]_{Sch} = 0
+  \,.
+$$
+
+**Proposition** The [[invariant polynomial]] in transgression with $\pi$ is 
+
+$$
+  \omega = (\mathbf{d}x^i)  \wedge (\mathbf{d}\partial_i) \in
+  W(\mathfrak{P}(X,\pi))
+  \,.
+$$
+
+**Proof** One checks that the following is a Chern-Simons element exhibiting the transgression
+
+$$
+  cs_\pi = \pi^{i j} \partial_i  \wedge \partial_j + x^i \wedge \mathbf{d}\partial_i
+  \;\;\;
+  \in W(\mathfrak{P}(X,\pi))
+$$
+
+in that $d_{W(\mathfrak{P}(X,\pi))} cs_\pi = \omega$, and the restriction of $cs_\pi$ to $CE(\mathfrak{P}(X,\pi))$ is evidently the Poisson tensor $\pi$.
+
+**Remark** The invariant polynomial $\omega$ makes $\mathfrak{P}(X,\pi)$ a [[schreiber:symplectic ∞-Lie algebroid]].
 
 ## Related concepts ##
 
