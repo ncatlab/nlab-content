@@ -48,12 +48,13 @@ $$
   A
 $$
 
-i.e. dually a morphism of [[∞-Lie algebroid]]s
+from the [[Weil algebra]] of $\mathfrak{g}$ to the [[de Rham complex]] of $X$. Dually this is a morphism of [[∞-Lie algebroid]]s
 
 $$
   A : T X \to inn(\mathfrak{a})
-  \,.
 $$
+
+from the [[tangent Lie algebroid]] to the [[groupal model for universal principal infinity-bundlle|inner automorphism infinity-Lie algebra]].
 
 Its [[curvature]] is the composite of [[graded vector space]]s
 
@@ -94,6 +95,7 @@ $$
   \,,
 $$
 
+where $inv(\mathfrak{g})$ is the algebra of [[invariant polynomial]]s on $\mathfrak{g}$.
 
 For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more discussion of this.
 
@@ -107,3 +109,5 @@ For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more d
 
 [[!redirects ∞-Lie algebra valued differential form]]
 [[!redirects ∞-Lie algebra valued differential forms]]
+
+[[!redirects ∞-Lie algebra valued forms]]
