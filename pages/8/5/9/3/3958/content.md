@@ -1,7 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
 
-A [[manifold]] is a **smooth manifold** (resp. differentiable manifold of class $C^k$) if its transition functions are [[smooth function]]s (resp. of class $C^k$), $\mathbb{R}^n \to \mathbb{R}^n$. See [[manifold]] for details. 
+
+A [[manifold]] is a **smooth manifold** if its transition functions are [[smooth function]]s $\mathbb{R}^n \to \mathbb{R}^n$. 
+
+So a smooth manifold is a $C^k$-[[differentiable manifold]] for all $k$.
+
 
 [[!redirects smooth manifolds]]
-[[!redirects differentiable manifold]]
-[[!redirects differentiable manifolds]]
