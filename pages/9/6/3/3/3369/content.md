@@ -273,7 +273,258 @@ For notice that $\Pi_n(X)$ is essentially the colimit over all ways of throwing 
 
 If we think of $Bord_n(X)$ as arising as a colimit over the cell-structure of cobordisms this way, then by the universal property of colimits a morphism $\exp(S_\nabla(-)) : Bord_n(X) \to n Vect$ will induce a system of morphisms out spans, as indicated here:
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$"><img src="http://latex.codecogs.com/gif.latex?$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$" title="$$%20\xymatrix@R=23pt@C=12pt{%20%26E_\Sigma%20\ar[rr]^{E_\mathrm{out}}%20\ar[dd]_{E_\mathrm{in}}%20\ar[ddr]%20%26%26%20E_{\Sigma_{\mathrm{out}}}%20\ar[ddr]%20\\%20\\%20%26E_{\mathrm{in}}%20\ar[ddr]%20%26%20[\Sigma,X]%20\ar[dd]^{\mathrm{in}}%20\ar[rr]^{\mathrm{out}}%20\ar[ddrr]%20%26%26%20[\Sigma_{\mathrm{out}},X]%20\ar[dd]%20\ar@/^1pc/[rrdddd]^{\exp(S_\nabla)|_{\Sigma_\mathrm{out}}}%20\\%20\\%20%26%26%20[\Sigma_{\mathrm{in}},X]%20\ar[rr]%20\ar@/_1pc/[ddrrrr]_{\exp(S_\nabla)|_{\Sigma_\mathrm{in}}}%20%26%26%20\mathrm{Bord}(X)%20\ar[ddrr]|{\exp(S_\nabla)}%20\\%20\\%20%26%26%26%26%20%26%26%20V%20}%20$$" /></a>
++-- {: #TQFT style="text-align:center"}
+<svg width="450" height="400" xmlns="http://www.w3.org/2000/svg" se:nonce="67492" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
+ <defs>
+  <marker viewBox="0 0 10 10" id="se_arrow_67492_fw1" refY="5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5" orient="auto" refX="8">
+   <path d="m0,0l10,5l-10,5l5,-5l-5,-5z" fill="#000"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <polyline se:connector="svg_67492_7 svg_67492_8" id="svg_67492_22" points="296,279 345.5,316.125 395,353.25" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_5 svg_67492_7" id="svg_67492_21" points="276.9,174 278.233,214 279.567,254" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_6 svg_67492_7" id="svg_67492_20" points="179,267 214,267 249,267" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_4 svg_67492_7" id="svg_67492_18" points="163.529,174 213.624,214 263.719,254" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_4 svg_67492_5" id="svg_67492_17" points="173,162 209,162 245,162" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_4 svg_67492_6" id="svg_67492_16" points="148.557,174 148.748,214 148.938,254" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_1 svg_67492_3" id="svg_67492_15" points="71.6571,91 71.8059,130.5 71.9548,170" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_1 svg_67492_2" id="svg_67492_14" points="84,79.2927 129,80.3902 174,81.4878" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_2 svg_67492_5" id="svg_67492_13" points="207.225,94 235.241,121.5 263.256,149" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_1 svg_67492_4" id="svg_67492_11" points="82.1772,91 109.734,120.5 137.291,150" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <polyline se:connector="svg_67492_3 svg_67492_6" id="svg_67492_10" points="82.8706,194 110.047,224 137.224,254" stroke="#000" stroke-width="2" fill="none" marker-end="url(#se_arrow_67492_fw1)"/>
+  <foreignObject x="58" y="68" id="svg_67492_1" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mi>&#931;</mi>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_\Sigma</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="180" y="70" id="svg_67492_2" font-size="16" width="40" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mrow>
+        <msub>
+         <mi>&#931;</mi>
+         <mtext>out</mtext>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_{\Sigma_{\text{out}}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="59" y="173" id="svg_67492_3" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mtext>in</mtext>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_{\text{in}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="124" y="150" id="svg_67492_4" font-size="16" width="49" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mi>&#931;</mi>
+      <mo>,</mo>
+      <mi>X</mi>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[\Sigma, X]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="245" y="150" id="svg_67492_5" font-size="16" width="63" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <msub>
+       <mi>&#931;</mi>
+       <mtext>out</mtext>
+      </msub>
+      <mo>,</mo>
+      <mi>X</mi>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[\Sigma_{\text{out}}, X]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="119" y="255" id="svg_67492_6" font-size="16" width="60" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <msub>
+       <mi>&#931;</mi>
+       <mtext>in</mtext>
+      </msub>
+      <mo>,</mo>
+      <mi>X</mi>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">[\Sigma_{\text{in}}, X]</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="250" y="255" id="svg_67492_7" font-size="16" width="60" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>Bord</mi>
+      <mo stretchy="false">(</mo>
+      <mi>X</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">Bord(X)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="396" y="351" id="svg_67492_8" font-size="16" width="24" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <annotation encoding="application/x-tex">V</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <path id="svg_67492_35" d="m303,177c37.30435,34.82927 93.82608,76.82927 104,168" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#se_arrow_67492_fw1)"/>
+  <path id="svg_67492_36" d="m162,281c67,70 143,83 230,83" fill="none" stroke="#000000" stroke-width="2" marker-end="url(#se_arrow_67492_fw1)"/>
+  <foreignObject height="24" width="35" font-size="16" id="svg_67492_99" y="59" x="116">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mtext>out</mtext>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_{\text{out}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="123" y="197" id="svg_67492_98" font-size="16" width="31" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mtext>in</mtext>
+     </mrow>
+     <annotation encoding="application/x-tex">\text{in}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject id="svg_67492_9" height="24" width="31" font-size="16" y="142" x="193">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mtext>out</mtext>
+     </mrow>
+     <annotation encoding="application/x-tex">\text{out}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject transform="rotate(33, 218.5, 340)" height="24" width="79" font-size="16" id="svg_67492_12" y="328" x="179">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>exp</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>S</mi>
+       <mo>&#8711;</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <msub>
+       <mo stretchy="false">&#8739;</mo>
+       <mrow>
+        <msub>
+         <mi>&#931;</mi>
+         <mtext>in</mtext>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">\exp(S_\nabla)\vert_{\Sigma_{\text{in}}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="308.99998" y="314" id="svg_67492_38" font-size="16" width="66" height="24" transform="rotate(38.4181, 342, 326)">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>exp</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>S</mi>
+       <mo>&#8711;</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <annotation encoding="application/x-tex">\exp(S_\nabla)</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject x="316" y="207" font-size="16" width="96" height="24" transform="rotate(42, 364, 219)" id="svg_67492_19">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <mi>exp</mi>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mi>S</mi>
+       <mo>&#8711;</mo>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <msub>
+       <mo stretchy="false">&#8739;</mo>
+       <mrow>
+        <msub>
+         <mi>&#931;</mi>
+         <mtext>out</mtext>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">\exp(S_\nabla)\vert_{\Sigma_{\text{out}}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+  <foreignObject y="121" x="39" id="svg_67492_97" font-size="16" width="31" height="24">
+   <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" display="inline">
+    <semantics>
+     <mrow>
+      <msub>
+       <mi>E</mi>
+       <mtext>in</mtext>
+      </msub>
+     </mrow>
+     <annotation encoding="application/x-tex">E_{\text{in}}</annotation>
+    </semantics>
+   </math>
+  </foreignObject>
+ </g>
+</svg>
+=--
 
 Certainly, this system of component morphisms is reminiscent of the [[bi-brane]] structure that we see in $Fam_n(C)$ in the above. So I am wondering: 
 
