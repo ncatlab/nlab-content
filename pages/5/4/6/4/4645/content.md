@@ -467,7 +467,7 @@ $$
   \array{
     C(U) &\stackrel{g}{\to}& \mathbf{B}^2 U(1)
     \\
-    \downarrow^{\simeq}
+    \downarrow^{\mathrlap{\simeq}}
     \\
     X
   }
@@ -724,7 +724,9 @@ We have seen that the theory of ordinary smooth [[principal bundle]]s is natural
 
 A comprehensive discussion of such [[∞-Lie groupoid]]s is given there. In this introduction here we will just briefly describe the main _tool_ for _modelling_ these and describe principal $\infty$-bundles in this model. See also [[models for ∞-stack (∞,1)-toposes]].
 
-An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, going between $(k-1)$-morphisms. An useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
+We first look at bare [[∞-groupoid]]s and then discuss how to equip these with smooth structure.
+
+An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
 
 $$
   K : \Delta^{op} \to Set
@@ -753,9 +755,9 @@ as well as specifying
   that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
   on them.
 
-The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions are consist with our interpretation of them as sets of $k$-morphisms and source- and target maps between these, in that for instance it enforces that the 1-morphisms between which a 2-morphisms goes suitably go between coinciding objects.
+The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions are consist with our interpretation of them as sets of $k$-morphisms and source- and target maps between these, in that for instance it enforces that the 1-morphisms between which a 2-morphisms goes suitably go between coinciding objects. These are called the [[simplicial identities]].
 
-But apart from this source-target matching, a generic simplicial set does not yet encode a notio of [[composition]] of these morphisms. 
+But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
 
 For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
 
@@ -771,7 +773,7 @@ $$
   \right\}
 $$
 
-and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not be [[evil]]), we want to identify this composite only up to an 2-morphism equivalence
+and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not to be [[evil]]), we want to identify this composite only up to a [[2-morphism]] equivalence
 
 $$
     \array{
@@ -814,7 +816,7 @@ $$
   \right\}
 $$
 
-the simplicial set consisting of two 1-morphism that touch at their end, hence for 
+the simplicial set consisting of two 1-morphisms that touch at their end, hence for 
 
 $$
   (g,h) : \Lambda^2[2] \to K
@@ -835,9 +837,7 @@ $$
 
 Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a compositon operation with inverses in $K$. 
 
-In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[2-morphism]]s, which means that we can find the relevant [[associahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on. 
-
-It is a nontrivial but true and powerful fact, that it turns out that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[2-morphism]]s, which means that we can find the relevant [[associahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that it turns out that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
 
 let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
 
@@ -854,9 +854,9 @@ $$
   \,.
 $$
 
-The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the simplicial set with $N(C)_k$ precisely the set of sequence of $n$ composable morphisms in $C$. The nerve operation is a [[full and faithful]] functor from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
+The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the simplicial set with $N(C)_k$ precisely the set of sequence of $n$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
 
-But we need a bit more than just bare [[∞-groupoid]]s. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to rember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
+But we need a bit more than just bare [[∞-groupoid]]s. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to rember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k$-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
 
 This data of $U$-families arranges itself into a [[presheaf]] with values in Kan complexes
 
@@ -864,13 +864,13 @@ $$
   K : C^{op} \to KanCplx \hookrightarrow sSet
 $$
 
-hence with values in simplicial sets. This is equivalently a [[simplicial presheaf]] of sets. The [[functor category]] $[C^{op}, sSet]$ on the [[opposite category]] of the category of test objects $C$ serves as a model for the [[(∞,1)-category]] of $?$-groupoids with $C$-structure.
+hence with values in simplicial sets. This is equivalently a [[simplicial presheaf]] of sets. The [[functor category]] $[C^{op}, sSet]$ on the [[opposite category]] of the category of test objects $C$ serves as a model for the [[(∞,1)-category]] of $\infty$-groupoids with $C$-structure.
 
 While there are no [[higher morphism]]s in this functor 1-category that could for instance witness that two $\infty$-groupoids are not [[isomorphic]], but still [[equivalence of categories|equivalent]], it turns out that all one needs in order to reconstruct _all_ these higher morphisms (up to equivalence!) is just the information of wich morphisms of simplicial presheaves would become invertible if we were keeping track of higher morphism. These would-be invertible morphisms are called _weak equivalences_ and denoted $K_1 \stackrel{\simeq}{\to} K_2$. 
 
-For common choices of $C$ there is a well-understood way to define the weak equivalences $W \subset mor [C^{op}, sSet]$, and equipped with this information the category of simplicial presheaves becomes a _[[category with weak equivalences]]_ . There is a well-developed but somewhat intricate theory of how exactly this 1-cagtegorical data models the full higher category of structure groupoids that we are after, but for our purposes we essentially only need to work inside the [[category of fibrant objects]] of a [[model category]] structure [[model structure on simplicial presheaves|on simplicial presheaves]], which in practice amounts to the fact that we use the following three basic constructions:
+For common choices of $C$ there is a well-understood way to define the weak equivalences $W \subset mor [C^{op}, sSet]$, and equipped with this information the category of simplicial presheaves becomes a _[[category with weak equivalences]]_ . There is a well-developed but somewhat intricate theory of how exactly this 1-cagtegorical data models the full higher category of structured groupoids that we are after, but for our purposes we essentially only need to work inside the [[category of fibrant objects]] of a [[model category]] structure [[model structure on simplicial presheaves|on simplicial presheaves]], which in practice amounts to the fact that we use the following three basic constructions:
 
-1. **[[∞-anafunctor]]s** A morphisms $X \to Y$ between $\infty$-groupoids with $C$-structure is not just a morphis $X\to Y$ in $[C^{op}, sSet]$, but is a [[span]] of such ordinary morphisms
+1. **[[∞-anafunctor]]s** -- A morphisms $X \to Y$ between $\infty$-groupoids with $C$-structure is not just a morphism $X\to Y$ in $[C^{op}, sSet]$, but is a [[span]] of such ordinary morphisms
 
    $$
      \array{  
@@ -884,9 +884,9 @@ For common choices of $C$ there is a well-understood way to define the weak equi
 
    where the left leg is a weak equivalence. This is sometimes called an _$\infty$-anafunctor_ from $X$ to $Y$.
  
-1. **[[homotopy pullback]]** For $A \to B \stackrel{p}{\leftarrow} C$ a [[diagram]], the [[(∞,1)-pullback]] of it is the ordinary [[pullback]] in $[C^{op}, sSet]$ of a replacement diagram $A \to B \stackrel{\hat p}{\leftarrow} \hat C$, where $\hat p$ is a _good replacement_  of $p$ in the sense of the
+1. **[[homotopy pullback]]** -- For $A \to B \stackrel{p}{\leftarrow} C$ a [[diagram]], the [[(∞,1)-pullback]] of it is the ordinary [[pullback]] in $[C^{op}, sSet]$ of a replacement diagram $A \to B \stackrel{\hat p}{\leftarrow} \hat C$, where $\hat p$ is a _good replacement_  of $p$ in the sense of the following...
 
-1. **[[factorization lemma]]** For $p : C \to B$ a morphism in $[C^{op}, sSet]$, _good replacement_ $\hat p$ of it is given by the total vertical morphism in the ordinary [[pullback]] diagram
+1. **[[factorization lemma]]** -- For $p : C \to B$ a morphism in $[C^{op}, sSet]$, _good replacement_ $\hat p : \hat C \to B$ is given by the total vertical morphism in the ordinary [[pullback]] diagram
 
    $$
      \array{
@@ -898,11 +898,15 @@ For common choices of $C$ there is a well-understood way to define the weak equi
        \\
        \downarrow
        \\
-       p
+       B
      }
+     \,.
    $$
 
-The main application of this is the simple case where $\mathbf{B}G \in [C^{op}, sSet]$ is an $\infty$-groupoid with a single object, $*$ the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacmement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]]
+  
+The [[principal ∞-bundle]]s that we wish to model are already the main and simplest example of the application of these three item: 
+
+Consider an object $\mathbf{B}G \in [C^{op}, sSet]$ which is an $\infty$-groupoid with a single object, so that we may think of it as the [[delooping]] of an [[∞-group]] $G$, let $*$ be the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacmement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]] $\mathbf{E}G \to \mathbf{B}G$ gives by the pullback diagram
   
 $$
   \array{ 
@@ -918,7 +922,7 @@ $$
    }
 $$
 
-An [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \to \mathbf{B}G$ we call a [[cocycle]] with values in $G$, and the [[homotopy pullback]] $\tilde P$ of the point along this cocycle, which by the above discussion is the ordinary [[limit]]
+An [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \to \mathbf{B}G$ we call a [[cocycle]] on $X$ with coefficients in $G$, and the [[(∞,1)-pullback]] $P$ of the point along this cocycle, which by the above discussion is the ordinary [[limit]]
 
 
 $$
@@ -931,7 +935,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    C(U) &\stackrel{g}{\to}& \mathbf{B}G
+    \hat X &\stackrel{g}{\to}& \mathbf{B}G
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -940,6 +944,10 @@ $$
 $$
 
 we call the [[principal ∞-bundle]] $P \to X$ classified by the coycle.
+
+It is now evident that our discussion of ordinary smooth principal bundles [above](#PrincipalBundles) is the special case of this for $\mathbf{B}G$ the [[nerve]] of the one-object groupoid associated with the ordinary group $G$.
+
+So we find the complete generalization of the situation that we already indicated there, which is summarized in the following diagram:
 
 $$
   \array{
