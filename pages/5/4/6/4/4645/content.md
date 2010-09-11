@@ -685,14 +685,19 @@ is essentially what is known as a [[bundle 2-gerbe]].
 
 #### String 2-bundles and nonabelian bundle gerbes
 
-(...)
-
 Above we saw $\mathbf{B}U(1)$-[[principal 2-bundle]]s. The groupoid $\mathbf{B}U(1)$ is a special case of what is called a [[Lie 2-group]], which is a [[group object]] $G$ in Lie groupoids. 
 
-An example of a nonabelian Lie 2-group is the [[string Lie 2-group]] $String$. A quick way to udnerstand the meaning of this 2-group is from the fact that:
+An example of a nonabelian Lie 2-group is the [[string Lie 2-group]] $String$, which sits in a [[fiber sequence]] of Lie 2-groups of the form
 
-**Fact** Given a [[spin group]]-[[principal bundle]] $P \to X$, its [[Pontryagin class]] classifies a _circle 3-bundle_  (a [[bundle 2-gerbe]]) called the [[Chern-Simons circle 3-bundle]]. The nontriviality of this is precisely the obstruction to liftin $P$ to a a $String$-principal 2-bundle.
+$$
+  \mathbf{B}U(1) \to String \to Spin
+  \,.
+$$
 
+
+A quick way to understand the meaning of this 2-group is from the fact that:
+
+**Fact.** Given a [[spin group]]-[[principal bundle]] $P \to X$, its [[Pontryagin class]] classifies a _circle 3-bundle_  (a [[bundle 2-gerbe]]) called the [[Chern-Simons circle 3-bundle]]. The nontriviality of this is precisely the obstruction to lifting the $Spin$-principal bundle $P$ to a $String$-principal 2-bundle.
 
 Again, we can construct Lie 2-groupoids equivalent to the total space of a $String$-principal 2-bundle classified by a cocycle $g : C(U) \to \mathbf{B}String$ by forming the pullback.
  
@@ -717,11 +722,142 @@ These groupoids $\tilde P$ are in the literature known as [[nonabelian bundle ge
 
 We have seen that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoid]]s and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
 
-A comprehensive discussion of such [[∞-Lie groupoid]]s is given at [[∞-Lie groupoid|that link]]. In this introduction here we will just briefly describe the main _tool_ to model these and describe principal $\infty$-bundles in this model.
+A comprehensive discussion of such [[∞-Lie groupoid]]s is given there. In this introduction here we will just briefly describe the main _tool_ for _modelling_ these and describe principal $\infty$-bundles in this model. See also [[models for ∞-stack (∞,1)-toposes]].
 
-(...)
+An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, going between $(k-1)$-morphisms. An useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
 
-* [[Kan complex]]
+$$
+  K : \Delta^{op} \to Set
+$$
+
+as specifying
+
+* a set $[0] \mapsto K_0$ of [[object]]s;
+
+* a set $[1] \mapsto K_1$ of [[morphism]];
+
+* a set $[2] \mapsto K_2$ of [[2-morphism]];
+
+* a set $[3] \mapsto K_3$ of [[3-morphism]];
+
+and generally
+
+* a set $[k] \mapsto K_k$ of [[k-morphism]]s
+
+as well as specifying
+
+* functions $([n] \hookrightarrow [n+1]) \mapsto K_{n+1} \to K_n$
+  that send $n+1$-morphisms to their boundary $n$-morphisms;
+
+* functionss $([n+1] \to [n]) \mapsto K_{n} \to K_{n+1}$
+  that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
+  on them.
+
+The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions are consist with our interpretation of them as sets of $k$-morphisms and source- and target maps between these, in that for instance it enforces that the 1-morphisms between which a 2-morphisms goes suitably go between coinciding objects.
+
+But apart from this source-target matching, a generic simplicial set does not yet encode a notio of [[composition]] of these morphisms. 
+
+For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
+
+$$
+  \Lambda^1[2] = \left\{
+    \array{
+       && 1
+       \\
+       & \nearrow && \searrow
+       \\
+       0 &&&& 2
+    }
+  \right\}
+$$
+
+and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not be [[evil]]), we want to identify this composite only up to an 2-morphism equivalence
+
+$$
+    \array{
+       && 1
+       \\
+       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}& 
+       \searrow^{\mathrlap{g}}
+       \\
+       x_0 &&\stackrel{h}{\to}&& x_2
+    }
+  \right\}
+  \,.
+$$
+
+From the picture it is clear that this is equivalent to demanding that for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex we have a diagram of morphisms of simplicial sets
+
+$$
+  \array{
+    \Lambda^1[2] &\stackrel{(f,g)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists h}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+A simplicial set where for all such $(f,g)$ such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. For the purpose of describing [[groupoid]]al compostion, we want that this composition operation hasall [[inverse]]s.
+
+Notice that for 
+
+$$
+  \Lambda^2[2] = \left\{
+    \array{
+       && 1
+       \\
+       & && \searrow
+       \\
+       0 &&\to&& 2
+    }
+  \right\}
+$$
+
+the simplicial set consisting of two 1-morphism that touch at their end, hence for 
+
+$$
+  (g,h) : \Lambda^2[2] \to K
+$$
+
+two such 1-morphisms in $K$, then if $g$ had an inverse $g^{-1}$ we could use the above compostion operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets
+
+$$
+  \array{
+    \Lambda^2[2] &\stackrel{(g,h)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists f}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a compositon operation on with inverses in $K$. 
+
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an associativity law up to 2-morphisms, which means that we can find the relevant [[associahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on. 
+
+It is a nontrivial but true and powerful fact, that it turns out that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
+
+let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
+
+Then a simplicial set is called a [[Kan complex]], if for all images $f : \Lambda^i[n] \to K$ of such horns in $K$, the missing two cells can be found in $K$- in that we can always find a _horn filler_ $\sigma$ in the diagram
+
+$$
+  \array{
+     \Lambda^i[n] &\stackrel{f}{\to}& K
+     \\
+     \downarrow & \nearrow_{\mathrlap{\sigma}}
+     \\
+     \Delta[n]
+  }
+  \,.
+$$
+
+The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the simplicial set with $N(C)_k$ precisely the set of sequence of $n$ composable morphisms in $C$. The nerve operation is a [[full and faithful]] functor from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
+
+Next:
 
 * [[simplicial presheaf]]
 
