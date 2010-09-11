@@ -479,11 +479,13 @@ $$
   g 
    \;\; : \;\;
    \left(
+     \array{
        && (x,j)
        \\
        & \nearrow &\Downarrow& \searrow
        \\
       (x,i) &&\to&& (x,k)
+     }
    \right)
    \;\;\;
    \mapsto
@@ -2137,3 +2139,5 @@ For further references see
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references]].
 
 [[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
+
+[[!redirects ∞-Chern-Weil-theory introduction]]
