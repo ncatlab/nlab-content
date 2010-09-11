@@ -77,7 +77,7 @@ $$
 
 where the top left square is a pullback square. Notice that acyclic fibrations are preserved under pullback and closed under composition, so that the total vertical $\omega$-functor on the left is indeed again an acyclic fibration and hence the total span here indeed again an $\infty$-anafunctor.
 
-While this definition of composition is in itself well defined, it is not quite associative: the two ways of composing three spans representing $\infty$-anafunctors tis way in general produces two spans out of different -- albeit isomorphic -- [[hypercover]]s.
+While this definition of composition is in itself well defined, it is not quite associative: the two ways of composing three spans representing $\infty$-anafunctors this way in general produces two spans out of different -- albeit isomorphic -- [[hypercover]]s.
 
 Of course the precise choice of hypercover $\hat C$ of $C$ is not an essential datum: two $\infty$-anafuntors should be regarded as equivalent if they become equal after pulled back to a joint hypercover. This is formalized in the following definition:
 
