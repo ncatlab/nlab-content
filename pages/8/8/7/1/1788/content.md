@@ -4,6 +4,8 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+Hello world!
+
 testing, testing...
 
 $\eta_c\left(\text{Id}_c\right)\text{  }\in \text{  }X(c)$
