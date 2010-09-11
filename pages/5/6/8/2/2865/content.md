@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -33,8 +40,10 @@ The general localization result is apparently due to
 
 which considers the [[?ech cover]]-localization assuming $V$ to be [[monoidal category|monoidal]] and
 
-* [[Joseph Ayoub]], _Les six op&eacute;ration de Grothendieck et le formalisme des cycles &eacute;vanescents dans le monde motivic_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/THESE.PDF)) 
+* [[Joseph Ayoub]], _Les six op&#233;ration de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivic_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/THESE.PDF)) 
 
 which apparently does the [[hypercover]] [[descent]] and without assuming $V$ to be monoidal.
 
 Much of this was kindly pointed out by [[Denis-Charles Cisinski]] in discussion [here](http://mathoverflow.net/questions/5808/local-joyal-simplicial-presheaves).
+
+[[!redirects model structures on homotopical presheaves]]
