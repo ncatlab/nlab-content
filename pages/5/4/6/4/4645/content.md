@@ -782,7 +782,6 @@ $$
        \\
        x_0 &&\stackrel{h}{\to}&& x_2
     }
-  \right\}
   \,.
 $$
 
@@ -799,9 +798,9 @@ $$
   \,.
 $$
 
-A simplicial set where for all such $(f,g)$ such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. For the purpose of describing [[groupoid]]al compostion, we want that this composition operation hasall [[inverse]]s.
+A simplicial set where for all such $(f,g)$ such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
 
-Notice that for 
+For the purpose of describing [[groupoid]]al compostion, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
 
 $$
   \Lambda^2[2] = \left\{
@@ -834,9 +833,9 @@ $$
   \,.
 $$
 
-Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a compositon operation on with inverses in $K$. 
+Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a compositon operation with inverses in $K$. 
 
-In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an associativity law up to 2-morphisms, which means that we can find the relevant [[associahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on. 
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[2-morphism]]s, which means that we can find the relevant [[associahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on. 
 
 It is a nontrivial but true and powerful fact, that it turns out that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
 
@@ -857,53 +856,90 @@ $$
 
 The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the simplicial set with $N(C)_k$ precisely the set of sequence of $n$ composable morphisms in $C$. The nerve operation is a [[full and faithful]] functor from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
 
-Next:
+But we need a bit more than just bare [[∞-groupoid]]s. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to rember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
 
-* [[simplicial presheaf]]
+This data of $U$-families arranges itself into a [[presheaf]] with values in Kan complexes
 
-* [[model category]]
+$$
+  K : C^{op} \to KanCplx \hookrightarrow sSet
+$$
 
-* [[model structure on simplicial presheaves]]
+hence with values in simplicial sets. This is equivalently a [[simplicial presheaf]] of sets. The [[functor category]] $[C^{op}, sSet]$ on the [[opposite category]] of the category of test objects $C$ serves as a model for the [[(∞,1)-category]] of $?$-groupoids with $C$-structure.
 
-* [[factorization lemma]]
+While there are no [[higher morphism]]s in this functor 1-category that could for instance witness that two $\infty$-groupoids are not [[isomorphic]], but still [[equivalence of categories|equivalent]], it turns out that all one needs in order to reconstruct _all_ these higher morphisms (up to equivalence!) is just the information of wich morphisms of simplicial presheaves would become invertible if we were keeping track of higher morphism. These would-be invertible morphisms are called _weak equivalences_ and denoted $K_1 \stackrel{\simeq}{\to} K_2$. 
 
-* [[universal principal ∞-bundle]]
+For common choices of $C$ there is a well-understood way to define the weak equivalences $W \subset mor [C^{op}, sSet]$, and equipped with this information the category of simplicial presheaves becomes a _[[category with weak equivalences]]_ . There is a well-developed but somewhat intricate theory of how exactly this 1-cagtegorical data models the full higher category of structure groupoids that we are after, but for our purposes we essentially only need to work inside the [[category of fibrant objects]] of a [[model category]] structure [[model structure on simplicial presheaves|on simplicial presheaves]], which in practice amounts to the fact that we use the following three basic constructions:
+
+1. **[[∞-anafunctor]]s** A morphisms $X \to Y$ between $\infty$-groupoids with $C$-structure is not just a morphis $X\to Y$ in $[C^{op}, sSet]$, but is a [[span]] of such ordinary morphisms
+
+   $$
+     \array{  
+        \hat X &\to& Y
+        \\
+        \downarrow^{\mathrlap{\simeq}}
+        \\
+        X
+     }
+   $$
+
+   where the left leg is a weak equivalence. This is sometimes called an _$\infty$-anafunctor_ from $X$ to $Y$.
+ 
+1. **[[homotopy pullback]]** For $A \to B \stackrel{p}{\leftarrow} C$ a [[diagram]], the [[(∞,1)-pullback]] of it is the ordinary [[pullback]] in $[C^{op}, sSet]$ of a replacement diagram $A \to B \stackrel{\hat p}{\leftarrow} \hat C$, where $\hat p$ is a _good replacement_  of $p$ in the sense of the
+
+1. **[[factorization lemma]]** For $p : C \to B$ a morphism in $[C^{op}, sSet]$, _good replacement_ $\hat p$ of it is given by the total vertical morphism in the ordinary [[pullback]] diagram
+
+   $$
+     \array{
+       \hat C &\to& C
+       \\
+       \downarrow && \downarrow^{\mathrlap{p}}
+       \\
+       B^{\Delta[1]} &\to& B
+       \\
+       \downarrow
+       \\
+       p
+     }
+   $$
+
+The main application of this is the simple case where $\mathbf{B}G \in [C^{op}, sSet]$ is an $\infty$-groupoid with a single object, $*$ the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacmement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]]
   
-  $$
-    \array{ 
-      \mathbf{E}G &\to& *
-      \\
-      \downarrow && \downarrow
-      \\
-      \mathbf{B}G^I &\to& \mathbf{B}G
-      \\
-      \downarrow
-      \\
-      \mathbf{B}G
-    }
-  $$
+$$
+  \array{ 
+    \mathbf{E}G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G^I &\to& \mathbf{B}G
+    \\
+    \downarrow
+    \\
+     \mathbf{B}G
+   }
+$$
 
-* [[homotopy pullback]]
-
-  $$
-    \array{ 
-      \tilde P &\to& \mathbf{E}G &\to& *
-      \\
-      \downarrow && \downarrow && \downarrow
-      \\
-      && \mathbf{B}G^I &\to& \mathbf{B}G
-      \\
-      \downarrow && \downarrow
-      \\
-      C(U) &\stackrel{g}{\to}& \mathbf{B}G
-      \\
-      \downarrow^{\mathrlap{\simeq}}
-      \\
-      X
-    }
-  $$
+An [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \to \mathbf{B}G$ we call a [[cocycle]] with values in $G$, and the [[homotopy pullback]] $\tilde P$ of the point along this cocycle, which by the above discussion is the ordinary [[limit]]
 
 
+$$
+  \array{ 
+    P &\to& \mathbf{E}G &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    && \mathbf{B}G^I &\to& \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+we call the [[principal ∞-bundle]] $P \to X$ classified by the coycle.
 
 $$
   \array{
