@@ -13,6 +13,13 @@
 =--
 =--
 
+* [[sheaf]]
+
+* [[2-sheaf]] / [[stack]]
+
+* [[(∞,1)-sheaf]] / **$\infty$-stack**
+
+***
 
 
 #Contents#
