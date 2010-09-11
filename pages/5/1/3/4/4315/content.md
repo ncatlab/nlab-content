@@ -1,12 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A bibundle is a [[bundle]] with compatible [[actions]] on the left and right.
+A (smooth) prinicpal bibundle is a (smooth) [[principal bundle]] and notably a [[groupoid principal bundle]] with compatible [[actions]] on both the left and right.
 
-They generally arise in two related situations: as the objects used to define non-abelian [[bundle gerbe]]s and as morphisms between [[Lie groupoid]]s. The former is a special case of the latter. The general concept of [[bundle]] has no action and so there is nothing to do to make it a bibundle.  However, suppose that $G$ is a [[group]] and you are interested in [[G-bundle]]s.  Then a __$G$-bibundle__ is a bundle that is simultaneously a left $G$-bundle and a right $G$-bundle, such that the left and right actions of $G$ commute. This is a bibundle in the first sense. 
+They arise in two related situations: as the objects used to define [[nonabelian bundle gerbe]]s and as [[anafunctor]]-like morphisms between [[Lie groupoid]]s. The former is a special case of the latter. The general concept of [[bundle]] has no action and so there is nothing to do to make it a bibundle.  However, suppose that $G$ is a [[group]] and you are interested in [[G-bundle]]s.  Then a __$G$-bibundle__ is a bundle that is simultaneously a left $G$-bundle and a right $G$-bundle, such that the left and right actions of $G$ commute. This is a bibundle in the first sense. 
 
 A __principal bibundle__ is a [[principal bundle|principal]] $G$-bundle with commuting left and right $G$-actions.
 
