@@ -27,6 +27,9 @@ A **[[coherence theorem]]** is an assertion that with a given definition of [[n-
 
 =--
 
++--{.query}
+Todd: I'm sorry, that formulation of coherence theorem seems to go overboard. A full coherence theorem for symmetric monoidal closed categories asserts nothing of the sort, and to say that the coherence theorem for braided monoidal categories or for tortile categories asserts a statement of this form is either wrong or highly questionable. 
+=-- 
 
 +-- {: .un_remark}
 ###### Remark
