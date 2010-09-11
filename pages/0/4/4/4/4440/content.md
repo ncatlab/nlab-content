@@ -1,7 +1,23 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
+
+* [[sheaf]]
+
+* **2-sheaf** / [[stack]]
+
+* [[(∞,1)-sheaf]] / [[∞-stack]] 
+
+
+***
+
 
 #Contents#
 * automatic table of contents goes here
