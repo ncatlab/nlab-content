@@ -4,7 +4,6 @@
 </div>
 
 
-
 An **algebraic Kan complex** is a [[Kan complex]] equipped with a _choice_ of [[horn]] fillers.
 
 Algebraic Kan complexes give a [[algebraic definition of higher categories|algebraic definition of]] [[∞-groupoid]]s.
@@ -13,4 +12,6 @@ For more see  the section [Algebraic  fibrant models for higher categories](http
 
 A slight variant of this definition is that of a [[simplicial T-complex]].
 
-[[!redirects algebraic Kan complexes]].
+
+[[!redirects algebraic Kan complex]]
+[[!redirects algebraic Kan complexes]]
