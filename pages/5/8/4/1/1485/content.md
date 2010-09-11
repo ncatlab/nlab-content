@@ -9,15 +9,15 @@
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A manifold is a space which looks locally like a Euclidean space, most commonly a finite-dimensional [[Cartesian space]] $\mathbb{R}^n$.
+A manifold is a space which looks locally like a [[Cartesian space]], most commonly a finite-dimensional Cartesian space $\mathbb{R}^n$.
 
-What "locally looks like" means really depends on what sort of structure we are considering Euclidean space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a topological space. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], PL structure, real analytic structure, affine structure, hyperbolic structure , foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc.
+What "locally looks like" means really depends on what sort of structure we are considering a Cartesian space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a [[topological space]]. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], piecewise-linear (PL) structure, real analytic structure, affine structure, hyperbolic structure, foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc.
 
 In any case, the type of geometry embodied in a particular flavor of manifold is controlled by a particular [[groupoid]] of transformations which preserves whatever geometric features one is interested in; cf. Felix Klein's _[[Erlangen program|Erlanger Programm]]_.
 
@@ -164,7 +164,7 @@ $$\qquad g_{\alpha\alpha} = 1: U_{\alpha} \to GL(\mathbb{R}^n)$$
 These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]] with structure group $GL(\mathbb{R}^n)$.
 
 
-##Generalizations##
+## Generalizations
 
 * [[generalized smooth space]]
 
@@ -176,4 +176,6 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 
   * [[Euclidean supermanifold]] (notice that the definition of that is very much along the lines of the Klein-program-style definition above).
 
+
+[[!redirects manifold]]
 [[!redirects manifolds]]
