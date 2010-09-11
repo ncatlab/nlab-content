@@ -1004,12 +1004,43 @@ $$
 
 ### Parallel transport in low dimensions {#LowDimension}
 
-A central aspect of our development is that we shall understand [[connection on a bundle|connections]] and [[differential cohomology|differential cocycles]] in terms of the [[parallel transport]] along paths and higher dimensional paths that that they induce. The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]] in generalized spaces.
+With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bunndles in terms of  [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a non-concrete [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
 
-In the following subsections we describe the concept of a smooth [[path groupoid]] $\mathbf{P}_1(X)$ of a [[smooth manifold]] $X$ and more generally of a smooth [[path n-groupoid]] $P_n(X)$ for low $n \in \mathbb{N}$, and how smooth functors $P_n(X) \to A$ out of these encode [[differential form]]s and [[connection on a bundle|connections]] on [[principal bundle]]s, [[vector bundle]]s and (abelian and nonabelian) [[gerbe]]s in terms of their [[nLab:parallel transport]] along curves and surfaces.
+$$
+  \array{
+    && \mathbf{B}G_{conn}
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    \\
+    \hat X &\stackrel{g}{\to}& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+  \,.
+$$
+
+In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-stack (on [[CartSp]]) or $\infty$-prestack (on [[Diff]]) $G TrivBund(-)$ of _trivial_ $G$-principal bundles, and of $\mathbf{B}G_{conn}$ cortespondingly as trivial $G$-principal bundles with (non-trivial) connection $G TrivBund_{\nabla}(- )$. In this sense the statement that $\infty$-connections are cocycles with coefficients in some $\mathbf{B}G_{conn}$ is a tautology. The real questions are therefore:
+
+1. What is $\mathbf{B}G_{conn}$ in concrete formulas?
+
+1. Why are these formulas what they are? What is the general abstract concept of an $\infty$-connection? What are its defining abstract properties?
+
+A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]] to aspects of which we are here giving the introduction. Therefore here in this introduction we will not give a complete answer to the second question, but rather provide some basic facts that are useful for concrete computationa that serve to put the general abstract answer in proper perspective.
+
+A central aspect of our development is that we shall understand $\infty$-connection in terms of the [[parallel transport]] and  [[higher parallel transport]] along paths and higher dimensional paths that that they induce. The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]].
+
+In the following subsections we describe the concept of a smooth [[path groupoid]] $\mathbf{P}_1(X)$ of a [[smooth manifold]] $X$ and more generally of a smooth [[path n-groupoid]] $P_n(X)$ for low $n \in \mathbb{N}$, and how smooth functors $P_n(X) \to A$ out of these encode [[differential form]]s and [[connection on a bundle|connections]] on [[principal bundle]]s, [[vector bundle]]s and (abelian and nonabelian) [[bundle gerbe]]s in terms of their [[nLab:parallel transport]] along curves and surfaces.
 
 
 #### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
+
+
+> basic fact to be expounded here: for $G$ a Lie group 
+
+> $\mathbf{B}G_{conn} = [\mathbf{P}_1(-), \mathbf{B}G]$.
+
 
 We describe the standard notion of a [[nLab:connection on a bundle]] but from a point of view that carries in it the seed for the general concept of differential cohomology that we describe here. This also serves to introduce in simple explicit terms several of the concepts that we shall formalize later in abstract [[nLab:(∞,1)-topos]] theory.
 
@@ -1184,6 +1215,12 @@ where on the right we have the groupoid of $G$-[[nLab:principal bundle]]s [[nLab
 
 
 #### Connections on gerbes and principal 2-bundles {#ConnectionOn2Bundle}
+
+> basic fact to be expounded here: for $G$ a [[Lie 2-group]] we have
+
+> $\flat\mathbf{B}G \simeq [\mathbf{\Pi}(-), \mathbf{B}G]$;
+
+> $\mathbf{B}G_{diff} = [\mathbf{\Pi}(-), \mathbf{B}INN(G)] \times_{\mathbf{B}INN(G)} \mathbf{B}G$.
 
 Above we described [[nLab:cocycle]]s for smooth 
 $G$-[[nLab:principal bundle]]s on $X$ in terms of smooth functors
