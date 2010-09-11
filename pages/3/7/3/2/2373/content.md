@@ -1,5 +1,11 @@
 **[[higher category theory]]**
 
+## Basic principles
+
+* [[k-morphism]]
+
+* [[coherence]]
+
 ## Definitions
 
 * [[(n,r)-category]]
