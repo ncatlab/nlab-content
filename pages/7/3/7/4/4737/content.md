@@ -30,7 +30,7 @@ For $\mathcal{G}$ a [[groupoid object in an (infinity,1)-category|groupoid objec
 
 ## Definition
 
-For $G$ a [[group object]] in some [[(infinity,1)-topos]] $\mathbf{H}$ (for instance that of [[infinity-Lie groupoid]]s for smooth groupoid bundles), and $\mathbf{B}G$ the corresponding [[delooping]] object, $G$-principal bundles are the [[(infinity,1)-pullback]]s of the form
+For $G$ a [[group object]] in some [[(∞,1)-topos]] $\mathbf{H}$ (for instance $\mathbf{H} = $ [[?LieGrpd]] for smooth [[Lie groupoid]]-bundles), and $\mathbf{B}G$ the corresponding [[delooping]] object, $G$-principal bundles are the [[(∞,1)-pullback]]s of the form
 
 $$
   \array{
