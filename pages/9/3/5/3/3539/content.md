@@ -1,10 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * tic
 {: toc}
 
 ## Idea ##
 
-Generally, a *coherence theorem* in category theory is a means of getting a handle on categorical structures where laws only hold up to isomorphism or equivalence.  Precisely, it can mean one of several slightly different things.
+Generally, a **coherence theorem** in [[category theory]] and [[higher category theory]] asserts that a [[coherence law]] is satisfied: it is a means of getting a handle on categorical structures where laws only hold up to [[isomorphism]] or higher [[k-morphism]] equivalences.  Precisely, it can mean one of several slightly different things.
 
 ### Descriptions of free algebras
 
