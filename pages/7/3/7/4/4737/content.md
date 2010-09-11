@@ -30,7 +30,7 @@ For $\mathcal{G}$ a [[groupoid object in an (infinity,1)-category|groupoid objec
 
 ## Definition
 
-For $G$ a [[group object]] in some [[(infinity,1)-topos]] $\mathbf{H}$ (for instance thsat of [[infinity-Lie groupoid]]s for smooth groupoid bundles), and $\mathbf{B}G$ the corresponding [[delooping]] object, $G$-principal bundles are the [[(infinity,1)-pullback]]s of the form
+For $G$ a [[group object]] in some [[(infinity,1)-topos]] $\mathbf{H}$ (for instance that of [[infinity-Lie groupoid]]s for smooth groupoid bundles), and $\mathbf{B}G$ the corresponding [[delooping]] object, $G$-principal bundles are the [[(infinity,1)-pullback]]s of the form
 
 $$
   \array{
@@ -71,4 +71,4 @@ for $\mathcal{G}_{x_i}$ the source fiber over an object $x_i$.
 
 ## Applications
 
-* As groupoid [[bibundle]], groupoid principal bundles serve as models for morophisms betweenn [[Lie groupoid]]s.
+* As groupoid [[bibundle]], groupoid principal bundles serve as models for morphisms between [[Lie groupoid]]s.
