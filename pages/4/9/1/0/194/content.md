@@ -1,7 +1,23 @@
 
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-</div>
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+* [[object]]
+
+* [[morphism]]
+
+* **2-morphism**
+
+* [[3-morphism]]
+
+***
 
 
 #Contents#
