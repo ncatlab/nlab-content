@@ -9,7 +9,7 @@
 =--
 =--
 
-* **principal bundle** / [[torsor]]
+* **principal bundle** / [[torsor]] / [[groupoid principal bundle]]
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
