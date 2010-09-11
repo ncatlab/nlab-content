@@ -10,7 +10,7 @@
 =--
 
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -31,12 +31,12 @@ $$
 
 of [[quasi-isomorphism]]s of dg-algebras.
 
-## Applications
 
+## Applications
 
 ### In rational homotopy theory
 
-In [[rational homotopy theory]] [[rational topological space]]s are encoded in their dg-algebras of Sullivan forms. A simply connected topological space $X$ whose dg-algebra of Sullivan forms $\Omega^\bullet(X)$ is formal is called a **formal topological space**. It represents a **formal homotopy type**.
+In [[rational homotopy theory]] [[rational topological space]]s are encoded in their dg-algebras of Sullivan forms. A simply connected topological space $X$ whose dg-algebra of Sullivan forms $\Omega^\bullet(X)$ is formal is called a **formal topological space**.  (One can also say a __formal rational space__, to distinguish from the unrelated formal spaces in [[formal topology]].)  Such a space represents a **formal homotopy type**.
 
 Examples are
 
@@ -57,7 +57,6 @@ Examples are
 
 ## References
 
-
 For an early discussion of formal dg-algebras in the context of [[rational homotopy theory]] see section 12 of 
 
 * [[Dennis Sullivan]], _Infinitesimal computations in topology_ , Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 (numdam: [djvu](http://archive.numdam.org/article/PMIHES_1977__47__269_0.djvu), [pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
@@ -70,6 +69,14 @@ A survey is around definition 2.1 of
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
-[[!redirects formal space]]
-[[!redirects formal homotopy type]]
 
+[[!redirects formal dg-algebra]]
+[[!redirects formal dg-algebras]]
+
+[[!redirects formal rational space]]
+[[!redirects formal rational spaces]]
+
+[[!redirects formal homotopy type]]
+[[!redirects formal homotopy types]]
+[[!redirects formal rational homotopy type]]
+[[!redirects formal rational homotopy types]]
