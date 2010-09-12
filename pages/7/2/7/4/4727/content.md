@@ -144,12 +144,26 @@ For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more d
 
 * For $\mathfrak{g}$ [[Lie 2-algebra]], a $\mathfrak{g}$-valued differential form in the sense described here is precisely an [[Lie 2-algebra valued form]].
 
-* For $n \in \mathbb{N}$, an $b^{n-1}\mathbb{R}$-valued differential form is the same as an ordinary $n$-form.
+* For $n \in \mathbb{N}$, a $b^{n-1}\mathbb{R}$-valued differential form is the same as an ordinary differential $n$-form.
+
+* What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is really precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the [[supergravity Lie 3-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
+
+
+
 
 ## References
 
-* SSSI, (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+The definitions in terms of [[∞-Lie theory]] as given above appear in
 
+* SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+
+A collection of precursors to these notions is collected at
+
+* [[schreiber:differential cohomology in an (∞,1)-topos -- references]]: <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#InfLieAlgValuedForms">∞-Lie algebra valued forms</a>
+
+The [[Sullivan construction]] in [[rational homotopy theory]] involves really the same concepts as used here. For literature on its interpretation in terms of $\infty$-Lie theory see 
+
+* [[Lie integration]].
 
 
 [[!redirects ∞-groupoid of ∞-Lie-algebra valued forms]]
@@ -163,6 +177,7 @@ For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more d
 [[!redirects ∞-Lie algebra valued differential forms]]
 
 [[!redirects ∞-Lie algebra valued forms]]
+[[!redirects ∞-Lie algebroid valued forms]]
 
 [[!redirects ∞-groupoid of ∞-Lie algebra valued forms]]
 [[!redirects ∞-Lie algebroid valued differential form]]
