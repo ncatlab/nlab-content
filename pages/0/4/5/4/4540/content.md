@@ -190,6 +190,8 @@ In any  [[(∞,1)-topos]] with its intrinsic notion of [[cohomology]], a [[cocyc
 
 After embedding [[∞-Lie algebra]]s into the [[(∞,1)-topos]] of [[∞-Lie groupoid]]s as described [above](#Topos), the same abstract reasoning applies to $\infty$-Lie algebra cocycles and the extensions of $\infty$-Lie algebras that these classify: for $c : \mathfrak{g} \to b^n \mathbb{R} $ a cocycle of $\infty$-Lie algebras, the extension $b^{n-1} \mathbb{R} \to \hat \mathfrak{g} \to \mathfrak{g}$ is the [[homotopy fiber]] of this morphism in [[?LieGrpd]].
 
+> **Warning** there is a subtlety here which needs more discussion: the difference between the embedding and the derived embedding. Both have their meaning and use, but it differs. 
+
 For $\mathfrak{g}$ an ordinary [[Lie algebra]], this reproduces the ordinary notions of extensions from [[Lie algebra cohomology]] and [[nonabelian Lie algebra cohomology]].
 
 **Observation**
@@ -249,3 +251,19 @@ Since [[∞-stackification]] preserves finite [[(∞,1)-limit]]s, this is suffic
 [[!redirects L-∞-algebra cocycles]]
 [[!redirects L-∞ algebra cocycles]]
 [[!redirects Lie ∞-algebra cocoycles]]
+
+
+[[!redirects ∞-Lie algebroid cohomology]]
+[[!redirects L-∞-algebroid cohomology]]
+[[!redirects L-∞ algebroid cohomology]]
+[[!redirects Lie ∞-algebroid cohomology]]
+
+[[!redirects ∞-Lie algebroid cocycle]]
+[[!redirects L-∞-algebroid cocycle]]
+[[!redirects L-∞ algebroid cocycle]]
+[[!redirects Lie ∞-algebroid cocoycle]]
+
+[[!redirects ∞-Lie algebroid cocycles]]
+[[!redirects L-∞-algebroid cocycles]]
+[[!redirects L-∞ algebroid cocycles]]
+[[!redirects Lie ∞-algebroid cocoycles]]
