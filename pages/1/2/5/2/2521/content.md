@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
+=--
+=--
+=--
 
 
 As ordinary [[differential geometry]] studies spaces -- [[manifold]]s -- that locally look like [[vector space]]s, supergeometry studies spaces -- [[supermanifold]]s -- that locally look like [[super vector space]]s.
