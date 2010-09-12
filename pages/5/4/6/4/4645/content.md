@@ -2219,7 +2219,7 @@ from the top two thirds to the bottom row. In this form $\infty$-Lie algebra val
 
 This section gives a concise summary of the constructions introduced above.
 
-### For $G$-principal 1-budles
+### For connections on $G$-principal 1-bundles
 
 We have the following [[diffeological n-groupoid|diffeological 1- or 2-groupoids]].
 
