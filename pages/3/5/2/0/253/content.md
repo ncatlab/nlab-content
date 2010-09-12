@@ -17,19 +17,21 @@ A **bicategory** is a particular [[algebraic definition of higher category|algeb
 
 A **bicategory** $B$ consists of
 
-* A collection of objects $x,y,z,\dots$, also called _0-cells_;
-* For each pair of 0-cells $x,y$ a category $B(x,y)$, whose objects are _1-cells_ and whose morphisms are _2-cells_;
-* For each 0-cell $x$ a distinguished 1-cell $1_x\in B(x,x)$;
-* For each triple of 0-cells $x,y,z$ a functor $\circ:B(y,z)\times B(x,y) \to B(x,z)$; and
-* Natural isomorphisms $f \circ 1_x \cong f \cong 1_y \circ f$ (the [[unitor]]s) and $h\circ (g\circ f) \cong (h \circ g)\circ f$ (the [[associator]]) which satisfy the same axioms as the constraint isomorphisms in a [[monoidal category]].
+* A collection of objects $x,y,z,\dots$, also called _$0$-cells_;
+* For each pair of $0$-cells $x,y$, a category $B(x,y)$, whose objects are _$1$-cells_ and whose morphisms are _$2$-cells_;
+* For each $0$-cell $x$, a distinguished $1$-cell $1_x\in B(x,x)$;
+* For each triple of $0$-cells $x,y,z$, a functor ${\circ}\colon B(y,z)\times B(x,y) \to B(x,z)$;
+* For each pair of $0$-cells $x,y$, [[natural isomorphisms]], called _[[unitors]]_, $id_{B(x,y)} \circ const_{1_x} \cong id_{B(x,y)} \cong const_{1_y} \circ id_{B(x,y)}\colon B(x,y) \to B(x,y)$; and
+* For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism, called the _[[associator]]_, between the two functors from $B_{y,z} \times B_{x,y} \times B_{w,x}$ to $B_{w,z}$ built out of ${\circ}$; such that
+* The same axioms as the constraint isomorphisms in a [[monoidal category]] (which we do not write out in full here) are satisfied.
 
-If there is exactly one 0-cell, say $*$, then the definition is exactly the same as a monoidal structure on the category $B(*,*)$.  This is one of the motivating examples behind the [[delooping hypothesis]] and the general notion of [[k-tuply monoidal n-category]].
+If there is exactly one $0$-cell, say $*$, then the definition is exactly the same as a monoidal structure on the category $B(*,*)$.  This is one of the motivating examples behind the [[delooping hypothesis]] and the general notion of [[k-tuply monoidal n-category]].
 
 
-## Details
+### Details
 {#detailedDefn}
 
-Compare to the [detailed definition of strict $2$-category](/nlab/show/strict+2-category#detailedDefn), which is written in the same style.
+Here we spell out the above definition in full detail.  Compare to the [detailed definition of strict $2$-category](/nlab/show/strict+2-category#detailedDefn), which is written in the same style but is simpler.
 
 A bicategory $B$ consists of
 
@@ -71,7 +73,7 @@ such that
 It is quite possible that there are errors or omissions in this list, although they should be easy to correct.  The point is not that one would *want* to write out the definition in such elementary terms (although apparently I just did anyway) but rather that one *can*.
 
 
-## Examples ##
+## Examples
 
 * Any [[strict 2-category]] is a bicategory in which the unitors and associator are identities.  This includes [[Cat]], [[MonCat]], the algebras for any strict [[2-monad]], and so on, at least as classically conceived.
 
@@ -84,7 +86,7 @@ It is quite possible that there are errors or omissions in this list, although t
 * The [[fundamental 2-groupoid]] of a space is a bicategory which is not necessarily strict (although it can be made strict fairly easily when the space is Hausdorff by quotienting by [[thin homotopy]], see [[path groupoid]] and [[fundamental infinity-groupoid]]). When the space is a CW-complex, there are easier and more computationally amenable equivalent strict 2-categories, such as that arising from the fundamental [[crossed complex]].
 
 
-## Coherence theorems ##
+## Coherence theorems
 
 One way to state the [[coherence theorem]] for bicategories is that every bicategory is [[equivalence of categories|equivalent]] to a strict $2$-category. This "strictification" is not obtained naively by forcing composition to be associative, but (at least in one construction) by freely adding new composites which are strictly associative.  Another way to state the coherence theorem is that every formal diagram of the constraints (associators and unitors) commutes.
 
@@ -93,7 +95,7 @@ Note that $n=2$ is the greatest value of $n$ for which every weak $n$-category i
 The proof of the coherence theorem is basically the same as the proof of the coherence theorem for [[monoidal categories]].  An abstract approach can be found in [[John Power|Power]]'s paper "A general coherence result."
 
 
-## Terminology ##
+## Terminology
 
 Classically, "2-category" meant [[strict 2-category]], with "bicategory" used for the weak notion.  This led to the more general use of the prefix "2-" for strict (that is, strictly [[Cat]]-enriched) notions and "bi-" for weak ones.  For example, classically a "2-adjunction" means a Cat-enriched adjunction, consisting of two strict 2-functors $F,G$ and a strictly Cat-natural isomorphism of categories $D(F X, Y)\cong C(X, G Y)$, while a "biadjunction" means the weak version, consisting of two weak 2-functors and a pseudo natural equivalence $D(F X, Y)\simeq C(X, G Y)$.  Similarly for "2-equivalence" and "biequivalence," and "2-limit" and "bilimit."
 
@@ -104,9 +106,10 @@ Moreover, in most cases the prefix is unnecessary, since once we know we are wor
 When we do have a strict 2-category, however, other strict notions can be quite technically useful, even if our ultimate interest is in the weak ones.  This is somewhat analogous to the use of strict structures to model weak ones in [[homotopy theory]]; see [here](http://arxiv.org/abs/math/0702535) and [here](http://arxiv.org/abs/math/0607646) for good introductions to this sort of thing.
 
 
-## Discussion ##
+## Discussion
 
 Discussion about the use of the term "weak enrichment" above is now at [[weak enrichment]].
 
 
+[[!redirects bicategory]]
 [[!redirects bicategories]]
