@@ -2,15 +2,17 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-* Idea
+* [Idea](#idea)
+* [Basics](#basics)
 * [[examples of Frölicher spaces|Examples]]
 * [[Frölicher spaces and Isbell envelopes|Relationship]] to [[Isbell envelope]]
 * [[topological notions of Frölicher spaces|Topological Matters]]
 * [[tangential notions of Frölicher spaces|Tangential Structures]]
-* References
+* [References](#refs)
 
 
-#Idea#
+# Idea
+{#idea}
 
 A Fr&#246;licher space is one flavour of a [[generalized smooth space]]. 
 
@@ -33,7 +35,8 @@ This project will both record existing structure and develop new ideas.
 It is intentionally in the main area of the $n$-Lab to encourage contributions.
 =--
 
-# Basics # {#basics}
+# Basics
+{#basics}
 
 +-- {: mynumdef #FroelicherSpace}
 ###### Definition
@@ -66,7 +69,8 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally cartesian closed category|locally cartesian closed]].
 
 
-# References #
+# References
+{#refs}
 
 A detailed discussion of the category of Fr&#246;licher spaces and their relation to other notions of [[generalized smooth space]]s is given in
 
@@ -83,10 +87,11 @@ A discussion of [[Lie algebra]]s on Fr&#246;licher [[group]]s ([[group object]]s
 [[!redirects Frölicher spaces]]
 [[!redirects Frolicher space]]
 [[!redirects Frolicher spaces]]
+[[!redirects Froelicher space]]
 [[!redirects Froelicher spaces]]
 [[!redirects Frölicher Space]]
 [[!redirects Frölicher Spaces]]
 [[!redirects Frolicher Space]]
 [[!redirects Frolicher Spaces]]
-[[!redirects Froelicher Spaces]]
 [[!redirects Froelicher Space]]
+[[!redirects Froelicher Spaces]]
