@@ -1,11 +1,34 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
+
+* [[category]]
+
+* [[bicategory]]
+
+* [[tricategory]]
+
+* **tetracategory**
+
+***
+
+#Contents#
+* table of contents
+{:toc}
 
 
-#Idea#
+## Idea
 
 Tetracategories are the [[algebraic definition of higher category]] for the most general (i.e. weak) [[n-category|4-categories]].
+
+## References
 
 The structure of a tetracategories was given by [[Todd Trimble]].
 
@@ -22,12 +45,3 @@ The structure of a tetracategories was given by [[Todd Trimble]].
   * [[U54unitcondition.pdf:file]]
 
 
-#Remarks#
-
-see also
-
-* [[bicategory]]
-
-* [[tricategory]]
-
-[[!redirects tetracategories]]
