@@ -162,5 +162,8 @@ This identity is the **Bianchi identity for $\infty$-Lie algebra valued forms**.
 
 The Bianchi identity for [[∞-Lie algebroid valued differential forms]] is discussed in 
 
-* SSSI, (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+* SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
+
+
+[[!redirects Bianchi identities]]
