@@ -25,7 +25,7 @@ Sullivan models are a central tool in [[rational homotopy theory]].
 ## Definition
 
 
-Sullivan models are particularly simple [[dg-algebra]]s that are equivalent to the dg-algebras of Sullivan differrential forms on topological spaces. Conversely, every rational space can be obtained from a dg-algebra and the _minimal_ Sullivan algebras proovide convenient representatives that correspond bijectively to rational homtopy types under this correspondence.
+Sullivan models are particularly simple [[dg-algebra]]s that are equivalent to the dg-algebras of Sullivan differrential forms on topological spaces. Conversely, every rational space can be obtained from a dg-algebra and the _minimal_ Sullivan algebras provide convenient representatives that correspond bijectively to rational homtopy types under this correspondence.
 
 We now describe this in detail. First some notation and preliminaries:
 
@@ -310,6 +310,20 @@ This appears for instance as corollary 1.26 in
 
 =--
 
++-- {: .un_corollary }
+###### Corollary
+
+
+It follows that if $(\wedge^^\bullet V^{*}, d)$ is a minimal Sullivan model for $X$, then the rational homotopy groups of $X$ can be read off from the generators $V$:
+
+$$
+  \pi_\bullet(X) \otimes \mathbb{Q} \simeq V
+  \,.
+$$
+
+=--
+
+
 
 ## Examples 
 
@@ -343,3 +357,6 @@ Sullivan algebras and minimal algebras appear in def 1.10
 [[!redirects Sullivan algebras]]
 [[!redirects Sullivan minimal algebra]]
 [[!redirects Sullivan minimal algebras]]
+
+[[!redirects minimal Sullivan model]]
+[[!redirects minimal Sullivan models]]
