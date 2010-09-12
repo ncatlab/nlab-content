@@ -156,6 +156,10 @@ The canonical example for a torsor in $C$ is the [[trivial torsor]] over a [[she
 
 (...)
 
+### Group extensions {#GroupExtensions}
+
+Every [[group extension]] $A \to \hat G \to G$ canonically equips $\hat G$ with the structure of an $A$-torsor over $G$. See <a href="http://ncatlab.org/nlab/show/group+extension#Torsors">Group extensions as torsors</a> for details
+
 ## Properties {#Properties}
 
 
