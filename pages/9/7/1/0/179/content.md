@@ -397,7 +397,7 @@ Using this the total complex of $N C^\infty(-)$ of this bisimplicial set is mani
 
 see 
 
-* [[schreiber:∞-Lie algebroid valued differential forms]]
+* [[∞-Lie algebroid valued differential forms]]
 
 * [[∞-Chern-Weil theory]]
 
