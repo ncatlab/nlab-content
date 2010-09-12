@@ -13,12 +13,19 @@
 =--
 =--
 
+* **associator** , [[unitor]], [[Jacobiator]]
 
-#Contemts#
+* [[pentagonator]], [[hexagonator]]
+
+***
+
+#Contents#
 * table of contents
 {:toc}
 
 ## Idea
+
+An _associator_ in [[category theory]] and [[higher category theory]] is an [[isomorphism]] that relaxes the ordinary [[associativity]] _equality_ of a binary operation.
 
 ### In Bicategories
 
