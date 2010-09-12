@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
@@ -18,11 +22,10 @@
 
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 In 1981 D'Auria and Fr&#233; noticed, in [GeSuGra](#References), that the intricacies of various [[supergravity]] [[classical field theory|classical field theories]] have a strikingly powerful reformulation in terms of [[semifree dga|semifree differential graded-commutative algebra]]s. 
 
@@ -32,31 +35,29 @@ Here we describe this formalism in the way it is usually presented, and at the s
 
 **Abstract nonsense reinterpretation** of the D'Auria-Fr&#233; formalism:
 
-The theory of [[supergravity]] (at least as a [[classical field theory]]) is a theory of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s with values in the [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$.
-
-This identifies field configurations of supergravity with [[connection on a bundle|connections]] on certain [[principal ∞-bundle]]s.
+The theory of [[supergravity]] (at least as a [[classical field theory]]) is a theory of [[connections on ∞-bundles]]. The fields are locally [[∞-Lie algebra valued forms]] with values for instance in the [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$ (for maximal 11-dimensional supergravity).
 
 =--
 
-The pivotal concept that allows to pass between this interpretation and the D'Auria-Fr&#233;-formalism is the concept of [[schreiber:∞-Lie algebroid|∞-Lie algebroid]] with its various incarnations:
+The pivotal concept that allows to pass between this interpretation and the D'Auria-Fr&#233;-formalism is the concept of [[∞-Lie algebroid]] with its various incarnations:
 
 +-- {: .standout}
 
 **Incarnations of $\infty$-Lie algebroids**
 
-A (super) [[schreiber:∞-Lie algebroid|∞-Lie algebroid]] 
+A (super) [[∞-Lie algebroid]] 
 
-* is an [[infinitesimal space|infinitesimal]] (super)[[schreiber:∞-Lie groupoid|∞-Lie groupoid]]
+* is an [[infinitesimal space|infinitesimal]] (super)[[∞-Lie groupoid]]
 
 * that may be modeled as a [[simplicial object|simplicial]] (super) [[infinitesimal space]]
 
-* whose [[schreiber:∞-quantity|∞-quantity]] of functions is a [[cosimplicial algebra|cosimplicial]] ([[super algebra|super]]) algebra
+* whose [[function algebras on ∞-stacks|function algebra]] is a [[cosimplicial algebra|cosimplicial]] ([[super algebra|super]]) algebra
 
-* that under the [[monoidal Dold-Kan correspondence]] maps to a (super) [[semifree dga|semifree differential graded-commutative algebra]]: the [[Chevalley-Eilenberg algebra]] of the (super) [[schreiber:∞-Lie algebroid|∞-Lie algebroid]].
+* that under the [[monoidal Dold-Kan correspondence]] maps to a (super) [[semifree dga|semifree differential graded-commutative algebra]]: the [[Chevalley-Eilenberg algebra]] of the (super) [[∞-Lie algebroid]].
 
 =--
 
-Notably the [[semifree dga]] that D'Auria-Fr&#233; base the description of 11-dimensioonal [[supergravity]] on is the [[Chevalley-Eilenberg algebra]] of the [[supergravity Lie 3-algebra]], which is an [[L-infinity-algebra|∞-Lie algebra]] that is a higher central extension 
+Notably the [[semifree dga]] that D'Auria-Fr&#233; base the description of 11-dimensioonal [[supergravity]] on is the [[Chevalley-Eilenberg algebra]] of the [[supergravity Lie 3-algebra]], which is an [[∞-Lie algebra]] that is a [[∞-Lie algebra cohomology|higher central extension]]
 
 $$
   0 \to b^2 \mathfrak{u}(1)
@@ -67,9 +68,9 @@ $$
   0
 $$
 
-of a [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$ in the way the [[String Lie 2-algebra]] $\mathfrak{string}(n)$ is a higher central extension of $\mathfrak{so}(n)$.
+of a [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$ in the way the [[String Lie 2-algebra]] $\mathfrak{string}(n)$ is a higher central extension of the [[special orthogonal Lie algebra]] $\mathfrak{so}(n)$.
 
-A super [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]] with values in $\mathfrak{sugra}(10,1)$ on a [[supermanifold]] $X$ is locally given by [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]] consisting of
+A super [[connection on an ∞-bundle]] with values in $\mathfrak{sugra}(10,1)$ on a [[supermanifold]] $X$ is locally given by [[∞-Lie algebroid valued differential forms]] consisting of
 
 * a $\mathbb{R}^{11}$-valued 1-form $e$ 
 
@@ -81,39 +82,39 @@ A super [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connect
 
 These are identified with the fields of 11-dimensional [[supergravity]], respectively:
 
-* the _graviton_ $(e, \omega)$
+* the _[[graviton]]_ $(e, \omega)$
 
-* the _gravitino_ $\psi$
+* the _[[gravitino]]_ $\psi$
 
 * the _[[supergravity C-field]]_ $C$ .
 
 
-By realizing this data as components of a Lie 3-algebra valued connection (more or less explciitly), the D'Auria-Fr&#233;-formalism achieves some conceptual simplication of 
+By realizing this data as components of a Lie 3-algebra valued connection (more or less explicitly), the D'Auria-Fr&#233;-formalism achieves some conceptual simplication of 
 
 * the construction of supersymmetric [[supergravity]] [[action functional]]s;
 
 * the determination of the corresponding classical equations of motion.
 
 
-## _nomen est omen_ - the higher gauge theory reinterpretation ##
+### _Nomen est omen_ - Higher gauge theory reinterpretation 
 
 Originally D'Auria and Fr&#233; referred to commutative [[semifree dga]]s as as _Cartan integrable systems_ . Later the term _free differential algebra_, abbreviated _FDA_ was used instead and became popular. Nowadays much of the literature that studies commutative [[semifree dga]]s in [[supergravity]] refers to them as "FDA"s. One speaks of the _FDA approach to supergravity_ . 
 
 But strictly speaking "free differential algebra" is a misnomer: genuinely free differential algebras are pretty boring objects. Crucially it is _only_ the underlying graded commutative algebra which is required to be free as a graded commutative algebra in that it is a [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^*$ on a [[graded vector space]] $\mathfrak{g}^*$. The differential on that is in general not free, hence the more precise term _[[semifree dga]]_ . 
 
-In fact, when $\mathfrak{g}$ is concentrated in non-positive degree (so that $\wedge^\bullet \mathfrak{g}^*$ is concentrated in non-negative degree) the differential on $\wedge^\bullet \mathfrak{g}^{*}$ encodes all the structure of an [[L-infinity algebroid|∞-Lie algebroid]] on $\mathfrak{g}$. If $\mathfrak{g}$ is concentrated in negative degree the differential encodes the structure of an [[L-infinity algebra|∞-Lie algebra]] on $\mathfrak{g}$. This interpretation of [[semifree dga]]s in [[Lie theory]] is the key to our _abstract nonsense reformulation_ of the D'Auria-Fr&#233;-formalism.
+In fact, when $\mathfrak{g}$ is concentrated in non-positive degree (so that $\wedge^\bullet \mathfrak{g}^*$ is concentrated in non-negative degree) the differential on $\wedge^\bullet \mathfrak{g}^{*}$ encodes all the structure of an [[∞-Lie algebroid]] on $\mathfrak{g}$. If $\mathfrak{g}$ is concentrated in negative degree the differential encodes the structure of an [[∞-Lie algebra]] on $\mathfrak{g}$. This interpretation of [[semifree dga]]s in [[Lie theory]] is the key to our _general abstract reformulation_ of the D'Auria-Fr&#233;-formalism.
 
 Already D'Auria and Fr&#233; themselves, and afterwards other authors, have tried to better understand the intrinsic conceptual meaning of their [[dg-algebra]] formalism that happened to be so useful in [[supergravity]]: 
 
-the idea arose and then became pupular in the "FDA"-literature that the D'Auria-Fr&#233;-formalism should be about a concept called **[[soft group manifold]]s**. This is motivated from the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the Maurer-Cartan forms of left-inavriant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan equation has a "0" on one side, these equations for supergravity fields have a possibly non-vanishing [[field strength]]. These generalized Maurer-Cartan equations are suggested in the "FDA"-literature to describe generalized or "softened" group manifolds.
+the idea arose and then became pupular in the "FDA"-literature that the D'Auria-Fr&#233;-formalism should be about a concept called **[[soft group manifold]]s**. This is motivated from the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the [[Maurer-Cartan form]]s of left-inavriant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan form has vanishing [[curvature]] (= [[field strength]]) these equations for supergravity fields have a possibly non-vanishing [[field strength]]. These generalized Maurer-Cartan equations are suggested in the "FDA"-literature to describe generalized or "softened" group manifolds.
 
-However, even when the field strengths _do_ vanish the remaining collection of differential forms does not constrain the base manifold to be a group. Rather, if the field strenghs vanish we have a natural interpretation of the remaining differential form data as being flat [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]], given by a morphism
+However, even when the field strengths _do_ vanish does the remaining collection of differential forms not constrain the base manifold to be a group. Rather, if the field strenghs vanish we have a natural interpretation of the remaining differential form data as being flat [[∞-Lie algebroid valued differential forms]], given by a morphism
 
 $$
   A : T X \to \mathfrak{g}
 $$
 
-from the [[tangent Lie algebroid]] of the base [[manifold]] $X$ to the [[L-infinity-algebra|∞-Lie algebra]] $\mathfrak{g}$ encoded by the [[semifree dga]] in question. In fact, applying the functor from [[Lie infinity-algebroid|∞-Lie algebroid]]s to [[dg-algebra]]s given by forming [[Chevalley-Eilenberg algebra]]s, the above morphism turns into a [[dg-algebra]] morphism
+from the [[tangent Lie algebroid]] of the base [[manifold]] $X$ to the [[∞-Lie algebra]] $\mathfrak{g}$ encoded by the [[semifree dga]] in question. In fact, applying the functor from [[∞-Lie algebroid]]s to [[dg-algebra]]s given by forming [[Chevalley-Eilenberg algebra]]s, the above morphism turns into a [[dg-algebra]] morphism
 
 $$
   \Omega^\bullet(X)
@@ -135,7 +136,7 @@ $$
   A
 $$
 
-together with a constraint that the morphism respect the differentials on $CE(\mathfrak{g})$ and on $\Omega^\bullet(X)$. Such a morphism of graded vector spaces in canonically identified with a $\mathfrak{g}$-valued differential form (recall that $\mathfrak{g}$ is a  [[graded vector space]])
+together with a constraint that the morphism respects the differentials on $CE(\mathfrak{g})$ and on $\Omega^\bullet(X)$. Such a morphism of graded vector spaces in canonically identified with a $\mathfrak{g}$-valued differential form (recall that $\mathfrak{g}$ is a  [[graded vector space]])
 
 $$ 
   \omega \in \Omega^\bullet(X,\mathfrak{g})
@@ -161,61 +162,60 @@ $$
   A
 $$
 
-one has to apply [[Lie integration]] of the [[Lie infinity-algebroid|∞-Lie algebroid]] morphism $T X \to \mathfrak{g}$ to a morphism of [[Lie infinity-groupoid|∞-Lie groupoid]]s
+one has to apply [[Lie integration]] of the [[∞-Lie algebroid]] morphism $T X \to \mathfrak{g}$ to a morphism of [[∞-Lie groupoid]]s
 
 $$
   \Pi(X) \to \mathbf{B}G
 $$
  
-where $\Pi(X)$ is the [[path infinity-groupoid|path ∞-groupoid]] and where $\mathbf{B}G$ is the [[delooping]] of an [[n-group]] $G$ that integrates the [[L-infinity-algebra|Lie n-algebra]] $\mathfrak{g}$.
-Such morphisms are the integrated version of flat [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]].
+where $\Pi(X)$ is the [[path ∞-groupoid]] and where $\mathbf{B}G$ is the [[delooping]] of [[infinity-Lie groupoid|Lie in-group]] $G$ that integrates the [[Lie n-algebra]] $\mathfrak{g}$.
+Such morphisms are the integrated version of flat [[∞-Lie algebroid valued differential forms]].
 
-The theory of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connections]] is about 
+The [[∞-Chern-Weil theory]] of [[connections on ∞-bundles]] is about 
 
-1. the generalization of such flat form data to [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]] with [[schreiber:curvature|∞-Lie algebroid valued curvature]].
+1. the generalization of such flat form data to [[∞-Lie algebroid valued differential forms]] with [[curvature]].
 
-1. the generalization from globally defined differential form data -- which are connections on _trivial_ [[principal ∞-bundle]]s -- to [[schreiber:theory of differential nonabelian cohomology|differential cocycles]] encoding connections on arbitrary [[principal ∞-bundle]]s.
+1. the generalization from globally defined differential form data -- which are connections on _trivial_ [[principal ∞-bundle]]s -- to connections on arbitrary [[principal ∞-bundle]]s.
 
-The D'Auria-Fr&#233;-formalism, after our re-interpretation, is about the first of these points. So as an immediate gain of our reformlation of D'Auria-Fr&#233;-formalism in terms of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s we obtain, using the second of these points, a natural proposal for a formulation of [[supergravity]] field configurations that are globally topologically nontrivial. Physicists speak of **instanton solutions**.
+The D'Auria-Fr&#233;-formalism -- after this re-interpretation -- is about the first of these points. So as an immediate gain of our reformlation of D'Auria-Fr&#233;-formalism in terms of [[connections on ∞-bundles]]s we obtain, using the second of these points, a natural proposal for a formulation of [[supergravity]] field configurations that are possibly globally topologically nontrivial. Physicists speak of **instanton solutions**.
 
 In fact, 
 
 +-- {: .standout}
 
-our reformulation exhibits the D'Auria-Fr&#233;-formalism as being secretly the realization of [[supergravity]] as a higher [[gauge theory]].
+The [[∞-Lie theory]]-reformulation exhibits the D'Auria-Fr&#233;-formalism as being secretly the realization of [[supergravity]] as a higher [[gauge theory]].
 
 =--
 
-In fact, it realizes supergravity as an example for a _nonabelian_ higher gauge theory in that a [[supergravity]] field configuration is not realizable as a cocycle in [[differential cohomology|abelian differential cohomology]] as in ordinary abelian higher [[gauge theory]] (see there) but as a cocycle in [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]].
+It realizes supergravity as an example for a _nonabelian_ higher gauge theory in that a [[supergravity]] field configuration is not realizable as a cocycle in [[ordinary differential cohomology]] as in ordinary abelian higher [[gauge theory]] (see there) but as a nonabelian [[connection on an ∞-bundle]].
 
 
+## Details 
 
-# Details #
+### The supergravity Lie 3-algebra 
 
-## the supergravity Lie 3-algebra ##
-
-recall [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$
+recall the [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$
 
 ...
 
-## super Lorentzian spacetime manifolds ##
+### Super Lorentzian spacetime manifolds 
 
-The base space $X$ on which a [[supergravity]] field is a super Lie $n$-algebra valued [[schreiber:Cartan-Ehresmann infinity-connection|...]] is a [[supermanifold]].
+The base space $X$ on which a [[supergravity]] field is a super Lie $n$-algebra valued [[connection on an ∞-bundle]] is a [[supermanifold]].
 
 In particular, for constructing the [[action functional]] of [[supergravity]] we want $X$ to locally look like [[super Minkowski space]].
 
 
-## field configuration and field strength ##
+### Field configuration and field strength 
 
 
 A local field configuration on a [[supermanifold]] $X$ in the [[classical field theory]] is a morphism
  
 $$
-  \Pi^{inf}(X) \stackrel{(A, F_A)}{\to}
+  T X \stackrel{(A, F_A)}{\to}
   inn(\mathfrak{sugra}(\mathfrak{g}))
 $$
 
-from the [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]] to the inner-derivation Lie 4-algebra $inn(\mathfrak{sugra}(10,1))$. Dually this is a morhism of [[dg-algebra]]s from the [[Weil algebra]] $W(\mathfrak{sugra}(10,1))$ to the [[deRham dg-algebra]] $\Omega^\bullet(X)$ of $X$:
+from the [[tangent Lie algebroid]] to the inner-derivation Lie 4-algebra $inn(\mathfrak{sugra}(10,1))$, defined as the formal dual of the [[Weil algebra]] of $\mathfrak{sugra}$). So dually this is a morhism of [[dg-algebra]]s from the [[Weil algebra]] $W(\mathfrak{sugra}(10,1))$ to the [[deRham dg-algebra]] $\Omega^\bullet(X)$ of $X$:
 
 $$
   \Omega^\bullet(X)
@@ -226,7 +226,7 @@ $$
    \,.
 $$
 
-This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid differential form data]] with [[schreiber:curvature|∞-Lie algebroid valued curvature]] that is explicitly given by:
+This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞-Lie algebroid valued curvature]] that is explicitly given by:
 
 
 * connection forms / field configuration
@@ -239,7 +239,7 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
 
   * $C \in \Omega^3(X)$ -- a 3-form (the [[supergravity C-field]])
 
-* [[schreiber:curvature|curvature]] forms / [[field strength]]s
+* [[curvature]] forms / [[field strength]]s
 
   * $T = d E + \Omega \cdot E + \Gamma(\bar \Psi \wedge \Psi) \in \Omega^2(X,\mathbb{R}^{10,1})$ - the **torsion**
 
@@ -250,122 +250,52 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
   * $G = d C + \mu_4(\psi, E) \in \Omega^4(X)$ -- the **4-form field strength**
 
 
-## gauge transformations ##
+### Gauge transformations 
 
-There is an evident notion of _gauge transformations_ (i.e. isomorphisms) of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s. We unwrap this and derive this way the formulation of gauge transformations as used in the [literature](#References) on the  D'Auria-Fr&#233; formalism.
+There is an evident notion of _gauge transformations_ (i.e. [[isomorphism]]s) of [[∞-Lie algebra valued forms]]s. We unwrap this and derive this way the formulation of gauge transformations as used in the [literature](#References) on the  D'Auria-Fr&#233; formalism.
 
-Recall -- from the discussion at [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]] -- that $\infty$-connections on a trivial [[principal ∞-bundle]] (to which we restrict attention here) on a space $X$ with values in an [[L-infinity algebra|L-∞-algebra]] $\mathfrak{g}$ are encoded by a diagram
+Recall -- from the discussion at [[connection on an ∞-bundle]] -- that $\infty$-connections on a trivial [[principal ∞-bundle]] (to which we restrict attention here) on a space $X$ with values in an [[∞-Lie-algebra]] $\mathfrak{g}$ are encoded by diagrams
 
-$$
-  \array{
-    \Pi^{inf}(X) &\stackrel{A}{\to}& cone(\mathfrak{g})
-    \\
-    \downarrow^{id} && \downarrow
-    \\
-    \Pi^{inf}(X) &\stackrel{P(F_A)}{\to}& 
-    \Sigma \mathfrak{g}
-  }
-$$
-
-of [[schreiber:∞-Lie algebroid|∞-Lie algebrboid]]s, which dually, after passing to [[Chevalley-Eilenberg algebra]]s, becomes a diagram of [[dg-algebra]]s
 
 $$
   \array{
-    \Omega^\bullet(X) &\stackrel{A}{\leftarrow}& W(\mathfrak{g})
+    \Omega^\bullet(X) \otimes C^\infty(\Delta^n)
+    &\stackrel{A_{vert}}{\leftarrow}&
+    CE(\mathfrak{g})
+    &&&
+    gauge\;transformation
     \\
     \uparrow && \uparrow
     \\
-    \Omega^\bullet(X)
-    &\stackrel{\{P(F_A)\}}{\leftarrow}&
+    \Omega^\bullet(X) \otimes \Omega^\bullet(\Delta^n)
+    &\stackrel{A}{\leftarrow}&
+    W(\mathfrak{g})
+    &&& connection
+    \\
+    \uparrow && \uparrow
+    \\
+    (\Omega^\bullet(X)\otimes C^\infty(\Delta^n))_{cl}
+    &\stackrel{\langle F_A \rangle}{\leftarrow}&
     inv(\mathfrak{g})
+    &&&
+    gauge\;invariant\;field\;strength\;observables
   }
-  \,,
 $$
 
-where $W(\mathfrak{g})$ is the [[Weil algebra]] and $inv(\mathfrak{g})$ the algebra of [[invariant polynomial]]s of $\mathfrak{g}$, where $F_A$ denotes the [[schreiber:curvature|curvature]] forms and $P(F_A)$ the collection of [[schreiber:curvature|curvature characteristic forms]] built from them.
+for $n = 0$, where $W(\mathfrak{g})$ is the [[Weil algebra]] and $inv(\mathfrak{g})$ the algebra of [[invariant polynomial]]s of $\mathfrak{g}$, where $F_A$ denotes the [[curvature]] forms and $\langle F_A\rangle$ the collection of [[curvature characteristic form]]s built from them.
 
 A gauge transformation between two field configurations
 
 $$
-  \phi, \phi' : \Pi^{inf}(X) \to cone(\mathfrak{g})
+  \phi, \phi' : T X \to inn(\mathfrak{g})
 $$
 
-is modeld by a left [[homotopy]] $\phi \Rightarrow \phi'$ 
-(in the corresponding [[model category]] structure that [[presentable (infinity,1)-category|presents]] this higher categoriccal setup) which extends to  a homotopy of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connections]] in that it fits into a diagram
+is such a diagram for $n = 1$.
 
-$$
-  \array{
-    \Pi^{inf}(X) &\stackrel{\nearrow \downarrow\searrow^{\phi}}{\searrow \nearrow_{\phi'}}& 
-      cone(\mathfrak{g})
-    \\
-    \downarrow^{id} && \downarrow
-    \\
-    \Pi^{inf}(X) &\stackrel{P(\phi) = P(\phi')}{\to}& \Sigma \mathfrak{g}
-  }
-$$
-
-meaning that $\eta$ does not affect the [[schreiber:curvature|curvature characteristic forms]] associated with the two fields $\phi$ and $\phi'$.
-
-In terms of the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[semifree dga]]s
-this means more explicitly that a gauge transformation is presented by
-
-* a morphism
-
-  $$
-    \eta : \Omega^\bullet(X\times I) \leftarrow W(\mathfrak{g})
-    \,,
-  $$
-
-  where $I = [0,1]$ is the standard interval, 
-
-* such that 
-
-  * its restriction
-    to the two endpoints of the interval 
-    reproduces $\phi$ and $\phi'$, respectively,
-    i.e. such that we have a commuting diagram
-
-    $$
-      \array{
-        \Omega^\bullet(X)
-        \\
-        \;\;\uparrow^{(Id \times i_0)^*} & \nwarrow^{\phi}
-        \\
-        \Omega^\bullet(X \times I) 
-        &\stackrel{\eta}{\leftarrow}&  W(\mathfrak{g})
-        \\
-        \;\;\downarrow^{(Id \times i_1)^*} 
-           & \swarrow_{\phi'}
-        \\
-        \Omega^\bullet
-      }
-      \,,
-    $$ 
-
-    where $i_0, i_1 : {*} \to I$ are the two endpoint inclusions of the interval
-    
-  * and such that the composite $\Omega^\bullet(X \times I) \stackrel{\eta}{\leftarrow} W(\mathfrak{g}) \stackrel{}{\leftarrow} inv(\mathfrak{g})$  which computes the [[schreiber:curvature|curvature characteristic form]]s of $\eta$, is constant along $I$, in that we have a commuting
-    diagram
-    
-    $$
-      \array{
-        \Omega^\bullet(X \times I) 
-         &\stackrel{\eta}{\leftarrow}&
-        W(\mathfrak{g})
-        \\
-        \uparrow && \uparrow
-        \\
-        \Omega^\bullet(X) &\stackrel{\{P(F_A)\}}{\leftarrow}&
-         inv(\mathfrak{g})
-      }
-      \,,
-    $$
-
-    where the left vertical morphism is pullback along the projection $X \times I \to X$.
 
 We now unwrap what this means explicitly in terms of generators of [[dg-algebra]]s and find the physics literature expression for gauge transformations this way:
 
-Let $V$ be the [[graded vector space]] underlying the [[L-infinity algebra|L-∞-algebra]] $\mathfrak{g}$, and let $V^*$ its degreewise dual. Recall that the underlying graded-commutative algebra of the [[Weil algebra]] $W(\mathfrak{g)$ is the [[Grassmann algebra]] $\wedge^\bullet V^* \oplus V^*[1]$ on $V^*$ plus its degree-shifted copy. 
+Let $V$ be the [[graded vector space]] underlying the [[∞-Lie algebra]] $\mathfrak{g}$, and let $V^*$ its degreewise dual. Recall that the underlying graded-commutative algebra of the [[Weil algebra]] $W(\mathfrak{g)$ is the [[Grassmann algebra]] $\wedge^\bullet V^* \oplus V^*[1]$ on $V^*$ plus its degree-shifted copy. 
 
 * Choose a basis $\{t^a\}$ of $V^*$ of homogeneous degree elements. Write $\{\sigma t^a\}$ for the corresponding basis of $V^*[1]$.  On a homogeneous basis element $t^a \in V^*$ of degree $k$ in the remaining unshifted copy $\eta$ may be written as
 
@@ -407,45 +337,39 @@ where
 
 * $C^a{}_{b c}$ are the structure constants of $d_{\mathfrak{g}}$ in our chosen basis of $V^*$ 
 
-* $F_{\eta}^a$ is the [[schreiber:curvature|curvature]] component of $\eta$ (the image or $\sigma t^a$ under $\eta$) along the interval.  
+* $F_{\eta}^a$ is the [[curvature]] component of $\eta$ (the image or $\sigma t^a$ under $\eta$) along the interval.  
 
 This is the familiar **equation for infinitesimal gauge transformations** as it appears in the [references](#references). Or almost:
 
 +-- {: .un_remark}
 ###### Remark 
 
-In [[Supergravity and Superstrings - A Geometric Perspective|SugraGeomPersp]] a notion called
-"Lie derivative on soft group manifolds" is proposed
-(p. 125) and later used essentially for gauge transformations as above. It leads to a formula
-that looks like the above, but contains an extra
+In [[Supergravity and Superstrings - A Geometric Perspective|SugraGeomPersp]] a notion called "Lie derivative on soft group manifolds" is proposed
+(p. 125) and later used essentially for gauge transformations as above. It leads to a formula that looks like the above, but contains an extra
 curvature term.
 
 But the idea of "soft group manifold" itself
 seems to [[Urs Schreiber|me]] not to have a precise
 definition (in fact this entry is based on the 
 claim that what is called "soft group manifold" there
-is trying to capture the idea of [[schreiber:∞-Lie algebroid valued differential forms|L-∞-algebra valued connection forms]] instead) and 
+is trying to capture the idea of [[∞-Lie algebra valued forms]] instead) and 
 to that extent it remains unclear what 
 equation (I.3.135) actually encodes. 
 
-This is in particular a problem
-when $\mathfrak{g}$ is not just an ordinary [[Lie algebra]]
-but a general [[L-∞-algebra]] with higher degree
+This is in particular a problem when $\mathfrak{g}$ is not just an ordinary [[Lie algebra]] but a general [[∞-Lie algebra]] with higher degree
 generators. This latter
-problem seems to be the issue that section 2.3 of [Castellani 05](http://arxiv.org/abs/hep-th/0508213) wants to formalize and clarify. There, too, the idea "soft group 
-manifold" is appealed to, though.
+problem seems to be the issue that section 2.3 of [Castellani 05](http://arxiv.org/abs/hep-th/0508213) wants to formalize and clarify. There, too, the idea "soft group  manifold" is appealed to, though.
 
-Notice that the above formula makes unambiguous and 
-perfect sense for all $L_\infty$-algebras $\mathfrak{g}$.
+Notice that the above formula makes unambiguous and  perfect sense for all [[∞-Lie algebra]] $\mathfrak{g}$.
 
-**However** in most cases where the proposed formula including that additional curvature term is actually _used_ to do something, it is used for what below we identify as the action of _diffeomorphisms_  on 
-[[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential form]]s. 
+_However_ in most cases where the proposed formula including that additional curvature term is actually _used_ to do something, it is used for what below we identify as the action of _diffeomorphisms_  on 
+[[∞-Lie algebroid valued differential form]]s. 
 
 =--
 
-## diffeomorphism action on field configurations ##
+### Diffeomorphism action on field configurations 
 
-The [[diffeomorphism]] group of $X$ (be $X$ a [[manifold]] or a [[supermanifold]]) acts in an obvious way on [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connections]] on $X$. For diffeomorphisms that generated by a vector field $v$ this is infinitesimally given by the action of the corresponding [[Lie derivative]] on the given [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]].
+The [[diffeomorphism]] group of $X$ (be $X$ a [[manifold]] or a [[supermanifold]]) acts in an obvious way on [[∞-Lie algebra valued forms]] on $X$. For diffeomorphisms that generated by a vector field $v$ this is infinitesimally given by the action of the corresponding [[Lie derivative]] on the given $\infty$-Lie algebra valued forms.
 
 So let $v$ be a vector field on $X$ (here $X$ may be a [[supermanifold]] and $v$ may, accordingly, be an odd vector field). Then $v$ generates a [[diffeomorphism]]
 
@@ -467,20 +391,20 @@ Since this diffomorphism is connected to the identity, there is in fact a [[homo
 
 $$
   \array{
-    \Pi^{inf}(X)
+    T X
      \\
-     \downarrow & \searrow^{\phi}
+     \downarrow & \searrow^{\mathrlap{\phi}}
      \\
-   \Pi^{inf}(X \times I) &\stackrel{\eta = \exp(v)_s^* \phi}{\to}& cone(\mathfrak{g})
+   T (X \times I) &\stackrel{\eta = \exp(v)_s^* \phi}{\to}& inn(\mathfrak{g})
      \\
-     \uparrow & \nearrow_{\exp(v)^*  \phi}
+     \uparrow & \nearrow_{\mathrlap{\exp(v)^*  \phi}}
      \\
-     \Pi^{inf}(X)
+     T (X)
   }
   \,.
 $$
 
-This is not necessarily a _gauge transformation_ as [above](#gauge transformations), in that the [[schreiber:curvature|curvature characteristic forms]] are also pulled back along the diffeomorphism and not required to be constant.
+This is not necessarily a _gauge transformation_ as [above](#gauge transformations), in that the [[curvature characteristic forms]] are also pulled back along the diffeomorphism and not required to be constant.
 
 If we again write $\bar \phi^a := \eta(t^a)$ for $t^a \in V^*$ a basis element, then we find that $\bar \phi^a$ varies with the canonical coordinate $s$ on the interval according to
 
@@ -497,7 +421,7 @@ $$
   \,.
 $$
 
-Let in particular $\phi$ be a supergravity field and let $t^a$ be a generator of the (super)-translation piece of the [[super Poincare Lie algebra]], then $\phi^a$ is a component of the (super) _vielbein_  and we write
+Let specifically $\phi$ be a supergravity field and let $t^a$ be a generator of the (super)-translation piece of the [[super Poincare Lie algebra]], then $\phi^a$ is a component of the (super) _vielbein_  and we write
 
 $$
   \iota_v \phi^a = \phi^a(v) = \epsilon^a
@@ -513,17 +437,17 @@ $$
 where...
 
 
-## rheonomy ##
+### Rheonomy 
 
-### Idea ###
+#### Idea 
 
 As discussed above, a **field configuration** in [[supergravity]] is a morphism
 
 $$
-  \Pi^{inf}(X) \to \mathfrak{a}
+  A : T X \to \mathfrak{a}
 $$
 
-from the [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]] of the spacetime [[supermanifold]] $X$ to some super [[schreiber:∞-Lie algebroid|∞-Lie algebroid]] $\mathfrak{a}$.
+from the [[tangent Lie algebroid]] of the spacetime [[supermanifold]] $X$ to some super [[∞-Lie algebroid]] $\mathfrak{a}$.
 
 This [[supergeometry]] interpretation of fields in [[supergravity]] gives an immediate interpretatoin of the **[[supersymmetry]]** that the [[supergravity]] [[action functional]] $S_{sugra}$ is supposed to enjoy: this just says that 
 
@@ -540,13 +464,13 @@ $$
 
 =--
 
-So this is nothing but the super-refinement of the familiar diffeomorphism invariance of the Einstein-Hilbert action of ordinary [[gravity]].
+So this is nothing but the super-refinement of the familiar diffeomorphism invariance of the [[Einstein-Hilbert action]] of ordinary [[gravity]].
 
-While this is conceptually very useful, in much of the literature the supersymmetry of supergravity is not conceived in this way. The reason for that is that in the standard supergravity theories that physicists are interested in, a field configuration is _not_ a _general_ superfield $\Pi^{inf}(X) \to \mathfrak{a}$: rather, it is one whose components (listed above: graviton, gravitino, fermions, etc.) appear like fields on the _ordinary_ spacetime manifold $X_{red}$ underlying the [[supermanifold]] $X$. 
+While this is conceptually very useful, in much of the literature on supersymmetry of supergravity is not conceived in this way. The reason for that is that in the standard supergravity theories that physicists are interested in, a field configuration is _not_ a _general_ superfield $t X \to \mathfrak{a}$: rather, it is one whose components (listed above: graviton, gravitino, fermions, etc.) appear like fields on the _ordinary_ spacetime manifold $X_{red}$ underlying the [[supermanifold]] $X$. 
 
 There are two options to formalize this:
 
-1. **non-geometric approach**: realize the fields of [[supergravity]] as fields on an ordinary spacetime [[manifold]] $X_{red}$ -- this makes the supersymmetry operations act on the fields in a conceptually complicated way
+1. **non-geometric approach**: realize the fields of [[supergravity]] as fields on an ordinary spacetime [[manifold]] $X_{red}$ -- this makes the supersymmetry operations act on the fields in a conceptually complicated way.
 
 2. **geometric approach**: realize the fields of [[supergravity]] as fields on a [[supermanifold]] $X$. This makes supersymmetry of the [[action functional]] be simply super-diffeomorphism invariance. But then ensure that the fields _appear_ as if their components were functions on just the underlying ordinary manifold $X_{red}$ by putting a suitable constraint on the fields. This constraint is the **rheonomy** constraint.
 
@@ -554,17 +478,17 @@ The _rheonomy_ constraint has been and is usefully compared with a holomorphicit
 $f : \mathbb{C} \to \mathbb{C}$ on the complex plane and hence a priori of two real coordinates, is _holomorphic_ if it locally looks like it effectively depends only on one of the two coordintes. Similarly, a **rheonomic superfield** is a function on a [[supermanifold]] which locally looks as if it depends only on the ordinary even (bosonic) coordinates.
 Moreover, in the same way as we can reconstruct an analytic function from its behaviour along a curve, in a rheonomic theory it is possible to build the whole superspace curvatures form their space-time components.  
 
-To further exploit this analogy, notice that an ordinary function $f$, being a [[differential form|0-form]] has a [[schreiber:curvature|curvature]] which is the 1-form $R_F := d f$. The function $f$ is holomorphic precisely if its curvature, in this sense, vanishes on all tangent vectors proportional to $\frac{\partial}{\partial \bar z}$.
+To further exploit this analogy, notice that an ordinary function $f$, being a [[differential form|0-form]] has a [[curvature]] which is the 1-form $R_F := d f$. The function $f$ is holomorphic precisely if its curvature, in this sense, vanishes on all tangent vectors proportional to $\frac{\partial}{\partial \bar z}$.
 
 From this analogy, the following statement should sound very plausible, which we discuss in detail below:
 
 +-- {: .standout}
 
-A [[schreiber:∞-Lie algebroid valued differential forms|field]] $\Pi^{inf}(X) \to \mathfrak{a}$ on the [[supermanifold]] $X$ is **rheonomic** if its [[schreiber:curvature|curvature]] vanishes on odd tangent vectors, or is an algebraic expression in terms of the curvature components on even tangent vectors.
+A [[schreiber:∞-Lie algebroid valued differential forms|field]] $\Pi^{inf}(X) \to \mathfrak{a}$ on the [[supermanifold]] $X$ is **rheonomic** if its [[curvature]] vanishes on odd tangent vectors, or is an algebraic expression in terms of the curvature components on even tangent vectors.
 
 =--
 
-### details ##
+#### Details 
 
 ...
 
@@ -584,7 +508,7 @@ This extension mapping can be used only if the theory has been built with diffeo
 ... (to be continued)
 
 
-# References {#References}
+## References {#References}
 
 The original article that introduced th D'Auria-Fr&#233;-formalism is
 
@@ -600,7 +524,7 @@ At the time of this writing the book is out of print and unavailable from booksh
 
 The interpretation of the D'Auria-Fr&#233;-formalism in the light of higher gauge theory as discussed above, together with a discussion of the [[supergravity Lie 3-algebra]] in the context of [[String Lie 2-algebra|String Lie n-algebra]]s was given in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-algebra connections_ ([arXiv](http://arxiv.org/abs/0801.3480))
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
 This had been preceded by some blog discussion, for instance
 
@@ -618,10 +542,10 @@ Apart from that the first vague mention of the observation that the "FDA"-formal
 
 Here are some more references:
 
-* Pietro Fr&#233;, _M-theory FDA, twisted tori and Chevalley cohomology_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0510068))
+* Pietro Fr&eacute;, _M-theory FDA, twisted tori and Chevalley cohomology_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0510068))
 
-* Pietro Fr&#233; and Pietro Antonio Grassi,
+* Pietro Fr&eacute; and Pietro Antonio Grassi,
 _Pure spinors, free differential algebras, and the supermembrane_ ([arXiv] (http://www.arxiv.org/abs/hep-th/0606171))
 
-* Pietro Fr&#233; and Pietro Antonio Grassi, _Free differential algebras, rheonomy, and pure spinors_ 
+* Pietro Fr&eacute; and Pietro Antonio Grassi, _Free differential algebras, rheonomy, and pure spinors_ 
 ([arXiv] (http://www.arxiv.org/abs/0801.3076))
