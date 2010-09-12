@@ -9,6 +9,12 @@
 
 Display of <code>&lt;pre></code> is rather ugly with all the extra white space. It really needs some CSS styling.
 
+(LETS SEE If I can directly put in a <code>&lt;style></code> block and change it)
+
+<style>pre { white-space: pre-wrap; border-left-width-value: 6px;  border-left-style-value: solid; border-left-color-value: rgb(200, 200, 170); padding-top: 8px; padding-right-value: 8px; padding-bottom: 8px; padding-left-value: 16px; background-color: rgb(235, 236, 255); margin-top: 1em; margin-right-value: 0pt; margin-bottom: 1em; margin-left-value: 0pt;}</style>
+
+(ANY BETTER?)
+
 <pre>o = {a: 1,
      b: 2
     }</pre>
@@ -198,13 +204,72 @@ genEntry(x) =>
 
 <table markdown="1"> <!-- 2c --><tr><td>a</td><td></td><td><table markdown="1"> <!-- 2c --><tr><td>0</td><td></td><td><table markdown="1"> <!-- 2c --><tr><td>0</td><td></td><td>b</td></tr><tr><td>1</td><td></td><td>c</td></tr></table></td></tr><tr><td>1</td><td></td><td><table markdown="1"> <!-- 2c --><tr><td>0</td><td></td><td>d</td></tr><tr><td>1</td><td></td><td>e</td></tr></table></td></tr></table></td></tr></table>
 
+## Types with Recursive Structure ##
+
+Define "pair".
+
+<pre>
+p = {Type:     "pair < structure", 
+     "!Label": "pair",
+     part:     {1: {"!Label": "p1",
+                    Type:     "< structure"},
+                2: {"!Label": "p2",
+                    Type:     "< structure"},
+                },
+     swapped:  {Type: "pair",
+                part: {},
+                swapped: {},
+               },
+     Notes:   "See [[ordered pair]].",
+     };
+
+p.swapped.part[1] = p.part[2];
+p.swapped.part[2] = p.part[1];
+p.swapped.swapped = p;
+
+pn = eval(uneval(p)); // clone it
+pn['!NoBang'] = 1;
+</pre>
+
+Generated ID for p:
+
+<pre>
+rEsc(p) =>
+
+#3={Type:"pair &lt; structure", &apos;!Label&apos;:"pair", part:{1:#2={&apos;!Label&apos;:"p1", Type:"&lt; structure", &apos;!Seen&apos;:1}, 2:#1={&apos;!Label&apos;:"p2", Type:"&lt; structure", &apos;!Seen&apos;:1}, &apos;!Seen&apos;:1}, swapped:{Type:"&lt; pair", part:{1:#1#, 2:#2#, &apos;!Seen&apos;:1}, swapped:#3#, &apos;!Seen&apos;:1}, Notes:"See [[ordered pair]].", &apos;!Seen&apos;:1}
+</pre>
+
+Generated table for p:
+
+<table class='DBRE' markdown='1'
+ id='#3={Type:"pair &lt; structure", &apos;!Label&apos;:"pair", part:{1:#2={&apos;!Label&apos;:"p1", Type:"&lt; structure", &apos;!Seen&apos;:1}, 2:#1={&apos;!Label&apos;:"p2", Type:"&lt; structure", &apos;!Seen&apos;:1}, &apos;!Seen&apos;:1}, swapped:{Type:"&lt; pair", part:{1:#1#, 2:#2#, &apos;!Seen&apos;:1}, swapped:#3#, &apos;!Seen&apos;:1}, Notes:"See [[ordered pair]].", &apos;!Seen&apos;:1}'>
+<table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?pair</td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">pair &lt; structure</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">!Label</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">pair</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">part</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">1</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p1</td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">!Label</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">p1</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">&lt; structure</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">!Seen</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">1</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">2</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p2</td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">!Label</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">p2</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">&lt; structure</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">!Seen</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">1</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">!Seen</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">1</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">swapped</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">&lt; pair</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">part</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">1</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p2</td><td class="T0r0d1">...</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">2</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p1</td><td class="T0r0d1">...</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">!Seen</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">1</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">swapped</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?pair</td><td class="T0r0d1">...</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">!Seen</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">1</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">Notes</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">See [[ordered pair]].</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">!Seen</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">1</td></tr></table></td></tr></table></td></tr></table>
+</table>
+<span class='DBRE'/>
+
+Generated ID for pn:
+
+
+<pre>
+rEsc(pn)=>
+
+#3={Type:"pair &lt; structure", &apos;!Label&apos;:"pair", part:{1:#2={&apos;!Label&apos;:"p1", Type:"&lt; structure", &apos;!Seen&apos;:1}, 2:#1={&apos;!Label&apos;:"p2", Type:"&lt; structure", &apos;!Seen&apos;:1}, &apos;!Seen&apos;:1}, swapped:{Type:"&lt; pair", part:{1:#1#, 2:#2#, &apos;!Seen&apos;:1}, swapped:#3#, &apos;!Seen&apos;:1}, Notes:"See [[ordered pair]].", &apos;!Seen&apos;:1, &apos;!NoBang&apos;:1}
+
+</pre>
+
+Generated table for pn:
+
+<table class='DBRE' markdown='1'
+ id='#3={Type:"pair &lt; structure", &apos;!Label&apos;:"pair", part:{1:#2={&apos;!Label&apos;:"p1", Type:"&lt; structure", &apos;!Seen&apos;:1}, 2:#1={&apos;!Label&apos;:"p2", Type:"&lt; structure", &apos;!Seen&apos;:1}, &apos;!Seen&apos;:1}, swapped:{Type:"&lt; pair", part:{1:#1#, 2:#2#, &apos;!Seen&apos;:1}, swapped:#3#, &apos;!Seen&apos;:1}, Notes:"See [[ordered pair]].", &apos;!Seen&apos;:1, &apos;!NoBang&apos;:1}'>
+<table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?pair</td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">pair &lt; structure</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">part</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">1</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p1</td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">&lt; structure</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">2</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p2</td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">&lt; structure</td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">swapped</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">Type</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">&lt; pair</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">part</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1"><table markdown='1' class='TT1' border='0'><tr class="T1rN"><td class="T1rNd0">1</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p2</td><td class="T0r0d1">...</td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">2</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?p1</td><td class="T0r0d1">...</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">swapped</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0">?pair</td><td class="T0r0d1">...</td></tr></table></td></tr></table></td></tr></table></td></tr><tr class="T1rN"><td class="T1rNd0">Notes</td><td class="T1rNd1"><table class='TT0' markdown='1' border='1'><tr class="T0r0"><td class="T0r0d0"></td><td class="T0r0d1">See [[ordered pair]].</td></tr></table></td></tr></table></td></tr></table>
+</table>
+<span class='DBRE'/>
+
+
+
+
+
 The END.
-
-+-- {: .query}
-
-[[Stephen Britton]]: Hello Rod. Welcome to the nLab! At the [discussion on the status of the database of categories](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1754&page=1#Item_0) you talked about using JavaScript, XML, and GreaseMonkey to do a database project. Are those the only things that I would need for a rapid prototype of the database? I ask because I am trying to get my hands dirty with the project early. Do you know of any links to good introductory material on JSON, XML, and databases? Will you please list them if you do? You stated in a previous comment that all browsers recognize JavaScript. Why is conversion between JavaScript and XML necessary? The answer may be obvious, but I have never used JavaScript and may need more details.  Please leave your comments [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1754&page=1#Item_0) as I check this discussion often. Thanks.
-
-=--
 
 category: people
 
