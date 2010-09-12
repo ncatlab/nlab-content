@@ -15,10 +15,11 @@
 
 ## Idea
 
-Lie integration is a process in that assigns to a [[Lie algebra]] $\mathfrak{g}$ -- or more generally an [[L-∞-algebra|∞-Lie algebra]] or [[∞-Lie algebroid]] -- a [[Lie group]] -- or more generally [[∞-Lie groupoid]] -- that is [[infinitesimal space|infinitesimally]] modeled by $\mathfrak{g}$.
+Lie integration assigns to a [[Lie algebra]] $\mathfrak{g}$ -- or more generally an [[L-∞-algebra|∞-Lie algebra]] or [[∞-Lie algebroid]] -- a [[Lie group]] -- or more generally [[∞-Lie groupoid]] -- that is [[infinitesimal space|infinitesimally]] modeled by $\mathfrak{g}$.
 
-If the [[∞-Lie algebroid]]s $\mathfrak{a}$ involved are incarnated dually in the form of their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{a})$ then the bare [[∞-groupoid]] integrating them (i.e. ignoring the smooth structure) is effectively given by the [[Sullivan construction]] applied to the [[dg-algebra]] $CE(\mathfrak{a})$.
+If the [[∞-Lie algebroid]]s $\mathfrak{a}$ involved are incarnated dually in the form of their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{a})$ then the bare [[∞-groupoid]] (that is: without the smooth structure) integrating them is effectively given by the [[Sullivan construction]] from [[rational homotopy theory]] which turns a [[dg-algebra]] into a [[simplicial set]] (and then into a [[topological space]] by [[geometric realization]]) applied here to the [[dg-algebra]] $CE(\mathfrak{a})$.
 
+This construction applied to an ordinary [[Lie algebra]] reproduces the _integration method by paths_ in standard [[Lie theory]] (maybe less widely known than other integration methods). See our first example [below](#LieAlgebrasToLieGroups).
 
 ## Definition
 
@@ -82,15 +83,28 @@ $$
   \,.
 $$
 
-This is nothing but the [[Sullivan construction]] in [[rational homotopy theory]] applied to the dg-algebra $CE(\mathfrak{a})$.
+This is (up to fine-tuning of the nature of the differential forms on the simplices) the [[Sullivan construction]] of [[rational homotopy theory]] that tuns a dg-algvebra into a simplicial set, applied to the dg-algebra $CE(\mathfrak{a})$.
 
-This gives the universal $\infty$-groupoid integrating $\mathfrak{a}$. If $\mathfrak{a}$ is $n$-[[truncated]] then this construction will not yield in general an $n$-truncated [[∞-groupoid]] $\exp(\mathfrak{a})$. Instead one wants to truncate it to its $(n+1)$-[[coskeleton]]
+
++-- {: .un_remarl}
+###### Remark
+**(spurious homotopy groups)**
+
+For $\mathfrak{a}$ a [[infinity-Lie algebroid|Lie n-algebroid]] (an $n$-[[truncated]] $\infty$-Lie algebroid) this construction will not yield in general an $n$-[[truncated]] [[∞-groupoid]] $\exp(\mathfrak{a})$. 
+
+To see this, consder the example (discussed in detail [below](#LieAlgebrasToLieGroups)) that $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]]. Then $\exp(\mathfrak{g})_n$ is canonically identified with the set of smooth based maps $\Delta^n \to G$ into the simply connected [[Lie group]] that integrates $\mathfrak{g}$ in ordinary [[Lie theory]]. This means that the simplicial [[homotopy group]]s of $\exp(\mathfrak{g})$ are the topological homotopy groups of $G$, which in general (say for $G$ the [[ortogonal group]] or [[unitary group]]) will be non-trivial in arbitrarily higher degree, even though $\mathfrak{g}$ is just a Lie 1-algebra. This phenomenon is well familiar from [[rational homotopy theory]], where a classical theorem asserts that the rational homotopy groups of $\exp(\mathfrak{g})$ are generated from the generators in a [[minimal Sullivan model]] resolution of $\mathfrak{g}$. 
+
+=--
+
+For the purposes of $\infty$-Lie theory thereforee instead one wants to [[truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
 
 $$
   \mathbf{cosk}_{n+1}\exp(\mathfrak{a})_{bare}  
   \,.
 $$
 
+
+This divides out [[k-morphism|n-morphisms]] by $(n+1)$-morphisms and forgets all higher higher nontrivial morphisms, hence all higher homotopy groups.
 
 ### Integration to an $\infty$-Lie groupoid
 
@@ -121,20 +135,24 @@ For a [[smooth manifold]] $U$ and $C^\infty(U)$ its $\mathbb{R}$-algebra of [[sm
 
 =--
 
+
+
 For the following definition, we use from the discussion at [[∞-Lie groupoid]] that $\infty$-Lie groupoids may be modeled by [[simplicial presheaves]] on the [[site]] [[CartSp]] $\subset$ [[Diff]].
 
 +-- {: .un_defn}
 ###### Definition
 
-For $\mathfrak{a}$ an [[∞-Lie algebroid]] define the [[simplicial presheaf]] $\exp(\mathfrak{a})$ by
+For $\mathfrak{a}$ an [[∞-Lie algebroid]] define the [[simplicial presheaf]] $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ by
 
 $$  
   \exp(\mathfrak{a})
   : 
   (U,[n]) \mapsto 
   Hom_{dgAlg}(CE(\mathfrak{a}), C^\infty(U)\otimes \Omega^\bullet(\Delta^n))
-  \,.
+  \,,
 $$
+
+where $U \in $ [[CartSp]] and $[n] \in \Delta$. 
 
 =--
 
@@ -155,7 +173,7 @@ $$
 +-- {: .un_defn}
 ###### Definition
 
-Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial preshaf obtained by postcomposting $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] functor $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\to} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
+Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial preshaf obtained by postcomposting $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] [[functor]] $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\to} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
 
 =--
 
@@ -172,7 +190,7 @@ Let $\mathfrak{g}$ be an ordinary (finite dimensonal) [[Lie algebra]].
 
 Standard [[Lie theory]] (see [[Lie's three theorems]]) provides a [[simply connected]] [[Lie group]] $G$ integrating $\mathfrak{g}$.
 
-If we take that standard procedure for granted, then it is easy to see 
+If we take that standard procedure for granted, then it is easy to see that:
 
 
 +-- {: .un_prop}
@@ -326,7 +344,11 @@ Then $\mathbf{cosk}_3 \exp(\mathfrak{g}_\mu)$ is equvalent to the [[2-groupoid]]
 
 * whose morphisms are based paths in $G$;
 
-* whose 2-morphisms are equivalence class of pairs $(\Sigma,c)$, where $\Sigma : D^2_*  \to D$ is a smooth based map and $c \in U(1)$, and where two such are equivalent if the maps coincides at their boundary and if for any 3-ball $\phi : D^3 \to G$ filling them the labels $c_1$ and $c_2$ differ by the integral $\int_{D^3} \phi^* \mu(\theta)$,,
+* whose 2-morphisms are equivalence class of pairs $(\Sigma,c)$, where 
+
+  * $\Sigma : D^2_*  \to D$ is a smooth based map (where we use a [[homeomorphism]] $D^2 \simeq \Delta^2$ which away from the corners is smooth, so that forms with sitting instants there do not see any non-smoothness, and the basepoint of $D^2_*$ is the 0-vertex of $\Delta^2$) 
+
+  * and $c \in U(1)$, and where two such are equivalent if the maps coincides at their boundary and if for any 3-ball $\phi : D^3 \to G$ filling them the labels $c_1, c_2 \in U(1)$ differ by the integral $\int_{D^3} \phi^* \mu(\theta) \;\; mod \;\; \mathbb{Z}$,,
 
 where $\theta$ is the [[Maurer-Cartan form]], $\mu(\theta) = \langle \theta\wedge [\theta \wedge \theta]\rangle $ the 3-form obtained by plugging it into the cocycle.
 
