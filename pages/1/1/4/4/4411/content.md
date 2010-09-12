@@ -16,8 +16,8 @@ A valuation ring $O$ is a [[local ring]].
 Suppose $x$, $y$ are nonzero non-invertible elements of $O$. Either $x/y$ or $y/x$ belongs to $O$, say $x/y$. Then $(x+y)/y$ belongs to $O$ as well. If $x+y$ were a unit of $O$, it would follow that $1/y$ belongs to $O$, i.e., both $y$ and $1/y$ belong to $O$, so that $y$ is a unit of $O$, contradiction. It follows that non-unit elements of $O$ are closed under addition. It is also clear that if $x$ is a non-unit element of $O$ and $y$ is any element of $O$, then $x y$ is a non-unit element of $O$. Therefore the non-units form an ideal of $O$, clearly the unique maximal ideal of $O$. 
 =--
 
-+-- {: un.prop}
-######Proposition 
++-- {: .un_prop}
+######Proposition
 A valuation ring $O$ is integrally closed in its field of fractions $F$. 
 =-- 
 
@@ -26,6 +26,7 @@ A valuation ring $O$ is integrally closed in its field of fractions $F$.
 Suppose $x \in F$ satisfies an equation $x^n + a_{n-1}x^{n-1} + \ldots + a_0 = 0$ where the $a_i$ belong to $O$. Either $x$ or $1/x$ belongs to $O$, and if $1/x$ belongs to $O$, then so does $x$ because 
 $$x = a_{n-1}x^{-1} + a_{n-1}x^{-2} + \ldots + a_0 x^{-n}$$ 
 and this completes the proof. 
+=--
 
 ### Example: germs of definable functions
 
