@@ -1,7 +1,33 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+* [[group cohomology]]
+
+  * [[nonabelian group cohomology]], [[groupoid cohomology]]
+
+* **group extension**
+
+* [[Lie group cohomology]] 
+
+  * [[∞-Lie groupoid cohomology]]
+
+***
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
+
+## Idea
+
+A _group extension_ of a [[group]] $G$ by a group $A$ is group $\hat G$ that sits in an [[exact sequence]] $A \to \hat G \to G$. 
 
 (For now we will put emphasis on the general case i.e. nonabelian group extensions, later we plan a separate entry on abelian group extensions.) 
 
@@ -26,7 +52,62 @@ commutative diagram
 1\to &K&\stackrel{i'}\to &G'&\stackrel{p'}\to& B&\to 1
 }\]
 
-## Schreier's theory, traditional way
+## Properties
+
+### Torsors {#Torsors}
+
++-- {: .un_prop}
+###### Prosition
+
+For $A \stackrel{i}{\to} \hat G \stackrel{p}{\to} G$ a group extension, we have that $p : \hat G \to G$ is an $A$-[[torsor]] over $G$ with  the [[action]] of $A$ on $\hat G$ is defined by
+
+$$  
+  \rho : A \times \hat G \stackrel{(i,Id)}{\to} \hat G \times \hat G \stackrel{\cdot}{\to} \hat G
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That $\rho$ is indeed an action _over_ $B$ in that
+
+$$
+  \array{  
+     A \times \hat G &&\stackrel{\rho}{\to}&& \hat G
+     \\
+     & {}_{\mathllap{ p \circ p_2}}\searrow && \swarrow_{\mathrlap{p}}
+     \\
+     && \hat G 
+  }
+$$
+
+follows from the fact that $p$ is a group homomorphism and that $A$ is in its [[kernel]].
+
+That $A$ is actually _equal_ to the kernel gives the principality condition
+
+$$
+  (\rho, p_2) : A\times \hat G \stackrel{\simeq}{\to} \hat G \times_G \hat G
+  \,.
+$$
+
+=--
+
+For $A$ an [[abelian group]] we may understand the $A$-torsor/$A$-[[principal bundle]] $\hat G$ as the [[delooping]] of the $\mathbf{B}A$-[[principal 2-bundle]] $\mathbf{B} \hat G \to \mathbf{BG}$ that is classified by (is the [[homotopy fiber]] of) the 2-[[cocycle]] in [[group cohomology]]  $c : \mathbf{B}G \to \mathbf{B}^2 A$ that classifies the extension.
+
+All this is then summarized by the statement that
+
+$$
+  A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \stckrel{c}{\to}
+  \mathbf{B}^2 A
+$$
+
+is a [[fiber sequence]] in [[∞Grpd]] (or in [[?LieGrpd]] if we have [[Lie group]] extensions, etc).
+## Schreier theory for nonabelian group extensions
+
+### Traditional way
 
 [[Otto Schreier]] (1926) and [[Samuel Eilenberg|Eilenberg]]-[[Saunders MacLane|Mac Lane]] (late 1940-s) developed a theory of classification of nonabelian extensions of abstract groups leading to the low dimensional [[nonabelian group cohomology]]. This is sometimes called **Schreier's theory** of nonabelian group extensions.
 
@@ -344,7 +425,7 @@ Abelian extension (as extension -- in terms of the definition above) is Abelian 
 
 
 
-###Comparing different extensions;  2-coboundaries {#2Coboundaries}
+#### Comparing different extensions;  2-coboundaries {#2Coboundaries}
 
 Let us now investigate when two extensions
 $G_1$ and $G_2$ of $B$ by $K$,
@@ -606,7 +687,7 @@ a coboundary, then by the proposition, we can change it to $z = 1$,
 and then we have all the conditions for a cross product
 extension satisfied.
 
-## Schreier's theory of extensions, modern way
+### $n$POV
 
 One may regard the above from the [[nPOV]] as a special case of the way cocycles in the general notion of [[cohomology]] classify their [[homotopy fiber]]s. More on this is at
 
