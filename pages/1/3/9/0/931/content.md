@@ -47,33 +47,50 @@ $$
 
 This says equivalently that _after picking any point of $P$ as the identity_ , $P$ acquires a group structure isomorphic to $G$. But this is a non-canonical isomorphism: every choice of point of $P$ yields a different isomorphism.
 
-As a **slogan** we can summarize this as: _A torsor is a group that has forgotten its neutral element._
+As a **slogan** we can summarize this as: _A torsor is like a group that has forgotten its neutral element._
 
-Again, this applies to torsors "over the point" in $Set$. More generally, one may consider torsors over some base space $B$ (in other words, working in the [[topos]] of sheaves over $B$ instead of $Set$). In this case the term __torsor__ is more or less a synonym for the term [[principal bundle]], but torsors are generally applied in contexts much wider than the term "principal bundle" implies. Thus, while the terminology 'principal bundle' is usually used in the setting of [[topological spaces]] or [[smooth manifold]]s, the term _torsor_ is traditionally used in the more general contex of [[Grothendieck topology|Grothendieck topologies]] (faithfully flat and &#233;tale topology in particular), [[topos|topoi]] and for generalizations in various category-theoretic setups. While in the phrase '$G$-principal bundle' $G$ is usually a (topological) [[group]] or [[groupoid]], when we say '$G$-torsor', $G$ is usually a [[presheaf]] or [[sheaf]] of group(oid)s, or $G$ is a plain [[category]] (not necessarily even a groupoid).
+Again, this applies to torsors "over the point" in $Set$. More generally, one may consider torsors over some base space $B$ (in other words, working in the [[topos]] of sheaves over $B$ instead of $Set$). In this case the term __$G$-torsor__ is often used more or less a synonym for the term $G$-[[principal bundle]], but torsors are generally understood in contexts much wider than the term "principal bundle" is usually taken to apply. And a principal bundle is strictly speaking a torsor that is required to be _locally trivial_ . Thus, while the terminology 'principal bundle' is usually used in the setting of [[topological spaces]] or [[smooth manifold]]s, the term _torsor_ is traditionally used in the more general contex of [[Grothendieck topology|Grothendieck topologies]] (faithfully flat and &#233;tale topology in particular), [[topos|topoi]] and for generalizations in various category-theoretic setups. While in the phrase '$G$-principal bundle' $G$ is usually a (topological) [[group]] or [[groupoid]], when we say '$G$-torsor', $G$ is usually a [[presheaf]] or [[sheaf]] of group(oid)s, or $G$ is a plain [[category]] (not necessarily even a groupoid).
 
 A __$G$-torsor__, without any base space given, can also simply be an inhabited transitive free $G$-[[action|set]], which is the same as a principal $G$-bundle over the [[point]]. The notion may also be defined in any category with products: a torsor over a [[group object]] $G$ is a [[well-supported object]] $E$ together with a $G$-action $\alpha: G \times E \to E$ such that the arrow 
 
 $$\langle \pi_1, \alpha \rangle: G \times E \to E \times E$$ 
 
-is an isomorphism. 
+is an [[isomorphism]]. 
 
-To 'deconstruct' this a bit, in a simple case, we suppose given a base space $B$ over which everything is happening and a sheaf of groups $G$ on $B$.
 
 ## Definition
 
 Let $G$ be a [[group]] object in some [[category]] $C$, that in the following is assumed, for simplicity, to be a [[cartesian monoidal category]].
-The [[object]]s of $C$ we sometimes call [[space]]s.
+The [[object]]s of $C$ we sometimes call [[space]]s. Examples to keep in mind are $C = $ [[Set]] (in which case $G$ is an ordinary [[group]]) or [[Top]] (in which case it is a [[topological group]]) or [[Diff]] (in which case it is a [[Lie group]]).
 
-Let $G$ be a [[group object]] in $C$. A left **$G$-torsor** is an [[inhabited object]] $P$ equipped with a $G$-action $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
++-- {: .un_defn}
+###### Definition
+
+A left **$G$-torsor** over a [[group]] $G$ is an [[inhabited object]] $P$ equipped with a $G$-[[action] $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
 
 $$\langle \rho, \pi_2 \rangle: G \times P \to P \times P$$ 
 
-is an isomorphism. 
+is an [[isomorphism]]. 
 
-More generally, suppose $C$ is [[finitely complete category|finitely complete]], and let $B$ be an object. Then the [[slice category|slice]] $C/B$ is finitely complete, and the pullback functor $- \times B: C \to C/B$ preserves finite limits. Thus $\pi_2: G \times B  \to B$ acquires a group structure in $C/B$. A left **$G$-torsor over $B$** is by definition a 
-$G$-torsor in $C/B$. Thus, if $B = 1$ is a point, a torsor over a point is the same as an ordinary torsor in $C$, but sometimes the additional "over a point" is convenient for the sake of emphasis. 
+=--
 
-In more nuts-and-bolts terms, a left $G$-torsor over $B$ is a [[bundle]] $P\stackrel{\pi}{\to} B$ over $B$ together with a left group [[action]]
+More generally, suppose $C$ is [[finitely complete category|finitely complete]], and let $B$ be an object. Then the [[slice category|slice]] $C/B$ is finitely complete, and the pullback functor $- \times B: C \to C/B$ preserves finite limits. Thus $\pi_2: G \times B  \to B$ acquires a group structure in $C/B$. 
+
++-- {: .un_defn}
+###### Definition
+
+A left **$G$-torsor over $B$** is a $G$-torsor in $C/B$. 
+
+=--
+
+Thus, if $B = 1$ is a point, a torsor over a point is the same as an ordinary torsor in $C$, but sometimes the additional "over a point" is convenient for the sake of emphasis. 
+
+We restate this definition equivalently in more nuts-and-bolts terms. The ambient category is $C$, as before.
+
++-- {: .un_defn}
+###### Equivalent definition
+
+A left $G$-torsor over $B \in C$ is a [[bundle]] $P\stackrel{\pi}{\to} B$ over $B$ together with a left group [[action]]
 
 $$
   \rho : G\times_B P \to P
@@ -99,25 +116,52 @@ $$
 
 is an [[isomorphism]].  
 
-* **Remarks:** As we explain below under Properties, a torsor is in some tautological sense **locally trivial**, but some care must be taken in interpreting this. One sense is that there is a cover $U$ of $1$ (so that $U \to 1$ is epi, i.e., $U$ is inhabited) such that the torsor, when pulled back to $U$, becomes trivial (i.e., isomorphic to $G$ as $G$-torsor). But this is a very general notion of "cover". A more restrictive sense frequently encountered in the literature is that "cover" means a coproduct of subterminal objects $U_i \hookrightarrow 1$ such that $U = \sum_i U_i$ is inhabited (e.g., an open cover of a space $B$ seen as the terminal object of the sheaf topos $Sh(B)$), and "torsor" would then refer to the local triviality condition for some such $U$. This is the more usual sense when referring to principal bundles as torsors. Or, "cover" could refer to a covering sieve in a [[Grothendieck topology]]. 
+=--
+
++-- {: .un_remark}
+###### Remark
+
+As we explain [below](#LocalTrivialization), a torsor is in some tautological sense **locally trivial**, but some care must be taken in interpreting this. One sense is that there is a cover $U$ of $1$ (so that $U \to 1$ is epi, i.e., $U$ is inhabited) such that the torsor, when pulled back to $U$, becomes trivial (i.e., isomorphic to $G$ as $G$-torsor). But this is a very general notion of "cover". A more restrictive sense frequently encountered in the literature is that "cover" means a coproduct of subterminal objects $U_i \hookrightarrow 1$ such that $U = \sum_i U_i$ is inhabited (e.g., an open cover of a space $B$ seen as the terminal object of the sheaf topos $Sh(B)$), and "torsor" would then refer to the local triviality condition for some such $U$. This is the more usual sense when referring to principal bundles as torsors. Or, "cover" could refer to a covering sieve in a [[Grothendieck topology]]. 
 
 (The condition on the action can be translated to give transitivity etc. in the case of $B$ is a point (left as a standard exercise).)
 
+=--
+
 ## Examples
 
-* Let $C = $ [[Set]]. 
+### In sets
 
-  An [[affine space]] of dimension $n$ over a [[field]] $k$ is a torsor for the additive group $k^n$: this acts by _translation_.
+Let $C = $ [[Set]]. 
 
-* Let $C = Top$ (objects are topological spaces, groups $G$ are topological groups). A principal $G$-bundle $\pi: P \to B$ is an example of a torsor over $B$ in $Top$. This becomes a definition of principal bundle if we demand local triviality with respect to some open cover of $B$ (see the remarks above). 
+* An [[affine space]] of dimension $n$ over a [[field]] $k$ is a torsor for the additive group $k^n$: this acts by _translation_.
 
-* Let $C = Sh(S)$ be a [[category of sheaves]]. 
+* A [[unit of measurement]] is (typically) an element in an $\mathbb{R}^\times$-torsor, for $\mathbb{R}^\times$ the multiplicative group of non-zero [[real number]]s: for $u$ any unit and $r \in \mathbb{R}$ any non-vanishing real number, also $r u$ is a unit. And for $u_1$ and $u_2$ two units, one is expressed in terms of the other by a unique $r \neq 0$ as $u_1 = r u_2$. For instance for units of [[mass]] we have the unit of [[kilogram]] and that of gram and there is a unique number, $r = 1000$ with
 
-  The canonical example for a torsor in $C$ is the [[trivial torsor]] over a [[sheaf]] of groups, $G$.
+  $$
+    kg = 1000 g
+    \,.
+  $$
+
+### In topological spaces
+
+Let $C = $ [[Top]], so that all objects are [[topological space]]s and groups $G$ are [[topological group]]s. 
+
+A topological $G$-[[principal bundle]] $\pi: P \to B$ is an example of a torsor over $B$ in $Top$. This becomes a definition of principal bundle if we demand local triviality with respect to some open cover of $B$ (see the remarks [below](#LocalTrivialization)). 
+
+### In sheaves
+
+Let $C = Sh(S)$ be a [[category of sheaves]] over a [[site]] $S$.
+
+The canonical example for a torsor in $C$ is the [[trivial torsor]] over a [[sheaf]] of groups, $G$.
+
+(...)
 
 ## Properties {#Properties}
 
-Let $P$ be a $G$-torsor over the point in the category $C = Set$. Then as objects of $C$, $P$ is [[isomorphism|isomorphic]] to $G$: 
+
+### Torsors in $Set$
+
+Let $P$ be a $G$-torsor over the point in the category $C =$  [[Set]]. Then as objects of $C$, $P$ is [[isomorphism|isomorphic]] to $G$: 
 
 since $P$ is [[inhabited set|inhabited]] (here meaning non-empty), we may pick an point $p : * \to P$ of $P$. Write $\{p\} \to P$ for this morphism, for emphasis.  One sees that the diagram
 
@@ -143,7 +187,9 @@ $$P \times P \stackrel{d}{\to} G \stackrel{\rho(-, p)}{\to} P,$$
 
 then we get a division structure $D$ on $P$ for which $p$ behaves as an identity (i.e., $D(x, x) = p$ for all $x \in P$), so that $P$ acquires a group structure isomorphic to that of $G$. 
 
-In other categories $C$ besides $Set$, we cannot just "pick a point" of $P$ even if $P \to 1$ is epi, so this argument cannot be carried out, and indeed trivializations may not exist. However, it is possible to construct a local trivialization of a torsor, following a general philosophy from topos theory that a statement is "locally true" in a category $C$ if it becomes true when reinterpreted in a slice after pulling back $C \to C/U$, where $U$ is inhabited. (This in some sense is the basis of [[Kripke-Joyal semantics]].) 
+### Local trivialization {#LocalTrivialization}
+
+In other categories $C$ besides $Set$, we cannot just "pick a point" of $P$ even if $P \to 1$ is an [[epimorphism]], so this argument cannot be carried out, and indeed trivializations may not exist. However, it is possible to construct a local trivialization of a torsor, following a general philosophy from [[topos theory]] that a statement is "locally true" in a category $C$ if it becomes true when reinterpreted in a slice after pulling back $C \to C/U$, where $U$ is inhabited. (This in some sense is the basis of [[Kripke-Joyal semantics]].) 
 
 In the present case, we may take $U = P$. Although we cannot "pick a point" of $P$ (= global section of $P \to 1$), we can pick a point of $P$ if we reinterpret it by pulling back to $C/P$. In other words, $\pi_2: P \times P \to 1 \times P \cong P$ does have a global section regarded as an arrow in $C/P$. In fact, there is a "generic point": the diagonal $\Delta: P \to P \times P$. Then, we may mimic the argument above, and consider the pullback diagram 
 
@@ -157,11 +203,17 @@ living in $C/P$. As argued above, the vertical arrow on the left is an isomorphi
 
 Thus, a $G$-torsor in a category with products can be tautologically interpreted in terms of $G$-actions on objects $P$ which become trivialized upon pulling back to the slice $C/P$. 
 
+
+## Generalizations
+
+* Instead of a torsor over a group, one can consider a torsor over a [[category]]. See [[torsor with structure category]]. 
+
+* In [[noncommutative algebraic geometry]], faithfully flat [[Hopf-Galois extension]]s are considered a generalization of (affine) torsors in algebraic geometry.
+
+
 ## References 
 
-See also [[torsor with structure category]]. In [[noncommutative algebraic geometry]], faithfully flat [[Hopf-Galois extension]]s are considered a generalization of (affine) torsors in algebraic geometry.
-
-For elementary examples of torsors, see:
+For elementary examples of torsors over the point in [[Set]] , see:
 
 * [[John Baez]], Torsors made easy.  ([web](http://math.ucr.edu/home/baez/torsors.html))
 
@@ -184,6 +236,8 @@ Cahiers Topologie G&#233;om. Diff&#233;rentielle 18 (1977), no. 3, 271--289, [nu
 * [[Ieke Moerdijk]], Introduction to the language of stacks and gerbes, [math.AT/0212266](http://arxiv.org/abs/math/0212266).
 
 A standard elementary discussion of torsors in algebraic geometry is in J. Milne's book *Etale cohomology*. Much material is also in Giraud's book on nonabelian cohomology. 
+
+
 
 
 [[!redirects torsors]]
