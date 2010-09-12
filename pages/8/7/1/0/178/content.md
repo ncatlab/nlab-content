@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 =--
 =--
 
@@ -4469,3 +4473,6 @@ The relation to the general descent condition is discussed in
 [[!redirects ?LieGrpd]]
 
 [[!redirects Lie-infinity groupoid]]
+
+[[!redirects ∞-Lie groupoid cohomology]]
+[[!redirects infinity-Lie groupoid cohomology]]
