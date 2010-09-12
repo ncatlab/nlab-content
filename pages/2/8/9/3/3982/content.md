@@ -3,7 +3,7 @@
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
-# Fr&#246;licher Spaces and Isbell Envelopes #
+# Fr&#246;licher Spaces and Isbell Envelopes
 
 [[Frölicher spaces]] are examples of [[generalized smooth space|generalised smooth spaces]].  The category of Fr&#246;licher spaces is also closely related to the concept of the [[Isbell envelope]] of a category.
 
@@ -215,3 +215,7 @@ Therefore if we simply add the condition that our natural transformation $\alpha
 
 Thus $X$ is the set of _continuous_ algebra homomorphisms $F \to \mathbb{R}$ and we finally see the relationship between Hausdorff Fr&#246;licher spaces as objects in the Isbell envelope of $\mathbf{R}$ satisfying Isbell duality.
 
+
+[[!redirects Frölicher spaces and Isbell envelopes]]
+[[!redirects Frolicher spaces and Isbell envelopes]]
+[[!redirects Froelicher spaces and Isbell envelopes]]
