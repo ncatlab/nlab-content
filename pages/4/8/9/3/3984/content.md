@@ -2,7 +2,8 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-# Tangential Topics of Fr&#246;licher Spaces # {#tangent}
+# Tangential Topics of Fr&#246;licher Spaces
+{#tangent}
 
 +-- {: .query}
 This section is essentially lifted from [Comparative Smootheology](http://arxiv.org/abs/0802.2225) as I intend to remove it from that article and this seems a good place to put it.
@@ -163,3 +164,8 @@ This map, however, need not be injective and neither need it map to a spanning s
 
 
 One can define two more versions of "cotangent vectors" by taking linear duals of the two versions of tangent vectors (this has to be done with care for the kinematic tangent vectors); however, these definitions may be thought of as one-step removed from the smooth structure itself.
+
+
+[[!redirects tangential notions of Frölicher spaces]]
+[[!redirects tangential notions of Frolicher spaces]]
+[[!redirects tangential notions of Froelicher spaces]]
