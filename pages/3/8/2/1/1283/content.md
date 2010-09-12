@@ -366,6 +366,55 @@ in $\mathbf{B}^2 U(1)$, which exhibits indeed the composition operation in $P_{(
 
 =--
 
+## Examples
+
+### Equivariant bundle gerbes over the point
+
+For $A \to \hat G \to G$ a [[group]] extension by an [[abelian group]] $G$ classified by a 2-cocycle $c$ in [[group cohomology]], which we may think of as a 2-functopr $c : \mathbf{B}\mathbf{G} \to \mathbf{B}^2 A$, the corresponding [[fiber sequence]]
+
+$$
+  A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \stackrel{c}{\to}
+  \mathbf{B}^2 A
+$$
+
+exhibits $\mathbf{B}\hat G$ as the bundle gerbe over $\mathbf{B}G$ (in [[equivariant cohomology]] of the point, if you wish) with Dixmier-Douady class $c$.
+
+### Tautological bunde gerbe
+
+Let $X$ be a [[simply connected]] [[smooth manifold]] and $H \in \Omega^3(X)_{cl, int}$  a degree 3 [[differential form]] with integral periods.
+
+We may think of this a cocycle in [[∞-Lie algebroid cohomology]]
+
+$$
+  H : T X \to b^2 \mathbb{R}
+  \,.
+$$
+
+By a slight variant of <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of oo-Lie algebroid cocycles</a> we obtain from this a bundle gerbe on $X$ by the following construction
+
+* pick any point $x_0 \in X$;
+
+* let $Y = P_* X$ be the based smooth [[path space]] of $X$;
+
+* let $L \to Y \times_X Y$ be the $U(1)$-bundle which over an element
+  $(\gamma_1,\gamma_2)$ in $Y \times_X Y$ -- which is a _loop_ in $X$
+  assigns the $U(1)$-[[torsor]] whose elements are equivalence class of 
+  pairs $(\Sigma,c)$, where $\Sigma$ is a surface cobounding the loop and
+  where $c \in U(1)$, and where the equivalence relation is so that for
+  any 3-ball $\phi : D^3 \to X$ cobounding two such surfaces 
+  $\Sigma_1$ and $\Sigma_2$ we have that $(\Sigma_1,c_1)$ is equivalent
+  to $(\Sigma_2, c_2)$ the difference of the labels differs by the 
+  [[integral]] of the 3-form
+
+  $$  
+    c_2 c_1^{-1} = \int_{D^3} \phi^* H \in \mathbb{R}/\mathbb{Z}
+    \,.
+  $$
+
+* the composition operation $\pi_{12}^* L \otimes \pi_{23}^* L \to \pi_{13}^* L$ is loop-wise the evident operation that on loops removes from a figure-8 the inner bit and whch is group multiplication of the labels.
+
+This produces a bundle gerbe whose class in $H^3(X,\mathbb{Z})$ has $[H]$ as its image in [[de Rham cohomology]].
+
 ## Connections on bundle gerbes
 
 See [[connection on a bundle gerbe]].
