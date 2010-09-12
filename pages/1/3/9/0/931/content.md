@@ -14,7 +14,7 @@
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
-* **principal 3-bundle** / [[bundle 2-gerbe]]
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
 
 * [[principal ∞-bundle]]
 
@@ -49,7 +49,7 @@ This says equivalently that _after picking any point of $P$ as the identity_ , $
 
 As a **slogan** we can summarize this as: _A torsor is a group that has forgotten its neutral element._
 
-Again, this applies to torsors "over the point" in $Set$. More generally, one may consider torsors over some base space $B$ (in other words, working in the [[topos]] of sheaves over $B$ instead of $Set$). In this case the term __torsor__ is more or less a synonym for the term [[principal bundle]], but torsors are generally applied in contexts much wider than the term "principal bundle" implies. Thus, while the terminology 'principal bundle' is usually used in the setting of [[topological spaces]], torsors are traditionally used in the setting of [[Grothendieck topology|Grothendieck topologies]] (faithfully flat and &#233;tale topology in particular), [[topos|topoi]] and for generalizations in various category-theoretic setups. While in the phrase '$G$-principal bundle' $G$ is usually a (topological) [[group]] or [[groupoid]], when we say '$G$-torsor', $G$ is usually a [[presheaf]] or [[sheaf]] of group(oid)s, or $G$ is a plain [[category]] (not necessarily even a groupoid).
+Again, this applies to torsors "over the point" in $Set$. More generally, one may consider torsors over some base space $B$ (in other words, working in the [[topos]] of sheaves over $B$ instead of $Set$). In this case the term __torsor__ is more or less a synonym for the term [[principal bundle]], but torsors are generally applied in contexts much wider than the term "principal bundle" implies. Thus, while the terminology 'principal bundle' is usually used in the setting of [[topological spaces]] or [[smooth manifold]]s, the term _torsor_ is traditionally used in the more general contex of [[Grothendieck topology|Grothendieck topologies]] (faithfully flat and &#233;tale topology in particular), [[topos|topoi]] and for generalizations in various category-theoretic setups. While in the phrase '$G$-principal bundle' $G$ is usually a (topological) [[group]] or [[groupoid]], when we say '$G$-torsor', $G$ is usually a [[presheaf]] or [[sheaf]] of group(oid)s, or $G$ is a plain [[category]] (not necessarily even a groupoid).
 
 A __$G$-torsor__, without any base space given, can also simply be an inhabited transitive free $G$-[[action|set]], which is the same as a principal $G$-bundle over the [[point]]. The notion may also be defined in any category with products: a torsor over a [[group object]] $G$ is a [[well-supported object]] $E$ together with a $G$-action $\alpha: G \times E \to E$ such that the arrow 
 
