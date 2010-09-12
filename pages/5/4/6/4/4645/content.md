@@ -12,7 +12,7 @@
 =--
 
 
-> This is a subentry of [[∞-Chern-Weil theory]]. While there the general theory is discussed, this entry here considers some basic constructions in the traditional language of [[differential geometry]] that connect explcitly to basic concepts of ordinary [[Chern-Weil theory]].
+> This is a subentry of [[∞-Chern-Weil theory]]. While there the general theory is discussed, this entry here considers some basic constructions in the traditional language of [[differential geometry]] that connect explicitly to basic concepts of ordinary [[Chern-Weil theory]].
 
 
 #Contents#
@@ -24,6 +24,8 @@
 Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In [[(∞,1)-category theory]] these generalize to connections on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. $\infty$-Chern-Weil theory deals with these higher connections and their relation to [[ordinary differential cohomology]].
 
 Here we describe some introducory basics of the general theory in concrete terms.
+
+
 
 ## Preparatory concepts
 
@@ -1027,13 +1029,37 @@ In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-
 
 1. Why are these formulas what they are? What is the general abstract concept of an $\infty$-connection? What are its defining abstract properties?
 
-A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]] to aspects of which we are here giving the introduction. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close.
+A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]] to aspects of which we are here giving the introduction. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close. What we describe is a generalization of the concept of [[parallel transport]] to [[higher parallel transport]]. As we shall see, this is naturally expressed in terms of [[∞-anafunctor]]s out of [[path n-groupoid]]s. (In the full theory these arise canonically in the context of an [[c-connected (∞,1)-topos]] in the form of the [[schreiber:path ∞-groupoid]]).
 
-A central aspect of our development is that we shall understand $\infty$-connection in terms of the [[parallel transport]] and  [[higher parallel transport]] along paths and higher dimensional paths that that they induce. (...)
 
-The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]].
+We start by reviewing the classical theory of [[connection on a bundle]] in a way that will make its generalization to higher connections relatively straightforward in
 
-In the following subsections we describe the concept of a smooth [[path groupoid]] $\mathbf{P}_1(X)$ of a [[smooth manifold]] $X$ and more generally of a smooth [[path n-groupoid]] $P_n(X)$ for low $n \in \mathbb{N}$, and how smooth functors $P_n(X) \to A$ out of these encode [[differential form]]s and [[connection on a bundle|connections]] on [[principal bundle]]s, [[vector bundle]]s and (abelian and nonabelian) [[bundle gerbe]]s in terms of their [[nLab:parallel transport]] along curves and surfaces.
+* [Connections on principal bundles](#ConnectionOnPrincipalBundle).
+
+In the analogous we we can then describe certain classes of [[connections on a 2-bundle]] including the notion of [[connection on a bundle gerbe]] in
+
+* [Connections on 2-bundles](#ConnectionOn2Bundle).
+
+With that in hand we then revisit the discussion of connections on ordinary bundles: by associating to each bundle with connection its corresponding _curvature 2-bundle with connection_ , we obtain a more refined description of connections on bundles, one that is naturally adapted to the construction of [[curvature characteristic form]]s in the [[Chern-Weil homomorphism]]:
+
+* [Curvature characteristics of 1-bundles](#CurvatureCharacteristicsI).
+
+This turns out to be the kind of formulation of [[connections on an ∞-bundle]] that drops out of the general abstract theory described at [[∞-Chhern-Weil homomorphism]]. In classical terms, its full formulation involves the description of [[circle n-bundles with connecton]] in terms of [[Deligne cohomolohy]] and the description of the [[∞-groupoid of ∞-Lie algebra valued forms]] in terms of [[dg-algebra]] homomorphisms. The first aspect we discuss in 
+
+* [Circle n-bundles with connection](#c)
+
+the second in
+
+* [∞-Lie algebra valued connections](#LieConnections).
+
+The combination of these two aspects yields naturally an explicit model for the [[Chern-Weil homomorphism]] and its generalization to higher bundles:
+
+* [The ∞-Chern-Weil homomorphism](#ChernWeilHomomorphism)
+
+Taken together, these cnstructions allow us to express a good deal of the general theory with classical tools. As an example, we describe how the classicall Cech-Deligne cocycle construction of the Chern-Weil homomorphism (by Brylisnki and Maclaughline) drops out from these constructions:
+
+* [Example: The hern-Simons circle 3-bundle](#ChernSimons3Bund).
+
 
 
 #### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
@@ -1216,7 +1242,7 @@ $$
 where on the right we have the groupoid of $G$-[[nLab:principal bundle]]s [[nLab:connection on a bundle|with connection]] on $X$.
 
 
-#### Connections on gerbes and principal 2-bundles {#ConnectionOn2Bundle}
+#### Connections on principal 2-bundles {#ConnectionOn2Bundle}
 
 > basic fact to be expounded here: for $G$ a [[Lie 2-group]] we have
 
@@ -1705,6 +1731,34 @@ In order to describe this curvature characteristic class, we now invoke [below](
 with the tools of  [[nLab:∞-Lie theory]].
 
 
+### Circle $n$-bundles with connection {#CirclenBundles}
+
+In the abelian case it is easy to generalize the above construction to higher degrees.
+
+use [[Dold-Kan correspondence]] to construct
+
+$\mathbf{B}^n U(1) := \Xi U(1)[n]$
+
+$\mathbf{B} INN(U(1)) = \Xi (U(1) \to U(1))[n]$
+
+Then form
+
+$$
+  \mathbf{B}^n U(1)_{diff}
+  =
+  U \mapsto
+  \left\{
+      U &\to& \mathbf{B}^n U(1)
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{\Pi}(U) &\to& \mathbf{B}^n INN(U(1))
+  \right\}
+$$
+
+(...)
+
+see [[circle n-bundle with connection]]
 
 ### $\infty$-Lie algebra valued connections {#LieConnections}
 
@@ -1936,7 +1990,7 @@ $$
 we shall now identify as inducing the $\infty$-Lie theoretic analog of the [[nLab:Chern-Weil homomorphism]] which computes [[nLab:curvature characteristic form]]s from connections on [[nLab:principal ∞-bundle]]s.
 
 
-#### The $\infty$-Chern-Weil homomorphism 
+#### The $\infty$-Chern-Weil homomorphism {#ChernWeilHomomorphism}
 
 
 It had been known in parts of the literature for a long time that there is a nice way to think of the integration of a [[nLab:Lie algebra]] to a [[nLab:Lie group]] in terms of forming _paths_  in the Lie algebra, equivalently, in terms of flat [[nLab:Lie-algebra valued 1-forms]]. But the full impact of this observation only became manifest when the procedure was generalized to [[nLab:Lie algebroid]]s and [[nLab:∞-Lie algebra]]s. (See the discussion and references at [[nLab:Lie integration]].)
@@ -2156,6 +2210,10 @@ $$
 
 from the top two thirds to the bottom row. In this form $\infty$-Lie algebra valued connections were considered in <a href="http://arxiv.org/abs/0801.3480">SSSI</a>. 
 
+### Example: Chern-Simons circle 3-bundle {#ChernSimons3Bund}
+
+* [[Chern-Simons circle 3-bundle]]
+
 
 ## Summary
 
@@ -2312,7 +2370,6 @@ $$
   }
   \,.
 $$
-
 
 
 ## References
