@@ -3,7 +3,7 @@
 
 * [[Chern-Weil theory]]
 
-* [[∞-Chern-Weil theory -- preparatory concepts|preparatory concepts]]
+* [[∞-Chern-Weil theory introduction]]
 
 ## Ingredients
 
