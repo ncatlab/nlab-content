@@ -28,6 +28,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The notion of _connection on a 2-bundle_ generalizes the notion of [[connection on a bundle]] from [[principal bundle]]s to [[principal 2-bundle]]s.
+
+It comeswith a notion of [[higher parallel transport|2-dimensional parallel transport]].
+
 ## Definition
 
 For $G$ a [[Lie 2-group]], a _connection_ on a $G$-[[principal 2-bundle]] coming from a [[cocycle]] $g : X \to \mathbf{B}G$ is a lift of the cocycle to the  [[2-groupoid of Lie 2-algebra valued forms]] $\mathbf{B}G_{conn}$
@@ -46,3 +52,6 @@ $$
 ## References
 
 * U.S.,  [[Konrad Waldorf]], _Connections on non-abelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+
+
+[[!redirects connections on a 2-bundle]]
