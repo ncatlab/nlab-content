@@ -67,7 +67,7 @@ We end by indicating how under [[Lie integration]] this lifts to the full [[∞-
 
 Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[nLab:paracompact space|paracompact]]). 
 
-We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalizatoin to a description of [[principal ∞-bundle]]s.
+We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalization to a description of [[principal ∞-bundle]]s.
 
 The first observation is that from $X$ and $G$ we naturally obtain the following [[groupoid]]s.
 
@@ -96,7 +96,7 @@ $$
 
 where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention that does not matter up to equivalence.)
 
-But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathcal{B}G$  that makes it a a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
+But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathcal{B}G$  that makes it a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
 
 $$
   \mathbf{B}G \in LieGrpd
@@ -139,7 +139,7 @@ $$
        \\
        & \nearrow &=& \searrow
        \\
-      (x,i) &&\to&& (x,j)
+      (x,i) &&\to&& (x,k)
     }
   \right\}
   \,.
@@ -181,7 +181,7 @@ $$
        \\
        & \nearrow && \searrow
        \\
-      (x,i) &&\to&& (x,j)
+      (x,i) &&\to&& (x,k)
     }
   \right)
   \mapsto
