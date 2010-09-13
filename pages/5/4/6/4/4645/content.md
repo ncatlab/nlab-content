@@ -11,9 +11,9 @@
 =--
 =--
 
-* [[schreiber:differential cohomo,logy in an (∞,1)-topos -- survey]]
+* [[schreiber:differential cohomology in an (∞,1)-topos -- survey]]
 
-* **∞-Chern-Weil theory introduction**
+* **$\infty$-Chern-Weil theory introduction**
 
 * [[∞-Chern-Weil theory]]
 
