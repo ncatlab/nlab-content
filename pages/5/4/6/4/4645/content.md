@@ -668,7 +668,7 @@ $$
 with composition law
 
 $$
-  ((x,i) \stackrel{c_1}{\to} (x,j) \stackrel{c_2}{\to})
+  ((x,i) \stackrel{c_1}{\to} (x,j) \stackrel{c_2}{\to} (x,k))
   =
   ((x,i) \stackrel{(c_1 \cdot c_2 \cdot g_{i j k }(x))}{\to}
   (x,k))
