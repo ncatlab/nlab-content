@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -32,7 +37,7 @@ One thing to notice about this is that
 
 * net magnetic charge has not been observed in nature.
 
-The other thing is a more conceptual problem: the [[electromagnetic field|Dirac quantization condition]] says that the $2$-form $F$ is not entirely arbitrary, but constrained to be the characteristic curvature $2$-form of a degree-$2$ ordinary [[differential cohomology|differential cocycle]], for instance the curvature $2$-form of a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]]. But this necessarily implies that $d F = 0$.
+The other thing is a more conceptual problem: the [[electromagnetic field|Dirac quantization condition]] says that the $2$-form $F$ is not entirely arbitrary, but constrained to be the characteristic curvature $2$-form of a degree-$2$ cocycle in [[ordinary differential cohomology]], for instance the curvature $2$-form of a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]]. But this necessarily implies that $d F = 0$.
 
 Indeed, to circumvent dealing with this problem Dirac, in his original argument, has considered removing from $X$ the support of any magnetic charge density. 
 
@@ -40,7 +45,7 @@ It was Dan Freed who discussed that the global description of the [[electromagne
 
 * [[Dan Freed]], _Dirac charge quantization and generalized differenbtial cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
 
-The magnetic current $3$-form $j_{mag}$ is then realized as the curvature characteristic $3$-form of a degree-$3$ ordinary [[differential cohomology|differential cocycle]] $\hat j_{mag}$, the [[electromagnetic field]] $F$ is the curvature characteristic $2$-form of a degree-$2$ [[twisted cohomology|twisted]] differential cocycle $\hat F$ and the equation
+The magnetic current $3$-form $j_{mag}$ is then realized as the curvature characteristic $3$-form of a degree-$3$ cocycle in [[ordinary differential cohomology]] $\hat j_{mag}$, the [[electromagnetic field]] $F$ is the curvature characteristic $2$-form of a degree-$2$ [[twisted cohomology|twisted]] differential cocycle $\hat F$ and the equation
 
 $$
   d F = j_{mag}
