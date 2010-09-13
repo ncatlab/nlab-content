@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
 
 #Content#
 * automatic table of contents goes here
