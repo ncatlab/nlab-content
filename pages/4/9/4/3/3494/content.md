@@ -34,7 +34,13 @@ $$X(012) : X(02) \simeq X(12)X(01).$$
 $X(0)$, \ldots, $X(3)$, the edges $X(ij)$, etc., the faces $X(ijk)$, etc.  The 
 homotopies $X(ijk)$ fit together to make the sides of a square
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{X(13)X(01)\ar[rr]^{X(123)X(01)}%26%26X(23)X(12)X(01)\\X(03)\ar[u]^{X(013)}\ar[rr]_{X(023)}%26%26X(23)X(02)\ar[u]_{X(23)X(012)}}"/>
+$$
+ \begin{matrix}
+  X(1 3)X(0 1)&\xrightarrow{X(1 2 3)X(0 1)}&X(2 3)X(1 2)X(0 1)\\
+  \mathllap{X(0 1 3)}\left\uparrow\space{30}{20}{0}\right.& &\left.\space{30}{20}{0}\right\uparrow\mathrlap{X(2 3) X(0 1 2)}\\
+  X(0 3)&\xrightarrow[\qquad X(0 2 3)\qquad]{\quad}&X(2 3)X(0 2)
+ \end{matrix}
+$$
 and the
 diagram is made h.c. by specifying a second level homotopy 
 
