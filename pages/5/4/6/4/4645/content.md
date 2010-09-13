@@ -1112,242 +1112,167 @@ Taken together, these cnstructions allow us to express a good deal of the genera
 
 #### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
 
+There are different equivalent definitions of the classical notion of a connection. One that is useful for our purposes is that a connection is a rule for [[parallel transport]] along paths. We define a smooth groupoid of paths in $X$:
 
++-- {: .un_prop}
+###### Definition
 
-Recall the discussion of principal bundles [above](#PrincipalBundles) and the equivalence
+For $X$ a [[smooth manifold]] let $[I,X]$ be the space of smooth maps $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say a $U$-parameterized smooth family of points in $[I,X]$ is a smooth map $U \times I \to X$.
 
+Say a path $\gamma \in [I,X]$ has _sitting instants_ if it is constant in a neightbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
+
+Let $[I,X]_{si}^{th} \subset [I,X]_{si}$ be the set of equivalence classes where two paths are regarded as equivalent  if they are cobounded by a smooth [[thin homotopy]].
+
+Say a $U$-parameterized smooth family of points in $[I,X]_{si}{th}$ is one that comes from a $U$-family of representatives in $[I,X]_{si}$.
+
+The **path groupoid** $\mathbf{P}_1(X)$ is the groupoid
 
 $$
-  \left\{
-    \array{
-      C(U) &\stackrel{\simeq}{\to}& \mathbf{B}G
-      \\
-      \downarrow^{\mathrlap{\simeq}}
-      \\
-      X
-    }
-  \right\}
+  \mathbf{P}_1(X) = ([I,X]_{si}^{th} \stackrel{\to}{\to} X)
+$$
+
+with source and target maps given by endpoint evaluation and composition given by concatenation along any orientation preserving isomorphism $[0,1] \to [0,2]$.
+
+This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth path. We regard it as a groupoid-valued presheaf
+
+$$
+  \mathbf{P}_1(X) : U \mapsto (Diff(U \times I, X)_{si}^{th} \stackrel{\to}{\to} Diff(U,X) )
+  \,.
+$$
+
+=--
+
+A smooth functor $\mathbf{P}_1(X) \to \mathbf{B}G$ sends each (thin-homotopy class of a) path to an element of the group $G$, such that compotite paths map to products of group elements and such that $U$-families of smooth induce smooth maps $U \to G$ of elements. 
+
+Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a [[Lie-algebra valued 1-form]] on $X$ with valued in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then the classical notion of [[parallel transport]] induces such a functor
+
+$$
+   tra_A : \mathbf{P}_1(X) \to \mathbf{B}G
+$$
+
+$$
+  \gamma \mapsto P \exp(\int_{[0,1]} \gamma^* A)
+  \,.
+$$
+
++-- {: .un_prop}
+###### Theorem 
+
+This construction induces an [[equivalence of categories]]
+
+$$
+  [CartSp^{op},Grpd](\mathbf{P}_1(X), \mathbf{B}G)
   \simeq
-  G Bund(X)
+  \mathbf{B}G_{conn}(X)
+  \,,
+$$
+
+where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]: objects are 1-forms $A \in \Omega^1(X,\mathfrak{g})$, morphisms $g : A_1 \to A_2$ are labeled by [[smooth function]]s $g \in C^\infty(X,G)$ such that $A_2 = g^{-1} A g + g^{-1}d g$.
+
+=--
+
+This is equivalence is natural in $X$, so that we obtain another smooth groupoid
+
+$$
+  \mathbf{B}G_{diff} : U \mapsto [CartSp^{op}, Grpd](\mathbf{P}_1(-), \mathbf{B}G)
   \,.
 $$
 
-What we are after is an equivalence of categories of this functorial form for the case that the bundles are equipped with a [[connection on a bundle]].
+There is an evident smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
 
-There are many different but equivalent ways to formalize the classical notion of a connection. One that is useful for our purposes here is that a connection of a $G$-[[principal bundle]] $P \to X$ is a rule for [[parallel transport]] in $P$ along paths in $X$: to any path $\gamma : x \to y$ on $X$ it assigns a map $tra_\nabla : P_x \to P_y$ between the [[fiber]]s over the endpoints of the paths, that respects the $G$-action, the composition and the inversion of paths. One thinks of $tra_\nabla(\gamma)$ as mapping each point of $P_x$ to the result obtained by moving it along a specified lift of $\gamma$ from $X$ to $P$ while staying _parallel_ to $X$ in a specified way.
++-- {: .un_def}
+###### Defintion
 
-To capture this, we consider now the [[path groupoid]]
-$\mathbf{P}_1(X)$, defined to be the groupoid whose objects are the points of $X$, and whose morphisms are equivalence classes of smooth maps $\gamma : [0,1] \to X$ that are constant in a neighbourhood of the boundary of the interval, and where two such maps are regarded as equivalent if they can be connected by a smooth homotopy $[0,1]^2 \to X$ that is of rank $\leq 1$.
-
-Such a map $\gamma$ constitutes a path between its endpoint $x = \gamma(0)$ and $y = \gamma(1)$, and we regard it as a morphism $[\gamma] : x \to y$ in $P_1(X)$. The composition of these morphisms is given by concatenation of paths. 
-
-A cartoon of this [[nLab:path groupoid]] is
+Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ as [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift
 
 $$
-  \mathbf{P}_1(X)
-  = 
-  \left\{
-    \array{
-      && y
-      \\
-      & {}^{\mathrlap{[\gamma_1]}}\nearrow && \searrow^{\mathrlap{[\gamma_2]}}
-      \\
-      x &&\stackrel{[\gamma_2 \circ \gamma_1 ]}{\to}&& z
-    }
-  \right\}
+  \array{
+     && \mathbf{B}G_{diff}
+     \\
+     & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+  }
   \,.
 $$
 
-There is no good way to realize this groupoid as being internal to manifolds. But it has an nevertheless has an evident and natural smooth structure: we may declare that a family $f : \mathbb{R}^n \to Mor(\mathbf{P}_1(X))$ of morphisms of $P_1(X)$ parameterized over a [[nLab:Cartesian space]] $\mathbb{R}^n$ is a _smooth_ family if there is a [[nLab:smooth function]]  $\tilde f : \mathbb{R}^n \times [0,1] \to X$ such that $f(u)(-) = \tilde f(u,-)$.
+=--
 
-Possibly a more familiar groupoid is the [[fundamental groupoid]] $\mathbf{\Pi}_1(X)$ of $X$. This is defined essentially as $\mathbf{P}_1(X)$, only that here here morphisms are full [[homotopy]]-classes of paths, not just [[thin homotopy]] classes. This inherits a notion of smooth families of morphisms as before, but only the constant family is smooth in this case. We write $\Pi_1(X) \in Grpd$ for the underlying bare [[fundamental groupoid]] of $X$.
+This is equivalent to any of the standard definitions.
 
-There is a canonical projection functor $P_1(X) \to \mathbf{\Pi}_1(X)$ that sends a path to its homotopy class. This is a smooth functor in the above sense.
 
-Similarly we can also conceive the smooth structure of $\mathbf{B}G$ in terms of smooth families of morphisms in the obvious way. We say then that a morphism between such groupoids equipped with an information about smooth families is a functor that takes smooth families to smooth families. 
++-- {: .un_prop}
+###### Definition
 
-Later on we formalize this by saying that $\mathbf{P}_1(X)$, $\mathbf{\Pi}_1(X)$ as well as $\mathbf{B}G$ etc. are groupoids [[nLab:internal category|internal to]] the category of [[nLab:diffeological space]]s and that smooth functors are functors internal to that category.
+Write $\mathbf{\Pi}_1(X)$ for the smooth groupoid defined as $\mathbf{P}_1(X)$, but where inthead of thin homotopies, all homotopies are divided out.
 
-With these definitions we now find the following equivalence of categories
+=--
+
 
 +-- {: .un_prop}
 ###### Proposition
 
-There is a natural equivalence of categories 
+The above restricts to a natural equivalence
 
 $$
-  SmoothFunc(\mathbf{P}_1(X), \mathbf{B}G)
+  [CartSp^{op}, Grpd](\mathbf{P}_1(X), \mathbf{B}G)
   \simeq
-  G TrivBund_{\nabla}(X)
- \,.
-$$
-
-=--
-
-Here the groupoid on the right the [[nLab:groupoid of Lie-algebra valued forms]] on $X$, which may be thought of as the groupoid of _trivial_ $G$-principal bundles on $X$ equipped with connection. It is the groupoid whose
-
-* objects are [[nLab:Lie algebra]]-valued [[nLab:differential form]]s 
-  $A \in \Omega^1(X,\mathfrak{g})$;
-
-* morphisms $\lambda : A \to A'$ are smooth $G$-valued functions $\lambda \in C^\infty(X,G)$ such that $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1}$.
-
-* composition of morphisms is the product of $G$-valued functions.
-
-This equivalence is canonical: it identifies a differential form $A$ with the [[nLab:parallel transport]] that it induces: the smooth functor $tra_A : P_1(X) \to \mathbf{B}G$ corresponding to $A$ sends a path $\gamma : [0,1] \to X$ to the parallel transport
-
-$$
-  P \exp(\int_0^1 \gamma^* A)
-  \,,
-$$ 
-
-which is defined to be the value at 1 of the unique $G$-valued function $f : [0,1] \to G$ that solves the differential equation $d f = r_*(f)(A)$ with boundary condition $f(0) = e$, where $r(g) : G \to G$ is the right action of $G$ on itself.
-
-From this description and classical results it is clear that we have
-
-+-- {: .un_prop}
-###### Observation
-
-The smooth functor $tra_A : \mathbf{P}_1(X) \to \mathbf{B}G$ factors through the [[nLab:fundamental groupoid]] $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ precisely if $A$ is a _flat_ $\mathfrak{g}$-valued differential form, in that $F_A := d_{dR} A + [A \wedge A] = 0$.
-
-=--
-
-All these constructions are [[natural transformation|natural]] in $X$. This means that they extend in to functors
-
-$$
-  \mathbf{B}G_{conn}
-  :=
-  Hom(\mathbf{P}_1(-), \mathbf{B}G)
-  \simeq
-  (C^\infty(-,G) \times \Omega^1(-,\mathfrak{g})
-  \stackrel{\overset{}{\to}}{\underset{p_1}{\to}}
-  \Omega^1(-,\mathfrak{g}))
-  : 
-  Diff^{op} \to Grpd
-$$
-
-and
-
-$$
-  \mathbf{\flat} \mathbf{B}G
-  :=
-  SmoothFunc(\mathbf{\Pi}_1(-), \mathbf{B}G)
-  \simeq
-  (C^\infty(-,G) \times \Omega_{flat}^1(-,\mathfrak{g})
-  \stackrel{\overset{}{\to}}{\underset{p_1}{\to}}
-  \Omega_{flat}^1(-,\mathfrak{g}))
-  : 
-  Diff^{op} \to Grpd
-  \,.
-$$
-
-As our notation means to suggest, it makes sense to think of these
-functors as assigning to a space $U$ the the smooth families of maps into some implicitly defined smooth groupoid. When we formalize this in terms of [[(∞,1)-topos]] theory, we find an [[adjunction]] of the form
-
-$$
-  Hom(\mathbf{\Pi}_1(X), \mathbf{B}G)
-  \simeq
-  Hom(X, \mathbf{\flat}\mathbf{B}G)
-$$
-
-and
-
-$$
-  Hom(\mathbf{P}_1(X), \mathbf{B}G)
-  \simeq
-  Hom(X, (\mathbf{B}G)_{diff'})
-  \,.
-$$
-
-In terms of functors internal to [[diffeological space]]s, this is realized as follows: for $\{U_i \to X\}$ a (good) open cover as before, define a group $\mathbf{P}_1(C(\{U_i\}))$ that combines the [[nLab:Cech nerve|Cech groupoid]] with the [[nLab:path groupoid]]: its morphisms are generated from the morphisms of $C(\{U_i\})$ and $\mathbf{P}_1(X)$, subject to the relation indicated by the following cartoon description
-
-
-$$
-  \mathbf{P}_1(C(\{U_i\}))
-  =
-  \left\{
-    \array{
-      (x,i) &\stackrel{\gamma_i}{\to}& (y,i)
-      \\
-      \downarrow && \downarrow
-      \\
-      (x,j) &\stackrel{\gamma_j}{\to}& (y,j)
-    }
-  \right\}
-  \,.
-$$
-
-In terms of this we have 
-
-+-- {: .un_prop}
-###### Proposition
-
-$$
-  SmoothFunc(\mathbf{P}_1(C(U)), \mathbf{B}G)
-  \simeq
-  SmoothFunc(C(U), (\mathbf{B}G)_{diff'})
-  \simeq G Bund_\nabla(X)
+  \mathbf{\flat}\mathbf{B}G
   \,,
 $$
 
+where on the right we have the full sub-groupoid $\mathbf{\flat}\mathbf{B}G \subset \mathbf{B}G_{conn}$ on forms whose [[curvature]] 2-form vanishes.
+
 =--
 
-where on the right we have the groupoid of $G$-[[principal bundle]]s [[connection on a bundle|with connection]] on $X$.
+A connection $\nabla$ is _flat_ precisely if it factors through the inclusion $\flat \mathbf{B}G \to \mathbf{B}G_{conn}$.
 
 
 #### Connections on principal 2-bundles {#ConnectionOn2Bundle}
 
-> basic fact to be expounded here: for $G$ a [[Lie 2-group]] we have
 
-> $\flat\mathbf{B}G \simeq [\mathbf{\Pi}(-), \mathbf{B}G]$;
++-- {: .un_def}
+###### Definition
 
-> $\mathbf{B}G_{diff} = [\mathbf{\Pi}(-), \mathbf{B}INN(G)] \times_{\mathbf{B}INN(G)} \mathbf{B}G$.
+The [[path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(X)$ is the smooth [[strict 2-groupoid]] analogous to $\mathbf{P}_1(X)$, with [[thin homotopy]]-classes of disks $D^2 \to X$ as [[2-morphism]]s.
 
-Above we described [[nLab:cocycle]]s for smooth 
-$G$-[[nLab:principal bundle]]s on $X$ in terms of smooth functors
+Let $\mathbf{\Pi}_2(X)$ be the 2-groupoid by dividing out full homotopy of disks, relative boundary.
 
-$$
-  X \stackrel{\simeq}{\leftarrow} C(\{U_i\}) \stackrel{g}{\to} \mathbf{B}G
-$$
+=--
 
-and cocycles for bundles with connection in terms of smooth functors
+Let $G$ be a strict [[Lie 2-group]] coming from a [[crossed module]] $[G_2 \stackrel{\delta}{\to} G_1]$. Then $\mathbf{B}G$ is the strict [[Lie 2-groupoid]] coming from the [[crossed complex]] $[G_2 \to G_1 \stackrel{\to}{\to} *]$.
 
-$$
-  \mathbf{P}_1(X) \stackrel{\simeq}{\leftarrow} \mathbf{P}_(C(\{U_i\}))   
-  \stackrel{g}{\to} \mathbf{B}G
-$$
+For instance if $K$ is an [[abelian group]] then $\mathbf{B}K$ is the [[delooping]] 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ the 2-group coming from the complex $[K \to 1 \to 1]$.
 
-out of the [[nLab:path groupoid]].
-
-This suggests an evident generalization to higher categorical dimension.
-
-Let $G$ be a strict [[nLab:Lie 2-group]] coming from a [[nLab:crossed module]] $[G_2 \stackrel{\delta}{\to} G_1]$. Then $\mathbf{B}G$ is the strict 2-groupoid coming from the [[nLab:crossed complex]] $[G_2 \to G_1 \stackrel{\to}{\to} *]$.
-
-For instance if $K$ is an [[nLab:abelian group]] then $\mathbf{B}K$ is the 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ the 2-group coming from the complex $[K \to 1 \to 1]$.
-
-Write $\mathbf{P}_2(X)$ for the smooth [[nLab:path n-groupoid|path 2-groupoid]] of $X$. 
 
 +-- {: .un_prop}
 ###### Proposition
 
-There is a natural canonical equivalence of [[nLab:2-categories]]
+There is a natural equivalence of [[2-groupoid]]s
 
 $$
-  Smooth2Func(\mathbf{P}_2(X), \mathbf{B}G)
+  [CartSp^{op}, Grpd](\mathbf{P}_2(X), \mathbf{B}G)
   \simeq
-  G Triv2Bund_{\nabla,F_2=0}(X)
+  \mathbf{\flat} \mathbf{B}G
 $$
 
-where on the right we have the 2-category whose
+where on the right we have the [[2-groupoid of Lie 2-algebra valued forms]] whose
 
 * objects are pairs $A \in \Omega^1(X,\mathfrak{g}_1)$, 
   $B \in \Omega^2(X,\mathfrak{g}_2)$ such that
-  the 2-form curvature 
+  the 2-form [[curvature]] 
  
   $$
     F_2(A,B) := d_{dR} A + [A \wedge A] + \delta_* B
   $$
 
-  vanishes
+  and the 3-form curvature
+
+  $$
+    F_3(A,B) := d_{dR} B + [A \wedge B] 
+  $$
+
+  vanish.
 
 * morphisms $(\lambda,a) : (A,B) \to (A',B')$ 
   are pairs $a \in \Omega^1(X,\mathfrak{g}_2)$, 
@@ -1355,63 +1280,63 @@ where on the right we have the 2-category whose
   $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + \delta_* a$
   and $B' = \lambda(B) + d_{dR} a + [A\wedge a]$
 
-* 2-morphims are ...
+* 2-morphims are (exercise).
 
 =--
 
-This is the [[nLab:2-groupoid of Lie 2-algebra valued forms]] restricted to those [[nLab:Lie 2-algebra]] valued forms whose 2-form curvature vanishes.
+This is in ([SWII](#SW)).
 
-Under this equivalence, a 2-functor $tra_{(A,B)}$ factors through the fundamental 2-group $\mathbf{P}_2(X) \to \mathbf{\Pi}_2(X)$ precisely if also the 3-form curvature 
-
-$$
-  F_3(A,B) := d_{dR} B + [A \wedge B]
-$$
-
-vanishes.
-
-This is in [SchrWalII](http://arxiv.org/abs/0802.0663).
-
-As before, this is entirely natural in $X$, so that we that we get a presheaf of 2-groupoids
+As before, this is natural in $X$, so that we that we get a presheaf of 2-groupoids
 
 $$
-  \mathbf{B}G_{diff'} : U \mapsto
-  Smooth2Func(\mathbf{P}_2(U), \mathbf{B}G)
+  \mathbf{\flat}\mathbf{B}G : U \mapsto
+  [CartSp^{op}, 2Grpd]\mathbf{P}_2(U), \mathbf{B}G)
   \,.
 $$
 
 
++-- {: .un_def}
+###### Definition
+
+Let $P \to X$ be a $G$-[[principal 2-bundle]] classified by a cocycle $C(U) \to \mathbf{B}G$. Then a structure of a flat **[[connection on a 2-bundle]]** $\nabla $ on it is a lift
+
+$$
+  \array{
+    && \mathbf{\flat}\mathbf{B}G
+    \\
+    & {}^{\mathllap{\nabla_{flat}}}\nearrow & \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
 +-- {: .un_prop}
 ###### Proposition
-
 
 Let $\{U_i \to X\}$ be a [[nLab:good open cover]] of $X$ and $C(\{U_i\})$ the corresponding [[nLab:Cech nerve|Cech groupoid]] internal to [[nLab:diffeological space]]s. 
 
 We have a natural equivalence of [[nLab:bicategories]]
 
 $$
-  Smooth2Func(\mathbf{P}_2(C(\{U_i\})), \mathbf{B}^2 U(1))
-  \simeq
-  Smooth2Func(C(\{U_i\}), \mathbf{B}^2 U(1)_{diff'})
+  [CartSp^{op}, 2Grpd](\mathbf{P}_2(C(U), \mathbf{B}^2 U(1))
   \simeq
   U(1) Gerb_\nabla(X)
   \,,
 $$
 
-where on the right we have the bicategory of $U(1)$-[[nLab:bundle gerbe]]s with connection.
+where on the right we have the bicategory of $U(1)$-[[bundle gerbe]]s with connection.
 
 =--
 
-This is in [SchrWalIII](http://arxiv.org/abs/0808.1923).
-
-It is immediate to remove by hand the constraint that the 2-form curvature has to vanish, and thereby obtain the full Lie [[nLab:2-groupoid of Lie 2-algebra valued forms]]. All cocycle descriptions go through as before, essentially the only difference now being that there is no constraint on the 2-form curvature on a $G$-principal 2-bundle.
-
-These unconstrained cocycles for [[nLab:automorphism 2-group]] $AUT(H)$-[[nLab:principal 2-bundle]]s (i.e. for $H$-[[nLab:gerbe]]s) have been proposed in [BreMes2001](http://arxiv.org/abs/math/0106083). See the references <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#ConnectionOnNonabelianGerbes">here</a>.
-
-While we can remove this constraint by hand, the question remains what this amounts to conceptually.  In particular: what is the right notion of morphisms / coboundaries between general differential nonabelian 2-cocycles and what classification properties do the resulting cocycle 2-groupoids and cohomology sets have? In order to address these questions, we will now take another look at the relation between connections and their curvature.
-
+This is in ([SWIII](#SW)).
 
 
 #### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
+
+> now $\mathbf{B}G_{diff} = \mathbf{B}G \times \mathbf{B}INN(G) \mathbf{\flat}\mathbf{B} INN(G)$...
 
 Above we described connections on [[nLab:principal bundle]]s and on [[nLab:gerbe]]s and [[nLab:principal 2-bundle]]s in terms of their [[nLab:parallel transport]] manifested as a smooth $n$-functor out of the [[nLab:path groupoid]] $\mathbf{P}_1(-)$ and the [[nLab:path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(-)$.
 
@@ -1425,8 +1350,10 @@ We shall now systematize this observation and show how line bundles with non-fla
 
 ##### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
 
+
+
 Write $\mathbf{B}U(1) \to \mathbf{E}\mathbf{B}U(1) \to \mathbf{B}^2 U(1)$
-for the sequence of smooth 2-groupoids that under the [[nLab:Dold-Kan correspondence]] come from the sequence of chain complexes
+for the sequence of smooth 2-groupoids that under the [[Dold-Kan correspondence]] come from the sequence of chain complexes
 
 $$
   [1 \to U(1) \to 1] \to [U(1) \to U(1) \to 1] \to [U(1) \to 1 \to 1]
