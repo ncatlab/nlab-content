@@ -8,9 +8,11 @@ An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [
 
 ## Properties
 
-Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]], finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
+Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]] constructed via a $S^3$-bundle over the 4-sphere $S^4$, finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
-Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \geq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. Then Kervaire and Milnor (1963) proved that there are only finitely many exotic smooth structures on all spheres in dimension 5 or higher. A complete classification of smooth, PL and topological structures on manifolds in dimension 5 and higher was established by Kirby and Siebenman (1977) using obstruction theory.
+Via the celebrated h cobordism theorem of Smale (Smale 1962, Milnor 1965) one gets a relation between the number of smooth structures on the $n$-sphere $S^n$ (for $n \geq 5$) and the number of isotopy classes $\pi_0 (Diff(S^{n-1}))$ of the equator $S^{n-1}$. Then Kervaire and Milnor (1963) proved that there are only finitely many exotic smooth structures on all spheres in dimension 5 or higher. By using the connected sum operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an abelian group. For the 7-sphere, it is the cyclic group $Z_{28}$ and Brieskorn (1966) found the generator $\Sigma$ so that $\underbrace{\Sima\#\cdots\#\Sigma}_28$ is the standard sphere.
+
+A complete classification of smooth, PL and topological structures on manifolds in dimension 5 and higher was established by Kirby and Siebenman (1977) using obstruction theory.
 
 Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Gompf 1985, Freedman/Taylor 1986, Taubes 1987), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$ (Stallings, Zeeman 1962). There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets (Freedman/Taylor 1986, DeMichelis/Freedman 1992).
 
