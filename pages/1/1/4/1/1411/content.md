@@ -18,7 +18,7 @@ Historically, identity elements (as above) came first, then [[identity functions
 
 An identity is sometimes called a __[[unit]]__ (although that term also has a broader meaning, and an operation that has an identity element is called __unital__ or __unitary__.  In particular, a [[magma]] whose underlying operation $*\colon X \times X \to X$ has an identity is called a __unital magma__ or a __unitary magma__.
 
-Similarly, a __unit law__ is the statement that a given operation has an identity element.  In [[higher category theory]], we generalise from uniticity to a [[unitor]].
+Similarly, a __unit law__ is the statement that a given operation has an identity element.  In [[higher category theory]], we generalise from the [[property]] of uniticity/unitality to the [[structure]] of a [[unitor]].
 
 
 [[!redirects identity]]
@@ -39,3 +39,4 @@ Similarly, a __unit law__ is the statement that a given operation has an identit
 [[!redirects unit law]]
 [[!redirects unit laws]]
 [[!redirects uniticity]]
+[[!redirects unitality]]
