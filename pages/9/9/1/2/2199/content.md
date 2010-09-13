@@ -2,7 +2,7 @@ The __boolean domain__ or __boolean field__ $\mathbb{B}$ is a $2$-element set, s
 
 A __boolean variable__ $x$ is a variable that takes its value in a boolean domain, as $x \in \mathbb{B}$.  If this variable depends on parameters, then it is (or defines) a [[Boolean-valued function]], that is a [[function]] whose target is $\mathbb{B}$.
 
-An [[element]] of $\mathbb{B}$ is a __binary digit__, or __bit__.  As a unit of [[information]], a bit is $\ln 2$, since there are $2$ bits.
+An [[element]] of $\mathbb{B}$ is a __[[binary digit]]__, or __bit__.
 
 
 ## As a boolean algebra or ring
@@ -17,8 +17,3 @@ Note that the term 'boolean field' (or just 'field', depending on the context) i
 [[!redirects boolean field]]
 [[!redirects Boolean fields]]
 [[!redirects boolean fields]]
-
-[[!redirects binary digit]]
-[[!redirects binary digits]]
-[[!redirects bit]]
-[[!redirects bits]]
