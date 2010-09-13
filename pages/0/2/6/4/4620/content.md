@@ -4,9 +4,9 @@
 
 ## Idea
 
-In [[logic and foundations]], a __principle of omniscience__ is any principle of [[classical mathematics]] that is not valid in [[constructive mathematics]].  The idea beind the name (which is due to [[Errett Bishop]]) is that, if we attempt to extend the computational interpretation of constructive mathematics to incorporate one of these principles, we would have to know something that we cannot compute.  The main example is the law of [[excluded middle]] ($EM$); to apply $p \vee \neg{p}$ computationally, we must know which of these disjuncts hold; to apply this in all situations, we would have to be know everything.
+In [[logic and foundations]], a __principle of omniscience__ is any principle of [[classical mathematics]] that is not valid in [[constructive mathematics]].  The idea beind the name (which is due to [[Errett Bishop]]) is that, if we attempt to extend the computational interpretation of constructive mathematics to incorporate one of these principles, we would have to know something that we cannot compute.  The main example is the law of [[excluded middle]] ($EM$); to apply $p \vee \neg{p}$ computationally, we must know which of these disjuncts hold; to apply this in all situations, we would have to know everything.
 
-Bishop\'s principles of omnisicience (stated below) may be seen as principles that extend classical logic from [[predicates]] to their [[quantifications]], even over infinite domains.
+Bishop\'s principles of omnisicience (stated below) may be seen as principles that extend classicaly logic from [[predicates]] (where $EM$ may happen to be valid, even constructively, for certain predicates) to their [[quantifications]] over infinite domains (where $EM$ is typically not constructively valid).
 
 
 ## The limited principle of omniscience
@@ -30,7 +30,7 @@ $$ (\forall x, P(x) \vee \neg{P(x)}) \Rightarrow (\forall y, Q(y) \vee \neg{Q(y)
 
 If, as before, you take the domains of quantification to be subsingletons, you get [[de Morgan's law]] $\neg(p \wedge q) \Rightarrow \neg{p} \vee \neg{q}$ ($DM$), which is weaker than $EM$; converesely, $DM$ implies $LLPO$.  Again, Bishop\'s $LLPO$ takes the domain to be $\mathbb{N}$, giving a principle weaker than $DM$ (and also weaker than $LPO_{\mathbb{N}}$).
 
-Stated set-theoretically, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that, given function $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.  Note that $LLPO_A$ follows from $LPO_A$, but not conversely.
+Stated set-theoretically, the __lesser limited principle of omniscience for $A$__ ($LLPO_A$) states that, given functions $f, g\colon A \to \{0,1\}$, if $1 \notin \im f \cap \im g$, then $1 \notin \im f$ or $1 \notin \im g$.  So Bishop\'s $LLPO$ is $LLPO_{\mathbb{N}}$.  Note that $LLPO_A$ follows from $LPO_A$, but not conversely.
 
 
 ## Usage in analysis
