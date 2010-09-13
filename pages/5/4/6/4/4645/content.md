@@ -217,7 +217,7 @@ $$
 
 Such spans of functors, whose left leg is a weak equivalence, are sometimes known as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of Lie groupoids. 
 
-Now consider yet another ie groupoid canonically associated with $G$: we shall write $\mathbf{E}G$ for the groupoid whose formal description is
+Now consider yet another Lie groupoid canonically associated with $G$: we shall write $\mathbf{E}G$ for the groupoid whose formal description is
 
 $$
   \mathbf{E}G  = 
@@ -306,9 +306,9 @@ $$
   \,,
 $$
 
-where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functins $(g_{i j})$. We may think of $\tilde P$ as _being_ $P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
+where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functions $(g_{i j})$. We may think of $\tilde P$ as _being_ $P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
 
-While the fact that the $P$ obrained this way does indeed have a principal $G$-[[action]] on it is easy to see in components, but for later generalizations it is crucial that we can also recover this in a general abstract way. For notice that there is a canonical [[action]]
+While it is easy to see in components that the $P$ obtained this way does indeed have a principal $G$-[[action]] on it, for later generalizations it is crucial that we can also recover this in a general abstract way. For notice that there is a canonical [[action]]
 
 $$
   (\mathbf{E}G) \times G \to \mathbf{E}G
@@ -356,7 +356,7 @@ between the [[nLab:functor category]] of smooth functors and smooth natural tran
 
 =--
 
-It is no coincidence that this statemment looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[homotopy]]-classes of morphisms of [[topological space]]s 
+It is no coincidence that this statement looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[homotopy]]-classes of morphisms of [[topological space]]s 
 
 $$
   \pi_0 Top(X, \mathcal{B}G)
@@ -367,7 +367,7 @@ $$
 
 where $\mathcal{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. In fact the category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
 
-In fact, all of the statements that we considered so far becomes conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we condisered is just a model for the [[homotopy pullback]] of just the _point_ 
+In fact, all of the statements that we considered so far becomes conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we considered is just a model for the [[homotopy pullback]] of just the _point_ 
 
 
 $$
@@ -427,7 +427,7 @@ The discussion above of $G$-principal bundles was all based on the [[Lie groupoi
 
 Write $U(1) = \mathbb{R}/\mathbb{Z}$ for the [[circle group]]. We have already seen above the groupoid $\mathbf{B}U(1)$ obtained from this. But since $U(1)$ is an [[abelian group]] this groupoid has the special property that it still has itself the structure of an [[group object]]. This makes it what is called a [[2-group]]. Accordingly, we may form its [[delooping]] once more to arrive at a [[Lie 2-groupoid]] $\mathbf{B}^2 U(1)$.
 
-Its cartonn picture is
+Its cartoon picture is
 
 $$
   \mathbf{B}^2 U(1) = 
@@ -543,7 +543,7 @@ $$
     \bullet &&\stackrel{}{\to}&& \bullet
     \\
     \uparrow^{} &\Downarrow^{g_{i j k}(x)}
-    &{}^{}\nearrow&\Downarrow^{g_(i k l)(x)}& 
+    &{}^{}\nearrow&\Downarrow^{g_{i k l}(x)}& 
     \downarrow^{}
     \\
     \bullet
@@ -576,14 +576,14 @@ is that known from [[Cech cohomology]].
 
 Following the general abstract formalism, it is again straightforward to find the total space of the $\mathbf{B}U(1)$-[[principal 2-bundle]] that is classified by such a cocycle.
 
-For that we need to get the 2-groupoid $\mathbf{B} \mathbf{B}U(1)$ and the 2-functor $\mathbf{E} \mathbf{B} U(1) \to \mathbf{B}^2 U(1)$ that exhibuits the [[universal principal ∞-bundle|universal principal 2-bundle]] over $U(1)$.
+For that we need to get the 2-groupoid $\mathbf{B}^2 U(1)$ and the 2-functor $\mathbf{E} \mathbf{B} U(1) \to \mathbf{B}^2 U(1)$ that exhibits the [[universal principal ∞-bundle|universal principal 2-bundle]] over $U(1)$.
 
 It is easy to guess what this should be, but there is also a systematic way to derive this, which works in full generality:
 
 
 #### Universal principal $n$-bundles {#UniversalnBundle}
 
-For $G$ any group object, what the [[universal principal ∞-bundle]] is a good replacement for the point inclusion $* \to \mathbf{B}G$.
+For $G$ any group object, the [[universal principal ∞-bundle]] is a good replacement for the point inclusion $* \to \mathbf{B}G$.
 
 Write 
 
@@ -660,9 +660,9 @@ $$
   \mu_g : \pi_1^* L \otimes \pi_2^* L \to \pi_1^* L
 $$
 
-canonically induced from $g$. The cocycle condition satisfied by $g$ implies that this composition operation is associative in the evident sense
+canonically induced from $g$. The cocycle condition satisfied by $g$ implies that this composition operation is associative in the evident sense.
 
-Such a structzre is called a [[bundle gerbe]] relative to the [[surjective submersion]] $U \to X$. We see that this is the total space of a $\mathbf{B}U(1)$-[[principal 2-bundle]] in a weakly equivalent incarnation akin to the presentation $(\coprod_i U_i \times G)/_{(g_{i j})}$ of an ordinary principal bundle in terms of a cocycle.
+Such a structure is called a [[bundle gerbe]] relative to the [[surjective submersion]] $U \to X$. We see that this is the total space of a $\mathbf{B}U(1)$-[[principal 2-bundle]] in a weakly equivalent incarnation akin to the presentation $(\coprod_i U_i \times G)/_{(g_{i j})}$ of an ordinary principal bundle in terms of a cocycle.
 
 This is the beginning of a pattern. Next we can form one more [[delooping]] and produce the Lie 3-groupoid $\mathbf{B}^3 U(1)$. A cocycle $C(U) \to \mathbf{B}^3 U(1)$ classifies a _circle 3-bundle_  . The total space object $\tilde P$ in the pullback
 
