@@ -211,6 +211,7 @@ Explain the difference between hide and click-to-hide?
 
 ***
 
++--{: #itex2MMLversion}
 What version of itex2MML is the nLab running?
 
 * Version 1.4.2? 
@@ -245,11 +246,51 @@ What version of itex2MML is the nLab running?
   $$
   \widehat{xyz}
   $$
+  **Nope!**
 
-* Jeez! Let's go *way* back. How about version 1.3.18?
+* Version 1.3.23?
+  $$
+  \begin{svg}<svg width="95" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="67270">
+   <g>
+    <title>Layer 1</title>
+    <foreignObject x="0" y="4" id="svg_67270_1" font-size="16" width="95" height="20">
+     <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+      <semantics>
+       <mrow>
+        <mi>a</mi>
+        <mspace width="2em"/>
+        <mo>&#8659;</mo>
+        <mspace width="2em"/>
+        <mi>b</mi>
+       </mrow>
+       <annotation encoding="application/x-tex">a\qquad\Downarrow\qquad b</annotation>
+      </semantics>
+     </math>
+    </foreignObject>
+    <path fill="none" stroke="#000000" d="m10.875,13.23438c32.036598,-14.78223 43.476711,-15.17551 73.375,0" id="svg_67270_2" marker-end="url(#se_marker_end_svg_67270_2)"/>
+    <path fill="none" stroke="#000000" d="m10.875,20.734381c33.918011,14.464769 41.542679,14.7124 73.375,0" marker-end="url(#se_marker_end_svg_67270_2)" id="svg_67270_13"/>
+   </g>
+   <defs>
+    <marker id="se_marker_end_svg_67270_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
+     <path id="svg_67270_3" d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
+    </marker>
+   </defs>
+  </svg>\end{svg}
+  $$
+  **Nope!**
+
+* Version 1.3.22 (released 2010-04-18)?
+  $$
+  V\ominus W
+  $$
+  **Nope!**
+
+* Jeez! Let's go *way* back. How about version 1.3.18 (released 2009-11-18)?
   $$
   \overline{abcd} \underline{wxyz}
   $$
+  **Whew!** *That's a relief.*
+=--
 
 category: meta
 
