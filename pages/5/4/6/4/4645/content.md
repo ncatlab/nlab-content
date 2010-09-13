@@ -637,7 +637,7 @@ $$
   \,.
 $$
 
-Unwinding what this means, one see that $\tilde P$ is a groupoid which is given by a (trivial) complex [[line bundle]] 
+Unwinding what this means, one sees that $\tilde P$ is a groupoid which is given by a (trivial) complex [[line bundle]] 
 
 $$
   \array{
@@ -645,7 +645,7 @@ $$
      \\
      \downarrow
      \\
-     C(U)_1 = U \times_X U &\stackrel{\to}{\to}& C(U)_1 = U
+     (C(U)_1 = U \times_X U) &\stackrel{\to}{\to}& (C(U)_0 = U)
      \\
      && \downarrow
      \\
