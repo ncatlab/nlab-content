@@ -211,6 +211,46 @@ Explain the difference between hide and click-to-hide?
 
 ***
 
+What version of itex2MML is the nLab running?
+
+* Version 1.4.2? 
+  $$
+  \begin{matrix}
+  X(1 3)X(0 1)&\xrightarrow{X(1 2 3)X(0 1)}&X(2 3)X(1 2)X(0 1)\\
+  \mathllap{X(0 1 3)}\left\uparrow\space{30}{20}{0}\right.& &\left.\space{30}{20}{0}\right\uparrow\mathrlap{X(2 3) X(0 1 2)}\\
+  X(0 3)&\xrightarrow[\qquad X(0 2 3)\qquad]{\quad}&X(2 3)X(0 2)
+  \end{matrix}
+  $$
+  **Nope!**
+
+* Version 1.3.27?
+  $$
+  A,\dots,B
+  $$
+  **Nope!**
+
+* Version 1.3.26?
+  $$
+  X\sslash G
+  $$
+  **Nope!**
+
+* Version 1.3.25?
+  $$
+  \boxed{A=B}
+  $$
+  **Nope!**
+
+* Version 1.3.24?
+  $$
+  \widehat{xyz}
+  $$
+
+* Jeez! Let's go *way* back. How about version 1.3.18?
+  $$
+  \overline{abcd} \underline{wxyz}
+  $$
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
