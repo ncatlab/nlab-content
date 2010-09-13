@@ -637,7 +637,51 @@ $$
   \,.
 $$
 
-Unwinding what this means, one sees that $\tilde P$ is a groupoid which is given by a (trivial) complex [[line bundle]] 
+Unwinding what this means, we see that  $\tilde P$ is the 2-groupoid whose objects are that of $C(U)$, whose morphisms are finite sequences of morphisms in $C(U)$,each equipped with a label $c \in U(1)$, and whose 2-morphisms are generated from those that look like
+
+$$
+  \array{
+    && (x,j)
+    \\
+    & {}^{\mathllap{c_1}}\nearrow &\Downarrow^{g_{i j k}(x)}& \searrow^{\mathrlap{c_2}}
+    \\
+    (x,i) &&\stackrel{c_3}{\to}&& (x,k)
+  }
+$$
+
+subject to the condition that
+
+$$
+  c_1 \cdot c_2 = c_3 \cdot g_{i j k}(x)
+$$
+
+in $U(1)$. As before for principal 1-bundles $P$, where we saw that the analogous pullback 1-groupoid $\tilde P$ was equivalent to the 0-groupoid $P$, here we see that this 2-groupoid is equivalent to the 1-groupoid 
+
+$$
+  P = 
+  \left(
+    C(U)_1 \times U(1) \stackrel{\to}{\to}
+    C(U)
+  \right)
+$$ 
+
+with composition law
+
+$$
+  ((x,i) \stackrel{c_1}{\to} (x,j) \stackrel{c_2}{\to})
+  =
+  ((x,i) \stackrel{(c_1 \cdot c_2 \cdot g_{i j k }(x))}{\to}
+  (x,k))
+$$
+
+This is a [[groupoid cohomology|groupoid central extension]]
+
+$$
+  \mathbf{B}U(1) \to P \to C(U) \times X
+  \,.
+$$
+
+Centrally extended groupoids of this kind are known in the literature as [[bundle gerbe]]s (over the [[surjective submersion]] $Y = U \to X$ ). They may be thought of as given by a [[line bundle]] 
 
 $$
   \array{
@@ -653,18 +697,18 @@ $$
   }
 $$
 
-over the space $C(U)_1$ of [[morphism]]s, and where composition is encoded by a line bundle morphism
+over the space $C(U)_1$ of [[morphism]]s, and a line bundle morphism
 
 $$
 
   \mu_g : \pi_1^* L \otimes \pi_2^* L \to \pi_1^* L
 $$
 
-canonically induced from $g$. The cocycle condition satisfied by $g$ implies that this composition operation is associative in the evident sense.
+that satisfies an evident [[associativity]] law, equivalent to the cocycle codition on $g$.
 
-Such a structure is called a [[bundle gerbe]] relative to the [[surjective submersion]] $U \to X$. We see that this is the total space of a $\mathbf{B}U(1)$-[[principal 2-bundle]] in a weakly equivalent incarnation akin to the presentation $(\coprod_i U_i \times G)/_{(g_{i j})}$ of an ordinary principal bundle in terms of a cocycle.
+So we see that bundle gerbes are presentations of Lie groupoids that are total spaces of $\mathbf{B}U(1)$-[[principal 2-bundle]]s.
 
-This is the beginning of a pattern. Next we can form one more [[delooping]] and produce the Lie 3-groupoid $\mathbf{B}^3 U(1)$. A cocycle $C(U) \to \mathbf{B}^3 U(1)$ classifies a _circle 3-bundle_  . The total space object $\tilde P$ in the pullback
+This is clearly the beginning of a pattern. Next we can form one more [[delooping]] and produce the Lie 3-groupoid $\mathbf{B}^3 U(1)$. A cocycle $C(U) \to \mathbf{B}^3 U(1)$ classifies a _circle 3-bundle_  . The total space object $\tilde P$ in the pullback
 
 $$
   \array{
@@ -1036,7 +1080,7 @@ We being below the discussion of $\infty$-connection by reviewing the classical 
 
 * [Connections on principal bundles](#ConnectionOnPrincipalBundle).
 
-In an analogous way we we can then describe certain classes of [[connections on a 2-bundle]] -- subsuming the notion of [[connection on a bundle gerbe]] -- in
+In an analogous way we can then describe certain classes of [[connections on a 2-bundle]] -- subsuming the notion of [[connection on a bundle gerbe]] -- in
 
 * [Connections on 2-bundles](#ConnectionOn2Bundle).
 
@@ -1065,26 +1109,30 @@ Taken together, these cnstructions allow us to express a good deal of the genera
 #### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
 
 
-> basic fact to be expounded here: for $G$ a Lie group 
 
-> $\mathbf{B}G_{conn} = [\mathbf{P}_1(-), \mathbf{B}G]$.
+Recall the discussion of principal bundles [above](#PrincipalBundles) and the equivalence
 
-
-We describe the standard notion of a [[nLab:connection on a bundle]] but from a point of view that carries in it the seed for the general concept of differential cohomology that we describe here. This also serves to introduce in simple explicit terms several of the concepts that we shall formalize later in abstract [[nLab:(∞,1)-topos]] theory.
-
-Recall the discussion of principal bundles [above](#PrincipalBundles) and in particular the equivalence of groupoids
 
 $$
-  Hom_{Grpd(Diffeol)}(C(U), \mathbf{B}G)
+  \left\{
+    \array{
+      C(U) &\stackrel{\simeq}{\to}& \mathbf{B}G
+      \\
+      \downarrow^{\mathrlap{\simeq}}
+      \\
+      X
+    }
+  \right\}
   \simeq
   G Bund(X)
+  \,.
 $$
-
-given by an [[good open cover]] $\{U_i \to X\}$.
 
 What we are after is an equivalence of categories of this functorial form for the case that the bundles are equipped with a [[connection on a bundle]].
 
-For that purpose we consider now the [[nLab:path groupoid]]
+There are many different but equivalent ways to formalize the classical notion of a connection. One that is useful for our purposes here is that a connection of a $G$-[[principal bundle]] $P \to X$ is a rule for [[parallel transport]] in $P$ along paths in $X$: to any path $\gamma : x \to y$ on $X$ it assigns a map $tra_\nabla : P_x \to P_y$ between the [[fiber]]s over the endpoints of the paths, that respects the $G$-action, the composition and the inversion of paths. One thinks of $tra_\nabla(\gamma)$ as mapping each point of $P_x$ to the result obtained by moving it along a specified lift of $\gamma$ from $X$ to $P$ while staying _parallel_ to $X$ in a specified way.
+
+To capture this, we consider now the [[path groupoid]]
 $\mathbf{P}_1(X)$, defined to be the groupoid whose objects are the points of $X$, and whose morphisms are equivalence classes of smooth maps $\gamma : [0,1] \to X$ that are constant in a neighbourhood of the boundary of the interval, and where two such maps are regarded as equivalent if they can be connected by a smooth homotopy $[0,1]^2 \to X$ that is of rank $\leq 1$.
 
 Such a map $\gamma$ constitutes a path between its endpoint $x = \gamma(0)$ and $y = \gamma(1)$, and we regard it as a morphism $[\gamma] : x \to y$ in $P_1(X)$. The composition of these morphisms is given by concatenation of paths. 
@@ -1108,7 +1156,7 @@ $$
 
 There is no good way to realize this groupoid as being internal to manifolds. But it has an nevertheless has an evident and natural smooth structure: we may declare that a family $f : \mathbb{R}^n \to Mor(\mathbf{P}_1(X))$ of morphisms of $P_1(X)$ parameterized over a [[nLab:Cartesian space]] $\mathbb{R}^n$ is a _smooth_ family if there is a [[nLab:smooth function]]  $\tilde f : \mathbb{R}^n \times [0,1] \to X$ such that $f(u)(-) = \tilde f(u,-)$.
 
-Possibly a more familiar groupoid is the [[nLab:fundamental groupoid]] $\mathbf{\Pi}_1(X)$ of $X$. This is defined essentially as $\mathbf{P}_1(X)$, only that here here morphisms are full [[nLab:homotopy]]-classes of paths, not just [[nLab:thin homotopy]] classes. This inherits a notion of smooth families of morphisms as before, but only the constant family is smooth in this case. We write $\Pi_1(X) \in Grpd$ for the underlying bare [[nLab:fundamental groupoid]] of $X$.
+Possibly a more familiar groupoid is the [[fundamental groupoid]] $\mathbf{\Pi}_1(X)$ of $X$. This is defined essentially as $\mathbf{P}_1(X)$, only that here here morphisms are full [[homotopy]]-classes of paths, not just [[thin homotopy]] classes. This inherits a notion of smooth families of morphisms as before, but only the constant family is smooth in this case. We write $\Pi_1(X) \in Grpd$ for the underlying bare [[fundamental groupoid]] of $X$.
 
 There is a canonical projection functor $P_1(X) \to \mathbf{\Pi}_1(X)$ that sends a path to its homotopy class. This is a smooth functor in the above sense.
 
@@ -1159,12 +1207,12 @@ The smooth functor $tra_A : \mathbf{P}_1(X) \to \mathbf{B}G$ factors through the
 
 =--
 
-All these constructions are [[nLab:natural transformation|natural]] in $X$. This means that they extend in to functors
+All these constructions are [[natural transformation|natural]] in $X$. This means that they extend in to functors
 
 $$
-  \mathbf{B}G_{diff'}
+  \mathbf{B}G_{conn}
   :=
-  SmoothFunc(\mathbf{P}_1(-), \mathbf{B}G)
+  Hom(\mathbf{P}_1(-), \mathbf{B}G)
   \simeq
   (C^\infty(-,G) \times \Omega^1(-,\mathfrak{g})
   \stackrel{\overset{}{\to}}{\underset{p_1}{\to}}
@@ -1189,7 +1237,7 @@ $$
 $$
 
 As our notation means to suggest, it makes sense to think of these
-functors as assigning to a space $U$ the the smooth families of maps into some implicitly defined smooth groupoid. When we formalize this in terms of [[nLab:(∞,1)-topos]] theory further below, we find an [[nLab:adjunction]] of the form
+functors as assigning to a space $U$ the the smooth families of maps into some implicitly defined smooth groupoid. When we formalize this in terms of [[(∞,1)-topos]] theory, we find an [[adjunction]] of the form
 
 $$
   Hom(\mathbf{\Pi}_1(X), \mathbf{B}G)
@@ -1206,7 +1254,7 @@ $$
   \,.
 $$
 
-In terms of functors internal to [[nLab:diffeological space]]s, this is realized as follows: for $\{U_i \to X\}$ a (good) open cover as before, define a group $\mathbf{P}_1(C(\{U_i\}))$ that combines the [[nLab:Cech nerve|Cech groupoid]] with the [[nLab:path groupoid]]: its morphisms are generated from the morphisms of $C(\{U_i\})$ and $\mathbf{P}_1(X)$, subject to the relation indicated by the following cartoon description
+In terms of functors internal to [[diffeological space]]s, this is realized as follows: for $\{U_i \to X\}$ a (good) open cover as before, define a group $\mathbf{P}_1(C(\{U_i\}))$ that combines the [[nLab:Cech nerve|Cech groupoid]] with the [[nLab:path groupoid]]: its morphisms are generated from the morphisms of $C(\{U_i\})$ and $\mathbf{P}_1(X)$, subject to the relation indicated by the following cartoon description
 
 
 $$
@@ -1230,16 +1278,16 @@ In terms of this we have
 ###### Proposition
 
 $$
-  SmoothFunc(\mathbf{P}_1(C(\{U_i\})), \mathbf{B}G)
+  SmoothFunc(\mathbf{P}_1(C(U)), \mathbf{B}G)
   \simeq
-  SmoothFunc(C(\{U_i\}), (\mathbf{B}G)_{diff'})
+  SmoothFunc(C(U), (\mathbf{B}G)_{diff'})
   \simeq G Bund_\nabla(X)
   \,,
 $$
 
 =--
 
-where on the right we have the groupoid of $G$-[[nLab:principal bundle]]s [[nLab:connection on a bundle|with connection]] on $X$.
+where on the right we have the groupoid of $G$-[[principal bundle]]s [[connection on a bundle|with connection]] on $X$.
 
 
 #### Connections on principal 2-bundles {#ConnectionOn2Bundle}
@@ -2223,11 +2271,13 @@ This section gives a concise summary of the constructions introduced above.
 
 We have the following [[diffeological n-groupoid|diffeological 1- or 2-groupoids]].
 
-* $\mathbf{\Pi}_1(X)$ -- the [[fundamental groupoid]] of $X$;
+* $\mathbf{\Pi}_1(X)$ -- the [[fundamental groupoid]] of $X$ (morphisms are [[homotopy]]-classes of paths);
 
-* $\mathbf{P}_1(X)$ -- the [[path groupoid]] of $X$
+* $\mathbf{P}_1(X)$ -- the [[path groupoid]] of $X$ (morphisms are [[thin homotopy]]-classes of paths)
 
-* $\mathbf{\Pi}_2(X)$ the [[path n-groupoid|fundamental path 2-groupoid]].
+* $\mathbf{P}_2(X)$ the [[path n-groupoid|fundamental path 2-groupoid]] (2-morphisms are [[thin homotopy]]-classes of disks).
+
+* $\mathbf{\Pi}_2(X)$ the [[path n-groupoid|fundamental path 2-groupoid]] (2-morphisms are [[homotopy]]-classes of disks).
 
 Let $G$ be a [[Lie group]]. We have the following Lie groupoids associated with that
 
