@@ -1118,9 +1118,9 @@ There are different equivalent definitions of the classical notion of a connecti
 $$
   \array{
     P_x &\stackrel{tra_\nabla(\gamma)}{\to}& P_y
-    &\stackrel{\gamma'}{\to}& P_z &&& P
+    &\stackrel{tra_\nabla(\gamma')}{\to}& P_z &&& P
     \\
-    && && \downarrow
+    && && && \downarrow
     \\
     x &\stackrel{\gamma}{\to}& y &\stackrel{\gamma'}{\to}& z
     &&&
@@ -1129,12 +1129,12 @@ $$
   \,.
 $$
 
-In order to formalize this, we introduce a [[diffeological space|doffeological]] [[Lie groupoid]] to be called the [[path groupoid]] of $X$.
+In order to formalize this, we introduce a ([[diffeological space|diffeological]]) [[Lie groupoid]] to be called the [[path groupoid]] of $X$.
 
 +-- {: .un_prop}
 ###### Definition
 
-For $X$ a [[smooth manifold]] let $[I,X]$ be the set of [[smooth function]]s $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say that _a $U$-parameterized smooth family of points in $[I,X]$_ is a smooth map $U \times I \to X. (This makes $[I,X]$ a [[diffeological space]]).
+For $X$ a [[smooth manifold]] let $[I,X]$ be the set of [[smooth function]]s $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say that _a $U$-parameterized smooth family of points in $[I,X]$_ is a smooth map $U \times I \to X$. (This makes $[I,X]$ a [[diffeological space]]).
 
 Say a path $\gamma \in [I,X]$ has _sitting instants_ if it is constant in a neighbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
 
@@ -1144,7 +1144,7 @@ Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that
 
 =--
 
-The passage to the subset and qotient of the set of all smooth paths in the above definition are essentially the minimal operation to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
+The passage to the subset and qotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition are essentially the minimal operations to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
 
 +-- {: .un_prop}
 ###### Definition
@@ -1159,13 +1159,13 @@ with source and target maps given by endpoint evaluation and composition given b
 
 $$
   [\gamma_2] \circ [\gamma_1] : [0,1]
-  \to [0,1] \coprod_{1,0} [0,1]
+  \stackrel{\simeq}{\to} [0,1] \coprod_{1,0} [0,1]
   \stackrel{(\gamma_2 , \gamma_1)}{\to}
   X
   \,.
 $$
 
-This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth paths. We regard it as a groupoid-valued presheaf
+This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth paths. We regard it as a groupoid-valued presheaf, an object in $[CartSp^{op}, Grpd]$:
 
 $$
   \mathbf{P}_1(X) : U \mapsto (Diff(U \times I, X)_{si}^{th} \stackrel{\to}{\to} Diff(U,X) )
@@ -1174,25 +1174,78 @@ $$
 
 =--
 
+Observe now that for $G$ a [[Lie group]] and $\mathbf{B}G$ its [[delooping]] [[Lie groupoid]] discussed [above](#PrincipalBundles), a smooth functor $tra : \mathbf{P}_1(X) \to \mathbf{B}G$ sends each (thin-homotopy class of a) path to an element of the group $G$ 
 
+$$
+  tra : (x \stackrel{[\gamma]}{\to} y)
+  \mapsto
+  (
+  \bullet
+  \stackrel{tra(\gamma) \in G}{\to}
+  \bullet
+  )
+$$
 
-A smooth functor $\mathbf{P}_1(X) \to \mathbf{B}G$ sends each (thin-homotopy class of a) path to an element of the group $G$, such that composite paths map to products of group elements and such that $U$-families of smooth paths induce smooth maps $U \to G$ of elements. 
+such that composite paths map to products of group elements 
 
-Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a [[Lie-algebra valued 1-form]] on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then the classical notion of [[parallel transport]] induces such a functor
+$$
+  tra : 
+  \left(
+    \array{
+      && y
+      \\
+      & {}^{\mathllap{[\gamma]}}\nearrow &=& \searrow^{\mathrlap{[\gamma']}}
+      \\
+      x &&\stackrel{[\gamma']\circ [\gamma]}{\to}&& z
+    }
+  \right)
+  \mapsto
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{tra(\gamma)}}\nearrow 
+      &=& 
+      \searrow^{\mathrlap{tra(\gamma')}}
+      \\
+      \bullet &&\stackrel{tra(\gamma)tra(\gamma')}{\to}&& \bullet
+    }
+  \right)
+$$
+
+and such that $U$-families of smooth paths induce smooth maps $U \to G$ of elements. 
+
+There is a classical construction that yields such an assignment: the [[parallel transport]] of a [[Lie-algebra valued 1-form]].
+
++-- {: .un_prop}
+###### Definition
+
+Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a degree-1 [[differential form]] on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then its parallel transport is the smooth functor
 
 $$
    tra_A : \mathbf{P}_1(X) \to \mathbf{B}G
 $$
 
+given by
+
 $$
-  \gamma \mapsto P \exp(\int_{[0,1]} \gamma^* A)
-  \,.
+  [\gamma] \mapsto P \exp(\int_{[0,1]} \gamma^* A) \; \in G
+  \,,
 $$
+
+where the group element on the right is defined to be the unique solution $f :  [0,1] \to G$ of the [[differential equation]]
+
+$$
+  d_{dR} f + \gamma^*A \wedge f = 0
+$$
+
+for the boundary condition $f(0) = e$.
+
+=--
 
 +-- {: .un_prop}
 ###### Theorem 
 
-This construction induces an [[equivalence of categories]]
+This construction $A \mapsto tra_A$ induces an [[equivalence of categories]]
 
 $$
   [CartSp^{op},Grpd](\mathbf{P}_1(X), \mathbf{B}G)
@@ -1201,7 +1254,11 @@ $$
   \,,
 $$
 
-where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]: objects are 1-forms $A \in \Omega^1(X,\mathfrak{g})$, morphisms $g : A_1 \to A_2$ are labeled by [[smooth function]]s $g \in C^\infty(X,G)$ such that $A_2 = g^{-1} A g + g^{-1}d g$.
+where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]: 
+
+* objects are 1-forms $A \in \Omega^1(X,\mathfrak{g})$, 
+
+* morphisms $g : A_1 \to A_2$ are labeled by [[smooth function]]s $g \in C^\infty(X,G)$ such that $A_2 = g^{-1} A g + g^{-1}d g$.
 
 =--
 
