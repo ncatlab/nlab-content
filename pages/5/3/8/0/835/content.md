@@ -45,11 +45,57 @@ Fix a meaning/model of [[∞-groupoid]], however weak or strict you wish. Then a
 
 There are various objects that model the abstract notion of $2$-groupoid.
 
-* A **[[bigroupoid]]** is a [[bicategory]] in which all morphisms are [[equivalences]].
+### Bigroupoids
 
-* A $3$-[[coskeleton|coskeletal]] [[Kan complex]] is precisely the [[Duskin nerve]] of a bigroupoid. 
+A **[[bigroupoid]]** is a [[bicategory]] in which all morphisms are [[equivalences]].
 
-  More generally one may consider a [[Kan complex]] that is just [[homotopy equivalent]] to a $3$-coskeletal one as a $2$-groupoid -- precisely: as representing the same [[homotopy type]], namely a [[homotopy 2-type]].
+### 3-Coskeletal Kan complexes
+
+A $3$-[[coskeleton|coskeletal]] [[Kan complex]] is precisely the [[Duskin nerve]] of a bigroupoid. 
+
+This is a [[simplicial set]], whose vertices, edges, and 2-[[simplices]] we identify with the [[object]]s, [[morphism]]s and [[2-morphism]]s of the form
+
+$$
+  \array{
+     && y
+     \\
+     & \nearrow &\downarrow& \searrow
+      \\
+     x &&\stackrel{}{\to}&& z
+  }
+$$
+  
+in the 2-groupoid, respectively. 
+
+Moreover, the 3-[[simplices]] encode the composition operation: given three faces of a tetrahedron (a 3-[[horn]]), a composite of them is any choice of fourth face and a 3-cell filling the reesulting hollow tetrahedron.
+
+$$
+\array{\arrayopts{\rowalign{center}}
+O(\Delta^3) = & \left\{
+\array{\begin{svg}
+[[!include oriental > Delta3]]
+\end{svg}}\right\}\\
+\end{svg}}
+\right\}
+}
+$$
+
+
+
+
+Then the 3-coskeletal-condition says that every boudnary of a 4-simplex made up of 5 such tetrahedra has a unqiue filler. This is the [[associativity]] [[coherence law]] on the comoposition operation given by the choice of tetrahedra.
+
+$$
+ \array{\arrayopts{\rowalign{center}}
+ \array{\begin{svg}
+ [[!include monoidal category > pentagonator]]
+ \end{svg}} 
+ }
+$$
+
+### Homotopy 2-types
+
+More generally one may consider a [[Kan complex]] that is just [[homotopy equivalent]] to a $3$-coskeletal one as a $2$-groupoid -- precisely: as representing the same [[homotopy type]], namely a [[homotopy 2-type]].
 
 
 ## Strict $2$-groupoids
