@@ -1,4 +1,28 @@
-In a $V$-[[enriched category]] $C$ for any two object $a,b$ of $C$ the $V$-object $C(a,b)$ is called the _hom-object_ of the ordered pair $(a,b)$, in generalization of the term [[hom-set]] for ordinary [[locally small category|locally small categories]], which are categories enriched over [[Set]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An ordinary [[small category]] $C$ has for any ordered pair of  [[object]]s $x,y$ a [[hom-set]] $C(x,y)$.
+
+For $C$ more generally an [[enriched category]] over a [[closed monoidal category]] $V$, there is --  by definition -- for all $x,y$ an _object_ $C(x,y) \in obj V$ that plays the role of the "collection of morphisms" from $x$ to $y$
+
+## Examples
+
+* The category [[Grpd]] of [[groupoid]]s is a enriched over itself. Hence for any two groupoids $A,B$, there is a [[hom-groupoid]] $Grpd(A,B)$. This is the [[functor category]] $Func(A,B)$.
+
 
 
 [[!redirects hom-objects]]
