@@ -30,3 +30,5 @@ Accordingly these are characteristic classes of $U$-[[principal bundle]]s.
 The first Chern class is the unique characteristic class of [[circle group]]-principal bundles.
 
 The analogous classes for the [[orthogonal group]] are the [[Pontryagin class]]es.
+
+[[!redirects Chern classes]]
