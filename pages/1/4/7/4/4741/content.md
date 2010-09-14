@@ -82,7 +82,7 @@ is an acyclic [[Kan fibration]]. This means that its [[fiber]]s are [[contractib
 
 +-- {: .un_example}
 ###### Example
-**(Trimbe $\omega$-categories)**
+**(Trimble $\omega$-categories)**
 
 In a [[Trimble n-category]] the space of choices of composing a sequence of $n$ morphisms is explicitly the [[topological space]] $Top_{0,1}(I, I^{\vee n})$ of surjections from the unit interval $[0,1]$ onto the length $n$-interval $[0,n]$. The coherence law of composition in a Trimble $n$-category is the fact that these spaces are [[contractible]].
 
