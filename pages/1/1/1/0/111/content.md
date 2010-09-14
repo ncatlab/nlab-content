@@ -72,9 +72,21 @@ Similarly, a category is [[locally small category|locally small]] if $hom(x,y)$ 
 
 ### Alternate Definitions
 
-The definition of a category can be rephrased in different mostly-equivalent ways.  For example, instead of taking as given a collection $C_0$ of objects and a collection $C_1$ of morphisms, one can take as given a collection $C_0$ of objects, together with for each pair $x,y$ of objects a collection $hom_C(x,y)$ of morphisms from $x$ to $y$.  (If each collection $hom_C(x,y)$ is a _set_, then this latter version defines only a "locally small category," as above.)  The first definition generalizes naturally to [[internal categories]], while the second generalizes naturally to [[enriched categories]].
+The definition of a category can be rephrased in different mostly-equivalent ways.  For example, instead of taking as given a collection $C_0$ of objects and a collection $C_1$ of morphisms, one can take as given a collection $C_0$ of objects, together with for each pair $x,y$ of objects a collection $hom_C(x,y)$ of morphisms from $x$ to $y$.  (If each collection $hom_C(x,y)$ is a _set_, then this latter version defines only a "locally small category," as above.)  
 
-It is also possible to define a category in terms of only _one_ collection (the collection of arrows); see [[single-sorted definition of a category]].  This is sometimes convenient for technical reasons.
+This generalizes to the notion of 
+
+* [[internal categories]];
+
+* [[enriched categories]],
+
+respectively.
+
+For some purposes it is useful or necessary to vary the way the ordinary definition of category is expressed. See
+
+* [[single-sorted definition of a category]] -- An equivalent definition in terms of only _one_ collection -- the collection of arrows. This is sometimes convenient for technical reasons.
+
+* [[type-theoretic definition of category]] -- An  equivalent definition true to the context of [[type theory]].
 
 
 
