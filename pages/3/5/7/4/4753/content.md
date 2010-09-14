@@ -43,6 +43,9 @@ The notation $p\coloneq P$ signifies that $p$ is a proof of the [[proposition]] 
 
 So the above defines that a category is a record consisting of a type of objects, and for each pair of objects a type of homomorphisms between them, and also identity and composition operations satisfying unit laws and associativity.
 
+## Discussion
+
+The defined type of categories cannot itself be a member of $\mathrm{Type}$, otherwise we run into [[Girard's paradox]]. This is related to the size issues for categories. 
 
 [[!redirects type-theoretic definition of category]]
 [[!redirects type-theoretic definition of a category]]
