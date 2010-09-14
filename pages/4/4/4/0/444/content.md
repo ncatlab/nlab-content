@@ -9,9 +9,11 @@
 =--
 =--
 
-The notion of _nerve_ is part of a notion of pairs of [[adjoint functors]]. For the general nonsense behind this see
+The notion of _nerve_ is part of a notion of pairs of [[adjoint functors]]. For the general abstract theory behind this see
 
 * [[nerve and realization]].
+
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -341,13 +343,13 @@ This characterization of categories in terms of nerves directly leads to the mod
 
 ### Nerve of a 2-category ###
 
+For [[2-categories]] modeled as [[bicategories]] the nerve operation is calledd the [[Duskin nerve]].
+
 For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply the nerve operation for categories in stages, to obtain the [[double nerve]].
 
 ### Nerve of an $\omega$-category ###
 
-* This nerve of a 1-category is the restriction to [[1-category|1-categories]] of the nerve ("$\omega$-nerve") on [[strict omega-category|strict omega-categories]] which is induced by the [[orientals]] $i := O : \Delta \to \omega Cat$. This nerve is not fully faithful.
-
-* When $C$ is the strict 1-category of [[2-category|2-categories]] or of [[bicategory|bicategories]] and homomorphisms of bicategories, and $S=\Delta$ the corresponding nerve is called the _Duskin nerve_.
+* For [[strict omega-category|strict omega-categories]] there is a nerve induced by the [[orientals]]. see [[omega-nerve]].
 
 
 ### Nerve of chain complexes ###
