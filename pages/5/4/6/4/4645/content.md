@@ -1120,7 +1120,7 @@ $$
     P_x &\stackrel{tra_\nabla(\gamma)}{\to}& P_y
     &\stackrel{tra_\nabla(\gamma')}{\to}& P_z &&& P
     \\
-    && && && \downarrow
+    && && &&& \downarrow
     \\
     x &\stackrel{\gamma}{\to}& y &\stackrel{\gamma'}{\to}& z
     &&&
@@ -1129,7 +1129,7 @@ $$
   \,.
 $$
 
-In order to formalize this, we introduce a ([[diffeological space|diffeological]]) [[Lie groupoid]] to be called the [[path groupoid]] of $X$.
+In order to formalize this, we introduce a ([[diffeological space|diffeological]]) [[Lie groupoid]] to be called the [[path groupoid]] of $X$. (Constructions and results in this section are from ([SWI](#SWI)).
 
 +-- {: .un_prop}
 ###### Definition
@@ -1144,7 +1144,14 @@ Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that
 
 =--
 
+
++-- {: .un_remark}
+###### Remark
+
 The passage to the subset and quotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition is essentially the minimal adjustment to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
+
+=--
+
 
 +-- {: .un_prop}
 ###### Definition
@@ -1155,7 +1162,7 @@ $$
   \mathbf{P}_1(X) = ([I,X]_{si}^{th} \stackrel{\to}{\to} X)
 $$
 
-with source and target maps given by endpoint evaluation and composition given by concatenation of classes $[\gamma]$ of paths along any orientation preserving isomorphism $[0,1] \to [0,2] \simeq [0,1] \coprod_{1,0} [0,1]$ of any of their representatives
+with source and target maps given by endpoint evaluation and composition given by concatenation of classes $[\gamma]$ of paths along any orientation preserving [[diffeomorphism]] $[0,1] \to [0,2] \simeq [0,1] \coprod_{1,0} [0,1]$ of any of their representatives
 
 $$
   [\gamma_2] \circ [\gamma_1] : [0,1]
@@ -1165,7 +1172,7 @@ $$
   \,.
 $$
 
-This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth paths. We regard it as a groupoid-valued presheaf, an object in $[CartSp^{op}, Grpd]$:
+This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth paths. We regard it as a [[groupoid-valued presheaf]], an object in $[CartSp^{op}, Grpd]$:
 
 $$
   \mathbf{P}_1(X) : U \mapsto (Diff(U \times I, X)_{si}^{th} \stackrel{\to}{\to} Diff(U,X) )
@@ -1255,7 +1262,7 @@ $$
   \,,
 $$
 
-where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]: 
+where on the left we have the [[hom-groupoid]] of [[groupoid-valued presheaves]] and  where on the right we have the [[groupoid of Lie-algebra valued 1-forms]] whose 
 
 * objects are 1-forms $A \in \Omega^1(X,\mathfrak{g})$, 
 
@@ -1263,7 +1270,7 @@ where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]:
 
 =--
 
-This equivalence is [[natural transformation|natural]] in $X$, so that we obtain another smooth groupoid
+This equivalence is [[natural transformation|natural]] in $X$, so that we obtain another smooth groupoid.
 
 +-- {: .un_def}
 ###### Definition
@@ -1272,10 +1279,14 @@ Define $\mathbf{B}G_{conn} : CartSp^{op} \to Grpd$ to be the (generalized) Lie g
 
 $$
   \mathbf{B}G_{conn} : U \mapsto [CartSp^{op}, Grpd](\mathbf{P}_1(-), \mathbf{B}G)
-  \,.
 $$
 
+whose $U$-parameterized smooth families of groupoids form the [[groupoid of Lie-algebra valued 1-forms]] on $U$.
+
 =--
+
++-- {: .un_remark}
+###### Remark
 
 This equivalence in particular subsumes the classical facts that parallel transport $\gamma \mapsto P \exp(\int_{[0,1]} \gamma^* A)$ 
 
@@ -1283,7 +1294,15 @@ This equivalence in particular subsumes the classical facts that parallel transp
 
 * sends reversed paths to inverses of group elements.
 
-Notice that there is an evident smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
+
+=--
+
 
 +-- {: .un_def}
 ###### Defintion
@@ -1303,7 +1322,25 @@ $$
 
 =--
 
++-- {: .un_lemma}
+###### Observation
+
 This is equivalent to any of the [[connection on a bundle|standard definitions]].
+
+=--
+
+A morphism $C(U) \to \mathbf{B}G_{conn}$ is
+
+* on each $U_i$ a 1-form $A_i \in \Omega^1(U_i, \mathfrak{g})$;
+
+* on each $U_i \cap U_j$ a function $g_{i j} \in C^\infty(U_i \cap U_j , G)$;
+
+such that
+
+* on each $U_i \cap U_j$ we have $A_j = g_{i j}^{-1}( A + d_{dR} )g_{i j}$;
+
+* on each $U_i \cap U_j \cap U_k$ we have $g_{i j} \cdot g_{j k} = g_{i k}$.
+
 
 +-- {: .un_prop}
 ###### Definition
@@ -1333,7 +1370,7 @@ A connection $\nabla$ is _flat_ precisely if it factors through the inclusion $\
 
 =--
 
-
+For the purposes of [[Chern-Weil theory]] we want a good way to extract the [[curvature]] 2-form in a general abstract way from a cocycle $\nabla : X \stackrel{\simeq}{\leftarrow }C(U) \to \mathbf{B}G_{conn}$. In order to do that, we first need to disczuss [[connections on 2-bundles]].
 
 #### Connections on principal 2-bundles {#ConnectionOn2Bundle}
 
@@ -2477,6 +2514,7 @@ The ide of describing connections on principal 1- and 2-bundles in terms of para
 A detailed account of the description of ordnary bundles with connection in the style that prepares the ground for our developments here is in 
 
 * U. S., [[Konrad Waldorf]], _Parallal transport and functors_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">web</a>)
+{#SWI}
 
 A detailed account of the description of (abelian and nonabelian) [[gerbe]]s/[[bundle gerbe]]s/[[principal 2-bundle]]s in the style that we shall generalize to an $(\infty,1)$-topos theoretical context here is in
 
