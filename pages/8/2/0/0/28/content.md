@@ -1,9 +1,30 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
 [[!include category theory - contents]]
-</div>
+=--
+=--
+=--
+
+* **groupoid**
+
+* [[2-groupoid]]
+
+* [[3-groupoid]]
+
+* [[∞-groupoid]]
 
 
-#Definition#
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A **groupoid** $G$ is a [[category]] in which all morphisms are [[isomorphism|isomorphisms]].  Often the requirement is made that $G$ is [[small category|small]].
 
@@ -11,7 +32,7 @@ A groupoid is **tame** if its [[groupoid cardinality|cardinality]] is finite.
 
 Groupoids form a $2$-[[2-category|category]] (in fact a $(2,1)$-category) [[Grpd]].
 
-#Notation#
+## Notation
 
 If $x,y$ are objects (also called vertices) of the groupoid $G$ then the set of morphisms (also called arrows) from $x$ to $y$ is written $G(x,y)$.  The set $G(x,x)$ (which is a [[group]] under composition) is also written $G(x)$ and called the _vertex group_ of $G$ at $x$.  It is also written $Aut_G(x)$ and called the [[automorphism group]] of $x$ in $G$, or written $\pi_1(G,x)$ and called the [[fundamental group]] of $G$ at $x$ (especially if you think of a groupoid as giving a [[homotopy 1-type]]).
 
@@ -19,7 +40,7 @@ As in any category, there is a question of notation for the composition, and in 
 
 A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all $x,y \in Ob(G)$; it is called _inhabited_, or _nonempty_, if it has at least one object. A maximal inhabited connected subgroupoid of $G$ is called a _component_ of $G$, and $G$ is then the [[disjoint union]] (the [[coproduct]] in $\Grpd$), of its connected components. The set of components of $G$ is written $\Pi_0(G)$. 
 
-#Examples#
+## Examples
 
 1. Any [[group]] $H$ gives rise to a groupoid, sometimes denoted $\mathbf{B}H$ but often conflated with $H$ itself, which has exactly one object $*$ and with $\mathbf{B}H(*,*) = H$.  Any inhabited connected groupoid is [[equivalence of categories|equivalent]] to one arising in this way.
 
@@ -46,7 +67,7 @@ _Toby_:  But there is still a free [[setoid]] (set equipped with an equivalence 
 =--
 
 
-#References#
+## References
 
 * P.J. Higgins,  Presentations of Groupoids, with Applications to Groups, Proc. Camb. Phil. Soc., 60 (1964) 7--20.
 
