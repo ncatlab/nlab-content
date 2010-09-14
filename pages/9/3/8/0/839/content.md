@@ -1,7 +1,23 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
+
+* [[groupoid]]
+
+* [[2-groupoid]]
+
+* **3-groupoid** 
+
+* [[∞-groupoid]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
