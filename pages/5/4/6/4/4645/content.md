@@ -1307,11 +1307,11 @@ There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes
 +-- {: .un_def}
 ###### Defintion
 
-Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift of the cocycle through $\mathbf{B}G_{diff} \to \mathbf{B}G$.
+Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift of the cocycle through $\mathbf{B}G_{conn} \to \mathbf{B}G$.
 
 $$
   \array{
-     && \mathbf{B}G_{diff}
+     && \mathbf{B}G_{conn}
      \\
      & {}^{\mathllap{\nabla}}\nearrow & \downarrow
      \\
@@ -1599,6 +1599,31 @@ For $G$ a [[Lie group]] its [[inner automorphism 2-group]] $INN(G)$ is as a grou
 
 =--
 
+The delooping [[2-groupoid]] $\mathbf{B}INN(G)$ looks as
+
+$$
+  \mathbf{B}INN(G)
+  =
+  \left\{
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{g_1}}\nearrow 
+      & \Downarrow^{\mathrlap{k}}
+      & \searrow^{\mathrlap{g_2}}
+      \\
+      \bullet
+      &&\underset{g_3 = g_1 g_2 k}{\to}&&
+      \bullet
+    }
+    \;\;
+    \,,
+    \;\;
+    g_1, g_2, k \in G
+  \right\}
+  \,.
+$$
+
 +-- {: .un_remark}
 ###### Remark
 
@@ -1630,6 +1655,7 @@ of flat $INN(G)$-valued 2-connections and Lie-algebra valued 1-forms. Under the 
 
 This means that 2-connections with values in $INN(G)$ actually model 1-connections _and_ keep track of their curvatures. Using this we see in the next section a general abstract definition of connections on 1-bundles that naturally supposrt the [[Chern-Weil homomorphism]].
 
+
 #### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
 
 We now describe connections on 1-bundles in terms of their _flat curvature 2-bundles_ . This gives a general abstract notion of connections that generalizes to [[connections on ∞-bundles]] and that supports naturally the [[Chern-Weil homomorphism]]
@@ -1647,7 +1673,7 @@ $$
   \,.
 $$
 
-This is the [[groupoid-valued presheaf]] which assigns to $U \in CartSp$ groupoid whose objects are [[commuting diagram]]s
+This is the [[groupoid-valued presheaf]] which assigns to $U \in CartSp$ the groupoid whose objects are [[commuting diagram]]s
 
 $$
   \array{
@@ -1660,9 +1686,44 @@ $$
   \,,
 $$
 
-where the vertical morphisms are the canonical inclusions discussed above, and whose morphisms are compatible pairs of [[natural transformation]]s of the horizontal morphisms.
+where the vertical morphisms are the canonical inclusions discussed above, and whose morphisms are compatible pairs of [[natural transformation]]s 
+
+$$
+  \array{
+    U &{{\nearrow \searrow} \atop {\to}}& \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}_2(U) &{{\nearrow \searrow} \atop {\to}}& \mathbf{B} INN(G)
+  }
+$$
+
+
+of the horizontal morphisms.
 
 =--
+
++-- {: .un_remark}
+###### Remark
+
+By the above theorems, we have over any $U \in $ [[CartSp]] that
+
+* an [[object]] in $\mathbf{B}G_{diff}(U)$ is a 1-form $A \in \Omega^1(U,\mathfrak{g})$;
+
+* a [[morphism]] $A_1 \stackrel{(g,a)}{\to} A_2$ is labeled by a function $g \in C^\infty(U,G)$ and a 1-form $a \in \Omega^1(U,\mathfrak{g})$ such that
+
+  $$
+    A_2 = g^{-1}A_1 g + g^{-1}d g  + a
+    \,.
+  $$
+  
+  Notice that this can always be uniquely solved for $a$, so that the genuine information in this morphism is just the data given by $g$. 
+
+* thet are _no_ nontrivial [[2-morphism]]s, even though $\mathbf{B}INN(G)$ is a 2-groupoid: since $\mathbf{B}G$ is just a 1-groupoid this is enforced by the commutativity of the above diagram.
+
+=--
+
+From this it is clear that
 
 +-- {: .un_prop}
 ###### Proposition
@@ -1671,16 +1732,165 @@ The projection $\mathbf{B}G_{diff} \stackrel{\simeq}{\to} \mathbf{B}G$ is a weak
 
 =--
 
-So $\mathbf{B}G_{diff}$ is a [[resolution]] of $\mathbf{B}G$. We will see that it is the resoluton that supprts [[infinity-anafunctor]]s out of $\mathbf{B}G$ that represent [[curvature characteristic class]]es.
+So $\mathbf{B}G_{diff}$ is a [[resolution]] of $\mathbf{B}G$. We will see that it is the resoluton that supports [[∞-anafunctor|2-anafunctor]]s out of $\mathbf{B}G$ that represent [[curvature characteristic class]]es.
 
+
++-- {: .un_def}
+###### Definition
+
+For $X \stackrel{\simeq}{\leftarrow}C(U) \to \mathbf{B}U(1)$ a cocycle for a $U(1)$-principal bundle $P \to X$, we call a lift $\nabla_{ps}$ in
+
+$$
+  \array{
+    && \mathbf{B}G_{diff}
+    \\
+    & {}^{\mathllap{\nabla_{ps}}}\nearrow & \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+a [[pseudo-connection]] on $P$.
+
+=--
+
+
+Pseudo-connections in themselves are not very interesting. But notice that every ordinary connection is in particular a pseudo-connection and we have an inclusion  morphism of smooth groupoids
+
+$$
+  \mathbf{B}G_{conn} \hookrightarrow \mathbf{B}G_{diff}
+  \,.
+$$
+
+This inclusion plays a central role in the theory. The crucial point is that while $\mathbf{B}G_{diff}$ is such a boring extenion of $\mathbf{B}G$ that it is actually equivalent to $\mathbf{B}G$, there is no inclusion of $\mathbf{B}G_{conn}$ into $\mathbf{B}G$, but there is into $\mathbf{B}G_{diff}$. This is the kind of situation that [[resolution]]s are needed for.
+
+
+##### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
+
+Before further considering $\mathbf{B}G_{diff}$ for general $G$, it is useful to look at some details for the case that $G$ is an [[abelian group]] such as the [[circle group]] $U(1)$.
+
+In this abelian case the 2-groupoids $\mathbf{B}U(1)$, $\mathbf{B}^2 U(1)$, $\mathbf{B}INN(U(1))$, etc., that so far we noticed are given by [[crossed complex]]es are actually given by ordinary [[chain complex]]es: we write 
+
+$$
+  \Xi : Ch_\bullet^+ \to sAb \to KanCplx
+$$
+
+for the [[Dold-Kan correspondence]] map that identifies [[chain complex]]es with [[simplicial abelian group]] and then considers their underlying [[Kan complex]]es. Using this map we have the following identifications of our 2-groupoid valued presheaves with complexes of group-valued sheaves
+
+$$
+  \mathbf{B}U(1) = \Xi[C^\infty(-,U(1)) \to 0]
+$$
+
+$$
+  \mathbf{B}^2 U(1) = \Xi[C^\infty(-,U(1))  \to 0 \to 0]
+$$
+
+$$
+  \mathbf{B} INN U(1) = \Xi[C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0]
+ \,.
+$$
 
 +-- {: .un_remark}
 ###### Observation
 
-
-For $G = A$ an [[abelian group]], in particular the [[circle group]], there is a canonical morphism $\mathbf{B} INN(U(1)) \to \mathbf{B}\mahbf{B}U(1)$.
+For $G = A$ an [[abelian group]], in particular the [[circle group]], there is a canonical morphism $\mathbf{B} INN(U(1)) \to \mathbf{B}\mathbf{B}U(1)$.
 
 =--
+
+On the level of chain complexes this is the evident chain map
+
+$$
+  \array{
+    [C^\infty(-,U(1)) &\stackrel{Id}{\to}& C^\infty(-,U(1))
+    &\to& 0]
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    [C^\infty(-,U(1)) &\to& 0 &\to& 0]    
+  }
+  \,.
+$$
+
+On the level of 2-groupoids this is the map that forgets the labels on the 1-morphisms
+
+$$
+  \left(
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{c_1}}\nearrow 
+      & \Downarrow^{\mathrlap{k}}
+      & \searrow^{\mathrlap{c_2}}
+      \\
+      \bullet
+      &&\underset{c_3 = c_1 c_2 k}{\to}&&
+      \bullet
+    }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+    \left(
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{Id}}\nearrow 
+      & \Downarrow^{\mathrlap{k}}
+      & \searrow^{\mathrlap{Id}}
+      \\
+      \bullet
+      &&\underset{Id}{\to}&&
+      \bullet
+    }
+  \right)
+  \,.
+$$
+
+In terms of this map $INN(U(1))$ serves to interpolate between the single and the double delooping of $U(1)$. In fact the sequence of 2-functors
+
+$$
+  \mathbf{B}U(1) \to \mathbf{B}INN(U(1)) \to 
+  \mathbf{B}^2 U(1)
+$$
+
+is a model for the $\mathbf{B}U(1)$-[[universal principal infinity-bundle|universal principal 2-bundle]]
+
+$$
+  \mathbf{B}U(1) \to  \mathbf{E} \mathbf{B}U(1)
+  \to 
+  \mathbf{B}^2 U(1)
+  \,.
+$$
+
+This happens to be an [[exact sequence]] of [[2-groupoid]]s. Abstractly, what really matters is rather that it is a [[fiber sequence]], meaning that it is exact in the correct sense inside the [[(∞,1)-category]] [[?LieGrpd]]. For our purposes it is however relevant that this particular model is exact in the ordinary sense in that we have a commuting diagram
+
+$$
+  \array{
+    \mathbf{B}U(1) &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}INN(U(1)) &\to& \mathbf{B}^2 U(1)
+  }
+$$
+
+which is a [[pullback]] diagram, exhibitng $\mathbf{B}U(1)$ as the [[kernel]] of $\mathbf{B}INN(U(1)) \to \mathbf{B}^2 U(1)$.
+
+We shall be interested in the [[pasting]] composite of this diagram with the one definition $\mathbf{B}G_{diff}$ over a domain $U$:
+
+$$
+  \array{
+    U &\to&
+    \mathbf{B}U(1) &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}INN(U(1)) &\to& \mathbf{B}^2 U(1)
+  }
+  \,,
+$$
+
+The total outer diagram appearing this way is a component of the following (generalized) Lie 2-groupoid.
 
 +-- {: .un_def}
 ###### Definition
@@ -1693,13 +1903,74 @@ $$
   \,.
 $$
 
+
 =--
+
+Over any $U \in CartSp$ this is the 2-groupoid whose objects are sets of diagrams
+
+$$
+  \array{
+    U &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}^2 U(1)
+  }
+  \,.
+$$
+
+This are equivalently just morphisms $\mathbf{\Pi}_2(U) \to \mathbf{B}^2 U(1)$, which by the above theorems we may identify with closed 2-forms $B \in \Omega^2_{cl}(U)$.
+
+The morphisms $B_1 \to B_2$ in $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ over $U$ are compatible [[pseudonatural transformation]]s of the horizontal morphisms, which means that they are pseudonatural transformations of the bottom morphism whose components over the points of $U$ vanish. These identify with 1-forms $\lambda \in \Omega^1(U)$ such that  $B_2 = B_1 + d_{dR} \lambda$.
+
+Finally the 2-morphisms would be [[modification]]s of these, but the commutativity of the above diagram constrais these to be trivial.
+
+
+In summary this shows that
+
++-- {: .un_prop}
+###### Proposition
+
+Under the [[Dold-Kan correspondence]] $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ is the sheaf of truncated [[de Rham complex]]es
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
+  =
+  \Xi[\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(-)]
+  \,.
+$$
+
+=--
+
++-- {: .un_lemma}
+###### Corollary
+
+Equivalence class of [[infinity-anafunctor|2-anafunctor]]s
+
+$$
+  X \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
+$$
+
+are canonically in bijection with the degree 2 [[de Rham cohomology]] of $X$.
+
+=--
+
++-- {: .un_remar}
+###### Remark
+
+
+Notice that --  while every globally defined closed 2-form $B \in \Omega^2_{cl}(X)$ defines such a 2-anafunctor -- not every such 2-anafunctor comes from a globally defined closed 2-form. Some of them assign closed 2-forms $B_i$ to patches $U_1$, that differ by differentials $B_j - B_i = d_{dR} \lambda_{i j}$ of 1-forms $\lambda_{i j}$ on double overlaps, which themselves satisfy on triple intersections the cocycle condition $\lambda_{i j} + \lambda_{j k} = \lambda_{i k}$. But (using a [[partition of unity]], see there) these non-globally defined forms are always equivalent to globally defined ones.
+
+This simple technical point turns out to play a crucial role in the abstract definition of [[connections on ∞-bundles]]: generally, for all $n \in \mathbb{N}$ the cocycles given by globally defined forms in $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ constitute [[curvature characteristic form]]s of _genuine_ connections. The non-globally defined forms _also_ constitute curvature invariants, but of [[pseudo-connection]]s. The way the abstract theory finds the genuine connections inside all pseudo-connections is by the fact that we may find for each cocycle in $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ an equivalent one that does comes from a globally defined form.
+ 
+=--
+
+
 
 +-- {: .un_remark}
 ###### Observation
 
-
-There is a canonice [[infinity-anafunctor]]
+There is a canonical [[infinity-anafunctor|2-anafunctor]] $c_1^{dR} : \mathbf{B}U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)$
 
 $$
   \array{
@@ -1714,186 +1985,70 @@ $$
 
 =--
 
-This sends a $U(1)$-[[principal bundle]] to a smooth de Rham representative of its [[Chern class]].
+The top morphism is given by forming the [[pasting]]-composite with the $\mathbf{B} U(1)$-[[universal principal infinity-bundle|universal 2-bundle]], as described above.
 
-(...)
++-- {: .un_remark}
+###### Observation
 
-##### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
-
-
-
-Write $\mathbf{B}U(1) \to \mathbf{E}\mathbf{B}U(1) \to \mathbf{B}^2 U(1)$
-for the sequence of smooth 2-groupoids that under the [[Dold-Kan correspondence]] come from the sequence of chain complexes
-
-$$
-  [1 \to U(1) \to 1] \to [U(1) \to U(1) \to 1] \to [U(1) \to 1 \to 1]
-  \,.
-$$
-
-By the above discussion we have that under the equivalence
-
-$$
-  Smooth2Func(\mathbf{P}_2(X), \mathbf{B}\mathbf{E}U(1))
-  \simeq
-  \mathbf{E}U(1) Triv2Bund_{\nabla}
-$$
-
-smooth 2-functors $\mathbf{\Pi}_2(X) \to \mathbf{E}\mathbf{B}U(1)$ correspond to pairs $(A,B)$ with $A \in \Omega^1(X)$, $B \in \Omega^2(X)$ and $B := F_A = d_{dR} A$.
-
-Therefore a morphism
+For $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}U(1)$ the cocycle for a $U(1)$-principal bundle as described above, the composition of [[infinity-anafunctor|2-anafunctor]]s of $g$ with $c_1^{dR}$ yields a cocycle for a 2-form $c_1^{dR}(g)$
 
 $$
   \array{
-    C(\{U_i\}) &\to& \mathbf{B}U(1)
+    && \mathbf{B}U(1)_{conn}
+    \\
+    & {}^{\mathrlap{\nabla}}\nearrow & \downarrow
+    \\
+    C(V) &\stackrel{}{\to}& \mathbf{B}^2 U(1)_{diff} &\to& \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{\Pi}_2(C(\{U_i\})) &\to& \mathbf{E}\mathbf{B}U(1)
+    C(U) &\to& \mathbf{B}U(1)
+    \\
+    \downarrow^{\mathrla{\simeq}} 
+    \\
+    X 
   }
-$$
-
-of smooth 2-groupoids is a cocycle for a line bundle equipped with a [[pseudo-connection]]. Forming the [[pasting]] composite
-
-$$
-  \array{
-    C(\{U_i\}) &\to& \mathbf{B}U(1) &\to& *
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    \mathbf{\Pi}_2(C(\{U_i\})) &\to& \mathbf{E}\mathbf{B}U(1)
-    &\to&
-    \mathbf{B}^2 U(1)
-  }
-$$
-
-projects out the curvature 2-form $\mathbf{\Pi}_2(X) \to \mathbf{B}^2 U(1)$ of this bundle.
-
-Write $\mathbf{B}U(1)_{diff}$ for the 2-groupoid valued presheaf
-
-$$
-  \mathbf{B}U(1)_{diff} :
-  U
-  \mapsto 
-  \left\{
-  \array{
-    U &\to& \mathbf{B}U(1)
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{\Pi}_2(U) &\to& \mathbf{E}\mathbf{B}U(1)
-  }
-  \right\}
-$$
-
-The forgetful morphism $\mathbf{B}U(1) \stackrel{\simeq}{\leftarrow} \mathbf{B}U(1)_{diff}$ is a weak equivalence. A lift
-
-$$
-  \array{
-    && \mathbf{B}U(1)_{diff}
-    \\
-    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
-    \\
-    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}U(1)
-  }
-$$
-
-always exists. It corresponds to putting a connection on line bundle. 
-
-Consider also the presheaf
-
-$$
-  \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
-  :
-  U
-  \mapsto
-  \left\{
-    \array{
-      U &\to& *
-      \\
-      \downarrow && \downarrow
-      \\
-      \mathbf{\Pi}_2(U) &\to& \mathbf{B}^2 U(1)
-    }
-  \right\}
   \,.
 $$
 
+If we take $\{U_i \to X\}$ to be a [[good open cover]], then we may assume $V = U$. We know we can always find a [[pseudo-connection]] $C(V) \to \mathbf{B}U(1)_{diff}$ that is actually a genuine [[connection on a bundle]] in that it factors through the inclusion $\mathbf{B}U(1)_{conn} \to \mathbf{B}U(1)_{diff}$ as indicated.
 
-+-- {: .un_prop}
-###### Proposition
-
-We have equivalences
-
-$$
-  SmoothFunc(C(\{U_i\}), \mathbf{B}U(1)_{diff})
-  \simeq
-  U(1) Bund(X)
-$$
-
-and
-
-$$
-  SmoothFunc(C(\{U_i\}), \mathbf{\flat}_{dR}\mathbf{B}^2 U(1))
-  \simeq
-  [\Omega^1(X) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(X)]
-  \,.
-$$
-
+The corresponding total map $c_1^{dR}(g)$ represented by $c_1^{dR}(\nabla)$ is the cocycle for the [[curvature]] 2-form of this connection. This represents the first [[Chern class]] of the bundle in de Rham cohomology.
 
 =--
 
+For $X,A$ smooth 2-groupoids, write $\mathbf{H}(X,A)$ for the 2-groupoid of 2-anafunctors between them. 
 
-Forming the above [[nLab:pasting]] composite induces a morphism 
 
-$$
-  curv : \mathbf{B}U(1)_{diff} \to \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)
-  \,.
-$$
++-- {: .un_remark}
+###### Corollary
 
-In total we have a 2-[[nLab:anafunctor]]
-
-$$
-  \mathbf{B}U(1) \stackrel{\simeq}{\leftarrow}
-  \mathbf{B}U(1)_{diff} 
-  \stackrel{curv}{\to}
-  \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)
-$$
-
-of smooth 2-groupoids, which we call the [[curvature]] [[nLab:characteristic class]] of $\mathbf{B}U(1)$.
-
-+-- {: .un_prop}
-###### Proposition
-
-The 2-groupoid $\mathbf{H}_{diff}(X,\mathbf{B}(1))$ which is
-given by the [[nLab:pullback]]
+Let $H_{dR}^2(X) \to \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^2 U(1))$ be a choice of one closed 2-form representative for each degree 2 [[de Rham cohomology]]-class of $X$. Then the [[pullback]] groupoid $\mathbf{H}_{diff}(X,\mathbf{B}U(1))$ in 
 
 $$
   \array{
-    \mathbf{H}_{diff}(X,\mathbf{B}U(1))
-    &\to&
-    H^2_{dR}(X)
+    \mathbf{H}(X,\mathbf{B}U(1)) &\to& H_{dR}^2(X)
     \\
     \downarrow && \downarrow
     \\
-    SmoothFunc(C(\{U_i\}), \mathbf{B}U(1)_{diff})
-    &\stackrel{curv}{\to}&
-    SmoothFunc(C(\{U_i\}), \mathbf{\flat}_{dR}\mathbf{B}U(1))
+    \mathbf{H}(X, \mathbf{B}U(1)_{diff}) &\to&
+    \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
-    SmoothFunc(C(\{U_i\}), \mathbf{B}U(1))
+    \mathbf{H}(X,\mathbf{B}U(1)) \simeq U(1) Bund(X)
   }
 $$
 
-is the disjoint union over the second de Rham cohomology of $X$ of the groupoids of $U(1)$-principal bundles with curvature 2-form a fixed representative of the given cohomology class.
-
+is equivalent to disjoint union of groupoids of $U(1)$-bundles with connection whose curvatures are the chosen 2-form representatives.
 
 =--
 
-The general formalism of pseudo-conections in intrinsic differential geometry is at <a href="http://ncatlab.org/schreiber/edit/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#LocalConnectionForms">Differential cohomology -- Local connection forms</a>. Details on the description of $U(1)$-principal bundles are at [[schreiber:differential cohomology in an (∞,1)-topos]] in the paragraph <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#CircleBundlesConnection">Circle bundles with connection</a>.
 
 
 ##### Of $G$-principal bundles 
+
+> ( to be polished )
 
 Above we described connections on $U(1)$-principal bundles as a means to interpolate from cocycles with values in $\mathbf{B}U(1)$ to cocycles with values in $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ by passing through a 2-[[nLab:anafunctor]]
 
