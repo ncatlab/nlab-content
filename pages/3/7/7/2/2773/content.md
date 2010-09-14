@@ -12,6 +12,8 @@ This is an instance of a general construction which, given a [[2-category]], or 
 
 +--{: .query}
 [[David Roberts]]: I would think that $\tau_1(C)$ for a strict 2-category is the underlying 1-category. What is described here could be called the Poincar&#233; category (I think that Benabou's monograph on bicategories has this term). Maybe terminology as developed in the meantime, though.
+
+[[Mike Shulman]]: Well, the uses of "truncation" I've seen always involves quotienting by equivalences, rather than discarding them.  Discarding them only even makes sense in the strict situation (a bicategory has no underlying 1-category) and is an [[evil]] (and not often very useful) thing to do, so it doesn't seem to me worth giving an important name to.  "Poincare category" may also be a name for the same thing, but I prefer "truncation" as more evocative.
 =--
 
 It can also be viewed as an instance of the homotopy category of a [[model category]] (or more generally a [[category with weak equivalences]]).  The category $Ho(Cat)$ as defined above is equivalent to the category obtained from $Cat$ by forcing all [[equivalences of categories]] to be isomorphisms.  This is for the same reason that the category $hTop$ of [[topological spaces]] and [[homotopy]] classes of [[continuous maps]] is equivalent to the category obtained from $Top$ by inverting the homotopy equivalences (namely, the existence of [[cylinder objects]] and/or [[path objects]]).  In particular, the isomorphisms in $Ho(Cat)$ are precisely the [[equivalences of categories]].
