@@ -13,6 +13,15 @@
 =--
 =--
 
+* [[presheaf]]
+
+* [[(2,1)-presheaf]]
+
+* **$(\infty,1)$-presheaf**
+
+***
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
