@@ -160,6 +160,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Tom Leinster]]
 * [[Tom Prince]]
 * [[Torsten Asselmeyer-Maluga]]
+* [[Ulrik]]
 * [[Urs Schreiber]]
 * [[Vaughan Pratt]]
 * [[Victor Porton]]
