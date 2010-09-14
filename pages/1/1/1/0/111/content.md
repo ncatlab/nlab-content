@@ -8,8 +8,7 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -34,60 +33,89 @@ For more background on and context for categories see
 
 * [[category theory]].
 
-## Definition
 
-A _category_ $C$ consists of 
+## Definitions
 
-* a [[collection]] $C_0$ of _objects_;
+There are two broad ways to write down the definition of category; in the usual [[foundations of mathematics]], these two definitions are equivalent.  It is good to know both, for several reasons:
 
-* a collection $C_1$ of _morphisms_ (or _arrows_);
+*  Each introduces its own system of notation, both of which are useful in other parts of category theory, so one should know them.
+*  One definition generalises quite nicely to the notion of [[internal category]], while the other generalises quite nicely to the notion of [[enriched category]]; these are both important concepts.
+*  When examining alternative foundations, sometimes one definition or the other may be more appropriate; in any case, one will want to examine the question of their equivalence.
 
-* two maps $s, t : C_1 \to C_0$ called _source_ (or _domain_) and _target_ (or _codomain_);
-
-  * one writes $f : x \to y$ if $s(f) = x$ and $t(f) = y$;
-
-* a rule which assigns to any pair of morphisms $f$, $g$ such that $t(f) = s(g)$ their _composite_ morphism $g \circ f \in C_1$ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
-
-* a rule which assigns to each object $x$ a morphism $1_x$, the _identity_ morphism on $x$;
-
-* such that the following properties are satisfied:
-
-  * source and target are respected by composition: $s(g \circ f) = s(f)$ and $t(g\circ f) = t(g)$;
-
-  * source and target are respected by identities: $s(1_x) = x$, $t(1_x) = x$;
-
-  * composition is _associative_: $(h \circ g)\circ f = h\circ (g \circ f)$ whenever $t(f) = s(g)$ and $t(g) = s(h)$;
-
-  * composition satisfies the _left and right unit laws_:
-    given any morphism $f: x \to y$ we have $1_y \circ f = f = f \circ 1_x$. 
-
-People often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f : x \to y$; the latter two have the advantage of making clear which category is being discussed.  People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.
+The two definitions may be distinguished by whether they use a single collection of all [[morphisms]] or several collections of morphisms, a [[family of sets|family of collections]] indexed by pairs of [[objects]].
 
 
-### Size Issues
+### With one collection of morphisms
 
-The attentive reader will note that we said a category has a 'collection' of objects and a 'collection' of morphisms.  A category is said to be [[small category|small]] if these collections are sets &#8212; as opposed to [[proper class|proper classes]], for example.  (The alternatives depend on ones [[foundations|foundations for mathematics]].)
+A __category__ $C$ consists of 
 
-Similarly, a category is [[locally small category|locally small]] if $hom(x,y)$ is a set for every pair of objects $x,y$ in that category.  The above examples of "concrete" categories are all locally small but not small (unless one restricts their objects in some way).
+*  a [[collection]] (see [Size issues](#size)) $C_0$ of __[[objects]]__;
 
-### Alternate Definitions
+*  a collection $C_1$ of __[[morphisms]]__ (or __arrows__);
 
-The definition of a category can be rephrased in different mostly-equivalent ways.  For example, instead of taking as given a collection $C_0$ of objects and a collection $C_1$ of morphisms, one can take as given a collection $C_0$ of objects, together with for each pair $x,y$ of objects a collection $hom_C(x,y)$ of morphisms from $x$ to $y$.  (If each collection $hom_C(x,y)$ is a _set_, then this latter version defines only a "locally small category," as above.)  
+*  two [[functions]] $s, t\colon C_1 \to C_0$ which assign, to every morphism, its __[[source]]__ (or __domain__) and __[[target]]__ (or __codomain__);
 
-This generalizes to the notion of 
+*  a [[partial function]] $\circ\colon C_1 \times C_1 \to C_1$ which assigns, to any pair of morphisms $f, g$ such that $t(f) = s(g)$, their __[[composite]]__ morphism $g \circ f \in C_1$ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
 
-* [[internal categories]];
+*  a function $id\colon C_0 \to C_1$ which assigns to each object $x$ a morphism $id_x$ or $1_x$, the __[[identity morphism]]__ on $x$;
 
-* [[enriched categories]],
+*  such that the following properties are satisfied:
 
-respectively.
+   *  source and target are respected by composition: $s(g \circ f) = s(f)$ and $t(g\circ f) = t(g)$;
+
+   *  source and target are respected by identities: $s(1_x) = x$ and $t(1_x) = x$;
+
+   *  composition is [[associative]]:
+      $(h \circ g)\circ f = h\circ (g \circ f)$ whenever $t(f) = s(g)$ and $t(g) = s(h)$;
+
+   *  composition satisfies the [[unit law|left and right unit laws]]:
+      if $s(f) = x$ and $t(f) = y$, then $1_y \circ f = f = f \circ 1_x$.
+
+People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.  One usually writes $f\colon x \to y$ if $f \in C_1$ to state that $s(f) = x$ and $t(f) = y$.  Finally, people often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f\colon x \to y$.
+
+
+### With a family of collections of morphisms
+
+A __category__ $C$ consists of 
+
+*  a [[collection]] (see [Size issues](#size)) $C_0$ of __[[objects]]__;
+
+*  for each pair $x,y$ of objects, a collection $C_1(x,y)$ of __[[morphisms]] from $x$ to $y$__;
+
+*  for each triple $x,y,z$ of objects, a [[function]] $\circ\colon C_1(y,z) \times C_1(x,y) \to C_1(x,z)$ which assigns, to any appropriate pair of morphisms $f, g$, their __[[composite]]__ morphism $g \circ f$ (also  written $g f$ or sometimes $f;g$&#8212; see [[diagrammatic order]]);
+
+*  for each object $x$, an [[element]] $id_x$ or $1_x$ of $C_1(x,x)$, the __[[identity morphism]]__ on $x$;
+
+*  such that the following properties are satisfied:
+
+   *  composition is [[associative]]:
+      for each quadruple $w,x,y,z$ of objects, if $f \in C_1(y,z)$, $g \in C_1(x,y)$, and $h \in C_1(w,x)$, then $(h \circ g)\circ f = h\circ (g \circ f)$;
+
+   *  composition satisfies the [[unit law|left and right unit laws]]:
+      for each pair $x,y$ of objects, if $f \in C_1(x,y)$, then $1_y \circ f = f = f \circ 1_x$.
+
+People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ instead of $C_1$ and $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ instead of $C_1(x,y)$.  One usually writes $f\colon x \to y$ to state that $f \in C_1(x,y)$.  Finally, people often write $C_1$ or $Mor(C)$ for the [[disjoint union]] $\biguplus_{x \in C_0} \biguplus_{y \in C_0} C_1(x,y)$.
+
+
+### Size issues
+{#size}
+
+We said a category has a 'collection' of objects and 'collection'(s) of morphisms.  A category is said to be [[small category|small]] if these collections are all [[sets]] &#8212; as opposed to [[proper class|proper classes]], for example.  (The alternatives depend on ones [[foundations|foundations for mathematics]].)
+
+Similarly, a category is [[locally small category|locally small]] if $C_1(x,y)$ is a set for every pair of objects $x,y$ in that category.  The most common motivating examples of categories are all locally small but not small (unless one restricts their objects in some way).
+
+
+### Alternative and generalised definitions
 
 For some purposes it is useful or necessary to vary the way the ordinary definition of category is expressed. See
 
-* [[single-sorted definition of a category]] -- An equivalent definition in terms of only _one_ collection -- the collection of arrows. This is sometimes convenient for technical reasons.
+* [[single-sorted definition of a category]] -- a variant of the first definition, with only _one_ collection at all ($C_1$, no $C_0$). This is sometimes convenient for technical reasons.
 
-* [[type-theoretic definition of category]] -- An  equivalent definition true to the context of [[type theory]].
+* [[type-theoretic definition of category]] -- a variant of the second definition, interpreted explicitly in [[dependent type theory]].
 
+The first definition, with a single collection $C_1$ of morphisms, generalises to the notion of [[internal category]]; essentially, we define a category internal to (some other category) $D$ as above, with 'collection' interpreted as an object of $D$ and 'function' interpreted as a morphism of $D$.  In particular, a category internal to [[Set]] is the same thing as a small category.
+
+The second definition, with a family $C_1(x,y)$ of collections of morphisms, generalises to the notion of [[enriched category]]; essentially, we define a category enriched over (some other category) $D$ as above, with the collection of objects still a 'collection' as before, but with objects of $D$ in place of the collections of morphisms and morphisms of $D$ in place of the various functions.  In particular, a category enriched over [[Set]] is the same thing as a locally small category.
 
 
 ## Examples
@@ -119,7 +147,6 @@ These classic examples are the original motivation for the term "category": all 
 * **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the _[[free functor|free]] category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
 
-
 ## Basic notions
 
 A homomorphism between categories is a [[functor]]. 
@@ -137,6 +164,7 @@ Other standard operations on categories include
 * [[localization]]
 
 ...
+
 
 ## Literature
 
@@ -159,7 +187,7 @@ A textbook with an eye towards the theory of [[categories of sheaves]] and their
 * Kashiwara, Shapira, _[[Categories and Sheaves]]_
 
 
-
+[[!redirects category]]
 [[!redirects categories]]
 [[!redirects Category]]
 [[!redirects Categories]]
