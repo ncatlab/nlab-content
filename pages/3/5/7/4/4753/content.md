@@ -43,6 +43,7 @@ The notation $p\coloneq P$ signifies that $p$ is a proof of the [[proposition]] 
 
 So the above defines that a category is a record consisting of a type of objects, and for each pair of objects a type of homomorphisms between them, and also identity and composition operations satisfying unit laws and associativity.
 
+
 ## Discussion
 
 The defined type of categories cannot itself be a member of $\mathrm{Type}$, otherwise we run into [[Girard's paradox]]. This is related to the size issues for categories. 
@@ -51,6 +52,14 @@ The defined type of categories cannot itself be a member of $\mathrm{Type}$, oth
 _Anonymous from the Peanut Gallery asks_: How do we define small categories type-theoretically? It seems to me that a natural thing to try is to make "small" mean "$\mathrm{Obj}$ is a setoid (ie, element of $\mathrm{Type}_=$)", but then the coherence conditions on the type operator of morphisms make my head explode. (Namely, if $(A, \simeq)$ is a setoid, and $a \simeq a'$, then we expect $\hom(a,b) \triangleq \hom(a',b)$, but I don't see how $\triangleq$ should be defined! What should the type of homs be now, and what properties should they satisfy?) 
 
 _Ulrik_: The above does define a type of small categories (given that $\mathrm{Type}$ is a type of small types). Adding equality to $\mathrm{Obj}$ (making it a setoid), defines small [[strict categories]]. Then, as you mention, we need an equality on $\mathrm{Type}$ in order to formulate the coherence condition (the type theory might do this automatically, though). To define large categories we need a larger universe of types (just like the situation in set theory).
+
+_Toby_:  In other words, smallness and strictness are two separate things, although sometimes they go together.  If $Type$ is the type of small types (and therefore is itself a moderate type but not a small type) and similarly for $Type_=$, then the definition above gives small categories.  If $Type$ is the type of moderate types but $Type_=$ remains the type of small types with equality, then the definition above gives locally small moderate categories.  If $Type$ and $Type_=$ are both types of moderate types, then the definition above gives moderate categories.  Independently of this, if you change the type of $Obj$ from $Type$ to $Type_=$ (and add some coherence conditions), then you get strict categories.
+
+But it seems like there\'s still something to make your head explode: how do we define strict categories in this framework?  (The tricky part is the coherence conditions in my previous parenthetical remark above.)  You have the right idea that, if $a \simeq a'$, then $\hom(a,b) \triangleq \hom(a',b)$, but what you\'re missing is that $\triangleq$ means isomorphism of setoids.  That is, we have a rule
+$$ \frac{p\coloneq a \simeq a' \quad f\colon\hom(a,b)}{\mathrm{conv}_{a,a'}f\colon\hom(a',b)} ,$$
+representing a map of setoids $\mathrm{conv}_{a,a'}\colon \hom(a,b) \to \hom(a',b)$.  (There is a similar rule on the other side.)  Then you also need some coherence laws stating that $\mathrm{conv}_{a,a} = \id_{\hom(a,b)}$ and $\mathrm{conv}_{a',a''} \circ \mathrm{conv}_{a,a'} = \mathrm{conv}_{a,a''}$ (and two laws on the other side).  I *think* that this is all.
+
+The definition that I usually use for a [[strict category]], however is this:  a __strict category__ consists of a set (of type $Type_=$, what we\'ve been calling 'setoid' above) $O$, a category (in the weak sense defined here) $C$, and an [[essentially surjective functor]] $\overline{-}$ to $C$ from the [[discrete category]] on $O$.  We then think of $O$ as the set of objects, the set of morphisms from $a$ to $b$ (for $a,b\colon O$) is $\hom_C(\overline{a},\overline{b})$, etc.  (Again, strictness is independent of smallness; $O$ might be a small set, or a large proper class, or whatever.)
 =--
 
 
