@@ -1542,6 +1542,15 @@ $$
 
 =--
 
++-- {: .un_remark}
+###### Remark
+
+The attentive reader will wonder why we do not state the last definition for general Lie 2-groups $G$. The reason is that for general $G$ 2-anafunctors out of $\mathbf{P}_2(X)$ do not produce the fully general notion of 2-connections that we are after,  but yield a special case in between flatness and non-flatness: the case where precisely the 2-form [[curvature]]-components vanish, while the 3-form curvature part is unrestricted. This case is important in itself and discussed in detail [below](#below). 
+
+Only for $G$ of the form $\mathbf{B}A$ does the 2-form curvature necessarily vanish anyway, so that in this case the  definition by morphisms out of $\mathbf{P}_2(X)$ happens to already coincide with the proper general one. This serves in the following theorem as an illustration for the toolset that we are exposing, but for the purposes of introducing the full notion of $\infty$-Chern-Weil theory we will rather focus on flat 2-conenctions, and then show in [Curvature characterists of 1-bundles](#CurvatureCharacteristicsI) how using these one does arrive at a functorial definition of 1-connections that does generalize to the fully general definition of $\infty$-connections.
+
+=--
+
 +-- {: .un_prop}
 ###### Theorem
 
