@@ -1,5 +1,4 @@
 
-
 ## Papers
 
 [Click here for homepage with most of these articles](http://www-personal.umd.umich.edu/~tmfiore/)
