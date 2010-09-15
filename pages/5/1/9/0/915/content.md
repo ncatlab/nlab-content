@@ -29,7 +29,7 @@ We consider two multi-valued functions (with the same given source and target) t
 
 ## Examples
 
-In 19th-century analysis, one considered the square-root function, the logarithm, and so forth to be multi-valued functions of complex numbers.  We now understand this in terms of [[Riemann surface]]s; the domain $D$ above is a Riemann surface.  (Notice that the logarithm is actually a multi-valued *partial* function from $\mathbf{C}$ to $\mathbf{C}$, although it is a multi-valued total function on $\mathbf{C} \setminus \{0\}$.)
+In 19th-century analysis, one considered the square-root function, the [[logarithm]], and so forth to be multi-valued functions of complex numbers.  We now understand this in terms of [[Riemann surface]]s; the domain $D$ above is a Riemann surface.  (Notice that the logarithm is actually a multi-valued *partial* function from $\mathbf{C}$ to $\mathbf{C}$, although it is a multi-valued total function on $\mathbf{C} \setminus \{0\}$.)
 
 
 [[!redirects multivalued function]]
