@@ -1530,7 +1530,7 @@ For $G = \mathbf{B}A$, a **[[connection on a 2-bundle]]** (not necessarily flat)
 
 $$
   \array{
-    && \mathbf{\flat}\mathbf{B}\mathbf{B}A
+    && [\mathbf{P}_2(-),\mathbf{B}\mathbf{B}A]
     \\
     & {}^{\mathllap{\nabla}}\nearrow & \downarrow
     \\
