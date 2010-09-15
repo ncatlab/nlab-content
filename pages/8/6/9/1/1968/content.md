@@ -8,5 +8,6 @@ He has worked for many years now editing,  extending and completing the work of 
 
 * _Cat&#233;gories triangul&#233;es sup&#233;rieures_, Pr&#233;-preprint [ps](http://people.math.jussieu.fr/~maltsin/ps/triansup.ps) (2005)
 
+* _Grothendieck $\infty$-groupoids, and still another definition of $\infty$-categories_, [arXiv](http://arxiv.org/abs/1009.2331) -- see [[Grothendieck ∞-groupoid]]
 
 category: people
