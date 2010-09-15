@@ -8,4 +8,6 @@ There are some infinite-dimensional generalizations like Floer instanton homolog
 
 Founders of Morse theory were M. Morse, [[Raoul Bott]] and [[Albert Schwarz]]. 
 
+* Loring Tu, Morse theory [node](http://www.math.harvard.edu/history/bott/bottbio/node9.html) on online bio of R. Bott
 
+* [[M. M. Postnikov]], &#1042;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1102; &#1052;&#1086;&#1088;&#1089;&#1072; &#8212; &#1052;.: &#1053;&#1072;&#1091;&#1082;&#1072;, 1971
