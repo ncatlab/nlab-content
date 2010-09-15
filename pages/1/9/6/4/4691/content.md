@@ -15,18 +15,17 @@ Entropy is important in [[information theory]] and [[statistical physics]].
 We can give a precise [[mathematics|mathematical]] definition of the entropy in [[probability theory]].
 
 
-### Entropy measure of a probability
+### Expected information of verification
 
 This is just a preliminary definition.
 
-The __entropy measure__ of a probability (a [[real number]] in the [[unit interval]]) $p$ is
-+-- {: .query}
-I made up the term 'entropy measure', since most sources seem to just call it 'entropy', but it\'s *not* actually an entropy of anything.  Is there a better term?  &#8212;[[Toby Bartels]]
-=--
+The __expected information of verification__ of a probability (a [[real number]] in the [[unit interval]]) $p$ is
 $$ h(p) \coloneqq - p \log p $$
-(or more precisely $h(p) \coloneqq \lim_{q \searrow p} (- q \log q)$, so that the expression is defined when $p = 0$).  Notice that, despite the minus sign in this formula, $h$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$).  It is also important that $h$ is [[convex function|concave]].  Both $h(0)$ and $h(1)$ are $0$; the idea is that a probability of either $0$ or $1$ represents maximum information (one way or another) and minimum uncertainty.
+(or more precisely $h(p) \coloneqq \lim_{q \searrow p} (- q \log q)$, so that the expression is defined when $p = 0$).  Notice that, despite the minus sign in this formula, $h$ is a nonnegative function (since $\log p \leq 0$ for $p \leq 1$).  It is also important that $h$ is [[convex function|concave]].
 
-We have not specified the base of the [[logarithm]], which amounts to a constant factor, which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $3$ (trit), $\mathrm{e}$ (nat or neper), $10$ (bel, originally a unit of power intensity in telegraphy), and $\root{10}{10}$ (decibel: $1/10$ of a bel).
+Both $h(0)$ and $h(1)$ are $0$, but for different reasons; $h(1) = 0$ because, upon verifying a statement with probability $1$, one gains no information; while $h(0) = 0$ because one expects never to verify a statement with probability $0$.  In general, $-\log p$ is the information gained by verifying a statement of probability $p$, but this will happen only with probability $p$, hence $-p \log p$.
+
+We have not specified the base of the [[logarithm]], which amounts to a constant factor (proportional to the logarithm of the base), which we think of as specifying the [[unit of measurement]] of entropy.  Common choices for the base are $2$ (whose unit is the [[bit]], originally a unit of memory in computer science), $3$ (trit), $\mathrm{e}$ (nat or neper), $10$ (bel, originally a unit of power intensity in telegraphy), and $\root{10}{10}$ (decibel: $1/10$ of a bel).
 
 
 ### Entropy of a $\sigma$-algebra on a probability space
@@ -36,7 +35,7 @@ This is a general mathematical definition of entropy.
 Given a probability [[measure space]] $(X,\mu)$ and a $\sigma$-[[sigma-algebra|algebra]] $\mathcal{M}$ of [[measurable sets]] in $X$, the __entropy__ of $\mathcal{M}$ with respect to $\mu$ is
 \[ \label{general} H_\mu(\mathcal{M}) \coloneqq \sup \{ \sum_{A \in \mathcal{F}} h(\mu(A)) \;|\; \mathcal{F} \subseteq \mathcal{M},\; {|\mathcal{F}|} \lt \aleph_0,\; X = \biguplus \mathcal{F} \} .\]
 
-In words, the entropy is the [[supremum]], over all ways of expressing $X$ as an internal [[disjoint union]] of [[finite set|finitely many]] elements of the $\sigma$-algebra $\mathcal{M}$, of the sum, over these measurable sets, of the entropy measures of the measures of these sets.  This supremum can also be expressed as a [[convergence|limit]] as we take $\mathcal{F}$ to be finer and finer, since $h$ is concave and the partitions are [[directed set|directed]].
+In words, the entropy is the [[supremum]], over all ways of expressing $X$ as an internal [[disjoint union]] of [[finite set|finitely many]] elements of the $\sigma$-algebra $\mathcal{M}$, of the sum, over these measurable sets, of the expected information of verification of these sets.  This supremum can also be expressed as a [[convergence|limit]] as we take $\mathcal{F}$ to be finer and finer, since $h$ is concave and the partitions are [[directed set|directed]].
 
 (Without loss of generality, we do not need the elements of $\mathcal{F}$ to be [[disjoint sets|disjoint]], as long as their intersections are [[null sets]].  Similarly, we do not need their [[union]] to be all of $X$, as long as their union is a [[full set]].  In [[constructive mathematics]], it seems that we *must* weaken the latter condition in this way.)
 
