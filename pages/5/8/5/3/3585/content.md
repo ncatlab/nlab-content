@@ -49,7 +49,7 @@ The Heaviside function $H(x)$ has as a representation:
 $$
      H(x) = [- \frac{1}{2 \pi i} log(-z)]
 $$
-Here we use the main branch of the logarithm that is defined on the complex plane minus the negativ real axis, then $log(-z)$ takes the value $log(|z|) - \pi \, i$ on the upper side of the positive real axis and $log(|z|) + \pi \, i$ on the lower side of the positive real axis, while being holomorphic on the negative real axis. This results in 
+Here we use the main branch of the [[logarithm]] that is defined on the complex plane minus the negative real axis, then $log(-z)$ takes the value $log(|z|) - \pi \, i$ on the upper side of the positive real axis and $log(|z|) + \pi \, i$ on the lower side of the positive real axis, while being holomorphic on the negative real axis. This results in 
 $$
         H(x) = \lim_{\epsilon \to 0+} (F^+ (x + i \epsilon) - F^- (x - i \epsilon)) = 
 
