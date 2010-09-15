@@ -15,6 +15,8 @@
 
 * [[3-groupoid]]
 
+* [[n-groupoid]]
+
 * [[∞-groupoid]]
 
 ***
@@ -73,9 +75,9 @@ $$
   \array{
     y &\to& &\to& z
     \\
-    \downarrow &\seArrow& &\nearrow&  \downarrow
+    \uparrow &\seArrow& &\nearrow&  \downarrow
     \\
-    \downarrow &\nearrow& &\Downarrow& \downarrow
+    \uparrow &\nearrow& &\Downarrow& \downarrow
     \\
     x &\to&&\to& w
   }
@@ -98,9 +100,9 @@ $$
   \array{
     y &\to& &\to& z
     \\
-    \downarrow &\seArrow& &\nearrow&  \downarrow
+    \uparrow &\seArrow& &\nearrow&  \downarrow
     \\
-    \downarrow &\nearrow& &\Downarrow& \downarrow
+    \uparrow &\nearrow& &\Downarrow& \downarrow
     \\
     x &\to&&\to& w
   }
@@ -110,9 +112,9 @@ $$
   \array{
     y &\to& &\to& z
     \\
-    \downarrow &\searrow& &\swArrow&  \downarrow
+    \uparrow &\searrow& &\swArrow&  \downarrow
     \\
-    \downarrow &{}_\kappa\Downarrow& &\searrow& \downarrow
+    \uparrow &{}_\kappa\Downarrow& &\searrow& \downarrow
     \\
     x &\to&&\to& w
   }
@@ -141,6 +143,14 @@ More generally one may consider a [[Kan complex]] that is just [[homotopy equiva
 
 The general notion of $2$-groupoid above is also called __weak $2$-groupoid__ to distinguish from the special case of **[[strict 2-groupoids]]**. A strict $2$-groupoid is a [[strict 2-category]] in which all morphisms are strictly invertible. This is equivalently a certain type of [[Grpd]]-[[enriched category]].
 
+
+## Examples
+
+* For $A$ an [[abelian group]], there is its double [[delooping]] 2-groupoid $\mathbf{B}^2 A$. This is given by the [[strict]] 2-groupoid that comes from the [[crossed complex]] $A \to \to 0 \stackrle{\to}{\to} 0$. As a [[Kan complex]] this is the image under the [[Dold-Kan correspondence]] of the [[chain complex]] $[A \to 0 \to 0]$.
+
+* The [[fundamental infinity-groupoid]] of a [[topological space]] that is itself a homotopy 2-type.
+
+* The [[path 2-groupoid]] of a [[smooth manifold]].
 
 [[!redirects 2-groupoid]]
 [[!redirects 2-groupoids]]
