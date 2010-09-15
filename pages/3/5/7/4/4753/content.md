@@ -47,6 +47,11 @@ So the above defines that a category is a record consisting of a type of objects
 
 The defined type of categories cannot itself be a member of $\mathrm{Type}$, otherwise we run into [[Girard's paradox]]. This is related to the size issues for categories. 
 
+### Question from the Peanut Gallery
+
+How do we define small categories type-theoretically? It seems to me that a natural thing to try is to make "small" mean "$\mathrm{Obj}$ is a setoid (ie, element of $\mathrm{Type}_=$)", but then the coherence conditions on the type operator of morphisms make my head explode. (Namely, if $(A, \simeq)$ is a setoid, and $a \simeq a'$, then we expect $\hom(a,b) \triangleq \hom(a',b)$, but I don't see how $\triangleq$ should be defined! What should the type of homs be now, and what properties should they satisfy?) 
+
+
 [[!redirects type-theoretic definition of category]]
 [[!redirects type-theoretic definition of a category]]
 [[!redirects type-theoretic definition of categories]]
