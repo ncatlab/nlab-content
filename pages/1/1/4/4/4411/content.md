@@ -33,7 +33,7 @@ and this completes the proof.
 Local rings often arise as stalks of sheaves of real or complex-valued functions, and similarly, some of the more interesting examples of valuation rings arise by considering germs of functions at an "ideal" point, for example at an ultrafilter or infinite point where the functions are not formally defined. Examples such as these are often rich sources of rings and fields with _infinitesimal elements_. The following example should give the flavor of this phenomenon. 
 
 Consider the class of all functions $\mathbb{R} \to \mathbb{R}$ which can be defined by a first-order formula, starting with the basic operations 
-$+, -, \cdot, \exp$, any constant $a \in \mathbb{R}$, and the relations $\lt$ and $=$. This is an enormous class of functions: it includes the logarithm function and any function which can be built from polynomials, exponentials, and logarithms using the four basic arithmetic operations and composition, and also implicitly defined functions such as: 
+$+, -, \cdot, \exp$, any constant $a \in \mathbb{R}$, and the relations $\lt$ and $=$. This is an enormous class of functions: it includes the [[logarithm]] function and any function which can be built from [[polynomials]], [[exponential map|exponentials]], and logarithms using the four basic arithmetic operations and composition, and also implicitly defined functions such as: 
 
 $$f(x) = max \{y: y^5 - (e^{e^x - (\log x)^2 + 1/x})y^2 + \log(1 + x^{\sqrt{2}}))y - 17 = 0\}$$ 
 
@@ -52,7 +52,7 @@ Such examples are close in spirit to [[hyperreal number]]s, which form a conside
 
 ## The valuation function 
 
-The nonzero elements of $K$ may be partially ordered as follows: write $x \leq y$ if $x/y$ belongs to $O$. For any two nonzero elements $x$, $y$ of K$, exactly one of the following conditions holds: 
+The nonzero elements of $K$ may be partially ordered as follows: write $x \leq y$ if $x/y$ belongs to $O$. For any two nonzero elements $x$, $y$ of $K$, exactly one of the following conditions holds: 
 
 * $x/y$ is a non-unit of $O$; 
 
