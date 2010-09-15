@@ -47,9 +47,9 @@ Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] 
 
 ## References
 
-The term _hypergroupoid_ is used in 
+The term _hypergroupoid_ is due to Duskin and his student P. G. Glenn:
 
-* Glenn, Realization of cohomology classes in arbitrary exact categories, J. Pure Appl. Algebra 25, 1982, no. 1, 33-105.
+* Paul G. Glenn, Realization of cohomology classes in arbitrary exact categories, J. Pure Appl. Algebra 25, 1982, no. 1, 33-105, [MR83j:18016](http://www.ams.org/mathscinet-getitem?mr=83j:18016)
 
 The term _exact $n$-type_ is used in
 
