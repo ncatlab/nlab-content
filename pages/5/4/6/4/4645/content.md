@@ -2017,6 +2017,7 @@ The corresponding total map $c_1^{dR}(g)$ represented by $c_1^{dR}(\nabla)$ is t
 
 =--
 
+
 For $X,A$ smooth 2-groupoids, write $\mathbf{H}(X,A)$ for the 2-groupoid of 2-anafunctors between them. 
 
 
@@ -2048,192 +2049,30 @@ is equivalent to disjoint union of groupoids of $U(1)$-bundles with connection w
 
 ##### Of $G$-principal bundles 
 
-> ( to be polished )
+> (to be polished)
 
-Above we described connections on $U(1)$-principal bundles as a means to interpolate from cocycles with values in $\mathbf{B}U(1)$ to cocycles with values in $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ by passing through a 2-[[nLab:anafunctor]]
+For $G$ not abelian, the double delooping object $\mathbf{B}^2 G$ does not exist and accordingly the analog of the above discussion of curvature characteristic of $U(1)$-bundles fails. One may understand all of [[Chern-Weil theory]] as the attempt to fix this failure by finding the closest possible approximation to the non-existent morphism $\mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}^2 G$.
 
-$$
-  \mathbf{B}U(1)
-  \stackrel{\simeq}{\leftarrow}
-  \mathbf{B}U(1)_{diff}
-  \to
-  \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
-$$
+Let $\{\langle - \rangle_i\}$ be a set of generators of [[invariant polynomial]]s on the [[Lie algebra]] $\mathfrak{g}$. Let $Q$ be the Lie groupoid which over $U \in CartSp$ has as objects closed differential forms of the degree of these polynomials, and as morphisms, forms of one degree less, _modulo exact forms.
 
-of smooth 2-groupoids with codomain the double
-[[nLab:delooping]] of $U(1)$. As a reflection of the fact that 
-this double delooping exists and is an [[nLab:Eilenberg-MacLane object]]
-the curvature detected by this morphism is a single differential 2-form.
-
-However, as soon as the group $U(1)$ is replaced by a _nonabelian_ [[nLab:Lie group]] $G$, such as the
-[[nLab:orthogonal group]] $O(n)$ or the [[nLab:unitary group]] $U(n)$,
-only the single delooping $\mathbf{B}G$ exists. In this case 
-the role of the double delooping in the curvature characteristic class
-is played by a different object whose conceptual nature we survey below in 
-the section on [curvature characteristic classes](#CurvatureClasses). For the moment here we shall be content with a somewhat ad hoc definition of this coefficient object.
-
-What is straightforward to see is what object should replace $\mathbf{B}U(1)_{diff}$. We shall write $INN(G)$ for the [[nLab:Lie 2-group]]
-coming from the [[nLab:crossed module]] $[G \stackrel{Id}{\to} G]$. This may be thought of as a [[nLab:groupal model for universal principal ∞-bundles|groupal model for the universal G-principal bundle]]. 
-
-As a special case of the above propositon on smooth 2-functors, we have that under the equivalence
+Then there is a morphism
 
 $$
-  Smooth2Func(\mathbf{P}_2(U), \mathbf{B}INN(g))
-  \stackrel{\simeq}{\to}
-  INN(G) Triv2Bund_{flat}(U)
+   ch : \mathbf{B}G_{diff} \to Q
 $$
 
-smooth 2-functors $\mathbf{\Pi}_2(U) \to \mathbf{B}INN(G)$ are identified with pairs $(A,B)$ consisting of
+which sends a [[Lie-algebra valued 1-form]] $A$ to its [[curvature characteristic form]]s $\langle F_{A} \rangle_i$ and sends a shift of connections $a = A_2 - A_1 + g^{-1} (A_1 + d) g$ to the corresponding [[Chern-Simons form]]. This is indeed well defined up to an exact form.
 
-* a $\mathfrak{g}$-valued 1-form $A \in \Omega^1(U,\mathfrak{g})$;
 
-* a $\mathfrak{g}$-valued 2-form $B \in \Omega^2(U,\mathfrak{g})$;
-
-* subject to the constraint that 
-
-  * $B = F_A$ is the [[nLab:curvature]] 2-form of $A$;
-
-  * $d B + [A \wedge B] = 0$.
-
-While this is a flat connection as a 2-connection, it does encode precisely the datum of a general local 1-connection. Moreover, the flatness of the 2-connection is precisely the [[nLab:Bianchi identity]] of the 1-connection.
-
-This might suggest that we can model a $G$-principal 1-bundle with arbitrary connection in terms of functors $\mathbf{\Pi}_2(C(\{U_i\})) \to \mathbf{B}INN(G)$. However, it is a bit more subtle than that: in particular the object $\mathbf{B}INN(G)$ is weakly equivalent to the point, $\mathbf{B}INN(G)$. In fact $INN(G)$ equipped with the canonical projectin $INN(G) \to \mathbf{B}G$ is a multiplicative model for the _universal_ $G$-[[nLab:principal 2-bundle]]. This means that _up to homotopy_ , 2-functors $tra_{A,F_A} : \mathbf{\Pi}_2(U) \to \mathbf{B} INN(G)$ are all trivial. 
-
-We can see this concretely by again invoking the above explicit equivalence of 2-categories: under this equivalence a transformation
+**Observation** The fibers of the induced morphism
 
 $$
-  tra_((A,F_A)) \Rightarrow tra_{(A',F_{A'})}
+  \mathbf{H}(X,\mathbf{B}G) \to \mathbf{H}(X,Q)
 $$
 
-corresponds precisely to a pair $(\lambda,a)$ with
+are [[Simons-Sullivan structured bundle]]s. These are $G$-bundles with connection but divided out by a larger equivalence relation. For $G = U$ the [[unitary group]] these model [[differential K-theory]].
 
-* $\lambda \in C^\infty(U,G)$ 
-
-* $a \in \Omega^1(U,\mathfrak{g})$ 
-
-such that
-
-$$
-  A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + a
-  \,.
-$$
- 
-Except for the last term, this is the equation for a gauge
-transformation of a connection 1-form. The last summand, however,
-is an arbitrary _shift_ of the connection. Simply by choosing $a$
-appropriately we find for every 2-functor $tra_{(A,F_A)}$ a transformation
-to the trivial one $tra_{(0,0)}$.
-
-This means that by itself, $Smooth2Func(\mathbf{P}_2(U), \mathbf{B}INN(G))$ is a resolution of the point, in much the same way as a  [[nLab:generalized universal bundle|universal bundle]] is a resolution of a point. In both cases the relevance of these objects is as a means to model a higher categorical operation by a strict rpresentative.
-
-Concretely, in our situation the object we can build using 2-functors $\mathbf{\Pi}_2(U) \to \mathbf{B}INN(G)$ is $\mathbf{B}G_{diff}$, a resolution of $\mathbf{B}G$ that interpolates between $\mathbf{B}G$ and its curvature characteristics.
-
-Consider the category $\mathbf{B}G_{diff}(U)$ whose
-
-* objects are commuting diagrams
-
-  $$
-    \array{
-      U &\to& \mathbf{B}G
-      \\
-      \downarrow && \downarrow
-      \\
-      \mathbf{\Pi}_2(U) &\to& \mathbf{B} INN(G)
-    }
-  $$
-
-  in the category of diffeological 2-groupoids;
-
-* morphisms are homotopies of diagrams
-
-  $$
-    \array{
-      U &{{\nearrow \searrow} \atop {\to}}& \mathbf{B}G
-      \\
-      \downarrow && \downarrow
-      \\
-      \mathbf{\Pi}_2(U) &{{\nearrow \searrow} \atop {\to}}& \mathbf{B} INN(G)
-    }
-    \,.
-  $$
-
-* 2-morphisms are modification of such homotopies.
-
-We may think of the lower horizontal morphism as encoding arbitrary local connection forms and arbitrary gauge transformations and shifts of these. But since it is constrained to fit into this commuting diagram, the components $\lambda$ of the gauge transformations themselves are constrained to compose without themselves being shifted.
-
-Precisely: under the above equivalences, the groupoid $\mathbf{B}G_{diff}$ is identified as follows:
-
-* objects are 1-forms $A \in \Omega^1(U,\mathfrak{g})$;
-
-* morphisms $(\lambda,a) : A \to A'$ are pairs consisting of functions $\lambda \in C^\infty(U,G)$ and 1-forms $a \in \Omega^1(U,\mathfrak{g})$
-
-  such that $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + a$
-
-* there are _no_ non-trivial 2-morphisms (while these are present in $INN(G)Triv2Bund_\nabla(U)$).
-
-One sees that the evident projection function
-
-$$
-  \mathbf{B}G_{diff}(U) \to \mathbf{B}G(U)
-$$
-
-is [[nLab:essentially surjective functor|essentially surjective]], [[nLab:full and faithful functor|full and faithful]], precisely because of the presence of the connection shift form $a \in \Omega^1(U,\mathfrak{g})$ in the definition of the morphisms.
-
-All this is functorial in $U$, so that in summary we have found a weak equivalence
-
-$$
-  \mathbf{B}G \stackrel{\simeq}{\leftarrow}
-  \mathbf{B}G_{diff}
-$$
-
-of smooth 2-grupoids. The above discussion shows that a lift $\nabla$ of a $G$-cocycle $g$ through this equivalence
-
-$$
-  \array{
-    && \mathbf{B}G_{diff}
-    \\
-    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
-    \\
-    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}G
-  }
-$$
-
-is precisely a choice of _pseudo-connection_ on a [[nLab:Cech cohomology|Cech-cocycle]] for a $G$-[[nLab:principal bundle]]: a choice on each patch $U_i$ of a 1-form $A_i \in \Omega^1(U_i, \mathfrak{g})$.
-
-There is, at this point, _no_ condition on the compatibility of these 1-forms on double intersections $U_i \cap U_j$. Therefore the term "pseudo-connection". 
-
-
-As we shall discuss below in the section [∞-Lie algebra valued connections](#LieConnections), we can find a natural morphism 
-
-$$
-  ch_G : \mathbf{B}_{diff}G \to (\mathbf{\Pi}\mathbf{B}G)\otimes \mathbb{R} \simeq \prod_i \mathbf{B}^{n_i}\mathbb{R}
-$$ 
-
-into a natural curvature coefficient object. This way the differential cocycle becomes represented by a diagram of the form
-
-$$
-  \array{
-    Y &\stackrel{g}{\to}& \mathbf{B}G &&& underlying\;cocycle
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{\Pi}_2(Y) &\to& \mathbf{B}INN(G) &&& connection\;and\;curvature
-    \\
-    \downarrow && \downarrow
-    \\
-    \mathbf{\Pi}(X) &\to&  \prod_i \mathbf{B}^{n_i} \mathbb{R}
-    &&&
-    curvature\;characteristic\;forms
-  }
-  \,.
-$$
-
-
-The cocycles in the bottom have equivalent representatives in ordinary [[nLab:de Rham cohomology]]. And in the [[nLab:homotopy fiber]] of $ch_G$ over these nice representatives, we find those $G$-cocycles with pseudo-connection whose pseudo-connection is in fact a genuine connection.
-
-In order to describe this curvature characteristic class, we now invoke [below](#LieConnections) a little bit of [[nLab:Chern-Weil theory]]
-with the tools of  [[nLab:∞-Lie theory]].
-
+For a more complete description of curvature characteristics of $G$-bundles, we need the notion of [infinity-Lie algebra valued connections below](#LieConnections).
 
 ### Circle $n$-bundles with connection {#CirclenBundles}
 
