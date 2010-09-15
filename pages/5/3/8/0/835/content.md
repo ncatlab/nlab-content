@@ -51,11 +51,11 @@ There are various objects that model the abstract notion of $2$-groupoid.
 
 A **[[bigroupoid]]** is a [[bicategory]] in which all morphisms are [[equivalences]]. 
 
-Bigroupoids may equivalently be thought of in terms of their [[Duskin nerve]]s. These are precisely the 3-[[coskeletal]] [[Kan complex]]es.
+Bigroupoids may equivalently be thought of in terms of their [[Duskin nerve]]s. These are precisely the [[Kan complex]]es that are 2-[[hypergroupoid]]s.
 
-### 3-Coskeletal Kan complexes
+### 2-Hypergroupoids
 
-A $3$-[[coskeleton|coskeletal]] [[Kan complex]] is a model for a 2-groupoid. This is a [[simplicial set]], whose vertices, edges, and 2-[[simplices]] we identify with the [[object]]s, [[morphism]]s and [[2-morphism]]s of the form
+A $2$-[[hypergroupoid]] is a model for a 2-groupoid. This is a [[simplicial set]], whose vertices, edges, and 2-[[simplices]] we identify with the [[object]]s, [[morphism]]s and [[2-morphism]]s of the form
 
 $$
   \array{
@@ -94,7 +94,7 @@ $$
   }
 $$
 
-a composite of them is any choice $\kappa$ of fourth face and a 3-cell $comp$ filling the resulting hollow tetrahedron:
+the unique composite of them is is a fourth face $\kappa$ and a 3-cell $comp$ filling the resulting hollow tetrahedron:
 
 $$
   \array{
@@ -122,7 +122,7 @@ $$
 $$
 
 
-The 3-[[coskeletal]]-condition says that every boundary of a 4-[[simplex]] made up of five such tetrahedra has a unqiue filler. This is the [[associativity]] [[coherence law]] on the comoposition operation given by the choice of tetrahedra:
+The 3-[[coskeletal]]-condition says that every boundary of a 4-[[simplex]] made up of five such tetrahedra has a unqiue filler. This is the [[associativity]] [[coherence law]] on the comoposition operation:
 
 $$
  \array{\arrayopts{\rowalign{center}}
@@ -136,7 +136,7 @@ This says that any of the possible ways to use several of the 3-simpleces to com
 
 ### Homotopy 2-types
 
-More generally one may consider a [[Kan complex]] that is just [[homotopy equivalent]] to a $3$-coskeletal one as a $2$-groupoid -- precisely: as representing the same [[homotopy type]], namely a [[homotopy 2-type]].
+More generally one may consider a [[Kan complex]] that are just [[homotopy equivalent]] to a $3$-[[coskeletal]] one as a $2$-groupoid -- precisely: as representing the same [[homotopy type]], namely a [[homotopy 2-type]].
 
 
 ## Strict $2$-groupoids
