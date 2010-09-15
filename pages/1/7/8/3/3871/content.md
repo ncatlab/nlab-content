@@ -10,3 +10,9 @@
 * Richard J. Szabo, _Equivariant cohomology and localization of path integrals_, Lecture Notes in Physics, N.S. Monographs __63__. Springer  2000. xii+315 pp. (preprint version: _Equivariant localization of path integrals_, [hep-th/9608068](http://arxiv.org/abs/hep-th/9608068))
 
 * related entries: [[equivariant localization and elimination of nodes]], [[equivariant cohomology]], [[moment map]], [[heat kernel]], [[semiclassical approximation]]
+
+* Loring Tu, _Localization in equivariant cohomology_, from biography web on R. Bott, [node21](http://www.math.harvard.edu/history/bott/bottbio/node21.html)
+
+* Nicole Berline, Mich&#232;le Vergne, _Classes caract&#233;ristiques &#233;quivariantes. Formule de localisation en cohomologie &#233;quivariante_, C. R. Acad. Sci. Paris S&#233;r. I Math.  295  (1982), no. 9, 539--541, [MR83m:58002](http://www.ams.org/mathscinet-getitem?mr=83m:58002)
+
+[[!redirects localization in equivariant cohomology]] 
