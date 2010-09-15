@@ -59,7 +59,7 @@ But it seems like there\'s still something to make your head explode: how do we 
 $$ \frac{p\coloneq a \simeq a' \quad f\colon\hom(a,b)}{\mathrm{conv}_{a,a'}f\colon\hom(a',b)} ,$$
 representing a map of setoids $\mathrm{conv}_{a,a'}\colon \hom(a,b) \to \hom(a',b)$.  (There is a similar rule on the other side.)  Then you also need some coherence laws stating that $\mathrm{conv}_{a,a} = \id_{\hom(a,b)}$ and $\mathrm{conv}_{a',a''} \circ \mathrm{conv}_{a,a'} = \mathrm{conv}_{a,a''}$ (and two laws on the other side).  I *think* that this is all.
 
-The definition that I usually use for a [[strict category]], however is this:  a __strict category__ consists of a set (of type $Type_=$, what we\'ve been calling 'setoid' above) $O$, a category (in the weak sense defined here) $C$, and an [[essentially surjective functor]] $\overline{-}$ to $C$ from the [[discrete category]] on $O$.  We then think of $O$ as the set of objects, the set of morphisms from $a$ to $b$ (for $a,b\colon O$) is $\hom_C(\overline{a},\overline{b})$, etc.  (Again, strictness is independent of smallness; $O$ might be a small set, or a large proper class, or whatever.)
+The definition that I usually use for a [[strict category]], however, is this:  a __strict category__ consists of a set (of type $Type_=$, what we\'ve been calling 'setoid' above) $O$, a category (in the weak sense defined here) $C$, and an [[essentially surjective functor]] $\overline{}$ to $C$ from the [[discrete category]] on $O$.  We then think of $O$ as the set of objects, the set of morphisms from $a$ to $b$ (for $a,b\colon O$) is $\hom_C(\overline{a},\overline{b})$, etc.  (Again, strictness is independent of smallness; $O$ might be a small set, or a large proper class, or whatever.)
 =--
 
 
