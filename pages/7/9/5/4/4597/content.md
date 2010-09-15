@@ -27,37 +27,6 @@
 * table of contents
 {:toc}
 
-## Idea
-
-Ordinary [[Chern-Weil theory]] is about [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal bundle]]s for $G$ a [[Lie group]], equivalently of the [[classifying space]] $\mathcal{B}G$ of that Lie group.
-
-Under _$\infty$-Chern-Weil theory_ we want to understand the generalization of this to [[(∞,1)-category theory]]: where [[Lie group]]s are generalized to [[∞-Lie group]]s, [[Lie algebra]]s are generalized to [[∞-Lie algebra]]s and [[principal bundle]]s to [[principal ∞-bundle]]s.
-
-So $\infty$-Chern-Weil theory produces [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal ∞-bundle]]s for $G$ an [[∞-Lie group]], equivalently of the corresponding [[classifying space]]s $\mathcal{B}G$.
-
-Ordinary Chern-Weil theory is formulated in the context of [[differential geometry]]. We need to widen this context somewhat in order that it can accomodate the relevant higher structures and so we place ourselves in the context of the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoids]].
-
-In every $(\infty,1)$-topos that admits a notion of differential cohomology,  there is a general abstract notion of refinement of [[characteristic class]]es in [[cohomology]] to [[curvature characteristic forms|curvature characteristic classes]] in [[ordinary differential cohomology]]. 
-
-The main construction in ∞-Chern-Weil theory is a concrete _model_ or _presentation_ of this abstract operation. This model is constructed in terms of [[Lie integration]] of objects in [[∞-Lie algebra cohomology]]. This construction is the higher analog of the [[Chern-Weil homomorphism]]. Its crucial intermediate step is the definition and construction of _$\infty$-connections_ on [[principal ∞-bundle]]s. 
-
-This model itself is after all built on concrete familiar constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
-
-We start with providing some 
-
-* [Motivation](#Motivation)
-
-for the study of higher Chern-Weil theory. As a warmup for the full theory, we then look at some
-
-* [Preparatory concepts](#PreparatoryConcepts)
-
-which are special cases of the full theory either in low categorical degree or with attention restricted to the $\infty$-Lie algebraic aspects, before integration. Then in 
-
-* [∞-Chern-Weil theory](#ChernWeil)
-
-we discuss the general definition of $\infty$-connections and of the Chern-Weil homomorphism and discuss some general properties. Then we turn to discussing
-
-* [Examples](#Examples)
 
 ## Motivation {#Motivation}
 
@@ -285,6 +254,39 @@ we may therefore call the 7-groupoid $Fivebrane_{diff}(X)$ of _differential five
 These are the kinds of structures that naturally live in $\infty$-Chern-Weil theory. And this is only the second step in the [[Whitehead tower]] of the [[orthogonal group]]. There is an infinite tower of differential $(4k+1)$-brane structures above this, whose cocycles are given by $\infty$-connections on principal $\infty$-bundles and their corresponding Chern-Simons circle $n$-bundles with connection. 
 
 These are the kind of structures that $\infty$-Chern-Weil theory studies.
+
+
+
+
+## Idea
+
+Ordinary [[Chern-Weil theory]] is about [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal bundle]]s for $G$ a [[Lie group]], equivalently of the [[classifying space]] $\mathcal{B}G$ of that Lie group.
+
+Under _$\infty$-Chern-Weil theory_ we want to understand the generalization of this to [[(∞,1)-category theory]]: where [[Lie group]]s are generalized to [[∞-Lie group]]s, [[Lie algebra]]s are generalized to [[∞-Lie algebra]]s and [[principal bundle]]s to [[principal ∞-bundle]]s.
+
+So $\infty$-Chern-Weil theory produces [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal ∞-bundle]]s for $G$ an [[∞-Lie group]], equivalently of the corresponding [[classifying space]]s $\mathcal{B}G$.
+
+Ordinary Chern-Weil theory is formulated in the context of [[differential geometry]]. We need to widen this context somewhat in order that it can accomodate the relevant higher structures and so we place ourselves in the context of the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoids]].
+
+In every $(\infty,1)$-topos that admits a notion of differential cohomology,  there is a general abstract notion of refinement of [[characteristic class]]es in [[cohomology]] to [[curvature characteristic forms|curvature characteristic classes]] in [[ordinary differential cohomology]]. 
+
+The main construction in ∞-Chern-Weil theory is a concrete _model_ or _presentation_ of this abstract operation. This model is constructed in terms of [[Lie integration]] of objects in [[∞-Lie algebra cohomology]]. This construction is the higher analog of the [[Chern-Weil homomorphism]]. Its crucial intermediate step is the definition and construction of _$\infty$-connections_ on [[principal ∞-bundle]]s. 
+
+This model itself is after all built on concrete familiar constructions in [[differential geometry]] and can be studied and appreciated in itself without recourse to the higher topos theory that we claim it provides a model for. The so inclined reader can ignore all the general abstract discussion in the following and concentrate on the concrete differential geometry. 
+
+ere is how this entry here proceeds.
+
+A warmup for the full theory that connects to classical constructions is given at
+
+* [Introduction](#PreparatoryConcepts)
+
+Then in 
+
+* [∞-Chern-Weil theory](#ChernWeil)
+
+we discuss the general definition of $\infty$-connections and of the Chern-Weil homomorphism and discuss some general properties. Then we turn to discussing
+
+* [Examples](#Examples)
 
 
 ## Preparatory concepts {#PreparatoryConcepts}
