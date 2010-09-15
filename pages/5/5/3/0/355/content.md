@@ -1,26 +1,58 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+* [[groupoid]]
+
+* [[2-groupoid]]
+
+* [[3-groupoid]]
+
+* **n-groupoid**
+
+* [[∞-groupoid]]
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
-An $n$-groupoid is an $\infty$-[[infinity-category|category]] that is both an $\infty$-[[infinity-groupoid|groupoid]] and an $n$-[[n-category|category]].
+An $n$-groupoid is an 
 
-An $n$-groupoid is the same thing as an $(n,0)$-category in the sense of $(n,r)$[[(n,r)-category|categories]]. 
+* [[n-category]] in which all [[k-morphism]]s are [[equivalence]]s;
 
-Accordingy to the [[homotopy hypothesis]], every $n$-groupoid is the [[fundamental ∞-groupoid]] of some [[homotopy n-type]], and this is unique up to equivalence.
+* [[(n,r)-category|(n,0)-category]];
+
+* $n$-[[truncated]] [[∞-groupoid]] (a [[homotopy n-type]]).
+
 
 
 ## Definitions
 
-In terms of a known notion of $\infty$-[[infinity-category|category]], we can define an __$n$-groupoid__ explicitly as an $\infty$-category such that:
+In terms of a known notion of [[(n,r)-category]], we can define an __$n$-groupoid__ explicitly as an $\infty$-category such that:
 
 * every $j$-morphism (at any level) is an [[equivalence]];
 * every parallel pair of $j$-morphisms is equivalent, for $j > n$.
 
 Or we define an __$n$-groupoid__ abstractly as an [[n-truncated object of an (infinity,1)-category|n-truncated object in]] the [[(∞,1)-category]] [[∞Grpd]].
 
+## Models
+
+### As Kan complexes
+
+A general model for [[∞-groupoid]]s are [[Kan complex]]es. In this context an  $n$-groupoid is a $(n+1)$-[[coskeletal]] Kan complex, i.e. a Kan complex in which every $k$-sphere $\partial \Delta^{k+1}$ for $k \geq n+1$ has a unique filler.
+
+If we only demand these sphere-fillers to exist, not necessarily uniquely, then we get [[∞-groupoid]]s _equivalent_ to $n$-groupoids, i.e. [[homotopy n-type]]s.
 
 [[!redirects n-groupoid]]
 [[!redirects n-groupoids]]
