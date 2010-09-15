@@ -3,8 +3,7 @@
 [[!include topology - contents]]
 </div>
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -31,6 +30,7 @@ be [[surjection]]s.  However, many results come out more cleanly by disqualifyin
 
 The elementary definitions above have been carefully phrased to be correct in [[constructive mathematics]].  One may also see classically equivalent forms that are constructively weaker.
 
+
 ## Basic results 
 
 1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
@@ -43,7 +43,8 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected.
 
-## Connected components ##
+
+## Connected components
 
 Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The equivalence class $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from the basic results above that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by one of the basic results above. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
 
@@ -59,6 +60,7 @@ $$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$
 
 In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0, 1)\}$. 
 
+
 ## Locally connected space
 
 +-- {: .un_remark}
@@ -67,12 +69,12 @@ In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0,
 It is not generally true that a space is the coproduct (in $Top$) of its connected components. For example, the connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the singletons, but the coproduct of the singleton subspaces carries the discrete topology; another example with this feature is the set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
 =--
 
-
 Indeed, a space is the coproduct of its connected components precisely when it is **locally connected** (meaning that every point has a connected neighborhood). This occurs for example if there are only finitely many connected components (because then each connected component will be both closed and open).
 
 For more on this see [[locally connected topos]].
 
 A space $X$ is **totally disconnected** if its connected components are precisely the singletons of $X$. 
+
 
 ## Path-connectedness 
 
@@ -95,11 +97,21 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 
 
 [[!redirects connected space]]
-[[!redirects path-connected space]]
-[[!redirects locally connected space]]
-[[!redirects locally path-connected space]]
-[[!redirects totally disconnected space]]
-[[!redirects connected component]]
-
+[[!redirects connected spaces]]
 [[!redirects connected topological space]]
 [[!redirects connected topological spaces]]
+
+[[!redirects path-connected space]]
+[[!redirects path-connected spaces]]
+
+[[!redirects locally connected space]]
+[[!redirects locally connected spaces]]
+
+[[!redirects locally path-connected space]]
+[[!redirects locally path-connected spaces]]
+
+[[!redirects totally disconnected space]]
+[[!redirects totally disconnected spaces]]
+
+[[!redirects connected component]]
+[[!redirects connected components]]
