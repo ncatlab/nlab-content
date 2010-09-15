@@ -15,6 +15,8 @@
 
 * [[3-groupoid]]
 
+* [[n-groupoid]]
+
 * [[∞-groupoid]]
 
 
@@ -65,6 +67,82 @@ A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all
 
 _Toby_:  But there is still a free [[setoid]] (set equipped with an equivalence relation) on $\Gamma$; it is the [[point]].  As a groupoid, it is not the same as the free groupoid on $\Gamma$, although it *is* the same as the free setoid on the free groupoid on $\Gamma$.  If there\'s an advantage to working with groupoids, perhaps it\'s that the free groupoid functor preserves distinctions that the free setoid functor forgets?  (In this case, a distinction preserved or forgotten is that between $\Gamma$ and the point, which as a graph does not have $u$.)
 =--
+
+## As a 2-coskeletal Kan complex
+
+Groupoids $K$ are equivalent to 2-[[coskeletal]] [[Kan complex]]es $N(K)$ -- their [[nerve]]s. 
+
+The objects of the groupoids are the 0-[[simplices]] and the morphisms of the groupoid are the 1-simplices of the Kan complex. The [[composition]] operation $(f,g) \mapsto g \circ f $ in the grouopoid is encoded in the 2-simplices of the Kan complex
+
+$$
+  \array{ 
+    && y
+    \\
+    & {}^{\mathllap{f}}\nearrow &=& \searrow^{\mathrlap{g}}
+    \\
+    x &&\underset{g\circ f}{\to}&& z
+  }
+  \,.
+$$
+
+
+The [[associativity]] condition on the composition is exhibited by the 3-[[coskeleton]]-property of the Kan complex. This says that every simplicial 2-sphere in the Kan complex has  unique filler. With the above identification of 2-simplices with composition operations, this means that the 2 ways
+
+$$
+  \array{
+    y &\stackrel{g}{\to}& &\to& z
+    \\
+    \uparrow && &\nearrow&  \downarrow^{\mathrlap{h}}
+    \\
+    {}^{\mathllap{f}}\uparrow &^{\mathllap{g \circ f}}\nearrow& && \downarrow
+    \\
+    x &\underset{h \circ (g\circ f )}{\to}&&\to& w
+  }
+  \;\;\;
+  and
+  \;\;\;
+  \array{
+    y &\stackrel{g}{\to}& &\to& z
+    \\
+    \uparrow &\searrow& &&  \downarrow^{\mathrlap{h}}
+    \\
+    {}^{\mathllap{f}}\uparrow && &\searrow^{\mathrlap{h\circ g}}& \downarrow
+    \\
+    x &\underset{(h \circ g)\circ f}{\to}&&\to& w
+  }
+$$
+
+of composing a sequence of three composable morphisms are equal
+
+$$
+  \array{
+    y &\to& &\to& z
+    \\
+    \downarrow && &\nearrow&  \downarrow
+    \\
+    \downarrow &\nearrow& && \downarrow
+    \\
+    x &\to&&\to& w
+  }
+  \;\;\;
+  \stackrel{=}{\to}
+  \;\;\;
+  \array{
+    y &\to& &\to& z
+    \\
+    \downarrow &\searrow& &&  \downarrow
+    \\
+    \downarrow && &\searrow& \downarrow
+    \\
+    x &\to&&\to& w
+  }
+  \,.
+$$
+
+
+
+For handling just groupoids exclusively their description in terms of Kan complexes may be a bit of an overkill, but the advantage is that it embeds groupoids naturally in the more general context of [[2-groupoid]]s, [[3-groupoid]]s and eventually [[∞-groupoid]]s. For instance a [[pseudo-functor]] out of an ordinary groupoid into a 2-groupoid is simply a homomorphism of the corresponding Kan complexes.
+
 
 
 ## References
