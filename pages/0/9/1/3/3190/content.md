@@ -3,6 +3,7 @@
 * R. Bott, L. W. Tu, _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
 * [wikipedia](http://en.wikipedia.org/wiki/Raoul_Bott)
+* Loring Tu about Raoul Bott in history web at Harvard: &lt;http://www.math.harvard.edu/history/bott/bottbio/bottbio.html>
 
 
 category: people
