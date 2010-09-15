@@ -79,6 +79,8 @@
 
   * [[bicategory]]
 
+  * [[bigroupoid]]
+
   * [[tricategory]]
 
   * [[tetracategory]]
