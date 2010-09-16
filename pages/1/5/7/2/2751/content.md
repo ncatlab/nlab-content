@@ -1,33 +1,183 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
-A **covariant derivative** is a way to differentiate a vector field along a curve, and provides a generalization of the usual directional derivative in multivariable calculus.
+In an [[associated bundle]] with [[connection]] the _covariant derivative_ of a [[section]] is a measure for how that section fails to be constant with respect to the connection.
 
-#Definition#
-Now assume $M$ is given a [[Koszul connection]] $\nabla$.  There is a unique operator $D$ sending vector fields along $c$ to vector fields along $c$ such that:
+## Definition
 
+Let $G$ be a [[Lie group]], $V$ a [[smooth manifold]] and $\rho : G \tmes V \to V$ a smooth [[action]]. Write $V//G$ for the corresponding [[action groupoid]], itself a Lie groupoid. 
 
-1. If $X$ is a vector field along $c$ and $f: M \to \mathbb{R}$, then $D(fX)(t) = (f \circ c)' X + f D( X)(t)$.
++-- {: .un_lemma}
+###### Observation
 
-Note that $c'(t) \in (TM)_{c(t)}$, by definition.
+The [[Chevalley-Eilenberg algebra]] of the corresponding [[Lie algebroid]] $Lie(V((G)$ -- the [[action Lie algebroid]] -- is 
 
-2. If $X$ is the restriction of a vector field $\bar{X}$ on $M$, i.e. $X(t) = \bar{X}(c(t))$, then
-\[ D(X)(t) = ( \nabla_{c'(t)} \bar{X})(c(t)).\]
+$$
+  CE(Lie(V//G)) = (\wedge^\bullet_{C^\infty(V)} \mathfrak{g}^*, d_{\rho})
+  \,,
+$$
 
-This operator is called the **covariant derivative** along $c$.  It is in fact a generalization of the usual directional derivative of vector fields in multivariable calculus, which occurs when you take the connection on $\mathbb{R}^n$ with all Christoffel symbols zero.
+where the differential acts on functions $f \in C^\infty(V)$ 
 
-#Proof of Existence#
+$$
+  d_\rho : f \mapsto \rho(-)()^* f \in C^\infty(V)\otimes \mathfrak{g}^*
+  \,.
+$$
 
-The first condition  means we can, by multiplying $X$ by a cut-off function, assume $X$ is supported in some coordinate neighborhood $U$ with coordinates $x^1, \dots, x^n$.  In particular, we may even assume that the image of $c$ is contained in $U$ by shrinking $J$ and using local uniqueness (which we prove below).  Moreover, we can assume that $c$ is one-to-one by shrinking further.
+Explicitly, for $t \in \mathfrak{g}$ this sends $f$ to the function
+$(d_\rho f)(t)$ which is the derivative along $t \in T_e G$ of the function $G \times V \stackrel{\rho}{\to}V \stackrel{f}{\to} \mathbb{R}$.
 
-Now, in the local case, we can write $c(t) = (c^1(t), \dots, c^n(t))$, and $X(t) = \sum_i X^i(t) \partial_i$, where $\partial_i = \frac{\partial}{\partial x_i}$.  We can extend $X$ to $\bar{X} = \sum_i  \bar{X}^i \partial_i $.  Let the Christoffel symbols of the connections be $\Gamma^k_{ij}$.  By linearity
-\[ \nabla_{c'(t)} \bar{X} = \sum_{i,k} c'^i(t) \nabla_{\partial_i} \left( \bar{X}^k \partial_k \right).\]
-This equals by the derivation-like identity for connections 
-\[ \sum_{i,k} c'^i(t)  \frac{\partial \bar{X}^k}{\partial x^i} \partial_k  + \sum_{i,j,k} c'^i(t) \bar{X}^k \Gamma^j_{ik} \partial_j .  \]
-Shifting the indices, collecting terms, and using that $X$ is a restriction of $\bar{X}$ gives that if we have such an operator $D$, then
-\[ D(X)(t) = \sum_j \left( X'^j(t) + \sum_{i,k} c'^i(t) {X}^k(t) \Gamma^j_{ik}(c(t)) \right) \partial_j.\]
-This expression depends only on $X$.  Thus we define $D(X)$ this way in local coordinates; it is easily checked that the conditions are satisfied locally, and one pieces together the local covariant derivatives to get the global ones.  The fact that patching is legal follows from the uniqueness assertion and a partition of unity  argument.
+=--
+
+Notice that we may identify the [[delooping]] Lie groupoid $\mathbf{B}G$ of $G$ with the action groupoid of the trivial action on the point, $\mathbf{B}G \simeq *//G$. This induces a canonical moprhism $V//G \to \mathbf{B}G$.
+
+For $X$ [[smooth manifold]], a $G$-[[principal bundle]] $P \to X$ is given by a  [[cocycle]] in [[∞LieGrpd]] $g : X \to \mathbf{B}G$. 
+
++-- {: .un_lemma}
+###### Observation
+
+On Lie algebroids this morphism is dually the inclusion
+
+$$
+  CE(Lie(V//G)) \leftarrow CE(\mathfrak{g})
+$$
+
+that is the identity on $\mathfrak{g}^*$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The [[section]]s $\sigma$ of the corresponding $\rho$-[[associated bundle]] $P \times_\rho V$ are in natural [[bijection]] with the lifts to a $V//G$-cocycle
+
+$$
+  \array{
+    && V//G
+    \\
+    & {}^{\mathllap{\sigma}}\nearrow & \downarrow
+    \\
+    X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may model the coycle $X \to \mathbf{B}G$ in the [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,loc}$ by an [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ for $C(U)$ the [[Cech groupoid]] of a [[good open cover]] $\{U_i \to X\}$. This is a collection of [[smooth function]]s $(g_{i j} : U_i \cap U_j \to G)$ such that
+
+$$
+  \left(
+    \array{
+      && (x,j)
+      \\
+      & \nearrow && \searrow
+      \\
+      (x,i) &&&& (x,k)
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{g_{i j}(x)}}\nearrow && \searrow^{\mathrlap{g_{j k}(x)}}
+      \\
+      \bullet &&\stackrel{g_{i k}(x)}{\to}&& \bullet
+    }
+  \right)
+  \,.
+$$
+
+A lift of this cocycle through $V//G \to \mathbf{B}G$ is in addition a collection of smooth functions $\{sigma_i : U_i \to V\}$ such that on all $U_i \cap U_j$ the equation
+
+$$
+  \sigma_j = \rho(g_{i j})(\sigma_i)
+$$
+
+$$
+  \left(
+    \array{
+      \sigma_i(x) &&\stackrel{\rho(g_{i k}(x))}{\to}&& \sigma_k(x)
+    }
+  \right)
+$$
+
+is satisfied. This identifies the $\sigma_i$ as precisely the components of a section $\sigma$ of $P \times_\rho G$ with respect to the local trivialization encoded by $g$.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+Given a [[connection on a bundle|connection]] $\nabla$ on the $G$-[[principal bundle]] with cocycle $g$, there is a unique connection $\nabla \sigma$ on the $V//G$-[[ggroupoid principal bundle]] that corresponds to a section $\sigma$ by the above proposition.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+The **covariant derivative** of a section $\sigma$ is the _1-form component_ $F_{\nabla \sigma}^1$ of the [[curvature]] of this groupoid-bundle connection.
+
+=--
+
+This is literally the measure for the _non-flatness of the section_ . Whereas the 2-form curvature is a measure for the non-flatness of the connection.
+
++-- {: .un_lemma}
+###### Observation
+
+On a single $U_i$ the connection $\nabla$ is given by a morphism of [[dg-algebra]]s 
+
+$$
+  \Omega^\bullet(U_i) \leftarrow W(\mathfrak{g}) : A_i
+$$
+
+for $W(\mathfrak{g})$ the [[Weil algebra]] of $\mathfrak{g}$.
+
+The groupoid connection $\nabla \sigma$ on this patch is given by
+
+$$
+  \Omega^\bullet(U_i) \leftarrow W(Lie(V//G)) : \nabla \sigma_i
+  \,.
+$$
+
+In degree 0 this is an algebra homomorphism
+
+$$
+  C^\infty(U_i) \leftarrow C^\infty(V) : \sigma_i
+  \,.
+$$
+
+This is the dual of the local section $\sigma_i$ itself. In degree 1 this is linear map
+
+$$
+  \Omega^1(U_i) \leftarrow \mathfrak{g}^* : A_i
+  \,,
+$$
+
+which is the connection forrm itself, as well as a linear map
+
+$$
+  \Omega^1(U_i) \leftarrow \Omega^1(C) : F^1_{\nabla \sigma_i}
+  \,,
+$$
+
+which is the curvature 1-form. The respect of these maps for the differential says that
+
+$$
+  F^1_{\nabla \sigma_i} = d_{dR} \sigma_i + \rho(A)(\sigma_i)
+  \,.
+$$
+
+This is the familiar local formula for a covariant derivative as one finds it in the literature.
+
+=--
+
+[[!redirects covariant derivative]]
