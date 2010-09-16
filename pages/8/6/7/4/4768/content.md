@@ -1,4 +1,27 @@
-We give two constructions of the simplicial localization of a [[homotopical category]].  
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+We give two constructions of the [[simplicial localization]] of a [[homotopical category]].  
+
+## Preparations
 
 We first need the following preparations:
 
@@ -34,7 +57,7 @@ With this data in hand, we may proceed to actual constructions of the simplicial
 Before that, a short note on terminology:  Traditionally, only the second construction is called the hammock localization, but this name comes from the shape of a natural transformation between two $t$-zigzags with the same initial and terminal vertices (notice how much the figure above looks like a hammock!), but as we will see, this features in both constructions.  We could say that both constructions are "hammock localizations", and indeed, they produce weakly equivalent results.
 
 
-####Simplicial localization via the Grothendieck Construction####
+##Simplicial localization via the Grothendieck Construction
 
 By the [[Grothendieck construction]], we may present the functor $C^t(X,Y):\mathbf{T}\to Cat$ as a [[fibered category]] $GrC^\mathbf{T}(X,Y)$ over $\mathbf{T}$.  
 
@@ -65,5 +88,8 @@ We call the simplicial category $N(GrC)$ the simplicial localization of $C$.
 
 **Theorem**: The categorical nerve $N(GrC)$ sending objects to objects and hom-categories to simplicial sets $N(GrC^\mathbf{T}(X,Y))$ equips $N(GrC)$ with the structure of a simplicial category.  Further, the morphisms of the homotopy category of this simplicial category coincide with those of the homotopy category arising from the ordinary construction using equivalence relations.  That is, $Ho_C(X,Y)\cong \pi_0 (N(GrC(X,Y)))$ naturally in $X$ and $Y$, where $\pi_0(-):=Hom_{Ho(SSet)}(Ho(\Delta^0), Ho(-))$.  
 
-####Hammock Localization####
+## Hammock Localization
+
+(...)
+
 
