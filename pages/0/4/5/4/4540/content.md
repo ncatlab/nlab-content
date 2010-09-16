@@ -34,14 +34,16 @@ The notion of _$\infty$-Lie algebra cohomology_ generalizes the notion of [[Lie 
 
 ## Definition
 
-If an [[(∞,1)-topos]] $\mathbf{H}$ admits [[rational homotopy theory in an (∞,1)-topos]] in that we have a [[reflective sub-(∞,1)-category]]
+For $\mathbf{H}$ an [[(∞,1)-topos]] over duals of algebras over an abelian [[Lawvere theory]] $T$, we have by the theory of [[function algebras on ∞-stacks]] a [[reflective (∞,1)-subcategory]]
 
 $$
   \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow}
   \mathbf{H}
 $$
 
-obtained as the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induces [[isomorphism]]s in [[cohomology]] with coefficients in some line object $k$, we may think of $\mathbf{L}$ as the [[(∞,1)-category]] of all [[∞-Lie algebroid]]s inside the "[[∞-Lie groupoid]]s" wich are the objects of $\mathbf{H}$.
+obtained as the [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at morphisms that induces [[isomorphism]]s in [[cohomology]] with coefficients in the canonical [[line object]] $\mathbb{A}$, where the small objects in $\mathbf{L}$ are modeled by dualy of [[cosimplicial algebra]]s.
+
+We may think of $\mathbf{L}$ as the [[(∞,1)-category]] of all [[∞-Lie algebroid]]s inside the [[∞-Lie groupoid]]s wich are the objects of $\mathbf{H}$. For instance for $T$ the theory of commutative [[associative algebra]]s over a field, the [[monoidal Dold-Kan correspondence]] identified cosimplicial algebras with [[dg-algebra]]s, which we may think of as the [[Chevalley-Eilenberg algebra]]s of the [[∞-Lie algebroid]]s.
 
 An [[∞-Lie algebra]] $\mathfrak{g}$ is a [[connected]] object in $\mathbf{L}$ and **$\infty$-Lie algebra cohomology** is the [[cohomology|intrinsic cohomology]] of $\mathbf{H}$ restricted to $\mathbf{L}$.
 
@@ -174,7 +176,7 @@ $$
 
 indeed model the abstract intrinsic $(\infty,1)$-topos theoretic notion of cocycles in $\infty Lie Algd \subset \infty Lie Grpd$.
 
-## Examples
+### Examples
 
 Special cases of $\infty$-Lie algebra cohomology are of course
 
@@ -182,6 +184,103 @@ Special cases of $\infty$-Lie algebra cohomology are of course
 
 * [[nonabelian Lie algebra cohomology]].
 
+
+
+## Transgression between invariant polynomials and cocycles via Chern-Simons elements
+
+
+We recall the procedure by which to an [[∞-Lie algebroid]] [[invariant polynomial]] $\omega$ we associate an [[∞-Lie algebroid]] cocycle $\nu$ that is _in transgression with_ $\omega$.
+
+The [[dg-algebra]] of [[invariant polynomial]]s is a sub-dg-alghebra of the [[kernel]] of the canonical morphism $W(\mathfrak{a}) \to CE(\mathfrak{a})$ from the [[Weil algebra]] to the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$
+
+$$
+  inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a}) = ker(W(\mathfrak{a}) \to CE(\mathfrak{a}))
+  \,.
+$$
+
+From the [[short exact sequence]]
+
+$$
+  CE(\Sigma \mathfrak{a}) \to W(\mathfrak{a}) \to 
+  CE(\mathfrak{a})
+$$
+
+we obtain the long exact sequence in [[chain homology and cohomology|cohomology]]
+
+$$
+  \cdots 
+  \to 
+  H^{n+1}(CE(\mathfrak{a}))
+  \stackrel{\delta}{\to} H^{n+2}(CE(\Sigma \mathfrak{a}))
+  \to \cdots 
+  \,.
+$$
+
+We say that $\mu \in CE(\mathfrak{a})$ is in transgression with $\omega \in inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a})$ if their classes map to each other under the connecting homomorphism $\delta$:
+
+$$
+  \delta : [\mu] \mapsto [\omega]
+  \,.
+$$
+
+The following spells out in detail how one finds to a given invariant polynomial $\omega$ the cocycle that it is in transgression with.
+
+1. We first regard the [[invariant polynomial]] $\omega$ as an element of the [[Weil algebra]] $W(\mathfrak{a})$ under the inclusion $inv(\mathfrak{a}) \hookrightarrow W(\mathfrak{a})$, where, by the very definiton of invariant polynomials, it is closed: $d_{W(\mathfrak{a})} \omega = 0$.
+
+1. then we find an element $cs_\omega \in W(\mathfrak{a})$ with the property that $d_{W(\mathfrak{a})} cs_\omega = \omega$. This is guranteed to exist because $W(\mathfrak{a})$ has trivial cohomology.
+
+1. then we send this element $cs_\omega\in W(\mathfrak{a})$ along the restriction map $W(\mathfrak{a}) \to CS(\mathfrak{a})$ to an elemeent we call $\nu$.
+
+The procedure is illustarted by the following diagram
+
+$$
+  \array{
+    0 && \omega &\leftarrow & \omega
+    \\
+    \;\;\uparrow^{\mathrlap{d_{CE(\mathfrak{a})}}}
+    &&
+    \;\;\uparrow^{\mathrlap{d_{W(\mathfrak{a})}}}
+    \\
+    \nu &\leftarrow& cs(\omega)
+    \\
+    \\
+    \\
+    \\
+    CE(\mathfrak{a})
+    &\leftarrow&
+    W(\mathfrak{a})
+    &\leftarrow&
+    inv(\mathfrak{a})    
+  }
+$$
+
+From the fact that all morphisms involved respect the differential and from the fact that the image of $\omega$ in $CE(\mathfrak{a})$ vanishes it follows that 
+
+* this element $\nu$ satisfies $d_{CE(\mathfrak{a})} \nu = 0$, hence that it is an $\infty$-Lie algebroid cocycle.
+
+* any two different choices of $cs_\omega$ lead to cocylces $\mu$ that are cohomologous.
+
+We say $\nu$ is a cocycle _in transgression with_ $\omega$. 
+We may call $cs_{\omega}$ here a _Chern-Simons element_ of $\omega$. Because for $A : T X \to \mathfrak{a}$ any collection of [[∞-Lie algebroid valued differential forms]] coming dually from a dg-morphism $\Omega^\bullet(X) \leftarrow W(\mathfrak{a}) : A$ the image $\omega(A)$ of $\omega$ will be a curvature characteristic form and the image $cs_\omega(A)$ its corresponding Chern-Simons form. 
+
+In the case where $\mathfrak{g}$ is an ordinary semisimple [[nLab:Lie algebra|Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section _Semisimple Lie algebras_ .
+
+
+### Examples
+
+For $\mathfrak{g}$ an [[semisimple Lie algebra]], the transgression between the [[Killing form]]-[[invariant polynomial]] and the 3-cocycle $\langle -, [-,-] \rangle$ is exhibited by the "ordinary" Chern-Simons element, which gives these [[action functional]] of ordinary [[Chern-Simons theory]].
+
+A [[schreiber:symplectic ∞-Lie algebroid]] is an [[∞-Lie algebroid]] equipped with a nondegenerate binary invariant polynomial in degree $n+2$.
+
+Examples are 
+
+* [[symplectic manifold]]s
+
+* [[Poisson Lie algebroid]]s
+
+* [[Courant algebroid]]s.
+
+The coresponding Chern-Simons elements exhibiting the transgression of these invariant polynomials give [[action functional]]s for generalized [[Chern-Simons theory]] (see the above entries for more details).
 
 
 ## Extensions {#Extensions}
@@ -237,6 +336,12 @@ Since [[∞-stackification]] preserves finite [[(∞,1)-limit]]s, this is suffic
 * The [[string Lie 2-algebra]] is the $b \mathbb{R}$-extension of a semisimple [[Lie algebra]] $\mathfrak{g}$ with bilinear [[invariant polynomial]] $\langle -,-\rangle$ corresponding to the 3-cocycle $\langle -,[-,-]\rangle \in CE(\mathfrak{g})$.
 
 
+## References
+
+The general structure of the threory of $\infty$-Lie algebroid cohomology and transgressin between $\infty$-Lie algebroid invariant polynomials and -cocycles via Chern-Simons element was given in
+
+* Sati, Schreiber, Stasheff, _$L_\infty$-connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+
 [[!redirects ∞-Lie algebra cohomology]]
 [[!redirects L-∞-algebra cohomology]]
 [[!redirects L-∞ algebra cohomology]]
@@ -267,3 +372,6 @@ Since [[∞-stackification]] preserves finite [[(∞,1)-limit]]s, this is suffic
 [[!redirects L-∞-algebroid cocycles]]
 [[!redirects L-∞ algebroid cocycles]]
 [[!redirects Lie ∞-algebroid cocoycles]]
+
+[[!redirects ∞-Lie algebroid cohomology]]
+[[!redirects infinity-Lie algebroid cohomology]]
