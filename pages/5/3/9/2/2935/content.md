@@ -1,6 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents
 * automatic table of contents goes here
@@ -19,17 +31,24 @@ If one considers [[brane]]s in the target space of the Poisson sigma-model, then
 
 > Probably something close to a [[Calabi-Yau category]], hence identifying the Poisson sigma-model as a [[TCFT]]. Does anyone know more in this direction?
 
+## Definition
+
+The [[action functional]] of the _Poisson sigma model_ is that of the [[Chern-Simons theory]] for the canonical [[invariant polynomial]] on the [[Poisson Lie algebroid]] (see there for details).
+
+
+
+
 ## References
 
 The notion of Poisson sigma model  was originally introduced by P. Schaller, T. Strobl and K. Ikeda, motivated from an attempt to unify several two-dimensional models of [[gravity]] and to cast them into a common form with [[Yang-Mills theory|Yang-Mills theories]].
 
 * P. Schaller, T. Strobl, _Poisson structure induced (topological) field theories_, Modern Phys. Lett. A 9 (1994), no. 33, 3129--3136, [doi](http://dx.doi.org/10.1142/S0217732394002951); _Introduction to Poisson $\sigma$-models_,  Low-dimensional models in statistical physics and quantum field theory (Schladming, 1995),  321--333, Lecture Notes in Phys. __469__, Springer 1996.
 
-* [[Thomas Strobl]], _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. [doi](http://dx.doi.org/10.1103/PhysRevLett.93.211601)
+* Thomas Strobl, _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. [doi](http://dx.doi.org/10.1103/PhysRevLett.93.211601)
 
 * M. Bojowald, A. Kotov, T. Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  54  (2005),  no. 4, 400--426, [doi](http://dx.doi.org/10.1016/j.geomphys.2004.11.002)
 
-* Ctirad Klim&#269;&#237;k, [[Thomas Strobl|T. Strobl]], _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344, <a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi</a> 
+* Ctirad Klim&#269;&#237;k, T. Strobl, _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344, <a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi</a> 
 
 The detailed argument by Cattaneo and Felder on how Kontsevich's formula for the deformation quantization star product is the 3-point function of the Poisson sigma-model is in
 
