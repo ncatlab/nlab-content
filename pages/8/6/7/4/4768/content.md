@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -63,7 +62,7 @@ By the [[Grothendieck construction]], we may present the functor $C^t(X,Y):\math
 
 We describe the resulting category $GrC^\mathbf{T}(X,Y)$ explicitly as follows:
 
-*The objects are pairs $(t,F)$ with $t\in \mathbf{T}$ and $F\in C^t(X,Y)
+*The objects are pairs $(t,F)$ with $t\in \mathbf{T}$ and $F\in C^t(X,Y)$
 *The morphisms are pairs $(f,g):(t,F)\to (t',G)$ where $f:t\to t'$ and $g:f_*F\to G$.
 *Composition is given by the rule $(f',g')\circ (f,g)=(f'\circ f,g'\circ f_* g)$.
 
@@ -71,7 +70,7 @@ In the sequel, we will construct the strict 2-category $GrC$, called the Grothen
 
 The first order of business is to show that the $\vee^{t,t'}_{XYZ}$ assemble first to a functor $\vee_{XYZ}:GrC^\mathbf{T}(X,Y)\times GrC^\mathbf{T}(Y,Z)\to GrC^\mathbf{T}(X,Z)$.  After that, we must show that all $\vee_{XYZ}$ assemble to an actual law of composition.
 
-We define the functor $\vee_{XYZ}:GrC^\mathbf{T}(X,Y)\times GrC^\mathbf{T}(Y,Z)\to GrC^\mathbf{T}(X,Z)$ as follows: On objects (suppressing subscripts), we have $(t,F)\vee (t',F'):= (t\vee t', F\vee^{t,t'} F').  This is clearly functorial by way of the results from our earlier preparations. 
+We define the functor $\vee_{XYZ}:GrC^\mathbf{T}(X,Y)\times GrC^\mathbf{T}(Y,Z)\to GrC^\mathbf{T}(X,Z)$ as follows: On objects (suppressing subscripts), we have $(t,F)\vee (t',F'):= (t\vee t', F\vee^{t,t'} F')$.  This is clearly functorial by way of the results from our earlier preparations. 
 
 We now define the strict $2$-category GrC by specifying the following data:
 
