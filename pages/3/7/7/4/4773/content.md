@@ -7,3 +7,6 @@
 * [[Doron Zeilberger]], _The umbral transfer-matrix method. I. Foundations._,
 In memory of Gian-Carlo Rota. J. Combin. Theory Ser. A 91 (2000), no. 1-2, 451--463, [MR2001g:05018](http://www.ams.org/mathscinet-getitem?mr=2001g:05018), [doi](http://dx.doi.org/10.1006/jcta.2000.3110)
 * A D Buchianico, D. Loeb, _A selected survey of umbral calculus_, [pdf](www.combinatorics.org/Surveys/ds3.pdf)
+* Li Guo, _Baxter algebras and the umbral calculus_,  Adv. in Appl. Math. __27__ (2001), 405-426; cf. also [[Rota-Baxter algebra]]
+
+
