@@ -5,7 +5,7 @@
 
 ## Idea 
 
-On a [[Riemannian manifold]] $(X,g)$, a __geodesic__ (or geodesic line, geodesic path) is a path which locally minimizes the length between its end points. In other words, it is a [[critical point]] of the [[functional]] of length 
+On a [[Riemannian manifold]] $(X,g)$, a __geodesic__ (or geodesic line, geodesic path) is a path $x : I \to X$ which locally minimizes the length between its end points. In other words, it is a [[critical point]] of the [[functional]] of length 
 
 $$
   (x : I \to M) 
