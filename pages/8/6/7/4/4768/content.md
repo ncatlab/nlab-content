@@ -62,9 +62,9 @@ By the [[Grothendieck construction]], we may present the functor $C^t(X,Y):\math
 
 We describe the resulting category $GrC^\mathbf{T}(X,Y)$ explicitly as follows:
 
-*The objects are pairs $(t,F)$ with $t\in \mathbf{T}$ and $F\in C^t(X,Y)$
-*The morphisms are pairs $(f,g):(t,F)\to (t',G)$ where $f:t\to t'$ and $g:f_*F\to G$.
-*Composition is given by the rule $(f',g')\circ (f,g)=(f'\circ f,g'\circ f_* g)$.
+* The objects are pairs $(t,F)$ with $t\in \mathbf{T}$ and $F\in C^t(X,Y)$.
+* The morphisms are pairs $(f,g):(t,F)\to (t',G)$ where $f:t\to t'$ and $g:f_*F\to G$.
+* Composition is given by the rule $(f',g')\circ (f,g)=(f'\circ f,g'\circ f_* g)$.
 
 In the sequel, we will construct the strict 2-category $GrC$, called the Grothendieck enrichment with the same objects as $C$ and with morphism categories $GrC^\mathbf{T}(X,Y)$. 
 
@@ -74,10 +74,10 @@ We define the functor $\vee_{XYZ}:GrC^\mathbf{T}(X,Y)\times GrC^\mathbf{T}(Y,Z)\
 
 We now define the strict $2$-category GrC by specifying the following data:
 
-*The objects are simply the objects of $C$
-*The hom-categories are given by $GrC^\mathbf{T}(X,Y)$
-*The identity morphism $id_X\in GrC^\mathbf{T}(X,X)$ is the unique empty zigzag.  
-*We define the law of composition to be $\vee$.  
+* The objects are simply the objects of $C$.
+* The hom-categories are given by $GrC^\mathbf{T}(X,Y)$.
+* The identity morphism $id_X\in GrC^\mathbf{T}(X,X)$ is the unique empty zigzag.  
+* We define the law of composition to be $\vee$.  
 
 It's clear from the definitions that $\vee$ is associative and that $id_X\vee F=F$ whenever the composition makes sense.  Then $GrC$ is a $2$-category.
 
