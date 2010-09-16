@@ -37,7 +37,7 @@ $$
 
 The lower dimensional horn fillers of course also exist, but are not in general unique.
 
-Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] and such that the $(n+1)$-horns have unique fillers.
+Equivalently, this are those [[Kan complex]]es which are $(n+1)$-[[coskeletal]] and such that the $(n+1)$-horns and $(n+2)$-horns have unique fillers.
 
 ## Properties
 
