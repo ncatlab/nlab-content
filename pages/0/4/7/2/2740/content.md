@@ -79,6 +79,18 @@ $$
 into a differential of degree +1 on multivector fields, that squares to 0. We write $CE(\mathfrak{P}(X,\pi))$ for the exterior algebra equipped with this
 differential. 
 
+More explicitly, let $\{x^i\} : X \to \mathbb{R}^{dim X}$ be a coordinate patch. Then the differential of $CE(\mathfrak{P}(X,\pi))$ is given by
+
+$$
+  d_{\mathfrak{P}(X,\pi)} : x^i \mapsto  2 \pi^{i j} \partial_j
+$$  
+
+
+$$
+  d_{\mathfrak{P}(X,\pi)} : \partial_i \mapsto ...
+  \,.
+$$
+
 
 ## Properties
 
@@ -105,7 +117,8 @@ $$
 **Proposition** The [[invariant polynomial]] in transgression with $\pi$ is 
 
 $$
-  \omega = (\mathbf{d}x^i)  \wedge (\mathbf{d}\partial_i) \in
+  \omega =  (\mathbf{d}\partial_i) \wedge (\mathbf{d}x^i)
+   \in
   W(\mathfrak{P}(X,\pi))
   \,.
 $$
@@ -113,16 +126,45 @@ $$
 **Proof** One checks that the following is a **Chern-Simons element** exhibiting the transgression
 
 $$
-  cs_\pi = \pi^{i j} \partial_i  \wedge \partial_j + x^i \wedge \mathbf{d}\partial_i
+  cs_\pi = \pi^{i j} \partial_i  \wedge \partial_j 
+  + \partial_i \wedge \mathbf{d}x^i
   \;\;\;
   \in W(\mathfrak{P}(X,\pi))
 $$
 
 in that $d_{W(\mathfrak{P}(X,\pi))} cs_\pi = \omega$, and the restriction of $cs_\pi$ to $CE(\mathfrak{P}(X,\pi))$ is evidently the Poisson tensor $\pi$.
 
+For the record (and for the signs) here is the explicit computation
+
+$$
+  \begin{aligned}
+    d_{W(\mathfrak{P}(X,\pi))} (\pi^{i j} \partial_i \wedge \partial_j
+   + \partial_i \wedge \mathbf{d} x^i)
+    = &
+   \mathbf{d}x^k (\partial_k \pi^{i j}) \partial_i \wedge \partial_j
+   \\
+   & + 2 \pi^{i j} (\mathbf{d}\partial_i) \wedge \partial_j
+   \\
+   & - (\partial_i \pi^{j k}) \partial_j \wedge \partial_k \wedge 
+       \mathbf{d}x^i
+   \\
+   & +
+   (\mathbf{d}\partial_i)\wedge (\mathbf{d} x^i)
+   \\
+   & + (-)(-) 2\pi^{i j} \partial_i \wedge \mathbf{d}\partial_j
+   \\
+   = & 
+   (\mathbf{d}\partial_i)\wedge (\mathbf{d} x^i)
+  \end{aligned}
+  \,.
+$$
+
+
+
+
 **Remark** The invariant polynomial $\omega$ makes $\mathfrak{P}(X,\pi)$ a [[schreiber:symplectic ∞-Lie algebroid]].
 
-**Remark** The [[action functional]] induced from the above Chern-Simons element is that of the [[Poisson sigma-model]]:
+**Remark** The [[Chern-Simons theory]] [[action functional]] induced from the above Chern-Simons element is that of the [[Poisson sigma-model]]:
 
 it sends [[∞-Lie algebroid valued forms]]
 
