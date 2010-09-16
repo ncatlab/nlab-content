@@ -36,7 +36,7 @@ There are several different but equivalent formalizations of this idea:
 
 * as a  __[[parallel transport]]__ functor, 
 
-* as a rule for __[[covariant derivative]]__, 
+* as a rule for a __[[covariant derivative]]__, 
 
 * as a __distribution (field) of horizontal subspaces__  -- an [[Ehresmann connection]] -- and via a __connection $1$-form__ which annihilates the distribution of horizontal subspaces. The connection in that sense induces a smooth version of [[Hurewicz connection]]. 
 
@@ -317,7 +317,9 @@ $$
 
 ### Connections on the tangent bundle 
 
-Connections on [[tangent bundle]]s play an important role for instance on  [[Riemannian manifold]]s and [[pseudo-Riemannian metric|pseudo-Riemannian manifold]]s. From the end of the 19th century and the beginning of the 20th centure originates a language to talk about these in terms of [[Christoffel symbol]]s. 
+Connections on [[tangent bundle]]s are also called [[affine connection]]s.
+
+They play a central role for instance on [[Riemannian manifold]]s and [[pseudo-Riemannian metric|pseudo-Riemannian manifold]]s. From the end of the 19th century and the beginning of the 20th centure originates a language to talk about these in terms of [[Christoffel symbol]]s. 
 
 ### Connections in physics
 
