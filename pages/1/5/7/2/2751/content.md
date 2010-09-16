@@ -33,7 +33,7 @@ $(d_\rho f)(t)$ which is the derivative along $t \in T_e G$ of the function $G \
 
 =--
 
-Notice that we may identify the [[delooping]] Lie groupoid $\mathbf{B}G$ of $G$ with the action groupoid of the trivial action on the point, $\mathbf{B}G \simeq *//G$. This induces a canonical moprhism $V//G \to \mathbf{B}G$.
+Notice that we may identify the [[delooping]] Lie groupoid $\mathbf{B}G$ of $G$ with the action groupoid of the trivial action on the point, $\mathbf{B}G \simeq *//G$. This induces a canonical morphism $V//G \to \mathbf{B}G$.
 
 For $X$ [[smooth manifold]], a $G$-[[principal bundle]] $P \to X$ is given by a  [[cocycle]] in [[∞LieGrpd]] $g : X \to \mathbf{B}G$. 
 
@@ -117,7 +117,7 @@ is satisfied. This identifies the $\sigma_i$ as precisely the components of a se
 +-- {: .un_lemma}
 ###### Observation
 
-Given a [[connection on a bundle|connection]] $\nabla$ on the $G$-[[principal bundle]] with cocycle $g$, there is a unique connection $\nabla \sigma$ on the $V//G$-[[ggroupoid principal bundle]] that corresponds to a section $\sigma$ by the above proposition.
+Given a [[connection on a bundle|connection]] $\nabla$ on the $G$-[[principal bundle]] with cocycle $g$, there is a unique connection $\nabla \sigma$ on the $V//G$-[[groupoid principal bundle]] that corresponds to a section $\sigma$ by the above proposition.
 
 =--
 
