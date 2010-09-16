@@ -40,9 +40,11 @@ If the homotopical structure on $C$ extends to that of a (combinatorial) [[model
 See also [[localization of a simplicial model category]].
 
 
-## Hammock localization 
+## Construction
 
-&#8230; (see section 4.1 in the reference below) &#8230;
+See [[simplicial localization of a homotopical category]].
+
+
 
 ## Properties
 
