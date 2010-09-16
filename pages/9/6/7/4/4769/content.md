@@ -59,7 +59,7 @@ Let $M$ be [[Lie group]] and let $\mathfrak{g}$ be its [[Lie algebra]] $T_1 M$, 
 
 *  $\exp$ is defined on all of $\mathfrak{g}$.
 *  $\exp$ is a [[smooth map|smooth]] [[homomorphism]] to $G$ from the underlying additive Lie group of $\mathfrak{g}$.
-*  $\exp$ is [[surjection|surjective]] (a [[regular epimorphism]]) if $G$ is [[connected space|connected]] and [[compact space|comact]] (and also in some other situations, such as the classical cases where $G$ is $]0,\infty[$ or $\mathbb{C} \setminus \{0\}$).
+*  $\exp$ is [[surjection|surjective]] (a [[regular epimorphism]]) if $G$ is [[connected space|connected]] and [[compact space|compact]] (and also in some other situations, such as the classical cases where $G$ is $]0,\infty[$ or $\mathbb{C} \setminus \{0\}$).
 *  If $G$ is [[compact space|compact]], then it may be equipped with a [[Riemannian metric]]; then the Lie exponential map is the same as the Riemannian exponential map at $1$.
 *  If $G$ is a [[matrix Lie group]], then $\exp$ is given by the classical series formula (eq:series).
 
