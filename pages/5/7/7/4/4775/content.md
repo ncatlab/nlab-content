@@ -1,6 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The *essential fiber* of a [[functor]] is a non-[[evil]] replacement for the [[fiber]].  It is a category-theoretic version of a [[homotopy fiber]].
+The *essential fiber* of a [[functor]] is a non-[[evil]] replacement for the [[fiber]].  It is a [[category theory|category-theoretic]] version of a [[homotopy fiber]].
 
 ## Definition
 
