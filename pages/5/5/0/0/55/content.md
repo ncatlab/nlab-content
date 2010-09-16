@@ -118,13 +118,15 @@ This is the special case of a [[Lie-Rinehart pair]] $(A,\mathfrak{g})$ where the
 
     2. in the [[Chevalley?Eilenberg algebra]] definition: $\mathrm{CE}(T X) = (\Omega^\bullet(X), d_{deRham})$;
 
+* An [[action Lie algebroid]] is the Lie version of an [[action groupoid]].
+
 *  **Bundles of Lie algebras** $E \to X$ with fiber $\mathfrak{g}$ are Lie algebroids with $\rho = 0$ and fiberwise bracket. In particular, for $G$ a Lie group with Lie algebra $\mathfrak{g}$ and $P \to X$ a $G$-principal bundle, the _adjoint bundle_ $ad P := P \times_G \mathfrak{g}$ (where $\mathfrak{g}$ is associated using the [[adjoint representation]] of $G$ on its Lie algebra) is a bundle of Lie algebras.
 
- * The **[[Atiyah Lie algebroid]]**: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
+ * The **[[Atiyah Lie algebroid]]** is the Lie algebroid of the  [[Atiyah Lie groupoid]] of a principal bundle: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
 $$
   0 \to ad P \to At(P) \to T X \to 0
 $$
-known as the **Atiyah sequence**. For some $n$-Caf&#233; blog discussion of this see [n-Transport and Higher Schreier theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html).
+known as the **Atiyah sequence**. 
 
 * The **vertical tangent Lie algebroid** $T_{vert}Y \hookrightarrow T Y$ of a smooth map $\pi : Y \to X$ of manifolds is the sub-Lie algebroid of the tangent Lie algebroid $T Y$ defined as follows:
 
