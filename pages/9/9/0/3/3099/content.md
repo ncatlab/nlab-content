@@ -133,12 +133,11 @@ An expositional discussion can be found at
 
 * [[Todd Trimble]], _Exponential Generating Function and Introduction to Species_ ([blog](http://topologicalmusings.wordpress.com/2009/03/28/number-of-idempotent-endofunctions/)) (scroll down a bit).
 
-See also 
+See also wikipedia: [combinatorial species](http://en.wikipedia.org/wiki/Combinatorial_species) and 
 
 * Fran&#231;ois Bergeron, Gilbert Labelle, Pierre Leroux, _Th&#233;orie des esp&#232;ces et combinatoire des structures arborescentes_ , LaCIM, Montr&#233;al (1994). English version: Combinatorial Species and Tree-like Structures, Cambridge University Press (1998).
 
-* Fran&#231;ois Bergeron, Species and Variations on the Theme of Species, invited talk at [Category Theory and Computer Science '04](http://www.itu.dk/research/theory/ctcs2004/), Copenhagen (2004). Slides ([pdf](http://bergeron.math.uqam.ca/Especes_trans.pdf)).
-
+* Fran&#231;ois Bergeron, Species and variations on the theme of species, invited talk at [Category Theory and Computer Science '04](http://www.itu.dk/research/theory/ctcs2004/), Copenhagen (2004). Slides ([pdf](http://bergeron.math.uqam.ca/Especes_trans.pdf)).
 
 [[!redirects homotopical species]]
 [[!redirects (infinity,1) species]]
