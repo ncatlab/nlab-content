@@ -33,7 +33,7 @@ Here we describe this formalism in the way it is usually presented, and at the s
 
 +-- {: .standout}
 
-**Abstract nonsense reinterpretation** of the D'Auria-Fr&#233; formalism:
+**General abstract reinterpretation** of the D'Auria-Fr&#233; formalism:
 
 The theory of [[supergravity]] (at least as a [[classical field theory]]) is a theory of [[connections on ∞-bundles]]. The fields are locally [[∞-Lie algebra valued forms]] with values for instance in the [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$ (for maximal 11-dimensional supergravity).
 
