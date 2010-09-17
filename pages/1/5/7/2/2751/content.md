@@ -29,15 +29,15 @@ In an [[associated bundle]] with [[connection]] the _covariant derivative_ of a 
 
 We give here a definition of covariant derivatives that is natural in the general context of [[∞-Chern-Weil theory]] in that it applies to [[connections on ∞-bundles]]. 
 
-We start by describing this just for ordinary [[connections on a bundle]] and demonsztrate how this general abstract definition reproduces the traditional definitions found in the literature.
+We start by describing this just for ordinary [[connections on a bundle]] and demonstrate how this general abstract definition reproduces the traditional definitions found in the literature.
 
-The central statement is: a covariant derivate $\nabla \sigma$ of a section may be identified with the 1-form [[curvature]]-component of a [[Lie algebroid]]-valued connection, and the curvature equation
+The central statement is: a covariant derivative $\nabla \sigma$ of a section may be identified with the 1-form [[curvature]]-component of a [[Lie algebroid]]-valued connection, and the curvature equation
 
 $$
   \nabla \nabla \sigma = F_\nabla \sigma
 $$ 
 
-is the [[Bianchi identity]] on tis curvature 1-form.
+is the [[Bianchi identity]] on its curvature 1-form.
 
 #### Preliminaries on action Lie algebroid cohomology {#ActionLieAlgebroidCohomology}
 
@@ -225,7 +225,7 @@ This 1-form curvature is literally the measure for the _non-flatness of the sect
 
 #### Equivalence to more traditional definitions
 
-We unwind this definition and find the traditional formulation of covariant derivatices as traditionally stated in the literature.
+We unwind this definition and find the traditional formulation of covariant derivatives as traditionally stated in the literature.
 
 
 On a patch $U_i \hookrightarrow X$ the connection $\nabla$ is given by a morphism of [[dg-algebra]]s 
@@ -290,7 +290,7 @@ $$
 
 There is a [[Bianchi identity]] on every [[curvature]] component, induced from the respect for differentials of the dg-algebra morphism $\Omega^\bullet(U_i) \leftarrow W(Lie(V//G)) : F_\nabla$ on shifted generators. 
 
-From the discussion at [Action Lie algebroid cohomology](#ActionLieAlgebroidCohomology) above we read off the Bianchi identity for the 1-form curvature that we identified with the covariant derivative im the case of linear actions to be given in local coordinates (as above) by (suppresing the patch index ${}_i$)
+From the discussion at [Action Lie algebroid cohomology](#ActionLieAlgebroidCohomology) above we read off the Bianchi identity for the 1-form curvature that we identified with the covariant derivative in the case of linear actions to be given in local coordinates (as above) by (suppressing the patch index ${}_i$)
 
 
 $$
