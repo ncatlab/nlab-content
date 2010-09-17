@@ -117,3 +117,5 @@ $$\alpha_a\circ g \simeq f\circ\alpha_b$$
 
 [[!redirects 2-morphism]]
 [[!redirects 2-morphisms]]
+[[!redirects 2-cell]]
+[[!redirects 2-cells]]
