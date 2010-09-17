@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,9 +13,7 @@
 =--
 =--
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -34,25 +31,26 @@ $$\otimes : M \times M \to M$$
 
 This functor, which we can think of as a kind of 'multiplication', makes $M$ into a [[vertical categorification|vertically categorified]] version of a [[monoid]].  This explains the term 'monoidal category'.
 
+
 ## Definition
 
 A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
-called the **tensor product**, an object
+called the **[[tensor product]]**, an object
 $$ 1 \in M $$
-called the **unit object**, a natural isomorphism
+called the **[[unit object]]**, a natural isomorphism
 $$ a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) $$
-called the **associator**, a natural isomorphism
+called the **[[associator]]**, a natural isomorphism
 $$ \lambda_x : 1 \otimes x \to x $$
-called the **left unitor**, and a natural isomorphism 
+called the **[[left unitor]]**, and a natural isomorphism 
 $$  \rho_x : x \otimes 1 \to x $$
-called the **right unitor**, which must make two diagrams commute: the **pentagon**:
+called the **[[right unitor]]**, which must make two diagrams commute: the **[[pentagon identity]]**:
 
-+--{: style="text-align:center"}
++-- {: style="text-align:center"}
 [[!include monoidal category > pentagon]]
 =--
 
-and the **triangle**:
+and the **[[triangle identity]]**:
 
 $$
   \array{
@@ -71,7 +69,7 @@ $$
   }
 $$
 
-+--{.query}
++-- {: .query}
 In [[Categories Work|Categories for the Working Mathematician]], it is also required that $\lambda_1 = \rho_1$, and this is used in the proof of the coherence theorem. But it is not required here nor in the other standard references (I don't know about Mac Lane's 1963 article). So, is this condition really necessary for coherence and should we add it here?
 &#8212;[[Benoit Jubin]]
 
@@ -97,7 +95,6 @@ There is a [[strict 2-category]] MonCat with:
 One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
 
 ## Properties {#Properties}
-
 
 +-- {: .un_prop}
 ###### Proposition
@@ -165,6 +162,7 @@ For a more detailed tour of monoidal categories, also using string diagrams, try
 
 Selinger discusses autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories.
 
+
 ## Where the Definition Comes From
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
@@ -207,6 +205,7 @@ To make the second magic wand work, the magic words to say are "there is a monad
 Of course, both are also sort of a cheat, since in order to prove that the biased and unbiased definitions are equivalent, you need to have the [[coherence theorem]] for the biased definition.  However, it's only because of the coherence theorem that we can say definitely that the usual set of complicated-looking diagrams is "correct."  The approach using lax $\infty$-functors really only postpones this question, since you also need a coherence theorem to show that the definition of lax $\infty$-functor is "correct."  So perhaps there is no magic wand after all, at least not one that produces the _specific_ diagrams in the usual biased definition of monoidal category.
 
 However, if we temporarily ignore the unitors and focus on the associator, we may ask _where does the pentagon identity come from?_  And one answer to this is provided by the Stasheff polytopes, which can be nicely obtained using Ross Street's theory of orientals.   For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third.  The following section explains this in a bit more detail.
+
 
 ## Relation to lax functors, orientals and descent
 
@@ -272,12 +271,13 @@ $$
 
 where the 2-category on the right is defined as $MonCat$ above, but with the associator not required to be an isomorphism.
 
-##Remark: pseudo versus lax, orientals versus unorientals##
+
+## Remark: pseudo versus lax, orientals versus unorientals
 
 In closing, it should be remarked that the fact that everything here is _lax_ instead of _pseudo_ is related to a curious property of the orientals: the $n$th oriental for $n \ge 1$ _fails_ to be weakly equivalent to the point. As a result, the objects of $Desc(pt, C)$ are not quite $\omega$-[[anafunctor]]s from the point to $C$, since they do not map out of a proper hypercover of $C$. In the strict notion of descent as used in most of the literature, the orientals would hence provide something _more general_ than ordinary descent, which in its generality is lacking some properties usually required of descent.
 
 We can remedy this by replacing in the definition of the descent $\infty$-category $Desc(Y,C)$ the orientals by another cosimplicial $\infty$-category, one which _is_ equivalent to the point in each degree. Doing so and then going through the above discussion will make _all_ the structure maps appeaing have inverses. But this will also apply to the monoidal product itself, then, which is usually not desired.  
 
 
+[[!redirects monoidal category]]
 [[!redirects monoidal categories]]
-[[!redirects strict monoidal category]]
