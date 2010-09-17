@@ -48,4 +48,6 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 * Lars H&#246;rmander, _The analysis of linear partial differential operators. III. Pseudo-differential operators_, 1994, reprinted 2007. 
 
+* Pietro Aiena, _Fredholm and local spectral theory, with applications to multipliers_, [book page](http://www.springer.com/mathematics/analysis/book/978-1-4020-1830-5)
+
 [[!redirects Fredholm complex]]
