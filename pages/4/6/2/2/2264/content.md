@@ -90,6 +90,47 @@ is Mal'cev.
 
 See also [[Mal'cev category]]. 
 
+## Lattice of congruences 
+
+In any [[finitely complete category]], the intersection of two congruences (equivalence relations) on an object $X$ is a congruence, so that the set of equivalence relations $Equiv(X)$ is a meet-semilattice. 
+
+In a [[regular category]] such as a variety of algebras, where there is a sensible calculus of relations and relational composition, it is a simple matter to prove that if $Equiv(X)$ is closed under relational composition, then $R \circ S$ is the join $R \vee S$ in $Equiv(X)$. For, if $R, S \in Equiv(X)$, then 
+
+$$R = R \circ \Delta \subseteq R \circ S \qquad S = \Delta \circ S \subseteq R \circ S$$ 
+
+while if $R, S \subseteq T$ in $Equiv(X)$, then 
+
+$$R \circ S \subseteq T \circ T \subseteq T$$
+
++-- {: .un_prop}
+######Proposition 
+In a regular category, if $Equiv(X)$ is closed under relational composition (equivalently, if composition of equivalence relations is commutative), then it is a modular lattice. 
+=-- 
+
++-- {: .proof} 
+######Proof
+The (poset-enriched) category of relations in a regular category is an [[allegory]], and hence satisfies Freyd's modular law 
+
+$$R \wedge (S \circ T) \subseteq S \circ ((S^{op} \circ R) \wedge T)$$ 
+
+whenever $T: X \to Y$, $S: Y \to Z$, $R: X \to Z$ are relations. As we have just seen, it follows from the hypothesis that joins in $Equiv(X)$ are given by composition, and so
+
+$$R \wedge (S \vee T) \subseteq S \vee ((S \vee R) \wedge T)$$ 
+
+Therefore, if $S \subseteq R$, we have both
+
+$$R \wedge (S \vee T) \subseteq S \vee (R \wedge T)$$ 
+
+and also $S \vee (R \wedge T) \subseteq R \wedge (S \vee T)$. Thus $S \subseteq R$ implies $R \wedge (T \vee S) = (R \wedge T) \vee S$: the modular law is satisfied in $Equiv(X)$. 
+=--
+
++-- {: .un_cor}
+######Corollary
+If $T$ is a Mal'cev theory, then the lattice of congruences on any $T$-algebra is modular. 
+=--
+
+Desarguesian property? 
+
 ## References
 
 See the monograph [[Borceux-Bourn]].
