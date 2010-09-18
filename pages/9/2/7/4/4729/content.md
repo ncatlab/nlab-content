@@ -106,12 +106,12 @@ $$
   \mapsto
   \left\{
     \array{
-       C^\infty(U) \otimes' \Omega^\bullet(\Delta^k)
+       \Omega^\bullet_{vert}(U \times \Delta^k)
        &\stackrel{A_{vert}}{\leftarrow}& CE(\mathfrak{g})
        \\
        \uparrow && \uparrow
        \\
-       \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^k)
+       \Omega^\bullet(U \times \Delta^k)
        &\stackrel{A}{\leftarrow}&
        W(\mathfrak{g})
     }
@@ -121,6 +121,8 @@ $$
 $$
 
 =--
+
+Here $\Omega^\bullet(U \times \Delta^k)_{vert}$ is the dg-algebra of [[vertical differential form]]s on the bundle $U \times \Delta^n \to U$.
 
 +-- {: .un_remark }
 ###### Remark
@@ -183,18 +185,18 @@ $$
   \mapsto
   \left\{
     \array{
-       C^\infty(U) \otimes' \Omega^\bullet(\Delta^k)
+       \Omega^\bullet(U \times \Delta^k)_{vert}
        &\stackrel{A_{vert}}{\leftarrow}& CE(\mathfrak{g})
        \\
        \uparrow && \uparrow
        \\
-       \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^k)
+       \Omega^\bullet(U \times \Delta^k)
        &\stackrel{A}{\leftarrow}&
        W(\mathfrak{g})
        \\
        \uparrow && \uparrow
        \\
-       (\Omega^\bullet(U) \otimes C^\infty(\Delta^n))_{closed}
+       \Omega^\bullet(U)
        &\stackrel{\langle F_A \rangle}{\leftarrow}&
        inv(\mathfrak{g})
     }
