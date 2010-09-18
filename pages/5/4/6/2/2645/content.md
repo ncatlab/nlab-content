@@ -22,7 +22,7 @@
 
 ## Idea
 
-Chern-Weil theory studies the refinement of [[characteristic class]]es of [[principal bundle]]s in ordinary [[cohomology]] to [[de Rham cohomology]] and further to [[differential cohomology]]. 
+Chern-Weil theory studies the refinement of [[characteristic class]]es of [[principal bundle]]s in ordinary [[cohomology]] to [[de Rham cohomology]] and further to [[ordinary differential cohomology]]. 
 
 The central operation that models this refinement is the construction of the [[Chern-Weil homomorphism]] from $G$-[[principal bundle]]s to [[de Rham cohomology]] by choosing a [[connection on a bundle|connection]] $\nabla$ and evaluating its [[curvature]] form $F_\nabla$ in the [[invariant polynomial]]s $\langle -\rangle$ of the [[Lie algebra]] $\mathfrak{g}$ to produce the [[curvature characteristic form]] $\langle F_\nabla \rangle$. Its de Rham cohomology class refines a corresponding [[characteristic class]] in [[integral cohomology]]. 
 
@@ -45,7 +45,11 @@ There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([Al
 
 In his exposition of 1936, [[Elie Cartan]]  lists some of the general properties of Lie groups known at that time.  In particular, he lists the [[Poincare polynomial]]s for classical simple compact [[Lie group]]s and, supposing similar results will hold for the exceptional groups, points out that these polynomials are the same as those of products of odd dimensional spheres and even the homology groups are isomorphic as intersection pairing algebras.
 
-Hopf (Hopf1941) showed that such a characterization in terms of homology groups  as intersection pairing algebras holds for any compact finite dimensional connected orientable manifold with a map $m:M\times M\to M$ such that left and right translation have non-zero degrees.
+In
+
+* [[Heinz Hopf]],  _&#220;ber die Topologie der Gruppen-Mannigfaltigkeiten und ihre Verallgemeinerungen_  (German)  Ann. of Math. (2)  42,  (1941). 22--52.
+
+Hopf showed that such a characterization in terms of homology groups  as intersection pairing algebras holds for any compact finite dimensional connected orientable manifold with a map $m:M\times M\to M$ such that left and right translation have non-zero degrees.
 
 Later, with the development of [[cohomology]], especially [[de Rham cohomology]], this was stated as $H^\bullet (G)$ being isomorphic to  an [[exterior algebra]] on odd dimensional generators (Chern).
 
@@ -72,7 +76,7 @@ $$L_X = di_X + i_Xd.$$
 This is what he terms a $\mathfrak{g}$-algebra.
 
 For Cartan, an infinitesimal connection are  projectors (at each point $p$ of $E$) $\phi_p:T_p E\to T_p^{vert}.$ equivariant with repect to the $G$-action. 
-This can be abstracted to an element $f$ of $Hom(\mathfrak{g}^*, W)$ of degree 1 such that
+This can be abstracted to an element $f$ of $Hom(\mathfrak{g}^*, A)$ of degree 1 such that
 
 $$i_X f(h) = i_X h$$
 
@@ -81,7 +85,7 @@ and
 $$L_X f(h) = f(L_X h)$$
 
 for all $X\in $ and $h\in .$  this Cartan calls an _algebraic connection_ .
-He then extends such an $f$ to a [[graded algebra]] morphism $\to W.$  in general, this will not be respect the differentials/not bea cochain map. In fact, the deviation gives the [[curvature]] of the connection:
+He then extends such an $f$ to a [[graded algebra]] morphism $\to A$.  In general, this will not be respect the differentials/not bea cochain map. In fact, the deviation gives the [[curvature]] of the connection:
 the curvature tensor is the map $h\mapsto d f(h)-f(d h)$.
 
 > HAVE TO BREAK OFF NOW - WHAT WILL COME NEXT IS the [[Weil algebra]] $W(\mathfrak{g})$ as a Cartan $\mathfrak{g}$-algebra
