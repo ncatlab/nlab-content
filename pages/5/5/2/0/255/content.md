@@ -15,15 +15,15 @@
 
 ## Idea
 
-A [[monad]] is a structure that is a lot like a monoid, but that lives in a [[bicategory]] rather than a [[monoidal category]].  In other words, the concept of a monad is the [[horizontal categorification]] of that of a monoid.
+A [[monad]] is a structure that is a lot like a [[monoid]], but that lives in a [[bicategory]] rather than a [[monoidal category]].  In other words, the concept of a monad is the [[horizontal categorification]] of that of a monoid.
 
-Monads are among the most pervasive structures in category theory and its applications: for example, they are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold?Kan correspondence]], much of [[homological algebra]].
+Monads are among the most pervasive structures in [[category theory]] and its applications: for example, they are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold?Kan correspondence]], much of [[homological algebra]].
 
 ##Definition
 
 A **monad** in a [[bicategory]] $K$ is given by
 
-* an object $a$, together with
+* an [[object]] $a$, together with
 
 * an [[endomorphism]] $t \colon a \to a$, and
 
@@ -44,7 +44,7 @@ $$
   t t & \stackrel{\mu}{\to} & t
 }
 $$
-commute (where certain coherence isomorphisms have been omitted).
+commute (where certain [[coherence]] [[isomorphism]]s have been omitted).
 
 The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]].  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a **monoid** in the endomorphism category $K(a,a)$.  Alternatively, monads can be taken as more fundamental, and a monoid in a [[monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
 
