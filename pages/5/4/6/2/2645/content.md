@@ -39,7 +39,55 @@ The notions of [[Lie group]], [[Lie algebra]], [[principal bundle]] and all the 
 There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([AlekseevMeinrenken2000](AlekseevMeinrenken)).
 .
 
-## References
+## History {#History}
+
+> (following notes provided by [[Jim Stasheff]])
+
+In his exposition of 1936, [[Elie Cartan]]  lists some of the general properties of Lie groups known at that time.  In particular, he lists the [[Poincare polynomial]]s for classical simple compact [[Lie group]]s and, supposing similar results will hold for the exceptional groups, points out that these polynomials are the same as those of products of odd dimensional spheres and even the homology groups are isomorphic as intersection pairing algebras.
+
+Hopf (Hopf1941) showed that such a characterization in terms of homology groups  as intersection pairing algebras holds for any compact finite dimensional connected orientable manifold with a map $m:M\times M\to M$ such that left and right translation have non-zero degrees.
+
+Later, with the development of [[cohomology]], especially [[de Rham cohomology]], this was stated as $H^\bullet (G)$ being isomorphic to  an [[exterior algebra]] on odd dimensional generators (Chern).
+
+Henri Cartan in
+
+* [[Henri Cartan]], _Notions d'alg&#233;bre diff&#233;rentielle; applications aux groupes de Lie et aux vari&#233;t&#233;s o&#249; op&#232;re un groupe de Lie_ ,  Coll. Topologie Alg&#233;brique Bruxelles (1950)
+15-28
+
+  section 7, titled _Classes caracteristiques (reelles) d'un espace fibre principal_
+
+at the end (1951) of an era of deRham cohomology dominence (prior to Serre's thesis) abstracted the differential geometric approach of Chern-Weil and the Weil algebra to the [[dg-algebra]] context with his notion of _$\mathfrak{g}$-algebras $W$_ . This involves what is known sometimes as the [[Cartan calculus]].  In addition to the differential $d$ of differential forms on a principal bundle, Cartan abstracts the inner product aka contraction of differential forms with [[vector field]]s and the [[Lie derivative]] with respect to vector fields.  that is, he posits 3 operators on a dgca:
+
+$d$ of degree 1, $i_X$ of degree -1 and $L_X$ of degree 0 for X in $\mathfrak{g}$
+subject to the relations:
+
+$$[i_X,i_Y] = i_{[X,Y]}$$
+
+$$ [L_X,i_Y]= i_{[X,Y]} $$
+
+and perhaps most useful
+
+$$L_X = di_X + i_Xd.$$
+
+This is what he terms a $\mathfrak{g}$-algebra.
+
+For Cartan, an infinitesimal connection are  projectors (at each point $p$ of $E$) $\phi_p:T_p E\to T_p^{vert}.$ equivariant with repect to the $G$-action. 
+This can be abstracted to an element $f$ of $Hom(\mathfrak{g}^*, W)$ of degree 1 such that
+
+$$i_X f(h) = i_X h$$
+
+and
+
+$$L_X f(h) = f(L_X h)$$
+
+for all $X\in $ and $h\in .$  this Cartan calls an _algebraic connection_ .
+He then extends such an $f$ to a [[graded algebra]] morphism $\to W.$  in general, this will not be respect the differentials/not bea cochain map. In fact, the deviation gives the [[curvature]] of the connection:
+the curvature tensor is the map $h\mapsto d f(h)-f(d h)$.
+
+> HAVE TO BREAK OFF NOW - WHAT WILL COME NEXT IS the [[Weil algebra]] $W(\mathfrak{g})$ as a Cartan $\mathfrak{g}$-algebra
+
+
+## Further References
 
 Early original references are
 
@@ -68,6 +116,6 @@ Some standard monographs are
 
 * V. Guillemin, S. Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
 
-Chern-Weil theory in the context of noncommutative geomtry is discussed in
+Chern-Weil theory in the context of noncommutative geometry is discussed in
 
 * A. Alekseev, E. Meinrenken, _The non-commutative Weil algebra_, Invent. Math. __139__, n. 1, 135-172, 2000, [doi](http://dx.doi.org/10.1007/s002229900025) {#AlekseevMeinrenken}
