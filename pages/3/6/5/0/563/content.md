@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -47,39 +48,39 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
 
 *  for each [[object]] $x$ of $C$, an object $P_x$ of $D$;
 *  for each [[hom-category]] $C(x,y)$ in $C$, a [[functor]] $P_{x,y}\colon C(x,y) \rightarrow D(P_x,P_y)$;
-*  for each object $x$ of $C$, an invertible [[2-morphism]] ($2$-cell) $P_{\id_x}\colon P_{x,x}(\id_x) \Rightarrow \id_{P_x}$;
-*  for each triple $x,y,z$ of $C$-objects, a [[natural isomorphism|isomorphism]] (natural in $f\colon x \to y$ and $g\colon y \to z$) $P_{x,y,z}(f,g)\colon P_{x,z}(f;g) \Rightarrow P_{x,y}(f) ; P_{y,z}(g)$;
+*  for each object $x$ of $C$, an invertible [[2-morphism]] ($2$-cell) $P_{\id_x}\colon \id_{P_x} \Rightarrow P_{x,x}(\id_x)$;
+*  for each triple $x,y,z$ of $C$-objects, a [[natural isomorphism|isomorphism]] (natural in $f\colon x \to y$ and $g\colon y \to z$) $P_{x,y,z}(f,g)\colon P_{x,y}(f) ; P_{y,z}(g) \Rightarrow P_{x,z}(f;g)$;
 *  for each hom-category $C(x,y)$,
    $$ \array {
-                                  &                                   & P_{x,y}(\id_x;f) \\
-                                  & {}^{P_{x,x,y}(\id_x,f)}\swArrow   &                        & \seArrow^{P_{x,y}(\lambda_f)} \\
-      P_{x,x}(\id_x) ; P_{x,y}(f) &                                   &                        &                                 & P_{x,y}(f) \\
-                                  & {}_{P_{\id_x};P_{x,y}(f)}\seArrow &                        & \neArrow_{\lambda_{P_{x,y}(f)}} \\
-                                  &                                   & \id_{P_x} ; P_{x,y}(f) \\
+                                  &                                         & \id_{P_x} ; P_{x,y}(f) \\
+                                  & {}^{P_{\id_x};\id_{P_{x,y}(f)}}\swArrow &                        & \seArrow^{\lambda_{P_{x,y}(f)}} \\
+      P_{x,x}(\id_x) ; P_{x,y}(f) &                                         &                        &                                 & P_{x,y}(f) \\
+                                  & {}_{P_{x,x,y}(\id_x,f)}\seArrow         &                        & \neArrow_{P_{x,y}(\lambda_f)} \\
+                                  &                                         & P_{x,y}(\id_x;f) \\
    } $$
    and
    $$ \array {
-                                  &                                   & P_{x,y}(f;\id_y) \\
-                                  & {}^{P_{x,y,y}(f,\id_y)}\swArrow   &                        & \seArrow^{P_{x,y}(\rho_f)} \\
-      P_{x,y}(f) ; P_{y,y}(\id_y) &                                   &                        &                              & P_{x,y}(f) \\
-                                  & {}_{P_{x,y}(f);P_{\id_y}}\seArrow &                        & \neArrow_{\rho_{P_{x,y}(f)}} \\
-                                  &                                   & P_{x,y}(f) ; \id_{P_y} \\
+                                  &                                         & P_{x,y}(f) ; \id_{P_y} \\
+                                  & {}^{\id_{P_{x,y}(f)};P_{\id_y}}\swArrow &                        & \seArrow^{\rho_{P_{x,y}(f)}} \\
+      P_{x,y}(f) ; P_{y,y}(\id_y) &                                         &                        &                              & P_{x,y}(f) \\
+                                  & {}_{P_{x,y,y}(f,\id_y)}\seArrow         &                        & \neArrow_{P_{x,y}(\rho_f)} \\
+                                  &                                         & P_{x,y}(f;\id_y) \\
    } $$
    commute; and
 *  for each quadruple $w,x,y,z$ of $C$-objects,
    $$ \array {
-      P_{w,z}\big((f;g);h\big)                       & \overset{P_{w,z}(\alpha_{f,g,h})}\Rightarrow                    & P_{w,z}\big(f;(g;h)\big) \\
-      \mathllap{P_{w,y,z}(f;g,h)}\Downarrow          &                                                                 & \Downarrow\mathrlap{P_{w,x,z}(f,g;h)} \\
-      P_{w,y}(f;g) ; P{y,z}(h)                       &                                                                 & P_{w,x}(f) ; P_{x,z}(g;h) \\
-      \mathllap{P_{w,x,y}(f,g);P_{y,z}(h)}\Downarrow &                                                                 & \Downarrow\mathrlap{P_{w,x}(f);P_{x,y,z}(g,h)} \\
-      \big(P_{w,x}(f) ; P_{x,y}(g)\big) ; P_{y,z}(h) & \underset{\alpha_{P_{w,x}(f),P_{x,y}(g),P_{y,z}(h)}}\Rightarrow & P_{w,x}(f) ; \big(P_{x,y}(g) ; P_{y,z}(h)\big) \\
+      \big(P_{w,x}(f) ; P_{x,y}(g)\big) ; P_{y,z}(h)       & \overset{\alpha_{P_{w,x}(f),P_{x,y}(g),P_{y,z}(h)}}\Rightarrow & P_{w,x}(f) ; \big(P_{x,y}(g) ; P_{y,z}(h)\big) \\
+      \mathllap{P_{w,x,y}(f,g);\id_{P_{y,z}(h)}}\Downarrow &                                                                & \Downarrow\mathrlap{\id_{P_{w,x}(f)};P_{x,y,z}(g,h)} \\
+      P_{w,y}(f;g) ; P_{y,z}(h)                            &                                                                & P_{w,x}(f) ; P_{x,z}(g;h) \\
+      \mathllap{P_{w,y,z}(f;g,h)}\Downarrow                &                                                                & \Downarrow\mathrlap{P_{w,x,z}(f,g;h)} \\
+      P_{w,z}\big((f;g);h\big)                             & \underset{P_{w,z}(\alpha_{f,g,h})}\Rightarrow                  & P_{w,z}\big(f;(g;h)\big) \\
    } $$
    commutes.
 
 
 ## Lax functors
 
-If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[oplax functor]]__.  If we reverse the direction of these as well, then we have an __[[lax functor]]__.
+If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[lax functor]]__.  If we reverse the direction of these as well, then we have an __[[oplax functor]]__.
 
 
 [[!redirects pseudofunctor]]
