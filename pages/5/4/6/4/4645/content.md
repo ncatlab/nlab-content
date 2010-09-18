@@ -2005,7 +2005,7 @@ For emphasis, notice that this span is governed by a presheaf of diagrams that o
 
 $$
   \array{
-    U &\to& \mathbf{B}U(1) &&& transition function
+    U &\to& \mathbf{B}U(1) &&& transition\;function
     \\
     \downarrow && \downarrow 
     \\
@@ -2123,24 +2123,311 @@ $$
 
 see [[circle n-bundle with connection]]
 
+
 ### $\infty$-Lie algebra valued connections {#LieConnections}
 
-Above we considered connections encoded in terms of [[nLab:parallel transport]] along paths and surfaces, and saw that this definition implies that connections are locally given by [[nLab:Lie-algebra valued 1-forms]] [[nLab:Lie 2-algebra valued differential forms]].
+Above we described ordinary [[connections on bundles]] as well as [[connections on 2-bundles]] in terms of [[parallel transport]] over paths and surfaces, and showed how such is equivalently given by [[Lie-algebra valued differential forms]] and [[Lie 2-algebra valued differential forms]], respectively. 
 
-Now we pass to what is to some extent the reverse construction: we define a notion of [[schreiber:∞-Lie algebroid valued differential forms]] and show how by a variant of [[nLab:Lie integration]] these define parallel transport and connections on higher bundles.
+Notably we saw ([here](#CurvatureCharacteristicsI)) for the case of ordinary $U(1)$-[[principal bundle]]s, that the connection and curvature data on these is encoded in presheaves of diagrams that over a given test space $U \in $ [[CartSp]] look like
 
-The material here was considered in
+$$  
+  \array{
+    U &\to& \mathbf{B}U(1) &&& transition\;function
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}INN(U) &&& connection
+    \\
+    \downarrow &&  \downarrow
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}^2 U(1) &&& curvature
+  }
+$$
 
-* [[Hisham Sati]], [[Urs Schreiber|U.S.]], [[Jim Stasheff]],
-  _$L_\infty$-algebra connections_ in Fauser (eds.) Recent Developments in QFT, Birkh&#228;user ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+together with a constraint on the bottom morphism.
 
-and further studied in 
+It is in the form of such kinds of diagrams that the general notion of [[connections on ∞-bundles]] may be modeled. In the full theory of [[schreiber:differential cohomology in an (∞,1)-topos]] this follows from first principles, but for our present introductory purpose we shall be content with taking this simple situation of $U(1)$-bundles together with the notion of [[Lie integration]] as sufficient motivation for the constructions considered now. 
 
-* [[nLab:Hisham Sati]], [[nLab:Urs Schreiber|U.S.]], [[nLab:Jim Stasheff]], _Twisted differential String- and Fivebrane structures_ ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001)).
+So we pass now to what is to some extent the reverse construction: we define a notion of [[∞-Lie algebroid valued differential forms]] and show how by a variant of [[Lie integration]] these define parallel transport and connections on higher bundles.
+
 
 In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic construction follows from a general abstract definitions of [[schreiber:differential cohomology in an (∞,1)-topos]].
 
+(The material of this section is due to ([SSS](#SSSI) and (FSS)(#FSS)).
+
+
+#### Connections
+
+> material needs polishing, also subsequent sections repeat some of this...
+
+The following observation on [[Lie integration]] is classical, even though maybe not reflected in the standard textbook literature to the extent it deserves to be:
+
+$$
+  \mathbf{B}G  : 
+  U \mapsto
+  \tau_1
+  ([k] \mapsto 
+    \{ 
+       \Omega^\bullet_{vert}(U \times \Delta^k) 
+       \leftarrow
+       CE(\mathfrak{g})
+    \}
+   )
+  \,.
+$$
+
+Here $\Omega^\bullet_{vert}(U \times \Delta^k)$ denotes the [[dg-algebra]] of [[vertical differential form]]s on the [[bundle]] $U \times\Delta^k \to U$.
+
++-- {: .un_lemma}
+###### Observation
+
+$$
+  \mathbf{B}G_{diff}  : 
+  U \mapsto
+  \tau_1
+  ([k] \mapsto 
+    \left\{ 
+      \array{
+        \Omega^\bullet_{vert}(U \times \Delta^k) 
+        &\leftarrow&
+        CE(\mathfrak{g})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet(U \times \Delta^k)
+        &\leftarrow&
+        W(\mathfrak{g})
+      }
+    \right\}
+   ) 
+  \,.
+$$
+
+=--
+
+We want to ignore the truncation issue for a moment to come back to it later and consider these simplicial presheaves untruncated. For that we write
+
+$$
+  \exp(\mathfrak{g})_{diff}  : 
+  U \mapsto
+  ([k] \mapsto 
+    \left\{ 
+      \array{
+        \Omega^\bullet_{vert}(U \times \Delta^k) 
+        &\leftarrow&
+        CE(\mathfrak{g})
+        \\
+        \uparrow && \uparrow
+        \\
+        \Omega^\bullet(U \times \Delta^k)
+        &\leftarrow&
+        W(\mathfrak{g})
+      }
+    \right\}
+   ) 
+  \,.
+$$
+
+For every [[∞-Lie algebra cocycle]] $CE(\mathfrak{g}) \leftarrow CE(b^n \mathbb{R}) : \mu$ we get a map 
+
+$$
+  \exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^n \mathbb{R})
+$$
   
+by postcomposition
+
+$$
+  \Omega^\bullet_{vert}(U \times \Delta^l)
+  \stackrel{A_{vert}}{\leftarrow}
+  CE(\mathfrak{g})
+  \stackrel{\mu}{\leftarrow}
+  CE(b^n \mathbb{R})
+  \,.
+$$
+
+We are looking for a way to extend this to $\exp(\mathfrak{g})_{diff}$. 
+
+**Observation** Such an extention is given by an [[invariant polynomial]] $\langle - \rangle$ in transgression with $\mu$ and a [[Chern-Simons form|Chern-Simons element]] $cs$ exhibiting that transgression in that
+
+$$
+  \array{
+     && \langle - \rangle &\leftarrow& \langle - \rangle
+     \\
+     && \uparrow^{\mathrlap{d_{W}}}
+     \\
+     \mu &\leftarrow& cs
+     \\
+     \\
+     CE(\mathfrak{g}) &\leftarrow& W(\mathfrak{g})
+     &\leftarrow&
+     inv(\mathfrak{g})
+  }
+  \,.
+$$
+
+Using this we can extend the cocycle to a square
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^n \mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}& W(b^n \mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
+    inv(b^n \mathbb{R}) & \simeq CE(b^{n+1} \mathbb{R})
+  }
+  \,.
+$$
+
+And now postcomposition with the top of this square yields a morphism
+
+$$
+  \exp(\mu)_{diff}
+  :
+  \exp(\mathfrak{g})_{diff}
+  \to
+  \exp(\mathfrak{b}^n \mathbb{R})_{diff}
+$$
+
+by producing [[pasting]] composites
+
+$$
+    \array{
+      \Omega^\bullet_{vert}(U \times \Delta^k) 
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{g})
+      &\stackrel{\mu}{\leftarrow}&
+      CE(b^n \mathbb{R})
+      \\
+      \uparrow && \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{g})
+      &\stackrel{cs}{\leftarrow}&
+      W(b^n \mathbb{R})
+      \\
+      && \uparrow && \uparrow
+      \\
+      && inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
+      inv(b^n \mathbb{R})
+  }
+  \,.
+$$
+
+We see that in the middle row the cocycle for circle n-bundles with local connection $(2k-1)$-form the [[Chern-Simons form]] of $A$ $CS_\mu(A)$ corresponding to $\mu$ appear. If this is to be a genuine connection instead of more generally a pseudo-connection, then (by the above discussion) we need to demand that we can fill this diagram in the bottom left as follows
+
+$$
+    \array{
+      \Omega^\bullet_{vert}(U \times \Delta^k) 
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{g})
+      &\stackrel{\mu}{\leftarrow}&
+      CE(b^n \mathbb{R})
+      \\
+      \uparrow && \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{g})
+      &\stackrel{cs}{\leftarrow}&
+      W(b^n \mathbb{R})
+      \\
+      \uparrow && \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)
+      &\stackrel{\langle F_A \rangle}{\leftarrow}& 
+      inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
+      inv(b^n \mathbb{R})
+  }
+  \,.
+$$
+
+The simplicial subpresheaf for which these completions exist we call we write
+
+$$
+  \exp(\mathfrak{g})_{conn}
+  :
+  (U,[n])
+  \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet_{vert}(U \times \Delta^k) 
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{g})
+     \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{g})
+      \\
+      \uparrow && \uparrow 
+      \\
+      \Omega^\bullet(U)
+      &\stackrel{\langle F_A \rangle}{\leftarrow}& 
+      inv(\mathfrak{g}) 
+  }    
+  \right\}
+$$
+
+(...)
+
+
+To come back to truncation: suppose $\mathfrak{g}$ is such that $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \stackrel{\simeq}{\to} \simeq \mathbf{B}G$ for the desired $G$. Then the periods of $\mu$ over $(n+1)$-balls cut out a lattice $\Gamma \subset \mathbb{R}$ and thus we get an [[infinity-anafunctor]]
+
+$$
+  \array{
+    \mathbf{cosk}_{n+1} \exp(\mathfrak{g})_{diff}
+    &to&
+    \mathbf{B}^{n}\mathbb{R}/\Gamma_{diff}
+    &\to&
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}/\Gamma
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G
+  }
+$$
+
+This is [[curvature characteristic class]]. We may always restrict to genuine $\infty$-connections and refine
+
+$$
+  \array{
+    \mathbf{cosk}_{n+1} \exp(\mathfrak{g})_{conn}
+    &\to&
+    \mathbf{B}^{n}\mathbb{R}/\Gamma_{conn}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{cosk}_{n+1} \exp(\mathfrak{g})_{diff}
+    &\to&
+    \mathbf{B}^{n}\mathbb{R}/\Gamma_{diff}
+    &\to&
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}/\Gamma
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G
+  }
+$$
+
+which models the refined $\infty$-Chern-Weil homomorphism with values in [[ordinary differential cohomology]]
+
+$$
+  \mathbf{H}_{conn}(X,\mathbf{B}G)
+  \to 
+  \mathbf{H}_{conn}(X, \mathbf{B}^{n+1} \mathbb{R}/\Gamma)
+$$
+
+(...)
+
+
+> (some $n$s are off by one, but got to run now)
 #### $\infty$-Lie algebras
 
 An ordinary [[Lie algebra]] is an [[infinitesimal space|infinitesimal]] approximation to a [[Lie group]]. This statement generalizes as we pass to higher groupoids. 
@@ -2207,7 +2494,7 @@ In fact, this construction establishes a _bijection_ between [[nLab:semifree dga
 
 While equivalent, the dual description is more familiar in the literature., notably due to all the rich supply of techniques from [[nLab:Sullivan model]]s in [[nLab:rational homotopy theory]]. In fact the notion of [[nLab:Lie integration]] (see there for details and references) of $L_\infty$-algebras to [[nLab:∞-Lie groupoid]]s may be understood as being essentially nothing but the [[nLab:Sullivan construction]] in rational homotopy theory. 
 
-Therefore we shall often think of $\infty$-Lie alghebras dually in terms of their Chevalley-Eilenberg algebras. Notably we identify the standard [[nLab:model structure on dg-algebra]] as a [[nLab:presentable (∞,1)-category|presentation]] of the [[nLab:(∞,1)-category]] of $\infty$-Lie algebras, which we write
+Therefore we shall often think of $\infty$-Lie algebras dually in terms of their Chevalley-Eilenberg algebras. Notably we identify the standard [[nLab:model structure on dg-algebra]] as a [[nLab:presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] of $\infty$-Lie algebras, which we write
 
 $$
   \infty Lie Alg := (dgAlg^{op})^\circ
@@ -2216,7 +2503,7 @@ $$
 
 #### $\infty$-Cartan-Chern-Weil theory
 
-The notion of [[nLab:Lie algebra cohomology]] has a straightforward generalization to a notion of [[nLab:∞-Lie algebra cohomology]]. In fact, in the light of $\infty$-Lie algebras, the concept becomes simpler.
+The notion of [[Lie algebra cohomology]] has a straightforward generalization to a notion of [[∞-Lie algebra cohomology]]. In fact, in the light of $\infty$-Lie algebras, the concept becomes simpler.
 
 For $n \in \mathbb{N}$ we write $b^n \mathbb{R}$ for the $\infty$-Lie algebras defined as follows: it's [[nLab:Chevalley-Eilenberg algebra]] is generated from a single element $c$ in degree $n$ and has vanishing differential
 
@@ -2237,7 +2524,7 @@ $$
   CE(\mathfrak{g}) \leftarrow CE(b^n \mathbb{R}) : \mu
 $$
 
-between the [[nLab:Chevalley-Eilenberg algebra]]s. By the nature of $CE(b^n \mathbb{R})$ this in turn is the same as an element
+between the [[Chevalley-Eilenberg algebra]]s. By the nature of $CE(b^n \mathbb{R})$ this in turn is the same as an element
 
 $$
   \mu \in \wedge^n \mathfrak{g}^*
@@ -2252,9 +2539,9 @@ $$
 
 For $\mathfrak{g}$ an ordinary [[nLab:Lie algebra]] this is traditionally taken as the very definition of [[nLab:Lie algebra cohomology]] (with values in the trivial module): the [[nLab:chain homology and cohomology|cochain cohomology]] of the Chevalley-Eilenberg complex. For our purposes it is useful to emphasize the equivalent description in terms of morphisms of $\infty$-Lie algebas:
 
-there is a precise sense in which an [[nLab:∞-Lie algebra]] is an [[nLab:infinitesimal space|infinitesimal]] [[nLab:∞-Lie group]]]. As we shall discuss below in [Cohomology](#Cohomology), the latter are naturally objects in an [[nLab:(∞,1)-topos]] of [[nLab:∞-Lie groupoid]]s and every $(\infty,1)$-topos comes with its [[nLab:cohomology|intrinsic cohomology]], where an [[nLab:cocycle|intrinsic cocycle]] on an object $X$ with coefficients in an object $A$ is nothing but a morphism $X \to A$. Our general definition of [[schreiber:differential cohomology in an (∞,1)-topos]] is built on this fact.
+there is a precise sense in which an [[∞-Lie algebra]] is an [[infinitesimal space|infinitesimal]] [[∞-Lie group]]]. As we shall discuss below in [Cohomology](#Cohomology), the latter are naturally objects in an [[(∞,1)-topos]] of [[∞-Lie groupoid]]s and every $(\infty,1)$-topos comes with its [[nLab:cohomology|intrinsic cohomology]], where an [[cocycle|intrinsic cocycle]] on an object $X$ with coefficients in an object $A$ is nothing but a morphism $X \to A$. Our general definition of [[schreiber:differential cohomology in an (∞,1)-topos]] is built on this fact.
 
-In such generality we may in fact think of any morphism $\mathfrak{g} \to \mathfrak{h}$ of $\infty$-Lie algebras as a _cocycle_ on $\mathfrak{g}$ with values in $\mathfrak{h}$, even if $\mathfrak{h}$ is not an [[nLab:Eilenberg-MacLane object]]. Such a general notion of cohomology is known as [[nLab:nonabelian cohomology]]. And indeed, restricted to the case that $\mathfrak{g}$ is an ordinary Lie algebra, this reproduces the notion of [[nLab:nonabelian Lie algebra cohomology]].
+In such generality we may in fact think of any morphism $\mathfrak{g} \to \mathfrak{h}$ of $\infty$-Lie algebras as a _cocycle_ on $\mathfrak{g}$ with values in $\mathfrak{h}$, even if $\mathfrak{h}$ is not an [[Eilenberg-MacLane object]]. Such a general notion of cohomology is known as [[nLab:nonabelian cohomology]]. And indeed, restricted to the case that $\mathfrak{g}$ is an ordinary Lie algebra, this reproduces the notion of [[nLab:nonabelian Lie algebra cohomology]].
 
 Every (nonabelian) cocyle $\mu : \mathfrak{h} \to \mathfrak{g}$ classifies something: its [[nLab:homotopy fiber]]. This is the [[nLab:homotopy pullback]] $\mathfrak{p} \to \mathfrak{h}$ of the point along $\mu$:
 
@@ -2286,7 +2573,7 @@ $$
 
 where the top morphism is a weak equivalence. Such an object $inn(\mathfrak{g})$ is a [[nLab:universal principal ∞-bundle]]. In fact, here it is a [[nLab:groupal model for universal principal ∞-bundles|groupal universal principal ∞-bundle]] in a sense, in that it carries the structure of an $\infty$-Lie algebra.
 
-There is a standard choice for $inn(\mathfrak{g})$. This is such that its [[nLab:Chevalley-Eilenberg algebra]] is the [[nLab:Weil algebra]] of $\mathfrak{g}$: $CE(inn(\mathfrak{g})) = W(\mathfrak{g})$. This is the [[nLab:semifree dga]] whose underlying graded algebra is $\wedge^\bullet( \mathfrak{g}^* \oplus \mathfrak{g}^*[1] )$, and whose differential is the one uniquely fixed by the fact that its restriction to $\wedge^1 \mathfrak{g}^*$ is $d_{inn(\mathfrak{g})} = d_{\mathfrak{g}} + \sigma$, where $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ is the canonical degree shift morphism.
+There is a standard choice for $inn(\mathfrak{g})$. This is such that its [[Chevalley-Eilenberg algebra]] is the [[nLab:Weil algebra]] of $\mathfrak{g}$: $CE(inn(\mathfrak{g})) = W(\mathfrak{g})$. This is the [[nLab:semifree dga]] whose underlying graded algebra is $\wedge^\bullet( \mathfrak{g}^* \oplus \mathfrak{g}^*[1] )$, and whose differential is the one uniquely fixed by the fact that its restriction to $\wedge^1 \mathfrak{g}^*$ is $d_{inn(\mathfrak{g})} = d_{\mathfrak{g}} + \sigma$, where $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ is the canonical degree shift morphism.
 
 In <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntUnivBund">∞-Lie groupoid -- the Lie-integrated universal principal ∞-bundle</a> we discuss how under [[nLab:Lie integration]] the $\infty$-Lie algebra $\mathfrak{g}$ turns into the one-object [[nLab:delooping]] $\infty$-groupoid $\mathbf{B}G$ of the corresponding [[nLab:∞-Lie group]], while $inn(\mathfrak{g})$ integrates to the delooping $\mathbf{B}\mathbf{E}G$ of a [[nLab:groupal model for universal principal ∞-bundles|groupal model]] for the $G$-[[nLab:universal principal ∞-bundle]] $\mathbf{E}G$.
 
@@ -2340,7 +2627,7 @@ This may be understood as an approximation to the in general not existent _doubl
 +-- {: .un_prop}
 ###### Classical fact
 
-For $G$ a [[nLab:compact space|compact]] [[nLab:Lie group]], the [[nLab:rationalization]] $\mathcal{B}G \otimes \mathbb{R}$ of the [[nLab:classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[nLab:Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[nLab:invariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
+For $G$ a [[compact space|compact]] [[Lie group]], the [[rationalization]] $\mathcal{B}G \otimes \mathbb{R}$ of the [[classifying space]] $\mathcal{B}G$ is the [[nLab:rational space]] whose [[Sullivan model]] is given by the algebra $inv(\mathfrak{g})$ of [[nvariant polynomial]]s on the [[nLab:Lie algebra]] $\mathfrak{g}$.
 
 =--
 
@@ -2350,7 +2637,7 @@ $$
   inn(\mathfrak{g}) \to \prod_i b^{n_i} \mathbb{R}
 $$
 
-we shall now identify as inducing the $\infty$-Lie theoretic analog of the [[nLab:Chern-Weil homomorphism]] which computes [[nLab:curvature characteristic form]]s from connections on [[nLab:principal ∞-bundle]]s.
+we shall now identify as inducing the $\infty$-Lie theoretic analog of the [[Chern-Weil homomorphism]] which computes [[nLab:curvature characteristic form]]s from connections on [[principal ∞-bundle]]s.
 
 
 #### The $\infty$-Chern-Weil homomorphism {#ChernWeilHomomorphism}
@@ -2741,14 +3028,7 @@ $$
 
 ## References
 
-The [[universal principal ∞-bundle|universal principal 2-bundle]] $\mathbf{E}G$ and its [[groupal model for universal principal ∞-bundles|groupal model]] $INN(G)$ is discussed in detail in
-
-* [[David Roberts]], [[Urs Schreiber]], _The inner automorphism 3-group of a strict 2-group_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsSchreiber">web</a>).
-{#RobertsSchreiber}
-
-For more see [[principal 2-bundle]].
-
-The ide of describing connections on principal 1- and 2-bundles in terms of parallel transport 1- and 2-functors appears in
+The idea of describing connections on principal 1- and 2-bundles in terms of parallel transport 1- and 2-functors appears in
 
 * [[John Baez]], U. S. _Higher gauge theory_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BaezSchreiber">web</a>)
 {#BaezSchreiber}
@@ -2767,27 +3047,36 @@ A detailed account of the description of (abelian and nonabelian) [[gerbe]]s/[[b
   1. _Connections on nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 {#SW}
 
-The description of there refined Chern-Weil homomorphisms in terms of Cech-Deligne cohomology was discussed in
+The [[universal principal ∞-bundle|universal principal 2-bundle]] $\mathbf{E}G$ and its [[groupal model for universal principal ∞-bundles|groupal model]] $INN(G)$ is discussed in detail in
+
+* [[David Roberts]], [[Urs Schreiber]], _The inner automorphism 3-group of a strict 2-group_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsSchreiber">web</a>).
+{#RobertsSchreiber}
+
+For more see [[principal 2-bundle]].
+
+The description of the refined Chern-Weil homomorphisms in terms of Cech-Deligne cohomology was discussed in
 
 * [[Jean-Luc Brylinski]], Dennis MacLaughlin, _Cech cocycles for characteristic classes_ , Communications in Mathematical Phiysics, Volume 178, Number 1 (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">web</a>)
 {#BrylinskiMacLaughlin}
 
-The Yoga of $\infty$-Lie algebra valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
+The algebraic aspects of $\infty$-Lie valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
 
-* SSS, 
+* [[Hisham Sati]], U.S., [[Jim Stasheff]], 
 
   1. _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
   1. _Twisted differential string- and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>)
 {#SSSI}
 
-For more see [[schreiber:∞-Lie algebroid valued differential forms]].
+The Lie integration of this data to $\infty$-stacks of $\infty$-connections and the construction of the [[Chern-Simons circle 3-bundle]] as an example of $\infty$-Chern-Weil homomorphism is in 
 
-For further references see 
+* [[Domenico Fiorenza]], U.S., [[Jim Stasheff]], _The Chern-Simons circle 3-bundle_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
+
+A commented list of further references is at 
 
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references]].
 
-[[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
 
+[[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
 [[!redirects ∞-Chern-Weil-theory introduction]]
 [[!redirects ∞-Chern-Weil theory introduction]]
