@@ -41,7 +41,13 @@ There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([Al
 
 ## References
 
-An early original reference is
+Early original references are
+
+* [[Henri Cartan]], _Notions d'alg&#233;bre diff&#233;rentielle; applications aux groupes de Lie et aux vari&#233;t&#233;s o&#249; op&#232;re un groupe de Lie_ ,  Coll. Topologie Alg&#233;brique Bruxelles (1950)
+15-28
+
+  section 7, titled _Classes caracteristiques (reelles) d'un espace fibre principal_
+
 
 * [[Shiing-shen Chern]], _Differential geometry of fiber bundles_ Proceedings of the International Congress of Mathematicians, Cambridge, Mass., 1950, vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952)
 
