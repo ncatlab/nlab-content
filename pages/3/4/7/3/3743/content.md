@@ -21,7 +21,7 @@ Working with the presentation, we can then  start generating words in the genera
 
 * wikipedia: [Rewriting](http://en.wikipedia.org/wiki/Rewriting)
 
-One of the strongest results on rewriting is Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of great relevance for $n$lab as it contaions a strong result on coherence theory:
+One of the strongest results on rewriting is Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of great relevance for $n$lab as it contains a strong result on coherence theory:
 
 * Tibor Beke, [Categorification, term rewriting and the Knuth-Bendix procedure](http://faculty.uml.edu/tbeke/knuth.pdf)
 
