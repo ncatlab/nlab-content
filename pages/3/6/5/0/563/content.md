@@ -19,20 +19,7 @@
 
 ## Idea
 
-A **pseudofunctor** is a specific algebraic notion of _weak $2$-[[2-functor|functor]]_ between [[bicategory|bicategories]] (including [[strict 2-category|strict 2-categories]]), i.e. a functor which preserves composition and identities only up to coherent specified isomorphism.
-
-+--{: .query}
-[[Tim]]: in specifying a pseudo functor $F$ you have to decide whether the isomorphism goes from $F(g f)$ to $F(g) F(f)$ or in the other direction. Of course they are equivalent as each will be inverse to the other. You might say that one is lax and pseudo the other op-lax and pseudo. When specifying the Grothendieck construction for such a functor, which is to be preferred? 
-
-Both are about equally represented in the literature that I have seen which gets confusing. (In other words, I'm confused!)
-
-_Toby_:  As you suggest, the two versions are equivalent, so in a way it doesn\'t make a difference.  But it might be nice to settle a convention in case we need it.
-
-
-[[Tim]]: I have been using (for the Menagerie) the idea that there are pseudofunctors presented in two equivalent flavours lax pseudofunctor and oplax ones. 
-
-[[Mike Shulman|Mike]]: Well, the natural comparison maps that you get in a [[Grothendieck fibration]] go in the "lax" direction $F(g) F(f) \to F(g f)$, since they are induced by the universal property of cartesian arrows.  In particular, if you have a functor with "weakly cartesian" liftings that don't compose, then it is a lax functor.  Not a very strong argument, but if we just want _some_ convention it might be a reason to pick lax.  I think that making too big a deal out of the difference would be misleading, though.
-=--
+A **pseudofunctor** is a specific algebraic notion of _weak $2$-[[2-functor|functor]]_ between [[bicategory|bicategories]] (including [[strict 2-category|strict 2-categories]]), i.e. a functor which preserves composition and identities only up to [[coherent]] specified [[isomorphism]].
 
 
 In general, there is not much reason to say "pseudofunctor" instead of "functor," since the only relevant type of functor between arbitrary bicategories is weak.  However, if the domain and codomain are known to be [[strict 2-category|strict 2-categories]] (including ordinary $1$-[[1-category|categories]]), it can be helpful to say "pseudofunctor" or "weak functor" to emphasize that it is not a [[strict 2-functor]].  Note that if the codomain is a $1$-category, then there is no difference.
@@ -81,6 +68,23 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
 ## Lax functors
 
 If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[lax functor]]__.  If we reverse the direction of these as well, then we have an __[[oplax functor]]__.
+
+
+## Discussion
+
++--{: .query}
+[[Tim]]: in specifying a pseudo functor $F$ you have to decide whether the isomorphism goes from $F(g f)$ to $F(g) F(f)$ or in the other direction. Of course they are equivalent as each will be inverse to the other. You might say that one is lax and pseudo the other op-lax and pseudo. When specifying the Grothendieck construction for such a functor, which is to be preferred? 
+
+Both are about equally represented in the literature that I have seen which gets confusing. (In other words, I'm confused!)
+
+_Toby_:  As you suggest, the two versions are equivalent, so in a way it doesn\'t make a difference.  But it might be nice to settle a convention in case we need it.
+
+
+[[Tim]]: I have been using (for the Menagerie) the idea that there are pseudofunctors presented in two equivalent flavours lax pseudofunctor and oplax ones. 
+
+[[Mike Shulman|Mike]]: Well, the natural comparison maps that you get in a [[Grothendieck fibration]] go in the "lax" direction $F(g) F(f) \to F(g f)$, since they are induced by the universal property of cartesian arrows.  In particular, if you have a functor with "weakly cartesian" liftings that don't compose, then it is a lax functor.  Not a very strong argument, but if we just want _some_ convention it might be a reason to pick lax.  I think that making too big a deal out of the difference would be misleading, though.
+=--
+
 
 
 [[!redirects pseudofunctor]]
