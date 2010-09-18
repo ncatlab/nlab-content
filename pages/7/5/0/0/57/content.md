@@ -96,7 +96,7 @@ To see this, consder the example (discussed in detail [below](#LieAlgebrasToLieG
 
 =--
 
-For the purposes of $\infty$-Lie theory thereforee instead one wants to [[trucated|truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
+For the purposes of $\infty$-Lie theory therefore instead one wants to [[trucated|truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
 
 $$
   \mathbf{cosk}_{n+1}\exp(\mathfrak{a})_{bare}  
@@ -127,6 +127,17 @@ Define $\Omega^\bullet_{si}(\Delta^n) \subset \Omega^\bullet(\Delta^n)$ to be th
 =--
 
 We may at times, here or in other entries, abuse notation and just write $\Omega^\bullet(\Delta^n)$ instead, when the context of Lie integration is clear.
+
+We also will write in the following $C^\infty(U) \otimes C^\infty(\Delta^n)$ for the _completed_ tensor product of algebras, or else the ordinary tensor product of [[smooth algebra]]s, hence for $C^\infty(U \times \Delta^n)$. So we write 
+
+$$
+  C^\infty(U) \otimes \Omega^\bullet(\Delta^n)
+  =
+  ((\wedge^\bullet_{C^\infty(U \times \Delta^n)}
+  \Gamma(T^* \Delta^n))_{si}, d_{Delta^n}
+$$ 
+
+for the [[dg-algebra]] obtained from the full de Rham complex on $U \times \Delta^n$ by discarding $\Gamma(T^* U)$.
 
 +-- {: .un_defn}
 ###### Definition
