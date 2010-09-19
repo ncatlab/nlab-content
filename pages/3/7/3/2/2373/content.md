@@ -91,7 +91,7 @@
 
   * [[Trimble n-category|Trimble ∞-category]]
 
-  * [[Grothendieck weak infinity-groupoid|Grothendieck weak ∞-groupoid]]
+  * [[Grothendieck-Maltsiniotis ∞-categories]]
 
 * [[stable homotopy theory]]
 
