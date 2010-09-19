@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -85,7 +84,7 @@ these element produces the corresponding (generalized) [[Chern-Simons form]]
 $$
   \Omega^\bullet(U \times \Delta^k)
   \stackrel{A}{\leftarrow}
-  W(\mathfraak{g})
+  W(\mathfrak{g})
   \stackrel{cs}{\leftarrow}
   W(b^{n-1}\mathbb{R})
   :
