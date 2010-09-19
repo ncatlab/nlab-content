@@ -2821,7 +2821,7 @@ For that purpose, suppose $\mathfrak{g}$ is such that the $(n+1)$-[[coskeleton]]
 $$
   \array{
     \mathbf{cosk}_{n+1} \exp(\mathfrak{g})_{diff}
-    &to&
+    &\to&
     \mathbf{B}^{n}\mathbb{R}/\Gamma_{diff}
     &\to&
     \mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}/\Gamma
@@ -2987,6 +2987,7 @@ $$
 
 This section gives a concise summary of the constructions introduced above.
 
+
 ### For connections on $G$-principal 1-bundles
 
 We have the following [[diffeological n-groupoid|diffeological 1- or 2-groupoids]].
@@ -3038,15 +3039,15 @@ For $\mathfrak{g}$ an [[∞-Lie algebra]] we have the [[Chevalley-Eilenberg alge
 
 $$
   \array{
-    CE(\mathfrak{g})  &&& G
+    CE(\mathfrak{g})  &&& G &&& Chevalley-Eilenberg\;algebra
     \\
     \uparrow &&& \downarrow 
     \\
-    W(\mathfrak{g}) &&& \mathbf{E}G
+    W(\mathfrak{g}) &&& \mathbf{E}G &&& Weil\;algebra
     \\
     \uparrow &&& \downarrow
     \\
-    inv(\mathfrak{g}) &&& \mathbf{B}G
+    inv(\mathfrak{g}) &&& \mathbf{B}G &&& algebra\;of\;invariant\;polynomials
   }
   \,.
 $$
