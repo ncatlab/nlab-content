@@ -108,7 +108,7 @@ $$
 
 for $\mathcal{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[?LieGrpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
 
-[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $\mathcal{B}G$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is in a way the origin of differential cohomology.
+[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $\mathcal{B}G$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
 
 Also the smooth manifold $X$ may be regarded as a [[Lie groupoid]] -- a groupoid with only identity morphisms. Its cartoon description is simply
 
@@ -2126,7 +2126,7 @@ see [[circle n-bundle with connection]]
 
 ### $\infty$-Lie algebra valued connections {#LieConnections}
 
-Above we described ordinary [[connections on bundles]] as well as [[connections on 2-bundles]] in terms of [[parallel transport]] over paths and surfaces, and showed how such is equivalently given by [[Lie-algebra valued differential forms]] and [[Lie 2-algebra valued differential forms]], respectively. 
+[Above](#LowDimension) we described ordinary [[connections on bundles]] as well as [[connections on 2-bundles]] in terms of [[parallel transport]] over paths and surfaces, and showed how such is equivalently given by cocycles with coefficients in [[Lie-algebra valued differential forms]] and [[Lie 2-algebra valued differential forms]], respectively. 
 
 Notably we saw ([here](#CurvatureCharacteristicsI)) for the case of ordinary $U(1)$-[[principal bundle]]s, that the connection and curvature data on these is encoded in presheaves of diagrams that over a given test space $U \in $ [[CartSp]] look like
 
@@ -2146,60 +2146,98 @@ $$
 
 together with a constraint on the bottom morphism.
 
-It is in the form of such kinds of diagrams that the general notion of [[connections on ∞-bundles]] may be modeled. In the full theory of [[schreiber:differential cohomology in an (∞,1)-topos]] this follows from first principles, but for our present introductory purpose we shall be content with taking this simple situation of $U(1)$-bundles together with the notion of [[Lie integration]] as sufficient motivation for the constructions considered now. 
+It is in the form of such a kind of diagram that the general notion of [[connections on ∞-bundles]] may be modeled. In the full theory of [[schreiber:differential cohomology in an (∞,1)-topos]] this follows from first principles, but for our present introductory purpose we shall be content with taking this simple situation of $U(1)$-bundles together with the notion of [[Lie integration]] as sufficient motivation for the constructions considered now. 
 
-So we pass now to what is to some extent the reverse construction: we define a notion of [[∞-Lie algebroid valued differential forms]] and show how by a variant of [[Lie integration]] these define parallel transport and connections on higher bundles.
+So we pass now to what is to some extent the reverse construction of the one considered before: we define a notion of [[∞-Lie algebra valued differential forms]] and show how by a variant of [[Lie integration]] these integrate to coefficient objects for [[connections on ∞-bundles]].
 
 
 In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic construction follows from a general abstract definitions of [[schreiber:differential cohomology in an (∞,1)-topos]].
 
-(The material of this section is due to ([SSS](#SSSI) and [FSS](#FSS)).
+The material of this section is due to ([SSS](#SSSI)) and ([FSS](#FSS)).
 
+
+#### $\infty$-Lie algebroids
+
+There is a precise sense in which one may think of a [[Lie algebra]] $\mathfrak{g}$ as the [[infinitesimal space|infinitesimal]] sub-object of the delooping groupoid $\mathbf{B}G$ of the corresponding Lie group $G$. Without here going into the details of this relation (which needs a little bit of [[(∞,1)-topos]]-theory), we want to build certain [[∞-Lie groupoid]]s from the knowledge of their infinitesimal subobjects: these subobjects are [[∞-Lie algebroid]]s and specifically [[∞-Lie algebra]]s -- traditionally known as $L_\infty$-algebras. 
+
+A quick but useful way of formalizing what this means is to observe that ordinary (finite-dimensional) [[Lie algebra]]s $(\mathfrak{g}, [-,-])$ are entirely encoded, dually, in their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^*, d = [-,-]^*) $: free [[graded algebra|graded-commutative algebra]]s over the ground field $k$ on the vector space $\mathfrak{g}^*[1]$ equipped a differential $d$ of degree +1 and squaring to 0.
+
+Simply by replacing in this characterization the vector space $\mathfrak{g}^*$ be an $\mathbb{N}$-[[graded vector space]], we arrive at the notion of [[∞-Lie algebra]]: the elements of $\mathfrak{g}[1]$ in degree $k$ are the infinitesimal [[k-morphism]]s.  Moreover, replacing in this characterization the ground field $k$ by an algebra of [[smooth function]]s on a manifold $\mathfrak{a}_0$, we obtain the notion of an [[∞-Lie algebroid]] $\mathfrak{g}$ over $\mathfrak{a}_0$. Morphisms $\mathfrak{a} \to \mathfrak{b}$ of such [[∞-Lie algebroid]]s are dually simply morphisms of [[dg-algebra]]s $CE(\mathfrak{a}) \leftarrow CE(\mathfrak{b})$.
+
+The following definition glosses over some fine print but is entirely sufficient for our present discussion.
+
++-- {: .un_def}
+###### Definition
+
+The category of [[∞-Lie algebroid]]s is the [[opposite category]] of the [[full subcategory]] of [[dgAlg]] 
+
+$$
+  \infty LieAlgbd \subset (dgAlg)^{op}
+$$
+
+on graded-commutative cochain [[dg-algebra]]s in non-negative degree whose underlying [[graded algebra]] is a [[Grassmann algebra]] over the degree-0 algbra.
+
+=--
+
+
++-- {: .un_example}
+###### Examples
+
+* A _strict_ $\infty$-Lie algebra is a [[dg-Lie algebra]] $(\mathfrak{g}, \partial, [-,-])$ with $(\mathfrak{g}^*, \partial^*)$ a [[cochain complex]] in non-negative degree. With $\mathfrak{g}^*$ denoting the degreewise dual, the corresponding CE-algebra is $CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^*, d_{CE} = [-,-]^* + \partial^*$. 
+
+* We had already seen [above](#ConnectionOn2Bundle) the infinitesimal approximation of a [[Lie 2-group]]: this is a [[Lie 2-algebra]]. If the Lie 2-group is a smooth [[strict 2-group]] it is encoded equivalently by a [[crossed module]] of ordinary Lie groups, and the corresponding Lie 2-algebra is given by a [[differential crossed module]] of ordinary [[Lie algebra]]s.
+
+* The [[tangent Lie algebroid]] $T X$ of a manifold $X$ is the infinitesimal approximation to its [[fundamental ∞-groupoid]]. Its CE-algebra is the [[de Rham complex]] 
+
+  $CE(T X) = \Omega^\bullet(X)$.
+
+
+* For $n \in \mathbb{N}$, $n \geq 1$, the Lie $n$-algebra $b^{n-1}\mathbb{R}$ is the infinitesimal approximation to $\mathbf{B}^n U(\mathbb{R})$ and $\mathbf{B}^n \mathbb{R}$. Its CE-algebra is the dg-algebra on a single generators in degree $n$, with vanishing differential.
+
+* For any $\infty$-Lie algebra $\mathfrak{g}$ there is an $\infty$-Lie algebra $inn(\mathfrak{g})$ defined by the fact that its CE-algebra is the [[Weil algebra]] of $\mathfrak{g}$:
+
+  $$
+    CE(inn(\mathfrak{g})) = 
+    W(\mathfrak{g}) = 
+    (\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1]), 
+    d_{W}|_{\mathfrak{g}^*} = d_{CE} + \sigma )
+    \,,
+  $$
+
+  where $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ is the grading shift isomorphism, extended as a [[derivation]].
+
+=--
 
 #### Characteristic cocycles from Lie integration {#LieIntOfCocycles}
 
 The construction we want to describe may be understood as a generalization
-of the following observation. This is classical, even if maybe not reflected in the standard textbook literature to the extent it deserves to be (see [[Lie integration]] for details and references):
+of the following proposition. This is classical, even if maybe not reflected in the standard textbook literature to the extent it deserves to be (see [[Lie integration]] for details and references).
 
-+-- {: .un_proposition}
-###### Proposition
++-- {: .un_def}
+###### Definition
 
-
-For $\mathfrak{g}$ a (finite-dimensonal) [[Lie algebra]], $G$ the [[simply-connected]] [[Lie group]] integrating it according to [[Lie's three theorems]] and  $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]], we have an [[isomorphism]]
+For $\mathfrak{g}$ a (finite-dimensional) [[Lie algebra]], let $\exp(\mathfrak{g}) \in [CartSp^{op}, sSet]$ be the [[simplicial presheaf]] given by the assignment
 
 $$
-  \mathbf{B}G  
-  =
-  \tau_1
-  \left(
-  \exp(\mathfrak{g})
-  :
-  ((U,[k]) \mapsto 
-    \{ 
-       \Omega^\bullet_{vert}(U \times \Delta^k) 
-       \leftarrow
-       CE(\mathfrak{g})
-    \}
-   )
-   )
-  \right)
+  \exp(\mathfrak{g})  : U
+  \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^\bullet)_{vert})
+  \,,
 $$
 
-of $\mathbf{B}G$ with the presheaf that to $U \in CartSp$ assigns the groupoid that is the 1-truncation of the [[simplicial set]] of [[dg-algebra]] [[homomorphism]]s from the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ to the dg-algebra of [[vertical differential form]]s on the bundle $U \times \Delta^\bullet \to U$.
+in degree $k$ of [[dg-algebra]] [[homomorphism]]s from the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ to the dg-algebra of [[vertical differential forms]] with respect to the trivial [[bundle]] $U \times \Delta^k \to U$.
 
 =--
 
-Unwinding what this means, notice that dg-algebra-morphisms $CE(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with [[Lie algebra valued 1-forms]] $A \in \Omega^1(X, \mathfrak{g})$, whose [[curvature]] 2-form vanishes, $F_A = 0$: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition. It is this elementary but important observation that [historically](#http://ncatlab.org/nlab/show/Chern-Weil+theory#History) led [[Eli Cartan]] to [[Cartan calculus]] and the algebraic formulation of [[Chern-Weil theory]].
++-- {: .un_remark}
+###### Remark
 
-So the presheaf $\exp(\mathfrak{g})$ has as 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms $A_{vert}$ on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
-
-We now describe [[characteristic class]]es and [[curvature characteristic form]]s on $G$-bundles in terms of these simplicial presheaves.
-For that purpose it is useful for a moment to ignore the truncation issue -- to come back to it later -- and consider these simplicial presheaves untruncated. For that we write
+Shortly we will be considering variations of such assignments that are best thought about when writing out the [[hom-set]]s on the right here as sets of arrows; as in
 
 $$
-  \exp(\mathfrak{g})  : 
-  U \mapsto
-  ([k] \mapsto 
+  \exp(\mathfrak{g})
+   :
+   (U,[k])
+    \mapsto
     \left\{ 
       \array{
         \Omega^\bullet_{vert}(U \times \Delta^k) 
@@ -2210,6 +2248,35 @@ $$
    ) 
   \,.
 $$
+
+=--
+
+For $\mathfrak{g}$ an ordinary [[Lie algebra]] it is an ancient (see <a href="http://ncatlab.org/nlab/show/Chern-Weil%20theory#History">Chern-Weil theory -- history</a>) but important and simple but observation that dg-algebra morphisms  $\Omega^\bullet(\Delta^k) \leftarrow CE(\mathfrak{g})$ are in natural bijection with [[Lie-algebra valued 1-form]]s that are _flat_ in that their [[curvature]] 2-forms vanish: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition. It is this elementary but important observation that [historically](#http://ncatlab.org/nlab/show/Chern-Weil+theory#History) led [[Eli Cartan]] to [[Cartan calculus]] and the algebraic formulation of [[Chern-Weil theory]].
+
+One finds that it makes good sense to generally, for $\mathfrak{g}$ any [[∞-Lie algebra]] or even [[∞-Lie algebroid]], think of $Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^k))$ as the set of [[∞-Lie algebroid valued differential forms]] whose curvature forms (generally a whole tower of them) vanishes.
+
++-- {: .un_proposition}
+###### Proposition
+
+Let $G$ be the [[simply-connected]] [[Lie group]] integrating $\mathfrak{g}$ according to [[Lie's three theorems]] and  $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]]. Write $\tau_1(-)$ for the operation that quotients out 2-morphisms in a simplicial presheaf to obtain a presheaf of groupoids. 
+
+We have an [[isomorphism]]
+
+$$
+  \mathbf{B}G  
+  =
+  \tau_1
+  \exp(\mathfrak{g})
+  \,.
+$$
+
+=--
+
+
+To see this, observe that the presheaf $\exp(\mathfrak{g})$ has as 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms $A_{vert}$ on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
+
+We now describe [[characteristic class]]es and [[curvature characteristic form]]s on $G$-bundles in terms of these simplicial presheaves.
+For that purpose it is useful for a moment to ignore the truncation issue -- to come back to it later -- and consider these simplicial presheaves untruncated. 
 
 To see characteristic classes in this picture, write $CE(b^{n-1} \mathbb{R})$ for the commutative real [[dg-algebra]] on a single generator in degree $n$ with vanishing differential. As our notation suggests, this we may think as the [[Chevalley-Eilenberg algebra]] of a _higher Lie algebra_  -- the [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$ -- which is an [[Eilenberg-MacLane object]] in the [[homotopy theory]] of [[∞-Lie algebra]]s, representing [[∞-Lie algebra cohomology]] in degree $n$ with coefficients in $\mathbb{R}$.
 
@@ -2904,82 +2971,6 @@ This is the cocycle for the [[circle n-bundle with connection]].
 
 This is precisely the cocycles given in ([BrylMac](#BrylinskiMacLaughlin)).
 
-
-
-#### $\infty$-Lie algebras
-
-> to be merged with the rest
-
-An ordinary [[Lie algebra]] is an [[infinitesimal space|infinitesimal]] approximation to a [[Lie group]]. This statement generalizes as we pass to higher groupoids. 
-
-We had already seen above the infinitesimal approximation of a [[Lie 2-group]]: this is a [[nLab:Lie 2-algebra]]. If the Lie 2-group is a smooth [[strict 2-group]] it is encoded equivalently by a [[crossed module]] of ordinary Lie groups, and the corresponding [[Lie 2-algebra]] is given by a [[differential crossed module]] of ordinary [[Lie algebra]]s.
-
-One categorical dimension higher, a semistrict 3-group -- a [[nLab:Gray group]] -- is encoded by a [[2-crossed module]] of ordinary groups, and its infinitesimal approximation is a Lie 3-algebra which is encoded by a [[differential 2-crossed module]] of ordinary Lie algebras.
-
-If instead of [[vertical categorification|vertically]] we move in [[horizontal categorification|horizontally]] in categorical dimension we find that the infinitesimal approximation to a [[nLab:Lie groupoid]] is a [[nLab:Lie algebroid]]. 
-
-And going in both directions: the infinitesimal approximatin to a Lie 2-groupoid is a _Lie 2-algebroid_ . Famous examples of these are for instance [[nLab:Courant algebroid]]s.
-
-All these algebraic notions are special cases of the general notion of [[nLab:∞-Lie algebroid]]s, which are precisely the infinitesimal approximations to general [[nLab:∞-Lie groupoid]]s. The infinitesimal approximation of a general [[nLab:∞-Lie group]] is an [[nLab:∞-Lie algebra]], usually called an _$L_\infty$-algebra_ . The general study of these concepts and their interrelation is the topic of [[schreiber:Lie theory in an (∞,1)-topos]]. Here we shall for the moment concentrate on describing $\infty$-Lie algebras.
-
-One way to approach the definition of $\infty$-Lie algebras starts with the following standard observation:
-
-+-- {: .un_prop}
-###### Observation
-
-For $\mathfrak{g}$ a vector space, write $\vee^\bullet \mathfrak{g}$ for the [[nLab:free construction|free]] graded-co-commutative [[nLab:coalgebra]] on $\mathfrak{g}$, with $\mathfrak{g}$ regarded as being in degree -1. (Over a field of [[nLab:characteristic]] 0, its underlying vector space is isomorphic to that of the [[nLab:exterior algebra]] $\wedge^\bullet \mathfrak{g}$, but we shall write $\vee^\bullet \mathfrak{g}$ to remind us of the coalgebra structure. )
-
-Then structures of a [[nLab:differential graded coalgebra]] on $\vee^\bullet \mathfrak{g}$ given by co[[nLab:derivation]]s $D : \vee^\bullet \mathfrak{g} \to \vee^\bullet \mathfrak{g}$ of degree +1 and with $D \circ D = 0$, are in bijection with structures of a [[nLab:Lie algebra]] on $\mathfrak{g}$:
-
-the restriction $D : \mathfrak{g} \vee \mathfrak{g} \to \mathfrak{g}$ encodes precisely a skew symmetric bracket and $D$ is entirely fixed by this restriction, and the condition $D^2  = 0$ is equivalent to the [[nLab:Jacobi identity]] satisfied by this bracket.
-
-=--
-
-This way of looking at Lie algebras suggests an evident generalization:
-
-+-- {: .un_def}
-###### Definition
-**($L_\infty$-algebra)**
-
-An _[[nLab:L-∞-algebra]]_ is an $\mathbb{N}$-[[nLab:graded vector space]] $\mathfrak{g}$ (which we take to be in non-positive degree) equipped a coderivation $D : \vee^\bullet \mathfrak{g} \to \vee^\bullet \mathfrak{g}$ of degree +1 with $D^2 = 0$.
-
-=--
-
-We say that $\mathfrak{g}$ is of [[nLab:finite type]] if it is degreewise finite-dimensional. In that case degreewise linear dualization of vector spaces maps the free graded-commutative coalgebra $\vee^\bullet \mathfrak{g}$ to the [[nLab:Grassmann algebra]] 
-
-$$
-  \wedge^\bullet \mathfrak{g}^*
-  = 
-  k
-  \oplus (\mathfrak{g}^*_0)
-  \oplus (\mathfrak{g}_0^* \wedge \mathfrak{g}_0^* \oplus \mathfrak{g}_1^*)
-  \oplus 
-  (\mathfrak{g}^*_0 \wedge \mathfrak{g}^*_0 \wedge \mathfrak{g}^*_0
-   \oplus \mathfrak{g}^*_1 \otimes \mathfrak{g}^*_0
-   \oplus \mathfrak{g}^*_2)
-  \oplus
-  \cdots
-  \,,
-$$
-
-where the $n$th term in paranthesis is in degree $n$, and the dual $d = D^* : \wedge^\bullet \mathfrak{g}^* \to \wedge^\bullet \mathfrak{g}^*$ of the coderivation, acting as $d \omega = \omega(D(-))$, makes this a graded-commutative [[nLab:semifree dga|semifree]] [[nLab:differential graded algebra]]. This we write
-
-$$
-  CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^* , d_{\mathfrak{g}})
-$$
-
-and call the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$. (For $\mathfrak{g}$ an ordinary Lie algebra, this is the ordinary notion of Chevalley-Eilenberg algebra over the trivial module.)
-
-In fact, this construction establishes a _bijection_ between [[nLab:semifree dga]]s in non-negative degree and [[nLab:∞-Lie algebra]]s: every semifree dg-algebra is the Chevalley-Eilenberg algebra of some -- uniquely specified -- $L_\infty$-algebra.
-
-While equivalent, the dual description is more familiar in the literature., notably due to all the rich supply of techniques from [[nLab:Sullivan model]]s in [[nLab:rational homotopy theory]]. In fact the notion of [[nLab:Lie integration]] (see there for details and references) of $L_\infty$-algebras to [[nLab:∞-Lie groupoid]]s may be understood as being essentially nothing but the [[nLab:Sullivan construction]] in rational homotopy theory. 
-
-Therefore we shall often think of $\infty$-Lie algebras dually in terms of their Chevalley-Eilenberg algebras. Notably we identify the standard [[nLab:model structure on dg-algebra]] as a [[nLab:presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] of $\infty$-Lie algebras, which we write
-
-$$
-  \infty Lie Alg := (dgAlg^{op})^\circ
-  \,.
-$$
 
 
 
