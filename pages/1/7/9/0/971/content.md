@@ -1,6 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Compact objects
++--{: .hide}
 [[!include compact object - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 # Contents
@@ -33,7 +45,7 @@ The important notion of functor between accessible categories is an **[[accessib
 
 * If an accessible category in addition has all (small) [[colimit]]s (or, equivalently, [[limits]]), then it is a [[locally presentable category]].
 
-* A [[small category]] is accessible precisely when it is [[idempotent complete category|idempotent complete]].  Makkai--Par&eacute; say that this means accessibility is an "almost pure smallness condition."
+* A [[small category]] is accessible precisely when it is [[idempotent complete category|idempotent complete]].  Makkai--Par&#233; say that this means accessibility is an "almost pure smallness condition."
 
 * A functor out of an accessible category that is $\kappa$-continuous for some [[regular cardinal]] $\kappa$ is an [[accessible functor]].
 
@@ -78,11 +90,11 @@ In addition:
 
 The term _accessible category_ is due to
 
-* Makkai, Par&eacute; 1989. 
+* Makkai, Par&#233; 1989. 
 
 The standard textbook on the theory of accessible categories is
 
-* Ad&aacute;mek and Rosicky, _Locally Presentable and Accessible Categories_. Cambridge University Press, Cambridge,
+* Ad&#225;mek and Rosicky, _Locally Presentable and Accessible Categories_. Cambridge University Press, Cambridge,
 1994. 
 
 A discussion of [[accessible (infinity,1)-category|accessible (infinity,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
