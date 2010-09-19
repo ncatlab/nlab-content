@@ -2156,7 +2156,7 @@ In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic con
 (The material of this section is due to ([SSS](#SSSI) and [FSS](#FSS)).
 
 
-#### Cocycles from Lie integration
+#### Characteristic cocycles from Lie integration
 
 
 For $G$ a Lie group, above we have described connections on $G$-principal bundles in terms of cocycles with coefficients in the Lie-[[groupoid of Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
@@ -2212,9 +2212,41 @@ Unwinding what this means, notice that dg-algebra-morphisms $CE(\mathfrak{g}) \t
 
 So the presheaf $\exp(\mathfrak{g})$ has as 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
 
-Another classical dg-algebra associated with $\mathfrak{g}$ is its [[Weil algebra]] $W(\mathfrak{g})$. This is precisely characterized by the fact that dg-algebra homomorphisms $W(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with arbitrary, not-necessarily flat, $\mathfrak{g}$-valued forms.
+Another classical dg-algebra associated with $\mathfrak{g}$ is its [[Weil algebra]] $W(\mathfrak{g})$. 
 
-Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in this fashion.
++-- {: .un_lemma}
+###### Fact
+
+The [[Weil algebra]] $W(\mathfrak{g})$ is characterized by the fact that dg-algebra homomorphisms $W(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with arbitrary, not-necessarily flat, $\mathfrak{g}$-valued forms. In other words, $W(\mathfrak{g})$ is -- up to [[isomorphism]] -- [[generalized the|the]] [[free functor|free]] [[dg-algebra]] on the [[graded vector space]] $\mathfrak{g}$:
+
+$$
+  Hom_{dgAlg}(W(V^*), A) \simeq Hom_{Vect_\mathbb{Z}}(V^*, A)
+  \,.
+$$
+
+=--
+
+(Notice that the other dg-algebras that we are dealing with are [[semi-free dga]]s in that only their underlying [[graded algebra]] is free, but not the differential). 
+
+The most obvious realization of the free dg-algebra on $\mathfrak{g}^*$ is $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ equipped with the differential that is precisely the degree shift isomorphism $\sigma : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ extended as a [[derivation]]. This is not the Weil algebra on the nose, but is isomorphic to it. The differential of the Weil algebra on $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ is given on the unshifted generators by
+
+$$
+  d_{W(\mathfrak{g})}|_{\mathfrak{g}^*} = d_{CE(\mathfrak{g})} + \sigma
+  \,.
+$$
+
+This uniquely fixes the differential on the shifted generators -- a phenomenon known as the [[Bianchi identity]].
+
+The special property of this incarnation of the free dg-algebra on $\mathfrak{g}^*$ is that it makes the canonical dg-algebra homomorphism  
+
+$$
+  CE(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : i^*
+$$
+
+manifest as the map that is the identity on the unshifted generators and zero on the shifted generators. 
+
+Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in the fashion of $\exp(\mathfrak{g})$
+
 
 +-- {: .un_lemma}
 ###### Observation
@@ -2332,7 +2364,7 @@ $$
      &\stackrel{\int_{\Delta^\bullet}\mathbf{cosk}_3 \exp(\mu)}{\to}&
      \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
      \\
-     \downarrow&& \downarrow^{\mathrlap{\simeq}}
+     \downarrow^{\mathrlap{\simeq}}&& \downarrow^{\mathrlap{\simeq}}
      \\
      C(U) &\stackrel{g}{\to}& \mathbf{B}G
      \\
@@ -2376,14 +2408,14 @@ This follows by observing that the composition of [[∞-anafunctor]]s as spelled
 
 These authors prove that this is indeed the claimed class by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection. 
 
-#### Chern-Simons elements of invariant polynomials
+#### Curvature characteristics and Chern-Simons forms
 
-For the purpose of lifting the above integration of Lie algebra cocycles from $\mathbf{B}G$ to $\mathbf{B}G_{diff}$, we need to extend $\exp(\mu)$ from a map on just $\exp(\mathfrak{g})$ to a map on $\exp(\mathfrak{g})_{diff}.
+We want to lift the above construction of [[characteristic class]]es by <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration of Lie algebra cocycles</a> from $\mathbf{B}G$ to $\mathbf{B}G_{diff}$. So we need to extend $\exp(\mu)$ from a map on just $\exp(\mathfrak{g})$ to a map on $\exp(\mathfrak{g})_{diff}.
 
 +-- {: .un_lemma}
 ###### Observation
 
-Such an extention is given by an [[invariant polynomial]] $\langle - \rangle$ in transgression with $\mu$ and a [[Chern-Simons form|Chern-Simons element]] $cs$ exhibiting that transgression in that
+Such an extention is given by an [[invariant polynomial]] $\langle - \rangle \in W(\mathfrak{g})$ in transgression with $\mu \in CE(\mathfrak{g})$ and a [[Chern-Simons element]] $cs \in W(\mathfrak{g})$ exhibiting that transgression in that
 
 $$
   \array{
