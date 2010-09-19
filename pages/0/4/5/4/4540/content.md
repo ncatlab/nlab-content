@@ -13,11 +13,9 @@
 =--
 =--
 
-* **$\infty$-Lie algebra cohomology**
+* **$\infty$-Lie algebra cocycle**
 
-* [[Chevalley-Eilenberg algebra]]
-
-* [[Weil algebra]]
+* [[Chern-Simons element]]
 
 * [[invariant polynomial]]
 
@@ -353,6 +351,7 @@ The general structure of the threory of $\infty$-Lie algebroid cohomology and tr
 [[!redirects Lie ∞-algebra cocoycle]]
 
 [[!redirects ∞-Lie algebra cocycles]]
+[[!redirects infinity-Lie algebra cocycles]]
 [[!redirects L-∞-algebra cocycles]]
 [[!redirects L-∞ algebra cocycles]]
 [[!redirects Lie ∞-algebra cocoycles]]
