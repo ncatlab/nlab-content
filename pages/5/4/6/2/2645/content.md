@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
 =--
 =--
 
@@ -43,15 +47,27 @@ There is a [[noncommutative geometry|noncommutative]] analogue discussed in ([Al
 
 > (following notes provided by [[Jim Stasheff]])
 
-In his exposition of 1936, [[Elie Cartan]]  lists some of the general properties of Lie groups known at that time.  In particular, he lists the [[Poincare polynomial]]s for classical simple compact [[Lie group]]s and, supposing similar results will hold for the exceptional groups, points out that these polynomials are the same as those of products of odd dimensional spheres and even the homology groups are isomorphic as intersection pairing algebras.
+The beginnings of the [[rational homotopy theory]] of [[Lie group]]s $G$ and hence their [[dg-algebra]]-description in terms of the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ originate in the first half of the 20th century.
+
+In his survey of what was known in 1936 on the homology of compact Lie groups 
+
+* [[Eli Cartan]], _La topologie des espaces repr&#233;sentatifs des groupes de Lie_ Act. Sci. Ind., No. 358, Hermann, Paris, (1936).
+
+  reprinted in _Cartan's Complete Works_ vol $I_2$ pp. 1307-1330
+
+E. Cartan conjectured that there should be a general result implying that the [[homology]] of the [[classical Lie group]]s is the same as the homology of a product of odd-dimensional [[sphere]]s. In particular, he lists the [[Poincare polynomial]]s for classical simple compact Lie groups.
 
 In
 
 * [[Heinz Hopf]],  _&#220;ber die Topologie der Gruppen-Mannigfaltigkeiten und ihre Verallgemeinerungen_  (German)  Ann. of Math. (2)  42,  (1941). 22--52.
 
-Hopf showed that such a characterization in terms of homology groups  as intersection pairing algebras holds for any compact finite dimensional connected orientable manifold with a map $m:M\times M\to M$ such that left and right translation have non-zero degrees.
+Hopf showed that such a characterization in terms of homology groups as [[intersection pairing]] algebras holds for any [[compact space|compact]] [[dimension|finite dimensional]] [[connected]] [[orientable]] [[manifold]] with a map $m:M\times M\to M$ such that left and right translation have non-zero degrees.
 
-Later, with the development of [[cohomology]], especially [[de Rham cohomology]], this was stated as $H^\bullet (G)$ being isomorphic to  an [[exterior algebra]] on odd dimensional generators (Chern).
+Later in
+
+* [[Shiing-shen Chern]], _Differential geometry of fiber bundles_ Proceedings of the International Congress of Mathematicians, Cambridge, Mass., 1950, vol. 2, pages 397-411,  Amer. Math. Soc., Providence, R. I. (1952)
+
+with the development of [[cohomology]], especially [[de Rham cohomology]], this was stated as $H^\bullet(G)$ being [[isomorphic]] to  an [[exterior algebra]] on odd dimensional generators: the generating [[Lie algebra cohomology]] [[cocycle]]s $\mu \in CE(\mathfrak{g})$, $d_{CE(\mathfrak{g})} \mu = 0$.
 
 Henri Cartan in
 
@@ -60,35 +76,50 @@ Henri Cartan in
 
   section 7, titled _Classes caracteristiques (reelles) d'un espace fibre principal_
 
-at the end (1951) of an era of deRham cohomology dominence (prior to Serre's thesis) abstracted the differential geometric approach of Chern-Weil and the Weil algebra to the [[dg-algebra]] context with his notion of _$\mathfrak{g}$-algebras $W$_ . This involves what is known sometimes as the [[Cartan calculus]].  In addition to the differential $d$ of differential forms on a principal bundle, Cartan abstracts the inner product aka contraction of differential forms with [[vector field]]s and the [[Lie derivative]] with respect to vector fields.  that is, he posits 3 operators on a dgca:
+at the end (1951) of an era of deRham cohomology dominence (prior to Serre's thesis) abstracted the [[differential geometry|differential geometric]] approach of Chern-Weil and the [[Weil algebra]] $W(\mathfrak{g})$ to the [[dg-algebra]] context with his notion of _$\mathfrak{g}$-algebras $A$_ . This involves what is known sometimes as the [[Cartan calculus]].  In addition to the differential $d$ of [[differential form]]s on a [[principal bundle]], Cartan abstracts the inner product aka contraction of differential forms with [[vector field]]s $X$ and the [[Lie derivative]] $\mathcal{L}_X$ with respect to vector fields.  that is, he posits 3 operators on a differential-graded-commutative alggebra (dgca):
 
-$d$ of degree 1, $i_X$ of degree -1 and $L_X$ of degree 0 for X in $\mathfrak{g}$
-subject to the relations:
+$d$ of degree 1, $i_X$ of degree -1 and $L_X$ of degree 0 for X in $\mathfrak{g}$ subject to the relations:
 
-$$[i_X,i_Y] = i_{[X,Y]}$$
+* $[\iota_X,\iota_Y] = \iota_{[X,Y]}$
 
-$$ [L_X,i_Y]= i_{[X,Y]} $$
+* $ [\mathcal{L}_X,\iota_Y]= \iota_{[X,Y]} $
 
 and perhaps most useful
 
-$$L_X = di_X + i_Xd.$$
+* $\mathcal{L}_X = d \iota_X + i\iota_X d$
 
 This is what he terms a $\mathfrak{g}$-algebra.
 
-For Cartan, an infinitesimal connection are  projectors (at each point $p$ of $E$) $\phi_p:T_p E\to T_p^{vert}.$ equivariant with repect to the $G$-action. 
-This can be abstracted to an element $f$ of $Hom(\mathfrak{g}^*, A)$ of degree 1 such that
+For Cartan, an infinitesimal [[connection on a bundle|connection]] on a [[principal bundle]] $P \to X$ are  projectors (at each point $p$ of $P$) $\phi_p: T_p P\to T_p^{vert}$ equivariant with repect to the $G$-action. 
+This can be abstracted to a morphism
 
-$$i_X f(h) = i_X h$$
+$$
+  \Omega^\bullet(P) \leftarrow \mathfrak{g}^* : A
+$$
 
-and
+of [[graded vector space]]s of degree 1 -- equivalently a [[Lie-algebra valued 1-form]] $A \in \Omega^1(P,\mathfrak{g})$ -- such that the two [[Ehresmann connection|Ehresmann condition]]s hold: 
 
-$$L_X f(h) = f(L_X h)$$
+1. restricted to the fibers the 1-form $A$ is the [[Maurer-Cartan form]]
 
-for all $X\in $ and $h\in .$  this Cartan calls an _algebraic connection_ .
-He then extends such an $f$ to a [[graded algebra]] morphism $\to A$.  In general, this will not be respect the differentials/not bea cochain map. In fact, the deviation gives the [[curvature]] of the connection:
-the curvature tensor is the map $h\mapsto d f(h)-f(d h)$.
+   $\iota_X A(h) = \iota_X h$
 
-> HAVE TO BREAK OFF NOW - WHAT WILL COME NEXT IS the [[Weil algebra]] $W(\mathfrak{g})$ as a Cartan $\mathfrak{g}$-algebra
+1. the form is equivariant in that 
+
+   $\mathcal{L}_X A (h) = A(\mathcal{L}_X h)$
+
+  for all $X\in \mathfrak{g}$ and $h\in \mathfrak{g}^*$.  This data Cartan calls an _algebraic connection_ .
+
+He then extends such an $A$ to a [[homomorphism]] of [[graded algebra]]s 
+
+$$
+  \Omega^\bullet(P) \leftarrow CE(\mathfrak{g}) : A
+$$
+
+from the [[Chevalley-Eilenberg algebra]] $\wedge^\bullet \mathfrak{g}^*$.
+
+In general, this will not respect the differentials, hence not be a morphism of [[dg-algebra]]s. In fact, the deviation gives the [[curvature]] of the connection: the curvature tensor is the map $h\mapsto d_{dR} A(h)-A(d_{CE} h)$.
+
+> Jim: HAVE TO BREAK OFF NOW - WHAT WILL COME NEXT IS the [[Weil algebra]] $W(\mathfrak{g})$ as a Cartan $\mathfrak{g}$-algebra
 
 
 ## Further References
