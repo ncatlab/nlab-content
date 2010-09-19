@@ -68,7 +68,9 @@ In the literature on [[Lie algebroid]]s, however, $CE(\mathfrak{a})$ often goes 
 
 Accordingly, there is a bit of room for different approaches of how to define the [[(∞,1)-category]] of [[∞-Lie algebroid]]s. A very general abstract [[nPOV]] perspective proceeds via the notion of [[function algebras on ∞-stacks]]:
 
-here the [[(∞,1)-topos]] $\mathbf{H}$ of the given notion of [[∞-Lie groupoid]]s is taken to be equipped with a specific line-object $R$, and the [[(∞,1)-category]] $\mathbf{L}$ of [[∞-Lie algebroid]]s is the [[reflective (∞,1)-subcategory]] that [[localization of an (∞,1)-category|localize]] $\mathbf{H}$ at those morphism that induce [[isomorphism]]s in the $R$-[[cohomology]] internal to $\mathbf{H}$
+for $T$ an abelian [[Lawvere theory]] (such as that of ordinary commutative and [[associative algebra]]s over a field or that of [[smooth algebra]]s) and for $C \hookrightarrow T Alg^{op}$ a small full subcategory of the spaces formally dual to these algebra, there is an [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}{C}$ of [[∞-Lie groupoid]] modeled on the geometry of $T$-algebras and this is equipped with the canonical $T$-[[line object]] $\mathbb{A}$. 
+
+The [[(∞,1)-category]] $\mathbf{L}$ of [[∞-Lie algebroid]]s is the [[reflective (∞,1)-subcategory]] that [[localization of an (∞,1)-category|localize]] $\mathbf{H}$ at those morphism that induce [[isomorphism]]s in the $\mathbb{A}$-[[cohomology]] internal to $\mathbf{H}$
 
 $$
   \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow}
@@ -76,7 +78,7 @@ $$
   \,.
 $$
 
-In the case that $\mathbf{H} = Sh_{(\infty,1)}(C)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on a [[site]] $C$ like the [[opposite category]] $Alg_{\mathbb{R}}^{op}$ of commutative (and suitably "small") [[algebra]]s, or the site $C = \mathbb{L}$ of [[smooth loci]], the opposite $C^\infty Alg^{op}$ of (suitably small) [[smooth algebra]], the line object may be taken to be the [[real number|real line]] in the corresponding in ternal incarnation, and one finds then that 
+In the case that $\mathbf{H} = Sh_{(\infty,1)}(C)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on a [[site]] $C$ like the [[opposite category]] $Alg_{\mathbb{R}}^{op}$ of commutative (and suitably "small") [[algebra]]s, or the site $C = \mathbb{L}$ of [[smooth loci]], the opposite $C^\infty Alg^{op}$ of (suitably small) [[smooth algebra]], the line object is the [[real number|real line]] in the corresponding in ternal incarnation, and one finds then that 
 
 $$
   \mathbf{L} \simeq ([\Delta, C^\infty Alg]^op)^\circ
@@ -86,7 +88,7 @@ is the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by the th
 
 At least for the underlying plain algebras this is equivalent, by the [[monoidal Dold-Kan correspondence]], to the $(\infty,1)$-category presented by the opposite of the standard [[model structure on dg-algebras]] $(dgAlg^{op})^\circ$, for graded commutative cochain dg-algebras in non-negative degree. This is of course the category in which much of classical [[rational homotopy theory]] takes place, and indeed it has been noticed that much of classical rational homotopy theory may be understood as being about $\infty$-Lie theory. Notably the [[Sullivan construction]] of a [[topological space]] from a [[dg-algebra]] may be thought of as essentially being the [[Lie integration]] of the $\infty$-Lie algebroid corresponding to the dg-algebra to an [[∞-groupoid]]. This can straightforwardly be refined to an integration to an [[∞-Lie groupoid]].
 
-
+See also [[∞-Lie algebroid cohomology]].
 
 ## Special Cases
 
