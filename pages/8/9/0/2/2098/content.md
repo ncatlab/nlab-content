@@ -1,17 +1,28 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 
-# Idea #
-
-
+## Idea 
 
 A _[[Michael Batanin|Batanin]] $\omega$-category_ is a [[weak ∞-category]] defined as an [[algebra over an operad|algebra]] over a suitable contractible [[globular operad]]. So this is an [[algebraic definition of higher category]].
 
-The definition is similar to that of [[Trimble n-category]] (which is actually a special case of a Batanin $\omega$-category). 
+The definition is similar to that of [[Trimble n-category]] (which is actually a special case of a Batanin $\omega$-category) and similar to the definition of [[Grothendieck-Maltsiniotis infinity-category]].
 
-# References #
+
+
+## References 
 
 
 * [[Michael Batanin]], _Monoidal globular categories as a natural environment for the theory of weak $n$-categories_ , Advances in Mathematics 136 (1998), no. 1, 39&#8211;103.  
@@ -21,7 +32,7 @@ Mathematial Society, Providence, Rhode Island, 1998, pp. 99--116.   ([pdf](http:
 
 Work towards establishing the [[homotopy hypothesis]] for Batanin $\omega$-groupoids can be found here:
 
-* Clemens Berger, _A cellular nerve for higher categories_, ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E3E3E850D4CE24A052F37FD04705FFD5?doi=10.1.1.32.6556&amp;rep=rep1&amp;type=pdf)) **BAD LINK**
+* Clemens Berger, _A cellular nerve for higher categories_, ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E3E3E850D4CE24A052F37FD04705FFD5?doi=10.1.1.32.6556&rep=rep1&type=pdf)) **BAD LINK**
 
 * Denis-Charles Cisinski, _Batanin higher groupoids and
 homotopy types_, ([pdf](http://arxiv.org/abs/math.AT/0604442))
