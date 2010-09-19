@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
 =--
 =--
 
