@@ -47,7 +47,7 @@ The important notion of functor between accessible categories is an **[[accessib
 
 * A [[small category]] is accessible precisely when it is [[idempotent complete category|idempotent complete]].  Makkai--Par&#233; say that this means accessibility is an "almost pure smallness condition."
 
-* A functor out of an accessible category that is $\kappa$-continuous for some [[regular cardinal]] $\kappa$ is an [[accessible functor]].
+* A functor out of an accessible category that preserves $\kappa$-[[filztered colimit]]s for some [[regular cardinal]] $\kappa$ is an [[accessible functor]].
 
 ## Properties {#Properties}
 
