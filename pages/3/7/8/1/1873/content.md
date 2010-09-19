@@ -132,3 +132,5 @@ See also
 
 [[!redirects Lie algebra valued 1-forms]]
 [[!redirects Lie algebra valued 1-form]]
+
+[[!redirects Lie-algebra valued differential forms]]
