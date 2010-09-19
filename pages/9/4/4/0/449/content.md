@@ -49,6 +49,8 @@ Typically an algebraic model for higher categories admits a [[nerve]] operation 
 
 * The [[Todd Trimble|Trimble]]/[[Peter May|May]] approach to higher categories involves algebraic structure imposed in stages by a process of iterative enrichment. See also [[Trimble n-category]].  
 
+* These models turn out to be closely related to an original idea by [[Alexandre Grothedieck]] that was resurrected and formalized by [[Georges Maltsiniotis]]: [[Grothendieck-Maltsiniotis ∞-categories]]
+
 * Using the tool of [[model structure on algebraic fibrant objects]] many geometric models for higher categories may be realized equivalently as algebraic models. This is notably true for [[∞-groupoid]]s and [[(∞,1)-categories]]. See [Algebraic  fibrant models for higher categories](http://ncatlab.org/nlab/show/model+structure+on+algebraic+fibrant+objects#AlgebaicHigherCategories).
 
 ## Properties
