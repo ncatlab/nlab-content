@@ -2304,7 +2304,7 @@ This follows by observing that the composition of [[∞-anafunctor]]s as spelled
 
 These authors prove that this is indeed the claimed class by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection. 
 
-#### Curvature characteristics and Chern-Simons forms
+#### Curvature characteristics and Chern-Simons forms {#CurvCharAndCS}
 
 For $G$ a Lie group, we have described [above](#ConnectionOnPrincipalBundle) connections on $G$-principal bundles in terms of cocycles with coefficients in the Lie-[[groupoid of Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
 
@@ -2421,7 +2421,8 @@ $$
 
 and defining $\exp(\mu)_{diff} : \exp(\mathfrak{g})_{diff} \to \exp(b^{n-1}\mathbb{R})_{diff}$ to be the operation of forming [[pasting]] composites with this.
 
-Here $W(b^{n-1}\mathbb{R})$ is the Weil algebra of the [[infinity-Lie algebra|Lie n-algebra]] $b^{n-1} \mathbb{R}$. This is the dg-algebra on two generators $c$ and $k$, respectively, in degree $n$ and $(n+1)$ with the differential given by $d_{W(b^{n-1} \mathbb{R})} : c \mapsto k$.
+Here $W(b^{n-1}\mathbb{R})$ is the Weil algebra of the 
+[[infinity-Lie-algebra|Lie n-algebra]] $b^{n-1} \mathbb{R}$. This is the dg-algebra on two generators $c$ and $k$, respectively, in degree $n$ and $(n+1)$ with the differential given by $d_{W(b^{n-1} \mathbb{R})} : c \mapsto k$.
 
 The commutativity of this diagram says that the bottom morphism takes the degree $n$-generator $c$ to an element $cs \in W(\mathfrak{g})$ whose restriction to the unshifted generators is the given cocycle $\mu$. 
 
@@ -2600,10 +2601,9 @@ $$
 
 
 
-#### $\infty$-Connections from Lie integration
+#### $\infty$-Connections from Lie integration {#LieIntConn}
 
-We have now the ingredients in hand to extend the morphism $\exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1} \mathbb{R})$ to a morphism
-
+We derive now a notion of [[connections on ∞-bundles]] by extending the morphisms $\exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1} \mathbb{R})$ from [above](#LieIntOfCocycles) that gives rise to characteristic cocycles to a morphism
 
 $$
   \exp(\mu)_{diff}
@@ -2613,7 +2613,7 @@ $$
   \exp(\mathfrak{b}^n \mathbb{R})_{diff}
 $$
 
-by forming [[pasting]] composites
+on the differential [[resolution]]s by forming [[pasting]] composites of the diagrams that define $\exp(\mathfrak{g})_{diff}$, involving a $\mathfrak{g}$-valued form $A$ and its vertical restriction $A_{vert}$ and the diagram that exhibits the cocycle $\mu$, its [[Chern-Simons element]] $cs$ and [[invariant polynomial]] $\langle -\rangle$ as [above](#CurvCharAndCS). The result are compound diagrams of the form
 
 $$
     \array{
@@ -2639,7 +2639,9 @@ $$
   \,.
 $$
 
-We see that in the middle row the cocycle for circle n-bundles with local connection $(2k-1)$-form the [[Chern-Simons form]] of $A$ $CS_\mu(A)$ corresponding to $\mu$ appear. If this is to be a genuine [[connection on an infinity-bundle]] instead of more generally a [[pseudo-connection]], then (by the above discussion) we need to demand that we can fill this diagram in the bottom left as follows
+We see appear in the middle row the with local connection $(2k-1)$-form of a [[circle n-bundle with connection]], which is the [[Chern-Simons form]] $CS(A)$ of $A$ with respect to the [[Chern-Simons element]] $\mu$.
+For this to constitute genuine [[connection on an ∞-bundle]] instead of more generally a [[pseudo-connection]], we need (by the above discussion) to demand that we can fill this diagram in the bottom left with the algebra of forms on the base $U$ like this:
+
 
 $$
     \array{
@@ -2667,7 +2669,10 @@ $$
   \,.
 $$
 
-The simplicial subpresheaf for which these completions exist we call the 
++-- {: .un_def}
+###### Definition
+
+Write 
 
 $$
   \exp(\mathfrak{g})_{conn}
@@ -2681,14 +2686,14 @@ $$
       CE(\mathfrak{g})
       &&& gauge\;transformation
      \\
-      \uparrow && \uparrow
+      \uparrow && \uparrow &&&& first\;Ehresmann\;condition
       \\
       \Omega^\bullet(U \times \Delta^k)
       &\stackrel{A}{\leftarrow}&
       W(\mathfrak{g})
       &&& connection
       \\
-      \uparrow && \uparrow 
+      \uparrow && \uparrow &&&& \;second\;Ehresmann\;condition 
       \\
       \Omega^\bullet(U)
       &\stackrel{\langle F_A \rangle}{\leftarrow}& 
@@ -2699,9 +2704,119 @@ $$
   \right\}
 $$
 
+for the simplicial sub-presheaf of $\exp(\mathfrak{g})_{diff}$ on those elements for which all the [[curvature characteristic form]]s
+
+$$
+  \Omega^\bullet(U \times \Delta^k)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{\langle -\rangle_\mu}{\leftarrow}
+  CE(b^n \mathbb{R})
+  : 
+  \langle F_A \rangle
+$$ 
+
+descent along the trivial bundle $U \times\Delta^k \to U$.
+
+This sits in an evident chain of morphisms
+
+$$
+  \exp(\mathfrak{g})_{conn}
+  \hookrightarrow
+  \exp(\mathfrak{g})_{diff}
+  \stackrel{\simeq}{\to}
+  \exp(\mathfrak{g})
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+We unwind what this amounts to explicitly in terms of components. The elements of the simplicial presheaf $\exp(\mathfrak{g})_{conn}$ are sets of differential forms satisfying conditions, as follows:
+
+a $k$-cell in $\exp(\mathfrak{g})_{diff}$ parameterized by $U \in CartSp$ is
+
+* a $\mathfrak{g}$-[[∞-Lie algebra valued differential form|valued differential form]] $A$ on $U \times \Delta^k$, which we may think of as the connection form on the total space of a bundle as in the definition of [[Ehresmann connection]];
+
+* such that 
+
+  1. its restriction to the fiber $\Delta^k$ of $U \times \Delta^k \to U$ is flat, and indeed equal to the canonical $\mathfrak{g}$-valued form there as encoded by the cocycle $A_{vert}$ (which, recall, is the datum in the bare $\exp(\mathfrak{g})$ that determines the $G$-bundle itself);
+
+      this we may think of as the **[[Ehresmann connection|first Ehresmann condition]]** on a connection;
+
+  1. all its [[curvature characteristic form]]s $\langle F_A \rangle$ descend to the base space $U$ of $U \times \Delta^k \to U$
+
+     this we may think of as a slightly weakened version of the **[[Ehresmann connection|second Ehresmann condition]]** on a connection: 
+
+     this second condition is usually stated as demanding that the [[curvature]] $F_A$ is equivariant, but for [[Chern-Weil theory]] the crucial consequence of this demand is that it _implies_ that all the curvature characteristic forms descend. We shall see in the full [[∞-Chern-Weil theory]] that on the one hand the demand for the curvature characteristics to descend is what matters for the general abstract formalism, while on the other hand at least over manifolds we are guaranteed that $\infty$-connections exists that satisfy also the stronger condition.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+Let $X $ be a [[smooth manifold]] and $\{U_i \to X\}$ an [[open cover]], $C(U)$ its [[Cech nerve]] and consider [[∞-anafunctor]]s from $X$ to $\exp(\mathfrak{g})_{conn}$
+
+$$
+  \array{
+    C(U) &\stackrel{(\hat g, \hat \nabla)}{\to}& \exp(\mathfrak{g})_{conn}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\  
+    X
+  }
+  \,.
+$$
+
+This is, in low degree, explicitly the following data:
+
+* on each patch $U_i$ a $\mathfrak{g}$-valued form datum $\Omega^\bullet(U_i) \leftarrow W(\mathfrak{g}) : A_i$;
+
+* on each double intersection $U_i \cap U_j$ 
+
+  * a path of gauge transformations $\Omega^\bullet(U_i \cap U_j \times \Delta^1)_{vert} \leftarrow CE(\mathfrak{g}) : \lambda$, where the value of $\lambda$ at a point is the infinitesimal gauge transformation;
+
+  * a path of $\mathfrak{g}$-valued forms $\Omega^\bullet(U_i \cap U_j \times \Delta^1)_{vert} \leftarrow CE(\mathfrak{g}) : A_{i j}$ lifting that
+
+  * such that the vetical curvature component vanishes;
+
+  * and such that the mixed curvature component vanishes. 
+
+    This is equivalent to the [[differential equation]]
+
+    $$
+      \frac{\partial}{\partial t} A_{i j}
+      =
+      d_U \lambda + [\lambda, A]
+    $$
+
+    for the initial value $A_{i j}(0) = A_i$ this has the unique solution
+
+    $$
+      A_{i j}(t) = g_{ij}(t)^{-1} (A_{i j} + d_{U}) g_{i j}(t)
+      \,,
+    $$
+
+    where $g_{i j}(t)$ is the [[parallel transport]] of $\lambda$.
+
+    In particular this implies that the endpoints of the path of $\mathfrak{g}$-valued 1-forms are related by the usual cocycle condition in $\mathbf{B}G_{conn}$
+
+    $$
+      A_{i j}(1) = A_j = g_{i j}^{-1}(1) (A_i + d_U) g_{i j}(1)
+      \,.
+    $$
+
+* etc. 
+
+=--
+
+So a cocycle with values in $\exp(\mathfrak{g})_{conn}$ is (in low degrees, i.e. up to the truncation that we finally come to in a moment) a lift of an ordinary cocycle with values in $\mathbf{B}G_{diff}$, where every transition function is resolved to a _path_ of gauge transformations and so on. Such lifts are not unfamilia, they appeart notably in ([BrylinskiMacLaughlin](#BrylinskiMaxLaughlin)) in an algorithm for constructing [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne cocycles]] refining the ordinary [[Chern-Weil homomorphism]]. We shall demonstrate now how this algorithm is essentially nothing but the $\infty$-anafunctor-composition of the cocycle $(\hat g, \hat \nabla)$ with the extended characteristic map $\exp(\mu)_{diff}$.
 
 
-To come back to truncation: suppose $\mathfrak{g}$ is such that $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \stackrel{\simeq}{\to} \simeq \mathbf{B}G$ for the desired $G$. Then the periods of $\mu$ over $(n+1)$-balls cut out a lattice $\Gamma \subset \mathbb{R}$ and thus we get an [[infinity-anafunctor]]
+
+For that purpose, suppose $\mathfrak{g}$ is such that the $(n+1)$-[[coskeleton]] $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \stackrel{\simeq}{\to} \simeq \mathbf{B}G$ for the desired $G$. Then the periods of $\mu$ over $(n+1)$-balls cut out a lattice $\Gamma \subset \mathbb{R}$ and thus we get an [[infinity-anafunctor]]
 
 $$
   \array{
@@ -2936,28 +3051,44 @@ $$
   \,.
 $$
 
-A [[cocycle]] $\mu$ in the [[∞-Lie algebra cohomology]] of $\mathfrak{g}$ coming by transgression from an [[invariant polynomial]] $\langle - \rangle_\mu$ mediated by a Chern-Simons element $cs_\mu$ is exhibited by a diagram
+
+A triple consisting of
+
+* an [[∞-Lie algebra cocycle]] $\mu$ of $\mathfrak{g}$ 
+
+* in transgression with an [[invariant polynomial]] $\langle - \rangle$
+
+* mediated by a [[Chern-Simons element]] $cs_\mu$ 
+
+is exhibited by a commuting diagram
 
 $$
   \array{
      CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}&
      CE(b^{k} \mathbb{R})
+     &&&
+     cocycle
      \\
      \uparrow && \uparrow
      \\
      W(\mathfrak{g}) &\stackrel{cs_\mu}{\leftarrow}&
      W(b^k \mathbb{R})
+     &&&
+     Chern-Simons\;element
      \\
      \uparrow && \uparrow
      \\
      inv(\mathfrak{g})
      &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
      inv(b^k \mathbb{R}) & = CE(b^{k+1} \mathbb{R})
+     &&&
+     invariant\;polynomial
   }
-  \,.
 $$
 
-A connection with values in $\mathfrak{g}$ is encoded by [[simplicial presheaves]] of [[∞-Lie algebra valued differential forms]] that assign sets of diagrams of the form
+in [[dgAlg]].
+
+A [[connection on an ∞-bundle|connection with values in]] $\mathfrak{g}$ is encoded by [[simplicial presheaves]] of [[∞-Lie algebra valued differential forms]] that assign sets of diagrams of the form
 
 $$
   \array{
@@ -2986,7 +3117,7 @@ $$
   \,.
 $$
 
-The $\infty$-Chern-Weil homomorphism is at this level of local data the operation that takes the $\mathfrak{g}$-connection to a $b^k \mathbb{R}$-connection by forming the [[pasting]] composite of these two diagrams
+The $\infty$-Chern-Weil homomorphism is at this level of local data (before coonsidering truncations and quotients) the operation that takes the $\mathfrak{g}$-connection to a $b^k \mathbb{R}$-connection by forming the [[pasting]] composite of these two diagrams
 
 $$
   \array{
