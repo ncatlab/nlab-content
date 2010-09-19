@@ -1,8 +1,20 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
 
 The notion of _Fivebrane structure_ is the next higher analog of that of [[spin structure]] and [[string structure]].
 
@@ -51,7 +63,7 @@ Thee term "Fivebrane" apparently quickly caught on in the mathematical community
 
 Since [[gauge theory]] is not just about [[principal bundle]]s, but about principal [[connection on a bundle|bundles with connection]], what matters in physics is not just the topological Spin-, String- and Fivebrane Structures, but their refinement to [[schreiber:differential nonabelian cohomology]]. The full picture of such differential Fivebrane structures in heterotic String theory is described at [[schreiber:twisted differential String- and Fivebrane structures|twisted differential String- and Fivebrane structures]].
 
-#further references#
+## Further references
 
 * blog entry: [Dual formulation of String theory and Fivebrane structures](http://golem.ph.utexas.edu/category/2008/04/dual_formulation_of_string_the.html)
 
