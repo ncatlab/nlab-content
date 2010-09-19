@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
 # Simple Lie groups
 * table of contents
 {: toc}
@@ -14,6 +24,8 @@ This is *not* the same thing as a [[simple object]] in [[LieGrp]] (or even in $C
 
 
 ## Classification
+
+The classification of simple Lie groups consists of four infinite series -- the [[classical Lie group]]s -- and five separate cases -- the [[exceptional Lie group]]s.
 
 See Wikipedia\'s [list of simple Lie groups](http://en.wikipedia.org/wiki/List_of_simple_Lie_groups).
 
