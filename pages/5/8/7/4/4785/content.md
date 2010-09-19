@@ -9,7 +9,7 @@
 =--
 =--
 
-The classification of [[simple Lie group]]s consists contains four infinite series of "classical" Lie groups:
+The classification of [[simple Lie group]]s contains four infinite series of "classical" Lie groups:
 
 
 * $A_n = SU(n+1)$, the [[special unitary group]] 
