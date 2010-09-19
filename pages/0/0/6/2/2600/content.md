@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 > [[Urs Schreiber]]: this is not in the literature
 
@@ -11,23 +17,39 @@
 
 ## Idea
 
-The smooth $Fivebrane(n)$ 6-group is to the [[string 2-group]] as the [[topological group|topological]] [[fivebrane group]] is to the [[topological group|topological]] [[string group]].
 
-The motivation and background described at [[string 2-group]] applies to the fivebrane 6-group with [[string structure]] everywhere replaced by [[fivebrane structure]].
+The **fivebrane 6-group** $Fivebrane(n)$ is a smooth version of the [[topological space]] that appears in the second step of the [[Whitehead tower]] of the [[orthogonal group]].
+
+It is a lift of this through the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">geometric realization</a> functor $\Pi : $ [[?LieGrpd]] $\to$ [[∞Grpd]].
+
+One step below the fivebrane 6-group in the Whitehead tower is the [[string Lie 2-group]].
+
+For the time being see the discussions at
+
+<a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothWhitehead">smooth Whitehead tower</a>
+
+and the Motivation section at
+
+[[infinity-Chern-Weil theory]]
+
+for more background.
 
 ## Definition
 
-In a [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]] $\mathbf{H}$ with $\mathbf{B}String(n)$ denoting the [[delooping]] of the [[string 2-group]], there is canonically (up to equivalence) a morphism
+In the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] we have a smooh refinement of the second fractional [[Pontryagin class]]
 
 $$
   \frac{1}{6}
-  p_2
+  \mathbf{p}_2
+  :
   \mathbf{B} String(n) 
   \to 
-  \mathbf{B}^7 R/Z
+  \mathbf{B}^7 \mathbb{R}/\mathbb{Z}
 $$
 
-being a smooth incarnation of the second fractional [[Pontryagin class]]. The [[delooping]] $\mathbf{B}Fivebrane(n)$ of the fivebrane 6-group is the [[homotopy fiber]] 
+defined on the [[delooping]] of the [[string Lie 2-group]].
+
+The [[delooping]] $\mathbf{B}Fivebrane(n)$ of the **fivebrane 6-group** is the [[principal ∞-bundle]] classified by this in $\mathbf{H}$, that is the [[homotopy fiber]] 
 
 $$
   \array{
@@ -35,26 +57,28 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{B}String(n) &\stackrel{\frac{1}{6}p_2}{\to}& \mathbf{B}^7 R/Z
+    \mathbf{B}String(n) &\stackrel{\frac{1}{6}\mathbf{p}_2}{\to}& \mathbf{B}^7 \mathbb{R}/\mathbb{Z}
   }
+  \,.
 $$
 
-of $\frac{1}{2}p_2$ in $\mathbf{H}$.
 
-Along the lines of the description at [[string 2-group]], in a canonical [[models for infinity-stack (infinity,1)-toposes|model]] for $\mathbf{H}$ the morphism $\frac{1}{6}p_2$ is given by a morphism out of a resolution $\mathbf{B}Q$ of $\mathbf{B}String(n)$ that is built in degree $k \leq 7$ from smooth $k$-simplices in the [[Lie group]] $Spin(n)$. This morphism assigns to a 7-simplex $\phi : \Delta^7_{Diff} \to Spin(n)$  the integral 
+## Construction
+
+Along the lines of the description at [[Lie integration]] and [[string 2-group]], in a canonical [[models for infinity-stack (infinity,1)-toposes|model]] for $\mathbf{H}$ the morphism $\frac{1}{6}\mathbf{p]_2$ is given by a morphism out of a [[resolution]] $\mathbf{B}Q$ of $\mathbf{B}String(n)$ that is built in degree $k \leq 7$ from smooth $k$-[[simplices]] in the [[Lie group]] $Spin(n)$. This morphism assigns to a 7-simplex $\phi : \Delta^7_{Diff} \to Spin(n)$  the integral 
 
 $$
   \int_{\Delta^7_{Diff}} \phi^* \mu_7 \;\;\in
-  R/Z
+  \mathbb{R}/\mathbb{Z}
 $$
 
-of the degree 7 [[Lie algebra cohomology|Lie algebra cocycle]] $\mu_7$ of $\mathfrak{so}(n)$ which is normalized such that its pullback to $String(n)$ (..explain...) is the deRham image of the generator in [[integral cohomology]] there.
+of the degree 7 [[Lie algebra cohomology|Lie algebra cocycle]] $\mu_7$ of the [[special orthogonal Lie algebra]] $\mathfrak{so}(n)$ which is normalized such that its pullback to $String(n)$ (..explain...) is the deRham image of the generator in [[integral cohomology]] there.
 
 
 More in detail, a resolution of $\mathbf{B}String(n)$ is given by the [[coskeleton]]
 
 $$
-  cosk
+  \mathbf{cosk}_7
   \left(
   \array{
     Q_7 \subset hom(\Delta^7_{Diff}, G) \times (U(1))^{8 \cdot 7 \cdot 6 \cdot 5 \cdot 4}
@@ -93,5 +117,6 @@ where the subobjects are those consisting of 3-simplices in $G$ with 2-faces lab
 
 
 
+(...)
 
 [[!redirects Fivebrane 6-group]]
