@@ -18,7 +18,7 @@ While the norm in a Banach algebra is normally only submultiplicative (${\|x y\|
 
 The [[generalized the|only]] normed division algebra over the [[complex numbers]] is the algebra of complex numbers themselves.  Up to [[isomorphism]], there are exactly four finite-dimensional normed division algebras over the [[real numbers]]:
 
-*  $\mathbb{R}$, the algebra of real numbers themselves,
+*  $\mathbb{R}$, the algebra of [[real numbers]],
 *  $\mathbb{C}$, the algebra of [[complex numbers]],
 *  $\mathbb{H}$, the algebra of [[quaternion]]s,
 *  $\mathbb{O}$, the algebra of [[octonion]]s.
@@ -36,6 +36,12 @@ However, these algebras do all have some useful algebraic properties; in particu
 
 A __normed field__ is a commutative normed division algebra; it follows from the preceding that the only normed fields are $\mathbb{R}$ and $\mathbb{C}$.
 
+
+## Applications
+
+### To supersymmetry
+
+see [[division algebra and supersymmetry]]
 
 ## References
 
