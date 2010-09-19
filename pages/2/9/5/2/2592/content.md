@@ -1,8 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
+ $\cdots\to$ [[fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ **orthogonal group**
+
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -11,25 +20,11 @@
 
 ## Definition
 
-For $n \in \mathbb{N}$ the **orthogonal group** is the group of [[isometry|isometries]] of a real $n$-dimensional [[Hilbert space]].
+For $n \in \mathbb{N}$ the **orthogonal group** is the group of [[isometry|isometries]] of a real $n$-dimensional [[Hilbert space]]. This is naturally a [[Lie group]]
 
-This is canonically isomorphic to the group of $n \times n$ orthogonal matrices.
+This is canonically isomorphic to the group of $n \times n$ orthogonal [[matrices]].
 
 The analog for complex Hilbert spaces is the [[unitary group]].
-
-### In a lined topos
-
-+-- {: .query}
-
-Not just to make this entry interesting for the $n$Lab, but also because I might actually need this for an application, I'd like to give a discussion of the orthogonal group and of the [[general linear group]] inside an arbitrary [[lined topos]]. What can one say?
-
-=--
-
-
-Let $(\mathcal{T}, R)$ be a [[lined topos]].
-
-Then for $n \in \mathbb{N}$ the _orthogonal group_ $O(n)$ is the subgroup of the [[automorphism]] group $Aut_{\mathcal{T}}(R^n)$ of the $n$-fold [[product]] $R^n$ of the line $R$ in $\mathcal{T}$.
-
 
 
 ## Whitehead tower and higher orientation structures
