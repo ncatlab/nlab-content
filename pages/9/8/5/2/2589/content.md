@@ -1,9 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+$\cdots \to$ **Fivebrane group** $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
+
+***
+
 #Contents#
 * autoamtic table of contents goes here
 {:toc}
 
-# Definition #
+## Definition 
 
 The **Fivebrane group** $Fivebrane(n)$  is defined to be, as a [[topological group]], the [[Whitehead tower|7-connected cover]] of the [[String group]] $String(n)$, for any $n \in \mathbb{N}$.
 
@@ -14,7 +28,6 @@ $$
   \,.
 $$
 
-**Fivebrane group** to [[string group]] to [[spin group]] to [[special orthogonal group]] to [[orthogonal group]].
 
 The [[homotopy group]]s of $O(n)$ are for $k \in \mathbb{N}$ and for sufficiently large $n$
 
@@ -66,9 +79,20 @@ $$
 $$
 
 
-# Further information... #
+## Further information... 
 
 
 ...should eventually go here. For the time being have a look at [[Fivebrane structure]].
+
+## References
+
+The term _fivebrane group_ and the role of this topological group in [[quantum anomaly]] cancellaton conditions in [[dual heterotic string theory]] was found by [[Hisham Sati]] and appeared in 
+
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Fivebrane structures_ , Reviews in Math. Phys. ([arXiv:0805.0564](http://arxiv.org/abs/0805.0564))
+
+The term shortly after was picked up in
+
+* [[Christopher Douglas]], [[André Henriques]], [[Michael Hill]], _Homological obstructions to string orientations_ ([arXiv:0810.2131](http://arxiv.org/abs/0810.2131))
 
 [[!redirects fivebrane group]]
