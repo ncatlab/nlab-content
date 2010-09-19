@@ -40,8 +40,7 @@ An object in this category is a [[presheaf]]. See there for more details.
 
 * A category of presheaves is a [[topos]].
 
-* A [[reflective subcategory]] of a category of presheaves is a [[locally presentable category]] if it is closed under $\kappa$-directed colimits for some regular cardinal
-$\kappa$.
+* A [[reflective subcategory]] of a category of presheaves is a [[locally presentable category]] if it is closed under $\kappa$-[[directed colimit]]s for some [[regular cardinal]] $\kappa$ (the embedding is an [[accessible functor]]).
 
 * A [[geometric embedding|sub-topos]] of a category of presheaves is a [[Grothendieck topos]]: a [[category of sheaves]].
 
