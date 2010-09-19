@@ -285,6 +285,11 @@ For more general 'weak Lie 2-algebras', see:
 [[!redirects ∞-Lie algebras]]
 [[!redirects ∞-Lie-algebras]]
 
+[[!redirects infinity-Lie algebra]]
+[[!redirects infinity-Lie-algebra]]
+[[!redirects infinity-Lie algebras]]
+[[!redirects infinity-Lie-algebras]]
+
 
 [[!redirects Lie n-algebra]]
 [[!redirects L-n-algebra]]
