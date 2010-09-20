@@ -31,7 +31,9 @@
 
 ## Idea
 
-The _2-groupoid of Lie 2-algebra valued forms_ is the 2-[[truncated]] [[∞-Lie groupoid]] whose $U$-parameterized smooth families of objects are smooth [[differential form]]s with values in a [[Lie 2-algebra]], and whose morphisms are gauge transformations of these.
+For $\mathfrak{g}$ a [[Lie 2-algebra]] the **2-groupoid of $\mathfrak{g}$-valued forms** is the [[2-groupoid]] whose objects are [[differential form]]s with values in $\mathfrak{g}$, whose morphisms are [[gauge transformation]]s between these, and whose 2-morphisms are _higher order gauge transformations_ of those.
+
+This naturally refines to a non-[[concrete sheaf|concrete]] [[Lie 2-groupoid]] is the 2-[[truncated]] [[∞-Lie groupoid]] whose $U$-parameterized smooth families of objects are smooth [[differential form]]s with values in a [[Lie 2-algebra]], and whose morphisms are gauge transformations of these.
 
 This is the [[higher category theory|higher category]] generalization of the [[groupoid of Lie-algebra valued forms]].
 
