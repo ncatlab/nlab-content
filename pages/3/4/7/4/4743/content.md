@@ -25,3 +25,5 @@
 A **1-morphism** is a [[morphism]] in an [[n-category]]. One says 1-morphism for emphasis as a special case of [[k-morphism]].
 
 
+[[!redirects 1-morphism]]
+[[!redirects 1-morphisms]]
