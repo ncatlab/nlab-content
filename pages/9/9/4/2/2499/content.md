@@ -27,6 +27,13 @@
 
 ## Idea
 
+The D'Auria-Fr&#233; formalism for [[supergravity]] identifies the field content with [[∞-Lie algebra valued forms]] with values in the [[supergravity Lie 3-algebra]].
+
+For background see [[∞-Chern-Weil theory introduction]].
+
+***
+
+
 In 1981 D'Auria and Fr&#233; noticed, in [GeSuGra](#References), that the intricacies of various [[supergravity]] [[classical field theory|classical field theories]] have a strikingly powerful reformulation in terms of [[semifree dga|semifree differential graded-commutative algebra]]s. 
 
 Here we describe this formalism in the way it is usually presented, and at the same time discuss the following useful re-interpretation:
@@ -252,263 +259,232 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 
 ### Gauge transformations {#GaugeTransformations}
 
-There is an evident notion of _[[gauge transformation]]s_ : [[isomorphism]]s of [[∞-Lie algebra valued forms]]s. We unwrap this and derive this way the formulation of gauge transformations as used in the [literature](#References) on the  D'Auria-Fr&#233; formalism.
 
-Form the discussion at [[∞-Lie algebra valued forms]] we have that the [[k-morphisms]] in the [[∞-groupoid]] of connections on a trivial [[principal ∞-bundle]] (to which we restrict attention here) on a space $X$ with values in an [[∞-Lie-algebra]] $\mathfrak{g}$ are given by diagrams
-
-$$
-  \array{
-    \Omega^\bullet_{vert}(X \times \Delta^k)
-    &\stackrel{A_{vert}}{\leftarrow}&
-    CE(\mathfrak{g})
-    &&&
-    gauge\;transformation
-    \\
-    \uparrow && \uparrow
-    \\
-    \Omega^\bullet(X \times \Delta^k)
-    &\stackrel{A}{\leftarrow}&
-    W(\mathfrak{g})
-    &&& connection
-    \\
-    \uparrow && \uparrow
-    \\
-    \Omega^\bullet(X)
-    &\stackrel{\langle F_A \rangle}{\leftarrow}&
-    inv(\mathfrak{g})
-    &&&
-    gauge\;invariant\;field\;strength\;observables
-  }
-  \,.
-$$
-
-Here $W(\mathfrak{g})$ is the [[Weil algebra]] and $inv(\mathfrak{g})$ the algebra of [[invariant polynomial]]s of $\mathfrak{g}$, where $F_A$ denotes the [[curvature]] forms and $\langle F_A\rangle$ the collection of [[curvature characteristic form]]s built from them.
-
-A _field configuration_ 
+A [[gauge transformation]] of a field configuration
 
 $$
-  \phi : T X \to inn(\mathfrak{g})
+  \phi : T X \to inn(\mathfrak{g}
 $$
 
-is such aa digram for $k = 0$.
-
-A [[gauge transformation]] between two field configurations
+is a diagram
 
 $$
-  \phi, \phi' : T X \to inn(\mathfrak{g})
+    \array{
+      \Omega^\bullet(X \times \Delta^{1})_{vert}
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{a})
+      &&&
+      gauge\;transformation
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(X \times \Delta^{1})
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{a})
+      &&&
+      field
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(X)
+      &\stackrel{\langle F_A\rangle}{\leftarrow}&
+      inv(\mathfrak{g})
+      &&&
+      gauge\;invariant\;observable
+    }
 $$
 
-is such a diagram for $k = 1$.
++-- {: .un_defn}
+###### Definition
 
-
-We now unwrap what this means explicitly in terms of generators of [[dg-algebra]]s and find the physics literature expression for gauge transformations this way:
-
-Let $V$ be the [[graded vector space]] underlying the [[∞-Lie algebra]] $\mathfrak{g}$, and let $V^*$ its degreewise dual. Recall that the underlying graded-commutative algebra of the [[Weil algebra]] $W(\mathfrak{g)$ is the [[Grassmann algebra]] $\wedge^\bullet V^* \oplus V^*[1]$ on $V^*$ plus its degree-shifted copy. 
-
-* Choose a basis $\{t^a\}$ of $V^*$ of homogeneous degree elements. Write $\{\sigma t^a\}$ for the corresponding basis of $V^*[1]$.  On a homogeneous basis element $t^a \in V^*$ of degree $k$ in the remaining unshifted copy, the form $A$ may be written as
-
-  $$
-    A(t^a) := A^a := \hat \phi^a + \epsilon^a d s
-     \;\;\;\;\in \Omega^\bullet(X \times I)
-    \,,
-  $$
-
-  where
-
-  * $\hat \phi^a$ is a horizontal form on $X \times \Delta^1 \to X$, $s$ is the canonical coordinate on $\Delta^1$ and we have $\hat  \phi^a|_{s = 0} = \phi^a$ and $\hat \phi^a|_{s = 1} = {\phi'}^a$;
-
-The component $\epsilon^a$ is what in the physics literature is called the **gauge parameter**.
-
-The above diagram requires that the [[curvature characteristic form]]s $\langle F_A \rangle$ descend to $X$. This is ensured by requiring the [[curvature]] form $F_A$ 
+Given a 1-morphism in $\exp(\mathfrak{g})(X)$, represented by $\mathfrak{g}$-valued forms
 
 $$
-  F_A
-  =
-  d \hat \phi^a  + d \epsilon^a \wedge d s
-  +
-  \phi(d_{CE(\mathfrak{g})} t^a)
+  \Omega^\bullet(U \times \Delta^1) 
+  \leftarrow
+  W(\mathfrak{g})
+  : 
+  A
 $$
 
-to vanish on $\partial_s$. This is equivalent to the [[differential equation]]
+consider the unique decomposition
 
 $$
-  \frac{\partial}{\partial s} \hat \phi^a =
-  d \epsilon^a + 
-  C^a{}_{\{b_i\} c} \bar\phi^{\{b_i\}} \wedge \epsilon^c
+  A = A_U + ( A_{vert} := \lambda \wedge d t)  \; \; 
   \,,
 $$
 
-where $C^a{}_{b c}$ are the structure constants of $d_{CE(\mathfrak{g})}$ in our chosen basis of $V^*$ 
+with $A_U$ the horizonal differential form component and $t : \Delta^1 = [0,1] \to \mathbb{R}$ the canonical coordinate.
 
-
-This is the familiar **equation for infinitesimal gauge transformations** as it appears in the [references](#references). Or almost:
-
-+-- {: .un_remark}
-###### Remark 
-
-In [[Supergravity and Superstrings - A Geometric Perspective|SugraGeomPersp]] a notion called "Lie derivative on soft group manifolds" is proposed
-(p. 125) and later used essentially for gauge transformations as above. It leads to a formula that looks like the above, but contains an extra
-curvature term.
-
-But the idea of "soft group manifold" itself
-seems to [[Urs Schreiber|me]] not to have a precise
-definition (in fact this entry is based on the 
-claim that what is called "soft group manifold" there
-is trying to capture the idea of [[∞-Lie algebra valued forms]] instead) and 
-to that extent it remains unclear what 
-equation (I.3.135) actually encodes. 
-
-This is in particular a problem when $\mathfrak{g}$ is not just an ordinary [[Lie algebra]] but a general [[∞-Lie algebra]] with higher degree
-generators. This latter
-problem seems to be the issue that section 2.3 of [Castellani 05](http://arxiv.org/abs/hep-th/0508213) wants to formalize and clarify. There, too, the idea "soft group  manifold" is appealed to, though.
-
-Notice that the above formula makes unambiguous and  perfect sense for all [[∞-Lie algebra]] $\mathfrak{g}$.
-
-_However_ in most cases where the proposed formula including that additional curvature term is actually _used_ to do something, it is used for what below we identify as the action of _diffeomorphisms_  on 
-[[∞-Lie algebroid valued differential form]]s. 
+We call $\lambda$ the **gauge parameter** . This is a function on $\Delta^1$ with values in 0-forms on $U$ for $\mathfrak{g}$ an ordinary [[Lie algebra]], plus 1-forms on $U$ for $\mathfrak{g}$ a [[Lie 2-algebra]], plus 2-forms for a Lie 3-algebra, and so forth.
 
 =--
 
-### Diffeomorphism action on field configurations 
-
-The [[diffeomorphism]] group of $X$ (be $X$ a [[manifold]] or a [[supermanifold]]) acts in an obvious way on [[∞-Lie algebra valued forms]] on $X$. For diffeomorphisms that generated by a vector field $v$ this is infinitesimally given by the action of the corresponding [[Lie derivative]] on the given $\infty$-Lie algebra valued forms.
-
-So let $v$ be a vector field on $X$ (here $X$ may be a [[supermanifold]] and $v$ may, accordingly, be an odd vector field). Then $v$ generates a [[diffeomorphism]]
+We describe now how this enccodes a gauge transformation
 
 $$
-  \exp(v) : X \to X
-$$
-
-and this in turn acts on field configurations 
-$\mathbf{\Pi}_{inf} \to inn(\mathfrak{g})$ by precomposition
-
-$$
-  \cdots \mapsto 
-  (\mathbf{\Pi}_{inf}(X) \stackrel{\exp(v)}{\to}
-  \mathbf{\Pi}_{inf}(X) \to inn(\mathfrak{g})) 
+  A_0(s=1) \stackrel{\lambda}{\to} A_U(s = 1)
   \,.
 $$
 
-Since this diffomorphism is connected to the identity, there is in fact a [[homotopy|left homotopy]] from the original differential form datum to the transformed one, as exhibited by the commuting diagram
++-- {: .un_lemma}
+###### Observation
+
+The condition that all [[curvature characteristic form]]s descent to $U$ in that $A$ completes to a diagram
 
 $$
   \array{
-    T X
-     \\
-     \downarrow & \searrow^{\mathrlap{\phi}}
-     \\
-   T (X \times I) &\stackrel{\eta = \exp(v)_s^* \phi}{\to}& inn(\mathfrak{g})
-     \\
-     \uparrow & \nearrow_{\mathrlap{\exp(v)^*  \phi}}
-     \\
-     T (X)
+      \Omega^\bullet(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{a})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)
+      &\stackrel{\langle F_A\rangle}{\leftarrow}&
+      inv(\mathfrak{g})
   }
-  \,.
 $$
 
-This is not necessarily a _gauge transformation_ as [above](#gauge transformations), in that the [[curvature characteristic forms]] are also pulled back along the diffeomorphism and not required to be constant.
-
-If we again write $\bar \phi^a := \eta(t^a)$ for $t^a \in V^*$ a basis element, then we find that $\bar \phi^a$ varies with the canonical coordinate $s$ on the interval according to
+is solved by requiring all components 
 
 $$
-  \frac{\partial}{\partial s} \bar \phi^a
-  = 
-  \frac{\partial}{\partial s} (\exp(v(s))^* \phi)
+  \Omega^\bullet(U \times \Delta^1)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{r^a}{\leftarrow}
+  \wedge^1 \mathfrak{g}^*
+  F_A^a
 $$
 
-which is just the [[Lie derivative]] along $v$. In particular at $s = 0$ the infinitesimal transformation of the field $\phi^a := \phi(t^a)$ for basis element $t^a \in V^*$ is 
+of the [[curvature]] forms to vanish when evaluated on the [[vector field]] $\partial_s$ along $\partial_s$.
+
+By the nature of the [[Weil algebra]] we have
 
 $$
-  L_v \phi^a = [d_{dR}, \iota_v ]\phi^a
-  \,.
-$$
-
-Let specifically $\phi$ be a supergravity field and let $t^a$ be a generator of the (super)-translation piece of the [[super Poincare Lie algebra]], then $\phi^a$ is a component of the (super) _vielbein_  and we write
-
-$$
-  \iota_v \phi^a = \phi^a(v) = \epsilon^a
-$$
-
-for the corresponding component of the vector field that induces the transformation. Then the formula for the Lie derivative above may be written
-
-$$
-  \cdots = \nabla \epsilon^a + \iota_v (F_\phi)
+  \frac{d}{d s} A_U
+  =
+  d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
+  + 
+  (F_A)(\partial_s, \cdots)
   \,,
 $$
 
-where...
+so that this condition is a system of ordinary [[differential equation]]s of the form
 
+$$
+  \frac{d}{d s} A_U
+  =
+  d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
+  \,,
+$$
+
+where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{g}$.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+Define the **[[covariant derivative]] of the gauge parameter** to be
+
+$$
+  \nabla \lambda := d \lambda + [A \wedge \lambda] + [A \wedge A \wedge \lambda] + \cdots
+  \,.
+$$
+
+=--
+
+In this notation we have
+
+* the general identity 
+
+  \[
+    \frac{d}{d s} A_U = \nabla \lambda + (F_A)_s
+    \label{ShiftedGaugeTrafo}
+  \]
+
+* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]**
+
+  \[
+    \frac{d}{d s} A_U = \nabla \lambda
+    \label{GaugeTrafo}
+    \,.
+  \]
+
+This is known as the equation for **infinitesimal [[gauge transformation]]s** of an $\infty$-Lie algebra valued form. 
+
++-- {: .un_lemma}
+###### Observation
+
+By [[Lie integration]] we have that $A_{vert}$ -- and hence $\lambda$ -- defines an element $\exp(\lambda)$ in the [[∞-Lie group]] that integrates $\mathfrak{g}$. 
+
+The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the gauge transformatin $\exp(\lambda)$. 
+
+=--
 
 ### Rheonomy 
 
-#### Idea 
+A central insight for the constructioj of supergravity theories in D'Auria-Fre formalism is their notion of _rheonomy_ . In terms of the interpretation supergravity fields as [[connections in ∞-bundles]] we shall interpret this as the [[supergeometry]] version of the [[Ehresmann connection|second Ehresmann condition]], as above for gauge transformations.
 
-As discussed above, a **field configuration** in [[supergravity]] is a morphism
-
-$$
-  A : T X \to \mathfrak{a}
-$$
-
-from the [[tangent Lie algebroid]] of the spacetime [[supermanifold]] $X$ to some super [[∞-Lie algebroid]] $\mathfrak{a}$.
-
-This [[supergeometry]] interpretation of fields in [[supergravity]] gives an immediate interpretatoin of the **[[supersymmetry]]** that the [[supergravity]] [[action functional]] $S_{sugra}$ is supposed to enjoy: this just says that 
-
-+-- {: .standout}
-
-[[supersymmetry|Supersymmetry]] of the [[supergravity]] [[action functional]] $S_{sugra} : \{\Pi^{inf}(X) \to \mathfrak{a}\} \to \mathbb{R}$ is nothing but its invariance under super-diffeomorphisms $\phi : X \stackrel{\simeq}{\to} X$ of the spacetime [[supermanifold]] $X$:
+For the folowing let $U$ be an ordinary non-super manifold. Write 
 
 $$
-  S_{sugra}(\Pi^{inf}(X) \to \mathfrak{a})
-  =
-  S_{sugra}(\Pi^{inf}(X) \stackrel{\Pi^{inf}(\phi)}{\to}\Pi^{inf}(X) \to \mathfrak{a})
+  \Delta^{k|p} = \Delta^k \times \mathbb{R}^{0|p}
+$$
+
+for the [[supermanifold|super-simplex]]. Then the full diagram for gauge transformations of _super_-[[∞-Lie algebra valued forms]], generalizing the one for bosonic [gauge transformations above](#GaugeTransformations) is
+
+$$
+    \array{
+      \Omega^\bullet(X \times \Delta^{1|N})_{vert}
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{a})
+      &&&
+      gauge\;transformation
+      \\
+      \uparrow && \uparrow &&&& first\;Ehresmann\;condition
+      \\
+      \Omega^\bullet(X \times \Delta^{1|N})
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{a})
+      &&&
+      field
+      \\
+      \uparrow && \uparrow &&&& second\;Ehresmann\;condition
+      \\
+      \Omega^\bullet(X)
+      &\stackrel{\langle F_A\rangle}{\leftarrow}&
+      inv(\mathfrak{g})
+      &&&
+      gauge\;invariant\;observable
+    }
+$$
+
+Considering this for $\Delta^{0|1} = \mathbb{R}^{0|1}$, this encodes the _horizontality_ or second Ehresmann condition in the odd super-direction. Write $\theta$ for the canonical odd coordinate on $\Delta^{0|1}$. 
+
+The analog of the gauge parameter is now $\epsilon$ in the decomposition
+
+$$
+  \Omega^\bullet(U \times \Delta^{0|1}) 
+  \leftarow
+  A_U + \epsilon \wedge d \theta
+$$
+
+and the analogs of equations \eqref{ShiftedGaugeTrafo} and \eqref{GaugeTrafo} are now the general identity
+
+$$
+  \frac{d}{d \theta} A_U = \nabla \epsilon + (F_A)_\theta
+$$
+
+for possibly shifted transformations, and the horizontality condition
+
+$$
+  \frac{d}{d \theta} A_U = \nabla \epsion
   \,.
 $$
 
-=--
-
-So this is nothing but the super-refinement of the familiar diffeomorphism invariance of the [[Einstein-Hilbert action]] of ordinary [[gravity]].
-
-While this is conceptually very useful, in much of the literature on supersymmetry of supergravity is not conceived in this way. The reason for that is that in the standard supergravity theories that physicists are interested in, a field configuration is _not_ a _general_ superfield $t X \to \mathfrak{a}$: rather, it is one whose components (listed above: graviton, gravitino, fermions, etc.) appear like fields on the _ordinary_ spacetime manifold $X_{red}$ underlying the [[supermanifold]] $X$. 
-
-There are two options to formalize this:
-
-1. **non-geometric approach**: realize the fields of [[supergravity]] as fields on an ordinary spacetime [[manifold]] $X_{red}$ -- this makes the supersymmetry operations act on the fields in a conceptually complicated way.
-
-2. **geometric approach**: realize the fields of [[supergravity]] as fields on a [[supermanifold]] $X$. This makes supersymmetry of the [[action functional]] be simply super-diffeomorphism invariance. But then ensure that the fields _appear_ as if their components were functions on just the underlying ordinary manifold $X_{red}$ by putting a suitable constraint on the fields. This constraint is the **rheonomy** constraint.
-
-The _rheonomy_ constraint has been and is usefully compared with a holomorphicity constraint: a _function_
-$f : \mathbb{C} \to \mathbb{C}$ on the complex plane and hence a priori of two real coordinates, is _holomorphic_ if it locally looks like it effectively depends only on one of the two coordintes. Similarly, a **rheonomic superfield** is a function on a [[supermanifold]] which locally looks as if it depends only on the ordinary even (bosonic) coordinates.
-Moreover, in the same way as we can reconstruct an analytic function from its behaviour along a curve, in a rheonomic theory it is possible to build the whole superspace curvatures form their space-time components.  
-
-To further exploit this analogy, notice that an ordinary function $f$, being a [[differential form|0-form]] has a [[curvature]] which is the 1-form $R_F := d f$. The function $f$ is holomorphic precisely if its curvature, in this sense, vanishes on all tangent vectors proportional to $\frac{\partial}{\partial \bar z}$.
-
-From this analogy, the following statement should sound very plausible, which we discuss in detail below:
-
-+-- {: .standout}
-
-A [[schreiber:∞-Lie algebroid valued differential forms|field]] $\Pi^{inf}(X) \to \mathfrak{a}$ on the [[supermanifold]] $X$ is **rheonomic** if its [[curvature]] vanishes on odd tangent vectors, or is an algebraic expression in terms of the curvature components on even tangent vectors.
-
-=--
-
-#### Details 
-
-...
-
-this is part III, chapter III.3.3 in 
-
-* [[Supergravity and Superstrings - A Geometric Perspective]]
-
-The starting point is that the fields entering the supergravity Lagrangian are those entering the super-Maurer-Cartan equations which define the super-Poincar\'e algebra. 
-
-Formally, this is performed by the rheonomic extension mapping. Let $x^{\mu}$ the coordinates on the space-time manifold ${\cal M}_{x}$ and $\theta^{\alhpa}$ the remaining coordinates on the fermionic directions of the supermanifold ${\cal M}_{x,theta}$ under consideration. 
-Given the space-time fields $V^{a}(x)$, $\Psi(x)$, $\omega^{ab}(x)$ (and eventually the $p$-forms of the extension determined by the Chevalley cohomology), the rheonomic extension mapping is a map $rh: {\cal M}_{x} \to {\cal M}_{x,\theta}$ which extends each field on space-time to the corresponding one on the whole superspace $\phi (x) \mapsto \phi(x, \theta )$. This map is determined once the rheonomic constraints, which give the outer components of the curvatures in terms of the inner (space-time) ones, are known.
-
-... (to be continued after the discussion on soft group manifolds)
-
-This extension mapping can be used only if the theory has been built with diffeomorphism-invariant operators, otherwise the extension mapping is ill-defined. In particular, the Hodge dual operator must be avoided.
-
-... (to be continued)
-
+This is the _rheonomy constraint_ . Or more generally, the constraint called such is the condition that $(F_A)_\theta$ is an algebraic expression in the $(F_A)|_{T U}$.
 
 ## References {#References}
 
@@ -524,23 +500,25 @@ The _geometric perspective_ discussed there is both the emphasis of working over
 
 At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
 
-The interpretation of the D'Auria-Fr&#233;-formalism in the light of higher gauge theory as discussed above, together with a discussion of the [[supergravity Lie 3-algebra]] in the context of [[String Lie 2-algebra|String Lie n-algebra]]s was given in 
+The interpretation of the D'Auria-Fr&#233;-formulation as identifying supergravity fields as [[∞-Lie algebra valued differential forms]]s is in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-algebra connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
-This had been preceded by some blog discussion, for instance
-
-* [[Urs Schreiber]], _Castellani on FDA in SuGra: gauge 3-group of M-theory_ ([blog](http://golem.ph.utexas.edu/string/archives/000840.html))
-
-This is, as far as [[Urs Schreiber|I]] am aware, the first occurence of the explicit observation that the FDA-formalism is about higher gauge theory, based on hearing a talk on
-
-* [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors, and the M-theory superalgebra_ ([arXiv](http://arxiv.org/abs/hep-th/0508213))
-
-* [[Urs Schreiber]], _SuGra 3-connection reloaded_ ([blog](http://golem.ph.utexas.edu/category/2006/08/sugra_3connection_reloaded.html))
 
 Apart from that the first vague mention of the observation that the "FDA"-formalism for supergravity is about higher categorical Lie algebras (as far as [[Urs Schreiber|I]] am aware, would be grateful for further references) is page 2 of
 
 * [[Pietro Fre]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy and pure spinors_ ([arXiv](http://arxiv.org/abs/0801.3076))
+
+To compare D'Auria-Fre with our language here, notice the following points in their book
+
+* The statement that a supergravity field is a morphisms $\phi : T X \to inn(\mathfrak{g})$ or dually a morphism $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : \phi$ out of the [[Weil algebra]] of the [[supergravity Lie 3-algebra]] or similar is implicit in $(I.3.122)$ (but it is evident, comparing with the formulas at [[Weil algebra]]) -- notice that these authors call $\phi$ here a "soft form".
+
+* What we identify as gauge transformations and shifts by the characterization of [[curvature]] forms on the [[cylinder object]] $U \times \Delta^{1|p}$ is their equation (I.3.36).
+
+* The _[[rheonomy]]_ condition is around (III.3.32) .
+
+
+
 
 Here are some more references:
 
