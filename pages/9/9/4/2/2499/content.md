@@ -250,7 +250,7 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
   * $G = d C + \mu_4(\psi, E) \in \Omega^4(X)$ -- the **4-form field strength**
 
 
-### Gauge transformations 
+### Gauge transformations {#GaugeTransformations}
 
 There is an evident notion of _[[gauge transformation]]s_ : [[isomorphism]]s of [[∞-Lie algebra valued forms]]s. We unwrap this and derive this way the formulation of gauge transformations as used in the [literature](#References) on the  D'Auria-Fr&#233; formalism.
 
@@ -258,7 +258,7 @@ Form the discussion at [[∞-Lie algebra valued forms]] we have that the [[k-mor
 
 $$
   \array{
-    \Omega^\bullet_{vert}(X \times \Delta^n)
+    \Omega^\bullet_{vert}(X \times \Delta^k)
     &\stackrel{A_{vert}}{\leftarrow}&
     CE(\mathfrak{g})
     &&&
@@ -266,7 +266,7 @@ $$
     \\
     \uparrow && \uparrow
     \\
-    \Omega^\bullet(X \times \Delta^n)
+    \Omega^\bullet(X \times \Delta^k)
     &\stackrel{A}{\leftarrow}&
     W(\mathfrak{g})
     &&& connection
@@ -284,60 +284,62 @@ $$
 
 Here $W(\mathfrak{g})$ is the [[Weil algebra]] and $inv(\mathfrak{g})$ the algebra of [[invariant polynomial]]s of $\mathfrak{g}$, where $F_A$ denotes the [[curvature]] forms and $\langle F_A\rangle$ the collection of [[curvature characteristic form]]s built from them.
 
+A _field configuration_ 
+
+$$
+  \phi : T X \to inn(\mathfrak{g})
+$$
+
+is such aa digram for $k = 0$.
+
 A [[gauge transformation]] between two field configurations
 
 $$
   \phi, \phi' : T X \to inn(\mathfrak{g})
 $$
 
-is such a diagram for $n = 1$.
+is such a diagram for $k = 1$.
 
 
 We now unwrap what this means explicitly in terms of generators of [[dg-algebra]]s and find the physics literature expression for gauge transformations this way:
 
 Let $V$ be the [[graded vector space]] underlying the [[∞-Lie algebra]] $\mathfrak{g}$, and let $V^*$ its degreewise dual. Recall that the underlying graded-commutative algebra of the [[Weil algebra]] $W(\mathfrak{g)$ is the [[Grassmann algebra]] $\wedge^\bullet V^* \oplus V^*[1]$ on $V^*$ plus its degree-shifted copy. 
 
-* Choose a basis $\{t^a\}$ of $V^*$ of homogeneous degree elements. Write $\{\sigma t^a\}$ for the corresponding basis of $V^*[1]$.  On a homogeneous basis element $t^a \in V^*$ of degree $k$ in the remaining unshifted copy $\eta$ may be written as
+* Choose a basis $\{t^a\}$ of $V^*$ of homogeneous degree elements. Write $\{\sigma t^a\}$ for the corresponding basis of $V^*[1]$.  On a homogeneous basis element $t^a \in V^*$ of degree $k$ in the remaining unshifted copy, the form $A$ may be written as
 
   $$
-    \eta(t^a) := \eta^a := \bar \phi^a + (d_{dR} s) \wedge \epsilon^a 
+    A(t^a) := A^a := \hat \phi^a + \epsilon^a d s
      \;\;\;\;\in \Omega^\bullet(X \times I)
     \,,
   $$
 
   where
 
-  * $\bar \phi^a$ is in the image of $\Omega^k(X)$ pulled back to $\Omega^k(X \times I)$ and such that with $s \in C^\infty(I)$ the canonical coordinate on the interval we have $\bar \phi^a|_{s = 0} = \phi^a$ and $\bar \phi^a|_{s = 1} = {\phi'}^a$;
-
-  * $\epsilon^k$ is in the image of $\Omega^{k-1}(X)$ under pullback. 
+  * $\hat \phi^a$ is a horizontal form on $X \times \Delta^1 \to X$, $s$ is the canonical coordinate on $\Delta^1$ and we have $\hat  \phi^a|_{s = 0} = \phi^a$ and $\hat \phi^a|_{s = 1} = {\phi'}^a$;
 
 The component $\epsilon^a$ is what in the physics literature is called the **gauge parameter**.
 
-We will see below that writing the same expression for the shifted generators $\sigma t^a$ will imply that the analogue of $\epsilon$ vanishes on these and that $\eta$ is constant along the interval on shifted elements. So for brevity we assume this now.
-
-Apart from being a morphism of graded-commutative algebra, $\eta$ has to be a morphism of [[dg-algebra]]s and hence has to respect the differentials on both sides in that
+The above diagram requires that the [[curvature characteristic form]]s $\langle F_A \rangle$ descend to $X$. This is ensured by requiring the [[curvature]] form $F_A$ 
 
 $$
-  d_{dR}\bar \phi^a  - (d_{dR} s) \wedge (d_{dR} \epsilon^a)
+  F_A
   =
-  \phi(d_{\mathfrak{g}} t^a)
-  \,.
+  d \hat \phi^a  + d \epsilon^a \wedge d s
+  +
+  \phi(d_{CE(\mathfrak{g})} t^a)
 $$
 
-Projected onto the $\frac{\partial}{\partial s}$-component this equation says (remembering the form of $\eta$ given above and that it vanishes on shifted generators) that
+to vanish on $\partial_s$. This is equivalent to the [[differential equation]]
 
 $$
-  \frac{\partial}{\partial s} \bar\phi^a =
-  d_{dR} \epsilon^a + 
+  \frac{\partial}{\partial s} \hat \phi^a =
+  d \epsilon^a + 
   C^a{}_{\{b_i\} c} \bar\phi^{\{b_i\}} \wedge \epsilon^c
   \,,
 $$
 
-where 
+where $C^a{}_{b c}$ are the structure constants of $d_{CE(\mathfrak{g})}$ in our chosen basis of $V^*$ 
 
-* $C^a{}_{b c}$ are the structure constants of $d_{\mathfrak{g}}$ in our chosen basis of $V^*$ 
-
-* $F_{\eta}^a$ is the [[curvature]] component of $\eta$ (the image or $\sigma t^a$ under $\eta$) along the interval.  
 
 This is the familiar **equation for infinitesimal gauge transformations** as it appears in the [references](#references). Or almost:
 
