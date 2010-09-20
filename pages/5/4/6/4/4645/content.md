@@ -3010,7 +3010,7 @@ Let $G$ be a [[Lie group]]. We have the following Lie groupoids associated with 
 
 We have the following morphisms between these:
 
-* $X \to \mathbf{P}_1(X)$ -- includion of constant paths into all paths;
+* $X \to \mathbf{P}_1(X)$ -- inclusion of constant paths into all paths;
 
 * $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ -- sends [[thin homotopy]]-classes of paths to their full homotopy classes;
 
@@ -3159,7 +3159,7 @@ The idea of describing connections on principal 1- and 2-bundles in terms of par
 
 A detailed account of the description of ordnary bundles with connection in the style that prepares the ground for our developments here is in 
 
-* U. S., [[Konrad Waldorf]], _Parallal transport and functors_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">web</a>)
+* U. S., [[Konrad Waldorf]], _Parallel transport and functors_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">web</a>)
 {#SWI}
 
 A detailed account of the description of (abelian and nonabelian) [[gerbe]]s/[[bundle gerbe]]s/[[principal 2-bundle]]s in the style that we shall generalize to an $(\infty,1)$-topos theoretical context here is in
