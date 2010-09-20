@@ -23,9 +23,9 @@ For $C$ a [[category]], the **dependent product** of the morphism $g: B \to A$ i
 For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
 
 
-## Remarks
+## Dependent sums
 
-Note that the *left* adjoint to the base-change functor, the __dependent coproduct__ or __dependent sum__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
+Note that the *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
 
 +-- {: .un_prop }
 ###### Proposition
@@ -39,6 +39,12 @@ Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
 This is theorem 2 in section IV, 7 of
 
 * MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
+
+### A Warning
+
+One should be aware that in some work on [[type theory]], the phrase "dependent product" actually refers to what we call the dependent *sum*!  This is because when $g\colon B\to A$ is a constant family, i.e. a [[projection]] $C\times A \to A$ from a binary cartesian [[product]], then its dependent sum is just the ordinary cartesian product $C\times A$.  In the same context, what we call the dependent product can be identified with the [[exponential object]] $C^A$.  In other words, *dependent sums generalize ordinary products*, while *dependent products generalize ordinary exponentials*.
+
+This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
 
 
 ## Examples
