@@ -449,20 +449,55 @@ A collection of precursors to these notions is collected at
 The [[Sullivan construction]] in [[rational homotopy theory]] involves really the same concepts as used here. For literature on its interpretation in terms of $\infty$-Lie theory see [[Lie integration]].
 
 
-
-
-[[!redirects ∞-groupoid of ∞-Lie-algebra valued forms]]
-[[!redirects ∞-groupoid of ∞-Lie algebroid valued forms]]
-[[!redirects ∞-groupoid of ∞-Lie algebroid valued differential forms]]
-
+[[!redirects infinity-Lie algebroid-valued differential form]]
+[[!redirects infinity-Lie algebroid-valued differential forms]]
+[[!redirects infinity-Lie algebroid valued differential form]]
+[[!redirects infinity-Lie algebroid valued differential forms]]
+[[!redirects ∞-Lie algebroid-valued differential form]]
+[[!redirects ∞-Lie algebroid-valued differential forms]]
+[[!redirects ∞-Lie algebroid valued differential form]]
 [[!redirects ∞-Lie algebroid valued differential forms]]
-
-
-[[!redirects ∞-Lie algebra valued differential form]]
-[[!redirects ∞-Lie algebra valued differential forms]]
-
-[[!redirects ∞-Lie algebra valued forms]]
+[[!redirects infinity-Lie algebroid-valued form]]
+[[!redirects infinity-Lie algebroid-valued forms]]
+[[!redirects infinity-Lie algebroid valued form]]
+[[!redirects infinity-Lie algebroid valued forms]]
+[[!redirects ∞-Lie algebroid-valued form]]
+[[!redirects ∞-Lie algebroid-valued forms]]
+[[!redirects ∞-Lie algebroid valued form]]
 [[!redirects ∞-Lie algebroid valued forms]]
 
+[[!redirects infinity-groupoid of infinity-Lie algebroid-valued differential forms]]
+[[!redirects infinity-groupoid of infinity-Lie algebroid valued differential forms]]
+[[!redirects ∞-groupoid of ∞-Lie algebroid-valued differential forms]]
+[[!redirects ∞-groupoid of ∞-Lie algebroid valued differential forms]]
+[[!redirects infinity-groupoid of infinity-Lie algebroid-valued forms]]
+[[!redirects infinity-groupoid of infinity-Lie algebroid valued forms]]
+[[!redirects ∞-groupoid of ∞-Lie algebroid-valued forms]]
+[[!redirects ∞-groupoid of ∞-Lie algebroid valued forms]]
+
+[[!redirects infinity-Lie algebra-valued differential form]]
+[[!redirects infinity-Lie algebra-valued differential forms]]
+[[!redirects infinity-Lie algebra valued differential form]]
+[[!redirects infinity-Lie algebra valued differential forms]]
+[[!redirects ∞-Lie algebra-valued differential form]]
+[[!redirects ∞-Lie algebra-valued differential forms]]
+[[!redirects ∞-Lie algebra valued differential form]]
+[[!redirects ∞-Lie algebra valued differential forms]]
+[[!redirects infinity-Lie algebra-valued form]]
+[[!redirects infinity-Lie algebra-valued forms]]
+[[!redirects infinity-Lie algebra valued form]]
+[[!redirects infinity-Lie algebra valued forms]]
+[[!redirects ∞-Lie algebra-valued form]]
+[[!redirects ∞-Lie algebra-valued forms]]
+[[!redirects ∞-Lie algebra valued form]]
+[[!redirects ∞-Lie algebra valued forms]]
+
+[[!redirects infinity-groupoid of infinity-Lie algebra-valued differential forms]]
+[[!redirects infinity-groupoid of infinity-Lie algebra valued differential forms]]
+[[!redirects ∞-groupoid of ∞-Lie algebra-valued differential forms]]
+[[!redirects ∞-groupoid of ∞-Lie algebra valued differential forms]]
+[[!redirects infinity-groupoid of infinity-Lie algebra-valued forms]]
+[[!redirects infinity-groupoid of infinity-Lie algebra valued forms]]
+[[!redirects ∞-groupoid of ∞-Lie algebra-valued forms]]
 [[!redirects ∞-groupoid of ∞-Lie algebra valued forms]]
-[[!redirects ∞-Lie algebroid valued differential form]]
+[[!redirects ∞-groupoid of ∞-Lie-algebra valued forms]]
