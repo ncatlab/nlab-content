@@ -482,7 +482,7 @@ This is, in low degree, explicitly the following data:
 
 The definitions in terms of [[∞-Lie theory]] as given above appear in
 
-* Hisham Sati, Urs Schreiber, Jim Staasheff, $L_\infty$-connections (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+* Hisham Sati, Urs Schreiber, Jim Staasheff, _$L_\infty$-algebra valued connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
 A collection of precursors to these notions is collected at
 
