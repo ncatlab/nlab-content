@@ -17,13 +17,13 @@ $$
 (a, b)\cdot(u,v) = (a u - \bar{v} b, b \bar{u} + v a).
 $$
 
-The map $a\mapsto (a,0)$ is a [[monomorphism]] $A\to A^2$. If $A$ is [[unital algebra|unital]] with unit $1$ then $A^2$ is unital with unit $(1,0)$. In the unital case, the element $e \coloneqq (0,1)$ has the property $e^2 = -1 \coloneqq (-1,0)$. Then the formula
+The map $a\mapsto (a,0)$ is a [[monomorphism]] $A\to A^2$. If $A$ is [[unital algebra|unital]] with unit $1$ then $A^2$ is unital with unit $(1,0)$. In the unital case, the element $\mathrm{i} \coloneqq (0,1)$ has the property $\mathrm{i}^2 = -1 \coloneqq (-1,0)$. Then the formula
 $$
-\widebar{a + b e} := \bar{a} - b e
+\widebar{a + b \mathrm{i}} := \bar{a} - b \mathrm{i}
 $$
-( _I'm assuming $e = (0,1)$, rather than $1 = (0,1)$ as before - David R_ ) defines an involutive antiautomorphism on $A^2$ and the doubling procedure can be iterated.
+defines an involutive antiautomorphism on $A^2$ and the doubling procedure can be iterated.
 
-Regarding that $e a = \bar{a} e$, if the involution in $A$ is nontrivial then the double $A^2$ is non-[[commutative algebra|commutative]]. If $A$ is not commutative then the double is not even [[associative algebra|associative]]. However, if $A$ is associative then $A^2$ is still an [[alternative algebra]].
+Regarding that $\mathrm{i} a = \bar{a} \mathrm{i}$, if the involution in $A$ is nontrivial then the double $A^2$ is non-[[commutative algebra|commutative]]. If $A$ is not commutative then the double is not even [[associative algebra|associative]]. However, if $A$ is associative then $A^2$ is still an [[alternative algebra]].
 
 The standard example is the sequence of consecutive doubles starting with $\mathbb{R}$ (with the [[identity map]] as involution): the [[real number]]s $\mathbb{R}$, the [[complex number]]s $\mathbb{C}$, the [[quaternion]]s $\mathbb{H}$, the [[octonion]]s or Cayley numbers $\mathbb{O}$, the [[sedenion]]s $\mathbb{S}$, etc. These are the [[normed division algebras]], followed by further algebras which are not [[division algebras]].
 
