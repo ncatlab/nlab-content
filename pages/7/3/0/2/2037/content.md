@@ -21,7 +21,7 @@ The map $a\mapsto (a,0)$ is a [[monomorphism]] $A\to A^2$. If $A$ is [[unital al
 $$
 \widebar{a + b e} := \bar{a} - b e
 $$
-defines an involutive antiautomorphism on $A^2$ and the doubling procedure can be iterated.
+( _What is $e$? - David R_ ) defines an involutive antiautomorphism on $A^2$ and the doubling procedure can be iterated.
 
 Regarding that $e a = \bar{a} e$, if the involution in $A$ is nontrivial then the double $A^2$ is non-[[commutative algebra|commutative]]. If $A$ is not commutative then the double is not even [[associative algebra|associative]]. However, if $A$ is associative then $A^2$ is still an [[alternative algebra]].
 
