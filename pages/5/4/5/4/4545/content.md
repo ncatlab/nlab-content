@@ -84,6 +84,10 @@ $$
 
 is the [[classifying space]] for $Aut(X)$-[[principal bundle]]s, i.e. for [[bundle]]s with typical fiber $X$.
 
+## Examples
+
+* The [[inner derivation Lie 2-algebra]] $inn(\mathfrak{g})$ is the full subalgebra of the automorphism $\infty$-Lie algebra on the _inner_ derivations of the [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] $\mathfrak{g}$.
+
 ## References
 
 The general definition of $aut(\mathfrak{g})$ is the topic of p. 313 (45 of 63) and following in 
