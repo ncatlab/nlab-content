@@ -213,7 +213,7 @@ $B \to B/\langle \f(a)\sim g(a) | a \in A(1)\rangle$ is the [[coequalizer]] of $
 ### Free $T$-algebras and underlying sets {#FreeAlgebras}
 
 
-Write $\mathcal{S}$ for the (syntactic category of the) algebraic theory of sets (described [above](#TheoryOfSets)). Then for $T$ any other (syntactic category of a) Lawvere theory, there is a canonicel morphism
+Write $\mathcal{S}$ for the (syntactic category of the) algebraic theory of sets (described [above](#TheoryOfSets)). Then for $T$ any other (syntactic category of a) Lawvere theory, there is a canonical morphism
 
 $$
   i_T :  \mathcal{S} \to T
