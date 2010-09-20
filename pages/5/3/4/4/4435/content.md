@@ -1,9 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
+
+What is called _Cartan calculus_ are the structures and relations present in a [[inner derivation Lie 2-algebra]].
 
 For $X$ a [[smooth manifold]], consider the [[de Rham complex]] $(\Omega^\bullet(X), d_{dR})$ of [[differential form]]s on $X$, a [[cochain complex]] with the structure of a [[dg-algebra]].
 
@@ -36,11 +50,18 @@ One finds that
 
 These relations are sometimes called **Cartan calculus**. The first one is sometimes called **Cartan's magic formula**.
 
+## In $\infty$-Lie theory
+
+The relations of Cartan calculus are preciselyy those in an [[inner derivation Lie 2-algebra]].
+
+This allows to generalize Cartan calculus to oo-Lie algebroids, see the section <a href="http://ncatlab.org/nlab/show/Weil+algebra#AsInnerDer">As inner derivations</a> at [[Weil algebra]].
+
+
 ## References
 
 Original articles by Cartan are
 
-* [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibr&eacuteM principal_ ,  Colloque de topologie (espaces fibr&#233;s), Bruxelles, 1950, pp. 57&#8211;71. Georges Thone, Li&#232;ge;
+* [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibr&eacuteM principal_ ,  Colloque de topologie (espaces fibr&eacute;s), Bruxelles, 1950, pp. 57&#8211;71. Georges Thone, Li&egrave;ge;
 Masson et Cie., Paris, (1951).
 
 
