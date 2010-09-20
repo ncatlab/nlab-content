@@ -47,3 +47,5 @@ $$
 * [[Joao Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv:abs/0907.2566](http://arxiv.org/abs/0907.2566))
 
 [[!redirects connections on a 3-bundle]]
+
+[[!redirects connections on 3-bundles]]
