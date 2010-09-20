@@ -1559,7 +1559,7 @@ Let $\{U_i \to X\}$ be a [[good open cover]], a cocycle $C(U) \to [\mathbf{P}_2(
 Moreover, we have a natural equivalence of [[bicategories]]
 
 $$
-  [CartSp^{op}, 2Grpd](\mathbf{P}_2(C(U), [\mathbf{P}_2(-), \mathbf{B}G])
+  [CartSp^{op}, 2Grpd](C(U), [\mathbf{P}_2(-), \mathbf{B}^2 U(1)])
   \simeq
   U(1) Gerb_\nabla(X)
   \,,
@@ -2987,7 +2987,7 @@ We have the following [[diffeological n-groupoid|diffeological 1- or 2-groupoids
 
 * $\mathbf{P}_1(X)$ -- the [[path groupoid]] of $X$ (morphisms are [[thin homotopy]]-classes of paths)
 
-* $\mathbf{P}_2(X)$ the [[path n-groupoid|fundamental path 2-groupoid]] (2-morphisms are [[thin homotopy]]-classes of disks).
+* $\mathbf{P}_2(X)$ the [[path 2-groupoid]] (2-morphisms are [[thin homotopy]]-classes of disks).
 
 * $\mathbf{\Pi}_2(X)$ the [[path n-groupoid|fundamental path 2-groupoid]] (2-morphisms are [[homotopy]]-classes of disks).
 
