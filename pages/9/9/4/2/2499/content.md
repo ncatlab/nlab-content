@@ -252,14 +252,13 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 
 ### Gauge transformations 
 
-There is an evident notion of _gauge transformations_ (i.e. [[isomorphism]]s) of [[∞-Lie algebra valued forms]]s. We unwrap this and derive this way the formulation of gauge transformations as used in the [literature](#References) on the  D'Auria-Fr&#233; formalism.
+There is an evident notion of _[[gauge transformation]]s_ : [[isomorphism]]s of [[∞-Lie algebra valued forms]]s. We unwrap this and derive this way the formulation of gauge transformations as used in the [literature](#References) on the  D'Auria-Fr&#233; formalism.
 
-Recall -- from the discussion at [[connection on an ∞-bundle]] -- that $\infty$-connections on a trivial [[principal ∞-bundle]] (to which we restrict attention here) on a space $X$ with values in an [[∞-Lie-algebra]] $\mathfrak{g}$ are encoded by diagrams
-
+Form the discussion at [[∞-Lie algebra valued forms]] we have that the [[k-morphisms]] in the [[∞-groupoid]] of connections on a trivial [[principal ∞-bundle]] (to which we restrict attention here) on a space $X$ with values in an [[∞-Lie-algebra]] $\mathfrak{g}$ are given by diagrams
 
 $$
   \array{
-    C^\infty(X) \otimes_{cpl} \Omega^\bullet(\Delta^n)
+    \Omega^\bullet_{vert}(X \times \Delta^n)
     &\stackrel{A_{vert}}{\leftarrow}&
     CE(\mathfrak{g})
     &&&
@@ -280,11 +279,12 @@ $$
     &&&
     gauge\;invariant\;field\;strength\;observables
   }
+  \,.
 $$
 
-for $n = 0$, where $W(\mathfrak{g})$ is the [[Weil algebra]] and $inv(\mathfrak{g})$ the algebra of [[invariant polynomial]]s of $\mathfrak{g}$, where $F_A$ denotes the [[curvature]] forms and $\langle F_A\rangle$ the collection of [[curvature characteristic form]]s built from them.
+Here $W(\mathfrak{g})$ is the [[Weil algebra]] and $inv(\mathfrak{g})$ the algebra of [[invariant polynomial]]s of $\mathfrak{g}$, where $F_A$ denotes the [[curvature]] forms and $\langle F_A\rangle$ the collection of [[curvature characteristic form]]s built from them.
 
-A gauge transformation between two field configurations
+A [[gauge transformation]] between two field configurations
 
 $$
   \phi, \phi' : T X \to inn(\mathfrak{g})
