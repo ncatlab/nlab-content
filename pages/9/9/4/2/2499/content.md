@@ -64,7 +64,7 @@ A (super) [[∞-Lie algebroid]]
 
 =--
 
-Notably the [[semifree dga]] that D'Auria-Fr&#233; base the description of 11-dimensioonal [[supergravity]] on is the [[Chevalley-Eilenberg algebra]] of the [[supergravity Lie 3-algebra]], which is an [[∞-Lie algebra]] that is a [[∞-Lie algebra cohomology|higher central extension]]
+Notably the [[semifree dga]] upon which D'Auria-Fr&#233; base their description of 11-dimensional [[supergravity]] is the [[Chevalley-Eilenberg algebra]] of the [[supergravity Lie 3-algebra]], which is an [[∞-Lie algebra]] that is a [[∞-Lie algebra cohomology|higher central extension]]
 
 $$
   0 \to b^2 \mathfrak{u}(1)
@@ -105,7 +105,7 @@ By realizing this data as components of a Lie 3-algebra valued connection (more 
 
 ### _Nomen est omen_ - Higher gauge theory reinterpretation 
 
-Originally D'Auria and Fr&#233; referred to commutative [[semifree dga]]s as as _Cartan integrable systems_ . Later the term _free differential algebra_, abbreviated _FDA_ was used instead and became popular. Nowadays much of the literature that studies commutative [[semifree dga]]s in [[supergravity]] refers to them as "FDA"s. One speaks of the _FDA approach to supergravity_ . 
+Originally D'Auria and Fr&#233; referred to commutative [[semifree dga]]s as _Cartan integrable systems_. Later the term _free differential algebra_, abbreviated _FDA_ was used instead and became popular. Nowadays much of the literature that studies commutative [[semifree dga]]s in [[supergravity]] refers to them as "FDA"s. One speaks of the _FDA approach to supergravity_ . 
 
 But strictly speaking "free differential algebra" is a misnomer: genuinely free differential algebras are pretty boring objects. Crucially it is _only_ the underlying graded commutative algebra which is required to be free as a graded commutative algebra in that it is a [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^*$ on a [[graded vector space]] $\mathfrak{g}^*$. The differential on that is in general not free, hence the more precise term _[[semifree dga]]_ . 
 
@@ -113,9 +113,9 @@ In fact, when $\mathfrak{g}$ is concentrated in non-positive degree (so that $\w
 
 Already D'Auria and Fr&#233; themselves, and afterwards other authors, have tried to better understand the intrinsic conceptual meaning of their [[dg-algebra]] formalism that happened to be so useful in [[supergravity]]: 
 
-the idea arose and then became pupular in the "FDA"-literature that the D'Auria-Fr&#233;-formalism should be about a concept called **[[soft group manifold]]s**. This is motivated from the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the [[Maurer-Cartan form]]s of left-inavriant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan form has vanishing [[curvature]] (= [[field strength]]) these equations for supergravity fields have a possibly non-vanishing [[field strength]]. These generalized Maurer-Cartan equations are suggested in the "FDA"-literature to describe generalized or "softened" group manifolds.
+the idea arose and then became pupular in the "FDA"-literature that the D'Auria-Fr&#233;-formalism should be about a concept called **[[soft group manifold]]s**. This is motivated from the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the [[Maurer-Cartan form]]s of left-invariant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan form has vanishing [[curvature]] (= [[field strength]]) these equations for supergravity fields have a possibly non-vanishing [[field strength]]. These generalized Maurer-Cartan equations are suggested in the "FDA"-literature to describe generalized or "softened" group manifolds.
 
-However, even when the field strengths _do_ vanish does the remaining collection of differential forms not constrain the base manifold to be a group. Rather, if the field strenghs vanish we have a natural interpretation of the remaining differential form data as being flat [[∞-Lie algebroid valued differential forms]], given by a morphism
+However, even when the field strengths _do_ vanish the remaining collection of differential forms does not constrain the base manifold to be a group. Rather, if the field strengths vanish we have a natural interpretation of the remaining differential form data as being flat [[∞-Lie algebroid valued differential forms]], given by a morphism
 
 $$
   A : T X \to \mathfrak{g}
@@ -157,7 +157,7 @@ $$
   CE(\mathfrak{g})
 $$
 
-whose image are precisely the left-invariant 1-forms on the [[Lie group]] $G$ and whose respect for the differentials is precisely the ordinary Maurer-Cartan equation. 
+whose image is precisely the left-invariant 1-forms on the [[Lie group]] $G$ and whose respect for the differentials is precisely the ordinary Maurer-Cartan equation. 
 
 To see the role of group manifolds for more general morphisms
 
