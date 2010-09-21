@@ -1,9 +1,24 @@
-#Contents#
 
-* automatic table of contents goes here
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 Ordinary [[gravity]] -- as a [[classical field theory]] -- is determined by an [[action functional]] on a space of [[Riemannian metric]]s on a given [[manifold]]: the [[Einstein-Hilbert action]].
 
@@ -23,11 +38,20 @@ This uniqueness (under mild conditions) is one reason for interest in supergravi
 
 etc. pp.
 
-#References and related entries#
+## References and related entries
 
 * The [[D'Auria-Fre formulation of supergravity]]
 
-effectively realizes supergravity theories as higher [[gauge theory|gauge theories]]. See the discussion there. 
+effectively realizes supergravity theories as higher [[gauge theory|gauge theories]] whose fields are [[∞-Lie algebra-valued forms]] with values for instance in the [[supergravity Lie 3-algebra]].
+
+The original article that introduced th D'Auria-Fr&#233;-formalism is
+
+* **geSuGra** R. D'Auria, P. Fr&#233; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
+ 
+The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
+
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
+
 
 A systematic mathematical treatment of supersymmetry and of supergravity solutions is in 
 
