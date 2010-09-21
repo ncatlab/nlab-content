@@ -25,11 +25,11 @@
 
 ## Idea
 
-Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In [[(∞,1)-category theory]] these generalize to connections on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. $\infty$-Chern-Weil theory deals with these higher connections and their relation to [[ordinary differential cohomology]].
+Ordinary [[Chern-Weil theory]] studies [[connection on a bundle|connections]] on $G$-[[principal bundle]]s over a [[Lie group]] $G$. In [[(∞,1)-category theory]] these generalize to connections on [[principal ∞-bundle]]s over [[∞-Lie group]]s $G$. **[[∞-Chern-Weil theory]]** deals with these higher connections and their relation to [[ordinary differential cohomology]].
 
 Here we describe some introducory basics of the general theory in concrete terms.
 
-
+See <a href="http://ncatlab.org/nlab/show/infinity-Chern-Weil+theory#Motivation">∞-Chern-Weil theory -- motivation</a> for some motivation.
 
 ## Preparatory concepts
 
