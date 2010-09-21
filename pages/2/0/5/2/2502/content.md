@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -46,3 +61,5 @@ A comprehensive account and classification of super Poincar&#233; Lie algebras i
 The exceptional fermionic cocycles of the super Poincar&#233; Lie algebra are discussed in 
 
 * [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_ ([pdf](http://math.ucr.edu/home/baez/susy2_1.pdf))
+
+For more see [[division algebra and supersymmetry]].
