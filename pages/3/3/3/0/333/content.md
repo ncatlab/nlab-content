@@ -16,7 +16,7 @@ More generally, __noncommutative geometry__ means replacing the space by some st
 
 A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. The central ingredients in Connes' noncommutative geometry are
 
-* the idea to characterize a (noncommutative) space by a [[C-star algebra]] $A$, to be thought of as the $C^*$-algebra of global functions on that space; this aprpoach has been occasionally considered earlier e.g. in the book of Semadeni on Banach algebras. 
+* the idea to characterize a (noncommutative) space by a [[C-star algebra]] $A$, to be thought of as the $C^*$-algebra of global functions on that space; this approach has been occasionally considered earlier e.g. in the book of Semadeni on Banach algebras. 
 
 * There is a refined, quantized differential calculus where the differential is given by a commutator formula involving a Fredholm operator; the setup in which this is taken place involves cyclic cocycles discovered by Tsygan and Connes.
 
