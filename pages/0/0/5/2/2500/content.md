@@ -38,7 +38,7 @@ that decomposes into three components, $A = (E, \Omega, \Psi)$:
 
 * a $\Gamma$-valued 1-form $\Psi$ -- called the [[gravitino]] field.
 
-Typically in fact the field content of supergraviyt is larger, in that a field $A$ is really an [[∞-Lie algebra-valued differential form]] with values in an [[∞-Lie algebra]] such as the [[supergravity Lie 3-algebra]] ([DAuriaFreCastellani](#DAuriaFreCastellani)) $\mathfrak{sugra}(10,1)$. Specifically such a field
+Typically in fact the field content of supergravity is larger, in that a field $A$ is really an [[∞-Lie algebra-valued differential form]] with values in an [[∞-Lie algebra]] such as the [[supergravity Lie 3-algebra]] ([DAuriaFreCastellani](#DAuriaFreCastellani)) $\mathfrak{sugra}(10,1)$. Specifically such a field
 
 $$
   A : T X \to \mathfrak{sugra}(10,1)
