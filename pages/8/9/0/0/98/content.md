@@ -243,6 +243,13 @@ In this context
 
 If $N$ is itself a [[chain complex]], then this is called a [[BV-BRST formalism|BV-BRST complex]]
 
+## References
+
+An elementary introduction for Lie algebras is at the beginning of
+
+* J. A. de Azcarraga, J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
+
+
 [[!redirects Chevalley--Eilenberg algebra]]
 [[!redirects Chevalley?Eilenberg algebra]]
 [[!redirects Chevalley-Eilenberg algebras]]
