@@ -22,7 +22,7 @@ A particular and most prominent realization of the program of noncommutative geo
 
 * the noncommutative analog of the structure of a [[Riemannian manifold]] with a spin structure in terms of generalized [[Dirac operator]]s $D$ acting on a representation space of the algebra $A$. Metric information on the space is then encoded in the spectrum of $D$.
 
-For that reason [[Connes]]' noncommutative manifolds are well described as **spectral geometry**. The Dirac operator is of course very much related to the quantized differential calcuolus of Connes. 
+For that reason [[Alain Connes|Connes]]' noncommutative manifolds are well described as **spectral geometry**. The Dirac operator is, of course, very much related to the quantized differential calculus of Connes. 
 
 * Noncommutative measure spaces are represented by noncommutative von Neumann algebras. 
 
