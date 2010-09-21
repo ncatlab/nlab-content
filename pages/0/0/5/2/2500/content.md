@@ -22,7 +22,7 @@
 
 A [[quantum field theory]] of **supergravity** is similar to the theory of [[gravity]], but where (in [[first-order formulation of gravity|first order formulation]]) the latter is given by an [[action functional]] (the [[Einstein-Hilbert action]] functional) on the space of [[connection on a bundle|connection]]s (over [[spacetime]]) with values in the [[Poincare Lie algebra]] $\mathfrak{iso}(n,1)$, supergravity is defined by an extension of this to an action functional on the space connections with values in the [[super Poincare Lie algebra]] $\mathfrak{siso}(n,1)$:
 
-if we write $\mathfrak{siso}(n,1)$ as a [[semidirect product]] of the translation Lie algebra $\mathbb{R}^{(n,1)}$, the [[special orthogonal Lie algebra]] $\mathfrak{so}(n,1)$ and a [[spinor]] [[representation]], then locally a connection is a [[Lie algebra valued 1-form]] 
+if we write $\mathfrak{siso}(n,1)$ as a [[semidirect product]] of the translation Lie algebra $\mathbb{R}^{(n,1)}$, the [[special orthogonal Lie algebra]] $\mathfrak{so}(n,1)$ and a [[spin group]] [[representation]], then locally a connection is a [[Lie algebra valued 1-form]] 
 
 $$
   A : T X \to \mathfrak{siso}(n,1)
