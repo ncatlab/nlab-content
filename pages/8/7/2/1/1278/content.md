@@ -63,7 +63,7 @@ There are variations of this definition, with some technical differences in the 
 
 ### Examples
 
-* The [[ordinaty differential cohomology]] $\bar H^\bullet(-,\mathbb{Z})$ is modeled by 
+* The [[ordinary differential cohomology]] $\bar H^\bullet(-,\mathbb{Z})$ is modeled by 
 
   * [[Deligne cohomology]];
 
@@ -89,7 +89,7 @@ In [[physics]] differential cocycles model [[gauge theory|gauge fields]].
 
   * [[RR-field]] .
 
-For $c \in \bar \Gamma^\bullet(X)$ a differentia cocycle representing a gauge, one says that
+For $c \in \bar \Gamma^\bullet(X)$ a differential cocycle representing a gauge, one says that
 
 * its image $F(c)$ in differential forms is the corresponding [[field strength]];
 
