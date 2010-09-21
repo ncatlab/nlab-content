@@ -79,6 +79,19 @@ $$
 
 This way we recover the above definition of Lie algebra cohomology (with coefficient in the trivial module) in terms of the cochain complex cohomology of the CE-algebra.
 
+## Properties
+
+The following lemma asserts that for semisimple Lie algebras $\mathfrak{g}$ only the cohomology $\mathfrak{g} \to b^{n-1} \mathbb{R}$ with coefficients in the trivial module is nontrivial.
+
+**Whiteheads lemma**
+
+For $\mathfrak{g}$ a finite dimensional [[semisimple Lie algebra]] over a [[field]] of [[characteristic]] 0, and for $V$ a non-trivial finite-dimensional [[irreducible representation]], we have
+
+$$
+  H^p(\mathfrak{g}, V) = 0 \;\;\; for\;p \gt 0
+  \,.
+$$
+
 ## Examples
 
 Every [[invariant polynomial]] $\langle - \rangle \in W(\mathfrak{g})$ on a Lie algebra has a _transgression_ to a cocycle on $\mathfrak{g}$. See [[∞-Lie algebra cohomology]] for more.
