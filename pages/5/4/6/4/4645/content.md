@@ -2935,7 +2935,7 @@ $$
   =
   d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
   + 
-  (F_A)(\partial_s, \cdots)
+  \iota_{\partial_s}(F_A)
   \,,
 $$
 
@@ -2992,88 +2992,68 @@ The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ f
 
 =--
 
-+-- {: .un_example}
-###### Example
-**(in ordinary bundles)**
+The following proposition shows how connections on ordinary bundles are reproduced by the general definition.
 
-Let $X $ be a [[smooth manifold]] and $\{U_i \to X\}$ an [[open cover]], $C(U)$ its [[Cech nerve]] and consider [[∞-anafunctor]]s from $X$ to $\exp(\mathfrak{g})_{conn}$
++-- {: .un_prop}
+###### Proposition
+**(connections on ordinary bundles)**
+
+For $\mathfrak{g}$ an ordinary [[Lie algebra]] with simply connected [[Lie group]] $G$ and for $\mathbf{B}G_{conn}$ the [[groupoid of Lie algebra-valued forms]] from [above](#ConnectionOnPrincipalBundle) we have an [[isomorphism]]
 
 $$
-  \array{
-    C(U) &\stackrel{(\hat g, \hat \nabla)}{\to}& \exp(\mathfrak{g})_{conn}
-    \\
-    \downarrow^{\mathrlap{\simeq}}
-    \\  
-    X
-  }
-  \,.
+  \tau_1 \exp(\mathfrak{g})_{conn} = \mathbf{B}G_{conn}
 $$
-
-This is, in low degree, explicitly the following data:
-
-* on each patch $U_i$ a $\mathfrak{g}$-valued form datum $\Omega^\bullet(U_i) \leftarrow W(\mathfrak{g}) : A_i$;
-
-* on each double intersection $U_i \cap U_j$ 
-
-  * a path of gauge transformations $\Omega^\bullet(U_i \cap U_j \times \Delta^1)_{vert} \leftarrow CE(\mathfrak{g}) : \lambda$, where the value of $\lambda$ at a point is the infinitesimal gauge transformation;
-
-  * a path of $\mathfrak{g}$-valued forms $\Omega^\bullet(U_i \cap U_j \times \Delta^1)_{vert} \leftarrow CE(\mathfrak{g}) : A_{i j}$ lifting that
-
-  * such that the vetical curvature component vanishes;
-
-  * and such that the mixed curvature component vanishes. 
-
-    This is equivalent to the [[differential equation]]
-
-    $$
-      \frac{\partial}{\partial t} A_{i j}
-      =
-      d_U \lambda + [\lambda, A]
-      \,.
-    $$
-
-    for the initial value $A_{i j}(0) = A_i$ this has the unique solution
-
-    $$
-      A_{i j}(t) = g_{ij}(t)^{-1} (A_{i j} + d_{U}) g_{i j}(t)
-      \,,
-    $$
-
-    where $g_{i j}(t)$ is the [[parallel transport]] of $\lambda$:
-
-    $$
-      \begin{aligned}
-        &
-        \frac{\partial}{\partial t}
-        \left(
-           g_{ij}(t)^{-1} (A_{i j} + d_{U}) g_{i j}(t)
-        \right)
-        \\
-        = &
-        g_{ij}(t)^{-1} (A_{i j} + d_{U}) \lambda g_{i j}(t)
-        -
-        g_{ij}(t)^{-1} \lambda (A_{i j} + d_{U}) g_{i j}(t)    
-      \end{aligned}
-    $$
-
-    (where for ease of notaton we write actions as if $G$ were a [[matrix Lie group]]).
-
-    In particular this implies that the endpoints of the path of $\mathfrak{g}$-valued 1-forms are related by the usual cocycle condition in $\mathbf{B}G_{conn}$
-
-    $$
-      A_{i j}(1) = A_j = g_{i j}^{-1}(1) (A_i + d_U) g_{i j}(1)
-      \,.
-    $$
-
-* etc. 
 
 =--
 
-We have see that a cocycle with values in $\exp(\mathfrak{g})_{conn}$ is (in low degrees, i.e. up to the truncation that we finally come to in a moment) a lift of an ordinary cocycle with values in $\mathbf{B}G_{diff}$, where every transition function is resolved to a _path_ of gauge transformations and so on. Such lifts are not unfamilia, they appeart notably in ([BrylinskiMacLaughlin](#BrylinskiMaxLaughlin)) in an algorithm for constructing [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne cocycles]] refining the ordinary [[Chern-Weil homomorphism]]. We shall demonstrate now how this algorithm is essentially nothing but the $\infty$-anafunctor-composition of the cocycle $(\hat g, \hat \nabla)$ with the extended characteristic map $\exp(\mu)_{diff}$.
++-- {: .proof}
+###### Proof
 
+To see this, first note that the sheaves of objects on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. For morphisms, observe that for a form $\Omega^\bullet(U \times \Delta^1) \leftarow W(\mathfrak{g}) : A$ which we may decompose into a horizontal and a verical pice as $A = A_U + \lamnda \wedge d t$ the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
 
+$$
+  \frac{\partial}{\partial t} A
+  =
+  d_U \lambda + [\lambda, A]
+  \,.
+$$
 
+For any initial value $A(0)$ this has the unique solution
 
+$$
+  A(t) = g(t)^{-1} (A + d_{U}) g(t)
+  \,,
+$$
+
+where $g : [0,1] \to G$ is the [[parallel transport]] of $\lambda$:
+
+$$
+  \begin{aligned}
+    &
+    \frac{\partial}{\partial t}
+    \left(
+       g_(t)^{-1} (A + d_{U}) g(t)
+     \right)
+     \\
+     = &
+     g(t)^{-1} (A + d_{U}) \lambda g(t)
+     -
+     g(t)^{-1} \lambda (A + d_{U}) g(t)    
+   \end{aligned}
+$$
+
+(where for ease of notaton we write actions as if $G$ were a [[matrix Lie group]]).
+
+In particular this implies that the endpoints of the path of $\mathfrak{g}$-valued 1-forms are related by the usual cocycle condition in $\mathbf{B}G_{conn}$
+
+$$
+  A(1) = g(1)^{-1} (A + d_U) g(1)
+  \,.
+$$
+
+In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and any 1-form on $U$ at one vertex, there is a unique lift to a 2-cell in $\exp(\mathfrak{g})_{conn}$, obtained by parallel transporting the form around. The claim then follows from the previous statement of [[Lie integration]] that $\tau_1 \exp(\mathfrak{g}) = \mathbf{B}G$.
+
+=--
 
 ##### $k$-Morphisms: higher order gauge transformations
 
@@ -3256,6 +3236,8 @@ of $\exp(\mathfrak{g})$-cocycles $g$ constitute a [[connection on an ∞-bundle]
 
 $$
   \exp(\mathfrak{g})_{conn}
+  \subset 
+  \exp(\mathfrak{g})_{conn'}
   : 
   (U,[k])
   \mapsto
@@ -3293,6 +3275,7 @@ For fixed $U \in $ [[CartSp]] and $k \in \Delta$ the sets on the right are sets 
 
 1. their [[curvature characteristic form]]s $\langle F_A \rangle$ descend to the base.
 
+The subsheaf $\exp(\mathfrak{g})_{conn} \hookrightarrow \exp(\mathfrak{g})_{conn'}$ is that for which even the curvature forms $F_A$ themselves descent.
 
 Here $\Omega^\bullet(U \times \Delta^k)_{vert}$ are the [[vertical differential form]]s on the trivial simplex bundle $U \times \Delta^k \to U$ 
 and on the right we have the canonical sequence [[Chevalley-Eilenberg algebra]] $\leftarrow$ [[Weil algebra]] $\leftarrow$ [[invariant polynomial]]s and all morphisms are [[dg-algebra]] morphisms. 
