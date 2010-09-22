@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Electric-magnetic duality is a lift of [[Hodge star operator|Hodge duality]] from [[de Rham cohomology]] to [[ordinary differential cohomology]].
+
+
+## Description
+
+Consider a [[circle n-bundle with connection]] $\nabla$ on a space $X$. Its [[higher parallel transport]] is the [[action functional]] for the [[sigma-model]] of  $(n-1)$-dimensional objects ($(n-1)$-branes) propagating in $X$.
+
+For $n = 1$ this is the coupling of the [[electromagnetic field]] to particles. For $n = 2$ this is the coupling of the [[Kalb-Ramond field]] to strings.
+
+The [[curvature]] $F_\nabla \in \Omega^{n+1}(X)$ is a closed $(n+1)$-form. The condition that its image $\star F_\nabla$ under the [[Hodge star operator]]  is itself closed
+
+$$
+  d_{dR} \star F_\nabla = 0
+$$
+
+is the [[Euler-Lagrange equation]] for the standard (abelian [[Yang-Mills theory]]-[[action functional]] on the space of circle n-bundle with connection.
+
+If this is the case, it makes sense to ask if $\star F_\nabla$ itself is the curvature $(d-(n+1))$-form of a circle $(d-(n+1)-1)$-bundle with connection $\tilde \nabla$, where $d = dim X$ is the [[dimension]] of $X$.
+
+If such $\tilde \nabla$ exists, its [[higher parallel transport]] is the gauge interaction [[action functional]] for $(d-n-3)$-dimensional objects propagating on $X$.
+
+In the special case of ordinary [[electromagnetism]] with $n=1$ and $d = 4$ we have that electrocalled charged 0-dimensional particles couple to $\nabla$ and magnetically charged $(4-(1+1)-2) = 0$-dimensional particles.
+
+In analogy to this case one calls generally the $d-n-3$-dimensional objects coupling to $\tilde \nabla$ the **magnetic duals** of the $(n-1)$-dimensional objects coupling to $\nabla$.
+
+## Generalizations
+
+For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mills theory]]. Witten and Kapustin argued that this is governed by the [[geometric Langlands correspondence]].
+
+## Examples
+
+In [[heterotic string theory]] one considers 1-dimensional objects in $d=10$-dimensional spaces electrically charged (under the [[Kalb-Ramond field]]). Their magnetic duals are 5-dimensional objects (fivebranes), studied in [[dual heterotic string theory]].
+
+
