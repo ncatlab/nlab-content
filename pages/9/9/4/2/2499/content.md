@@ -529,3 +529,6 @@ _Pure spinors, free differential algebras, and the supermembrane_ ([arXiv] (http
 
 * Pietro Fr&eacute; and Pietro Antonio Grassi, _Free differential algebras, rheonomy, and pure spinors_ 
 ([arXiv] (http://www.arxiv.org/abs/0801.3076))
+
+
+[[!redirects rheonomy]]
