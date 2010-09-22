@@ -22,7 +22,7 @@
 
 A [[quantum field theory]] of **supergravity** is similar to the theory of [[gravity]], but where (in [[first-order formulation of gravity|first order formulation]]) the latter is given by an [[action functional]] (the [[Einstein-Hilbert action]] functional) on the space of [[connection on a bundle|connection]]s (over [[spacetime]]) with values in the [[Poincare Lie algebra]] $\mathfrak{iso}(n,1)$, supergravity is defined by an extension of this to an action functional on the space connections with values in the [[super Poincare Lie algebra]] $\mathfrak{siso}(n,1)$:
 
-if we write $\mathfrak{siso}(n,1)$ as a [[semidirect product]] of the translation Lie algebra $\mathbb{R}^{(n,1)}$, the [[special orthogonal Lie algebra]] $\mathfrak{so}(n,1)$ and a [[spin group]] [[representation]], then locally a connection is a [[Lie algebra valued 1-form]] 
+if we write $\mathfrak{siso}(n,1)$ as a [[semidirect product]] of the translation Lie algebra $\mathbb{R}^{(n,1)}$, the [[special orthogonal Lie algebra]] $\mathfrak{so}(n,1)$ and a [[spin group]] [[representation]] $\Gamma$, then locally a connection is a [[Lie algebra valued 1-form]] 
 
 $$
   A : T X \to \mathfrak{siso}(n,1)
@@ -50,7 +50,7 @@ has one more component
 
 The [[gauge transformation]]s on the space of such connections that are parameterized by the elements of $\Gamma$ are called [[supersymmetries]].
 
-The condition of [[gauge invariance]] of an action functional on $\mathfrak{siso}$-connections is considerably more restrictive than for one on $\mathfrak{iso}$-connections. For instance there is, under mild assumptions, a _unique_ maximally supersymmetric supergravity extension of the ordinary Einsten-Hilbert action on a 4-dimensional manifold. This in turn is obtained from the _unique_ (under mild assumptions) maximally supersymmetric supergravity action functional on a (10,1)-dimensional [[spacetime]] by thinking of the 4-dimensional action function as being a [[dimensional reduction]] of the 11-dimensional one.
+The condition of [[gauge invariance]] of an action functional on $\mathfrak{siso}$-connections is considerably more restrictive than for one on $\mathfrak{iso}$-connections. For instance there is, under mild assumptions, a _unique_ maximally supersymmetric supergravity extension of the ordinary [[Einstein-Hilbert action]] on a 4-dimensional manifold. This in turn is obtained from the _unique_ (under mild assumptions) maximally supersymmetric supergravity action functional on a (10,1)-dimensional [[spacetime]] by thinking of the 4-dimensional action function as being a [[dimensional reduction]] of the 11-dimensional one.
 
 This uniqueness (under mild conditions) is one reason for interest in supergravity theories. Another important reason is that supergravity theories tend to remove some of the problems that are encountered when trying to realize [[gravity]] as a [[quantum field theory]]. Originally there had been high hopes that the maximally supersymmetric supergravity theory in 4-dimensions is fully [[renormalizable]]. This couldn't be shown computationally -- until recently: triggered by new insights recently there there has been lots of renewed activity on the renormalizability of maximal supergravity. 
 
@@ -64,7 +64,7 @@ This might suggest that supergravity is to be thought of as a [[gauge theory]]. 
 More generally ([DAuriaFreCastellani](#DauriaFreCastellani)) have shows that at least some versions, such as the maximal 11-dimensional supergravity are naturally understood as _higher_ gauge theories whose fields are [[∞-Lie algebra-valued forms]] with values in [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. This is described in detail at [[D'Auria-Fre formulation of supergravity]].
 
 
-## References and related entries
+## References
 
 A systematic mathematical treatment of supersymmetry and of supergravity solutions is in 
 
@@ -72,7 +72,7 @@ A systematic mathematical treatment of supersymmetry and of supergravity solutio
 
 The original article that introduced the [[D'Auria-Fre formulation of supergravity]] is
 
-* **geSuGra** R. D'Auria, P. Fr&#233; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
+* R. D'Auria, P. Fr&#233; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
  
 The standard textbook monograph on supergravity and [[string theory]] using these tools is
 
@@ -93,6 +93,6 @@ Furher physics monographs on supergravity include
 
 * [[Julius Wess]], Jonathan Bagger, _Supersymmetry and supergravity_, 1992
 
-* S. Weinberg, _Quantum theory of fields_, volume III: supersymmetry
+* [[Steven Weinberg]], _Quantum theory of fields_, volume III: supersymmetry
 
 [[!redirects supergravities]]
