@@ -15,11 +15,11 @@ A *bicategory of relations* is a [[(1,2)-category]] which behaves like the 2-cat
 A **bicategory of relations** is a [[cartesian bicategory]] which is [[locally posetal 2-category|locally posetal]] and moreover in which for every object $X$, the [[diagonal morphism|diagonal]] $\Delta\colon X\to X\otimes X$ and [[codiagonal]] $\nabla\colon X\otimes X\to X$ satisfy the [[Frobenius condition]]:
 $$\nabla\Delta = (1\otimes \Delta)(\nabla \otimes 1).$$
 
-Of course, in the locally posetal case the definition of cartesian bicategory simplifies greatly: it amounts to a symmetric monoidal $Pos$-enriched category for which every object carries a commutative comonoid structure, for which the structure maps $\Delta_X: X \to X \otimes X$, $\varepsilon_X: X \to 1$ are left adjoint 1-morphisms, and for which every morphism $R: X \to Y$ is a colax morphism of comonoids in the sense that the following inequalities hold: 
+Of course, in the locally posetal case the definition of cartesian bicategory simplifies greatly: it amounts to a symmetric monoidal [[Pos]]-[[enriched category]] for which every object carries a commutative [[comonoid]] structure, for which the structure maps $\Delta_X: X \to X \otimes X$, $\varepsilon_X: X \to 1$ are [[left adjoint]] 1-morphisms, and for which every morphism $R: X \to Y$ is a colax morphism of comonoids in the sense that the following inequalities hold: 
 
 $$R \Delta_Y \leq \Delta_{X \otimes X} (R \otimes R), \qquad R \varepsilon_Y \leq \varepsilon_X.$$
 
-We remark that such structure is unique when it exists (being a cartesian bicategory is a property of, as opposed to structure on, a bicategory). The tensor product $\otimes$ behaves like the ordinary product of relations. Note this is not a cartesian product in the sense of the usual universal property; nevertheless, it is customary to write it as a product $\times$, and we follow this custom below. It does become a cartesian product if one restricts to the subcategory of left adjoints (called _maps_), which should be thought of as functional relations. 
+We remark that such structure is unique when it exists (being a cartesian bicategory is a property of, as opposed to structure on, a bicategory). The [[tensor product]] $\otimes$ behaves like the ordinary product of [[relation]]s. Note this is not a cartesian product in the sense of the usual universal property; nevertheless, it is customary to write it as a product $\times$, and we follow this custom below. It does become a cartesian product if one restricts to the subcategory of left adjoints (called _maps_), which should be thought of as functional relations. 
 
 We record a few consequences of this notion. 
 
@@ -75,9 +75,9 @@ One of the triangular equations follows from the commutative diagram
 
 $$\array{
 X & \stackrel{1 \times \varepsilon_*}{\to} & X \times X & \stackrel{1 \times \Delta}{\to} & X \times X \times X \\
-1 & \searrow & \downarrow \mathrlap{\nabla} & & \downarrow \mathrlap{\nabla \times 1} \\
+ & {}_1\searrow & \downarrow \mathrlap{\nabla} & & \downarrow \mathrlap{\nabla \times 1} \\
  & & X & \overset{\Delta}{\to} & X \times X \\
- & & 1 & \searrow & \downarrow \mathrlap{\varepsilon \times 1} \\
+ & &  & {}_{1}\searrow & \downarrow \mathrlap{\varepsilon \times 1} \\
  & & & & X
 }$$
 
