@@ -69,9 +69,11 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
 
 If we remove the requirement that $P_{\id_x}$ and $P_{x,y,z}(f,g)$ be invertible, then we have the definition of __[[lax functor]]__.  If we reverse the direction of these as well, then we have an __[[oplax functor]]__.
 
+
 ## History
 
-Historical the term pseudofunctor was conceived by Grothendieck who weakened around 1957 the concept of a contravariant functor from a 1-category to Cat, by effectively replacing 1-category Cat by bicategory Cat and allowing contravariant functoriality up to coherent 2-cells. This was recorded in his Bourbaki seminar on the descent via pseudofunctors. Later in [[SGA1]] Grothendieck (with assistance of [[Pierre Gabriel]]) replaces pseudofunctors in the treatment of the descent by more invariant [[fibered categories]]. Benabou in 1967 treatise introducing bicategories generalizes pseudofunctors of Grothendieck to pseudofunctors between arbitrary bicategories but under the name homomorphism of bicategories. 
+Historically the term 'pseudofunctor' was conceived by [[Grothendieck]] who weakened, around 1957, the concept of a [[contravariant functor]] from a [[1-category]] to [[Cat]], by effectively replacing the $1$-category Cat by the [[2-category]] $Cat$ and allowing (contravariant) functoriality up to coherent $2$-cells. This was recorded in his [[Bourbaki]] seminar on [[descent]] via pseudofunctors. Later in [[SGA1]] Grothendieck (with the assistance of [[Pierre Gabriel]]) replaced pseudofunctors in the treatment of descent by more invariant [[fibered categories]]. [[Benabou]], in his 1967 treatise introducing [[bicategories]], generalized the pseudofunctors of Grothendieck to pseudofunctors between arbitrary bicategories but under the name 'homomorphism of bicategories'.
+
 
 ## Discussion
 
@@ -89,10 +91,12 @@ _Toby_:  As you suggest, the two versions are equivalent, so in a way it doesn\'
 =--
 
 
-
 [[!redirects pseudofunctor]]
 [[!redirects pseudofunctors]]
 [[!redirects pseudo functor]]
 [[!redirects pseudo functors]]
 [[!redirects pseudo-functor]]
 [[!redirects pseudo-functors]]
+
+[[!redirects homomorphism of bicategories]]
+[[!redirects homomorphisms of bicategories]]
