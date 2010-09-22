@@ -88,7 +88,7 @@ The compact closure allows us to define the opposite of a relation $R: X \to Y$ 
 
 $$R^{op} = (Y \stackrel{1_Y \times \eta_X}{\to} Y \times X \times X \stackrel{1_Y \times R \times 1_X}{\to} Y \times Y \times X \stackrel{\theta_Y \times 1_X}{\to} X)$$ 
 
-In this way, a bicategory of relations becomes a $\dagger$-[[dagger-compact category|compact]] $Pos$-enriched category. It may be shown that if $f: X \to Y$ is a map, then $f^{op}: Y \to X$ equals the right adjoint $f_*$. Also, it may be shown that maps coincide with strict comonoid morphisms. 
+In this way, a bicategory of relations becomes a [[dagger-compact category|†-compact]] $Pos$-enriched category. It may be shown that if $f: X \to Y$ is a map, then $f^{op}: Y \to X$ equals the right adjoint $f_*$. Also, it may be shown that maps coincide with strict comonoid morphisms. 
 
 +-- {: .un_prop}
 ######Proposition
