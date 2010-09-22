@@ -21,7 +21,7 @@ The _fivebrane Lie 6-algebra_ is the second step in the [[∞-Lie algebra]]-[[Wh
 
 ## Definition
 
-Let $\mathfrakg}$ be the [[special orthogonal Lie algebra]]. The first to [[∞-Lie algebra cocycle]]s on it are in degree 3 and 7.
+Let $\mathfrak{g}$ be the [[special orthogonal Lie algebra]]. The first two [[∞-Lie algebra cocycle]]s on it are in degree 3 and 7.
 
 $$
   \mu_3 : \mathfrak{g} \to b^2 \mathbb{R}
@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-The [[∞-Lie algebra cohomology|extension]] clasified by the first is the [[string Lie 2-algebra]]
+The [[∞-Lie algebra cohomology|extension]] classified by the first is the [[string Lie 2-algebra]]
 
 $$
   b \mathbb{R} \to \mathfrak{string} \to \mathfrak{so}
@@ -62,10 +62,10 @@ Under [[Lie integration]] the Lie 6-algebra $\mathfrak{fivebrane}$  yields the [
 
 ## References
 
-As with many of these [[∞-Lie algebra]]-constructions, the existence of the object itself, regarded dually as a [[dg-algebra]] is a triviality in [[rational homotopy theory]], but the interpretation in $\infty$-Lie theory adds a new perspective to it. In this context the fivebrane Lie 6-algebras was introduced in
+As with many of these [[∞-Lie algebra]]-constructions, the existence of the object itself, regarded dually as a [[dg-algebra]] is a triviality in [[rational homotopy theory]], but the interpretation in $\infty$-Lie theory adds a new perspective to it. In this context the fivebrane Lie 6-algebra was introduced in
 
 * SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
-and its relation to [[fivebrane structure]]s ans [[quantum anomaly]]-cancellation in [[dual heterotic string theory]] was discussed in 
+and its relation to [[fivebrane structure]]s and [[quantum anomaly]]-cancellation in [[dual heterotic string theory]] was discussed in 
 
 * SSSII <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">web</a>
