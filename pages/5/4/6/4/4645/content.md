@@ -2736,6 +2736,7 @@ $$
   \,.
 $$
 
+
 +-- {: .un_def}
 ###### Definition
 
@@ -2790,18 +2791,87 @@ $$
   \,.
 $$
 
-This sits in an evident chain of morphisms
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+If we just consider the top horizontal morphism in this diagram we obtain the object
 
 $$
-  \exp(\mathfrak{g})_{conn}
-  \hookrightarrow
-  \exp(\mathfrak{g})_{diff}
-  \stackrel{\simeq}{\to}
-  \exp(\mathfrak{g})
+  \exp(\mathfrak{a})(U)
+  :
+  [k]
+  \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet(U \times \Delta^k)_{vert}
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{a})
+     }
+  \right\}
+$$
+
+discussed in detail at [[Lie integration]]. If we consider the top square of the diagram we obtain the object
+
+$$
+  \exp(\mathfrak{a})_{diff}(U)
+  :
+  [k]
+  \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet(U \times \Delta^k)_{vert}
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{a})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{a})
+   }
+  \right\}
   \,.
 $$
 
+This forms a [[resolution]] of $\exp(\mathfrak{g})$ and may be thought of as the $\infty$-groupoid of [[pseudo-connection]]s.
+
+
+We have therefore the evident sequence of morphisms
+
+$$
+  \array{
+    \exp(\mathfrak{g})_{conn} &&& genuine\;connections
+    \\
+    \downarrow
+    \\
+    \exp(\mathfrak{g})_{CW} &&& pseudo-connection\;with\;global\;curvature\;characteristics 
+    \\
+    \downarrow
+    \\
+    \exp(\mathfrak{g})_{diff} &&& pseudo-connections
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \exp(\mathfrak{g}) &&& bare bundles
+  }
+  \,.
+$$
+
+Here the botton morphism is a weak equivalence and the others are [[monomorphism]]s. 
+
+Notice that in full [[∞-Chern-Weil theory]] the fundamental object of interest is really $\exp(\mathfrak{g})_{diff}$ -- the object of [[pseudo-connection]]s. The other objects only serve the purpose of picking particularly nice representatives: 
+
+the object $\exp(\mathfrak{g})_{CW}$ may contain pseudo-connections, those for which at least the associated [[circle n-bundles with connection]] given by the $\infty$-Chern Weil homomorphism are genuine connections.
+
+This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [[smooth manifold]]s but for instance [[orbifold]]s, the genuine connections for higher Lie algebras do _not_ exhaust all nonabelian differential cocycles. This just means that not every differential class in this case does have a nice representative in the usual sense.
+
 =--
+
+
 
 +-- {: .un_remark}
 ###### Remark
@@ -2894,7 +2964,7 @@ We call $\lambda$ the **gauge parameter** . This is a function on $\Delta^1$ wit
 
 =--
 
-We describe now how this enccodes a gauge transformation
+We describe now how this enccodes a [[gauge transformation]]
 
 $$
   A_0(s=1) \stackrel{\lambda}{\to} A_U(s = 1)
@@ -2904,7 +2974,18 @@ $$
 +-- {: .un_lemma}
 ###### Observation
 
-The condition that all [[curvature characteristic form]]s descent to $U$ in that $A$ completes to a diagram
+The condition that all components 
+
+$$
+  \Omega^\bullet(U \times \Delta^1)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{r^a}{\leftarrow}
+  \wedge^1 \mathfrak{g}^*
+  F_A^a
+$$
+
+of the [[curvature]] forms vanish when evaluated on the [[vector field]] $\partial_s$ along $\partial_s$ is sufficient to ensure that all [[curvature characteristic form]]s to $U$ in that $A$ completes to a diagram
 
 $$
   \array{
@@ -2920,18 +3001,37 @@ $$
   }
 $$
 
-is solved by requiring all components 
+=--
+
++-- {: .proof}
+###### Proof
+
+In this case $\langle F_A \rangle$ evidently has no leg along the simplex.
+Moreover since this form is closed (by the nature of [[invariant polynomial]]s) it follows that the [[Lie derivative]] $\mathcal{L}_v [d_{dR}, \iota_v]$ along a vector $v \in \Gamma (T X)$ vanishes
 
 $$
-  \Omega^\bullet(U \times \Delta^1)
-  \stackrel{A}{\leftarrow}
-  W(\mathfrak{g})
-  \stackrel{r^a}{\leftarrow}
-  \wedge^1 \mathfrak{g}^*
-  F_A^a
+  \mathcal{L}_v \langle F_A \rangle = 
+  d \iota_v \langle F_A \rangle
+  + 
+  \iota_v d \langle F_A \rangle
+  = 0
+  \,.
 $$
 
-of the [[curvature]] forms to vanish when evaluated on the [[vector field]] $\partial_s$ along $\partial_s$.
+Since forms that neither have a component on the simplex and whose derivative along the simplex vanishes come from $U$, this proves the claim.
+
+=--
+
++-- {: .un_lemma}
+###### Remark
+
+For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms themselves are not closed, hence requiring them to have no component along the simplex does not similarly imply that they descent. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
 
 By the nature of the [[Weil algebra]] we have
 
@@ -2940,20 +3040,14 @@ $$
   =
   d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
   + 
-  \iota_{\partial_s}(F_A)
+  \iota_s F_A
   \,,
 $$
 
-so that this condition is a system of ordinary [[differential equation]]s of the form
-
-\[
-  \frac{d}{d s} A_U
-  =
-  d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
-  \,,
-\]
-
 where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{g}$.
+
+=--
+
 
 =--
 
@@ -2978,7 +3072,7 @@ In this notation we have
     \label{ShiftedGaugeTrafo}
   \]
 
-* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]**
+* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]**, the [[differential equation]]
 
   \[
     \frac{d}{d s} A_U = \nabla \lambda
@@ -2993,10 +3087,9 @@ This is known as the equation for **infinitesimal [[gauge transformation]]s** of
 
 By [[Lie integration]] we have that $A_{vert}$ -- and hence $\lambda$ -- defines an element $\exp(\lambda)$ in the [[∞-Lie group]] that integrates $\mathfrak{g}$. 
 
-The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the gauge transformatin $\exp(\lambda)$. 
+The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the gauge transformatin $\exp(\lambda)$. 
 
 =--
-
 The following proposition shows how connections on ordinary bundles are reproduced by the general definition.
 
 +-- {: .un_prop}
