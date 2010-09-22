@@ -51,10 +51,10 @@ The historical paper of Hurewicz is
 
 * Witold Hurewicz, _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
 
-Hurewicz fibrations are nowdays a standard topic in textbooks of algebraic topology (Whitehead, Spanier, Hatcher...). 
+Hurewicz fibrations are nowadays a standard topic in textbooks of algebraic topology (Whitehead, Spanier, Hatcher...). 
 
 
 [[!redirects Hurewicz fibrations]]
 
-[Fort Worth Web Design](http://www.thefowlergroup.com/fort-worth-texas-web-design/) : [Essays](http://www.essaywriter.co.uk/services.aspx) : [Digital Printing](http://www.foxypropaganda.com/digital-printing-fort-worth/) : [Halloween Contacts](http://www.discount-lenses.com/halloween-contact-lenses.php) : [Whitetail Deer Hunting](http://www.huntingtexastrophies.com/texas-hunting-packages/texas-whitetail-deer-hunting/)
+
 
