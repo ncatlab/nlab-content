@@ -65,4 +65,3 @@ The $n$Lab is a community undertaking. But for all matters that do require that 
 
 
 category: meta
-[Fort Worth Web Design](http://www.thefowlergroup.com/fort-worth-texas-web-design/) : [Essays](http://www.essaywriter.co.uk/services.aspx) : [Digital Printing](http://www.foxypropaganda.com/digital-printing-fort-worth/) : [Halloween Contacts](http://www.discount-lenses.com/halloween-contact-lenses.php) : [Whitetail Deer Hunting](http://www.huntingtexastrophies.com/texas-hunting-packages/texas-whitetail-deer-hunting/)
