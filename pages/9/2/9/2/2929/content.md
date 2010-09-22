@@ -67,6 +67,7 @@ In a bicategory of relations, each object is dual to itself, making the bicatego
 =-- 
 
 +-- {: .proof} 
+######Proof
 Both the unit and counit of the desired adjunction $X \dashv X$ are given by equality predicates: 
 
 $$\eta_X = (1 \stackrel{\varepsilon_*}{\to} X \stackrel{\Delta}{\to} X \times X \qquad \theta_X = (X \times X \stackrel{\nabla}{\to} X \stackrel{\varepsilon}{\to} 1)$$
@@ -97,7 +98,7 @@ If $f, g: X \to Y$ are maps and $f \leq g$, then $f = g$. Thus, the locally full
 
 +-- {: .proof} 
 ######Proof 
-A 2-cell inequality $\alpha: f \leq g$ is mated to a inequality $g_* \leq f_*$. On the other hand, whiskering $1_Y \times \alpha \times 1_X$ with $1_Y \times \eta_X$ and $\theta_Y \times 1_X$, as in the construction of opposites above, gives $\alpha^{op}: f^{op} \leq g^{op}$. Thus we obtain $f^{op} = g^{op}$, and because the dagger operation $(-)^{op}$ is involutory, we obtain $f = g$. 
+A 2-cell inequality $\alpha: f \leq g$ is mated to a inequality $\alpha_*: g_* \leq f_*$. On the other hand, whiskering $1_Y \times \alpha \times 1_X$ with $1_Y \times \eta_X$ and $\theta_Y \times 1_X$, as in the construction of opposites above, gives $\alpha^{op}: f^{op} \leq g^{op}$. Thus we obtain $f^{op} = g^{op}$, and because the dagger operation $(-)^{op}$ is involutory, we obtain $f = g$. 
 =--
 
 ## See also
