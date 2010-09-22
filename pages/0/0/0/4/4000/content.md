@@ -14,6 +14,11 @@
 =--
 =--
 
+* **Chern-Simons circle 3-bundle**
+
+* [[Chern-Simons circle 7-bundle]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -37,7 +42,7 @@ from $G$-[[principal bundle]]s with [[connection on a bundle|connection]] $\nabl
 
 By construction, the [[curvature]] 4-form of $\hat c(\nabla)$ is the [[curvature characteristic form]] $\langle F_\nabla \wedge F_\nabla\rangle$ of $\nabla$ and accordingly the 3-form connection on $\hat c(\nabla)$ is locally a [[Chern-Simons form]] $CS(\nabla)$ of $\nabla$.
 
-Accordingly, the [[parallel transport]] induced by $\hat c(\nabla)$ over 3-dimensional manifolds $\phi : \Sigma \to X$ is the [[action functional]] of the [[quantum field theory]] called [[Chern-Simons theory]]. In this form it appears for instance as the [[gauge field]] called the [[supergravity C-field]] in certain [[supergravity]] theories. In particular, if (with due care) one takes $\nabla$ to be the _universal connection on the $G$-[[universal principal bundle]]_ over a smooth version of $B G$, then $\hat c(\nabla)$ is the background [[gauge field]] for bare [[Chern-Simons theory]].
+Accordingly, the [[higher parallel transport]] induced by $\hat c(\nabla)$ over 3-dimensional manifolds $\phi : \Sigma \to X$ is the [[action functional]] of the [[quantum field theory]] called [[Chern-Simons theory]]. In this form it appears for instance as the [[gauge field]] called the [[supergravity C-field]] in certain [[supergravity]] theories. In particular, if (with due care) one takes $\nabla$ to be the _universal connection on the $G$-[[universal principal bundle]]_ over a smooth version of $B G$, then $\hat c(\nabla)$ is the background [[gauge field]] for bare [[Chern-Simons theory]].
 
 Therefore this structure $\hat c(\nabla)$ has become known as the **Chern-Simons 2-gerbe**  of $\nabla$. We may also think of it as the _Chern-Simons [[circle n-bundle with connection|circle 3-bundle]]_ .
 
@@ -188,7 +193,7 @@ from the $G$-principal bundles with connection to [[ordinary differential cohomo
 1. for a given [[Lie algebra]] $\mathfrak{g}$ the realization of the corresponding [[Lie group]] as a truncation of the simplicial presheaf
 
    $$
-     (U,[n]) \mapsto \{C^\infty(U)\otimes \Omega^\bullet(\Delta^n) \leftarrow CE(\mathfrak{g})\}
+     (U,[n]) \mapsto \{\Omega^\bullet(U\times \Delta^n) \leftarrow CE(\mathfrak{g})\}
    $$
 
    (see [[Lie integration]]);
@@ -287,7 +292,7 @@ $$
   \mathbf{cosk}_3 \exp(\mathfrak{g}) \to \mathbf{B}G
 $$
 
-from the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ to the [[delooping]] of the simply connected Lie group $G$ which is given on 1-morphisms by [[parallel transport]] is an equivalence ( in the [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj}$).
+from the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ to the [[delooping]] of the simply connected Lie group $G$ which is given on 1-morphisms by [[higher parallel transport]] is an equivalence ( in the [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj}$).
 
 =--
 
@@ -327,10 +332,10 @@ discussed at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#Integra
 
 =--
 
-The top morphism sends a $U$-family of 3-morphisms $C^\infty(U) \otimes \Omega^\bullet(\Delta^3) \stackrel{A}{\leftarrow} CE(\mathfrak{g})$ -- which we may  think of as a $U$-family of based 3-balls $\Sigma : U \times \Delta^3 \to G$ -- to the family of 3-forms
+The top morphism sends a $U$-family of 3-morphisms $\Omega^\bullet(U \times \Delta^3) \stackrel{A}{\leftarrow} CE(\mathfrak{g})$ -- which we may  think of as a $U$-family of based 3-balls $\Sigma : U \times \Delta^3 \to G$ -- to the family of 3-forms
 
 $$
-  C^\infty(U) \otimes \Omega^\bullet(\Delta^3) \stackrel{A}{\leftarrow} CE(\mathfrak{g})
+  \Omega^\bullet(U \times \Delta^k)_{vert} \stackrel{A}{\leftarrow} CE(\mathfrak{g})
   \stackrel{\mu}{\leftarrow}
   CE(b^2 \mathbb{R})
   : 
@@ -340,8 +345,9 @@ $$
 which we may think as a family of closed 3-forms
 
 $$
-\mu^*(A)\in C^\infty(U)\otimes \Omega^3_{closed}(\Delta^3)
+\mu^*(A)\in \Omega^\bullet(U \times \Delta^k)_{vert}
 $$
+
 The right vertical morphism sends this to the [[fiber integration]]
 
 $$
@@ -385,12 +391,12 @@ $$
   (U,[n]) \mapsto
   \left\{
     \array{
-      C^\infty(U)\otimes \Omega^\bullet(\Delta^n)
+      \Omega^\bullet(U \times \Delta^k)_{vert}
       &\stackrel{}{\leftarrow}& CE(\mathfrak{g})
       \\
       \uparrow && \uparrow
       \\
-      \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+      \Omega^\bullet(U \times \Delta^k)
       &\leftarrow&
       W(\mathfrak{g})
     }
@@ -572,7 +578,7 @@ Notice by the way that this construciton also serves as a manifest proof that th
 This is a matter of plugging the above pieces into each other. For instance on double intersections we have that the 3-form $CS(\hat A_{i j})$ is the image of the degree 3-generator on $W(b^2 \mathbb{R})$ under the composite
 
 $$
-  \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+  \Omega^\bullet(U \times \Delta^k)_{vert}
   \stackrel{\hat A_{i j}}{\leftarrow}
   W(\mathfrak{g})
   \stackrel{(cs,\langle -\rangle)}{\leftarrow}
@@ -675,3 +681,4 @@ Here are some slides from talks:
 * [[Krzysztof Gawedzki]], _Wess-Zumino-Witten and Chern-Simons theories for non-simply connected Lie groups_ ([pdf](http://dftuz.unizar.es/ftzar/activities/highenergy09_talks/gawedzki.pdf))
 
 [[!redirects Chern-Simons bundle 2-gerbe]]
+
