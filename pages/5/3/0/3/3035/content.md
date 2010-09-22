@@ -154,6 +154,8 @@
 
 * [[string Lie 2-algebra]]
 
+* [[fivebrane Lie 6-algebra]]
+
 * [[supergravity Lie 3-algebra]]
 
 
