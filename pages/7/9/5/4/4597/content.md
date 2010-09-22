@@ -1124,33 +1124,9 @@ The content of this subsection is at [[Chern-Simons 2-gerbe|Chern?Simons 2-gerbe
 
 The content of this section is at [[differential string structure]].
 
-#### The Fivebrane-lifting Chern-Simons 6-bundle with connection {#FivebraneStructure}
+#### The Fivebrane-lifting Chern-Simons 7-bundle with connection {#FivebraneStructure}
 
-
-We show now that the Lie integration of the differential $\infty$-Lie algebra cocycle corresponding to the degree 7 cocycle on the [[nLab:string Lie 2-algebra]] $\mathfrak{string}$
-
-$$
-  \exp(\mathfrak{string} \to inn(\mathfrak{string}))/\sim
-  \stackrel{\exp(\mu_7, P_8)}{\to}
-  \exp(b^6 \mathbb{R} \to inn(b^6 \mathbb{R})/\sim
-  \to
-  \mathbf{B}^7 U(1)_{diff}
-$$
-
-is a model for the differential refinement of the second fractional Pontryagin class
-
-$$
-  \frac{1}{6}p_2
-  : 
-  \mathbf{H}_{conn}(-, \mathbf{B}String)
-  \to
-  \mathbf{H}_{diff}(-, \mathbf{B}^7 U(1))
-  \,.
-$$
-
-The discussion is entirely analogous to the discussion of the differential refinekent of the first fractional Pontryagin class [above](#StringStructure).
-
-(...)
+The content of this section is at [[Chern-Simons circle 7-bundle]].
 
 #### Differential fivebrane structures {#DiffFivebraneStrucs}
 
@@ -1198,9 +1174,9 @@ The $\infty$-Lie algebraic data involved in the $\infty$-Chern-Weil homomorphism
 * SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 {#SSSI}
 
-An more comprehensive context is described at
+For a commented list of related literature see
 
-* [[schreiber:differential cohomology in an (∞,1)-topos]]
+* <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references">differential cohomology in an (∞,1)-topos -- references</a>
 
 [[!redirects ∞-Chern-Weil theory]]
 
