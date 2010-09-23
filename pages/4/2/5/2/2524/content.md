@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 For a classical mechanical system, the laws of motion can be expressed in terms of action principle: the actual paths must be the (locally) extremal paths of the [[action functional]]. 
 
 In one of the formulations of the classical mechanics, called Lagrangean formalism, every mechanical system is characterized by its configuration space and a single function called Lagrangian which determines the laws of motion (the initial configuration should be given independently).
@@ -15,3 +26,5 @@ For continuum systems satisfying reasonable locality, Lagrangians can be express
 [[!redirects Lagrangean]]
 [[!redirects Lagrangian function]]
 [[!redirects Lagrangian density]]
+
+[[!redirects Lagrangian mechanics]]
