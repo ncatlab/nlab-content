@@ -6,9 +6,16 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 =--
 =--
 
+[[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
