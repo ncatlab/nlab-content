@@ -14,6 +14,7 @@
 
   * [[parallel transport]]
 
+  * [[higher parallel transport]]
   * [[holonomy]]
 
 * [[curvature]]
