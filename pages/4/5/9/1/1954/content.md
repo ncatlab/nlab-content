@@ -2,12 +2,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential cohomology
+#### $\infty$-Chern-Weil theory
 +--{: .hide}
-[[!include differential cohomology - contents]]
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
+
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -15,40 +22,66 @@
 
 ## Idea 
 
+The notion of _Ehresmann connection_ is one of the various equivalent definitions of [[connection on a bundle]].
+
 The notion of _Ehresmann connection_ describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $p : P \to X$ (for $G$ some [[Lie group]]) in terms of a distribution of horizontal subspaces $H \subset T P$ which is a subbundle of the [[tangent bundle]] of $P$ complementary at each point to the vertical tangent bundle to the fiber. This subbundle can be expressed as field of subspaces $H_x = Ker A_x = Ann A_x\subset T P$ ($x\in P$) which are pointwise annihilators of a smooth [[Lie algebra]]-valued $1$-[[differential form|form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two conditions spelled out below. 
 
-This can be understood as the special case of [[schreiber:Differential Nonabelian Cohomology|nonabelian differential G-cocycle]] -- namely a cocycle with values in the [[groupoid of Lie-algebra valued forms]] $\bar \mathbf{B} G $ -- in [[Čech cohomology]] using the "canonical" [[Čech cover]] 
+## Definition
 
-$$\cdots \to P \times_X P \simeq P \times G \stackrel{\to}{\to} P
-$$ 
+### In terms of differential forms
 
-that comes from the total space surjection $p : P \to X$ of the [[bundle]] itself.
-
-By the general mechanism of nonabelian [[Čech cohomology]] this means that a $\bar \mathbf{B}G$-valued cocycle with respect to this cover is
-
-* a morphism $A : P \to \bar \mathbf{B}G$ : this is precisely given by the 1-form $A \in \Omega^1(P,Lie(G))$;
-
-* a tranformation $g : p_1^*A \to p_2^*A$ that restricts to the $\mathbf{B}G$-cocycle of the underlying $G$-bundle.
-
-Since $P \times_X P \simeq P \times G$ one may differentiate this transformation $g$ at the identity element of $G$. It is an exercise to check that this differential version of the &#268;ech cocycle condition yields the following two conditions on $A$
-
-1. **first Ehresmann condition** -- restricted to the fibers, i.e. pulled back along $\array{G &\stackrel{i_x}{\to}& P \\ \downarrow && \downarrow \\ {*} &\stackrel{x}{\to}& X}$ it becomes the canonical left-invariant $Lie(G)$-valued 1-form $\theta \in \Omega^1(G,Lie(G))$ on $G$
-
-  $$
-    i_x^* A = \theta
-  $$
-
-2. **second Ehresmann condition** -- The form $A$ is _equivariant_ with respect to the $G$-[[action]] on $P$ in some sense. 
-
-The crucial implication of the second property is that all [[characteristic form]]s of $A$ in $\Omega^\bullet(P)$ are pullbacks of forms on $X$: for $I$ any degree $k$ [[invariant polynomial]] on $Lie(G)$ and for $F_A \in \Omega^2(P,Lie(G))$ the curvature 2-form, we have
+Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $P \to X$ a $G$-[[principal bundle]]. Let
 
 $$
-  \exists c_I \in  \Omega^{2k}(X) : 
-  I(F_A) = p^* c_I
-  \,.
+  \rho : P \times G \to P
 $$
 
-## definition via subspaces
+be the [[action]] of $G$ on $P$ and
+
+$$
+  \rho_* : \mathfrak{g} \to \Gamma(T X)
+$$
+
+its derivative, sending each element $x \in \mathfrak{g}$ to the [[vector field]] on $P$ that gives the flow it induces under $\rho$.
+
+For $v \in \Gamma(T X)$ and $\omega$ a differential form on $P$ write $\iota_v \omgea$ for the contraction.
+
+A **Cartan-Ehresmann connection** on $P$ is a [[Lie algebra-valued 1-form]]
+
+$$
+  A\in \Omega^1(P, \mathfrak{g})
+$$
+
+satisfying two conditions
+
+1. **first Ehresmann condition** 
+
+   for every $x \in \mathfrak{g}$ we have
+
+   $$
+     \iota_{\rho_*(x)} A = x
+     \,.
+   $$
+
+2. **second Ehresmann condition**
+
+   for every $x \in \athfrak{g}$ we have
+
+   $$
+     \iota_{\rho_*(x)} F_A = 0
+     \,.
+   $$
+
+**Proposition** These two conditions are equivalent to
+
+1. $\iota_x A = x$
+
+1. $\mathcal{L}_x A = ad_x A$ .
+
+(...)
+
+### In terms of distributions
+
 As already mentioned a connection can equally well be defined by a consistent separation of every tangent space $T_u P$ into the vertical subspace $V_u P$ and the horizontal subspace $H_u P$ such that
 
 1. $T_u P \: = \: H_u P \oplus V_u P$
