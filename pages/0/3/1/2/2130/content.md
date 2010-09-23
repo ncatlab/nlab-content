@@ -26,3 +26,5 @@ Shouldn't there be an explanation how a symplectic manifold is a 0-symplectic ma
 
 [[!redirects symplectic manifolds]]
 [[!redirects symplectic form]]
+
+[[!redirects symplectic structure]]
