@@ -1,10 +1,8 @@
-#Contents#
-
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-
-+-- {: .query}
++-- {: .standout}
 
 **Disclaimer**
 
@@ -15,7 +13,7 @@ Yes, very welcome. Thanks! -- [[Urs Schreiber|US]].
 =--
 
 
-#Idea#
+## Idea
 
 One way of thinking of the blob complex is as a generalization of the [[Hochschild complex]] to [[higher category theory|higher categories]] and higher dimensional [[manifold]]s.  
 
@@ -24,12 +22,12 @@ One thinks of the Hochschild complex as associated to a 1-[[category]] and a 1-[
 Its advantage over the Hochschild complex is that it is "local".  In higher dimensions this locality means that it is easy to (well-) define the blob complex of an [[n-category]] + n-manifold without choosing any sort of decomposition of the n-manifold.
 
 
-#Definition#
+## Definition
 
 There are two definitions.  The second is more general, and is homotopy equivalent to the first when both are available.  See references below for more details.
 
-## First definition ##
 
+### First definition
 
 * Start with a linear [[n-category]] $C$ with [[strong duality]] (e.g. [[pivotal 2-category]]) and an $n$-[[manifold]] $M$.
 
@@ -40,15 +38,18 @@ There are two definitions.  The second is more general, and is homotopy equivale
 
 * Define $B_2(M)$ to be ...
 
-## Second definition ##
+
+### Second definition
 
 ...
 
-#Examples#
+
+## Examples
 
 ...
 
-#Related entries#
+
+## Related entries
 
 Blob homology has some similarities with 
 
@@ -60,7 +61,8 @@ It should be closely related to
 
 * [[topological chiral homology]].
 
-#References#
+
+## References
 
 A rough pre-preprint is here:
 
@@ -78,6 +80,9 @@ See the
 * Oberwolfach report No 28, 2009, [pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf)
 
 
+[[!redirects blob homology]]
+[[!redirects Blob homology]]
 [[!redirects blob complex]]
+[[!redirects blob complexes]]
 [[!redirects blob chain complex]]
-
+[[!redirects blob chain complexes]]
