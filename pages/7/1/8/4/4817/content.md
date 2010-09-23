@@ -9,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -24,6 +24,7 @@ By general [[electric-magnetic duality]] (see [Freed](#Freed) for a formal treat
 T&he study of the the corresponding perturbation series over correlators of the 6-dimensional fivebrane worldvolume [[SCFT]] over 6-volumes is far from tractable,  but a handful of consistency checks exist, that the corresponding _dual heterotic string theory_ makes sense.
 
 Where the [[quantum anomaly]]-cancellation for the heterotic string involves the demand for (twissted) [[string structure]]s, that for the dual theory involves [[fivebrane structure]]s (which gives these their name).
+
 
 ## References
 
@@ -40,3 +41,7 @@ So this is the EM-dual analog of the Kiilingback-Witten-computation of the fermi
 For a description of the general mechanism in [[differential cohomology]] at work here, see
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+{#Freed}
+
+
+[[!redirects dual heterotic string theory]]
