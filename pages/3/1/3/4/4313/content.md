@@ -1,4 +1,9 @@
+# Matrix factorizations
+* table of contents
+{: toc}
+
 There are two different meanings of phrase "matrix factorization" which are closely related, one generic for various [[matrix decomposition]]s, like Gauss, LU etc. decompositions of matrices into products, and another rather specific, in the sense of Eisenbud and followers. This entry is dedicated to the latter as it is concerns appearance of certain categories in mathematical physics. 
+
 
 ## Overview
 
@@ -16,6 +21,7 @@ There is also the Calabi-Yau/Landau-Ginzburg correspondence. In some cases, cate
 
 For general theory and properties of matrix factorizations, see work of Orlov. For example, matrix factorization categories are related to derived categories of singularities.
 
+
 ## Literature
 
 * [[David Eisenbud]], _Homological algebra on a complete intersection, with
@@ -25,9 +31,16 @@ an application to group representations_, Trans. Amer. Math. Soc.,
 * T. Dyckerhoff, _Compact generators in the categories of matrix factorizations_, [arxiv/0904.4713](http://arxiv.org/abs/0904.4713)
 
 * [[Dmitri Orlov]], _Derived categories of coherent sheaves and triangulated categories of singularities_, Algebra, arithmetic, and geometry: in honor of
-Yu. I. Manin. Vol. II, 503&#8211;531, Progr. Math., 270, Birkh&#180; 'auser Boston,
+Yu. I. Manin. Vol. II, 503&#8211;531, Progr. Math., 270, Birkh&#228;user Boston,
 Inc., Boston, MA, 2009.
 
 * Junwu Tu, _Matrix factorizations via Koszul duality_, [arxiv/1009.4151](http://arxiv.org/abs/1009.4151)
 
+
+[[!redirects matrix factorization]]
+[[!redirects matrix factorizations]]
+[[!redirects matrix factorisation]]
+[[!redirects matrix factorisations]]
+
 [[!redirects matrix factorization category]]
+[[!redirects matrix factorisation category]]
