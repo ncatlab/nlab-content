@@ -14,14 +14,14 @@
 =--
 =--
 
-
 [[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].  
 
-#The $n$Lab#
+
+# The $n$Lab
 * automatic table of contents goes here
 {:toc}
 
-##Purpose
+## Purpose
 {#purpose}
 
 We think of this wiki as our **lab book** that we happen to keep open for all to see.
@@ -38,16 +38,18 @@ For more see [[About]].
 
 We originally designed this place as as an adjunct to the [$n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/), but it\'s more independent now. 
 
+
 ## Discussion 
 
 While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). We inform ourselves about latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5). Have a look around there. 
+
 
 ## Contributing 
 
 If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). Then see the [[HowTo]]-page for more details.
 
-## Software requirements
 
+## Software requirements
 
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  
 
@@ -56,12 +58,14 @@ Notice that **you don't need to know any MathML**. Only your browser does. You w
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
 
-
-
 ## Steering Committee 
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
 
 
-
 category: meta
+
+[[!redirects HomePage]]
+[[!redirects Home Page]]
+[[!redirects Homepage]]
+[[!redirects Home page]]
