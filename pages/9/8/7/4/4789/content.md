@@ -58,7 +58,7 @@ We may equivalently express these two conditions as asserting the existence of a
 
 $$
   \array{
-    CE(\mathfrak{g}) &\leftarrow& CE(b^{n-1} \mathbb{R})
+    CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{n-1} \mathbb{R})
     \\
     \uparrow && \uparrow
     \\
@@ -260,10 +260,10 @@ $$
 
 
 
-### On symplectic $\infty$-Lie algebroids -- The AKSZ Lagrangian
+### On symplectic $\infty$-Lie algebroids -- The AKSZ Lagrangian {#Symplectic}
 
 
-A [[schreiber:symplectic ∞-Lie algebroid]] / [[n-symplectic manifold]] $(\mathfrak{a}, \omega)$ is a [[∞-Lie algebroid|Lie n-algebra]] $\mathfrak{a}$ equipped with a binary non-degenerate [[invariant polynomial]] $\omega \in W(\mathfrak{a})$ of degree $n+2$.
+A [[schreiber:symplectic ∞-Lie algebroid]] / [[n-symplectic manifold]] $(\mathfrak{a}, \omega)$ is a [[∞-Lie algebroid|Lie n-algebroid]] $\mathfrak{a}$ equipped with a binary non-degenerate [[invariant polynomial]] $\omega \in W(\mathfrak{a})$ of degree $n+2$.
 
 The corresponding Chern-Simons elements of $\omega$ are the integrands for the [[action functional]]s of various [[TQFT]] [[sigma-model]]s.
 
@@ -284,17 +284,16 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-The cocycle $\mu$ is in transgression with $\frac{1}{2}\omega$. On a coordinate patch $\{x^i\}$ a Chern-Simons element is
+The cocycle $\mu$ is in transgression with the invariant polynomial $\frac{1}{2}\omega$ via the Chern-Simons element 
 
 $$
   \begin{aligned}
-    cs &= \frac{1}{4}\iota_{v} \omega_{a b} + \mu
-    \\
-    &= \frac{1}{2} \omega_{i j} x^i \mathbf{d}x^j + \mu
+    cs &= \frac{1}{2 (n+2)}\iota_{\epsilon} \omega - \mu
   \end{aligned}
   \,,
 $$
 
+where $\epsilon$ is the Euler vector field ([Roytenberg](#Roytenberg)).
 
 =--
 
@@ -314,29 +313,31 @@ Observe that
    $$
 
 
-1. we have garded commutators 
+1. we have graded commutators 
 
-   $[\mathb{d}, \iota_v] = Id$ 
+   * $[\mathbf{d}, \iota_v] = N$ (the degree operator) 
 
    and 
 
-   $[d_{CE(\mathfrak{a})}, \iota_v] = d_{CE(\mathfrak{a})}\mathbf{d}^{-1}$.
+   * $[d_{CE(\mathfrak{a})}, \iota_v] = -N d_{CE(\mathfrak{a})}\mathbf{d}^{-1}$.
+
+   (as one checks on generators).
 
 Therefore 
 
 $$
   \begin{aligned}
-    d_{W(\mathfrak{a})} \frac{1}{2}\iota_{v} \omega
+    d_{W(\mathfrak{a})} \frac{1}{2(n+2)}\iota_{v} \omega
     &= 
-    [d_{W(\mathfrak{a})}, \iota_{v}] \frac{1}{2}\omega
+    [d_{W(\mathfrak{a})}, \iota_{v}] \frac{1}{2(n+2)}\omega
     \\
     & =
-    (Id + d_{CE(\mathfrak{a})} \mathbf{d}^{-1} ) \frac{1}{2}\omega
+    (Id - d_{CE(\mathfrak{a})} \mathbf{d}^{-1} ) \frac{1}{2}\omega
     \\
     & =
-    \frac{1}{2}\omega + \omega_{a b} \{\mu, x^a\} \mathbf{d}x^b
+    \frac{1}{2}\omega - \omega_{a b} \{\mu, x^a\} \mathbf{d}x^b
     \\
-    &= \frac{1}{2} \omega - \mathbf{d}\mu
+    &= \frac{1}{2} \omega + \mathbf{d}\mu
   \end{aligned}
   \,,
 $$
@@ -345,6 +346,15 @@ where in the first line we used that by definition of [[invariant polynomial]] $
 
 $$
   d_{W(\mathfrak{a})} \mu = \mathbf{d}\mu
+  \,.
+$$
+
+So in total we have
+
+$$
+  d_{W(\mathfrak{a})} (\frac{1}{2(n+2)} \iota_\epsilon \omega - \mu)
+  =
+  \omega
   \,.
 $$
 
@@ -455,12 +465,12 @@ Further discussion is in
 * [[Chris Rogers]] [[Urs Schreiber]], _$\infty$-Chern-Simons action functionals_
 
 
-A survey of higher Chern-Simons elements and their action functions as applied to [[gravity]] and [[supergravity]] is in
+A survey of higher Chern-Simons elements and their action functionals as applied to [[gravity]] and [[supergravity]] is in
 
 * Jorge Zanelli, _Lecture notes on Chern-Simons (super-)gravities_ [arXiv:0502193](http://arxiv.org/abs/hep-th/0502193)
 {#Zanelli}
 
-For the discussion if symplectic $n$-Lie algebroids above see [[n-symplectic manifold]] and
+For the discussion of symplectic $n$-Lie algebroids above see [[n-symplectic manifold]] and
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv:math/0203110](http://arxiv.org/abs/math/0203110))
 {#Roytenberg}
