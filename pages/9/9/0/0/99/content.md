@@ -618,11 +618,25 @@ $$
 
 ## References
 
-* [[eom]]: [Weil algebra of a Lie algebra](http://eom.springer.de/W/w130050.htm)
+Among the original references on Weil algebras for ordinary Lie algebras is 
 
-The use of the Weil algebra in the calculation of the equivariant [[de Rham cohomology]] of manifolds acted on by a compact group goes at least back to two papers by H. Cartan from 1950. These papers are reprinted, explained and put in a modern context in the book
+* [[Henri Cartan]], _Cohomologie r&#233;elle d'un espace fibr&#233; principal diffrentielle_ I, II, S&#233;minaire Henri Cartan,
+1949/50, pp. 19-01 &#8211; 19-10 and 20-01 &#8211; 20-11, CBRM, (1950).
 
-* Victor Guillemin, Shlomo Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
+and
+
+* [[Henri Cartan]], _Notions d'alg&#233;bre diff&#233;rentielle; application aux groupes de Lie et aux vari&#233;t&#233;s ou op&#232;re un
+groupe de Lie_ , Colloque de topologie (espaces fibrs), Bruxelles, (1950), pp. 15&#8211;27.
+
+
+This also explains the use of the Weil algebra in the calculation of the [[equivariant cohomology|equivariant]] [[de Rham cohomology]] of manifolds acted on by a compact group. These papers are reprinted, explained and put in a modern context in the book
+
+* Victor Guillemin, Shlomo Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, (1999).
+
+A survey of Weil algebra is also available at
+
+* [[eom|Encyclopedia of Mathematics]]: [Weil algebra of a Lie algebra](http://eom.springer.de/W/w130050.htm)
+
 
 For the role played by the Weil algebra in the general context of [[∞-Lie theory]] see
 
