@@ -320,7 +320,7 @@ $$
 +-- {: .un_lemma}
 ###### Observation
 
-The condition that all components 
+The condition $\iota_{\partial} F_A = 0$ that all components 
 
 $$
   \Omega^\bullet(U \times \Delta^1)
@@ -394,8 +394,13 @@ where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{
 
 =--
 
+In [[Cartan calculus]] for $\mathfrak{g}$ an ordinary one writes the corresponding  **[[Ehresmann connection|second Ehremsnn condition]]** $\iota_{\partial_s} F_A = 0$ equivalently
 
-=--
+$$
+  \mathcal{L}_{\partial_s} A = ad_\lambda A
+  \,.
+$$
+
 
 +-- {: .un_def}
 ###### Definition
@@ -418,7 +423,7 @@ In this notation we have
     \label{ShiftedGaugeTrafo}
   \]
 
-* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]**, the [[differential equation]]
+* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]** $\iota_{\partial_s} F_A = 0$, the [[differential equation]]
 
   \[
     \frac{d}{d s} A_U = \nabla \lambda
@@ -427,6 +432,8 @@ In this notation we have
   \]
 
 This is known as the equation for **infinitesimal [[gauge transformation]]s** of an $\infty$-Lie algebra valued form. 
+
+
 
 +-- {: .un_lemma}
 ###### Observation
@@ -535,11 +542,17 @@ This is, in low degree, explicitly the following data:
 
 ## References
 
-The definitions in terms of [[∞-Lie theory]] as given above appear in
+The (obvious but conceptually important) observation that [[Lie algebra-valued 1-forms]] regarded as morphisms of [[graded vector space]]s $\Omega^\bullet(X) \leftarrow \wedge^1 \mathfrak{g}^* : A$ are equivalently morphisms of dg-algebras out of the [[Weil algebra]] $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ and that one may think of as the identity $W(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : Id$ as the _universal $\mathfrak{g}$-connection_ appears in early articles for instance highlighted on p. 15 of
+
+* Franz W. Kamber; Philippe Tondeur, _Semisimplicial Weil algebras and characteristic classes for foliated bundles in &#268;ech cohomology_ , Differential geometry (Proc. Sympos. Pure Math., Vol. XXVII, Stanford Univ., Stanford, Calif., 1973), Part 1, pp. 283--294. Amer. Math. Soc., Providence, R.I., (1975). 
+
+following [[Eli Cartan]]'s influential work (see [[Weil algebra]] for more references).
+
+The (evident) generalization to Weil algebras of [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s is considered explicitly in
 
 * Hisham Sati, Urs Schreiber, Jim Staasheff, _$L_\infty$-algebra valued connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
-A collection of precursors to these notions is collected at
+but -- somewhat implicitly -- this construction appears earlier, notably in the [[D'Auria-Fre formulation of supergravity]]. A collection of such precursors to these notions is collected at
 
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references]]: <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#InfLieAlgValuedForms">∞-Lie algebra valued forms</a>
 
