@@ -11,4 +11,4 @@ If $K$ is $Cat$, an [[algebra for an endofunctor]] $F \colon C \to C$ is the sam
 
 Every [[module over a monad]] $(t, \eta, \mu)$ is an algebra over the underlying endomorphism $t$.
 
-An [[algebra for a profunctor]] (q.v.) $H \colon C &#8696; C$ on $X \colon D \to C$ is essentially the same as a $H$-coalgebra $D(1,X) \Rightarrow H \circ D(1,X)$ in $Prof$, the bicategory of categories and [[profunctors]].
+An [[algebra for a profunctor]] (q.v.) $H \colon C &#8696; C$ on $X \colon D \to C$ is essentially the same as a $H$-coalgebra $C(1,X) \Rightarrow H \circ C(1,X)$ in $Prof$, the bicategory of categories and [[profunctors]].
