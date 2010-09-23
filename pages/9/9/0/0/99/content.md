@@ -633,12 +633,16 @@ This also explains the use of the Weil algebra in the calculation of the [[equiv
 
 * Victor Guillemin, Shlomo Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, (1999).
 
-A survey of Weil algebra is also available at
+The (obvious but conceptually important) observation that [[Lie algebra-valued 1-forms]] regarded as morphisms of graded vector spaces $\Omega^\bullet(X) \leftarrow \wedge^1 \mathfrak{g}^* : A$ are equivalently morphisms of dg-algebras out of the Weil algebra $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ and that one may think of as the identity $W(\mathfrak{g}) \leftarrow W(\mathfrak{g}) : Id$ as the _universal $\mathfrak{g}$-connection_ appears in early articles for instance highlighted on p. 15 of
+
+* Franz W. Kamber; Philippe Tondeur, _Semisimplicial Weil algebras and characteristic classes for foliated bundles in &#268;ech cohomology_ , Differential geometry (Proc. Sympos. Pure Math., Vol. XXVII, Stanford Univ., Stanford, Calif., 1973), Part 1, pp. 283--294. Amer. Math. Soc., Providence, R.I., (1975). 
+
+
+A survey of Weil algebras for Lie algebras is also available at
 
 * [[eom|Encyclopedia of Mathematics]]: [Weil algebra of a Lie algebra](http://eom.springer.de/W/w130050.htm)
 
-
-For the role played by the Weil algebra in the general context of [[∞-Lie theory]] see
+Weil algebra for [[∞-Lie algebra]]s and their role in defining [[invariant polynomial]]s and [[Chern-Simons element]]s on $\infty$-Lie algebras from [[∞-Lie algebra cocycle]] are considered in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
 {#SSSI}
