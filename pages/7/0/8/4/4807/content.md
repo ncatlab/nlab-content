@@ -2,8 +2,15 @@ Ulrich Kr&#228;hmer is a German mathematician now with position in Glasgow, Scot
 
 * [homepage](http://www.maths.gla.ac.uk/~ukraehmer)
 
-[[!redirects Uli Kraehmer]]
-[[!redirects U. Kraehmer]]
+
+category: people
+
 [[!redirects Ulrich Krähmer]]
 [[!redirects Uli Krähmer]]
 [[!redirects U. Krähmer]]
+[[!redirects Ulrich Kraehmer]]
+[[!redirects Uli Kraehmer]]
+[[!redirects U. Kraehmer]]
+[[!redirects Ulrich Krahmer]]
+[[!redirects Uli Krahmer]]
+[[!redirects U. Krahmer]]
