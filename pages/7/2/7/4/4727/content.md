@@ -47,8 +47,7 @@ For an introduction see the section <a href="http://ncatlab.org/nlab/show/infini
 
 ## Definition
 
-
-For $X$ a [[smooth manifold]] and $\mathfrak{a}$ an [[∞-Lie algebroid]], a  **$\infty$-Lie algebroid valued differential form** on $X$ is a morphism of [[dg-algebra]]s
+For $X$ a [[smooth manifold]] and $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally an [[∞-Lie algebroid]], a  **$\infty$-Lie algebroid valued differential form** on $X$ is a morphism of [[dg-algebra]]s
 
 $$
   \Omega^\bullet(X)
@@ -61,18 +60,18 @@ $$
 from the [[Weil algebra]] of $\mathfrak{g}$ to the [[de Rham complex]] of $X$. Dually this is a morphism of [[∞-Lie algebroid]]s
 
 $$
-  A : T X \to inn(\mathfrak{a})
+  A : T X \to inn(\mathfrak{g})
 $$
 
-from the [[tangent Lie algebroid]] to the [[Weil algebra|inner automorphism infinity-Lie algebra]].
+from the [[tangent Lie algebroid]] to the [[Weil algebra|inner automorphism ∞-Lie algebra]].
 
-Its [[curvature]] is the composite of [[graded vector space]]s
+Its [[curvature]] is the composite of morphisms of [[graded vector space]]s
 
 $$
   \Omega^\bullet(X) \stackrel{A}{\leftarrow}
   W(\mathfrak{g})
   \stackrel{F_{(-)}}{\leftarrow}
-  \wedge^1 \mathfrak{a}^*
+  \wedge^1 \mathfrak{g}^*
   : 
   F_{A}
   \,.
@@ -116,19 +115,110 @@ where $inv(\mathfrak{g}) \to W(\mathfrak{g})$ is the inclusion of the [[invarian
 +-- {: .un_defn}
 ###### Definition
 
-
-Let $U$ be a [[smooth manifold]]. The **∞-groupoid of $\mathfrak{a}$-valued forms** on $X$ is given by the [[Kan complex]] whose set of [[k-morphism]]s is the set of diagrams of [[dg-algebra]] morphisms
+For $U$ a [[smooth manifold]], the **$\infty$-groupoid of $\mathfrak{g}$-valued forms is the [[Kan complex]]
 
 $$
-  \exp(\mathfrak{a})_{CW}(U)
+  \exp(\mthfrak{g})_{conn}(U)
   :
   [k]
   \mapsto
   \left\{
+     \Omega^\bullet(U \times \Delta^k)
+      \stackrel{A}{\leftarrow}
+     W(\mathfrak{g})
+     \;\;
+     |
+     \;\;
+       \forall v \in \Gamma(T \Delta^k) : \iota_v F_A = 0
+  \right\}
+$$
+
+
+whose [[k-morphism]]s are $\mathfrak{g}$-valued forms $A$ on $U \times \Delta^k$ with sitting instants, and with the property that their [[curvature]] vanishes on vertical vectors.
+
+The canonical morphism
+
+$$
+  \exp(\mathfrak{g})_{conn} \to \exp(\mathfrak{g})
+$$
+
+to the untruncated [[Lie integration]] of $\mathfrak{g}$ is given by restriction of $A$ to [[vertical differential form]]s (see below).
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+Here we are thinking of $U \times \Delta^k \to U$ as a trivial [[bundle]].
+
+The _first_ [[Ehresmann connection|Ehresmann condition]] will be identified with the conditions on lifts $\nabla$ in [[∞-anafunctor]]s
+
+$$
+  \array{
+    && \exp(\mathfrak{g})_{conn}
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \exp(\mathfrak{g})
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+that define [[connections on ∞-bundles]]. More on this in the [Properties](#Properties)-section below.
+
+=--
+
+## Properties {#Properties}
+
+### Curvature characteristics
+
++-- {: .un_prop}
+###### Proposition
+
+For $A \in \exp(\mathfrak{g})_{conn}(U,[k])$ a $\mathfrak{g}$-valued form on $U \times \Delta^k$ and for $\langle - \rangle \in W(\mathfrak{g})$ any [[invariant polynomial]], the corresponding [[curvature characteristic form]] $\langle F_A \rangle \in \Omega^\bullet(U \times \Delta^k)$ descends down to $U$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to show that for all $v \in \Gamma(T \Delta^k)$ we have
+
+1. $\iota_v \langle F_A \rangle = 0$;
+
+1. $\mathcal{L}_v \langle F_A \rangle = 0$.
+
+The first condition is evidently satisfied if already $\iota_v F_A = 0$. The second condition follows with [[Cartan calculus]] and using that $d_{dR} \langle F_A\rangle = 0$:
+
+$$
+  \mathcal{L}_v \langle F_A \rangle = 
+  d \iota_v \langle F_A \rangle
+  + 
+  \iota_v d \langle F_A \rangle
+  = 0
+  \,.
+$$
+
+=--
+
++-- {: .un_lemma}
+###### Remark
+
+For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms $F_A$ themselves are not closed, hence requiring them to have no component along the simplex does not imply that they descend. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
+
+=--
+
+
+It is useful to organize the $\mathfrak{g}$-valued form $A$, together with its restriction $A_{vert}$ to [[vertical differential form]]s and with its [[curvature characteristic form]]s in the [[commuting diagram]]
+
+$$
     \array{
       \Omega^\bullet(U \times \Delta^k)_{vert}
       &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{a})
+      CE(\mathfrak{g})
       &&&
       gauge\;transformation
       \\
@@ -136,7 +226,7 @@ $$
       \\
       \Omega^\bullet(U \times \Delta^k)
       &\stackrel{A}{\leftarrow}&
-      W(\mathfrak{a})
+      W(\mathfrak{g})
       &&&
       \mathfrak{g}-valued\;form
       \\
@@ -148,16 +238,42 @@ $$
       &&&
       curvature\;characteristic\;forms
     }
+$$
+
+in [[dgAlg]].
+
+The commutativity of this diagram is implied by $\iota_v F_A = 0$.
+
++-- {: .un_defn}
+###### Definition
+
+Write $\exp(\mathfrak{g})_{CW}(U)$ for the $\infty$-groupoid of $\mathfrak{g}$-valued forms fitting into such diagrams.
+
+
+$$
+  \exp(\mathfrak{g})_{CW}(U)
+  :
+  [k]
+  \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet(U \times \Delta^k)_{vert}
+      &\stackrel{A_{vert}}{\leftarrow}&
+      CE(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U \times \Delta^k)
+      &\stackrel{A}{\leftarrow}&
+      W(\mathfrak{g})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)
+      &\stackrel{\langle F_A\rangle}{\leftarrow}&
+      inv(\mathfrak{g})
+    }
   \right\}
-  \,.
-$$
-
-Here $\Omega^\bullet(U \times \Delta^k)_{vert}$ denotes the dg-algebra of [[vertical differential form]]s on the trivial bundle $U \times \Delta^k \to U$.
-
-Moreover, define the subobject $\exp(\mathfrak{g})_{conn} \subset \exp(\mathfrak{g})_{CW}$ to be that on those elements whose [[curvature]] form $F_A$ vanishes on tangents $v \in \Gamma(T \Delta^k)$ to the simplex:
-
-$$
-  \iota_v F_A = 0
   \,.
 $$
 
@@ -166,11 +282,10 @@ $$
 +-- {: .un_remark}
 ###### Remark
 
-
 If we just consider the top horizontal morphism in this diagram we obtain the object
 
 $$
-  \exp(\mathfrak{a})(U)
+  \exp(\mathfrak{g})(U)
   :
   [k]
   \mapsto
@@ -178,7 +293,7 @@ $$
     \array{
       \Omega^\bullet(U \times \Delta^k)_{vert}
       &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{a})
+      CE(\mathfrak{g})
      }
   \right\}
 $$
@@ -186,7 +301,7 @@ $$
 discussed in detail at [[Lie integration]]. If we consider the top square of the diagram we obtain the object
 
 $$
-  \exp(\mathfrak{a})_{diff}(U)
+  \exp(\mathfrak{g})_{diff}(U)
   :
   [k]
   \mapsto
@@ -194,13 +309,13 @@ $$
     \array{
       \Omega^\bullet(U \times \Delta^k)_{vert}
       &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{a})
+      CE(\mathfrak{g})
       \\
       \uparrow && \uparrow
       \\
       \Omega^\bullet(U \times \Delta^k)
       &\stackrel{A}{\leftarrow}&
-      W(\mathfrak{a})
+      W(\mathfrak{g})
    }
   \right\}
   \,.
@@ -209,7 +324,7 @@ $$
 This forms a [[resolution]] of $\exp(\mathfrak{g})$ and may be thought of as the $\infty$-groupoid of [[pseudo-connection]]s.
 
 
-We have therefore the evident sequence of morphisms
+We have evident sequence of morphisms
 
 $$
   \array{
@@ -227,8 +342,11 @@ $$
     \\
     \exp(\mathfrak{g}) &&& bare bundles
   }
-  \,.
+  \,,
 $$
+
+where we label the objects by the structures they classify, as discussed at [[∞-Chern-Weil theory]].
+
 
 Here the botton morphism is a weak equivalence and the others are [[monomorphism]]s. 
 
@@ -240,49 +358,12 @@ This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [
 
 =--
 
-## Properties
-
-We spell out what this definition means in detail.
-
-### Objects: differential forms
-
-An [[object]] of $\exp(\mathfrak{g})(U)$ is a dg-algebra morphism
-
-$$
-  \Omega^\bullet(U)
-  \leftarrow
-  W(\mathfrak{g})
-  :
-  A
-  \,.
-$$
-
-Since the [[Weil algebra]] $W(\mathfrak{g})$ is a free dg-algebra, this is equivalently a morphism of [[graded vector space]]s
-
-$$
-  \Omega^\bullet(U)
-  \leftarrow
-  \wedge^1 \mathfrak{g}^*
-  :
-  A
-  \,.
-$$
-
-This is equivalently an element of degree 1
-
-$$
-  A \in \Omega^\bullet(U) \otimes \mathfrak{g}
-  \,,
-$$
-
-where the graded vector space $\mathfrak{g}$ is regarded as being in non-positive degrees.
 
 
 ### 1-Morphisms: integration of infinitesimal gauge transformations {#InfGaugeTrafo}
 
-The 1-[[morphism]]s in $\exp(\mathfrak{g})(X)$ may be thought of as [[gauge transformation]]s between $\mathfrak{a}$-valued forms. We unwind what these look like concretely.
+The 1-[[morphism]]s in $\exp(\mathfrak{g})(U)$ may be thought of as [[gauge transformation]]s between $\mathfrak{g}$-valued forms. We unwind what these look like concretely.
 
-For ease of notation, let $\mathfrak{a} = \mathfrak{g}$ be an [[∞-Lie algebra]].
 
 +-- {: .un_defn}
 ###### Definition
@@ -316,64 +397,6 @@ $$
   A_0(s=1) \stackrel{\lambda}{\to} A_U(s = 1)
   \,.
 $$
-
-+-- {: .un_lemma}
-###### Observation
-
-The condition $\iota_{\partial} F_A = 0$ that all components 
-
-$$
-  \Omega^\bullet(U \times \Delta^1)
-  \stackrel{A}{\leftarrow}
-  W(\mathfrak{g})
-  \stackrel{r^a}{\leftarrow}
-  \wedge^1 \mathfrak{g}^*
-  F_A^a
-$$
-
-of the [[curvature]] forms vanish when evaluated on the [[vector field]] $\partial_s$ along $\partial_s$ is sufficient to ensure that all [[curvature characteristic form]]s to $U$ in that $A$ completes to a diagram
-
-$$
-  \array{
-      \Omega^\bullet(U \times \Delta^k)
-      &\stackrel{A}{\leftarrow}&
-      W(\mathfrak{a})
-      \\
-      \uparrow && \uparrow
-      \\
-      \Omega^\bullet(U)
-      &\stackrel{\langle F_A\rangle}{\leftarrow}&
-      inv(\mathfrak{g})
-  }
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-In this case $\langle F_A \rangle$ evidently has no leg along the simplex.
-Moreover since this form is closed (by the nature of [[invariant polynomial]]s) it follows that the [[Lie derivative]] $\mathcal{L}_v [d_{dR}, \iota_v]$ along a vector $v \in \Gamma (T X)$ vanishes
-
-$$
-  \mathcal{L}_v \langle F_A \rangle = 
-  d \iota_v \langle F_A \rangle
-  + 
-  \iota_v d \langle F_A \rangle
-  = 0
-  \,.
-$$
-
-Since forms that neither have a component on the simplex and whose derivative along the simplex vanishes come from $U$, this proves the claim.
-
-=--
-
-+-- {: .un_lemma}
-###### Remark
-
-For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms themselves are not closed, hence requiring them to have no component along the simplex does not similarly imply that they descent. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
-
-=--
 
 +-- {: .un_lemma}
 ###### Observation
@@ -522,9 +545,6 @@ This is, in low degree, explicitly the following data:
 =--
 
 
-### $k$-Morphisms: higher order gauge transformations
-
-(..)
 
 
 ## Examples
