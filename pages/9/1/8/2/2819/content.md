@@ -11,12 +11,12 @@
 
 [[Serre fibration]] $\Leftarrow$ **Hurewicz fibration** $\Rightarrow$ [[Dold fibration]] $\Leftarrow$ [[shrinkable map]]
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
 
-##Definition##
+## Definition
 
 A **Hurewicz fibration** $p:E\to B$ is a [[continuous map]] of [[topological spaces]] that satisfies the [[right lifting property]] with respect to maps $\sigma_0:X\cong X\times\{0\}\hookrightarrow X\times I$ for all topological spaces $X$.
 
@@ -39,13 +39,18 @@ $$
 Instead of checking the homotopy lifting property, one can instead solve a universal problem:
 
 
-**Theorem** A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. (See there for details.)
++-- {: .un_thm}
+###### Theorem
+A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. (See there for details.)
+=--
 
-## Appearance in a model structure ##
+
+## Appearance in a model structure
 
 There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibration]]s and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]] and [[Strøm's model category]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
 
-##References
+
+## References
 
 The historical paper of Hurewicz is
 
@@ -54,7 +59,5 @@ The historical paper of Hurewicz is
 Hurewicz fibrations are nowadays a standard topic in textbooks of algebraic topology (Whitehead, Spanier, Hatcher...). 
 
 
+[[!redirects Hurewicz fibration]]
 [[!redirects Hurewicz fibrations]]
-
-
-
