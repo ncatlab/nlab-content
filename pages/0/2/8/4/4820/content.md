@@ -24,22 +24,41 @@
 
 ## Idea
 
-A _Chern-Simons circle 7-bundle_ is the [[circle n-bundle with connection]]  classified by the cocycle in degree-8 [[ordinary differential cohomology]] that is canonically associated to a [[string group]]-[[principal 2-bundle]] with [[connection on a 2-bundle|connection]].
+A _Chern-Simons circle 7-bundle_ is the [[circle n-bundle with connection|circle 7-bundle with connection]]  classified by the cocycle in degree-8 [[ordinary differential cohomology]] that is canonically associated to a [[string group]]-[[principal 2-bundle]] with [[connection on a 2-bundle|connection]].
 
-For $G$ a [[Lie 2-group]] and $c : \mathcal{B}G \to K(\mathbb{Z},8)$ a cocycle for a degree 8 [[characteristic class]] in [[integral cohomology]] and $X$ a [[smooth manifold]], [[∞-Chern-Weil theory]] provides a morphism 
+The [[characteristic class]] called the second fractional [[Pontryagin class]] $\frac{1}{6}p_2 : \mathcal{B}String \to \mathcal{B}^8 \mathbb{Z}$ in [[Top]] on the [[classifying space]] of the [[string group]] has a smooth lift to the <a href="http://ncatlab.org/nlab/edit/Lie+infinity-groupoid#SmoothSecondPontryagin">smooth second fractional Pontryagin class</a>
 
 $$
-  \hat \mathbf{c} : \mathbf{H}_{conn}(X,\mathbf{B}String) \to \mathbf{H}_{diff}^8(X)
+  \frac{1}{6} \mathbf{p}_2 : \mathbf{B}String \to \mathbf{B}^7 U(1)
 $$
 
-from $String$-[[principal 2-bundle]]s with [[connection on a 2-bundle|connection]] $\nabla$ to degree 8 [[ordinary differential cohomology]]. The cocycles on the right may be thought of as [[circle n-bundle with connection|circle 7-bundles with connection]] $\hat \mathbf{c}(\nabla)$;
+in $\mathbf{H} :=$ [[?LieGrpd]], mapping from the [[delooping]] [[∞-Lie groupoid]] of the [[string Lie 2-group]] to that of the  <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 7-group</a>. This is the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie integration</a>  of the degree 7 [[∞-Lie algebra cocycle]] $\mu_7 : \mathfrak{string} \to b^6 \mathbb{R}$ on the [[string Lie 2-algebra]] which classified the [[fivebrane Lie 6-algebra]].
+
+Therefore, by [[∞-Chern-Weil theory]], there is a refinement of this morphism to [[connection on an ∞-bundle|∞-bundles with connection]]
+
+$$
+  \frac{1}{6}\hat \mathbf{p} : \mathbf{B}String_{conn} \to 
+  \mathbf{B}^7 U(1)_{conn}
+$$
+
+hence on [[cocycle]] [[∞-groupoid]]s
+
+$$
+  \frac{1}{6} \hat \mathbf{p} : \mathbf{H}_{conn}(X,\mathbf{B}String) 
+  \to \mathbf{H}_{diff}^8(X)
+$$
+
+
+a map from [[string Lie 2-group]]-[[principal 2-bundle]]s with [[connection on a 2-bundle|connection]] to [[circle n-bundle with connection|circle 7-bundles with connection]], hence degree 8 [[ordinary differential cohomology]]. 
+
+For $(P,\nabla)$ a String-principal 2-bundle, we call the image $\frac{1}{6}\hat\mathbf{p}(\nabla) \in \mathbf{H}_{diff}(X,\mathbf{B}^z U(1))$ its **Chern-Simons circle 7-bundle with connection**.
+
+This is a differential refinement of the [[twisted cohomology|obstruction]] to lifting $P$ to a [[fivebrane Lie 6-group]]-bundle.
 
 
 By construction, the [[curvature]] 8-form of $\hat \mathbf{c}(\nabla)$ is the [[curvature characteristic form]] $\langle F_\nabla \wedge F_\nabla \wedge F_\nabla \wedge F_\nabla\rangle$ of $\nabla$ and accordingly the 7-form connection on $\hat \mathbf{c}(\nabla)$ is locally a [[Chern-Simons form]] $CS(\nabla)$ of $\nabla$.
 
-Accordingly, the [[higher parallel transport]] induced by $\hat \mathbf{c}(\nabla)$ over 7-dimensional vlumes $\phi : \Sigma \to X$ is the [[action functional]] of the [[quantum field theory]] called [[Chern-Simons theory]]. In this form it appears for instance as the [[gauge field]] to which the fivebrane in [[dual heterotic string theory]] couples.
-
-This is the analog of the way the [[Chern-Simons circle 3-bundle]] arises from Spin-principal bundles.
+Therefore the [[higher parallel transport]] induced by $\frac{1}{6}\hat \mathbf{p}_2(\nabla)$ over 7-dimensional volumes $\phi : \Sigma \to X$ is the [[action functional]] of degree-7 [[∞-Chern-Simons theory]].  This is the analog of the way the [[Chern-Simons circle 3-bundle]] arises from Spin-principal bundles.
 
 
 
