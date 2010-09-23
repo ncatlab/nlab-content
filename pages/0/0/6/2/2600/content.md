@@ -6,10 +6,17 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 =--
 =--
 
-> [[Urs Schreiber]]: this is not in the literature
+**fivebrane 6-group** $\to$ [[string 2-group]] $\to$ [[spin group]]
+
+***
+
 
 #Contents#
 * automatic table of contents goes here
@@ -120,3 +127,6 @@ where the subobjects are those consisting of 3-simplices in $G$ with 2-faces lab
 (...)
 
 [[!redirects Fivebrane 6-group]]
+
+[[!redirects fivebrane Lie 6-group]]
+[[!redirects Fivebrane Lie 6-group]]
