@@ -1,8 +1,9 @@
-#Contents#
+
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Definition
 
 [The usual definition of ring](http://en.wikipedia.org/wiki/Ring_mathematics#Definition) is equivalent to all of the following:
 
@@ -16,11 +17,13 @@ Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoi
 
 In usual ring theory people often talk about **nonunital** rings as well: multiplicative [[semigroup]]s with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
 
-#Generalizations#
+
+## Generalizations
 
 It is possible to [[internalization|internalise]] the notion of ring in at least two different ways.  Either one can replace the [[Set|category of sets]] in the classical definition with another category $C$, or one can replace $Ab$ in the fancy definition with another category $M$.
 
-## Internalising the sets ##
+
+### Internalising the sets
 
 If $C$ is a [[cartesian monoidal category]], then any [[Lawvere theory]] may be internalised in $C$.  The theory of rings is an example, so we can speak of _ring objects_ in $C$.  Then a ring object in $Set$ is simply a ring.  (This works whether your rings are unital or nonunital, commutative or noncommutative, etc.)  However, not every notion of internal ring takes this form.
 
@@ -32,13 +35,15 @@ Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ promotes it into a [[ring
 
 In cartesian categories one can also define the structure of an (abelian) group object as the lifting of the correspoding [[representable presheaf]] to a presheaf into (abelian) groups. This kind of lifting of some algebraic structure in sets to algebraic structure in a cartesian category makes sense when some category of algebras creates the limits needed to define them in sets. 
 
-## Internalising the abelian groups ##
+
+### Internalising the abelian groups
 
 If $M$ is a [[monoidal category]], then we can speak of [[monoid objects]] in $M$.  However, we usually want $M$ to be somewhat like $Ab$ to think of monoid objects in $M$ as internal rings.  For example, if $M$ is the category of abelian [[group objects]] in a cartesian monoidal category $C$, then we recreate the notion of ring object in $C$ from above.  Or, if $M$ is any [[Ab-enriched category]], then it behaves enough like $Ab$ that we may consider its monoid objects as internal rings.  There are yet other examples, however: a [[ring spectrum]] is a monoid object in [[spectra]], even though these are not $Ab$-enriched.
 
 Other examples are [[simplicial ring]]s (as monoids in [[simplicial abelian group]]s) and [[dg-ring]]s, as well as the $A$-rings below.
 
-## Rings over a ring ##
+
+### Rings over a ring
 
 If $K$ is a commutative ring (or especially a [[field]]), then an [[associative algebra]] over $K$ is a monoid object in $K$-[[Mod]]; this is a special case of the previous section.
 
@@ -50,20 +55,26 @@ Both for a discussion for under-over and also for this difference between $K$-al
 
 A dual notion to an $A$-ring is an $A$-[[coring]]. 
 
-## Higher rings ##
+
+### Higher rings
 
 By replacing in the sentence "a ring is a [[monoid]] in [[Ab]]" the [[abelian category]] [[Ab]] with a [[higher category theory|higher category]] of _symmetric monoidal_ higher groupoids, one obtains higher notion of rings.
 
 Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]]s and, even more generally, that of [[spectrum|spectra]]. A [[monoid in an (∞,1)-category]] in the [[stable (∞,1)-category of spectra]] is an [[A-infinity-ring]] or [[associative ring spectrum]]. The commutative case is a [[commutative monoid in an (∞,1)-category]]: an [[E-infinity ring]] or [[commutative ring spectrum]].
 
 
+[[!redirects ring]]
 [[!redirects rings]]
+
 [[!redirects unital ring]]
 [[!redirects unital rings]]
 [[!redirects associative ring]]
 [[!redirects associative rings]]
 [[!redirects associative unital ring]]
 [[!redirects associative unital rings]]
+[[!redirects noncommutative ring]]
+[[!redirects noncommutative rings]]
+
 [[!redirects commutative ring]]
 [[!redirects commutative rings]]
 [[!redirects commutative unital ring]]
