@@ -1,4 +1,21 @@
-#Idea#
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _strict $\omega$-category_ is a [[globular set|globular]] [[∞-category]] in which all operations obey their respective laws strictly.
 
@@ -12,7 +29,7 @@ This means that
 
  3. all identity $k$-morphisms are strict identies under all compositons.
 
-#Definition#
+## Definition
 
 An **$\omega$-category** $C$ [[internalization|internal to]]  $Sets$ is 
 
@@ -41,7 +58,7 @@ Similarly for an $\omega$-category [[internalization|internal to]]  another ambi
 The category $\omega Cat(A)$ of $\omega$-categories [[internalization|internal to]] $A$ has $\omega$-categories
 as its objects and morphism og the underlying globular objects respecting all the above extra structure as morphisms.
 
-##Remarks##
+## Remarks
 
 * The last condition in the above definition says that all pairs of composition operations satisfy the [[exchange law]].
 
@@ -71,7 +88,7 @@ $$
 * [[Simpson's conjecture]], a statement about [[semi-strict infinity-category|semi-strictness]], states that every weak $\infty$-category should be equivalent to an $\infty$-category in which strictness conditions 1. and 2. hold, but not 3.
 
 
-# As simplicial sets #
+## As simplicial sets 
 
 Under the [[oriental|∞-nerve]] 
 
@@ -96,7 +113,7 @@ which also presents the history of the conjecture.
 Based on this fact, there are attempts to weaken the condition on a [[simplicial set]] to be a [[complicial set]] such as to obtain a notion of [[simplicial weak ∞-category]].
 
 
-#Literature#
+## Literature
 
 Strict $\omega$-categories have probably been independently invented by several people.  Possibly the earliest definition can be found in
 
