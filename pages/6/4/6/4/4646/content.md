@@ -9,8 +9,7 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -25,6 +24,7 @@ $$
 between the [[fiber]]s of the bundle, such that this assignment depends well (e.g. smoothly) on the choice of path and is compatible with composition of paths.
 
 This assignment is called the _parallel transport_ of the connection.
+
 
 ### The idea of paralllelism
 
@@ -61,6 +61,7 @@ $$
 $$
 
 In other words this means that given a path $\gamma$ down in $X$, we may _transport_ any point $p \in P_{\gamma(0)}$ above its start point _parallely_ (with respect to the notion of parallelism determined by $\nabla$) along $\gamma$, to find a uniquely determined point $tra_\nabla(\gamma)(p) \in P_{\gamma(1)}$ over the endpoint.
+
 
 ### The category-theoretic perspective
 
@@ -113,11 +114,12 @@ There is also the diffeological groupoid incarnation of the [[fundamental groupo
 
 A parallel transport functor $tra : P_1(X) \to G$ factors through $\Pi_1(X)$ precisely if the corresponding conneciton is _flat_ in that its [[curvature form]] vanishes.
 
+
 ### In physics
 
 In [[physics]], a [[connection on a bundle]] over $X$ models a [[gauge field]] such as the [[electromagnetic field]] or more generally a [[Yang-Mills field]] or the field of [[gravity]] on a [[spacetime]] $X$.
 
-The [[force]]s exerted by such gauge fields on  charged particles propagating on $X$ (i.e. [[electron]]s, [[quarks]] and generally massive particles, respectively) are encoded precisely in the parallel transport assignment of the gauge field connection to their trajectories.
+The [[force]]s exerted by such gauge fields on  charged particles propagating on $X$ (i.e. [[electron]]s, [[quark]]s and generally massive particles, respectively) are encoded precisely in the parallel transport assignment of the gauge field connection to their trajectories.
 
 More precisely, the exponentiated [[action functional]] for the electron propagating on $X$ in the presence of an electromagnetic field $\nabla$ is the functional on the space of paths in $X$ given by
 
@@ -152,6 +154,7 @@ $$
     tra_\nabla(\gamma)
   \,.
 $$
+
 
 ## Special cases
 
@@ -188,14 +191,16 @@ where the dot is matrix multiplication.
 
 By general results on [[differential equations]], this type of equation has a unique solution for each choice of value of $f(0)$.
 
-**Definition** The parallel transport of $A \in \Omega^1(X,\mathfrak{g})$ along a path $\gamma : [0,1] \to X$ which we write
++-- {: .un_defn}
+###### Definition
+The parallel transport of $A \in \Omega^1(X,\mathfrak{g})$ along a path $\gamma : [0,1] \to X$ which we write
 
 $$
   tra_A(\gamma) := P \exp(\int_{[0,1]} \gamma^* A) \in G
 $$
 
 is the value $f(1) \in G$ for the unique solution of the equation $d f  + \rho(f)_*(A) = 0$ with initial value $f(0) = e$ (the neutral element in $G$).
-
+=--
 
 The notation here is motivated from the special case where $G = \mathbb{R}$ is the group of [[real number]]s. In that case the [[Lie algebra]] $\mathfrak{g} \simeq \mathbb{R}$ is abelian, the differential equation above is simply
 
@@ -227,11 +232,13 @@ and so on, with the correct result being the limit of this sequence -- if one de
 
 This is called a **path-ordered integral**. The "P" in the above formula is short for "path ordering". Possibly this notation originates in [[physics]] where the above is known as the [[Dyson formula]]. 
 
+
 ## Higher parallel transport
 
 The notion of [[connection on a bundle]] generalizes to that of [[connection on a 2-bundle]]. [[connection on a 3-bundle]] and generally to that of [[connection on an ∞-bundle]]. The come with a notion of _higher parallel transport_ over manifolds of dimension greater than 1.
 
 See [[higher parallel transport]] for details.
+
 
 ## References
 
