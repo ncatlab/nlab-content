@@ -46,14 +46,18 @@ Sjoerd Crans has also defined a tensor product *of* [[Gray-categories]], but the
 
 ## Properties 
 
-The Crans-Gray tensor product makes $Str\omega Cat$ into a bi[[closed monoidal category]]. So in particular for $X, Y \in \omega Cat$ two strict $\omega$-categories, the $\omega$-[[functor category]] between them is
+The Crans-Gray tensor product makes $Str\omega Cat$ into a bi[[closed monoidal category]].  So in particular for $X, Y \in Str\omega Cat$ two strict $\omega$-categories, there is an $\omega$-[[functor category]] between them defined by
 
 $$
-   [X,Y] = \omega Cat( X \otimes G^\bullet, Y)
+   [X,Y] = Str\omega Cat( X \otimes G^\bullet, Y)
   \,,
 $$
 
-where $\otimes$ is the CG-tensor product and $G^\bullet : G \to \omega Cat$ is the  [[globular set|globular]] object of standard [[globe]]s. The objects in $[X,Y]$ are the $\omega$-functors. The [[k-morphism]]s are the $k$-[[transfor]]s between these.
+where $\otimes$ is the CG-tensor product and $G^\bullet : G \to \omega Cat$ is the  [[globular set|globular]] object of standard [[globe]]s.  The objects in $[X,Y]$ are the (strict) $\omega$-functors, while the [[k-morphism]]s are a [[lax natural transformation|lax]] sort of $k$-[[transfor]]s between these.  A dual $\omega$-functor category can be defined by $\langle X,Y\rangle = Str\omega Cat(G^{\bullet}\otimes X, Y)$; this has the same objects but its k-morphisms are oplax $k$-transfors.
+
++--{: .query}
+Or maybe lax and oplax should be switched here?  Can someone verify?
+=--
 
 ## Further Remarks 
 
