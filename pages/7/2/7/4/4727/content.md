@@ -118,7 +118,7 @@ where $inv(\mathfrak{g}) \to W(\mathfrak{g})$ is the inclusion of the [[invarian
 For $U$ a [[smooth manifold]], the **$\infty$-groupoid of $\mathfrak{g}$-valued forms is the [[Kan complex]]
 
 $$
-  \exp(\mthfrak{g})_{conn}(U)
+  \exp(\mathfrak{g})_{conn}(U)
   :
   [k]
   \mapsto
@@ -324,7 +324,7 @@ $$
 This forms a [[resolution]] of $\exp(\mathfrak{g})$ and may be thought of as the $\infty$-groupoid of [[pseudo-connection]]s.
 
 
-We have evident sequence of morphisms
+We have an evident sequence of morphisms
 
 $$
   \array{
@@ -549,13 +549,80 @@ This is, in low degree, explicitly the following data:
 
 ## Examples
 
-* For $\mathfrak{g}$ an ordinary [[Lie algebra]], a $\mathfrak{g}$-valued differential form in the sense described here is precisely an ordinary [[Lie-algebra valued 1-form]].
+### Lie algebra valued 1-forms
+
++-- {: .un_prop}
+###### Proposition
+**(connections on ordinary bundles)**
+
+For $\mathfrak{g}$ an ordinary [[Lie algebra]] with simply connected [[Lie group]] $G$ and for $\mathbf{B}G_{conn}$ the [[groupoid of Lie algebra-valued forms]] we have an [[isomorphism]]
+
+$$
+  \tau_1 \exp(\mathfrak{g})_{conn} = \mathbf{B}G_{conn}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see this, first note that the sheaves of objects on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. For morphisms, observe that for a form $\Omega^\bullet(U \times \Delta^1) \leftarow W(\mathfrak{g}) : A$ which we may decompose into a horizontal and a verical pice as $A = A_U + \lamnda \wedge d t$ the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
+
+$$
+  \frac{\partial}{\partial t} A
+  =
+  d_U \lambda + [\lambda, A]
+  \,.
+$$
+
+For any initial value $A(0)$ this has the unique solution
+
+$$
+  A(t) = g(t)^{-1} (A + d_{U}) g(t)
+  \,,
+$$
+
+where $g : [0,1] \to G$ is the [[parallel transport]] of $\lambda$:
+
+$$
+  \begin{aligned}
+    &
+    \frac{\partial}{\partial t}
+    \left(
+       g_(t)^{-1} (A + d_{U}) g(t)
+     \right)
+     \\
+     = &
+     g(t)^{-1} (A + d_{U}) \lambda g(t)
+     -
+     g(t)^{-1} \lambda (A + d_{U}) g(t)    
+   \end{aligned}
+$$
+
+(where for ease of notaton we write actions as if $G$ were a [[matrix Lie group]]).
+
+In particular this implies that the endpoints of the path of $\mathfrak{g}$-valued 1-forms are related by the usual cocycle condition in $\mathbf{B}G_{conn}$
+
+$$
+  A(1) = g(1)^{-1} (A + d_U) g(1)
+  \,.
+$$
+
+In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and any 1-form on $U$ at one vertex, there is a unique lift to a 2-cell in $\exp(\mathfrak{g})_{conn}$, obtained by parallel transporting the form around. The claim then follows from the previous statement of [[Lie integration]] that $\tau_1 \exp(\mathfrak{g}) = \mathbf{B}G$.
+
+=--
+
+### Lie 2-algebra valued forms
 
 * For $\mathfrak{g}$ [[Lie 2-algebra]], a $\mathfrak{g}$-valued differential form in the sense described here is precisely an [[Lie 2-algebra valued form]].
 
+### Ordinary $n$-forms
+
 * For $n \in \mathbb{N}$, a $b^{n-1}\mathbb{R}$-valued differential form is the same as an ordinary differential $n$-form.
 
-* What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is really precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the [[supergravity Lie 3-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
+### Supergravity fields
+
+What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is really precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the [[supergravity Lie 3-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
 
 
 
