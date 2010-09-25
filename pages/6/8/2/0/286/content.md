@@ -31,6 +31,37 @@ By rigorously avoiding equations between objects, we can ensure that the propert
 The ideas here generalize in many directions.  For example not only properties, but also constructions involving categories and functors, can be evil or non-evil.  The idea also generalizes to $n$-categories and to objects, morphisms etc. [[internalization|internal]] to $n$-categories.
 
 
+## A critic
+
+The only good thing about this terminology is that the word "evil" is short.
+Otherwise it is quite bad since it carries a very negative meaning
+on things that can be good.
+Many things in mathematics are depending on the choice
+of a representation which is not invariant under equivalences,
+or under isomorphisms. Modern geometry would not exists
+without coordinate systems. This is true also of algebra
+and category theory. Algebraic structures are often described by
+generators and relations. Homological algebra is using non-canonical
+projective or injective resolutions. Choosing a good base point may help
+computing the fundamental group of a topological space.
+Choosing a triangulation helps computing the homology groups.
+Invariant notions are often constructed from those which are not.
+For example, the Euler characteristic of a space
+is best explained by using a triangulation.
+
+Another example from homotopy theory:
+the notion of homotopy pullback square in a Quillen model category is
+invariant under weak equivalences, but its definition depends on
+the notion of pullback square which is not invariant under weak equivalences!
+
+Part of the art of mathematics is in constructing invariant notions
+from non-invariant ones. We should recognize the usefulness and
+importance of the latter. Please, let us not call them "evil"!
+
+_Andr&#233; Joyal_
+
+=--
+
 ## General definition
 
 If $X$ is an $\infty$-[[infinity-groupoid|groupoid]], then a property $P$ of objects of $X$ is __non-evil__ if, whenever $P(a)$ holds for an object $a$ of $X$ and $b$ is [[equivalence|equivalent]] (as an object of $X$) to $a$, then $P(b)$ holds. Alternatively, an operation $f$ from objects of $X$ to objects of (another $\infty$-groupoid) $Y$ is __non-evil__ if, whenever $a$ and $b$ are equivalent objects of $X$, $f(a)$ and $f(b)$ are equivalent (as objects of $Y$).
@@ -40,6 +71,8 @@ If $X$ is an $\infty$-[[infinity-groupoid|groupoid]], then a property $P$ of obj
 The operation-version of evil gives the property-version if you think of a property as an operation taking values in the $\infty$-groupoid (in fact a $0$-groupoid, or [[set]]) of [[truth value|truth values]]. (The property-version also gives the operation-version, although that is a little more involved.) An operation will be non-evil if it is given (as the object-operation) by a [[functor]] ('$\infty$-functor', if you prefer). A property is non-evil precisely iff it\'s a functor to the $\infty$-groupoid of truth values.
 
 This definition should be the conclusion of a theorem that using certain language (including avoiding equations between objects of a category) makes it impossible to say anything evil. [[Michael Makkai]] works on such a language, [[FOLDS]] ('first-order logic with dependent sorts'), which does not include an axiomatic notion of [[equality]] at all. This pertains to the [[foundations|mathematical foundations of category theory]]. To learn more, see his paper _[First Order Logic with Dependent Sorts, with Applications to Category Theory](http://www.math.mcgill.ca/makkai/)_.
+
+
 
 
 ## Examples
