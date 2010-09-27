@@ -1,6 +1,4 @@
 
-> under construction
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -156,7 +154,7 @@ The latter is NOT in a Poisson context, any more than Lagrangians are only for s
   Maybe nowadays?, but not originally.  It was meant for
   Lagrangians with symmetries.
   =--
-  (Recall that in the physics literture the function algebra of these [[NQ-supermanifolds]] is addressed as the [[BRST complex]].)
+  (Recall that in the physics literature the function algebra of these [[NQ-supermanifolds]] is addressed as the [[BRST complex]].)
 
 
 
@@ -225,10 +223,9 @@ A comprehensive recent review is
 
 Other introductions include
 
+* [[D. Fiorenza]], _An introduction to the Batalin-Vilkovisky formalism_, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003, [arXiv:math/0402057](http://arxiv.org/abs/math/0402057)
 
-* D. Fiorenza, _An introduction to the Batalin-Vilkovisky formalism_, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003, [arXiv:math/0402057](http://arxiv.org/abs/math/0402057)
-
-*  A. Cattaneo, _From topological field theory to 
+*  [[A. Cattaneo]], _From topological field theory to 
 deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
 *  M. B&#228;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
@@ -237,7 +234,7 @@ deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch
 
 The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
 
-* [[E. Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, 5 7, 487--494 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
+* [[E. Witten]], _A note on the antibracket formalism_, Modern Physics Letters A, __5__, n. 7, 487--494, [MR91h:81178](http://www.ams.org/mathscinet-getitem?mr=91h:81178), [doi](http://dx.doi.org/10.1142/S0217732390000561), [scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090)
 
 * MO: [what is the BV formalism and its uses](http://mathoverflow.net/questions/30352/what-is-the-batalin-vilkovisky-formalism-and-what-are-its-uses-in-mathematics/32443#32443)
 
