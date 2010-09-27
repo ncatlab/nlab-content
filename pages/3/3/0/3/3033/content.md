@@ -54,3 +54,4 @@ Currently revising:
 category: people
 
 [[!redirects domenico_fiorenza]]
+[[!redirects D. Fiorenza]]
