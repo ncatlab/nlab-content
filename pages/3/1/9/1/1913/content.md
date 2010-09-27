@@ -246,7 +246,7 @@ There is a [[cohomology]] theory of smooth differential forms; we have a [[chain
 $$ \cdots \stackrel{\mathrm{d}}\to C^\infty\Omega^2(X) \stackrel{\mathrm{d}}\to C^\infty\Omega^1(X) \stackrel{\mathrm{d}}\to C^\infty\Omega^0(X) \stackrel{\mathrm{d}}\to 0 ;$$
 the [[chain cohomology]] of this complex is the __[[de Rham cohomology]]__ of $X$.
 
-As smooth differential forms are the cochains in de Rham cohomolgy, the theory of integration of forms allows us to interpret [[relatively compact subspace|relatively compact]] oriented submanifolds as chains on $X$, giving us a [[homology]] theory.  Combining these, we have __Stokes\'s theorem__
+As smooth differential forms are the cochains in de Rham cohomolgy, the theory of integration of forms allows us to interpret [[relatively compact subspace|relatively compact]] oriented submanifolds as chains on $X$, giving us a [[homology]] theory.  Combining these, we have __[[Stokes theorem]]__
 $$ \int_{\partial{R}} \omega = \int_R \mathrm{d}\omega ,$$
 where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is also called the __codifferential__ as it is dual to $\mathrm{d}$.
 
