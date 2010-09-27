@@ -539,9 +539,76 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 * For $\mathfrak{g}$ [[Lie 2-algebra]], a $\mathfrak{g}$-valued differential form in the sense described here is precisely an [[Lie 2-algebra valued form]].
 
-### Ordinary $n$-forms
+### Ordinary $n$-forms and the de Rham complex
 
-* For $n \in \mathbb{N}$, a $b^{n-1}\mathbb{R}$-valued differential form is the same as an ordinary differential $n$-form.
+For $n \in \mathbb{N}$, $n \geq 1$ we have that $b^{n-1}\mathbb{R}$-valued differential forms are in natural bijection to ordinary closed [[differential form]]s in degree $n$
+
+
++-- {: .un_lemma}
+###### Observation
+
+Notice that under addition of differential forms, $\exp(b^{n-1}\mathbb{R})_{conn}$ is over each $U \in CartSp$ an abelian [[simplicial group]].
+
+Under the [[Dold-Kan correspondence]] $Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Xi}{\to}} sAb$ we may therefore identify $\exp(b^{n-1}\mathbb{R})_{conn}$ with a presheaf $N \exp(b^{n-1}\mathbb{R})_{conn}$ of chain complexes.
+
+=--
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+The degreewise [[fiber integration]] of differential forms over simplices
+constitutes a moprhism 
+
+$$
+  \int_{\Delta^\bullet} :
+  N\exp(b^{n-1}\mathbb{R})_{conn}
+  \to 
+  \left(
+    C^\infty(-, \mathbb{R})
+    \stackrel{d_{dR}}{\to}
+    \Omega^1(-)
+    \stackrel{d_{dR}}{\to}
+    \cdots
+    \stackrel{d_{dR}}{\to}
+    \Omega^n(-)
+  \right)
+  \,.
+$$
+
+that is a weak equivalence.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First notice that we do have a chain homomorphism at all:
+
+for $\omega \in \Omega^n(U \times \Delta^k)$ the face map in $N \exp(b^{n-1}\mathbb{R})_{conn}$ is the alternating sum of the restrictions to the faces of $\Delta^k$. The integral over that is the integral over the boundary of the simplex
+
+$$
+  \int_{\Delta^{k-1}} \sum_{i = 0}^k (-1)^i \partial_i^* \omega
+  =
+  -\int_{\partial \Delta^k} \omega
+  =
+  -\int_{\Delta^k} d_{\Delta^k} \omega
+  \,.
+$$
+
+Since by construction of $\exp(b^{n-1}\mathbb{R})_{conn}$ the form $d \omega$ has no component along the simplex, this equals
+
+$$
+  \cdots = - \int_{\Delta^k} d_U \omega = 
+  - d_U \int_{\Delta^k}  \omega
+  \,.
+$$
+
+So we do indeed have a chain map. Next (...)
+
+=--
 
 ### Supergravity fields
 
