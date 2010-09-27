@@ -307,6 +307,3 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects weighted forms]]
 [[!redirects weighted pseudoform]]
 [[!redirects weighted pseudoforms]]
-[[!redirects Stokes theorem]]
-[[!redirects Stokes' theorem]]
-[[!redirects Stokes's theorem]]
