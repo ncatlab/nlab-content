@@ -559,7 +559,7 @@ Under the [[Dold-Kan correspondence]] $Ch_\bullet^+ \stackrel{\overset{N}{\lefta
 ###### Proposition
 
 The degreewise [[fiber integration]] of differential forms over simplices
-constitutes a moprhism 
+constitutes a morphism 
 
 $$
   \int_{\Delta^\bullet} :
@@ -587,22 +587,39 @@ that is a weak equivalence.
 
 First notice that we do have a chain homomorphism at all:
 
-for $\omega \in \Omega^n(U \times \Delta^k)$ the face map in $N \exp(b^{n-1}\mathbb{R})_{conn}$ is the alternating sum of the restrictions to the faces of $\Delta^k$. The integral over that is the integral over the boundary of the simplex
+an element in $N \exp(b^{n-1} \mathbb{R})_{conn}$ in degree $k$ is an $n$-forms $\omega \in \Omega^n(U \times \Delta^k)$. The differential acts on this as the alterating sum of the restriction to the $(k-1)$-faces
+
+$$
+  \partial \omega = \sum_{i = 0}^k (-1)^i \partial_i^* \omega
+  \,.
+$$
+
+The integral over that is the integral over the boundary of the simplex (see [[simplex]] for details)
 
 $$
   \int_{\Delta^{k-1}} \sum_{i = 0}^k (-1)^i \partial_i^* \omega
   =
-  -\int_{\partial \Delta^k} \omega
-  =
-  -\int_{\Delta^k} d_{\Delta^k} \omega
+  \int_{\partial \Delta^k} \omega
+$$
+
+and by [[Stokes theorem]] this is
+
+$$
+  \cdots = \int_{\Delta^k} d_{\Delta^k} \omega
   \,.
 $$
 
-Since by construction of $\exp(b^{n-1}\mathbb{R})_{conn}$ the form $d \omega$ has no component along the simplex, this equals
+Now we use the "second Ehresmann"-condition on $\omega$, making it a $k$-cell in $\exp(b^{n-1})_{conn}$: its curvature $d \omega = d_{\Delta^k} \omega + d_U \omega$ has no components along the simplex. Therefore this is equal to 
 
 $$
-  \cdots = - \int_{\Delta^k} d_U \omega = 
-  - d_U \int_{\Delta^k}  \omega
+  \cdots = - \int_{\Delta^k} d_U \omega
+  \,.
+$$
+
+In this expression we can pass the $d_U$-operator by the fiber integral sign, only picking up a sign, to get
+
+$$
+  \cdots = d_U \int_{\Delta^k} \omega
   \,.
 $$
 
