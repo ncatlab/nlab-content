@@ -625,7 +625,9 @@ $$
 
 So we do indeed have a chain map. 
 
-Next we observe that over $U \in CartSp$ the chain homology of $N \exp(b^{n-1}\mathbb{R})$ in degree 0 is the group of $n$-forms modulo exact $n$-forms on $U$: the differential
+Now to show that this chain homomorphism is a [[quasi-isomorphism]] over each $U$.
+
+First consider degree 0. Over $U \in CartSp$ the chain homology of $N \exp(b^{n-1}\mathbb{R})$ in degree 0 is the group of $n$-forms modulo exact $n$-forms on $U$: the differential
 
 $$
   \partial : N\exp(b^{n-1} \mathbb{R})(U)_1 \to N\exp(b^{n-1}\mathbb{R})(U)_0
@@ -653,6 +655,10 @@ $$
 $$
 
 Therefore $\partial \omega = d_U \int_0^1 \lambda d t$. Clearly every exact form is obtained this way. 
+
+By the [[Poincare lemma]] the chain homology of the truncated de Rham complex over $U \in CartSp$ vanishes in degree $0 \lt k \lt n$. So it suffices to show that the homology of $N\exp(b^{n-1}\mathbb{R})$ vanishes in these degrees, too. This argument is as in the [[Lie integration]] of $\exp(b^{n-1}\mathbb{R}) \simeq \mathbf{B}^n \mathbb{R}$ itself: given a $k$-form on the $k$-sphere whose integral vanishes, we may extend it by a closed $k$-form to the $(k+1)$-ball.
+
+Finally in degree $n$, we have 0-forms $f$ such that $\sum_{}$ (...)
 
 
 
