@@ -32,9 +32,11 @@ A standard textbook summarizing these results is
 
 * Yi-Zhi Huang, _Two-dimensional conformal geometry and vertex operator algebras_, Progr. in Math. Birkhauser 1997, [gbooks](http://books.google.hr/books?isbn=0817638296)
 
-As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTpYjEC&pg=PR11&lpg=PR11&dq=%22vertex+operator+algebras%22+%22trimble%22&source=bl&ots=v3GHx_ra2M&sig=TW5MzAtDi4n_gJjvUHb6eELoAXQ&hl=en&ei=9jdnSoXqKJiCtge6xqDuDw&sa=X&oi=book_result&ct=result&resnum=4) there, [[Todd Trimble]] and [[Jim Stasheff]] had a hand in making the operadic picture manifest itself here. Other operadic approaches are known, e.g. the earlier one in 
+As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTpYjEC&pg=PR11&lpg=PR11&dq=%22vertex+operator+algebras%22+%22trimble%22&source=bl&ots=v3GHx_ra2M&sig=TW5MzAtDi4n_gJjvUHb6eELoAXQ&hl=en&ei=9jdnSoXqKJiCtge6xqDuDw&sa=X&oi=book_result&ct=result&resnum=4) there, [[Todd Trimble]] and [[Jim Stasheff]] had a hand in making the operadic picture manifest itself here. Other operadic approaches are known, e.g. an earlier one in 
 
 * Bojko Bakalov, Alessandro D'Andrea, Victor G. Kac, _Theory of finite pseudoalgebras_, Adv. Math. __162__ (2001), no. 1, 1--140, [MR2003c:17020](http://www.ams.org/mathscinet-getitem?mr=2003c:17020) 
+
+and even earlier treatments via coloured operads and [[generalized multicategories]], for references (Snydal, Soibelman, Beilinson-Drinfeld) see [[relaxed multicategory]].  
 
 More recently Huang's student Liang Kong has been developing these results further, generalizing them to open-closed CFTs and to non-chiral, i.e. completely general CFTs. See 
 
