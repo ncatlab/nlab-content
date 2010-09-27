@@ -6,7 +6,7 @@ Relaxed multicategories can be thought of, according to Borcherds, as multicateg
 
 ## Sketch of a definition
 
-Let $T$ be the free monoid monad on [[Set]] and $T^+$ the monad induced by the adjunction of the forgetful functor from $T$-multicategories to $T$-graphs. Leinster defines a particular $T^+$-multicategory (see generalized multicategory) $V$. A **relaxed multicategory** is any $V$-[[enriched multicategory|enriched]] $T$-multicategory. 
+Let $T$ be the free [[monoid]] [[monad]] on [[Set]] and $T^+$ the monad induced by the adjunction of the [[forgetful functor]] from $T$-multicategories to $T$-graphs. Leinster defines a particular $T^+$-multicategory (see [[generalized multicategory]]) $V$. A **relaxed multicategory** is any $V$-[[enriched multicategory|enriched]] $T$-multicategory. 
 
 ## Literature
 
@@ -20,3 +20,4 @@ Let $T$ be the free monoid monad on [[Set]] and $T^+$ the monad induced by the a
 * [[A. A. Beilinson]], [[V. Drinfeld]], _Chiral Algebras_, AMS 2004 (a preprint in various forms since around 1995, cf. [here](http://www.math.uchicago.edu/~mitya/langlands.html)).
 
 [[!redirects relaxed multicategory]]
+[[!redirects relaxed multicategories]]
