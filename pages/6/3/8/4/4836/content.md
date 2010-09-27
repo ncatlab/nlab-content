@@ -1,12 +1,18 @@
+# Relaxed multicategories
+* table of contents
+{: toc}
+
 ## Idea
 
 Vertex algebras are intuitively analogues of associative algebras, except that certain singularities come up (in physics terminology thsi comes from [[OPE]]'s).
 
 Relaxed multicategories can be thought of, according to Borcherds, as multicategories in which the morphisms may have some sort of singularity. In the language of pseudotensor categories (a variant of coloured operads) this is studied by Beilinson and Drinfeld. In connection to quantum groups this has been studied by Soibelman. 
 
+
 ## Sketch of a definition
 
 Let $T$ be the free [[monoid]] [[monad]] on [[Set]] and $T^+$ the monad induced by the adjunction of the [[forgetful functor]] from $T$-multicategories to $T$-graphs. Leinster defines a particular $T^+$-multicategory (see [[generalized multicategory]]) $V$. A **relaxed multicategory** is any $V$-[[enriched multicategory|enriched]] $T$-multicategory. 
+
 
 ## Literature
 
@@ -18,6 +24,7 @@ Let $T$ be the free [[monoid]] [[monad]] on [[Set]] and $T^+$ the monad induced 
 * Craig T. Snydal, _Equivalence of Borcherds G-vertex algebras and axiomatic vertex algebras _, [math.QA/9904104](http://arxiv.org/abs/math/9904104)
 
 * [[A. A. Beilinson]], [[V. Drinfeld]], _Chiral Algebras_, AMS 2004 (a preprint in various forms since around 1995, cf. [here](http://www.math.uchicago.edu/~mitya/langlands.html)).
+
 
 [[!redirects relaxed multicategory]]
 [[!redirects relaxed multicategories]]
