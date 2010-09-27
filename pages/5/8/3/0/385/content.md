@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -63,7 +63,7 @@ Or maybe lax and oplax should be switched here?  Can someone verify?
 
 * The Crans-Gray tensor product extends the tensor product  on strict $\omega$-groupoids given by R. Brown and P.J. Higgins (see below); they construct a symmetric monoidal closed structure on these $\omega$-groupoids. It is used there to construct a monoidal closed structure on the category of [[crossed complex]]es. 
 
-* The article ((#Al-Agl/Brown/Steiner)) sets up an equivalence between strict globular $\omega$-categories and certain cubical $\omega$-categories with [[connection]]s, to which the monoidal closed structure in the previous paper is easily extended. 
+* The article [Al-Agl/Brown/Steiner](#Al-Agl/Brown/Steiner) sets up an equivalence between strict globular $\omega$-categories and certain cubical $\omega$-categories with [[connection]]s, to which the monoidal closed structure in the previous paper is easily extended. 
 
 * There is the [[Verity-Gray tensor product]] on [[stratified simplicial set]]s (as described there). Via the [[oriental|omega-nerve]] [[strict omega-category|strict omega-categories]] form the [[complicial set]]s within all [[stratified simplicial set]]s. According to observation 60 of [Verity06](http://arxiv.org/abs/math/0604414) section 11.4 of [Verity04](http://arxiv.org/abs/math/0410412) proves that the Crans-Gray tensor product is the reflection of the Verity-Gray tensor product under this inclusion.
  
@@ -78,7 +78,8 @@ A detailed discussion is in
 * [[Ronnie Brown]] and Phil Higgins, _Tensor products and homotopies for $\omega$-groupoids and crossed complexes_ ,  J. Pure Appl. Alg. 47 (1987) 1--33.
 {#BrownHiggins}
 
-* F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118.(#Al-Agl/Brown/Steiner)
+* F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118.
+{#Al-Agl/Brown/Steiner}
 
 * R. Brown, P.J.Higgins, R. Sivera, _Nonabelian algebraic topology: filtered spaces, crossed complexes, cubical homotopy groupoids_, EMS Tracts in Mathematics vol 15, 650 pages (autumn 2010 to appear). ([Nonabelian algebraic topology](http://www.bangor.ac.uk/r.brown/nonab-a-t.html))
 
