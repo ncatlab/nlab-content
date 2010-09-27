@@ -3030,7 +3030,7 @@ We call $\lambda$ the **gauge parameter** . This is a function on $\Delta^1$ wit
 We describe now how this enccodes a gauge transformation
 
 $$
-  A_0(s=1) \stackrel{\lambda}{\to} A_U(s = 1)
+  A_0(s=0) \stackrel{\lambda}{\to} A_U(s = 1)
   \,.
 $$
 
