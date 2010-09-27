@@ -32,7 +32,7 @@ The ideas here generalize in many directions.  For example not only properties, 
 
 ## Alternative terminology
 
-The terminology 'evil' is not intended literally.  Other possibilities include 'kosher' or 'equivalence-invariant' in place of 'non-evil'.
+The terminology 'evil' is not intended literally.  Other possibilities include 'kosher' or 'invariant/covariant under equivalence' in place of 'non-evil'.
 
 
 ## Criticism
