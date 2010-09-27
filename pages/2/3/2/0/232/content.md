@@ -185,7 +185,9 @@ satisfying analogues of the associativity and unit conditions.  Note that is is 
 satisfying suitable equations.  If $D$ is vertically discrete, i.e. just a bicategory $B$ with no nonidentity vertical arrows, then this is just the same as a $B$-functor as defined above.  However, for many $D$ this notion of functor is more general and natural.
 
 
-## Passage between ordinary categories and enriched categories
+## Change of enriching category {#BaseChange}
+
+### Passage between ordinary categories and enriched categories
 
 Every $K$-enriched category $C$ has an _underlying ordinary category_, usually denoted $C_0$, defined by $C_0(x,y) = K(I, hom(x,y))$ where $I$ is the unit object of $K$.
 
@@ -193,8 +195,15 @@ If $K(I, -): K \to Set$ has a left adjoint $- \cdot I: Set \to K$ (taking a set 
 
 $$Ob(C) \times Ob(C) \stackrel{\hom}{\to} Set \stackrel{-\cdot I}{\to} K$$
 
-More generally, a (lax) [[monoidal functor]] $F: K \to L$ between monoidal categories can be regarded as a "change of base", so that by applying $F$, any category enriched over $K$ can be seen as enriched over $L$. 
+These two operations form [[adjoint functors]] relating the [[2-category]] [[Cat]] to the 2-category $K$-Cat.
 
+### Lax monoidal functors
+
+More generally, any (lax) [[monoidal functor]] $F: K \to L$ between monoidal categories can be regarded as a "change of base".  By applying $F$ to its hom-objects, any category enriched over $K$ gives rise to one enriched over $L$, and this forms a [[2-functor]] from $K$-Cat to $L$-Cat, and in fact from $K$-Prof to $L$-Prof; see [[profunctor]] and [[2-category equipped with proarrows]].
+
+Moreover, this operation is itself functorial from $MonCat$ to $2Cat$.  In particular, any [[monoidal adjunction]] $K\rightleftarrows L$ gives rise to a [[2-adjunction]] $K Cat\rightleftarrows L Cat$ (and also for profunctors).  The adjunction $Cat \rightleftarrows K Cat$ described above is a special case of this arising from the adjunction $-\cdot I: Set \rightleftarrows K : K(I,-)$.
+
+This and further properties of such "change of base" are explored in [[Geoff Cruttwell]]'s [thesis](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf).
 
 
 ##Internalization versus Enrichment
@@ -247,6 +256,10 @@ Vista of some modern generalizations is in
 
 * [[Tom Leinster]], _Generalized enrichement for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
 * [[Tom Leinster]], _Generalized enrichement of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
+
+Change of base is discussed in
+
+* [[Geoff Cruttwell]], _Normed Spaces and the Change of Base for Enriched Categories_, [pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf)
 
 ## Blog entries
 
