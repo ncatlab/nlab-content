@@ -2670,30 +2670,20 @@ $$
 +-- {: .un_example}
 ###### Examples
 
-(...)
+* For $\mathfrak{g}$ a [[semisimple Lie algebra]], $\langle -,-\rangle$ the [[Killing form]] invariant polynomial, there is a Chern-Simons element $cs \in W(\mathfrak{g})$ witnessing the transgression to the cocycle $\mu = - \frac{1}{6} \langle -,[-,-] \rangle$. Under a $\mathfrak{g}$-valued form $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ this maps to the ordinary degree 3 [[Chern-Simons form]]
+
+  $$ 
+    cs(A) = \langle A \wedge d A\rangle + \frac{1}{3} \langle A \wedge [A \wedge A]\rangle
+    \,.
+  $$
 
 =--
 
 #### $\infty$-Connections from Lie integration {#LieIntConn}
 
-We derive now a notion of [[connections on ∞-bundles]] by extending the morphisms $\exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^{n-1} \mathbb{R})$ from [above](#LieIntOfCocycles) that gives rise to characteristic cocycles to a morphism
-
-$$
-  \exp(\mu)_{diff}
-  :
-  \exp(\mathfrak{g})_{diff}
-  \to
-  \exp(\mathfrak{b}^n \mathbb{R})_{diff}
-$$
-
-on the differential [[resolution]]s by forming [[pasting]] composites of the diagrams that define $\exp(\mathfrak{g})_{diff}$, involving a $\mathfrak{g}$-valued form $A$ and its vertical restriction $A_{vert}$ and the diagram that exhibits the cocycle $\mu$, its [[Chern-Simons element]] $cs$ and [[invariant polynomial]] $\langle -\rangle$ as [above](#CurvCharAndCS). 
-
-
-
-
-
-
-
+We have seen above for $\mathfrak{g}$ an $\infty$-Lie algebroid the object
+$\exp(\mathfrak{g})_{diff}$ that classifies [[pseudo-connection]]s
+on $\exp(\mathfrak{g})$-principal $\infty$-bundles and serves to support the $\infty$-Chern-Weil homomorphism. We now discuss the genuine $\infty$-connections among these pseudo-connections. From the point of view of the general abstract theory these are particularly nice representatives of more intrinsically defined structures. 
 
 For $X$ a [[smooth manifold]] and $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally an [[∞-Lie algebroid]], a  **$\infty$-Lie algebroid valued differential form** on $X$ is a morphism of [[dg-algebra]]s
 
@@ -3189,8 +3179,116 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 * What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is really precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the [[supergravity Lie 3-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
 
 
+#### The $\infty$-Chern-Weil homomorphism
 
-#### Dirac quantization conditions
+In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $c : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
+
+All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ n terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
+
+
+##### $\infty$-Chern-Simons functionals
+
+If we express $G$ by [[Lie integration]] of an [[∞-Lie algebra]] $\mathfrak{g}$, then the basic $\infty$-Chern-Weil homomorphism is modeled just by composition an $\infty$-connection $(A_{vert}, A, \langle F_A\rangle)$ with the transgression of an invariant polynomial $(\mu, cs, \langle - \rangle)$
+
+$$
+  \left(
+  \array{
+     \Omega^\bullet_{vert}(U \times \Delta^n)
+     &\stackrel{A_{vert}}{\leftarrow}&
+     CE(\mathfrak{g})
+     &&&
+     transition\;function\;/\;Cech\;cocycle
+     \\
+     \uparrow && \uparrow 
+     \\
+     \Omega^\bullet(U \times \Delta^n)
+     &\stackrel{A}{\leftarrow}&
+     W(\mathfrak{g})
+     &&& 
+     connection
+     \\
+     \uparrow && \uparrow 
+     \\
+     \Omega^\bullet(U)
+     &\stackrel{\langle F_A\rangle}{\leftarrow}&
+     inv(\mathfrak{g})
+     &&&
+     curvature\;characteristics
+  }
+  \right)
+  \circ
+  \left(
+  \array{
+     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}&
+     CE(b^{k} \mathbb{R})
+     &&&
+     cocycle
+     \\
+     \uparrow && \uparrow
+     \\
+     W(\mathfrak{g}) &\stackrel{cs_\mu}{\leftarrow}&
+     W(b^k \mathbb{R})
+     &&&
+     Chern-Simons\;element
+     \\
+     \uparrow && \uparrow
+     \\
+     inv(\mathfrak{g})
+     &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
+     inv(b^k \mathbb{R}) 
+     &&&
+     invariant\;polynomial
+  }
+  \right)
+$$
+
+$$
+  = 
+  \;
+  \;
+  \;
+  \left(
+  \array{
+     \Omega^\bullet(U \times \Delta^n)_{vert}
+     &\stackrel{A_{vert}}{\leftarrow}&
+     CE(\mathfrak{g})
+     &\stackrel{\mu}{\leftarrow}&
+     CE(b^k \mathbb{R})
+     & : \mu(A_{vert})
+     &&&
+     characteristic\;class
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U \times \Delta^n)
+     &\stackrel{A}{\leftarrow}&
+     W(\mathfrak{g})
+     &\stackrel{cs_\mu}{\leftarrow}&
+     W(b^k \mathbb{R})
+     &
+     : cs_\mu(A)
+     &&&
+     Chern-Simons\;form
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)
+     &\stackrel{\langle F_A\rangle}{\leftarrow}&
+     inv(\mathfrak{g})
+     &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
+     inv(b^k \mathbb{R})
+     &
+     : \langle F_A\rangle_\mu
+     &&&
+     curvature\;characteristic\;form
+  }
+  \right)
+  \,.
+$$
+
+
+
+##### Dirac quantization conditions
 
 So far we discussed the untruncated $\exp(\mathfrak{g})_{conn}$. The real object of interest is the $k$-[[truncated]] version $\tau_k \exp(\mathfrak{g})_{conn}$ where $k \in \mathbb{N}$ is such that $\tau_k \exp)\mathfrak{g} \simeq \mathbf{B}G$ is the delooping of the $\infty$-Lie group in question. 
 
@@ -3203,7 +3301,7 @@ $$
 
 We now say this again in more detail.
 
-Suppose $\mathfrak{g}$ is such that the $(n+1)$-[[coskeleton]] $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \stackrel{\simeq}{\to} \simeq \mathbf{B}G$ for the desired $G$. Then the periods of $\mu$ over $(n+1)$-balls cut out a lattice $\Gamma \subset \mathbb{R}$ and thus we get an [[infinity-anafunctor]]
+Suppose $\mathfrak{g}$ is such that the $(n+1)$-[[coskeleton]] $\mathbf{cosk}_{n+1} \exp(\mathfrak{g}) \stackrel{\simeq}{\to} \simeq \mathbf{B}G$ for the desired $G$. Then the periods of $\mu$ over $(n+1)$-balls cut out a lattice $\Gamma \subset \mathbb{R}$ and thus we get an [[∞-anafunctor]]
 
 $$
   \array{
