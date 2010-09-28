@@ -1,9 +1,18 @@
-<div class="rightHandSide toc">
-[[!include functorial quantum field theory - contents]]
-***
-[[!include physicscontents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functorial Quantum Field Theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
