@@ -987,7 +987,7 @@ $$
   }
 $$
 
-in $[CartSp, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[nLab:?LieGrpd]] with the special property that it did model the abstract [[nLab:(∞,1)-topos]]-theoretic class under the [[nLab:Dold-Kan correspondence]] precisely in terms of the familiar [[nLab:Deligne cohomology]] coefficient complex.
+in $[CartSp, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[?LieGrpd]] with the special property that it did model the abstract [[(∞,1)-topos]]-theoretic class under the [[Dold-Kan correspondence]] precisely in terms of the familiar [[Deligne cohomology]] coefficient complex.
 
 There is another model for the curvature class in $[CartSp^{op}, sSet]$, one that is useful for constructing the [∞-Chern-Weil homomorphism](#InfChernWeil) that maps from [[nonabelian cohomology]] in $\infty Lie Grpd$ to $U(1)$-valued differential cohomology. This second model is the one naturally adapted to the construction of the object $\mathbf{B}^n U(1)$ by [[Lie integration]] from its [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$. This is described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegration">∞-Lie groupoid -- Lie integration</a>. 
 
@@ -1080,12 +1080,30 @@ in $[CartSp^{op}, sSet]_{proj}$, which is a weak equivalence.
 
 =--
 
-See [[Lie integration]].
+This is discussed at [[Lie integration]].
 
 +-- {: .un_def }
 ###### Definition
 
-Write $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp} \in [CartSp^{op}, sSet]$ for the [[nLab:simplicial presheaf]]
+Write
+
+$\mathbf{\flat} \mathbf{B}^n \mathbb{R}_{simp}$ for the [[simplicial presheaf]]
+
+$$
+  \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{simp}
+  :=
+  \mathbf{cosk}_{n+1}
+  (
+    (U,[k])
+    \mapsto
+    Hom_{dgAlg}(
+      CE(b^{n-1}\mathbb{R}),
+      \Omega^{\bullet}(U \times\Delta^k)
+    )
+  )
+$$
+
+and write $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp} \in [CartSp^{op}, sSet]$ for the simplicial presheaf
 
 $$
   \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp}
@@ -1096,7 +1114,7 @@ $$
     \mapsto
     Hom_{dgAlg}(
       CE(b^{n-1}\mathbb{R}),
-      \Omega^{\bullet \geq 1}(U) \otimes' \Omega^\bullet(\Delta^k)
+      \Omega^{\bullet \geq 1, \bullet}(U \times\Delta^k)
     )
   )
   \,,
@@ -1106,37 +1124,21 @@ where on the right we have the subcomplex of $\Omega^\bullet(U \times \Delta^k)$
 
 =--
 
-+-- {: .un_lemma }
-###### Lemma
-
-The homology sheaves of the corresponding sheaf of normalized chain complexes $N_\bullet(\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp})$ are concentrated in degree $(n-1)$, where they equal $\Omega^1_{cl}(-)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For $k \lt (n-1)$ the chain differential $\sum_k (-1)^k \partial_k^*$ is onto: for $\omega \in \Omega^\bullet(U\times \Delta^{k-1})$ closed and of degree $n$ there is $\lambda$ with $d \lambda = \omega$, by the [[Poincare lemma]]. Consider the closed form
-
-$$
-  f(t^k) \wedge \omega  - d f(t^k) \wedge \lambda 
-  \in
-  \Omega^\bullet(U \times \Delta^{k})
-  \,,
-$$
-
-where $t^k : \Delta^k \to \mathbb{R}$ is one of the standard coordinates, and where $f : [0,1] \to [0,1]$ is a smooth non-increasing function with $f(0) = 1$ and $f(1) = 0$ and constant in a neighbourhood of the boundary of $[0,1]$. By the fact that $\omega$ has sitting instants, this form is such that its restriction only to one face of $\Delta^{n-1}$ is non-vanishing, where it equals $\omega$. 
-
-This construction fails for $k = n$ because there it may happen that $\lambda$ has all legs along $\Delta^{n-1}$, such that the above construction is not guaranteed to land in $\Omega^{\bullet \geq 1}(U) \otimes \Omega^\bullet(\Delta^n)$. Therefore we pick up a nontrivial homology group in this degree.
-
-(...)
-
-=--
+At <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#DifferentialCoefficientsOfLieInt">∞-Lie groupoid -- Lie integrated ∞-groups -- Differential coefficients</a> the following is shown:
 
 +-- {: .un_lemma }
 ###### Lemma
 
-The evident [[nLab:fiber integration]] over simplices induces a morphism of simplicial presheaves
+The evident [[fiber integration]] over simplices induces morphisms of simplicial presheaves
+
+$$
+  \int_{\Delta^\bullet} : 
+  \mathbf{\flat} \mathbf{B}^n U(1)_{simp}
+  \to 
+  \mathbf{\flat} \mathbf{B}^n U(1)_{chn}
+$$
+
+and
 
 $$
   \int_{\Delta^\bullet} : 
@@ -1145,34 +1147,7 @@ $$
   \mathbf{\flat}_{dR} \mathbf{B}^n U(1)_{chn}
 $$
 
-which is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-To see that we have a chain map let $\omega$ be a closed $n$-form on $U \times \Delta^k$ (with at least one leg along $U$). Then
-
-$$
-  \int_{\Delta^{k-1}} \sum_j (-1)^k \delta^*_j \omega
-  = 
-  \int_{\partial \Delta^k} \omega
-  =
-  \int_{\Delta^k} d_{\Delta^{k}} \omega
-$$
-
-is the result of going one way around the squares in the chain map. Since $\omega$ is closed, this is
-
-$$
-  \cdots = 
-  -\int_{\Delta^k} d_{U}\omega
-  =
-  d_U \int_{\Delta^k} \omega
-  \,,
-$$
-
-which is the result of going the other way around.
+that are weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
 
 =--
 
@@ -1236,16 +1211,14 @@ described at [[nLab:∞-Lie algebra cohomology]].
 +-- {: .un_remark }
 ###### Remark
 
-The set of square diagrams of [[nLab:dg-algebra]]s above is over $(U,[k])$ the set of $n$-forms $\omega$ on $U \times \Delta^k$ whose [[nLab:curvature]] $(n+1)$-form $d \omega$ has no component with all legs along $\Delta^k$.
+The set of square diagrams of [[dg-algebra]]s above is over $(U,[k])$ the set of $n$-forms $\omega$ on $U \times \Delta^k$ whose [[curvature]] $(n+1)$-form $d \omega$ has no component with all legs along $\Delta^k$.
 
 =--
-
-
 
 +-- {: .un_prop }
 ###### Proposition
 
-The morphism given by [[nLab:fiber integration]] of differential forms over the simplex factor fits into a diagram
+The morphism given by [[fiber integration]] of differential forms over the simplex factor fits into a diagram
 
 $$
   \array{
@@ -1263,41 +1236,51 @@ where the vertical morphisms are weak equivalences.
 
 =--
 
+
+
++-- {: .un_prop }
+###### Proposition
+
+Fiber integration induces a weak equivalence
+
+$$
+  \int_{\Delta^\bullet} : 
+  \mathbf{B}^n \mathbb{R}_{diff,simp}
+  \stackrel{\simeq}{\to}
+  \mathbf{B}^n \mathbb{R}_{diff, chn}
+$$
+
+=--
+
 +-- {: .proof}
 ###### Proof
 
-For $k \geq 1$, going one way around the chain map squares, a pair $(\omega, d \omega)$ on $U \times \Delta^k$ is mapped to the pair whose first component is
+Observe that $\mathbf{B}^n \mathbb{R}_{diff,simp}$ is the [[pullback]] of $\mathbf{\flat}_{dR} \mathbf{B}^{n+1}\mathbb{R}_{simp} \to \mathbf{\flat}\mathbf{B}^{n+1} \mathbb{R}_{simp}$ along the evident forgetful morphism from
 
 $$
-  \int_{\Delta^{k-1}} \sum_j (-1)^k \delta_j^* \omega
-  = 
-  \int_{\Delta^k} d_{\Delta^k} \omega
-  =
-  \int_{\Delta^k} d \omega - d_U \omega
-  =
-  d_U \int_{\Delta^k} \omega + \int_{\Delta^k } d \omega
+  (U,[k]) \mapsto \{\Omega^\bullet(U \times \Delta^k) \leftarrow
+  W(b^{n-1} \mathbb{R})\}
+  \,.
 $$
 
-and whose second component is $d_U \int \Delta^k d \omega$.
+This forgetful morphism is evidently a fibration (because it is a degreewise surjection under Dold-Kan), hence this pullback models the [[homotopy fiber]] of $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R} \to \mathbf{\flat} \mathbf{B}^{n+1} \mathbb{R}$. Since by the above fiber integration gives a weak equivalence of pulback diagrams the claim follows.
 
-Going the other way round we first get the pair 
-$(\int_{\Delta^k \omega}, \int_{\Delta^k} d \omega)$. Then the differental of $\mathbf{B}^n U(1)_{diff,chn}$ maps this precisely to the above pair.
-
-For $k = 0$ the same logic applies, with the second part in each pair discarded.
 
 =--
+
+
 
 +-- {: .un_def }
 ###### Definition
 
-Write $\mathbf{B}^n U(1)_{conn,simp} \hookrightarrow \mathbf{B}^n U(1)_{diff,simp}$ for the sub-presheaf which over $(U,[k])$ is the set of those forms $\omega$ on $U \times \Delta^k$ such that the [[nLab:curvature]] $d \omega$ has no leg along $\Delta^k$.
+Write $\mathbf{B}^n U(1)_{conn,simp} \hookrightarrow \mathbf{B}^n U(1)_{diff,simp}$ for the sub-presheaf which over $(U,[k])$ is the set of those forms $\omega$ on $U \times \Delta^k$ such that the [[curvature]] $d \omega$ has no leg along $\Delta^k$.
 
 =--
 
 +-- {: .un_cor }
 ###### Corollary
 
-Under fiber integration over simplices, $\mathbf{B}^n U(1)_{conn,simp}$ is [[nLab:quasi-isomorphism|quasi-isomorphic]] to the [[nLab:Deligne cohomology]]-complex.
+Under fiber integration over simplices, $\mathbf{B}^n U(1)_{conn,simp}$ is [[quasi-isomorphism|quasi-isomorphic]] to the [[Deligne cohomology]]-complex.
 
 
 =--
@@ -1333,7 +1316,7 @@ $$
   \,.
 $$
 
-In summary this gives us the following alternative perspective on connections on $\mathbf{B}^{n-1}U(1)$-[[nLab:principal ∞-bundle]]s: such a connection is a cocycle with values in the $\mathbf{B}^n \mathbb{Z}$-quotient of the  $(n+1)$-coskeleton of the simplicial presheaf which over $(U,[k])$ is the set of diagrams of [[nLab:dg-algebra]]s
+In summary this gives us the following alternative perspective on connections on $\mathbf{B}^{n-1}U(1)$-[[principal ∞-bundle]]s: such a connection is a cocycle with values in the $\mathbf{B}^n \mathbb{Z}$-quotient of the  $(n+1)$-coskeleton of the simplicial presheaf which over $(U,[k])$ is the set of diagrams of [[dg-algebra]]s
 
 $$
   \array{
