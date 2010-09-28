@@ -27,30 +27,29 @@
 
 ## Idea
 
-The D'Auria-Fr&#233; formalism for [[supergravity]] identifies the field content with [[∞-Lie algebra valued forms]] with values in the [[supergravity Lie 3-algebra]].
+The D'Auria-Fr&#233; formalism for [[supergravity]] identifies the field content with [[∞-Lie algebra valued forms]] with values in a super [[∞-Lie alghebra]] such as the [[supergravity Lie 3-algebra]] or the [[supergravity Lie 6-algebra]].
 
 For background see [[∞-Chern-Weil theory introduction]].
 
-***
+### History
 
+Around 1981 D'Auria and Fr&#233; noticed, in [GeSuGra](#DAuriaFre), that the intricacies of various [[supergravity]] [[classical field theory|classical field theories]] have a strikingly powerful reformulation in terms of super [[semifree dga|semifree differential graded-commutative algebra]]s. 
 
-In 1981 D'Auria and Fr&#233; noticed, in [GeSuGra](#References), that the intricacies of various [[supergravity]] [[classical field theory|classical field theories]] have a strikingly powerful reformulation in terms of [[semifree dga|semifree differential graded-commutative algebra]]s. 
+They defined various such super dg-algebras $W(\mathfrak{g})$ and showed (paraphrasing somewhat) that
 
-Here we describe this formalism in the way it is usually presented, and at the same time discuss the following useful re-interpretation:
+* the field content, [[field strength]]s, [[covariant derivative]]s and [[Bianchi identity|Bianchi identities]] are all neatly encoded in terms of dg-algebra homomorphism $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : \phi$;
 
-+-- {: .standout}
+* the [[action functional]]s of supergravity theories on such $\phi$ may be constructed as images under $\phi$ of certain elements in $W(\mathfrak{g})$ subject to natural conditions.
 
-**General abstract reinterpretation** of the D'Auria-Fr&#233; formalism:
+Their algorithm was considerably more powerful than earlier more pedestrian methods for construction such action functionals. The textbook [CastellaniDAuriaFre](#CastellaniDAuriaFrre) on [[supergravity]] and [[string theory]] from the perspective of this formalism gives a comprehensive description of this approach.
 
-The theory of [[supergravity]] (at least as a [[classical field theory]]) is a theory of [[connections on ∞-bundles]]. The fields are locally [[∞-Lie algebra valued forms]] with values for instance in the [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$ (for maximal 11-dimensional supergravity).
+We observe here that the D'Auria-Fre-formalism is [[schreiber:∞-Chern-Simons theory]] for [[∞-Lie algebra-valued forms]] with values in super [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]].
 
-=--
+The pivotal concept that allows to pass between this interpretation and the original formulation is the concept of [[∞-Lie algebroid]] with its various incarnations:
 
-The pivotal concept that allows to pass between this interpretation and the D'Auria-Fr&#233;-formalism is the concept of [[∞-Lie algebroid]] with its various incarnations:
-
-+-- {: .standout}
-
-**Incarnations of $\infty$-Lie algebroids**
++-- {: .un_remark}
+###### Remark
+**(Incarnations of $\infty$-Lie algebroids)**
 
 A (super) [[∞-Lie algebroid]] 
 
@@ -64,7 +63,8 @@ A (super) [[∞-Lie algebroid]]
 
 =--
 
-Notably the [[semifree dga]] upon which D'Auria-Fr&#233; base their description of 11-dimensional [[supergravity]] is the [[Chevalley-Eilenberg algebra]] of the [[supergravity Lie 3-algebra]], which is an [[∞-Lie algebra]] that is a [[∞-Lie algebra cohomology|higher central extension]]
+
+Notably the [[semifree dga]] upon which D'Auria-Fr&#233; base their description is the [[Chevalley-Eilenberg algebra]] of the [[supergravity Lie 3-algebra]], which is an [[∞-Lie algebra]] that is a [[∞-Lie algebra cohomology|higher central extension]]
 
 $$
   0 \to b^2 \mathfrak{u}(1)
@@ -103,7 +103,7 @@ By realizing this data as components of a Lie 3-algebra valued connection (more 
 * the determination of the corresponding classical equations of motion.
 
 
-### _Nomen est omen_ - Higher gauge theory reinterpretation 
+### Higher gauge theory reinterpretation 
 
 Originally D'Auria and Fr&#233; referred to commutative [[semifree dga]]s as _Cartan integrable systems_. Later the term _free differential algebra_, abbreviated _FDA_ was used instead and became popular. Nowadays much of the literature that studies commutative [[semifree dga]]s in [[supergravity]] refers to them as "FDA"s. One speaks of the _FDA approach to supergravity_ . 
 
@@ -186,18 +186,13 @@ The [[∞-Chern-Weil theory]] of [[connections on ∞-bundles]] is about
 
 The D'Auria-Fr&#233;-formalism -- after this re-interpretation -- is about the first of these points. So as an immediate gain of our reformlation of D'Auria-Fr&#233;-formalism in terms of [[connections on ∞-bundles]]s we obtain, using the second of these points, a natural proposal for a formulation of [[supergravity]] field configurations that are possibly globally topologically nontrivial. Physicists speak of **instanton solutions**.
 
-In fact, 
+In fact, the [[∞-Lie theory]]-reformulation exhibits the D'Auria-Fr&#233;-formalism as being secretly the realization of [[supergravity]] as a higher [[gauge theory]].
 
-+-- {: .standout}
-
-The [[∞-Lie theory]]-reformulation exhibits the D'Auria-Fr&#233;-formalism as being secretly the realization of [[supergravity]] as a higher [[gauge theory]].
-
-=--
 
 It realizes supergravity as an example for a _nonabelian_ higher gauge theory in that a [[supergravity]] field configuration is not realizable as a cocycle in [[ordinary differential cohomology]] as in ordinary abelian higher [[gauge theory]] (see there) but as a nonabelian [[connection on an ∞-bundle]].
 
 
-## Details 
+## Kinematics
 
 ### The supergravity Lie 3-algebra 
 
@@ -486,15 +481,44 @@ $$
 
 This is the _rheonomy constraint_ . (Or -- more generally -- the constraint called such is the condition that $(F_A)_\theta$ is an algebraic expression in the $(F_A)|_{T U}$).
 
+
+## Dynamics
+
+A [[Chern-Simons element]] $W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R}) cs $ of an [[∞-Lie algebra]] defines an [[∞-Chern-Simons theory]] [[action functional]] on the space of $\mathfrak{g}$-[[∞-Lie algebra-valued differential forms]]. We discuss how actional functionals for supergravity theories are special cases of this.
+
+
+### Cosmo-cocycles -- Chern-Simons elements
+
+In [DAuriaFre](#DauriaFre) a certain prescription is given for constructing action functionals.
+
+(...)
+
+The _cosmo-cocycle_ condition is a condition for identifying [[Chern-Simons element]]s.
+
+(...)
+
+### Examples
+
+#### 5-Dimensional Supergravity
+
+(...)
+
+#### $11$-Dimensional Supergravity
+
+(...)
+
 ## References {#References}
+
 
 The original article that introduced th D'Auria-Fr&#233;-formalism is
 
-* **geSuGra** R. D'Auria, P. Fr&#233; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
- 
+* R. D'Auria, P. Fr&#233; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
+{#DAuriaFre} 
+
 The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
+{#CastellaniDAuriaFrre}
 
 The _geometric perspective_ discussed there is both the emphasis of working over base [[supermanifold]]s and combined with that the the approach that here we call tthe _D'Auria-Fr&#233;-formalism_ . 
 
