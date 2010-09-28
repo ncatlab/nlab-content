@@ -71,10 +71,10 @@ See also [[crossed n-cube]] for an alternative description.
 
 ## Remarks
 
-* Even though $cat^n$-groups are examples of strict [[n-fold category|n-fold categories]], Loday has shown that the [[homotopy category]] of $cat^{n-1}$-groups is equivalent to that of spaces which are pointed connected [[homotopy n-type]]s. Hence for $cat^n$-groups (thought of as $(n+1)$-fold groupoids) the [[homotopy hypothesis]] is true in this sense. See there for more details.
+* Even though $cat^n$-groups are examples of strict [[n-fold category|(n+1)-fold categories]], Loday has shown that the [[homotopy category]] of $cat^{n-1}$-groups is equivalent to that of spaces which are pointed connected [[homotopy n-type]]s. Hence for $cat^n$-groups (thought of as $(n+1)$-fold groupoids) the [[homotopy hypothesis]] is true in this sense. See there for more details.
 
 +-- {.query}
-[[Tim Porter|Tim]] Is the first statement above correct? $Cat^n$-groups are examples of strict (n+1)-fold categories, not strict n=categories or am I missing something?
+[[Tim Porter|Tim]] Is the first statement above correct? $Cat^n$-groups are examples of strict (n+1)-fold categories, not strict n=categories or am I missing something? (28-09-2010&lt;- corrected)
 
 [[Ronnie Brown|Ronnie]]  Agreed, and I have corrected that. This is important since an [[n-category]] internal to [[Grp]] is equivalent to a single vertex [[crossed complex]]  of length $n+1$. 
 
