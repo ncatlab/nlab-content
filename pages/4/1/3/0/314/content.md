@@ -128,14 +128,14 @@ the [[presheaf]] $\hat \lim F \in [C^{op}, Set]$ by
 the analog of the above formula
 
 $$
-  (\hat \lim F)(d)
+  (\hat \lim F)(c)
   \simeq
-  Hom_{[C^{op}, Set]}(Y(d), lim F)
+  Hom_{[C^{op}, Set]}(Y(c), \hat \lim F)
   :=
-  \lim Hom_{[C^{op}, Set]}(Y(d), F(-))
+  \lim Hom_{[C^{op}, Set]}(Y(c), F(-))
 $$
 
-for all $d \in D$.
+for all $c \in C$.
 
 Here the $\lim$ on the right is again that of
 [[Set]]-valued functors defined before.
@@ -187,7 +187,7 @@ is, if it exists, the
 object representing the presheaf
 $$
  d \mapsto
-    Hom_{[D^{op}, Set]}(W , Hom([C^{op}, Set]))(c,F(-))
+    Hom_{[D^{op}, Set]}(W , Hom_{[C^{op}, Set]}(c,F(-)))
   \,,
 $$
 
