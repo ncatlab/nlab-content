@@ -175,7 +175,7 @@ $$
   \,.
 $$
 
-(Here $\mathbf{E} \mathbf{B}^{k-1} U(1)$ is as described at [[generalized universal bundle]].)
+(Here $\mathbf{E} \mathbf{B}^{k-1} U(1)$ is as described at [[universal principal ∞-bundle]].)
 
 
 By the canonical $k$-[[representation]] $\rho : \mathbf{B}^k U(1) \to k Vect_{\mathbb{C}}$ of $\mathbf{B}^{k-1}U(1)$ on complex [[n-vector space|k-vector space]]s, we have [[associated bundle|associated]] to this canonically a $k$-vector bundle $E$, which may be realized as the pullback
