@@ -1244,7 +1244,7 @@ $$
     \mapsto
    \left\{
      \array{
-        \Omega^\bullet(U \times \Delta^k)
+        \Omega^\bullet(U \times \Delta^k)_{vert}
         &\leftarrow&
         CE(b^{n-1}\mathbb{R})
         \\
