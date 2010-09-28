@@ -48,7 +48,7 @@ $$
 The **boundary** of this simplex in $X$ is the the [[chain]] (formal linear combination of smooth $(k-1)$-simplices)
 
 $$
-  \partial \Delta^k = \sum_{i = 0}^k (-1)^i \sigma \circ \partial_i
+  \partial \sigma = \sum_{i = 0}^k (-1)^i \sigma \circ \partial_i
   \,.
 $$
 
