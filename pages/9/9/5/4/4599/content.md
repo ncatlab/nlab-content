@@ -989,9 +989,7 @@ $$
 
 in $[CartSp, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[nLab:?LieGrpd]] with the special property that it did model the abstract [[nLab:(∞,1)-topos]]-theoretic class under the [[nLab:Dold-Kan correspondence]] precisely in terms of the familiar [[nLab:Deligne cohomology]] coefficient complex.
 
-Now we describe another model for the curvature class in $[CartSp^{op}, sSet]$, one that is useful for constructing the [∞-Chern-Weil homomorphism](#InfChernWeil) that maps from [[nLab:nonabelian cohomology]] in $\infty Lie Grpd$ to $U(1)$-valued differential cohomology.
-
-This second model is the one naturally adapted to the construction of the object $\mathbf{B}^n U(1)$ by [[nLab:Lie integration]] from its [[nLab:∞-Lie algebra]] $b^{n-1} \mathbb{R}$. This is described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegration">∞-Lie groupoid -- Lie integration</a>. 
+There is another model for the curvature class in $[CartSp^{op}, sSet]$, one that is useful for constructing the [∞-Chern-Weil homomorphism](#InfChernWeil) that maps from [[nonabelian cohomology]] in $\infty Lie Grpd$ to $U(1)$-valued differential cohomology. This second model is the one naturally adapted to the construction of the object $\mathbf{B}^n U(1)$ by [[Lie integration]] from its [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$. This is described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegration">∞-Lie groupoid -- Lie integration</a>. 
 
 For distinguishing the two models, we will indicate the former one by the subscript ${}_{chn}$ and the one described now by the subscript ${}_{simp}$.
 
@@ -1009,7 +1007,7 @@ Here and in the following we adopt for differential forms on simplices the follo
 +-- {: .un_def }
 ###### Definition
 
-For $n \in \mathbb{N}$, define the [[nLab:simplicial presheaf]] $\mathbf{B}^n U(1)_{simp} \in [CartSp^{op}, sSet]$ by
+For $n \in \mathbb{N}$, define the [[simplicial presheaf]] $\mathbf{B}^n U(1)_{simp} \in [CartSp^{op}, sSet]$ by
 
 $$
   \mathbf{B}^n U(1)_{simp}
@@ -1034,7 +1032,7 @@ Moreover, $\mathbf{cosk}_{n+1}(-)$ is the [[coskeleton]]-operation and the quoti
 +-- {: .un_lemma }
 ###### Observation
 
-Under the [Dold-Kan correspondence](#DoldKan) the [[nLab:Moore complex|normalized chain complex]] of $\mathbf{B}^n U(1)_{sim}$ is
+Under the [Dold-Kan correspondence](#DoldKan) the [[Moore complex|normalized chain complex]] of $\mathbf{B}^n U(1)_{sim}$ is
 
 $$
   N_\bullet(\mathbf{B}^n U(1)_{simp})
@@ -1061,8 +1059,8 @@ where $\partial_k : \Delta^n \to \Delta^{n+1}$ denotes the embedding of the $k$t
 
 Here and in the following we indicate the homologically trivial part of the normalized chain complex of an $(n+1)$-coskeletal simplicial abelian group just by ellipses.
 
-+-- {: .un_lemma }
-###### Observation
++-- {: .un_prop }
+###### Proposition
 
 The evident [[fiber integration]] of differential forms over simplices 
 
@@ -1082,57 +1080,7 @@ in $[CartSp^{op}, sSet]_{proj}$, which is a weak equivalence.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-By the [Dold-Kan](#DoldKan)-[[nLab:adjunction]] $(N_\bullet \dashv \Xi)$ and the above observation, it is sufficient to check that for each $U \in CartSp$
-
-$$
-  \array{
-    \cdots
-    &\to&
-    \Omega^n_{cl}(U \times \Delta^{n+1})_{vert}/\sim
-    &\stackrel{\sum_k (-1)^k \partial_k^* }{\to}&
-    \Omega^n_{cl}(U \times \Delta^n)/\sim
-    &\to&
-    0 
-    &\to&
-    \cdots
-    &\to&
-    0  
-    \\
-    &&
-    \downarrow^{\mathrlap{\int_{\Delta^{n+1}}}}
-    &&
-    \downarrow^{\mathrlap{\int_{\Delta^{n}}}}
-    &&
-    \downarrow
-    &&
-    &&
-    \downarrow
-    \\
-    \cdots &\to& 0 &\to& C^\infty(-, U(1)) &\to& 0 &\to& \cdots &\to& 0
-  }
-$$
-
-is a chain complex morphism and a [[nLab:quasi-isomorphism]].
-
-To see that we have a chain map, let $\omega$ be a $U$-familiy of closed $n$-forms on $\Delta^{n+1}$. Then by [[Stokes' theorem]] we have
-
-$$
-  \int_{\Delta^n} \sum_k (-1)^k \partial_k^* \omega
-  =
-  \int_{\partial \Delta^{n+1}} \omega
-  =
-  \int_{\Delta^{n+1}} d_{\Delta^n} \omega
-  =
-  0
-  \,.
-$$
-
-This means that the left square in the above diagram does commute. To see the quasi-isomorphism, it suffices to notice that an $n$-form on the $n$-sphere extends to a closed $n$-form on the $(n+1)$-ball precisely if its integral over the $n$-sphere vanishes. 
-
-=--
+See [[Lie integration]].
 
 +-- {: .un_def }
 ###### Definition
