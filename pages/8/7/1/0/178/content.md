@@ -2413,26 +2413,26 @@ First we produce a [[resolution]] of the underlying bare $\infty$-groupoid
 
 $$
   \mathbf{\flat}\exp(\mathfrak{g}) : (U,[n]) \mapsto 
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^n_{Diff}))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(\Delta^n))
   \,.
 $$
 
 +-- {: .un_def }
 ###### Definition
 
-Write $\exp(\mathfrak{g}) Bund_{flat}$ for the simplicial presheaf given by
+Write $\exp(\mathfrak{g})_{flat}$ for the simplicial presheaf given by
 
 $$
-  \exp(\mathfrak{g})Bund_{flat}
+  \exp(\mathfrak{g})_{flat}
   :
   (U,[n]) \mapsto
-  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^n_{Diff}))
+  Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^n))
   \,.
 $$
 
 =--
 
-Here and in the following it is understood that diferential forms on a space that contains a $\Delta^n_{Diff}$ as a factor have _sitting instants_ : for every $k$ and every $k$-face of $\Delta^n_{Diff}$ there is a neighbourhood of the boundary of that face on which the form is constant in the direction perpendicular to that boundary.
+Here and in the following it is understood that differential forms on a space that contains a $\Delta^n$ as a factor have _sitting instants_ : for every $k$ and every $k$-face of $\Delta^n$ there is a neighbourhood of the boundary of that face on which the form is constant in the direction perpendicular to that boundary.
 
 
 
@@ -2445,7 +2445,7 @@ The canonical morphism
 $$
   \mathbf{\flat}\exp(\mathfrak{g})
   \to
-  \exp(\mathfrak{g}) Bund_{flat}
+  \exp(\mathfrak{g})_{flat}
 $$
 
 is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
@@ -2453,8 +2453,8 @@ is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
 =--
 
 
-Below we use this to factor the inclusion $\mathbf{\flat} \exp(\mathfrak{g}) \to \exp(\mathfrak{g})$ as $  \mathbf{\flat}\exp(\mathfrak{g})
- \stackrel{\simeq}{\to} \exp(\mathfrak{g}) Bund_{flat} \to \exp(\mathfrak{g})$ with the last morphism being a fibration.
+Below we use this to factor the inclusion $\mathbf{\flat} \exp(\mathfrak{g}) \to \exp(\mathfrak{g})$ as $\mathbf{\flat}\exp(\mathfrak{g})
+ \stackrel{\simeq}{\to} \exp(\mathfrak{g})_{flat} \to \exp(\mathfrak{g})$ with the last morphism being a fibration.
 
 +-- {: .proof}
 ###### Proof
@@ -2462,46 +2462,46 @@ Below we use this to factor the inclusion $\mathbf{\flat} \exp(\mathfrak{g}) \to
 The morphism of simplicial presheaves is on each object $U$ the morphism of simplicial sets
 
 $$
-  \alpha(U)
+  \alpha(U,[k])
   :
-  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
+  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^k))
   \to
-  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet \times U))
+  Hom(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^k))
 $$
 
-which is given degreewise by postcomposition with the morphisms of dg-algebras
-$\Omega^\bullet(\Delta^n_{Diff}) \to \Omega^\bullet(\Delta^n_{Diff})\otimes \Omega^\bullet(U)$ that sends $\omega$ to $\omega \otimes 1$.
+which is given by pullback along the projection $U \times \Delta^k \to U$.
+
 
 To show that for fixed $U$ this is a weak equivalence in the standard [[model structure on simplicial sets]] we produce objectwise a left inverse 
 
 $$
   F_U
   :
-  Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet \times U))
+  Hom(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^\bullet))
   \to
   Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet))
 $$
 
-and show that this is an acyclic fibration of simplicial sets. The statement then follows by 2-out-of-3.
+and show that this is an acyclic fibration of simplicial sets. The statement then follows by the [[category with weak equivalences|2-out-of-3]]-property of weak equivalences.
 
-We take $F_U$ to be given by evaluation at $0 \in U$, i.e. by postcomposition with the morphisms
+We take $F_U$ to be given by evaluation at $0: * \to U$, i.e. by postcomposition with the morphisms
 
 $$
-  \Omega^\bullet(\Delta^n \times U)
+  \Omega^\bullet(U \times \Delta^k )
   \stackrel{Id \times 0^*}{\to}
-  \Omega^\bullet(\Delta^n \times * )
+  \Omega^\bullet(* \times \Delta^k )
   =
-  \Omega^\bullet(\Delta^n)
+  \Omega^\bullet(\Delta^k)
   \,.
 $$
 
 
-Recall that the morphism $F_U$ will be an acyclic [[Kan fibration]] precisely if all diagrams of the form
+The morphism $F_U$ is an acyclic [[Kan fibration]] precisely if all diagrams of the form
 
 $$  
   \array{
     \partial \Delta[n] &\to&
-    Hom(CE(\mathfrak{g}), \Omega^\bullet(\Delta^\bullet \times U))
+    Hom(CE(\mathfrak{g}), \Omega^\bullet(U \times \Delta^\bullet ))
     \\
     \downarrow && \downarrow^\mathrlap{F_U}
     \\
@@ -2568,7 +2568,7 @@ $$
   \Omega^\bullet(U \times S^{n-1} \times [0,1])
 $$
 
-which is such a form $\omega$ is sent to a form which in a neighbourhood $(1-\epsilon,1]$ of $1 \in [0,1]$ is constant along $(1-\epsilon,1] \times U$ on the value $(0 \otimes Id_{S^{n-1}})^* \omega$. 
+which is such that a form $\omega$ is sent to a form which in a neighbourhood $(1-\epsilon,1]$ of $1 \in [0,1]$ is constant along $(1-\epsilon,1] \times U$ on the value $(0 , Id_{S^{n-1}})^* \omega$. 
 
 We can then glue to the morphism
 
@@ -2587,7 +2587,7 @@ $$
   \Omega^\bullet(U \times \{1\} \times D^n)
 $$
 
-by smoothly identifying the union $[0,1] \times S^{n-1} \coprod_{S^{n-1}} D^n$ with another copy of $D^n$ to obtain in total a morphism
+by smoothly identifying the union $[0,1] \times S^{n-1} \coprod_{S^{n-1}} D^n$ with another copy of $D^n$ (we glue a disk into an annulus to obtain a larger disk) to obtain in total a morphism
 
 $$
   CE(\mathfrak{g}) \to \Omega^\bullet(U \times D^n)
@@ -2604,7 +2604,7 @@ with the desired properties.
 The canonical morphism
 
 $$
-  \exp(\mathfrak{g}) Bund_{flat}
+  \exp(\mathfrak{g})_{flat}
   \to 
   \exp(\mathfrak{g})
 $$
@@ -2841,12 +2841,12 @@ $$
   \mapsto
    Hom_{dgAlg}(
      CE(\mathfrak{g}),
-     \Omega^{\bullet\geq 1,\bullet}(U \times \Delta^n_{Diff})
+     \Omega^{\bullet\geq 1,\bullet}(U \times \Delta^n)
   )
   \,,
 $$
 
-where the notation on the right denotes the dg-algebra of differential forms on $U \times\Delta^n_{Diff}$ that (apart from having setting instants on the faces of $\Delta^n_{Diff}$) are along $U$ of non-vanishing degree.
+where the notation on the right denotes the dg-algebra of differential forms on $U \times\Delta^n$ that (apart from having sitting instants on the faces of $\Delta^n$) are along $U$ of non-vanishing degree.
 
 =--
 
@@ -2947,21 +2947,21 @@ $$
   \begin{aligned}
      \omega \mapsto d_U \int_{\Delta^k} \omega
       &= 
-      \int_{\Delta^k} d_U \omega
+      - \int_{\Delta^k} d_U \omega
       \\
-      & = - \int_{\Delta^k} d_{\Delta^k} \omega
+      & = \int_{\Delta^k} d_{\Delta^k} \omega
       \\
-      & = - \int_{\partial \Delta^k} \omega
+      & =  \int_{\partial \Delta^k} \omega
   \end{aligned}
 $$
 
-using that $\omega$ is closed, so that $d_{dR} \omega = (d_U + d_{\Delta^k}) \omega = 0$.
+where we first used that $\omega$ is closed, so that $d_{dR} \omega = (d_U + d_{\Delta^k}) \omega = 0$, and then [[Stokes' theorem]].
 
 Therefore we have indeed objectwise a chain map.
 
 To see that it gives a weak equivalence we need to check that this chain map is a [[quasi-isomorphism]].
 
-From the construction of both objects we know that they have the same cohomology, and that is concentrated in degree $n$, where it is $\Omega^1_{cl}(U)$. Therefore it is in fact sufficient to check that the integration map is onto in degree $n$. 
+From the construction of both objects we know that they have the same cohomology, because both are models for the same homotopy pullback. For $\mathbf{\flat}_{dR}^{chn}$ that cohomology is concentrated in degree $n$, where it is $\Omega^1_{cl}(U)$. Therefore it is in fact sufficient to check that the integration map is onto in degree $n$. 
 
 That amounts to observing that every 1-form $\alpha \in \Omega^1(U)$ may be obtained by integration of a closed $n$-form on $U \times \Delta^k$. This is clearly the case, for instance take $\frac{1}{c} \alpha \wedge d x^1 \wedge \cdots \wedge d x^{k} - \frac{1}{c} (d_U \alpha) \wedge x^1 \wedge d x^2 \wedge \cdots \wedge d x^k$.
 
