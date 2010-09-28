@@ -91,10 +91,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By general nonsense (recalled at [[cohomology]] and [[fiber sequence]], for instance) we have for the [[homotopy group]]s that
+By general abstract reasoning (recalled at [[cohomology]] and [[fiber sequence]], for instance) we have for the [[homotopy group]]s that
 
 \[
-  \pi_i[\Pi(X_{n-k},\mathbf{B}^n U(1)]
+  \pi_i[\Pi(X_{n-k}),\mathbf{B}^n U(1)]
   \simeq 
   H^{n-i}(X_{n-k}, U(1))
   \,.
@@ -134,7 +134,7 @@ that identifies the [[cohomology group]] in question with the [[internal hom]] i
 For $i\lt k$, the right hand side is zero, and so 
 
 $$
-  \pi_i[\Pi(X_{n-k},\mathbf{B}^n U(1)]=0 \;\;\;\;
+  \pi_i[\Pi(X_{n-k}),\mathbf{B}^n U(1)]=0 \;\;\;\;
   for i\lt k
   \,. 
 $$ 
@@ -142,7 +142,7 @@ $$
 For $i=k$, instead, $H_{n-i}(X_{n-k},\mathbb{Z})\simeq \mathbb{Z}$, since $X_{n-k}$ is a closed $(n-k)$-manifold and so 
 
 $$
-  \pi_k[\Pi(X_{n-k},\mathbf{B}^n U(1)]\simeq U(1)
+  \pi_k[\Pi(X_{n-k}),\mathbf{B}^n U(1)]\simeq U(1)
   \,.
 $$
 
