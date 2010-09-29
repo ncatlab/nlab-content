@@ -10,6 +10,8 @@ Stimulated by Kontsevich's 1997 letters to [[Victor Ginzburg]] and Witten, [[Kap
 
 * [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113, [MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009)
 
+* Jian Qiu, Maxim Zabzine, _Odd Chern-Simons theory, Lie algebra cohomology and characteristic classes_, [arxiv/0912.1243](http://arxiv.org/abs/0912.1243)
+
 [[!redirects Rozansky-Witten class]]
 [[!redirects Rozansky-Witten invariant]]
 [[!redirects Rozansky-Witten invariants]]
