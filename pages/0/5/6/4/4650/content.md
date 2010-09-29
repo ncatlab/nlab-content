@@ -18,7 +18,7 @@ in which $s e = id_A$, $t g = id_B$ and $t f = e s$ (we used here Leibniz order 
 
 Surely, $f$ and $g$ can be interchanged in the definition (a matter of unimportant convention). 
 
-Every split fork is an [[absolute limit|absolute]] [[equalizer]].
+Every split fork is an [[absolute limit|absolute]] [[equalizer]], but not conversely.  See also [[split coequalizer]].
 
 
 [[!redirects split equalizer]]
