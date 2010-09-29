@@ -4,7 +4,7 @@
 
 ## Definition
 
-A **fork** in a [[category]] $C$ is a diagram of the form
+For purposes of this page, a [[fork]] (some might say a "cofork") in a [[category]] $C$ is a diagram of the form
 
 $$ A \;\underoverset{f}{g}{\rightrightarrows}\; B \overset{e}{\rightarrow} C $$
 
