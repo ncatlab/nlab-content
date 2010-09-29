@@ -194,9 +194,16 @@ It realizes supergravity as an example for a _nonabelian_ higher gauge theory in
 
 ## Kinematics
 
-### The supergravity Lie 3-algebra 
+### The supergravity Lie $n$-algebras 
 
-recall the [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$
+We have a sequence of [[∞-Lie algebra cohomology|∞-Lie algebra extensions]]
+
+[[supergravity Lie 6-algebra]] $\to$ [[supergravity Lie 3-algebra]] $\to$ [[super Poincare Lie algebra]]
+
+$$
+  \mathfrak{sugra}_6 \to \mathfrak{sugra}_3 \to \mathfrak{siso}(10,1)
+  \,.
+$$
 
 ...
 
@@ -487,17 +494,52 @@ This is the _rheonomy constraint_ . (Or -- more generally -- the constraint call
 A [[Chern-Simons element]] $W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R}) cs $ of an [[∞-Lie algebra]] defines an [[∞-Chern-Simons theory]] [[action functional]] on the space of $\mathfrak{g}$-[[∞-Lie algebra-valued differential forms]]. We discuss how actional functionals for supergravity theories are special cases of this.
 
 
-### Cosmo-cocycle equations --- Chern-Simons elements
+### Cosmo-cocycle equations --- Chern-Simons elements {#ChernSimonsElements}
 
-In [DAuriaFre](#DauriaFre) a certain prescription is given for constructing action functionals.
+In [[first-order formulation of gravity]] where the field of [[gravity]] is encoded in a [[vielbein]] $E$ and a [[spin connection]] $\Omega$, the [[Einstein-Hilbert action]] takes the _Palatini_ form
 
-(...)
+$$
+  \mathcal{L} : (e,\omega) \mapsto
+  \int_X R^{a_1 a_2} \wedge E^{a_3} \wedge \cdots \wedge E^{a_d}
+    \epsilon_{a_1 \cdots a_d}
+  + 
+  \cdots
+  \,,
+$$
 
-The _cosmo-cocycle_ condition is a condition for identifying [[Chern-Simons element]]s.
+where $R^{a b} = \mathbf{d} \Omega^{a b} + \Omega^{a c}\wedge \Omega_c{}^b$ are the components of the [[curvature]] of $\Omega$ and 
 
-For $\{t^a\}$ a basis of $\mathfrak{g}^*$ let $\{r^a\}$ be the corresponding shifted basis of $\mathfrak{g}^*[1]$.
+$$
+  \epsilon_{a_1 \cdots a_n} = sgn(a_1, \cdots, a_n)
+$$
 
-Write a general element in the [[Weil algebra]] $W(\mathfrak{g})$ as
+is the [[signature of a permutation|signature]] of the index-permutation.
+
+If $E$ and $\Omega$ are components of an [[∞-Lie algebroid-valued form]] $\Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A$ then such a Palatini term is of the form as may appear in a [[Chern-Simons element]] 
+
+$$
+  \Omega^\bullet(X)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{cs}{\leftarrow}
+  W(b^{n-1}\mathbb{R})
+  :
+  cs(A)
+$$
+
+on $W(\mathfrak{g})$. We now discuss, following D'Auria-Fr&#233;, how the [[action functional]]s of supergravity are indeed those of [[schreiber:∞-Chern-Simons theory]] for Chern-Simons elements on certain super $\infty$-Lie algebroids.
+
+We discuss a system of equations that characterize [[Chern-Simons element]]s in the [[Weil algebra]] $W(\mathfrak{g})$ with the property that they induce transgression between [[∞-Lie algebra cocycle]]s $\mu$ and _vanishing_ [[invariant polynomial]]s $\langle - \rangle = 0$. 
+
+
+To do so, we work in a basis $\{t^a\}$ of $\mathfrak{g}^*$. Let $\{r^a\}$ be the corresponding shifted basis of $\mathfrak{g}^*[1]$. Write $\{C^a{}_{b_0 \cdots b_n}\}$ for the structure constants in this basis, so that the differential in the [[Weil algebra]] acts as
+
+$$
+  d_W : t^a \mapsto \sum_n C^a{}_{b_0 \cdots b_n} t^{b_0} \wedge \cdots \wedge t^{b_n} + r^a
+  \,.
+$$
+
+Write a general element in  $W(\mathfrak{g})$ as
 
 $$
   cs 
@@ -507,12 +549,12 @@ $$
   \,,
 $$
 
-where $\lambda, \nu_a, \nu_{a b}, \cdots \in CE(\mathfrak{g})$ and where $\{\nu_{a_1 \cdots a_2}\} \in \mathbb{R}$.
+where $\lambda, \nu_a, \nu_{a b}, \cdots \in CE(\mathfrak{g})$.
 
 +-- {: .un_lemma}
 ###### Observation
 
-Of all the $r^a$ are of even degree, then the condition hat this element be $d_{W}$-closed is equivalent to the system of equations
+If all the $r^a$ are of even degree, then the condition hat this element $cs$ be $d_{W}$-closed is equivalent to $\lambda \in CE(\mathfrak{g})$ being an [[∞-Lie algebra cocycle]] together with the system of equations 
 
 $$
   \begin{aligned}
@@ -521,21 +563,63 @@ $$
     \iota_{t_a} \lambda 
     +
    d_W \nu_a + 
-   C^a{}_{b_1 \cdots b_n} t^{b^1} \wedge \cdots t^{b^n} \wedge \nu^{b_n}
+   C^c{}_{a b_1 \cdots b_n} t^{b^1} \wedge \cdots t^{b^n} \wedge \nu_c
    \\
    & = 0
   \end{aligned}
-  \,.
+  \,,
 $$
 
-In [DAuriaFre p. 9](#DAuriaFre) this is called the **cosmo-cocycle** condition.
-
-Notice that this implies that $\Lambda \in CE(\mathfrak{g})$ is a [[∞-Lie algebra cocycle]] and that $cs$ is a [[Chern-Simons element]] for it that witnesses its transgression to the trivial [[invariant polynomial]].
+for all $t_a \in \mathfrak{g}$.
 
 =--
 
+In [DAuriaFre p. 9](#DAuriaFre) this system of equations is called the **cosmo-cocycle** condition. There $\lambda$ is not explicitly required to be a cocycle, but in the examples considered it is (see [Examples](#Examples)).
 
-### Examples
++-- {: .proof}
+###### Proof
+
+This is straightforward unwinding of the [[Weil algebra]]-differential action:
+
+We have $d_{W(\mathfrak{g})} = d_{CE(\mathfrak{g})} + \mathbf{d}$, where $\mathbf{d} : t^a \mapsto r^a$. 
+
+By the assumption that $d_{CE(\mathfrak{g})} \lambda = 0$ we have
+
+$$
+  d_{W(\mathfrak{g})} \lambda = \mathbf{d} \lambda = 
+  \sum_a r^a \wedge \iota_{t_a} \lambda
+  \,.
+$$
+
+Moreover, by the [[Bianchi identity]] we have 
+
+$$
+  d_{W(\mathfrak{g})} r^a = \sum_n C^a{}_{b_0 \cdots b_n} r^{b_0} \wedge t^{b_1} \wedge \cdots \wedge t^{b_n}
+  \,.
+$$
+
+> am glossing over signs and prefactors here, am in a rush, more later...
+
+Therefore the condition that all terms proportional to $r^a$ in $d_{W} cs$ vanish is
+
+$$
+  r^a \wedge \iota_{t_a} \lambda + 
+  r^a d_{W}\nu_a 
+  + 
+  r^a \wedge \sum_n C^c{}_{a b_1 \cdots b_n} t^{b_1} \wedge t^{b_n} \wedge \nu_c
+  = 
+  r^a(
+    \iota_{t_a} \lambda + 
+    d_{W}\nu_a 
+    + \sum_n C^c{}_{a b_1 \cdots b_n} t^{b_1}\wedge \cdots  \wedge t^{b_n} \wedge \nu_c
+  )
+  = 0
+  \,.
+$$
+
+=--
+
+### Examples {#Examples}
 
 #### 5-Dimensional Supergravity
 
