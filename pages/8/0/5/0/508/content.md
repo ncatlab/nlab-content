@@ -19,7 +19,7 @@ The 2nd edition was published in 1997 with two additional chapters:
 
 * XII. Structures in categories
 
-_Categories Work_ is the standard reference for category theory, and we may often cite it here. Almost all of its terminology is widely adopted, although strangely (see [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1897) at nForum) its approach to [[foundations]] is not.
+_Categories Work_ is the standard reference for category theory, and we may often cite it here. Almost all of its terminology is widely adopted, although its approach to [[foundations]] (one [[Grothendieck universe]]) is not as widely used (see [discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1897) at nForum).
 
 * [wikipedia](http://en.wikipedia.org/wiki/Categories_for_the_Working_Mathematician)
 
@@ -27,3 +27,4 @@ category: reference
 
 [[!redirects Categories for the Working Mathematician]]
 [[!redirects Categories for Working Mathematician]]
+[[!redirects CWM]]
