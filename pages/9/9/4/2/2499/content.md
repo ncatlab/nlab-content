@@ -494,7 +494,7 @@ This is the _rheonomy constraint_ . (Or -- more generally -- the constraint call
 A [[Chern-Simons element]] $W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R}) cs $ of an [[∞-Lie algebra]] defines an [[∞-Chern-Simons theory]] [[action functional]] on the space of $\mathfrak{g}$-[[∞-Lie algebra-valued differential forms]]. We discuss how actional functionals for supergravity theories are special cases of this.
 
 
-### Cosmo-cocycle equations --- Chern-Simons elements {#ChernSimonsElements}
+### Cosmo-cocycle equations {#ChernSimonsElements}
 
 In [[first-order formulation of gravity]] where the field of [[gravity]] is encoded in a [[vielbein]] $E$ and a [[spin connection]] $\Omega$, the [[Einstein-Hilbert action]] takes the _Palatini_ form
 
@@ -668,7 +668,7 @@ For comparison with [DAuriaFre](#DauriaFre) notice the following:
 
 Let $\mathfrak{g} = \mathfrak{sugra}_6$ be the [[supergravity Lie 6-algebra]].
 
-Then a degree 11-Chern-Simons element is
+The element that gives the action is 
 
 $$
   \begin{aligned}
