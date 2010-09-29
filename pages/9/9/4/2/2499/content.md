@@ -27,7 +27,7 @@
 
 ## Idea
 
-The D'Auria-Fr&#233; formalism for [[supergravity]] identifies the field content with [[∞-Lie algebra valued forms]] with values in a super [[∞-Lie alghebra]] such as the [[supergravity Lie 3-algebra]] or the [[supergravity Lie 6-algebra]].
+The D'Auria-Fr&#233; formalism for [[supergravity]] identifies the field content with [[∞-Lie algebra valued forms]] with values in a super [[∞-Lie algebra]] such as the [[supergravity Lie 3-algebra]] or the [[supergravity Lie 6-algebra]].
 
 For background see [[∞-Chern-Weil theory introduction]].
 
@@ -487,7 +487,7 @@ This is the _rheonomy constraint_ . (Or -- more generally -- the constraint call
 A [[Chern-Simons element]] $W(\mathfrak{g}) \leftarrow W(b^{n-1} \mathbb{R}) cs $ of an [[∞-Lie algebra]] defines an [[∞-Chern-Simons theory]] [[action functional]] on the space of $\mathfrak{g}$-[[∞-Lie algebra-valued differential forms]]. We discuss how actional functionals for supergravity theories are special cases of this.
 
 
-### Cosmo-cocycles -- Chern-Simons elements
+### Cosmo-cocycle equations --- Chern-Simons elements
 
 In [DAuriaFre](#DauriaFre) a certain prescription is given for constructing action functionals.
 
@@ -495,7 +495,45 @@ In [DAuriaFre](#DauriaFre) a certain prescription is given for constructing acti
 
 The _cosmo-cocycle_ condition is a condition for identifying [[Chern-Simons element]]s.
 
-(...)
+For $\{t^a\}$ a basis of $\mathfrak{g}^*$ let $\{r^a\}$ be the corresponding shifted basis of $\mathfrak{g}^*[1]$.
+
+Write a general element in the [[Weil algebra]] $W(\mathfrak{g})$ as
+
+$$
+  cs 
+  :=
+  \lambda + r^a \wedge \nu_a + r^a \wedge r^b \wedge \nu_{a b} + \cdots
+  + r^{a_1} \wedge \cdots \wedge r^{a_d} \nu_{a_1 \cdots a_2}
+  \,,
+$$
+
+where $\lambda, \nu_a, \nu_{a b}, \cdots \in CE(\mathfrak{g})$ and where $\{\nu_{a_1 \cdots a_2}\} \in \mathbb{R}$.
+
++-- {: .un_lemma}
+###### Observation
+
+Of all the $r^a$ are of even degree, then the condition hat this element be $d_{W}$-closed is equivalent to the system of equations
+
+$$
+  \begin{aligned}
+    \iota_{t_a} \Lambda + \nabla \nu_a
+    & :=
+    \iota_{t_a} \Lambda 
+    +
+   d_W \nu_a + 
+   C^a{}_{b_1 \cdots b_n} t^{b^1} \wedge \cdots t^{b^n} \wedge \nu^{b_n}
+   \\
+   & = 0
+  \end{aligned}
+  \,.
+$$
+
+In [DAuriaFre p. 9](#DAuriaFre) this is called the **cosmo-cocycle** condition.
+
+Notice that this implies that $\Lambda \in CE(\mathfrak{g})$ is a [[∞-Lie algebra cocycle]] and that $cs$ is a [[Chern-Simons element]] for it that witnesses its transgression to the trivial [[invariant polynomial]].
+
+=--
+
 
 ### Examples
 
@@ -504,6 +542,50 @@ The _cosmo-cocycle_ condition is a condition for identifying [[Chern-Simons elem
 (...)
 
 #### $11$-Dimensional Supergravity
+
+Let $\mathfrak{g} = \mathfrak{sugra}_6$ be the [[supergravity Lie 6-algebra]].
+
+Then a degree 11-Chern-Simons element is
+
+$$
+  \begin{aligned}
+    cs_{11} &=
+    -\frac{1}{9} R^{a_1 a_2} \wedge e^{a_3} \wedge \cdots \wedge e^{a_{11}}
+    \epsilon_{a_1 \cdots a_{11}}
+    \\
+    & + \cdots
+    \\
+    & + \cdots
+    \\
+    & + \cdots
+    \\
+    & + \cdots
+    \\
+    & + \cdots
+    \\
+    & + \cdots
+    \\
+    & + \cdots
+    \\
+    & + 
+    \frac{1}{4}\bar \psi\wedge \Gamma^{a_1 a_2} \psi \wedge \bar \psi \Gamma^{a_3 a_4} \psi \wedge e^{a_5} \wedge \cdots \wedge e^{a_{11}}
+    \epsilon_{a_1 \cdots a_{11}}
+    \\
+    & + - 14 \cdot 15 \bar \psi \wedge \Gamma^{a_1 a_2} \psi \wedge \bar \psi
+    \Gamma^{a_3 a_4} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_4}
+    \wedge C
+    \\
+    & -840  r^C \wedge r^C \wedge C 
+  \end{aligned}
+$$
+
+This is [DAuriaFre, page 26](#DAuriaFre).
+
+The first term gives the [[Palatini action]] for gravity.
+
+The last terms is the Chern-Simons term for the the [[supergravity C-field]].
+
+The second but last two terms are the cocycle $\Lambda$.
 
 (...)
 
