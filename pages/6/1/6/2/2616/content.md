@@ -94,7 +94,9 @@ is identified with the space of boost maps; topologically, it is $\mathbb{R}^3$,
 
 ## Lie algebra presentations 
 
-As for any Lie group, there are various mechanisms for describing the [[Lie algebra]]s of the Lorentz group and of the Poincar&#233; group: by left-invariant [[vector field]]s, or by studying "infinitesimal generators" of 1-parameter subgroups, etc. We begin with the Lorentz group. 
+As for any Lie group, there are various mechanisms for describing the [[Lie algebra]]s of the Lorentz group and of the Poincar&#233; group: by left-invariant [[vector field]]s, or by studying "infinitesimal generators" of 1-parameter subgroups, etc. We begin with the Lorentz group. See also [[Poincaré Lie algebra]].
+
+
 
 In the vector field picture, one often chooses a basis of the [[Lorentz algebra]] consisting of six elements: the first three 
 
@@ -177,5 +179,3 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 
 [[!redirects Poincare group]]
 [[!redirects Poincaré group]]
-[[!redirects Poincare Lie algebra]]
-[[!redirects Poincaré Lie algebra]]
