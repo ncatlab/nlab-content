@@ -96,6 +96,6 @@ A proof using $cat^n$-groups and a neat detailed analysis of multisimplicial gro
 
 * M. Bullejos, A. M. Cegarra. and J. Duskin, _On $cat^n$ -groups and homotopy types_, J. Pure Appl. Alg., 86, (1993), 135--154.
 
-* Porter (1993) gave a simple proof in terms of [[crossed n-cube|crossed n-cubes]]  using as little high-powered simplicial techniques as possible in
+Porter (1993) gave a simple proof in terms of [[crossed n-cube|crossed n-cubes]]  using as little high-powered simplicial techniques as possible in
 
 * T. Porter, _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
