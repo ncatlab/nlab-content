@@ -56,7 +56,7 @@ $$
   B \times \mathbb{R}^n \to \Sigma^n B_+ \stackrel{\tau}{\to} Th(N_{(p,e)}(E))
   \,,
 $$
-where $\tau$ is called the [[Pontrjagin-Thom collaps map]].
+where $\tau$ is called the [[Pontrjagin-Thom collapse map]].
 
 Explicitly, as sets we have $\Sigma^n B_+ \simeq B \times \mathbb{R}^n \cup \{\infty\}$ and $Th(N_{(e,p)}(E)) = N_{(e,p)} \cup \{\infty\}$, and for $U \subset \Sigma^n B_+$ a tubular neightbourhood of $E$ and $\phi : U \to N_{(e,p)}(E)$ an isomorphism, the map 
 
