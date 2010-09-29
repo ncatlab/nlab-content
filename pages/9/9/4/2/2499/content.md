@@ -668,6 +668,28 @@ For comparison with [DAuriaFre](#DauriaFre) notice the following:
 
 Let $\mathfrak{g} = \mathfrak{sugra}_6$ be the [[supergravity Lie 6-algebra]].
 
+The [[Weil algebra]]:
+
+$$
+  d_{W} c 
+  =  
+  \frac{1}{2} \bar \psi \wedge \Gamma^{a b} \psi \wedge e_a \wedge e_b
+  +
+  r^c
+$$
+
+(...)
+
+The [[Bianchi identity]]
+
+$$
+  d_W r^c 
+  =
+  \bar \psi \wedge \Gamma^{a b} \rho \wedge e_a \wedge e_b
+  -
+  \bar \psi \wedge \Gamma^{a b} \psi \wedge \theta_a \wedge e_b
+$$
+
 The element that gives the action is 
 
 $$
@@ -686,7 +708,9 @@ $$
     \\
     & + \cdots
     \\
-    & + \cdots
+    &  
+    + 
+    840 r^c \wedge \bar \psi \Gamma^{a b} \psi \wedge e_a \wedge e_b \wedge c
     \\
     & + \cdots
     \\
@@ -698,7 +722,7 @@ $$
     \Gamma^{a_3 a_4} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_4}
     \wedge C
     \\
-    & -840  r^C \wedge r^C \wedge C 
+    & -840  r^c \wedge r^c \wedge c
   \end{aligned}
 $$
 
@@ -717,8 +741,45 @@ The term $\lambda$ appearing here (the two terms containing no curvature) are $d
 
 =--
 
+We find that the $d_W$-differential of this Lagrangian term is
+
+$$
+  \begin{aligned}
+    d_{W} \ell_{11}
+    & = 
+    r^c \wedge r^c \wedge r^c
+    \\
+    &
+    -
+    R^{a_1 a_2} \wedge \theta^{a_3} \wedge \cdots \wedge e^{a_{11}}
+    \epsilon_{a_1 \cdots a_{11}}
+    \\
+    & + \cdots
+    \\
+    &
+    +  840 \{ 
+      \sigma(r^c \wedge \bar \psi \Gamma^{a b} \psi \wedge e_a \wedge e_b \wedge c )
+      +
+      (d_{W}(r^c \wedge r^c)) \wedge c
+      = 0 
+    \}
+    \\
+    & + 840 r^c \wedge r^c \wedge \bar \psi \Gamma_{a b} \psi\wedge e_a \wedge e_b
+    -
+    i 48 r^c \wedge \sigma(\bar \psi \wedge \Gamma^{a_1 \cdots a_5} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_5})
+    \\
+    & + \cdots
+  \end{aligned}
+  \,.
+$$
+
+This fails to sit in the shifted generators by the terms coming from the translation algebra. For the degree-3 element $c$ however it does produce
+the expected term $r^c \wedge r^c \wedge r^c$.
+
 
 ## References {#References}
+
+
 
 
 The original article that introduced th D'Auria-Fr&#233;-formalism is
