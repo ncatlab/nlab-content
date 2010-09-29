@@ -6,17 +6,18 @@ Gabriel assisted [[Grothendieck]] in reformulating the [[pseudofunctor]] version
 
 With Zisman he introduced a general localization method in homotopy theory (see also [[calculus of fractions]] and [[Gabriel-Zisman]]): 
 
-* P. Gabriel, M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer 1967. Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35.
+* P. Gabriel, M. Zisman, _Calculus of fractions and homotopy theory_, Springer 1967. Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35.
 
 In later part of his mathematical career, Gabriel worked on representation theory of finite-dimensional associative algebras and quivers, where he found some of the basic theorems. 
 
-Some of the nlab entries related to Gabriel's work include [[Gabriel filter]], [[Gabriel composition of filters]], [[Gabriel multiplication]] and we mention here and there Gabriel localization, Gabriel spectrum of indecomposable injectives, Gabriel--Popescu embedding theorem, Gabriel--Rosenberg [[reconstruction theorem]], Gabriel--Zisman localization and Gabriel's property (sup) in the theory of abelian categories.
+Some of the $n$lab entries related to Gabriel's work include [[Gabriel filter]], [[Gabriel composition of filters]], [[Gabriel multiplication]] and we mention here and there Gabriel localization, Gabriel spectrum of indecomposable injectives, Gabriel--Popescu embedding theorem, Gabriel--Rosenberg [[reconstruction theorem]], Gabriel--Zisman localization and Gabriel's property (sup) in the theory of abelian categories.
 
 Students of Gabriel include [[Bernhard Keller]]. Gabriel has also an important work in pure [[category theory]] on [[locally presentable categories]]: 
 
-* P. Gabriel, F. Ulmer, Lokal pr&#228;sentierbare Kategorien
-
+* P. Gabriel, F. Ulmer, _Lokal pr&#228;sentierbare Kategorien_, Lecture Notes in Mathematics, Vol. 221. Springer-Verlag, Berlin-New York, 1971. v+200 pp.
+[MR0327863](http://www.ams.org/mathscinet-getitem?mr=0327863)
 
 [[!redirects Gabriel]]
 [[!redirects Peter Gabriel]]
 [[!redirects Pierre Gabriel]]
+[[!redirects P. Gabriel]]
