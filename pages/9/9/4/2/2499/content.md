@@ -41,7 +41,7 @@ They defined various such super dg-algebras $W(\mathfrak{g})$ and showed (paraph
 
 * the [[action functional]]s of supergravity theories on such $\phi$ may be constructed as images under $\phi$ of certain elements in $W(\mathfrak{g})$ subject to natural conditions.
 
-Their algorithm was considerably more powerful than earlier more pedestrian methods for construction such action functionals. The textbook [CastellaniDAuriaFre](#CastellaniDAuriaFrre) on [[supergravity]] and [[string theory]] from the perspective of this formalism gives a comprehensive description of this approach.
+Their algorithm was considerably more powerful than earlier more pedestrian methods for construction such action functionals. The textbook [CastellaniDAuriaFre](#CastellaniDAuriaFre) on [[supergravity]] and [[string theory]] from the perspective of this formalism gives a comprehensive description of this approach.
 
 We observe here that the D'Auria-Fre-formalism is [[schreiber:∞-Chern-Simons theory]] for [[∞-Lie algebra-valued forms]] with values in super [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]] and the [[supergravity Lie 6-algebra]].
 
@@ -516,9 +516,9 @@ Of all the $r^a$ are of even degree, then the condition hat this element be $d_{
 
 $$
   \begin{aligned}
-    \iota_{t_a} \Lambda + \nabla \nu_a
+    \iota_{t_a} \lambda + \nabla \nu_a
     & :=
-    \iota_{t_a} \Lambda 
+    \iota_{t_a} \lambda 
     +
    d_W \nu_a + 
    C^a{}_{b_1 \cdots b_n} t^{b^1} \wedge \cdots t^{b^n} \wedge \nu^{b_n}
@@ -587,7 +587,8 @@ The last terms is the Chern-Simons term for the the [[supergravity C-field]].
 
 The second but last two terms are the cocycle $\Lambda$.
 
-(...)
+**Remark** The cocycles appearing here are trivializable. In other words, there is a modification of this element by a $d_W$-exact term for which the cocycles vanish, $\lambda = 0$ ([DAuriaFre, page 27](#DAuriaFre) and [CastellaniDAuriaFre (III.8.136)](#CastellaniDAuriaFre)).
+
 
 ## References {#References}
 
@@ -600,7 +601,7 @@ The original article that introduced th D'Auria-Fr&#233;-formalism is
 The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
-{#CastellaniDAuriaFrre}
+{#CastellaniDAuriaFre}
 
 The _geometric perspective_ discussed there is both the emphasis of working over base [[supermanifold]]s and combined with that the the approach that here we call tthe _D'Auria-Fr&#233;-formalism_ . 
 
