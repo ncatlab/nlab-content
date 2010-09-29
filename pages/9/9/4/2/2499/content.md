@@ -527,15 +527,14 @@ $$
   cs(A)
 $$
 
-on $W(\mathfrak{g})$. We now discuss, following D'Auria-Fr&#233;, how the [[action functional]]s of supergravity are indeed those of [[schreiber:∞-Chern-Simons theory]] for Chern-Simons elements on certain super $\infty$-Lie algebroids.
+on $W(\mathfrak{g})$. We now discuss, following D'Auria-Fr&#233;, how the [[action functional]]s of supergravity are related to [[schreiber:∞-Chern-Simons theory]] for Chern-Simons elements on certain super $\infty$-Lie algebroids.
 
-We discuss a system of equations that characterize [[Chern-Simons element]]s in the [[Weil algebra]] $W(\mathfrak{g})$ with the property that they induce transgression between [[∞-Lie algebra cocycle]]s $\mu$ and _vanishing_ [[invariant polynomial]]s $\langle - \rangle = 0$. 
+We discuss a system of equations that characterizes a necessary condition [[Chern-Simons element]]s in the [[Weil algebra]] $W(\mathfrak{g})$. This condition is called the **cosmo-cocycle condition** in [DAuriaFre](#DAuriaFre).
 
-
-To do so, we work in a basis $\{t^a\}$ of $\mathfrak{g}^*$. Let $\{r^a\}$ be the corresponding shifted basis of $\mathfrak{g}^*[1]$. Write $\{C^a{}_{b_0 \cdots b_n}\}$ for the structure constants in this basis, so that the differential in the [[Weil algebra]] acts as
+To do so, we work in a basis $\{t^a\}$ of $\mathfrak{g}^*$. Let $\{r^a\}$ be the corresponding shifted basis of $\mathfrak{g}^*[1]$. Write $\{\frac{1}{n}C^a{}_{b_0 \cdots b_n}\}$ for the structure constants in this basis, so that the differential in the [[Weil algebra]] acts as
 
 $$
-  d_W : t^a \mapsto \sum_n C^a{}_{b_0 \cdots b_n} t^{b_0} \wedge \cdots \wedge t^{b_n} + r^a
+  d_W : t^a \mapsto \sum_{n \in \mathbb{N}} \frac{1}{n} C^a{}_{b_0 \cdots b_n} t^{b_0} \wedge \cdots \wedge t^{b_n} + r^a
   \,.
 $$
 
@@ -554,7 +553,7 @@ where $\lambda, \nu_a, \nu_{a b}, \cdots \in CE(\mathfrak{g})$.
 +-- {: .un_lemma}
 ###### Observation
 
-If all the $r^a$ are of even degree, then the condition hat this element $cs$ be $d_{W}$-closed is equivalent to $\lambda \in CE(\mathfrak{g})$ being an [[∞-Lie algebra cocycle]] together with the system of equations 
+The condition $d_{W(\mathfrak{g})} (cs)$ has no terms _linear_ in the curvatures $r^a$ is equivalent to the system of equations 
 
 $$
   \begin{aligned}
@@ -563,6 +562,7 @@ $$
     \iota_{t_a} \lambda 
     +
    d_W \nu_a + 
+   (-1)^{|t_a|}
    C^c{}_{a b_1 \cdots b_n} t^{b^1} \wedge \cdots t^{b^n} \wedge \nu_c
    \\
    & = 0
@@ -574,52 +574,91 @@ for all $t_a \in \mathfrak{g}$.
 
 =--
 
-In [DAuriaFre p. 9](#DAuriaFre) this system of equations is called the **cosmo-cocycle** condition. There $\lambda$ is not explicitly required to be a cocycle, but in the examples considered it is (see [Examples](#Examples)).
+In [DAuriaFre p. 9](#DAuriaFre) this system of equations is called the **cosmo-cocycle condition** . 
 
 +-- {: .proof}
 ###### Proof
 
 This is straightforward unwinding of the [[Weil algebra]]-differential action:
 
-We have $d_{W(\mathfrak{g})} = d_{CE(\mathfrak{g})} + \mathbf{d}$, where $\mathbf{d} : t^a \mapsto r^a$. 
-
-By the assumption that $d_{CE(\mathfrak{g})} \lambda = 0$ we have
+We have $d_{W(\mathfrak{g})} = d_{CE(\mathfrak{g})} + \mathbf{d}$, where $\mathbf{d} : t^a \mapsto r^a$. So
 
 $$
-  d_{W(\mathfrak{g})} \lambda = \mathbf{d} \lambda = 
+  d_{W(\mathfrak{g})} \lambda 
+  = 
+  d_{CE(\mathfrak{g})} \lambda
+  + 
+  \mathbf{d} \lambda 
+  = 
+  d_{CE(\mathfrak{g})} \lambda
+  +
   \sum_a r^a \wedge \iota_{t_a} \lambda
   \,.
 $$
 
+Here the first term contains no curvatures, while the second is precisely linear in the curvatures.
+
 Moreover, by the [[Bianchi identity]] we have 
 
 $$
-  d_{W(\mathfrak{g})} r^a = \sum_n C^a{}_{b_0 \cdots b_n} r^{b_0} \wedge t^{b_1} \wedge \cdots \wedge t^{b_n}
+  d_{W(\mathfrak{g})} r^a 
+  = 
+  \sum_n C^a{}_{b_0 \cdots b_n} r^{b_0} \wedge t^{b_1} \wedge \cdots \wedge t^{b_n}
   \,.
 $$
 
-> am glossing over signs and prefactors here, am in a rush, more later...
-
-Therefore the condition that all terms proportional to $r^a$ in $d_{W} cs$ vanish is
+Therefore the condition that all terms in $d_{W} cs$ that are linear in $r^a$ in  vanish is
 
 $$
-  r^a \wedge \iota_{t_a} \lambda + 
-  r^a d_{W}\nu_a 
-  + 
-  r^a \wedge \sum_n C^c{}_{a b_1 \cdots b_n} t^{b_1} \wedge t^{b_n} \wedge \nu_c
-  = 
-  r^a(
-    \iota_{t_a} \lambda + 
-    d_{W}\nu_a 
-    + \sum_n C^c{}_{a b_1 \cdots b_n} t^{b_1}\wedge \cdots  \wedge t^{b_n} \wedge \nu_c
-  )
-  = 0
+  \begin{aligned}
+    & r^a \wedge \iota_{t_a} \lambda 
+    +
+    (-1)^{|t_a|} 
+    r^a d_{CE(\mathfrak{g})}\nu_a 
+    + 
+    r^a \wedge \sum_n C^c{}_{a b_1 \cdots b_n} t^{b_1} \wedge t^{b_n} \wedge \nu_c
+    \\
+    & = 
+    r^a(
+      \iota_{t_a} \lambda + 
+      d_{CE(\mathfrak{g})}\nu_a   
+      + 
+      (-1)^{|t_a|}
+      \sum_n C^c{}_{a b_1 \cdots b_n} t^{b_1}\wedge \cdots  \wedge t^{b_n} \wedge \nu_c
+    )
+    \\
+    &
+    = 0
+  \end{aligned}
   \,.
 $$
 
 =--
 
+
++-- {: .un_remark}
+###### Remark
+
+For comparison with [DAuriaFre](#DauriaFre) notice the following:
+
+* there all elements $t_a$ happen to be in even degree. Therefore the extra sign $(-1)^{|t_a|}$ that we display does not appear.
+
+
+* the term that we write $d_{CE(\mathfrak{g})} \nu_a$ is there equivalently expressed as
+  
+  $$
+    d_{W(\mathfrak{g})} \nu_a \;,\;\;\; at\; r^a = 0
+  $$
+
+  ([equation (2.21)](http://ncatlab.org/nlab/files/GeometricSupergravity.pdf#page=9)).
+
+=--
+
 ### Examples {#Examples}
+
+#### Minimal 4-dimensional $N=2$ supergravity
+
+(...)
 
 #### 5-Dimensional Supergravity
 
@@ -633,7 +672,7 @@ Then a degree 11-Chern-Simons element is
 
 $$
   \begin{aligned}
-    cs_{11} &=
+    \ell_{11} &=
     -\frac{1}{9} R^{a_1 a_2} \wedge e^{a_3} \wedge \cdots \wedge e^{a_{11}}
     \epsilon_{a_1 \cdots a_{11}}
     \\
@@ -671,7 +710,12 @@ The last terms is the Chern-Simons term for the the [[supergravity C-field]].
 
 The second but last two terms are the cocycle $\Lambda$.
 
-**Remark** The cocycles appearing here are trivializable. In other words, there is a modification of this element by a $d_W$-exact term for which the cocycles vanish, $\lambda = 0$ ([DAuriaFre, page 27](#DAuriaFre) and [CastellaniDAuriaFre (III.8.136)](#CastellaniDAuriaFre)).
++-- {: .un_remark}
+###### Remark
+
+The term $\lambda$ appearing here (the two terms containing no curvature) are $d_{CE}$-exact: there is a modification of this element by a $d_W$-exact term for which the cocycles vanish, $\lambda = 0$ ([DAuriaFre, page 27](#DAuriaFre) and [CastellaniDAuriaFre (III.8.136)](#CastellaniDAuriaFre)). It follows that in particular $\lambda$ is $d_{CE}$-closed. So with the above discussion of the "cosmo-cocycle"-condition the results given in [DAuriaFre](#DauriaFre) imply that $d_{W} \ell_{11}$ has no 0-ary and no unary terms in the curvatures.
+
+=--
 
 
 ## References {#References}
