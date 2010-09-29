@@ -13,6 +13,9 @@
 =--
 =--
 
+[[supergravity Lie 6-algebra]] $\to$ [[supergravity Lie 3-algebra]] $\to$ **super-Poincar&#233; Lie algebra**
+
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -63,3 +66,5 @@ The exceptional fermionic cocycles of the super Poincar&#233; Lie algebra are di
 * [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_ ([pdf](http://math.ucr.edu/home/baez/susy2_1.pdf))
 
 For more see [[division algebra and supersymmetry]].
+
+[[!redirects super Poincaré Lie algebra]]
