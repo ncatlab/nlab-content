@@ -1,0 +1,9 @@
+* [[Vassily Gorbounov]], Fyodor Malikov, [[Vadim Schechtman]], _Gerbes of chiral differential operators_  Math. Res. Lett. __7__ (2000),  no. 1, 55--66, [MR2002c:17040](http://www.ams.org/mathscinet-getitem?mr=2002c:17040), [math.AG/9906117](http://arxiv.org/abs/math/9906117); _Gerbes of chiral differential operators. II. Vertex algebroids_, Invent. Math. __155__ (2004), no. 3, 605--680, [MR2005e:17047](http://www.ams.org/mathscinet-getitem?mr=2005e:17047), [math.AG/0003170](http://arxiv.org/abs/math/0003170), [doi](http://dx.doi.org/10.1007/s00222-003-0333-4); _Gerbes of chiral differential operators. III_, in: The orbit method in geometry and physics (Marseille, 2000),  73--100, Progr. Math. __213__, Birkh&#228;user 2003, [MR2005a:17028](http://www.ams.org/mathscinet-getitem?mr=2005a:17028), [math.AG/0005201](http://arxiv.org/abs/math/0005201), _On chiral differential operators over homogeneous spaces_, Int. J. Math. Math. Sci. __26__ (2001), no. 2, 83--106, [MR2002g:14020](http://www.ams.org/mathscinet-getitem?mr=2002g:14020), [math.AG/0008154](http://arxiv.org/abs/math/0008154), [doi](http://dx.doi.org/10.1155/S0161171201020051)
+
+* Andrew R. Linshaw, _Introduction to invariant chiral differential operators_, in: Vertex operator algebras and related areas,  157--168, Contemp. Math. __497__, Amer. Math. Soc. 2009.
+
+* Andrew R. Linshaw, _Invariant chiral differential operators and the $W_3$ algebra _, J. Pure Appl. Algebra __213__ (2009), 632-648, [arxiv/0710.0194](http://arxiv.org/abs/0710.0194), [MR2010b:17035](http://www.ams.org/mathscinet-getitem?mr=2010b:17035), [doi](http://dx.doi.org/10.1016/j.jpaa.2008.08.006)
+
+* Pokman Cheung, _Chiral differential operators and topology_, [arxiv/1009.5479](http://arxiv.org/abs/1009.5479)
+
+[[!redirects chiral differential operators]]
