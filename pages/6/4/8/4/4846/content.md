@@ -51,3 +51,8 @@ Page 18 of
 
 * R. D'Auria, P. Fr&#233; _Geometric supergravity in $D = 11$ and its hidden supergroup_ [[GeometricSupergravity.pdf:file]]
 {#DAuriaFre} 
+
+Section III.8.3 of 
+
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
+{#CastellaniDAuriaFrre}
