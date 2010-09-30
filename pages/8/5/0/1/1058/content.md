@@ -12,13 +12,17 @@ A __$C$-torsor__ $E$ over a topological space $X$ is given by a functor $E : C\t
 
 1. (**transitivity**) for any two germs 'in the same total stalk', $\alpha\in E(c)_x$, $\alpha'\in E(c')_x$, there is a span $c\stackrel{u}\leftarrow b\stackrel{u'}\to c'$ and $\xi\in E(b)_x$ such that $E(u)(\xi)=\alpha$ and $E(u')(\xi)=\alpha'$;
 
-1. (**freeness**) a parallel pair $u_1,u_2: c\to c'$ of morphisms in $C$, may induce coalescence $E(u_1)(\alpha)=E(u_2)(\alpha)$ for some $\alpha\in E(c)_x$ only if there is a morphism $w:b\to c$ and $\zeta\in E(b)_x$ such that $u_1\circ w = u_2\circ w$ and $E(w)(\zeta)=\alpha$. 
+1. (**freeness**) for a parallel pair $u_1,u_2: c\to c'$ of morphisms in $C$, $E(u_1)(\alpha)=E(u_2)(\alpha)$ for some $\alpha\in E(c)_x$ implies there is a morphism $w:b\to c$ and $\zeta\in E(b)_x$ such that $u_1\circ w = u_2\circ w$ and $E(w)(\zeta)=\alpha$. 
+
 
 This definition is from the monograph
 
 * [[Ieke Moerdijk]], _Classifying spaces and classifying topoi_, Springer Lec. Notes Math. __1616__ (1995)
 
 where it is shown that _the [[classifying space]] of a category $C$ classifies $C$-torsors_.
+
+_[[David Roberts]]: This definition should be able to be restated in terms of [[flat functors]]_ 
+
 
 ## Street's definition
 
