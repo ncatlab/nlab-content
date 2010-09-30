@@ -1,3 +1,4 @@
+[[!redirects directed space]]
 
 # Contents
 * automatic table of contents goes here
@@ -5,7 +6,7 @@
 
 ## Idea
 
-A _directed space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
+A _directed topological space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
 
 +--{.query}
 [[Eric]]: What does it mean for a $k$-cell to be _traversable_?
