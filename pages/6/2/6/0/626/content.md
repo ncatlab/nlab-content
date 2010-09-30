@@ -72,6 +72,11 @@ See the article by Selinger below for more examples.
 
 * The Catsters (Simon Willerton), _String diagrams_ ([YouTube](http://www.youtube.com/view_play_list?p=50ABC4792BD0A086))
 
+### Original articles {#OriginalArticles}
+
+An early amplification of the use of string-diagram notation as an alternative for the traditional index-calculus for tensors is due to  [[Roger Penrose]]. 
+
+* Roger Penrose, _Applications of negative dimensional tensors_ , in Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
 
 ### Surveys
 
@@ -92,7 +97,9 @@ See the article by Selinger below for more examples.
 
 * Joyal and Street and [[Dominic Verity|Verity]], "Traced monoidal categories"
 
-* Todd Trimble, [Surface diagrams](/toddtrimble/published/Surface+diagrams)
+This article discusses the generalization of string diagrams to one dimension higher:
+
+* [[Todd Trimble]], _[Surface diagrams](/toddtrimble/published/Surface+diagrams)_
 
 
 [[!redirects string diagram]]
