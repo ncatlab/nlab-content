@@ -53,7 +53,7 @@ $$
 $$
 i.e. to extending the domain of $F$ through $p$ from $C$ to $C'$.
 
-More generally, this makes sense in any [[2-category]] other than [[Cat]].
+More generally, this makes sense not only in [[Cat]] but in any [[2-category]].
 
 Similarly, a [[Kan lift]] is the best approximation to lifting a morphism $F : C \to D$ through a morphism
 
