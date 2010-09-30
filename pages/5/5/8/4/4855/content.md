@@ -51,7 +51,7 @@ By a **[[directed space|directed topological space]]** we here mean specifically
  
      is a directed path.
 
-A morphism $(X_1,D_1) \to (X_2, D_2)$ of directed space is a continuous map $X_1 \to X_2$ that takes elements in $D_1$ to elements in $D_2$.
+A morphism $(X_1,D_1) \to (X_2, D_2)$ of directed spaces is a continuous map $X_1 \to X_2$ that takes elements in $D_1$ to elements in $D_2$.
 
 This defines the [[category]] $DTop$ of directed topological spaces.
 
@@ -60,7 +60,7 @@ This defines the [[category]] $DTop$ of directed topological spaces.
 +-- {: .un_example}
 ###### Example
 
-For $X$ a topological space equipped with the structure of a [[poset]] on its underlying set, say that $\gamma : [0,1] \to X$ is directed if for all $x \leq y$ in $[0,1]$ we have $\gamma(0) \leq \gamma(1)$ in $X$. 
+For $X$ a topological space equipped with the structure of a [[poset]] on its underlying set, say that $\gamma : [0,1] \to X$ is directed if for all $x \leq y$ in $[0,1]$ we have $\gamma(x) \leq \gamma(y)$ in $X$. 
 
 =--
 
@@ -120,7 +120,7 @@ If $X$ is undirected in that _all_ paths are labeled as directed -- $D = X^{[0,1
 
 ## References ##
 
-Related constructions can be found in the following:
+The above definition, evident as it may be, does not seem to be in the literature. Articles that do discuss proposals for aspects of fundamental higher categories of directed spaces include
 
 * [[Marco Grandis]], _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
 
@@ -128,3 +128,7 @@ Related constructions can be found in the following:
 
 * [[Tim Porter]], _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
+
+The [[simplicially enriched categories]] obtained from a directed space according to the latter have as morphisms directed paths, and as 2-morphisms _directed homotopies_  (paths of directed paths). This is in contrast to the above definition, where the 2-cells away from their boundary are unconstrained.
+
+Accordingly it seems that the definitio by Porter produces indeed not a Kan-complex enriched category (a model for an $(\infty,1)$-category) but a quasi-category-enriched category, hence actually a model for an [[(∞,2)-categories]], a candidate for the _fundamental $(\infty,2)$-category_ of a space. Generaly, in the fundamental [[(∞,n)-category]] the $(k \leq n)$-cells should be directed maps, and the $k \gt n$-cells be otherwise unconstrained.
