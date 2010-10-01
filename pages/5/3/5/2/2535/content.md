@@ -18,8 +18,6 @@
 
   * [[integration axiom]]
 
-* [[super smooth topos]]
-
 * [[infinitesimal path ∞-groupoid in a lined topos|infinitesimal path ∞-groupoid]]
 
   * [[microlinear space]]
@@ -31,6 +29,10 @@
 * [[schreiber:path ∞-groupoid|smooth path ∞-groupoid]]
 
 
+* [[synthetic differential supergeometry]]
+
+  * [[super smooth topos]]
+
 
 ## Models ##
 
@@ -38,7 +40,7 @@
 
   * [[Fermat theory]]
 
-  * [[smooth algebra]] (C-∞-ring)
+  * [[smooth algebra]] ($C^\infty$-ring)
 
   * [[smooth loci]]
 
@@ -46,8 +48,30 @@
 
 * [[Cahiers topos]]
 
-## Variations ##
 
-* [[synthetic differential supergeometry]]
+## Concepts
+
+* [[smooth manifold]], [[derived smooth manifold]]
+
+* [[tangent space]], [[vector field]], [[tangent Lie algebroid]]
+
+* [[Riemannian manifold]]
+
+  * [[isometry]], [[Killing vector field]]
+
+* [[connection on a bundle]]
+
+
+## Theorems
+
+* [[Poincare lemma]]
+
+* [[de Rham theorem]]
+
+* [[Chern-Weil theory]]
+
+## Applications
+
+* [[gravity]], [[gauge theory]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/synthetic+differential+geometry+-+contents)</div>
