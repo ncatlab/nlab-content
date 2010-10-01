@@ -1,14 +1,25 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
 ## Idea ##
+
 The **Kerr spacetime**(s) is a (family of) certain [[Lorentzian manifold]]s / [[spacetime]]s. 
 The Kerr spacetime describes the ambient vacuum spacetime of a spherically symmetric rotating mass density, it can be extended in a way that this mass density degenerates to a singularity of spatial radius zero. This mathematical idealization is often said to describe a rotating black hole.
 
