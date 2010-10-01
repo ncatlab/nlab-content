@@ -6,8 +6,18 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Functorial quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -41,7 +51,7 @@ Some of the motivations for considering this replacement of  graphs by surfaces 
 
 * there are less choices involved: a Feynman graph is really a decorated graph with the decoration from some more or less arbitrary index set, describing the nature of the particles associated with a given edge and the nature of the interaction associated with a given vertex. In the sum over surfaces there is no extra decoration (except on the boundary of the surfaces) and one finds that instead a single string diagram (a 2d QFT correlator for a given surface) encodes already a sum over (infinitely) many particle species decorations and all possible interaction decorations for them;
 
-* while there are less choices to be made by hand, it turns out that the effective particle content that does arise automatically from this prescription happens to be structurally of the kind one would hope for: the massless effective particles described by the string perturbation series happen to be _gauge bosons_, _fermions_ charged under them, and, notably, _graviton_s. This is structurally exactly the input of the [[standard model of particle physics]] combined with perturbative gravity that one would hope to see.
+* while there are less choices to be made by hand, it turns out that the effective particle content that does arise automatically from this prescription happens to be structurally of the kind one would hope for: the massless effective particles described by the string perturbation series happen to be _gauge bosons_, _fermions_ charged under them, and, notably, _graviton_s. This is structurally exactly the [[Yang-Mills theory]] input of the [[standard model of particle physics]] combined with perturbative [[quantum gravity]] that one would hope to see.
 
 These aspects have motivated the impression that the string perturbation series might be considerably closer to the true formalism of fundamental physics than ordinary perturbative quantum field theory. This impression is however offset by the following problems:
 
