@@ -114,14 +114,13 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 ## References {#References}
 
-
 The original textbook reference is
 
 * [[Richard Feynman]], A. R. Hibbs, , _Quantum Mechanics and Path Integrals_ , New York: McGraw-Hill, (1965)
 
 Modern precise formulations of path integral technology for [[quantum mechanics]] can be found for instance in
 
-* [[Christian Bär]], [[Frank Pfäffle]], _Path integrals on manifolds by finite dimensional approximation_ ,  J. reine angew. Math., (2008), 625: 29-57. ([arXiv:math.AP/0703272](http://arxiv.org/abs/math.AP/0703272))
+* [[Christian Bär]], [[Frank Pfäffle]], _Path integrals on manifolds by finite dimensional approximation_,  J. reine angew. Math., (2008), 625: 29-57. ([arXiv:math.AP/0703272](http://arxiv.org/abs/math.AP/0703272))
 
 This discusses the path integral for the [[sigma-model]] given by a particle propagating on a  [[Riemannian manifold]] and charged under a [[gauge field]] given by a [[connection on a bundle]].
 
@@ -130,17 +129,17 @@ This discusses the path integral for the [[sigma-model]] given by a particle pro
 Zoran: usually the QUADRATIC Hamiltonians are the ones for which the integral is well understood in several approaches; and of course many cases corresponding to the exactly solvable models. 
 =--
 
-
-* [[Dana Fine]], [[Stephen Sawin]], _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
+* Dana Fine, Stephen Sawin, _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
 
 Other references on mathematical aspects of path integrals include
 
-* [[Sergio Albeverio]], ; [[Raphael Hoegh-Krohn]],  ; Sonia Mazzucchi, :
+* [[Sergio Albeverio]], [[Raphael Hoegh-Krohn]], Sonia Mazzucchi,
 _Mathematical theory of Feynman path integrals. An introduction_ ([ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)
 
-
-* [[Pierre Cartier]], [[Cecile DeWitt-Morette]], : _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
+* [[Pierre Cartier]], [[Cecile DeWitt-Morette]], _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
 ormat=complete))
+
+* [[Edward Witten]], _A new look at the path integral of quantum mechanics_, [arxiv/1009.6032](http://arxiv.org/abs/1009.6032)
 
 MathOverflow questions: [mathematics-of-path-integral-state-of-the-art](http://mathoverflow.net/questions/19495/mathematics-of-path-integral-state-of-the-art),[path-integrals-outside-qft](http://mathoverflow.net/questions/20393/path-integrals-outside-qft), [doing-geometry-using-feynman-path-integral](http://mathoverflow.net/questions/19490/doing-geometry-using-feynman-path-integral), [path-integrals-localisation](http://mathoverflow.net/questions/17577/path-integrals-localisation), [finite-dimensional-feynman-integrals](http://mathoverflow.net/questions/31966/finite-dimensional-feynman-integrals), [the-mathematical-theory-of-feynman-integrals](http://mathoverflow.net/questions/24823/the-mathematical-theory-of-feynman-integrals)
 
