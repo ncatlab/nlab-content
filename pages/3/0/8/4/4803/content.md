@@ -1,6 +1,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
@@ -11,6 +15,7 @@
 =--
 =--
 =--
+
 
 
 In [[supergravity]] a field configuration is a [[connection on a bundle|connection]] locally given by a  [[Lie algebra-valued form]]
