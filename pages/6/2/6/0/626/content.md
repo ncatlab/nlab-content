@@ -93,9 +93,9 @@ An early amplification of the use of string-diagram notation as an alternative f
 
 * [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_, draft available [here](http://www.math.mq.edu.au/~street/GTCII.pdf).
 
-* [[Andre Joyal]] and [[Ross Street]], "Planar Diagrams and Tensor Algebra," available [here](http://www.math.mq.edu.au/~street/PlanarDiags.pdf).
+* [[Andre Joyal]] and [[Ross Street]], _Planar diagrams and tensor algebra_, available [here](http://www.math.mq.edu.au/~street/PlanarDiags.pdf).
 
-* Joyal and Street and [[Dominic Verity|Verity]], "Traced monoidal categories"
+* [[Andre Joyal]], [[Ross Street]] and [[Dominic Verity|Verity]], _Traced monoidal categories_.
 
 This article discusses the generalization of string diagrams to one dimension higher:
 
