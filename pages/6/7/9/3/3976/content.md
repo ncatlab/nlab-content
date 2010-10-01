@@ -5,7 +5,7 @@
 
 ## Definition
 
-The **circle [[group]]** $S^1$ is equivalently ([[isomorphism|isomorphically]])
+The **[[circle]] [[group]]** $S^1$ is equivalently ([[isomorphism|isomorphically]])
 
 * the [[quotient]] $\mathbb{R}/ \mathbb{Z}$ of the additive group of [[real number]]s by the additive group of [[integer]]s, induced by the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{R}$;
 
