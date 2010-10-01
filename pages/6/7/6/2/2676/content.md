@@ -1,6 +1,28 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
-#References#
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A certain formulation of the theory of [[gravity]].
+
+## References
 
 
 The original article is
