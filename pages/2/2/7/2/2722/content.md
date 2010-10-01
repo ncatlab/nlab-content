@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 A __vector field__ is a [[section]] of a [[vector bundle]].
 
-Of the term 'vector field' is used specifically for a [[tangent vector field]], which is a [[section]] of a [[tangent bundle]] (and many other equivalent things).
+More specifically, a vector field is a _[[tangent vector field]]_ which is a [[section]] of a [[tangent bundle]] (and many other equivalent things).
+
