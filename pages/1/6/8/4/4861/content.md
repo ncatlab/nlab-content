@@ -41,10 +41,14 @@ The first two conditions on $H$ imply that $H$ is a homotopy from $f$ to $g$.  T
 
 ## Examples ##
 
-Isotopy is used where one wishes to study deformations of an object inside some ambient space that do not change the object itself.  An extremely important example of this is the theory of [[knots]] and [[links]] where, to prevent unknottings and unlinkings, there have to be some restrictions on the allowed movements.  These are usually encoded in terms of isotopies.
+Isotopy is used where one wishes to study deformations of an object inside some ambient space that do not change the object itself.  An extremely important example of this is the theory of [[knots]] and [[links]] where, to prevent unknottings and unlinkings, there have to be some restrictions on the allowed movements.  These are usually encoded in terms of isotopies. It is unfortunately true, however, that a naive use of isotopy leads to strange results. If you use \emph{continuous} isotopies then any two continous embeddings of the circle into $S^3$ are isotopic, (basically since you just pull the knot tighter and tighter, (so the knotted bit gets smaller and smaller) and at the end you just put the 'unknot').  One way to handle this is to demand the isotopy to be PL (or smooth), another is to work explicitly with [[ambient isotopy]].
 
 ## References ##
+For isotopy in Knot Theory
 
+ * R. H Crowell and R.H. Fox, Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
+
+ * N.D. Gilbert and T. Porter, Knots and Surfaces, Oxford U.P., 1994.
 
 [[!redirects isotopies]]
 [[!redirects Isotopy]]
