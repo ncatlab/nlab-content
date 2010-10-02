@@ -49,7 +49,7 @@ Finally, these operations should obviously be mutually inverse, but that can aga
 
 $$1_{L(c)} = (L(c) \stackrel{L(\eta_c)}{\to} L R L(c) \stackrel{\varepsilon_{L(c)}}{\to} L(c))$$ 
 
-and this is one of the famous **triangular equations**: $1_L = (L \stackrel{L \eta}{\to} L R L \stackrel{\varepsilon L}{\to} L)$. By duality, we have the other triangular equation $1_R = (R \stackrel{\eta R}{\to} R L R \stackrel{R \varepsilon}{\to} R)$. These two triangular equations are enough to guarantee that the recipes for $\Psi$ and $\Psi^{-1}$ are indeed mutually inverse. 
+and this is one of the famous **triangular equations**: $1_L = (L \stackrel{L \eta}{\to} L R L \stackrel{\varepsilon L}{\to} L)$.  Note that juxtaposition in the diagram above is neither functor application, nor vertical composition, nor horizontal composition, but is actually [[whiskering]]. By duality, we have the other triangular equation $1_R = (R \stackrel{\eta R}{\to} R L R \stackrel{R \varepsilon}{\to} R)$. These two triangular equations are enough to guarantee that the recipes for $\Psi$ and $\Psi^{-1}$ are indeed mutually inverse. 
 
 Thus, it is perfectly sufficient to define an adjoint pair of functors in $Cat$ as given by unit and counit transformations $\eta: 1_C \to R L$, $\varepsilon: L R \to 1_D$, satisfying triangular equations as above. 
 
