@@ -17,8 +17,8 @@ Recall that a [[monoidal category]] is a [[category]] $C$ equipped with a bifunc
 A __binoidal category__ is a [[category]] $C$ equipped with
 
 *  for each pair $x,y$ of [[objects]] of $C$, an object $x \otimes y$;
-*  for each triple $x,y,z$ of objects, a [[function]] $x \rtimes -\colon C(y,z) \to C(x \otimes y, x \otimes z)$; and
-*  for each triple $x,y,z$ of objects, a [[function]] $- \ltimes x\colon C(y,z) \to C(y \otimes x, z \otimes x)$.
+*  for each object $x$ a [[functor]] $x \rtimes -$ whose action on objects sends $y$ to $x \otimes y$
+*  for each object $x$ a [[functor]] $- \ltimes x$ whose action on objects sends $y$ to $y \otimes x$
 
 A [[morphism]] $f\colon x \to y$ in a binoidal category is __central__ if, for every morphism $f'\colon x' \to y'$, the diagrams
 $$ \array {
@@ -55,7 +55,7 @@ As a [[strict monoidal category]] is a [[monoid]] in the [[cartesian monoidal ca
 
 Given [[categories]] $C,D$ and [[functors]] $F,G\colon C \to D$, a (*not* necessarily natural) __transformation__ from $F$ to $G$ consists of, for each object $x$ of $C$, a morphism from $F(x)$ to $G(x)$ in $D$.  (So a [[natural transformation]] is a transformation that satisfies an [[extra property]].)  We can compose transformations using [[vertical composition]] (but *not* [[horizontal composition]]).
 
-Given categories $C,D$, let $C \lolli D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are transformations between these functors.  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[monoidal category]] $(Cat,\otimes)$ which is in fact symmetric.
+Given categories $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are transformations between these functors.  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[monoidal category]] $(Cat,\otimes)$ which is in fact symmetric.
 
 Then a strict premonoidal category is precisely a [[monoid object]] in $(Cat,\otimes)$.
 
@@ -75,6 +75,14 @@ The above properties combine to form an [[adjunction]] $Pre Mon Cat \leftrightar
 
 *  [[John Power]] and [[Edmund Robinson]]; 1993; _Premonoidal categories and notions of computation_; [PostScript](http://www.eecs.qmul.ac.uk/~edmundr/pubs/mscs97/premoncat.ps)
 
+## Discussion
+
+There's been a lot of discussion of this on the $n$-Category Caf&#233; --- someone find it and cite it!
+
+
++-- {: .query}
+[[Adam]]: Must $(x \rtimes -)\circ(y \rtimes -)$ be naturally isomorphic to $((x \otimes y) \rtimes -)$ in every binoidal category?  I have a Coq formalization of binoidal/premonoidal categories and I wasn't able to make things work without adding that requirement to the definition -- but perhaps that's just because I missed some obvious way of proving this from the basic principles.
+=--
 
 [[!redirects premonoidal category]]
 [[!redirects premonoidal categories]]
