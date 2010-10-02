@@ -19,6 +19,8 @@ Examples include
 * [[Alexander polynomial]]
 * [[Reshetikhin-Turaev invariant]]s for any object in a [[ribbon category]]
 * [[Khovanov homology]]
+* [[colorability]]
+* [[knot group]]= the fundamental group of the complement of the knot.
 
 [[!redirects knot invariants]]
 [[!redirects Knot Invariant]]
