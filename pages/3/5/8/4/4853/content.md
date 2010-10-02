@@ -13,11 +13,12 @@
 * the following line creates the automatic table of contents
 {: toc}
 
-## Idea ##
+## Idea
 
-A **link** is a generalisation of a [[knot]] where one is allowed more than one component.  Many [[knot invariants]] extend to [[link invariants]] and for many such invariants, one needs to know this extension to compute it even for a knot.  Thus the study of links and knots is inextricably intertwined.
+A **link** is a generalisation of a [[knot]] where one is allowed more than one component.  Many [[knot invariants]] extend to [[link invariant]]s and for many such invariants, one needs to know this extension to compute it even for a knot.  Thus the study of links and knots is inextricably intertwined.
 
-## Basics ##
+
+## Basics
 
 +-- {: .num_defn #link}
 ###### Definition
@@ -29,9 +30,9 @@ It is possible to generalise this to more varied sources and targets.
 Links can be studied in a number of ways depending on the notion of equivalence that is used.  Coming from knot theory, one considers equivalence up to [[isotopy]]; that is, two links are equivalent if there is a homotopy between them which is an embedding for all times.  A weaker notion was consider by [Milnor](#jmLinkGroups) wherein the components of the link are allowed to pass through themselves, but not through other components.  That is, when restricted to each component it must be an immersion for all times, and the images of the components must always be disjoint.
 
 
-## Examples ##
+## Examples
 
-#### The Hopf Link ####
+### The Hopf Link
 
 This is perhaps the simplest non-trivial link, consisting of two components linked once.
 
@@ -44,7 +45,8 @@ This is perhaps the simplest non-trivial link, consisting of two components link
  </g>
 </svg>
 
-#### The Borromean Links ####
+
+### The Borromean Links
 
 It is possible to link together $n$ circles in such a way that removing any one makes the others fall apart.  The simplest such configuration is the Borromean Links.
 
@@ -60,7 +62,8 @@ It is possible to link together $n$ circles in such a way that removing any one 
  </g>
 </svg>
 
-#### The Whitehead Link ####
+
+### The Whitehead Link
 
 This is an example of a link that shows the difference between the two notions of equivalence.  If the links are only allowed to move by isotopies, then the two components are linked.  However, if a link is allowed to pass through itself, then they can be unlinked.
 
@@ -78,16 +81,22 @@ This is an example of a link that shows the difference between the two notions o
  </g>
 </svg>
 
-#### Brunnian Links ####
+
+### Brunnian Links
 
 A _Brunnian link_ is a non-trivial link which has the property that the removal of any of its components results in an unlink.  The Borromean rings above are an example of a Brunnian link.  Whether or not the Hopf link is will hopefully be decided by the answers to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link).
 
++-- {: .query}
+Now that they said Yes, should we ask whether the Hopf link is considered to be a Borromean link?  It seems to me that it should be (and in fact so should the unknot and the empty link).  ---Toby
+=--
 
 
-## References ##
+## References
 
 * Milnor, J. (1954). Link groups. _Ann. of Math. (2)_, _59_, 177&ndash;195. [MR](http://www.ams.org/mathscinet-getitem?mr=71020){: #jmLinkGroups}
 
-[[!redirects Link]]
+
+[[!redirects link]]
 [[!redirects links]]
+[[!redirects Link]]
 [[!redirects Links]]
