@@ -81,7 +81,15 @@ There's been a lot of discussion of this on the $n$-Category Caf&#233; --- someo
 
 
 +-- {: .query}
-[[Adam]]: Must $(x \rtimes -)\circ(y \rtimes -)$ be naturally isomorphic to $((x \otimes y) \rtimes -)$ in every binoidal category?  I have a Coq formalization of binoidal/premonoidal categories and I wasn't able to make things work without adding that requirement to the definition -- but perhaps that's just because I missed some obvious way of proving this from the basic principles.
+[[Adam]]: I believe that the "naturality square" for $\alpha$ above actually requires three distinct natural isomorphisms for three different ways of composing the binoidality functors (LL=L, RR=R, LR=RL):
+
+* $(a \rtimes -)\circ(b \rtimes -) \simeq ((a \otimes b) \rtimes -)$
+* $(- \ltimes c)\circ(- \ltimes b) \simeq (- \ltimes (b \otimes c))$
+* $(a \rtimes -)\circ(- \ltimes c) \simeq (- \ltimes c)\circ(a \rtimes -)$
+
+I have a Coq formalization of binoidal/premonoidal categories and I wasn't able to make things work without all three.  Perhaps there's a way to capture them all with a single natural iso, but I couldn't find it.  In a monoidal category these all collapse into a single natural iso because we're dealing with a single bifunctor rather than two separate functors.
+
+I also suspect that all useful binoidal categories have the first two natural isos.  I'm having a hard time finding an example which doesn't.
 =--
 
 [[!redirects premonoidal category]]
