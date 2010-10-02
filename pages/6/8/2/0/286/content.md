@@ -32,7 +32,17 @@ The ideas here generalize in many directions.  For example not only properties, 
 
 ## Terminology
 
-The terminology 'evil' was originally intended as a joke and has not been used in any published paper.  (It also puts the emphasis on the wrong place, since what matters is what is *not* evil.)  Another possibility, which sounds less harsh to some people, is 'kosher' in place of 'non-evil'.  A serious term to use in higher category theory is 'invariant/covariant under equivalence' (as the definition suggests).  In discussions of [[foundations of mathematics]], a rough translation of 'non-evil' is 'definable in a [[type theory]] without [[identity types]] (or least only intensional identity types)', but that is not very concise.
+The terminology 'evil' was originally intended as a joke and has not been used in any published paper.  (It arguably also puts the emphasis on the wrong place, since what matters is what is *not* evil.)  Other possibilities which have been proposed are:
+
+* 'kosher' in place of 'non-evil'.  One could then say 'treif' instead of 'evil', but this word is less well-known so probably 'non-kosher' would be easier to understand.
+
+* A serious term to use in higher category theory is 'invariant/covariant under equivalence' (as the definition suggests).  One can make various versions of this, such as 'equivalence-invariant' or a portmanteau such as 'equinvariant'.  One problem with 'invariant' is that only properties are actually invariant; non-evil [[stuff, structure, property|structure]] must actually be *covariant*.  One might argue that simply saying 'covariant' for 'non-evil' has the correct meaning and connotations.
+
+* From the other side, instead of 'evil' one could say 'non-invariant' or 'unstable under equivalence' or 'equi-unstable'.
+
+* In discussions of [[foundations of mathematics]], a rough translation of 'non-evil' is 'definable in a [[type theory]] without [[identity types]] (or least only intensional identity types)', but that is not very concise.
+
+* Other proposed possibilities for 'evil' include 'precarious', 'unstable', 'fragile', 'private', 'dangerous', and 'risky'.
 
 
 ## Motivation
