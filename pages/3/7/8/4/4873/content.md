@@ -1,0 +1,1 @@
+An *unknot* is any knot [[isotopy|isotopic]] to the flat circle embedded in the $(x,y)$-plane of $\mathbb{R}^3$.  
