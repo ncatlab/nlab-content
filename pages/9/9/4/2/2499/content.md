@@ -792,7 +792,7 @@ The original article that introduced th D'Auria-Fr&#233;-formalism is
 
 The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
 {#CastellaniDAuriaFre}
 
 The _geometric perspective_ discussed there is both the emphasis of working over base [[supermanifold]]s and combined with that the the approach that here we call tthe _D'Auria-Fr&#233;-formalism_ . 
