@@ -44,6 +44,24 @@ A knot $K$ has $b(K) = 1$ if and only if $K$ is the unknot.
 
 To complete the proof one needs to show or know that the trefoil is a non-trivial knot. That is most simply done using some invariant such as 3-[[n-colorability|colorability]].
 
-(The picture on this page is from the [Maths and Knots Exhibition website](http://www.popmath.org.uk/exhib/knotexhib.html), of the Centre for the Popularisation of Mathematics. Their assistence is acknowledged.)
++-- {: .un_proposition}
+###### Proposition
+
+The bridge number is a [[knot invariant]].
+=--
+This is more or less 'by default' as $b(K)$ is defined as a minimum over all [[knot diagram|knot diagrams]].
+
+#####Remark:
+
+Why is there the convention  that $b(unknot)= 1$? There is a neat result that means that if you know bridge number for [[prime knot|prime knots]] then you can (theoretically) calcuate t for all composite knots. This states the following:
++-- {: .un_proposition}
+###### Proposition
+
+Let $K$ and $L$ be two (oriented) knots, and let $K+L$ be their oriented [[knot sum|sum]], then 
+$$b(K+L) = b(K) + b(L) -1.$$
+=--
+The proof is not hard. As '$K$ + unknot = $K$', the formula would be false if either knot was the unknot, if, that is, we had the other possible convention, (i.e. that the bridge number of the unknot should be 0). (There are other deeper reasons for the convention, but this is a neat one.)
+
+(The picture on this page is from the [Maths and Knots Exhibition website](http://www.popmath.org.uk/exhib/knotexhib.html), of the Centre for the Popularisation of Mathematics. Their assistance is acknowledged.)
 [[!redirects bridge number]]
 [[!redirects bridge numbers]]
