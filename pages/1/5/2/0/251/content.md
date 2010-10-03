@@ -27,20 +27,19 @@ However, these definitions obscure the essential symmetry of the concepts.  We t
 We may picture a 2-cell in a double category as a square:
 
 $$
-  \array{
+  \begin{matrix}
     x_0 
     &\stackrel{f}{\to} &
     x_1  
     \\
-    {}^\mathllap{\alpha_0}\downarrow
+    {}^{\mathllap{\alpha_0}}\downarrow
     &\Downarrow^{\mathrlap{\phi}}&
     \downarrow^{\mathrlap{\alpha_1}}
     \\
     y_0  
     &\underset{g}{\to} &
     y_1 
-  }
-  
+ \end{matrix}  
 $$
 
 Here $x_i,y_i$ are objects, $f$ and $g$ are horizontal arrows, $\alpha_i$ are vertical arrows and $\phi$ is the 2-cell itself.  This makes it clear why $\phi$ is called a 'square'.
@@ -122,8 +121,10 @@ It is natural to ask what the "unbiased" notion of composition and associativity
 
 It can be shown that if a given such dissection can be composed up in *some* way using binary composites, then any two ways to compose it up must give the same result.  See
 
-* Dawson and Par&#233;, "General associativity and general composition for double categories", [link](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1993__34_1_57_0)
-* Also of interest is "Characterizing tileorders" by the same authors, in which they characterize such rectangle-dissections, called [[tileorders]], in purely combinatorial terms.
+* Dawson and Par&#233;, _General associativity and general composition for double categories_ , [link](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1993__34_1_57_0)
+
+
+Also of interest is "Characterizing tileorders" by the same authors, in which they characterize such rectangle-dissections, called [[tileorders]], in purely combinatorial terms.
 
 However, there are dissections which admit *no* composition in a general double category, foremost among which is the "pinwheel:"
 
@@ -131,9 +132,9 @@ However, there are dissections which admit *no* composition in a general double 
 
 It is shown in the paper
 
-* Dawson, "A forbidden-suborder characterization of binarily-composable diagrams in double categories", [TAC](http://www.tac.mta.ca/tac/volumes/1995/n7/1-07abs.html)
+* Dawson, _A forbidden-suborder characterization of binarily-composable diagrams in double categories_ , [TAC](http://www.tac.mta.ca/tac/volumes/1995/n7/1-07abs.html)
 
-that this is the "only obstacle," in the same sense that $K_5$ and $K_{3,3}$ are the only obstacles to [[planar graph|planarity]] of a [[graph]].  Namely, if a diagram is not composable in a double category, then every "attempt" to compose it by a sequence of binary compositions will eventually result in a diagram which "contains" a pinwheel in a suitable sense (specifically, as a sub-[[tileorder]]).
+that this is the _only obstacle_ in the same sense that $K_5$ and $K_{3,3}$ are the only obstacles to [[planar graph|planarity]] of a [[graph]].  Namely, if a diagram is not composable in a double category, then every "attempt" to compose it by a sequence of binary compositions will eventually result in a diagram which "contains" a pinwheel in a suitable sense (specifically, as a sub-[[tileorder]]).
 
 In many double categories, however, arbitrary arrangements of squares, even pinwheels, can be composed.  By this we mean that given a pinwheel diagram in such a double category (for example), there is a natural square with the same boundary which it makes sense to regard as "the composite" of that pinwheel.  For example:
 
@@ -192,7 +193,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 * [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
 
-* [[Mike Shulman]], "Comparing composites of left and right derived functors," [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
+* [[Mike Shulman]], _Comparing composites of left and right derived functors_ , [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
 
 
 [[!redirects double categories]]
