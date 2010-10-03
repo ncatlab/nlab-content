@@ -1,5 +1,6 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,6 +24,8 @@
 An _infinitesimal quantity_ is supposed to be a quantity that is infinitely small in size, yet not necessarily perfectly small (zero).  An _infinitesimal space_ is supposed to be a space whose extension is infinitely small, yet not necessarily perfectly small (pointline). 
 
 Infinitesimal objects have been conceived and used in one way or other for a long time, notably in [[algebraic geometry]], where [[Grothendieck]] emphasized the now familiar role of [[duality|formal dual]]s ([[affine scheme]]s) of commutative rings $R$ with nilpotent ideals $J\subset R$ as _infintitesimal thickenings_ of the formal dual of the quotient ring $R/J$.
+
+See also [[infinitesimally thickened point]].
 
 ### Formalization in synthetic differential geometry 
 
@@ -116,7 +119,7 @@ So only if $\Sigma$ qualifies as having infinitesimal extension can the functor 
 
 An object $\Delta$ in a [[smooth topos]] $(\mathcal{T}, R)$
 is called a **formally infinitesimal object** if it is the
-algebra-spectrum of (what in the [[synthetic differential geometry|sdg]]-literature is usually called) a _Weil-$R$-algebra_ in $\mathcal{T}$
+algebra-spectrum of (what in the [[synthetic differential geometry|sdg]]-literature is usually called) a _-$R$-[[infinitesimally thickened point|Weil algebra]]_ in $\mathcal{T}$
 
 $$
   \Delta \simeq Spec_R(W)
@@ -138,7 +141,6 @@ All the spaces that are described as collection of degree $n$ infinitesimal neig
 
 
 ## Examples 
-
 
 ### Infinitesimal intervals 
 
@@ -426,7 +428,7 @@ $$
 
 A general element $f$ of this algebra we think of as a function on a certain infinitesimal neightbourhood of the origin of $R^{k \cdot n}$, interpreted as the space of infinitesimal $k$-simplices in $R^n$ based at 0.
 
-Since $C^\infty(\tilde D(k,n))$ is a Weil algebra in the sense of [[synthetic differential geometry]], its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] (as discussed there) and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
+Since $C^\infty(\tilde D(k,n))$ is a [[infinitesimally thickened point|Weil algebra]] in the sense of [[synthetic differential geometry]], its structure as an $\mathbb{R}$-algebra extends uniquely to the structure of a [[smooth algebra]] (as discussed there) and we may think of $\tilde D(k,n)$ as an infinitesimal [[smooth locus]].
 
 +-- {: .un_example}
 ###### Example
@@ -877,7 +879,7 @@ $X$ an infinitesimal object are in appendix 4 of
 
 ### Formally infinitesimal spaces 
 
-For formal infinitesimal objects and Weil algebras see 
+For formal infinitesimal objects and [[infinitesimally thickened point|Weil algebras]] see 
 
 section I.16 of 
 
