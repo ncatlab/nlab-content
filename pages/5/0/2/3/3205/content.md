@@ -38,5 +38,90 @@ A nascent CatLab may now be found at [[joyalscatlab:HomePage|joyalscatlab]], alt
 
 [[Eric]]: No worries and no rush. It's great to see how this material springing here and I'm sure **CatLab** will be ready for launch very soon. If you have questions, feel free to ask them either here or the forum. Since we're getting the hang of the wiki, my suggestion is to ask technical questions here. The answers will likely end up being added to [[HowTo]] and the [[FAQ]]. Cheers!
 
+## Discussion
+
+Dear John,
+
+I thank you for your answer.
+The arguments of Saul Griffith
+
+http://www.longnow.org/seminars/02009/jan/16/climate-change-recalculated/
+
+according to which the planet is heading toward an ecological disaster are overwhelming.
+But he does not conclude (as you seem) that the disaster is inevitable
+and the situation hopeless. He said that the problem can be solved
+with something like a global war effort.
+Pessimism is very dangerous because it is self-defeating.
+Beating the Nazi seemed impossible to many peoples in 1940.
+A climate expert like James Hansen is refusing to succomb to pessimism:
+
+http://www.columbia.edu/~jeh1/
+
+
+I would like express my opinion on the problem of
+climate change.  Take it as the opinion of a collegue, or of a citizen.
+As you know, there is presently a large consensus in the scientific
+community about the gravity of the problem.
+So why are the politicians not acting?
+I guess this is because our democratic system is defective.
+Politicians are serving two masters: their electors on one
+side and large corporations on the other.
+And one side has more money.
+Public opinion is also manipulated by publicity.
+We are brainwashed to think that we live in the best
+of all possible worlds. To think that nothing could fundamentally change
+except for the worst. To think that we all live to maximize our
+personnal pleasure. To think that all act of generosity is motivated by egoism.
+To think that the deep mystery of life and of the world is captured by a few slogans.
+The problems of democracy have been analysed in more books than I can read.
+ Our elected representatives are seldom acting for us.
+
+Demo-cracy = power of the peoples
+
+Something does not work.
+The main problem is that democracy is presently
+failing to empower peoples collectively.
+Citizens are feeling powerless, depressed and angry.
+I think we may cure ourselves from this collective
+depression by realising a collective project.
+It does not have to be a project on ecology or climate change,
+only something that we may do very well.
+It could be a project in our own backyard, mathematics!
+Our field needs to be "renovated", "reformed" or,
+if you prefer, "revolutionised".
+There are too many barriers, intellectual and
+professionnal, between the different fields of mathematics,
+including between pure and applied.
+Mathematicians from different fields can hardly understand each other,
+with the exception of a few mathematicians
+mastering more than one fields.
+I believe that many of these barriers are somewhat artificials.
+Of course, like language barriers, they can be very real.
+It is natural to specialise, as it is natural to choose a town where to live.
+But there is no need for gated-cities in mathematics.
+We should work on a project with the goal of giving free full access to all mathematics
+to everyones. Of course, this is not "my" dream but the dream of
+many mathematicians of many generations.
+It was the dream of Bourbaki and also the dream of Eilenberg, MacLane and Lawvere.
+It seems to me that we should make a concerted effort to realise it now.
+Even a partial success may capture the imagination of
+the scientific community and of peoples in general. It will
+strenghten our confidence in the success of collective efforts.
+We need to develop this confidence to fight the ecological disaster.
+
+I believe that a project like the nLab is already
+moving in the right direction:
+
+http://ncatlab.org/nlab/show/HomePage
+
+Thanks to its active contributors! 
+I would love to see it extended, deepened, multiplied, diversified and scaled up.
+
+What do you think?
+
+Best,
+Andr&#233;
+
+
 
 category: meta
