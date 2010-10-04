@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -6,10 +16,10 @@
 
 ## Statement
 
-The **Hadamard lemma** states that for every smooth function $f \in C^\infty(\mathbb{R})$ there is a smooth function $g$ such that
+The **Hadamard lemma** states that for every [[smooth function]] $f \in C^\infty(\mathbb{R})$ on the [[real line]] there is a smooth function $g$ such that
 
 $$
-  f(x) = f(0) + x g(x)
+  f(x) = f(0) + x \cdot g(x)
   \,.
 $$
 
@@ -22,7 +32,7 @@ $$
   \,.
 $$
 
-More generally, for smooth functions on $\mathbb{R}^n$ the lemma sas that there are for each $f \in C^\infty(X)$ $n$ smooth functions $g_i$ such that
+More generally, for smooth functions on any [[Cartesian space]] $\mathbb{R}^n$ the lemma says that there are for each $f \in C^\infty(X)$ $n$ smooth functions $g_i$ such that
 
 $$
  f(\vec x) = f(0) + \sum_i x_i g_i(x)
@@ -43,7 +53,11 @@ $$
 
 * A more abstract way to state the Hadamard lemma (and a bit more) is to say that [[generalized smooth algebra|smooth function rings]] form a [[Fermat theory]]. As such the Hadamard lemma is a crucial ingredient for [[Models for Smooth Infinitesimal Analysis|well-adapted models]] of [[synthetic differential geometry]].
 
+## References
 
+The Hadamard lemma is what makes the standard _convenient models_ for [[synthetic differential geometry]] tick. Its role in this respect can be seen from proposition 1.2 on in 
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
 
 [[!redirects Hadamard's lemma]]
