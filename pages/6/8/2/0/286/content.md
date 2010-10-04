@@ -82,24 +82,7 @@ Perhaps the extreme case of this is using [[model categories]] to study [[homoto
 
 ## Criticism
 
-Periodically, there is discussion on the [categories mailing list](http://www.mta.ca/~cat-dist/) about the concept, including objections to the term 'evil', and also objections that (like higher category theory, or even category theory itself to other mathematicians) the idea of seeking out non-evil category theory is stupid or wrong.
-
-Here is an example, by [[André Joyal]]:
-
->The only good thing about this terminology is that the word "evil" is short. Otherwise it is quite bad since it carries a very negative meaning on things that can be good. Many things in mathematics are depending on the choice of a representation which is not invariant under equivalences, or under isomorphisms. Modern geometry would not exists without coordinate systems. This is true also of algebra and category theory. Algebraic structures are often described by generators and relations. Homological algebra is using non-canonical projective or injective resolutions. Choosing a good base point may help computing the fundamental group of a topological space. Choosing a triangulation helps computing the homology groups. Invariant notions are often constructed from those which are not. For example, the Euler characteristic of a space is best explained by using a triangulation.
-
->Another example from homotopy theory: the notion of homotopy pullback square in a Quillen model category is invariant under weak equivalences, but its definition depends on the notion of pullback square which is not invariant under weak equivalences!
-
->Part of the art of mathematics is in constructing invariant notions from non-invariant ones. We should recognize the usefulness and importance of the latter. Please, let us not call them "evil"!
-
-Even though Joyal is an excellent mathematician and category theorist, this shows a misunderstanding of the idea behind avoiding evil.  [[coordinate system|Coordinate systems]], [[presentation]]s, [[resolutions]], [[base point]]s, [[triangulations]], and [[model category]] structures are all excellent tools for defining invariant notions.  Indeed, category theory and higher category theory show us precisely how to talk about these things.
-
-For example, the [[groupoid]] $Vect_\sim$ of [[vector spaces]] is not the same as the groupoid of $Vect_b$ of vector spaces equipped with [[basis|bases]], so what is evil for the former may not be evil for the latter.  So keeping track of which groupoid you are in tells you what you can talk about, and you may move back and forth between these groupoids.  If you want to define a property of vector spaces using bases, then you may do so, but you must prove two things: that every vector space has a basis, and that whether the property holds does not depend on which basis is used.  This is precisely what one does to show that a [[functor]] $Vect_b \to TV$ (where $TV$ is the [[discrete groupoid]] of [[truth values]]) factors through a unique functor $Vect_\sim \to TV$.
-
-If you violate this rule, if you define a property of vector spaces using bases such that whether the property holds (of a given vector space) depends on which basis is used, then most mathematicians who work with vector spaces will say that you have not defined a property of vector spaces at all.  We would say that such a definition is 'evil'.
-
-The more interesting question, addressed only in the model-category example from Joyal\'s comment, is whether a property of categories that depends on the [[equality relation]] on [[objects]] of the category is really a property of categories, or whether a property of $\infty$-[[infinity-category|categories]] that depends on how an $\infty$-category is presented as a [[model category]], is really a property of $\infty$-categories.  The general feeling of those who would use the world 'evil' is that it is not ... although it is still a perfectly good property of [[strict categories]] (categories equipped with explicit equality predicates on object) or of [[model categories]] themselves.
-
+Periodically, there is discussion on the [categories mailing list](http://www.mta.ca/~cat-dist/) about the concept, including objections to the term 'evil'. Please refer there for further details.
 
 ## General definition
 
