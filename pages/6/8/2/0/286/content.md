@@ -32,17 +32,19 @@ The ideas here generalize in many directions.  For example not only properties, 
 
 ## Terminology
 
-The terminology 'evil' was originally intended as a joke and has not been used in any published paper.  (It arguably also puts the emphasis on the wrong place, since what matters is what is *not* evil.)  Other possibilities which have been proposed are:
+The terminology 'evil' was originally intended as a joke and has not been used in any published paper.  It arguably also puts the emphasis on the wrong place, since what matters is what is *not* evil.  Other possibilities which have been proposed are:
 
-* 'kosher' in place of 'non-evil'.  One could then say 'treif' instead of 'evil', but this word is less well-known so probably 'non-kosher' would be easier to understand.
+*  'kosher' in place of 'non-evil'.  One could then say 'treif' or 'treyf' instead of 'evil', but this word is less well-known so probably 'non-kosher' would be easier to understand.
 
-* A serious term to use in higher category theory is 'invariant/covariant under equivalence' (as the definition suggests).  One can make various versions of this, such as 'equivalence-invariant' or a portmanteau such as 'equinvariant'.  One problem with 'invariant' is that only properties are actually invariant; non-evil [[stuff, structure, property|structure]] must actually be *covariant*.  One might argue that simply saying 'covariant' for 'non-evil' has the correct meaning and connotations.
+*  An imprecise term suitable for motivation in serious papers is 'too strict' for 'evil', with 'sufficiently weak' for 'non-evil'.  But one would probably need to explain, at least the first time, *why* the concept being discussed is too strict.
 
-* From the other side, instead of 'evil' one could say 'non-invariant' or 'unstable under equivalence' or 'equi-unstable'.
+*  A precise term for use in higher category theory is 'invariant under equivalence' (as the definition suggests).  One can make various versions of this, such as 'equivalence-invariant' or a portmanteau such as 'equinvariant'.  Of course, only properties are actually invariant; non-evil [[stuff, structure, property|structure]] must actually be *covariant*.  One might argue that simply saying 'covariant' for 'non-evil' has the correct meaning and connotations in all cases.
 
-* In discussions of [[foundations of mathematics]], a rough translation of 'non-evil' is 'definable in a [[type theory]] without [[identity types]] (or least only intensional identity types)', but that is not very concise.
+*  From the other side, instead of 'evil' one could say 'non-invariant' or 'unstable under equivalence' or 'equi-unstable'.
 
-* Other proposed possibilities for 'evil' include 'precarious', 'unstable', 'fragile', 'private', 'dangerous', and 'risky'.
+*  In discussions of [[foundations of mathematics]], a rough translation of 'non-evil' is 'definable in a [[type theory]] without [[identity types]] (or least only intensional identity types)', but that is not very concise.
+
+*  Other proposed possibilities for 'evil' include 'precarious', 'unstable', 'fragile', 'private' (in the sense of private and public methods in computer science), 'dangerous', and 'risky'.
 
 
 ## Motivation
@@ -69,7 +71,7 @@ We can found mathematics on type theory without identity types, and then it is l
 
 ## How to be evil
 
-: Or: just because it looks evil doesn\'t mean that it really is
+> Or: just because it looks evil doesn\'t mean that it really is
 
 Just as we can make use of [[basis|bases]] in [[linear algebra]], so we may make use of [[strict categories]] to discuss [[category theory]].  Philosophically, the concept of strict category is not in itself evil; what is evil is to say that $Set$ (and other well-known categories such as [[Grp]], etc) are strict categories.  Mathematically, strict categories form a $1$-[[1-groupoid|groupoid]] $Str Cat_\sim$ that is different from the $2$-[[2-groupoid|groupoid]] $Cat_\sim$, but there is still a canonical [[pseudo functor]] from $Str Cat_\sim$ to $Cat_\sim$ that we may find useful.
 
