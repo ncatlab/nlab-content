@@ -32,9 +32,14 @@ Links can be studied in a number of ways depending on the notion of equivalence 
 
 ## Examples
 
+### Trivial links
+
+Any [[knot]] is a link, and any [[disjoint union]] of [[unknot]]s is a link.  We may call these 'trivial' (hopefully this name isn\'t standard for something different), in the sense of what you would know about before you study links.
+
+
 ### The Hopf Link
 
-This is perhaps the simplest non-trivial link, consisting of two components linked once.
+This is the simplest non-trivial (in the sense above) link, consisting of two components linked once.
 
 <svg width="334" height="218" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="50131">
  <g>
@@ -46,9 +51,9 @@ This is perhaps the simplest non-trivial link, consisting of two components link
 </svg>
 
 
-### The Borromean Links
+### The Borromean Link
 
-It is possible to link together $n$ circles in such a way that removing any one makes the others fall apart.  The simplest such configuration is the Borromean Links.
+It is possible to link together $n$ circles in such a way that removing any one makes the others fall apart.  For $n = 2$, we have the Hopf link above; for $n = 3$, we have the Borromean link, or Borromean Rings.
 
 <svg width="311" height="303" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="26799">
  <g>
@@ -82,7 +87,7 @@ This is an example of a link that shows the difference between the two notions o
 </svg>
 
 
-### Brunnian Links
+### Brunnian links
 
 A _Brunnian link_ is a non-trivial link which has the property that the removal of any of its components results in an unlink.  The Borromean rings above are an example of a Brunnian link.  Whether or not the Hopf link is will hopefully be decided by the answers to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link).
 
