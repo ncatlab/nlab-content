@@ -987,7 +987,7 @@ $$
   }
 $$
 
-in $[CartSp, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[?LieGrpd]] with the special property that it did model the abstract [[(∞,1)-topos]]-theoretic class under the [[Dold-Kan correspondence]] precisely in terms of the familiar [[Deligne cohomology]] coefficient complex.
+in $[CartSp^{op}, sSet]$ for the canoncal curvature characteristic class $curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$ in [[?LieGrpd]] with the special property that it did model the abstract [[(∞,1)-topos]]-theoretic class under the [[Dold-Kan correspondence]] precisely in terms of the familiar [[Deligne cohomology]] coefficient complex.
 
 There is another model for the curvature class in $[CartSp^{op}, sSet]$, one that is useful for constructing the [∞-Chern-Weil homomorphism](#InfChernWeil) that maps from [[nonabelian cohomology]] in $\infty Lie Grpd$ to $U(1)$-valued differential cohomology. This second model is the one naturally adapted to the construction of the object $\mathbf{B}^n U(1)$ by [[Lie integration]] from its [[∞-Lie algebra]] $b^{n-1} \mathbb{R}$. This is described at <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegration">∞-Lie groupoid -- Lie integration</a>. 
 
@@ -1025,7 +1025,7 @@ $$
 
 Here $CE(b^{n-1}\mathbb{R})$ is the [[Chevalley-Eilenberg algebra]] of $b^{n-1}\mathbb{R}$, which is simply the graded-commutative [[dg-algebra]] (over $\mathbb{R}$) on a single generator in degree $n$ with vanishing differential.
 
-Moreover, $\mathbf{cosk}_{n+1}(-)$ is the [[coskeleton]]-operation and the quotient is by constant $n$-forms $\omega \in \Omega^n_{cl}(U \times \Delta^k)_{vert}$ such that $\int_{\Delta^n}\omega \in \mathbb{Z}$.
+Moreover, $\mathbf{cosk}_{n+1}(-)$ is the [[coskeleton]]-operation and the quotient is by constant $n$-forms $\omega \in \Omega^n_{cl}(U \times \Delta^k)_{vert}$ such that $\int_{\Delta^n}\omega \in \mathbb{Z}$. We take the quotient as a quotient of abelian [[simplicial group]]s (the group operation is the addition of differential forms).
 
 =--
 
@@ -1147,7 +1147,7 @@ $$
   \mathbf{\flat}_{dR} \mathbf{B}^n U(1)_{chn}
 $$
 
-that are weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
+that are weak equivalences in $[CartSp^{op}, sSet]_{proj}$.
 
 =--
 
@@ -1178,7 +1178,7 @@ $$
         W(b^{n-1} \mathbb{R})
      }
    \right\}
-  )
+  ) / \mathbf{B}^n \mathbb{Z}
   \,.
 $$
 
