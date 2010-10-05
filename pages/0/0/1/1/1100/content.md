@@ -282,6 +282,8 @@ should be.
 
 ## References
 
+### General
+
 In retrospect it turns out that the [[homotopy category of an (∞,1)-category|homotopy categories]] of [[(∞,1)-topos]]es have been known since
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ .
@@ -303,6 +305,15 @@ The intrinsic [[higher category theory|category-theoretic]] definition of an [[(
 building on ideas by [[Charles Rezk]]. There is is also proven that the Brown-Joyal-Jardine-To&#235;n-Vezzosi models indeed precisely model $\infty$-stack $(\infty,1)$-toposes. Details on this relation are at [[models for ∞-stack (∞,1)-toposes]].
 
 
+### $\infty$-Giraud axioms
+
+A discussion of the $(\infty,1)$-[[universal colimits]] in terms of [[model category]] presentations is due to
+
+* [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([pdf](http://www.math.uiuc.edu/~rezk/rezk-sharp-maps.pdf))
+
+More on this with an eye on [[associated ∞-bundle]]s is in 
+
+* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
 
 [[!redirects (infinity,1)-topoi]]
 [[!redirects (infinity,1)-toposes]]
