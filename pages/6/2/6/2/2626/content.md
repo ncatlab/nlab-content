@@ -1,15 +1,18 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Contents### {: .clickToReveal}
-###Contents### {: .clickToHide tabindex="0"}
+###Context###
+#### Knot theory
 +--{: .hide}
 [[!include knot theory - contents]]
 =--
+#### Topology
 +--{: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
+
 
 # Knots
 * table of contents
