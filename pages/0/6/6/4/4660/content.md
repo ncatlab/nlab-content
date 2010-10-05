@@ -227,11 +227,21 @@ This is [Bry, prop. 1.6](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#p
 
 ## References
 
-* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes, Ast&eacute;risque vol. 124-125 (1985), pp. 113-130
-{#Blanc}
+The definition of the refined Lie group cohomology in terms of sheaves on simplicial spaces was given by Segal and later rediscovered in
 
 * [[Jean-Luc Brylinski]], _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
 {#Brylinski}
+
+following
+
+* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes, Ast&eacute;risque vol. 124-125 (1985), pp. 113-130
+{#Blanc}
+
+Relevant background on the theory of abelian sheaf cohomology on simplicial spaces is at the beginning of 
+
+* [[Pierre Deligne]], _Th&eacute;orie de Hodge: III_  Publication math&eacute;tematique de l'I.H.E.S, tome 44 (1974), p. 5-77 ([numdam](http://www.numdam.org/item?id=PMIHES_1974__44__5_0))
+
+More discussion of Lie group cohomology along these lines is in
 
 * [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
 {#Schommer-Pries}
@@ -239,3 +249,4 @@ This is [Bry, prop. 1.6](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#p
 A discussion of the relation between _local_ Lie group cohomology and [[Lie algebra cohomology]] is in
 
 * S. &#346;wierczkowski, _Cohomology of group germs and Lie algebras_ Pacific Journal of Mathematics, Volume 39, Number 2 (1971), 471-482.  ([pdf](http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&id=pdf_1&handle=euclid.pjm/1102969572))
+
