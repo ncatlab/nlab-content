@@ -1,8 +1,17 @@
-> under construction
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -18,6 +27,12 @@ One can also define an A-model for [[Landau-Ginzburg model|Landau–Ginzburg mod
 
 By [[homological mirror symmetry]], the A-model is dual to the  [[B-model]].
 
+
+## Boundary theory
+
+On coisotropic [[brane]]s in symplectic target manifolds that arise by complexification of [[phase space]]s, the boundary [[path integral]] of the A-model computes the [[quantization]] of that phase space. For details see
+
+* [[quantization via the A-model]].
 
 ## References
 
