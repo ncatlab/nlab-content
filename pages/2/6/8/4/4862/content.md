@@ -54,7 +54,7 @@ The standard equivalence of the two definitions is given by the map $\mathbb{R} 
 
 ## Properties
 
-The circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]].
+The circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]], but its higher [[homotopy groups]] $\pi_n(S^1)$, $n \gt 1$ vanish (and so is a 1-type). The circle is a model for the [[classifying space]] for the group $\mathbb{Z}$, the integers.
 
 
 [[!redirects circle]]
