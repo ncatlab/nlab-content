@@ -1,4 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+* **group**
+
+* [[2-group]]
+
+* [[n-group]]
+
+* [[∞-group]]
+
+
+***
 
 #Contents#
 * automatic table of contents goes here
