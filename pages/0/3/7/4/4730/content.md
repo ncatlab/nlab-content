@@ -9,13 +9,13 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]]
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
 * **principal 3-bundle** / [[bundle 2-gerbe]]
 
-* [[principal ∞-bundle]]
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
 
 ***
 
