@@ -23,7 +23,11 @@ Let $p\colon E\to B$ be a [[functor]].  The notion of when a morphism of $E$ is 
 
 ### In terms of adjoint inverses
 
-...
+Back in the 60s J. Gray characterized fibrations as the functors $p\colon E\to B$ 
+where for every $a \in E$ the slice functor $p/a \colon E/a \to B/p(a)$ has a right
+adjoint right inverse $c_a$. One avoids evilness if one just requires that $c_a$ is
+full and faithful, i.e. the counit of the adjunction $p/a \dasv c_a$ is an isomorphism. Explicitating this condition in elementary terms one arrives at the above definition.
+
 
 ## Properties
 
