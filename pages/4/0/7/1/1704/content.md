@@ -15,7 +15,7 @@
 
 * [[principal 3-bundle]] / [[bundle 2-gerbe]]
 
-* **principal $\infty$-bundle**
+* **principal $\infty$-bundle** / [[associated infinity-bundle]]
 
 
 ***
