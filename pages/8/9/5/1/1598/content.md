@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -70,7 +70,7 @@ The [[exceptional Lie group]]s incude
 
 ## Properties
 
-### Lie' three theorems
+### Lie's three theorems
 
 [[Sophus Lie]] has proved several theorems -- [[Lie's three theorems]] -- on the relationship between [[Lie algebra]]s and Lie groups. What is called [[Lie's third theorem]] is about the [[equivalence of categories]] of f.d. real Lie algebras and local Lie groups. [[Élie Cartan]] has extended this to a global integrability theorem called the Cartan-Lie theorem, nowadays after Serre also called Lie's third theorem.
 
@@ -92,7 +92,8 @@ and a finite snumber o
 
 * [[exceptional Lie group]]s
 
-### Number of Lie group structure
+
+### Number of Lie group structures
 
 For $G$ a bare [[group]] (without smooth structure) there may be more than one way to equip it with the [[stuff, structure, property|structure]] of a Lie group.
 
