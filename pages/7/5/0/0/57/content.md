@@ -122,7 +122,7 @@ For $n = 0$, every differential form has sitting instants. For $n \geq 1$, $\ome
 
 1. for every $(n-1)$-face $\partial_i \Delta^{n-1} \hookrightarrow \Delta^n$ of $\Delta^n$ there is a neighbourhood of that face in $\Delta^n$ such that $\omega$ restricted to that neighbourhood is constant in the direction perpendicular to the boundary on its value at that boundary;
 
-   (so near a $(k \lt p)$-dimensional boundary a $p$-form needs to vanish, but near a $(k \geq p)$-dimensional boundary it just needs to become perpendicularly constant).
+   (so near a $(k \lt p)$-dimensional face a $p$-form with sitting instants needs to vanish, but near a $(k \geq p)$-dimensional face it just needs to become perpendicularly constant).
 
 1. the restriction $\partial_i^* \omega$ has sitting instants on $\Delta^{n-1}$.
 
