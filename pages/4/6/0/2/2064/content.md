@@ -1,15 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+* [[principal bundle]] / [[torsor]] / **associated bundle**
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]
+
+
+***
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-# Idea
+## Idea
 
 A __fibre bundle__ or __fiber bundle__ is a [[bundle]] in which every [[fibre]] is [[isomorphism|isomorphic]], in some coherent way, to a __standard fibre__ (sometimes also called __typical fiber__). Though it is pre-dated by many examples and methods, systematic usage of locally trivial fibre bundles with structure groups in mainstream mathematics started with a famous book of Steenrod. 
 
 One may say that 'fibre bundles are [[fibrations]]' by the [[Milnor slide trick]].
 
 
-# Definitions
+## Definitions
 
 In the most general sense, a __bundle__ over an object $B$ in a [[category]] $C$ is a [[morphism]] $p: E \to B$ in $C$.
 
@@ -33,33 +55,39 @@ The $g_{\alpha,\beta}$ are the __transition morphisms__ of the locally trivial f
 
 Often one considers special kinds of bundles, by requiring structure on the standard fibre $F$ and/or conditions on the transition morphisms $g_{\alpha,\beta}$.  For example:
 
-# Special cases #
+## Special cases 
 
-## $G$-bundles ##
+### $G$-bundle 
 
 If $G$ is a [[group object]] in $C$ that [[action|acts]] on $F$, then a __$G$-bundle__ (or bundle with __structure group__ $G$) over $B$ with standard fibre $F$ is a locally trivial fibre bundle over $B$ with standard fibre $F$ together with morphisms $U_{\alpha,\beta} \to G$ that, relative to the action of $G$ on $F$, give the transition maps $g_{\alpha,\beta}$.  (The morphism $U_{\alpha,\beta} \to G$ is also written $g_{\alpha,\beta}$, conflating action with application.)
 
-## $G$-principal bundles ##
+### $G$-principal bundles 
 
 More specifically, a (right or left) __[[principal bundle|principal]] $G$-bundle__ over $B$ is a $G$-bundle over $B$ with standard fibre $G$, associated with the action of $G$ on itself by (right or left) multiplication.
 
-## Structure-preserving bundles ##
+### Structure-preserving bundles 
 
 If $F$ is an object of a [[concrete category]] over $C$, then we can consider locally trivial fibre bundles with standard fibre $F$ such that the transition morphisms are structure-preserving morphisms.  If the [[automorphism group]] $Aut(F)$ can be internalised in $C$, then this the same as an $Aut(F)$-bundle, but the concept makes sense in any case.
 
-## Vector bundles ##
+### Vector bundles 
 
 As a fairly specific example, if $F$ is a [[topological vector space]] (and $C$ is a category with structure to support this, such as [[Top]] or [[Diff]]), then a __[[vector bundle]]__ over $B$ with standard fibre $F$ is a $GL(F)$-bundle over $B$ with standard fibre $F$, where $GL(F)$ is the [[general linear group]] with its defining action on $F$.
 
-## Associated bundles ##
+### Associated bundles 
 
 Given a right [[principal bundle|principal]] $G$-bundle $\pi: P\to X$ and a left $G$-space $F$, all in a sufficiently strong category $C$ (such as [[Top]]), one can form the [[quotient object]] $P\times_G F = (P\times F)/{\sim}$, where $P \times F$ is a [[product]] and $\sim$ is the smallest [[congruence]] such that (using [[generalized element]]s) $(p g,f)\sim (p,g f)$; there is a canonical projection $P\times_G F\to X$ where the class of $(p,f)$ is mapped to $\pi(p)\in X$, hence making $P\times_G F\to X$ into a fibre bundle with typical fiber $F$, and the transition functions belonging to the action of $G$ on $F$. We say that  $P\times_G F\to X$ is the __associated bundle__ to $P\to X$ with fiber $F$. 
 
-#Generalizations#
+## Generalizations
 
-## In noncommutative geometry ## 
+### In higher category theory
 
-In [[noncommutative geometry]] both principal and associated bundles have analogues. The principal bundles over noncommutative spaces typically have structure group replaced by a [[Hopf algebra]]; the most well-known class whose base is described by a single algebra are [[Hopf–Galois extensions]]; the global sections of the associated bundle are formed using cotensor product. Transition functions can be to some extent emulated using noncommutative localizations, which yield nonaffine generalizations of Hopf--Galois extensions. Another generalization is when Hopf--Galois extensions in the sense of comodule algebras are replaced by entwining structures with analogous Galois condition. 
+In [[higher category theory]] the notion of fiber bundle generalizes. See
+
+* [[associated ∞-bundle]].
+
+### In noncommutative geometry 
+
+In [[noncommutative geometry]] both principal and associated bundles have analogues. The principal bundles over noncommutative spaces typically have structure group replaced by a [[Hopf algebra]]; the most well-known class whose base is described by a single algebra are [[Hopf?Galois extensions]]; the global sections of the associated bundle are formed using cotensor product. Transition functions can be to some extent emulated using noncommutative localizations, which yield nonaffine generalizations of Hopf--Galois extensions. Another generalization is when Hopf--Galois extensions in the sense of comodule algebras are replaced by entwining structures with analogous Galois condition. 
 
 
 
