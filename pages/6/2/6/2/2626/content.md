@@ -55,13 +55,19 @@ For introductions to Knot Theory,
 
 These do not, of course, handle more modern developments.
 
-Another classic source is 
+Other classic sources are 
 
 * Dale Rolfsen, Knots and Links, 2003, (ISBN-10: 0-8218-3436-3, ISBN-13: 978-0-8218-3436-7), AMS Chelsea, vol. 346.H
+
+
+*L. H. Kauffman, Knots and Physics, World Scientific, 1991.
+
+The second of these discusses many of the connections between knots and state sum caclulations related to quantum field theories.
 
 Another reference for the classical theory is
 
 * G. Burde and H. Zieschang, Knots, De Gruyter (1989).
+
 
 
 [[!redirects knot]]
