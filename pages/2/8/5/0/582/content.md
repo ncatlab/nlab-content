@@ -13,8 +13,7 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -53,7 +52,6 @@ The dual concept is that of a [[regular epimorphism]].
 {#CokernelPairLemma}
 
 In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorphism is the same as a morphism that is an equalizer of its cokernel pair. 
-
 =--
 
 
@@ -88,12 +86,10 @@ and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique 
 
 * Similarly, in [[Ab]], and more generally any [[abelian category]], every monomorphism is regular.
 
-
 +-- {: .un_prop}
 ###### Proposition
 
 In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
-
 =--
 
 +-- {: .proof}
@@ -102,25 +98,21 @@ In [[Top]], the monics are the injective functions, while the regular monos are 
 Use the [above lemma](#CokernelPairLemma).
 
 If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the quotient topology on a disjoint sum). The equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the subspace topology. Since monos in $Set$ are regular, we get the function $i$ back with the subspace topology. This completes the proof. 
-
 =--
 
 +-- {: .un_prop}
 ###### Proposition
 
 In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular
-
-=-
+=--
 
 This is more difficult to prove than in the preceding cases.  (See exercise 7H of Adamek, Herrlich, Strecker, _Abstract and Concrete Categories_.)  In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
 
 +-- {: .proof}
 ###### Proof
 
-A proof ought to proceed along similar lines as above for $Top$, where the cokernel pair is given by an amalgamated coproduct or free product. 
-
+A proof ought to proceed along similar lines as above for $Top$, where the cokernel pair is given by an amalgamated coproduct or [[free product]]. 
 =--
-
 
 
 ## In an $(\infty,1)$-category {#Infty1Version}
@@ -142,11 +134,13 @@ In practice this is of particular relevance for the $\infty$-version of [[regula
 
 **Warning** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. 
 
+
 [[!redirects regular monomorphism]]
 [[!redirects regular monomorphisms]]
-[[!redirects regular subobject]]
-[[!redirects regular subobjects]]
 [[!redirects regular mono]]
 [[!redirects regular monos]]
 [[!redirects regular monic]]
 [[!redirects regular monics]]
+
+[[!redirects regular subobject]]
+[[!redirects regular subobjects]]
