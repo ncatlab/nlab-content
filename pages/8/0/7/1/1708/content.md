@@ -1,3 +1,32 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+* [[group]]
+
+* [[2-group]]
+
+* **$n$-group**
+
+* [[∞-group]]
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
 An $n$-group is a [[group]] object [[internalization|internal to]] [[n-groupoid]]s.
 
 If it is [[delooping|deloopable]],
@@ -7,6 +36,8 @@ If $\mathbf{B}G$ is a [[strict omega-groupoid|strict n-groupoid]], then the corr
 
 Under the [[homotopy hypothesis]] $n$-groups correspond to (pointed) _connected_ [[homotopy n-type]]s.
 
+## Related concepts
+
 See also 
 
 * [[group]]
@@ -15,3 +46,7 @@ See also
   * [[crossed module]]
 * [[cat-n-group]]
 * [[k-tuply groupal n-groupoid]] .
+
+* [[∞-group]]
+
+[[!redirects n-groups]
