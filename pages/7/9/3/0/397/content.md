@@ -150,6 +150,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Thomas]] (possibly one of the Thomases or Toms listed below)
 * [[Thomas Fiore]]
 * [[Thomas Nikolaus]]
+* [[Thomas Streicher]]
 * [[Tim Porter]]
 * [[Tim Silverman]]
 * [[Tim van Beek]]
