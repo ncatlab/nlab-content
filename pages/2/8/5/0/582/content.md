@@ -43,6 +43,20 @@ From the defining universal property of the [[limit]] it follows directly that a
 
 The dual concept is that of a [[regular epimorphism]].
 
+
+## Properties
+
+### General
+
++-- {: .un_lemma}
+###### Lemma
+{#CokernelPairLemma}
+
+In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorphism is the same as a morphism that is an equalizer of its cokernel pair. 
+
+=--
+
+
 ### Relation to effective monomorphisms 
 
 Recall that a monomorphism $i: A \to B$ is [[effective monomorphism|effective]] if the [[pushout]]
@@ -67,15 +81,47 @@ $$f j = \phi i_1 j = \phi i_2 j = g j$$
 and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique map $k: E \to A$ such that $j = i k$. Since $i_1 i = i_2 i$, there is a unique map $l: A \to E$ such that $i = j l$. The maps $k$, $l$ are mutually inverse. 
 =-- 
 
+
 ## Examples
 
 * In [[Set]], or more generally in any [[pretopos]], every [[monomorphism]] is regular.
 
 * Similarly, in [[Ab]], and more generally any [[abelian category]], every monomorphism is regular.
 
-* In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular, though this is more difficult to prove than in the preceding cases.  (See exercise 7H of Adamek, Herrlich, Strecker, _Abstract and Concrete Categories_.)  In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
 
-* In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
++-- {: .un_prop}
+###### Proposition
+
+In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the [above lemma](#CokernelPairLemma).
+
+If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the quotient topology on a disjoint sum). The equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the subspace topology. Since monos in $Set$ are regular, we get the function $i$ back with the subspace topology. This completes the proof. 
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular
+
+=-
+
+This is more difficult to prove than in the preceding cases.  (See exercise 7H of Adamek, Herrlich, Strecker, _Abstract and Concrete Categories_.)  In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
+
++-- {: .proof}
+###### Proof
+
+A proof ought to proceed along similar lines as above for $Top$, where the cokernel pair is given by an amalgamated coproduct or free product. 
+
+=--
+
+
 
 ## In an $(\infty,1)$-category {#Infty1Version}
 
