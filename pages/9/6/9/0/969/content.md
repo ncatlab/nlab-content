@@ -12,17 +12,16 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-The _localization_ of a [[category]] $C$ at a collection $W$ of its [[morphism]]s is -- if it exists -- the result of universally making all morphisms in $C$ into [[isomorphism]]s.
+The _localization_ of a [[category]] $C$ at a collection $W$ of its [[morphism]]s is -- if it exists -- the result of universally making all morphisms in $W$ into [[isomorphism]]s.
+
 
 ## Motivation
-
 
 In general, [[localization]] is a process of adding formal inverses to an algebraic structure.  A classic example is the localization of a [[ring]]: we can 'localize the ring $\mathbb{Z}$ at the prime $2$' and obtain the ring $\mathbb{Z}[\frac{1}{2}]$, or localize it at all primes and obtain its field of fractions: the field $\mathbb{Q}$ of [[rational number|rational numbers]].
 
@@ -68,6 +67,7 @@ Note:
 
 * **size issues**: If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
 
+
 ### Reflective localization
 
 A special class of localizations are those where the functor $C \to L_W C$ has a [[full and faithful functor|full and faithful]] [[right adjoint]] $L_W C \hookrightarrow C$.
@@ -90,9 +90,11 @@ More on this is at
 
 * [[reflective sub-(∞,1)-category]].
 
+
 ## Construction 
 
 There is a general construction of $C[W^{-1}]$, if it exists, which is however hard to use.   When the system $W$ has special properties, most notably when $W$ admits a [[calculus of fractions]] or a [[factorization system]], then there are more direct formulas for the [[hom-sets]] of $C[W^{-1}]$.
+
 
 ### General construction 
 
@@ -124,6 +126,7 @@ $$(y;\overline{f},f;y)\sim (y;id_y;y)$$
 [[David Roberts]]: This could probably be described as the [[fundamental category]] of 2-dimensional [[simplicial complex]] with the directed space structure coming from the 1-skeleton, which will be the path category above. In that case, we could/should probably leave out the paths of zero length. 
 =--
 
+
 ### Construction when there is a calculus of fractions 
 
 If the class $W$ admits a [[calculus of fractions]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags.  The idea is that any morphism $f: x \to z$ in $C[W^{-1}]$ is built from a morphism $f_2 : y \to z$ in $C$ and a morphism $f_1 : y \to x$ in $W$:
@@ -133,6 +136,7 @@ $$  x \stackrel{f_1}{\longleftarrow} y \stackrel{f_2}{\longrightarrow} z $$
 For more on this, see the entry [[calculus of fractions]].
 
 Dorette Pronk has extended this idea to construct a [[bicategory of fractions|bicategories of fractions]]  where a class of 1-arrows is sent to [[equivalence|equivalences]].
+
 
 ## In higher category theory
 
@@ -191,5 +195,13 @@ Actually I agree with what you, Mike, sort of imply namely  that some 'local' ex
 Also, it would be good to arrange the points that [[Zoran Skoda|Zoran]] mentions into a coherent bulleted list in an examples section. Maybe somebody can do that.
 =--
 
+
+[[!redirects localization]]
 [[!redirects localizations]]
+[[!redirects localisation]]
+[[!redirects localisations]]
+
 [[!redirects localization functor]]
+[[!redirects localization functors]]
+[[!redirects localisation functor]]
+[[!redirects localisation functors]]
