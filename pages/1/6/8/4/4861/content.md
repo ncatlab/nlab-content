@@ -54,6 +54,9 @@ The first two conditions on an isotopy $H$ imply that $H$ is a homotopy from $f$
 
 Isotopy is used where one wishes to study deformations of an object inside some ambient space that do not change the object itself.  An extremely important example of this is the theory of [[knots]] and [[links]] where, to prevent unknottings and unlinkings, there have to be some restrictions on the allowed movements.  These are usually encoded in terms of isotopies. It is unfortunately true, however, that a naive use of isotopy leads to strange results. If you use *continuous* isotopies then any two continuous embeddings of the circle into $S^3$ are isotopic, (basically since you just pull the knot tighter and tighter, (so the knotted bit gets smaller and smaller) and at the end you just put the 'unknot').  One way to handle this is to demand the isotopy to be [[piecewise linear]] (or [[smooth map|smooth]]), another is to work explicitly with ambient isotopy.
 
+One of the beauties of isotopy of knots is that it can be realised very simply at the level of [[knot diagrams]]. Two knots are isotopic if their respective knot diagrams can be related using [[Reidemeister moves]]. (This is a formal theorem, but will be given elsewhere after some more development.)
+
+
 ## References ##
 For isotopy in Knot Theory
 
