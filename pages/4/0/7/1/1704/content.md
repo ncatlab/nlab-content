@@ -699,6 +699,10 @@ In that article not the total space of the bundle $P \to X$ is axiomatized, but 
 See the remarks at [[principal 2-bundle]].
 
 
+See also
+
+* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
+
 [[!redirects principal infinity-bundles]]
 [[!redirects principal ∞-bundle]]
 [[!redirects principal ∞-bundles]]
