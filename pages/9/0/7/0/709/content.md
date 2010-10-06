@@ -1,4 +1,20 @@
-# Idea
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
 
 The **delooping hypothesis** is one of the "guiding hypotheses of higher category theory."  Like the [[homotopy hypothesis]], it is generally accepted to be a "litmus test" that any suitable definition of [[n-category]] should satisfy.  It states that:
 
@@ -13,7 +29,7 @@ Here _$j$-(simply) connected_ means that any two parallel $i$-morphisms are [[eq
 The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is called its **$j$-fold delooping** and sometimes written $B^j C$.  Conversely, any $k$-tuply monoidal $n$-category $C$ with a point $*\in C$ has a [[loop space object]] $\Omega C = C(*,*)$ which is a $(k+1)$-tuply monoidal $(n-1)$-category.
 
 
-# Remarks
+## Remarks
 
 * Not infrequently the delooping hypothesis is used to supply a _definition_ of "$k$-tuply monoidal $n$-category."  See [[k-tuply monoidal n-category]] for an investigation in low dimensions.
 
@@ -22,7 +38,7 @@ The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is call
 * In low dimensions, the delooping hypothesis is a special case of the [[michaelshulman:exactness hypothesis|exactness hypothesis]].
 
 
-# In homotopy theory
+## In homotopy theory
 
 A "groupoidal" version of the delooping hypothesis may be stated as
 
