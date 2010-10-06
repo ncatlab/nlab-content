@@ -9,13 +9,13 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]]
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
 * [[principal 3-bundle]] / [[bundle 2-gerbe]]
 
-* **principal $\infty$-bundle** / [[associated infinity-bundle]]
+* **principal $\infty$-bundle** / [[associated ∞-bundle]]
 
 
 ***
@@ -702,6 +702,8 @@ See the remarks at [[principal 2-bundle]].
 See also
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
+
+on [[associated ∞-bundle]]s.
 
 [[!redirects principal infinity-bundles]]
 [[!redirects principal ∞-bundle]]
