@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -34,8 +33,8 @@ An **associated $\infty$-bundle** $E \to X$ is a [[fiber bundle]] in an [[(∞,1
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]]. 
 
-+-- {: .un_prop}
-###### Theorem
++-- {: .un_def}
+###### Definition
 
 For $F,X \in \mathbf{H}$ [[pointed object]]s, an **$\infty$-fiber bundle** on $X$ with fiber $F$ is a [[fiber sequence]]
 
@@ -67,7 +66,7 @@ $\infty$-Fiber bundles $F \to E \to X$ are classified by morphisms $X \to \mathb
 ###### Proof
 
 
-This is shown using [[model category]]-theoretic presentations (see [[models for ∞-stack (∞,1)-toposes]]) in [Wendt](#Wendt)), section 5.5.
+This is shown in ([Wendt](#Wendt)), section 5.5, using [[model category]]-theoretic presentations (see [[models for ∞-stack (∞,1)-toposes]]) 
 
 
 =--
