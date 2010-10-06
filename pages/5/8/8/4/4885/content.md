@@ -61,10 +61,11 @@ are interchangable, (plus another with the opposite twist);
 
 ## Properties
 
-**Theorem** Two [[knot diagram]]s correspond to the same knot, up to planar [[isotopy]], precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
+**Theorem** Two [[knot diagram]]s correspond to isotopic knots precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
 
 ## References
 
 * Reidemeister, _Knotentheorie_ , Ergebnisse der Mathematik (1932)
 
 [[!redirects Reidemeister move]]
+[[!redirects Reidemeister moves]]
