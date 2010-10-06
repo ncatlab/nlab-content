@@ -18,11 +18,10 @@
 * table of contents
 {:toc}
 
-## Idea
 
-### The general abstract principle
+## The general abstract principle
 
-In [[higher category theory]] it is a tautological fact that a $1$-[[transfor]]mation $\lambda$ between [[n-functor]]s $F_1,F_2 : C \to D$ between [[n-categories]] $C$ and $D$
+In [[higher category theory]] it is a tautological fact that a $1$-[[transfor]]mation $\lambda$ between [[n-functor]]s $F_1,F_2 : C \to D$ between [[strict n-categories]] $C$ and $D$
 
 $$
   \lambda : F_1 \Rightarrow F_2
@@ -31,12 +30,21 @@ $$
 is itself, in components, given by an $(n-1)$-functor
 
 $$
-  \eta : \mathbf{sk}_{n-1} C \to D^{\Delta^1}
+  \eta : C_{(n-1)} \to D^{\Delta^1}
 $$
 
-on the $(n-1)$-[[simplicial skeleton|skeleton]]. For instance
+on the $(n-1)$-category underlying $C$. 
 
-* a [[natural transformation]] $\eta$ between [[functor]]s $F_1,F_2 : C \to D$ between ordinary [[categories]] is in components just a [[function]]
+Analogous statements hold for general (weak) [[n-categories]] (see below).
+
+As with various other almost-tautologies in [[category theory]] they become interesting statements when realized in a concrete context where certain structures are modeled by $n$-[[functor categories]] for all $n$. 
+
+
+### Examples in low dimension
+
+We spell out explicitly the $(n-1)$-functorial nature of transformation for low values of $n$.
+
+* **$(n=1)$** -- A [[natural transformation]] $\eta$ between [[functor]]s $F_1,F_2 : C \to D$ between ordinary [[categories]] is in components just a [[function]]
 
   $$
     \eta : Obj(C) \to Mor(D)
@@ -98,7 +106,7 @@ on the $(n-1)$-[[simplicial skeleton|skeleton]]. For instance
 
   from the [[discrete category]] on the set of objects of $C$ to the [[arrow category]] of $D$.
 
-* a [[pseudonatural transformation]] $\eta$ between (strict, say, for ease of of notation) [[2-functor]]s $F_1,F_2 : C \to D$ between ([[strict 2-category|strict]], for simplicity) [[2-categories]] is in components a 1-[[functor]] that functorially assigns pseudonaturality squares:
+* **$(n=2)$** A [[pseudonatural transformation]] $\eta$ between (strict, say, for ease of of notation) [[2-functor]]s $F_1,F_2 : C \to D$ between ([[strict 2-category|strict]], for simplicity) [[2-categories]] is in components a 1-[[functor]] that functorially assigns pseudonaturality squares:
 
   $$
     \eta : 
@@ -147,7 +155,7 @@ on the $(n-1)$-[[simplicial skeleton|skeleton]]. For instance
 
 
 
-* A transformation between 3-functors is in components a  [[2-functor]] that sends [[2-morphism]]s in $C$ to cyclinders in $D$. This is shown in the $(n=3)$-row of the following diagram
+* **$(n=3)$** -- A transformation between 3-functors is in components a  [[2-functor]] that sends [[2-morphism]]s in $C$ to cyclinders in $D$. This is shown in the $(n=3)$-row of the following diagram
 
   <img width = "550" src="http://www.math.uni-hamburg.de/home/schreiber/pics/koh.gif" alt="components of transformations" />
 
@@ -165,18 +173,43 @@ on the $(n-1)$-[[simplicial skeleton|skeleton]]. For instance
 
   where on the right we have the 2-category whose objects are morphisms in $D$, whose morphisms are squares in $D$ and whose 2-morphisms are cylinders bounded by these squares.
 
+### Formalizations
 
-This may be seen as the generalization to [[directed homotopy theory]] of what in [[homotopy theory]] is the maybe even more tautological fact, that a [[homotopy]] $\eta$ is a map
+
+For [[strict ∞-categories]] modeled as globular [[strict ∞-categories]] we have the following simple statement of the general principle.
+
++-- {: .un_Lemma}
+###### Obserrvation
+
+For $C,D \in Str n Cat$ and $F_1, F_2 : C \to D$ two strict $n$-functors, [[transfor]]mations $\eta : F_1 \Rightarrow F_2$ which are in components given by $n$-functors
 
 $$
-  \eta : C \times \Delta^1 \to 
+  \eta : C \to D^{G_1}
+$$
+
+are entirely specified by their underlying $(n-1)$-functors
+
+$$
+  \eta : C_{n-1} \to D^{G_1}
   \,.
 $$
 
-As with various other almost-tautologies in [[category theory]] they become interesting statements when realized in a concrete context where certain structures are modeled by $n$-[[functor categories]] for all $n$.
+=--
+
+For weak $n$-categories analogous statements hold, but may have a less straigghtforward formulation. What is always true is that the transformation $\eta$ is specified by its values on $(n-1)$-morphisms and will be functorial in a weak sense on these, but these $(n-1)$-morphisms alone will usually not form an $(n-1)$-category, since they will compose only up to $n$-morphisms.
+
+One way to bring the general case into the above simple form is to invoke models by [[semi-strict ∞-categories]]. By [[Simpson's conjecture]], every [[∞-category]] has a model in which everything is strict except possibly the [[identities]] and their unitalness [[coherence law]]s. This means that if $C$ is such a semistrict model of an $n$-category, then $C_{n-1}$ is an $(n-1)$-[[semicategory]] and the transformation
+
+$$
+  \eta : C_{n-1} \to D^{\Delta[1]}
+$$
+
+is an $n$-functor on that. (By naturalness we have that $\eta$ is guaranteed also to respect the weak identities in $C$ in some way, but that way is not so easy to formalize.)
+
+      
 
 
-### Its application to functorial QFT
+## Application in functorial QFT
 
 For instance in [[FQFT]] one models $n$-dimensional [[topological quantum field theories]] as [[(∞,n)-functor]]s on a flavor of an [[(∞,n)-category of cobordisms]]
 
@@ -196,9 +229,9 @@ $$
   B : Z \Rightarrow \mathbf{1}
 $$
 
-encode boundary _boundary conditions_ on cobordisms with boundary for the theory $Z$. Conversely, this means that one discovers on the boundary of the $n$-dimensional QFT $Z$ the $(n-1)$-dimensional QFT $B$.
+encode boundary _boundary conditions_ on cobordisms with boundary for the theory $Z$. Conversely, this means that one discovers on the boundary of the $n$-dimensional QFT $Z$ the $(n-1)$-dimensional QFT $B$. Or rather, this is the case if instead of [[natural transformation]]s $\eta$ one uses [[canonical transformation]]s: those component maps $\eta : C_{n-1} \to D^{I}$ that are required to be natural only with respect to the invertible $(n-1)$-morphisms in $C$.
 
-For the case of $n=2$ and 2-dimensional cobordisms without any extra structure, a detailed version of these statements are given in ([Schommer-Pries](#SchommerPries)). For $n=3$ some remarks are in ([Schreiber](#Schreiber))
+For the case of $n=2$ and 2-dimensional cobordisms without any extra structure, a detailed version of these statements are given in ([Schommer-Pries](#SchommerPries)). For $n=3$ and the holographic relation between [[Reshetikhin?Turaev model]] and rational 2d [[CFT]] in [[FFRS-formalism]] some remarks are in ([Schreiber](#Schreiber)).
 
 In the study of [[quantum field theory]] and [[string theory]] such kinds of relations between $n$-dimensional QFTs and $(n-1)$-dimensional QFTs on their boundary have been called the _[[holographic principle]]_ . The degree to which this principle has been formalized and the degree to which this formalization has been verified varies greatly. Examples include
 
