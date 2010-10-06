@@ -27,7 +27,7 @@ $$
         </munder>
         <mi>B</mi>
         <munderover>
-         <mo>&#8649;</mo>
+         <mo stretchy="true">&#8649;</mo>
          <mrow>
           <mspace width="1em"/>
           <mi>g</mi>
