@@ -79,7 +79,7 @@ The [[(∞,1)-topos]] of [[(∞,1)-sheaves]] on the [[site]] [[ThCartSp]] is dis
 
 The Cahiers topos was introduced in 
 
-* [[Eduardo Dubuc]], _Sur les modeles de la geometrie differentielle synthetique_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 3 (1979), p. 231-279  ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
+* [[Eduardo Dubuc]], _Sur les modeles de la geometrie differentielle synthetique_ [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 3 (1979), p. 231-279  ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
 
 and got its name from this journal publication. The definition appears in theorem 4.10 there, which asserts that it is a well-adapted model for [[synthetic differential geometry]].
 
