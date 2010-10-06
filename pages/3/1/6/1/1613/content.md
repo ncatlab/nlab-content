@@ -1,8 +1,29 @@
-#Idea#
 
-The FFRS-formalism (after Fjelstad, Fuchs, Runkel, Schweigert) is a [[state sum model]] description of the topological part of rational 2-dimensional [[conformal field theory]]:
 
-given a [[modular tensor category]] $C$ it produces a 2-dimensional [[TQFT]] which is such that
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The FFRS-formalism (after Fjelstad, Fuchs, Runkel, Schweigert) is a [[state sum model]] description of the topological part of rational 2-dimensional [[conformal field theory]].
+
+It proceeds by constructing a kind of [[holographic principle of higher category theory|boundary field theory]] to the [[Reshetikhin-Turaev construction]]: given a [[modular tensor category]] $C$ the a 2-dimensional [[TQFT]] which is such that
 
 * if the MTC $C$ is equivalent to a [[representation category]] of a [[vertex operator algebra]], one can construct an identification of the linear map assigned by the construction to a surface to an element in the space of [[conformal block]]s of that surface.
 
@@ -11,7 +32,7 @@ given a [[modular tensor category]] $C$ it produces a 2-dimensional [[TQFT]] whi
 
 [[FFRSStbl.gif:pic]]
 
-#References#
+## References
 
 for the list of references see
 
@@ -24,3 +45,5 @@ a survey of the central theorem that the FRS construction solves the sewing cons
 and a discussion of the converse, that every rarional 2-d CT is obtained this way is at
 
 * [FFRS on uniqueness of conformal field theory](http://golem.ph.utexas.edu/category/2007/01/ffrs_on_uniqueness_of_conforma.html)
+
+[[!redirects Fuchs-Runkel-Schweigert construction]]
