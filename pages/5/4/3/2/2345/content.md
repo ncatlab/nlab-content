@@ -8,6 +8,16 @@
 =--
 =--
 
+* [[functor]]
+
+* **2-functor** / [[pseudofunctor]]
+
+* [[n-functor]]
+
+* [[(∞,1)-functor]]
+
+***
+
 #Contents#
 * table of contents
 {:toc}
