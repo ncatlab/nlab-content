@@ -22,18 +22,149 @@
 
 ### The general abstract principle
 
-In [[higher category theory]] it is a tautological fact that a $1$-[[transfor]]mation $\lambda$ between [[n-functor]]s $F,G : C \to D$ between [[n-categories]] $C$ and $D$
+In [[higher category theory]] it is a tautological fact that a $1$-[[transfor]]mation $\lambda$ between [[n-functor]]s $F_1,F_2 : C \to D$ between [[n-categories]] $C$ and $D$
 
 $$
-  \lambda : F \Rightarrow G
+  \lambda : F_1 \Rightarrow F_2
 $$
 
 is itself, in components, given by an $(n-1)$-functor
 
 $$
-  \eta : sk_{n-1} C \to D^{\Delta^1}
-  \,.
+  \eta : \mathbf{sk}_{n-1} C \to D^{\Delta^1}
 $$
+
+on the $(n-1)$-[[simplicial skeleton|skeleton]]. For instance
+
+* a [[natural transformation]] $\eta$ between [[functor]]s $F_1,F_2 : C \to D$ between ordinary [[categories]] is in components just a [[function]]
+
+  $$
+    \eta : Obj(C) \to Mor(D)
+  $$
+
+  that sends [[object]]s of $C$ to [[morphism]]s in $D$
+
+  $$
+    \eta : x \mapsto ( F_1(x) \stackrel{\eta(x)}{\to}  F_2(x))
+    \,.
+  $$
+
+  Because by naturality and the fact that there are no nontrivial [[2-morphism]]s in $D$, it follows that this already uniquely extends to a functor $C \to Arr(D)$:
+
+  $$
+    \eta : 
+    \left(
+      \array{
+        x 
+        \\
+        \downarrow^{\mathrlap{\gamma_1}}
+        \\
+        y
+        \\
+        \downarrow^{\mathrlap{\gamma_2}}
+        \\
+        z
+      }
+    \right)
+    \;\;\;
+    \mapsto
+    \;\;\;
+    \left(
+      \array{
+        F_1(x) &\stackrel{\eta(x)}{\to}& F_2(x)
+        \\
+        {}^{\mathllap{F_1(f)}}\downarrow
+         &=& 
+        \downarrow^{\mathrlap{F_2(f)}}
+        \\
+        F_1(y) &\stackrel{\eta(y)}{\to}& F_2(y)
+        \\
+        {}^{\mathllap{F_1(g)}}\downarrow
+          &=& 
+        \downarrow^{\mathrlap{F_2(g)}}
+        \\
+        F_1(z) &\underset{\eta(z)}{\to}& F_2(z)
+      }
+    \right)
+    \,.    
+  $$
+
+
+  So we may regard the component function of $\eta$ as a [[0-functor]]
+
+  $$
+    \eta : \mathbf{sk}_0 C = Obj(C) \to D^{\Delta[1]} = Arr(D)
+  $$
+
+  from the [[discrete category]] on the set of objects of $C$ to the [[arrow category]] of $D$.
+
+* a [[pseudonatural transformation]] $\eta$ between (strict, say, for ease of of notation) [[2-functor]]s $F_1,F_2 : C \to D$ between ([[strict 2-category|strict]], for simplicity) [[2-categories]] is in components a 1-[[functor]] that functorially assigns pseudonaturality squares:
+
+  $$
+    \eta : 
+    \left(
+      \array{
+        x 
+        \\
+        \downarrow^{\mathrlap{\gamma_1}}
+        \\
+        y
+        \\
+        \downarrow^{\mathrlap{\gamma_2}}
+        \\
+        z
+      }
+    \right)
+    \;\;\;
+    \mapsto
+    \;\;\;
+    \left(
+      \array{
+        F_1(x) &\stackrel{\eta(x)}{\to}& F_2(x)
+        \\
+        {}^{\mathllap{F_1(f)}}\downarrow
+         &\swArrow_{\eta(f)}& 
+        \downarrow^{\mathrlap{F_2(f)}}
+        \\
+        F_1(y) &\stackrel{\eta(y)}{\to}& F_2(y)
+        \\
+        {}^{\mathllap{F_1(g)}}\downarrow
+          &\swArrow_{\eta(g)}&
+        \downarrow^{\mathrlap{F_2(g)}}
+        \\
+        F_1(z) &\underset{\eta(z)}{\to}& F_2(z)
+       }
+    \right)    
+  $$
+
+  We may regard this as a 1-functor
+
+  $$
+    \eta : \mathbf{sk}_1 C \to Arr(D)
+  $$
+
+  from the underlying 1-category of $C$ to the arrow dategory of $D$, whose objects are morphisms in $D$, whose morphisms are squares in $D$, and whose composition is [[pasting]] of such squares (see [[double category]] for details).
+
+
+
+* A transformation between 3-functors is in components a  [[2-functor]] that sends [[2-morphism]]s in $C$ to cyclinders in $D$. This is shown in the $(n=3)$-row of the following diagram
+
+  <img width = "550" src="http://www.math.uni-hamburg.de/home/schreiber/pics/koh.gif" alt="components of transformations" />
+
+
+  The pseudonaturality condition on $\eta$, which is componentwise the equation
+
+  <img width = "550" src="http://www.math.uni-hamburg.de/home/schreiber/pics/natthree.gif" alt="2-pseudonaturality" />
+
+  and the fact that there are only identity 3-morphisms in $D$ implies that this already uniquely extends to a 2-functor
+
+  $$  
+    \eta : C \to Arr(D)
+    \,,
+  $$
+
+  where on the right we have the 2-category whose objects are morphisms in $D$, whose morphisms are squares in $D$ and whose 2-morphisms are cylinders bounded by these squares.
+
 
 This may be seen as the generalization to [[directed homotopy theory]] of what in [[homotopy theory]] is the maybe even more tautological fact, that a [[homotopy]] $\eta$ is a map
 
@@ -102,6 +233,6 @@ Remarks on how the relation between Reshitikhin-Turaev and FSR seem to have an i
 * [[Urs Schreiber]], _Towards 2-functorial CFT_ ([blog entry](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html))
 {#Schreiber}
 
-There is it discussed how the basic [[string diagram]] that in FSR formalism encodes a field insertion on, possibly, a defect line and encodes the disk amplittudes of the CFT is the string diagram Poincar&#233;-dual to the cylinder in a 3-category of [[n-vector space|3-vector space]]s.
+There is it discussed how the basic [[string diagram]] that in FSR formalism encodes a field insertion on, possibly, a defect line and encodes the disk amplittudes of the CFT is the string diagram Poincar&eacute;-dual to the cylinder in a 3-category of [[n-vector space|3-vector space]]s.
 
 For references on the [[holographic principle]] in QFT, see there
