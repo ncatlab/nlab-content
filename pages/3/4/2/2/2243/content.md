@@ -8,6 +8,8 @@
 
 * [[fiber sequence]]/long sequence in cohomology
 
+  * [[principal ∞-bundle]], [[associated ∞-bundle]]
+
 ### Special and general types ###
 
 * [[chain homology and cohomology|cochain cohomology]]
