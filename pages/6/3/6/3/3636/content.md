@@ -102,34 +102,156 @@ The end space behaves a bit like a $\pi_0$ and usually spaces will have many end
 
 ###First attempt###
 We could try defining $\pi_1(\varepsilon(X))$ as a progroup, then taking its limit.  For this we would take $\{K_n\}$ an exhausting increasing sequence of compact subsets and setting $U_i = X\setminus K_i$, pick a base point $x_i$ in each $U_i$, and we will get groups $\pi_1(U_i,x_i)$.  We however need induced homomorphisms $\pi_1(U_{i+1},x_{i+1})\to \pi_1(U_i,x_i)$, and for this we have to choose an arc in $U_i$ from $x_{i+1}$ to $x_i$.  We can combine these to get a _base ray_, rather than a _base point_,  that is, we need a proper map, $\alpha : [0,\infty)\to X$.  With that we do get an inverse sequence of groups, but there are problems.  What is the dependence of the inverse system on the choice of $\alpha$?
-<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink" se:nonce="86885">
- <g>
-  <title>Layer 1</title>
-  <use x="1203.639282" y="868.198853" transform="translate(100.832, 109.273) scale(1, 0.905592) translate(-100.832, -109.273) translate(100.832, 109.273) scale(1.27683, 1) translate(-100.832, -109.273) translate(480.129, 395.262) scale(1.24647, 1.25993) translate(-480.129, -395.262) translate(175.832, 168.273) scale(0.918502, 1.4277) translate(-175.832, -168.273) translate(175.832, 168.273) scale(0.904449, 0.691289) translate(-175.832, -168.273) translate(175.828, 168.273) scale(2.92331, 3.53877) translate(-175.828, -168.273) matrix(0.152039, 0, 0, 0.152039, 0, 0)" id="svg_86885_2" xlink:href="#svg_86885_1"/>
- </g>
- <defs>
-  <symbol id="svg_86885_1" height="744.09448" width="1052.3622">
-   <metadata id="metadata7">image/svg+xml</metadata>
-   <g id="layer1">
-    <path fill="#ffe6d5" fill-rule="evenodd" stroke="#000000" stroke-width="1px" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" transform="translate(-64.6405, 239.242)" d="m202.857147,254.094482a34.285709,61.42857 0 1 1 -68.571442,0a34.285709,61.42857 0 1 1 68.571442,0z" id="path2383"/>
-    <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="1px" id="path2387" d="m99.624733,432.649414c516.747887,-148.801788 516.747887,-148.801788 516.747887,-148.801788l1.352783,-1.352722"/>
-    <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="1px" id="path2389" d="m110.77491,553.753906l518.100639,-217.791656"/>
-    <path fill="#fffdfe" fill-rule="evenodd" stroke="#000000" stroke-width="1px" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" transform="matrix(0.814331, 0, 0, 0.822406, 49.4903, 147.729)" d="m202.857147,254.094482a34.285709,61.42857 0 1 1 -68.571442,0a34.285709,61.42857 0 1 1 68.571442,0z" id="path2391"/>
-    <path fill="#fffdfe" fill-rule="evenodd" stroke="#000000" stroke-width="1px" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" id="path3163" d="m202.857147,254.094482a34.285709,61.42857 0 1 1 -68.571442,0a34.285709,61.42857 0 1 1 68.571442,0z" transform="matrix(0.64873, 0, 0, 0.745549, 177.364, 142.388)"/>
-    <path fill="#fffdfe" fill-rule="evenodd" stroke="#000000" stroke-width="1px" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" transform="matrix(0.676825, 0, 0, 0.687266, 257.281, 136.872)" d="m202.857147,254.094482a34.285709,61.42857 0 1 1 -68.571442,0a34.285709,61.42857 0 1 1 68.571442,0z" id="path3165"/>
-    <path fill="#fffdfe" fill-rule="evenodd" stroke="#000000" stroke-width="1px" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" id="path3167" d="m202.857147,254.094482a34.285709,61.42857 0 1 1 -68.571442,0a34.285709,61.42857 0 1 1 68.571442,0z" transform="matrix(0.614871, 0, 0, 0.637115, 343.53, 131.201)"/>
-    <path fill="#fffdfe" fill-rule="evenodd" stroke="#000000" stroke-width="1px" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" transform="matrix(0.566765, 0, 0, 0.586908, 423.618, 126.502)" d="m202.857147,254.094482a34.285709,61.42857 0 1 1 -68.571442,0a34.285709,61.42857 0 1 1 68.571442,0z" id="path3169"/>
-    <path fill="#fffdfe" id="path3173" d="m-46.161949,467.045288l0,-198.002533l206.970024,0.0047l206.970032,0.004669l-2.484406,1.156708c-14.808228,6.894592 -21.974426,37.255829 -14.625671,61.965179c1.498749,5.039337 4.11319,10.318848 7.0336,14.203339c2.326538,3.094574 7.076477,6.694763 9.462433,7.171936c0.7323,0.146454 1.331451,0.413971 1.331451,0.594452c0,0.234344 -54.170319,16.075165 -73.22287,21.412292c-0.42099,0.11792 0.502686,-1.118256 2.052612,-2.74704c5.094696,-5.354034 9.188965,-15.432678 11.164307,-27.482635c1.157166,-7.059204 1.059723,-20.816772 -0.198212,-27.978638c-2.105103,-11.985046 -5.583221,-20.497711 -10.621399,-25.996002c-15.426971,-16.835815 -33.526337,4.953644 -33.511719,40.344025c0.005859,14.154419 2.261627,24.816406 7.285522,34.435211c3.178833,6.086212 7.049622,9.829559 11.841827,11.451874l2.265259,0.766846l-42.822235,12.315186c-23.552216,6.773376 -43.014847,12.31012 -43.25029,12.303925c-0.235428,-0.006195 0.662048,-1.16391 1.994415,-2.572693c6.005402,-6.349823 10.374054,-16.376343 12.614334,-28.951294c1.394638,-7.828339 1.396729,-21.45163 0.004471,-29.227173c-2.056427,-11.48468 -5.674393,-20.579041 -10.785599,-27.111389c-9.808899,-12.536194 -23.298584,-12.531433 -33.112885,0.011658c-16.640549,21.267365 -15.604706,66.781738 1.943268,85.385468c2.997681,3.17804 5.476471,4.898621 8.860687,6.150452l2.61261,0.966431l-4.047409,1.220459c-7.142929,2.15387 -77.11274,22.213165 -80.204086,22.993317c-8.860176,2.235962 -16.251457,9.356842 -21.896736,21.095612c-5.694199,11.840515 -8.361,24.73288 -8.361,40.420319c0,15.527374 2.740265,28.766754 8.373726,40.457062c7.523247,15.612 18.667213,23.374878 30.365898,21.152893c177.877182,-49.187134 361.230423,-126.223846 521.298721,-218.84021c0.006775,-0.328796 -0.235779,-0.597809 -0.538879,-0.597809c-0.303223,0 -108.792053,46.003479 -248.100983,104.568176c-139.308975,58.564697 -259.458694,108.509369 -259.984779,108.650055c-0.650909,0.174011 -0.212395,-0.523071 1.37249,-2.18158c3.228477,-3.37854 5.168472,-6.218262 7.896103,-11.55835c13.37738,-26.189575 11.800735,-66.417114 -3.505447,-89.440887c-4.48439,-6.745483 -11.014824,-11.980438 -16.744446,-13.42276l-2.928421,-0.737183l41.390076,-11.891388c22.764542,-6.540283 43.865112,-12.621002 46.890152,-13.512756c3.02504,-0.891754 99.188187,-28.594788 213.695908,-61.562286c115.294861,-33.194153 208.527771,-60.272858 208.939697,-60.684784c1.01709,-1.01712 0.347046,-2.100555 -0.732056,-1.183685c-0.653809,0.555481 -86.983948,25.697784 -88.233459,25.696564c-0.219604,-0.000183 0.462341,-0.979279 1.515503,-2.17572c1.053162,-1.196442 2.771667,-3.940491 3.818909,-6.0979c3.446716,-7.100372 5.015503,-14.813446 5.005005,-24.607605l-0.006775,-6.337036l118.545776,0l118.545837,0l0,198.002533l0,198.002502l-411.070435,0l-411.070457,0l0,-198.002502z"/>
-    <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="1px" id="path3195" d="m113.82753,434.17749l491.658432,-143.480072"/>
-    <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="1px" id="path3211" d="m272.612152,391.133484c154.001953,93.740295 154.001953,93.740295 154.001953,93.740295"/>
-    <path fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="1px" id="path3213" d="m486.875763,449.482025l-6.69574,-8.608795"/>
-    <text font-size="16px" font-style="normal" font-weight="normal" text-anchor="start" fill="#000000" stroke-width="1px" font-family="Bitstream Vera Sans" id="text3215" y="501.135" x="401.744" xml:space="preserve">
-     <tspan y="501.135" x="401.744" id="tspan3217">base ray</tspan>
-    </text>
-   </g>
-  </symbol>
- </defs>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="560.23041"
+   height="312.2442"
+   id="svg2406"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="cylinder.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs2408">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2414" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.55625"
+     inkscape:cx="762.19162"
+     inkscape:cy="154.01741"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1152"
+     inkscape:window-height="701"
+     inkscape:window-x="0"
+     inkscape:window-y="22" />
+  <metadata
+     id="metadata2411">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-79.884809,-93.576859)">
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path2383"
+       sodipodi:cx="168.57143"
+       sodipodi:cy="254.09448"
+       sodipodi:rx="34.285713"
+       sodipodi:ry="61.42857"
+       d="M 202.85714,254.09448 A 34.285713,61.42857 0 1 1 134.28571,254.09448 A 34.285713,61.42857 0 1 1 202.85714,254.09448 z"
+       transform="translate(-53.900904,89.798016)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 110.36437,283.20569 C 627.11227,134.40393 627.11227,134.40393 627.11227,134.40393 L 628.46501,133.05119"
+       id="path2387" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 121.51454,404.3102 L 639.61519,186.51853"
+       id="path2389" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path2391"
+       sodipodi:cx="168.57143"
+       sodipodi:cy="254.09448"
+       sodipodi:rx="34.285713"
+       sodipodi:ry="61.42857"
+       d="M 202.85714,254.09448 A 34.285713,61.42857 0 1 1 134.28571,254.09448 A 34.285713,61.42857 0 1 1 202.85714,254.09448 z"
+       transform="matrix(0.8143313,0,0,0.8224064,60.410706,-1.7353843)" />
+    <path
+       transform="matrix(0.6487302,0,0,0.7455493,188.19371,-6.6397643)"
+       d="M 202.85714,254.09448 A 34.285713,61.42857 0 1 1 134.28571,254.09448 A 34.285713,61.42857 0 1 1 202.85714,254.09448 z"
+       sodipodi:ry="61.42857"
+       sodipodi:rx="34.285713"
+       sodipodi:cy="254.09448"
+       sodipodi:cx="168.57143"
+       id="path3163"
+       style="opacity:1;fill:#fffdfe;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#fffdfe;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3165"
+       sodipodi:cx="168.57143"
+       sodipodi:cy="254.09448"
+       sodipodi:rx="34.285713"
+       sodipodi:ry="61.42857"
+       d="M 202.85714,254.09448 A 34.285713,61.42857 0 1 1 134.28571,254.09448 A 34.285713,61.42857 0 1 1 202.85714,254.09448 z"
+       transform="matrix(0.676825,0,0,0.6872657,267.99957,-12.600074)" />
+    <path
+       transform="matrix(0.614871,0,0,-0.6371152,352.77903,305.95506)"
+       d="M 202.85714,254.09448 A 34.285713,61.42857 0 1 1 134.28571,254.09448 A 34.285713,61.42857 0 1 1 202.85714,254.09448 z"
+       sodipodi:ry="61.42857"
+       sodipodi:rx="34.285713"
+       sodipodi:cy="254.09448"
+       sodipodi:cx="168.57143"
+       id="path3167"
+       style="opacity:1;fill:#fffdfe;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.04990613px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 276.5261,236.44499 C 437.3288,335.40514 437.3288,335.40514 437.3288,335.40514"
+       id="path3211"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="412.48389"
+       y="351.69116"
+       id="text3215"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3217"
+         x="412.48389"
+         y="351.69116">base ray</tspan></text>
+    <path
+       transform="matrix(0.5637487,0,0,-0.5562563,430.14511,269.36854)"
+       d="M 202.85714,254.09448 A 34.285713,61.42857 0 1 1 134.28571,254.09448 A 34.285713,61.42857 0 1 1 202.85714,254.09448 z"
+       sodipodi:ry="61.42857"
+       sodipodi:rx="34.285713"
+       sodipodi:cy="254.09448"
+       sodipodi:cx="168.57143"
+       id="path2450"
+       style="opacity:1;fill:#fffdfe;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+  </g>
 </svg>
+
 
 Let $X$ be an infinite cylinder with an infinite string of circles attached via a proper ray $\alpha: [0,\infty) \to X$. 
 The space has just one 'end' but you can choose different ways of going from $\pi_1(U_{i+1},x_{i+1})$ to $\pi_1(U_i,x_i)$ for fairly obvious choices of  base points such that the limit groups of the resulting two inverse systems are non-isomorphic! (In the survey listed below, this example is examined in detail, and one of the limits is a free group on one element, the other is trivial! Definitely non-isomorphic!)
@@ -139,7 +261,7 @@ This means that $lim \pi_1(\varepsilon(X))$ is not an invariant of the end. This
 
 ###Waldhausen Boundary###
 
-If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set $\mathbb{P}(X,Y)$ with $\mathbb{P}(X,Y)_n = P(X\times \Delta^n,Y)$, which acts as if it was the singular complex of the mythical space of proper maps from $X$ to $Y$.
+If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set $\mathbb{P}(X,Y)$ with $\mathbb{P}(X,Y)_n = P(X\times \Delta^n,Y)$, which acts as if it was the _singular complex of the mythical space of proper maps from $X$ to $Y$_.
 
 ####Definition####
 The **Waldhausen boundary** of $X$ is the simplicial set $\mathbb{P}([0,\infty),X)$.
