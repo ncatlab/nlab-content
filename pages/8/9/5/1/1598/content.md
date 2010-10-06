@@ -93,7 +93,7 @@ and a finite snumber o
 * [[exceptional Lie group]]s
 
 
-### Number of Lie group structures
+### Different Lie group structures on a group
 
 For $G$ a bare [[group]] (without smooth structure) there may be more than one way to equip it with the [[stuff, structure, property|structure]] of a Lie group.
 
@@ -105,6 +105,12 @@ As bare [[abelian group]]s, the  [[Cartesian space]]s $\mathbb{R}^n$ are, for al
 Therefore these are all [[isomorphic]] as bare group. But equipped with their canonical Lie group structure (as in the [Examples](#Examples)) they are of course not isomorphic.
 
 =--
+
+### Different topologies on a Lie group
+
+* Linus Kramer, _The topology of a simple Lie group is essentially unique_, ([arXiv](http://arxiv.org/abs/1009.5457))
+
+> Abstract: We study locally compact group topologies on simple Lie groups. We show that the Lie group topology on such a group $S$ is very rigid: every 'abstract' isomorphism between $S$ and a locally compact and $\sigma$-compact group $\Gamma$ is automatically a homeomorphism, provided that $S$ is absolutely simple. If $S$ is complex, then non-continuous field automorphisms of the complex numbers have to be considered, but that is all. 
 
 
 
