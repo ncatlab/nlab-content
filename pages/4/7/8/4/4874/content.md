@@ -40,4 +40,10 @@ A proof can be found in Crowell and Fox (page 7).
 
 Once given such a projection one can construct a diagram from it in the manner sketched out at the top of the page. 
 
+##Link diagrams
+
+The above discussion can be easily extended to handle [[links]] as well as knots.
+
 [[!redirects knot diagrams]]
+[[!redirects link diagram]]
+[[!redirects link diagrams]]
