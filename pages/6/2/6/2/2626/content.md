@@ -32,7 +32,7 @@ Knots that are ambient isotopic are often said to have the *same knot type* or t
 
 ## Example
 
-The trefoil knot is the simplest non-trivial knot.  In its simplest respresentation it has three crossings.  It is a [[torus knot]], that is it can be embedded on the surface of a solid torus,itself embedded in $S^3$. Here is a picture:
+The trefoil knot is the simplest non-trivial knot.  In its simplest representation, it has three crossings.  It is a [[torus knot]], that is it can be embedded on the surface of a solid torus,itself embedded in $S^3$. Here is a picture:
 
 <svg width="473" height="436" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="10729">
  <g>
