@@ -37,6 +37,11 @@ $$\check{H}_n(X) = Lim H_n(X,\alpha)$$
 
 where the limit is taken over all open covers of $X$.
 
-It is to be noted that these groups do not constitute a homology theory in the sense of the Eilenberg-Steenrod axioms as the _exactness axiom_ fails in general.
-[[!redirects Čech method]]
-[[!redirects Cech method]]
+It is to be noted that these groups do not constitute a homology theory in the sense of the Eilenberg-Steenrod axioms as the _exactness axiom_ fails in general. There is a "corrected" theory known under the name [[strong homology]]. 
+
+## Literature and links
+
+See also [[Čech methods]].
+
+[[!redirects Čech homology theory]]
+[[!redirects Cech homology]]
