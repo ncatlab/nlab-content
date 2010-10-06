@@ -27,11 +27,15 @@
 
     * [[vertex operator algebra]]
 
-  * [[TCFT]]
+  * [[TQFT]]
 
-    * [[A-model]], [[B-model]], [[Gromov-Witten theory]]
+    * [[Reshetikhin?Turaev model]] / [[Chern-Simons theory]]
 
-    * [[homological mirror symmetry]]
+    * [[TCFT]]
+
+      * [[A-model]], [[B-model]], [[Gromov-Witten theory]]
+
+      * [[homological mirror symmetry]]
 
   * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
