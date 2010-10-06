@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -21,7 +21,7 @@
 
 The _Reidemeister moves_ are local changes to [[knot]] or [[link]] [[knot diagram|diagrams]].  
 
-These moves were given in the book by [Reidemeister](#Reidemeister) 
+These moves were given in the book by [Reidemeister](#Reidemeister).
 
 
 ## Definition
@@ -31,9 +31,10 @@ We define the Reidemeister moves in terms of link diagrams
 The conventions are that part of the diagram is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged and that no other part of the diagram appears at the crossings that are changed by that move. 
 
 
-**Note.** In manipulating a link diagram, the changes obtained by elongating part of the diagram, rotating it, etc., are not counted as changing the structure of the diagram provided they do not change any crossing,and so they may be done without comment.  The 'moves' outlined here do change things locally near crossings.
-
-
++-- {: .un_remark}
+###### Note
+In manipulating a link diagram, the changes obtained by elongating part of the diagram, rotating it, etc., are not counted as changing the structure of the diagram provided they do not change any crossing,and so they may be done without comment.  The 'moves' outlined here do change things locally near crossings.
+=--
 
 
 ### First Reidemeister moves
@@ -61,11 +62,17 @@ are interchangable, (plus another with the opposite twist);
 
 ## Properties
 
-**Theorem** Two [[knot diagram]]s correspond to isotopic knots precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
++-- {: .un_theorem}
+###### Theorem
+Two [[knot diagram]]s correspond to isotopic knots precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
+=--
+
 
 ## References
 
 * Reidemeister, _Knotentheorie_ , Ergebnisse der Mathematik (1932)
+{#Reidemeister}
+
 
 [[!redirects Reidemeister move]]
 [[!redirects Reidemeister moves]]
