@@ -2,11 +2,23 @@
 
 ## Basic principles
 
-* [[k-morphism]]
+* [[k-morphism]], [[coherence]]
 
-* [[coherence]]
+* [[homotopy hypothesis]]-theorem
 
-## Definitions
+* [[delooping hypothesis]]-theorem
+
+* [[periodic table]]
+
+* [[stabilization hypothesis]]-theorem
+
+* [[michaelshulman:exactness hypothesis]]
+
+* [[holographic principle of higher category theory|holographic principle]]
+
+
+
+## Models
 
 * [[(n,r)-category]]
 
@@ -154,6 +166,7 @@
 * [[stable (∞,1)-category]]
 
 * [[(∞,1)-topos]]
+
 
 ## 1-categorical models
 
