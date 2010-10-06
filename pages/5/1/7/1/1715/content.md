@@ -1,4 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+* [[functor]]
+
+* [[2-functor]] / [[pseudofunctor]]
+
+* **$n$-functor**
+
+* [[(∞,1)-functor]]
+
+***
+
 # Higher functors
 * table of contents
 {: toc}
