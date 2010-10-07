@@ -13,41 +13,47 @@
 =--
 =--
 
+* **category theory**
+
+* [[2-category theory]]
+
+* [[(∞,1)-category theory]]
+
+* [[higher category theory]]
+
+***
+
 
 #Contents#
 * tic
 {:toc}
 
 
-#Idea#
+## Idea
 
-+-- {: .un_remark}
-###### Origin ####
-Category theory was introduced by [[Samuel Eilenberg]] and [[Saunders Mac Lane]] in the 1945 paper **General theory of natural equivalences**. The reason for introducing [[category|categories]] was to introduce [[functor]]s, and the reason for introducing functors was to introduce [[natural transformation]]s (more specifically natural equivalences) in order to define what _natural_ means in mathematics. 
-
-The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
-=--
+_Category theory_ is a toolset for describing the general abstract structures in [[mathematics]]. 
 
 +-- {: .un_remark}
 ###### Paradigm ####
-The basic idea of category theory is to shift attention from the study of [[object]]s to the study of _maps_ or _relations_ between objects: of (homo)[[morphism]]s between objects. 
+
+The basic difference between category theory and [[set theory]] is that category theory focuses not on elements -- called [[object]]s -- but on the _relations_ between these objects: the ([[homomorphism|homo]])[[morphism]]s between them.
+
+This is the first in a sequence of steps. The next one leads from category theory to [[2-category theory]] which focuses on [[2-morphisms]]: morphisms between morphisms. Eventually this leads to [[higher category theory]], where one considers [[k-morphism]]s ad infinitum.
+
 =--
 
+The concept that formalizes this is that of a [[category]]: a collection of arrows/morphism that can be [[composition|composed]] if they are adjacent.
 
 +-- {: .un_remark}
 ###### Examples ####
-The archetypical example of a category is the category [[Set]] of [[set]]s and functions between sets. 
+The archetypical example of a category is the category [[Set]] of [[set]]s and [function]]s between sets. 
 
 The classical examples of categories are [[concrete category|concrete categories]] whose [[object]]s are [[stuff, structure, property|sets with extra structure]] and whose [[morphism]]s are structure preserving functions of sets, such as [[Top]], [[Grp]], [[Vect]].  These are the examples from which the term _category_ derives: these categories literally _categorize_ mathematical structures by packing structures of the same _type_ (same category) and structure preserving mappings between them into a single whole structure, a category.
 
 But by far not all categories are of this type and categories are much more versatile than these classical examples suggest. After all, a [[category]] is just a [[directed graph]] with a notion of composition of its edges. As such it generalizes the concepts of [[monoid]] and [[poset]]. If the category is a [[groupoid]] it generalizes the concept of [[group]] (in a sense called [[horizontal categorification]]).  Thinking of a category as a generalized poset is particularly useful when studying [[limits]] and [[adjoint functors|adjunctions]].
 
 Archetypical examples of non-[[concrete category|concrete]] categories are the [[fundamental groupoid]] of a [[topological space]] and the [[fundamental category]] of a [[directed space]]. 
-=--
 
-+-- {: .un_remark}
-###### Category theory pointing beyond itself ####
-These latter examples already pave the way to the [[homotopy hypothesis]], to the unification between category theory and [[homotopy theory]] in [[Higher Topos Theory|(∞,1)-category theory]] and thereby to [[higher category theory]]. 
 =--
 
 
@@ -68,7 +74,9 @@ However, the [[category|categories]] of category theory are way more general tha
 
 +-- {: .un_remark}
 ###### Conceptual unification ####
+
 One major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal construction]]s in categories, such as [[representable functor]]s, [[adjoint functor]]s  and [[limit]]s, turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
+
 =--
 
 +-- {: .un_remark}
@@ -81,58 +89,49 @@ This abstraction power of category theory has led Norman Steenrod to coin the te
 But abstract nonsense still tends to meet with some resistance. In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
 >A number of sophisticated people tend to disparage category theory as consistently as others disparage certain kinds of classical music. When obliged to speak of a category they do so in an apologetic tone, similar to the way some say, "It was a gift &#8211; I've never even played it" when a record of Chopin Nocturnes is discovered in their possession. For this reason I add to the usual prerequisite that the reader have a fair amount of mathematical sophistication, the further prerequisite that he have no other kind.
+
 =--
 
+## The central constructions
 
-#What is category theory?#
+Elementary as it is, the definition of a [[category]] supports a powerful set of constructions: [[universal construction]]s. These include
 
-**Category theory** is so useful because it can be seen from so many perspectives.
+* [[limit]]s and [[colimit]];
 
-##In the narrow sense##
+* [[adjunction]];
 
-* The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
+* [[Kan extension]]
 
-* Categories may be regarded as 1-dimensional [[directed space]]s. 
+* [[end]]s and [[coend]]s.
 
-  A precise version of this statement is obtained in the sense of the [[homotopy hypothesis]]: this asserts that [[infinity-groupoid|∞-groupoids]] are the same as (nice) [[topological space|space]]s. It is in this sense that [[(infinity,1)-category|(∞,1)-categories]] are like (nice) [[directed space]]s. (One may take this as the _definition_ of nice directed space.) An ordinary category is precisely an [[(∞,1)-category]] in which all [[k-morphism]]s of dimension $k \gt 1$ are trivial in some precise manner. So it is in this sense that categories are precisely the 1-dimensional (nice) directed spaces.
+All these are special cases of each other and thus reflect different aspect of one single phenomenon. Applying category theory means applying these constructions in specific situations and using general abstract theorems for deducing statements about concrete contexts.
 
-* A theory of **[[universe|universes]]** in which mathematics can be done. Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of $Set$, a category is a universe inside which mathematics may take place.
+## The central theorems
 
-* A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
+Category theory has a handful of central lemmas and theorems. Their proof is typically easy, sometimes almost tautological. Their power rests in the fact that they apply over and over again all over mathematics. Many concrete constructions get simplified by observing that they are but special realizations of these general abstract results in category theory. These central theorems are
 
-* A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
+* first and foremost: the [[Yoneda lemma]]
 
-* A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
+* [[Tannaka duality]]
 
-* The theory of [[directed graph|directed multipseudographs]] with a [[composition]] law and identity loops. This has given rise to the heavy use of diagrams in category theory.
+* [[Isbell duality]]
 
-* A theory of [[type theory|type theories]]. See objects as types and morphisms as mappings between types. Every category\'s [[internal language]] is a type theory and every type theory of appropriate form defines a category, the type theory\'s [[free model]].
+* the [[Grothendieck construction]]
 
-* A theory of [[deductive system]]s. By assimilating a category\'s objects to statements or formulas and morphisms to deductions (or proofs), a category can be presented equationally as a certain kind of deductive system (with an equivalence relation on deductions).
+* the [[adjoint functor theorem]]
 
-* A theory of possibly large [[simplicial sets]] presented by [[class]]-valued [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$. These possibly large simplicial sets must also satisfy the [[Segal condition]]: $X$ a possibly large simplicial set &#8658; the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and that the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor that constructs a category\'s nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and possibly large simplicial sets as its codomain).
-
-  The category corresponding to a possibly large simplicial set
-is constructed as: objects are $0$-simplexes, morphisms are formal composites of $1$-simplexes,
-and $n$-simplexes for $n \geq 2$ force various equalities between morphisms by interpreting $2$-simplexes as commutative triangles, $3$-simplexes as commutative tetrahedra, and so on. Composition in the category is modeled in the possibly large simplicial set by the "middle" face operator which in functorial language is $X(f)$, where $f$ is the monomorphism in $\Delta$ from the $2$-element ordinal to the $3$-element ordinal that leaves out the middle element. This equivalence transports in principle anything non-[[evil]] between [[Cat]] and the possibly large simplicial sets satisfying the two conditions above.
-
-* A theory of [[Cat]], the $2$-[[2-category|category]] of categories. This is axiomatized in Lawvere\'s [[ETAC]].
+* the [[monadicity theorem]].
 
 
-##In the wide sense##
+## History
 
-* A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets. One limited way is to see [[topos|toposes]] as a foundation of mathematics. By simply replacing the category Set by a topos, since they are modeled after Set. For a broader foundation more sophisticated structures are needed such as higher dimensional categories. 
+Category theory was introduced by [[Samuel Eilenberg]] and [[Saunders Mac Lane]] in the 1945 paper **General theory of natural equivalences**. The reason for introducing [[category|categories]] was to introduce [[functor]]s, and the reason for introducing functors was to introduce [[natural transformation]]s (more specifically natural equivalences) in order to define what _natural_ means in mathematics. 
 
-* A unifying tool and language in [[mathematics]]. Most of mathematics (especially modern mathematics) can be regarded as category theory since it is related to category theory in the way that different objects (and mappings between them) studied in different branches of mathematics form categories. Other structures used in categore theory also appear throughout mathematics.
-
-* An organizational tool in [[mathematics]].
-
-* An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
-
-Some would define category theory as the human activity of [category theorists](http://ncatlab.org/nlab/list/people).
+The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
 
 
-#Branches of category theory#
+
+## Branches of category theory
 
 A probably incomplete list is:
 
@@ -152,112 +151,14 @@ Most of these include some [[higher category theory]].
 An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
 
 
-#Main principles#
-
-##Equality vs isomorphism vs equivalence##
-
-+-- {: .query}
-I disagree that this is the *main* principle of category theory.  This is an important principle, but how is it the main one?   ---Toby
-
-[[Todd Trimble]]: I also disagree, and moreover, to a first-time reader it probably won't make a lot of sense (to explain carefully what it means is a little bit subtle). 
-
-_Rafael_: First, it was not me who named it the main principle. Google for it and you will find who did. Besides, if you don't like the name you must find a better one. And worse, what is the main principle of category theory then?Second, it deserves it's name; the main theorem of category theory should classify categories up to categorical equivalence, this is the first step in this direction. It starts by telling how to distinguish categories in the first place, before a classification. It is a principle only because it is not stated technically enough to be a theorem. A second step in this direction are the fundamental theorems in category theory that state that seemingly unrelated categories are in fact equivalent (sometimes up to a dual). Possibly a new section? Ok, i am talking about equality in Cat that is really a 2-category instead of equality inside categories, but the principle is the same except that equivalence becomes appropriate isomorphism and categories become objects. 
-
-As to sense, there are other statements in nLab that don't make sense or are not stated as in other places on internet, and i am not a first-time reader. If you want to further explain the principle for first-time readers i don't mind at all. I just want to say that it is not so difficult.
-
-Further, i think that removing "evil" from the headline would be much better, since it is a follow up from the main principle.
-
-Finally, i don't understand all the dissagreement. All on this page should be fundamental and established firmly and written down a long time ago in many places. Sorry for sounding like a complainer but lately the responses on this page are nagging and complaining. This should be differentiated from correcting real errors on the page.
-
-_Toby_:  So Kapranov & Voevodsky wrote that?  Very well, that\'s easy enough to deal with.
-
-I don\'t understand why you say that evil 'is a follow up from the main principle' while your talk about 'how to distinguish categories in the first place' is the principle itself.  In fact, I would reverse those.  K&V could just as easily have used the word 'evil' in place of 'unnatural', and they would be talking about our sense of [[evil]], yet they say nothing about equivalence of categories.  One has to reason further to realise that it is therefore evil to speak about equality of two functors (between given categories), therefore evil to speak about isomorphism of two categories, therefore necessary to consider more general notions of natural isomorphism of functors and equivalence of categories.  I would now like to make the header read 'The principle of evil'.
-
-But I agree with you, Rafael, that we should try to explain it better if it is confusing to a first-time reader, rather than to not say it at all.  What do people think of the version below now?
-
-_Rafael_: Kapranov and Voevodsky sounds very familiar. In an explanation of category theory i would after some definitions and stuff first explain that categories are the same in category theory if they are categorically equivalent, and then add that all other equalities are evil (all other i know are), and not the other way around. This is what i ment and it is sound logic to me. You first deal with what you want to have and then with all that you don't want to have. Equivalence of categories is useful while evil is an obstruction that say you can't have use other equalities of categories. Also evil only appears in category theory, so not focusing on evil makes it a lot easier to compare category theory with other theories studying other objects that don't define evil for them.
-
-I did't thought of equivalence of functors at all while writing before. Since it is just as important i suggest the header: Equality in category theory. It summarizes categories, functors and evil.
-
-_Toby_:  I wonder if we should have a section on 'main principles', plural.  We can cover this one, and the Yoneda lemma (called the 'fundmental theorem' below), and maybe some others.
-
-_Rafael_: I don't see a problem with it. Since there are many equalities in category theory it would be better to split the section into one "Equalities in category theory" (not that i have the strength to explain all the equalities) and another "Main principles" or "Main theorems". "Main theorems" is bettter because it could include principles, but it might become too long. :) Your idea with only "Main principles" is good for less writing. I have already started. To my knowledge here are the principles in category theory.
-
-* Main principle of category theory
-
-* Duality principle: Something that is true for all categories is true for the duals of all categories.
-
-* Basic principle of Galois theory: Covering spaces $F \to E \to B$ (the first arrow should be an embedding arrow) are classified by smooth functors $\Pi_1(B) \to Aut(F)$.
-
-* Abelian duality principle: The dual of an abelian category is an abelian category.
-
-* Microcosm principle: Certain algebraic structures can be defined in any category equipped with a categorified version of the same structure.
-
-* Comprehension principle: (i am no good at this so i will not attempt to formulate it).
-
-* Cohomological Hasse principle: (i am no good at this so i will not attempt to formulate it and i am not sure that anybody actually has formulated it in general). 
-
-* Exponential principle in a symmetric monoidal category: (i can not see it has a formulation that is as simple as the above).
-
-* Some call homological mirror symmetry the homological mirror symmetry principle.
-
-* Some call Tannaka-Krein duality the Tannaka-Krein duality principle.
-
-* See [this book](http://books.google.se/books?id=-AokWhbILUIC&dq=%22Algebraic+methods+in+philosophical+logic%22&printsec=frontcover&source=bn&hl=sv&ei=JLcuS4HPNoLZ-Qa2urCUBg&sa=X&oi=book_result&ct=result&resnum=4&ved=0CCUQ6AEwAw#v=onepage&q=&f=false) for the mirror principle and principle of categorical compositionality.
-
-* There probably is a transfer principle also, how to transport statements between categories.
-
-* There might be a categorified version of the Weyl principle: If you want to learn something about an object investigate its group of automorphisms.
-
-* Grothendieck reconstruction principle for the Teichmuller tower. As i can see this is in moduli theory but i am not sure if it is unrelated to category theory. In a way categories are moduli spaces for the set/class of their objects modulo isomorphic objects.
-
-* (Red herring principle if you like it)
-
-_Toby_:  OK, here are more principles.
 
 
-_Rafael_: Just a few things, the Yoneda lemma is a theorem and not a principle, therefore if it should be mentioned here (i think it defenetly should), it should be directly after the main principle, or in a separate chapter. But i think i get your idea; to include main theorems also. Then the heading need to be changed.
-
-I am not sure where you are heading with other principles (except the microcosm principle) but they are related to: exactness hypothesis, stabilization hypothesis, tangle hypothesis, cobordism hypothesis, extended TQFT hypothesis and the primacy of the point hypothesis. They are all related to higher categories which i have so far avoided in this page. To expand the whole page to higher categories would make it very intransparant. Why only mention it here? Then note that as soon as categorists have agreed what the definition of a weak higher category is, the hypotheses will not be principles but conjectures and theorems.
-
-The dualities deserve a whole section (for completeness), or a separate page.
-
-=--
-
-According to Kapranov and Voevodsky, the main principle of category theory is this:
-
-_In any category it is unnatural and undesirable to speak about equality of two objects_.
-
-Around here, we refer to any reference two equality of two given objects (and similar notions of equality) as more than 'unnatural'; we call them '[[evil]]'.
-
-If one develops category theory within set theory (or even within first-order logic with equality), then it necessarily possible to speak about equality of two objects, so it takes some discipline to avoid this.  Some alternative [[foundations of mathematics]] (such as [[FOLDS]] and some forms of [[type theory]]) make it impossible to speak evil, but then these are not as easy for the newcomer to use.
-
-There are many weaker notions of equivalence in category theory to solve this obstacle.  For two objects within a given category, we consider whether (and how!) they are [[isomorphism|isomorphic]] rather than [[equality|equal]]; within [[higher category theory|higher categories]], we consider whether even weaker notions of [[equivalence]] of two objects.  Similarly, the notion of whether two given categories (or higher categories) are [[equivalence of categories|equivalent]] is a relatively weak one.
-
-## Yoneda lemma
-
-The [[Yoneda lemma]] is sometimes thought of as the fundamental theorem of category theory.  Morally, it allows any category to be understood as a [[subcategory]] of a [[presheaf category]] (which is itself a [[topos]] and so easy to work in), although sometimes [[size issues]] interfere.
-
-## Duality principles
-
-The principle of abstract [[duality]] states that every theorem of pure category theory has a dual theorem, obtained by reversing all of the arrows involved.  See [[opposite category]].
-
-More specific duality principles include:
-* Abelian duality: the opposite of an [[abelian category]] is abelian,
-* [[Tannaka-Krein duality]],
-* etc.
-
-## Other principles
-
-* the [[microcosm principle]] about [[internalization]],
-* the [[delooping hypothesis]] about [[k-tuply monoidal n-category|multiply monoidal higher categories]],
-* the [[homotopy hypothesis]] about [[infinity-groupoid|higher groupoids]],
-* etc.
 
 
-# Contrast to theories of other objects
 
-##Category theory vs. set theory
+## Contrast to theories of other objects
+
+### Category theory vs. set theory
 
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
@@ -282,16 +183,16 @@ For a philosophical consideration of foundations covering and comparing sets, st
 
 * Sets, categories and structuralism - Costas Drossos
 
-##Category theory vs. order theory
+### Category theory vs. order theory
 
 A category may be thought of as a [[categorification]] of a [[poset]] rather than of a [[set]]; much (but by no means all) of category theory also appears in [[order theory]].
 
 See [[category theory vs order theory]] for more discussion.
 
 
-#Generalizations and other structures#
+## Generalizations and other structures
 
-##Generalizations of categories##
+### Generalizations of categories
 
 There are generalizations of categories in the sense that they are categories with extra structure which reduce to structures equivalent to categories when the extra structure is trivial.
 
@@ -311,7 +212,7 @@ There are generalizations of categories in the sense that they are categories wi
 * [[complicial set|Complicial sets]]
 
 
-##Other structures##
+### Other structures
 
 These are a part of category theory even if they are not categories or reduce to categories as a special case.
 
@@ -325,7 +226,7 @@ These are a part of category theory even if they are not categories or reduce to
 * [[doctrine|Doctrines]]
 
 
-#Applied category theory#
+## Applied category theory
 
 Here are some fields to which category theory has been applied; ultimately we should have articles on all of them.
 
@@ -342,7 +243,7 @@ Here are some fields to which category theory has been applied; ultimately we sh
 * [[music]]
 
 
-#References#
+## References
 
 Category theory textbooks for which the $n$Lab currently provides detailed linked indexes are
 
@@ -366,95 +267,6 @@ Other standard references include:
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ [free online](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf)
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
-
-#Discussion#
-
-Here are some discussion boxes that used to be inside the above text but have been largely resolved by now.
-
-+-- {: .query}
-
->the following discussion originated from an earlier version of the above two items on "categories as mathematical universes" and "categories as spaces". The new form of the above items is supposed to be a result and wrap-up of the discussion below. But if it is not regarded as such by everyone, we need to continue discussing.  
-
-_Rafael_: Please don't see me as complaining and opposing almost everything you write. I just like to get to the bottom of problems using logic. Which may involve often skipped details. Just because i write something it don't mean i am against the opposite of what i wrote. When i ask something i have usually tried to figure it out first, and in general it feels like there are many things in fairly basic category theory not written down or written out (explicitly as they should be). Mike Shulmans explanation of nerves of large categories being one of them. It should be added to [[nerve]].
-
-Is this a good replacement for the sentence at the top of the page that started this last discussion?
-
-**suggestion**
-
-A theory of enlarged [[simplicial set|simplicial sets]] (in the sense of enlarging sets to classes) presented by Set-valued [[presheaf|presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$ (where the [[simplex category]] $\Delta$ also contains large simplicies). The enlarged simplicial sets must also satisfy the condition: X an enlarged simplicial set $\Rightarrow$ the Segal maps $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$. The correspondence constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor constructing a categorys nerve is the generalized nerve functor (generalization of the nerve functor to have categories as its domain and enlarged simplicial sets as its codomain).
-
-**end suggestion**
-
-I recall this condition on the simplicial sets Todd gave. I did't put it this way but i was asking for it in terms of these presheaves. It feels funny starting with simplicial sets as sets, then see them as presheaves, and then see them as sets again.
-
-It is fine to take limits and Kan extend simplicial sets as presheaves but one must not forget what it corresponds to for simplicial sets that are built out of simplicies. This "dictionary" is one of the things i can't find.
-
-And i still wonder how the composition of a category looks like in this presheaf language.
-
-_Todd_: Don't worry, I didn't see you as opposing me. I agree with you that someone should have used the word "small" when talking about categories as simplicial sets. 
-
-The truncated simplicial sets you're considering have been considered; the level at which you truncated (I'll say "2-skeletal" since you truncated so as to leave the parts in dimension up to 2) is certainly sufficient to encode the <i>data</i> of a category via the evident 2-skeletal nerve. (1-skeletal simplicial sets are reflexive directed graphs, and for those things the 1-skeletal nerve functor is just the forgetful functor from categories to reflexive directed graphs.)
-
-To answer your last question: composition in the category is modeled in the nerve by the "middle" face operator 
-$$C_2 = C_1 \times_{C_0} C_1 \to C_1$$ 
-which in functorial language (thinking of a simplicial set $C$ as a presheaf) is $C(f)$, where $f$ is the monomorphism in $\Delta$ from the 2-element ordinal to the 3-element ordinal that leaves out the middle element. The same fact holds true for the 2-skeletal nerve. 
-
-Yes, it's certainly possible to view small categories as 2-skeletal simplicial sets, but the Segal conditions are not quite sufficient to characterize 2-skeletal nerves of categories. The missing condition not accounted for by the Segal conditions is associativity of composition. On the other hand, for _3-skeletal_ nerves, the Segal conditions would be enough. 
-
-_Rafael:_ I finally expanded and implemented the suggestion above, which become a bit too long but i don't know where else to put it. Don't hesitate to add links to it.
-
-In general, would it be ok to think of all the different objects equivalent to categories as presentations of categories instead of as categories, since they are equivalent to categories but not categories explicitly. Since no one objected i assume it is ok to think of the presheaves above as presentations of simplicial sets.
-
-As for if CW-complexes (that are the geometric realization of a simplicial complex) generalize simplicial complexes, the best way would to write CW-complexes and simplicial complexes as tuples of data and show that a particular kind of CW-complex data is a simplicial complex. That would be very satisfactory. A simplicial complex is $X=(X_0,X_1,X_2,...)$, where $X_i$ is a finite set of i-simplicies. Subject to subset closure. A CW-complex is more complicated but something similar to Y$=({Y_0,Y_1,Y_2,...},O(Y))$, where $Y_i$ constitue a filtration of their full union $Y$ and $O(Y)$ is the set of open sets in this union $Y$. Subject to being Hausdorff topological space with a weak topology, and some conditions on cells. To start, is there a particular choice of $Y_i$'s that gives $X_i$'s, or is the topology that makes the difference?
-
-This might help to enlight how a 1D CW-complex is a graph.
-
-_Toby_:  I would regard even the usual definition of a category (as a set or class of objects etc) as requiring more detail than a category itself has, and thus also merely a 'presentation' (as you put it) of categories within the language of (material or structural) [[set theory]].  (The usual definition really defines a [[strict category]], which has a natural notion of [[isomorphism of categories|isomorphism]] stricter than the correct notion of [[equivalence of categories|equivalence]].  Within the category, we can see this as a notion of [[equality]] of objects stricter than the correct notion of [[isomorphism]].  Strict categories are [[evil]], but they appear to be the only way to define categories within set theory.)
-
-_Rafael_: I was wondering when this would crop up. So what is a correct definition of a (non-strict) category? As a model of the sketch Scat?
-
-_Toby_:  Within set theory, I don\'t know any other definition of category.  Within some kinds of [[type theory]], one may draw a distinction between a [[preset]] and a set and define a category to have a preset of objects.  [[FOLDS]] handles un-evil $\infty$-category theory natively, but I\'m not very familiar with it.  Or one can try to axiomatise category theory directly in first-order logic *without* equality.
-
-Incidentally:
-*  The usual term is 'large' rather than 'enlarged': large group, large field, large simplicial set, etc.  In context, one often drops 'large', or says 'possibly large' to be pedantic (when small is also allowed).
-*  The objects of $\Delta$ is all finite; there is no way to allow them to be large.  It is the *values* of the presheaves that may be large, not the abstract simplices, but the set (class) of concrete simplices.
-*  The possessive of 'category' is 'category\'s', not 'categorys'.
-
-Did you paste over my edits something that you\'d been working on offline?
-
-_Rafael_: I don't really understand your question, but no, i compared the texts and changed back what i thought was better before and did't paste the old edit over the new, as a comparison must show. To compare in nLab is also almost a pain, it colors changes wrong (or in a stupid way for a human).
-
-* In textbooks i can't remember them using the large terminology. Probably because they did't treat large structures, at best infinite structures, and then meaning size of any infinite cardinality and not of the size of a proper class :)
-
-*  What i was hinting about was that the $\Delta$ here (not the standard $\Delta$) contains simplicies with any cardinality of vertices.
-I think it is otherwise impossible to build large categories.
-
-* I like my formulation of the Segal condition better. I hope the implication arrow shows up, i am forced to edit in an incompatible IE.
-The other condition should also have a name, such as (central) boundary operator associativity condition. Boundary operator is a more familiar name for face operator. Faces are as i see them 2D, while boundaries can have any dimension.
-
-_Toby_:  I don\'t know why you want to keep harping on the matter of size in the first place.  Anything can be made large; that is nothing special about categories.  If you want to present categories through simplicial sets, then small categories can be given by small simplicial sets while large categories must be given by large simplicial sets; that is all.  Since people usually think of simplicial sets as small and categories as possibly large, it\'s worth mentioning, but surely it is simpler to state up front that the simplicial sets in question may be large.
-
-As for what these large simplicial sets are, why do you think that you need simplices with largely many vertices to build large categories?  And what do you think these simplices are in a large category anyway?  I\'m quite certain that you are wrong here; even a large category has a set (or class, whatever) of objects ($0$-simplices with $1$ vertex), a set of morphisms ($1$-simplices with $2$ vertices), a set of commutative triangles ($2$-simplices with $3$ vertices), etc; it needs no set of $\alpha$-simplices for any infinite $\alpha$, much less any large $\alpha$ (although to some extent these can be made sense of, even for small categories; compare [[transfinite composition]]).  The finite objects of $\Delta$ are sufficient; indeed, as the text states, we need only simplices with up to $4$ vertices (or only up to $3$ if we use enough conditions).
-
-(I also don\'t know why you want that implication arrow, which should be legible to anybody with the fonts needed to read this wiki, but which I think looks ugly in a running sentence.  But that\'s not a big deal; keep it if you like it.)
-
-_Rafael_: It was not me who started the notice on size. However i think it is very important to distinguish and keep track of size. Especially since simplicial sets are small by definition (even using the other functorial definition) and would only account for small categories. It might be all the same to you Toby but this is very rarely so for other people. But it is a very valuable insight. I would also be much more careful with saying that ANYTHING can be made large. Then, i wish everything would be so easy, try to find a book or at least a chapter about large simplicial sets.
-
-As for large simplicies i interpreted the diagrams wrongly and you are right. As you said "we need only simplices with up to 4 vertices", as this is the truncation on simplicies as interpreted from the diagram. This idea croped up when i was reading a related page in nLab, probably also with diagrams.
-
-_Toby_:  Anything defined in terms of small sets can be made large by defining it in terms of classes instead.  Depending on what foundational axioms you accept, the definition might not be sensible, but it will be if you adopt [[Grothendieck universes]], as most category theorists do when needed.  Size issues are important, but their importance should not be exaggerated; indeed, it is hard to understand them if you don\'t know when they\'re relevant and when (as here) they are constantly stressed but irrelevant.  It is not true, after all, that (as you write) 'simplicial sets are small by definition' any more than categories are small by definition; it all depends on what size you specify in the definition.  Even if you don\'t specify anything but rely on a conventional meaning of terms like 'set' or 'class', it depends on your conventions for those.  (I would follow Mac Lane in _[[Categories Work]]_ and say that a 'set' need not be small, so that a 'simplicial set' need not be small either, if you define it using the word 'set'.  But I don\'t mind clarifying for others that these simplicial sets might have to be large.)
-
-_Rafael_: It is not a good thing to change the meaning of set or class. Then other mathematicians that do not know what a Grothendieck universe is would encounter missunderstanding and paradoxes. This means a vast majority of mathematicians.
-
-_Toby_:  What do you mean, 'change the meaning'?  You seem to be writing as if it was handed down from on high that all sets are small, and that a large category has a proper class of objects but not a set of objects.  This is only one way of thinking about things, probably the most common, but not the only way.  And in fact, it is not the way that the founder of category theory, Saunders Mac Lane, thinks about them.  Someone here (Mike? Todd? I forget) didn\'t even agree with me the last time that I said that sets and classes was the most common way of dealing with size issues, so there may be entire schools that take it for granted that all categories have a set of objects but only some sets are small.
-
-I need to write an article on [[size issues]] to explain all of this.
-
-_Rafael_: I give up, now i don't understand what you mean. Sure, there are different set theories and theories for classes, which is ok, but that is probably not what you mean either. Only multisets, ordered sets, posets and sets with other ordering relations come to mind right now, but they are not even mentioned in any definition of a category that i know of. Reading the above, posets are not equivalent to categories, even in the large case i think. But you are talking about entire other schools! In the last sentence i don't even know what set mean. How about some references to all these alternaives?
-
-_Toby_:  Note entire *other* schools, but schools of category theory, including people that you and I have interacted with here.  (But I may be wrong about the existence of such schools; it may just be Mac Lane and individuals who\'ve learnt category theory from his book.)  And I gave you a reference, the classical reference on category theory: _[[Categories for the Working Mathematician]]_.  Check out its treatment of size issues (page 12 in the 2nd Edition, and Section 1.6); Mac Lane uses small sets and large sets, not sets and classes.
-
-=--
 
 
 [[!redirects abstract nonsense]]
