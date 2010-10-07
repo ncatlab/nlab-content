@@ -1,9 +1,22 @@
-<div class="rightHandSide toc">
-[[!include mathematicscontents]]
-</div>
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+[[space]] $\leftarrow$ [[Isbell duality]]  $\rightarrow$ **algebra**
+
+***
 
 
-This page is about **algebra as a theory**. If you are looking for the term **algebra as an object** see [[associative algebra]] or [[algebra over an operad]] or the like. See below for more.
+
+
+> This page is about **algebra as a theory**. If you are looking for the term **algebra as an object** see [[associative algebra]] or [[algebra over an operad]] or the like. See below for more.
 
 ***
 
