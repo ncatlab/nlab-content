@@ -10,7 +10,7 @@ __Peter T. Johnstone__ is a Professor of Mathematics at the University of Cambri
 
 ## External links
 
-*  [home page](http://www.dpmms.cam.ac.uk/site2002/People/johnstone_pt.html)
+*  [home page](http://www.dpmms.cam.ac.uk/people/p.t.johnstone)
 
 
 category: people
