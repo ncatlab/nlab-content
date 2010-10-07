@@ -9,13 +9,9 @@
 =--
 =--
 
-
-
-
 # Canonical morphisms
 * table of contents
 {: toc}
-
 
 ## Idea
 
@@ -38,7 +34,7 @@ $$ \array {
 
 commutes for any [[automorphism]] $u$ of $x$ in $C$.
 
-As $F$ and $G$ are only ever applied to [[isomorphisms]], this definition makes sense even when they are defined only on the [[core]] of $C$.  In fact, as they are applied only to $x$ and its automorphisms, the definition makes sense when they are defined only on the $Aut_C(x)$, the [[automorphism group]] of $x$ in $C$.  In that case, $F$ and $G$ are [[representations]] of $Aut_C(x)$ in $D$, and a canonical morphism is precisely an [[intertwiner]] between these representations.
+As $F$ and $G$ are only ever applied to [[isomorphisms]], this definition makes sense even when they are defined only on the [[core]] of $C$.  In fact, as they are applied only to $x$ and its automorphisms, the definition makes sense when they are defined only on $Aut_C(x)$, the [[automorphism group]] of $x$ in $C$.  In that case, $F$ and $G$ are [[representations]] of $Aut_C(x)$ in $D$, and a canonical morphism is precisely an [[intertwiner]] between these representations.
 
 In the other direction, we can consider a family of canonical morphisms, one for each object of $C$, which are coherent in the sense that
 
