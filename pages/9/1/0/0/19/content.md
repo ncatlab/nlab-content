@@ -21,6 +21,7 @@
 
 * [[higher category theory]]
 
+
 ***
 
 
@@ -36,16 +37,51 @@ _Category theory_ is a toolset for describing the general abstract structures in
 +-- {: .un_remark}
 ###### Paradigm ####
 
-The basic difference between category theory and [[set theory]] is that category theory focuses not on elements -- called [[object]]s -- but on the _relations_ between these objects: the ([[homomorphism|homo]])[[morphism]]s between them.
+As opposed to [[set theory]],  category theory focuses not on elements $x,y, \cdots$ -- called [[object]]s -- but on the **relations** between these objects: the ([[homomorphism|homo]])[[morphism]]s between them
 
-This is the first in a sequence of steps. The next one leads from category theory to [[2-category theory]] which focuses on [[2-morphisms]]: morphisms between morphisms. Eventually this leads to [[higher category theory]], where one considers [[k-morphism]]s ad infinitum.
+$$
+  x \stackrel{f}{\to} y
+  \,.
+$$
+
+This is but the first in an infinite sequence of steps: [[2-category theory]] which focuses on relation between relations, morphisms between morphisms: [[2-morphisms]]. Eventually this leads to [[higher category theory]], where one considers [[k-morphism]]s _ad infinitum_ .
 
 =--
 
-The concept that formalizes this is that of a [[category]]: a collection of arrows/morphism that can be [[composition|composed]] if they are adjacent.
+The concept that formalizes this is that of a [[category]]: a collection of arrows/morphism that can be [[composition|composed]] if they are adjacent
+
+$$
+  \left(
+    \array{
+       x
+       \\
+       \downarrow^{\mathrlap{f}}
+       \\
+       y
+       \\
+       \downarrow^{\mathrlap{g}}
+       \\
+       z
+    }
+  \right)
+  \;\;\;\;
+  \mapsto
+  \;\;\;\;
+  \left(
+    \array{
+       x
+       \\
+       \downarrow^{\mathrlap{g \circ f}}
+       \\
+       z
+    }
+  \right)
+  \,.
+$$
 
 +-- {: .un_remark}
 ###### Examples ####
+
 The archetypical example of a category is the category [[Set]] of [[set]]s and [function]]s between sets. 
 
 The classical examples of categories are [[concrete category|concrete categories]] whose [[object]]s are [[stuff, structure, property|sets with extra structure]] and whose [[morphism]]s are structure preserving functions of sets, such as [[Top]], [[Grp]], [[Vect]].  These are the examples from which the term _category_ derives: these categories literally _categorize_ mathematical structures by packing structures of the same _type_ (same category) and structure preserving mappings between them into a single whole structure, a category.
@@ -67,15 +103,35 @@ Categories were named after the examples of [[concrete category|concrete categor
 >([[Saunders Mac Lane]], [[Categories Work|Categories for the Working Mathematician]], 29&#8211;30).
 
 However, the [[category|categories]] of category theory are way more general than these [[concrete category|concrete categories]], and the way Aristotle and Kant use the term is not particularly related to what Eilenberg & Mac Lane did with it.
+
 =--
 
++-- {: .un_remark}
+###### The basic trinity of concepts ####
 
+Category theory refledcts on itself. Categories are about collections of morphisms. And there are evident morphisms between categories: [[functor]]s. And there are evident morphisms between functors: [[natural transformation]]s.
+
+This trinicty of concepts
+
+1. [[category]]
+
+1. [[functor]]
+
+1. [[natural transformation]]
+
+is what category theory is built on. 
+
+In [[higher category theory]] this continues with
+
+* $k$-[[transfor]]s for all $k \in \mathbb{N}$.
+
+=--
 
 
 +-- {: .un_remark}
 ###### Conceptual unification ####
 
-One major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal construction]]s in categories, such as [[representable functor]]s, [[adjoint functor]]s  and [[limit]]s, turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
+A major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal construction]]s in categories, such as [[representable functor]]s, [[adjoint functor]]s  and [[limit]]s, turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
 
 =--
 
@@ -92,7 +148,24 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 =--
 
++-- {: .un_remark}
+###### The $n$-POV ####
+
+The vast applicability and expressiveness of category theory leads to the observation that most structures in mathematics are best understood from a category theoretic or higher cstegory theoretic viewpoint. This is the [[nPOV]].
+
+=--
+
 ## The central constructions
+
+### Presheaves
+
+Much of the power of category theory rests in the fact that it reflects on itself. For instance that [[functor]]s between two categories form themselves a category: the [[functor category]]. 
+
+This leads to the notion of [[presheaf categories]] and [[sheaf toposes]]. Much of category theory is [[topos theory]].
+
+Under [[Isbell duality]] this sets the stage for everything in mathematics related to [[space]] and [[algebra]] and their duality.
+
+### Universal constructions
 
 Elementary as it is, the definition of a [[category]] supports a powerful set of constructions: [[universal construction]]s. These include
 
@@ -110,17 +183,17 @@ All these are special cases of each other and thus reflect different aspect of o
 
 Category theory has a handful of central lemmas and theorems. Their proof is typically easy, sometimes almost tautological. Their power rests in the fact that they apply over and over again all over mathematics. Many concrete constructions get simplified by observing that they are but special realizations of these general abstract results in category theory. These central theorems are
 
-* first and foremost: the [[Yoneda lemma]]
+* first and foremost: the [[Yoneda lemma]];
 
-* [[Tannaka duality]]
+* [[Isbell duality]];
 
-* [[Isbell duality]]
+* the [[Grothendieck construction]];
 
-* the [[Grothendieck construction]]
+* the [[adjoint functor theorem]];
 
-* the [[adjoint functor theorem]]
+* the [[monadicity theorem]];
 
-* the [[monadicity theorem]].
+* [[Tannaka duality]].
 
 
 ## History
@@ -245,28 +318,59 @@ Here are some fields to which category theory has been applied; ultimately we sh
 
 ## References
 
-Category theory textbooks for which the $n$Lab currently provides detailed linked indexes are
+### Textbooks
 
-* Kashiwara and Schapira, [[Categories and Sheaves]].
+Standard category theory textbooks for which the $n$Lab currently provides detailed linked indexes are
 
-* Ieke Moerdijk and Saunders Mac Lane, [[Sheaves in Geometry and Logic]]
+* Kashiwara and Schapira, _[[Categories and Sheaves]]_ .
+
+* [[Ieke Moerdijk]], [[Saunders Mac Lane]], _[[Sheaves in Geometry and Logic]]_
 
 Other standard references include:
 
 * [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
+
 * [[Steve Awodey]], _Categories for everybody_. 
+
 * [[Francis Borceux]], _Handbook of categorical algebra_, vol 1--3. 
+
 * [[Colin McLarty]], _Elementary categories, elementary toposes_. 
+
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+
+#### Topos theory
+
+The standard monomgraph on [[topos theory]] is
+
+* [[Peter Johnstone]], _[[Elephant|Topos theory]]_ .
+
+Other texts include
+
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [free online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)
+
+(Here "triple" mean [[monad]]).
+
 * [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
 [free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
-* [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049) (see also Tom's online [notes](http://www.maths.gla.ac.uk/~tl/msci) on basic category theory)
-* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
-* [[Peter Johnstone]], _Topos theory_
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ [free online](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf)
-* Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
+
+#### Higher category theory
+
+* [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049) (see also Tom's online [notes](http://www.maths.gla.ac.uk/~tl/msci) on basic category theory)
+
+* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
+
+* Project description: higher categorical structures and their applications ([pdf] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf))
+
+### Course notes
+
+* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
+
+### Teaching category theory
+
+* [[Andrew Stacey]], _Teaching category theory_ ([web](http://www.math.ntnu.no/~stacey/CountingOnMyFingers/TeachingCategories.html))
 
 
 [[!redirects abstract nonsense]]
