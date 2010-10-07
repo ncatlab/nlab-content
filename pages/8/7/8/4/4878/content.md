@@ -113,6 +113,11 @@ The writhe is an invariant of regular isotopy.
 The linking number is a [[link invariant]].
 =--
 
++-- {: .proof}
+###### Proof
+We use [[Reidemeister moves]] so have to check that they do not change the linking number of a diagram. Any Reidemeister move that involves at least two components of the link (i.e. which must be an R2 or R3) leaves all linking numbers between components unchanged.  An R2 move removes or introduces two crossings of opposite sign, whilst an R3 leaves the number of crossings and their signs unaltered.
+=--
+We can conclude that the Hopf link is not isotopic to the two component unlink, (which is reassuring) as any assignment of orientations to the Hopf link leads to a non-zero linking number.
 
 [[!redirects linking number]]
 [[!redirects linking numbers]]
