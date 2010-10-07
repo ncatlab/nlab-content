@@ -66,7 +66,7 @@ are interchangable, (plus another with the opposite twist);
 ###### Theorem
 Two [[knot diagram]]s correspond to isotopic knots precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
 =--
-
+The corresponding statement for [[links]] and link diagram is also true.
 
 ## References
 
