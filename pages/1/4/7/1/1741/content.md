@@ -39,16 +39,18 @@ A &\stackrel{p}\leftarrow & C &\stackrel{i_r}\leftarrow & C_r\\
 && B &\leftarrow & B_0
 \end{matrix}$$
 
-in which the two squares are the cartesian, $pi_r$ is a discrete fibration and $qi_l$ is a discrete opfibration, and the following additional condition holds:
+in which the two squares are the cartesian satisfies the following 3 properties:
 
-Let $X$ be defined by a pullback 
+* $p\circ i_r : C_1\to A$ is a discrete fibration 
 
+* $q\circ i_l: C_l\to B$ is a discrete opfibration
+
+* Let $X$ be defined as the pullback
 $$\begin{matrix}
 X & \to & (C_r)_1 \\
 \downarrow &&\downarrow \\
 (C_l)_1 &\to & C_0 
 \end{matrix}$$
-
 and $j:X\hookrightarrow C_1\times_{C_0} C_1$ the canonical inclusion. Then 
 the morphism $c\circ j : X\to C_1$, where $c: C_1\times_{C_0} C_1\to C_1$ is the composition morphism of internal category $C$, is invertible.
 
