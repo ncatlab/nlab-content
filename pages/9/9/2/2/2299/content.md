@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
 [[!include higher geometry - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
