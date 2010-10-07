@@ -21,30 +21,30 @@
 
 ## The general abstract principle
 
-In [[higher category theory]] it is a tautological fact that a $1$-[[transfor]]mation $\lambda$ between [[n-functor]]s $F_1,F_2 : C \to D$ between [[strict n-categories]] $C$ and $D$
+In [[higher category theory]] it is easy to verify that a (strict) $1$-[[transfor]]mation $\lambda$ between [[n-functor]]s $F_1,F_2 : C \to D$ between [[strict n-categories]] $C$ and $D$
 
 $$
   \lambda : F_1 \Rightarrow F_2
 $$
 
-is itself, in components, given by an $(n-1)$-functor
+is determined uniquely by an $(n-1)$-functor
 
 $$
   \eta : C_{(n-1)} \to D^{\Delta^1}
 $$
 
-on the $(n-1)$-category underlying $C$. 
+on the strict $(n-1)$-category obtained from $C$ by discarding the $n$-cells.  (Of course, not every such $(n-1)$-functor determines such a transformation; the missing condition is "naturality" at the top level.
 
-Analogous statements hold for general (weak) [[n-categories]] (see below).
+Analogous statements hold for general (weak) [[n-categories]], although they are more complicated to formulate; see below.
 
-As with various other almost-tautologies in [[category theory]] they become interesting statements when realized in a concrete context where certain structures are modeled by $n$-[[functor categories]] for all $n$. 
+As with various other easy facts about [[category theory]], these become interesting statements when realized in a concrete context where certain structures are modeled by $n$-[[functor categories]] for all $n$. 
 
 
 ### Examples in low dimension
 
 We spell out explicitly the $(n-1)$-functorial nature of transformation for low values of $n$.
 
-* **$(n=1)$** -- A [[natural transformation]] $\eta$ between [[functor]]s $F_1,F_2 : C \to D$ between ordinary [[categories]] is in components just a [[function]]
+* **$(n=1)$** -- A [[natural transformation]] $\eta$ between [[functor]]s $F_1,F_2 : C \to D$ between ordinary [[categories]] consists of components which are given by a [[function]]
 
   $$
     \eta : Obj(C) \to Mor(D)
@@ -57,7 +57,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
     \,.
   $$
 
-  Because by naturality and the fact that there are no nontrivial [[2-morphism]]s in $D$, it follows that this already uniquely extends to a functor $C \to Arr(D)$:
+  Saying that such a function extends to a functor $C \to Arr(D)$:
 
   $$
     \eta : 
@@ -97,6 +97,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
     \,.    
   $$
 
+  is equivalent to saying that these components form a natural transformation.  Since there are no nontrivial [[2-morphism]]s in $D$---in other words, the forgetful functor $Arr(D) \to D\times D$ is faithful---such an extension to a functor is necessarily unique.
 
   So we may regard the component function of $\eta$ as a [[0-functor]]
 
@@ -151,7 +152,9 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
     \eta : \mathbf{sk}_1 C \to Arr(D)
   $$
 
-  from the underlying 1-category of $C$ to the arrow dategory of $D$, whose objects are morphisms in $D$, whose morphisms are squares in $D$, and whose composition is [[pasting]] of such squares (see [[double category]] for details).
+  from the underlying 1-category of $C$ to the arrow category of $D$, whose objects are morphisms in $D$, whose morphisms are squares in $D$, and whose composition is [[pasting]] of such squares (see [[double category]] for details).
+
+  Again, saying that this 1-functor extends to a 2-functor from $C$ to the arrow 2-category of $D$ says precisely that these components form a pseudonatural transformation, and any such extension is unique when it exists since the forgetful 2-functor $Arr(D)\to D\times D$ is locally faithful.
 
 
 
@@ -179,7 +182,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
 For [[strict ∞-categories]] modeled as globular [[strict ∞-categories]] we have the following simple statement of the general principle.
 
 +-- {: .un_Lemma}
-###### Obserrvation
+###### Observation
 
 For $C,D \in Str n Cat$ and $F_1, F_2 : C \to D$ two strict $n$-functors, [[transfor]]mations $\eta : F_1 \Rightarrow F_2$ which are in components given by $n$-functors
 
@@ -196,7 +199,7 @@ $$
 
 =--
 
-For weak $n$-categories analogous statements hold, but may have a less straigghtforward formulation. What is always true is that the transformation $\eta$ is specified by its values on $(n-1)$-morphisms and will be functorial in a weak sense on these, but these $(n-1)$-morphisms alone will usually not form an $(n-1)$-category, since they will compose only up to $n$-morphisms.
+For weak $n$-categories analogous statements hold, but may have a less straightforward formulation. What is always true is that the transformation $\eta$ is specified by its values on $(n-1)$-morphisms (and below) and will be functorial in a weak sense on these, but these $(n-1)$-morphisms and below will usually not form an $(n-1)$-category themselves, since they will compose coherently only up to $n$-morphisms.
 
 One way to bring the general case into the above simple form is to invoke models by [[semi-strict ∞-categories]]. By [[Simpson's conjecture]], every [[∞-category]] has a model in which everything is strict except possibly the [[identities]] and their unitalness [[coherence law]]s. This means that if $C$ is such a semistrict model of an $n$-category, then $C_{n-1}$ is an $(n-1)$-[[semicategory]] and the transformation
 
@@ -206,7 +209,7 @@ $$
 
 is an $n$-functor on that. (By naturalness we have that $\eta$ is guaranteed also to respect the weak identities in $C$ in some way, but that way is not so easy to formalize.)
 
-      
+More generally, for any algebraic notion of weak $n$-category, there is a corresponding algebraic "$(n-1)$-dimensional" structure containing only the operations on $(n-1)$-dimensional cells and below in the given notion of weak $n$-category.  This is not in general a notion of weak $(n-1)$-category, but it may suffice to formulate the above principle precisely.  If the starting notion of $n$-category had strict associativity and interchange, then the resulting $(n-1)$-dimensional structure will be a notion of $(n-1)$-semicategory.
 
 
 ## Application in functorial QFT
@@ -268,4 +271,4 @@ Remarks on how the relation between Reshitikhin-Turaev and FSR seem to have an i
 
 There is it discussed how the basic [[string diagram]] that in FSR formalism encodes a field insertion on, possibly, a defect line and encodes the disk amplittudes of the CFT is the string diagram Poincar&eacute;-dual to the cylinder in a 3-category of [[n-vector space|3-vector space]]s.
 
-For references on the [[holographic principle]] in QFT, see there
+For references on the [[holographic principle]] in QFT, see there.
