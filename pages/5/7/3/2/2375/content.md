@@ -31,19 +31,15 @@
 
 * [[Yoneda lemma]]
 
+* [[Isbell duality]]
+
 * [[Grothendieck construction]]
 
 * [[adjoint functor theorem]]
 
 * [[monadicity theorem]]
 
-## Principles 
-
-* [[Eckmann-Hilton argument]]
-
-* [[microcosm principle]]
-
-* [[periodic table]] and [[stabilization hypothesis|stabilization]]
+* [[Tannaka duality]]
 
 ## Extensions 
 
@@ -52,5 +48,9 @@
 * [[enriched category theory]]
 
 * [[higher category theory]]
+
+## Applications
+
+* [[applications of (higher) category theory]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/category+theory+-+contents)</div>
