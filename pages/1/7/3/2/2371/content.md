@@ -12,11 +12,11 @@
 
 # Higher algebraic theories
 
-* [[(∞,1)-algebraic theory]]
+* [[algebraic theory]] / [[(∞,1)-algebraic theory]]
 
-* [[(∞,1)-monad]]
+* [[monad]] / [[(∞,1)-monad]]
 
-* [[(∞,1)-operad]]
+* [[operad]] / [[(∞,1)-operad]]
 
 
 # Higher algebras
@@ -43,7 +43,9 @@
 
 # Models for higher algebras
 
-* [[simplicial ring]]
+* [[model structure on simplicial T-algebras]]
+
+  * [[simplicial ring]]
 
 * [[dg-algebra]]
 
@@ -51,9 +53,16 @@
 
 * [[L-∞ algebra]]
 
+# Geometry on formal duals of algebras
 
-* [[derived algebraic geometry]]
+* [[Isbell duality]]
+
+* [[derived geometry]]
+
+  * [[structured (∞,1)-topos]]
 
   * [[generalized scheme]]
+
+  * [[function algebras on ∞-stacks]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+algebra+-+contents)</div>
