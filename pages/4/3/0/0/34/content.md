@@ -1,11 +1,8 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
-+--{: .hide}
-[[!include category theory - contents]]
-=--
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -13,7 +10,16 @@
 =--
 =--
 
-> parts of this entry are beginning to look good. But this entry needs more. More motivation, more motivating examples, more of the big picture.
+* [[category theory]]
+
+* [[2-category theory]]
+
+* [[(∞,1)-category theory]]
+
+* **higher category theory**
+
+***
+
 
 #Contents#
 * automatic table of contents goes here
