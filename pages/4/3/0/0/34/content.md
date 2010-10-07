@@ -27,6 +27,8 @@
 
 ## Idea
 
+_Higher category theory_ is the generalization of [[category theory]] to a context where there are not only [[morphism]]s between [[object]]s, but generally [[k-morphism]]s between $(k-1)$-morphisms, for all $k \in \mathbb{N}$.
+
 Higher category theory studies the generalization of [[∞-groupoid]]s  -- and hence, via the [[homotopy hypothesis]], of [[topological space]]s -- to that of [[directed space]]s and their _combinatorial or algebraic models_ . It is to the theory of [[∞-groupoid]]s as [[category theory]] is to the theory of [[groupoids]] (and hence of [[groups]]).
 
 These [[geometric definition of higher category|combinatorial]] or [[algebraic definition of higher category|algebraic]] models are known as [[n-category|n-categories]] or, when $n \to \infty$, as [[∞-category|∞-categories]] or [[∞-category|∞-categories]], or, in more detail, as [[(n,r)-category|(n,r)-categories]]: 
@@ -61,83 +63,186 @@ Another approach to handle the geometric definition of higher categories is a re
 
 Finally, a large supply of further models exists for [[(∞,1)-category|(∞,1)-categories]] in terms of [[enriched category theory]]. [[simplicial model category|Simplicially enriched model categories]] are a highly-developed toolkit for handling [[presentable (infinity,1)-category|presentable (∞,1)-categories]]. [[pretriangulated dg-category|Pretriangulated dg-enriched categories]] and [[A-infinity category|A-∞ categories]] are a comparably highly developed toolkit for handling [[stable (∞,1)-category|stable (∞,1)-categories]].
 
-## Applications of higher category theory 
 
-### extended cobordisms 
+## Basic concepts
+
+The basic concept on which higher category theory is built is the notion of **[[k-morphism]]** for all $k \in \mathbb{N}$, equipped with a notion of composition, such that **[[coherence law]]s** are satisfied.
+
+This is what it's all about. 
+
+
+## Basic constructions
+
+
+### Higher presheaves
+
+* [[higher topos theory]]
+
+### Higher universal constructions
+
+* [[2-limit]]
+
+* [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+
+* [[(∞,1)-Kan extension]]
+
+  * [[limit in a quasi-category|(∞,1)-limit]]
+
+* [[(∞,1)-Grothendieck construction]]
+
+
+
+## Basic theorems
+
+* [[homotopy hypothesis]]-theorem
+
+* [[delooping hypothesis]]-theorem
+
+* [[periodic table]]
+
+* [[stabilization hypothesis]]-theorem
+
+* [[michaelshulman:exactness hypothesis]]
+
+* [[holographic principle of higher category theory|holographic principle]]
+
+
+## Applications 
+
+See
+
+* [[applications of (higher) category theory]].
+
+### Extended cobordisms 
 
 One major application of higher category theory and to a large extent a driving force in developing it has been [[FQFT|extended functorial quantum field theory]]. This has recently led to what may become one of the central theorems of higher category theory, the proof of the [[cobordism hypothesis]]. This roughly characterizes the [[(∞,n)-category of cobordisms]] $Bord_n$ as the free [[(∞,n)-category]] with duals on a single generator.
 
 Since it is [thought](http://golem.ph.utexas.edu/category/2008/02/new_hire_at_ucr.html#c016709) that $Bord_n$ for $n = \infty$ is essentially the [[complex cobordism cohomology theory|cobordism spectrum]], this indicates a useful way in which higher category theory subsumes and refines [[stable homotopy theory]].
 
 
-## Development of higher category theory
 
-Higher category theory is still very much in the making. 
 
-## Definitions
+
+
+## Models
+
+There are many different _models_ for bringing the abstract notion of higher category onto paper.
 
 * [[(n,r)-category]]
 
-  * [[k-tuply monoidal (n,r)-category]]
+  * [[Theta-space]]
 
-* [[geometric definition of higher category]]
+  * [[∞-category]]/[[∞-category]]
+
+  * [[(∞,n)-category]]
+
+    * [[n-fold complete Segal space]]
+
+  * [[(∞,2)-category]]
 
   * [[(∞,1)-category]]
 
-    * [[category with weak equivalences]]
-
     * [[quasi-category]]
+
+      * [[algebraic quasi-category]]
 
     * [[simplicially enriched category]]
 
     * [[complete Segal space]]
 
-    * [[Segal category]]
+    * [[model category]]
 
-  * [[(∞,2)-category]]
+  * [[(∞,0)-category]]/[[∞-groupoid]]
 
-  * [[(∞,n)-category]]
+    * [[Kan complex]]
+
+      * [[algebraic Kan complex]]
+
+      * [[simplicial T-complex]]
+
+  * [[n-category]] = (n,n)-category
+
+    * [[2-category]], [[(2,1)-category]]
+
+    * [[1-category]]
+
+    * [[0-category]]
+
+    * [[(?1)-category]]
+
+    * [[(?2)-category]]
+
+  * [[n-poset]] = (n&#8722;1,n)-category
+
+    * [[2-poset]]
+
+  * [[n-groupoid]] = (n,0)-category
+
+    * [[2-groupoid]], [[3-groupoid]]
+
+
+* [[categorification]]/[[decategorification]]
+
+* [[geometric definition of higher category]]
+
+  * [[Kan complex]]
+
+  * [[quasi-category]]
+
+  * [[simplicial model for weak ∞-categories]]
+
+    * [[complicial set]]
+
+    * [[weak complicial set]]
 
 * [[algebraic definition of higher category]]
 
-  * [[Trimble n-category]]
+  * [[bicategory]]
 
-  * [[weak ∞-category]]
+  * [[bigroupoid]]
 
-    * [[strict ∞-category]]
+  * [[tricategory]]
 
-  * [[simplicial T-complex]]
+  * [[tetracategory]]
 
-  * [[model structure on algebraic fibrant objects|algebraic Kan-complex]]
+  * [[strict ∞-category]]
 
-  * [[model structure on algebraic fibrant objects|algebraic quasi-category]]
+  * [[Batanin ∞-category]]
 
-  * [[A-∞ category]]
+  * [[Trimble n-category|Trimble ∞-category]]
 
-  * [[dg-category]]
+  * [[Grothendieck-Maltsiniotis ∞-categories]]
 
-    * [[pretriangulated dg-category]]
+* [[stable homotopy theory]]
 
+  * [[symmetric monoidal category]]
 
-## Patterns in higher categories
+  * [[symmetric monoidal (∞,1)-category]]
 
-Higher categories with special properties reproduce a multitude of concepts. One finds a [[periodic table]] of higher categories which lists these special cases.
+  * [[stable (∞,1)-category]]
+  
+    * [[dg-category]]
 
+    * [[A-∞ category]]
 
-## 1-Categorical aspects of higher category theory 
-
-There are two major _1-categorical_ tools for _implicitly_ handling higher categories: 
-
-* [[homotopy theory]] using [[model category|model categories]] and similar structures;
-
-* [[enriched category theory]] for the case that the category enriched over is itself a model for higher structures, such as [[Top|topological spaces]] or [[simplicial set|simplicial sets]].
-
-The consistent combination of these two is 
-
-* [[homotopy coherent category theory]] or [[enriched homotopy theory]].
+    * [[triangulated category]]
 
 
-## Literature
+
+
+### 1-categorical models
+
+* [[homotopical category]]
+
+* [[model category|model category theory]]
+
+* [[enriched category theory]]
+
+
+
+
+
+## References
 
 For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
 
