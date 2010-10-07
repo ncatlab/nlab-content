@@ -88,12 +88,12 @@ $$
 
 is a [[homotopy equivalence]] of [[Kan complex]]es.
 
-We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$.
+We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on simplicial algebras]].
 
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a category with finite [[product]], and let $sAlg(C) \subset Func(C,sSet)$ be the [[full subcategory]] of the [[functor category]] from $C$ to [[sSet]] on those functors that preserve these products.  
+Let $C$ be a [[category]] with finite [[product]]s, and let $sAlg(C) \subset Func(C,sSet)$ be the [[full subcategory]] of the [[functor category]] from $C$ to [[sSet]] on those functors that preserve these products.  
 
 Then $sAlg(C)$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are objectwise those in the standard [[model structure on simplicial sets]]. 
 
@@ -103,7 +103,7 @@ This is due to
 
 * [[Dan Quillen]], _Homotopical Algebra_ Lectures Notes in Mathematics 43, SpringerVerlag, Berlin, (1967)
 
-The inclusion $i : sAlg(C) \hookrightarrow sPSh(C^{op})_{proj}$ into the projective [[model structure on simplicial presheaves]] evidently preserves fiibrations and acylclic fibrations and gives a [[Quillen adjunction]]
+The inclusion $i : sAlg(C) \hookrightarrow sPSh(C^{op})_{proj}$ into the projective [[model structure on simplicial presheaves]] evidently preserves fibrations and acylclic fibrations and gives a [[Quillen adjunction]]
 
 $$
   sAlg(C)_{proj}
