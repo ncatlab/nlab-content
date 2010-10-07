@@ -17,6 +17,10 @@ It is clear how to define then the morphisms of internal diagrams. Internal diag
 
 From an internal diagram $(F,C,\lambda,e)$ one can equip $F =(F_0,F_1)$ with a strcuture of an internal category over $C$. In other words, there is a forgetful functor $E^C\to Cat(E)/C$ (where $Cat(E)/C$ is the corresponding [[slice category]]). This functor is fully faithful and its essential image consists precisely of all objects in $Cat(E)/C$ which are [[discrete fibration]]s. 
 
+## Internal diagram in an indexed category
+
+Internal diagrams in fibrations or indexed categories are at the moment  sketched in the corresponding section of [[internal profunctor]]. 
+
 ## References
 
 * [[P. T. Johnstone]], _Topos theory_, 1977, chapter 2 
