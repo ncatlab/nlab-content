@@ -8,6 +8,18 @@
 =--
 =--
 
+* **category**
+
+* [[2-category]]
+
+* [[3-category]]
+
+* [[n-category]]
+
+* [[(n,r)-category]]
+
+***
+
 # Contents
 * automatic table of contents goes here
 {:toc}
