@@ -6,76 +6,33 @@ $$
 is **split** if it can be embedded into a diagram
 
 $$
-\begin{svg}
-<svg width="112" height="61" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="48015">
+A\xrightarrow[\quad e \quad]{\overset{\scriptsize{s}}{\begin{svg}
+<svg width="31" height="11" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="56258">
  <g>
   <title>Layer 1</title>
-  <foreignObject height="42" width="112" font-size="16" id="svg_48015_1" y="19.491677" x="0">
-   <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
-    <semantics>
-     <mrow>
-      <mpadded lspace="-50%width" width="0">
-       <mrow>
-        <mi>A</mi>
-        <munder>
-         <mo>&#8594;</mo>
-         <mrow>
-          <mspace width="1em"/>
-          <mi>e</mi>
-          <mspace width="1em"/>
-         </mrow>
-        </munder>
-        <mi>B</mi>
-        <munderover>
-         <mo stretchy="true">&#8649;</mo>
-         <mrow>
-          <mspace width="1em"/>
-          <mi>g</mi>
-          <mspace width="1em"/>
-         </mrow>
-         <mi>f</mi>
-        </munderover>
-        <mi>C</mi>
-       </mrow>
-      </mpadded>
-     </mrow>
-     <annotation encoding="application/x-tex">\mathclap{A\xrightarrow[\quad e \quad]{}B\underoverset{\quad g \quad}{f}{\rightrightarrows}C}</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <path fill="none" stroke="#000000" d="m63.583351,32.549999c13.519966,-19.398649 19.108238,-19.52702 30.125008,0.027042" id="svg_48015_2" marker-start="url(#se_marker_start_svg_48015_2)"/>
-  <path fill="none" stroke="#000000" d="m16.17498,33.94997c9.440479,-9.454929 17.148819,-9.609211 27.625038,0.192581" marker-start="url(#se_marker_start_svg_48015_3)" id="svg_48015_3"/>
-  <foreignObject x="76.075001" y="0" id="svg_48015_4" font-size="14" width="12" height="18">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <semantics>
-     <mrow>
-      <mi>t</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">t</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <foreignObject x="23.991668" y="8.500001" font-size="14" width="12" height="18" id="svg_48015_5">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <semantics>
-     <mrow>
-      <mi>s</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">s</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
+  <path fill="none" stroke="#000000" d="m2.436699,8.563251c9.440479,-9.454929 17.148819,-9.609211 27.625038,0.192581" marker-start="url(#se_marker_start_svg_56258_3)" id="svg_56258_3"/>
  </g>
  <defs>
-  <marker id="se_marker_start_svg_48015_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
-   <path id="svg_48015_6" d="m0,50l100,40l-30,-40l30,-40l-100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
-  </marker>
-  <marker id="se_marker_start_svg_48015_3" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
-   <path id="svg_48015_7" d="m0,50l100,40l-30,-40l30,-40l-100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_56258_3">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m0,50l100,40l-30,-40l30,-40l-100,40z" id="svg_56258_7"/>
   </marker>
  </defs>
 </svg>
-\end{svg}\includegraphics[width=86]{SplitFork}
+\end{svg}\includegraphics[width=23]{curvedArrow1}
+}}B\underoverset{\quad g \quad}{\mathclap{\overset{\scriptsize{t}}{\begin{svg}
+<svg width="33" height="18" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="69468">
+ <g>
+  <title>Layer 1</title>
+  <path marker-start="url(#se_marker_start_svg_69468_2)" id="svg_69468_2" d="m2.12632,15.467968c13.519966,-19.398649 19.108238,-19.52702 30.125008,0.027042" stroke="#000000" fill="none"/>
+ </g>
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_69468_2">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m0,50l100,40l-30,-40l30,-40l-100,40z" id="svg_69468_6"/>
+  </marker>
+ </defs>
+</svg>
+\end{svg}\includegraphics[width=24]{curvedArrow2}
+}}f}{\rightrightarrows}C
 $$
 in which $s e = id_A$, $t g = id_B$ and $t f = e s$ (we used here Leibniz order for [[composition]] of morphisms). 
 
