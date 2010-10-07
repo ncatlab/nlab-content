@@ -33,7 +33,7 @@ $$
   \eta : C_{(n-1)} \to D^{\Delta^1}
 $$
 
-on the strict $(n-1)$-category obtained from $C$ by discarding the $n$-cells.  (Of course, not every such $(n-1)$-functor determines such a transformation; the missing condition is "naturality" at the top level.
+on the strict $(n-1)$-category obtained from $C$ by discarding the $n$-cells.  (Of course, not every such $(n-1)$-functor determines such a transformation; the missing condition is "naturality" at the top level.)
 
 Analogous statements hold for general (weak) [[n-categories]], although they are more complicated to formulate; see below.
 
@@ -222,7 +222,7 @@ $$
 
 (where the superscript $S$ is to remind us that this may be [[cobordism]]s equipped with some extra [[stuff, structure, property|structure]]).
 
-It follows that with $Z_1, Z_2$ two such $n$-dimensional QFTs, a transformation $B : Z_1 \Rightarow Z_2$ does look in components itself like an QFT -- which is _zwisted_ by $Z_1$ and $Z_2$ in some sense (see [below]()) -- , but in dimension $(n-1)$.
+It follows that with $Z_1, Z_2$ two such $n$-dimensional QFTs, a transformation $B : Z_1 \Rightarrow Z_2$ does look in components itself like an QFT -- which is _twisted_ by $Z_1$ and $Z_2$ in some sense (see [below]()) -- , but in dimension $(n-1)$.
 
 More specifically, if $\mathcal{C}$ is a [[symmetric monoidal (∞,n)-category]] with tensor unit $1$ there is the trivial FQFT $\mathbf{1}$ given by the constant $(\infty,n)$-functor $\mathbf{1} : Bord_n \to \mathcal{C}$.
 
@@ -232,7 +232,7 @@ $$
   B : Z \Rightarrow \mathbf{1}
 $$
 
-encode boundary _boundary conditions_ on cobordisms with boundary for the theory $Z$. Conversely, this means that one discovers on the boundary of the $n$-dimensional QFT $Z$ the $(n-1)$-dimensional QFT $B$. Or rather, this is the case if instead of [[natural transformation]]s $\eta$ one uses [[canonical transformation]]s: those component maps $\eta : C_{n-1} \to D^{I}$ that are required to be natural only with respect to the invertible $(n-1)$-morphisms in $C$.
+encode _boundary conditions_ on cobordisms with boundary for the theory $Z$. Conversely, this means that one discovers on the boundary of the $n$-dimensional QFT $Z$ the $(n-1)$-dimensional QFT $B$. Or rather, this is the case if instead of [[natural transformation]]s $\eta$ one uses [[canonical transformation]]s: those component maps $\eta : C_{n-1} \to D^{I}$ that are required to be natural only with respect to the invertible $(n-1)$-morphisms in $C$.
 
 For the case of $n=2$ and 2-dimensional cobordisms without any extra structure, a detailed version of these statements are given in ([Schommer-Pries](#SchommerPries)). For $n=3$ and the holographic relation between [[Reshetikhin?Turaev model]] and rational 2d [[CFT]] in [[FFRS-formalism]] some remarks are in ([Schreiber](#Schreiber)).
 
@@ -242,7 +242,7 @@ In the study of [[quantum field theory]] and [[string theory]] such kinds of rel
 
   This is probably the oldest known holographic relation between QFTs.
 
-* In the 2-d QFT called the [[Poisson sigma-model]] with target the [[Poisson Lie algebroid]] comind from a [[Poisson manifold]] the boundary 3-point function computes the [[deformation quantization]] of the classical system described by that Poisson manifold. 
+* In the 2-d QFT called the [[Poisson sigma-model]] with target the [[Poisson Lie algebroid]] coming from a [[Poisson manifold]] the boundary 3-point function computes the [[deformation quantization]] of the classical system described by that Poisson manifold. 
 
   (This was in fact used implicitly by [[Maxim Kontsevich]] to solve deformation quantization. The relation to the Poisson sigma-model was made explicit by Cattaneo and Felder.)
 
