@@ -1,6 +1,19 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -13,7 +26,7 @@ The [[model category|model structure]] $sPSh(C)$ on [[sSet]]-[[enriched functor 
 
 It generalizes the [[model structure on simplicial presheaves]] which is the special case obtained when $C$ happens to be just an ordinary [[category]].
 
-This means that in as far as the [[model structure on simplicial presheaves]] models [[∞-stack]]s, the model structure on [[sSet]]-[[enriched category|enriched categories]] models things like [[derived stack]]s.
+This means that in as far as the [[model structure on simplicial presheaves]] models [[∞-stack]]s, the model structure on [[sSet]]-[[enriched category|enriched categories]] model [[derived stack]]s.
 
 ## Definition 
 
