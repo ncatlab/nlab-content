@@ -1,6 +1,18 @@
 ## Definition
 
-A [[functor]] $F: C \to B$ is a **discrete fibration** if for every object $c$ in $C$, and every morphism of the form $g : b\to F(c)$ in $B$ there is a unique morphism $h : d\to c$ in $C$ such that $F(h) = g$.  For a generalisation, see [[Grothendieck fibration]].
+A [[functor]] $F: C \to B$ is a **discrete fibration** if for every object $c$ in $C$, and every morphism of the form $g : b\to F(c)$ in $B$ there is a unique morphism $h : d\to c$ in $C$ such that $F(h) = g$.  
+
+A functor $F: C \to B$ is a **discrete opfibration** if $F^{op}:C^{op}\to B^{op}$ is a discrete fibration. 
+
+A discrete fibration is a special case of a [[Grothendieck fibration]].
+
+Given a cartesian category $E$, [[internal categories]] $C,B$ in $E$, an internal functor $F: C \to B$ is a **discrete fibration of internal categories** if the square
+$$\begin{matrix}
+C_1 &\stackrel{F_1}\to& B_1\\
+d_0\downarrow && \downarrow d_0\\
+C_0 &\stackrel{F_0}\to& B_0
+\end{matrix}$$
+is cartesian.
 
 ## Discussion via category of elements
 
