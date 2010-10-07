@@ -95,9 +95,17 @@
 
 * [[canonical model structure|on strict ∞-groupoids]]
 
-* [[model structure on chain complexes|on chain complexes]]/[[model structure on cosimplicial abelian groups]] (related by [[Dold-Kan correspondence]])
+* [[model structure on chain complexes|on chain complexes]]/[[model structure on cosimplicial abelian groups]] 
 
-* [[model structure on dg-algebras|on dg-algebras]]/[[model structure on dg-coalgebras|on dg-coalgebras]] and on [[model structure on cosimplicial rings|on cosimplicial rings]] (related by [[monoidal Dold-Kan correspondence]])
+   related by the [[Dold-Kan correspondence]]
+
+### for $\infty$-algebras
+
+* [[model structure on simplicial T-algebras]]
+
+* [[model structure on dg-algebras|on dg-algebras]]/[[model structure on dg-coalgebras|on dg-coalgebras]] and on [[simplicial ring|on simplicial rings]][[model structure on cosimplicial rings|on cosimplicial rings]] 
+
+  related by the [[monoidal Dold-Kan correspondence]]
 
 
 ### for $(\infty,1)$-categories
