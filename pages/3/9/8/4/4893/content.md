@@ -176,7 +176,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
 
   where on the right we have the 2-category whose objects are morphisms in $D$, whose morphisms are squares in $D$ and whose 2-morphisms are cylinders bounded by these squares.
 
-### Formalizations
+### Formalizations {#Formalizations}
 
 
 For [[strict ∞-categories]] modeled as globular [[strict ∞-categories]] we have the following simple statement of the general principle.
