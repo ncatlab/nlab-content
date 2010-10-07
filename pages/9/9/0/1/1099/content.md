@@ -136,7 +136,7 @@ One sees easily in low degrees that this does look like the a [[pseudofunctor]] 
      F : (x \stackrel{f}{\leftarrow} y) \mapsto (F(x) \stackrel{F(f)}{\to} F(y)
    $$
 
-  of morphisms in $C$ to morphisms in $KanCplx$, as befits a functor;
+   of morphisms in $C$ to morphisms in $KanCplx$, as befits a functor;
 
 1. the 2-cells of $N(C)$ are pairs of composable morphisms, so that on 2-cells we have that $F$ is an assignment
 
