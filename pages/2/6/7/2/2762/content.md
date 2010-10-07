@@ -1,21 +1,22 @@
 
 
-<div class="rightHandSide toc">
-
-
-[[!include higher geometry - contents]]
-
-***
-
-[[!include higher algebra - contents]]
-
-
-***
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-
-</div>
-
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 >**Abstract** We sketch some basic ideas ([[Jacob Lurie]]'s ideas, that is) about [[higher geometry]] motivated from the [[higher category theory|higher]] version of the [[moduli stack]] of [[elliptic curve]]s: the derived moduli stack of [[derived elliptic curve]]s. We survey aspects of the theory of [[generalized scheme]]s and then sketch how the derived moduli stack of derived elliptic curves is an example of a generalized scheme modeled on the formal dual of [[E-∞ ring]]s.
 
