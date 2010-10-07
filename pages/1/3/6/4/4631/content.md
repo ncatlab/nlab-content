@@ -106,9 +106,29 @@ While this numbering is very nice for augmented simplicial sets, it is not stand
 Anything that applies to [[simplicial sets]] should also apply to augmented simplicial sets, if one properly takes care of the [[negative thinking]] necessary to deal with $X_{-1}$.
 
 Every augmented simplicial set has an underlying unaugmented simplicial set found by forgetting $X_{-1}$ (and $d^{-1}_0$).  Conversely, every unaugmented simplicial set gives rise to a [[free object|free]] augmented simplicial set by augmentation over $\pi_0(X_0)$ (the set of [[connected component]]s of $X_0$) and a [[cofree object|cofree]] augmented simplicial set by augmentation over the [[point]] (the [[singleton set]]).  This defines [[adjunctions]]:
-
-![\xymatrix{\operatorname{Aug}\operatorname{Simp}\operatorname{Set}\ar[d]^{\vdash}_{\vdash}\\\operatorname{Simp}\operatorname{Set}\ar@/^1pc/[u]\ar@/_1pc/[u]}](http://latex.codecogs.com/gif.latex?\xymatrix{\operatorname{Aug}\operatorname{Simp}\operatorname{Set}\ar[d]^{\vdash}_{\vdash}\\\operatorname{Simp}\operatorname{Set}\ar@/^1pc/[u]\ar@/_1pc/[u]})
-
+$$
+\vdash\mathclap{\underoverset{\textsize{\operatorname{AugSimpSet}}}{\textsize{\operatorname{SimpSet}}}{\begin{matrix}\begin{svg}
+<svg width="47" height="66" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="12691">
+ <g>
+  <title>Layer 1</title>
+  <path fill="none" stroke="#000000" d="m15.14844,3c-21,22.035261 -18,43.469551 0,62.5" id="svg_12691_1" marker-start="url(#se_marker_start_svg_12691_1)"/>
+  <path fill="none" stroke="#000000" d="m31.500429,65.25c21.000002,-21.947319 18.000002,-43.295465 0,-62.25" id="svg_12691_2" marker-end="url(#se_marker_end_svg_12691_2)"/>
+  <line fill="none" stroke="#000000" x1="23.148436" y1="0.500004" x2="23.148436" y2="63.504595" id="svg_12691_3" marker-end="url(#se_marker_end_svg_12691_3)"/>
+ </g>
+ <defs>
+  <marker id="se_marker_start_svg_12691_1" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
+   <path id="svg_12691_4" d="m0,50l100,40l-30,-40l30,-40l-100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
+  </marker>
+  <marker id="se_marker_end_svg_12691_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
+   <path id="svg_12691_5" d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
+  </marker>
+  <marker id="se_marker_end_svg_12691_3" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
+   <path id="svg_12691_6" d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
+  </marker>
+ </defs>
+</svg>
+\end{svg}\includegraphics[width=35]{vertarrows}\end{matrix}}}\vdash
+$$
 
 ## Examples
 
