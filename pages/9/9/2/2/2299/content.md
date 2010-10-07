@@ -70,5 +70,3 @@ In many fields it is a traditionally a well-known tool that such resolutions enc
 For instance from the point of view of derived geometry, the [[Hochschild cohomology|Hochschild homology]] of a ring of functions on an object $X$ is the functions on the [[free loop space object]] $\mathcal{L}X$ of $X$. And the corresponding [[cyclic cohomology]] is the $S^1$-equivariant part of this, where the circle acts in the natural way on the derived loop space $\mathcal{L}X$. If nothing else, this geometric picture makes transparent all of the algebraic structures in [[Hochschild cohomology]] and [[cyclic cohomology]]. See there for more details.
 
 
-
-[[!redirects derived geometry]]
