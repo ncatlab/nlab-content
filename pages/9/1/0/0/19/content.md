@@ -196,35 +196,25 @@ Category theory has a handful of central lemmas and theorems. Their proof is typ
 * [[Tannaka duality]].
 
 
-## History
+## Applications
 
-Category theory was introduced by [[Samuel Eilenberg]] and [[Saunders Mac Lane]] in the 1945 paper **General theory of natural equivalences**. The reason for introducing [[category|categories]] was to introduce [[functor]]s, and the reason for introducing functors was to introduce [[natural transformation]]s (more specifically natural equivalences) in order to define what _natural_ means in mathematics. 
+### In pure mathematics
 
-The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
+Apart from its general role in mathematics, category theory provides the high-level language for
 
+* [[logic]] / [[type theory]]
 
+* [[higher algebra]]
 
-## Branches of category theory
+* [[higher geometry]] .
 
-A probably incomplete list is:
+### Outside of mathematics
 
-* Pure category theory (vaguely category theory without the use of any other branches of mathematics except essential concepts from them).
-* Categorical abstract algebra, including [[representation theory]] of abstract algebraic structures and [[universal algebra]].
-* [[homological algebra|Homological algebra]].
-* [[homotopical algebra|Homotopical algebra]].
-* Topology using categories. It includes [[algebraic topology]], [[categorical topology]] (see [[topological concrete category]] for a bit of this), [[quantum topology]], [[low-dimensional topology]].
-* [[internal logic|Categorical logic]] and [[set theory]] in the category-theoretic context such as [[algebraic set theory]].
-* [[foundations|Foundations]] of mathematics building on categories, for instance [[topos theory]].
-* Abstract [[geometry]], including [[algebraic geometry]] on the level of schemes and above, categorical [[noncommutative geometry]], different categorifications of [[differential geometry]], etc. 
-* [[categorical quantization|Categorical quantization]] (in mathematics).
-* [[applied category theory|Applied category theory]]. Especially to mathematical [[physics]], [[computer science]] and [[dynamical system]]s (categorical dynamics).
+Outside of pure mathematics, category theory finds major applications in
 
-Most of these include some [[higher category theory]].
+* fundamentsal [[physics]] -- see [[higher category theory and physics]].
 
-An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
-
-
-
+* theoretical [[computer science]].
 
 
 
@@ -263,62 +253,19 @@ A category may be thought of as a [[categorification]] of a [[poset]] rather tha
 See [[category theory vs order theory]] for more discussion.
 
 
-## Generalizations and other structures
-
-### Generalizations of categories
-
-There are generalizations of categories in the sense that they are categories with extra structure which reduce to structures equivalent to categories when the extra structure is trivial.
-
-* [[internal category|Internal categories]]
-* [[enriched category|Enriched categories]]
-* [[category over an operad|Categories over operads]]
-* [[strict n-category|Strict n-categories]]
-* [[weak n-category|Weak n-categories]]
-* [[multiple category|Multiple categories]]
-* [[multicategory|Multicategories]]
-* [[polycategory|Polycategories]]
-* [[supercategory|Supercategories]]
-* [[allegory|Allegories]]
-* [[actegory|Actegories]]
-* [[simplicial set|Simplicial sets]]
-* [[opetopic set|Opetopic sets]]
-* [[complicial set|Complicial sets]]
-
-
-### Other structures
-
-These are a part of category theory even if they are not categories or reduce to categories as a special case.
-
-* [[operad|Operads]]
-* [[derivation scheme|Derivation schemes]] (for deriving categories)
-* [[computad|Computads]] (a special case of a derivation scheme when the underlying category is a free 2-category)
-* [[pseudocategory|Pseudocategories]] (nonstrict internal categories)
-* [[sesquicategory|Sesquicategories]]
-* [[monad|Monads]]
-* [[sketch|Sketches]] (models of sketches give categories or more generally internal categories)
-* [[doctrine|Doctrines]]
-
-
-## Applied category theory
-
-Here are some fields to which category theory has been applied; ultimately we should have articles on all of them.
-
-* [[physics]] (ex: categorical spacetime in quantum gravity, the category of elementary particles and particle interactions, graphical representation of quantum systems in quantum mechanics, AQFT, higher gauge theory, Feynman diagrams, quantization of physical systems and string theory)
-* [[computer science]] (ex: data types, artificial intelligence, programming language semantics)
-* [[categorical dynamics]]
-* [[neural network]]s
-* [[psychology]] (ex: perception, cognition, consciousness, teaching, knowledge)
-* [[chemistry]] (the category of chemical elements and chemical reactions)
-* [[nuclear physics]] (the category of atomic nuclei and nuclear reactions, graphical calculus for spin)
-* [[biology]] (ex: detecting life, organismic supercategories)
-* [[linguistics]]
-* [[philosophy]]
-* [[music]]
-
 
 ## References
 
+### History
+
+Category theory was introduced by [[Samuel Eilenberg]] and [[Saunders Mac Lane]] in the 1945 paper **General theory of natural equivalences**. The reason for introducing [[category|categories]] was to introduce [[functor]]s, and the reason for introducing functors was to introduce [[natural transformation]]s (more specifically natural equivalences) in order to define what _natural_ means in mathematics. 
+
+The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
+
+
 ### Textbooks
+
+#### Basic category theory
 
 Standard category theory textbooks for which the $n$Lab currently provides detailed linked indexes are
 
@@ -344,27 +291,29 @@ The standard monographs on [[topos theory]] are
 
 * [[Peter Johnstone]], _Topos theory_, 1977.
 * [[Peter Johnstone]], _[[Elephant]]_
-* [[Robert Goldblatt]], _Topoi_
+* [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
+[free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
 
 Other texts include
 
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [free online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)
 
-(Here "triple" mean [[monad]]).
+(Here "triple" means [[monad]]).
 
-* [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
-[free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
 
 
 #### Higher category theory
+
+* [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([pdf](http://hal.archives-ouvertes.fr/docs/00/44/98/26/PDF/main.pdf))
+
+* Project description: higher categorical structures and their applications ([pdf] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf))
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
 
 * [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049) (see also Tom's online [notes](http://www.maths.gla.ac.uk/~tl/msci) on basic category theory)
 
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
-
-* Project description: higher categorical structures and their applications ([pdf] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf))
 
 ### Course notes
 
