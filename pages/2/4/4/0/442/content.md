@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+* [[algebraic theory]] / **Lawvere theory** /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
+
+***
+
 # Contents
 * automatic table of contents goes here
 {:toc}
@@ -355,7 +373,7 @@ in $T_2 Alg$.
 +-- {: .un_prop}
 ###### Proposition
 
-For $T$ a Lawvere algebra, the category $T Alg$ has all small [[limit]]s and [[colimit]]s. 
+For $T$ a Lawvere theory, the category $T Alg$ has all small [[limit]]s and [[colimit]]s. 
 
 The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
