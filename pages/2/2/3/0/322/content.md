@@ -9,6 +9,15 @@
 =--
 =--
 
+* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* **operad** / [[(∞,1)-operad]]
+
+***
+
+
 
 #Contents#
 * automatic table of contents goes here
