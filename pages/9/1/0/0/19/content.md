@@ -44,7 +44,7 @@ $$
   \,.
 $$
 
-Later this will lead naturally on to an infinite sequence of steps:  first 2-category theory which focuses on relation between relations, morphisms between morphisms: 2-morphisms, then 3-category theory, etc. and to various variants, [[bicategories]], [[Gray categories]] .... Eventually this leads to higher category theory, where one considers k-morphisms in all dimensions and to a wealth of interacting intuitions and concepts.
+Later this will lead naturally on to an infinite sequence of steps:  first [[2-category theory]] which focuses on relation between relations, morphisms between morphisms: [[2-morphism]]s, then 3-category theory, etc. and to various variants, [[bicategories]], [[Gray categories]] .... Eventually this leads to [[higher category theory]], where one considers $k$-morphisms in all dimensions and to a wealth of interacting intuitions and concepts.
 
 =--
 
@@ -197,6 +197,10 @@ Category theory has a handful of central lemmas and theorems. Their proof is typ
 
 
 ## Applications
+
+For a detailed list of applications see
+
+* [[applications of (higher) category theory]].
 
 ### In pure mathematics
 
