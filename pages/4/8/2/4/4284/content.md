@@ -122,7 +122,7 @@ This page lists counterexamples in [[algebra]].
 1. An [[exact sequence]] that does not [[split sequence|split]]:
 
    $$
-   0 \stackrel{\times 2}{\to} \mathbb{Z} \to \mathbb{Z} \to \mathbb{Z}/2\mathbb{Z} \to 0
+   0 \to \mathbb{Z} \stackrel{\times 2}{\to} \mathbb{Z} \to \mathbb{Z}/2\mathbb{Z} \to 0
    $$
 
 ## Galois Theory
