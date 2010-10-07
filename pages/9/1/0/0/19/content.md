@@ -44,7 +44,7 @@ $$
   \,.
 $$
 
-This is but the first in an infinite sequence of steps: [[2-category theory]] which focuses on relation between relations, morphisms between morphisms: [[2-morphisms]]. Eventually this leads to [[higher category theory]], where one considers [[k-morphism]]s _ad infinitum_ .
+Later this will lead naturally on to an infinite sequence of steps:  first 2-category theory which focuses on relation between relations, morphisms between morphisms: 2-morphisms, then 3-category theory, etc. and to various variants, [[bicategories]], [[Gray categories]] .... Eventually this leads to higher category theory, where one considers k-morphisms in all dimensions and to a wealth of interacting intuitions and concepts.
 
 =--
 
