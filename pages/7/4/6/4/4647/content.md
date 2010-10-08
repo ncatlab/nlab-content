@@ -1,6 +1,6 @@
-Given a pair $L\dashv R$ of adjoint functors, $L:A\to B:R$, with counit $\epsilon$ and unit $\eta$, one forms a comonad $\mathbf{\Omega} = (\Omega, \delta,\epsilon)$ by $\Omega := LR$, $\delta := L\eta R$. $\mathbf{\Omega}$ comodules form a category $B_{\mathbf{\Omega}}$ and there is a natural comparison functor $K = K_{\mathbf{\Omega}} : A\to B_{\mathbf{\Omega}}$ given by $A\mapsto (LA,LA\stackrel{L(\eta_A)}\to LRLA)$. 
+Given a pair $L\dashv R$ of [[adjoint functors]], $L:A\to B:R$, with counit $\epsilon$ and unit $\eta$, one forms a [[comonad]] $\mathbf{\Omega} = (\Omega, \delta,\epsilon)$ by $\Omega := LR$, $\delta := L\eta R$. $\mathbf{\Omega}$ comodules form a category $B_{\mathbf{\Omega}}$ and there is a natural comparison functor $K = K_{\mathbf{\Omega}} : A\to B_{\mathbf{\Omega}}$ given by $A\mapsto (LA,LA\stackrel{L(\eta_A)}\to LRLA)$. 
 
-A functor $L:A\to B$ is __comonadic__ if it has a right adjoint $R$ and the corresponding comparison functor $K$ is an equivalence of categories. 
+A functor $L:A\to B$ is __comonadic__ if it has a right adjoint $R$ and the corresponding comparison functor $K$ is an [[equivalence of categories]].  The adjunction $L\dashv R$ is said to be a **comonadic adjunction**.
 
 Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, observe that for every $\Omega$-comodule $(N,\rho)$, 
 
@@ -133,8 +133,12 @@ Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, o
 </svg>
 =--
 
-manifestly exhibits a _split equalizer_ sequence.
+manifestly exhibits a [[split equalizer]] sequence.
 
 ...
 
 [[!redirects comonadic functor]]
+[[!redirects comonadic functors]]
+[[!redirects comonadicity theorem]]
+[[!redirects comonadic adjunction]]
+[[!redirects comonadic adjunctions]]
