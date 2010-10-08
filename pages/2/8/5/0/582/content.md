@@ -45,19 +45,9 @@ The dual concept is that of a [[regular epimorphism]].
 
 ## Properties
 
-### General
-
-+-- {: .un_lemma}
-###### Lemma
-{#CokernelPairLemma}
-
-In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorphism is the same as a morphism that is an equalizer of its cokernel pair. 
-=--
-
-
 ### Relation to effective monomorphisms 
 
-Recall that a monomorphism $i: A \to B$ is [[effective monomorphism|effective]] if the [[pushout]]
+A monomorphism $i: A \to B$ is an [[effective monomorphism]] if it is the [[equalizer]] of its [[cokernel pair]]: if the [[pushout]]
 
 $$\array{
 A & \stackrel{i}{\to} & B \\
@@ -79,8 +69,17 @@ $$f j = \phi i_1 j = \phi i_2 j = g j$$
 and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique map $k: E \to A$ such that $j = i k$. Since $i_1 i = i_2 i$, there is a unique map $l: A \to E$ such that $i = j l$. The maps $k$, $l$ are mutually inverse. 
 =-- 
 
+{#RegEquEff}
++-- {: .un_lemma}
+###### Lemma
+In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorphism is precisely an effective monomorphism.
+=--
 
-## Examples
+
+
+
+
+## Examples {#Examples}
 
 * In [[Set]], or more generally in any [[pretopos]], every [[monomorphism]] is regular.
 
@@ -95,7 +94,7 @@ In [[Top]], the monics are the injective functions, while the regular monos are 
 +-- {: .proof}
 ###### Proof
 
-Use the [above lemma](#CokernelPairLemma).
+Use the [above lemma](#RegEquEff).
 
 If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the quotient topology on a disjoint sum). The equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the subspace topology. Since monos in $Set$ are regular, we get the function $i$ back with the subspace topology. This completes the proof. 
 =--
@@ -106,13 +105,103 @@ If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i
 In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular
 =--
 
-This is more difficult to prove than in the preceding cases.  
-(See [exercise 7H](http://katmat.math.uni-bremen.de/acc/acc.pdf#page=129) of ([AdamekHerrlichStrecker](#AdamekHerrlichStrecker))).  In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
+In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
 
 +-- {: .proof}
 ###### Proof
 
-A proof ought to proceed along similar lines as above for $Top$, where the cokernel pair is given by an amalgamated coproduct or [[free product]]. 
+We follow [exercise 7H](http://katmat.math.uni-bremen.de/acc/acc.pdf#page=129) of ([AdamekHerrlichStrecker](#AdamekHerrlichStrecker)).
+
+Let $K \hookrightarrow H$ be a finite subgroup. We 
+need to define another group $G$ and group homomorphisms 
+$f_1, f_2 : H \to G$ such that
+
+$$
+  K = \{h \in H  | f_1(h) = f_2(h)\}
+  \,.
+$$
+
+To that end, let 
+
+$$
+  X  := H/K  \coprod  \{\hat K\}  := \{ h K | h \in H \}  \coprod  \{\hat K\} 
+$$
+
+be the set of [[coset]]s together with one more element $\hat K$.
+
+Let then
+
+$$ 
+  G = Aut_{Set}(X)
+$$
+
+be the [[permutation group]] on $X$. 
+
+Define $\rho \in G$ to be the permutation that exchanges the coset $e K$ with the extra element $\hat K$ and is the identity on all other elements.
+
+Finally define group homomorphism $f_1,f_2 : H \to G$ by
+
+$$
+  f_1(h) : x \mapsto 
+  \left\{
+     \array{
+        h h' K & if x = h' K
+        \\
+        \hat K & if x = \hat K
+     }
+  \right.
+$$
+
+and
+
+$$
+  f_2(h) = \rho \circ f_1(h) \circ \rho^{-1}
+  \,.
+$$
+
+It is clear that these maps are indeed group homomorphisms.
+
+So for $h \in H$ we have that 
+
+$$
+  f_1(h) : \hat K \mapsto \hat K
+  \,,
+$$
+
+and
+
+$$
+  f_1(h) : e K \mapsto h K
+$$
+
+and
+
+$$
+  f_2(h) 
+  : 
+  \hat K 
+   \mapsto 
+  e K 
+    \mapsto 
+   h K 
+   \mapsto 
+  \left\{
+    \array{
+     \hat K & if h \in K
+     \\
+     h K & otherwise
+   }
+   \right.
+  \,.
+$$
+
+$$
+  f_2(h) : e K \mapsto \hat K \mapsto \hat K \mapsto e K
+  \,.
+$$
+
+So we have $f_1(h) = f_2(h)$ precisely if $h \in K$.
+
 =--
 
 
@@ -133,7 +222,7 @@ Accordingly, it is not unreasonable to define a regular monomorphism for instanc
 
 In practice this is of particular relevance for the $\infty$-version of [[regular epimorphism]]s: with the analogous definition as described there, a morphism $f : c \to d$ is a [[regular epimorphism]] in an [[(∞,1)-category]] $C$ if for all objects $e \in C$ the induced morphism $f^* : C(d,e) \to C(c,e)$ is a [[regular monomorphism]] in [[∞Grpd]] (for instance [[model structure on simplicial sets|modeled]] by a [[homotopy limit]] over a cosimplicial diagram in [[SSet]]).
 
-**Warning** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. 
+**Warning.** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. 
 
 ## References
 
