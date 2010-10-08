@@ -9,3 +9,9 @@ This means that there is a morphism $f_t \colon a \to a_t$ and a 2-cell $\lambda
 * The motivating example is that of [[Kleisli categories]] for monads in [[Cat]].
 
 * In a ([[locally ordered]]) [[bicategory of relations]], the Kleisli object of a monad $t$ is part of a [[splitting]] of $t$ as an [[idempotent]].
+
+## References
+
+* [[R. Street]], _The formal theory of monads_, J. Pure Appl. Alg. __2__, 149&#8211;168 (1972)
+
+[[!redirects Kleisli objects]]
