@@ -10,6 +10,14 @@ This means that there is a morphism $f_t \colon a \to a_t$ and a 2-cell $\lambda
 
 * In a ([[locally ordered]]) [[bicategory of relations]], the Kleisli object of a monad $t$ is part of a [[splitting]] of $t$ as an [[idempotent]].
 
+* In the bicategory [[Prof]] of [[profunctors]], a monad on a category $A$ consists of a category $B$ equipped with a [[bijective-on-objects functor]] $A\to B$.  Its Kleisli object in $Prof$ is simply the category $B$.
+
+## Remarks
+
+* A Kleisli object in a 2-category $K$ is the same as an [[Eilenberg-Moore object]] in $K^{op}$; see [[opposite 2-category]].  Kleisli objects for monads in $K^{co}$ can be identified with Kleisli objects for [[comonads]] in $K$.
+
+* A Kleisli object can equivalently be defined as a particular sort of [[weighted limit|weighted]] [[2-colimit]].
+
 ## References
 
 * [[R. Street]], _The formal theory of monads_, J. Pure Appl. Alg. __2__, 149&#8211;168 (1972)
