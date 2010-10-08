@@ -23,12 +23,11 @@
 
 ## Idea
 
-The tools of [[category theory]] and [[higher category theory]] serve to organize other structures. There is a plethora of applications that become transparent only from the [[nPOV]]. There are whole fields which cannot even be conceived without the language of higher category theory. This page lists and discusses examples.
-
 > I don't want you to think all this is theory for the sake of it, or rather for the sake of itself. It's theory for the sake of other theory.
 
 > ([[Jacob Lurie|J. Lurie]], [ICM 2010](http://gowers.wordpress.com/2010/08/31/icm2010-spielman-csornyei-lurie/))
 
+The tools of [[category theory]] and [[higher category theory]] serve to organize other structures. There is a plethora of applications that have proven to be much more transparent when employing the [[nPOV]]. Higher category theory has helped foster entire new fields of study that would have been difficult to conceive otherwise. This page lists and discusses examples.
 
 ## Examples
 
@@ -46,23 +45,22 @@ In all notions of [[generalized smooth space]]s all pullbacks do exist. But they
 
 
 Recent developments in [[higher category theory]], such as the concept of higher [[Structured Spaces]] based on [[Higher Topos Theory]], put all these notions of generalized geometries into a unified picture of [[higher geometry]] that realizes old ideas about how category theory provides a language for [[space and quantity]] in great detail and powerful generality and sheds new light on old [[classical mathematics|classical]] problems such the description of the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli stack of derived elliptic curves]] and the construction of the [[tmf]] [[spectrum]] from it.
-This construction is probably literally _unthinkable_ without adopting the $n$-point of view when approaching it. Using this point of view, the general strategy for approaching it however becomes naturally evident.
+This construction has benefited tremendously from the adoption of the [[nPOV]]. Using this point of view, the general strategy becomes naturally evident.
 
 #### In differential equations {#DiffEqu}
 
 Much of [[topological vector space]] theory, e.g., the theory of [[distribution]]s, [[nuclear space]]s, etc. has its origins in [[partial differential equation]] theory and is intensely conceptual (categorical) in spirit. It is routine these days to accept distributional solutions, but it wasn't always so, and it was the efficacy of the abstract TVS theory which changed people's minds.
 
-Way back Cartan studied differential equations in terms of [[exterior differential system]]s. From the $n$POV, these may be understood naturally as nothing but sub [[Lie ∞-algebroid]]s of a [[tangent Lie algebroid]]. 
+Way back Cartan studied differential equations in terms of [[exterior differential system]]s. From the $n$POV, these may be understood naturally as sub [[Lie ∞-algebroid]]s of a [[tangent Lie algebroid]].
 
-[[Bill Lawvere]] noticed in the 1960s that the notion of differential equation makes sense in any [[smooth topos]] (as described [here](http://ncatlab.org/nlab/show/differential+equation#InSynthDiff)). In his highly influental article _Categorical dynamics_ he promoted the point of view that all things [[differential geometry|differential geometric]] can be formulated in abstract category theory internal to a suitable [[topos]]. This is the origin of [[synthetic differential geometry]]. It may be understood as providing the fundamental characterization of the notion of the [[infinitesimal space|infinitesimal]].
+[[Bill Lawvere]] noticed in the 1960s that the notion of differential equation makes sense in any [[smooth topos]] (as described [here](http://ncatlab.org/nlab/show/differential+equation#InSynthDiff)). In his highly influential article _Categorical dynamics_ he promoted the point of view that all things [[differential geometry|differential geometric]] can be formulated in abstract category theory internal to a suitable [[topos]]. This is the origin of [[synthetic differential geometry]]. It may be understood as providing the fundamental characterization of the notion of the [[infinitesimal space|infinitesimal]].
 
 Closely related to both these perspectives, a modern point of view on differential equations that is proving to be very fruitful regards them as part of the theory of [[D-module]]s. 
 
 
-
 ### In cohomology
 
-Thousands of definitions of notions of cohomology and its variants. From the $n$POV, just a single concept: an [[derived hom space|∞-categorical hom-space]] in an [[(∞,1)-topos]]. See [[cohomology]].
+A multitude of notions of cohomology and its variants are unified from the $n$POV when viewed as [[derived hom space|∞-categorical hom-spaces]] in [[(∞,1)-topoi]]. See [[cohomology]].
 
 ### In homotopy theory {#InHomotopyTheory}
 
