@@ -1,9 +1,25 @@
-##Big picture##
+# Distributive laws
+
+* table of contents
+{:toc}
+
+## Idea
+
+Sometimes in [[mathematics]] we want to consider objects equipped with two different types of [[structure]] which interact in a suitable way.  For instance, a [[ring]] is a [[set]] equipped with both (1) the structure of an (additive) [[abelian group]] and (2) the structure of a (multiplicative) [[monoid]], which satisfy the distributive laws $a\cdot (b+c) = a\cdot b + a\cdot c$ and $a\cdot 0 = 0$.
+
+Abstractly, there are two [[monads]] on the [[category]] [[Set]], one (call it $\mathbf{T}$) whose [[algebra over a monad|algebras]] are abelian groups, and one (call it $\mathbf{S}$) whose algebras are monoids, and so we might ask "can we construct, from these two monads, a third monad whose algebras are rings?"  Such a monad would assign to each set $X$ the [[free object|free]] ring on that set, which consists of formal sums of formal products of elements of $X$---in other words, it can be identified with $T(S(X))$.  Thus the question becomes "given two monads $\mathbf{T}$ and $\mathbf{S}$, what further structure is required to make the composite $T S$ into a monad?"
+
+It is easy to give $T S$ a unit, as the composite $Id \xrightarrow{\eta^S} S \xrightarrow{\eta^T} T S$, but to give it a multiplication we need a transformation from $T S T S$ to $T S$.  We naturally want to use the multiplications $\mu^T\colon T T \to T$ and $\mu^S\colon S S \to S$, but in order to do this we first need to switch the order of $T$ and $S$.  However, if we have a transformation $\lambda\colon S T \to T S$, then we can define $\mu^{T S}$ to be the composite $T S T S \xrightarrow{\lambda} T T S S \xrightarrow{\mu^T\mu^S} T S$.
+
+Such a transformation, satisfying suitable axioms to make $T S$ into a monad, is called a *distributive law*, because of the motivating example relating addition to multiplication in a ring.  In that case, $S T X$ is a formal product of formal sums such as $(x_1 + x_2 + x_3)\cdot (x_4 + x_5)$, and the distributive law $\lambda$ is given by multiplying out such an expression formally, resulting in a formal sum of formal products such as $x_1\cdot x_4 + x_1 \cdot x_5 + x_2 \cdot x_4 + x_2 \cdot x_5 + x_3\cdot x_4 + x_3 \cdot x_5$.
+
+
+## Big picture
 
 [[monad|Monads]] in any [[2-category]] $C$ make themselves a 2-category $\mathrm{Mnd}$ in which 1-cells are either lax or colax morphisms of monads;
 by dualization the same is true for [[comonads]]. Monads internal to the 2-category of monads are called _distributive laws_. In particular, distributive laws themselves make a 2-category. There are other variants like distributive laws between a monad and an [[endofunctor]], "mixed" distributive laws between a monad and a comonad (the variants for algebras and coalgebras called [[entwining structure]]s), distributive laws between actions of two different monoidal categories on the same category, for [[PROP]]s and so on. Having a distributive law $l$ from one monad to another enables to define the composite monad $\mathbf T\circ_l\mathbf P$. This correspondence extends to a 2-functor $\mathrm{comp}:\mathrm{Mnd}(\mathrm{Mnd}(C))\to\mathrm{Mnd}(C)$. An analogue of this 2-functor in the mixed setup is a homomorphism of bicategories from the bicategory of entwinings to a bicategory of [[coring]]s.
 
-##Explicit definition##
+## Explicit definition
 
 A __distributive law__ from a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ to an endofunctor
 $P$ is a 2-cell $l : T P \Rightarrow P T$ such that
