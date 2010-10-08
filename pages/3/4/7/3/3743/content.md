@@ -4,7 +4,7 @@
 
 
 ## Idea
-Given an alphabet of letters and sybols (perhaps 'typed', so that certain symbols are peprhaps declared to be 'symbols for functions', e.g. '$+$ is a symbol for a binary operation', then one can form strings of letters to give words or more generally (well formed) formulae involving symbols of all types. 
+Given an alphabet of letters and symbols (perhaps 'typed', so that certain symbols are declared to be 'symbols for functions', etc., e.g. '$+$ is a symbol for a binary operation), then one can form strings of letters to give words or more generally (well formed) formulae involving symbols of all types. 
 
 In a rewriting system, one specifies a set of rules that describe valid replacements of subformulae by other ones
 
@@ -31,7 +31,7 @@ For a general reference see
 
 A classical foundational paper is 
 
-* A. Thue,  Probleme &#252;ber Ver&#228;nderungen von Zeichenreihen nach gegebenen Regeln., Kristiania Vidensk. 
+* Axel Thue,  Probleme &#252;ber Ver&#228;nderungen von Zeichenreihen nach gegebenen Regeln., Kristiania Vidensk. 
 Selsk, Skr. (1914), no. 10, 493&#8211;524.
 
 A key lemma is given in the beautiful paper:
@@ -39,9 +39,19 @@ A key lemma is given in the beautiful paper:
 * Maxwell Herman Alexander Newman, On theories with a combinatorial definition of "equivalence", Annals 
 of Mathematics 43 (1942), no. 2, 223&#8211;243. 
 
+For good references on word rewriting see
 
+*  Ronald V. Book and Friedrich Otto, String-rewriting systems, Texts and Monographs in Computer Science, 
+Springer-Verlag, 1993. 
+ and on term rewriting
 
-Some recent results on rewriting are to be fund in Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of relevance for $n$lab as it contains a strong result on coherence theory:
+* Franz Baader and Tobias Nipkow, Term rewriting and all that, Cambridge University Press, 1998. 
+
+and  
+
+*   _Terese_, Term rewriting systems, Cambridge Tracts in Theoretical Computer Science, vol. 55, Cambridge University Press, 2003. 
+
+Some recent results on rewriting are to be found in Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of relevance for $n$lab as it contains a strong result on coherence theory:
 
 * Tibor Beke, [Categorification, term rewriting and the Knuth-Bendix procedure](http://faculty.uml.edu/tbeke/knuth.pdf)
 
