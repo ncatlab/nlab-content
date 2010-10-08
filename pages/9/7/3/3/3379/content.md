@@ -22,7 +22,7 @@ Let $F: C \rightleftarrows D : G$ be an [[adjunction]] with unit $\eta$ and coun
 
 When these conditions hold, the adjunction is said to be **idempotent**.  It then follows that $F$ and $G$ restrict to an [[equivalence of categories]] between the [[full images]] of $F$ and of $G$ (which are, respectively, a [[reflective subcategory]] of $D$ and a coreflective subcategory of $C$).
 
-Note that if an idempotent adjunction is [[monadic adjunction|monadic]], then (up to equivalence) it consists of the inclusion and reflection of a [[reflective subcategory]] (i.e. the algebras for an [[idempotent monad]]).  Dually, if it is comonadic, it consists of the inclusion and coreflection of a coreflective subcategory.  Thus, the primary interest in isolating the notion of *idempotent adjunction* is when considering adjunctions which are neither monadic nor comonadic.
+Note that if an idempotent adjunction is [[monadic adjunction|monadic]], then (up to equivalence) it consists of the inclusion and reflection of a [[reflective subcategory]] (i.e. the algebras for an [[idempotent monad]]).  Dually, if it is [[comonadic adjunction|comonadic]], it consists of the inclusion and coreflection of a [[coreflective subcategory]].  Thus, the primary interest in isolating the notion of *idempotent adjunction* is when considering adjunctions which are neither monadic nor comonadic.
 
 
 ## Examples
