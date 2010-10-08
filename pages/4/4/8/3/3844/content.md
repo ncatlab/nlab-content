@@ -213,6 +213,10 @@ The [[model category]] [[presentable (infinity,1)-category|presentations]] of $(
 
 where it is shown that every such model is [[Quillen equivalence|Quillen equivalent]] to a left [[proper model category]]. The article uses a monadic definition of $(\infty,1)$-algebras.
 
+Strictification of algebras over $(\infty,1)$-algebraic theories is discussed in
+
+* Bernard Badzioch, _Algebraic theories in homotopy theory_ Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
+
 [[!redirects (infinity,1)-algebraic theory]]
 [[!redirects (infinity,1)-algebraic theories]]
 [[!redirects (∞,1)-algebraic theories]]
