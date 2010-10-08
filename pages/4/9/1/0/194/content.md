@@ -37,36 +37,21 @@ So in the hierachty of $n$-categories, the first step where 2-morphisms appear i
 There are different [[geometric shapes for higher structures]]: [[globe]]s, [[simplex|simplices]], [[cube]]s, etc. Accordingly, 2-morphisms may appear in different guises:
 
 A **globular** $2$-morphism looks like this:
-
 $$
-\begin{svg}
-<svg width="95" height="34" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="67270">
+a\mathrlap{\begin{matrix}\begin{svg}
+<svg width="76" height="37" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="79929">
  <g>
   <title>Layer 1</title>
-  <foreignObject height="20" width="95" font-size="16" id="svg_67270_1" y="4" x="0">
-   <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
-    <semantics>
-     <mrow>
-      <mi>a</mi>
-      <mspace width="2em"/>
-      <mo>&#8659;</mo>
-      <mspace width="2em"/>
-      <mi>b</mi>
-     </mrow>
-     <annotation encoding="application/x-tex">a\qquad\Downarrow\qquad b</annotation>
-    </semantics>
-   </math>
-  </foreignObject>
-  <path marker-end="url(#se_marker_end_svg_67270_2)" id="svg_67270_2" d="m10.875,13.23438c31.272522,-14.78223 42.439789,-16.42551 71.625,-1.25" stroke="#000000" fill="none"/>
-  <path id="svg_67270_13" marker-end="url(#se_marker_end_svg_67270_2)" d="m10.875,20.734381c32.646809,14.464769 39.485714,16.4624 70.125,1.75" stroke="#000000" fill="none"/>
+  <path marker-end="url(#se_marker_end_svg_79929_2)" id="svg_79929_2" d="m2,18.511721c31.272522,-14.782231 42.439789,-16.425501 71.625,-1.25" stroke="#000000" fill="none"/>
+  <path id="svg_79929_13" marker-end="url(#se_marker_end_svg_79929_2)" d="m2,24.511721c33.286949,14.464769 40.259941,16.4624 71.500008,1.75" stroke="#000000" fill="none"/>
  </g>
  <defs>
-  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_67270_2">
-   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40l100,40z" id="svg_67270_3"/>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_79929_2">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40l100,40z" id="svg_79929_3"/>
   </marker>
  </defs>
 </svg>
-\end{svg}\includegraphics[width=72px]{globular}
+\end{svg}\includegraphics[width=56]{curvearrows}\end{matrix}}\qquad\Downarrow\qquad b
 $$
 
 A **simplicial** $2$-morphism looks like this:
