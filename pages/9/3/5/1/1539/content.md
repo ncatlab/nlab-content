@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -81,3 +87,5 @@ Need to reference work by various combinations of authors including Baez, Dolan,
 [[!redirects quasi-exact category]]
 [[!redirects strong-subobject classifier]]
 [[!redirects weak subobject classifier]]
+
+
