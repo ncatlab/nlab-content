@@ -14,7 +14,7 @@
 =--
 
 
-* [[algebraic theory]] / [[Lawvere theory]] / **$(\infty,1)$-algebraic theory**
+* [[algebraic theory]] / [[Lawvere theory]] / [[2-Lawvere theory]] /  **$(\infty,1)$-algebraic theory**
 
 * [[monad]] / [[(∞,1)-monad]]
 
