@@ -24,3 +24,6 @@ Just as the motivating example of a $2$-category is the $2$-category [[Cat]] of 
 [[!redirects 2-posets]]
 [[!redirects (1,2)-category]]
 [[!redirects (1,2)-categories]]
+[[!redirects locally ordered 2-category]]
+[[!redirects locally ordered 2-categories]]
+[[!redirects locally ordered]]
