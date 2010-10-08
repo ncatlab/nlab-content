@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
@@ -37,7 +41,7 @@ It turns out that there is a hierarchy of types of logical theories, each of whi
 |Theory| |Category|
 |------|-|--------|
 |finite limit (aka "left exact" or "cartesian")| |[[finitely complete category]]|
-|regular| |[[regular category]]|
+|[[regular logic|regular]]| |[[regular category]]|
 |coherent| |[[coherent category]]|
 |disjunctive| |[[extensive category|lextensive category]] (aka finitary disjunctive category)|
 |geometric| |[[coherent category|infinitary coherent category]] (aka geometric category)|
@@ -94,11 +98,11 @@ $$\{b\in B | (\forall a \in A)(f(a)=b \Rightarrow a\in R)\}.$$
 Of course, in not all finitely complete categories $C$ do all these operations on subobjects exist.  Moreover, in order for the relationship with logic to be well-behaved, any of these operations we make use of must be *[[pullback stability|stable]] under* (preserved by) pullbacks.  (Pullbacks of subobjects correspond to "innocuous" logical operations such as adding extra unused variables, duplicating variables, and so on, so they should definitely not affect the meaning of the logical connectives.  However, in [[linear logic]] such operations become less innocuous.)
 
 In any category with finite limits, the posets $Sub(A)$ always have finite intersections (given by pullback), including a top element (given by $A$ itself).  Thus in any such category, we can interpret logical theories that use only the connectives $\wedge$ and $\top$.  This includes both the theories of groups and posets considered above.  
-In a [[regular category]], the existence of pullback-stable [[image]]s implies that the [[base change]] functor $f^*:Sub(B)\to Sub(A)$ along any map $f:A\to B$ has a left adjoint, usually written $\exists_f$, and that these adjoints "commute with pullbacks" in an appropriate sense (given by the [[Beck-Chevalley condition]].  Thus, in a regular category we can interpret any theory in so-called _regular logic_, which uses only $\wedge$, $\top$, and $\exists$.
+In a [[regular category]], the existence of pullback-stable [[image]]s implies that the [[base change]] functor $f^*:Sub(B)\to Sub(A)$ along any map $f:A\to B$ has a left adjoint, usually written $\exists_f$, and that these adjoints "commute with pullbacks" in an appropriate sense (given by the [[Beck-Chevalley condition]].  Thus, in a regular category we can interpret any theory in so-called _[[regular logic]]_, which uses only $\wedge$, $\top$, and $\exists$.
 
 Actually, some instances of $\exists$ can be interpreted in any category with finite limits: if $f$ is itself a monomorphism, then $f^*$ always has a left adjoint simply given by composition with $f$. On the logical side, this means that we can interpret "provably unique existence" in any category with finite limits.  Logic with $\wedge$, $\top$, and "provably unique existence" is called _cartesian logic_ or _finite-limit logic_.
 
-A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
+A [[coherent category]] is basically defined to be a [[regular category]] in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to [[regular logic]].  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
 
 On the other hand, in a [[extensive category|lextensive category]], we do not have images or all unions, but if we have two subobjects of $A$ which are _disjoint_ (their intersection is initial), then their coproduct is also their union in $Sub(A)$.  Therefore, in a lextensive category we can interpret _disjunctive logic_, which is cartesian logic plus $\bot$ and "provably disjoint disjunction."  Likewise, in an infinitary-lextensive category we can interpret "infinitary-disjunctive logic."
 
@@ -119,7 +123,7 @@ It then follows that if we start from the axioms of a theory and "reason normall
 $$x:G,y:G,z:G | m(x,y)=e \;\wedge\; m(x,z)=e \vdash y=z.$$
 It follows that this is also true, suitably interpreted, as a statement about internal group objects in _any_ category.
 
-There are (at least) three caveats.  Firstly, we must take care to use only the rules appropriate to the fragment of logic that is valid in the particular categories we are interested in.  For example, if we want our conclusions to be valid in any regular category, we must restrict ourselves to reasoning "within regular logic."  Most mathematicians are not familiar with making such distinctions in their reasoning, but in practice most things one would want to say about a regular theory turn out to be provable in regular logic.  (We will not spell out the details of what this means.)  And once we are in a Heyting category, and in particular in a topos, this problem goes away and we can use full first-order logic.
+There are (at least) three caveats.  Firstly, we must take care to use only the rules appropriate to the fragment of logic that is valid in the particular categories we are interested in.  For example, if we want our conclusions to be valid in any [[regular category]], we must restrict ourselves to reasoning "within regular logic."  Most mathematicians are not familiar with making such distinctions in their reasoning, but in practice most things one would want to say about a regular theory turn out to be provable in regular logic.  (We will not spell out the details of what this means.)  And once we are in a Heyting category, and in particular in a topos, this problem goes away and we can use full first-order logic.
 
 The second, more important, caveat is that the internal logic of all these categories is, in general, [[constructive mathematics|constructive]]. This means that, among other things, the interpretation of $\neg\neg\varphi$ is, in general, distinct from that of $\varphi$, and that $\varphi\vee \neg\varphi$ is not always valid.  So even if we believe that [[classical logic]] (including the principle of [[excluded middle]] and even the [[axiom of choice]]) is "true," as many mathematicians do, there is still a reason to look for proofs that are constructively acceptable, since it is only these which are valid in the internal logic of most categories.  If the category is [[Boolean category|Boolean]] and/or satisfies the internal [[axiom of choice]], however, then this problem goes away, but these fail in many categories in which one wants to internalize (such as many [[Grothendieck topos]]es).
 
