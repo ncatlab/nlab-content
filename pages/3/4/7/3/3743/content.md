@@ -6,7 +6,7 @@
 ## Idea
 Given an alphabet of letters and symbols (perhaps 'typed', so that certain symbols are declared to be 'symbols for functions', etc., e.g. '$+$ is a symbol for a binary operation), then one can form strings of letters to give words or more generally (well formed) formulae involving symbols of all types. 
 
-In a rewriting system, one specifies a set of rules that describe valid replacements of subformulae by other ones
+In a rewriting system, one specifies a set of rules that describe valid replacements of subformulae by other ones. On some formulae of a rewriting system, the rewriting rules may produce conflicts, when two or more rules can be applied.
 
 
 +-- {: .un_example}
@@ -20,8 +20,15 @@ One type of example of a rewriting system is given by a [[group presentation]], 
 (and the group being presented is the symmetric group, $S_3$ on three symbols).
 We think of $(a a a,1)$ as a 'rewrite rule': ''replace $a a a$ by 1'', often written $a a a\to 1$.
  
-Working with the presentation, we can then  start generating words in the generators, for instance $a a a b a b$ and then see how that word can be 'rewritten' using the rewrite rules to $b a b$ using the first rule and to $a a$ using the last. There is thus a potential conflict between these rewritten forms of the word.  In rewriting theory this sort of situation is studied in detail.
+Working with the presentation, we can then  start generating words in the generators, for instance $a a a b a b$ and then see how that word can be 'rewritten' using the rewrite rules to $b a b$ using the first rule and to $a a$ using the last. There is thus a potential conflict between these rewritten forms of the word.  
 =--
+It is usual to choose a 'normal form' for each word.  In the example, in the symmetric group and the above presentation the elements of the group are often listed as $1,a,a^2,b,ab,a^2b$.  These might be our choice of normal forms for the elements. In other words any element has a unique representative in the form $a^ib^j$, and we _choose_ to label them that way. With the two uses of the rules applied to $a a a b a b$, the first did not gave a normal form, the second did.
+
+
+In order to transform a rewriting system into a computation algorithm, one needs to apply the rules in a deterministic way, using a reduction strategy. We also need to know that there is a unique normal form that can be found for each word and that the 'algorithm' will _terminate_, that is it really _is_ an algorithm!. 
+
+
+
 
 ## References
 
@@ -43,6 +50,7 @@ For good references on word rewriting see
 
 *  Ronald V. Book and Friedrich Otto, String-rewriting systems, Texts and Monographs in Computer Science, 
 Springer-Verlag, 1993. 
+
  and on term rewriting
 
 * Franz Baader and Tobias Nipkow, Term rewriting and all that, Cambridge University Press, 1998. 
