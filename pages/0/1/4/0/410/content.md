@@ -46,7 +46,7 @@ Dually, a __cofree functor__ is a [[right adjoint]] to a forgetful functor; for 
 
 ### Examples
 
-* The cofree coalgebra on a vector space. More generally, if $M$ is an [[operad]] in a symmetric monoidal category $V$, $Prop(M)$ its associated [[PROP]], and if $C$ is a monoidal $V$-category, then an $M$-coalgebra in $C$ may be identified with a monoidal $V$-functor $Prop(M)^{op} \to C$. Under suitable completeness assumptions on $C$, the forgetful functor $M$-$Coalg_C \to C$ has a right adjoint, and this forgetful functor is comonadic. 
+* The cofree coalgebra on a vector space. More generally, if $M$ is an [[operad]] in a symmetric monoidal category $V$, $Prop(M)$ its associated [[PROP]], and if $C$ is a monoidal $V$-category, then an $M$-coalgebra in $C$ may be identified with a monoidal $V$-functor $Prop(M)^{op} \to C$. Under suitable completeness assumptions on $C$, the forgetful functor $M$-$Coalg_C \to C$ has a right adjoint, and this forgetful functor is [[comonadic functor|comonadic]]. 
 
 * If $M$ is a monoid, the forgetful functor $Set^M \to Set$ on (left) $M$-sets has a right adjoint $X \mapsto \hom(M, X)$, where $M$ acts on functions $f: M \to X$ according to the rule $(m f)(m') = f(m' m)$. This forgetful functor is comonadic. Much more generally, the right adjoint to the underlying functor $Set^C \to Set/C_0$ ($C_0$ the set of objects of a category $C$) is comonadic. More generally still, if $V$ is complete and $f: C \to D$ is a functor between small categories, the functor $V^f: V^D \to V^C$ has a right adjoint (although $V^f$ will not normally be comonadic in this generality). 
 
