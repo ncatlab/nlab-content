@@ -27,7 +27,7 @@ It is usual to choose a 'normal form' for each word.  In the example, in the sym
 
 In order to transform a rewriting system into a computation algorithm, one needs to apply the rules in a deterministic way, using a reduction strategy. We also need to know that there is a unique normal form that can be found for each word and that the 'algorithm' will _terminate_, that is it really _is_ an algorithm!. 
 
-
+We therefore will need to discuss [[confluence]], [[termination]] and [[reduction strategy|reduction strategies]].
 
 
 ## References
