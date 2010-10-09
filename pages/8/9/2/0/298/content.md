@@ -10,7 +10,7 @@ The usual definition of _vertex operator algebra_ (VOA) is long and unenlightnin
 
 There is a [[monoidal category]] or [[operad]] whose [[morphism|morphisms]] are conformal spheres with $n$-punctures marked as incoming and one puncture marked as outgoing (each puncture equipped with a conformally parametrized annular neighborhood). Composition of such spheres is by gluing along puctures. This can be regarded as a category $2Cob_{conf}^0$ of 2-dimensional genus-0 conformal [[cobordism|cobordisms]].
 
-As shown by theorems by Yi-Zhi Huang and Lian Kong, a vertex operator algebra is precisely a _[[holomorphic representation]]_ of this category, or [[algebra over an operad]] for this [[operad]] i.e. an genus-0 [[conformal field theory|conformal]] [[FQFT]], hence a [[monoidal functor]]
+As shown by theorems by Yi-Zhi Huang and Liang Kong, a vertex operator algebra is precisely a _[[holomorphic representation]]_ of this category, or [[algebra over an operad]] for this [[operad]] i.e. an genus-0 [[conformal field theory|conformal]] [[FQFT]], hence a [[monoidal functor]]
 
 $$
   V : 2Cob_{conf}^0 \to Vect
