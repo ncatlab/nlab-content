@@ -437,7 +437,7 @@ Often the terminology is used that two link diagrams, $D$ and $D'$ are  _isotopi
 The following theorem is a form of Reidemeister's theorem:
 
 ## Properties
-
+##Reidemeister's Theorem
 +-- {: .un_theorem}
 ###### Theorem
 Two [[knot diagram]]s correspond to isotopic knots precisely if they can be connected by a sequence of applications of the three Reidemeister moves.
