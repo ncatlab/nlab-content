@@ -293,6 +293,10 @@ The identity consists of $n$ vertical strings, so the inverse is obtained by tur
 
 This is the inverse of the first 3-braid we saw. 
 
+There are useful [[group presentations]] of the braid groups. Here it is.  We will return later to the interpretation of the generators and relations in terms of diagrams. 
+
+
+
 ##A presentation of $Br_{n+1}$
 
 The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]] given by 
