@@ -13,6 +13,10 @@ The solution lies in thinking of presheaves on an ordinary category $C$, and mor
 
 Here is the slick definition: let $S$ be a category with pullbacks. Then the bicategory $Prof(S)$ of internal categories, profunctors and transformations in $S$ is defined to be $Mod(Span(S))$, the category of [[monad]]s and [[module over a monad|bimodules]] in $Span(S)$, the [[bicategory]] of [[span]]s in $S$.
 
+So an **internal profunctor** $C &#8696; D$ between internal categories $C$ and $D$ is a bimodule from $C$ to $D$.  An **internal presheaf** on $C$ is a right $C$-module, or equivalently a bimodule $1 &#8696; C$, where $1$ is the discrete category on the terminal object of $S$ (as long as $S$ has one, of course).
+
+An internal presheaf in $S$ is the same thing as an [[internal diagram]] in $S$.
+
 ### Details
 
 Recall that an [[internal category]] $C$ in $S$ is a monad in $Span(S)$, and so has an underlying span $(s,t) : C_1 \rightrightarrows C_0$.  Given $C,D \in Cat(S)$, a bimodule $H : C &#8696; D$ must be given by a span $H : C_0 \leftarrow H \to D_0$, together with a right action $H \circ C \to H$ of $C$ and a left action $D \circ H \to H$ of $D$ that are compatible in the sense described at [[module over a monad]].
@@ -34,28 +38,4 @@ C_1 & \underset{s}{\to} & C_0
 }
 $$
 commutes.  This action must satisfy unit and associativity axioms expressing functoriality of the corresponding presheaf.  Similarly, $H_\ell : H \times_{D_0} D_1 \to H$, where the pullback is along $s$, so that this represents a copresheaf.  Finally, compatibility of the two actions represents bifunctoriality of the profunctor.
-
-An **internal presheaf** on an internal category is just a right action as above.
-
-## Internal diagrams
-
-An internal presheaf as above may take values in any [[Grothendieck fibration]] over $S$.  Given a fibration in the guise of an [[indexed category]] $E : S^{op} \to Cat$, a **$C$-diagram in $E$** is given by
-
-* an object $P \in E(C_0)$, together with
-* a morphism $\phi : s^* P \to t^* P$ in $E(C_1)$
-
-satisfying 'cocycle equations'
-
-* $i^*\phi = 1_P$
-* $c^*\phi = p_1^* \phi \circ p_2^* \phi$
-
-modulo coherent isos, where the $p_i$ are the projections out of $C_2$.
-
-By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canonical isomorphism) a pseudonatural $\alpha^0 : S(-,C_0) \to E_0$ in $[S^{op},Cat]$, where $S$ is considered as a locally discrete bicategory, and $E_0(X) = ob E X$ considered as a discrete category, such that $\alpha^0(f) \cong f^* P$.  Similarly, $\phi$ determines $\alpha^1 : S(-,C_1) \to E_1 = arr \circ E$, and $\alpha^1(g) \cong g^* \phi$.  It is not hard to check that the conditions above correspond to requiring that the $\alpha^i_X$ form a functor $S(X,C) \to EX$ for each $X$, and pseudonaturality then makes the $C$-diagram $(P,\phi)$ equivalent to an [[indexed functor]] $S(-,C) \to E$.  The category of $C$-diagrams in $E$ is then simply the hom-category $[S^{op},Cat](S(-,C),E)$.
-
-### Examples
-
-* An internal presheaf on $C$ in the sense above is a $C^{op}$-diagram in the [[codomain fibration]] of $S$, that is the pseudofunctor $X \mapsto S/X$.
-
-* If $S$ is equipped with a [[coverage]] and $C$ is the [[Cech nerve]] associated to a cover $p : U \to X$ in $S$, then the category of $C$-diagrams in $E$ is the [[descent]] category $Des_p(E)$.
 
