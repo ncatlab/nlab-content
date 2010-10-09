@@ -1,12 +1,34 @@
 ##Idea##
 
-Directed Homotopy Theory is a form of [[homotopy theory]] which tries to study the properties of [[directed space]]s.  Initially it used [[pospace]]s as the objects, but with the introduction of [[directed space|d-space]]s by Grandis, these have become, perhaps, the more common objects of study.  
-
-Much of the impetus for the theory has come from work on modelling concurrent process. It can also be seen as a way of studying an 'evolving' space.
+Directed Homotopy Theory is a form of [[homotopy theory]] which tries to study the properties of [[directed space]]s. Much of the impetus for the theory has come from work on modelling concurrent process. It can also be seen as a way of studying an 'evolving' space. This is discussed in more detail in the entry on [[Motivation for directed homotopy]]
 
 ##References and (a little) Discussion##
 
 (See also under [[directed space]].)
+
+Foundational work was done by Eric Goubault and his collaborators.
+
+* [[Some geometric perspectives in concurrency theory]], [[Eric Goubault]], 
+
+Categorical aspects are looked at in
+
+* Lisbeth Fajstrup, and Jir&#237; Rosicky, _A convenient category for directed homotopy_, Theory and Applications of Categories,  2008, vol. 21, no. 1, pp. 7-20.([TAC](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
+
+The fundamental category of a pospace is discussed in
+
+* Lisbeth Fajstrup, [[Eric Goubault]], Emmanuel Haucourt, and  Martin Raussen. Components of the fundamental category. Appl.Cat. Struct. Vol. 12, pp.81-108, 2004
+
+and the possibility of an analogue of covering spaces in
+
+* Lisbeth Fajstrup,  Dicovering spaces. Algebraic topological methods in computer science (Stanford, CA, 2001). Homology Homotopy Appl. 5 (2003), no. 2, 1-17 
+([HHA](http://www.intlpress.com/HHA/v5/n2/))
+
+
+Philippe Gaucher (PPS, Paris) has introduced an interesting related model, namely that of 'flows'.  These are, approximately, topological categories without identity arrows.  They are intended as another model of processes. One of his papers on this idea is at [Arxiv](http://arxiv.org/abs/math/0308054v1), published as 
+
+*  Philippe Gaucher, A model category for the homotopy theory of concurrency, Homology Homotopy and Applications, vol. 5 (1):p.549-599, 2003.
+
+
 
 Marco Grandis' work on the area is listed amongst his publications at his ([homepage](http://www.dima.unige.it/~grandis/rec.public_grandis.html)). Such as 
 
@@ -18,39 +40,9 @@ Marco Grandis' work on the area is listed amongst his publications at his ([home
 
 * [[Marco Grandis]], Modelling fundamental 2-categories for directed homotopy, Homology, Homotopy Appl. 8 (1) (2006) 31&#8211;70 (electronic)
 
-+--{: .query}
-[[David Roberts]]: Marco Grandis has come out with a book \'Directed Algebraic Topology\', published by CUP. Haven't checked details on it, but presumably it contains material from the above papers
-
-Zoran: I have not held the book in my hands yet but some info from the web is incorporated into new book entry [[Directed Algebraic Topology]].
-
-[[Urs Schreiber]]: hey, you forgot to reference the book here. I did  it for you below:
-
-=--
 
 * [[Marco Grandis]], _[[Directed Algebraic Topology]], Models of non-reversible worlds_ , Cambridge University Press
 
-
-Foundational work was done by Eric Goubault and his collaborators.
-
-* [[Some geometric perspectives in concurrency theory]], Goubault, Eric
-
-Categorical aspects are looked at in
-
-* Lisbeth Fajstrup, and Jir&#237; Rosicky, _A convenient category for directed homotopy_, Theory and Applications of Categories,  2008, vol. 21, no. 1, pp. 7-20.([TAC](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
-
-The fundamental category of a pospace is discussed in
-
-* Lisbeth Fajstrup, Eric Goubault, Emmanuel Haucourt, and  Martin Raussen. Components of the fundamental category. Appl.Cat. Struct. Vol. 12, pp.81-108, 2004
-
-and the possibility of an analogue of covering spaces in
-
-* Lisbeth Fajstrup,  Dicovering spaces. Algebraic topological methods in computer science (Stanford, CA, 2001). Homology Homotopy Appl. 5 (2003), no. 2, 1-17 
-([HHA](http://www.intlpress.com/HHA/v5/n2/))
-
-
-Philippe Gaucher (PPS, Paris) has introduced an interesting related model, namely that of 'flows'.  These are, approximately, topological categories without identity arrows.  They are intended as another model of processes. One of his papers on this idea is at [Arxiv](http://arxiv.org/abs/math/0308054v1), published as 
-
-*  Philippe Gaucher, A model category for the homotopy theory of concurrency, Homology Homotopy and Applications, vol. 5 (1):p.549-599, 2003.
 
  A websearch will find others.
 
