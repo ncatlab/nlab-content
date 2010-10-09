@@ -92,6 +92,22 @@ A [[knot diagram]] is _3-colourable_ if we can assign colours to its arcs such t
 
 is not 3-colourable. (Try it!)
 =--
++--{: .un-theorem}
+###Theorem###
+3-colourability is a knot  invariant.
+=--
+
+The proof is amusing to work out oneself. You have to show that if a knot diagram $D$ is 3-colourable and you perform a [[Reidemeister move]] on it then the result is also 3-colourable. The thing to note is that any arcs that leave the locality of the move must be coloured the same before and after the move is done. 
+
++--{: .un-note}
+###Notes
+*  We can now use phrases such as 'the trefoil knot is 3-colourable' as its validity does not depend on what diagram is used to represent it, (by the above and by [[Reidemeister moves|Reidemeister's theorem]].) 
+
+* As the trefoil knot is 3-colourable and the unknot is not, *non-trivial knots exist*.  Moreover, the trefoil is 3-colourable and the figure 8 is not, so these are different. We also get that the [[bridge number]] of the trefoil is 2, as this provides the missing piece of the argument found in that entry.
+=--
+ 
 
 [[!redirects colorability]]
+
+
 [[!redirects colourability]]
