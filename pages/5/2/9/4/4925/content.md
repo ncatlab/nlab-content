@@ -105,7 +105,7 @@ The proof is amusing to work out oneself. You have to show that if a knot diagra
 
 * As the trefoil knot is 3-colourable and the unknot is not, *non-trivial knots exist*.  Moreover, the trefoil is 3-colourable and the figure 8 is not, so these are different. We also get that the [[bridge number]] of the trefoil is 2, as this provides the missing piece of the argument found in that entry.
 =--
- 
+ There are two comments to make here.  First what does this all mean at a deeper topological level?  The other is : why stop at 3? What about $n$-colourability? We will handle the second one first.
 
 [[!redirects colorability]]
 
