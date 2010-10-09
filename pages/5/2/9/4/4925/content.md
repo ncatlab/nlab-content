@@ -92,3 +92,6 @@ A [[knot diagram]] is _3-colourable_ if we can assign colours to its arcs such t
 
 is not 3-colourable. (Try it!)
 =--
+
+[[!redirects colorability]]
+[[!redirects colourability]]
