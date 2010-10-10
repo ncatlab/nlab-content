@@ -1,4 +1,4 @@
-Directed homotopy theory is the study of 'directed spaces' of various types.  As these occur in various different contexts and the variants being considered are not always simply related, it seems a good idea to discuss some of those 'contexts' so as to gain some hold on the intuitions _external_ to the usual contexts of the  n-Lab and hence to see if that will enable use of techniques from the Lab to understand those contexts and similarly to suggest new problems and interpretations within the n-Lab contexts.
+Directed homotopy theory is the study of 'directed spaces' of various types.  As these occur in various different contexts and the variants being considered are not always simply related, it seems a good idea to discuss some of those 'contexts' so as to gain some hold on the intuitions _external_ to the usual contexts of the  n-Lab and hence to see if that will enable use of techniques from the Lab better to understand those contexts and similarly to suggest new problems and interpretations within the n-Lab contexts.
 
 ##Contexts for directed homotopy
 
@@ -12,6 +12,6 @@ Directed homotopy theory is the study of 'directed spaces' of various types.  As
 
 * [[causal sets]] and discrete models for space time;
 
-* models for multi-agent systems.
+* models for multi-agent systems, [[multimodal logics]].
 
 The problems thrown up by these contexts will not always lead to the same notion of directed homotopy, so we need a reasonably flexible general definition, one that can be specialised to particular contexts later on.
