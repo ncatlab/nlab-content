@@ -1,4 +1,11 @@
-(The ideas section here is partially adapted from papers of [[Eric Goubault]].  In particular the paper in HHA, see reference list. He was one of the first to propose some form of directed homotopy as a model for aspects of concurrency.)
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+
+
+
+(The ideas section here is partially adapted from papers of [[Eric Goubault]].  In particular the paper in HHA, see reference list. He was one of the first to propose some form of directed homotopy as a model for aspects of concurrency.) This entry tries to list and summarise various models for concurrency and to examine some of them for (potential) interaction with other entries in the Lab.
 
 ##Idea##
 
@@ -26,12 +33,13 @@ The challenge is to find adequate mathematical models so as better to understand
 
 * [[trace monoid|trace monoids]] and Mazurkiewicz trace theory;
 
-* [asynchronous automata]];
+* [[asynchronous automata]];
 
 * [[Petri nets]];
 
 * [[automata with concurrency]];
 
+* [actor models](http://en.wikipedia.org/wiki/Actor_model)
 
 ##References##
 
