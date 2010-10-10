@@ -8,7 +8,7 @@ Directed Homotopy Theory is a form of [[homotopy theory]] which tries to study t
 
 Foundational work was done by Eric Goubault and his collaborators.
 
-* [[Some geometric perspectives in concurrency theory]], [[Eric Goubault]], 
+* [[Eric Goubault]], [[Some geometric perspectives in concurrency theory]].
 
 Categorical aspects are looked at in
 
