@@ -26,8 +26,6 @@ A **closed category** is a [[category]] $C$ together with the following data:
 
 which is required to satisfy the following axioms.
 
-* The map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
-
 * The following diagram commutes for any $X,Y$.
 
   $$\array{I & \overset{j_Y}{\to} & [Y,Y]\\
@@ -46,13 +44,15 @@ which is required to satisfy the following axioms.
   & _{\mathllap{[1,i_Z]}}\searrow & \downarrow^{[i_Y,1]}\\
   & & [Y,[I,Z]]}$$
 
-* Finally, the following diagram commutes for any $X,Y,U,V$.
+* The following diagram commutes for any $X,Y,U,V$.
 
   $$\array{[U,V] & \overset{L^Y_{U V}}{\to} & [[Y,U],[Y,V]]\\
   ^{L^X_{U V}}\downarrow && \\
   [[X,U],[X,V]] & &  \downarrow^{[1,L^X_{Y V}]} \\
   ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
   [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
+
+* Finally, the map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
 
 This definition is from Manzyuk's paper below.  It differs slightly from Eilenberg-Kelly's original definition, which omitted $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ and that the resulting isomorphism
 $$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
