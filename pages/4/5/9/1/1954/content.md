@@ -26,7 +26,7 @@ The notion of _Ehresmann connection_ is one of the various equivalent definition
 
 ## Definition
 
-### In terms of differential forms
+### In terms of differential forms {#InTermsDiffForms}
 
 Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $P \to X$ a $G$-[[principal bundle]]. Let
 
@@ -83,6 +83,7 @@ on $P$ satisfying two conditions
 +-- {: .un_prop}
 ###### Proposition
 
+This is equivalent to
 
 1. **first Ehresmann condition** 
 
@@ -255,7 +256,7 @@ See also
 
 A formulation and discussion of Ehresmann connections using language and tools from [[synthetic differential geometry]] is in section 6 of
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
 
 
 [[!redirects Ehresmann-connection]]
