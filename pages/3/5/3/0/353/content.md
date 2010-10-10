@@ -9,22 +9,6 @@
 =--
 =--
 
-* [[0-category]], [[0,1]-category]], [[Set]]
-
-* [[category]]
-
-* [[2-category]], [[bicategory]]
-
-* [[3-category]], [[tricategory]]
-
-* [[4-category]], [[tetracategory]]
-
-* **$n$-category**
-
-* [[(n,r)-category]]
-
-
-***
 
 $n$-categories are the main subject of [[higher category theory]], and give the $n$-[[About|Lab]] its name.
 
@@ -129,6 +113,25 @@ Someone should add some more references!
 +--{: .query}
 Please add any other comparisons you are aware of!
 =--
+
+## Related concepts
+
+* [[0-category]], [[0,1]-category]], [[Set]]
+
+* [[category]]
+
+* [[2-category]], [[bicategory]]
+
+* [[3-category]], [[tricategory]]
+
+* [[4-category]], [[tetracategory]]
+
+* **$n$-category**
+
+* [[(n,r)-category]]
+
+
+
 
 [[!redirects $n$-category]]
 [[!redirects n-categories]]
