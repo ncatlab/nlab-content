@@ -5,7 +5,7 @@ A _transition system_ is a structure $T = (S,i,L,Trans)$, where
 
 * $S$ is a set of _states_ with initial state, $i$;
 
-* $L$ is a set of _labels_;
+* $L$ is a set of _labels_, sometimes referred to also as _events_;
 
 * $Tran\subseteq S\times L\times S$ is the _transition relation_.
 
@@ -33,7 +33,7 @@ It is useful to rework this definition of morphism using a variant of the idea, 
 This way we get a category, $TS$, of transition systems.
 
 +--{: .query}
-[[Tim Porter|Tim]] In [[partial function]] there is a description of partial functions as spans. I think I have seen a source which uses spans to define a mild generalisation of morphisms for transition systems, but I cannot remember where (and whether it was worth it).  
+[[Tim Porter|Tim]]: In [[partial function]] there is a description of partial functions as spans. I think I have seen a source which uses spans to define a mild generalisation of morphisms for transition systems, but I cannot remember where (and whether it was worth it).  
 
 =--
 
