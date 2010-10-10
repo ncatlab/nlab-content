@@ -1,1 +1,1 @@
-Concurrency theory in Theoretical Computer Science deals with systems in which several computational activities (_processes_) can be performed at the same time, in an asynchronous way.
+Concurrency theory in Theoretical Computer Science deals with systems in which several computational activities ( _processes_ ) can be performed at the same time, in an asynchronous way.
