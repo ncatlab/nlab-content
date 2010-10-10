@@ -10,18 +10,6 @@
 =--
 
 
-* [[category]]
-
-* **2-category**
-
-* [[3-category]]
-
-* [[n-category]]
-
-* [[(n,r)-category]]
-
-***
-
 
 # Contents
 * automatic table of contents goes here
@@ -150,7 +138,17 @@ There is also a 2-nerve. ([LackPaoli](#LackPaoli))
 * globular [[strict 2-category]]
 * [[bicategory]]
 
+**Variants**
 
+* [[category]]
+
+* **2-category**
+
+* [[3-category]]
+
+* [[n-category]]
+
+* [[(n,r)-category]]
 
 
 
