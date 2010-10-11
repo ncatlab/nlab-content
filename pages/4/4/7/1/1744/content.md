@@ -191,7 +191,7 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 A standard textbook reference is
 
-* P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkh&#228;user. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 A classical article that amplifies the connection of the coskeleton operation to [[Postnikov tower]]s is
 
