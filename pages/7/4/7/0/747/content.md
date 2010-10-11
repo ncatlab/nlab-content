@@ -375,11 +375,7 @@ is a weak equivalence, simply because testing on the [[point of a topos|topos po
 
 This fact is noteworthy for the following reason: 
 
-By the result of
-
-* Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
-
-which is described at [[descent for simplicial presheaves]],
+By the result of ([DuggerHollanderIsaksen](#DuggerHollanderIsaksen)) which is described at [[descent for simplicial presheaves]],
 the fibrant objects in $SPSh(C)^{loc}_{proj}$ are those that are objectwise [[Kan complex]]es and satisfy [[descent]] along all [[hypercover]]s of [[representable functor|representables]]. But [[descent]] on the contractible $\mathbb{R}^n$s is a drastically simpler condition than on an arbitrary [[manifold]] $X$.
 
 For instance, let $G$ be a [[Lie group]] and write $\mathbf{B}G$  for its corresponding degreewise representable simplicial presheaf $(\mathbf{B}G)_n = G^{\times n}$. 
@@ -576,11 +572,7 @@ This is in prop 2.8 of
 
 We discuss some aspects of the [[Bousfield localization of model categories|left Bousfield localization]] of the projective global model structure on simplicial presheaves at [[Grothendieck topologies]] and [[covering]] families. By the discussion at [[topological localization]] these are models for [[topological localization]]s leading to [[(∞,1)-categories of (∞,1)-sheaves]].
 
-The central reference is 
-
-* [[Dan Dugger]], [[Sharon Hollander]], [[Dan Isaksen]], _Hypercovers and simplicial presheaves_ ([arXiv:math.AT/0205027](http://front.math.ucdavis.edu/0205.5027))
-
-with the central theorem being this one:
+The central reference is ([DuggerHollanderIsaksen](#DuggerHollanderIsaksen)) with the central theorem being this one:
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -944,7 +936,10 @@ See also
 
 A detailed study of [[descent]] for simplicial presheaves is given in
 
-* **DHI04** [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+* [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], 
+_Hypercovers and simplicial presheaves_ , Math. Proc. Cambridge
+Philos. Soc. 136 (2004), no. 1, 9&#8211;51 ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+{#DuggerHollanderIsaksen}
 
 * **DI02** [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
 
@@ -968,7 +963,7 @@ A set of lecture notes on simplicial presheaves with an eye towrads algebraic si
 
 Last not least, it is noteworthy that the idea of localizing simplicial sheaves at stalkwise weak equivalences is already described and applied in 
 
-* [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]],
+* [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]]_ ,
 
 using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
 
