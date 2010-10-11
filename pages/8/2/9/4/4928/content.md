@@ -32,7 +32,7 @@ The challenge is to find adequate mathematical models so as better to understand
 
 * [[transition systems]], labelled transition systems and [[higher dimensional transition systems]];
 
-* [[trace monoid|trace monoids]] and Mazurkiewicz trace theory;
+* [[trace monoid|trace monoids]] and [[Mazurkiewicz trace]] theory;
 
 * [[asynchronous automata]];
 
