@@ -31,13 +31,17 @@ This means that there is a morphism $f_t \colon a \to a_t$ and a 2-cell $\lambda
 
 * In a ([[locally ordered]]) [[bicategory of relations]], the Kleisli object of a monad $t$ is part of a [[splitting]] of $t$ as an [[idempotent]].
 
-* In the bicategory [[Prof]] of [[profunctors]], a monad on a category $A$ consists of a category $B$ equipped with a [[bijective-on-objects functor]] $A\to B$.  Its Kleisli object in $Prof$ is simply the category $B$.
+* For a monad $T \colon A &#8696; A$ in the bicategory [[Prof]] of [[profunctors]], its Kleisli object consists of a category $A_T$ equipped with a [[bijective-on-objects functor]] $A\to A_T$.  The category $A_T$ has the same objects as $A$, with hom-sets $A_T(a,b) = T(a,b)$.  Identities and composition are given by the unit and multiplication of $T$.
+
+  Every functor $B \to A$ yields a monad $A(f,f)$ in $Prof$, whose Kleisli object is part of the (bijective on objects, fully-faithful) factorization $B \to A_{A(f,f)} \to A$ of $f$.
+
+  Because of this, we can identify a monad on $A$ in $Prof$ with a bijective-on-objects functor $A \to B$.
 
 ## Remarks
 
 * A Kleisli object in a 2-category $K$ is the same as an [[Eilenberg-Moore object]] in $K^{op}$; see [[opposite 2-category]].  Kleisli objects for monads in $K^{co}$ can be identified with Kleisli objects for [[comonads]] in $K$.
 
-* A Kleisli object can equivalently be defined as a particular sort of [[weighted limit|weighted]] [[2-colimit]].
+* A Kleisli object for a monad $t$ in $K$ can equivalently be defined as a particular sort of [[weighted limit|weighted]] [[2-colimit]], namely the [[lax colimit]] of the [[lax functor]] $\ast \to K$ corresponding to $t$.
 
 ## References
 
