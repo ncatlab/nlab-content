@@ -49,7 +49,7 @@
 
 ## Examples
 
-* [[point]], [[sphere]]
+* [[point]], [[sphere]], [[ball]]
 
 * [[topological vector space]], [[Banach space]], [[Hilbert space]]
 
