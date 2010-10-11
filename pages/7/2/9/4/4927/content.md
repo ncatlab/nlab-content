@@ -21,3 +21,5 @@
 * models for multi-agent systems, [[multimodal logics]].
 
 The problems thrown up by these contexts will not always lead to the same notion of directed homotopy, so we need a reasonably flexible general definition, one that can be specialised to particular contexts later on.
+
+category: motivation
