@@ -68,7 +68,8 @@ forms and gluing these dg-algebras all together.
 
    This goes back to
 
-   * [[Dennis Sullivan]], _Infinitesimal computations in topology_ .
+   * [[Dennis Sullivan]], _Infinitesimal computations in topology_ 
+     Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331.
 
 1. In the **Quillen approach** the [[loop space]] of the rational space/simplicial set is formed
 and its [[H-space]] structure strictified to a [[simplicial group]], of which
@@ -272,7 +273,7 @@ Early original articles include:
 
 * [[Dan Quillen]], _Rational homotopy theory_, Ann. of Math., (2) 90 (1969), 205-295.  ([pdf](http://www.jstor.org/stable/1970725))
 
-* [[Dennis Sullivan]], _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
+* [[Dennis Sullivan]], _Infinitesimal computations in topology_      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
 
 More on the relation to Lie theory is in:
