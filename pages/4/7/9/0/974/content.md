@@ -149,6 +149,16 @@ The _locally_ in _locally presentable category_ refers to the fact that it is th
 Another notion of "presentable category" is [[algebraic category|equationally presentable category]].
 
 
+## Properties
+
++-- {: .num_lemma #LeftCosetsDisjoint}
+###### Lemma
+
+Categories of models of finitary [[essentially algebraic theories]] are precisely equivalent to locally finitely presentable categories. 
+
+=--
+
+
 ## Examples and applications ##
 
 ### Locally finitely presentable categories ###
