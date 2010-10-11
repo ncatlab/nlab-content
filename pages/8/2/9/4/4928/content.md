@@ -46,4 +46,4 @@ The challenge is to find adequate mathematical models so as better to understand
 
  *  [[Eric Goubault]], [[Some geometric perspectives in concurrency theory]], 
 
-*   [[Eric Goubault]] and [[Samuel Mimram]], Formal Relationships Between Geometrical and Classical Models for Concurrency{http://fr.arxiv.org/abs/1004.2818}
+*   [[Eric Goubault]] and [[Samuel Mimram]], [Formal Relationships Between Geometrical and Classical Models for Concurrency](http://fr.arxiv.org/abs/1004.2818)
