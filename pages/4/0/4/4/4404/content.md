@@ -26,11 +26,15 @@ Rado (1925) proved that in dimension 2 there are no exotic differentiable struct
 
 ### For the mathematical theory
 
-* Milnor, John W. (1956), "On manifolds homeomorphic to the 7-sphere", Annals of Mathematics (Annals of Mathematics) 64 (2): 399&#8211;405
+The first construction of exotic smooth structures was on the 7-[[sphere]] in 
+
+* [[John Milnor]] (1956), "On manifolds homeomorphic to the 7-sphere", Annals of Mathematics (Annals of Mathematics) 64 (2): 399&#8211;405
+
+(...)
 
 * Smale, Stephen (1962), "On the structure of manifolds" , Amer. J. of Math. 84 : 387-399
 
-* Milnor, John W. (1965), _Lectures on the h-cobordism theorem_ (Princeton Univ. Press, Princeton)
+* [[John Milnor]] (1965), _Lectures on the h-cobordism theorem_ (Princeton Univ. Press, Princeton)
 
 * Kervaire, Michel; Milnor, John W. (1963) "Groups of homotopy spheres: I", Ann. Math. 77, pp. 504 - 537.
 
@@ -44,7 +48,7 @@ Rado (1925) proved that in dimension 2 there are no exotic differentiable struct
 
 * De Michelis, Stefano; Freedman, Michael H. (1992) "Uncountable many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
 
-* Donaldson, Simon (1987) "Irrationality and the h-cobardism conjecture", J. Diff. Geom. 26, pp. 141-168.
+* Donaldson, Simon (1987) "Irrationality and the h-cobordism conjecture", J. Diff. Geom. 26, pp. 141-168.
 
 * Donaldson, Simon (1990) "Polynomial invariants for smooth four manifolds", Topology 29, pp. 257-315.
 
