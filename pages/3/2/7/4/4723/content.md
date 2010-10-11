@@ -26,7 +26,25 @@ For $k \in \mathbb{R}$ a **$C^k$-differential structure** on a [[topological spa
 
 A **smooth structure** on $X$ is a [[smooth manifold]] $\hat X$ (transition functios have derivatives to all degrees) with underlying topological space $X$.
 
-## Exotic smooth structures
+## Properties
+
++-- {: .un_theorem}
+###### Theorem
+
+For $n \in \mathbb{N}$ a [[natural number]] with $n \neq 4$, there is a unique (up to [[isomorphism]]) smooth structure on the [[Cartesian space]] $\mathbb{R}^n$. 
+
+=--
+
+This was shown in ([Stallings](#Stallings)).
+
++-- {: .un_theorem}
+###### Theorem
+
+In $d = 4$ the analog of this statement is false. One says that on $\mathb{R}^4$ there exist [[exotic smooth structure]]s.
+ 
+=--
+
+### Exotic smooth structures
 
 Many topological spaces have canonical or "obvious" smooth structures. For instance a [[Cartesian space]] $\mathbb{R}^n$ has the evident smooth structure induced from the fact that it can be covered by a single chart -- itself.
 
@@ -40,6 +58,10 @@ given by $S^n = \{\vec x \in \mathbb{R}^n | \sum_i (x^i)^2 = 1\}$ and this induc
 
 But there may be other, non-equivalent smooth structures than these canonical ones. These are called [[exotic smooth structure]]s. See there for more details.
 
+## References
+
+* [[John Stallings]], _The piecewise linear structure of Euclidean space_ , Proc. Cambridge Philos. Soc. 58 (1962), 481-488. ([pdf](http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=2118140))
+{#Stallings}
 
 [[!redirects differential structure]]
 [[!redirects differential structures]]
