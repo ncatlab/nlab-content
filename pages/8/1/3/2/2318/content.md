@@ -53,7 +53,7 @@ $$
 
 In the article
 
-* H. Sati, U. Schreiber, J. Stasheff, _Fivebrane structures_ , Reviews in Math. Phys. ([arXiv](http://arxiv.org/abs/0805.0564))
+* H. Sati, U. Schreiber, J. Stasheff, _Fivebrane structures_ , Reviews in Math. Phys. (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">web</a>)
 
 the physical interpretation of this topological lift was established by comparison with known [[quantum anomaly]] cancellaton conditions in [[dual heterotic string theory]].
 
