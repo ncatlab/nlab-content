@@ -406,7 +406,7 @@ The basic idea of identifying the [[Sullivan construction]] applied to [[Chevall
 
 and for general [[∞-Lie algebra]]s in
 
-* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, ([math.AT/0404003](http://arxiv.org/abs/math/0404003))
+* [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, Annals of Mathematics, 170 (2009), 271&#8211;301 ([math.AT/0404003](http://arxiv.org/abs/math/0404003))
 
 (whose main point is the discussion of a gauge condition applicable for nilpotent $L_\infty$-algebras that cuts down the result of the Sullivan construction to a much smaller but equivalent model) .
 
