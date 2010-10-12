@@ -141,7 +141,7 @@ In dimension 4 the analog statement fails due to the existence of [[exotic smoot
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesian space]]. Then $C$ is [[diffeomorphic]] to $\mathb{R}^n$.
+Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesian space]]. Then $C$ is [[diffeomorphic]] to $\mathbb{R}^n$.
 
 =--
 
@@ -155,7 +155,7 @@ This appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#p
 
 Let $I(\Delta^n) \subset \mathbb{R}^n$ be the [[interior]] of the standard $n$-[[simplex]]. Then there is a diffeomorphism to $\mathbb{B}^n$ defined as follows:
 
-Parameterize the $n$-simplx as
+Parameterize the $n$-simplex as
 
 $$
   I(\Delta^n) 
