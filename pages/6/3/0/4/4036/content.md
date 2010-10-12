@@ -58,9 +58,11 @@ Every [[paracompact manifold]] of [[dimension]] $d$ admits an open cover such th
 +-- {: .proof}
 ###### Proof
 
-By ([Greene](#Greene)) we have that every paracompact manifold admits even a metric with positive [[injectivity radius]] $r \in \mathbb{R}$ for its [[geodesic flow]]. Choose as before around every point a [[geodesically convex]]  $U_p \hookrightarrow X$ and reduce it if necessary to radius $\leq r/2$. 
+  By ([Greene](#Greene)) every paracompact manifold admits a Riemannian metric with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an open cover consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(X,r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the geodesic flow around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
 
-Picking any point in a finite nonempty intersection $U_{i_1} \cap \cdots \cap U_{i_p}$, the [[geodesic flow]] starting at that point provides then a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[neighbourhood]] of the origin of the [[tangent space]] at that point. That neighbourhood is [[star-shaped]]: for if $v$ is a tangent vector and $\exp_p(v)$ is in the region, then by geodesic completeness the whole geodesic $s \mapsto \exp_p(s v)$ is in the region, for $s \in [0,1]$.  By theorem 237 of ([Ferus](#Ferus)) (see [[ball]] for more) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
+Moreover, the preimage of the intersection region under the geometric flow is a [[star-shaped]] region in the tangent space $T_u X$: because the intersection of geodesically convex regions is itself geodesically convex, so that for any $v \in T_u X$ with $\exp(v) \in U_{p_1} \cap \cdots \cap U_{p_n}$ the whole geodesic segment $t \mapsto \exp(t v)$ for $t \in [0,1]$ is also in the region.
+
+So we have that every finite non-empty intersection of the $U_p$ is diffeomorphic to a star-shaped region in a vector space. By the results cited at [[ball]] (e.g. theorem 237 of ([Ferus](#Ferus))) this star-shaped region is diffeomorphic to an $\mathbb{R}^n$.
 
 =--
 
@@ -191,7 +193,7 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 * [[John Milnor]], _Morse theory_ , Princeton University Press (1963)
 {#Milnor}
 
-* R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 
+* R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 (1978)
 {#Greene}
 
 * [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
