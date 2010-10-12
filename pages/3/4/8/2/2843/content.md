@@ -1,8 +1,28 @@
-# Levi-Civita connection
-* tic
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
 {: toc}
 
-The **Levi-Civita connection** is the unique symmetric [[connection on a bundle|connection]] on the [[tangent bundle]] of a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] that is compatible with the [[Riemannian metric|metric]] or [[pseudo-Riemannian metric|pseudo-metric]].  The [[curvature tensor]] and [[geodesic]]s on a pseudo-Riemannian manifold are taken with respect to this connection.  The existence and uniqueness of the Levi-Civita connection is the so-called **fundamental theorem of [[Riemannian geometry]].**
+
+## Idea
+
+The **Levi-Civita connection** is the unique symmetric [[connection on a bundle|connection]] on the [[tangent bundle]] of a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] that is compatible with the [[Riemannian metric|metric]] or [[pseudo-Riemannian metric|pseudo-metric]].  The [[curvature]] and [[geodesic]]s on a pseudo-Riemannian manifold are taken with respect to this connection.  The existence and uniqueness of the Levi-Civita connection is the so-called **fundamental theorem of [[Riemannian geometry]].**
 
  
 ##Definition of Compatibility##
