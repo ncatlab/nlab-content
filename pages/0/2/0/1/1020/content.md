@@ -50,7 +50,7 @@ Whenever $F$ is a left adjoint of $U$, we have that $U$ is a [[right adjoint]] o
 ## Further remarks
 *  See [[Galois connection]] for left adjoints of monotone functions.
 *  See [[adjoint functor]] for left adjoints of functors.
-*  See [[adjunction]] for left adjionts in $2$-categories.
+*  See [[adjunction]] for left adjoints in $2$-categories.
 *  See [[examples of adjoint functors]] for examples.
 
 
