@@ -32,6 +32,8 @@ An **[[smooth (∞,1)-algebra]]** is an [[(∞,1)-algebraic theory|(∞,1)-algeb
 
 In [Spiv](http://arxiv.org/abs/0810.5174) this is [[model category|modeled]] in terms of a [[Bousfield localization of model categories|left Bousfield localization]] of the injective [[model structure on simplicial presheaves]] on $CartSp^{op}$.
 
+This is the model structure for [[homotopy T-algebra]]s over $T = CartSp$. See there for more details.
+
 ...
 
 
