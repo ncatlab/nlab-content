@@ -113,3 +113,5 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 [[!redirects compact topological spaces]]
 [[!redirects compact convergence spaces]]
 [[!redirects compact locales]]
+
+[[!redirects compact]]
