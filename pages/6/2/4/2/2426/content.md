@@ -10,8 +10,14 @@
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
