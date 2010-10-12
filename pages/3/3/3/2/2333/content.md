@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-linear combinations, of its elements.  Do not confuse this with an (abstract) convex *set*, which a special kind of convex space, also defined below.
+A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-linear combinations, of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
 
 Convex spaces may be important in the foundations of [[probability theory]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
 
@@ -37,14 +37,14 @@ Any real [[vector space]] is a convex space, with $c_p(a,b) = p a + (1 - p) b$. 
 
 More generally, any real [[affine space]] is a convex space; since $p + (1 - p) = 1$, the expression for $c_p$ in a vector space is valid in an affine space.  In the unbiased version, any convex-linear combination is an affine linear combination.  Now any convex-linear map between affine spaces is an affine linear map (and conversely); an affine space is a convex space with [[extra properties]].
 
-Still more generally, any convex subset (that is, one containing the entire line segment between two given points) of a real affine space is a convex space (again with extra properties, which are described algebraically below).
+Still more generally, any [[convex subset]] (that is, one containing the entire line segment between two given points) of a real [[affine space]] is a convex space (again with extra properties, which are described algebraically below).
 
 The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(a,b) = a \vee b = a + b - a b$ whenever $0 \lt p \lt 1$ (with $c_0(a,b) = b$ and $c_1(a,b) = a$ as always); this cannot be realised as a subset of a vector space.  This can be generalised to any (possibly unbounded) [[semilattice]].  (It would be nice to find an example like this that can be defined constructively; this one relies on [[excluded middle]].)
 
 
 ## Abstract convex sets
 
-There is a nice abstract converse to the example of a convex subset of an affine space.  A convex space is __cancellative__ if $a = b$ whenever $c_p(a,c) = c_p(b,c)$ for some $c$ and $p \gt 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
+There is a nice abstract converse to the example of a [[convex subset]] of an affine space.  A convex space is __cancellative__ if $a = b$ whenever $c_p(a,c) = c_p(b,c)$ for some $c$ and $p \gt 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
 +-- {: .un_theorem}
 ###### Theorem (Thm 2 in the paper by Stone)
 
@@ -85,7 +85,7 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * Joe Flood, Semiconvex geometry, _J. Austral. Math. Soc. Ser. A_ **30** (1980/81), 496-&#8211;510. 
 
-* T. Swirszcz, Monadic functors and categories of convex sets, Preprint No. **70**, _Proc. Inst. Math. Pol. Acad. Sci._, Warsaw.
+* T. Swirszcz, _Monadic functors and categories of convex sets_ , Preprint No. **70**, _Proc. Inst. Math. Pol. Acad. Sci._, Warsaw.
 
 * T. Swirszcz, Monadic functors and convexity, _Bull. Acad. Polon. Sci. Ser. Sci. Math. Astronom. Phys._ **22** (1974), 39--42. 
 
