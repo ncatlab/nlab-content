@@ -13,8 +13,18 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 
 For $(X,g)$ a [[Riemannian manifold]] and $p \in X$ a point, the **geodesic flow** at $p$ is the map defined on an open neighbourhood of the origin in $(T_p X ) \times \mathbb{R}$ that sends $(v,r)$ to the endpoint of the [[geodesic]] that starts with tangent vector $v$ at $p$ and has length $r$.
 
 (...)
+
+
+## References
+
+* Gabriel Paternein, _Geodesic flows_ Birkh&#228;user (1999)
