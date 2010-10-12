@@ -7,7 +7,7 @@ An _automaton with concurrency relations_  $(S,i,E,Tran,I)$ consists of
 
 and
 
-* $I = \{I_s\mid s\in S\}$ is a family of irreflexive, symmetric binary relations, $I_s$ on $E$ such that whenever $a_1I_sa_2$ (with $a_1,a_2 \in E$, there exist transitions $(s,a_1,s_1)$, $(s,a_2,s_2)$, $(s_1,a_2,r)$, and $(s_2,a_1,r)$ in $Tran$.
+* $I = \{I_s\mid s\in S\}$ is a family of irreflexive, symmetric binary relations, $I_s$ on $E$ such that whenever $a_1I_s a_2$ (with $a_1,a_2 \in E$), there exist transitions $(s,a_1,s_1)$, $(s,a_2,s_2)$, $(s_1,a_2,r)$, and $(s_2,a_1,r)$ in $Tran$.
 =--
 
 ##References##
