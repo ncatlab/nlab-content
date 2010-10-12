@@ -52,6 +52,17 @@ A **semicategory* or **category without units** $C$ consists of
 
 People often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of morphisms $f : x \to y$; the latter two have the advantage of making clear which category is being discussed.  People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.
 
+## Example
+
+Start with the category of metric spaces and short maps. An occasionally useful semicategory can be formed from it by considering the nonempty spaces and strictly contractive functions. 
+
+This is a semicategory, since:
+
+* the composition of two strictly contractive functions is strictly contractive
+* identity maps are not contractive (they are trivial isometries)
+
+The interest in this semicategory arises from the fact that all morphisms $f : A \to A$ have unique fixed points, by Banach's fixed point theorem. 
+
 ## In higher category theory
 
 The concept of semicategory has more or less evident analogs and generalizations in [[higher category theory]].
