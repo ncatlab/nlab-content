@@ -85,9 +85,7 @@ is a [[full and faithful functor]] and an object $F \in sPSh(C^{op})$ belongs to
 
 =--
 
-This is due to
-
-* [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
+This is due to ([Bergner](#Bergner)).
 
 It follows that the natural $(\infty,1)$-functor
 
@@ -99,6 +97,17 @@ $$
 is an [[equivalence of quasi-categories|equivalence]].
 
 A comprehensive statement of these facts is in [[Higher Topos Theory|HTT, section 5.5.9]].
+
+## Properties
+
++-- {: .un_theorem}
+###### Theorem
+
+There is a [[Quillen equivalence]] between the model structure on simplicial $T$-algebras and the model structure for [[homotopy T-algebra]]s. (See there).
+
+=--
+
+This is theorem 1.3 in ([Badzioch](#Badzioch)).
 
 ## Examples
 
@@ -116,6 +125,18 @@ In
 {#Rezk}
 
 it is discussed that every model category of simplicial $T$-algebras is [[Quillen equivalence|Quillen equivalent]] to a left [[proper model category]].
+
+The fact that the model structure on simplicial $T$-algebras serves to model $\infty$-algebras is in
+
+* [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
+{#Bergner}.
+
+
+
+The Quillen equivalence to the model structure on homotopy $T$-algebras is in 
+
+* [[Bernard Badzioch]], _Algebraic theories in homotopy theory_ Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
+{#Badzioch}
 
 
 [[!redirects model structure on simplicial T-algebras]]
