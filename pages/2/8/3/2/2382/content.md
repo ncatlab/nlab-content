@@ -11,7 +11,7 @@
 
 ## Toposes ##
 
-* [[(0,1)-topos]]: [[Heyting algebra]], [[locale]]
+* [[(0,1)-topos]], [[Heyting algebra]], [[locale]]
 
 * [[pretopos]]
 
@@ -42,13 +42,13 @@
 
 ## Internal Logic
 
-  * [[internal logic]]
+* [[internal logic]]
 
-    * [[type theory]]
+  * [[type theory]]
 
-    * [[subobject classifier]]   
+  * [[subobject classifier]]   
 
-    * [[natural numbers object]]
+  * [[natural numbers object]]
 
   
 ## Topos morphisms
