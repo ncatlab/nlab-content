@@ -35,7 +35,7 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X
 +-- {: .un_prop }
 ###### Proposition
 
-Every [[paracompact space|paracompact]] [[manifold]] admits a good open cover.
+Every [[paracompact manifold]] admits a good open cover.
 
 =--
 
@@ -51,16 +51,16 @@ We can strengthen this:
 +-- {: .un_prop }
 ###### Proposition
 
-Every [[paracompact space|paracompact]] [[manifold]] of [[dimension]] $d$ admits an open cover such that every non-empty finite intersection is [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^d$.
+Every [[paracompact manifold]] of [[dimension]] $d$ admits an open cover such that every non-empty finite intersection is [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^d$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Consider an open cover by geodesically convex subsets as in the proof before. We may assume without restriction that in each $U_i$ there is no pair of conjugate points for the metric, so that any geodesic flow inside $U_i$ is a diffeomorphism.
+By ([Greene](#Greene)) we have that every paracompact manifold admits even a metric with positive [[injectivity radius]] $r \in \mathbb{R}$ for its [[geodesic flow]]. Choose as before around every point a [[geodesically convex]]  $U_p \hookrightarrow X$ and reduce it if necessary to radius $\leq r/2$. 
 
-Picking any point in an intersection $U_{i_1} \cap \cdots \cap U_{i_p}$, the [[geodesic flow]] starting at that point provides then a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[neighbourhood]] of the origin of the [[tangent space]] at that point. That neighbourhood is [[star-shaped]]: for if $v$ is a tangent vector and $\exp_p(v)$ is in the region, then by geodesic completemess the whole geodesic $s \mapsto \exp_p(s v)$ is in the region, for $s \in [0,1]$.  By theorem 237 of ([Ferus](#Ferus)) (see [[ball]] for more) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
+Picking any point in a finite nonempty intersection $U_{i_1} \cap \cdots \cap U_{i_p}$, the [[geodesic flow]] starting at that point provides then a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[neighbourhood]] of the origin of the [[tangent space]] at that point. That neighbourhood is [[star-shaped]]: for if $v$ is a tangent vector and $\exp_p(v)$ is in the region, then by geodesic completeness the whole geodesic $s \mapsto \exp_p(s v)$ is in the region, for $s \in [0,1]$.  By theorem 237 of ([Ferus](#Ferus)) (see [[ball]] for more) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
 
 =--
 
@@ -190,6 +190,9 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 * [[John Milnor]], _Morse theory_ , Princeton University Press (1963)
 {#Milnor}
+
+* R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 
+{#Greene}
 
 * [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
 {#Ferus}
