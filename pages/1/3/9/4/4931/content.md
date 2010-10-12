@@ -190,8 +190,25 @@ Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672))
 {#Ozols}
 
+The proof that open star-shaped regions are diffeomorphic to a ball appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) 
+
 * [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
 {#Ferus}
+
+It is a lengthy proof. [Apparently](http://mathoverflow.net/questions/4468/what-are-the-open-subsets-of-mathbbrn-that-are-diffeomorphic-to-mathbb) it is due to Stefan Born. 
+
+A simpler version of the proof apparently appears on page 60 of
+
+* St&#233;phane Gonnord, Nicolas Tosel, _Calcul Diff&#233;rentiel_ , ellipses (1998)
+
+Apparently this proof is little known. For instance in a remark below lemma 10.5.5 of
+
+* Lawrence Colon, _Differentiable manifolds_ Birkh&#228;user (last edition 2008)
+
+is says
+
+> It seems that open star shaped sets $U \subset M$ are always diffeomorphic to $\mathbb{R}^n$, but this is extremely difficult to prove. 
+
 
 
 [[!redirects  balls]]
