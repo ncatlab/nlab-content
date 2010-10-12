@@ -1,4 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riemannian metric]].
+
 
 ## Related entries ##
 
@@ -17,11 +39,3 @@
   * [[Christoffel symbol]]
 
 * [[gravity]]
----
-Berger: A panoramic view of Riemannian geom.
-
-&lt;http://www.ncatlab.org/nlab/show/Riemannian+manifold>
-
-See Riemannian geometry folder. Note in particular Berger: Panoramic view etc.
-
-nLab page on [[nlab:Riemannian geometry]]
