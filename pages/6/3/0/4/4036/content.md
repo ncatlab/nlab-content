@@ -60,7 +60,7 @@ Every [[paracompact space|paracompact]] [[manifold]] of [[dimension]] $d$ admits
 
 Consider an open cover by geodesically convex subsets as in the proof before.
 By picking any point in an intersection $U_{i_1} \cap \cdots \cap U_{i_p}$, by its geodesic completeness the [[geodesic flow]] starting
-at that point provides a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[star-shaped]] neighbourhood of the origin of the [[tangent space]] at that point (again by ([Milnor](#Milnor)), lemma 10.3). By theorem 237 of ([Ferus](#Ferus)) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
+at that point provides a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[neighbourhood]] of the origin of the [[tangent space]] at that point (again by ([Milnor](#Milnor)), lemma 10.3). That neighbourhood is [[star-shaped]]: for if $v$ is a tangent vector and $\exp_p(v)$ is in the region, then by geodesic completemess the whole geodesic $s \mapsto \exp_p(s v)$ is in the region, for $s \in [0,1]$.  By theorem 237 of ([Ferus](#Ferus)) (see [[ball]] for more) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
 
 =--
 
