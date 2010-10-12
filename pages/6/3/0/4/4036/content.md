@@ -42,7 +42,7 @@ Every [[paracompact space|paracompact]] [[manifold]] admits a good open cover.
 +-- {: .proof}
 ###### Proof
 
-Every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after lemma 10.3 ([Milnor](#Milnor)) page 59). It is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
+Every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a [[geodesically convex]] [[neighborhood]] (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after lemma 10.3 ([Milnor](#Milnor)) page 59). It is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
 
 =--
 
