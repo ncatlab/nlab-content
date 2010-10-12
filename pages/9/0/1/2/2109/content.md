@@ -223,11 +223,11 @@ and
 $$ (L \lhd H)(c,b) = \int_{a\in A} [H(b,a), L(c,a)]. $$
 Therefore, \eqref{yon} is an abstract form of the Yoneda lemma, just as \eqref{coyon} is an abstract form of Yoneda reduction.
 
-Now recall that for $V$-categories $D$ and $C$, an object $\ell\in C$ is a $J$-weighted limit of $d\colon D\to C$ if we have an isomorphism
+Now recall that for $V$-categories $D$ and $C$, an object $\ell\in C$ is a $J$-weighted limit of $d\colon D\to C$ if we have a natural isomorphism
 $$
 \begin{aligned}
-C(-,\ell) &\cong [D,V](J, C(-,x))\\
-&= \int_{x\in D} [J(x), C(-,d(x))].
+C(c,\ell) &\cong [D,V](J, C(c,d(-)))\\
+&= \int_{x\in D} [J(x), C(c,d(x))].
 \end{aligned}
 $$
 Thus it makes sense to define, in a closed proarrow equipment, an arrow $\ell\colon A\to C$ to be the $J$-weighted limit of $d$ if we have an isomorphism
