@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -28,8 +35,14 @@ $$
 
 ## References ##
 
+A course that goes through the construction of tmf and the computation of its homotopy groups is
+
+*  _Talbot workshop on TMF_ ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/))
+
+In the last lectures one can find diagrams showing the Adams spectral sequence for tmf.
+
+
+A sketch of the construction of tmf as the global sections of an $E_\infty$-valued sheaf over ther derived moduli space of derived elliptic curves is in
+
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
-* [[Mike Hopkins]] and others: _Talbot workshop on TMF_ ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/))
-
-On this side one can find diagrams showing the Adams spectral sequence for tmf.
