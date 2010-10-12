@@ -38,9 +38,11 @@ The challenge is to find adequate mathematical models so as better to understand
 
 * [[Petri nets]];
 
-* [[automata with concurrency]];
+* [[asynchronous automata]];
 
-* [actor models](http://en.wikipedia.org/wiki/Actor_model)
+* [actor models](http://en.wikipedia.org/wiki/Actor_model);
+
+* [[higher dimensional automata]].
 
 ##References##
 
