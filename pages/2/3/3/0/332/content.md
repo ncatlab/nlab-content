@@ -10,11 +10,12 @@ See also [[topology]].
 * [[connection]] (and links therein)
 * [[Morse function]], [[Morse lemma]], [[Morse theory]], [[perfect Morse function]]
 * [[Casson invariant]], [[Donaldson-Thomas invariant]], [[Kähler manifold]], [[mirror symmetry]]
+* [[metric space]], [[convex set]], [[Riemannian manifold]], [[geodesic flow]], [[geodesic convexity]], [[star-shaped]]
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
 * [[derived algebraic geometry]], [[derived smooth manifold]]
 * [[noncommutative geometry]]
 * [[noncommutative algebraic geometry]], [[noncommutative scheme]], [[noncommutative thin scheme]]
-* [[algebraic geometry]], [[analytic geometry]], book entry [[EGA]]
+* [[algebraic geometry]], [[analytic geometry]], [[GAGA]], book entry [[EGA]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
 * [[open subscheme]], [[closed subscheme]], [[configuration scheme]]
 * [[formal scheme]], [[formal group scheme]], [[formal group law]], [[algebraic group]]
