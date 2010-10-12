@@ -52,18 +52,18 @@ A [[compact]] [[convex]] [[subset]] $D$ in $\mathbb{R}^n$ with [[nonempty]] [[in
 ######Proof
 Without loss of generality we may suppose the origin is an interior point of $D$. We claim that the map $\phi: v \mapsto v/\|v\|$ maps the boundary $\partial D$ homeomorphically onto $S^{n-1}$. By convexity, $D$ is homeomorphic to the cone on $\partial D$, and therefore to the cone on $S^{n-1}$ which is $D^n$. 
 
-Shouldn't the claim be obvious? 
+The claim reduces to the following three steps. 
 
-* The restricted map $\phi: \partial D \to S^{n-1}$ is continuous. 
+1. The restricted map $\phi: \partial D \to S^{n-1}$ is continuous. 
 
-* It's surjective: $D$ contains a ball $B = B_{\varepsilon}(0)$ in its interior, and for each $x \in B$, the positive ray through $x$ intersects $D$ in a bounded half-open line segment. For the extreme point $v$ on this line segment, $\phi(v) = \phi(x)$. Thus every unit vector $u \in S^{n-1}$ is of the form $\phi(v)$ for some extreme point $v \in D$, and such extreme points lie in $\partial D$. 
+1. It's surjective: $D$ contains a ball $B = B_{\varepsilon}(0)$ in its interior, and for each $x \in B$, the positive ray through $x$ intersects $D$ in a bounded half-open line segment. For the extreme point $v$ on this line segment, $\phi(v) = \phi(x)$. Thus every unit vector $u \in S^{n-1}$ is of the form $\phi(v)$ for some extreme point $v \in D$, and such extreme points lie in $\partial D$. 
 
-* It's injective: for this we need to show that if $v, w \in \partial D$ are distinct points, then neither is a positive multiple of the other. Supposing otherwise, we have $w = t v$ for $t \gt 1$, say. Let $B$ be a ball inside $D$ containing $0$; then the convex hull of $\{w\} \cup B$ is contained in $D$ and contains $v$ as an interior point, contradiction.  
+1. It's injective: for this we need to show that if $v, w \in \partial D$ are distinct points, then neither is a positive multiple of the other. Supposing otherwise, we have $w = t v$ for $t \gt 1$, say. Let $B$ be a ball inside $D$ containing $0$; then the convex hull of $\{w\} \cup B$ is contained in $D$ and contains $v$ as an interior point, contradiction.  
 
 So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between compact [[Hausdorff space]]s, is a homeomorphism. 
 =--
 
-By slightly modifying this argument, we can prove that the closure of any open [[star-shaped]] region is homeomorphic to the $n$-disk iff it is compact. 
+By slightly modifying this argument, we can prove that the closure of any open [[star-shaped]] region is homeomorphic to the $n$-disk iff it is compact. For, we may assume every point in the closure is connected to the origin by a line segment in the closure. Steps 1 and 2 above hold without modification, and as for step 3, for any open neighborhood of the line segment between the origin and $w$, any convex open subneighborhood of the segment contains $v$ as an interior point. 
 
 +-- {: .un_cor}
 ######Corollary
