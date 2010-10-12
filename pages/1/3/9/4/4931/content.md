@@ -63,6 +63,8 @@ Shouldn't the claim be obvious?
 So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between compact [[Hausdorff space]]s, is a homeomorphism. 
 =--
 
+By slightly modifying this argument, we can prove that the closure of any open [[star-shaped]] region is homeomorphic to the $n$-disk iff it is compact. 
+
 +-- {: .un_cor}
 ######Corollary
 Any compact convex set $D$ of $\mathbb{R}^n$ is homeomorphic to a disk. 
@@ -75,7 +77,7 @@ $D$ has nonempty interior relative to its affine span which is some $k$-plane, a
 
 ### Open Balls
 
-Open balls are a little less rigid than closed balls, so that we can manipulate them up to diffeomorphism: 
+Open balls are a little less rigid than closed balls, in that one can more easily manipulate them within the _smooth_ category: 
 
 +-- {: .un_lemma}
 ###### Observation
@@ -203,13 +205,13 @@ A simpler version of the proof apparently appears on page 60 of
 
 Apparently this proof is little known. For instance in a remark below lemma 10.5.5 of
 
-* Lawrence Colon, _Differentiable manifolds_ Birkh&#228;user (last edition 2008)
+* Lawrence Conlon, _Differentiable manifolds_ Birkh&#228;user (last edition 2008)
 
-is says
+it says
 
 > It seems that open star shaped sets $U \subset M$ are always diffeomorphic to $\mathbb{R}^n$, but this is extremely difficult to prove. 
 
-
+See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
 
 [[!redirects  balls]]
 
