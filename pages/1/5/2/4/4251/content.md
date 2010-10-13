@@ -699,3 +699,4 @@ For $\mathbf{B}\mathbb{Z}$ it is the other way round:
   $$
 
 
+[[!redirects geometric homotopy groups in an (infinity,1)-topos]]
