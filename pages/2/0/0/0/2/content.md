@@ -20,7 +20,6 @@
   * [[inbound citations|Inbound Citations]]
   * [[Uploaded Files]]
   * [[Sandbox|Sandbox]]
-
-
+  * [[math resources]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
