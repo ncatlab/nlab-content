@@ -58,6 +58,10 @@ $l \circ T(\eta^P) = (\eta^P)_T$ and
 $l \circ T(\mu^P) = (\mu^P)_T \circ P(l) \circ l_P$. Thus all together a distributive law from a monad to an endofunctor is a 2-cell for which 2 triangles and 2 pentagons commute. In the entwining case, 
 Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they call the _bow-tie diagram_. 
 
+##Examples##
+
+1. [[factorization system|Factorization systems]] are distributive laws between categories taken as monads in [[span|Span(Set)]].
+
 ##Literature##
 H. Appelgate, M. Barr, J. Beck, F. W. Lawvere, F. E. J. Linton, E, Manes, M. Tierney, F. Ulmer, Seminar on triples and categorical homology theory, ETH 1966/67, edited by B. Eckmann, LNM 80, Springer 1969.
 (includes article Jon Beck, Distributive laws, pages 119--140).
