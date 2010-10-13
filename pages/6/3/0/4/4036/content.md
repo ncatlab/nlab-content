@@ -64,7 +64,7 @@ Every [[paracompact manifold]] of [[dimension]] $d$ admits an open cover such th
 +-- {: .proof}
 ###### Proof
 
-By ([Greene](#Greene)) every paracompact manifold admits a Riemannian metric with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an open cover consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the geodesic flow around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
+By ([Greene](#Greene)) every paracompact manifold admits a Riemannian metric with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an open cover consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the [[geodesic flow]] around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
 
 Moreover, the preimage of the intersection region under the geometric flow is a [[star-shaped]] region in the tangent space $T_u X$: because the intersection of geodesically convex regions is itself geodesically convex, so that for any $v \in T_u X$ with $\exp(v) \in U_{p_1} \cap \cdots \cap U_{p_n}$ the whole geodesic segment $t \mapsto \exp(t v)$ for $t \in [0,1]$ is also in the region.
 
@@ -170,7 +170,7 @@ Let $sPSh(CartSp)_{proj}$ be the category of [[simplicial presheaves]] on the ca
 
 Let $X$ be a [[smooth manifold]], regarded as a 0-[[truncated]] object of $sPSh(C)$.
 
-Let $\{U_i \to X\}$ be a good open cover by [[open ball]]s in the strong sensse: such that every finite non-empty intersection is diffeomorphic to an $\mathbb{R}^d$.
+Let $\{U_i \to X\}$ be a good open cover by [[open ball]]s in the strong sense: such that every finite non-empty intersection is diffeomorphic to an $\mathbb{R}^d$.
 
 Then: the [[Cech nerve]] $C(\{U\}) \in sPSh(C)$ is a cofibrant resolution of $X$ in the [[local model structure on simplicial presheaves]].
 
