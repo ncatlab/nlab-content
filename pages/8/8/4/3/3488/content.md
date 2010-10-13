@@ -224,6 +224,19 @@ In particular the $(\infty,1)$-topos $\infty LieGrpd := Sh_{(\infty,1)}(CartSp)$
 
 * [[∞-Lie groupoid]].
 
+## Related concepts
+
+* [[locally connected topos]] / **locally ∞-connected (∞,1)-topos**
+
+* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+* [[local topos]] / [[local (∞,1)-topos]].
+
+* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+
+
+
+
 
 [[!redirects locally n-connected (∞,1)-topos]]
 [[!redirects locally contractible (infinity,1)-topos]]
@@ -244,3 +257,7 @@ In particular the $(\infty,1)$-topos $\infty LieGrpd := Sh_{(\infty,1)}(CartSp)$
 
 
 [[!redirects ∞-connected (∞,1)-topos]]
+
+[[!redirects locally connected (∞,1)-geometric morphism]]
+[[!redirects connected (∞,1)-geometric morphism]]
+[[!redirects essential (∞,1)-geometric morphism]]
