@@ -147,9 +147,12 @@ Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesi
 
 =--
 
-This appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) of ([Ferus](#Ferus)).  Even an explicit construction of a diffeomorphism as asserted by the theorem is given there.
++-- {: .un_remark}
+###### Proof/Remark
 
+This is a _folk theorem_ . But explicit proofs in the literature are very hard to find. See the discussion at [Refereces](#References). An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus](#Ferus)).  
 
+=--
 
 +-- {: .un_example}
 ###### Example
@@ -185,7 +188,11 @@ $$
 
 (Thanks to [[Todd Trimble]].)
 
-## References
+### Good covers by balls
+
+One central application of balls is as building blocks for [[covering]]s. See [[good open cover]] for some statements.
+
+## References {#References}
 
 * V. Ozols, _Largest normal neighbourhoods_ ,
 Proceedings of the American Mathematical Society
@@ -215,14 +222,18 @@ And in
 
 * Jeffrey Lee, _Manifolds and differential geometry_  (2009)
 
-one finds
+one finds the statement
 
 > Actually, the assertion that an open geodesically convex set in a Riemannian manifold is diffeomorphic to $\mathbb{R}^n$ is common in literature, but it is a more subtle issue than it may seem, and references to a complete proof are hard to find (but see [Grom]).
+
+Here "Grom" refers to
 
 * M. Gromov, _Convex sets and K&#228;hler manifolds_ , Advances in differential geometry and topology. F. Tricerri ed., World Sci., Singapore,
 (1990), 1-38. ([pdf](http://www.ihes.fr/~gromov/PDF/%5B68%5D.pdf))
 
+where the relevant statement is 1.4.C1 on apge 8. Note however that the diffeomorphism considered there is only of $C^1$ class, not $C^\infty$, so that this is not a proof, either. 
 
+For a discussion of diffeomorphisms between geodesically convex regions and open balls see [[good open cover]].
 
 See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
 
