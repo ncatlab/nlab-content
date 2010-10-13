@@ -160,9 +160,12 @@ We discuss that $\infty LieGrpd$ is an [[∞-connected (∞,1)-topos]] and recal
 +-- {: .un_lemma}
 ###### Lemma
 
-The $(\infty,1)$-topos $\infty LieGrpd$ is an [[∞-connected (∞,1)-topos]].
+The $(\infty,1)$-topos $\infty LieGrpd$ is a 
+[[local (∞,1)-topos]]. So in particular it is a [[locally ∞-connected (∞,1)-topos]]. It is moreover a [[∞-connected (∞,1)-topos]].
+
 
 =--
+
 
 This means that the [[global section]] [[geometric morphism]] is [[essential geometric morphism|essential]] in that we have a triple of [[adjoint (∞,1)-functor]]s
 
