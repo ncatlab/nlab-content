@@ -2,10 +2,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
-+--{: .hide}
-[[!include synthetic differential geometry - contents]]
-=--
 #### Riemannian geometry
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
@@ -22,20 +18,12 @@
 Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riemannian metric]].
 
 
-## Related entries ##
 
-* [[manifold]]
+## References
 
-* [[Riemannian metric]]/[[Riemannian manifold]]
+* Isaac Chavel, _Riemannian geometry &#8211; A modern introduction_ Cambridge University Press (1993)
+{#Chavel}
 
-* [[pseudo-Riemannian metric]]/[[pseudo-Riemannian manifold]]
+* Marcel Berger, _A panoramic view of Riemannian geometry_
+{#Berger}
 
-* [[Levi-Civita connection]]
-
-  * [[tangent bundle]]
-
-  * [[connection on a bundle]]
-
-  * [[Christoffel symbol]]
-
-* [[gravity]]
