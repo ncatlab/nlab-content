@@ -140,7 +140,7 @@ The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a cohesive topos over [[Set]].
 
 =--
 
-We first that it is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]
+We first show that it is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]
 
 $$
   Sh(CartSp)
@@ -227,7 +227,7 @@ $$
   {\lim_\to}_{(U \to X)} *
 $$
 
-is the ccolimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
+is the colimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
 
 The connected components of the category of plots $y/X$ are the path-connected (or "plot-connected") components of the underlying topological space of $X$.
 
@@ -395,5 +395,13 @@ The definition of a category of cohesion was proposed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
+
+The observation that $Sh(CartSp)$ is a [[local topos]] and that this serves to characterize [[diffeological space]]s was amplified by [[David Carchedi]].
+
+[[!redirects cohesive toposes]]
+[[!redirects cohesive topoi]]
+
+[[!redirects category of cohesion]]
+[[!redirects categories of cohesion]]
 
 [[!redirects cohesive (∞,1)-topos]]
