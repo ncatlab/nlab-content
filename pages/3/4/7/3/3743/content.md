@@ -66,8 +66,7 @@ Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of
 
 and for the higher dimensional forms of rewriting
 
- [[Yves Guiraud]] and [[Philippe Malbos]], _Identities among relations for higher-dimensional rewriting systems, pdf.
-  S&#233;minaires et Congr&#232;s, SMF, (to appear), [arXiv:0910.4538](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.4538v2.pdf). 
+ [[Yves Guiraud]] and [[Philippe Malbos]], _Identities among relations for higher-dimensional rewriting systems,   S&#233;minaires et Congr&#232;s, SMF, (to appear), [arXiv:0910.4538](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.4538v2.pdf). 
 
 and [slides](http://ljk.imag.fr/membres/Dominique.Duval/CCS09/CCS09-Malbos.pdf)
 
