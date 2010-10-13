@@ -35,6 +35,19 @@ Let $(X,g)$ be a [[Riemannian manifold]]
 
 =--
 
+The following are some auxiliary definitions that serve to analyse properties of geodesic flow (see [Properties](#Properties)).
+
+
+For $p \in X$ a point and $r \in \mathbb{R}$ a positive real number, we write
+
+$$
+  B_p(r) = \{x \in X | d(p,x) \lt r\}  = \{ \exp( v) : T_p X \to X | |v| \lt r \} \subset X
+$$
+
+for set of points which are of [[distance]] less than $r$ away from $p$. As the propositions [below](#Properties) assert, for small enough $r$ this is [[diffeomorphic]] to an [[open ball]] and we speak of _metric balls_ or _geodesic balls_ .
+
+
+
 
 {#InjectivityRadius}
 +-- {: .un_defn}
@@ -42,21 +55,13 @@ Let $(X,g)$ be a [[Riemannian manifold]]
 
 For $p \in P$ a point, the **injectivity radius** $inj_p \in \mathbb{R}$ is the [[supremum]] over all values of $r \in \mathbb{R}$ such that the geodesic flow starting at $p$ with radius $r$ $\exp(-) : B_r(T_p X) \to X$ is a [[diffeomorphism]] onto its image.
 
-The injectivity radius of $X$ is the infimum of the injectivity radii at each point.
+The injectivity radius of $(X,g)$ is the infimum of the injectivity radii at each point.
 
 =--
 
 
-{#ConvexityRadius}
-+-- {: .un_defn}
-###### Definition
 
-(...) convexity radius (...)
-
-=--
-
-
-## Properties
+## Properties {#Properties}
 
 ### Properties of the injectivity radius
 
@@ -83,7 +88,7 @@ There are several lower boundas on the [injectivity radius](#InjectivityRadius) 
 +-- {: .un_proposition}
 ###### Proposition
 
-The convexity radius is always less than or equal to half of the injectivity radius:
+The [[convexity radius]] is always less than or equal to half of the injectivity radius:
 
 $$
   conv (X,g) \leq \frac{1}{2} inj(X,g)
@@ -91,6 +96,7 @@ $$
 $$
 
 =--
+
 
 This appears for instance as proposition IX.6.1 in [Chavel](#Chavel), where it is attributed to M. Berger (1976). In ([Berger](#Berger)) it is proposition 95. 
 
@@ -129,7 +135,13 @@ This is due to ([CheegerGromovTaylor](#CheegerGromovTaylor)). A survey is in ([G
 +-- {: .un_theorem}
 ###### Theorem
 
-Every [[paracompact manifold]] admits a complete [[Riemannian metric]] with bounded absolute sectional curvature and positive injectivity radius.
+Every [[paracompact manifold]] admits a complete [[Riemannian metric]] with 
+
+* bounded absolute sectional curvature;
+
+* positive convexity radius 
+
+* and hence with positive injectivity radius.
 
 =--
 
@@ -167,7 +179,7 @@ Older results on compact manifolds are in
 
 The existence of metrics with all the required propertiers for the injectivity estimates (completeness, bounded absolute sectional curvature) on paracompact manifolds is shown in
 
-* R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 
+* R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 (1978)
 {#Greene}
 
 More discussion of construction of Riemannian manifolds with bounds on curvature and volume is in
@@ -181,4 +193,3 @@ Analogous results for [[Lorentzian manifold]]s are discussed in
 
 
 [[!redirects injectivity radius]]
-[[!redirects convexity radius]]
