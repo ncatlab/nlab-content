@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -42,7 +48,7 @@ There are various further conditions that can be imposed on a geometric morphism
     (f_! \dashv f^* \dashv f_* \dashv f^!)
   $$
 
-  with full and faithful $f^!$ then the geometric morphism $f$ is called **local**.
+  with full and faithful $f^!$ then the geometric morphism $f$ is called **[[local geometric morphism]]**.
 
   In this case in particular $F \stackrel{\overset{p_*}{\leftarrow}}{\underset{p^!}{\hookrightarrow}} E$
 
