@@ -9,17 +9,6 @@
 =--
 =--
 
-* [[group cohomology]]
-
-  * [[nonabelian group cohomology]], [[groupoid cohomology]]
-
-* [[group extension]]
-
-* **Lie group cohomology** 
-
-  * [[∞-Lie groupoid cohomology]]
-
-***
 
 
 
@@ -168,6 +157,8 @@ where on the right we have the [[cohomology|intrinsic cohomology]] of [[∞-Lie 
 
 ## Properties
 
+### General
+
 From now on, for definiteness by a _Lie group_ $G$ we mean (following [Bry, page3](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#page=3)) a [[paracompact space|paracompact]] [[Frechet manifold]] equipped with a group structure such that the product and the inverse maps are smooth, and there is an everywhere defined exponential map $exp : \mathfrak{g} \to G$ where $\mathfrak{g}$ is the [[Lie algebra]] of $G$.
  
 
@@ -223,6 +214,58 @@ This is [Bry, prop. 1.6](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#p
 
 
 =--
+
+### Long sequence in differential cohomology {#SequenceDiffCohomology}
+
+For the purpose of this section we specifically conceive Lie group cohomology inside the [[(∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s, as described there.
+
+This is a [[local (∞,1)-topos]], hence in particular an [[∞-connected (∞,1)-topos]] and therefore it admits [[schreiber:differential cohomology in an (∞,1)-topos]]. By the theorem about the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#DiffCohWithGroupalCoeffs">differential fiber sequence</a>
+we have for $G$ a [[Lie group]], $\mathbf{B}G$ its [[delooping]], $\mathbf{B}^{n} U(1)$ the [[∞-Lie groupoid|circle n+1-group]] a long sequence in cohomology
+
+$$
+  \cdots \to H^n_{diff}(G, (1))\to H^n_G(G,U(1)) \to H_{dR, G}^{n+1}(G) \to 
+  \cdots
+  \,,
+$$
+
+where $H_G(G,-)$ denotes $G$-equivariant cohomology, in that
+
+$$
+  H^n_G(G,A) := \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n A)
+$$
+
+and so on.
+
+The point to note is that we may identify [[Lie algebra cohomology]] inside $H^n_{dR,G}(G)$ and may therefore regard the map
+
+$$
+  H^n_G(G,U(1)) \to H_{dR, G}^{n+1}(G)
+$$
+
+as the differentiation map that take a smooth group cocycle to a Lie algebra cocycle. This morphism operates by putting constructing a [[circle n-bundle with connection]] over $\mathbf{B}G$ and then computing its [[curvature]] forms.
+
+**Example** 
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]],$G$ its simply connected Lie group,  let $\mathbf{B}G \to \mathbf{B}^3 U(1)$ be the group cocycle that classifies the [[string 2-group]]. Its image in $H^3_{dR,G}(G)$ is the curvature of the [[Chern-Simons circle 3-bundle]] over $\mathbf{B}G$. This is represented by a simplicial differential form consisting of two pieces
+
+* on $G$ the form $\langle \theta\wedge \theta \wedge \theta \rangle$ obtained by feeding the [[Maurer-Cartan form]] on $G$ into the canoical Lie algebra cocycle that is [[Chern-Simons element|in transtression]] with the [[Killing form]] [[invariant polynomial]];
+
+* on $G \times G$ something like $\langle \theta_1 \wedge \theta_2\rangle$.
+
+(...)
+
+## Related entries
+
+* [[group cohomology]]
+
+  * [[nonabelian group cohomology]], [[groupoid cohomology]]
+
+* [[group extension]]
+
+* **Lie group cohomology** 
+
+  * [[∞-Lie groupoid cohomology]]
+
 
 
 ## References
