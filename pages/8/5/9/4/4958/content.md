@@ -13,6 +13,11 @@
 
 
 
+
+
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -35,28 +40,17 @@ A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathb
     {\to}}  \mathbf{S}
   $$
 
-* such that a further [[left adjoint]] $f_! : \mathbf{H} \to \mathbf{S}$ exists (making $f$ an [[essential geometric morphism]]) _and_ a further [[right adjoint]] $f^! : \mathbf{S} \to \mathbf{H}$ 
+* such that a further [[right adjoint]] $f^! : \mathbf{S} \to \mathbf{H}$ 
 
   $$
-    (f_! \dashv f^* \dashv f_* \dashv f^!) : 
+    (f^* \dashv f_* \dashv f^!) : 
     \mathbf{H}
     \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
     \mathbf{S}
   $$
 
-* and such that $f^!$ is a [[full and faithful functor]], so that hence
-
-  $$
-    \mathbf{S} \stackrel{\overset{f_*}{\leftarrow}}{\underset{f^!}{\hookrightarrow}} \mathbf{H}
-  $$
-
-  is a [[geometric embedding]] of $\mathbf{S}$ into $\mathbf{H}$.
-
 If $f : \mathbf{H} \to \mathbf{S}$ is the [[global section]] geometric morphism in the category of $(\infty,1)$toposes over $\mathbf{S}$, then we say that $\mathbf{H}$ is a **local $(\infty,1)$-topos**.
 
-## Properties
-
-Every local topos is a [[locally ∞-connected (∞,1)-topos]].
 
 ## Examples
 
@@ -68,9 +62,20 @@ This is a local $(\infty,1)$-topos.
 
 That it is a [[connected topos]] is discussed [[?LieGrpd]].
 
+## Related concpepts
+
+* [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
+
+* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+* [[local topos]] / **local (∞,1)-topos**
+
+* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+
 ## References
 
-* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_  Proc. London Math. Soc.  (1989)   s3-58  (2):  281-305.  ([pdf](http://plms.oxfordjournals.org/content/s3-58/2/281.full.pdf+html))
+
 
 
 
