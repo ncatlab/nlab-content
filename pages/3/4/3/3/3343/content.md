@@ -1,4 +1,4 @@
-**Branislav Jur&#269;o** is a German mathematical physicist ([[group]] theory, [[quantum groups]], noncommutative gauge theories, [[integrable systems]], [[nonabelian cocycle]]s in [[string theory]]) and category theorist ([[gerbes]], classifying 2-spaces and topoi, [[higher gauge theory|higher gauge theories]], [[twisted K-theory]]), born in former Czechoslovak Republik. 
+**Branislav Jur&#269;o** is a Czech mathematical physicist ([[group]] theory, [[quantum groups]], noncommutative gauge theories, [[integrable systems]], [[nonabelian cocycle]]s in [[string theory]]) and category theorist ([[gerbes]], classifying 2-spaces and topoi, [[higher gauge theory|higher gauge theories]], [[twisted K-theory]]), born in former Czechoslovak Republik. 
 
 * [website](http://sites.google.com/site/branislavjurco/)
 
