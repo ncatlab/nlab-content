@@ -64,10 +64,10 @@ Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of
 
 * Tibor Beke, [Categorification, term rewriting and the Knuth-Bendix procedure](http://faculty.uml.edu/tbeke/knuth.pdf)
 
-and for the higher dimensional froms of rewriting
+and for the higher dimensional forms of rewriting
 
- Yves Guiraud and Philippe Malbos, _Identities among relations for higher-dimensional rewriting systems, pdf.
-  S&#233;minaires et Congr&#232;s, SMF, &#224; para&#238;tre, arXiv:0910.4538. 
+ [[Yves Guiraud]] and [[Philippe Malbos]], _Identities among relations for higher-dimensional rewriting systems, pdf.
+  S&#233;minaires et Congr&#232;s, SMF, (to appear), [arXiv:0910.4538](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.4538v2.pdf). 
 
 and [slides](http://ljk.imag.fr/membres/Dominique.Duval/CCS09/CCS09-Malbos.pdf)
 
