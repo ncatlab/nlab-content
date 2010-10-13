@@ -46,7 +46,12 @@ Every paracompact manifold admits a [[Riemannian metric]], and for any point in 
 
 =--
 
-We can strengthen this:
++-- {: .un_remark }
+###### Remark
+
+It is apparently a folk theorem that every geodesically convex neighbourhood in a Riemannian manfifold is [[diffeomorphic]] to a [[Cartesian space]] (for instance this is asserted on page 42 of ([BottTu](#BottTu)). This implies the following strengthening of the above result, which appears stated as theorem 5.1  in [BottTu](#BottTu). But a complete proof in the literature is hard to find (see also the discussion of the references at [[ball]]). We give a complete proof below.
+
+=--
 
 +-- {: .un_prop }
 ###### Proposition
@@ -55,10 +60,11 @@ Every [[paracompact manifold]] of [[dimension]] $d$ admits an open cover such th
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
-  By ([Greene](#Greene)) every paracompact manifold admits a Riemannian metric with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an open cover consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(X,r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the geodesic flow around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
+By ([Greene](#Greene)) every paracompact manifold admits a Riemannian metric with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an open cover consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the geodesic flow around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
 
 Moreover, the preimage of the intersection region under the geometric flow is a [[star-shaped]] region in the tangent space $T_u X$: because the intersection of geodesically convex regions is itself geodesically convex, so that for any $v \in T_u X$ with $\exp(v) \in U_{p_1} \cap \cdots \cap U_{p_n}$ the whole geodesic segment $t \mapsto \exp(t v)$ for $t \in [0,1]$ is also in the region.
 
@@ -199,6 +205,9 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 * [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
 {#Ferus}
 
+
+* [[Raoul Bott]] [[Loring Tu]], _Differential forms in algebraic topology_ 
+{#BottTu}
 
 [[!redirects good cover]]
 [[!redirects good covers]]
