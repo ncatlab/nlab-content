@@ -87,7 +87,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * Every [[normed vector space]] is a metric space by $d(x,y) := \Vert x-y \Vert$; a pseudonormed vector space is a pseudometric space.
 
-* Every connected [[Riemannian manifold]] becomes a pseudometric space (or a metric space if, as is often assumed, the manifold is Hausdorff) by taking the distance between two points to be infimum of the Riemannian length of all continuously differentiable paths connecting them
+* Every connected [[Riemannian manifold]] becomes a pseudometric space (or a metric space if, as is often assumed, the manifold is a [[Hausdorff space]]) by taking the distance between two points to be infimum of the Riemannian length of all continuously differentiable paths connecting them
 
   $$
     d(x,y) := inf_{x \stackrel{\gamma}{\to} y} len(\gamma)
@@ -117,3 +117,6 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 [[!redirects metrizable spaces]]
 [[!redirects metrisable space]]
 [[!redirects metrisable spaces]]
+
+[[!redirects distance]]
+[[!redirects distances]]
