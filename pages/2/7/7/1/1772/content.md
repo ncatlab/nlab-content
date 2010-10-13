@@ -87,16 +87,16 @@ Write $ConPSh(C) \hookrightarrow PSh(C)$ for the [[full subcategory]] on concret
 
 The category of concrete presheaves $ConPSh(C) \hookrightarrow PSh(C)$ is a [[reflective subcategory]] of the [[category of presheaves]].
 
-The [[left adjoint]] functor $conc$
+The [[left adjoint]] functor $conc$ -- **concretization** --
 
 $$
   ConPSh(C) \stackrel{\overset{conc}{\leftarrow}}{\hookrightarrow} PSh(C)
 $$
 
-sends a presheaf $F$ to 
+sends a presheaf $F$ to the [[image]] sheaf
 
 $$
-  conc F : U \mapsto image(\tilde F_U : F(U) \to Hom_{Set}(Hom_C(*,U), F(*)))
+  conc F : U \mapsto Im(\tilde F_U : F(U) \to Hom_{Set}(Hom_C(*,U), F(*)))
   \,.
 $$
 
