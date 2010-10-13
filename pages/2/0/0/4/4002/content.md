@@ -69,6 +69,20 @@ $$
 $$ 
 
 For here $\Pi_0$ takes every [[Cartesian space]] $\mathbb{R}^n$ to the singleton, reflecting the fact that every Cartesian space is, indeed, conncected. So in particular the terminal object, which is represented by $\mathbb{R}^0$ is sent ot the singleton set. By the above proposition therefore $Sh(CartSp)$ is connected.
+
+
+## Related concepts
+
+* [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
+
+* **connected topos** / [[∞-connected (∞,1)-topos]]
+
+* [[local topos]] / [[local (∞,1)-topos]].
+
+* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+
+
+
 [[!redirects connected topoi]]
 [[!redirects connected toposes]]
 [[!redirects connected locally connected topos]]
