@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 # Discrete spaces
 * table of contents
 {: toc}
@@ -7,6 +19,7 @@
 
 A __discrete space__ is, in general, an object of a [[concrete category]] $Sp$ of spaces that is [[free functor|free]] on its underlying set.  Every [[topological concrete category]] has discrete spaces; so do many other categories, such as [[Diff]] and [[Hausdorff space|Haus Top]].  Non-concrete categories of spaces, such as [[Loc]], usually also have discrete spaces; the concept makes sense as long as there is a given [[forgetful functor]] from $Sp$ to [[Set]].
 
+The dual notion is that of a [[codiscrete space]].
 
 ## Definition
 
@@ -21,12 +34,21 @@ A [[topological space]] is discrete in the sense above only if the [[diagonal ma
 
 ## Examples
 
-The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology.  This same space serves as a discrete object in many subcategories and supercategories of $Top$, from [[convergence space]]s (where the only proper filter that converges to a point is the free ultrafilter at that point) to (say) paracompact Hausdorff spaces (because a discrete topological space has those properties).  It is also [[sober space|sober]] and thus serves as a discrete [[locale]], whose corresponding [[frame]] is the [[power set]] of $X$; see [[CABA]].
+### Discrete topological spaces
+
+The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology. This is the [[discrete topology]] on $X$.  
+
+This same space serves as a discrete object in many subcategories and supercategories of $Top$, from [[convergence space]]s (where the only proper filter that converges to a point is the free ultrafilter at that point) to (say) paracompact Hausdorff spaces (because a discrete topological space has those properties).  It is also [[sober space|sober]] and thus serves as a discrete [[locale]], whose corresponding [[frame]] is the [[power set]] of $X$; see [[CABA]].
 
 A discrete [[uniform space]] $X$ has all [[reflexive relations]] as [[entourages]], or equivalently all [[covers]] as [[uniform cover]]s.  It is the only uniformity (on a given set) whose underlying topology is discrete.
 
+### Discrete extended metric spaces
+
 Strictly speaking, there is no discrete [[metric space]] on any set with more than one element, because the forgetful functor has no left adjoint.  However, there is a discrete *extended* metric space, given by $d(x,y) = \infty$ whenever $x \ne y$.  More usually, the term 'discrete metric' is used when $d(x,y) = 1$ for $x \ne y$, which is discrete in the category of metric spaces of diameter at most $1$.  (Comparing the [[adjoint functor theorem]], the problem with $Met$ is that it generally lacks infinitary [[product]]s; in contrast, $Ext Met$ and $Met_1$ are [[complete category|complete]].)
 
+### Discrete cohesive spaces
+
+A general axiomatization of the notion of space is as an object in a [[cohesive topos]]. This comes by definition with an underlying-set-functor (or similar) and a [[left adjoint]] that produces discrete cohesive structure. See there for details.
 
 [[!redirects discrete space]]
 [[!redirects discrete spaces]]
