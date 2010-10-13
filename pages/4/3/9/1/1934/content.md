@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -29,7 +35,10 @@ There is another notion of 'large' topos associated to a space $X$ (or more gene
 
 ## Definition
 
-The **petit topos of an object $a$ in a site $(C,J)$** is the category of sheaves on the [[small site]] of $a$.
+* The **petit topos of an object $a$ in a site $(C,J)$** is the category of sheaves on the [[small site]] of $a$.
+
+* A proposed axiomatization of the notion of gros topos is that of a [[cohesive topos]].
+
 
 ## Examples
 
@@ -47,7 +56,7 @@ Some aspects of an axiomatic characterization of petit vs. gros toposes is in
 
 There is also something relevant in this article:
 
-* [[Mathhieu Anel]], _Grothendieck topologies from unique factorization systems_ ([arXiv:0902.1130](http://arxiv.org/abs/0902.1130))
+* [[Mathieu Anel]], _Grothendieck topologies from unique factorization systems_ ([arXiv:0902.1130](http://arxiv.org/abs/0902.1130))
 
 * [[Mamuka Jibladze]], _Homotopy types for "gros" toposes_, thesis, [pdf](http://www.rmi.acnet.ge/~jib/thesis.pdf)
 
