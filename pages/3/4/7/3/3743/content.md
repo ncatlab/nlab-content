@@ -59,9 +59,17 @@ and
 
 *   _Terese_, Term rewriting systems, Cambridge Tracts in Theoretical Computer Science, vol. 55, Cambridge University Press, 2003. 
 
-Some recent results on rewriting are to be found in Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of relevance for $n$lab as it contains a strong result on coherence theory:
+Some recent results on rewriting are to be found in 
+Tibor Beke's categorification of certain rewriting procedures of Knuth. It is of relevance for $n$lab as it contains a strong result on coherence theory:
 
 * Tibor Beke, [Categorification, term rewriting and the Knuth-Bendix procedure](http://faculty.uml.edu/tbeke/knuth.pdf)
+
+and for the higher dimensional froms of rewriting
+
+ Yves Guiraud and Philippe Malbos, _Identities among relations for higher-dimensional rewriting systems, pdf.
+  S&#233;minaires et Congr&#232;s, SMF, &#224; para&#238;tre, arXiv:0910.4538. 
+
+and [slides](http://ljk.imag.fr/membres/Dominique.Duval/CCS09/CCS09-Malbos.pdf)
 
 
 [[!redirects rewriting]]
