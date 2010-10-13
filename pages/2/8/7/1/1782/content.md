@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -11,7 +10,7 @@ Traditionally the stable $(\infty,1)$-categories that have been considered are t
 
 In its simple form _algebraic K-theory_ provides tools for computing the [[Grothendieck group]] of suitable categories. In its more refined form it studies the [[K-theory spectrum]] assigned to these categories. Crucuial tools for this go by the name [[Q-construction]] and [[Waldhausen S-construction]].
 
-Types of categories for which a theory of algebraic K-theory exist include notable the notions
+Types of categories for which a theory of algebraic K-theory exist include notably the notions
 
 * [[Quillen exact category]] 
 
