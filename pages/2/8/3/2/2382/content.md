@@ -67,6 +67,8 @@
 
     * [[connected geometric morphism]]
 
+  * [[local geometric morphism]]
+
   * [[base change]]
 
   * [[etale geometric morphism]]
