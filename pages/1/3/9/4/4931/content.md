@@ -211,6 +211,19 @@ it says
 
 > It seems that open star shaped sets $U \subset M$ are always diffeomorphic to $\mathbb{R}^n$, but this is extremely difficult to prove. 
 
+And in 
+
+* Jeffrey Lee, _Manifolds and differential geometry_  (2009)
+
+one finds
+
+> Actually, the assertion that an open geodesically convex set in a Riemannian manifold is diffeomorphic to $\mathbb{R}^n$ is common in literature, but it is a more subtle issue than it may seem, and references to a complete proof are hard to find (but see [Grom]).
+
+* M. Gromov, _Convex sets and K&#228;hler manifolds_ , Advances in differential geometry and topology. F. Tricerri ed., World Sci., Singapore,
+(1990), 1-38. ([pdf](http://www.ihes.fr/~gromov/PDF/%5B68%5D.pdf))
+
+
+
 See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
 
 [[!redirects  balls]]
