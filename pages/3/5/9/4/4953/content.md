@@ -263,5 +263,5 @@ The language ([[trace language]]) corresponding to the model will be a subset of
 *  A Mazurkiewicz, _Trace theory_ in 'Advances in Petri Nets', volume 255 of LNCS, Springer (1987).
 
 
-[!redirects trace alphabets]
-[!redirects Mazurkiewicz trace alphabet]
+[[!redirects trace alphabets]]
+[[!redirects Mazurkiewicz trace alphabet]]
