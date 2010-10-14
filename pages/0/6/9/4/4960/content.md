@@ -7,8 +7,14 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -190,7 +196,7 @@ A **site of cohesion** over [[Set]] is
 +-- {: .un_remark}
 ###### Remark
 
-This definition are supposed to model the following ideas:
+This definition is supposed to model the following ideas:
 
 * since the site is concrete, every object $U$ has an underlying set of points $Hom_C(*,U)$. We may think of each $U$  as specifying one way in which there can be cohesion on this underlying set of points;
 
@@ -237,7 +243,7 @@ Let $C$ be [site of cohesion](#SiteOfCohesion). Then the [[(∞,1)-sheaf (∞,1)
 
 =--
 
-Since the [[(n,1)-topos]] over a site for any $n \in \mathbb{N}$ arises as the full [[sub-(∞,1)-category]] of the $(\infty,1)$-topos on the $n$-[[truncated object]]s and since the definition of cohesive $(n,1)$-topos is compatible with such truncation, it follows that
+Since the [[(n,1)-topos]] over a site for any $n \in \mathbb{N}$ arises as the full [[sub-(∞,1)-category]] of the $(\infty,1)$-topos on the $n$-[[truncated]] objects and since the definition of cohesive $(n,1)$-topos is compatible with such truncation, it follows that
 
 +-- {: .un_corollary}
 ###### Corollary
@@ -248,7 +254,11 @@ Let $C$ be [site of cohesion](#SiteOfCohesion). Then for all $n \in \mathbb{N}$ 
 
 
 
-We prove this in a sequence of propositions, checking the conditions item-by-item. The general strategy is that we [[presentable (∞,1)-category|present]] the [[(∞,1)-categories]] in terms of [[combinatorial simplicial model categories]] as reviewed at [[models for ∞-stack (∞,1)-toposes]]. Specifically, we use the left [[Bousfield localization of model categories|Bousfield localization]] $[C^{op}, sSet]_{proj,loc}$ of the  projective [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{proj}$ at the [[Cech nerve]] projections $C(U) \to U$ to model the [[topological localization]] / Cech localization
+We prove this in a sequence of propositions, checking the conditions item-by-item. 
+
+> (for the moment the following checks everything except the condition $\Pi(X^{Disc S}) \simeq \Pi(X)^S$)
+
+The general strategy is that we [[presentable (∞,1)-category|present]] the [[(∞,1)-categories]] in terms of [[combinatorial simplicial model categories]] as reviewed at [[models for ∞-stack (∞,1)-toposes]]. Specifically, we use the left [[Bousfield localization of model categories|Bousfield localization]] $[C^{op}, sSet]_{proj,loc}$ of the  projective [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{proj}$ at the [[Cech nerve]] projections $C(U) \to U$ to model the [[topological localization]] / Cech localization
 
 $$
   (\infty,1)Sh(C) \stackrel{\leftarrow}{\hookrightarrow} (\infty,1)PSh(C)
@@ -513,6 +523,8 @@ as the [[nLab:product]] in [[nLab:sSet]] is taken degreewise. This is by the sam
 =--
 
 
+
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -528,12 +540,72 @@ $$
 +-- {: .proof}
 ###### Proof
 
-As before, it is sufficient to check that $Codisc : sSet_{Quillen} \to 
-  [C^{op}, sSet]_{proj,loc}$ preserves fibrant objects.
+At the level of simplicial presheaves the right $sSet$-adjoint to $\Gamma$ is
 
-This follows as in the proof that $Disc$ preserves fibrant objects,
-now using the second condition on the site of cohesion $C$, that 
-$Hom_C(*,C(U)) \simeq Hom_C(*,U)$.
+$$
+  Codisc S : U \mapsto sSet(\Gamma(U), S)
+$$
+
+as confirmed by the following computation:
+
+$$
+  \begin{aligned}
+    [C^{op}, sSet](X, Codisc(S))
+    & =
+    \int_{U \in C} sSet(X(U), sSet(\Gamma(U), S)
+    \\
+    & = \int_{U \in C} sSet(X(U) \times \Gamma(U), S)
+    \\
+    & = sSet( \int^{U \in C} X(U) \times \Gamma(U), \;\; S )
+    \\
+    & = sSet( \int^{U \in C } X(U) \times Hom_C(*, U), \;\; S)
+    \\
+    & = sSet(X(*), S)
+    \\
+    & = sSet(\Gamma(X), S)
+  \end{aligned}
+  \,,
+$$
+
+where in the second but last step we used the [[co-Yoneda lemma]].
+
+It is clear that 
+
+$$
+  (\Gamma \dashv Codisc) : [C^{op}, sSet]_{proj} \stackrel{\overset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}
+  sSet_{Quillen}
+$$
+
+is a [[Quillen adjunction]], since $Codisc$ manifestly preserves fibrations and acyclic fibrations. As before, to see that this descends to a Quillen adjunction on the local model structure it is  to check that $Codisc : sSet_{Quillen} \to  [C^{op}, sSet]_{proj,loc}$ preserves fibrant objects, in that for $S$ a [[Kan complex]] we have that $Cosidc S$ satisfies [[descent]] along Cech-nerves of covering families. 
+
+This following from the second defining condition on the site of cohesion $C$, that $Hom_C(*,C(U)) \simeq Hom_C(*,U)$. Using this we have the descent equivalence
+
+$$
+  [C^{op}, sSet](U, Codisc S)
+   =
+  sSet(Hom_C(*,U), S)  
+   \simeq
+  sSet(Hom_C(*,C(U)), S)
+   =
+  [C^{op}, sSet](C(U), Codisc S)
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The [[(∞,1)-functor]] $Codisc : \infty Grpd \to (\infty,1)Sh(C)$ established by the above proposition is a [[full and faithful (∞,1)-functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the standard properties of [[adjoint (∞,1)-functor]]s this is equivalent to an equivalence of $(\infty,1)$-functors $\Gamma \circ Codisc \simeq Id$.
+
+By the above propositions we have that $\Gamma$ is both a left as well as a right Quillen functor. Therefore the composite $(\infty,1)$-functor is modeled (as described at [[derived functor]]) on a Kan complex simply by the composition of the corresponding simplicial Quillen functors. This is manifestly equal to the identity.
 
 =--
 
@@ -541,7 +613,7 @@ $Hom_C(*,C(U)) \simeq Hom_C(*,U)$.
 +-- {: .un_prop}
 ###### Proposition
 
-For $S \in \infty Grpd$ The natural morphisms
+For $S \in \infty Grpd$ the natural morphisms
 
 $$
   Disc S \to Codisc S
