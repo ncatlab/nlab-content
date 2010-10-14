@@ -33,12 +33,12 @@ Conversely, the [[left adjoint]] and [[right adjoint]] of $\Gamma$
 $$
   E 
     \stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
-  S
+  Set
 $$
 
 send a set $S$ either to the [[discrete space]] $Disc(S)$ with _discrete_ cohesive structure (for instance with [[discrete topology]]) or to the [[codiscrete space]] $Codisc(S)$ with the _codiscrete_ cohesive structure (for instance with [[codiscrete topology]]) .
 
-Moreover, the idea is that cohesion makes points lump together to _connected pieces_ . This is modeled by one more functor $\Pi : E \to S$ [[left adjoint]] to $Disc$. In the context of 1-[[topos theory]] this sends a cohesive space to its [[connected topos|connected componets]] $(\Pi = \pi_0)$. More generally in an [[(n,1)-topos]]-theory context, $\Pi$ sends a cohesive space $X$ to the $n$-[[truncated|truncation]] of its [[geometric homotopy groups in an (∞,1)-topos|geometric fundamental ∞-groupoid]] $\Pi(X)$.
+Moreover, the idea is that cohesion makes points lump together to _connected pieces_ . This is modeled by one more functor $\Pi : E \to Set$ [[left adjoint]] to $Disc$. In the context of 1-[[topos theory]] this sends a cohesive space to its [[connected topos|connected components]] $(\Pi = \pi_0)$. More generally in an [[(n,1)-topos]]-theory context, $\Pi$ sends a cohesive space $X$ to the $(n-1)$-[[truncated|truncation]] of its [[geometric homotopy groups in an (∞,1)-topos|geometric fundamental ∞-groupoid]] $\Pi(X)$.
 
 In total this gives a quadruple of [[adjoint functor]]s
 
@@ -46,7 +46,7 @@ In total this gives a quadruple of [[adjoint functor]]s
     (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
     E
      \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
-    S
+    Set
     \;
    $$
 
@@ -62,7 +62,7 @@ A cohesive topos is a topos whose terminal [[geometric morphism]] admits an exte
 A [[topos]] $E$ over some base topos $S$, i.e. equipped with a [[geometric morphism]]
 
 $$
-  (f^* \dashv f_*) E \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+  (f^* \dashv f_*) : E \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
   S
 $$
 
@@ -137,7 +137,17 @@ is **cohesive** or  **a topos of cohesion** if it has the following [[stuff, str
 ### Cohesive $(\infty,1)$-topos
 
 
-The above definition has a straightforward generalization to [[(∞,1)-topos]]-theory: adjoint functors are generalized to [[adjoint (∞,1)-functor]]s, full and faithful functors to [[full and faithful (∞,1)-functor]]s and monomorphisms to [[regular monomorphism]]s.
+The above definition has a straightforward generalization to [[(∞,1)-topos]]-theory by the following dictionary:
+
+* toposes are generalized to [[(∞,1)-topos]]es;
+
+* functors to [[(∞,1)-functor]]s;
+
+* adjoint functors to [[adjoint (∞,1)-functor]]s, 
+
+* full and faithful functors to [[full and faithful (∞,1)-functor]]s; 
+
+* and monomorphisms to [[regular monomorphisms in an (∞,1)-category]].
 
 
 
@@ -200,7 +210,7 @@ This definition is supposed to model the following ideas:
 
 * since the site is concrete, every object $U$ has an underlying set of points $Hom_C(*,U)$. We may think of each $U$  as specifying one way in which there can be cohesion on this underlying set of points;
 
-* in view of the [[nerve theorem]] that $\lim_\to C(U)$ is contractible means that $U$ itself is contractible, as seen by the [[Grothendieck topology]] on $C$. This reflects the _local_ aspect of cohesion: we only specify cohesive structure on a contractible lumps of points;
+* in view of the [[nerve theorem]] the condition that $\lim_\to C(U)$ is contractible means that $U$ itself is contractible, as seen by the [[Grothendieck topology]] on $C$. This reflects the _local_ aspect of cohesion: we only specify cohesive structure on a contractible lumps of points;
 
 * in view of this the remaining condition that $Hom_C(*,C(U))$ is contractible is just the $\infty$-analog of the condition on a [[concrete site]] that $Hom_C(*.\coprod_i U_i) \to Hom_C(*, U)$ is surjective.  This just expresses that the notion of topology on $C$ and its concreteness over [[Set]] are consistent.
 
@@ -954,8 +964,9 @@ The definition of a category of cohesion was proposed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-
 The observation that $Sh(CartSp)$ is a [[local topos]] and that this serves to characterize [[diffeological space]]s was amplified by [[David Carchedi]].
+
+The above discussion of sites of cohesion and their $(\infty,1)$-toposes is [[Urs Schreiber|U.S.]]'s idea, and in particular all the mistakes are his.
 
 [[!redirects cohesive toposes]]
 [[!redirects cohesive topoi]]
