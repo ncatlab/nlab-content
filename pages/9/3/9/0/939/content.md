@@ -60,7 +60,7 @@ Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they ca
 
 ##Examples##
 
-1. [[factorization system|Factorization systems]] are distributive laws between categories taken as monads in [[span|Span(Set)]].
+1. "Strict" [[factorization systems]] can be identified with distributive laws between categories regarded as monads in [[span|Span(Set)]].  Ordinary "non-strict" factorization systems can be obtained by certain weakenings; see for instance [this discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html).
 
 ##Literature##
 H. Appelgate, M. Barr, J. Beck, F. W. Lawvere, F. E. J. Linton, E, Manes, M. Tierney, F. Ulmer, Seminar on triples and categorical homology theory, ETH 1966/67, edited by B. Eckmann, LNM 80, Springer 1969.
