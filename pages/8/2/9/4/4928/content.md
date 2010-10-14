@@ -6,7 +6,9 @@
 
 
 
-(The ideas section here is partially adapted from papers of [[Eric Goubault]].  In particular the paper in HHA, see reference list. He was one of the first to propose some form of directed homotopy as a model for aspects of concurrency.) This entry tries to list and summarise various models for concurrency and to examine some of them for (potential) interaction with other entries in the Lab.
+(The ideas section here is partially adapted from papers of [[Eric Goubault]].  In particular the paper in HHA, see reference list. He was one of the first to propose some form of directed homotopy as a model for aspects of concurrency.) This entry tries to list and summarise various models for concurrency and to examine some of them for (potential) interaction with other entries in the Lab, especially ones related to directed topology, and to causal sets ([[causets]]. (This comparison will initially not be deep, as we will first put down a lot of definitions in the linked pages, with a view to possible interactions later on.)
+
+
 
 ##Idea##
 
@@ -37,8 +39,6 @@ The challenge is to find adequate mathematical models so as better to understand
 * [[asynchronous automata]];
 
 * [[Petri nets]];
-
-* [[asynchronous automata]];
 
 *  [[event structures]];
 
