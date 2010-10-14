@@ -53,11 +53,15 @@ Together with [[closed natural transformations]], closed categories and closed f
   $$ F([X,Y]) \otimes F(X) \to F([X,Y] \otimes X) \to F(Y). $$
   Conversely, from a lax closed functor between closed monoidal categories we can recover a lax monoidal functor, with multiplication constraint $F(X)\otimes F(Y) \to F(X\otimes Y)$ being adjunct to the composite
   $$ F(X) \to F([Y,X\otimes Y]) \to [F(Y), F(X\otimes Y)]$$
-  where the map $X\to [Y,X\otimes Y]$ is adjunct to the identity of $X\otimes Y$.  In this way, lax monoidal and lax closed functors between closed monoidal categories are in [[bijective]] correspondence.  Note, however, that for such a functor to be *strong monoidal* or *strong closed* are generally independent conditions.
+  where the map $X\to [Y,X\otimes Y]$ is adjunct to the identity of $X\otimes Y$.  In this way, lax monoidal and lax closed functors between closed monoidal categories are in [[bijective]] correspondence.
+
+  Note, however, that for such a functor to be *strong monoidal* or *strong closed* are generally independent conditions.  Since any lax (or strong) monoidal functor is automatically a lax closed functor, the term **closed monoidal functor** is usually used to mean one which is *strong* closed.
 
 * The same idea works more generally for closed unital [[multicategories]], since arbitrary "multifunctors" between multicategories correspond to lax monoidal functors.
 
 * However, there does not seem to be a natural notion of "colax" functor between closed categories.  One could, of course, simply ask for transformations in the other direction, but such things do not seem to arise much in practice, and would not correspond to colax monoidal functors in the same way.
+
+* If $C$ and $D$ are [[cartesian closed categories]], then any functor $F\colon C\to D$ is automatically colax monoidal, and it is strong (hence also lax) monoidal iff it preserves products.  By the above argument, any product-preserving functor between cartesian closed categories is automatically a lax closed functor.  If it is moreover a *strong* closed functor, we call it a **cartesian closed functor**.
 
 ## References
 
@@ -66,3 +70,7 @@ Together with [[closed natural transformations]], closed categories and closed f
 
 [[!redirects closed functor]]
 [[!redirects closed functors]]
+[[!redirects cartesian closed functor]]
+[[!redirects cartesian closed functors]]
+[[!redirects closed monoidal functor]]
+[[!redirects closed monoidal functors]]
