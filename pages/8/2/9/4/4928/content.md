@@ -40,6 +40,8 @@ The challenge is to find adequate mathematical models so as better to understand
 
 * [[asynchronous automata]];
 
+*  [[event systems]];
+
 * [actor models](http://en.wikipedia.org/wiki/Actor_model);
 
 * [[higher dimensional automata]].
