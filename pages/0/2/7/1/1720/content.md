@@ -375,5 +375,10 @@ The usefulness of right properness for constructions of [[homotopy category|homo
 * J. Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0605/0605198v1.pdf))
 
 [[!redirects proper model categories]]
+
 [[!redirects right proper model category]]
+[[!redirects right proper model categories]]
+
+
 [[!redirects left proper model category]]
+[[!redirects left proper model categories]]
