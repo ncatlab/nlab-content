@@ -53,12 +53,6 @@ A general axiomatization of the notion of space is as an object in a [[cohesive 
 [[!redirects discrete space]]
 [[!redirects discrete spaces]]
 
-[[!redirects discrete topology]]
-[[!redirects discrete topologies]]
-[[!redirects discrete topological structure]]
-[[!redirects discrete topological structures]]
-[[!redirects discrete topological space]]
-[[!redirects discrete topological spaces]]
 
 [[!redirects discrete uniformity]]
 [[!redirects discrete uniformities]]
