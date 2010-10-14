@@ -1,3 +1,8 @@
+
+# Coarse topology
+* table of contents
+{: toc}
+
 ## Idea
 
 __Coarse topology__ (synonym: __coarse geometry__) is a branch of geometry/topology studying the asymptotic properties at large of metric spaces. While the topological 
@@ -24,4 +29,6 @@ related Baum-Connes conjecture. Thus the operator algebras play a great role in 
 
 * B. Hanke, D. Kotschick, J. Roe, T. Schick, _Coarse topology, enlargeability, and essentialness_, [arxiv:0707.1999](http://arxiv.org/abs/0707.1999)
 
+
+[[!redirects coarse topology]]
 [[!redirects coarse geometry]]
