@@ -1,6 +1,10 @@
+# Internal diagrams
+* table of contents
+{: toc}
+
 ## Idea
 
-Given a category $E$ with pullbacks, one can consider the [[bicategory]] $Cat(E)$ of [[internal categories]] in $E$, and thus [[internal functors]], which are the morphisms in $Cat(E)$. If $E = Set$ then one can consider not only functors among small categories but also functors of the type $F: C\to Set$ from a small category $C$ to a large category of sets. In that case one can describe $F$ as consisting of a $C_0$-indexed family of objects and an action of $C_1$ on the diagram.
+Given a [[finitely complete category]] $E$, one can consider the [[bicategory]] $Cat(E)$ of [[internal categories]] in $E$, and thus [[internal functors]], which are the morphisms in $Cat(E)$. If $E = Set$ then one can consider not only functors among small categories but also functors of the type $F: C\to Set$ from a small category $C$ to a large category of sets. In that case one can describe $F$ as consisting of a $C_0$-indexed family of objects and an action of $C_1$ on the diagram.
 
 Compare the ideas discussed on this page with those at [[internal profunctor]] and [[discrete fibration]].  All three notions intersect --- an internal diagram on $C$ is the same thing as an internal profunctor $1 &#8696; C$, which is the same thing as a discrete fibration in $Cat(E)$.  The three generalize the basic idea in different ways.
 
