@@ -53,7 +53,23 @@ A morphism $f : \mathbb{E}\to \mathbb{E}'$ between event structures expresses ho
 
 With this definition of morphism, we get the category, $\mathbf{ES}$ of event structures.
 
+##Alternative form##
+
+In some sources, rather than stress the _inconsistency relation_, the complementary _consistency relation_.  This leads to the definition of a family, $Con$, of finite subsets of $E$, which satisy
+
+
+* $\{e\}\in E$ for all $e\in E$;
+
+* $Y\subseteq X\in Con$ implies $Y\in Con$,
+
+and 
+
+* $X\in Con$ and $e\leq e'\in X$ then $X\cup \{e\}\in Con$.
+
+
 ##References##
 
 * G. Winskel and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
+* G. Winskel, _Events, causality, and symmetry_, (an earlier version appeared in the BCS conference 'Visions in Computer Science.' September 2008. The final version appears in a special issue of The Computer Journal 2009; doi: 10.1093/comjnl/bxp052; see also  an [online version]
+(http://www.cl.cam.ac.uk/~gw104/CJVision-Revised.pdf)).
