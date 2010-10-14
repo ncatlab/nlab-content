@@ -1,4 +1,3 @@
-[[!redirects convex]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -30,8 +29,9 @@ A generalization of the notion of a convex set is that of a [[convex space]].
 
 Every convex set is [[star-shaped]].
 
-[[!redirects convexity]]
+
 [[!redirects convex hull]]
+[[!redirects convex hulls]]
 [[!redirects convex set]]
 [[!redirects convex sets]]
 
@@ -39,3 +39,5 @@ Every convex set is [[star-shaped]].
 [[!redirects convex subsets]]
 [[!redirects convex sub-set]]
 [[!redirects convex sub-sets]]
+
+[[!redirects convext set]]
