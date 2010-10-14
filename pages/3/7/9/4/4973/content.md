@@ -12,6 +12,9 @@
 * table of contens
 {:toc}
 
+## Idea
+
+Given a geometric morphism $f : \mathcal{E} \to \mathcal{S}$, we can regard $\mathcal{E}$ as a *topos over $\mathcal{S}$* via $f$.  The geometric morphism $f$ being *bounded* is the "over $\mathcal{S}$" version of $\mathcal{E}$ being a [[Grothendieck topos]].
 
 ## Definition
 
@@ -34,12 +37,15 @@ A [[geometric morphism]] $f : \mathcal{E} \to \mathcal{S}$ between [[topos]]es i
 
 * (yet one more)
 
-If the bounded morphism $f := \Gamma$ is the [[global section]] geometricmorphism of an $\mathcal{S}$-topos $\mathcal{E}$, then $\mathcal{E}$ is called a **bounded topos**.
+If we regard $\mathcal{E}$ as a topos over $\mathcal{S}$ via $f$, then when $f$ is bounded we call $\mathcal{E}$ a **bounded $\mathcal{S}$-topos**.
 
+## Properties
+
+If $f := \Gamma\colon \mathcal{E}\to Set$ is the [[global section]] geometric morphism of a topos (such a geometric morphism being unique if it exists), then it is bounded if and only if $\mathcal{E}$ is a [[Grothendieck topos]].
 
 ## References
 
-definition 3.1.7 in
+definition B3.1.7 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
