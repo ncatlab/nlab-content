@@ -20,6 +20,7 @@
   * [[inbound citations|Inbound Citations]]
   * [[Uploaded Files]]
   * [[Sandbox|Sandbox]]
-  * [[math resources]]
+  * [[math resources|Math Resources]]
+  * [Wiki Webs](http://ncatlab.org/web_list)
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
