@@ -1,4 +1,3 @@
-[[!redirects regular monomorphism in an (∞,1)-category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -27,3 +26,9 @@ $$
   x \stackrel{f}{\to} y \stackrel{\to}{\to} y_1 \stackrel{\to}{\stackrel{\to}{\to}} y_2 \cdots
 $$
 
+
+[[!redirects regular monomorphism in an (∞,1)-category]]
+
+
+[[!redirects regular monomorphisms in an (∞,1)-category]]
+[[!redirects regular monomorphisms in an (infinity,1)-category]]
