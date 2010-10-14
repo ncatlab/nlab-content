@@ -48,6 +48,8 @@ A cohesive topos is a topos whose terminal [[geometric morphism]] admits an exte
 
 ## Definition
 
+### Cohesive topos
+
 +-- {: .un_defn}
 ###### Definition
 
@@ -126,12 +128,444 @@ is **cohesive** or  **a topos of cohesion** if it has the following [[stuff, str
 
 =--
 
+### Cohesive $(\infty,1)$-topos
+
+
+The above definition has a straightforward generalization to [[(∞,1)-topos]]-theory: adjoint functors are generalized to [[adjoint (∞,1)-functor]]s, full and faithful functors to [[full and faithful (∞,1)-functor]]s and monomorphisms to [[regular monomorphism]]s.
+
+
+
 ## Examples
+
+A trivial class of examples is:
 
 * Every topos is cohesive over itself.
 
-### Smooth sets
+In the following we describe more interesting examples
 
+### Sites of cohesion {#SitesOfCohesion}
+
+We define extra [[stuff, structure, property|property]] on a [[site]] such that the [[sheaf topos]] over $C$ is cohesive over [[Set]] and the [[(∞,1)-sheaf (∞,1)-topos]] over it is cohesive over [[∞Grpd]].
+
+{#SiteOfCohesion}
++-- {: .un_def}
+###### Definition
+
+A **site of cohesion** over [[Set]] is
+
+* a [[site]] -- a [[small category]] $C$ equipped with a [[coverage]];
+
+* with the property that
+
+  * it is a [[concrete site]];
+
+  * it has finite [[product]]s;
+  
+  * for every [[covering]] family $\{U_i \to U\}$ in $C$ 
+
+    * the [[Cech nerve]] $C(U) \in [C^{op}, sSet]$ is degreewise 
+      a [[coproduct]] of [[representable functor|representables]];
+
+    * the [[simplicial set]] obtained by replacing each copy of a representable by a point is a [[contractible]] [[Kan complex]]:
+
+      $$
+        \lim_\to C(U) \stackrel{\simeq}{\to} *
+      $$
+
+    * the simplicial set of points in $C(U)$ is a [[Kan complex]] [[homotopy equivalence|homotopy equivalent]] to the set of points of $U$:
+
+      $$
+        Hom_C(*, C(U)) \stackrel{\simeq}{\to} Hom_C(*,U)
+        \,.
+      $$
+  
+=--
+
++-- {: .un_remark}
+###### Remark
+
+These definition are supposed to model the following ideas:
+
+* since the site is concrete, every object $U$ has an underlying set of points $Hom_C(*,U)$. We may think of each $U$  as specifying one way in which there can be cohesion on this underlying set of points;
+
+* in view of the [[nerve theorem]] that $\lim_\to C(U)$ is contractible means that $U$ itself is contractible, as seen by the [[Grothendieck topology]] on $C$. This reflects the _local_ aspect of cohesion: we only specify cohesive structure on a contractible lumps of points;
+
+* in view of this the remaining condition that $Hom_C(*,C(U))$ is contractible is just the $\infty$-analog of the condition on a [[concrete site]] that $Hom_C(*.\coprod_i U_i) \to Hom_C(*, U)$ is surjective.  This just expresses that the notion of topology on $C$ and its concreteness over [[Set]] are consistent.
+
+=--
+
++-- {: .un_example}
+###### Examples/Proposition
+
+The following [[site]]s are sites of cohesive objects.
+
+* the category [[CartSp]] with covering families given by the 
+  [[good open cover]]s $\{U_i \to U\}$;
+
+* the site [[ThCartSp]] $ \subset \mathbb{L}$ of [[smooth loci]] consisting smoth loci of the form $R^n \times D^l_{(k)}$ with the second factor infinitesimal, where covering families are projections of the
+  form $\mathbb{R}^n \times D^l_{(k)} \to \mathbb{R}^n$ together with
+  families of the form $\{U_i \times D^l_{(k)} \to U \times D^l_{(k)}\}$
+  with $\{U_i \to U\}$ a covering family in $CartSp$. 
+
+More discussion of these two examples is at [[∞-Lie groupoid]] and [[∞-Lie algebroid]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+That $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using that a [[Cartesian space]] regarded as a [[topological space]] is [[contractible]].
+
+=--
+
+
+
+### Cohesive $(\infty,1)$-toposes over sites of cohesion {#InfTopOverSiteOfCohesion}
+
+
++-- {: .un_theorem}
+###### Theorem
+
+Let $C$ be [site of cohesion](#SiteOfCohesion). Then the [[(∞,1)-sheaf (∞,1)-topos]] $(\infty,1)Sh(C)$ is cohesive. 
+
+=--
+
+We prove this in a sequence of propositions, checking the conditions item-by-item. The general strategy is that we [[presentable (∞,1)-category|present]] the [[(∞,1)-categories]] in terms of [[combinatorial simplicial model categories]] as reviewed at [[models for ∞-stack (∞,1)-toposes]]. Specifically, we use the left [[Bousfield localization of model categories|Bousfield localization]] $[C^{op}, sSet]_{proj,loc}$ of the  projective [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{proj}$ at the [[Cech nerve]] projections $C(U) \to U$ to model the [[topological localization]] / Cech localization
+
+$$
+  (\infty,1)Sh(C) \stackrel{\leftarrow}{\hookrightarrow} (\infty,1)PSh(C)
+  \,.
+$$
+
+See <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage">Model structure on simplicial presheaves -- Localization at a coverage</a> for background.
+
+
++-- {: .un_lemma}
+###### Standard fact
+
+The model categories
+
+* standard [[model structure on simplicial sets]] $sSet_{Quillen}$;
+
+*  global [[model structure on simplicial presheaves]]  $[C^{op}, sSet]_{proj,loc}$;
+
+
+*  local [[model structure on simplicial presheaves]]  $[C^{op}, sSet]_{proj,loc}$
+
+are all  [[left proper model categories]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first since all objects are cofibrant. The second by general statements about the global [[model structure on functors]], the third becuase [[Bousfield localization of model categories|Bousfield localization]] preserves left propernes.
+
+=--
+
+
++-- {: .un_lemma}
+###### Lemma
+
+For $\{U_i \to U\}$ a [[covering]] family in the site of cohesion $C$, the [[Cech nerve]]
+$C(U) \in [C^{op}, sSet]$ is a cofibrant [[resolution]] of $U$ both in the projective model structure $[C^{op}, sSet]_{proj}$ as well as in the Cech local model structure $[C^{op}, sSet]_{proj,loc}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Being a Cech nerve we have that $C(U)$ is a [[split hypercover]]. By assumption on $C$,we have that $C(U)$ is degreewise a coproduct of representables. By <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">Dugger's theorem on cofibrant objects</a> in the projective model structure this implies that $C(U)$ is cofibrant in the global model structure. By general properties of left [[Bousfield localization of model categories|Bousfield localizations]] we have that the cofibrations in the local model structure as the same as in the global one. Finally that $C(U) \to U$ is a weak equivalence in the local model structure holds effectively by definition (since we are localizing at these morphisms).
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The [[global section]] geometric $(\infty,1)$-morphism
+
+$$  
+  (Disc \dashv \Gamma) : (\infty,1)Sh(C) 
+  \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
+$$
+
+is [[presentable (∞,1)-category|presented]] by the 
+[[sSet]]-[[enriched functor|enriched]] [[Quillen adjunction]]
+
+$$
+  (Const \dashv \Gamma) :  [C^{op}, sSet]_{proj,loc}
+  \stackrel{\leftarrow}{\to}
+  sSet_{Quillen}
+  \,,
+$$
+
+where $\Gamma$ is the functor that evaluates on the point ,$\Gamma X = X(*)$, and $Const$ is the functor that sends a simplicial set $S$ to the presheaf constant on that value, $Const S : U \mapsto S$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We use (as described there) that [[adjoint (∞,1)-functor]]s are modeled by [[sSet]]-enriched [[Quillen adjunction]]s between the [[simplicial model categories]] that model the $(\infty,1)$-categories in question.
+
+That we have an [[adjunction]] $(Const \dashv \Gamma)$ follows for instance by observing that since $C$ has a [[terminal object]] we may think of $\Gamma$ as being the functor $\Gamma = \lim_\leftarrow$ that takes the [[limit]]. 
+
+To see that we have a [[Quillen adjunction]] first notice that we have a Quillen adjunction
+
+$$
+  (Const \dashv \Gamma) :  [C^{op}, sSet]_{proj}
+  \stackrel{\leftarrow}{\to}
+  sSet_{Quillen}
+$$
+
+on the global model structure, since $\Gamma$ manifestly preserves fibrations and acyclic fibrations there. Since $[C^{op}, sSet]_{proj,loc}$ is left [[proper model category|proper]] and has the same cofibrations as the global model structure, it follows with [[Quillen adjunction|HTT, corollary A.3.7.2]] (see the discussion of <a href="http://ncatlab.org/nlab/show/Quillen+adjunction#sSet">sSet-Quillen adjunctions</a>) that for a Quillen adjunction on the local model structure it is sufficient that $\Gamma$ preserves fibrant objects. But every fibrant object in the local structure is in particular fibrant in the global structure, hence in particular fibrant over the terminal object of $C$.
+
+That this indeed presents the $(\infty,1)$-adjunction in question follows by observing that the $(\infty,1)$-[[global section]] functor $\Gamma$ is given by the [[(∞,1)-limit]] operation on [[(∞,1)-presheaves]]. Since $C$ has a terminal object, it follows here, too, that this is just evaluation on the point.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The [[(∞,1)-topos]] over a site of cohesion is a [[locally ∞-connected (∞,1)-topos]] in that the [[constant (∞,1)-sheaf]]-functor $Const$ has a [[left adjoint|left]] [[adjoint (∞,1)-functor]]
+
+$$
+  (\Pi \dashv Const) : Sh_{(\infty,1)}(C)
+    \stackrel{\leftarrow}{\to}
+  \infty Grpd
+$$
+
+
+In fact, it is even a [[∞-connected (∞,1)-topos]] in that in addition the $(\infty,1)$-functor $LConst$ is a [[full and faithful (∞,1)-functor]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+We use (as described there) that [[adjoint (∞,1)-functor]]s are modeled by [[sSet]]-enriched [[Quillen adjunction]]s between the [[simplicial model categories]] that model the $(\infty,1)$-categories in question.
+
+By general abstract facts the [[sSet]]-functor $Const : sSet \to [C^{op}, sSet]$ given on $S \in sSet$ by $Const_S : U \mapsto S$ for all $U \in C$ has an  [[sSet]]-[[left adjoint]] 
+
+$$
+  \Pi : X \mapsto \int^U X(U) = \lim_\to X
+$$ 
+
+naturally in $X$ and $S$, given by the [[colimit]] operation. Notice that since $sSet$ is itself a category of presheaves, these colimits are degreewise colimits in [[Set]]. Also notice that the colimit over a [[representable functor]] is the point.
+
+Regarded as a functor  $sSet_{Quillen} \to [C^{op}, sSet]_{proj}$ the functor $Const$ manifestly preserves fibrations and acyclic fibrations and hence
+
+$$
+  (\Pi \dashv Const) : [C^{op}, sSet]_{proj} \stackrel{\leftarrow}{\to}
+    sSet_{Quillen} 
+$$
+
+is a [[Quillen adjunction]], in particular $\Pi : [C^{op},sSet]_{proj} \to sSet_{Quillen}$ preserves cofibrations. Since by general properties of left [[Bousfield localization of model categories]] the cofibrations of $[C^{op},sSet]_{proj,loc}$ are the same, also $\Pi : [C^{op}, sSet]_{proj,loc} \to sSet_{Quillen}$ preserves cofibrations. 
+
+Since $sSet_{Quillen}$ is a [[left proper model category]] it follows with [[Quillen adjunction|HTT, corollary A.3.7.2]] (see the discussion of <a href="http://ncatlab.org/nlab/show/Quillen+adjunction#sSet">sSet-Quillen adjunctions</a>) that for 
+
+$$
+  (\Pi \dashv Const) : [C^{op}, sSet]_{proj,loc}
+   \stackrel{\leftarrow}{\to}
+   sSet_{Quillen}
+$$
+
+to be a [[Quillen adjunction]], it suffices to show that $Const$ preserves fibrant objects. That means that constant simplicial presheaves satisfy descent along covering families in the site of cohesion $C$: for every covering family $\{U_i \to U\}$ in $C$ and every simplicial set $S$ it must be true that
+
+$$
+  [C^{op}, sSet](U, Const S) \to [C^{op}, sSet](C(U), Const S)
+$$
+
+is a [[homotopy equivalence]] of [[Kan complexes]]. Here we use that $U$, being a representable, is cofibrant, that $C(U)$ is cofibrant by the above lemma and that $Const S$ is fibrant in the projective structure by the assumption that $S$ is fibrant. So the simplicial hom-complexes in the above really are the correct [[derived hom-space]]s.
+
+But that this is the case follows by the condition on the site of cohesion $C$ by which $\lim_\to C(U) \simeq *$: using this it follows that
+
+$$
+  [C^{op}, sSet](C(U), Const S) = sSet(\lim_\to C(U), S) \simeq sSet(*, S) = S
+  \,.
+$$
+
+So we have established that
+
+$$
+  (\Pi \dashv Const) : [C^{op}, sSet]_{proj,loc} \stackrel{\leftarrow}{\to}
+  sSet_{Quillen}
+$$
+
+is a [[Quillen adjunction]].
+
+It is evident that $\Pi \circ Const = Id$ and $\Gamma Const = Id$ and that these relations pass to the composition of the corresponding [[derived functor]]s. This says that 
+
+the comoposite adjunction
+
+$$
+  (\Pi Const \dashv \Gamma LConst)
+  \; : \;
+  \infty Grpd
+  \stackrel{\overset{LConst}{\to}}{\underset{\Gamma}{\leftarrow}}
+  Sh_{(\infty,1)}(C)
+  \stackrel{\overset{\Pi}{\to}}{\underset{LConst}{\leftarrow}}
+  \infty Grpd
+$$
+
+is (equivalent to) the identity adjunction $(\Id \dashv Id)$. In particular the counit $\Pi Const \to Id$  is an equivalence, which implies by general properties of [[adjoint (∞,1)-functor]]s that $Const$ is a [[full and faithful (∞,1)-functor]]. 
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This implies in particular that
+
+* the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $\infty Grpd \stackrel{\overset{\Pi}{\leftarrow}}{\underset{LConst}{\hookrightarrow}} Sh_{(\infty,1)}(C)$ exhibits [[nLab:∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $Sh_{(\infty,1)}(C)$, hence as a [[nLab:localization of an (∞,1)-category|localization]] of $Sh_{(\infty,1)}(C)$ at those morphisms that induce equivalences on geometric realizations, hence isomorphisms on geometric [[nLab:homotopy groups in an (∞,1)-topos]].
+
+* the _shape_ of $Sh_{(\infty,1)}(C)$ in the sense of [[shape of an (∞,1)-topos]] is that of the point.
+
+=--
+
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+The functor $Pi : (\infty,1)Sh(C) \to \infty Grpd$ whose existence is guaranteed by the above proposition preserves [[product]]s:
+
+$$
+  \Pi(A \times B) \simeq \Pi(A) \times \Pi(B)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice from the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#MonoidalStructure">model structure on simplicial presheaves -- closed monoidal structure</a> that for $X \in [C^{op}, sSet]_{proj,cov}$ cofibrant, the [[closed monoidal structure on presheaves]]-adjunction $(X \times (-) \dashv [X,-])$ is a [[Quillen adjunction]].
+
+Let $A$ and $B$ be representatives in the model $[C^{op}, sSet]_{proj,cov}$. By <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement">Dugger's cofibrant replacement operation</a> we have that a cofibrant replacement for $A \times B$ is given by
+
+$$
+  \int^{[n] \in \Delta}
+    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} U_n)
+$$
+
+with the $U_\cdot$ being representables, and similarly for $A$ and $B$ themselves. By the above discussion, the functor $\Pi$ is given by the left [[derived functor]] of the [[colimit]] $\lim_\to$. This commutes with the above [[coend]] and [[coproduct]]s, so that we have
+
+$$
+  \begin{aligned}
+    \Pi(A \times B)
+    &\simeq
+    \lim_\to 
+      \int^{[n] \in \Delta}
+    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} U_n)
+    \\
+    & =
+      \int^{[n] \in \Delta}
+    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} \lim_\to U_n)
+    \\
+    & =
+      \int^{[n] \in \Delta}
+    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} *)
+  \end{aligned}
+  \,.
+$$
+
+Since maps into $A_n \times B_n$ are pairs of maps into $A_n$ and $B_n$ this is 
+
+$$
+  \cdots = 
+     \left(
+      \int^{[n] \in \Delta}
+    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n} *) \right)
+    \times
+     \left(
+      \int^{[n] \in \Delta}
+    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to B_n} *) \right) 
+  \,,
+$$
+
+as the [[nLab:product]] in [[nLab:sSet]] is taken degreewise. This is by the same reasoning the value of $(\mathbb{L} \lim_\to A) \times (\mathbb{L} \lim_\to B)$.
+
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+We have a pair of [[adjoint (∞,1)-functor]]s 
+
+$$  
+  (\infty,1)Sh(C) \stackrel{\overset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}} 
+  \infty Grpd
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As before, it is sufficient to check that $Codisc : sSet_{Quillen} \to 
+  [C^{op}, sSet]_{proj,loc}$ preserves fibrant objects.
+
+This follows as in the proof that $Disc$ preserves fibrant objects,
+now using the second condition on the site of cohesion $C$, that 
+$Hom_C(*,C(U)) \simeq Hom_C(*,U)$.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $S \in \infty Grpd$ The natural morphisms
+
+$$
+  Disc S \to Codisc S
+$$
+
+are $(\infty,1)$-[[regular monomorphism]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have to show that for $S$ a [[Kan complex]] and $U \in C$ with underlying set $\Gamma(U)$ the morphism
+
+$$
+  S \to S^{\Gamma(U)}
+$$
+
+is the [[homotopy limit]] over some cosimplicial diagram. Take that diagram to be
+
+$$
+  \left(
+    S^{\Gamma(U)}
+    \stackrel{\to}{\to}
+    S^{\Gamma(U) \times \Gamma(U)}
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    S^{\Gamma(U) \times \Gamma(U) \times \Gamma(U)}
+    \cdots
+  \right)
+  \,.
+$$
+
+This is fibrant in the [[Reedy model structure]] on [[cosimplicial object]]s, hence its [[homotopy limit]] is its ordinary [[limit]]. That is indeed $S$.
+
+=--
+
+
+
+#### Smooth sets
+
+Here we go in detail through a 1-categorical version of the above arguments, over the site of cohesion [[CartSp]]. Below in [infinity-Lie groupoids](#InfLieGrpd) we look at the full $(\infty,1)$-topos over this site.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -310,298 +744,9 @@ So the concrete sheaves on $CartSp$, hence the [[diffeological space]]s, are pre
 
 =--
 
-### Cohesive $(\infty,1)$-toposes over sites of contractible objects
 
 
-We describe a class of cohesive $(\infty,1)$-toposes in terms of 
-a site of definition with certain properties.
-
-+-- {: .un_defn}
-###### Definition
-
-Say a [[site]] $C$ -- a [[small category]] equipped with a [[coverage]] -- has _geometrically contractible objects_ if the constant [[(∞,1)-presheaf]] functor
-
-$$
-   Const : \infty Grpd \to (\infty,1)PSh(C) 
-$$
-
-takes values in objects that satisfy [[descent]] with respect to the generating [[covering]] families of $C$.
-
-Equivalently, in terms of [[model category|models]]: if the constant [[simplicial presheaf]] functor
-
-$$
-  Const : sSet_{Quillen} \to [C^{op}, sSet]_{proj,loc}
-$$
-
-sends fibrant objects of $sSet_{Quillen}$ to fibrant objects in the [[Bousfield localization of model categories|left Bousfield localization]] of the projective [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{proj}$ at [[Cech nerve]]s of the generating covering families.
-
-See <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage">Model structure on simplicial presheaves -- Localization at a coverage</a>.
-
-
-=--
-
-+-- {: .un_example}
-###### Examples/Proposition
-
-The following [[site]]s have geometrically contractible objects, in the above sense:
-
-* the category [[CartSp]] with covering families given by the 
-  [[good open cover]]s
-  $\{U_i \to U\}$, i.e. all [[open cover]]s    
-  with the property that all non-empty finite intersections
-  $U_{i_0} \cap \cdots \cap U_{i_n}$ are [[diffeomorphic]] to an [[open ball]],
-  in other words such that that the covering families of [[CartSp]]
-  are precisely those families of morphisms $\{U_i \to U\}$ such that
-  the corresponding [[Cech nerve]] $C(\{U_i\})$ is a simplicial
-  object in $CartSp$.
-
-* the site [[ThCartSp]] $ \subset \mathbb{L}$ of [[smooth loci]] consisting smoth loci of the form $R^n \times D^l_{(k)}$ with the second factor infinitesimal, where covering families are projections of the
-  form $\mathbb{R}^n \times D^l_{(k)} \to \mathbb{R}^n$ together with
-  families of the form $\{U_i \times D^l_{(k)} \to U \times D^l_{(k)}\}$
-  with $\{U_i \to U\}$ a covering family in $CartSp$. 
-
-More discussion of these two examples is at [[∞-Lie groupoid]] and [[∞-Lie algebroid]].
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-To see that [[CartSp]] is a site with geometrically
-contractible objects, let $\{U_i \to U\}$ be a [[good open cover]] 
-of $U \in \mathrm{CartSp}$ and write $C(U_i) :=\int^{[n] \in \Delta} \Delta[n]\cdot \coprod_{i_0, \cdots, i_n} U_{i_0, \cdots, i_n}$ 
-for the corresponding Cech nerve, regarded as simplicial presheaf. 
-Then for $S$ a Kan complex we have 
-
-$$
-  \begin{aligned}
-    [C^{op}, sSet](C(U_i), Disc(S))
-    & :=
-    [C^{op}, sSet](\int^{[n] \in \Delta} \Delta[n]\cdot \coprod_{i_0, \cdots, i_n} U_{i_0, \cdots, i_n}, Disc(S))
-    \\
-    &= \int_{[n] \in \Delta} \prod_{i_0, \cdots, i_n} [C^{op}, sSet](U_{i_0, \cdots, i_n},Disc(S))
-    \\
-    &= \int_{[n] \in \Delta} \prod_{i_0, \cdots, i_n} \mathrm{sSet}({*},S)
-    \\
-    &= \mathrm{sSet}\left(
-        \int^{[n] \in \Delta} \Delta[n]\cdot \coprod_{i_0, \cdots, i_n} {*}
-        , S
-    \right)
-  \end{aligned}
-  $$
-
-  which is a Kan complex weakly equivalent to $S$, since the simplicial set coming from the cover is a contractible Kan complex, since $U\in \mathrm{CartSp}$ is topologically contractible. So the morphism
-
-$$
-  S = 
-   [C^{op}, sSet](U, Disc(S))
-   \to
-   [C^{op}, sSet](C(U_i),Disc(S))
-$$
-
-is a weak equivalence, which means that $Disc(S)$ satisfies [[descent]].
-
-=--
-
-We now state the main theorem of this section. The remainder is concerned with the proof
-
-+-- {: .un_theorem}
-###### Theorem
-
-Let $C$ be a site of geometrically contractible objects in the above sense, and with [[product]]s. 
-
-Then the the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ is a cohesive $(\infty,1)$-topos.
-
-=--
-
-We shall prove this item-by-item. 
-
-> Or will eventually. For the moment the following just checks some bits. But I have to call it quits for today.
-
-
-
-+-- {: .un_prop}
-###### Proposition
-
-The [[(∞,1)-topos]] of a site with geometrically contractible objects is a [[locally ∞-connected (∞,1)-topos]] in that the [[constant (∞,1)-sheaf]]-functor $LConst$ has a [[left adjoint]]
-
-$$
-  (\Pi \dashv LConst) : Sh_{(\infty,1)}(C)
-    \stackrel{\leftarrow}{\to}
-  \infty Grpd
-$$
-
-
-In fact, it is even a [[∞-connected (∞,1)-topos]] in that in addition the $(\infty,1)$-functor $LConst$ is a [[nLab:full and faithful (∞,1)-functor]].
-
-=--
-
-
-
-+-- {: .proof}
-###### Proof
-
-The [[nLab:sSet]]-functor $LConst : sSet \to sPSh(C)$ given on $S \in sSet$ by
-$LConst_S : U \mapsto S$ for all $U \in C$ has an 
-[[nLab:sSet]]-[[nLab:left adjoint]] 
-
-$$
-  \Pi : X \mapsto \int^U X(U) = \lim_\to X
-$$ 
-
-because for $X \in sPSh(C)$ and $S \in sSet$ we have
-
-$$
-  \begin{aligned}
-    sPSh(X,Const_S) &= \int_U sSet(X(U), Const_S(U)) 
-     \\ & = \int_U sSet(X(U), S) 
-     \\ & = sSet( \int^U X(U) , S)
-  \end{aligned}
-$$
-
-naturally in $X$ and $S$. Regarded as a functor 
-$sSet_{Quillen} \to sPSh(C)_{proj}$ the functor $LConst$
-manifestly preserves fibrations and acyclic fibrations and hence
-
-$$
-  (\Pi \dashv LConst) : sPSh(C)_{proj} \stackrel{\leftarrow}{\to}
-    sSet_{Quillen} 
-$$
-
-is a [[nLab:Quillen adjunction]], in particular $\Pi : sPSh(C)_{proj} \to sSet_{Quillen}$ preserves cofibrations. Since the cofibrations of $sPSh(C)_{proj}^{loc}$ are the same, also $\Pi : sPSh(C)_{proj}^{loc} \to sSet_{Quillen}$ preserves cofibrations. And by assumption on $C$ we have that $LConst : sSet_{Quillen} \to sPSh(C)_{proj}^{loc}$ preserves fibrant objects. Since $sSet_{Quillen}$ is a [[nLab:left proper model category]] it follows with [[nLab:Quillen adjunction|HTT, corollary A.3.7.2]] (see the discussion of <a href="http://ncatlab.org/nlab/show/Quillen+adjunction#sSet">sSet-Quillen adjunctions</a>) that also 
-
-$$
-  (\Pi \dashv LConst) : sPSh(C)_{proj}^{loc} \stackrel{\leftarrow}{\to}
-  sSet_{Quillen}
-$$
-
-is a [[nLab:Quillen adjunction]].
-
-We see that this is such that $\Pi LConst = Id$ and $\Gamma LConst = Id$ and that these relations pass to the composition of the corresponding [[nLab:derived functor]]s. This says that 
-
-the comoposite adjunction
-
-$$
-  (\Pi LConst \dashv \Gamma LConst)
-  \; : \;
-  \infty Grpd
-  \stackrel{\overset{LConst}{\to}}{\underset{\Gamma}{\leftarrow}}
-  Sh_{(\infty,1)}(C)
-  \stackrel{\overset{\Pi}{\to}}{\underset{LConst}{\leftarrow}}
-  \infty Grpd
-$$
-
-is (equivalent to) the identity adjunction $(\Id \dashv Id)$. In particular the counit $\Pi LConst \to Id$  is an equivalence, which implies by general properties of [[nLab:adjoint (∞,1)-functor]]s that $LConst$ is a [[nLab:full and faithful (∞,1)-functor]]. 
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-This implies in particular that
-
-* the [[nLab:adjoint (∞,1)-functor|(∞,1)-adjunction]] $\infty Grpd \stackrel{\overset{\Pi}{\leftarrow}}{\underset{LConst}{\hookrightarrow}} Sh_{(\infty,1)}(C)$ exhibits [[nLab:∞Grpd]] as a [[nLab:reflective sub-(∞,1)-category]] of $Sh_{(\infty,1)}(C)$, hence as a [[nLab:localization of an (∞,1)-category|localization]] of $Sh_{(\infty,1)}(C)$ at those morphisms that induce equivalences on geometric realizations, hence isomorphisms on geometric [[nLab:homotopy groups in an (∞,1)-topos]].
-
-* the _shape_ of $Sh_{(\infty,1)}(C)$ in the sense of [[nLab:shape of an (∞,1)-topos]] is that of the point.
-
-=--
-
-
-+-- {: .un_remark}
-###### Remark
-
-By the rules of [[nLab:Yoneda reduction]] we have for $X = \coprod_i U_i$ a [[nLab:coproduct]] of [[nLab:representable functor|representables]] that $\Pi(X) = \coprod_i {*}$.
-
-By [Dugger's cofibrant replacement theorem](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects) we have that every object $X$ in $sPSh(C)_{proj}$, hence also in $sPSh(C)_{proj}^{loc}$ has a cofibrant replacement by a simplicial presheaf
-
-$$
-  \hat X = \int^{[n] \in \Delta} \Delta[n] \cdot \left( 
-      \coprod_{i_n} U_{i_n}
-    \right)
-$$
-
-that is degreewise a coproduct of representables. The image of this under $\Pi$ is
-
-$$
-  \Pi(\hat X) = \int^{[n] \in \Delta} \Delta[n] \cdot \left( 
-      \coprod_{i_n} *
-    \right)
-  \,.
-$$
-
-This reproduces the familiar computation of the fundamental $\infty$-groupoid of a space as discussed at [[nLab:homotopy groups in an (∞,1)-topos]].
-
-=--
-
-
-+-- {: .un_prop}
-###### Proposition
-
-If $C$ is a [[nLab:site]] with geometrically contractible objects with the additional property that it has [[nLab:product]]s, then then [[nLab:(∞,1)-functor]] $\Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ whose existence is guaranteed by the above proposition preserves [[nLab:product]]s:
-
-$$
-  \Pi(A \times B) \simeq \Pi(A) \times \Pi(B)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Notice from the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#MonoidalStructure">model structure on simplicial presheaves -- closed monoidal structure</a> that for $X \in [C^{op}, sSet]_{proj,cov}$ cofibrant, the [[nLab:closed monoidal structure on presheaves]]-adjunction $(X \times (-) \dashv [X,-])$ is a [[nLab:Quillen adjunction]].
-
-Let $A$ and $B$ be representatives in the model $[C^{op}, sSet]_{proj,cov}$. By <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantReplacement">Dugger's cofibrant replacement operation</a> we have that a cofibrant replacement for $A \times B$ is given by
-
-$$
-  \int^{[n] \in \Delta}
-    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} U_n)
-$$
-
-with the $U_\cdot$ being representables, and similarly for $A$ and $B$ themselves. By the above discussion, the functor $\Pi$ is given by the left [[nLab:derived functor]] of the [[nLab:colimit]] $\lim_\to$. This commutes with the above [[nLab:coend]] and [[nLab:coproduct]]s, so that we have
-
-$$
-  \begin{aligned}
-    \Pi(A \times B)
-    &\simeq
-    \lim_\to 
-      \int^{[n] \in \Delta}
-    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} U_n)
-    \\
-    & =
-      \int^{[n] \in \Delta}
-    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} \lim_\to U_n)
-    \\
-    & =
-      \int^{[n] \in \Delta}
-    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n \times B_n} *)
-  \end{aligned}
-  \,.
-$$
-
-Since maps into $A_n \times B_n$ are pairs of maps into $A_n$ and $B_n$ this is 
-
-$$
-  \cdots = 
-     \left(
-      \int^{[n] \in \Delta}
-    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to A_n} *) \right)
-    \times
-     \left(
-      \int^{[n] \in \Delta}
-    \Delta[n] \cdot (\coprod_{U_n \to \cdots \to B_n} *) \right) 
-  \,,
-$$
-
-as the [[nLab:product]] in [[nLab:sSet]] is taken degreewise. This is by the same reasoning the value of $(\mathbb{L} \lim_\to A) \times (\mathbb{L} \lim_\to B)$.
-
-
-=--
-
-
-
-#### $\infty$-Lie groupoids
+#### $\infty$-Lie groupoids {#InfLieGrpd}
 
 As a special case of the above theorem, the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(CartSp) = $ [[?LieGrpd]] on [[CartSp]] is a cohesive $(\infty,1)$-topos over [[∞Grpd]]. (See there for the moment.)
 
@@ -620,7 +765,7 @@ $$
  \infty Grpd
 $$
 
-for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we ay think of as [[∞-groupoid]] with cohesive structure. For instance in the case of $\mathbf{H} = $ [[?LieGrpd]] they are $\infty$-groupoids with _smooth_ structure. Then
+for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we ay think of as [[∞-groupoid]]s with cohesive structure. For instance in the case $\mathbf{H} = $ [[?LieGrpd]] they are $\infty$-groupoids with _smooth_ structure. Then
 
 * $\Gamma(X)$ is the _underlying $\infty$-groupoid_ of the cohesive $\infty$-groupoid $X$ (for instance an $\infty$-Lie groupoid with its smooth structure forgotten);
 
