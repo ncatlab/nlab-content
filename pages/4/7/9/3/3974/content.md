@@ -42,10 +42,15 @@ A **[[concrete site]]** is a [[site]] $C$ with a [[terminal object]] $*$ such th
 
 ## Examples
 
-* [[CartSp]] (covering families are open covers);
+* every ([[small category|small]]) [[concrete category]] becomes a concrete site when equipped with the trivial [[coverage]] (every covering family consists of just an [[identity]] morphism);
 
-* The [[simplex category]] $\Delta$ (discrete coverage).
+  * for instance the [[simplex category]] $\Delta$, which is the site for [[simplicial set]]s.
 
-...
+* Any small subcategory of [[concrete categories]] such as [[Top]], [[Diff]], etc, with their standard [[coverage]]s (by [[open cover]])s;
+
+  * for instance [[CartSp]] (covering families are open covers);
+
+    which is the site for [[smooth space]]s, including [[diffeological space]]s.
+
 
 [[!redirects concrete sites]]
