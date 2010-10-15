@@ -175,3 +175,5 @@ Other articles
 
 [[!redirects renormalizable]]
 [[!redirects renormalizable theory]]
+
+[[!redirects Hopf-algebraic renormalization]]
