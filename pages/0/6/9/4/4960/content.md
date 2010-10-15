@@ -179,9 +179,7 @@ A **site of cohesion** over [[Set]] is
 
 * with the property that
 
-  * it is a [[concrete site]];
-
-  * it has finite [[product]]s;
+  * it has finite [[product]]s, in particular a [[terminal object]] $*$;
   
   * for every [[covering]] family $\{U_i \to U\}$ in $C$ 
 
@@ -208,11 +206,26 @@ A **site of cohesion** over [[Set]] is
 
 This definition is supposed to model the following ideas:
 
-* since the site is concrete, every object $U$ has an underlying set of points $Hom_C(*,U)$. We may think of each $U$  as specifying one way in which there can be cohesion on this underlying set of points;
+* every object $U$ has an underlying set of points $Hom_C(*,U)$. We may think of each $U$  as specifying one way in which there can be cohesion on this underlying set of points;
 
-* in view of the [[nerve theorem]] the condition that $\lim_\to C(U)$ is contractible means that $U$ itself is contractible, as seen by the [[Grothendieck topology]] on $C$. This reflects the _local_ aspect of cohesion: we only specify cohesive structure on a contractible lumps of points;
+* in view of the [[nerve theorem]] the condition that $\lim_\to C(U)$ is contractible means that $U$ itself is contractible, as seen by the [[Grothendieck topology]] on $C$. This reflects the _local_ aspect of cohesion: we only specify cohesive structure on contractible lumps of points;
 
 * in view of this the remaining condition that $Hom_C(*,C(U))$ is contractible is just the $\infty$-analog of the condition on a [[concrete site]] that $Hom_C(*.\coprod_i U_i) \to Hom_C(*, U)$ is surjective.  This just expresses that the notion of topology on $C$ and its concreteness over [[Set]] are consistent.
+
+=--
+
+
++-- {: .un_example}
+###### Example
+
+The site for a [[presheaf topos]], hence with trivial topology, is cohesive if it has finite [[product]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+All covers $\{U_i \to U\}$ consist of only the [[identity]] morphism $\{U \stackrel{Id}{\to} U\}$. The Cech $C\{U\}$ is then the [[simplicial object]] constant on $U$ and hence satisfies its two conditions above trivially.
 
 =--
 
@@ -221,13 +234,22 @@ This definition is supposed to model the following ideas:
 
 The following [[site]]s are sites of cohesive objects.
 
-* the category [[CartSp]] with covering families given by the 
-  [[good open cover]]s $\{U_i \to U\}$;
+* the category [[CartSp]] with covering families given by open covers $\{U_i \hookrightarrow U\}$ by [[geodesically convex|convex]] subsets $U_i$;
 
-* the site [[ThCartSp]] $ \subset \mathbb{L}$ of [[smooth loci]] consisting smoth loci of the form $R^n \times D^l_{(k)}$ with the second factor infinitesimal, where covering families are projections of the
-  form $\mathbb{R}^n \times D^l_{(k)} \to \mathbb{R}^n$ together with
-  families of the form $\{U_i \times D^l_{(k)} \to U \times D^l_{(k)}\}$
-  with $\{U_i \to U\}$ a covering family in $CartSp$. 
+  we can take the morphisms $\mathbb{R}^k \to \mathbb{R}^l$ in $CartSp$ to be 
+
+  * [[continuous maps]] 
+
+    -- in which case the sheaf topos over it models generalized [[topological space]]s, the [[2-sheaf]] [[2-topos]] contains for instance [[topological stack]]s; 
+
+  * or [[smooth maps]]
+
+    -- in which case the sheaf topos models generalized [[smooth space]]s such as [[diffeological space]]s, the [[(∞,1)-sheaf (∞,1)-topos]] is that of [[∞-Lie groupoid]]s;
+
+
+* the site [[ThCartSp]] $ \subset \mathbb{L}$ of [[smooth loci]] consisting smoth loci of the form $R^n \times D^l_{(k)}$ with the second factor infinitesimal, where covering families those of the form $\{U_i \times D^l_{(k)} \to U \times D^l_{(k)}\} with $\{U_i \to U\}$ a covering family in $CartSp$ as above. 
+
+  This is a site of definition for the [[Cahiers topos]].
 
 More discussion of these two examples is at [[∞-Lie groupoid]] and [[∞-Lie algebroid]].
 
@@ -237,7 +259,12 @@ More discussion of these two examples is at [[∞-Lie groupoid]] and [[∞-Lie a
 +-- {: .proof}
 ###### Proof
 
-That $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using that a [[Cartesian space]] regarded as a [[topological space]] is [[contractible]].
+
+
+Since every [[star-shaped]] region in $\mathbb{R}^n$ is [[diffeomorphic]] to an [[open ball]] (see there for details) we have that the covers $\{U_i \to U\}$ on [[CartSp]] by convex subsets are [[good open covers]] in the strong sens that all finite non-empty interseciton is [[diffeomorphic]] to an [[open ball]] and hence diffeomorphic to a [[Cartesian space]]. Therefore these are [[good open cover]]s in the strong sense of the word and their [[Cech nerve]]s $C(U)$ are degreewise coproducts of representables.
+
+The fact that $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using that a [[Cartesian space]] regarded as a [[topological space]] is [[contractible]].
+
 
 =--
 
