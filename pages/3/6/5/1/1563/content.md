@@ -1,9 +1,23 @@
-F. William Lawvere is one of the greatest category theorists of all time.  He invented [[Lawvere theory|Lawvere theories]] as a category-theoretic way to describe finitary [[algebraic theory|algebraic theories]].  He generalised [[Grothendieck topos]]es to elementary [[topos]]es, revolutionising the [[foundations]] of mathematics; in this vein, he developed the foundation [[ETCS]].  He also works on [[synthetic differential geometry]].  His motivation for all of this, believe it or not, is to better understand classical [[physics]].
+
+F. William Lawvere 
+
+* ([web site](http://www.acsu.buffalo.edu/~wlawvere/))
+
+is one of the greatest [[category theory|category theorists]] of all time.  
+
+He invented  [[Lawvere theory|Lawvere theories]] as a category-theoretic way to describe finitary [[algebraic theory|algebraic theories]].  He generalised [[Grothendieck topos]]es to elementary [[topos]]es, revolutionising the [[foundations]] of [[mathematics]]; in this vein, he developed the foundation [[ETCS]].  He also introduced and worked on [[synthetic differential geometry]].  Building on the he recently introduced the notion of [[cohesive topos]]. 
+
+His motivation for all of this, believe it or not, is to better understand classical [[physics]]. See [[higher category theory and physics]] for more on this.
 
 
-* [web site](http://www.acsu.buffalo.edu/~wlawvere/)
 
 ## References
+
+* _Functorial Semantics of algebraic theories_ Originally published as: Ph.D. thesis, Columbia University, 1963 and
+in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
+Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
+
+  (on [[algebraic theories]], now also called [[Lawvere theories]])
 
 * _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
 
@@ -15,7 +29,7 @@ F. William Lawvere is one of the greatest category theorists of all time.  He in
 
 * _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
 
-  (on fundamental concepts such as [[Isbell duality]])
+  (on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
 
 * _State Categories, Closed Categories, and the Existence Semi-Continuous Entropy Functions_ , IMA reprint 86 ([pdf](http://www.ima.umn.edu/preprints/Jan84Dec84/86s.pdf))
 
@@ -25,11 +39,6 @@ F. William Lawvere is one of the greatest category theorists of all time.  He in
 
   (on [[cohesive topos]]es)
 
-## related $n$Lab entries
-
-* [[Lawvere theory]]
-
-* [[synthetic differential geometry]]
 
 category: people
 
