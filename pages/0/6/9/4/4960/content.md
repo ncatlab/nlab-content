@@ -297,7 +297,7 @@ are all  [[left proper model categories]].
 +-- {: .proof}
 ###### Proof
 
-The first since all objects are cofibrant. The second by general statements about the global [[model structure on functors]], the third becuase [[Bousfield localization of model categories|Bousfield localization]] preserves left propernes.
+The first since all objects are cofibrant. The second by general statements about the global [[model structure on functors]], the third because [[Bousfield localization of model categories|Bousfield localization]] preserves left propernes.
 
 =--
 
