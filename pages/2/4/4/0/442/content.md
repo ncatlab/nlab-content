@@ -387,10 +387,18 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 ## References
 
+The origin of the categorical formulation of [[algebraic theories]] as Lawvere theories is in
+
 * [[Bill Lawvere]], _Functorial Semantics of algebraic theories_ Originally published as: Ph.D. thesis, Columbia University, 1963
 and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
 Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
+
+A standard textbook treatment is chapter x in volume y of
+
+* [[Francis Borceux]], _Handbook of categorical algebra_
+
+Other references are
 
 * [[Steve Lack]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578))
 
