@@ -1,9 +1,19 @@
-#Contents#
 
-* automatic table of contents goes here
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 A _factorization algebra_ is like an [[algebra over an operad]] where the [[operad]] in question is like the [[E-k operad]], but with each disk embedded into a given [[manifold]] $X$.
 
@@ -25,7 +35,8 @@ This is pretty much like saying that the factorization algebra is an extended [[
 
 Indeed, such factorization algebras serve to describe [[quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebras]]. See also the comments on the references below.
 
-#Related concepts#
+
+## Related concepts
 
 Factorization algebras have some similarity with 
 
@@ -33,13 +44,14 @@ Factorization algebras have some similarity with
 
 * [[local net]]s in [[AQFT]].
 
-#References#
+
+## References
 
 This may be regarded as a slight variation on the concept _chiral algebra_ originally introduced by Beilinson and Drinfeld.
 
 A definition appears in section 4.1 _Topological Chiral Homology_ of
 
-* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
 There it is demonstrated how factorization algebras can be used to construct extended [[FQFT]]s.
 
@@ -56,3 +68,5 @@ This can also be found mentioned in the talk notes of the [[Northwestern TFT Con
 There seems to be a close relation between the description of [[quantum field theory]] by factorization algebras and the proposal presented in 
 
 * Stefan Hollands ([arXiv](http://arxiv.org/abs/0802.2198))
+
+[[!redirects factorization algebras]]
