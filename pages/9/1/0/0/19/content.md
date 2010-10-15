@@ -13,16 +13,6 @@
 =--
 =--
 
-* **category theory**
-
-* [[2-category theory]]
-
-* [[(∞,1)-category theory]]
-
-* [[higher category theory]]
-
-
-***
 
 
 #Contents#
@@ -256,6 +246,15 @@ A category may be thought of as a [[categorification]] of a [[poset]] rather tha
 
 See [[category theory vs order theory]] for more discussion.
 
+## Related concepts
+
+* **category theory**
+
+* [[2-category theory]]
+
+* [[(∞,1)-category theory]]
+
+* [[higher category theory]]
 
 
 ## References
