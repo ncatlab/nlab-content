@@ -1,9 +1,20 @@
-#Contents#
 
-* automatic table of contents goes here
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 A _subobject classifier_ in a [[topos]] is a morphism 
 $true : * \to \Omega$ such that every [[monomorphism]] $A \hookrightarrow B$ in the topos (hence every [[subobject]]) is the [[pullback]] of this morphism along a unique morphism (the [[characteristic morphism]] of $A$) $B \to \Omega$.
@@ -11,8 +22,7 @@ $true : * \to \Omega$ such that every [[monomorphism]] $A \hookrightarrow B$ in 
 In this sense $\Omega$ is the [[classifying space|classifying object]] for subobjects.
 
 
-#Definition#
-
+## Definition
 
 If $C$ is a [[finitely complete category]], a _subobject classifier_ is a [[representable functor|representing object]] for the functor
 $$Sub: C^{op} \to Set$$
@@ -32,25 +42,35 @@ A __subobject classifier__ in a finitely complete category $C$ is an object $\Om
 
 [[global element|Elements]] $\phi: 1 \to \Omega$ are often referred to as "truth values"; the distinguished element $t: 1 \to \Omega$ is referred to as "true".  Note that these truth values correspond to the [[subterminal object]]s.
 
-# Examples
 
-* In the category of [[set]]s, the 2-element set $\mathbf{2} = \{f, t\}$ plays the role of $\Omega$; the morphism $t: 1 \to \mathbf{2}$ just names the element $t$. Given a [[subset]] $S \subseteq X$, the characteristic function $\chi_S: X \to \mathbf{2}$ is the function defined by $\chi_S(x) = t$ if $x \in S$, and $\chi_S(x) = f$ if $x \notin S$.
+## Examples
 
-  * **Remark** It is not usually true in toposes that $\Omega$ is the coproduct $\mathbf{2} = 1 + 1$; toposes where that occurs are called _[[Boolean topos|Boolean]]. Thus the category $Set$ of sets is a Boolean topos, as is the [[presheaf]] topos $Set^G$ when $G$ is a [[groupoid]].
+### In $Set$
 
-* The subobject classifier in a [[presheaf]] topos $PSh(S)$ is the presheaf that sends each object $U \in S$ to the set $sieves(U)$ of [[sieve]]s on it, equivalently the set of subobjects of the [[representable functor|representable]] [[presheaf]] $Y(U)$: $\Omega : U \mapsto sieves(U)$.
+In the category of [[set]]s, the 2-element set $\mathbf{2} = \{f, t\}$ plays the role of $\Omega$; the morphism $t: 1 \to \mathbf{2}$ just names the element $t$. Given a [[subset]] $S \subseteq X$, the characteristic function $\chi_S: X \to \mathbf{2}$ is the function defined by $\chi_S(x) = t$ if $x \in S$, and $\chi_S(x) = f$ if $x \notin S$.
 
-  * the corresponding morphism $true : * \to \Omega$ of presheaves in the [[natural transformation]] that picks over each object the _maximal sieve_ $true_U = maximal_{sieves(U)} : * \to sieves(U)$
+**Remark.** It is not usually true in toposes that $\Omega$ is the coproduct $\mathbf{2} = 1 + 1$; toposes where that occurs are called _[[Boolean topos|Boolean]]. Thus the category $Set$ of sets is a Boolean topos, as is the [[presheaf]] topos $Set^G$ when $G$ is a [[groupoid]].
 
-* An example of a non-Boolean topos is the category of [[sheaf|sheaves]] over a "typical" [[topological space]] $X$ such as $\mathbb{R}$ in its usual topology. In this case, $\Omega$ is the sheaf where the set of sections over an open set $U$ is the set of open subsets of $U$, with the obvious restriction maps; the [[sheaf and topos theory|sheaf topos]] in this case is guaranteed to be non-Boolean provided there are some non-regular open sets in $X$ (a open set is _regular_ if it is the interior of its closure). The "[[internal logic]]" of such a topos is [[intuitionistic logic|intuitionistic]]. 
 
-# Properties
+### In a presheaf topos
+
+The subobject classifier in a [[presheaf]] topos $PSh(S)$ is the presheaf that sends each object $U \in S$ to the set $sieves(U)$ of [[sieve]]s on it, equivalently the set of subobjects of the [[representable functor|representable]] [[presheaf]] $Y(U)$: $\Omega : U \mapsto sieves(U)$.
+
+The corresponding morphism $true : * \to \Omega$ of presheaves is the [[natural transformation]] that picks over each object the _maximal sieve_ $true_U = maximal_{sieves(U)} : * \to sieves(U)$
+
+
+### In a non-boolean topos
+
+An example of a non-Boolean topos is the category of [[sheaf|sheaves]] over a "typical" [[topological space]] $X$ such as $\mathbb{R}$ in its usual topology. In this case, $\Omega$ is the sheaf where the set of sections over an open set $U$ is the set of open subsets of $U$, with the obvious restriction maps; the [[sheaf and topos theory|sheaf topos]] in this case is guaranteed to be non-Boolean provided there are some non-regular open sets in $X$ (a open set is _regular_ if it is the interior of its closure). The "[[internal logic]]" of such a topos is [[intuitionistic logic|intuitionistic]]. 
+
+
+## Properties
 
 The subobject classifier always comes with the structure of an internal [[partial order|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly, or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
 
 In fact, this internal poset is an internal [[Heyting algebra]]; it\'s an internal [[Boolean algebra]] if and only if the topos is Boolean.
 
-#Generalizations: object classifier#
+## Generalizations: object classifier
 
 In higher topoi the the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
 
@@ -77,10 +97,10 @@ As pointed out there, from some perspective it is not so much a _subobject_ clas
 * [[object classifier]].
 
 
-#References#
+## References#
 
 section I.3 and I.4 in
 
-* MacLane-Moerdijk, _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 [[!redirects subobject classifiers]]
