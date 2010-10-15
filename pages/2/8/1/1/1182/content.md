@@ -1,8 +1,17 @@
-<div class="rightHandSide toc">
-[[!include mathematicscontents]]
-***
-[[!include physicscontents]]
-</div>
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -22,11 +31,11 @@ So far this work is presented in the two articles
 
 +-- {: .query}
 
-This entry is supposed to be the $n$Lab-working area for a " Journal Club -- Geometric $\infty$-function theory ". The corresponding discussion page at the $n$-Caf&eacute; is [Journal Club -- Geometric ∞-Function Theory](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
+This entry is supposed to be the $n$Lab-working area for a " Journal Club -- Geometric $\infty$-function theory ". The corresponding discussion page at the $n$-Caf&#233; is [Journal Club -- Geometric ∞-Function Theory](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
 
 The idea is to 
 
-* jointly discuss at the $n$Caf&eacute; section-by-section these articles; to get an idea for what's going on;
+* jointly discuss at the $n$Caf&#233; section-by-section these articles; to get an idea for what's going on;
 
 * add here, step by step, links to keywords appearing in these sections, and create the corresponding entries describing them.
 
@@ -233,7 +242,7 @@ One point made by the [[David Ben-Zvi|Ben-Zvi]]/Francis/Nadler work is that a go
 
     * work by [[Andre Joyal]] on [[quasi-category|quasi-categories]];
 
-    * work by Simpson, Rezk, To&euml;n, Vezzosi and others on [[higher category theory|higher categories]] and [[infinity-stack|higher stacks]];
+    * work by Simpson, Rezk, To&#235;n, Vezzosi and others on [[higher category theory|higher categories]] and [[infinity-stack|higher stacks]];
 
     * work by [[BrownAHT|Brown]], [[Andre Joyal|Joyal]], Jardine and others on [[presentable (infinity,1)-category|models]] for [[∞-stacks]] in terms of a [[model structure on simplicial presheaves]].
 
@@ -243,7 +252,7 @@ One point made by the [[David Ben-Zvi|Ben-Zvi]]/Francis/Nadler work is that a go
 
 * [[higher algebra|Higher Algebra]] -- the theory of [[monoid]]- or [[algebra]]-objects [[internalization|internal to]] ([[symmetric monoidal (infinity,1)-category|symmetric]]) [[monoidal (infinity,1)-category|monoidal]] [[(infinity,1)-category|(∞,1)-categories]]
 
-  * expanding on work by To&euml;n-Vezzosi;
+  * expanding on work by To&#235;n-Vezzosi;
 
   * which puts into its natural higher categorical context
 
@@ -1175,9 +1184,9 @@ For more details on [[loop space objects]] for [[derived stacks]]
 
 * **LoopSpace** [[David Ben-Zvi]], David Nadler, _Loop Spaces and Langlands Parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
 
-John Francis' work on $E_n$-actions on $(\infty,1)$-categories is here
+[[John Francis]]' work on actions of the [[little k-cubes operad]] on $(\infty,1)$-categories is here
 
-* **EnAction** John Francis, PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
+* **EnAction** [[John Francis]], PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
 
 
 For more related material see [[Northwestern TFT Conference 2009]].
