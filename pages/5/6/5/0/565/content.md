@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A _concrete category_' is a [[category]] that looks like a category of "sets with extra [[stuff, structure, property|structure]]".
+A _concrete category_' is a [[category]] that looks like a category of "[[set]]s with extra [[stuff, structure, property|structure]]".
 
 
 ## Definition
