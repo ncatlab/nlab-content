@@ -39,7 +39,7 @@ The trefoil knot is the simplest non-trivial knot.  In its simplest representati
 
 Classifying knots up to isotopy is usually done using [[knot invariant|knot invariants]]. Some of these are simple to define (these tend to be geometric and also tend to be hard to calculate) others are harder to define and to show they are invariants but are easier to calculate. A few are reasonably easy to define and to calculate... Yippee!
 
-It is often useful to consider the domain circle of a knot as being oriented.  This is then represented by putting a directional arrow on diagrams of the knot. Such oriented knots are usually considered up to [[ambient isotopy]] in which the isotopy is orientation preserving.  
+It is often useful to consider the domain circle of a knot as being oriented.  This is then represented by putting a directional arrow on diagrams of the knot. Such oriented knots are usually considered up to [[ambient isotopy]] in which the isotopy is orientation preserving. This leads to the idea of [[invertible knots]].  It is also possible to take the [[mirror reflection]] of  knots and thus to introduce the concept of [[achiral]] knots. 
 
 ## References
 
@@ -58,7 +58,7 @@ Other classic sources are
 
 *L. H. Kauffman, Knots and Physics, World Scientific, 1991.
 
-The second of these discusses many of the connections between knots and state sum caclulations related to quantum field theories.
+The second of these discusses many of the connections between knots and state sum calculations related to quantum field theories.
 
 Another reference for the classical theory is
 
