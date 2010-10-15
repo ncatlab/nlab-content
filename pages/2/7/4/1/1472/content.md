@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -10,21 +12,86 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
 =--
 =--
+=--
 
 
-This entry discusses [[physics]] from the [[nPOV]].
-
-> well, this entry is hugely imperfect at the moment, at best a sketch of a sketch. But some nice entry of this topic should eventually be available.
-
-> The reader who comes here looking for information and not planning to help work on this entry is maybe best served by ignoring most of it for the time being except for the list of references at the end.
+This entry discusses fundamental [[physics]] from the [[nPOV]].
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
+
+## Fundamentals {#Fundamentals}
+
+
+Physics is _dynamics_ in _spaces_ . 
+
+[[higher topos theory|Higher topos theory]] provides the formalizations of this most fundamental aspect of physics.
+
+* A general context of **spaces** is an [[(∞,1)-topos]] $\mathbf{H}$. 
+
+* A general context for **geometrical spaces** is a [[local (∞,1)-topos]].
+
+* A general contex for geometrical spaces and **processes** in these spaces is a [[cohesive (∞,1)-topos]].
+
+An example of relevance for much of physics is the cohesive $(\infty,1)$-topos 
+$\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoid]]s. This contains
+
+* [[smooth manifold]]s;
+
+* [[orbifold]]s;
+
+* [[diffeological space]]s;
+
+* smooh [[path space]]s;
+
+In its [[Cahiers topos]]-version it contains also
+
+* [[infinitesimal space]]s; 
+
+* such as [[∞-Lie algebroid]]s.
+
+* [[de Rham space]]s, smooth [[D-module]]s; 
+
+In its full [[derived geometry]]-version it contains also
+
+* [[derived ∞-Lie algebroid]]s such as the [[BV-BRST complex]]es of [[gauge theories]].
+
+
+
+Every $(\infty,1)$-topos comes with its intrinsic notion of [[cohomology]]. This encodes **kinematics** in physics. Such as [[orientation]]; [[spin structure]]s; [[string structure]]s, [[fivebrane structure]]s.
+
+Every cohesive $(\infty,1)$-topos is in particular a [[∞-connected (∞,1)-topos]]. For these their intrinsic cohomology refines to [[schreiber:differential cohomology in an (∞,1)-topos]] classifying [[connections on ∞-bundles]]. This encodes **dynamics** in physics: a connection on a principal $\infty$-bundle is a **[[gauge field]]** which exerts **[[force]]**s. Such as:
+
+* the [[electromagnetic field]], [[Yang-Mills field]], the field of [[gravity]], of [[supergravity]], the [[Kalb-Ramond field]], the [[supergravity C-field]], the [[RR-field]].
+
+In every such connected $(\infty,1)$-topos every [[characteristic class]] gives rise to its [[∞-Chern-Weil homomorphism]] that sends gauge fields encoded as [[connections on ∞-bundles|∞-connections]] on [[principal ∞-bundles]] to [[circle n-bundles with connection]]. Such as: 
+
+* the [[Chern-Simons circle 3-bundle]] known from the [[Green-Schwarz mechanism]] or the [[Chern-Simons circle 7-bundle]] known from [[dual heterotic string theory]]. 
+
+Under the [[higher parallel transport]] of these circle $n$-bundles with connection, this assignment is the [[action functional]] for the [[schreiber:∞-Chern-Simons theory]] of the corresponding characteristic class. This includes as special cases various [[sigma-model]] [[quantum field theories]] such as: 
+
+* [[Dijkgraaf-Witten theory]], ordinary [[Chern-Simons theory]], all versions of [[AKSZ theory]], (Chern-Simons-)[[supergravity]], [[BF-theory]] coupled to [[topological Yang-Mills theory]] with cosmological constant.
+
+(...)
+
+***
+
+> the remainder of this entry is hugely imperfect at the moment, at best a sketch of a sketch. But some nice entry of this topic should eventually be available.
+
+
 ## General considerations 
+
+
+> The reader who comes here looking for information and not planning to help work on this entry is maybe best served by ignoring most of it for the time being except for the list of references at the end.
+
+
 
 >[[Urs Schreiber|Urs]]: I inserted the following quick rough sketch just as a catalyst for further development/criticism/revision, without really taking or even having the time to do justice to this topic. I don't have the time and energy right now to run with this ball, but I thought I'd give it a kick anyway.
 
