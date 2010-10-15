@@ -1,0 +1,2 @@
+## Idea## 
+If you had a piece of string possibly tangled up, and could, at a crossing, pull one part of the string through the other, then intuitively repeating this enough time, the string would become unknotted. At the mathematical level, there is a corresponding notion of a _crossing change_ on a diagram
