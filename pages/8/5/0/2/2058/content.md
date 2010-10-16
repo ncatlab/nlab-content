@@ -24,7 +24,7 @@ $$
   f^* : C^{/X} \to C^{/Y}
 $$
 
-preserves all [[limit in a quasi-category|pullbacks]].
+preserves all [[colimit in a quasi-category|colimits]].
 
 =--
 
