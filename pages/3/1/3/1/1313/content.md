@@ -1,9 +1,30 @@
-# Idea #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
+## Idea 
 
 An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian closed category]].  It generalises the notion of [[function set]], which is an exponential object in [[Set]].
 
 
-# Definition #
+## Definition 
 
 The above is actually a complete definition, but here we spell it out.
 
@@ -14,7 +35,7 @@ equals $e$.
 As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].
 
 
-# Related notions #
+## Related notions 
 
 As before, let $C$ be a category and $X,Y\in C$.
 
@@ -41,9 +62,36 @@ Taking $Z$ to be the initial object, we see that $C(Y,X)\cong *$ for any objects
 =--
 
 
-# Examples #
+## Examples 
 
 Of course, in any cartesian closed category every object is exponentiable and exponentiating.  In general, exponentiable objects are more common and important than exponentiating ones, since the existence of $X^Y$ is usually more related to properties of $Y$ than properties of $X$.
+
+### Exponentiation of sets and of numbers
+
+In the cartesian closed catgeory [[Set]] of [[set]]s, for $X,S \in Set$ to sets, their exponentiation $X^S$ is the set of [[function]]s $S\to X$.
+
+Restricted to [[finite set]]s and under the [[cardinality]] operation $|-| : FinSet \to \mathbb{N}$ this induces an exponentiation operation on [[natural number]]s
+
+$$
+  |X^S| = |X|^{|S|}
+  \,.
+$$
+
+This exponentiation operation on numbers $(-)^{(-)} : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ is therefore the [[decategorification]] of the canonically defined [[internal hom]] of sets. It sends numbers $a,b \in \mathbb{N}$ to the product
+
+$$
+  a^b = a \times a \times \cdots \times a \;\; (b \; factors)
+  \,.
+$$
+
+If $b = 0$ is [[zero]], the expression on the right is 1, reflecting the fact that $0$ is the [[cardinality]] of the [[empty set]], which is the [[initial object]] in [[Set]].
+
+When the natural numbers are mebedding into larger [[rig]]s or [[ring]]s, the operation of exponentiation may extend to these larger context. It yields for instance an exponentiation operation on the [[real number]]s $\mathbb{R}$, and on the [[complex number]]s $\mathbb{C}$.
+
+
+
+### More examples
+
 
 * In [[Top]] (the category of _all_ topological spaces), the exponentiable spaces are precisely the [[core-compact spaces]].  In particular, this includes [[locally compact Hausdorff space]]s.  However, most [[nice category of spaces|nice categories of spaces]] are cartesian closed, so that all objects are exponentiable; note that usually the cartesian product in such categories has a slightly different topology than it does in $Top$.
 
@@ -60,7 +108,7 @@ However, exponentiating objects do matter sometimes.
 * [[Toby Bartels]] has [argued](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023187) that [[predicative mathematics]] can have a set of [[truth value]]s as long as this set is not exponentiating (or even exponentiates only [[finite set]]s).
 
 
-# Properties #
+## Properties 
 
 As with other internal homs, the __[[currying]]__ isomorphism
 $$ hom_C(Z,X^Y) \cong hom_C(Z \times Y,X) $$
@@ -92,3 +140,10 @@ Note that any cartesian closed category with finite coproducts must be distribut
 [[!redirects powerful morphisms]]
 [[!redirects powerful object]]
 [[!redirects powerful objects]]
+
+[[!redirects exponentiation]]
+[[!redirects exponent]]
+
+
+
+
