@@ -32,6 +32,13 @@ Note that a non-locally-connected site can still give rise to a locally connecte
 
 ## Related concepts
 
-[[locally contractible site]] / [[locally contractible (∞,1)-topos]]
+* [[locally contractible site]] / [[locally contractible (∞,1)-topos]]
+
+* **locally connected site** / [[locally ∞-connected site]]
+
+* [[cohesive site]] / [[(∞,1)-cohesive site]]
+
+
+
 
 [[!redirects locally connected sites]]
