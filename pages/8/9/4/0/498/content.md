@@ -18,9 +18,11 @@ Here are a few equivalent ways to phrase the combined condition:
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field.  (This quotient can also be taken constructively, where one mods out by an anti-ideal.)
 
 
-## In algebraic geometry
+## In geometry
 
-In [[algebraic geometry]] and [[commutative algebra]], the most commonly used definition of a local commutative ring is a commutative ring $R$ with a unique maximal ideal. Hence the Spec of such an $R$ has a unique closed point. Intuitively it can be thought of as some kind of "infinitesimal neighborhood" of a closed point.
+In [[algebraic geometry]] or [[synthetic differential geometry]] and [[commutative algebra]], the most commonly used definition of a local commutative ring is a commutative ring $R$ with a unique maximal ideal. Hence the Spec of such an $R$ has a unique closed point. Intuitively it can be thought of as some kind of "infinitesimal neighborhood" of a closed point.
+
+The [[topos theory]] formulation of this is a [[local topos]]. 
 
 An important example of a local ring in algebraic geometry is $R = k[\epsilon]/\epsilon^2$. This ring is known as the ring of dual numbers. Intuitively, we can think of its spectrum as consisting of a closed point and a tangent vector. Indeed this is justified, as morphisms from $\operatorname{Spec} R$ to a scheme $X$ correspond exactly to pairs $(x,v)$, where $x \in X$ and $v$ is a (Zariski) tangent vector at $x$.
 
