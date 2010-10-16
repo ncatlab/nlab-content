@@ -61,11 +61,13 @@
 
   * [[geometric embedding]]
 
-  * [[locally connected geometric morphism]]
+  * [[essential geometric morphism]]
 
-    * [[essential geometric morphism]]
+    * [[locally connected geometric morphism]]
 
     * [[connected geometric morphism]]
+
+    * [[totally connected geometric morphism]]
 
   * [[local geometric morphism]]
 
