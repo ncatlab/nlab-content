@@ -63,9 +63,9 @@
 
   * [[essential geometric morphism]]
 
-    * [[locally connected geometric morphism]]
+    * [[locally connected geometric morphism]] 
 
-    * [[connected geometric morphism]]
+    * [[connected geometric morphism]] 
 
     * [[totally connected geometric morphism]]
 
@@ -81,7 +81,7 @@
 
   * [[hyperconnected geometric morphism]]
 
-  * [[cohesive topos|cohesive morphism]]
+  * [[cohesive topos]] 
 
 
 * [[logical morphism]]
