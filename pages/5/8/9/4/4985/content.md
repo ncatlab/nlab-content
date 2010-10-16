@@ -161,4 +161,4 @@ Of course, we know that $u(K)\leq c(K)/2$, but the natural difficulty of calcula
 
 _The unknotting number of a knot does not necessarily occur in a minimal diagram._
 
-Beiler gave an example of a minimal diagram for a 10 crossing knot, which cannot be unknotted with fewer than 3 crossing changes, yet for which there is an isotopic 14 crossing diagram, which is unknotted with 2 crossing changes.  
+Beiler gave an example of a minimal diagram for a 10 crossing knot, which cannot be unknotted with fewer than 3 crossing changes, yet for which there is an isotopic 14 crossing diagram, which can be unknotted with just 2 crossing changes.  
