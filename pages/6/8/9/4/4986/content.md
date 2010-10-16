@@ -44,6 +44,19 @@ The second condition implies that all constant presheaves are sheaves, and hence
 
 Conversely, one can show that any totally connected topos can be (but need not be) presented by some totally connected site.
 
+## Related concepts
+
+* [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
+
+* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+* **totally connected topos** / [[totally connected (∞,1)-topos]]
+
+* [[local topos]] / [[local (∞,1)-topos]].
+
+* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+
+
 ## References
 
 Chapter C3.6 in the [[Elephant]].
@@ -55,3 +68,6 @@ Chapter C3.6 in the [[Elephant]].
 [[!redirects totally connected topoi]]
 [[!redirects totally connected site]]
 [[!redirects totally connected sites]]
+
+
+[[!redirects totally connected (∞,1)-topos]]
