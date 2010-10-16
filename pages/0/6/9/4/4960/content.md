@@ -975,11 +975,15 @@ Then unit and counit of the [[adjunction]]s give canonical natural morphisms
 
 ## Related concepts
 
+* [[essential geometric morphism]]
+
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
 * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
+
+* [[totally connected topos]] / [[totally connected (∞,1)-topos]]
 
 * **cohesive topos** / [[cohesive (∞,1)-topos]]
 
