@@ -372,7 +372,7 @@ on such morphisms [[geometric realization of simplicial spaces]] $X_\bullet \map
 In unpublished notes, [[Danny Stevenson]] and [[David Roberts]] show that under [[geometric realization of simplicial topological spaces]] the universal [[simplicial principal bundle]] (see there)
 $\mathbf{E}G := W G \to \bar W G$ maps to the universal $|G|$-[[principal bundle]] $\mathcal{E} |G| \to \mathcal{B}|G|$ in [[Top]].
 
-But (as described at [[homotopy fiber]] and [[generalized universal bundle]]) the universal bundle is a means to compute homotopy fibers: the ordinary [[pullback]]
+But (as described at [[homotopy fiber]] and [[universal principal ∞-bundle]]) the universal bundle is a means to compute homotopy fibers: the ordinary [[pullback]]
 
 $$
   \array{
