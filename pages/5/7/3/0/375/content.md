@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -12,6 +22,7 @@
 
 A __cartesian closed category__ (sometimes: __ccc__) is a category with finite [[products]] which is [[closed monoidal category|closed]] with respect to its [[cartesian monoidal category|cartesian monoidal structure]].
 
+The [[internal hom]] $[S,X]$ in a cartesian closed category is often called [[exponentiation]] and is denoted $Y^S$.
 
 ## Examples
 
