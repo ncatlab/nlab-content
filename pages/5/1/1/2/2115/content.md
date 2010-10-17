@@ -7,6 +7,7 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 * H. Matsumura, _Commutative algebra_, 2 vols.; see also the online summary notes by D. Murfet, [Matsumura.pdf](http://therisingsea.org/notes/Matsumura.pdf), [Matsumura-Part2.pdf](http://therisingsea.org/notes/Matsumura-Part2.pdf)
 
 * D. Eisenbud, _Commutative algebra: with a view toward algebraic geometry_, Grad. Texts in Math. 150, Springer-Verlag 1995. 
+* James Milne, _A primer of commutative algebra_, (online notes in progress) [webpage](http://www.jmilne.org/math/xnotes/ca.html), [pdf](http://www.jmilne.org/math/xnotes/CA.pdf)
 
 [[!redirects commutative algebras]]
 [[!redirects commutative unital algebra]]
