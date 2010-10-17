@@ -17,11 +17,7 @@ Although [[Grothendieck]] in the late 1950s envisioned many generalizations of [
 
 Grothendieck took the viewpoint that the schemes, algebraic spaces etc. are sheaves on $Aff$ in some subcanonical Grothendieck topology (functor of points point of view). 
 
-Algebraic geometry studies [[space]]s that are locally modeled on ([[object]]s in the [[category]]) [[CRing]]${}^{op}$ -- called [[algebraic space]]s or [[scheme]]s.
-
-+--{.query}
-Zoran: Not entirely true, this is far too limited point of view. For example [[formal schemes]] are in this functorial viewpoint the functors on pairs (ring, nilpotent ideal); for generalized schemes of Durov you need monads and so on...By the way, we already have SEVERAL sections about the spaces as sheaves, about the viewpoint of functor of points, why to repeat all that general nonsense instead of focusing to the specifics of the subject which is by algebaric geometers called algebraic geometry ? I prefer that algebraic geometry page has specifics about the numerous facets of the subject, not only about some specific general and current formalism. On the other hand, there should be separate entries on quantities, functor of points viewpoint etc.
-=--
+Algebraic geometry starts with study of [[space]]s that are locally modeled on ([[object]]s in the [[category]]) Aff = [[CRing]]${}^{op}$ -- main categories being of algebraic [[scheme]]s and of [[algebraic space]]s; one also allows infinitesimal thickenings leading to formal schemes and other ind-objects in schemes. Hakim, Deligne and Gabber extend the setup internally to a symmetric monoidal category, where $Aff$ is replaces by the opposite to the category of monoids in that category; Durov on the other side takes monoids in the category of endofunctors in [[Set]], i.e. [[monad]]s as opposite to the local objects in a generalized scheme theory.
 
 This is to be compared to and contrasted with for instance [[differential geometry]], that studies [[space]]s locally modeled on ([[object]]s in the [[category]]) [[CartSp]] -- called (smooth) [[manifold]]s.
 
@@ -31,33 +27,16 @@ In particular in [[Structured Spaces]] Lurie presents a general formalism of [[g
 
 From this perspective,
 
-* ordinary algebraic geometry is the study of [[structured (∞,1)-topos]]es for the [[geometry (for structured (∞,1)-toposes)|Zariski or etale geometry]] $\mathcal{G}_{Zar}$, $\mathcal{G}_{et}$ on [[CRing]]${}^{op}$
-
-
-+--{.query}
-Zoran: We are still not sure if this is true (you keep saying this) but I am not sure that this is correct. 
-
-[[Urs Schreiber]]: this is prop 4.2.9 in [[Structured Spaces]], currently recalled on the page [[derived scheme]].
-
-Zoran: Good point, but not entirely satisfactory. This proposition just says there is an embedding of categories. But this embedding does not respect limits (what is a good point for derived algebraic geometry!); thus it implies a different geometric picture. Thus in that full sense it is not true that classical AG of schemes and algebraic spaces is a subset of derived AG in strong sense. 
-=--
+* ordinary algebraic geometry is the study of [[structured (∞,1)-topos]]es for the [[geometry (for structured (∞,1)-toposes)|Zariski or etale geometry]] $\mathcal{G}_{Zar}$, $\mathcal{G}_{et}$ on [[CRing]]${}^{op}$. In fact one has as series of geometries for every integer $n\geq 0$, where classical case is at level $0$ and derived at level $\infty$. Cf. 4.2.9 in [[Structured Spaces]]. The fully faithful embedding of schemes into derived schemes does not commute with limits, what is relevant e.g. for intersection theory.
 
 * [[derived algebraic geometry]] is the study of [[structured (∞,1)-topos]]es for the [[geometry (for structured (∞,1)-toposes)|Zariski or etale pre-geometry]] $\mathcal{T}_{Zar}$, $\mathcal{T}_{et}$ on [[CRing]]${}^{op}$.
 
-Despite of this, an axiomatic formulation of algebraic geometry along the lines of [[synthetic differential geometry]], that would de-emphasize the peculiarities of $CRing^{op}$ and emphasize structural aspects such as to facilitate for instance the transportation or interpretation of results in algebraic geometry to other geometries, is currently hardly to be found in the literature,
+Despite of this, an axiomatic formulation of algebraic geometry along the lines of [[synthetic differential geometry]], that would de-emphasize the peculiarities of $CRing^{op}$ and emphasize structural aspects such as to facilitate for instance the transportation or interpretation of results in algebraic geometry to other geometries, is currently hardly to be found in the elementary literature. [[SGA]], specially SGA IV was written however to reflect "algebraic" geometry over any topos. 
 
-+--{.query}
-Zoran: so what is SGA IV about ?
+>Maybe we could talk more about [[synthetic differential geometry applied to algebraic geometry]] to unify perspective of algebraic with differential geometry.
 
-[[Urs Schreiber]]: please write a paragraph on what it is about. 
+## Lists of contributors and literature
 
-Zoran: I am not competent enough in topos theory. 
-=--
-
- leading to an unfortunate and unnecessary gap between for instance the fields of algebraic geometry and [[differential geometry]].
-
->Maybe we can change this by talking about [[synthetic differential geometry applied to algebraic geometry]].
-
-See also [[contributors to algebraic geometry]]. 
+* see [[contributors to algebraic geometry]], [[books in algebraic geometry]] 
 
 [[!redirects algebraic geometer]]
