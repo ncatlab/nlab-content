@@ -1,6 +1,6 @@
-The __free Lie algebra functor__ is the left adjoint functor $FreeLieAlg$ to the forgetful functor $LieAlg\to Set$. 
+The __[[free object|free]] [[Lie algebra]] [[functor]]__ is the [[left adjoint]] functor $FreeLieAlg$ to the [[forgetful functor]] $LieAlg\to Set$. 
 
-Free Lie algebra on the set $X$ is the result $FreeLieAlg(X)$ of evaluating the free Lie algebra functor on object $X$.
+The __free Lie algebra__ on the [[set]] $X$ is the result $FreeLieAlg(X)$ of evaluating the free Lie algebra functor on object $X$.
 
 The subject of free Lie algebras is combinatorially rich with lots of open problems. By a 1953 theorem of A. I. &#352;ir&#353;ov (Shirshov) every Lie subalgebra of a free Lie subalgebra is free (an analogue of the [[Nielsen-Schreier theorem]] in combinatorial group theory). The study of bases of a free Lie algebra considered as a vector space is very nontrivial; special attention has been paid to so-called Hall bases.
 
@@ -28,4 +28,7 @@ Lie series_, [pdf](www.ehu.es/ccwmuura/research/MS111rev.pdf)
 * F. Chapoton, _Free pre-Lie algebras are free as Lie algebras_, 
 [math.RA/0704.2153](http://arxiv.org/abs/math/0704.2153), Bulletin Canadien de Mathe'matiques
 
+
+[[!redirects free Lie algebra]]
 [[!redirects free Lie algebras]]
+[[!redirects free Lie algebra functor]]
