@@ -1,4 +1,11 @@
-This page is dedicated to proving the equivalence of two notions of compactness, one being the classical open-cover formulation, and the other a "stable closure" condition (the property that "$X \to 1$ is a closed map" is stable under pullback). 
+# Compactness and stable closure
+* table of contents
+{: toc}
+
+## Introduction
+
+This page is dedicated to proving the equivalence of two notions of [[compact space|compactness]], one being the classical open-cover formulation, and the other a "stable closure" condition (the property that "$X \to 1$ is a [[closed map]]" is stable under [[base change|pullback]]). 
+
 
 ## Compactness implies stable closure
 
@@ -13,6 +20,7 @@ If $X$ is compact, then for any space $Y$ the projection $\pi: X \times Y \to Y$
 ######Proof
 Let $C \subseteq X \times Y$ be a closed subset, and suppose that $y$ does not belong to $\pi(C)$. We want to find an open neighborhood of $y$ that does not intersect $\pi(C)$, or so that $X \times V$ does not intersect $C$. Consider the collection $\mathcal{C}$ of all open $U \subseteq X$ for which there exists an open $V \subseteq Y$ containing $y$, such that $U \times V$ does not intersect $C$. Since $y \notin \pi(C)$, for any $x \in X$ we have $(x,y) \notin C$, and since $C$ is closed in the product topology, there exist $V$ containing $y$ and $U$ containing $x$ such that $U \times V$ does not intersect $C$. Therefore, $\mathcal{C}$ covers $X$, so it has a finite subcover $U_i$. For each of the finitely many $i$ there is a corresponding $V_i$ such that $U_i \times V_i$ does not intersect $C$, and the intersection of the $V_i$ is a neighborhood of $y$ which does not intersect $\pi(C)$.
 =--
+
 
 ## Stable closure implies compactness
 
@@ -47,9 +55,17 @@ If $\pi: X \times Y \to Y$ is a closed map for every space $Y$, then $X$ is comp
 ######Proof 
 Let $\Sigma$ be a directed open cover of $X$. Define a space $Y$ as follows: the points of $Y$ are open sets of $X$ (so the underlying set of $Y$ is the topology $\mathcal{O}(X)$), and the open sets of $Y$ are upward-closed subsets $W$ of $\mathcal{O}(X)$ such that $\Sigma \cap W$ is nonempty whenever $W$ is nonempty. 
 
-**Claim:** this is a topology. **Proof:** Clearly such $W$ are closed under arbitrary unions. If $W$ and $W'$ are open and $U \in \Sigma \cap W$ and $U' \in \Sigma \cap W'$, then any upper bound of $U$ and $U'$ in $\Sigma$ belongs to both $W$ and $W'$ since these are upward-closed. 
++-- {: .un_lemma}
+###### Claim
+This is a topology.
+=--
+
++-- {: .proof}
+###### Proof
+Clearly such $W$ are closed under arbitrary unions. If $W$ and $W'$ are open and $U \in \Sigma \cap W$ and $U' \in \Sigma \cap W'$, then any upper bound of $U$ and $U'$ in $\Sigma$ belongs to both $W$ and $W'$ since these are upward-closed. 
 
 Moreover, whenever $U$ belongs to $\Sigma$, the principal up-set $prin(U) = \{V \in \mathcal{O}(X): U \subseteq V$ is open in $Y$. 
+=--
 
 Now consider the set $E = \{(x, U) \in X \times Y: x \in U\}$. Claim: this is open in $X \times Y$. Proof: for every $(x, U) \in E$, there exists $U' \in \Sigma$ such that $x \in U'$ (because $\Sigma$ is a cover), and then for $U'' = U \cap U'$, the set $U'' \times prin(U'')$ is an open set which contains $(x, U)$, and $U \times prin(U) \subseteq E$ because for every $(y, V) \in U'' \times prin(U'')$, we have $y \in V$. 
 
@@ -64,4 +80,4 @@ The proof of the theorem above was extracted from
 
 * Martin Escardo, Intersections of compactly many open sets are open, 2009 [(pdf)](http://www.cs.bham.ac.uk/~mhe/papers/compactness-submitted.pdf)
 
-See also [this exchange](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice) at Math Overflow, where the question was raised as to whether the axiom of choice (or possibly a weaker choice principle like the [[ultrafilter theorem]]) is required to prove the equivalence of these two notions of compactness (examination of the proofs above show it is not). 
+See also [this exchange](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice) at Math Overflow, where the question was raised as to whether the [[axiom of choice]] (or possibly a weaker choice principle like the [[ultrafilter theorem]]) is required to prove the equivalence of these two notions of compactness (examination of the proofs above show it is not). 
