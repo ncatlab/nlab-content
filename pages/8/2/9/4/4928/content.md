@@ -6,7 +6,7 @@
 
 
 
-(The ideas section here is partially adapted from papers of [[Eric Goubault]].  In particular the paper in HHA, see reference list. He was one of the first to propose some form of directed homotopy as a model for aspects of concurrency.) This entry tries to list and summarise various models for concurrency and to examine some of them for (potential) interaction with other entries in the Lab, especially ones related to directed topology, and to causal sets ([[causets]]). (This comparison will initially not be deep, as we will first put down a lot of definitions in the linked pages, with a view to possible interactions later on.)
+(The ideas section here is partially adapted from papers of [[Eric Goubault]].  In particular the paper in HHA, see reference list. He was one of the first to propose some form of [[directed homotopy theory|directed homotopy]] as a model for aspects of concurrency.) This entry tries to list and summarise various models for concurrency and to examine some of them for (potential) interaction with other entries in the Lab, especially ones related to directed topology, and to causal sets ([[causets]]). (This comparison will initially not be deep, as we will first put down a lot of definitions in the linked pages, with a view to possible interactions later on.)
 
 
 
@@ -38,7 +38,9 @@ The challenge is to find adequate mathematical models so as better to understand
 
 [[Tim Porter]]:  @Adam. Why not develop this a bit on some off shoot pages?  Also why not join n-forum and then it will be easier to discuss the points you make without discussions filling up the n-Lab pages. 
 
-I hope to get a bit more CS and TCS into the n-lab as there seem to be possibilities for interesting interactions between some topics there and the 'n-POV'. What do you think? AS I suggested please do get onto the n-forum if you have the time.   
+I hope to get a bit more CS and TCS into the n-lab as there seem to be possibilities for interesting interactions between some topics there and the 'n-POV' as well as conncetions with quantum computing. 
+
+What do you think? As I suggested please do get onto the n-forum if you have the time.   
 =--
 
 
