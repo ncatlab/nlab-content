@@ -60,41 +60,35 @@ $$
   \mathbf{S}
 $$
 
-is **cohesive** over $\mathbf{S}$ if it has the following [[stuff, structure, property|properties]]:
+is **cohesive** over $\mathbf{S}$ if
 
-*  it is _local_ and _connected_ in the following sense:
+1. it is a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]]
 
-   1. it is a [[locally ∞-connected (∞,1)-topos]]: there exists a further [[left adjoint]] $(f_! \dashv f^*)$ satisfying a suitable condition;
+1. it is a [[local (∞,1)-topos]]
 
-   1. it is an [[∞-connected (∞,1)-topos]]: the [[(∞,1)-functor]] $f_!$ preserves the [[terminal object]], or equivalently $f^*$ is a [[fully faithful (∞,1)-functor]];
-
-   1. it is a [[local (∞,1)-topos]]: there exists a further [[right adjoint]] $(f_* \dashv f^!)$ (this is sufficient for $f$ to be local, since we have already assumed it to be $\infty$-connected);
-
-   so that in total we have a quadruple of [[adjoint (∞,1)-functor]]s
+This means  that we have a quadruple of [[adjoint (∞,1)-functor]]s
    
-   $$
-    (f_! \dashv f^* \dashv f_* \dashv f^!) : 
-    \mathbf{H}
-     \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
-    \mathbf{S}
-    \;
-   $$
+$$
+  (f_! \dashv f^* \dashv f_* \dashv f^!) : 
+  \mathbf{H}
+   \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
+  \mathbf{S}
+  \;
+$$
 
-   Note that $f$ being local implies, in particular, that $\mathbf{S} \stackrel{f^!}{\hookrightarrow} \mathbf{H}$ is a [[subtopos]]: $f^!$ is a [[full and faithful (∞,1)-functor]];
+with both $f^*$ and $f^!$ being [[full and faithful (∞,1)-functor]]s.
+
+If $(f_* \dashv f^*)$ is the [[global section]] geometric morphism of an $(\infty,1)$-topos over $\mathbf{S}$, we say that $\mathbf{H}$ is a **cohesive $(\infty,1)$-topos** over $\mathbf{S}$. In this case we denote the four $(\infty,1)$-functors also
+
+$$
+  (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
+  \mathbf{H}
+   \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
+  \mathbf{S}
+  \,.
+$$
 
 
-In addition one may ask that
-
-*  the canonical transformation
-
-   $$
-     f^* \to f^!
-   $$
-
-   is a [[regular monomorphism in an (∞,1)-category]].
-
-
-If $f$ is the [[global section]] geometric morphism of $\mathbf{H}$, then we say that $\mathbf{H}$ is a **cohesive $(\infty,1)$-topos.
 =--
 
 ## Properties
@@ -115,22 +109,120 @@ $$
   (\mathbf{S}
    \stackrel{\overset{f_!}{\leftarrow}}{\underset{f^*}{\to}}
   \mathbf{H}
-   \stackrel{\overset{f_!}{\leftarrow}}{\underset{f^*}{\to}}
+   \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
   \mathbf{S})
   \;\;
   \simeq
   (Id \dashv Id)
 $$
 
-are [[equivalence in a quasi-category|equivalent]] to the identity $(\infty,1)$-functors.
+are [[equivalence in a quasi-category|equivalent]] to the identity $(\infty,1)$-functors. 
 
 
 =--
 
+## Interpretation {#Interpretation}
+
+We discuss some interpretations and ways to think about
+
+1. a cohesive $(\infty,1)$-topos as such;
+
+1. structures inside a cohesive $(\infty,1)$-topos.
+
+### The structure of a cohesive $(\infty,1)$-topos
+
+Notice that the canonical cohesive $(\infty,1)$-topos [[∞Grpd]] may be thought of as being the ($(\infty,1)$-topos theoretical dual to) the [[point]]
+
+$$
+  \infty Grpd \simeq (\infty,1)Sh(*)
+  \,.
+$$
+
+The abstract properties of a cohesive $(\infty,1)$-topos $\mathbf{H}$ over $\infty Grpd$ show that also $\mathbf{H}$ still _looks like a point_ :
+
+1. **shape of the point:** Since $\mathbf{H}$ is a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]] it looks like a [[contractible]] [[topological space]];
+
+   1. this implies in particular that the [[shape of an (∞,1)-topos]] of $\mathbf{H}$ is the same as that of the point.
+
+1. **small neighbourhood of a point:** Since $\mathbf{H}$ is a [[local (∞,1)-topos]] it is similar to the standard examples of [[local topos]]es, which are [[infinitesimal space|infinitesimal]] neighbourhoods of points.
+
+We may therefore usefully think of a cohesive $(\infty,1)$-topos as _being_ the general abstract _lump of cohesive points_ for the given notion of cohesion.
+
+For instance in our [examples](#Examples) we see that
+
+* $(\infty,1)Sh(CartSp)$ is like the **general abstract smooth [[open ball]]**.
+
+* let $\mathbb{L}_{inf}$ be the full subcategory of [[smooth loci]] in the [[infinitesimal space]]s. then   $(\infty,1)Sh(\mathbb{L}_{inf})$ is like the **general abstract infinitesimally thickened point**;
+
+* similarly, let $\Lambda$ be the category of $\mathbb{Z}_2$-garded [[Grassmann algebra]]s. Then $(\infty,1)Sh(\Lambda^{op})$ is like the **general abstract super-point**;
+
+* $(\infty,1)Sh(ThCartSp)$ is like the **general abstract infinitesimally thickened smooth open ball** .
+
+ 
+### Structures inside a cohesive $(\infty,1)$-topos
+
+We list the geometric meaning of the various morphisms and structures in
+a cohesive [[(∞,1)-topos]] over [[∞Grpd]]. (We follow the entries [[schreiber:structures in an (∞,1)-topos]] and [[schreiber:differential cohomology in an (∞,1)-topos]] where more motivation and justification for these interpretations can be found.)
+
+Write
+
+$$
+ (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
+ \mathbf{H}
+  \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
+ \infty Grpd
+$$
+
+for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we ay think of as [[∞-groupoid]]s with cohesive structure. For instance in the case $\mathbf{H} = $ [[?LieGrpd]] they are $\infty$-groupoids with _smooth_ structure. Then
+
+* $\Gamma(X)$ is the _underlying $\infty$-groupoid_ of the cohesive $\infty$-groupoid $X$ (for instance an $\infty$-Lie groupoid with its smooth structure forgotten);
+
+* $\Pi(X)$ is the fundamental [[path ∞-groupoid]] of $X$: its [[k-morphism]]s are generated from $k$-dimensional smooth paths in $X$ and the $k$-morphisms of $X$ itself. Under the equivalence of $(\infty,1)$-toposes 
+
+  $|-| :$  [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] 
+
+
+  we may think of $|\Pi(X)|$ as the _geometric realization_ of $X$. For instance if $X \in \infty LieGrpd$ is a [[paracompact manifold]], then $|\Pi(X)|$ is, up to [[weak homotopy equivalence]] its underlying topological space.
+
+Write 
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\flat})
+  = 
+  (Disc \Pi \dashv Disc \Gamma) : \mathbf{H} \to \mathbf{H}
+  \,.
+$$
+
+
+Then unit and counit of the [[adjunction]]s give canonical natural morphisms
+
+* $X \to \mathbf{\Pi}(X)$ -- this we may think of as the inclusion of $X$ as the constant paths in the [[path ∞-groupoid]] $\mathbf{\Pi}(X)$;
+
+* $\mathbf{\flat}A \to A$ -- if we think of $A$ as the coefficient object for $A$-[[principal ∞-bundle]]s in $\mathbf{H}$, 
+
+  $$  
+    A Bund(X) := \mathbf{H}(X,A)
+  $$
+
+  then this is the map that takes principal $A$-bundles with [[schreiber:differential cohomology in an (∞,1)-topos|flat connection]] 
+
+   $(X \to \mathbf{\flat}A) \leftrightarrow (\mathbf{\Pi}(X) \to A)$ to the underlying $A$-bundle.
+
+  If $A = \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] object, then we may think of $\mathbf{\flat} \mathbf{B}G$ or rather the corresponding  $Disc(\mathbf{B}G)$ as being $K(G,1)$: the classifying object for $G$-principal bundles where all cohesive structure on $G$ has been forgotten.
+
+  Accordingly, the canonical map
+
+  $$
+    Disc(\mathbf{B}G) \to \Pi \mathbf{B}G
+  $$
+
+  that apppears in the second clause of the definition of cohesive topos is the inclusion of the topologist's $K(G,1)$ into the topological [[classifying space]] $\mathcal{B}G$. Again, on [[cocycle]]s this is the map from flat bundles to the underlying bundles.
 
 
 
-## Examples
+
+
+## Examples {#Examples}
 
 The [[(∞,1)-category of (∞,1)-sheaves]] on an [[(∞,1)-cohesive site]] is an cohesive $(\infty,1)$-topos (see there).
 
@@ -335,106 +427,12 @@ As a special case of the above theorem, the [[(∞,1)-category of (∞,1)-sheave
 
 
 
-## Interpretation
 
-We discuss some interpretations and ways to think about
+## Applications
 
-1. a cohesive $(\infty,1)$-topos as such;
+* Every [[(∞,1)-topos]] comes with its intrinsic notion of [[cohomology]]. A cohesive $(\infty,1)$-topos comes with its intrinsic notion of [[schreiber:path ∞-groupoid]] and its intrinsic notion of [[schreiber:differential cohomology in an (∞,1)-topos]].
 
-1. structures inside a cohesive $(\infty,1)$-topos.
-
-### The structure of a cohesive $(\inft,1)$-topos
-
-Notice that the canonical cohesive $(\infty,1)$-topos [[∞Grpd]] may be thought of as being the ($(\infty,1)$-topos theoretical dual to) the [[point]]
-
-$$
-  \infty Grpd \simeq (\infty,1)Sh(*)
-  \,.
-$$
-
-The abstract properties of a cohesive $(\infty,1)$-topos $\mathbf{H}$ over $\infty Grpd$ show that also $\mathbf{H}$ still _looks like a point_ :
-
-* it is a [[∞-connected (∞,1)-topos]] and in this respect looks like a [[contractible]] [[topological space]];
-
-* it is a [[local (∞,1)-topos]] -- a property shared by $(\infty,1)$-topos over thickened points (see [[local topos]]);
-
-* its [[shape of an (∞,1)-topos]] is that of the point.
-
-At the same time, a cohesive $(\infty,1)$-topos is in general _bigger_ than then stadard point $*$. We may think of it as a general abstract _fat point_ : the general abstract _lump of cohesive points_ for the given notion of cohesion.
-
-For instance in our examples we see that
-
-* $(\infty,1)Sh(CartSp)$ is like the **general abstract smooth [[open ball]]** .
-
-* let $\mathbb{L}_{inf}$ be the full subcategory of [[smooth loci]] in the [[infinitesimal space]]s. then   $(\infty,1)Sh(\mathbb{L}_{inf})$ is like the **general abstract infinitesimally thickened point**;
-
-* similarly, let $\Lambda$ be the category of $\mathbb{Z}_2$-garded [[Grassmann algebra]]s. Then $(\infty,1)Sh(\Lambda^{op})$ is like the **general abstract super-point**;
-
-* $(\infty,1)Sh(ThCartSp)$ is like the **general abstract infinitesimally thickened smooth open ball** .
-
- 
-### Structures inside a cohesive $(\infty,1)$-topos
-
-We list the geometric meaning of the various morphisms and structures in
-a cohesive [[(∞,1)-topos]] over [[∞Grpd]]. (We follow the entries [[schreiber:structures in an (∞,1)-topos]] and [[schreiber:differential cohomology in an (∞,1)-topos]] where more motivation and justification for these interpretations can be found.)
-
-Write
-
-$$
- (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
- \mathbf{H}
-  \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
- \infty Grpd
-$$
-
-for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we ay think of as [[∞-groupoid]]s with cohesive structure. For instance in the case $\mathbf{H} = $ [[?LieGrpd]] they are $\infty$-groupoids with _smooth_ structure. Then
-
-* $\Gamma(X)$ is the _underlying $\infty$-groupoid_ of the cohesive $\infty$-groupoid $X$ (for instance an $\infty$-Lie groupoid with its smooth structure forgotten);
-
-* $\Pi(X)$ is the fundamental [[path ∞-groupoid]] of $X$: its [[k-morphism]]s are generated from $k$-dimensional smooth paths in $X$ and the $k$-morphisms of $X$ itself. Under the equivalence of $(\infty,1)$-toposes 
-
-  $|-| :$  [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] 
-
-
-  we may think of $|\Pi(X)|$ as the _geometric realization_ of $X$. For instance if $X \in \infty LieGrpd$ is a [[paracompact manifold]], then $|\Pi(X)|$ is, up to [[weak homotopy equivalence]] its underlying topological space.
-
-Write 
-
-$$
-  (\mathbf{\Pi} \dashv \mathbf{\flat})
-  = 
-  (Disc \Pi \dashv Disc \Gamma) : \mathbf{H} \to \mathbf{H}
-  \,.
-$$
-
-
-Then unit and counit of the [[adjunction]]s give canonical natural morphisms
-
-* $X \to \mathbf{\Pi}(X)$ -- this we may think of as the inclusion of $X$ as the constant paths in the [[path ∞-groupoid]] $\mathbf{\Pi}(X)$;
-
-* $\mathbf{\flat}A \to A$ -- if we think of $A$ as the coefficient object for $A$-[[principal ∞-bundle]]s in $\mathbf{H}$, 
-
-  $$  
-    A Bund(X) := \mathbf{H}(X,A)
-  $$
-
-  then this is the map that takes principal $A$-bundles with [[schreiber:differential cohomology in an (∞,1)-topos|flat connection]] 
-
-   $(X \to \mathbf{\flat}A) \leftrightarrow (\mathbf{\Pi}(X) \to A)$ to the underlying $A$-bundle.
-
-  If $A = \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] object, then we may think of $\mathbf{\flat} \mathbf{B}G$ or rather the corresponding  $Disc(\mathbf{B}G)$ as being $K(G,1)$: the classifying object for $G$-principal bundles where all cohesive structure on $G$ has been forgotten.
-
-  Accordingly, the canonical map
-
-  $$
-    Disc(\mathbf{B}G) \to \Pi \mathbf{B}G
-  $$
-
-  that apppears in the second clause of the definition of cohesive topos is the inclusion of the topologist's $K(G,1)$ into the topological [[classifying space]] $\mathcal{B}G$. Again, on [[cocycle]]s this is the map from flat bundles to the underlying bundles.
-
-
-
-
+* As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental [[physics]]. See [[higher category theory and physics]] for more on that.
 
 ## References
 
