@@ -1,18 +1,17 @@
-# Contents
+
+# Non-deterministic automata
 * automatic table of contents goes here
 {:toc}
 
-##Non-deterministic automaton##
-
-
+## Definitions
 
 (For the moment, mostly as an example of a [[coalgebra for an endofunctor]] and to start discussion of models for non-determinism.)
 
 This will give the classical definition as a non-deterministic state-based system and then show how to turn that form into the coalgebraic form.
 
++-- {: .un_defn}
+###### Definition
 
-+--{: . un-defn}
-##Definition##
 A **non-deterministic automaton** consists of the following data:
  
 * a set of _states_, $Q$;
@@ -32,7 +31,9 @@ The 'final' predicate, of course, returns $\top$ if a state is a _final state_ a
 
 (For the moment we will not look at the links between automata and languages.)
 
-##Currying $\delta$##
+
+## Currying $\delta$
+
 The first step in transforming this to the coalgebraic form is to [[currying|curry]] $\delta$, so as to obtain it in the form $\delta : Q\to \mathcal{P}(Q)^\Sigma$. We thus have for a state, $q\in Q$, $\delta(q,) : \Sigma \to \mathcal{P}(Q)$.  We then also have a product function
 
 $$\alpha = \delta \times (final) : Q \to  Q^\Sigma\times bool.$$
@@ -40,8 +41,7 @@ $$\alpha = \delta \times (final) : Q \to  Q^\Sigma\times bool.$$
 If we now write $HQ = \mathcal{P}(Q)^\Sigma\times bool$, we get a functor (for you to check) $H : Set \to Set$ and the non-deterministic automaton corresponded precisely to a [[coalgebra for an endofunctor|coalgebra]], $(Q,\alpha)$, for $H$.
 
 
-
-##References##
+## References
 
 For a summary of automata theory , look at the [Wikipedia](http://en.wikipedia.org/wiki/Automata_theory).
 
@@ -54,3 +54,9 @@ or other texts on the subject.
 For the coalgebraic treatment, this is discussed in: 
 
 *  A.Kurz:  _Coalgebras and Modal Logic._ Course Notes for ESSLLI 2001, Version of October 2001. Appeared on the CD-Rom ESSLLI'01, Department of Philosophy, University of Helsinki, Finland, available from [site](http://www.cs.le.ac.uk/people/akurz/works.html).
+
+
+[[!redirects nondeterministic automaton]]
+[[!redirects nondeterministic automata]]
+[[!redirects non-deterministic automaton]]
+[[!redirects non-deterministic automata]]
