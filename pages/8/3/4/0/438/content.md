@@ -13,7 +13,6 @@ At least a couple of the top ten CS departments in the USA teach all of their ow
 
 Don Knuth proposed that every professor should be required to have both a "major" and "minor" department, just like undergraduates must at most universities.  That might be one step towards improving the situation -- a way to influence the curriculum without compromising autonomy.
 
--[[Adam]]
 
 =--
 ##What you can find here and on my personal pages##
