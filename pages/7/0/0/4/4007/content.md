@@ -9,7 +9,7 @@
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -32,12 +32,15 @@ A [[category]] $C$ is **connected** if it is [[inhabited set|inhabited]] and the
 
 * the [[localization]] $C[C_1^{-1}]$ of $C$ at all its morphisms is a connected groupoid.
 
-Note that the [[empty category]] is not connected.  For other purposes, one can argue about whether the [[empty set]] should be called "connected," but for the applications of connected categories, the empty category should definitely not be called connected.  In particular, a [[terminal object]] is not a [[connected limit]].
+Note that the [[empty category]] is not connected.  For other purposes, one can argue about whether the [[empty set]] should be called "connected" (see [[connected space]]), but for the applications of connected categories, the empty category should definitely not be called connected.  In particular, a [[terminal object]] is not a [[connected limit]].
+
 
 ## Related concepts
 
 A [[connected limit]] is a [[limit]] whose domain [[diagram]] category is connected.
 
+
+[[!redirects connected category]]
 [[!redirects connected categories]]
 [[!redirects connected groupoid]]
 [[!redirects connected groupoids]]
