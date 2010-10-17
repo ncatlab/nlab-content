@@ -96,6 +96,8 @@ There is also
 
 * Marc Levine, _Smooth motives_, [arxiv:0807.2265](http://arxiv.org/abs/0807.2265)
 
+* [[Marc Levine]], _Mixed motives_, Math. Surveys and Monographs __57__, Amer. Math. Soc.  1998, free [pdf](http://www.ams.org/online_bks/surv57/surv57.pdf)
+
 Some most recent generalizations of the theory, using derivators and similar techniques, are in
 
 * D-C. Cisinski, F. D&#233;glise, _Triangulated categories of mixed motives_, [arxiv/0912.2110](http://arxiv.org/abs/0912.2110)
