@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -124,20 +130,29 @@ $$
 +-- {: .un_example}
 ###### Example
 
-In the discussion at [[schreiber:path ∞-groupoid]] it is claimed that the $(\infty,1)$-toposes of [[∞-stack]]s on a [[site]] of _geometrically contractible objects_ (all constant $(\infty,1)$-presheaves satisfy [[descent]] over covers of representables) is a [[locally contractible (∞,1)-topos]] with the property that 
+Every 
 
-$$
-  (f_! \dashv f^* \dashv f_*) 
-  :=
-  \mathbf{H}
-  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}}
-  \infty Grpd
-$$ 
+* [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]] 
 
-exhibits $\infty Grpd$ as an essential retract of $\mathbf{H}$ in the above sense. This means that such $\mathbf{H}$ have the _shape of the point_ .
+* and hence also every [[cohesive (∞,1)-topos]] 
+
+over $\infty Grpd$ has the shape of the point.
 
 =--
 
+
++-- {: .proof}
+###### Proof
+
+By definition $\mathbf{H}$ is $\infty$-connected if the [[constant ∞-stack]] [[inverse image]] $f^* = L Const$ is 
+
+1. not only a left but also a [[right adjoint]];
+
+1. is a [[full and faithful (∞,1)-functor]].
+
+By standard properties of [[adjoint (∞,1)-functor]]s we have that a [[right adjoint]] $f^*$ is a [[full and faithful (∞,1)-functor]] precisely if the counit $f_! f^* \to Id$ is an [[equivalence in a quasi-category|equivalence]].
+
+=--
 
 
 ## References
