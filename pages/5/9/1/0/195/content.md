@@ -16,7 +16,7 @@ It is common to use [[foundations of mathematics]] in which 'set' is an undefine
 
 Material set theory conflates two notions of sets, which were elegantly (but not first) described by [[Mathieu Dupont]] in [a blog post](http://math.breckes.org/2009/03/the-two-meanings-of-the-word-%E2%80%9Cset%E2%80%9D-in-mathematics/) as 'set&#185;' and 'set&#178;'.  In the latter case (set&#178;), we have some fixed universe of discourse (perhaps consisting of all real numbers), and a 'set' is a set of elements of this universe (so a set of real numbers, such as $\{5\}$, $\{ x | x \gt 2 \}$, or $\empty$).  In the former case (set&#185;), a 'set' is a purely abstract concept, an unstructured (except perhaps for an [[equality relation]]) collection of unlabelled elements.  Arguably (this argument goes back at least to [[Lawvere]]), [[Georg Cantor|Cantor]]\'s original concept of [[cardinal number]] (Kardinalzahl) was the abstraction from a set&#178; to its underlying set&#185;.
 
-Here we adopt a structural approach, in which a __set__ is a set&#185;, a (mostly) unstructured [[collection]].  For set&#178;, see [[subset]]; if the fixed universe of discourse is a set $S$, then a set&#178; will be a subset of $S$.
+Here we adopt a structural approach, in which a __set__ is a set&#185;, a (mostly) unstructured [[collection]].  For set&#178;, see [[subset]]; if the fixed universe of discourse is a set&#185; $S$, then a set&#178; will be a subset of $S$.
 
 
 ## What is a set?
