@@ -45,6 +45,8 @@ $\binom{n}{k}$
  </g>
 </svg>
 
+By the way, this diagram is for elementary algebra at the high-school level.  So by 'set' we mean a [[subset]] ('set&#178;' in [the terminology of Matthieu Dupont](http://math.breckes.org/2009/03/the-two-meanings-of-the-word-%E2%80%9Cset%E2%80%9D-in-mathematics/)), and by 'function' we mean a [[partial function]].  Accordingly, going downward along a blue line (within the middle two columns) is an inclusion, while moving upwards along a green line is a quotient operation.  That is, an $n$-ary function is a special kind of $(n+1)$-ary relation, while every $n$-ary relation appears as the domain of some $n$-ary function (assuming that the universe of discourse (which is a set&#185; in Dupont\'s sense and is the real line in high-school algebra) is inhabited).  On the other hand, if we are allowed to vary the target of our functions (which in high-school algebra is a fixed universe of discourse), then moving downwards along a green line is also an inclusion, as every $n$-ary relation is a truth-value-valued $n$-ary function.
+
 
 category: meta
 
