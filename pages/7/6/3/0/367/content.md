@@ -8,7 +8,7 @@
 =--
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
 =--
 =--
 =--
@@ -49,12 +49,13 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in the category [[Grp]] of [[groups]] is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
 
-A simplicial object in [[Ring]] is a [[simplicial ring]].
+* A simplicial object in [[Ring]] is a [[simplicial ring]].
 
 * A cosimplicial object in the category of [[rings]] ([[algebras]]) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
 
-
 * A simplicial object in a category of simplicial objects is a [[bisimplicial object]].
+
+* A cosimplicial object in [[sSet]] is a [[cosimplicial simplicial set]] (equivalently a simplicial object in cosimplicial sets).
 
 * The [[bar construction]] produces a simplicial object from a [[monad]] and an algebra over that monad.
 
