@@ -233,3 +233,15 @@ Section 1.2.9 of
 [[!redirects overquasicategory]]
 [[!redirects slice quasi-category]]
 [[!redirects slice quasicategory]]
+
+[[!redirects over-(∞,1)-category]]
+[[!redirects over-(infinity,1)-category]]
+
+[[!redirects over-(∞,1)-categories]]
+[[!redirects over-(infinity,1)-categories]]
+
+[[!redirects over (∞,1)-category]]
+[[!redirects over (infinity,1)-category]]
+
+[[!redirects over (∞,1)-categories]]
+[[!redirects over (infinity,1)-categories]]
