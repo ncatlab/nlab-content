@@ -34,7 +34,11 @@ The challenge is to find adequate mathematical models so as better to understand
 (More needs to be put here and the above is not that great.  Not sure how to rewrite it and what to add, though!)
 
 +-- {: .query}
-[[Adam]]: "Shared memory" is just a friendly way of presenting message-passing systems to a programmer -- at the end of the day, everything is message passing underneath if you dig down far enough.  If you want to __really__ dig, consider that digital circuits are point-to-point communication mechanisms, and physicists are suspicious of any "spooky [action at a distance](http://en.wikipedia.org/wiki/Action_at_a_distance_%28physics%29)" or [nonlocality](http://en.wikipedia.org/wiki/Nonlocality) -- which is what you would need in order to implement shared memory without some sort of message passing mechanism somewhere underneath.  Ours is a message-passing world; shared state is just an illusion used to make centralized-and-serial programmers feel more comfortable in a distributed-and-parallel world.  One could argue that the "mathematical models" called for are nothing more than simple translations into message-passing operations, which are the primary object of study.  (Note: I use message-passing here in the broadest sense, encompassing Petri Nets, CSP, trace structures, Kahn process networks, etc -- anything without shared state)
+[[Adam]]: "Shared memory" is just a friendly way of presenting message-passing systems to a programmer -- at the end of the day, everything is message passing underneath if you dig down far enough.  If you want to __really__ dig, consider that digital circuits are point-to-point communication mechanisms, and physicists are suspicious of any "spooky action at a distance" -- which is what you would need in order to implement shared memory without some sort of message passing mechanism somewhere underneath.  Ours is a message-passing world; shared state is just an illusion used to make centralized-and-serial programmers feel more comfortable in a distributed-and-parallel world.  One could argue that the "mathematical models" called for are nothing more than simple translations into message-passing operations, which are the primary object of study.  (Note: I use message-passing here in the broadest sense, encompassing Petri Nets, CSP, trace structures, Kahn process networks, etc -- anything without shared state)
+
+[[Tim Porter]]:  @Adam. Why not develop this a bit on some off shoot pages?  Also oin n-forum and then it will be easier to discuss the points you make without discussions filling up the n-Lab pages. 
+
+I hope to get a bit more CS and TCS into the n-lab as there seem to be possibilities for interesting interactions between some topics there and the 'n-POV'. What do you think? AS I suggested please do get onto the n-forum if you have the time.   
 =--
 
 
@@ -42,7 +46,7 @@ The challenge is to find adequate mathematical models so as better to understand
 
 ####Traditional Models####
 
-* [[transition systems]], labelled transition systems and [[higher dimensional transition systems]];
+* [[transition systems]], and [[transition systems|labelled transition systems]];
 
 * [[trace monoid|trace monoids]] and [[Mazurkiewicz trace]] theory;
 
