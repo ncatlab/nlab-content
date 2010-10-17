@@ -33,7 +33,7 @@ The 'final' predicate, of course, returns $\top$ if a state is a _final state_ a
 (For the moment we will not look at the links between automata and languages.)
 
 ##Currying $\delta$##
-The first step in transforming this to the coalgebraic form is to [[currying|curry]] $\delta$, so as to obtain it in the form $\delta : Q\to Q^\Sigma$. We thus have for a state, $q\in Q$, $\detta(q,) : \Sigma \to Q$.  We then also have a product function
+The first step in transforming this to the coalgebraic form is to [[currying|curry]] $\delta$, so as to obtain it in the form $\delta : Q\to Q^\Sigma$. We thus have for a state, $q\in Q$, $\delta(q,) : \Sigma \to Q$.  We then also have a product function
 
 $$\alpha = \delta \times (final) : Q \to  Q^\Sigma\times bool.$$
 
