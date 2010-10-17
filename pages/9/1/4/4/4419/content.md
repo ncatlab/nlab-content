@@ -19,6 +19,8 @@ This theorem has been, under some restrictions proved, in [[Pierre Gabriel]]'s t
 
 * A. L.  Rosenberg, _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
 
+* related MO question: [what is the center of QCohX](http://mathoverflow.net/questions/41789/what-is-the-center-of-qcohx)
+
 [[!redirects Gabriel-Rosenberg reconstruction theorem]]
 [[!redirects Gabriel-Rosenberg's theorem]]
 [[!redirects Gabriel-Rosenberg reconstruction]]
