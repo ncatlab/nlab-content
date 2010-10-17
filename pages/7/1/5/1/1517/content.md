@@ -20,10 +20,12 @@ See also [[terminal coalgebra]].
 ### Coalgebras for functors on $Set$
 
 * $X \to F(X) = D(X)$, the set of probability distributions on $X$: Markov chain on $X$.
-* $X \to F(X) = P(X)$, the powerset on $X$: Binary relation on $X$.
-* $X \to F(X) = X^A \times B$: [[deterministic automaton]].
-* $X \to F(X) = P(X^A \times B)$: Nondeterministic automaton.
-* $X \to F(X) = A \times X \times X$, for a set of labels $A$: Labelled binary tree.
+* $X \to F(X) = \mathcal{P}(X)$, the [[power set]] on $X$: binary relation on $X$.
+* $X \to F(X) = X^A \times bool$: [[deterministic automaton]].
+* $X \to F(X) = \mathcal{P}(X^A \times bool)$: [[nondeterministic automaton]].
+* $X \to F(X) = A \times X \times X$, for a set of labels, $A$: labelled binary tree.
+* $X \to F(X) = \mathcal{P}(A\times X)$, for a set of labels, $A$: [[transition system|labelled transition system]].
+
 
 See [[coalgebra]] for examples on categories of modules.
 
@@ -70,6 +72,9 @@ This is discussed in
 
 * [[Jiri Adamek]], _[Introduction to coalgebras](http://www.tac.mta.ca/tac/volumes/14/8/14-08abs.html)_ ,
 _Theory and Applications of Categories_, Vol. 14 (2005), No. 8, 157-199.
+
+* [[Bart Jacobs]], _[Introduction to Coalgebra. Towards Mathematics of States and Observations.] (http://www.cs.ru.nl/B.Jacobs/CLG/JacobsCoalgebraIntro.pdf)
+Two-thirds of a book in preparation; 
 
 Here are two blog discussions of coalgebra theory:
 
