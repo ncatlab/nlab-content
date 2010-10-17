@@ -1,4 +1,10 @@
+# Books in algebraic geometry
+
 We should limit to books which we can really recommend, either by their special content, approach or pedagogical value. Historically fine but outdated books are in a separate historical section below. The outstanding surveys may be added to the lists if they are not too specialized to minor directions: the subfields may be covered in separate lists. 
+
+* table of contents
+{: toc}
+
 
 ## Introductory level but excellent textbooks
 
@@ -6,6 +12,7 @@ We should limit to books which we can really recommend, either by their special 
 * Joe Harris, _Introductory algebraic geometry_ (varieties) 
 * Igor Shafarevich, _Basic algebraic geometry_ (varieties and schemes)
 * Shigeru Mukai, _An introduction to invariants and moduli_, Cambridge Studies in Adv. Math. __81__ 
+
 
 ## Schemes, standard sources
 
@@ -18,6 +25,7 @@ We should limit to books which we can really recommend, either by their special 
 * Ravi Vakil's Berkeley [course notes](http://math.stanford.edu/~vakil/0708-216)
 * William Fulton, _Intersection theory_, Springer 1984
 
+
 ## Grothendieck school sources
 
 * [[EGA]]
@@ -26,11 +34,13 @@ We should limit to books which we can really recommend, either by their special 
 * R. Hartshorne, _Residues and duality_
 * A. Grothendieck et al. _Dix exposes sur la cohomologie des schemas_, North Holland, Amsterdam, 1968.
 
+
 ## Complex-analytic approach
 
 * P. Griffiths, J. Harris, _Principles of algebraic geometry_
 * Phillip A. Griffiths, _Introduction to algebraic curves_
 * [[Daniel Huybrechts]], _Complex geometry - an introduction_, Springer (2004). Universitext. 309 pages.
+
 
 ## Background in commutative algebra
 
@@ -38,6 +48,7 @@ We should limit to books which we can really recommend, either by their special 
 * H. Matsumura, _Commutative algebra_, 2 vols.; see also the online summary notes by D. Murfet, [Matsumura.pdf](http://therisingsea.org/notes/Matsumura.pdf), [Matsumura-Part2.pdf](http://therisingsea.org/notes/Matsumura-Part2.pdf)
 * D. Eisenbud, _Commutative algebra: with a view toward algebraic geometry_, Grad. Texts in Math. 150, Springer-Verlag 1995. 
 * James Milne, _A primer of commutative algebra_, (online notes in progress) [webpage](http://www.jmilne.org/math/xnotes/ca.html), [pdf](http://www.jmilne.org/math/xnotes/CA.pdf)
+
 
 ## Algebraic groups/group schemes; Fourier-Mukai transform 
 
@@ -53,6 +64,7 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * [[Daniel Huybrechts]], _Fourier-Mukai transforms in algebraic geometry_, Oxford Mathematical Monographs. 2006. 307 pages.
 * Andr&#233; Weil, _Courbes alg&#233;briques et vari&#233;t&#233;s ab&#233;liennes_, Paris: Hermann 1971
 
+
 ## Arithmetic aspects
 
 * Goro Shimura, _Abelian varieties with complex multiplication and modular functions_, Princeton Univ. Press 1997
@@ -63,6 +75,7 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * J. H. Silverman, John Tate, _Rational Points on Elliptic Curves_, Springer 1992.
 * [[Gerd Faltings]], _Lectures on arithmetic Riemann-Roch theorem_, Annals of Math. Studies __127__, Princeton Univ. Press 1992
 
+
 ## Cohomology theories for schemes
 
 * J. Milne, _Etale cohomology_
@@ -70,6 +83,7 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * ...list basic literature on [[motive]]s 
 * [[Marc Levine]], _Mixed motives_, Math. Surveys and Monographs __57__, Amer. Math. Soc.  1998, free [pdf](http://www.ams.org/online_bks/surv57/surv57.pdf)
 * F. Hirzebruch, _Topological methods in algebraic geometry_
+
 
 ## Modern extensions of scheme theory
 
@@ -82,11 +96,13 @@ These are advanced books or long foundational expositions.
 * [[Nikolai Durov]], _A new approach to Arakelov geometry_, arxiv
 * something basic on log schemes, e.g. from Kato/Ogus/Olsson
 
+
 ## Algorithmic and computational methods
 
 Things like Groebner bases, combinatorical methods with toric varieties etc. 
 
 * David A. Cox, John B. Little, Don O'Shea, _Ideals, varieties, and algorithms_
+
 
 ## Historical but now outdated
 
@@ -95,4 +111,10 @@ While many of these fine books are still pleasure for some readers, they do not 
 * W. V. D. Hodge, Daniel Pedoe, _Methods of algebraic geometry_, 3 vols. (see review by Coxeter in Bull. Amer. Math. Soc. __55__, 3, part 1 (1949), 315-316, [euclid](http://projecteuclid.org/euclid.bams/1183513548))
 * F. Severi, Vol. I (1942): Serie, sistemi d'equivalenza e correspondenze algebriche sulle varieta algebriche. Vol. I I (1958) and I I I (1959): Geometria dei sistemi algebrici sopra una superficie e sopra una varieta algebrica.
 
+
+[[!redirects books in algebraic geometry]]
 [[!redirects book in algebraic geometry]]
+[[!redirects books on algebraic geometry]]
+[[!redirects book on algebraic geometry]]
+[[!redirects algebraic geometry books]]
+[[!redirects algebraic geometry book]]
