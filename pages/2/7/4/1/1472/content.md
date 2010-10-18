@@ -49,7 +49,7 @@ $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoid]]s. This contains
 
 * [[diffeological space]]s;
 
-* smooh [[path space]]s;
+* smooth [[path space]]s;
 
 In its [[Cahiers topos]]-version it contains also
 
