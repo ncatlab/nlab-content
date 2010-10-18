@@ -320,5 +320,3 @@
  
                                                                                               </g> 
 </svg> 
-
-[[!redirects Whitehead link]]
