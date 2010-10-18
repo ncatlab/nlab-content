@@ -45,7 +45,7 @@ In total this gives a quadruple of [[adjoint functor]]s
 
 A cohesive topos is a topos whose terminal [[geometric morphism]] admits an extenson to such a quadruple of adjoints, satisfying some further properties.
 
-Notice that the generic object in a cohesive topos is far from being just a set with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ has very few [[global element|points]] (possibly none, with the axioms so far). The [[subcategory]] of objects in $E$ that we do may think of as point sets equipped with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
+Notice that most objects in a cohesive topos are far from being just sets with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ has very few [[global element|points]] (possibly none, with the axioms so far). The [[subcategory]] of objects in $E$ that we may think of as point sets equipped with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
 
 $$
   Set 
@@ -66,14 +66,14 @@ $$
 
 from the points of $X$ to the set of connected pieces of $X$. Demanding this to be an [[epimorphism]] is demanding that _each piece has at least one point_ .
 
-Moreover, one can demand that the cohesive pieces of a product space are the products of the cohesive pieces of the factors. This is demanding that for all $S \in Set$ we have an [[isomorphism]]
+Moreover, one can demand that the cohesive pieces of product or power spaces are the products of the cohesive pieces of the factors.  For powers of a single space, this is demanding that for all $S \in Set$ the following canonical map is an [[isomorphism]]:
 
 $$
-  \Pi_0(X^S) \stackrel{\simeq}{\to} (\Pi_0(X))^S
+  \Pi_0(X^S) \xrightarrow{\simeq} (\Pi_0(X))^S
   \,.
 $$
 
-See the examples at [[cohesive site]] for concrete illustrations of these ideas.
+For more general products, it would be a similar map $\Pi_0(\prod_i X_i) \to \prod_i \Pi_0(X_i)$.  See the examples at [[cohesive site]] for concrete illustrations of these ideas.
 
 
 ## Definition
@@ -137,7 +137,7 @@ $$
 being a [[monomorphism]].
 
 
-We say **pieces of products are products of pieces** if for all $s \in S$ and $e \in E$ the natural morphism
+We say **pieces of powers are powers of pieces** if for all $s \in S$ and $e \in E$ the natural morphism
 
 $$
   f_! (e^{f^* s}) \stackrel{\simeq}{\to} (f_!(e))^s
@@ -196,7 +196,7 @@ The definition of a category of cohesion was proposed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 
-This demands the conditions that "cohesive piece have points" and "pieces of products are products of pieces" as part of the definition of "category of cohesion".
+This demands the conditions that "cohesive piece have points" and "pieces of powers are powers of pieces" as part of the definition of "category of cohesion".
 
 The observation that $Sh(CartSp)$ is a [[local topos]] and that this serves to characterize [[diffeological space]]s was amplified by [[David Carchedi]].
 
