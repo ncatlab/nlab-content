@@ -128,7 +128,7 @@ $$
   \,.
 $$
 
-In some applications it is, however, inconvenient to to produce a projectively cofbrant  replacement of a colimit diagram. There is another formula that produces an quivalent result: let $Q'_{proj}$ a cofibrant replacement functor for $[D^{op}, sSet_{Quillen}]_{proj}$ (notice the [[opposite category]]) and $Q_{inj}$ one for $[D,C]_{inj}$. Let $* \in [D^op,sSet]$ [[simplicial presheaf]] constant on the terminal simplicial set and $Q'_{proj}(')$ its projective cofibrant replacement. 
+In some applications it is, however, inconvenient to to produce a projectively cofbrant  replacement of a colimit diagram. There is another formula that produces an equivalent result: let $Q'_{proj}$ a cofibrant replacement functor for $[D^{op}, sSet_{Quillen}]_{proj}$ (notice the [[opposite category]]) and $Q_{inj}$ one for $[D,C]_{inj}$. Let $* \in [D^op,sSet]$ [[simplicial presheaf]] constant on the terminal simplicial set and $Q'_{proj}(')$ its projective cofibrant replacement. 
 
 Then we also have the [[coend]] expression
 
@@ -140,7 +140,16 @@ $$
 
 where in the integrand we have the [[copower|tensoring]] of the [[simplicial model category]] $C$ over [[sSet]]. 
 
-This formula is often called the **Bousfield-Kan formula** (see also [[Bousfield-Kan map]]). The coend is a [[weighted limit]] and this formula for the plain homotopy colimit can be understood the left derived _weighted_ colimit which trivial weight (the underived weight is trivial, but becomes non-trivial after derivation -- this extra complexity helps reduce the complexity for the replacement for the functor $F$ itself).
+If $D$ happens to be a [[Reedy model category]] we can equivalently use in this expression also the [[Reedy model structure]]s $[D,C]_{Reedy}$ and $[D^{op}, C]_{Reedy}$ and obtain the homotopy colimit as
+
+$$
+  hocolim F \simeq \int^{D}
+  Q'_{Reedy}(*) \cdot Q_{Reedy}(F)
+  \,,
+$$
+
+
+This formula is sometimes called the **Bousfield-Kan formula** (see also [[Bousfield-Kan map]]). The coend is a [[weighted limit]] and this formula for the plain homotopy colimit can be understood the left derived _weighted_ colimit which trivial weight (the underived weight is trivial, but becomes non-trivial after derivation -- this extra complexity helps reduce the complexity for the replacement for the functor $F$ itself).
 
 In detail, let $V$ be a [[monoidal model category]] and $C$ a $V$-[[enriched model category]] (for instance $V = sSet_{Quillen}$ as in the above discussion). Let $D$ be a small $V$-[[enriched category]]. Then for a any given [[weighted limit|weight]]
 
@@ -685,6 +694,117 @@ This example, too, is important at [[geometric function theory]].
 
 * see the homotopy span traces discussed at 
   [[span trace]] for more examples of homotopy pullbacks
+
+
+### Homotopy colimits over simplicial diagrams {#OverSimplicialDiagrams}
+
++-- {: .un_prop}
+###### Proposition
+
+Every [[simplicial set]] is the homotopy colimit over its cells.
+
+Precisely: for $X \in $ [[sSet]] a [[simplicial set]], let 
+
+$$
+  \tilde X : \Delta^{op} \to Set \hookrightarrow sSet
+$$
+
+be the corresponding [[bisimplicial set]] which in degree $k$ is the the constant simplicial set on the set $X_k$ of $k$-simplices. 
+
+For the standard homotopical structure on $sSet^{\Delta^{op}}$, the homotopy colimit over $\tilde X$ is equivalent to the origianal $X$:
+
+$$
+  hocolim \tilde X \stackrel{\simeq}{\to} X
+$$
+
+in the standard [[model structure on simplicial sets]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the [[Reedy model structure]] $[\Delta^{op}, sSet_{Quillen}]_{Reedy}$. With the coend recipe for the hocolim discussed above, it follows that the hocolim is the [[coend]]
+
+$$
+  \int^{[k] \in \Delta} Q'_{Reedy}(*) \times Q_{Reedy}(\tilde X)
+  \,,
+$$
+
+where $Q'_{Reedy}(\cdots)$ is a cofibrant resolution in the Reedy model structure $[\Delta,sSet_{Quillen}]_{Reedy}$ and $Q_{Reedy}(...)$ in $[\Delta^{op}, sSet_{Quillen}]_{Reedy}$. But by the discussion at <a href="http://ncatlab.org/nlab/show/Reedy+model+structure#SimplexCategory">Reedy model structure -- simplex category</a> we have that
+
+* $\tilde X$ is always cofibrant in $[\Delta^{op},sSet_{Quillen}]_{Reedy}$;
+
+* a cofibrant resolution of the point in $[\Delta, sSet_{Quillen}]_{Reedy}$ iss given by $\Delta[-] : \Delta \to sSet$.
+
+It follows that the hocolim is given by 
+
+$$
+  \int^{[k] \in \Delta} \Delta[k] \times X_k
+  \,.
+$$
+
+By the [[co-Yoneda lemma]] this is [[isomorphic]] to $X$.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+This kind of argument has many immediate generalizations. For instance for $C = [K^{op}, sSet_{Quillen}]_{inj}$ the injective [[model structure on simplicial presheaves]] over any small category $K$, or any of its left [[Bousfield localization of model categories|Bousfield localizations]], we have that the cofibrations are objectwise those of simplicial sets, hence objectwise monomorphisms, hence it follows that every simplicial presheaf $X$ is the hocolim over its simplicial diagram of component presheaves.
+
+=--
+
+For the following write $\mathbf{\Delta} : \Delta \to sSet$ for the [[fat simplex]].  
+
++-- {: .un_prop}
+###### Observation
+
+The fat simplex is Reedy cofibrant.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[homotopy colimit]], the fat simplex is cofibrant in the projective [[model structure on functors]] $[\Delta, sSet_{Quillen}]_{proj}$. By the [general properties](#Properties) of Reedy model structures, the identity functor $[\Delta, sSet_{Quillen}]_{proj} \to [\Delta, sSet_{Quillen}]_{Reedy}$ is a [[Quillen adjunction|left Quillen functor]], hence preserves cofibrant objects.
+
+=--
+
+
++-- {: .un_prop}
+###### Corollary
+
+For $X \in [\Delta^{op}, C]$ a Reedy cofibrant object, the [[Bousfield-Kan map]]
+
+$$
+  \int^{[n]} \mathbf{\Delta}[n] \cdot X_n
+  \to
+  \int^{[n]} \Delta[n] \cdot X_n  
+$$
+
+is a weak equivalence in $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[coend]] over the [[copower|tensor]] is a left [[Quillen bifunctor]]
+
+$$
+  \int (-)\cdot (-) : [\Delta,sSet_{Quillen}]_{Reedy} \times
+    [\Delta^{op}, C]_{Reedy}
+$$
+
+(as discussed there). Therefore with its second argument fixed and cofibrant it is a [[Quillen adjunction|left Quillen functor]] in the remaining argument. As such, it preserves weak equivalences between cofibrant objects (by the [[factorization lemma]]). By the above discussion, both $\mathbf{\Delta}[n]$ and $\Delta[-]$ are indeed cofibrant in $[\Delta,sSet_{Quillen}]_{Reedy}$. Clearly the functor $\mathbf{\Delta}[-] \to \Delta[-]$ is objectwise a weak equivalence in $sSet_{Quillen}$, hence is a weak equivalence.
+
+=--
+
+
+
 
 ### Descent objects
 
