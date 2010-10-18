@@ -30,6 +30,11 @@ where $S$ is a [[set]] and $|U|$ is the [[set]] $|U| := Hom_C({*}, U)$ of points
 
 ## Definition
 
+We discuss two definitions: the first one is more elementary and describes concrete sheaves explicitly in terms of properties of the underlying [[site]]. 
+
+The second one is more abstract and more general, and describes them entirely [[topos theory|topos theoretically]].
+
+### On a concrete site
 
 +-- {: .un_def}
 ###### Definition
@@ -48,88 +53,143 @@ A **[[concrete site]]** is a [[site]] $C$ with a [[terminal object]] $*$ such th
 
 =--
 
-For $F \in PSh(C)$ any [[presheaf]], write
+For $X \in PSh(C)$ any [[presheaf]], write
 
 $$
-  \tilde F_U : F(U) \to Hom_{Set}(Hom_C(*,U), F(*)) 
+  \tilde X_U : X(U) \to Hom_{Set}(Hom_C(*,U), X(*)) 
 $$
 
 for the [[adjunct]] of the restriction map
 
 $$
-  F(U) \times Hom_C(*,U) \to F(*)
+  X(U) \times Hom_C(*,U) \to X(*)
   \,,
 $$
 
 which in turn is the adjunct of the component map of the functor
 
 $$
-  F_{*,U} . Hom_C(*,U) \to Hom_{Set}(F(U), F(*))
+  X_{*,U} . Hom_C(*,U) \to Hom_{Set}(X(U), X(*))
   \,.
 $$
+
+{#ConcSheafOnConcSite}
++-- {: .un_def}
+###### Definition
+
+A [[presheaf]] $X : C^{op} \to Set$ on a [[concrete site]] is a **concrete presheaf** if for each $U \in C$ the map $\tilde X_U : X(U) \to Hom_{Set}(Hom_C(*,U), X(*))$ is [[injective]].
+
+A **concrete sheaf** is a presheaf that is both concrete and a [[sheaf]].
+
+=--
+
+So a concrete presheaf $X$ is a [[subobject]] of the presheaf $U \mapsto Hom_{Set}(Hom_C(*,U), X(*))$.
+
+Write $Conc(Sh(C)) \hookrightarrow Sh(C)$ for the [[full subcategory]] of the [[category of sheaves]] on concrete sheaves.
+
+
+
+
+### In a local topos
+
+A more abstract perspective on the [previous definition](#ConcSheafOnConcSite) is obtained by noticing the following.
+
++-- {: .un_lemma}
+###### Lemma
+
+The [[category of sheaves]] on a [[concrete site]] is a [[local topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Taking $U=*$ in the second condition defining a concrete site implies that any [[covering]] family of $*$ contains a [[split epimorphism]], or equivalently that the only covering [[sieve]] of $*$ is the maximal sieve consisting of all morphisms with [[target]] $*$.  This means that a concrete site is in particular a [[local site]], which implies that its topos of sheaves is a [[local topos]].
+
+=--
+
+In fact, we can formulate the definition of concrete sheaf inside any [[local topos]] $E$ over any base topos $S$:
 
 +-- {: .un_def}
 ###### Definition
 
-A [[presheaf]] $F : C^{op} \to Set$ on a [[concrete site]] is a **concrete presheaf** if for each $U \in C$ the map $\tilde F_U : F(U) \to Hom_{Set}(Hom_C(*,U), F(*))$ is [[injective]].
+Let 
+
+$$(Disc \dashv \Gamma \dashv Codisc) : E \stackrel{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}{\underset{Codisc}{\leftarrow}} S$$
+
+be a [[local topos]]. Since then by definition $S \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}} E$ is a [[subtopos]] the morphisms $V = \Gamma^{-1}(isos(S)) \subset Mor E$ that are inverted by $\Gamma$ are the [[local isomorphism]]s with respect to which the objects of $S$ are [[sheaves]]/$V$-[[local object]]s in $E$.
+
+The **concrete sheaves** are the objects of $E$ that are the $V$-[[separated presheaf|separated objects]]. 
+
 
 =--
-
-So a concrete presheaf $F$ is a [[subobject]] of the presheaf $U \mapsto Hom_{Set}(Hom_C(*,U), F(*))$.
-
-Write $ConPSh(C) \hookrightarrow PSh(C)$ for the [[full subcategory]] on concrete presheaves.
-
-
-## Properties
-
 
 +-- {: .un_prop}
 ###### Proposition
 
-The category of concrete presheaves $ConPSh(C) \hookrightarrow PSh(C)$ is a [[reflective subcategory]] of the [[category of presheaves]].
+For $E = Sh(C) \stackrel{\Gamma = Hom(*,-)}{\to} Set$ the [[category of sheaves]] on a [[concrete site]], this is equivalent to the 
+[previous definition](#ConcSheafOnConcSite).
 
-The [[left adjoint]] functor $conc$ -- **concretization** --
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $C$ is concrete, in the [[global sections]] [[geometric morphism]] $(L Const,\Gamma)\colon Sh(C) \to Set$, the [[direct image]] $\Gamma$ is evaluation on the point: $X\mapsto X(*)$. The further [[right adjoint]] $Codisc \colon Set\to Sh(C)$, sends a set $A$ to the functor $U\mapsto Hom_{Set}(Hom_C(*,U),A)$.  Moreover, this right adjoint $Codisc$ is [[full and faithful functor|fully faithful]] and thus embeds $Set$ as a [[subtopos]] of $Sh(C)$.  
+
+We observe that $ (Gamma \dashv Codisc) : Sh(C) \to Set$ is the [[localization]] of $Sh(C)$ at the set $\{L Const \Gamma U \to U | U \in C\}$ of counits of the adjunction $(L Const \dashv \Gamma)$ on representables: because if for $X \in Sh(C)$ we have that
 
 $$
-  ConPSh(C) \stackrel{\overset{conc}{\leftarrow}}{\hookrightarrow} PSh(C)
+  \begin{aligned}
+     Hom_{Sh(C)}(L Const \Gamma U \to U, X) 
+     & = (X(U) \to Hom_{Set}(\Gamma(U), \Gamma(X)))
+     \\
+     & = (X(U) \to Hom_{Set}(Hom_C(*,U)), X(*))
+  \end{aligned}
 $$
 
-sends a presheaf $F$ to the [[image]] sheaf
+is an [[isomorphism]], then clearly $X = Codisc(X(*))$.
+
+On the other hand, comparison with the [previous definition](#ConcSheafOnConcSite) shows that this is a [[monomorphism]] precisely if $X$ is a concrete sheaf.
+
+
+=--
+
+
+
+
+So the concrete sheaves on $C$ are precisely the [[separated presheaf|separated objects]] for this [[Lawvere-Tierney topology]] on $Sh(C)$ that corresponds to the subtopos $Codisc : S \hookrightarrow Sh(C)$.  
+
+
+
+## Properties
+
+Let $\Gamma : E \to S$ be a [[local topos]]. From the definition of concrete sheaves as [[separated presheaves]] it follows immediately that
+
++-- {: .un_prop}
+###### Proposition
+
+The category of concrete sheaves $Conc_\Gamma(E)$ forms a [[reflective subcategory]] of $E$
 
 $$
-  conc F : U \mapsto Im(\tilde F_U : F(U) \to Hom_{Set}(Hom_C(*,U), F(*)))
+  S 
+   \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+  Conc_\Gamma(E) 
+    \stackrel{\overset{Conc}{\leftarrow}}{\hookrightarrow}
+  E
+$$
+
+which is a [[quasitopos]]. 
+
+The left adjoint $Conc$ is **concretization** which sends a sheaf $X$ to the [[image]] sheaf
+
+$$
+  Conc X : U \mapsto Im(X(U) \to Hom_{Set}(Hom_C(*,U), X(*)))
   \,.
 $$
 
 =--
 
-
-
-Recall that the [[category of sheaves]] $Sh(C)$ on $C$ is a [[topos]] (a [[Grothendieck topos]]).
-
-
-+-- {: .un_prop}
-###### Proposition
-
-
-The [[full subcategory]]
-
-$$
-  ConSh(C) \hookrightarrow Sh(C)
-$$
-
-on concrete sheaves is a [[quasitopos]].
-
-=--
-
-
-### A more abstract perspective
-
-Note that taking $U=*$ in the second condition defining a concrete site implies that any covering family of $*$ contains a [[split epimorphism]], or equivalently that the only covering [[sieve]] of $*$ is the maximal sieve consisting of all morphisms with [[target]] $*$.  This means that a concrete site is in particular a [[local site]], which implies that its topos of sheaves is a [[local topos]].
-
-Therefore, in the [[global sections]] [[geometric morphism]] $(L Const,\Gamma)\colon Sh(C) \to Set$, the right adjoint $\Gamma$ (which is just $F\mapsto F(*)$) has a further right adjoint $Ctr\colon Set\to Sh(C)$, which sends a set $A$ to the functor $U\mapsto Hom_{Set}(Hom(*,U),A)$.  Moreover, this right adjoint $Ctr$ is fully faithful and thus embeds $Set$ as a [[subtopos]] of $Sh(C)$.  The composite $Ctr \circ \Gamma$ which maps a sheaf $F$ to the sheaf $U\mapsto Hom_{Set}(Hom_C(*,U),F(*))$ is the [[reflector]] corresponding to this subtopos, and also has a corresponding [[Lawvere-Tierney topology]] on $Sh(C)$.
-
-The concrete sheaves on $C$ are precisely the [[separated presheaf|separated objects]] for this Lawvere-Tierney topology on $Sh(C)$.  In particular, this implies immediately that they are reflective, with the reflector constructed as above, and that they form a [[quasitopos]].
 
 
 ## Examples
