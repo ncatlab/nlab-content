@@ -504,7 +504,9 @@ By the above propositions we have that $\Gamma$ is both a left as well as a righ
 +-- {: .un_prop}
 ###### Proposition
 
-For $S \in \infty Grpd$ the natural morphisms
+If the site $C$ has the property that for all $U \in C$ $\Gamma(U)$ is not empty, then:
+
+for $S \in \infty Grpd$ the natural morphisms
 
 $$
   Disc S \to Codisc S
