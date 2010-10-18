@@ -117,9 +117,9 @@ Let
 
 $$(Disc \dashv \Gamma \dashv Codisc) : E \stackrel{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}{\underset{Codisc}{\leftarrow}} S$$
 
-be a [[local topos]]. Since then by definition $S \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}} E$ is a [[subtopos]] the morphisms $V = \Gamma^{-1}(isos(S)) \subset Mor E$ that are inverted by $\Gamma$ are the [[local isomorphism]]s with respect to which the objects of $S$ are [[sheaves]]/$V$-[[local object]]s in $E$.
+be a [[local geometric morphism]]. Since then by definition $S \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}} E$ is a [[subtopos]] the morphisms $V = \Gamma^{-1}(isos(S)) \subset Mor E$ that are inverted by $\Gamma$ are the [[local isomorphism]]s with respect to which the objects of $S$ are [[sheaves]]/$V$-[[local object]]s in $E$.
 
-The **concrete sheaves** are the objects of $E$ that are the $V$-[[separated presheaf|separated objects]]. 
+The **concrete sheaves** are the objects of $E$ that are the $V$-[[separated objects]].
 
 
 =--
@@ -150,8 +150,7 @@ $$
 
 is an [[isomorphism]], then clearly $X = Codisc(X(*))$.
 
-On the other hand, comparison with the [previous definition](#ConcSheafOnConcSite) shows that this is a [[monomorphism]] precisely if $X$ is a concrete sheaf.
-
+On the other hand, comparison with the [previous definition](#ConcSheafOnConcSite) shows that this is a [[monomorphism]] precisely if $X$ is a concrete sheaf.  But this is also the definition of a separated object.
 
 =--
 
