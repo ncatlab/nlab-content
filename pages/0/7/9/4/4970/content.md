@@ -163,10 +163,4 @@
                                                 </g> 
 </svg> 
 
-[[!redirects figure 8 knot]]
-[[!redirects Figure 8 knot]]
-[[!redirects Figure 8 Knot]]
 [[!redirects figure eight knot - SVG]]
-[[!redirects figure eight knot]]
-[[!redirects Figure eight knot]]
-[[!redirects Figure eight Knot]]
