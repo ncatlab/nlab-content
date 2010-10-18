@@ -1,16 +1,32 @@
-Let $M$ be an $n$-dimensional topological [[manifold]]. The decomposition of $M$ as a disjoint union of connected subsets $V_\alpha$, called **leaves**, 
+
+#Contents#
+* table of contents
+{:toc} 
+
+
+## Definition
+
+Let $M$ be an $n$-[[dimension]]al topological [[manifold]]. The decomposition of $M$ as a disjoint union of connected subsets $V_\alpha$, called **leaves**, 
 
 $$ M  = \cup_\alpha V_\alpha $$
 
 is called a **foliation** if there is a cover of $M$ by a collection of "special" charts of the form $(U, \phi)$, $\phi = (\phi_1,\ldots,\phi_n) : U \to \mathbb{R}^n$ such that for each "special" chart and each $\alpha$ there is a number $p = p\leq n$, called the dimension of the foliation, such that the intersection of any given leaf $V_\alpha$ with $U$ is one of the level sets, i.e. the solution of the system $\phi_r(x) = const = const(r,U,\alpha)$ for all $r\gt p$.
 
-If the manifold is smooth, the charts are required to be smooth too. In smooth case, the $p$-dimensional foliations with underlying manifold $M$ are in 1-1 correspondence with [[integrable distributions]] of hyperplanes of dimension $p$ in tangent bundle of $N$. 
+If the manifold is a [[smooth manifold]], the charts are required to be smooth too. In the smooth case, the $p$-dimensional foliations with underlying manifold $M$ are in 1-1 correspondence with [[integrable distributions]] of hyperplanes of dimension $p$ in tangent bundle of $N$. 
  
-Every [[Poisson manifold]] has a canonical structure of a foliation whose leaves are its maximal [[symplectic manifold|symplectic]] submanifolds, called *symplectic leaves*.
+## Examples
 
-The set of components of a foliation is typically non-[[Hausdorff space|Hausdorff]], what is one of the motivations of the [[Alain Connes|Connes]]-style [[noncommutative geometry]]. 
+* Every [[Lie groupoid]] gives a folitation on its space of [[object]]s: the leaves are the [[orbit]]s. Conversely, every regular foliation gives rise to its [[holonomy groupoid]]. This is a (not necessarily Hausdorff) Lie groupoid whose orbits are the leaves of the original foliation, and which in some sense is minimal with this condition.
 
-There is a theory of characteristic classes for foliations. A most well known example is the Godbillon-Vey characteristic class. 
+* Every [[Poisson manifold]] has a canonical structure of a foliation whose leaves are its maximal [[symplectic manifold|symplectic]] submanifolds, called *symplectic leaves*.
+
+## Properties
+
+The set of components of a foliation is typically non-[[Hausdorff space|Hausdorff]], which is one of the motivations of the [[Alain Connes|Connes]]-style [[noncommutative geometry]]. 
+
+There is a theory of [[characteristic class]]es for foliations. A most well known example is the Godbillon-Vey characteristic class. 
+
+## References
 
 * &#1044;. &#1041;. &#1060;&#1091;&#1082;&#1089;, _&#1057;&#1083;&#1086;&#1077;&#1085;&#1080;&#1103;_, &#1048;&#1090;&#1086;&#1075;&#1080; &#1085;&#1072;&#1091;&#1082;&#1080; &#1080; &#1090;&#1077;&#1093;&#1085;. &#1057;&#1077;&#1088;. &#1040;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;. &#1058;&#1086;&#1087;&#1086;&#1083;. &#1043;&#1077;&#1086;&#1084;., 1981,  &#1090;&#1086;&#1084; __18__, &#1089;&#1090;&#1088;. 151&#8211;-213, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=inta&paperid=93&what=fullt&option_lang=rus)
 
