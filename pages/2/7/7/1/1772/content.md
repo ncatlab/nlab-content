@@ -79,6 +79,7 @@ So a concrete presheaf $F$ is a [[subobject]] of the presheaf $U \mapsto Hom_{Se
 
 Write $ConPSh(C) \hookrightarrow PSh(C)$ for the [[full subcategory]] on concrete presheaves.
 
+
 ## Properties
 
 
@@ -120,6 +121,15 @@ $$
 on concrete sheaves is a [[quasitopos]].
 
 =--
+
+
+### A more abstract perspective
+
+Note that taking $U=*$ in the second condition defining a concrete site implies that any covering family of $*$ contains a [[split epimorphism]], or equivalently that the only covering [[sieve]] of $*$ is the maximal sieve consisting of all morphisms with [[target]] $*$.  This means that a concrete site is in particular a [[local site]], which implies that its topos of sheaves is a [[local topos]].
+
+Therefore, in the [[global sections]] [[geometric morphism]] $(L Const,\Gamma)\colon Sh(C) \to Set$, the right adjoint $\Gamma$ (which is just $F\mapsto F(*)$) has a further right adjoint $Ctr\colon Set\to Sh(C)$, which sends a set $A$ to the functor $U\mapsto Hom_{Set}(Hom(*,U),A)$.  Moreover, this right adjoint $Ctr$ is fully faithful and thus embeds $Set$ as a [[subtopos]] of $Sh(C)$.  The composite $Ctr \circ \Gamma$ which maps a sheaf $F$ to the sheaf $U\mapsto Hom_{Set}(Hom_C(*,U),F(*))$ is the [[reflector]] corresponding to this subtopos, and also has a corresponding [[Lawvere-Tierney topology]] on $Sh(C)$.
+
+The concrete sheaves on $C$ are precisely the [[separated presheaf|separated objects]] for this Lawvere-Tierney topology on $Sh(C)$.  In particular, this implies immediately that they are reflective, with the reflector constructed as above, and that they form a [[quasitopos]].
 
 
 ## Examples
