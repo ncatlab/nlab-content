@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -5,6 +17,10 @@
 ## Idea
 
 The generalization of the notion of [[monomorphism]] from [[category theory]] to [[(∞,1)-category]] theory.
+
+The dual concept is that of an [[epimorphism in an (∞,1)-category]].
+
+There is also the concept [[regular monomorphism in an (∞,1)-category]], but beware that this need not be a special case of the definition given here.
 
 ## Definition
 
@@ -24,7 +40,7 @@ $$
   C(X,f) : C(X,Y) \to C(X,Z)
 $$
 
-of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $C(X,Y)$ as a factor in a  [[coproduct]] decomposition of $C(X,Z)$.
+of [[∞-groupoid]]s is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $C(X,Y)$ as a direct summand in a  [[coproduct]] decomposition of $C(X,Z)$.
 
 So if $C(X,Y) = \coprod_i C(X,Y)_{i \in \pi_0(C(X,Y))}$ and $C(X,Z) = \coprod_{j \in \pi_0((C(X,Z))} C(X,Z)_j$ is the decomposition into connected components, then there is an injective function
 
