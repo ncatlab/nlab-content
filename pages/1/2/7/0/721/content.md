@@ -77,10 +77,10 @@ An example of a coverage that is not a pretopology is the coverage of [[good ope
 
 ## References
 
-The defnition appears for instance as definition 2 on page 111 of
+The definition appears for instance as definition 2 on page 111 of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
-
+* MO questions: [example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition](http://mathoverflow.net/questions/42437/example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition)
 
 [[!redirects Grothendieck pretopologies]]
 
