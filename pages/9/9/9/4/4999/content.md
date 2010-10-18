@@ -41,7 +41,8 @@ A **logic** in $\mathcal{L}_\omega(n)$ is any set $\Lambda$ of $\mathcal{L}_\ome
 
 * $\Lambda$ includes all $\mathcal{L}_\omega(n)$-formulae that are instances of tautologies, 
  
-and   
+and
+
 * $\Lambda$ is closed under the inference rule 
 _if $\phi$, $\phi\to \psi \in \Lambda$ then $\psi \in \Lambda$_ , i.e. detachment or __modus ponens__.
 
@@ -49,7 +50,7 @@ The logic is **uniform** if it is closed under the rule of uniform substitution 
   
 (K)  $\Diamond_i(\psi \vee \chi) \to \Diamond_i(\psi)\vee \Diamond_i(\chi)$  
   
-(N) $\neg \Diamond_i(\bot)$\\  
+(N) $\neg \Diamond_i(\bot)$
 
 and monotonicity (for each $i$):
  
