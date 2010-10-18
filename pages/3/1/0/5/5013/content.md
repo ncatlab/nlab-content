@@ -40,7 +40,7 @@ This is due to [McCord](#McCord).
 
 A survey is in 
 
-* Jonathan A. Barmak, _Topolog&#180;&#305;a Algebraica de Espacios Topol&#180;ogicos Finitos y Aplicaciones_ ([pdf](http://www.math.kth.se/~jbarmak/tesisfinal2.pdf))
+* Jonathan A. Barmak, _Topolog&#237;a Algebraica de Espacios Topol&#243;gicos Finitos y Aplicaciones_ ([pdf](http://www.math.kth.se/~jbarmak/tesisfinal2.pdf))
 
 The original results by McCord are in
 
