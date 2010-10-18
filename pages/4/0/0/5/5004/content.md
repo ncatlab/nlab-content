@@ -1,3 +1,4 @@
+[[!redirects relational structures]]
 
 #Contents#
 * table of contents
@@ -16,4 +17,6 @@ In their use in the Kripke semantics of [[modal logics]], the set $W$ is sometim
 
 ## Examples## 
 
-1.  [[partial order|poset]].
+1.  [[partial order|poset]], $(W;\leq)$.
+
+1. [[transition system]], $(S; \{R_e\mid e\in E\})$, (see discussion on the transition system's page).
