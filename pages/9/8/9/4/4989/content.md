@@ -86,7 +86,7 @@ This matches the interpretation we just found: $Disc K$ is the collection of ele
 
 What is not true in this example is that $Disc K \to Codisc K$ is a monomorphism.
 
-In particular, notice that the fibers $S_i$ may be empty.
+In particular, notice that the fibers $S_i$ may be empty. This is notably the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ represented by $\emptyset$.
 
 
 
