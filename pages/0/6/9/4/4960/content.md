@@ -31,12 +31,12 @@ $$
 
 send a set $S$ either to the [[discrete space]] $Disc(S)$ with _discrete_ cohesive structure (for instance with [[discrete topology]]) or to the [[codiscrete space]] $Codisc(S)$ with the _codiscrete_ cohesive structure (for instance with [[codiscrete topology]]) .
 
-Moreover, the idea is that cohesion makes points lump together to _connected pieces_ . This is modeled by one more functor $\Pi : E \to Set$ [[left adjoint]] to $Disc$. In the context of 1-[[topos theory]] this sends a cohesive space to its [[connected topos|connected components]] $(\Pi = \pi_0)$. More generally in an [[(n,1)-topos]]-theory context, $\Pi$ sends a cohesive space $X$ to the $(n-1)$-[[truncated|truncation]] of its [[geometric homotopy groups in an (∞,1)-topos|geometric fundamental ∞-groupoid]] $\Pi(X)$. See [[cohesive (∞,1)-topos]].
+Moreover, the idea is that cohesion makes points lump together to _connected pieces_ . This is modeled by one more functor $\Pi_0 : E \to Set$ [[left adjoint]] to $Disc$. In the context of 1-[[topos theory]] this sends a cohesive space to its [[connected topos|connected components]] $(\Pi = \pi_0)$. More generally in an [[(n,1)-topos]]-theory context, $\Pi$ sends a cohesive space $X$ to the $(n-1)$-[[truncated|truncation]] of its [[geometric homotopy groups in an (∞,1)-topos|geometric fundamental ∞-groupoid]] $\Pi(X)$. See [[cohesive (∞,1)-topos]].
 
 In total this gives a quadruple of [[adjoint functor]]s
 
    $$
-    (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
+    (\Pi_0 \dashv Disc \dashv \Gamma \dashv Codisc) : 
     E
      \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
     Set
@@ -45,7 +45,7 @@ In total this gives a quadruple of [[adjoint functor]]s
 
 A cohesive topos is a topos whose terminal [[geometric morphism]] admits an extenson to such a quadruple of adjoints, satisfying some further properties.
 
-Notice that the generic object in a cohesive topos is far from being just a set with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that neverthesee $\Gamma(X)$ is the singleton set. The [[subcategory]] of objects in $E$ that we do may think of as bare sets with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
+Notice that the generic object in a cohesive topos is far from being just a set with extra structure: while the functor $\Gamma$ does produce the set of points underlying an object $X$ in the cohesive topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ has very few [[global element|points]] (possibly none, with the axioms so far). The [[subcategory]] of objects in $E$ that we do may think of as point sets equipped with extra structure is the [[quasitopos]] $Conc_\Gamma(E)$ of the [[concrete sheaves]] inside $E$
 
 $$
   Set 
@@ -57,6 +57,24 @@ $$
 $$
 
 It is the fact that $E$ is a [[local topos]] that allows to identify $Conc_\Gamma(E)$.
+
+To ensure that there is a minimum of points, one can add further axioms. From the above adjunctions one gets a canonical natural morphism
+
+$$
+  \Gamma X \to \Pi_0 X
+$$
+
+from the points of $X$ to the set of connected pieces of $X$. Demanding this to be an [[epimorphism]] is demanding that _each piece has at least one point_ .
+
+Moreover, one can demand that the cohesive pieces of a product space are the products of the cohesive pieces of the factors. This is demanding that for all $S \in Set$ we have an [[isomorphism]]
+
+$$
+  \Pi_0(X^S) \stackrel{\simeq}{\to} (\Pi_0(X))^S
+  \,.
+$$
+
+See the examples at [[cohesive site]] for concrete illustrations of these ideas.
+
 
 ## Definition
 
@@ -71,7 +89,7 @@ $$
   S
 $$
 
-is **cohesive** or  **a topos of cohesion** if it has the following [[stuff, structure, property|properties]]:
+is **cohesive** if it has the following [[stuff, structure, property|properties]]:
 
 *  it is _local_ and _connected_ in the following sense:
 
@@ -96,50 +114,49 @@ is **cohesive** or  **a topos of cohesion** if it has the following [[stuff, str
    Note that $f$ being local implies, in particular, that $S \stackrel{f^!}{\hookrightarrow} E$ is a [[subtopos]]: $f^!$ is a [[full and faithful functor]];
 
 
-In addition one may ask that
+We say **cohesive pieces have points** in $E$ if the [[natural transformation]]
 
-1. the [[natural transformation]]
+$$
+  f_*  
+    \stackrel{\simeq}{\to} 
+  f_* ( f^*  f_* )
+    \stackrel{}{\to}
+  f_* ( Id ) 
+    \stackrel{}{\to}
+  f_*( f^* f_! )
+    \stackrel{\simeq}{\to}
+  f_!
+$$
 
-   $$
-     f_*  
-       \stackrel{\simeq}{\to} 
-     f_* ( f^*  f_* )
-       \stackrel{}{\to}
-     f_* ( Id ) 
-       \stackrel{}{\to}
-     f_*( f^* f_! )
-       \stackrel{\simeq}{\to}
-     f_!
-   $$
+is an [[epimorphism]]. This is equivalent to the transformation
 
-   is an [[epimorphism]], equivalently the transformation
+$$
+  f^* \to f^!
+$$
 
-   $$
-     f^* \to f^!
-   $$
-
-   is a [[monomorphism]].
+being a [[monomorphism]].
 
 
-1. $f_!$ is "continuous" in that for all $s \in S$ and $e \in E$ the natural morphism
+We say **pieces of products are products of pieces** if for all $s \in S$ and $e \in E$ the natural morphism
 
-   $$
-     f_! (e^{f^* s}) \stackrel{\simeq}{\to} (f_!(e))^s
-   $$
+$$
+  f_! (e^{f^* s}) \stackrel{\simeq}{\to} (f_!(e))^s
+$$
 
-   is an [[isomorphism]]
+is an [[isomorphism]]
 
-   (this morphism is the [[internal hom]]-[[adjunct]] of 
-   $
-     s \times f_!(e^{f^* s}) 
-      \stackrel{\simeq}{\to}
-     f_!f^*(s) \times f_!(e^{f^* s})
-      \stackrel{\simeq}{\to}
-     f_!(f^*(s) \times e^{f^* s})
-     \to
-     f_!(e)
-   $
-   where we use that by definition $f^*$ is full and faithful and then that $f_!$ preserves products); 
+(this morphism is the [[internal hom]]-[[adjunct]] of 
+$
+  s \times f_!(e^{f^* s}) 
+   \stackrel{\simeq}{\to}
+  f_!f^*(s) \times f_!(e^{f^* s})
+   \stackrel{\simeq}{\to}
+  f_!(f^*(s) \times e^{f^* s})
+  \to
+  f_!(e)
+$
+
+where we use that by definition $f^*$ is full and faithful and then that $f_!$ preserves products).
 
 =--
 
@@ -178,6 +195,8 @@ This includes...
 The definition of a category of cohesion was proposed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+
+This demands the conditions that "cohesive piece have points" and "pieces of products are products of pieces" as part of the definition of "category of cohesion".
 
 The observation that $Sh(CartSp)$ is a [[local topos]] and that this serves to characterize [[diffeological space]]s was amplified by [[David Carchedi]].
 
