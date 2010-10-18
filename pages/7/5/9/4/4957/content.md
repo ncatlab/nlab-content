@@ -41,14 +41,41 @@ A **local geometric morphism** $f : E \to S$ between [[topos]]es $E,S$ is
    1. The right adjoint $f^!$ is fully faithful.
    1. The right adjoint $f^!$ is [[cartesian closed functor|cartesian closed]].
 
-When we regard $E$ as a topos over $S$, so that $f$ is regarded as its [[global section]] geometric morphism in the category of toposes over $S$, then we say that $E$ is a **local $S$-topos**.  This is especially common when $S=Set$, in which case the final condition is automatic since all functors are $Set$-indexed.
+When we regard $E$ as a topos over $S$, so that $f$ is regarded as its [[global section]] geometric morphism in the category of toposes over $S$, then we say that $E$ is a **local $S$-topos**.  In this case we may label the functors involved as
 
+$$
+  (Disc \dashv \Gamma \dashv Codisc) : 
+    E
+    \stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
+    S
+$$
+
+to indicate that if we think of $\Gamma$ as sending a [[space]] to its underlying $S$-object of points by forgetting [[cohesive topos|cohesion]], then $Disc$ creates the [[discrete space]] and $Codisc$ the [[codiscrete space]] on an object in $S$.
+
+This is especially common when $S=$ [[Set]], in which case the final condition is automatic since all functors are $Set$-indexed.
+
+
+## Properties
+
+### Concrete sheaves
+
+Every local topos $\Gamma : E \to S$ comes with a notion of [[concrete sheaves]], a [[reflective subcategory]] $Conc_\Gamma(E) \hookrightarrow E$ which factors the topos inclusion of $S$:
+
+$$
+  S 
+   \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+  Conc_\Gamma(E) 
+    \stackrel{\overset{Conc}{\leftarrow}}{\hookrightarrow}
+  E
+$$
+
+and is a [[quasitopos]]. See [[concrete sheaf]] for details.
 
 ## Examples
 
 ### Easy examples
 
-* If $X$ is a [[topological space]], or more generally a [[locale]], then $Sh(X)$ is local (over Set) iff $X$ has a [[focal point]], i.e. a point whose only neighborhood is the whole space.
+* If $X$ is a [[topological space]], or more generally a [[locale]], then $Sh(X)$ is local (over Set) iff $X$ has a [[focal point]], i.e. a point whose only [[neighborhood]] is the whole space.
 
 * If $C$ is a small category with a [[terminal object]], then the [[presheaf topos]] $[C^{op},Set]$ is local.  The converse is true if $C$ is [[Cauchy complete category|Cauchy complete]].
 
