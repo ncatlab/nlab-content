@@ -6,8 +6,9 @@
 
 ##Transition systems.##
 Transition systems are a well established semantic model for both sequential and concurrent systems.
-+--{: . un_defn}
++--{: .un_defn}
 ######Definition######
+
 A _transition system_ is a structure $T = (S,i,L,Trans)$, where
 
 * $S$ is a set of _states_ with initial state, $i$;
@@ -24,8 +25,9 @@ $$s\stackrel{a}{\to} s'$$
  
 to indicate that $(s, a, s')\in Tran$. 
 
-+--{: . un_defn}
++--{: .un_defn}
 ######Definition######
+
  A _morphism_ from one transition system, $T$, to another 
 $T'$  will be a pair $(\sigma, \lambda)$, in which 
 
@@ -51,8 +53,9 @@ The notions of transition system and of morphisms between them is clearly relate
 
 In the above, we have used the notation $L$ to stand for the set of _events_ and the set of _labels_ for those events. It is sometimes useful to make a distinction between the events themselves and their labels and to explicitly give a labelling as a function.  This is important, for instance, in treating 'relabelling' which leads to [[fibration|categorical fibrational situations]] (see the paper by Winskel and Nielsen, cited below.) In order to make the distinction clearer, we will replace $L$ by $E$ and refer to its elements as 'events' in what follows.
 
-+--{: . un_defn}
++--{: .un_defn}
 ######Definition######
+
 A _labelled transition system_ consists of a transition 
 system $T = (S, i, E, Tran)$ together with a set $L$ of _labels_, and a function $l : E \to L$.  We denote it by $(T,L,l)$.
  
@@ -63,7 +66,7 @@ systems together with a [[partial function]] $\lambda : L_1 \to L_2$ such that $
 We 
 write $LTS$ for the category of labeled transition systems.
 
-##LTSs as relational structures##
+##TSs as relational structures##
 We can view a transition system as a [[relational structure]]. The set of states is the 'set of worlds' and for each event, $e \in E$ we define a relation $R_e \subseteq S\times S$ by $(s,s')\in R_e$ if and only if, $(s,e,s')\in Trans$.  We thus derive a relation for each event and, conversely, if we know the family $\{R_e \mid e\in E\}$, then we can rebuild $Trans$ in the obvious way.  
 
 
