@@ -512,6 +512,23 @@ $$
   Disc S \to Codisc S
 $$
 
+is a [[monomorphism in an (∞,1)-category]].
+
+=--
+
+This is evident. 
+
++-- {: .un_prop}
+###### Proposition
+
+If the site $C$ has the property that for all $U \in C$ $\Gamma(U)$ is not empty, then:
+
+for $S \in \infty Grpd$ the natural morphisms
+
+$$
+  Disc S \to Codisc S
+$$
+
 are $(\infty,1)$-[[regular monomorphism]]s.
 
 =--
