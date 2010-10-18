@@ -46,6 +46,53 @@ which is monic since $C(*,U)$ is always inhabited (by assumption on $C$).
 
 Thus, it remains to show "continuity" of $\Pi_0$. ...
 
+## Examples
+
+### Families of sets {#FamiliesOfSets}
+
+Here is a simplistic example (or counterexample depending 
+on which axioms we want to satisfy, see below).
+
+Consider the site given by the [[interval category]] 
+
+$$
+  C = \{\emptyset \to *\}
+$$
+
+with trivial topology. The category of sheaves = presheaves on this is the [[arrow category]] $Arr(Set)$.
+
+$$
+  X : (\emptyset \to *) \mapsto (I \leftarrow S)
+  \,.
+$$
+
+We find
+
+* $\Gamma : (I \leftarrow S) \mapsto S$
+
+* $\Pi_0 : (I \leftarrow S) \mapsto I$.
+
+We may interpret this as follows: by decomposing $S$ into its [[fiber]]s, an object $(I \leftarrow S)$ is an $I$-indexed family of sets: $S = \coprod_i S_i$. The "cohesive pieces" are the $S_i$ and there are $|I|$-many of them. This is what $\Pi_0$ computes.
+
+Moreover we find for $K \in Set$:
+
+* $Disc : K \mapsto (K \stackrel{Id}{\leftarrow} K)$;
+
+* $Codisc : K \mapsto (* \stackrel{}{\leftarrow} K)$
+
+(and evidently both these functors are full and faithful).
+
+This matches the interpretation we just found: $Disc K$ is the collection of elements of $K$ with no two of them lumped together by cohesion, while $Codisc K$ is all elements of $K$ lumped together.
+
+What is not true in this example is that $Disc K \to Codisc K$ is a monomorphism.
+
+In particular, notice that the fibers $S_i$ may be empty.
+
+
+
+ 
+
+
 ## Related concepts
 
 An [[(n,1)-cohesive site]] is a site whose [[(n,1)-topos]] of $n$-sheaves is [[cohesive (n,1)-topos|cohesive]], and an [[(∞,1)-cohesive site]] is a site whose [[(∞,1)-topos]] of sheaves is [[cohesive (∞,1)-topos|cohesive]].
