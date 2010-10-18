@@ -46,9 +46,16 @@ In total this gives a quadruple of [[adjoint (∞,1)-functor]]s
 
 A cohesive $(\infty,1)$-topos is an $(\infty,1)$-topos whose terminal [[global section]] [[geometric morphism]] admits an extenson to such a quadruple of adjoints, such that $Disc$ and $Codisc$ are [[full and faithful (∞,1)-functor]]s
 
-The 1-categorical analog -- the notion of [[cohesive topos]] -- was proposed in ([Lawvere](#Lawvere)).
 
-Notice that despite this motivation, the generic object in a cohesive $(\infty,1)$-topos is far from being a bare $\infty$-groupoid with extra structure: while the functor $\Gamma$ does produce the $\infty$-groupoid underlying an object $X$ in the cohesive $(\infty,1)$-topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ is equivalent to the [[point]]. The [[sub-(∞,1)-category]] of objects in $\mathbf{H}$ that we do may think of as bare $\infty$-groupoids with extra structure is that of the [[concrete sheaf|concrete (∞,1)-sheaves]] inside $\mathbf{H}$.
+Notice that despite this motivation, the generic object in a cohesive $(\infty,1)$-topos is far from being a bare $\infty$-groupoid with extra structure: while the functor $\Gamma$ does produce the $\infty$-groupoid underlying an object $X$ in the cohesive $(\infty,1)$-topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ is $k$-[[truncated]] for very small $k$. The [[sub-(∞,1)-category]] of objects in $\mathbf{H}$ that we do may think of as bare $\infty$-groupoids with extra structure is that of the [[concrete sheaf|concrete (∞,1)-sheaves]] inside $\mathbf{H}$.
+
+We may add additional conditions on $\mathbf{H}$ for ensuring that points and pieces interact well. [Below](#StructuresInside) we shall see that in as far as a connected object $\mathbf{B}G \in \mathbf{H}$ classifies $G$-[[principal ∞-bundle]]s in $\mathbf{H}$, the object $\Pi \mathbf{B}G = \mathcal{B}G$ is the [[classifying space]] that classifies the underlying topological $|G|$-bundles,  $\Gamma \mathbf{B}G = K(G,1)$ classifies the underlying _flat_ bundles. If we demand the canonical morphism
+
+$$
+  \Gamma \mathbf{B}G \to \Pi \mathbf{B}G
+$$
+
+to be a [[epimorphism in an (∞,1)-category]] this says that _locally_ every $G$-principal $\infty$-bundle admits a [[connection on an ∞-bundle|flat connection]]. So this says that [[principal ∞-bundle]]s in $\mathbf{H}$ are locally trivial.
 
 
 ## Definition
@@ -91,6 +98,13 @@ $$
   \,.
 $$
 
+We say moreover that $\mathbf{H}$ has **locally trivial principal $\infty$-bundles** if for all $A \in \mathbf{H}$ the canonical natural morphism
+
+$$
+  \Gamma A \to \Pi A
+$$
+
+is an [[epimorphism in an (∞,1)-category]].
 
 =--
 
@@ -184,7 +198,7 @@ Notice that for plain [[topological space]]s an [[etale space]] $X \to H$ is a s
 This way we can thik of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos equivalently as a space that is locally built from pieces of $\mathbf{H}$. With the above interpretation of $\mathbf{H}$ as the general abstract lump of cohesive points, this reproduces the intuition that $X \in \mathbf{H}$ is a space with this chesive structure.
 
  
-### Structures inside a cohesive $(\infty,1)$-topos
+### Structures inside a cohesive $(\infty,1)$-topos {#StructuresInside}
 
 We list the geometric meaning of the various morphisms and structures in
 a cohesive [[(∞,1)-topos]] over [[∞Grpd]]. (We follow the entries [[schreiber:structures in an (∞,1)-topos]] and [[schreiber:differential cohomology in an (∞,1)-topos]] where more motivation and justification for these interpretations can be found.)
@@ -466,7 +480,7 @@ As a special case of the above theorem, the [[(∞,1)-category of (∞,1)-sheave
 
 ## References
 
-The definition of a [[cohesive topos]] was proposed in
+The ordinary [[category theory]]-definition of a [[cohesive topos]] was proposed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 {#Lawvere}
