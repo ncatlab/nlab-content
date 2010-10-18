@@ -49,15 +49,6 @@ A cohesive $(\infty,1)$-topos is an $(\infty,1)$-topos whose terminal [[global s
 
 Notice that despite this motivation, the generic object in a cohesive $(\infty,1)$-topos is far from being a bare $\infty$-groupoid with extra structure: while the functor $\Gamma$ does produce the $\infty$-groupoid underlying an object $X$ in the cohesive $(\infty,1)$-topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ is $k$-[[truncated]] for very small $k$. The [[sub-(∞,1)-category]] of objects in $\mathbf{H}$ that we do may think of as bare $\infty$-groupoids with extra structure is that of the [[concrete sheaf|concrete (∞,1)-sheaves]] inside $\mathbf{H}$.
 
-We may add additional conditions on $\mathbf{H}$ for ensuring that points and pieces interact well. [Below](#StructuresInside) we shall see that in as far as a connected object $\mathbf{B}G \in \mathbf{H}$ classifies $G$-[[principal ∞-bundle]]s in $\mathbf{H}$, the object $\Pi \mathbf{B}G = \mathcal{B}G$ is the [[classifying space]] that classifies the underlying topological $|G|$-bundles,  $\Gamma \mathbf{B}G = K(G,1)$ classifies the underlying _flat_ bundles. If we demand the canonical morphism
-
-$$
-  \Gamma \mathbf{B}G \to \Pi \mathbf{B}G
-$$
-
-to be a [[epimorphism in an (∞,1)-category]] this says that _locally_ every $G$-principal $\infty$-bundle admits a [[connection on an ∞-bundle|flat connection]]. So this says that [[principal ∞-bundle]]s in $\mathbf{H}$ are locally trivial.
-
-
 ## Definition
 
 +-- {: .un_defn}
@@ -98,13 +89,6 @@ $$
   \,.
 $$
 
-We say moreover that $\mathbf{H}$ has **locally trivial principal $\infty$-bundles** if for all $A \in \mathbf{H}$ the canonical natural morphism
-
-$$
-  \Gamma A \to \Pi A
-$$
-
-is an [[epimorphism in an (∞,1)-category]].
 
 =--
 
@@ -261,7 +245,6 @@ Then unit and counit of the [[adjunction]]s give canonical natural morphisms
 
   that apppears in the second clause of the definition of cohesive topos is the inclusion of the [[Eilenberg-MacLane space]] $K(G,1)$ into the topological [[classifying space]] $\mathcal{B}G$. Again, on [[cocycle]]s this is the map from flat bundles to the underlying bundles.
 
-  If for all $U \in C$ in the [[(∞,1)-cohesive site]] $C$ we have that $\Gamma(U)$ is not empty, then this is supposed to be a [[regular epimorphism in an (∞,1)-category]]. This expresses the fact that every $G$-principal $\infty$-bundle on the contractible $U$ may be equipped with a flat connection.
 
 
 
