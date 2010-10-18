@@ -132,10 +132,3 @@
  
                                             </g> 
 </svg> 
-
-[[!redirects trefoil knot]]
-[[!redirects Trefoil knot]]
-[[!redirects Trefoil Knot]]
-[[!redirects trefoil]]
-[[!redirects Trefoil]]
-[[!redirects trefoil - SVG]]
