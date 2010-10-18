@@ -15,11 +15,12 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 The Bousfield--Kan map(s) are comparison morphisms in a [[simplicial model category]] between two different "puffed up" versions of (co)limits over (co-)simplicial objects: one close to a [[homotopy limit|homotopy (co)limit]] and the other a version of nerve/geometric realization.
 
-#Definition#
+
+## Definition
 
 
 Let $C$ be an ([[SimpSet|SSet]],$\otimes = \times$)-[[enriched category]] and write 
@@ -50,7 +51,8 @@ $$
 
 This morphism induces the following morphisms between (co)[[simplicial object]]s in $C$.
 
-##Bousfield--Kan for simplicial objects##
+
+### Bousfield--Kan for simplicial objects
 
 For $X : \Delta^\op \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[end|coend]]
 
@@ -72,7 +74,7 @@ $$
 $$
 
 
-##Bousfield--Kan for cosimplicial objects##
+### Bousfield--Kan for cosimplicial objects
 
 
 
@@ -95,17 +97,28 @@ $$
 $$
 
 
-##Properties##
+## Properties
 
 
-**Theorem**
++-- {: .un_theorem}
+###### Theorem
 
 If the [[simplicial object]] $X$ is [[Reedy category|Reedy cofibrant]] then its Bousfield--Kan map is a natural weak equivalence.
 
 If the co[[simplicial object]] $X$ is [[Reedy category|Reedy fibrant]] then its Bousfield--Kan map is a natural weak equivalence.
 
 
-#Relation to homotopy limits#
+=--
+
++-- {: .proof}
+###### Proof
+
+This can be proven for instance using [[homotopy colimit]]s in the [[Reedy model structure]]. Details are at <a href="http://ncatlab.org/nlab/show/Reedy+model+structure#SimplexCategory">Reedy model structure -- over the simplex category </a>.
+
+=--
+
+
+## Relation to homotopy limits
 
 When the co[[simplicial object]]  $X$ is degreewise fibrant,  then 
 
@@ -122,7 +135,7 @@ $$
 $$
 
 
-#References#
+## References
 
 * Hirschhorn, _Simplicial model categories and their localization_.
 
