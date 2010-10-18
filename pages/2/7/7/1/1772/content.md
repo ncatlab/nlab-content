@@ -204,6 +204,8 @@ Categories of concrete sheaves, with special attention to sheaves on [[CartSp]],
 
 * [[John Baez]], [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_, to appear in Trans. Amer. Math. Soc. ([arXiv](http://arxiv.org/abs/0807.1704))
 
+The characterization of concrete sheaves in terms of the extra right adjoint of a [[local topos]] originated in <a href="http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1955">discussion</a> with [[David Carchedi]].
+
 [[!redirects concrete sheaves]]
 [[!redirects concrete presheaf]]
 [[!redirects concrete presheaves]]
