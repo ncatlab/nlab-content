@@ -9,17 +9,6 @@
 =--
 =--
 
-* **group cohomology**
-
-  * [[nonabelian group cohomology]], [[groupoid cohomology]]
-
-* [[group extension]]
-
-* [[Lie group cohomology]] 
-
-  * [[∞-Lie groupoid cohomology]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -393,6 +382,47 @@ The content of this subsection is at [[Lie group cohomology]].
 
 If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B}^n K$ to not exist. But [[n-groupoid]]s approximating this non-existant delooping do exists. Cohomology of $\mathbf{B}G$ with coefficients in these is called [[nonabelian group cohomology]] or [[Schreier theory]]. See there for more details.
 
+## Examples
+
+### Heisenberg cocycle
+
+The additive group on the [[Cartesian space]] $\mathbb{R}^2$ with group operation
+
+$$
+  (a,b) + (a',b') = (a + a' , b + b')
+$$
+
+carries a degree-2 group cocycle $\omega$ with values in $\mathbb{R}$ given by
+
+$$
+  \omega : ((a_1,b_1), (a_2,b_2)) \mapsto a_1 \cdot b_2
+  \,.
+$$
+
+The cocycle condition for this is the identity
+
+$$
+  a_1 \cdot (b_2 + b_3) + a_2 \cdot b_3 
+  =
+  a_1 \cdot b_2 + (a_1 + a_2) \cdot b_3
+$$
+
+The [[group extension]] classified by this cocycle is the [[Heisenberg group]].
+
+## Related concepts
+
+* **group cohomology**
+
+  * [[nonabelian group cohomology]], [[groupoid cohomology]]
+
+* [[group extension]]
+
+* [[Lie group cohomology]] 
+
+  * [[∞-Lie groupoid cohomology]]
+
+
+
 ## References 
 
 Aspects of this general point of view on group cohomology is described for instance in chaper 12 of
@@ -420,3 +450,6 @@ Some standard references on group cohomology:
 * Adem, Milgram, _Cohomology of finite groups_ 
 
 ...
+
+[[!redirects group cocycle]]
+[[!redirects group cocycles]]
