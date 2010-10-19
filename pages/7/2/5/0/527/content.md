@@ -83,3 +83,5 @@ One possible interpretation of what Eric wants is that one specifies a collectio
  Reminder ('cos I thought this had been mentioned in the caf&#233;) it may also pay to look at gr-qc/0410104 for some ideas but I never convinced myself that that was really what was needed.
 
 category: drafts
+
+[[!redirects Discrete Causal Spaces]]
