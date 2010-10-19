@@ -477,7 +477,7 @@ A model for a multiplicative differential refinement of [[complex cobordism coho
 
 See [[differential cobordism cohomology theory]]
 
-## References
+## References {#References}
 
 A detailed discussion of the axiomatization of differential stable cohomology is
 
@@ -493,6 +493,7 @@ The differential refinement of K-theory was and is studied in a series of articl
 
 and many more...
 
+* [[James Simons]], [[Dennis Sullivan]], _The Mayer-Vietoris Property in Differential Cohomology_ ([arXiv:1010.3300](http://arxiv.org/abs/1010.3300))
 
 ## talk notes ##
 
