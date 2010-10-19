@@ -173,6 +173,33 @@ A large class of examples is obtained from toposes over a [[cohesive site]]:
 This includes...
 
 
+### Simplicial sets {#SimplicialSets}
+
+Let $C = \Delta$ be the [[simplex category]], regarded as a [[site]] with the trivial [[coverage]].
+
+The corresponding [[sheaf topos]] $Sh(\Delta)$ is the [[presheaf topos]] $E = PSh(\Delta) = $ [[sSet]] of [[simplicial set]]s. 
+
+We have for $X \in sSet$
+
+* $\Gamma : X \mapsto X_0$;
+
+* $\Pi_0 : X \mapsto \pi_0(X) = X_0/X_1$, the set of [[simplicial homotopy group|connected components]].
+
+And for $S \in Set$:
+
+* $Disc S$ the constant simplicial set on $S$;
+
+* $Codisc S$ the simplicial set which in degree $k$ has the set of $(k+1)$-tuples of elements of $S$.
+
+
+If $X, Y \in sSet$ are [[Kan complex]]es, then $\Pi_0(Y^X)$ is the set of [[simplicial homotopy]]-classes of maps $X \to Y$. We can therefore write the [[homotopy category]] of Kan complexes as
+
+$$
+  Ho_{KanCplx}(X,Y) = \Pi_0(Y^X)
+  \,.
+$$
+
+
 ## Related concepts
 
 * [[essential geometric morphism]]
@@ -198,7 +225,6 @@ The definition of a category of cohesion was proposed in
 
 This demands the conditions that "cohesive piece have points" and "pieces of powers are powers of pieces" as part of the definition of "category of cohesion".
 
-The observation that $Sh(CartSp)$ is a [[local topos]] and that this serves to characterize [[diffeological space]]s was amplified by [[David Carchedi]].
 
 
 [[!redirects cohesive topos]]
