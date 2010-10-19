@@ -24,7 +24,7 @@ It turns out that $Shape(X)$ may be extracted in a canonical fashion from just t
 
 
 
-For every [[(∞,1)-topos]] $\mathbf{H}$ there is the [[terminal object|terminal]] [[geometric morphism]]
+For every [[(∞,1)-topos]] $\mathbf{H}$ there is a unique [[geometric morphism]]
 
 $$
   (LConst \dashv \Gamma) : \mathbf{H} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
@@ -59,11 +59,27 @@ $$
 $$
 
 in the [[full subcategory]] of finite [[limit]] preserving [[(∞,1)-functors]].
-
 =--
 
 
 ## Examples
+
+### Shape of a locally $\infty$-connected topos
+
+Suppose that $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], meaning that $\Gamma$ has a left adjoint $\Pi$ which constructs the [[geometric homotopy groups in an (∞,1)-topos|homotopy ∞-groupoids]] of objects of $\mathbf{H}$.  Then $\Shape(\mathbf{H})$ is [[representable functor|represented]] by $\Pi(*)\in \infty Grpd$, for we have
+
+$$
+\begin{aligned}
+Shape(\mathbf{H})(A) &= \Gamma(LConst(A))\\
+&= Hom_{\infty Grpd}(*, \Gamma(LConst(A)))\\
+&= Hom_{\mathbf{H}}(LConst(*), LConst(A)) \\
+&= Hom_{\mathbf{H}}(*, LConst(A)) \\
+&= Hom_{\infty Grpd}(\Pi(*),A).
+\end{aligned}
+$$
+
+Thus, if we regard $\Pi(*)$ as "the homotopy $\infty$-groupoid of $\mathbf{H}$" --- which is reasonable since when $\mathbf{H}=Sh(X)$ consists of sheaves on a locally contractible [[topological space]] $X$, $\Pi_{\mathbf{H}}(*)$ is equivalent to the usual [[fundamental ∞-groupoid]] of $X$ --- then we can regard the shape of an $(\infty,1)$-topos as a generalized version of the "homotopy $\infty$-groupoid" which nevertheless makes sense even for non-locally-contractible toposes, by taking values in the larger category of "pro-$\infty$-groupoids."
+
 
 ### Shape of a topological space
 
@@ -99,7 +115,7 @@ Then the shape of $\mathbf{B}$ is equivalent to that of $\mathbf{H}$.
 +-- {: .proof}
 ###### Proof
 
-Since $\infty Grpd$ is the [[terminal object]] under [[geometric morphism]] of Grothendieck $(\infty,1)$-toposes we have
+Since $\infty Grpd$ is the [[terminal object]] in the category of Grothendieck $(\infty,1)$-toposes and [[geometric morphisms]], we have
 
 $$
   \begin{aligned}
@@ -151,6 +167,8 @@ By definition $\mathbf{H}$ is $\infty$-connected if the [[constant ∞-stack]] [
 1. is a [[full and faithful (∞,1)-functor]].
 
 By standard properties of [[adjoint (∞,1)-functor]]s we have that a [[right adjoint]] $f^*$ is a [[full and faithful (∞,1)-functor]] precisely if the counit $f_! f^* \to Id$ is an [[equivalence in a quasi-category|equivalence]].
+
+Equivalently, we can observe that a locally ∞-connected (∞,1)-topos is ∞-connected precisely when $\Pi$ preserves the terminal object, and apply the above observation that the shape of a locally ∞-connected (∞,1)-topos is represented by $\Pi(*)$.
 
 =--
 
