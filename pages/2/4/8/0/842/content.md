@@ -492,7 +492,7 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 ...
 
 ### Tensoring and cotensoring with an  $\infty$-groupoid {#Tensoring}
-^
+
 #### Recap of the 1-categorical situation
 
 An ordinary [[category]] with [[limit]]s is canonically [[power|cotensored]] over [[Set]]:
@@ -586,6 +586,7 @@ $$
 
 The following proposition should assert that this is all true
 
+{#TensoringProposition}
 +-- {: .un_prop}
 ###### Proposition
 
@@ -602,6 +603,18 @@ for all $d \in C$.
 =--
 
 This is essentially [[Higher Topos Theory|HTT, corollary 4.4.4.9]].
+
++-- {: .un_corollary}
+###### Corollary
+
+Every [[∞-groupoid]] $S$ is the $(\infty,1)$-colimit in [[∞Grpd]] of the constant diagram on the [[point]] over itself:
+
+$$
+  S \simeq {\lim_{\to}}_S const_*
+  \,.
+$$
+
+=--
 
 
 This justifies the following definition
