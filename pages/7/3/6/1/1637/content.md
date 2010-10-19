@@ -1,3 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A **simplicial homotopy** is a [[homotopy]] in the classical [[model structure on simplicial sets]]. It can also be defined combinatorially; in that form one can define a homotopy 2-cell between morphisms of simplicial objects in any category $C$. 
 
 ##Definition via cylinders##
