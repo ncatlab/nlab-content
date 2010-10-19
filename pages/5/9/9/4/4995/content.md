@@ -128,7 +128,7 @@ are [[equivalence in a quasi-category|equivalent]] to the identity $(\infty,1)$-
 
 =--
 
-### Geometric homotopy
+### Concordance {#Concordance}
 
 Since $\mathbf{H}$ is an [[(∞,1)-topos]] it carries canonically
 the structure of a [[cartesian closed (∞,1)-cateory]]. For  
@@ -148,7 +148,7 @@ $$
 $$
 
 This should yield an [[(∞,1)-category]] $\tilde \mathbf{H}$
-with the same objects as $\mathbf{H}$ and
+with the same objects as $\mathbf{H}$ and hom-$\infty$-groupoids defined by
 
 $$
   \tilde \mathbf{H}(X,Y) := \Pi(Y^X)
@@ -231,7 +231,17 @@ $$
  \infty Grpd
 $$
 
-for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we ay think of as [[∞-groupoid]]s with cohesive structure. For instance in the case $\mathbf{H} = $ [[?LieGrpd]] they are $\infty$-groupoids with _smooth_ structure. Then
+for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we may think of as [[∞-groupoid]]s with cohesive structure. For instance in the case $\mathbf{H} = $ [[?LieGrpd]] they are $\infty$-groupoids with _smooth_ structure.  For $G \in \mathbf{H}$ an [[∞-group]] object we write $\mathbf{B}G \in \mathbf{H}$ for its internal [[delooping]] object.
+
+We may think of a morphism $X \to \mathbf{B}G$ as being the [[cocycle]] for a [[principal ∞-bundle]] on $X$ and of
+
+$$
+  \mathbf{H}(X, \mathbf{B}G)
+$$
+
+as the [[∞-groupoid]] whose objects are $G$-principal $\infty$-bundles, whose morphisms are equivalences between these, and so on.
+
+Then
 
 * $\Gamma(X)$ is the _underlying $\infty$-groupoid_ of the cohesive $\infty$-groupoid $X$ (for instance an $\infty$-Lie groupoid with its smooth structure forgotten);
 
@@ -245,6 +255,15 @@ for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we a
   we may think of $|\Pi(X)|$ as the _geometric realization_ of $X$. For instance if $X \in \infty LieGrpd$ is a [[paracompact manifold]], then $|\Pi(X)|$ is, up to [[weak homotopy equivalence]] its underlying topological space.
 
   If again $X = \mathbf{B}G$, then $\mathcal{B}G = |\Pi(\mathbf{B}G)|$ is the [[classifying space]] for the group $G$.
+
+With $\tilde \mathbf{H}$ the [concordance](#Concordance)-$(\infty,1)$-category of $\mathbf{H}$ we have that
+
+$$
+  \tilde \mathbf{H}(X,\mathbf{B}G) = \Pi(\mathbf{B}G^X) 
+$$
+
+is the $\infty$-groupoid whose objects are $G$-principal bundles on $X$ and whose morphisms are $G$-principal bundles on the cylinder $X \times I$. These are _concordances of $\infty$-bundles._
+
 
 Write 
 
