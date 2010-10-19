@@ -97,6 +97,10 @@ See
 
 * The [[Cech groupoid]] $C(U)$ of a [[cover]] $\{U_i \to X\}$ of a smooth manifold is a Lie groupoid. 
 
+* Every [[foliation]] gives rise to its [[holonomy groupoid]].
+
+* An [[orbifold]] is a Lie groupoid.
+
 * An [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ from a smooth manifold $X$ to $\mathbf{B}G$ is a [[Cech cohomology|Cech cocycle]] in degree 1 with values in $G$, classifying $G$-[[principal bundle]] $P$.
 
 * The (1-categorical) [[pullback]]
@@ -121,6 +125,14 @@ See
 
 * Similarly an anafunctor from $P_1(X)$ to $\mathbf{B}G$ is a [[connection on a bundle]] (see there for details).
 
+## Related concepts
+
+* [[orbifold]]
+
+* [[effective Lie groupoid]]
+
+* [[etale groupoid]]
+
 ## References
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
@@ -136,7 +148,9 @@ Reviews and developments of the theory of Lie groupoids include
 
 * K. C. H. Mackenzie, _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
 
-* John Baez talks about various kinds of Lie groupoids in [TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html).
+* [[Ieke Moerdijk]], Janez Mr&#269;un _Introduction to Foliations and Lie Groupoids_ , Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003)
+
+* [[John Baez]] talks about various kinds of Lie groupoids in [TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html).
 
 
 [[!redirects Lie groupoids]]
