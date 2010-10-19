@@ -38,7 +38,7 @@ Physics is _dynamics_ in _spaces_ .
 
 * A general context for **geometrical spaces** is a [[local (∞,1)-topos]].
 
-* A general contex for geometrical spaces and **processes** in these spaces is a [[cohesive (∞,1)-topos]].
+* A general context for geometrical spaces and **processes** in these spaces is a [[cohesive (∞,1)-topos]].
 
 An example of relevance for much of physics is the cohesive $(\infty,1)$-topos 
 $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoid]]s. This contains
@@ -216,7 +216,7 @@ In
 
 * [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
 
-the authors try to motivate and introduce some basic concepts of [[category theory]] for an audience familiar with standard physics and in particular with [[quantum mechanics]]. The article focuses towards the end on [[monoidal categories]], their descrioption in terms of [[string diagram]]s and [[quantum mechanics in terms of dagger-compact categories]].
+the authors try to motivate and introduce some basic concepts of [[category theory]] for an audience familiar with standard physics and in particular with [[quantum mechanics]]. The article focuses towards the end on [[monoidal categories]], their description in terms of [[string diagram]]s and [[quantum mechanics in terms of dagger-compact categories]].
 
 More details on the use of string diagrams in dagger-categories for the description of quantum mechanics is is
 
