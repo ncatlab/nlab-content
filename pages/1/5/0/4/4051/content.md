@@ -1,11 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * automatic table of contents goes here
 {:toc}
 
 ## Introduction 
 
-Over the years (as on the FOM mailing list roughly a dozen years ago, as of revision number 4 of this article), various people have "challenged" [[category theory|category theorists]] to write down a fully formal presentation of [[ETCS]]. We will do so here. 
+We write down here a fully formal presentation of the [[theory]] _[[ETCS]]_ -- the _elementary theory of the category of sets_. 
 
 There will be no pretense to elegance or other aesthetic criteria such as efficiency or lack of redundancy. At a first pass we will do things in a quick and dirty way; with luck there will be various polishings of this entry as time passes. 
 
@@ -18,13 +33,18 @@ To make the exposition more readable, the theory will be built up in stages, tog
 
 ## The theory of categories 
 
-The signature of $Th(Cat)$ consists of 
++-- {: .un_def}
+###### Definition
+
+We define the [[theory]] $Th(Cat)$ of [[categories]].
+
+The [[signature]] of $Th(Cat)$ consists of 
 
 * Unary function symbols $s$, $t$; 
 
 * A ternary predicate $c$. 
 
-(The theory of [[categories]] is commonly presented as a two-sorted theory, with an object sort and a morphism sort. Here we instead use [[single-sorted definition of a category|the single-sorted theory]], whose terms are intended to be interpreted as _morphisms_ of a category. We generally use letters $f, g, h, \ldots$ for variable terms. If $e$ is any term, then the intended interpretation of $s(e)$ is: the identity morphism of the domain of $e$. Similarly, $t(e)$ means the identity morphism of the codomain of $e$. The intended interpretation of $c(f, g, h)$ is that $h = f \circ g$.) 
+(The [[theory]] of [[categories]] is commonly presented as a two-sorted theory, with an object sort and a morphism sort. Here we instead use [[single-sorted definition of a category|the single-sorted theory]], whose terms are intended to be interpreted as _morphisms_ of a category. We generally use letters $f, g, h, \ldots$ for variable terms. If $e$ is any term, then the intended interpretation of $s(e)$ is: the identity morphism of the domain of $e$. Similarly, $t(e)$ means the identity morphism of the codomain of $e$. The intended interpretation of $c(f, g, h)$ is that $h = f \circ g$.) 
 
 The axioms of $Th(Cat)$ are as follows:  
 
@@ -36,11 +56,13 @@ The axioms of $Th(Cat)$ are as follows:
 
 1. (Composition is well-defined) $(c(f, g, h) \wedge c(f, g, h')) \vdash h = h'$
 
-1. (Identity laws) $\vdash c(f, s(f), f) \wedge c(t(f), f, f)$
+1. ([[identity|Identity]] laws) $\vdash c(f, s(f), f) \wedge c(t(f), f, f)$
 
-1. (Associativity) $(c(f, g, j) \wedge c(g, h, k)) \vdash (c(j, h, m) \Leftrightarrow c(f, k, m))$
+1. ([[associativity|Associativity]]) $(c(f, g, j) \wedge c(g, h, k)) \vdash (c(j, h, m) \Leftrightarrow c(f, k, m))$
 
 (Notice that an **object-term** may be defined as a term $e$ for which either of the following equivalent equations holds: $e = s(e)$, $e = t(e)$.) 
+
+=--
 
 +-- {: .un_remark}
 ###### Convention
@@ -50,13 +72,18 @@ The notation $f \circ g$ denotes the unique $h$ for which $c(f, g, h)$, whenever
 
 ## The theory of finitely complete categories
 
-The signature of $Th(Lex)$ is obtained by adjoining to the signature of $Th(Cat)$ the following:  
++-- {: .un_def}
+###### Definition
+
+We define the [[theory]] $Th(Lex)$ of [[finitely complete categories]].
+
+The [[signature]] of $Th(Lex)$ is obtained by adjoining to the signature of $Th(Cat)$ the following:  
 
 * A nullary function symbol (i.e., a constant) $1$, 
 
 * A quaternary predicate $p$. 
 
-(The intended interpretation is that $1$ is a terminal object, and that $p(f, g, h, k)$ means $f \circ h = g \circ k$, forming a pullback square.) 
+(The intended interpretation is that $1$ is a [[terminal object]], and that $p(f, g, h, k)$ means $f \circ h = g \circ k$, forming a [[pullback]] square.) 
 
 The axioms of $Th(Lex)$ are the axioms of $Th(Cat)$ plus the following: 
 
@@ -76,8 +103,14 @@ $$(p(f, g, h, k) \wedge f \circ h' = g \circ k') \vdash \exists_i (s(i) = s(h') 
 1. (Pullback: uniqueness clause) 
 $$(p(f, g, h, k) \wedge s(i) = s(i') \wedge t(i) = s(h) = t(i') \wedge h \circ i = h \circ i' \wedge k \circ i = k \circ i') \vdash i = i'$$
 
+=--
 
 ## The theory of elementary toposes 
+
++-- {: .un_def}
+###### Definition
+
+We define the [[theory]] $Th(Topos)$ of [[elementary toposes]].
 
 We introduce a binary predicate expression $M(f, g)$ to abbreviate the following formula in $Th(Cat)$:
 
@@ -91,7 +124,7 @@ The signature of $Th(Topos)$ is obtained by adding to the signature of $Th(Lex)$
 
 * A ternary predicate $\Lambda$
 
-(The intended interpretation is that $P(f: X \to Y)$ is the power object of $Y$, and $\langle l(Y), r(Y) \rangle: E(Y) \hookrightarrow P(Y) \times Y$ is the elementhood relation, which we rewrite as a jointly monic span, and consider as a universal relation from $P(Y)$ to $Y$. The notation $\Lambda(f, g, h)$ means that $(f, g)$ is a relation from $X$ to $Y$, and $h: X \to P(Y)$ is the unique map which classifies that relation by pulling back the universal relation that spans between $P(Y)$ and $Y$.) 
+(The intended interpretation is that $P(f: X \to Y)$ is the [[power object]] of $Y$, and $\langle l(Y), r(Y) \rangle: E(Y) \hookrightarrow P(Y) \times Y$ is the elementhood relation, which we rewrite as a jointly [[monomorphism|monic]] [[span]], and consider as a [[universal property|universal]] relation from $P(Y)$ to $Y$. The notation $\Lambda(f, g, h)$ means that $(f, g)$ is a relation from $X$ to $Y$, and $h: X \to P(Y)$ is the unique map which classifies that relation by pulling back the universal relation that spans between $P(Y)$ and $Y$.) 
 
 The axioms of $Th(Topos)$ are obtained by adjoining to $Th(Lex)$ the following further axioms: 
 
@@ -110,39 +143,62 @@ $$(\Lambda(f, g, h) \wedge \Lambda(f, g, h')) \vdash h = h'$$
 1. (Relations obtained by pulling back along classifying map) 
 $$\vdash \Lambda(f, g, h) \Leftrightarrow \exists_j (p(l, h, j, f) \wedge g = r  \circ j)$$
 
+=--
 
 ## The theory ETCS 
 
-Finally, the signature of $Th(ETCS)$ is obtained by adjoining to the signature of $Th(Topos)$ the following 
++-- {: .un_def}
+###### Definition
+
+Finally, we define the [[theory]] $Th(ETCS)$: [[ETCS]].
+
+The signature of $Th(ETCS)$ is obtained by adjoining to the signature of $Th(Topos)$ the following 
 
 * Nullary function symbols (i.e., constants) $\mathbb{N}, 0, \sigma$. 
 
 The axioms of $Th(ETCS)$ are obtained by adjoining to the axioms of $Th(Topos)$ the following further axioms: 
 
-1. (Well-pointedness: equality of maps $x \to y$ is detected by points $1 \to x$) 
+1. ([[well-pointed topos|Well-pointedness]]: equality of maps $x \to y$ is detected by points $1 \to x$) 
 $$(s(f) = s(g) \wedge t(f) = t(g)) \vdash \forall_h (s(h) = 1 \wedge t(h) = s(f) \wedge f \circ h = g \circ h) \Rightarrow f = g$$ 
 
-1. (Axiom of Choice: every epi $f$ admits a section $i$) 
+1. ([[axiom of choice|Axiom of Choice]]: every epi $f$ admits a section $i$) 
 $$(\forall_{g, h} (t(f) = s(g) = s(h) \;\wedge\; t(g) = t(h) \;\wedge\; g \circ f = h \circ f) \;\Rightarrow\; g = h) \vdash \exists_i (s(i) = t(f) \;\wedge\; t(i) = s(f) \;\wedge\; f \circ i = t(f))$$
 
-1. (Zero and successor)
+1. ([[natural numbers object|Zero and successor]])
 $$\vdash s(0) = 1 \wedge t(0) = \mathbb{N} = s(\sigma) = t(\sigma)$$
 
-1. (Recursion: existence) 
+1. ([[natural numbers object|Recursion: existence]]) 
 $$s(f) = 1 \wedge t(f) = s(g) = t(g) \vdash \exists_h (s(h) = \mathbb{N} \wedge t(h) = t(f) \wedge f = h \circ 0 \wedge h \circ \sigma = g \circ h)$$ 
 
 1. (Recursion: uniqueness) 
 $$(s(f) = \mathbb{N} = s(g) \wedge t(f) = t(g) \wedge f \circ 0 = g \circ 0 \wedge f \circ \sigma = g \circ \sigma) \vdash f = g$$
 
+
 This completes the formal specification of $Th(ETCS)$. 
+
+=--
 
 
 ## Remarks 
 
-Despite the length of the list of axioms, it should be noted that they generally have an extremely simple logical structure. Indeed, with some slight modification, the theory $Th(Topos)$ may be rewritten so that it becomes an [[essentially algebraic theory]], at least in the sense that the models of $Th(Topos)$ are categorially equivalent (as categories = models of $Th(Cat)$) to models of an essentially algebraic theory. That is to say, the notion of "topos" can be internalized in any category with finite limits; this is even true of toposes with natural numbers object. 
+Despite the length of the list of axioms, it should be noted that they generally have an extremely simple logical structure. Indeed, with some slight modification, the theory $Th(Topos)$ may be rewritten so that it becomes an [[essentially algebraic theory]], at least in the sense that the models of $Th(Topos)$ are categorially equivalent (as categories = models of $Th(Cat)$) to models of an essentially algebraic theory. That is to say, the notion of "topos" can be [[internalization|internalized]] in any category with finite limits; this is even true of toposes with natural numbers object. 
 
 Hence, the only "irremovable" existential clauses (that necessitate passing from essentially algebraic logic to a larger fragment of first-order logic) are well-pointedness and the axiom of choice. The axiom of choice belongs to [[geometric logic]]. 
 
 This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact that axiom schemas are technically infinite lists of axioms!) but whose logical complexity is much greater. 
 
-It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. To put it more sharply: the traditional syntactic machinery used to present first-order theories is not really a natural or well-adapted 'home' for presenting categorical theories such as ETCS. The natural mode of presentation would use diagrams of arrows from the outset, as formalized say by Freyd's Q-sequences, and that is as fully formal as the more traditional (fuddy-duddy) mode adopted here, which after all goes back to Frege and hasn't changed in a century. 
+It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. To put it more sharply: the traditional syntactic machinery used to present first-order theories is not really a natural or well-adapted 'home' for presenting categorical theories such as ETCS. The natural mode of presentation would use diagrams of arrows from the outset, as formalized say by Freyd's [[Q-sequence]]s, and that is as fully formal as the more traditional (fuddy-duddy) mode adopted here, which after all goes back to Frege and hasn't changed in a century. 
+
+
+
+## References
+
+Over the years various people at 
+
+* _Foundations of Mathematics_ [mailing list](http://www.math.psu.edu/simpson/fom/) (around 1998)
+{#FOM}
+
+have challanged [[category theory|category theorists]] to write down a fully formal presentation of ETCS.
+
+
+[[!redirects fully formal definition of ETCS]]
