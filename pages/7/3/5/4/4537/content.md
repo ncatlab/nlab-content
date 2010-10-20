@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -25,7 +24,7 @@ In the case of the monoidal category of chain complexes, we also say dg-Lie-oper
 
 ## References
 
-* [[Todd Trimble]], _[[toddtrimble:Notes on operads and the Lie operad]]_
+* [[Todd Trimble]], [toddtrimble:Notes on the Lie operad](http://math.ucr.edu/home/baez/trimble/trimble_lie_operad.pdf)
 * V. Hinich, _Homological algebra of homotopy algebras_,  Communications in algebra, 25(10) (1997), 3291-3323, [pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/haha.pdf); erratum [math.AG/0309453](http://arxv.org/abs/math.AG/0309453)
 
 [[!redirects Lie algebra operad]]
