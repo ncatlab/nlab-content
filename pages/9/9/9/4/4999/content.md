@@ -7,6 +7,7 @@
 {:toc}
 
 ## Modal Logics ## 
+(under construction)
 
 ## Idea## 
 The modal logics are the logic of [[relational structures]].  They are built on **modal languages**.
@@ -59,7 +60,7 @@ where the $p_\lambda$ are the propositional variables ordered by finite ordinals
 1. Another formulation replaces $\vee$ and $\neg$ by implication $\phi_1\to \phi_2$.
 
 
-Modal logics
+##Modal logics##
 +--{: .un_defn}
 ######Definition ######
 A **modal logic** in $\mathcal{L}_\omega(n)$ is any set $\Lambda$ of $\mathcal{L}_\omega(n)$-formulae such that   
