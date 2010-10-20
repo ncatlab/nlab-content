@@ -1,15 +1,22 @@
-<div class="rightHandSide toc">
-[[!include mathematicscontents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Mathematics
++--{: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-#Category theory and foundations#
+## Category theory and foundations
 
-There are two big questions about category theory and the logical foundations of mathematics:
+There are two big questions about [[category theory]] and the logical foundations of mathematics:
 
  1. What foundations are adequate to formulate category theory?
  2. How can category theory provide a foundation for mathematics?
@@ -26,7 +33,7 @@ _[[Toby Bartels|Toby]] answers_: That goes in the last, as yet unwritten, sectio
 
 For a philosophical treatment of category theoretic foundations see [[foundations and philosophy]]. 
 
-# Mathematical foundations of category theory
+### Mathematical foundations of category theory
 
 The problem with mathematical foundations of category theory is that in category theory we frequently speak of [[large category|large categories]], which it is tricky to deal with rigorously in the usual sort of [[set theory|set theories]].
 
@@ -38,27 +45,7 @@ If one does not accept the [[axiom of choice]], then there are additional compli
 
 For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279]().
 
-+--{.query}
-
-_[[Urs Schreiber|Urs]] asks_: More recently it seems that the concept of _accessible categories_ has found some 
-supporters as a tool for conveniently dealing with size issues generally in (higher) category theory. Jacob Lurie discusses this from [p. 341]() on in his [Higher Topos Theory](), where he says
-
-<blockquote>
-
-the theory of accessible 1-categories is a tool which allows us to
-manipulate large 1-categories as if they were small, without fear of
-encountering any set-theoretic paradoxes. This theory is quite useful
-because the condition of accessibility is very robust
-
-</blockquote>
-
-I have only a vague understanding of accessible categories at the moment. It would be nice to have an entry [[accessible category]] explaining it. My main problem here is probably that I have no good idea of notions like "regular cardinal".
-
-_[[Toby Bartels|Toby]] answers_: I understand all these large cardinals much better in terms of their categories of small sets. In particular, a cardinal number $\kappa$ is _regular_ if the category of $\kappa$-small sets is $\kappa$-cocomplete. That is, any $\kappa$-small coproduct (the other $\kappa$-small colimts follow) of $\kappa$-small sets is a $\kappa$-small set. Here a set is _$\kappa$-small_ if its cardinality is less than $\kappa$, but you can see that the real point is not the cardinal number $\kappa$ but rather the category of (relatively) small sets. So a subcategory $C$ of $\Set$ (say a full subcategory, and closed under taking subobjects) is _regular_ (in the cardinal sense) if $C$ has all colimits indexed by categories internal to itself. This generalises to indexed category theory, although I have only a vague understanding of that.
-
-=--
-
-##The concept of _identity_
+### The concept of _identity_
 
 One way to think of category theory is as a framework in which the idea is formalized that every kind of [[equality]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity is potentially [[evil]], in a technical sense.
 
@@ -170,24 +157,21 @@ Certain 'strong' axioms of [[set theory]] (those involving [[quantification]] ov
 
 In contrast, many of the optional or controversial axioms of set theory (such as the [[axiom of choice]]) can be stated quite directly in ETCS. These can be examined quite well in a na&#239;ve set-theoretic language that never need be precise about whether one\'s foundations are traditional (membership-based), categorial, or whatever.
 
-# Categorial foundations of category theory
+## Categorial foundations of category theory
 
 ...
 
 
-#Other topics#
+## Other topics
 
 * There is also [[algebraic set theory]].
 
-# effect of foundations on concrete problems #
+### Effect of foundations on concrete problems
 
 It may seem on first sight that foundational questions in mathematics are remote from "real mathematics". This is not quite so. For a list of "real world" problems that do depend on foundations see
 
 * [[effects of foundations on "real" mathematics]]
 
-#Blog discussion#
-
-* [Foundations]()
 
 
 [[!redirects Foundations]]
