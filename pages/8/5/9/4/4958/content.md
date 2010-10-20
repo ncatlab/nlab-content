@@ -83,3 +83,8 @@ That it is a [[connected topos]] is discussed [[?LieGrpd]].
 
 [[!redirects local (∞,1)-geometric morphisms]]
 [[!redirects local (∞,1)-topos]]
+[[!redirects local (∞,1)-toposes]]
+[[!redirects local (∞,1)-topoi]]
+
+
+[[!redirects local (infinity,1)-topos]]
