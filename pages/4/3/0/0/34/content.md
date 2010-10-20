@@ -10,15 +10,7 @@
 =--
 =--
 
-* [[category theory]]
 
-* [[2-category theory]]
-
-* [[(∞,1)-category theory]]
-
-* **higher category theory**
-
-***
 
 
 #Contents#
@@ -239,6 +231,15 @@ There are many different _models_ for bringing the abstract notion of higher cat
 * [[enriched category theory]]
 
 
+## Related concepts
+
+* [[category theory]]
+
+* [[2-category theory]]
+
+* [[(∞,1)-category theory]]
+
+* **higher category theory**
 
 
 
