@@ -51,6 +51,14 @@ $$
 
 is that of **concrete objects** in $\mathbf{H}$, the analog of [[concrete sheaves]].
 
+
+## Related concepts
+
+* [[quasitopos]]
+
+* **$(\infty,1)$-quasitopos**
+
+
 [[!redirects (∞,1)-quasitopos]]
 
 
