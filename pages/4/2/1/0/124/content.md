@@ -18,17 +18,28 @@
 
 
 # Contents #
-* autamatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea 
 
-A _topos_ is a [[category]] that resembles the category [[Set]] of sets and functions enough that we can use it as a 'universe' to do ordinary mathematics in.  Ordinary mathematical reasoning (with some restrictions) suffices to prove results [[internalisation|internal]] to any topos.
+A _topos_ is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphism]]s over a given base space: all spaces that are _locally modeled on_ a given base space.
 
-A topos in this sense is sometimes called an __elementary topos__ or a __Lawvere--Tierney topos__ to distinguish it from the original but more specific [[Grothendieck topos]].
+The archetypical class of examples are [[sheaf topos]]es $Sh(X) = Et(X)$ over a [[topological space]] $X$: these are the categories of [[etale space]]s over $X$, topological spaces $Y$ that are equipped with a [[local homeomorphisms]] $Y \to X$. 
 
-While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that see [[AT category]].
+When $X = *$ is the [[point]], this is just the category [[Set]] of all [[sets]]: spaces that are _modeled on the point_ . This is the archetypical topos itself. 
+
+What makes the notion of toposes powerful is the following fact: even though the general topos contains objects that are considerably different from and possibly considerably richer than plain sets and even richer than etale spaces over a topological space, the general abstract [[category theory|category theoretic]] properties of every topos are essentially the same as those of [[Set]]. For instance in every topos all small [[limit]]s and [[colimit]]s exist and it is [[cartesian closed category|cartesian closed]] (even [[locally cartesian closed category|locally]]). This means that a large number of constructions in [[Set]] have immediate analogs in every topos, and the analogs of the statements about these constructions that are true in $Set$ are true in _every_ topos. 
+
+On the one hand this may be thought of as saying that toposes are _very nice categories of spaces_ in that whatever construction on spaces one thinks of, the resulting space with the expected general abstract properties will exist in the topos. In this sense toposes are _convenient categories_ for geometry -- as in: [[convenient category of topological spaces]], but even more convenient than that.
+
+On the other hand, by de-emphasizing the geometric interpretation of their objects and just using their good abstract properties, this means that toposes are contexts with a powerful [[internal logic]]. The internal logic of toposes is [[intuitionistic logic|intuitionistic]] [[higher order logic]]. This means that, while the [[law of excluded middle]] and the [[axiom of choice]] may fail, apart from that, every logical statement not depending on these does hold [[internalization|internal to]] _every_ topos.
+
+For this reason toposes are often studied as abstract contexts "in which one can do mathematics", disregarding their interpretation as categories of spaces. The two equivalent points of views on toposes, as being about geometry and about logic at the same time, is part of the richness of topos theory.
+
+
+
 
 ## Definition 
 
@@ -61,7 +72,12 @@ There are two kinds of morphisms between toposes that one considers:
 Accordingly there is a [[2-category]] [[Toposes]] of toposes.
 
 
-## Reasoning in a topos 
+## Properties
+
+While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that see [[AT category]].
+
+
+### Reasoning in a topos 
 
 Any result in ordinary mathematics whose proof is [[finite mathematics|finitist]] and [[constructive mathematics|constructive]] automatically holds in any topos.  If you remove the restriction that the proof be finitist, then the result holds in any topos with a [[natural numbers object]]; if you remove the restrictions that the proof be constructive, then the result holds in any [[boolean topos]].  On the other hand, if you add the restriction that the proof be predicative in the weaker sense used by constructivists, then the result may fail in some toposes but holds in any $\Pi$-[[Pi-pretopos|pretopos]]; if you add the restriction that the proof by predicative in a stronger sense, then the result holds in any [[Heyting pretopos]].
 
@@ -81,7 +97,7 @@ For more on this idea, see [[internal logic]].
 
   * The case where the [[Grothendieck topology]] is the trivial one, so that also all categories of [[presheaf|presheaves]] (on small categories) are (Grothendieck) toposes.
 
-  * The case of sheaves on a [[topological space]], or more generally a [[locale]].
+  * The case of sheaves on (the [[site]] given by the [[category of open subsets]] of) a [[topological space]], or more generally a [[locale]].
 
   * The category $G Set$ of [[set]]s equipped with the [[action]] of a [[group]] $G$: this is the topos of presheaves on the category $\mathbf{B}G$ which is the [[delooping]] [[groupoid]] of $G$.
 
@@ -111,24 +127,13 @@ For more on this idea, see [[internal logic]].
 * A topos can also be constructed from any [[tripos]].  This includes realizability toposes as well as toposes of sheaves on locales.
 
 
-### Special classes 
+## Special classes of toposes
 
 For various applications one uses toposes that have [[stuff, structure, property|extra structure or properties]].
 
 * In [[synthetic differential geometry]] one studies [[smooth topos]]es as a context for axiomatic [[differential geometry]].
 
 * In the [[foundations]] of mathematics, one often studies [[well-pointed toposes]], especially models of [[ETCS]] as potential replacements for the category [[Set]].
-
-
-## Higher toposes 
-
-The analogs of topos theory in [[higher category theory]] is [[higher topos theory]]. 
-
-* A well developed case is that of [[(∞,1)-topos]]es.
-
-* A bit of theory also exists for [[2-topos]]es.
-
-* By [[negative thinking]], a [[(0,1)-topos]] is a [[Heyting algebra]].
 
 
 ## Related entries
