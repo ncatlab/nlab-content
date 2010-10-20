@@ -1,8 +1,25 @@
-#Definition#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contemts#
+* table of contents
+{:toc}
+
+## Definition
 
 A **bimorphism** is a morphism which is simultenously [[epimorphism|epic]] and [[monomorphism|mono]]. Such a morphism in general does not need to be [[isomorphism|iso]]. If every bimorphism in a category is an [[isomorphism]] we say that the category is [[balanced category|balanced]]. 
 
-# Discussion
+
+## Discussion
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I don't like the word "bimorphism."  If I've been thinking about [[bicategory|bicategories]] then it sounds like something that is "a morphism up to isomorphism," while if I've been thinking about [[biproduct|biproducts]] it sounds like something that is "both a morphism and a comorphism."  Are monic epics really an important enough concept to deserve its own word?  Can't we just say "monic and epic" or even just "monic epic"?
@@ -23,3 +40,5 @@ _Toby_:  O yeah, I agree with you there!  The best that I can say for 'bimorphis
 
 _Zoran_ I am used to say "reflective and coreflective", never bireflective. Looks esoteric term. I never likes bimorphism either.
 =--
+
+[[!redirects bimorphisms]]
