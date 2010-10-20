@@ -16,6 +16,12 @@
 
 ## Idea
 
+A _cohesive $(\infty,1)$-topos_ is an [[(∞,1)-topos]] $\mathbf{H}$ whose [[global section]] [[geometric morphism]] admits a further [[left adjoint]] $\Pi$ and a further right adjoint $Codisc$: $(\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : \mathbf{H} \to $ [[∞Grpd]], where
+
+1. $\Pi$ sends an object $X$ to its [[geometric homotopy groups in an (∞,1)-topos|geometric]] [[schreiber:path ∞-groupoid]], which co-classifies [[locally constant ∞-stack]]s on $X$;
+
+1. $Codisc$ induces an [[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _concrete_ objects, those that look like [[∞-groupoid]]s _equipped with extra cohesive structure_ : for instance with [[topology]], or with [[smooth structure]].
+
 The definition of _cohesive $(\infty,1)$ topos_ aims to axiomatize properties of an [[(∞,1)-topos]] that make it a [[gros topos]] of [[space]]s inside of which [[higher geometry]] may take place.
 
 The idea behind the term is that a _geometric space_ is roughly something consisting of points or pieces that are _held together_ by some cohesion - for instance by [[topology]], by [[smooth structure]], etc.
@@ -128,6 +134,59 @@ are [[equivalence in a quasi-category|equivalent]] to the identity $(\infty,1)$-
 
 =--
 
+### Differential cohomology
+
+
+Every [[(∞,1)-topos]] $\mathbf{H}$ comes with its [[cohomology|intrinsic cohomology]]: for $X, A \in \mathbf{H}$ a [[cocycle]] on $X$ with coefficients in $\mathbf{H}$ is a [[morphism]] $g : X \to A$. A coboundary is a [[2-morphism]] between two such. The [[cohomology]] set of $X$ with coefficients in $A$ is
+
+$$
+  H(X,A) := \pi_0 \mathbf{H}(X,A)
+  \,.
+$$
+
+For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]] object in $\mathbf{H}$, we have that $G Bund(X) := \mathbf{H}(X, \mathbf{B}G)$ is the [[∞-groupoid]] of $G$-[[principal ∞-bundle]]s on $X$.
+
+
+If $\mathbf{H}$ is also a [[locally ∞-connected (∞,1)-topos]] -- such as a cohesive $(\infty,1)$-topos -- it moreover comes with an intrinsic notion of [[schreiber:differential cohomology in an (∞,1)-topos]]:
+
+for $X \in \mathbf{H}$ the [[∞-groupoid]] $\Pi(X)$ may be regarded as the [[schreiber:path ∞-groupoid]] of $X$. So $\Pi$ detects the [[geometric homotopy groups in an (∞,1)-topos]]. Its reflection $\mathbf{\Pi} := Disc \circ \Pi$ back into $\mathbf{H}$ is the domain for [[local system]]s on $X$, a cocycle $g_{flat} : \mathbf{\Pi}(X) \to A$ is a _flat differential cocycle_ on $A$. For $A = \mathbf{B}G$ this is a flat [[connection on an ∞-bundle]] for the underlying $G$-[[principal ∞-bundle]] given by $X \to \mathbf{\Pi}(X) \to A$.
+
+Dually, flat differential cohomology is cohomology on $X$ with coefficients in the flat object $\mathbf{\flat}A$, for $\mathbf{\flat} = Disc \circ \Gamma$ the [[right adjoint]] $(\mathbf{\Pi} \dashv \mathbf{\flat})$.
+
+If $A$ is stable, for instance an [[Eilenberg-MacLane object]] $A = \mathbf{B}^n K$ for an [[abelian group]] object $K$, then there is an intrinsic de Rham cohomology object $\mathbf{\flat}_{dR} \mathbf{B}^n K$ given by the [[homotopy fiber]] of the counit $\mathbf{flat} A\to A$. 
+
+The canonical induced morphism $\mathbf{H}(X,\mathbf{B}^n K) \to \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^{n+1} K)$ is the [[curvature]] assignment of the [[∞-Chern-Weil homomorphism]]. The [[twisted cohomology]] for this [[curvature characteristic class]] is the **differential cohomology** $\mathbf{H}_{diff}(X,\mathbf{B}^n K)$ of $X$ with coefficients in $K$ in degree $n$.
+
+Generally, for every [[characteristic class]] $\mathbf{B}G \to \mathbf{B}^n K$ the postcomposition $\mathbf{B}G \to \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}K$ induces the [[∞-Chern-Weil homomorphism]] on $G$-[[principal ∞-bundle]]s. This is modeled by equipping a $G$-principal $\infty$-bundle with a [[connection on an ∞-bundle]]. 
+
+For more on this see [[∞-Chern-Weil theory introduction]].
+
+
+### Concrete objects
+
+Even with a notion of cohesion, the general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
+
+Since 
+
+$$
+  \infty Grpd \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+  \mathbf{H}
+$$
+
+is a [[geometric embedding]], the reflector $\Gamma$ encodes the [[localization of an (∞,1)-category]] at a class of morphisms $W$, realizing $\infty Grpd$ as the [[reflective sub-(∞,1)-category]] on the $W$-[[local object]]s. This inclusion factors canonically through the corresponding [[quasitopos]] of $W$-[[separated presheaf|separated (∞,1)-sheaves]]
+
+$$
+  \infty Grpd 
+    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+   Conc(\mathbf{H})
+   \stackrel{\overset{concretizaton}{\leftarrow}}{\underset{}{\hookrightarrow}}
+   \mathbf{H}
+  \,.
+$$
+
+This encodes the [[concrete sheaf|concrete]] objects in $\mathbf{H}$.
+
+
 ### Concordance {#Concordance}
 
 Since $\mathbf{H}$ is an [[(∞,1)-topos]] it carries canonically
@@ -154,6 +213,15 @@ $$
   \tilde \mathbf{H}(X,Y) := \Pi(Y^X)
   \,.
 $$
+
+We have that
+
+$$
+  \tilde \mathbf{H}(X,\mathbf{B}G) = \Pi(\mathbf{B}G^X) 
+$$
+
+is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ and whose morphisms are $G$-principal bundles on the cylinder $X \times I$. These are _concordances of $\infty$-bundles._
+
 
 
 
@@ -256,15 +324,6 @@ Then
 
   If again $X = \mathbf{B}G$, then $\mathcal{B}G = |\Pi(\mathbf{B}G)|$ is the [[classifying space]] for the group $G$.
 
-With $\tilde \mathbf{H}$ the [concordance](#Concordance)-$(\infty,1)$-category of $\mathbf{H}$ we have that
-
-$$
-  \tilde \mathbf{H}(X,\mathbf{B}G) = \Pi(\mathbf{B}G^X) 
-$$
-
-is the $\infty$-groupoid whose objects are $G$-principal bundles on $X$ and whose morphisms are $G$-principal bundles on the cylinder $X \times I$. These are _concordances of $\infty$-bundles._
-
-
 Write 
 
 $$
@@ -305,225 +364,107 @@ Then unit and counit of the [[adjunction]]s give canonical natural morphisms
 
 ## Examples {#Examples}
 
-The [[(∞,1)-category of (∞,1)-sheaves]] on an [[(∞,1)-cohesive site]] is an cohesive $(\infty,1)$-topos (see there).
-
-This includes
-
-* the [[(∞,1)-category of (∞,1)-presheaves]] on any category with finite [[product]]s;
-
-* the $(\infty,1)$-topos $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoid]]s over the site [[CartSp]];
-
-* its infinitesimal thickening, the $(\infty,1)$-[[Cahiers topos]].
-
-
-
-
-
-### Smooth sets {#SmoothSets}
-
-Here we go in detail through a 1-categorical version of the above arguments, over the site of cohesion [[CartSp]]. Below in [infinity-Lie groupoids](#InfLieGrpd) we look at the full $(\infty,1)$-topos over this site.
-
-+-- {: .un_theorem}
-###### Theorem
-
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a cohesive topos over [[Set]].
-
-=--
-
-We first show that it is a [[locally connected topos]] in that the terminal [[global section]] [[geometric morphism]] to [[Set]] is an [[essential geometric morphism]]
-
-$$
-  Sh(CartSp)
-  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{L Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
-  Set
-$$
-
-and show that the extra [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ sends diffeological spaces to the set of path-[[connected]] components of their underlying [[topological space]]s.
-
-
-+-- {: .un_prop}
-###### Proposition
-
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is a [[locally connected topos]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The following argument works for every [[site]] $C$ which is such that constant presheaves on $C$ are already sheaves.
-
-Notice that this is the case for $C = CartSp$ because every Cartesian space is connected: for $S \in Set$ a compatible family of elements of $Const S$ on a cover $\{U_i \to \mathbb{R}^n\}$ of some $\mathbb{R}^n$ is an element of $S$ on each patch, such that their restriction maps to intersections of patches coincide. But the restriction maps are all identities, so this says that all these elements coincide. Therefore the set of compatible families is just the set $S$ itself, hence the presheaf $Const S$ is a sheaf.
-
-So with $L : PSh(C) \to Sh(C)$ the [[sheafification]] functor we have that $L Const S \simeq Const S$.
-
-Whenever this is the case the [[left adjoint]] to the constant presheaf functor, which always exists for presheaves and is given by the [[colimit]] functor, is also left adjoint on the level of sheaves, because for each $X \in Sh(C)$ and $S \in Set$ we have natural bijections
-
-$$
-  \begin{aligned}
-    Hom_{Sh(C)}(X, L Const S)
-    & =
-    Hom_{PSh(C)}(X, L Const S)
-    \\
-    & \simeq
-    Hom_{PSh(C)}(X, Const S)
-    \\
-    & \simeq
-    Hom_{Set}(\lim_\to X, S)
-  \end{aligned}
-  \,.
-$$
-
-=--
 
 +-- {: .un_def}
 ###### Definition
 
-Write $\Pi_0 := \lim_\to : Sh(CartSp) \to Set$
-for the [[left adjoint]] to $LConst : Set \stackrel{Const}{\to} PSh(C) \stackrel{L}{\to} Sh(C)$.
+An **$(\infty,1)$-cohesive** over [[∞Grpd]] is
+
+* a [[site]] -- a [[small category]] $C$ equipped with a [[coverage]];
+
+* with the property that
+
+  * it has finite [[product]]s, in particular a [[terminal object]] $*$;
+  
+  * for every [[covering]] family $\{U_i \to U\}$ in $C$ 
+
+    * the [[Cech nerve]] $C(U) \in [C^{op}, sSet]$ is degreewise 
+      a [[coproduct]] of [[representable functor|representables]];
+
+    * the [[simplicial set]] obtained by replacing each copy of a representable by a point is [[contractible]] (weakly equivalent to the 
+      point in the standard [[model structure on simplicial sets]])
+
+      $$
+        \lim_\to C(U) \stackrel{\simeq}{\to} *
+      $$
+
+    * the simplicial set of points in $C(U)$ is weakly equivalent to the set of points of $U$:
+
+      $$
+        Hom_C(*, C(U)) \stackrel{\simeq}{\to} Hom_C(*,U)
+        \,.
+      $$
+  
+=--
+
+
++-- {: .un_prop}
+###### Example/Proposition
+
+Examples of $(\infty,1)$-cohesive sites are
+
+* any category with finite [[product]]s and equipped with the trivial [[coverage]].
+
+* the [[full subcategory]] $TopBalls \subset$ [[Top]] on [[open ball]]s with the [[good open cover]] [[coverage]];
+
+* the site [[CartSp]] of [[Cartesian space]]s with [[smooth function]]s between them and [[good open cover]] [[coverage]].
+
+* the [[Cahiers topos]]-site [[ThCartSp]] of infinitesimally thickened Cartesian spaces.
 
 =--
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $X \in Sh(C)$ a diffeological space, $\Pi_0(X)$ is the set of path-connected components of the topological space underlying $X$.
+For $C$ an $(\infty,1)$-cohesive site, the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(C)$ is a cohesive $(\infty,1)$-topos.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the [[co-Yoneda lemma]] we may write 
-
-$$
-  X = {\lim_\to}_{(U \to X) \in y/X} U
-$$
-
-and since $\Pi_0$ commutes with colimits we have
-
-$$
-  \Pi_0(X) \simeq 
-  \Pi_0 {\lim_\to}_{(U \to X)} U
-  \simeq
-  {\lim_\to}_{(U \to X)} \Pi_0(U)
-  \,.
-$$
-
-But also by the co-Yoneda lemma we have that the [[colimit]] over any [[representable functor|representable]] is the singleton set, hence our expression
-
-$$
-  \cdots \simeq 
-  {\lim_\to}_{(U \to X)} *
-$$
-
-is the colimit over the category of plots of $X$ of the functor that is constant on the point. This colimit is the [[coproduct]] of points over the connected components of the [[diagram]] category.
-
-The connected components of the category of plots $y/X$ are the path-connected (or "plot-connected") components of the underlying topological space of $X$.
-
-
+See <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-cohesive+site#Properties">(∞,1)-cohesive site -- Properties</a>.
 
 =--
-
 
 +-- {: .un_prop}
-###### Proposition
+###### Example
 
-The [[sheaf topos]] $Sh(CartSp)$ on [[CartSp]] is even a [[connected topos]].
+* The $(\infty,1)$-topos $(\infty,1)Sh(TopBalls)$ is that of (generalized) **topological $(\infty,1)$-groupoids**.
+
+  Aspects of this are studied in 
+
+  * [[Dan Dugger]], _Sheaves and homotopy theory_ ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
+
+* The $(\infty,1)$-topos $(\infty,1)Sh(CartSp)$ is that of (generalized) [[∞-Lie groupoid]]s.
+
+  The 0-[[truncated]] [[concrete sheaf|concrete]] objects in this are precisely the [[diffeological space]]s. Accordingly the general concrete objects here we may think of as **diffeological $\infty$-groupoids**.
+
+* The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of (generalized) [[∞-Lie groupoid]]s that contain also [[infinitesimal object|infinitesimal]] $\infty$-Lie groupoids: [[∞-Lie algebroid]]s.
+
 
 =--
-
-+-- {: .proof}
-###### Proof
-
-Since $CartSp$ is a [[connected category]] it is immediate that $Const : Set \to PSh(CartSp)$ is a [[full and faithful functor]]. By the above this equals $L Const$, which is hence also full and faithful.
-
-By the discussion at [[connected topos]] we could equivalently convince ourselves that $\Pi_0$ preserves the terminal object. The terminal object of $Sh(CartSp)$ is $y(\mathbb{R}^0)$, hence representable. By the above, $\Pi_0$ sends all representable objects to the singleton set, which is the terminal object of $Set$. 
-
-=--
-
-### Diffeological spaces
-
-A _reflective localization_ at a collection of morphisms $W$ is a [[reflective subcategory]] on [[local object]]s, those $A$ for which for all $w \in W$ we have that $A^w$ is an isomorphism.
-
-We say a **quasi-localization** is similarly a full subcategory on objects such that $A^w$ in a [[monomorphism]].
-
-
-
-+-- {: .un_prop}
-###### Proposition
-
-The [[quasitopos]] of [[diffeological space]]s 
-
-$$
-  Diffeol \hookrightarrow Sh(CartSp)
-$$
-
-is the reflective quasi-localization at the counits  $Disc \Gamma U \to U$ for $U \in CartSp$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For $X \in Sh(CartSp)$ we have
-
-$$
-  Hom(Disc \Gamma U , X) 
-    \simeq
-  Hom_{Set}(\Gamma U , \Gamma X)
-  \,.
-$$
-
-So we need to check for which $X$ we have for all $U\in CartSp$ that
-
-$$
-  Hom(U,X) \to Hom_{Set}(\Gamma(U), \Gamma(X))
-$$
-
-is a monomorphism.
-
-The [[image]] of this morphism is $Hom(U, Conc(X))$, the plots of the [[concrete sheaf|concretization]] of $X$: the [[diffeological space]] underlying $X$. So we have a factorization of our morphism as
-
-$$
-   Hom(U,X) 
-    \hookrightarrow
-   Hom(U, Conc(X))
-   \hookrightarrow
-  Hom_{Set}(\Gamma U , \Gamma X)
-  \,,
-$$
-
-where the second morphims is a monomorphism. So for the total morphism to be a monomorphism we need that the image-projection is. But since that is already an epimorphism, it follows that we need that the image projection is an isomorphism, hence that $X$ is already a [[concrete sheaf]].
-
-So the concrete sheaves on $CartSp$, hence the [[diffeological space]]s, are precisely the quasi-localization at the morphisms $Disc \Gamma U \to U$.
-
-=--
-
-
-
-### $\infty$-Lie groupoids {#InfLieGrpd}
-
-As a special case of the above theorem, the [[(∞,1)-category of (∞,1)-sheaves]] $(\infty,1)Sh(CartSp) = $ [[?LieGrpd]] on [[CartSp]] is a cohesive $(\infty,1)$-topos over [[∞Grpd]]. (See there for the moment.)
-
 
 
 
 ## Applications
 
-* Every [[(∞,1)-topos]] comes with its intrinsic notion of [[cohomology]]. A cohesive $(\infty,1)$-topos comes with its intrinsic notion of [[schreiber:path ∞-groupoid]] and its intrinsic notion of [[schreiber:differential cohomology in an (∞,1)-topos]].
-
 * As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental [[physics]]. See [[higher category theory and physics]] for more on that.
 
 ## References
 
-The ordinary [[category theory]]-definition of a [[cohesive topos]] was proposed in
+The ordinary [[category theory|category theoretic]]-definition of a [[cohesive topos]] was proposed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 {#Lawvere}
 
-The observation that $Sh(CartSp)$ is a [[local topos]] and that this serves to characterize [[diffeological space]]s was amplified by [[David Carchedi]].
+The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
 
+The observation that the further right adjoint $Codisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
+
+Some discussion is at
+
+* [[Urs Schreiber]], _Cohesive $\infty$-Toposes_ ([blog entry](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html))
 
 [[!redirects cohesive (∞,1)-topos]]
 
