@@ -6,14 +6,72 @@
 
 ## Idea 
 
-A _[[Top|topological]] [[∞-groupoid]]_ is an [[internal ∞-groupoid]] in [[Top]]. As described there, a general interpretation of what that means is to say that this is an [[∞-stack]] on [[Top]].
+A _topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with [[topology]].
 
-## Homotopy invariance and topological spaces
+
+## Definition
+
+Let $TopBalls$ be the site of [[open ball]]s with the [[good open cover]] [[coverage]].
+
++-- {: .un_defn}
+###### Definition
+
+Define
+
+$$
+  \infty TopGrpd := (\infty,1)Sh(TopBalls)
+$$
+
+to be the [[(∞,1)-category of (∞,1)-sheaves]] on $TopBalls$.
+
+=--
+
++-- {: .un_lemma}
+###### Lemma
+
+
+This is a [[cohesive (∞,1)-topos]].
+
+=--
+
+$$
+  \infty TopGrpd
+  \stackrel{\stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
+  \infty Grpd
+  \,.
+$$
+
++-- {: .proof}
+###### Proof
+
+The site $TopBalls$ clearly satisfies the properties of a  [[(∞,1)-cohesive site]]. 
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+A **topological $\infty$-groupoid** is a [[concrete (∞,1)-sheaf]] on $TopBalls$. The [[(∞,1)-quasitopos]] of topological $\infty$-groupoids is
+
+$$
+  \infty Grpd
+   \hookrightarrow
+   Concr(\infty TopGrpd)
+  \stackrel{\overset{concretization}{\leftarrow}}{\hookrightarrow}
+  \infty TopGrpd
+  \,.
+$$
+
+=--
+
+
+## Properties
+
+### Homotopy invariance and topological spaces
 
 The sub-[[(∞,1)-category]] [[∞-stack]]s on [[Top]] (even on [[Diff]]) that are homotopy invariant is equivalent to plain [[∞Grpd]]. 
 
-
-### Idea
+**Idea**
 
 A central result about the [[(∞,1)-topos]] $Sh_{(\infty,1)}(Top)$ of [[∞-stack]]s on [[Top]] is that the [[homotopy localization]] is equivalent to [[Top]] itself
 
@@ -22,16 +80,13 @@ $$
   \,.
 $$
 
-A discussion of this is in (the nice but not quite finished)
-
-* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+A discussion of this is in (the nice but not quite finished) ([Dugger](#Dugger)).
 
 In fact, this is true even for [[Lie ∞-groupoid]]s, i.e. [[∞-stack]]s on [[Diff]]: the homotopy invariant ones model plain [[topological space]]s.
 
 This provides a useful resolution of [[topological space]]s that often helps to disentangle the two different roles played by a topological space: on the one hand as a model for an [[∞-groupoid]], in the other as a [[locale]].
 
-
-### Details
+**Details**
 
 Let $SPSh(Diff)^{loc}$ be the local [[model structure on simplicial presheaves]] obtained by left [[Bousfield localization of model categories|Bousfield localization]] at the [[Cech nerve]]s of 
 [[Cech cover]]s with respect to the standard [[Grothendieck topology]] on [[Diff]]. This is a [[models for ∞-stack (∞,1)-toposes|model for ∞-stacks]] on [[Diff]].
@@ -54,9 +109,20 @@ set, and where evaluates a simplicial presheaf on the manifold that is the [[poi
 
 This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the  standard [[model structure on simplicial sets]] on the left and the above model structure $SPSh(Diff)_{loc}^I$ on the right.
 
+## Related concepts
+
+* [[∞-groupoid]]
+
+* **topological $\infty$-groupoid**
+
+* [[smooth ∞-groupoid]]
+
+
+
 ## References
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
-
+{#Dugger}
 
 [[!redirects topological ∞-groupoid]]
+[[!redirects topological ∞-groupoids]]
