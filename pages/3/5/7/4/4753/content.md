@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
 =--
 =--
 
@@ -67,6 +71,10 @@ However, I do have another question, though this one arises out of curiosity rat
 
 _Ulrik_: Some quick remarks on your last questions: In impredicative type theory strong sums are inconsistent (by interpreting Girard's paradox again), so you can't form a type of meta-categories (you can still have types of types, you just can't sum over ALL types). As for NF (or NFU), the category of sets is not cartesian closed, which causes a host of problems.
 =--
+
+## Related concepts
+
+* [[fully formal definition of ETCS]]
 
 
 [[!redirects type-theoretic definition of category]]
