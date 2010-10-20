@@ -92,7 +92,7 @@ $$
   x s x' & \overset{\to}{\to} & x x' & \to x \otimes_s x'
 }
 $$
-where the parallel arrows are the two induced actions $\rho x'$ and $x \lambda$ on $s$.  It is straightforward, though a little tedious, to show that this is an $r,t$-bimodule, the conditions following from those on $x,x'$ together with the fact that coequalizers are [[epimorphism]]s and that (because of the condition on $K$) whiskering one reflexive coequalizer diagram on either side results in another.
+where the parallel arrows are the two induced actions $\rho x'$ and $x \lambda$ on $s$.  It is straightforward, though a little tedious, to show that this is an $r,t$-bimodule, the conditions following from those on $x,x'$ together with the fact that coequalizers are [[epimorphism]]s and that (because of the condition on $K$) [[whiskering]] one reflexive coequalizer diagram on either side results in another.
 
 If $K$ satisfies the above conditions then there is a bicategory $Mod(K)$ consisting of monads, bimodules and bimodule morphisms in $K$.
 
