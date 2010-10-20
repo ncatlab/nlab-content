@@ -15,15 +15,6 @@
 =--
 
 
-* [[(0,1)-topos]]
-
-* **topos**
-
-* [[2-topos]]
-
-* [[(∞,1)-sheaf]] / [[∞-stack]]
-
-***
 
 
 # Contents #
@@ -33,7 +24,7 @@
 
 ## Idea 
 
-A topos is a [[category]] that resembles the category [[Set]] of sets and functions enough that we can use it as a 'universe' to do ordinary mathematics in.  Ordinary mathematical reasoning (with some restrictions) suffices to prove results [[internalisation|internal]] to any topos.
+A _topos_ is a [[category]] that resembles the category [[Set]] of sets and functions enough that we can use it as a 'universe' to do ordinary mathematics in.  Ordinary mathematical reasoning (with some restrictions) suffices to prove results [[internalisation|internal]] to any topos.
 
 A topos in this sense is sometimes called an __elementary topos__ or a __Lawvere--Tierney topos__ to distinguish it from the original but more specific [[Grothendieck topos]].
 
@@ -41,7 +32,7 @@ While crucially different from [[abelian categories]], there is some intimate re
 
 ## Definition 
 
-A quick formal definition is that an **(elementary) topos** is a category which
+A quick formal definition is that an **(elementary) topos** is a [[category]] which
 
 1. has [[finitely complete category|finite limits]],
 1. is [[cartesian closed category|cartesian closed]], and
@@ -60,6 +51,14 @@ In a way, however, these concise definitions can be misleading, because a topos 
 *  a [[pretopos]].
 
 The last two imply that it has an [[internal logic]] that resembles ordinary mathematical reasoning, and the presence of exponentials and power objects means that this logic is [[higher order logic|higher order]].
+
+There are two kinds of morphisms between toposes that one considers:
+
+* [[geometric morphism]] -- this is the kind of morphism that regards a topos as a generalized [[topological space]].
+
+* [[logical morphism]] -- this is the kind of morphism that regards a topos in terms of its [[internal logic]].
+
+Accordingly there is a [[2-category]] [[Toposes]] of toposes.
 
 
 ## Reasoning in a topos 
@@ -132,6 +131,20 @@ The analogs of topos theory in [[higher category theory]] is [[higher topos theo
 * By [[negative thinking]], a [[(0,1)-topos]] is a [[Heyting algebra]].
 
 
+## Related entries
+
+* [[(0,1)-topos]]
+
+* **topos**
+
+* [[2-topos]]
+
+* [[(∞,1)-sheaf]] / [[∞-stack]]
+
+
+
+
+
 ## References {#References}
 
 For an introduction, try:
@@ -161,8 +174,6 @@ A standard textbook on this case is
 There is also
 
 * R. Goldblatt, _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983).
-
-
 
 
 
