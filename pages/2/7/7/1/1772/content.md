@@ -196,6 +196,12 @@ $$
 * The concrete sheaves on the [[concrete site]] [[CartSp]] are the [[diffeological space]]s.
 
 
+## Related concepts
+
+* **concrete sheaf**
+
+* [[concrete (∞,1)-sheaf]]
+
 
 ## References 
 
