@@ -25,7 +25,7 @@ For the other notion of homotopy grups in an $(\infty,1)$-topos see [[categorica
 
 ## Idea {#GeomIdea}
 
-An ordinary [[topos]] $E$ is a [[locally connected topos]] if the [[global section]]s [[geometric morphism]] $(LConst \dashv \Gamma) : E \stackrel{\overset{LConst}{\leftarrow}}{\overset{Gamma}{\to}} Set$ is in fact an [[essential geometric morphism]] in that $LConst$ has also a [[left adjoint]] $(\Pi_0 \dashv LConst)$:
+An ordinary [[topos]] $E$ is a [[locally connected topos]] if the [[global section]]s [[geometric morphism]] $(LConst \dashv \Gamma) : E \stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}} Set$ is in fact an [[essential geometric morphism]] in that $LConst$ has also a [[left adjoint]] $(\Pi_0 \dashv LConst)$:
 
 $$
   (\Pi_0 \dashv LConst \dashv \Gamma)
