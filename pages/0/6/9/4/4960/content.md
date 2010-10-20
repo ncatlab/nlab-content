@@ -225,7 +225,11 @@ The definition of a category of cohesion was proposed in
 
 This demands the conditions that "cohesive piece have points" and "pieces of powers are powers of pieces" as part of the definition of "category of cohesion".
 
+A hint of this definition and its interpretation can be found before in 
 
+* [[Bill Lawvere]] _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+
+on [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14).
 
 [[!redirects cohesive topos]]
 [[!redirects cohesive toposes]]
