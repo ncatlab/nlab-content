@@ -11,3 +11,5 @@ For noncommutative $C^*$-algebras the spaces of equivalence classes of irreducib
 [[!redirects Gel'fand spectrum]]
 [[!redirects Gel'fand spectrum]]
 [[!redirects Гельфанд sepctrum]]
+
+[[!redirects Gelfand duality]]
