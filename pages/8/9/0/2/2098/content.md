@@ -20,7 +20,11 @@ A _[[Michael Batanin|Batanin]] $\omega$-category_ is a [[weak ∞-category]] def
 
 The definition is similar to that of [[Trimble n-category]] (which is actually a special case of a Batanin $\omega$-category) and similar to the definition of [[Grothendieck-Maltsiniotis infinity-category]].
 
+## Morphisms
 
+When a weak $\infty$-category is modeled as a module over an $O$-operad, morphisms of modules $F : C \to D$ will correspond to _strict_  $\infty$ functors. To get weak $\infty$-functors one has to resolve $C$.
+
+One way to do this is described in ([Garner](#Garner)).
 
 ## References 
 
@@ -40,6 +44,10 @@ homotopy types_, ([pdf](http://arxiv.org/abs/math.AT/0604442))
 A nice introduction to this subject is:
 
 * Eugenia Cheng, _Batanin omega-groupoids and the homotopy hypothesis_, ([recorded lecture](http://www.fields.utoronto.ca/audio/06-07/highercat/cheng)) from the Fields Institute Workshop on Higher Categories and their Applications, January 10, 2007.
+
+A discussion of weak $\omega$-functors between Batanin $\omega$-categories is in
+
+* [[Richard Garner]], _Homomorphisms of higher categories_ ([web](http://www.comp.mq.edu.au/~rgarner/Womaps/Womaps.html)) 
 
 An application of Batanin weak $\omega$-groupoids to [[type theory]] appears in 
 
