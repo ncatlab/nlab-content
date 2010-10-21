@@ -3,6 +3,10 @@
 [[!include topos theory - contents]]
 </div>
 
+This page is about **direct images of sheaves** and related subjects.  For the set-theoretic operation, see [[image]].
+
+***
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
