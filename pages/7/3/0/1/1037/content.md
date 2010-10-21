@@ -523,9 +523,9 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 #### 6.3.1 Geometric morphisms
 
-* [[geometric morphism]]
+* [[(∞,1)-geometric morphism]]
 
-  * [[essential geometric morphism]]
+* [[(∞,1)Toposes]]
 
 #### 6.3.2 Colimits of $\infty$-topoi
 
