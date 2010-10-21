@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -9,7 +20,7 @@ A [[locally small category]] $C$ is **total** if its [[Yoneda embedding]] $C\to 
 
 The definition above requires some set-theoretic assumption to ensure that the [[functor category]] $[C^{op},Set]$ exists, but it can be rephrased to say that the [[colimit]] of $Id_C:C\to C$ [[weighted limit|weighted]] by $W$ exists, for any $W:C^{op}\to Set$.  (This still involves [[quantification]] over large objects, however, so some foundational care is needed.)  This version has an evident generalization to [[enriched category|enriched]] categories.
 
-Total categories satisfy a very satisfactory [[adjoint functor theorem]]: any colimit-preserving functor from a total category to a locally small category has a right adjoint.
+Total categories satisfy a very satisfactory [[adjoint functor theorem]]: any colimit-preserving functor from a total category to a locally small category has a [[right adjoint]].
 
 
 ## Examples
