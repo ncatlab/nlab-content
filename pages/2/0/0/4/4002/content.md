@@ -36,7 +36,17 @@ If $p\colon E\to F$ is locally connected, then it is connected if and only if th
 =--
 +-- {: .proof}
 ###### Proof
-This is C3.3.3 in the [[Elephant]].
+On the one hand, if $p^*$ is fully faithful, then the counit $p_! p^* \to \Id$ is an isomorphism, so we have $p_!(*) \cong p_!(p^*(*)) \cong *$; hence $p_!$ preserves the terminal object.
+
+On the other hand, suppose that $p_!$ preserves the terminal object.  Suppose also for simplicity that $F=Set$.  Then any set $A$ is the [[coproduct]] $\coprod_A *$ of $A$ copies of the terminal object.  But $p^*$ and $p_!$ both preserve coproducts (since they are left adjoints) and terminal objects (since $p^*$ is left exact, and by assumption for $p_!$), so we have
+$$
+p_!(p^*(A)) \cong p_!(p^*(\coprod_A *)) \cong \coprod_A p_!(p^*(*)) \cong \coprod_A * \cong A
+$$
+Thus, the counit $p_! p^* \to \Id$ is an isomorphism, so $p^*$ is fully faithful.
+
+When $F$ is not $Set$, we just have to replace ordinary coproducts with "$F$-indexed coproducts," regarding $E$ and $F$ as $F$-[[indexed category|indexed categories]].
+
+(This is C3.3.3 in the [[Elephant]].)
 =--
 
 Strengthenings of this condition include
@@ -44,34 +54,61 @@ Strengthenings of this condition include
 * a [[totally connected geometric morphism]], which is locally connected such that $p_!$ preserves all finite limits.
 
 
-## Examples
+## Connected locally connected sites
 
-
-The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[CartSp]] -- which contains the [[quasi-topos]] of [[diffeological space]] -- is a connected topos:
-
-crucially the site [[CartSp]] with its standard [[nLab:Grothendieck topology]] has the special property that a _constant presheaf_ is already a [[sheaf]]: since all the [[Cartesian space]]s are connected. So the [[constant sheaf]] functor
-
-$$
-  LConst := L \circ Const : Set \stackrel{Const}{\to} PSh(CartSp) 
-  \stackrel{L}{\to} Sh(CartSp)
-$$
-
-does not actually involve any [[sheafification]] and is really just the constant presheaf functor that happens to factor through sheaves.
-
-This implies that the [[left adjoint]] $\Pi_0 : Sh(CartSp) \to Set$ of $LConst = Const$, which always exists at the level of presheaves, where it is given by the [[colimit]] operation
-
-$$
-  \Pi_0 = \lim_\to
-$$
-
-is already also the left adjoint at the level of sheaves. By the [[co-Yoneda lemma]] the [[colimit]] over any [[representable presheaf]] is the singleton set
++--{: .un_prop}
+###### Proposition
+If $C$ is a [[locally connected site]] with a [[terminal object]], then the [[topos of sheaves]] $Sh(C)$ on $C$ is (not just locally connected) but connected.
+=--
++--{: .proof}
+###### Proof
+As explained at [[locally connected site]], when $C$ is locally connected, the left adjoint $Pi_0\colon Sh(C) \to Set$ simply obtained by taking [[colimits]] over $C^{op}$.  Now by the [[co-Yoneda lemma]], the [[colimit]] over any [[representable presheaf]] is a [[singleton]] (i.e. a terminal object in [[Set]]):
 
 $$
   \lim_\to y(V) = \int^{U \in C} C(U,V) = \int^{U \in C} C(U,V) \cdot * = *
   \,.
 $$ 
 
-For here $\Pi_0$ takes every [[Cartesian space]] $\mathbb{R}^n$ to the singleton, reflecting the fact that every Cartesian space is, indeed, conncected. So in particular the terminal object, which is represented by $\mathbb{R}^0$ is sent ot the singleton set. By the above proposition therefore $Sh(CartSp)$ is connected.
+But if $C$ has a terminal object, then that terminal object represents the terminal presheaf, which is also the terminal presheaf.  Hence under these conditions, $\Pi_0$ preserves the terminal object, so $Sh(C)$ is connected.
+=--
+
+## Orthogonality
+
++--{: .un_prop}
+###### Proposition
+Connected geometric morphisms are left [[orthogonal]] to [[etale geometric morphisms]] in the [[2-category]] [[Topos]].
+=--
++--{: .proof}
+###### Proof
+Since the functor $Topos^{op} \to Cat$ sending a topos to itself and a geometric morphism to its [[inverse image functor]] is 2-fully-faithful (an [[equivalence of categories|equivalence]] on [[hom-categories]]), connected morphisms are representably [[fully faithful morphism|co-fully-faithful]] in $Topos$.
+
+Therefore, for 2-categorical orthogonality it suffices to show that in any commutative (up to iso) square
+$$\array{ A & \xrightarrow{f} & B \\ ^p\downarrow & & \downarrow^q \\ C & \xrightarrow{g} & D}$$
+of geometric morphisms in which $p$ is connected and $q$ is etale, there exists a filler $h\colon C\to B$ such that $h p \cong f$ and $q h \cong g$.
+
+However, if $X\in D$ is such that $B \cong D/X$ (such exists by definition of $q$ being etale), then for any topos $E$ equipped with a geometric morphism $k\colon E\to D$, lifts of $k$ along $q$ are equivalent to morphisms $* \to k^*(X)$ in $C$.  In particular, $f$ is determined by a map $*\to f^*(q^*(X)) \cong p^*(g^*(X))$, and since $* \cong p^*(p_*(*))$ and $p^*$ is fully faithful, this map comes from a map $*\to g^*(X)$ in $C$, which in turn determines a geometric morphism $h\colon C\to B$ which is the desired filler.
+=--
+
++--{: .un_prop}
+###### Proposition
+Any locally connected geometric morphism factors as a connected and locally connected geometric morphism followed by an etale one.
+=--
++--{: .proof}
+###### Proof
+Given $f\colon E\to S$ locally connected, we can factor it as $E \to S/f_!(*) \to S$.  The second map is etale by definition, while the first is locally connected (the left adjoint is essentially $f_!$ again) and connected since it preserves the terminal object (by construction).
+=--
+
+In particular:
+
+* (Connected, Etale) is a [[factorization system in a 2-category|factorization system]] on the 2-category $LCTopos$ of toposes and locally connected geometric morphisms.
+
+* The category of etale geometric morphisms over a base topos $S$, which is equivalent to $S$ itself, is a [[reflective subcategory]] of the slice 2-category $LCTopos/S$.  The [[reflector]] constructs "$\Pi_0$ of a locally connected topos."
+
+These results all have generalizations to [[∞-connected (∞,1)-toposes]].
+
+## Examples
+
+* The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[CartSp]] -- which contains the [[quasi-topos]] of [[diffeological space]] -- is a connected topos, since the site [[CartSp]] is a locally connected site and contains a terminal object.
 
 
 ## Related concepts
