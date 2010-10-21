@@ -16,14 +16,14 @@
 
 ## Idea
 
-A [[sheaf]] $F$ on (the [[site]] [[category of open subsets|of open subsets]] of) a [[topological space]] $X$ corresponds to an [[étalé space]] $\pi_F : Y_F \to X$.  This space $Y_F$ has itself a [[sheaf topos]] associated to it, and the map $Y \to X$ induced a [[geometric morphism]] of [[sheaf topos]]es
+A [[sheaf]] $F$ on (the [[site]] [[category of open subsets|of open subsets]] of) a [[topological space]] $X$ corresponds to an [[étalé space]] $\pi_F : Y_F \to X$.  This space $Y_F$ has itself a [[sheaf topos]] associated to it, and the map $Y_F \to X$ induces a [[geometric morphism]] of [[sheaf topos]]es
 
 $$
   \pi_F : Sh(Y_F) \to Sh(X)
   \,.
 $$
 
-One find that due to the special nature of $Y$, the topos on the left is equivalent to the [[overcategory]] topos $Sh(X)/F$ and that the projection morphism above factors through a canonical standard [[geometric morphism]] $Sh(X)/F \to Sh(X)$
+Due to the special nature of $Y_F$, the topos on the left is equivalent to the [[overcategory]] topos $Sh(X)/F$, and the projection morphism above factors through a canonical standard [[geometric morphism]] $Sh(X)/F \to Sh(X)$
 
 $$
   \pi_F : Sh(Y_F) \stackrel{\simeq}{\to} Sh(X)/F \to Sh(X)
@@ -40,13 +40,13 @@ $$
 
 a **local homeomorphism of toposes** or **&#233;tale geometric morphism** if it factors as an equivalence followed by a projection out of an overcategory topos.
 
-In particular if the topos is a locally ringed topos, or [[structured (∞,1)-topos]] it makes sense to require that the local homeomorphism is compatible with the extra structure.
+If the topos is a locally ringed topos, or moro generally a [[structured (∞,1)-topos]], it makes sense to require additionally that the local homeomorphism is compatible with the extra structure.
 
 ## Definition
 
-For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], also the [[overcategory]] $\mathbf{H}_{/X}$ is a topos ($(\infty,1)$-topos, etc). This is sometimes called the [[petit topos]] associated to $X \in \mathbf{H}$.
+For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], the [[overcategory]] $\mathbf{H}_{/X}$ is also a topos ($(\infty,1)$-topos, etc). This is sometimes called the [[petit topos]] associated to $X \in \mathbf{H}$.
 
-The canonical projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ is part of an [[essential geometric morphism]]
+The canonical projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ is part of an [[essential geometric morphism|essential]] (in fact, [[locally connected geometric morphism|locally connected]]) geometric morphism:
 
 $$
   \pi = (\pi_! \dashv \pi^* \dashv \pi_*) : 
@@ -62,10 +62,8 @@ This is the [[base change geometric morphism]] for the terminal morphism $X \to 
 
 +-- {: .un_defn}
 ###### Definition
-
-A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors by geometric morphisms as  $\mathbf{K} \stackrel{\simeq}{\to} \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ up to an equivalence through such a projection, for some $X \in \mathbf{H}$ is called 
-**local homeomorphism of toposes** or an **&#233;tale geometric morphism**.
-
+A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ is called a
+**local homeomorphism of toposes**, or an **&#233;tale geometric morphism**, if it is equivalent to such a projection--- in other words, if it factors by geometric morphisms as $\mathbf{K} \stackrel{\simeq}{\to} \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ for some $X \in \mathbf{H}$ .
 =--
 
 ### For structured toposes
@@ -147,7 +145,7 @@ For [[(∞,1)-topos]]es this is [[Higher Topos Theory|HTT, prop. 6.3.5.11]].
 
 ## References
 
-The notion of local homeomorphisms of toposes is page xyz in
+The notion of local homeomorphisms of toposes is page 651 (chapter C3.3) of
 
 * [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
 
@@ -164,6 +162,6 @@ Discussion of the refinement to [[structured (∞,1)-topos]]es is in section 2.3
 [[!redirects etale geometric morphisms]]
 [[!redirects étale geometric morphism]]
 [[!redirects étale geometric morphisms]]
-
-
 [[!redirects locally homeomorphic geometric morphism]]
+[[!redirects local homeomorphism of toposes]]
+[[!redirects local homeomorphism of topoi]]
