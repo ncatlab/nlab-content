@@ -13,18 +13,6 @@
 =--
 =--
 
-* [[category theory]]
-
-* [[2-category theory]]
-
-* [[(∞,1)-category theory]]
-
-* [[higher category theory]]
-
-
-***
-
-
 
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_ .  This is appropriate for an encyclopedia.
 
