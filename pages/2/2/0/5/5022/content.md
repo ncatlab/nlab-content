@@ -17,7 +17,7 @@ A _frame_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{F} = (W,R)$ with $W$ 
 The terminology often used refers to $W$ as the set of possible worlds.  Its elements are sometimes called _worlds_, sometimes _states_, sometimes _points_, depending on the context and the whim of the writer.
 
 ## Models in Modal Logics ## 
-To give the standard semantics of modal logics one needs the models.  Again we look at the basic model language.
+To give the standard (geometric) semantics of modal logics one needs the models.  Again we look at the basic model language.
 
 +--{: .un_defn}
 ######Definition ######
@@ -28,6 +28,8 @@ A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)
 1. Informally we think of $V(p)$ as the set of 'worlds' in our model where $p$ is true.
 
 1. Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
+
+1. Frames give a **combinatorial** or **geometric** basis for the semantics of these logics.  There is also an algebraic semantics that will be examined in another entry. (To be done)
 
 ##Satisfaction##
 +--{: .un_defn}
