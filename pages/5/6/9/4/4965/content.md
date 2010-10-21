@@ -138,3 +138,5 @@
  
                                                       </g> 
 </svg> 
+
+[[!redirects Borromean rings - SVG]]
