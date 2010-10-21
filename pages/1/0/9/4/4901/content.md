@@ -9,11 +9,7 @@
 =--
 =--
 
-* [[loop space object]] / [[delooping]]
 
-* [[free loop space object]] / **derived loop space**
-
-***
 
 
 #Contents#
@@ -34,9 +30,19 @@ More specifically, if $T$ is an ordinary [[Lawvere theory]], regarded as a 1-tru
 
 The point is that the derived loop space of an ordinary $X \in T Alg^{op}$ in general is a significantly richer object than the free loop space object of $X$ as computed just in the underived $(\inftym1)$-topos $(\infty,1)Sh(T Alg^{op})$. In fact, since $X$ is 0-[[truncated]] in $(\infty,1)Sh(T Alg^{op})$, its coincides with its free loop space object there. But the derived loop space does not.
 
-## More
+## Function complexes on derived loop spaces: Hochschild homology
 
-For the moment see [[free loop space object]] for more informaiton.
+The function complex on the derived loop space $\mathcal{L}X$ is the [[Hochschild homology]] complex of $C(X)$. See there for further details.
+
+
+Also see [[free loop space object]] for more informaiton.
+
+## Related concepts
+
+* [[loop space object]] / [[delooping]]
+
+* [[free loop space object]] / **derived loop space**
+
 
 ## References
 
