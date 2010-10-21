@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include model category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -252,7 +258,7 @@ So this says that the weak equivalence classes of the commutative dg-algebras in
 
 This is in II.1.5 of 
 
-* [[Igor Kriz]] and [[Peter May]], _Operads, algebras, modules and motives_ , Ast&eacute;risque No 233 (1995)
+* [[Igor Kriz]] and [[Peter May]], _Operads, algebras, modules and motives_ , Ast&#233;risque No 233 (1995)
 
 =--
 
