@@ -328,7 +328,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Following the discussion at [[homotopy T-algebra]] we may model $T Alg_\infty$ by the _injective_ [[model structure on simplicial presheaves]] on $T^{op}$, [[Bousfield localization of model categories|left Bousfield localized]] at the morphisms $T[k] \coprod T[l] \to T[k+l]$, which we write $[T, sSet]_{inj,prod}$.
+In the following write $\otimes$ for the [[coproduct]] in $T Alg$.
+
+Following the discussion at [[homotopy T-algebra]] we may model $T Alg_\infty$ by the _injective_ [[model structure on simplicial presheaves]] on $T^{op}$, [[Bousfield localization of model categories|left Bousfield localized]] at the morphisms $T[k] \otimes T[l] \to T[k+l]$. This localized model structure we write $[T, sSet]_{inj,prod}$.
 
 Since left Bousfield localization does not affect cofibrations, we may, by the general recipe described at [[homotopy pushout]] compute the [[(∞,1)-colimit]]
 
@@ -338,7 +340,7 @@ $$
      \\
      \uparrow &\swArrow_{\simeq}& \uparrow
      \\
-     C(X) &\leftarrow& C(X) \coprod C(X)
+     C(X) &\leftarrow& C(X) \otimes C(X)
   }
 $$
 
@@ -350,7 +352,7 @@ $$
      \\
      \uparrow && \uparrow
      \\
-     Q C(X) &\leftarrow& C(X) \coprod C(X)
+     Q C(X) &\leftarrow& C(X) \otimes C(X)
   }
 $$
 
@@ -362,13 +364,13 @@ So we set
 $$
   Q C(X) :=
   \left(
-     \cdots C(X) \coprod C(X) \coprod C(X) \stackrel{\to}{\to} C(X) \coprod C(X)
+     \cdots C(X) \otimes C(X) \otimes C(X) \stackrel{\to}{\to} C(X) \otimes C(X)
   \right)
   \,.
 $$
 
 with the evident face and degeneracy maps given by binary product operation in the algebra and insertion of units. Take the morphism 
-$C(X) \coprod C(X) \to Q C(X)$ to be the inclusion of $C(X) \coprod C(X)$ as the two outer direct summands. This is clearly a monomorphism. That this is also indeed a weak equivalence in $[T,sSet]_{proj}$ and hence also in $[T,sSet]_{proj,prod}$ (since left Boufield localization just adds weak equivalence, does not remove any) is the standard statement about the acyclicity of the bar complex (for instance <a href="http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=16">page 16 here</a>).
+$C(X) \otimes C(X) \to Q C(X)$ to be the inclusion of $C(X) \otimes C(X)$ as the two outer direct summands. This is clearly a monomorphism. That this is also indeed a weak equivalence in $[T,sSet]_{proj}$ and hence also in $[T,sSet]_{proj,prod}$ (since left Boufield localization just adds weak equivalences, does not remove any) is the standard statement about the acyclicity of the bar complex (for instance <a href="http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=16">page 16 here</a>).
 
 We may now compute the pushout in $[T, sSet]$ and this will compute the desired homotopy pushout. Notice that this pushout indeed takes place just in simplicial copresheaves, not in product-preserving copresheaves! The nature of left Bousfield localization ensures that the result is nevertheless equivalent to the desired $(\infty,1)$-pushout of $\infty$-$T$-algebras.
 
