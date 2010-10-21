@@ -19,7 +19,7 @@
 =--
 
 
-This entry discusses fundamental [[physics]] from the [[nPOV]].
+This entry discusses fundamental physics from the [[nPOV]].
 
 #Contents#
 * automatic table of contents goes here
@@ -363,3 +363,5 @@ This idea was further refined in
 
 
 [[!redirects n-categorical physics]]
+
+[[!redirects Physics]]
