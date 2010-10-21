@@ -284,12 +284,102 @@ Notice that the function algebra on the derived loop space is just the different
 
 ## Details {#Details}
 
-...
 
-### The bar complex
+### Function algebra on derived loop space {#FuncsOnDerivedLoopSpace}
+
+Let $T$ be a [[Lawvere theory]]  (a [[category]] with [[product]]s such that every object is a power of a given generating object) that contains the theory of commutative $k$-algebras , regarded as an [[(∞,1)-algebraic theory]]. 
+
+We consider [[derived loop space]] objects in the category
+
+$$
+  C := T Alg_\infty^{op}
+$$
+
+of formal duals of $(\infty,1)$-$T$-algebras.
 
 
-> The bar complex is called the bar complex because its inventors wrote it down using lots of bars. If you don't believe this it shows that you have no idea how careless mathematicians can be about finding good terminology for the objects they hold in high esteem.
++-- {: .un_prop}
+###### Proposition
+
+Let $X \in T Alg^{op}$, hence $C(X) \in T Alg \hookrightarrow (\infty,1)T Alg$ be a [[T-algebra]], regarded as an $(\infty,1)$-$T$-algebra. 
+
+Let $\mathcal{L}X$ be the [[derived loop space]] object of $X$, given by the [[(∞,1)-colimit|(∞,1)-pullback]] 
+
+$$
+  \array{
+    \mathcal{L}X &\to& X
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    X &\to& X \times X
+  }
+$$
+
+in $T Alg_\infty^{op}$. Then  $C(\mathcal{L}X) \in T Alg_\infty$
+is such that 
+
+$$
+  \pi_k( C(\mathcal{L}X)) \simeq HH_k(C(X))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Following the discussion at [[homotopy T-algebra]] we may model $T Alg_\infty$ by the _injective_ [[model structure on simplicial presheaves]] on $T^{op}$, [[Bousfield localization of model categories|left Bousfield localized]] at the morphisms $T[k] \coprod T[l] \to T[k+l]$, which we write $[T, sSet]_{inj,prod}$.
+
+Since left Bousfield localization does not affect cofibrations, we may, by the general recipe described at [[homotopy pushout]] compute the [[(∞,1)-colimit]]
+
+$$
+  \array{
+     C(\mathcal{L}X) &\leftarrow& C(X)
+     \\
+     \uparrow &\swArrow_{\simeq}& \uparrow
+     \\
+     C(X) &\leftarrow& C(X) \coprod C(X)
+  }
+$$
+
+in $T Alg_\infty$ by an ordinary [[pushout]]
+
+$$
+  \array{
+     C(\mathcal{L}X) &\leftarrow& C(X)
+     \\
+     \uparrow && \uparrow
+     \\
+     Q C(X) &\leftarrow& C(X) \coprod C(X)
+  }
+$$
+
+
+where $Q C(X)$ is some [[resolution]] of $C(X)$ such that the bottom morphism is a cofibration. Since we are in the _injective_ model structure this just means that this morphism need to be a monomorphism. If we find $Q C(X)$ also as a strictly product-preserving functor as $C(X)$ then it being monic over the generating object implies that it is monic over every object.
+
+So we set
+
+$$
+  Q C(X) :=
+  \left(
+     \cdots C(X) \coprod C(X) \coprod C(X) \stackrel{\to}{\to} C(X) \coprod C(X)
+  \right)
+  \,.
+$$
+
+with the evident face and degeneracy maps given by binary product operation in the algebra and insertion of units. Take the morphism 
+$C(X) \coprod C(X) \to Q C(X)$ to be the inclusion of $C(X) \coprod C(X)$ as the two outer direct summands. This is clearly a monomorphism. That this is also indeed a weak equivalence in $[T,sSet]_{proj}$ and hence also in $[T,sSet]_{proj,prod}$ (since left Boufield localization just adds weak equivalence, does not remove any) is the standard statement about the acyclicity of the bar complex (for instance <a href="http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=16">page 16 here</a>).
+
+We may now compute the pushout in $[T, sSet]$ and this will compute the desired homotopy pushout. Notice that this pushout indeed takes place just in simplicial copresheaves, not in product-preserving copresheaves! The nature of left Bousfield localization ensures that the result is nevertheless equivalent to the desired $(\infty,1)$-pushout of $\infty$-$T$-algebras.
+
+But this ordinary pushout it manifestly the claimed one.
+
+=--
+
+
+
+
+
 
 ### Hochschild cohomology and extensions {#Extensions}
 
