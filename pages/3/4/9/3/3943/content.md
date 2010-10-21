@@ -1,9 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
-
-
+=--
+=--
+=--
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -33,6 +37,12 @@ Let $F = C \to D$ be an [[(∞,1)-functor]] between [[locally presentable (∞,1
 This is [[Higher Topos Theory|HTT, cor. 5.5.2.9]].
 
 =--
+
+## Related concepts
+
+* [[adjoint functor theorem]]
+
+* adjoint $(\infty,1)$-functor theorem
 
 
 ## References
