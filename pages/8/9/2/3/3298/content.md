@@ -1,7 +1,17 @@
-<div class="rightHandSide toc">
-[[!include cohomology - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -170,7 +180,7 @@ the [[free loop space object]] $\mathcal{L}X$
 with coefficients in $C$:
 
 $$
-  HH(X) = \mathbf{K}(\mathcal{L}X, C) =: C(\mathcal{L}X)
+  HH(X) = \mathbf{H}(\mathcal{L}X, C) =: C(\mathcal{L}X)
   \,.
 $$
 
@@ -190,11 +200,11 @@ as
 
 $$
   \cdots \simeq C(X) \otimes_{C(X)\otimes C(X)^{op}}
-   \infty Mod(X)
+   C(X)
   \,.
 $$
 
-This is hence indeed the Hochschild homology object $HH_\bullet(A) = A \otimes_{A \otimes A^{op}}$ 
+This is hence indeed the Hochschild homology object $HH_\bullet(A) = A \otimes_{A \otimes A^{op}} A$ 
 of the algebra object $A = \infty Mod(X)$, regarded  as a bimodule over itself.
 
 More generally, let $f : Y \to X$ be a morphism in $\mathbf{H}$ and 
