@@ -120,8 +120,7 @@ As another example, the [[identity types]] in Martin-L&#246;f's original constru
 
 ### In physics {#Physics}
 
-
-> the entry [[higher category theory and physics]] should eventually contain some decent material, but at the moment it is just a sketch of a sketch
+See also [[higher category theory and physics]].
 
 #### Classical mechanics and its geometric quantization {#ClassMech}
 
