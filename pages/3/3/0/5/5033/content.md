@@ -17,11 +17,11 @@
 
 ## Idea
 
-The collection of all [[(∞,1)-topos]]es. The [[(∞,1)-category]]-theory analog of [[Toposes]].
+The collection of all [[(∞,1)-topos]]es. The [[(∞,1)-category]]-theory analog of [[Topos]].
 
 ## Definition
 
-**$(\infty,1)$Toposes** is the (non-full) [[sub-(∞,1)-category]] of [[(∞,1)Cat]] on [[(∞,1)-toposes]] and $(\infty,1)$-geometric morphisms between them.
+**$(\infty,1)\,Topos$** (or **$(\infty,1)\,Toposes$**) is the (non-full) [[sub-(∞,1)-category]] of [[(∞,1)Cat]] on [[(∞,1)-toposes]] and $(\infty,1)$-geometric morphisms between them.
 
 
 +-- {: .un_def}
@@ -131,5 +131,17 @@ section 6.3 in
 [[!redirects (infinity,1)Toposes]]
 
 
-
 category: categories
+
+[[!redirects (infinity,1)Topos]]
+[[!redirects (infinity,1)Topoi]]
+[[!redirects (infinity,1)Toposes]]
+[[!redirects (infinity,1)-Topos]]
+[[!redirects (infinity,1)-Topoi]]
+[[!redirects (infinity,1)-Toposes]]
+[[!redirects (∞,1)Topos]]
+[[!redirects (∞,1)Topoi]]
+[[!redirects (∞,1)Toposes]]
+[[!redirects (∞,1)-Topos]]
+[[!redirects (∞,1)-Topoi]]
+[[!redirects (∞,1)-Toposes]]
