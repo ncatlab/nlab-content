@@ -301,7 +301,7 @@ $$
   }
 $$ 
 
-(where this diagram commutes up to a universal equivalence [[2-morphism]]). Hence we may identify 
+(where this diagram commutes up to a universal equivalence [[2-morphism]]). Hence we may notationally identify 
 
 $$
   \mathbf{B}\mathfrak{g} := Lie(\mathbf{B}G)
@@ -314,7 +314,18 @@ $$
   \mathbf{B}\mathfrak{g} \to \mathbf{B}G
 $$
 
-includes an $\infty$-Lie algebra as the collection of infinitesimal $k$-morphisms for all $k$ into the corresponding cohesive $\infty$-group.
+includes an $\infty$-Lie algebra as the collection of infinitesimal $k$-morphisms for all $k$ into the corresponding cohesive $\infty$-group. This is [[Lie theory|Lie differentiation]]. Notice that _Lie differentiation of morphisms_  is exhibited by the coreflector diagrams
+
+$$
+  \array{
+    \mathbf{B}\mathfrak{h} &\stackrel{Lie(f)}{\to}& \mathbf{B}\mathfrak{g}
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    \mathbf{B}H &\stackrel{f}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
 
 ### Concordance {#Concordance}
 
