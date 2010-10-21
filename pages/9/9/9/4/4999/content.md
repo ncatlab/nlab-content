@@ -17,6 +17,8 @@ It is usual to classify them using their axiom systems, but also in terms of the
 
 *  [[epistemic logics]];
 
+*  [[dynamic logic]];
+
 
 (this list may get added to later).
 
