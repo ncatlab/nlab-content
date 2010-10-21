@@ -29,7 +29,7 @@ A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)
 
 1. Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
 
-1. Frames give a **combinatorial** or **geometric** basis for the semantics of these logics.  There is also an algebraic semantics that will be examined in another entry. (To be done)
+1. Frames give a **combinatorial** or **geometric** basis for the semantics of these logics.  There is also an **algebraic** semantics that will be examined in another entry. (To be done)
 
 ##Satisfaction##
 +--{: .un_defn}
