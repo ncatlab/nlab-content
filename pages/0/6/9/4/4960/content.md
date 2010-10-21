@@ -117,21 +117,17 @@ is **cohesive** if it has the following [[stuff, structure, property|properties]
 We say **cohesive pieces have points** in $E$ if the [[natural transformation]]
 
 $$
-  f_*  
-    \stackrel{\simeq}{\to} 
-  f_* ( f^*  f_* )
-    \stackrel{}{\to}
-  f_* ( Id ) 
-    \stackrel{}{\to}
-  f_*( f^* f_! )
-    \stackrel{\simeq}{\to}
-  f_!
+  f_* X
+  \stackrel{f_* (\iota)}{\to}
+  f_* f^* f_! X
+  \stackrel{\simeq}{\to}
+  f_! X
 $$
 
 is an [[epimorphism]]. This is equivalent to the transformation
 
 $$
-  f^* \to f^!
+  f^* \stackrel{\simeq}{\to} f^* f_* f^! \stackrel{\epsilon \cdot f^!}{\to} f^!
 $$
 
 being a [[monomorphism]].
