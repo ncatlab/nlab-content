@@ -289,9 +289,19 @@ $$
   \,.
 $$
 
-We may think of this as saying that the morphism out of the infinitesimal $\mathbf{B}\mathfrak{h}$ can be sent by a morphism $\mathbf{B}\mathfrak{h} \to \mathbf{B}G$ only to infinitesimal morphism in $\mathbf{B}G$.
+We may think of this as saying that the morphism out of the infinitesimal $\mathbf{B}\mathfrak{h}$ can be sent by a morphism $\mathbf{B}\mathfrak{h} \to \mathbf{B}G$ only to infinitesimal morphism in $\mathbf{B}G$. Precisely: by the <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">universal factorization property of adjunction counits</a> we have that every morphism $\phi : \mathbf{B}\mathfrak{h} \to \mathbf{B}G$ factors universally through $Lie \mathbf{B}G$:
 
-Hence we may identify 
+$$
+  \array{   
+    \mathbf{B}\mathfrak{h} &\stackrel{\exists !}{\to}& \mathbf{B}\mathfrak{g}
+    \\
+    & {}_{\mathllap{\phi}}\searrow & \downarrow
+    \\
+    && \mathbf{B}G
+  }
+$$ 
+
+(where this diagram commutes up to a universal equivalence [[2-morphism]]). Hence we may identify 
 
 $$
   \mathbf{B}\mathfrak{g} := Lie(\mathbf{B}G)
