@@ -30,18 +30,27 @@ The problem with this argument is, of course, that in general the comma category
 +-- {: .un_theorem}
 ###### Theorem
 
-If the [[category]] $D$ has [[limit]]s of the size of its set of objects (and $(c/G)$ is usually this large), then it is a [[preorder]].  
+If (in some universe $U$) a $U$-small [[category]] $D$ has [[product]]s of families of objects whose size is at least that of its set of morphisms, then $D$ is a [[preorder]].  
 
 In other words: any [[small category|small]] [[complete category]] is a [[preorder]].  
 
 =--
 
-Thus, at least we have a **adjoint functor theorem for posets**: 
++-- {: .proof}
+######Proof
+Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are two morphisms $f, g: x \stackrel{\to}{\to} y$. Then the set of morphisms 
+
+$$x \to \prod_{f \in Mor(D)} y$$ 
+
+has cardinality $2^{|Mor(D)|} \gt |Mor(D)|$, which is a contradiction. 
+=-- 
+
+Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
 
 +-- {: .un_theorem}
 ###### Theorem
 
-If $G:D\to C$ is any functor between (small) preorders such that $D$ has, and $G$ preserves, all small [[join]]s, then $G$ has a left adjoint.
+If $G:D\to C$ is any functor between (small) preorders such that $D$ has, and $G$ preserves, all small [[meet]]s, then $G$ has a left adjoint.
 
 =--
 
@@ -50,7 +59,7 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 +-- {: .un_theorem}
 ###### Theorem
 
-Sufficient conditions for a limit-preseving functor $G : D \to C$ to be a [[right adjoint]] include:
+Sufficient conditions for a limit-preserving functor $G : D \to C$ to be a [[right adjoint]] include:
 
 * $D$ is [[complete category|complete]] and [[locally small category|locally small]], and $G$ satisfies the [[solution set condition]].  
 
@@ -87,7 +96,7 @@ $$
   }
 $$
 
-commutes. We give some limit conditions that guarantee existence of an initial object. 
+commutes. Now an initial object is the limit of the identity functor, but this is generally a large limit; we replace this with some small limit conditions that guarantee existence of an initial object. 
 
 1. Let $Y$ be a category. Call a small family of objects $F$ _weakly initial_ if for every object $y$ of $Y$ there exists $x \in F$ and a morphism $f: x \to y$. 
 
@@ -95,7 +104,7 @@ commutes. We give some limit conditions that guarantee existence of an initial o
 
 1. **Claim:** Suppose $Y$ is locally small and small complete. If $x$ is a weakly initial object, then the domain $e$ of the joint equalizer $i: e \to x$ of all arrows $x \to x$ is an initial object. **Proof:** clearly $e$ is weakly initial. Suppose given an object $y$ and arrows $f, g: e \to y$; we must show $f = g$. Let $j: d \to e$ be the equalizer of $f$ and $g$. There exists an arrow $k: x \to d$. The arrow $i: e \to x$ equalizes $1_x$ and $i j k: x \to x$, so $i j k i = i$. Since $i$ is monic, $j (k i) = 1_e$. Since $j (k i) j = j$ and $j$ is monic, $(k i) j = 1_d$. Hence $j$ is an iso, and therefore $f = g$. 
 
-If $C$ is locally small and small-complete and $R: C \to D$ preserves limits, then $d \downarrow R$ is locally small and small complete for every object $d$ of $D$. 
+If $C$ is locally small and small-complete and $R: C \to D$ preserves limits, then $d \downarrow R$ is locally small and small-complete for every object $d$ of $D$. 
 
 If in addition each $d \downarrow R$ has a weakly initial family (solution set condition), then by 2. and 3. each $d \downarrow R$ has an initial object. This restates the condition that $R$ has a left adjoint.
 
