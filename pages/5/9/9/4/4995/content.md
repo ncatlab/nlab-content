@@ -275,13 +275,14 @@ $$
 This is the analog of [theorem 2](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf#page=5) in ([Lawvere](#Lawvere)).
 
 +-- {: .proof}
-###### Proof
+###### Proof (or almost)
 
-Since in a cohesive $(\infty,1)$-topos $\Gamma$ is a [[left adjoint]], it preseves [[(∞,1)-colimit]]s, as does $\Pi$. It follows that $\mathbf{L}$ is closed under [[(∞,1)-colimit]]s and the inclusion into $\mathbf{H}$ preserves these (since by definition $\mathbf{L}$ is the _full_ sub-$(\infty,1)$-catgeory). By the [[adjoint (∞,1)-functor theorem]] it follows that a [[right adjoint]] $Lie : \mathbf{H} \to \mathbf{L}$ exists.
+Since in a cohesive $(\infty,1)$-topos $\Gamma$ is a [[left adjoint]], it preserves [[(∞,1)-colimit]]s, as does $\Pi$. It follows that $\mathbf{L}$ is closed under [[(∞,1)-colimit]]s and the inclusion into $\mathbf{H}$ preserves these (since by definition $\mathbf{L}$ is the _full_ sub-$(\infty,1)$-catgeory). Therefore for the [[adjoint (∞,1)-functor theorem]] to imply that a [[right adjoint]] $Lie : \mathbf{H} \to \mathbf{L}$ exists it is sufficient that $\mathbf{L}$ is [[locally presentable (∞,1)-category|locally presentable]]. Since we already have that it is closed under colimits, this is the case if it is [[accessible (∞,1)-category|accessible]].
 
+In the 1-categorical analog of this statement at <a href="http://ncatlab.org/nlab/show/cohesive+topos#Properties">cohesive topos -- Properties</a> the analogous statement follows from the fact -- stated at <a href="http://ncatlab.org/nlab/show/accessible+(infinity%2C1)-category#StabilityUnderOperations">accessible category -- Properties</a> -- that $\mathbf{L}$ is the [[inverter]] of $\Gamma \to \Pi$ and that $AccCat$ is closed under [[2-limit]]s. 
+
+The analagous statement _should_ be true for $(\infty,1)AccCat$ and would thus complete the proof.
 =--
-
-> **warning**: there is a gap in this proof: to apply the adjoint $(\infty,1)$-functor theoem we need that with $\mathbf{H}$ also $\mathbf{L}$ is a [[locally presentable (∞,1)-category]]. This would follow if we had that $\mathbf{L}$ is also reflective. In Lawvere's argument this follows if $\Gamma X \to \Pi X$ is epi. So maybe we need to assume this at this point. By the discussion at [[(∞,1)-cohesive site]] this assumption is fulfilled for cohesive $(\infty,1)$-toposes on $(\infty,1)$-cohesive sites.
 
 
 Examples of objects in $\mathbf{L}$ are _infinitesimal_ cohesive $\infty$-groups: [[∞-Lie algebroid|∞-Lie algebras]] $\mathbf{B}\mathfrak{g}$. For the moment, see there for more details in this.
