@@ -101,12 +101,13 @@
 
 ### for $\infty$-algebras
 
-* [[model structure on simplicial T-algebras]]
+* [[model structure on simplicial T-algebras]], on [[homotopy T-algebra]]s
 
-* [[model structure on dg-algebras|on dg-algebras]]/[[model structure on dg-coalgebras|on dg-coalgebras]] and on [[simplicial ring|on simplicial rings]][[model structure on cosimplicial rings|on cosimplicial rings]] 
+* [[model structure on dg-algebras|on dg-algebras]] and on [[simplicial ring|on simplicial rings]]/[[model structure on cosimplicial rings|on cosimplicial rings]] 
 
   related by the [[monoidal Dold-Kan correspondence]]
 
+* [[model structure on dg-Lie algebras|on dg-Lie algebras]] / [[model structure on dg-coalgebras|on dg-coalgebras]]
 
 ### for $(\infty,1)$-categories
 
