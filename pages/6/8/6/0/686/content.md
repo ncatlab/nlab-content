@@ -1,11 +1,32 @@
-# Idea #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea 
 
 In general, a _2-limit_ is the sort of limit appropriate in a (weak) [[2-category]].  See [[2-limit]] for details.  However, when we happen to be in a [[strict 2-category]] we also have another notion at our disposal.  Since strict 2-categories are just categories  [[enriched category|enriched]] over [[Cat]], we can apply the usual notions of [[weighted limit]]s in enriched categories verbatim.  (Historically, these were called _2-limits_ while the up-to-isomorphism limits were called _bilimits_.)
 
 Because enriched category theory doesn't know anything about the 2-categorical nature of Cat, the resulting limits can have cones that commute strictly and have universal properties expressed by isomorphisms of categories; thus they can be [[evil]].  However, such strict limits often turn out to be technically useful even if we are fundamentally only interested in the non-srict notions, since in many strict 2-categories we can use tools of enriched category theory to construct strict limits, and then by considering suitably non-evil strict limits we can construct (non-strict) limits.  This is reminiscent of the use of strict structures in [[homotopy theory]] as a tool to get at weak ones, and in fact a precise comparison can be made (see below).
 
 
-# Classification #
+## Classification 
 
 By a **limit** we will mean the fully 2-categorical notion described at [[2-limit]], in which cones commute up to isomorphism and the universal property is expressed by an equivalence of categories.
 
@@ -24,12 +45,12 @@ Heh, you're right.  I suppose we could try calling strict initial objects _stabl
 More generally, any non-[[evil]] strict limit (one which doesn't demand equality of objects) will also be a limit.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also a limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits (strict) PIE-limits also admits all limits, even if it fails to admit some (evil) strict limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
 
 
-# Pseudo limits and homotopy limits #
+## Pseudo limits and homotopy limits 
 
 If there is a [[model category]] structure on the 1-category underlying the given strict 2-category $C$, then in addition to whatever 2-categorical notions of limit exist in $C$, there is the notion of [[homotopy limit]]s in $C$.  If $C$ is a [[model 2-category]] with the "trivial" or "natural" model structure constructed in (Lack 2006), then these two notions coincide (Gambino 2007).  For example, this is the case in [[Cat]] and [[Grpd]], so the examples listed at [[homotopy limit]] are also examples of pseudo limits.  In general, homotopy limits in a model 2-category give (non-strict) limits in its "homotopy 2-category."
 
 
-# Examples #
+## Examples 
 
 Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict products, strict pullbacks, strict equalizers, and so on.  Of these, strict products (including terminal objects) are non-evil (and thus are also limits), while others such as pullbacks and equalizers tend to be evil.
 
@@ -74,14 +95,14 @@ Here are some more important examples of 2-limits, all of which come in strict a
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.
 
 
-# References #
+## References 
 
-* Street, "Limits indexed by category-valued 2-functors"
+* [[Ross Street]], _Limits indexed by category-valued 2-functors_
 
-* Kelly, "Elementary observations on 2-categorical limits"
+* [[Max Kelly]], _Elementary observations on 2-categorical limits_
 
-* Steve Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+* [[Steve Lack]], _A 2-categories companion_ ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535))
 
-* Steve Lack, Homotopy theoretic aspects of 2-monads at [math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646).
+* [[Steve Lack]], _Homotopy theoretic aspects of 2-monads- ([arXiv:math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646)).
 
-* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
+* [[Nicola Gambino]], _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
