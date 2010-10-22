@@ -70,7 +70,7 @@ In the first two cases, which work by replacing large limits by small ones, it s
 +-- {: .proof}
 ###### Proof
 
-Here is a sketch of the proof that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satifies the [[solution set condition]].
+Here is a proof that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satifies the [[solution set condition]]. 
 
 From the discussion at <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">adjoint functors -- In terms of universal arrows</a> we have that the existence of the adjoint is equivalent to the existence for each $d \in D$ of an [[initial object]] $i_d : d \to R L d$ in the [[comma category]] $(d \downarrow R)$: an object such that for each $f : d' \to R d$ there is a unique $\tilde f$ such that 
 
@@ -87,31 +87,17 @@ $$
   }
 $$
 
-commutes.
+commutes. We give some limit conditions that guarantee existence of an initial object. 
 
-In terms of this the solution set condition says equivalent that there is a [[small set]] $S_d \subset Obj(d\downarrow R)$ such that for every object $f \in (d\downarrow R)$ there is a morphism $s \to f$ to it out of some $s \in S_d$.
+1. Let $Y$ be a category. Call a small family of objects $F$ _weakly initial_ if for every object $y$ of $Y$ there exists $x \in F$ and a morphism $f: x \to y$. 
 
-Using that $C$ has all limits and that $R$ preserves them it follows that $(d\downarow R)$ has all limits. Moreover, since $C$ is locally small so is $(d \downarrow R)$.
+1. Suppose $Y$ has small products. If $F$ is a weakly initial family, then $\prod_{x \in F} x$ is a [[weak multilimit|weakly initial]] object. 
 
-Write $\mathcal{S}_d$ for the [[full subcategory]] of $(d\downarrow R)$ on the objects in $S_d$. By assumption on $S_d$ this is a [[small category]]. 
+1. **Claim:** Suppose $Y$ is locally small and small complete. If $x$ is a weakly initial object, then the domain $e$ of the joint equalizer $i: e \to x$ of all arrows $x \to x$ is an initial object. **Proof:** clearly $e$ is weakly initial. Suppose given an object $y$ and arrows $f, g: e \to y$; we must show $f = g$. Let $j: d \to e$ be the equalizer of $f$ and $g$. There exists an arrow $k: x \to d$. The arrow $i: e \to x$ equalizes $1_x$ and $i j k: x \to x$, so $i j k i = i$. Since $i$ is monic, $j (k i) = 1_e$. Since $j (k i) j = j$ and $j$ is monic, $(k i) j = 1_d$. Hence $j$ is an iso, and therefore $f = g$. 
 
-Consider now the [[limit]] in $(d \downarrow R)$ over the inclusion
+If $C$ is locally small and small-complete and $R: C \to D$ preserves limits, then $d \downarrow R$ is locally small and small complete for every object $d$ of $D$. 
 
-$$
-  x_0 := \lim_{\leftarrow} (\mathcal{S} \hookrightarrow (d\downarrow R))
-  \,.
-$$
-
-This is almost the initial object that we need: let moreover 
-
-$$
-  x := \lim_{\leftarrow} ( \mathbf{B}End(x_0) \hookrightarrow  (d \downarrow R) )
-$$
-
-be limit over the inclusion of the 1-object category of [[endomorphism]]s on $x_0$. 
-
-This is an initial object in $(d \downarrow R)$.
-
+If in addition each $d \downarrow R$ has a weakly initial family (solution set condition), then by 2. and 3. each $d \downarrow R$ has an initial object. This restates the condition that $R$ has a left adjoint.
 
 =--
 
