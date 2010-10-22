@@ -42,7 +42,7 @@ This is [[Higher Topos Theory|HTT, cor. 5.5.2.9]].
 
 * [[adjoint functor theorem]]
 
-* adjoint $(\infty,1)$-functor theorem
+* **adjoint $(\infty,1)$-functor theorem**
 
 
 ## References
