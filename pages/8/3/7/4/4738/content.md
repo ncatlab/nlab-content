@@ -167,4 +167,13 @@ A result relating $(\infty,0)$-anafunctors to [[∞-groupoid]]-[[bibundle]]s has
 * [[Christian Blohmann]], [[Chenchang Zhu]], ([blog](http://golem.ph.utexas.edu/category/2010/08/minicourse_on_nonabelian_diffe.html#c034648))
 {#BlohmannZhu}
 
+[[!redirects infinity-anafunctors]]
+
 [[!redirects ∞-anafunctor]]
+[[!redirects ∞-anafunctors]]
+
+[[!redirects 2-anafunctor]]
+[[!redirects 2-anafunctors]]
+
+[[!redirects 3-anafunctor]]
+[[!redirects 3-anafunctors]]
