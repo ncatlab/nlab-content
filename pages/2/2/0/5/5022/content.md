@@ -64,18 +64,20 @@ Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively
 ###What is a valuation?###
 In the definition of a Kripke model the valuation is all important.  It is what puts meaning onto the frame. It is very useful to push this idea around through a couple of adjunctions and reinterpretations. The process is fairly intuitive, but it pays to do things reasonably formally:
 
-1. Note that the power set $\mathcal{P}(W)$ can also be written as $\mathbb{2}^W$ the set of functions from $W$ to $\mathcal{2}$, where we write $\mathbb{2}$ for the 'set' of classical [[truth values]], $\{\bot \to \top\}$, or $\{true,false\}$, or $\{0,1\}$ or .... 
+1. Note that the power set $\mathcal{P}(W)$ can also be written as $\mathbb{2}^W$ the set of functions from $W$ to $\mathbb{2}$, where we write $\mathbb{2}$ for the 'set' of classical [[truth values]], $\{\bot \to \top\}$, or $\{true,false\}$, or $\{0,1\}$ or ... .   We wrote 'set' in inverted commas for several reasons:
+
+* Firstly an important role here is played by the multiple structures that $\mathbb{2}$ has. It is a [[Heyting algebra]]; it has a natural [[poset]] structure; it is the [[subobject classifier]] in the [[topos]] of sets, and so on. In fact it is the source of most of the logic semantic structure within this context.  Its structure induces similar structures on the powerset, $\mathcal{P}(W)$, given by union etc, that made the semantics work above.
+
+* Next note that although we said 'set' we could do a lot of this in other settings.  For instance we could work within a more general topos with an object of possible worlds and an opject of propositions. We would need the extra [[Heyting algebra]] structure on what would there probably be written as $\Omega$, and our negation interpretation would be more subtle.
+
+* Finally we could categorify things.  For the moment we will leave this aside, but note the discussion at [[truth value]]
 
 
-We wrote 'set' in inverted commas for several reasons.  
-  * Firstly an important role here is played by the multiple structures that $\mathbb{2}$ has. It is a [[Heyting algebra]]; it has a natural [[poset]] structure; it is the [[subobject classifier]] in the [[topos]] of sets, and so on. In fact it is the source of most of the logic semantic structure within this context.  Its structure induces similar structures on the powerset, $\mathcal{P}(W)$, given by union etc, that made the semantics work above.
+1.  For convenience we will write $P$ for $Prop$, then a valuation is $V: P\to \mathbb{2}^W$, and using  co[[currying]] this corresponds to $V: P\times W\to \mathbb{2}$.  That of course correpons to a subset of $P\times W$.  That subset consists of all pairs, $(p,w)$, for which $w\in V(p)$ so  interprets as the set of pairs in which the proposition $p$ is 'true' in world $w$.
 
-  * Next note that although we said 'set' we could do a lot of this in other settings.  For instance we could work within a more general topos with an object of possible worlds and an opject of propositions. We would need the extra [[Heyting algebra]] structure on what would there probably be written as $\Omega$, and our negation interpretation would be more subtle.
-
-  * Finally we could categorify things.  For the moment we will leave this aside, but note the discussion at [[truth value]]
+1.  We could re[[currying|curry]] to get $V$ to correspond to $\tilde{V}: W \to \mathcal{P}(P)$, so that $\tilde{V}(w)$ is the set of propositions true about the world $w$.
 
 
-1.  For convenience we will write $P$ for $Prop$, then a valuation is $V: P\to \mathbb{2}^W$, and using  co[[currying]] this corresponds to $V: P\times W\to \mathbb{2}$.  That of course correpons to a subset of $P\times W$.  That subset consists of all pairs $(p,w)$ for which $w\in V(p)$ so  interprets as the set of pairs in which the proposition $p$ is 'true' in world $w$.
 
 
 ## References## 
