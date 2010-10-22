@@ -83,9 +83,11 @@ This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
 
 +-- {: .un_prop}
 ###### Proposition (closure under limits)
-
 The [[2-category]] $Acc$ of accessible categories, accessible functors, and natural transformations has all small [[2-limits]].
-
+=--
++-- {: .proof}
+###### Proof
+This can be found in Makkai-Par&#233;.  Some special cases are proven in Ad&#225;mek and Rosicky.
 =--
 
 +-- {: .un_prop}
