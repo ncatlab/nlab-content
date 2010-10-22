@@ -112,6 +112,42 @@ Because the [[model structure on simplicial presheaves]] is and left [[Bousfield
 
 =--
 
++-- {: .un_lemma}
+###### Lemma
+
+The inclusion 
+
+$$
+  i : T Alg^{\Delta^{op}} \hookrightarrow [T,sSet]
+$$
+
+has a [[left adjoint]] 
+
+$$
+  F : [T,sSet] \to T Alg^{\Delta^{op}}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[limit]]s in $T Alg$ are easily seen to be limits in the underlying sets. Hence $i$ preserves all limits. The statement then follows by observing that the assumptions of the special [[adjoint functor theorem]] are met:
+
+* $T Alg$ is complete;
+
+* it is a [[well powered category]] since $[T,Set]$ is and the subobject in $T Alg$ are special subobjects in $[T,Set]$;
+
+* it has a small [[cogenerating set]] given by the representables.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+An explicit description of $F$ is around [[Higher Topos Theory|HTT, lemma 5.5.9.5]].
+
+=--
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -119,14 +155,14 @@ Because the [[model structure on simplicial presheaves]] is and left [[Bousfield
 
 Let $T Alg^{\Delta^{op}}_{proj}$ be the category of [[simplicial object|simplcial]] [[T-algebra]]s equipped with the standard [[model structure on simplicial algebras]] (with weak equivalences and fibrations the degreewise weak equivalences and fibrations in simplicial sets).
 
-The adjunction (which is degreewise the corresponding adjunction described at [[T-algebra]])
+The adjunction from the previous lemma
 
 $$
-  T Alg^{\Delta^{op}} \stackrel{\leftarrow}{\hookrightarrow}
+  T Alg^{\Delta^{op}} \stackrel{\overset{F}{\leftarrow}}{\hookrightarrow}
   [T,sSet] = [T,Set]^{\Delta^{op}}
 $$
 
-is a [[Quillen equivalence]]
+is a [[Quillen adjunction]] which is a [[Quillen equivalence]]
 
 $$
   T Alg^{\Delta^{op}}_{proj} \simeq
