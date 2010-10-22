@@ -9,17 +9,6 @@
 =--
 =--
 
-* [[group cohomology]]
-
-  * [[nonabelian group cohomology]], [[groupoid cohomology]]
-
-* **group extension**
-
-* [[Lie group cohomology]] 
-
-  * [[∞-Lie groupoid cohomology]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -53,6 +42,64 @@ commutative diagram
 }\]
 
 ## Properties
+
+### Central group extensions {#CentralExtensions}
+
+Let $A \to G \to H$ be a _central_ extension, with $A$ an [[abelian group]] included in the [[center]] of $G$. Then $A$ is in particular a [[normal subgroup]] and hence the morphism
+
+$$
+  (A \to G)
+$$ 
+
+may be regarded as a [[crossed module]] of groups. This is equivalently a [[strict 2-group]] structure on the [[groupoid]] whose objects are $G$ and whose morphisms are labeled in $A$
+
+$$
+  (A \to G) = 
+  \{ 
+     g \stackrel{a}{\to} a \cdot g
+  \}
+  \,.
+$$
+
+The [[delooping]] of this is the one-object [[2-groupoid]] $\mathbf{B}(A \to G)$.
+
+The [[∞-nerve]] (or [[Duskin nerve]]) $N \mathbf{B}(A \to G) \in $ [[sSet]] of this is a (3-[[coskeleton|coskeletal]]) [[Kan complex]] that realizes this is a 2-[[truncated]]  [[infinity-groupoid]].
+
+The obvious strict [[2-functor]]
+
+$$
+  \mathbf{B}(A \to G) \to \mathbf{B}H
+$$
+
+is an equivalence of 2-groupoids. One way to see this is to notice that this is a [[k-surjective functor]] for all $k \in \{0,1,2,3\}$, hence a weak equivalence in the [[folk model structure]] on $\omega$-groupoids. Equivalently, under the [[nerve]]
+
+$$
+  N\mathbf{B}(A \to G) \to N \mathbf{B}H
+$$
+
+is an acyclic [[Kan fibration]], hence a weak equivalence in the standard [[model structure on simplicial sets]].
+
+This weak equivalence is the tool to extend the short exact sequence $A \to G \to H$ to the corresponding long [[fiber sequence]]. In the [[(∞,1)-category]] of [[∞Grpd]] this goes
+
+$$
+  A \to G \to H \to \mathbf{B}A \to \mathbf{B}G \to \mathbf{B}H \to \mathbf{B}^2 A
+  \,.
+$$
+
+The last step is _modeled_ in terms of strict [[n-functor]]s between [[strict ∞-groupoid]]s by the [[2-anafunctor]]
+
+$$
+  \array{
+     \mathbf{B}(A \to G) &\to & \mathbf{B}(A \to 1) = \mathbf{B}^2 A
+     \\
+     {}^{\mathrlap{\simeq}}\downarrow
+     \\
+     \mathbf{B}H
+  }
+  \,.
+$$
+
+Conversely, this $\mathbf{B}H \to \mathbf{B}^2 A$ is the [[cocycle]] that classifies the [[principal 2-bundle]] $\mathbf{B}G \to \mathbf{B}A$ (which one may think of as the [[bundle gerbe]] over $\mathbf{B}H$ classified by $\mathbf{B}H \to \mathbf{B}^2 A$).
 
 ### Torsors {#Torsors}
 
@@ -699,7 +746,21 @@ One may regard the above from the [[nPOV]] as a special case of the way cocycles
 * [[nonabelian group cohomology]].
 
 
-## Literature
+## Related concepts
+
+* [[group cohomology]]
+
+  * [[nonabelian group cohomology]], [[groupoid cohomology]]
+
+* **group extension**
+
+* [[Lie group cohomology]] 
+
+  * [[∞-Lie groupoid cohomology]]
+
+
+
+## References
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], Cohomology theory in abstract groups. II. Group extensions with a non-Abelian kernel.  Ann. of Math. (2)  48,  (1947). 326--341 [jstor](http://www.jstor.org/pss/1969174)
 
@@ -722,3 +783,9 @@ See also references of Dedecker listed [[zoranskoda:Paul Dedecker|here]].
 
 [[!redirects Schreier's theory]]
 [[!redirects Schreier theory]]
+
+[[!redirects central extension]]
+[[!redirects central extensions]]
+
+[[!redirects group extension]]
+[[!redirects group extensions]]
