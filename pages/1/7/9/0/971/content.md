@@ -47,7 +47,7 @@ The important notion of functor between accessible categories is an **[[accessib
 
 * A [[small category]] is accessible precisely when it is [[idempotent complete category|idempotent complete]].  Makkai--Par&#233; say that this means accessibility is an "almost pure smallness condition."
 
-* A functor out of an accessible category that preserves $\kappa$-[[filztered colimit]]s for some [[regular cardinal]] $\kappa$ is an [[accessible functor]].
+* A functor out of an accessible category that preserves $\kappa$-[[filtered colimit]]s for some [[regular cardinal]] $\kappa$ is an [[accessible functor]].
 
 ## Properties {#Properties}
 
@@ -79,11 +79,21 @@ Let $C$ be a [[combinatorial model category]], $Arr(C)$ its [[arrow category]], 
 This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
 =--
 
-In addition:
 
-* The [[2-category]] $Acc$ of accessible categories, accessible functors, and natural transformations has all small [[2-limits]].
 
-* Every accessible functor satisfies the [[solution-set condition]], and every left or right adjoint between accessible categories is accessible.  Therefore, the [[adjoint functor theorem]] takes an especially pleasing form for accessible categories: a functor is a left (resp. right) adjoint iff it is accessible and preserves all small colimits (resp. limits).
++-- {: .un_prop}
+###### Proposition (closure under limits)
+
+The [[2-category]] $Acc$ of accessible categories, accessible functors, and natural transformations has all small [[2-limits]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition (adjoint functors)
+
+Every accessible functor satisfies the [[solution set condition]], and every left or right adjoint between accessible categories is accessible.  Therefore, the [[adjoint functor theorem]] takes an especially pleasing form for accessible categories: a functor is a left (resp. right) adjoint iff it is accessible and preserves all small colimits (resp. limits).
+
+=--
 
 
 ## References 
