@@ -15,12 +15,11 @@ This establishes a statement (theorem 5.3) that characterizes [[∞-stack]]s (ov
 
 1. and respect [[(∞,1)-limit|(∞,1)-pullback]]s
 
-with those arising by [[Lie integration]] from an [[∞-Lie algebra]] $\mathfrak{g}$
+with those associated to an [[∞-Lie algebra]] $\mathfrak{g}$ in the sense of 
 
-$$
-  X \simeq \exp(\mathfrak{g})
-  \,.
-$$
+* [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
+
+The construction is then generalized to noncommutative geometry.
 
 
 category: reference
