@@ -203,6 +203,99 @@ This encodes the [[concrete (∞,1)-sheaf|concrete]] objects in $\mathbf{H}$.
 
 
 
+### Infinitesimal objects {#InfinitesimalObjects}
+
+
++-- {: .un_lemma}
+###### Observation
+
+In a cohesive $(\infty,1)$-topos there is a canonical natural morphism
+
+$$
+ \Gamma X \to \Pi X
+$$
+
+and a canonical natural morphism
+
+$$
+  Disc S \to Codisc S
+  \,.
+$$
+
+=--
+
+These are the composites
+
+$$
+  \Gamma X \stackrel{\Gamma(\iota_X)}{\to} \Gamma Disc \Pi X
+  \stackrel{\simeq}{\to}
+  \Pi X
+$$
+
+and
+
+$$
+  Disc S \stackrel{\simeq}{\to} Disc \Gamma Codisc S
+  \stackrel{\epsilon_{Codisc S}}{\to}
+  Codisc S
+$$
+
+where the weak equivalences are inverses to the corresponding units and counits which themselves are weak equivalences by the condition that $Disc$ and $Codisc$ be full and faithul.
+
+
++-- {: .un_def}
+###### Definition
+
+Write 
+
+$$
+  \mathbf{L} \hookrightarrow \mathbf{H}
+$$
+
+for the full [[sub-(∞,1)-category]] on those objects $X \in \mathbf{H}$ for which $\Gamma X \to \Pi X$ is an [[equivalence in a quasi-category|equivalence]] in [[∞Grpd]].
+
+We call this the sub-$(\infty,1)$-category of **infinitesimally thickened discrete objects** of $\mathbf{H}$.
+
+=--
+
++-- {: .un_proposition}
+###### Propositon
+
+This is a [[coreflective subcategory]]
+
+$$  
+  (i \dashv Lie ) : 
+  \mathbf{L} \stackrel{\overset{}{\hookrightarrow}}{\underset{Lie}{\leftarrow}}
+  \mathbf{H}
+  \,.
+$$
+
+=--
+
+This is the analog of [theorem 2](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf#page=5) in ([Lawvere](#Lawvere)).
+
++-- {: .proof}
+###### Proof
+
+Since in a cohesive $(\infty,1)$-topos $\Gamma$ is a [[left adjoint]], it preseves [[(∞,1)-colimit]]s, as does $\Pi$. It follows that $\mathbf{L}$ is closed under [[(∞,1)-colimit]]s and the inclusion into $\mathbf{H}$ preserves these (since by definition $\mathbf{L}$ is the _full_ sub-$(\infty,1)$-catgeory). By the [[adjoint (∞,1)-functor theorem]] it follows that a [[right adjoint]] $Lie : \mathbf{H} \to \mathbf{L}$ exists.
+
+=--
+
+> **warning**: there is a gap in this proof: to apply the adjoint $(\infty,1)$-functor theoem we need that with $\mathbf{H}$ also $\mathbf{L}$ is a [[locally presentable (∞,1)-category]]. This would follow if we had that $\mathbf{L}$ is also reflective. In Lawvere's argument this follows if $\Gamma X \to \Pi X$ is epi. So maybe we need to assume this at this point. By the discussion at [[(∞,1)-cohesive site]] this assumption is fulfilled for cohesive $(\infty,1)$-toposes on $(\infty,1)$-cohesive sites.
+
+
+Examples of objects in $\mathbf{L}$ are _infinitesimal_ cohesive $\infty$-groups: [[∞-Lie algebroid|∞-Lie algebras]] $\mathbf{B}\mathfrak{g}$. For the moment, see there for more details in this.
+
+The coreflector $Lie : \mathbf{H} \to \mathbf{L}$ acts as discretization combined with Lie-differentiation: for $\mathbf{B}\mathfrak{h} \in \mathbf{L} \hookrightarrow \mathbf{H}$ and $\mathbf{B}G \in \mathbf{H}$ we have
+
+$$
+  \mathbf{H}(\mathbf{B}\mathfrak{h}, \mathbf{B}G)
+  \simeq
+  \mathbf{H}(\mathbf{B}\mathfrak{h}, Lie(\mathbf{B}G))
+  \,.
+$$
+
+
 ### Concordance {#Concordance}
 
 Since $\mathbf{H}$ is an [[(∞,1)-topos]] it carries canonically
