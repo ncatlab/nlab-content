@@ -87,7 +87,7 @@ The [[2-category]] $Acc$ of accessible categories, accessible functors, and natu
 =--
 +-- {: .proof}
 ###### Proof
-This can be found in Makkai-Par&#233;.  Some special cases are proven in Ad&#225;mek and Rosicky.
+This can be found in [Makkai-Par&#233;](MakkaiPare).  Some special cases are proven in Ad&#225;mek and Rosicky.
 =--
 
 +-- {: .un_prop}
@@ -102,12 +102,13 @@ Every accessible functor satisfies the [[solution set condition]], and every lef
 
 The term _accessible category_ is due to
 
-* Makkai, Par&#233; 1989. 
+* Makkai, Par&#233;, _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical
+Society, Rhode Island, 1989.1989. 
+{#MakkaiPare}
 
 The standard textbook on the theory of accessible categories is
 
-* Ad&#225;mek and Rosicky, _Locally Presentable and Accessible Categories_. Cambridge University Press, Cambridge,
-1994. 
+* Ad&#225;mek and Rosicky, _Locally Presentable and Accessible Categories_  Cambridge University Press, Cambridge, (1994). 
 
 A discussion of [[accessible (infinity,1)-category|accessible (infinity,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
 of
