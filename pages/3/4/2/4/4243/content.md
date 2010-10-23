@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
@@ -27,6 +31,11 @@ One can also define an A-model for [[Landau-Ginzburg model|Landau–Ginzburg mod
 
 By [[homological mirror symmetry]], the A-model is dual to the  [[B-model]].
 
+## Lagrangian
+
+The [[action functional]] of the A-model is that associated by [[AKSZ theory]] to a Lagrangian sumbaifold in a target [[symplectic Lie n-algebroid]] which is the [[Poisson Lie algebroid]] of a [[symplectic manifold]].
+
+See the [references on Lagrangian formulation](#LagrangianLit).
 
 ## Boundary theory
 
@@ -53,6 +62,23 @@ The motivation from the point of view of [[string theory]] is reviewed for insta
 A summary of these two reviews is in 
 
 * H. Lee, _Review of topological field theory and homological mirror symmetry_ ([pdf](http://people.maths.ox.ac.uk/leeh/files/CYMSmini.pdf))
+
+### Action functional {#LagrangianLit}
+
+Discussion of how the A-model Lagrangian arises in [[AKSZ theory]]: 
+
+around page 19 in
+
+* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
+{#AKSZ}
+
+section 5.3 of 
+
+* Francesco Bonechi, [[Maxim Zabzine]], _Poisson sigma model on the sphere_ ([arXiv:0706.3164](http://arxiv.org/abs/0706.3164))
+
+Also
+
+* Noriaki Ikeda, _Deformation of graded (Batalin-Volkvisky) Structures_ in Dito, Lu, Maeda, Weinstein (eds.) _Poisson geometry in mathematics and physics_ Contemp. Math. 450, AMS (2008) 
 
 
 [[!redirects A-model]]
