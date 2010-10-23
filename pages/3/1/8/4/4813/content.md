@@ -3,13 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
-=--
-#### $\infty$-Chern-Weil theory
-+--{: .hide}
-[[!include infinity-Chern-Weil theory - contents]]
 =--
 =--
 =--
