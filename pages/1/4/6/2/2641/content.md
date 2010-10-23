@@ -56,6 +56,15 @@ Relevant topics in a full account will include
 
 Much lies ahead... 
 
+## Tentative notes, to be expanded on... 
+
+In the first place, physicists tend to be a little carefree with the mathematics, so this account is written from the point of view of a 'stupid' mathematician (for the moment Todd Trimble) who wants to get details straight and precise. 
+
+For example, physicists tend to talk about "eigenstates" as if they were elements of the Hilbert space, and other states as linear combinations of eigenstates, whereas really we are dealing with some more complicated technology like rigged Hilbert spaces or direct integrals instead of direct sums. Failure to mention such details places hurdles of communication between physicists and mathematicians. In addition, there are stylistic differences in presentation, where a physicist will happily deal with formulas replete with lots of subscripts and superscripts, whereas many mathematicians prefer dealing with more conceptual, less notation-heavy explanations. 
+
+### Rigged Hilbert spaces 
+
+
 
 [[!redirects unitary irreps of the Poincare group]]
 [[!redirects unitary irrep of the Poincaré group]]
