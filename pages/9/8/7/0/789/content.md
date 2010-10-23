@@ -1,6 +1,22 @@
-<div class="rightHandSide toc">
+
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -8,7 +24,12 @@
 
 ## Idea
 
-Generalized complex geometry is effectively the study of the [[Lie infinity-algebroid|Lie 2-algebroid]]s called the  [[standard Courant algebroid]]s $\mathfrak{c}(X)$ of [[manifold]]s $X$. 
+What is called _generalized complex geometry_ is the study of the geometry of [[symplectic Lie n-algebroid|symplectic Lie 2-algebroid]] called [[standard Courant algebroid]]s $\mathfrak{c}(X)$ (over a [[smooth manifold]] $X$). 
+
+This geometry of symplectic Lie 2-algebroids turns out to unify, among other things, [[complex geometry]] with [[symplectic geometry]]. This unification notably captures central aspects of [[T-duality]].
+
+
+## Properties
 
 One finds (as described at [[standard Courant algebroid]]) that
 
