@@ -1,7 +1,21 @@
-<div class="rightHandSide toc">
-[[!include physicscontents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
 
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
@@ -12,7 +26,9 @@
 
 ## Idea
 
-Chern-Simons theory is the [[sigma-model]] [[TQFT]] whose target space is the smooth [[delooping]] $\mathbf{B}G$ of a [[Lie group]] $G$ and whose baackground [[gauge field]] is a [[Chern-Simons 2-gerbe]] on $\mathbf{B}G$.
+Chern-Simons theory is the [[sigma-model]] [[TQFT]] whose target space is the smooth [[delooping]] $\mathbf{B}G$ of a simple [[Lie group]] $G$ and whose background [[gauge field]] is the [[Chern-Simons 2-gerbe]] on $\mathbf{B}G$.
+
+This is the [[schreiber:∞-Chern-Simons theory]] induced from the canonical [[Chern-Simons element]] on a [[semisimple Lie algebra]] $\mathfrak{g}$.
 
 For $G$ a discrete group the corresponding (much simpler) theory is [[Dijkgraaf-Witten theory]].
 
@@ -20,7 +36,7 @@ For $G$ a discrete group the corresponding (much simpler) theory is [[Dijkgraaf-
 
 The words "Chern--Simons theory" can mean various things to various people, but here it generally refers to the three-dimensional [[TQFT|topological quantum field theory]] introduced by [[Edward Witten]] in his seminal paper from 1989, ["Quantum field theory and the Jones polynomial"](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), the paper which went a large way to him obtaining the Fields medal. 
 
-In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons form|Chern–Simons]] [[action functional]] $S[A]$:
+In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons form|Chern?Simons]] [[action functional]] $S[A]$:
 \[
  V_K(q) = \int_{all\,connections\,A\,on\,M} Tr Hol_A (K) exp iS[A]
 \]
@@ -28,7 +44,7 @@ where
 \[
 S[A] = \frac{k}{4\pi} \int_M Tr (A \wedge dA + \frac{2}{3} A \wedge A \wedge A)
 \]
-is the integral of the [[Chern-Simons form|Chern–Simons action]], 
+is the integral of the [[Chern-Simons form|Chern?Simons action]], 
 \[
  Tr Hol_A (K) 
 \]
@@ -77,7 +93,7 @@ Still others think of the [[2-category]] assigned to the [[point]] in different 
 
 We have only focused on the "purely [[higher category theory|n-categorical]]" aspects of Chern--Simons theory so far and ignored hundreds of tremendously important topics, such as: 
 
-* The idea of [[transgression]], and the significance of the [[Chern-Simons form|Chern–Simons form]]
+* The idea of [[transgression]], and the significance of the [[Chern-Simons form|Chern?Simons form]]
 * Chern--Simons theory as a [[string theory]]
 * Large $N$ duality
 * The [[BV-theory|Batalin-Vilkovisky]] viewpoint
@@ -129,6 +145,7 @@ One question that's been bugging me (Ben Webster) recently is what fills in the 
 
 Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?_  I'm inclined to think there must be one, as it seems that all of the knot homologies associated by Chern--Simons theory to representations have categorifications (I have a [mostly finished paper](http://math.mit.edu/~bwebster/KI-HRT.pdf) on this).  Presumably these all glue together into something, possibly by a similar trick to the Reshetikhin-Turaev construction of 3-manifold invariants, but it's not so easy for me to see how.
 
+
 ## References  
 
 Long list of references should eventually go here. For the moment there is:
@@ -139,5 +156,5 @@ Long list of references should eventually go here. For the moment there is:
 
 
 [[!redirects Chern-Simons theory]]
-[[!redirects Chern–Simons theory]]
+[[!redirects Chern?Simons theory]]
 [[!redirects Chern--Simons theory]]
