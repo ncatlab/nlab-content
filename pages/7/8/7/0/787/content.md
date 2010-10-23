@@ -87,6 +87,11 @@ The [[standard Courant algebroid]] of a [[manifold]] $X$ is the one which
 
 Such a standard Courant algebroid may be understood as the higher analog of the  [[Atiyah Lie algebroid]] of a line bundle (...explain...).
 
+## Properties
+
+### Chern-Simons element
+
+As every [[symplectic Lie n-algeboid]] the defining [[invariant polynomial]] on a Courant Lie 2-algebroid transgresses to a cocycle in [[∞-Lie algebroid cohomology]] and this transgression is witnessed by a [[Chern-Simons element]]. The [[schreiber:∞-Chern-Simons theory]] induced by this element is the [[Courant sigma-model]].
 
 ## References
 
