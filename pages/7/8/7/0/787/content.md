@@ -16,9 +16,7 @@
 
 ## Idea
 
-A **Courant algebroid** -- or better: **Courant Lie 2-algebroid** -- is a Lie-algebraic structure encoding a [[n-symplectic manifold|2-symplectic manifold]].
-
-Various different incarnations of this data are considered in the literature. Following ([Roytenberg](#RoytenbergStructure)) we may identify a Courant algebroid as a [[Lie infinity-algebroid|Lie 2-algebroid]] that generalizes the notion of [[Poisson Lie algebroid]] to one degree higher:
+A **Courant algebroid** -- or better: **Courant Lie 2-algebroid** -- a [[symplectic Lie n-algebroid|symplectic Lie 2-algebroid]] ([Roytenberg](#RoytenbergStructure)):
 
 on its defining [[Chevalley-Eilenberg algebra]] $CE(\Theta)$ exists a graded Poisson bracket $\{-,-\}$ of degree $-2$ and in it a degree 3 element $\Theta$ -- the higher analog of the [[Poisson Lie algebroid|Poisson bivector]] $\pi$ -- such that the differential on $CE(\theta)$ is
 
@@ -27,7 +25,7 @@ $$
   \,.
 $$
 
-In the literature, this Lie 2-algebroid perspective on Courant algebroids is not usually considered. Instead, by the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is thought of as a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
+In the traditional literature, this Lie 2-algebroid perspective on Courant algebroids is not usually considered. Instead, by the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is thought of as a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
 
 The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was considered by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
 
@@ -89,9 +87,23 @@ Such a standard Courant algebroid may be understood as the higher analog of the 
 
 ## Properties
 
-### Chern-Simons element
+### Generalized complex geometry
 
-As every [[symplectic Lie n-algeboid]] the defining [[invariant polynomial]] on a Courant Lie 2-algebroid transgresses to a cocycle in [[∞-Lie algebroid cohomology]] and this transgression is witnessed by a [[Chern-Simons element]]. The [[schreiber:∞-Chern-Simons theory]] induced by this element is the [[Courant sigma-model]].
+The study of Courant algebroids is to a large extent known as [[generalized complex geometry]].
+
+### Chern-Simons element and Courant $\sigma$-model
+
+As every [[symplectic Lie n-algebroid]] the defining [[invariant polynomial]] on a Courant Lie 2-algebroid transgresses to a cocycle in [[∞-Lie algebroid cohomology]] and this transgression is witnessed by a [[Chern-Simons element]]. The [[schreiber:∞-Chern-Simons theory]] induced by this element is the [[Courant sigma-model]].
+
+## Related concepts
+
+* [[symplectic Lie n-algebroid]]
+
+  * [[symplectic manifold]]
+
+  * [[Poisson Lie algebroid]]
+ 
+  * **Courant algebroid**
 
 ## References
 
