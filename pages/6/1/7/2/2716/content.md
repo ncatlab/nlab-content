@@ -1,3 +1,4 @@
+[[!redirects n-symplectic manifold]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,51 +16,150 @@
 
 ## Idea
 
-An _$n$-symplectic manifold_ is to an ordinary [[symplectic manifold]] as an [[L-infinity algebroid|Lie n-algebroid]] is to an ordinary [[manifold]].
+A [[Lie n-algebroid]] is _symplectic_ if it is equipped with a non-degenerate binary [[invariant polynomial]]. This generalizes the notion of a [[symplectic form]] on a [[symplectic manifold]], to which it reduces for $n = 0$.
 
 ## Definition
 
-Traditionally, $n$-symplectic manifolds are thought of as [[supermanifold]]s with extra structure. More particularly, as [[NQ-supermanifold]]s with extra structure. 
+A **symplectic Lie $n$-algebroid** is a pair
 
-One can argue that a more conceptual way to talk about them is in terms of [[Lie ∞-algebroid]]s. Technically it means precisely the same thing, but amplifying the [[Lie theory]] context should be helpful.
+$$
+  (\mathfrak{a}, \langle -,- \rangle)
+$$
 
-### In supermanifold language 
+consisting of
 
-An $n$-symplectic manifold is a [[NQ-supermanifold]] $X$ with an  $\mathbb{N}$-graded symplectic form $\omega$ of grading-degree $n$.
+* a [[Lie n-algebroid]] $\mathfrak{a}$;
 
-So $\omega$ is a closed nondegenerate [[super differential form]] that respects the $\mathbb{N}$-refined grading of the underlying $\mathbb{Z}_2$-graded [[supermanifold]] as indicated.
+* a binary [[invariant polynomial]] $\langle- , - \rangle$ of degree $(n+2)$
 
-### In $\infty$-Lie algebroid language 
+  (an closed element in the shifted elements of the [[Weil algebra]] $W(\mathfrak{a})$)
 
-An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped with a choice of binary degree $(n+2)$ [[invariant polynomial]] $\omega \in inv(\mathcal{a})$. More on this is at [[schreiber:symplectic ∞-Lie algebroid]].
+  which is non-degenerate.  
 
+The **Poisson tensor** of a symplect Lie $n$-algebroid is the cocycle $\nu \in CE(\mathfrak{a})$ in [[∞-Lie algebroid cohomology]] that this invariant polynomial transgresses to.
 
+The [[Chern-Simons element]] that witnesses this transgression is the Lagrangian of the corresponding [[AKSZ theory]] [[sigma-model]] with $\mathfrak{a}$ as its target space and the invariant polynomial $\langle -,- \rangle$ as the ([[curvature]] of) its background [[gauge field]].
 
 ## Examples
 
 ### $n=0$: symplectic manifold
 
-In [[NQ-supermanifold]] language:
+A 0-Lie algebroid is just a [[smooth manifold]] $X$.
 
-the 2-form being of degree 0 means that only vector fields along degree 0 coordinates may be sent to non-vanishing values. Hence for the form to be non-degenerate, there may not be any higher degree coordinates, hence the NQ-supermanifold must be an ordinary manifold. On that the 2-form is then a closed non-degenerate 2-form, hence a symplectic form.
+Its [[Chevalley-Eilenberg algebra]] is the algebra of smooth functions on $X$
+
+$$
+  CE(X) = C^\infty(X)
+  \,.
+$$
+
+The [[Weil algebra]] of $X$ is
+
+$$
+  W(X) = \Omega^\bullet(X)
+$$
+
+the [[de Rham complex|de Rham algebra]] of $X$. A degree 2-[[invariant polynomial]] on $X$ is therefore a non-degenerate closed [[differential form|2-form]] $\omega \in \Omega^2(X)$, a [[symplectic manifold|symplectic 2-form]].
 
 +-- {: .standout}
 
-A $0$-symplectic manifold is an ordinary [[symplectic manifold]].
+A [[symplectic manifold]], being a pair
+
+$$
+  (X,\;\; \omega)
+$$
+
+consisting of a  [[smooth manifold]] $X$ and a symplectic 2-form $\omega$, is a symplectic Lie 0-algebroid.
 
 =--
 
 ### $n=1$: Poisson manifold 
 
-A $1$-symplectic manifold is, as a 1-[[Lie algebroid]], necessarily a [[Poisson Lie algebroid]]. As such it is equivalently encoded in an ordinary [[Poisson manifold]].
+For a [[Poisson manifold]] $X$ with Poisson bivector $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$ of the corresponding [[Poisson Lie algebroid]] 
 
-Regarded as a [[Lie algebroid]], it should by [[Lie integration]] integrate to a [[Lie groupoid]] with extra structure. These are the [[symplectic groupoid]]s.
+$$
+  \mathfrak{a} := \mathfrak{P}(X,\pi)
+$$
+
+is that of multi-vector fields on $X$, equipped with the differential $d_{CE(\mathfrak{a})} = [\pi, -]_{Sch}$ given by the [[Schouten bracket]].
+
+If we work locally in coordinates  then $CE(\mathfrak{a})$ is generated from degree 0 elements $x^i$ and degree 1 elements $\partial_i$. The differential is
+
+$$
+  d_{CE(\mathfrak{a})} = [\pi, -]_{Sch}
+  \,.
+$$
+
+The Poisson tensor is $\nu := \pi = \pi^{i j} \partial_i \wedge \partial_j$ and that this is a [[∞-Lie algebra cohomology|Lie algebroid cocycle]] is the fact that
+
+$$
+  d_{CE(\mathfrak{a})} \pi = [\pi,\pi]_{Sch} = 0
+  \,.
+$$
+
+
+By definition the [[Weil algebra]] $W(\mathfrak{a})$ is generated from the $x^i$, the $\partial_i$ and their shifted partners $\mathbf{d}x^i$ and $\mathbf{d}\partial_i$. The differential here is
+
+$$
+  d_{W(\mathfrak{a})} = [\pi , - ] + \mathbf{d}
+  \,.
+$$
+
++-- {: .un_prop}
+###### Proposition
+
+The [[invariant polynomial]] $\omega$ that is in transgression with the cocycle  $\nu = \pi$ is
+
+$$
+  \omega = (\mathbf{d} x^i) \wedge (\mathbf{d} \partial_i)
+  \;\;\;
+  \in inv(\mathfrak{a})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+One checks directly that the element
+
+$$
+  cs_\omega = 
+  \pi^{i j} \partial_i \wedge \partial_j
+  +
+  x^i \wedge \mathbf{d} \partial_i
+$$
+
+is a Chern-Simons transgression element for $\nu$ and $\omega$,
+
+i.e. $d_{W(\mathfrak{a})} cs(\omega) = \omega$. The restriction of $cs_\omega$ to $CE(\mathfrak{a})$ is evidently the Poisson tensor $\pi$.
+
+=--
+
+More details on this at [[Chern-Simons element]].
+
++-- {: .standout}
+
+For a [[Poisson manifold]] $X$ with Poisson tensor $\pi = \pi^{i j} \partial_i \wedge \partial_j$, the pair 
+
+$$
+  (\mathfrak{P}(X,\pi), \;\;\;
+\omega = (\mathbf{d} x^i) \wedge (\mathbf{d} \partial_i))
+$$
+
+consisting of the [[Poisson Lie algebroid]] $\mathfrak{P}(X,\pi)$ and of the [[invariant polynomial]] $\omega$ that is in transgression with its canonical 2-cocycle $\nu = \pi$ (the Poisson tensor) is a symplectic [[Lie algebroid]].
+
+=--
+
 
 ### $n=2$: Courant algebroid
 
 A $2$-symplectic manifold encodes and is encoded by the structure of a [[Courant algebroid]].
 
-Recall from the discussion there that one incarnation of this [[Courant algebroid]] is as a [[L-infinity algebra|Lie 3-algebra]]. If the base manifold is a point, then this is the [[String Lie 2-algebra]].
+A Courant 2algebroid over the point if given by a [[semisimple Lie algebra]] with the symplectic form being the [[Killing form]]. The coresponding Poisson tensor is the canonical 3-cocycle $\langle -, [-,-] \rangle$ on a semisimple Lie algebra. The extension classified by this is the [[string Lie 2-algebra]].
+
 
 ## Relation to multisymplectic geometry
 
@@ -105,3 +205,5 @@ A discussion of aspects of how [[multisymplectic geometry]] related to $n$-sympl
 
 * [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_ ([pdf](http://math.ucr.edu/~chris/2plectic-algebroid_DRAFT.pdf))
 <a href="http://front.math.ucdavis.edu/1001.0040">arXiv:1001.0040v1 [math-ph]</a>
+
+
