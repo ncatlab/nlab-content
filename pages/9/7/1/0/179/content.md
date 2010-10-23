@@ -113,9 +113,13 @@ So in particular
   more generally, the complexes appearing in [[BV-BRST formalism]] are 
   derived $\infty$-Lie algebroids, whose Chevalley-Eilenberg algebra may have generators in negative degree.
 
-* a [[Courant algebroid]] is a certain Lie 2-algebroid.
+* a [[symplectic Lie n-algebroid]] is a Lie $n$-algebroid equipped with a non-degrenerate bilinear [[invariant polynomial]] of degree $n+2$. For low $n$ this is
 
-* more  generally an [[n-symplectic manifold]] is a Lie $n$-algebroid.
+  * $n = 0$: a [[symplectic manifold]];
+
+  * $n = 1$: a [[Poisson Lie algebroid]];
+
+  * $n = 2$: a [[Courant algebroid]]
 
 * Standard examples of [[exterior differential system]]s are [[Chevalley?Eilenberg algebras]] of $L_\infty$-algebroids.
 
@@ -654,3 +658,6 @@ The term also appears in
 
 [[!redirects infinity-Lie algebroid]]
 [[!redirects infinity-Lie algebroids]]
+
+[[!redirects Lie n-algebroid]]
+[[!redirects Lie n-algebroids]]
