@@ -200,6 +200,15 @@ $$
 
 * There is a formulation of [[Legendre transformation]] in terms of Lie algebroid.
 
+
+* [[symplectic Lie n-algebroid]]
+
+  * [[symplectic manifold]]
+
+  * **Poisson Lie algebroid**
+
+  * [[Courant algebroid]]
+
 ## References ##
 
 One of the earliest reference seems to be
