@@ -35,6 +35,15 @@ If one considers [[brane]]s in the target space of the Poisson sigma-model, then
 
 The [[action functional]] of the _Poisson sigma model_ is that of the [[Chern-Simons theory]] for the canonical [[invariant polynomial]] on the [[Poisson Lie algebroid]] (see there for details).
 
+## Related concepts
+
+* [[schreiber:∞-Chern-Simons theory]]
+
+  * [[AKSZ theory]]
+
+    * **Poisson sigma-model**
+
+    * [[Courant sigma-model]]
 
 
 
