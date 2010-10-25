@@ -1,11 +1,10 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 #Definition#
 
-Let $V$ be a [[closed monoidal category]]. Recall that for $C$ a category [[enriched category|enriched over]] $V$, a $V$-[[module]] is a $V$-functor $\rho : C \to V$. We think of the object $\rho(a)$ for $a \in Obj(C)$ as the objects on which $C$ acts, and of $\rho(C(a,b))$ as the action of $C$ on these objects.
+Let $V$ be a [[closed monoidal category]]. Recall that for $C$ a category [[enriched category|enriched over]] $V$, a $V$-[[module]] is a $V$-functor $\rho : C \to V$. We think of the objects $\rho(a)$ for $a \in Obj(C)$ as the objects on which $C$ acts, and of $\rho(C(a,b))$ as the action of $C$ on these objects.
 
 In this language a $C$-$D$ _bimodule_ for $V$-categories $C$ and $D$ is a $V$-functor
 
