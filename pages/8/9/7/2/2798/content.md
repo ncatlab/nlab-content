@@ -1,7 +1,18 @@
-<div class="rightHandSide toc">
-[[!include model category theory - contents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -242,7 +253,7 @@ A useful discussion of of the model structure on dendroidal sets is section 8 of
 
 * [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , lectures given at the Barcelona workshop on _[Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)_ (2008) ([preliminary writeup](http://www.crm.cat/HigherCategories/hc1.pdf))
 
-An expanded and polished version has meanwhile been written up by Javier Guiti&eacute;rrez and should appear in print soon. An electronic copy is probably available on request.
+An expanded and polished version has meanwhile been written up by Javier Guiti&#233;rrez and should appear in print soon. An electronic copy is probably available on request.
 
 The model structure was originally given in 
 
