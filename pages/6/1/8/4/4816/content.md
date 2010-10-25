@@ -9,13 +9,7 @@
 =--
 =--
 
-* [[special orthogonal Lie algebra]]
 
-* [[string Lie 2-algebra]]
-
-* **fivebrane Lie 6-algebra**
-
-***
 
 #Contents#
 * table of contents
@@ -66,6 +60,15 @@ $$
 The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{fivebrane})$ is the relative [[Sullivan algebra]] obtained by gluing the two cocoycles.
 
 Under [[Lie integration]] the Lie 6-algebra $\mathfrak{fivebrane}$  yields the [[fivebrane 6-group]].
+
+
+## Related concepts
+
+* [[special orthogonal Lie algebra]]
+
+* [[string Lie 2-algebra]]
+
+* **fivebrane Lie 6-algebra**
 
 
 ## References
