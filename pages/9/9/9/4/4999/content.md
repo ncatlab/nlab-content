@@ -24,7 +24,7 @@ It is usual to classify them using their axiom systems, but also in terms of the
 
 Modal logics have semantics given in terms of [[frame (modal logic)|Kripke frames]], which are simply [[relational structures]]. For instance, [[temporal logics]] have [[posets]] as models.
 
-The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics. (For the moment, these will be unary operators and we will not be considering operators that have more than one input. The general case is discussed in the books on modal logic listed below.)
+The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics. (For the moment, these will be unary operators and we will not be considering operators that have more than one input. The general case will be considered later on, but in any case is discussed in detail in some of the books on modal logic listed below.)
 
 ## Modal Languages## {#modal+language}
 
