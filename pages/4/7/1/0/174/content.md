@@ -26,7 +26,7 @@ There are two fundamentally different concrete realizations of this somewhat vag
 
 1. **D-branes** and other boundary conditions
 
-1. **fundamental** or $\sigma$-model branes*
+1. **fundamental** or $\sigma$-model branes
 
 
 ### Boundary conditions or D-branes
@@ -91,17 +91,28 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 In string theory one speak apart from the D-branes alsso about _fundamental branes_ . These are the objects $\Sigma$ in the $n$-dimensional [[sigma model]] themselves.
 
-  * For $n=0$ this describes the ordinary quantum mechanics of a point particle on $X$. And such point particles are the _fundamental particles_ for instance of the [[standard model of particle physics]].
+* For $n=0$ this describes the ordinary quantum mechanics of a point particle on $X$. And such point particles are the _fundamental particles_ for instance of the [[standard model of particle physics]].
 
-  * For $n=1$ this describes the quantum propagation of a [[string theory|string]], and accordingly one speaks of the _fundamental string_ of F1-brane (fundamental 1-brane).
+* For $n=1$ this describes the quantum propagation of a [[string theory|string]], and accordingly one speaks of the _fundamental string_ of F1-brane (fundamental 1-brane).
 
-  * For $n=2$ this describes the quantum propagation of a membrane. 
+* For $n=2$ this describes the quantum propagation of a membrane. 
 
-  * There are good indications that there is a way to describe heterotic [[string theory]] not in terms of fundamental 1-branes but in terms of the [[sigma-model]] of a fundamental 5-brane -- the [[magnetic charge|magnetic dual]] of the 1-brane in 10-dimensions. 
+* There are good indications that there is a way to describe heterotic [[string theory]] not in terms of fundamental 1-branes but in terms of the [[sigma-model]] of a fundamental 5-brane -- the [[magnetic charge|magnetic dual]] of the 1-brane in 10-dimensions. 
 
-  * etc.
+* etc.
+
+#### The super-brane scan
+
+If the worldvolume QFT of the fundamental branes (for instance the worlsheet 2d[[CFT]] of the string) is required to be a [[supersymmetric QFT]], specifically if the [[Green-Schwarz action functional]] is used only particular combinations of the dimenion $dim \Sigma = p + 1$ of the worldvolume and $D = dim X$ of [[spacetime]] are possible.
+
+The corresponding table has been called the **brane scan**
+
+[[branescan.gif:pic]]
+
 
 ## References 
+
+### Boundary conditions / D-branes
 
 For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the references given at 
 
@@ -117,5 +128,23 @@ This can to a large extent be read as a dictionary from [[homological algebra]] 
 More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 * [[Richard Szabo]], _[[Szabo09.pdf:file]]_
+
+### Fundamental branes
+
+The "brane scan" table showing the consistent dimension pairs for the [[Green-Schwarz action functional]] was depicted in
+
+* [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+{#Duff}
+
+going back to
+
+* A. Ach&#250;carro, J. M. Evans, Pete Townsend and D. L. Wiltshire, _Super $p$-branes_ Physics Letters B Volume 198, Issue 4, 3 (1987)
+Further developments are in
+
+More along these lines is in
+
+* [[Michael Duff]], S. Ferrara, _Four curious supergravities_ ([arXiv](http://arxiv.org/abs/1010.3173))
+
+See also [[division algebras and supersymmetry]].
 
 [[!redirects branes]]
