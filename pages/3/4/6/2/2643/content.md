@@ -45,7 +45,16 @@ _Ugh. Lousy start on something that would be nice to understand properly. Maybe 
 
 ## References
 
-See for instance the definition on p.3 of
+Among the original treatises on the theory of rigged Hilbert spaces is
+
+* [[John Roberts]], _Rigged Hilbert spaces in quantum mechanics_ , Communications in Mathematical Physics, 3 (1966)
+
+A unification of various inequivalent approaches is claimed to be achieved in 
+
+* M. Gadella1 and F. G&#243;mez, _A Unified Mathematical Formalism for the Dirac
+Formulation of Quantum Mechanics_  Foundations of Physics, Vol. 32, No. 6, (2002)
+
+See also
 
 * S. Wickramasekara, A. Bohm, _Symmetry Representations in the Rigged Hilbert Space Formulation of Quantum Mechanics _ ([arXiv](http://arxiv.org/abs/math-ph/0302018))
 
