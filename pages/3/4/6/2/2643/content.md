@@ -1,8 +1,26 @@
-A _rigged Hilbert space_ is a formal device which makes it possible to treat spectral theory of normal [[unbounded operator]]s on Hilbert space as if it were about actual eigenvalues and eigenvectors. It may be used to make rigorous the idea of eigenstates for observables as they commonly arise in quantum mechanics. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A _rigged Hilbert space_ is a formal device which makes it possible to treat spectral theory of normal [[unbounded operator]]s on a [[Hilbert space]] as if it were about actual eigenvalues and eigenvectors. It may be used to make rigorous the idea of eigenstates for observables as they commonly arise in [[quantum mechanics]]. 
 
 ## Example 
 
-Let $H$ be the Hilbert space $L^2(\mathbb{R}, d x)$ consisting of square integrable functions $f$ with respect to Lebesgue measure. There is an unbounded self-adjoint operator 
+Let $H$ be the Hilbert space $L^2(\mathbb{R}, d x)$ consisting of square integrable functions $f$ with respect to [[Lebesgue measure]]. There is an unbounded self-adjoint operator 
 
 $$m_x: H \to H: f \mapsto x \cdot f$$ 
 
@@ -25,3 +43,10 @@ $$m_x(s_{\xi}) = \xi s_{\xi}$$
 _Ugh. Lousy start on something that would be nice to understand properly. Maybe an expert can help out. John, you there?_ 
 
 
+## References
+
+See for instance the definition on p.3 of
+
+* S. Wickramasekara, A. Bohm, _Symmetry Representations in the Rigged Hilbert Space Formulation of Quantum Mechanics _ ([arXiv](http://arxiv.org/abs/math-ph/0302018))
+
+[[!redirects rigged Hilbert spaces]]
