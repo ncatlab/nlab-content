@@ -29,6 +29,23 @@ $$
   \,.
 $$
 
+If one thinks of a [[tangent vector]] $v \in T_x X$ to be an equivalence class of a smooth path $\gamma_v : [-1,1] \to X$ with $\gamma(0) = x$, then the chain rule is the [[associativity]] of the composite
+
+$$
+  [-1,1] \stackrel{\gamma_v}{\to} X \stackrel{f}{\to} Y \stackrel{g}{\to} Z
+  \,.
+$$
+
+Bracketed as $(g \circ f)\circ \gamma_v$ this represents $d(g \circ f)(v)$. Bracketed as $g \circ (f \circ \gamma_v)$ is represents $d g (d f (v))$.
+
+Alternatively, in a context of [[synthetic differential geometry]] where with $D$ being the [[infinitesimal space|infinitesimal interval]] we may _identify_ $v$ with $v : D \to X$, the chain rule is the associativity of
+
+$$
+  D \stackrel{v}{\to} X \stackrel{f}{\to} Y \stackrel{g}{\to} Z
+  \,.
+$$
+
+
 ## Examples
 
 Let $X = Y = Z = \mathbb{R}$ the [[real line]]. Then the [[tangent bundle]] $T X$ is canonically identified with $\mathbb{R} \times \mathbb{R}$.
