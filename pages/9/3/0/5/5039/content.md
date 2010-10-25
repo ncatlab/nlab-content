@@ -21,7 +21,7 @@ A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)
 
 1. Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
 
-1. Frames give a **combinatorial** or **geometric** basis for the semantics of these logics.  There is also an **algebraic** semantics that will be examined in another entry. (To be done)
+1. Frames give a **combinatorial**, **relational** or **geometric** basis for the semantics of these logics.  There is also an **algebraic** semantics that will be examined in another entry. (To be done)
 
 ##Satisfaction##
 +--{: .un_defn}
@@ -70,6 +70,6 @@ In the definition of a Kripke model the valuation is all important.  It is what 
 
 Generally this entry is based on
 
-* P. Blackburn, M. de Rijke and Y. Vedema, _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001, 
+* P. [[Blackburn]], M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001, 
 
 (any mistakes or errors of interpretation are due to ....!)
