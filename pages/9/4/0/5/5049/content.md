@@ -53,7 +53,7 @@ If $L \subset X$ is a [[closed subset]] and $U \subset X$ is an [[open subset]] 
 +-- {: .un_corollary}
 ###### Corollary
 
-Let $f,g : Z \to Y$ be two [[smooth function]]s between [[smooth manifold]]s. Let  $\eta : Z \times [0,1] \to Y$ be a continuous [[delayed homotopy]] between them.
+Let $f,g : Z \to Y$ be two [[smooth function]]s between [[smooth manifold]]s. Let  $\eta : Z \times [0,1] \to Y$ be a continuous [[delayed homotopy]] between them, constant in a [[neighbourhood]] $Z \times ([0,\epsilon) \coprod (1-\epsilon,1])$.
 
 Then there exists also smooth homotopy between $f$ and $g$ which is itself continuously homotopic to $\eta$.
 
@@ -80,7 +80,7 @@ To apply the [generalized Steenrod theorem](#GeneralizedSteenrodTheorem) with th
 
 * let $U := Z \times (0,1)$.
 
-Then because by assumption $\eta$ is a continuous [[delayed homotopy]] between smooth functions, it follows that $\sigma$ is smooth in a neighbourhood $Z \times ([0,\epsilon) \coprod (1-\epsilon,1]$ of $L$.
+Then because by assumption $\eta$ is a continuous [[delayed homotopy]] between smooth functions, it follows that $\sigma$ is smooth in a neighbourhood $Z \times ([0,\epsilon) \coprod (1-\epsilon,1])$ of $L$.
 
 So the theorem applies and provides a smooth  homotopy
 
