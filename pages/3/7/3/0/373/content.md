@@ -122,6 +122,92 @@ There is also a 2-nerve. ([LackPaoli](#LackPaoli))
 (...)
 
 
+### Model category structure {#ModelCategoryStructure}
+
+There is a [[model category]] structure on 2-catgories -- sometimes known as the [[folk model structure]] -- that models the [[(2,1)-category]] underlying [[2Cat]] ([Lack](#LackFolkModel)).
+
+For strict 2-categories this is the restriction of the corresponding [[folk model structure]] on [[strict omega-categories]]. 
+
+* The weak equivalences are the [[2-functor]]s are that are equivalences of 2-categories.
+
+* The acyclic fibrations are the [[k-surjective functor]]s for all $k$.
+
+
+#### Free resolutions {#FreeResolution}
+
+
+**Theorem** A strict 2-category $C$ is cofibrant precisely if the underlying 1-category $C_1$ is a [[free category]].
+
+This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of the more general statement that free strict $\omega$-categories are given by [[computad]]s.
+
+**Example (free resolution of a 1-category).** Let $C$ be an ordinary category (a 1-category) regarded as a strict 2-category. Then the cofibrant resolution $\hat C \stackrel{\simeq}{\to} C$ is the strict 2-category given as follows:
+
+* the objects of $\hat C$ are those of $C$;
+
+* the morphisms of $\hat C$ are finite sequences of composable morphisms of $C$, and composition is concatenation of such sequences
+
+  (hence $(\hat C)_1$ is the [[free category]] on the [[directed graph]] underlying $C$);
+
+* the 2-morphisms of $\hat C$ are _generated_ from 2-morphisms $c_{f,g}$ of the form
+
+  $$
+    \array{
+       && y
+       \\
+       & {}^{\mathllap{f}}\nearrow &\Downarrow^{c_{f,g}}& \searrow^{\mathrlap{g}}
+       \\
+       x && \underset{g \circ_C f }{\to} && z
+    }
+  $$
+
+  and their formal inverses
+
+  $$
+    \array{
+       && y
+       \\
+       & {}^{\mathllap{f}}\nearrow &\Uparrow^{c_{f,g}^{-1}}& \searrow^{\mathrlap{g}}
+       \\
+       x && \underset{g \circ_C f }{\to} && z
+    }
+  $$
+
+
+  for all composable $f,g \in Mor(C)$ with composite (in $C$!) $g \circ_C f$;
+
+  subject to the _relation_ that for all composable triples $f,g,h \in Mor(C)$
+  the following equation of 2-morphisms holds
+
+  $$
+    \array{
+       y &\to& &\stackrel{g}{\to}& &\to& && z
+       \\
+       \uparrow &\seArrow^{c_{f,g}}& && & \nearrow & && \downarrow
+       \\
+       {}^{\mathllap{f}}\uparrow &&  & \nearrow & &&&& \downarrow^{\mathrlap{h}}
+       \\
+       \uparrow & \nearrow & && &\Downarrow^{c_{h,(g\circ_C f)}}& && \downarrow
+       \\
+       x &\to& &\underset{h \circ (g \circ_C f)}{\to}& &\to& &\to& w
+    }
+    \;\;\;
+    = 
+    \;\;\;
+        \array{
+       y &\to& &\stackrel{g}{\to}& &\to& && z
+       \\
+       \uparrow &\searrow& && & & &\swArrow_{c_{g,h}}& \downarrow
+       \\
+       {}^{\mathllap{f}}\uparrow &&  & \searrow & &&&& \downarrow^{\mathrlap{h}}
+       \\
+       \uparrow &\Downarrow_{c_{f,(g \circ_C h)}}& && &\searrow& && \downarrow
+       \\
+       x &\to& &\underset{( h \circ_C g) \circ f}{\to}& &\to& &\to& w
+    }
+  $$
+
+**Observation** Let $D$ be any strict 2-catgeory. Then a [[pseudofunctor]] $C \to D$ is the same as a strict 2-functor $\hat C \to D$.
+
 ## Related entries
 
 **types of morphisms**
@@ -185,6 +271,14 @@ A relation between bicategories and Tamsamani weak 2-categories is established i
 The reverse construction is in
 
 * [[Simona Paoli]], _From Tamsamani weak 2-categories to bicategories_ ([arXiv](http://www.maths.mq.edu.au/~simonap/Bicategories_Rev_4.pdf))
+
+There is a [[model category]] structure on 2-catgories -- sometimes known as the [[folk model structure]] -- that models the [[(2,1)-category]] underlying [[2Cat]]:
+
+* [[Steve Lack]],  _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
+{#LackStrict}
+
+* [[Steve Lack]],  _A Quillen Model Structure for Biategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
+{#LackFolkModel}
 
 [[!redirects 2-category]]
 [[!redirects 2-categories]]
