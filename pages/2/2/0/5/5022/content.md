@@ -8,7 +8,7 @@
 
 ###Frames in Monomodal Logics
 
-We will start with the simplest case, namely a frame for the basic [modal language](/nlab/show/modal+logic#modal+language), $\mathcal{L}_\omega(1)$, (so with _one_ _binary_ modal operator, denoted $\Diamond$).
+We will start with the simplest case, namely a frame for the basic [modal language](/nlab/show/modal+logic#modal+language), $\mathcal{L}_\omega(1)$, (so with _one_ _unary_ modal operator, denoted $\Diamond$).
 
 +--{: .un_defn}
 ######Definition ######
@@ -19,7 +19,18 @@ A _frame_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{F} = (W,R)$ with $W$ 
 The terminology often used refers to $W$ as the set of possible worlds.  Its elements are sometimes called _worlds_, sometimes _states_, sometimes _points_, depending on the context and the whim of the writer.  The relation $R$ is called the _accessibility relation_ so $ R w v$ says '$v$ is accessible from $w$'.
 
 ###Frames in Multimodal Logics
-(N.B.  We will still be restricting to multimodal logics in which the modal operators are unary. The generalisation to allowing more general $n$-ary modalities will be considered later.)
+(N.B.  Here we are still restricting to multimodal logics in which the modal operators are unary. The generalisation to allowing more general $n$-ary modalities will be considered later.)
+
+The generalisation is not difficult. In $\mathcal{L}_\omega(1)$, the single unary modality $\Diamond$ is modeled by one _binary_ relation.  In $\mathcal{L}_\omega(n)$, there are $n$-unary modalities so the frames have $n$-binary relations.  Explicitly we have 
+
++--{: .un_defn}
+######Definition ######
+A _frame_ for $\mathcal{L}_\omega(n)$ is a $(n+1)$-tuple $\mathfrak{F} = (W,\{R_i\}_{\{i=1,\ldots, n\}})$ with $W$ a non-empty set and for each $i=1,\ldots, n$, $R_i$ a binary relation on $W$.
+=--
+
+
+
+
 
 (More to go here ... frames fo multimodal languages, and ones with unary and more general relations.)
 
