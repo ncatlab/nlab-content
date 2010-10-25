@@ -92,7 +92,7 @@ This is (up to fine-tuning of the nature of the differential forms on the simpli
 
 For $\mathfrak{a}$ a [[infinity-Lie algebroid|Lie n-algebroid]] (an $n$-[[truncated]] $\infty$-Lie algebroid) this construction will not yield in general an $n$-[[truncated]] [[∞-groupoid]] $\exp(\mathfrak{a})$. 
 
-To see this, consder the example (discussed in detail [below](#LieAlgebrasToLieGroups)) that $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]]. Then $\exp(\mathfrak{g})_n$ is canonically identified with the set of smooth based maps $\Delta^n \to G$ into the simply connected [[Lie group]] that integrates $\mathfrak{g}$ in ordinary [[Lie theory]]. This means that the simplicial [[homotopy group]]s of $\exp(\mathfrak{g})$ are the topological homotopy groups of $G$, which in general (say for $G$ the [[orthogonal group]] or [[unitary group]]) will be non-trivial in arbitrarily higher degree, even though $\mathfrak{g}$ is just a Lie 1-algebra. This phenomenon is well familiar from [[rational homotopy theory]], where a classical theorem asserts that the rational homotopy groups of $\exp(\mathfrak{g})$ are generated from the generators in a [[minimal Sullivan model]] resolution of $\mathfrak{g}$. 
+To see this, consider the example (discussed in detail [below](#LieAlgebrasToLieGroups)) that $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]]. Then $\exp(\mathfrak{g})_n$ is canonically identified with the set of smooth based maps $\Delta^n \to G$ into the simply connected [[Lie group]] that integrates $\mathfrak{g}$ in ordinary [[Lie theory]]. This means that the simplicial [[homotopy group]]s of $\exp(\mathfrak{g})$ are the topological homotopy groups of $G$, which in general (say for $G$ the [[orthogonal group]] or [[unitary group]]) will be non-trivial in arbitrarily higher degree, even though $\mathfrak{g}$ is just a Lie 1-algebra. This phenomenon is well familiar from [[rational homotopy theory]], where a classical theorem asserts that the rational homotopy groups of $\exp(\mathfrak{g})$ are generated from the generators in a [[minimal Sullivan model]] resolution of $\mathfrak{g}$. 
 
 =--
 
@@ -167,7 +167,7 @@ $U \times \Delta^k \to U$.
 +-- {: .un_remark}
 ###### Remark
 
-The condition of sitting instants serves to make smooth differential forms not be affected by the boundaties and corners of $\Delta^n$. Notably for $\omega_j \in \Omega^\bullet(\Delta^{n-1})$ a collection of forms with sitting instants on the $(n-1)$-cells of a horn $\Lambda^n_i$ that coincide on adjacent boundaries, and for
+The condition of sitting instants serves to make smooth differential forms not be affected by the boundaries and corners of $\Delta^n$. Notably for $\omega_j \in \Omega^\bullet(\Delta^{n-1})$ a collection of forms with sitting instants on the $(n-1)$-cells of a horn $\Lambda^n_i$ that coincide on adjacent boundaries, and for
 
 $$
   p : \Delta^n \to \Lambda^{n-1}_i
@@ -186,7 +186,7 @@ glue to a single smooth form (with sitting instants) on $\Delta^n$.
 +-- {: .un_remark}
 ###### Remark
 
-Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^n$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omgea$ is allowed to vary parallel to the boundary, just not perpendicular to it.
+Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^n$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omega$ is allowed to vary parallel to the boundary, just not perpendicular to it.
 
 =--
 
@@ -213,9 +213,9 @@ where $U \in $ [[CartSp]] and $[n] \in \Delta$.
 +-- {: .un_remark}
 ###### Remark
 
-Compared to the integration to bare $\infty$-groupoids [above](#IntToBareGrpd) this definition knows about $U$-parameterized _smooth families_ of $n$-paths in $\mathfrak{a}$.
+Compared to the integration to bare $\infty$-groupoids [above](#IntToBareGrpd) this definition knows about $U$-parametrized _smooth families_ of $n$-paths in $\mathfrak{a}$.
 
-The bare $\infty$-groupoid is recoverd as that of the $\mathbb{R}^0 = *$-parameterized family:
+The bare $\infty$-groupoid is recovered as that of the $\mathbb{R}^0 = *$-parametrized family:
 
 $$
   \exp(\mathfrak{a}) : \mathbb{R}^0 \mapsto \exp(\mathfrak{a})_{bare}
@@ -227,7 +227,7 @@ $$
 +-- {: .un_defn}
 ###### Definition
 
-Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial preshaf obtained by postcomposting $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] [[functor]] $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\to} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
+Write $\mathbf{cosk}_{n+1} \exp(a)$ for the simplicial presheaf obtained by postcomposing $\exp(\mathfrak{a}) : CartSp^{op} \to sSet$ with the $(n+1)$-[[coskeleton]] [[functor]] $\mathbf{cosk}_{n+1} : sSet \stackrel{tr_n}{\to} sSet_{\leq n+1} \stackrel{cosk_{n+1}}{\to} sSet$.
 
 =--
 
@@ -240,7 +240,7 @@ For more on this see (for the moment) <a href="http://ncatlab.org/nlab/show/Lie+
 
 ### Interating Lie algebras to Lie groups {#LieAlgebrasToLieGroups}
 
-Let $\mathfrak{g}$ be an ordinary (finite dimensonal) [[Lie algebra]].
+Let $\mathfrak{g}$ be an ordinary (finite dimensional) [[Lie algebra]].
 
 Standard [[Lie theory]] (see [[Lie's three theorems]]) provides a [[simply connected]] [[Lie group]] $G$ integrating $\mathfrak{g}$.
 
@@ -392,7 +392,7 @@ From this it follows that also every closed $n$-form on the $k$-sphere for $k \g
 
 Let $\mathfrak{string} = mathfrak{g}_\mu$ be the [[string Lie 2-algebra]].
 
-Then $\mathbf{cosk}_3 \exp(\mathfrak{g}_\mu)$ is equvalent to the [[2-groupoid]] $\mathbf{B}String$ 
+Then $\mathbf{cosk}_3 \exp(\mathfrak{g}_\mu)$ is equivalent to the [[2-groupoid]] $\mathbf{B}String$ 
 
 * with a single object;
 
