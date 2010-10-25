@@ -9,17 +9,6 @@
 =--
 =--
 
-* [[groupoid]]
-
-* [[2-groupoid]]
-
-* [[3-groupoid]]
-
-* **n-groupoid**
-
-* [[∞-groupoid]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -56,6 +45,19 @@ A general model for [[∞-groupoid]]s are [[Kan complex]]es. In this context an 
 Every such $n$-type is equivalent to a "small" model, an $(n+1)$-[[coskeletal]] Kan complex: one in which every $k$-sphere $\partial \Delta^{k+1}$ for $k \geq n+1$ has a _unique_ filler.
 
 Even a bit smaller than this is a Kan complex that is an $n$-[[hypergroupoid]], where in addition to these spheres also the [[horn]] fillers in degree $n+1$ are unique.
+
+## Related entries
+
+* [[groupoid]]
+
+* [[2-groupoid]]
+
+* [[3-groupoid]]
+
+* **n-groupoid**
+
+* [[∞-groupoid]]
+
 
 
 [[!redirects n-groupoid]]
