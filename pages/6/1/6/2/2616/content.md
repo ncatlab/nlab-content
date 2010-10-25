@@ -18,11 +18,17 @@ where $O(1, 3)$, the **Lorentz group**, consists of all _linear_ transformations
 
 ## Basic structure of the Lorentz group 
 
-The [[Lorentz group]] is a 6-dimensional [[Lie group]]. It has four connected components; the [[connected space|connected component]] of the identity is called the **special Lorentz group** and is denoted $SO^+(1, 3)$. The superscript of $SO^+(1, 3)$ indicates that the group elements take the **forward light cone** (the set of vectors $\{v: Q(v) \gt 0\}$) to itself, and the $S$ indicates of course group elements which have determinant 1 as $4 \times 4$ matrices. (It easily follows that elements of $SO^+(1, 3)$ preserve orientation of the spatial component $\mathbb{R}^3$.) Passage between the four components of the full Lorentz group is effected by composing with a time-reversal operator 
+The [[Lorentz group]] is a 6-dimensional [[Lie group]]. It has four connected components; the [[connected space|connected component]] of the identity is called the **special Lorentz group** and is denoted $SO^+(1, 3)$. 
+
+* The superscript of $SO^+(1, 3)$ indicates that the group elements take the **forward light cone**, i.e., the set of vectors 
+$$\{v = (t, x, y, z): Q(v) \gt 0, t \gt 0\},$$ 
+to itself, and the $S$ indicates of course group elements which have determinant 1 as $4 \times 4$ matrices. It easily follows that elements of $SO^+(1, 3)$ preserve orientation of the spatial component $\mathbb{R}^3$. 
+
+Passage between the four components of the full Lorentz group is effected by composing with a **time-reversal** operator 
 
 $$(t, x, y, z) \mapsto (-t, x, y, z)$$ 
 
-and with a spatial inversion (or parity-reversal) operator 
+and with a spatial inversion (or **parity-reversal**) operator 
 
 $$(t, x, y, z) \mapsto (t, -x, -y, -z)$$ 
 
@@ -30,7 +36,7 @@ The special Lorentz group (also called the **proper, orthochronous** Lorentz gro
 
 $$u_t := (1, 0, 0, 0)$$ 
 
-may be identified with the group of rotations $SO(3)$, since the restriction of the Minkowski norm to the spatial component $\mathbb{R}^3$ is the usual Euclidean norm. This subgroup is of course 3-dimensional. 
+may be identified with the group of rotations $SO(3)$, since the restriction of the Minkowski norm to the spatial component $\mathbb{R}^3$ is minus the usual Euclidean norm, $-x^2 - y^2 - z^2$. This subgroup is of course 3-dimensional. 
 
 A general element $g \in SO^+(1, 3)$ may be decomposed uniquely in the form 
 
@@ -59,21 +65,24 @@ x_2 - i x_3 & x_0 - x_1
 }
 \right) 
 = x_0 \left(
+\array{
 1 & 0 \\
 0 & 1
 }
 \right) 
 + x_1 \left(
+\array{
 1 & 0 \\
 0 & -1
 }
-\right
+\right)
 + x_2 \left(
-0 & 1 \\
+\array{0 & 1 \\
 1 & 0
 }
 \right)
 + x_3 \left(
+\array{
 0 & i \\
 -i & 0
 }
