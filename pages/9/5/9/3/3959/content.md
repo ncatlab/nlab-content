@@ -30,6 +30,8 @@ Basic facts about smooth functions are
 
 * the [[Tietze extension theorem]]
 
+* the [[Steenrod-Wockel approximation theorem]]
+
 [[!redirects smooth function]]
 [[!redirects smooth functions]]
 [[!redirects smooth map]]
