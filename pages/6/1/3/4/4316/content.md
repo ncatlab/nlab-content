@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
-   [[!include AQFT and operator algebra contents]]
-</div>
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * the following line creates the automatic table of contents
@@ -11,7 +19,7 @@
 The DHR superselection theory is about [[superselection sectors]] in the [[Haag-Kastler approach]] to [[AQFT]].
 As such, it has to state one or more conditions on representations of the given [[Haag-Kastler net]] that specify the representations of the quasi-local algebra that are deemed physically admissible. 
 
-It is named after [[Sergio Doplicher]], [[Rudolf Haag]] and [[J.E. Roberts]].
+It is named after [[Sergio Doplicher]], [[Rudolf Haag]] and [[John Roberts]].
 
 In the following we consider the theory starting with a [[Haag-Kastler vacuum representation]] on [[Minkowski spacetime]].
 
@@ -150,7 +158,7 @@ Of particular relevance (besides the original work of Doplicher and Roberts) are
 
 * Hellmut Baumg&#228;rtel: _Operator algebraic Methods in Quantum Field Theory. A series of lectures._ Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
 
-* Hans Halvorson, Michael M&uuml;ger, _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
+* Hans Halvorson, Michael M&#252;ger, _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
 
 [[!redirects DHR analysis]]
 [[!redirects Doplicher-Haag-Roberts superselection theory]]
