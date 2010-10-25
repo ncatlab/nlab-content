@@ -144,7 +144,7 @@ $$
   \Omega^\bullet_C : PSh(C) \stackrel{\leftarrow}{\to} : dgAlg^{op} : K_C
 $$
 
-is an example for the adjunctionn induced from a [[dualizing object]].
+is an example for the adjunction induced from a [[dualizing object]].
 
 
 ##### Piecewise linear differential forms
