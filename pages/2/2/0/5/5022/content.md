@@ -18,6 +18,8 @@ A _frame_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{F} = (W,R)$ with $W$ 
 
 The terminology often used refers to $W$ as the set of possible worlds.  Its elements are sometimes called _worlds_, sometimes _states_, sometimes _points_, depending on the context and the whim of the writer.  The relation $R$ is called the _accessibility relation_ so $ R w v$ says '$v$ is accessible from $w$'.
 
+###Frames in Multimodal Logics
+(N.B.  We will still be restricting to multimodal logics in which the modal operators are unary. The generalisation to allowing more general $n$-ary modalities will be considered later.)
 
 (More to go here ... frames fo multimodal languages, and ones with unary and more general relations.)
 
