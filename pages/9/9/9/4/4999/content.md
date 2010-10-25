@@ -7,13 +7,19 @@
 {:toc}
 
 ## Modal Logics ## 
+
+(From the preface to the book by Blackburn et al.)
+
+_'Ask three modal logicians what modal logic is, and you are likely to get at least three different answers'_.
+
+
 (under construction)
 
 ## Idea## 
 The modal logics are the logic of [[relational structures]].  They are built on **modal languages**.
 It is usual to classify them using their axiom systems, but also in terms of the type of general interpretation applied to them, such as :
 
-*  [[temporal logics]];
+*  [[temporal logic|temporal logics]];
 
 *  [[epistemic logics]];
 
@@ -22,7 +28,7 @@ It is usual to classify them using their axiom systems, but also in terms of the
 
 (this list may get added to later).
 
-Modal logics have semantics given in terms of [[frame (modal logic)|Kripke frames]], which are simply [[relational structures]]. For instance, [[temporal logics]] have [[posets]] as models.
+Modal logics have semantics given in terms of [[frame (modal logic)|Kripke frames]], which are simply [[relational structures]]. For instance, [[temporal logic|temporal logics]] have [[posets]] as models.
 
 The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics. (For the moment, these will be unary operators and we will not be considering operators that have more than one input. The general case will be considered later on, but in any case is discussed in detail in some of the books on modal logic listed below.)
 
@@ -93,7 +99,7 @@ The usual semantics of modal languages is in terms of [[frame (modal logic)|fram
 
 General books on modal logics include
 
-* P. Blackburn, M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
+* P. [[Blackburn]], M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
 
 * M. Kracht, _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
 
