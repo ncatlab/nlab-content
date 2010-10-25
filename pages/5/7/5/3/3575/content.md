@@ -16,7 +16,7 @@ Under forming [[opposite categories]] we obtain the notion of an **op-fibration 
 
 ## Properties
 
-Fibrations in groupoids have a simple characterization in terms of their [[nerve]]s. Let $N : Cat \to sSet$ be the [[nerve]] functor and for $p : E \to B$ a morphism in [[Cat]], let $N(p) : N(E) \to B(N)$ be the corresponding morphism in [[sSet]].
+Fibrations in groupoids have a simple characterization in terms of their [[nerve]]s. Let $N : Cat \to sSet$ be the [[nerve]] functor and for $p : E \to B$ a morphism in [[Cat]], let $N(p) : N(E) \to N(B)$ be the corresponding morphism in [[sSet]].
 
 Then
 
