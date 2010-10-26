@@ -1,13 +1,17 @@
-<div class="rightHandSide toc">
 
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
 [[!include higher geometry - contents]]
-
-***
-
+=--
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-
-</div>
+=--
+=--
+=--
 
 
 
