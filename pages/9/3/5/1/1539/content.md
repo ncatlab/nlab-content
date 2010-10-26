@@ -185,6 +185,12 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
 ## References ## 
 
+Original articles include
+
+* J. Penon, _Quasi-topos_ , C.R. Acad. Sci. Paris, S&#233;r. A 276 (1973), 237&#8211;240.
+
+* J. Penon, _Sur le quasi-topos_ , Cahiers Top. G&#233;om. Diff. 18 (1977), 181&#8211;218.
+
 Standard textbook references are
 
 *  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_, World Scientific, 1991. 
@@ -195,7 +201,13 @@ Standard textbook references are
 
 Here quasitoposes are introduced in A2.6.
 
-Quasi-toposes of [[concrete sheaves]] are discussed in
+Quasi-toposes of [[concrete sheaves]] are considered in
+
+* [[Eduardo Dubuc]], _Concrete quasitopoi_ , Lecture Notes in Math. 753 (1979), 239&#8211;254
+
+* [[Eduardo Dubuc]], L. Espanol, _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727))
+
+A review is in
 
 * [[John Baez]], [[Alex Hoffnung]], _Convenient categories of smooth spaces_, to appear, Trans. AMS, ([arXiv](http://arxiv.org/abs/0807.1704))
 
