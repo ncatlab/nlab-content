@@ -394,13 +394,15 @@ The publication derived from that:
 
 A discussion of inner Kan complexes (see also [[model structure on dendroidal sets]]):
 
-* [[Ieke Moerdijk]] [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_ ([web](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6W9F-4VM2KC8-1&_user=457046&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1115574112&_rerunOrigin=google&_acct=C000021878&_version=1&_urlVersion=0&_userid=457046&md5=5eb2307e02ed1aa9e6fe2c7809346546))
+* [[Ieke Moerdijk]], [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_, [math.CT/0701295](http://arxiv.org/abs/math/0701295)
+
+* Denis-Charles Cisinski, Ieke Moerdijk, _Dendroidal Segal spaces and infinity-operads_, [arxiv/1010.4956](http://arxiv.org/abs/1010.4956)
 
 Here two blog entries with some summaries and pointers to the literature
 
-* [Dendroidal sets and infinity-operads](http://golem.ph.utexas.edu/category/2009/02/dendroidal_sets.html)
+* $n$cafe: [Dendroidal sets and infinity-operads](http://golem.ph.utexas.edu/category/2009/02/dendroidal_sets.html)
 
-* [Moerdijk on infinity-operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
+* $n$cafe: [Moerdijk on infinity-operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
 
 
 [[!redirects dendroidal sets]]
