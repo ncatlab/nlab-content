@@ -111,11 +111,13 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 ## Related concepts
 
-* [[∞-groupoid]]
+* [[cohesive (∞,1)-topos]]
 
-* **topological $\infty$-groupoid**
+  * [[∞-groupoid]]
 
-* [[smooth ∞-groupoid]]
+  * **topological $\infty$-groupoid**
+
+  * [[smooth ∞-groupoid]]
 
 
 
@@ -126,3 +128,5 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 [[!redirects topological ∞-groupoid]]
 [[!redirects topological ∞-groupoids]]
+
+[[!redirects ?TopGrpd]]
