@@ -39,11 +39,11 @@ This naturally a [[2-category]], with the [[2-morphism]]s being [[natural transf
 
 * We obtain a very different 2-category of toposes if we take the morphisms to be [[logical functors]]; this 2-category is sometimes denoted $Log$ or $LogTopos$.
 
-## Limits
 
-The 2-category $Topos$ is not all that well-endowed with limits, but its slice categories are finitely complete [[2-limit|as 2-categories]], and $ShTopos$ is closed under finite limits in $Topos/Set$.  In particular, the [[terminal object]] in $ShToposes$ is the topos [[Set]] $\simeq Sh(*)$.
+## Properties
 
-## From topological spaces to toposes
+
+### From topological spaces to toposes
 
 The operation of forming [[categories of sheaves]]
 
@@ -64,9 +64,37 @@ Strictly speaking, this functor is not an [[embedding]] if we consider $Top$ as 
 
 However, if we regard $Top$ as a [[(1,2)-category]] where the 2-cells are inequalities in the [[specialization ordering]], then this functor does become a 2-categorically full embedding (i.e. an equivalence on hom-categories) if we restrict to the full subcategory $SobTop$ of [[sober spaces]].  This embedding can also be extended from $SobTop$ to the entire category of [[locales]] (which can be viewed as "Grothendieck 0-toposes").
 
-## From toposes to higher toposes
 
-There are similar full embeddings $ShTopos \hookrightarrow Sh 2 Topos$ and $ShTopos \hookrightarrow Sh(n,1)Topos$ of sheaf (1-)toposes into sheaf 2-toposes and sheaf $(n,1)$-toposes for $2\le n\le \infty$.
+### From toposes to higher toposes
+
+There are similar full embeddings $ShTopos \hookrightarrow Sh 2 Topos$ and $ShTopos \hookrightarrow Sh(n,1)Topos$ of sheaf (1-)toposes into [[2-sheaf]] [[2-topos]]es and sheaf [[(n,1)-topos]]es for $2\le n\le \infty$.
+
+
+
+### Limits and colimits
+
+The 2-category $Topos$ is not all that well-endowed with [[limit]]s, but its [[slice categories]] are finitely complete [[2-limit|as 2-categories]], and $ShTopos$ is closed under finite limits in $Topos/Set$.  In particular, the [[terminal object]] in $ShToposes$ is the topos [[Set]] $\simeq Sh(*)$.
+
++-- {: .un_prop}
+###### Proposition
+
+
+The 2-category $Topos$ is an [[extensive category]]. Same for toposes bounded over a base.
+
+=--
+
+This is in ([BungeLack, proposition 4.3](#BungeLack)).
+
+
+
+
+
+## References
+
+The fact that $Topos$ is extensive is in
+
+* [[Marta Bunge]], [[Steve Lack]], _van Kampen theorem for toposes_ ([ps](http://www.maths.usyd.edu.au/u/stevel/papers/vkt.ps.gz))
+{#BungeLack}
 
 
 category: category
