@@ -205,7 +205,15 @@ $$
 
 ## References 
 
-Categories of concrete sheaves, with special attention to sheaves on [[CartSp]], i.e. to [[diffeological space]]s, are discussed in detail in 
+The notion of quasitoposes of concrete sheaves goes back to
+
+* [[Eduardo Dubuc]], _Concrete quasitopoi_ , Lecture Notes in Math. 753 (1979), 239&#8211;254
+
+and is further developed in
+
+* [[Eduardo Dubuc]], L. Espanol, _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727)) .
+
+A review of categories of concrete sheaves, with special attention to sheaves on [[CartSp]], i.e. to [[diffeological space]]s is in
 
 * [[John Baez]], [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_, to appear in Trans. Amer. Math. Soc. ([arXiv](http://arxiv.org/abs/0807.1704))
 
