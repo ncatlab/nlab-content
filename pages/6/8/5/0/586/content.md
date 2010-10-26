@@ -6,8 +6,15 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
 =--
 =--
+=--
+
+
+
 
 # Finite objects
 * autmatic table of contents goes here
