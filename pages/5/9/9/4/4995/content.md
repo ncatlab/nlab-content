@@ -332,8 +332,13 @@ $$
 
 is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ and whose morphisms are $G$-principal bundles on the cylinder $X \times I$. These are _concordances of $\infty$-bundles._
 
+### van Kampen theorem
 
+A [[higher homotopy van Kampen theorem|higher]] [[van Kampen theorem]] asserts that passing to [[fundamental ∞-groupoid]]s preserves [[pushout]]s. 
 
+On a cohesive $(\infty,1)$-topos $\mathbf{H}$ the fundamental $\infty$-groupoid functor $\Pi : \mathbf{H} \to \infty Grod$ is a [[left adjoint]] [[(∞,1)-functor]] and hence preserves all [[(∞,1)-colimit]]s of _generalized spaces_ .
+
+More subtle is the question which pushouts of _concrete spaces_  $Conc(\mathbf{H}) \stackrel{\overset{concretize}{\leftarrow}}{\hookrightarrow} \mathbf{H}$ it preserves. These are computed by first computing them in $\mathbf{H}$ and then applying the concretization functor. 
 
 ## Interpretation {#Interpretation}
 
