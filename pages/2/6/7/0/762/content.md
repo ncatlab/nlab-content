@@ -1,3 +1,4 @@
+[[!redirects filtered space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
