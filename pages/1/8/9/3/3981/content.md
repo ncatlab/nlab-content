@@ -113,7 +113,7 @@ As we are considering curves in $(\mathbb{R} \cup \{*\}) \times_\mathbb{R} Y$, t
 Thus _any_ curve is allowed by this and so the smooth curves into $(\mathbb{R} \cup \{*\}) \times_\mathbb{R} Y$ are of the form $(\alpha, \beta)$ where $\alpha$ is *any* function from $\mathbb{R}$ into $\{0,*\}$ and $\beta : \mathbb{R} \to Y$ is a smooth curve in $Y$.
 
    +-- {: .query}
-   I notice that in some classically false versions of [[constructive mathematics]], the only functions from $\mathbb{R}$ to $\{0,*\}$ are the constant ones.  It would be nice if there were a nonclassical dream universe in which the category of Fr&#246;licher spaces were locally cartesian closed!  Unfortunately, the counterexample can be saved by using a continuously parametrised coproduct $\coprod_{\mathbb{R}} \mathbb{R}$ instead of $\coprod_{\{0,*\}} \mathbb{R} = \mathbb{R} \amalg \mathbb{R}$.  ---Toby
+   I notice that in some classically false versions of [[constructive mathematics]], the only functions from $\mathbb{R}$ to $\{0,*\}$ are the constant ones.  It would be nice if there were a nonclassical [[dream mathematics|dream universe]] in which the category of Fr&#246;licher spaces were locally cartesian closed!  Unfortunately, the counterexample can be saved by using a continuously parametrised coproduct $\coprod_{\mathbb{R}} \mathbb{R}$ instead of $\coprod_{\{0,*\}} \mathbb{R} = \mathbb{R} \amalg \mathbb{R}$.  ---Toby
 
    [[Andrew Stacey]] I think I'd be disappointed if locally cartesian became a property of what set theory was being used!  I suspect that the real reason this example works is the fact that $Y \to \mathbb{R}$ has such bad path-lifting properties and the coequaliser diagram that I chose is just a simple one that demonstrates it.
 
