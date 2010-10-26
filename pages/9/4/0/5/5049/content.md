@@ -22,8 +22,8 @@ This is a smooth enhancement of the [[Tietze extension theorem]].
 ## Statement
 
 
-{#GeneralizedSteenrodTheorem}
 +-- {: .un_theorem }
+{#GeneralizedSteenrodTheorem}
 ###### Theorem
 
 
