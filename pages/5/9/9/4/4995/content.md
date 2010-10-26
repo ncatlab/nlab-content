@@ -177,7 +177,7 @@ Generally, for every [[characteristic class]] $\mathbf{B}G \to \mathbf{B}^n K$ t
 For more on this see [[∞-Chern-Weil theory introduction]].
 
 
-### Concrete objects
+### Concrete objects {#ConcreteObjects}
 
 Even with a notion of cohesion, the general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete (∞,1)-sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
 
@@ -332,13 +332,40 @@ $$
 
 is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ and whose morphisms are $G$-principal bundles on the cylinder $X \times I$. These are _concordances of $\infty$-bundles._
 
-### van Kampen theorem
 
-A [[higher homotopy van Kampen theorem|higher]] [[van Kampen theorem]] asserts that passing to [[fundamental ∞-groupoid]]s preserves [[pushout]]s. 
+### van Kampen theorem {#vanKampenTheorem}
+
+A [[higher homotopy van Kampen theorem|higher]] [[van Kampen theorem]] asserts that passing to [[fundamental ∞-groupoid]]s preserves certain colimits. 
 
 On a cohesive $(\infty,1)$-topos $\mathbf{H}$ the fundamental $\infty$-groupoid functor $\Pi : \mathbf{H} \to \infty Grod$ is a [[left adjoint]] [[(∞,1)-functor]] and hence preserves all [[(∞,1)-colimit]]s of _generalized spaces_ .
 
-More subtle is the question which pushouts of _concrete spaces_  $Conc(\mathbf{H}) \stackrel{\overset{concretize}{\leftarrow}}{\hookrightarrow} \mathbf{H}$ it preserves. These are computed by first computing them in $\mathbf{H}$ and then applying the concretization functor. 
+More interesting is the question which pushouts of [concrete space](#ConcreteObjects) in  
+
+$$
+  Conc(\mathbf{H}) 
+    \stackrel{\overset{conc}{\leftarrow}}{\underset{inj}{\hookrightarrow}} 
+  \mathbf{H}
+$$ 
+
+are preserved by $\Pi$ These are computed by first computing them in $\mathbf{H}$ and then applying the concretization functor. So we have
+
++-- {: .un_lemma}
+###### Observation
+
+Let $U_\bullet : K \to Conc(\mathbf{H})$ be a [[diagram]] such that
+the [[(∞,1)-colimit]]
+$\lim_\to inj \circ U_\bullet$ is concrete, $\cdots \simeq inj(X)$.
+
+Then the [[schreiber:path ∞-groupoid|fundamental ∞-groupoid]] of $X$ is computed as the $(\infty,1)$-colimit
+
+$$
+  \Pi(X) \simeq {\lim_\to} \Pi(U_\bullet)
+  \,.
+$$
+
+
+=--
+
 
 ## Interpretation {#Interpretation}
 
