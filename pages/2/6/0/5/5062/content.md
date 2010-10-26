@@ -10,10 +10,20 @@ as may be represented in a picture by arrows'(Venema).
 
 +--{: .un_defn}
 ######Definition######
-An **arrow frame** is a [[frame (modal logic)|frame]], $\mathfrak{F} = (W, C, R, I )$ such that $C$ is a ternary relation, (so $C\subset 
-W \times W \times W$, $R$ is a binary relation, and $I$ a unary one, so $I\subset W$. 
+An **arrow frame** is a [[frame (modal logic)|frame]], $\mathfrak{F} = (W, C, R, I )$ such that $C$ is a ternary relation, (so $C\subseteq 
+W \times W \times W$, $R$ is a binary relation, and $I$ a unary one, so $I\subseteq W$. 
 =--
+###Gloss###
+The interpretation intended for these relations is similar to the structure of a [[groupoid]], but from a relational point of view.
 
+*  For $C(a,b,c)$ think $a = b\star c$, 'the' _composite_ of $b$ and $c$, but, of course, $a$ need not be uniquely defined by this;
+
+* For $R(a,b)$, think $b$ is a 'reverse' arrow for $a$;
+
+* For $I(a)$ i.e. $a\in I$, think $a$ is an 'identity arrow'.
+
+This defines a frame by a relational signature.  It does not specify any formulae to be satisfied, nor is there a [[geometric models for modal logics
+  |valuation]] around  to give some 'meaning' to the structure.
 
 ##References##
 
