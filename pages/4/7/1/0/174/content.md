@@ -18,7 +18,7 @@
 
 ## Idea 
 
-The term _brane_ referes in formal high energy [[physics]] and in particular in [[string theory]] to entities that one thinks of as physical objects that generalize the notion _point particles_ to higher dimensional objects.
+The term _brane_ in formal high energy [[physics]], and in particular in [[string theory]], refers to entities that one thinks of as physical objects that generalize the notion _point particles_ to higher dimensional objects.
 
 The term derives from the word _membrane_ that was originally used to describe 2-dimensional "particles". When the need was felt to speak also about 3-, 4- and higher dimensional such "particles" the usage "3-brane", "4-brane" etc. was introduced. Ordinary particles would be 0-branes in this counting, the strings in [[string theory]] would be 1-branes and membranes themselves 2-branes.
 
@@ -93,7 +93,7 @@ In string theory one speak apart from the D-branes alsso about _fundamental bran
 
 * For $n=0$ this describes the ordinary quantum mechanics of a point particle on $X$. And such point particles are the _fundamental particles_ for instance of the [[standard model of particle physics]].
 
-* For $n=1$ this describes the quantum propagation of a [[string theory|string]], and accordingly one speaks of the _fundamental string_ of F1-brane (fundamental 1-brane).
+* For $n=1$ this describes the quantum propagation of a [[string theory|string]], and accordingly one speaks of the _fundamental string_ or F1-brane (fundamental 1-brane).
 
 * For $n=2$ this describes the quantum propagation of a membrane. 
 
@@ -139,6 +139,7 @@ The "brane scan" table showing the consistent dimension pairs for the [[Green-Sc
 going back to
 
 * A. Ach&#250;carro, J. M. Evans, Pete Townsend and D. L. Wiltshire, _Super $p$-branes_ Physics Letters B Volume 198, Issue 4, 3 (1987)
+
 Further developments are in
 
 More along these lines is in
