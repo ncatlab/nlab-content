@@ -425,15 +425,22 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    Q(U_1) &\to& P
+    Q(U_1) &\to& Q(U_1) \coprod_{Q(U_1 \cap U_2)} Q(U_2)
   }
 $$
 
-in $[TopBalls^{op}, sSet]_{proj,loc}$ is a [[homotopy pushout]] diagram (as described there).This pushout of simplicial presheaves is computed degreewise, hence $P$ is the simplicial object whose $k$-cells are $k$-fold intersections of opens either in $U_1$ or in $U_2$. Since the objects we are pushing out are 0-[[truncated]] it is sufficient to check that the 1-truncation of the objectwise [[Kan fibrant replacement]] of $P$ is equivalent to $X$. But this is the case: for $V$ in $U_1$ but not in $U_2$ and $V'$ the other way round, both intersecting in $U_1 \cap U_2$ we have no morphism in $P$ from points $(x,i)$ to points $(x,j)$ in the double intersection, but in the Kan fibrant replacement of $P$ we do, because there we can first just restrict to smaller subset and then switch patches. (...) Hence $X$ is the homotopy colimit. 
+in $[TopBalls^{op}, sSet]_{proj,loc}$ is a [[homotopy pushout]] diagram (as described there). So we need to show that this pushout is weakly equivalent to $X$. Since the objects we are pushing out are 0-[[truncated]] it is sufficient to check that the 1-truncation of the objectwise [[Kan fibrant replacement]] of the puhsout is equivalent to $X$.
+
+First we observe that the canonical map $Q(U_1) \coprod_{Q(U_1 \cap U_2)} Q(U_2) \to X$ is an isomorphism on $\pi_0$: for $f : B \to V$ and $f' : B \to V'$ two maps from a representable through patches $V,V'$ with the same image in $X$, either both $V,V'$ are in $U_1$ or both in $U_2$ in which case there is a morphism in $Q(U_1)$ or $Q(U_2)$ between them. Or else $V$ is in $U_1$ and $V'$ in $U_2$, then the span $V \leftarrow V\cap V' \to V'$ in the [[Kan fibrant replacement|Ex-replacement]] with the left leg in $Q(U_1)$ and the right one in $Q(U_2)$ provides the morphism.
+
+With the same kinds of spans one finds that $\pi_1$ of the pushout is trivial: it is clear that 1-spheres in $Q(U_1)$ and $Q(U_2)$ may be contracted, so the question is if a sphere built from spans of the kind just considered is always contractible. But by just taking the intersection of the span tips we can always fill the sphere. 
+
+Alternatively, if we allow ourselves to use the ordinary [[van Kampen theorem]] for the homotopy group $\pi_1$, then after applying  [[geometric realization]] to the value of our simplicial presheaves over a test object $B$ (which preserves the pushout) the statement that $\pi_1(|Q(U_1) \coprod_{Q(U_1 \cap U_2)} Q(U_2)(B)|) \simeq \pi_1(|Q(U_1)(B)| \coprod_{\pi_1(U_1 \cap U_2(B))} |Q(U_2)(B)|) = 0$ for any basepoint in the intersection follows from the fact that $\pi_1 Q(U_i)(B) = 0$. (Beware that these are the categorical homotopy groups of the Cech covers, not the geometric homotopy groups of the spaces!)
+
+So $X$ is indeed the homotopy pushout.
 
 
-
-We get back now to showingthat the morphisms $Q(U_1 \cap U_2) \to Q(U_i)$ are indeed cofibrations. For that purpose, notice that we may write them in [[coend]]-notation as
+We get back now to showing that the morphisms $Q(U_1 \cap U_2) \to Q(U_i)$ are indeed cofibrations. For that purpose, notice that we may write them in [[coend]]-notation as
 
 $$
  \int^{[k] \in \Delta}
@@ -464,7 +471,7 @@ That $\Delta[-] : \Delta \to sSet$ is indeed Reedy cofibrant is standard (discus
 
 So it remains to discuss that $V_\bullet \to W_\bullet$ is a Reedy cofibration. 
 
-For that notice that in $[TopBall^{op}, sSet]_{proj,loc}$ obviiously all representables are cofibrant, all coproducts of representables are cofibrant, and that all morphisms that include summands into a coproduct of representables are cofibrations. 
+For that notice that in $[TopBall^{op}, sSet]_{proj,loc}$ obviously all representables are cofibrant, all coproducts of representables are cofibrant, and that all morphisms that include summands into a coproduct of representables are cofibrations. 
 
 It follows that $V_\bullet \to W_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, [TopBalls^{op}, sSet]_{proj,loc}]_{Reedy}$:
 the latching objects $L_k V_\bullet$ and $L_k W_\bullet$ are the summands of coproducts of representables for which at least two indicices coindice.  The object $L_k W \coprod_{L_k V} L_k V$ is the union of the $k$-fold intersections of the $V$ with the degenerate $k$-fold intersections of the $W$ and the morphism $L_k W \coprod_{L_k V} L_k V \to W_k$ is the inclusion of these summands. By what we just said this is a cofibration in $[TopBalls^{op}, sSet]_{proj,loc}$. So $V_\bullet \to W_\bullet$ is a Reedy cofibration.
