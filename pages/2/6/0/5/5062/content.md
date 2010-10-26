@@ -33,6 +33,6 @@ A general treatment of these ideas can be found in
 
 whilst a short introduction is 
 
-*  Y. [[Venema]], [_A crash course in Arrow Logic_](http://staff.science.uva.nl/~yde/papers/arrow.pdf), in in: M Marx, L P&#243;los and M Masuch (editors), Arrow Logic and Multi-Modal Logic,
+*  Y. [[Venema]], [_A crash course in Arrow Logic_](http://staff.science.uva.nl/~yde/papers/arrow.pdf),  in: M Marx, L P&#243;los and M Masuch (editors), Arrow Logic and Multi-Modal Logic,
 Studies in Logic, Language and Information, CSLI Publications, Stanford (1996) 3--34.
 
