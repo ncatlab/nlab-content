@@ -372,7 +372,36 @@ In the [Examples](#Examples) we discuss the cohesive $(\infty,1)$-topos $\mathbf
 +-- {: .un_prop}
 ###### Proposition
 
-Let $X, U_1, U_2$ be [[paracompact space|paracompact]] [[topological space]]s and $U_1 \hookrightarrow X$, $U_2 \hookrightarrow X$ two [[embedding]]s such that $X$ is the [[colimit]]
+Let $X$ be a [[paracompact space|paracompact]] or [[locally contractible space|locally contractible]] [[topological space]]s and $U_1 \hookrightarrow X$, $U_2 \hookrightarrow X$ a [[covering]] by two [[open subsets]].
+
+Then under the [[singular simplicial complex]] functor $Sing : Top \to $ [[sSet]] we have a [[homotopy pushout]]
+
+$$
+  \array{
+    Sing(U_1) \cap Sing(U_2) &\to& Sing(U_2)
+    \\
+    \downarrow && \downarrow
+    \\
+    Sing(U_1) &\to& Sing(X)
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We inject the topological space via the external [[Yoneda embedding]]
+
+$$
+  Top \hookrightarrow Sh(TopBalls) \hookrightarrow
+  \mathbf{H} := (\infty,1)Sh(OpenBalls)
+$$
+
+as a 0-[[truncated]] [[topological ∞-groupoid]] in the cohesive 
+$(\infty,1)$-topos $\mathbf{H}$. Being an [[(∞,1)-category of (∞,1)-sheaves]] this is [[locally presentable (∞,1)-category|presented]] by the [[Bousfield localization of model categories|left Bousfield localization]] $[TopBalls^{op}, sSet]_{inj,loc}$ of the injective [[model structure on simplicial presheaves]] on $TopBalls$ (as described at [[models for ∞-stack (∞,1)-toposes]]). Since cofibrations in that model structure are objectwise and degreewise injective maps, it follows that the ordinary [[pushout]] diagram
 
 $$
   \array{
@@ -384,98 +413,14 @@ $$
   }
 $$
 
-in [[Top]]. 
-
-Then under the [[singular simplicial complex]] functor $Sing : Top \to $ [[sSet]] this becomes a [[homotopy pushout]]
+in $[TopBalls^{op}, sSet]_{inj,loc}$ has all objects cofibrant and is the pushout along a cofibration, hence is a [[homotopy pushout]] (as described there). By the general theorem at [[(∞,1)-colimit]] homotopy pushouts model $(\infty,1)$-pushouts, so that indeed $X$ is the $(\infty,1)$-pushout
 
 $$
-  \array{
-    Sing(U_1) \cap Sing(U_2) &\to& Sing(U_2)
-    \\
-    \downarrow && \downarrow
-    \\
-    Sing(U_1) &\to& Sing(X)
-  }
+  X \simeq U_1 \coprod_{U_1 \cap U_2} U_2 \in \mathbf{H}
+  \,.
 $$
 
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We want to show this by regarding the problem inside a cohesive $(\infty,1)$-topos. So embed the topological spaces under the canonical inclusion (the _external [[Yoneda embedding]]_) $Top \hookrightarrow Sh(TopBalls) \hookrightarrow \mathbf{H} = (\infty,1)Sh(TopBall)$ as 0-[[truncated]] objects into the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s.
-
-Observe that the embedding $Top \hookrightarrow Sh(TopBall)$ of topological spaces into [[concrete sheaves]] on [[open balls]] preserves the above pushout diagram. 
-
-We shall claim now that also the the embedding $Sh(TopBalls) \hookrightarrow \mathbf{H}$ preserves this pushout, in that it sends it to an $(\infty,1)$-pushout. With the above observation and using that $\Pi$ sends paracompact spaces to an $\infty$-groupoid $\Pi(X)$ equivalent to $Sing(X)$ (see [[schreiber:path ∞-groupoid]]) this implies the proposition.
-
-To see that our pushout is preserved in $\mathbf{H}$, we [[presentable (∞,1)-category|present]] this by the [[Bousfield localization of model categories|left Bousfield localization]] $[TopBalls^{op}, sSet]_{proj,loc}$ of the global projective [[model structure on simplicial presheaves]] $[TopBalls^{op}, sSet]_{proj}$ (as described at [[models for ∞-stack (∞,1)-toposes]]).
-
-By the disucssion at [[good open cover]] we can find _compatible_ good open covers of our topological spaces, good covers on $X$ and $U_i$ such that the embeddings $U_i \to X$ send covering patches to covering patches (for instance choose a Riemannian metric on $X$, form the cover of geodesically convex neighbourhoods of radius less than or equal the convexity radius around each point as described there. The restriction of this to $U_1$ and $U_2$ gives the corresponding construction on these subspaces.
-
-
-By the discussion at <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">model structure on simplicial presheaves -- cofibrant resolutions</a> the [[Cech nerve]]s of these good open covers constitute cofibrant [[resolution]]s $Q X \stackrel{\simeq}{\to} X$, $Q U_i \stackrel{\simeq}{\to} U_i$ in $[TopBalls^{op}, sSet]_{proj,loc}$. By the construction we just mentioned we can arrange that the induced morphism $Q (U_1 \cap U_2) \to Q U_i$ is degreewise an inclusion of summands into a coproduct of representables. We shall argue now that this is a cofibration.
-
-Once we have that these morphisms are cofibrations, it follows that the ordinary pushout diagram
-
-$$
-  \array{
-    Q(U_1 \cap U_2) &\to& Q(U_2)
-    \\
-    \downarrow && \downarrow
-    \\
-    Q(U_1) &\to& Q(U_1) \coprod_{Q(U_1 \cap U_2)} Q(U_2)
-  }
-$$
-
-in $[TopBalls^{op}, sSet]_{proj,loc}$ is a [[homotopy pushout]] diagram (as described there). So we need to show that this pushout is weakly equivalent to $X$. Since the objects we are pushing out are 0-[[truncated]] it is sufficient to check that the 1-truncation of the objectwise [[Kan fibrant replacement]] of the puhsout is equivalent to $X$.
-
-First we observe that the canonical map $Q(U_1) \coprod_{Q(U_1 \cap U_2)} Q(U_2) \to X$ is an isomorphism on $\pi_0$: for $f : B \to V$ and $f' : B \to V'$ two maps from a representable through patches $V,V'$ with the same image in $X$, either both $V,V'$ are in $U_1$ or both in $U_2$ in which case there is a morphism in $Q(U_1)$ or $Q(U_2)$ between them. Or else $V$ is in $U_1$ and $V'$ in $U_2$, then the span $V \leftarrow V\cap V' \to V'$ in the [[Kan fibrant replacement|Ex-replacement]] with the left leg in $Q(U_1)$ and the right one in $Q(U_2)$ provides the morphism.
-
-With the same kinds of spans one finds that $\pi_1$ of the pushout is trivial: it is clear that 1-spheres in $Q(U_1)$ and $Q(U_2)$ may be contracted, so the question is if a sphere built from spans of the kind just considered is always contractible. But by just taking the intersection of the span tips we can always fill the sphere. 
-
-Alternatively, if we allow ourselves to use the ordinary [[van Kampen theorem]] for the homotopy group $\pi_1$, then after applying  [[geometric realization]] to the value of our simplicial presheaves over a test object $B$ (which preserves the pushout) the statement that $\pi_1(|Q(U_1) \coprod_{Q(U_1 \cap U_2)} Q(U_2)(B)|) \simeq \pi_1(|Q(U_1)(B)| \coprod_{\pi_1(U_1 \cap U_2(B))} |Q(U_2)(B)|) = 0$ for any basepoint in the intersection follows from the fact that $\pi_1 Q(U_i)(B) = 0$. (Beware that these are the categorical homotopy groups of the Cech covers, not the geometric homotopy groups of the spaces!)
-
-So $X$ is indeed the homotopy pushout.
-
-
-We get back now to showing that the morphisms $Q(U_1 \cap U_2) \to Q(U_i)$ are indeed cofibrations. For that purpose, notice that we may write them in [[coend]]-notation as
-
-$$
- \int^{[k] \in \Delta}
-  \Delta[k] \cdot \coprod_{i_0, \cdots, i_k} V_{i_0, \cdots, i_k}
-  \to
- \int^{[k] \in \Delta}
-  \Delta[k] \cdot \coprod_{j_0, \cdots, j_k} W_{j_0, \cdots, j_k}
-  \,,
-$$
-
-where all the $V_\cdots$ and $W_\cdots$ are representables in $TopBalls$ and the morphism is induced from inclusions $f^{(k)} : I^k \subset J^k$ of index sets. 
-
-We want to use that 
-
-$$
-  \int^\Delta (-)\cdot (-) : 
-    [\Delta, sSet_{Quillen}]_{Reedy} 
-    \times
-    [\Delta^{op}, [TopBalls^{op}, sSet]_{proj,loc}]_{Reedy} 
-    \to
-    [TopBalls^{op}, sSet]_{proj,loc}
-$$
-
-is a [[Quillen bifunctor]] (as discussed there) with respect to the [[Reedy model structure]] as indicated and thus will preserve on a cofibrant first argument $\Delta$ a cofibration $V_\bullet \to W_\bullet : 
-([k] \mapsto \coprod_{i_0, \cdots, i_k} V_{i_0, \cdots, i_k}) \to ([k] \mapsto \coprod_{j_0, \cdots, j_k} W_{j_0, \cdots, j_k})$ in the second argument.
-
-That $\Delta[-] : \Delta \to sSet$ is indeed Reedy cofibrant is standard (discussed at <a href="http://ncatlab.org/nlab/show/Reedy+model+structure#SimplexCategory">Reedy model structure -- over the simplex category</a>).
-
-So it remains to discuss that $V_\bullet \to W_\bullet$ is a Reedy cofibration. 
-
-For that notice that in $[TopBall^{op}, sSet]_{proj,loc}$ obviously all representables are cofibrant, all coproducts of representables are cofibrant, and that all morphisms that include summands into a coproduct of representables are cofibrations. 
-
-It follows that $V_\bullet \to W_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, [TopBalls^{op}, sSet]_{proj,loc}]_{Reedy}$:
-the latching objects $L_k V_\bullet$ and $L_k W_\bullet$ are the summands of coproducts of representables for which at least two indicices coindice.  The object $L_k W \coprod_{L_k V} L_k V$ is the union of the $k$-fold intersections of the $V$ with the degenerate $k$-fold intersections of the $W$ and the morphism $L_k W \coprod_{L_k V} L_k V \to W_k$ is the inclusion of these summands. By what we just said this is a cofibration in $[TopBalls^{op}, sSet]_{proj,loc}$. So $V_\bullet \to W_\bullet$ is a Reedy cofibration.
-
+The proposition now follows with the above observation and with the statement (from [[topological ∞-groupoid]]) that $\Pi X \simeq Sing X$.
 
 =--
 
