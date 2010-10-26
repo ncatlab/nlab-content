@@ -1,9 +1,15 @@
 
-**[[homotopy]]**
+**[[homotopy theory]]**
 
-## [[homotopy theory]] ##
+* [[stable homotopy theory]]
 
-* [[homotopy coherent category theory]]
+## Definitions
+
+* [[homotopy]]
+
+* [[homotopy group]]
+
+* * [[homotopy coherent category theory]]
 
   * [[homotopical category]]
 
@@ -15,11 +21,13 @@
 
   * [[homotopy category]]
 
+    * [[Ho(Top)]]
+
 * [[(∞,1)-category]]
 
   * [[homotopy category of an (∞,1)-category]]
 
-## paths and cylinders ##
+## Paths and cylinders ##
 
 * [[left homotopy]]
 
@@ -45,6 +53,10 @@
 
   * [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]]
 
+## Theorems
 
+* [[homotopy hypothesis]]-theorem
+
+* [[higher homotopy van Kampen theorem]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/homotopy+-+contents)</div>
