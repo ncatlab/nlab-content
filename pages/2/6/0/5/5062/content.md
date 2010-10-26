@@ -11,7 +11,7 @@ as may be represented in a picture by arrows'(Venema).
 +--{: .un_defn}
 ######Definition######
 An **arrow frame** is a [[frame (modal logic)|frame]], $\mathfrak{F} = (W, C, R, I )$ such that $C$ is a ternary relation, (so $C\subseteq 
-W \times W \times W$, $R$ is a binary relation, and $I$ a unary one, so $I\subseteq W$. 
+W \times W \times W$), $R$ is a binary relation, and $I$ a unary one, so $I\subseteq W$. 
 =--
 ###Gloss###
 The interpretation intended for these relations is similar to the structure of a [[groupoid]], but from a relational point of view.
