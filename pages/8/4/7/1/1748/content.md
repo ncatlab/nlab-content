@@ -5,7 +5,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
