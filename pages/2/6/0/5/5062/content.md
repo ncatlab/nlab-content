@@ -6,7 +6,7 @@
 ##Arrow frames, arrow languages and arrow logics##
 
 These structures are intended to allow one to talk about 'all such objects 
-as may be represented in a picture by arrows'(Venema).
+as may be represented in a picture by arrows', (Venema).
 
 +--{: .un_defn}
 ######Definition######
