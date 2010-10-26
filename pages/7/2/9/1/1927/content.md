@@ -57,7 +57,7 @@ Notice that we may equivalently reinterpret the condition that
 
 * a morphism $\pi : U \to X$ is the [[quotient object]] of its [[kernel pair]] $U \times_X U \stackrel{\to}{\to} U$
 
-by saying that $X$ is the [[colimit]] over the entire [[Čech nerve]] 
+by saying that $X$ is the [[colimit]] over the entire [[?ech nerve]] 
 
 $$
   \cdots
@@ -72,7 +72,7 @@ This is the formulation that generalizes to [[higher category theory|higher cate
 
 
 In an $(\infty,1)$-[[(infinity,1)-category|category]] $C$, an _effective epimorphism_ 
-$f : U \to X$ is a morphism such that its [[Čech nerve]] $U_\bullet$
+$f : U \to X$ is a morphism such that its [[?ech nerve]] $U_\bullet$
 is a [[simplicial resolution]] of $X$.
 
 This is defined in [[HTT]] only for an $(\infty,1)$-[[semitopos]], but seems to be correct in general.
@@ -114,3 +114,6 @@ _Toby_:  Ah, I see, it\'s 'effective epimorphism' that Lurie defines for an $(\i
 [[!redirects effective epi]]
 [[!redirects effective epimorphism]]
 [[!redirects effective epimorphisms]]
+
+
+[[!redirects effective epimorphism in an (∞,1)-category]]
