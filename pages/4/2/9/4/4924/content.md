@@ -15,7 +15,7 @@
 
 _2Cat_ is the [[3-category]] of [[2-categories]].
 
-category: categories
+category: category
 
 [[!redirects BiCat]]
 [[!redirects Bicat]]
