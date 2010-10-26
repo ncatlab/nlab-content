@@ -10,7 +10,7 @@ as may be represented in a picture by arrows'(Venema).
 
 +--{: .un_defn}
 ######Definition######
-An **arrow frame** is a [[frame (modal logic)|frames]] $F = (W, C, R, I )$ such that $C$ is a ternary relation, (so $C\subset 
+An **arrow frame** is a [[frame (modal logic)|frame]], $\mathfrak{F} = (W, C, R, I )$ such that $C$ is a ternary relation, (so $C\subset 
 W \times W \times W$, $R$ is a binary relation, and $I$ a unary one, so $I\subset W$. 
 =--
 
