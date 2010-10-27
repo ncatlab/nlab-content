@@ -46,21 +46,24 @@
 
 * [[connected space]], [[locally connected space]], [[contractible space]], [[locally contractible space]]
 
-
-## Examples
-
-* [[point]], [[sphere]], [[ball]]
-
 * [[topological vector space]], [[Banach space]], [[Hilbert space]]
 
 * [[manifold]]
 
-  * [[real line]], [[long line]]
+
+## Examples
+
+* [[point]], [[real line]], [[plane]]
+
+* [[sphere]], [[ball]], [[annulus]]
+
+* [[polytope]], [[polyhedron]]
 
 * [[loop space]], [[path space]]
 
 * [[Cantor space]], [[Sierpinski space]]
 
+* [[long line]], [[Warsaw circle]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/topology+-+contents)</div>
 
