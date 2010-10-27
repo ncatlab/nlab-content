@@ -31,7 +31,7 @@ The composite [[(∞,1)-functor]]
 $$
   \Pi : (\infty,1)Topos 
      \stackrel{Y}{\to}  Lex((\infty,1)Topos, \infty Grpd)^{op}
-      \stackrel{Lex(PSh((-)^{op}), \infty Grpd)}{\to}
+      \stackrel{Lex(PSh(-), \infty Grpd)}{\to}
       Lex(\infty Grpd, \infty Grpd)^{op}
      \simeq
        Pro \infty Grpd
@@ -41,7 +41,7 @@ is the **shape functor** . Its value
 
 $$
   \Pi(\mathbf{H}) = 
-  (\infty,1)Topos(\mathbf{H}, PSh((-)^{op}))
+  (\infty,1)Topos(\mathbf{H}, PSh(-))
 $$ 
 
 on an $(\infty,1)$-topos $\mathbf{H}$ is the **shape** of $\mathbf{H}$.
@@ -59,51 +59,14 @@ Here
 * $Lex(-,-) \subset (\infty,1)Func(-,-)$ is the full [[sub-(∞,1)-category]]
   of the [[(∞,1)-category of (∞,1)-functors]] on those which are left [[exact functor]]s (preserve [[(∞,1)-limit]]s);
 
-* $PSh((-)^{op}) : \infty Grpd \to (\infty,1)Topos$ is the functor that 
-  produces the [[(∞,1)-category of (∞,1)-presheaves]] $Func(X^{op}, \infty Grpd)$ on the [[opposite (∞,1)-category]] $X^{op}$;
+* $PSh(-) : \infty Grpd \to (\infty,1)Topos$ is the functor that 
+  produces the [[(∞,1)-category of (∞,1)-presheaves]] $Func(X^{op}, \infty Grpd)$ on $X$ (equivalently on the equivalent [[opposite (∞,1)-category|opposite ∞-groupoid]] $X^{op}$);
 
-* $Pro \infty Grpd$ is the [[ind-object in an (∞,1)-category|(∞,1)-category of pro-objects]] in $\infty Grpd$.
+* $Pro \infty Grpd$ is the [[pro-object in an (∞,1)-category|(∞,1)-category of pro-objects]] in $\infty Grpd$.
 
 
 ## Properties
 
-
-+-- {: .un_proposition}
-###### Proposition
-
-We have a pair of [[adjoint (∞,1)-functor]]s
-
-$$
-  (\Pi \dashv Disc) : (\infty,1)Topos \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}}
-  Pro \infty Grpd
-  \,,
-$$
-
-where $Disc$ is the extension of $PSh((-)^{op}) : \infty Grpd \to (\infty,1)Topos$ to $Pro \infty Grpd$, using that [[(∞,1)Topos]] has all [[(∞,1)-limit]]s.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the [[(∞,1)-Yoneda lemma]] is is sufficient to test this on 
-ordinary $\infty$-groupoids $X \in \infty Grpd \hookrightarrow Pro \infty Grpd$:
-
-$$
-  \begin{aligned}
-    Pro \infty Grpd(\Pi\mathbf{H}, X)
-    := & 
-    Pro \infty Grpd ( (\infty,1)Topos(\mathbf{H}, PSh((-)^{op})), X)
-    \\
-    & \simeq 
-    (\infty,1)Topos(\mathbf{H}, PSh(X^{op}))
-  \end{aligned}
-  \,,
-$$
-
-where the last step is again the $(\infty,1)$-Yoneda lemma.
-
-=--
 
 
 Notice that for every [[(∞,1)-topos]] $\mathbf{H}$ there is a unique [[geometric morphism]]
