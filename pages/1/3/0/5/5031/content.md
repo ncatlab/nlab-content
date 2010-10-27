@@ -147,7 +147,7 @@ This is in ([BungeLack, proposition 4.3](#BungeLack)).
 
 The characterization of colimits in $Topos$ is in
 
-* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid. I_ Transaction of the American mathematical society Volume 310, Number 2, (1988)
+* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid. I_ Transaction of the American mathematical society Volume 310, Number 2, (1988) ([pdf](http://www.ams.org/journals/tran/1988-310-02/S0002-9947-1988-0973173-9/S0002-9947-1988-0973173-9.pdf))
 {#Moerdijk}
 
 The fact that $Topos$ is extensive is in
