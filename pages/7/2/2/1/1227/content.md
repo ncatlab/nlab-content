@@ -101,7 +101,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.3.5.5]].
 
 * [[ind-object]] / **ind-object in an $(\infty,1)$-category**
 
-* [[pro-object]]
+* [[pro-object]] / [[pro-object in an (∞,1)-category]]
 
 ## References 
 
