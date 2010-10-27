@@ -16,7 +16,9 @@ where $\sigma: \Delta \to Top$ is the standard affine [[simplex]] functor. Provi
 
 ### Standard affine simplex functor
 
-There are various ways to understand $\sigma: \Delta \to Top$ from a categorical perspective. (Note: in this article we will be working with the algebraist's version of the simplex category $\Delta$, namely the category of finite ordinals and order-preserving maps, including the initial or empty object which represents a (-1)-dimensional simplex. The $n$-element ordinal is conventionally, but perhaps unfortunately, denoted $[n-1]$, to indicate the dimension.)
+There are various ways of understanding the affine simplex functor $\sigma: \Delta \to Top$ from a categorical perspective. (Note: in this article we will be working with the algebraist's version of the simplex category $\Delta$, namely the category of finite ordinals and order-preserving maps, including the initial or empty object which represents a (-1)-dimensional simplex. The $n$-element ordinal is conventionally, but perhaps unfortunately, denoted $[n-1]$, to indicate the dimension.)
+
+#### First definition 
 
 One way is begins by regarding $\Delta^{op}$ as isomorphic to the category of nonempty ordinals, for which maps are functions that preserve order and the top and bottom elements. The $n$-element object $[n-1]$ of $\Delta$ corresponds to the $(n+1)$-element object of $\Delta^{op}$ (again denoted $[n-1]$) that is isomorphic to $\hom_{\Delta}([n-1], [1])$. A totally ordered set with top and bottom is called an _interval_, and the affine simplex functor arises by homming into the standard unit interval $I$:
 
@@ -27,6 +29,8 @@ This produces a contravariant functor $hom_{Int}(-, I): \Delta^{op} \to Set$, th
 $$\{(x_0, x_1, \ldots, x_n): 0 = x_0 \leq x_1 \leq \ldots \leq x_n = 1\}$$
 
 topologized as a subspace $\{0 \leq x_1 \leq \ldots \leq x_{n-1} \leq 1\}$ of $I^{n-1}$. This produces the functor $\sigma: \Delta \to Top$.
+
+#### Second definition 
 
 A second way of understanding $\sigma$ is by taking advantage of the fact that the algebraist's $\Delta$ is the [[walking structure|walking]] [[monoid]]. This means that given a monoidal structure on $Top$ and a monoid $M$ therein, there is a unique monoidal functor $\sigma: \Delta \to Top$ which sends the generic monoid $[0]$ to the monoid $M$. To this end, take the monoidal product on $Top$ to be "topological simplicial join": the join $X \star Y$ of two spaces $X$, $Y$ may be defined to be the pushout of the diagram
 
