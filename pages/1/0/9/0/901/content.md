@@ -183,7 +183,7 @@ This is the starting point for the definition at [[ind-object in an (∞,1)-cate
 
 * **ind-object** / [[ind-object in an (∞,1)-category]]
 
-* [[pro-object]]
+* [[pro-object]] / [[pro-object in an (∞,1)-category]]
 
 
 ## References
