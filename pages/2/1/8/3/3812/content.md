@@ -6,7 +6,7 @@
 
 A **triangulation** of a [[topological space]] $Y$ is a [[simplicial set]] $X$ together with a [[homeomorphism]] $h: R X \to Y$, where $R$ denotes the [[geometric realization]] [[functor]].
 
-(usually, in classical algebraic and geometric topology, the $X$ here is taken to be a [[simplicial complex]], but the difference does not really matter here. See the discussion at [[subdivision]].)
+(Usually, in classical algebraic and geometric topology, the $X$ here is taken to be a [[simplicial complex]], but the difference does not really matter here. See the discussion at [[subdivision]].)
 
 Explicitly, $R X$ is given by a [[coend]] formula
 
