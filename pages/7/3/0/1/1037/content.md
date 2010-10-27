@@ -1,41 +1,18 @@
-+-- {: .rightHandSide .toc}
-##Other Relevant Pages##
-+-- {: .dropDown}
-###Mathematics###
-+-- {: .hide}
-[[!include mathematicscontents]]
-=--
-=--
-***
-+-- {: .dropDown}
-###Higher Category Theory###
-+-- {: .hide}
-[[!include higher category theory - contents]]
-=--
-=--
-***
-+-- {: .dropDown}
-###Quasi-Category Theory###
-+-- {: .hide}
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
 =--
-=--
-***
-+-- {: .dropDown}
-###(∞,1)-Topos Theory###
-+-- {: .hide}
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 =--
-***
-+-- {: .dropDown}
-###Model Category Theory###
-+-- {: .hide}
-[[!include model category theory - contents]]
 =--
-=--
-=--
-
 
 
 This entry is about the book
@@ -135,11 +112,8 @@ Given the $(\infty,1)$-categorical machinery from the first part there are natur
 
 
 
-#How to read this book#
+#How to read the book#
 
-## General remark ##
-
-Don't be put-off by the sheer size. On top of everything else, Lurie is a great expositor. 
 
 ## 1-categorical background ##
 
@@ -373,6 +347,9 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 #### 5.3.5 Ind-objects
 
 * [[ind-object in an (∞,1)-category]]
+
+* [[pro-object in an (∞,1)-category]]
+
 
 #### 5.3.6 Adjoining colimits to $\infty$-categories
 
