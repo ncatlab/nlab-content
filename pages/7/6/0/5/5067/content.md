@@ -23,7 +23,12 @@ Very incomplete!
 
 ## Definition
 
-Let $P$ be a [[Banach space]] and let $C$ be a strictly positive constant. We say $P$ is **C-projective** or **projective with constant $C$** if, whenever $Y$ is a Banach space, $X$ is a closed subspace of $Y$, and $f:P\to X/Y$ is a continuous linear map, there exists a continuous linear map $g:P\to X$ with $\Vert g \Vert \leq C\Vert f\Vert$ and $qg=f$, where $q:Y\to Y/X$ is the canonical quotient map.
+Let $P$ be a [[Banach space]] and let $C$ be a strictly positive constant. We say $P$ is **C-projective** or **projective with constant $C$** if, whenever $Y$ is a Banach space, $X$ is a closed subspace of $Y$, and $f:P\to Y/X$ is a continuous linear map, there exists a continuous linear map $g:P\to X$ with $\Vert g \Vert \leq C\Vert f\Vert$ and $qg=f$, where $q:Y\to Y/X$ is the canonical quotient map.
+
+
+Semadeni (see below for reference) gives a slightly different definition. Slightly paraphrased, it reads as follows: $F$ is a $Ban_1$-projective space if, for any short linear map $\phi: F\to H$ and any short linear map $\pi: G\to H$ which satisfies $\phi(Ball(G))=Ball(H)$, there exists a short linear map $\psi:F\to G$ such that $\phi=\psi\pi$. Here, $Ball(\cdot)$ denotes the closed unit ball of a given Banach space.
+
+The condition that $\phi(Ball(G))=Ball(H)$ is stronger than requiring the canonical induced map $G/\ker\phi \to H$ to be an isometric isomorphism. For instance, let us work momentarily with real Banach spaces, and consider the map $\phi:c_0 \to {\mathbb R}$ defined by $\phi((x_n)) = \sum_{n=1}^\infty x_n/2^n$, where $\mathbb R$ is normed by saying that $1$ has norm $1$. Clearly this is a surjective, short linear map, and one can check that the induced map from $c_0/\ker(\phi)$ to $\mathbb R$ is an isometry. But a little thought shows that $1\notin \phi(Ball(c_0))$.
 
 
 ## Examples
@@ -78,3 +83,7 @@ Now to get back to your question: it has been found from experience that the Ban
 ## Injective Banach spaces ##
 
 Theorem of Kelley-Nachbin and others?
+
+## References
+
+* Z. Semadeni, _Banach spaces of continuous functions, Vol. 1._ Warsaw, 1971
