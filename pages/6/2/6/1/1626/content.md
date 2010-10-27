@@ -125,3 +125,6 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 
 [[!redirects connected component]]
 [[!redirects connected components]]
+
+[[!redirects pathwise connected]]
+[[!redirects pathwise connected space]]
