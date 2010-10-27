@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc} 
@@ -157,7 +169,7 @@ $$
 
 ### In $(\infty,1)$-catgeories 
 
-There is a notion of [[ind-object in an (infinity,1)-category]].
+There is a notion of [[ind-object in an (∞,1)-category]].
 
 With regard to the third of the properties listed above, notice that the [[comma category]] $(Y,const_F)$ is the [[category of elements]] of $F$, i.e. the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$ along $F : C^{op} \to Set$. This means that the [[stuff, structure, property|forgetful functor]]
 $
@@ -165,8 +177,13 @@ $
 $
 is the fibration classified by $F$. 
 
-This is the starting point for the definition at [[ind-object in an (infinity,1)-category]].
+This is the starting point for the definition at [[ind-object in an (∞,1)-category]].
 
+## Related concepts
+
+* **ind-object** / [[ind-object in an (∞,1)-category]]
+
+* [[pro-object]]
 
 
 ## References
@@ -187,47 +204,5 @@ See also the remarks at the beginning of section 5.3 of
 
 
 
-***
 
-## Discussion 
-
-We had the following discussion  on the comma category $(Y,const_F)$. 
-
-+-- {: .query}
-
-[[David Roberts]]: I don't think this is true, since the fibration classified by $F$ would be $(F,U)$ (or $(U,F)$, whichever is suitable) where $U:Set_* \to Set$ is the forgetful functor$=$universal set bundle. The $F$ in $(Y,F)$ is to be considered an object of $Set^{C^{op}}$, not as a functor $C^{op} \to Set$. 
-
-[[Urs Schreiber|Urs]]: Ahm, let me see. So $(Y,F)$ (which, yes, should more precisely be written $(Y,const_F)$) has as objects morphisms of presheaves $e : Y(c) \to F$, equivalently by Yoneda the objects are elements $e \in F(c)$. 
-
-Its morphisms from $e : Y(c) \to F$ to $e' : Y(c')  \to F$ are given by morphisms $f : c \to c'$ in $C$ such that $f^* e' = e$. 
-
-That seems to me to be the category which is also characterized as being the (strict) pullback of
-
-$$
-  \array{
-    && Set_*
-    \\
-    && \downarrow^{U}
-    \\
-    C^{op} &\stackrel{F}{\to}& Set
-  }
-$$ 
-
-No?
-
-[[Urs Schreiber|Urs]]: Accordingly, I have now made the notation more precise by replacing "$F$" by "const_F" in the above. 
-
-=--
-
-Some disucssion on terminology:
-
-+-- {: .query}
-Would it make sense to take this opportunity on nLab to give this a new modern name? Maybe call it "colimit-object" or "filtered colimit" or something? Something more consistent with the rest of the nLab might be nice. Just a thought. - [[Eric Forgy|Eric]]
-
-[[Tim Porter|Tim]]: As they are very special diagrams, I do not think that Eric's suggestion is a good one. The pro and ind terminology was to replace inverse and direct system which was already being used in the 1930s (I think?)  The 'ind' terminology is at least as old as 1960 (see Grothendeck's seminar on descent.)
-
-[[Mike Shulman|Mike]]: I think the terminology "ind-object" is too well-established to be changed.  And I don't really think there's much reason to want to change it anyway; it may come historically from a terminology that we do not use, but it is unambiguous and the notion deserves its own name.  In particular, it is not a (filtered) colimit; the whole point is that you don't actually _take_ the colimit (or alternately, you only take it inside the free colimit-completion).
-
-_Toby_:  Not to disparage 'ind-object', but I think that the term that Eric\'s looking for is 'formal filtered colimit'.
-=--
 
