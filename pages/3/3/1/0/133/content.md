@@ -93,3 +93,6 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 
 
 category: foundational axiom
+
+
+[[!redirects Choice]]
