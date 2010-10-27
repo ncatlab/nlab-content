@@ -23,8 +23,90 @@ It turns out that $Shape(X)$ may be extracted in a canonical fashion from just t
 ## Definition
 
 
++-- {: .un_def}
+###### Definition
 
-For every [[(∞,1)-topos]] $\mathbf{H}$ there is a unique [[geometric morphism]]
+The composite [[(∞,1)-functor]]
+
+$$
+  \Pi : (\infty,1)Topos 
+     \stackrel{Y}{\to}  Lex((\infty,1)Topos, \infty Grpd)^{op}
+      \stackrel{Lex(PSh((-)^{op}), \infty Grpd)}{\to}
+      Lex(\infty Grpd, \infty Grpd)^{op}
+     \simeq
+       Pro \infty Grpd
+$$
+
+is the **shape functor** . Its value 
+
+$$
+  \Pi(\mathbf{H}) = 
+  (\infty,1)Topos(\mathbf{H}, PSh((-)^{op}))
+$$ 
+
+on an $(\infty,1)$-topos $\mathbf{H}$ is the **shape** of $\mathbf{H}$.
+
+=--
+
+Here
+
+* [[(∞,1)Topos]] is the [[(∞,1)-category]] of [[(∞,1)-topos]]es;
+
+* [[∞Grpd]] is the $(\infty,1)$-category of [[∞-groupoid]]s;
+
+* $Y$ is the [[(∞,1)-Yoneda embedding]];
+
+* $Lex(-,-) \subset (\infty,1)Func(-,-)$ is the full [[sub-(∞,1)-category]]
+  of the [[(∞,1)-category of (∞,1)-functors]] on those which are left [[exact functor]]s (preserve [[(∞,1)-limit]]s);
+
+* $PSh((-)^{op}) : \infty Grpd \to (\infty,1)Topos$ is the functor that 
+  produces the [[(∞,1)-category of (∞,1)-presheaves]] $Func(X^{op}, \infty Grpd)$ on the [[opposite (∞,1)-category]] $X^{op}$;
+
+* $Pro \infty Grpd$ is the [[ind-object in an (∞,1)-category|(∞,1)-category of pro-objects]] in $\infty Grpd$.
+
+
+## Properties
+
+
++-- {: .un_proposition}
+###### Proposition
+
+We have a pair of [[adjoint (∞,1)-functor]]s
+
+$$
+  (\Pi \dashv Disc) : (\infty,1)Topos \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}}
+  Pro \infty Grpd
+  \,,
+$$
+
+where $Disc$ is the extension of $PSh((-)^{op}) : \infty Grpd \to (\infty,1)Topos$ to $Pro \infty Grpd$, using that [[(∞,1)Topos]] has all [[(∞,1)-limit]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[(∞,1)-Yoneda lemma]] is is sufficient to test this on 
+ordinary $\infty$-groupoids $X \in \infty Grpd \hookrightarrow Pro \infty Grpd$:
+
+$$
+  \begin{aligned}
+    Pro \infty Grpd(\Pi\mathbf{H}, X)
+    := & 
+    Pro \infty Grpd ( (\infty,1)Topos(\mathbf{H}, PSh((-)^{op})), X)
+    \\
+    & \simeq 
+    (\infty,1)Topos(\mathbf{H}, PSh(X^{op}))
+  \end{aligned}
+  \,,
+$$
+
+where the last step is again the $(\infty,1)$-Yoneda lemma.
+
+=--
+
+
+Notice that for every [[(∞,1)-topos]] $\mathbf{H}$ there is a unique [[geometric morphism]]
 
 $$
   (LConst \dashv \Gamma) : \mathbf{H} \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
@@ -33,14 +115,16 @@ $$
 
 where [[∞Grpd]] is the $(\infty,1)$-topos of [[∞-groupoids]],  $\Gamma$ is the [[global section]]s [[(∞,1)-functor]] and $LConst$ is the [[constant ∞-stack]] functor.
 
-+-- {: .un_def}
-###### Definition
-**(shape of an $(\infty,1)$-topos)**
+
+
+
++-- {: .un_prop}
+###### Proposition
 
 The **shape** of $\mathbf{H}$ is the composite functor
 
 $$
-  Shape(\mathbf{H}) := \Gamma \circ LConst
+  \Pi(\mathbf{H}) := \Gamma \circ LConst
   \;\;:\;\;
   \infty Grpd \stackrel{LConst}{\to}
   \mathbf{H}
@@ -51,15 +135,92 @@ $$
 regarded as an object 
 
 $$
-  Shape(\mathbf{H})
+  \Pi(\mathbf{H})
   \in
-  Pro(\infty Grpd)^{op}
-  :=
-  Func_{lex}(\infty Grpd, \infty Grpd)^{op}
+  Pro(\infty Grpd)
+  =
+  Lex(\infty Grpd, \infty Grpd)^{op}
+  \,.
 $$
 
-in the [[full subcategory]] of finite [[limit]] preserving [[(∞,1)-functors]].
 =--
+
++-- {: .proof}
+###### Proof
+
+For $X \in $ [[∞Grpd]] we have by the [[(∞,1)-Grothendieck construction]]-theorem and using that up to equivalence every morphism of $\infty$-groupoids is a [[Cartesian fibration]] (see there) that 
+
+$$
+  Func(X,\infty Grpd) \simeq \infty Grpd/X
+$$ 
+
+is the [[over-(∞,1)-category]].  Moreover, by the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#WithValInooGrpd">theorem about limits in ∞Grpd</a> we have that the terminal geometric morphism $Hom(*,-): [X, \infty Grpd] \to \infty Grpd$ is the canonical projection $\infty Grpd/ X \to \infty Grpd$. This means that it is an [[etale geometric morphism]]. So for any [[geometric morphism]] $f : \mathbf{H} \to [X, \infty Grpd]$  we have a system of [[adjoint (∞,1)-functor]]s
+
+$$
+  (LConst \dashv \Gamma)
+   :
+  \mathbf{H}
+    \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+   \infty Grpd/X
+    \stackrel{\overset{\pi^*}{\leftarrow}}{\underset{\pi_*}{\to}}    
+   \infty Grpd
+  \,.
+$$
+
+whose composite is the [[global section]] geometric morphism as indicated, because that is terminal.
+
+Notice that in $\infty Grpd/X$ there is a canonical morphism
+
+$$
+  (* \to  \pi^* X) := (X \stackrel{(Id,Id)}{\to} X \times X)
+  \,.
+$$
+
+The image of this under $f^*$ is (using that this preserves the terminal object) a morphism
+
+$$
+  * \to f^* \pi^* X = LConst X
+$$
+
+in $\mathbf{H}$.
+
+Conversely, given a morphism of the form $* \to LConst X$ in $\mathbf{H}$ we obtain the [[base change geometric morphism]]
+
+$$
+  \mathbf{H} \simeq \mathbf{H}/* \to \mathbf{H}/LConst X
+   \stackrel{\Gamma}{\to}
+  \infty Grpd/X
+  \,.
+$$
+
+One checks that these constructions establish an equivalence
+
+$$
+  (\infty,1)Topos(\mathbf{H}, \infty Grpd/X)
+  \simeq
+  \mathbf{H}(*, LConst X)
+  \,.
+$$
+
+Using this, we see that 
+
+$$
+  \begin{aligned}
+    \Pi (\mathbf{H}) : X \mapsto & (\infty,1)Topos(\mathbf{H}, X)
+     \\
+      & \simeq \mathbf{H}(*,LConst X)
+     \\
+      & \simeq \mathbf{H}(LConst *, LConst X)
+     \\
+      & \simeq \infty Grpd(*, \Gamma LConst X)
+    \\
+      & \simeq \Gamma LConst X
+  \end{aligned}   
+  \,.
+$$
+
+=--
+
 
 
 ## Examples
@@ -175,12 +336,12 @@ Equivalently, we can observe that a locally ∞-connected (∞,1)-topos is ∞-c
 
 ## References
 
-The definition of shape of $(\infty,1)$-toposes is due to
+The definition of shape of $(\infty,1)$-toposes as $\Gamma \circ LConst$ is due to
 
 * [[Bertrand Toen]] and [[Gabriele Vezzosi]],  _Segal topoi and stacks over Segal categories_ , in Proceedings of the
 Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv1.library.cornell.edu/abs/math/0212330)).
 
-The relation to [[shape theory]] of topological spaces is further discussed in section 7.1.6 of 
+This and the relation to [[shape theory]] of topological spaces is further discussed in section 7.1.6 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
