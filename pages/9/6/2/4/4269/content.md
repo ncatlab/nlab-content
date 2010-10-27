@@ -143,6 +143,25 @@ A [[geometric morphism]] $(f^* \dashv f_*) : \mathbf{K} \to \mathbf{H}$ is &#233
 
 For [[(∞,1)-topos]]es this is [[Higher Topos Theory|HTT, prop. 6.3.5.11]].
 
+
++-- {: .un_prop}
+###### Proposition
+**(Recovering a topos from its etale overcategory)
+
+For $\mathbf{H}$ an $(\infty,1)$-topos we have
+
+$$
+  \mathbf{H} \simeq ((\infty,1)Topos/\mathbf{H})_{et}
+  \,,
+$$
+
+where $((\infty,1)Topos/\mathbf{H})_{et} \subset (\infty,1)Topos/\mathbf{H}$ is the full [[sub-(∞,1)-category]] of the [[over-(∞,1)-category]] on the etale geometric morphisms $\mathbf{K} \to \mathbf{H}$.
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, remark 6.3.5.10]].
+
 ## References
 
 The notion of local homeomorphisms of toposes is page 651 (chapter C3.3) of
