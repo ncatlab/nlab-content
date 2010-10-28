@@ -90,7 +90,7 @@ Note that property-like structure is known in traditional [[logic]] as __categor
 
 ## A factorisation system
 
-Just as the category [[Set]] has the best known $2$-way [[factorization system|factorisation system]], in which every [[function]] is factored into a [[surjection]] followed by an [[injection]], so the [[2-category]] [[Cat]] has a $3$-way factorisation system, in which every functor is factored into parts which forget 'purely' stuff, structure, and properties.
+Just as the category [[Set]] has the best known $2$-way [[factorization system|factorisation system]], in which every [[function]] is factored into a [[surjection]] followed by an [[injection]], so the [[2-category]] [[Cat]] has a [[ternary factorisation system]], in which every functor is factored into parts which forget 'purely' stuff, structure, and properties.
 
 Specifically, given a functor $F: C \to D$, let the __$1$-[[image]]__ $1 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $F(x) \to F(y)$ in $D$; let the __$2$-image__ $2 im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $b: F(x) \to F(y)$ in $D$ such that $b = F(a)$ for some $a: x \to y$ in $C$.  (So the only difference bewteen $2 im F$ and $C$ itself is equality of morphisms.)  If you want to be complete, call $C$ itself the __$3$-image__ of $F$ and $D$ the __$0$-image__.
 
@@ -105,7 +105,7 @@ The situation looks like this:
 
 Then $F$ can be factored into functors
 $$ C \stackrel{F_2}\to 2 im F \stackrel{F_1}\to 1 im F \stackrel{F_0}\to D ,$$
-where $F_2$ forgets purely stuff, $F_1$ forgets purely structure, and $F_0$ forgets only properties.
+where $F_2$ forgets purely stuff, $F_1$ forgets purely structure, and $F_0$ forgets only properties.  Conversely, this ternary factorization suffices to determine the notions of faithful, full, and essentially surjective functors: see [[ternary factorization system]].
 
 
 ## Examples
