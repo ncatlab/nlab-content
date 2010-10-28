@@ -194,7 +194,7 @@ More generally the [[shape of an (∞,1)-topos]] of $(\infty,1)Sh(X)$ reproduces
 
 * [[homotopy group]], [[homotopy groups in an (∞,1)-topos]]
 
-* **fundamental $\infty$-groupoid in a locally $\infty$-connected $(\infty,1)$-topos / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
+* **fundamental $\infty$-groupoid in a locally $\infty$-connected $(\infty,1)$-topos** / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
 
 
