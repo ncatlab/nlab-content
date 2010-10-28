@@ -49,6 +49,8 @@ $$
 
 ## Properties ## 
 
+In this section we consider geometric realization of simplicial sets, which is the best studied and perhaps most significant case. 
+
 ### Realizations are CW complexes ### 
 
 Each $|X|$ is a CW complex (proof to be inserted), and so geometric realization $|(-)|: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
@@ -147,7 +149,17 @@ R(X \times Y) & \cong & R((\int^m X(m) \cdot \Delta(-, n)) \times (\int^n Y(n) \
 where in each of the second and penultimate lines, we twice used the fact that $- \times -$ preserves colimits in its separate arguments (i.e., the fact that the nice category $Space$ is cartesian closed), and the remaining lines used the fact that $R$ preserves colimits, and also products of representables by the first paragraph of this proof. 
 =--
 
-
+* A slightly higher-level rendition of the proof might look like this: 
+$$\array{
+R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \hom)) \\
+ & \cong & R((X \times Y) \otimes_{\Delta \times \Delta} (\hom \times \hom) \\
+ & \cong & (X \times Y) \otimes_{\Delta \times \Delta} R(\hom \times \hom) \\
+ & \cong & (X \times Y) \otimes_{\Delta \times \Delta} (R(\hom) \times R(\hom)) \\
+ & \cong & (X \otimes_{\Delta} R(\hom)) \times (Y \otimes_{\Delta} R(\hom)) \\
+ & \cong & R(X \otimes_{\Delta} \hom) \times R(Y \otimes_{\Delta} \hom) \\
+ & \cong & R(X) \times R(Y)
+}$$
+ 
 ## Examples 
 
 * For $G$ a [[group]], $\mathbf{B}G$ its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
