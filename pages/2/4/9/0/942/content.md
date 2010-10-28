@@ -30,3 +30,5 @@ and that functor _does_ have a left adjoint. If we restrict that 'pro-adjoint' t
 
 ##Example##
 An example that comes up in practice is the profinite completion of the fundamental group of an complex projective variety $X$. Since $X$ has an underlying topological space, its [[fundamental group]] of loops $\pi_1^{top}(X)$ can be defined in the usual way. But one can also define the [[algebraic fundamental group]] $\pi_1^{alg}(X)$. This is a profinite group, which is isomorphic to the profinite completion of $\pi_1^{top}(X)$.
+
+[[!redirects profinite completion]]
