@@ -28,6 +28,8 @@ The _fundamental $\infty$-groupoid_ of a [[topological space]] is the [[∞-grou
 
 ### General version
 
+The following definition is appropriate if we take a [[Kan complex]] as the definition of $\infty$-groupoid.
+
 +-- {: .un_def}
 ###### Definition
 
