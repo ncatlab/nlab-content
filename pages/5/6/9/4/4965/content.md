@@ -139,4 +139,7 @@
                                                       </g> 
 </svg> 
 
+
 [[!redirects Borromean rings - SVG]]
+
+category: svg
