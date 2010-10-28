@@ -45,7 +45,7 @@ and $M=$ [[fully faithful functors]].
 
 * Factorization systems in a 2-category play an important role in the construction of a [[proarrow equipment]] out of [[codiscrete cofibrations]].
 
-* Combining the (eso,ff) and (eso+full, faithful) factorization systems into a "three-fold" factorization has connections with the theory of [[stuff, structure, property]].
+* Combining the (eso,ff) and (eso+full, faithful) factorization systems into a [[ternary factorization system]] has connections with the theory of [[stuff, structure, property]].
 
 [[!redirects factorization system on a 2-category]]
 [[!redirects factorization systems in a 2-category]]
