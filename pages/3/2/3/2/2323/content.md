@@ -106,6 +106,8 @@
 
 * [[homotopy groups in an (∞,1)-topos|homotopy]]
 
+  * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]/[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
+
   * [[categorical homotopy groups in an (∞,1)-topos|categorical]]/[[geometric homotopy groups in an (∞,1)-topos|geometric]]
 
   * [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
