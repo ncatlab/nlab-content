@@ -64,12 +64,9 @@ $$
   \infty Grpd
 $$
 
-to [[? Grpd]], with $\Pi$ the left [[adjoint (∞,1)-functor]] to the [[constant ∞-stack]] [[(∞,1)-functor]] $LConst$. For $X \in \mathbf{H}$ any object, the [[∞-groupoid]] $\Pi(X)$ deserves to be called the **homtopy $\infty$-groupoid** of X
-Its ordinary [[homotopy group]]s should be the homotopy groups of $X$.
-
-This perspective on homotopy groups in an $(\infty,1)$-topos is made explicit at
-
-* [[schreiber:homotopy ∞-groupoid]].
+to [[? Grpd]], with $\Pi$ the left [[adjoint (∞,1)-functor]] to the [[constant ∞-stack]] [[(∞,1)-functor]] $LConst$. For $X \in \mathbf{H}$ any object, the [[∞-groupoid]] $\Pi(X)$ deserves to be called the 
+**[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]** of $X$
+Its ordinary [[homotopy group]]s are the homotopy groups of $X$.
 
 While an obvious slight generalization or refinement of what is considered in previous literature, it seems that the simple picture of a left [[adjoint (∞,1)-functor]] to the [[constant ∞-stack]] functor has not been made explicit in the existing literature (though possibly in the thesis by [[Richard Williamson]]).
 
