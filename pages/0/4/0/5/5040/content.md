@@ -27,9 +27,9 @@ The [[2-limit]] over a [[diagram]] of the form
 
 $$
   \array{
-     & \nearrow & \searrow
-    x &\Downarrow& y
-    & \searrow \nearrow 
+     & \nearrow & \searrow \\
+    x &&\Downarrow&& y \\
+    & \searrow & \nearrow 
   }
 $$
 
@@ -43,6 +43,6 @@ In
 
 * [[Peter Johnstone]], _[[Elephant]]_
 
-inverters appear in B1.1.4. The inverter of a transformation between [[geometric morphism]]s of [[topos]]es is constructed in the proof of corollary 4.1.7 in section B4.1. Coinvertes are discussed in section B4.5 there.
+inverters appear in B1.1.4. The inverter of a transformation between [[geometric morphism]]s of [[topos]]es is constructed in the proof of corollary 4.1.7 in section B4.1. Coinverters are discussed in section B4.5 there.
 
 [[!redirects inverters]]
