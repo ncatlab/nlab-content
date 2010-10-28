@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 _This is Part I of an exposition by [[Todd Trimble]] on [[ETCS]]_.
 
 See also
@@ -5,6 +17,8 @@ See also
 * Part II, [[Trimble on ETCS II|ETCS: Internalizing the logic]]
 
 * Part III, [[Trimble on ETCS III|ETCS: Building joins and coproducts]]
+
+***
 
 #Contents#
 * tic
