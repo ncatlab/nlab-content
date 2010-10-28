@@ -84,13 +84,13 @@ If $i: X \to Y$ is a monomorphism of simplicial sets, then $R(i): R(X) \to R(Y)$
 
 +-- {: .un_thm} 
 ######Theorem 
-Let $U: Space \to Set$ be the underlying-set functor. Then the composite $U R: Set^{\Delta^{op}} \to Set$ is left exact. 
+Let $U = \hom(1, -): Space \to Set$ be the underlying-set functor. Then the composite $U R: Set^{\Delta^{op}} \to Set$ is left exact. 
 =-- 
 
 +-- {: .proof}
 ######Proof
 As described at the nLab article on triangulation [here](http://ncatlab.org/nlab/show/triangulation#standard_affine_simplex_functor_3), the composite 
-$$\Delta \stackrel{\sigma}{\to} Space \hookrightarrow Top \stackrel{U}{\to} Set$$ 
+$$\Delta \stackrel{\sigma}{\to} Space \stackrel{U}{\to} Set$$ 
 can be described as the functor 
 $$\Delta \cong FinInt^{op} \hookrightarrow Int^{op} \stackrel{Int(-, I)}{\to} Set$$ 
 where $Int$ is the category of intervals (linearly ordered sets with distinct top and bottom). Because every interval, in particular $I$, is a filtered colimit of finite intervals, it follows that $U \sigma: \Delta \to Set$ is a [[flat functor]] (a [[filtered colimit]] of representables). But on general grounds, tensoring with a flat functor is left exact, which in this case means
@@ -130,7 +130,7 @@ The functor $R: Set^{\Delta^{op}} \to Space$ preserves products.
 ######Proof
 First we prove that the canonical map 
 $$|\Delta(-, m) \times \Delta(-, n)| \to |\Delta(-, m)| \times |\Delta(-, n)|$$ 
-is a homeomorphism. Indeed, this is continuous, and a bijection at the underlying set level by the theorem above. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is also compact Hausdorff: by the lemma, and using the fact that realization preserves finite colimits, the right side is the topological quotient of a coproduct of finitely many simplices, hence compact. But a continuous bijection between compact Hausdorff spaces is a homeomorphism. 
+is a homeomorphism. Indeed, this is continuous, and a bijection at the underlying set level by the theorem above. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is also compact Hausdorff: by the lemma, and using the fact that realization preserves finite colimits, the left side is the topological quotient of a coproduct of finitely many simplices, hence compact. But a continuous bijection between compact Hausdorff spaces is a homeomorphism. 
 
 More generally, suppose $X$ and $Y$ are simplicial sets. By the [[co-Yoneda lemma]], we have isomorphisms 
 $$X \cong \int^m X(m) \cdot \Delta(-, m)  \qquad Y \cong \int^n Y(n) \cdot \Delta(-, n)$$ 
