@@ -77,7 +77,7 @@ The study of strict fundamental $\infty$-groupoids have been pursued by [[Ronnie
 
 
 
-There is a strict homotopy 2-groupoid for a Hausdorff space defined by  Hardie, K. A.; Kamps, K. H.; Kieboom, R. W. (MR1785844) and this was later developed into a homotopy double groupoid by Kamps et al. There is no $n$-dimensional version of these ideas on offer. 
+There is a strict homotopy 2-groupoid for a Hausdorff space defined by  Hardie, K. A.; Kamps, K. H.; Kieboom, R. W. (MR1785844), and a weak homotopy 2-groupoid for a general space (by the same authors). They later introduced  a homotopy double groupoid. There is no $n$-dimensional version of these ideas on offer. 
 
 A strict cubical omega-groupoid $\rho X_*$ for a [[filtered space]] $X_*$ was defined by Brown and Higgins in 1981. Form the filtered cubical complex $R X_*$ which in dimension $n$ consists of  filtered maps $I^n_* \to X_*$ and take filter homotopy classes of these _relative to the vertices_. The proof that the compositions in $RX_*$ are inherited by $\rho X_*$ is one of the key points of the development. 
 
@@ -135,6 +135,8 @@ This perspective suggests that when $X$ is not locally contractible, a better re
 ## References
 
 * Hardie, K. A.; Kamps, K. H.; Kieboom, A homotopy 2-groupoid of a Hausdorff space. Papers in honour of Bernhard Banaschewski (Cape Town, 1996). Appl. Categ. Structures 8 (2000), no. 1-2, 209--234. 
+
+* Hardie, K. A.; Kamps, K. H.; Kieboom, A Homotopy Bigroupoid of a Topological Space. Applied Categorical Structures 9 (2001) 311--327.
 
 * J.-L. Loday, Spaces with finitely many homotopy groups,
 J.Pure Appl.  Alg., 24 (1982) 179--202.
