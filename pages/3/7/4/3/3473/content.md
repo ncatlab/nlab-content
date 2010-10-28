@@ -26,3 +26,4 @@ category of smooth schemes of 'finite type over a field k into a larger category
 of 'k-spaces', which carries the structure of a closed model category. The study of these k-spaces is linked to &#233;tale homotopy theory, see Schmidt, _On the &#233;tale homotopy type of
 Morel-Voevodsky spaces_, and Isaksen, _Etale realization on the $A^1$-homotopy theory of schemes_. Adv. in Math. 184, 37--63 (2004).
 
+[[!redirects profinite homotopy theory]]
