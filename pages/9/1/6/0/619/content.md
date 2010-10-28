@@ -91,6 +91,18 @@ In the last case, note that if the unit is an *iso*morphism, then the inclusion 
 
 A reflective subcategory is always closed under [[limit|limits]] (because the full inclusion is monadic, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector.
 
++-- {: .un_theorem}
+###### Theorem
+
+The weak [[Vop?nka's principle]] is equivalent to the statement:
+
+For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hookrightarrow C$ which is closed under [[limit]]s is a reflective subcategory.
+
+=--
+
+This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
+
+
 
 ### Reflective subcategories of cartesian closed categories
 
@@ -119,10 +131,16 @@ Whenever $C$ is a full subcategory of $D$, we can say that objects of $C$ are ob
 This can always be made to work by brute force, but sometimes there is something insightful about it.  For example, a metric space is a complete metric space equipped with a dense subset.  Or, a possibly nonunital ring is a unital ring equipped with a unital homomorphism to the ring of integers.
 
 
-## In higher category theory
+## Related concepts
 
-* [[reflective (infinity,1)-subcategory]]
+* **reflective subcategory** / [[reflective sub-(∞,1)-category]]
 
+* [[coreflective subcategory]]
+
+## References
+
+* [[Jiri Adamek]], [[Ji?í Rosický]], _Locally presentable and accessible categories_ London Mathematical Society Lecture Note Series 189
+{#AdamekRosicky}
 
 [[!redirects reflector]]
 [[!redirects reflectors]]
