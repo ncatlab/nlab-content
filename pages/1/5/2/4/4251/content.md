@@ -616,7 +616,9 @@ For $K = Core(\infty Grpd)$ this is the $\pi_0$-[[decategorification]] of the ab
 
 
 ### Geometric $\Pi_\infty$ of the terminal object in a locally connected $(\infty,1)$-topos {#GeomPiOfTermObj}
-  
+
+The geometric $\Pi_\infty$ of the terminal object in a locally ∞-connected (∞,1)-topos can be called the [[fundamental ∞-groupoid of an (∞,1)-topos|fundamental ∞-groupoid]] of the topos.  It [[representable functor|represents]] the [[shape of an (∞,1)-topos|shape]] of the topos.
+
 On page 18-19 of
 
 * [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
