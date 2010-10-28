@@ -178,5 +178,11 @@ What, of course, needs to be checked (left to 'the reader') is
 
 and then to find some examples of, say, 5-colourability. What knots are 5-colourable? Which $(2,k)$-[[torus knots]] are 5-colorable, and so on.  This is not important mathematically, but is quite fun and, in fact, does give insight and experience in working with the Reidemeister moves.
 
+
+[[!redirects colorable knot]]
+[[!redirects colorable knots]]
+[[!redirects colourable knot]]
+[[!redirects colourable knots]]
+
 [[!redirects colorability]]
 [[!redirects colourability]]
