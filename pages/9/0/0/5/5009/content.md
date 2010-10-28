@@ -22,7 +22,7 @@ To avoid this page getting too big, the SVGs and instructions themselves should 
 * [[Reidemeister move 1 - SVG]]
 * [[Reidemeister move 2 - SVG]]
 * [[Reidemeister move 3 - SVG]]
-* [[figure 8 knot - SVG]]
+* [[figure 8 knot - SVG]] (also redirects from [[figure eight knot - SVG]])
 
 
 ### Functional Analysis
