@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
 =--
 =--
 
