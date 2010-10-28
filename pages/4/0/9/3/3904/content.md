@@ -1,4 +1,4 @@
-* [Home page](http://ls1-www.cs.uni-dortmund.de/~olschok/)
+* [Home page](http://www.math.muni.cz/~xolschok/)
 
 
 category: people
