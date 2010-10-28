@@ -82,7 +82,7 @@ An abstractly defined QFT (as a consistent assignment of state spaces and propag
 
 Sich a _[[sigma-model]] QFT_ is the [[quantization]] of an [[action functional]] on a space of maps $\Sigma \to X$ from a cobordims ("worldvolume") $\Sigma$ to some target space $X$ that may carry further geoemtric data such as a [[Riemannian metric]],  or other background [[gauge field]]s.
 
-One may therefore try to match the geometric data on $X$ that encodes the $\sigma$-model with the algebraic data of the [[FQFT]] that results after quantization. This gives a geometric interpretation to many of the therwise purely abstract algebraic properties of the worldvolume QFT.
+One may therefore try to match the geometric data on $X$ that encodes the $\sigma$-model with the algebraic data of the [[FQFT]] that results after quantization. This gives a geometric interpretation to many of the otherwise purely abstract algebraic properties of the worldvolume QFT.
 
 It turns out that if one checks which geometric data corresponds to the $A$-modules in the above discussion, one finds that these tend to come from structures that look at least roughly like _submanifolds_ of the target space $X$. And typically these submanifolds themselves carry their own background [[gauge field]] data.
 
@@ -103,9 +103,9 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 ### Fundamental or $\sigma$-model branes
 
-In string theory one speak apart from the D-branes alsso about _fundamental branes_ . These are the objects $\Sigma$ in the $n$-dimensional [[sigma model]] themselves.
+In [[string theory]] one speak apart from the D-branes also about **fundamental branes** . These are the objects $\Sigma$ in the $n$-dimensional [[sigma model]] themselves.
 
-* For $n=0$ this describes the ordinary quantum mechanics of a point particle on $X$. And such point particles are the _fundamental particles_ for instance of the [[standard model of particle physics]].
+* For $n=0$ this describes the ordinary quantum mechanics of a point particles on $X$. And such point particles are the _fundamental particles_ for instance of the [[standard model of particle physics]].
 
 * For $n=1$ this describes the quantum propagation of a [[string theory|string]], and accordingly one speaks of the _fundamental string_ or F1-brane (fundamental 1-brane).
 
