@@ -32,7 +32,7 @@ in the [[huge (∞,1)-sheaf (∞,1)-topos]] on [[∞Grpd]].
 
 =--
 
-+-- {: .un_remar}
++-- {: .un_remark}
 ###### Remark
 
 For $\mathcal{U}$ the bigger [[universe]] and $\kappa$ a [[regular cardinal]] such that [[small set]]s are $\kappa$-smal, we have that 
@@ -45,8 +45,44 @@ is identified with the $\kappa$-[[ind-object in an (∞,1)-category|ind-objects]
 
 =--
 
-
 ## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+The coshape $\Gamma(\mathbf{H})$ is represented by
+
+$$
+   (\infty,1)Topos(*, \mathbf{H}) \in \infty \hat Grpd
+  \,,
+$$
+
+where $* = \infty Grpd$ is the terminal $(\infty,1)$-topos.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using repeatedly that every $\infty$-groupoid is the $(\infty,1)$-colimit
+of the diagram over itself constant on the point (the details are <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#TensoringProposition">here</a>) we compute
+
+$$
+\begin{aligned}
+  (\infty,1)Topos(PSh(A), \mathbf{H})
+  & \simeq (\infty,1)Topos(PSh({\lim_{\to} *}_A), \mathbf{H})
+  \\
+  & \simeq (\infty,1)Topos({\lim_\to}_A *, \mathbf{H})
+  \\
+  & \simeq {\lim_\leftarrow}_A (\infty,1)Topos(*, \mathbf{H})
+  \\
+  & \simeq \infty \hat Grpd( A, (\infty,1)Topos(*, \mathbf{H}))
+\end{aligned}
+$$
+
+=--
+
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -104,3 +140,9 @@ $$
 $$
 
 =--
+
+
+
+
+
+
