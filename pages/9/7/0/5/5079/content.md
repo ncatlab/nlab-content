@@ -39,7 +39,7 @@ This can be found in ([Moerdijk](#Moerdijk)).
 
 =--
 
-+--{: .un_def}
++--{: .un_defn}
 ###### Definition
 
 A localic group with these properties is called **prodiscrete**.
@@ -48,7 +48,7 @@ A localic group with these properties is called **prodiscrete**.
 
 We may as well assume that any surjective progroup is indexed on a directed [[poset]].  If $(G_i)_{i\in I}$ is such an inverse system, then the localic group $G=\lim_i G_i$ is presented by the following [[posite]].  The elements of the underlying poset are pairs $(x,i)$ where $x\in G_i$, with $(x,i)\le (y,j)$ when $i\le j$ and $f_{ij}(x)=y$.  The coverings are given as follows: for any $j$, the element $(x,i)$ is covered by the family of all $(z,k)$ such that $k\le j$ and $(z,k)\le (x,i)$.
 
-+--{: .un_def}
++--{: .un_defn}
 ###### Definition
 
 A **surjective progroup** is a progroup whose cofiltered diagram consists of [[surjection]]s.
@@ -76,7 +76,7 @@ But if $f\colon G\to K$ is such a map, then $ker(f)$ is an open normal subgroup 
 
 Any [[localic group]] $G$ has a [[classifying topos]] consisting of continuous $G$-sets, i.e. discrete locales with a $G$-action.  In general, the resulting [[functor]]
 $$ LocGrp \to Topos $$
-is not an [[embedding]] into [[Topos]], but it can be shown to be so when restricted to prodiscrete localic groups.  One can also characterize the toposes that are sheaves on a prodiscrete localic group as the [[Galois toposes]].
+is not an [[embedding]] into [[Topos]], but it can be shown to be so when restricted to prodiscrete localic groups.  One can also characterize the toposes that are sheaves on a prodiscrete localic group as the [[Galois topos|Galois toposes]].
 
 Most of these results have corresponding facts for pro-[[groupoids]] and prodiscrete localic groupoids.
 
