@@ -13,12 +13,6 @@
 =--
 =--
 
-* [[fundamental groupoid]], **fundamental ∞-groupoid**
-
-* [[fundamental category]], [[fundamental (∞,1)-category]]
-
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -26,26 +20,60 @@
 
 ## Idea
 
-The [[higher category theory|higher categorical]] version of the [[fundamental groupoid]] of a space.
-
-The fundamental $\infty$-groupoid of a topological space $X$ is supposed to be the [[infinity-groupoid]] whose $k$-morphisms are $k$-dimensional paths in $X$. Concrete realizations depend on the model of [[infinity-category]] or [[omega-category]] chosen:
-
-* In the context of $\infty$-groupoids modeled as [[Kan complex]]es, the fundamental $\infty$-groupoid is simply the [[simplicial set]] familiar as the _singular simplicial complex_ $S(X)$ of a space, where $S(X)^n = Top(\Delta^n, X)$
-with $\Delta^n$ denoting the standard topological $n$-[[simplex]] (familiar from [[geometric realization]]).
+The _fundamental $\infty$-groupoid_ of a [[topological space]] is the [[∞-groupoid]] whose [[k-morphism]]s are the $k$-dimensional paths in $X$.
 
 
-* [[Ronnie Brown|Ronnie]] One can also take a cubical approach, and suggest that the "obvious" notion of $k$-dimensional path in $X$ is a map $I^n \to X$ where $I^n$ is the $n$-cube. The cubical singular complex $S^\square X$ has the nice properties of a  [[compositions in cubical sets]] including inverses and connections, as well as being a cubical [[Kan complex]]. All these properties are exploited in the work on [[higher homotopy van Kampen theorem]]s, using the fundamental homotopy omega-groupoid of a filtered space. 
 
+## Definition
+
+### General version
+
++-- {: .un_def}
+###### Definition
+
+
+The **fundamental $\infty$-groupoid** $\Pi(X)$ of a [[topological space]] $X$ is given by the [[Kan complex]] 
+
+$$
+  Sing X : [k] \mapsto Hom_{Top}(\Delta^k, X)
+$$
+
+which is the [[singular simplicial complex]] of $X$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This construction is adjoint to [[geometric realization]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+By choosing [[horn]]-fillers this  becomes an [[algebraic Kan complex]]. In terms of these the [[homotopy hypothesis]] has a direct proof, exhibited by a [[Quillen equivalence]]
+
+$$
+  Alg Kan \stackrel{\overset{\Pi}{\leftarrow}}{\to} Top
+$$
+
+due to ([Nikolaus](#Nikolaus)).
+
+=--
+
+For other models of [[∞Grpd]] there are correspondingly other constructions:
 
 * The definition of [[Trimble n-category]] has the concept of fundamental $n$-groupoid built right into it.
 
-* (... Batanin's weak fundamental $\omega$-groupoid)
 
-## Strict versions of higher homotopy groupoids
+### Strict versions
 
-It is not so obvious how to define higher homotopy groupoids which  generalise the fundamental groupoid to higher dimensions. It is possible to say that all you need is the singular complex $SX$ of the topological space, and that this is some kind of weak infinity-category, since it is a [[Kan complex]]. But even this fact has further problems, since as is standard, the Kan extension condition is due to a property of the models, namely that there is a retraction from the simplex $\Delta^n$ to $\Lambda^{n-1}_i$, the union of all the faces of $\Delta^n$ except the $i$th. So one would also like to axiomatise the properties of these [[thin element|thin]] fillers of horns in $SX$. This would be interesting from the algebraic point of view because such a retraction gives in some sense one face of the simplex as a kind of composition of the other faces. Problems are that: the retraction described is not unique; and what are the axioms on composites of such retractions, i.e. on subdivisions of subdivisions? Maybe there are good answers! 
+One can consider [[strict ∞-groupoid]] versions of the fundamental $infty$-groupoid. These lose information about the [[homotopy type]] of the space, though, but are more tractable and may give in some applications all the information that one is interested in. 
 
-One of the properties one would like of a proposed infinity-groupoid $G$ for a space $X$ is what one might call the **dimension condition**: _the $r$-dimensional homotopy of $X$ is modelled in $r$-dimensional structure  of $G$_. An immediate problem is that every space has the weak homotopy type of the classifying space of some category $C$; so where is the $r$-dimensional homotopy of $X$ reflected in the chosen $C$? Replacing $C$ by some weak form of $n$-category does not obviously help matters. 
+The study of strict fundamental $\infty$-groupoids have been pursued by [[Ronnie Brown]] and his school.
+
+
 
 There is a strict homotopy 2-groupoid for a Hausdorff space defined by  Hardie, K. A.; Kamps, K. H.; Kieboom, R. W. (MR1785844) and this was later developed into a homotopy double groupoid by Kamps et al. There is no $n$-dimensional version of these ideas on offer. 
 
@@ -57,34 +85,78 @@ Loday's paper of 1982 on _Spaces with finitely many homotopy groups_ introduced 
 
 These strict groupoid models do satisfy the dimension condition. 
 
-There are now uses of models of $n$-types in areas of homological algebra. 
+## Properties
 
++-- {: .un_prop}
+###### Proposition
 
+The 1-[[truncated|truncation]] of $\Pi X$ is the [[fundamental groupoid]] of $X$:
 
-## Remarks
+$$
+  \tau_{\leq 1} \Pi X \simeq \Pi_1(X)
+  \,.
+$$
 
-* The idea of some fundamental $\infty$-groupoid plays a crucial role in the [[homotopy hypothesis]].
-
-+--{.query}
-*[[Ronnie Brown|Ronnie]] The question remains: what is such a construction supposed to do? Ideas on this might lead to restrictions on or possibilities for the construction, and comparisons with known constructions. 
-
-[[Urs Schreiber]]: I had meanwhile had a long private discussion with Ronnie about this by private email. This showed that more discussion here about the notion of fundamental $\infty$-groupoids in homotopy theory should eventually be given here.
 =--
 
-* At least for locally contractible spaces, the fundamental ∞-groupoid of $X$ can be identified with the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of the [[(∞,1)-topos]] $Sh(X)$.  This perspective suggests that when $X$ is not locally contractible, a better replacement for its fundamental $\infty$-groupoid (as usually defined) is the [[shape of an (∞,1)-topos|shape]] of $Sh(X)$.
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $X$ a [[locally contractible topological space]], the fundamental $\infty$-groupoid $Sing X$ is equivalent to the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]] of the [[(∞,1)-sheaf (∞,1)-topos]] $(\infty,1)Sh(X)$.  
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Details on this are at [[geometric homotopy groups in an (∞,1)-topos]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This perspective suggests that when $X$ is not locally contractible, a better replacement for its fundamental $\infty$-groupoid (as usually defined) is the [[shape of an (∞,1)-topos|shape]] of $(\infty,1)Sh(X)$. As discussed there, this coincides with the traditional [[shape theory]] of $X$.
+
+=--
+
+## Related concepts
+
+* [[fundamental groupoid]], **fundamental ∞-groupoid**
+
+* [[fundamental category]], [[fundamental (∞,1)-category]]
+
+* [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
 ## References
-
-* R. Brown and P.J. Higgins, Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
 
 * Hardie, K. A.; Kamps, K. H.; Kieboom, A homotopy 2-groupoid of a Hausdorff space. Papers in honour of Bernhard Banaschewski (Cape Town, 1996). Appl. Categ. Structures 8 (2000), no. 1-2, 209--234. 
 
 * J.-L. Loday, Spaces with finitely many homotopy groups,
 J.Pure Appl.  Alg., 24 (1982) 179--202.
 
+* J. M. Casas, G. Ellis, M. Ladra, T. Pirashvili, _Derived functors and the homology of $n$-types_, J. Algebra __256__, 583--598 (2002).
+
+The direct proof of the [[homotopy hypothesis]] for the algebraic version of the fundamental $\infty$-groupoid is in
+
+* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+{#Nikolaus}
+
+Strict versions of fundamental $\infty$-groupoids are discussed in
+
+* [[Ronnie Brown]] et al. _[[Nonabelian Algebraic Topology]]_
+
+See also
+
+* [[Ronnie Brown]] and P.J. Higgins, Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
+
+*  [[Ronnie Brown]], A new higher homotopy groupoid: the fundamental  globular $\omega$-groupoid of a filtered space, Homotopy, Homology and Applications, 10 (2008), No. 1, pp.327-343.
+
+
 * R.Steiner, Resolutions of spaces by  $n$-cubes of fibrations, J. London Math. Soc.(2), 34, 169-176, 1986.
 
-* J. M. Casas, G. Ellis, M. Ladra, T. Pirashvili, _Derived functors and the homology of $n$-types_, J. Algebra __256__, 583--598 (2002).
 
 [[!redirects fundamental infinity-groupoids]]
 [[!redirects fundamental ∞-groupoid]]
