@@ -649,6 +649,9 @@ $$
 
 =--
 
+## Factorizations and images
+
+There is a [[factorization system on a 2-category|factorization system]] on the [[2-category]] [[Topos]] whose left class is the [[surjective geometric morphisms]] and whose right class is the geometric embeddings.  The factorization of a geometric morphism can be said to construct its [[image]] in the topos-theoretic sense.
 
 ## References
 
