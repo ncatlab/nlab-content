@@ -6,12 +6,12 @@ A [[subcategory]] $S$ of category $C$ is _dense_ if every object $c$ of $C$ is a
 
 A functor $i:S\to C$ is __dense__ if it satisfies the following equivalent conditions.
 
-1. every object $C$ is the vertex of the following colimit over the [[comma category]] $(i/c)$:
+1. every object $c$ of $C$ is the vertex of the following colimit over the [[comma category]] $(i/c)$:
    $$
    \mathrm{colim}((i/c)\stackrel{\mathrm{pr}_S}{\longrightarrow} S \stackrel{i}{\to} C)
    $$
 
-1. every object $C$ is the $C(i-,c)$-weighted colimit of $i$.  This version generalizes more readily to the [[enriched category|enriched]] context.
+1. every object $c$ of $C$ is the $C(i-,c)$-weighted colimit of $i$.  This version generalizes more readily to the [[enriched category|enriched]] context.
 
 1. the corresponding [[nerve|nerve functor]] (or "restricted [[Yoneda embedding]]") $C \to [S^{op},Set]$ is [[full and faithful functor|fully faithful]]. 
 
