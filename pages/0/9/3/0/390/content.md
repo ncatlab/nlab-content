@@ -58,3 +58,12 @@ Several classical examples of OFS $(E,M)$:
 
 
 * See the _[[joyalscatlab:Factorization systems|Catlab]]_ for more examples. 
+
+[[!redirects orthogonal factorization system]]
+[[!redirects orthogonal factorization systems]]
+[[!redirects orthogonal factorisation system]]
+[[!redirects orthogonal factorisation systems]]
+[[!redirects unique factorization system]]
+[[!redirects unique factorization systems]]
+[[!redirects unique factorisation system]]
+[[!redirects unique factorisation systems]]
