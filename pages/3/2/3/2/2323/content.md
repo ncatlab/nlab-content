@@ -64,6 +64,8 @@
 
   * [[Whitehead theorem]]
 
+* [[over-(∞,1)-topos]]
+
 * [[n-localic (∞,1)-topos]]
 
 * [[locally n-connected (n,1)-topos]]
@@ -100,7 +102,7 @@
 
 **[[schreiber:structures in an (∞,1)-topos]]**
 
-* [[shape of an (∞,1)-topos|shape]]
+* [[shape of an (∞,1)-topos|shape]] / [[coshape of an (∞,1)-topos|coshape]]
 
 * [[cohomology]]
 
