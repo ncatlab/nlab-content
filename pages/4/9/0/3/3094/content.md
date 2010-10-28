@@ -28,3 +28,4 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 
 
 [[!redirects subspace topology]]
+[[!redirects induced topology]]
