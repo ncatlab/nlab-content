@@ -73,7 +73,7 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 ### The weak Vop&#283;nka principle
 
-The Vop&#283;nka principle implies the weak Vop&#283;nka principle
+The Vop&#283;nka principle implies the weak Vop&#283;nka principle.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -102,6 +102,17 @@ Every [[cofibrantly generated model category]] is [[Quillen equivalence|Quillen 
 This is proven in ([Rosicky](#Rosicky)).
 
 
++-- {: .un_theorem}
+###### Theorem
+
+The VP implies the statement:
+
+Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] and $Z \in Mor(C)$ a [[class]] of [[morphism]]s. Then the [[Bousfield localization of model categories|left Bousfield localization]] $L_Z W$ exists.
+
+=--
+
+This is theorem 2.3 in ([RosickyTholen](#RosickyTholen))
+
 ## References
 
 The relation to the theory of [[locally presentable categories]] is the contents of chapter 6 of
@@ -114,6 +125,11 @@ The relation to [[combinatorial model categories]] is discussed in
 * [[Jiří Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
 {#Rosicky}
 
+The implication of VP on [[homotopy theory]] and [[model categories]] are discussed in the following articles
+
+* [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_  Transactions of the American Mathematical Society
+Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
+{#RosickyTholen}
 
 * [[Carles Casacuberta]], Dirk Scevenels, [[Jeff Smith]], _Implications of large-cardinal principles in homotopical localization_  Advances in Mathematics
 Volume 197, Issue 1, 20 October 2005, Pages 120-139 
