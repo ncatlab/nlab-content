@@ -88,7 +88,7 @@ This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 
 
 
-## Consequences
+## Consequences {#Consequences}
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -102,7 +102,7 @@ Every [[cofibrantly generated model category]] is [[Quillen equivalence|Quillen 
 This is proven in ([Rosicky](#Rosicky)).
 
 
-+-- {: .un_theorem}
++-- {: .un_theorem #ConsequenceForBousfieldLoc}
 ###### Theorem
 
 The VP implies the statement:
@@ -113,21 +113,39 @@ Let $C$ be a [[left proper model category|left proper]] [[combinatorial model ca
 
 This is theorem 2.3 in ([RosickyTholen](#RosickyTholen))
 
+
++-- {: .un_corollary #ConsequenceForReflectiveInfCatLoc}
+###### Corollary
+
+The VP implies the statement:
+
+Let $C$ be a [[locally presentable (∞,1)-category]] and $Z$ a class of morphisms in $C$. Then the reflective [[localization of an (∞,1)-category|localization]] of $C$ at $W$ extsts. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the facts discussed at [[locally presentable (∞,1)-category]] and [[combinatorial model category]] and [[Bousfield localization of model categories]] we have that every locally presentable $(\infty,1)$-category is presented by a combinatorial model category and that under this correspondence reflective localizations correspond to left Bousfield localizations. The claim then follows with the ([above theorem](#ConsequenceForBousfieldLoc)).
+
+=--
+
+
 ## References
 
 The relation to the theory of [[locally presentable categories]] is the contents of chapter 6 of
 
-* [[Jiri Adamek]], [[Jiří Rosický]], _Locally presentable and accessible categories_ London Mathematical Society Lecture Note Series 189
+* [[Jiri Adamek]], [[Ji?í Rosický]], _Locally presentable and accessible categories_ London Mathematical Society Lecture Note Series 189
 {#AdamekRosicky}
 
 The relation to [[combinatorial model categories]] is discussed in
 
-* [[Jiří Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
+* [[Ji?í Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
 {#Rosicky}
 
 The implication of VP on [[homotopy theory]] and [[model categories]] are discussed in the following articles
 
-* [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_  Transactions of the American Mathematical Society
+* [[Ji?í Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_  Transactions of the American Mathematical Society
 Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
 {#RosickyTholen}
 
@@ -137,11 +155,11 @@ Volume 197, Issue 1, 20 October 2005, Pages 120-139
 
 category: foundational axiom
 
-[[!redirects Vopěnka's principle]]
+[[!redirects Vop?nka's principle]]
 [[!redirects Vopenka's principle]]
-[[!redirects Vopěnka's principle]]
+[[!redirects Vop?nka's principle]]
 [[!redirects Vopenka's principle]]
-[[!redirects Vopěnka cardinal]]
-[[!redirects Vopěnka cardinals]]
+[[!redirects Vop?nka cardinal]]
+[[!redirects Vop?nka cardinals]]
 [[!redirects Vopenka cardinal]]
 [[!redirects Vopenka cardinals]]
