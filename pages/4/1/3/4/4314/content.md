@@ -70,6 +70,24 @@ For $C$ a [[locally presentable category]],  every [[full subcategory]] $D \hook
 This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 
++-- {: .un_theorem}
+###### Theorem
+
+The VP is equivalent to the statement:
+
+Every [[cofibrantly generated model category]] (in a slightly more general sense than usual) is a [[combinatorial model category]].
+
+=--
+
+This is in ([Rosicky](#Rosicky))
+
++-- {: .un_remark}
+###### Remark
+
+If one insists on the traditional stricter definition of cofibrant generated model category, then the VP still implies that these are all combinatorial. But the VP is slightly stronger than this statement.
+
+=--
+
 
 ### The weak Vop&#283;nka principle
 
@@ -89,17 +107,6 @@ This is [AdamekRosicky, theorem 6.28](#AdamekRosicky)
 
 
 ## Consequences {#Consequences}
-
-+-- {: .un_theorem}
-###### Theorem
-
-The VP implies the statement:
-
-Every [[cofibrantly generated model category]] is [[Quillen equivalence|Quillen equivalent]] to a [[combinatorial model category]].
-
-=--
-
-This is proven in ([Rosicky](#Rosicky)).
 
 
 +-- {: .un_theorem #ConsequenceForBousfieldLoc}
