@@ -6,8 +6,15 @@
 +--{: .hide}
 [[!include type theory - contents]]
 =--
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
 =--
 =--
+=--
+
+
+
 
 #Contents#
 * table of contents
