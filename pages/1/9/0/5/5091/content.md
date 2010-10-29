@@ -26,6 +26,7 @@
   * [[inaccessible cardinal]]
   * [[measurable cardinal]] 
   * [[elementary embedding]]
+  * [[supercompact cardinal]]
   * [[Vopěnka's principle]]
 
 * [[axiom of choice]]
