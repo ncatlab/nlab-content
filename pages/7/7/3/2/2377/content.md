@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+
 +--{: .standout}
 This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  -- [[Mike Shulman]]
 =--
