@@ -574,9 +574,6 @@ The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, wh
 =--
 
 
-
-
-
 ## Existence of localizations for combinatorial model categories {#Existence}
 
 We discuss the existence of left Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the slightly more general context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available. 
@@ -827,6 +824,25 @@ We demonstrate that $S := J_B$ does the trick.
 
 
 
+### Using large cardinal axioms
+
+If one assumes [[large cardinal]] axioms then the existence of Bousfield localization follows much more generally.
+
++-- {: .un_theorem}
+###### Theorem
+
+[[Vop?nka's principle]] implies the statement:
+
+Let $C$ be a [[left proper model category|left proper]] [[combinatorial model category]] and $Z \in Mor(C)$ a [[class]] of [[morphism]]s. Then the [[Bousfield localization of model categories|left Bousfield localization]] $L_Z W$ exists.
+
+=--
+
+This is theorem 2.3 in ([RosickyTholen](#RosickyTholen))
+
+
+
+
+
 
 
 ## Existence of localizations for tractable ennriched model categories
@@ -1023,7 +1039,11 @@ A detailed discussion of Bousfield localization in the general context of [[enri
 
 in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
 
+The relation to [[Vop?nka's principle]] is discussed in
 
+* [[Ji?í Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_  Transactions of the American Mathematical Society
+Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
+{#RosickyTholen}
 
 
 
