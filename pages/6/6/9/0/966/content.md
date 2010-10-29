@@ -15,22 +15,52 @@
 
 ## Idea
 
-_Adjoint functor theorems_ are theorems stating that under certain conditions a [[functor]] that preserves [[limit]] is a [[right adjoint]], and that a functor that preserves [[colimit]]s is a [[left adjoint]].
+_Adjoint functor theorems_ are theorems stating that under certain conditions a [[functor]] that preserves [[limit]]s is a [[right adjoint]], and that a functor that preserves [[colimit]]s is a [[left adjoint]].
 
-## Statement
 
-A basic result of [[category theory]] is that [[adjoint functor|right adjoints]] preserve all [[limit]]s that exist in their domain, and dually left adjoints preserve all [[colimit]]s.  An **[[adjoint functor]] theorem** is a statement that (under certain conditions) the converse holds: a functor which preserves limits is a right adjoint.
+A basic result of [[category theory]] is that right [[adjoint functor]]s preserve all [[limit]]s that exist in their domain, and dually adjoints preserve all [[colimit]]s.  An _adjoint functor theorem_ is a statement that (under certain conditions) the converse holds: a functor which preserves limits is a right adjoint.
 
-The basic idea of an adjoint functor theorem is very simple.  Given a functor $G:D\to C$ which preserves limits, for $c\in C$ define $F c$ to be the limit
-$$F c = \lim_{c\to G d} d.$$
-Here the limit is taken over the [[comma category]] $(c/G)$ whose objects are pairs $(d,f:c\to G d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious tringle commute in $C$.  Now for any $d$ there is an obvious projection $F G d = \lim_{G d \to G d'} d' \to d$, while because $G$ preserves limits, we have $G F c = \lim_{c\to G d} G d$ and so there is an obvious map $c\to G F c$.  It is easy to check that these are the unit and counit of an [[adjunction]] $F\dashv G$.
 
-The problem with this argument is, of course, that in general the comma category $(c/G)$ may not be [[small category|small]], while it is usually only reasonable to assume that $D$ has _small_ limits, not limits of diagrams whose size is on the order of $(c/G)$ or $D$.  Even if we pass to a universe in which $(c/G)$ is considered small, a classical theorem of Freyd says that 
+The basic idea of an adjoint functor theorem is that _if_ we could assume that a [[large category]] $D$ had all [[limit]]s over [[small category|small]] and [[large category|large]] [[diagram]]s, then for $R : D \to C$ a [[functor]] that preserves all these limits we might defne its would-be left adjoint $L$ by  taking  $L c$ to be the limit
+
+$$
+  L c := \lim_{c\to R d} d
+$$
+
+over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious tringle commute in $C$) of the projection functor
+
+$$
+  L c = \lim_{\leftarrow} (c/R \to D )
+  \,.
+$$
+
+Because with this definition there would be for every $d$ an obvious morphism
+
+$$
+  L R d \stackrel{=}{\to} \lim_{R d \to R d'} d' \to d
+$$
+
+(the component map over $d$ of the limiting [[cone]]) while moreover because $R$ preserves limits, we would have an [[isomorphism]]
+
+$$
+  R L c \simeq \lim_{c\to R d} R d
+$$ 
+
+and hence an obvious morphim of [[cone]] tips
+
+$$
+ c \to R L c
+ \,.
+$$  
+
+It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$.
+
+The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that 
 
 +-- {: .un_theorem}
 ###### Theorem
 
-If (in some universe $U$) a $U$-small [[category]] $D$ has [[product]]s of families of objects whose size is at least that of its set of morphisms, then $D$ is a [[preorder]].  
+If (in some [[universe]] $U$) a $U$-small [[category]] $D$ has [[product]]s of families of objects whose size is at least that of its set of morphisms, then $D$ is a [[preorder]].  
 
 In other words: any [[small category|U-small]] [[complete category|U-small-complete category]] is a [[preorder]].  
 
@@ -38,11 +68,13 @@ In other words: any [[small category|U-small]] [[complete category|U-small-compl
 
 +-- {: .proof}
 ######Proof
-Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are two morphisms $f, g: x \stackrel{\to}{\to} y$. Then the set of morphisms 
+
+Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are at least two different morphisms $x \stackrel{\overset{g}{\to}}{\underset{f}{\to}} y$. Then the set of morphisms 
 
 $$x \to \prod_{f \in Mor(D)} y$$ 
 
-has cardinality $2^{|Mor(D)|} \gt |Mor(D)|$, which is a contradiction. 
+has [[cardinality]] at least $2^{|Mor(D)|} \gt |Mor(D)|$, which is a contradiction. 
+
 =-- 
 
 Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
@@ -54,7 +86,11 @@ If $G:D\to C$ is any functor between (small) preorders such that $D$ has, and $G
 
 =--
 
-To obtain adjoint functor theorems for categories that are not preorders, one must impose various additional "size conditions" on the category $D$ and/or the functor $G$.  
+To obtain adjoint functor theorems for categories that are not preorders, one must therefore impose various additional "size conditions" on the category $D$ and/or the functor $G$.  
+
+
+## Statement
+
 
 +-- {: .un_theorem}
 ###### Theorem
