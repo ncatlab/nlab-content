@@ -137,6 +137,11 @@ This can always be made to work by brute force, but sometimes there is something
 
 * [[coreflective subcategory]]
 
+## A terminological remark
+
+A few sources (such as [[Categories Work]]) do not require a reflective subcategory to be full.  However, in light of the fact that non-full subcategories are not [[evil|invariant under equivalence]], consideration of non-full reflective subcategories seems of limited usefulness.  The general consensus among category theorists nowadays seems to be that "reflective subcategory" implies fullness.
+
+
 ## References
 
 * [[Jiri Adamek]], [[Ji?í Rosický]], _Locally presentable and accessible categories_ London Mathematical Society Lecture Note Series 189
