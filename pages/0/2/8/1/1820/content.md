@@ -58,7 +58,7 @@ and
 
 =--
 
-Recall from the discussion at [[cofibrantly generated model category]] that this means that $C$ has a [[set]] (not a proper [[class]]) $I$ of generating cofibrations and and a set of trivial generating cofibrations in that
+Recall from the discussion at [[cofibrantly generated model category]] that this means that $C$ has a [[set]] (not a proper [[class]]) $I$ of generating cofibrations and and a set $J$ of generating trivial cofibrations in that
 
   $$ 
     cof = llp(rlp(I))
