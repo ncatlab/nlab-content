@@ -66,7 +66,7 @@ where the $p_\lambda$ are the propositional variables ordered by finite ordinals
 1. Some authors use an equivalent generation rule using $\square \phi$, which is $\neg \Diamond \neg \phi$. Of course, this interprets as 'necessarily $\phi$' in this initial form.  In [[epistemic logic]] the basic modal language interprets $\square \phi$ as saying 'the agent knows that $\phi$'.
 
 
-1. Another formulation replaces $\vee$ and $\neg$ by implication $\phi_1\to \phi_2$.
+1. Other formulations replace $\vee$ and $\neg$ by implication $\phi_1\to \phi_2$, or by $\wedge$ and $\neg$.
 
 
 ##Modal logics##
