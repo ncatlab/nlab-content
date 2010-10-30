@@ -333,3 +333,154 @@ This group presentation is [[Tietze transformation|Tietze equivalent]] to $\lang
 
 ##The Wirtinger presentation##
 To  get the Wirtinger presentation of $G(K)$, you label the arcs of the knot diagram rather than the faces. The arc labels will give the generators in this presentation and the crossings will give the relations.  
+
+Suppose the crossing looks like
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="233.634"
+   height="224.59447"
+   id="svg2391"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="Wirtinger.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs2393">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4234"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3183"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1052.3622 : 372.04724 : 1"
+       inkscape:persp3d-origin="526.18109 : 248.03149 : 1"
+       id="perspective2400" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7366334"
+     inkscape:cx="196.00862"
+     inkscape:cy="108.29132"
+     inkscape:current-layer="layer1"
+     id="namedview2395"
+     showgrid="false"
+     inkscape:window-width="663"
+     inkscape:window-height="701"
+     inkscape:window-x="37"
+     inkscape:window-y="22" />
+  <metadata
+     id="metadata2397">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-96.238895,-163.1615)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Lstart);marker-mid:url(#Arrow1Lstart);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 225.28771,269.03633 L 225.14827,373.26205 M 223.99661,163.66111 L 224.71188,253.48901"
+       id="path2404"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 96.738895,246.58017 C 97.506664,246.58017 98.274433,246.58017 96.738895,246.58017 z"
+       id="path2406" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99921260000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="M 119.77197,260.40001 L 329.3729,260.40001"
+       id="path2408" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="150.86662"
+       y="281.12976"
+       id="text4473"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4475"
+         x="150.86662"
+         y="281.12976">x_i</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="228.02739"
+       y="217.21301"
+       id="text4477"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4479"
+         x="228.02739"
+         y="217.21301">x_j</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="229.17905"
+       y="327.77173"
+       id="text4481"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4483"
+         x="229.17905"
+         y="327.77173">x_k</tspan></text>
+  </g>
+</svg>
+ with the overpass going from left to right and the underpass from bottom to top.
+
+Pick one of the quadrants and think of a rectanglar path going anti-clockwise about the crossing.  (We will assume we have started this path in the NW quadrant, to the left of the exit.) 
+Traverse this rectangular path and write down the arc label if the arc is entering the crossing and (arc label)$^{-1}$ if it is leaving it.  In the above situation we get $x_i  x_k x_i^{-1} x_j^{-1}$ which we equate to 1. Now repeat for all the other crossings.
+
+The **Wirtinger presentation** is then
+
+$$\langle arc labels \mid crossing relations\rangle$$
+
+It is worth noting that any one of the crossing relations is a consequence of the others.  (HINT: If doing an example, do not throw away a crossing relation just because it is redundant, rather keep it and it will act as a check on the final form of the presentation when it has been 'processed' through some Tietze transformations. It is easy at least to start with, to make a slip in the calculation and often the presentation in nice simple knots can be reduced to a two generator one relator form.  The above trick keeps in a duplicate relator for comparison.) 
+
+
+
+
+ 
