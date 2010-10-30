@@ -25,7 +25,7 @@ It is usual to classify them using their axiom systems, but also in terms of the
 
 *  [[dynamic logic]];
 
-*  [[arrow logics]];
+*  [[arrow structures|arrow logics]];
 
 (this list may get added to later).
 
