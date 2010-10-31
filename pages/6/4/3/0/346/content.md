@@ -82,7 +82,7 @@ Since the notion of closed category involves a contravariant functor and extrana
 
 Closed categories were first defined here:
 
-* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).  Not available electronically from the publisher (even via payment or institutional subscription); available [here](http://ifile.it/6o0a7vf) until that situation changes.
 
 They were shown to be equivalent to closed unital [[multicategories]] here:
 
