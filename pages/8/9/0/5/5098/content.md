@@ -19,8 +19,14 @@ $$(K_i\phi \wedge K_i(\phi \to \psi))\to K_i\psi.$$
 
 ##Derivation rules##
 
-* (MP) $\frac{\phi \quad \phi\to \psi}{\psi}$ \quad (i.e. _modus ponens_);
+* (MP) 
 
-* (Generalisation) $\frac{\phi}{K_i\phi}$.
+$$\frac{\phi \quad \phi\to \psi}{\psi} \quad$$
+
+ (i.e. _modus ponens_);
+
+* (Generalisation) 
+
+$$\frac{\phi}{K_i\phi}.$$
 
 The second deduction rule corresponds to the idea that if a statement has been proved, then it is known to all 'agents'.
