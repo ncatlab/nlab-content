@@ -11,8 +11,8 @@ This is the basic epistemic logic.  It is 'basic' with not much structure relati
 
 ##Axiomatisation##
 
-(A1)  All (instances of ) propositional tautologies.
+(Taut)  All (instances of ) propositional tautologies.
 
-(A2)  For each $i = 1,\ldots, m$, the axiom: 
+(K)  For each $i = 1,\ldots, m$, the axiom: 
 
 $$(K_i\phi \wedge K_i(\phi \to \psi))\to K_i\psi.$$
