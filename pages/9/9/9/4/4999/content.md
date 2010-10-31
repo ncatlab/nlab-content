@@ -81,7 +81,12 @@ and
 * $\Lambda$ is closed under the inference rule 
 _if $\phi$, $\phi\to \psi \in \Lambda$ then $\psi \in \Lambda$_ , i.e. detachment or __modus ponens__.
 
-The logic is **uniform** if it is closed under the rule of uniform substitution of $\mathcal{L}_\omega(n)$-formulae for propositional variables and is **normal** if it contains the schemata:
+####Modal Logics exist####
+As the set of all formulae in $\mathcal{L}_\omega(n)$ satisfies the conditions for a logic and any intersection of logics is itself also a logic, we have that given a set of formulae decreed to be 'axioms' for a logic, there is a smallest modal logic containing them.
+
+##Uniform and normal logics##
+
+A logic is **uniform** if it is closed under the rule of uniform substitution of $\mathcal{L}_\omega(n)$-formulae for propositional variables and is **normal** if it contains the schemata:
   
 (K)  $\Diamond_i(\psi \vee \chi) \to \Diamond_i(\psi)\vee \Diamond_i(\chi)$  
   
