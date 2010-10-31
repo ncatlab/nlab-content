@@ -5,7 +5,7 @@
 
 
 ## Models in Modal Logics ## 
-To give the standard (geometric) semantics of modal logics one needs models and these will be discussed here and in the companion [[algebraic models for  modal logics]].
+To give the standard (geometric) semantics of [[modal logics]], one needs models and these will be discussed here and in the companion [[algebraic models for  modal logics]].
 
 (This outlines the basics of the **Kripke semantics** of these logics.)
 
@@ -17,7 +17,8 @@ Again we look at the basic model language.
 
 +--{: .un_defn}
 ######Definition ######
-A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)$, where $\mathfrak{F}$ is a frame (for $\mathcal{L}_\omega(1)$) and $V: Prop \to \mathcal{P}(W)$, is a function, called a _valuation_, assigning to each atomic proposition $p$ a subset of the set, $W$, of worlds.
+A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)$, where $\mathfrak{F}$ is a [[frame (modal logic)
+  |frame]] (for $\mathcal{L}_\omega(1)$) and $V: Prop \to \mathcal{P}(W)$, is a function, called a _valuation_, assigning to each atomic proposition $p$ a subset of the set, $W$, of worlds.
 =--
 
 ###Gloss###
@@ -68,6 +69,35 @@ In the definition of a Kripke model the valuation is all important.  It is what 
 1.  We could re[[currying|curry]] after transposing $P$ and $W$, to get $V$ to correspond to $\tilde{V}: W \to \mathcal{P}(P)$, so that $\tilde{V}(w)$ is the set of propositions true about the world $w$.
 
 1.  Another useful direction is to see this as giving a binary [[Chu construction|Chu space]]. (To be investigated later.) 
+
+
+##Models in Multimodal Logics##
+
+
+
+Again we look at the basic model language this time with $n$ unary modal operators.
+
++--{: .un_defn}
+######Definition ######
+A _model_ for $\mathcal{L}_\omega(n)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)$, where $\mathfrak{F}$ is a frame (for $\mathcal{L}_\omega(n)$) and $V: Prop \to \mathcal{P}(W)$, is a function, called a _valuation_, assigning to each atomic proposition $p$ a subset of the set, $W$, of worlds.
+=--
+##Satisfaction in the multimodal case ##
+
+This is virtually the same as in the monomodal case, except for the last case which involve the $n$ modal operators (we give it in full repeating the earlier cases for convenience.)
++--{: .un_defn}
+######Definition ######
+Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively define the notion of a formula $\phi$ being satisfied in the model at state $w$, as follows:
+
+* for $p\in Prop$, $\mathfrak{M},w \models p$ if and only if $w\in V(p)$;
+
+* $\mathfrak{M},w \models \bot$ never;
+ 
+* $\mathfrak{M},w \models \neg \phi$ if and only if it is not true that $\mathfrak{M},w \models \phi$;
+
+* $\mathfrak{M},w \models \phi \vee \psi$ if and only if $\mathfrak{M},w \models\phi$ or $\mathfrak{M},w \models\psi$;
+
+* for each $i = 1, \ldots, n$, $\mathfrak{M},w \models \Diamond_i \phi$ if and only if, for some $v \in W$ such that $ R_i w v$, $\mathfrak{M},v \models \phi$.
+=--
 
 
 ## References## 
