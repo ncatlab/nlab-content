@@ -43,12 +43,12 @@ is a **geometric embedding** if the following equivalent conditions are satisfie
 
 * there is a [[Lawvere-Tierney topology]] on $E$ and an [[equivalence of categories]] $e : F \stackrel{\simeq}{\to} Sh_j E$ such that the diagram of geometric morphisms $\array{ F &\stackrel{f_*}{\to}& E \\ & {}_{e}\searrow^\simeq & \uparrow^{i} \\ && Sh_j E}$ commutes up to natural isomorphism $e^* i^* \simeq f^*$
 
-That the first two conditions are equivalent is standard, that the third one is equivalent to the first two is for instance corollary 7 in section VII, 4 of 
-
-* MacLane-Moerdijk, _Sheaves in geometry and logic_
+That the first two conditions are equivalent is standard, that the third one is equivalent to the first two is for instance corollary 7 in section VII, 4 of ([MacLaneMoerdijk](#MacLaneMoerdijk))
 
 
-## Relation to localization
+## Properties
+
+### Relation to localization
 
 There is a close relation between geometric embedding and
 [[localization]]. 
@@ -649,7 +649,7 @@ $$
 
 =--
 
-## Factorizations and images
+### Factorizations and images
 
 There is a [[factorization system on a 2-category|factorization system]] on the [[2-category]] [[Topos]] whose left class is the [[surjective geometric morphisms]] and whose right class is the geometric embeddings.  The factorization of a geometric morphism can be said to construct its [[image]] in the topos-theoretic sense.
 
@@ -658,6 +658,6 @@ There is a [[factorization system on a 2-category|factorization system]] on the 
 section VII, 4 of 
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
-
+{#MacLaneMoerdijk}
 
 [[!redirects geometric embeddings]]
