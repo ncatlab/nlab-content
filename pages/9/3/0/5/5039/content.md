@@ -103,6 +103,7 @@ Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively
 * for each $i = 1, \ldots, n$, $\mathfrak{M},w \models \Diamond_i \phi$ if and only if, for some $v \in W$ such that $ R_i w v$, $\mathfrak{M},v \models \phi$.
 =--
 
+Satisfaction on a class of models  is related to [[validity]] of modal formulae. In this way a class of frames can determine a logic and then the logic determines a class of frames.  The axiomatisation of that class/logic is then an interesting challenge.
 
 ## References## 
 
