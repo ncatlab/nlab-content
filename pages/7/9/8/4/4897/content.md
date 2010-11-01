@@ -58,3 +58,5 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 * [[HomePage|nlab]] this wiki on higher category theory and applications
 * Joyal's CatLab: [[joyalscatlab:HomePage]]
 [[!redirects math archive]]
+[[!redirects math arxive]]
+[[!redirects math arxives]]
