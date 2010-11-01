@@ -27,6 +27,13 @@ We can perform the above construction in any [[topological concrete category]], 
 The dual situtation is forming the [[strong topology]] on $X$ when equipped with a family of functions *to* $X$ from topological spaces.  (This generalises to forming a [[final structure]] for a [[sink]].)
 
 
+## In functional analysis
+
+In [[functional analysis]], the term 'weak topology' is used in a special way.  If $V$ is a [[topological vector space]] over the [[ground field]] $K$, then we may consider the continuous linear [[functional]]s on $V$, that is the [[continuous map|continuous]] [[linear maps]] from $V$ to $K$.  Taking $V$ to be the set $X$ in the general definition above, taking each $T_i$ to be $K$, and taking the continuous linear functionals on $V$ to comprise the family of functions, then we get the __weak topology__ on $V$.
+
+The [[weak-star topology]] is another special case of a weak topology.
+
+
 ## References
 
 The original version of this article was posted by [[Vishal Lama]] at [[nlabmeta:induced topology]].
