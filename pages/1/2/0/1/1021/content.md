@@ -46,6 +46,14 @@ Although it may not be immediately obvious, these definitions are all compatible
 
 Whenever $G$ is a right adjoint of $U$, we have that $U$ is a [[left adjoint]] of $G$.
 
+## Properties
+
+Right adjoint functors preserve
+
+* [[limit]]s;
+
+* [[monomorphism]]s.
+
 
 ## Further remarks 
 
