@@ -1,8 +1,13 @@
+# Ternary factorisation systems
+* table of contents
+{: toc}
+
 ## Idea
 
 Just as an (orthogonal/unique) [[orthogonal factorization system|factorization system]] $(E,M)$ on a [[category]] $C$ gives a way to factor every [[morphism]] of $C$ as an $E$-map followed by an $M$-map, a *ternary (orthogonal) factorization system* $(E,F,M)$ gives a way to factor every map of $C$ as an $E$-map followed by an $F$-map followed by an $M$-map.
 
 This is a special case of a notion of [[k-ary factorization system]].
+
 
 ## Definition
 
@@ -48,6 +53,7 @@ $$\array{a & \overset{e}{\to} & c\\
 exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is closed under retracts.
 =--
 
+
 ## Examples
 
 * In [[Top]], let $L_1=$ quotient maps, $R_1=$ injective continuous maps, $L_2=$ surjective continuous functions, and $R_2=$ subspace embeddings.  Here $L_2\cap R_1=$ bijective continuous maps, and the two intermediate objects in the ternary factorization of a continuous map are obtained by imposing the coarsest and the finest compatible topologies on its set-theoretic image.
@@ -62,6 +68,7 @@ exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is c
 
   For instance, the above factorization system on $Top$ is induced in this way via the [[forgetful functor]] $Top\to Set$ from the (epi,mono) factorization system on [[Set]].
 
+
 ## Related concepts
 
 * The notion of [[model category]] involves a pair of [[weak factorization systems]] called (acyclic cofibration, fibration) and (cofibration, acyclic fibration) which are compatible in the same sense as above.  However, non-uniqueness of these factorizations means that the resulting "ternary factorization" of a morphism is not unique.  The class corresponding to $R_2 L_1$ is important, however: it is precisely the class of [[weak equivalences]].
@@ -70,37 +77,40 @@ exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is c
 
 * Just as [[strict factorization system]]s can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], so "strict" ternary (and k-ary) factorization systems can be identified with [[iterated distributive law]]s in $Span$.
 
+
 ## References
 
 * A. Pultr and W. Tholen, *Free Quillen Factorization Systems*.  Georgian Math. J.9 (2002), No. 4, 807-820
 
 * [Cafe discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html)
 
+
 [[!redirects ternary factorization system]]
 [[!redirects ternary factorization systems]]
-[[!redirects double factorization system]]
-[[!redirects double factorization systems]]
-[[!redirects Quillen factorization system]]
-[[!redirects Quillen factorization systems]]
-[[!redirects 3-way factorization system]]
-[[!redirects 3-way factorization systems]]
-[[!redirects 3-step factorization system]]
-[[!redirects 3-step factorization systems]]
-[[!redirects 3-stage factorization system]]
-[[!redirects 3-stage factorization systems]]
-[[!redirects 3-fold factorization system]]
-[[!redirects 3-fold factorization systems]]
 [[!redirects ternary factorisation system]]
 [[!redirects ternary factorisation systems]]
+[[!redirects double factorization system]]
+[[!redirects double factorization systems]]
 [[!redirects double factorisation system]]
 [[!redirects double factorisation systems]]
-[[!redirects Quillen factorisation system]]
-[[!redirects Quillen factorisation systems]]
+[[!redirects 3-way factorization system]]
+[[!redirects 3-way factorization systems]]
 [[!redirects 3-way factorisation system]]
 [[!redirects 3-way factorisation systems]]
+[[!redirects 3-step factorization system]]
+[[!redirects 3-step factorization systems]]
 [[!redirects 3-step factorisation system]]
 [[!redirects 3-step factorisation systems]]
+[[!redirects 3-stage factorization system]]
+[[!redirects 3-stage factorization systems]]
 [[!redirects 3-stage factorisation system]]
 [[!redirects 3-stage factorisation systems]]
+[[!redirects 3-fold factorization system]]
+[[!redirects 3-fold factorization systems]]
 [[!redirects 3-fold factorisation system]]
 [[!redirects 3-fold factorisation systems]]
+
+[[!redirects Quillen factorization system]]
+[[!redirects Quillen factorization systems]]
+[[!redirects Quillen factorisation system]]
+[[!redirects Quillen factorisation systems]]
