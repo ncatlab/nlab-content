@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **Conduch&#233; functor** is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
+A **Conduch&#233; functor**, or **exponentiable functor**, is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  (In accordance with [[Baez's law]], the notion was actually defined by Giraud before Conduch&#233;.)  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
 
 
 ## Failure of local cartesian closedness in Cat
