@@ -1,3 +1,4 @@
+[[!redirects Online Resources]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Contents### {: .clickToReveal}
@@ -8,7 +9,7 @@
 =--
 =--
 
-This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog),  and online mathematical communities like forums and [wikis](http://en.wikipedia.org/wiki/Wiki). For links to main repositories of free books, lectures, videos, reviews and math papers see [[math archives]] and for list of societies and institutions see [[math institutions]].
+This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog),  and online mathematical communities like forums and [wikis](http://en.wikipedia.org/wiki/Wiki). For links to main repositories of free books, lectures, videos, reviews and math papers see [[math archives]] and for a list of societies and institutions see [[math institutions]]. A higher level branch page is [[math resources]].
 
 For a quick introduction to math blogging, see
 
@@ -41,16 +42,35 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 ## Mathematics
 
-### Online encyclopaedias
+### Wikis and online encyclopaedias
+
+
+* [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
+
+* [Deferential Geometry](http://deferentialgeometry.org)
+
+* [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
 
 * [eom.springer.de](http://eom.springer.de) -- free online access to 8000 entries of Springer online Encyclopeadia of Mathematics 
 
-* [wolframworld](http://mathworld.wolfram.com)
+* [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
+
+* [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
+
+* [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
+
+* [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
+
+* [The nLab](http://ncatlab.org/), or $n$-Category Lab, which you are reading right now!
+
+* [The Tricki](http://www.tricki.org)
+
+* [wolframworld](http://mathworld.wolfram.com) 
 
 ### Forums
 
 
-* [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/) and [daughters](http://stackexchange.com) of &lt;http://area51.stackexchange.com>, including [math.stackexchange](http://math.stackexchange.com) dedicated to lower level math questions ("MathUnderflow") and [tex.stackexchange](http://tex.stackexchange.com) about TeX and LaTeX.
+* [Math Overflow](http://mathoverflow.net/) has become a universal clearinghouse for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/) and [daughters](http://stackexchange.com) of &lt;http://area51.stackexchange.com>, including [math.stackexchange](http://math.stackexchange.com) dedicated to lower level math questions ("MathUnderflow"), [tex.stackexchange](http://tex.stackexchange.com) about TeX and LaTeX. Similar [physicsoverflow.com](http://physicsoverflow.com) is not very active yet.
 
 * [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) For discussions about material (both maths and metas) here on the nLab.
 
@@ -223,30 +243,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations)
 
 
-
-### Wikis
-
-
-* [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
-
-* [Deferential Geometry](http://deferentialgeometry.org)
-
-* [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
-
-* [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
-
-* [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
-
-* [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
-
-* [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
-
-* [The nLab](http://ncatlab.org/), or $n$-Category Lab, which you are reading right now!
-
-* [The Tricki](http://www.tricki.org)
-
-
-
 ## Probability and Statistics 
 
 ### Blogs 
@@ -293,8 +289,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
 
-
-
+* [Azimuth](http://johncarlosbaez.wordpress.com) John Baez's new blog on environment, climate change, biodiversity, sustainable development and technology; from a perspective of a mathematical physicist; occasional topics with significant mathematical content
 
 
 ## Technical help with math blogs 
@@ -313,4 +308,8 @@ category: meta
 [[!redirects Online]]
 [[!redirects Online resources]]
 [[!redirects online resources]]
-[[!redirects math blogs]]
+[[!redirects Online Resources]]
+[[!redirects math blogs and wikis]]
+[[!redirects mathematical blogs]]
+[[!redirects Math Blogs]]
+[[!redirects Math blogs]]
