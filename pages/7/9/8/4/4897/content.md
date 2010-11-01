@@ -1,4 +1,4 @@
-For a separate list of math blogs see [[math blogs]]. Main wikis should belong to both lists. For math societies and institutes see [[math institutions]]. The level up is [[math resources]]. 
+For a separate list of math blogs and forums see [[math blogs]]. Main wikis should belong to both lists. For math societies and institutes see [[math institutions]]. The level up is [[math resources]]. 
 
 We list archives of **online** books, not the catalogues of physical libraries. We shall not list commercial subscription lists (especially of current journals) except semi-commercial jstor and few publication sites by the main mathematical societies.  
 
@@ -10,9 +10,11 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 * [spires](http://www.slac.stanford.edu/spires) high energy physics publication database
 
+* The SAO/[NASA Astrophysics Data System](http://www.adsabs.harvard.edu)   (it also contains abstracts, scans, citations of many papers in mathematical physics)
+
 * [numdam](http://numdam.org) old issues of many French journals including [[Cahiers]]
 
-* [math-net.ru](http://www.mathnet.ru), [English version](http://www.mathnet.ru/index.phtml?&option_lang=eng) -- past years of main Russian math journals
+* [math-net.ru](http://www.mathnet.ru), [English version](http://www.mathnet.ru/index.phtml?&option_lang=eng) -- past years of main Russian math journals; tracks citations within the system; searchable also by name of a mathematician
 
 * [Hopf archive](http://hopf.math.purdue.edu) topology and K-theory
 
