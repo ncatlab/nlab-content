@@ -87,15 +87,14 @@ In particular, one expects (although a proof depends on the exact definition and
 
 If we use too strict a notion of $n$-functor, then we will not get the correct notion of equivalence; if we use weak $n$-functors but not anafunctors, then we will get the correct notion of equivalence only if the axiom of choice holds, although again this can be corrected by moving to a span.  Note that even strict $n$-categories need weak $n$-functors to get the correct notion of equivalence between them!
 
-For example, assuming choice, a [[strict 2-functor]] between strict $2$-categories is an equivalence in $Bicat$ if and only if it is essentially (up to equivalence) surjective on objects, locally essentially surjective, and locally fully faithful. However, its weak inverse may not be a _strict_ $2$-functor, so it need not be an equivalence in the [[strict 3-category]] $Str 2 Cat$ of 2-categories and strict 2-functors.  As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Str 2 Cat$ by formally inverting all such weak equivalences.  (In fact, $Bicat$ is equivalent to $Str 2 Cat$ ---using weak equivalence for $3$-[[3-category|categories]]!--- although this does not extend to $Tricat$ and $Str 3 Cat$.)
+For example, assuming choice, a [[strict 2-functor]] between strict $2$-categories is an equivalence in $Bicat$ if and only if it is essentially (up to equivalence) surjective on objects, locally essentially surjective, and locally fully faithful. However, its weak inverse may not be a _strict_ $2$-functor and the equivalence transformations need not be strictly 2-natural.  Thus, it need not be an equivalence in the [[strict 3-category]] $Str 2 Cat$ of 2-categories, strict 2-functors, and strict 2-natural transformations, or even in the [[semi-strict 3-category]] $Gray$ of strict 2-categories, strict 2-functors, and pseudonatural transformations.
 
+As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Gray$ by formally inverting all such weak equivalences.  Note that even with the axiom of choice, $Bicat$ is *not* equivalent (as a tricategory) to $Gray$, even though by the coherence theorem for tricategories it is equivalent to *some* Gray-category; see [here](http://arxiv.org/abs/math/0612299).
 
 [[!redirects equivalent category]]
 [[!redirects equivalent categories]]
 [[!redirects equivalences of categories]]
 [[!redirects isomorphism of categories]]
-[[!redirects equivalence of 2-categories]]
-[[!redirects equivalence of bicategories]]
 [[!redirects equivalence of n-categories]]
 [[!redirects equivalence of infinity-categories]]
 [[!redirects equivalence of higher categories]]
