@@ -16,7 +16,7 @@
 
 * [[type theory]]
 
-## Extra axioms
+## Common axioms
 
 * [[large cardinal]]
 
@@ -36,16 +36,15 @@
   * [[COSHEP]]
   * [[small violations of choice]]
   * [[WISC]]
+  * [[excluded middle]]
+
+* strong axioms
+  * [[axiom of separation]]
+  * [[axiom of replacement]]
 
 ## Removing axioms
 
 * [[constructive mathematics]]
-
-  * [[constructivism]]
-  * [[excluded middle]]
-  * [[predicative mathematics]]
+* [[predicative mathematics]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/foundations+-+contents)</div>
-
-
-
