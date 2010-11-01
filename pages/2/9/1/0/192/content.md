@@ -32,7 +32,7 @@ Conversely, $\Set$ in [[constructive mathematics]] cannot satisfy the axiom of c
 
 ## Remarks 
 
-* Above we considered $Set$ to be the category of _all_ sets, so that in particular $Set$ itself is a [[large category]].  Authors who assume a [[universe]] as part of their [[foundations]] often define $Set$ to be the category of *small* sets (those contained in the universe).
+* Above we considered $Set$ to be the category of _all_ sets, so that in particular $Set$ itself is a [[large category]].  Authors who assume a [[Grothendieck universe]] as part of their [[foundations]] often define $Set$ to be the category of *small* sets (those contained in the universe).
 
 
 category: category
