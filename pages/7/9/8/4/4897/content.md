@@ -12,7 +12,9 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 * The SAO/[NASA Astrophysics Data System](http://www.adsabs.harvard.edu)   (it also contains abstracts, scans, citations of many papers in mathematical physics)
 
-* [numdam](http://numdam.org) old issues of many French journals including [[Cahiers]]
+* [numdam](http://numdam.org) old issues of many French math journals including [[Cahiers]]
+
+* [Gallica](http://gallica.bnf.fr) repository of free French books (in general area); includes old issues of Comptes Rendus
 
 * [math-net.ru](http://www.mathnet.ru), [English version](http://www.mathnet.ru/index.phtml?&option_lang=eng) -- past years of main Russian math journals; tracks citations within the system; searchable also by name of a mathematician
 
