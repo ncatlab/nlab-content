@@ -13,6 +13,7 @@ Baez\'s law it is *not* due to [[John Baez]].  It is only named after him, in ac
 
 *  [[currying|Currying]] was first identified by [[Moses Schonfinkel|Moses Schönfinkel]], rather than by [[Haskell Curry]].
 *  [[Kripke frame]]s go back before Kripke to 1957; see [nForum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1991).
+*  [[Conduché functors]] were introduced by Giraud 8 years before Conduch&#233;.
 
 There are several more already on the nLab; they just don't link here yet.
 
