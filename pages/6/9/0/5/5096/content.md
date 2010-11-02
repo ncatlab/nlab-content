@@ -26,7 +26,9 @@ The 'agent' terminology is extremely useful, but in pure modal logic texts is no
 
 * [[The logic K(m)| K(m)]];
 
-* [[The logic S4(m)|S4(m)}]];
+* [[The logic T(m)| T(m)]];
+
+* [[The logic S4(m)|S4(m)]];
 
 * [[The logic S5(m)|S5(m)]].
 
@@ -45,7 +47,7 @@ A fairly recent book on epistemic logics and their applications is
 
 and this has been used for some of the material here.
 
-eneral books on modal logics include
+General books on modal logics include
 
 * P. [[Blackburn]], M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
 
