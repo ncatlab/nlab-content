@@ -13,15 +13,6 @@
 =--
 =--
 
-* [[connection on a bundle]]
-
-* [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
-
-* **connection on a 3-bundle** / [[connection on a bundle 2-gerbe]]
-
-* [[connection on an ∞-bundle]]
-
-***
 
 #Contents#
 * table of contents
@@ -41,10 +32,27 @@ $$
   }
 $$
 
+## Related concepts
+
+* [[connection on a bundle]]
+
+* [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
+
+* **connection on a 3-bundle** / [[connection on a bundle 2-gerbe]]
+
+* [[connection on an ∞-bundle]]
+
 
 ## References
 
+The [[higher parallel transport]] of local 3-connections is considered in
+
 * [[Joao Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv:abs/0907.2566](http://arxiv.org/abs/0907.2566))
+
+Examples of 3-connections obtained from fibrations of [[Courant algebroid]]s are discussed in
+
+* Olivier Brahic, _On the infinitesimal Gauge Symmetries of closed forms_ ([arXiv](http://arxiv.org/abs/1010.2189))
+
 
 [[!redirects connections on a 3-bundle]]
 
