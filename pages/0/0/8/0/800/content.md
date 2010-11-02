@@ -1,9 +1,14 @@
-# Idea #
+
+# Equivalence of categories
+* table of contents
+{: toc}
+
+## Idea
 
 Two [[category|categories]] $C$ and $D$ are said to be _equivalent_ if any non-[[evil]] property of categories holds for $C$ if and only if it holds for $D$; this generalises to [[higher category theory|higher categories]] and ultimately to equivalence of $\infty$-[[infinity-category|categories]].  Of course, the definition of 'evil' refers to equivalence, so this is circular; it\'s possible to formalise these notions of evil through a language such as [[FOLDS]], but normally one formalises them by defining equivalence as done here.
 
 
-# Definitions #
+## Definitions
 
 We give four definitions of equivalence of categories, each of which comes naturally from a different view of [[Cat]].
 
@@ -12,7 +17,7 @@ The first, _isomorphism_, comes from viewing $Cat$ as a mere category; it is too
 It\'s also possible to define 'category' in such a way that only a correct definition can be stated, but here we use the usual algebraic definitions of category, [[functor]], and [[natural isomorphism]].
 
 
-## Isomorphism ##
+### Isomorphism
 
 Categories $C$ and $D$ are __isomorphic__ if there exist functors $F: C \to D$ and $G: D \to C$ such that $F G$ and $G F$ are each [[equality|equal]] to the appropriate [[identity functor]].  In this case, we say that $F$ is an __isomorphism__ from $C$ to $D$ (so $G$ is an isomorphism from $D$ to $C$) and call the pair $(F,G)$ an __isomorphism__ between $C$ and $D$.  The functor $G$ is called the __strict inverse__ of $F$ (so $F$ is the strict inverse of $G$).
 
@@ -23,7 +28,7 @@ Give an intuitively clear counterexample here.
 =--
 
 
-## Strong equivalence ##
+### Strong equivalence
 
 Categories $C$ and $D$ are __strongly equivalent__ if there exist functors $F: C \to D$ and $G: D \to C$ such that $F G$ and $G F$ are each naturally isomorphic (isomorphic in the relevant [[functor category]]) to the appropriate identity functor.  In this case, we say that $F$ is a __strong equivalence__ from $C$ to $D$ (so $G$ is a strong equivalence from $D$ to $C$).  The functor $G$ is called a __weak inverse__ of $F$ (so $F$ is a weak inverse of $G$).
 
@@ -47,7 +52,7 @@ whereas considering
 is fraught with peril.  For instance, an adjoint inverse is unique up to unique isomorphism (much as a strict inverse is unique up to equality), while a weak inverse is not.  Including adjoint equivalences is also the only way to make a higher-categorical structure completely _[[algebraic definition of higher category|algebraic]]_.
 
 
-## Weak equivalence ##
+### Weak equivalence
 
 Categories $C$ and $D$ are __weakly equivalent__ if there exist a category $X$ and functors $F: X \to D$ and $G: X \to C$ that are [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  In this case, we say that $F$ is a __weak equivalence__ from $X$ to $D$ (so $G$ is an equivalence from $X$ to $C$) and call the [[span]] $(X,F,G)$ a __weak equivalence__ between $C$ and $D$.
 
@@ -56,7 +61,7 @@ A functor with a weak inverse is necessarily essentially surjective and fully fa
 If you think of $Cat$ as the model category of categories and functors with the [[canonical model structure]], then this is the usual notion of [[weak equivalence]] in a model category.
 
 
-## Anaequivalence ##
+### Anaequivalence
 
 Categories $C$ and $D$ are __anaequivalent__ if there exist [[anafunctor]]s $F: C \to D$ and $G: D \to C$ such that $F G$ and $G F$ are each ananaturally isomorphic (isomorphic in the relevant [[anafunctor category]]) to the appropriate [[identity anafunctor]].  In this case, we say that $F$ is an __anaequivalence__ from $C$ to $D$ (so $G$ is an anaequivalence from $D$ to $C$).  The functor $G$ is called an __anainverse__ of $F$ (so $F$ is an anainverse of $G$).
 
@@ -67,7 +72,7 @@ If you think of $Cat$ as the [[bicategory]] of categories, anafunctors, and [[an
 We can also regard the $2$-category $Cat$ above as obtained from the $2$-category $Str Cat$ of categories, functors, and natural transformations using [[homotopy theory]] by "formally inverting" the weak equivalences.
 
 
-## Remarks ##
+### Remarks
 
 Note that *weak* inverses go with *strong* equivalences.  The terminology isn\'t entirely inconsistent (weak inverses contrast with *strict* ones, while weak equivalences contrast with *strong* ones) but developed at different times.  The prefix 'ana&#8209;' developed last and is perfectly consistent.
 
@@ -76,7 +81,7 @@ If you accept the axiom of choice, then you don\'t have to worry about the diffe
 It\'s also possible to use foundations (such as [[type theory]] or [[FOLDS]]) in which isomorphism and strong equivalence are impossible to state.  In such a case, one usually drops the prefixes 'weak' and 'ana&#8209;'.  In the $n$-Lab, we prefer to remain agnostic about foundations but usually drop these prefixes as well, leaving it up to the reader to insert them if necessary.
 
 
-# In higher categories #
+## In higher categories
 
 All of the above types of equivalence make sense for $n$-[[n-category|categories]] and $\infty$-categories defined using an [[algebraic definition of higher category]]; again, it is the weak notion that is usually wanted.  When using a [[geometric definition of higher category]], often isomorphism cannot even be written down, so equivalence comes more naturally.
 
@@ -91,15 +96,26 @@ For example, assuming choice, a [[strict 2-functor]] between strict $2$-categori
 
 As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricategory]] of $Gray$ by formally inverting all such weak equivalences.  Note that even with the axiom of choice, $Bicat$ is *not* equivalent (as a tricategory) to $Gray$, even though by the coherence theorem for tricategories it is equivalent to *some* Gray-category; see [here](http://arxiv.org/abs/math/0612299).
 
+
 [[!redirects equivalent category]]
 [[!redirects equivalent categories]]
+[[!redirects equivalence of categories]]
 [[!redirects equivalences of categories]]
 [[!redirects isomorphism of categories]]
+[[!redirects isomorphisms of categories]]
 [[!redirects equivalence of n-categories]]
+[[!redirects equivalences of n-categories]]
 [[!redirects equivalence of infinity-categories]]
+[[!redirects equivalences of infinity-categories]]
 [[!redirects equivalence of higher categories]]
+[[!redirects equivalences of higher categories]]
 [[!redirects isomorphism of groupoids]]
+[[!redirects isomorphisms of groupoids]]
 [[!redirects equivalence of groupoids]]
+[[!redirects equivalences of groupoids]]
 [[!redirects equivalence of 2-groupoids]]
+[[!redirects equivalences of 2-groupoids]]
 [[!redirects equivalence of n-groupoids]]
+[[!redirects equivalences of n-groupoids]]
 [[!redirects equivalence of infinity-groupoids]]
+[[!redirects equivalences of infinity-groupoids]]
