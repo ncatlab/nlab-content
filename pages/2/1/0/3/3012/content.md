@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -77,7 +88,7 @@ The morphisms $h \in Hom_A((c_1, \cdots, c_n), d)$ of $A$ are recovered as the c
 
 The notion originates in
 
-* [[Peter May]], R. Thomason, _The uniqueness of infinite loop space machines_ , Topology  17(3) 
+* [[Peter May]], R. Thomason, _The uniqueness of infinite loop space machines_ , Topology  17(3) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
 
 A discussion of the [[category theory|general abstract nonsense]] behind the notion is at
 
