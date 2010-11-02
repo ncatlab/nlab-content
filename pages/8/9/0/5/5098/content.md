@@ -14,7 +14,7 @@ This is the basic [[epistemic logic]].  It is 'basic' with not much structure re
 
 * (Taut)  All (instances of ) propositional tautologies.
 
-* (K)  For each $i = 1,\ldots, m$, the axiom: 
+*   For each $i = 1,\ldots, m$, the axiom, ($K_i$):
 
 $$(K_i\phi \wedge K_i(\phi \to \psi))\to K_i\psi.$$
 
@@ -30,7 +30,7 @@ $$\frac{\phi \quad \phi\to \psi}{\psi} \quad$$
 
 $$\frac{\phi}{K_i\phi}.$$
 
-The second deduction rule corresponds to the idea that if _a statement has been proved, then it is known to all 'agents'_.
+The second deduction rule corresponds to the idea that _if a statement has been proved, then it is known to all 'agents'_.
 
 
 ##K##
