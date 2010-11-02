@@ -75,3 +75,6 @@ where $U: Bool \to Set$ is the underlying-set functor, $j: S^* \to Law(Func_\Sig
 The **language** of $\Sigma$ is the initial interpretation. 
 
 (To be expanded upon and cleaned up...)
+
+[[!redirects signatures in logic]]
+[[!redirects signature in logic]]
