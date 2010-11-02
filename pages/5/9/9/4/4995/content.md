@@ -117,37 +117,63 @@ $$
 
 =--
 
+
 ## Properties
 
 ### Shape
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .un_remark}
+###### Remark
 
-The _shape_ of a cohesive $(\infty,1)$-topos $\Gamma : \mathbf{H} \to \mathbf{S}$ -- in the sense of [[shape of an (∞,1)-topos]] -- is equivalent to that of the base $\mathbf{H}$
+A cohesive $(\infty,1)$-topos $\mathbf{H}$ is, when itself regarded as a [[space]], a _thickened point_ . We may think of it as the standard [[point]] equipped with a _cohesive neighbourhood_ .
+
+In this sense every space $X$ _modeled on_ the cohesive structure defined by $\mathbf{H}$ is an [[etale space]] over $X$: its [[petit topos|petit]] $(\infty,1)$-topos $\mathbf{H}/X$ sits by a [[locally homeomorphic geometric morphism]] over $\mathbf{H}$
+
+$$
+  \mathbf{H}/X \stackrel{local\;homeo}{\to} \mathbf{H}
+  \,.
+$$
+
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-Since by definition $f^*$ is a [[full and faithful (∞,1)-functor]] with both a left and a right adjoint it follows by standard properties of [[adjoint (∞,1)-functor]]s that the composites
+Notice that the canonical cohesive $(\infty,1)$-topos [[∞Grpd]] may be thought of as being the ($(\infty,1)$-topos theoretical dual to) the standard [[point]], because it is the [[(∞,1)-category of (∞,1)-sheaves]] on the standard topological point:
 
 $$
-  (\mathbf{S}
-   \stackrel{\overset{f_!}{\leftarrow}}{\underset{f^*}{\to}}
-  \mathbf{H}
-   \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
-  \mathbf{S})
-  \;\;
-  \simeq
-  (Id \dashv Id)
+  \infty Grpd \simeq (\infty,1)Sh(*)
+  \,.
 $$
 
-are [[equivalence in a quasi-category|equivalent]] to the identity $(\infty,1)$-functors. 
+The abstract properties of a cohesive $(\infty,1)$-topos $\mathbf{H}$ over $\infty Grpd$ show that also $\mathbf{H}$ still _looks like a point_ :
+
+1. **shape of the point:** Since $\mathbf{H}$ is a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]] it looks like a [[contractible]] [[topological space]];
+
+   1. this implies in particular that the [[shape of an (∞,1)-topos]] of $\mathbf{H}$ is the same as that of the point.
+
+1. **small neighbourhood of a point:** Since $\mathbf{H}$ is a [[local (∞,1)-topos]] it is similar to the standard examples of [[local topos]]es, which are [[infinitesimal space|infinitesimal]] neighbourhoods of points.
+
+We may therefore usefully think of a cohesive $(\infty,1)$-topos as _being_ the general abstract _lump of cohesive points_ for the given notion of cohesion.
+
+For instance in the [examples](#Examples) we see that
+
+* $(\infty,1)Sh(CartSp)$ is like the **general abstract smooth [[open ball]]**.
+
+* let $\mathbb{L}_{inf}$ be the full subcategory of [[smooth loci]] in the [[infinitesimal space]]s. then   $(\infty,1)Sh(\mathbb{L}_{inf})$ is like the **general abstract infinitesimally thickened point**;
+
+* similarly, let $\Lambda$ be the category of $\mathbb{Z}_2$-graded [[Grassmann algebra]]s. Then $(\infty,1)Sh(\Lambda^{op})$ is like the **general abstract super-point**;
+
+* $(\infty,1)Sh(ThCartSp)$ is like the **general abstract infinitesimally thickened smooth open ball** .
+
+Notice that for plain [[topological space]]s an [[etale space]] $X \to H$ is a space $X$ that is _locally built from pieces of $H$_ . The generalization of this from [[topology]] to [[topos theory]] is an [[etale geometric morphism]] or [[locally homeomorphic geometric morphism]]: every object $X \in \mathbf{H}$ gives rise to the [[over-(∞,1)-category]] $(\infty,1)$-topos $\mathbf{H}/X$ with the evident projection geometric morphism $\mathbf{H}/X \to \mathbf{H}$.
+
+This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos equivalently as a space that is locally built from pieces of $\mathbf{H}$. With the above interpretation of $\mathbf{H}$ as the general abstract lump of cohesive points, this reproduces the intuition that $X \in \mathbf{H}$ is a space with this cohesive structure.
 
 
-=--
+
+## Structures in a cohesive $(\infty,1)$-topos
+
+A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
+
 
 ### Differential cohomology
 
@@ -419,68 +445,7 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 =--
 
 
-
-## Interpretation {#Interpretation}
-
-We discuss some interpretations and ways to think about
-
-1. a cohesive $(\infty,1)$-topos as such;
-
-1. structures inside a cohesive $(\infty,1)$-topos.
-
-### The structure of a cohesive $(\infty,1)$-topos
-
-
-We discuss here the following
-
-+-- {: .un_remark}
-###### Remark
-
-A cohesive $(\infty,1)$-topos $\mathbf{H}$ is, when itself regarded as a [[space]], a _thickened point_ . We may think of it as the standard [[point]] equipped with a _cohesive neighbourhood_ .
-
-In this sense every space $X$ _modeled on_ the cohesive structure defined by $\mathbf{H}$ is an [[etale space]] over $X$: its [[petit topos|petit]] $(\infty,1)$-topos $\mathbf{H}/X$ sits by a [[locally homeomorphic geometric morphism]] over $\mathbf{H}$
-
-$$
-  \mathbf{H}/X \stackrel{local\;homeo}{\to} \mathbf{H}
-  \,.
-$$
-
-
-=--
-
-Notice that the canonical cohesive $(\infty,1)$-topos [[∞Grpd]] may be thought of as being the ($(\infty,1)$-topos theoretical dual to) the standard [[point]], because it is the [[(∞,1)-category of (∞,1)-sheaves]] on the standard topological point:
-
-$$
-  \infty Grpd \simeq (\infty,1)Sh(*)
-  \,.
-$$
-
-The abstract properties of a cohesive $(\infty,1)$-topos $\mathbf{H}$ over $\infty Grpd$ show that also $\mathbf{H}$ still _looks like a point_ :
-
-1. **shape of the point:** Since $\mathbf{H}$ is a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]] it looks like a [[contractible]] [[topological space]];
-
-   1. this implies in particular that the [[shape of an (∞,1)-topos]] of $\mathbf{H}$ is the same as that of the point.
-
-1. **small neighbourhood of a point:** Since $\mathbf{H}$ is a [[local (∞,1)-topos]] it is similar to the standard examples of [[local topos]]es, which are [[infinitesimal space|infinitesimal]] neighbourhoods of points.
-
-We may therefore usefully think of a cohesive $(\infty,1)$-topos as _being_ the general abstract _lump of cohesive points_ for the given notion of cohesion.
-
-For instance in our [examples](#Examples) we see that
-
-* $(\infty,1)Sh(CartSp)$ is like the **general abstract smooth [[open ball]]**.
-
-* let $\mathbb{L}_{inf}$ be the full subcategory of [[smooth loci]] in the [[infinitesimal space]]s. then   $(\infty,1)Sh(\mathbb{L}_{inf})$ is like the **general abstract infinitesimally thickened point**;
-
-* similarly, let $\Lambda$ be the category of $\mathbb{Z}_2$-graded [[Grassmann algebra]]s. Then $(\infty,1)Sh(\Lambda^{op})$ is like the **general abstract super-point**;
-
-* $(\infty,1)Sh(ThCartSp)$ is like the **general abstract infinitesimally thickened smooth open ball** .
-
-Notice that for plain [[topological space]]s an [[etale space]] $X \to H$ is a space $X$ that is _locally built from pieces of $H$_ . The generalization of this from [[topology]] to [[topos theory]] is an [[etale geometric morphism]] or [[locally homeomorphic geometric morphism]]: every object $X \in \mathbf{H}$ gives rise to the [[over-(∞,1)-category]] $(\infty,1)$-topos $\mathbf{H}/X$ with the evident projection geometric morphism $\mathbf{H}/X \to \mathbf{H}$.
-
-This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos equivalently as a space that is locally built from pieces of $\mathbf{H}$. With the above interpretation of $\mathbf{H}$ as the general abstract lump of cohesive points, this reproduces the intuition that $X \in \mathbf{H}$ is a space with this chesive structure.
-
- 
-### Structures inside a cohesive $(\infty,1)$-topos {#StructuresInside}
+### General
 
 We list the geometric meaning of the various morphisms and structures in
 a cohesive [[(∞,1)-topos]] over [[∞Grpd]]. (We follow the entries [[schreiber:structures in an (∞,1)-topos]] and [[schreiber:differential cohomology in an (∞,1)-topos]] where more motivation and justification for these interpretations can be found.)
@@ -555,6 +520,10 @@ Then unit and counit of the [[adjunction]]s give canonical natural morphisms
 
 
 
+
+
+
+ 
 
 
 ## Examples {#Examples}
