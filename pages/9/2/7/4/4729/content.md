@@ -13,15 +13,6 @@
 =--
 =--
 
-* [[connection on a bundle]]
-
-* [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
-
-* [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
-
-* **connection on an ∞-bundle**
-
-***
 
 
 
@@ -271,10 +262,33 @@ $$
 * [[circle n-bundle with connection]]
 
 
+## Related concepts
+
+* [[connection on a bundle]]
+
+* [[connection on a 2-bundle]] / [[connection on a gerbe]] / [[connection on a bundle gerbe]]
+
+* [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
+
+* **connection on an ∞-bundle**
+
+
+
 ## References
 
-* SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
-{#SSSI}
+The local differential form data of $\infty$-connections was discussed in 
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]],
+  _$L_\infty$-algebra connections_ in Fauser (eds.) Recent Developments in QFT, Birkh&#228;user (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+  {#SSSI}
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String- and Fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>).
+{#SSSIII}
+
+
+The global description is discussed in 
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]] , [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
 
 
 [[!redirects ∞-connection on a principal ∞-bundle]]
