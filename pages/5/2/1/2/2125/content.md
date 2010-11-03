@@ -12,8 +12,6 @@ Both these categories carry natural [[monoidal category]] structures. It turns o
 This way it extends to a [[Quillen equivalence]] between [[model categories]] of _[[monoids]]_ in simplicial groups -- [[simplicial ring]]s -- and monoids in chain complexes -- [[dg-algebra]]s. 
 
 
-## General discussion 
-
 Notice that 
 
 * monoids in the [[category of chain complexes]] are [[differential graded ring]]s
@@ -42,6 +40,121 @@ There are two different versions of the monoidal Dold-Kan corespondence, which a
 
 The cosimplicial version is made monoidal by replacing the the Moore complex functor by something else, to obtain a [[Quillen equivalence]].
 The simplicial version is made monoidal by replacing the other functor by something else.
+
+
+## Theorems
+
+We list central theorems revolving around the monoidal Dold-Kan correspondence.
+
+Write
+
+$$
+  (N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
+  s Ab
+$$
+
+for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[connective]] chain complexes: non-negatively graded. 
+
+Let 
+
+* $(Ch_\bullet^+, \otimes)$ be the standard [[monoidal category]] structure on the [[category of chain complexes]];
+
+*  And let $(sAb, \otimes)$ be the monoidal category structure that is degreewise that of [[Ab]].
+
+For $(C, \otimes)$ a monoidal category, write $Mon(C)$ for its category of [[monoid]]s. Notice that
+
+* $Mon(Ch_\bullet^+)$ is the category of connective differential graded rings.
+
+* $Mon(sAb)$ is the category of [[simplicial ring]]s.
+
++-- {: .un_lemma}
+###### Lemma
+
+The DK correspondence exhibits connective dg-rings as a full [[subcategory]] of simplicial rings 
+
+$$
+  \Gamma
+   :
+   Mon(Ch_\bullet^+) 
+    \hookrightarrow
+   Mon(sAb)
+  \,.
+$$
+
+The composite functor
+
+$$
+  N \Gamma
+  :
+   Mon(Ch_\bullet^+) 
+    \hookrightarrow
+   Mon(Ch_\bullet^+)
+$$
+
+is equivalent to the identity.
+
+=--
+
++-- {: .un_theorem}
+###### Theorem
+
+For $A$ a commutative [[simplicial ring]] there is a [[Quillen equivalence]]
+
+$$
+  (Q \dashv N) : Alg_A \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}} Alg_{N(A)}
+$$
+
+between simplicial $A$-algebras and connective differential $N(A)$-algebras, where the right adjoint in the normalization functor, but the left adjoint is not $\Gamma$.
+
+=--
+
+This is the main theorem in ([SchwedeShipley](#SchwedeShipley)).
+
++-- {: .un_corollary}
+###### Corollary
+
+For $k$ a commutative ring, there is a Quillen equivalence
+
+$$
+  (Q \dashv N) : dgAlg_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  sAlg_k
+$$
+
+between connective [[dg-algebra]]s over $k$ and [[simplicial algebra]]s over $k$.
+
+=--
+
+Notice that this is not for commutative monoids. But
+
++-- {: .un_theorem}
+###### Theorem
+
+For $k$ a [[field]] of [[characteristic]] 0 there is a Quillen equivalence
+
+$$
+  (Q \dashv N) : dgAlg^C_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  sAlg^C_k
+$$
+
+between commutative connective [[dg-algebra]]s over $k$ and commutative [[simplicial algebra]]s over $k$.
+
+=--
+
+In arbitrary characteristic we have instead
+
++-- {: .un_theorem}
+###### Theorem
+
+For $k$ a commutative ring, there is a Quillen equivalence
+
+$$
+  dgAlg^{E_\infty}_k \stackrel{\overset{}{\leftarrow}}{\underset{}{\to}}  sAlg^{E_\infty}_k
+$$
+
+between connective $E_\infty$ -[[dg-algebra]]s over $k$ and $E_\infty$- [[simplicial algebra]]s over $k$.
+
+=--
+
+This is in ([Mandell](#Mandell))
+
 
 ## Simplicial rings and chain dg-algebras {#simplicial}
 
@@ -103,7 +216,7 @@ and similarly for $s_\nu$
 
 >(Hm, is that consistent?)
 
-For more on this see also section 2.3 of [SchwedeSchipley](http://arxiv.org/abs/math.AT/0209342)
+For more on this see also section 2.3 of ([SchwedeShipley](#SchwedeShipley))
 
 The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in
 
@@ -115,11 +228,10 @@ and with more details in
 
 =--
 
-Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a lax monoidal and a colax symmetric monoidal structure.  (See the formula on the top of page 296 of Schwede-Shipley.)
+Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a lax monoidal and a colax symmetric monoidal structure.  (See the formula on the top of page 296 of [SchwedeShipley](#SchwedeShipley).)
 
-In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s 
+In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s ([SchwedeShipley](#SchwedeShipley)).
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 
 Note that the colax structure of $N$ and the lax structure of $\Xi$ are not symmetric, i.e. they do not respect the symmetry of the monoidal structure.  They do, however, respect it up to homotopy, i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in
 
@@ -136,11 +248,7 @@ This article shows that the inverse $\Xi$ from chain complexes to simplicial abe
 
 The monoidal Dold-Kan correspondence relating cosimplicial algebras to cochain dg-algebras is considered less prominently explicitly in the literature, but does appear implicitly in much classical work. For instance the classical statement that the [[cochains on simplicial sets]] form a [[dg-algebra]] that is commutative up to coherent higher homotopy, i.e. that is an [[E-k-operad|E-infinity algebra]], is really the statement that the Moore cochain complex functor on cosimplicial algebras of functions on [[simplicial set]]s is an $\infty$-monoidal functor in a suitable sense.
 
-One article that does make a cosimplicial/cochain monoidal Dold-Kan correspondence explicit is
-
-
-* J.L. Castiglioni, G. Corti&#241;as, 
-Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, [arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289).
+One article that does make a cosimplicial/cochain monoidal Dold-Kan correspondence explicit is ([CastiglioniCortinas](#CastiglioniCortinas))
 
 This establishes not quite a [[Quillen equivalence]], but shows that the [[Dold-Kan correspondence]] induces an [[equivalence]] of [[homotopy category|homotopy categories]] for the [[model structure on cosimplicial rings]] and the [[model structure on dg-algebras|model structure on dg-rings]].
 
@@ -616,6 +724,23 @@ At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains
 
 
 ## References ##
+
+The Quillen equivalence between connective chain dg-algebras and simplicial algebras is discussed in.
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
+{#SchwedeShipley}
+
+The Quillen equivalence between connected cochain dg-algebras and cosimplicial algebras is discussed in 
+
+* J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
+{#CastiglioniCortinas}.
+
+
+
+The Quillen equivalence between $E_\infty$ dg-algebras and $E_\infty$ simplicial algebras is in
+
+* [[Michael Mandell]], _Topological Andr&eacuteM-Quillen Cohomology and E-infinity Andr&#233;-Quillen Cohomology_ Adv. in Math., Adv. Math. 177 (2) (2003) 227&#8211;279
+{#Mandell}
 
 On top of the references already listed, here are some more.
 
