@@ -32,3 +32,5 @@ One way to state a coherence theorem is to say that every pseudoalgebra for a gi
 [[!redirects algebra for a 2-monad]]
 [[!redirects algebras for a 2-monad]]
 [[!redirects algebras for 2-monads]]
+[[!redirects pseudoalgebra]]
+[[!redirects pseudoalgebras]]
