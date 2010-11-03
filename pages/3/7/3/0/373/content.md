@@ -252,6 +252,10 @@ Some 2-category theory, including [[2-limit]]s/2-colimit is discussed in
 
 * [[Steve Lack]], _A 2-categories companion_ ([arXiv:0702535](http://arxiv.org/abs/math/0702535))
 
+and
+
+* [[John Power]], _2-Categories_ ([pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf))
+
 An older reference which introduces some of the basic notions is
 
 * [[Max Kelly]] and [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, LNM 420
