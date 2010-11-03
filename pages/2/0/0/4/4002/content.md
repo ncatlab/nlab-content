@@ -109,7 +109,7 @@ In particular:
 
 * (Connected, Etale) is a [[factorization system in a 2-category|factorization system]] on the 2-category $LCTopos$ of toposes and locally connected geometric morphisms.
 
-* The category of etale geometric morphisms over a base topos $S$, which is equivalent to $S$ itself, is a [[reflective subcategory]] of the slice 2-category $LCTopos/S$.  The [[reflector]] constructs "$\Pi_0$ of a locally connected topos."
+* The category of etale geometric morphisms over a base topos $S$, which is equivalent to $S$ itself, is a [[reflective subcategory]] of the [[slice 2-category]] $LCTopos/S$.  The [[reflector]] constructs "$\Pi_0$ of a locally connected topos."
 
 These results all have generalizations to [[∞-connected (∞,1)-toposes]].
 
