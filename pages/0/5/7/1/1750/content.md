@@ -4,23 +4,23 @@
 
 ## Idea
 
-Recall the notion of a [[Grothendieck fibration]]: it is given by a [[functor]] $p \colon E \to B$ whose fibres $E_b$ are functorial in $b \in B$.
+Recall the notion of a [[Grothendieck fibration]]: a [[functor]] $p \colon E \to B$ whose fibres $E_b$ are (contravariantly) functorial in $b \in B$.
 
-This idea may be generalized to work in any suitable [[2-category]], in any of several equivalent ways, the most straightforward being the 'representable' definition given at [[Grothendieck fibration]].  The definitions are justified by the fact that:
+This idea may be generalized to work in any suitable [[2-category]], although if the 2-category is not [[strict 2-category|strict]], then one has to generalize instead the non-strict notion of [[Street fibration]].  The generalized definition can be given in any of several equivalent ways, in such a way that
 
 +-- {: .standout #ElemFibSpecializesToCat }
 
-When $K$ is [[Cat]], fibrations in this sense are precisely [[Grothendieck fibration|Grothendieck fibrations]].
+When $K$ is [[Cat]], strict fibrations in this sense are precisely [[Grothendieck fibration|Grothendieck fibrations]], while non-strict ones are precisely [[Street fibrations]].
 
 =--
 
 ## Definition
 
-Fix a [[2-limit|finitely complete]] 2-category $K$.  Recall that for any two morphisms $f: A \to C$ and $g: B \to C$, $f/g$ denotes their [[comma object]].  Let $f/_=g$ be their [[pullback]].
+Fix a [[2-limit|finitely complete]] (non-strict) 2-category $K$.  Recall that for any two morphisms $f: A \to C$ and $g: B \to C$, $f/g$ denotes their [[comma object]].  Let $f/_{\cong} g$ be their [[2-pullback]].
 
-A morphism $p \colon E \to B$ in $K$ is a **fibration** when any of the following holds:
+A morphism $p \colon E \to B$ in $K$ is a (non-strict) **fibration** when the following equivalent conditions hold:
 
-* $p_* = K(X,p) \colon K(X,E) \to K(X,B)$ is a fibration in $Cat$ for each $X \in K$, and for all $f \colon Y \to X$ in $K$
+* $p_* = K(X,p) \colon K(X,E) \to K(X,B)$ is a Street fibration in $Cat$ for each $X \in K$, and for all $f \colon Y \to X$ in $K$
 $$
 \array{
   K(X,E) & \overset{f^*}{\to} & K(Y,E) \\
@@ -28,14 +28,17 @@ $$
   K(X,B) & \overset{f^*}{\to} & K(Y,B)  
 }
 $$
-is a morphism of fibrations.
+is a [[morphism of fibrations]].
 
-* For every morphism $f: X \to B$, the canonical map $i: f/_=p \to f/p$ has a [[right adjoint]] in the [[slice category]] $K / X$.
+* For every morphism $f: X \to B$, the canonical map $i: f/_{\cong} p \to f/p$ has a [[right adjoint]] in the [[slice 2-category]] $K / X$.
 
 * The canonical map $i \colon p \to B/p$ has a right adjoint in $K / B$.
 
 * $p \colon E \to B$ is an algebra for the [[2-monad]] $L$ on $K/B$ given by $L p = A/p$.
 
+If $K$ is a [[strict 2-category]] with finite strict 2-limits, then we say that $p \colon E \to B$ is a **strict fibration** when the corresponding conditions hold where "Street fibration" is replaced by "Grothendieck fibration", slice 2-categories are replaced by strict-slice 2-categories, comma objects are replaced by strict comma objects, and 2-pullbacks are replaced by strict 2-pullbacks.  In this case the 2-monad $L$ is in fact a strict 2-monad, but we do *not* require $p$ to be a *strict* algebra, only a [[pseudoalgebra]]; strict algebras for $L$ would instead be [[split fibrations]].
+
+Note also that the *first* definition makes perfect sense regardless of whether $K$ has any limits, although this is not true of the others.
 
 ## Details
 
