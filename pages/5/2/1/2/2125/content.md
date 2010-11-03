@@ -63,10 +63,10 @@ The simplicial version is made monoidal by replacing the other functor by someth
 
 
 
-## Simplicial rings and chain dg-algebras {#simplicial}
+## Simplicial algebras and chain dg-algebras {#simplicial}
 
 
-### Bilax monoidal Frobenius structure on normalized chains 
+### Bilax monoidal Frobenius structure on normalized chains {#BilaxFrobStruc}
 
 The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
 
@@ -197,11 +197,13 @@ We list [[Quillen equivalence]]s revolving around the monoidal Dold-Kan correspo
 Write
 
 $$
-  (N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
+  (\Gamma \dashv N) / (N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
   s Ab
 $$
 
 for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[connective]] chain complexes: non-negatively graded. 
+
+Since $N$ and $\Gamma$ are strictly inverse to each other, this may be regarded as a pair of [[adjoint functor]]s in two ways. Moreover, with respect to the standard [[model category]] structures (the projective [[model structure on chain complexes]] (fibrations the degreewise surjections in positive degree) and the projective [[model structure on T-algebras|model structure on simplicial abelian groups]] (fibrations the underlying [[Kan fibration]])s ) both adjunctions are [[Quillen equivalence]]s.
 
 Let 
 
@@ -243,6 +245,73 @@ is equivalent to the identity.
 
 =--
 
+#### Simplicial $k$-algebras and connective dg-algebras {#QuillenEquSimpkAlgs}
+
++-- {: .un_prop}
+###### Proposition
+
+For $k$ a commutative ring, there is a [[Quillen equivalence]]
+
+$$
+  (Q \dashv N) : dgAlg_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  Alg_k^{\Delta^{op}}
+$$
+
+between 
+
+* the [[model structure on dg-algebras]] for connective [[dg-algebra]]s over $k$: weak equivalences are the [[quasi-isomorphism]]s, fibrations the degreewise surjections in positive degree
+
+* and the [[model structure on simplicial algebras]] over $k$: weak equivalences and fibrations are those of the underlying simplicial sets in the standard [[model structure on simplicial sets]].
+
+=--
+
+
+Below in [Simplicial algebras and dg-Algebras](#AlgebrasOverdgAlgebra) a generalization of this statement is discussed. But it is worthwhile to spell out the proof just of this special case here. This appears in section 4.2 of ([SchwedeShipley](#SchwedeShipley)).
+
++-- {: .proof}
+###### Proof
+
+
+Regard the ordinary [[Dold-Kan correspondence]]
+
+$$
+  (\Gamma \dashv N) 
+  : 
+  Mod_k^{\Delta^{op}}
+  \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}}
+  Ch_\bullet(k)^+
+$$
+
+as a [[Quillen equivalence]] between the [[model structure on simplicial T-algebras|model structure on simplicial k-modules]] and the projective [[model structure on chain complexes]] (fibrations the degreewise surjections in positive degree) with $N$ regarded as the _[[right adjoint]]_ . Notice that both $N$ and $\Gamma$ preserve _all_ weak equivalences and that the unit and counit of the adjunction are [[isomorphism]]s.
+
+Both model categories involved are [[monoidal model categories]]. We claim that the above Quillen adjunction is a [[monoidal Quillen adjunction]] with respect to this structure.
+
+First of all $N$ is a [[lax monoidal functor]] with the [[lax monoidal transformation]] $\Nabla_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)$ given by the [[Eilenberg-Zilber map]]. As described at [[oplax monoidal functor]] this induces an oplax monoidal structure on $\Gamma$ given by the composite
+
+$$
+  \Delta_{X,Y}
+  :
+  \Gamma(X \otimes Y) \stackrel{\Gamma(i_X \otimes i_Y)}{\to}
+  \Gamma(N \Gamma X \otimes N \Gamma Y)
+  \stackrel{\Gamma(\nabla_{\Gamma X, \Gamma Y})}{\to}
+  \Gamma N(\Gamma X \otimes \Gamma Y)
+  \stackrel{\epsilon_{\Gamma X \otimes \Gamma Y}}{\to}
+  \Gamma X \otimes \Gamma Y
+  \,.
+$$
+ 
+Now the [[Eilenberg-Zilber map]] $\nabla$ is (as discussed there) a chain [[homotopy equivalence]] and $i_\cdot$ and $\epsilon_\cdot$ are even isomorphisms. Since $\Gamma$ preserves all weak equivalences, it follows that $\Delta_{X,Y}$ is a weak equivalence.
+
+This shows that $(\Gamma \dashv N)$ is a [[monoidal Quillen equivalence]]. Moreover, by standard facts the [[transferred model structure]]s on $Mon(Ch_\bullet(g)^+) = dgAlg_k^+$ and $Mon(Mod_k^{\Delta^{op}}) Alg_k^{\Delta^{op}}$ exist as indicated.
+
+Therefore with the <a href="http://ncatlab.org/nlab/show/monoidal+Quillen+adjunction#LiftToMonoids">theorem on lifts to monoids</a> described at [[monoidal Quillen adjunction]] the claim follows.
+
+=--
+
+
+
+
+#### Simplicial $A_\bullet$-algebras and connective dg-algebras {#AlgebrasOverdgAlgebra}
+
 +-- {: .un_theorem}
 ###### Theorem
 
@@ -258,34 +327,9 @@ between simplicial $A$-algebras and connective differential $N(A)$-algebras, whe
 
 This is the main theorem in ([SchwedeShipley](#SchwedeShipley)).
 
-+-- {: .un_corollary}
-###### Corollary
+#### Commutative and $E_\infty$-algebras
 
-For $k$ a commutative ring, there is a Quillen equivalence
-
-$$
-  (Q \dashv N) : dgAlg_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  sAlg_k
-$$
-
-between 
-
-* the [[model structure on dg-algebras]] for connective [[dg-algebra]]s over $k$: weak equivalences are the [[quasi-isomorphism]]s, fibrations the degreewise surjections in positive degree
-
-* and the [[model structure on simplicial algebras]] over $k$: weak equivalences and fibrations are those of the underlying simplicial sets in the standard [[model structure on simplicial sets]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is a direct corollary of the above theorem.
-
-Alternatively, with the above monoidal properties of $N$, it follows directly with the <a href="http://ncatlab.org/nlab/show/monoidal+Quillen+adjunction#LiftToMonoids">theorem on lifts to monoids</a> described at [[monoidal Quillen adjunction]].
-
-=--
-
-
-Notice that this is not for commutative monoids. But
+Notice that the above statement  is _not_ formulated for commutative monoids. But
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -338,7 +382,7 @@ This is the main theorem in [CastiglioniCortinas](#CastiglioniCortinas).
 
 
 
-## Cosimplicial rings and cochain dg-algebras {#cosimplicial}
+## Cosimplicial algebras and cochain dg-algebras {#cosimplicial}
 
 The monoidal Dold-Kan correspondence relating cosimplicial algebras to cochain dg-algebras is considered less prominently explicitly in the literature, but does appear implicitly in much classical work. For instance the classical statement that the [[cochains on simplicial sets]] form a [[dg-algebra]] that is commutative up to coherent higher homotopy, i.e. that is an [[E-k-operad|E-infinity algebra]], is really the statement that the Moore cochain complex functor on cosimplicial algebras of functions on [[simplicial set]]s is an $\infty$-monoidal functor in a suitable sense.
 
