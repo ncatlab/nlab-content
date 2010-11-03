@@ -1,12 +1,23 @@
 
-<div class="rightHandSide toc" markdown="1">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
-
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
 
 This entry is about a theorem by [[Dominic Verity]] that characterizes the [[descent]] condition for [[(∞,1)-sheaves]]/[[∞-stack]]s that take values not in arbitrary [[∞-groupoid]]s, but in [[strict ∞-groupoid]]s.
 
 #Contents#
+* table of contents
+{:toc}
 
 ## Verity's theorem
 
@@ -20,7 +31,7 @@ Here is an abstract that served as an abstract for a talk on this at the _Austra
 
 >In the literature one can find a number of different [[limit]] notions which one might refer to as a "[[descent]] construction". Generally speaking, these may all be regarded as a kind of [[weak limit|lax, pseudo]] or [[homotopy limit]] of a [[simplicial object|co-simplicial diagram]] of objects in some theory of "spatially-enriched" categories. While each of these notions certainly deserves to bear the [[descent]] name, it is not necessarily immediately clear how they may be related in any more specific mathematical sense.
 
->Recently I was asked by [[Urs Schreiber]] if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between [[Ross Street]]'s [descent construction](http://arxiv.org/abs/math.CT/0303175) for [[strict omega-category|strict omega-categories]] (or more precisely [[strict omega-groupoid]]s in this case) and the [[descent for simplicial presheaves|simplicial descent construction]] used to characterise the fibrant objects in [[model structure on simplicial presheaves|model categories of simplicial sheaves]].
+>Recently I was asked by [[Urs Schreiber]] if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between [[Ross Street]]'s [descent construction](http://arxiv.org/abs/math.CT/0303175) for [[strict omega-category|strict ∞-categories]] (or more precisely [[strict ∞-groupoid]]s in this case) and the [[descent for simplicial presheaves|simplicial descent construction]] used to characterise the fibrant objects in [[model structure on simplicial presheaves|model categories of simplicial sheaves]].
 
 
 ## Idea
@@ -35,7 +46,7 @@ By a theorem by Dugger-Isaksen-Hollander on the projective [[local model structu
 
 * and satisfy [[descent]].
 
-While general [[∞-groupoid]]s are useful due to their generality and conceptual simplicity, for many concrete computations it is useful to get a more concrete [[algebraic definition of higher category|algebraic model]] and consider just [[strict omega-groupoid]]s. Under the [[oriental]]-[[nerve]] 
+While general [[∞-groupoid]]s are useful due to their generality and conceptual simplicity, for many concrete computations it is useful to get a more concrete [[algebraic definition of higher category|algebraic model]] and consider just [[strict ∞-groupoid]]s. Under the [[oriental]]-[[nerve]] 
 
 $$
   Str \omega Grpd \stackrel{N}{\hookrightarrow} \infty Grpd
