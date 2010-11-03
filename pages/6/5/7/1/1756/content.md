@@ -131,7 +131,13 @@ This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
 
 See [[simplicial Quillen adjunction]] for more details.
 
+## Related concepts
 
+* **Quillen adjunction**
+
+* [[Quillen equivalence]]
+
+* [[monoidal Quillen adjunction]]
 
 
 [[!redirects Quillen adjunctions]]
