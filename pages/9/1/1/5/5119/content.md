@@ -51,10 +51,28 @@ One of the myriad notations used for the generic modal operators $\diamond$ and 
 +--
 {: .un_defn}
 ######Definition######
-A **Bollean algebra with operators,** or BAO, of type $n$ consiists of a Boolean algebra $\mathbb{B}$, and a set, $m_i$, $i = 1,\ldots, n$ of operators on $B$.
+A **Boolean algebra with operators,** or BAO, of type $n$ consists of a Boolean algebra $\mathbb{B}$, and a set, $m_i$, $i = 1,\ldots, n$ of operators on $B$.
 =--
++--
+{: .num_example}
+######Example 1. BAOs from frames.######
 
+  
+Let $\mathfrak{F} = (W ,R)$ be a frame. We define on the power set Boolean algebra, $\mathbb{P}(W)$, the operator $m$ by, if $T\subseteq $, 
+    
+$$m(T) = \{w \in W : \exists t\in T, R w t \}$$
+  
+It perhaps pays to interpret this in the case where $R$ is a partial order and when it is an equivalence relation. In the first case, this ill be the set of states less than or equal to something in $T$, in the second it is the union of all equivalence classes that contain an element of $T$. 
 
+######Lemma######  
+The function $m$ is a normal operator.  
+
+The proof is a simple manipulation of the definitions.
+
+The dual; operator $l$ is given by $l(T) = \{w\in W\mid \forall t\in T\negR w t\}$. (Again look at this for the poset and equivalence frame cases.)
+
+It is easy to extend this example to $\mathfrak{F} = (W ,R-1,\ldots, R_n)$ with the result being a BAO of type $n$.
+ =-- 
 
 
 
