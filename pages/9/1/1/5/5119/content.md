@@ -78,7 +78,7 @@ It is easy to extend this example to $\mathfrak{F} = (W ,R-1,\ldots, R_n)$ with 
 {: .num_example}
 ######Example 2. The Lindenbaum-Tarski algebra of a modal logic.######
 
-Suppose $\Lambda \subseteq \mathcal{L}_\omega(n)$ is a [[normal modal logic]], then its [[Lindenbaum_Tarski algebra]] has a natural BAO structure, for which see the above page.
+Suppose $\Lambda \subseteq \mathcal{L}_\omega(n)$ is a [[normal modal logic]], then its [[Lindenbaum-Tarski algebra]] has a natural BAO structure, for which see the above page.
 
 =--
 
