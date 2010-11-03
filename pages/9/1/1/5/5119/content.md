@@ -43,7 +43,7 @@ As $m$ is additive, $l$ is __multiplicative__
 
 $$l(x\cdot y) = l(x)\cdot l(y),$$
 
-and has $l(1) = 1$ is $m$ is normal.
+and has $l(1) = 1$ if $m$ is normal.
 
 #### Remark####
 One of the myriad notations used for the generic modal operators $\diamond$ and $\box$, are $M$ and $L$, whence $M$ is 'possibility, and $L$ is 'necessity", and these gave the names to the operators above.
@@ -53,6 +53,7 @@ One of the myriad notations used for the generic modal operators $\diamond$ and 
 ######Definition######
 A **Boolean algebra with operators,** or BAO, of type $n$ consists of a Boolean algebra $\mathbb{B}$, and a set, $m_i$, $i = 1,\ldots, n$ of operators on $B$.
 =--
+##Natural examples##
 +--
 {: .num_example}
 ######Example 1. BAOs from frames.######
@@ -69,17 +70,23 @@ The function $m$ is a normal operator.
 
 The proof is a simple manipulation of the definitions.
 
-The dual; operator $l$ is given by $l(T) = \{w\in W\mid \forall t\in T\negR w t\}$. (Again look at this for the poset and equivalence frame cases.)
+The dual operator $l$ is given by $l(T) = \{w\in W\mid \forall t\in T\negR w t\}$. (Again look at this for the poset and equivalence frame cases.)
 
 It is easy to extend this example to $\mathfrak{F} = (W ,R-1,\ldots, R_n)$ with the result being a BAO of type $n$.
  =-- 
++--
+{: .num_example}
+######Example 2. The Lindenbaum-Tarski algebra of a modal logic.######
+
+Suppose $\Lambda \subseteq \mathcal{L}_\omega(n)$ is a [[normal modal logic]], then its [[Lindenbaum_Tarski algebra]] has a natural BAO structure, for which see the above page.
+
+=--
+
+
 
 
 
 ## References## 
-
-
-
 
 General books on modal logics that include information on algebraic models include:
 
@@ -89,6 +96,6 @@ General books on modal logics that include information on algebraic models inclu
 
 There is an excellent short survey article (versions of which are available on the web):
 
-*  R. Goldblatt, _Algebraic Polymodal Logic: A Survey_, the Logic Journal of the 
+*  [[Robert Goldblatt]], _Algebraic Polymodal Logic: A Survey_, the Logic Journal of the 
 IGPL, 8, (2000) pages 393&#8211;450, Special Issue on Algebraic Logic, edited by Istvan Nemeti and 
 Ildiko Sain. 
