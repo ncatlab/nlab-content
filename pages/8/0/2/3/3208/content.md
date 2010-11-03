@@ -53,7 +53,7 @@ Here is a list of examples of theories that have their own $n$Lab entries:
 
   * [[commutative algebraic theory]]
 
-  * finitary algbraic theory: [[Lawvere theory]]
+  * finitary algebraic theory: [[Lawvere theory]]
 
     * [[Fermat theory]]
 
@@ -90,3 +90,6 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 * n-category cafe 2010: [what is a theory](http://golem.ph.utexas.edu/category/2010/07/what_is_a_theory.html)
 * [[Mamuka Jibladze]], [[Teimuraz Pirashvili]], _Cohomology of algebraic theories_, J. Algebra  __137__ (1991),  no. 2, 253--296, <a href="http://dx.doi.org/10.1016/0021-8693(91)90093-N">doi</a>
+* wikipedia: [list of first-order theories](http://en.wikipedia.org/wiki/List_of_first-order_theories), [Morley's categoricity theorem](http://en.wikipedia.org/wiki/Morley%27s_categoricity_theorem), [Decidability (logic)](http://en.wikipedia.org/wiki/Decidability_%28logic%29), [signature (logic)](http://en.wikipedia.org/wiki/Signature_%28logic%29)
+
+[[!redirects theories]]
