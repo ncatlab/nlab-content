@@ -27,10 +27,22 @@ An oplax monoidal functor sends [[comonoids]] in $C$ to comonoids in $D$, just a
 
 Note that a *strong* opmonoidal functor --in which the morphisms $\phi$ are required to be [[isomorphisms]]--- is the same thing as a [[strong monoidal functor]].
 
-By [[doctrinal adjunction]] for the case of the [[2-monad]] whose algebras are monoidal categories, a functor with a right adjoint is oplax monoidal if and only if that right adjoint is lax monoidal.  The following proposition gives an explicit construction.
 
 +-- {: .un_prop}
 ###### Proposition
+
+A functor with a [[right adjoint]] is oplax monoidal if and only if that right adjoint is a [[lax monoidal functor]].  
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is a special case of the statement of [[doctrinal adjunction]] for the case of the [[2-monad]] whose algebras are monoidal categories, 
+
+=---
+
+Here is the explicit construction of the oplax monoidal structure from a lax monoidal structure on a right adjoint:
 
 Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a pair of [[adjoint functor]]s and let $(C,\otimes)$ and $(D,\otimes)$ be structures of [[monoidal categories]]. 
 
@@ -56,8 +68,6 @@ $$
   R(L x \otimes L y)
   \,.
 $$
-
-=--
 
 Notice that this adjunct is the composite
 
