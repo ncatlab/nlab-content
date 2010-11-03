@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -195,6 +201,31 @@ Suppose the right-hand inner square is a pullback: then the left-hand one is a p
 +-- {: .proof}
 _Proof_.  Pasting a morphism $x \to a$ with the outer square gives rise to a commuting square over the (composite) bottom and right edges of the diagram.  The square over the cospan in the left-hand inner square arising from $x \to a$ includes a morphism into $b$, which if $b$ is a pullback induces the same commuting square over $d \to e \to f$ and $c \to d$.  So one square is universal iff the other is.
 =--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The converse implication does not hold: it may happen that the outer and the left square are pullbacks, but not the right square. 
+
+=--
+
+For instance let $i : a \to b$ be a [[split monomorphism]] with [[retract]] $p : b \to a$ and consider
+
+$$
+  \array{
+     a & \stackrel{=}{\to} & a & \stackrel{=}{\to} & a
+     \\ 
+     \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{i}} && \downarrow^{\mathrlap{=}}
+     \\
+     a &\stackrel{i}{\to}& b &\stackrel{p}{\to}& a
+  }
+$$
+
+Then the left square and  the outer rectangle are pullbacks but the right square cannot be a pullback unless $i$ was already an [[isomorphism]].
+
+
+
 
 
 ## See also:
