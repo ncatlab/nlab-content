@@ -53,6 +53,8 @@ is
 
 This is called a **strong monoidal Quillen adjunction** if $L$ is a [[strong monoidal functor]]. 
 
+If a monoidal Quillen adjunction is also a [[Quillen equivalence]] it is called a **monoidal Quillen equivalence**.
+
 ## Properties
 
 ### Recognition of monoidal Quillen adjunctions {#Recognition}
@@ -146,3 +148,9 @@ The lax monoidal version is considered as definition 3.6 of
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 {#SchwedeShipley}
+
+
+[[!redirects monoidal Quillen adjunctions]]
+
+[[!redirects monoidal Quillen equivalence]]
+[[!redirects monoidal Quillen equivalences]]
