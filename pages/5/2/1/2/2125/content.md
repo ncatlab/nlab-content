@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 =--
 =--
 
@@ -58,7 +62,135 @@ The cosimplicial version is made monoidal by replacing the the Moore complex fun
 The simplicial version is made monoidal by replacing the other functor by something else.
 
 
-## Quillen equivalences
+
+## Simplicial rings and chain dg-algebras {#simplicial}
+
+
+### Bilax monoidal Frobenius structure on normalized chains 
+
+The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
+
++-- {: .un_lemma }
+###### Lemma
+
+The [[Moore complex]] functor
+
+$$
+  C_\bullet : sAb \to Ch_\bullet^+
+$$
+
+as well as the normalized chains/normalize Moore complex functor
+
+$$
+  N_\bullet : sAb \to Ch_\bullet^+
+$$
+
+are both
+
+* [[symmetric monoidal functor|symmetric]] [[lax monoidal functors]] 
+
+* [[oplax monoidal functors]] 
+
+  (but *not* oplax *symmetric* monoidal)
+
+* [[bilax monoidal functors]]
+
+* [[Frobenius monoidal functors]].  
+
+The lax structure is given by the [[Alexander-Whitney map]]
+
+$$
+  \phi_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)
+  \,.
+$$
+
+The oplax structure is given by the [[Eilenberg-Zilber map]]
+
+$$
+  \psi_{A,B} : N(A \otimes B ) \to N(A) \otimes N(B)
+  \,.
+$$
+
+
+=--
+
+An extensive discussion of this is in chapter 5 of ([AguiarMahajan](#AguiarMahajan)).
+
+The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in section 5.4.2.
+
+
++-- {: .proof}
+###### Proof
+
+The proof of symmetric lax monoidalness can be found for instance in section 8.5.4 of ([Weibel](#Weibel)) 
+
+
+The lax monoidal transformation that exhibits the lax-monoidalness of the Moore chain complex functor is the [[shuffle map]]. Its component 
+
+$$
+  \nabla_{A,B} : (N_\bullet A) \otimes (N_\bullet B))
+  \to N_\bullet (A \otimes B)
+$$
+
+on a pair $A,B$ of simplicial abelian groups is the morphism of [[chain complex]]es that sends homogeneous elements $a_p\otimes b_q \in A_p \otimes B_q =: C_p(A) \otimes C_q(B)$ to
+
+$$
+  \nabla_{A,B}(a \otimes B)
+  =
+  \sum_{(\mu,\nu)}  sign(\mu,\nu) (s_\nu a) \otimes s_\mu(b) 
+  \in
+  C_{p+q}(A \otimes B) = A_{p+q}\otimes B_{p+q}  
+  \,.
+$$
+
+Here the sum is over all $(p,q)$-shuffles, i.e. permutation $\{\mu_1, \dots, \mu_p, \nu_1, \cdots, \nu_q\}$ of the set $\{0,1,\cdots,p+q-1\}$ that leave the first $p$ and the last $q$ elements in their natural order.
+
+The sign in the above sum is the corresponding sign of this permutation and the degeneracy maps $s_\mu$ and $s_\nu$ denote the maps
+
+$$
+  s_\mu := s_{\mu_p} \cdots \circ s_{\mu_1}
+$$
+
+and similarly for $s_\nu$
+
+>(Hm, is that consistent?)
+
+
+
+=--
+
+For more on this see also section 2.3 of ([SchwedeShipley](#SchwedeShipley))
+
++-- {: .un_corollary }
+###### Corollary
+
+Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Gamma : Ch_+ \to sAb$ also acquires a lax monoidal and a oplax symmetric monoidal structure.  
+
+=--
+
+For more details see [[oplax monoidal structure]].
+
++-- {: .un_remark }
+###### Remark
+
+
+Note that 
+
+* the oplax structure of $N$ 
+
+* and the lax structure of $\Gamma$ 
+
+are not symmetric, i.e. they do not respect the symmetry of the monoidal structure.  They do, however, respect it up to homotopy, i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in ([Richter](#Richter)).
+
+=--
+
+This implies that generalized [[Eilenberg?Mac Lane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
+
+
+The article ([Richter](#Richter)) shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
+
+
+### Quillen equivalences
 
 We list central [[Quillen equivalence]]s revolving around the monoidal Dold-Kan correspondence. More details on their construction is below.
 
@@ -190,108 +322,6 @@ This is the main theorem in [CastiglioniCortinas](#CastiglioniCortinas).
 
 
 
-## Simplicial rings and chain dg-algebras {#simplicial}
-
-
-The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
-
-+-- {: .un_lemma }
-###### Lemma
-
-The [[Moore complex]] functor
-
-$$
-  C_\bullet : sAb \to Ch_\bullet^+
-$$
-
-as well as the normalized chain/normalize Moore complex functor
-
-$$
-  N_\bullet : sAb \to Ch_\bullet^+
-$$
-
-are both [[monoidal functor|lax symmetric monoidal]] as well as [[lax comonoidal functor|colax monoidal]] (but *not* colax *symmetric* monoidal).  
-
-The lax structure is given by the [[Alexander-Whitney map]]
-
-$$
-  \phi_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)
-  \,.
-$$
-
-The oplax structure is given by the [[Eilenberg-Zilber map]]
-
-$$
-  \psi_{A,B} : N(A \otimes B ) \to N(A) \otimes N(B)
-  \,.
-$$
-
-
-Moreover, the lax and colax structures are compatible: they are actually [[Frobenius monoidal functors]].
-
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The proof of symmetric lax monoidalness can be found for instance in 
-
-* Weibel, _An introduction to homological algebra_, section 8.5.4
-
-The lax monoidal transformation that exhibits the lax-monoidalness of the Moore chain complex functor is the [[shuffle map]]. Its component 
-
-$$
-  \nabla_{A,B} : (N_\bullet A) \otimes (N_\bullet B))
-  \to N_\bullet (A \otimes B)
-$$
-
-on a pair $A,B$ of simplicial abelian groups is the morphism of [[chain complex]]es that sends homogeneous elements $a_p\otimes b_q \in A_p \otimes B_q =: C_p(A) \otimes C_q(B)$ to
-
-$$
-  \nabla_{A,B}(a \otimes B)
-  =
-  \sum_{(\mu,\nu)}  sign(\mu,\nu) (s_\nu a) \otimes s_\mu(b) 
-  \in
-  C_{p+q}(A \otimes B) = A_{p+q}\otimes B_{p+q}  
-  \,.
-$$
-
-Here the sum is over all $(p,q)$-shuffles, i.e. permutation $\{\mu_1, \dots, \mu_p, \nu_1, \cdots, \nu_q\}$ of the set $\{0,1,\cdots,p+q-1\}$ that leave the first $p$ and the last $q$ elements in their natural order.
-
-The sign in the above sum is the corresponding sign of this permutation and the degeneracy maps $s_\mu$ and $s_\nu$ denote the maps
-
-$$
-  s_\mu := s_{\mu_p} \cdots \circ s_{\mu_1}
-$$
-
-and similarly for $s_\nu$
-
->(Hm, is that consistent?)
-
-
-The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in section 5.4.2 of ([AguiarMahajan](#AguiarMahajan)).
-
-=--
-
-For more on this see also section 2.3 of ([SchwedeShipley](#SchwedeShipley))
-
-+-- {: .un_corollary }
-###### Corollary
-
-Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a lax monoidal and a colax symmetric monoidal structure.  (See the formula on the top of page 296 of [SchwedeShipley](#SchwedeShipley).)
-
-=--
-
-Note that the colax structure of $N$ and the lax structure of $\Xi$ are not symmetric, i.e. they do not respect the symmetry of the monoidal structure.  They do, however, respect it up to homotopy, i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in ([Richter](#Richter))
-
-
-
-This implies that generalized [[Eilenberg?Mac Lane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
-
-
-The article ([Richter](#Richter)) shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
 ## Cosimplicial rings and cochain dg-algebras {#cosimplicial}
@@ -775,13 +805,19 @@ At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains
 
 ## References ##
 
-The comonoidalness and Frobenius monoidalness of the normalized chains/Moore complex functor is discussed in section 5.4.2 of
+A classical reference is
+
+* [[Charles Weibel]], _An introduction to homological algebra_, 
+
+This discusses the symmetric monoidalness of the chains functor in section 8.5.4.
+
+The bilax monoidalness and Frobenius monoidalness of the normalized chains/Moore complex functor is discussed in section 5.4.2 of
 
 * [[Marcelo Aguiar]], [[Swapneel Mahajan]], 
 
   _Coxeter Groups and Hopf Algebras_ Fields Institute Monographs, vol. 23 ([pdf](http://www.math.tamu.edu/~maguiar/monograph.pdf))
 
-   _Monoidal functors, species and Hopf algebras_, ([pdf, over 6 Mb](http://www.math.tamu.edu/~maguiar/a.pdf)) version June 18, 2009, 672 pages.
+   _[[Monoidal Functors, Species and Hopf Algebras]]_, 
 {#AguiarMahajan}
 
 
