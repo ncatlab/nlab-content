@@ -1,14 +1,61 @@
-_Doctrinal Adjunction_ is the title of a 1974 paper by [[Max Kelly]] that gives conditions under which [[adjunction|adjoint morphisms]] $f \dashv u$ in a [[2-category]] $K$, and additionally the unit and counit, may be lifted to $T$-$Alg_l$, for some [[2-monad]] $T$ on $K$.  Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, lax $T$-morphisms and $T$-transformations, but the result works as well for pseudo algebras.
 
-There is a bijection between 2-cells $\bar u$ making $(u,\bar u)$ a lax $T$-morphism and 2-cells $\tilde f$ making $(f,\tilde f)$ a colax $T$-morphism; it is given by taking [[mates]] with respect to the adjunctions $T f \dashv T u$ and $f \dashv u$.
 
-The proof relies solely on the properties of the mate correspondence.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
-Further, for the unit and counit of the adjunction $f \dashv u$ to be $T$-transformations, and hence for the adjunction to live in $T$-$Alg_l$, it is necessary and sufficient that $\tilde f$ have an inverse $\bar f$ that makes $(f,\bar f)$ into a lax $T$-morphism, and hence $(f,\bar f)$ into a strong $T$-morphism.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Doctrinal Adjunction_ is the title of a 1974 paper ([Kelly](#Kelly)) that gives conditions under which [[adjunction|adjoint morphisms]] $f \dashv u$ in a [[2-category]] $K$, and additionally the unit and counit, may be lifted to $T$-$Alg_l$, for some [[2-monad]] $T$ on $K$.  
+
+Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, lax $T$-morphisms and $T$-transformations, but the result works as well for pseudo algebras.
+
+## Statement
+
++-- {: .un_theorem}
+###### Theorem
+
+Let $f \dashv u$ be an [[adjunction]] in some [[2-category]] $K$ and let $T$ be a [[2-monad]] on $K$.
+
+There is a [[bijection]] between [[2-morphism]]s $\bar u$ making $(u,\bar u)$ a lax $T$-morphism and 2-morphisms $\tilde f$ making $(f,\tilde f)$ a colax $T$-morphism; it is given by taking [[mates]] with respect to the adjunctions $T f \dashv T u$ and $f \dashv u$.
+
+=--
+
+The proof ([Kelly](#Kelly))
+relies solely on the properties of the mate correspondence.
+
++-- {: .un_proposition}
+###### Proposition
+
+For the unit and counit of the adjunction $f \dashv u$ to be $T$-transformations, and hence for the adjunction to live in $T$-$Alg_l$, it is necessary and sufficient that $\tilde f$ have an inverse $\bar f$ that makes $(f,\bar f)$ into a lax $T$-morphism, and hence $(f,\bar f)$ into a strong $T$-morphism.
+
+=--
 
 Again, the proof hinges on the properties of mates:  we take the conditions for the unit and counit to be $T$-transformations and pass to mates wrt $T f \dashv T u$ and $1 \dashv 1$.  Noting that $\tilde f$ is the mate of $\bar u$, the conditions are seen to be equivalent to requiring that $\bar f$ and $\tilde f$ are mutually inverse.
 
-It follows that $(f, \bar f) \dashv (u, \bar u)$ in $T$-$Alg_l$ if and only if $f \dashv u$ in $K$ and $\bar f$ has inverse $\tilde f$ = the mate of $\bar u$.
+It follows that 
+
++-- {: .un_prop}
+###### Propositon
+
+$(f, \bar f) \dashv (u, \bar u)$ in $T$-$Alg_l$ if and only if $f \dashv u$ in $K$ and $\bar f$ has inverse $\tilde f$ = the mate of $\bar u$.
+
+=--
 
 ## In terms of double categories
 
@@ -24,3 +71,28 @@ It is straightforward to verify that a [[conjunction]] in the double category $T
    1. Data making $f'$ a left adjoint of $u$ in the horizontal 2-category.
 
 Of these, the second is actually a general statement about companions and conjoints in any double category.  Of course, the first is a special property of the forgetful double functor from the double category of $T$-algebras.
+
+## Examples
+
+### Monoidal categories
+
+Let $K = $ [[Cat]] and $T$ the 2-monad whose 2-algebras are [[monoidal categories]]. Then 
+
+* a lax $T$-morphism  is a [[lax monoidal functor]];
+
+* an oplax $T$-morphis is an [[oplax monoidal functor]].
+
+The above theorem then asserts
+
++-- {: .un_corollary}
+###### Corollary
+
+For two [[adjoint functor]]s $(L \dashv R)$ between monoidal categories, $L$ is oplax monoidal precisely if $R$ is lax monoidal.
+
+=--
+
+See [[oplax monoidal functor]] for more details.
+
+## References
+
+* [[Max Kelly]], _Doctrinal Adjunctions_ (1974)
