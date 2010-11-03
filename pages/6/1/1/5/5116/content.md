@@ -74,7 +74,9 @@ satisfying two compatibility conditions:
 
 Definition 3.3 in
 
-* [[Marcelo Aguiar]], [[Swapneel Mahajan]],  _Monoidal functors, species and Hopf algebras_, ([pdf, over 6 Mb](http://www.math.tamu.edu/~maguiar/a.pdf)) version June 18, 2009, 672 pages.
+* [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_
 {#AguiarMahajan}
+
+
 
 [[!redirects bilax monoidal functors]]
