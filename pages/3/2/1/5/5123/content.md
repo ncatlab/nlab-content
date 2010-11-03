@@ -19,7 +19,7 @@
 
 Let $C : sAb \to Ch_\bullet^+$ be the chains/[[Moore complex]] functor of the [[Dold-Kan correspondence]].
 
-Let $(sAb, \otmes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
+Let $(sAb, \otimes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
 
 For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Eilenberg-Zilber map** or **shuffle map** is the [[natural transformation]] on [[chain complex]]es
 
@@ -47,7 +47,18 @@ $$
 
 ## Properties
 
-The Eilenberg-Zilber map is a [[lax monoidal transformation]] that makes $C$ and $N$ into [[lax monoidal functor]]s. See [[monoidal Dold-Kan correspondence]] for details.
++-- {: .un_prop}
+###### Proposition
+
+The Eilenberg-Zilber map is a [[lax monoidal transformation]] that makes $C$ and $N$ into [[lax monoidal functor]]s. 
+
+=--
+
+See [[monoidal Dold-Kan correspondence]] for details.
+
++-- {: .un_prop}
+###### Proposition
+
 
 On normalized chain complexes the EZ map has a [[left inverse]], given by the [[Alexander-Whitney map]] $\Delta_{A,B}$:
 
@@ -60,7 +71,13 @@ $$
   \,.
 $$
 
+=--
+
 Notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[symmetric monoidal categories]].
+
++-- {: .un_prop}
+###### Proposition
+
  
 The EZ map is [[symmetric monoidal functor|symmetric]] in that for all $A,B \in sAb$ the square
 
@@ -78,10 +95,27 @@ $$
 
 commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bullet^+$.
 
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a chain [[homotopy equivalence]].
+
+=--
+
+This is in 29.10 of ([May](#May)).
+
 ## Related concepts
 
 * [[Alexander-Whitney map]]
 
 * **Eilenberg-Zilber map**
+
+## References
+
+* [[Peter May]], _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+{#May}
+
 
 [[!redirects shuffle map]]
