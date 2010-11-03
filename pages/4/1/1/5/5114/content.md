@@ -131,4 +131,5 @@ For more on this see [[monoidal Dold-Kan correspondence]].
 
 Equation (3.26), (3.27) in [p. 81](http://www.math.tamu.edu/~maguiar/a.pdf) of
 
-* [[Marcelo Aguiar]], [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_ ([pdf](http://www.math.tamu.edu/~maguiar/a.pdf))
+* [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_
+{#AguiarMahajan}
