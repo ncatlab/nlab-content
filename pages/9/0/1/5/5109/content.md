@@ -31,8 +31,12 @@ $$\mathfrak{F}\models T if and only if \mathfrak{F} \models  \forall w\in W,   R
 =--
 
 So the frames that support models for the logic $T$ are exactly the reflexive frames.
-
++--
+{: .un_proof}
 ######Proof######
 Suppose $\mathfrak{F}$ is a reflexive frame and take an arbitrary valuation $V$ on $\mathfrak{F}$ and a state $w$ in $\mathfrak{F}$ so that $(\mathfrak{F},V),w\models p$. We use the first form of $T$ above, and have to prove that $M p$ holds at $w$, i.e., that $p$ holds at some state 'accessible' from $w$, but as $R$ is reflexive, $w$ is accessible from itself, ... .
 
-For the converse, we will suppose $R$ is not reflexive, so there is some state, $w \in W$ which is not $R$-related to itself. 
+For the converse, we will suppose $R$ is not reflexive, so there is some state, $w \in W$ which is not $R$-related to itself. We will falsify the formula $T$ if we can find a valuation $V$ and a state $v$ such that $p$ holds at $v$ but $Mp$ does not. (Recall the semantics of $M$: $\mathfrak{M},w \models M \phi$ if and only if, for some $v \in W$ such that $ R w v$, $\mathfrak{M},v \models \phi$.)
+
+We need a state with this property and we only know about one namely $w$, so that is the obvious to try! We need a valuation such that 1) $w\in V(p)$ and 2) $\{x\in W\mid Rwx\}\cap V(p)= \empty$. If we set $V(p) = \{w\}$ this works since $w$ is not related to itself. (Other values of $V$ are irrelevant.) If $w$ has no $R$-successors, then we are finished since clearly in that case, $\neg(w \models M \phi)$, so suppose that $v$ is any $R$-successor of $w$, i.e., $R wv$, then $w\neq v$, so $\neg(v\models p)$, hence $\neg(w\models Mp)$ as required.$\blacksquare$
+=--
