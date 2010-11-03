@@ -24,17 +24,53 @@ $$\mathbb{P}(S) = (\mathcal{P}(S), \cup, \cap,-,\emptyset, S),$$
 where $-A$ is shorthand for the complement, $S- A$, of $A$.
 
 ###Operators###
-The __operators__ that we need to add into the boolean algebras do not always preserve all the structure:
+The __operators__ that we need to add into the Boolean algebras do not always preserve all the structure:
 
 +--
 {: .un_defn}
-A function, $m : B\to B$ is called an _operator_ on the Boolean algebra, $\mathbb{B}$, if it is additive
+A function, $m : B\to B$ is called an __operator__ on the Boolean algebra, $\mathbb{B}$, if it is _additive_
 
 $$m(x+y) = mx + my.$$
 
-The operator, $m$, is called _normal_ if $m0=0$.
+The operator, $m$, is called __normal__ if $m0=0$.
 =--
 
 Any operator, $m$, in this sense has a dual $l : B\to B$ given by
 
 $$l(x) = (m(x^-)^-.$$
+
+As $m$ is additive, $l$ is __multiplicative__
+
+$$l(x\cdot y) = l(x)\cdot l(y),$$
+
+and has $l(1) = 1$ is $m$ is normal.
+
+#### Remark####
+One of the myriad notations used for the generic modal operators $\diamond$ and $\box$, are $M$ and $L$, whence $M$ is 'possibility, and $L$ is 'necessity", and these gave the names to the operators above.
+
++--
+{: .un_defn}
+######Definition######
+A **Bollean algebra with operators,** or BAO, of type $n$ consiists of a Boolean algebra $\mathbb{B}$, and a set, $m_i$, $i = 1,\ldots, n$ of operators on $B$.
+=--
+
+
+
+
+
+## References## 
+
+
+
+
+General books on modal logics that include information on algebraic models include:
+
+* [[Patrick Blackburn]], M. de Rijke and Y. [[Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
+
+* [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
+
+There is an excellent short survey article (versions of which are available on the web):
+
+*  R. Goldblatt, _Algebraic Polymodal Logic: A Survey_, the Logic Journal of the 
+IGPL, 8, (2000) pages 393&#8211;450, Special Issue on Algebraic Logic, edited by Istvan Nemeti and 
+Ildiko Sain. 
