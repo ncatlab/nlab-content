@@ -51,7 +51,7 @@ Again, the proof hinges on the properties of mates:  we take the conditions for 
 It follows that 
 
 +-- {: .un_prop}
-###### Propositon
+###### Proposition
 
 $(f, \bar f) \dashv (u, \bar u)$ in $T$-$Alg_l$ if and only if $f \dashv u$ in $K$ and $\bar f$ has inverse $\tilde f$ = the mate of $\bar u$.
 
@@ -80,7 +80,7 @@ Let $K = $ [[Cat]] and $T$ the 2-monad whose 2-algebras are [[monoidal categorie
 
 * a lax $T$-morphism  is a [[lax monoidal functor]];
 
-* an oplax $T$-morphis is an [[oplax monoidal functor]].
+* an oplax $T$-morphism is an [[oplax monoidal functor]].
 
 The above theorem then asserts
 
@@ -95,4 +95,4 @@ See [[oplax monoidal functor]] for more details.
 
 ## References
 
-* [[Max Kelly]], _Doctrinal Adjunctions_ (1974)
+* [[Max Kelly]], _Doctrinal Adjunction_ (1974)
