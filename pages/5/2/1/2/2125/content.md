@@ -192,7 +192,7 @@ The article ([Richter](#Richter)) shows that the inverse $\Xi$ from chain comple
 
 ### Quillen equivalences
 
-We list central [[Quillen equivalence]]s revolving around the monoidal Dold-Kan correspondence. More details on their construction is below.
+We list [[Quillen equivalence]]s revolving around the monoidal Dold-Kan correspondence. More details on their construction is below.
 
 Write
 
@@ -267,9 +267,23 @@ $$
   (Q \dashv N) : dgAlg_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  sAlg_k
 $$
 
-between connective [[dg-algebra]]s over $k$ and [[simplicial algebra]]s over $k$.
+between 
+
+* the [[model structure on dg-algebras]] for connective [[dg-algebra]]s over $k$: weak equivalences are the [[quasi-isomorphism]]s, fibrations the degreewise surjections in positive degree
+
+* and the [[model structure on simplicial algebras]] over $k$: weak equivalences and fibrations are those of the underlying simplicial sets in the standard [[model structure on simplicial sets]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+This is a direct corollary of the above theorem.
+
+Alternatively, with the above monoidal properties of $N$, it follows directly with the <a href="http://ncatlab.org/nlab/show/monoidal+Quillen+adjunction#LiftToMonoids">theorem on lifts to monoids</a> described at [[monoidal Quillen adjunction]].
+
+=--
+
 
 Notice that this is not for commutative monoids. But
 
@@ -346,7 +360,7 @@ See chapter VI, paragraph 12 of
 
 or chapter VIII, paragraph 8 of
 
-* [[Saunders MacLane]], _Homology_ , Grundlehren Math. Wiss. vol 114, Springer-Verlag, Berlin-G&#246;ttingen-Heidelberg, 1963 .
+* [[Saunders MacLane]], _Homology_ , Grundlehren Math. Wiss. vol 114, Springer-Verlag, Berlin-G&ouml;ttingen-Heidelberg, 1963 .
 
 For $A, B$ cosimplicial abelian groups, $C A$ and $C B$ their [[Moore complex|Moore cochain complex]]es, 
 
@@ -423,7 +437,7 @@ See for instance theorem 2.1.a in
 
 A quick summary of all this is in section 7 of
 
-* Jos&#233; Burgos Gil, _The regulators of Beilinson and Borel_ ([pdf](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf))
+* Jos&eacute; Burgos Gil, _The regulators of Beilinson and Borel_ ([pdf](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf))
 
 
 
@@ -447,7 +461,7 @@ from cosimplicial abelian groups to cochain complexes is a  [[lax monoidal funct
 
 This should be old and standard, but somehow explicit statements in the literature to this extent are hard to find.(?) Some central aspects are recalled in [section 7](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf#page=63) of
 
-* Jos&#233; Burgos Gil, _The regulators of Beilinson and Borel_ ([pdf](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf))
+* Jos&eacute; Burgos Gil, _The regulators of Beilinson and Borel_ ([pdf](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf))
 
 
 
@@ -835,7 +849,7 @@ The Quillen equivalence between connected cochain dg-algebras and cosimplicial a
 
 The Quillen equivalence between $E_\infty$ dg-algebras and $E_\infty$ simplicial algebras is in
 
-* [[Michael Mandell]], _Topological Andr&eacuteM-Quillen Cohomology and E-infinity Andr&#233;-Quillen Cohomology_ Adv. in Math., Adv. Math. 177 (2) (2003) 227&#8211;279
+* [[Michael Mandell]], _Topological Andr&eacuteM-Quillen Cohomology and E-infinity Andr&eacute;-Quillen Cohomology_ Adv. in Math., Adv. Math. 177 (2) (2003) 227&#8211;279
 {#Mandell}
 
 and
