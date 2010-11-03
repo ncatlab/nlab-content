@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents
 {:toc}
@@ -42,9 +58,9 @@ The cosimplicial version is made monoidal by replacing the the Moore complex fun
 The simplicial version is made monoidal by replacing the other functor by something else.
 
 
-## Theorems
+## Quillen equivalences
 
-We list central theorems revolving around the monoidal Dold-Kan correspondence.
+We list central [[Quillen equivalence]]s revolving around the monoidal Dold-Kan correspondence. More details on their construction is below.
 
 Write
 
@@ -155,6 +171,24 @@ between connective $E_\infty$ -[[dg-algebra]]s over $k$ and $E_\infty$- [[simpli
 
 This is in ([Mandell](#Mandell))
 
+There is a dual version to this:
+
++-- {: .un_theorem}
+###### Theorem
+
+There is a Quillen equivalence
+
+$$
+  (\Gamma \dashv P) : dgAlg_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  Ring^{\Delta}
+$$
+
+between _cochain_ dg-algebras and cosimplicial rings.
+
+=--
+
+This is the main theorem in [CastiglioniCortinas](#CastiglioniCortinas).
+
+
 
 ## Simplicial rings and chain dg-algebras {#simplicial}
 
@@ -167,16 +201,36 @@ The Dold-Kan correspondence (using the normalized chain complex functor) is in o
 The [[Moore complex]] functor
 
 $$
-  C_\bullet : sAb \to Ch_+
+  C_\bullet : sAb \to Ch_\bullet^+
 $$
 
-as well as the normalized [[Moore complex]] functor
+as well as the normalized chain/normalize Moore complex functor
 
 $$
-  N_\bullet : sAb \to Ch_+
+  N_\bullet : sAb \to Ch_\bullet^+
 $$
 
-are both [[monoidal functor|lax symmetric monoidal]] as well as [[lax comonoidal functor|colax monoidal]] (but *not* colax *symmetric* monoidal).  Moreover, the lax and colax structures are compatible: they are actually [[Frobenius monoidal functors]].
+are both [[monoidal functor|lax symmetric monoidal]] as well as [[lax comonoidal functor|colax monoidal]] (but *not* colax *symmetric* monoidal).  
+
+The lax structure is given by the [[Alexander-Whitney map]]
+
+$$
+  \phi_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)
+  \,.
+$$
+
+The oplax structure is given by the [[Eilenberg-Zilber map]]
+
+$$
+  \psi_{A,B} : N(A \otimes B ) \to N(A) \otimes N(B)
+  \,.
+$$
+
+
+Moreover, the lax and colax structures are compatible: they are actually [[Frobenius monoidal functors]].
+
+
+
 =--
 
 +-- {: .proof}
@@ -216,32 +270,28 @@ and similarly for $s_\nu$
 
 >(Hm, is that consistent?)
 
-For more on this see also section 2.3 of ([SchwedeShipley](#SchwedeShipley))
 
-The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in
-
-* Marcelo Aguiar, Swapneel Mahajan, _Coxeter Groups and Hopf Algebras_ Fields Institute Monographs, vol. 23 [pdf](http://www.math.tamu.edu/~maguiar/monograph.pdf)
-
-and with more details in
-
-* Marcelo Aguiar, Swapneel Mahajan, _Monoidal functors, species and Hopf algebras_, [pdf, over 6 Mb](http://www.math.tamu.edu/~maguiar/a.pdf) version June 18, 2009, 672 pages.
+The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in section 5.4.2 of ([AguiarMahajan](#AguiarMahajan)).
 
 =--
 
+For more on this see also section 2.3 of ([SchwedeShipley](#SchwedeShipley))
+
++-- {: .un_corollary }
+###### Corollary
+
 Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a lax monoidal and a colax symmetric monoidal structure.  (See the formula on the top of page 296 of [SchwedeShipley](#SchwedeShipley).)
 
-In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s ([SchwedeShipley](#SchwedeShipley)).
+=--
+
+Note that the colax structure of $N$ and the lax structure of $\Xi$ are not symmetric, i.e. they do not respect the symmetry of the monoidal structure.  They do, however, respect it up to homotopy, i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in ([Richter](#Richter))
 
 
-Note that the colax structure of $N$ and the lax structure of $\Xi$ are not symmetric, i.e. they do not respect the symmetry of the monoidal structure.  They do, however, respect it up to homotopy, i.e. they are [[E-k-operad|E-infinity monoidal functors]] in a suitable sense.  This is shown in
-
-* Birgit Richter, _Symmetry properties of the Dold-Kan correspondence_ ([pdf](http://www.math.uni-hamburg.de/home/richter/doldkan.pdf))
 
 This implies that generalized [[Eilenberg?Mac Lane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
 
-* Birgit Richter, _Homotopy algebras and the inverse of the normalization functor_ ([pdf](http://www.math.uni-hamburg.de/home/richter/invjpaa.pdf))
 
-This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
+The article ([Richter](#Richter)) shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
 ## Cosimplicial rings and cochain dg-algebras {#cosimplicial}
@@ -725,6 +775,16 @@ At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains
 
 ## References ##
 
+The comonoidalness and Frobenius monoidalness of the normalized chains/Moore complex functor is discussed in section 5.4.2 of
+
+* [[Marcelo Aguiar]], [[Swapneel Mahajan]], 
+
+  _Coxeter Groups and Hopf Algebras_ Fields Institute Monographs, vol. 23 ([pdf](http://www.math.tamu.edu/~maguiar/monograph.pdf))
+
+   _Monoidal functors, species and Hopf algebras_, ([pdf, over 6 Mb](http://www.math.tamu.edu/~maguiar/a.pdf)) version June 18, 2009, 672 pages.
+{#AguiarMahajan}
+
+
 The Quillen equivalence between connective chain dg-algebras and simplicial algebras is discussed in.
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
@@ -742,7 +802,15 @@ The Quillen equivalence between $E_\infty$ dg-algebras and $E_\infty$ simplicial
 * [[Michael Mandell]], _Topological Andr&eacuteM-Quillen Cohomology and E-infinity Andr&#233;-Quillen Cohomology_ Adv. in Math., Adv. Math. 177 (2) (2003) 227&#8211;279
 {#Mandell}
 
-On top of the references already listed, here are some more.
+and
+
+* Birgit Richter
+
+  _Symmetry properties of the Dold-Kan correspondence_ ([pdf](http://www.math.uni-hamburg.de/home/richter/doldkan.pdf))
+
+  _Homotopy algebras and the inverse of the normalization functor_ ([pdf](http://www.math.uni-hamburg.de/home/richter/invjpaa.pdf))
+{#Richter}.
+
 
 The Alexander--Whitney/Eilenberg--Zilber equivalences for the normalized chains functor are a special case of the strong [[deformation retract]] of chain complexes that was constructed 
 
