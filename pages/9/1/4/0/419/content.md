@@ -15,11 +15,12 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 A _monoidal model category_ is a [[model category]] which is also a [[closed monoidal category]] in a compatible way.  In particular, its [[homotopy category]] inherits a closed monoidal structure.
 
-# Definition #
+
+## Definition 
 
 A (symmetric) **monoidal model category** is a category equipped with 
 
@@ -33,11 +34,11 @@ such that
 
 * For any cofibrant object $X$, the map $Q e \otimes X \to e\otimes X \cong X$ is a weak equivalence, where $e$ is the unit object of the monoidal structure and $Q e\to e$ is a cofibrant replacement for it.  This is automatically satisfied if $e$ is cofibrant, as it is in most (but not all) cases.
 
-# Properties #
+## Properties 
 
 The central fact about a monoidal model category is that its homotopy category inherits a closed monoidal structure.
 
-# Examples #
+## Examples 
 
 * A [[nice category of spaces|nice category of topological spaces]] with cartesian product and the usual (Quillen) [[model structure on topological spaces|model structure]].
 
@@ -53,8 +54,12 @@ The central fact about a monoidal model category is that its homotopy category i
 
 * Any of many modern model categories of [[spectrum|spectra]].  The standard example of a monoidal model category whose unit is not cofibrant is the category of EKMM S-modules.
 
-# References #
+## Related concepts
 
-Mark Hovey, _Model Categories_
+* [[monoidal Quillen adjunction]]
+
+## References 
+
+* [[Mark Hovey]], _Model Categories_
 
 [[!redirects monoidal model categories]]
