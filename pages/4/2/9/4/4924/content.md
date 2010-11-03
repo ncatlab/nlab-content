@@ -19,3 +19,5 @@ category: category
 
 [[!redirects BiCat]]
 [[!redirects Bicat]]
+
+[[!redirects 2-Cat]]
