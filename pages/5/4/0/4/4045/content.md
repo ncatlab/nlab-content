@@ -74,6 +74,12 @@
 
 * [[Day convolution]]
 
+## Theorems
+
+* [[coherence theorem]]
+
+* [[monoidal Dold-Kan correspondence]]
+
 ## In higher category theory
 
 * [[monoidal 2-category]]
