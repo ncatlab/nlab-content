@@ -256,4 +256,4 @@ The links are with K-theory and Kasparov's theory. This connection and a related
 That connection with [[asymptotic morphisms]] is fully explored in the work of [[Marius Dadarlat|Dadarlat]]; see his papers,
 
 * [[Marius Dadarlat|Marius D?d?rlat]], _Shape theory and asymptotic morphisms for C*-algebras_,  Duke Math. J., 73(3):687-711, 1994.
-* [[Marius Dadarlat|Marius D?d?rlat]], Terry A. Loring, _Deformations of topological spaces predicted by E-theory+, In Algebraic methods in operator theory, pages 316-327. Birkh&#228;user 1994. 
+* [[Marius Dadarlat|Marius D?d?rlat]], Terry A. Loring, _Deformations of topological spaces predicted by E-theory_, in Algebraic methods in operator theory, pages 316-327. Birkh&#228;user 1994. 
