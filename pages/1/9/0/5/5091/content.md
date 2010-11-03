@@ -3,6 +3,8 @@
 
 ## The basis of it all
 
+* [[first-order logic]]
+
 * [[set theory]]
 
   * [[material set theory]]
@@ -15,6 +17,8 @@
     * [[SEAR]]
 
 * [[type theory]]
+
+* [[universe]]
 
 ## Common axioms
 
