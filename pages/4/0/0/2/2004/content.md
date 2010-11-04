@@ -69,7 +69,7 @@ The paper of Melli&#232;s referenced below compares the Linton representability 
 * [[Ross Street]], _The formal theory of monads_, JPAA 2, 1972 
 * [[Fred Linton]], _An outline of functorial semantics_, LNM 80, 1969
 * [[Ross Street]] and [[Bob Walters]], _Yoneda structures_, J. Algebra 50, 1978
-* [[Paul-André Melliès]], _Segal condition meets computational effects_, LICS 2010
+* [[Paul-André Melliès]], _Segal condition meets computational effects_, LICS 2010 ([pdf](http://www.pps.jussieu.fr/~mellies/papers/segal-lics-2010.pdf))
 
 [[!redirects Eilenberg–Moore category]]
 [[!redirects Eilenberg--Moore category]]
