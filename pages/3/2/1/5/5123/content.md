@@ -21,28 +21,63 @@ Let $C : sAb \to Ch_\bullet^+$ be the chains/[[Moore complex]] functor of the [[
 
 Let $(sAb, \otimes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
 
++-- {: .un_defn}
+###### Definition
+
 For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Eilenberg-Zilber map** or **shuffle map** is the [[natural transformation]] on [[chain complex]]es
 
 $$
   \nabla_{A,B} :  C(A) \otimes C(B) \to C(A \otimes B) 
 $$
 
-defined on two $n$-simplices $a \in A_n$ and $b \in B_n$ by
+defined on two $n$-simplices $a \in A_p$ and $b \in B_q$ by
 
 $$
   \nabla_{A,B} : a \otimes b \mapsto 
-   \sum_{(\mu,\nu)} (s_\nu(a)) \otimes (s_\mu(b))
+   \sum_{(\mu,\nu)} sign(\mu,\nu) (s_\nu(a)) \otimes (s_\mu(b))
+   \;\;
+   \in
+   C_{p+q}(A \otimes B)
+   =
+   A_{p+q} \otimes B_{p+q}
   \,,
 $$
 
-where (...)
+where the sum is over all $(p,q)$-[[shuffle]]s
 
-This restricts to the normalized chains complex
+$$
+  (\mu,\nu) = (\mu_1, \cdots, \mu_p, \nu_1, \cdots, \nu_q)
+$$
+
+and the corresponding degeneracy maps are
+
+$$
+  s_{\mu} = s_{\mu_p} \circ \cdots s_{\mu_2} \circ s_{\mu_1}
+$$
+
+and
+
+$$
+  s_{\nu} = s_{\nu_q} \circ \cdots s_{\nu_2} \circ s_{\nu_1}
+  \,.
+$$
+
+The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+
+This map restricts to the normalized chains complex
 
 $$
   \nabla_{A,B} :  N(A) \otimes N(B) \to N(A \otimes B) 
   \,.
 $$
+
+=--
 
 
 ## Properties
@@ -115,6 +150,12 @@ commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bull
 * **Eilenberg-Zilber map**
 
 ## References
+
+The Eilenberg-Zilber map was introduced in (5.3) of 
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], On the groups $H(\Pi,n)$, I, Ann. of Math. (2) 58, (1953), 55&#8211;106.
+
+See also 29.7 of 
 
 * [[Peter May]], _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 {#May}
