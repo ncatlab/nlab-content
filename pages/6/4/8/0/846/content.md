@@ -366,7 +366,7 @@ We first define the **join of simplicial sets** as the restriction to simplicial
 Then we give the more explicit definition in terms of concrete formulas.
 
 
-### Ordinal sum
+### By ordinal sum
 
 The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite [[total order|totally ordered]] [[set]]s, _including_ the [[empty set]], which we write in this context as
 
@@ -417,12 +417,18 @@ $$
   \,.
 $$
 
-### Join of simplicial sets via Day convolution
 
-Via the general process of [[Day convolution]], the ordinal sum monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
+### By Day convolution {#DayConvolution}
+
+Via the general process of [[Day convolution]], the ordinal sum monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[asSet]] or $sSet_+$ of [[augmented simplicial set]]s. This is given by a [[end|coend]] formula:
+
++-- {: .un_prop}
+###### Definition/Proposition
+
+The join of simplicial set is equivalently expressed as
 
 $$
-  \star : ASSet \times ASSet \to ASSet
+  \star : sSet_+ \times sSet_+ \to sSet_+
 $$
 $$
   (S \star S')(-)
@@ -432,20 +438,37 @@ $$
   \,.
 $$
 
-**Remark** This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set.  To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[indexed copower]].
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set.  To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[copower|indexed copower]].
+
+=--
 
 Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|cocontinuous]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
+
 This join tensor product forms part of a [[closed monoidal category|closed monoidal structure]] on the category of
-augmented simplicial sets, [[ASSet]] $ := Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
+augmented simplicial sets, [[asSet]] $ := Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
 $$[X, Y ]_n =asS(X; Dec^{n+1}Y )\,,$$
 where $Dec$ is the [[decalage]] functor.
 
-**Definition**
+=--
+
++-- {: .un_defn}
+###### Definition
+
 For $S$ a simplicial set, let $\hat S$ denote the augmented simplicial set which equals $S$ in all degrees except in degree -1, where it is the point, $({\hat S})_{-1} = pt$. This is the **trivial augmentation** of $S$.
 
-**Definition**
+=--
+
++-- {: .un_defn}
+###### Definition
+
 The **join** of two ordinary [[simplicial set]]s $S_1$ and $S_2$ is the join of their _trivial augmentation_ :
 
 $$
@@ -453,7 +476,7 @@ $$
   \,.
 $$
 
-
+=--
 
 ### Concrete formulas
 
@@ -508,9 +531,8 @@ If the simplicial sets in question are [[quasi-categories]], their join computes
 In this sense the join can then also be computed -- up to equivalence of quasi-categories -- as the [[homotopy colimit|homotopy pushout]] of the two projections out of $S \times S'$.
 
 In this form, the join is used
-in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of
+in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of [[Higher Topos Theory|HTT]]
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 
 ## Examples {#Examples}
