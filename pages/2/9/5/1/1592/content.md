@@ -13,9 +13,9 @@ Let $X$ be a topological space which is _[[well-connected space|well-connected]]
 
 * and [[semi-locally simply-connected space|semi-locally simply-connected]] 
 
-Then there is a connected and [[simply connected space|simply connected]] [[covering space]] $X^{(1)} \to X$ with the [[universal property]] that for any other [[covering space]] $\widetilde{X} \to X$ there is a map of covering spaces $X^{(1)} \to \widetilde{X}$. 
+Then there is a connected and [[simply connected space|simply connected]] [[covering space]] $X^{(1)} \to X$ with the [[universal property]] that for any other [[covering space]] $\widetilde{X} \to X$ there is a map of covering spaces $X^{(1)} \to \widetilde{X}$.
 
-There is a functorial construction of a covering space of a pointed space
+There is a functorial construction of a universal covering space of a pointed space
 
 $$
   Top_*^{wc} \to Cov_*
@@ -23,26 +23,24 @@ $$
 
 where $Top_*^{wc}$ is the full subcategory of $Top_*$ with objects the well-connected spaces and $Cov$ is the subcategory of $Top_*^2$ of pointed maps of spaces with objects the covering space maps.
 
-+-- {: .query}
-
-[[David Roberts]]: We should move the construction of the universal covering space from [[covering space]] to here, but I have limited time.
-
-[[Urs Schreiber]]: some of it is now below. Some not.
-
-=--
+Specifically, if $X$ is a space with basepoint $x_0$, we define $X^{(1)}$ to be the space whose points are homotopy classes of paths in $X$ starting at $x_0$, with the projection $X^{(1)}\to X$ projecting to the endpoint of a path.  We can equip this set $X^{(1)}\to X$ with a topology coming from $X$ so that it becomes a universal covering space as above.  As described at [[covering space]], under the correspondence between covering spaces and $\Pi_1(X)$-actions, the space $X^{(1)}$ corresponds to the "regular representation" of $\Pi_1(X)$.
 
 
-## As the homotopy fiber of $X \hookrightarrow \Pi_1(X)$
+## As the homotopy fiber of $X \rightarrow \Pi_1(X)$
 
-We describe now how the universal cover construction may be understood from the [[nPOV]]. In the next section this point of view is then used to conceive notions of covering spaces and higher covering spaces in more general contexts of [[(∞,1)-topos]]es.
+We describe now how the universal cover construction may be understood from the [[nPOV]].  The basic idea is that the universal cover of a space $X$ is the (homotopy) fiber of the map $X\to \Pi_1(X)$ from $X$ to its fundamental groupoid.  We can think of this as a way of precisely saying "make $\Pi_1$ trivial in a universal way."  There are at least two slightly different ways of making this precise in the language of $(\infty,1)$-toposes, depending on whether we view $X$ as a [[little topos]] or as an object of a [[big topos]].
 
-To a topological space $X$ is associated the [[topological ∞-groupoid|topological groupoid]] $\Pi_1(X)$ -- its [[fundamental groupoid]]. With $X$ regarded as a [[discrete category|categorically discrete]] topological groupoid, there is a canonical morphism
+### In terms of big toposes
+
+In this section we work in the big [[(∞,1)-topos]] of sheaves on $TopBalls$, the [[site]] of topological [[balls]] with the [[good open cover]] [[coverage]].  We call objects of this $(\infty,1)$-topos "topological ∞-groupoids."
+
+Now, to a topological space $X$ is associated the [[topological ∞-groupoid|topological groupoid]] $\Pi_1(X)$ -- its [[fundamental groupoid]]. With $X$ regarded as a [[discrete category|categorically discrete]] topological groupoid, there is a canonical morphism
 
 $$
   X \to \Pi(X)
 $$
 
-that includes $X$ as the collection of constants paths.
+that includes $X$ as the collection of constant paths.
 
 
 
@@ -168,11 +166,43 @@ This indeed is then the usual construction of the universal covering space in te
 =--
 
 
+### In terms of little toposes
+
+On the other hand, we can view a space $X$ as the little $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ of $(\infty,1)$-sheaves on $X$.  If $X$ is locally connected and locally simply connected in the "coverings" sense, then $Sh(X)$ is locally 1-connected.
+
+In fact, for the construction of the universal cover we require only the (2,1)-topos $Sh_{(2,1)}(X)$ of sheaves (stacks) of [[groupoids]] on $X$, so we will work in that context because it is simpler.  The construction can be adapted, however, to produce a "universal cover" of any locally 1-connected $(\infty,1)$-topos.
+
+Let $E$ be any (2,1)-topos which is locally 1-connected.  This means that in the unique [[global sections]] [[geometric morphism]] $(E^*,E_*)\colon E\to Gpd$, the functor $E^*$ has a left adjoint $E_!\colon E \to Gpd$, which is automatically $Gpd$-[[indexed functor|indexed]].  The [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|fundamental groupoid]] of $E$ is defined to be $\Pi_1(E)\coloneqq E_!(*)$, where $*$ is the [[terminal object]] of $E$.
+
+As discussed [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|here]] in the $(\infty,1)$-case, the construction of $\Pi_1(E)$ is a left adjoint to the inclusion of groupoids into locally 1-connected (2,1)-toposes (which sends $G\mapsto Gpd/G \simeq Gpd^G$).  Thus we have a geometric morphism $E\to \Pi_1(E)$ (where we regard $\Pi_1(E)$ as the (2,1)-topos $Gpd^{\Pi_1(E)}$).
+
+Suppose, for simplicity, that $E$ is connected.  Then $\Pi_1(E)$ is also connected, and so we have an essentially unique functor $*\to \Pi_1(E)$.  We define the **universal cover** of $E$ to be the pullback (2,1)-topos:
+$$\array{ E^{(1)} & \to & E \\ \downarrow & & \downarrow \\ * & \to & \Pi_1(E)}$$
+(where of course $*$ denotes the terminal (2,1)-topos $Gpd$).
+
+Now observe that $*\to \Pi_1(E)$ is a [[local homeomorphism of toposes]], since we have $Gpd \simeq Gpd/\Pi_1(E)/(*\to \Pi_1(E))$.  Since local homeomorphisms of toposes are stable under pullback, $E^{(1)}\to E$ is also a local homeomorphism, i.e. there exists an object $\widetilde{E}\in E$ and an equivalence $E^{(1)} \simeq E/\widetilde{E}$ over $E$.  Moreover, it is not hard to see that $\widetilde{E}$ can be identified with the pullback
+$$\array{ \widetilde{E} & \to & * \\ \downarrow & & \downarrow \mathrlap{\eta} \\ * & \to & E^*(\Pi_1(E)) \mathrlap{= E^*(E_!(*))}}$$
+in $E$.  Note that the bottom map $*\to E^*(E_!(*))$ is $E^*$ applied to the unique map $*\to E_!(*)$, while the right-hand map is the unit of the adjunction $E_!\dashv E^*$.
+
+In order to see that this is a sensible definition, we first observe that $E^{(1)}$ is itself locally 1-connected (since it is etale over $E$).  Moreover, it is actually 1-connected, which is equivalent to saying that $E_!(\widetilde{E}) = *$.  This is because the "Frobenius reciprocity" condition for the adjunction $E_!\dashv E^*$ (which is equivalent to saying that $E_!$ is $Gpd$-indexed) applied to the defining pullback of $\widetilde{E}$ implies that we also have a pullback
+$$\array{ E_!(\widetilde{E}) & \to & E_!(*) \\ \downarrow & & \downarrow \mathrlap{id} \\ * & \to & E_!(*)}$$
+which clearly implies that $E_!(\widetilde{E}) = *$.
+
+Thus, $E^{(1)}$ is a connected and simply connected space with a local homeomorphism to $E$, but is it a covering space?  In other words, is it locally trivial?  Since we have supposed that $E$ is locally 1-connected, as a (2,1)-category it can be generated by 1-connected objects, i.e. objects $U$ such that $E_!(U)\simeq *$.  In particular, we have a 1-connected object $U$ and a [[regular 1-epic]] $U\to *$.
+
+We claim that if $U$ is any 1-connected object of $E$, then $\widetilde{E}$ is trivialized (or split) over $U$, in that $U\times \widetilde{E}$ is equivalent, over $U$, to $U\times E^*S$ for some $S\in Gpd$.  For pulling back the defining pullback to $U$, we obtain
+$$\array{ U\times \widetilde{E} & \to & U \\ \downarrow & & \downarrow \mathrlap{U\times \eta} \\ U & \to & U\times E^*(\Pi_1(E)).}$$
+But $U\times E^*(\Pi_1(E)) \cong (E/U)^* (\Pi_1(E))$, so to give a map $U \to (E/U)^* (\Pi_1(E))$ over $U$ is the same as to give a map $(E/U)_!(*) \to \Pi_1(E)$ in $Gpd$.  But $(E/U)_!(*)\simeq *$, since $U$ is 1-connected, and $\Pi_1(E)$ is connected, so there is only one such morphism.  Therefore, the two maps $U\to U\times E^*(\Pi_1(E))$ in the pullback above are in fact the same, and in particular both are the pullback to $E/U$ of the map $*\to \Pi_1(E)$.  Thus, $U\times \widetilde{E}$ is equivalent to $(E/U)^*(S) \cong U\times E^*(S)$, where $S= \Omega(\Pi_1(E))$ is the loop object of $\Pi_1(E)$, i.e. what we might call the fundamental *group* of the connected (2,1)-topos $E$.
+
+Therefore, since $\widetilde{E}$ is trivialized over any 1-connected object, and $E$ is generated by 1-connected objects, $\widetilde{E}$ is locally trivial.  Moreover, since $*$ is a [[discrete object]] of $E$, so is $\widetilde{E}$.  Thus, if we specialize all this to the case $E=Sh_{(2,1)}(X)$ of (2,1)-sheaves on a topological space, then we conclude that $\widetilde{E}$ is an honest 1-sheaf on $X$ which, when regarded as a local homeomorphism over $X$, is locally trivial (hence a covering space), connected, and 1-connected---i.e. a universal cover of $X$.
 
 
+## Higher universal covering objects
+
+The nPOV descriptions above lend themselves easily to generalization.
 
 
-## Universal covering objects in an $(\infty,1)$-topos {#InInftTopos}
+### Universal covering objects in a big $(\infty,1)$-topos {#InInftTopos}
 
 +-- {: .query}
 
@@ -266,6 +296,12 @@ $$
 
 of $X \in \mathbf{H}$.
 
+### Universal covers of a little $(\infty,1)$-topos
+
+If we instead generalize the "little topos" picture, then if $E$ is an $(n,1)$-topos (or, more generally, an $(\infty,1)$-topos) which is locally $n$-connected, we have an $n$-groupoid $\Pi_n(E)$ and we can define the universal $n$-connected cover as the pullback topos
+$$\array{ E^{(n)} & \to & E \\ \downarrow & & \downarrow \\ * & \to & \Pi_n(E)}$$
+The same arguments as above, generalized from 1 to $n$, show that $E^{(n)}\to E$ is a locally trivial local homeomorphism and that $E^{(n)}$ is $n$-connected.
+
 
 ## Reference
 
@@ -276,3 +312,13 @@ An account of the traditional way to think of the construction of the universal 
 
 
 [[!redirects universal cover]]
+[[!redirects universal covers]]
+[[!redirects universal covering spaces]]
+[[!redirects universal cover of a topos]]
+[[!redirects universal cover of a (2,1)-topos]]
+[[!redirects universal cover of an (∞,1)-topos]]
+[[!redirects universal cover of an (infinity,1)-topos]]
+[[!redirects universal covering topos]]
+[[!redirects universal covering (2,1)-topos]]
+[[!redirects universal covering (∞,1)-topos]]
+[[!redirects universal covering (infinity,1)-topos]]
