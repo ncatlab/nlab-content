@@ -67,10 +67,9 @@ We first discuss the extent to which the [[Moore complex]] functor is monoidal. 
 
 ### Bilax monoidal Frobenius structure on normalized chains {#BilaxFrobStruc}
 
-The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
 
-+-- {: .un_lemma }
-###### Lemma
++-- {: .un_prop }
+###### Proposition
 
 The [[Moore complex]] functor
 
