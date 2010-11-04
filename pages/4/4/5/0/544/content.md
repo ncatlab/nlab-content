@@ -81,7 +81,7 @@ If $A$ is a [[dg-algebra]], regarded as a strictly associative $A_\infty$-algebr
 +-- {: .un_remark }
 ###### Remark
 
-This theorem provides a large supply of examples of $A_\infty$-algebras: there is a natural $A_\infty$-algebra structure on all cohomoloies such as
+This theorem provides a large supply of examples of $A_\infty$-algebras: there is a natural $A_\infty$-algebra structure on all cohomologies such as
 
 * [[de Rham cohomology]]
 
