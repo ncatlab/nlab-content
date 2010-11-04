@@ -24,7 +24,7 @@ Let $(sAb, \otimes)$ be the standard [[monoidal category]] structure given degre
 +-- {: .un_defn}
 ###### Definition
 
-For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Eilenberg-Zilber map** or **shuffle map** is the [[natural transformation]] on [[chain complex]]es
+For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Eilenberg-Zilber map** or **Eilneberg-MacLane map** or **shuffle map** is the [[natural transformation]] on [[chain complex]]es
 
 $$
   \nabla_{A,B} :  C(A) \otimes C(B) \to C(A \otimes B) 
@@ -167,5 +167,8 @@ See also 29.7 of
 * [[Peter May]], _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 {#May}
 
+and section 11.2 of
+
+* [[Tim Porter]], _[[Crossed Menagerie]]_
 
 [[!redirects shuffle map]]
