@@ -58,7 +58,7 @@ $$
 of [[simplices]] in [[sSet]] are precisely those of the form 
 
 $$
-  (s_\mu x , s_\nu y) \in \Delta[p] \times \Delta[q]
+  (s_\mu x , s_\nu y) \in (\Delta[p] \times \Delta[q])_{p+q}
 $$ 
 
 for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\Delta[p]$ and $\Delta[q]$, respectively.
