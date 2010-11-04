@@ -106,5 +106,26 @@ The path corresponding to a $(p,q)$-shuffle just follows the list of (transposed
 
 <img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26(1,1)\ar@{-}[r]\ar@{-}[d]%26(2,1)\\	(0,0)\ar@{-}[r]%26(1,0)%26}"/>
 
+###The poset of $(p,q)$-shuffles###
+
+Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-shuffles.  
+
+Our $(2,1)$-example is really too simple and small to illustrate this well, but the two cases $(3,1)$ and $(2,2)$ do a much better job, but even so we first look at the (2,1) example:
+
+
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0<1)\ar@{-}[r]%26(0<2)\ar@{-}[r]%26(1<2).}"/>
+
+(This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left.)
+ 
+We need here to explain the partial order.  We take the $\mu$-signature' of the shuffle, that is, the ordered set $\mu_1\lt\ldots \lt \mu_p$. (Of course, this determines the $\nu$-signature as that is the complement of $\mu$.)
+
++--{: .un_defn}
+######Definition######
+Given two $(p,q)$-shuffles, represented by $(\mu, \nu)$ and $(\mu^\prime,\nu^\prime)$, we set 
+
+$$(\mu, \nu) \leq (\mu^\prime,\nu^\prime)$$
+
+if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i^\prime.$  We refer to this poset as $(Shuff_{(p,q)},\leq)$.
+=--
 
 
