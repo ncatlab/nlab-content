@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
@@ -158,3 +162,4 @@ if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We ref
 =--
 
 
+[[!redirects products of simplices]]
