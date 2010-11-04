@@ -32,7 +32,7 @@ The product of $f\in C^{p,q}$ and $g\in C^{r,s}$ is
 
 $$(f\wedge g)(su_1, \ldots,su_{p+r}) = \sum_{\sigma}\varepsilon(\sigma)f(su_{\sigma(1)},\ldots, su_{\sigma(p)})g(su_{\sigma(p+1)},\ldots,su_{\sigma(p+r)}),$$
 
-where the sum is over all $(p,r)$-shuffles, $\sigma$ and $\varepsilon(\sigma)$ is the Koszul sign of :
+where the sum is over all $(p,r)$-[[shuffles]], $\sigma$ and $\varepsilon(\sigma)$ is the Koszul sign of :
 
 $$(f,g,su_1,\ldots, su_{p+r})\to (f,su_{\sigma(1)},\ldots, su_{\sigma(p)},g,su_{\sigma(p+1)},\ldots,su_{\sigma(p+r)}).$$
 
