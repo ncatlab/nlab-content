@@ -87,6 +87,17 @@ As the set of all formulae in $\mathcal{L}_\omega(n)$ satisfies the conditions f
 One of the basic axiom systems leads to [[normal modal logic]]s. 
  
 =--
+
+## Deducibility## 
+
+
+ Suppose given a [[normal modal logic]], $\Lambda$ in $\mathcal{L}_\omega(n)$.  A formula $\phi$ is **$\Lambda$-deducible** from a set, $\Gamma$ of formulae, if there are finitely many formulae $\psi_0,\ldots,\psi_m\in \Gamma$ such that 
+
+$$\vdash_\Lambda (\psi_0\to (\psi_1\to (\ldots \to (\psi_m\to \phi)\ldots)$$
+
+that is the formula $(\psi_0\to (\psi_1\to (\ldots \to (\psi_m\to \phi)\ldots)$ is in $\Lambda$.
+
+
 ## Semantics## 
 The usual semantics of modal languages is in terms of [[frame (modal logic)|frames]]. (These are quite often called 'Kripke frames' as Kripke was one of the first to use relational semantics in this context. A discussion of the history can be found in  the book by Blackburn, de Rijke and Vedema, (see below) page 42.) (As there is another sense to [[frame]] as the dual of a [[locale]], we need to consider the terminology here and where necessary will use [[frame (modal logic)]] as the entry name.) A more detailed discussion of [[frame (modal logic)|frames]], models and the whole question of the semantics of modal logics is to be found at that entry. 
 
