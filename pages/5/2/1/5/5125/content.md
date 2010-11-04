@@ -3,7 +3,7 @@
 #Contents#
 * table of contents
 {:toc}
-##The Lindenbaum-Tarski algebra of a logic##  
+##The Lindenbaum-Tarski algebra of a normal modal logic##  
    
 Associated to any [[normal modal logic]], $\Lambda$ in $\mathcal{L}_\omega(n)$ (and more 
 generally) is an algebra $\mathfrak{A}^\Lambda_\omega$,which is a [[algebraic models for modal logics|BAO]] of type $n$, 
@@ -19,7 +19,7 @@ ${\vdash}_\Lambda \phi $ means $\phi \in \Lambda$.)
  The elements of $\mathfrak{A}^\Lambda_\omega$ are the equivalence 
 classes:
   
-$$||\phi|| = \{\psi \mid \vdash_\Lambda \phi\longleftrightarrow \psi\},$$
+$$||\phi|| = \{\psi \mid \vdash_\Lambda \phi\leftrightarrow \psi\},$$
  
 with the operations 
 
@@ -58,3 +58,5 @@ $m_i$ is a normal operator.
 We first note that $\vdash_\Lambda \Diamond(\psi\vee \phi) \leftrightarrow \Diamond_i \psi \vee \Diamond_i \phi$, then the result follows by simply writing down what is required and staring at it for a moment!
 
 
+##Canonical models##
+The Lindenbaum-Tarski algebra for a modal logic, $\Lambda$,   gives rise a canonical Kripke model. This has the set of $\Lambda$-[[maximal consistent]] formulae as its set of states.
