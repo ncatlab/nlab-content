@@ -1,6 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+# Spectral theory
+* table of contents
+{: toc}
+
 ## Idea
 
 Point of a spectrum of an operator algebra should be thought as a common generalized eigenvalue of the corresponding family of operators. Thus the spectra of (operator) *algebras*, presenting the "points" of underlying space and spectra of (families of) *operators* have closely related origin in main examples. 
+
 
 ## Overview
 
@@ -8,22 +24,27 @@ __Spectral theory__ concerns generalizations of the theory of spectrum of linear
 
 While spectra generalize eigenvalues, the generalized eigenmodes are studied in harmonic analysis, included noncommutative where irreducible representations generalize characters. It is traditional that by spectral theory in functional setup one subsumes only those "harmonic" issues which are closely  related to operator theoretic holomorphic calculus.
 
+
 ## Spectral measure 
 
 ...
+
 
 ## Spectral theory of Banach algebras
 
 This is the main case of spectral theory studied in 20th century functional analysis. ...
 
+
 ## Spectra in algebraic geometry
 
 Grothendieck has defined a prime spectrum of commutative unital ring having in mind Gel'fand's spectrum of a commutative $C^*$-algebra. In noncommutative ring theory, this was followed by a number of spectral constructions from  lattices of ideals, including prime and primitive spectrum, Gabriel's spectrum od indecomposable injectives and so on; some of these constructions were equipped with a structure sheaf. These construction are typically not faithful unlike Grothendieck's prime spectrum in commutative case and Gel'fand's spectrum. To get more information one needs to consider an entire category of modules, not only the ideals of the ring. Rosenberg has constructed a more rich spectrum of an abelian category involving a structure stack which is in heart of his reconstruction theorem for commutative [[scheme]]s (not necessarily [[affine scheme|affine]]) and in the ring case it reduces to his earlier construction of the left spectrum of a noncommutative ring. 
+
 
 ## Other related notions
 
 * spectral flow in geometry; related to study of index theorems
 * Very recently, V. Retakh at all proved some analogues of spectral theorems for tensor of higher rank, rather than matrices. 
+
 
 ## Literature
 
