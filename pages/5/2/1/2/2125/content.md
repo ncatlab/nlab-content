@@ -59,6 +59,46 @@ The cosimplicial version is made monoidal by replacing the the Moore complex fun
 The simplicial version is made monoidal by replacing the other functor by something else.
 
 
+## Summary of Quillen equivalences {#Summary}
+
+Below we discuss the following [[Quillen equivalence]]s that capture various aspects of the monoidal Dold-Kan correspondence.
+
+* $(\Gamma \dashv N) : sAb \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}} Ch_\bullet^+$
+
+  as well as
+
+  $(N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}} sAb $   
+
+  between simplicial abelian groups and connective chain complexes;
+
+
+*  $(\Gamma^{cmon} \dashv N) : CAlg_k^{\Delta^{op}} \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{N}{\to}} CdgAlg_{k}^{conn}$
+
+   between connected commutative simplicial algebras and connected commutative dg-algebras over a field of characteristic 0
+
+*  $(\Gamma^{mon} \dashv N) : Alg_k^{\Delta^{op}} \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}} dgAlg_{k}$
+
+   as well as
+
+    $(N^{mon} \dashv \Gamma) : dgAlg_{k}\stackrel{\overset{N^{mon}}{\leftarrow}}{\underset{\Gamma}{\to}} Alg_k^{\Delta^{op}} $
+
+   between simplicial algebras and connective dg-algebras (neither necessarily commutative) over a commutative ring $k$
+
+
+*  $ (\Gamma^{mon} \dashv N) : dgRing \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}  Ring^{\Delta}$
+
+   between connective cochain dg-rings and cosimplicial rings
+
+
+*  $(\Gamma^{mon} \dashv N) : Alg_A^{\Delta^{op}} \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}} dgAlg_{N(A)}$
+
+   between simplicial algebras and connective dg-algebras (neither necessarily commutative) over a commutative simplicial ring $A$ and its normalized dg-ring $N(A)$
+
+*  $(\Gamma^{E_\infty} \dashv N) : E_\infty Alg_k^{\Delta^{op}} \stackrel{\overset{\Gamma^{E_\infty}}{\leftarrow}}{\underset{N}{\to}} 
+   E_\infty dgAlg_{k}$
+
+   between $E_\infty$ simplicial algebras and connective $E_\infty$ dg-algebras over a ring $k$ in any characteristic   
+
 
 ## Simplicial algebras and chain dg-algebras {#simplicial}
 
@@ -219,7 +259,7 @@ The article ([Richter](#Richter)) shows that the inverse $\Xi$ from chain comple
 
 ### Quillen equivalences
 
-We list [[Quillen equivalence]]s revolving around the monoidal Dold-Kan correspondence. More details on their construction is below.
+We discuss [[Quillen equivalence]]s revolving around the monoidal Dold-Kan correspondence. More details on their construction is below.
 
 Write
 
@@ -401,9 +441,14 @@ $$
   (Q \dashv N) : dgAlg^C_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  sAlg^C_k
 $$
 
-between commutative connective [[dg-algebra]]s over $k$ and commutative [[simplicial algebra]]s over $k$.
+between connected commutative connective [[dg-algebra]]s over $k$ and connected commutative [[simplicial algebra]]s over $k$
+
+Here connected means: trivial in degree $k \leq 0$ (= "reduced").
 
 =--
+
+This is due to the remark on p. 223 of ([Quillen](#Quillen)).
+
 
 In arbitrary characteristic we have instead
 
@@ -422,23 +467,6 @@ between connective $E_\infty$ -[[dg-algebra]]s over $k$ and $E_\infty$- [[simpli
 
 This is in ([Mandell](#Mandell))
 
-There is a dual version to this:
-
-+-- {: .un_theorem}
-###### Theorem
-
-There is a Quillen equivalence
-
-$$
-  (\Gamma \dashv P) : dgAlg_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  Ring^{\Delta}
-$$
-
-between _cochain_ dg-algebras and cosimplicial rings.
-
-=--
-
-This is the main theorem in [CastiglioniCortinas](#CastiglioniCortinas).
-
 
 
 
@@ -455,7 +483,9 @@ However, this article explicitly constructs the (derived) [[adjoint functor]] to
 
 Explicit discussion of the Moore co-chain complex functor as inducing an $\infty$-monoidal functor seems not to be in the literature explicitly at time of this writing (?), even though various of its aspects are implicit, partly classical, statements. The following tries to make some aspects explicit.
 
-### Alexander--Whitney and shuffle morphisms {#AlexWhitneyShuffle}
+### Lax and oplax monoidalness of conormalized cochains
+
+#### Alexander--Whitney and shuffle morphisms {#AlexWhitneyShuffle}
 
 A central ingredient in the monoidal Dold-Kan correspondence are the Alexander--Whitney and the shuffle morphisms.
 
@@ -545,9 +575,7 @@ A quick summary of all this is in section 7 of
 
 
 
-### Lax monoidalness of the Moore co-chain complex functor 
-
-
+#### Lax monoidalness of the Moore co-chain complex functor 
 
 
 
@@ -916,9 +944,27 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 =--
 
 
-### $E_\infty$-cup product on cochains on simplicial sets {#EooCup}
+#### $E_\infty$-cup product on cochains on simplicial sets {#EooCup}
 
 At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains on simplicial sets]] $S^\bullet \in SSet$, i.e. $A = C(S^\bullet, R)$ it is known that the Moore complex [[dg-algebra]] $N^\bullet(A)$ equipped with the [[cup product]] is an [[E-k-operad|E-∞]]-[[algebra over an operad|algebra]]. See [[cochains on simplicial sets]] for details on this.
+
+### Quillen equivalences
+
++-- {: .un_theorem}
+###### Theorem
+
+There is a Quillen equivalence
+
+$$
+  (\Gamma^{mon} \dashv N) : dgRing \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}  Ring^{\Delta}
+$$
+
+between connective cochain dg-rings and cosimplicial rings.
+
+=--
+
+This is the main theorem in [CastiglioniCortinas](#CastiglioniCortinas).
+
 
 
 ## Related concepts
@@ -940,7 +986,7 @@ Original results are in
 * [[Saunders MacLane]], _Homology_  
 {#MacLaneHomology}
 
-A classical reference is
+A classical textbook reference is
 
 * [[Charles Weibel]], _An introduction to homological algebra_, 
 
@@ -969,7 +1015,11 @@ The Quillen equivalence between connected cochain dg-algebras and cosimplicial a
 * J.L. Castiglioni, G. Corti&#241;as, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ , J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289))
 {#CastiglioniCortinas}.
 
+The Quillen equivalence between connected simplicial commutative algebras and connected commutative dg-algebras in characteristic 0 is indicated all the way back on p. 223 of
 
+* [[Dan Quillen]], _Rational homotopy theory_ The Annals of Mathematics,
+Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
+{#Quillen}
 
 The Quillen equivalence between $E_\infty$ dg-algebras and $E_\infty$ simplicial algebras is in
 
