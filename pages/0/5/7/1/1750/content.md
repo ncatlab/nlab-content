@@ -42,64 +42,64 @@ Note also that the *first* definition makes perfect sense regardless of whether 
 
 ## Details
 
-Spelling out the first definition, we have that a 2-cell $\eta \colon e \to e' \colon X \to E$ is $p$-cartesian if $f^*\eta = \eta f$ is $p_*$-cartesian for every $f \colon Y \to X$. Then $p$ is a fibration in $K$ if for every 2-cell $\beta \colon b \to p e$ there is a cartesian $\hat\beta \colon e' \to e$ such that $p e' = b$ and $p \hat\beta = \beta$.
+By way of spelling out the first definition, we may define a 2-cell $\eta \colon e \to e' \colon X \to E$ to be **$p$-cartesian** if $f^*\eta = \eta f$ is $p_*$-cartesian for every $f \colon Y \to X$.  Since this definition already incorporates stability under pullback, we can then say that $p$ is a fibration in $K$ if for every 2-cell $\beta \colon b \to p e$ there is a cartesian $\hat\beta \colon e' \to e$ such that $p e' = b$ and $p \hat\beta = \beta$.
 
 The third definition is perhaps the simplest.  Of course, it is implied by the second (take $f = 1$), but the converse is also true by the pasting lemma for [[comma object|comma]] and [[pullback]] squares.
 
 We can show that the first and third definitions are equivalent by using the representability of fibrations and adjunctions, plus the following lemma.
 
-**Lemma.** _A functor $p \colon E \to B$ is a cloven fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$._
-
++--{: .un_lemma}
+###### Lemma
+A functor $p \colon E \to B$ is a [[cleavage|cloven]] Street fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$.
+=--
 +-- {: .proof }
-_Proof._
-First, recall that the 2-category $Cat/X$ has objects the functors $C \to X$, as morphisms the commuting triangles
-$$\array{C & \stackrel{h}{\to} & C' \\ & f \searrow \swarrow g &  \\  & X,  & }$$
-and as 2-cells the natural transformations $\alpha : h_1 \to h_2$ such that $g\alpha = id_f$.
+###### Proof
+First, recall that the 2-category $Cat/B$ has objects the functors $C \to B$, as morphisms the triangles
+$$\array{C & \xrightarrow{h} & C' \\ & f \searrow \cong \swarrow g &  \\  & B  & }$$
+which commute up to specified isomorphism, and as 2-cells the natural transformations $\alpha : h_1 \to h_2$ which commute with the specified isomorphisms (i.e. $ f \xrightarrow{\cong} g h_1 \xrightarrow{g \alpha} g h_2 \xrightarrow{\cong} f$ is the identity).
 
-Next, recall that the [[comma category]] $B/p$ has objects the triples $(x, e, k)$, with $k \colon x \to p e$.  Let $\pi \colon B/p \to B$ denote the projection $(x, e, k) \mapsto x$.
+Next, recall that the [[comma category]] $B/p$ has objects the triples $(x, e, k)$, with $k \colon x \to p(e)$ a morphism in $B$.  Let $\pi \colon B/p \to B$ denote the projection $(x, e, k) \mapsto x$.  The canonical morphism $i\colon p \to B/p$ in $Cat/B$ sends $e\in E$ to the triple $(p(e),e,1_{p(e)})$.
 
-The canonical morphism $p \to B/p$ is simply the inclusion functor of identity maps $i b = 1 \colon p b \to p b$.
+Somewhat imprecisely, seeing both categories $E$ and $B/p$ as sitting over $B$ means that functors between those should be the identity (up to specified isomorphism) on the $b$ component, and natural transformations should have the identity as their $b$ component (modulo the specified isomorphisms).
 
-Somewhat imprecisely, seeing both categories $E$ and $B/p$ as sitting over $B$ means that functors between those should be the identity on the $b$ component, and natural transformations should have the identity as their $b$ component.
-
-To give an adjunction $i \dashv r$ it suffices to give, for each $k \colon x \to p e$ in $B/p$, an object $r k$ in $E$ such that $p r k = x$ and an arrow $i r k = 1_x \to k$ in $B/p$ that is [[universal arrow|universal]] from $i$ to $k$.  For the adjunction to live in $Cat/B$ we must have that $\pi \circ i r k = 1_{p r k} = 1_x$, so the universal arrow must be of the form
+Now, to give an adjunction $i \dashv r$ in $Cat$, it suffices to give, for each object $k \colon x \to p(e)$ in $B/p$, an object $r(x,e,k) = r(k)$ in $E$ and an arrow $i(r(k)) = (p(r(k)), r(k), 1_{p(r(k))}) \to (x,e,k)$ in $B/p$ that is [[universal arrow|universal]] from $i$ to $k$.  Such an arrow consists of a pair of morphisms $\theta_k\colon p(r(k)) \to x$ in $B$ and $\epsilon_k\colon r(k) \to e$ in $E$ such that
 $$
 \array{
-  x & \overset{1}{\to} & x \\
-  \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
-  x & \underset{k}{\to} & p e
+  p(r(k)) & \overset{1}{\to} & p(r(k)) \\
+  \mathllap{\theta} \downarrow & & \downarrow \mathrlap{p(\epsilon_k)} \\
+  x & \underset{k}{\to} & p(e)
 }
 $$
-and thus amounts to a choice of $\epsilon_k \colon r k \to e$ in $E$ such that $p \epsilon_k = k$.
+commutes, i.e. such that $p(\epsilon_k) = k \circ \theta_k$.
 
-The universal property of $\epsilon_k$ tells us that for any other morphism in $B/p$ from some $i y$ to $k$, i.e., for any $y$ and any pair $(f,g)$ making the square
+Note that since $x = \pi(x,e,k)$, the morphisms $\theta$ supply a natural transformation $\theta\colon p r \to \pi$, not necessarily invertible.  By general [[doctrinal adjunction]] arguments, in order for $i \dashv r$ to be an adjunction in $Cat/B$, it is necessary and sufficient that $\theta$ be invertible (and we then use it to make $r$ into a morphism in $Cat/B$).
+
+Now, the universal property of $(\theta_k,\epsilon_k)$ tells us that for any other morphism in $B/p$ from some $i(y)$ to $k$, i.e., for any $y$ and any pair $(f,g)$ making the square
 $$
 \array{
-  p y & \stackrel{1}{\to} & p y \\
-  \mathllap{f} \downarrow & & \downarrow \mathrlap{p g} \\
-  x & \underset{k}{\to} & p e
+  p(y) & \stackrel{1}{\to} & p(y) \\
+  \mathllap{f} \downarrow & & \downarrow \mathrlap{p(g)} \\
+  x & \underset{k}{\to} & p(e)
 }
 $$
-commute, there is a unique map $h \colon y \to r k$ in $B$ such that the above square factors in $B/p$ as
+commute, there is a unique map $h \colon y \to r(k)$ in $B$ such that the above square factors in $B/p$ as
 $$
 \array{
-  p y & \stackrel{1}{\to} & p y \\
-  \mathllap{p h} \downarrow &  & \downarrow \mathrlap{p h} \\
-  \mathllap{p r k =} x & \stackrel{1}{\to} & x \mathrlap{= p r k}\\
-  \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
-  x & \underset{k}{\to} & p e.
+  p(y) & \stackrel{1}{\to} & p(y) \\
+  \mathllap{p(h)} \downarrow &  & \downarrow \mathrlap{p(h)} \\
+  \mathllap{p(r(k))} & \stackrel{1}{\to} & \mathrlap{p(r(k))}\\
+  \mathllap{\theta_k} \downarrow & & \downarrow \mathrlap{p(\epsilon_k)} \\
+  x & \underset{k}{\to} & p(e).
 }
 $$
+In other words, the universal property provides a unique $h$ such that $\epsilon_k \circ h = g$ and $\theta_k \circ p(h) = f$, which exactly asserts that $\epsilon_k$ is a [[cartesian arrow]].
 
-In other words, the universal property provides a unique $h$ such that $\epsilon_k h = g$ and $p h = f$, which exactly asserts that $\epsilon_k$ is a [[Grothendieck fibration|cartesian]] lift of $k$.
-
-So the existence of a right adjoint to $i$ means precisely that for each morphism $k \colon x \to p e$ a choice is given of a cartesian lift of $k$, which means in turn that $p$ is a cloven fibration.
-
+Thus, the existence of a right adjoint to $i$ means precisely that for each morphism $k \colon x \to p(e)$, a choice is given of a cartesian lift of $k$ up to isomorphism.  In turn, this means that $p$ is a cloven fibration.
 =--
 
-It follows that $p \colon E \to B \in K$ is representably a fibration if and only if the adjunction $i \dashv r$ exists in $K/B$.
+It follows that a morphism $p \colon E \to B$ in any 2-category $K$ is representably a fibration (i.e. satisfies the first definition) if and only if the adjunction $i \dashv r$ exists in $K/B$ (i.e. it satisfies the third condition).
 
-Because $K$ is finitely complete, we may form the [[tricategory]] $Span(K)$ of [[spans]] in $K$.  Then $K/B$ is isomorphic to $Span(K)(B,1)$.  Now [[comma object|recall]] that $B/p$ can be expressed as a pullback or span composite
+Now we connect the first three conditions with the third.  Because $K$ is finitely complete, we may form the [[tricategory]] $Span(K)$ of [[spans]] in $K$.  In particular, $K/B$ is equivalent to the hom-2-category $Span(K)(B,1)$.  Now [[comma object|recall]] that $B/p$ can be expressed as a pullback or span composite
 $$
 \array{
   & & & & B/p & & & & \\
