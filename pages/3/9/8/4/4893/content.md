@@ -252,6 +252,7 @@ In the study of [[quantum field theory]] and [[string theory]] such kinds of rel
 
 * The [[AdS/CFT correspondence]] conjectures specifically a holographic relation between [[quantum gravity]] on a 10-dimensional asymptotically [[anti-de Sitter spacetime]] and a superconformal [[Yang-Mills theory]] on its asymptotic boundary. More generally, this specific construction is supposed to apply, with variations, in many different dimensions.
 
+See also [[higher category theory and physics]].
 
 ## References
 
@@ -262,7 +263,7 @@ The discussion of transformations between 2d FQFTs and how these encode boundary
 
 from slide 65 on.
 
-A comparatively very well formally understood case of QFT holography is the relation between 3-dimensional [[Chern-Simons theory]] and the 2-dimensional [[WZW-model]]. This is formalized by the [[Reshetikhin?Turaev model]] on the 3-dimensional side and the [[Fuchs-Runkel-Schweigert construction]] on the 2-dimensional side.
+A formally  comparatively well understood case of QFT holography is the relation between 3-dimensional [[Chern-Simons theory]] and the 2-dimensional [[WZW-model]]. This is formalized by the [[Reshetikhin?Turaev model]] on the 3-dimensional side and the [[Fuchs-Runkel-Schweigert construction]] on the 2-dimensional side.
 
 Remarks on how the relation between Reshitikhin-Turaev and FSR seem to have an interpretation in terms transformations between 3-functors are at
 
