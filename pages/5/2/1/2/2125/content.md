@@ -921,6 +921,15 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains on simplicial sets]] $S^\bullet \in SSet$, i.e. $A = C(S^\bullet, R)$ it is known that the Moore complex [[dg-algebra]] $N^\bullet(A)$ equipped with the [[cup product]] is an [[E-k-operad|E-∞]]-[[algebra over an operad|algebra]]. See [[cochains on simplicial sets]] for details on this.
 
 
+## Related concepts
+
+* [[Dold-Kan correspondence]]
+
+* **monoidal Dold-Kan corespondence**
+
+* [[operadic Dold-Kan correspondence]]
+
+
 ## References ##
 
 Original results are in
@@ -964,12 +973,12 @@ The Quillen equivalence between connected cochain dg-algebras and cosimplicial a
 
 The Quillen equivalence between $E_\infty$ dg-algebras and $E_\infty$ simplicial algebras is in
 
-* [[Michael Mandell]], _Topological Andr&eacuteM-Quillen Cohomology and E-infinity Andr&eacute;-Quillen Cohomology_ Adv. in Math., Adv. Math. 177 (2) (2003) 227&#8211;279
+* [[Michael Mandell]], _Topological Andr&#233;-Quillen Cohomology and $E_\infty$ Andr&#233;-Quillen Cohomology_ Adv. in Math., Adv. Math. 177 (2) (2003) 227&#8211;279
 {#Mandell}
 
 and
 
-* Birgit Richter
+* [[Birgit Richter]]
 
   _Symmetry properties of the Dold-Kan correspondence_ ([pdf](http://www.math.uni-hamburg.de/home/richter/doldkan.pdf))
 
