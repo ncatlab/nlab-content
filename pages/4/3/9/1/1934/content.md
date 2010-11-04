@@ -9,44 +9,51 @@
 =--
 =--
 
-#Contents#
+# Big and little toposes #
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-Recall that a [[Grothendieck topos]] $T$ is a [[category of sheaves]] $T = Sh(S)$ on some [[site]] $S$.
+There are two different (related) relationships between [[Grothendieck topoi]] and a notion of "generalized space."  (Recall that a Grothendieck topos $T$ is a [[category of sheaves]] $T = Sh(S)$ on some [[site]] $S$.)
 
-If $S = Op(X)$ is the [[category of open subsets]] of a [[topological space]] $X$ (or some [[manifold]] or the like) then one calls $T$ a **petit topos**. 
+On the one hand, we can regard the topos *itself* as a generalized space.  This tends to be a useful point of view when the site $S$ is the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ (or some [[manifold]] or the like), or some other site which we regard as containing data from only "one space."  In this case, we refer to $T$ as a **little topos**, or (if we fail to translate the original French) a **petit topos**.
 
-If $S$ on the other hand is a category of _all test [[space]]s_ in some sense, such as
+On the other hand, we can view a topos $T$ as a well-behaved category whose *objects* are generalized spaces.  This tends to be a useful point of view when the site $S$ is a category of _all test [[space]]s_ in some sense, such as [[Top]], [[Diff]], or [[CartSp]].  In this case, we refer to $T$ as a **big topos**, or (in French) a **gros topos**.
 
-* the category [[Top]] of all [[topological space]]s;
+These distinctions carry over in a straightforward way to higher topoi such as [[(∞,1)-topoi]].
 
-* the category [[Diff]] of all smooth [[manifold]]s
+## Relationships
 
-etc. one call $T$ a **gros topos** .
+Objects in a big topos may be thought of as [[space]]s _modeled on $S$_, in the sense described at [[motivation for sheaves, cohomology and higher stacks]] and at [[space]].
 
-Objects in a gros topos may be thought of as [[space]]s _modeled on $S$_ in the sense described at [[motivation for sheaves, cohomology and higher stacks]] and at [[space]].
+On the other hand, the objects of a petit topos, such as $Sh(X)$, can also be regarded as a kind of generalized spaces, but generalized spaces _over $X$_ on which the rigid structure of morphisms in $Op(X)$ (only inclusions of subsets, no more general maps) induces a correspondingly rigid structure so that they are not all that general.  In fact, $Sh(Op(X))$ is equivalent to the category of [[etale space]]s over $X$.  More generally, for any topos $E$, the objects of $E$ can be identified with [[local homeomorphisms of toposes]] into $E$.
 
-Also the objects in a petit topos $Sh(Op(X))$ -- a [[category of sheaves]] on the [[category of open subsets]] of a [[topological space]] $X$ -- are a kind of generalized spaces, but generalized spaces _over $X$_ on which the rigid structure of morphisms in $Op(X)$ (only inclusions of subsets, no more general maps) induces a correspondingly rigid structure so that they are not all that general. In fact, $Sh(Op(X))$ is equivalent to [[etale space]]s over $X$.
+From the "little topos" perspective, it can be helpful to think of a "big topos" as a "fat point," which is not "spread out" very much spatially itself, but contains within that point lots of different types of "local data," so that even spaces which are "rigidly" modeled on that point can have a lot of interesting cohesion and local structure.  (One should not be misled by this into thinking that a big topos has *only* one [[point of a topos|point]], although it is usually a [[local topos]] and hence has a "universal" point.)
 
-There is another notion of 'large' topos associated to a space $X$ (or more generally an object in a site), namely the topos of sheaves on the [[slice category]] $Top/X$, with the obvious notion of covering family; a family is covering if it is so under the functor $Top/X \to Top$. This site is often referred to as the [[large site of an object in a site|large site]] of $X$, as compared to the [[small site]], which is $Op(X)$ as above. The topos $Sh(Top/X)$ can be viewed as spaces modelled [[Top]] (or more generally some site), but parameterised by the representable sheaf $X$.
+## The big and little topos of an object
 
-## Definition
+If $X$ is a topological space, then the canonical little topos associated to $X$ is the sheaf topos $Sh(X)$.  On the other hand, if $S$ is a site of probes enabling us to regard $X$ as an object of a big topos $H = Sh(S)$, then we can also consider the topos $H/X$ as a representative of $X$.  These two toposes are often called the **little topos of $X$** (or **petit topos of $X$**) and the **big topos of $X$** (or **gros topos of $X$**) respectively.
 
-* The **petit topos of an object $a$ in a site $(C,J)$** is the category of sheaves on the [[small site]] of $a$.
+Note that if $X$ is actually an *object* of the site $S$, then $H/X$ can be identified with the topos of sheaves on the [[slice category|slice]] site $S/X$ (and otherwise, it can be identified with the topos of sheaves on the [[category of elements]] of $X\in Sh(S)$).  This site $S/X$ is often referred to as the [[big site]] of $X$, as compared to the [[little site]], which is $Op(X)$ (or appropriate replacement).  The topos $Sh(S/X)$ can be viewed as spaces modelled on $S$, but parameterised by the representable sheaf $X$.
 
-* A proposed axiomatization of the notion of gros topos is that of a [[cohesive topos]].
+The relationship between the big and little toposes of $X$ usually includes a [[local geometric morphism]] $H/X \to Sh(X)$, which is not an equivalence.
+
+
+## Axiomatizations
+
+* If a site $S$ is given by a [[Grothendieck pretopology]], then one can define an associated notion of a [[little site]] associated to any object of $S$, and hence both a little topos and a big topos.
+
+* One proposed axiomatization of the notion of big topos is that of a [[cohesive topos]].
 
 
 ## Examples
 
-For $X$ a [[topological space]], the _petit topos_ that it defines is the [[category of sheaves]] $Sh(X) := Sh(Op(X))$ on the [[category of open subsets]] of $X$. A general object in this topos is an [[etale space]] over $X$. The space $X$ itself is incarnated as the [[terminal object]] $X = * \in Sh(X)$.
+For $X$ a [[topological space]], the _little topos_ that it defines is the [[category of sheaves]] $Sh(X) := Sh(Op(X))$ on the [[category of open subsets]] of $X$. A general object in this topos can be regarded as an [[etale space]] over $X$. The space $X$ itself is incarnated as the [[terminal object]] $X = * \in Sh(X)$.
 
-A _gros topos_ in which $X$ is incarnated is a [[category of sheaves]] on a [[site]] of test spaces with which $X$ may be probed. For instance for $C =$ [[Top]], or [[Diff]] or [[CartSp]] with their standard [[coverage]]s, $Sh(C)$ is such a gros topos.
+On the other hand, a _big topos_ in which $X$ is incarnated is a [[category of sheaves]] on a [[site]] of test spaces with which $X$ may be probed. For instance for $C =$ [[Top]], or [[Diff]] or [[CartSp]] with their standard [[coverage]]s, $Sh(C)$ is such a big topos.
 
-In good cases the intrinsic properties of $X$ do not depend on whether one regards it as an object of a petit or a gros topos. For instance at [[cohomology]] in the section <a href="http://ncatlab.org/nlab/show/cohomology#NonabelianSheafCohomology">Nonabelian sheaf cohomology with constant coefficients</a> it is discussed how the [[nonabelian cohomology]] of a [[paracompact space|paracompact]] [[manifold]] $X$ with constant coefficients gives the same answer in each case.
+In good cases, the intrinsic properties of $X$ do not depend on whether one regards it as a little topos or as an object of a gros topos. For instance at [[cohomology]] in the section <a href="http://ncatlab.org/nlab/show/cohomology#NonabelianSheafCohomology">Nonabelian sheaf cohomology with constant coefficients</a> it is discussed how the [[nonabelian cohomology]] of a [[paracompact space|paracompact]] [[manifold]] $X$ with constant coefficients gives the same answer in each case.
 
 ## References
 
@@ -60,4 +67,26 @@ There is also something relevant in this article:
 
 * [[Mamuka Jibladze]], _Homotopy types for "gros" toposes_, thesis, [pdf](http://www.rmi.acnet.ge/~jib/thesis.pdf)
 
+A discussion and comparison of big vs little approaches to $(\infty,1)$-topos theory began at these blog entries:
+
+* [Cohesive (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html) and [Petit (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/petit_1toposes.html).
+
 [[!redirects gros topos]]
+[[!redirects petit topos]]
+[[!redirects little topos]]
+[[!redirects big topos]]
+[[!redirects gros toposes]]
+[[!redirects petit toposes]]
+[[!redirects little toposes]]
+[[!redirects big toposes]]
+[[!redirects gros topoi]]
+[[!redirects petit topoi]]
+[[!redirects little topoi]]
+[[!redirects big topoi]]
+[[!redirects big and little topoi]]
+[[!redirects little and big toposes]]
+[[!redirects little and big topoi]]
+[[!redirects gros and petit toposes]]
+[[!redirects gros and petit topoi]]
+[[!redirects petit and gros toposes]]
+[[!redirects petit and gros topoi]]
