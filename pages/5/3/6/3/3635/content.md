@@ -170,7 +170,19 @@ These notes, or at least the first few chapters of them, acted as course notes f
 
   * 10\.7 Pseudo-functors between 2-groups 
 
-(Up to here, more-or-less, is in the 10 chapter version. There are some additions since that version that are reflected here but not yet downloaded to the Lab.)
+* 11 Other enrichments, other versions of homotopy coherence
 
+  * 11\.1 Other enrichments`?
+
+  * 11\.2 From simplicially enriched to chain complex enriched
+
+    * [[Eilenberg-Zilber map]], [[shuffle]], [[products of simplices]]
+
+    * [[monoidal Dold-Kan correspondence]]
+ 
+* 12 More simplicial constructions!
 
 category: reference
+
+
+[[!redirects Crossed Menagerie]]
