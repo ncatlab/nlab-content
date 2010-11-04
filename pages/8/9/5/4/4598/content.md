@@ -9,13 +9,9 @@
 =--
 =--
 
-* **Pontryagin class**
-
-* [[Chern class]]
-
-* [[Chern character]]
-
-***
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -27,6 +23,15 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 ## Definition
 
 (...)
+
+## Related concepts
+
+* **Pontryagin class**
+
+* [[Chern class]]
+
+* [[Chern character]]
+
 
 ## References
 
