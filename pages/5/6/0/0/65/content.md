@@ -66,7 +66,7 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 
 * for $n = \omega$: 
 
-   * Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
+   * Yves Lafont, [[Francois Métayer]], Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
 
 * for $n = \omega$ and all morphisms invertible, there is the [[model structure on strict omega-groupoids]]: 
 
@@ -87,14 +87,14 @@ But there are also full model structures for such situations. Notice that under 
 
 In 
 
-* F. M&#233;tayer, _Cofibrant complexes are free_ ([arXiv](http://arxiv.org/abs/math.CT/0701746))
+* [[Francois Métayer]], _Cofibrant complexes are free_ ([arXiv](http://arxiv.org/abs/math.CT/0701746))
 
 
-it is shown that _cofibrant_ $\omega$-categories with respect to the canonical model structure are precisely the "free" ones, where "free" here means "generated from a polygraph" as described in 
+it is shown that _cofibrant_ $\omega$-categories with respect to the canonical model structure are precisely the "free" ones, where "free" here means "generated from a [[polygraph]]" as described in 
 
-* F. M&#233;tayer, _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
+* [[Francois Métayer]], _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
 
-(Polygraphs are equivalent to [[computad|computads]].)
+([[Polygraphs]] are equivalent to [[computad|computads]].)
 
 We had some blog discussion about this at
 [Freely generated omega-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
