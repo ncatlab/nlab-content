@@ -2,17 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Monoidal categories
-+--{: .hide}
-[[!include monoidal categories - contents]]
-=--
-#### Homotopy theory
-+--{: .hide}
-[[!include homotopy - contents]]
-=--
 #### Homological algebra
 +--{: .hide}
 [[!include homological algebra - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
 =--
 =--
 =--
@@ -25,8 +21,9 @@
 
 ## Idea
 
-The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)[[simplicial group]]s and (co)[[chain complex]]es.
+The _monoidal Dold-Kan correspondence_ relates [[simplicial algebra]]s with [[differential graded algebra]]s.
 
+There is a plain [[Dold-Kan correspondence]], which establishes an equivalence between (co)[[simplicial group]]s and (co)[[chain complex]]es.
 Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monoidal structure, to some extent strictly, but generally in the sense of [[homotopy theory]] and  [[higher category theory]].
 
 This way it extends to a [[Quillen equivalence]] between [[model categories]] of _[[monoids]]_ in simplicial groups -- [[simplicial ring]]s -- and monoids in chain complexes -- [[dg-algebra]]s. 
@@ -64,6 +61,8 @@ The simplicial version is made monoidal by replacing the other functor by someth
 
 
 ## Simplicial algebras and chain dg-algebras {#simplicial}
+
+We first discuss the extent to which the [[Moore complex]] functor is monoidal. Then we use this to discuss various Quillen equivalences on model categories of monoids that it induces.
 
 
 ### Bilax monoidal Frobenius structure on normalized chains {#BilaxFrobStruc}
