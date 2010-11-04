@@ -1,0 +1,1 @@
+Given a [[normal modal logic]], $\Lambda$,  a set, $\Gamma$ of formulae is said to be $\Lambda$-consistent if $\neg(\Gamma\vdash_\Lambda \bot)$, i.e., $\bot$ is not [[modal logic|deducible]] from $\Gamma$.
