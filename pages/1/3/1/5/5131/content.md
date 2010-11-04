@@ -50,7 +50,6 @@ where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
 
 +-- {: .un_prop}
 ###### Proposition
-
 The non-degenerate simplices in the [[product]] 
 $$
   \Delta[p] \times\Delta[q]
@@ -79,8 +78,6 @@ In particular, take $K = \Delta[p]$ and $L= \Delta[q]$ with $x_p \in \Delta[p]_p
 
 
 ### Non-degenerate simplices in a product 
-
-
 If we represent a vertex of a product by a 'column vector' rather than the more usual 'row vector' for the moment, then any non-degenerate $(p+q)$-simplex of $\Delta[p]\times \Delta[q]$ can be represented in the form of an ordered list of vertices,
 
 $$\left(\begin{array}{ccccccccc}
@@ -151,7 +148,7 @@ Our $(2,1)$-example is really too simple and small to illustrate this well, but 
 
 <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0%3C 1)\ar@{-}[r]%26(0%3C 2)\ar@{-}[r]%26(1%3C 2).}"/>
 
-(This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left.)
+(This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left. The vertex $(0\lt 1)$ corresponds to the shuffle with $\mu_1 = 0, \mu_1 = 1$, and so on.)
  
 We need here to explain the partial order.  We take the $\mu$-signature' of the shuffle, that is, the ordered set $\mu_1\lt\ldots \lt \mu_p$. (Of course, this determines the $\nu$-signature as that is the complement of $\mu$.)
 
@@ -164,18 +161,36 @@ $$(\mu, \nu) \leq (\mu\prime,\nu\prime)$$
 if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We refer to this poset as $(Shuff_{(p,q)},\leq)$.
 =--
 
-(Diagrams under construction.. this will be a mess until after I have eaten!)
 Going to $(3,1)$,  the fact that $q = 1$ will mean that the poset is linear:
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0<1<2)\ar@{-}[r]& (0<1<3)\ar@{-}[r]&(0<2<3)\ar@{-}[r]&(1<2<3).}"/> 
-This is general:
-\begin{lemma}
-If $p = 1$ or $q = 1$, then  $(Shuff_{(p,q)},\leq)$ is a linear poset.
-\end{lemma}
-\textbf{Proof:}  If $p = 1$, $\bm{\mu} = (\mu_1)$ is a singleton, and the poset will be:
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0)\ar@{-}[r]&(1)\ar@{-}[r]&\quad \ldots\quad \ar@{-}[r] &(q)}."/>
-For $q = 1$, $\bm{\nu} = (\nu_1)$, and the poset is 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0<1< \ldots < p-1)\ar@{-}[r]& (0<1< \ldots < p-2<p)\ar@{-}[r]&\quad \ldots\quad\ar@{-}[r]&(1<\ldots <p),}"/>
-where at each stage one misses out the single $\nu$-value
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0%3C 1%3C 2)\ar@{-}[r]%26(0%3C 1%3C 3)\ar@{-}[r]%26(0%3C 2%3C 3)\ar@{-}[r]%26(1%3C 2%3C 3).}"/> 
+
+This is general:
+
++--
+{: .un_lemma}
+######Lemma
+If $p = 1$ or $q = 1$, then  $(Shuff_{(p,q)},\leq)$ is a linear poset.
+=--
+######Proof######
+If $p = 1$, $\mu = (\mu_1)$ is a singleton, and the poset will be:
+
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0)\ar@{-}[r]%26(1)\ar@{-}[r]%26\quad\ldots\quad\ar@{-}[r]%26(q)}."/>
+
+For $q = 1$, $\nu = (\nu_1)$, and the poset is 
+
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0%3C 1%3C \ldots%3C p-1)\ar@{-}[r]%26 (0%3C 1%3C  \ldots %3C  p-2%3C p)\ar@{-}[r]%26\quad \ldots\quad\ar@{-}[r]%26(1%3C \ldots %3C p),}"/>
+where at each stage one misses out the single $\nu$-value.
+
+In all cases, each position is obtained from the one immediately to its 'left' by increasing _one_ value, yet remaining with a shuffle.  This is more clearly seen in the (2,2) example, which is no longer linear.  First we display the grid in which things are happening.
+
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0,2)\ar@{-}[r]\ar@{-}[d] %26 (1,2)\ar@{-}[r]\ar@{-}[d] %26 (2,2)\ar@{-}[d]\\(0,1)\ar@{-}[r]\ar@{-}[d] %26 (1,1)\ar@{-}[r]\ar@{-}[d] %26 (2,1)\ar@{-}[d]\\(0,0)\ar@{-}[r]%26(1,0)\ar@{-}[r]%26(2,0)}"/>
+
+We can then look at the shuffle poset, noting again that it is not linear:
+
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26%26(1%3C 2)\ar@{-}[dr]%26%26\\(0%3C 1)\ar@{-}[r]%26(0%3C 2)\ar@{-}[ur]\ar@{-}[dr]%26%26(1%3C 3)\ar@{-}[r]%26(2%3C 3)\\%26%26(0%3C 3)\ar@{-}[ur]%26%26}"/>
+
+The left hand shuffle, labelled $(0\lt1)$, corresponds to $\left(\begin{array}{ccccc}0&1&2&2&2\\0&0&0&1&2\end{array}\right)$, so gives the path along the bottom of the square and then up the right hand side. 
+
 
 [[!redirects products of simplices]]
