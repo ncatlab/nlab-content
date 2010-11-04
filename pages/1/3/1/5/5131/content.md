@@ -17,22 +17,51 @@ This page describes aspects of the combinatorics of [[product]]s of [[simplicial
 
 ## Properties
 
++-- {: .un_definition}
+###### Notation
+
 For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
-for $\mu = (\mu_1, \mu_2, \cdots, \mu_q)$ a sequence of natural numbers in $\{0, \cdots p+q\}$, write
+for $\mu = (\mu_1 \lt  \mu_2, \lt \cdots \lt \mu_q)$ a sequence of natural numbers in $\{0, \cdots p+q\}$, write
 
 $$
   s_\mu : X_p \to X_{p+q}
 $$
 
-for the map dual to (...)
+for the map dual to to the sequence 
 
+$$
+  [p+q] 
+    \stackrel{\sigma_{\mu_q}}{\to}
+  [p+q-1]
+    \stackrel{\sigma_{\mu_{q-1}}}{\to}
+  \cdots
+   \stackrel{\sigma_{\mu_1}}{\to}
+   [p]
+  \,,
+$$
+
+where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
 
-The non-degenerate simplices in the [[product]] $\Delta[p] \times\Delta[q]$ are precisely those of the form $(s_\mu x , s_\nu y)$ for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\Delta[p]$ and $\Delta[q]$, respectively.
+The non-degenerate simplices in the [[product]] 
+$$
+  \Delta[p] \times\Delta[q]
+$$ 
+
+of [[simplices]] in [[sSet]] are precisely those of the form 
+
+$$
+  (s_\mu x , s_\nu y) \in \Delta[p] \times \Delta[q]
+$$ 
+
+for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\Delta[p]$ and $\Delta[q]$, respectively.
 
 =--
+
 
 
 ## Exposition: Shuffles and products of simplices
@@ -113,7 +142,7 @@ Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-shuffles.
 Our $(2,1)$-example is really too simple and small to illustrate this well, but the two cases $(3,1)$ and $(2,2)$ do a much better job, but even so we first look at the (2,1) example:
 
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0<1)\ar@{-}[r]%26(0<2)\ar@{-}[r]%26(1<2).}"/>
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0gt1)\ar@{-}[r]%26(0gt2)\ar@{-}[r]%26(1gt2).}"/>
 
 (This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left.)
  
