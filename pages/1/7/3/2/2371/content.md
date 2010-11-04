@@ -58,6 +58,8 @@
 
 * [[dg-algebra]]
 
+* [[E-∞ algebra]]
+
 * [[A-∞ algebra]]
 
 * [[L-∞ algebra]]
