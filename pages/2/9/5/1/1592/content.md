@@ -211,7 +211,7 @@ The nPOV descriptions above lend themselves easily to generalization.
 =--
 
 
-Let $\mathbf{H}$ be a [[locally contractible (∞,1)-topos]] $\mathbf{H} \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}} \infty Grpd$. Write 
+Let $\mathbf{H}$ be a [[locally ∞-connected (∞,1)-topos]] $\mathbf{H} \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}} \infty Grpd$. Write 
 
 $$
   \mathbf{\Pi} := LConst \circ \Pi : \mathbf{H} \to \mathbf{H}
@@ -233,11 +233,6 @@ $$
   \,.
 $$
 
-+-- {: .query}
-
-[[Urs Schreiber]]: various $n$s here will be off by $\pm 1$. Too tired to straighten this out right now.
-
-=--
 
 
 Write
@@ -246,7 +241,7 @@ $$
   \mathbf{\Pi}_n : \mathbf{H} \stackrel{\mathbf{\tau}_{\leq n}}{\to} \mathbf{H}
 $$
 
-for the internal **homotopy $n$-groupoid**. For $X \in \mathbf{H}$ we have the [[Postnikov tower in an (∞,1)-category|(∞,1)-Postnikov tower]]
+for the **[[fundamental infinity-groupoid of a locally infinity-connected (infinity,1)-topos|internal fundamental n-groupoid]]**. For $X \in \mathbf{H}$ we have the [[Postnikov tower in an (∞,1)-category|(∞,1)-Postnikov tower]]
 
 $$
   \cdots \to \mathbf{\Pi}_2(X) \to \mathbf{\Pi}_1(X) \to \mathbf{\Pi}_0(X)
