@@ -280,7 +280,7 @@ is equivalent to the identity.
 For $k$ a commutative ring, there is a [[Quillen equivalence]]
 
 $$
-  (Q \dashv N) : dgAlg_k \stackrel{\overset{Q}{\leftarrow}}{\underset{N}{\to}}  Alg_k^{\Delta^{op}}
+  (\Gamma^{mon} \dashv N) : dgAlg_k \stackrel{\overset{\Gamma^{mon}}{\leftarrow}}{\underset{N}{\to}}  Alg_k^{\Delta^{op}}
 $$
 
 between 
@@ -291,8 +291,10 @@ between
 
 =--
 
+This appears in section 4.2 of ([SchwedeShipley](#SchwedeShipley)).
 
-Below in [Simplicial algebras and dg-Algebras](#AlgebrasOverdgAlgebra) a generalization of this statement is discussed. But it is worthwhile to spell out the proof just of this special case here. This appears in section 4.2 of ([SchwedeShipley](#SchwedeShipley)).
+Below in [Simplicial algebras and dg-Algebras](#AlgebrasOverdgAlgebra) a generalization of this statement is discussed. But it is worthwhile to spell out the proof just of this special case here. 
+
 
 +-- {: .proof}
 ###### Proof
@@ -312,7 +314,7 @@ as a [[Quillen equivalence]] between the [[model structure on simplicial T-algeb
 
 Both model categories involved are [[monoidal model categories]]. We claim that the above Quillen adjunction is a [[monoidal Quillen adjunction]] with respect to this structure.
 
-First of all $N$ is a [[lax monoidal functor]] with the [[lax monoidal transformation]] $\Nabla_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)$ given by the [[Eilenberg-Zilber map]]. As described at [[oplax monoidal functor]] this induces an oplax monoidal structure on $\Gamma$ given by the composite
+First of all $N$ is a [[lax monoidal functor]] with the [[lax monoidal transformation]] $\nabla_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)$ given by the [[Eilenberg-Zilber map]]. As described at [[oplax monoidal functor]] this induces an oplax monoidal structure on $\Gamma$ given by the composite
 
 $$
   \Delta_{X,Y}
@@ -334,8 +336,40 @@ Therefore with the <a href="http://ncatlab.org/nlab/show/monoidal+Quillen+adjunc
 
 =--
 
+But not only is $(\Gamma \dashv N)$ but also $(N \dashv \Gamma)$. This yields:
+
++-- {: .un_prop}
+###### Proposition
+
+For $k$ a commutative ring, there is a [[Quillen equivalence]]
+
+$$
+  (N^{mon} \dashv \Gamma) : 
+    Alg_k^{\Delta^{op}}
+ \stackrel{\overset{N^{mon}}{\leftarrow}}{\underset{\Gamma}{\to}}  dgAlg_k  
+$$
+
+for the above model structures.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check that 
+
+$$
+  (N \dashv \Gamma) : 
+    Mod_k^{\Delta^{op}}
+ \stackrel{\overset{R^{mon}}{\leftarrow}}{\underset{\Gamma}{\to}} Ch_\bullet^+(k)  
+$$
+
+is a [[monoidal Quillen adjunction]]: the oplax monoidal structure on the left adjoint $N$ is given by the [[Alexander-Whitney map]], which is a weak equivalence, as discussed there.
+
+Therefore with the <a href="http://ncatlab.org/nlab/show/monoidal+Quillen+adjunction#LiftToMonoids">theorem on lifts to monoids</a> described at [[monoidal Quillen adjunction]] the claim follows.
 
 
+=--
 
 #### Simplicial $A_\bullet$-algebras and connective dg-algebras {#AlgebrasOverdgAlgebra}
 
@@ -912,6 +946,9 @@ The bilax monoidalness and Frobenius monoidalness of the normalized chains/Moore
    _[[Monoidal Functors, Species and Hopf Algebras]]_, 
 {#AguiarMahajan}
 
+Explicit details on many constructions of the lax/oplax structure are given in section 11 of
+
+* [[Tim Porter]], _[[Crossed Menagerie]]_
 
 The Quillen equivalence between connective chain dg-algebras and simplicial algebras is discussed in.
 
