@@ -66,6 +66,13 @@ The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signat
 
 =--
 
++-- {: .un_remark}
+###### Remark
+
+The sum may be understood as being over all non-degenerate simplices in the product $\Delta[p] \times \Delta[q]$. See [[products of simplices]] for more on this.
+
+=--
+
 +-- {: .un_prop}
 ###### Proposition
 
