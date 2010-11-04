@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,8 +13,7 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -24,6 +22,7 @@
 _Doctrinal Adjunction_ is the title of a 1974 paper ([Kelly](#Kelly)) that gives conditions under which [[adjunction|adjoint morphisms]] $f \dashv u$ in a [[2-category]] $K$, and additionally the unit and counit, may be lifted to $T$-$Alg_l$, for some [[2-monad]] $T$ on $K$.  
 
 Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, lax $T$-morphisms and $T$-transformations, but the result works as well for pseudo algebras.
+
 
 ## Statement
 
@@ -57,6 +56,7 @@ $(f, \bar f) \dashv (u, \bar u)$ in $T$-$Alg_l$ if and only if $f \dashv u$ in $
 
 =--
 
+
 ## In terms of double categories
 
 Doctrinal adjunction can be stated cleanly in terms of [[double categories]].  Namely, for any 2-monad $T$ there is a double category  $T$-**Alg** whose objects are $T$-algebras, whose horizontal arrows are lax $T$-morphisms, whose vertical arrows are colax $T$-morphisms, and whose 2-cells are 2-cells in the base 2-category $K$ that make a certain cube commute.  The horizontal 2-category of this double category is $T$-$Alg_l$, and its vertical 2-category is $T$-$Alg_c$.  There is an obvious forgetful double functor $T \mathbf{Alg} \to \mathbf{Sq}(K)$, where $\mathbf{Sq}(K)$ is the double category of squares or "quintets" in $K$.
@@ -71,6 +71,7 @@ It is straightforward to verify that a [[conjunction]] in the double category $T
    1. Data making $f'$ a left adjoint of $u$ in the horizontal 2-category.
 
 Of these, the second is actually a general statement about companions and conjoints in any double category.  Of course, the first is a special property of the forgetful double functor from the double category of $T$-algebras.
+
 
 ## Examples
 
@@ -93,6 +94,8 @@ For two [[adjoint functor]]s $(L \dashv R)$ between monoidal categories, $L$ is 
 
 See [[oplax monoidal functor]] for more details.
 
+
 ## References
 
 * [[Max Kelly]], _Doctrinal Adjunction_ (1974)
+{#Kelly}
