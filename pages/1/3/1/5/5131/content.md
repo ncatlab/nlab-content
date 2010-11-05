@@ -162,7 +162,7 @@ Given two $(p,q)$-shuffles, represented by $(\mu, \nu)$ and $(\mu\prime,\nu\prim
 
 $$(\mu, \nu) \leq (\mu\prime,\nu\prime)$$
 
-if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We refer to this poset as $(Shuff_{(p,q)},\leq)$.
+if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We refer to this poset as $(Shuff(p,q),\leq)$.
 =--
 
 Going to $(3,1)$,  the fact that $q = 1$ will mean that the poset is linear:
@@ -173,7 +173,7 @@ This is general:
 
 +--{: .un_lemma}
 ######Lemma
-If $p = 1$ or $q = 1$, then  $(Shuff_{(p,q)},\leq)$ is a linear poset.
+If $p = 1$ or $q = 1$, then  $(Shuff(p,q),\leq)$ is a linear poset.
 =--
 
 +-- {: .proof}
@@ -233,6 +233,62 @@ From $(1 \lt 2)$ or $(0\lt3)$, there is only on way to go, namely to $(1 \lt 3)$
 ####Summary####
 
 Each path corresponds to a simplex of maximal dimension in the product. The poset encodes the simplest relationships between those paths with the links in the Hasse diagram corresponding to simple changes in the path, and adjacency of the two simplices in the product, but note that the poset is usually not linear.
+
+##The Anti-Lex order
+
+There is a useful total order on $Shuff(p,q)$ related to the partial order and which is useful when checking cancellation of terms in non-commutative contexts.  This is the **anti-lexicographic order.
+
+
+We  represent   a $(p,q)$-shuffle $(\mu,\nu)$ by an increasing $\mu$-sequence $\mu_1\lt \ldots \lt \mu_p$, (so with complementary $\nu$-sequence $\nu_1\lt \ldots \lt \nu_q$). 
+
+We order the $(\mu,\nu)$ using just the $\mu$-sequence as, of course, that determines the $\nu$-sequence completely.  Inductively in $p$, we set 
+
+
+$$\mu = (\mu_1,\ldots, \mu_p)\prec \mu\prime = (\mu\prime_1,\ldots, \mu\prime_p),$$
+
+(i) if $\mu_p\lt \mu\prime_p$,
+
+or
+
+(ii) if $\mu_p = \mu\prime_p$ and $\mu_p$ is odd, 
+
+$$(\mu_1,\ldots, \mu_{p-1})\prec (\mu\prime_1,\ldots, \mu\prime_{p-1}),$$
+
+whilst if $\mu_p = \mu\prime_p$ and $\mu_p$ is even, 
+
+$$(\mu_1,\ldots, \mu_{p-1})\succ (\mu\prime_1,\ldots, \mu\prime_{p-1}),$$ 
+
+where we adopt the notation $(\mu_1,\ldots, \mu_p)$ instead of $(\mu_1\lt\ldots \lt \mu_p)$.
+
+For example, on our (2,2)-shuffles, the total order is 
+
+$$(0,1) - (1,2) - (0,2) - (0,3) - (1,3) - (2,3). $$
+
+We note the lexicographic order on the sector with $\mu_2 = 2$ is reversed.
+
+For illustrative purposes, we will look at two other examples. 
+
+ First a generic $(p,1)$ case:  the shuffle poset for $(p,1)$ is, more or less, 
+
+$$(0,\ldots , p-2) - (0,\ldots, p-4,p-3,p-1) - (0, \ldots, p-4,p-2,p-1) - 
+ \ldots  -  (1, \ldots , p-1)$$
+
+as, at each position, there is only one transposition that can be applied.  The anti-lex total order will correspond _exactly_ to this if $p-1$ is odd, but, if $p-1$ is even, it will reverse the order on the last $p-1$ positions giving 
+
+$$(0,\ldots , p-2) - (1, \ldots , p-1) - (0,2, \ldots, p-1) -  \ldots  - (0,\ldots, p-3,p-1).$$
+
+There are various points to note.  Firstly that if $p$ is even, the permutation corresponding to $(1, \ldots , p-1)$ is odd.  Secondly, the geometric picture is simply a prism, $\Delta[p]\times \Delta[1]$, and we can easily interpret the above order as a filling scheme for the simplices of $(\Delta[p]\times \Delta[1])\times \Delta[1]$, starting with the empty shell of 
+
+$$(\Delta[p]\times \Delta[1])\times \{0\} \cup \partial(\Delta[p]\times \Delta[1])\times \Delta[1],$$ 
+
+together with part of the top of the 'canister'.  (In general the total order seems to correspond to some sort of filling scheme although this is not always as clear as here.)
+
+
+
+
+
+
+
 
 [[!redirects product of simplices]]
 [[!redirects products of simplices]]
