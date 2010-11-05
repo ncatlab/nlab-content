@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
 +--{: .hide}
 [[!include foundations - contents]]
@@ -9,59 +9,68 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc} 
 
 ## Idea
 
-Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] "the archetypical [[category]] [[Set|SET]] of sets". However $SET$ itself can of course not be described from inside itself. But there may be objects in $SET$ ([[internal categories]]) that _look like_ $SET$ itself. These are called _universes_ or more specifically _[[Grothendieck universe]]s_ .
-
-There is also the notion of univese in [[type theory]].
+A universe is a realm within which [[mathematics]] may be thought of as taking place.  Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics.  There are several different kinds of 'universes'.
 
 
-## Universes as models for $SET$
+## Categories as universes
 
-Universes come into existence by the following process.
+Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] "the archetypical [[category]] [[Set|SET]] of sets".  Typically, the properties of $SET$ are formulated in [[first-order logic]] using a [[set theory]] such as [[ZFC]] or (more directly) [[ETCS]].
 
-1. We assume that we understand _a priori_ what it means to use [[first-order logic]].
+We can generalise this from $SET$ to any other [[category]] $C$.  Without further assumptions on the category, there is in general very little mathematics that can be formulated inside it, but a few extra properties and structures are usually sufficient to provide something interesting.  This is the general topic of _[[internalisation]]_.  The attitude to take is that any *specific* category is merely one [[model]], while a general *class* of categories is a [[theory]] (really a [[doctrine]], or [[2-theory]]).
 
-1. Using first order logic, we can formulate a first-order theory called [[set theory]], for instance the version of the theory called [[ETCS]] that describes $SET$. 
-
-   At [[fully formal ETCS]] this is spelled out explicitly. To the axioms listed there, we add one more: the **axiom of universes**. This demands that there exists an [[object]] $U$ of $SET$ that is a [[universe in a topos]] and hence there exists an [[internal category]] $U Set$ in $SET$, whose objects are the elements of the universe $U$, now to be called the [[small set]]s.
-
-1. We show that $U Set$ is a [[model]] of the first order set theory that we started with. 
+We can also use [[higher category theory|higher categories]] instead of mere categories here.  Even for ordinary mathematics, this means starting with $\infty$-[[infinity-Grpd|GRPD]] instead of $SET$.
 
 
+## Universes of pure sets
 
-## Arbitrary categories as universes
+The idea of the [[large category]] $SET$ as the universe of mathematics has an analogue in pre-category-theoretic [[material set theory]].  The __von Neumann universe__ $V$ is the [[proper class]] of all [[axiom of foundation|well-founded]] [[pure sets]].
 
-More generally, one may pick any [[category]] and declare it to be a _universe_ inside of which one wants to do mathematics.
+More explicitly: for every [[ordinal number]] $\alpha$, we have a [[set]] $V_\alpha$, defined [[recursion|recursively]] using the operations of [[power set]] and (material) [[union]] as
+$$ V_\alpha \coloneqq \bigcup_{\beta \lt \alpha} \mathcal{P}V_\beta .$$
+Then $V$ itself is the union of all of the $V_\alpha$.
 
-Of course without further assumptions on the category, there is in general very little math that can be formulated inside it, but a few extra properties and structures are usually necessary to provide something interesting.  On the other hand, perhaps too much can be formulated; in the [[terminal category]] everything is trivial; the attitude to take is that any *specific* category is merely one model, while a general *class* of categories is a theory 
+A similar but more complicated definition allows us to define the universe $L$ of [[constructible set]]s.
 
-For instance:
-* If the category is equipped with the structure of a [[site]], then geometrical notions, such as defining [[morphism|arrow]]s locally on the domain with patching conditions (or more generally [[descent]] theory), exist inside it. 
-* If it is a [[finitely complete category]], the existence of (finite) [[product]]s and [[terminal object]]s means that [[variety of algebras|varieties of algebras]] can be defined. 
-* If the category is a [[topos]] with a [[natural numbers object]], then one can do a certain sort of "ordinary" mathematics inside it, specifically [[predicative mathematics|impredicative]] [[constructive mathematics]] without the fancier tools of [[model theory]] or (ironically) [[category theory]].
-* Further extra conditions on the category, such as being a [[Boolean topos]] or being a [[superextensive site]], bring the internal mathematics closer to that of $Set$.
-
-
-### Kinds of logic, kinds of categories
-
-To each kind of category (technically, to each [[doctrine]]), we can consider those concepts from [[logic]] that can be [[internalisation|internalised]] in it.
+See also a [Wikipedia article](https://secure.wikimedia.org/wikipedia/en/wiki/Universe_%28mathematics%29) written largely by [[Toby Bartels]] in another lifetime.
 
 
-### Large cardinals and small universes
+## Universes inside $SET$
 
-Generally, the categories that we use as universes as [[large category|large]].  However, we can also consider the possibility that there exists a [[small category]] that is suitable for use as a universe for some forms of mathematics.  The statement that such a category exists is (in the meta-theory) the statement that the mathematics that it internalises is [[consistent theory|consistent]], which we can think of as a [[large cardinal]] axiom.
+If set theory is the [[foundation of mathematics]], then the universes above are part of metamathematics rather than mathematics itself.  However, we can also look for [[small categories]] or sets that exist within set theory and have the properties of a universe.
 
-For example, that there exist small finitely complete categories is a form of the [[axiom of infinity]], which states that some [[infinite set|infinite cardinal]] exists; this is the smallest of the large cardinals.  On a much larger scale, a [[Grothendieck universe]] is a small [[subcategory]] of $Set$ in which all of [[ordinary mathematics]] can be internalised; the existence of one of these is equivalent to the existence of an uncountable [[inaccessible cardinal]].
+There is already a hint of this in the hierarchy $V_\alpha$ out of which the von Neumann universe is built.  For some values of $\alpha$, $V_\alpha$ might be a sufficiently large and complete collection of [[sets]] in which to do ordinary mathematics.  From the [[nPOV]], we can instead look at the category $SET_\alpha$ of these sets and the [[functions]] between them, although it\'s more common to think about $SET_\kappa$ for some [[cardinal number]] $\kappa$.
+
+An [[infinite set]] is a simple example, as [[finite mathematics]] can be done inside it.  Going beyond this, a [[Grothendieck universe]] is a set within which other infinite sets exist but which is complete under the operations of [[material set theory]] that are needed for ordinary mathematics.  The [[structural set theory|structural]] analogue is a [[universe in the topos]] $SET$.
+
+In general, we need some axioms to state the existence of such universes; we can think of these as [[large cardinal]] axioms.  (The existence of an infinite set is the [[axiom of infinity]]; the existence of a Grothendieck universe is the existence of an [[inaccessible cardinal]].)
 
 
-## Universes in Type theory
+## Reflection
 
-(...)
+In [[logic]], we use [[reflection principle]]s (see [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Reflection_principle)) to systematically identify features of our meta-universe and see what is needed to prove the existence of an internal universe with these features.
+
+This follows the following outline:
+
+1.  We assume that we understand _a priori_ what it means to use [[first-order logic]] (or some finitary base logic).
+
+2.  Using this base logic, we can formulate a foundational [[set theory]] that describes a meta-universe such as $SET$.
+
+3.  Of course, $SET$ cannot be described from inside itself.  But there may be objects in $SET$ ([[internal categories]]) that _look like_ $SET$ itself.
+
+4.  We add an additional axiom to our set theory stating that such objects, the _internal universes_, exist.  These are then [[models]] of our original set theory.
+
+5.  Now we are using a new, stronger set theory; repeat.
+
+
+## Universes in type theory
+
+Set theory is not the only [[foundation of mathematics]].  For example, there are also various foundational [[type theories]], closely related to [[structural set theory]].  Then we have a meta-universe of all types, and we can also add axioms for the existence of internal universes.
 
 
 [[!redirects universe]]
