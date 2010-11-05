@@ -401,7 +401,7 @@ We check that
 $$
   (N \dashv \Gamma) : 
     Mod_k^{\Delta^{op}}
- \stackrel{\overset{R^{mon}}{\leftarrow}}{\underset{\Gamma}{\to}} Ch_\bullet^+(k)  
+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}} Ch_\bullet^+(k)  
 $$
 
 is a [[monoidal Quillen adjunction]]: the oplax monoidal structure on the left adjoint $N$ is given by the [[Alexander-Whitney map]], which is a weak equivalence, as discussed there.
@@ -461,12 +461,14 @@ $$
   dgAlg^{E_\infty}_k \stackrel{\overset{}{\leftarrow}}{\underset{}{\to}}  sAlg^{E_\infty}_k
 $$
 
-between connective $E_\infty$ -[[dg-algebra]]s over $k$ and $E_\infty$- [[simplicial algebra]]s over $k$.
+between connective dg-[[E-∞ algebra]] over $k$ and simplicial $E_\infty$-algebras over $k$.
 
 =--
 
-This is in ([Mandell](#Mandell))
+This is in ([Mandell](#Mandell)).
 
+
+Here the model category structures are analogous to those before: for simplicial $E_\infty$-algebras the weak equivalences and fibrations  are those of the underlying simplicial sets, and for connective dg-$E_\infty$-algebras they are the underlying quasi-isomorphisms and the underlying positive degreewise surjections.
 
 
 
