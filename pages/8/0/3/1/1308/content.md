@@ -1,10 +1,21 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
 # The Eckmann--Hilton argument
 * table of contents
 {: toc}
 
 ## Statement
 
-In its usual form, the Eckmann--Hilton argument shows that a [[monoid object|monoid]] or [[group object]] [[internalization|in]] the category of [[monoids]] or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
+In its usual form, the _Eckmann--Hilton argument_ shows that a [[monoid object|monoid]] or [[group object]] [[internalization|in]] the category of [[monoids]] or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
 
 An even more general version is this:  If a set is equipped with two binary operations with [[identity elements]], as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
 1.  the other is also a homomorphism with respect to the first;
@@ -13,6 +24,19 @@ An even more general version is this:  If a set is equipped with two binary oper
 1.  the operations are the same;
 1.  the operation is commutative;
 1.  the operation is associative.
+
+Fully generally the Eckmann-Hilton argument shows that
+
++-- {: .un_prop }
+###### Proposition
+
+Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[identity]] [[morphism]] of $X$ and $End(Id_x)$ for the set of [[endomorphism|endo]]-[[2-morphism]]s on $X$. Then:
+
+* [[horizontal composition]] and [[vertical composition]] define the same [[monoid]] structure on $End(Id_x)$;
+
+* this is an [[abelian monoid]].
+
+=--
 
 
 ## Proof
