@@ -20,146 +20,158 @@ The _Moore complex_ of a [[simplicial group]] -- better known in its normalized 
 
 The operation of forming the Moore complex of chains of a [[simplicial group]] is one part of the [[Dold-Kan correspondence]] that relates [[simplicial object|simplicial]] (abelian) [[group]]s and [[chain complex]]es.
 
-Recall that a [[simplicial group]] $G$, being in particular a [[Kan complex]], may be thought of, in the sense of the [[homotopy hypothesis]], as a combinatorial space equipped with a group structure. The
-
-* _Moore complex_ 
-
-or 
-
-* _normalized Moore complex_ 
-
-of $G$ is a [[chain complex]] 
+Recall that a [[simplicial group]] $G$, being in particular a [[Kan complex]], may be thought of, in the sense of the [[homotopy hypothesis]], as a combinatorial space equipped with a group structure. The Moore complex of $G$ is a [[chain complex]] 
 
 * whose $n$-cells are the "$n$-disks with basepoint on their boundary" in this space, with the basepoint sitting on the identity element of the space;
 
 * the boundary map on which acts literally like a boundary map should: it sends an $n$-disk to its boundary, read as an $(n-1)$-disk whose entire boundary is concentrated at the identity point.
 
-This is entirely analogous to how a [[crossed complex]] is obtained from a [[strict omega-groupoid]].
+This is entirely analogous to how a [[crossed complex]] is obtained from a [[strict ∞-groupoid]]. In fact it is a special case of that, as discussed at [[Dold-Kan correspondence]] in the section on the nonabelian version.
 
 ## Definition
 
 ### On general simplicial groups
 
-Given a [[simplicial group]] $G$, the **Moore complex** (or normalized chain complex), $(N G,\partial )$,  of $G$ is the non-Abelian chain complex defined as the joint [[kernel]] 
-$$
-N G_n=\bigcap_{i=1}^{n}Ker\,d_i^n 
-$$
-with $\partial _n:N G_n\rightarrow N G_{n-1}$ induced from $d_0^n$ by
-restriction. 
++-- {: .un_def}
+###### Definition
 
+Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex $((N G)_\bullet,\partial )$ of (possibly nonabelian) is 
 
-* **Notice:** there is no assumption that $G$ and hence the $N G_n$ are Abelian. But often in the literature the Moore complex is considered only in the special case of the above where all groups involved are Abelian.
+* in degree $n$ the joint [[kernel]] 
 
+  $$
+    (N G)_n=\bigcap_{i=1}^{n}ker\,d_i^n 
+  $$
 
-So an element in degree 1 element $g \in N G_1$ is a 1-disk
+  of all face maps except the 0-face
 
-$$
-  1 \stackrel{g}{\to} \partial g
-  \,,
-$$
+* with differential given by the remaining 0-face
 
-an element $h \in N G_2$ is a 2-disk
+  $$
+   \partial_n := d_0^n|_{(N G)_n} : (N G)_n \rightarrow (N G)_{n-1}
+  $$ 
 
-$$
-  \array{
-     && 1 
-     \\
-     & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h}
-     \\
-     1
-     &&\stackrel{1}{\to}&&
-     1
-  }
-  \,,
-$$
+=--
 
-a degree 2 element in the kernel of the boundary map is such a 2-disk that is closed to a 2-spehere
++-- {: .un_def}
+###### Remark
 
-$$
-  \array{
-     && 1 
-     \\
-     & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h = 1}
-     \\
-     1
-     &&\stackrel{1}{\to}&&
-     1
-  }
-  \,,
-$$
+Equivalently one can take the joint joint kernel of all but the $n$-face map and take that to be the diferential.
+
+=--
+
++-- {: .un_def}
+###### Remark
+
+We may think of the elements of the complex $N G$ in degree $k$
+as being $k$-dimensional [[disk]]s in $G$:
+
+* an element in degree 1 element $g \in N G_1$ is a 1-disk
+
+  $$
+    1 \stackrel{g}{\to} \partial g
+    \,,
+  $$
+
+* an element $h \in N G_2$ is a 2-disk
+
+  $$
+    \array{
+       && 1 
+       \\
+       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h}
+       \\
+       1
+       &&\stackrel{1}{\to}&&
+       1
+    }
+    \,,
+  $$
+
+* a degree 2 element in the kernel of the boundary map is such a 2-disk that is closed to a 2-[[sphere]]
+
+  $$
+    \array{
+       && 1 
+       \\
+       & {}^1\nearrow &\Downarrow^h& \searrow^{\partial h = 1}
+       \\
+       1
+       &&\stackrel{1}{\to}&&
+       1
+    }
+    \,,
+  $$
 
 etc.
 
-
+=--
 
 +-- {: .un_lemma}
 ###### Lemma
 
-The Moore complex is a [[normal complex of groups]].
+For every simplicial grpip $G$ the complex $(N G)_\bullet$ is a [[normal complex of groups]].
 
 =--
 
-
-+-- {: .un_remark}
-###### Remark
-
-
-* There is an alternative form of this construction using $\bigcap_{i=0}^{n-1}Ker\,d_i^n$ instead of $\bigcap_{i=1}^{n}Ker\,d_i^n$, and with the differential $\partial$ defined using the last face map $d^n_n$ instead of the first. The theories run parallel but the fact there are two valid forms can be confusing for the formulae for various derived structures. 
-
-*  The notation $N G$ is quite widely used in the literature but can get confused with that sometimes used for the [[nerve]] functor, so care is needed. (We have therefore used $\mathcal{N}$ for the latter.) The $N$ here stands for 'normalised'.
-
-=--
 
 
 ### On abelian simplicial groups
 
-At least for $G$ an _abelian_ simplicial group, there are two other complexes naturally associated with it:
+Let here $A$ be a simplicial [[abelian group]]. Then $(N A)_\bullet \in Ch_\bullet^+$ is a genuine [[connective]] [[chain complex]] in the [[abelian category]] [[Ab]].
 
-* the **alternating face map complex** of $G$, usually just denoted "$G$" itself: in degree $n$ this exactly the group $G_n$, and the differential is given by
-  $$
-    \partial = \sum_{i = 0}^n (-1)^i d_i
-  $$
-
-* the **complex modulo degeneracies**, sometimes denoted $G/D G$ which is obtained from $G$ by dividing out degeneracies, i.e. cells in the image of a degeneracy map.
-
-
-
-
-
-
+There are two other chain complexes naturally associated with $A$:
 
 +-- {: .un_defn}
 ###### Definition
 
-For $A = (A_n)$ 
-a simplicial abelian group, its **alternating face complex** is
+The **alternating face map complex** $C A$ of $A$ is 
 
-$$
-  C_\bullet(A) = 
-  \left(
-    \cdots \to A_{n} 
-     \stackrel{\partial_n :=  \sum_{i = 0}^{n} (-1)^i d_i}
-     {\to} A_{n-1} \to \cdots
-  \right)
-  \,,
-$$  
+* in degree $n$ given by the group $A_n$ itself
 
-where the $d_i$ are the [[simplicial set|face maps]] of $A$.
+  $$
+    (C A)_n := A
+  $$
 
-The **degenerate complex** $D_\bullet(A)$
-of $A$ is the full subcomplex generated from [[simplicial set|degenerate elements]] 
 
-$$
-  D_n(A) := s(A_{n-1})
-$$
+* with the differential given by the alternating sum of face maps (using the abelian group structure on $A$)
+
+  $$
+    \partial_n := \sum_{i = 0}^n (-1)^i d_i : (C A)_n \to (C A)_{n-1}
+    \,.
+  $$
 
 =--
 
-+-- {: .num_lemma #LeftCosetsDisjoint}
++-- {: .un_defn}
+###### Definition
+
+
+The **complex modulo degeneracies**, $(C A)/D(A)$ is the complex
+
+* which in degree $n$ is given by the [[quotient]] group obtained by dividing out the group
+
+  $$
+    D A_n := \langle \cup_i \sigma_i(A_{n-1}) rangle
+  $$ 
+
+  generated by the degenerate elements in $A_n$
+
+  $$
+    ((C A)/D(A))_n := A_n / D(A_n)
+  $$
+
+* with differential being the induced action of  the alternating sum of faces on the quotient.
+
+=--
+
+
+
++-- {: .un_lemma #LeftCosetsDisjoint}
 ###### Lemma
 
 This is indeed well defined in that
-the boundary map satisfies 
+the alternating face boundary map satisfies 
 $\partial \circ \partial = 0$ in $C_\bullet(A)$
 and restricts to a boundary map on the degenerate subcomplex
 $\partial : A_n|_{s(A_{n-1})} \to A_{n-1}|_{s(A_{n-2})}$.
@@ -228,8 +240,16 @@ which is again a combination of elements in the image of the degeneracy maps.
 =--
 
 
-+-- {: .num_lemma }
-###### Lemma
+ 
+
+## Properties
+
+### Normalization
+
+Let $A$ be a simplicial abelian group.
+
++-- {: .un_prop }
+###### Proposition
 
 There is a splitting
 
@@ -241,25 +261,43 @@ where the first summand is naturally isomorphic to the Moore complex as defined 
 
 =--
 
+Explicitly, 
 
-+-- {: .num_theorem}
-###### Theorem (Eilenberg--Mac Lane)
+
++-- {: .un_prop }
+###### Proposition
+
+The evident composite of natural morphisms
+
+$$
+  N A \stackrel{i}{\hookrightarrow} A 
+  \stackrel{p}{\to}
+  (C A)/D(A)
+$$
+
+(inclusion followed by projection to the quotient) is a [[natural isomorphism]] of chain complexes.
+
+=--
+
+This appears as theorem 2.1 in ([GoerssJardine](#GoerssJardine)).
+
++-- {: .un_theorem #EMTheorem}
+###### Theorem (Eilenberg-MacLane)
 
 The inclusion 
 
 $$
-  N_\bullet(A) \hookrightarrow C_\bullet(A)
+  N A \hookrightarrow C A
 $$
 
-is a [[model structure on chain complexes|homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is null-homotopic.
+is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natural chain [[homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is null-homotopic.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Following the proof of what is 
-[Theorem 2.1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) in ([GoerssJardine](#GoerssJardine)) we look for each $n \in \mathbb{N}$ and each $j \lt n$ at the  groups
+Following the proof of theorem 2.1 in ([GoerssJardine](#GoerssJardine)) we look for each $n \in \mathbb{N}$ and each $j \lt n$ at the  groups
 
 $$
   N_n(A)_j :=  \cap_{i=0}^j ker (d_i) \subset A_n
@@ -282,32 +320,60 @@ $$
 
 is an isomorphism of all $j \lt n$. For $j = n-1$ this is then the desired result.
 
-...  
-
+(...)
 
 =--
 
- 
+### Equivalence of categories
 
-## Properties
++-- {: .un_prop }
+###### Proposition
+
+The functor $N : sAb \to Ch_\bullet^+(A)$ is an [[equivalence of categories]].
+
+=--
+
+This is the statement of the [[Dold-Kan correspondence]]. See there for details.
+
 
 ### Homology and homotopy groups
 
-If an element $g \in G_n$ is in the Moore complex then all but its zeroth face is trivial. In dimension 1, this means that $g$ is a 1-simplex that 'starts' at the identity element of $G_0$. If this $g$ is in the kernel of the boundary map 
-$\partial _1: N G_1\rightarrow N G_{0},$
- then $g$ will be a loop at that identity. If it is $\partial x$ for some $x\in N G_2$, then $x$ intuitively provides a homotopy between $g$ and the identity element.  This motivates the following definition:
+Notice that the [[simplicial set]] underlying any [[simplicial group]] $G$ (as described there) is a [[Kan complex]]. Write
 
-+--{.un_defn}
-###### Definition
+$$
+  \pi_n(G) \;\;\; n \in \mathbb{N}
+$$
 
-The **n$^{th}$ homotopy group**, $\pi_n$(G), of $G$ is the $n^{th}$ homology of the Moore complex of $G$, i.e.,  
+for the $n$-th [[simplicial homotopy group]] of $G$. Notice that due to the group structure of $G$ in this case also $\pi_0(G)$ is indeed canonically a group, not just a set.
+
++-- {: .un_prop }
+###### Proposition
+
+For $A$ a simplicial abelian group there are [[natural isomorphism]]s
+
 $$
-\pi _n({G})  \cong  H_n( {N G},\partial ),   = \big( \bigcap_{i=0}^n Ker\,d_i^n\big)/d_{0}^{n+1}\big(\bigcap_{i=1}^{n+1} Ker\,d_i^{n+1}\big). 
+  \pi_n(A,0) \simeq H_n(N A) \simeq H_n(A)
 $$
+
+between the [[simplicial homotopy group]]s and the [[chain homology]] groups of the unnormalized and of the normalized chain complexes.
 
 =--
 
-Note that $\partial N G_{n+1}\triangleleft  N G_n$.
++-- {: .proof}
+###### Proof
+
+The first isomorphism follows with the [[Eckmann-Hilton argument]]. The second directly from the [Eilenberg-MacLane theorem](#EMTheorem) above.
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+Both $sAb$ as well as $Ch_\bullet^+$ are naturally [[categories with weak equivalences]] given by those morphisms that induce [[isomorphism]]s on all [[simplicial homotopy group]] and on all [[chain homology]] groups, respectively. So the above statement says that the Moore complex functor $N$ respects these weak equivalences.
+
+In fact, it induces an equivalence of categories also on the corresponding [[homotopy categories]]. And even better, it induces a [[Quillen equivalence]] with respect to the standard [[model category]] structures that refine the structures of categories of weak equivalences. All this is discussed at [[Dold-Kan correspondence]]. 
+
+=--
 
 ### Further structure on the Moore complex 
 
@@ -333,11 +399,9 @@ $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 A discussion with an emphasis of its generalization to the non-abelian situation is in section 1.3.3 of
 
-* [[Tim Porter]], [[Tim Porter:crossed menagerie|The Crossed Menagerie]]
+* [[Tim Porter]], _[[Crossed Menagerie]]_
 
-A standard reference for the plain abelian version of the Moore and normalized chain complex is
-
-A standard reference is 
+A standard textbook reference for the abelian version is
 
 * [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ ([chapter 3](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi))
 {#GoerssJardine}
