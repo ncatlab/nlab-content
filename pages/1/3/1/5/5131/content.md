@@ -167,11 +167,12 @@ Going to $(3,1)$,  the fact that $q = 1$ will mean that the poset is linear:
 
 This is general:
 
-+--
-{: .un_lemma}
++--{: .un_lemma}
 ######Lemma
 If $p = 1$ or $q = 1$, then  $(Shuff_{(p,q)},\leq)$ is a linear poset.
 =--
+
++-- {: .proof}
 ######Proof######
 If $p = 1$, $\mu = (\mu_1)$ is a singleton, and the poset will be:
 
@@ -191,6 +192,8 @@ We can then look at the shuffle poset, noting again that it is not linear:
 <img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26%26(1%3C 2)\ar@{-}[dr]%26%26\\(0%3C 1)\ar@{-}[r]%26(0%3C 2)\ar@{-}[ur]\ar@{-}[dr]%26%26(1%3C 3)\ar@{-}[r]%26(2%3C 3)\\%26%26(0%3C 3)\ar@{-}[ur]%26%26}"/>
 
 The left hand shuffle, labelled $(0\lt1)$, corresponds to $\left(\begin{array}{ccccc}0&1&2&2&2\\0&0&0&1&2\end{array}\right)$, so gives the path along the bottom of the square and then up the right hand side. 
+=--
 
 
+[[!redirects product of simplices]]
 [[!redirects products of simplices]]
