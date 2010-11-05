@@ -308,367 +308,6 @@ The first statement is just the adjunction $(\Pi \dashv Disc)$. The second state
 
 =--
 
-
-
-
-### Flat differential cohomology and local systems
-
-+-- {: .un_def}
-###### Definition
-
-Set
-
-$$
-  (\mathbf{\Pi} \dashv \mathbf{\Gamma}) 
-  :=
-  (Disc \Pi \dashv Disc \Gamma)
-  \,.
-$$
-
-For $X,A \in \mathbf{A}$ we write
-
-$$
-  \mathbf{H}_{flat}(X,A) := \mathbf{H}(\mathbf{\Pi}X, A)
-  \simeq \mathbf{H}(X,\mathbf{\flat}A)
-$$
-
-and call this **flat differential cohomology** of $X$ with coefficients in $A$.
-
-We say a [[cocycle]] $\nabla : \mathbf{\Pi}(X) \to A$ is a [[local system]] on $X$ with coefficients in $A$ or equivalently a **flat [[connection on an ∞-bundle|connection]]** on the [[principal ∞-bundle]] corresponding to $X \stackrel{}{\to} \mathbf{\Pi}X \\stackrel{\nabla}{\to} A$.
-
-=--
-
-+-- {: .un_theorem }
-###### Theorem
-
-Let $\mathbf{H} = $ [[?TopGrpd]] or  [[?LieGrpd]] be the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s or [[smooth ∞-groupoid]]s. A [[smooth manifold]] $X$ is naturally regarded as an object in there.
-
-For [[paracompact space|paracompact]] $X$ and any $A \in \infty Grpd$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
-
-$$
-  \mathbf{H}(X, Disc A)
-  \simeq
-  Top(X, |A|)
-$$
-
-and hence in particular an isomorphism on cohomology
-
-$$
-  H(X,A) \simeq \pi_0 \mathbf{H}(X, Disc A)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed at [[∞-Lie groupoid]].
-
-Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv Disc)$.
-
-=--
-
-See [[nonabelian cohomology]] for more details.
-
-
-### Whitehead towers
-
-for the moment see [[Whitehead tower in an (∞,1)-topos]]
-
-
-### Concrete objects: Cohesive $\infty$-groupoids {#ConcreteObjects}
-
-The general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete (∞,1)-sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
-
-Since 
-
-$$
-  \infty Grpd \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
-  \mathbf{H}
-$$
-
-is a [[geometric embedding]], the reflector $\Gamma$ encodes the [[localization of an (∞,1)-category]] at a class of morphisms $W$, realizing $\infty Grpd$ as the [[reflective sub-(∞,1)-category]] on the $W$-[[local object]]s. This inclusion factors canonically through the corresponding [[(∞,1)-quasitopos]] of $W$-[[separated presheaf|separated (∞,1)-sheaves]]
-
-+-- {: .un_def}
-###### Definition
-
-The objects in the $(\infty,1)$-quasitopos
-
-$$
-  \infty Grpd 
-    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
-   Conc(\mathbf{H})
-   \stackrel{\overset{concretizaton}{\leftarrow}}{\underset{}{\hookrightarrow}}
-   \mathbf{H}
-$$
-
-inside $\mathbf{H}$ we call the **[[concrete (∞,1)-sheaf|concrete]] objects** or **cohesive $\infty$-groupoids**-
-
-=--
-
-
-### Infinitesimal objects: $\infty$-Lie algebroids {#InfinitesimalObjects}
-
-+-- {: .un_def}
-###### Definition
-
-An [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
-
-$$
-  \Pi \mathbf{B}\mathfrak{g} \simeq *
-$$ 
-
-and
-
-$$
-  \Gamma \mathbf{B}\mathfrak{g} \simeq *
-$$
-
-we call an **infinitesimal object**.
-
-Its [[loop space object]]
-
-$$
-  \mathfrak{g} := \Omega \mathbf{B}G
-$$
-
-we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
-
-We say an object $A \in \mathbf{H}$ is an **[[∞-Lie algebroid]]** if for every point $* \to A$ the corresponding [[loop space object]] $\Omega_x A$ is equivalent to an $\infty$-Lie algebra.
-
-Write
-
-$$
-  \mathbf{L}\hookrightarrow \mathbf{H} 
-$$
-
-for the full [[sub-(∞,1)-category]] on $\infty$-Lie algebroids.
-
-=--
-
-
-### Lie theory
-
-
-+-- {: .un_def}
-###### Definition
-
-Define
-
-$$
-  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \exp_{dR})
-  : 
-  */\mathbf{H}
-  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\stackrel{\underset{\mathbf{\flat}_{dR}}{\to}}{\underset{\mathbf{\exp}_{dR}}{\leftarrow}}}
-  \mathbf{H}
-$$
-
-by forming the [[(∞,1)-pullback]]
-
-$$
-  \array{
-    \mathbf{\flat}_{dR} A &\to& Disc \Gamma A
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\to& A
-  }
-$$
-
-
-and the [[(∞,1)-colimit|(∞,1)-pushout]]
-
-$$
-  \array{
-    X &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    Disc \Pi X &\to& \mathbf{\Pi}_{dR}X
-  }
-$$
-
-and
-
-$$
-  \array{
-    X &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    CoDisc \Gamma X &\to& \mathbf{\exp}_{dR}X
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-We do indeed have a triple of [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\exp}_{dR})$ as indicated.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We check the defining hom-equivalence. For $X \mathbf{H}$, $A \in */\mathbf{H}$ two objects, we have by the fact that the [[hom-functor]] : $mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments a sequence of natural equivalences
-
-$$
-  \begin{aligned}
-    */\mathbf{H}(\mathbf{\Pi}_{dR}, A)
-    & \simeq
-    \lim_{\leftarrow}
-    \left(
-      \array{
-         && \mathbf{H}(X,A)
-         \\
-         && \downarrow
-         \\
-         * &\to& \mathbf{H}(Disc \Pi X, A )
-      }
-    \right)
-    \\
-    & \simeq
-    \lim_{\leftarrow}
-    \left(
-      \array{
-         && \mathbf{H}(X,A)
-         \\
-         && \downarrow
-         \\
-         * &\to& \mathbf{H}(X, Disc \Gamma A )
-      }
-    \right)    
-    \\
-    & \simeq
-    \mathbf{H}(X, \mathbf{\flat}_{dR} A)
-  \end{aligned}
-  \,.
-$$
-
-Analously for the other case.
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-For $\mathbf{B}G \in */\mathbf{H}$ we have $Lie \mathbf{B}G \in \mathbf{L} \hookrightarrow \mathbf{H}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Using that $\Pi$ preserves colimits and finite products, we have that 
-$\Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is given by the pushout
-
-$$
-  \array{
-    \Pi \mathbf{B}G &\to& *
-    \\
-    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
-    \\
-    \Pi Disc \Pi \mathbf{B}G &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
-   }
-  \,.
-$$
-
-since $Disc$ is full and faithful we have that this is equivalent to the pushout
-
-$$
-  \array{
-    \Pi \mathbf{B}G &\to& *
-    \\
-    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
-    \\
-    \Pi Disc \Pi \mathbf{B}G 
-    &&
-    \\
-    {}^{\mathllap{\epsilon_{\Pi \mathbf{B}G}}}\downarrow^{\mathrlap{\simeq}}
-    &&
-    \downarrow
-    \\
-    \Pi \mathbf{B}G
-    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
-   }
-  \,.
-$$
-
-By the [[zig-zag identity]] this is equivalent to the pushout
-
-$$
-  \array{
-    \Pi \mathbf{B}G &\to& *
-    \\
-    {}^{Id}\downarrow && \downarrow
-    \\
-    \Pi \mathbf{B}G
-    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
-   }
-  \,.
-$$
-
-Since this is the pushout of an equivalence, also $* \to \Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is an equivalence.
-
-By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
-
-=--
-
-
-+-- {: .un_def}
-###### Definition
-
-Set
-
-$$
-  (\mathbf{Lie} \dashv \mathbf{\exp}) 
-  :=
-  ( 
-    \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}
-    \dashv
-    \mathbf{\exp}_{dR} \mathbf{\flat}_{dR}
-  )
-$$
-
-
-=--
-
-We shall also write
-
-$$
-  Lie \mathbf{B}G =: \mathbf{B}\mathfrak{g}
-$$
-
-and hence for the counit of the $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$-adjunction
-
-$$
-  \mathbf{B}\mathfrak{g} \to \mathbf{B}G
-  \,.
-$$
-
-By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universal factorization property</a> of adjunctions we have that every morphism 
-
-$\mathbf{B}\mathfrak{h} \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors universally through the $\infty$-Lie algebra of that $\infty$-group
-
-$$
-  \array{
-    \mathbf{B}\mathfrak{h} &\to& \mathbf{B}\mathfrak{g}
-    \\
-    & \searrow& \downarrow
-    \\
-    && \mathbf{BG}
-  }
-  \,.
-$$
-
-
-
-
-
 ### van Kampen theorem {#vanKampenTheorem}
 
 A [[higher homotopy van Kampen theorem|higher]] [[van Kampen theorem]] asserts that passing to [[fundamental ∞-groupoid]]s preserves certain colimits. 
@@ -765,45 +404,1114 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 =--
 
 
-### de Rham theory
-
-for the moment see [[schreiber:differential cohomology in an (∞,1)-topos]]
 
 
-### Differential cohomology
+### Paths
 
-Every [[(∞,1)-topos]] $\mathbf{H}$ comes with its [[cohomology|intrinsic cohomology]]: for $X, A \in \mathbf{H}$ a [[cocycle]] on $X$ with coefficients in $\mathbf{H}$ is a [[morphism]] $g : X \to A$. A coboundary is a [[2-morphism]] between two such. The [[cohomology]] set of $X$ with coefficients in $A$ is
++-- {: .un_def}
+###### Definition
+
+Set
 
 $$
-  H(X,A) := \pi_0 \mathbf{H}(X,A)
+  (\mathbf{\Pi} \dashv \mathbf{\flat} \dashv \mathbf{\Gamma}) 
+  :=
+  (Disc \Pi \dashv Disc \Gamma \dashv CoDisc \Gamma)
   \,.
 $$
 
-For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]] object in $\mathbf{H}$, we have that $G Bund(X) := \mathbf{H}(X, \mathbf{B}G)$ is the [[∞-groupoid]] of $G$-[[principal ∞-bundle]]s on $X$.
+=--
+
+Let 
+
+$$
+  (\tau_n \dashv i_n)
+  :
+  \mathbf{H}_{\leq n}
+  \stackrel{\overset{\tau_{n}}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  \mathbf{H}
+$$
+
+be the [[reflective sub-(∞,1)-category]] of [[truncated|n-truncated object]]s. Write
+
+$$
+  \mathbf{\tau}_n : \mathbf{H} \stackrel{\tau_n}{\to} \mathbf{H}_{\leq n}
+  \hookrightarrow
+  \mathbf{H}
+$$
+
+be the truncation [[localization of an (∞,1)-category]].
+
+We say
+
+$$
+  \mathbf{\Pi}_n : \mathbf{H} \stackrel{\mathbf{\Pi}_n}{\to}
+   \mathbf{H} \stackrel{\mathbf{\tau}_n}{\to}
+  \mathbf{H}
+$$
+
+is the **[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|path n-groupoid]]** functor. 
+
+For $X \in \mathbf{H}$ these form the [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
+
+$$
+  \mathbf{\Pi}(X) \to \cdots
+   \to 
+   \mathbf{\Pi}_2(X) \to \mathbf{\Pi}_1(X) \to \maathbf{\Pi}_0(X)
+  \,.
+$$
 
 
-If $\mathbf{H}$ is also a [[locally ∞-connected (∞,1)-topos]] -- such as a cohesive $(\infty,1)$-topos -- it moreover comes with an intrinsic notion of [[schreiber:differential cohomology in an (∞,1)-topos]]:
 
-for $X \in \mathbf{H}$ the [[∞-groupoid]] $\Pi(X)$ may be regarded as the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of $X$. So $\Pi$ detects the [[geometric homotopy groups in an (∞,1)-topos]]. Its reflection $\mathbf{\Pi} := Disc \circ \Pi$ back into $\mathbf{H}$ is the domain for [[local system]]s on $X$, a cocycle $g_{flat} : \mathbf{\Pi}(X) \to A$ is a _flat differential cocycle_ on $A$. For $A = \mathbf{B}G$ this is a flat [[connection on an ∞-bundle]] for the underlying $G$-[[principal ∞-bundle]] given by $X \to \mathbf{\Pi}(X) \to A$.
+### Universal coverings and Whitehead towers
 
-Dually, flat differential cohomology is cohomology on $X$ with coefficients in the flat object $\mathbf{\flat}A$, for $\mathbf{\flat} = Disc \circ \Gamma$ the [[right adjoint]] $(\mathbf{\Pi} \dashv \mathbf{\flat})$.
++-- {: .un_def}
+###### Definition
 
-If $A$ is stable, for instance an [[Eilenberg-MacLane object]] $A = \mathbf{B}^n K$ for an [[abelian group]] object $K$, then there is an intrinsic de Rham cohomology object $\mathbf{\flat}_{dR} \mathbf{B}^n K$ given by the [[homotopy fiber]] of the counit $\mathbf{flat} A\to A$. 
+For $X \in \mathbf{H}$, its **[[Whitehead tower in an (∞,1)-topos|whitehead tower]]** is the sequence of objects 
 
-The canonical induced morphism $\mathbf{H}(X,\mathbf{B}^n K) \to \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^{n+1} K)$ is the [[curvature]] assignment of the [[∞-Chern-Weil homomorphism]]. The [[twisted cohomology]] for this [[curvature characteristic class]] is the **differential cohomology** $\mathbf{H}_{diff}(X,\mathbf{B}^n K)$ of $X$ with coefficients in $K$ in degree $n$.
+$$
+  * \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} \simeq X
+$$
 
-Generally, for every [[characteristic class]] $\mathbf{B}G \to \mathbf{B}^n K$ the postcomposition $\mathbf{B}G \to \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}K$ induces the [[∞-Chern-Weil homomorphism]] on $G$-[[principal ∞-bundle]]s. This is modeled by equipping a $G$-principal $\infty$-bundle with a [[connection on an ∞-bundle]]. 
+in $\mathbf{H}$, where for each $n \in \mathbb{N}$ the object $X^{(n+1)}$ is the [[homotopy fiber]] of the canonical morphism $X \to \mathbf{\Pi}_{n+1}$, i.e. the object defined by the [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    X^{(n+1)} &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\to& \mathbf{\Pi}_{n+1}(X)
+  }
+  \,.
+$$
+
+=--
+
+Here the morphisms $X^{(n+1)} \to X^{(n)}$ are induced from the universality of the pullback:
+
+
+$$
+  \array{
+    && *
+    \\
+    &\nearrow& &\searrow& 
+    \\
+    X^{(n+1)}&\to&X^{(n)}&& \mathbf{\Pi}_{(n+1)}(X)
+    \\
+    &\searrow &\downarrow&\nearrow& \downarrow
+    \\
+    &&X &\to& \mathbf{\Pi}_n(X)
+  }
+$$
+
++-- {: .un_lemma}
+###### Lemma
+
+For a cohesive topos on an [[(∞,1)-cohesive site]] we have
+that $\mathbf{\Pi}_n(X) \simeq Disc \tau_{\leq n} \Pi(X)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from $\mathbf{\tau}_{\leq n} LConst \Pi(X) \simeq LConst \tau_{\leq n} \Pi(X)$. This, in turn, can for instance be checked in terms of the [[model structure on simplicial presheaves]], using that $\tau$ is objectwise the [[coskeleton]] operation. More on that at [[Postnikov tower in an (∞,1)-category]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+Therefore  homotopy-commuting diagram
+
+$$
+  \array{
+    X^{(n)} &\to& {*}
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    X &\to& \mathbf{\Pi}_n(X)
+  }
+$$
+
+in $\mathbf{H}$ corresponds by the [[adjoint (∞,1)-functor|adjunction relation]] to diagram 
+
+$$
+  \array{
+    \Pi(X^{(n)}) &\to& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    \Pi(X) &\to& {\Pi}_n(X)
+  }
+$$
+
+in [[∞Grpd]]. This being universal means that $\Pi(X^{(n)})$ is $n$-[[connected]], and universal with that property as an object over $\Pi(X)$.
+
+=--
+
+
+
++-- {: .un_def}
+###### Definition
+
+
+For $* \to X \in \mathbf{H}$ a [[pointed object]] and $n \in \mathbb{N}$, $n \geq 1 $, define the object $\mathbf{B}^n \mathbf{\pi}_n(X)$ to be the [[homotopy fiber]] of $\mathbf{\Pi}_n(X) \to \mathbf{\Pi}_{n-1}(X)$, so that we have a [[fiber sequence]]
+
+$$
+  \mathbf{B}^n \mathbf{\pi}_n(X) \to \mathbf{\Pi}_n(X) \to \mathbf{\Pi}_{n-1}(X)
+  \,.
+$$
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+We have
+
+$$
+  \mathbf{B} \mathbf{\pi}_n(X)
+  \simeq
+  Disc \mathcal{B}^n \pi_n(X)
+  \,,
+$$
+
+where $\mathcal{B}^n \pi_n(X)$ denotes the [[homotopy fiber]] of 
+$\Pi_n(X) \to \Pi_{(n-1)}(X)$ in [[∞Grpd]].
+
+=--
+
+
+
++-- {: .un_proposition}
+###### Proposition
+
+For each $n \geq 1$ we have a [[fiber sequence]]
+
+$$
+  X^{(n)} \to X^{(n-1)} \to \mathbf{B}^n \mathbf{\pi}_n(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regard the diagram
+
+$$
+  \array{
+    X^{(n)} &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    X^{(n-1)} & \to & \mathbf{B}^n \mathbf{\pi}_n(X) &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X &\to& \mathbf{\Pi}_n(X) &\to& \mathbf{\Pi}_{(n-1)}(X)
+  }
+  \,.
+$$
+
+Here the right square is the defining $(\infty,1)$-pullback diagram of $\mathbf{B}^n \mathbf{\pi}_n(X)$ from above. Take also the left bottom square to be a homotopy pullback. Then from the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting law</a> of pullbacks it follows that the composite bottom rectangle is also a pullback, which identifies the object $X^{(n-1)}$ on the left as indicated.
+
+Similarly, form now the top square as a pullback. Then by the composition law of pullbacks we find that the composite vertical rectangle is a pullback, which identifies the top left object as $X^{(n)}$.
+
+=--
+
+
+
+
+
+
+
+
+### Flat differential cohomology and local systems {#FlatDifferentialCohomology}
+
++-- {: .un_def}
+###### Definition
+
+For $X,A \in \mathbf{A}$ we write
+
+$$
+  \mathbf{H}_{flat}(X,A) := \mathbf{H}(\mathbf{\Pi}X, A)
+  \simeq \mathbf{H}(X,\mathbf{\flat}A)
+$$
+
+and call this **flat differential cohomology** of $X$ with coefficients in $A$.
+
+We say a [[cocycle]] $\nabla : \mathbf{\Pi}(X) \to A$ is a [[local system]] on $X$ with coefficients in $A$ or equivalently a **flat [[connection on an ∞-bundle|connection]]** on the [[principal ∞-bundle]] corresponding to $X \stackrel{}{\to} \mathbf{\Pi}X \stackrel{\nabla}{\to} A$.
+
+=--
+
++-- {: .un_theorem }
+###### Theorem
+
+Let $\mathbf{H} = $ [[?TopGrpd]] or  [[?LieGrpd]] be the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s or [[smooth ∞-groupoid]]s. A [[smooth manifold]] $X$ is naturally regarded as an object in there.
+
+For [[paracompact space|paracompact]] $X$ and any $A \in \infty Grpd$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+
+$$
+  \mathbf{H}(X, Disc A)
+  \simeq
+  Top(X, |A|)
+$$
+
+and hence in particular an isomorphism on cohomology
+
+$$
+  H(X,A) \simeq \pi_0 \mathbf{H}(X, Disc A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed at [[∞-Lie groupoid]].
+
+Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv Disc)$.
+
+=--
+
+See [[nonabelian cohomology]] for more details.
+
+
+### de Rham cohomology
+
++-- {: .un_def}
+###### Definition
+
+Define
+
+$$
+  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})
+  : 
+  */\mathbf{H}
+  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\stackrel{\underset{\mathbf{\flat}_{dR}}{\to}}{\underset{\mathbf{\Gamma}_{dR}}{\leftarrow}}}
+  \mathbf{H}
+$$
+
+by forming the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{\flat}_{dR} A &\to& \mathbf{\flat} A 
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& A
+  }
+$$
+
+
+and the [[(∞,1)-colimit|(∞,1)-pushout]]
+
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}(X) &\to& \mathbf{\Pi}_{dR}X
+  }
+$$
+
+and
+
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Gamma} &\to& \mathbf{\Gamma}_{dR}X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+We do indeed have a triple of [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\exp}_{dR})$ as indicated.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the defining hom-equivalence. For $X \mathbf{H}$, $A \in */\mathbf{H}$ two objects, we have by the fact that the [[hom-functor]] : $mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments a sequence of natural equivalences
+
+$$
+  \begin{aligned}
+    */\mathbf{H}(\mathbf{\Pi}_{dR}, A)
+    & \simeq
+    \lim_{\leftarrow}
+    \left(
+      \array{
+         && \mathbf{H}(X,A)
+         \\
+         && \downarrow
+         \\
+         * &\to& \mathbf{H}(Disc \Pi X, A )
+      }
+    \right)
+    \\
+    & \simeq
+    \lim_{\leftarrow}
+    \left(
+      \array{
+         && \mathbf{H}(X,A)
+         \\
+         && \downarrow
+         \\
+         * &\to& \mathbf{H}(X, Disc \Gamma A )
+      }
+    \right)    
+    \\
+    & \simeq
+    \mathbf{H}(X, \mathbf{\flat}_{dR} A)
+  \end{aligned}
+  \,.
+$$
+
+Analously for the other case.
+
+=--
+
+
++-- {: .un_def}
+###### Definition
+
+For $X, A \in \mathbf{H}$ we say that
+
+$$
+  \mathbf{H}_{dR}(X,A)
+  :=
+  \mathbf{H}(\mathbf{\Pi}_{dR}X, A)
+  \simeq
+  \mathbf{H}(X, \mathbf{\flat}_{dR} A)
+$$
+
+is **de Rham cohomology** of $X$ with coefficients in $A$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+A [[cocycle]] in de Rham cohomology
+
+$$
+  \omega : \mathbf{\Pi}_{dR}X \to A
+$$
+
+is precisely an [flat connetion](#FlatDifferentialCohomology) on a trivializable $A$-principal $\infty$-bundle
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[universal property]] of the [[(∞,1)-colimit]] that defines $\mathbf{\Pi}_{dR} X$ we have that $\omega$ corresponds to a diagram
+
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    \mathbf{\Pi}(X) &\stackrel{\omega}{\to}& A
+  }
+  \,.
+$$
+
+The bottom horizontal morphism is a flat connection on the 
+$\infty$-bundle given by the cocycle $X \to \mathbf{\Pi}(X) \stackrel{\omega}{\to} A$. The diagram says that this is equivalent to the trivial bundle given by the trivial cocycle $X \to * \to A$.
+
+=--
+
+### Concrete objects: Cohesive $\infty$-groupoids {#ConcreteObjects}
+
+The general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete (∞,1)-sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
+
+Since 
+
+$$
+  \infty Grpd \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+  \mathbf{H}
+$$
+
+is a [[geometric embedding]], the reflector $\Gamma$ encodes the [[localization of an (∞,1)-category]] at a class of morphisms $W$, realizing $\infty Grpd$ as the [[reflective sub-(∞,1)-category]] on the $W$-[[local object]]s. This inclusion factors canonically through the corresponding [[(∞,1)-quasitopos]] of $W$-[[separated presheaf|separated (∞,1)-sheaves]]
+
++-- {: .un_def}
+###### Definition
+
+The objects in the $(\infty,1)$-quasitopos
+
+$$
+  \infty Grpd 
+    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+   Conc(\mathbf{H})
+   \stackrel{\overset{concretizaton}{\leftarrow}}{\underset{}{\hookrightarrow}}
+   \mathbf{H}
+$$
+
+inside $\mathbf{H}$ we call the **[[concrete (∞,1)-sheaf|concrete]] objects** or **cohesive $\infty$-groupoids**-
+
+=--
+
+
+### Infinitesimal objects: $\infty$-Lie algebroids {#InfinitesimalObjects}
+
++-- {: .un_def}
+###### Definition
+
+An [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
+
+$$
+  \Pi \mathbf{B}\mathfrak{g} \simeq *
+$$ 
+
+and
+
+$$
+  \Gamma \mathbf{B}\mathfrak{g} \simeq *
+$$
+
+we call an **infinitesimal object**.
+
+Its [[loop space object]]
+
+$$
+  \mathfrak{g} := \Omega \mathbf{B}G
+$$
+
+we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
+
+We say an object $A \in \mathbf{H}$ is an **[[∞-Lie algebroid]]** if for every point $* \to A$ the corresponding [[loop space object]] $\Omega_x A$ is equivalent to an $\infty$-Lie algebra.
+
+Write
+
+$$
+  \mathbf{L}\hookrightarrow \mathbf{H} 
+$$
+
+for the full [[sub-(∞,1)-category]] on $\infty$-Lie algebroids.
+
+=--
+
+
+### Lie theory
+
++-- {: .un_def}
+###### Definition
+
+Set
+
+$$
+  (Lie \dashv \exp )
+  : 
+  ( 
+    \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} 
+     \dashv 
+    \mathbf{\flat}_{dR}
+    \mathbf{\Gamma}_{dR}
+  )
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathbf{B}G \in */\mathbf{H}$ we have that 
+
+$$
+  Lie \mathbf{B}G \in \mathbf{L} \hookrightarrow \mathbf{H}
+$$
+
+is an [infinitesimal object](#InfinitesimalObjects)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using that $\Pi$ preserves colimits and finite products, we have that 
+$\Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is given by the pushout
+
+$$
+  \array{
+    \Pi \mathbf{B}G &\to& *
+    \\
+    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
+    \\
+    \Pi Disc \Pi \mathbf{B}G &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
+   }
+  \,.
+$$
+
+since $Disc$ is full and faithful we have that this is equivalent to the pushout
+
+$$
+  \array{
+    \Pi \mathbf{B}G &\to& *
+    \\
+    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
+    \\
+    \Pi Disc \Pi \mathbf{B}G 
+    &&
+    \\
+    {}^{\mathllap{\epsilon_{\Pi \mathbf{B}G}}}\downarrow^{\mathrlap{\simeq}}
+    &&
+    \downarrow
+    \\
+    \Pi \mathbf{B}G
+    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
+   }
+  \,.
+$$
+
+By the [[zig-zag identity]] this is equivalent to the pushout
+
+$$
+  \array{
+    \Pi \mathbf{B}G &\to& *
+    \\
+    {}^{Id}\downarrow && \downarrow
+    \\
+    \Pi \mathbf{B}G
+    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
+   }
+  \,.
+$$
+
+Since this is the pushout of an equivalence, also $* \to \Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is an equivalence.
+
+By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
+
+=--
+
+We shall also write
+
+$$
+  Lie \mathbf{B}G =: \mathbf{B}\mathfrak{g}
+$$
+
+and hence for the counit of the $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$-adjunction
+
+$$
+  \mathbf{B}\mathfrak{g} \to \mathbf{B}G
+  \,.
+$$
+
+
++-- {: .un_prop #LieValuesofDeRham}
+###### Proposition
+
+
+Every [de Rham cocycle](#spring) $\omega : \mathbf{\Pi}_{dR} X \to \mathbf{B}G$ factors universally through the [[∞-Lie algebra]] of $G$
+
+$$
+  \array{
+     && \mathbf{B}\mathfrak{g}
+     \\
+     & \nearrow & \downarrow
+     \\
+     \mathbf{\Pi}_{dR}X 
+     &\stackrel{\omega}{\to}&
+     \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universality of the unit</a> of $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$.
+
+=--
+
+In particular
+
++-- {: .un_prop}
+###### Corollary
+
+Every morphism $\mathbf{B}\mathfrak{h} \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors universally through the $\infty$-Lie algebra of that $\infty$-group
+
+$$
+  \array{
+    \mathbf{B}\mathfrak{h} &\to& \mathbf{B}\mathfrak{g}
+    \\
+    & \searrow& \downarrow
+    \\
+    && \mathbf{BG}
+  }
+  \,.
+$$
+
+=--
+
+
+
+### Maurer-Cartan forms and curvature characteristic forms {#CurvatureCharacteristics}
+
++-- {: .un_def}
+###### Definition
+
+For $G \in \mathbf{H}$ an [[∞-group]], write
+
+$$
+  \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}\mathfrak{g}
+$$
+
+for the $\mathfrak{g}$-valued de Rham cocycle on $G$ which is induced by the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pullbck pasting</a>
+
+$$
+  \array{
+     G &\to& *
+     \\
+     {}^{\mathllap{\theta}}\downarrow && \downarrow
+     \\
+     \mathbf{\flat}_{dR} \mathbf{B}G &\to& \mathbf{\flat}\mathbf{B}G
+     \\
+     \downarrow && \downarrow
+     \\
+     * &\to& \mathbf{B}G 
+  }
+$$
+
+and the [above proposition](#LieValuesofDeRham).
+
+We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
+
+For $G = \mathbf{B}^n A$ an [[Eilenberg-MacLane object]], we also write
+
+$$
+  curv : \mathbf{B}^n A \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} A
+$$
+
+and call this the **universal [[curvature characteristic form]]** on $\mathbf{B}^n A$.
+
+=--
+
+
+### Differential cohomology {#DifferentialCohomology}
+
++-- {: .un_def }
+###### Definition 
+
+For $X \in \mathbf{H}$ and $A \in \mathbf{H}$ an [[∞-group]] write 
+
+$$
+  \mathbf{H}_{diff}(X,A)
+$$ 
+
+for the [[twisted cohomology]] of $X$ induced by the [curvature characteristic class](#CurvatureCharacteristics) $curv : A \to \mathbf{\flat}_{dR}\mathbf{B}\mathfrak{a}$. This is the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{H}_{diff}(X,A) &\stackrel{F}{\to}& 
+     H_{dR}(X,\mathbf{B}\mathfrak{a})
+    \\
+    {}^{\mathllap{\eta}}\downarrow && \downarrow
+    \\
+    \mathbf{H}(X,A) &\stackrel{curv}{\to}& 
+     \mathbf{H}_{dR}(X,\mathbf{B}\mathfrak{a})
+  }
+  \,,
+$$
+
+(where the right vertical morphism is any choice of cocycle representative for each cohomology class).
+
+This we call the **[[differential cohomology]]** of $X$ with coefficient in $A$.
+
+For $c \in \mathbf{H}_{diff}(X,A)$ a cocycle, we call
+
+* $F(c) \in H_{dR}(X,\mathbf{B}A)$ the **curvature** class of $c$;
+
+* $[\eta(c)] \in H(X,A)$ the **underlying class in $A$-cohomology**.
+
+=--
+
+
++-- {: .un_lemma}
+###### Lemma
+**(differential fiber sequence)**
+
+Differential cohomology fits into a [[fiber sequence]]
+
+$$
+  \cdots
+  \to
+  \mathbf{H}(X, \Omega A)
+  \to
+  \mathbf{H}_{dR}(X, A)
+  \to 
+  \mathbf{H}_{diff}(X, A)
+  \to
+  \mathbf{H}(X, A)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is a general statement about the definition of [[twisted cohomology]]: consider the diagram
+
+$$
+  \array{
+    \mathbf{H}(X,\mathbf{\flat}_{dR} \Omega \mathbf{B} A) 
+    &\to& \mathbf{H}_{diff}(X,A) &\to & H(X, \mathbf{\flat}_{dR} \mathbf{B}A)
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{H}(X, A) &\stackrel{curv}{\to}&
+    \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B} A)
+  }
+  \,.
+$$
+
+The square on the right is a pullback by definition of [[twisted cohomology]] in general and our special case of differential cohomology in particular. Take the left square to be the pullback of the middle vertical morphism to the point and deduce the top left object from that: by the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-pullback#QuasiCatPastingLaw">pasting law for (∞,1)-pullbacks</a> this top left object is the pullback of the total diagram. But by the definition of $H(X,\mathbf{\flat}_{dR}\mathbf{B}A)$ as the set of connected components of $\mathbf{H}(X,\mathbf{\flat}_{dR}\mathbf{B}A)$ it follows that the pullback of the outer diagram is 
+
+$$
+  \array{
+    \Omega \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}A) &\to& 
+     H(X,\mathbf{\flat}_{dR} \mathbf{B}A)
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B} A)
+  }
+  \,.
+$$
+
+Finally using that (as discussed at [[cohomology]] and at [[fiber sequence]]) $\Omega \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}A) \simeq \mathbf{H}(X,\Omega \mathbf{\flat}_{dR} \mathbf{B}A)$ and then
+using the above observation that $\Omega \mathbf{\flat}_{dR} \mathbf{B}A \simeq \mathbf{\flat}_{dR} \Omega \mathbf{B}A$ and finally the defining equivalence $\Omega \mathbf{B}A \simeq A$ the claim follows.
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+Let $\mathbf{B}^n K$ be an [[Eilenberg-MacLane object]] in $\mathbf{H}$, then differential cohomology in $\mathbf{H}$ fits into a [[short exact sequence]]
+
+$$
+  0 \to H_{dR}^n(X,K)/H^{n-1}(X,K) \to H_{diff}^n(X,K) \to H^n(X,K)
+  \to 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The above [[fiber sequence]] yields (as recalled there) a long exact sequence of pointed cohomology sets
+
+$$
+  \cdots
+  \to
+  H(X, \Omega A)
+  \to
+  H(X,\mathbf{\flat}_{dR} A)
+  \to 
+  H_{diff}(X, A)
+  \to
+  H(X, A)
+  \,.
+$$
+
+If $A = \mathbf{B}^n K$ is an [[Eilenberg-MacLane object]] on an abelian group object $K$, then this reads
+
+$$
+  \cdots
+  \to
+  H^{n-1}(X,K)
+  \to
+  H^{n}_{dR}(X,K)
+  \to 
+  H_{diff}^n(X, K)
+  \to
+  H^n(X, K)
+  \,.
+$$
+
+Moreover observing that by construction the last morphism $H_{diff}^n(X,K) \to H^n(X,K)$ is surjective (because in the defining $(\infty,1)$-pullback for $\mathbf{H}_{diff}$ the right vertical morphism is evidently surjective on connected components) this yields the short exact sequence as claimed.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This is _essentially_ verbatim the expected short exact sequence familiar from ordinary generalized [[differential cohomology]] only up to the following slight nuances in notation:
+
+1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]] and $|X| \in Top$ the geometric realization of a paracompact manifold $X$, we have that $H^1(X,U(1))$ above is $H^2_{sing}(|X|,\mathbb{Z})$ and not $H^1_{sing}(|X|,U(1))$. 
+
+1. The fact that on the left  of the short exact sequence we find the intrinsic de Rham cohomology set $H_{dR}^n(X,A)$ instead of something like the set of all flat forms as familiar from discussions of ordinary generalized [[differential cohomology]] is due to the fact that, following the general abstract procedure of [[twisted cohomology]], we defined $\mathbf{H}_{diff}(X,A)$ as the $(\infty,1)$-pullback of the inclusion $H(X,\mathbf{\flat}_{dR}A ) \to \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of the set of connected components of curvature classes into the [[cocycle]] [[∞-groupoid]]. This is the only natural thing to do in a fully natural [[(∞,1)-category|(∞,1)-categorical setup]]. However, in applications we typically have a concrete model for the [[∞-groupoid]] $\mathbf{H}(X,\mathbf{\flat}_{dR} A)$ in mind, and then can consider the inclusion $\mathbf{H}(X,\mathbf{\flat}_{dR} A)_0 \hookrightarrow \mathbf{H}(X,\mathbf{\flat}_{dR} A)$ of all of its objects. While this does not make intrinsic sense -- it is a bit [[evil]] -- , this is what is effectively done in ordinary generalized [[differential cohomology]], and doing so in our definition changes the above short exact sequence slightly to become exactly the familiar sequence, for the suitable special cases.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+In $\mathbf{H} = $ [[?LieGrpd]] the above definition reproduces [[ordinary differential cohomology]]. A detailed discussion is at [[circle n-bundle with connection]].
+
+=--
 
 
 
 ### Chern-Weil theory
 
-for the moment see [[∞-Chern-Weil theory]]
+For $G$ an [[∞-group]], $\mathbf{B}^n K$ an [[Eilenberg-MacLane object]] and
+
+$$
+  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n K
+$$
+
+a cocycle for a [[characteristic class]], postcomposition with the [universal curvature characteristic](#CurvatureCharacteristics) $curv : \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$ induced a [[curvature characteristic class]]
+
+$$
+  \langle -\rangle_{\mathbf{c}}
+  : 
+  \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K
+  \,.
+$$
+
++-- {: .un_def}
+###### Definition
+
+
+Postcomposition of $G$-[[cocycle]]s with this map is the **[[∞-Chern-Weil homomorphism]]**
+
+
+$$
+  \langle - \rangle_{\mathbf{c}} 
+   :
+  G Bund(X) \simeq \mathbf{H}(X,\mathbf{B}G)  
+  \to 
+  \mathbf{H}^{n+1}_{dR}(X,\mathfrak{k})
+  \,.
+$$
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+The **nonabelian differential cohomology** on $X$ is the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{H}_{conn}(X, \mathbf{B}G) &\to& \prod_{\mathbf{c}_i} \mathbf{H}_{diff}(X,\mathbf{B}^{n_i+1} K)
+   \\
+   {}^{\mathllap{[-]}}\downarrow && \downarrow
+   \\
+   \mathbf{H}(X, \mathbf{B}G)  &\to&
+   \prod_{\mathbf{c}_i} 
+   \mathbf{H}(X,\mathbf{B}^{n_i} K)
+  }
+$$
+
+We say a cocycle in $\nabla \in \mathbf{H}_{conn}(X, \mathbf{B}G)$ is a [[connection on an ∞-bundle|connection]] on the [[principal ∞-bundle]] $[\nabla]$.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+On $\infty$-bundles with connection the [[∞-Chern-Weil homomorphism]] refines to taking values in differential cohomology
+
+$$
+  \hat \mathbf{c} : \mathbf{H}_{conn}(X, \mathbf{B}G)
+   \to 
+  \mathbf{H}_{diff}(X, \mathbf{B}^{n+1}K)
+  \,.
+$$
+
+
+=--
+
+This is discussed at [[∞-Chern-Weil theory]].
+
 
 ### Chern-Simons theory
 
-for the moment see [[schreiber:∞-Chern-Simons theory]]
+Let $\mathbf{H}$ be a cohesive $(\infty,1)$-topops into which [[manifold]]s embed suitably. Such as $\mathbf{H} = $ [[?LieGrpd]].
 
+For $G \in \mathbf{H}$ an [[∞-group]] let 
+
+$$  
+  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n \mathbb{R}/\mathbb{Z}
+$$
+
+be a [[cocycle]] for a [[characteristic class]]. This induces the $\infty$-Chern-Weil homomorphism
+
+$$
+  \hat \mathbf{c} : \mathbf{H}_{conn}(\Sigma, \mathbf{B}G) 
+  \to 
+  \mathbf{H}_{diff}(X, \mathbf{B}^{n} \mathbb{R}/\mathbb{Z})
+  \,.
+$$
+
++-- {: .un_lemma}
+###### Observation
+
+If $\Sigma$ is a closed [[manifold]] of [[dimension]]
+
+$$
+  dim \Sigma \leq n
+$$
+
+then for any cocycle $\nable \in \mathbf{H}_{conn}(X,\mathbf{B}G)$ the [[circle n-bundle with connection]] $\hat \mathbf{c}(\nabla)$ is necessarily _flat_ , so that
+
+$$
+  \mathbf{H}_{diff}(\Sigma, \mathbf{B}^n U(1))
+  \simeq
+  \mathbf{H}(\mathbf{\Pi}(\Sigma), \mathbf{B}^n U(1))
+  \,,
+$$
+
+This expressin in turn is 
+
+$$
+  \cdots \simeq \infty Grpd(\Pi(\sigma), \mathcal{B}^n U(1))
+  \,.
+$$
+
+=--
+
+We may map this further to its $(n-dim \Sigma)$-[[truncated|truncation]]
+
+$$
+  :\infty Grpd(\Pi(X), \mathcal{B}^n U(1)) 
+  \to
+  \tau_{n-dim \Sigma} \infty Grpd(\Pi(X), \mathcal{B}^n U(1))
+  \,.
+$$
+
++-- {: .un_theorem}
+###### Theorem
+
+We have
+
+$$
+  \tau_{n-dim\Sigma} \infty Grpd(\Pi(\Sigma), \mathcal{B}^n U(1))
+  \simeq
+  \mathbf{B}^{n-dim \Sigma} U(1)
+  \,.
+$$
+
+=--
+
+(This is due to an observation by [[Domenico Fiorenza]].)
+
++-- {: .proof}
+###### Proof
+
+By general abstract reasoning (recalled at [[cohomology]] and [[fiber sequence]]) we have for the [[homotopy group]]s that
+
+\[
+  \pi_i \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))
+  \simeq 
+  H^{n-i}(\Sigma, U(1))
+  \,.
+\]
+
+Now use the [[universal coefficient theorem]], which asserts that we have an [[exact sequence]]
+
+\[
+  0
+  \to 
+  Ext^1(H_{n-i-1}(\Sigma,\mathbb{Z}),U(1))
+  \to 
+  H^{n-i}(\Sigma,U(1))
+  \to 
+  Hom(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
+  \to 0
+  \,.
+\]
+
+Since $U(1)$ is an [[injective object|injective]] $\mathbb{Z}$-[[module]] we have 
+
+$$
+  Ext^1(-,U(1))=0
+  \,.
+$$  
+
+This means that we have an [[isomorphism]]
+
+\[
+  H^{n-i}(\Sigma,U(1))
+  \simeq 
+  Hom_{Ab}(H_{n-i}(\Sigma,\mathbb{Z}),U(1))
+\]
+
+that identifies the [[cohomology group]] in question with the [[internal hom]] in [[Ab]] from the integral [[homology]] group of $\Sigma$ to $U(1)$.
+
+For $i\lt (n-dim \Sigma)$, the right hand is zero, so that 
+
+$$
+  \pi_i \infty Grpd(\Pi(\Sigma),\mathbf{B}^n U(1)) =0 \;\;\;\;
+  for i\lt (n-dim \Sigma)
+  \,. 
+$$ 
+
+For $i=(n-dim \Sigma)$, instead, $H_{n-i}(\Sigma,\mathbb{Z})\simeq \mathbb{Z}$, since $\Sigma$ is a closed $dim \Sigma$-manifold and so 
+
+$$
+  \pi_{(n-dim\Sigma)} \infty Grpd(\Pi(\Sigma),\mathcal{B}^n U(1))\simeq U(1)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .un_def}
+###### Definition 
+
+The resulting morphism
+
+$$
+  \mathbf{H}(\Sigma, A_{conn})
+  \stackrel{\exp(i S(-))}{\to}
+  \mathbf{B}^{n-dim\Sigma} U(1)
+$$
+
+in [[∞Grpd]] we call the **$\infty$-Chern-Simons action** on $\Sigma$.
+
+=--
+
+Here in the language of [[quantum field theory]]
+
+* the objects of $\mathbf{H}(\Sigma,A_{conn})$ are the [[gauge field]]s on $\Sigma$;
+
+* the [[morphism]]s in $\mathbf{H}(\Sigma, A_{conn})$ are the [[gauge transformation]]s;.
+
+* the [[2-morphism]]s are the _higher gauge transformations_ (corresponding to _ghosts-of-ghosts_ in the [[BRST complex]]);
+
+* and so on.
+
+
+More discussion is at [[schreiber:∞-Chern-Simons theory]].
 
 
 ## Examples {#Examples}
