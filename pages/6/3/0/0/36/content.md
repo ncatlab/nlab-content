@@ -6,6 +6,11 @@
 
 Many structures whose "traditional" definition takes place in [[Set]] (or some other familiar category) can be formulated "internally" to any other category (or categorical structure) $C$ with "enough structure."
 
+* If the category is equipped with the structure of a [[site]], then geometrical notions, such as defining [[morphism|arrow]]s locally on the domain with patching conditions (or more generally [[descent]] theory), exist inside it. 
+* If it is a [[finitely complete category]], the existence of (finite) [[product]]s and [[terminal object]]s means that [[variety of algebras|varieties of algebras]] can be defined. 
+* If the category is a [[topos]] with a [[natural numbers object]], then one can do a certain sort of "ordinary" mathematics inside it, specifically [[predicative mathematics|impredicative]] [[constructive mathematics]] without the fancier tools of [[model theory]] or (ironically) [[category theory]].
+* Further extra conditions on the category, such as being a [[Boolean topos]] or being a [[superextensive site]], bring the internal mathematics closer to that of $Set$.
+
 The structure required on $C$ is often referred to as a [[doctrine]].  The question of what exactly a "doctrine" is is a tricky one, but for purposes of this page, we take a "doctrine" to mean a certain type of structure (or [[property-like structure]]) with which a category can be equipped.  For example, there is a doctrine of monoidal categories, a doctrine of categories with finite limits, a doctrine of cartesian closed categories, and so on.
 
 Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
