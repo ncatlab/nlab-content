@@ -174,197 +174,54 @@ This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos
 
 A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
 
+### $\infty$-Groups
 
-We list the geometric meaning of the various morphisms and structures in
-a cohesive [[(∞,1)-topos]] over [[∞Grpd]]. (We follow the entries [[schreiber:structures in an (∞,1)-topos]] and [[schreiber:differential cohomology in an (∞,1)-topos]] where more motivation and justification for these interpretations can be found.)
-
-Write
+Every [[(∞,1)-category]] with [[(∞,1)-limit]]s comes with its notion of [[loop space object]]. A [[connected]] object in $\mathbf{H}$ we write $\mathbf{B}G$. Its [[loop space object]]
 
 $$
- (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
- \mathbf{H}
-  \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
- \infty Grpd
+  G := \Omega \mathbf{B}G
 $$
 
-for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we may think of as [[∞-groupoid]]s with cohesive structure. For instance in the case $\mathbf{H} = $ [[?LieGrpd]] they are $\infty$-groupoids with _smooth_ structure.  For $G \in \mathbf{H}$ an [[∞-group]] object we write $\mathbf{B}G \in \mathbf{H}$ for its internal [[delooping]] object.
-
-We may think of a morphism $X \to \mathbf{B}G$ as being the [[cocycle]] for a [[principal ∞-bundle]] on $X$ and of
-
-$$
-  \mathbf{H}(X, \mathbf{B}G)
-$$
-
-as the [[∞-groupoid]] whose objects are $G$-principal $\infty$-bundles, whose morphisms are equivalences between these, and so on.
-
-Then
-
-* $\Gamma(X)$ is the _underlying $\infty$-groupoid_ of the cohesive $\infty$-groupoid $X$ (for instance an $\infty$-Lie groupoid with its smooth structure forgotten);
-
-  if $X = \mathbf{B}G$ is the [[delooping]] of a [[group object]] $G$ in $\mathbf{H}$, then $\Gamma \mathbf{B}G = K(\Gamma(G),1)$ is the [[Eilenberg-MacLane space]] with the underlying [[discrete group]] $\Gamma(G)$ in degree 1.
-
-* $\Pi(X)$ is the fundamental [[path ∞-groupoid]] of $X$: its [[k-morphism]]s are generated from $k$-dimensional smooth paths in $X$ and the $k$-morphisms of $X$ itself. Under the equivalence of $(\infty,1)$-toposes 
-
-  $|-| :$  [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] 
+is the [[∞-group]] of which $\mathbf{B}G$ is the [[delooping]] object.
 
 
-  we may think of $|\Pi(X)|$ as the _geometric realization_ of $X$. For instance if $X \in \infty LieGrpd$ is a [[paracompact manifold]], then $|\Pi(X)|$ is, up to [[weak homotopy equivalence]] its underlying topological space.
+### Cohomology
 
-  If again $X = \mathbf{B}G$, then $\mathcal{B}G = |\Pi(\mathbf{B}G)|$ is the [[classifying space]] for the group $G$.
+Every [[(∞,1)-topos]] comes with its intrinsic notion of [[cohomology]]. 
 
-Write 
+A [[morphism]] $g : X \to A$ is a [[cocycle]] on $X$ with coefficients in $A$. The [[hom ∞-groupoid]] $\mathbf{H}(X,A)$ is the _cocycle $\infty$-groupoid_ . Its [[connected component]]s are the $A$-cohomology classes of $X$
 
 $$
-  (\mathbf{\Pi} \dashv \mathbf{\flat})
-  = 
-  (Disc \Pi \dashv Disc \Gamma) : \mathbf{H} \to \mathbf{H}
+  H(X,A) := \pi_0 \mathbf{H}(X,A)
   \,.
 $$
-
-
-Then unit and counit of the [[adjunction]]s give canonical natural morphisms
-
-* $X \to \mathbf{\Pi}(X)$ -- this we may think of as the inclusion of $X$ as the constant paths in the [[path ∞-groupoid]] $\mathbf{\Pi}(X)$;
-
-* $\mathbf{\flat}A \to A$ -- if we think of $A$ as the coefficient object for $A$-[[principal ∞-bundle]]s in $\mathbf{H}$, 
-
-  $$  
-    A Bund(X) := \mathbf{H}(X,A)
-  $$
-
-  then this is the map that takes principal $A$-bundles with [[schreiber:differential cohomology in an (∞,1)-topos|flat connection]] 
-
-   $(X \to \mathbf{\flat}A) \leftrightarrow (\mathbf{\Pi}(X) \to A)$ to the underlying $A$-bundle.
-
-  If $A = \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] object, then we may think of $\mathbf{\flat} \mathbf{B}G$ or rather the corresponding  $\Gamma\mathbf{B}G$ as being $K(G,1)$: the classifying object for $G$-principal bundles where all cohesive structure on $G$ has been forgotten.
-
-  Accordingly, the canonical map
-
-  $$
-    \Gamma \mathbf{B}G \to \Pi \mathbf{B}G
-  $$
-
-  that apppears in the second clause of the definition of cohesive topos is the inclusion of the [[Eilenberg-MacLane space]] $K(G,1)$ into the topological [[classifying space]] $\mathcal{B}G$. Again, on [[cocycle]]s this is the map from flat bundles to the underlying bundles.
-
-
-
-
-
-
-
-
-### Concrete objects {#ConcreteObjects}
-
-Even with a notion of cohesion, the general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete (∞,1)-sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
-
-Since 
-
-$$
-  \infty Grpd \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
-  \mathbf{H}
-$$
-
-is a [[geometric embedding]], the reflector $\Gamma$ encodes the [[localization of an (∞,1)-category]] at a class of morphisms $W$, realizing $\infty Grpd$ as the [[reflective sub-(∞,1)-category]] on the $W$-[[local object]]s. This inclusion factors canonically through the corresponding [[quasitopos]] of $W$-[[separated presheaf|separated (∞,1)-sheaves]]
-
-$$
-  \infty Grpd 
-    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
-   Conc(\mathbf{H})
-   \stackrel{\overset{concretizaton}{\leftarrow}}{\underset{}{\hookrightarrow}}
-   \mathbf{H}
-  \,.
-$$
-
-This encodes the [[concrete (∞,1)-sheaf|concrete]] objects in $\mathbf{H}$.
-
-
-
-### Infinitesimal objects {#InfinitesimalObjects}
-
-+-- {: .un_def}
-###### Definition
-
-An object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
-
-$$
-  \Pi \mathbf{B}\mathfrak{g} \simeq *
-$$ 
-
-and
-
-$$
-  \Gamma \mathbf{B}\mathfrak{g} \simeq *
-$$
-
-we call an **infinitesimal object**.
-
-Write
-
-$$
-  \mathbf{L}\hookrightarrow \mathbf{H} 
-$$
-
-for the full [[sub-(∞,1)-category]] on infinitesimal objects.
-
-=--
-
-+-- {: .un_def}
-###### Definition
-
-Define
-
-$$
-  */\mathbf{H}
-  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\underset{\mathbf{\flat}_{dR}}{\to}}
-  \mathbf{H}
-$$
-
-by forming the [[(∞,1)-pullback]]
-
-$$
-  \array{
-    \mathbf{\flat}_{dR} A &\to& Disc \Gamma A
-    \\
-    \downarrow && \downarrow
-    \\
-    * &\to& A
-  }
-$$
-
-and the [[(∞,1)-colimit|(∞,1)-pushout]]
-
-$$
-  \array{
-    X &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    Disc \Pi X &\to& \mathbf{\Pi}_{dR}X
-  }
-  \,.
-$$
-
-Write
-
-$$
-  Lie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}
-  \,.
-$$
-
-=--
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $A \in \mathbf{H}$ we have $Lie A \in \mathbf{L} \hookrightarrow \mathbf{H}$.
+We have that $\mathbf{H}(X,\mathbf{B}G)$ classifies $G$-[[principal ∞-bundle]]s on $X$.
 
 =--
 
-Examples of objects in $\mathbf{L}$ are _infinitesimal_ cohesive $\infty$-groups: [[∞-Lie algebroid|∞-Lie algebras]] $\mathbf{B}\mathfrak{g}$. For the moment, see there for more details in this.
++-- {: .proof}
+###### Proof
 
-### Cohomology
+Define the $G$ principal $\infty$-bundle $P \to X$ corresponding to a [[cocycle]] $g : X \to \mathbf{B}G$ as its [[homotopy fiber]]
 
-for the moment see [[cohomology]]
+$$
+  \array{
+    P &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{g}{\to}& P
+  }
+  \,.
+$$
+
+The claim follows using that in an [[(∞,1)-topos]] we have [[universal colimits]] and all [[groupoid object in an (∞,1)-category|groupoid objects]] are effective. See [[principal ∞-bundle]] for details. 
+
+=--
 
 ### Concordance {#Concordance}
 
@@ -403,19 +260,414 @@ is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ 
 
 
 
+### Homotopy and Galois theory
 
-### Homotopy theory 
+Every [[locally ∞-connected (∞,1)-topos]] comes with its notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] $\Pi(X)$ of an object $X$.
 
-for the moment see [[geometric homotopy groups in an (∞,1)-topos]]
+We say the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$ are ordinary [[homotopy group]]s of $\Pi(X)$.
+
+Let $Fin \infty Grpd \in \infty Grpd$ be the [[∞-groupoid]] of finite $\infty$-groupoids. For $ X \in \mathbf{H}$.
+
++-- {: .un_def}
+###### Definition
+
+For $X \in \mathbf{H}$ write
+
+$$
+  LConst(X) := \mathbf{H}(X, Disc Fin \infty Grpd)
+  \,.
+$$
+
+We call this the $\infty$-groupoid of **[[locally constant ∞-stack]]s** on $X$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+We have
+
+$$
+  Disc(X) \simeq Func(\Pi(X), Fin \infty Grpd)
+  \,.
+$$
+
+For any point $x : * \to X$ any point, we have for the endomorphisms of the fiber functor
+
+$$
+  End( x^* : Disc(X) \to Fin ) \simeq \Omega_x \Pi(X)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is just the adjunction $(\Pi \dashv Disc)$. The second statement is pure [[Tannaka duality]] (as describe there), so follows with a quadruple application of the [[(∞,1)-Yoneda lemma]].
+
+=--
+
+
+
+
+### Flat differential cohomology and local systems
+
++-- {: .un_def}
+###### Definition
+
+Set
+
+$$
+  (\mathbf{\Pi} \dashv \mathbf{\Gamma}) 
+  :=
+  (Disc \Pi \dashv Disc \Gamma)
+  \,.
+$$
+
+For $X,A \in \mathbf{A}$ we write
+
+$$
+  \mathbf{H}_{flat}(X,A) := \mathbf{H}(\mathbf{\Pi}X, A)
+  \simeq \mathbf{H}(X,\mathbf{\flat}A)
+$$
+
+and call this **flat differential cohomology** of $X$ with coefficients in $A$.
+
+We say a [[cocycle]] $\nabla : \mathbf{\Pi}(X) \to A$ is a [[local system]] on $X$ with coefficients in $A$ or equivalently a **flat [[connection on an ∞-bundle|connection]]** on the [[principal ∞-bundle]] corresponding to $X \stackrel{}{\to} \mathbf{\Pi}X \\stackrel{\nabla}{\to} A$.
+
+=--
+
++-- {: .un_theorem }
+###### Theorem
+
+Let $\mathbf{H} = $ [[?TopGrpd]] or  [[?LieGrpd]] be the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s or [[smooth ∞-groupoid]]s. A [[smooth manifold]] $X$ is naturally regarded as an object in there.
+
+For [[paracompact space|paracompact]] $X$ and any $A \in \infty Grpd$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+
+$$
+  \mathbf{H}(X, Disc A)
+  \simeq
+  Top(X, |A|)
+$$
+
+and hence in particular an isomorphism on cohomology
+
+$$
+  H(X,A) \simeq \pi_0 \mathbf{H}(X, Disc A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed at [[∞-Lie groupoid]].
+
+Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv Disc)$.
+
+=--
+
+See [[nonabelian cohomology]] for more details.
+
 
 ### Whitehead towers
 
 for the moment see [[Whitehead tower in an (∞,1)-topos]]
 
 
-### Galois theory
+### Concrete objects: Cohesive $\infty$-groupoids {#ConcreteObjects}
 
-for the moment see [[geometric homotopy groups in an (∞,1)-topos]]
+The general object $X \in \mathbf{H}$ in a cohesive $(\infty,1)$-topos may be non-[[concrete (∞,1)-sheaf|concrete]] in that it is not modeled on its [[point]]s, or rather its underlying [[∞-groupoid]] $\Gamma X$. 
+
+Since 
+
+$$
+  \infty Grpd \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+  \mathbf{H}
+$$
+
+is a [[geometric embedding]], the reflector $\Gamma$ encodes the [[localization of an (∞,1)-category]] at a class of morphisms $W$, realizing $\infty Grpd$ as the [[reflective sub-(∞,1)-category]] on the $W$-[[local object]]s. This inclusion factors canonically through the corresponding [[(∞,1)-quasitopos]] of $W$-[[separated presheaf|separated (∞,1)-sheaves]]
+
++-- {: .un_def}
+###### Definition
+
+The objects in the $(\infty,1)$-quasitopos
+
+$$
+  \infty Grpd 
+    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{Codisc}{\hookrightarrow}}
+   Conc(\mathbf{H})
+   \stackrel{\overset{concretizaton}{\leftarrow}}{\underset{}{\hookrightarrow}}
+   \mathbf{H}
+$$
+
+inside $\mathbf{H}$ we call the **[[concrete (∞,1)-sheaf|concrete]] objects** or **cohesive $\infty$-groupoids**-
+
+=--
+
+
+### Infinitesimal objects: $\infty$-Lie algebroids {#InfinitesimalObjects}
+
++-- {: .un_def}
+###### Definition
+
+An [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
+
+$$
+  \Pi \mathbf{B}\mathfrak{g} \simeq *
+$$ 
+
+and
+
+$$
+  \Gamma \mathbf{B}\mathfrak{g} \simeq *
+$$
+
+we call an **infinitesimal object**.
+
+Its [[loop space object]]
+
+$$
+  \mathfrak{g} := \Omega \mathbf{B}G
+$$
+
+we call an **[[∞-Lie algebra]]** in $\mathbf{H}$. 
+
+We say an object $A \in \mathbf{H}$ is an **[[∞-Lie algebroid]]** if for every point $* \to A$ the corresponding [[loop space object]] $\Omega_x A$ is equivalent to an $\infty$-Lie algebra.
+
+Write
+
+$$
+  \mathbf{L}\hookrightarrow \mathbf{H} 
+$$
+
+for the full [[sub-(∞,1)-category]] on $\infty$-Lie algebroids.
+
+=--
+
+
+### Lie theory
+
+
++-- {: .un_def}
+###### Definition
+
+Define
+
+$$
+  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \exp_{dR})
+  : 
+  */\mathbf{H}
+  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\stackrel{\underset{\mathbf{\flat}_{dR}}{\to}}{\underset{\mathbf{\exp}_{dR}}{\leftarrow}}}
+  \mathbf{H}
+$$
+
+by forming the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{\flat}_{dR} A &\to& Disc \Gamma A
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& A
+  }
+$$
+
+
+and the [[(∞,1)-colimit|(∞,1)-pushout]]
+
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    Disc \Pi X &\to& \mathbf{\Pi}_{dR}X
+  }
+$$
+
+and
+
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    CoDisc \Gamma X &\to& \mathbf{\exp}_{dR}X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+We do indeed have a triple of [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\exp}_{dR})$ as indicated.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the defining hom-equivalence. For $X \mathbf{H}$, $A \in */\mathbf{H}$ two objects, we have by the fact that the [[hom-functor]] : $mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments a sequence of natural equivalences
+
+$$
+  \begin{aligned}
+    */\mathbf{H}(\mathbf{\Pi}_{dR}, A)
+    & \simeq
+    \lim_{\leftarrow}
+    \left(
+      \array{
+         && \mathbf{H}(X,A)
+         \\
+         && \downarrow
+         \\
+         * &\to& \mathbf{H}(Disc \Pi X, A )
+      }
+    \right)
+    \\
+    & \simeq
+    \lim_{\leftarrow}
+    \left(
+      \array{
+         && \mathbf{H}(X,A)
+         \\
+         && \downarrow
+         \\
+         * &\to& \mathbf{H}(X, Disc \Gamma A )
+      }
+    \right)    
+    \\
+    & \simeq
+    \mathbf{H}(X, \mathbf{\flat}_{dR} A)
+  \end{aligned}
+  \,.
+$$
+
+Analously for the other case.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathbf{B}G \in */\mathbf{H}$ we have $Lie \mathbf{B}G \in \mathbf{L} \hookrightarrow \mathbf{H}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using that $\Pi$ preserves colimits and finite products, we have that 
+$\Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is given by the pushout
+
+$$
+  \array{
+    \Pi \mathbf{B}G &\to& *
+    \\
+    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
+    \\
+    \Pi Disc \Pi \mathbf{B}G &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
+   }
+  \,.
+$$
+
+since $Disc$ is full and faithful we have that this is equivalent to the pushout
+
+$$
+  \array{
+    \Pi \mathbf{B}G &\to& *
+    \\
+    {}^{\mathllap{\Pi}(\iota)}\downarrow && \downarrow
+    \\
+    \Pi Disc \Pi \mathbf{B}G 
+    &&
+    \\
+    {}^{\mathllap{\epsilon_{\Pi \mathbf{B}G}}}\downarrow^{\mathrlap{\simeq}}
+    &&
+    \downarrow
+    \\
+    \Pi \mathbf{B}G
+    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
+   }
+  \,.
+$$
+
+By the [[zig-zag identity]] this is equivalent to the pushout
+
+$$
+  \array{
+    \Pi \mathbf{B}G &\to& *
+    \\
+    {}^{Id}\downarrow && \downarrow
+    \\
+    \Pi \mathbf{B}G
+    &\to& \Pi \mathbf{\Pi}_{dR} \mathbf{B}G 
+   }
+  \,.
+$$
+
+Since this is the pushout of an equivalence, also $* \to \Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is an equivalence.
+
+By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
+
+=--
+
+
++-- {: .un_def}
+###### Definition
+
+Set
+
+$$
+  (\mathbf{Lie} \dashv \mathbf{\exp}) 
+  :=
+  ( 
+    \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}
+    \dashv
+    \mathbf{\exp}_{dR} \mathbf{\flat}_{dR}
+  )
+$$
+
+
+=--
+
+We shall also write
+
+$$
+  Lie \mathbf{B}G =: \mathbf{B}\mathfrak{g}
+$$
+
+and hence for the counit of the $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$-adjunction
+
+$$
+  \mathbf{B}\mathfrak{g} \to \mathbf{B}G
+  \,.
+$$
+
+By the <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universal factorization property</a> of adjunctions we have that every morphism 
+
+$\mathbf{B}\mathfrak{h} \to \mathbf{B}G$ from an $\infty$-Lie algebra to an $\infty$-group factors universally through the $\infty$-Lie algebra of that $\infty$-group
+
+$$
+  \array{
+    \mathbf{B}\mathfrak{h} &\to& \mathbf{B}\mathfrak{g}
+    \\
+    & \searrow& \downarrow
+    \\
+    && \mathbf{BG}
+  }
+  \,.
+$$
+
+
+
+
 
 ### van Kampen theorem {#vanKampenTheorem}
 
@@ -512,9 +764,6 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 
 =--
 
-### Lie theory
-
-for the moment see [[schreiber:differential cohomology in an (∞,1)-topos]]
 
 ### de Rham theory
 
@@ -522,7 +771,6 @@ for the moment see [[schreiber:differential cohomology in an (∞,1)-topos]]
 
 
 ### Differential cohomology
-
 
 Every [[(∞,1)-topos]] $\mathbf{H}$ comes with its [[cohomology|intrinsic cohomology]]: for $X, A \in \mathbf{H}$ a [[cocycle]] on $X$ with coefficients in $\mathbf{H}$ is a [[morphism]] $g : X \to A$. A coboundary is a [[2-morphism]] between two such. The [[cohomology]] set of $X$ with coefficients in $A$ is
 
@@ -546,7 +794,6 @@ The canonical induced morphism $\mathbf{H}(X,\mathbf{B}^n K) \to \mathbf{H}(X,\m
 
 Generally, for every [[characteristic class]] $\mathbf{B}G \to \mathbf{B}^n K$ the postcomposition $\mathbf{B}G \to \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}K$ induces the [[∞-Chern-Weil homomorphism]] on $G$-[[principal ∞-bundle]]s. This is modeled by equipping a $G$-principal $\infty$-bundle with a [[connection on an ∞-bundle]]. 
 
-For more on this see [[∞-Chern-Weil theory introduction]].
 
 
 ### Chern-Weil theory
