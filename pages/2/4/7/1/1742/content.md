@@ -1,9 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The __triangle identities__ or __zigzag identities__ are identities satisfied by the unit and counit of an [[adjunction]].
+
+## Statement
 
 Given $C, D$ (categories, or otherwise objects of a $2$-[[2-category|category]]) with functors (or otherwise morphisms) $L: C \to D$ and $R : D \to C$ and natural isomorphisms (or otherwise $2$-morphisms) $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$, the triangle identities are the following:
 
 
-## As equations
+### As equations
 
 $$ L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L $$
 and 
@@ -11,7 +35,7 @@ $$ R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R $$
 are identities.
 
 
-## As diagrams
+### As diagrams
 
 $$ 
   R\epsilon . \eta R = 1_R
@@ -66,7 +90,7 @@ $$
 $$
 
 
-## As string diagrams
+### As string diagrams
 
 In [[string diagrams]], the identities appear as the action of "pulling zigzags straight" (hence the name):
 
