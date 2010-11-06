@@ -23,7 +23,7 @@ There is also a **generalized Whitehead product** where we can take more general
 
 The Whitehead products form one of the [[primary homotopy operation]]s and in fact with [[composition operation]]s and $\pi_1$-actions generate all such operations. This is related to the definition of [[Pi-algebra]].
 
-In the context of [[simplicial group]]s, representing [[connected]] [[homotopy type]]s, there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. (The formula for the Whitehead product is due to Dan Kan and can be found in the old survey article of Curtis.  The proof that it works has never published.)
+In the context of [[simplicial group]]s, representing [[connected]] [[homotopy type]]s, there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. (The formula for the Whitehead product is due to Dan Kan and can be found in the old survey article of Curtis.  The proof that it works was never published.)
 
 
 ## References
