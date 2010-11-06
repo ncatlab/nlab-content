@@ -169,6 +169,15 @@ This model structure is equivalent to the [[model structure on simplicial T-alge
 
 There is a notion of _simplicial algebraic theory_ that captures some class of $(\infty,1)$-algebraic theories. For the moment see section 4 of ([Rezk](#Rezk))
 
+### Structure $(\infty,1)$-sheaves
+
+A pre[[geometry (for structured (∞,1)-toposes)]] is a (multi-sorted) $(\infty,1)$-algebraic theory. A _structure $(\infty,1)$-sheaf_ on an [[(∞,1)-topos]] $\mathcal{X}$ in the sense of [[structured (∞,1)-topos]]es is an $\infty$-algebra over this theory 
+
+$$
+  \mathcal{O} : \mathcal{T} \to \mathcal{X}
+$$
+
+in the $(\infty,1)$-topos $\mathcal{X}$ -- a special one satisfying extra conditions that make it indeed behave like a sheaf of _function algebras_ .
 
 ## Related concepts
 
