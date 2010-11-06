@@ -15,95 +15,28 @@
 =--
 
 #Contents#
-
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea 
 
-The [[space]]s of relevance in many applications -- notably in those related to [[physics]] -- crucially carry more structure than plain [[nLab:topological space|topological space]], they carry certain _geometric_ structure, specified by local model spaces.
-
-### Geometries 
-
-This may be formalized by fixing an [[(∞,1)-category]]
-$\mathcal{G}$ whose objects we think of as **loci** -- test spaces with which all spaces with $\mathcal{G}$-geometry structure may be probed -- and whose morphisms we think of maps between loci that respect the geometric structure in question.
-
-Since the specification of $\mathcal{G}$ encodes what we want to _mean_ by _geometric structure_, $\mathcal{G}$ is called a **geometry**.
-
-By the general abstract nonsense of [[space and quantity]], the most general notion of [[space]] modeled on the test objects in $\mathcal{G}$ is an [[∞-stack]] on $\mathcal{G}$. We write
+In the context of [[structured (∞,1)-topos]]es a _pre-geometry_ is an [[(∞,1)-algebraic theory]] $\mathcal{T}$, such that the _structure $(\infty,1)$-sheaf_ of an [[little topos|little]] [[(∞,1)-topos]] $\mathcal{X}$ _with $\mathcal{T}$-structure_ is a $\mathcal{T}$-algebra in $\mathcal{X}$, hence a [[(∞,1)-limit|(∞,1)-product]]-preserving [[(∞,1)-functor]]
 
 $$
-  \mathbf{H} := Sh_\infty(Pro(C))
+  \mathcal{O} : \mathcal{T} \to \mathcal{X}
+  \,.
 $$
 
-for a choice of [[(∞,1)-category of (∞,1)-sheaves]] on [[pro-object]]s in $\mathcal{G}$: the **gros [[(∞,1)-topos]] of $\mathcal{G}$-geometric spaces**.
-The choice of $\mathbf{H}$ on top of the choice of $\mathcal{G}$ encodes the notion **locality** of spaces modeled on $\mathcal{G}$.
+If we think of $\mathcal{X} = Sh_{(\infty,1)}(C)$ as an [[(∞,1)-sheaf (∞,1)-topos]] then this encodes precisely an $(\infty,1)$-sheaf of $\mathcal{T}$-algebras on $C$. Extra conditions on $\mathcal{O}$ ensure that this indeed looks like a sheaf of geometric-structure-preserving functions.
 
-The [[Yoneda embedding]] $\mathcal{G} \hookrightarrow Sh_\infty(\mathcal{G})$ ensures that every test space in $\mathcal{G}$ may canonically be regarded as a general space modeled on $\mathcal{G}$. When studying geometry it is of interest to refine this inclusion of very simple into very general spaces through a hierarchy
-of types of spaces of decreasing rigid geometric structure, for instance:
+A _geometry_ $\mathcal{G}$ is a universal completion of a pre-geometry under [[(∞,1)-limit]]s, such that this $\mathcal{O}$ is equivalently an $(\infty,1)$-limit preserving $(\infty,1)$-functor
 
 $$
-  \array{
-    \mathcal{G} &\stackrel{Spec^{\mathcal{G}}}{\hookrightarrow}& Sch(\mathcal{G}) &\hookrightarrow&
-   Sh_\infty(Pro(\mathcal{G}))
-   \\
-    && \downarrow && \downarrow
-   \\
-   && Str(\mathcal{G}) &\hookrightarrow& PSh_\infty(Pro(\mathcal{G}))
-  }
+  \mathcal{O} : \mathcal{G} \to \mathcal{X}
 $$
 
-where 
-
-* $Str(\mathcal{G})$ are the **$\mathcal{G}$-[[structured (∞,1)-topos]]es**: those $\mathcal{G}$-probeable [[space]]s that have something like an _underlying topological space_ in the generalized form of an underlying **petit [[(∞,1)-topos]]** which is equipped with [[structure sheaf|structure sheaves]] of [[quantity|function quantities]] with values in objects of $\mathcal{G}$;
-  
-* $Sch(\mathcal{G})$ are the **$\mathcal{G}$-[[generalized scheme]]s**: those $\mathcal{G}$-structured spaces that are not only probeable by object of $\mathcal{G}$, but are **locally [[nLab:isomorphism|isomorphic]] to objects in $\mathcal{G}$**.
-
-  
-
-### Structured $(\infty,1)$-toposes 
-
-
-A [[structured (∞,1)-topos]] $T \simeq Sh_\infty(S)$ is 
-an [[(∞,1)-topos]] equipped
-with a generalized [[quantity]] : a $C$-valued co-presheaf
-
-$$
-  C(-) : G \to T
-$$
-
-on some [[(∞,1)-category]] $G$. 
-
-This is to be interpreted as
-
-* assigning to each object $V \in G$ -- which we think of a _co-test space_
-
-* the [[(∞,1)-sheaf]] of _structure preserving maps_ from $S$ to $V$,
-
-  * i.e. the sheaf that assigns to each test space $U \in S$ the collection of _structure preserving maps_ from $U$ to $V$
-
-Here the structure that is "preserved" is 
-to be thought of as _defined_ (implicitly) by the choice of $C(-)$, following the
-general idea of [[space and quantity]]. 
-
-In standard motivating example (in the context of [[petit topos]]es), that of [[derived smooth manifold]]s, we have
-
-* $S = Op(X)$ is the [[category of open subsets]] of a [[topological space]] $X$
-
-* $G = CartSp$ is the full [[subcategory]] of [[Diff]] 
-  on Cartesian [[manifold]]s (manifolds of the form
-  $\mathbb{R}^n$)
-  
-* the choice $C(-) : G \to Sh_\infty(Op(X))$ is to be thought of as specifying
-  a [[differential geometry]] on $X$ in that it amounts to specifying for each
-  open (topological!) subset $U \subset X$ the collection of maps $U \to \mathbb{R}^n$
-  that are to count as _smooth_ .
-  
-It is in this sense that one thinks of $G$ as encoding **geometry** over
-topology: $G$ is to be thought of as a category of co-test spaces that are
-topological spaces equipped with extra geometrical structure.
-
+subject to a condition that ensures that this looks like an $(\infty,1)$-sheaf of $\infty$-functions algebras.
 
 ## Definition 
 
@@ -301,7 +234,7 @@ such that
 
 Let $\mathcal{T}$ be a pregeometry and $\mathcal{X}$ an [[(∞,1)-topos]].
 
-A **$\mathcal{T}$-structure** on $\mathcal{X}$ is an [[(infinity,1)-functor]]
+A **$\mathcal{T}$-structure** on $\mathcal{X}$ is an [[(∞,1)-functor]]
 $\mathcal{O} : \mathcal{T} \to \mathcal{X}$ such that
 
 * $\mathcal{O}$ preserves finite [[product]]s.
@@ -337,6 +270,15 @@ $\mathcal{O} : \mathcal{T} \to \mathcal{X}$ such that
   covering sieve $\{f_i : U_i \to X\}$ in $\mathcal{T}$ by admissble $f_i$
   the induced map $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(X)$
   is an [[effective epimorphism]] in $\mathcal{X}$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The first clause says that $\mathcal{O} : \mathcal{T} \to \mathcal{X}$ is in particular an $\infty$-algebra over the (multi-sorted) [[(∞,1)-algebraic theory]] $\mathcal{T}$.
+
+The other two clauses encode that this this $\infty$-algebra $mathcal{O}$ indeed behaves like a _function algebra_ . 
 
 =--
 
@@ -386,7 +328,8 @@ There should be a geometry $\mathcal{G}$ such that $\mathcal{G}$-[[generalized s
 
 The general theory is developed in
 
-* **StrSh** [[Jacob Lurie]], _[[Structured Spaces]]_
+* [[Jacob Lurie]], _[[Structured Spaces]]_
+{#Lurie}
 
 The definition of a **geometry** $\mathcal{G}$ is def. 1.2.5.
 
