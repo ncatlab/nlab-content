@@ -393,7 +393,7 @@ These are well understood in low dimensions, see the entry on [[hypercrossed com
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
-* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-type]]s.  They are related to the [[crossed square]]s of Guin-Valery and [[Jean_louis Loday|Loday]], in that there is a functor from crossed squares to $2$-crossed modules which preserves homotopy types, but crossed squares have the advantage that there is a homotopically defined functor with values in crossed squares, related to classical homotopy invariants of pairs and triads, and which satisfies a [[higher homotopy van Kampen theorem]], so that some calculations are possible. 
+* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-type]]s.  They are related to the [[crossed square]]s of Guin-Valery and [[Jean-Louis Loday|Loday]], in that there is a functor from crossed squares to $2$-crossed modules which preserves homotopy types, but crossed squares have the advantage that there is a homotopically defined functor with values in crossed squares, related to classical homotopy invariants of pairs and triads, and which satisfies a [[higher homotopy van Kampen theorem]], so that some calculations are possible. 
 
 ## References
 
