@@ -21,6 +21,8 @@
 
   * [[cohesive (∞,1)-topos]]
 
+* [[function algebras on ∞-stacks]]
+
 ## Examples
 
 * [[derived algebraic geometry]]
