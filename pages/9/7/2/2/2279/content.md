@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -14,35 +29,19 @@ Rather little is known about the very general notion of higher topos theory. A r
 Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos) is [[Set]] -- the category of [[0-category|0-categories]] -- so the $\infty$-category of [[n-category|n-categories]] or at least of $n$-[[groupoid]]s should form the archetypical example of an $(n+1,1)$-topos. 
 
 
-## General higher topos theory
 
+## Related concepts
+
+* [[topos theory]]
+
+* [[2-topos theory]]
+
+* [[(∞,1)-topos theory]]
+
+* **higher topos theory**
+
+
+## References
 
 * [[Michael Shulman]], _[[michaelshulman:n-topos for large n]]_ .
-
-
-## $(\infty,1)$-Topos theory ##
-
-* [[(∞,1)-topos]]
-
-Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "elementary") $(\infty,1)$-topoi are due [[Charles Rezk]] and [[Bertrand Toen|Toën]]--Vezzosi in two versions (preprints 2002), via [[simplicially enriched category|simplically enriched categories]] and via [[Segal category|Segal categories]]:
-
-* [[Bertrand Toën]], Gabrielle Vezzosi, _Homotopical algebraic geometry. I. Topos theory_, 
-Adv. Math. 193 (2005), no. 2, 257--372, [arXiv:math.AT/0207028](http://arxiv.org/abs/math/0207028)
-
-* [[Bertrand Toën|B. Toën]] , G. Vezzosi, _Segal topoi and stacks over Segal categories_, [arXiv:math.AG/0212330](http://arXiv.org/abs/math/0212330)
-
-[[Jacob Lurie]] has given the abstract [[models for infinity-stack (infinity,1)-toposes|model]]-independent definition of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-toposes of (∞,1)-sheaves]] in 
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
-
-and shown that Brown-Joyal-Jardine [[model structure on simplicial presheaves]] (for ordinary [[∞-stack]]s) and more generally the To&#235;n-Vezzosi [[model structure on simplicially enriched presheaves]] (for [[derived ∞-stack]]s) are indeed models for this theory.
-
-In this context, indeed the [[(∞,1)-category]] [[∞-Grpd]] or [[Top]] of [[∞-groupoid]]s or equivalently (see [[homotopy hypothesis]]) of (compactly generated weakly Hausdorff) [[topological spaces]] -- is the archetypical example of an $(\infty,1)$-topos.
-
-## 2-Topos theory
-
-See [[2-topos]].
-
-
-
 
