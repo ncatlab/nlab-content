@@ -26,7 +26,7 @@
 
 For $T$ a [[nLab:Lawvere theory]], the _geometry_ modeled on $T$ is encoded in the [[nLab:sheaf topos]] on formal duals of [[nLab:T-algebra]]s. For instance for $T = $ [[nLab:CartSp]] we have that $T$-algebras are [[nLab:smooth algebra]]s and the geometry modeled on them is [[nLab:synthetic differential geometry]].
 
-This statement generalizes to [[nLab:(∞,1)-category theory]]: for $T$ an [[nLab:(∞,1)-algebraic theory]] and $C \subset T Alg^{op}$ a [[nLab:(∞,1)-site]] of formal duals of $\infty$-algebras over $T$, one says that the [[nLab:(∞,1)-topos]] $\mathbf{H} = \infty Sh(C)$ over $C$ encodes **[[nLab:derived geometry]]** modeled on $T$. The objects of $\mathbf{H}$ also called _[[nLab:derived stack]]s_ on $C$.
+This statement generalizes to [[nLab:(∞,1)-category theory]]: for $T$ an [[nLab:(∞,1)-algebraic theory]] and $C \subset T Alg^{op}$ a [[nLab:(∞,1)-site]] of formal duals of $\infty$-algebras over $T$, one says that the [[nLab:(∞,1)-topos]] $\mathbf{H} = \infty Sh(C)$ over $C$ encodes **[[nLab:derived geometry]]** modeled on $T$. The objects of $\mathbf{H}$ are also called _[[nLab:derived stack]]s_ on $C$.
 
 The term "derived" here is meant to specifically contrast with [[nLab:∞-stack]]s on just a 1-categorical site. Even if $T$ happens to be just an ordinary Lawvere theory, regarded as a 1-[[nLab:truncated]] $(\infty,1)$-theory, the $\infty$-topos over $T Alg_\infty^{op}$ behaves considerably different from that over just $T Alg^{op}$.
 
