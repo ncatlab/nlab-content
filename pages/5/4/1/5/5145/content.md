@@ -25,6 +25,6 @@ and
 
 ## Properties
 
-The primary homotopy operations encoded via [[Pi-algebras]] into an algebraic structure akin to models for a [[Lawvere theory]].  (This is discussed more fully in the entry on [[Pi-algebras]].)
+The primary homotopy operations encode via [[Pi-algebras]] into an algebraic structure akin to models for a [[Lawvere theory]].  (This is discussed more fully in the entry on [[Pi-algebras]].)
 
 [[!redirects primary homotopy operations]]
