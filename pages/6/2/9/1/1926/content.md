@@ -1,9 +1,18 @@
-<div class="rightHandSide toc">
-[[!include higher geometry - contents]]
-***
-[[!include (infinity,1)-topos - contents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
 
 #Contents#
 
@@ -280,7 +289,7 @@ such that
   is an [[effective epimorphism]] in $T$, i.e. its [[?ech nerve]]
   is a [[simplicial resolution]] of $C(W)$:
   $$
-    \mathop{&#x010C;ech}(C(\pi)) \stackrel{\simeq}{\to} C(W)
+    \mathop{&#268;ech}(C(\pi)) \stackrel{\simeq}{\to} C(W)
     \,.
   $$
 
