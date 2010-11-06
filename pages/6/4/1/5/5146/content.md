@@ -64,9 +64,9 @@ $$[-,-] : A_p\otimes A_q \to A_{p+q-1}$$
 
 for $p,q \geq 1$ (the case where they are equal to 1 needs special mention, see below.)
      
-   * [[composition operation]]s, $-\cdot \alpha : A_p\to A_r$ for $\alpha \in \pi_r(S^p)$, 1\lt p\lt r$,
+   * [[composition operation]]s, $-\cdot \alpha : A_p\to A_r$ for $\alpha \in \pi_r(S^p)$, $1\lt p\lt r$,
 
-which satisfy the identites that hold for the Whitehead products and composition operations on the higher homotopy groups os a pointed space, and
+which satisfy the identities that hold for the Whitehead products and composition operations on the higher homotopy groups os a pointed space, and
 
    * a left action of $A_1$ on the $A_n$, $n\gt 1$, which commutes with these operations.
 
