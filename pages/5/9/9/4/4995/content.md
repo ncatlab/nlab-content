@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -16,58 +22,33 @@
 
 ## Idea
 
-A _cohesive $(\infty,1)$-topos_ is an [[(∞,1)-topos]] $\mathbf{H}$ whose [[global section]] [[(∞,1)-geometric morphism]] $\Gamma : \mathbf{H} \to $ [[∞Grpd]] admits a further [[left adjoint]] $\Pi$ and a further right adjoint $Codisc$: 
+A _cohesive $(\infty,1)$-topos_ is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$ that provides a context of generalized [[space]]s in which [[higher geometry]] makes sense. 
+
+It is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $CoDisc$: 
 
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : \mathbf{H} \to \infty Grpd
 $$ 
 
-with $Disc$ and $Codisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|product]]s. Here
+with $Disc$ and $Codisc$ both [[full and faithful (∞,1)-functor]]s and such that $\Pi$ moreover preserves finite [[(∞,1)-limit|(∞,1)-product]]s. Here
 
-1. $Codisc$ induces an [[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _concrete_ objects, those that look like [[∞-groupoid]]s _equipped with extra cohesive structure_ : for instance with [[topology]], or with [[smooth structure]].
+1. the existence of $CoDisc$ induces a sub-[[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _[[concrete (∞,1)-sheaf|concrete objects]]_ that behave like [[∞-groupoid]]s _equipped with extra cohesive structure_ , such as with [[topology|continuous structure]], [[smooth structure]], etc.
 
-1. $\Pi$ sends an object $X$ to its [[geometric homotopy groups in an (∞,1)-topos|geometric]] [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]], which co-classifies [[locally constant ∞-stack]]s on $X$.
+1. the existence of $\Pi$ induces a notion of [[geometric homotopy groups in an (∞,1)-topos|geometric]] [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]], hence under $|-| : \infty Grpd \simeq $ [[Top]] of [[geometric realization]] $|\Pi(-)|$ of objects in $\mathbf{H}$.
 
+The functor $\Gamma$ itself may be thought of as sending a cohesive [[∞-groupoid]] $X$ to its underlying bare $\infty$-groupoid $\Gamma(X)$. This is $X$ with all _cohesion forgotten_ (for instance with the continuous or the smooth structure forgotten).
 
-The definition of _cohesive $(\infty,1)$ topos_ aims to axiomatize properties of an [[(∞,1)-topos]] that make it a [[gros topos]] of [[space]]s inside of which [[higher geometry]] may take place.
+Conversely, $Disc$ and $CoDisc$ send an $\infty$-groupoid $A$ either to the [[discrete space|discrete ∞-groupoid]] $Disc(A)$ with _discrete_ cohesive structure (for instance with [[discrete topology]]) or to the [[codiscrete space|codiscrete ∞-groupoid]] $Codisc(A)$ with the _codiscrete_ cohesive structure (for instance with [[codiscrete topology]]). 
 
-The idea behind the term is that a _geometric space_ is roughly something consisting of points or pieces that are _held together_ by some cohesion - for instance by [[topology]], by [[smooth structure]], etc.
+The existence of such a quadruple of adjoint $(\infty,1)$-functors alone implies a rich [[internalization|internal]] [[higher geometry]] in $\mathbf{H}$ that comes with its internal notion of [[Galois theory]], [[Lie theory]], [[differential cohomology]], [[Chern-Weil theory]]. 
 
-The canonical [[global section]] [[(∞,1)-geometric morphism]] $\Gamma : \mathbf{H} \to \infty Grpd$ of a cohesive $(\infty,1)$topos over [[∞Grpd]] may be thought of as sending a cohesive [[∞-groupoid]] $X$ to its underlying bare $\infty$-groupoid $\Gamma(X)$. Here $\Gamma(X)$ is $X$ with all _cohesion forgotten_ (for instance with the topology or the smooth structure forgotten).
+Examples of cohesive $(\infty,1)$-toposes include
 
-Conversely, the [[left adjoint|left]] [[adjoint (∞,1)-functor]] and [[right adjoint]] of $\Gamma$
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[topological ∞-groupoid|?ContGrpd]] of [[topological ∞-groupoid|continuous ∞-groupoids]];
 
-$$
-  \mathbf{H} 
-    \stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
-  \infty Grpd
-$$
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[?LieGrpd]] of [[smooth ∞-groupoids]] / [[synthetic differential geometry|synthetic differential ∞-groupoids]].
 
-send an $\infty$-groupoid $S$ either to the [[discrete space|discrete ∞-groupoid]] $Disc(S)$ with _discrete_ cohesive structure (for instance with [[discrete topology]]) or to the [[codiscrete space|codiscrete ∞-groupoid]] $Codisc(S)$ with the _codiscrete_ cohesive structure (for instance with [[codiscrete topology]]). 
-
-Moreover, the idea is that cohesion makes points lump together to _connected pieces_ . This is modeled by one more functor $\Pi : \mathbf{H} \to \infty Grpd$ [[left adjoint]] to $Disc$. This sends a cohesive $\infty$-groupoid to its [[geometric homotopy groups in an (∞,1)-topos|geometric fundamental ∞-groupoid]] $\Pi(X)$.
-
-In total this gives a quadruple of [[adjoint (∞,1)-functor]]s
-
-   $$
-    (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
-    \mathbf{H}
-     \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
-    \infty Grpd
-    \;
-   $$
-
-A cohesive $(\infty,1)$-topos is an $(\infty,1)$-topos whose terminal [[global section]] [[geometric morphism]] admits an extenson to such a quadruple of adjoints, such that $Disc$ and $Codisc$ are [[full and faithful (∞,1)-functor]]s
-
-
-Notice that despite this motivation, the general object in a cohesive $(\infty,1)$-topos is far from being a bare $\infty$-groupoid with extra structure: while the functor $\Gamma$ does produce the $\infty$-groupoid underlying an object $X$ in the cohesive $(\infty,1)$-topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ is $k$-[[truncated]] for very small $k$. But using the [[geometric embedding]] $Codisc : \infty Grpd \hookrightarrow \mathbf{H}$ we find there is intrinsically an [[(∞,1)-quasitopos]] $Conc(\mathbf{H})$ of [[concrete (∞,1)-sheaves]] inside $\mathbf{H}$
-
-$$
-  Codisc : \infty Grpd \hookrightarrow Conc(\mathbf{H}) \stackrel{\overset{concretize}{\leftarrow}}{\hookrightarrow} \mathbf{H}
-$$
-
-whose objects are precisely those $\infty$-groupoids that do behave like bare $\infty$-groupoids equipped with cohesive structure.
-
+In the former the internal notion of [[Galois theory]] subsumes the usual one (over well-behaved topological spaces). In the latter also the notions of [[Lie theory]], [[differential cohomology]] and [[Chern-Weil theory]] subsume the uual ones --- and generalize them to higher smooth geoemtry.
 
 
 ## Definition
@@ -75,7 +56,7 @@ whose objects are precisely those $\infty$-groupoids that do behave like bare $\
 +-- {: .un_defn}
 ###### Definition
 
-An [[(∞,1)-topos]] $\mathbf{H}$ over some base $(\infty,1)$-topos $\mathbf{S}$, i.e. equipped with a [[geometric morphism]]
+An [[(∞,1)-topos]] $\mathbf{H}$ over some base $(\infty,1)$-topos $\mathbf{S}$ given by an [[(∞,1)-geometric morphism]]
 
 $$
   (f^* \dashv f_*) : \mathbf{H} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
@@ -121,6 +102,8 @@ $$
 ## Properties
 
 ### Shape
+
+The [[shape of an (∞,1)-topos]] $\mathbf{H}$ is the fundamental $\infty$-groupoid $\Pi(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
 
 +-- {: .un_remark}
 ###### Remark
@@ -168,13 +151,17 @@ Notice that for plain [[topological space]]s an [[etale space]] $X \to H$ is a s
 
 This way we can think of any object $X \in \mathbf{H}$ of the $(\infty,1)$-topos equivalently as a space that is locally built from pieces of $\mathbf{H}$. With the above interpretation of $\mathbf{H}$ as the general abstract lump of cohesive points, this reproduces the intuition that $X \in \mathbf{H}$ is a space with this cohesive structure.
 
+### Coshape
 
+The [[coshape of an (∞,1)-topos]] $\mathbf{H}$ is the underlying $\infty$-groupoid $\Gamma(\mathbf{H})$ for $\mathbf{H}$ itself regarded as a space.
+
+(...)
 
 ## Structures in a cohesive $(\infty,1)$-topos
 
 A cohesive $(\infty,1)$-topos is a general context for [[higher geometry]] with good [[cohomology]] and [[homotopy]] properties. We list fundamental structures and constructions that exist in every cohesvive $(\infty,1)$-topos.
 
-### $\infty$-Groups
+### $\infty$-Groups {#InfinGroups}
 
 Every [[(∞,1)-category]] with [[(∞,1)-limit]]s comes with its notion of [[loop space object]]. A [[connected]] object in $\mathbf{H}$ we write $\mathbf{B}G$. Its [[loop space object]]
 
@@ -185,7 +172,7 @@ $$
 is the [[∞-group]] of which $\mathbf{B}G$ is the [[delooping]] object.
 
 
-### Cohomology
+### Cohomology {#Cohomology}
 
 Every [[(∞,1)-topos]] comes with its intrinsic notion of [[cohomology]]. 
 
@@ -193,6 +180,13 @@ A [[morphism]] $g : X \to A$ is a [[cocycle]] on $X$ with coefficients in $A$. T
 
 $$
   H(X,A) := \pi_0 \mathbf{H}(X,A)
+  \,.
+$$
+
+If $A$ admits an $p$-fold [[delooping]] we write
+
+$$
+  H^p(X,A) := \pi_0 \mathbf{H}(X, \mathbf{B}^n A)
   \,.
 $$
 
@@ -214,12 +208,12 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    X &\stackrel{g}{\to}& P
+    X &\stackrel{g}{\to}& \mathbf{B}G
   }
   \,.
 $$
 
-The claim follows using that in an [[(∞,1)-topos]] we have [[universal colimits]] and all [[groupoid object in an (∞,1)-category|groupoid objects]] are effective. See [[principal ∞-bundle]] for details. 
+The claim follows using that in an [[(∞,1)-topos]] we have [[universal colimits]] and all [[groupoid object in an (∞,1)-category|groupoid objects]] are effective. A detailed discussion is at [[principal ∞-bundle]]. 
 
 =--
 
@@ -256,17 +250,17 @@ $$
   \tilde \mathbf{H}(X,\mathbf{B}G) = \Pi(\mathbf{B}G^X) 
 $$
 
-is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ and whose morphisms are $G$-principal bundles on the cylinder $X \times I$. These are _concordances of $\infty$-bundles._
+is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ and whose morphisms have the interpretaton of $G$-principal bundles on the cylinder $X \times I$. These are _[[concordance]]s of $\infty$-bundles._
 
 
 
-### Homotopy and Galois theory
+### Homotopy and Galois theory {#Homotopy}
 
 Every [[locally ∞-connected (∞,1)-topos]] comes with its notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] $\Pi(X)$ of an object $X$.
 
 We say the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$ are ordinary [[homotopy group]]s of $\Pi(X)$.
 
-Let $Fin \infty Grpd \in \infty Grpd$ be the [[∞-groupoid]] of finite $\infty$-groupoids. For $ X \in \mathbf{H}$.
+Let $Fin \infty Grpd \in \infty Grpd$ be the [[∞-groupoid]] of finite $\infty$-groupoids. 
 
 +-- {: .un_def}
 ###### Definition
@@ -287,17 +281,14 @@ We call this the $\infty$-groupoid of **[[locally constant ∞-stack]]s** on $X$
 
 We have
 
-$$
-  Disc(X) \simeq Func(\Pi(X), Fin \infty Grpd)
-  \,.
-$$
+* $Disc(X) \simeq Func(\Pi(X), Fin \infty Grpd)$;
 
-For any point $x : * \to X$ any point, we have for the endomorphisms of the fiber functor
+* for any point $x : * \to X$ the endomorphisms of the fiber functor are
 
-$$
-  End( x^* : Disc(X) \to Fin ) \simeq \Omega_x \Pi(X)
-  \,.
-$$
+  $$
+    End( x^* : Disc(X) \to Fin ) \simeq \Omega_x \Pi(X)
+    \,.
+  $$
 
 =--
 
@@ -406,7 +397,7 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 
 
 
-### Paths
+### Paths {#Paths}
 
 +-- {: .un_def}
 ###### Definition
@@ -440,7 +431,7 @@ $$
   \mathbf{H}
 $$
 
-be the truncation [[localization of an (∞,1)-category]].
+for the truncation [[localization of an (∞,1)-category]].
 
 We say
 
@@ -452,23 +443,23 @@ $$
 
 is the **[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|path n-groupoid]]** functor. 
 
-For $X \in \mathbf{H}$ these form the [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
+Notice that for any $X \in \mathbf{H}$ we have the [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
 
 $$
   \mathbf{\Pi}(X) \to \cdots
    \to 
-   \mathbf{\Pi}_2(X) \to \mathbf{\Pi}_1(X) \to \maathbf{\Pi}_0(X)
+   \mathbf{\Pi}_2(X) \to \mathbf{\Pi}_1(X) \to \mathbf{\Pi}_0(X)
   \,.
 $$
 
 
 
-### Universal coverings and Whitehead towers
+### Universal coverings and Whitehead towers {#Coverings}
 
 +-- {: .un_def}
 ###### Definition
 
-For $X \in \mathbf{H}$, its **[[Whitehead tower in an (∞,1)-topos|whitehead tower]]** is the sequence of objects 
+The **[[Whitehead tower in an (∞,1)-topos|whitehead tower]]** of $X \in \mathbf{H}$ is the sequence of objects 
 
 $$
   * \to \cdots \to X^{(2)} \to X^{(1)} \to X^{(0)} \simeq X
@@ -486,6 +477,8 @@ $$
   }
   \,.
 $$
+
+This we call the $(n+1)$-fold **[[universal covering space]]** of $X$.
 
 =--
 
@@ -684,7 +677,7 @@ Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjun
 See [[nonabelian cohomology]] for more details.
 
 
-### de Rham cohomology
+### de Rham cohomology {#deRhamCohomology}
 
 +-- {: .un_def}
 ###### Definition
@@ -732,7 +725,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{\Gamma} &\to& \mathbf{\Gamma}_{dR}X
+    \mathbf{\Gamma} X &\to& \mathbf{\Gamma}_{dR}X
   }
   \,.
 $$
@@ -742,14 +735,14 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-We do indeed have a triple of [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\exp}_{dR})$ as indicated.
+We do indeed have a triple of [[adjoint (∞,1)-functor]]s $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} \dashv \mathbf{\Gamma}_{dR})$ as indicated.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We check the defining hom-equivalence. For $X \mathbf{H}$, $A \in */\mathbf{H}$ two objects, we have by the fact that the [[hom-functor]] : $mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments a sequence of natural equivalences
+We check the defining hom-equivalence. For $X \in \mathbf{H}$, $A \in */\mathbf{H}$ two objects, we have by the fact that the [[hom-functor]] : $\mathbf{H}(-,-) : \mathbf{H}^{op} \times \mathbf{H} \to \infty Grpd $ preserves limits in both arguments a sequence of natural equivalences
 
 $$
   \begin{aligned}
@@ -876,7 +869,7 @@ inside $\mathbf{H}$ we call the **[[concrete (∞,1)-sheaf|concrete]] objects** 
 +-- {: .un_def}
 ###### Definition
 
-An [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
+A [[connected]] object $\mathbf{B}\mathfrak{g} \in  \mathbf{H}$ for which
 
 $$
   \Pi \mathbf{B}\mathfrak{g} \simeq *
@@ -911,7 +904,7 @@ for the full [[sub-(∞,1)-category]] on $\infty$-Lie algebroids.
 =--
 
 
-### Lie theory
+### Lie theory {#LieTheory}
 
 +-- {: .un_def}
 ###### Definition
@@ -1009,7 +1002,7 @@ $$
   Lie \mathbf{B}G =: \mathbf{B}\mathfrak{g}
 $$
 
-and hence for the counit of the $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$-adjunction
+and hence for the counit of the $(\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})$-adjunction we write
 
 $$
   \mathbf{B}\mathfrak{g} \to \mathbf{B}G
@@ -1021,7 +1014,7 @@ $$
 ###### Proposition
 
 
-Every [de Rham cocycle](#spring) $\omega : \mathbf{\Pi}_{dR} X \to \mathbf{B}G$ factors universally through the [[∞-Lie algebra]] of $G$
+Every [de Rham cocycle](#deRhamCohomology) $\omega : \mathbf{\Pi}_{dR} X \to \mathbf{B}G$ factors universally through the [[∞-Lie algebra]] of $G$
 
 $$
   \array{
@@ -1097,6 +1090,32 @@ $$
 and the [above proposition](#LieValuesofDeRham).
 
 We call $\theta$ the **[[Maurer-Cartan form]]** on $G$.
+
++-- {: .un_remark}
+###### Remark
+
+By postcomposition the Maurer-Cartan form sends $G$-valued functions on $X$ to $\mathfrak{g}$-valued forms on $X$
+
+$$
+  \theta_* : \mathbf{H}(X,G) \to \mathbf{H}^1_{dR}(X,\mathfrak{g})
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+On $\mathbf{H} = $ [[?LieGrpd]] and $G \in \mathbf{H}$ an ordinary [[Lie algebra]], $\theta$ coicides with the ordinary [[Maurer-Cartan form]] on a Lie algebra.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is shown at [[∞-Lie groupoid]].
+
+=--
 
 For $G = \mathbf{B}^n A$ an [[Eilenberg-MacLane object]], we also write
 
@@ -1278,7 +1297,7 @@ In $\mathbf{H} = $ [[?LieGrpd]] the above definition reproduces [[ordinary diffe
 
 
 
-### Chern-Weil theory
+### Chern-Weil theory {#ChernWeilTheory}
 
 For $G$ an [[∞-group]], $\mathbf{B}^n K$ an [[Eilenberg-MacLane object]] and
 
@@ -1286,7 +1305,7 @@ $$
   \mathbf{c} : \mathbf{B}G \to \mathbf{B}^n K
 $$
 
-a cocycle for a [[characteristic class]], postcomposition with the [universal curvature characteristic](#CurvatureCharacteristics) $curv : \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$ induced a [[curvature characteristic class]]
+a cocycle for a [[characteristic class]], postcomposition with the [universal curvature characteristic](#CurvatureCharacteristics) $curv : \mathbf{B}^n K \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$ induces a [[curvature characteristic class]]
 
 $$
   \langle -\rangle_{\mathbf{c}}
@@ -1352,7 +1371,7 @@ $$
 This is discussed at [[∞-Chern-Weil theory]].
 
 
-### Chern-Simons theory
+### Chern-Simons theory {#ChernSimonsTheory}
 
 Let $\mathbf{H}$ be a cohesive $(\infty,1)$-topops into which [[manifold]]s embed suitably. Such as $\mathbf{H} = $ [[?LieGrpd]].
 
@@ -1367,7 +1386,7 @@ be a [[cocycle]] for a [[characteristic class]]. This induces the $\infty$-Chern
 $$
   \hat \mathbf{c} : \mathbf{H}_{conn}(\Sigma, \mathbf{B}G) 
   \to 
-  \mathbf{H}_{diff}(X, \mathbf{B}^{n} \mathbb{R}/\mathbb{Z})
+  \mathbf{H}_{diff}(\Sigma, \mathbf{B}^{n} \mathbb{R}/\mathbb{Z})
   \,.
 $$
 
@@ -1380,7 +1399,7 @@ $$
   dim \Sigma \leq n
 $$
 
-then for any cocycle $\nable \in \mathbf{H}_{conn}(X,\mathbf{B}G)$ the [[circle n-bundle with connection]] $\hat \mathbf{c}(\nabla)$ is necessarily _flat_ , so that
+then for any cocycle $\nabla \in \mathbf{H}_{conn}(X,\mathbf{B}G)$ the [[circle n-bundle with connection]] $\hat \mathbf{c}(\nabla)$ is necessarily _flat_ , so that
 
 $$
   \mathbf{H}_{diff}(\Sigma, \mathbf{B}^n U(1))
@@ -1491,12 +1510,14 @@ $$
 The resulting morphism
 
 $$
-  \mathbf{H}(\Sigma, A_{conn})
-  \stackrel{\exp(i S(-))}{\to}
+  \exp(i S(-))
+  :
+  \mathbf{H}_{conn}(\Sigma, A)
+  \stackrel{}{\to}
   \mathbf{B}^{n-dim\Sigma} U(1)
 $$
 
-in [[∞Grpd]] we call the **$\infty$-Chern-Simons action** on $\Sigma$.
+in [[∞Grpd]] we call the [[higher parallel transport]] of $\hat \mathbf{c}(\nabla)$ and the **$\infty$-Chern-Simons action** of $\nabla$ on $\Sigma$.
 
 =--
 
@@ -1520,7 +1541,7 @@ More discussion is at [[schreiber:∞-Chern-Simons theory]].
 +-- {: .un_def}
 ###### Definition
 
-An **$(\infty,1)$-cohesive** over [[∞Grpd]] is
+An **$(\infty,1)$-cohesive site** over [[∞Grpd]] is
 
 * a [[site]] -- a [[small category]] $C$ equipped with a [[coverage]];
 
@@ -1579,33 +1600,37 @@ See <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-cohesive+site#Propertie
 
 =--
 
-+-- {: .un_prop}
-###### Examples
+This proposition implies the examples of cohesive $(\infty,1)$-toposes listed in the following.
 
-* The $(\infty,1)$-topos $(\infty,1)Sh(TopBalls)$ is that of [[topological ∞-groupoid]]s.
+### Continuous $\infty$-groupoids
 
-* The $(\infty,1)$-topos $(\infty,1)Sh(CartSp)$ is that of [[smooth ∞-groupoid]]s.
-
-  The 0-[[truncated]] [[concrete (∞,1)-sheaf|concrete]] objects in this are precisely the [[diffeological space]]s. Accordingly the general [[concrete (∞,1)-sheaves]] here we may think of as **diffeological $\infty$-groupoids**.
-
-* The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of [[smooth ∞-groupoid|synthetic differential ∞-groupoid]] 
-
-  the [infinitesimal objects](#InfinitesimalObjects) include 
-  infinitesimal $\infty$-Lie 
-  groupoids: [[∞-Lie algebroid]]s $\mathbf{B}\mathfrak{g}$.
+The cohesive $(\infty,1)$-topos $(\infty,1)Sh(TopBalls)$ is that of [[topological ∞-groupoid]]s.
 
 
-=--
+### Smooth $\infty$-groupoids
+
+The cohesive $(\infty,1)$-topos $(\infty,1)Sh(CartSp)$ is that of [[smooth ∞-groupoid]]s.
+
+The 0-[[truncated]] [[concrete (∞,1)-sheaf|concrete]] objects in this are precisely the [[diffeological space]]s. Accordingly the general [[concrete (∞,1)-sheaves]] here we may think of as **diffeological $\infty$-groupoids**.
+
+### Synthetic differential $\infty$-groupoids
+
+The $(\infty,1)$-topos $(\infty,1)Sh(ThCartSp)$ is that of [[smooth ∞-groupoid|synthetic differential ∞-groupoid]] 
+
+The [infinitesimal objects](#InfinitesimalObjects) include 
+infinitesimal $\infty$-Lie groupoids: [[∞-Lie algebroid]]s $\mathbf{B}\mathfrak{g}$.
+
+
 
 
 
 ## Applications
 
-* As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental [[physics]]. See [[higher category theory and physics]] for more on that.
+As a context for geometric spaces and paths in geometric spaces, cohesive $(\infty,1)$-toposes are a natural context in which to formulate fundamental fundamental [[physics]]. See [[higher category theory and physics]] for more on this.
 
 ## References
 
-The ordinary [[category theory|category theoretic]]-definition of a [[cohesive topos]] was proposed in
+The [[category theory|category-theoretic]] definition of [[cohesive topos]] was proposed in
 
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 {#Lawvere}
@@ -1616,7 +1641,11 @@ The observation that the further right adjoint $Codisc$ in a [[local (∞,1)-top
 
 Some discussion is at
 
-* [[Urs Schreiber]], _Cohesive $\infty$-Toposes_ ([blog entry](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html))
+* [[Urs Schreiber]], 
+
+  _Cohesive $\infty$-Toposes_ ([blog entry](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html))
+
+  _Structures in a Cohesive $\infty$-Topos_ ([blog entry](http://golem.ph.utexas.edu/category/2010/11/structures_in_a_cohesive_topos.html))
 
 [[!redirects cohesive (∞,1)-topos]]
 
