@@ -1,4 +1,4 @@
-__Jean-Louis Loday__ is a mathematician in Strasbourg. 
+__Jean-Louis Loday__ is a French mathematician who is _Directeur de Recherche au CNRS_ based in Strasbourg. 
 
 * [webpage](http://www-irma.u-strasbg.fr/~loday)
 
