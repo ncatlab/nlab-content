@@ -381,9 +381,9 @@ In the case of simplicial Abelian groups or more generally, simplicial modules o
 
 * N. Ashley, _Simplicial $T$-Complexes: a non abelian version of a theorem of Dold--Kan_ , Dissertations Math., 165, (1989), 11--58.
 
-In general, for simplicial groups, the Moore complex has a beautiful structure of pairings described by Pilar Carasco, in her thesis and in the resulting paper,
+In general, for simplicial groups, the Moore complex has a beautiful structure of pairings described by [[Pilar Carrasco]], in her thesis and in the resulting paper,
 
-* P. Carrasco and A. M. Cegarra, Group-theoretic Algebraic Models for Homotopy Types , J. Pure Appl. Alg., 75, (1991), 195--235
+* P. Carrasco and [[Antonio Cegarra|A. M. Cegarra]], Group-theoretic Algebraic Models for Homotopy Types , J. Pure Appl. Alg., 75, (1991), 195--235
 
 The resulting structure is that of a [[hypercrossed complex]]. Typically one has pairings 
 $$N G_p \times N G_q \to N G_{p+q}.$$
@@ -393,7 +393,7 @@ These are well understood in low dimensions, see the entry on [[hypercrossed com
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
-* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-type]]s.  They are related to the [[crossed square]]s of Guin-Valery and Loday, in that there is a functor from crossed squares to $2$-crossed modules which preserves homotopy types, but crossed squares have the advantage that there is a homotopically defined functor with values in crossed squares, related to classical homotopy invariants of pairs and triads, and which satisfies a [[higher homotopy van Kampen theorem]], so that some calculations are possible. 
+* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-type]]s.  They are related to the [[crossed square]]s of Guin-Valery and [[Jean_louis Loday|Loday]], in that there is a functor from crossed squares to $2$-crossed modules which preserves homotopy types, but crossed squares have the advantage that there is a homotopically defined functor with values in crossed squares, related to classical homotopy invariants of pairs and triads, and which satisfies a [[higher homotopy van Kampen theorem]], so that some calculations are possible. 
 
 ## References
 
