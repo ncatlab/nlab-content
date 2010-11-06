@@ -57,15 +57,29 @@ $$
   f^* : \mathbf{H}/Y \to \mathbf{H}/X
 $$
 
-and this has a [[right adjoint]] $f_* : \mathbf{H}/X \to \mathbf{H}/Y$ and a [[left adjoint]] $f_! : \mathbf{H}/X \to \mathbf{H}/Y$. These form an [[essential geometric morphism]]
+$$
+  f^* A \mapsto X \times_Y A
+  \,.
+$$
+
+This has a [[left adjoint]] $f_! : \mathbf{H}/X \to \mathbf{H}/Y$ given by postcomposition with $f$
 
 $$
-  f : \mathbf{H}/X \to \mathbf{H}/Y
+  f_! : (A \to X) \mapsto (A \to X \stackrel{f}{\to} Y)
+  \,.
 $$
 
-of toposes, the **base change geometric morphism**. If $B = *$ is the [[terminal object]], then this is also called an [[etale geometric morphism]].
 
-([[Elephant]], Example A.4.1.2).
+It also has a [[right adjoint]] $f_* : \mathbf{H}/X \to \mathbf{H}/Y$ and 
+
+The triple $(f_! \dashv f^* \dashv f_*) : \mathbf{H}/X \to \mathbf{H}/Y$ is an  [[essential geometric morphism]] of toposes, the **base change geometric morphism**. 
+
+If $Y = *$ is the 
+[[terminal object]], then this is also called an **[[etale geometric morphism]]**.
+
+## References
+
+* [[Peter Johnstone]],  [[Elephant]], Example A.4.1.2
 
 
 [[!redirects change of base]]
