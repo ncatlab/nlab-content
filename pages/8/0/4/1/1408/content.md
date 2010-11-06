@@ -19,95 +19,31 @@
 
 ## Idea
 
-A _structured [[(∞,1)-topos]]_ is a generalization of a [[ringed space]] or rather of a [[ringed site]]: 
-a generalized [[space]] equipped with a *[[structure sheaf]]* taking values in generalized [[quantity|quantities]]. 
+The notion of _structured $(\infty,1)$-topos_ is a generalization of the notion of a [[locally ringed space]] for [[topological space]]s generalized to [[little topos|litte]] [[(∞,1)-topos]]es. This is a way to formalize [[higher geometry]]/[[derived geometry]]-structure on [[little topos|little]] [[(∞,1)-topos]]s.
 
-A structured $(\infty,1)$-topos that is constrained to locally look like an object in a prescribed category of _test spaces_ is a [[generalized scheme]].
+So a structured $(\infty,1)$-topos is an [[(∞,1)-topos]] $\mathcal{X}$ equipped with an [[(∞,1)-sheaf|(∞,1)-]][[structure sheaf]] $\mathcal{O}$ that we think of as the collection of _functions_ on $\mathcal{X}$ that preserve extra geometric structure -- for instance [[topology|continuous structure]] or [[smooth structure]].
 
-At the bottom of it, a structured $(\infty,1)$-topos is a
-[[(∞,1)-functor]]
+Being an $\infty$-function $\infty$-algebra, $\mathcal{O}(\mathcal{U})$ is an algebra over an [[(∞,1)-algebraic theory]] $\mathcal{G}$, called the (pre)[[geometry (for structured (∞,1)-toposes)]], since this encodes the nature of the extra geometric structure on $\mathcal{X}$.
 
-$$
-  X : S^{op}\times R \to V
-  \,,
-$$
-
-where
-
-* $V$ is the suitable enriching category, i.e. [[SSet]] for the full [[(infinity,1)-category|(∞,1)-categorical]] version;
-
-* and for $U \in S$ and $C \in R$ the object $X(U,C)$ is to be thought of as the collection of morphisms from $U$ to $C$ that decompose into a morphism from $U$ into the generalized space and another morphism from that to $C$.
-
-Here the generalization is in the sense described at [[space and quantity]]:
-
-* _[[space]]s_ modeled on test spaces in some category $S$ are [[presheaf|presheaves]] $X$ on $S$: $X(U)$ is the collection of probes of $X$ by $U \in S$.
-
-* _[[quantity|quantities]]_ (meaning: function algebras) modeled on value spaces in some category $S$ are [[presheaf|co-presheaves]] $A$ on $S$: $A(U)$ is the collection of the quantities with values  in $U \in S$.
-
-In the context of structured $(\infty,1)$-toposes $S$ is called a [[geometry (for structured (∞,1)-toposes)]].
-
-Combined, this allows to give an analogous general way to think of the notion of a _space equipped with a structure sheaf_. A _structured generalized space_ is such a generalization.
-
-The basic idea is most simple:
-
-First of all a _space with structure sheaf_ (for instance a [[ringed space]]) is supposed to be nothing but 
-
-* an ordinary space $X$,
-
-* equipped with a [[presheaf]] $O_X$ that takes values in some category of quantities
+Formally therefore a geometric structure $(\infty,1)$-sheaf of $\mathcal{X}$ is a product/limit-preserving [[(∞,1)-functor]]
 
 $$
-  O_X : (Op(X))^{op} \to Quantities
-$$
-
-where we think -- for $U \subset X$ an object in the [[category of open subsets]] of $X$ -- of $O_X(U)$ as the collection of admissible functions on $U \subset X$. For instance $O_X(U)$ might be 
-
-* the set of all continuous functions from $U$ to $\mathbb{R}$
-
-* or, if $X$ has a smooth structure, the set of all smooth functions to $\mathbb{R}$
-
-* or, if $X$ has a complex structure, the set of all holomorphic functions to $\mathbb{C}$
-
-etc. In any case, the choice of the structure sheaf $O_X$ is a choice of which maps out of $X$ one wants to concentrate on.
-
-Now, taking the idea of [[space and quantity]] seriously, we should regard the category $Quantities$ that $O_X$ takes values in itself as a category of co-presheaves on some category of co-test spaces. 
-
-For instance if we let $Cartesian$ be the category whose objects are real cartesian spaces $\mathbb{R}^n$ and whose morphisms are continuous maps between these, then every continuous real-valued function on $U \subset X$ naturally forms the co-presheaf $C(U) : \mathbb{R}^n \mapsto C(U,\mathbb{R}^n)$. In this case our structure sheaf $O_X$ is therefore actually a co-presheaf-valued presheaf:
-
-$$
-  O_X : Op(X)^{op} \to [Cartesian, Set]
-$$
-
-$$
-  O_X(U)(\mathbb{R}^n) := C(U,\mathbb{R}^n)
+  \mathcal{O} : \mathcal{G} \to \mathcal{X}
   \,.
 $$
 
-But equivalently, this is a presheaf-valued copresheaf
+Here we think of $\mathcal{X} = Sh_{(\infty,1)})(C)$ as being the [[(∞,1)-sheaf (∞,1)-topos]] on some [[(∞,1)-site]] $C$ and for any $V \in \mathcal{G}$ we think of
 
 $$
-  O_X : Cartesian \to [Op(X)^{op}, Set] = PSh(X)\,.
+  \mathcal{O}_V \in Sh_{(\infty,1)}(C)
 $$
 
-If we want to impose the condition that we actually want a structure-[[sheaf]], we have a sheaf-valued copresheaf
-
-$$
-  O_X : Cartesian \to Sh(X)
-  \,.
-$$
-
-Notice that $Sh(X)$ is a ([[Grothendieck topos|Grothendieck]]-)[[topos]], just as [[Set]] itself is. So we can think of $O_X$ as a generalized quantity in the sense of [[space and quantity]] which takes values not in the topos [[Set]] but in some other [[topos]], such as $Sh(S)$.
-
-There are other perspectives possible on a structure sheaf $O_X$, but this is the one whose full generalization we describe in the following.
-
-We now describe the theory of structure sheaves encoded in topos-valued co-presheaves as developed in 
-
-* [[Jacob Lurie]], _Structured spaces_ ([arXiv](http://arxiv.org/abs/0905.0459))
+as being the [[(∞,1)-sheaf]] of structure-preserving functions on $C$ with values in $V$.
 
 
 ## Definition
 
-Let $S$ be a [[geometry (for structured (infinity,1)-toposes)|geometric]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[(∞,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] on $S$. 
+Let $S$ be a [[geometry (for structured (∞,1)-toposes)|geometric]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[(∞,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] on $S$. 
 
 Notice that if $S = Op(X)$ is the nerve of the [[category of open subsets]] of some [[topological space]] $X$, then $Sh(X) := Sh(S)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $X$, as in the above motivating introduction. 
 
@@ -578,23 +514,24 @@ $$
 
 possible. They describe **[[derived smooth manifolds]]** as described in [DerSmooth](http://math.berkeley.edu/~dspivak/thesis2.pdf).
 
+## Related concepts
+
+* **structured $(\infty,1)$-topos**
+
+* [[cohesive (∞,1)-topos]]
+
 ## References
 
-The general theory is developed in
+The notion of structure $(\infty,1)$-toposes was introduced in
 
-* **StrSh** [[Jacob Lurie]], _[[Structured Spaces]]_ ([arXiv](http://arxiv.org/abs/0905.0459))
+* [[Jacob Lurie]], _[[Structured Spaces]]_ 
+{#Lurie}
 
 The special case of "smoothly structured spaces" called [[derived smooth manifold]] is 
 discussed in 
 
 * David Spivak, _Derived smooth manifolds_ PhD thesis ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
 
-Apart from looking at the special case this article also contains useful introduction
-and details on the general case.
-
-In the version of this that is available on the arXiv ([arXiv](http://arxiv.org/abs/0810.5174))
-the point of view is more on bi-presheaves, a useful discussion to the relation
-to structured morphisms here is in section 10.1. there.
 
 
 [[!redirects structured (∞,1)-topos]]
