@@ -1,4 +1,3 @@
-[[!redirects infinity-Chern-Weil theory -- preparatory concepts]]
 
 
 +-- {: .rightHandSide}
@@ -11,13 +10,7 @@
 =--
 =--
 
-* [[schreiber:differential cohomology in an (∞,1)-topos -- survey]]
 
-* **$\infty$-Chern-Weil theory introduction**
-
-* [[∞-Chern-Weil theory]]
-
-***
 
 #Contents#
 * table of contents
@@ -3981,3 +3974,5 @@ A commented list of further references is at
 [[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
 [[!redirects ∞-Chern-Weil-theory introduction]]
 [[!redirects ∞-Chern-Weil theory introduction]]
+
+[[!redirects infinity-Chern-Weil theory -- preparatory concepts]]
