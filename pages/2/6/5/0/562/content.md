@@ -29,25 +29,14 @@ between the 2-category of fibrations over $B$ and the 2-category $[B^{op},Cat]$ 
 
 The construction $\int : [B^{op}, Cat] \to Fib(B) : F \mapsto \int F$ of a fibration from a pseudofunctor is sometimes called the _[[Grothendieck construction]]_, although fortunately (or unfortunately) Grothendieck performed many constructions.  Less ambiguous terms for $\int F$ are the [[category of elements]] and the [[2-limit|lax colimit]] of $F$.
 
-
-+--{: .query}
-[[Sridhar Ramesh]]: I have a (possibly stupid) question about the nature of this equivalence. I assume the idea here is that moving from a cloven fibration to the corresponding pseudofunctor is in some sense "inverse" to carrying out the Grothendieck construction in the other direction. But, in trying to get a good intuition for the nuances of non-splittable fibrations, I seem to be stumbling upon just in what sense this is so. For example, consider the nontrivial group homomorphism from Z (integer addition) to Z_2 (integer addition modulo 2); this gives us a non-splittable fibration (and, for that matter, an opfibration), for which a cleavage can be readily selected. No matter what cleavage is selected, the corresponding (contravariant) pseudofunctor from Z_2 to Cat, it would appear to me, is the one which sends the unique object in Z_2 to the subcategory of Z containing only even integers (let us call this 2Z), and which sends both of Z_2's morphisms to identity; thus, it is actually a genuine functor, and indeed, a "constant" functor. Applying the Grothendieck construction now, I would seem to get back the projection from Z_2 X 2Z onto Z_2. But can this really be equivalent to the fibration I started with? After all, Z and Z_2 X 2Z are very different groups. So either "equivalence" means something trickier here than I realize, or I keep making a mistake somewhere along the line. Either way, it'd be great if someone could help me see the light.
-
-[[Mike Shulman]]: Good question!  I think the missing subtlety is that a pseudofunctor is not uniquely determined by its action on objects and morphisms, even if its domain is a mere category (or a mere group); there are also natural coherence isomorphisms $g^* f^* \cong (g f)^*$ to take into account.  For instance, if $g$ is the nonidentity element of $\mathbb{Z}/2$, then $g g = 1$, so even if $g$ acts by the identity on $2\mathbb{Z}$, a pseudofunctor also contains the additional data of a natural automorphism of the identity of $2\mathbb{Z}$, i.e. a (central) element of $2\mathbb{Z}$.  If you start from $\mathbb{Z}$, then depending on your cleavage your element can be anything that's 2 mod 4, while if you start from $\mathbb{Z}/2\times 2\mathbb{Z}$, your element can be anything that's 0 mod 4.  Finally, there is a pseudonatural equivalence between two such pseudofunctors just when their corresponding elements differ by a multiple of 4, so you get exactly two equivalence classes of pseudofunctors, corresponding to the two groups $\mathbb{Z}$ and $\mathbb{Z}/2\times 2\mathbb{Z}$.  Of course we are reproducing the classification of group extensions via group cohomology.
-
-By the way, this sort of thing (by which I mean, the cohomology class that classifies some categorical structure arising as the trace of a coherence isomorphism) happens in lots of other places too.  For instance, a [[2-group]] is classified by a group $G$, an abelian group $H$, an action of $G$ on $H$, and an element in $H^3(G;H)$.  If you replace a 2-group by a [[skeleton|skeletal]] one, then $G$ is the group of objects (which is strictly associative and unital, by skeletality), $H$ is the group of endomorphisms of the unit, and the action is defined by "whiskering".  The cohomology class comes from the [[associator]] isomorphism, which can (and often must) still be nontrivial even though the multiplication is "strictly associative" at the level of objects (by skeletality).
-
-_Toby_:  So the multiplication is strictly associative, but the $2$-group itself is not a strict $2$-group, since it uses a different associator than the identity.  As in the example of the pseudofunctor from $Z_2$ to $Cat$, there is some additional structure here which is not trivial, even though it seems like it could be.
-
-[[Sridhar Ramesh]]: Ah, of course, that's what I was missing. Thanks, both of you; that clears it all up.
-=--
-
 Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] are called **[[categories fibered in groupoids]]**.
 
 
 ## Definition 
 
-Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$.  We say that $p:E\to B$ is a **fibration** if for any $e\in E$ and $f:b\to p(e)$, there is a cartesian arrow $\phi:e'\to e$ with $p(\phi)=f$.
+Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$.
+
+We say that $p:E\to B$ is a **fibration** if for any $e\in E$ and $f:b\to p(e)$, there is a cartesian arrow $\phi:e'\to e$ with $p(\phi)=f$.  A choice of such a cartesian arrow for every $e$ and $f$ is called a [[cleavage]].  Thus, assuming the [[axiom of choice]], a functor is a fibration iff it admits some cleavage.
 
 As a side note, we say that $\phi$ is _weakly cartesian_ if it has the property described above only when $g$ is an identity.  One can prove that $p$ is a fibration if and only if firstly, it has the above property with "cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  In a fibration, every weakly cartesian arrow is cartesian, but this is not true in general.  Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.
 
@@ -57,7 +46,7 @@ is a **cartesian morphism** or *morphism of fibrations* if the top arrow takes c
 
 ## Fibrations versus pseudofunctors
 
-Given a fibration $p:E\to B$, we obtain a pseudofunctor $B^{op}\to Cat$ by sending each $b\in B$ to the category $E_b = p^{-1}(b)$ of objects mapping onto $b$ and morphisms mapping onto $1_b$.  To obtain the action on morphisms, given an $f:a\to b$ in $B$ and an object $e\in E_b$, we choose a cartesian arrow $\phi:e'\to e$ over $f$ and call its [[source]] $f^*(e)$.  The universal factorization property of cartesian arrows then makes $f^*$ into a functor $E_b \to E_a$, and it is easy to verify that it is a pseudofunctor.  The construction in the other direction is left as an exercise for the reader (or future contributor to this page); this yields an equivalence of 2-categories between 
+Given a fibration $p:E\to B$, we obtain a pseudofunctor $B^{op}\to Cat$ by sending each $b\in B$ to the category $E_b = p^{-1}(b)$ of objects mapping onto $b$ and morphisms mapping onto $1_b$.  To obtain the action on morphisms, given an $f:a\to b$ in $B$ and an object $e\in E_b$, we choose a cartesian arrow $\phi:e'\to e$ over $f$ and call its [[source]] $f^*(e)$.  The universal factorization property of cartesian arrows then makes $f^*$ into a functor $E_b \to E_a$, and it is easy to verify that it is a pseudofunctor.  The functor in the other direction is called the [[Grothendieck construction]].  This yields a [[strict 2-equivalence of 2-categories]] between
 
 * fibrations over $B$, morphisms of fibrations over $Id_B$, and 2-cells over $id_{Id_B}$, and
 
@@ -68,9 +57,9 @@ In fact, this is an instance of the general theory of representability for [[gen
 
 ## Remarks
 
-* It is easy to verify that fibrations are closed under pullback in [[Cat]], and that the composite of fibrations is a fibration.  This latter property is notably difficult to express in the language of pseudofunctors.
+* It is easy to verify that fibrations are closed under pullback in [[Cat]], and that the composite of fibrations is a fibration.  This latter property is notably difficult to even express in the language of pseudofunctors.
 
-* Every fibration (or opfibration) is a [[Conduché functor]], and therefore an [[exponentiable morphism]] in [[Cat]].  Conduch&#233; functors that are not fibrations or opfibrations seem to be rare.
+* Every fibration (or opfibration) is a [[Conduché functor]], and therefore an [[exponentiable morphism]] in [[Cat]].
 
 * Fibrations are a "nonalgebraic" structure, since the base change functors $f^*$ are determined by universal properties, hence uniquely up to isomorphism.  By contrast, pseudofunctors are an "algebraic" structure, since the functors $f^*$ are specified, together with the necessary coherence data and axioms; the latter come for free in a fibration because of the universal property.
 
@@ -135,6 +124,79 @@ There is also a notion of fibration for 2-categories that has been studied by He
 
 For [[(∞,1)-category|(∞,1)-categories]] the notion of fibered category is modeled by the notion of [[Cartesian fibration]] of simplicial sets. The corresponding analog of the Grothendieck construction is discussed at [[(∞,1)-Grothendieck construction]].
 
+## Alternate definitions
+
+There are several alternate characterizations of when a functor is a fibration, some of which are more convenient for [[fibration in a 2-category|internalization]].  Here we mention a few.
+
+### In terms of adjoints
+
+Since Grothendieck fibrations are a strict notion, in what follows we denote by $E/p$ the strict [[comma category]] (i.e. determined up to isomorphism, not merely up to equivalence) and by $Cat/B$ the [[strict slice 2-category]] (elsewhere denoted $Cat/_s B$).
+
++--{: .un_lemma}
+###### Lemma
+A functor $p \colon E \to B$ is a cloven fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$.
+=--
++-- {: .proof }
+###### Proof
+First, recall that the strict slice 2-category $Cat/X$ has objects the functors $C \to X$, as morphisms the commuting triangles
+$$\array{C & \stackrel{h}{\to} & C' \\ & f \searrow \swarrow g &  \\  & X,  & }$$
+and as 2-cells the natural transformations $\alpha : h_1 \to h_2$ such that $g\alpha = id_f$.
+
+Next, recall that the [[comma category]] $B/p$ has objects the triples $(x, e, k)$, with $k \colon x \to p e$.  Let $\pi \colon B/p \to B$ denote the projection $(x, e, k) \mapsto x$.
+
+The canonical morphism $p \to B/p$ is simply the inclusion functor of identity maps $i b = 1 \colon p b \to p b$.
+
+Somewhat imprecisely, seeing both categories $E$ and $B/p$ as sitting over $B$ means that functors between those should be the identity on the $b$ component, and natural transformations should have the identity as their $b$ component.
+
+To give an adjunction $i \dashv r$ it suffices to give, for each $k \colon x \to p e$ in $B/p$, an object $r k$ in $E$ such that $p r k = x$ and an arrow $i r k = 1_x \to k$ in $B/p$ that is [[universal arrow|universal]] from $i$ to $k$.  For the adjunction to live in $Cat/B$ we must have that $\pi \circ i r k = 1_{p r k} = 1_x$, so the universal arrow must be of the form
+$$
+\array{
+  x & \overset{1}{\to} & x \\
+  \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
+  x & \underset{k}{\to} & p e
+}
+$$
+and thus amounts to a choice of $\epsilon_k \colon r k \to e$ in $E$ such that $p \epsilon_k = k$.
+
+The universal property of $\epsilon_k$ tells us that for any other morphism in $B/p$ from some $i y$ to $k$, i.e., for any $y$ and any pair $(f,g)$ making the square
+$$
+\array{
+  p y & \stackrel{1}{\to} & p y \\
+  \mathllap{f} \downarrow & & \downarrow \mathrlap{p g} \\
+  x & \underset{k}{\to} & p e
+}
+$$
+commute, there is a unique map $h \colon y \to r k$ in $B$ such that the above square factors in $B/p$ as
+$$
+\array{
+  p y & \stackrel{1}{\to} & p y \\
+  \mathllap{p h} \downarrow &  & \downarrow \mathrlap{p h} \\
+  \mathllap{p r k =} x & \stackrel{1}{\to} & x \mathrlap{= p r k}\\
+  \mathllap{1} \downarrow & & \downarrow \mathrlap{p \epsilon_k} \\
+  x & \underset{k}{\to} & p e.
+}
+$$
+
+In other words, the universal property provides a unique $h$ such that $\epsilon_k h = g$ and $p h = f$, which exactly asserts that $\epsilon_k$ is a cartesian lift of $k$.
+
+So the existence of a right adjoint to $i$ means precisely that for each morphism $k \colon x \to p e$ a choice is given of a cartesian lift of $k$, which means in turn that $p$ is a cloven fibration.
+=--
+
+## Discussions
+
+The following discussion brings out some interesting points about the equivalence between fibrations and pseudofunctors.
+
++--{: .query}
+[[Sridhar Ramesh]]: I have a (possibly stupid) question about the nature of this equivalence. I assume the idea here is that moving from a cloven fibration to the corresponding pseudofunctor is in some sense "inverse" to carrying out the Grothendieck construction in the other direction. But, in trying to get a good intuition for the nuances of non-splittable fibrations, I seem to be stumbling upon just in what sense this is so. For example, consider the nontrivial group homomorphism from Z (integer addition) to Z_2 (integer addition modulo 2); this gives us a non-splittable fibration (and, for that matter, an opfibration), for which a cleavage can be readily selected. No matter what cleavage is selected, the corresponding (contravariant) pseudofunctor from Z_2 to Cat, it would appear to me, is the one which sends the unique object in Z_2 to the subcategory of Z containing only even integers (let us call this 2Z), and which sends both of Z_2's morphisms to identity; thus, it is actually a genuine functor, and indeed, a "constant" functor. Applying the Grothendieck construction now, I would seem to get back the projection from Z_2 X 2Z onto Z_2. But can this really be equivalent to the fibration I started with? After all, Z and Z_2 X 2Z are very different groups. So either "equivalence" means something trickier here than I realize, or I keep making a mistake somewhere along the line. Either way, it'd be great if someone could help me see the light.
+
+[[Mike Shulman]]: Good question!  I think the missing subtlety is that a pseudofunctor is not uniquely determined by its action on objects and morphisms, even if its domain is a mere category (or a mere group); there are also natural coherence isomorphisms $g^* f^* \cong (g f)^*$ to take into account.  For instance, if $g$ is the nonidentity element of $\mathbb{Z}/2$, then $g g = 1$, so even if $g$ acts by the identity on $2\mathbb{Z}$, a pseudofunctor also contains the additional data of a natural automorphism of the identity of $2\mathbb{Z}$, i.e. a (central) element of $2\mathbb{Z}$.  If you start from $\mathbb{Z}$, then depending on your cleavage your element can be anything that's 2 mod 4, while if you start from $\mathbb{Z}/2\times 2\mathbb{Z}$, your element can be anything that's 0 mod 4.  Finally, there is a pseudonatural equivalence between two such pseudofunctors just when their corresponding elements differ by a multiple of 4, so you get exactly two equivalence classes of pseudofunctors, corresponding to the two groups $\mathbb{Z}$ and $\mathbb{Z}/2\times 2\mathbb{Z}$.  Of course we are reproducing the classification of group extensions via group cohomology.
+
+By the way, this sort of thing (by which I mean, the cohomology class that classifies some categorical structure arising as the trace of a coherence isomorphism) happens in lots of other places too.  For instance, a [[2-group]] is classified by a group $G$, an abelian group $H$, an action of $G$ on $H$, and an element in $H^3(G;H)$.  If you replace a 2-group by a [[skeleton|skeletal]] one, then $G$ is the group of objects (which is strictly associative and unital, by skeletality), $H$ is the group of endomorphisms of the unit, and the action is defined by "whiskering".  The cohomology class comes from the [[associator]] isomorphism, which can (and often must) still be nontrivial even though the multiplication is "strictly associative" at the level of objects (by skeletality).
+
+_Toby_:  So the multiplication is strictly associative, but the $2$-group itself is not a strict $2$-group, since it uses a different associator than the identity.  As in the example of the pseudofunctor from $Z_2$ to $Cat$, there is some additional structure here which is not trivial, even though it seems like it could be.
+
+[[Sridhar Ramesh]]: Ah, of course, that's what I was missing. Thanks, both of you; that clears it all up.
+=--
 
 ## References 
 
