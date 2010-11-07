@@ -38,6 +38,8 @@ The [[category]] $\Pi$ of homotopy operations has
 
  *  There is a [[functor]], _smash product_ $i : \Pi\times \Pi \to \Pi$, which sends an object $(U,V)$ to $U\wedge V = (U\times V)/((U\times *)\vee(*\times V))$, which preserves [[coproduct]]s in each variable.
 
+This category $\Pi^{op}$ is a finite product theory, in the sense of [[algebraic theories]] whose models are:
+
 
 ##$\Pi$-algebras
 
@@ -94,7 +96,7 @@ Things can be complicated!
 
 1.  The homotopy type of $X$ is not be determined by $A$ (hence 'a' rather than 'the" realisation) , so that raises the additional problem of classifying the realisations.
 
-1. Not all $\Pi$-algebras can be reaised, in fact
+1. Not all $\Pi$-algebras can be realised, in fact
 
 ####Theorem (Blanc 1995)
 
