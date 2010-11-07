@@ -29,3 +29,5 @@ In the context of [[simplicial group]]s, representing [[connected]] [[homotopy t
 ## References
 
 See also [wikipedia](http://en.wikipedia.org/wiki/Whitehead_product).
+
+[[!redirects Whitehead products]]
