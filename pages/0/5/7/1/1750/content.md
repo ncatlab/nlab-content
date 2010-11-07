@@ -46,55 +46,11 @@ By way of spelling out the first definition, we may define a 2-cell $\eta \colon
 
 The third definition is perhaps the simplest.  Of course, it is implied by the second (take $f = 1$), but the converse is also true by the pasting lemma for [[comma object|comma]] and [[pullback]] squares.
 
-We can show that the first and third definitions are equivalent by using the representability of fibrations and adjunctions, plus the following lemma.
+We can show that the first and third definitions are equivalent by using the representability of fibrations and adjunctions, plus the following lemma, whose proof can be found at [[Street fibration]].
 
 +--{: .un_lemma}
 ###### Lemma
 A functor $p \colon E \to B$ is a [[cleavage|cloven]] Street fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$.
-=--
-+-- {: .proof }
-###### Proof
-First, recall that the 2-category $Cat/B$ has objects the functors $C \to B$, as morphisms the triangles
-$$\array{C & \xrightarrow{h} & C' \\ & f \searrow \cong \swarrow g &  \\  & B  & }$$
-which commute up to specified isomorphism, and as 2-cells the natural transformations $\alpha : h_1 \to h_2$ which commute with the specified isomorphisms (i.e. $ f \xrightarrow{\cong} g h_1 \xrightarrow{g \alpha} g h_2 \xrightarrow{\cong} f$ is the identity).
-
-Next, recall that the [[comma category]] $B/p$ has objects the triples $(x, e, k)$, with $k \colon x \to p(e)$ a morphism in $B$.  Let $\pi \colon B/p \to B$ denote the projection $(x, e, k) \mapsto x$.  The canonical morphism $i\colon p \to B/p$ in $Cat/B$ sends $e\in E$ to the triple $(p(e),e,1_{p(e)})$.
-
-Somewhat imprecisely, seeing both categories $E$ and $B/p$ as sitting over $B$ means that functors between those should be the identity (up to specified isomorphism) on the $b$ component, and natural transformations should have the identity as their $b$ component (modulo the specified isomorphisms).
-
-Now, to give an adjunction $i \dashv r$ in $Cat$, it suffices to give, for each object $k \colon x \to p(e)$ in $B/p$, an object $r(x,e,k) = r(k)$ in $E$ and an arrow $i(r(k)) = (p(r(k)), r(k), 1_{p(r(k))}) \to (x,e,k)$ in $B/p$ that is [[universal arrow|universal]] from $i$ to $k$.  Such an arrow consists of a pair of morphisms $\theta_k\colon p(r(k)) \to x$ in $B$ and $\epsilon_k\colon r(k) \to e$ in $E$ such that
-$$
-\array{
-  p(r(k)) & \overset{1}{\to} & p(r(k)) \\
-  \mathllap{\theta} \downarrow & & \downarrow \mathrlap{p(\epsilon_k)} \\
-  x & \underset{k}{\to} & p(e)
-}
-$$
-commutes, i.e. such that $p(\epsilon_k) = k \circ \theta_k$.
-
-Note that since $x = \pi(x,e,k)$, the morphisms $\theta$ supply a natural transformation $\theta\colon p r \to \pi$, not necessarily invertible.  By general [[doctrinal adjunction]] arguments, in order for $i \dashv r$ to be an adjunction in $Cat/B$, it is necessary and sufficient that $\theta$ be invertible (and we then use it to make $r$ into a morphism in $Cat/B$).
-
-Now, the universal property of $(\theta_k,\epsilon_k)$ tells us that for any other morphism in $B/p$ from some $i(y)$ to $k$, i.e., for any $y$ and any pair $(f,g)$ making the square
-$$
-\array{
-  p(y) & \stackrel{1}{\to} & p(y) \\
-  \mathllap{f} \downarrow & & \downarrow \mathrlap{p(g)} \\
-  x & \underset{k}{\to} & p(e)
-}
-$$
-commute, there is a unique map $h \colon y \to r(k)$ in $B$ such that the above square factors in $B/p$ as
-$$
-\array{
-  p(y) & \stackrel{1}{\to} & p(y) \\
-  \mathllap{p(h)} \downarrow &  & \downarrow \mathrlap{p(h)} \\
-  \mathllap{p(r(k))} & \stackrel{1}{\to} & \mathrlap{p(r(k))}\\
-  \mathllap{\theta_k} \downarrow & & \downarrow \mathrlap{p(\epsilon_k)} \\
-  x & \underset{k}{\to} & p(e).
-}
-$$
-In other words, the universal property provides a unique $h$ such that $\epsilon_k \circ h = g$ and $\theta_k \circ p(h) = f$, which exactly asserts that $\epsilon_k$ is a [[cartesian arrow]].
-
-Thus, the existence of a right adjoint to $i$ means precisely that for each morphism $k \colon x \to p(e)$, a choice is given of a cartesian lift of $k$ up to isomorphism.  In turn, this means that $p$ is a cloven fibration.
 =--
 
 It follows that a morphism $p \colon E \to B$ in any 2-category $K$ is representably a fibration (i.e. satisfies the first definition) if and only if the adjunction $i \dashv r$ exists in $K/B$ (i.e. it satisfies the third condition).
