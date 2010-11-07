@@ -13,22 +13,13 @@
 * table of contents
 {: toc}
 
-## Statement
+## Statements
 
-In its usual form, the _Eckmann--Hilton argument_ shows that a [[monoid object|monoid]] or [[group object]] [[internalization|in]] the category of [[monoids]] or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
+In its usual form, the _Eckmann--Hilton argument_ shows that a [[monoid object|monoid]] or [[group object]] [[internalization|in]] the category of [[monoids]] or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a [[set]] is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
 
-An even more general version is this:  If a set is equipped with two binary operations with [[identity elements]], as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
+From the [[nPOV]], we may want to think of the statement in this way:
 
-1.  the other is also a homomorphism with respect to the first;
-2.  each also preserves the other\'s identity;
-3.  the identities are the same;
-4.  the operations are the same;
-5.  the operation is commutative;
-6.  the operation is associative.
-
-If we [[internalisation|internalise]] the monoid version, then the Eckmann--Hilton argument shows that
-
-+-- {: .un_prop }
++-- {: .num_prop #2cat}
 ###### Proposition
 
 Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[identity]] [[morphism]] of $X$ and $End(Id_x)$ for the set of [[endomorphism|endo]]-[[2-morphism]]s on $X$. Then:
@@ -38,14 +29,27 @@ Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[
 * this is an [[abelian monoid]].
 =--
 
+On the face of it, this is a special case of the general situation, although in fact every case is an example for appropriate $C$.
+
+A more general version is this:  If a set is equipped with two binary operations with [[identity elements]], as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
+
+1.  the other is also a homomorphism with respect to the first;
+2.  each also preserves the other\'s identity;
+3.  the identities are the same;
+4.  the operations are the same;
+5.  the operation is commutative;
+6.  the operation is associative.
+
+This can also be [[internalisation|internalised]] in any [[monoidal category]].
+
+
 ## Proofs
 
-A [[pasting diagram]]-proof is depicted in [Cheng](#Cheng) below.  Here we prove the most general form in $Set$.
+A [[pasting diagram]]-proof of \ref{2cat} is depicted in [Cheng](#Cheng) below.  Here we prove the $6$-element general form in $Set$.
 
 The basic equation that we have (that one operation $*$ is a homomorphism with respect to another operation $\circ$) is
 $$ (a \circ b) * (c \circ d) = (a * c) \circ (b * d) .$$ 
-
-This is the [[exchange law]].
+In $End(Id_x)$, this is the [[exchange law]].
 
 We prove the list of results from above in order:
 
@@ -71,7 +75,7 @@ so this operation is commutative.
 $$ (a b) c = (a b) (1 c) = (a 1) (b c) = a (b c) ,$$
 so the operation is associative.
 
-If you start with the slick monoid-in-$Mon$ approach (or the $2$-categorial version), then only (4&5) need to be shown; the others are part of the hypothesis.  This classic form of the Eckmann--Hilton argument may be combined into a single calculation:
+If you start with a monoid object in $Mon$, then only (4&5) need to be shown; the others are part of the hypothesis.  This classic form of the Eckmann--Hilton argument may be combined into a single calculation:
 $$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b = (1 * a) \circ (b * 1) = (1 * b) \circ (a * 1) = b * a ,$$
 where the desired results involve the first, middle, and last expressions.
 
