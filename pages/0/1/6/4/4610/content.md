@@ -15,7 +15,7 @@
 
 ## Definition
 
-A _sifted colimit_ is a [[colimit]] of a [[diagram]] $D \to C$ where $D$ is a [[sifted category]] (in analogy with a [[filtered colimit]], involving diagrams of shape a [[filtered category]]). Such limits commute with finite [[products]] in [[Set]] by definition.
+A _sifted colimit_ is a [[colimit]] of a [[diagram]] $D \to C$ where $D$ is a [[sifted category]] (in analogy with a [[filtered colimit]], involving diagrams of shape a [[filtered category]]). Such colimits commute with finite [[products]] in [[Set]] by definition.
 
 ## Examples
 
