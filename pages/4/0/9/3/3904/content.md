@@ -1,4 +1,4 @@
-* [Home page](http://www.math.muni.cz/~xolschok/)
+* [Home page](http://is.muni.cz/www/183259/index.html)
 
 
 category: people
