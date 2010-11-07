@@ -13,15 +13,7 @@
 =--
 =--
 
-* [[∞-Lie algebra cohomology]]
 
-* [[Chevalley-Eilenberg algebra]]
-
-* **Weil algebra**
-
-* [[invariant polynomial]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -618,6 +610,17 @@ $$
   W(X) = CE(T X) = (\Omega^\bullet(X), d_{dR})
   \,.
 $$
+
+
+## Related concepts
+
+* [[∞-Lie algebra cohomology]]
+
+* [[Chevalley-Eilenberg algebra]]
+
+* **Weil algebra**
+
+* [[invariant polynomial]]
 
 
 ## References
