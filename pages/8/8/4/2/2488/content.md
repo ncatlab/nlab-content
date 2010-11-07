@@ -81,7 +81,9 @@ Some terminology:
 
 * A 0-truncated object is also called **discrete** . Notice that this is _categorically discrete_ as in [[discrete category]], not discrete in the sense of [[topological space]]s. An object in an [[(∞,1)-topos]] is discrete in this sense if, regarded as an [[∞-groupoid]] with extra structure it has only trivial morphisms.
 
-* By the above convention on (-2)-truncated $\infty$-groupoid, it is the [[terminal object]]s of $C$ that are (-2)-truncated.
+* By the above convention on (-2)-truncated $\infty$-groupoid, it is only the [[terminal object]]s of $C$ that are (-2)-truncated.
+
+* Similarly, the (-1)-truncated objects are the [[subterminal objects]].
 
 
 +-- {: .un_defn}
