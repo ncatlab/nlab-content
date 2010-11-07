@@ -19,8 +19,11 @@
 
 A _$\Pi$-algebra_ is an algebraic model for the [[homotopy group]]s $\pi_*X$ of a pointed [[topological space]], $X$, together with the [[action]] of the [[primary homotopy operation]]s on them, in the same sense that algebras over the [[Steenrod algebra]] are models for the [[cohomology]] of a space.
 
+Constructions of this type exist in many pointed model categories. It suffices to have a collection of [[spherical object]]s.
+
 
 ## The category $\Pi$ of homotopy operations
+
 
 The [[category]] $\Pi$ of homotopy operations has
 
@@ -58,13 +61,13 @@ A morphism of $\Pi$-algebras is a natural transformation between the correspondi
 
 *  A $\Pi$-algebra can be considered to be a graded [[group]] $\{A_n\}_{n=1}^\infty$ with $A_n$ abelian for $n\gt 1$, together with  
    
-   * [[Whitehead product]] homomorphisms : 
+   * '[[Whitehead product]]' homomorphisms : 
 
 $$[-,-] : A_p\otimes A_q \to A_{p+q-1}$$
 
 for $p,q \geq 1$ (the case where they are equal to 1 needs special mention, see below.)
      
-   * [[composition operation]]s, $-\cdot \alpha : A_p\to A_r$ for $\alpha \in \pi_r(S^p)$, $1\lt p\lt r$,
+   * '[[composition operation]]s', $-\cdot \alpha : A_p\to A_r$ for $\alpha \in \pi_r(S^p)$, $1\lt p\lt r$,
 
 which satisfy the identities that hold for the Whitehead products and composition operations on the higher homotopy groups os a pointed space, and
 
@@ -99,13 +102,22 @@ Given a $\Pi$-algebra, $A$, there is a sequence of [[higher homotopy operation]]
 
 ####Example (Blanc 1995)
 
-For $p\neq 2$, a prime and $r\geq 4(p-1)$, $\pi_*S^r \otimes \mathbb{Z}/p$ cannot be realised (and if $p = 2$, one uses $r\geq 6).
+For $p\neq 2$, a prime and $r\geq 4(p-1)$, $\pi_*S^r \otimes \mathbb{Z}/p$ cannot be realised (and if $p = 2$, one uses $r\geq 6$).
 
 (There is a problem, discussed in Blanc's 1995 paper, that the composition operations need not be 
 homomorphisms, so tensoring with $\mathbb{Z}/p$ has to be interpreted carefully.)
 
 
+##Simply connected $\Pi$-algebras
 
+A $\Pi$-algebra, $A$, is said to be **simply connected** if $A_1= 0$.
+
+In this case the universal identities for the [[primary homotopy operations]] can be described more easily (see Blanc 1993).  These include
+the structural information that the [[Whitehead products]] make $A$ into a graded [[Lie algebra|Lie ring]] (with a shift of indices).
+
+##Truncated $\Pi$-algebras
+
+The beginnings of a classification theory for $n$-truncated $\Pi$-algebras can be found in Frankland's thesis (link given below).
 
 ## References
 
