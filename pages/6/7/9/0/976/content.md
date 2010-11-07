@@ -6,7 +6,7 @@
 
 ## Motivation and history
 
-While [[homotopy theory]] is suitable for the study of (locally) good [[topological space]]s, it fails to give useful information for 'bad' spaces, of which classical examples include  the [[Warsaw Circle]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [p-adic solenoid](http://en.wikipedia.org/wiki/Solenoid_%28mathematics%29) and so on. Even if our initial and principal interest is in good spaces, bad spaces arise naturally in their study. For example, in the study of dynamical systems on manifolds, an important issue is the study of  the attractors of such systems, which are typically fractal sets, and thus not 'locally nice' at all! The intuitive idea of shape theory is to define invariants of quite general topological spaces by approximating them with 'good' spaces, either by  embedding them into good spaces, and looking at open or polyhedral neighbourhoods of them, or by considering abstract inverse systems of good spaces. The two approaches are closely related.
+While [[homotopy theory]] is suitable for the study of (locally) good [[topological space]]s, it fails to give useful information for 'bad' spaces, of which classical examples include  the [[Warsaw Circle]], [Sierpinski gasket](http://en.wikipedia.org/wiki/Sierpinski_triangle), [p-adic solenoid](http://en.wikipedia.org/wiki/Solenoid_%28mathematics%29) and so on. Even if our initial and principal interest is in good spaces, bad spaces arise naturally in their study. For example, in the study of dynamical systems on manifolds, an important issue is the study of  the attractors of such systems, which are typically fractal sets, and thus not 'locally nice' at all! The intuitive idea of shape theory is to define invariants of quite general topological spaces by approximating them with 'good' spaces, either by  embedding them into good spaces, and looking at open or polyhedral neighborhoods of them, or by considering abstract inverse systems of good spaces. The two approaches are closely related.
 
 Shape theory was first explicitly introduced by Polish mathematician [Karol Borsuk](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Borsuk.html) in the 1960s. The modern version of shape theory is developed in terms of inverse systems of absolute neighbourhood retracts (ANRs) (which are [[pro-object]]s) introduced in this setup by [[Sibe Mardesic|S. Marde?i?]], and [[Jack Segal|J. Segal]] (1971) and independently, in a slightly different form, by [[Tim Porter]] (thesis, 1971), using the more combinatorial framework of [[pro-objects]] in the category of simplicial sets. 
 
@@ -213,10 +213,10 @@ The more or less equivalent pro-object approach was independently developed by P
 
 References relating more to strong shape  theory include:
 
-* D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
+* D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag, [pdf](http://www.math.uga.edu/~davide/Cech_and_Steenrod_Homotopy_Theories_with_Applications_to_Geometric_Topology.pdf) 
 * J.T. Lisica and [[Sibe Mardesic|S. Marde?i?]], Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335--399. 
 
-* [[Sibe Mardesic|S. Marde?i?]], Strong Shape and Homology, Springer monographs in mathematics, Springer-Verlag. 
+* [[Sibe Mardesic|S. Marde?i?]], _Strong shape and homology_, Springer monographs in mathematics, Springer-Verlag. 
 
 * [[Michael Batanin]], [Categorical strong shape theory](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1997__38_1_3_0), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 38 (1997), no. 1, 3--66.
 
@@ -233,11 +233,11 @@ These last three papers developed a version of the [[BrownAHT]] to pro-categorie
 
 References to the categorical forms of shape theory include
 
-* A. Deleanu and P.J. Hilton, On the categorical shape of a functor, Fund. Math. 97 (1977) 157 - 176.
+* A. Deleanu, P.J. Hilton, _On the categorical shape of a functor_, Fund. Math. 97 (1977) 157 - 176.
 
-* A. Deleanu and P.J. Hilton, Borsuk's shape and Grothendieck categories of pro-objects, Math. Proc. Camb. Phil. Soc. 79 (1976) 473-482.
+* A. Deleanu, P.J. Hilton, _Borsuk's shape and Grothendieck categories of pro-objects_, Math. Proc. Camb. Phil. Soc. 79 (1976) 473-482.
 
-* D.  Bourn and [[Jean-Marc Cordier|J.-M. Cordier]], [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
+* D.  Bourn, [[Jean-Marc Cordier|J.-M. Cordier]], [Distributeurs et th&#233;orie de la forme](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2), Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188.
 
 and
 
