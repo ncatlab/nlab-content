@@ -93,7 +93,7 @@ Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$
 
 * A simplicial group can be considered as a [[simplicial groupoid]] having exactly one object. If $G$ is a simplicial group, the suggested notation for the corresponding simplicially enriched groupoid would be $\mathbf{B}G$ according to notational conventions suggested elsewhere in the nLab.
 
-* There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplcial groupoid. This has a left adjoint $\overline{W}$ (see below), called the _classifying space_ functor, and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
+* There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplicial groupoid. This has a left adjoint $\overline{W}$ (see below), called the _classifying space_ functor, and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
 
 ###  Adjunction between simplicial groups and simplicial sets 
 
@@ -492,7 +492,7 @@ The fact that every PTCP $X \times_\phi G \to X$ defined by a [[twisting functio
 
 An explicit version of the statement that [[twisted Cartesian product]]s are nothing but pullbacks of a [[generalized universal bundle]] is on [page 148](http://ncatlab.org/timporter/files/menagerie10.pdf#page=148) of
 
-* [[Tim Porter]], _[[timporter:crossed menagerie]]_
+* [[Tim Porter]], _[[Tim Porter:crossed menagerie|The Crossed Menagerie]].
 
 On [page 239](http://ncatlab.org/timporter/files/menagerie10.pdf#page=239) there it is mentioned that
 
@@ -512,7 +512,7 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 * [[John Duskin]], _Simplicial methods and the interpretation of "triple" cohomology_, number  163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc. (1975)
 
 
-## References 
+## General references 
 
 A standard reference for the case of _abelian_ simplicial groups is [chapter 5](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi) of
 
