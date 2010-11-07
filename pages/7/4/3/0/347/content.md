@@ -29,7 +29,7 @@ The idea is that $Y$ provides a "locally resolved" picture of $X$ in that $X$ an
 
 The archetypical example are ordinary covers of topological spaces $X$ by open subsets $\{U_i\}$: here $Y$ is their [[disjoint union]] $Y := \coprod_i U_i$.
 
-More generally, you might need a cover to be *family* of maps $(\pi_i: Y_i \to X)_i$; if the category has a [[coproduct]]s that get along well with the covers, then you can replace these families with single maps as above.
+More generally, you might need a cover to be *family* of maps $(\pi_i: Y_i \to X)_i$; if the category has [[coproduct]]s that get along well with the covers, then you can replace these families with single maps as above---see [[superextensive site]].
 
 
 ## Definitions
@@ -87,3 +87,5 @@ of a topological space or manifold. This is a priori an independent notion of co
 
 
 [[!redirects covers]]
+[[!redirects covering family]]
+[[!redirects covering families]]
