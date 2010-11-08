@@ -1,5 +1,4 @@
 
-> under re-construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,131 +16,164 @@
 
 ## Idea
 
+A _local system_  -- which is short for _local system of coefficients for cohomology_ -- is a [[locally constant sheaf]]. Cohomology with coefficients in a local system is the corresonding [[sheaf cohomology]].
+
+More generally, we say a _local system_ is a [[locally constant stack]], ... and eventually a [[locally constant ∞-stack]].
+
+Under suitable conditions (if we have [[Galois theory]]) local systems on $X$ correspond to [[functor]]s out of the [[fundamental groupoid]] of $X$, or more generally to [[(∞,1)-functor]]s out of the [[fundamental ∞-groupoid]]. 
+
+
 
 ## Definitions
 
-The notion of *local system* exists in several different forms, each trying to capture some basic intuition in an appropriate language  for the applications that are being considered. For the moment we will not enquire too deeply as to the exact relationships between them 
+A notion of [[cohomology]] exists intrinsically within any [[(∞,1)-topos]]. We discuss local systems first in this generality and then look at special cases, such as local systems as ordinary [[sheaves]].
 
+### General 
 
-We start with a 'geometric' definition and then give the [[sheaf]]-theoretic one.
-
-### Geometric definition ##
-
-A **local system** on a topological space $X$ with coefficients in a category $A$ is a [[functor]]
+For $\mathbf{H}$ an [[(∞,1)-sheaf (∞,1)-topos]], write
 
 $$
-  tra : \Pi_1(X) \to A
+  (LConst \dashv \Gamma)
+  : 
+  \mathbf{H}
+   \stackrel{\overset{LConst}{\leftarrow}}{\underset{LConst}{\to}}
+  \infty Grpd
 $$
 
-from the [[fundamental groupoid]] $\Pi_1(X)$ of $X$ to $A$. 
-The category of local systems on $X$ with coefficients in $A$ is the [[functor category]]
+be the [[terminal object|terminal]] [[(∞,1)-geometric morphism]], where $\Gamma$ is the [[global section]] [[(∞,1)-functor]] and $LConst$ the [[constant ∞-stack]]-functor.
+
+Write $\mathcal{S} := Fin \infty Grpd \in $ [[∞Grpd]] for the [[∞-groupoid]] of finite $\infty$-groupoids. This is canonically a [[pointed object]] $* \to \mathcal{S}$, with points the terminal groupoid.
+
++-- {: .un_defn}
+###### Definition
+
+For $X \in \mathbf{H}$ an [[object]], a **local system** of [[locally constant ∞-stack]] on $X$ is a morphism
 
 $$
-  [\Pi_1(X), A]
+  \tilde \nabla : X \to LConst \mathcal{S}
+$$
+
+in $\mathbf{H}$ or equivalently the object in the [[over-(∞,1)-topos]]
+
+$$
+  (P \to X) \in \mathbf{H}/X
+$$
+
+that is classified by $\tilde \nabla$ as being the [[homotopy fiber]]
+
+$$
+  \array{
+    P &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{\tilde \nabla}{\to}&  LConst \mathcal{S}
+  }
+$$
+
+In other words, local systems are [[locally constant ∞-stack]]s or [[cocycle]]s for [[cohomology with constant coefficients]].
+
+=--
+
+See [[principal ∞-bundle]] for discussion of how [[cocycle]]s $\tilde \nabla : X \to LConst \mathcal{S}$ classiy morphisms $P \to X$.
+
++-- {: .un_remark}
+###### Remark
+
+If $\mathbf{H}$ happens to be a [[locally ∞-connected (∞,1)-topos]] in that there is the further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$
+
+$$
+  (\Pi \dashv LConst \dashv \Gamma) : \mathbf{H} \to \infty Grpd
+$$
+
+we call $\Pi(X)$ the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]. In this case, by the adjunction hom-equivalence we have 
+
+$$
+  \mathbf{H}(X, LConst \mathcal{S})
+  \simeq
+  Func(\Pi(X), \mathcal{S})
   \,.
 $$
 
+This means that local systems are naturally identified with [[representation]]s ($\infty$-[[permutation representation]]s, as it were) of the fundamental $\infty$-groupoid.
 
-### Sheaf-theoretic definition
+The [[(∞,1)-sheaf (∞,1)-topos]] over a [[locally contractible space]] is locally $\infty$-connected, and many authors identify local systems on such a topological space with representations of its [[fundamental groupoid]].
+
+=--
 
 
 +-- {: .un_defn}
 ###### Definition
 
-A **local system** is a [[locally constant sheaf]] on a [[topological space]] $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. 
+Given a local system $\tilde \nabla : X \to LConst \mathcal{S}$, the cohomology of $X$ with this **local system of coefficients** is 
+the intrinsic [[cohomology]] of the [[over-(∞,1)-topos]] $\mathbf{H}/X$:
+
+  $$
+    H(X,\tilde \nabla)
+    :=
+    \mathbf{H}_{/X}(X, P_{\tilde \nabla})
+    \,,
+  $$
+
+where $P_{\tilde\nabla}$ is the [[homotopy fiber]] of $\tilde \nabla$.
 
 =--
 
-> well, in some areas it is assumed to take values in vector spaces, in other not 
++-- {: .un_remark}
+###### Remark
+
+Unwinding the definitions and using the universality of the [[(∞,1)-pullback]], one sees that a [[cocycle]] $c \in \mathbf{H}(X,\tilde \nabla)$ is a [[diagram]]
+
+$$
+  \array{
+    X &&\stackrel{c}{\to}&& *
+    \\
+    & \searrow &\swArrow_{\simeq}& \swarrow
+    \\
+    && LConst \mathcal{S}
+  }
+$$
+
+in $\mathbf{H}$. This is precisely a [[section]] of the [[locally constant ∞-stack]] $\tilde \nabla$.
+
+=--
+
+
+### Sheaf-theoretic case
+
+Local systems can also be considered in abelian contexts. One finds the following version of a local system
+
++-- {: .un_defn}
+###### Definition
+
+A **linear local system** is a [[locally constant sheaf]] on a [[topological space]] $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional [[vector space]]. 
+
+=--
+
+Regarded as a sheaf $F$ with values in [[abelian group]]s, such a linear local system serves as the coefficient for [[abelian sheaf cohomology]]. As discussed there, this is in degree $n$ nothing but the intrinsic cohomology of the $\infty$-topos with coefficients in the [[Eilenberg-MacLane object]] $\mathbf{B}^n F$.
 
 +-- {: .un_lemma}
 ###### Lemma
 
-On a connected topological space this is the same as a sheaf of sections of a finite-dimensional vector bundle equipped with flat connection; and it also corresponds to the [[representations]] of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent 
+On a connected topological space this is the same as a sheaf of sections of a finite-dimensional [[vector bundle]] equipped with flat [[connection on a bundle]]; and it also corresponds to the [[representations]] of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent 
 $D_X$-[[D-module|modules]] and local systems on $X$.
+
 =--
 
 
-##Examples
 
-...
-
-## Related entries
+## Related concepts
 
 * [[simplicial local system]]: within Sullivan's (1977) theory of _Infinitesimal computations in topology_, he refers to 'local systems' several times. This seems to be simplicial in nature. [[simplicial local system|This]] entry explores some of the uses of that notion based on Halperin's lecture notes on minimal models
 
   * D. Sullivan, _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
-* [[D-module]]
-
-* [[abelian sheaf cohomology]]
 
 
 
 
 
 
-## Expositions
-
-A blog exposition of some aspects of local system is developed here:
-
-* David Speyer: _Three ways of looking at a local system_
-
-  * [Introduction and connection to cohomology theories](http://sbseminar.wordpress.com/2009/04/20/three-ways-of-looking-at-a-local-system-introduction-and-connection-to-cohomology-theories/)
-
-
-  * [the path groupoid approach](http://sbseminar.wordpress.com/2009/04/21/local-systems-the-path-groupoid-approach/)
-
-  * [the infinitesimal perspective](http://sbseminar.wordpress.com/2009/04/30/three-ways-of-looking-at-a-local-system-the-infinitesimal-perspective/)
-
-  * [the infinitesimal site](http://sbseminar.wordpress.com/2009/05/06/the-infinitesimal-site/)
-
-***
-
-
-## A general picture {#nPOV}
-
-+-- {: .query}
-
-[[Urs Schreiber]]: I find the above entry so far a bit of a mess. It is lacking a good [[nPOV]] elegant global picture from which all the details then drop out automatically. Here is a proposal for what that could be.
-
-=--
-
-We try to give the general abstract [[nPOV]] on local systems.
-
-In the context of a given [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(X)$ of [[∞-stack]]s on $C$, whose objects we think of as [[space]]s, for every [[object]] $X \in \mathbf{H}$ and [[pointed object]]$(* \to A) \in \mathbf{H}$,  a [[morphism]] $X \to A$ is a [[cocycle]] that [[homotopy fiber|classifies]] an $A$-[[principal ∞-bundle]] $P \to X$ over $X$.
-
-A **local system** is the special case of this where, equivalently, 
-
-* the [[principal ∞-bundle]] $P$ is like a [[covering space]] for $X$;
-
-* the coefficient object $A$ is a [[constant ∞-stack]] on $C$ -- $A = LConst \mathcal{A}$ for some $\mathcal{A} \in \infty Grpd$;
-
-* the [[homotopy fiber|classifying]] [[cocycle]] $X \to A$ exhibits an $\mathcal{A}$-valued [[locally constant ∞-stack]] on $X$.
-
-Here a [[constant ∞-stack]] $A$ is an object in the image of
-
-$$
-  LConst : \infty Grpd \simeq PSh_{(\infty,1)}(*)
-  \stackrel{const}{\to}
-  PSh_{(\infty,1)}(C)
-  \stackrel{L}{\to}
-  Sh_{(\infty,1)}(X)
-  \,,
-$$
-
-where $L$ is [[∞-stackification]]. If this has a [[left adjoint]] $\Pi \dashv LConst$ then $\Pi(X)$ is the bare geometric [[schreiber:path ∞-groupoid]] of $X$, and by the [[adjunction]] we have that $(A = LConst \mathcal{A})$-local systems are equivalent to [[(∞,1)-functor|∞-functors]] $\Pi(X) \to \mathcal{A}$:
-
-$$
-  Loc(X,A) = \mathbf{H}(X,A) \simeq \infty Grpd(\Pi(X), \mathcal{A})
-  \,.
-$$
-
-With this the fourth characterization of an $\mathcal{A}$-valued local system on $X$ is:
-
-* a [[representation]] of the [[schreiber:path ∞-groupoid]] $\Pi(X)$ on $\mathcal{A}$.
-
-In the special case that $\mathcal{A} = Core{\infty FinGrpd}$ is the [[core]] of the [[(∞,1)-category]] of finite [[∞-groupoid]]s, $\mathcal{A}$-valued local systems on $X$ are precisely genuine [[locally constant ∞-stack]]s on $X$. Conversely,we may think of a local system as a generalization of a locally constant $\infty$-stack, which may take values in something richer than just finite $\infty$-groupoids.
 
 
 ## References
@@ -159,6 +191,19 @@ A definition  appears as an exercise in
 on page 58 : 
 
 >_A local system on a space $X$ is a covariant functor from the fundamental groupoid of $X$ to some category._
+
+A blog exposition of some aspects of linear local system is developed here:
+
+* [[David Speyer]], _Three ways of looking at a local system_
+
+  * [Introduction and connection to cohomology theories](http://sbseminar.wordpress.com/2009/04/20/three-ways-of-looking-at-a-local-system-introduction-and-connection-to-cohomology-theories/)
+
+  * [the path groupoid approach](http://sbseminar.wordpress.com/2009/04/21/local-systems-the-path-groupoid-approach/)
+
+  * [the infinitesimal perspective](http://sbseminar.wordpress.com/2009/04/30/three-ways-of-looking-at-a-local-system-the-infinitesimal-perspective/)
+
+  * [the infinitesimal site](http://sbseminar.wordpress.com/2009/05/06/the-infinitesimal-site/)
+
 
 A clear-sighted description of locally constant $(n-1)$-stacks / $n$-local systems as sections of constant $n$-stacks is in
 
