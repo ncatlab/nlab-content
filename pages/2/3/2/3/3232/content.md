@@ -107,9 +107,20 @@ More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullb
 
 * **algebra over a monad**
 
-* [[algebra over an algebraic theory]] / [[homotopy T-algebra]]
+  [[∞-algebra over an (∞,1)-monad]] 
 
-* [[algebra over an operad]] / [[∞-algebra over an (∞,1)-operad]]
+* [[algebra over an algebraic theory]] 
+
+  [[∞-algebra over an (∞,1)-algebraic theory]]
+
+  * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
+
+* [[algebra over an operad]] 
+
+   [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
+
 
 [[!redirects module of a monad]]
 [[!redirects module for a monad]]
