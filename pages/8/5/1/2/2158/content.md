@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 Given two [[sets]] $S$ and $T$ and an element $x$ of $T$, the __constant function__ from $S$ to $T$ with value $x$ is the [[function]] $f$ defined by
 $$ f(a) = x $$
 for every element $a$ of $S$.
@@ -11,6 +18,19 @@ The converse is a little more complicated.  If $S$ is [[inhabited set|inhabited]
 Using [[excluded middle]], we can say that, if $T$ is inhabited, then any constant function from $S$ to $T$ is constant at some (possibly not unique) value, but this theorem fails in [[constructive mathematics]].
 
 See also [[constant morphism]].
+
+
+## Related concepts
+
+* **constant function** /  [[locally constant function]] 
+
+* [[constant sheaf]] / [[locally constant sheaf]]
+
+* [[constant stack]] / [[locally constant stack]]
+
+* [[constant ∞-stack]] / [[locally constant ∞-stack]]
+
+* [[local system]]
 
 
 [[!redirects constant function]]
