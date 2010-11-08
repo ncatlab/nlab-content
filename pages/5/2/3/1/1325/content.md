@@ -1,7 +1,12 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -56,6 +61,15 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
   * an [[E-infinity-algebra]] is an algebra over a cofibrant resolution of the commutative operad
 
 * etc.
+
+## Related concepts
+
+* [[algebra over a monad]]
+
+* [[algebra over an algebraic theory]] / [[homotopy T-algebra]]
+
+* **algebra over an operad** / [[∞-algebra over an (∞,1)-operad]]
+
 
 [[!redirects algebra over operad]]
 [[!redirects algebra for an operad]]
