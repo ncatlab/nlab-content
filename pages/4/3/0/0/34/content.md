@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -31,7 +30,7 @@ These [[geometric definition of higher category|combinatorial]] or [[algebraic d
 
 So an ordinary [[topological space]] or [[∞-groupoid]] is an [[(∞,0)-category]]: it has cells of arbitrary dimension and all of them are reversible.
 
-In contrast to that, a [[geometric definition of higher category|combinatorial]] or [[algebraic definition of higher category|algebraic]] model for a [[directed space]] in which the 1-dimensional paths may not all be reversible is an [[(∞,1)-category]]: it still has cells of arbitrary dimension, but only those of dimension greater than 1 are guaranteed to be reverible.
+In contrast to that, a [[geometric definition of higher category|combinatorial]] or [[algebraic definition of higher category|algebraic]] model for a [[directed space]] in which the 1-dimensional paths may not all be reversible is an [[(∞,1)-category]]: it still has cells of arbitrary dimension, but only those of dimension greater than 1 are guaranteed to be reversible.
 
 Often it is convenient in practice to consider the case where the possible dimension $n$ of non-trivial cells is finite. This is familiar from how a [[topological space]] that happens to have vanishing [[homotopy group]]s in dimension above some $n$ -- a [[homotopy n-type]] -- is modeled by an [[n-groupoid]]. A fully directed version of this is an [[n-category]], which is short for [[(n,n)-category]]: non-trivial cells up to and including dimension $n$, and all of them allowed to be non-reversible. Actually, it is possible to go on to an $(n,n+1)$-category, or $(n+1)$-[[n-poset|poset]]; you can either consider than the $n$-cells are ordered, or else consider that there are irreversible $(n+1)$-cells which are indistinguishable. (Reversible indistinguishable $(n+1)$-cells are all identities and so might as well not exist.)
 
