@@ -1,3 +1,4 @@
+[[!redirects infintiy-algebra over an (infinity,1)-monad]]
 [[!redirects ∞-algebra over an (∞,1)-monad]]
 
 +-- {: .rightHandSide}
@@ -14,7 +15,7 @@
 * table of contents
 {:toc}
 
-## Defintion
+## Definition
 
 For the moment see [[(∞,1)-monad]].
 
