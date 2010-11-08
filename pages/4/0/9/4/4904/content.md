@@ -113,6 +113,27 @@ This is theorem 1.3 in ([Badzioch](#Badzioch)).
 
 * A [[simplicial ring]]s is a simplicial $T$-algebras for $T$ the Lawvere theory of rings. See there for more on the model category structure
 
+## Related concepts
+
+* [[algebra over a monad]]
+
+  [[∞-algebra over an (∞,1)-monad]] 
+
+* [[algebra over an algebraic theory]] 
+
+  [[∞-algebra over an (∞,1)-algebraic theory]]
+
+  * [[homotopy T-algebra]] / **model structure on simplicial T-algebras**
+
+* [[algebra over an operad]] 
+
+   [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
+
+
+
+
 ## References
 
 The classical referenceis
