@@ -62,6 +62,8 @@
 
     * [[Spin structure]], [[String structure]], [[Fivebrane structure]]
 
+* [[cohomology with constant coefficients]]
+
 * [[∞-Lie algebra cohomology]]
 
   * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]], [[Lie algebra extensions]]
