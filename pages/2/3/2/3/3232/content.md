@@ -96,12 +96,20 @@ where the parallel arrows are the two induced actions $\rho x'$ and $x \lambda$ 
 
 If $K$ satisfies the above conditions then there is a bicategory $Mod(K)$ consisting of monads, bimodules and bimodule morphisms in $K$.
 
-### Example
+## Examples
 
 If $K = Span(Set)$, the bicategory of [[span]]s of sets, then a monad in $K$ is precisely a small category.  Then $Mod(K) = Prof$, the category of small categories, [[profunctor]]s and natural transformations.
 
 More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullbacks that preserve them, consists of [[internal category|internal categories]] in $C$, together with [[internal profunctor|internal profunctors]] between them and transformations between those.
 
+
+## Related concepts
+
+* **algebra over a monad**
+
+* [[algebra over an algebraic theory]] / [[homotopy T-algebra]]
+
+* [[algebra over an operad]] / [[∞-algebra over an (∞,1)-operad]]
 
 [[!redirects module of a monad]]
 [[!redirects module for a monad]]
