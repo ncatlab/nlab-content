@@ -1,8 +1,18 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-***
+=--
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -20,9 +30,6 @@ a **locally constant $\infty$-stack** is a section of the [[constant ∞-stack]]
 
 We propose a definition of locally constant $\infty$-stacks inside any [[(∞,1)-topos]].
 
-+-- {: .query}
-[[Urs Schreiber]]: please somebody sanity-check the following.
-=--
 
 
 Let $C$ be some [[site]] and let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-topos]] of [[∞-stack]]s over $C$. We think of objects $X \in \mathbf{H}$ as generalized [[space]]s modeled on $C$.
@@ -92,7 +99,7 @@ $$
   \,.
 $$
 
-This may be used to define the _geometric_ [[homotopy group (of an ∞-stack)]].
+This may be used to define the [[geometric homotopy groups in an (∞,1)-topos]].
 
 ## Examples {#References}
 
@@ -152,20 +159,30 @@ of [[locally constant ∞-stack]]s on $X$ and [[Kan fibration]]s over the [[fund
 
 But by the right Quillen functor $Id : sSet_{Quillen} \to sSet_{Joyal}$ from the Quillen [[model structure on simplicial sets]] to the [[Joyal model structure on simplicial sets]] every Kan fibration is a categorical fibration and every categorical fibration over a [[Kan complex]] is a [[Cartesian fibration]] (as discussed there) and a coCartesian fibration. Finally, by the [[Grothendieck construction|(∞,1)-Grothendieck construction]], these are equivalent to [[(∞,1)-functor]]s $\Pi(X) \to \infty Grpd$.
 
-In total this means that via the [[Grothendieck construction]] To&euml;n's result does actually produce an equivalence
+In total this means that via the [[Grothendieck construction]] To&#235;n's result does actually produce an equivalence
 
 $$
   LConst(X) \simeq Func(\Pi(X), \infty Grpd)
   \,.
 $$
 
-Very similar statements are discussed in
+## Pattern
 
-* [[Mike Shulman]], _Parametrized spaces model locally constant homotopy sheaves_ ([arXiv:0706.2874](http://arxiv.org/abs/0706.2874))
+* A [[locally constant function]] is a section of a [[constant sheaf]];
 
-and, building on that, in example 1.8 of
+* a [[locally constant sheaf]] is a section of a [[constant stack]];
 
-* [[Denis-Charles Cisinski]], _Locally constant functors_ , Math. Proc. Camb. Phil. Soc. , 147 ([pdf](http://www-math.univ-paris13.fr/~cisinski/lcmodcat3.pdf))
+* a [[locally constant stack]] is a section of (... and so on...)
+
+* a **locally constant $\infty$-stack** is a section of a [[constant ∞-stack]].
+
+A locally constant sheaf / $\infty$-stack is also called a [[local system]].
+
+
+
+## References
+
+See the references at [[geometric homotopy groups in an (∞,1)-topos]].
 
 
 [[!redirects locally constant ∞-stack]]
@@ -173,5 +190,21 @@ and, building on that, in example 1.8 of
 
 [[!redirects locally constant ∞-stacks]]
 [[!redirects locally constant (∞,1)-sheaves]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
