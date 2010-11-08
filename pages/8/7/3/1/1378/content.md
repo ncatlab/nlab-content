@@ -1,7 +1,5 @@
 
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -12,13 +10,18 @@
 =--
 =--
 
+[[higher geometry]] $\leftarrow$ [[Isbell duality]] $\to$ **higher algebra**
+
+***
 
 
-This entry collects links to $n$Lab-entries related to **Higher Algebra**: [[algebra]] inside [[monoidal (infinity,1)-category|monoidal (infinity,1)-categories]] . 
+#Contents#
+* table of contents
+{:toc}
 
-#Idea#
+## Idea
 
-Recall that ordinary [[algebra]] concerns itself with [[monoid]]s [[internalization|internal to]] [[monoidal category|monoidal categories]]:
+Ordinary [[algebra]] concerns itself with [[monoid]]s [[internalization|internal to]] [[monoidal category|monoidal categories]]:
 
 * a [[monoid]] [[internalization|internal to]] [[Set]] is just an ordinary [[monoid]];
 
@@ -39,27 +42,39 @@ A central motivating example example for or special case of the study of higher 
 
 The "higher algebra" embodied by [[commutative ring spectrum|commutative ring spectra]] has been called **brave new algebra** by F. Waldhausen.
 
-More recently [[Jacob Lurie]] argued that the natural ambient formalism for "brave new algebra" is that of ([[symmetric monoidal (infinity,1)-category|symmetric]]) [[monoidal (infinity,1)-category|monoidal]] [[(infinity,1)-category|(infinity,1)-categories]]:
-
->We should emphasize that the theory of [[A-infinity ring]]s is not new. There are various definitions available in the the literature; see for example _EKMM97_. We have chosen to present the subject using the language of [[(infinity,1)-category|(infinity,1)-categories]], which we feel is the natural home for these ideas. [#](http://www.math.harvard.edu/~lurie/papers/DAG-II.pdf#page=3)
 
 
-#Related entries#
 
-The following links are ordered following the sections of the articles
+## Monads, algebraic theories, operads
 
-* [[Jacob Lurie]] 
+* [[algebraic theory]] / [[2-algebraic theory]] / [[(∞,1)-algebraic theory]]
 
-  * _Noncommutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-II.pdf))
+* [[monad]] / [[(∞,1)-monad]]
 
-  * _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/topoibook/DAG-III.pdf)) 
-
-See also 
-
-* **EKMM97** Elmendorf, Kriz, Mandell, May, _Rings, modules and algebras in stable homotopy theory_, Mathematical surveys and monographs 47, American Mathematical Society, 1997
+* [[operad]] / [[(∞,1)-operad]]
 
 
-#Monoidal $(\infty,1)$-Categories#
+## Algebras and modules
+
+* [[algebra over a monad]]
+
+  [[∞-algebra over an (∞,1)-monad]] 
+
+* [[algebra over an algebraic theory]] 
+
+  [[∞-algebra over an (∞,1)-algebraic theory]]
+
+  * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
+
+* [[algebra over an operad]] 
+
+   [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
+
+
+
+## Monoidal $(\infty,1)$-Categories
 
 * [[monoidal category]]
 
@@ -68,22 +83,12 @@ See also
   * [[algebra]]
 
 
-* [[monoidal (infinity,1)-category]]
+* [[monoidal (∞,1)-category]]
 
-* [[algebra in an (infinity,1)-category]]
-
-#Modules #
-
-* [[module]]
+* [[algebra in an (∞,1)-category]]
 
 
-
-# Monads and the Barr-Beck theorem #
-
-* [[monad]]
-
-
-#The monoidal structure on stable homotopy theory #
+## The monoidal structure on stable homotopy theory 
 
 * [[stable homotopy theory]]
 
@@ -96,7 +101,7 @@ See also
   * [[symmetric monoidal smash product of spectra]]
 
 
-#Symmetric monoidal $(\infty,1)$-categories and commutative algebra #
+## Symmetric monoidal $(\infty,1)$-categories and commutative algebra 
 
 * [[symmetric monoidal (infinity,1)-category]]
 
@@ -108,7 +113,7 @@ See also
 
   * [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
-# Commutative ring spectra #
+## Commutative ring spectra 
 
 * [[stable (infinity,1)-category of spectra]]
 
@@ -124,9 +129,26 @@ See also
 
   * [[E-infinity ring]]
 
-# Symmetric monoidal model categories #
+## Symmetric monoidal model categories 
 
 * [[model category]]
+
+* [[monoidal model category]]
+
+## References
+
+
+* [[Jacob Lurie]] 
+
+  * _Noncommutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-II.pdf))
+
+  * _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/topoibook/DAG-III.pdf)) 
+
+See also 
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, Mathematical surveys and monographs 47, American Mathematical Society, 1997
+
+
 
 
 [[!redirects Higher Algebra]]
