@@ -37,7 +37,7 @@ $$
 consisting of the [[global section]] and the [[constant ∞-stack]] [[(∞,1)-functor]].
 
 
-Write $\mathcal{S} := Fin \infty Grpd \in \infty Grpd$ for the [[∞-groupoid]] of finite $\infty$-groupoids. This is canonically a [[pointed object]] $* \to \mathcal{S}$.
+Write $\mathcal{S} := core(Fin \infty Grpd) \in \infty Grpd$ for the [[core]] [[∞-groupoid]] of the [[(∞,1)-category]] of finite $\infty$-groupoids. (We can drop the finiteness condition by making use of a larger [[universe]].) This is canonically a [[pointed object]] $* \to \mathcal{S}$.
 
 Notice the for $X \in \mathbf{H}$ any [[object]], the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos|little]] $(\infty,1)$-topos of $X$. Objects in here we may regard as $\infty$-stacks on $X$.
 
