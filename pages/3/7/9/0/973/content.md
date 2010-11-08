@@ -26,4 +26,4 @@ An overview of the theory is given in
 
 That not only every sketchable category is [[accessible category|accessible]] but that conversely every [[accessible category]] is sketchable is due to
 
-* Lair, 1981
+* Christian Lair, _Cat&#233;gories modelables et cat&#233;gories esquissables_, Diagrammes, (1981).
