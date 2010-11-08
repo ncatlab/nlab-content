@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -39,9 +55,36 @@ When used as coefficient objects in [[cohomology]] they are also called [[local 
 The [[action]] of the [[fundamental groupoid]] $\Pi_1(X)$ on the fibers of a local system give rise to the notion of [[monodromy]].
 This may be used to define [[homotopy group (of an infinity-stack)|homotopy groups of]] general objects in a [[topos]].
 
-## Generalizations
+## Pattern
 
-There is an evident notion of [[constant ∞-stack]], hence of [[locally constant ∞-stack]] and accordingly a notion of $\infty$-[[infinity-monodromy|monodromy]].
+
+* A [[locally constant function]] is a section of a [[constant sheaf]];
+
+* a **locally constant sheaf** is a section of a [[constant stack]];
+
+* a [[locally constant stack]] is a section of (... and so on...)
+
+* a [[locally constant ∞-stack]] is a section of a [[constant ∞-stack]].
+
+A locally constant sheaf / $\infty$-stack is also called a [[local system]].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 [[!redirects locally constant sheaves]]
