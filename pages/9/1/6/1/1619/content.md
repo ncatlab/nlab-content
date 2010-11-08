@@ -139,7 +139,7 @@ This means the following:
   $$
 
 
-## Description in terms of classes on the total space ##
+## In terms of classes on the total space {#ClassesOnTotalSpace}
 
 One can reformulate an
 
@@ -151,12 +151,12 @@ One can reformulate an
 
 * [[fivebrane structure|Fivebrane]]-
 
-structure in terms of the existence of a certain class on the total space of the given bundle.
+structure in terms of the existence of a certain class in abelian cohomolgy on the total space of the given [[principal bundle]]. This decomposition is a special case of th general [[Whitehead principle of nonabelian cohomology]].
 
 We write this out for the case of string structures, all other cases work entirely analogously.
 
 
-Let $X$ be an oriented Spin manifold and let $P \to X$ be the corresponding $Spin(n)$-bundle. Notice that this, like any principal bundle (see [[generalized universal bundle]], [[principal bundle]] and [[principal infinity-bundle]]) is the [[homotopy limit|homotopy pullback]] 
+Let $X$ be an oriented Spin manifold and let $P \to X$ be the corresponding $Spin(n)$-[[principal bundle]]. Notice that this, like any principal bundle (see [[universal principal ∞-bundle]]) is the [[(∞,1)-pullback]]/[[homotopy pullback]]
 
 $$
   \array{
@@ -167,9 +167,10 @@ $$
     X &\stackrel{}{\to}& B Spin(n)
   }
 $$
+
 of the point along the classifying map from $X$ to the [[classifying space]] $B Spin(n)$.
 
-In other words, there is a [[fibration sequence]]
+In other words, there is a [[fiber sequence]]
 
 $$
   \cdots 
@@ -200,7 +201,7 @@ $$
   }
 $$
 
-The map $P \to B^2 U(1)$ appears by decomposing the homotopy pullback of the point along $X \to B Spin(n)$ into a homotopy pullback first along $B String(n) \to B Spin(n)$ and then along $X \to B String(n)$ using the given String structure. This is the [[cocycle]] for a $\mathbf{B}U(1)$-[[principal 2-bundle]] on the total space $P$ of the $Spin$-principal bundle: a [[bundle gerbe]].
+Here we use repeatedly the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting law</a> for $(\infty,1)$-pullbacks. The map $P \to B^2 U(1)$ appears by decomposing the homotopy pullback of the point along $X \to B Spin(n)$ into a homotopy pullback first along $B String(n) \to B Spin(n)$ and then along $X \to B String(n)$ using the given String structure. This is the [[cocycle]] for a $\mathbf{B}U(1)$-[[principal 2-bundle]] on the total space $P$ of the $Spin$-principal bundle: a [[bundle gerbe]].
 
 The rest of the diagram is constructed in order to prove the following:
 
@@ -212,7 +213,7 @@ Here $\hat P \to X$ denotes the $String(n)$-principal bundle classified by $X \t
 
 This uses 
 
-* the fact that pasting compositites of homotopy pullbacks are again homtopy pullbacks.
+* the fact that <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting compositites</a> of homotopy pullbacks are again homtopy pullbacks.
 
 * the fact that the homotopy pullback of the point to itself produces the [[loop space object]], e.g.
   $$
@@ -258,7 +259,7 @@ String stuctures had at that time been discussed in terms of their transgression
 
 later it was reformulated in terms of the classes down on base space just mentioned in
 
-* Stolz, Teichner, [What is an elliptic object](http://math.ucr.edu/home/baez/qg-winter2007/Oxford.pdf).
+* [[Stefan Stolz]], [[Peter Teichner]], [What is an elliptic object](http://math.ucr.edu/home/baez/qg-winter2007/Oxford.pdf).
 
 The relation between the two pictures is analyzed for instance in
 
