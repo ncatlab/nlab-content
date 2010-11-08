@@ -14,15 +14,14 @@ If $X$ is a [[topological space]] and $Y$ is any [[set]], then a [[function]] $f
 
 We have $Y$ here as a set; but in fact, $Y$ may be given any [[topological structure]]; then every locally constant function $f$ will become a locally constant [[continuous map]].
 
-## Relation to sheaves
+## Pattern
 
-A locally constant function is a section of a [[constant sheaf]].
-
-This is the beginning of a pattern:
+* A **locally constant function** is a section of a [[constant sheaf]];
 
 * a [[locally constant sheaf]] is a section of a [[constant stack]];
 
-* a locally constant stack is a section of (... and so on...)
+* a [[locally constant stack]] is a section of (... and so on...)
 
 * a [[locally constant ∞-stack]] is a section of a [[constant ∞-stack]].
 
+A locally constant sheaf / $\infty$-stack is also called a [[local system]].
