@@ -9,6 +9,9 @@
 =--
 =--
 
+**higher geometry** $\leftarrow$ [[Isbell duality]] $\to$ [[higher algebra]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
@@ -27,7 +30,7 @@ There are two aspects to this, induced from the two aspects of [[big and little 
 * A _big $(\infty,1)$-topos_ is an [[(∞,1)-category]] whose _[[object]]s_ are generalized spaces. Axioms for characterizing big [[topos]]es that encode geometry have been given in ([Lawevere](#Lawevere)). Their generalization to $(\infty,1)$-topos theory is given by the notion of a [[cohesive (∞,1)-topos]].
 
 
-## Axiomatizatons
+## Axiomatizations
 
 ### Structured little $(\infty,1)$-toposes
 
@@ -71,7 +74,7 @@ In
 * [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 {#Lawvere}
 
-an axiomatization of generalized geometry is proposed in terms of 1-[[catgegory theory]]. The evident generalization of this to [[(∞,1)-category theory]] provides an axiomatization for higher geometry. This is discussed at
+an axiomatization of generalized geometry is proposed in terms of 1-[[category theory]]. The evident generalization of this to [[(∞,1)-category theory]] provides an axiomatization for higher geometry. This is discussed at
 
 * [[cohesive (∞,1)-topos]].
 
