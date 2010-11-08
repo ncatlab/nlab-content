@@ -71,6 +71,10 @@ $$
 
 and is a [[quasitopos]]. See [[concrete sheaf]] for details.
 
+### Homotopy equivalence
+
+Since a local geometric morphism has a [[left adjoint]] in the [[2-category]] [[Topos]], it is necessarily a [[homotopy equivalence of toposes]].
+
 ## Examples
 
 ### Easy examples
