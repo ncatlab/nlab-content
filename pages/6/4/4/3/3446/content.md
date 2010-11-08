@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -16,16 +30,18 @@ $$
 from the [[Grothendieck topos|sheaf topos]] to the [[topos]] [[Set]].
 
 
-## Generalizations
-
-The notion of constant sheaf sits in a hierarchy of related notions:
-
-* A section of a constant sheaf is a [[locally constant function]]. 
-
-* A section of a [[constant stack]] is a [[locally constant sheaf]].
-
-For the full story see [[locally constant ∞-stack]].
-
 ## Examples
 
 * The [[natural numbers object]] in any [[Grothendieck topos]] is the constant sheaf on the set $\mathbb{N}$ of natural numbers.
+
+## Pattern
+
+* A [[locally constant function]] is a section of a **constant sheaf**;
+
+* a [[locally constant sheaf]] is a section of a [[constant stack]];
+
+* a [[locally constant stack]] is a section of (... and so on...)
+
+* a [[locally constant ∞-stack]] is a section of a [[constant ∞-stack]].
+
+A locally constant sheaf / $\infty$-stack is also called a [[local system]].
