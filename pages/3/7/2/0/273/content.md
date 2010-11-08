@@ -222,7 +222,7 @@ In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-ca
 
 A readable survey on nonabelian cohomology is
 
-* [[Bertrand Toen]], _Non-abelian cohomology_ ([ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps))
+* [[Bertrand Toen]], _Non-abelian cohomology_ ([pdf](http://www.math.univ-toulouse.fr/~toen/msri2002.pdf))
 
 A useful motivation is
 
