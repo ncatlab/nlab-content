@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -35,9 +46,6 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
   This may be understood as a special case of an [[algebra over a Lawvere theory]], here the [[Lawvere theory]] [[CartSp]].
 
 
-## In higher category theory
-
-* [[algebra in an (infinity,1)-category]]
 
 
 [[!redirects associative unital algebra]]
