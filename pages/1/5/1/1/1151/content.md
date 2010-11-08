@@ -433,6 +433,8 @@ Classes of special cases of cohomologies with their own entries include
  
   * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
 
+* [[cohomology with constant coefficients]]
+
 * [[Hochschild cohomology]]
 
 * [[?ech cohomology]]
