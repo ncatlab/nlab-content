@@ -87,18 +87,12 @@ for more see [[Lawvere theory]] for the moment
 
 ## Related concepts
 
-* [[algebra over an operad]]
-
 * [[algebra over a monad]]
 
+* **algebra over an algebraic theory** / [[homotopy T-algebra]]
 
-### In higher category theory
+* [[algebra over an operad]] / [[∞-algebra over an (∞,1)-operad]]
 
-See 
-
-* [[homotopy T-algebra]]
-
-* [[function algebras on ∞-stacks]].
 
 
 
