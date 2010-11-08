@@ -59,11 +59,11 @@ $$
   (P \to X) \in \mathbf{H}/X
 $$
 
-that is classified by $\tilde \nabla$ as being the [[homotopy fiber]]
+that is classified by $\tilde \nabla$ under the [[(∞,1)-Grothendieck construction]]
 
 $$
   \array{
-    P &\to& *
+    P &\to& LConst \mathcal{Z}
     \\
     \downarrow && \downarrow
     \\
@@ -128,7 +128,7 @@ $$
   \array{
     X &&\stackrel{c}{\to}&& *
     \\
-    & \searrow &\swArrow_{\simeq}& \swarrow
+    & \searrow &\swArrow& \swarrow
     \\
     && LConst \mathcal{S}
   }
