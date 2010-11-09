@@ -43,6 +43,26 @@ Note that the push-forward map, $g_! \colon E^*(Z) \to E^*(Y)$, often results in
 
 Thus the key to transgression is to understand the conditions where the map $g \colon Z \to Y$ admits a push-forward map.  The simplest case is where $Z$ is a product space, $Y \times W$, and $W$ is [[orientable]] for the generalised cohomology theory $E^*(-)$.  This means that $W$ has a fundamental class in $E^*(W)$ and evaluation on this class gives a morphism $E^*(Y \times W) \to E^*(Y)$.
 
+## Definition
+
+### By pullback and fiber integration
+
+(...)
+
+### Transgression of forms through fiber bundles
+
+
+A related construction called _transgression_ is the following
+
+For $P \to X$ a [[fiber bundle]] with typical fiber $F$ and $[\omega] \in H_{dR}^n(F)$ a class in [[de Rham cohomology]] of the fiber, we say this is _transgessive_ if 
+
+* there exists a form $cs \in \Omega^{n}(P)$ on the total space of the bundle;
+
+* such that restricted along $F \hookrightarrow P$ to the fiber it is $\sim \omega$;
+
+* and such that $d \omega$ is the pull-back of a form $\kappa \in \Omega^{n+1}(X)$ on the based along the bundle projection .
+
+See for instance section 9 of ([Borel](#Borel)).
 
 ## Examples
 
@@ -136,3 +156,11 @@ This plays a role in the [[quantization]] process that yields [[FQFT]]s. For an 
 ## Related entries
 
 * [[transgression of bundle gerbes]]
+
+## References
+
+The classical notion of transgression of forms through fiber bundles is described in section 9 of
+
+* [[Armand Borel]], _Topology of Lie groups and characteristic classes_  Bull. Amer. Math. Soc. Volume 61, Number 5 (1955), 397-432. ([EUCLID](http://projecteuclid.org/euclid.bams/1183520007))
+{#Borel}
+
