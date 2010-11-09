@@ -46,7 +46,7 @@ such that it takes [[cover]]s to [[colimit]]s: for each covering family $\{U_i \
 $$
   F(U) \simeq \lim_{\to}
   \left(
-     \coprod_{i j} F(U_i) \times_{F(U)} F(U_j)
+     \coprod_{i j} F(U_i \times_{U} U_j)
      \stackrel{\to}{\to}
      \coprod_i F(U_i)
   \right)
