@@ -37,7 +37,7 @@ Jordan algebras had their origin in the study of the foundations of [[quantum me
 hyperkomplexer Algebren, _Nachr. Ges. Wiss. G&#246;ttingen
 (1932), 569--575.
 
-The unadorned phrase 'algebra' usually signals an [[associative algebra]], but this not the kind of algebra Jordan was led to.  In both [[classical mechanics|classical]] and [[quantum
+The unadorned phrase 'algebra' usually signals an [[associative algebra]], but this is not the kind of algebra Jordan was led to.  In both [[classical mechanics|classical]] and [[quantum
 mechanics]], [[observable]]s are closed under addition and multiplication by [[real number|real]] scalars.  In classical mechanics we can also multiply observables, but in quantum mechanics this becomes problematic.  After
 all, given two [[bounded linear operator|bounded]] [[self-adjoint]] [[linear operator]]s on a complex [[Hilbert space]], their product is self-adjoint if and only if they commute.
 
