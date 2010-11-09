@@ -214,3 +214,5 @@ A clear-sighted description of locally constant $(n-1)$-stacks / $n$-local syste
 for [[locally constant stack]]s on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
 
 [[!redirects local systems]]
+
+[[!redirects cohomology with a local system of coefficients]]
