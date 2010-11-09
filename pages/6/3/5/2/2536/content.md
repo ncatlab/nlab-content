@@ -27,12 +27,13 @@ mechanics, observables are closed under addition and multiplication by real scal
 all, given two bounded self-adjoint operators on a complex Hilbert space, their product is self-adjoint if and only if they commute.
 
 However, in quantum mechanics one can still raise an observable to a power and obtain another observable.  From squaring and taking real linear combinations, one can construct a commutative product:
-$$    a \circ b = {1\over 2}((a+b)^2 - a^2 - b^2)
-                  = {1\over 2}( ab + b a) . $$
-This product is not associative, but it is **power-associative**: any way of parenthesizing a product of copies of the same observable $a$ gives the same result.  This led Jordan to define what is now called a **formally real Jordan algebra**: a commutative and power-associative algebra satisfying
-$$  a_1^2 + \cdots + a_n^2 = 0 \quad \implies \quad a_1 = \cdots = a_n = 0  $$
-for all $n$.  The last condition gives $A$ a partial ordering: if we write $a \le b$ when the element $b - a$ is a sum of squares, it implies that $a \le b$ and $b \le a$ imply $a = b$.  So, in a formally real Jordan algebra we can reasonably talk about one observable being
-'greater' than another.
+$$    x \circ y = {1\over 2}((x+y)^2 - x^2 - y^2)
+                  = {1\over 2}(x y + y x) . $$
+This product is not associative, but it is **power-associative**: any way of parenthesizing a product of copies of the same observable $x$ gives the same result.  This led Jordan to define what is now called a **formally real Jordan algebra**: a commutative and power-associative algebra $J$ satisfying
+$$  x_1^2 + \cdots + x_n^2 = 0 \quad \implies \quad x_1 = \cdots = x_n = 0  $$
+for all $n$.  The last condition gives $J$ a partial ordering: if we write $x \le y$ when the element $y - x$ is a sum of squares, it says that 
+$$x \le y \textrm{\; and \;} y \le x \;\;\implies\;\; x = y\,.
+So, in a formally real Jordan algebra we can reasonably talk about one observable being 'greater' than another.
 
 In fact the Jordan identity $(x y) (x x) = x (y (x x)) $
 is a _consequence_ of the above definition of formally real Jordan algebra.  So, every formally real Jordan algebra is a Jordan algebra (but not conversely).
@@ -99,4 +100,9 @@ that is nonnegative ($x \ge 0 \implies \mu(x) \ge 0$) and normalized ($\mu(1) = 
 
 ## References
 
-*  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_ (available for free from the authors [here](http://www.math.ntnu.no/~hanche/joa/))
+*  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_. ([web](http://www.math.ntnu.no/~hanche/joa/))
+
+Kevin McCrimmon, Jordan algebras and their applications,
+_Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams.org/bull/1978-84-04/S0002-990\
+4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)
+
