@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[Lawvere theory]] is encoded in its [[syntactic category]] $T$, a category with finite product such that all objects are finite products of a given object.
+A [[Lawvere theory]] is encoded in its [[syntactic category]] $T$, a category with finite products such that all objects are finite products of a given object.
 
 An **algebra over a Lawvere theory $T$**, or **$T$-algebra** for short, is a [[model]] for this [[algebraic theory]]: it is a product-preserving [[functor]]
 
