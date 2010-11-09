@@ -36,7 +36,7 @@ which is the identity on objects, and which satisfies $\dagger \circ \dagger = \
 Note that regarded as an extra structure on categories, a &#8224;-structure is [[evil]], since it imposes equations on objects.
 
 
-### Unitary morphisms
+### Special morphisms
 
 +-- {: .un_defn}
 ###### Definition
@@ -58,7 +58,19 @@ The unitary isomorphisms form a [[groupoid]], which may be regarded as the _dagg
 
 For example, in [[Hilb]], there are many invertible linear operators, but only those of norm $1$ (the invertible isometries) are unitary.
 
++-- {: .un_defn}
+###### Definition
 
+A morphism $f$ in a &#8224;-category is called a **[[self-adjoint morphism]]** if it equals its &#8224;-adjoint
+
+$$
+  f^\dagger = f
+  \,.
+$$
+
+ 
+
+=--
 
 
 ### The category of &#8224;-categories {#CatOfDagCats}
