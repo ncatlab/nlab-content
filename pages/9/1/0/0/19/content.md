@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Mathematics
-+--{: .hide}
-[[!include mathematicscontents]]
-=--
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
+=--
+#### Mathematics
++--{: .hide}
+[[!include mathematicscontents]]
 =--
 =--
 =--
