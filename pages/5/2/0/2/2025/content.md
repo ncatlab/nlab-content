@@ -28,6 +28,42 @@ Every compact Hausdorff space is [[regular space|regular]] and [[sober space|sob
 
 Note that every compact Hausdorff space (topological or localic) is not only regular but also [[normal space|normal]].
 
+## Compacta as algebras 
+
+[Under construction...] 
+
+The category of compact Hausdorff spaces is [[monadic functor|monadic]] over $Set$. In other words, there is a monad $\beta: Set \to Set$ and an equivalence $CH \to Alg(\beta)$ which respects the underlying functors to $Set$ up to isomorphism: 
+
+$$(CH \stackrel{U}{\to} Set) \cong (CH \to Alg(\beta) \stackrel{U}{\to})$$ 
+
+The functor $\beta$ takes a set $S$ to the set of ultrafilters on $S$, which may be identified with Boolean algebra homomorphisms $\phi: 2^S \to 2$. Alternatively, each ultrafilter may be identified with a proper subset $\mathcal{U} = \phi^{-1}(1) \subseteq P(S)$ of the power set of $S$ which is 
+
+* Upward-closed: $A \in \mathcal{U}$ and $A \subseteq B \subseteq S$ implies $B \in \mathcal{U}$; 
+
+* Closed under finite intersections: ($A \in \mathcal{U}$ and $B \in \mathcal{U}) implies $A \cap B \in \mathcal{U}$. 
+
+This construction is functorial: a function $f: S \to T$ evidently induces a function $\beta(f): \beta(S) \to \beta(T)$: 
+
+$$Bool(2^f, 2): Bool(2^S, 2) \to Bool(2^T, 2)$$ 
+
+The unit of the monad $\beta$ takes each $s \in S$ to the Boolean algebra homomorphism $ev_s: 2^S \to 2$. Let $\eta_S$ denote this component of the unit. 
+
+Observe also that for any Boolean algebra $B$, there is a canonical Boolean algebra homomorphism 
+
+$$\varepsilon_B: B \to 2^{Bool(B, 2)}: b \mapsto ev_b$$
+
+The multiplication of the monad $\beta$ is the map 
+
+$$Bool(\varepsilon_{2^S}, 2): Bool(2^{Bool(2^S, 2)}, 2) \to Bool(2^S, 2)$$
+
+Next, if $X$ is compact Hausdorff, $U X$ its underlying set, there is an algebra structure 
+
+$$\xi: \beta(U X) \to U X$$ 
+
+which maps each ultrafilter on $U X$ to the unique point it converges to in $X$. 
+
+(To be continued...)
+
 
 ## In weak foundations
 
