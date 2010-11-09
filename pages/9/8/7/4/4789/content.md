@@ -73,6 +73,22 @@ We may equivalently express these two conditions as asserting the existence of a
   \label{TheDiagram}
 \]
 
+
++-- {: .un_def}
+###### Definition
+
+If we think of 
+
+* $W(\mathfrak{g})$ as differential forms on the total space of the universal $G$-bundles;
+
+* $CE(\mathfrak{g})$ as differential forms on the fiber
+
+* $inv(\mathfrak{g})$ as differential forms on the base space
+
+then the abov expresses the classical notion of transgression of forms from the fiber to the base of a fibe bundle (for instance [Borel, section 9](#Borel)).
+
+=--
+
 ## Chern-Simons forms
 
 
@@ -687,6 +703,10 @@ See [[D'Auria-Fre formulation of supergravity]] for the moment.
 
 ## References
 
+A classical references on transgression of forms from the fiber to the base of a [[fiber bundle]] is section 9 of.
+
+* [[Armand Borel]], _Topology of Lie groups and characteristic classes_  Bull. Amer. Math. Soc. Volume 61, Number 5 (1955), 397-432. ([EUCLID](http://projecteuclid.org/euclid.bams/1183520007))
+{#Borel}
 
 The general definition of Chern-Simons element on $\infty$-Lie algebras and $\infty$-Lie algebroids is <a href="http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.3480v2.pdf#page=21">definition 21</a> in
 
@@ -711,6 +731,7 @@ For the discussion of symplectic $n$-Lie algebroids above see [[n-symplectic man
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv:math/0203110](http://arxiv.org/abs/math/0203110))
 {#Roytenberg}
+
 
 
 [[!redirects Chern-Simons elements]]
