@@ -128,6 +128,8 @@
 
 * [[Brown representability theorem]]
 
+* [[Eckmann-Hilton duality|Eckmann-Hilton-Fuks duality]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/cohomology+-+contents)</div>
 
 
