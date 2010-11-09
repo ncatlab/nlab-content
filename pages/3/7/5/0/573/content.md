@@ -55,6 +55,12 @@ A list of known definitions of $n$-category, which should include all definition
 
 One motivating example for $(\infty,n)$-categories is the [[(∞,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
 
+## References ##
+
+A summary of definitions and some known comparison results can be found at
+
+* [[Julie Bergner]], *Models for $(\infty, n)$-categories and the cobordism hypothesis*, [arXiv](http://arxiv.org/abs/1011.0110)
+
 
 [[!redirects (infinity,r)-category]]
 [[!redirects (infinity,k)-category]]
