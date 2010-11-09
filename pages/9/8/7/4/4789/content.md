@@ -12,13 +12,7 @@
 =--
 =--
 
-* [[∞-Lie algebroid cocycle]]
 
-* **Chern-Simons element**
-
-* [[invariant polynomial]]
-
-***
 
 #Contents#
 * table of contents
@@ -679,7 +673,17 @@ $$
 
 ### On higher extensions of the super Poincare Lie algebra -- supergravity
 
-See [[D'Auria-Fre formulation of superrgravity]] for the moment.
+See [[D'Auria-Fre formulation of supergravity]] for the moment.
+
+
+## Related concepts
+
+* [[∞-Lie algebroid cocycle]]
+
+* **Chern-Simons element**
+
+* [[invariant polynomial]]
+
 
 ## References
 
