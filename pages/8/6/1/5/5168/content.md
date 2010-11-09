@@ -1,4 +1,4 @@
-Peter Hilton was a British mathematician who made fundamental contributions to [[algebraic topology]] and in particular to [[homotopy theory]]. He died on 6 November 2010. 
+Peter Hilton was a British mathematician who made fundamental contributions to [[algebraic topology]] and in particular to [[homotopy theory]]. He died on 6 November 2010. In mathematics his name is attached for instance to the [[Eckmann-Hilton argument]] and to [[Eckmann-Hilton duality]].
 
 The following Obituary appeared in the paper in Binghamton, NY, where he had lived for some years.
 
@@ -39,4 +39,3 @@ especially in Continental Europe. He published hundreds of research articles
 and many books on mathematics and mathematics education, and he lectured at
 conferences into his mid-eighties.
 
-In mathematics his name is attached for instance to the [[Eckmann-Hilton argument]].
