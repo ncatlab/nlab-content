@@ -13,6 +13,11 @@
 * table of contents
 {: toc}
 
+##History
+
+The beautiful and powerful Eckmann-Hilton argument is due to [[Beno Eckmann]] and [[Peter Hilton]]
+
+
 ## Statements
 
 In its usual form, the _Eckmann--Hilton argument_ shows that a [[monoid object|monoid]] or [[group object]] [[internalization|in]] the category of [[monoids]] or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a [[set]] is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
