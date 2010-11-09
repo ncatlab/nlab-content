@@ -341,7 +341,7 @@ The [[twisted cohomology]] with respect to the Chern character is **differential
 
 * [[differential cohomology|differential abelian cohomology]] 
 
-* [schreiber:differential nonabelian cohomology]]
+* [schreiber:schreiber:differential cohomology in an (∞,1)-topos]]
 
 #### Equivariant cohomology
 
@@ -435,7 +435,9 @@ Classes of special cases of cohomologies with their own entries include
 
 * [[cohomology with constant coefficients]]
 
-* [[Hochschild cohomology]]
+* [[cohomology with a local system of coefficients]]
+
+* [[Hochschild cohomology]] / [[cyclic cohomology]]
 
 * [[?ech cohomology]]
 
@@ -445,9 +447,12 @@ Classes of special cases of cohomologies with their own entries include
 
 * [[equivariant cohomology]]
 
-* [[differential cohomology]]
+* [[differential cohomology]], [[Chern-Weil theory]]
 
-  * [[schreiber:differential nonabelian cohomology]]
+  * [[schreiber:differential cohomology in an (∞,1)-topos]]
+
+  * [[∞-Chern-Weil theory]]
+
 
 ### Chain cohomology {#ChainCohomology}
 
