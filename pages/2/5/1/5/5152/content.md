@@ -32,6 +32,9 @@ A **spherical object** for $\mathcal{C}$ is a [[model category|cofibrant]] homot
 
 1. Any rational sphere is a sphere object (in a suitable category for [[rational homotopy theory]]).
 
+1. Let $T$ be a contractible locally finite 1-dimensional simplicial complex, with $T^0$ its 0-skeleton. Let $\epsilon : E'T^0$ be a finite-to-one function. By $S^n_\epsilon$ we mean the space obtained by attaching an $n$-sphere to the vertices of $T$ with at vertex $v$, the spheres attached to $v$ being indexed by $\epsilon^{-1}(v)$. This space $S^n_\epsilon$ is a spherical object in the proper category, $Proper_\infinity$.
+
+For instance, take $T = \mathbb{R}_{\geq 0}$, made up of an infinite number of closed unit intervals (end-to-end), then $S^n_\epsilon$ will be the infinite string of spheres considered in the entry on the [[Brown-Grossmann homotopy groups]] if we take $\epsilon$ to be the identity function on $T^0$. 
 
 ##References
 
