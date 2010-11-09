@@ -32,7 +32,7 @@ $$    x \circ y = {1\over 2}((x+y)^2 - x^2 - y^2)
 This product is not associative, but it is **power-associative**: any way of parenthesizing a product of copies of the same observable $x$ gives the same result.  This led Jordan to define what is now called a **formally real Jordan algebra**: a commutative and power-associative algebra $J$ satisfying
 $$  x_1^2 + \cdots + x_n^2 = 0 \quad \implies \quad x_1 = \cdots = x_n = 0  $$
 for all $n$.  The last condition gives $J$ a partial ordering: if we write $x \le y$ when the element $y - x$ is a sum of squares, it says that 
-$$x \le y \textrm{\; and \;} y \le x \;\;\implies\;\; x = y\,.
+$$x \le y \; \& \; y \le x \quad \implies \quad x = y\,.$$
 So, in a formally real Jordan algebra we can reasonably talk about one observable being 'greater' than another.
 
 In fact the Jordan identity $(x y) (x x) = x (y (x x)) $
@@ -94,9 +94,9 @@ Every finite-dimensional formally real Jordan algebra automatically has an ident
 
 Starting from a formally real Jordan algebra $J$, we get a self-dual convex homogeneous cone by taking $V = J$ and taking $C = \{x \in J: x \ge 0\}$.  As a basepoint we can take $p = 1$.  
 
-In quantum mechanics, the self-duality of the cone $C$ says that for a finite-dimensional algebra of observables, we can identify nonnegative observables with nonnegative linear functionals on the algebra of observables.  A nonnegative linear functional on the algebra of observables can be considered an 'unnormalized state', since a **state** is defined to be a linear functional 
-$$    \mu \maps J \to \mathbb{R} $$
-that is nonnegative ($x \ge 0 \implies \mu(x) \ge 0$) and normalized ($\mu(1) = 1$).  In short, Koecher's result sets up a close relation between states and observables for any form of quantum theory based on a finite-dimensional formally real Jordan algebra.
+The relation between (mixed) states and observables is well-known in traditional quantum mechanics: a self-adjoint $n \times n$ complex matrix can be regarded as an 'observable', but a nonnegative matrix of this form with trace equal to 1 is called a **density matrix** and describes a 'state' of the corresponding quantum system.    Koecher's result sets up a close relation between states and observables for any form of quantum theory based on a finite-dimensional formally real Jordan algebra.  In particular, the self-duality of the cone $C$ says that for a finite-dimensional algebra of observables, we can identify nonnegative observables with nonnegative linear functionals on the algebra of observables.  A nonnegative linear functional on the algebra of observables can be considered an 'unnormalized state', since a **state** is defined to be a linear functional 
+$$    \mu : J \to \mathbb{R} $$
+that is **nonnegative** ($x \ge 0 \Rightarrow \mu(x) \ge 0$) and **normalized** ($\mu(1) = 1$).   
 
 ## References
 
