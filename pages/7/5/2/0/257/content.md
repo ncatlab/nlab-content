@@ -195,7 +195,8 @@ A nice first introduction:
 Monographs: 
 
 * Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99))
-* Mark Hovey, _Model Categories_ ([Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+
+* [[Mark Hovey]], _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 See 
 
