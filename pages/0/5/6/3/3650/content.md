@@ -20,7 +20,7 @@ A [[geometric morphism]] is *locally connected* if it behaves as though its [[fi
 
 ## Definition
 
-A geometric morphism $F \underoverset{f_*}{f^*}{\leftrightarrows} E$ is **locally connected** if it satisfies the following equivalent conditions:
+A [[geometric morphism]] $ (f^* \dashv f_*) : F \underoverset{f_*}{f^*}{\leftrightarrows} E$ is **locally connected** if it satisfies the following equivalent conditions:
 
 1. It is [[essential geometric morphism|essential]], i.e. $f^*$ has a [[left adjoint]] $f_!$, and moreover $f_!$ can be made into an $E$-[[indexed functor]].
 
@@ -40,5 +40,9 @@ If $f$ is locally connected, then it makes sense to think of the left adjoint $f
 
 ## References
 
-* Section C3.3 of the [[Elephant]]
+Section C3.3 of
 
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+
+[[!redirects locally connected geometric morphisms]]
