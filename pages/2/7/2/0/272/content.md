@@ -1,8 +1,17 @@
-<div class="rightHandSide toc">
-[[!include physicscontents]]
-***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -15,7 +24,7 @@
 
 As such, the approach of AQFT is roughly dual to that of [[FQFT]], where instead _spaces of states_ are assigned to boundaries of [[cobordism]]s and propagation maps between state spaces to cobordisms themselves.
 
-One may roughly think of AQFT as being a formalization of what in basic [[quantum mechanics]] textbooks is called the **Heisenberg picture** of quantum mechanics. On the other hand [[FQFT]] axiomatizes the _Schr&ouml;dinger picture_ .
+One may roughly think of AQFT as being a formalization of what in basic [[quantum mechanics]] textbooks is called the **Heisenberg picture** of quantum mechanics. On the other hand [[FQFT]] axiomatizes the _Schr&#246;dinger picture_ .
 
 The axioms of traditional AQFT encode the properties of a [[local net]] of observables and are called the [[Haag-Kastler axioms]]. They are one of the oldest systems of axioms that seriously attempt to put [[quantum field theory]] on a solid conceptual footing. 
 
@@ -64,7 +73,7 @@ In the context of the Haag-Kastler axioms there is a precise theorem, the [[Oste
 
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
 
-* Hans Halvorson, Michael M&uuml;ger, _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
+* Hans Halvorson, Michael M&#252;ger, _Algebraic Quantum Field Theory_ ([arXiv](http://arxiv.org/abs/math-ph/0602036))
 
 This is, among other things, the ideal starting point for pure mathematicians who have always been left puzzled or otherwise unsatisfied by accounts of quantum field theory, even those tagged as being "for mathematicians". AQFT is truly axiomatic and rigorously formal. 
 
