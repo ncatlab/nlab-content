@@ -53,8 +53,9 @@
 
 * [[(∞,1)-geometric morphism]]
 
-* [[(∞,1)Toposes]]
+* [[(∞,1)Topos]]
 
+* [[Lawvere distribution]]
 
 ## Extra stuff, structure and property
 
@@ -100,7 +101,7 @@
 
 ## Constructions  ##
 
-**[[schreiber:structures in an (∞,1)-topos]]**
+**structures in a [[cohesive (∞,1)-topos]]**
 
 * [[shape of an (∞,1)-topos|shape]] / [[coshape of an (∞,1)-topos|coshape]]
 
@@ -110,7 +111,7 @@
 
   * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]/[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
-  * [[categorical homotopy groups in an (∞,1)-topos|categorical]]/[[geometric homotopy groups in an (∞,1)-topos|geometric]]
+  * [[categorical homotopy groups in an (∞,1)-topos|categorical]]/[[geometric homotopy groups in an (∞,1)-topos|geometric]] homotopy groups
 
   * [[Postnikov tower in an (∞,1)-category|Postnikov tower]]
 
