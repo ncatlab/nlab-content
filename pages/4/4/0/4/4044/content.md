@@ -8,7 +8,11 @@
   * [[Fréchet space|Fréchet Spaces]]
   * [[bornological vector space|Bornological Vector Spaces]]
   * [[barrelled topological vector space|Barrelled Vector Spaces]]
+
 * [[operator algebras]]
+  
+  * [[linear operator]] / [[bounded linear operator|bounded]], [[unbounded linear operator|unbounded]], [[self-adjoint operator|self-adjoint]]
+
 * [[spectral theory]]
 * Topics in Functional Analysis
   * [[basis in functional analysis|Bases]]
