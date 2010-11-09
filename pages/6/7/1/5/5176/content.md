@@ -35,7 +35,7 @@ $$
 +-- {: .un_defn}
 ###### Definition
 
-Let $C$ be a [[site]]. C **coshaef** on $C$ is a [[copresheaf]]
+Let $C$ be a [[site]]. A **cosheaf** on $C$ is a [[copresheaf]]
 
 $$
   F : C \to Set
