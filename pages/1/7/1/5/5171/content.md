@@ -1,4 +1,7 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition
 
@@ -16,6 +19,12 @@ For appropriate choices of dagger categories this restricts to various notions o
 * more generally, a **self adjoint [[linear operator]] on a [[Hilbert space]] is ..
 
 (...)
+
+## Related concepts
+
+* **seld-adjoint morphisms**
+
+* [[unitary morphism]]
 
 [[!redirects self-adjoint morphisms]]
 
