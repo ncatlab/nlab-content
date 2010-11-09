@@ -1,10 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
 #Contents
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-In functional analysis, a distribution (or generalized function) is a functional on a space of functions which typically is not representable by a function itself. They are often used to give a notion of derivative of a function which has no derivative in the classical sense of Lebesgue integration theory, and to give an abstract framework in which one can describe fundamental solutions to partial differential equations. 
+In [[functional analysis]], a _distribution_ (or generalized function) is a [[functional]] on a [[topological space|space]] of functions which typically is not representable by a function itself. They are often used to give a notion of derivative of a function which has no derivative in the classical sense of Lebesgue integration theory, and to give an abstract framework in which one can describe fundamental solutions to partial differential equations. 
 
 Generalized functions were introduced by Sobolev in 1935, and independently (under the name _distributions_) by Laurent Schwartz in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. 
 
@@ -177,7 +188,7 @@ A prototypical example of this is provided by the Heaviside function: $H(x) = 1$
 
 $$\langle f, d H \rangle = \int_{\mathbb{R}} f(x) d H(x) = f(0)$$ 
 
-As a distribution, the Heaviside measure is the famous **Dirac distribution**. The long-standing intuitive practice among physicists and engineers is to write 
+As a distribution, the Heaviside measure is the famous **[[Dirac distribution]]**. The long-standing intuitive practice among physicists and engineers is to write 
 
 $$d H(x) = \delta_0(x) d x$$ 
 
@@ -204,7 +215,9 @@ Within mathematics, distributions are quite commonplace; for example, de Rham ap
 
 A proof is given in these [notes](http://www-math.mit.edu/~helgason/hormander.pdf) by Helgason. The basic idea is to prove there exists a **fundamental solution** of $D$, i.e., a distribution $T$ such that $D T = \delta_0$. Then $u = f * T$ is smooth. The existence of a fundamental solution involves a theorem of Paley-Wiener type. 
 
-## In synthetic differential geometry 
+## Related concepts
+
+### In synthetic differential geometry 
 
 There is another point of view on distributions: that they _can_ be modeled by actual functions provided that one admits infinite and infinitesimal quantities of the type used in Robinson nonstandard analysis. One particular approach is to formulate axiomatically the theory of distributions so that it can be interpreted in [[smooth topos]]es that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object]]s and infinitely large integers.
 
@@ -214,7 +227,11 @@ This is discussed in chapter VII, section 3 of
 
 which closely mirrors the original treatment in Robinson's book Non-standard Analysis. Examples of models that support these axioms are the toposes $\mathcal{Z}$ and $\mathcal{B}$ described there. 
 
-## Generalizations and variants
+### Lawvere distributions
+
+See [[Lawvere distribution]].
+
+### Generalizations and variants
 
 In $\mathbb{R}^n$ the distributions and generalized functions boil down to the same thing, so the terminology identifies them. But on a manifold, the distributions/generalized densities (functionals on test functions) and generalized functions (functionals on test *densities*) do not agree. See V. Guillemin, S. Sternberg: _Geometric asymptotics_ ([free online](http://www.ams.org/online_bks/surv14)). While generalized functions pull back, distributions/generalized densities push forward (under some conditions, though). 
 
