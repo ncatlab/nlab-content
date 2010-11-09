@@ -68,6 +68,11 @@ This perspective on nonabelian cohomology is discussed for instance in
 
 * [[Bertrand Toen]], _Non-abelian cohomology_ ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html) [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps))
 
+## Properties
+
+### Postnikov decomposition and Whitehead principle
+
+In an [[(∞,1)-topos]] every object has a [[Postnikov tower in an (∞,1)-category]]. This means that in some sense general nonabelian cohomology can be decomposed into nonabelian cohomology in degree 1 and abelian cohomology in higher degrees, twisted by this nonabeloan cohomology. This has been called ([To&#235;n](#Toen)) the [[Whitehead principle of nonabelian cohomology]].
 
 ## Special cases
 
@@ -222,7 +227,8 @@ In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-ca
 
 A readable survey on nonabelian cohomology is
 
-* [[Bertrand Toen]], _Non-abelian cohomology_ ([pdf](http://www.math.univ-toulouse.fr/~toen/msri2002.pdf))
+* [[Bertrand Toën]], _Non-abelian cohomology_ ([pdf](http://www.math.univ-toulouse.fr/~toen/msri2002.pdf))
+{#Toen}
 
 A useful motivation is
 
