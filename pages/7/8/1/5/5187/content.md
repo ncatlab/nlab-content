@@ -10,8 +10,13 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
 =--
 =--
+=--
+
 
 
 #Context#
@@ -50,6 +55,11 @@ $$
 
 is the counit of the [[free functor|free]]/forgetful [[adjunction]] between operads and their underlying [[collection]]s and if $P$ is degreewise sufficiently nice, this factors that counit as a cofibration followed by a weak equivalence and exhibits $W(P)$ as a cofibrant [[resolution]] of $P$.
 
+## Examples
+
+* [[Jim Stasheff]]'s [[A-∞ operad]] is the relative Boardman-Vogt resolution $W([0,1], I_* \to Assoc)$ of [[Assoc]] in [[Top]] where $I_*$ is the operad for [[pointed object]]s [BergerMoerdijk](#BergerMoerdijkAlgebras).
+
+
 ## References
 
 The W-construction on topological operads is in
@@ -74,6 +84,9 @@ The generalization to [[operad]]s enriched in any monoidal category with a suita
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
 {#BergerMoerdijkResolution}
+
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
+{#BergerMoerdijkAlgebras}
 
 
 [[!redirects Boardman-Vogt resolutions]]
