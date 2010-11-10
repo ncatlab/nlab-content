@@ -31,6 +31,8 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 
 ## Related concepts
 
+* [[0-category]], [[(0,1)-category]]
+
 * [[category]]
 
 * [[2-category]]
@@ -38,6 +40,14 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 * **3-category**
 
 * [[n-category]]
+
+* [[(∞,0)-category]]
+
+* [[(∞,1)-category]]
+
+* [[(∞,2)-category]]
+
+* [[(∞,n)-category]]
 
 * [[(n,r)-category]]
 
