@@ -208,7 +208,7 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 **Observation** Let $D$ be any strict 2-catgeory. Then a [[pseudofunctor]] $C \to D$ is the same as a strict 2-functor $\hat C \to D$.
 
-## Related entries
+## 2-categorical concepts
 
 **types of morphisms**
 
@@ -224,7 +224,9 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 * globular [[strict 2-category]]
 * [[bicategory]]
 
-**Variants**
+## Related concepts
+
+* [[0-category]], [[(0,1)-category]]
 
 * [[category]]
 
@@ -234,9 +236,15 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 * [[n-category]]
 
+* [[(∞,0)-category]]
+
+* [[(∞,1)-category]]
+
+* [[(∞,2)-category]]
+
+* [[(∞,n)-category]]
+
 * [[(n,r)-category]]
-
-
 
 ## References
 
