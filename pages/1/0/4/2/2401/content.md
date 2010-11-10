@@ -104,16 +104,16 @@ Notice well the two assumptions that were made to make this argument work:
 
 
 
-## Related entries
+## Related entries and references
 
-* [[Hilbert scheme]]
+* [[Hilbert scheme]], [[Moduli Problems and DG-Lie Algebras]], 
+[[derived moduli space]]
 
 A bit of elementary exposition of these ideas is at 
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
 A blog discussion about the issue of classifying spaces versus moduli spaces is [here]() (where?)
-
 
 [[!redirects fine moduli space]]
 [[!redirects coarse moduli space]]
