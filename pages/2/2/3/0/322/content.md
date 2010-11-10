@@ -17,16 +17,30 @@
 * automatic table of contents goes here
 {:toc}
 
-## The idea 
+## Idea 
 
-An **operad** is a gadget used to describe algebraic structures in [[symmetric monoidal category|symmetric monoidal categories]].  An operad is like a [[Lawvere theory]] in that it can be used to describe structures having finitary operations obeying equational laws.  However, unlike Lawvere theories, operads can be applied to general symmetric monoidal categories where the tensor product might not be the cartesian product. 
+An **operad** is a gadget used to describe algebraic structures in [[symmetric monoidal category|symmetric monoidal categories]].  It is
 
+* a buch of abstract _operations_ of arbitrary many arguments;
 
-Actually the notion of operad (and allied notions such as [[PROP]], [[club]], [[multicategory]] and so on) come in many flavors. Originally used in algebraic topology to provide a systematic formalism for describing the internal operations which exist on iterated loop spaces, the basic idea is quite flexible and adaptable to many categorical situations, and the importance of operads continues to grow. 
+* equipped with a notion of how to compose these;
 
-## The rough definition 
+* subject to evident [[associativity]] and [[unitality]] conditions.
 
-The original definition is due to [[Peter May]] and was given in his book ([The Geometry of Iterated Loop Spaces](#May)). Since the detailed definition is available from many sources, we will just sketch May's definition; in the section following this, we give a more detailed higher-level description which generalizes in a number of directions. 
+An [[algebra over an operad]] is a concrete realization of these abstract operations: an [[object]] $A$ equipped with $n$-ary operations $A \otimes \cdots \otimes A \to A$ as specified by the operad, subject to the composition relation as specified by the operad.
+
+This way an operad is like a [[Lawvere theory]] in that it can be used to describe algebraic structures having finitary operations obeying equational laws.  However, unlike Lawvere theories, operads can be defined internal to general [[symmetric monoidal categories]] where the [[tensor product]] might not be the [[cartesian product]]. 
+
+The notion of operad (and allied notions such as [[PROP]], [[club]], [[multicategory]] and so on) come in many flavors. Originally used in [[algebraic topology]] to provide a systematic formalism for describing the internal operations which exist on iterated [[loop space]]s, the basic idea is quite flexible and adaptable to many categorical situations, and the importance of operads continues to grow. 
+
+## Definition in components
+
+The original definition is due to [[Peter May]] and was given in his book ([The Geometry of Iterated Loop Spaces](#May)). It describes an operad as a collection of operations equipped with a notion of composition and subject to various conditions. 
+
+This definition is essentially that of an [[enriched category]], only that the [[hom-object]]s are allowed to go from more than object to a given output object.
+
+There is a more abstract way to encode all this simply as a [[monoid]] in a suitable ambient [[monoidal category]]. This more abstract definition we discuss below in [A detailed conceptual treatment](#Conceptual).
+
 
 ### Plain operads {#PedestrianDefOperad}
 
@@ -39,7 +53,7 @@ Let $V$ be a [[symmetric monoidal category]]. A
 $$F(k) \otimes F(n_1) \otimes F(n_2) \otimes \cdots \otimes F(n_k) \to F(n_1 + \ldots + n_k)$$
 [which we think of as the result of plugging the outputs of operations $\theta_1, \ldots, \theta_k$ into a $k$-ary operation $\theta$, to produce a new operation $\theta \circ (\theta_1 \otimes \ldots \otimes \theta_k)$]. 
 
-These data are subject to obvious identities such as associativity of composition, unit laws, and compatibility of composition with symmetric group actions. For example, the unit laws say that the evident composite 
+These data are subject to obvious identities such as [[associativity]] and [[unitality]] of composition, and compatibility of composition with symmetric group actions. For example, the unit laws say that the evident composite 
 
 $$F(n) \cong I \otimes F(n) \stackrel{e \otimes 1}{\to} F(1) \otimes F(n) \stackrel{comp}{\to} F(n)$$ 
 
@@ -94,7 +108,7 @@ Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** i
 
   * the $\sigma$s form a [[representation]] of $\Sigma_n$;
 
-  * the composition operation is satisfies [[associativity]] and [[unitality]] in the obvious way;
+  * the composition operation satisfies [[associativity]] and [[unitality]] in the obvious way;
 
   * and is $\Sigma_n$ equivariant in the evident way.
 
@@ -139,9 +153,10 @@ A closely related way of defining an $F$-algebra is via the monad attached to an
 
 Note that this definition still makes sense when $v$ lives in any symmetric monoidal $V$-[[enriched category]], not only $V$ itself.
 
-## A detailed conceptual treatment 
 
-We describe here a compact one-sentence definition of operad first worked out by G.M. Kelly, after a few preliminaries which are important in their own right. The treatment is essentially an exercise in [[enriched category theory]] and the formalism of [[Day convolution]]. We will work this out fully in the case of ordinary [[category theory]] first, that is for categories [[enriched category|enriched in]] $V = Set$; the case for categories enriched in a complete, cocomplete, [[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] $V$ is completely parallel. 
+## A detailed conceptual treatment {#Conceptual}
+
+We describe here a compact one-sentence definition of operad first worked out by [[Max Kelly]], after a few preliminaries which are important in their own right. The treatment is essentially an exercise in [[enriched category theory]] and the formalism of [[Day convolution]]. We will work this out fully in the case of ordinary [[category theory]] first, that is for categories [[enriched category|enriched in]] $V = Set$; the case for categories enriched in a complete, cocomplete, [[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] $V$ is completely parallel. 
 
 ### Preparation 
 
