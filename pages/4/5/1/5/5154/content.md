@@ -132,76 +132,21 @@ there is a coalgebra interval.
 
 If $\mathcal{E}$ has a [[symmetric monoidal functor|symmetric monoidal]] fibrant replacement functor and a coalgebra [[interval object]] $H$ then every non-symmetric [[coloured operad]] in $\mathcal{E}$ is [admissible](#admissible) -- the transfered model structure on algebras exists.
 
-If the interval is moreover cocommutative, then the same is true for every symmetric colured operad.
+If the interval is moreover cocommutative, then the same is true for every symmetric coloured operad.
 
 =--
 
-This is [BergerMoerdijk, theorem 2.1](#BergerMoerdisk), following ([BergerMoerdijk-Homotopy, theorem 3.2](#BergerMoerdijkHomotopy)). For more details see [[model structure on operads]].
+This is [BergerMoerdijk, theorem 2.1](#BergerMoerdiskAlgebras), following ([BergerMoerdijk-Homotopy, theorem 3.2](#BergerMoerdijkHomotopy)). For more details see [[model structure on operads]].
 
 
-### Resolutions
-
-We now discuss the construction and properties of cofibrant [[resolution]]s of operads and their algebras.
-
-+-- {: .un_remark}
-###### Remark
-
-The category of $C$-coloured operads is itself the category of algebras over a non-symmetric operad. See [[coloured operad]] for more. Thus the above theorem procides conditions under which $C$-coloured operads carry a model structure in which fibrations and weak equivalences are those morphisms of operads $P \to Q$ that are  degreewise fibrations and weak equivalences in $\mathcal{E}$.
-
-=--
-
-+-- {: .un_def}
-###### Terminology
-
-We shall from now on call an operad $P$ **cofibrant** if the morphism $I_C \to P$ from the initial $C$-[[coloured operad]] has the [[left lifting property]] against degreewise acyclic fibrations of operads (irrespective of whether the above conditions for the existence of the model structure hold).
-
-=--
-
-
-
-+-- {: .un_theorem}
-###### Theorem
-
-The [[forgetful functor]] from $C$-colored operads to pointed $C$-colored collections has a [[left adjoint]]
-
-$$
-  (F^*_C \dashv U_C)
-  :
-  Oper_C(\mathcal{E})
-  \stackrel{\leftarrow}{\to}
-  Coll_C^*(\mathcal{E})  
-  \,.
-$$
-
-=--
-
-This is  ([BergerMoerdijk, theorem 3.2](#BergerMoerdijk)).
-
-
-+-- {: .un_theorem}
-###### Theorem
-
-For each well-pointed  $\Sigma$-cofibrant $C$-coloured operad $P$, the $(F^*_C \ashv U_C)$-counit factors as a cofibration followed by a weak equivalence
-
-$$
-  F_C^*(P) \hookrightarrow W(H,P) \stackrel{\simeq}{\to} P
-$$
-
-of $C$-coloured operads, [[natural transformation|naturally]] in $P$ and $H$.
-
-If $P \to Q$ is a $\Sigma$-cofibration between well-pointed $\Sigma$-cofibrant $C$-coloured operads, then the induced map $W(H,P) \to W(H,Q)$ is a cofibration of cofibrant $C$-coloured operads.
-
-=--
-
-This is  ([BergerMoerdijk, theorem 3.5](#BergerMoerdijk)).
-
-Here $W(H,P)$ is also called the **coloured Boardman-Vogt resolution** of $P$.
-
-An [[algebra over an operad]] over $W(H,P)$ is called a **$P$-algebra up to homotopy**.
 
 ### Rectificaction of algebras
 
+Recall the notion of resolutions of operads and of the _Boardman-Vogt resolution_ $W(H,P)$ from [[model structure on operads]].
+
 We now discuss conditions under which model categories of algebras over a resolved operad is Quillen equivalent to that over the original operad.
+
+
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -221,7 +166,7 @@ is a [[Quillen equivalence]].
 
 =--
 
-This is  ([BergerMoerdijk, theorem 4.1](#BergerMoerdijk)).
+This is  ([BergerMoerdijk, theorem 4.1](#BergerMoerdijkAlgebras)).
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -271,11 +216,12 @@ is a [[Quillen equivalence]].
 
 ## References
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
-{#BergerMoerdijk}
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831.
 {#BergerMoerdijkHomotopy}
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849.
 {#BergerMoerdijkResolution}
+
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
+{#BergerMoerdijkAlgebras}
