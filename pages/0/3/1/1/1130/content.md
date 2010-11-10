@@ -191,16 +191,13 @@ A _$(p,q)$-[[shuffle]]_ $\sigma$ is a permutation of $\{1, \ldots, p+q\}$ such t
 
 $$\sigma(i) \lt \sigma(j) \quad if \quad 1\leq i\lt j\leq p \quad or \quad p+1 \leq i \lt j\leq p+q.$$
 
-+-- {:comment}
-[[Tim Porter|Tim]]:  I mean to put in a lot more on shuffles, but not here.
-=--
 
 
 #### The pre-cgc structure on $\bigwedge V$
 
 We will denote $\bigwedge' V$, the gvs $\bigwedge V$ together with the coalgebra structure in which the reduced diagonal is given by 
 
-$$\bar{\Delta}(v_1\wedge \ldots \wedge v_n) = \sum_{p=1}^{n-1} \sum_\sigma\varepsilon{\sigma}(v_{\sigma(1)}\wedge \ldots \wedge v_{\sigma(p)})\otimes(v_{\sigma(p+1)}\wedge \ldots \wedge v_{\sigma(n)}),$$
+$$\bar{\Delta}(v_1\wedge \ldots \wedge v_n) = \sum_{p=1}^{n-1} \sum_\sigma\varepsilon(\sigma)(v_{\sigma(1)}\wedge \ldots \wedge v_{\sigma(p)})\otimes(v_{\sigma(p+1)}\wedge \ldots \wedge v_{\sigma(n)}),$$
 
 in which the second sum is over all $(p,n-p)$-shuffles and $\varepsilon(\sigma)$ is the Koszul sign of $\sigma$.
 
