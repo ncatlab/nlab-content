@@ -201,7 +201,7 @@ Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/20
 
 The proof that open star-shaped regions are diffeomorphic to a ball appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) 
 
-* [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
+* [[Dirk Ferus]], _Analysis III_ (2007) ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf)) 
 {#Ferus}
 
 It is a lengthy proof, due to Stefan Born. 
