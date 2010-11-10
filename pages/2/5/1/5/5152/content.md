@@ -62,15 +62,18 @@ We thus have that these are the product preserving functors $\Lambda : \Pi_\math
 
 *  Such a $\Pi_\mathcal{A}$-algebra, $\Lambda$, is determined by its values $\Lambda(A)\in Set_*$ for $A$ in $\mathcal{A}$, together with, for every $\xi : A \to \bigsqcup_{i\in I}A_i$ in $\Pi_\mathcal{A}$, a map
 
-$$\xi^* : \Prod \Lambda(A_i)\to \Lambda(A).$$
+$$\xi^* : \prod \Lambda(A_i)\to \Lambda(A).$$
 
 * The object $A$ being a (homotopy) cogroup, $\Lambda(A)$ is a group (but beware the $\xi^*$ need not be group homomorphisms).
+
+###Example
+If $X$ is in $\mathcal{C}$, define $\pi_\mathcal{A}(X):= [-,X]_{Ho(\mathcal{C})} : \Pi_{\mathcal{A}}^{op}\to Set_*$.  This is the **homotopy $\Pi_{\mathcal{A}}$-algebra** of $X$.  As with $\Pi$-[[Pi-algebra|algebras]], there is a _realisablity problem_, i.e., given $\Lambda$, find a $X$ and an isomorphism, $\pi_\mathcal{A}(X)\cong \Lambda$.  The realisability problem is discussed in Baues-Blanc (2010) (see below).
 
 ##References
 
 Spherical objects are considered in 
 
-*  [[Hans-Joachim Baues]] and [[David Blanc]], Comparing cohomology obstructions, [Arxiv](http://arxiv.org/PS_cache/arxiv/pdf/1008/1008.1712v1.pdf) (to appear JPAA).
+*  [[Hans-Joachim Baues]] and [[David Blanc]], Comparing cohomology obstructions, (2010), [Arxiv](http://arxiv.org/PS_cache/arxiv/pdf/1008/1008.1712v1.pdf) (to appear JPAA).
 
 Examples are given in earlier work by Baues and by Blanc. 
 
