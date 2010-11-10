@@ -45,7 +45,7 @@ By a  **family of spherical objects** for $\mathcal{C}$ is meant a collection of
 =--
 
 
-##$\Pi_\mathcal{A}$
+##The theory, $\Pi_\mathcal{A}$
 
 Let $\mathcal{A}$ be such a family of spherical objects. Let $\Pi_\mathcal{A}$ denote the full subcategory of $Ho(\mathcal{C})$, whose objects are the finite coproducts of objects from $\mathcal{A}$.
 
@@ -58,7 +58,13 @@ Of course, $\Pi_\mathcal{A}$ is a _finite product theory_ in the sense of [[alge
 ##$\Pi_\mathcal{A}$-algebras
 We thus have that these are the product preserving functors $\Lambda : \Pi_\mathcal{A}^{op}\to Set_*$.  Morphisms of $\Pi_\mathcal{A}$-algebras are simply the natural transformations.  This gives a category $\Pi_\mathcal{A}-Alg$.
 
+###Properties
 
+*  Such a $\Pi_\mathcal{A}$-algebra, $\Lambda$, is determined by its values $\Lambda(A)\in Set_*$ for $A$ in $\mathcal{A}$, together with, for every $\xi : A \to \bigsqcup_{i\in I}A_i$ in $\Pi_\mathcal{A}$, a map
+
+$$\xi^* : \Prod \Lambda(A_i)\to \Lambda(A).$$
+
+* The object $A$ being a (homotopy) cogroup, $\Lambda(A)$ is a group (but beware the $\xi^*$ need not be group homomorphisms).
 
 ##References
 
@@ -75,3 +81,8 @@ The group action case is in
 The example from [[proper homotopy theory]] is discussed in
 
 * H.-J. Baues and  Antonio Quintero, _Infinite Homotopy Theory_,  K-monographs in mathematics, Volume 6, Kluwer, 2001.
+
+
+[[!redirects spherical object and Pi(A)-algebra]]
+[[!redirects spherical objects and Pi(A)-algebra]]
+[[!redirects spherical objects and Pi(A)-algebras]]
