@@ -36,44 +36,34 @@ such that
 
 * the tensor unit $I$ is cofibrant.
 
-(...)
+=--
 
-A cocommutative coalgebra [[interval object]] $H\in \mathcal{E}$ is
++-- {: .un_prop}
+###### Proposition
+
+Under these conditions there is for each [[finite group]] $G$ the structure of a [[monoidal model category]] on the category $\mathcal{E}^{\mathbf{B}G}$ of objects in $\mathcal{E}$ equipped with a $G$-[[action]], for which the [[forgetful functor]]
 
 $$
-  \nabla : I \coprod I \hookrightarrow H \to I
+  \mathcal{E}^{\mathbf{B}G} \to \mathcal{E}
 $$
 
-
-(...)
-
-=--
-
-We need the following standard definitions from ordinary [[operad]] theory.
-
-+-- {: .un_def}
-###### Definition
-
-Let $C$ be a [[set]]. A **$C$-[[coloured operad]]** $P$ in $\mathcal{E}$ is
-
-(...).
-
+preserves and reflects fibrations and weak equivalences.
 
 =--
 
-+-- {: .un_def}
+This is discussed in the examples at [[monoidal model category]].
+
+For $C \in $ [[Set]] a set of colours and $P$ a $C$-[[coloured operad]] in $\mathcal{E}$ we write $Alg_{\mathcal{E}}(P)$ for the category of $P$-[[algebras over an operad]]. There is a [[forgetful functor]]
+
+$$
+  U_P : Alg_{\mathcal{E}}(P) \to \mathcal{E}^C
+  \,.
+$$
+
++-- {: .un_def #admissible}
 ###### Definition
 
-For $P$ a $C$-colored operad, a **$P$-algebra** is (...)
-
-We write $Alg_{\mathcal{E}}(P)$ for the category of $P$-algebras.
-
-=--
-
-+-- {: .un_def}
-###### Definition
-
-A $C$ coloured operad $P$ is called **admissible** if the [[transferred model structure]] along the [[forgetful functor]]
+A $C$ coloured operad $P$ is called **admissible** if the [[transferred model structure]] on $Alg_{\mathcal{E}}(P)$ along the [[forgetful functor]]
 
 $$
   U_P : Alg_{\mathcal{E}}(P)
@@ -84,17 +74,65 @@ exists.
 
 =--
 
+
+
+
+
+
 ## Properties
+
+
++-- {: .un_def}
+###### Definition
+
+
+A **cocommutative coalgebra [[interval object]]** $H\in \mathcal{E}$ is
+
+* a cocommutative counittal [[comonoid]] in $\mathcal{E}$
+
+* equipped with a factorization
+
+  $$
+    \nabla : I \coprod I \hookrightarrow H \to I
+  $$
+
+  of the [[codiagonal]] on $I$ into two [[homomorphism]]s of comonoids with the first a cofibration and the second a weak equivalence in $\mathcal{E}$.
+
+
+=--
+
+
++-- {: .un_example}
+###### Examples
+
+Such cocommutative coalgebra inrvals exist in
+
+* the [[model structure on topological spaces|model structure on compactly generated topological spaces]];
+
+* the [[model structure on simplicial sets]];
+
+* the [[model structure on symmetric spectra]].
+
+In
+
+* the [[model structure on chain complexes]] 
+
+there is a coalgebra interval.
+
+=--
+
 
 
 +-- {: .un_theorem}
 ###### Theorem
 
-If $\mathcal{E}$ has a [[symmetric monoidal functor|symmetric monoidal]] fibrant replacement functor and a coalgebra [[interval object]] $H$ then every non-symmetric coloured operad in $\mathcal{E}$ is admissible.
+If $\mathcal{E}$ has a [[symmetric monoidal functor|symmetric monoidal]] fibrant replacement functor and a coalgebra [[interval object]] $H$ then every non-symmetric [[coloured operad]] in $\mathcal{E}$ is [admissible](#admissible) -- the transfered model structure on algebras exists.
 
-If the interval is moreover commutative, then the same is true for every symmetric colured operad.
+If the interval is moreover cocommutative, then the same is true for every symmetric colured operad.
 
 =--
+
+This is [BergerMoerdijk, theorem 2.1](#BergerMoerdisk).
 
 
 +-- {: .un_theorem}
@@ -208,3 +246,7 @@ is a [[Quillen equivalence]].
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijk}
+
+
+* [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849.
+{#BergerMoerdijkResolution}
