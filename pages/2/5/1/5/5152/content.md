@@ -1,3 +1,4 @@
+[[!redirects spherical object]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,7 +17,7 @@
 
 Spherical objects in a general [[pointed category|pointed]]  [[model category]] play the role of the spheres in $Top$.
 
-
+##Spherical objects
 Let $\mathcal{C}$ be a [[pointed category|pointed]] [[model category]].
 +--
 {: .un_defn}
@@ -24,7 +25,7 @@ Let $\mathcal{C}$ be a [[pointed category|pointed]] [[model category]].
 A **spherical object** for $\mathcal{C}$ is a [[model category|cofibrant]] homotopy [[cogroup]] in $\mathcal{C}$.
 =--
 
-##Examples
+###Examples
 
 1. The spheres form the obvious examples of spherical objects in the category $Top$, but the rational spheres give other examples.
 
@@ -40,8 +41,25 @@ For instance, take $T = \mathbb{R}_{\geq 0}$, made up of an infinite number of c
 +--
 {: .un_defn}
 ######Definition######
-By a  **family of spherical objects** for $\mathcal{C}$ is meant .
+By a  **family of spherical objects** for $\mathcal{C}$ is meant a collection of spherical objects in $\mathcal{C}$ closed under suspension.
 =--
+
+
+##$\Pi_\mathcal{A}$
+
+Let $\mathcal{A}$ be such a family of spherical objects. Let $\Pi_\mathcal{A}$ denote the full subcategory of $Ho(\mathcal{C})$, whose objects are the finite coproducts of objects from $\mathcal{A}$.
+
+###Example
+
+For $\mathcal{A} = \{S^n\}^\infty_{n=1}$ in $Top$, $\Pi_\mathcal{A} = \Pi$, the [[algebraic theory|theory]] of [[Pi-algebras]].
+
+Of course, $\Pi_\mathcal{A}$ is a _finite product theory_ in the sense of [[algebraic theories]], and the corresponding models/algebras/modules are called:
+
+##$\Pi_\mathcal{A}$-algebras
+We thus have that these are the product preserving functors $\Lambda : \Pi_\mathcal{A}^{op}\to Set_*$.  Morphisms of $\Pi_\mathcal{A}$-algebras are simply the natural transformations.  This gives a category $\Pi_\mathcal{A}-Alg$.
+
+
+
 ##References
 
 Spherical objects are considered in 
