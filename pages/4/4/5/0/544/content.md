@@ -23,7 +23,7 @@ $$
   D : T^c V \to T^c V
 $$
 
-on the reduced tensor coalgebra $T^c V = \oplus_{n\geq 1} V^{\otimes n}$ over a graded vector space $V$ (the coproduct is the _shuffle_ product) such that 
+on the reduced tensor coalgebra $T^c V = \oplus_{n\geq 1} V^{\otimes n}$ over a graded vector space $V$ (the coproduct is the _[[unshuffle]]_ product) such that 
 $$
   D^2 = 0
   \,.
