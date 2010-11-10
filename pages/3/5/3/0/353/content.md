@@ -16,7 +16,7 @@ $n$-categories are the main subject of [[higher category theory]], and give the 
 * automatic toc goes here
 {:toc}
 
-#Idea#
+## Idea
 
 An $n$-category is an [[∞-category]] such that all $(n+1)$-morphisms are [[equivalence]]s, and all parallel pairs of $j$-morphisms are equivalent for $j > n$. (One says that the $\infty$-category is _trivial_ in degree greater than $n$.) This is the same thing as an $(n,n)$-category in the sense of $(n,r)$-[[(n,r)-category|categories]].
 
@@ -24,7 +24,7 @@ Up to equivalence, you may assume that all equivalent pairs of $j$-morphisms for
 
 On the $n$Lab, the term "$n$-category" usually means a *weak* $n$-category, in which the compositions of cells obeys the usual associativity, unit, and exchange laws only up to coherent [[equivalence]].  This sort of $n$-category is somewhat tricky to define; there are a number of proposals, not yet shown to be equivalent.  By contrast, [[strict n-categories]] are easy to define, but are not sufficient for most examples when $n\ge 3$ (see [[semistrict n-category]]).
 
-#Examples#
+## Examples
 
 * A $0$-category is a [[set]].
 
@@ -34,7 +34,7 @@ On the $n$Lab, the term "$n$-category" usually means a *weak* $n$-category, in w
 
 One also speaks of $(-1)$-[[(-1)-category|categories]] and $(-2)$-[[(-2)-category|categories]], but these concepts are not as well behaved.
 
-# Categories of $n$-categories #
+## Categories of $n$-categories 
 
 Just as the collection of all ([[small category|small]]) sets is the prototypical example of a category, so the collection of all small $n$-categories is the prototypical example of an $(n+1)$-category.
 
@@ -51,11 +51,11 @@ This is a convenient way to settle size questions once and for all for finite $n
 
 For more, see the discussion at [sci.logic](http://groups.google.com/group/sci.logic/browse_thread/thread/6891c85c2d9b2caf).
 
-# Definitions {#defn}
+## Definitions {#defn}
 
 Here is a list of (some of) the proposed definitions of (weak) $n$-category, with references, and also a list of (some of) the comparisons that have been done.
 
-## List of definitions
+### List of definitions
 
 Many of these definitions are actually "truncations" of definitions of (weak) [[∞-categories]] (aka [[∞-categories]]).  Some others are truncations of a definition of [[(∞,n)-categories]].  A nice overview of (many) of these can be found in Tom Leinster's paper "A survey of definitions of $n$-category."
 
@@ -92,7 +92,7 @@ Someone should add some more references!
 * [[Georges Maltsiniotis|G. Maltsiniotis]] has apparently extracted a definition of $\infty$-groupoid from [[Pursuing Stacks]] and generalized it to a definition of $\infty$-category; see [this](http://people.math.jussieu.fr/~maltsin/ps/infgrart.pdf) and [this](http://people.math.jussieu.fr/~maltsin/ps/infctart.pdf).
 
 
-## Comparisons
+### Comparisons
 
 * All definitions produce the correct well-known notion of [[1-category]], up to minor inessential details.
 
@@ -116,7 +116,7 @@ Please add any other comparisons you are aware of!
 
 ## Related concepts
 
-* [[0-category]], [[0,1]-category]], [[Set]]
+* [[0-category]], [[(0,1)-category]], [[Set]]
 
 * [[category]]
 
@@ -127,6 +127,12 @@ Please add any other comparisons you are aware of!
 * [[4-category]], [[tetracategory]]
 
 * **$n$-category**
+
+* [[(∞,1)-category]]
+
+* [[(∞,2)-category]]
+
+* [[(∞,n)-category]]
 
 * [[(n,r)-category]]
 
