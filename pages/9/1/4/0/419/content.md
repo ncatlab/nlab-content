@@ -54,12 +54,57 @@ The central fact about a monoidal model category is that its homotopy category i
 
 * Any of many modern model categories of [[spectrum|spectra]].  The standard example of a monoidal model category whose unit is not cofibrant is the category of EKMM S-modules.
 
+### Model structure on $G$-objects
+
++-- {: .un_def}
+###### Assumption
+
+Let $\mathcal{E}$ be a [[category]] equipped with the structure of
+
+* a [[closed monoidal category|closed]] [[symmetric monoidal category]];
+
+* a [[monoidal model category]];
+
+such that
+
+* the model structure is [[cofibrantly generated model category|cofibrantly generated]];
+
+* the tensor unit $I$ is cofibrant.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Under these conditions there is for each [[finite group]] $G$ the structure of a [[monoidal model category]] on the category $\mathcal{E}^{\mathbf{B}G}$ of objects in $\mathcal{E}$ equipped with a $G$-[[action]], for which the [[forgetful functor]]
+
+$$
+  \mathcal{E}^{\mathbf{B}G} \to \mathcal{E}
+$$
+
+preserves and reflects fibrations and weak equivalences.
+
+=--
+
+
+See for instance ([BergerMoerdijk 2.5](#BergerMoerdijkResolution)).
+
+
+
 ## Related concepts
 
 * [[monoidal Quillen adjunction]]
 
 ## References 
 
+A general standard reference is
+
 * [[Mark Hovey]], _Model Categories_
+
+
+The monoidal model structure on $\mathcal{E}^{\mathbf{B}G}$ is discussed for insztance in
+
+* [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849.
+{#BergerMoerdijkResolution}
 
 [[!redirects monoidal model categories]]
