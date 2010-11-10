@@ -9,13 +9,7 @@
 =--
 =--
 
-* **automorphism group**
 
-* [[automorphism 2-group]]
-
-* [[automorphism ∞-group]]
-
-***
 
 
 #Contents#
@@ -36,11 +30,14 @@ $$
 ,$$
 which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivalence, every group is an automorphism group; see [[delooping]].
 
-## In higher category theory
+## Related concepts
 
-In [[higher category theory]] the notion of automorphism generalizes. See
+* **automorphism group**
 
-* [[automorphism  ∞-group]].
+* [[automorphism 2-group]]
+
+* [[automorphism ∞-group]]
+
 
 
 [[!redirects automorphisms]]
