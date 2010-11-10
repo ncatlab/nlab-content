@@ -207,8 +207,12 @@ A systematic study of [[model category]] structures on operads and their algebra
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831.
 {#BergerMoerdijkHomotopy}
 
+An explicit construction of cofibrant resolution in this model structure and its relation to the original constructon by Boardman and Vogt is in
+
 * [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
 {#BergerMoerdijkResolution}
+
+The induced model structures and their properties on [[algebras over operads]] are discussed in
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijkAlgebras}
