@@ -82,6 +82,10 @@ exists.
 ## Properties
 
 
+### Existence by coalgebra intervals
+
+The above model transferred model structure on algebras over an operad exists if there is a suitable [[interval object]] in $\mathcal{E}$.
+
 +-- {: .un_def}
 ###### Definition
 
@@ -132,12 +136,31 @@ If the interval is moreover cocommutative, then the same is true for every symme
 
 =--
 
-This is [BergerMoerdijk, theorem 2.1](#BergerMoerdisk).
+This is [BergerMoerdijk, theorem 2.1](#BergerMoerdisk), following ([BergerMoerdijk-Homotopy, theorem 3.2](#BergerMoerdijkHomotopy)). For more details see [[model structure on operads]].
+
+
+### Resolutions
+
+We now discuss the construction and properties of cofibrant [[resolution]]s of operads and their algebras.
+
++-- {: .un_remark}
+###### Remark
+
+The category of $C$-coloured operads is itself the category of algebras over a non-symmetric operad. See [[coloured operad]] for more. Thus the above theorem procides conditions under which $C$-coloured operads carry a model structure in which fibrations and weak equivalences are those morphisms of operads $P \to Q$ that are  degreewise fibrations and weak equivalences in $\mathcal{E}$.
+
+=--
+
++-- {: .un_def}
+###### Terminology
+
+We shall from now on call an operad $P$ **cofibrant** if the morphism $I_C \to P$ from the initial $C$-[[coloured operad]] has the [[left lifting property]] against degreewise acyclic fibrations of operads (irrespective of whether the above conditions for the existence of the model structure hold).
+
+=--
+
 
 
 +-- {: .un_theorem}
 ###### Theorem
-
 
 The [[forgetful functor]] from $C$-colored operads to pointed $C$-colored collections has a [[left adjoint]]
 
@@ -175,6 +198,10 @@ This is  ([BergerMoerdijk, theorem 3.5](#BergerMoerdijk)).
 Here $W(H,P)$ is also called the **coloured Boardman-Vogt resolution** of $P$.
 
 An [[algebra over an operad]] over $W(H,P)$ is called a **$P$-algebra up to homotopy**.
+
+### Rectificaction of algebras
+
+We now discuss conditions under which model categories of algebras over a resolved operad is Quillen equivalent to that over the original operad.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -247,6 +274,8 @@ is a [[Quillen equivalence]].
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijk}
 
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831.
+{#BergerMoerdijkHomotopy}
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849.
 {#BergerMoerdijkResolution}
