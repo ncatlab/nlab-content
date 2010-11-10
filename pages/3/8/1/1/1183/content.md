@@ -1,7 +1,18 @@
-<div class="rightHandSide toc">
-[[!include physicscontents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Phyiscs
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
 # Contents
 * automatic table of contents goes here
@@ -27,7 +38,9 @@ These cases describe non-topological quantum field theories. Here the formalizat
 
 ### Non-topological $\sigma$-models 
 
-* The canonical textbook example of a quantum mechanical system is of this form for $n=1$: A line [[vector bundle|bundle]] with [[connection on a bundle|connection]] $E \to X$ on a [[Riemannian manifold]] $X$ induces the 1-dimensional [[quantum field theory]] which is the quantum mechanics of a point particle which propagates on $X$, subject to the forces of gravitation (given by the metric on $X$) and [[electromagnetism]] (given by the line bundle with connection). The [[Hamilton operator]] encoding this quantum dynamics in this case is the Laplace-operator of $T X$ twisted by the line bundle $E$.
+* The canonical textbook example of a quantum mechanical system is of this form for $n=1$: A line [[vector bundle|bundle]] with [[connection on a bundle|connection]] $E \to X$ on a ([[pseudo-Riemannian manifold|pseudo-]])[[Riemannian manifold]] $X$ induces the 1-dimensional [[quantum field theory]] which is the quantum mechanics of a point particle which propagates on $X$, subject to the forces of [[gravity]] (given by the [[pseudo-Riemannian metric]] on $X$) and [[electromagnetism]] (given by the line bundle with connection). The [[Hamilton operator]] encoding this quantum dynamics in this case is the Laplace-operator of $T X$ twisted by the line bundle $E$.
+
+  For $X$ a [[spacetime]] this is called the [[relativistic particle]].
 
 * Generalizing in the above example the line bundle $E$ by an abelian [[bundle gerbe]] with a connection yields a background for a 2-dimensional $\sigma$-model which mayb be thought of as describing the propgation of a [[string theory|string]].  The best-studied version of this is the case where $X = G$ is a [[Lie group]], in which case this $\sigma$-model is known as the _Wess--Zumino--Witten model_.
 
