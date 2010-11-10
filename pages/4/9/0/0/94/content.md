@@ -43,7 +43,7 @@ $$
 of degree -1, that satisfy a generalized Jacobi identity of the form
 
 $$
-  \sum_{i+j = n} \sum_{unshuffles \sigma}
+  \sum_{i+j = n} \sum_{\sigma \in Shuff(i,j)}
   \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)}
    , v_{\sigma(j+1) , \cdots , v_{\sigma(n)}}
   ) )
@@ -51,8 +51,7 @@ $$
   \,,
 $$
 
-for all elements $(v_i) \in V^{\otimes n}$, 
-where the sign "$\pm$" depends on the signature of the un[[shuffle]] permutation $\sigma$.
+for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[shuffle]]s $\sigma$.
 
 Notably for $n = 4$ this says that the binary bracket $l_2 = [-,-]$, the trinary bracket $l_3 = [-,-,-]$ and the unary "bracket" $l_1$ are related by
 
