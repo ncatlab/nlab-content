@@ -44,8 +44,8 @@ of degree -1, that satisfy a generalized Jacobi identity of the form
 
 $$
   \sum_{i+j = n} \sum_{\sigma \in Shuff(i,j)}
-  \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)}
-   , v_{\sigma(j+1) , \cdots , v_{\sigma(n)}}
+  \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)})
+   , v_{\sigma(j+1)} , \cdots , v_{\sigma(n)}
   ) )
   = 0
   \,,
@@ -69,7 +69,7 @@ $$
 
 If the right hand side were 0, this would be the Jacobi identity of an ordinary [[Lie algebra]] (or [[super Lie algebra]], rather). So the image under $l_1$ of the trinary bracket $[-,-,-]$ in the $L_\infty$-algebra is a measure for how the ordinary Jacobi identity _fails_ in an $L_\infty$-algebra.
 
-But the point is that it does not _just_ fail: it fails by the speccific homtopy expressed by $l_3$, and this homotopy itself is _coherent_, in that it satisfies suitable relatoins itself, obtained by evaluating the above sum expression for $n \gt 4$.
+But the point is that it does not _just_ fail: it fails by the specific homotopy expressed by $l_3$, and this homotopy itself is _coherent_, in that it satisfies suitable relatins itself, obtained by evaluating the above sum expression for $n \gt 4$.
 
 ### Reformulation in terms of semifree differential coalgebra ###
 
