@@ -100,7 +100,7 @@ We now discuss the construction and properties of cofibrant [[resolution]]s of o
 
 > (assumptions now as at [[model structure on algebras over an operad]])
 
-First we describe _free_ operads, and then _Boardman-Vogt resolutions_ of operads, obtained from the construction of the free ones by adding labels for _lengths_ in an [[interval object]]
+First we describe _free_ operads, and then _[[Boardman-Vogt resolution]]s_ of operads, obtained from the construction of the free ones by adding labels for _lengths_ in an [[interval object]]
  
 +-- {: .un_remark}
 ###### Remark
@@ -207,7 +207,7 @@ A systematic study of [[model category]] structures on operads and their algebra
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831.
 {#BergerMoerdijkHomotopy}
 
-An explicit construction of cofibrant resolution in this model structure and its relation to the original constructon by Boardman and Vogt is in
+An explicit construction of cofibrant resolution in this model structure and its relation to the original constructon of the [[Boardman-Vogt resolution]] is in
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
 {#BergerMoerdijkResolution}
