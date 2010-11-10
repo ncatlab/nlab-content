@@ -45,11 +45,11 @@ A cocommutative (resp. commutative) dgha $A$ is _$n$-connected_ if $\bar{A}_p = 
 
 ###Shuffle product on $T(V)$
 
-Let $V$ be a pre-gvs.  The gvs $T(V)$ is a pre-cga for the shuffle product defined by
+Let $V$ be a pre-gvs.  The gvs $T(V)$ is a pre-cga for the [[shuffle]] product defined by
 
 $$(v_1\otimes \ldots \otimes v_p)\star (v_{p+1}\otimes\ldots \otimes v_n) = \sum_\sigma \varepsilon(\sigma)v_{\sigma^{-1}(1)}\otimes\ldots \otimes v_{\sigma^{-1}(n)},$$
 
-where the sum is over all $(p,n-p)$ shuffles, $\varepsilon(\sigma)$ is the Koszul sign of $\sigma$  and the elements $v_i$ of $V$ are all homogeneous.
+where the sum is over all $(p,n-p)$ [[shuffles]], $\varepsilon(\sigma)$ is the Koszul sign of $\sigma$  and the elements $v_i$ of $V$ are all homogeneous.
 
 ###The commutative graded Hopf algebra structure on $T(V)$.
 
