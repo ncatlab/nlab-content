@@ -317,7 +317,6 @@ See also related discussion at [[club]].
 
 ## Examples 
 
-> this list of examples should eventually be collected in a table of contents on operad theory
 
 * [[associative operad]]
 
@@ -335,7 +334,7 @@ generalizations:
 
 * [[(∞,1)-operad]]
 
-## Free operads {#FreeOperads}
+### Free operads {#FreeOperads}
 
 For $G$ a discrete group, write $V^G$ for the category of objects of $V$ equipped with a $G$-[[action]]. For $V$ symmetric monoidal this is again a [[symmetric monoidal category]] and the [[forgetful functor]] $V^G \to V$ is symmetric monoidal.
 
@@ -394,7 +393,7 @@ $$
   \,.
 $$
 
-### Examples
+**Examples**
 
 Let $V$ be a [[cartesian monoidal category]] and $K = {*}$ the terminal collection, which is the [[terminal object]] in each degree, with, necessarily, trivial $S_n$-action.
 
@@ -407,9 +406,37 @@ Deligne-Mumford opeard (TO BE EXPANDED)
 Little discs operad, framed little discs operad (TO BE EXPANDED) -- See [[Deligne conjecture]]
 
 
+## Properties
 
+### Change of colour
 
-## Model structures on operads 
+Coloured operads form a [[fibered category]] over the category [[Set]] of colours. The fiber over a set $C$ is the category of $C$-coloured operads. 
+
+For $\alpha : D \to C$ a [[function]] of sets, there is an evident pullback functor
+
+$$
+  \alpha^* : Oper_C(V) \to Oper_D(V)
+$$
+
+given by
+
+$$
+  \alpha^*(P)(d_1, \cdots, d_n; d) :=
+  P(\alpha(d_1), \cdots, \alpha(d_n); \alpha(d))
+  \,.
+$$
+
+Together with a morphism $\phi : Q \to \alpha^* P$ of operads this 
+induces a pair of [[adjoint functor]]s on [[algebra over an operad|algebras over an operad]]
+
+$$
+ ( (\alpha,\phi)_! \dashv (\alpha,\phi)^* )
+  :
+ Alg_V(P) \stackrel{\overset{(\alpha,\phi)_!}{\leftarrow}}{\underset{(\alpha,\phi)^*}{\to}} Alg_V(Q) 
+  \,.
+$$
+
+### Model structures on operads 
 
 
 If the [[symmetric monoidal category]] $V$ that the operads under consideration are enriched in carries the structure of a [[monoidal model category]], then under suitable conditions there is also the structure of a [[model category]] on the category of $V$-operads. This is important for the notion of _homotopy_ [[algebra over an operad]], such as $A_\infty$- and $E_\infty$-algebras.
@@ -441,7 +468,7 @@ An earlier version was the notion of [[analyser]] (known usually by French versi
 
 Monographs:
 
-* [[Igor Kriz|I. Kriz]], J. P. May, _Operads, algebras, modules and motives_, Ast&#233;risque 233, Soci&#233;t&#233; Math&#233;matique de France (1995).
+* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque 233, Soci&#233;t&#233; Math&#233;matique de France (1995).
 
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
