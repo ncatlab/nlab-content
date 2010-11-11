@@ -29,29 +29,6 @@ There are several ways to _model_ an [[(∞,1)-category]] $\mathbf{C}$ by an ord
 
 There are various equivalent explicit expressions for $\mathbf{R}Hom$. These are described and compared in the following.
 
-+-- {: .query}
-I don\'t like this term, (for reasons other than using the word 'categorical' ^_^).  Is there any hom-space that is *not* $(\infty,1)$-categorial?  It seems to me that if your hom-objects are spaces, then you\'re an $(\infty,1)$-category; and if you\'re an $(\infty,1)$-category, then your hom-objects could be any spaces.  So how about [[hom-space]]?  ---Toby
-
-[[Urs Schreiber]]: I see your point. On the other hand probably few readers will expect behind a title "hom-space" more than a remark about the definition of a Top-enriched category. Here the point is the construction of these from 1-categorical data.
-
-How can we say this better?
-
-_Toby_:  Well, I also thought of 'hom-$\infty$-groupoid' and 'hom-simplicial set' (at which point the hyphen in 'hom-object' looks worse and worse), but these struck me as too specific, although they match what you\'re saying here.
-
-[[Urs Schreiber]]: Choices like "hom-simplicial set" or similar still isn't good enough for what this entry is about, though: for instance in a simplicially enriched model category all hom-objects are of course "hom-simplicial sets", but the right "$(\infty,1)$-categori(c)al hom space" between two objects is the hom-simplicial set between a fibrant-cofibrant replacement of these two objects.
-
-Other people would say "derived hom space". I reworded the above introduction and mention that term now.  
-
-_Toby_:  I could go for 'derived hom-space' (with or without hyphen, although we\'ve been using hyphens here for some reason).  That clarifies that it\'s not the na&#239;ve hom-space but doesn\'t imply that it\'s the $\infty$-categorification of a $1$-categorial hom-space.
-
-_Urs_: At least "derived hom-space" has the advantage that it follows wide-spread practice. However, to me this wide-spread practice looks like a bad practice: the term "derived" is used widely but inconsistently and unsystematically. And it carries with it the historical baggage of its origin as a procedure whose conceptual meaning wasn't understood. "Derived" essentially just indicates: "there is some procedure that gives us this construction from given data", never mind if we know what the procedure actually means. Today we know what it actually means: it is all about constructing $(\infty,1)$-categories. I feel on the $n$Lab we should play Bourbaki and implement good terminology from the point of view of higher category theory.
-
-_Toby_:  I guess that I would pick 'hom-$\infty$-groupoid' (or else 'hom-$(\infty,0)$-category') with that goal in mind.  Why say 'space' at all if we want to invoke higher categories?
-
-_Urs_: true. 
-
-=--
-
 
 ## Interrelation between the different constructions 
 
