@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -16,7 +20,7 @@
 
 ## Idea
 
-A [[model category]] structure on a [[category]] of [[algebras over an operad]] enriched in some suitable [[homotopical category]] $\mathcal{E}$ is a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category]] of [[∞-algebras over an (∞,1)-operad]].
+A [[model category]] structure on a [[category]] of [[algebras over an operad]] enriched in some suitable [[homotopical category]] $\mathcal{E}$ is supposed to be a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category]] of [[∞-algebras over an (∞,1)-operad]].
 
 
 ## Definition
@@ -75,7 +79,14 @@ exists.
 =--
 
 
++-- {: .un_def}
+###### Remark
 
+So if $P$ is admissible, then $Alg_{\mathcal{E}}(P)$ carries the model structure where a morphism of $P$ algebras $f : A \to B$ is a fibration or weak equivalence if the underlying morphism in $\mathcal{E}$ is, respectively.
+
+Below we discuss general properties of $P$ under which this model structure indeed exists.
+
+=--
 
 
 
@@ -168,7 +179,7 @@ is a [[Quillen equivalence]].
 
 This is  ([BergerMoerdijk, theorem 4.1](#BergerMoerdijkAlgebras)).
 
-+-- {: .un_theorem}
++-- {: .un_theorem #RectificationTheorem}
 ###### Theorem
 **(rectification of homotopy $T$-algebras)**
 
@@ -189,6 +200,51 @@ is a [[Quillen equivalence]].
 
 
 =--
+
+## Examples {#Examples}
+
+### $A_\infty$-Algebras {#AInfAlgebras}
+
+Let $Assoc$ be the [[associative operad]] in [[Set]] regarded as an operad in [[Top]] under the [[discrete space]] embedding $Disc : Set \to Top$.
+
+Let $I_*$ be the operad whose algebras are pointed objects. There is a canonical morphism $i : I_* \to Assoc$. 
+
++-- {: .un_lemma}
+###### Claim
+
+The [[relative Boardman-Vogt resolution]]
+
+$$
+  I_* \hookrightarrow I_*[i] \hookrightarrow W([0,1], I_* \to Assoc)  \stackrel{\simeq}{\to} Assoc
+$$
+
+produces precisely [[Jim Stasheff|Stasheff]]'s [[A-∞ operad]]. 
+
+=--
+
+This is ([BergerMoerdijk, page 13](#BergerMoerdijkAlgebras))
+
++-- {: .un_corollary}
+###### Corollary
+
+Every [[A-∞ space]] is equivalent as an $A_\infty$-space to a topological [[monoid]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the [rectification theorem](#RectificationTheorem), using that by the above algebras over $W([0,1], I_* \to Assoc)$ are precisely [[A-∞ space]]s.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This is a classical statement. See [[A-∞ algebra]] for background and references.
+
+=--
+
 
 
 ## Related concepts
@@ -216,12 +272,18 @@ is a [[Quillen equivalence]].
 
 ## References
 
+A general discussion of the [[model structure on operads]] is in
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831.
 {#BergerMoerdijkHomotopy}
 
+The concrete construction of the specific cofibrant resolutions in these structures going by the name [[Boardman-Vogt resolution]] is in 
+
 * [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ , Topology 45 (2006), 807&#8211;849. ([pdf](http://math.unice.fr/~cberger/BV.pdf))
 {#BergerMoerdijkResolution}
 
+The discussion of the model structure on algebras over a suitable operad is in
+
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijkAlgebras}
+
