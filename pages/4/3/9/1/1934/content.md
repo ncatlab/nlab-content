@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
@@ -9,7 +9,7 @@
 =--
 =--
 
-# Big and little toposes #
+# Big and little toposes
 * automatic table of contents goes here
 {:toc}
 
@@ -23,6 +23,7 @@ On the other hand, we can view a topos $T$ as a well-behaved category whose *obj
 
 These distinctions carry over in a straightforward way to higher topoi such as [[(∞,1)-topoi]].
 
+
 ## Relationships
 
 Objects in a big topos $Sh(S)$ may be thought of as [[space]]s _modeled on $S$_, in the sense described at [[motivation for sheaves, cohomology and higher stacks]] and at [[space]].
@@ -30,6 +31,7 @@ Objects in a big topos $Sh(S)$ may be thought of as [[space]]s _modeled on $S$_,
 On the other hand, the objects of a petit topos, such as $Sh(X)$, can also be regarded as a kind of generalized spaces, but generalized spaces _over $X$_ on which the rigid structure of morphisms in $Op(X)$ (only inclusions of subsets, no more general maps) induces a correspondingly rigid structure so that they are not all that general.  In fact, $Sh(Op(X))$ is equivalent to the category of [[etale space]]s over $X$---i.e. spaces "modeled on $X$" in a certain sense.  More generally, for any topos $E$, the objects of $E$ can be identified with [[local homeomorphisms of toposes]] into $E$.
 
 From the "little topos" perspective, it can be helpful to think of a "big topos" as a "fat point," which is not "spread out" very much spatially itself, but contains within that point lots of different types of "local data," so that even spaces which are "rigidly" modeled on that point can have a lot of interesting cohesion and local structure.  (One should not be misled by this into thinking that a big topos has *only* one [[point of a topos|point]], although it is usually a [[local topos]] and hence has an [[initial object|initial]] point.)
+
 
 ## The big and little topos of an object
 
@@ -57,6 +59,7 @@ On the other hand, a _big topos_ in which $X$ is incarnated is a [[category of s
 
 In good cases, the intrinsic properties of $X$ do not depend on whether one regards it as a little topos or as an object of a gros topos. For instance at [[cohomology]] in the section <a href="http://ncatlab.org/nlab/show/cohomology#NonabelianSheafCohomology">Nonabelian sheaf cohomology with constant coefficients</a> it is discussed how the [[nonabelian cohomology]] of a [[paracompact space|paracompact]] [[manifold]] $X$ with constant coefficients gives the same answer in each case.
 
+
 ## References
 
 Some aspects of an axiomatic characterization of petit vs. gros toposes is in 
@@ -73,25 +76,42 @@ A discussion and comparison of big vs little approaches to $(\infty,1)$-topos th
 
 * [Cohesive (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/cohesive_toposes.html) and [Petit (∞,1)-toposes](http://golem.ph.utexas.edu/category/2010/10/petit_1toposes.html).
 
-[[!redirects gros topos]]
-[[!redirects petit topos]]
-[[!redirects little topos]]
+
 [[!redirects big topos]]
-[[!redirects gros toposes]]
-[[!redirects petit toposes]]
-[[!redirects little toposes]]
 [[!redirects big toposes]]
-[[!redirects gros topoi]]
-[[!redirects petit topoi]]
-[[!redirects little topoi]]
 [[!redirects big topoi]]
+[[!redirects gros topos]]
+[[!redirects gros toposes]]
+[[!redirects gros topoi]]
+
+[[!redirects little topos]]
+[[!redirects little toposes]]
+[[!redirects little topoi]]
+[[!redirects petit topos]]
+[[!redirects petit toposes]]
+[[!redirects petit topoi]]
+
+[[!redirects big or little topos]]
+[[!redirects big or little toposes]]
+[[!redirects big or little topoi]]
+[[!redirects big and little topos]]
+[[!redirects big and little toposes]]
 [[!redirects big and little topoi]]
+[[!redirects little or big topos]]
+[[!redirects little or big toposes]]
+[[!redirects little or big topoi]]
+[[!redirects little and big topos]]
 [[!redirects little and big toposes]]
 [[!redirects little and big topoi]]
+[[!redirects gros or petit topos]]
+[[!redirects gros or petit toposes]]
+[[!redirects gros or petit topoi]]
+[[!redirects gros and petit topos]]
 [[!redirects gros and petit toposes]]
 [[!redirects gros and petit topoi]]
+[[!redirects petit or gros topos]]
+[[!redirects petit or gros toposes]]
+[[!redirects petit or gros topoi]]
+[[!redirects petit and gros topos]]
 [[!redirects petit and gros toposes]]
 [[!redirects petit and gros topoi]]
-
-
-[[!redirects big and little topos]]
