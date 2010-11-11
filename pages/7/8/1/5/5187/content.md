@@ -55,6 +55,17 @@ $$
 
 is the counit of the [[free functor|free]]/forgetful [[adjunction]] between operads and their underlying [[collection]]s and if $P$ is degreewise sufficiently nice, this factors that counit as a cofibration followed by a weak equivalence and exhibits $W(P)$ as a cofibrant [[resolution]] of $P$.
 
+
+## Definition 
+
+### Global
+
+(...)
+
+### Relative
+
+(...)
+
 ## Examples
 
 * [[Jim Stasheff]]'s [[A-∞ operad]] is the relative Boardman-Vogt resolution $W([0,1], I_* \to Assoc)$ of [[Assoc]] in [[Top]] where $I_*$ is the operad for [[pointed object]]s [BergerMoerdijk](#BergerMoerdijkAlgebras).
@@ -93,3 +104,6 @@ The generalization to [[operad]]s enriched in any monoidal category with a suita
 
 [[!redirects W-construction]]
 [[!redirects W-constructions]]
+
+[[!redirects relative Boardman-Vogt resolution]]
+[[!redirects relative Boardman-Vogt resolutions]]
