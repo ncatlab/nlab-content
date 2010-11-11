@@ -34,7 +34,16 @@ As a [[Set]]-enriched symmetric operad, $Ass$ is the operad that has the [[symme
 
 ## Properties
 
-* The relative [[Boardman-Vogt resolution]] $W([0,1],I_* \to Assoc)$ of $Assoc$ in [[Top]] is [[Jim Stasheff]]'s version of the [[A-∞ operad]].
+The relative [[Boardman-Vogt resolution]] $W([0,1],I_* \to Assoc)$ of $Assoc$ in [[Top]] is [[Jim Stasheff]]'s version of the [[A-∞ operad]].
+
+## Related concepts
+
+* **associative operad**
+
+* [[commutative operad]]
+
+* [[Lie operad]]
+
 
 [[!redirects Ass]]
 [[!redirects Assoc]]
