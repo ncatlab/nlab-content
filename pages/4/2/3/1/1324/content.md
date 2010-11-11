@@ -15,7 +15,7 @@ Important examples, to be discussed below, include:
 
 An $A_\infty$ operad, like the standard associative operad, can be defined to be either a _symmetric_ or a _non-symmetric_ operad.  On this page we assume the non-symmetric version.  When regarded as a symmetric operad, an $A_\infty$ operad may also be called an $E_1$ operad.
 
-An [[algebra over an operad|algebra]] over an $A_\infty$ operad is called an __$A_\infty$-object__, where -object is often replaced with an appropriate noun; thus we have the notions of **$A_\infty$-[[A-infinity-space|space]]**, **$A_\infty$-[[A-infinity-algebra|algebra]]**, and so on.  In general, $A_\infty$-objects can be regarded as 'monoids up to coherent homotopy.'  Likewise, a [[category over an operad|category]] over an $A_\infty$ operad is called an $A_\infty$-[[A-infinity-category|category]].
+An [[algebra over an operad]] over an $A_\infty$ operad is called an __$A_\infty$-object__ or [[A-∞ algebra]], where -object is often replaced with an appropriate noun; thus we have the notions of **$A_\infty$-[[A-infinity-space|space]]**, **$A_\infty$-[[A-infinity-algebra|algebra]]**, and so on.  In general, $A_\infty$-objects can be regarded as 'monoids up to coherent homotopy.'  Likewise, a [[category over an operad|category]] over an $A_\infty$ operad is called an $A_\infty$-[[A-infinity-category|category]].
 
 Some authors use the term '$A_\infty$ operad' only for a _particular_ chosen $A_\infty$ operad in their chosen ambient category, and thus use '$A_\infty$-object' and '$A_\infty$-category' for algebras and categories over this particular operad.  The $A_\infty$ operads discussed below are common choices for this 'standard' $A_\infty$ operad.
 
