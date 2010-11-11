@@ -261,7 +261,7 @@ This means that $lim \pi_1(\varepsilon(X))$ is not an invariant of the end. This
 
 ###Waldhausen Boundary###
 
-If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set $\mathbb{P}(X,Y)$ with $\mathbb{P}(X,Y)_n = P(X\times \Delta^n,Y)$, which acts as if it was the _singular complex of the mythical space of proper maps from $X$ to $Y$_.
+If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set $\mathbb{P}(X,Y)$ with $\mathbb{P}(X,Y)_n = Proper(X\times \Delta^n,Y)$, which acts as if it was the _singular complex of the mythical space of proper maps from $X$ to $Y$_.
 +--{: .un_defn}
 ######Definition######
 The **Waldhausen boundary** of $X$ is the simplicial set $\mathbb{P}([0,\infty),X)$.
@@ -275,6 +275,12 @@ There is an epimorphism from $\pi_0(\mathbb{P}([0,\infty),X))$ to $e(X)$.
 
 ###Second attempt###
 Even if we  did not have the above difficulty with the limit groups, we would still have the problem that, as the limit functor is not exact, the resulting limiting homotopy groups would not be that well behaved.  There would not be  any general long exact sequence results (just as with [[Čech homology]]). There is at least one possible replacement for those limiting homotopy groups, but first we note that it is not appropriate to base any such things at a point, rather we should be using a base ray as was discussed above.
+
+One fairly obvious attempt to define a 'fundamental group' for $X$, based at a proper ray $\alpha: [0,\infty) \to X$, would be to note that $\alpha$ gives $\mathbb{P}([0,\infty),X)$ a base point so we could look at  $\pi_1(\mathbb{P}([0,\infty),X),\alpha)$ and more generally at $\pi_n(\mathbb{P}([0,\infty),X),\alpha)$, and we will denote these groups by $\underline{\underline{\pi}}_n(X,\alpha)$.
+
+There are variants 'at infinity' of both the Waldhausen boundary and these groups, otained using germs instead of proper maps. These will be denoted with a $\infty$ as a super- or suffix on the above notation.
+
+In fact there is another different way of looking at these groups, which has a more geometric feel to it. Historically these groups were not the first successful attempt.  This was due to Ed Brown and uses strings of spheres.  These are examples of [[spherical objects]] and the resulting 'groups' (better thought of as '$\Pi_\mathcal{A}$-[[spherical object and Pi(A)-algebra|algebras]]') have a rich structure.  They are discussed at [[Brown-Grossman homotopy group]]s.  They do link with the above homotopy groups of the Waldhausen boundary, which are called the [[Steenrod homotopy group]]s, (for reasons that will be explained there). 
 
 ##References##
 
