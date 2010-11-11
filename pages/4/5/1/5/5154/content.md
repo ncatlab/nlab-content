@@ -306,7 +306,7 @@ The rectification theorem above now says that every homotopy coherent diagram is
 
 A general discussion of the [[model structure on operads]] is in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831.
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
 {#BergerMoerdijkHomotopy}
 
 The concrete construction of the specific cofibrant resolutions in these structures going by the name [[Boardman-Vogt resolution]] is in 
