@@ -1,11 +1,18 @@
-## Idea ##
+
+# Little sites
+* table of contents
+{: toc}
+
+## Idea
 
 Let $C$ be a category with a [[pretopology]] $J$ (i.e. a [[site]]) and $a$ an object of $C$. As an analogy with sheaves on a topological space $X$, which are defined on the site $Op(X)$ of open sets of $X$, we can try to define sheaves on $a$, using the elements of covering families of $a$ from $J$. This is called the **little site** of $a$, in contrast to the [[big site]] of $a$ which is the slice category $C/a$ with its induced topology.
 
 The [[topos]] of [[sheaves]] on the little site is the [[petit topos]] of $a$.
 
+A little site may sometimes be called a _small site_, but it\'s probably best to save that name for a site which is a [[small category]].
 
-##Definition##
+
+## Definition
 
 >[[David Roberts]]: The following is experimental, use at own risk, although I'm sure it has been thought about before.
 
@@ -29,6 +36,12 @@ such that $v_0 \to u_0$ is an element of a covering family of $u_0$, so the arro
 
 >To be continued...
 
+
+[[!redirects little site]]
+[[!redirects little sites]]
+
 [[!redirects small site]]
 [[!redirects small sites]]
-[[!redirects little sites]]
+
+[[!redirects petit site]]
+[[!redirects petit sites]]
