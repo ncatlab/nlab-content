@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -12,8 +12,6 @@
 # The Eckmann--Hilton argument
 * table of contents
 {: toc}
-
-
 
 ## Statements
 
@@ -49,6 +47,8 @@ This can also be [[internalisation|internalised]] in any [[monoidal category]].
 
 A [[pasting diagram]]-proof of \ref{2cat} is depicted in [Cheng](#Cheng) below.  Here we prove the $6$-element general form in $Set$.
 
++-- {: .proof}
+###### Proof
 The basic equation that we have (that one operation $*$ is a homomorphism with respect to another operation $\circ$) is
 $$ (a \circ b) * (c \circ d) = (a * c) \circ (b * d) .$$ 
 In $End(Id_x)$, this is the [[exchange law]].
@@ -76,6 +76,7 @@ so this operation is commutative.
 6.  Finally,
 $$ (a b) c = (a b) (1 c) = (a 1) (b c) = a (b c) ,$$
 so the operation is associative.
+=--
 
 If you start with a monoid object in $Mon$, then only (4&5) need to be shown; the others are part of the hypothesis.  This classic form of the Eckmann--Hilton argument may be combined into a single calculation:
 $$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b = (1 * a) \circ (b * 1) = (1 * b) \circ (a * 1) = b * a ,$$
