@@ -167,9 +167,9 @@ $\mathbb{A} = [3]$.  $X(123)X(01)$ is actually $X(123)(I \times X(01) )$, whilst
 
 ### Rectification
 
-Every homtopy coherent diagram is weakly equivalent to a strict diagram.
+Every homotopy coherent diagram is weakly equivalent to a strict diagram.
 
-#### Vog's theorem
+#### Vogt's theorem
 
 +-- {: .un_theorem}
 ###### Theorem
