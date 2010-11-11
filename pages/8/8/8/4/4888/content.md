@@ -10,15 +10,7 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
 
-* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* [[principal ∞-bundle]] / **associated $\infty$-bundle
-
-***
 
 #Contents#
 * table of contents
@@ -96,6 +88,17 @@ $$
 =--
 
 Compare [[universal principal ∞-bundle]].
+
+
+## Related concepts
+
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / **associated $\infty$-bundle
 
 
 ## References
