@@ -49,10 +49,10 @@ $e(X) \cong \pi_0(\partial M)$.
 ###Proper maps###
 The assignment sending $X$ to $E(X)$ cannot be functorial on the category of spaces and _continuous_ maps, since the contracting map $\mathbb{R}\to \{0\}$ is continuous, $e(\mathbb{R})$ is $\{-\infty, \infty\}$, whilst $e(\{0\})$ is empty since $\{0\}$ is compact.
 The problem is that continuity is really about inverse images (inverse image of open is open), but the inverse image mapping does not preserve compactness  (as in the example!).
-
-####Definition (recall)####
++--{: .un_defn}
+######Definition (recall)######
 A map $f:X\to Y$ is a [[proper map]] if for each subset $K$ compact in $Y$ then $f^{-1}(K)$ is compact in $X$.
-
+=--
 ###End spaces continued###
 If $f:X\to Y$ is proper, then it induces a pro-morphism
 $$\varepsilon(f) : \varepsilon(X)\to \varepsilon(Y)$$
@@ -79,11 +79,10 @@ Although a proper map $f: X\to Y$ will induce a continuous $\varepsilon(f)$, on 
 
 Suppose $X$ is locally compact Hausdorff and $A\subset X$. The inclusion $j: A\to X$ is 'cofinal' if the closure of $X\setminus A$ is compact. 
 Note that a cofinal inclusion is proper and induces an isomorphism $\varepsilon(A)\cong \varepsilon(X)$.  Let $\Sigma$ be the class of all cofinal inclusions in $Proper$ and let $Proper_\infty = Proper[\Sigma^{-1}]$, the category obtained by formally inverting the cofinal inclusions. 
-
-####Definition#### 
-
++--{: .un_defn}
+######Definition###### 
 This category is called the _proper category at $\infty$_.
-
+=--
 Note that $(Proper,\Sigma)$ admits a [[calculus of fractions|calculus of right fractions]], so any morphism from $X$ to $Y$ in $Proper_\infty$ can be represented by a diagram 
 $$X\stackrel{j}{\leftarrow} A \stackrel{f}{\rightarrow}Y,$$
 with $j$ a cofinal inclusion, i.e., $f$ is defined on some 'neighbourhood of the end of $X$'.
@@ -263,10 +262,10 @@ This means that $lim \pi_1(\varepsilon(X))$ is not an invariant of the end. This
 ###Waldhausen Boundary###
 
 If $X$ and $Y$ are locally compact Hausdorff spaces, there is no obvious candidate for a space of proper maps from $X$ to $Y$, but one can form a simplicial set $\mathbb{P}(X,Y)$ with $\mathbb{P}(X,Y)_n = P(X\times \Delta^n,Y)$, which acts as if it was the _singular complex of the mythical space of proper maps from $X$ to $Y$_.
-
-####Definition####
++--{: .un_defn}
+######Definition######
 The **Waldhausen boundary** of $X$ is the simplicial set $\mathbb{P}([0,\infty),X)$.
-
+=--
 There is an epimorphism from $\pi_0(\mathbb{P}([0,\infty),X))$ to $e(X)$.
 
 *  In the example above of the cylinder with the string of circles attached, $\pi_0(\mathbb{P}([0,\infty),X))$,  is uncountable, and $\pi_1(\mathbb{P}([0,\infty),X))$ maps onto $lim S$.  
@@ -275,7 +274,7 @@ There is an epimorphism from $\pi_0(\mathbb{P}([0,\infty),X))$ to $e(X)$.
 
 
 ###Second attempt###
-Even if we  did not have the above difficulty with the limit groups, we would still have the problem that, as the limit functor is not exact, the resulting limiting homotopy groups would not be that well behaved.  There would not be  any general long exact sequence results (just as with [[Čech homology]]). There is at least one possible replacement for those limiting homotopy groups, but first we note that is is not appropriate to base any such things at a point, rather we should be using a base ray as was discussed above.
+Even if we  did not have the above difficulty with the limit groups, we would still have the problem that, as the limit functor is not exact, the resulting limiting homotopy groups would not be that well behaved.  There would not be  any general long exact sequence results (just as with [[Čech homology]]). There is at least one possible replacement for those limiting homotopy groups, but first we note that it is not appropriate to base any such things at a point, rather we should be using a base ray as was discussed above.
 
 ##References##
 
