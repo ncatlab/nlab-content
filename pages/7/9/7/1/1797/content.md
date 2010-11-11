@@ -45,8 +45,12 @@ The definition as given above is also redundant:
 ###### Lemma
 If $(f,g,\eta,\varepsilon)$ is any equivalence, then it satisfies one zigzag identity iff it satisfies the other.
 =--
+
+
 +-- {: .proof}
 ###### Proof
+
+
 Using [[string diagram]] notation, with strings progressing up the page and 1-morphisms progressing from left to right, we can draw the data of an equivalence (omitting labels for the regions denoting objects) as follows:
 
 [[!include equivalence data - SVG]]
