@@ -27,28 +27,110 @@ This is important for the notion of _homotopy_ [[algebra over an operad]], such 
 
 ## Definition
 
-Recall that a $V$-operad $P$ is called _reduced_ if $P(0)$ is the tensor unit, $P(0) = I$.  
+Throughout, let $V$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]] [[monoidal model category]] with all small [[colimit]]s and finite [[limit]]s.
+
+### Collections
+
+
+For $G$ a [[finite group]] also $V^{\mathbf{B}G}$ inherits the structure of a closed symmetric monoidal category with small colimits and finite limits. There is a [[forgetful functor]]/[[free functor]] [[adjunction]]
+
+$$
+  V^{\mathbf{B}G} \stackrel{(-)[G]}{\underset{U}{\to}}
+  V
+  \,.
+$$
+
+Write $\Sigma_n$ for the [[symmetric group]] on $n \in \mathbb{N}$ elements. Take $\Sigma_0$ and $\Sigma_1$ to be both the trivial group.
+
+
++-- {: .un_def }
+###### Definition
+
+The category of **collections** (of potential operations) in $V$  is the [[product]]
+
+$$
+  Coll(V) := \prod_{n \geq 0} V^{\mathbf{B}\Sigma_n}
+  \,.
+$$
+
+=--
+
+A collection $P$ is a tuple of objects
+
+$$
+  P = (P(n))_{n \in \mathbb{N}}
+$$
+
+each equipped with an [[action]] by the respective $\Sigma_n$.
+
+### Hopf interval object
+
++-- {: .un_def }
+###### Definition
+
+An object $H \in V$ is a [[Hopf algebra]] object if it is equipped with the structure of a [[monoid]], that of a [[comonoid]] such that product and coproduct preserve each other.
+
+If $V$ is equipped with a compatible structure of a [[monoidal model category]] we say that a a Hopf algebra object is an **Hopf [[interval object]]** if it is equipped with morphisms
+
+$$
+  I \coprod I \hookrightarrow H \stackrel{\simeq}{\to} I
+$$
+
+that factor the [[codiagonal]] on $I$ by a cofibration followed by a weak equivalence.
+ 
+=--
+
+
+
+### Model category structure
+
+Assume now that $V$ is moreover equippepd with a compatible structure of a [[monoidal model category]].
+
++-- {: .un_lemma }
+###### Lemma
+
+If $V$ is a [[cofibrantly generated model category]], then for each [[finite group]] $G$ the [[transferred model structure]] on $V^{\mathbf{B}G}$ along the [[forgetful functor]]
+
+$$
+ U :  V^{\mathbf{B}G} \to V
+$$
+
+exists.
+
+It follows that in this case the category of collections $Coll(V)$ is a [[cofibrantly generated model category]] where a morphisms is a fibration or weak equivalence if it is so degreewise in $V$, respectively.
+
+=--
+
++-- {: .un_lemma #SigmaCofibrant}
+###### Lemma
+
+A $V$-operad is called **$\Sigma$-cofibrant** if its underlying collection is cofibrant in the above model stucture
+
+=--
+
+A $V$-operad $P$ is called _reduced_ if $P(0)$ is the tensor unit, $P(0) = I$.  A morphism of reduced operads is one that is the identity on the 0-component. 
 
 +-- {: .un_theorem }
 ###### Theorem
 
+If 
 
-Let $V$ be a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with unit $I$, such that
+* $V$ is [[cofibrantly generated model category|cofibrantly generated]] 
 
-* $V$ is [[cofibrantly generated model category|cofibrantly generated]] and $I$ is cofibrant;
+* $I$ is cofibrant;
 
-* the [[model structure on an over category|model structure on the overcategory]] $V/I$ has a symmetric monoidal fibrant replacement functor;
+* the [[model structure on an over category|model structure on the overcategory]] $V/I$ has a [[symmetric monoidal functor|symmetric monoidal]] fibrant [[resolution|replacement]] functor;
 
-* $V$ admits a commutative Hopf [[interval object]].
+* $V$ admits a commutative Hopf interval object.
 
-Then there exists a cofibrantly generated model structure on the category of reduced $V$-operads, in which a morphism $P \to Q$ is a weak equivalence (resp. fibration) precisely if for all $n \gt 0$ the morphisms $P(n) \to Q(n)$ are weak equivalences (resp. fibrations) in $V$.
+Then there exists a [[cofibrantly generated model category]] structure on the category of reduced $V$-[[operad]]s, in which a morphism $P \to Q$ is a weak equivalence (resp. fibration) precisely if for all $n \gt 0$ the morphisms $P(n) \to Q(n)$ are weak equivalences (resp. fibrations) in $V$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is [BerMor03, theorem 3.1](http://arxiv.org/PS_cache/math/pdf/0206/0206094v3.pdf#page=8).
+This is [BergerMoerdijk, theorem 3.1](#BergerMoerdijkHomotopy).
 
 =--
 
@@ -69,12 +151,8 @@ Then there exists a cofibrantly generated model structure on the category of $V$
 
 =--
 
-### $\Sigma$-Cofibrancy
-
-(...)
 
 
-n
 
 ## Examples
 
@@ -86,11 +164,7 @@ The conditions of the above theorems are satisfied for
 
 * $V = $ [[Top]] the equivalence model structure on compactly generated topological spaces;
 
-  The _homotopy algebras_ over a simplicial/topological operad as defined by Boardman and Vogt (see references below), are algebras for cofibrant replacements of these operads in this moel structure. This is essentially the statement of theorem 4.1 in
-
-  * [[Rainer Vogt]], 
-    _Cofibrant operads and universal $E_\infty$-operads_ , 
-    Bielefeld SB 343 (1999), to appear in Topology Appl.
+  The _homotopy algebras_ over a simplicial/topological operad as defined by Boardman and Vogt (see references below), are algebras for cofibrant replacements of these operads in this moel structure. This is essentially the statement of theorem 4.1 in ([Vogt](#Vogt))
 
 
 * $V = Ch_\bullet$, the [[model structure on chain complexes]];
@@ -98,6 +172,29 @@ The conditions of the above theorems are satisfied for
 * $V = sSh(C)$ the [[model structure on simplicial sheaves]] on some [[site]] $C$.
 
 ## Properties
+
+### Cofibrancy
+
++-- {: .un_prop }
+###### Proposition
+
+Every cofibrant operad is also $\Sigma$-[cofibrant](#SigmaCofibrancy).
+
+=--
+
+This is ([BergerMoerdijk, prop. 4.3](#BergerMoerdijkHomotopy)).
+
+
++-- {: .un_remark }
+###### Remark
+
+The relebance of this is in section [Homotopy algebras](#HomotopyAlgebras): this property enters the proof of the statement that the [[model structure on algebras over an operad]] over a $\Sigma$-cofibrant resolution is already Quillen equivalent to that of a full cofibrant resolution.
+
+Many resolutions of operads that appear in the literature are in fact just $\Sigma$-cofibrant.
+
+=--
+
+
 
 ### Resolutions {#Resolutions}
 
@@ -146,7 +243,7 @@ This is  ([BergerMoerdijk, theorem 3.2](#BergerMoerdijkAlgebras)).
 +-- {: .un_theorem}
 ###### Theorem
 
-For each well-pointed  $\Sigma$-cofibrant $C$-coloured operad $P$, the $(F^*_C \dashv U_C)$-counit factors as a cofibration followed by a weak equivalence
+For each well-pointed  $\Sigma$-[cofibrant](#SigmaCofibrancy) $C$-coloured operad $P$, the $(F^*_C \dashv U_C)$-counit factors as a cofibration followed by a weak equivalence
 
 $$
   F_C^*(P) \hookrightarrow W(H,P) \stackrel{\simeq}{\to} P
@@ -160,24 +257,35 @@ If $P \to Q$ is a $\Sigma$-cofibration between well-pointed $\Sigma$-cofibrant $
 
 This is  ([BergerMoerdijk, theorem 3.5](#BergerMoerdijkAlgebras)).
 
-Here $W(H,P)$ is also called the **coloured Boardman-Vogt resolution** of $P$.
+Here $W(H,P)$ is also called the **coloured [[Boardman-Vogt resolution]]** of $P$.
 
 An [[algebra over an operad]] over $W(H,P)$ is called a **$P$-algebra up to homotopy**.
 
 
-### Homotopy algebras over an operad
+### Homotopy algebras over an operad {#HomotopyAlgebras}
 
-With $V$ as above, say a $V$-operad $P$ is _admissible_ if the category of $P$ [[algebra over an operad|algebras]] carries a [[transferred model structure]] from the free-forgetful adjunction
+We discuss model structures on algebras over resolutions of operads. A more  detailed treatment is at [[model structure on algebras over an operad]].
+
+
+With $V$ as above, say 
+
+
++-- {: .un_def}
+###### Definition
+
+A $V$-operad $P$ is _admissible_ if the category of $P$-[[algebra over an operad|algebras]] carries a [[transferred model structure]] from the [[free functor]]/[[forgetful functor]] [[adjunction]]
 
 $$
   F_P : V \stackrel{\leftarrow}{\to} Alg_P : U_P
   \,.
 $$
 
+=--
+
 Under mild assumptions on $V$, cofibrant operads are admissible.
 
-+-- {: .un_theorem }
-###### Theorem
++-- {: .un_def }
+###### Definition
 
 For an arbirtrary $V$-operad $P$, [[generalized the|the]] category of **homotopy $P$-algebras** is the category of $\hat P$-algebras for some cofibrant replacement $\hat P$ of $P$.
 
@@ -187,7 +295,14 @@ Indeed, this is well defined up to [[Quillen equivalence]]:
 
 [BerMor03, corollary 4.5](http://arxiv.org/PS_cache/math/pdf/0206/0206094v3.pdf#page=15).
 
-Moreover, for this it is sufficient that $\hat P$ be _$\Sigma$-cofibrant_ . 
+Moreover, for this it is sufficient that $\hat P$ be _$\Sigma$-[cofibrant](#SigmaCofibrancy)_ . 
+
++-- {: .un_prop }
+###### Proposition
+
+If $V$ is a [[left proper model category]] with cofibrant unit, then for $\hat P$ a $\Sigma$-[cofibrant](#SigmaCofibrancy) [[resolution]] of $P$ (not necessarily fully cofibrant!) the category of $\hat P$ algebras is [[Quillen equivalence|Quillen equivalent]] to that of homotopy $P$-algebras.
+
+=--
 
 For instance the [[associative operad]] is $\Sigma$-cofibrant, so that by the above every $A-\infty$-algebra may be rectified to an ordinary monoid.
 
@@ -212,6 +327,11 @@ An early notion of [[resolution]] of operads in [[chain complex]]es is given in 
 
 * [[Martin Markl]], _Models for Operads_ ([arXiv](http://arxiv.org/abs/hep-th/9411208))
 
+Cofibrant [[Boardman-Vogt resolution]]s of operads are discussed in
+
+* [[Rainer Vogt]], _Cofibrant operads and universal $E_\infty$-operads_ , 
+Bielefeld SB 343 (1999), to appear in Topology Appl.
+
 A systematic study of [[model category]] structures on operads and their algebras is in
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
@@ -226,3 +346,5 @@ The induced model structures and their properties on [[algebras over operads]] a
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
 {#BergerMoerdijkAlgebras}
+
+
