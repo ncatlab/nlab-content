@@ -33,7 +33,7 @@ Recall that a $V$-operad $P$ is called _reduced_ if $P(0)$ is the tensor unit, $
 ###### Theorem
 
 
-Let $V$ be a [[symmetric monoidal model category|symmetric]] [[monoidal model category]] with unit $I$, such that
+Let $V$ be a [[symmetric monoidal category|symmetric]] [[monoidal model category]] with unit $I$, such that
 
 * $V$ is [[cofibrantly generated model category|cofibrantly generated]] and $I$ is cofibrant;
 
@@ -69,6 +69,12 @@ Then there exists a cofibrantly generated model structure on the category of $V$
 
 =--
 
+### $\Sigma$-Cofibrancy
+
+(...)
+
+
+n
 
 ## Examples
 
@@ -202,9 +208,13 @@ An influential article in which many of the homotopical and $(\infty,1)$-categor
 
 * [[Michael Boardman]] and [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological spaces_ , Lect. Notes Math. 347 (1973).
 
+An early notion of [[resolution]] of operads in [[chain complex]]es is given in section 3 of 
+
+* [[Martin Markl]], _Models for Operads_ ([arXiv](http://arxiv.org/abs/hep-th/9411208))
+
 A systematic study of [[model category]] structures on operads and their algebras is in
 
-* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831.
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Axiomatic homotopy theory for operads_ Comment. Math. Helv. 78 (2003), 805&#8211;831. ([arXiv:math/0206094](http://arxiv.org/abs/math/0206094))
 {#BergerMoerdijkHomotopy}
 
 An explicit construction of cofibrant resolution in this model structure and its relation to the original constructon of the [[Boardman-Vogt resolution]] is in
