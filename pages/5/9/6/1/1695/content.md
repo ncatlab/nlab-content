@@ -20,7 +20,7 @@ A _loop space_ is a [[loop space object]] in [[Top]].
 
 ## Definition
 
-Let $Top$ be a [[nice category of spaces|nice category of topological spaces]], in particular one which is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[cartesian closed category|cartesian closed]]. Let $(S^1, pt)$ be the [[circle]], i.e., 1-dimensional [[sphere]], with chosen basepoint, and let $(X, *)$ be a space with a chosen [[pointed set|basepoint]]. Then the **loop space** of $X$ (at $*$) is an [[internal hom]] 
+Let [[Top]] be a [[nice category of spaces|nice category of topological spaces]], in particular one which is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[cartesian closed category|cartesian closed]]. Let $(S^1, pt)$ be the [[circle]], i.e., 1-dimensional [[sphere]], with chosen basepoint, and let $(X, *)$ be a space with a chosen [[pointed set|basepoint]]. Then the **loop space** of $X$ (at $*$) is an [[internal hom]] 
 
 $$\Omega X = hom((S^1, pt), (X, *))$$
 
@@ -48,9 +48,14 @@ $$\array{
 
 with basepoint provided by the right vertical arrow. 
 
-## Structure on loop spaces 
+## Properties
 
-A loop space is an example of a [[homotopy-associative space]], or [[H-space]]. In fact, loop spaces admit a rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
+### Homotopy-associative structure
+
+A loop space is an example of a [[A-∞ space]], in particular it is an [[H-space]]. Loop spaces admit this rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
+
+The description of this structure on loop spaces has been the very motivaton for the inztoruction of the notion of [[operad]] and [[algebra over an operad]] in ([May](#May)).
+
 
 An important theoretical consideration is when an H-space, and particularly one having the type of a [[CW-complex]], has the homotopy type of a loop space of another CW-complex: $X \simeq \Omega Y$. In this circumstance, one calls $Y$ a **[[delooping]]** of $X$; an important example is where $X$ carries a [[topological group]] structure $G$, and $Y$ is the [[classifying space]] of $G$. 
 
@@ -71,15 +76,11 @@ An [[H-space]] $X$ admits a delooping if and only if the [[monoid]] $\pi_0(X)$ i
 
 This is due to ([Stasheff](#Stasheff)). The analogous statement holds true in every [[(∞,1)-topos]] other than [[Top]]. Details on this more general statement are at [[loop space object]] and at [[groupoid object in an (∞,1)-category]].
 
-### Local homotopy properties of loop spaces ###
+### Local homotopy properties ###
 
 Let the space $X$ be [[locally connected space|locally 0-connected]] and [[semi-locally simply connected space|semi-locally 1-connected]] (i.e. it admits a [[universal covering space]]). The loop space $\Omega X$ for any basepoint is locally path connected, as is the free loop space $X^{S^1}$. If $X$ is locally 1-connected and admits a basis of open sets $U$ such that $\pi_2(U) \to \pi_2(X)$ is the zero map, then $\Omega X$ is locally 0-connected and semi-locally 1-connected, and so admits a universal covering space. 
 
-In general, if $X$ is locally $n$-[[n-connected space|connected]], $\Omega X$ is locally $(n-1)$-connected. This process can obviously be iterated up to $n$ times, so that $\Omega^n X$ is locally 0-connected. This can be weakened to locally $(n-1)$-connected and semi-locally $n$-connected: this is just like the $n=1$ case but replacing $\pi_1$ with $\pi_n$ (as was done in the previous paragraph with $\pi_2$). We will actually define a space to be semi-locally $n$-connected to include the condition that it is locally $(n-1)$-connected. This result was proved for more general mapping spaces $X^P$ and various subspaces when $X$ is Hausdorff and $P$ a finite polyhedron in
-
-  * H. Wada, _Local connectivity of mapping spaces_, Duke Mathematical Journal, vol ? (1955) pp 419-425
-
-but a much simpler and direct proof for general $X$ and $P = I$ or $P= S^1$ is possible.
+In general, if $X$ is locally $n$-[[n-connected space|connected]], $\Omega X$ is locally $(n-1)$-connected. This process can obviously be iterated up to $n$ times, so that $\Omega^n X$ is locally 0-connected. This can be weakened to locally $(n-1)$-connected and semi-locally $n$-connected: this is just like the $n=1$ case but replacing $\pi_1$ with $\pi_n$ (as was done in the previous paragraph with $\pi_2$). We will actually define a space to be semi-locally $n$-connected to include the condition that it is locally $(n-1)$-connected. This result was proved for more general mapping spaces $X^P$ and various subspaces when $X$ is Hausdorff and $P$ a finite [[polyhedron]] in ([Wada](#Wada)) but a much simpler and direct proof for general $X$ and $P = I$ or $P= S^1$ is possible.
 
 +--{: .standout}
 [[David Roberts]]: The following claim is conjectural, but for $n=2$ it is in my thesis. $n=1$ has been known for ages - I don't know where it was first, but it is in Ronnie Brown's topology textbook.
@@ -95,5 +96,11 @@ The fundamental $n$-groupoid of a space $X$ ([[Trimble n-category|Trimblean]] fo
 
 * [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. 108, 1963, 275-312 
 {#Stasheff}
+
+* [[Peter May]], _The geometry of iterated loop spaces_
+{#May}
+
+* H. Wada, _Local connectivity of mapping spaces_, Duke Mathematical Journal, vol ? (1955) pp 419-425
+
 
 [[!redirects loop spaces]]
