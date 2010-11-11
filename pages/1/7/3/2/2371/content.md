@@ -48,7 +48,7 @@
 
 * [[A-∞ algebra]] 
 
-  * [[A-∞ ring]]
+  * [[A-∞ ring]], [[A-∞ space]]
 
 * [[E-∞ algebra]] 
 
