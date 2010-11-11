@@ -19,17 +19,43 @@
 
 ## Idea
 
-A first simple definition in the framework of [[general relativity]] is this: A _relativistic particle with zero rest mass_ is a lightlike curve in a [[spacetime]]. A _relativistic particle with nonzero rest mass_ is a timelike curve in a [[spacetime]]. For the definition of lightlike and timelike curves see [[smooth Lorentzian space]].
+The _relativistic particle_ in [[physics]]s is a model for the dynamics of a single [[particle]] that is propagating in a [[spacetime]] subject to [[force]]s such as [[gravity]] and (if it is charged) the [[electromagnetic field]].
 
-A more "full-fledged" definition is this:
+## Definition
 
-The _relativistic particle_ propagating on a [[spacetime]] $(X,g)$ is the 1-[[dimension]]al [[sigma-model]] whose kinetic part of the [[action functional]] is the [[length]] functional, as given by the [[pseudo-Riemannian metric]] $g$ and whose gauge-coupling to an [[electromagnetic field]] on $X$ given by a [[line bundle]] with [[connection on a bundle|connection]] $\nabla$ on $X$ is the [[parallel transport]] of that connection:
+Let $(X,g)$ be a [[spacetime]] and $\nabla$ a [[connection on a bundle|connection]] on a [[circle group]]-[[principal bundle]] over $X$.
+
+A _trajectory_ of the relativistic particle on $X$ is a map
 
 $$
-  \exp S : \gamma \mapsto \exp i S_{kin}(\gamma) \exp i S_\nabla(\gamma)
+  \gamma : [0,1] \to X
+  \,.
 $$
 
-where $S_{kin} = length_g(\gamma)$ and $\exp i S_\nabla(\gamma) = tra_\nabla(\gamma)$.
+The exponentiated [[action functional]] $\exp S$ of the relativistic particle is the [[functional]] on the [[mapping space]] $[[0,1], X]$ given by
+
+$$
+  \exp S : \gamma \mapsto (\exp i S_{kin}(\gamma)) (\exp i S_\nabla(\gamma))
+$$
+
+where $S_{kin} = length_g(\gamma)$ is the invariant [[length]] of $\gamma$ and $\exp i S_\nabla(\gamma) = tra_\nabla(\gamma)$ is the [[parallel transport]] of $\nabla$ along $\gamma$.
+
+Alternatively (and mandatorily for vanishing [[mass]] parameter), the kinitec action is replaced by the corresponding [[Polyakov action functional]].
+
+The mapping space equipped with this action functional constitutes the data of a [[sigma-model]] [[quantum field theory]]. Its [[quantization]] is the _quantum relativistic particle_ .
+
+## Properties
+
+A _classical trajectory_ of the relativistic particle is a curve that extremizes the [[action functional]] (that solves the [[Euler-Lagrange equation]]s).
+
+In the absence of an electromagnetic field or other forces except gravity, this is a [[geodesic]] in the [[spacetime]] which is
+
+* lightlike if the particle is massless;
+
+*  timelike if it has non-vanishing mass 
+
+See [[Lorentzian space]] for these notions.
+
  
 ## References
 
