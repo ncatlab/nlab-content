@@ -13,13 +13,7 @@
 =--
 =--
 
-* [[presheaf]]
 
-* [[(2,1)-presheaf]]
-
-* **$(\infty,1)$-presheaf**
-
-***
 
 
 #Contents#
@@ -50,6 +44,15 @@ $$
 ## Remarks ##
 
 * $(\infty,1)$-presheaves are the basic building block for the definition of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]].
+
+## Related concepts
+
+* [[presheaf]]
+
+* [[(2,1)-presheaf]]
+
+* **$(\infty,1)$-presheaf**
+
 
 ## References ##
 
