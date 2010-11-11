@@ -344,9 +344,15 @@ See also related discussion at [[club]].
 
   * [[A-infinity operad]]
 
-* [[E-k operad]]
+* [[commutative operad]]
+
+  * [[E-k operad]]
 
   * [[E-infinity operad]]
+
+* [[Lie operad]]
+
+  * [[L-∞ operad]]
 
 * [[Eilenberg-Zilber operad]]
 
@@ -402,6 +408,9 @@ See
 
 * [[model structure on operads]].
 
+### Koszul duality
+
+On [[quadratic operads]] in chain complexes there is a duality operation called [[Koszul duality]]. See there for details.
 
 ## Related concepts
 
@@ -423,13 +432,19 @@ An earlier version was the notion of [[analyser]] (known usually by French versi
 
 * M. Lazard, _Lois de groupes et analyseurs_, Ann. &#201;cole Norm. Sup. __72__  (1955), pp. 299&#8211;400. 
 
-Monographs:
+
+Monographs include:
 
 * [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque 233, Soci&#233;t&#233; Math&#233;matique de France (1995).
 
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
 * V.A. Smirnov, _Simplicial and operad methods in algebraic topology_
+
+See also
+
+* [[Todd Trimble]], _[[toddtrimble:Notes on operads and the Lie operad]]_ ([pdf](http://math.ucr.edu/home/baez/trimble/trimble_lie_operad.pdf))
+
 
 [[!redirects operads]]
 
