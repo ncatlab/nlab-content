@@ -26,6 +26,24 @@ Therefore the [[algebra over an operad|algebras over]] the $E_k$ operad are "$k$
 The limiting $E_\infty$ operad is the resolution of the ordinary commutative monoid operad $Comm$. Its algebras are [[commutative algebra in an (infinity,1)-category|homotopy commutative monoid objects]] such as $E_\infty$-[[E-infinity-ring|rings]].
 
 
+
+## Definition
+
+### Presentation by enriched operads
+
+(...)
+
+**Remark**
+
+Many models for $E_\infty$-operads in the literature are not in fact cofibrant in the [[model structure on operads]], but are $\Sigma$-cofibrant. By the therem at [[model structure on algebras over an operad]], this is sufficient for their categories of algebras to present the correct $\infty$-categories of [[E-∞ algebras]].
+
+(...)
+
+
+### As $\infty$-operads
+
+(...)
+
 ## Properties
 
 
