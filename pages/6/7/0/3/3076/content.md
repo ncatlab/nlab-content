@@ -37,6 +37,14 @@
 
 * [[2-limit]]
 
+  * [[inserter]]
+
+  * [[equifier]]
+
+  * [[inverter]]
+
+  * [[PIE-limit]]
+
 * [[2-pullback]], [[comma object]]
 
 ## (∞,1)-Categorical
