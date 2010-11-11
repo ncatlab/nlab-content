@@ -15,7 +15,7 @@
 
 ## Idea
 
-A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]] to any kind of structure you could imagine.  These are helpful because it's much easier to check that the structures one maps to (numbers, groups, etc.) are different than it is to check that knots are different.
+A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]] to any kind of structure you could imagine.  These are helpful because it is much easier to check that the structures one maps to (numbers, groups, etc.) are different than it is to check that knots are different.
 
 ## Examples
 
