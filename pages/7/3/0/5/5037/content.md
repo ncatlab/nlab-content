@@ -65,7 +65,9 @@ Generally this entry is based on
 
 but see also:
 
-*  A Galton, [Temporal Logic, (Stanford Encyclopedia of Philosophy)] (http://plato.stanford.edu/entries/logic-temporal/)
+*  A. Galton, [Temporal Logic, (Stanford Encyclopedia of Philosophy)] (http://plato.stanford.edu/entries/logic-temporal/)
 
-* Patrick Blackburn, _Tense, Temporal Reference and Tense Logic_, Journal of Semantics, 1994,11,
+* [[Patrick Blackburn]], _Tense, Temporal Reference and Tense Logic_, Journal of Semantics, 1994,11,
+
+[[!redirects temporal logics]]
     pages 83--101, [on-line version](http://www.loria.fr/~blackbur/papers/tense.pdf)
