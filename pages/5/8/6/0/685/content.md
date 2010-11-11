@@ -28,17 +28,21 @@ A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-categ
 
 1. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and [[bicategory|weakly]] true otherwise), Cat-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve 2-cells as well as 1-cells.
 
+## Definition
 
-## $2$-colimits
+Let $K$ and $D$ be [[2-categories]], and $J\colon D\to Cat$ and $F\colon D\to K$ be [[2-functors]].  A **$J$-weighted (2-)limit of $F$** is an object $L\in K$ equipped with a [[pseudonatural equivalence]]
+$$ K(X,L) \simeq [D,Cat](J,K(X,F-)). $$
+where $[D,Cat]$ denotes the 2-category of 2-functors $D\to Cat$ and [[pseudonatural transformations]] between them.
 
-Everything below applies dually to __$2$-colimits__, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
-
+A 2-limit in $K^{op}$ is called a **2-colimit** in $K$.  Everything below applies dually to 2-colimits, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
 
 ## Strictness and terminology 
 
-In a [[strict 2-category]], one can also consider [[strict 2-limit|strict 2-limits]], which are precisely Cat-weighted limits in the sense of ordinary [[enriched category]] theory.  In a strict 2-category these "strict" limits are often technically useful in constructing the "up-to-isomorphism" 2-limits we consider here.  See [[strict 2-limit]] for details.
+If $K$ and $D$ are [[strict 2-categories]], $J$ and $F$ are [[strict 2-functors]], and if we we replace this pseudonatural equivalence by a (strictly 2-natural) isomorphism *and* the 2-category $[D,Cat]$ by the 2-category $[D,Cat]_{strict}$ of strict 2-functors and strict 2-natural transformations, then we obtain the definition of a **[[strict 2-limit]]**.  This is precisely a Cat-weighted limit in the sense of ordinary [[enriched category]] theory.  See [[strict 2-limit]] for details.
 
-When we know we are working in a (weak) 2-category, the only type of limit that makes sense is a 2-limit.  Therefore, we usually call these simply "limits."  To emphasize the distinction with the strict 2-limits in a strict 2-category, the "up-to-isomorphism" 2-limits were historically often called _bilimits_ (by analogy with [[bicategory]] for "weak 2-category").  However, this terminology is somewhat unfortunate, not only because it doesn't generalize well to $n$, but because it leads to words like "biproduct," which also has the [[biproduct|completely unrelated meaning]] of an object that is both a product and a coproduct (which is common in [[additive category|additive categories]]).
+On the other hand, if $K$, $D$, $J$, and $F$ are strict as above, and we replace the equivalence by an isomorphism but keep the weak meaning of $[D,Cat]$, then we obtain the notion of a **strict pseudolimit**.  Strict pseudolimits are, in particular, 2-limits, whereas strict 2-limits are not always (although some, such as [[PIE-limits]] and [[flexible limits]], are).  In a strict 2-category, these types of strict limits are often technically useful in constructing the "up-to-isomorphism" 2-limits we consider here.
+
+When we know we are working in a (weak) 2-category, the only type of limit that makes sense is a (non-strict) 2-limit.  Therefore, we usually call these simply "limits."  To emphasize the distinction with the strict 2-limits in a strict 2-category, the "up-to-isomorphism" 2-limits were historically often called _bilimits_ (by analogy with [[bicategory]] for "weak 2-category").  However, this terminology is somewhat unfortunate, not only because it doesn't generalize well to $n$, but because it leads to words like "biproduct," which also has the [[biproduct|completely unrelated meaning]] of an object that is both a product and a coproduct (which is common in [[additive category|additive categories]]).
 
 Unfortunately, we probably shouldn't use "weak limit" to emphasize the "up-to-isomorphism" nature of these limits, because that also has the [[weak limit|completely unrelated meaning]] of an object in a 1-category satisfying the existence, but not the uniqueness property of an ordinary limit.
 
