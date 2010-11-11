@@ -9,14 +9,22 @@
 =--
 =--
 
-A __knot invariant__ is map from [[isotopy]] classes of [[knots]] to any kind of structure you could imagine.  These are helpful because it's much easier to check that the structures one maps to (numbers, groups, etc.) are different than it is to check that knots are different.
+#Contents#
+* table of contents
+{:toc}
 
-Examples include
+## Idea
+
+A __knot invariant__ is map from [[isotopy]] [[equivalence class]]es of [[knots]] to any kind of structure you could imagine.  These are helpful because it's much easier to check that the structures one maps to (numbers, groups, etc.) are different than it is to check that knots are different.
+
+## Examples
+
+
 * [[crossing number]]
 * [[bridge number]]
 * [[unknotting number]]
 * [[colorability]]
-* [[knot group]]= the fundamental group of the complement of the knot.
+* [[knot group]]= the [[fundamental group]] of the complement of the knot.
 * [[knot genus]]
 * [[Jones polynomial]]
 * [[HOMFLY polynomial]]
