@@ -1,5 +1,5 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -8,6 +8,7 @@
 A **finite group** is a [[group]] whose underlying [[set]] is [[finite set|finite]].
 
 This is equivalently a [[group object]] in [[FinSet]].
+
 
 ## Classification
 
@@ -25,6 +26,7 @@ For more on this see
 
 * [[classification of finite simple groups]].
 
+
 ## Examples
 
 * For every [[natural number]] $n \in \mathbb{N}$, the group
@@ -36,3 +38,8 @@ For more on this see
   which is the quotient of the additive group of [[integer]]s by its action on itself my multiplication with multiples of $n$ is a finite group.
 
 * The largest finite group that is also a [[sporadic simple group]], i.e., does not belong(up to isomorphism) to the infinite family of the alternating groups or to the infinite family of finite groups of Lie type, is the [[Monster group]].
+
+
+[[!redirects finite group]]
+[[!redirects finite groups]]
+[[!redirects finit group]]
