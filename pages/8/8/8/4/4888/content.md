@@ -123,7 +123,7 @@ Associated $\infty$-bundles in terms of the presentation of the $(\infty,1)$-top
 
 Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfield localization of model categories]] is in
 
-* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf))
+* [[Matthias Wendt]], _Fibre sequences and localization of simplicial sheaves_ ([pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf))
 
 
 [[!redirects associated ∞-bundle]]
