@@ -1,10 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 # Adjoint equivalences
 * table of contents
 {: toc}
 
 ## Idea
 
-An adjoint equivalence is a more "coherent" or "structured" notion of [[equivalence]], in which the isomorphisms relating composites to identities are required to satisfy coherence laws (the triangle identities for an [[adjunction]]).
+An adjoint equivalence is a more "coherent" or "structured" notion of [[equivalence]], in which the [[2-morphism|2-]][[isomorphism]]s relating composites to identities are required to satisfy [[coherence law]]s (the [[triangle identities]] for an [[adjunction]]).
 
 ## Definition
 
