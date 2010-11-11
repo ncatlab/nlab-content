@@ -129,7 +129,13 @@ $$
 This is discussed and realized in section 1.2. of ([Lurie](#Lurie)). The tensor product is defined in appendix B.7.
 
 
+## Related concepts
 
+* [[A-∞ operad]]
+
+* **$E_\infty$-operad**
+
+* [[L-∞ operad]]
 
 
 ## References
