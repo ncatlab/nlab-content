@@ -30,3 +30,11 @@ The $n^{th}$ Brown-Grossman homotopy group of $(X,*)$ is given by the  group of 
 
 $$\underline{\pi}_n(X,*) = Ho(Proper)(\underline{S}^n, (X,*)).$$
 =--
+
+
+###Properties###
+1. As was pointed out above, the $\underline{S}^n$ are cogroups so the $\underline{\pi}_n(X,*)$ are groups, which are abelian for $n\geq 2$.
+
+1. In fact the $\underline{\pi}_n(X,*)$ form a $\Pi_\mathcal{A}$-[[spherical object|algebra]] for $\mathcal{A}$ as above.  Not only are there the sort of morphisms in $\Pi_\mathcal{A}$ that will induce analogues of [[Whitehead products]], [[composition operations]] etc. but there are other interesting morphisms there, for instance: 
+
+1. There is a proper **shift map** $S: \underline{S}^n\to \underline{S}^n$, which  shifts all the spheres one place to the right.   This induces, by composition, a morphism $S^*(X): \underline{\pi}_n(X,*)\to \underline{\pi}_n(X,*)$. This means that each individual $\underline{\pi}_n(X,*)$ has more structure than simply being a group.
