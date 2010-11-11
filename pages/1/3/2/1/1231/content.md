@@ -1,12 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Koszul duality
-* tic
+* table of contents
 {: toc}
 
+## Idea
 
 __Koszul duality__ is a duality and phenomenon generalizing the duality between the symmetric and exterior algebra of a vector space to so-called quadratic [[differential graded algebra]]s (which can be obtained as a free dga module an ideal of relations which live in degree 2). For a pair of Koszul dual algebras, there is a correspondence between certain parts of their derived categories (precise formulation involves some finiteness conditions). In a setup in which one of the algebras is replaced by a cocomplete dg coalgebra, there is a formulation free of finiteness conditions, but involving [[twisting cochain]] (see that entry).
 
 
-##Informal discussion
+## On operad
+
+Koszul duality is a duality between [[quadratic operad]]s, predicted in 
+
+* [[Maxim Kontsevich|M. Kontsevich]], _Formal (non)commutative symplectic geometry_,  The Gel&#697;fand Mathematical Seminars, 1990--1992,  173--187, Birkh&#228;user, Boston, MA, 1993 (cf. [[formal noncommutative symplectic geometry]]).
+
+and developed in
+
+* [[Victor Ginzburg]], [[Mikhail Kapranov]], _Koszul duality for operads_, Duke Math. J. __76__ (1994),  no. 1, 203--272; reprint [arxiv/0709.1228](http://arxiv.org/abs/0709.1228); *Erratum to: Koszul duality for operads*, Duke Math. J. __80__ (1995),  no. 1, 293. 
+
+
+
+## For assoociative and dg-algebras
 
 There are a lot of algebras whose derived categories are equivalent in surprising ways.  [[Morita equivalences]] are pretty simple, especially for finite dimensional algebras; essentially the only free parameter is the dimension of the object.
 
@@ -34,17 +59,7 @@ In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any intere
 * Braden, Licata, Proudfoot and Webster gave a combinatorial construction of a large family of Koszul dual algebras in [Gale duality and Koszul duality](http://front.math.ucdavis.edu/0806.3256).
 
 
-##Generalization to operads
-
-There is a further generalization to [[quadratic operad]]s, predicted in 
-
-* [[Maxim Kontsevich|M. Kontsevich]], _Formal (non)commutative symplectic geometry_,  The Gel&#697;fand Mathematical Seminars, 1990--1992,  173--187, Birkh&#228;user, Boston, MA, 1993 (cf. [[formal noncommutative symplectic geometry]]).
-
-and developed in
-
-* [[Victor Ginzburg]], [[Mikhail Kapranov]], _Koszul duality for operads_, Duke Math. J. __76__ (1994),  no. 1, 203--272; reprint [arxiv/0709.1228](http://arxiv.org/abs/0709.1228); *Erratum to: Koszul duality for operads*, Duke Math. J. __80__ (1995),  no. 1, 293. 
-
-##Other references
+## References
 
 Other historical references on Koszul duality include
 
@@ -57,3 +72,6 @@ Koszul duality is also discussed in [[John Baez]]' [This Week's Finds in Mathema
 * [Week 238](http://math.ucr.edu/home/baez/week238.html), [Week 239](http://math.ucr.edu/home/baez/week239.html)
 
 in "the Everything Seminar" [koszul-duality-and-lie-algebroids](http://cornellmath.wordpress.com/2008/03/25/koszul-duality-and-lie-algebroids) and at MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)
+
+
+[[!redirects Koszul dual]]
