@@ -9,15 +9,7 @@
 =--
 =--
 
-* [[functor]]
 
-* [[2-functor]] / [[pseudo-functor]]
-
-* [[n-functor]]
-
-* **$(\infty,1)$-functor**
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -35,7 +27,7 @@ An _$(\infty,1)$-functor_ is a morphism between [[(∞,1)-categories]]. It gener
 
 * the notion of [[n-functor]] between [[(n,r)-category|(n,1)-categories]].
 
-An $(\infty,1)$-functor is _functorial_ (respects [[composition]]) only up to [[coherent]] higher [[homotopies]]. It may be thought of as a **homotopy coherent functor** or **strongly homotopy functor**.
+An $(\infty,1)$-functor is _functorial_ (respects [[composition]]) only up to [[coherent]] higher [[homotopies]]. It may be thought of as a **[[homotopy coherent functor]]** or **strongly homotopy functor**.
 
 The collection of all $(\infty,1)$-functors between two $(\infty,1)$-categories form an [[(∞,1)-category of (∞,1)-functors]].
 
@@ -203,6 +195,17 @@ $$
 =--
 
 More on this is at [[(∞,1)-category of (∞,1)-presheaves]].
+
+## Related concepts
+
+* [[functor]]
+
+* [[2-functor]] / [[pseudo-functor]]
+
+* [[n-functor]]
+
+* **$(\infty,1)$-functor**
+
 
 ## References
 
