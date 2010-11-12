@@ -1,22 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * automatic table of contents goes here
 {:toc}
 
-+-- {: .standout}
-
-**Disclaimer**
-
-In discussion elsewhere it has been asserted that half-baked and incomplete entries are welcome on nLab.  So I'm putting that to the test. -- [[Kevin Walker|KW]]
-
-Yes, very welcome. Thanks! -- [[Urs Schreiber|US]].
-
-=--
 
 
 ## Idea
 
-One way of thinking of the blob complex is as a generalization of the [[Hochschild complex]] to [[higher category theory|higher categories]] and higher dimensional [[manifold]]s.  
+The _blob complex_ maybe thought of as a generalization of the [[Hochschild complex]] to [[higher category theory|higher categories]] and higher dimensional [[manifold]]s.  
 
 One thinks of the Hochschild complex as associated to a 1-[[category]] and a 1-[[manifold]] (the circle).  It's a fairly small complex, analogous to cellular homology.  The blob complex for the same input data (1-category and circle) yields a [[quasi-isomorphism|quasi-isomorphic]] but much much larger [[chain complex]], analogous to [[singular homology]].  
 
@@ -50,7 +52,7 @@ There are two definitions.  The second is more general, and is homotopy equivale
 ...
 
 
-## Related entries
+## Related concepts
 
 Blob homology has some similarities with 
 
