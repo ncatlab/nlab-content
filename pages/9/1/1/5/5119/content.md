@@ -3,7 +3,7 @@
 * table of contents
 {:toc}
 
-##Algebraic semantics for modal logics##
+##Algebras for modal logics##
 
 ##Idea##
 Classical [[propositional calculus]] has an algebraic model, namely a Boolean algebra. With a bit of imagination, one can give it a combinatorial model on the line of Kripke semantics. As this ordinary propositional logic has no modal operators, then the corresponding [[frame (modal logic)|frames]] have no relations, so are just sets.  If $W$ is such a set, (of worlds), a valuation $V: Prop \to 2^W$ just assigns to each $p \in Prop$ and $w\in W$ a truth value, $\top$ or $\bot$, (true or false).  We know however that there is a Boolean algebra structure around in that power set $2^W$ and the semantics extends the assignment given by $V$ to a map of algebras, from the term algebra based on the basic propositional language to the Boolean algebra of subsets of $W$. That is just to say that it builds up that extension of $V$ bit-by-bit on the terms. This gives an algebraic interpretation or representation of the terms of the logic in terms of the algebra of subsets of $W$, in other words an algebraic semantics.
@@ -30,7 +30,7 @@ The __operators__ that we need to add into the Boolean algebras do not always pr
 ######Definition######
 A function, $m : B\to B$ is called an __operator__ on the Boolean algebra, $\mathbb{B}$, if it is _additive_
 
-$$m(x+y) = mx + my.$$
+$$m(x+y) = m x + m y.$$
 
 The operator, $m$, is called __normal__ if $m0=0$.
 =--
@@ -103,3 +103,7 @@ There is an excellent short survey article (versions of which are available on t
 *  [[Robert Goldblatt]], _Algebraic Polymodal Logic: A Survey_, the Logic Journal of the 
 IGPL, 8, (2000) pages 393&#8211;450, Special Issue on Algebraic Logic, edited by Istvan Nemeti and 
 Ildiko Sain. 
+
+[[!redirects modal algebra]]
+
+[[!redirects polymodal algebra]]
