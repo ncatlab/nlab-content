@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * tic
 {: toc}
 
 ## Idea
 
-A **virtual double category** is a common generalization of a [[monoidal category]], a [[bicategory]], a [[double category]], and a [[multicategory]].  It contains:
+A **virtual double category** or **$fc$-multicategory** is a common generalization of a [[monoidal category]], a [[bicategory]], a [[double category]], and a [[multicategory]].  It contains:
 
 * objects
 * vertical arrows, which form a category
@@ -57,7 +69,7 @@ Virtual double categories, functors, and transformations form a [[strict 2-categ
 
 ### Profunctors
 
-Finally, the **profunctors** between virtual double categories are a similar "virtualization" of the notion of [[double profunctor]] between double categories.  Explicitly, a profunctor $H\colon C &#8696; D$ consists of:
+The **profunctors** between virtual double categories are a similar "virtualization" of the notion of [[double profunctor]] between double categories.  Explicitly, a profunctor $H\colon C &#8696; D$ consists of:
 
 * An ordinary [[profunctor]] $H_0\colon C_0 &#8696; D_0$ between the categories of objects and vertical arrows.
 * For each string of horizontal arrows $X_0 \overset{p_1}{\to} X_1 \to\dots \to X_n$ in $D$, each horizontal arrow $Y_0 \overset{q}{\to} Y_1$ in $C$, and each pair of elements $f \in H_0 (X_0,Y_0)$ and $g\in H_0(X_n,Y_1)$, a set of "hetero-cells" of shape
@@ -71,20 +83,117 @@ Every [[double profunctor]] induces such a profunctor in an evident way, but eve
 As mentioned above in the context of the abstract definition, virtual double categories, functors, transformations, and profunctors form another virtual double category, which is in fact a [[virtual equipment]].
 
 
+### Monads on virtual double categories {#Monads}
+
++-- {: .un_defn}
+###### Definition
+
+A _monad on a virtual double category_  is a [[monad]] in the [[2-category]] [[vDbl]]. 
+
+=--
+
+So a monad on a $X \in vDbl$ consists of a functor
+
+$$
+  T : \mathbb{X} \to \mathbb{X}
+$$
+
+and transformations $\eta : Id  \to T$ and $\mu : T T \to T$ satisfying [[associativity]] and [[unitality]].
+
+
+#### Monoids and modules
+
+
++-- {: .un_defn}
+###### Definition
+
+For $T$ a monad on $\mathbb{X} \in $ [[vDbl]], a **$T$-monoid** is 
+
+* an object $X_0 \in \mathbb{X}$;
+
+* a horizontal morphism $X_0 \stackrel{X}{&#8696;} T X_0$
+
+* an [[action]] [[2-morphism]]
+
+  $$
+    \array{
+       X_0 &\stackrel{X}{&#8696;} & T X_0 
+        & \stackrel{T X}{&#8696;} T^2 &  X_0
+       \\
+       {}^{\mathllap{=}}\downarrow && \Downarrow^{\bar x}
+       &&  \downarrow^{\mathrlap{\mu}}
+       \\
+       X_0 && \underset{X}{&#8696;}  && T X_0
+    }
+  $$
+
+  and a [[unit]] 2-morphism
+
+  $$
+    \array{
+       && X_0
+       \\
+       & {}^{\mathllap{=}}\nearrow &\Downarrow^{\bar x}& \searrow^{\mathrlap{\eta}}
+       \\
+       X_0 &&\underset{X}{&#8696;}&& T X_0
+    }
+  $$
+
+satisfying the evident compatibility conditions.
+
+=--
+
+This is ([CruttwellShulman, def. 4.2](#CruttwellShulman)).
+
+
++-- {: .un_defn}
+###### Definition
+
+A $T$-monoid $X_0 \stackrel{X}{&#8696;} T X_0$ is called **normalized** if its unit 2-morphism
+
+$$
+  \array{
+    X_0 &\stackrel{U_{X_0}}{\to}& X_0
+    \\
+    {}^{\mathllap{=}}\downarrow && \dowmarrow^{\mathrlap{\eta}}
+    \\
+    X_0 &\underset{X}{&#8696;}& T X_0
+  }
+$$
+
+is a [cartesian 2-morphism](#...).
+
+=--
+
+
+#### Generalized multicategories
+
+
++-- {: .un_defn}
+###### Definition
+
+A **[[generalized multicategory]]** is a normalized $T$-monoid for some monad $T$ on a [[virtual equipment]] $\mathbb{X} \in $ [[vDbl]].
+
+=--
+
+This is ([CruttwellShulman, page 7](#CruttwellShulman)).
+
+
+
+
 ## Enriching categories
 
 Virtual double categories can be viewed as "the natural place in which to enrich categories."  Specifically, for any set $A$, there is a virtual double category $A_{ch}$ which has $A$ as its objects, only identity vertical arrows, exactly one horizontal arrow from every object to every other object, and exactly one 2-cell in every possible niche.  For any other virtual double category $W$, a functor $A_{ch}\to W$ of virtual double categories is the same as a $W$-enriched category with object set $A$.
 
 
-## Monoids and modules
-
-...
 
 
 ## References
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_, [link](http://www.maths.gla.ac.uk/~tl/book.html), [arXiv:0305049](http://arxiv.org/abs/math/0305049)
+
 * [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, [arXiv:0907.2460](http://arxiv.org/abs/0907.2460)
+{#CruttwellShulman}
 
 [[!redirects virtual double categories]]
 [[!redirects fc-multicategory]]
