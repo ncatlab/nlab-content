@@ -90,7 +90,7 @@ for the corresponding [[∞-groupoid cardinality]].
 
 ## Examples
 
-### Dirac $\delta$-distributions
+### Dirac $\delta$-distributions {#DiracDeltaDistribution}
 
 A [[point of a topos]] is a [[geometric morphism]] of the form
 
