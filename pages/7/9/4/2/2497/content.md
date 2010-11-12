@@ -70,6 +70,9 @@ A rough pre-preprint is here:
 * [[Scott Morrison]] and [[Kevin Walker]], _The Blob Complex_ ([pdf](http://canyon23.net/math/blob1.pdf)
 [web](http://tqft.net/blobs))  
 
+and a recent version on the [ArXiv](http://arxiv.org/PS_cache/arxiv/pdf/1009/1009.5025v1.pdf).
+
+
 Notes from talks can be found [here](http://canyon23.net/math/talks) and [here](http://tqft.net/UCR-blobs1).
 
 Some notes appeared in the context of the
