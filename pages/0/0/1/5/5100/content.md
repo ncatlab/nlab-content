@@ -28,6 +28,10 @@ You might be thinking of [[lax natural transformations]].  B&#233;nabou has done
 
 Finn, after I wrote my comment somebody completely rewrote the page; you saw a comment which referred to a previous version.  I had copied the original version directly from the [[Elephant]]; it says "natural isomorphism" quite clearly on page 260.  Perhaps this new definition is better.  Who knows.  Anyways, I've deleted the reference since the page now describes something different. -- [[Adam]]
 
+[[Finn Lawler|Finn]]:  You can see the revision history of a page by clicking on the **History** link below.  After you created the page [[Urs Schreiber|Urs]] tidied it up but didn't change the content.
+
+The Elephant gives essentially the same definition as above; in particular, the 'natural isomorphism' it mentions is (in this page's notation) between $\mathbb{D}(f) \circ F^B$ and $F^A \circ \mathbb{C}(f)$ as above, not $F^B$ and $F^A$ as you'd written.
+
 =--
 
 
