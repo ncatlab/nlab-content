@@ -9,16 +9,8 @@
 =--
 =--
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
-
-* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
-
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
-
-* **principal $\infty$-bundle** / [[associated ∞-bundle]]
 
 
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -305,7 +297,7 @@ $$
   }
 $$
 
-in $mathbf{H}$.
+in $\mathbf{H}$.
 
 We call the [[groupoid object in an (infinity,1)-category|groupoid object]] $(V \times G^\bullet)$ the **[[action groupoid]]** of the $G$-action on $V$. (For us it _defines_ this $G$-action.)
 
@@ -680,6 +672,17 @@ Classes of examples include
   Classes of examples include
 
   * the [[Chern-Simons bundle 2-gerbe]].
+
+
+## Related concepts
+
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+
+* **principal $\infty$-bundle** / [[associated ∞-bundle]]
  
 
 ## References
