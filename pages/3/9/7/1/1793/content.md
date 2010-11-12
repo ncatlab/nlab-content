@@ -614,7 +614,7 @@ on how to do homological algebra with unbounded complexes (in both sides) where 
 
 shown that there is a model category structure on the category of unbounded chain complexes, reproduced Spaltenstein's results from that perspective and extended them widely. 
 
-The article variant model structures on chain complexes are discussed in
+The article 
 
 * [[Dan Christensen]], [[Mark Hovey]], _Quillen model structures for relative homological algebra_ ([pdf](http://jdc.math.uwo.ca/papers/relative.pdf))
 {#ChristensenHovey}
