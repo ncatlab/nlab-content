@@ -21,16 +21,14 @@ Then an **$\mathbb{E}$-indexed functor** $F:{\mathbb{C}}\to{\mathbb{D}}$ is a [[
 
 +-- {: .query}
 
-Would it be fair to define a "weak indexed functor" as above except with a natural transformation rather than natural isomorphism?  I'm starting to wonder why Johnstone bothered reversing the direction if the components are all isos. -- [[Adam]]
 
 [[Finn Lawler|Finn]]:  The components of the transformation $F$ are not invertible in general --- it's the 2-cells in the naturality squares for $F$ that are isos.
 
 You might be thinking of [[lax natural transformations]].  B&#233;nabou has done some work on generalizing Grothendieck's correspondence between pseudofunctors (i.e. indexed categories) and fibrations where lax transformations turn up.  See e.g. some lecture notes [here](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf).
 
+Finn, after I wrote my comment somebody completely rewrote the page; you saw a comment which referred to a previous version.  I had copied the original version directly from the [[Elephant]]; it says "natural isomorphism" quite clearly on page 260.  Perhaps this new definition is better.  Who knows.  Anyways, I've deleted the reference since the page now describes something different. -- [[Adam]]
+
 =--
 
-## References
-
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]: A Topos Theory Compendium_ Clarendon Press; New York: Oxford University Press, 2002, (p260)
 
 [[!redirects indexed functors]]
