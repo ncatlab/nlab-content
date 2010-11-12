@@ -32,6 +32,8 @@ Finn, after I wrote my comment somebody completely rewrote the page; you saw a c
 
 The Elephant gives essentially the same definition as above; in particular, the 'natural isomorphism' it mentions is (in this page's notation) between $\mathbb{D}(f) \circ F^B$ and $F^A \circ \mathbb{C}(f)$ as above, not $F^B$ and $F^A$ as you'd written.
 
+Finn, you can see the revision history of a page by clicking on the **History** link below.  The original version of the page contained the text "natural isomorphism", and the current page does not contain that text.  There's nothing wrong with that (perhaps it's a change for the better), but my comment certainly isn't relevant to the new content, and you responded as if I was commenting on the new content.  -- [[Adam]]
+
 =--
 
 
