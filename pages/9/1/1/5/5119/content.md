@@ -65,7 +65,7 @@ Let $\mathfrak{F} = (W ,R)$ be a frame. We define on the power set Boolean algeb
     
 $$m(T) = \{w \in W : \exists t\in T, R w t \}$$
   
-It perhaps pays to interpret this in the case where $R$ is a partial order and when it is an equivalence relation. In the first case, this ill be the set of states less than or equal to something in $T$, in the second it is the union of all equivalence classes that contain an element of $T$. 
+It perhaps pays to interpret this in the case where $R$ is a [[preorder]] and when it is an equivalence relation. In the first case, this ill be the set of states less than or equal to something in $T$, in the second it is the union of all equivalence classes that contain an element of $T$. 
 +--{: .un_lemma}
 ######Lemma######  
 The function $m$ is a normal operator.  
@@ -105,5 +105,6 @@ IGPL, 8, (2000) pages 393&#8211;450, Special Issue on Algebraic Logic, edited by
 Ildiko Sain. 
 
 [[!redirects modal algebra]]
-
+[[!redirects modal algebras]]
 [[!redirects polymodal algebra]]
+[[!redirects polymodal algebras]]
