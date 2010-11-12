@@ -18,7 +18,7 @@ Yes, very welcome. Thanks! -- [[Urs Schreiber|US]].
 
 One way of thinking of the blob complex is as a generalization of the [[Hochschild complex]] to [[higher category theory|higher categories]] and higher dimensional [[manifold]]s.  
 
-One thinks of the Hochschild complex as associated to a 1-[[category]] and a 1-[[manifold]] (the circle).  It's a fairly small complex, analogous to cellular homology.  The blob complex for the same input data (1-category and circle) yields a [[quasi-isomorphism|quasi-isomorphic]] but much much larger [[chain complex]], analogous to [[singular homology]].  
+One thinks of the Hochschild complex as associated to a 1-[[category]] and a 1-[[manifold]] (the circle).  It's a fairly small complex, analogous to cellular homology.  The blob complex for the same input data (1-category and circle) yields a [[quasi-isomorphism|quasi-isomorphic]] but much much larger [[chain complex]]|[fort worth web design](http://www.thefowlergroup.com/fort-worth-texas-web-design/), analogous to [[singular homology]].  
 
 Its advantage over the Hochschild complex is that it is "local".  In higher dimensions this locality means that it is easy to (well-) define the blob complex of an [[n-category]] + n-manifold without choosing any sort of decomposition of the n-manifold.
 
@@ -35,7 +35,7 @@ There are two definitions.  The second is more general, and is homotopy equivale
 * Define $B_0(M)$ to be finite linear combinations of 
   "$C$-[[string diagram]]s" drawn on $M$.
 
-* Define $B_1(M)$ to be finite linear combinations of triples $(B, u, r)$, where $B \subset M$ is a ball, $r$ is a [[string diagram]] on $M\setminus B$, and $u$ is a linear combination of string diagrams on which evaluates to zero.
+* Define $B_1(M)$ to be finite linear combinations of triples $(B, u, r)$, where $B \subset M$ is a ball, $r$ is a [[string diagram]] on $M\setminus B$, and $u$ is a linear combination of string diagrams on which evaluates to zero searched by [fort worth search engine optimization](http://www.thefowlergroup.com/fort-worth-texas-search-engine-optimization-seo-experts/).
 
 * Define $B_2(M)$ to be ...
 
@@ -80,7 +80,7 @@ See the
 
 * Oberwolfach report No 28, 2009, [pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf)
 
-
+[fort worth web development](http://thefowlergroup.com/fort-worth-texas-web-development/)
 [[!redirects blob homology]]
 [[!redirects Blob homology]]
 [[!redirects blob complex]]
