@@ -4,11 +4,17 @@
 {:toc}
 
 ## Idea: use a string of spheres not just one!
-Given a locally compact and $\sigma$-compact space $X$, and with a base ray $* : [0,\infty) \to X$, with end $\varepsilon(X)$, the &#268;ech homotopy groups of $\varepsilon(X)$ relative to $*$ are defined by $lim \pi_n(\varepsilon(X))$.  These 'make sense' but do not behave well, since the limit will destroy exactness in situations where we would hope for and expect long exact sequences. E.M. Brown (1974) suggested a different construction based on an infinite string of spheres:
+
+Within the context of [[proper homotopy theory]], what might be the analogues of the classical homotopy groups?  We might hope that &#268;ech style homotopy groups would work, but they don't, or rather, 'not exactly'!
+
+Given a locally compact and $\sigma$-compact space $X$, and with a base ray $* : [0,\infty) \to X$, with end $\varepsilon(X)$, the &#268;ech homotopy groups of $\varepsilon(X)$ relative to $*$ are defined by $lim \pi_n(\varepsilon(X))$.  These 'make sense' but do not behave well, since the limit will destroy exactness in situations where we would hope for, and expect, long exact sequences. The problem is related to the fact that, depending how you view this, we are using just one sphere, or alternatively an infinite sequence of unrelated spheres. 
+
+E.M. Brown (1974) suggested a different construction based on an infinite string of spheres and this helps reveal extra structure that helps:
+
 ##Strings of spheres
 +--{: .un_defn}
 ######Definition######
-Let $\underline{S}^n = ([0,\infity) \cup \bigcup_{k=0}^\infty(S^n \times \{k\})/(k\sim (\underline{1},k)$. This is called a **string of $n$-spheres.**
+Let $\underline{S}^n = ([0,\infty) \cup \bigcup_{k=0}^\infty(S^n \times \{k\})/(k\sim (\underline{1},k)$. This is called a **string of $n$-spheres.**
 =--
 This, of course, means that $\underline{S}^n $ is defined as a pushout
  
@@ -38,3 +44,12 @@ $$\underline{\pi}_n(X,*) = Ho(Proper)(\underline{S}^n, (X,*)).$$
 1. In fact the $\underline{\pi}_n(X,*)$ form a $\Pi_\mathcal{A}$-[[spherical object|algebra]] for $\mathcal{A}$ as above.  Not only are there the sort of morphisms in $\Pi_\mathcal{A}$ that will induce analogues of [[Whitehead products]], [[composition operations]] etc. but there are other interesting morphisms there, for instance: 
 
 1. There is a proper **shift map** $S: \underline{S}^n\to \underline{S}^n$, which  shifts all the spheres one place to the right.   This induces, by composition, a morphism $S^*(X): \underline{\pi}_n(X,*)\to \underline{\pi}_n(X,*)$. This means that each individual $\underline{\pi}_n(X,*)$ has more structure than simply being a group.
+
+##The variant 'at the end'##
+###The Brown-Grossman homotopy groups at $\infty$###
++--{: .un_defn}
+######Definition######
+The $n^{th}$ Brown-Grossman homotopy group of $(X,*)$ at $\infty$ is given by the  group of based germs of proper homotopy classes of based proper germs from $\underline{S}^n$ to $(X,*)$;
+
+$$\underline{\pi}^\infty_n(X,*) = Ho(Proper_\infty)(\underline{S}^n, (X,*)).$$
+=--
