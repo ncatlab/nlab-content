@@ -302,3 +302,8 @@ Books:
 
 * Bruce Hughes and Andrew Ranicki, _Ends of Complexes_, Cambridge Tracts in Mathematics (No. 123), C.U.P.
 
+
+Lecture Notes:
+
+*   D. A. Edwards and H. M. Hastings, _&#268;ech and Steenrod Homotopy Theory with Applications,_ SLNM 542, Springer (1976).
+* 
