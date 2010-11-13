@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-In model theory, an ultrapower of a structure with respect to an ultrafilter is a common method for creating new structures, with applications to nonstandard arithmetic and nonstandard analysis. It is a standard construction for constructing models which embody infinite and infinitesimal quantities, as in Robinson nonstandard analysis. 
+In model theory, an ultrapower of a structure with respect to an ultrafilter is a common method for creating new structures, with applications to nonstandard arithmetic and nonstandard analysis. It is a standard construction for constructing models which embody infinite and infinitesimal quantities, as in [[Abraham Robinson]]'s nonstandard analysis. 
 
 An ultrapower is a special case of _ultraproduct_; see the description under the sheaf-theoretic interpretation below. 
 
@@ -79,6 +79,6 @@ is the ultrapower $Y^X/\mathcal{U}$. (Hm, is that right?)
 
 If $\mathcal{U}$ is a _principal_ ultrafilter, then the ultrapower of $Y$ is isomorphic to $Y$ again. Thus the interest in ultrapowers relies on the existence of non-principal ultrafilters, which requires some sort of choice principle. 
 
-An important application is to $Y = \mathbb{R}$ as a model of the theory of ordered fields. If $\mathcal{U}$ is a non-principal ultrafilter on the set of natural numbers $\mathbb{N}$, then the model $\mathbb{R}^{\mathbb{N}}/\mathcal{U}$ provides a model for nonstandard analysis (in the sense promulgated by Abraham Robinson). There are in particular infinitesimal elements in the ultrapower, for example the $\sim$-equivalence class of the sequence $\langle 1/n \rangle_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}}$. 
+An important application is to $Y = \mathbb{R}$ as a model of the theory of ordered fields. If $\mathcal{U}$ is a non-principal ultrafilter on the set of natural numbers $\mathbb{N}$, then the model $\mathbb{R}^{\mathbb{N}}/\mathcal{U}$ provides a model for nonstandard analysis (in the sense promulgated by [[Abraham Robinson]]). There are in particular infinitesimal elements in the ultrapower, for example the $\sim$-equivalence class of the sequence $\langle 1/n \rangle_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}}$. 
 
 At the same time, the ultrapower is elementarily equivalent to $\mathbb{R}$, so that the sentences true for $\mathbb{R}$ in the first-order theory of ordered fields coincide with the sentences that are true for the ultrapower. This principle assures us that any conclusions adduced with the help of infinitesimals in the ultrapower are still valid in the standard model $\mathbb{R}$; in some cases, however, the arguments based on infinitesimals may offer more perspicuous proofs. 
