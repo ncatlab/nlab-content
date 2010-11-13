@@ -61,7 +61,8 @@ In particular, this means that any [[local geometric morphism]] or [[totally con
 
 ## References
 
-* Artin-Mazur, *Etale homotopy*
+* M. Artin and B. Mazur, 1969, _Etale homotopy_, No. 100, Lecture Notes in Maths., 
+Springer-Verlag, Berlin.
 
 [[!redirects homotopy equivalence of toposes]]
 [[!redirects homotopy equivalence of topoi]]
