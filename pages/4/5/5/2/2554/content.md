@@ -33,7 +33,7 @@
 
   * [[homotopy category of an (∞,1)-category]]
 
-* [[Brown Grossman homotopy group]]
+* [[Brown-Grossman homotopy group]]
 
 ## Paths and cylinders ##
 
