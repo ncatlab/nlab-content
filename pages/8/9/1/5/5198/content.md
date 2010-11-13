@@ -241,6 +241,17 @@ Let $K$, $L$ be finite dimensional connected locally finite [[simplicial complex
 =--
 If one removes the condition of finite dimensionality, the result no longer holds. (There is an error in Brown's subsequent reasoning in the quoted paper, for which one needs to consult Edwards and Hastings, (1976).)
 
+##Brown's $\mathcal{P}$-functor##
+It would be useful to have a construction of the groups $\underline{\pi}^\infty_n(X,*)$ from the [[pro-group]] $\pi_n(\varepsilon(X),*(k))$. Such a construction was given by Brown in the same article (1974).  (An alternative construction due to Grossman will be discussed in a separate entry.)
+
+Let $\underline{G} = \{G_n,p^m_n\}$ be an inverse sequence of groups (aka _tower of groups_), that is a pro-group that is indexed by the ordered set of positive integers. We assume $G_0=1$. Consider all sequences $\{g_{k(n)}\}$ with $g_{k(n)} \in G_{k(n)}$, where $k(n)$ is a sequence of natural numbers such that $k(n)\to \infty$ as $n\to \infty$. Given two such sequences $\{g_{k(n)}\}$ and $\{g\prime_{l(n)}\}$, we say they are equivalent if there is a third sequence $m(n)$, $m(n)\to \infty$ as $n \to \infty$, with $m(n)\leq min(k(n),l(n)))$ and $p^{k(n)}_{m(n)}(g_{k(n)}) =  p^{l(n)}_{m(n)}(g\prime_{l(n)})$.  We let $\,mathcal{P}(\underline{G})$ be the set of equivalence classes.
+
+* This has a natural group structure;
+
+* If $X = \bigcup_n K_n$, $U_n = X- K_n$, and $* : [0,\infty) \to X$ is chosen so that $*[n,\infty)\subset U_n$, then setting $G_n = \pi_k(U_n,*(n))$ with $G_n\to G_{n-1}$ induced
+
+
+
 ##References##
  General references include: the survey article:
 
@@ -256,6 +267,6 @@ A specific reference for the Brown Whitehead theorem is
 
 and further 
 
-*  D. A. Edwards and H. M. Hastings, _&#268;ech and Steenrod homotopy Theory with Applications,_ SLNM 542, Springer (1976).
+*  D. A. Edwards and H. M. Hastings, _&#268;ech and Steenrod Homotopy Theory with Applications,_ SLNM 542, Springer (1976).
 
 [[!redirects Brown-Grossman homotopy groups]]
