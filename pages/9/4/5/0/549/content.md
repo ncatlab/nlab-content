@@ -229,5 +229,5 @@ See also the appendix of [[Higher Topos Theory|HTT]].
 
 For more conceptual background see
 
-* Richard Garner, _Understanding the small object argument_ ([pdf](http://www.dpmms.cam.ac.uk/~rhgg2/CT07/CT07.pdf))
+* [[Richard Garner]], _Understanding the small object argument_ Applied Categorical Structures, 17(3):247&#8211;285, 2009 ([pdf](http://www.dpmms.cam.ac.uk/~rhgg2/CT07/CT07.pdf))
 
