@@ -182,3 +182,5 @@ Section 6.2.2 of
 
 [[!redirects (infinity,1)-sites]]
 [[!redirects (∞,1)-sites]]
+[[!redirects (∞,1)-Grothendieck topology]]
+[[!redirects (∞,1)-Grothendieck topologies]]
