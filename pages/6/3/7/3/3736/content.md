@@ -77,17 +77,181 @@ The [[Quillen adjunction]] $(F \dashv U)$ is a [[Quillen equivalence]].
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is theorem 2.18
+This is ([Nikolaus, theorem 2.18](#Nikolaus))
 
-* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
++-- {: .un_remark}
+###### Remark
 
+Since fibrations in $Alg C$ are created in $C$, and any algebraically fibrant object is, in particular, fibrant, every object in the model category $Alg C$ is fibrant.  Thus almost any model category is equivalent to one in which all objects are fibrant.  However, in general not all objects in $Alg C$ will be cofibrant, even if this was true in $C$ itself.
 
 =--
 
-Note that since fibrations in $Alg C$ are created in $C$, and any algebraically fibrant object is, in particular, fibrant, every object in the model category $Alg C$ is fibrant.  Thus almost any model category is equivalent to one in which all objects are fibrant.  However, in general not all objects in $Alg C$ will be cofibrant, even if this was true in $C$ itself.
+## Details
+
+### The left adjoint
+
+We describe explicitly the [[left adjoint]] $F : C \to Alg C$. This follows [[Richard Garner]]'s improved version of the [[small object argument]] ([Garner](#Garner)).
+
+
+For $X \in C$ define a new object $X_\infty$ inductively as follows.
+
++-- {: .un_defn}
+###### Definition
+
+$X_1$ is the [[pushout]] (in $C$) 
+
+$$
+  \array{
+     \coprod A_j &\to& X
+     \\
+     \downarrow && \downarrow
+     \\
+     \coprod B_j &\to& X_1
+  }
+  \,,
+$$
+
+here the disjoint unition is taken over all $j$ and all morphisms $A_j \to X$.
+
+=--
+
++-- {: .un_defn}
+###### Remark
+
+This pushout adds all possible "horn" fillers to $X$, given by the $B_j \to X_1$. However, after adding the new fillers there may also appear new horns. So we continue this procedure iteratively by filling these new horn.
+
+Since $\coprod A_j \to \coprod B_j$ is an acylcic cofibration in $C$, so is its its pushout, hence by assumption the pushout $X \to X_1$ is a monomorphism. This implies that if an $A_j \to X_1$ factors through $X \to X_1$ then it does so uniquely.
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+Let $X_2$ be the [[pushout]]
+
+$$
+  \array{
+     \coprod A_j &\to& X_1
+     \\
+     \downarrow && \downarrow
+     \\
+     \coprod B_j &\to& X_2
+  }
+  \,,
+$$
+
+where now the coproduct is over those morphisms $A_j \to X$ that do _not_ factor throuth $X \to X_1$.
+
+Proceeding this way yields a sequence of acyclic cofibrations
+
+$$
+  X \to X_1 \to X_2 \to X_3 \to \cdots 
+  \,.
+$$
+
+We set
+
+$$
+  X_\infty :=  \lim_\to (X \to X_1 \to X_2 \to X_3 \to \cdots )
+$$
+
+be the [[colimit]] over this sequence.
+
+=--
+
++-- {: .un_observation}
+###### Observation
+
+The object $X_\infty$ inherits canonical fillers: since by the assumption on a [[cofibrantly generated model category]] that all $A_j$ are [[small object]]s with respect to [[transfinite composition|transfinitite composites]] of pushouts of the generating cofibrations we have that every morphism $A_j \to X_\infty$ factors through one of the intermediate $X_i$. Then for any of the morphisms $A_j \to B_j$ in $J$ the corresponding morphism $B_j \to X_{i+1} \to X_\infty$ provides a filler. 
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The assignment  $F : X \to X_\infty$ with $X_\infty$ regarded as an algebraic fibrant objects as above constitutes a left [[adjoint functor]] $F : C \to Alg C$ to the [[forgetful functor]] $U : Alg C \to C$.
+
+The unit of this [[adjunction]] is the inclusion $X \to X_\infty$ given by the above construction and is hence a weak equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We establish the hom-isomorphism of the [[adjunction]] and its construction by the unit of the adjunction: For any $Z \in Alg C$ and $\phi : X \to U(Z)$ any morphism in $C$, we need to show that there is a unique [[commuting diagram]]
+
+$$
+  \array{
+    X &\stackrel{\phi}{\to}& Z
+    \\
+    \downarrow & \nearrow_{\exists ! \phi_\infty}
+    \\
+    X_\infty
+  }
+  \,.
+$$
+
+Since by assumption $Z$ has all fillers we have commuting diagrams
+
+$$
+  \array{
+      A_j &\to& X 
+     \\
+     \downarrow && \downarrow^{\mathrlap{\phi}}
+     \\
+     B_j &\to& Z
+  }
+  \,.
+$$
+
+By the universality of the pushout these induce unique morphisms 
+
+$$
+  \array{
+    X &\stackrel{\phi}{\to}& Z
+    \\
+    \downarrow & \nearrow_{\phi_1 }
+    \\
+    X_1
+  }
+  \,.
+$$
+
+By induction this induces morphisms $\phi_n : X_n \to Z$ that form a [[cocone]] under $(X \to X_1 \to X_2 \to \cdots )$. Therefore there is a unique morphusm $\phi_\infty$ as indicated.
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+The morphisms $F(j) : F A_j \to F B_j$ have [[retract]]s.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since $F$ is [[left adjoint]] to $U$ the condition that $F A_j \to F B_j \stackrel{r}{\to} F A_j$ is the [[identity]] is equivalent to its [[adjunct]], the diagonal in
+
+$$
+  \array{
+    A_j &\stackrel{j}{\to}& B_j &\stackrel{r}{\to}& A_j
+    \\
+    \downarrow && \downarrow &\searrow^{\mathrlap{\tilde r}}& \downarrow
+    \\
+    U F A_j &\stackrel{U F (j)}{\to}& U F B_j &\stackrel{U F r}{\to} & U F A_j
+  }
+$$
+
+being the unit of the adjunction $A_j \to U F A_j$. Take $\tilde r$ to be the (unique) filler for this morphism.
+
+=--
+
+### Monadicity
+
+()
 
 ## Examples
 
@@ -118,6 +282,9 @@ establishes an equivalence of an algebraic with the standard geometric model for
 ## References
 
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+{#Nikolaus}
 
 * [[Thomas Nikolaus]] Talk on _Algebraic models for higher categories_ ([here](http://www.math.uni-hamburg.de/home/nikolaus/AlgMod.pdf))
 
+* [[Richard Garner]], _Understanding the small object argument_ Applied Categorical Structures, 17(3):247&#8211;285, 2009 ([pdf](http://www.dpmms.cam.ac.uk/~rhgg2/CT07/CT07.pdf))
+{#Garner}
