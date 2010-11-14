@@ -18,7 +18,7 @@
 ## Idea  ##
 
 A [[model category]] $C$ is _cofibrantly generated_ if there is a [[set]]
-(meaning: small set, not a proper class) of cofibrations and one of trivial cofibrations, such that all other (trivial) cofibrations are _generated_ from these.
+(meaning: [[small set]], not a proper [[class]]) of cofibrations and one of trivial cofibrations, such that all other (trivial) cofibrations are _generated_ from these.
 
 ## Definition ##
 
