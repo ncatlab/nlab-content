@@ -51,13 +51,20 @@ Write $ALg C$ for the category whose objects are algebraic fibrant objects in $C
 
 =--
 
++-- {: .un_remark}
+###### Remark
+
+The set $J$ can always be taken to be that of all generating acyclic cofibrations. But often there are smaller subsets that still characterize all fibrant objects.
+
+=--
+
 +-- {: .un_theorem}
 ###### Theorem
 
 The [[forgetful functor]] [[adjunction]]
 
 $$
-  F : C \stackrel{\to}{\leftarrow} Alg C : U
+  (F \dashv U) : Alg C \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C 
 $$
 
 induces the [[transferred model structure]] on $Alg C$: the fibrations
