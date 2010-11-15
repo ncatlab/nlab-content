@@ -37,3 +37,5 @@ category: people
 [[!redirects Дмитрий Орлов]]
 [[!redirects Dmitri Olegovich Orlov]]
 [[!redirects Dmitri Orlov]]
+[[!redirects D. Orlov]]
+[[!redirects D. O. Orlov]]
