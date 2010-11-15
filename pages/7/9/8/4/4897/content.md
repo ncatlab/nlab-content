@@ -4,6 +4,8 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 ## Archives of articles, books, proceedings
 
+#### Math and physics only
+
 * [arXiv](http://arxiv.org) archive of free preprints (math, physics, computational linguistics)
 
    * [front](http://front.math.ucdavis.edu) alternative user interface for arXiv
@@ -14,15 +16,11 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 * [numdam](http://numdam.org) old issues of many French math journals including [[Cahiers]]
 
-* [Gallica](http://gallica.bnf.fr) repository of free French books (in general area); includes old issues of Comptes Rendus
-
 * [math-net.ru](http://www.mathnet.ru), [English version](http://www.mathnet.ru/index.phtml?&option_lang=eng) -- past years of main Russian math journals; tracks citations within the system; searchable also by name of a mathematician
 
 * [Hopf archive](http://hopf.math.purdue.edu) topology and K-theory
 
 * [ICM archive](http://www.mathunion.org/ICM) past ICM proceedings
-
-* [Goettingen digital library](http://gdz.sub.uni-goettingen.de) -- mainly German journals
 
 * *huge* MPIM list of [electronic journals](http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=MPIMA&colors=3&lang=en&notation=SA-SP) -- most are  available only locally, but many free ones listed as well
 
@@ -31,16 +29,28 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 * [lib.mexmat.ru](http://lib.mexmat.ru) Moscow MexMat electronic library: most items available only locally, however some items and the indexes are available
 
 * [ELibM](http://www.emis.de/ELibM.html) -- open access Electronic Library of Mathematics at [emis](http://www.emis.de) 
-* [JSTOR](http://www.jstor.org) -- a big repository of past issues of main, mainly American and English journals -- requires institution subscription
 
 * [archive of category list](http://blog.gmane.org/gmane.science.mathematics.categories)
 * [tac](http://www.tac.mta.ca/tac) -- Theory and Application of Categories, free journal and a category [reprint](http://www.tac.mta.ca/tac/reprints/index.html) collection
 * [MSRI books](http://library.msri.org/books)
+* [eprint network](http://www.osti.gov/eprints/pathways/mathematics.shtml)
+* [Aarhus](http://www.imf.au.dk/forskning/publikationer/instituttets-serier/year/2010/series/pp) math institute, preprints and dissertations
+
+#### Not only math and physics
+
+* [JSTOR](http://www.jstor.org) -- a big repository of past issues of main, mainly American and English journals -- requires institution subscription
+* [DigiZeitschrift](http://www.digizeitschriften.de), Das Deutsche Digitale Zeitschriftenarchiv; includes [39 math journals](http://www.digizeitschriften.de/main/searchcol/?tx_goobit3_search[extquery]=DOCSTRCT%3Aperiodical&DC=510.mathematics)
+* [Gallica](http://gallica.bnf.fr) repository of free French books (in general area); includes old issues of Comptes Rendus
+* [Goettingen digital library](http://gdz.sub.uni-goettingen.de) -- mainly German journals
 
 ## General lists of math resources
 * [Math on the Web](http://www.ams.org/mathweb/index.html) links maintained by American Mathematical Society
 
 * [fsu vmlib](http://www.math.fsu.edu/Virtual) Florida State University Virtual Math Library -- long list of resources
+
+## Some major handbooks and tables online
+
+* [Abramowitz-Stegun](http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP), Handbook of Mathematical Functions With Formulas, Graphs, and Mathematical Tables 
 
 ## Reviews and abstracts
 
