@@ -23,20 +23,79 @@ There is a sense in which a [[sheaf]] $F$ is like a [[categorification]] of a [[
 
 Under this interpretation, many constructions in [[category theory]] have analogs in [[linear algebra]]: for instance products of numbers correspond to categorical [[product]]s (more generally to [[limit]]s) and addition of numbers to [[coproduct]]s (more generally to [[colimit])s. Accordingly a [[colimit]]-preserving [[functor]] between [[sheaf topos]]es is analogous to a [[linear map]] or to a [[distribution]]: one also speaks of [[Lawvere distribution]]s.
 
-This [[categorification]] of [[linear algebra]] becomes even better behaved if we pass all the way to [[(∞,1)-sheaf (∞,1)-topos]]es. Under [[∞-groupoid cardinality]] their [[stalk]]s take values also in [[integer]]s, in [[rational number]]s, and in [[real number]]s.
+This [[categorification]] of [[linear algebra]] becomes even better behaved if we pass all the way to [[(∞,1)-sheaf (∞,1)-topos]]es. Under [[∞-groupoid cardinality]] their [[stalk]]s take values also in [[integer]]s, in [[rational number]]s, and in [[real number]]s. See also the discussion at [[Goodwillie calculus]].
 
 A [[span]] of [[base change geometric morphism]]s between toposes behaves under this interpretation like the [[linear map]] given by a [[matrix]]. Such categorified [[integral trasform]]s turn out to be of considerable interest in their own right: they include operations such as the [[Fourier-Mukai transform]] which categorifies the [[Fourier transformation]].
 
 
-Every [[(∞,1)-topos]] is a [[locally presentable (∞,1)-category]] and more generally we may in this sense think of arbitrary locally preseentable [[(∞,1)-categories]] as being analogous to [[vector space]]s of [[linear functional]]s. This interpretation is supported by the fact that the $(\infty,1)$-category [[Pr(∞,1)Cat]] of all locally presentable $(\infty,1)$-categories carries a [[tensor product]] that makes it the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]] and which is precisely the tensor product corresponding to the notion of linearity given by [[(∞,1)-colimit]]s.
+These analogies have been noticed and exploited at various places in the literature. See for instance the entries [[groupoidification]] or [[geometric ∞-function theory]]. Here we try to give a general abstract [[(∞,1)-topos theory|(∞,1)-topos theoretic]] description with examples from ordinary [[topos theory]] to motivate  the constructions. 
 
-These analogies have been noticed and exploited at various places in the literature. See for instance the entries [[groupoidification]] or [[geometric ∞-function theory]]. Here we try to give a systematic [[(∞,1)-topos theory|(∞,1)-topos theoretic]] description with examples from ordinary [[topos theory]] to motivate the constructions. 
+## Linear bases 
+
+Every [[(∞,1)-topos]] is a [[locally presentable (∞,1)-category]]. More generally we may think of arbitrary locally presentable [[(∞,1)-categories]] as being analogous to [[vector space]]s of [[linear functional]]s. 
+
++-- {: .un_prop}
+###### Proposition
+
+Every [[locally presentable (∞,1)-category]] is a [[reflective sub-(∞,1)-category]] of an [[(∞,1)-category of (∞,1)-presheaves]].
+
+=--
+
+See [[locally presentable (∞,1)-category]] for details.
+
++-- {: .un_remark}
+###### Remark
+
+
+For $C$ a small [[(∞,1)-category]] the [[(∞,1)-category of (∞,1)-presheaves]] 
+
+$$
+  \hat C := Func(C^{op}, \infty Grpd)
+$$ 
+
+is the [[free cocompletion|free (∞,1)-cocompletion]] of $X$, hence the free completion under [[(∞,1)-colimit]]s. Under the interpretation of colimits as sums, this means that it is analogous to the vector spaces _spanned_ by the [[basis]] $C$.
+
+Accordingly an arbitrary locally presentable $(\infty,1)$-category is analogous in this sense to a sub-space of a vector space spanned by a basis.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $\hat C, \hat D$ two [[(∞,1)-categories of (∞,1)-presheaves]], a morphism $\hat C \to \hat D$ in [[Pr(∞,1)Cat]] is equivalently a [[profunctor]] $C  &#8696; D$.
+
+=--
+
+See [[profunctor]] for details.
+
+
+## Tensor products
+
++-- {: .un_prop}
+###### Fact
+
+For $C$ and $D$ two [[locally presentable (∞,1)-categories]] there is locally presentable $(\infty,1)$-category $C \otimes D$ and an [[(∞,1)-functor]] 
+
+$$
+  C \times D \to C \otimes D
+$$
+
+which is [[universal property|universal]] with respect to the property that it preserves [[(∞,1)-colimit]]s in both arguments.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This means that in as far as $C, D \in $ [[Pr(∞,1)Cat]] are analogous to vector spaces, $C \otimes D$ is analogous to their [[tensor product]].
+
+=--
 
 ## Function spaces
 
-Consider an ambient [[(∞,1)-topos]] $\mathbf{H}$. 
+We consider from now on some fixed ambient [[(∞,1)-topos]] $\mathbf{H}$. 
 
-Notice that for each [[object]] $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos]] of $(\infty,1)$-sheaves on $X$. So to the extend that we think of these as _function objects_ , and of locally presentable $(\infty,1)$-categories like linear space, we may think of $\mathbf{H}/X$ as the $\infty$-vector space of $\infty$-functions on $X$
+Notice that for each [[object]] $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos]] of $(\infty,1)$-sheaves on $X$. So to the extend that we think of these as **function objects** , and of locally presentable $(\infty,1)$-categories like linear space, we may think of $\mathbf{H}/X$ as the $\infty$-vector space of $\infty$-functions on $X$
 
 +-- {: .un_example}
 ###### Example
@@ -66,7 +125,24 @@ where $\Psi_x \in FinSet$ is the [[fiber]] of $\psi$ over $X$.
 =--
 
 
-## Products of functions
++-- {: .un_remark #EtaleIdentificationRemark}
+###### Remark
+
+The [[over-(∞,1)-topos]]es $\mathbf{H}/X$ sit by an [[etale geometric morphism]] of $\mathbf{H}$ and are characterized up to equivalence by this property. 
+
+Moreover, we have an equivalence of the ambient $(\infty,1)$-topos $\mathbf{H}$ with the $(\infty,1)$-category of [[etale geometric morphism]]s into it.
+
+$$
+  ((\infty,1)Topos/\mathbf{H})_{et} \simeq
+  \mathbf{H}
+  \,.
+$$
+
+=--
+
+
+
+## Products of function objects
 
 For $\psi : \Psi \to X$ and $\phi : \Phi \to X$ to function objects on $X$, we call the [[fiber product]]
 
@@ -258,3 +334,24 @@ is the result of applying the familiar [[linear map]] given by usual [[matrix ca
 
 =--
 
++-- {: .un_remark }
+###### Remark
+
+By the [above remark](#EtaleIdentificationRemark) on [[etale geometric morphism]]s we have that we can recover the span $X \stackrel{i}{\leftarrow} A \stackrel{o}{\to} Y$ in $\mathbf{H}$ from the span
+
+$$
+  \array{
+     \mathbf{H}/X 
+    &\stackrel{\overset{i^*}{\to}}{\underset{i_*}{\leftarrow}}&
+      \mathbf{H}/A
+    &\stackrel{\overset{o^*}{\leftarrow}}{\underset{o_*}{\to}}&
+    \mathbf{H}/Y
+    \\
+    & \searrow\nwarrow & \downarrow\uparrow & \swarrow\nearrow
+    \\
+    && \mathbf{H}
+  }
+$$
+
+in $((\infty,1)Topos/\mathbf{H})_{et}$.
+=--
