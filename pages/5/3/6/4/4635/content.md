@@ -2,7 +2,8 @@ __Paul Arne &#216;stv&#230;r__ is a Norwegian mathematician specialized in abstr
 
 * [web](http://folk.uio.no/paularne)
 
-* _Homotopy theory of $C^*$-algebras_, [arxiv/0812.0154](http://arxiv.org/abs/0812.0154)
+* _Homotopy theory of $C^*$-algebras_, Frontiers in Mathematics,
+Springer Basel, 2010, [arxiv/0812.0154](http://arxiv.org/abs/0812.0154)
 
 * Markus Spitzweck, Paul Arne &#216;stv&#230;r, _Motivic twisted K-theory_, [arxiv/1008.4915](http://arxiv.org/abs/1008.4915) 
 
