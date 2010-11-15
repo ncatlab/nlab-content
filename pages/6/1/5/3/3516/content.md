@@ -1,13 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A *solid functor* (also called a *semi-topological functor*) is a [[forgetful functor]] $U\colon A\to X$ for which the structure of an $A$-object can be universally lifted along [[sinks]].  One can also say that $U$ has not just a left adjoint but all possible "relative" left adjoints.
+A *solid functor* (also called a *semi-topological functor*) is a [[forgetful functor]] $U\colon A\to X$ for which the structure of an $A$-object can be universally lifted along [[sinks]].  One can also say that $U$ has not just a [[left adjoint]] but all possible "relative" left adjoints.
 
-When $U$ is solid, colimits in $A$ can be constructed in a natural way out of colimits in $X$, and $A$ inherits strong cocompleteness properties from $X$.
+When $U$ is solid, [[colimit]]s in $A$ can be constructed in a natural way out of colimits in $X$, and $A$ inherits strong cocompleteness properties from $X$.
 
 ## Definition
 
@@ -237,39 +249,42 @@ Finally, $U$ is called **solid** if every $U$-structured sink has a semi-final l
 
 * If $U\colon A\to X$ is faithful and has a left adjoint, and moreover $A$ is [[cocomplete category|cocomplete]] and [[well-powered category|well-copowered]], then $U$ is solid.
 
+* For $C$ a [[cofibrantly generated model category]] with monic generating cofibrations, the forgetful functor from [[model structure on algebraic fibrant objects|algebraic fibrant objects]] to $C$ is solid. See there for details.
 
 ## Properties
 
 ### Left adjoint
 
-For any $x\in X$, the empty family of morphisms into $x$ is a $U$-structured sink, and a semi-final lift for this family is a universal arrow $x\to U b$.  Therefore, if $U$ is solid, then it has a [[left adjoint]].
+For any $x\in X$, the empty family of morphisms into $x$ is a $U$-structured sink, and a semi-final lift for this family is a <a href="http://ncatlab.org/nlab/show/adjoint+functor#UniversalArrows">universal arrow</a> $x\to U b$.  Therefore, if $U$ is solid, then it has a [[left adjoint]].
 
 
 ### Lifting of colimits
 
-Suppose that $U\colon A\to X$ is solid and let $F\colon D\to A$ be a diagram such that $U F$ has a [[colimit]] in $X$, consisting of a [[cocone]] $U F d_i \to c$.  Let $c \to U e$ be a semi-final lift of this $U$-structured sink, for which we have induced morphisms $F d_i \to e$ in $A$.  Since $U$ is faithful, these morphisms are a cocone under $F$, and the semi-finality makes it into a colimit in $A$.
+Suppose that $U\colon A\to X$ is solid and let $F\colon D\to A$ be a [[diagram]] such that $U F$ has a [[colimit]] in $X$, consisting of a [[cocone]] $U F d_i \to c$.  Let $c \to U e$ be a semi-final lift of this $U$-structured sink, for which we have induced morphisms $F d_i \to e$ in $A$.  Since $U$ is faithful, these morphisms are a cocone under $F$, and the semi-finality makes it into a colimit in $A$.
 
 Therefore, if $A$ is solid over $X$, then it admits all colimits which $X$ does.  Moreover, if we understand colimits in $X$, and we understand the semi-final lifts, then we understand colimits in $A$.
 
 
 ### Lifting of model structures
 
-The standard *transfer theorem* for [[model category|model structures]] states that if $U\colon A\to X$ is a functor such that
+The standard *[[transferred model structure|transfer theorem]]* for [[model category|model structures]] states that if $U\colon A\to X$ is a functor such that
 
 1. $U$ has a left adjoint $F$,
 1. $U$ is [[accessible functor|accessible]], i.e. preserves $\kappa$-[[filtered colimits]] for sufficiently large $\kappa$,
-1. $X$ has a cofibrantly generated model structure, and
+1. $X$ has a [[cofibrantly generated model category|cofibrantly generated model structure]], and
 1. [[transfinite composition|Transfinite composites]] of [[pushouts]] of images under $F$ of generating acyclic cofibrations in $X$ become weak equivalences after applying $U$ (the *acyclicity condition*),
 
-then $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.  Using an argument of [[Thomas Nikolaus]] we can show:
+then $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.  Using an argument of ([Nikolaus](#Nikolaus)) we can show:
 
-+-- {: .un_theorem}
++-- {: .un_theorem #LiftingTheorem}
 ###### Theorem
+
 Let $U\colon A\to X$ be an accessible solid functor, and assume that $X$ has a cofibrantly generated model structure and the following acyclicity condition:
 
 * If $F\colon D\to A$ is a [[filtered diagram]] and $U(F(d_i)) \to x$ is a cocone under $U\circ F$, each of whose legs is an acyclic cofibration in $X$, then the semifinal lift $x\to U(b)$ of this $U$-structured sink is also an acyclic cofibration.
 
 Then the transfer theorem applies, so that $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.
+
 =--
 +-- {: .proof}
 ###### Proof
@@ -294,8 +309,17 @@ If $U$ is not just accessible but [[finitary functor|finitary]], then it preserv
 
 ## References
 
-* Tholen, _Semitopological functors. I_
+* [[Walter Tholen]], _Semitopological functors. I_
+
 * and others...
+
+The example of algebraic fibrant objects and the argument entering the above [lifting theorem](#LiftingTheorem) appears in 
+
+* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+{#Nikolaus}
+
+See also [[model structure on algebraic fibrant objects]].
+
 
 [[!redirects semi-topological functor]]
 [[!redirects semitopological functor]]
