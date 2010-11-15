@@ -28,7 +28,7 @@ The identity on a category $A$ is its hom-functor $Hom_A(-,-)$.
 
 If profunctors are [[categorification|categorified]] [[binary relations]], then $Prof$ is a categorification of [[Rel]].
 
-Note that as defined here, $Prof$ is a weak $2$-[[2-category|category]] or [[bicategory]].  A naturally defined equivalent [[strict 2-category]] has the same objects, but the morphisms $A\to B$ are [[cocontinuous functor]]s $P A \to P B$, where $P A$ is the [[presheaf category]] of $A$.  This is equivalent because a profunctor $A\to B$ can equivalently be regarded as a functor $A\to P B$, and $P A$ is the [[free cocompletion]] of $A$.
+Note that as defined here, $Prof$ is a weak $2$-[[2-category|category]] or [[bicategory]].  A naturally defined equivalent [[strict 2-category]] has the same objects, but the morphisms $A\to B$ are [[cocontinuous functor]]s $P A \to P B$, where $P A$ is the [[presheaf category]] of $A$.  This is equivalent because a profunctor $A\to B$ can equivalently be regarded as a functor $A\to P B$, and $P A$ is the [[free cocompletion]] of $A$.  This equivalence is an instance of [[Lack's coherence theorem]].
 
 Note that every functor $f\colon A\to B$ gives two [[representable functor|representable]] profunctors $B(f-,-)$ and $B(-,f-)$.  This defines two [[2-functors]] $Cat \to Prof$ that are  the identity on objects.  The relationship between [[Cat]] and $Prof$ encoded in this way makes them into an [[equipment]].
 
