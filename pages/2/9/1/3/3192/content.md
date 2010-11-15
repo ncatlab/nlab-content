@@ -50,4 +50,6 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 * Pietro Aiena, _Fredholm and local spectral theory, with applications to multipliers_, [book page](http://www.springer.com/mathematics/analysis/book/978-1-4020-1830-5)
 
+* Otgonbayar Uuye, _A simple proof of the Fredholm Alternative_, [arxiv/1011.2933](http://arxiv.org/abs/1011.2933)
+
 [[!redirects Fredholm complex]]
