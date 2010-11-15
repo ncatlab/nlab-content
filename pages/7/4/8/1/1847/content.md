@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
 [[!include topology - contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -155,7 +160,7 @@ A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Čec
 
 
 
-
+[[!redirects paracompact topological space]]
 
 [[!redirects Dieudonne's theorem]]
 [[!redirects Dieudonne theorem]]
