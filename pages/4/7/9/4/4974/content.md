@@ -8,8 +8,8 @@ Event structures were introduced in order to abstract away from the precise 'pla
 
 
 ##Original form
-+--{: .un-defn}
-######Definition
++--{: .un_defn}
+######Definition######
 An _event structure_, $(E,\le, \sharp)$, consists of a [[poset]] $(E,\le)$ of _events_, where the partial order relation expresses _causal dependency_, together with a symmetric irreflexive relation $\sharp$, called _incompatibility_  .  This data is to satisfy
 
 *  finite causes: for every event $e$ the set $\downarrow e = \{e'\mid e'\le e\}$ is finite; 
@@ -18,7 +18,7 @@ and
 
 * _hereditary incompatibility_: for any $e,e',e'' \in E$, $e\sharp e'$ and $e'\le e''$ implies $e\sharp e''$.
 =--
-+--{: .un-defn}
++--{: .un_defn}
 ######Definition######
 Let $\mathbb{E} = (E,\le, \sharp)$ be an event structure. Define its set of **configurations**, 
 $C(\mathbb{E}) = C(E,\le, \sharp)$, to consist of those subsets $X \subseteq E$, which are 
@@ -47,7 +47,7 @@ This second condition says that if both $f(e_0)$ and $f(e_1)$ are defined and ei
 
 Winskel and Neilsen explain the definition as follows: 
 
-A morphism $f : \mathbb{E}\to \mathbb{E}'$ between event structures expresses how behaviour in $\mathbb{E}$ determines behaviour in $\mathbb{E}'$. The partial function, $f$, expresses how the occurrence of an event in $\mathbb{E}$ implies the simultaneous occurrence of an event in $\mathbb{E}'$; the fact that $f(e) = e'$ can be understood as expressing that the event $e$ is a ''component'' of the event $e'$ and, in this sense, that the occurrence of $e$ implies the simultaneous occurrence of $e'$. If two distinct events in $\mathbb{E}$ have the same image in $\mathbb{E}'$ under $f$ then they cannot belong to the same configuration. 
+_A morphism $f : \mathbb{E}\to \mathbb{E}'$ between event structures expresses how behaviour in $\mathbb{E}$ determines behaviour in $\mathbb{E}'$. The partial function, $f$, expresses how the occurrence of an event in $\mathbb{E}$ implies the simultaneous occurrence of an event in $\mathbb{E}'$; the fact that $f(e) = e'$ can be understood as expressing that the event $e$ is a ''component'' of the event $e'$ and, in this sense, that the occurrence of $e$ implies the simultaneous occurrence of $e'$. If two distinct events in $\mathbb{E}$ have the same image in $\mathbb{E}'$ under $f$ then they cannot belong to the same configuration. _
 
 (There is more discussion of the notion of morphism of event structures in the notes referred to  below.)
 
