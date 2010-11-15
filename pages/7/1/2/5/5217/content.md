@@ -33,8 +33,17 @@ The field of [[surreal number]]s is a [[field extension]] of $\mathbb{R}$ that i
 
 Every ordered field must have [[characteristic]] $0$, since we can prove by [[induction]] that $n \gt 0$ for every positive [[natural number]] $n$.
 
-The [[archimedean field|archimedean]] ordered fields are precisely the [[subfield]]s of [[real number|the field of real numbers]].
+The [[archimedean field|archimedean]] ordered fields are precisely the [[subfield]]s of [[real number|the field of real numbers]]. 
 
++-- {: .un_prop}
+######Proposition 
+Every complete ordered field is archimedean. 
+=-- 
+
++-- {: .proof}
+######Proof
+Suppose otherwise: let $a, b \gt 0$ be given, and suppose $b$ is an upper bound of $a, 2a, 3a, \ldots$. Then $b - a$ is an upper bound of $0, a, 2a, \ldots$ and consequently there can be no least upper bound of the sequence, contradicting Dedekind completeness. 
+=-- 
 
 [[!redirects ordered field]]
 [[!redirects ordered fields]]
