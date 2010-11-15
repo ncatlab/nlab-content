@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -41,7 +47,7 @@ In the language of [[bi-brane]]s a topological T-duality transformation is a bi-
 
 ## Definition
 
-Two tuples $(X_i \to B, G_i)_{i = 1,2}$ consisting of a $T^n$-bundle $X_i$ over a manifold $B$ and a line bundle gerbe $G_i \to X_i$ over $X$ are **topological T-duals** if there exists an isomorphism $u$ of the two line bundle gerbes pulled back to the [[pullback|fiber product]] correspondence space $X_1 \times_B X_2$:
+Two tuples $(X_i \to B, G_i)_{i = 1,2}$ consisting of a $T^n$-bundle $X_i$ over a manifold $B$ and a line [[bundle gerbe]] $G_i \to X_i$ over $X$ are **topological T-duals** if there exists an isomorphism $u$ of the two line bundle gerbes pulled back to the [[fiber product]] correspondence space $X_1 \times_B X_2$:
 
 $$
   \array{
@@ -62,14 +68,14 @@ $$
   }
 $$
 
-of a certain prescribed form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9) of _BunkeRumpfSchick08_).
+of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9) of ([BunkeRumpfSchick08](#BunkeRumpfSchick08))
 
 
 ## References
 
 The simplest version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in 
 
-* Bouwknegt-Evslin-Mathai [hep-th/0306062](http://arxiv.org/abs/hep-th/0306062) 
+* [[Peter Bouwknegt]]-[[Jarah Evslin]]-[[Varghese Mathai]] ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
 
 and the torus bundle case was introduced in 
 
@@ -77,11 +83,13 @@ and the torus bundle case was introduced in
 
 In these papers the gerbe does not appear, but an integral 3-form, representing the Dixmier-Douady class of a gerbe does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way. The formalization with the above data originates in 
 
-* **BunkeSchick05** [[Ulrich Bunke]] and [[Thomas Schick]], _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
+* [[Ulrich Bunke]] and [[Thomas Schick]], _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
+{#BunkeSchick05}
 
 and
 
-* **BunkeRumpfSchick08** [[Ulrich Bunke|U. Bunke]], P. Rumpf and T. Schick, _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
+*  [[Ulrich Bunke|U. Bunke]], P. Rumpf and [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
+{#BunkeRumpfSchick08}
 
 There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for instance at
 
