@@ -1,3 +1,10 @@
+
+# Inner product spaces
+* table of contents
+{: toc}
+
+## Idea
+
 An __inner product space__ is a [[vector space]] $V$ equipped with a __bilinear__ or __sesquilinear form__: a linear map from $V \otimes V$ or $\bar{V} \otimes V$ to the [[ground field]] $k$.
 
 One often studies _positive-definite_ inner product spaces; for these, see [[Hilbert space]].  Here we do not assume positivity or definiteness.
@@ -21,11 +28,11 @@ Here we use the _physicist\'s convention_ that the inner product is conjugate-li
 An __inner product space__ is simply a vector space equipped with an inner product.
 
 
-## Conditions on inner products.
+## Conditions on inner products
 
-We define a function $\|{-}\|^2: V \to k$ by $\|x\|^2 = \langle x, x \rangle$; this is called the __norm__ of $x$.  As the notation suggests, it is common to take the norm of $x$ to be the square root of this expression in contexts where that makes sense, but for us $\|{-}\|^2$ is an atomic symbol.  Note that the norm of $x$ is __real__ in that it equals its own conjugate, by (4).  Then we can consider some conditions on the inner product:
+We define a function ${\|{-}\|^2}\colon V \to k$ by ${\|x\|^2} = \langle x, x \rangle$; this is called the __norm__ of $x$.  As the notation suggests, it is common to take the norm of $x$ to be the square root of this expression in contexts where that makes sense, but for us ${\|{-}\|^2}$ is an atomic symbol.  Note that the norm of $x$ is __real__ in that it equals its own conjugate, by (4).  Then we can consider some conditions on the inner product:
 
-*  Notice that (by 1), $\|x\|^2 = 0$ if $x = 0$; the inner product is __definite__ if the converse holds.
+*  Notice that (by 1), ${\|x\|^2} = 0$ if $x = 0$; the inner product is __definite__ if the converse holds.
 *  More generally, the inner product is __semidefinite__ if ...
 *  On the other hand, the inner product is __indefinite__ if ...
 
@@ -34,10 +41,10 @@ Semidefinite inner products behave very much like definite ones; you can mod out
 
 Now suppose that $k$ (or at least, its subfield of real values) is an [[ordered field]].  Then we can consider other conditions on the inner product:
 
-*  The inner product is __positive semidefinite__, or simply __positive__, if $\|x\|^2 \geq 0$ always.
-*  The inner product is __positive definite__ if it is both positive and definite.
-*  The inner product is __negative semidefinite__, or simply __negative__, if $\|x\|^2 \leq 0$ always.
-*  The inner product is __negative definite__ if it is both positive and definite.
+*  The inner product is __positive semidefinite__, or simply __positive__, if ${\|x\|^2} \geq 0$ always.
+*  The inner product is __positive definite__ if it is both positive and definite, in other words if ${|x|^2} \gt 0$ whenever $x \ne 0$.
+*  The inner product is __negative semidefinite__, or simply __negative__, if ${\|x\|^2} \leq 0$ always.
+*  The inner product is __negative definite__ if it is both positive and definite, in other words if ${|x|^2} \lt 0$ whenever $x \ne 0$.
 
 In this case, we have these theorems:
 
@@ -52,3 +59,6 @@ The study of positive definite inner product spaces (hence essentially of all se
 
 
 [[!redirects inner product]]
+[[!redirects inner products]]
+[[!redirects inner product space]]
+[[!redirects inner product spaces]]
