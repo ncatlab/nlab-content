@@ -35,11 +35,13 @@ $$
 
 which thereby defines a [[tensor product of presentable (∞,1)-categories]]. This defines a [[monoidal (infinity,1)-category|monoidal structure]] on presentable $(\infty,1)$-categories, which is in fact [[symmetric monoidal (infinity,1)-category|symmetric]]. 
 
-The collection $Pr(\infvty,1)Cat$ of presentable $(\infty,1)$-cateories with colimit-preserving [[(∞,1)-functor]]s between them (i.e. with "*linear*" functors between them!), is an $(\infty,1)$-generalization of the category $Set Mod$ of ordinary categories and [[bimodule]]s or [[profunctor]]s, or [[distributor]]s between them. See [[distributor]] and in particular the discussion there about the equivalent reformulation in terms of colimit-preserving functors.
+The collection $Pr(\infty,1)Cat$ of presentable $(\infty,1)$-cateories with colimit-preserving [[(∞,1)-functor]]s between them (i.e. with "*linear*" functors between them!), is an $(\infty,1)$-generalization of the category $Set Mod$ of ordinary categories and [[bimodule]]s or [[profunctor]]s, or [[distributor]]s between them. See [[distributor]] and in particular the discussion there about the equivalent reformulation in terms of colimit-preserving functors.
 
 Using $Pr(\infty,1)Cat$ with its notion of "linearity" one obtains a very general notion of $\infty$-linear algebra. This is described at [[geometric ∞-function theory]].
 
 ## Definition
+
+### Unstable version
 
 Write $Pr(\infty,1)Cat_1$ for the sub-$(\infty,1)$-category of the [[(∞,1)-category of (∞,1)-categories]] whose
 
@@ -59,20 +61,76 @@ The tensor unit of stable presentable $(\infty,1)$-categories is the [[stable (�
 
 ## Properties
 
+### Hom-objects
+
++-- {: .un_def}
+###### Definition
+
+For $C, D \in Pr(\infty,1)Cat$, let 
+
+$$
+  Func^L(C,D) \subset Func(C,D)
+$$
+
+be the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve all small [[(∞,1)-colimit]]s.
+
+=--
+
 +-- {: .un_prop}
 ###### Proposition
 
-All small [[limit in a quasi-category|limits and colimits]] exists in $Pr(\infty,1)Cat$ and are preserved by the embedding $Pr(\infty,1)Cat \hookrightarrow (\infty,1)Cat$.
+For all $C,D$ we have that $Func^L(C,D)$ is itself locally presentable.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.3.8]].
+
+### Embedding into $(\infty,1)Cat$
+
++-- {: .un_prop}
+###### Proposition
+
+All small [[limit in a quasi-category|limits and colimits]] exists in $Pr(\infty,1)Cat$ and are preserved by the embedding $Pr(\infty,1)Cat \hookrightarrow $ [[(∞,1)Cat]].
 
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.3.13]] together with [[Higher Topos Theory|HTT, theorem 5.5.3.18]].
 
 
+### Tensor product 
+
++-- {: .un_prop}
+###### Proposition
+
+Let $C_1, \cdots, C_n$ be a finite collection of locally presentable $(\infty,1)$-categories. There exists a locally presentable $(\infty,1)$-category $C_1 \otimes \cdots \otimes C_n$ and an [[(∞,1)-functor]] 
+
+$$
+  C_1 \times \cdots \times C_n \to C_1 \otimes \cdots \otimes C_n
+$$
+
+(the [[tensor product]]) such that
+
+1. it preserves [[(∞,1)-colimit]]s in each variable;
+
+1. for every $D \in Pr(\infty,1)Cat$, composition with $f$ produces an [[equivalence of (∞,1)-categories]] 
+
+$$
+  Func_{(\infty,1)}^L(C_1 \otimes \cdots \otimes C_n)
+  \stackrel{\simeq}{\to}
+  Func^{L}_{(\infty,1)}(C_1 \times \cdots \times C_n)
+  \hookrightarrow
+  Func^{}_{(\infty,1)}(C_1 \times \cdots \times C_n)
+$$
+
+onto the full [[sub-(∞,1)-category]] of those functors, that preserves colimits in each argument.
+
+=--
+
+This is  ([Lurie, NA, theorem 4.1.4](#LurieNoncommutative))
 
 ## As $\infty$-vector spaces
 
-In some context -- such as for instance in the context of [[geometric ∞-function theory]] -- it makes good sense to think of $Pr(\infty,1)Cat$ as a model for an $(\infty,1)$-category of "$\infty$-vector spaces":
+In some context it makes good sense to think of $Pr(\infty,1)Cat$ as a model for an $(\infty,1)$-category of "$\infty$-vector spaces". More on this is at [[integral transforms on sheaves]].
 
 Here a small $(\infty,1)$-category $S$ is to be thought of as a _basis_ and the locally presentable $(\infty,1)$-category $C \hookrightarrow PSh_{(\infty,1)}(C)$ as the $\infty$-vector space spanned by this basis. The colimits in $C$ play the role of addition of vectors and the fact that morphisms in $Pr(\infty,1)Cat$ are colimit-presserving means that they play  the role of _linear_ maps between vector spaces. This is described also at [[Lawvere distribution]].
 
@@ -103,9 +161,11 @@ The $(\infty,1)$-category $Pr(\infty,1)Cat$ is introduced in section 5.5.3 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
+
 The monoidal structure on $Pr(\infty,1)Cat$ is described in section 4.1 of
 
 * [[Jacob Lurie]], _[[higher algebra|Noncommutative algebra]]_
+{#LurieNoncommutative}
 
 That this is in fact a symmetric monoidal structure is discussed in section 6 of
 
