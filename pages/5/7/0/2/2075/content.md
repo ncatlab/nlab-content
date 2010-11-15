@@ -1,13 +1,19 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
+#Contents#
+* table of contents
+{:toc}
 
-## Idea 
-
-...
 
 ## Definition 
 
@@ -35,3 +41,5 @@ An [[(∞,1)-functor]] $f : C \to D$ is an **equivalence** in [[(∞,1)Cat]] if 
 This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 
 =--
+
+[[!redirects equivalence of (∞,1)-categories]]
