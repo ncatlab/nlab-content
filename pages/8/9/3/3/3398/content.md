@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
 
 
 
@@ -52,6 +60,14 @@ The left [[Kan extension]] of the composite $C \overset{F}\to D \overset{Yon}\ho
 Since the Yoneda embedding preserves and [[reflected limit|reflects]] all limits, if $J$ has a limit in $C$, then this condition is equivalent to the condition that $F$ preserve it in the ordinary sense, but in general it is stronger than requiring that $F$ preserve the limit only if it exists in $C$.
 
 Finishing the motivating example, a __[[flat functor]]__ may be defined as one that preserves all finite limits, whether or not they exist.
+
+## Related concepts
+
+* **preserved limit**
+
+* [[reflected limit]]
+
+* [[created limit]]
 
 
 [[!redirects preserved limit]]
