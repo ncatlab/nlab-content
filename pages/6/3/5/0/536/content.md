@@ -84,24 +84,35 @@ $M$ is an equivalence.
 
 +-- {: .proof} 
 ######Proof 
-The proof that $M$ is fully faithful is akin to the proof of the Yoneda lemma. Suppose $\theta: M_X \to M_Y$ is a natural transformation, and let $\xi: T X \to X$ be the algebra structure of $X$, regarded as an element of $M_X(X)$. Then $\theta$ is uniquely determined from the special value $\phi = \theta(X)(\xi) \in M_Y(X) = Alg(T X, Y)$. Indeed, for any $n \in Ob(Kl(T))$ and algebra map $h: T n \to X$, we have the equation 
+The proof that $M$ is fully faithful is akin to the proof of the [[Yoneda lemma]]. Suppose $\theta: M_X \to M_Y$ is a natural transformation, and let $\xi: T X \to X$ be the algebra structure of $X$, regarded as an element of $M_X(X)$. Then $\theta$ is uniquely determined from the special value $\phi = \theta(X)(\xi) \in M_Y(X) = Alg(T X, Y)$. Indeed, for any $n \in Ob(Kl(T))$ and algebra map $h: T n \to X$, we have the equation 
 
-$$h = (T n \stackrel{T(h u(n)}{\to} T X \stackrel{\xi}{\to} X)$$ 
+$$h = (T n \stackrel{T(h u(n))}{\to} T X \stackrel{\xi}{\to} X)$$ 
 
 whence by chasing the naturality diagram 
 
 $$\array{
-Alg(T X, X) & \overset{\theta(X)}{\to} & Alg(T X, Y) \\
-\mathllap{Alg(T(h u(n)), X)} \downarrow & & \downarrow \mathrlap{Alg(T(h u(n)), Y)} \downarrow \\
-Alg(T n, X) & \underset{\theta(Y)}{\to} & Alg(T n, Y)
+\xi: Alg(T X, X) & \overset{\theta(X)}{\to} & Alg(T X, Y): \phi \\
+\mathllap{Alg(T(h u(n)), X)} \downarrow & & \downarrow \mathrlap{Alg(T(h u(n)), Y)} \\
+h: Alg(T n, X) & \underset{\theta(n)}{\to} & Alg(T n, Y)
 }$$
 
 applied to $\xi$ in the upper left corner, we obtain the formula 
 
-$$\theta(n)(h) = Alg(T(h u_n), Y)(\phi) \in Alg(T n, Y) = M_Y(n)$$ 
+$$\theta(n)(h) = Alg(T(h u(n)), Y)(\phi)$$ 
 
-(To be continued.) 
+as an element in $Alg(T n, Y) = M_Y(n)$. Thus $\theta$ is uniquely determined from $\phi$. Finally, the algebra map $\phi: T X \to Y$ factors as $\xi: T X \to X$ followed by a uniquely determined algebra map $f: X \to Y$; to see this, it suffices to check that $\phi \circ T \xi = \phi \circ m X$ since $\xi$ is the coequalizer of the pair $T\xi, m X$. This equation follows from naturality (consider chasing the square above through $h = (T\xi) \xi = (m X) \xi). Hence every $\theta: M_X \to M_Y$ is of the form $M_f$ for a (unique) algebra map $f: X \to Y$. 
 
+To complete the proof, we must show that $M: Alg(T) \to Mod(Th(T))$ is essentially surjective. So suppose $Y: Kl(T)^{op} \to Set$ preserves small products; we must show $M_X \cong Y$ for some $T$-algebra $X$. Take the underlying set of $X$ to be $Y(1)$, and define the $T$-algebra structure on $Y(1)$ as follows. The objects $n$ of $Kl(T)$ are sets and we have a composite 
+
+$$T(n) \cong Kl(T)^{op}(n, 1) \to Set(Y(n), Y(1)) \cong Set(Y(1)^n, Y(1))$$ 
+
+where the last composite uses the fact that $Y$ is product-preserving. Putting $n = Y(1)$, we post-compose this composite with evaluation at the identity on $Y(1)$, yielding 
+
+$$T(Y(1)) \to Set(Y(1)^{Y(1)}, Y(1)) \stackrel{ev_{id}}{\to} Y(1)$$ 
+
+and this defines the putative algebra structure on $X$. 
+
+To be continued. 
 =--
 
 ### The monad of a locally small Lawvere theory 
