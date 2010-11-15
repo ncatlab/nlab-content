@@ -26,6 +26,7 @@ For that reason [[Alain Connes|Connes]]' noncommutative manifolds are well descr
 
 * Noncommutative measure spaces are represented by noncommutative von Neumann algebras. 
 
+In noncommutative geometry various homotopical and (co)homological invariants were introduced by large amount of improvization, similar to the beginnings of algebraic topology, but more recently there are few systematic approaches to homotopy theory emerging. See [[model structure on operator algebras]].
 
 #Very early sources and schools#
 
