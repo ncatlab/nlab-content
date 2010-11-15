@@ -328,6 +328,9 @@ This is the topic of section 5.1 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects (∞,1)-category of (∞,1)-presheaves]]
+[[!redirects (∞,1)-categories of (∞,1)-presheaves]]
+
+
 [[!redirects free (∞,1)-cocompletion]]
 [[!redirects free (infinity,1)-cocompletion]]
 
