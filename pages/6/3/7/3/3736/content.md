@@ -303,13 +303,143 @@ $$
 
 We check now that this choice indeed makes $Q$ the coequalizer in $Alg C$.
 
-First of all we need to check that $\pi$ preserves the chose fillers.
+First of all we need to check that $\pi$ preserves the chosen fillers.
+
+So given a filler 
+
+$$
+  \array{
+    A_j &\stackrel{k}{\to}& Y
+    \\
+    \downarrow & \nearrow_{\mathrlap{\hat k}}
+    \\
+    B_j
+  }
+$$
+
+it is sent by $\pi$ to the filler
+
+$$
+  \array{
+    A_j &\stackrel{k}{\to}& Y &\stackrel{\pi}{\to}& Q
+    \\
+    \downarrow & \nearrow && \nearrow_{\pi \hat k}
+    \\
+    B_j
+  }
+$$
+
+of $k \pi$. This is supposed to be the same as
+
+$$
+  \array{
+    A_j &\stackrel{k}{\to}& Y &\stackrel{\pi}{\to}& Q &\stackrel{s}{\to}& Y &\stackrel{\pi}{\to}& Q
+    \\ 
+    \downarrow && && & \nearrow_{\hat r} && \nearrow_{\pi \hat r}
+    \\
+    B_j 
+  }
+  \,.
+$$
+
+Now use the relation $U(f) t = Id$ to rewrite the first diagram equivalently as
+
+$$
+  \array{
+    A_j &\stackrel{k}{\to}& Y &\stackrel{t}{\to}& X &\stackrel{U(f)}{\to}& 
+    Y &\stackrel{\pi}{\to}& Q
+    \\
+    \downarrow &&&&&  \nearrow_{\mathrlap{\hat g}} &&  \nearrow_{\pi \hat k}
+    \\
+    B_j
+  }
+$$
+
+and the relation $U(g) t =  s \pi$ to rewrite the second diagram equivalently as
+
+$$
+  \array{
+    A_j &\stackrel{k}{\to}& Y &\stackrel{t}{\to}& X &\stackrel{U(g)}{\to}& Y &\stackrel{\pi}{\to}& Q
+    \\ 
+    \downarrow && && & \nearrow_{\hat r} && \nearrow_{\pi \hat r}
+    \\
+    B_j 
+  }
+  \,.
+$$
+
+This show that the fillers $\hat k$ and $\hat r$ are images under $U(f)$ and $U(g)$, respectively, of a single filler in $X$. Since $\pi$ coequalizes, it follows that $\pi \hat k = \pi \hat r$.
+
+Finally we need to show that the coequalizing morphism $\pi$ in $Alg C$ thus established is indeed universal with this property.
+
+For $\phi : Y \to Z$ a coequalizing morphism in $Alc C$, the fact that $Q$ is a coequalizer in $C$ already gives a unique morphism $\phi_Q$ in
+
+$$
+  X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y
+  \stackrel{\pi}{\to} Q
+  \\
+  && {}^{\mathllap{\phi}}\downarrow & \swarrow_{\mathrlap{\exists ! \phi_Q}}
+  \\
+  && Z
+  \,.
+$$
+
+So it is sufficient to observe that $\phi_Q$ preserves chosen fillers. But this is true be the above construction, which says that the chosen fillers in $Q$ are the images of the chosen fillers in $Y$.
+
+=--
+
+## A technical lemma
+
+Eventually we need to show that $Alg C$ has all [[colimit]]s. This turns out to require the following somewhat technical lemma
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $Y$ be an algebraic fibrant object $X$ an object in $C$ and 
+
+$$
+  f : Y \to X
+$$
+
+a morphism in $C$ (really: $U(X) \to Y$). Then there is an alebraic fibrant object $X^f_\infty$ and a morphism $X \to X^f_\infty$ such that the composite 
+
+$$
+  Y\to X \to X^f_{\infty}
+$$
+
+is a morphism of algebraic fibrant objects and it is [[inintial object|initial]] with this property: 
+
+for every morphism $\phi : X \to Z$ in $C$ with $Z$ an algebraic fibrant object such that the composite $Y \to X \to Z$ preserves distinguished fillers, there exists a unique morphism $\phi_\infty : X^f_\infty \to Z$ such that we have a [[commutative diagram]]
+
+$$
+  \array{
+    Y 
+    \\
+    {}^{\mathllap{f}}\downarrow & \searrow^{\mathrlap{alg}}
+    \\
+    X &\stackrel{\phi}{\to}& Z
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists ! \phi_\infty}}
+    \\
+    X^f_\infty
+  }
+  \,.
+$$
+
+Moreover, if $f$ is a [[monomorphism]] in $C$, then $X \to X^f_\infty$ is an acyclic cofibration.
+
+=--
+
+This is ([Nikolaus, prop. 2.6](#Nikolaus)).
+
++-- {: .proof}
+###### Proof
 
 (...)
 
-
-
 =--
+
+
 ## Examples
 
 ### Algebraic $\infty$-groupoids {#AlgebaicHigherCategories}
