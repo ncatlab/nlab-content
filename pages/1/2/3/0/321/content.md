@@ -87,7 +87,7 @@ This way of composing spans lets us define a [[2-category]] $Span(C)$ with:
 * spans as morphisms
 * maps between spans as 2-morphisms
 
-This is a weak 2-category has a nontrivial [[associator]]: composition of spans is not strictly associative, because pullbacks are defined only up to canonical isomorphism.  
+This is a weak 2-category has a nontrivial [[associator]]: composition of spans is not strictly associative, because pullbacks are defined only up to canonical isomorphism.  A [[Lack's coherence theorem|naturally defined]] [[strict 2-category]] which is equivalent to $Span(C)$ is the strict 2-category of [[linear polynomial functors]] between [[slice categories]] of $C$.
 
 (Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism'; such a structure can be modeled by an [[anabicategory]] or an [[opetopic bicategory]].)
 
