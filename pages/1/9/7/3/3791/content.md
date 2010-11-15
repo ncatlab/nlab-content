@@ -4,7 +4,7 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 * _The partition function of a degenerate functional_, Commun. Math. Phys. __67__, 1 (1979)
 
-* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], A. Schwarz, O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
+* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], A. Schwarz, O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997, [hep-th/9502010](http://arxiv.org/abs/hep-th/9502010)
 
 * Albert Schwarz, Oleg Zaboronsky, _Supersymmetry and localization_, Comm. Math. Phys. __183__, 2 (1997), 463-476, [euclid](http://projecteuclid.org/euclid.cmp/1158328185)
 
@@ -14,7 +14,7 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 * [arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz
 
-* monograph: *Quantum field theory and topology*, Grundlehren der Math. Wissen. __307__, Springer 1993. (translated from Russian original Kvantovaja teorija polja i topologija, ``Nauka'', Moscow, 1989. 400 pp.)
+* monograph: *Quantum field theory and topology*, Grundlehren der Math. Wissen. __307__, Springer 1993. (translated from Russian original Kvantovaja teorija polja i topologija, *Nauka*, Moscow, 1989. 400 pp.)
 
 * scientific reminiscences, [pdf](http://www.math.ucdavis.edu/~schwarz/bion.pdf)
 
