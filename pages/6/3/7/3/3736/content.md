@@ -281,10 +281,16 @@ establishes an equivalence of an algebraic with the standard geometric model for
 
 ## References
 
+The model structure on algebraic fibrant objects was introduced and discussed in
+
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
 {#Nikolaus}
 
+A survey is in
+
 * [[Thomas Nikolaus]] Talk on _Algebraic models for higher categories_ ([here](http://www.math.uni-hamburg.de/home/nikolaus/AlgMod.pdf))
+
+The refined [[small object argument]] that is being used in the construction of the left adjoint $F : C \to Alg C$ is along the lines of the discussion in
 
 * [[Richard Garner]], _Understanding the small object argument_ Applied Categorical Structures, 17(3):247&#8211;285, 2009 ([pdf](http://www.dpmms.cam.ac.uk/~rhgg2/CT07/CT07.pdf))
 {#Garner}
