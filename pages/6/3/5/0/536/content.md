@@ -56,22 +56,22 @@ _[[commutative algebraic theory|Commutative algebraic theories]]_ form an import
 
 ## Lawvere theories and monads 
 
-We flesh out the relationships between theories and monads, starting from the most general situation and then adding conditions to cut down on the size of theories. The term "Lawvere theory" as used here will mean 
+We flesh out the relationships between theories and [[monad]]s, starting from the most general situation and then adding conditions to cut down on the size of theories. The term "[[Lawvere theory]]" as used here will mean 
 
 ### The large theory of a monad
 
-Let $T: Set \to Set$ be a monad, with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
+Let $T: Set \to Set$ be a [[monad]] on [[Set]], with unit $u: 1 \to T$ and multiplication $m: T T \to T$. 
 
 +-- {: .un_def}
 ######Definition 
-The **large Lawvere theory** $Th(T)$ **of $T$** is the opposite of the [[Kleisli category]], $Kl(T)^{op}$. 
+The **large Lawvere theory** $Th(T)$ **of $T$** is the [[opposite category|opposite]] of the [[Kleisli category]], $Kl(T)^{op}$. 
 =-- 
 
 Objects of $Kl(T)^{op}$ are sets $n$, and every object $n$ of $Kl(T)^{op}$ is the $n^{th}$ power of a set $1$, so indeed $Kl(T)^{op}$ is a (locally small) [[infinitary Lawvere theory]]. 
 
-A _model_ of the Lawvere theory is a functor $M: Kl(T)^{op} \to Set$ that preserves small products. A _homomorphism_ of models is a natural transformation between such functors. (Of course we can interpret models in any category with small products, not just $Set$.) 
+A _model_ of the Lawvere theory is a functor $M: Kl(T)^{op} \to Set$ that preserves small [[product]]s. A _homomorphism_ of models is a natural transformation between such functors. (Of course we can interpret models in any category with small products, not just $Set$.) 
 
-Each algebra $X$ of the monad gives rise to a model $M_X$ of the Lawvere theory: 
+Each [[algebra over a monad|algebra]] $X$ of the monad gives rise to a model $M_X$ of the Lawvere theory: 
 
 $$Kl(T)^{op} \hookrightarrow Alg(T)^{op} \stackrel{\hom(-, X)}{\to} Set$$ 
 
