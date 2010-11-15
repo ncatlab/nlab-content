@@ -1,4 +1,4 @@
-# Dededkind completions
+# Dedekind completions
 * table of contents
 {: toc}
 
