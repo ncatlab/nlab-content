@@ -17,9 +17,9 @@
 * table of contents
 {:toc}
 
-## Idea
+## Overview
 
-So far there are only few works on [[homotopy theory]] for [[operator algebras]]. One of the basic checks for good homotopy theory of operator algebras is that the  [[Kasparov KK-group]]s should be obtained from Hom-s in some stable category of opetator algebras. This subject is important in order to introduce more systematic homotopic methods in [[noncommutative geometry]] a la [[Alain Connes]]. 
+So far there are only few works on [[homotopy theory]] for [[operator algebras]]. One of the basic checks for good homotopy theory of operator algebras is that the [[Kasparov KK-theory|Kasparov KK-groups]] should be obtained from Hom-s in the appropriate stable category of operator algebras. This subject is important in order to introduce more systematic homotopic methods in [[noncommutative geometry]] a la [[Alain Connes]]. 
 
 ## References
 
@@ -30,6 +30,8 @@ as the homotopy classes of maps of a Quillen model category, An alpine anthology
 of homotopy theory_, Contemp. Math. __399__, Amer. Math. Soc. 2006, pp. 163&#8211;197, [MR2007c:46070](http://www.ams.org/mathscinet-getitem?mr=2007c:46070)
 
 * [[Paul Arne Østvær]], _Homotopy theory of $C^*$-algebras_, Frontiers in Mathematics, Springer Basel, 2010, [arxiv/0812.0154](http://arxiv.org/abs/0812.0154)
+
+and a [[category of fibrant objects]] approach in 
 
 * Otgonbayar Uuye, _Homotopy theory for $C^*$-algebras_, [arxiv/1011.2926](http://arxiv.org/abs/1011.2926)
 
