@@ -222,7 +222,7 @@ I want to start replying to/understanding this comment.  I have some reading to 
 
 Recall that the goal of **geometric $\infty$-function theory** is
 
-* to establish a good [[higher category theory|higher categorical]] version of linear algebra ("integral transform" = "higher matrix multiplication"!)
+* to establish a good [[higher category theory|higher categorical]] version of linear algebra ("[[integral transform]]" = "higher matrix multiplication"!)
 
 * such that interesting classes of [[∞-model]] [[FQFT|extended TQFTs]] $Z_P$ are [[representable functor|represented]] by [[motivation for sheaves, cohomology and higher stacks|generalized spaces]] $P$ 
 
@@ -400,7 +400,7 @@ In terms of this [[higher algebra]] we will obtain the two central (defining) th
 
 For $X \to Y \leftarrow X'$ morphisms of nice generalized spaces ([[perfect ∞-stacks]]) and for $\infty$-functions $C(-) = QC(-)$ (given by the assignment of $(\infty,1)$-categories of quasicoherent sheaves) we have
 
-* _$\infty$-matrices (integral transforms) are $\infty$-functions on fiber products_ in that the following equivalence holds: $ C(X \times_Y X') \simeq C(X) \otimes_{C(Y)} C(X')$
+* _$\infty$-matrices ([[integral transform]]s) are $\infty$-functions on fiber products_ in that the following equivalence holds: $ C(X \times_Y X') \simeq C(X) \otimes_{C(Y)} C(X')$
 
 * _$\infty$-linear maps are given by $\infty$-matrices in that also the following equivalence holds: $C(X \times_Y X') \simeq Fun_{C(Y)}(C(X), C(X'))$;
 
@@ -921,7 +921,7 @@ $$
 Given an object $\mathcal{P} \in QC(X_1 \times X_2)$, we can define a functor $\Phi_{\mathcal{P}}: QC(X_1) \rightarrow QC(X_2)$ by pulling-back along $p_1$, tensoring
 with $\mathcal{P}$, and then pushing-forward along $p_2$.
 Thus given an object $\mathcal{F} \in QC(X_1)$, we have $\Phi_{\mathcal{P}}(\mathcal{F}):= {p_2}_{*}({p_1}^{*}\mathcal{F} \otimes \mathcal{P})$. We think
-of this an integral transform of the sheaf $\mathcal{F}$
+of this an [[integral transform]] of the sheaf $\mathcal{F}$
 with respect to the kernel $\mathcal{P}$. 
 
 In fact, because of the naturality of the above operations,
@@ -934,7 +934,7 @@ Hom in $Pr^{L}$ and consists of colimit preserving functors and their natural tr
 The main result of section 4 of BZFN (which has been called above the fundamental theorem of geometric $\infty$-function theory)is that this functor and its cousins are equivalences. As a slogan:
 
 +-- {: .standout}
-integral transforms = colimit preserving functors
+[[integral transform]]s = colimit preserving functors
 =--
 
 This was first proved
