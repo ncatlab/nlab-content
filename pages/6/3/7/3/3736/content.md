@@ -249,7 +249,7 @@ being the unit of the adjunction $A_j \to U F A_j$. Take $\tilde r$ to be the (u
 
 =--
 
-### Monadicity
+### Monadicity of the forgetful functor
 
 We now give a formal justification for calling the objects of $Alg C$ _algebraic_ objects by showing that $Alg C$ is the category of algebras over an [[algebraic theory]] in $C$, or more precisely that it is the category of [[algebras over a monad|algebra over the monad]] $F \circ U$ on $C$ 
 
@@ -375,12 +375,14 @@ Finally we need to show that the coequalizing morphism $\pi$ in $Alg C$ thus est
 For $\phi : Y \to Z$ a coequalizing morphism in $Alc C$, the fact that $Q$ is a coequalizer in $C$ already gives a unique morphism $\phi_Q$ in
 
 $$
-  X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y
-  \stackrel{\pi}{\to} Q
-  \\
-  && {}^{\mathllap{\phi}}\downarrow & \swarrow_{\mathrlap{\exists ! \phi_Q}}
-  \\
-  && Z
+  \array{
+    X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y
+    \stackrel{\pi}{\to} Q
+    \\
+    && {}^{\mathllap{\phi}}\downarrow & \swarrow_{\mathrlap{\exists ! \phi_Q}}
+    \\
+    && Z
+  }
   \,.
 $$
 
@@ -388,26 +390,35 @@ So it is sufficient to observe that $\phi_Q$ preserves chosen fillers. But this 
 
 =--
 
-## A technical lemma
 
-Eventually we need to show that $Alg C$ has all [[colimit]]s. This turns out to require the following somewhat technical lemma
+### Solidity of the forgetful functor {#Solidity}
+
+
++-- {: .un_prop}
+###### Proposition
+
+The [[forgetful functor]] $U : Alg C \to C$ is a [[solid functor]].
+
+=--
+
+We discuss the proof for a slightly simpler statement, from which the full statement follows easily. 
 
 +-- {: .un_lemma}
 ###### Lemma
 
-Let $Y$ be an algebraic fibrant object $X$ an object in $C$ and 
+Let $Y$ be an algebraic fibrant object, $X$ an object in $C$ and 
 
 $$
   f : Y \to X
 $$
 
-a morphism in $C$ (really: $U(X) \to Y$). Then there is an alebraic fibrant object $X^f_\infty$ and a morphism $X \to X^f_\infty$ such that the composite 
+a morphism in $C$ (really: $U(X) \to Y$). Then there is an algebraic fibrant object $X^f_\infty$ and a morphism $X \to X^f_\infty$ such that the composite 
 
 $$
   Y\to X \to X^f_{\infty}
 $$
 
-is a morphism of algebraic fibrant objects and it is [[inintial object|initial]] with this property: 
+is a morphism of algebraic fibrant objects and it is [[initial object|initial]] with this property: 
 
 for every morphism $\phi : X \to Z$ in $C$ with $Z$ an algebraic fibrant object such that the composite $Y \to X \to Z$ preserves distinguished fillers, there exists a unique morphism $\phi_\infty : X^f_\infty \to Z$ such that we have a [[commutative diagram]]
 
@@ -432,13 +443,102 @@ Moreover, if $f$ is a [[monomorphism]] in $C$, then $X \to X^f_\infty$ is an acy
 
 This is ([Nikolaus, prop. 2.6](#Nikolaus)).
 
+The naive idea would be to equip $X$ with distinguished fillers $f \hat k$
+
+$$
+  \array{
+    A_j &\stackrel{k}{\to}& Y &\stackrel{f}{\to}& X
+    \\
+    \downarrow & \nearrow_{\mathrlap{\hat k}} && \nearrow_{f \mathrlap{\hat k}}
+    \\
+    B_j
+  }
+$$
+
+for each distinguished filler $\hat k$. But since the composite may factor through $Y$ in many ways, this will not give a unique notion of filler. So we shall iteratetively form colimits that equate these potentially different fillers.
+
 +-- {: .proof}
 ###### Proof
 
-(...)
+
+Set
+
+
+$$
+  X_H := \lim_\to
+  \left(
+     \array{
+       (B_j)_h && (B_{j'})_{h'} && \cdots
+       \\
+       & {}_{\mathllap{f \hat k}}\searrow & \downarrow^{\mathrlap{f \hat k'}}
+       & \cdots
+       \\
+       && X
+     }
+  \right)
+$$
+
+where on the right we take the [[colimit]] over the diagram with one object $(B_j)_h$ per morphism $h : A_j \to X$ that factors through $Y$,  and one morphism $(B_j)_h \to X$ per way $h = f k$ of factoring $h$.
+
+This comes with a morphism $X \to X_H$. Continue this way to build $X_{H'}$ by coequalizing the different ways morphisms into $X_H$ may factor through $X$, etc. to obtain a sequence
+
+$$
+  X \to X_H \to X_{H'} \to X_{H''} \to \cdots
+$$
+
+and set
+
+$$
+  X_0^f := \lim_\to (X \to X_H \to X_{H'} \to X_{H''} \to \cdots)
+  \,.
+$$
+
+The object $X_0^f$ can be seen to have the desired universal factorization property. But it may not yet be itself algebraically fibrant.  So we conclude by essentially applying the construction of the left adjoint $F$. But we start with letting $X_1^f$ be the pushout
+
+$$
+  \array{
+    \coprod_j A_j &\to& X_0^f
+    \\ 
+    \downarrow && \downarrow
+    \\
+    \coprod_j B_j &\to& X_1^f
+  }
+$$
+
+where now the coproduct is over all morphisms that do not factor through $Y$. After that we proceed exactly as we did for the construction for $F$ and obtain a sequence
+
+$$
+  X_0^f \to X_1^f \to X_2^f \to \cdots
+  \,.
+$$
+
+Finally we set
+
+$$
+  X_\infty^f := \lim_\to(X_0^f \to X_1^f \to X_2^f \to \cdots)
+  \,.
+$$
+
+One checks that this has the claimed properties (...).
 
 =--
 
+
+### Transferred model structure
+
++-- {: .un_theorem}
+###### Theorem
+
+Under the above conditions, $Alg C$ becomes a [[model category]] with the $U$-[[transferred model structure]]: weak equivalences and fibrations in $Alg C$ are those morphisms that are so in $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the [above result](#Solidity) that $U$ is a _solid functor_ as described in detail at [[solid functor]].
+
+=--
 
 ## Examples
 
