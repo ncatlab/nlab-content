@@ -61,18 +61,23 @@ are coherent then so is the third. All this holds even if $\mathcal{O}$ is a she
 
 A theorem of Serre says that the category of coherent sheaves over a projective variety of the form $Proj R$ where $R$ is a graded commutative Noetherian ring is equivalent to the localization of the category of finitely generated graded $R$-modules modulo its ("torsion") subcategory of (finitely generated graded) $R$-modules of finite length. 
 
+## Historical note
+
+First works on coherent sheaves in complex analytic geometry. Serre adapted their work to algebraic framework in his famous article [[FAC]]. Hartshorne's definitions are changed/adapted to the special setup of Noetherian schemes with the excuse that the coherence does not behave that well otherwise; thus they differ from the definitions in [[EGA]] and [[FAC]].  
+
 ##References
 
-* J-P. Serre, _Faisceaux alg&#233;briques coh&#233;rents_, Ann. of Math. (2) __61__,  (1955) 197--278, [doi](http://dx.doi.org/10.2307/1969915).
+* [[J-P. Serre]], _[[Faisceaux algébriques cohérents]]_, Ann. of Math. (2) __61__,  (1955) 197--278, [doi](http://dx.doi.org/10.2307/1969915).
 
 * H. Grauert, R. Reinhold, _Coherent analytic sheaves_, Grundlehren der Math. Wissenschaften __265__, Springer 1984. xviii+249 pp.
 
 * M. M. [[Kapranov]], _On the derived categories of coherent sheaves on some homogeneous spaces_,  Invent. Math.  92  (1988),  no. 3, 479--508, [doi](http://dx.doi.org/10.1007/BF01393744). 
 
-* D. O. Orlov, _&#1055;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1085;&#1099;&#1077; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1080; &#1082;&#1086;&#1075;&#1077;&#1088;&#1077;&#1085;&#1090;&#1085;&#1099;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1101;&#1082;&#1074;&#1080;&#1074;&#1072;&#1083;&#1077;&#1085;&#1090;&#1085;&#1086;&#1089;&#1090;&#1080; &#1084;&#1077;&#1078;&#1076;&#1091; &#1085;&#1080;&#1084;&#1080;_ ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=629&what=fullt&option_lang=rus), Russian)  Uspekhi Mat. Nauk  58  (2003),  no. 3(351), 89--172;  Engl. transl. _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys  58  (2003),  no. 3, 511--591.
+* [[D. O. Orlov]], _&#1055;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1085;&#1099;&#1077; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1080; &#1082;&#1086;&#1075;&#1077;&#1088;&#1077;&#1085;&#1090;&#1085;&#1099;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1101;&#1082;&#1074;&#1080;&#1074;&#1072;&#1083;&#1077;&#1085;&#1090;&#1085;&#1086;&#1089;&#1090;&#1080; &#1084;&#1077;&#1078;&#1076;&#1091; &#1085;&#1080;&#1084;&#1080;_ ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=629&what=fullt&option_lang=rus), Russian)  Uspekhi Mat. Nauk __58__  (2003),  no. 3(351), 89--172;  Engl. transl. _Derived categories of coherent sheaves and equivalences between them_, Russian Math. Surveys __58__ (2003),  no. 3, 511--591.
 
 * V. D. Golovin, _Homology of analytic sheaves and duality theorems_, Contemporary Soviet Mathematics (1989) viii+210 pp. transl. from Russian original &#1043;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1072;&#1085;&#1072;&#1083;&#1080;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1087;&#1091;&#1095;&#1082;&#1086;&#1074; &#1080; &#1090;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1076;&#1074;&#1086;&#1081;&#1089;&#1090;&#1074;&#1077;&#1085;&#1086;&#1089;&#1090;&#1080;, Moskva, Nauka 1986. (192 pp.)
 
 * [[EGA]] 0.5.3.1
+* Qing Liu, _Algebraic geometry and arithmetic curves_, 5.1.3
 
 [[!redirects coherent sheaves]]
