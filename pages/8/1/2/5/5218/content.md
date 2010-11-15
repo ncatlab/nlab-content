@@ -1,6 +1,29 @@
-So far there are only few works on homotopy theory for [[operator algebras]]. One of the basic checks for good homotopy theory of operator algebras is that the  Kasparov KK-groups should be obtained from Hom-s in some stable category of opetator algebras. This subject is important in order to introduce more systematic homotopic methods in [[noncommutative geometry]] a la Connes. 
 
-The Quillen model category structure on various categories of operator algebras have been introduced and studied in
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+So far there are only few works on [[homotopy theory]] for [[operator algebras]]. One of the basic checks for good homotopy theory of operator algebras is that the  [[Kasparov KK-group]]s should be obtained from Hom-s in some stable category of opetator algebras. This subject is important in order to introduce more systematic homotopic methods in [[noncommutative geometry]] a la [[Alain Connes]]. 
+
+## References
+
+The Quillen [[model category]] structure on various categories of operator algebras have been introduced and studied in
 
 * Michael Joachim, Mark W. Johnson, _Realizing Kasparov's KK-theory groups
 as the homotopy classes of maps of a Quillen model category, An alpine anthology
@@ -10,7 +33,7 @@ of homotopy theory_, Contemp. Math. __399__, Amer. Math. Soc. 2006, pp. 163&#821
 
 * Otgonbayar Uuye, _Homotopy theory for $C^*$-algebras_, [arxiv/1011.2926](http://arxiv.org/abs/1011.2926)
 
-The derived/triangulated category approach to operator algebras is introduced in  
+The [[derived category]]/[[triangulated category]] approach to operator algebras is introduced in  
 
 * Ralf Meyer, Ryszard Nest, _Homological algebra in bivariant K-theory and other triangulated categories_, [math.KT/0702146](http://arxiv.org/abs/math/0702146)
 
