@@ -23,3 +23,4 @@ Many familiar categories of mathematical structures are cocomplete: to name just
 
 
 [[!redirects |cocomplete category]]
+[[!redirects cocomplete categories]]
