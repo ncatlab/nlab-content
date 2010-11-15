@@ -215,11 +215,29 @@ a notion of [[volume of a Lie groupoid]].
 
 ## References and related entries
 
+#### Usual BRST (not BV)
+
+* Marc Henneaux, Teitelbaum, _Quantization of gauge systems_, Princeton University Press 1992. xxviii+520 pp.
+
+* [[Glenn Barnich]], Friedemann Brandt, Marc Henneaux, _Local BRST cohomology in gauge theories_, Phys. Rep. __338__ (2000), no. 5, 439&#8211;569, [hep-th/0002245](http://xxx.lanl.gov/abs/hep-th/0002245), <a href="http://dx.doi.org/10.1016/S0370-1573(00)00049-1">doi</a>
+
+#### BV Formalism
+
 * [[homotopy BV algebra]]
+* I. Batalin, G. Vilkovisky, _Gauge algebra and quantization_, Phys. Lett. 102B, 27 (1981), _Quantization of gauge theories with linearly dependent
+generators_, Phys. Rev. D29, 2567 (1983)
+* B. Zwiebach, _Closed string field theory: Quantum action and the B-V master equation_, Nucl. Phys. B 390, 33-152 (1993)
+* [[Glenn Barnich]], Friedemann Brandt, Marc Henneaux, _Local BRST cohomology in the antifield formalism. I. General theorems_, [euclid](http://projecteuclid.org/euclid.cmp/1104275094), [MR97c:81186](http://www.ams.org/mathscinet-getitem?mr=97c:81186)
 
 A comprehensive recent review is
 
 * Carlo Albert, Bea Bleile, J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky integrals in finite dimensions_, [arXiv/0812.0464](http://eprintweb.org/S/article/math-ph/0812.0464)
+
+Geometrical aspects were pioneered in 
+
+* [[Albert Schwarz]], _[[semiclassical approximation|Semiclassical approximation]] in Batalin-Vilkovisky formalism_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246)
+* [[Albert Schwarz]], _Semiclassical approximation in Batalin-Vilkovisky formalism_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246)
+* M. Alexandrov, [[M. Kontsevich]], A. Schwarz, O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405&#8211;1429, 1997, [hep-th/9502010](http://arxiv.org/abs/hep-th/9502010)
 
 Other introductions include
 
@@ -228,9 +246,7 @@ Other introductions include
 *  [[A. Cattaneo]], _From topological field theory to 
 deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
-*  M. B&#228;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
-
-* [[Albert Schwarz]], _Semiclassical approximation in Batalin-Vilkovisky formalism_, Comm. Math. Phys.  __158__ (1993), no. 2, 373--396, [euclid](http://projecteuclid.org/euclid.cmp/1104254246)
+*  M. B&auml;chtold, _On the finite dimensional BV formalism_, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
 
 The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
 
