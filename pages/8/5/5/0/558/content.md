@@ -348,47 +348,40 @@ By the above theorem and the <a href="http://ncatlab.org/nlab/show/Quillen+equiv
 
 ### For $n$-fold groups
 
-It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all [[homotopy n-type]]s.
++-- {: .un_theorem}
+###### Theorem
 
-Loday proved in
+The [[homotopy category]] of [[cat-n-group]]s is equivalent to that of [[pointed object|pointed]] [[connected]] [[homotopy n-type]]s.
 
-* J.-L. Loday, _Spaces with finitely many non-trivial homotopy groups_, J. Pure Appl. Algebra
-24 (1982), 179-202.
+=--
 
-that the homotopy category of [[cat-n-group]]s is equivalent to that of pointed connected homotopy $n$-types.
+This is proven in ([Loday](#Loday)).
 
-Regis Pellissier produces in his 2003 thesis a Quillen equivalence between Segal groupoids and Topological Spaces:
 
-* [arXiv](http://arxiv.org/abs/math/0308246)
 
-For reviews see for instance
-
-* Ronald Brown, _Computing Homotopy Types Using Crossed $N$-Cubes of Groups_ ([arXiv](http://arxiv.org/abs/math/0109091))
-
-* Simona Paoli, _Internal categorical structures in homotopical algebra_, to appear in _Towards Higher Categories_, eds. J. Baez and P. May.  ([pdf](http://www.maths.mq.edu.au/~simonap/paoli_IMA.pdf))
-
-Strict $n$-fold categories can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "[[higher van Kampen theorems]]."  In general, we have some functors
-$$\Xi:({diagrams of spaces })\leftrightarrow ({higher groupoids}):B $$
-such that:
-1. $\Xi$ is homotopically defined and preserves certain colimits;
-1. $\Xi \circ B$ is equivalent to Id;
-1. There is a natural transformation $Id \rightarrow B \circ \Xi$ preserving some homotopical information. 
-
-The purpose of 1. is to be able to calculate some homotopical information. The purpose of 2. is to show that the diagrams used reflect the algebraic structure of the higher groupoids. Detailed references can be found at the [Higher dimensional group theory](http://www.bangor.ac.uk/r.brown/hdaweb2.htm) web site. 
-
-Trying to be more explicit about some colimits of certain higher groupoids has yielded some interesting algebraic constructions, for which some examples required computational group theory!
 
 ## References
+
 
 An introductory survey is given in
 
 * [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
+
+The original form of the homotopy hypothesis for Kan complexes is due to [[Dan Quillen]]. See the references at [[model structure on simplicial sets]].
 
 The homotopy hypothesis for [[algebraic Kan complex]]es is established and discussed in
 
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
 {#Nikolaus}
 
-Some related literature is listed at
 
-* [[Ronnie Brown]], _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). 
+Models of homotopy $n$-types by $Cat^n$-groups are discussed in
+
+* [[Jean-Louis Loday]], _Spaces with finitely many non-trivial homotopy groups_, J. Pure Appl. Algebra 24 (1982), 179-202.
+{#Loday}
+
+More literature on models of homotopy types by strict higher groupoids is at
+
+* [[Ronnie Brown]], _Computing Homotopy Types Using Crossed $N$-Cubes of Groups_ ([arXiv](http://arxiv.org/abs/math/0109091))
+
+* [[Simona Paoli]], _Internal categorical structures in homotopical algebra_, to appear in _[[johnbaez:Towards Higher Categories]]_, eds. [[John Baez]] and [[Peter May]]  ([pdf](http://www.maths.mq.edu.au/~simonap/paoli_IMA.pdf))
