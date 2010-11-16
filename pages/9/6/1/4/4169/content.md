@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 # Little sites
 * table of contents
 {: toc}
@@ -35,6 +46,12 @@ $$
 such that $v_0 \to u_0$ is an element of a covering family of $u_0$, so the arrows $w \to u_0$ and $w \to v_0$ really are morphisms of $J/a$. Then we say a covering family of $u_0\to a$ is a collection of triangles that, when we forget the maps to $a$, form a covering family of $u_0$ in $C$. This is at the very least a [[coverage]], and so we have a site.
 
 >To be continued...
+
+## Related concept
+
+* **little site**
+
+* [[big site]]
 
 
 [[!redirects little site]]
