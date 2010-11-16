@@ -112,6 +112,38 @@ See [[base change geometric morphism]].
 
 ## Examples
 
+The following proposition makes manifest the way in which $\mathbf{H}/X$ is the category of $(\infty,1)$-sheaves over $X$ -- for the case of trivial [[Grothendieck topology]] (for presheaves).
+
++-- {: .un_prop}
+###### Proposition
+**(forming overcategories commutes with passing to presheaves)**
+
+Let $C$ be a [[small (∞,1)-category]] and $p : K \to C$
+a [[diagram]]. Write $C_{/p}$ 
+and $PSh(C)/_{j p}$ for the corresponding [[over (∞,1)-categories]], where 
+$j : C \to PSh(C)$ is the [[(∞,1)-Yoneda embedding]].
+
+Then we have an [[equivalence of (∞,1)-categories]]
+
+$$
+  PSh(C_{/p}) \stackrel{\simeq}{\to} PSh(C)_{/j p}
+  \,.
+$$
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+Here we may think of $C_{/p}$ as the [[big site]] of the object $c \in PSh(C)$, hence of $PSh(C_{/p})$ as presheaves on $c$.
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, 5.1.6.12]]. For more on this see [[(∞,1)-category of (∞,1)-presheaves]].
+
+
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -130,6 +162,9 @@ $$
 This is a special case of the [[(∞,1)-Grothendieck construction]]. See the section <a href="http://ncatlab.org/nlab/show/(infinity,1)-Grothendieck+construction#GrpdFibsOverGrpds">(∞,0)-fibrations over ∞-groupoids</a>.
 
 =--
+
+
+
 
 ## References
 
