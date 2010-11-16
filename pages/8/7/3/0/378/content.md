@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include model category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -9,9 +15,9 @@
 
 ## Idea
 
-[[simplicial set|Simplicial sets]] are the archetypical combinatorial "[[model category|model]]" for the [[(infinity,1)-category]] of (compactly generated weakly Hausdorff) [[topological space]]s and equivalently that of [[infinity-groupoid]]s, as well as a standard model for the [[(infinity,1)-category of (infinity,1)-categories]] itself.
+[[simplicial set|Simplicial sets]] are the archetypical combinatorial "[[model category|model]]" for the [[(∞,1)-category]] of (compactly generated weakly Hausdorff) [[topological space]]s and equivalently that of [[∞-groupoid]]s, as well as a standard model for the [[(∞,1)-category of (∞,1)-categories]] [[(∞,1)Cat]] itself.
 
-This statement is made precise by the existence of the structure of a [[model category]] on [[SSet]], called the **classical model structure**  that is a [[presentable (infinity,1)-category|presentation]] for the [[(infinity,1)-category]] [[Top]], as well as the **Joyal model structure** which similarly is a presentation of the $(\infty,1)$-category $(\infty,1)Cat$.
+This statement is made precise by the existence of the structure of a [[model category]] on [[sSet]], called the **classical model structure**  that is a [[presentable (infinity,1)-category|presentation]] for the [[(infinity,1)-category]] [[Top]], as well as the **Joyal model structure** which similarly is a presentation of the $(\infty,1)$-category $(\infty,1)Cat$.
 
 
 
@@ -212,9 +218,23 @@ Fibrant replacemennt in $sSet_{Quillen}$ models the process of _$\inftty$-groupo
 
 ## References 
 
-A standard reference for the classical model structure is
+[[Dan Quillen]]'s original proof (in *Homotopical Algebra*, LNM 43, Springer, 1967) is purely combinatorial (i.e. does not use topological spaces): he uses the theory of minimal Kan fibrations, the fact that the latter are fiber bundles, as well as the fact that the classifying space of a simplicial group is a Kan complex. This proof has been rewritten several times in the literature: at the end of
 
-* **GoerJar**  Goerss, Jardine, _Simplicial homotopy theory_ (Birkh&auml;user) ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
+* S.I. Gelfand and Yu. I. Manin, *Methods of Homological Algebra*, Springer, 1996
+
+as well as in
+
+* [[Andre Joyal]] and M. Tierney _An introduction to simplicial homotopy theory_ ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01))
+
+A proof (in fact two variants of it) using Kan's $Ex^\infty$ functor (see [[Kan fibrant replacement]]) is given in  
+
+* [[Denis-Charles Cisinski]], _Ast&#233;risque 308_
+
+the fun part is not that much about the existence of model structure, but to prove that the fibrations are precisely the [[Kan fibration]]s (and also to prove all the good properties of $Ex^\infty$ without using topological spaces); for two different proofs of this fact using $Ex^\infty$, see Prop. 2.1.41 as well as Scholium 2.3.21 for an alternative). For the rest, everything was already in the book of Gabriel and Zisman, for instance.
+
+Another standard reference for the classical model structure is
+
+* [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ (Birkh&#228;user) ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
 
 A reference with lots of details on Joyal's model structure is
 
