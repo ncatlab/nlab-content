@@ -13,7 +13,7 @@ An **$n$-Lie algebra** is defined to be an algebraic structure which
 
 Therefore, any "$n$-Lie algebras" that appear in the literature are **not** examples of $L_\infty$-algebras.
 
-So $n$-Lie algebras in this sense in general don't integrate to [[Lie infinity-groupoid]]s via the usual [[Lie theory]]. An important application of $n$-Lie algebras is as formalizations and generalizations of Nambu brackets. 
+So $n$-Lie algebras in this sense in general don't integrate to [[Lie infinity-groupoid]]s via the usual [[Lie theory]]. An important application of $n$-Lie algebras is as formalizations and generalizations of [[Nambu mechanics|Nambu brackets]]. 
 
 
 ## References
