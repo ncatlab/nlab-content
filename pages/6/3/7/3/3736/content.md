@@ -376,8 +376,8 @@ For $\phi : Y \to Z$ a coequalizing morphism in $Alc C$, the fact that $Q$ is a 
 
 $$
   \array{
-    X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y
-    \stackrel{\pi}{\to} Q
+    X & \stackrel{\overset{f}{\to}}{\underset{g}{\to}} & Y
+    &\stackrel{\pi}{\to} & Q
     \\
     && {}^{\mathllap{\phi}}\downarrow & \swarrow_{\mathrlap{\exists ! \phi_Q}}
     \\
@@ -480,6 +480,7 @@ $$
 
 where on the right we take the [[colimit]] over the diagram with one object $(B_j)_h$ per morphism $h : A_j \to X$ that factors through $Y$,  and one morphism $(B_j)_h \to X$ per way $h = f k$ of factoring $h$.
 
+
 This comes with a morphism $X \to X_H$. Continue this way to build $X_{H'}$ by coequalizing the different ways morphisms into $X_H$ may factor through $X$, etc. to obtain a sequence
 
 $$
@@ -492,6 +493,9 @@ $$
   X_0^f := \lim_\to (X \to X_H \to X_{H'} \to X_{H''} \to \cdots)
   \,.
 $$
+
+Notice that if $f$ is a [[monomorphism]] then all factorizations are unique and hence $X \to X_0^f$ is an [[isomorphism]].
+
 
 The object $X_0^f$ can be seen to have the desired universal factorization property. But it may not yet be itself algebraically fibrant.  So we conclude by essentially applying the construction of the left adjoint $F$. But we start with letting $X_1^f$ be the pushout
 
@@ -519,12 +523,39 @@ $$
   \,.
 $$
 
+
 One checks that this has the claimed properties (...).
+
+As before, the inclusion $X_0^f \to X_\infty^f$ is an acyclic cofibration. Hence by the above remarks in the case that $f$ is a monomorphism also $X \to X_\infty^f$ is an acyclic cofibration.
 
 =--
 
+By replacing in this proof factorization through a single $Y$ by factorization through a family of $Y$s one finds that $U$ is a [[solid functor]].
+
+### Limits and colimits of algebraic objects
+
++-- {: .un_prop}
+###### Proposition
+
+The category $Alg C$ has all [[limit]]s and [[colimit]]s in $C$.
+
+The limits and the [[filtered colimit]]s (but not the general colimit)s are [[created limit|created]] by $U$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That limits in $Alg C$ are computed in $C$ is directly seen. 
+
+For $K : J \to Alg C$ a diagram with colimit $X := \lim_\to U K$ in $C$, we use the above fact that $U$ is a [[solid functor]] to deduce that $X_\infty^f$ is the colimit of $K$ in $Alg C$.
+
+
+=--
 
 ### Transferred model structure
+
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -537,6 +568,8 @@ Under the above conditions, $Alg C$ becomes a [[model category]] with the $U$-[[
 ###### Proof
 
 This follows from the [above result](#Solidity) that $U$ is a _solid functor_ as described in detail at [[solid functor]].
+
+The _acyclicity condition_ required there follows as in the discussion of the solidity of $U$ above, using the assumption that all acylcic cofibrations in $C$ are [[monomorphism]]s.
 
 =--
 
