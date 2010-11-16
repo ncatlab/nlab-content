@@ -48,6 +48,12 @@ The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the follow
 
 ## Properties
 
+### 2-out-of-3 {#TwoOutOfThree}
+
+Since [[equivalence of categories|equivalences of categories]] enjoy the [[category with weak equivalences|2-out-of-3-property]], so do Quillen equivalences.
+
+### Presentation of equivalence of $(\infty,1)$-categories
+
 [[sSet]]-[[enriched functor|enriched]] Quillen equivalences between [[combinatorial model categories]] present equivalences between the corresponding [[locally presentable (infinity,1)-categories]]. And every equivalence between these is presented by a Zig-Zag of Quillen equivalences. See there for more details.
 
 
@@ -55,8 +61,11 @@ The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the follow
 
 * [[Quillen adjunction]]
 
+* [[simplicial Quillen adjunction]]
+
 * **Quillen equivalence**
 
 * [[monoidal Quillen adjunction]]
+
 
 [[!redirects Quillen equivalences]]
