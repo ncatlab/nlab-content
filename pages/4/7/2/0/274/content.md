@@ -1,29 +1,69 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-The notion of **Segal category** is one of the models for that of [[(∞,1)-category]]. It can be understood as modelling the notion of an [[SSet]]-[[enriched category|enrichment]] _up to coherent [[homotopy]]_ , i.e. a _weak_ enrichment.
+The notion of **Segal category** is one of the models for that of [[(∞,1)-category]]. 
 
-As such it is very similar to the notion of [[complete Segal space]].
-
-
-A Segal category is a weak form of [[S-category|S-categories]], in which composition is only defined up to a coherent system of [[equivalence]]s.
-
-Segal categories were defined in 1974 (implicitly) by [[Graeme Segal]]. They were named Segal categories first by William Dwyer--[[Daniel Kan]]--[[Jeff Smith]] in 1989. In their famous book _Homotopy invariant algebraic structures on topological spaces_, John Boardman and Rainer Vogt used [[quasi-category|quasi-categories]]; a quasi-category is a simplicial set satisfying the weak Kan condition, so quasi-categories are also called [[weak Kan complex]]es. All of these are [[Quillen equivalence|Quillen equivalent]] models of $(\infty,1)$-[[(infinity,1)-category|categories]].
+It can be understood as modelling the notion of an [[SSet]]-[[enriched category|enrichment]] _up to [[coherence|coherent]] [[homotopy]]_ , i.e. a _weak_ enrichment. As such it is very similar to the notion of [[complete Segal space]].
 
 
 
 ## Definition
 
-A __Segal category__ is a [[simplicial space]] (i.e. a [[simplicial object]] in an appropriate category of [[space]]s, such as [[topological space]]s or [[Kan complex]]es) $X$ such that $X_0$ (the set of points) is a discrete [[simplicial set]] and the [[Segal map]]
-$$ \phi_k: X_k \to X_1 \times_{X_0} \cdots \times_{X_0} X_1 $$
-(induced by $X(\alpha_i): X_k \to X_1$) assigned to $X$ is a [[weak equivalence]] of simplicial sets for $k \geq 2$.
++-- {: .un_def}
+###### Definition
 
+A __Segal category__ is 
+
+* a simplicial simplicial set ([[bisimplicial set]]) $X$
+
+* such that $X_0$ (the set of points) is a discrete (= constant) simplicial set
+
+* the morphisms
+
+  $$ 
+    \phi_k: X_k \to X_1 \times_{X_0} \cdots \times_{X_0} X_1 \;\;(k factors)
+  $$
+
+  induced by the face maps $X_{\{0,\cdots ,k\}} \to X_{\{i,i+1\}}$ for $0 \leq i \leq k-1$ are [[model structure on simplicial sets|weak equivalences of simplicial sets]] for $k \geq 2$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The object $X_1 \times_{X_0} X_1$ has the interpretation as the space of composable 1-[[morphism]]s in $X$. The weak equivalence $X_2 \to X_1 \times_{X_0} X_1 $ given by the above definition together with the remaining face map $\delta^1 : X_2 \to X_1$ provide an [[∞-anafunctor]]
+
+$$
+  \array{
+    X_2 &\stackrel{\delta1}{\to}& X_1
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+    \\
+    X_1 \times_{X_0} X_1
+  }
+$$
+
+that encodes the composition operation in the Segal category $X$. 
+
+=--
 
 ## References
+
+Segal categories were defined in 1974 (implicitly) by [[Graeme Segal]]. They were named Segal categories first by [[William Dwyer]], [[Daniel Kan]], [[Jeff Smith]] in 1989. 
 
 An overview is on pages 164 to 169 of
 
@@ -33,7 +73,9 @@ A discussion with emphasis on the comparison of the various [[model category]] s
 
 * [[Julia Bergner]], _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239))
 
-* see also [[Segal space]]
 
 
 [[!redirects Segal categories]]
+
+[[!redirects Segal groupoid]]
+[[!redirects Segal groupoids]]
