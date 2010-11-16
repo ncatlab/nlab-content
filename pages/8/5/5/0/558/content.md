@@ -114,7 +114,7 @@ This induces an [[equivalence of (∞,1)-categories]] of the corresponding [[pre
 
 =--
 
-### For algebraic Kan complexes {#ForKanComplexes}
+### For algebraic Kan complexes {#ForAlgebraicKanComplexes}
 
 An [[algebraic Kan complex]] is an [[algebraic definition of higher categories|algebraic definition of higher groupoids]] obtained by taking the ordinary definition of [[Kan complex]] and equipping these with _choices_ of [[horn]]-fillers. These choice encode specified composition operations, specified [[associator]]s for these, specified _pentagonators_ and so on.
 
@@ -144,7 +144,7 @@ The proof is spelled out at [[model structure on algebraic fibrant objects]].
 ###### Remark
 
 
-With the [theorem for Kan complexes](ForKanComplexes) this gives a zig-zag of Quillen equivalences between $Alg Kan$ and $Top$
+With the above [homotopy hypothesis-theorem for Kan complexes](ForKanComplexes) this gives a zig-zag of Quillen equivalences between $Alg Kan$ and $Top$
 
 $$
   Alg Kan 
@@ -264,35 +264,24 @@ the constructon shows that the map $(f : |A|_r \to X) \mapsto (\tilde \tilde f :
 
 =--
 
-
 +-- {: .un_theorem}
 ###### Theorem
 
-
-This adjunction constitutes a [[Quillen equivalence]]
+We have an identity
 
 $$
-  (|-|_r \dashv \Pi_\infty)
-  : 
-  Alg C \to Top
-  \,.
+  \array{
+    && Alg Kan
+    \\
+    & {}^{\mathllap{U}}\swarrow 
+    & \Downarrow^{=}& 
+    \nwarrow^{\mathrlap{\Pi_\infty}}
+    \\
+    sSet &&\underset{Sing}{\leftarrow}&& Top
+  }
 $$
 
-=--
-
-This is [Nikolaus, corollary 3.6](#Nilkolaus)
-
-+-- {: .proof}
-###### Proof
-
-(...)
-
-=--
-
-+-- {: .un_theorem}
-###### Theorem
-
-We have [[natural isomorphism]]s
+and a [[natural isomorphism]]
 
 $$
   \array{
@@ -303,20 +292,6 @@ $$
     \searrow^{\mathrlap{|-|_r}}
     \\
     sSet &&\underset{|-|}{\to}&& Top
-  }
-$$
-
-and
-
-$$
-  \array{
-    && Alg Kan
-    \\
-    & {}^{\mathllap{U}}\swarrow 
-    & \Downarrow^{\simeq}& 
-    \nwarrow^{\mathrlap{\Pi_\infty}}
-    \\
-    sSet &&\underset{Sing}{\leftarrow}&& Top
   }
   \,.
 $$
@@ -329,9 +304,46 @@ This is ([Nikolaus, corollary 3.5](#Nikolaus))
 +-- {: .proof}
 ###### Proof
 
-(...)
+The identity is evident by definition of $\Pi_\infty$. 
+
+Using this, we have that 
+
+$$
+  (|-|_r \circ F \dashv U \circ \Pi_\infty = Sing)
+  \,.
+$$
+
+So $|-|_r \circ F$ is another [[left adjoint]] to $Sing$ and hence naturally isomorphism to $|-|$.
 
 =--
+
+
++-- {: .un_corollary}
+###### Corollary
+
+
+The adjunction 
+
+$$
+  (|-|_r \dashv \Pi_\infty)
+  : 
+  Alg C \to Top
+$$
+
+constitutes a [[Quillen equivalence]]
+
+
+=--
+
+This is [Nikolaus, corollary 3.6](#Nilkolaus)
+
++-- {: .proof}
+###### Proof
+
+By the above theorem and the <a href="http://ncatlab.org/nlab/show/Quillen+equivalence#TwoOutOfThree">2-out-of-3-property</a> of Quillen equivalences.
+
+=--
+
 
 
 ### For $n$-fold groups
@@ -372,12 +384,11 @@ An introductory survey is given in
 
 * [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-Some related literature is listed at
-
-* [[Ronnie Brown]], _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). 
-
 The homotopy hypothesis for [[algebraic Kan complex]]es is established and discussed in
 
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
 {#Nikolaus}
 
+Some related literature is listed at
+
+* [[Ronnie Brown]], _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). 
