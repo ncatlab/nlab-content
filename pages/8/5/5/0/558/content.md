@@ -1,49 +1,202 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea 
 
-The _homotopy hypothesis_ states that [[n-groupoid]]s are combinatorial models for [[homotopy n-type]]s. As a slogan:
+The _homotopy hypothesis_ is the assertion that
 
-* [[∞-groupoid]]s are combinatorial models for [[topological space]]s.
+* [[∞-groupoid]]s are equivalent to [[topological space]].
 
-At least when [[∞-groupoid]]s are modeled by [[Kan complex]]es the homotopy hypothesis is a _theorem_ .
+or rather the stronger statement that
 
-+-- {: .num_theorem}
+* [[n-groupoid]]s are equivalent to [[homotopy n-type]]s for all $n \in \mathbb{N}$
+
+and moreover
+
+* this equivalence is induced by the [[fundamental ∞-groupoid]] construction.
+
+What this actually means in detail depends on which definition [[∞Grpd]] is being used and to which precise incarnation of [[Top]] it is being compared to. 
+
+There are some definitions of [[∞-groupoid]]s for which the homotopy hypothesis is a proven _theorem_ . Depending on where in the spectrum between [[geometric definitions of higher categories]] and [[algebraic definitions of higher categories]] a given definition of $\infty$-groupoids is located, the statement may be more or less obvious. 
+
+For instance there is some justification for _defining_ an $\infty$-groupoid to _be_ equivalently a topological space. For this definition the homotopy hypothesis is of course a tautology.
+
+A definition of $\infty$-groupoid that is still very geometrical but much more combinatorial is that given by [[Kan complex]]es. For these the homotopy hypothesis has a (non-trivial but fairly tractable) proof. The equivalence between Kan complexes and [[CW-complex]]es obtained this way is at the heart of all traditional [[homotopy theory]].
+
+A genuine algebraic definition of $\infty$-groupoids for which the homotopy theory has a (non-trivial but tractable) proof is given by [[algebraic Kan complex]]es. 
+
+However for other algebraic definition of $\infty$-groupoids not much indication for how to prove the homotopy hypothsis is known. The definition of [[Trimble ∞-category]] stands out as an algebraic definition that has the notion of [[fundamental ∞-groupoid]] built right into it, but also here it seems unclear at the moment how to make progress with proving the homotopy hypothesis.
+
+In fact, generally the homotopy hypothesis is regarded as a _consistency condition_ for definitions in [[higher category theory]]:
+
+* Any definition of [[(n,r)-category]] should be such that there is a [[fundamental infinity-groupoid|fundamerntal n-groupoid]]-construction with values in the corresponding [[(n,0)-categories]] which makes these equivalent to [[homotopy n-type]]s.
+
+One way to justify this condition is by recourse to the proven cases of the homotopy hypothesis: experience shows that the collections of all three models --  topological spaces, Kan complexes, algebraic Kan complexes -- provide a model for [[∞Grpd]] that supports the general abstract [[higher category theory]] -- specifically [[(∞,1)-category theory]] -- that one expects in analogy to how [[Set]] supports ordinary [[category]] theory.  Any other definition of $\infty$-groupoids is hoped/required to reproduce this, and hence is hoped/required to satisfy the homotopy hypothesis.
+
+Apart from having different models of $\infty$-groupoids that lend themselves more or less to a comparison with topological spaces, there is also the issue as to how to conceive of the notion of _equivalence_ between $\infty$-groupoids.
+
+The usual, unstated, implication is that the notion of _equivalence_ of [[n-groupoid]]s used to model [[homotopy n-type]]s is the appropriate *[[n-category]]-theoretic* notion of [[equivalence of categories|equivalence]].  It is in this way that, for instance, it is known that 1-[[groupoid]]s model homotopy 1-types (see below).
+
+The reason this is important to specify is that there are other notions of equivalence on categorical structures which model homotopy types in other ways.  For example, if we declare a functor between categories to be a weak equivalence iff its [[nerve]] is a weak equivalence of [[simplicial set]]s, then _all_ homotopy types can be modeled by 1-categories in this way; see the [[Thomason model structure]] for 1-categories.
+
+Finally, in analogy to the homotopy hypothesis, there are also attempts to relate general [[∞-categories]] which need not be groupoidal to [[directed space]]s, in which a morphism which is not invertible would model a path in the space that can only be traversed in one direction.
+
+
+
+## Realizations
+
+We discuss various different definitions of [[]n-groupoid]]s and [[∞-groupoid]]s and the formulation and proof of the homotopy hypothesis for them, to the extent that it is available.
+
+
+### For groupoids
+
++-- {: .un_prop}
+###### Proposition
+
+
+The [[2-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s, and [[natural transformation]]s is equivalent to the 2-category of [[homotopy n-type|homotopy 1-types]], [[continuous map]]s, and [[homotopy]] classes of homotopies.
+
+=--
+
+### For 2-groupoids
+
+(...) [[2-groupoid]]s model all [[homotopy n-type|homotopy 2-type]]s (...)
+
+[[strict 2-groupoid]]s suffice (...)
+
+### For Gray-groupoids
+
+(...) [[Gray-groupoid]]s model all [[homotopy n-type|homotopy 3-type]]s (...)
+
+It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, but that [[Gray-category|Gray-categories]] ([[semi-strict infinity-category|semi-strict 3-categories]]) suffice; the obstruction is the [[Whitehead product]] which arises from a nontrivial [[interchanger]]. 
+
+(...)
+
+
+### For Kan complexes {}
+
+We write $sSet_{Quillen}$ for [[sSet]] equipped with the standard [[model structure on simplicial sets]]. The cofibrant-fibrant objects in $sSet_{Quillen}$ are precisely the [[Kan complex]]es.
+
+Also we write $Top_{Quillen}$ for [[Top]] equipped with the standard [[model structure on topological spaces]].
+
++-- {: .un_theorem}
 ###### Theorem
 
 There is a [[Quillen equivalence]]
 
 $$
-  \Pi(-) : Top \leftrightarrow SSet : |-|
+  (|-| \dashv Sing) : Top \stackrel{\overset{|-|}{\leftarrow}}{\underset{Sing}{\to}} sSet_{Quillen} 
+  \,,
 $$
 
-between the [[model structure on topological spaces]] and the [[model structure on simplicial sets]]. This is given by forming [[geometric realization]] $|-|$ and the [[fundamental ∞-groupoid]] $\Pi(-)$, respectively.
+where the [[left adjoint]] $|-|$ is [[geometric realization]] and the [[right adjoint]] $Sing(-)$ is forming the [[singular simplicial complex]] $Sing(-)$.
 
-This induces an equivalence of the [[presentable (infinity,1)-category|presented]] [[(infinity,1)-categories|(∞,1)-category]] [[Top]] and [[∞-Grpd]] and hence in particular between [[CW-complex]]es (the fibrant-cofibrant objects in [[Top]]) and [[Kan complex]]es (the fibrant-cofibrant objects in [[SSet]].)
+This induces an [[equivalence of (∞,1)-categories]] of the corresponding [[presentable (infinity,1)-category|presented]] [[(∞,1)-categories]] 
+
+* [[Top]] \simeq [[∞Grpd]]
 
 =--
 
-To some extent the homotopy hypothesis is not a hypothesis but a _requirement_ on the definition of [[infinity-groupoid]]: for every "good" definition of $\infty$-groupoid there should be an "obvious" pair of functors relating the collection of all $\infty$-groupoids to the collection of (well behaved) topological spaces which form an [[equivalence]] in a "suitable" sense.  The functor from spaces to $\infty$-groupoids is generally called the [[fundamental infinity-groupoid]], and its inverse equivalence may be thought of as a form of [[geometric realization]].
+### For algebraic Kan complexes {#ForKanComplexes}
 
-The homotopy hypothesis is known to be true for some definitions of "$\infty$-groupoid".  For example, there is a good case to be made that a [[Kan complex]] is a notion of $\infty$-groupoid, and it's been known for a long time in [[homotopy theory]] that Kan complexes model spaces, homotopically speaking.  It is also known that $n$-groupoids model $n$-types for $n\le 3$, for the existing well-understood models of $n$-categories for low values of $n$ (namely [[category|categories]], [[bicategory|bicategories]], and [[Gray-category|Gray-categories]]).  However, for other notions of [[higher category theory|higher category]] and higher values of $n$, it remains a hypothesis/requirement.
+An [[algebraic Kan complex]] is an [[algebraic definition of higher categories|algebraic definition of higher groupoids]] obtained by taking the ordinary definition of [[Kan complex]] and equipping these with _choices_ of [[horn]]-fillers. These choice encode specified composition operations, specified [[associator]]s for these, specified _pentagonators_ and so on.
 
-The requirement to satisfy the homotopy hypothesis is one thing that forces us out of the domain of [[strict n-category|strict n-categories]] for $n\gt 2$.  It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, but that [[Gray-category|Gray-categories]] ([[semi-strict infinity-category|semi-strict 3-categories]]) suffice; the obstruction is the [[Whitehead product]] which arises from a nontrivial [[interchanger]].
+Algebraic Kan complexes constitute a genuine algebraic model in that they are precisely the [[algebras over a monad]] on [[sSet]].
 
-In analogy to the homotopy hypothesis, there are also attempts to relate general [[infinity-category|infinity-categories]] which need not be groupoidal to [[directed space]]s, in which a morphism which is not invertible would model a path in the space that can only be traversed in one direction.
++-- {: .un_theorem}
+###### Theorem
+
+The [[transferred model structure|transferred]] [[model structure on algebraic fibrant objects|model structure on algebraic Kan complexes]] is [[Quillen equivalence|Quillen equivalent]] to the standard [[model structure on simplicial sets]]
+
+$$
+  (F \dashv U) : Alg Kan \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}  
+   sSet_{Quillen}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is spelled out at [[model structure on algebraic fibrant objects]].
+
+=--
 
 
-## The meaning of "models" 
+By the [theorem for Kan complexes](ForKanComplexes) this already implies a zig-zag of Quillen equivalences between $Alg Kan$ and $Top$
 
-One has to be careful, in stating the homotopy hypothesis, to specify what one means by "models."  The usual, unstated, implication is that the notion of _equivalence_ of $n$-groupoids used to model $n$-types is the appropriate *$n$-category-theoretic* notion of [[equivalence of categories|equivalence]].  It is in this way that, for instance, it is known that 1-groupoids model 1-types; to be precise, the 2-category of groupoids, functors, and natural transformations is equivalent to the 2-category of 1-types, continuous maps, and homotopy classes of homotopies.
+$$
+  Alg Kan 
+    \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}  
+   sSet_{Quillen}
+     \stackrel{\overset{|-|}{\to}}{\underset{Sing}{\leftarrow}}
+    Top
+  \,.
+$$
 
-The reason this is important to specify is that there are other notions of equivalence on categorical structures which model homotopy types in other ways.  For example, if we declare a functor between categories to be a weak equivalence iff its [[nerve]] is a weak equivalence of [[simplicial set]]s, then _all_ homotopy types can be modeled by 1-categories in this way; see the [[Thomason model structure]] for 1-categories.
+This already yields the homotopy hypothesis for algebraic Kan complexes at the level of the corresponding [[presentable (∞,1)-category|presented (∞,1)-categories]] (as discussed there)
+
+$$
+  Alg C^\circ \simeq Top^\circ
+  \,.
+$$
+
+But there is also a direct Quillen equivalence:
+
++-- {: .un_theorem}
+###### Theorem
+
+Fix a choice of [[retract]]s for all topological [[horn]] inclusions $\Lambda^n_i \hookrightarrow \Delta^n$. This induces naturally a refinement of the [[singular simplicial complex|singular Kan complex]] of a topological space to an algebraic Kan complex
+
+$$ 
+  \Pi_\infty(-) : Top \to Alg C
+  \,,
+$$
 
 
-## The $n$-fold case 
+where $U \Pi_\infty = Sing$.
 
-It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all homotopy $n$-types.  
+This is part of a [[Quillen equivalence]]
+
+$$
+  (|-|_r \dashv \Pi_\infty)
+  : 
+  Alg C \to Top
+  \,.
+$$
+
+=--
+
+This is [Nikolaus, corollary 3.6](#Nilkolaus)
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
+### For $n$-fold groups
+
+It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all [[homotopy n-type]]s.
 
 Loday proved in
 
@@ -75,9 +228,16 @@ Trying to be more explicit about some colimits of certain higher groupoids has y
 
 ## References
 
+An introductory survey is given in
+
 * [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-* [[Ronnie Brown]], _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See there for further references. )
+Some related literature is listed at
 
+* [[Ronnie Brown]], _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). 
 
+The homotopy hypothesis for [[algebraic Kan complex]]es is established and discussed in
+
+* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+{#Nikolaus}
 
