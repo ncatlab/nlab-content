@@ -22,64 +22,94 @@
 
 ## Idea
 
-In the strict sense, **base change** is another term for [[pullback]] of a morphism. In the wider sense it means something more general.
+For $f : X \to Y$ a [[morphism]] in a [[category]] $C$ with [[pullback]]s, there is an induced [[functor]]
+
+$$
+  f^* : C/Y \to C/X
+$$
+
+of [[over-categories]]. This is the _base change_ morphism. If $C$ is a [[topos]], then this refines to an [[essential geometric morphism]]
+
+$$
+  (f_! \dashv f^* \dashv f_*) : C/X \to C/Y
+  \,.
+$$
+
+The [[duality|dual]] concept is [[cobase change]].
 
 
 ## Definition
 
-In the strict sense, **base change** is another term for [[pullback]] of a morphisms, in that
+### Pullback
 
-if
+For $f : X \to Y$ a [[morphism]] in a [[category]] $C$ with [[pullback]]s, there is an induced [[functor]]
 
 $$
+  f^* : C/Y \to C/X
+$$
+
+of [[over-categories]].  It is on objects given by [[pullback]]/[[fiber product]]
+
+$$
+  (p : K \to Y)
+  \mapsto
+  \left(
   \array{
-    U \times_X Y &\to & Y
+    X \times_Y K &\to & K
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{p^*}}\downarrow && \downarrow
     \\
-    U &\to& X 
+    X &\to& Y 
   }
+  \right)
+  \,.
 $$
 
-is a [[pullback]] square in some [[category]] then the [[morphism]] $U \times_X Y \to U$ is the **base change** or **base extension** of $Y \to X$ along $U \to X$.
 
-Here we think of the morphism $Y \to X$ as a [[bundle]] over $X$, so base change gives us a bundle over $U$.  So in general, a morphism $f: U \to X$ defines a **base change functor** $f^*$ from the [[over category]] $C/X$ to the over category $C/U$ (where $C$ is the original category).
+### In a fibered category
 
 The concept of base change generalises from this case to other [[fibered category|fibred categories]].
 
-The [[duality|dual]] concept is [[cobase change]].
 
-## Base change geometric morphisms {#GeometricMorphism}
+### Base change geometric morphisms {#GeometricMorphism}
 
-If $\mathbf{H}$ is a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change provides a functor over [[overcategories]] (which are again [[topos]]es)
++-- {: .un_prop}
+###### Proposition
 
-$$
-  f^* : \mathbf{H}/Y \to \mathbf{H}/X
-$$
 
-$$
-  f^* A \mapsto X \times_Y A
-  \,.
-$$
-
-This has a [[left adjoint]] $f_! : \mathbf{H}/X \to \mathbf{H}/Y$ given by postcomposition with $f$
+For $\mathbf{H}$ is a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change induces an [[essential geometric morphism]] betwen over-toposes/[[over-(∞,1)-topos]]es
 
 $$
-  f_! : (A \to X) \mapsto (A \to X \stackrel{f}{\to} Y)
-  \,.
-$$
+  (f_! \dashv f^* \dashv f_*) : \mathbf{H}/X 
+   \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+ \mathbf{H}/Y
+$$ 
 
+where $f_!$ is given by postcomposition with $f$ and $f^*$ by [[pullback]] along $f$.
 
-It also has a [[right adjoint]] $f_* : \mathbf{H}/X \to \mathbf{H}/Y$ and 
+=--
 
-The triple $(f_! \dashv f^* \dashv f_*) : \mathbf{H}/X \to \mathbf{H}/Y$ is an  [[essential geometric morphism]] of toposes, the **base change geometric morphism**. 
++-- {: .proof}
+###### Proof
 
-If $Y = *$ is the 
-[[terminal object]], then this is also called an **[[etale geometric morphism]]**.
+That we have [[adjoint functor]]s/[[adjoint (∞,1)-functor]]s $(f_! \dashv f^*)$ follows directly from the universal property of the pullback. The fact that $f^*$ has a further [[right adjoint]] is due to the fact that it preserves all small [[colimit]]s/[[(∞,1)-colimit]]s by the fact that in a topos we have [[universal colimits]] and then by the [[adjoint functor theorem]]/[[adjoint (∞,1)-functor theorem]].
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+In the case $Y = *$ is the  [[terminal object]], the base change geometric morphism is called an **[[etale geometric morphism]]**. See there for more details
+
+=--
+
+## Applications
+
+Base change geoemtric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
 
 ## References
 
-* [[Peter Johnstone]],  [[Elephant]], Example A.4.1.2
+* [[Peter Johnstone]],  _[[Elephant]]_ , Example A.4.1.2
 
 
 [[!redirects change of base]]
