@@ -445,3 +445,8 @@ _[[Urs Schreiber]]:_ Okay, thanks. I tried now to formalize this at [[interval o
 [[!redirects Trimble's notion of weak n-category]]
 [[!redirects flabby n-category]]
 [[!redirects flabby n-categories]]
+
+[[!redirects Trimble omega-catgeory]]
+[[!redirects Trimble ∞-category]]
+[[!redirects Trimble omega-catgeories]]
+[[!redirects Trimble ∞-categories]]
