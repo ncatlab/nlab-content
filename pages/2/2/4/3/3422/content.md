@@ -230,9 +230,39 @@ This models the Grothendieck construction for $\infty$-groupoids in the followin
 Hence the unstraightening functor is what models the [[Grothendieck construction]] proper, in the sense of a construction that generalizes the construction of a [[fibered category]] from a [[pseudofunctor]].
 
 
+### Remark: $(\infty,0)$-fibrations over an $\infty$-groupoid {#GrpdFibsOverGrpds}
 
++-- {: .un_lemma}
+###### Observation
 
+Let $C$ itself be an $\infty$-groupoid. Then $RFib(C) \simeq \infty Grpd/C$ and hence
 
+$$
+  \infty Grpd/C \simeq [C^{op}, \infty Grpd]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the fact that there is the standard [[model structure on simplicial sets]] we have that every morphism of $\infty$-groupoids $X \to C$ factors as
+
+$$
+  \array{
+     X &&\stackrel{\simeq}{\to}&& \hat X
+     \\
+     & \searrow && \swarrow_{\mathrlap{fib}}
+     \\
+     && C
+  }
+  \,,
+$$
+
+where the top morphism is an equivalence and the right morphism a [[Kan fibration]]. Moreover, as discussed at [[right fibration]], over an $\infty$-groupoid the notions of left/right fibrations and Kan fibrations coincide.  This shows that the full [[sub-(∞,1)-category]] of $\infty Grpd/X$ on the right fibrations is equivalent to all of $\infty Grpd/X$.
+
+=--
 
 ## For general fibered $(\infty,1)$-categories
 
