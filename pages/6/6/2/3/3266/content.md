@@ -1,4 +1,15 @@
-**Geometric representation theory** studies representations (of various symmetry objects like [[algebraic group|algebraic groups]], [[Hecke algebra]]s, [[quantum groups]], [[quiver]]s etc.) realizing them by geometric means, e.g. by geometrically defined [[actions]], as sections of various [[bundles]] or [[sheaves]], [[D-modules]], [[perverse sheaf|perverse sheaves]] and so on. Typically the underlying spaces for the sheaves involved are [[Grassmanian]]s, [[flag variety|flag varieties]], [[configuration space]]s and the like. Another important tool are cohomological vanishing theorems in appropriate contexts. Some historical landmarks are the [[Borel-Weil theorem]], the [[Borel-Weil-Bott theorem]], the [[BBDG decomposition theorem]], the [[Beilinson-Bernstein localization theorem]] and the [[Lusztig conjecture]]s. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+**Geometric representation theory** studies [[representation]]s (of various symmetry objects like [[algebraic group|algebraic groups]], [[Hecke algebra]]s, [[quantum groups]], [[quiver]]s etc.) realizing them by [[higher geometry|geometric means]], e.g. by geometrically defined [[actions]], as [[section]]s of various [[bundles]] or [[sheaves]], [[D-modules]], [[perverse sheaf|perverse sheaves]] and so on. 
+
+Typically the underlying spaces for the sheaves involved are [[Grassmanian]]s, [[flag variety|flag varieties]], [[configuration space]]s and the like. Another important tool are cohomological vanishing theorems in appropriate contexts. Some historical landmarks are the [[Borel-Weil theorem]], the [[Borel-Weil-Bott theorem]], the [[BBDG decomposition theorem]], the [[Beilinson-Bernstein localization theorem]] and the [[Lusztig conjecture]]s. 
+
+## References
 
 * A. Beilinson, J. Bernstein, _Localisations de $\mathfrak{g}$&#8211;modules_, C. R. Acad. Sci. Paris 292 (1981), 15--18.
 
