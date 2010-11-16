@@ -1,5 +1,3 @@
-[[!redirects higher homotopy van Kampen theorem]]
-[[!redirects higher homotopy van Kampen theorem]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -118,3 +116,13 @@ The version for filtered topological spaces and the strict homotopy $\infty$-gro
 [[!redirects higher homotopy van Kampen Theorem]]
 
 [[!redirects higher van Kampen theorem]]
+
+[[!redirects higher homotopy van Kampen theorem]]
+[[!redirects higher homotopy van Kampen theorem]]
+
+
+[[!redirects higher van Kampen theorems]]
+[[!redirects Higher van Kampen Theorem]]
+[[!redirects Higher van Kampen Theorems]]
+[[!redirects higher homotopy van Kampen theorem]]
+[[!redirects higher homotopy van Kampen theorems]]
