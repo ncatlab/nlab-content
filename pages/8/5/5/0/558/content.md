@@ -140,8 +140,11 @@ The proof is spelled out at [[model structure on algebraic fibrant objects]].
 
 =--
 
++-- {: .un_remark}
+###### Remark
 
-By the [theorem for Kan complexes](ForKanComplexes) this already implies a zig-zag of Quillen equivalences between $Alg Kan$ and $Top$
+
+With the [theorem for Kan complexes](ForKanComplexes) this gives a zig-zag of Quillen equivalences between $Alg Kan$ and $Top$
 
 $$
   Alg Kan 
@@ -158,6 +161,8 @@ $$
   Alg C^\circ \simeq Top^\circ
   \,.
 $$
+
+=--
 
 But there is also a direct Quillen equivalence:
 
@@ -204,16 +209,16 @@ $$
   |-|_r : Alg Kan \to Top
 $$
 
-called **reduced geometric realization** by taing it on an object $X \in Alg Kan$ to be given by the [[coequalizer]]
+called **reduced geometric realization** by taking it on an object $A \in Alg Kan$ to be given by the [[coequalizer]]
 
 $$
-  |X|_r := \lim_{\to}(\coprod_{\Lambda^n_k \to X} \Delta^n \stackrel{\to}{\to} |U X|)
+  |A|_r := \lim_{\to}(\coprod_{\Lambda[n]_k \to A} \Delta^n \stackrel{\to}{\to} |U A|)
   \,,
 $$
 
-where $|U X|$ is the ordinary [[geometric realization]] of the underlying simplicial set of $X$ and where the two maps are
+where $|U A|$ is the ordinary [[geometric realization]] of the underlying simplicial set of $A$ and where the two maps are
 
-1. the image under $|-|$ of the distinguished fillers $\Delta[n] \to U X$ of $X$;
+1. the image under $|-|$ of the distinguished fillers $\Delta[n] \to U A$ of $A$;
 
 1. the composite $\Delta^n \stackrel{R(n,k)}{\to} \Lambda^n_k \to |U X|$ .
 
@@ -237,7 +242,25 @@ This is ([Nikolaus, prop. 3.4](#Nikolaus)).
 +-- {: .proof}
 ###### Proof
 
-(...)
+We check the hom-isomorphism. A morphism $f : |A|_r \to X$ is
+by definition of the coequalizer the same as a map $\tilde f : |A| \to X$ such that for each horn $h : \Lambda[n]_k \to A$ with distinguished filler $\hat h : \Delta[n] \to A$ the composites
+
+$$
+  \Delta^n \stackrel{R(n,k)}{\to} \Lambda^n_k 
+  \stackrel{|h|}{\to} |U A|
+  \stackrel{\tilde f}{\to}
+  X
+$$
+
+and
+
+$$
+  \Delta^n \stackrel{|\hat h|}{\to} |U A| \stackrel{\tilde f}{\to} X
+$$
+
+are equal. This means equivalently that the $(|-| \dashv Sing)$-[[adjunct]] $\tilde \tilde f : U A \to Sing X$ sends distinguished fillers in $A$ to distinguished fillers in $\Pi_\infty(X)$ and is hence a morphism in $Alg Kan$.
+
+the constructon shows that the map $(f : |A|_r \to X) \mapsto (\tilde \tilde f : A \to \Pi_\infty(X))$ thus obtained is a bijection.
 
 =--
 
