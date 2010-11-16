@@ -94,7 +94,7 @@ The first statement is a direct extension of the classical fact that the contrav
 
 * [[superdifferential form]]
 
-#Some references#
+#References#
 
 * F. A. Berezin, D. A. Le&#301;tes, _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976).
 
@@ -107,5 +107,7 @@ The first statement is a direct extension of the classical fact that the contrav
 * P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 * V. S. Varadarajan, _Supersymmetry for mathematicians: an introduction_, AMS and Courant Institute, 2004.
+
+* [[Alberto S. Cattaneo]], Florian Schaetz, _Introduction to supergeometry_, [arxiv/1011.3401](http://arxiv.org/abs/1011.3401)
 
 There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra]]s rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]]. One should also note that there are two different definitions of a supermanifold which are not equivalent (some examples intersect but not all); they are sometimes  connected and even named according to the main proponents of the two approaches: Leites (via [[sheaf|sheaves]]) and de Witt (via [[supernumber]]s). 
