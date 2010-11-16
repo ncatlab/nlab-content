@@ -62,8 +62,9 @@ A **Petri net** $N$ consists of
 
 ##References##
 
-* [[G. Winskel]] and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
+* [[G. Winskel]], M. Nielsen, _Models for concurrency_, Handbook of Logic in Computer Science vol. 3, pp. 100 -- 200, Oxford Univ. Press 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
+* [wikipedia](http://en.wikipedia.org/wiki/Petri_net)
 
 For an introduction to Petri nets (en francais, which is very clear and accessible) look at
 
