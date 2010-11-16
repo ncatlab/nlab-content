@@ -254,7 +254,7 @@ being the unit of the adjunction $A_j \to U F A_j$. Take $\tilde r$ to be the (u
 
 =--
 
-### Monadicity of the forgetful functor
+### Monadicity of the forgetful functor {#Monadicity}
 
 We now give a formal justification for calling the objects of $Alg C$ _algebraic_ objects by showing that $Alg C$ is the category of algebras over an [[algebraic theory]] in $C$, or more precisely that it is the category of [[algebras over a monad|algebra over the monad]] $F \circ U$ on $C$ 
 
@@ -691,6 +691,32 @@ Hence by [[category with weak equivalences|2-out-of-3]] also $X \to F X$ is a we
 This implies that $(F \dashv U)$ induces an [[equivalence of categories]] on the [[homotopy categories]]. Since $R$ equals its total right [[derived functor]] (since every object in $Alg C$ is fibrant) this means that $(F \dashv)$ is a Quillen equivalence.
 
 =--
+
+### Local presentability and combinatoriality {#LocalPresentability}
+
++-- {: .un_prop}
+###### Proposition
+
+If $C$ is a [[locally presentable category]] then so is $Alg C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [above](#Monadicity) we know that $Alg C$ is the category of [[algebras over a monad]] $U\circ F : C \to C$.
+
+We invoke the <a href="http://ncatlab.org/nlab/show/locally%20presentable%20category#AlgebrasOverAnAccessibleMonad">theorem on local presentability of categories of algebras</a> discussed at [[locally presentable category]]. This says that it is sufficient to check that $U \circ F$ is an [[accessible functor]], hence that it preserves [[filtered colimit]]s. Now $F$ is a left adjoint and hence preserves all colimits, while we checked [above](#LimitsAndColimits) that $U$ preserves filtered colimits.
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+If $C$ is a [[combinatorial model category]] then so is $Alg C$.
+
+=--
+
 
 ## Examples
 
