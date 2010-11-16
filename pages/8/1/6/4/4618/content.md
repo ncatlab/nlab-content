@@ -90,5 +90,16 @@ Therefore for $D$ the left Bousfield localization of a simplicial left proper mo
 =--
 
 
+## Related concepts
+
+* [[Quillen adjunction]]
+
+* **simplicial Quillen adjunction**
+
+* [[Quillen equivalence]]
+
+* [[monoidal Quillen adjunction]]
+
+
 
 [[!redirects simplicial Quillen adjunctions]]
