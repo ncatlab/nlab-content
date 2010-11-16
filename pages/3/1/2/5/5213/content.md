@@ -176,13 +176,30 @@ of the [[over-(∞,1)-category]] of all $\infty$-groupoids over $X$  with the [[
 
 ## Products of function objects
 
-For $\psi : \Psi \to X$ and $\phi : \Phi \to X$ to function objects on $X$, we call the [[fiber product]]
+For $\psi : \Psi \to X$ and $\phi : \Phi \to X$ in $\mathbf{H}/X$ two function objects on $X$, their [[product]] $\psi \times \phi$ in $\mathbf{H}/X$ we call the **product of function objects**.
+
+This is computed in $\mathbf{H}$ as the [[fiber product]]
 
 $$
-  (\Psi \times_X \Phi \stackrel{\psi \cdot \phi}{\to} X) \in \mathbf{H}/X
+ \psi \times^{\mathbf{H}/X} \phi = \Psi \times^{\mathbf{H}}_X \Phi  
 $$
 
-the **product of function objects** .
+and the morphism down to $X$ is the evident projection
+
+$$
+  \array{
+    && \Psi \times_{X}^{\mathbf{H}} \Phi
+    \\
+    & \swarrow && \searrow
+    \\
+    \Psi &&\downarrow^{\psi \times^{\mathbf{H}/X} \phi}&& \Phi
+    \\
+    & {}_{\mathllap{\psi}}\searrow && \swarrow_{\mathrlap{\phi}}
+    \\
+    && X
+  }
+  \,.
+$$
 
 
 +-- {: .un_example}
@@ -234,13 +251,13 @@ $$
   \mathbf{H}/Y
 $$
 
-and call $\int_{X/Y} F$ the **[[fiber integration]]** of $F$ over the fibers of $v$. In particular when $Y = *$ is the [[terminal object]] we write simply
+and call $\int_{X/Y} \psi$ the **[[fiber integration]]** of $F$ over the fibers of $v$. In particular when $Y = *$ is the [[terminal object]] we write simply
 
 $$
-  \int_X F \in \mathbf{H}
+  \int_X \psi \in \mathbf{H}
 $$
 
-for the **integral** of $F$ with values in the ambient $(\infty,1)$-topos. (See also the notation for [[Lawvere distribution]]s).
+for the **integral** of $\psi$ with values in the ambient $(\infty,1)$-topos. (See also the notation for [[Lawvere distribution]]s).
 
 
 +-- {: .un_example}
@@ -326,7 +343,7 @@ on $X \times Y$ the **integral kernel** of $\underline{A}$.
 We have the **pull-tensor-push formula** for $\underline{A}$:
 
 $$
-  \underline{A} F = \int_{A/Y} i^* F =  (p_2)_!(A \cdot (p_1^* F) )
+  \underline{A} F = \int_{A/Y} i^* F =  (p_2)_!(A \times (p_1^* F) )
   \,.
 $$
 
@@ -335,7 +352,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This follows from the <a href="http://ncatlab.org/nlab/show/pullback#Pasting">pasting law</a> for pullbacks:
+This follows from the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">pasting law</a> for pullbacks in $\mathbf{H}$:
 
 $$
   \array{
@@ -351,20 +368,6 @@ $$
 
 =--
 
-
-+-- {: .un_example}
-###### Example
-
-In $\mathbf{H} = $ [[FinSet]] we have that 
-$(|A_{x,y}|)$ is a $|X|$-by-$ |Y|$-[[matrix]] with entries in [[natural number]]s and the function
-
-$$
-  |A \psi | : y \mapsto | (i^* \Psi)_y | = \sum_{x \in X} |A_{x,y}| \cdot |\psi|(x)
-$$ 
-
-is the result of applying the familiar [[linear map]] given by usual [[matrix calculus]] on $|\psi|$.
-
-=--
 
 +-- {: .un_remark }
 ###### Remark
@@ -386,4 +389,46 @@ $$
 $$
 
 in $((\infty,1)Topos/\mathbf{H})_{et}$.
+=--
+
+
++-- {: .un_example}
+###### Example
+
+In $\mathbf{H} = $ [[FinSet]] we have that 
+$(|A_{x,y}|)$ is a $|X|$-by-$ |Y|$-[[matrix]] with entries in [[natural number]]s and the function
+
+$$
+  |A \psi | : y \mapsto | (i^* \Psi)_y | = \sum_{x \in X} |A_{x,y}| \cdot |\psi|(x)
+$$ 
+
+is the result of applying the familiar [[linear map]] given by usual [[matrix calculus]] on $|\psi|$.
+
+=--
+
+
++-- {: .un_example}
+###### Example
+
+In the case $\mathbf{H} = $ [[∞Grpd]] we have -- as in the [above example](#PresheavesOnGroupoids) -- by the [[(∞,1)-Grothendieck construction]] an equivalence
+
+$$
+  \infty Grpd / (X \times Y) \simeq PSh_{(\infty,1)}(X \times Y)
+  \,.
+$$
+
+Since the $\infty$-groupoid $Y$ is equivalent to its [[opposite (∞,1)-category]] this may also be written as
+
+$$
+  \infty Grpd / (X \times Y) Func_{(\infty,1)}(X \times Y^{op}, \infty Grpd)
+  \,.
+$$
+
+The objects on the right we may again think of as $(\infty,1)$-[[profunctor]]s $X &#x21F8; Y$. So in particular the kernel $(A \to X \times Y) \in \infty Grpd/(X \times Y)$ is under this equivalence on the right hand identified with an $(\infty,1)$-profunctor
+
+$$
+  \tilde A : X &#x21F8; Y
+  \,.
+$$
+
 =--
