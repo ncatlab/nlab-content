@@ -13,16 +13,10 @@
 =--
 =--
 
-* [[crossed complex]] $\Leftarrow$ [[crossed module]] $\Rightarrow$ **2-crossed module**
-
-* [[dg-Lie algebra]] $\Leftarrow$ [[differential crossed module]] $\Rightarrow$ [[differential 2-crossed module]]
-
-
-
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea#
@@ -123,8 +117,17 @@ The full result and an explanation of what is going on here is given in
 * D. Conduch&#233;, _Simplicial Crossed Modules and Mapping Cones_, Georgian Math. J., 10, (2003), 
 623--636
 
-## Infinitesimal version
+## Related concepts
 
-In generalization to how the [[infinitesimal space|infinitesimal]] analog of a smooth [[crossed module]] is a [[differential crossed module]], the infinitesimal analog of a 2-crossed module is a [[differential 2-crossed module]].
+* [[crossed module]], [[differential crossed module]]
+
+* **2-crossed module** / [[crossed square]], [[differential 2-crossed module]]
+
+* [[crossed complex]]
+
+* [[hypercrossed complex]]
+
+
+
 
 [[!redirects 2-crossed modules]]
