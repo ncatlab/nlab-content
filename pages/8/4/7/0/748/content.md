@@ -133,18 +133,19 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 See also [[functors and comma categories]].
 
 For the analog statement in [[(∞,1)-category]] theory see
-
-* <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#interaction_with_forming_overcategories_19">(∞,1)-category of (∞,1)-presheaves -- Interaction with overcategories</a>
+ <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#interaction_with_forming_overcategories_19">(∞,1)-category of (∞,1)-presheaves -- Interaction with overcategories</a>
 
 at [[(∞,1)-category of (∞,1)-presheaves]].
 
 
 
-## In higher category theory
+## Related concepts
 
-The notion of over category applicable to [[(infinity,1)-category|(∞,1)-categories]] is discussed at [[over quasi-category]].
+* [[slice category]]
 
-Similarly, there is a notion of [[model structure on an over category]].
+* **over category**, [[over (∞,1)-category]], [[model structure on an over category]]
+
+* [[under category]]
 
 
 [[!redirects over category]]
