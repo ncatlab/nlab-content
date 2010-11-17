@@ -22,7 +22,7 @@
 
 The _homotopy hypothesis_ is the assertion that
 
-* [[∞-groupoid]]s are equivalent to [[topological space]]s.
+* [[∞-groupoid]]s are equivalent to [[topological space]]s (considered modulo [[weak homotopy equivalence]])
 
 or rather the stronger statement that
 
@@ -36,7 +36,7 @@ What this actually means in detail depends on which definition [[∞Grpd]] is be
 
 There are some definitions of [[∞-groupoid]]s for which the homotopy hypothesis is a proven _theorem_ . Depending on where in the spectrum between [[geometric definitions of higher categories]] and [[algebraic definitions of higher categories]] a given definition of $\infty$-groupoids is located, the statement may be more or less obvious. 
 
-For instance there is some justification for _defining_ an $\infty$-groupoid to _be_ equivalently a topological space. For this definition the homotopy hypothesis is of course a tautology.
+For instance there is some justification for _defining_ an $\infty$-groupoid to _be_ equivalently a topological space (considered modulo weak homotopy equivalence). For this definition the homotopy hypothesis is of course a tautology.
 
 A definition of $\infty$-groupoid that is still very geometrical but much more combinatorial is that given by [[Kan complex]]es. For these the homotopy hypothesis has a (non-trivial but fairly tractable) proof. The equivalence between Kan complexes and [[CW-complex]]es obtained this way is at the heart of all traditional [[homotopy theory]].
 
