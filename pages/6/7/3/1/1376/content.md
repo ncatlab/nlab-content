@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-</div>
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -41,9 +52,12 @@ $$
 
 definition 1.1.14 in
 
-* [[Jacob Lurie]], [[higher algebra|Noncommutative Algebra]]
+* [[Jacob Lurie]], _[[higher algebra|Noncommutative Algebra]]_
 
+An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic theories]] is in
 
+* [[James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
+ 
 [[!redirects monoid in a monoidal (infinity,1)-category]]
 [[!redirects monoid in a monoidal (∞,1)-category]]
 [[!redirects algebra in an (∞,1)-category]]
