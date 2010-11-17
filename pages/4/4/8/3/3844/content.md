@@ -169,7 +169,7 @@ This model structure is equivalent to the [[model structure on simplicial T-alge
 
 There is a notion of _simplicial algebraic theory_ that captures some class of $(\infty,1)$-algebraic theories. For the moment see section 4 of ([Rezk](#Rezk))
 
-### Structure $(\infty,1)$-sheaves
+### Structure-$(\infty,1)$-sheaves
 
 A pre[[geometry (for structured (∞,1)-toposes)]] is a (multi-sorted) $(\infty,1)$-algebraic theory. A _structure $(\infty,1)$-sheaf_ on an [[(∞,1)-topos]] $\mathcal{X}$ in the sense of [[structured (∞,1)-topos]]es is an $\infty$-algebra over this theory 
 
@@ -178,6 +178,101 @@ $$
 $$
 
 in the $(\infty,1)$-topos $\mathcal{X}$ -- a special one satisfying extra conditions that make it indeed behave like a sheaf of _function algebras_ .
+
+### Symmetric monoidal $(\infty,1)$-Categories and $E_\infty$-algebras {#EInfty}
+
+There is a $(2,1)$-algebraic theory whose algebras in 
+[[(∞,1)Cat]] are [[symmetric monoidal (∞,1)-categories]].  Hence monoids in these algebras are [[E-∞ algebra]]s (see [[monoid in a monoidal (∞,1)-category]]).
+
+This is in ([Cranch](#Cranch)).
+
++-- {: .un_defn}
+###### Definition
+
+Let $2Comm$ be the [[bicategory]] of [[span]]s of [[finite set]]s:
+
+* [[object]]s are finite sets;
+
+* [[morphism]]s are [[span]]s $X_1 \leftarrow Y \to X_1$ in [[FinSet]];
+
+* [[2-morphism]]s are diagrams
+
+  $$
+    \array{
+        && Y
+        \\
+        & \swarrow && \searrow
+        \\
+       X_0 &&\downarrow^{\simeq}&& X_1
+       \\
+       & \nwarrow && \nearrow
+       \\
+       && Y'
+    }
+  $$
+
+  in $FinSet$ whith the vertical morphism an [[isomorphism]].
+
+=--
+
+This is in fact an [[(n,r)-category|(2,1)-category]]. 
+
++-- {: .un_lemma}
+###### Observation
+
+Let $Comm$ be the ordinary [[Lawvere theory]] of commutative monoids. There is a forgetful 2-functor
+
+$$
+  2Comm \to Comm
+ \,.
+$$
+
+This exhibits $2Comm$ as being like $Comm$ but with some additional auto-2-morphisms of the morphism of $Comm$.
+
+=--
+
+This is discussed in ([Cranch, beginning of section 5.2](#Cranch)).
+
+
++-- {: .un_prop}
+###### Proposition
+
+The $(\infty,1)$-category $2Comm$ has finite [[product]]s. The products of objects $A, B$ in $2Comm$ is their [[coproduct]] $A \coprod B$ in [[FinSet]].
+
+=--
+
+This appears as ([Cranch, prop. 4.7](#Cranch)).
+
+
++-- {: .un_prop}
+###### Proposition
+
+An [[(∞,1)-category]] with [[(∞,1)-limit|(∞,1)-product]] is naturally an algebra over the $(2,1)$-theory $2Comm$.
+
+=--
+
+This appears as ([Cranch, theorem 4.26](#Cranch)).
+
++-- {: .un_theorem}
+###### Theorem
+
+An algebra over the $(2,1)$-theory $2Comm$ in [[(∞,1)Cat]] is
+a [[symmetric monoidal (∞,1)-category]].
+
+=--
+
+This appears as ([Cranch, theorem 5.3](#Cranch)).
+
++-- {: .un_theorem}
+###### Theorem
+
+There is a $(2,1)$-algebraic theory $E_\infty$ whose algebras
+are at least in parts like [[E-∞ algebra]]s.
+
+=--
+
+This is ([Cranch](#Cranch)), prop. 6.12, theorem 6.13 and section 8.
+
 
 ## Related concepts
 
@@ -227,6 +322,10 @@ and for multi-sorted theories in
 * [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
 {#Bergner}
 
+A discussion of [[E-∞ algebra]]-structures in terms of $(\infty,1)$-algebraic theories is in
+
+* [[James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
+{#Cranch}
 
 [[!redirects (infinity,1)-algebraic theory]]
 [[!redirects (infinity,1)-algebraic theories]]
