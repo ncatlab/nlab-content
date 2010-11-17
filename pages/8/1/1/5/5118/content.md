@@ -108,6 +108,33 @@ in $C$, with the monoidal structure given by tensor product/juxtaposition.
 
 =--
 
++-- {: .proof}
+###### Proof 
+
+A morphism $f : F_C X \to A$ in $Mon(C)$ with components $f_k : X^{\otimes k} \to U_C A$ is entirely fixed by its component $\tilde f = f_1 : X \to U_C A$ on $X$, because by the homomorphism property and the special free nature of the product in $F_C X$
+
+$$
+  \array{
+    X^{\times k} \otimes X^{\otimes (n-k)} &\stackrel{f_k \otimes f_{n-k}}{\to}&
+    A \otimes A
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\mu_A}}
+    \\
+    X^{\otimes n} &\stackrel{f_{n}}{\to}& A
+  }
+$$
+
+it follows that 
+
+$$
+  f_n :
+  X^{\otimes n} \stackrel{f_1^{\otimes n}}{\to} A^{\otimes n} \stackrel{\mu_A}{\to} A
+  \,.
+$$
+
+Conversely, every choice for $f_1$ extends to a morphism $f$ in $Mon(C)$ this way.
+
+=--
 
 +-- {: .un_prop #AdjunctionOnMonoids}
 ###### Proposition
