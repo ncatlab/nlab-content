@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 This entry is about special properties of [[functor]]s on [[comma category|comma categories]]. See also [[category of presheaves]].
 
 #Contents#
@@ -39,7 +50,7 @@ A weak inverse of $e$ is given by the functor
 $$
   \bar e : PSh(C)/Y(c) \to PSh(C/c)
 $$
-which sends $\eta : F' \to Y(C)$ to $F \in PSh(C/c)$ given by
+which sends $\eta : F' \to Y(c)$ to $F \in PSh(C/c)$ given by
 $$
   F : (f : d \to c) \mapsto F'(d)|_c
   \,,
