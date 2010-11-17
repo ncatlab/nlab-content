@@ -32,7 +32,7 @@ and moreover
 
 * this equivalence is induced by the [[fundamental ∞-groupoid]] construction.
 
-What this actually means in detail depends on which definition [[∞Grpd]] is being used and to which precise incarnation of [[Top]] it is being compared to. 
+What this actually means in detail depends on which definition of [[∞Grpd]] is being used and to which precise incarnation of [[Top]] it is being compared to. 
 
 There are some definitions of [[∞-groupoid]]s for which the homotopy hypothesis is a proven _theorem_ . Depending on where in the spectrum between [[geometric definitions of higher categories]] and [[algebraic definitions of higher categories]] a given definition of $\infty$-groupoids is located, the statement may be more or less obvious. 
 
@@ -42,7 +42,7 @@ A definition of $\infty$-groupoid that is still very geometrical but much more c
 
 A genuine algebraic definition of $\infty$-groupoids for which the homotopy theory has a (non-trivial but tractable) proof is given by [[algebraic Kan complex]]es. 
 
-However for other algebraic definition of $\infty$-groupoids not much indication for how to prove the homotopy hypothsis is known. The definition of [[Trimble ∞-category]] stands out as an algebraic definition that has the notion of [[fundamental ∞-groupoid]] built right into it, but also here it seems unclear at the moment how to make progress with proving the homotopy hypothesis.
+However for other algebraic definitions of $\infty$-groupoids not much indication for how to prove the homotopy hypothsis is known. The definition of [[Trimble ∞-category]] stands out as an algebraic definition that has the notion of [[fundamental ∞-groupoid]] built right into it, but also here it seems unclear at the moment how to make progress with proving the homotopy hypothesis.
 
 In fact, generally the homotopy hypothesis is regarded as a _consistency condition_ for definitions in [[higher category theory]]:
 
@@ -56,8 +56,7 @@ The usual, unstated, implication is that the notion of _equivalence_ of [[n-grou
 
 The reason this is important to specify is that there are other notions of equivalence on categorical structures which model homotopy types in other ways.  For example, if we declare a functor between categories to be a weak equivalence iff its [[nerve]] is a weak equivalence of [[simplicial set]]s, then _all_ homotopy types can be modeled by 1-categories in this way; see the [[Thomason model structure]] for 1-categories.
 
-Finally, in analogy to the homotopy hypothesis, there are also attempts to relate general [[∞-categories]] which need not be groupoidal to [[directed space]]s, in which a morphism which is not invertible would model a path in the space that can only be traversed in one direction.
-
+Finally, in analogy to the homotopy hypothesis, there are also attempts to relate general [[(∞,n)-categories]] (not necessarily groupoidal) to [[directed topological space]]s by a [[fundamental (∞,1)-category|fundamental (∞,n)-catgeory]]-construction. There have been claims that a _directed homotopy hypothesis_ can be proven, but at the moment there does not seem to be a published statement.
 
 
 ## Realizations
