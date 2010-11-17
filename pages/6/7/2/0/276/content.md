@@ -84,7 +84,7 @@ There is an obvious notion of [[morphism]]s $f : C \to D$ of crossed complexes, 
 
 ### From strict $\infty$-groupoids
 
-While the above definition of a crossed complex is slightly baroque, it can naturally be understood as being precisely the data obtained from a [[globular set|globular]] [[strict ∞-groupoid]] by retaining for $k \geq 2$ precisely only those [[k-morphism]]s whose source is a an identity $k-1$-morphisms on an object.
+While the above definition of a crossed complex may seem slightly 'baroque', it can naturally be understood as being precisely the data obtained from a [[globular set|globular]] [[strict ∞-groupoid]] by retaining for $k \geq 2$ precisely only those [[k-morphism]]s whose source is a an identity $k-1$-morphisms on an object.
 
 
 +-- {: .un_defn}
@@ -173,7 +173,7 @@ $$
   }
 $$
 
-is, by the [[exchange law]], equal to the horizontak composite of the 2-morphism 
+is, by the [[exchange law]], equal to the horizontal composite of the 2-morphism 
 
 
 $$
@@ -201,7 +201,7 @@ This is a nonabelian and globular version of the [[Dold-Kan correspondence]].
 
 ### From chain complexes of modules
 
-We describe a construction of a crossed complex from a [[chain complex]] of [[modules over a groupoid]] $(A_n, \mathcal{H})$. As a special case it in particular gives an map of ordinary [[chain complex]]es of [[abelian group]]s into the category of [[crossed complex]]es, and hence into [[strict ∞-groupoid]]s. See also [[Nonabelian Algebraic Topology]].
+We describe a functorial construction of a crossed complex starting with a [[chain complex]] of [[modules over a groupoid]] $(A_n, \mathcal{H})$. As a special case it in particular gives an functor sending ordinary [[chain complex]]es of [[abelian group]]s into the category of [[crossed complex]]es, and hence into [[strict ∞-groupoid]]s. See also [[Nonabelian Algebraic Topology]]. 
 
 Recall the definition of the [semidirect product groupoid](#AdjointModule)  $\mathcal{H} \ltimes A_n$.
 
@@ -386,7 +386,7 @@ $$
 and take the action of this groupoid on all $C_k$ to be trivial. This yields a functor
 
 $$
-  \thets : ChainCplx(Ab) \to CrsCpl
+  \theta : ChainCplx(Ab) \to CrsCpl
 $$
 
 that embeds chain complexes of abelian groups into crossed complexes. 
@@ -504,7 +504,7 @@ The category of [[crossed complexes]] form a variety in the category of all [[hy
 a variety in the category of all simplicial groups.
 
 
-## Related concpepts
+## Related concepts
 
 * [[crossed module]], [[differential crossed module]]
 
