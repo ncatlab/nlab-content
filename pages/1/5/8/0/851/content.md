@@ -41,7 +41,7 @@ Recall from [[join of quasi-categories]] that there are two different but quasi-
 
 
 +-- {: .un_prop}
-###### Proposition
+###### Defnition/Proposition
 
 Let $C$ be a [[quasi-category]]. let $K$ be any [[simplicial set]] and let 
 
