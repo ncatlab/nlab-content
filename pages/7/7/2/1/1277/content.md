@@ -19,7 +19,7 @@ A _comodule_ is to a [[comonoid]] as a [[module]] is to a [[monoid]]
 
 ## Definition
 
-Given a [[comonoid]] $C$ with comultiplication $\Delta_C: C\to C\otimes C$ and counit $\epsilon:C\to \mathbf{1}$ in a [[monoidal category]] $\mathcal{M}$, and an [8object]] $M$ in $\mathcal{M}$,
+Given a [[comonoid]] $C$ with comultiplication $\Delta_C: C\to C\otimes C$ and counit $\epsilon:C\to \mathbf{1}$ in a [[monoidal category]] $\mathcal{M}$, and an [[object]] $M$ in $\mathcal{M}$,
 a __left $C$-coaction__ is 
 
 * a [[morphism]] $\rho: M\to C\otimes M$ 
