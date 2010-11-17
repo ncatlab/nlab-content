@@ -23,5 +23,9 @@ semidirect product:
 $$G_n \cong Ker d^n_n \rtimes  s^{n-1}_{n-1}(G_{n-1}).$$
 =--
 
+This decomposition generalises the one used in the classical [[Dold-Kan correspondence]]. It is extremely useful when analysing the [[Moore complex]] of a simplicial group and the relationship between that complex and the original simplicial group. It plays a crucial role in the theory of [[hypercrossed complexes]].
+
 #Reference#
 D. Conduch&#233;, _Modules crois&#233;s g&#233;n&#233;ralis&#233;s de longueur 2_ , J. Pure Appl. Alg., 34, (1984), 155--178.
+
+[[!redirects Conduché decomposition theorem]]
