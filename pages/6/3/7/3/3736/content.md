@@ -126,7 +126,7 @@ here the disjoint unition is taken over all $j$ and all morphisms $A_j \to X$.
 +-- {: .un_defn}
 ###### Remark
 
-This pushout adds all possible "horn" fillers to $X$, given by the $B_j \to X_1$. However, after adding the new fillers there may also appear new horns. So we continue this procedure iteratively by filling these new horn.
+This pushout adds all possible "[[horn]]" fillers to $X$, given by the $B_j \to X_1$. However, after adding the new fillers there may also appear new horns. So we continue this procedure iteratively by filling these new horns.
 
 Since $\coprod A_j \to \coprod B_j$ is an acylcic cofibration in $C$, so is its its pushout, hence by assumption the pushout $X \to X_1$ is a monomorphism. This implies that if an $A_j \to X_1$ factors through $X \to X_1$ then it does so uniquely.
 
@@ -336,7 +336,7 @@ $$
   }
 $$
 
-of $k \pi$. This is supposed to be the same as
+of $\pi k $. This is supposed to be the same as
 
 $$
   \array{
