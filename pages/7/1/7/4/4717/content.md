@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
 Given an [[adjunction]]
 $$
 R \mathrlap{\begin{matrix}\underoverset{X}{Y}{\begin{svg}
