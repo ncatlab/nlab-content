@@ -35,7 +35,7 @@ This is entirely analogous to how a [[crossed complex]] is obtained from a [[str
 +-- {: .un_def}
 ###### Definition
 
-Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex $((N G)_\bullet,\partial )$ of (possibly nonabelian) is 
+Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex $((N G)_\bullet,\partial )$ of (possibly nonabelian) groups is 
 
 * in degree $n$ the joint [[kernel]] 
 
@@ -53,12 +53,17 @@ Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex 
 
 =--
 
+
+
 +-- {: .un_def}
 ###### Remark
 
-Equivalently one can take the joint joint kernel of all but the $n$-face map and take that to be the diferential.
+Equivalently one can take the  joint kernel of all but the $n$-face map and take that remaining face map to be the differential.
 
 =--
+
+It is important to note, and simple to prove, that $N G$ is a [[normal complex of groups]], so that it is easy to take the homology of the complex, even though the groups involved may be non-abelian. 
+
 
 +-- {: .un_def}
 ###### Remark
@@ -110,7 +115,7 @@ etc.
 +-- {: .un_lemma}
 ###### Lemma
 
-For every simplicial grpip $G$ the complex $(N G)_\bullet$ is a [[normal complex of groups]].
+For every simplicial group $G$ the complex $(N G)_\bullet$ is a [[normal complex of groups]].
 
 =--
 
@@ -118,7 +123,7 @@ For every simplicial grpip $G$ the complex $(N G)_\bullet$ is a [[normal complex
 
 ### On abelian simplicial groups
 
-Let here $A$ be a simplicial [[abelian group]]. Then $(N A)_\bullet \in Ch_\bullet^+$ is a genuine [[connective]] [[chain complex]] in the [[abelian category]] [[Ab]].
+Let here $A$ be a simplicial [[abelian group]]. Then $(N A)_\bullet \in Ch_\bullet^+$ is an ordinary [[connective]] [[chain complex]] in the [[abelian category]] [[Ab]].
 
 There are two other chain complexes naturally associated with $A$:
 
@@ -384,16 +389,19 @@ The Moore complex of a [[simplicial group]] is naturally a [[hypercrossed comple
 
 =--
 
-This has been established in ([CarrascoCegarra](#CarrascoCegarra)).
+This has been established in ([Carrasco-Cegarra](#Carrasco-Cegarra)). In fact, the analysis of the Moore complex and what is necessary to rebuild the simplicial group from its Moore complex is the origin of the abstract motion of hypercrossed complex, so our stated proposition is almost a tautology!
 
-Typically one has pairings  $N G_p \times N G_q \to N G_{p+q}$.
-These are well understood in low dimensions:
+Typically one has pairings  $N G_p \times N G_q \to N G_{p+q}$. These use the [[Conduché decomposition theorem]], see the discussion at [[hypercrossed complex]].
+
+
+
+These Moore complexes are easily understood in low dimensions:
 
 * Suppose that $G$ is a simplicial group with Moore complex $N G$, which satisfies $N G_k = 1$ for $k\gt 1$, then $(G_1,G_0,d_1,d_0)$ has the structure of a [[2-group]]. The [[interchange law]] is satisfied since the corresponding equation in $G_1$ is always the image of an element in $N G_2$, and here that must be trivial. If one thinks of the 2-group as being specified by a [[crossed module]] $(C,P,\delta, a)$, then in terms of the original simplicial group, $G$,  $N G_0 = G_0 = P$, $N G_1 \cong C$, $ \partial = \delta$ and the action of $P$ on $C$ translates to an action of $N G_0$ on $N G_1$ using conjugation by $s_0(p)$, i.e., for $p\in G_0$ and $c\in N G_1$, 
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
-* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]]/[[crossed square]]. 
+* Suppose next that $N G_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]]. 
 
 ## References
 
@@ -412,7 +420,7 @@ A discussion with an emphasis of the generalization to non-abelian simplicial gr
  
 The discusson of the hypercrossed complex structure on the Moore complex of a general simplicial group is in
 
-* [[Pilar Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
-{#CarrascoCegarra}
+* [[Pilar Carrasco|P. Carrasco]], [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_ , J. Pure Appl. Alg., 75, (1991), 195--235
+{#Carrasco-Cegarra}
 
 [[!redirects Moore-complex]]
