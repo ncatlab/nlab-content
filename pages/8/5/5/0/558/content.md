@@ -351,7 +351,7 @@ By the above theorem and the <a href="http://ncatlab.org/nlab/show/Quillen+equiv
 +-- {: .un_theorem}
 ###### Theorem
 
-The [[homotopy category]] of [[cat-n-group]]s is equivalent to that of [[pointed object|pointed]] [[connected]] [[homotopy $n+1$-type]]s.
+The [[homotopy category]] of [[cat-n-group]]s is equivalent to that of [[pointed object|pointed]] [[connected]] [[homotopy n-type|homotopy n+1-type]]s.
 
 =--
 
