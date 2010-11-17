@@ -3958,7 +3958,7 @@ The algebraic aspects of $\infty$-Lie valued connections and the $\infty$-Chern-
 
 The Lie integration of this data to $\infty$-stacks of $\infty$-connections and the construction of the [[Chern-Simons circle 3-bundle]] as an example of $\infty$-Chern-Weil homomorphism is in 
 
-* [[Domenico Fiorenza]], U.S., [[Jim Stasheff]], _The Chern-Simons circle 3-bundle_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
+* [[Domenico Fiorenza]], U.S., [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An $\infty$-Lie theoretic construction_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
 
 This reproduces the description of the refined Chern-Weil homomorphisms in terms of Cech-Deligne cohomology as discussed in
 
