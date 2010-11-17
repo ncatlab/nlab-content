@@ -1,7 +1,7 @@
 
 Given an [[adjunction]]
 $$
-L \mathrlap{\begin{matrix}\underoverset{X}{Y}{\begin{svg}
+R \mathrlap{\begin{matrix}\underoverset{X}{Y}{\begin{svg}
 <svg width="19" height="94" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="73447">
  <g>
   <title>Layer 1</title>
@@ -17,7 +17,7 @@ L \mathrlap{\begin{matrix}\underoverset{X}{Y}{\begin{svg}
   </marker>
  </defs>
 </svg>
-\end{svg}\includegraphics[width=14]{updownarrows}}\end{matrix}}\vdash R\, ,
+\end{svg}\includegraphics[width=14]{updownarrows}}\end{matrix}}\vdash L\, ,
 $$
 there is a [[natural transformation]] (or more generally, a $2$-[[2-morphism|morphism]]) $\eta\colon id_X \to R \circ L$, called the __unit__ of the adjunction.  (This is so called because $R \circ L$ is a [[monad]], which is a kind of [[monoid object]], and $\eta$ is the [[identity element|identity]] of this monoid.  Since 'identity' in this context would suggest an [[identity natural transformation]], we use the synonym 'unit'.)
 
