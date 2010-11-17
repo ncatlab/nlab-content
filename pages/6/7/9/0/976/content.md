@@ -100,51 +100,27 @@ and in section 7.1.6 of
 
 For more details see [[shape of an (infinity,1)-topos]].
 
-The idea here is to analyse $X$ by, roughly, mapping _out_ of it into topological spaces _over_ $X$ that are at least fiberwise nice topological spaces: in other words, to look at $\infty$-[[covering space]]s over $X$.
+This theory fits into the general picture above of a subcategory $D\subset C$, where now $C$ is the $(\infty,1)$-category of $(\infty,1)$-toposes, while $D$ is the category of $\infty$-groupoids, regarded as their presheaf $(\infty,1)$-toposes.  Thus, the "shape" of an $(\infty,1)$-topos $X$ is the functor $Hom(X,-)\colon \infty Gpd \to \infty Gpd$.
 
-For each $\infty$-groupoid $K$ let $LConst_K$ be the corresponding [[constant ∞-stack]] over $X$ and let $\Gamma(LConst_K) \in \infty Grpd$ be its [[global section]]s, i.e. the $\infty$-groupoid of maps from $X$ to the $\infty$-[[covering space]] represented by $LConst_K$.
-
-This operation provides an endofunctor
-
+Alternately, since a [[geometric morphism]] from an $(\infty,1)$-topos $X$ into presheaves on an $\infty$-groupoid $K$ is the same as a [[global section]] of the [[constant ∞-stack]] $L Const(K)$ over $X$, we can also describe this functor as the composite
 $$
-  \infty Grpd \stackrel{LConst}{\to}
+  \infty Grpd \xrightarrow{LConst}
   Sh_{(\infty,1)}(X)
-  \stackrel{\Gamma}{\to}
+  \xrightarrow{\Gamma}
   \infty Grpd
   \,.
 $$
+Thus, we can equivalently describe the shape of $X$ by mapping out of it into topological spaces _over_ $X$ that are at least fiberwise nice topological spaces: in other words, to look at $\infty$-[[covering space]]s over $X$.
 
-And this functor preserves finite [[limit]]s: that's because the pair
+Now, for a [[small category|small]] [[(∞,1)-category]] $C$, a functor $C \to \infty Grpd$ that preserves finite limits may be thought of as a [[pro-object]] in $C$.  Now $\infty Gpd$ is not small, but one may hope that the functors $Shape(X)\colon \infty Gpd \to \infty Gpd$ arising in this way are determined by a small amount of data, and thus give honest pro-$\infty$-groupoids.
 
-$$
-  (LConst \dashv \Gamma) : Sh_{(\infty,1)}(X) \stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}
-  \infty Grpd
-$$
-
-is the terminal [[global section]] [[geometric morphism]] of [[(∞,1)-topos]]es and so $LConst$ preserves finite limits. $\Gamma$, being the [[right adjoint]] preserves of course all limits.
-
-For a [[small category|small]] [[(∞,1)-category]] $C$, a functor $C \to \infty Grpd$ that preserves finite limits may be thought of as a [[pro-object]] in $C$. Motivated by this observation it makes sense to set
-
+We can, if we wish, define for the nonce
 $$
   Pro(\infty Grpd) \subset Func(\infty Grpd, \infty Grpd)^{op}
 $$
+to be the fully subcategory of [[(∞,1)-functor]]s that preserve finite limits, although as discussed above this is not quite correct.  We call the objects in $Pro(\infty Grpd)$ **pro-spaces** or **shapes**.  Notice that by the [[homotopy hypothesis]]-theorem, we can think here of $\infty Grpd \simeq Top_{cg,wH}$ as the category of [[nice topological space]]s, considered up to [[homotopy equivalence]].
 
-on those [[(∞,1)-functor]]s that preserve finite limits. Call an object in $Pro(\infty Grpd)$ a **pro-space** or **shape**. Notice that by the [[homotopy hypothesis]]-theorem we should think here of $\infty Grpd \simeq Top_{cg,wH}$ as the category of [[nice topological space]]s.
-
-Then the above constuction assigns to each $X \in Top$ its strong **shape**
-
-$$
-  Shape(X) := \Gamma \circ LConst \in Pro(\infty Grpd)
-  \,.
-$$
-
-Given a [[geometric morphism]] 
-
-$$
-  (f^* \dashv f_*) : \mathbf{H} \to \mathbf{K}
-$$
-
-of [[(∞,1)-topos]]es, the unit $Id_{\mathbf{K}} \to f_* \circ f^*$ of the adjunction induces a transformation
+The first description of shapes makes it obviously functorial in [[geometric morphisms]] of $(\infty,1)$-toposes.  This can be seen from the second definition as well: given $(f^* \dashv f_*) \colon \mathbf{H} \to \mathbf{K}$, the [[unit of an adjunction|unit]] $Id_{\mathbf{K}} \to f_* \circ f^*$ induces a transformation
 
 $$
   \Gamma_{\mathbf{K}}\circ LConst_{\mathbf{K}}
@@ -166,7 +142,7 @@ $$
   \,.
 $$
 
-The geometric morphism $f$ is a **shape invariance** if $Shape(f)$ is an equivalence of pro-spaces.
+We say the geometric morphism $f$ is a **shape invariance** if $Shape(f)$ is an equivalence of pro-spaces.
 
 +-- {: .un_prop }
 ###### Proposition
