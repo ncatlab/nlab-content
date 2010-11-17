@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Coslice (under) categories
 * tic
 {: toc}
@@ -55,22 +66,21 @@ The left vertical morphism $c \downarrow C \to C$ is the forgetful morphism whic
 The [[duality|dual]] notion is an [[over category]].
 
 
-##Examples#
+## Examples
 
 * $Set_*$, the category of [[pointed set]]s, is the undercategory $pt\downarrow Set$, where $pt \simeq \{\bullet\}$ is [[generalized the|the]] singleton set.
 
 * The category of commutative algebras over a field $F$ is the category $F \downarrow$[[Ring]] of commutative rings under $F$.
 
-On this last example we had some blog discussion at
 
-* John Baez, [A Quick Algebra Quiz](http://golem.ph.utexas.edu/category/2008/12/a_quick_algebra_quiz.html)
+## Related concepts
 
+* [[slice category]]
 
-##Discussion#
+* [[over category]] / [[over (∞,1)-category]]
 
-_[[Eric Forgy|Eric]] says_: I thought this sounded familiar. Is an under category the same thing as what Urs calls a <a href="http://golem.ph.utexas.edu/category/2007/07/tangent_categories.html">tangent category</a>?
+* **under category**
 
-_[[Eric Forgy|Eric]] says_: Found it, but I'll leave my question here in case it inspires anything that can be included. I see on <a href="http://www.math.uni-hamburg.de/home/schreiber/tangcat.pdf">page 3</a> Urs says that a tangent category is a co-slice category.
 
 
 [[!redirects under category]]
