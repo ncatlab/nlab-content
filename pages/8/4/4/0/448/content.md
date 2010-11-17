@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -21,7 +32,7 @@ This defines an evident [[functor]]
 
 $$SimpComplex \to Set^{Fin_{inj}^{op}}: K \mapsto K^\sim$$ 
 
-that is [[full andd faithful functor|full and faithful]]. In fact, following a suggestion of James Dolan, Baez and Hoffnung characterize the category of simplicial complexes up to equivalence as the full subcategory of [[concrete sheaf|concrete sheaves]] on $Fin_{inj}$ with respect to the trivial [[Grothendieck topology|topology]] (where the only covering sieve $F \hookrightarrow hom(-, D)$ is the maximal sieve). 
+that is [[full and faithful functor|full and faithful]]. In fact, following a suggestion of James Dolan, Baez and Hoffnung characterize the category of simplicial complexes up to equivalence as the full subcategory of [[concrete sheaf|concrete sheaves]] on $Fin_{inj}$ with respect to the trivial [[Grothendieck topology|topology]] (where the only covering sieve $F \hookrightarrow hom(-, D)$ is the maximal sieve). 
 
 It follows from this characterization that the category of simplicial complexes is a [[quasitopos]], and in particular is locally cartesian closed. The category of simplicial sets on the other hand is a [[topos]]. 
 
