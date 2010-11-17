@@ -278,6 +278,38 @@ is the operad for [[homotopy coherent diagram]]s over $C$ in $\mathcal{E}$.
 
 The rectification theorem above now says that every homotopy coherent diagram is equivalent to an ordinary $\mathcal{E}$-diagram. For $\mathcal{E} = $ [[Top]] this is known as [[Vogt's theorem]].
 
+### $(\infty,1)$-Categories of algebras and bimodules over an operad {#InfCatOfMods}
+
+The constuction $Alg_{\mathcal{E}}(P)$ of a category of [[algebras over an operad]] is contravariantly functorial in $P$. Therefore if $P^\bullet$ is a [[cosimplicial object]] in the category of operads, we have that $Alg_{\mathcal{E}}(P^\bullet)$ is a (large) [[simplicial category]] of algebras. Moreover, the [[Boardman-Vogt resolution]] $W(P)$ is functorial in $P$. 
+
+These two facts together allow us to construct simplicial categories of homotopy algebras.
+
+Specifically, there is a cosimplicial operad $Assoc^\bullet$ which
+
+* in degree 0 is the usual [[associative operad]] $Assoc^0  = Assoc$,
+
+* in degree 1 is the operad whose algebras are triples consisting of two associative monoids and one [[bimodule]] between them;
+
+* in degree 2 it is the operad whose algebras are tuples consisting of three associative algebras $A_0, A_1, A_2$ as well as  one $A_i$-$A_j$-bimodule $N_{ i j}$ for each $0 \leq i \lt j \leq 2$ and a homomorphism of bimodules 
+
+  $$
+    N_{0 1} \otimes_{A_1} N_{1 2} \to N_{0 2}
+  $$
+
+* and so on.
+
+The simplicial category of algebras over $Assoc^\bullet$ is one incarnation of the [[2-category]] of algebras, bimodules and bimodules homomorphisms.
+
+We can pass to the corresponding $\infty$-algebras by applying the [[Boardman-Vogt resolution]] to the entire cosimplicial diagram of operads, to obtain the cosimplicial [[A-∞ operad]]
+
+$$
+  A_\infty^\bullet := W(Assoc^\bullet)
+  \,.
+$$
+
+The [[simplicial category]] of algebras over this has as objects [[A-∞ algebra]]s, as morphism bimodules between these, and so on.
+
+This is discussed in ([BergerMoerdijkAlgebras, section 6](#BergerMoerdijkAlgebras)).
 
 ## Related concepts
 
