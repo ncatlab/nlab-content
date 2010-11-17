@@ -18,9 +18,19 @@
 
 ## Definition ##
 
++-- {: .un_prop}
+###### Proposition
+
+
 For $C$ a [[model category]] and $X \in C$ an [[object]], the [[over category]] $C/X$ as well as the [[undercategory]] $X/C$ inherit themselves structures of model categories whose [[fibrations]], [[cofibration]]s and [[weak equivalences]] are precisely the morphism that become fibrations, cofibrations and weak equivalences in $C$ under the forgetful functor $C/X \to C$ or $X/C \to C$.
 
+=--
+
 ## Properties ##
+
++-- {: .un_prop}
+###### Proposition
+
 
 If $C$ is
 
@@ -32,11 +42,14 @@ If $C$ is
 
 then so are $C/X$ and $X/C$.
 
-The proofs are in _OvMod_ .
+=--
+
+The proofs are in ([OvMod](#OvMod)).
 
 ## References ##
 
-* **OvMod** Hirschhorn, _Overcategories and undercategories of model categories_ ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
+* Hirschhorn, _Overcategories and undercategories of model categories_ ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
+{#OvMod}
 
 [[!redirects model structure on an overcategory]]
 [[!redirects model structure on an under category]]
