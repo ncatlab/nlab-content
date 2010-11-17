@@ -9,6 +9,14 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
+
 Given an [[adjunction]]
 $$
 R \mathrlap{\begin{matrix}\underoverset{X}{Y}{\begin{svg}
@@ -32,6 +40,23 @@ $$
 there is a [[natural transformation]] (or more generally, a $2$-[[2-morphism|morphism]]) $\eta\colon id_X \to R \circ L$, called the __unit__ of the adjunction.  (This is so called because $R \circ L$ is a [[monad]], which is a kind of [[monoid object]], and $\eta$ is the [[identity element|identity]] of this monoid.  Since 'identity' in this context would suggest an [[identity natural transformation]], we use the synonym 'unit'.)
 
 Similarly, there is $2$-morphism $\epsilon\colon L \circ R \to id_Y$, called the __counit__ of the adjunction.  (This is the co-identity of the [[comonad]] $L \circ R$.)
+
+## Properties
+
+Unit and counit of an adjunction satisfy the [[triangle identities]].
+
+An [[adjunct]] is given by precomposition with a unit or postcomposition with a counit.
+
+## Related concepts
+
+* [[adjunction]]
+
+* [[zig-zag law]]/[[triangle identity]]
+
+* **unit of an adjunction**
+
+* [[adjunct]]
+
 
 
 [[!redirects unit of an adjunction]]
